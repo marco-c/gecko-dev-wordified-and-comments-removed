@@ -314,7 +314,7 @@ StyleSVGReset
 >
 mFloodColor
 .
-DependsOnCurrentColor
+IsCurrentColor
 (
 )
 )
