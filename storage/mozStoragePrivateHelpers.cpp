@@ -198,9 +198,6 @@ return
 NS_ERROR_FILE_ACCESS_DENIED
 ;
 case
-SQLITE_PROTOCOL
-:
-case
 SQLITE_BUSY
 :
 return
@@ -228,9 +225,6 @@ case
 SQLITE_FULL
 :
 case
-SQLITE_NOLFS
-:
-case
 SQLITE_TOOBIG
 :
 return
@@ -243,13 +237,7 @@ return
 NS_ERROR_OUT_OF_MEMORY
 ;
 case
-SQLITE_MISMATCH
-:
-case
 SQLITE_MISUSE
-:
-case
-SQLITE_RANGE
 :
 return
 NS_ERROR_UNEXPECTED
