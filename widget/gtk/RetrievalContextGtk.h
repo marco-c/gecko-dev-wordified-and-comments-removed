@@ -20,6 +20,12 @@ nsClipboard
 .
 h
 "
+namespace
+mozilla
+:
+:
+widget
+{
 class
 RetrievalContextGtk
 final
@@ -108,5 +114,6 @@ sPrimaryTargets
 ;
 }
 ;
+}
 #
 endif
