@@ -531,11 +531,6 @@ nsDragService
 cpp
 "
 "
-nsDragServiceGtk
-.
-cpp
-"
-"
 nsFilePicker
 .
 cpp
@@ -770,6 +765,11 @@ UNIFIED_SOURCES
 +
 =
 [
+"
+nsDragServiceX11
+.
+cpp
+"
 "
 nsShmImage
 .

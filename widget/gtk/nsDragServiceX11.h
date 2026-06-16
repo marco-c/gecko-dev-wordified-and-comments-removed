@@ -1,9 +1,9 @@
 #
 ifndef
-nsDragServiceGtk_h_
+nsDragServiceX11_h_
 #
 define
-nsDragServiceGtk_h_
+nsDragServiceX11_h_
 #
 include
 "
@@ -43,7 +43,7 @@ mozilla
 widget
 {
 class
-nsDragSessionGtk
+nsDragSessionX11
 :
 public
 nsDragSession
@@ -145,7 +145,7 @@ override
 ;
 public
 :
-nsDragSessionGtk
+nsDragSessionX11
 (
 )
 ;
@@ -153,7 +153,7 @@ protected
 :
 virtual
 ~
-nsDragSessionGtk
+nsDragSessionX11
 (
 )
 =
@@ -162,13 +162,13 @@ default
 private
 :
 struct
-DragTaskGtk
+DragTaskX11
 :
 public
 DragTask
 {
 explicit
-DragTaskGtk
+DragTaskX11
 (
 DragTaskType
 aType
@@ -220,7 +220,7 @@ aDragContext
 ;
 virtual
 ~
-DragTaskGtk
+DragTaskX11
 (
 )
 =
