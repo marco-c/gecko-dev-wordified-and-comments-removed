@@ -326,6 +326,11 @@ PlusInfinity
 TargetRateConstraints
 constraints
 ;
+bool
+restart_bwe
+=
+true
+;
 }
 ;
 struct
