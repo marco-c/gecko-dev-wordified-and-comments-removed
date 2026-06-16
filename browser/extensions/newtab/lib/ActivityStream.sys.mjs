@@ -3798,11 +3798,11 @@ milliseconds
 "
 value
 :
-60000
+180000
 /
 /
-1
-minute
+3
+minutes
 }
 ]
 [

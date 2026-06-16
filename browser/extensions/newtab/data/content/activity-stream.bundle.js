@@ -99405,6 +99405,17 @@ prefs
 trainhopConfig
 ?
 .
+widgets
+?
+.
+sportsWidgetLiveEnabled
+|
+|
+prefs
+.
+trainhopConfig
+?
+.
 sports
 ?
 .
