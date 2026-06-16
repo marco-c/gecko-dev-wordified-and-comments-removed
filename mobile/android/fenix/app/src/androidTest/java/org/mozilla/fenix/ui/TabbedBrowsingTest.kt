@@ -2929,6 +2929,15 @@ settings
 gridTabView
 =
 false
+appContext
+.
+settings
+(
+)
+.
+tabGroupsOnboardingEnabled
+=
+false
 val
 webPages
 =
