@@ -1202,7 +1202,6 @@ OriginMetadata
 aOriginMetadata
 )
 ;
-static
 nsresult
 CreateDirectoryMetadata2
 (

@@ -16205,9 +16205,8 @@ QM_TRY
 (
 MOZ_TO_RESULT
 (
-QuotaManager
-:
-:
+aQuotaManager
+.
 CreateDirectoryMetadata2
 (
 *
