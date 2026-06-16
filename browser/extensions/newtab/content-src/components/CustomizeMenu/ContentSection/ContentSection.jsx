@@ -444,11 +444,11 @@ widgetsMayBeMaximized
 widgetsMaximized
 ?
 "
-small
+medium
 "
 :
 "
-medium
+large
 "
 ;
 }
@@ -457,7 +457,7 @@ else
 widgetSize
 =
 "
-mini
+small
 "
 ;
 }
@@ -473,11 +473,11 @@ widgetsMayBeMaximized
 widgetsMaximized
 ?
 "
-small
+medium
 "
 :
 "
-medium
+large
 "
 ;
 }

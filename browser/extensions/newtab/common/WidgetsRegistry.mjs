@@ -1571,9 +1571,6 @@ validSizes
 :
 [
 "
-mini
-"
-"
 small
 "
 "
