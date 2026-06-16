@@ -22760,6 +22760,10 @@ stopping
 )
 )
 {
+worker_tasks
+.
+AddWithFinalizer
+(
 transceiver
 -
 >
@@ -22768,8 +22772,9 @@ internal
 )
 -
 >
-StopStandard
+StopStandardAsync
 (
+)
 )
 ;
 }
