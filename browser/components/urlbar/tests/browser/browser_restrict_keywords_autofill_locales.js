@@ -381,9 +381,9 @@ cronologia
 "
 history
 ]
-UrlbarTokenizer
+UrlbarShared
 .
-RESTRICT
+RESTRICT_TOKENS
 .
 HISTORY
 ]
@@ -394,9 +394,9 @@ segnalibri
 "
 bookmarks
 ]
-UrlbarTokenizer
+UrlbarShared
 .
-RESTRICT
+RESTRICT_TOKENS
 .
 BOOKMARK
 ]
@@ -407,9 +407,9 @@ schede
 "
 tabs
 ]
-UrlbarTokenizer
+UrlbarShared
 .
-RESTRICT
+RESTRICT_TOKENS
 .
 OPENPAGE
 ]
@@ -420,9 +420,9 @@ azioni
 "
 actions
 ]
-UrlbarTokenizer
+UrlbarShared
 .
-RESTRICT
+RESTRICT_TOKENS
 .
 ACTION
 ]

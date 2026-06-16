@@ -1563,9 +1563,9 @@ gTouchBarHelper
 .
 insertRestrictionInUrlbar
 (
-UrlbarTokenizer
+UrlbarShared
 .
-RESTRICT
+RESTRICT_TOKENS
 .
 BOOKMARK
 )
@@ -1595,9 +1595,9 @@ gTouchBarHelper
 .
 insertRestrictionInUrlbar
 (
-UrlbarTokenizer
+UrlbarShared
 .
-RESTRICT
+RESTRICT_TOKENS
 .
 HISTORY
 )
@@ -1627,9 +1627,9 @@ gTouchBarHelper
 .
 insertRestrictionInUrlbar
 (
-UrlbarTokenizer
+UrlbarShared
 .
-RESTRICT
+RESTRICT_TOKENS
 .
 OPENPAGE
 )
@@ -1659,9 +1659,9 @@ gTouchBarHelper
 .
 insertRestrictionInUrlbar
 (
-UrlbarTokenizer
+UrlbarShared
 .
-RESTRICT
+RESTRICT_TOKENS
 .
 TAG
 )

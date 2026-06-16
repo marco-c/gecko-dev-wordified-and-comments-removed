@@ -1297,9 +1297,9 @@ search
 {
 value
 :
-UrlbarTokenizer
+UrlbarShared
 .
-RESTRICT
+RESTRICT_TOKENS
 .
 SEARCH
 +

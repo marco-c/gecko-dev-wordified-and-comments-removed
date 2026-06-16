@@ -3010,9 +3010,9 @@ uri
 let
 query
 =
-UrlbarTokenizer
+UrlbarShared
 .
-RESTRICT
+RESTRICT_TOKENS
 .
 OPENPAGE
 ;
@@ -3379,9 +3379,9 @@ tabs
 let
 query
 =
-UrlbarTokenizer
+UrlbarShared
 .
-RESTRICT
+RESTRICT_TOKENS
 .
 OPENPAGE
 ;

@@ -579,9 +579,9 @@ createContext
 (
 foo
 {
-UrlbarTokenizer
+UrlbarShared
 .
-RESTRICT
+RESTRICT_TOKENS
 .
 HISTORY
 }

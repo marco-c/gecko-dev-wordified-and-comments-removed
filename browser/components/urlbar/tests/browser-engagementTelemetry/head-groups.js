@@ -1935,9 +1935,9 @@ Object
 .
 values
 (
-UrlbarTokenizer
+UrlbarShared
 .
-RESTRICT
+RESTRICT_TOKENS
 )
 ;
 for
