@@ -62,17 +62,21 @@ content
 EDIT_OLD_PROMPT_CSS
 =
 "
-[
-data
--
-mat
+.
+mdc
 -
 icon
 -
-name
+button
+:
+has
+(
+[
+fonticon
 =
 edit
 ]
+)
 "
 OLD_PROMPT_CSS
 =
@@ -203,6 +207,14 @@ manually
 )
         
 return
+    
+await
+client
+.
+stall
+(
+2
+)
     
 client
 .
