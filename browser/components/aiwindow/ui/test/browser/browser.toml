@@ -425,13 +425,6 @@ js
 ]
 [
 "
-browser_aiwindow_smartbar_chat_active_navigate
-.
-js
-"
-]
-[
-"
 browser_aiwindow_smartbar_context_chips
 .
 js
@@ -623,13 +616,6 @@ js
 [
 "
 browser_sidebar_aiwindow
-.
-js
-"
-]
-[
-"
-browser_smartwindow_abort_on_tab_close
 .
 js
 "
