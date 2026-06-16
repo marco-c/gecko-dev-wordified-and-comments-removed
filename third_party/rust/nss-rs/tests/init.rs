@@ -159,7 +159,9 @@ init_db
 test_fixture
 :
 :
-NSS_DB_PATH
+db_path
+(
+)
 )
 .
 unwrap

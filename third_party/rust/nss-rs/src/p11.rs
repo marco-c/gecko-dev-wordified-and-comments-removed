@@ -1938,7 +1938,7 @@ SIZE
 :
 usize
 =
-256
+4096
 ;
 const
 CUTOFF

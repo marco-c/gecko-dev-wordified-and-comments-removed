@@ -126,10 +126,7 @@ cc
 ssthresh
 (
 )
-usize
-:
-:
-MAX
+None
 )
 ;
 }
@@ -171,6 +168,8 @@ cc
 ssthresh
 (
 )
+Some
+(
 cc
 .
 cwnd_initial
@@ -178,6 +177,7 @@ cwnd_initial
 )
 /
 2
+)
 )
 ;
 }
@@ -510,6 +510,7 @@ on_packet_sent
 (
 p
 now
+false
 )
 ;
 }
@@ -629,6 +630,7 @@ sent_packets
 6
 ]
 now
+false
 )
 ;
 assert
@@ -958,6 +960,7 @@ on_packet_sent
 &
 p
 now
+false
 )
 ;
 p
@@ -1198,15 +1201,6 @@ cc
 now
 )
 ;
-cc
-.
-on_packet_sent
-(
-&
-p4
-now
-)
-;
 now
 +
 =
@@ -1335,8 +1329,6 @@ cc
 bytes_in_flight
 (
 )
-2
-*
 cc
 .
 max_datagram_size

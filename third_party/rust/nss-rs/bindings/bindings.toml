@@ -647,6 +647,9 @@ PK11_GetInternalKeySlot
 PK11_GetInternalSlot
 "
 "
+PK11_IsFIPS
+"
+"
 PK11_GetKeyData
 "
 "

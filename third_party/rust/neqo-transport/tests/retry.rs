@@ -84,6 +84,9 @@ nss
 :
 {
 AuthenticationStatus
+RecordProtectionOps
+as
+_
 generate_ech_keys
 }
 ;
@@ -4056,7 +4059,8 @@ unwrap
 ;
 let
 (
-aead
+aead_enc
+aead_dec
 hp
 )
 =
@@ -4120,7 +4124,7 @@ len
 let
 plaintext
 =
-aead
+aead_dec
 .
 decrypt
 (
@@ -4291,7 +4295,7 @@ u8
 default
 )
 ;
-aead
+aead_enc
 .
 encrypt
 (
@@ -4673,6 +4677,7 @@ short_dcid
 ;
 let
 (
+_
 aead_orig
 hp_orig
 )
@@ -4858,6 +4863,7 @@ to_vec
 let
 (
 aead_short
+_
 hp_short
 )
 =

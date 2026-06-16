@@ -32,7 +32,11 @@ crate
 :
 :
 {
+Mode
 RecordProtection
+RecordProtectionOps
+as
+_
 constants
 :
 :
@@ -249,6 +253,9 @@ salt
 [
 u8
 ]
+mode
+:
+Mode
 )
 -
 >
@@ -326,6 +333,7 @@ secret
 neqo
 self
 "
+mode
 )
 }
 pub
@@ -485,6 +493,10 @@ self
 key
 &
 salt
+Mode
+:
+:
+Encrypt
 )
 ?
 ;
@@ -1052,6 +1064,10 @@ make_aead
 (
 key
 salt
+Mode
+:
+:
+Decrypt
 )
 ?
 ;

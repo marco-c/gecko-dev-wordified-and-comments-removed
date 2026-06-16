@@ -52,7 +52,13 @@ use
 nss
 :
 :
+{
+Mode
+RecordProtectionOps
+as
+_
 random
+}
 ;
 use
 strum
@@ -801,6 +807,10 @@ retry
 use_aead
 (
 version
+Mode
+:
+:
+Encrypt
 |
 aead
 |
@@ -4220,6 +4230,10 @@ retry
 use_aead
 (
 version
+Mode
+:
+:
+Decrypt
 |
 aead
 |
@@ -6607,7 +6621,7 @@ prot
 CryptoDxState
 :
 :
-test_default
+test_default_write
 (
 )
 ;
@@ -7327,7 +7341,7 @@ mut
 CryptoDxState
 :
 :
-test_default
+test_default_write
 (
 )
 )
@@ -7853,7 +7867,7 @@ prot
 CryptoDxState
 :
 :
-test_default
+test_default_write
 (
 )
 ;
@@ -8211,7 +8225,7 @@ mut
 CryptoDxState
 :
 :
-test_default
+test_default_write
 (
 )
 )
@@ -8599,7 +8613,7 @@ mut
 CryptoDxState
 :
 :
-test_default
+test_default_write
 (
 )
 )
@@ -8726,7 +8740,7 @@ crypto
 CryptoDxState
 :
 :
-test_default
+test_default_write
 (
 )
 ;
@@ -8953,7 +8967,7 @@ mut
 CryptoDxState
 :
 :
-test_default
+test_default_write
 (
 )
 )

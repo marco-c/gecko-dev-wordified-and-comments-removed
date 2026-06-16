@@ -125,9 +125,9 @@ version
 "
 0
 .
-28
+29
 .
-1
+0
 "
 authors
 =
@@ -420,6 +420,11 @@ neqo
 -
 transport
 "
+default
+-
+features
+=
+false
 [
 dependencies
 .
