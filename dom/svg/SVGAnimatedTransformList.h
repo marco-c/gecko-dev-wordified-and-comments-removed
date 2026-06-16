@@ -431,11 +431,12 @@ const
 nsAString
 &
 aSpec
-float
-*
-aVars
-int32_t
-aNVars
+SVGTransformSMILData
+:
+:
+SimpleParams
+&
+aParams
 )
 ;
 SVGAnimatedTransformList
