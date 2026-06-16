@@ -882,6 +882,14 @@ location
 return
 ;
 }
+if
+(
+!
+source
+.
+isStyleSheet
+)
+{
 await
 dispatch
 (
@@ -891,6 +899,7 @@ location
 )
 )
 ;
+}
 if
 (
 getSelectedLocation
