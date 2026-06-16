@@ -473,6 +473,7 @@ data
 {
 manifest
 iconSize
+purposes
 }
 }
 )
@@ -502,6 +503,7 @@ this
 contentWindow
 manifest
 iconSize
+purposes
 )
 ;
 response
