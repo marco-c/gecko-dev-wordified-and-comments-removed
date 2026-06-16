@@ -416,8 +416,10 @@ DownloadProgressed
 (
 )
 ;
+already_AddRefed
+<
 MediaDecoderStateMachineBase
-*
+>
 CreateStateMachine
 (
 bool
