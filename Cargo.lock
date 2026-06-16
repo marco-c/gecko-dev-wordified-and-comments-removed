@@ -17044,7 +17044,7 @@ hashbrown
 .
 16
 .
-0
+1
 "
 "
 log
@@ -17756,7 +17756,7 @@ hashbrown
 .
 16
 .
-0
+1
 "
 ]
 [
@@ -17776,7 +17776,7 @@ version
 .
 16
 .
-0
+1
 "
 source
 =
@@ -17804,7 +17804,7 @@ index
 checksum
 =
 "
-5419bdc4f6a9207fbeba6d11b604d481addf78ecd10c11ad51e76c2f6482748d
+841d1cc9bed7f9236f321df977030373f4a4163ae1a7dbfe1a51a2c1a51d9100
 "
 dependencies
 =
@@ -17822,6 +17822,9 @@ foldhash
 "
 "
 serde
+"
+"
+serde_core
 "
 ]
 [
@@ -17911,7 +17914,7 @@ hashbrown
 .
 16
 .
-0
+1
 "
 ]
 [
@@ -20436,7 +20439,7 @@ hashbrown
 .
 16
 .
-0
+1
 "
 "
 serde
@@ -28270,7 +28273,7 @@ hashbrown
 .
 16
 .
-0
+1
 "
 "
 indexmap
@@ -39763,7 +39766,7 @@ hashbrown
 .
 16
 .
-0
+1
 "
 "
 rusqlite
@@ -48097,7 +48100,7 @@ hashbrown
 .
 16
 .
-0
+1
 "
 "
 indexmap
@@ -48412,7 +48415,7 @@ hashbrown
 .
 16
 .
-0
+1
 "
 "
 libc
