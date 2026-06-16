@@ -151,16 +151,15 @@ str
 b
 ;
 \
-MOZ_LOG
+MOZ_LOG_FMT
 (
 getLogModule
 (
 )
 level
-(
 "
-%
-s
+{
+}
 "
 str
 .
@@ -170,7 +169,6 @@ str
 .
 c_str
 (
-)
 )
 )
 ;
