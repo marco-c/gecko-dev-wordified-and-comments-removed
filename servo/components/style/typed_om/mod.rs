@@ -237,6 +237,15 @@ NumericValue
 ;
 pub
 type
+MathNegate
+=
+Box
+<
+NumericValue
+>
+;
+pub
+type
 MathMin
 =
 ThinVec
@@ -288,6 +297,10 @@ MathValue
 Sum
 (
 MathSum
+)
+Negate
+(
+MathNegate
 )
 Min
 (
