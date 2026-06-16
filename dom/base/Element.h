@@ -3085,11 +3085,10 @@ aNotify
 nsresult
 SetNoNameSpaceAttrOnNewlyCreatedElement
 (
-RefPtr
+already_AddRefed
 <
 nsAtom
 >
-&
 aName
 nsHtml5String
 &
