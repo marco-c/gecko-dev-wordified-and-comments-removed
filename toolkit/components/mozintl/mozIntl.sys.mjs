@@ -5080,6 +5080,11 @@ options
 {
 if
 (
+!
+locales
+&
+&
+(
 options
 .
 dateStyle
@@ -5088,6 +5093,7 @@ dateStyle
 options
 .
 timeStyle
+)
 )
 {
 options
