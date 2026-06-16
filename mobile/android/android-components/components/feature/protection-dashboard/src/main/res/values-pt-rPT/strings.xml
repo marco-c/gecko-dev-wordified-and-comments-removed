@@ -245,7 +245,7 @@ one
 1
 d
 MB
-guardados
+guardado
 <
 /
 item
@@ -294,7 +294,7 @@ protections_dashboard_where_they_came_from
 >
 De
 onde
-veio
+vieram
 <
 /
 string
@@ -319,8 +319,7 @@ name
 protections_dashboard_category_ads
 "
 >
-An
-ncios
+Publicidade
 <
 /
 string
@@ -372,7 +371,8 @@ name
 protections_dashboard_category_social
 "
 >
-Social
+Redes
+sociais
 <
 /
 string
@@ -569,7 +569,7 @@ one
 %
 1
 d
-rastreadores
+rastreador
 <
 /
 item
@@ -674,7 +674,7 @@ one
 %
 1
 s
-bloqueados
+bloqueado
 desde
 %
 2
