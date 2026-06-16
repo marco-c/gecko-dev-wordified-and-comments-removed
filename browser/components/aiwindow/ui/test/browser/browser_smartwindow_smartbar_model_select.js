@@ -27,11 +27,9 @@ components
 /
 aiwindow
 /
-ui
+models
 /
-modules
-/
-AIWindowConstants
+Utils
 .
 sys
 .
