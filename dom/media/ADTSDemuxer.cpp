@@ -61,7 +61,7 @@ msg
 .
 )
 \
-MOZ_LOG_FMT
+MOZ_LOG
 (
 gMediaDemuxerLog
 LogLevel

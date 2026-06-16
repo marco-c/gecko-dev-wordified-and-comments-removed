@@ -849,8 +849,8 @@ HLSResourceCallbacksSupport
 "
 onError
 (
-{
-}
+%
+d
 )
 "
 aErrorCode
@@ -1881,8 +1881,8 @@ HLSDecoder
 :
 allocated
 =
-{
-}
+%
+zu
 "
 sAllocatedInstances
 )
@@ -1927,8 +1927,8 @@ HLSDecoder
 :
 allocated
 =
-{
-}
+%
+zu
 "
 sAllocatedInstances
 )

@@ -445,8 +445,8 @@ SR_LOG
 STT
 Result
 :
-{
-}
+%
+s
 "
 mBuf
 .

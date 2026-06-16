@@ -31,12 +31,10 @@ LOG
 define
 LOG
 (
-.
-.
-.
+args
 )
 \
-MOZ_LOG_FMT
+MOZ_LOG
 (
 mozilla
 :
@@ -52,8 +50,7 @@ LogLevel
 :
 :
 Debug
-\
-__VA_ARGS__
+args
 )
 #
 endif

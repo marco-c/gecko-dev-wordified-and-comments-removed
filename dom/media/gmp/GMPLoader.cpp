@@ -635,8 +635,8 @@ EnsureAppLockerCacheIsWarm
 CreateFileW
 failed
 (
-{
-}
+%
+lu
 )
 "
 GetLastError
@@ -831,8 +831,8 @@ opening
 SrpDevice
 failed
 (
-{
-}
+%
+lu
 )
 "
 GetLastError
@@ -886,8 +886,8 @@ EnsureAppLockerCacheIsWarm
 DeviceIoControl
 failed
 (
-{
-}
+%
+lu
 )
 "
 "

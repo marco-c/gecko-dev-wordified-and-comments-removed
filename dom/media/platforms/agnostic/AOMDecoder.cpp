@@ -297,7 +297,7 @@ message
 .
 )
 \
-MOZ_LOG_FMT
+MOZ_LOG
 (
 sPDMLog
 mozilla
@@ -308,19 +308,20 @@ LogLevel
 :
 Debug
 \
+(
 "
 AOMDecoder
 :
 :
-{
-}
+%
+s
 :
-{
-}
+%
+s
 (
 code
-{
-}
+%
+d
 )
 "
 message
@@ -337,6 +338,7 @@ code
 #
 #
 __VA_ARGS__
+)
 )
 #
 define
@@ -5026,7 +5028,7 @@ isErr
 )
 )
 {
-MOZ_LOG_FMT
+MOZ_LOG
 (
 sPDMLog
 mozilla
@@ -5036,6 +5038,7 @@ LogLevel
 :
 :
 Debug
+(
 "
 AOMDecoder
 :
@@ -5048,6 +5051,7 @@ read
 MDCV
 fields
 "
+)
 )
 ;
 continue
@@ -5262,7 +5266,7 @@ isErr
 )
 )
 {
-MOZ_LOG_FMT
+MOZ_LOG
 (
 sPDMLog
 mozilla
@@ -5272,6 +5276,7 @@ LogLevel
 :
 :
 Debug
+(
 "
 AOMDecoder
 :
@@ -5284,6 +5289,7 @@ read
 CLL
 fields
 "
+)
 )
 ;
 continue

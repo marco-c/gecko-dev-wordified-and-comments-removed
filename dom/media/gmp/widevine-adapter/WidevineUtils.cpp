@@ -8,7 +8,7 @@ h
 #
 include
 <
-stdint
+inttypes
 .
 h
 >
@@ -51,8 +51,8 @@ WidevineBuffer
 (
 size
 =
-{
-}
+%
+zu
 )
 created
 "
@@ -82,8 +82,10 @@ WidevineBuffer
 (
 size
 =
-{
-}
+%
+"
+PRIu32
+"
 )
 destroyed
 "

@@ -135,14 +135,12 @@ LOG
 type
 msg
 )
-\
-MOZ_LOG_FMT
+MOZ_LOG
 (
 GetSpeechSynthLog
 (
 )
 type
-MOZ_LOG_EXPAND_ARGS
 msg
 )
 namespace
@@ -725,8 +723,8 @@ SpeechSynthesis
 AdvanceQueue
 length
 =
-{
-}
+%
+zu
 "
 mSpeechQueue
 .

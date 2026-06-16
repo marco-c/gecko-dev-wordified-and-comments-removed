@@ -72,8 +72,8 @@ aArg
 EME_LOG
 (
 "
-{
-}
+%
+s
 promise
 resolved
 "

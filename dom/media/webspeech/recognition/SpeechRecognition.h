@@ -201,7 +201,7 @@ SR_LOG
 .
 )
 \
-MOZ_LOG_FMT
+MOZ_LOG
 (
 GetSpeechRecognitionLog
 (
@@ -213,7 +213,9 @@ LogLevel
 :
 :
 Debug
+(
 __VA_ARGS__
+)
 )
 class
 SpeechRecognition
