@@ -6752,9 +6752,6 @@ mathml9
 mathml10
 "
 "
-mathmlDiagFontFamily
-"
-"
 monochrome
 "
 "
