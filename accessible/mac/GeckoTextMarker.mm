@@ -3005,6 +3005,8 @@ GeckoTextMarkerRange
 :
 Select
 (
+bool
+aSetFocus
 )
 const
 {
@@ -3013,6 +3015,7 @@ mRange
 SetSelection
 (
 0
+aSetFocus
 )
 ;
 }

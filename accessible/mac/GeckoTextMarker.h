@@ -414,6 +414,8 @@ MOZ_CAN_RUN_SCRIPT_BOUNDARY
 void
 Select
 (
+bool
+aSetFocus
 )
 const
 ;

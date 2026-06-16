@@ -61,7 +61,7 @@ mac
 .
 debug
 "
-MOZ_RUNINIT
+constinit
 static
 nsTHashMap
 <
@@ -2335,6 +2335,7 @@ range
 .
 Select
 (
+false
 )
 ;
 }
