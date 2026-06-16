@@ -469,10 +469,6 @@ Vi
     
 ]
     
-env
-=
-None
-    
 if
 "
 WINNT
@@ -503,29 +499,6 @@ WINE
 "
 ]
 )
-        
-env
-=
-os
-.
-environ
-.
-copy
-(
-)
-        
-env
-[
-"
-WINEDLLOVERRIDES
-"
-]
-=
-"
-d3dcompiler_47
-=
-n
-"
     
 if
 shader_model
@@ -642,9 +615,6 @@ subprocess
 check_output
 (
 argv
-env
-=
-env
 )
         
 proc_stdout
