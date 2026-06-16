@@ -81,6 +81,7 @@ typed_om
 :
 :
 {
+NumericType
 NumericValue
 ToTyped
 TypedValue
@@ -6253,6 +6254,16 @@ Result
 >
 {
 let
+numeric_type
+=
+NumericType
+:
+:
+length
+(
+)
+;
+let
 value
 =
 self
@@ -6292,6 +6303,7 @@ Unit
 (
 UnitValue
 {
+numeric_type
 value
 unit
 }
