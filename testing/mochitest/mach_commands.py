@@ -1733,12 +1733,6 @@ resolve
 import
 get_suite_definition
     
-command_context
-.
-activate_virtualenv
-(
-)
-    
 buildapp
 =
 None
