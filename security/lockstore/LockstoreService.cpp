@@ -1583,10 +1583,6 @@ aKekType
 const
 nsACString
 &
-aIdentifier
-const
-nsACString
-&
 aSecret
 uint32_t
 aCacheTimeoutMs
@@ -1604,8 +1600,6 @@ keystore_create_kek
 mKeystore
 &
 aKekType
-&
-aIdentifier
 &
 aSecret
 aCacheTimeoutMs
@@ -2329,10 +2323,6 @@ aKekType
 const
 nsACString
 &
-aIdentifier
-const
-nsACString
-&
 aSecret
 uint32_t
 aCacheTimeoutMs
@@ -2359,10 +2349,6 @@ DoCreateKek
 nsCString
 {
 aKekType
-}
-nsCString
-{
-aIdentifier
 }
 nsCString
 {

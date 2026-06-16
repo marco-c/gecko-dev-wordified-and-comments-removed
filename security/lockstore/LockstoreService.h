@@ -362,10 +362,6 @@ aKekType
 const
 nsACString
 &
-aIdentifier
-const
-nsACString
-&
 aSecret
 uint32_t
 aCacheTimeoutMs

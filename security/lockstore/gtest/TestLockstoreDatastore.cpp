@@ -379,8 +379,6 @@ mKeystore
 kekType
 &
 empty
-&
-empty
 0
 &
 mLocalKekRef
