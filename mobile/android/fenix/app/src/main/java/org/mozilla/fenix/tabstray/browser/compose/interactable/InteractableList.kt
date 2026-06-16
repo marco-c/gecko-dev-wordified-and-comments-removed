@@ -439,7 +439,7 @@ list
 *
 param
 ignoredItems
-List
+Set
 of
 keys
 for
@@ -495,7 +495,7 @@ listState
 LazyListState
 ignoredItems
 :
-List
+Set
 <
 Any
 >
@@ -755,7 +755,7 @@ private
 val
 ignoredItems
 :
-List
+Set
 <
 Any
 >
@@ -889,8 +889,14 @@ layoutInfo
 visibleItemsInfo
 .
 firstOrNull
-(
-)
+{
+it
+.
+key
+!
+in
+ignoredItems
+}
 ?
 .
 size
@@ -1779,7 +1785,7 @@ itemOffset
 ListItemOffset
 ignoredItems
 :
-List
+Set
 <
 Any
 >
@@ -2623,7 +2629,7 @@ draggedItem
 InteractionState
 ignoredItems
 :
-List
+Set
 <
 Any
 >
