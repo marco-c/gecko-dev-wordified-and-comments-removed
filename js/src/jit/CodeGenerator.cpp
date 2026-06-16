@@ -142798,7 +142798,7 @@ mir
 ;
 masm
 .
-emitValueReadBarrierFastPath
+emitWeapMapBarrierFastPath
 (
 output
 scratch

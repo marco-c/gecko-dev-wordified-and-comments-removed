@@ -43425,7 +43425,7 @@ void
 MacroAssembler
 :
 :
-emitValueReadBarrierFastPath
+emitWeapMapBarrierFastPath
 (
 ValueOperand
 value
@@ -43506,6 +43506,16 @@ ImmWord
 )
 &
 done
+)
+;
+branchTestSymbol
+(
+Assembler
+:
+:
+Equal
+value
+barrier
 )
 ;
 Register
