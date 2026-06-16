@@ -721,13 +721,12 @@ CreateSink
 )
 {
 RefPtr
+sink
+=
+MakeRefPtr
 <
 StorageAccessPermissionStatusSink
 >
-sink
-=
-new
-StorageAccessPermissionStatusSink
 (
 this
 Name
