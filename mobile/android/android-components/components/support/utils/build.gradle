@@ -245,6 +245,10 @@ documentfile
 implementation
 libs
 .
+disklrucache
+implementation
+libs
+.
 kotlinx
 .
 coroutines
