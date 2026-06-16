@@ -58852,6 +58852,12 @@ float
 (
 appUnitsPerDevPixel
 )
+mComputedStyle
+-
+>
+EffectiveZoom
+(
+)
 )
 ;
 gfx

@@ -344,6 +344,11 @@ aOp
 TransformReferenceBox
 &
 aBounds
+mozilla
+:
+:
+StyleZoom
+aEffectiveZoom
 )
 ;
 void
@@ -368,6 +373,11 @@ aOp
 TransformReferenceBox
 &
 aBounds
+mozilla
+:
+:
+StyleZoom
+aEffectiveZoom
 )
 ;
 mozilla
@@ -391,6 +401,11 @@ TransformReferenceBox
 aBounds
 float
 aAppUnitsPerMatrixUnit
+mozilla
+:
+:
+StyleZoom
+aEffectiveZoom
 )
 ;
 mozilla
@@ -438,6 +453,11 @@ TransformReferenceBox
 aRefBox
 float
 aAppUnitsPerMatrixUnit
+mozilla
+:
+:
+StyleZoom
+aEffectiveZoom
 )
 ;
 mozilla

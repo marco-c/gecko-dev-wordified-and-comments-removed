@@ -748,6 +748,17 @@ PresContext
 AppUnitsPerDevPixel
 (
 )
+aFrame
+-
+>
+Style
+(
+)
+-
+>
+EffectiveZoom
+(
+)
 )
 ;
 Matrix

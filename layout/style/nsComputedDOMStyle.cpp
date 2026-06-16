@@ -11612,6 +11612,13 @@ AppUnitsPerCSSPixel
 (
 )
 )
+mozilla
+:
+:
+StyleZoom
+:
+:
+ONE
 )
 ;
 return
