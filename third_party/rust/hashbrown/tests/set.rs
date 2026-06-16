@@ -1,14 +1,6 @@
 #
 !
 [
-expect
-(
-missing_docs
-)
-]
-#
-!
-[
 cfg
 (
 not
@@ -28,8 +20,6 @@ rand
 :
 :
 {
-Rng
-SeedableRng
 distr
 :
 :
@@ -38,6 +28,8 @@ rngs
 :
 :
 SmallRng
+Rng
+SeedableRng
 }
 ;
 use
@@ -159,7 +151,7 @@ collect
 ;
 #
 [
-expect
+allow
 (
 clippy
 :
