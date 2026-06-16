@@ -532,18 +532,9 @@ has
 modified
 it
 recently
-.
 (
-For
+for
 example
-hg
-log
-<
-modified
--
-file
->
-or
 git
 log
 <
@@ -552,6 +543,7 @@ modified
 file
 >
 )
+.
 *
 Finally
 if
