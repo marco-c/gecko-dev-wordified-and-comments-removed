@@ -83,6 +83,13 @@ h
 #
 include
 "
+IntToEnumCastChecker
+.
+h
+"
+#
+include
+"
 JSHandleRootedTypedefChecker
 .
 h

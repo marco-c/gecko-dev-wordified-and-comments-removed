@@ -132,6 +132,11 @@ GlobalVariableInitializationChecker
 cpp
 "
 "
+IntToEnumCastChecker
+.
+cpp
+"
+"
 JSHandleRootedTypedefChecker
 .
 cpp

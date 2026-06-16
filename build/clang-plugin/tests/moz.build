@@ -135,6 +135,11 @@ TestInheritTypeAnnotationsFromTemplateArgs
 cpp
 "
 "
+TestIntToEnumCast
+.
+cpp
+"
+"
 TestJSHandleRootedTypedef
 .
 cpp
