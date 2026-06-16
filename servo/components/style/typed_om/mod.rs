@@ -244,6 +244,15 @@ ThinVec
 NumericValue
 >
 ;
+pub
+type
+MathMax
+=
+ThinVec
+<
+NumericValue
+>
+;
 #
 [
 derive
@@ -270,6 +279,10 @@ MathSum
 Min
 (
 MathMin
+)
+Max
+(
+MathMax
 )
 }
 #
