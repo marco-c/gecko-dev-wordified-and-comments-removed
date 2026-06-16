@@ -51,6 +51,9 @@ namespace
 dom
 {
 class
+ClientInfo
+;
+class
 Document
 ;
 class
@@ -148,6 +151,13 @@ dom
 WorkerPrivate
 *
 aWorkerPrivate
+const
+dom
+:
+:
+ClientInfo
+&
+aClientInfo
 nsILoadGroup
 *
 aLoadGroup
