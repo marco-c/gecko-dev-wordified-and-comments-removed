@@ -147,6 +147,17 @@ js
 ]
 [
 "
+test
+-
+tee
+-
+trace
+.
+js
+"
+]
+[
+"
 too
 -
 big
