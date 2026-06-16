@@ -60,8 +60,10 @@ public
 :
 NS_DECL_ISUPPORTS_INHERITED
 static
+already_AddRefed
+<
 Connection
-*
+>
 CreateForWindow
 (
 nsPIDOMWindowInner

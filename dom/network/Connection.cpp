@@ -251,8 +251,10 @@ CHANGE_EVENT_NAME
 ;
 }
 }
+already_AddRefed
+<
 Connection
-*
+>
 Connection
 :
 :
@@ -271,8 +273,10 @@ aWindow
 )
 ;
 return
-new
+MakeAndAddRef
+<
 ConnectionMainThread
+>
 (
 aWindow
 aShouldResistFingerprinting
