@@ -8016,6 +8016,13 @@ mWriteTaskQueue
 =
 nullptr
 ;
+gInstance
+-
+>
+ClearCacheLocked
+(
+)
+;
 }
 }
 }
