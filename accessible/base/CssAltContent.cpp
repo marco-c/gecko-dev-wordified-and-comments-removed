@@ -642,13 +642,6 @@ GetMarkerPseudo
 (
 aContent
 )
-nsLayoutUtils
-:
-:
-GetCheckmarkPseudo
-(
-aContent
-)
 }
 )
 {
