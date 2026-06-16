@@ -517,12 +517,12 @@ tabs
 -
 sidebar
 -
-shortcut2
+shortcut
 =
 .
 key
 =
-U
+L
 toggle
 -
 sidebar
