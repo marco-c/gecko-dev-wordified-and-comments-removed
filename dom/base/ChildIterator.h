@@ -341,7 +341,6 @@ uint8_t
 AtBegin
 AtBackdropKid
 AtMarkerKid
-AtCheckmarkKid
 AtBeforeKid
 AtFlatTreeKids
 AtAnonKids
