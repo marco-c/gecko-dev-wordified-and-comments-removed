@@ -91,9 +91,6 @@ columnNumber_
 void
 setImportedModule
 (
-JSContext
-*
-cx
 ModuleObject
 *
 importedModule
@@ -102,9 +99,6 @@ importedModule
 void
 setCircularImport
 (
-JSContext
-*
-cx
 ModuleObject
 *
 importedModule
@@ -113,9 +107,6 @@ importedModule
 void
 setForAmbiguousImport
 (
-JSContext
-*
-cx
 ModuleObject
 *
 importedModule
