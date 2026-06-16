@@ -7010,7 +7010,7 @@ go
 (
 )
 {
-JitSpewCont
+JitSpew
 (
 JitSpew_RegAlloc
 "
@@ -7029,7 +7029,7 @@ allocation
 "
 )
 ;
-JitSpewCont
+JitSpew
 (
 JitSpew_RegAlloc
 "

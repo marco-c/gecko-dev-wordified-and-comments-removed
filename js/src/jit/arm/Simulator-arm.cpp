@@ -7456,7 +7456,7 @@ size_t
 size
 )
 {
-JitSpewCont
+JitSpew
 (
 JitSpew_CacheFlush
 "

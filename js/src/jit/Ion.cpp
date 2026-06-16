@@ -6063,7 +6063,7 @@ JitSpew_MIRExpressions
 )
 )
 {
-JitSpewCont
+JitSpew
 (
 JitSpew_MIRExpressions
 "
@@ -6072,9 +6072,17 @@ n
 "
 )
 ;
+AutoJitSpewMessage
+msg
+(
+JitSpew_MIRExpressions
+)
+;
 DumpMIRExpressions
 (
-JitSpewPrinter
+msg
+.
+printer
 (
 )
 graph
@@ -6114,7 +6122,7 @@ compilingWasm
 )
 )
 {
-JitSpewCont
+JitSpew
 (
 JitSpew_Prune
 "
@@ -6600,7 +6608,7 @@ JitOptions
 disableObjectKeysScalarReplacement
 )
 {
-JitSpewCont
+JitSpew
 (
 JitSpew_Escape
 "
@@ -6744,7 +6752,7 @@ scalarReplacementEnabled
 )
 )
 {
-JitSpewCont
+JitSpew
 (
 JitSpew_Escape
 "
@@ -7048,7 +7056,7 @@ mir
 graph
 )
 ;
-JitSpewCont
+JitSpew
 (
 JitSpew_Alias
 "
@@ -7251,7 +7259,7 @@ gvnEnabled
 )
 )
 {
-JitSpewCont
+JitSpew
 (
 JitSpew_GVN
 "
@@ -7321,7 +7329,7 @@ branchHintingEnabled
 )
 )
 {
-JitSpewCont
+JitSpew
 (
 JitSpew_BranchHint
 "
@@ -7387,7 +7395,7 @@ licmEnabled
 )
 )
 {
-JitSpewCont
+JitSpew
 (
 JitSpew_LICM
 "
@@ -7464,7 +7472,7 @@ rangeAnalysisEnabled
 )
 )
 {
-JitSpewCont
+JitSpew
 (
 JitSpew_Range
 "
@@ -7831,7 +7839,7 @@ JitOptions
 disableRecoverIns
 )
 {
-JitSpewCont
+JitSpew
 (
 JitSpew_Sink
 "
@@ -7907,7 +7915,7 @@ rangeAnalysisEnabled
 )
 )
 {
-JitSpewCont
+JitSpew
 (
 JitSpew_Range
 "
@@ -7968,7 +7976,7 @@ false
 }
 }
 {
-JitSpewCont
+JitSpew
 (
 JitSpew_FLAC
 "
@@ -8059,7 +8067,7 @@ mir
 graph
 )
 ;
-JitSpewCont
+JitSpew
 (
 JitSpew_EAA
 "
@@ -8129,7 +8137,7 @@ compilingWasm
 )
 )
 {
-JitSpewCont
+JitSpew
 (
 JitSpew_WasmBCE
 "
@@ -8253,7 +8261,7 @@ compilingWasm
 )
 )
 {
-JitSpewCont
+JitSpew
 (
 JitSpew_MarkLoadsUsedAsPropertyKeys
 "
@@ -9072,7 +9080,7 @@ JitSpew_MIRExpressions
 )
 )
 {
-JitSpewCont
+JitSpew
 (
 JitSpew_MIRExpressions
 "
@@ -9081,9 +9089,17 @@ n
 "
 )
 ;
+AutoJitSpewMessage
+msg
+(
+JitSpew_MIRExpressions
+)
+;
 DumpMIRExpressions
 (
-JitSpewPrinter
+msg
+.
+printer
 (
 )
 graph

@@ -2258,7 +2258,8 @@ pool
 numPoolEntries
 )
 ;
-JitSpewStart
+AutoJitSpewMessage
+msg
 (
 JitSpew_Pools
 "
@@ -2295,9 +2296,10 @@ idx
 +
 )
 {
-JitSpewCont
+msg
+.
+append
 (
-JitSpew_Pools
 "
 %
 02x
@@ -2336,9 +2338,10 @@ length
 )
 )
 {
-JitSpewCont
+msg
+.
+append
 (
-JitSpew_Pools
 "
 _
 "
@@ -2346,11 +2349,6 @@ _
 ;
 }
 }
-JitSpewFin
-(
-JitSpew_Pools
-)
-;
 }
 #
 endif
