@@ -282,6 +282,7 @@ _setDefaultState
 {
 const
 {
+type
 hour
 minute
 min
@@ -341,6 +342,7 @@ new
 TimeKeeper
 (
 {
+type
 min
 :
 new
