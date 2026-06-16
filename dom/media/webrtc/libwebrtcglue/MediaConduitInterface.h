@@ -218,7 +218,7 @@ include
 "
 call
 /
-call_basic_stats
+call
 .
 h
 "
@@ -753,7 +753,10 @@ Maybe
 webrtc
 :
 :
-CallBasicStats
+Call
+:
+:
+Stats
 >
 GetCallStats
 (

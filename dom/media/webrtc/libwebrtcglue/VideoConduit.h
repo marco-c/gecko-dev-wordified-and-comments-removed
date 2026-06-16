@@ -113,15 +113,6 @@ video_encoder
 .
 h
 "
-#
-include
-"
-call
-/
-call_basic_stats
-.
-h
-"
 namespace
 mozilla
 {
@@ -840,7 +831,10 @@ Maybe
 webrtc
 :
 :
-CallBasicStats
+Call
+:
+:
+Stats
 >
 GetCallStats
 (
