@@ -16984,6 +16984,10 @@ nobj
 -
 >
 slots_
+.
+get
+(
+)
 "
 objectDynamicSlots
 "
