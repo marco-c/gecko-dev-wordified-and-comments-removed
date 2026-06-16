@@ -201,6 +201,13 @@ js
 ]
 [
 "
+test_ext_publicSuffix
+.
+js
+"
+]
+[
+"
 test_ext_runtime_getBackgroundPage
 .
 js
