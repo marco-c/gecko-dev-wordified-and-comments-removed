@@ -163,16 +163,6 @@ inline
 always
 )
 ]
-#
-[
-allow
-(
-clippy
-:
-:
-useless_transmute
-)
-]
 pub
 (
 crate

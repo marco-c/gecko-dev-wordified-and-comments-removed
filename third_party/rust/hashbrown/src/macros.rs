@@ -1,6 +1,6 @@
 #
 [
-allow
+expect
 (
 unused_macro_rules
 )

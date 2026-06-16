@@ -1,5 +1,5 @@
 use
-alloc
+stdalloc
 :
 :
 collections
@@ -8,7 +8,7 @@ collections
 LinkedList
 ;
 use
-alloc
+stdalloc
 :
 :
 vec
@@ -30,7 +30,7 @@ ParallelIterator
 ;
 #
 [
-allow
+expect
 (
 clippy
 :
