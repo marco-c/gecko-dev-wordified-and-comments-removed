@@ -1959,6 +1959,8 @@ nullptr
 ReflowCounter
 (
 )
+=
+default
 ;
 void
 ClearTotals
@@ -50648,16 +50650,6 @@ SetTotalsCache
 )
 ;
 }
-ReflowCounter
-:
-:
-~
-ReflowCounter
-(
-)
-=
-default
-;
 void
 ReflowCounter
 :
