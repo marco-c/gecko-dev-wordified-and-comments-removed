@@ -515,6 +515,23 @@ data
 )
     
 def
+tsan_error
+(
+self
+data
+)
+:
+        
+self
+.
+resources
+.
+tsan_error
+(
+data
+)
+    
+def
 mozleak_object
 (
 self
