@@ -559,16 +559,6 @@ MOZ_ENABLE_DBUS
 "
 ]
 :
-UNIFIED_SOURCES
-+
-=
-[
-"
-nsDBusHandlerApp
-.
-cpp
-"
-]
 EXPORTS
 .
 mozilla
