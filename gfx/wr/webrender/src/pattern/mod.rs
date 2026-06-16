@@ -14,6 +14,10 @@ pub
 mod
 image
 ;
+pub
+mod
+cutout
+;
 use
 api
 :
