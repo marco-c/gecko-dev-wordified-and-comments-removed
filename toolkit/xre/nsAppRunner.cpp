@@ -27134,10 +27134,6 @@ SetupAlteredPrefetchPref
 (
 )
 ;
-SetupSkeletonUIPrefs
-(
-)
-;
 #
 if
 defined
@@ -27175,6 +27171,10 @@ IsBackgroundTaskMode
 #
 endif
 {
+SetupSkeletonUIPrefs
+(
+)
+;
 Preferences
 :
 :
