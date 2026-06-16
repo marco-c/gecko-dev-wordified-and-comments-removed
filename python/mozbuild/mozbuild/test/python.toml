@@ -53,6 +53,15 @@ py
 ]
 [
 "
+action
+/
+test_zip
+.
+py
+"
+]
+[
+"
 backend
 /
 test_build
