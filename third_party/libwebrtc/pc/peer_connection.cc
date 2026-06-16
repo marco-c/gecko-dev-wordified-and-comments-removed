@@ -18122,7 +18122,7 @@ ret
 internal
 -
 >
-SetChannelRtpTransport
+SetRtpTransport
 (
 rtp_transport
 )
