@@ -105,6 +105,12 @@ received
 =
 0
 ;
+DOMString
+originAttributesSuffix
+=
+"
+"
+;
 }
 ;
 [
@@ -207,6 +213,12 @@ sequence
 DnsAndSockInfoDict
 >
 dnsAndSocks
+;
+DOMString
+originAttributesSuffix
+=
+"
+"
 ;
 }
 ;
