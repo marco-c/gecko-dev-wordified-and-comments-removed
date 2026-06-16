@@ -3589,10 +3589,6 @@ telemetryData
 }
 )
 ;
-handleListInteraction
-(
-)
-;
 }
 function
 handleCopyListToClipboard

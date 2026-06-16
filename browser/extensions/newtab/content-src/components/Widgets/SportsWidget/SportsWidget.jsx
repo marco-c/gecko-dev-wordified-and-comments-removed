@@ -3629,10 +3629,6 @@ widgetSize
 }
 )
 ;
-handleInteraction
-(
-)
-;
 }
 const
 handleChangeSize
@@ -3911,6 +3907,10 @@ telemetryData
 )
 ;
 }
+)
+;
+handleInteraction
+(
 )
 ;
 }

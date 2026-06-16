@@ -7734,6 +7734,15 @@ medium
 "
 )
 ;
+assert
+.
+ok
+(
+handleUserInteraction
+.
+notCalled
+)
+;
 }
 )
 ;
