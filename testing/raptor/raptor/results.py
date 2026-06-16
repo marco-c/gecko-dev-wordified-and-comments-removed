@@ -91,6 +91,10 @@ bytecode
 -
 cached
 "
+    
+"
+simpleperf
+"
 ]
 NON_FIREFOX_OPTS
 =
@@ -208,6 +212,10 @@ test_bytecode_cache
 =
 False
         
+simpleperf
+=
+False
+        
 extra_summary_methods
 =
 [
@@ -312,6 +320,12 @@ self
 test_bytecode_cache
 =
 test_bytecode_cache
+        
+self
+.
+simpleperf
+=
+simpleperf
         
 self
 .
@@ -493,6 +507,21 @@ append
 bytecode
 -
 cached
+"
+)
+            
+if
+self
+.
+simpleperf
+:
+                
+extra_options
+.
+append
+(
+"
+simpleperf
 "
 )
             
@@ -6698,6 +6727,23 @@ get
 support_class
 "
 None
+)
+                    
+new_result
+[
+"
+simpleperf
+"
+]
+=
+test
+.
+get
+(
+"
+simpleperf
+"
+False
 )
                     
 return
