@@ -274,6 +274,7 @@ device
 required_features
 instance_flags
 backend
+required_limits
 )
 {
 Ok
