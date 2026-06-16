@@ -214,8 +214,9 @@ android
 strokeColor
 =
 "
-#
-fff
+color
+/
+mozac_ui_private_mode_circle_stroke_fill
 "
 tools
 :
@@ -235,7 +236,7 @@ fillColor
 "
 color
 /
-mozac_ui_icons_fill
+mozac_ui_private_mode_mask_fill
 "
 android
 :
