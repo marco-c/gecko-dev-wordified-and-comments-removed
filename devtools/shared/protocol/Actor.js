@@ -882,6 +882,13 @@ return
 a
 bulk
 response
+via
+last
+'
+startBulkSend
+'
+callback
+argument
 but
 returned
 some
