@@ -201,7 +201,7 @@ with
 underscore
 -
 in
-aaptOptions
+androidResources
 {
 ignoreAssetsPattern
 =
