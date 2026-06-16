@@ -101,11 +101,15 @@ footer
 appliedMemories
 =
 [
+{
+memory_summary
+:
 "
 User
 is
 vegan
 "
+}
 ]
 ;
 await
