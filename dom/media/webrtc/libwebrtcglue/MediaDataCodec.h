@@ -6,6 +6,11 @@ define
 MEDIA_DATA_CODEC_H_
 #
 include
+<
+memory
+>
+#
+include
 "
 MediaCodecsSupport
 .
@@ -87,8 +92,13 @@ aConfig
 )
 ;
 static
+std
+:
+:
+unique_ptr
+<
 WebrtcVideoEncoder
-*
+>
 CreateEncoder
 (
 const
