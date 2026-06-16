@@ -404,10 +404,6 @@ Optional
 str
 ]
     
-message
-:
-str
-    
 next_version
 :
 Optional
@@ -742,13 +738,6 @@ hg_branch
 :
 "
 default
-"
-        
-"
-message
-"
-:
-"
 "
         
 "

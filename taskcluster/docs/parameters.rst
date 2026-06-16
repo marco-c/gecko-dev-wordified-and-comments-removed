@@ -458,17 +458,6 @@ on
 for
 authentication
 .
-message
-The
-try
-syntax
-in
-the
-commit
-message
-if
-any
-.
 pushlog_id
 The
 ID

@@ -95,15 +95,6 @@ level
 "
 1
 "
-message
-:
-"
-Fuzzy
-query
-=
-'
-foobar
-"
 moz_build_date
 :
 "

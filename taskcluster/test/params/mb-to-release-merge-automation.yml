@@ -430,10 +430,6 @@ dry
 run
 :
 true
-message
-:
-'
-'
 moz_build_date
 :
 '

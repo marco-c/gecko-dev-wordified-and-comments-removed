@@ -852,10 +852,6 @@ dry
 run
 :
 false
-message
-:
-'
-'
 moz_build_date
 :
 '

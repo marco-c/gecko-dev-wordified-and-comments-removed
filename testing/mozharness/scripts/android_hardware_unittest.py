@@ -2460,29 +2460,6 @@ test_tags
 ]
 )
         
-try_options
-try_tests
-=
-self
-.
-try_args
-(
-self
-.
-test_suite
-)
-        
-if
-try_options
-:
-            
-cmd
-.
-extend
-(
-try_options
-)
-        
 if
 user_paths
 :
@@ -2627,8 +2604,6 @@ tests
 )
                     
 None
-                    
-try_tests
                 
 )
             

@@ -89,17 +89,6 @@ mozilla
 .
 testing
 .
-try_tools
-import
-TryToolsMixin
-try_config_options
-from
-mozharness
-.
-mozilla
-.
-testing
-.
 unittest
 import
 DesktopUnittestOutputParser
@@ -852,14 +841,6 @@ copy
 .
 deepcopy
 (
-try_config_options
-)
-    
-+
-copy
-.
-deepcopy
-(
 verify_config_options
 )
 )
@@ -874,8 +855,6 @@ AutomationMixin
 ResourceMonitoringMixin
     
 TooltoolMixin
-    
-TryToolsMixin
     
 VerifyToolsMixin
 )
