@@ -102,11 +102,7 @@ extensions
 .
 formautofill
 .
-addresses
-.
-telemetry
-.
-mlenabled
+useml
 "
 false
 )
