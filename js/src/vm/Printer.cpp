@@ -2403,16 +2403,6 @@ unused_
 )
 {
 }
-LSprinter
-:
-:
-~
-LSprinter
-(
-)
-=
-default
-;
 void
 LSprinter
 :

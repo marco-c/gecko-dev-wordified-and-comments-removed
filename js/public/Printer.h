@@ -1119,6 +1119,8 @@ lifoAlloc
 LSprinter
 (
 )
+=
+default
 ;
 void
 exportInto
