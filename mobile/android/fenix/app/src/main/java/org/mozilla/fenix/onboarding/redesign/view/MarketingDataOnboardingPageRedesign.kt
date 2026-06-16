@@ -1987,6 +1987,16 @@ TREATMENT_A
 MarketingCardVariant
 .
 TREATMENT_B
+-
+>
+stringResource
+(
+R
+.
+string
+.
+nova_onboarding_marketing_primary_button_text
+)
 MarketingCardVariant
 .
 TREATMENT_C
@@ -1998,7 +2008,7 @@ R
 .
 string
 .
-nova_onboarding_marketing_primary_button_text
+nova_onboarding_marketing_primary_button_text_2
 )
 }
 Composable
