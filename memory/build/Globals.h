@@ -166,7 +166,7 @@ const
 size_t
 gPageSize
 =
-4_KiB
+gRealPageSize
 ;
 #
 else
