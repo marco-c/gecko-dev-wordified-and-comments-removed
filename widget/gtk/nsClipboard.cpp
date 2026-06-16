@@ -21,7 +21,7 @@ MOZ_X11
 #
 include
 "
-nsClipboardX11
+RetrievalContextX11
 .
 h
 "
@@ -36,14 +36,14 @@ MOZ_WAYLAND
 #
 include
 "
-nsClipboardWayland
+RetrievalContextWayland
 .
 h
 "
 #
 include
 "
-nsClipboardGtk
+RetrievalContextGtk
 .
 h
 "
