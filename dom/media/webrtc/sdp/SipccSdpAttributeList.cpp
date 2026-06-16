@@ -123,9 +123,7 @@ mAttributes
 [
 i
 ]
-.
-reset
-(
+=
 aOrig
 .
 mAttributes
@@ -136,7 +134,6 @@ i
 >
 Clone
 (
-)
 )
 ;
 }
