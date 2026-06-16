@@ -2516,9 +2516,6 @@ groupIds
 defaultBrowserSync
 "
 "
-accountDisabled
-"
-"
 account
 "
 "
