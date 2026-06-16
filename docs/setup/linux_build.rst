@@ -350,6 +350,7 @@ python3
 -
 venv
 git
+make
 -
 For
 Fedora
