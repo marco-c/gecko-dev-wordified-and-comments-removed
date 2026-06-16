@@ -2374,6 +2374,13 @@ js
 ]
 [
 "
+browser_ext_runtime_openOptionsPage_containers
+.
+js
+"
+]
+[
+"
 browser_ext_runtime_openOptionsPage_uninstall
 .
 js
