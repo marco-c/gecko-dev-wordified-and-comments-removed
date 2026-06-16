@@ -10458,6 +10458,14 @@ InitialTouchMove
 :
 No
 ;
+FastPathApzAwareListener
+fastPathApzAwareListener
+=
+FastPathApzAwareListener
+:
+:
+No
+;
 if
 (
 aInput
@@ -10791,6 +10799,13 @@ CompositorHitTestFlags
 :
 eApzAwareListeners
 ;
+fastPathApzAwareListener
+=
+FastPathApzAwareListener
+:
+:
+Yes
+;
 }
 }
 aState
@@ -10994,6 +11009,7 @@ TargetConfirmationFlags
 mTouchBlockHitResult
 .
 mHitResult
+fastPathApzAwareListener
 }
 aInput
 touchBehaviors
