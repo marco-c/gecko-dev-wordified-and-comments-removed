@@ -2504,6 +2504,16 @@ GetHappyEyeballsEnabled
 )
 )
 ;
+clone
+-
+>
+SetWebTransportId
+(
+GetWebTransportId
+(
+)
+)
+;
 return
 clone
 .
