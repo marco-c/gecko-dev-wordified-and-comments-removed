@@ -344,6 +344,9 @@ _ns
 "
 "
 _ns
+"
+"
+_ns
 0
 )
 ;
@@ -408,6 +411,9 @@ DoCreateKek
 (
 "
 local
+"
+_ns
+"
 "
 _ns
 "
