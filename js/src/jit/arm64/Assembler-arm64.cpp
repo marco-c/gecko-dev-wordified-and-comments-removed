@@ -946,12 +946,6 @@ const
 LiteralDoc
 &
 doc
-ARMBuffer
-:
-:
-PoolEntry
-*
-pe
 )
 {
 uint32_t
@@ -1000,7 +994,6 @@ uint8_t
 inst
 value
 doc
-pe
 )
 ;
 }
@@ -1014,12 +1007,6 @@ ARMRegister
 dest
 uint64_t
 value
-ARMBuffer
-:
-:
-PoolEntry
-*
-pe
 )
 {
 return
@@ -1040,7 +1027,6 @@ LiteralDoc
 (
 value
 )
-pe
 )
 ;
 }
