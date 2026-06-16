@@ -1,6 +1,14 @@
 #
 !
 [
+expect
+(
+missing_docs
+)
+]
+#
+!
+[
 cfg
 (
 feature
@@ -39,8 +47,8 @@ serde_test
 :
 :
 {
-assert_tokens
 Token
+assert_tokens
 }
 ;
 type
