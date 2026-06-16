@@ -242,6 +242,13 @@ js
 ]
 [
 "
+test_PermissionPromptTargeting
+.
+js
+"
+]
+[
+"
 test_ProfileCounter
 .
 js

@@ -1036,6 +1036,13 @@ sys
 mjs
 "
 "
+PermissionPromptTargeting
+.
+sys
+.
+mjs
+"
+"
 PermissionUI
 .
 sys
