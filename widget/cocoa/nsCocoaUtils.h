@@ -1267,7 +1267,7 @@ ConvertWidgetModifiersToMacModifierFlags
 nsIWidget
 :
 :
-Modifiers
+NativeModifiers
 aNativeModifiers
 )
 ;
