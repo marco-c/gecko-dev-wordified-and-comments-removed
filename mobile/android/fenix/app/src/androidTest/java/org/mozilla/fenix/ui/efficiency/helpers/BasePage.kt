@@ -4095,7 +4095,7 @@ catch
 (
 _
 :
-Exception
+Throwable
 )
 {
 false
