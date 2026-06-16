@@ -93,3 +93,10 @@ browser_search_subdialogs_within_preferences_site_data
 js
 "
 ]
+[
+"
+browser_search_tooltip_moz_select
+.
+js
+"
+]
