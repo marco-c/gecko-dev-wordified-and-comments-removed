@@ -1031,6 +1031,15 @@ InitIndexEntry
 (
 )
 ;
+void
+SetupEncryption
+(
+)
+MOZ_REQUIRES
+(
+this
+)
+;
 bool
 mOpeningFile
 MOZ_GUARDED_BY
