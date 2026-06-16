@@ -2796,6 +2796,11 @@ GetRoot
 )
 ;
 }
+if
+(
+anonymousDivOrEditingHost
+)
+{
 RefPtr
 <
 Document
@@ -2843,6 +2848,7 @@ aDictionaries
 )
 )
 ;
+}
 }
 }
 }
