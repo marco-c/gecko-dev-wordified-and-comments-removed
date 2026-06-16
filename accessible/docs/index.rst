@@ -141,4 +141,5 @@ GeckoViewThreadTopography
 ColorsAndHighContrastMode
 HCMSettings
 HCMMediaQueries
+HCMCSSChecklist
 TaggedPdfOutput
