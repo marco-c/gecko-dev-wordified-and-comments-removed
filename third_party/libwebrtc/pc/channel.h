@@ -388,6 +388,11 @@ crypto_options
 UniqueRandomIdGenerator
 *
 ssrc_generator
+ChannelCallbacks
+callbacks
+=
+{
+}
 )
 ;
 ~
@@ -1675,6 +1680,11 @@ crypto_options
 UniqueRandomIdGenerator
 *
 ssrc_generator
+ChannelCallbacks
+callbacks
+=
+{
+}
 )
 ;
 ~
@@ -1922,6 +1932,11 @@ crypto_options
 UniqueRandomIdGenerator
 *
 ssrc_generator
+ChannelCallbacks
+callbacks
+=
+{
+}
 )
 ;
 ~
