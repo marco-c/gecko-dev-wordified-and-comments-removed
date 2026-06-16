@@ -1404,6 +1404,17 @@ SdpType
 sdp_type
 )
 ;
+void
+UpdateSenderSsrcsFromLocalDescription
+(
+)
+RTC_RUN_ON
+(
+signaling_thread
+(
+)
+)
+;
 PLAN_B_ONLY
 void
 PlanBUpdateSendersAndReceivers
