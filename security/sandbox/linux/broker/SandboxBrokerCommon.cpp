@@ -169,9 +169,6 @@ chmod
 link
 "
 "
-symlink
-"
-"
 mkdir
 "
 "
