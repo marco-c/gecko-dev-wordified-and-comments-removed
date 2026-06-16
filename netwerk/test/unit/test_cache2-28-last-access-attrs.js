@@ -200,6 +200,8 @@ entry1
 lastFetched
 firstOpen
 secondOpen
++
+1
 )
 ;
 do_check_time
