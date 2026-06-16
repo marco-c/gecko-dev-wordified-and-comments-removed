@@ -10094,6 +10094,11 @@ save
 update
 -
 username
+-
+2
+=
+.
+label
 =
 Username
 panel
@@ -10103,6 +10108,11 @@ save
 update
 -
 password
+-
+2
+=
+.
+label
 =
 Password
 #
