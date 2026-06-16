@@ -1976,7 +1976,7 @@ if
 dx
 -
 >
-GetScreenIsVideoHDR
+GetScreenIsHDR
 (
 )
 )
