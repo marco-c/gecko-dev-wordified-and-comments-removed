@@ -1779,7 +1779,7 @@ sdesc
 )
 const
 ;
-RTCError
+void
 UpdateTransceiverChannel
 (
 scoped_refptr
@@ -1798,6 +1798,9 @@ const
 ContentGroup
 *
 bundle_group
+ScopedOperationsBatcher
+&
+network_tasks
 )
 RTC_RUN_ON
 (
