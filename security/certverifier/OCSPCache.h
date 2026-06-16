@@ -197,11 +197,6 @@ Clear
 (
 )
 ;
-void
-ClearPrivateBrowsing
-(
-)
-;
 private
 :
 class
@@ -302,11 +297,6 @@ pkix
 :
 Time
 mValidThrough
-;
-bool
-mIsPrivateBrowsing
-=
-false
 ;
 SHA384Buffer
 mIDHash
