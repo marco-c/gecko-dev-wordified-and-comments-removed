@@ -172,11 +172,11 @@ pdfjsVersion
 .
 0
 .
-243
+305
 *
 pdfjsBuild
 =
-b43ef1c74
+fadd201c0
 *
 /
 ;
@@ -15793,7 +15793,7 @@ suppressCropClip
 1
 <
 <
-1
+11
 suppressRotate
 :
 1
