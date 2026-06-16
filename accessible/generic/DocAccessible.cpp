@@ -4411,6 +4411,12 @@ tree
 ;
 if
 (
+aNameSpaceID
+=
+=
+kNameSpaceID_None
+&
+&
 aAttribute
 =
 =
