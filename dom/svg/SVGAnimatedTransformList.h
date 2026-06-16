@@ -414,9 +414,7 @@ const
 nsAString
 &
 aSpec
-const
-nsAtom
-*
+uint16_t
 aTransformType
 SMILValue
 &
