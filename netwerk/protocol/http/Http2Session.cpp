@@ -7226,8 +7226,10 @@ false
 #
 endif
 }
+already_AddRefed
+<
 Http2StreamTunnel
-*
+>
 Http2Session
 :
 :
@@ -7342,8 +7344,10 @@ session
 mInitialWebTransportMaxData
 ;
 return
-new
+MakeAndAddRef
+<
 Http2WebTransportSession
+>
 (
 session
 nsISupportsPriority
@@ -7395,8 +7399,10 @@ SUPPORTED
 )
 ;
 return
-new
+MakeAndAddRef
+<
 Http2StreamWebSocket
+>
 (
 session
 nsISupportsPriority
@@ -7449,8 +7455,10 @@ Http2StreamTunnel
 )
 ;
 return
-new
+MakeAndAddRef
+<
 Http2StreamTunnel
+>
 (
 session
 nsISupportsPriority
