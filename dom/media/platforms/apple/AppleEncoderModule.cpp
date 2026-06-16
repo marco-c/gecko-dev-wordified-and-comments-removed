@@ -61,7 +61,7 @@ fmt
 .
 )
 \
-MOZ_LOG
+MOZ_LOG_FMT
 (
 sPEMLog
 mozilla
@@ -72,13 +72,12 @@ LogLevel
 :
 Error
 \
-(
 "
 [
 AppleEncoderModule
 ]
-%
-s
+{
+}
 :
 "
 fmt
@@ -86,7 +85,6 @@ __func__
 #
 #
 __VA_ARGS__
-)
 )
 #
 define
@@ -98,7 +96,7 @@ fmt
 .
 )
 \
-MOZ_LOG
+MOZ_LOG_FMT
 (
 sPEMLog
 mozilla
@@ -109,13 +107,12 @@ LogLevel
 :
 Debug
 \
-(
 "
 [
 AppleEncoderModule
 ]
-%
-s
+{
+}
 :
 "
 fmt
@@ -123,7 +120,6 @@ __func__
 #
 #
 __VA_ARGS__
-)
 )
 EncodeSupportSet
 AppleEncoderModule
