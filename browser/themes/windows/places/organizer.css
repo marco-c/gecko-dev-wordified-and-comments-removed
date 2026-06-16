@@ -260,7 +260,11 @@ color
 -
 input
 -
-bgcolor
+text
+-
+background
+-
+color
 :
 var
 (
@@ -276,6 +280,8 @@ background
 -
 -
 input
+-
+text
 -
 color
 :
