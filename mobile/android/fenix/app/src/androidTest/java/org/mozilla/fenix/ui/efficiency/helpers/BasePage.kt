@@ -3265,6 +3265,11 @@ SemanticsNodeInteraction
 -
 >
 {
+composeRule
+.
+waitForIdle
+(
+)
 element
 .
 assertExists
