@@ -1075,16 +1075,19 @@ pingSubmitted
 true
 ;
 }
-toolboxDidCatch
+handleException
 (
-error
+exception
 toolbox
+showToolboxCloseButton
+=
+false
 )
 {
 const
 errorMessage
 =
-error
+exception
 .
 toString
 (
@@ -1093,7 +1096,7 @@ toString
 const
 clientPacket
 =
-error
+exception
 .
 clientPacket
 |
@@ -1104,7 +1107,7 @@ clientPacket
 const
 serverPacket
 =
-error
+exception
 .
 serverPacket
 |
@@ -1122,7 +1125,7 @@ errorMsg
 errorMessage
 errorStack
 :
-error
+exception
 .
 stack
 errorInfo
@@ -1131,6 +1134,7 @@ errorInfo
 clientPacket
 serverPacket
 }
+showToolboxCloseButton
 toolbox
 }
 )
@@ -1156,7 +1160,7 @@ sanitizeEventExtras
 {
 error_name
 :
-error
+exception
 .
 name
 is_destroying
@@ -1206,7 +1210,7 @@ toolbox
 sessionId
 stack
 :
-error
+exception
 .
 stack
 |
@@ -1697,7 +1701,7 @@ this
 .
 state
 .
-toolbox
+showToolboxCloseButton
 ?
 button
 (
