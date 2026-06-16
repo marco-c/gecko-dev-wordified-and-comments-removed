@@ -678,6 +678,13 @@ js
 ]
 [
 "
+browser_smartwindow_default_cmd_n
+.
+js
+"
+]
+[
+"
 browser_smartwindow_default_startup
 .
 js

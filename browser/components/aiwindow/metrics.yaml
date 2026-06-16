@@ -3590,8 +3590,9 @@ switch
 menu
 new_window
 open_browser
-or
 undo_close
+or
+keyboard_shortcut
 fxa
 :
 type
