@@ -248,9 +248,7 @@ android
 /
 geckoview
 /
-intermediates
-/
-javac
+apilint
 /
 debug
 /
@@ -299,9 +297,7 @@ android
 /
 geckoview
 /
-intermediates
-/
-javac
+apilint
 /
 debug
 /
@@ -352,9 +348,7 @@ android
 /
 geckoview
 /
-intermediates
-/
-javac
+apilint
 /
 debug
 /
@@ -724,7 +718,7 @@ treeherder
 :
 symbol
 :
-A
+android
 (
 lints
 )
@@ -1049,7 +1043,7 @@ treeherder
 :
 symbol
 :
-A
+android
 (
 fenix
 -
@@ -1261,7 +1255,7 @@ treeherder
 :
 symbol
 :
-A
+android
 (
 focus
 -
@@ -1477,7 +1471,7 @@ treeherder
 :
 symbol
 :
-A
+android
 (
 ac
 -
