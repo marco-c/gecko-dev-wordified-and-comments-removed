@@ -1299,6 +1299,14 @@ SetNotAlive
 (
 )
 ;
+RTC_DCHECK
+(
+rtp_transport_
+=
+=
+nullptr
+)
+;
 }
 std
 :
