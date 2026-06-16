@@ -65503,7 +65503,7 @@ n
 "
 implements
 the
-SafePromiseResolve
+MaybeDeferredPromiseResolve
 abstract
 operation
 from
