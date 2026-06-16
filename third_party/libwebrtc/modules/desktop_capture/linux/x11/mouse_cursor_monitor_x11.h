@@ -14,6 +14,9 @@ X
 h
 >
 #
+undef
+CurrentTime
+#
 include
 <
 memory

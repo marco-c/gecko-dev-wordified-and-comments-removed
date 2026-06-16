@@ -23,6 +23,9 @@ Xlib
 h
 >
 #
+undef
+CurrentTime
+#
 include
 <
 memory

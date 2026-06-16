@@ -56,6 +56,9 @@ Xrandr
 h
 >
 #
+undef
+CurrentTime
+#
 include
 <
 memory
