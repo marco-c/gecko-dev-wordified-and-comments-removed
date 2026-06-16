@@ -57,6 +57,8 @@ const
 ContentClassifierRequest
 &
 aRequest
+bool
+aPreviouslyMatched
 )
 {
 if
@@ -147,6 +149,7 @@ mRequestType
 aRequest
 .
 mThirdParty
+aPreviouslyMatched
 &
 matched
 &

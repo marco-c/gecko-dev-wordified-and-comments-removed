@@ -188,6 +188,9 @@ mAllowedState
 nsresult
 mBlockingErrorCode
 ;
+bool
+mExceptionOnly
+;
 }
 ;
 enum
@@ -597,6 +600,8 @@ const
 ContentClassifierRequest
 &
 aRequest
+bool
+aIndependentEngines
 )
 ;
 static

@@ -465,6 +465,9 @@ nsACString
 third_party
 :
 bool
+previously_matched_rule
+:
+bool
 out_matched
 :
 *
@@ -631,8 +634,8 @@ check_network_request_subset
 (
 &
 request
+previously_matched_rule
 false
-true
 )
 ;
 *
