@@ -237,6 +237,15 @@ NumericValue
 ;
 pub
 type
+MathProduct
+=
+ThinVec
+<
+NumericValue
+>
+;
+pub
+type
 MathNegate
 =
 Box
@@ -306,6 +315,10 @@ MathValue
 Sum
 (
 MathSum
+)
+Product
+(
+MathProduct
 )
 Negate
 (
