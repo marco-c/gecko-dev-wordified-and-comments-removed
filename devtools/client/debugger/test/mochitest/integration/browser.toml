@@ -582,6 +582,17 @@ browser_dbg
 -
 features
 -
+stylesheets
+.
+js
+"
+]
+[
+"
+browser_dbg
+-
+features
+-
 tabs
 .
 js
