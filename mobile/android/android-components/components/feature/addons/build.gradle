@@ -358,6 +358,14 @@ libs
 .
 androidx
 .
+lifecycle
+.
+runtime
+implementation
+libs
+.
+androidx
+.
 recyclerview
 implementation
 libs
@@ -465,6 +473,12 @@ androidx
 work
 .
 testing
+testImplementation
+libs
+.
+kotlin
+.
+test
 testImplementation
 libs
 .
