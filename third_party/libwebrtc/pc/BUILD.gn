@@ -11573,6 +11573,10 @@ rtp_transceiver
 "
 "
 :
+scoped_operations_batcher
+"
+"
+:
 simulcast_description
 "
 "
