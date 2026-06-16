@@ -503,15 +503,6 @@ StunByteStringAttribute
 (
 type
 data
-.
-data
-(
-)
-data
-.
-size
-(
-)
 )
 ;
 }
