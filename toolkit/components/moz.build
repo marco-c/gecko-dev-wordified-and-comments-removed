@@ -428,6 +428,9 @@ DIRS
 aboutconfig
 "
 "
+aboutpdf
+"
+"
 narrate
 "
 "
