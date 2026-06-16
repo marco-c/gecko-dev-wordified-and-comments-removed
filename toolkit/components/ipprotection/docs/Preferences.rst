@@ -790,10 +790,7 @@ about
 :
 preferences
 .
-The
-FxA
-auth
-provider
+IPPUsageHelper
 keeps
 this
 pref
