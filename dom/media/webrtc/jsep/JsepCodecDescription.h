@@ -843,6 +843,7 @@ Clone
 const
 override
 {
+\
 return
 MakeUnique
 <
@@ -853,6 +854,7 @@ T
 this
 )
 ;
+\
 }
 class
 JsepCodecDescription
