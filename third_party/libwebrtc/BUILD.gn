@@ -940,6 +940,13 @@ pc
 :
 peerconnection_unittests
 "
+"
+/
+/
+test
+:
+test_support_unittests
+"
 ]
 }
 }
