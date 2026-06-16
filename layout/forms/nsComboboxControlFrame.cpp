@@ -625,6 +625,7 @@ TextSecurityMaskChar
 (
 )
 false
+false
 language
 charsToMergeArray
 deletedCharsArray

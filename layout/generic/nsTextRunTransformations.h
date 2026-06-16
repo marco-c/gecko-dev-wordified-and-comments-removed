@@ -373,6 +373,8 @@ nsTransformingTextRunFactory
 aInnerTransformingTextRunFactory
 bool
 aAllUppercase
+bool
+aUseCapitalEsZet
 char16_t
 aMaskChar
 )
@@ -390,6 +392,10 @@ aInnerTransformingTextRunFactory
 mAllUppercase
 (
 aAllUppercase
+)
+mUseCapitalEsZet
+(
+aUseCapitalEsZet
 )
 mMaskChar
 (
@@ -447,6 +453,8 @@ char16_t
 aMaskChar
 bool
 aCaseTransformsOnly
+bool
+aUseCapitalEsZet
 const
 nsAtom
 *
@@ -507,6 +515,9 @@ mInnerTransformingTextRunFactory
 ;
 bool
 mAllUppercase
+;
+bool
+mUseCapitalEsZet
 ;
 char16_t
 mMaskChar
