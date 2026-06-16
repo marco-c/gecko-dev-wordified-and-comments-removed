@@ -508,6 +508,9 @@ namespace
 webrtc
 {
 class
+ScopedOperationsBatcher
+;
+class
 SdpOfferAnswerHandler
 :
 public
@@ -2423,6 +2426,9 @@ ContentGroup
 >
 &
 bundle_groups_by_mid
+ScopedOperationsBatcher
+&
+worker_tasks
 )
 ;
 void
