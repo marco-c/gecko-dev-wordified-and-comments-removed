@@ -140,17 +140,8 @@ ToString
 )
 const
 {
-char
-buf
-[
-1024
-]
-;
-SimpleStringBuilder
+StringBuilder
 ss
-(
-buf
-)
 ;
 ss
 <
@@ -241,7 +232,7 @@ false
 return
 ss
 .
-str
+Release
 (
 )
 ;

@@ -130,17 +130,8 @@ ToString
 )
 const
 {
-char
-ss_buf
-[
-256
-]
-;
-SimpleStringBuilder
+StringBuilder
 ss
-(
-ss_buf
-)
 ;
 ss
 <
@@ -175,7 +166,7 @@ time_from_previous_event_end_ms
 return
 ss
 .
-str
+Release
 (
 )
 ;

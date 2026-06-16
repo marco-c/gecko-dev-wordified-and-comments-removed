@@ -1168,7 +1168,7 @@ audio_target_rate
 this
 ]
 (
-SimpleStringBuilder
+StringBuilder
 &
 sb
 )

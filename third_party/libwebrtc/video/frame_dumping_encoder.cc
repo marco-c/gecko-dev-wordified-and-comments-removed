@@ -580,17 +580,8 @@ RTC_EXCLUSIVE_LOCKS_REQUIRED
 mu_
 )
 {
-char
-filename_buffer
-[
-1024
-]
-;
-SimpleStringBuilder
+StringBuilder
 builder
-(
-filename_buffer
-)
 ;
 builder
 <
@@ -628,7 +619,7 @@ ivf
 return
 builder
 .
-str
+Release
 (
 )
 ;

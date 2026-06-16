@@ -38,17 +38,8 @@ Timestamp
 value
 )
 {
-char
-buf
-[
-64
-]
-;
-SimpleStringBuilder
+StringBuilder
 sb
-(
-buf
-)
 ;
 if
 (
@@ -177,7 +168,7 @@ s
 return
 sb
 .
-str
+Release
 (
 )
 ;

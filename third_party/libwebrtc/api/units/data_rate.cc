@@ -38,17 +38,8 @@ DataRate
 value
 )
 {
-char
-buf
-[
-64
-]
-;
-SimpleStringBuilder
+StringBuilder
 sb
-(
-buf
-)
 ;
 if
 (
@@ -151,7 +142,7 @@ kbps
 return
 sb
 .
-str
+Release
 (
 )
 ;

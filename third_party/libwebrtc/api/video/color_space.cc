@@ -613,17 +613,8 @@ AsString
 )
 const
 {
-char
-buf
-[
-1024
-]
-;
-SimpleStringBuilder
+StringBuilder
 ss
-(
-buf
-)
 ;
 ss
 <
@@ -927,7 +918,7 @@ ss
 return
 ss
 .
-str
+Release
 (
 )
 ;

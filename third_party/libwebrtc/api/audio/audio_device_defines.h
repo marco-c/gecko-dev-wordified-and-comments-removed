@@ -594,17 +594,8 @@ ToString
 )
 const
 {
-char
-ss_buf
-[
-1024
-]
-;
-SimpleStringBuilder
+StringBuilder
 ss
-(
-ss_buf
-)
 ;
 ss
 <
@@ -719,7 +710,7 @@ GetBufferSizeInMilliseconds
 return
 ss
 .
-str
+Release
 (
 )
 ;

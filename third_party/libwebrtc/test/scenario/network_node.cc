@@ -570,7 +570,7 @@ loss_rate
 this
 ]
 (
-SimpleStringBuilder
+StringBuilder
 &
 sb
 )

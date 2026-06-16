@@ -1293,7 +1293,7 @@ OpenFile
 (
 file_name
 .
-str
+Release
 (
 )
 "
@@ -1756,7 +1756,7 @@ frame_count
 return
 suffix
 .
-str
+Release
 (
 )
 ;
@@ -2012,7 +2012,7 @@ OpenFile
 (
 callorder_raw_name
 .
-str
+Release
 (
 )
 "
@@ -3778,7 +3778,7 @@ WavWriter
 (
 reverse_name
 .
-str
+Release
 (
 )
 reverse_sample_rate
@@ -3818,7 +3818,7 @@ WavWriter
 (
 input_name
 .
-str
+Release
 (
 )
 input_sample_rate
@@ -3858,7 +3858,7 @@ WavWriter
 (
 output_name
 .
-str
+Release
 (
 )
 output_sample_rate
@@ -3902,7 +3902,7 @@ OpenFile
 (
 callorder_name
 .
-str
+Release
 (
 )
 "

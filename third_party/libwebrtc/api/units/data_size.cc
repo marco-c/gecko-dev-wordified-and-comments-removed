@@ -38,17 +38,8 @@ DataSize
 value
 )
 {
-char
-buf
-[
-64
-]
-;
-SimpleStringBuilder
+StringBuilder
 sb
-(
-buf
-)
 ;
 if
 (
@@ -109,7 +100,7 @@ bytes
 return
 sb
 .
-str
+Release
 (
 )
 ;
