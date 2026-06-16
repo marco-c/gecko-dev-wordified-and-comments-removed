@@ -766,7 +766,9 @@ toolbar
 *
 param
 navigationBarContent
+[
 Composable
+]
 content
 for
 the
