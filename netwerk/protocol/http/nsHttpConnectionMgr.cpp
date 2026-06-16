@@ -19024,6 +19024,9 @@ Active
 return
 ;
 }
+nsIHttpChannelInternal
+:
+:
 ProxyDNSStrategy
 strategy
 =
@@ -19057,10 +19060,10 @@ aFetchHTTPSRR
 strategy
 =
 =
-ProxyDNSStrategy
+nsIHttpChannelInternal
 :
 :
-ORIGIN
+PROXY_DNS_STRATEGY_ORIGIN
 &
 &
 NS_SUCCEEDED
