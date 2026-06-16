@@ -201,9 +201,7 @@ browser
 .
 smartwindow
 .
-preferences
-.
-endpoint
+customEndpoint
 "
 )
 ;
