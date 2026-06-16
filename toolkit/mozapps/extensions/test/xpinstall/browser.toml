@@ -285,6 +285,13 @@ js
 ]
 [
 "
+browser_localfile_navigation
+.
+js
+"
+]
+[
+"
 browser_newwindow
 .
 js
