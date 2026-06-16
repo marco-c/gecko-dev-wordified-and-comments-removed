@@ -6586,6 +6586,10 @@ rtp_transceiver
 "
 "
 :
+scoped_operations_batcher
+"
+"
+:
 track_media_info_map
 "
 "
@@ -8372,6 +8376,10 @@ rtp_transmission_manager
 "
 :
 rtp_transport_internal
+"
+"
+:
+scoped_operations_batcher
 "
 "
 :
