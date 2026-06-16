@@ -546,9 +546,7 @@ name
 )
 ;
 decoder
-.
-reset
-(
+=
 MediaDataCodec
 :
 :
@@ -556,7 +554,6 @@ CreateDecoder
 (
 type
 mTrackingId
-)
 )
 ;
 if

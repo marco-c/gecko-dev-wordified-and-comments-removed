@@ -143,6 +143,11 @@ TrackingId
 aTrackingId
 )
 ;
+~
+WebrtcMediaDataDecoder
+(
+)
+;
 bool
 Configure
 (
@@ -199,11 +204,6 @@ override
 ;
 private
 :
-~
-WebrtcMediaDataDecoder
-(
-)
-;
 void
 QueueFrame
 (
