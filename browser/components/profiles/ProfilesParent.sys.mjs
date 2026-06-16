@@ -645,13 +645,8 @@ lazy
 .
 BackupService
 .
-removeFromEnabledListPref
+maybeRemoveFromEnabledListPref
 (
-SelectableProfileService
-.
-currentProfile
-.
-id
 )
 ;
 try
