@@ -1118,9 +1118,6 @@ tabStorageUpdate
 .
 tabGroups
 )
-hasTabDataLoaded
-=
-true
 )
 else
 -

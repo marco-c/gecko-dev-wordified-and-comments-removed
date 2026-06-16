@@ -644,9 +644,6 @@ tabs
 .
 size
 )
-hasTabDataLoaded
-=
-true
 )
 val
 tabFlow
@@ -837,9 +834,6 @@ tabs
 .
 size
 )
-hasTabDataLoaded
-=
-true
 )
 val
 tabFlow
@@ -1015,9 +1009,6 @@ expectedTabs
 .
 size
 )
-hasTabDataLoaded
-=
-true
 )
 val
 tabFlow
@@ -1337,9 +1328,6 @@ listOf
 expectedGroup
 )
 )
-hasTabDataLoaded
-=
-true
 )
 val
 tabFlow
@@ -1593,9 +1581,6 @@ expectedTabList
 .
 size
 )
-hasTabDataLoaded
-=
-true
 )
 val
 tabFlow
@@ -1804,9 +1789,6 @@ selectedItemIndex
 =
 1
 )
-hasTabDataLoaded
-=
-true
 )
 val
 tabFlow
@@ -1925,9 +1907,6 @@ tabCount
 =
 1
 )
-hasTabDataLoaded
-=
-true
 )
 val
 tabFlow
@@ -2058,9 +2037,6 @@ expectedTab
 )
 )
 )
-hasTabDataLoaded
-=
-true
 )
 val
 tabFlow
@@ -2186,9 +2162,6 @@ true
 )
 )
 )
-hasTabDataLoaded
-=
-true
 )
 val
 tabFlow
@@ -2478,9 +2451,6 @@ tabGroupsDragAndDropEnabled
 =
 false
 )
-hasTabDataLoaded
-=
-true
 )
 val
 tabFlow
@@ -2747,9 +2717,6 @@ tabGroupsEnabled
 =
 false
 )
-hasTabDataLoaded
-=
-true
 )
 val
 tabFlow
@@ -4631,9 +4598,6 @@ group
 =
 displayGroup
 )
-hasTabDataLoaded
-=
-true
 )
 store
 .
@@ -4783,9 +4747,6 @@ tabs
 .
 size
 )
-hasTabDataLoaded
-=
-true
 )
 val
 tabFlow
@@ -5071,9 +5032,6 @@ groups
 =
 expectedTabGroupList
 )
-hasTabDataLoaded
-=
-true
 )
 store
 .
@@ -5509,9 +5467,6 @@ groups
 =
 expectedTabGroupList
 )
-hasTabDataLoaded
-=
-true
 )
 store
 .
@@ -5906,9 +5861,6 @@ groups
 =
 expectedTabGroupList
 )
-hasTabDataLoaded
-=
-true
 )
 store
 .
@@ -6116,9 +6068,6 @@ groups
 =
 expectedTabGroupList
 )
-hasTabDataLoaded
-=
-true
 )
 store
 .
@@ -6359,9 +6308,6 @@ listOf
 expectedGroup
 )
 )
-hasTabDataLoaded
-=
-true
 )
 val
 tabGroupRepository
@@ -10360,9 +10306,6 @@ listOf
 displayGroup
 )
 )
-hasTabDataLoaded
-=
-true
 )
 runCurrent
 (
@@ -10586,9 +10529,6 @@ true
 )
 )
 )
-hasTabDataLoaded
-=
-true
 )
 store
 .
@@ -11562,9 +11502,6 @@ groups
 =
 expectedTabGroupList
 )
-hasTabDataLoaded
-=
-true
 )
 runCurrent
 (
@@ -11798,9 +11735,6 @@ groups
 =
 expectedTabGroupList
 )
-hasTabDataLoaded
-=
-true
 )
 runCurrent
 (
@@ -12034,9 +11968,6 @@ groups
 =
 expectedTabGroupList
 )
-hasTabDataLoaded
-=
-true
 )
 runCurrent
 (
