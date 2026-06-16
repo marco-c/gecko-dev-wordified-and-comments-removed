@@ -7111,7 +7111,7 @@ parameters
 receive_channel_
 -
 >
-SetPlayout
+SetReceive
 (
 true
 )
@@ -7221,7 +7221,7 @@ parameters
 receive_channel_
 -
 >
-SetPlayout
+SetReceive
 (
 true
 )
@@ -15204,7 +15204,7 @@ recv_parameters_
 receive_channel_
 -
 >
-SetPlayout
+SetReceive
 (
 true
 )
@@ -15224,7 +15224,7 @@ started
 receive_channel_
 -
 >
-SetPlayout
+SetReceive
 (
 false
 )
@@ -16142,7 +16142,7 @@ send_parameters_
 receive_channel_
 -
 >
-SetPlayout
+SetReceive
 (
 true
 )
@@ -16236,7 +16236,7 @@ IsSending
 receive_channel_
 -
 >
-SetPlayout
+SetReceive
 (
 false
 )
@@ -16268,7 +16268,7 @@ started
 receive_channel_
 -
 >
-SetPlayout
+SetReceive
 (
 true
 )
@@ -23071,7 +23071,7 @@ SetupRecvStream
 receive_channel_
 -
 >
-SetPlayout
+SetReceive
 (
 true
 )

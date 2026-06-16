@@ -1213,7 +1213,7 @@ callback
 )
 override
 ;
-void
+bool
 SetSend
 (
 bool
@@ -1903,10 +1903,10 @@ const
 override
 ;
 void
-SetPlayout
+SetReceive
 (
 bool
-playout
+receive
 )
 override
 ;

@@ -3096,10 +3096,10 @@ params
 override
 ;
 void
-SetPlayout
+SetReceive
 (
 bool
-playout
+receive
 )
 override
 ;
@@ -3656,7 +3656,7 @@ params
 )
 override
 ;
-void
+bool
 SetSend
 (
 bool

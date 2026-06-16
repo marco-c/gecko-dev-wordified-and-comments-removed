@@ -649,15 +649,15 @@ void
 FakeVoiceMediaReceiveChannel
 :
 :
-SetPlayout
+SetReceive
 (
 bool
-playout
+receive
 )
 {
 set_playout
 (
-playout
+receive
 )
 ;
 }
@@ -1620,7 +1620,7 @@ options
 )
 ;
 }
-void
+bool
 FakeVoiceMediaSendChannel
 :
 :
@@ -1630,6 +1630,7 @@ bool
 send
 )
 {
+return
 set_sending
 (
 send
