@@ -25239,6 +25239,10 @@ SamsungColorEmoji
 Noto
 Color
 Emoji
+Noto
+Color
+Emoji
+Flags
 "
 )
 ;
