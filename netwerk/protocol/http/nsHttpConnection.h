@@ -398,6 +398,16 @@ return
 mHandshakeError
 ;
 }
+void
+OnClientAuthCertificateRequested
+(
+)
+;
+void
+OnClientAuthCertificateSelected
+(
+)
+;
 const
 nsACString
 &
