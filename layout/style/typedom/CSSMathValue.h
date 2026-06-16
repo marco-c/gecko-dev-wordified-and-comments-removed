@@ -148,7 +148,6 @@ enum
 class
 MathValueType
 {
-Uninitialized
 MathSum
 MathProduct
 MathNegate
@@ -157,16 +156,6 @@ MathMin
 MathMax
 MathClamp
 }
-;
-explicit
-CSSMathValue
-(
-nsCOMPtr
-<
-nsISupports
->
-aParent
-)
 ;
 CSSMathValue
 (
