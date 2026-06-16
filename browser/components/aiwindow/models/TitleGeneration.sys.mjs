@@ -443,7 +443,11 @@ engine
 const
 [
 callContext
+{
+prompt
+:
 rawPrompt
+}
 ]
 =
 await

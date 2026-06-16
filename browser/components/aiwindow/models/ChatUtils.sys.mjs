@@ -1386,7 +1386,11 @@ n
 )
 ;
 const
+{
+prompt
+:
 relevantMemoriesContextPrompt
+}
 =
 await
 lazy

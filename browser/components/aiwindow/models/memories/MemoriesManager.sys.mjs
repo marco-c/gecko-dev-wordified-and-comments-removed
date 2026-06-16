@@ -3509,7 +3509,11 @@ ensureOpenAIEngineForUsage
 )
 ;
 const
+{
+prompt
+:
 systemPrompt
+}
 =
 await
 loadPrompt
@@ -3520,7 +3524,11 @@ MEMORIES_MESSAGE_CLASSIFICATION_SYSTEM
 )
 ;
 const
+{
+prompt
+:
 userPromptTemplate
+}
 =
 await
 loadPrompt
