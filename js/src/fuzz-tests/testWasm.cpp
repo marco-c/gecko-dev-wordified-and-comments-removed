@@ -306,6 +306,17 @@ supported
 )
 ;
 }
+JS
+:
+:
+Prefs
+:
+:
+setFuzzingSafe
+(
+true
+)
+;
 #
 define
 WASM_FEATURE
@@ -317,7 +328,6 @@ COMPILER_PRED
 FLAG_PRED
 \
 FLAG_FORCE_ON
-FLAG_FUZZ_ON
 PREF
 )
 \
@@ -329,7 +339,7 @@ set_wasm_
 #
 PREF
 (
-FLAG_FUZZ_ON
+true
 )
 ;
 JS_FOR_WASM_FEATURES

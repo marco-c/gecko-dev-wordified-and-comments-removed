@@ -59567,6 +59567,9 @@ always
 set_spidermonkey_pref
 :
 always
+fuzzing_safe
+:
+false
 -
 name
 :
@@ -59620,6 +59623,9 @@ always
 set_spidermonkey_pref
 :
 startup
+fuzzing_safe
+:
+false
 -
 name
 :
@@ -59660,6 +59666,9 @@ always
 set_spidermonkey_pref
 :
 always
+fuzzing_safe
+:
+false
 #
 if
 defined
@@ -59888,6 +59897,9 @@ always
 set_spidermonkey_pref
 :
 always
+fuzzing_safe
+:
+false
 #
 Enables
 lazy
