@@ -51,13 +51,6 @@ rust
 -
 dom
 /
-base
-/
-speculationrules
-/
--
-dom
-/
 fs
 /
 parent
