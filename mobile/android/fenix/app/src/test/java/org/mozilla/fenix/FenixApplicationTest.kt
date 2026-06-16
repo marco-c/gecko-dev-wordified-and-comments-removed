@@ -1576,9 +1576,7 @@ every
 {
 application
 .
-getDeviceTotalRAM
-(
-)
+deviceTotalRAM
 }
 returns
 7L
