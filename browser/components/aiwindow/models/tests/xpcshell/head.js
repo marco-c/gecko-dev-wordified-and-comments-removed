@@ -99,12 +99,6 @@ addSeenUrls
 )
 {
 }
-async
-addHistoryResults
-(
-)
-{
-}
 getAllMentionURLs
 (
 )

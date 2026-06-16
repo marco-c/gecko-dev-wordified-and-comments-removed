@@ -708,13 +708,6 @@ js
 ]
 [
 "
-browser_smartwindow_history_thumbnails
-.
-js
-"
-]
-[
-"
 browser_smartwindow_init
 .
 js
