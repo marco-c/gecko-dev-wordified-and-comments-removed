@@ -2228,11 +2228,6 @@ type
 string
 "
 }
-"
-unsupported
-"
-:
-true
 }
 "
 frameIds
@@ -2374,11 +2369,6 @@ the
 injection
 .
 "
-"
-unsupported
-"
-:
-true
 }
 "
 frameId

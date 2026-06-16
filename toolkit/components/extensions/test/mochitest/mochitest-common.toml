@@ -2156,6 +2156,13 @@ http3
 ]
 [
 "
+test_ext_scripting_documentId
+.
+html
+"
+]
+[
+"
 test_ext_scripting_executeScript
 .
 html
