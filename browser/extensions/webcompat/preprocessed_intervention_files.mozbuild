@@ -1834,4 +1834,13 @@ hide_browser_notice
 .
 css
 "
+"
+bug2046875
+-
+Google_Search_World_Cup_widget
+-
+fix_mute_and_close_buttons_on_football_minigame
+.
+css
+"
 ]
