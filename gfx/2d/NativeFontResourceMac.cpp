@@ -691,13 +691,12 @@ aInstanceDataLength
 )
 {
 RefPtr
-<
-UnscaledFont
->
 unscaledFont
 =
-new
+MakeRefPtr
+<
 UnscaledFontMac
+>
 (
 mFontDescRef
 mFontRef

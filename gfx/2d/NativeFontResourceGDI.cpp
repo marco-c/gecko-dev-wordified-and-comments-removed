@@ -205,13 +205,12 @@ aInstanceData
 )
 ;
 RefPtr
-<
-UnscaledFont
->
 unscaledFont
 =
-new
+MakeRefPtr
+<
 UnscaledFontGDI
+>
 (
 *
 logFont
