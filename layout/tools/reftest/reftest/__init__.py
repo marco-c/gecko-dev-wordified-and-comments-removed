@@ -1297,7 +1297,7 @@ defaults
         
 for
 i
-line
+raw_line
 in
 enumerate
 (
@@ -1311,21 +1311,21 @@ i
 +
 1
             
-if
-isinstance
-(
-line
-bytes
-)
-:
-                
 line
 =
-line
+raw_line
 .
 decode
 (
 )
+if
+isinstance
+(
+raw_line
+bytes
+)
+else
+raw_line
             
 if
 line
