@@ -3761,9 +3761,6 @@ webrtc
 if
 (
 use_libfuzzer
-|
-|
-use_afl
 )
 {
 #
