@@ -36,6 +36,13 @@ xpt
 "
 [
 "
+test_KeyedUUIDMapper
+.
+js
+"
+]
+[
+"
 test_bug121341
 .
 js
