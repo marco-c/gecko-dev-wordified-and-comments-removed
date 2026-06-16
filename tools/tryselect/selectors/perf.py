@@ -537,6 +537,12 @@ profile
 "
         
 "
+native
+-
+profiling
+"
+        
+"
 path
 "
         
