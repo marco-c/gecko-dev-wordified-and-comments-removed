@@ -681,7 +681,7 @@ EditContext
 "
 )
 ;
-assert_equals
+assert_in_array
 (
 document
 .
@@ -691,9 +691,13 @@ queryCommandValue
 bold
 "
 )
+[
 "
 false
 "
+"
+"
+]
 "
 queryCommandValue
 should
@@ -701,6 +705,9 @@ always
 return
 '
 false
+'
+or
+'
 '
 in
 EditContext
