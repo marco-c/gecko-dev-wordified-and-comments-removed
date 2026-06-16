@@ -101,6 +101,11 @@ select
 js
 "
 "
+stylesheets
+.
+js
+"
+"
 symbols
 .
 js
