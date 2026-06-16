@@ -4484,6 +4484,16 @@ win
 await
 navigationPromise
 ;
+await
+lazy
+.
+AIWindow
+.
+focusSidebar
+(
+win
+)
+;
 /
 /
 Allow
