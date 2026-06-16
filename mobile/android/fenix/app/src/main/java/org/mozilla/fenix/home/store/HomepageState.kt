@@ -1730,6 +1730,9 @@ showLongfoxEntryPoint
 settings
 .
 longfoxEnabled
+&
+&
+longfoxEntryPointReady
 trackersBlockedCount
 =
 blockedTrackersState
