@@ -11484,6 +11484,9 @@ xcb
 xext
 "
 "
+xfixes
+"
+"
 xrandr
 >
 =
@@ -11531,9 +11534,6 @@ xcursor
 "
 "
 xdamage
-"
-"
-xfixes
 "
 "
 xi
