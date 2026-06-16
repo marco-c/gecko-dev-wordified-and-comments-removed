@@ -819,12 +819,6 @@ thread
 )
 .
 actorID
-source
-:
-makeSourceId
-(
-sourceResource
-)
 sourceObject
 sourceMapBaseURL
 :
@@ -836,11 +830,6 @@ sourceMapURL
 sourceResource
 .
 sourceMapURL
-url
-:
-sourceResource
-.
-url
 introductionType
 :
 sourceResource

@@ -1061,7 +1061,9 @@ sourceId
 =
 removedActor
 .
-source
+sourceObject
+.
+id
 ;
 const
 actorsForSource
@@ -1209,7 +1211,9 @@ sourceId
 =
 sourceActor
 .
-source
+sourceObject
+.
+id
 ;
 const
 existing
@@ -1287,7 +1291,7 @@ for
 (
 const
 {
-source
+sourceObject
 }
 of
 scriptActors
@@ -1299,7 +1303,9 @@ mutableBreakpointPositions
 .
 delete
 (
-source
+sourceObject
+.
+id
 )
 ;
 }
