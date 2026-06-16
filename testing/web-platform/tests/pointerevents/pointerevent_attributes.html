@@ -349,12 +349,6 @@ pointermove
 '
 ]
 ;
-let
-eventsLogged
-=
-[
-]
-;
 function
 verifyButtonAttributes
 (
@@ -1046,6 +1040,7 @@ test
 =
 >
 {
+let
 eventsLogged
 =
 [
@@ -1360,7 +1355,7 @@ clickOnDone
 getEvent
 (
 '
-click
+pointerup
 '
 doneButton
 )

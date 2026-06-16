@@ -350,12 +350,6 @@ pointermove
 '
 ]
 ;
-let
-eventsLogged
-=
-[
-]
-;
 async
 function
 runTests
@@ -435,6 +429,7 @@ test
 =
 >
 {
+let
 eventsLogged
 =
 [
@@ -725,7 +720,7 @@ clickOnDone
 getEvent
 (
 '
-click
+pointerup
 '
 doneButton
 )
