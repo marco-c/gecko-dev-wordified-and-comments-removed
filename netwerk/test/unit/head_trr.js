@@ -2998,9 +2998,9 @@ questions
 ]
 .
 name
-=
-=
-=
+.
+endsWith
+(
 "
 foo
 .
@@ -3008,6 +3008,7 @@ notexisted
 .
 com
 "
+)
 )
 {
 priority
