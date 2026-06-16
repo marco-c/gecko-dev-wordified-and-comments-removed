@@ -3022,6 +3022,9 @@ isIPv4Disabled
 bool
 isIPv6Disabled
 ;
+bool
+isHttp3Disabled
+;
 nsCString
 topWindowOrigin
 ;
