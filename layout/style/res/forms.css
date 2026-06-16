@@ -682,6 +682,12 @@ cursor
 :
 text
 ;
+resize
+:
+none
+!
+important
+;
 }
 textarea
 {
