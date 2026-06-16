@@ -166,6 +166,11 @@ index
 feature_checklist
 bytecode_checklist
 use_counter
+how
+-
+we
+-
+optimize
 Debugger
 API
 <
