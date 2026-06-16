@@ -245,6 +245,14 @@ AudioSessionState
 aState
 )
 ;
+void
+DispatchStateChange
+(
+uint64_t
+aBcId
+)
+const
+;
 private
 :
 void
