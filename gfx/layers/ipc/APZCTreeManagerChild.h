@@ -254,6 +254,16 @@ aTapGestureEnabled
 )
 override
 ;
+void
+NotifyApzAwareListenerAdded
+(
+const
+ScrollableLayerGuid
+&
+aGuid
+)
+override
+;
 APZInputBridge
 *
 InputBridge
