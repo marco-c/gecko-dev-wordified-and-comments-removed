@@ -131,8 +131,6 @@ dom
 :
 NodeInfo
 >
-&
-&
 aNodeInfo
 mozilla
 :
@@ -349,8 +347,6 @@ already_AddRefed
 <
 NodeInfo
 >
-&
-&
 aNodeInfo
 )
 :

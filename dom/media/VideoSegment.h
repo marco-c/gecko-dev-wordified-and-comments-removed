@@ -611,8 +611,6 @@ already_AddRefed
 <
 Image
 >
-&
-&
 aImage
 const
 IntSize
@@ -674,8 +672,6 @@ already_AddRefed
 <
 Image
 >
-&
-&
 aImage
 const
 IntSize
@@ -709,8 +705,6 @@ already_AddRefed
 <
 Image
 >
-&
-&
 aImage
 const
 IntSize

@@ -4420,8 +4420,6 @@ already_AddRefed
 <
 DataChannel
 >
-&
-&
 aDataChannel
 const
 nsACString

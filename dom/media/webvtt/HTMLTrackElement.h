@@ -11,17 +11,6 @@ mozilla
 /
 dom
 /
-HTMLMediaElement
-.
-h
-"
-#
-include
-"
-mozilla
-/
-dom
-/
 TextTrack
 .
 h
@@ -69,6 +58,9 @@ TextTrackReadyState
 uint8_t
 ;
 class
+HTMLMediaElement
+;
+class
 HTMLTrackElement
 final
 :
@@ -90,8 +82,6 @@ dom
 :
 NodeInfo
 >
-&
-&
 aNodeInfo
 )
 ;

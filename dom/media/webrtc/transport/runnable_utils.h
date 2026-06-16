@@ -1337,8 +1337,6 @@ already_AddRefed
 <
 T
 >
-&
-&
 ref
 )
 {

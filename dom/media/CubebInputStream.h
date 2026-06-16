@@ -178,8 +178,6 @@ already_AddRefed
 <
 Listener
 >
-&
-&
 aListener
 already_AddRefed
 <
@@ -188,8 +186,6 @@ CubebUtils
 :
 CubebHandle
 >
-&
-&
 aCubeb
 UniquePtr
 <

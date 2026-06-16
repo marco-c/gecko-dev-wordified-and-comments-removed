@@ -40,8 +40,6 @@ dom
 :
 NodeInfo
 >
-&
-&
 aNodeInfo
 )
 {

@@ -224,8 +224,6 @@ already_AddRefed
 <
 nsITimer
 >
-&
-&
 timer
 )
 {
