@@ -877,9 +877,8 @@ IsWebsocketUpgrade
 void
 OnProxyConnectComplete
 (
-const
-nsHttpResponseHead
-&
+ProxyConnectResponseHead
+*
 aResponseHead
 )
 override
@@ -2339,9 +2338,9 @@ HttpTrafficCategory
 eInvalid
 }
 ;
-Maybe
+RefPtr
 <
-nsHttpResponseHead
+ProxyConnectResponseHead
 >
 mProxyConnectResponseHead
 MOZ_GUARDED_BY

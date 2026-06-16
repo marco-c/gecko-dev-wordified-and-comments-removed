@@ -4057,7 +4057,10 @@ mIsInTunnel
 ;
 mProxyConnectResponseHead
 =
-Some
+MakeRefPtr
+<
+ProxyConnectResponseHead
+>
 (
 responseHead
 )
@@ -4095,7 +4098,7 @@ aHttpTransaction
 >
 OnProxyConnectComplete
 (
-responseHead
+mProxyConnectResponseHead
 )
 ;
 if

@@ -3526,9 +3526,9 @@ DNSPromise
 >
 mDNSBlockingThenable
 ;
-Maybe
+RefPtr
 <
-nsHttpResponseHead
+ProxyConnectResponseHead
 >
 mProxyConnectResponseHead
 ;

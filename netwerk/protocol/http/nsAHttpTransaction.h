@@ -98,6 +98,9 @@ class
 nsHttpResponseHead
 ;
 class
+ProxyConnectResponseHead
+;
+class
 nsHttpConnectionInfo
 ;
 class
@@ -644,9 +647,8 @@ virtual
 void
 OnProxyConnectComplete
 (
-const
-nsHttpResponseHead
-&
+ProxyConnectResponseHead
+*
 aResponseHead
 )
 {

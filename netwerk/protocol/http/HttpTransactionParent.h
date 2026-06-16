@@ -867,9 +867,9 @@ mEchConfigUsed
 =
 false
 ;
-Maybe
+RefPtr
 <
-nsHttpResponseHead
+ProxyConnectResponseHead
 >
 mProxyConnectResponseHead
 ;
