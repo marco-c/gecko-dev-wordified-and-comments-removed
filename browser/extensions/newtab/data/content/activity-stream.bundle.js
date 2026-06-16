@@ -135774,10 +135774,9 @@ createElement
 img
 "
 {
-role
+alt
 :
 "
-presentation
 "
 src
 :

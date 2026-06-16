@@ -828,10 +828,9 @@ div
 >
 <
 img
-role
+alt
 =
 "
-presentation
 "
 src
 =
