@@ -2670,6 +2670,7 @@ borrow_mut
 .
 resolve
 (
+self
 )
 .
 sibling_count
@@ -2755,6 +2756,7 @@ borrow_mut
 .
 resolve
 (
+self
 )
 .
 sibling_index
