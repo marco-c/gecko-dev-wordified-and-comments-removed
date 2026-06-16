@@ -1988,6 +1988,9 @@ onCountriesSelected
 (
 selection
 )
+showSportsCountrySelector
+=
+false
 }
 onDismiss
 =
