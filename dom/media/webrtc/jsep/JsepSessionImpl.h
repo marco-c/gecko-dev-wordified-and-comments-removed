@@ -376,8 +376,10 @@ mLastError
 )
 mParser
 (
-new
+MakeUnique
+<
 HybridSdpParser
+>
 (
 )
 )
