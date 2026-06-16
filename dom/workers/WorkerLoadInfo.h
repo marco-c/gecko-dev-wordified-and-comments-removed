@@ -477,6 +477,9 @@ nsString
 >
 mLanguageOverride
 ;
+nsString
+mTimezoneOverride
+;
 nsCOMPtr
 <
 nsIReferrerInfo

@@ -1559,6 +1559,16 @@ Clone
 ;
 info
 .
+mTimezoneOverride
+=
+aData
+.
+timezoneOverride
+(
+)
+;
+info
+.
 mSecureContext
 =
 aData

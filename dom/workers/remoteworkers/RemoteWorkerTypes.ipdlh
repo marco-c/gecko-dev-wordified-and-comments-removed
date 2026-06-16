@@ -563,6 +563,17 @@ on
 nsCString
 remoteType
 ;
+nsCString
+languageOverrideLocale
+;
+nsString
+[
+]
+languageOverride
+;
+nsString
+timezoneOverride
+;
 }
 ;
 /

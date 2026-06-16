@@ -3626,6 +3626,15 @@ nsCString
 aLanguageOverride
 )
 ;
+void
+UpdateSharedWorkerTimezoneOverride
+(
+const
+nsAString
+&
+aTimezoneOverride
+)
+;
 public
 :
 void

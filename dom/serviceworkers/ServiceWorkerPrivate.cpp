@@ -4077,6 +4077,10 @@ nsString
 >
 (
 )
+u
+"
+"
+_ns
 )
 ;
 mRemoteWorkerData
