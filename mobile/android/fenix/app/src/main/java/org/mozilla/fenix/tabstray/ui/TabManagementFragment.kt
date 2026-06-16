@@ -1376,6 +1376,14 @@ placeAfter
 placeAfter
 )
 )
+tabsTrayStore
+.
+dispatch
+(
+TabsTrayAction
+.
+TabDragCancel
+)
 }
 override
 fun
@@ -3390,11 +3398,6 @@ tabGroupsDragAndDropEnabled
 settings
 .
 tabGroupsDragAndDropEnabled
-tabGroupsLiveReorderEnabled
-=
-settings
-.
-tabGroupsLiveReorderEnabled
 tabGroupsOnboardingEnabled
 =
 settings

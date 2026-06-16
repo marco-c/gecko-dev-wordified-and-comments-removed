@@ -791,9 +791,6 @@ false
 displayTabGroupOnboarding
 =
 false
-liveReorderEnabled
-=
-false
 selectedItemIndex
 =
 group
