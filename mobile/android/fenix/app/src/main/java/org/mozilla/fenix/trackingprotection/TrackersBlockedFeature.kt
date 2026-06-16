@@ -951,9 +951,9 @@ Triple
 (
 R
 .
-string
+plurals
 .
-etp_cookies_title
+trackers_blocked_panel_num_cross_site_cookies
 iconsR
 .
 drawable
@@ -968,9 +968,9 @@ Triple
 (
 R
 .
-string
+plurals
 .
-etp_social_media_trackers_title
+trackers_blocked_panel_num_social_media_trackers
 iconsR
 .
 drawable
@@ -985,9 +985,9 @@ Triple
 (
 R
 .
-string
+plurals
 .
-tracking_dashboard_fingerprinters_category_name
+trackers_blocked_panel_num_fingerprinters
 iconsR
 .
 drawable
@@ -1003,9 +1003,9 @@ Triple
 (
 R
 .
-string
+plurals
 .
-etp_tracking_content_title
+trackers_blocked_panel_num_trackers_2
 iconsR
 .
 drawable
