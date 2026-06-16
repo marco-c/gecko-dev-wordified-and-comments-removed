@@ -1084,6 +1084,10 @@ psnr_experiment_
 FrameSampler
 psnr_frame_sampler_
 ;
+const
+bool
+post_encode_frame_drop_
+;
 }
 ;
 }
