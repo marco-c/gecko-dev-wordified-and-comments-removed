@@ -85,14 +85,6 @@ CSSPropertyId
 ;
 template
 <
-class
-T
->
-class
-Maybe
-;
-template
-<
 typename
 T
 >
@@ -223,10 +215,7 @@ aDest
 )
 const
 ;
-Maybe
-<
 StyleMathNegate
->
 ToStyleMathNegate
 (
 )

@@ -103,14 +103,6 @@ CSSPropertyId
 class
 ErrorResult
 ;
-template
-<
-class
-T
->
-class
-Maybe
-;
 struct
 StyleNumericValue
 ;
@@ -600,10 +592,7 @@ aDest
 )
 const
 ;
-Maybe
-<
 StyleNumericValue
->
 ToStyleNumericValue
 (
 )

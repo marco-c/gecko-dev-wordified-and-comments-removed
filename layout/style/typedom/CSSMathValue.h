@@ -116,14 +116,6 @@ mozilla
 struct
 CSSPropertyId
 ;
-template
-<
-class
-T
->
-class
-Maybe
-;
 struct
 StyleMathValue
 ;
@@ -359,10 +351,7 @@ aDest
 )
 const
 ;
-Maybe
-<
 StyleMathValue
->
 ToStyleMathValue
 (
 )
