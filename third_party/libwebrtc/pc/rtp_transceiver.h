@@ -731,10 +731,6 @@ string
 &
 >
 transport_lookup
-bool
-set_media_channels
-=
-true
 )
 ;
 void
@@ -1622,11 +1618,6 @@ void
 &
 >
 GetStopSendingAndReceiving
-(
-)
-;
-void
-PushNewMediaChannel
 (
 )
 ;
