@@ -79,6 +79,11 @@ HeadersToolbar
 mjs
 "
 "
+JsonBreadcrumb
+.
+mjs
+"
+"
 JsonPanel
 .
 mjs
