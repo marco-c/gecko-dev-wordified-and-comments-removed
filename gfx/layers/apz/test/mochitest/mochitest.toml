@@ -1861,15 +1861,6 @@ Bug
 [
 "
 test_group_touchevents
--
-7
-.
-html
-"
-]
-[
-"
-test_group_touchevents
 .
 html
 "
