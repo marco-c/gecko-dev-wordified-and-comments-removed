@@ -586,6 +586,9 @@ true
 }
 Authorized
 .
+ConnectionError
+Authorized
+.
 Active
 -
 >
@@ -605,9 +608,6 @@ Activating
 Authorized
 .
 DataLimitReached
-Authorized
-.
-ConnectionError
 Uninitialized
 -
 >
