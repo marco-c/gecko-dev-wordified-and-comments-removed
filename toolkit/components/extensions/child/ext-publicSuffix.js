@@ -496,7 +496,7 @@ encoding
 =
 =
 "
-unicode
+display
 "
 )
 {
