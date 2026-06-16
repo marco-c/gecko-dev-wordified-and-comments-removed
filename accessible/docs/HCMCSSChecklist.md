@@ -102,9 +102,6 @@ order
 #
 #
 Architecture
--
--
--
 #
 #
 #
