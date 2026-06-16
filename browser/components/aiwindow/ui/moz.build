@@ -296,6 +296,15 @@ sys
 .
 mjs
 "
+"
+modules
+/
+ToolUITelemetry
+.
+sys
+.
+mjs
+"
 ]
 TESTING_JS_MODULES
 +
