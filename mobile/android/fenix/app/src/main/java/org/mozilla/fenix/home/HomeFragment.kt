@@ -6815,15 +6815,6 @@ accountManager
 customTabSessionId
 =
 null
-viewHasFocus
-=
-{
-view
-.
-hasWindowFocus
-(
-)
-}
 )
 owner
 =
