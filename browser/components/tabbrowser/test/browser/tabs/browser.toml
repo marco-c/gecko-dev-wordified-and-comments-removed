@@ -3097,6 +3097,13 @@ Bug
 ]
 [
 "
+browser_selectMRUOnClose
+.
+js
+"
+]
+[
+"
 browser_selectTabAtIndex
 .
 js
