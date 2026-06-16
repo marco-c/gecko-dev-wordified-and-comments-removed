@@ -2576,6 +2576,16 @@ TrackerCategoryDetailsPanel
 onTrackersBlockedThisWeekClicked
 =
 {
+store
+.
+dispatch
+(
+TrustPanelAction
+.
+Navigate
+.
+TrackersProtectionDashboard
+)
 contentState
 =
 Route
