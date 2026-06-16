@@ -30310,14 +30310,13 @@ const
 {
 MOZ_RELEASE_ASSERT
 (
+index
+<
 atoms_
 .
 length
 (
 )
->
-=
-index
 )
 ;
 return
