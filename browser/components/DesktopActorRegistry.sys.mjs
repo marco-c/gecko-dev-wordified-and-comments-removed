@@ -1470,6 +1470,17 @@ wantUntrusted
 :
 true
 }
+"
+AIChatContent
+:
+RequestAssets
+"
+:
+{
+wantUntrusted
+:
+true
+}
 }
 }
 allFrames
