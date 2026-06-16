@@ -7219,9 +7219,9 @@ id
 notification_emails
 :
 -
-project
--
 nimbus
+-
+team
 mozilla
 .
 com
@@ -7387,9 +7387,9 @@ id
 notification_emails
 :
 -
-project
--
 nimbus
+-
+team
 mozilla
 .
 com
