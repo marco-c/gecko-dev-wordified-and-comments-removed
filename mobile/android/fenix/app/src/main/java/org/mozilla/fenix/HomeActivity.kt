@@ -3158,6 +3158,13 @@ inflate
 (
 layoutInflater
 )
+Performance
+.
+processIntentIfPerformanceTest
+(
+intent
+this
+)
 val
 shouldShowOnboarding
 =
@@ -3244,7 +3251,7 @@ result
 /
 Before
 the
-slashscreen
+splashscreen
 ends
 the
 application
@@ -3557,13 +3564,6 @@ NoExtras
 )
 }
 }
-Performance
-.
-processIntentIfPerformanceTest
-(
-intent
-this
-)
 /
 /
 This
