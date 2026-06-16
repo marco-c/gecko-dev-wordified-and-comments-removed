@@ -105,7 +105,7 @@ VideoCaptureFake
 Clock
 :
 :
-GetRealTimeClockRaw
+GetRealTimeClockOnlyUseForRelativeTime
 (
 )
 aTarget

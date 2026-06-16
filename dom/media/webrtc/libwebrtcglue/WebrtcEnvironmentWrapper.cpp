@@ -174,7 +174,7 @@ get
 )
 mClock
 .
-GetRealTimeClockRaw
+GetRealTimeClockOnlyUseForRelativeTime
 (
 )
 mTaskQueueFactory
