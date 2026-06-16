@@ -12,6 +12,7 @@ import
 UnknownErrorException
 from
 .
+.
 import
 navigate_and_assert
 pytestmark
@@ -312,41 +313,25 @@ children
 [
 0
 ]
-[
-"
-context
-"
-]
     
-with
-pytest
-.
-raises
-(
-UnknownErrorException
-)
-:
-        
 await
-bidi_session
-.
-browsing_context
-.
-navigate
+navigate_and_assert
 (
-            
+        
+bidi_session
+        
 context
 =
 iframe_context
+        
 url
 =
 cross_origin_url
-wait
-=
-"
-complete
-"
         
+expected_error
+=
+True
+    
 )
 pytest
 .
@@ -397,15 +382,9 @@ test_with_content_blocking_header_in_top_context
     
 bidi_session
     
-subscribe_events
-    
 inline
     
 new_tab
-    
-wait_for_event
-    
-wait_for_future_safe
     
 header
 )
@@ -553,41 +532,25 @@ children
 [
 0
 ]
-[
-"
-context
-"
-]
     
-with
-pytest
-.
-raises
-(
-UnknownErrorException
-)
-:
-        
 await
-bidi_session
-.
-browsing_context
-.
-navigate
+navigate_and_assert
 (
-            
+        
+bidi_session
+        
 context
 =
 iframe_context
+        
 url
 =
 cross_origin_url
-wait
-=
-"
-complete
-"
         
+expected_error
+=
+True
+    
 )
 pytest
 .
@@ -619,15 +582,9 @@ test_with_x_frame_options_header
     
 bidi_session
     
-subscribe_events
-    
 inline
     
 new_tab
-    
-wait_for_event
-    
-wait_for_future_safe
     
 header_value
 )
@@ -782,41 +739,25 @@ children
 [
 0
 ]
-[
-"
-context
-"
-]
     
-with
-pytest
-.
-raises
-(
-UnknownErrorException
-)
-:
-        
 await
-bidi_session
-.
-browsing_context
-.
-navigate
+navigate_and_assert
 (
-            
+        
+bidi_session
+        
 context
 =
 iframe_context
+        
 url
 =
 iframe_url_with_header
-wait
-=
-"
-complete
-"
         
+expected_error
+=
+True
+    
 )
 async
 def

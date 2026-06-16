@@ -1174,7 +1174,7 @@ into
 *
 param
 {
-string
+URL
 }
 url
 *
@@ -1246,6 +1246,8 @@ browsingContext
 fixupAndLoadURIString
 (
 url
+.
+href
 opts
 )
 ;
