@@ -203,7 +203,7 @@ fenix
 .
 ext
 .
-settings
+components
 import
 org
 .
@@ -255,9 +255,9 @@ every
 {
 testContext
 .
+components
+.
 settings
-(
-)
 }
 returns
 settings

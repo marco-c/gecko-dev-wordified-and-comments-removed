@@ -183,7 +183,7 @@ fenix
 .
 ext
 .
-settings
+components
 import
 org
 .
@@ -5033,9 +5033,9 @@ TestHelper
 .
 appContext
 .
+components
+.
 settings
-(
-)
 .
 tabGroupsOnboardingEnabled
 =
@@ -5709,9 +5709,9 @@ TestHelper
 .
 appContext
 .
+components
+.
 settings
-(
-)
 .
 shouldShowSearchSuggestionsInPrivate
 =

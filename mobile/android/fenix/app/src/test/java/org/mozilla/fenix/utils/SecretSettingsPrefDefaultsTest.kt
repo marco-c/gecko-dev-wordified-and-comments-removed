@@ -159,7 +159,7 @@ fenix
 .
 ext
 .
-settings
+components
 import
 org
 .
@@ -215,9 +215,9 @@ every
 {
 testContext
 .
+components
+.
 settings
-(
-)
 }
 returns
 settings
@@ -309,7 +309,7 @@ true
 }
 SecretSettingsPrefDefaults
 (
-testContext
+settings
 )
 .
 resetAll
@@ -440,7 +440,7 @@ true
 }
 SecretSettingsPrefDefaults
 (
-testContext
+settings
 )
 .
 resetAll
@@ -541,7 +541,7 @@ true
 }
 SecretSettingsPrefDefaults
 (
-testContext
+settings
 )
 .
 resetAll
@@ -638,7 +638,7 @@ true
 }
 SecretSettingsPrefDefaults
 (
-testContext
+settings
 )
 .
 resetAll

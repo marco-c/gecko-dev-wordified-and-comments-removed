@@ -95,7 +95,7 @@ fenix
 .
 ext
 .
-isDefaultBrowserPromptSupported
+components
 import
 org
 .
@@ -105,7 +105,7 @@ fenix
 .
 ext
 .
-settings
+isDefaultBrowserPromptSupported
 import
 org
 .
@@ -275,9 +275,9 @@ get
 =
 context
 .
+components
+.
 settings
-(
-)
 .
 promptToSetAsDefaultBrowserDisplayedInOnboarding
 set
@@ -287,9 +287,9 @@ value
 {
 context
 .
+components
+.
 settings
-(
-)
 .
 promptToSetAsDefaultBrowserDisplayedInOnboarding
 =

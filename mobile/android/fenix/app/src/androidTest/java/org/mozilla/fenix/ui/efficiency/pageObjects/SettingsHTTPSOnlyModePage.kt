@@ -155,7 +155,7 @@ fenix
 .
 ext
 .
-settings
+components
 import
 org
 .
@@ -460,9 +460,9 @@ if
 !
 appContext
 .
+components
+.
 settings
-(
-)
 .
 shouldUseHttpsOnly
 )

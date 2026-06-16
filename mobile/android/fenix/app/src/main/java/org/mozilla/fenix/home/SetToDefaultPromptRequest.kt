@@ -153,7 +153,7 @@ fenix
 .
 ext
 .
-openSetDefaultBrowserOption
+components
 import
 org
 .
@@ -163,7 +163,7 @@ fenix
 .
 ext
 .
-settings
+openSetDefaultBrowserOption
 import
 org
 .
@@ -723,9 +723,9 @@ get
 return
 activity
 .
+components
+.
 settings
-(
-)
 .
 setToDefaultPromptRequested
 =

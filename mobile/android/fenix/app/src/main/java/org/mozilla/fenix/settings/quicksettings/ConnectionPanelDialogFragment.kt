@@ -288,11 +288,9 @@ controller
 =
 DefaultConnectionDetailsController
 (
-context
+components
 =
-requireContext
-(
-)
+requireComponents
 scope
 =
 viewLifecycleOwner

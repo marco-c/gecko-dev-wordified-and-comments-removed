@@ -151,7 +151,7 @@ fenix
 .
 ext
 .
-settings
+components
 import
 org
 .
@@ -242,9 +242,9 @@ if
 (
 context
 .
+components
+.
 settings
-(
-)
 .
 useReactFxAServer
 )
@@ -332,9 +332,9 @@ launchInApp
 {
 context
 .
+components
+.
 settings
-(
-)
 .
 shouldOpenLinksInApp
 (

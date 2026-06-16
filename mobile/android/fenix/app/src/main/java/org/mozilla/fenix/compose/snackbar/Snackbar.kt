@@ -411,7 +411,7 @@ fenix
 .
 ext
 .
-settings
+components
 import
 org
 .
@@ -767,9 +767,9 @@ parent
 .
 context
 .
+components
+.
 settings
-(
-)
 .
 accessibilityServicesEnabled
 &
@@ -935,9 +935,9 @@ snackBarParentView
 .
 context
 .
+components
+.
 settings
-(
-)
 .
 toolbarPosition
 shouldUseExpandedToolbar
@@ -946,9 +946,9 @@ snackBarParentView
 .
 context
 .
+components
+.
 settings
-(
-)
 .
 shouldUseExpandedToolbar
 )

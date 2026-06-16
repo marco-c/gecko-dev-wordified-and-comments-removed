@@ -1127,9 +1127,9 @@ every
 {
 testContext
 .
+components
+.
 settings
-(
-)
 }
 returns
 settings
@@ -1180,9 +1180,9 @@ every
 {
 testContext
 .
+components
+.
 settings
-(
-)
 }
 returns
 settings

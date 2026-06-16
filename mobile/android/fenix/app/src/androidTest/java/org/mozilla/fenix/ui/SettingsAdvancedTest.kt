@@ -181,7 +181,7 @@ fenix
 .
 ext
 .
-settings
+components
 import
 org
 .
@@ -1203,9 +1203,9 @@ TestHelper
 .
 appContext
 .
+components
+.
 settings
-(
-)
 .
 shouldShowCookieBannersCFR
 =

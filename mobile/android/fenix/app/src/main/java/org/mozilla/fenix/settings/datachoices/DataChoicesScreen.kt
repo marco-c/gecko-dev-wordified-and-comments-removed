@@ -471,7 +471,7 @@ fenix
 .
 ext
 .
-settings
+components
 import
 org
 .
@@ -2601,9 +2601,9 @@ if
 (
 context
 .
+components
+.
 settings
-(
-)
 .
 hasMadeMarketingTelemetrySelection
 )

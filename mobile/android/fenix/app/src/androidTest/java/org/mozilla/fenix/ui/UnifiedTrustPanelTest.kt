@@ -127,7 +127,7 @@ fenix
 .
 ext
 .
-settings
+components
 import
 org
 .
@@ -562,9 +562,9 @@ verifyInsecurePageConnectionFromQuickSettingsWithTrackersTest
 {
 appContext
 .
+components
+.
 settings
-(
-)
 .
 setStrictETP
 (
@@ -900,9 +900,9 @@ verifySecurePageConnectionFromQuickSettingsWithTrackersTest
 {
 appContext
 .
+components
+.
 settings
-(
-)
 .
 setStrictETP
 (
@@ -1453,9 +1453,9 @@ verifySecurePageConnectionFromQuickSettingsWithTrackersInCustomTabsTest
 {
 appContext
 .
+components
+.
 settings
-(
-)
 .
 setStrictETP
 (
@@ -1943,9 +1943,9 @@ verifyInsecurePageConnectionFromQuickSettingsWithTrackersInCustomTabsTest
 {
 appContext
 .
+components
+.
 settings
-(
-)
 .
 setStrictETP
 (

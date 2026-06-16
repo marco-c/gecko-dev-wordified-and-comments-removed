@@ -125,7 +125,7 @@ fenix
 .
 ext
 .
-settings
+components
 import
 org
 .
@@ -199,16 +199,11 @@ isChecked
 =
 context
 .
+components
+.
 settings
-(
-)
 .
 whatsappLinkSharingEnabled
-onPreferenceChangeListener
-=
-SharedPreferenceUpdater
-(
-)
 onPreferenceChangeListener
 =
 object

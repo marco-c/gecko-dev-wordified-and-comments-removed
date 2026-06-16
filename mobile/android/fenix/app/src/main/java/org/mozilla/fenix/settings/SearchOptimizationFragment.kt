@@ -225,7 +225,7 @@ fenix
 .
 ext
 .
-settings
+requireComponents
 import
 org
 .
@@ -506,9 +506,9 @@ _
 >
 SecretSettingsPrefDefaults
 (
-requireContext
-(
-)
+requireComponents
+.
+settings
 )
 .
 resetAll
@@ -614,13 +614,9 @@ rootKey
 val
 settings
 =
-requireContext
-(
-)
+requireComponents
 .
 settings
-(
-)
 val
 isFeatureEnabled
 =

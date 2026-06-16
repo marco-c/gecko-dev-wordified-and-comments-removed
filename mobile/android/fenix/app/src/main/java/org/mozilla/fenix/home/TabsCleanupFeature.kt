@@ -217,6 +217,16 @@ fenix
 .
 ext
 .
+components
+import
+org
+.
+mozilla
+.
+fenix
+.
+ext
+.
 tabClosedUndoMessage
 import
 org
@@ -665,6 +675,10 @@ operation
 undoDelay
 =
 context
+.
+components
+.
+settings
 .
 getUndoDelay
 (

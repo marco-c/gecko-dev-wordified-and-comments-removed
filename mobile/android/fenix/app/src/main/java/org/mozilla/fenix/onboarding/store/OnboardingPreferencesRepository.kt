@@ -155,7 +155,7 @@ fenix
 .
 ext
 .
-settings
+components
 import
 org
 .
@@ -441,9 +441,9 @@ settings
 =
 context
 .
+components
+.
 settings
-(
-)
 private
 val
 _onboardingPreferenceUpdates

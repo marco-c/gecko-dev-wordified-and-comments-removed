@@ -183,7 +183,7 @@ fenix
 .
 ext
 .
-settings
+components
 import
 org
 .
@@ -229,16 +229,6 @@ Settings
 (
 testContext
 )
-every
-{
-testContext
-.
-settings
-(
-)
-}
-returns
-settings
 }
 Test
 fun
@@ -383,6 +373,7 @@ DefaultSetupChecklistRepository
 context
 =
 testContext
+settings
 )
 repository
 .
@@ -428,6 +419,7 @@ DefaultSetupChecklistRepository
 context
 =
 testContext
+settings
 )
 repository
 .
@@ -474,6 +466,7 @@ DefaultSetupChecklistRepository
 context
 =
 testContext
+settings
 )
 repository
 .
@@ -523,6 +516,7 @@ DefaultSetupChecklistRepository
 context
 =
 testContext
+settings
 )
 repository
 .
@@ -571,6 +565,7 @@ DefaultSetupChecklistRepository
 context
 =
 testContext
+settings
 )
 repository
 .
@@ -618,6 +613,7 @@ DefaultSetupChecklistRepository
 context
 =
 testContext
+settings
 )
 repository
 .
@@ -664,6 +660,7 @@ DefaultSetupChecklistRepository
 context
 =
 testContext
+settings
 )
 repository
 .
@@ -722,8 +719,7 @@ DefaultSetupChecklistRepository
 context
 =
 testContext
-coroutineScope
-=
+settings
 this
 )
 settings
@@ -814,8 +810,7 @@ DefaultSetupChecklistRepository
 context
 =
 testContext
-coroutineScope
-=
+settings
 this
 )
 settings
@@ -907,8 +902,7 @@ DefaultSetupChecklistRepository
 context
 =
 testContext
-coroutineScope
-=
+settings
 this
 )
 settings
@@ -1000,8 +994,7 @@ DefaultSetupChecklistRepository
 context
 =
 testContext
-coroutineScope
-=
+settings
 this
 )
 settings
@@ -1093,8 +1086,7 @@ DefaultSetupChecklistRepository
 context
 =
 testContext
-coroutineScope
-=
+settings
 this
 )
 settings

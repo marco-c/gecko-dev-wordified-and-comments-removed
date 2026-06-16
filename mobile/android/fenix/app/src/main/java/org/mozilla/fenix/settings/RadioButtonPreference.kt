@@ -159,7 +159,7 @@ fenix
 .
 ext
 .
-settings
+components
 import
 org
 .
@@ -631,9 +631,9 @@ isChecked
 isChecked
 context
 .
+components
+.
 settings
-(
-)
 .
 preferences
 .
@@ -684,9 +684,9 @@ isChecked
 =
 context
 .
+components
+.
 settings
-(
-)
 .
 preferences
 .

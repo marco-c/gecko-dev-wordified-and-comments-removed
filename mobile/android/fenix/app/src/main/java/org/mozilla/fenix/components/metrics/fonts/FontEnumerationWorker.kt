@@ -171,7 +171,7 @@ fenix
 .
 ext
 .
-settings
+components
 import
 java
 .
@@ -317,9 +317,9 @@ of
 submissions
 applicationContext
 .
+components
+.
 settings
-(
-)
 .
 numFontListSent
 =
@@ -554,9 +554,9 @@ if
 (
 context
 .
+components
+.
 settings
-(
-)
 .
 numFontListSent
 >

@@ -97,7 +97,7 @@ fenix
 .
 ext
 .
-settings
+components
 /
 *
 *
@@ -181,9 +181,9 @@ serverOverride
 =
 context
 .
+components
+.
 settings
-(
-)
 .
 overrideFxAServer
 val
@@ -191,9 +191,9 @@ tokenServerOverride
 =
 context
 .
+components
+.
 settings
-(
-)
 .
 overrideSyncTokenServer
 .

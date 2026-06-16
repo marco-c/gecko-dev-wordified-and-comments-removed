@@ -111,7 +111,7 @@ fenix
 .
 ext
 .
-settings
+components
 import
 org
 .
@@ -764,9 +764,9 @@ composeTestRule
 .
 activity
 .
+components
+.
 settings
-(
-)
 .
 setStrictETP
 (
@@ -927,9 +927,9 @@ TestHelper
 .
 appContext
 .
+components
+.
 settings
-(
-)
 .
 shouldShowCookieBannersCFR
 =

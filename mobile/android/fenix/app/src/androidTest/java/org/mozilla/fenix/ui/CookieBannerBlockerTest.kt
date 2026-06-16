@@ -109,7 +109,7 @@ fenix
 .
 ext
 .
-settings
+components
 import
 org
 .
@@ -351,9 +351,9 @@ runWithCondition
 (
 appContext
 .
+components
+.
 settings
-(
-)
 .
 shouldUseCookieBannerPrivateMode
 )
@@ -416,9 +416,9 @@ runWithCondition
 (
 appContext
 .
+components
+.
 settings
-(
-)
 .
 shouldUseCookieBannerPrivateMode
 )

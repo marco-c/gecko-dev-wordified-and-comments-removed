@@ -197,7 +197,7 @@ fenix
 .
 ext
 .
-settings
+components
 import
 org
 .
@@ -354,9 +354,9 @@ recordWidgetIsInstalled
 (
 context
 .
+components
+.
 settings
-(
-)
 )
 }
 override
@@ -370,9 +370,9 @@ Context
 {
 context
 .
+components
+.
 settings
-(
-)
 .
 searchWidgetInstalled
 =
@@ -405,9 +405,9 @@ recordWidgetIsInstalled
 (
 context
 .
+components
+.
 settings
-(
-)
 )
 val
 textSearchIntent
@@ -794,9 +794,9 @@ if
 !
 context
 .
+components
+.
 settings
-(
-)
 .
 shouldShowVoiceSearch
 )

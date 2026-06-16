@@ -185,7 +185,7 @@ fenix
 .
 ext
 .
-settings
+components
 import
 org
 .
@@ -854,9 +854,9 @@ if
 (
 activityContext
 .
+components
+.
 settings
-(
-)
 .
 allowScreenCaptureInSecureScreens
 )

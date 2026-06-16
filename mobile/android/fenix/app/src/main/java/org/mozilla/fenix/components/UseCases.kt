@@ -445,7 +445,7 @@ fenix
 .
 ext
 .
-settings
+components
 import
 org
 .
@@ -850,7 +850,12 @@ DownloadLocationManager
 (
 context
 .
-applicationContext
+components
+.
+settings
+context
+.
+contentResolver
 )
 .
 defaultLocation
@@ -1043,6 +1048,11 @@ currentLocale
 WallpapersUseCases
 (
 context
+.
+components
+.
+settings
+rootStorageDirectory
 appStore
 .
 value
@@ -1211,9 +1221,9 @@ settings
 =
 context
 .
+components
+.
 settings
-(
-)
 )
 }
 val

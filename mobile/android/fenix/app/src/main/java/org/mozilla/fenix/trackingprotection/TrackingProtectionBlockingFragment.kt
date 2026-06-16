@@ -143,7 +143,7 @@ fenix
 .
 ext
 .
-settings
+requireComponents
 import
 org
 .
@@ -301,13 +301,9 @@ settingsProvider
 Settings
 =
 {
-requireContext
-(
-)
+requireComponents
 .
 settings
-(
-)
 }
 private
 val

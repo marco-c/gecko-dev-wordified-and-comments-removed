@@ -93,7 +93,7 @@ fenix
 .
 ext
 .
-settings
+components
 /
 *
 *
@@ -789,9 +789,9 @@ getInstrumentation
 .
 targetContext
 .
+components
+.
 settings
-(
-)
 }
 }
 /

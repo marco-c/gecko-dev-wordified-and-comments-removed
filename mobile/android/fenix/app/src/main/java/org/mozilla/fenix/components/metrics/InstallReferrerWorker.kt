@@ -195,7 +195,7 @@ fenix
 .
 ext
 .
-settings
+components
 import
 org
 .
@@ -317,9 +317,9 @@ settings
 =
 context
 .
+components
+.
 settings
-(
-)
 override
 suspend
 fun

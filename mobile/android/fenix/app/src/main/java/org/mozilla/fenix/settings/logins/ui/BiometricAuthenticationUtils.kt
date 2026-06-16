@@ -227,7 +227,7 @@ fenix
 .
 ext
 .
-secure
+components
 import
 org
 .
@@ -237,7 +237,7 @@ fenix
 .
 ext
 .
-settings
+secure
 import
 org
 .
@@ -1016,9 +1016,9 @@ if
 (
 activity
 .
+components
+.
 settings
-(
-)
 .
 shouldShowSecurityPinWarning
 )
@@ -1178,9 +1178,9 @@ activity
 )
 activity
 .
+components
+.
 settings
-(
-)
 .
 incrementSecureWarningCount
 (

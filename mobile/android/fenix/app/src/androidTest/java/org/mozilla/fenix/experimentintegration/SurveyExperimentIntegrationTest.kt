@@ -105,7 +105,7 @@ fenix
 .
 ext
 .
-settings
+components
 import
 org
 .
@@ -235,9 +235,9 @@ TestHelper
 .
 appContext
 .
+components
+.
 settings
-(
-)
 .
 showSecretDebugMenuThisSession
 =
@@ -253,9 +253,9 @@ TestHelper
 .
 appContext
 .
+components
+.
 settings
-(
-)
 .
 showSecretDebugMenuThisSession
 =

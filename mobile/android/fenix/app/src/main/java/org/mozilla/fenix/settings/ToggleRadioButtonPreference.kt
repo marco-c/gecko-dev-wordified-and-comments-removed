@@ -139,7 +139,7 @@ fenix
 .
 ext
 .
-settings
+components
 /
 *
 *
@@ -425,9 +425,9 @@ preferences
 =
 context
 .
+components
+.
 settings
-(
-)
 .
 preferences
 val

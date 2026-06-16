@@ -400,9 +400,9 @@ true
 {
 every
 {
+components
+.
 settings
-(
-)
 }
 returns
 settings

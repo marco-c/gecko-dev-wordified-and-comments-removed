@@ -299,9 +299,11 @@ DefaultConnectionDetailsController
 fragment
 =
 fragment
-context
+components
 =
 context
+.
+components
 scope
 =
 this

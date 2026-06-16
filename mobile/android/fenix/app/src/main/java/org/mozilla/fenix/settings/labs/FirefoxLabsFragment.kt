@@ -171,7 +171,7 @@ fenix
 .
 ext
 .
-settings
+requireComponents
 import
 org
 .
@@ -311,13 +311,9 @@ LabsMiddleware
 (
 settings
 =
-requireContext
-(
-)
+requireComponents
 .
 settings
-(
-)
 onRestart
 =
 :

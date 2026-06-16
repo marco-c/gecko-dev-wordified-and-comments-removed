@@ -121,7 +121,7 @@ fenix
 .
 ext
 .
-settings
+components
 const
 val
 EXPANDED_TOOLBAR_TYPE
@@ -172,9 +172,9 @@ String
 =
 context
 .
+components
+.
 settings
-(
-)
 .
 toolbarExpandedShortcutKey
 override
@@ -188,9 +188,9 @@ String
 {
 context
 .
+components
+.
 settings
-(
-)
 .
 toolbarExpandedShortcutKey
 =

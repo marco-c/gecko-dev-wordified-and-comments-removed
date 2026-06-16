@@ -414,6 +414,9 @@ observer
 TelemetryAccountObserver
 (
 context
+mockComponents
+.
+settings
 )
 registry
 =

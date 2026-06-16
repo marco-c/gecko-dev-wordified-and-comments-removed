@@ -155,7 +155,7 @@ fenix
 .
 ext
 .
-requireComponents
+components
 import
 org
 .
@@ -165,7 +165,7 @@ fenix
 .
 ext
 .
-settings
+requireComponents
 import
 org
 .
@@ -485,9 +485,9 @@ id
 =
 context
 .
+components
+.
 settings
-(
-)
 .
 termsOfUsePromptContentOptionId
 onLearnMoreClicked
@@ -534,9 +534,9 @@ showDragHandle
 =
 context
 .
+components
+.
 settings
-(
-)
 .
 shouldShowTermsOfUsePromptDragHandle
 termsOfUsePromptContent

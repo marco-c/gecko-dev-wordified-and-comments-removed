@@ -153,7 +153,7 @@ fenix
 .
 ext
 .
-settings
+requireComponents
 import
 org
 .
@@ -354,13 +354,9 @@ repository
 =
 DefaultPrivacyPreferencesRepository
 (
-requireContext
-(
-)
+requireComponents
 .
 settings
-(
-)
 )
 val
 store

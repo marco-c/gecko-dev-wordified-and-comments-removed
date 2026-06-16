@@ -287,7 +287,7 @@ fenix
 .
 ext
 .
-settings
+requireComponents
 import
 org
 .
@@ -465,13 +465,9 @@ settings
 by
 lazy
 {
-requireContext
-(
-)
+requireComponents
 .
 settings
-(
-)
 }
 private
 lateinit

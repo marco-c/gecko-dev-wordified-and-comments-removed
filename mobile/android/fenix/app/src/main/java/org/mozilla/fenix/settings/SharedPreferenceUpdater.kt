@@ -87,7 +87,7 @@ fenix
 .
 ext
 .
-settings
+components
 /
 *
 *
@@ -163,9 +163,9 @@ preference
 .
 context
 .
+components
+.
 settings
-(
-)
 .
 preferences
 .

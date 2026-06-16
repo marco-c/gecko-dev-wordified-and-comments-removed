@@ -149,7 +149,7 @@ fenix
 .
 ext
 .
-settings
+components
 import
 org
 .
@@ -350,9 +350,9 @@ serverOverride
 =
 context
 .
+components
+.
 settings
-(
-)
 .
 overridePushServer
 if

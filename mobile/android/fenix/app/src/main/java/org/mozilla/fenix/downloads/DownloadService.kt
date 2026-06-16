@@ -334,6 +334,13 @@ downloadLocation
 DownloadLocationManager
 (
 applicationContext
+.
+components
+.
+settings
+applicationContext
+.
+contentResolver
 )
 .
 defaultLocation

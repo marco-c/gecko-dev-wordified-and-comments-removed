@@ -151,7 +151,7 @@ fenix
 .
 ext
 .
-registerForActivityResult
+components
 import
 org
 .
@@ -161,7 +161,7 @@ fenix
 .
 ext
 .
-settings
+registerForActivityResult
 import
 org
 .
@@ -720,9 +720,9 @@ if
 (
 context
 .
+components
+.
 settings
-(
-)
 .
 shouldShowSecurityPinWarning
 )

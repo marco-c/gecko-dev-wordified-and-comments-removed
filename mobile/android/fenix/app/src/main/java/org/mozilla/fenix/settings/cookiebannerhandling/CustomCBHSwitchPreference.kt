@@ -93,7 +93,7 @@ fenix
 .
 ext
 .
-settings
+components
 /
 *
 *
@@ -154,9 +154,9 @@ context
 {
 setDefaultValue
 (
+components
+.
 settings
-(
-)
 .
 shouldUseCookieBannerPrivateModeDefaultValue
 )

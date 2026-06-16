@@ -1071,16 +1071,6 @@ mozilla
 .
 fenix
 .
-ext
-.
-settings
-import
-org
-.
-mozilla
-.
-fenix
-.
 nimbus
 .
 FxNimbus

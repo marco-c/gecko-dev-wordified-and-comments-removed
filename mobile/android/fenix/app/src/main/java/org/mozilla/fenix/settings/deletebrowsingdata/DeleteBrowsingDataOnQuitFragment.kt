@@ -123,7 +123,7 @@ fenix
 .
 ext
 .
-settings
+components
 import
 org
 .
@@ -360,9 +360,9 @@ isChecked
 =
 context
 .
+components
+.
 settings
-(
-)
 .
 shouldDeleteBrowsingDataOnQuit
 }
@@ -404,9 +404,9 @@ preference
 .
 context
 .
+components
+.
 settings
-(
-)
 if
 (
 !
@@ -477,9 +477,9 @@ pref
 .
 context
 .
+components
+.
 settings
-(
-)
 .
 setDeleteDataOnQuit
 (

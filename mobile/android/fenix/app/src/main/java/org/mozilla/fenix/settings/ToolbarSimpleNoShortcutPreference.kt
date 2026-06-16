@@ -121,7 +121,7 @@ fenix
 .
 ext
 .
-settings
+components
 const
 val
 NO_SHORTCUT_SIMPLE_TOOLBAR_TYPE
@@ -204,9 +204,9 @@ String
 =
 context
 .
+components
+.
 settings
-(
-)
 .
 toolbarSimpleShortcutKey
 override
@@ -220,9 +220,9 @@ String
 {
 context
 .
+components
+.
 settings
-(
-)
 .
 toolbarSimpleShortcutKey
 =

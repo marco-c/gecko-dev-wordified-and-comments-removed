@@ -427,6 +427,11 @@ allowUndo
 view
 =
 container
+settings
+=
+components
+.
+settings
 message
 =
 container

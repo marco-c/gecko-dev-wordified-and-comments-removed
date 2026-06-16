@@ -211,7 +211,7 @@ fenix
 .
 ext
 .
-settings
+components
 /
 *
 *
@@ -431,9 +431,9 @@ useScrollData
 =
 context
 .
+components
+.
 settings
-(
-)
 .
 useNewDynamicToolbarBehaviour
 )
