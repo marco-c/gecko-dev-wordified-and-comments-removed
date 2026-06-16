@@ -2129,8 +2129,6 @@ already_AddRefed
 <
 ComputedStyle
 >
-&
-&
 aComputedStyle
 bool
 aSuppressWhiteSpaceOptimizations
@@ -2203,8 +2201,6 @@ already_AddRefed
 <
 ComputedStyle
 >
-&
-&
 aComputedStyle
 bool
 aSuppressWhiteSpaceOptimizations
@@ -3096,8 +3092,6 @@ already_AddRefed
 <
 ComputedStyle
 >
-&
-&
 aComputedStyle
 bool
 aSuppressWhiteSpaceOptimizations

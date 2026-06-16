@@ -194,8 +194,6 @@ gfx
 :
 Path
 >
-&
-&
 aGfxPath
 nsPoint
 &
@@ -586,8 +584,6 @@ gfx
 :
 Path
 >
-&
-&
 aPath
 nsPoint
 &
