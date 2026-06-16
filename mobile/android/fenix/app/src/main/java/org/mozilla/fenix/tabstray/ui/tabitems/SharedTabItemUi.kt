@@ -963,7 +963,7 @@ MaterialTheme
 .
 colorScheme
 .
-outlineVariant
+surfaceContainerHighest
 )
 /
 *
