@@ -8853,13 +8853,10 @@ FilterData
 {
 self
 .
-push_filters_normalized
+push_filters
 (
 filters
 filter_datas
-common
-.
-spatial_id
 )
 ;
 let
