@@ -172,11 +172,11 @@ pdfjsVersion
 .
 0
 .
-229
+239
 *
 pdfjsBuild
 =
-145feeaa3
+5fbab91f7
 *
 /
 ;
@@ -4937,15 +4937,15 @@ const
 INTERNAL_EVT
 =
 "
-1684dd60
+b053cdd0
 -
-3936
+2415
 -
-4889
+4286
 -
-b86a
+a2ec
 -
-7f7f4e3a1938
+a074783acd61
 "
 ;
 const
@@ -56003,8 +56003,6 @@ newBadge
 newSpan
 ;
 }
-this
-.
 eventBus
 .
 on
@@ -56028,6 +56026,10 @@ false
 once
 :
 true
+.
+.
+.
+internalOpt
 }
 )
 ;
@@ -56165,8 +56167,6 @@ disabled
 =
 true
 ;
-this
-.
 eventBus
 .
 on
@@ -56248,6 +56248,7 @@ break
 ;
 }
 }
+internalOpt
 )
 ;
 this
@@ -56263,8 +56264,6 @@ e
 =
 >
 {
-this
-.
 eventBus
 .
 dispatch
@@ -62828,6 +62827,7 @@ computeThumbnailsPosition
 ;
 }
 }
+internalOpt
 )
 ;
 this
@@ -82025,7 +82025,7 @@ viewerVersion
 .
 0
 .
-229
+239
 "
 ;
 if
@@ -107070,6 +107070,7 @@ togglePrintingButtons
 (
 isAllowed
 )
+internalOpt
 )
 ;
 }
@@ -109343,6 +109344,10 @@ isAllowed
 once
 :
 true
+.
+.
+.
+internalOpt
 }
 )
 ;
