@@ -1214,6 +1214,7 @@ MarionetteCommandsParent
 _finalizeAction
 "
 :
+await
 this
 .
 #
