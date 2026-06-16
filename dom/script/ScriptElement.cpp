@@ -1273,6 +1273,15 @@ importmap
 &
 &
 !
+(
+StaticPrefs
+:
+:
+dom_speculation_rules_enabled
+(
+)
+&
+&
 type
 .
 LowerCaseEqualsASCII
@@ -1280,6 +1289,7 @@ LowerCaseEqualsASCII
 "
 speculationrules
 "
+)
 )
 )
 {
