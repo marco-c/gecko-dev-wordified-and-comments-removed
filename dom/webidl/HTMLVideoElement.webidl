@@ -723,7 +723,6 @@ enabled
 "
 NewObject
 Throws
-UseCounter
 ]
 Promise
 <
