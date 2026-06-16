@@ -192,6 +192,9 @@ EnumeratePortsImpl
 SerialPortList
 &
 aPorts
+bool
+*
+aLikelyAccessDenied
 )
 override
 ;

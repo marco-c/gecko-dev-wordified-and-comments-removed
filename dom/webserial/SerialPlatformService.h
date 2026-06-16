@@ -185,6 +185,11 @@ EnumeratePorts
 SerialPortList
 &
 aPorts
+bool
+*
+aLikelyAccessDenied
+=
+nullptr
 )
 ;
 nsresult
@@ -345,6 +350,15 @@ aPortId
 ;
 private
 :
+static
+already_AddRefed
+<
+SerialPlatformService
+>
+GetInstanceImpl
+(
+)
+;
 virtual
 nsresult
 EnumeratePortsImpl
@@ -352,6 +366,9 @@ EnumeratePortsImpl
 SerialPortList
 &
 aPorts
+bool
+*
+aLikelyAccessDenied
 )
 =
 0
