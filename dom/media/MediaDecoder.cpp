@@ -7597,9 +7597,6 @@ MediaDecoder
 :
 ConnectMirrors
 (
-MediaDecoderStateMachineBase
-*
-aObject
 )
 {
 MOZ_ASSERT
@@ -7611,14 +7608,14 @@ NS_IsMainThread
 ;
 MOZ_ASSERT
 (
-aObject
+mDecoderStateMachine
 )
 ;
 mStateMachineDuration
 .
 Connect
 (
-aObject
+mDecoderStateMachine
 -
 >
 CanonicalDuration
@@ -7630,7 +7627,7 @@ mBuffered
 .
 Connect
 (
-aObject
+mDecoderStateMachine
 -
 >
 CanonicalBuffered
@@ -7642,7 +7639,7 @@ mCurrentPosition
 .
 Connect
 (
-aObject
+mDecoderStateMachine
 -
 >
 CanonicalCurrentPosition
@@ -7654,7 +7651,7 @@ mIsAudioDataAudible
 .
 Connect
 (
-aObject
+mDecoderStateMachine
 -
 >
 CanonicalIsAudioDataAudible
@@ -7771,7 +7768,6 @@ get
 ;
 ConnectMirrors
 (
-mDecoderStateMachine
 )
 ;
 UpdateVideoDecodeMode
