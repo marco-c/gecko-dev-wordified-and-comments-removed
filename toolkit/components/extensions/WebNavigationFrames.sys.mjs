@@ -572,6 +572,7 @@ return
 null
 ;
 }
+getFrameDetail
 getFrameId
 getParentFrameId
 getDocumentId
