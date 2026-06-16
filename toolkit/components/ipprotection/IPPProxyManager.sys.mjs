@@ -1649,6 +1649,17 @@ this
 usage
 ;
 }
+channelFilter
+(
+)
+{
+return
+this
+.
+#
+connection
+;
+}
 createChannelFilter
 (
 )
