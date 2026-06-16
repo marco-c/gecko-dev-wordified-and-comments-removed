@@ -626,6 +626,17 @@ action
 "
 copy
 "
+|
+|
+action
+=
+=
+=
+"
+copy
+-
+table
+"
 )
 {
 if
