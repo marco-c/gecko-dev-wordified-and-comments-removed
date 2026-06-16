@@ -1292,6 +1292,13 @@ deviceNameUTF8
 deviceNameLength
 )
 ;
+memset
+(
+deviceUniqueIdUTF8
+0
+deviceUniqueIdUTF8Length
+)
+;
 memcpy
 (
 cameraName
@@ -1386,13 +1393,6 @@ deviceUniqueIdUTF8Length
 len
 )
 {
-memset
-(
-deviceUniqueIdUTF8
-0
-deviceUniqueIdUTF8Length
-)
-;
 memcpy
 (
 deviceUniqueIdUTF8
