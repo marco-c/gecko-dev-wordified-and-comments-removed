@@ -4,7 +4,7 @@ Version
 :
 2
 .
-1
+4
 Name
 :
 compare
@@ -16,7 +16,7 @@ Version
 .
 0
 .
-4
+5
 Summary
 :
 Lint
@@ -276,6 +276,11 @@ Requires
 Dist
 :
 toml
+Dynamic
+:
+license
+-
+file
 !
 [
 Build
