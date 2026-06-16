@@ -599,10 +599,10 @@ Table
 {
 initial
 :
-10
+10n
 maximum
 :
-20
+20n
 element
 :
 '
