@@ -274,17 +274,6 @@ tier
 :
 1
 run
--
-on
--
-repo
--
-type
-:
-[
-hg
-]
-run
 :
 using
 :
