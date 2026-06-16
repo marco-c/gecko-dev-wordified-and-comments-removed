@@ -135,6 +135,8 @@ const
 nsAString
 &
 aName
+bool
+aSortAfterLocal
 )
 ;
 private
@@ -152,6 +154,8 @@ const
 nsAString
 &
 aName
+bool
+aSortAfterLocal
 )
 ;
 ~

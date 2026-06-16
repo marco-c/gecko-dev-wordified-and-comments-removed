@@ -154,11 +154,14 @@ const
 nsAString
 &
 aName
+bool
+aSortAfterLocal
 )
 :
 nsPrinterBase
 (
 aArray
+aSortAfterLocal
 )
 mName
 (
@@ -192,6 +195,8 @@ const
 nsAString
 &
 aName
+bool
+aSortAfterLocal
 )
 {
 return
@@ -202,6 +207,7 @@ nsPrinterWin
 (
 aArray
 aName
+aSortAfterLocal
 )
 )
 ;

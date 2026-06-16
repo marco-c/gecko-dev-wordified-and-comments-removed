@@ -164,6 +164,11 @@ mCupsHandle
 =
 nullptr
 ;
+bool
+mSortAfterLocal
+=
+false
+;
 }
 ;
 virtual

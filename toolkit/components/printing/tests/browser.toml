@@ -44,6 +44,13 @@ js
 ]
 [
 "
+browser_destination_sort
+.
+js
+"
+]
+[
+"
 browser_empty_paper_sizes
 .
 js
