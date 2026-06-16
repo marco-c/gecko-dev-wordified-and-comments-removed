@@ -72,10 +72,6 @@ pathlib
 import
 Path
 from
-random
-import
-random
-from
 typing
 import
 Union
@@ -2683,15 +2679,7 @@ endpoint
 "
 "
     
-OLD_LANDO_ENTRY
-=
-"
-lando
--
-prod
-"
-    
-NEW_LANDO_ENTRY
+default_lando_config_section
 =
 "
 lando
@@ -2781,29 +2769,6 @@ name
 .
 "
 )
-    
-default_lando_config_section
-=
-OLD_LANDO_ENTRY
-    
-new_lando_probability
-=
-1
-    
-if
-not
-force_old_lando
-and
-random
-(
-)
-<
-new_lando_probability
-:
-        
-default_lando_config_section
-=
-NEW_LANDO_ENTRY
     
 lando_config_section
 =
