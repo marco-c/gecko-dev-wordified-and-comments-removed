@@ -560,6 +560,16 @@ InlineReflowInput
 aState
 )
 ;
+void
+MarkBlockAncestorHavingAbsoluteDescendants
+(
+const
+ReflowInput
+&
+aReflowInput
+)
+const
+;
 private
 :
 explicit
