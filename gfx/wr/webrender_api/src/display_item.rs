@@ -1135,10 +1135,6 @@ horizontal_offset_bounds
 :
 StickyOffsetBounds
 pub
-previously_applied_offset
-:
-LayoutVector2D
-pub
 transform
 :
 Option
