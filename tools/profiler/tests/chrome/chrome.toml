@@ -23,6 +23,11 @@ profiler_test_utils
 .
 js
 "
+"
+file_worker
+.
+js
+"
 ]
 [
 "
