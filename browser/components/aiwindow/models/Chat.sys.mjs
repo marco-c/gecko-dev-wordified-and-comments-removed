@@ -2319,11 +2319,9 @@ END
 if
 (
 !
-openAIEngine
+engineInstance
 .
-hasCustomEndpoint
-(
-)
+isCustomEndpoint
 )
 {
 /
