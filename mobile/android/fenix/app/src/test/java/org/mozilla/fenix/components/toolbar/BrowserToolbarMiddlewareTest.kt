@@ -6283,6 +6283,9 @@ any
 any
 (
 )
+any
+(
+)
 )
 appStore
 .
@@ -6522,6 +6525,9 @@ tabsUseCases
 .
 removeTab
 (
+any
+(
+)
 any
 (
 )
@@ -6805,6 +6811,9 @@ tabsUseCases
 .
 removeTab
 (
+any
+(
+)
 any
 (
 )
@@ -7104,6 +7113,9 @@ tabsUseCases
 .
 removeTab
 (
+any
+(
+)
 any
 (
 )

@@ -657,6 +657,12 @@ invoke
 tabId
 :
 String
+excludedTabIds
+:
+Set
+<
+String
+>
 )
 {
 actual
@@ -664,6 +670,7 @@ actual
 invoke
 (
 tabId
+excludedTabIds
 )
 showSnackbar
 (
