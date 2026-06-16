@@ -354,6 +354,11 @@ DoUnregisterExternalImages
 (
 )
 ;
+void
+UnregisterSingleton
+(
+)
+;
 struct
 TextureHolder
 {
