@@ -916,6 +916,12 @@ composedTarget
 href
 )
 {
+event
+.
+preventDefault
+(
+)
+;
 const
 {
 switchToTabHavingURI
