@@ -2538,16 +2538,6 @@ instanceObj
 )
 )
 {
-MOZ_RELEASE_ASSERT
-(
-cx
--
->
-isThrowingOutOfMemory
-(
-)
-)
-;
 return
 false
 ;
