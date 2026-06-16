@@ -89,6 +89,7 @@ stub
 calledWithExactly
 (
 false
+false
 )
 "
 setAsDefaultPDFHandler
@@ -195,6 +196,7 @@ stub
 .
 calledWithExactly
 (
+false
 false
 )
 "
@@ -303,6 +305,7 @@ stub
 calledWithExactly
 (
 true
+false
 )
 "
 setAsDefaultPDFHandler

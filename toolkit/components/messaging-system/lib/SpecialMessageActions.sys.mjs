@@ -1473,6 +1473,9 @@ window
 onlyIfKnownBrowser
 =
 false
+openInFirefox
+=
+false
 )
 {
 await
@@ -1485,6 +1488,7 @@ getShellService
 setAsDefaultPDFHandler
 (
 onlyIfKnownBrowser
+openInFirefox
 )
 ;
 }
@@ -5614,6 +5618,15 @@ data
 ?
 .
 onlyIfKnownBrowser
+?
+?
+false
+action
+.
+data
+?
+.
+openInFirefox
 ?
 ?
 false
