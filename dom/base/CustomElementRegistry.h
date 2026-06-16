@@ -1679,6 +1679,17 @@ nsINode
 aRoot
 )
 ;
+void
+Initialize
+(
+nsINode
+&
+aRoot
+ErrorResult
+&
+aRv
+)
+;
 }
 ;
 class
