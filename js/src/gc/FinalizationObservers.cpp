@@ -3811,6 +3811,15 @@ WeakRefObject
 (
 )
 ;
+if
+(
+!
+IsAboutToBeFinalizedUnbarriered
+(
+weakRef
+)
+)
+{
 MOZ_ASSERT
 (
 weakRef
@@ -3832,6 +3841,7 @@ setTarget
 newTarget
 )
 ;
+}
 }
 Zone
 *
