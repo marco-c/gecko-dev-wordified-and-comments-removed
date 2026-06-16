@@ -125,8 +125,6 @@ color
 -
 mix
 (
-in
-lab
 currentColor
 10
 %
@@ -151,8 +149,6 @@ color
 -
 mix
 (
-in
-lab
 currentColor
 20
 %
