@@ -16319,6 +16319,14 @@ SpeculationRules
 aSpeculationRules
 )
 ;
+void
+UnregisterSpeculationRules
+(
+nsIScriptElement
+*
+aScriptElement
+)
+;
 nsIURI
 *
 GetTlsCertificateBindingURI
