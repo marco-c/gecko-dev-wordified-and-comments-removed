@@ -555,8 +555,6 @@ widget
 :
 IOSView
 >
-&
-&
 aView
 )
 {
