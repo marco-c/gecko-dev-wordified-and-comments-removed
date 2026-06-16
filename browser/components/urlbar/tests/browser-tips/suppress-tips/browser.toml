@@ -21,6 +21,11 @@ whats_new_page
 [
 DEFAULT
 ]
+tags
+=
+"
+urlbar
+"
 run
 -
 if

@@ -6,6 +6,11 @@ dupe
 manifest
 =
 true
+tags
+=
+"
+urlbar
+"
 support
 -
 files

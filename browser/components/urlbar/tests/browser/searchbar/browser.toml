@@ -1,6 +1,11 @@
 [
 DEFAULT
 ]
+tags
+=
+"
+urlbar
+"
 support
 -
 files
@@ -68,6 +73,13 @@ js
 [
 "
 browser_searchbarOverflow
+.
+js
+"
+]
+[
+"
+browser_searchbar_a11y
 .
 js
 "
