@@ -60,7 +60,7 @@ calc
 :
 :
 {
-AllowParse
+CalcParseFlags
 CalcNode
 }
 ;
@@ -112,13 +112,6 @@ derive
 (
 Clone
 ToTyped
-)
-]
-#
-[
-typed_value
-(
-derive_fields
 )
 ]
 pub
@@ -285,7 +278,7 @@ location
 let
 allow_all_units
 =
-AllowParse
+CalcParseFlags
 :
 :
 new
