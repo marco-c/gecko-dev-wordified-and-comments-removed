@@ -224,7 +224,7 @@ width
 #
 sidebar
 -
-main
+container
 #
 sidebar
 -
@@ -1081,7 +1081,7 @@ width
 #
 sidebar
 -
-main
+container
 [
 sidebar
 -
@@ -1201,7 +1201,7 @@ width
 #
 sidebar
 -
-main
+container
 [
 sidebar
 -
@@ -1342,7 +1342,7 @@ gap
 #
 sidebar
 -
-main
+container
 [
 sidebar
 -
@@ -2046,7 +2046,7 @@ animation
 #
 sidebar
 -
-main
+container
 sidebar
 -
 main
@@ -2097,7 +2097,7 @@ translate
 #
 sidebar
 -
-main
+container
 {
 /
 *
@@ -2166,7 +2166,7 @@ hover
 #
 sidebar
 -
-main
+container
 {
 border
 -
@@ -3965,7 +3965,7 @@ case
 #
 sidebar
 -
-main
+container
 :
 not
 (
@@ -4174,7 +4174,7 @@ selected
 #
 sidebar
 -
-main
+container
 :
 not
 (
@@ -4306,7 +4306,7 @@ selected
 #
 sidebar
 -
-main
+container
 [
 sidebar
 -
@@ -4390,7 +4390,7 @@ surface
 #
 sidebar
 -
-main
+container
 [
 sidebar
 -

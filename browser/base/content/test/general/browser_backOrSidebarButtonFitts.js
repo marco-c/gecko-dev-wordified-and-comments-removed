@@ -156,7 +156,7 @@ y
 )
 {
 let
-sidebarMain
+sidebarContainer
 =
 document
 .
@@ -165,14 +165,14 @@ getElementById
 "
 sidebar
 -
-main
+container
 "
 )
 ;
 let
 initialSidebarHiddenState
 =
-sidebarMain
+sidebarContainer
 .
 hidden
 ;
@@ -189,7 +189,7 @@ window
 ;
 is
 (
-sidebarMain
+sidebarContainer
 .
 hidden
 !
@@ -219,7 +219,7 @@ window
 ;
 is
 (
-sidebarMain
+sidebarContainer
 .
 hidden
 initialSidebarHiddenState
