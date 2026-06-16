@@ -329,8 +329,10 @@ PermissionKey
 public
 :
 static
+already_AddRefed
+<
 PermissionKey
-*
+>
 CreateFromPrincipal
 (
 nsIPrincipal
@@ -346,8 +348,10 @@ aResult
 )
 ;
 static
+already_AddRefed
+<
 PermissionKey
-*
+>
 CreateFromURI
 (
 nsIURI
@@ -359,8 +363,10 @@ aResult
 )
 ;
 static
+already_AddRefed
+<
 PermissionKey
-*
+>
 CreateFromURIAndOriginAttributes
 (
 nsIURI
