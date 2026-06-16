@@ -902,15 +902,7 @@ if
 (
 selected_token
 .
-needsLogin
-(
-)
-|
-|
-!
-selected_token
-.
-needsUserInit
+canHavePassword
 )
 {
 pw_toggle
@@ -921,9 +913,7 @@ if
 (
 selected_token
 .
-needsLogin
-(
-)
+hasPassword
 )
 {
 if
@@ -977,9 +967,7 @@ hasPassword
 {
 pw_toggle
 =
-"
 true
-"
 ;
 }
 }

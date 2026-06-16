@@ -1418,8 +1418,10 @@ reset
 ;
 token
 .
-initPassword
+changePassword
 (
+"
+"
 "
 password
 "

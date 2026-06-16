@@ -39,14 +39,6 @@ reset
 (
 )
 ;
-token
-.
-initPassword
-(
-"
-"
-)
-;
 }
 add_task
 (

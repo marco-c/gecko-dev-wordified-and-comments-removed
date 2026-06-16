@@ -292,8 +292,10 @@ nsIPKCS11Token
 ;
 token
 .
-initPassword
+changePassword
 (
+"
+"
 "
 password
 "
