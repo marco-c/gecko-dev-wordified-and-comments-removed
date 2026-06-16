@@ -728,6 +728,11 @@ addDictType
 extensionobject
 "
 {
+uniqueKey
+:
+"
+string
+"
 name
 :
 "
