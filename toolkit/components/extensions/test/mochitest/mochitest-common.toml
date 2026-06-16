@@ -2746,6 +2746,13 @@ bug
 ]
 [
 "
+test_ext_webnavigation_documentId
+.
+html
+"
+]
+[
+"
 test_ext_webnavigation_filters
 .
 html
