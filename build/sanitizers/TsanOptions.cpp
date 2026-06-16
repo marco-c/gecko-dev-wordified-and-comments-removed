@@ -1017,6 +1017,17 @@ n
 "
 race
 :
+StrongRuleNode
+>
+:
+:
+ensure_child
+\
+n
+"
+"
+race
+:
 crossbeam_deque
 *
 :
