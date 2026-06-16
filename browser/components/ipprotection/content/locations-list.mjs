@@ -589,6 +589,15 @@ defaultLocation
 html
 <
 span
+id
+=
+"
+location
+-
+label
+-
+recommended
+"
 class
 =
 "
