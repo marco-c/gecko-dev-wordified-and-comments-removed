@@ -7358,11 +7358,8 @@ c_str
 cand
 .
 mTransportId
-.
-Construct
-(
+=
 transportId
-)
 ;
 cand
 .
@@ -7972,11 +7969,8 @@ codeword
 s
 .
 mTransportId
-.
-Construct
-(
+=
 transportId
-)
 ;
 s
 .
