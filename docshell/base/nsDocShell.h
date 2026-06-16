@@ -1442,7 +1442,7 @@ MaybeNotifyKeywordSearchLoading
 const
 nsString
 &
-aProvider
+aProviderId
 const
 nsString
 &
@@ -2582,8 +2582,6 @@ already_AddRefed
 <
 nsIRunnable
 >
-&
-&
 aRunnable
 )
 ;
