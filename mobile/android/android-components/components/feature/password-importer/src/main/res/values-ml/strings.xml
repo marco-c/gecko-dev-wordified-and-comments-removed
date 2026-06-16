@@ -102,8 +102,6 @@ name
 mozac_feature_passwords_importer_dialog_title
 "
 >
-Wachtwoorden
-importeren
 <
 /
 string
@@ -131,17 +129,7 @@ name
 mozac_feature_passwords_importer_dialog_description
 "
 >
-Houd
-dit
-scherm
-open
 .
-Dit
-duurt
-slechts
-een
-paar
-seconden
 .
 <
 /
@@ -174,7 +162,6 @@ name
 mozac_feature_passwords_importer_dialog_cancel
 "
 >
-Annuleren
 <
 /
 string
