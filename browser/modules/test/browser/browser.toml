@@ -48,6 +48,13 @@ js
 ]
 [
 "
+browser_BrowserWindowTracker_minimize
+.
+js
+"
+]
+[
+"
 browser_EveryWindow
 .
 js
