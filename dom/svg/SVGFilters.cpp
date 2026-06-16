@@ -2279,7 +2279,7 @@ StyleSVGReset
 >
 mLightingColor
 .
-IsCurrentColor
+DependsOnCurrentColor
 (
 )
 )
