@@ -857,7 +857,7 @@ vp
 wasm
 :
 :
-GCPtrVal
+HeapPtrVal
 &
 mutableVal
 (
@@ -969,7 +969,7 @@ const
 wasm
 :
 :
-GCPtrVal
+HeapPtrVal
 &
 val
 (
