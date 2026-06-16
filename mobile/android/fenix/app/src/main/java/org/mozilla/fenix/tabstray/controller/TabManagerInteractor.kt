@@ -528,6 +528,8 @@ onTabClosed
 tab
 :
 TabsTrayItem
+.
+Tab
 source
 :
 String
@@ -610,9 +612,13 @@ String
 {
 controller
 .
-handleDeleteTabWarningAccepted
+handleDeletePrivateTabWarningAccepted
 (
 tabId
+=
+tabId
+source
+=
 source
 )
 }
@@ -732,6 +738,8 @@ onTabClosed
 tab
 :
 TabsTrayItem
+.
+Tab
 source
 :
 String
@@ -743,8 +751,6 @@ controller
 handleTabDeletion
 (
 tab
-.
-id
 source
 )
 }
