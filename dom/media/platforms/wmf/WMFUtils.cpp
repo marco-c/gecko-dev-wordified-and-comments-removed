@@ -2410,6 +2410,12 @@ EnsureMTA
 >
 void
 {
+StaticMutexAutoLock
+lock
+(
+sMFTEnumShutdownMutex
+)
+;
 hr
 =
 (
@@ -2698,6 +2704,12 @@ mfplat
 .
 dll
 )
+StaticMutexAutoLock
+lock
+(
+sMFTEnumShutdownMutex
+)
+;
 return
 (
 MFTEnumExPtr

@@ -507,6 +507,11 @@ mHasInitialized
 ;
 }
 ;
+inline
+StaticMutex
+sMFTEnumShutdownMutex
+MOZ_UNANNOTATED
+;
 HRESULT
 MFCreateMediaType
 (
