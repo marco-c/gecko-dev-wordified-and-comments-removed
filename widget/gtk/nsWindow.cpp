@@ -8474,6 +8474,10 @@ toplevel
 |
 |
 mIsDestroyed
+|
+|
+!
+mIsMapped
 )
 {
 return
