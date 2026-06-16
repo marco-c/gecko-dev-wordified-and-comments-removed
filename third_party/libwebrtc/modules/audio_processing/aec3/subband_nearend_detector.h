@@ -92,9 +92,6 @@ EchoCanceller3Config
 :
 :
 Suppressor
-:
-:
-SubbandNearendDetection
 &
 config
 size_t

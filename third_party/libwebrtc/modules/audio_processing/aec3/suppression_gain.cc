@@ -2566,8 +2566,6 @@ SubbandNearendDetector
 config
 .
 suppressor
-.
-subband_nearend_detection
 num_capture_channels_
 )
 ;
