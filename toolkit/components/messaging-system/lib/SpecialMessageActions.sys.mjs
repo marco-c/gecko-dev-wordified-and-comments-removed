@@ -2420,6 +2420,15 @@ browser
 .
 ipProtection
 .
+bandwidth
+.
+enabled
+"
+"
+browser
+.
+ipProtection
+.
 blockIPProtectionCallouts
 "
 "
