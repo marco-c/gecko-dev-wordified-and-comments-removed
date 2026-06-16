@@ -714,6 +714,13 @@ Bug
 ]
 [
 "
+browser_bfcache_page_restored_telemetry
+.
+js
+"
+]
+[
+"
 browser_browsingContext
 -
 01
