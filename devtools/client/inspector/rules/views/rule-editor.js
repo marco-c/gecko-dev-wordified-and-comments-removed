@@ -3150,7 +3150,7 @@ inspector
 .
 toolbox
 .
-viewSourceInStyleEditorByResource
+viewStyleSourceByResource
 (
 this
 .

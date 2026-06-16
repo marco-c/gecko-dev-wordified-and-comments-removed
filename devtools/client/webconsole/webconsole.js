@@ -1192,7 +1192,7 @@ this
 .
 toolbox
 .
-viewSourceInStyleEditorByURL
+viewStyleSourceByURL
 (
 url
 line

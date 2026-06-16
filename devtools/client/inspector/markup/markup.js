@@ -6023,7 +6023,7 @@ this
 .
 toolbox
 .
-viewGeneratedSourceInStyleEditor
+viewStyleGeneratedSource
 (
 url
 )
