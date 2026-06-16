@@ -4630,11 +4630,7 @@ wl_fixes
 registry
 id
 sWlFixesInterface
-MIN
-(
-version
-2
-)
+1
 )
 ;
 display
