@@ -129,6 +129,18 @@ message
 "
 :
 "
+viewOpenTabsSidebarKb
+"
+    
+}
+    
+{
+        
+"
+message
+"
+:
+"
 toggleSidebarKb
 "
     
