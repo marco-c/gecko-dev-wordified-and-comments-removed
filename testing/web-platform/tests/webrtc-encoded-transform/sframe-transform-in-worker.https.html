@@ -296,13 +296,13 @@ const
 senderTransform
 =
 new
-SFrameTransform
+RTCRtpSFrameEncrypter
 (
 {
-compatibilityMode
+cipherSuite
 :
 "
-H264
+AES_128_CTR_HMAC_SHA256_80
 "
 }
 )
