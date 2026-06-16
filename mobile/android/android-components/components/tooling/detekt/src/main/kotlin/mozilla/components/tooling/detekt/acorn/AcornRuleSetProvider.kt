@@ -171,6 +171,10 @@ MaterialSwitchUsageRule
 (
 config
 )
+MaterialTextButtonUsageRule
+(
+config
+)
 MaterialTypographyUsageRule
 (
 config

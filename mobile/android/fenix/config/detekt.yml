@@ -5071,6 +5071,11 @@ MaterialSwitchUsage
 active
 :
 true
+MaterialTextButtonUsage
+:
+active
+:
+true
 MaterialTypographyUsage
 :
 active
