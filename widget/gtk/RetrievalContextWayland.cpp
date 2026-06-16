@@ -1,7 +1,7 @@
 #
 include
 "
-nsClipboardWayland
+RetrievalContextWayland
 .
 h
 "

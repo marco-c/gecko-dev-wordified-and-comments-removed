@@ -1,9 +1,9 @@
 #
 ifndef
-_nsClipboardWayland_h_
+_RetrievalContextWayland_h_
 #
 define
-_nsClipboardWayland_h_
+_RetrievalContextWayland_h_
 #
 include
 "
