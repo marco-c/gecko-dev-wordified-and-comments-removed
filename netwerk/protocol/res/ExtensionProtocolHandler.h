@@ -335,6 +335,12 @@ nsIFile
 >
 mDevRepo
 ;
+nsCOMPtr
+<
+nsIFile
+>
+mDevObjDir
+;
 bool
 mAlreadyCheckedDevRepo
 {
