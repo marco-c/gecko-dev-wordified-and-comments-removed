@@ -117,6 +117,8 @@ syntax
 /
 parsing
 /
+resources
+/
 template
 .
 js
@@ -135,6 +137,8 @@ html
 syntax
 /
 parsing
+/
+resources
 /
 common
 .
