@@ -245,6 +245,11 @@ NavigateTo
 TabTools
 DebugDrawerAction
 .
+NavigateTo
+.
+DistributionTools
+DebugDrawerAction
+.
 OnBackPressed
 -
 >
