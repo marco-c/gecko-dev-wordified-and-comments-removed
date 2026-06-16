@@ -34,7 +34,9 @@ super
 args
 )
 ;
-DETACHBUFFER
+262
+.
+detachArrayBuffer
 (
 this
 .

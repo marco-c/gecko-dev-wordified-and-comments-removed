@@ -38,7 +38,9 @@ constructor
 42
 )
 ;
-DETACHBUFFER
+262
+.
+detachArrayBuffer
 (
 typedArray
 .
@@ -91,7 +93,9 @@ if
 detached
 )
 {
-DETACHBUFFER
+262
+.
+detachArrayBuffer
 (
 typedArray
 .

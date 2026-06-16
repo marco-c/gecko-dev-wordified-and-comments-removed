@@ -1,3 +1,15 @@
+var
+nativeErrors
+=
+[
+EvalError
+RangeError
+ReferenceError
+SyntaxError
+TypeError
+URIError
+]
+;
 for
 (
 var

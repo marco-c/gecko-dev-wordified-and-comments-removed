@@ -120,7 +120,9 @@ constructor
 )
 )
 {
-DETACHBUFFER
+262
+.
+detachArrayBuffer
 (
 ta
 .

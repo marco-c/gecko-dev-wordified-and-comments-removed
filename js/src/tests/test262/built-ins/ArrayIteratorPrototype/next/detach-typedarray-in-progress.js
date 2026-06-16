@@ -1,9 +1,6 @@
-testWithAllTypedArrayConstructors
-(
+testWithTypedArrayConstructors
 (
 TA
-makeCtorArg
-)
 =
 >
 {
@@ -13,10 +10,7 @@ typedArray
 new
 TA
 (
-makeCtorArg
-(
 5
-)
 )
 ;
 var
@@ -71,10 +65,9 @@ i
 ;
 }
 null
-null
 [
 "
-immutable
+passthrough
 "
 ]
 )

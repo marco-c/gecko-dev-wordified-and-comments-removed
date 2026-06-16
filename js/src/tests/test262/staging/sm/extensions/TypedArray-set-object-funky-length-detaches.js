@@ -81,7 +81,9 @@ length
 (
 )
 {
-DETACHBUFFER
+262
+.
+detachArrayBuffer
 (
 buf
 )

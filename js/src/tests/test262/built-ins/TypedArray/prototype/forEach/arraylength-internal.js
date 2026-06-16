@@ -143,6 +143,12 @@ descriptor
 )
 ;
 }
+null
+[
+"
+passthrough
+"
+]
 )
 ;
 reportCompare

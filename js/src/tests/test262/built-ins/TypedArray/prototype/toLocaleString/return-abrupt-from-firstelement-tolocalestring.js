@@ -36,7 +36,6 @@ testWithTypedArrayConstructors
 function
 (
 TA
-makeCtorArg
 )
 {
 calls
@@ -49,10 +48,7 @@ sample
 new
 TA
 (
-makeCtorArg
-(
 arr
-)
 )
 ;
 assert
@@ -88,6 +84,12 @@ element
 )
 ;
 }
+null
+[
+"
+passthrough
+"
+]
 )
 ;
 reportCompare

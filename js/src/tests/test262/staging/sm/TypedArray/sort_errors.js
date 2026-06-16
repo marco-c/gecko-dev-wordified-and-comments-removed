@@ -26,7 +26,9 @@ Int32Array
 buffer
 )
 ;
-DETACHBUFFER
+262
+.
+detachArrayBuffer
 (
 buffer
 )
@@ -75,7 +77,9 @@ detached
 =
 true
 ;
-DETACHBUFFER
+262
+.
+detachArrayBuffer
 (
 ta
 .
@@ -189,7 +193,9 @@ detached
 =
 true
 ;
-DETACHBUFFER
+262
+.
+detachArrayBuffer
 (
 ta
 .

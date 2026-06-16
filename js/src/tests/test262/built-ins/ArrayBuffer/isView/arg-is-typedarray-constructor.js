@@ -1,4 +1,4 @@
-testWithAllTypedArrayConstructors
+testWithTypedArrayConstructors
 (
 function
 (

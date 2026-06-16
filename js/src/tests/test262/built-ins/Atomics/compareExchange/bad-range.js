@@ -73,11 +73,6 @@ view
 ;
 }
 views
-[
-"
-passthrough
-"
-]
 )
 ;
 reportCompare

@@ -84,7 +84,9 @@ function
 (
 )
 {
-DETACHBUFFER
+262
+.
+detachArrayBuffer
 (
 ab
 )

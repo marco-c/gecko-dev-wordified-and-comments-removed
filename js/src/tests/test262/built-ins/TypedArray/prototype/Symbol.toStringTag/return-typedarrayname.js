@@ -3,7 +3,6 @@ testWithTypedArrayConstructors
 function
 (
 TA
-makeCtorArg
 )
 {
 var
@@ -12,10 +11,6 @@ ta
 new
 TA
 (
-makeCtorArg
-(
-0
-)
 )
 ;
 assert
@@ -38,6 +33,12 @@ value
 )
 ;
 }
+null
+[
+"
+passthrough
+"
+]
 )
 ;
 reportCompare

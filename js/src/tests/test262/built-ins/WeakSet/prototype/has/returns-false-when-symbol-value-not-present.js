@@ -40,7 +40,7 @@ foo
 )
 false
 '
-WeakSet
+Set
 is
 initially
 empty
@@ -64,7 +64,7 @@ hasInstance
 )
 false
 '
-WeakSet
+Set
 is
 initially
 empty
@@ -128,7 +128,7 @@ foo
 )
 false
 '
-WeakSet
+Set
 is
 again
 empty
@@ -163,7 +163,7 @@ hasInstance
 )
 false
 '
-WeakSet
+Set
 is
 again
 empty

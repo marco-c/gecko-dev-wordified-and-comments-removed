@@ -552,11 +552,6 @@ returns
 ;
 }
 views
-[
-"
-passthrough
-"
-]
 )
 ;
 reportCompare

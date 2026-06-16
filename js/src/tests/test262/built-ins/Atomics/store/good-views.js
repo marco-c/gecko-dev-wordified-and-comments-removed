@@ -246,11 +246,6 @@ returns
 ;
 }
 views
-[
-"
-passthrough
-"
-]
 )
 ;
 function

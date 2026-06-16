@@ -3,7 +3,6 @@ testWithTypedArrayConstructors
 function
 (
 TA
-makeCtorArg
 )
 {
 var
@@ -12,10 +11,7 @@ sample
 new
 TA
 (
-makeCtorArg
-(
 1
-)
 )
 ;
 DETACHBUFFER
@@ -45,10 +41,9 @@ toString
 ;
 }
 null
-null
 [
 "
-immutable
+passthrough
 "
 ]
 )

@@ -3,7 +3,6 @@ testWithBigIntTypedArrayConstructors
 function
 (
 TA
-makeCtorArg
 )
 {
 const
@@ -12,14 +11,11 @@ sample
 new
 TA
 (
-makeCtorArg
-(
 [
 1n
 2n
 3n
 ]
-)
 )
 ;
 const
@@ -60,10 +56,9 @@ separator
 ;
 }
 null
-null
 [
 "
-immutable
+passthrough
 "
 ]
 )

@@ -16,7 +16,9 @@ Int32Array
 buffer
 )
 ;
-DETACHBUFFER
+262
+.
+detachArrayBuffer
 (
 buffer
 )

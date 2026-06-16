@@ -4,7 +4,6 @@ function
 body
 (
 FloatArray
-makeCtorArg
 )
 {
 var
@@ -13,14 +12,11 @@ subject
 new
 FloatArray
 (
-makeCtorArg
-(
 NaNs
 .
 length
 *
 2
-)
 )
 ;
 NaNs
@@ -102,12 +98,6 @@ copiedBytes
 ;
 }
 floatArrayConstructors
-null
-[
-"
-immutable
-"
-]
 )
 ;
 reportCompare

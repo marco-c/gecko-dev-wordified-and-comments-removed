@@ -3,7 +3,6 @@ testWithTypedArrayConstructors
 function
 (
 TA
-makeCtorArg
 )
 {
 var
@@ -50,10 +49,7 @@ ta
 new
 TA
 (
-makeCtorArg
-(
 array
-)
 )
 ;
 assert
@@ -92,10 +88,9 @@ detached
 ;
 }
 null
-null
 [
 "
-immutable
+passthrough
 "
 ]
 )

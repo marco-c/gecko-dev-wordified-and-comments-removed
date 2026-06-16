@@ -31,7 +31,9 @@ function
 (
 )
 {
-DETACHBUFFER
+262
+.
+detachArrayBuffer
 (
 ab
 )
@@ -123,7 +125,9 @@ function
 (
 )
 {
-DETACHBUFFER
+262
+.
+detachArrayBuffer
 (
 ab
 )

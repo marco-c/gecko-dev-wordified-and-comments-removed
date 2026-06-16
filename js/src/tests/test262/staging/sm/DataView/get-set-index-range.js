@@ -212,7 +212,9 @@ NaN
 )
 ;
 }
-DETACHBUFFER
+262
+.
+detachArrayBuffer
 (
 buffer
 )

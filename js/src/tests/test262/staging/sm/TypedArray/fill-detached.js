@@ -11,7 +11,9 @@ valueOf
 (
 )
 {
-DETACHBUFFER
+262
+.
+detachArrayBuffer
 (
 buffer
 )
@@ -36,7 +38,9 @@ valueOf
 (
 )
 {
-DETACHBUFFER
+262
+.
+detachArrayBuffer
 (
 ta
 .

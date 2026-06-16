@@ -63,13 +63,6 @@ sample2
 )
 ;
 }
-null
-null
-[
-"
-immutable
-"
-]
 )
 ;
 reportCompare

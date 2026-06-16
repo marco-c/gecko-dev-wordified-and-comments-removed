@@ -27,9 +27,6 @@ calendar
 collation
 "
 "
-firstDayOfWeek
-"
-"
 hourCycle
 "
 "
