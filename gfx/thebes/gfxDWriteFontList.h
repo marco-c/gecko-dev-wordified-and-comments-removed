@@ -1428,8 +1428,10 @@ aName
 )
 const
 ;
+already_AddRefed
+<
 gfxFontFamily
-*
+>
 CreateFontFamily
 (
 const
