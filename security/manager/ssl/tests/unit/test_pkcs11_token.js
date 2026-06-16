@@ -223,8 +223,6 @@ ok
 token
 .
 isLoggedIn
-(
-)
 "
 Token
 should
@@ -238,7 +236,7 @@ yet
 ;
 token
 .
-logoutSimple
+logout
 (
 )
 ;
@@ -248,8 +246,6 @@ ok
 token
 .
 isLoggedIn
-(
-)
 "
 Token
 should
@@ -333,7 +329,6 @@ token
 .
 login
 (
-false
 )
 ;
 ok
@@ -341,8 +336,6 @@ ok
 token
 .
 isLoggedIn
-(
-)
 "
 Token
 should
@@ -355,7 +348,7 @@ into
 ;
 token
 .
-logoutSimple
+logout
 (
 )
 ;
@@ -365,8 +358,6 @@ ok
 token
 .
 isLoggedIn
-(
-)
 "
 Token
 should
@@ -375,7 +366,7 @@ logged
 out
 after
 calling
-logoutSimple
+logout
 (
 )
 "

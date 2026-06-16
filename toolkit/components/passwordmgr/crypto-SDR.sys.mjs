@@ -1584,8 +1584,6 @@ hasPassword
 token
 .
 isLoggedIn
-(
-)
 ;
 }
 /

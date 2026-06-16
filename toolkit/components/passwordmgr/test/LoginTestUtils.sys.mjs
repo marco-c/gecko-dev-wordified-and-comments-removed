@@ -2738,7 +2738,7 @@ stayLoggedIn
 {
 token
 .
-logoutSimple
+logout
 (
 )
 ;

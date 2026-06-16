@@ -382,7 +382,7 @@ function
 {
 token
 .
-logoutSimple
+logout
 (
 )
 ;

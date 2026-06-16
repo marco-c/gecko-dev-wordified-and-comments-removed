@@ -1110,7 +1110,7 @@ password
 ;
 token
 .
-logoutSimple
+logout
 (
 )
 ;

@@ -1538,7 +1538,7 @@ rv
 nssComponent
 -
 >
-LogoutAuthenticatedPK11
+ClearTLSCacheAndCancelAllConnections
 (
 )
 ;

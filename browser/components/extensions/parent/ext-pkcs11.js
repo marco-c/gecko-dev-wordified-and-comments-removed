@@ -662,8 +662,6 @@ isLoggedIn
 token
 .
 isLoggedIn
-(
-)
 }
 ;
 }

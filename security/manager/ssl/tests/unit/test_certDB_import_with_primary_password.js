@@ -483,7 +483,7 @@ password
 ;
 token
 .
-logoutSimple
+logout
 (
 )
 ;

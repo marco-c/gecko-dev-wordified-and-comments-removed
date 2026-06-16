@@ -313,7 +313,7 @@ password
 ;
 token
 .
-logoutSimple
+logout
 (
 )
 ;
@@ -406,7 +406,7 @@ now
 ;
 token
 .
-logoutSimple
+logout
 (
 )
 ;
@@ -504,7 +504,7 @@ false
 ;
 token
 .
-logoutSimple
+logout
 (
 )
 ;
