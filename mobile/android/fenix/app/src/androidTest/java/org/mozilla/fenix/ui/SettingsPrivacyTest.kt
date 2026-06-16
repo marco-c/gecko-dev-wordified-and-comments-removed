@@ -270,9 +270,6 @@ HomeActivityTestRule
 .
 withDefaultSettingsOverrides
 (
-skipOnboarding
-=
-true
 )
 )
 {
