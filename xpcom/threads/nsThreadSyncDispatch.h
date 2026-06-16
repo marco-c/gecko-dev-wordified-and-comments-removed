@@ -67,8 +67,6 @@ already_AddRefed
 <
 nsIRunnable
 >
-&
-&
 aTask
 )
 :

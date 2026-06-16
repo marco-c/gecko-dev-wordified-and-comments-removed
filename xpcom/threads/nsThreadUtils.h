@@ -422,8 +422,6 @@ already_AddRefed
 <
 nsIRunnable
 >
-&
-&
 aEvent
 )
 ;
@@ -451,8 +449,6 @@ already_AddRefed
 <
 nsIRunnable
 >
-&
-&
 aEvent
 nsIEventTarget
 :
@@ -471,8 +467,6 @@ already_AddRefed
 <
 nsIRunnable
 >
-&
-&
 aEvent
 uint32_t
 aDelayMs
@@ -486,8 +480,6 @@ already_AddRefed
 <
 nsIRunnable
 >
-&
-&
 aEvent
 mozilla
 :
@@ -504,8 +496,6 @@ already_AddRefed
 <
 nsIRunnable
 >
-&
-&
 aEvent
 mozilla
 :
@@ -522,8 +512,6 @@ already_AddRefed
 <
 nsIRunnable
 >
-&
-&
 aEvent
 uint32_t
 aTimeout
@@ -542,8 +530,6 @@ already_AddRefed
 <
 nsIRunnable
 >
-&
-&
 aEvent
 nsIThread
 *
@@ -563,8 +549,6 @@ already_AddRefed
 <
 nsIRunnable
 >
-&
-&
 aEvent
 uint32_t
 aTimeout
@@ -1281,8 +1265,6 @@ already_AddRefed
 <
 nsIRunnable
 >
-&
-&
 aRunnable
 uint32_t
 aPriority
@@ -1385,8 +1367,6 @@ already_AddRefed
 <
 nsIRunnable
 >
-&
-&
 aRunnable
 )
 ;

@@ -2625,8 +2625,6 @@ already_AddRefed
 <
 Task
 >
-&
-&
 aTask
 )
 {
@@ -3706,8 +3704,6 @@ already_AddRefed
 <
 nsIRunnable
 >
-&
-&
 aRunnable
 int32_t
 aPriority
@@ -3893,8 +3889,6 @@ already_AddRefed
 <
 nsIRunnable
 >
-&
-&
 aRunnable
 uint32_t
 aPriority

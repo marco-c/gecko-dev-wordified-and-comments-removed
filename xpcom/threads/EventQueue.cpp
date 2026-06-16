@@ -80,8 +80,6 @@ already_AddRefed
 <
 nsIRunnable
 >
-&
-&
 aEvent
 EventQueuePriority
 aPriority

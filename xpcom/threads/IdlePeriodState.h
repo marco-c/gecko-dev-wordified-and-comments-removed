@@ -82,8 +82,6 @@ already_AddRefed
 <
 nsIIdlePeriod
 >
-&
-&
 aIdlePeriod
 )
 ;

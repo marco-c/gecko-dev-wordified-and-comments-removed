@@ -759,8 +759,6 @@ already_AddRefed
 <
 nsIIdlePeriod
 >
-&
-&
 aIdlePeriod
 )
 :
@@ -944,8 +942,6 @@ already_AddRefed
 <
 IdleTaskManager
 >
-&
-&
 aIdleTaskManager
 )
 {
@@ -1009,8 +1005,6 @@ already_AddRefed
 <
 Task
 >
-&
-&
 aTask
 )
 ;
@@ -1050,8 +1044,6 @@ already_AddRefed
 <
 nsIRunnable
 >
-&
-&
 aRunnable
 uint32_t
 aPriority
