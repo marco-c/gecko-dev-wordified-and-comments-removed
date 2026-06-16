@@ -3294,9 +3294,13 @@ inactive
 }
 }
 #
+navigator
+-
+toolbox
+#
 sidebar
 -
-main
+container
 {
 background
 -
@@ -13849,7 +13853,7 @@ verticalTabs
 #
 sidebar
 -
-main
+container
 {
 /
 *

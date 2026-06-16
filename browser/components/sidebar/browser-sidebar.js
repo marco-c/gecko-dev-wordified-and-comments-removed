@@ -1907,7 +1907,7 @@ getElementById
 "
 sidebar
 -
-main
+container
 "
 )
 ;
@@ -4479,7 +4479,7 @@ getElementById
 "
 sidebar
 -
-main
+container
 "
 )
 ;
@@ -5722,7 +5722,7 @@ tasks
 ;
 }
 async
-_animateSidebarMain
+_animateSidebarContainer
 (
 )
 {
@@ -7069,7 +7069,7 @@ gReduceMotion
 {
 this
 .
-_animateSidebarMain
+_animateSidebarContainer
 (
 )
 ;
@@ -7735,7 +7735,7 @@ gReduceMotion
 {
 this
 .
-_animateSidebarMain
+_animateSidebarContainer
 (
 )
 ;
@@ -11482,7 +11482,7 @@ gReduceMotion
 {
 this
 .
-_animateSidebarMain
+_animateSidebarContainer
 (
 )
 ;
@@ -11593,7 +11593,7 @@ gReduceMotion
 {
 this
 .
-_animateSidebarMain
+_animateSidebarContainer
 (
 )
 ;
@@ -13112,7 +13112,7 @@ hover
 {
 SidebarController
 .
-_animateSidebarMain
+_animateSidebarContainer
 (
 )
 ;
