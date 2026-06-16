@@ -873,6 +873,17 @@ finalizeAction
 (
 )
 {
+if
+(
+!
+this
+.
+contentWindow
+)
+{
+return
+;
+}
 /
 /
 Terminate
