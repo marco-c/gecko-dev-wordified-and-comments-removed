@@ -926,6 +926,12 @@ mAddrFamily
 ;
 nsCOMPtr
 <
+nsIDNSAddrRecord
+>
+mWinnerAddrRecord
+;
+nsCOMPtr
+<
 nsITimer
 >
 mTimer
