@@ -841,6 +841,14 @@ mozilla
 StyleGeometryBox
 ;
 using
+StyleBackgroundClip
+=
+mozilla
+:
+:
+StyleBackgroundClip
+;
+using
 StyleImageLayerAttachment
 =
 mozilla
@@ -871,7 +879,7 @@ mPosition
 StyleBackgroundSize
 mSize
 ;
-StyleGeometryBox
+StyleBackgroundClip
 mClip
 ;
 MOZ_INIT_OUTSIDE_CTOR

@@ -413,6 +413,7 @@ background
 :
 :
 {
+BackgroundClip
 BackgroundRepeat
 BackgroundSize
 }

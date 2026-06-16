@@ -44,7 +44,10 @@ specified
 background
 :
 :
+{
+BackgroundClip
 BackgroundRepeat
+}
 ;
 pub
 type

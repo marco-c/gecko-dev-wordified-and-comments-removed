@@ -15800,7 +15800,7 @@ layer
 mClip
 =
 =
-StyleGeometryBox
+StyleBackgroundClip
 :
 :
 NoClip

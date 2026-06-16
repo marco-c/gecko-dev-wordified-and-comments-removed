@@ -139,6 +139,7 @@ StrokeBox
 ViewBox
 NoClip
 Text
+BorderArea
 NoBox
 MozAlmostPadding
 =
