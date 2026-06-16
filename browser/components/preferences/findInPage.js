@@ -766,6 +766,8 @@ index
 }
 }
 }
+try
+{
 let
 range
 =
@@ -811,6 +813,13 @@ searchResultsHighlighted
 =
 true
 ;
+}
+catch
+(
+ex
+)
+{
+}
 }
 return
 !
