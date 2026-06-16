@@ -73,7 +73,7 @@ violet
 -
 desaturated
 .
-10
+20
 }
 "
 "
@@ -122,7 +122,7 @@ violet
 -
 desaturated
 .
-20
+30
 }
 "
 "
@@ -137,7 +137,7 @@ violet
 -
 desaturated
 .
-60
+40
 }
 "
 "
@@ -263,7 +263,7 @@ color
 .
 red
 .
-20
+30
 }
 "
 "
@@ -318,7 +318,7 @@ color
 .
 red
 .
-40
+10
 }
 "
 "
@@ -373,7 +373,7 @@ color
 .
 red
 .
-30
+20
 }
 "
 "
