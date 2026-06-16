@@ -18580,7 +18580,7 @@ value
 value
 =
 "
-dohEnabledRadio
+dohStrictRadio
 "
 ;
 }
@@ -18606,7 +18606,7 @@ value
 value
 =
 "
-dohStrictRadio
+dohEnabledRadio
 "
 ;
 }
@@ -18747,7 +18747,7 @@ Ci
 .
 nsIDNSService
 .
-MODE_TRRFIRST
+MODE_TRRONLY
 ;
 }
 else
@@ -18762,7 +18762,7 @@ Ci
 .
 nsIDNSService
 .
-MODE_TRRONLY
+MODE_TRRFIRST
 ;
 }
 }
@@ -19164,7 +19164,7 @@ record
 value
 :
 "
-dohEnabledRadio
+dohStrictRadio
 "
 }
 )
@@ -19184,7 +19184,7 @@ record
 value
 :
 "
-dohStrictRadio
+dohEnabledRadio
 "
 }
 )
@@ -19231,7 +19231,7 @@ Ci
 .
 nsIDNSService
 .
-MODE_TRRFIRST
+MODE_TRRONLY
 )
 {
 return
@@ -19251,7 +19251,7 @@ Ci
 .
 nsIDNSService
 .
-MODE_TRRONLY
+MODE_TRRFIRST
 )
 {
 return
@@ -19328,7 +19328,7 @@ Ci
 .
 nsIDNSService
 .
-MODE_TRRFIRST
+MODE_TRRONLY
 &
 &
 !
@@ -19345,7 +19345,7 @@ Ci
 .
 nsIDNSService
 .
-MODE_TRRONLY
+MODE_TRRFIRST
 ;
 }
 else
@@ -19362,7 +19362,7 @@ Ci
 .
 nsIDNSService
 .
-MODE_TRRONLY
+MODE_TRRFIRST
 &
 &
 val
@@ -19378,7 +19378,7 @@ Ci
 .
 nsIDNSService
 .
-MODE_TRRFIRST
+MODE_TRRONLY
 ;
 }
 /
