@@ -159,6 +159,17 @@ fxrelay
 dependencies
 {
 implementation
+platform
+(
+libs
+.
+androidx
+.
+compose
+.
+bom
+)
+implementation
 ComponentsDependencies
 .
 mozilla_appservices_fxrelay
