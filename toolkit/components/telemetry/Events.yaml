@@ -1427,7 +1427,7 @@ com
 expiry_version
 :
 "
-154
+161
 "
 products
 :
@@ -1468,6 +1468,7 @@ bug_numbers
 1912166
 1958151
 1994595
+2041166
 ]
 release_channel_collection
 :
@@ -1998,7 +1999,7 @@ com
 expiry_version
 :
 "
-154
+161
 "
 products
 :
@@ -2040,6 +2041,7 @@ bug_numbers
 1917859
 1958149
 1994595
+2041166
 ]
 release_channel_collection
 :
