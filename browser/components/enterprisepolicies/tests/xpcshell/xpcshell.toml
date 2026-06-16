@@ -167,6 +167,13 @@ js
 ]
 [
 "
+test_extensionsettings_blocked_permissions
+.
+js
+"
+]
+[
+"
 test_import_enterprise_roots
 .
 js
