@@ -3129,6 +3129,7 @@ aTypeAtom
 {
 ProcessApzAwareEventListenerAdd
 (
+aTypeAtom
 )
 ;
 }
@@ -3171,6 +3172,9 @@ EventListenerManager
 :
 ProcessApzAwareEventListenerAdd
 (
+nsAtom
+*
+aEvent
 )
 {
 Document
@@ -3484,6 +3488,15 @@ apz_fastpath_apz_aware_listener_enabled
 {
 if
 (
+aEvent
+=
+=
+nsGkAtoms
+:
+:
+ontouchmove
+&
+&
 scrollId
 !
 =

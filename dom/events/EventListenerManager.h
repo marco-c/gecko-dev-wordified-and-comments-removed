@@ -2191,6 +2191,9 @@ aAtom
 void
 ProcessApzAwareEventListenerAdd
 (
+nsAtom
+*
+aEvent
 )
 ;
 nsresult
