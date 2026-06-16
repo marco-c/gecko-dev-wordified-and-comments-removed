@@ -2092,6 +2092,9 @@ MutableHandleValue
 dst
 )
 ;
+#
+ifdef
+ENABLE_SOURCE_PHASE_IMPORTS
 [
 [
 nodiscard
@@ -2111,6 +2114,8 @@ MutableHandleValue
 dst
 )
 ;
+#
+endif
 [
 [
 nodiscard
@@ -5652,6 +5657,9 @@ dst
 )
 ;
 }
+#
+ifdef
+ENABLE_SOURCE_PHASE_IMPORTS
 bool
 NodeBuilder
 :
@@ -5686,6 +5694,8 @@ dst
 )
 ;
 }
+#
+endif
 bool
 NodeBuilder
 :
@@ -7158,6 +7168,9 @@ MutableHandleValue
 dst
 )
 ;
+#
+ifdef
+ENABLE_SOURCE_PHASE_IMPORTS
 bool
 importSourceDeclaration
 (
@@ -7168,6 +7181,8 @@ MutableHandleValue
 dst
 )
 ;
+#
+endif
 bool
 importSpecifier
 (
@@ -9699,6 +9714,9 @@ dst
 )
 ;
 }
+#
+ifdef
+ENABLE_SOURCE_PHASE_IMPORTS
 bool
 ASTSerializer
 :
@@ -9931,6 +9949,8 @@ dst
 )
 ;
 }
+#
+endif
 bool
 ASTSerializer
 :
@@ -12461,6 +12481,9 @@ BinaryNode
 dst
 )
 ;
+#
+ifdef
+ENABLE_SOURCE_PHASE_IMPORTS
 case
 ParseNodeKind
 :
@@ -12483,6 +12506,8 @@ BinaryNode
 dst
 )
 ;
+#
+endif
 case
 ParseNodeKind
 :
@@ -19207,12 +19232,17 @@ dst
 )
 ;
 }
+#
+ifdef
+ENABLE_SOURCE_PHASE_IMPORTS
 case
 ParseNodeKind
 :
 :
 CallImportSourceExpr
 :
+#
+endif
 case
 ParseNodeKind
 :
@@ -19432,6 +19462,9 @@ return
 false
 ;
 }
+#
+ifdef
+ENABLE_SOURCE_PHASE_IMPORTS
 if
 (
 pn
@@ -19486,6 +19519,8 @@ false
 }
 }
 else
+#
+endif
 {
 property
 =
@@ -19593,6 +19628,9 @@ isImportSource
 =
 false
 ;
+#
+ifdef
+ENABLE_SOURCE_PHASE_IMPORTS
 isImportSource
 =
 pn
@@ -19606,6 +19644,8 @@ ParseNodeKind
 CallImportSourceExpr
 )
 ;
+#
+endif
 return
 builder
 .

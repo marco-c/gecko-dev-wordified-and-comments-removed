@@ -1163,6 +1163,9 @@ experimental_explicit_resource_management
 ;
 #
 endif
+#
+ifdef
+ENABLE_SOURCE_PHASE_IMPORTS
 case
 JSProto_AbstractModuleSource
 :
@@ -1178,6 +1181,8 @@ experimental_source_phase_imports
 (
 )
 ;
+#
+endif
 default
 :
 MOZ_CRASH

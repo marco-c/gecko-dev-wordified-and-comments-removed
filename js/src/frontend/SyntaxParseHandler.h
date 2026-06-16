@@ -1605,6 +1605,9 @@ return
 NodeGeneric
 ;
 }
+#
+ifdef
+ENABLE_SOURCE_PHASE_IMPORTS
 BinaryNodeResult
 newImportSourceDeclaration
 (
@@ -1622,6 +1625,8 @@ return
 NodeGeneric
 ;
 }
+#
+endif
 BinaryNodeResult
 newImportSpec
 (

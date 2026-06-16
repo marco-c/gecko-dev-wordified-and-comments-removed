@@ -3145,6 +3145,9 @@ return
 true
 ;
 }
+#
+ifdef
+ENABLE_SOURCE_PHASE_IMPORTS
 bool
 js
 :
@@ -3846,6 +3849,8 @@ return
 true
 ;
 }
+#
+endif
 static
 bool
 EnforceRange
@@ -5217,6 +5222,9 @@ return
 nullptr
 ;
 }
+#
+ifdef
+ENABLE_SOURCE_PHASE_IMPORTS
 if
 (
 JS
@@ -5225,7 +5233,7 @@ JS
 Prefs
 :
 :
-experimental_wasm_esm_integration
+experimental_source_phase_imports
 (
 )
 )
@@ -5295,6 +5303,8 @@ TenuredObject
 ;
 }
 }
+#
+endif
 return
 NewNativeConstructor
 (
@@ -6724,6 +6734,9 @@ WasmModuleName
 Module
 "
 ;
+#
+ifdef
+ENABLE_SOURCE_PHASE_IMPORTS
 static
 JSObject
 *
@@ -6744,7 +6757,7 @@ JS
 Prefs
 :
 :
-experimental_wasm_esm_integration
+experimental_source_phase_imports
 (
 )
 )
@@ -6810,6 +6823,8 @@ protoClass_
 )
 ;
 }
+#
+endif
 const
 ClassSpec
 WasmModuleObject
@@ -6823,7 +6838,18 @@ CreateWasmConstructor
 WasmModuleObject
 WasmModuleName
 >
+#
+ifdef
+ENABLE_SOURCE_PHASE_IMPORTS
 CreateWasmModulePrototype
+#
+else
+GenericCreatePrototype
+<
+WasmModuleObject
+>
+#
+endif
 WasmModuleObject
 :
 :

@@ -1075,6 +1075,9 @@ return
 true
 ;
 }
+#
+ifdef
+ENABLE_SOURCE_PHASE_IMPORTS
 JSObject
 *
 ModuleLoader
@@ -1272,6 +1275,8 @@ return
 module
 ;
 }
+#
+endif
 bool
 ModuleLoader
 :
@@ -1339,6 +1344,9 @@ payload
 )
 ;
 }
+#
+ifdef
+ENABLE_SOURCE_PHASE_IMPORTS
 if
 (
 JS
@@ -1450,6 +1458,8 @@ false
 ;
 }
 }
+#
+endif
 Rooted
 <
 JSLinearString
@@ -2268,6 +2278,9 @@ HandleValue
 payload
 )
 {
+#
+ifdef
+ENABLE_SOURCE_PHASE_IMPORTS
 js
 :
 :
@@ -2400,6 +2413,8 @@ false
 }
 }
 }
+#
+endif
 Rooted
 <
 JSLinearString
@@ -2462,6 +2477,9 @@ payload
 )
 ;
 }
+#
+ifdef
+ENABLE_SOURCE_PHASE_IMPORTS
 if
 (
 phase
@@ -2473,6 +2491,8 @@ ImportPhase
 Source
 )
 {
+#
+endif
 RootedValue
 hostDefined
 (
@@ -2511,7 +2531,12 @@ payload
 )
 ;
 }
+#
+ifdef
+ENABLE_SOURCE_PHASE_IMPORTS
 }
+#
+endif
 if
 (
 JS_IsExceptionPending
@@ -3166,6 +3191,9 @@ if
 module
 )
 {
+#
+ifdef
+ENABLE_SOURCE_PHASE_IMPORTS
 if
 (
 moduleRequestArg
@@ -3216,6 +3244,8 @@ return
 nullptr
 ;
 }
+#
+endif
 return
 module
 ;
@@ -3356,6 +3386,9 @@ return
 module
 ;
 }
+#
+ifdef
+ENABLE_SOURCE_PHASE_IMPORTS
 if
 (
 JS
@@ -3664,6 +3697,8 @@ return
 module
 ;
 }
+#
+endif
 JS
 :
 :

@@ -1619,6 +1619,9 @@ proxyHandler
 ;
 }
 ;
+#
+ifdef
+ENABLE_SOURCE_PHASE_IMPORTS
 class
 AbstractModuleSourceObject
 :
@@ -1634,6 +1637,8 @@ class_
 ;
 }
 ;
+#
+endif
 enum
 class
 ModuleStatus
@@ -1776,7 +1781,12 @@ DEBUG
 PreloadSlot
 #
 endif
+#
+ifdef
+ENABLE_SOURCE_PHASE_IMPORTS
 ModuleSourceSlot
+#
+endif
 SlotCount
 }
 ;
@@ -1825,6 +1835,9 @@ HandleScript
 script
 )
 ;
+#
+ifdef
+ENABLE_SOURCE_PHASE_IMPORTS
 void
 initModuleSourceSlot
 (
@@ -1840,6 +1853,8 @@ ScriptSourceObject
 sso
 )
 ;
+#
+endif
 void
 setInitialEnvironment
 (
@@ -1964,6 +1979,9 @@ namespace_
 (
 )
 ;
+#
+ifdef
+ENABLE_SOURCE_PHASE_IMPORTS
 JSObject
 *
 moduleSource
@@ -1986,6 +2004,8 @@ moduleSource
 nullptr
 ;
 }
+#
+endif
 ModuleStatus
 status
 (
@@ -2465,6 +2485,9 @@ Value
 values
 )
 ;
+#
+ifdef
+ENABLE_SOURCE_PHASE_IMPORTS
 static
 bool
 createWasmEnvironment
@@ -2480,6 +2503,8 @@ ModuleObject
 self
 )
 ;
+#
+endif
 void
 initAsyncSlots
 (

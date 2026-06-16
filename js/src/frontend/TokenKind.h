@@ -873,6 +873,8 @@ static
 "
 )
 \
+IF_SOURCE_PHASE_IMPORTS
+(
 MACRO
 (
 Source
@@ -881,6 +883,7 @@ Source
 source
 '
 "
+)
 )
 \
 MACRO
