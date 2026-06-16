@@ -102,6 +102,13 @@ js
 ]
 [
 "
+test_IPPLifecycleHelper
+.
+js
+"
+]
+[
+"
 test_IPPSessionPrefManager
 .
 js

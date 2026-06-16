@@ -291,6 +291,13 @@ sys
 mjs
 "
 "
+IPPLifecycleHelper
+.
+sys
+.
+mjs
+"
+"
 IPPNetworkErrorObserver
 .
 sys

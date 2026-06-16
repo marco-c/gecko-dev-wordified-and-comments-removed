@@ -146,8 +146,9 @@ filter
 .
 initialize
 (
-"
-"
+makePass
+(
+)
 proxyInfo
 .
 server

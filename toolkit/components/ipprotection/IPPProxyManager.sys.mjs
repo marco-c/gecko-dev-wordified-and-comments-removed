@@ -2630,10 +2630,6 @@ this
 .
 #
 pass
-.
-asBearerToken
-(
-)
 server
 )
 ;
@@ -3195,10 +3191,6 @@ this
 .
 #
 pass
-.
-asBearerToken
-(
-)
 server
 )
 ;
@@ -4354,10 +4346,6 @@ connection
 replaceAuthTokenAndResume
 (
 pass
-.
-asBearerToken
-(
-)
 )
 ;
 this
