@@ -82,6 +82,13 @@ js
 ]
 [
 "
+test_ToolActionLog
+.
+js
+"
+]
+[
+"
 test_ToolUI
 .
 js
