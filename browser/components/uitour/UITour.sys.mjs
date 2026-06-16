@@ -1200,6 +1200,8 @@ query
 "
 #
 urlbar
+-
+container
 "
 widgetName
 :

@@ -19765,13 +19765,6 @@ this
 view
 .
 isOpen
-&
-&
-this
-.
-view
-.
-visibleRowCount
 )
 {
 this

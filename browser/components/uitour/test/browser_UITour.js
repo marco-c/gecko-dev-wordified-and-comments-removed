@@ -2100,6 +2100,8 @@ getElementById
 (
 "
 urlbar
+-
+container
 "
 )
 "
@@ -2110,6 +2112,7 @@ anchored
 to
 the
 urlbar
+container
 "
 )
 ;
@@ -2369,6 +2372,8 @@ getElementById
 (
 "
 urlbar
+-
+container
 "
 )
 "
@@ -2379,6 +2384,7 @@ anchored
 to
 the
 urlbar
+container
 "
 )
 ;
