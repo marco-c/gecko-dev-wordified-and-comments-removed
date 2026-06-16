@@ -50,6 +50,8 @@ WHOLE
 enum
 class
 APZScrollAnimationType
+:
+uint8_t
 {
 No
 TriggeredByScript

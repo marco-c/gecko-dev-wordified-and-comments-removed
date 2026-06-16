@@ -209,11 +209,6 @@ mAnchorNode
 =
 nullptr
 ;
-nscoord
-mLastAnchorOffset
-=
-0
-;
 struct
 DisablingHeuristic
 {
@@ -249,6 +244,11 @@ Reset
 ;
 }
 mHeuristic
+;
+nscoord
+mLastAnchorOffset
+=
+0
 ;
 bool
 mDisabled
