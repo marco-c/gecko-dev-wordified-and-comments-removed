@@ -1476,6 +1476,7 @@ super
 :
 *
 ;
+unsafe
 extern
 "
 C

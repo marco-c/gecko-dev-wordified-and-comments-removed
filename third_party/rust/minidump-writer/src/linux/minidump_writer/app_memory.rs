@@ -112,6 +112,10 @@ Self
 :
 copy_from_process
 (
+&
+self
+.
+process_inspector
 blamed_thread
 app_memory
 .

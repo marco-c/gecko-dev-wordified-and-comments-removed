@@ -10,6 +10,7 @@ super
 dumper_cpu_info
 as
 dci
+ProcessInspector
 *
 }
 error_graph
@@ -103,6 +104,10 @@ pub
 fn
 write
 (
+process_inspector
+:
+&
+ProcessInspector
 buffer
 :
 &
@@ -239,6 +244,7 @@ dci
 :
 write_cpu_information
 (
+process_inspector
 &
 mut
 info

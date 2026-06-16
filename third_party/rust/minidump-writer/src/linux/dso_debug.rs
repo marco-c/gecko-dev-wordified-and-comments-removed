@@ -8,14 +8,18 @@ auxv
 :
 :
 AuxvDumpInfo
-mem_reader
-:
-:
-CopyFromProcessError
 minidump_writer
 :
 :
 MinidumpWriter
+process_inspection
+:
+:
+ProcessInspector
+process_reader
+:
+:
+CopyFromProcessError
 serializers
 :
 :
@@ -29,11 +33,11 @@ mem_writer
 :
 :
 {
-write_string_to_location
 Buffer
 MemoryArrayWriter
 MemoryWriter
 MemoryWriterError
+write_string_to_location
 }
 minidump_format
 :
@@ -494,6 +498,10 @@ pub
 fn
 write_dso_debug_stream
 (
+process_inspector
+:
+&
+ProcessInspector
 buffer
 :
 &
@@ -576,6 +584,7 @@ MinidumpWriter
 :
 copy_from_process
 (
+process_inspector
 blamed_thread
 phdr
 SIZEOF_PHDR
@@ -819,6 +828,7 @@ MinidumpWriter
 :
 copy_from_process
 (
+process_inspector
 blamed_thread
 dyn_addr
 as
@@ -947,6 +957,7 @@ MinidumpWriter
 :
 copy_from_process
 (
+process_inspector
 blamed_thread
 r_debug
 std
@@ -1045,6 +1056,7 @@ MinidumpWriter
 :
 copy_from_process
 (
+process_inspector
 blamed_thread
 curr_map
 std
@@ -1220,6 +1232,7 @@ MinidumpWriter
 :
 copy_from_process
 (
+process_inspector
 blamed_thread
 map
 .
@@ -1421,6 +1434,7 @@ MinidumpWriter
 :
 copy_from_process
 (
+process_inspector
 blamed_thread
 dyn_addr
 as

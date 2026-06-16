@@ -156,7 +156,7 @@ groups
 :
 Vec
 <
-i32
+u32
 >
 pub
 nstgid

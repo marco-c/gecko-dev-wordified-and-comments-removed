@@ -12,9 +12,9 @@ minidump_cpu
 :
 :
 {
-RawContextCPU
 FP_REG_COUNT
 GP_REG_COUNT
+RawContextCPU
 }
 minidump_format
 :

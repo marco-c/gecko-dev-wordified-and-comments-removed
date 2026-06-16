@@ -8,10 +8,10 @@ format
 :
 :
 {
-MiscInfoFlags
 MINIDUMP_MISC_INFO_2
 as
 MDRawMiscInfo
+MiscInfoFlags
 }
 std
 :

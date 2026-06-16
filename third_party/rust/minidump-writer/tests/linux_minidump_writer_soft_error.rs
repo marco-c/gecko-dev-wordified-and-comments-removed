@@ -32,11 +32,11 @@ minidump_writer
 :
 :
 {
+FailSpotName
 minidump_writer
 :
 :
 MinidumpWriterConfig
-FailSpotName
 }
 serde_json
 :

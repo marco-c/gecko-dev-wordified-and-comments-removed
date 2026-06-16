@@ -8,8 +8,8 @@ kern_return
 :
 :
 {
-kern_return_t
 KERN_SUCCESS
+kern_return_t
 }
 port
 :
@@ -3452,6 +3452,7 @@ unwrap_or_default
 (
 )
 }
+unsafe
 extern
 "
 C

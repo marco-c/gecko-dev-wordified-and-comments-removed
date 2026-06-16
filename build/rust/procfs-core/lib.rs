@@ -1,6 +1,6 @@
 pub
 use
-nix
+procfs_core
 :
 :
 *
