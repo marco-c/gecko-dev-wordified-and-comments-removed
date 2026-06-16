@@ -318,6 +318,13 @@ browser_policy_disable_popup_blocker
 js
 "
 ]
+[
+"
+browser_policy_disable_popup_blocker_locked
+.
+js
+"
+]
 support
 -
 files
