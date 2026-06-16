@@ -618,10 +618,15 @@ else
             
 hgstore
 =
+r
 "
-y
-:
-/
+%
+HG_CACHE
+%
+\
+.
+.
+\
 hg
 -
 shared
