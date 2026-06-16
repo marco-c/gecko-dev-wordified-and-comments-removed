@@ -355,8 +355,6 @@ variants
 webrender
 -
 sw
--
-nova
 run
 -
 on
@@ -2712,8 +2710,6 @@ variants
 webrender
 -
 sw
--
-nova
 run
 -
 on
@@ -2969,8 +2965,6 @@ variants
 webrender
 -
 sw
--
-nova
 run
 -
 on
@@ -4183,8 +4177,6 @@ variants
 webrender
 -
 sw
--
-nova
 run
 -
 on
