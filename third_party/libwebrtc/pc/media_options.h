@@ -336,6 +336,11 @@ Codec
 >
 codecs_to_include
 ;
+bool
+sframe_enabled
+=
+false
+;
 private
 :
 PLAN_B_ONLY
