@@ -480,6 +480,10 @@ aPath
 {
 if
 (
+!
+aPath
+|
+|
 *
 aPath
 =
