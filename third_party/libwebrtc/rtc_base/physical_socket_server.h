@@ -1036,9 +1036,14 @@ dscp_
 0
 ;
 uint8_t
-ecn_
+ecn_send_options_
 =
 0
+;
+bool
+read_ecn_
+=
+false
 ;
 #
 if
