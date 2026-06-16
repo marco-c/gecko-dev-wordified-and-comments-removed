@@ -3398,6 +3398,11 @@ tabGroupsDragAndDropEnabled
 settings
 .
 tabGroupsDragAndDropEnabled
+tabGroupsLiveReorderEnabled
+=
+settings
+.
+tabGroupsLiveReorderEnabled
 tabGroupsOnboardingEnabled
 =
 settings
