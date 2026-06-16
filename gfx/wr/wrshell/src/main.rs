@@ -14,9 +14,6 @@ mod
 net
 ;
 mod
-renderdoc
-;
-mod
 script_commands
 ;
 mod
