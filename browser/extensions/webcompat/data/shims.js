@@ -6024,7 +6024,7 @@ com
 :
 /
 /
-c
+*
 .
 disquscdn
 .
