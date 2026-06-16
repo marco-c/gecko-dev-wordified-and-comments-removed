@@ -941,6 +941,11 @@ sources
 =
 [
 "
+decode_time_percentile_filter_unittest
+.
+cc
+"
+"
 frame_delay_variation_kalman_filter_unittest
 .
 cc
@@ -974,6 +979,10 @@ cc
 deps
 =
 [
+"
+:
+decode_time_percentile_filter
+"
 "
 :
 frame_delay_variation_kalman_filter
