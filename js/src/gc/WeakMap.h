@@ -347,6 +347,17 @@ SystemAllocPolicy
 ;
 class
 WeakMapBase
+;
+using
+WeakMapList
+=
+SlimLinkedList
+<
+WeakMapBase
+>
+;
+class
+WeakMapBase
 :
 public
 SlimLinkedListElement
