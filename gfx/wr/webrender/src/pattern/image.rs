@@ -4,6 +4,7 @@ api
 :
 {
 ImageBufferKind
+ColorF
 units
 :
 :
@@ -63,6 +64,10 @@ pub
 sampler_kind
 :
 ImageBufferKind
+pub
+color
+:
+ColorF
 }
 impl
 PatternBuilder
@@ -138,6 +143,13 @@ src_task_id
 self
 .
 src_is_opaque
+)
+.
+with_base_color
+(
+self
+.
+color
 )
 .
 with_blend_mode

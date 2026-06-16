@@ -2641,6 +2641,11 @@ src_task_id
 src_is_opaque
 premultiplied
 sampler_kind
+color
+:
+image_data
+.
+color
 }
 ;
 quad
@@ -2928,6 +2933,11 @@ src_task_id
 src_is_opaque
 premultiplied
 sampler_kind
+color
+:
+image_data
+.
+color
 }
 ;
 quad
