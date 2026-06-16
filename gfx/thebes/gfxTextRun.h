@@ -1174,6 +1174,7 @@ GetMinAdvanceWidth
 Range
 aRange
 )
+const
 ;
 virtual
 bool

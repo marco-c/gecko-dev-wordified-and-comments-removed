@@ -6821,6 +6821,7 @@ GetMinAdvanceWidth
 Range
 aRange
 )
+const
 {
 MOZ_ASSERT
 (
