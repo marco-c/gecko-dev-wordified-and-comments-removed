@@ -1153,6 +1153,14 @@ name
 }
 }
 ;
+enum
+class
+RtpTransceiverIdDomain
+{
+kOneByteOnly
+kTwoByteAllowed
+}
+;
 struct
 RTC_EXPORT
 RtpHeaderExtensionCapability
