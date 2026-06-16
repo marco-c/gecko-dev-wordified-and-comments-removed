@@ -6622,13 +6622,6 @@ NotFinished
 {
 MOZ_ASSERT
 (
-hasMarkingWork
-(
-)
-)
-;
-MOZ_ASSERT
-(
 isIncremental
 )
 ;
