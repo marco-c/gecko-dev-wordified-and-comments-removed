@@ -425,13 +425,6 @@ js
 ]
 [
 "
-test_hideOneOffButton
-.
-js
-"
-]
-[
-"
 test_identifiers
 .
 js
