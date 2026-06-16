@@ -561,10 +561,8 @@ idp
 override
 ;
 virtual
-UniquePtr
-<
 JsepUuidGenerator
->
+*
 Clone
 (
 )
@@ -572,10 +570,8 @@ const
 override
 {
 return
-MakeUnique
-<
+new
 PCUuidGenerator
->
 (
 *
 this

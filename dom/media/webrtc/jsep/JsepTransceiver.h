@@ -30,15 +30,6 @@ h
 #
 include
 "
-mozilla
-/
-UniquePtr
-.
-h
-"
-#
-include
-"
 nsError
 .
 h
@@ -101,10 +92,8 @@ id
 0
 ;
 virtual
-UniquePtr
-<
 JsepUuidGenerator
->
+*
 Clone
 (
 )
