@@ -6190,6 +6190,9 @@ PictureInPictureEvent
 insecureContext
 :
 true
+android
+:
+false
 }
 {
 name
@@ -6200,6 +6203,9 @@ PictureInPictureWindow
 insecureContext
 :
 true
+android
+:
+false
 }
 {
 name
