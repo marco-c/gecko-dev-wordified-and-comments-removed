@@ -45,7 +45,7 @@ SHMEMPOOL_LOG
 args
 )
 \
-MOZ_LOG
+MOZ_LOG_FMT
 (
 sShmemPoolLog
 mozilla
@@ -55,6 +55,7 @@ LogLevel
 :
 :
 Debug
+MOZ_LOG_EXPAND_ARGS
 args
 )
 #
@@ -64,7 +65,7 @@ SHMEMPOOL_LOG_WARN
 args
 )
 \
-MOZ_LOG
+MOZ_LOG_FMT
 (
 sShmemPoolLog
 mozilla
@@ -74,6 +75,8 @@ LogLevel
 :
 :
 Warning
+\
+MOZ_LOG_EXPAND_ARGS
 args
 )
 #
@@ -83,7 +86,7 @@ SHMEMPOOL_LOG_ERROR
 args
 )
 \
-MOZ_LOG
+MOZ_LOG_FMT
 (
 sShmemPoolLog
 mozilla
@@ -93,6 +96,7 @@ LogLevel
 :
 :
 Error
+MOZ_LOG_EXPAND_ARGS
 args
 )
 namespace
@@ -821,8 +825,8 @@ ShmemPool
 use
 increased
 :
-%
-zu
+{
+}
 buffers
 "
 mMaxPoolUse
