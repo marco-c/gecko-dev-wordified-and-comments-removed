@@ -100,3 +100,10 @@ browser_search_tooltip_moz_select
 js
 "
 ]
+[
+"
+browser_search_tooltip_position
+.
+js
+"
+]
