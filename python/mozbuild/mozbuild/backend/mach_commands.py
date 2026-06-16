@@ -5,6 +5,8 @@ logging
 import
 os
 import
+shutil
+import
 subprocess
 import
 sys
@@ -3142,6 +3144,28 @@ dump
 (
 clangd_cfg
 file
+)
+    
+shutil
+.
+copyfile
+(
+"
+.
+clangd
+"
+mozpath
+.
+join
+(
+command_context
+.
+topobjdir
+"
+.
+clangd
+"
+)
 )
     
 config

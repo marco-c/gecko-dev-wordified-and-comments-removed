@@ -946,6 +946,10 @@ no_clobber
 {
 "
 .
+clangd
+"
+"
+.
 mozbuild
 "
 "
