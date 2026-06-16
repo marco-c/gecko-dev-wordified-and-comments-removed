@@ -6742,7 +6742,7 @@ less
 label
 =
 Show
-less
+fewer
 widgets
 newtab
 -
