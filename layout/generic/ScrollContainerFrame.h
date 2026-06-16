@@ -3955,16 +3955,6 @@ mWillBuildScrollableLayer
 1
 ;
 bool
-mInactiveWithActiveDescendantScrollFrames
-:
-1
-;
-bool
-mScrollPortOrScrolledAreaBoundsChanged
-:
-1
-;
-bool
 mIsParentToActiveScrollFrames
 :
 1
