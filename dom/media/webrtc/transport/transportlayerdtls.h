@@ -434,6 +434,16 @@ GetDefaultSrtpCiphers
 (
 )
 ;
+static
+const
+char
+*
+GetSrtpCipherName
+(
+uint16_t
+cipher
+)
+;
 nsresult
 ExportKeyingMaterial
 (

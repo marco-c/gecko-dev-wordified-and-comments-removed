@@ -584,6 +584,15 @@ return
 id_
 ;
 }
+std
+:
+:
+string
+GetUfrag
+(
+)
+const
+;
 bool
 AllGenerationsDoneGathering
 (
