@@ -510,6 +510,16 @@ isUserMetaAttributed
 =
 false
 }
+settings
+.
+isUserTikTokAttributed
+=
+InstallReferrerHandlingService
+.
+isTikTokAttribution
+(
+installReferrerResponse
+)
 utmParams
 .
 recordInstallReferrer
