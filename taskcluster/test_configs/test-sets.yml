@@ -2678,6 +2678,10 @@ unittest
 -
 mochitest
 -
+plain
+-
+mochitest
+-
 remote
 -
 telemetry
