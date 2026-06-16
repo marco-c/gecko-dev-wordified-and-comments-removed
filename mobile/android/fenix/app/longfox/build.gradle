@@ -254,6 +254,14 @@ libs
 .
 androidx
 .
+lifecycle
+.
+runtime
+implementation
+libs
+.
+androidx
+.
 datastore
 .
 core
