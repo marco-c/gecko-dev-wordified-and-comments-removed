@@ -13,10 +13,6 @@ pathlib
 import
 Path
 from
-mozdevice
-import
-ADBDevice
-from
 mozperftest
 .
 layers
@@ -27,8 +23,14 @@ mozperftest
 .
 utils
 import
+(
+    
 archive_files
+    
 extract_tgz_and_find_files
+    
+get_adb_device_or_emu
+)
 class
 GeckoProfilerError
 (
@@ -209,7 +211,7 @@ self
 .
 device
 =
-ADBDevice
+get_adb_device_or_emu
 (
 )
         
@@ -968,7 +970,7 @@ self
 .
 device
 =
-ADBDevice
+get_adb_device_or_emu
 (
 )
         

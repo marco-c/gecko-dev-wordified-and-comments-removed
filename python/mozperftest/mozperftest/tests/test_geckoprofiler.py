@@ -334,7 +334,7 @@ system
 .
 geckoprofiler
 .
-ADBDevice
+get_adb_device_or_emu
 "
 new
 =
@@ -532,7 +532,7 @@ system
 .
 geckoprofiler
 .
-ADBDevice
+get_adb_device_or_emu
 "
 new
 =
@@ -642,7 +642,7 @@ system
 .
 geckoprofiler
 .
-ADBDevice
+get_adb_device_or_emu
 "
 new
 =
@@ -732,7 +732,7 @@ system
 .
 geckoprofiler
 .
-ADBDevice
+get_adb_device_or_emu
 "
 new
 =
@@ -861,7 +861,7 @@ system
 .
 geckoprofiler
 .
-ADBDevice
+get_adb_device_or_emu
 "
 new
 =
@@ -1147,7 +1147,7 @@ system
 .
 geckoprofiler
 .
-ADBDevice
+get_adb_device_or_emu
 "
 new
 =
@@ -1394,7 +1394,7 @@ system
 .
 geckoprofiler
 .
-ADBDevice
+get_adb_device_or_emu
 "
 new
 =
@@ -1517,7 +1517,7 @@ system
 .
 geckoprofiler
 .
-ADBDevice
+get_adb_device_or_emu
 "
 new
 =
@@ -1645,7 +1645,7 @@ system
 .
 geckoprofiler
 .
-ADBDevice
+get_adb_device_or_emu
 "
 new
 =
@@ -1759,7 +1759,7 @@ system
 .
 geckoprofiler
 .
-ADBDevice
+get_adb_device_or_emu
 "
 new
 =
@@ -2035,7 +2035,7 @@ system
 .
 geckoprofiler
 .
-ADBDevice
+get_adb_device_or_emu
 "
 new
 =
@@ -2204,7 +2204,7 @@ system
 .
 geckoprofiler
 .
-ADBDevice
+get_adb_device_or_emu
 "
 new
 =
@@ -2426,7 +2426,7 @@ system
 .
 geckoprofiler
 .
-ADBDevice
+get_adb_device_or_emu
 "
 new
 =
@@ -2593,7 +2593,7 @@ system
 .
 geckoprofiler
 .
-ADBDevice
+get_adb_device_or_emu
 "
 new
 =
@@ -2816,7 +2816,7 @@ system
 .
 geckoprofiler
 .
-ADBDevice
+get_adb_device_or_emu
 "
 new
 =

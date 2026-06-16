@@ -961,7 +961,7 @@ system
 .
 proxy
 .
-ADBDevice
+get_adb_device_or_emu
 "
 new
 =

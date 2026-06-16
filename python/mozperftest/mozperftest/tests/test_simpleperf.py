@@ -431,7 +431,7 @@ system
 .
 simpleperf
 .
-ADBDevice
+get_adb_device_or_emu
 "
 new
 =
@@ -717,7 +717,7 @@ system
 .
 simpleperf
 .
-ADBDevice
+get_adb_device_or_emu
 "
 new
 =
@@ -864,7 +864,7 @@ system
 .
 simpleperf
 .
-ADBDevice
+get_adb_device_or_emu
 "
 new
 =
@@ -1106,7 +1106,7 @@ system
 .
 simpleperf
 .
-ADBDevice
+get_adb_device_or_emu
 "
 new
 =
@@ -1320,7 +1320,7 @@ system
 .
 simpleperf
 .
-ADBDevice
+get_adb_device_or_emu
 "
 new
 =
@@ -1496,7 +1496,7 @@ system
 .
 simpleperf
 .
-ADBDevice
+get_adb_device_or_emu
 "
 new
 =
@@ -1686,7 +1686,7 @@ system
 .
 simpleperf
 .
-ADBDevice
+get_adb_device_or_emu
 "
 new
 =
@@ -1937,7 +1937,7 @@ system
 .
 simpleperf
 .
-ADBDevice
+get_adb_device_or_emu
 "
 new
 =
@@ -2047,7 +2047,7 @@ system
 .
 simpleperf
 .
-ADBDevice
+get_adb_device_or_emu
 "
 new
 =
@@ -2173,7 +2173,7 @@ system
 .
 simpleperf
 .
-ADBDevice
+get_adb_device_or_emu
 "
 new
 =
@@ -2329,7 +2329,7 @@ system
 .
 simpleperf
 .
-ADBDevice
+get_adb_device_or_emu
 "
 new
 =
@@ -2671,7 +2671,7 @@ system
 .
 simpleperf
 .
-ADBDevice
+get_adb_device_or_emu
 "
 new
 =
@@ -3471,7 +3471,7 @@ system
 .
 simpleperf
 .
-ADBDevice
+get_adb_device_or_emu
 "
 new
 =
@@ -3961,7 +3961,7 @@ system
 .
 simpleperf
 .
-ADBDevice
+get_adb_device_or_emu
 "
 new
 =
@@ -5022,7 +5022,7 @@ system
 .
 simpleperf
 .
-ADBDevice
+get_adb_device_or_emu
 "
 new
 =
