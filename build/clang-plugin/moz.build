@@ -127,6 +127,11 @@ ExplicitOperatorBoolChecker
 cpp
 "
 "
+FinalCycleCollectingIsupportsChecker
+.
+cpp
+"
+"
 GlobalVariableInitializationChecker
 .
 cpp

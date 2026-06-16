@@ -115,6 +115,11 @@ TestExplicitOperatorBool
 cpp
 "
 "
+TestFinalCycleCollectingIsupports
+.
+cpp
+"
+"
 TestGlobalClass
 .
 cpp
