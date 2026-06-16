@@ -80,9 +80,7 @@ github
 .
 com
 /
-nss
--
-dev
+mozilla
 /
 nss
 source
