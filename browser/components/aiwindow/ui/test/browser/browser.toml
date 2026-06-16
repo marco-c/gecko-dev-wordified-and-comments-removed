@@ -589,6 +589,13 @@ js
 ]
 [
 "
+browser_run_search_back_navigation
+.
+js
+"
+]
+[
+"
 browser_security_chat
 .
 js
