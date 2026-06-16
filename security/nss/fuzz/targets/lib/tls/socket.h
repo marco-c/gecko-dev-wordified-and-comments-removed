@@ -51,11 +51,11 @@ size_t
 len
 )
 :
-buf_
+mBuf
 (
 buf
 )
-len_
+mLen
 (
 len
 )
@@ -113,10 +113,10 @@ private
 const
 uint8_t
 *
-buf_
+mBuf
 ;
 size_t
-len_
+mLen
 ;
 }
 ;

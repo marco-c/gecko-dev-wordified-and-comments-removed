@@ -174,7 +174,7 @@ sources
 :
 [
 '
-client_config
+config
 .
 cc
 '
@@ -263,7 +263,7 @@ server_certs
 cc
 '
 '
-server_config
+config
 .
 cc
 '

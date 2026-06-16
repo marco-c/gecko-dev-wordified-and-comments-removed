@@ -3951,6 +3951,9 @@ algTag
 case
 SEC_OID_PKCS1_RSA_ENCRYPTION
 :
+case
+SEC_OID_PKCS1_RSA_PSS_SIGNATURE
+:
 prepare_rsa_priv_key_export_for_asn1
 (
 lpk

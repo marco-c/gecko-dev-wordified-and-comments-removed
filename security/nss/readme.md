@@ -105,13 +105,9 @@ github
 .
 com
 /
-nss
--
-dev
+mozilla
 /
 nss
-.
-git
 git
 clone
 https
