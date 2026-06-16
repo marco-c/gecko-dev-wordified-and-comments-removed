@@ -308,6 +308,13 @@ Bug
 ]
 [
 "
+browser_audiosession_state_transitions
+.
+js
+"
+]
+[
+"
 browser_audiosessiontype_compute
 .
 js
