@@ -54,7 +54,7 @@ IC_LOG
 .
 )
 \
-MOZ_LOG
+MOZ_LOG_FMT
 (
 GetICLog
 (
@@ -66,9 +66,7 @@ LogLevel
 :
 :
 Debug
-(
 __VA_ARGS__
-)
 )
 #
 endif
