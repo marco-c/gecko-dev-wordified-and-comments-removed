@@ -1000,6 +1000,16 @@ TransformStyle
 Translate
 }
 ;
+pub
+use
+self
+:
+:
+tree_counting
+:
+:
+TreeCountingFunction
+;
 #
 [
 cfg
@@ -1216,6 +1226,10 @@ time
 pub
 mod
 transform
+;
+pub
+mod
+tree_counting
 ;
 pub
 mod

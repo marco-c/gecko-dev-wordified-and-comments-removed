@@ -15378,6 +15378,9 @@ servo_arc
 smallvec
 "
 "
+static_prefs
+"
+"
 style
 "
 "
