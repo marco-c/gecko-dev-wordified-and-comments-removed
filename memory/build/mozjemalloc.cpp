@@ -4333,6 +4333,7 @@ i
 {
 MOZ_ASSERT
 (
+(
 aChunk
 -
 >
@@ -4343,11 +4344,11 @@ i
 .
 bits
 &
-(
-CHUNK_MAP_FRESH_MADVISED_OR_DECOMMITTED
-|
-CHUNK_MAP_DIRTY
+CHUNK_MAP_ALLOCATED
 )
+=
+=
+0
 )
 ;
 MOZ_ASSERT
