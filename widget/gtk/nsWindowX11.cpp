@@ -1817,6 +1817,15 @@ GetX11Window
 )
 )
 ;
+}
+void
+nsWindowX11
+:
+:
+ConfigureToplevelWindowNative
+(
+)
+{
 SetCompositorHint
 (
 GTK_WIDGET_COMPOSITED_ENABLED
