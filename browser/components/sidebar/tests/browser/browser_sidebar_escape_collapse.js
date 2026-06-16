@@ -88,6 +88,15 @@ waitUntilStable
 (
 )
 ;
+Services
+.
+prefs
+.
+clearUserPref
+(
+SIDEBAR_VISIBILITY_PREF
+)
+;
 await
 SpecialPowers
 .
