@@ -844,6 +844,10 @@ onCloseTabGroupClick
 =
 {
 }
+onTabGroupOnboardingDismiss
+=
+{
+}
 )
 }
 }
