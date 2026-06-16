@@ -102,6 +102,8 @@ name
 mozac_feature_passwords_importer_dialog_title
 "
 >
+Importowanie
+hase
 <
 /
 string
@@ -129,6 +131,20 @@ name
 mozac_feature_passwords_importer_dialog_description
 "
 >
+Nie
+wychod
+z
+\
+u00a0tego
+ekranu
+.
+To
+powinno
+zaj
+tylko
+kilka
+sekund
+.
 <
 /
 string
@@ -160,6 +176,7 @@ name
 mozac_feature_passwords_importer_dialog_cancel
 "
 >
+Anuluj
 <
 /
 string
