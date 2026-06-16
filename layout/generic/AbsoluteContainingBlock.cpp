@@ -10372,6 +10372,16 @@ TopLeft
 )
 )
 ;
+if
+(
+aKidFrame
+-
+>
+FrameMaintainsOverflow
+(
+)
+)
+{
 aKidFrame
 -
 >
@@ -10379,6 +10389,7 @@ UpdateOverflow
 (
 )
 ;
+}
 }
 (
 )
