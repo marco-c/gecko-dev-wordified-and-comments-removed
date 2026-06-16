@@ -1472,7 +1472,7 @@ index
 )
 ;
 static
-bool
+void
 PatchConstantPoolLoad
 (
 void

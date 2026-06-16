@@ -2816,7 +2816,7 @@ index
 )
 ;
 }
-bool
+void
 MozBaseAssembler
 :
 :
@@ -2890,9 +2890,6 @@ SetImmLLiteral
 (
 source
 )
-;
-return
-false
 ;
 }
 void
