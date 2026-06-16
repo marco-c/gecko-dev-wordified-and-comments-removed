@@ -30304,7 +30304,7 @@ url_extra_data
 ParsingMode
 :
 :
-DEFAULT
+DISALLOW_UNITLESS_ZERO_LENGTH
 QuirksMode
 :
 :
