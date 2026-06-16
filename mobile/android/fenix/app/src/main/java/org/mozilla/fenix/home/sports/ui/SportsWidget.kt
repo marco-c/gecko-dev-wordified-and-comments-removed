@@ -319,7 +319,7 @@ home
 .
 sports
 .
-WORLD_CUP_KICKOFF_UTC
+regionGrouping
 import
 org
 .
@@ -331,7 +331,7 @@ home
 .
 sports
 .
-regionGrouping
+worldCupKickoffCountdownTarget
 import
 org
 .
@@ -857,7 +857,9 @@ CountdownPromoCard
 (
 dateInUtc
 =
-WORLD_CUP_KICKOFF_UTC
+worldCupKickoffCountdownTarget
+(
+)
 actionButtonLabelResId
 =
 R
@@ -1918,7 +1920,9 @@ CountdownPromoCard
 (
 dateInUtc
 =
-WORLD_CUP_KICKOFF_UTC
+worldCupKickoffCountdownTarget
+(
+)
 actionButtonLabelResId
 =
 R
