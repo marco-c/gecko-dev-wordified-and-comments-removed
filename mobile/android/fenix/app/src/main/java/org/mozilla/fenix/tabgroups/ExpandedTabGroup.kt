@@ -785,6 +785,9 @@ true
 dragAndDropEnabled
 =
 false
+reorderingEnabled
+=
+false
 displayTabGroupOnboarding
 =
 false
