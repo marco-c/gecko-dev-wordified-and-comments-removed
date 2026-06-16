@@ -269,7 +269,6 @@ aVisitor
 )
 override
 ;
-MOZ_CAN_RUN_SCRIPT
 nsresult
 PostHandleEvent
 (
@@ -1059,7 +1058,6 @@ mForm
 ;
 }
 ;
-MOZ_CAN_RUN_SCRIPT
 nsresult
 DoReset
 (
