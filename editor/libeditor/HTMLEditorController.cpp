@@ -176,14 +176,6 @@ aCommandTable
 {
 NS_REGISTER_COMMAND
 (
-PasteNoFormattingCommand
-"
-cmd_pasteNoFormatting
-"
-)
-;
-NS_REGISTER_COMMAND
-(
 IndentCommand
 "
 cmd_indent
