@@ -144,6 +144,13 @@ started
 =
 true
 }
+override
+fun
+onEntryPointShown
+(
+)
+{
+}
 }
 class
 FakeViewGroup
