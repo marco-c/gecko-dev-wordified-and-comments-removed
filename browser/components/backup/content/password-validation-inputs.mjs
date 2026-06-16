@@ -1136,13 +1136,6 @@ inputs
 -
 wrapper
 "
-aria
--
-live
-=
-"
-polite
-"
 >
 <
 form
@@ -1293,8 +1286,6 @@ describedby
 password
 -
 rules
--
-tooltip
 "
 input
 =
