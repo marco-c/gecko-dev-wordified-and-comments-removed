@@ -140,6 +140,13 @@ Bug
 ]
 [
 "
+browser_anonymous_headless_extractor
+.
+js
+"
+]
+[
+"
 browser_page_metadata
 .
 js
