@@ -160,6 +160,18 @@ OPTIONAL_PACKAGES
 gtest
 "
 ]
+HARNESSES_NEEDING_TRAINHOP
+=
+{
+    
+"
+mochitest
+"
+    
+"
+trainhop
+"
+}
 def
 parse_args
 (
@@ -578,6 +590,12 @@ zst
 "
 )
         
+if
+harness
+in
+HARNESSES_NEEDING_TRAINHOP
+:
+            
 harness_requirements
 [
 harness
