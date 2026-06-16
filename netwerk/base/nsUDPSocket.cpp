@@ -6067,11 +6067,6 @@ if
 onSTSThread
 )
 {
-if
-(
-mAttached
-)
-{
 nsCOMPtr
 <
 nsIRunnable
@@ -6115,7 +6110,6 @@ rv
 return
 NS_OK
 ;
-}
 }
 if
 (
