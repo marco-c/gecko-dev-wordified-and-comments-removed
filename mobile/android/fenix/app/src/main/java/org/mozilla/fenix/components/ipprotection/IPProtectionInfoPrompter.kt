@@ -512,7 +512,7 @@ AppAction
 .
 SnackbarAction
 .
-ShowSnackbar
+ShowIPProtectionDataLimitReachedSnackbar
 (
 errorMessages
 .

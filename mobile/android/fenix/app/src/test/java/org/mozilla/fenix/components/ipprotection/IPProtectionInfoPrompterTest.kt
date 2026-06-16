@@ -356,7 +356,7 @@ assertIs
 <
 SnackbarState
 .
-ShowSnackbar
+IPProtectionDataLimitReached
 >
 (
 snackbarState
@@ -368,7 +368,7 @@ errorMessages
 dataLimitReached
 snackbarState
 .
-title
+message
 )
 }
 Test
