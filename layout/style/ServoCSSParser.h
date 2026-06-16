@@ -191,6 +191,16 @@ aValue
 ;
 static
 bool
+IsValidCSSImage
+(
+const
+nsACString
+&
+aValue
+)
+;
+static
+bool
 ComputeColor
 (
 const

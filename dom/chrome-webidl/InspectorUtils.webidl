@@ -406,6 +406,13 @@ UTF8String
 colorString
 )
 ;
+boolean
+isValidCSSImage
+(
+UTF8String
+imageString
+)
+;
 [
 Throws
 ]
