@@ -161,7 +161,7 @@ WebCompatReporterAction
 s
 that
 are
-dispatch
+dispatched
 to
 the
 *
