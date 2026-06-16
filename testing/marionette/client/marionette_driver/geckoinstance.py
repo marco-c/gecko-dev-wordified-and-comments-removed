@@ -1042,6 +1042,16 @@ off
 "
         
 "
+security
+.
+webauthn
+.
+related_origin_requests_mode
+"
+:
+1
+        
+"
 services
 .
 settings
