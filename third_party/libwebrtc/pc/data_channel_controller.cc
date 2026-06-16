@@ -2568,13 +2568,11 @@ RTCError
 :
 InvalidParameter
 (
-)
-<
-<
 "
 Invalid
 DataChannelInit
 "
+)
 )
 ;
 }

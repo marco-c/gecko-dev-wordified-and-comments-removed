@@ -1755,12 +1755,10 @@ RTCError
 :
 InvalidParameter
 (
-)
-<
-<
 "
 BuildStringLog
 "
+)
 )
 ;
 }
