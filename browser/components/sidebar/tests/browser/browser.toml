@@ -130,6 +130,13 @@ js
 ]
 [
 "
+browser_bookmarks_sidebar_root_folders
+.
+js
+"
+]
+[
+"
 browser_customize_sidebar
 .
 js
