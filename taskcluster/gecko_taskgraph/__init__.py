@@ -56,7 +56,7 @@ gecko_taskgraph
 .
 config
 import
-graph_config_schema
+GraphConfigSchema
 GECKO
 =
 os
@@ -113,7 +113,7 @@ taskgraph_config
 .
 graph_config_schema
 =
-graph_config_schema
+GraphConfigSchema
 docker
 .
 RUN_TASK_FILES
@@ -353,6 +353,11 @@ gecko_taskgraph
 parameters
 import
 register_parameters
+    
+from
+gecko_taskgraph
+import
+task_context
     
 from
 gecko_taskgraph

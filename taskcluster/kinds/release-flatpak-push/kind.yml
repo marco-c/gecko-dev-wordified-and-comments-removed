@@ -173,6 +173,14 @@ release
 type
 :
 release_type
+from
+-
+custom
+:
+-
+release
+-
+level
 substitution
 -
 fields
@@ -181,6 +189,10 @@ fields
 worker
 .
 channel
+-
+worker
+-
+type
 treeherder
 :
 kind

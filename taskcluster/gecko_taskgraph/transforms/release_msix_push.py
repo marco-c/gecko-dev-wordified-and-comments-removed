@@ -38,8 +38,6 @@ util
 schema
 import
 Schema
-optionally_keyed_by
-resolve_keyed_by
 from
 gecko_taskgraph
 .
@@ -135,18 +133,7 @@ run_on_projects
     
 worker_type
 :
-optionally_keyed_by
-(
-"
-release
--
-level
-"
 str
-use_msgspec
-=
-True
-)
     
 worker
 :
@@ -275,45 +262,6 @@ job
 dependencies
 "
 ]
-        
-)
-        
-resolve_keyed_by
-(
-            
-job
-            
-"
-worker
--
-type
-"
-            
-item_name
-=
-job
-[
-"
-name
-"
-]
-            
-*
-*
-{
-"
-release
--
-level
-"
-:
-release_level
-(
-config
-.
-params
-)
-}
         
 )
         

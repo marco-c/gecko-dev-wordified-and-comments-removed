@@ -192,6 +192,14 @@ release
 type
 :
 release_type
+from
+-
+custom
+:
+-
+release
+-
+level
 substitution
 -
 fields
@@ -206,6 +214,10 @@ worker
 publish
 -
 mode
+-
+worker
+-
+type
 treeherder
 :
 platform
