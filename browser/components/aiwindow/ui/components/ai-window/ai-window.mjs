@@ -10295,7 +10295,15 @@ inputField
 .
 showPlaceholderAnimation
 =
-true
+this
+.
+mode
+=
+=
+=
+MODE
+.
+FULLPAGE
 ;
 }
 }

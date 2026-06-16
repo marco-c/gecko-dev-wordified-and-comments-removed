@@ -474,6 +474,13 @@ js
 ]
 [
 "
+browser_aiwindow_smartbar_placeholder
+.
+js
+"
+]
+[
+"
 browser_aiwindow_smartbar_suggestions
 .
 js
