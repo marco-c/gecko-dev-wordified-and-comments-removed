@@ -146,6 +146,7 @@ time
 isFrameSwitching
 hasNativeConsoleAPI
 newURI
+isErrorPage
 }
 =
 {
@@ -254,6 +255,12 @@ complete
 hasNativeConsoleAPI
 :
 null
+isErrorPage
+:
+isErrorPage
+|
+|
+undefined
 }
 ]
 )
