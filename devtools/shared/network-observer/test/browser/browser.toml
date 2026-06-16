@@ -131,6 +131,15 @@ if
 =
 [
 "
+asan
+"
+#
+Disabled
+for
+frequent
+leaks
+.
+"
 os
 =
 =
@@ -242,7 +251,7 @@ browser_networkobserver_serviceworker
 js
 "
 ]
-fail
+skip
 -
 if
 =
