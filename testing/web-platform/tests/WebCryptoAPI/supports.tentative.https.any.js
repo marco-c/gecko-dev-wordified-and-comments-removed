@@ -31,6 +31,9 @@ sign
 '
 verify
 '
+'
+getPublicKey
+'
 ]
 keyGenParams
 :
@@ -121,6 +124,9 @@ sign
 '
 '
 verify
+'
+'
+getPublicKey
 '
 ]
 keyGenParams
@@ -210,6 +216,9 @@ encrypt
 '
 decrypt
 '
+'
+getPublicKey
+'
 ]
 keyGenParams
 :
@@ -291,6 +300,9 @@ sign
 '
 verify
 '
+'
+getPublicKey
+'
 ]
 keyGenParams
 :
@@ -355,6 +367,9 @@ importKey
 '
 '
 deriveBits
+'
+'
+getPublicKey
 '
 ]
 keyGenParams
@@ -446,6 +461,9 @@ sign
 '
 verify
 '
+'
+getPublicKey
+'
 ]
 keyGenParams
 :
@@ -474,6 +492,9 @@ importKey
 '
 '
 deriveBits
+'
+'
+getPublicKey
 '
 ]
 keyGenParams
@@ -962,6 +983,9 @@ deriveBits
 '
 '
 digest
+'
+'
+getPublicKey
 '
 ]
 ;
