@@ -3731,6 +3731,13 @@ webkit
 scrollbar
 "
 :
+case
+"
+:
+:
+checkmark
+"
+:
 return
 false
 ;
