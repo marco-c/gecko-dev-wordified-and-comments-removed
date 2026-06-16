@@ -798,8 +798,8 @@ WEB_AUDIO_API_LOG
 speex_resampler_set_rate
 failed
 :
-%
-i
+{
+}
 "
 result
 )
