@@ -2777,6 +2777,13 @@ js
 ]
 [
 "
+test_ext_runtime_getDocumentId
+.
+js
+"
+]
+[
+"
 test_ext_runtime_getPlatformInfo
 .
 js

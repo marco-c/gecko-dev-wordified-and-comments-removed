@@ -130,6 +130,11 @@ connect
 "
 runtime
 .
+getDocumentId
+"
+"
+runtime
+.
 getFrameId
 "
 "
