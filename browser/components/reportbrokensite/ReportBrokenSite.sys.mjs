@@ -3705,7 +3705,7 @@ e
 this
 .
 #
-maybeDisableProgression
+onURLEdited
 (
 e
 )
@@ -4594,7 +4594,7 @@ currentTabURL
 ;
 }
 #
-maybeDisableProgression
+onURLEdited
 (
 {
 target
@@ -4617,9 +4617,13 @@ document
 ;
 state
 .
-updateProgressDisabledState
-(
-)
+url
+=
+target
+.
+input
+.
+value
 ;
 }
 #
