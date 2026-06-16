@@ -361,7 +361,7 @@ preventDefault
 ;
 this
 .
-_openMenu
+openMenu
 (
 {
 screenX
@@ -383,7 +383,8 @@ target
 )
 ;
 }
-_copyAttributeLink
+#
+copyAttributeLink
 (
 link
 )
@@ -424,7 +425,8 @@ error
 )
 ;
 }
-_copyCssPath
+#
+copyCssPath
 (
 )
 {
@@ -477,7 +479,8 @@ error
 )
 ;
 }
-_copyImageDataUri
+#
+copyImageDataUri
 (
 )
 {
@@ -517,7 +520,8 @@ copyImageDataUri
 ;
 }
 }
-_copyInnerHTML
+#
+copyInnerHTML
 (
 )
 {
@@ -530,7 +534,8 @@ copyInnerHTML
 )
 ;
 }
-_copyOuterHTML
+#
+copyOuterHTML
 (
 )
 {
@@ -543,7 +548,8 @@ copyOuterHTML
 )
 ;
 }
-_copyUniqueSelector
+#
+copyUniqueSelector
 (
 )
 {
@@ -596,7 +602,8 @@ error
 )
 ;
 }
-_copyXPath
+#
+copyXPath
 (
 )
 {
@@ -649,7 +656,8 @@ error
 )
 ;
 }
-_deleteNode
+#
+deleteNode
 (
 )
 {
@@ -716,7 +724,8 @@ nodeFront
 ;
 }
 }
-_duplicateNode
+#
+duplicateNode
 (
 )
 {
@@ -788,7 +797,8 @@ error
 )
 ;
 }
-_editHTML
+#
+editHTML
 (
 )
 {
@@ -821,7 +831,8 @@ nodeFront
 )
 ;
 }
-_jumpToCustomElementDefinition
+#
+jumpToCustomElementDefinition
 (
 )
 {
@@ -856,7 +867,8 @@ show_custom_element
 )
 ;
 }
-_onAddAttribute
+#
+onAddAttribute
 (
 )
 {
@@ -883,7 +895,8 @@ addAttribute
 )
 ;
 }
-_onCopyAttributeValue
+#
+onCopyAttributeValue
 (
 )
 {
@@ -899,13 +912,15 @@ value
 )
 ;
 }
-_onCopyLink
+#
+onCopyLink
 (
 )
 {
 this
 .
-_copyAttributeLink
+#
+copyAttributeLink
 (
 this
 .
@@ -917,7 +932,8 @@ link
 )
 ;
 }
-_onEditAttribute
+#
+onEditAttribute
 (
 )
 {
@@ -949,7 +965,8 @@ name
 )
 ;
 }
-_onFollowLink
+#
+onFollowLink
 (
 )
 {
@@ -986,7 +1003,8 @@ link
 )
 ;
 }
-_onRemoveAttribute
+#
+onRemoveAttribute
 (
 )
 {
@@ -1018,7 +1036,8 @@ name
 )
 ;
 }
-_pasteAdjacentHTML
+#
+pasteAdjacentHTML
 (
 position
 )
@@ -1028,7 +1047,8 @@ content
 =
 this
 .
-_getClipboardContentForPaste
+#
+getClipboardContentForPaste
 (
 )
 ;
@@ -1075,7 +1095,8 @@ content
 )
 ;
 }
-_pasteInnerHTML
+#
+pasteInnerHTML
 (
 )
 {
@@ -1084,7 +1105,8 @@ content
 =
 this
 .
-_getClipboardContentForPaste
+#
+getClipboardContentForPaste
 (
 )
 ;
@@ -1149,7 +1171,8 @@ oldContent
 )
 ;
 }
-_pasteOuterHTML
+#
+pasteOuterHTML
 (
 )
 {
@@ -1158,7 +1181,8 @@ content
 =
 this
 .
-_getClipboardContentForPaste
+#
+getClipboardContentForPaste
 (
 )
 ;
@@ -1224,7 +1248,8 @@ oldContent
 ;
 }
 async
-_showAccessibilityProperties
+#
+showAccessibilityProperties
 (
 )
 {
@@ -1283,7 +1308,8 @@ await
 onSelected
 ;
 }
-_showDOMProperties
+#
+showDOMProperties
 (
 )
 {
@@ -1340,7 +1366,8 @@ true
 ;
 }
 async
-_useInConsole
+#
+useInConsole
 (
 )
 {
@@ -1480,7 +1507,8 @@ ready
 )
 ;
 }
-_getAttributesSubmenu
+#
+getAttributesSubmenu
 (
 isEditableElement
 )
@@ -1574,7 +1602,8 @@ click
 >
 this
 .
-_onAddAttribute
+#
+onAddAttribute
 (
 )
 }
@@ -1646,7 +1675,8 @@ click
 >
 this
 .
-_onCopyAttributeValue
+#
+onCopyAttributeValue
 (
 )
 }
@@ -1718,7 +1748,8 @@ click
 >
 this
 .
-_onEditAttribute
+#
+onEditAttribute
 (
 )
 }
@@ -1790,7 +1821,8 @@ click
 >
 this
 .
-_onRemoveAttribute
+#
+onRemoveAttribute
 (
 )
 }
@@ -1801,7 +1833,8 @@ return
 attributesSubmenu
 ;
 }
-_getClipboardContentForPaste
+#
+getClipboardContentForPaste
 (
 )
 {
@@ -1836,7 +1869,8 @@ return
 null
 ;
 }
-_getCopySubmenu
+#
+getCopySubmenu
 (
 markupContainer
 isElement
@@ -1908,7 +1942,8 @@ click
 >
 this
 .
-_copyInnerHTML
+#
+copyInnerHTML
 (
 )
 }
@@ -1968,7 +2003,8 @@ click
 >
 this
 .
-_copyOuterHTML
+#
+copyOuterHTML
 (
 )
 }
@@ -2028,7 +2064,8 @@ click
 >
 this
 .
-_copyUniqueSelector
+#
+copyUniqueSelector
 (
 )
 }
@@ -2088,7 +2125,8 @@ click
 >
 this
 .
-_copyCssPath
+#
+copyCssPath
 (
 )
 }
@@ -2148,7 +2186,8 @@ click
 >
 this
 .
-_copyXPath
+#
+copyXPath
 (
 )
 }
@@ -2208,7 +2247,8 @@ click
 >
 this
 .
-_copyImageDataUri
+#
+copyImageDataUri
 (
 )
 }
@@ -2219,7 +2259,8 @@ return
 copySubmenu
 ;
 }
-_getDOMBreakpointSubmenu
+#
+getDOMBreakpointSubmenu
 (
 isElement
 )
@@ -2435,7 +2476,8 @@ return
 menu
 ;
 }
-_getNodeLinkMenuItems
+#
+getNodeLinkMenuItems
 (
 )
 {
@@ -2468,7 +2510,8 @@ click
 >
 this
 .
-_onFollowLink
+#
+onFollowLink
 (
 )
 }
@@ -2503,7 +2546,8 @@ click
 >
 this
 .
-_onCopyLink
+#
+onCopyLink
 (
 )
 }
@@ -2773,7 +2817,8 @@ linkCopy
 ]
 ;
 }
-_getPasteSubmenu
+#
+getPasteSubmenu
 (
 isElement
 isFragment
@@ -2797,7 +2842,8 @@ isElement
 &
 this
 .
-_getClipboardContentForPaste
+#
+getClipboardContentForPaste
 (
 )
 ;
@@ -2929,7 +2975,8 @@ click
 >
 this
 .
-_pasteInnerHTML
+#
+pasteInnerHTML
 (
 )
 }
@@ -2993,7 +3040,8 @@ click
 >
 this
 .
-_pasteOuterHTML
+#
+pasteOuterHTML
 (
 )
 }
@@ -3052,7 +3100,8 @@ click
 >
 this
 .
-_pasteAdjacentHTML
+#
+pasteAdjacentHTML
 (
 "
 beforeBegin
@@ -3114,7 +3163,8 @@ click
 >
 this
 .
-_pasteAdjacentHTML
+#
+pasteAdjacentHTML
 (
 "
 afterEnd
@@ -3176,7 +3226,8 @@ click
 >
 this
 .
-_pasteAdjacentHTML
+#
+pasteAdjacentHTML
 (
 "
 afterBegin
@@ -3238,7 +3289,8 @@ click
 >
 this
 .
-_pasteAdjacentHTML
+#
+pasteAdjacentHTML
 (
 "
 beforeEnd
@@ -3252,7 +3304,8 @@ return
 pasteSubmenu
 ;
 }
-_createPseudoClassMenuItem
+#
+createPseudoClassMenuItem
 (
 pseudoClass
 enabled
@@ -3351,7 +3404,8 @@ return
 menuitem
 ;
 }
-_getPseudoClassSubmenu
+#
+getPseudoClassSubmenu
 (
 )
 {
@@ -3388,7 +3442,8 @@ append
 (
 this
 .
-_createPseudoClassMenuItem
+#
+createPseudoClassMenuItem
 (
 name
 enabled
@@ -3444,7 +3499,8 @@ append
 (
 this
 .
-_createPseudoClassMenuItem
+#
+createPseudoClassMenuItem
 (
 pseudo
 enabled
@@ -3457,7 +3513,8 @@ return
 menu
 ;
 }
-_getEditMarkupString
+#
+getEditMarkupString
 (
 )
 {
@@ -3520,7 +3577,7 @@ inspectorXMLEdit
 "
 ;
 }
-_openMenu
+openMenu
 (
 {
 target
@@ -3710,7 +3767,8 @@ getStr
 {
 this
 .
-_getEditMarkupString
+#
+getEditMarkupString
 (
 )
 }
@@ -3750,7 +3808,8 @@ click
 >
 this
 .
-_editHTML
+#
+editHTML
 (
 )
 }
@@ -3866,7 +3925,8 @@ click
 >
 this
 .
-_duplicateNode
+#
+duplicateNode
 (
 )
 }
@@ -3937,7 +3997,8 @@ click
 >
 this
 .
-_deleteNode
+#
+deleteNode
 (
 )
 }
@@ -3980,7 +4041,8 @@ submenu
 :
 this
 .
-_getAttributesSubmenu
+#
+getAttributesSubmenu
 (
 isElement
 &
@@ -4044,7 +4106,8 @@ submenu
 :
 this
 .
-_getDOMBreakpointSubmenu
+#
+getDOMBreakpointSubmenu
 (
 isElement
 )
@@ -4101,7 +4164,8 @@ click
 >
 this
 .
-_useInConsole
+#
+useInConsole
 (
 )
 }
@@ -4145,7 +4209,8 @@ click
 >
 this
 .
-_showDOMProperties
+#
+showDOMProperties
 (
 )
 }
@@ -4209,7 +4274,8 @@ click
 >
 this
 .
-_showAccessibilityProperties
+#
+showAccessibilityProperties
 (
 )
 }
@@ -4265,7 +4331,8 @@ click
 >
 this
 .
-_jumpToCustomElementDefinition
+#
+jumpToCustomElementDefinition
 (
 )
 }
@@ -4314,7 +4381,8 @@ submenu
 :
 this
 .
-_getPseudoClassSubmenu
+#
+getPseudoClassSubmenu
 (
 )
 }
@@ -4489,7 +4557,8 @@ submenu
 :
 this
 .
-_getCopySubmenu
+#
+getCopySubmenu
 (
 markupContainer
 isElement
@@ -4523,7 +4592,8 @@ submenu
 :
 this
 .
-_getPasteSubmenu
+#
+getPasteSubmenu
 (
 isElement
 isFragment
@@ -4687,7 +4757,8 @@ nodeLinkMenuItems
 =
 this
 .
-_getNodeLinkMenuItems
+#
+getNodeLinkMenuItems
 (
 )
 ;
