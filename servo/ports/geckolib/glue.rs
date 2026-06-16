@@ -56445,7 +56445,7 @@ current_column
 for
 (
 byte_index
-_char
+char
 )
 in
 css_text
@@ -56461,7 +56461,7 @@ char_indices
 {
 if
 current_column
-=
+>
 =
 column
 {
@@ -56477,7 +56477,13 @@ byte_index
 current_column
 +
 =
-1
+char
+.
+len_utf16
+(
+)
+as
+u32
 ;
 }
 None
