@@ -151,13 +151,11 @@ loader
 :
 LoadContextBase
 )
-MOZ_ASSERT
-(
-!
 tmp
 -
 >
-mCompileOrDecodeTask
+MaybeCancelOffThreadScript
+(
 )
 ;
 tmp
@@ -334,6 +332,10 @@ MOZ_ASSERT
 NS_IsMainThread
 (
 )
+)
+;
+MaybeCancelOffThreadScript
+(
 )
 ;
 MOZ_DIAGNOSTIC_ASSERT
