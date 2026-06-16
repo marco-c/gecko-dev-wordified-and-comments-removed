@@ -6357,12 +6357,14 @@ SelectorFlags
 )
 -
 >
-Vec
+Box
 <
+[
 RelativeSelector
 <
 Impl
 >
+]
 >
 {
 let
@@ -6908,10 +6910,6 @@ specificity
 mut
 flags
 forbidden_flags
-)
-.
-into_boxed_slice
-(
 )
 )
 Host
