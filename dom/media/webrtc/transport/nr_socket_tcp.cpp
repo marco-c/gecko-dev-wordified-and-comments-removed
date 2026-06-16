@@ -344,8 +344,10 @@ R_FAILED
 }
 mWebrtcTCPSocket
 =
-new
+MakeRefPtr
+<
 WebrtcTCPSocketWrapper
+>
 (
 this
 )

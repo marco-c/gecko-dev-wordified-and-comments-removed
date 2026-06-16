@@ -674,8 +674,10 @@ nullptr
 ;
 }
 return
-new
+MakeRefPtr
+<
 DtlsIdentity
+>
 (
 UniqueSECKEYPrivateKey
 (
@@ -1348,8 +1350,10 @@ true
 )
 ;
 return
-new
+MakeRefPtr
+<
 DtlsIdentity
+>
 (
 std
 :

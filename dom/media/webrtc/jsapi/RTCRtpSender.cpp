@@ -882,8 +882,10 @@ AUDIO
 {
 mDtmf
 =
-new
+MakeRefPtr
+<
 RTCDTMFSender
+>
 (
 aWindow
 mTransceiver

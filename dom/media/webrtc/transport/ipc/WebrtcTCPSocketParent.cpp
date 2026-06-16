@@ -391,8 +391,10 @@ this
 ;
 mChannel
 =
-new
+MakeRefPtr
+<
 WebrtcTCPSocket
+>
 (
 this
 )
