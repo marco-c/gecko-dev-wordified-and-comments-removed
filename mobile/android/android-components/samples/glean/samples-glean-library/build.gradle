@@ -169,6 +169,8 @@ getDefaultProguardFile
 proguard
 -
 android
+-
+optimize
 .
 txt
 '
