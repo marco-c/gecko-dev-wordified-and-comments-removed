@@ -6,11 +6,6 @@ define
 XSIMD_NUMERICAL_CONSTANT_HPP
 #
 include
-<
-limits
->
-#
-include
 "
 .
 .
@@ -21,6 +16,11 @@ xsimd_utils
 .
 hpp
 "
+#
+include
+<
+limits
+>
 namespace
 xsimd
 {

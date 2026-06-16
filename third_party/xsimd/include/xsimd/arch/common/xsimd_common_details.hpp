@@ -6,11 +6,6 @@ define
 XSIMD_COMMON_DETAILS_HPP
 #
 include
-<
-complex
->
-#
-include
 "
 .
 .
@@ -64,6 +59,11 @@ xsimd_constants
 .
 hpp
 "
+#
+include
+<
+complex
+>
 namespace
 xsimd
 {

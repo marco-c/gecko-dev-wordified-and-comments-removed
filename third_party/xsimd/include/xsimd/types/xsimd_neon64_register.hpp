@@ -7,6 +7,8 @@ XSIMD_NEON64_REGISTER_HPP
 #
 include
 "
+.
+/
 xsimd_neon_register
 .
 hpp

@@ -15,7 +15,7 @@ include
 /
 config
 /
-xsimd_inline
+xsimd_macros
 .
 hpp
 "

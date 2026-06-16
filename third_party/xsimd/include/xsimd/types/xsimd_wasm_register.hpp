@@ -7,6 +7,8 @@ XSIMD_WASM_REGISTER_HPP
 #
 include
 "
+.
+/
 xsimd_common_arch
 .
 hpp
@@ -14,6 +16,8 @@ hpp
 #
 include
 "
+.
+/
 xsimd_register
 .
 hpp
