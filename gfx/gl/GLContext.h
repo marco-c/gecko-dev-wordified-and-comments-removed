@@ -321,6 +321,7 @@ blend_minmax
 clear_buffers
 copy_buffer
 copy_image
+debug
 depth_clamp
 depth_texture
 draw_buffers
