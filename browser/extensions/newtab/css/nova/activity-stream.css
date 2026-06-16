@@ -318,7 +318,7 @@ color
 -
 gray
 -
-75
+70
 )
 )
 ;
@@ -354,7 +354,7 @@ color
 -
 gray
 -
-60
+65
 )
 )
 ;
@@ -563,7 +563,7 @@ color
 -
 gray
 -
-50
+45
 )
 )
 ;
@@ -597,7 +597,7 @@ color
 -
 gray
 -
-60
+55
 )
 )
 ;
@@ -643,6 +643,10 @@ color
 -
 interactive
 :
+light
+-
+dark
+(
 var
 (
 -
@@ -651,7 +655,18 @@ color
 -
 gray
 -
-40
+35
+)
+var
+(
+-
+-
+color
+-
+gray
+-
+45
+)
 )
 ;
 -
@@ -686,7 +701,7 @@ color
 -
 gray
 -
-50
+60
 )
 )
 ;
