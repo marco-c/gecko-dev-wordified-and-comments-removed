@@ -1600,6 +1600,15 @@ rule_cache
 &
 mut
 conditions
+&
+mut
+self
+.
+context
+.
+thread_local
+.
+tree_counting_caches
 )
 ;
 self
