@@ -174,6 +174,8 @@ client
 \
 rsync
 \
+unzip
+\
 wget
 mkdir
 -
