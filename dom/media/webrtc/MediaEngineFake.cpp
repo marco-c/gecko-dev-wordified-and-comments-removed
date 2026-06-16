@@ -3388,8 +3388,10 @@ MediaSourceEnum
 Camera
 :
 return
-new
+MakeRefPtr
+<
 MediaEngineFakeVideoSource
+>
 (
 )
 ;
@@ -3400,8 +3402,10 @@ MediaSourceEnum
 Microphone
 :
 return
-new
+MakeRefPtr
+<
 MediaEngineFakeAudioSource
+>
 (
 )
 ;
@@ -3489,8 +3493,10 @@ MediaSourceEnum
 Microphone
 :
 return
-new
+MakeRefPtr
+<
 MediaEngineFakeAudioSource
+>
 (
 )
 ;

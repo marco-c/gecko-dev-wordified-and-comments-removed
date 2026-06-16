@@ -1681,8 +1681,10 @@ mMediaSource
 )
 {
 return
-new
+MakeRefPtr
+<
 MediaEngineRemoteVideoSource
+>
 (
 aMediaDevice
 )
@@ -1703,8 +1705,10 @@ MediaSourceEnum
 AudioCapture
 :
 return
-new
+MakeRefPtr
+<
 MediaEngineWebRTCAudioCaptureSource
+>
 (
 aMediaDevice
 )
@@ -1716,8 +1720,10 @@ MediaSourceEnum
 Microphone
 :
 return
-new
+MakeRefPtr
+<
 MediaEngineWebRTCMicrophoneSource
+>
 (
 aMediaDevice
 )
