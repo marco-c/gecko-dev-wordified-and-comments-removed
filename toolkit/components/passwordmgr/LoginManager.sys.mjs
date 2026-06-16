@@ -1455,6 +1455,15 @@ properties
 ;
 }
 }
+lazy
+.
+LoginHelper
+.
+checkLoginValues
+(
+login
+)
+;
 }
 /
 *
