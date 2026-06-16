@@ -26,7 +26,7 @@ defaultBrowserCheckCount
 "
 #
 define
-BRAND_PROPERTIES
+SHELL_BRAND_PROPERTIES_URI
 "
 chrome
 :
