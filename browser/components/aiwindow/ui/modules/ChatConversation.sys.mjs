@@ -2434,7 +2434,7 @@ if
 (
 currentMessage
 .
-_pendingMemoryIds
+memoriesApplied
 ?
 .
 length
@@ -2456,14 +2456,9 @@ Set
 (
 currentMessage
 .
-_pendingMemoryIds
+memoriesApplied
 )
 )
-;
-delete
-currentMessage
-.
-_pendingMemoryIds
 ;
 this
 .

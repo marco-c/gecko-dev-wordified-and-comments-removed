@@ -1451,16 +1451,9 @@ TOKEN_LABELS
 .
 EXISTING_MEMORY
 :
-(
 this
 .
-_pendingMemoryIds
-?
-?
-=
-[
-]
-)
+memoriesApplied
 .
 push
 (
