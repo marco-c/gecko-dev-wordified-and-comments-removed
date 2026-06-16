@@ -16036,13 +16036,6 @@ false
 -
 name
 :
-WasmStoreInstance
-gen_boilerplate
-:
-false
--
-name
-:
 WasmHeapReg
 gen_boilerplate
 :
