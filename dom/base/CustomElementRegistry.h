@@ -966,7 +966,6 @@ true
 ;
 }
 MOZ_CAN_RUN_SCRIPT
-virtual
 void
 Run
 (
@@ -1015,7 +1014,7 @@ nsWrapperCache
 {
 public
 :
-NS_DECL_CYCLE_COLLECTING_ISUPPORTS
+NS_DECL_CYCLE_COLLECTING_ISUPPORTS_FINAL
 NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS
 (
 CustomElementRegistry
@@ -1575,7 +1574,6 @@ GetDocGroup
 )
 const
 ;
-virtual
 JSObject
 *
 WrapObject

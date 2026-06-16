@@ -71,7 +71,7 @@ nsWrapperCache
 {
 public
 :
-NS_DECL_CYCLE_COLLECTING_ISUPPORTS
+NS_DECL_CYCLE_COLLECTING_ISUPPORTS_FINAL
 NS_DECL_CYCLE_COLLECTION_WRAPPERCACHE_CLASS
 (
 nsPluginArray
@@ -225,7 +225,6 @@ Refresh
 }
 private
 :
-virtual
 ~
 nsPluginArray
 (
@@ -274,7 +273,7 @@ nsWrapperCache
 {
 public
 :
-NS_DECL_CYCLE_COLLECTING_ISUPPORTS
+NS_DECL_CYCLE_COLLECTING_ISUPPORTS_FINAL
 NS_DECL_CYCLE_COLLECTION_WRAPPERCACHE_CLASS
 (
 nsPluginElement
@@ -301,7 +300,6 @@ GetParentObject
 )
 const
 ;
-virtual
 JSObject
 *
 WrapObject
@@ -457,7 +455,6 @@ retval
 ;
 protected
 :
-virtual
 ~
 nsPluginElement
 (

@@ -107,7 +107,7 @@ nsWrapperCache
 {
 public
 :
-NS_DECL_CYCLE_COLLECTING_ISUPPORTS
+NS_DECL_CYCLE_COLLECTING_ISUPPORTS_FINAL
 NS_DECL_CYCLE_COLLECTION_WRAPPERCACHE_CLASS
 (
 nsHistory
@@ -129,7 +129,6 @@ GetParentObject
 )
 const
 ;
-virtual
 JSObject
 *
 WrapObject
@@ -390,7 +389,6 @@ aRv
 ;
 protected
 :
-virtual
 ~
 nsHistory
 (

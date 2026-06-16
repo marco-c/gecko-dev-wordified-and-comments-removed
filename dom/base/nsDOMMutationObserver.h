@@ -157,7 +157,6 @@ nsISupports
 public
 nsWrapperCache
 {
-virtual
 ~
 nsDOMMutationRecord
 (
@@ -214,7 +213,6 @@ return
 mOwner
 ;
 }
-virtual
 JSObject
 *
 WrapObject
@@ -252,7 +250,7 @@ aGivenProto
 )
 ;
 }
-NS_DECL_CYCLE_COLLECTING_ISUPPORTS
+NS_DECL_CYCLE_COLLECTING_ISUPPORTS_FINAL
 NS_DECL_CYCLE_COLLECTION_WRAPPERCACHE_CLASS
 (
 nsDOMMutationRecord
@@ -1372,7 +1370,6 @@ nsMutationReceiverBase
 {
 protected
 :
-virtual
 ~
 nsMutationReceiver
 (
@@ -1982,7 +1979,7 @@ sCount
 )
 {
 }
-NS_DECL_CYCLE_COLLECTING_ISUPPORTS
+NS_DECL_CYCLE_COLLECTING_ISUPPORTS_FINAL
 NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS
 (
 nsDOMMutationObserver

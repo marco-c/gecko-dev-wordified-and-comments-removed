@@ -469,7 +469,6 @@ IsUnlinking
 ;
 protected
 :
-virtual
 ~
 Selection
 (
@@ -487,7 +486,7 @@ nsFrameSelection
 aFrameSelection
 )
 ;
-NS_DECL_CYCLE_COLLECTING_ISUPPORTS
+NS_DECL_CYCLE_COLLECTING_ISUPPORTS_FINAL
 NS_DECL_CYCLE_COLLECTION_WRAPPERCACHE_CLASS
 (
 Selection
@@ -947,6 +946,13 @@ return
 mAnchorFocusRange
 ;
 }
+void
+SetAnchorFocusRange
+(
+size_t
+aIndex
+)
+;
 void
 GetDirection
 (
@@ -3125,13 +3131,6 @@ ScrollFlags
 mFlags
 ;
 }
-;
-void
-SetAnchorFocusRange
-(
-size_t
-aIndex
-)
 ;
 void
 RemoveAnchorFocusRange
