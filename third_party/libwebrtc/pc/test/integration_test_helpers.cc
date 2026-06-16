@@ -1231,9 +1231,14 @@ if
 (
 delta_samples
 >
-0
+=
+2000
 )
 {
+audio_delay_stats_percentage_checked_
+=
+true
+;
 #
 if
 !
