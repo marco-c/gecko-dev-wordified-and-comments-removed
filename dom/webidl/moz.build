@@ -7040,6 +7040,11 @@ ExtensionProxy
 webidl
 "
 "
+ExtensionPublicSuffix
+.
+webidl
+"
+"
 ExtensionRuntime
 .
 webidl

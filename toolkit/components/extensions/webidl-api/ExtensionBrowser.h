@@ -82,6 +82,9 @@ class
 ExtensionProxy
 ;
 class
+ExtensionPublicSuffix
+;
+class
 ExtensionRuntime
 ;
 class
@@ -401,6 +404,12 @@ GetExtensionProxy
 (
 )
 ;
+ExtensionPublicSuffix
+*
+GetExtensionPublicSuffix
+(
+)
+;
 ExtensionRuntime
 *
 GetExtensionRuntime
@@ -498,6 +507,12 @@ RefPtr
 ExtensionProxy
 >
 mExtensionProxy
+;
+RefPtr
+<
+ExtensionPublicSuffix
+>
+mExtensionPublicSuffix
 ;
 RefPtr
 <

@@ -185,6 +185,11 @@ ExtensionProxy
 cpp
 "
 "
+ExtensionPublicSuffix
+.
+cpp
+"
+"
 ExtensionRuntime
 .
 cpp
@@ -235,6 +240,11 @@ h
 "
 "
 ExtensionProxy
+.
+h
+"
+"
+ExtensionPublicSuffix
 .
 h
 "

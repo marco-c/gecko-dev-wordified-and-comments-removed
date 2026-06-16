@@ -4015,6 +4015,9 @@ mozillaAddons
 networkStatus
 "
 "
+publicSuffix
+"
+"
 scripting
 "
 "

@@ -370,6 +370,15 @@ extensions
 /
 schemas
 /
+public_suffix
+.
+json
+content
+/
+extensions
+/
+schemas
+/
 runtime
 .
 json
