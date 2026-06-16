@@ -87,8 +87,6 @@ attributes
 import
 (
     
-is_try
-    
 match_run_on_hg_branches
     
 match_run_on_projects
@@ -11926,11 +11924,15 @@ candidate_attrs
 continue
         
 if
-not
-is_try
-(
 parameters
-)
+[
+"
+try_mode
+"
+]
+is
+not
+None
 :
             
 if

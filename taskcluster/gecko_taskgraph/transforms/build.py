@@ -61,7 +61,6 @@ util
 attributes
 import
 RELEASE_PROJECTS
-is_try
 release_level
 from
 gecko_taskgraph
@@ -949,12 +948,13 @@ jobs
 :
     
 if
-is_try
-(
+"
+try_task_config
+"
+in
 config
 .
 params
-)
 :
         
 use_artifact
