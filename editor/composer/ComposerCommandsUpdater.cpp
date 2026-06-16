@@ -99,6 +99,13 @@ nsPIDOMWindow
 .
 h
 "
+#
+include
+"
+nsPIDOMWindowInlines
+.
+h
+"
 class
 nsITransaction
 ;

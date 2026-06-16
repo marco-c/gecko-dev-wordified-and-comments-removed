@@ -73,6 +73,13 @@ h
 #
 include
 "
+nsPIDOMWindowInlines
+.
+h
+"
+#
+include
+"
 nsWeakReference
 .
 h

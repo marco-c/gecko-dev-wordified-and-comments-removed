@@ -41,6 +41,13 @@ nsGlobalWindowInner
 .
 h
 "
+#
+include
+"
+nsPIDOMWindowInlines
+.
+h
+"
 mozilla
 :
 :

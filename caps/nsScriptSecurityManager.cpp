@@ -251,6 +251,13 @@ h
 #
 include
 "
+nsPIDOMWindowInlines
+.
+h
+"
+#
+include
+"
 nsIDocShell
 .
 h

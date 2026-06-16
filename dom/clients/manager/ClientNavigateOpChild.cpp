@@ -107,6 +107,13 @@ h
 #
 include
 "
+nsPIDOMWindowInlines
+.
+h
+"
+#
+include
+"
 nsURLHelper
 .
 h

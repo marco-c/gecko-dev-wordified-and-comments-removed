@@ -135,6 +135,13 @@ endif
 #
 include
 "
+nsComponentManagerUtils
+.
+h
+"
+#
+include
+"
 nsIWindowsRegKey
 .
 h

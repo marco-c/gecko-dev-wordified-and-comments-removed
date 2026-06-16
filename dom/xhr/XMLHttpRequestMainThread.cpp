@@ -771,6 +771,13 @@ h
 #
 include
 "
+nsPIDOMWindowInlines
+.
+h
+"
+#
+include
+"
 nsQueryObject
 .
 h

@@ -234,6 +234,13 @@ h
 #
 include
 "
+nsPIDOMWindowInlines
+.
+h
+"
+#
+include
+"
 nsUTF8Utils
 .
 h

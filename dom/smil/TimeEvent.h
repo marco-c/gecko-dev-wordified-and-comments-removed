@@ -55,6 +55,13 @@ nsDocShell
 .
 h
 "
+#
+include
+"
+nsPIDOMWindowInlines
+.
+h
+"
 class
 nsGlobalWindowInner
 ;

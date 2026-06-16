@@ -205,6 +205,13 @@ nsGlobalWindowInner
 .
 h
 "
+#
+include
+"
+nsPIDOMWindowInlines
+.
+h
+"
 extern
 mozilla
 :

@@ -209,6 +209,13 @@ h
 #
 include
 "
+nsPIDOMWindowInlines
+.
+h
+"
+#
+include
+"
 nsThreadUtils
 .
 h

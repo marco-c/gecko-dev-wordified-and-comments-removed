@@ -185,6 +185,13 @@ nsPIDOMWindow
 .
 h
 "
+#
+include
+"
+nsPIDOMWindowInlines
+.
+h
+"
 mozilla
 :
 :

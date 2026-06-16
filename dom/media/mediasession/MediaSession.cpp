@@ -74,6 +74,13 @@ WindowContext
 h
 "
 #
+include
+"
+nsPIDOMWindowInlines
+.
+h
+"
+#
 undef
 LOG
 #

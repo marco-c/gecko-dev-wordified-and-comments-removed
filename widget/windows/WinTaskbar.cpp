@@ -133,6 +133,13 @@ h
 #
 include
 "
+nsPIDOMWindowInlines
+.
+h
+"
+#
+include
+"
 nsAppDirectoryServiceDefs
 .
 h

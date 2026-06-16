@@ -170,6 +170,13 @@ h
 #
 include
 "
+nsPIDOMWindowInlines
+.
+h
+"
+#
+include
+"
 ExpandedPrincipal
 .
 h

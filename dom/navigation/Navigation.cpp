@@ -373,6 +373,13 @@ h
 #
 include
 "
+nsPIDOMWindowInlines
+.
+h
+"
+#
+include
+"
 nsTHashtable
 .
 h

@@ -103,6 +103,13 @@ nsNetUtil
 .
 h
 "
+#
+include
+"
+nsPIDOMWindowInlines
+.
+h
+"
 namespace
 mozilla
 :

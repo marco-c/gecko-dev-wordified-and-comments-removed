@@ -669,6 +669,13 @@ h
 #
 include
 "
+nsPIDOMWindowInlines
+.
+h
+"
+#
+include
+"
 nsRFPTargetSetIDL
 .
 h

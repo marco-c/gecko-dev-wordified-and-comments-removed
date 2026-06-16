@@ -111,6 +111,13 @@ h
 #
 include
 "
+nsPIDOMWindowInlines
+.
+h
+"
+#
+include
+"
 nsWrapperCache
 .
 h

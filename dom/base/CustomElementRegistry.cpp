@@ -300,6 +300,13 @@ h
 #
 include
 "
+nsPIDOMWindowInlines
+.
+h
+"
+#
+include
+"
 xpcprivate
 .
 h

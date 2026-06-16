@@ -84,6 +84,13 @@ h
 #
 include
 "
+nsComponentManagerUtils
+.
+h
+"
+#
+include
+"
 nsIWebAuthnRelatedOriginFetcher
 .
 h

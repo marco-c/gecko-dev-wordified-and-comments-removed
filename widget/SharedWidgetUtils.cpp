@@ -49,6 +49,13 @@ nsPIDOMWindow
 .
 h
 "
+#
+include
+"
+nsPIDOMWindowInlines
+.
+h
+"
 namespace
 mozilla
 {

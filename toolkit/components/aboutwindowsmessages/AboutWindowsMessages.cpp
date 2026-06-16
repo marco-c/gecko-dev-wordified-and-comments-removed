@@ -93,6 +93,13 @@ h
 #
 include
 "
+nsPIDOMWindowInlines
+.
+h
+"
+#
+include
+"
 mozilla
 /
 WidgetUtils
