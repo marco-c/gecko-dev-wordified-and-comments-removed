@@ -53,6 +53,13 @@ js
 ]
 [
 "
+browser_bookmarks_show_in_folder_from_menu
+.
+js
+"
+]
+[
+"
 browser_bookmarks_sidebar
 .
 js
