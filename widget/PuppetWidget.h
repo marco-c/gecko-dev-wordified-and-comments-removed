@@ -896,10 +896,7 @@ int32_t
 aNativeKeyboardLayout
 int32_t
 aNativeKeyCode
-nsIWidget
-:
-:
-NativeModifiers
+uint32_t
 aModifierFlags
 const
 nsAString
@@ -927,7 +924,7 @@ aButton
 nsIWidget
 :
 :
-NativeModifiers
+Modifiers
 aModifierFlags
 nsISynthesizedEventCallback
 *
@@ -959,10 +956,7 @@ double
 aDeltaY
 double
 aDeltaZ
-nsIWidget
-:
-:
-NativeModifiers
+uint32_t
 aModifierFlags
 uint32_t
 aAdditionalFlags

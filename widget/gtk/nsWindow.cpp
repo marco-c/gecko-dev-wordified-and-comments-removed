@@ -33988,7 +33988,7 @@ aButton
 nsIWidget
 :
 :
-NativeModifiers
+Modifiers
 aModifierFlags
 nsISynthesizedEventCallback
 *
@@ -34030,10 +34030,7 @@ int
 (
 aButton
 )
-static_cast
-<
 int
->
 (
 aModifierFlags
 )
@@ -34552,10 +34549,7 @@ double
 aDeltaY
 double
 aDeltaZ
-nsIWidget
-:
-:
-NativeModifiers
+uint32_t
 aModifierFlags
 uint32_t
 aAdditionalFlags

@@ -138,10 +138,7 @@ uint32_t
 aNativeMessage
 int32_t
 aDelta
-nsIWidget
-:
-:
-NativeModifiers
+uint32_t
 aModifierFlags
 uint32_t
 aAdditionalFlags

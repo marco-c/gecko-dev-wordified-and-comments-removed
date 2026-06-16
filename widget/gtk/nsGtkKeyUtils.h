@@ -294,7 +294,7 @@ ConvertWidgetModifierToGdkState
 nsIWidget
 :
 :
-NativeModifiers
+Modifiers
 aNativeModifiers
 )
 ;
