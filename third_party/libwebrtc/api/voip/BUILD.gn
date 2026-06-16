@@ -406,12 +406,6 @@ voip_engine_factory
 .
 .
 :
-field_trials
-"
-"
-.
-.
-:
 make_ref_counted
 "
 "
