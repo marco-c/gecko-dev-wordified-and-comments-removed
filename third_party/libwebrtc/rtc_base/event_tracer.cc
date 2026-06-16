@@ -538,7 +538,7 @@ clock
 Clock
 :
 :
-GetRealTimeClockRaw
+GetRealTimeClockOnlyUseForRelativeTime
 (
 )
 )

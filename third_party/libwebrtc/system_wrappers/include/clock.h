@@ -302,7 +302,7 @@ static
 Clock
 *
 absl_nonnull
-GetRealTimeClockRaw
+GetRealTimeClockOnlyUseForRelativeTime
 (
 )
 ;
