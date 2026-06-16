@@ -283,6 +283,15 @@ include
 "
 mozilla
 /
+StaticPrefs_network
+.
+h
+"
+#
+include
+"
+mozilla
+/
 StaticPrefs_privacy
 .
 h

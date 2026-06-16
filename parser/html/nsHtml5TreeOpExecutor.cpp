@@ -6016,10 +6016,6 @@ StringToCORSMode
 (
 aCrossOrigin
 )
-css
-:
-:
-eAuthorSheetFeatures
 )
 ;
 if

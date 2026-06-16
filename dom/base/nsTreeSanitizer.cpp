@@ -4514,13 +4514,10 @@ nullptr
 nullptr
 &
 style
-css
+StyleOrigin
 :
 :
-SheetParsingMode
-:
-:
-eAuthorSheetFeatures
+Author
 extraData
 .
 get
