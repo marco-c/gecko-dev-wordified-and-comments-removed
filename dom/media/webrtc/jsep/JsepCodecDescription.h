@@ -833,8 +833,10 @@ JSEP_CODEC_CLONE
 T
 )
 \
+UniquePtr
+<
 JsepCodecDescription
-*
+>
 Clone
 (
 )
@@ -842,8 +844,10 @@ const
 override
 {
 return
-new
+MakeUnique
+<
 T
+>
 (
 *
 this
@@ -942,8 +946,10 @@ const
 0
 ;
 virtual
+UniquePtr
+<
 JsepCodecDescription
-*
+>
 Clone
 (
 )

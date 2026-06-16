@@ -27601,11 +27601,9 @@ size
 )
 )
 ;
+*
 codecOut
--
->
-reset
-(
+=
 track
 .
 GetNegotiatedDetails
@@ -27628,7 +27626,6 @@ codecIndex
 >
 Clone
 (
-)
 )
 ;
 }
