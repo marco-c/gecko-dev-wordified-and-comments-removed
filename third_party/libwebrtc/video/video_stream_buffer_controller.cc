@@ -966,7 +966,7 @@ is_last_spatial_layer
 timing_
 -
 >
-IncomingTimestamp
+OnCompleteTemporalUnit
 (
 metadata
 .
@@ -1527,7 +1527,7 @@ superframe_size
 timing_
 -
 >
-SetJitterDelay
+SetMinimumDelay
 (
 jitter_estimator_
 .

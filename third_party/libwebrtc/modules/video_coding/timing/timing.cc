@@ -767,7 +767,7 @@ void
 VCMTiming
 :
 :
-SetJitterDelay
+SetMinimumDelay
 (
 TimeDelta
 minimum_delay
@@ -982,7 +982,7 @@ void
 VCMTiming
 :
 :
-IncomingTimestamp
+OnCompleteTemporalUnit
 (
 uint32_t
 rtp_timestamp
@@ -1014,7 +1014,7 @@ VCMTiming
 RenderTime
 (
 uint32_t
-frame_timestamp
+rtp_timestamp
 Timestamp
 now
 )
@@ -1059,7 +1059,7 @@ ts_extrapolator_
 >
 ExtrapolateLocalTime
 (
-frame_timestamp
+rtp_timestamp
 )
 ;
 if
@@ -1076,15 +1076,10 @@ return
 now
 ;
 }
-Timestamp
-estimated_complete_time
-=
+return
 *
 local_time
-;
-TimeDelta
-actual_delay
-=
++
 std
 :
 :
@@ -1100,11 +1095,6 @@ timings_
 .
 max_playout_delay
 )
-;
-return
-estimated_complete_time
-+
-actual_delay
 ;
 }
 void

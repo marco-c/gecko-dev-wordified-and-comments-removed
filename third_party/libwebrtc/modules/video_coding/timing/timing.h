@@ -297,10 +297,10 @@ render_delay
 )
 ;
 void
-SetJitterDelay
+SetMinimumDelay
 (
 TimeDelta
-required_delay
+minimum_delay
 )
 ;
 TimeDelta
@@ -345,12 +345,12 @@ now
 ;
 virtual
 void
-IncomingTimestamp
+OnCompleteTemporalUnit
 (
 uint32_t
 rtp_timestamp
 Timestamp
-last_packet_time
+now
 )
 ;
 virtual
@@ -358,7 +358,7 @@ Timestamp
 RenderTime
 (
 uint32_t
-frame_timestamp
+rtp_timestamp
 Timestamp
 now
 )
