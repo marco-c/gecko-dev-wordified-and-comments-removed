@@ -1137,3 +1137,10 @@ MLEngineWorker
 (
 )
 ;
+export
+{
+lazy
+as
+_lazyForTestMocking
+}
+;
