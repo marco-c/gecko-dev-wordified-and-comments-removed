@@ -144,11 +144,6 @@ up
 )
 ;
 await
-Promise
-.
-all
-(
-[
 testPageWithURI
 (
 GOOD_PAGE
@@ -165,6 +160,8 @@ website
 "
 false
 )
+;
+await
 testPageWithURI
 (
 BAD_CERT
@@ -182,6 +179,8 @@ error
 "
 true
 )
+;
+await
 testPageWithURI
 (
 UNKNOWN_ISSUER
@@ -198,8 +197,6 @@ error
 .
 "
 true
-)
-]
 )
 ;
 }
