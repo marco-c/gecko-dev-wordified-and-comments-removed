@@ -266,13 +266,6 @@ js
 ]
 [
 "
-browser_audio_focus_interrupt_suspend_resume
-.
-js
-"
-]
-[
-"
 browser_audio_focus_management
 .
 js

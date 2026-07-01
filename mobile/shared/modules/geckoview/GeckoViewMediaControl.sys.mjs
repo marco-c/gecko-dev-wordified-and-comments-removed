@@ -459,9 +459,6 @@ controller
 .
 pause
 (
-"
-user
-"
 )
 ;
 break
