@@ -623,7 +623,6 @@ SharedFontList
 (
 )
 ;
-MOZ_PUSH_IGNORE_THREAD_SAFETY
 mFamilyName
 =
 aFamily
@@ -638,7 +637,6 @@ AsString
 list
 )
 ;
-MOZ_POP_THREAD_SAFETY
 mHasCmapTable
 =
 TrySetShmemCharacterMap

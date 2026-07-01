@@ -9556,14 +9556,13 @@ faces
 face
 -
 >
-SetFamilyName
-(
+mFamilyName
+=
 gillSansMTFamily
 -
 >
 Name
 (
-)
 )
 ;
 gillSansMTFamily
