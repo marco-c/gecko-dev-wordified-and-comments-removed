@@ -124,11 +124,13 @@ VERSION
 .
 16
 )
-set
+string
 (
+TIMESTAMP
 year
 "
-2017
+%
+Y
 "
 )
 set

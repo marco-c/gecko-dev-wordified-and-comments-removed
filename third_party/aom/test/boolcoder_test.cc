@@ -337,10 +337,6 @@ aom_start_encode
 &
 bw
 bw_buffer
-sizeof
-(
-bw_buffer
-)
 )
 ;
 int
@@ -631,10 +627,6 @@ aom_start_encode
 &
 bw
 bw_buffer
-sizeof
-(
-bw_buffer
-)
 )
 ;
 for
@@ -982,10 +974,6 @@ aom_start_encode
 &
 bw
 bw_buffer
-sizeof
-(
-bw_buffer
-)
 )
 ;
 for

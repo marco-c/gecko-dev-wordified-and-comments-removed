@@ -6,11 +6,6 @@ array
 #
 include
 <
-cassert
->
-#
-include
-<
 cstdlib
 >
 #
@@ -457,14 +452,6 @@ BLOCK_4X8
 8
 :
 4
-;
-assert
-(
-depth
->
-=
-8
-)
 ;
 const
 unsigned

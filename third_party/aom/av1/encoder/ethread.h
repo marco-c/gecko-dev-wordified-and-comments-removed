@@ -427,8 +427,6 @@ uint8_t
 *
 const
 dst
-size_t
-dst_size
 uint32_t
 *
 total_size

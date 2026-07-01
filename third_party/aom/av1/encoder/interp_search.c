@@ -3788,11 +3788,6 @@ sf
 interp_sf
 .
 skip_model_rd_uv
-&
-&
-num_planes
->
-1
 )
 {
 *

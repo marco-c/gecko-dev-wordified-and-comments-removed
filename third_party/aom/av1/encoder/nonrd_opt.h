@@ -3625,13 +3625,6 @@ PLANE_TYPE_UV
 mbmi
 -
 >
-use_intrabc
-=
-0
-;
-mbmi
--
->
 filter_intra_mode_info
 .
 use_filter_intra

@@ -263,10 +263,6 @@ x
 )
 #
 endif
-#
-if
-!
-CONFIG_HIGHWAY
 static
 inline
 void
@@ -3437,6 +3433,10 @@ srcRegFilt1_1
 ;
 }
 }
+#
+if
+!
+CONFIG_HIGHWAY
 static
 inline
 __m256i
@@ -6124,10 +6124,6 @@ HAVE_AVX2
 &
 &
 HAVE_SSSE3
-#
-if
-!
-CONFIG_HIGHWAY
 filter8_1dfunction
 aom_filter_block1d16_h2_ssse3
 ;
@@ -6158,6 +6154,10 @@ h
 src
 avx2
 )
+#
+if
+!
+CONFIG_HIGHWAY
 filter8_1dfunction
 aom_filter_block1d4_v8_ssse3
 ;

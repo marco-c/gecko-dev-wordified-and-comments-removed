@@ -1385,7 +1385,11 @@ txfm_search_done
 ;
 store_winner_mode_stats
 (
+&
 cpi
+-
+>
+common
 x
 mbmi
 NULL
@@ -3410,10 +3414,6 @@ plane
 plane_bsize
 tx_size
 0
-cpi
--
->
-do_border_pad
 )
 ;
 }
@@ -7684,10 +7684,6 @@ x
 bsize
 tx_size
 1
-cpi
--
->
-do_border_pad
 )
 ;
 const
@@ -9278,10 +9274,6 @@ x
 bsize
 tx_size
 1
-cpi
--
->
-do_border_pad
 )
 ;
 const
@@ -9485,7 +9477,11 @@ txfm_search_done
 ;
 store_winner_mode_stats
 (
+&
 cpi
+-
+>
+common
 x
 mbmi
 NULL

@@ -6860,10 +6860,13 @@ p2
 double
 x
 double
-rate_dist_f
-[
-2
-]
+*
+const
+rate_f
+double
+*
+const
+distbysse_f
 )
 ;
 #

@@ -156,16 +156,13 @@ const
 double
 erroradv_tr
 [
-3
+2
 ]
 =
 {
 0
 .
 65
-0
-.
-3
 0
 .
 2

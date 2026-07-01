@@ -567,9 +567,6 @@ INTER_REFS_PER_FRAME
 YV12_BUFFER_CONFIG
 prev_gop_arf_src
 ;
-YV12_BUFFER_CONFIG
-prev_gop_arf_tpl_recon
-;
 int64_t
 prev_gop_arf_disp_order
 ;

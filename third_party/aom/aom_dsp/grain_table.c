@@ -340,9 +340,7 @@ num_read
 }
 if
 (
-1
 !
-=
 fscanf
 (
 file
@@ -451,9 +449,7 @@ points
 }
 if
 (
-1
 !
-=
 fscanf
 (
 file
@@ -564,9 +560,7 @@ points
 }
 if
 (
-1
 !
-=
 fscanf
 (
 file
@@ -2266,6 +2260,13 @@ entry
 )
 )
 ;
+grain_table_entry_read
+(
+file
+error_info
+entry
+)
+;
 entry
 -
 >
@@ -2309,13 +2310,6 @@ entry
 prev_entry
 =
 entry
-;
-grain_table_entry_read
-(
-file
-error_info
-entry
-)
 ;
 }
 }

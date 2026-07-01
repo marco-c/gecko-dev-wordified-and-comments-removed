@@ -1294,9 +1294,6 @@ ref_frame_mvs_lvl
 int
 screen_detection_mode2_fast_detection
 ;
-int
-weighted_chroma_distortion
-;
 }
 HIGH_LEVEL_SPEED_FEATURES
 ;
@@ -1773,7 +1770,7 @@ extra_prune_warped
 int
 skip_arf_compound
 ;
-float
+int
 bias_warp_mode_rd_scale_pct
 ;
 float
@@ -1784,9 +1781,6 @@ skip_cmp_using_top_cmp_avg_est_rd_lvl
 ;
 int
 skip_interinter_wedge_search_based_on_mse
-;
-int
-enable_comp_wedge_search_using_model_rd
 ;
 }
 INTER_MODE_SPEED_FEATURES
@@ -2182,9 +2176,6 @@ skip_cdef_sb
 ;
 int
 selective_cdf_update
-;
-int
-rt_use_intrabc
 ;
 int
 force_only_last_ref
