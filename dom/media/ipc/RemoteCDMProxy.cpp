@@ -808,7 +808,7 @@ GetEMEOriginID
 mKeys
 -
 >
-GetPrincipal
+GetStoragePrincipal
 (
 )
 )
