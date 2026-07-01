@@ -78,7 +78,6 @@ length
 :
 {
 CSSPixelLength
-Length
 LengthPercentage
 }
 ;
@@ -253,7 +252,7 @@ TextDecorationInset
 =
 GenericTextDecorationInset
 <
-Length
+LengthPercentage
 >
 ;
 impl
@@ -342,10 +341,22 @@ AnimatedValue
 {
 start
 :
+LengthPercentage
+:
+:
+new_length
+(
 auto_length
+)
 end
 :
+LengthPercentage
+:
+:
+new_length
+(
 auto_length
+)
 is_auto
 :
 true
@@ -354,7 +365,7 @@ true
 Self
 :
 :
-Length
+LengthPercentage
 {
 start
 end
@@ -421,7 +432,7 @@ else
 Self
 :
 :
-Length
+LengthPercentage
 {
 start
 :

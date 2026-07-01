@@ -579,7 +579,7 @@ pub
 enum
 GenericTextDecorationInset
 <
-L
+LP
 >
 {
 Auto
@@ -590,14 +590,14 @@ allow
 missing_docs
 )
 ]
-Length
+LengthPercentage
 {
 start
 :
-L
+LP
 end
 :
-L
+LP
 }
 }
 impl
@@ -627,7 +627,7 @@ Self
 GenericTextDecorationInset
 :
 :
-Length
+LengthPercentage
 {
 start
 :
@@ -711,7 +711,7 @@ auto
 GenericTextDecorationInset
 :
 :
-Length
+LengthPercentage
 {
 start
 end
