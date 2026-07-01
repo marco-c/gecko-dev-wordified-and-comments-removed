@@ -86,6 +86,15 @@ include
 vector
 >
 #
+include
+"
+moz
+-
+overrides
+.
+h
+"
+#
 define
 GGUF_MAX_STRING_LENGTH
 (

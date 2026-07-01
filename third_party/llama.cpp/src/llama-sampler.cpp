@@ -108,6 +108,15 @@ include
 <
 stdexcept
 >
+#
+include
+"
+moz
+-
+overrides
+.
+h
+"
 template
 <
 typename

@@ -54,6 +54,15 @@ include
 <
 stdexcept
 >
+#
+include
+"
+moz
+-
+overrides
+.
+h
+"
 ggml_tensor
 *
 llama_adapter_cvec

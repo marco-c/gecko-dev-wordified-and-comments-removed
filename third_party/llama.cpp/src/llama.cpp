@@ -164,6 +164,15 @@ include
 vector
 >
 #
+include
+"
+moz
+-
+overrides
+.
+h
+"
+#
 if
 defined
 (

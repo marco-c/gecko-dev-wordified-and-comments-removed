@@ -69,6 +69,15 @@ include
 <
 vector
 >
+#
+include
+"
+moz
+-
+overrides
+.
+h
+"
 size_t
 unicode_len_utf8
 (

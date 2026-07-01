@@ -35,6 +35,15 @@ include
 <
 cmath
 >
+#
+include
+"
+moz
+-
+overrides
+.
+h
+"
 struct
 llm_build_mamba_base
 :

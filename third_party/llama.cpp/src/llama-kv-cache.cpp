@@ -80,6 +80,15 @@ include
 <
 stdexcept
 >
+#
+include
+"
+moz
+-
+overrides
+.
+h
+"
 static
 bool
 ggml_is_power_of_2

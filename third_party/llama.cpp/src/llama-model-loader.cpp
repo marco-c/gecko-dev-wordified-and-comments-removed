@@ -76,6 +76,15 @@ include
 <
 regex
 >
+#
+include
+"
+moz
+-
+overrides
+.
+h
+"
 static
 const
 size_t

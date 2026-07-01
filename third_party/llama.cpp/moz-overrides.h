@@ -87,6 +87,14 @@ std
 exception
 (
 )
+ex
+=
+std
+:
+:
+exception
+(
+)
 ;
 \
 false

@@ -30,6 +30,15 @@ include
 algorithm
 >
 #
+include
+"
+moz
+-
+overrides
+.
+h
+"
+#
 if
 __cplusplus
 >

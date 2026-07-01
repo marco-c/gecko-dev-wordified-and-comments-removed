@@ -127,6 +127,15 @@ include
 <
 stdexcept
 >
+#
+include
+"
+moz
+-
+overrides
+.
+h
+"
 static
 llm_graph_type
 ctx_type_to_graph_type
