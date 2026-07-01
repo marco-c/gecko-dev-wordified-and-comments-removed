@@ -313,9 +313,7 @@ config
 .
 minSdkVersion
 targetSdk
-config
-.
-targetSdkVersion
+37
 versionCode
 11
 /
