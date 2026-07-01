@@ -271,7 +271,7 @@ format_string
 static
 constexpr
 nsLiteralString
-kBaselineChromeCSP
+kBaselineSystemCSP
 =
 u
 "
@@ -291,7 +291,7 @@ _ns
 ;
 static
 bool
-IsExemptedFromBaselineChromeCSP
+IsExemptedFromBaselineSystemCSP
 (
 nsACString
 &
