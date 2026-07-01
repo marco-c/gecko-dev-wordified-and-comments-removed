@@ -2055,6 +2055,10 @@ mCreatePromiseId
 aId
 )
 {
+mCreatePromiseId
+=
+0
+;
 EME_LOG
 (
 "
@@ -3766,6 +3770,10 @@ mCreatePromiseId
 aId
 )
 {
+mCreatePromiseId
+=
+0
+;
 EME_LOG
 (
 "
