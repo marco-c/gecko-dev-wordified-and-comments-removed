@@ -30771,6 +30771,13 @@ let
 declaration
 =
 match
+parser
+.
+parse_entirely
+(
+|
+p
+|
 NumericDeclaration
 :
 :
@@ -30778,9 +30785,8 @@ parse
 (
 &
 context
-&
-mut
-parser
+p
+)
 )
 {
 Ok
