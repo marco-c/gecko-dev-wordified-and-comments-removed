@@ -81,15 +81,6 @@ include
 "
 rtc_base
 /
-thread
-.
-h
-"
-#
-include
-"
-rtc_base
-/
 thread_annotations
 .
 h
@@ -164,7 +155,7 @@ FrameTransformerInterface
 frame_transformer
 TaskQueueBase
 *
-network_thread
+task_queue
 uint32_t
 ssrc
 )
