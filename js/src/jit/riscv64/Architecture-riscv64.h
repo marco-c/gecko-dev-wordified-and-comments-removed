@@ -225,9 +225,10 @@ r
 ;
 }
 ;
-typedef
-uint32_t
+using
 SetType
+=
+uint32_t
 ;
 static
 uint32_t
@@ -964,9 +965,10 @@ VolatileMask
 ;
 }
 ;
-typedef
-uint32_t
+using
 PackedRegisterMask
+=
+uint32_t
 ;
 class
 FloatRegisters
