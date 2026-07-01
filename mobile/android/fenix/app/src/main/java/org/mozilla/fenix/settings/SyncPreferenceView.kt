@@ -123,9 +123,9 @@ mozilla
 .
 components
 .
-service
+concept
 .
-fxa
+sync
 .
 SyncEngine
 import

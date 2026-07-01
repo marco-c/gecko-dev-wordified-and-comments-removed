@@ -253,6 +253,16 @@ mozilla
 .
 components
 .
+concept
+.
+sync
+.
+SyncConfig
+import
+mozilla
+.
+components
+.
 service
 .
 fxa
