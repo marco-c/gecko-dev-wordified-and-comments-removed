@@ -466,6 +466,9 @@ test
 utm
 content
 "
+maxNumberLines
+=
+2
 )
 val
 actual
@@ -860,6 +863,9 @@ test
 utm
 content
 "
+maxNumberLines
+=
+2
 )
 val
 actual
@@ -1020,6 +1026,9 @@ answersText
 utmContent
 =
 null
+maxNumberLines
+=
+2
 )
 val
 actual

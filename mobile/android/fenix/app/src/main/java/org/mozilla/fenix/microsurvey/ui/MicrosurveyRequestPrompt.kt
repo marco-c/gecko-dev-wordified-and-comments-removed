@@ -904,6 +904,9 @@ question
 =
 "
 "
+maxNumberLines
+=
+2
 answers
 =
 emptyList
