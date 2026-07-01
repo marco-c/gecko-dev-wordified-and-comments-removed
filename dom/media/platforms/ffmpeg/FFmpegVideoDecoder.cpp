@@ -4583,6 +4583,12 @@ if
 XRE_IsRDDProcess
 (
 )
+&
+&
+!
+XRE_IsGPUProcess
+(
+)
 )
 {
 FFMPEG_LOG
@@ -4593,6 +4599,8 @@ decoder
 works
 in
 RDD
+/
+GPU
 process
 only
 "
@@ -5100,6 +5108,11 @@ if
 (
 (
 XRE_IsRDDProcess
+(
+)
+|
+|
+XRE_IsGPUProcess
 (
 )
 |
