@@ -164,6 +164,17 @@ pub
 mod
 key_types
 ;
+#
+[
+doc
+(
+hidden
+)
+]
+pub
+mod
+prim_geometry
+;
 mod
 tile_pool
 ;
