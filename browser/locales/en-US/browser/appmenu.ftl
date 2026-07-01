@@ -2268,6 +2268,17 @@ label
 Translate
 appmenu
 -
+edit
+-
+pdf
+=
+.
+label
+=
+Edit
+PDF
+appmenu
+-
 developer
 -
 tools
