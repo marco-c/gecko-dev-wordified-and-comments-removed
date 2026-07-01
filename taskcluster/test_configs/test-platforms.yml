@@ -2463,6 +2463,12 @@ test
 sets
 :
 -
+desktop
+-
+screenshot
+-
+capture
+-
 macosx1500
 -
 aarch64
