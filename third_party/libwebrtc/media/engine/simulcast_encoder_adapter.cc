@@ -2482,11 +2482,11 @@ code
 <
 WebRtcVideoCodecErrorToString
 (
-ret
+result
 )
 ;
 return
-ret
+result
 ;
 }
 RTC_LOG
@@ -2511,7 +2511,7 @@ code
 <
 WebRtcVideoCodecErrorToString
 (
-ret
+result
 )
 <
 <
@@ -2744,7 +2744,7 @@ code
 <
 WebRtcVideoCodecErrorToString
 (
-ret
+result
 )
 ;
 return
