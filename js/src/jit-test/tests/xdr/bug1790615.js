@@ -84,12 +84,6 @@ true
 }
 )
 ;
-assertThrowsInstanceOf
-(
-(
-)
-=
->
 g80
 .
 compileToStencilXDR
@@ -97,9 +91,5 @@ compileToStencilXDR
 code
 {
 }
-)
-g80
-.
-Error
 )
 ;

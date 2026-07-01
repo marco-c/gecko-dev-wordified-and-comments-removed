@@ -283,17 +283,6 @@ pc
 {
 if
 (
-!
-pc
--
->
-useAsmOrInsideUseAsm
-(
-)
-)
-{
-if
-(
 left
 -
 >
@@ -369,7 +358,6 @@ end
 return
 list
 ;
-}
 }
 ListNode
 *
