@@ -177,6 +177,13 @@ js
 ]
 [
 "
+test_AboutNewTabResourceMapping_langpackShadow
+.
+js
+"
+]
+[
+"
 test_disableNewTabAsAddon_pref
 .
 js
