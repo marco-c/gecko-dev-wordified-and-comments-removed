@@ -146,7 +146,7 @@ callout
 '
 ;
 /
-/
+*
 stylelint
 -
 disable
@@ -155,6 +155,8 @@ max
 nesting
 -
 depth
+*
+/
 break
 -
 point
