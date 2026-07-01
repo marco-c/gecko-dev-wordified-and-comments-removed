@@ -927,6 +927,8 @@ XMMRegisterID
 ;
 enum
 ContentType
+:
+uint8_t
 {
 Single
 Double
@@ -1639,7 +1641,7 @@ Codes
 ContentType
 type_
 :
-3
+2
 ;
 bool
 isInvalid_
