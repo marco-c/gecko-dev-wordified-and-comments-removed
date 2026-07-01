@@ -129,6 +129,10 @@ rtc_tools
 "
 "
 -
+rust
+"
+"
+-
 sdk
 "
 "

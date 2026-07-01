@@ -370,6 +370,9 @@ raw
 '
 additional_compile_target
 '
+'
+generated_script
+'
 )
 :
             
@@ -446,6 +449,7 @@ vpython3
 '
         
 if
+(
 is_ios
 or
 is_fuchsia
@@ -456,6 +460,15 @@ test_type
 '
 raw
 '
+                
+or
+test_type
+=
+=
+'
+generated_script
+'
+)
 :
             
 if
