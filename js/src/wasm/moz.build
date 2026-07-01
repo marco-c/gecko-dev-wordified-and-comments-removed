@@ -124,11 +124,6 @@ UNIFIED_SOURCES
 =
 [
 "
-AsmJS
-.
-cpp
-"
-"
 WasmAnyRef
 .
 cpp

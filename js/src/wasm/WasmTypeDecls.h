@@ -162,9 +162,6 @@ WasmTagObject
 SystemAllocPolicy
 >
 ;
-struct
-CodeMetadataForAsmJS
-;
 namespace
 wasm
 {

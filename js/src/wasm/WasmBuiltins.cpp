@@ -2974,7 +2974,7 @@ hasBreakpointTrapAtOffset
 (
 site
 .
-lineOrBytecode
+bytecodeOffset
 (
 )
 )
@@ -3050,7 +3050,7 @@ hasBreakpointSite
 (
 site
 .
-lineOrBytecode
+bytecodeOffset
 (
 )
 )

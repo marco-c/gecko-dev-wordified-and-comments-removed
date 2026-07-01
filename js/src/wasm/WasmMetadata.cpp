@@ -985,7 +985,7 @@ bool
 CodeMetadata
 :
 :
-getFuncNameForWasm
+getFuncName
 (
 NameContext
 ctx
@@ -1194,13 +1194,6 @@ mallocSizeOf
 )
 +
 elemSegmentTypes
-.
-sizeOfExcludingThis
-(
-mallocSizeOf
-)
-+
-asmJSSigToTableIndex
 .
 sizeOfExcludingThis
 (

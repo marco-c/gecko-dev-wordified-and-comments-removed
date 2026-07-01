@@ -69,14 +69,6 @@ cx
 )
 ;
 bool
-WasmCompilerForAsmJSAvailable
-(
-JSContext
-*
-cx
-)
-;
-bool
 BaselineDisabledByFeatures
 (
 JSContext

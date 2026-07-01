@@ -1426,7 +1426,7 @@ BytecodeOffset
 (
 site
 .
-lineOrBytecode
+bytecodeOffset
 (
 )
 )
