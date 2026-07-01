@@ -162,6 +162,9 @@ textarea
 select
 "
 "
+dialog
+"
+"
 [
 contenteditable
 =
