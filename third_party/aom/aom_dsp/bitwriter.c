@@ -23,6 +23,8 @@ w
 uint8_t
 *
 source
+size_t
+size
 )
 {
 w
@@ -31,6 +33,13 @@ w
 buffer
 =
 source
+;
+w
+-
+>
+size
+=
+size
 ;
 w
 -
@@ -86,6 +95,14 @@ if
 (
 !
 data
+|
+|
+bytes
+>
+w
+-
+>
+size
 )
 {
 od_ec_enc_clear

@@ -15258,6 +15258,15 @@ w
 "
 )
 ;
+if
+(
+pfile
+=
+=
+NULL
+)
+return
+;
 fprintf
 (
 pfile

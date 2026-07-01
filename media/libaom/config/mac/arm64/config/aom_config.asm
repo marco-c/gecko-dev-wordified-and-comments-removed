@@ -4,7 +4,7 @@ Copyright
 (
 c
 )
-2026
+2017
 Alliance
 for
 Open
@@ -291,9 +291,6 @@ equ
 CONFIG_SPEED_STATS
 equ
 0
-CONFIG_SVT_AV1
-equ
-1
 CONFIG_TFLITE
 equ
 0

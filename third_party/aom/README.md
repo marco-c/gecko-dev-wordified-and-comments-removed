@@ -3833,7 +3833,7 @@ roles
 /
 storage
 .
-objectViewer
+legacyObjectReader
 "
 ~
 ~

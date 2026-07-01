@@ -238,10 +238,6 @@ CONFIG_SPEED_STATS
 0
 #
 define
-CONFIG_SVT_AV1
-1
-#
-define
 CONFIG_TFLITE
 0
 #

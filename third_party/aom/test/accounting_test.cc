@@ -102,6 +102,10 @@ aom_start_encode
 &
 bw
 bw_buffer
+sizeof
+(
+bw_buffer
+)
 )
 ;
 for

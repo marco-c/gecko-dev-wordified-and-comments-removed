@@ -1,7 +1,7 @@
 #
 define
 HWY_BASELINE_TARGETS
-HWY_AVX3_DL
+HWY_AVX2
 #
 define
 HWY_BROKEN_32BIT
@@ -15,7 +15,12 @@ convolve_hwy
 .
 h
 "
+#
+if
+CONFIG_HIGHWAY
 CONVOLVE8HORIZ
 (
-avx512
+avx2
 )
+#
+endif
