@@ -2945,15 +2945,6 @@ GetPrincipal
 (
 )
 ;
-mStoragePrincipal
-=
-sop
--
->
-GetEffectiveStoragePrincipal
-(
-)
-;
 nsCOMPtr
 <
 nsPIDOMWindowInner
