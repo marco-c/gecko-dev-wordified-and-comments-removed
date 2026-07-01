@@ -1215,7 +1215,7 @@ References
 -
 The
 interface
-definition
+definitions
 in
 source
 code
