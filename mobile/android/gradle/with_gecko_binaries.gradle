@@ -127,12 +127,15 @@ them
 :
 see
 also
+the
 rootProject
 .
-{
 machStagePackage
+task
+and
+MachExec
+.
 geckoBinariesOnlyIf
-}
 .
 def
 hasCompileArtifacts
