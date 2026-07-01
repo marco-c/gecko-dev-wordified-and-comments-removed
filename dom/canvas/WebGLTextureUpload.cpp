@@ -1229,7 +1229,7 @@ gfx
 SurfaceType
 :
 :
-RECORDING
+CANVAS_RECORDING
 )
 {
 layers
@@ -1250,10 +1250,16 @@ desc
 )
 {
 sd
-=
-Some
+.
+emplace
+(
+std
+:
+:
+move
 (
 desc
+)
 )
 ;
 sourceSurf
