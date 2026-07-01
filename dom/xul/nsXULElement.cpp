@@ -5646,16 +5646,6 @@ GetPrefix
 )
 value
 false
-mozilla
-:
-:
-dom
-:
-:
-IsKnownNewAttr
-:
-:
-No
 )
 )
 ;
