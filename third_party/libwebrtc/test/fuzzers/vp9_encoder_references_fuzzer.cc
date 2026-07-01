@@ -1140,6 +1140,13 @@ WebRTC
 -
 Vp9IssueKeyFrameOnLayerDeactivation
 "
+"
+WebRTC
+-
+LibvpxVp9Encoder
+-
+PostEncodeFrameDrop
+"
 }
 ;
 for
