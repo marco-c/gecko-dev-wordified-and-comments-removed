@@ -1760,9 +1760,9 @@ OnManagerThread
 )
 {
 return
-mParent
--
->
+RemoteMediaManagerParent
+:
+:
 OnManagerThread
 (
 )
