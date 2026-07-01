@@ -1065,11 +1065,6 @@ skipOnboarding
 Boolean
 =
 true
-isMenuRedesignCFREnabled
-:
-Boolean
-=
-false
 isPageLoadTranslationsPromptEnabled
 :
 Boolean
@@ -1091,9 +1086,6 @@ HomeActivityIntentTestRule
 skipOnboarding
 =
 skipOnboarding
-isMenuRedesignCFREnabled
-=
-isMenuRedesignCFREnabled
 isPageLoadTranslationsPromptEnabled
 =
 isPageLoadTranslationsPromptEnabled

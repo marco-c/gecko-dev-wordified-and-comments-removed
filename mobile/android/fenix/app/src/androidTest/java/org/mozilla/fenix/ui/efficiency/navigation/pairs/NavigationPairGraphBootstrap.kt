@@ -118,9 +118,6 @@ HomeActivityIntentTestRule
 skipOnboarding
 =
 true
-isMenuRedesignCFREnabled
-=
-false
 isPageLoadTranslationsPromptEnabled
 =
 false

@@ -401,9 +401,6 @@ AndroidComposeTestRuleV2
 (
 HomeActivityIntentTestRule
 (
-isMenuRedesignCFREnabled
-=
-false
 shouldUseBottomToolbar
 =
 true

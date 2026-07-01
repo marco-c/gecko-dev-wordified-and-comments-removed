@@ -247,14 +247,6 @@ Navigate
 is
 MenuAction
 .
-OnCFRShown
-is
-MenuAction
-.
-OnCFRDismiss
-is
-MenuAction
-.
 OnSummarizationMenuExposed
 is
 MenuAction
