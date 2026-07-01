@@ -770,6 +770,16 @@ mConnectionClosed
 bool
 mDatabaseEncrypted
 ;
+int32_t
+mPageSize
+;
+void
+SetDatabaseEncrypted
+(
+bool
+aEncrypted
+)
+;
 Atomic
 <
 int32_t

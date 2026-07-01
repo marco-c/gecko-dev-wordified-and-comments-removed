@@ -271,6 +271,11 @@ StatementCache
 h
 "
 "
+StoragePathUtil
+.
+h
+"
+"
 Variant
 .
 h
@@ -397,6 +402,11 @@ cpp
 "
 "
 StorageBaseStatementInternal
+.
+cpp
+"
+"
+StoragePathUtil
 .
 cpp
 "

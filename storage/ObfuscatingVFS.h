@@ -6,6 +6,11 @@ define
 STORAGE_OBFUSCATINGVFS_H_
 #
 include
+<
+cstdint
+>
+#
+include
 "
 mozilla
 /
@@ -49,6 +54,13 @@ storage
 :
 obfsvfs
 {
+inline
+constexpr
+int32_t
+kObfsPageSize
+=
+8192
+;
 const
 char
 *
