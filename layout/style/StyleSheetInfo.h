@@ -113,7 +113,12 @@ StyleSheet
 aSheet
 )
 ;
-void
+[
+[
+nodiscard
+]
+]
+bool
 RemoveSheet
 (
 StyleSheet
