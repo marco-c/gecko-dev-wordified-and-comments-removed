@@ -705,7 +705,6 @@ this
 registerTraceableChannel
 (
 policy
-remoteTab
 )
 ;
 equal
