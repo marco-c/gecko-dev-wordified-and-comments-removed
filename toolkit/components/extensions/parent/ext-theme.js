@@ -114,6 +114,14 @@ startupData
 ?
 .
 lwtData
+?
+.
+dataVersion
+=
+=
+LightweightThemeManager
+.
+DATA_VERSION
 )
 {
 this
