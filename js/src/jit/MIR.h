@@ -29157,14 +29157,6 @@ getLoopBackedgeOperand
 )
 const
 ;
-bool
-typeIncludes
-(
-MDefinition
-*
-def
-)
-;
 [
 [
 nodiscard
