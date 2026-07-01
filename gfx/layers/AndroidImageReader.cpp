@@ -1153,6 +1153,11 @@ int32_t
 result
 )
 ;
+AImage_delete
+(
+image
+)
+;
 return
 false
 ;
