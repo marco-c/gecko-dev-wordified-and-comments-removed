@@ -4033,7 +4033,7 @@ source
 =
 lazy
 .
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .

@@ -449,7 +449,9 @@ RESULT_TYPE
 RESTRICT
 source
 :
-UrlbarUtils
+lazy
+.
+UrlbarShared
 .
 RESULT_SOURCE
 .

@@ -1045,7 +1045,9 @@ sources
 .
 includes
 (
-UrlbarUtils
+lazy
+.
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -1330,7 +1332,9 @@ RESULT_TYPE
 REMOTE_TAB
 source
 :
-UrlbarUtils
+lazy
+.
+UrlbarShared
 .
 RESULT_SOURCE
 .

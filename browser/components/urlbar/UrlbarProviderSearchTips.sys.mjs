@@ -2789,7 +2789,9 @@ RESULT_TYPE
 TIP
 source
 :
-UrlbarUtils
+lazy
+.
+UrlbarShared
 .
 RESULT_SOURCE
 .

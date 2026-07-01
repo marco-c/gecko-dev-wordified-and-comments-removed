@@ -802,7 +802,9 @@ RESULT_TYPE
 DYNAMIC
 source
 :
-UrlbarUtils
+lazy
+.
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -814,7 +816,9 @@ queryContext
 restrictSource
 =
 =
-UrlbarUtils
+lazy
+.
+UrlbarShared
 .
 RESULT_SOURCE
 .

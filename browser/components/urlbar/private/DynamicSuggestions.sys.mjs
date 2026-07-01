@@ -847,7 +847,7 @@ source
 :
 lazy
 .
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -1028,7 +1028,7 @@ source
 :
 lazy
 .
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .

@@ -6006,7 +6006,7 @@ source
 =
 lazy
 .
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -6022,7 +6022,7 @@ includes
 (
 lazy
 .
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -6058,7 +6058,7 @@ source
 =
 lazy
 .
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -6073,7 +6073,7 @@ includes
 (
 lazy
 .
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -6888,7 +6888,7 @@ values
 (
 lazy
 .
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 )
@@ -6910,7 +6910,7 @@ source
 case
 lazy
 .
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -6977,7 +6977,7 @@ break
 case
 lazy
 .
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -7031,7 +7031,7 @@ break
 case
 lazy
 .
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -7142,7 +7142,7 @@ break
 case
 lazy
 .
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -7196,7 +7196,7 @@ break
 case
 lazy
 .
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -7227,7 +7227,7 @@ break
 case
 lazy
 .
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -7236,7 +7236,7 @@ OTHER_LOCAL
 case
 lazy
 .
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .

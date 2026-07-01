@@ -7759,7 +7759,9 @@ result
 source
 =
 =
-UrlbarUtils
+lazy
+.
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -8231,7 +8233,9 @@ result
 source
 =
 =
-UrlbarUtils
+lazy
+.
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -8675,7 +8679,9 @@ result
 source
 =
 =
-UrlbarUtils
+lazy
+.
+UrlbarShared
 .
 RESULT_SOURCE
 .

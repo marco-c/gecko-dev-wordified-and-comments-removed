@@ -450,9 +450,7 @@ param
 Values
 <
 typeof
-lazy
-.
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 >
@@ -806,9 +804,7 @@ Object
 .
 values
 (
-lazy
-.
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 )

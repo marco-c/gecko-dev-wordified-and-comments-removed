@@ -1015,7 +1015,9 @@ RESULT_TYPE
 AI_CHAT
 source
 :
-UrlbarUtils
+lazy
+.
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -1137,7 +1139,9 @@ RESULT_TYPE
 SEARCH
 source
 :
-UrlbarUtils
+lazy
+.
+UrlbarShared
 .
 RESULT_SOURCE
 .

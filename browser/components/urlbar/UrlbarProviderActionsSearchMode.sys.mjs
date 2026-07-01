@@ -280,6 +280,7 @@ queryContext
 )
 {
 return
+(
 queryContext
 .
 searchMode
@@ -288,11 +289,14 @@ searchMode
 source
 =
 =
-UrlbarUtils
+lazy
+.
+UrlbarShared
 .
 RESULT_SOURCE
 .
 ACTIONS
+)
 ;
 }
 /
@@ -399,7 +403,9 @@ RESULT_TYPE
 DYNAMIC
 source
 :
-UrlbarUtils
+lazy
+.
+UrlbarShared
 .
 RESULT_SOURCE
 .

@@ -1614,7 +1614,9 @@ RESULT_TYPE
 TAB_SWITCH
 source
 :
-UrlbarUtils
+lazy
+.
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -1698,7 +1700,9 @@ type
 Values
 <
 typeof
-UrlbarUtils
+lazy
+.
+UrlbarShared
 .
 RESULT_SOURCE
 >
@@ -1708,7 +1712,9 @@ RESULT_SOURCE
 let
 resultSource
 =
-UrlbarUtils
+lazy
+.
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -1784,7 +1790,9 @@ bookmark
 {
 resultSource
 =
-UrlbarUtils
+lazy
+.
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -1961,7 +1969,9 @@ RESULT_TYPE
 SEARCH
 source
 :
-UrlbarUtils
+lazy
+.
+UrlbarShared
 .
 RESULT_SOURCE
 .

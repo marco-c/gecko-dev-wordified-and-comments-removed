@@ -686,7 +686,9 @@ searchMode
 source
 =
 =
-UrlbarUtils
+lazy
+.
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -983,7 +985,9 @@ RESULT_TYPE
 URL
 source
 :
-UrlbarUtils
+lazy
+.
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -1311,7 +1315,9 @@ RESULT_TYPE
 TAB_SWITCH
 source
 :
-UrlbarUtils
+lazy
+.
+UrlbarShared
 .
 RESULT_SOURCE
 .

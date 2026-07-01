@@ -1036,7 +1036,9 @@ RESULT_TYPE
 TAB_SWITCH
 source
 :
-UrlbarUtils
+lazy
+.
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -1136,7 +1138,9 @@ bookmark
 {
 resultSource
 =
-UrlbarUtils
+lazy
+.
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -1169,7 +1173,9 @@ history
 {
 resultSource
 =
-UrlbarUtils
+lazy
+.
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -1236,7 +1242,9 @@ isBlockable
 resultSource
 =
 =
-UrlbarUtils
+lazy
+.
+UrlbarShared
 .
 RESULT_SOURCE
 .

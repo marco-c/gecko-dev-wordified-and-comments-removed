@@ -625,7 +625,9 @@ RESULT_TYPE
 OMNIBOX
 source
 :
-UrlbarUtils
+lazy
+.
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -810,7 +812,9 @@ RESULT_TYPE
 OMNIBOX
 source
 :
-UrlbarUtils
+lazy
+.
+UrlbarShared
 .
 RESULT_SOURCE
 .

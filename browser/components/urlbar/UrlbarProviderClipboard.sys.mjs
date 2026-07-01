@@ -672,7 +672,9 @@ RESULT_TYPE
 URL
 source
 :
-UrlbarUtils
+lazy
+.
+UrlbarShared
 .
 RESULT_SOURCE
 .

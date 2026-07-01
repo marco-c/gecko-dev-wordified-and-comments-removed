@@ -2344,7 +2344,7 @@ of
 the
 values
 in
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -2384,7 +2384,7 @@ the
 /
 values
 in
-UrlbarUtils
+UrlbarShared
 .
 SEARCH_MODE_ENTRY
 .

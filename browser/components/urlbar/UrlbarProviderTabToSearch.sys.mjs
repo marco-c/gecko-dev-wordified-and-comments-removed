@@ -2063,7 +2063,9 @@ RESULT_TYPE
 DYNAMIC
 source
 :
-UrlbarUtils
+lazy
+.
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -2135,7 +2137,9 @@ RESULT_TYPE
 SEARCH
 source
 :
-UrlbarUtils
+lazy
+.
+UrlbarShared
 .
 RESULT_SOURCE
 .

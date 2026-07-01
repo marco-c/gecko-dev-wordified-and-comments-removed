@@ -816,7 +816,9 @@ RESULT_TYPE
 DYNAMIC
 source
 :
-UrlbarUtils
+lazy
+.
+UrlbarShared
 .
 RESULT_SOURCE
 .

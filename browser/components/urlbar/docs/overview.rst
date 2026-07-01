@@ -423,7 +423,7 @@ array
 list
 of
 accepted
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 for
@@ -2784,7 +2784,7 @@ integer
 }
 One
 of
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .

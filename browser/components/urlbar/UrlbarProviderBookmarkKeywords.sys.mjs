@@ -286,7 +286,9 @@ queryContext
 restrictSource
 =
 =
-UrlbarUtils
+lazy
+.
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -535,7 +537,9 @@ RESULT_TYPE
 KEYWORD
 source
 :
-UrlbarUtils
+lazy
+.
+UrlbarShared
 .
 RESULT_SOURCE
 .
