@@ -4409,13 +4409,6 @@ MOZ_ASSERT_IF
 result
 functionFlags
 .
-isAsmJSNative
-(
-)
-|
-|
-functionFlags
-.
 hasBaseScript
 (
 )

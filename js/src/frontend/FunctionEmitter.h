@@ -200,16 +200,6 @@ emitAgain
 (
 )
 ;
-[
-[
-nodiscard
-]
-]
-bool
-emitAsmJSModule
-(
-)
-;
 private
 :
 [
