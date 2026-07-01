@@ -74,6 +74,10 @@ onAvailable
 (
 [
 {
+browsingContextID
+:
+-
+1
 }
 ]
 )
