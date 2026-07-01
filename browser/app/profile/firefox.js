@@ -1507,7 +1507,7 @@ true
 ;
 #
 endif
-sticky_pref
+pref
 (
 "
 browser

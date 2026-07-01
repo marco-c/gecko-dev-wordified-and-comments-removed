@@ -1251,9 +1251,6 @@ appearance
 browserTheme
 "
 "
-windowDensity
-"
-"
 relatedSettings
 "
 ]
