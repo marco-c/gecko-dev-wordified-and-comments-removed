@@ -7,6 +7,11 @@ AutoObjectMapper_h
 #
 include
 <
+cstdint
+>
+#
+include
+<
 string
 >
 #
@@ -68,6 +73,10 @@ std
 :
 string
 fileName
+uint64_t
+offset
+=
+0
 )
 ;
 protected
