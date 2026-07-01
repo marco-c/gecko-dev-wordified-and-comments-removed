@@ -96,6 +96,12 @@ aPrivateBrowsing
 false
 )
 ;
+static
+uint16_t
+GetWindowIconOverride
+(
+)
+;
 private
 :
 bool
