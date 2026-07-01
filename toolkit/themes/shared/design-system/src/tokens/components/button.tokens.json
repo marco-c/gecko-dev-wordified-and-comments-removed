@@ -3606,6 +3606,13 @@ primary
 selected
 }
 "
+"
+nativeTheme
+"
+:
+"
+currentColor
+"
 }
 }
 }
