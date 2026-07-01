@@ -461,6 +461,18 @@ base
 value
 "
 :
+{
+"
+nativeTheme
+"
+:
+"
+transparent
+"
+"
+default
+"
+:
 "
 {
 button
@@ -472,6 +484,7 @@ color
 base
 }
 "
+}
 }
 "
 disabled
