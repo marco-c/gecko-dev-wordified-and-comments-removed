@@ -9836,6 +9836,12 @@ components
 :
 concept
 -
+accelerometer
+-
+components
+:
+concept
+-
 ai
 -
 controls
@@ -9883,6 +9889,12 @@ components
 lib
 -
 publicsuffixlist
+-
+components
+:
+lib
+-
+shake
 -
 components
 :

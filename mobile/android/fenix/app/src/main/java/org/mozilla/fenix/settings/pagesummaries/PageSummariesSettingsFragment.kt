@@ -358,6 +358,13 @@ cache
 gestureEnabled
 .
 value
+shakeSensitivity
+=
+cache
+.
+shakeSensitivity
+.
+value
 )
 reducer
 =
