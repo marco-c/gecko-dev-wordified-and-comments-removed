@@ -488,6 +488,9 @@ UrlbarParentController
 #
 parent
 ;
+#
+input
+;
 /
 *
 *
@@ -658,6 +661,15 @@ input
 )
 ;
 }
+this
+.
+#
+input
+=
+options
+.
+input
+;
 let
 actor
 =
@@ -732,8 +744,6 @@ return
 this
 .
 #
-parent
-.
 input
 ;
 }
@@ -746,9 +756,9 @@ return
 this
 .
 #
-parent
+input
 .
-browserWindow
+window
 ;
 }
 get
