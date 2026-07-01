@@ -189,6 +189,9 @@ Boolean
 showToolbarPage
 :
 Boolean
+manufacturerChecker
+:
+ManufacturerChecker
 jexlConditions
 :
 Map
@@ -196,9 +199,6 @@ Map
 String
 String
 >
-manufacturerChecker
-:
-ManufacturerChecker
 jexlEvaluator
 :
 (

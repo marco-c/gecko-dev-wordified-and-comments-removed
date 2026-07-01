@@ -2198,10 +2198,10 @@ isTabStripEnabled
 not
 (
 )
-jexlConditions
 BuildManufacturerChecker
 (
 )
+jexlConditions
 )
 {
 condition
