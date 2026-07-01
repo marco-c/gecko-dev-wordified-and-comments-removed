@@ -71,6 +71,7 @@ ffi
 :
 :
 {
+c_char
 CStr
 CString
 }
@@ -124,6 +125,11 @@ minidump_path
 *
 const
 BreakpadChar
+build_id
+:
+*
+const
+c_char
 )
 -
 >
@@ -207,6 +213,20 @@ minidump_path
 }
 ;
 let
+build_id
+=
+unsafe
+{
+CStr
+:
+:
+from_ptr
+(
+build_id
+)
+}
+;
+let
 pid
 =
 CrashHelperClient
@@ -218,6 +238,7 @@ program
 breakpad_data
 minidump_path
 server_endpoint
+build_id
 )
 ?
 ;
@@ -279,6 +300,10 @@ CStr
 server_endpoint
 :
 IPCConnector
+build_id
+:
+&
+CStr
 )
 -
 >
@@ -518,6 +543,7 @@ breakpad_data
 minidump_path
 &
 endpoint_arg
+build_id
 ]
 env
 .

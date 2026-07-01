@@ -937,6 +937,13 @@ using
 namespace
 mozilla
 ;
+extern
+const
+char
+gToolkitBuildID
+[
+]
+;
 #
 ifdef
 MOZ_PHC
@@ -15587,6 +15594,7 @@ get
 (
 )
 )
+gToolkitBuildID
 )
 ;
 #
@@ -15648,6 +15656,7 @@ tempPath
 get
 (
 )
+gToolkitBuildID
 )
 ;
 close
@@ -15741,6 +15750,7 @@ tempPath
 get
 (
 )
+gToolkitBuildID
 )
 ;
 #
