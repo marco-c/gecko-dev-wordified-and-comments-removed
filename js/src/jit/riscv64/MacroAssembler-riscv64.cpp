@@ -5529,7 +5529,7 @@ kNegativeZero
 )
 fail
 Equal
-LongJump
+ShortJump
 )
 ;
 }
@@ -5565,7 +5565,7 @@ Imm32
 )
 fail
 Equal
-LongJump
+ShortJump
 )
 ;
 }
@@ -5606,7 +5606,7 @@ kNegativeZero
 )
 fail
 Equal
-LongJump
+ShortJump
 )
 ;
 }
@@ -5642,7 +5642,7 @@ Imm32
 )
 fail
 Equal
-LongJump
+ShortJump
 )
 ;
 }
@@ -5683,7 +5683,7 @@ kNegativeZero
 )
 fail
 Equal
-LongJump
+ShortJump
 )
 ;
 }
@@ -5719,7 +5719,7 @@ Imm32
 )
 fail
 Equal
-LongJump
+ShortJump
 )
 ;
 }
@@ -17847,7 +17847,7 @@ Assembler
 :
 :
 Signed
-LongJump
+ShortJump
 )
 ;
 }
@@ -17945,7 +17945,7 @@ Assembler
 :
 :
 Signed
-LongJump
+ShortJump
 )
 ;
 }
@@ -18985,7 +18985,7 @@ kNegativeZero
 )
 fail
 Equal
-LongJump
+ShortJump
 )
 ;
 }
@@ -19064,7 +19064,7 @@ kNegativeZero
 )
 fail
 Equal
-LongJump
+ShortJump
 )
 ;
 }
@@ -21287,7 +21287,7 @@ Assembler
 :
 :
 Equal
-LongJump
+ShortJump
 )
 ;
 }
@@ -21495,7 +21495,7 @@ kNegativeZero
 )
 fail
 Equal
-LongJump
+ShortJump
 )
 ;
 }
@@ -22139,7 +22139,7 @@ Assembler
 :
 :
 Signed
-LongJump
+ShortJump
 )
 ;
 }
@@ -22237,7 +22237,7 @@ Assembler
 :
 :
 Signed
-LongJump
+ShortJump
 )
 ;
 }
