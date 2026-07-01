@@ -1937,6 +1937,9 @@ nullptr
 ;
 return
 firstChild
+&
+&
+firstChild
 -
 >
 IsListControl
