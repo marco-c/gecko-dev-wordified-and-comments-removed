@@ -93,6 +93,10 @@ bug
 lang
 =
 None
+    
+mentor
+=
+None
 )
 :
     
@@ -198,6 +202,19 @@ lang
 }
 ]
 "
+    
+if
+mentor
+:
+        
+params
+[
+"
+bug_mentors
+"
+]
+=
+mentor
     
 return
 "
@@ -336,6 +353,40 @@ lang
 "
 )
     
+parser
+.
+add_argument
+(
+        
+"
+-
+-
+mentor
+"
+        
+help
+=
+"
+Email
+of
+the
+mentor
+(
+typically
+the
+bug
+filer
+)
+to
+prefill
+the
+bug_mentor
+field
+.
+"
+    
+)
+    
 args
 =
 parser
@@ -388,6 +439,12 @@ lang
 args
 .
 lang
+            
+mentor
+=
+args
+.
+mentor
         
 )
     
