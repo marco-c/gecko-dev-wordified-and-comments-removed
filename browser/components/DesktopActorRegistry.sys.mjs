@@ -1831,17 +1831,6 @@ true
 "
 BackupUI
 :
-EditBackupLocation
-"
-:
-{
-wantUntrusted
-:
-true
-}
-"
-BackupUI
-:
 SetEmbeddedComponentPersistentData
 "
 :
