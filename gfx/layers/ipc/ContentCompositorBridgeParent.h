@@ -727,6 +727,10 @@ aCompositeStart
 TimeStamp
 &
 aCompositeEnd
+const
+StaticMonitorAutoLock
+&
+aProofOfLock
 )
 ;
 already_AddRefed
