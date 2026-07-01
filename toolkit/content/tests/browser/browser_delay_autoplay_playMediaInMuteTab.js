@@ -473,6 +473,10 @@ tab
 .
 linkedBrowser
 .
+browsingContext
+.
+mediaController
+.
 mute
 (
 )

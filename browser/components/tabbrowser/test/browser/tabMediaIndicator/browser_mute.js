@@ -35,6 +35,10 @@ default
 ;
 browser
 .
+browsingContext
+.
+mediaController
+.
 mute
 (
 )
@@ -54,6 +58,10 @@ now
 )
 ;
 browser
+.
+browsingContext
+.
+mediaController
 .
 unmute
 (

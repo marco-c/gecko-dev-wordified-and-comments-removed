@@ -1286,6 +1286,12 @@ page
 .
 browser
 .
+browsingContext
+?
+.
+mediaController
+?
+.
 mute
 (
 )
@@ -1302,6 +1308,12 @@ DidChangeBrowserRemoteness
 =
 >
 browser
+.
+browsingContext
+?
+.
+mediaController
+?
 .
 mute
 (

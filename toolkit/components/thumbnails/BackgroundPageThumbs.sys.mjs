@@ -2586,6 +2586,12 @@ NOTIFY_STATE_WINDOW
 ;
 browser
 .
+browsingContext
+?
+.
+mediaController
+?
+.
 mute
 (
 )
