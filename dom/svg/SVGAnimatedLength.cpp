@@ -1964,7 +1964,6 @@ mFrame
 GetContent
 (
 )
-NS_UNCONSTRAINEDSIZE
 1
 .
 0f

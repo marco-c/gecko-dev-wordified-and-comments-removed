@@ -11234,11 +11234,6 @@ spanFrame
 GetContent
 (
 )
-mLineContainerRI
-.
-ComputedHeight
-(
-)
 inflation
 )
 ;
@@ -12949,11 +12944,6 @@ frame
 -
 >
 GetContent
-(
-)
-mLineContainerRI
-.
-ComputedBSize
 (
 )
 inflation

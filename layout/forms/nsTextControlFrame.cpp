@@ -720,7 +720,6 @@ PresContext
 GetContent
 (
 )
-NS_UNCONSTRAINEDSIZE
 inflation
 )
 ;

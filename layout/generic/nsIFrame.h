@@ -5899,10 +5899,6 @@ GetWritingMode
 nscoord
 GetFontMetricsDerivedCaretBaseline
 (
-nscoord
-aBSize
-=
-NS_UNCONSTRAINEDSIZE
 )
 const
 ;

@@ -1836,8 +1836,6 @@ const
 nsIContent
 *
 aContent
-nscoord
-aBlockBSize
 float
 aFontSizeInflation
 )
@@ -1862,8 +1860,6 @@ const
 nsIContent
 *
 aContent
-nscoord
-aBlockBSize
 float
 aFontSizeInflation
 )
