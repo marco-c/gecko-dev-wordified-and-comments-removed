@@ -99,6 +99,16 @@ MediaDevice
 )
 override
 ;
+void
+InvalidateDesktopCaptureDeviceCache
+(
+dom
+:
+:
+MediaSourceEnum
+)
+override
+;
 RefPtr
 <
 MediaEngineSource

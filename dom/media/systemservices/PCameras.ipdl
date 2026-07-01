@@ -440,6 +440,13 @@ __delete__
 parent
 :
 async
+InvalidateDesktopCaptureDeviceCache
+(
+CaptureEngine
+engine
+)
+;
+async
 NumberOfCaptureDevices
 (
 CaptureEngine
