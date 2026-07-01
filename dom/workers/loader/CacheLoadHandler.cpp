@@ -463,8 +463,10 @@ mCachePromise
 =
 nullptr
 ;
-auto
-*
+RefPtr
+<
+CacheCreator
+>
 cacheCreator
 =
 mRequestHandle
@@ -2250,8 +2252,10 @@ IsCancelled
 )
 )
 {
-auto
-*
+RefPtr
+<
+CacheCreator
+>
 cacheCreator
 =
 mRequestHandle
