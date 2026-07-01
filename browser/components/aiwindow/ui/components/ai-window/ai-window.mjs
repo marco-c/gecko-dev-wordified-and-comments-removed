@@ -1120,10 +1120,6 @@ up
 "
 |
 "
-shortcuts
-"
-|
-"
 starter
 "
 |
