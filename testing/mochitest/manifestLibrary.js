@@ -165,6 +165,11 @@ allow_xul_xbl
 obj
 .
 allow_xul_xbl
+manifest
+:
+obj
+.
+manifest
 }
 }
 ;
@@ -232,6 +237,11 @@ allow_xul_xbl
 obj
 .
 allow_xul_xbl
+manifest
+:
+obj
+.
+manifest
 }
 }
 )
