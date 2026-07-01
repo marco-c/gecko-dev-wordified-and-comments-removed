@@ -1055,6 +1055,11 @@ SystemAllocPolicy
 >
 offThreadJobs
 ;
+uint32_t
+pendingRootModuleEvaluations
+=
+0
+;
 using
 ObjectVector
 =
