@@ -97,6 +97,14 @@ etw_profile
 =
 True
             
+if
+args
+.
+browser_cycles
+is
+None
+:
+                
 test
 [
 "
