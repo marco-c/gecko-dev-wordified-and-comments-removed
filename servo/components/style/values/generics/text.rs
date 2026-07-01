@@ -563,16 +563,12 @@ u8
 [
 derive
 (
-Animate
 Clone
-ComputeSquaredDistance
 Debug
 Eq
 MallocSizeOf
 PartialEq
 SpecifiedValueInfo
-ToAnimatedValue
-ToAnimatedZero
 ToComputedValue
 ToResolvedValue
 ToShmem

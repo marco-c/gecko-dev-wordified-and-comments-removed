@@ -2041,6 +2041,13 @@ Element
 aElement
 )
 ;
+float
+Gecko_CalcAutoDecorationInset
+(
+float
+aFontSize
+)
+;
 const
 mozilla
 :
