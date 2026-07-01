@@ -336,6 +336,10 @@ moz
 libsoundtouch
 .
 patch
+-
+ratetransposer
+.
+patch
 update
 -
 actions
