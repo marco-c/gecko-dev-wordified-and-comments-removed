@@ -11652,6 +11652,7 @@ nsPoint
 (
 )
 isSelected
+aImgParams
 )
 ;
 }
@@ -11669,6 +11670,7 @@ nsPoint
 (
 )
 isSelected
+aImgParams
 )
 ;
 }

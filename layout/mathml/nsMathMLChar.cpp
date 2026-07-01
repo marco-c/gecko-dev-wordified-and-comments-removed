@@ -7747,6 +7747,17 @@ aCtx
 )
 override
 {
+imgDrawingParams
+imgParams
+(
+aBuilder
+-
+>
+GetImageDecodeFlags
+(
+)
+)
+;
 mChar
 -
 >
@@ -7755,6 +7766,7 @@ PaintForeground
 mFrame
 *
 aCtx
+imgParams
 ToReferenceFrame
 (
 )
@@ -8232,6 +8244,9 @@ aForFrame
 gfxContext
 &
 aRenderingContext
+imgDrawingParams
+&
+aImgParams
 nsPoint
 aPt
 bool
@@ -8432,6 +8447,7 @@ FontPaletteCache
 (
 )
 )
+aImgParams
 )
 ;
 }
@@ -8460,6 +8476,7 @@ PaintVertically
 presContext
 &
 aRenderingContext
+aImgParams
 r
 fgColor
 )
@@ -8482,6 +8499,7 @@ PaintHorizontally
 presContext
 &
 aRenderingContext
+aImgParams
 r
 fgColor
 )
@@ -8718,6 +8736,9 @@ aPresContext
 gfxContext
 *
 aThebesContext
+imgDrawingParams
+&
+aImgParams
 nsRect
 &
 aRect
@@ -9303,6 +9324,7 @@ dx
 dy
 )
 params
+aImgParams
 )
 ;
 }
@@ -9702,6 +9724,7 @@ dx
 dy
 )
 params
+aImgParams
 )
 ;
 dy
@@ -9779,6 +9802,9 @@ aPresContext
 gfxContext
 *
 aThebesContext
+imgDrawingParams
+&
+aImgParams
 nsRect
 &
 aRect
@@ -10312,6 +10338,7 @@ dx
 dy
 )
 params
+aImgParams
 )
 ;
 }
@@ -10709,6 +10736,7 @@ dx
 dy
 )
 params
+aImgParams
 )
 ;
 dx

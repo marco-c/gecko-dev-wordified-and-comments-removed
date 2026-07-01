@@ -8165,6 +8165,9 @@ aElement
 gfxContext
 *
 aContext
+imgDrawingParams
+&
+aImgParams
 )
 {
 nsIFrame
@@ -8225,9 +8228,6 @@ frame
 )
 ;
 }
-imgDrawingParams
-dummy
-;
 svgFrame
 -
 >
@@ -8236,7 +8236,7 @@ PaintSVG
 *
 aContext
 m
-dummy
+aImgParams
 )
 ;
 }

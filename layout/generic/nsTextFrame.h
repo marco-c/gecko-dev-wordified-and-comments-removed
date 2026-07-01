@@ -358,6 +358,17 @@ mozilla
 :
 TextRangeStyle
 ;
+using
+imgDrawingParams
+=
+mozilla
+:
+:
+image
+:
+:
+imgDrawingParams
+;
 public
 :
 enum
@@ -2353,6 +2364,9 @@ aToReferenceFrame
 const
 bool
 aIsSelected
+imgDrawingParams
+&
+aImgParams
 float
 aOpacity
 =
@@ -2376,6 +2390,9 @@ const
 SelectionDetails
 &
 aDetails
+imgDrawingParams
+&
+aImgParams
 )
 ;
 bool
@@ -2396,6 +2413,9 @@ const
 ClipEdges
 &
 aClipEdges
+imgDrawingParams
+&
+aImgParams
 )
 ;
 void
@@ -2480,6 +2500,9 @@ aDecorationOverrideColor
 PropertyProvider
 *
 aProvider
+imgDrawingParams
+&
+aImgParams
 )
 ;
 nscolor
@@ -3158,6 +3181,9 @@ gfxRect
 aBoundingBox
 uint32_t
 aBlurFlags
+imgDrawingParams
+&
+aImgParams
 )
 ;
 void
@@ -3178,6 +3204,9 @@ const
 PaintShadowParams
 &
 aParams
+imgDrawingParams
+&
+aImgParams
 )
 ;
 struct
@@ -3499,6 +3528,9 @@ const
 DrawTextRunParams
 &
 aParams
+imgDrawingParams
+&
+aImgParams
 )
 ;
 void
@@ -3524,6 +3556,9 @@ const
 TextDecorations
 &
 aDecorations
+imgDrawingParams
+&
+aImgParams
 )
 ;
 void
@@ -3545,6 +3580,9 @@ const
 DrawTextParams
 &
 aParams
+imgDrawingParams
+&
+aImgParams
 )
 ;
 bool

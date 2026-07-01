@@ -35990,6 +35990,9 @@ gfxRect
 aBoundingBox
 uint32_t
 aBlurFlags
+imgDrawingParams
+&
+aImgParams
 )
 {
 AUTO_PROFILER_LABEL
@@ -36529,6 +36532,7 @@ textBaselinePt
 +
 shadowGfxOffset
 params
+aImgParams
 )
 ;
 contextBoxBlur
@@ -37642,6 +37646,9 @@ const
 ClipEdges
 &
 aClipEdges
+imgDrawingParams
+&
+aImgParams
 )
 {
 bool
@@ -38854,6 +38861,7 @@ PaintShadows
 (
 shadowSpan
 shadowParams
+aImgParams
 )
 ;
 }
@@ -38938,6 +38946,7 @@ DrawText
 range
 textBaselinePt
 params
+aImgParams
 )
 ;
 advance
@@ -39560,6 +39569,9 @@ const
 SelectionDetails
 &
 aDetails
+imgDrawingParams
+&
+aImgParams
 )
 {
 NS_ASSERTION
@@ -39592,6 +39604,7 @@ aDetails
 &
 allSelectionTypeMask
 aClipEdges
+aImgParams
 )
 )
 {
@@ -39712,6 +39725,12 @@ aDecorationOverrideColor
 PropertyProvider
 *
 aProvider
+image
+:
+:
+imgDrawingParams
+&
+aImgParams
 )
 {
 const
@@ -39976,6 +39995,7 @@ PresContext
 FontPaletteCache
 (
 )
+aImgParams
 )
 ;
 }
@@ -40039,6 +40059,7 @@ get
 )
 pt
 params
+aImgParams
 )
 ;
 }
@@ -40988,6 +41009,9 @@ const
 PaintShadowParams
 &
 aParams
+imgDrawingParams
+&
+aImgParams
 )
 {
 if
@@ -41261,6 +41285,7 @@ shadowMetrics
 .
 mBoundingBox
 blurFlags
+aImgParams
 )
 ;
 }
@@ -41288,6 +41313,9 @@ aToReferenceFrame
 const
 bool
 aIsSelected
+imgDrawingParams
+&
+aImgParams
 float
 aOpacity
 )
@@ -41883,6 +41911,7 @@ params
 clipEdges
 *
 selectionDetails
+aImgParams
 )
 )
 {
@@ -42113,6 +42142,7 @@ AsSpan
 (
 )
 shadowParams
+aImgParams
 )
 ;
 }
@@ -42266,6 +42296,7 @@ DrawText
 range
 textBaselinePt
 params
+aImgParams
 )
 ;
 }
@@ -42296,6 +42327,15 @@ nsTextFrame
 DrawTextRunParams
 &
 aParams
+mozilla
+:
+:
+image
+:
+:
+imgDrawingParams
+&
+aImgParams
 nsTextFrame
 *
 aFrame
@@ -42402,6 +42442,7 @@ Draw
 aRange
 aTextBaselinePt
 params
+aImgParams
 )
 ;
 aParams
@@ -42678,6 +42719,7 @@ Draw
 aRange
 aTextBaselinePt
 params
+aImgParams
 )
 ;
 }
@@ -42691,6 +42733,7 @@ Draw
 aRange
 aTextBaselinePt
 params
+aImgParams
 )
 ;
 }
@@ -42715,6 +42758,9 @@ const
 DrawTextRunParams
 &
 aParams
+imgDrawingParams
+&
+aImgParams
 )
 {
 MOZ_ASSERT
@@ -42737,6 +42783,7 @@ mTextRun
 aTextBaselinePt
 aRange
 aParams
+aImgParams
 this
 )
 ;
@@ -42860,6 +42907,7 @@ get
 )
 )
 params
+aImgParams
 this
 )
 ;
@@ -42889,6 +42937,9 @@ const
 TextDecorations
 &
 aDecorations
+imgDrawingParams
+&
+aImgParams
 )
 {
 const
@@ -43932,6 +43983,7 @@ DrawTextRun
 aRange
 aTextBaselinePt
 aParams
+aImgParams
 )
 ;
 }
@@ -43952,6 +44004,7 @@ decorationOverrideColor
 aParams
 .
 provider
+aImgParams
 )
 ;
 params
@@ -44012,6 +44065,9 @@ const
 DrawTextParams
 &
 aParams
+imgDrawingParams
+&
+aImgParams
 )
 {
 TextDecorations
@@ -44086,6 +44142,7 @@ aRange
 aTextBaselinePt
 aParams
 decorations
+aImgParams
 )
 ;
 }
@@ -44096,6 +44153,7 @@ DrawTextRun
 aRange
 aTextBaselinePt
 aParams
+aImgParams
 )
 ;
 }

@@ -268,6 +268,17 @@ gfx
 DrawTarget
 DrawTarget
 ;
+using
+imgDrawingParams
+=
+mozilla
+:
+:
+image
+:
+:
+imgDrawingParams
+;
 nsMathMLChar
 (
 )
@@ -359,6 +370,9 @@ aForFrame
 gfxContext
 &
 aRenderingContext
+imgDrawingParams
+&
+aImgParams
 nsPoint
 aPt
 bool
@@ -717,6 +731,9 @@ aPresContext
 gfxContext
 *
 aThebesContext
+imgDrawingParams
+&
+aImgParams
 nsRect
 &
 aRect
@@ -733,6 +750,9 @@ aPresContext
 gfxContext
 *
 aThebesContext
+imgDrawingParams
+&
+aImgParams
 nsRect
 &
 aRect

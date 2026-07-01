@@ -2437,6 +2437,15 @@ provider
 &
 provider
 ;
+mozilla
+:
+:
+image
+:
+:
+imgDrawingParams
+dummy
+;
 textRun
 -
 >
@@ -2445,6 +2454,7 @@ Draw
 range
 pt
 params
+dummy
 )
 ;
 }
@@ -2600,6 +2610,15 @@ provider
 &
 provider
 ;
+mozilla
+:
+:
+image
+:
+:
+imgDrawingParams
+dummy
+;
 textRun
 -
 >
@@ -2608,6 +2627,7 @@ Draw
 range
 pt
 params
+dummy
 )
 ;
 }

@@ -28396,6 +28396,9 @@ aFrame
 gfxContext
 *
 aContext
+imgDrawingParams
+&
+aImgParams
 const
 nsRect
 &
@@ -28704,6 +28707,7 @@ shadowColor
 aCallback
 (
 shadowContext
+aImgParams
 shadowOffset
 shadowColor
 aCallbackData

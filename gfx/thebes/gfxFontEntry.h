@@ -680,6 +680,17 @@ mozilla
 StretchRange
 StretchRange
 ;
+using
+imgDrawingParams
+=
+mozilla
+:
+:
+image
+:
+:
+imgDrawingParams
+;
 NS_INLINE_DECL_THREADSAFE_REFCOUNTING
 (
 gfxFontEntry
@@ -1401,6 +1412,9 @@ mozilla
 SVGContextPaint
 *
 aContextPaint
+imgDrawingParams
+&
+aImgParams
 )
 ;
 void

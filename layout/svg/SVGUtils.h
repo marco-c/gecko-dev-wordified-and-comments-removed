@@ -871,6 +871,11 @@ float
 aWidth
 float
 aHeight
+SVGBBoxFlags
+aFlags
+=
+{
+}
 )
 ;
 static
@@ -1360,6 +1365,9 @@ aElement
 gfxContext
 *
 aContext
+imgDrawingParams
+&
+aImgParams
 )
 ;
 static
