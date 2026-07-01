@@ -25,6 +25,7 @@ metrics
 application
 "
 false
+false
 ]
 [
 "
@@ -42,6 +43,7 @@ metrics
 application
 "
 false
+false
 ]
 [
 "
@@ -58,6 +60,7 @@ metrics
 "
 ping
 "
+false
 false
 {
 "
@@ -100,6 +103,7 @@ metrics
 application
 "
 false
+false
 {
 "
 ordered_labels
@@ -123,6 +127,7 @@ metrics
 "
 application
 "
+false
 false
 {
 "
@@ -179,6 +184,7 @@ metrics
 application
 "
 false
+false
 {
 "
 ordered_labels
@@ -202,6 +208,7 @@ metrics
 "
 application
 "
+false
 false
 {
 "
@@ -234,6 +241,7 @@ metrics
 application
 "
 false
+false
 {
 "
 ordered_labels
@@ -257,6 +265,7 @@ metrics
 "
 application
 "
+false
 false
 {
 "
@@ -289,6 +298,7 @@ metrics
 ping
 "
 false
+false
 {
 "
 memory_unit
@@ -315,6 +325,7 @@ metrics
 application
 "
 false
+false
 ]
 [
 "
@@ -331,6 +342,7 @@ metrics
 "
 application
 "
+false
 false
 ]
 [
@@ -349,6 +361,7 @@ metrics
 application
 "
 false
+false
 ]
 [
 "
@@ -365,6 +378,7 @@ metrics
 "
 application
 "
+false
 false
 {
 "
@@ -392,6 +406,7 @@ metrics
 ping
 "
 false
+false
 {
 "
 time_unit
@@ -418,6 +433,7 @@ metrics
 ping
 "
 false
+false
 {
 "
 permit_non_commutative_operations_over_ipc
@@ -441,6 +457,7 @@ metrics
 "
 ping
 "
+false
 false
 {
 "
@@ -478,6 +495,7 @@ metrics
 "
 ping
 "
+false
 false
 {
 "
@@ -521,6 +539,7 @@ metrics
 ping
 "
 false
+false
 ]
 [
 "
@@ -537,6 +556,7 @@ metrics
 "
 application
 "
+false
 false
 {
 "
@@ -564,6 +584,7 @@ events
 ping
 "
 false
+true
 {
 "
 allowed_extra_keys
@@ -589,6 +610,7 @@ events
 ping
 "
 false
+true
 {
 "
 allowed_extra_keys
@@ -626,6 +648,7 @@ metrics
 ping
 "
 false
+false
 {
 "
 numerators
@@ -651,6 +674,7 @@ ping
 "
 false
 null
+false
 ]
 ]
 }
@@ -671,6 +695,7 @@ metrics
 ping
 "
 false
+false
 ]
 [
 "
@@ -688,6 +713,7 @@ metrics
 ping
 "
 true
+false
 ]
 [
 "
@@ -704,6 +730,7 @@ metrics
 "
 ping
 "
+false
 false
 ]
 [
@@ -722,6 +749,7 @@ metrics
 ping
 "
 false
+false
 ]
 [
 "
@@ -739,6 +767,7 @@ metrics
 ping
 "
 false
+false
 ]
 [
 "
@@ -755,6 +784,7 @@ metrics
 "
 ping
 "
+false
 false
 {
 "
@@ -779,6 +809,7 @@ metrics
 "
 application
 "
+false
 false
 ]
 ]

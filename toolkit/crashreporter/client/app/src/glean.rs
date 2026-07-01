@@ -536,6 +536,9 @@ locale
 self
 .
 locale
+os_version
+:
+None
 }
 )
 ;
