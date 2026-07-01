@@ -5672,6 +5672,19 @@ samply
 "
 )
         
+if
+not
+is_external_browser
+(
+test
+[
+"
+app
+"
+]
+)
+:
+            
 fetches
 .
 setdefault
@@ -5686,7 +5699,7 @@ build
 append
 (
 {
-            
+                
 "
 artifact
 "
@@ -5700,13 +5713,13 @@ symbols
 .
 zip
 "
-            
+                
 "
 extract
 "
 :
 False
-        
+            
 }
 )
     
