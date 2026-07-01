@@ -196,6 +196,17 @@ include
 "
 modules
 /
+pacing
+/
+packet_router
+.
+h
+"
+#
+include
+"
+modules
+/
 rtp_rtcp
 /
 include
@@ -519,6 +530,8 @@ audio_decoder_factory_
 nullptr
 crypto_options
 nullptr
+&
+packet_router_
 )
 ;
 channel
@@ -1031,6 +1044,9 @@ audio_decoder_factory_
 ;
 MockTransport
 transport_
+;
+PacketRouter
+packet_router_
 ;
 }
 ;

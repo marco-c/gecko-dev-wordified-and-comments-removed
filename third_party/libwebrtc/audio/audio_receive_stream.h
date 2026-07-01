@@ -374,10 +374,6 @@ const
 Environment
 &
 env
-PacketRouter
-*
-absl_nonnull
-packet_router
 const
 webrtc
 :

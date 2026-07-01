@@ -2058,6 +2058,14 @@ mock_audio_device
 /
 modules
 /
+pacing
+"
+"
+.
+.
+/
+modules
+/
 rtp_rtcp
 :
 ntp_time_util
