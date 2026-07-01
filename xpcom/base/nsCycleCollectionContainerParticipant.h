@@ -91,15 +91,9 @@ ImplCycleCollectionIsContainerT
 std
 :
 :
-remove_cv_t
-<
-std
-:
-:
-remove_reference_t
+remove_cvref_t
 <
 T
->
 >
 Container
 >

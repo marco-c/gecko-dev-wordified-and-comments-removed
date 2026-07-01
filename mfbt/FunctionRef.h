@@ -617,15 +617,9 @@ is_same_v
 std
 :
 :
-remove_cv_t
-<
-std
-:
-:
-remove_reference_t
+remove_cvref_t
 <
 Callable
->
 >
 FunctionRef
 >

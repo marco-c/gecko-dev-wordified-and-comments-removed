@@ -2758,12 +2758,7 @@ IndexOrObjectStoreId
 std
 :
 :
-remove_cv_t
-<
-std
-:
-:
-remove_reference_t
+remove_cvref_t
 <
 decltype
 (
@@ -2785,7 +2780,6 @@ objectStoreId
 )
 >
 >
->
 )
 ;
 static_assert
@@ -2799,12 +2793,7 @@ IndexOrObjectStoreId
 std
 :
 :
-remove_cv_t
-<
-std
-:
-:
-remove_reference_t
+remove_cvref_t
 <
 decltype
 (
@@ -2824,7 +2813,6 @@ objectStoreId
 (
 )
 )
->
 >
 >
 )
