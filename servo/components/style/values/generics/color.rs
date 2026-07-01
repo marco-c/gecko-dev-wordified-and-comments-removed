@@ -90,6 +90,7 @@ MallocSizeOf
 PartialEq
 ToAnimatedValue
 ToShmem
+ToTyped
 )
 ]
 #
@@ -97,6 +98,13 @@ ToShmem
 repr
 (
 C
+)
+]
+#
+[
+typed
+(
+todo_derive_fields
 )
 ]
 pub
