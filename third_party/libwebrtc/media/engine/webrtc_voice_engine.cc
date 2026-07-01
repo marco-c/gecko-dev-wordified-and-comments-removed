@@ -6885,6 +6885,10 @@ engine_
 (
 engine
 )
+options_
+(
+options
+)
 call_
 (
 call
@@ -6916,11 +6920,6 @@ WebRtcVoiceSendChannel
 RTC_DCHECK
 (
 call
-)
-;
-SetOptions
-(
-options
 )
 ;
 }
@@ -11761,6 +11760,10 @@ engine_
 (
 engine
 )
+options_
+(
+options
+)
 call_
 (
 call
@@ -11792,11 +11795,6 @@ WebRtcVoiceReceiveChannel
 RTC_DCHECK
 (
 call
-)
-;
-SetOptions
-(
-options
 )
 ;
 }
