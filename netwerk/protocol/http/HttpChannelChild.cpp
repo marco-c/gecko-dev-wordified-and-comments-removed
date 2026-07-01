@@ -9514,6 +9514,13 @@ return
 NS_ERROR_FAILURE
 ;
 }
+ContentChild
+:
+:
+MaybeBecomeUntrusted
+(
+)
+;
 HttpBaseChannel
 :
 :
@@ -11940,6 +11947,13 @@ return
 NS_ERROR_FAILURE
 ;
 }
+ContentChild
+:
+:
+MaybeBecomeUntrusted
+(
+)
+;
 if
 (
 mLoadGroup

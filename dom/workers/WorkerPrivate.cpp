@@ -14065,6 +14065,13 @@ AssertIsOnMainThread
 (
 )
 ;
+ContentChild
+:
+:
+MaybeBecomeUntrusted
+(
+)
+;
 }
 Maybe
 <
