@@ -212,15 +212,11 @@ add_arg
 "
 -
 -
-extension
+enable
 -
-browser
--
-namespace
--
-on
--
-webpages
+features
+=
+ExtensionBrowserNamespaceOnWebPages
 "
 )
         
