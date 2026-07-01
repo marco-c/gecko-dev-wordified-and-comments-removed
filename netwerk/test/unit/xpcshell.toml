@@ -12235,13 +12235,6 @@ js
 ]
 [
 "
-test_no_vary_search_telemetry
-.
-js
-"
-]
-[
-"
 test_node_execute
 .
 js
