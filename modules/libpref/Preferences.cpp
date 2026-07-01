@@ -7689,10 +7689,9 @@ mNode
 ;
 }
 ;
-AutoTArray
+nsTArray
 <
 Child
-1
 >
 mChildren
 ;
