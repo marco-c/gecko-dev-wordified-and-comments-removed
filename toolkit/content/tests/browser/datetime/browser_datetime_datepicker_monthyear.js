@@ -247,7 +247,7 @@ KEY_Tab
 {
 repeat
 :
-3
+6
 }
 )
 ;
@@ -258,6 +258,8 @@ testKeyOnSpinners
 KEY_Enter
 "
 pickerDoc
+1
+true
 )
 ;
 await
@@ -266,6 +268,8 @@ testKeyOnSpinners
 "
 "
 pickerDoc
+1
+true
 )
 ;
 await
@@ -276,6 +280,7 @@ KEY_Enter
 "
 pickerDoc
 2
+true
 )
 ;
 await
@@ -285,6 +290,7 @@ testKeyOnSpinners
 "
 pickerDoc
 2
+true
 )
 ;
 await
@@ -762,7 +768,7 @@ KEY_Tab
 {
 repeat
 :
-3
+6
 }
 )
 ;
@@ -773,6 +779,8 @@ testKeyOnSpinners
 KEY_Escape
 "
 pickerDoc
+1
+true
 )
 ;
 await
@@ -783,6 +791,7 @@ KEY_Escape
 "
 pickerDoc
 2
+true
 )
 ;
 info
