@@ -2871,6 +2871,15 @@ third_party
 /
 libgav1
 :
+libgav1_decoder
+"
+"
+/
+/
+third_party
+/
+libgav1
+:
 libgav1_parser
 "
 ]
