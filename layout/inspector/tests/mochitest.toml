@@ -229,6 +229,13 @@ html
 ]
 [
 "
+test_getComputationStepsSupportedCSSFunctions
+.
+html
+"
+]
+[
+"
 test_getCSSPseudoElementNames
 .
 html
