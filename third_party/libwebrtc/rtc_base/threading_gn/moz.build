@@ -551,6 +551,16 @@ __STDC_FORMAT_MACROS
 ]
 =
 True
+OS_LIBS
++
+=
+[
+"
+-
+framework
+Foundation
+"
+]
 UNIFIED_SOURCES
 +
 =

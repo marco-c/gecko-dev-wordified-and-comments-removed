@@ -305,6 +305,16 @@ profiler
 public
 "
 ]
+OS_LIBS
++
+=
+[
+"
+-
+framework
+Foundation
+"
+]
 UNIFIED_SOURCES
 +
 =

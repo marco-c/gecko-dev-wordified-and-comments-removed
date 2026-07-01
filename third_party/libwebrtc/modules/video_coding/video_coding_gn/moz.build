@@ -677,6 +677,16 @@ __STDC_FORMAT_MACROS
 ]
 =
 True
+OS_LIBS
++
+=
+[
+"
+-
+framework
+Foundation
+"
+]
 if
 CONFIG
 [

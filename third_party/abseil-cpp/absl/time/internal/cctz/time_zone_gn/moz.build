@@ -504,6 +504,16 @@ _XOPEN_SOURCE
 "
 700
 "
+OS_LIBS
++
+=
+[
+"
+-
+framework
+Foundation
+"
+]
 if
 CONFIG
 [
