@@ -870,6 +870,13 @@ mPreventScriptExecution
 =
 false
 ;
+bool
+mXSLTIsDisabled
+:
+1
+=
+false
+;
 nsTArray
 <
 StackNode

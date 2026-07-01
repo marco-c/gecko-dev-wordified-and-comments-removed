@@ -49,6 +49,8 @@ Document
 *
 aDocument
 bool
+aShowXSLTDisabledMessage
+bool
 *
 aDidPrettyPrint
 )
