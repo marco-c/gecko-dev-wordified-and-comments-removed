@@ -2215,6 +2215,13 @@ request
 chatId
 ;
 const
+userAgent
+=
+navigator
+.
+userAgent
+;
+const
 client
 =
 new
@@ -2256,6 +2263,13 @@ apiKey
 defaultHeaders
 :
 {
+"
+user
+-
+agent
+"
+:
+userAgent
 .
 .
 .
