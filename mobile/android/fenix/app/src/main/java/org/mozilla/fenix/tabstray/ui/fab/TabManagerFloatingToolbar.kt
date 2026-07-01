@@ -1728,11 +1728,9 @@ TabsTrayTestTag
 .
 FAB
 )
-.
-then
-(
 iconModifier
-)
+=
+iconModifier
 contentDescription
 =
 contentDescription
