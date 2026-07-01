@@ -2698,16 +2698,6 @@ fontSize
 .
 625em
 "
-fontWeight
-:
-"
-600
-"
-top
-:
-"
-revert
-"
 lineHeight
 :
 "
