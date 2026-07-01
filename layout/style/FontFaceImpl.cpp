@@ -3203,10 +3203,7 @@ mStyle
 SlantStyleRange
 (
 FontSlantStyle
-:
-:
-FromFloat
-(
+{
 styleDesc
 .
 AsOblique
@@ -3214,12 +3211,9 @@ AsOblique
 )
 .
 _0
-)
+}
 FontSlantStyle
-:
-:
-FromFloat
-(
+{
 styleDesc
 .
 AsOblique
@@ -3227,7 +3221,7 @@ AsOblique
 )
 .
 _1
-)
+}
 )
 ;
 break

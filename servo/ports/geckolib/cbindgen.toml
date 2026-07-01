@@ -6493,8 +6493,12 @@ StyleComputedFontStyleDescriptor
 :
 Oblique
 (
+{
 0
+}
+{
 0
+}
 )
 ;
 }
