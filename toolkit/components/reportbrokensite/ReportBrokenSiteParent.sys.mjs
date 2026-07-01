@@ -253,6 +253,9 @@ antitracking
 hasMixedDisplayContentBlocked
 :
 {
+isTabSpecific
+:
+true
 value
 :
 antitracking

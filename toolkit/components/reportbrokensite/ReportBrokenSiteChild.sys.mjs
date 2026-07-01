@@ -1544,6 +1544,10 @@ url
 webcompatInfo
 .
 tabInfo
+?
+?
+{
+}
 ;
 /
 /
@@ -1576,6 +1580,11 @@ sendRecordedPageSpecificDetails
 =
 false
 ;
+if
+(
+url
+)
+{
 const
 givenUri
 =
@@ -1627,6 +1636,7 @@ recordedUri
 .
 pathname
 ;
+}
 }
 if
 (
