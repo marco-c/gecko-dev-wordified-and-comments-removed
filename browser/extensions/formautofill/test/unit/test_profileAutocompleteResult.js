@@ -376,6 +376,15 @@ primary
 "
 +
 secondary
+image
+:
+"
+"
+type
+:
+"
+address
+"
 fillMessageName
 :
 "
@@ -414,6 +423,11 @@ primary
 secondary
 ariaLabel
 image
+type
+:
+"
+payment
+"
 fillMessageName
 :
 "
