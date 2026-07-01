@@ -111,6 +111,9 @@ _uploadProfileArtifact
 installProfilerDumpAndQuit
 :
 _installProfilerDumpAndQuit
+setProfilerDumpTestName
+:
+_setProfilerDumpTestName
 }
 =
 ChromeUtils
@@ -2702,6 +2705,11 @@ _execute_test
 (
 )
 {
+_setProfilerDumpTestName
+(
+_TEST_NAME
+)
+;
 if
 (
 typeof
