@@ -78,12 +78,6 @@ library
 '
 id
 '
-kotlin
--
-android
-'
-id
-'
 mozac
 .
 PublicSuffixListPlugin
