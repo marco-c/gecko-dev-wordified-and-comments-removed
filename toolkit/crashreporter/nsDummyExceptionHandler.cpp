@@ -46,6 +46,8 @@ OOPInit
 nsIFile
 *
 aXREDirectory
+bool
+force
 )
 {
 return
