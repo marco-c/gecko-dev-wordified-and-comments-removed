@@ -6110,6 +6110,8 @@ buffer
 ;
 }
 }
+#
+endif
 function
 IteratorJoin
 (
@@ -6277,8 +6279,6 @@ return
 R
 ;
 }
-#
-endif
 function
 IteratorIncludes
 (
