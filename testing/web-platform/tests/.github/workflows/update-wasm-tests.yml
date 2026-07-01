@@ -62,7 +62,7 @@ uses
 actions
 /
 checkout
-v6
+v7
 with
 :
 path
@@ -79,7 +79,7 @@ uses
 actions
 /
 checkout
-v6
+v7
 with
 :
 repository
