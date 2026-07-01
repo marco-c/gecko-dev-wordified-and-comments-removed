@@ -272,6 +272,7 @@ waitForNewTab
 (
 gBrowser
 url
+true
 )
 ;
 const
