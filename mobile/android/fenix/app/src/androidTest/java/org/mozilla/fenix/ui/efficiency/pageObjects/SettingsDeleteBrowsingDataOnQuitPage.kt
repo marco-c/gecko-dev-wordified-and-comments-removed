@@ -296,10 +296,12 @@ listOf
 (
 NavigationStep
 .
-PressBack
-NavigationStep
+PressBackUntilGone
+(
+SettingsSelectors
 .
-PressBack
+NAVIGATION_TOOLBAR
+)
 )
 )
 }
