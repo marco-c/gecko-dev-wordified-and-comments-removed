@@ -92,6 +92,13 @@ json
 ]
 [
 "
+test_ActivityStream_contextualAds
+.
+js
+"
+]
+[
+"
 test_AdsFeed
 .
 js
