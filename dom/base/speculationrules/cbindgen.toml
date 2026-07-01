@@ -155,7 +155,7 @@ mozilla
 dom
 {
 class
-SpeculationRules
+SpeculationRuleSet
 ;
 }
 "
@@ -197,7 +197,7 @@ mozilla
 dom
 :
 :
-SpeculationRules
+SpeculationRuleSet
 "
 [
 fn

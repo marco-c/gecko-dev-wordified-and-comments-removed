@@ -1384,7 +1384,7 @@ ShadowRoot
 h
 "
 "
-SpeculationRules
+SpeculationRuleSet
 .
 h
 "
@@ -2399,7 +2399,7 @@ SourceLocation
 cpp
 "
 "
-SpeculationRules
+SpeculationRuleSet
 .
 cpp
 "

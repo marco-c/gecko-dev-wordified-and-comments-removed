@@ -393,7 +393,7 @@ GetComposedDoc
 doc
 -
 >
-UnregisterSpeculationRules
+UnregisterSpeculationRuleSet
 (
 this
 )
