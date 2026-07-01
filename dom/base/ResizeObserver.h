@@ -491,6 +491,11 @@ public
 nsISupports
 public
 nsWrapperCache
+public
+LinkedListElement
+<
+ResizeObserver
+>
 {
 public
 :

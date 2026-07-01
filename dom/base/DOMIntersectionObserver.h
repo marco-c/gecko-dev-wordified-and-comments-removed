@@ -18,6 +18,15 @@ include
 "
 mozilla
 /
+LinkedList
+.
+h
+"
+#
+include
+"
+mozilla
+/
 ServoStyleConsts
 .
 h
@@ -449,6 +458,11 @@ public
 nsISupports
 public
 nsWrapperCache
+public
+LinkedListElement
+<
+DOMIntersectionObserver
+>
 {
 ~
 DOMIntersectionObserver
