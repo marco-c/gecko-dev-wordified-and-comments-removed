@@ -1610,15 +1610,6 @@ IsHighPriority
 (
 queryFlags
 )
-&
-&
-!
-StaticPrefs
-:
-:
-network_http_happy_eyeballs_enabled
-(
-)
 )
 {
 return
