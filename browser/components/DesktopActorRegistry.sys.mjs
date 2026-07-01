@@ -5038,6 +5038,13 @@ browser
 xhtml
 "
 ]
+remoteTypes
+:
+[
+"
+parent
+"
+]
 }
 WebRTC
 :
