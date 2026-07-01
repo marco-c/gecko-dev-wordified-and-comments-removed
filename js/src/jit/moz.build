@@ -129,11 +129,6 @@ AliasAnalysis
 cpp
 "
 "
-AlignmentMaskAnalysis
-.
-cpp
-"
-"
 BacktrackingAllocator
 .
 cpp

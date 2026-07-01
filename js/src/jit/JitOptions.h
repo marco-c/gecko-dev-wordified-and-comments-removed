@@ -161,9 +161,6 @@ bool
 disableJitHints
 ;
 bool
-disableAma
-;
-bool
 disableEaa
 ;
 bool
