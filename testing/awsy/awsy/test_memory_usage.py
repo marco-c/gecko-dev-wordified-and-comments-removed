@@ -828,47 +828,48 @@ logger
 info
 (
             
+f
 "
 areweslimyet
 run
 by
-%
-d
-pages
-%
-d
-iterations
-"
-            
-"
-%
-d
-perTabPause
-%
-d
-settleWaitTime
-"
-            
-%
-(
-                
+{
 self
 .
 _pages_to_load
-                
+}
+pages
+"
+            
+f
+"
+{
 self
 .
 _iterations
-                
+}
+iterations
+"
+            
+f
+"
+{
 self
 .
 _perTabPause
-                
+}
+perTabPause
+"
+            
+f
+"
+{
 self
 .
 _settleWaitTime
-            
-)
+}
+settleWaitTime
+"
         
 )
         
@@ -1077,6 +1078,7 @@ logger
 .
 error
 (
+f
 "
 removePreloadedBrowser
 (
@@ -1084,11 +1086,10 @@ removePreloadedBrowser
 JavaScript
 error
 :
-%
-s
-"
-%
+{
 e
+}
+"
 )
         
 except
@@ -1121,6 +1122,7 @@ logger
 error
 (
                 
+f
 "
 removePreloadedBrowser
 (
@@ -1128,10 +1130,7 @@ removePreloadedBrowser
 Unexpected
 error
 :
-%
-s
-"
-%
+{
 sys
 .
 exc_info
@@ -1140,6 +1139,8 @@ exc_info
 [
 0
 ]
+}
+"
             
 )
         
