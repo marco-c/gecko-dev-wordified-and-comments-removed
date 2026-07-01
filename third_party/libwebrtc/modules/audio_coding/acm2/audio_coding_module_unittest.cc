@@ -213,17 +213,6 @@ include
 "
 api
 /
-environment
-/
-environment_factory
-.
-h
-"
-#
-include
-"
-api
-/
 make_ref_counted
 .
 h
@@ -510,6 +499,15 @@ include
 test
 /
 audio_decoder_proxy_factory
+.
+h
+"
+#
+include
+"
+test
+/
+create_test_environment
 .
 h
 "
@@ -956,7 +954,7 @@ AudioCodingModuleTestOldApi
 :
 env_
 (
-CreateEnvironment
+CreateTestEnvironment
 (
 )
 )
@@ -2299,7 +2297,7 @@ codec_factory
 >
 Create
 (
-CreateEnvironment
+CreateTestEnvironment
 (
 )
 SdpAudioFormat
@@ -4407,7 +4405,7 @@ AudioEncoderOpus
 :
 MakeAudioEncoder
 (
-CreateEnvironment
+CreateTestEnvironment
 (
 )
 *
@@ -4739,7 +4737,7 @@ AudioEncoderOpus
 :
 MakeAudioEncoder
 (
-CreateEnvironment
+CreateTestEnvironment
 (
 )
 *
@@ -5175,7 +5173,7 @@ AudioEncoderOpus
 :
 MakeAudioEncoder
 (
-CreateEnvironment
+CreateTestEnvironment
 (
 )
 *
@@ -5251,7 +5249,7 @@ AudioEncoderOpus
 :
 MakeAudioEncoder
 (
-CreateEnvironment
+CreateTestEnvironment
 (
 )
 *
@@ -5819,7 +5817,7 @@ AudioEncoderOpus
 :
 MakeAudioEncoder
 (
-CreateEnvironment
+CreateTestEnvironment
 (
 )
 *

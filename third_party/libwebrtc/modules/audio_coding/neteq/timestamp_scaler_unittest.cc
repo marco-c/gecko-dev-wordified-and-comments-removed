@@ -57,17 +57,6 @@ h
 #
 include
 "
-api
-/
-environment
-/
-environment_factory
-.
-h
-"
-#
-include
-"
 modules
 /
 audio_coding
@@ -90,6 +79,15 @@ audio_coding
 neteq
 /
 packet
+.
+h
+"
+#
+include
+"
+test
+/
+create_test_environment
 .
 h
 "
@@ -148,7 +146,7 @@ const
 Environment
 env
 =
-CreateEnvironment
+CreateTestEnvironment
 (
 )
 ;
@@ -278,7 +276,7 @@ const
 Environment
 env
 =
-CreateEnvironment
+CreateTestEnvironment
 (
 )
 ;
@@ -429,7 +427,7 @@ const
 Environment
 env
 =
-CreateEnvironment
+CreateTestEnvironment
 (
 )
 ;
@@ -570,7 +568,7 @@ const
 Environment
 env
 =
-CreateEnvironment
+CreateTestEnvironment
 (
 )
 ;
@@ -729,7 +727,7 @@ const
 Environment
 env
 =
-CreateEnvironment
+CreateTestEnvironment
 (
 )
 ;
@@ -952,7 +950,7 @@ const
 Environment
 env
 =
-CreateEnvironment
+CreateTestEnvironment
 (
 )
 ;
@@ -1101,7 +1099,7 @@ const
 Environment
 env
 =
-CreateEnvironment
+CreateTestEnvironment
 (
 )
 ;
@@ -1303,7 +1301,7 @@ const
 Environment
 env
 =
-CreateEnvironment
+CreateTestEnvironment
 (
 )
 ;
@@ -1496,7 +1494,7 @@ const
 Environment
 env
 =
-CreateEnvironment
+CreateTestEnvironment
 (
 )
 ;

@@ -35,17 +35,6 @@ include
 "
 api
 /
-environment
-/
-environment_factory
-.
-h
-"
-#
-include
-"
-api
-/
 video_codecs
 /
 sdp_video_format
@@ -82,6 +71,15 @@ media
 base
 /
 media_constants
+.
+h
+"
+#
+include
+"
+test
+/
+create_test_environment
 .
 h
 "
@@ -270,7 +268,7 @@ const
 Environment
 env
 =
-CreateEnvironment
+CreateTestEnvironment
 (
 )
 ;
@@ -315,7 +313,7 @@ const
 Environment
 env
 =
-CreateEnvironment
+CreateTestEnvironment
 (
 )
 ;
@@ -367,7 +365,7 @@ const
 Environment
 env
 =
-CreateEnvironment
+CreateTestEnvironment
 (
 )
 ;
@@ -419,7 +417,7 @@ const
 Environment
 env
 =
-CreateEnvironment
+CreateTestEnvironment
 (
 )
 ;
@@ -471,7 +469,7 @@ const
 Environment
 env
 =
-CreateEnvironment
+CreateTestEnvironment
 (
 )
 ;
@@ -559,7 +557,7 @@ const
 Environment
 env
 =
-CreateEnvironment
+CreateTestEnvironment
 (
 )
 ;
@@ -648,7 +646,7 @@ const
 Environment
 env
 =
-CreateEnvironment
+CreateTestEnvironment
 (
 )
 ;

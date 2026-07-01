@@ -546,6 +546,15 @@ include
 "
 test
 /
+create_test_environment
+.
+h
+"
+#
+include
+"
+test
+/
 gmock
 .
 h
@@ -1286,7 +1295,7 @@ make_unique
 FakePortAllocator
 >
 (
-CreateEnvironment
+CreateTestEnvironment
 (
 )
 socket_server_
@@ -2053,7 +2062,7 @@ pcf_dependencies
 Environment
 env
 =
-CreateEnvironment
+CreateTestEnvironment
 (
 )
 ;

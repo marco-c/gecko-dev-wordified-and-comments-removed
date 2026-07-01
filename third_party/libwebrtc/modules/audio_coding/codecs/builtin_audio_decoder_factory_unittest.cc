@@ -83,17 +83,6 @@ include
 "
 api
 /
-environment
-/
-environment_factory
-.
-h
-"
-#
-include
-"
-api
-/
 rtp_parameters
 .
 h
@@ -104,6 +93,15 @@ include
 api
 /
 scoped_refptr
+.
+h
+"
+#
+include
+"
+test
+/
+create_test_environment
 .
 h
 "
@@ -129,7 +127,7 @@ const
 Environment
 env
 =
-CreateEnvironment
+CreateTestEnvironment
 (
 )
 ;
@@ -182,7 +180,7 @@ const
 Environment
 env
 =
-CreateEnvironment
+CreateTestEnvironment
 (
 )
 ;
@@ -327,7 +325,7 @@ const
 Environment
 env
 =
-CreateEnvironment
+CreateTestEnvironment
 (
 )
 ;
@@ -472,7 +470,7 @@ const
 Environment
 env
 =
-CreateEnvironment
+CreateTestEnvironment
 (
 )
 ;
@@ -592,7 +590,7 @@ const
 Environment
 env
 =
-CreateEnvironment
+CreateTestEnvironment
 (
 )
 ;
@@ -690,7 +688,7 @@ const
 Environment
 env
 =
-CreateEnvironment
+CreateTestEnvironment
 (
 )
 ;
@@ -898,7 +896,7 @@ const
 Environment
 env
 =
-CreateEnvironment
+CreateTestEnvironment
 (
 )
 ;

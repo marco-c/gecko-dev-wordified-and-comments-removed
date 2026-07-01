@@ -122,6 +122,15 @@ include
 "
 test
 /
+create_test_environment
+.
+h
+"
+#
+include
+"
+test
+/
 create_test_field_trials
 .
 h
@@ -524,7 +533,7 @@ KeepsDecodedResolutionByDefault
 TestAv1Decoder
 decoder
 (
-CreateEnvironment
+CreateTestEnvironment
 (
 )
 )
@@ -721,7 +730,7 @@ SetsColorSpaceOnDecodedFrame
 TestAv1Decoder
 decoder
 (
-CreateEnvironment
+CreateTestEnvironment
 (
 )
 )
@@ -1096,7 +1105,7 @@ kTile1
 TestAv1Decoder
 decoder
 (
-CreateEnvironment
+CreateTestEnvironment
 (
 )
 )

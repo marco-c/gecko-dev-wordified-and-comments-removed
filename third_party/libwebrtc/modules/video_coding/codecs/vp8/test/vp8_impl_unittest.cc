@@ -416,6 +416,15 @@ include
 "
 test
 /
+create_test_environment
+.
+h
+"
+#
+include
+"
+test
+/
 create_test_field_trials
 .
 h
@@ -1029,7 +1038,7 @@ MockLibvpxInterface
 LibvpxVp8Encoder
 encoder
 (
-CreateEnvironment
+CreateTestEnvironment
 (
 )
 {
@@ -1122,7 +1131,7 @@ MockLibvpxInterface
 LibvpxVp8Encoder
 encoder
 (
-CreateEnvironment
+CreateTestEnvironment
 (
 )
 {
@@ -1312,7 +1321,7 @@ MockLibvpxInterface
 LibvpxVp8Encoder
 encoder
 (
-CreateEnvironment
+CreateTestEnvironment
 (
 )
 {
@@ -3966,7 +3975,7 @@ MockLibvpxInterface
 LibvpxVp8Encoder
 encoder
 (
-CreateEnvironment
+CreateTestEnvironment
 (
 )
 {
@@ -4276,7 +4285,7 @@ MockLibvpxInterface
 LibvpxVp8Encoder
 encoder
 (
-CreateEnvironment
+CreateTestEnvironment
 (
 )
 {
@@ -4622,7 +4631,7 @@ MockLibvpxInterface
 LibvpxVp8Encoder
 encoder
 (
-CreateEnvironment
+CreateTestEnvironment
 (
 )
 {
@@ -4728,7 +4737,7 @@ MockLibvpxInterface
 LibvpxVp8Encoder
 encoder
 (
-CreateEnvironment
+CreateTestEnvironment
 (
 )
 std

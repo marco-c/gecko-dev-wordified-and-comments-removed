@@ -550,6 +550,15 @@ include
 "
 test
 /
+create_test_environment
+.
+h
+"
+#
+include
+"
+test
+/
 create_test_field_trials
 .
 h
@@ -2682,7 +2691,7 @@ encoder
 =
 CreateVp9Encoder
 (
-CreateEnvironment
+CreateTestEnvironment
 (
 )
 )
@@ -2814,7 +2823,7 @@ encoder
 =
 CreateVp9Encoder
 (
-CreateEnvironment
+CreateTestEnvironment
 (
 )
 )
@@ -2950,7 +2959,7 @@ encoder
 =
 CreateVp9Encoder
 (
-CreateEnvironment
+CreateTestEnvironment
 (
 )
 )
@@ -3124,7 +3133,7 @@ encoder
 =
 CreateVp9Encoder
 (
-CreateEnvironment
+CreateTestEnvironment
 (
 )
 )
@@ -3399,7 +3408,7 @@ encoder
 =
 CreateVp9Encoder
 (
-CreateEnvironment
+CreateTestEnvironment
 (
 )
 )
@@ -3523,7 +3532,7 @@ encoder
 =
 CreateVp9Encoder
 (
-CreateEnvironment
+CreateTestEnvironment
 (
 )
 )
@@ -5459,7 +5468,7 @@ encoder
 =
 CreateVp9Encoder
 (
-CreateEnvironment
+CreateTestEnvironment
 (
 )
 )
@@ -5934,7 +5943,7 @@ encoder
 =
 CreateVp9Encoder
 (
-CreateEnvironment
+CreateTestEnvironment
 (
 )
 )
@@ -7299,7 +7308,7 @@ encoder
 =
 CreateVp9Encoder
 (
-CreateEnvironment
+CreateTestEnvironment
 (
 )
 )
@@ -14472,7 +14481,7 @@ encoder
 =
 CreateVp9Encoder
 (
-CreateEnvironment
+CreateTestEnvironment
 (
 )
 )
@@ -16667,7 +16676,7 @@ MockLibvpxInterface
 LibvpxVp9Encoder
 encoder
 (
-CreateEnvironment
+CreateTestEnvironment
 (
 )
 {
@@ -17306,7 +17315,7 @@ MockLibvpxInterface
 LibvpxVp9Encoder
 encoder
 (
-CreateEnvironment
+CreateTestEnvironment
 (
 )
 {
@@ -17864,7 +17873,7 @@ MockLibvpxInterface
 LibvpxVp9Encoder
 encoder
 (
-CreateEnvironment
+CreateTestEnvironment
 (
 )
 {

@@ -58,17 +58,6 @@ h
 #
 include
 "
-api
-/
-environment
-/
-environment_factory
-.
-h
-"
-#
-include
-"
 modules
 /
 audio_coding
@@ -150,6 +139,15 @@ include
 rtc_base
 /
 checks
+.
+h
+"
+#
+include
+"
+test
+/
+create_test_environment
 .
 h
 "
@@ -446,7 +444,7 @@ make_unique
 GainController2
 >
 (
-CreateEnvironment
+CreateTestEnvironment
 (
 )
 config
@@ -1045,7 +1043,7 @@ make_unique
 GainController2
 >
 (
-CreateEnvironment
+CreateTestEnvironment
 (
 )
 config
@@ -1190,7 +1188,7 @@ make_unique
 GainController2
 >
 (
-CreateEnvironment
+CreateTestEnvironment
 (
 )
 config
@@ -1341,7 +1339,7 @@ make_unique
 GainController2
 >
 (
-CreateEnvironment
+CreateTestEnvironment
 (
 )
 config
@@ -1494,7 +1492,7 @@ make_unique
 GainController2
 >
 (
-CreateEnvironment
+CreateTestEnvironment
 (
 )
 config
@@ -1586,7 +1584,7 @@ make_unique
 GainController2
 >
 (
-CreateEnvironment
+CreateTestEnvironment
 (
 )
 Agc2Config
@@ -2169,7 +2167,7 @@ true
 GainController2
 agc2
 (
-CreateEnvironment
+CreateTestEnvironment
 (
 )
 config
