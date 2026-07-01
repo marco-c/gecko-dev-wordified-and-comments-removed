@@ -1837,10 +1837,10 @@ Mutex
 mutex_
 ;
 bool
-fInitialized_
+initialized_
 ;
 bool
-fDestroyed_
+destroyed_
 ;
 std
 :
