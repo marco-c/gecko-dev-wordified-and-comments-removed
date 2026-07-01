@@ -243,7 +243,7 @@ reg
 )
 !
 =
-spilledReg_
+tempReg_
 )
 ;
 masm
@@ -320,7 +320,7 @@ reg
 )
 !
 =
-spilledReg_
+tempReg_
 )
 ;
 masm
@@ -572,7 +572,7 @@ reg
 )
 !
 =
-spilledReg_
+tempReg_
 )
 ;
 masm
@@ -657,7 +657,7 @@ reg
 )
 !
 =
-spilledReg_
+tempReg_
 )
 ;
 masm

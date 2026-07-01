@@ -128,8 +128,6 @@ cycleSlot
 (
 uint32_t
 slot
-uint32_t
-subslot
 )
 const
 {
@@ -167,8 +165,6 @@ sizeof
 (
 double
 )
-+
-subslot
 )
 ;
 }
@@ -266,7 +262,7 @@ tempReg
 (
 )
 {
-spilledReg_
+tempReg_
 =
 ScratchRegister
 ;
@@ -308,7 +304,7 @@ reg
 )
 !
 =
-spilledReg_
+tempReg_
 )
 ;
 if
@@ -597,7 +593,7 @@ reg
 )
 !
 =
-spilledReg_
+tempReg_
 )
 ;
 if

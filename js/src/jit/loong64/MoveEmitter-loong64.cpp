@@ -770,8 +770,6 @@ cycleSlot
 (
 uint32_t
 slot
-uint32_t
-subslot
 )
 const
 {
@@ -809,8 +807,6 @@ sizeof
 (
 double
 )
-+
-subslot
 )
 ;
 }
