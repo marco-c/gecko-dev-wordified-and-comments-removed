@@ -2796,7 +2796,7 @@ false
 }
 Test
 fun
-loadIcon
+loadIconAsync
 -
 with
 a
@@ -2921,7 +2921,7 @@ bitmap
 =
 provider
 .
-loadIcon
+loadIconAsync
 (
 "
 id
@@ -2940,6 +2940,10 @@ image
 png
 "
 )
+.
+await
+(
+)
 assertIs
 <
 Bitmap
@@ -2950,7 +2954,7 @@ bitmap
 }
 Test
 fun
-loadIcon
+loadIconAsync
 -
 will
 return
@@ -3014,7 +3018,7 @@ bitmap
 =
 provider
 .
-loadIcon
+loadIconAsync
 (
 "
 id
@@ -3032,6 +3036,10 @@ image
 .
 png
 "
+)
+.
+await
+(
 )
 verify
 (
@@ -3063,7 +3071,7 @@ bitmap
 }
 Test
 fun
-loadIcon
+loadIconAsync
 -
 with
 an
@@ -3107,7 +3115,7 @@ bitmap
 =
 provider
 .
-loadIcon
+loadIconAsync
 (
 "
 id
@@ -3125,6 +3133,10 @@ image
 .
 png
 "
+)
+.
+await
+(
 )
 assertNull
 (
