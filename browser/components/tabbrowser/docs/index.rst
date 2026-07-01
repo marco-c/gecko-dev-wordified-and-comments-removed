@@ -21,7 +21,8 @@ _tabbrowser
 =
 =
 =
-tabbrowser
+Tabbed
+Browser
 =
 =
 =
