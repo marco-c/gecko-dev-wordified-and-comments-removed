@@ -694,6 +694,9 @@ true
 enable_chromium_prelude
 =
 true
+rtc_rust
+=
+false
 #
 See
 context
