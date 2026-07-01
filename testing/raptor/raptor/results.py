@@ -95,6 +95,12 @@ cached
 "
 simpleperf
 "
+    
+"
+etw
+-
+profile
+"
 ]
 NON_FIREFOX_OPTS
 =
@@ -216,6 +222,10 @@ simpleperf
 =
 False
         
+etw_profile
+=
+False
+        
 extra_summary_methods
 =
 [
@@ -326,6 +336,12 @@ self
 simpleperf
 =
 simpleperf
+        
+self
+.
+etw_profile
+=
+etw_profile
         
 self
 .
@@ -521,6 +537,23 @@ append
 (
 "
 simpleperf
+"
+)
+            
+if
+self
+.
+etw_profile
+:
+                
+extra_options
+.
+append
+(
+"
+etw
+-
+profile
 "
 )
             
@@ -6724,6 +6757,25 @@ get
 (
 "
 simpleperf
+"
+False
+)
+                    
+new_result
+[
+"
+etw
+-
+profile
+"
+]
+=
+test
+.
+get
+(
+"
+etw_profile
 "
 False
 )

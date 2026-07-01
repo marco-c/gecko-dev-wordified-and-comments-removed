@@ -534,6 +534,12 @@ args
 .
 extra_profiler_run
             
+etw_profile
+=
+args
+.
+etw_profile
+            
 symbols_path
 =
 args
