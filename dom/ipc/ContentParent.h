@@ -4286,11 +4286,17 @@ ipc
 IPCResult
 RecvLoadURIExternal
 (
+NotNull
+<
 nsIURI
 *
+>
 uri
+NotNull
+<
 nsIPrincipal
 *
+>
 triggeringPrincipal
 nsIPrincipal
 *

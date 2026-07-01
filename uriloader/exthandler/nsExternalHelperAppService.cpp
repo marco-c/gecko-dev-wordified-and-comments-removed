@@ -4954,6 +4954,11 @@ NS_ENSURE_ARG_POINTER
 aURI
 )
 ;
+NS_ENSURE_ARG_POINTER
+(
+aTriggeringPrincipal
+)
+;
 if
 (
 XRE_IsContentProcess
@@ -4977,8 +4982,14 @@ GetSingleton
 >
 SendLoadURIExternal
 (
+WrapNotNull
+(
 aURI
+)
+WrapNotNull
+(
 aTriggeringPrincipal
+)
 aRedirectPrincipal
 aBrowsingContext
 aTriggeredExternally
@@ -5244,9 +5255,6 @@ NS_OK
 if
 (
 aBrowsingContext
-&
-&
-aTriggeringPrincipal
 &
 &
 !

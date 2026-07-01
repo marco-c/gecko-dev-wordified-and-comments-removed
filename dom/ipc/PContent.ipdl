@@ -7023,10 +7023,8 @@ title
 async
 LoadURIExternal
 (
-nullable
 nsIURI
 uri
-nullable
 nsIPrincipal
 triggeringPrincipal
 nullable
