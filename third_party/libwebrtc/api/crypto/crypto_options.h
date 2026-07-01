@@ -66,6 +66,12 @@ NoGcm
 (
 )
 ;
+static
+CryptoOptions
+PreferGcm
+(
+)
+;
 std
 :
 :
@@ -109,6 +115,11 @@ bool
 enable_gcm_crypto_suites
 =
 true
+;
+bool
+prefer_gcm_crypto_suites
+=
+false
 ;
 bool
 enable_aes128_sha1_32_crypto_cipher
