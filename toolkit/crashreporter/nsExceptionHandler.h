@@ -313,6 +313,11 @@ UnsetExceptionHandler
 (
 )
 ;
+uint32_t
+GetCrashHelperPid
+(
+)
+;
 void
 SetUserAppDataDirectory
 (
