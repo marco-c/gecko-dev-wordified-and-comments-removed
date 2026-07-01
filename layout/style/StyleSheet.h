@@ -1686,7 +1686,7 @@ aAdopter
 {
 mAdopters
 .
-RemoveElement
+UnorderedRemoveElement
 (
 &
 aAdopter
