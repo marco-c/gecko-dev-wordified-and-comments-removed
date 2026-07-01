@@ -967,7 +967,7 @@ from
 (
 toolbox
 .
-_inspectorExtensionSidebars
+inspectorExtensionSidebars
 .
 keys
 (
@@ -1488,7 +1488,7 @@ from
 (
 toolbox
 .
-_inspectorExtensionSidebars
+inspectorExtensionSidebars
 .
 keys
 (
