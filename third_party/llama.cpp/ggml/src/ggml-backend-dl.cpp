@@ -12,6 +12,9 @@ h
 #
 ifdef
 _WIN32
+#
+if
+0
 dl_handle
 *
 dl_load_library
@@ -65,6 +68,8 @@ return
 handle
 ;
 }
+#
+endif
 void
 *
 dl_get_sym
@@ -130,6 +135,9 @@ return
 }
 #
 else
+#
+if
+0
 dl_handle
 *
 dl_load_library
@@ -167,6 +175,8 @@ return
 handle
 ;
 }
+#
+endif
 void
 *
 dl_get_sym

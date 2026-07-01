@@ -48,6 +48,9 @@ h
 #
 endif
 #
+if
+0
+#
 include
 <
 filesystem
@@ -60,6 +63,18 @@ std
 :
 filesystem
 ;
+#
+endif
+#
+include
+<
+memory
+>
+#
+include
+<
+type_traits
+>
 #
 ifdef
 _WIN32
@@ -136,6 +151,9 @@ dl_handle
 dl_handle_deleter
 >
 ;
+#
+if
+0
 dl_handle
 *
 dl_load_library
@@ -149,6 +167,8 @@ path
 path
 )
 ;
+#
+endif
 void
 *
 dl_get_sym
