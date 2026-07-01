@@ -244,13 +244,11 @@ gfx
 IntRect
 &
 aSourceRect
-RefPtr
-<
 layers
 :
 :
 AndroidHardwareBuffer
->
+*
 aHardwareBuffer
 )
 override

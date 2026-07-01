@@ -233,11 +233,13 @@ gfx
 :
 IntRect
 aSourceRect
-gfx
+ipc
 :
 :
-IntSize
-aDestSize
+FileDescriptor
+&
+&
+aHardwareBuffer
 )
 ;
 mozilla
