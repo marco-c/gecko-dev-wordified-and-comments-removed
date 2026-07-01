@@ -790,7 +790,12 @@ ResumeFromChrome
 )
 ;
 void
-SuspendByMediaControl
+SuspendFromMediaControl
+(
+)
+;
+void
+ResumeFromMediaControl
 (
 )
 ;
@@ -1567,6 +1572,9 @@ mSuspendedByContent
 ;
 bool
 mSuspendedByChrome
+;
+bool
+mSuspendedByMediaControl
 ;
 bool
 mSetPageAwakeRequest

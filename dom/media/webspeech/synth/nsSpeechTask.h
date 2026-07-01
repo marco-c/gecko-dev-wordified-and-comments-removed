@@ -211,6 +211,12 @@ STATE_SPEAKING
 ;
 }
 bool
+IsPaused
+(
+)
+const
+;
+bool
 IsPending
 (
 )
