@@ -119,10 +119,10 @@ tags
 :
 -
 '
-Toolkit
+Firefox
 :
 :
-Telemetry
+Installer
 '
 glean
 .
@@ -399,7 +399,9 @@ D275328
 notification_emails
 :
 -
-chutten
+desktop
+-
+integrations
 mozilla
 .
 com
@@ -591,7 +593,9 @@ org
 notification_emails
 :
 -
-chutten
+desktop
+-
+integrations
 mozilla
 .
 com
