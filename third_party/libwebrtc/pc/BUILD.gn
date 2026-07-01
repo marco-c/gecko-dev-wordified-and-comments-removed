@@ -4819,6 +4819,16 @@ mutex
 .
 .
 /
+rtc_base
+/
+system
+:
+no_unique_address
+"
+"
+.
+.
+/
 system_wrappers
 :
 metrics
