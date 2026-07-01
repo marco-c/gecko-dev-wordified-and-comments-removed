@@ -23,8 +23,6 @@ import
 MarionetteTestCase
     
 WindowManagerMixin
-    
-skip_if_no_user_session
 )
 def
 inline
@@ -1007,28 +1005,6 @@ get_selected_tab_index
 self
 .
 selected_tab_index
-)
-    
-skip_if_no_user_session
-(
-        
-"
-Bug
-2048226
--
-in
--
-app
-restart
-times
-out
-on
-headless
-macOS
-VM
-workers
-"
-    
 )
     
 def
