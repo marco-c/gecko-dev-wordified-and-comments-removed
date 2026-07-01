@@ -309,6 +309,7 @@ F
 Float
 >
 struct
+MOZ_EMPTY_BASES
 MarginTyped
 :
 public

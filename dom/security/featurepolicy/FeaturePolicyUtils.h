@@ -181,6 +181,17 @@ dom
 FeaturePolicyInfo
 >
 {
+using
+paramType
+=
+mozilla
+:
+:
+dom
+:
+:
+FeaturePolicyInfo
+;
 static
 void
 Write
