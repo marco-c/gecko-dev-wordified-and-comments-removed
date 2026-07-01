@@ -66,6 +66,11 @@ pushedAtCycle_
 -
 1
 ;
+Register
+cycleGeneralReg_
+=
+InvalidReg
+;
 bool
 inCycle_
 =

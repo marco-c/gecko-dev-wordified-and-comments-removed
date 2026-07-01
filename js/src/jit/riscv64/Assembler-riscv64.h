@@ -2709,6 +2709,12 @@ hasAvailable
 )
 const
 ;
+uint32_t
+countAvailable
+(
+)
+const
+;
 private
 :
 GeneralRegisterSet
