@@ -490,6 +490,12 @@ ResumeFromMediaControl
 ;
 protected
 :
+virtual
+~
+SpeechTaskChild
+(
+)
+;
 void
 StartMediaControl
 (
