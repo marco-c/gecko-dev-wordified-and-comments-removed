@@ -420,6 +420,11 @@ RtpPacketSinkInterface
 sink
 )
 ;
+void
+RemoveAllSinks
+(
+)
+;
 bool
 RemoveSink
 (
