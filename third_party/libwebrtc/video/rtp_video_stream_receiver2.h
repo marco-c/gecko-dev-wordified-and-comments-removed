@@ -1576,6 +1576,7 @@ nack_periodic_processor_
 ;
 OnCompleteFrameCallback
 *
+const
 complete_frame_callback_
 ;
 const
