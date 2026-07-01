@@ -5330,6 +5330,13 @@ calledByJSRestorer
 SavedValue
 (
 )
+Selection
+:
+:
+IsFromRangeMutationObserver
+:
+:
+Yes
 )
 ;
 }
@@ -5413,6 +5420,13 @@ calledByJSRestorer
 SavedValue
 (
 )
+Selection
+:
+:
+IsFromRangeMutationObserver
+:
+:
+Yes
 )
 ;
 }

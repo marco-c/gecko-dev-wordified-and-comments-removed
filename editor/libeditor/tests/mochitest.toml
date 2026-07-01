@@ -1910,6 +1910,13 @@ html
 ]
 [
 "
+test_composition_selectionchange
+.
+html
+"
+]
+[
+"
 test_composition_with_highlight_in_texteditor
 .
 html

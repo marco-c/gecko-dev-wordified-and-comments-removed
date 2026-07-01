@@ -441,6 +441,10 @@ if
 (
 !
 changed
+&
+&
+!
+mSelectionRangeObservedMutation
 )
 {
 return
@@ -495,6 +499,10 @@ aSel
 GetDirection
 (
 )
+;
+mSelectionRangeObservedMutation
+=
+false
 ;
 if
 (
