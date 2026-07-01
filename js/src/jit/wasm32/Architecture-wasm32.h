@@ -895,17 +895,6 @@ return
 ;
 inline
 bool
-hasUnaliasedDouble
-(
-)
-{
-MOZ_CRASH
-(
-)
-;
-}
-inline
-bool
 hasMultiAlias
 (
 )

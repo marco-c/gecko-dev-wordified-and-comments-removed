@@ -4189,16 +4189,6 @@ return
 ;
 inline
 bool
-hasUnaliasedDouble
-(
-)
-{
-return
-false
-;
-}
-inline
-bool
 hasMultiAlias
 (
 )
