@@ -3515,7 +3515,7 @@ color
 /
 ghost
 /
-active
+selected
 }
 "
 "
@@ -3533,7 +3533,7 @@ color
 /
 ghost
 /
-active
+selected
 }
 "
 "
@@ -3549,9 +3549,9 @@ background
 /
 color
 /
-ghost
+primary
 /
-active
+selected
 }
 "
 }
@@ -6732,7 +6732,7 @@ color
 /
 ghost
 /
-active
+selected
 }
 "
 "
@@ -6750,7 +6750,7 @@ color
 /
 ghost
 /
-active
+selected
 }
 "
 "
@@ -6766,9 +6766,9 @@ text
 /
 color
 /
-ghost
+primary
 /
-active
+selected
 }
 "
 }
