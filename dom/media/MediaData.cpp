@@ -1569,7 +1569,7 @@ mPlanes
 0
 ]
 .
-mStride
+mWidth
 |
 |
 !
