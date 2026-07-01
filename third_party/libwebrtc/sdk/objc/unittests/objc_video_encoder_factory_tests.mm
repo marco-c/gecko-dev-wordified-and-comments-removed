@@ -1281,6 +1281,10 @@ std
 :
 :
 nullopt
+std
+:
+:
+nullopt
 )
 ;
 EXPECT_TRUE
@@ -1342,6 +1346,10 @@ codec
 "
 S2T1
 "
+std
+:
+:
+nullopt
 )
 .
 is_supported
@@ -1409,6 +1417,10 @@ codec
 "
 L1T2
 "
+std
+:
+:
+nullopt
 )
 ;
 EXPECT_TRUE
