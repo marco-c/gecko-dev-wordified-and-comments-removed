@@ -323,6 +323,11 @@ ThreadLocal
 .
 h
 "
+"
+TransactionOpResult
+.
+h
+"
 ]
 XPCOM_MANIFESTS
 +
@@ -384,7 +389,7 @@ IDBFactory
 cpp
 "
 "
-IDBGetAllHelper
+IDBGetAllOptions
 .
 cpp
 "
@@ -460,6 +465,11 @@ cpp
 "
 "
 ScriptErrorHelper
+.
+cpp
+"
+"
+TransactionOpResult
 .
 cpp
 "

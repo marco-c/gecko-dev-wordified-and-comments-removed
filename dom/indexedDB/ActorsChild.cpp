@@ -2824,6 +2824,14 @@ IDBTransaction
 aTransaction
 =
 nullptr
+const
+nsACString
+&
+aMessage
+=
+EmptyCString
+(
+)
 RefPtr
 <
 Event
@@ -2890,6 +2898,7 @@ request
 SetError
 (
 aErrorCode
+aMessage
 )
 ;
 if
@@ -8080,7 +8089,9 @@ BackgroundRequestChild
 :
 HandleResponse
 (
-nsresult
+const
+TransactionOpResult
+&
 aResponse
 )
 {
@@ -8141,9 +8152,16 @@ move
 (
 database
 )
-response
+errorCode
 =
 aResponse
+.
+mCode
+errorMessage
+=
+aResponse
+.
+mErrorMessage
 ]
 (
 )
@@ -8152,7 +8170,7 @@ MOZ_ASSERT
 (
 NS_FAILED
 (
-response
+errorCode
 )
 )
 ;
@@ -8160,7 +8178,7 @@ MOZ_ASSERT
 (
 NS_ERROR_GET_MODULE
 (
-response
+errorCode
 )
 =
 =
@@ -8215,7 +8233,7 @@ return
 DispatchErrorEvent
 (
 request
-response
+errorCode
 std
 :
 :
@@ -8223,6 +8241,7 @@ move
 (
 transaction
 )
+errorMessage
 )
 ;
 }
@@ -9708,7 +9727,10 @@ runnable
 =
 HandleResponse
 (
+TransactionOpResult
+(
 NS_ERROR_DOM_INDEXEDDB_ABORT_ERR
+)
 )
 ;
 }
@@ -9727,7 +9749,7 @@ case
 RequestResponse
 :
 :
-Tnsresult
+TTransactionOpResult
 :
 runnable
 =
@@ -9735,7 +9757,7 @@ HandleResponse
 (
 aResponse
 .
-get_nsresult
+get_TransactionOpResult
 (
 )
 )

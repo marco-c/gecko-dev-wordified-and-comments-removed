@@ -648,6 +648,13 @@ js
 "
 unit
 /
+test_response_too_large
+.
+js
+"
+"
+unit
+/
 test_setVersion
 .
 js
@@ -1915,6 +1922,13 @@ html
 [
 "
 test_request_readyState
+.
+html
+"
+]
+[
+"
+test_response_too_large
 .
 html
 "
