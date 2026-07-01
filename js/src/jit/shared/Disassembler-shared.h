@@ -62,6 +62,13 @@ defined
 (
 JS_DISASM_ARM64
 )
+|
+|
+\
+defined
+(
+JS_DISASM_RISCV64
+)
 #
 define
 JS_DISASM_SUPPORTED
