@@ -614,17 +614,6 @@ and
 sidebar
 sidebar
 -
-hide
--
-sidebar
-=
-.
-label
-=
-Hide
-sidebar
-sidebar
--
 show
 -
 on
