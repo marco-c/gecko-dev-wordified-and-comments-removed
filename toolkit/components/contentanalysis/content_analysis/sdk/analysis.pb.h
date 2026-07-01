@@ -1689,6 +1689,9 @@ ContentAnalysisRequest_Reason_NORMAL_DOWNLOAD
 ContentAnalysisRequest_Reason_SAVE_AS_DOWNLOAD
 =
 7
+ContentAnalysisRequest_Reason_CLIPBOARD_COPY
+=
+8
 }
 ;
 extern
@@ -1721,7 +1724,7 @@ static_cast
 ContentAnalysisRequest_Reason
 >
 (
-7
+8
 )
 ;
 [
@@ -1747,7 +1750,7 @@ value
 value
 <
 =
-7
+8
 ;
 }
 inline
@@ -1755,7 +1758,7 @@ constexpr
 int
 ContentAnalysisRequest_Reason_Reason_ARRAYSIZE
 =
-7
+8
 +
 1
 ;
@@ -2717,6 +2720,9 @@ PRINT
 FILE_TRANSFER
 =
 5
+DATA_COPIED
+=
+6
 }
 ;
 extern
@@ -2749,7 +2755,7 @@ static_cast
 AnalysisConnector
 >
 (
-5
+6
 )
 ;
 [
@@ -2775,7 +2781,7 @@ value
 value
 <
 =
-5
+6
 ;
 }
 inline
@@ -2783,7 +2789,7 @@ constexpr
 int
 AnalysisConnector_ARRAYSIZE
 =
-5
+6
 +
 1
 ;
@@ -26626,6 +26632,13 @@ Reason
 SAVE_AS_DOWNLOAD
 =
 ContentAnalysisRequest_Reason_SAVE_AS_DOWNLOAD
+;
+static
+constexpr
+Reason
+CLIPBOARD_COPY
+=
+ContentAnalysisRequest_Reason_CLIPBOARD_COPY
 ;
 [
 [
