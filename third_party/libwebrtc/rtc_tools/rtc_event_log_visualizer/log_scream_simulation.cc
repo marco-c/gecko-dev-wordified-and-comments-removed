@@ -1404,12 +1404,12 @@ l4s_alpha_v
 (
 )
 .
-loss_event_rate
+loss_congestion_level
 =
 scream_
 -
 >
-loss_event_rate
+loss_congestion_level
 (
 )
 .

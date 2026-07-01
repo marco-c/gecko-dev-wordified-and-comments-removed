@@ -3455,7 +3455,7 @@ DataRate
 :
 KilobitsPerSec
 (
-2100
+2200
 )
 )
 )
@@ -5899,7 +5899,7 @@ Lt
 (
 0
 .
-05
+07
 )
 )
 ;
@@ -6110,7 +6110,7 @@ TEST
 ScreamTest
 MaybeTest
 (
-LowBweOnLinkWith3PercentUniformLoss
+LowBweOnLinkWith5PercentUniformLoss
 )
 )
 {
@@ -6189,7 +6189,7 @@ loss
 (
 0
 .
-03
+05
 )
 false
 )
@@ -6223,7 +6223,7 @@ back
 )
 0
 .
-01
+02
 *
 GetPacketsSent
 (
@@ -7222,7 +7222,7 @@ Lt
 (
 0
 .
-08
+11
 )
 Gt
 (

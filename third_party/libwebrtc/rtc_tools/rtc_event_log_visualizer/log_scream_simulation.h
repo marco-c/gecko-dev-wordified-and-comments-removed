@@ -366,7 +366,7 @@ l4s_alpha_v
 0
 ;
 double
-loss_event_rate
+loss_congestion_level
 =
 0
 .

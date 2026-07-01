@@ -327,7 +327,7 @@ field_trial_parser
 rtc_library
 (
 "
-loss_rate_estimator
+loss_estimator
 "
 )
 {
@@ -335,12 +335,12 @@ sources
 =
 [
 "
-loss_rate_estimator
+loss_estimator
 .
 cc
 "
 "
-loss_rate_estimator
+loss_estimator
 .
 h
 "
@@ -432,7 +432,7 @@ delay_based_congestion_control
 "
 "
 :
-loss_rate_estimator
+loss_estimator
 "
 "
 :
@@ -802,7 +802,7 @@ delay_based_congestion_control_unittest
 cc
 "
 "
-loss_rate_estimator_unittest
+loss_estimator_unittest
 .
 cc
 "
@@ -826,7 +826,7 @@ delay_based_congestion_control
 "
 "
 :
-loss_rate_estimator
+loss_estimator
 "
 "
 :

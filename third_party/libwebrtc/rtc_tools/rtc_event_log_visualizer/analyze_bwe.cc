@@ -6069,10 +6069,10 @@ kStep
 )
 ;
 TimeSeries
-loss_event_rate_series
+loss_congestion_level_series
 (
 "
-LossEventRate
+LossCongestionLevel
 "
 LineStyle
 :
@@ -6206,7 +6206,7 @@ state
 l4s_alpha_v
 )
 ;
-loss_event_rate_series
+loss_congestion_level_series
 .
 points
 .
@@ -6222,7 +6222,7 @@ time
 )
 state
 .
-loss_event_rate
+loss_congestion_level
 )
 ;
 ref_window_scale_factor_due_to_min_delay_variation
@@ -6340,7 +6340,7 @@ std
 :
 move
 (
-loss_event_rate_series
+loss_congestion_level_series
 )
 )
 ;
