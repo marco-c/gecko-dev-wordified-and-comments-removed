@@ -58,9 +58,15 @@ color
 "
 cyan
 "
-isUserTriggered
+metricsContext
 :
-true
+gBrowser
+.
+TabMetrics
+.
+userTriggeredContext
+(
+)
 }
 )
 ;
