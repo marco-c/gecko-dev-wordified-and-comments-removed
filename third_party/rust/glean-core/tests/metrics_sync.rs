@@ -127,6 +127,16 @@ restarted
 "
 glean
 .
+session_end
+"
+"
+glean
+.
+session_start
+"
+"
+glean
+.
 validation
 .
 foreground_count
