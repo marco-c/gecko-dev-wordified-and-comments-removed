@@ -580,16 +580,6 @@ ssrc
 ;
 virtual
 void
-SetLocalSsrc
-(
-uint32_t
-ssrc
-)
-=
-0
-;
-virtual
-void
 SetMaxRtpPacketSize
 (
 size_t

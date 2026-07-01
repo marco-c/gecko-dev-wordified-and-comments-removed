@@ -622,13 +622,6 @@ SSRC
 const
 ;
 void
-SetSsrc
-(
-uint32_t
-ssrc
-)
-;
-void
 SetRemoteSSRC
 (
 uint32_t
@@ -1182,12 +1175,9 @@ const
 bool
 audio_
 ;
+const
 uint32_t
 send_ssrc_
-RTC_GUARDED_BY
-(
-mutex_rtcp_sender_
-)
 ;
 absl
 :

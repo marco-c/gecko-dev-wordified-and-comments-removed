@@ -570,14 +570,6 @@ ssrc
 override
 ;
 void
-SetLocalSsrc
-(
-uint32_t
-local_ssrc
-)
-override
-;
-void
 RegisterSendPayloadFrequency
 (
 int
@@ -1552,6 +1544,7 @@ RTC_NO_UNIQUE_ADDRESS
 ScopedTaskSafety
 task_safety_
 ;
+const
 absl
 :
 :
@@ -1563,10 +1556,6 @@ uint32_t
 const
 >
 recv_ssrc_callback_
-RTC_GUARDED_BY
-(
-rtcp_module_checker_
-)
 ;
 const
 std
@@ -1584,12 +1573,9 @@ rtcp_sender_
 RTCPReceiver
 rtcp_receiver_
 ;
+const
 uint16_t
 packet_overhead_
-RTC_GUARDED_BY
-(
-rtcp_module_checker_
-)
 ;
 int64_t
 nack_last_time_sent_full_ms_
