@@ -6343,6 +6343,13 @@ ftype_val
 ;
 }
 }
+if
+(
+trace
+>
+0
+)
+{
 LLAMA_LOG_INFO
 (
 "
@@ -6565,6 +6572,7 @@ c_str
 )
 )
 ;
+}
 }
 for
 (
