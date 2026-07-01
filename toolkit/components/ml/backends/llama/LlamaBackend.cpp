@@ -1111,11 +1111,15 @@ mOffloadKqv
 ;
 ctxParams
 .
-flash_attn
+flash_attn_type
 =
 aOptions
 .
 mFlashAttn
+?
+LLAMA_FLASH_ATTN_TYPE_ENABLED
+:
+LLAMA_FLASH_ATTN_TYPE_DISABLED
 ;
 ctxParams
 .
