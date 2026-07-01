@@ -172,17 +172,6 @@ lint
 /
 opt
 run
--
-on
--
-repo
--
-type
-:
-[
-hg
-]
-run
 :
 using
 :

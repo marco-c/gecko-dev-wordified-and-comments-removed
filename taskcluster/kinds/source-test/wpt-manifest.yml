@@ -60,17 +60,6 @@ task
 -
 defaults
 :
-run
--
-on
--
-repo
--
-type
-:
-[
-hg
-]
 platform
 :
 linux64
