@@ -162,6 +162,13 @@ js
 ]
 [
 "
+browser_notification_infobar
+.
+js
+"
+]
+[
+"
 browser_tab_name_change
 .
 js
