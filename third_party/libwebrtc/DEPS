@@ -116,7 +116,7 @@ chromium_revision
 '
 :
 '
-177639b31614cf509ed7aa73a20cd018971aafc6
+bc00c58999f25bc081cef3657693e0db4f13db33
 '
 #
 Fetch
@@ -259,9 +259,9 @@ fuchsia_version
 '
 version
 :
-31
+32
 .
-20260416
+20260520
 .
 4
 .
@@ -432,7 +432,7 @@ siso_version
 '
 git_revision
 :
-e82794032885e80beead7f130c4c5c43cb99486b
+37e594382ae2ef7d69461019dc47e15e7b6a127f
 '
 #
 ninja
@@ -576,7 +576,7 @@ chromium
 src
 /
 build
-d06d723c0371c8c3116f999f0281ef635eca2105
+bdd24a72f21229ca707d511bf8e3caf7e85a1839
 '
 '
 src
@@ -696,7 +696,7 @@ chromium
 src
 /
 ios
-e4cdba1255316b67965dd8efb86e344e7995866c
+ab158bac45abee71e3a703df6381ac5c7213e58c
 '
 '
 condition
@@ -728,7 +728,7 @@ chromium
 src
 /
 testing
-95bdf2cd63784bed154b131e0ae211e305793384
+cfc0f33ecee599d3585e792e2e240636e772c04f
 '
 '
 src
@@ -752,7 +752,7 @@ chromium
 src
 /
 third_party
-07a43c4884340d073718e6c04b955f20c036a52e
+098f2501a409b457393fcdfc1c0e49b118974e3f
 '
 '
 src
@@ -858,7 +858,7 @@ version
 '
 git_revision
 :
-f2f5b23ea7bf95492c683c046b5e7a624364e3b7
+618387c6b5c1276885a2282c9609be06441bd1eb
 '
 }
 ]
@@ -916,7 +916,7 @@ version
 '
 git_revision
 :
-f2f5b23ea7bf95492c683c046b5e7a624364e3b7
+618387c6b5c1276885a2282c9609be06441bd1eb
 '
 }
 ]
@@ -970,7 +970,7 @@ version
 '
 git_revision
 :
-f2f5b23ea7bf95492c683c046b5e7a624364e3b7
+618387c6b5c1276885a2282c9609be06441bd1eb
 '
 }
 ]
@@ -3898,7 +3898,7 @@ com
 boringssl
 .
 git
-c2c9f2f3e5c5d57d0186b14ce2463f9c4a8f8cde
+2d8ef80d4d9a2f5a09bd03a17c66fdd706c3f89e
 '
 '
 src
@@ -4127,7 +4127,7 @@ tools
 depot_tools
 .
 git
-7f5fd04cd54256e591eedaaa0135fe02f065bdfa
+03d4d2ec684257bb66afd11f877105829d94a3d4
 '
 '
 src
@@ -4228,7 +4228,7 @@ grpc
 grpc
 .
 git
-5b16e58509a736b38255b3c1d37a850d20c6f147
+743d3a29650a37d4c948128056d9df7208a501bb
 '
 }
 #
@@ -4521,7 +4521,7 @@ google
 truth
 .
 git
-77c6a8269bbf9033a609f5c380c891f7f82ec016
+d37a61ab246f88363c32bf9fad87acc0eda057c1
 '
 '
 condition
@@ -5033,7 +5033,7 @@ google
 fuzztest
 .
 git
-50b9c997540aaf7123822329e6cd6f9fb4057130
+a4eafb7060fe62c5e4df92d0280656ff247f4ba5
 '
 '
 src
@@ -5151,7 +5151,7 @@ com
 aom
 .
 git
-13cbb78a1a9ebb5193ef8fae664a507efb4287e5
+2ba2565bdae69da18f086e716d9083bdb1888d85
 '
 '
 src
@@ -5262,7 +5262,7 @@ git
 '
 +
 '
-30a134ee28bd8db4229c4cb11694107e4b9f90c2
+4eea1d1c609b1b21928d32ec3f21d6bfaf6b8c1a
 '
 '
 src
@@ -5809,7 +5809,7 @@ chromium
 src
 /
 tools
-1348a09817796dcc8c8672457e90d41f2d204676
+7cdd8b401a71912e4b39d12f3d0a6f643fb87f75
 '
 '
 src
