@@ -315,7 +315,7 @@ ui
 .
 colors
 .
-PhotonColors
+NovaColors
 import
 org
 .
@@ -468,7 +468,7 @@ contentDescription
 null
 tint
 =
-PhotonColors
+NovaColors
 .
 White
 .

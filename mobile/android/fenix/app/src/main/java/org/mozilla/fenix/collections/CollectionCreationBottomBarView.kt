@@ -296,7 +296,7 @@ colorsR
 .
 color
 .
-photonWhite
+novaWhite
 )
 )
 setImageDrawable
@@ -516,7 +516,7 @@ colorsR
 .
 color
 .
-photonWhite
+novaWhite
 )
 )
 setImageDrawable

@@ -703,7 +703,7 @@ ui
 .
 colors
 .
-PhotonColors
+NovaColors
 import
 org
 .
@@ -1386,13 +1386,13 @@ isSystemInDarkTheme
 true
 -
 >
-PhotonColors
+NovaColors
 .
 White
 false
 -
 >
-PhotonColors
+NovaColors
 .
 Black
 }

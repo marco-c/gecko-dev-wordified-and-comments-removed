@@ -322,7 +322,7 @@ colorsR
 .
 color
 .
-photonWhite
+novaWhite
 )
 param
 :
@@ -406,7 +406,7 @@ colorsR
 .
 color
 .
-photonBlack
+novaBlack
 )
 titleId
 =
@@ -861,7 +861,7 @@ colorsR
 .
 color
 .
-photonBlack
+novaBlack
 )
 iconForegroundId
 =
