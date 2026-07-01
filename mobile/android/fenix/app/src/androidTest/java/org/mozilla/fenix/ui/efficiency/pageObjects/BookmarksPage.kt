@@ -495,7 +495,7 @@ mozClick
 (
 BookmarksSelectors
 .
-itemMenuSelector
+ITEM_MENU
 (
 title
 )
@@ -523,7 +523,7 @@ mozClick
 (
 BookmarksSelectors
 .
-expandFolderSelector
+EXPAND_FOLDER_BUTTON
 (
 "
 Bookmarks
@@ -534,7 +534,7 @@ mozClick
 (
 BookmarksSelectors
 .
-bookmarkItemSelector
+BOOKMARK_ITEM
 (
 folderName
 )
@@ -578,7 +578,7 @@ mozLongClick
 (
 BookmarksSelectors
 .
-bookmarkItemSelector
+BOOKMARK_ITEM
 (
 title
 )
@@ -600,7 +600,7 @@ mozClick
 (
 BookmarksSelectors
 .
-bookmarkItemSelector
+BOOKMARK_ITEM
 (
 title
 )
@@ -622,7 +622,7 @@ mozVerify
 (
 BookmarksSelectors
 .
-multiSelectionCounterSelector
+MULTI_SELECTION_COUNTER
 (
 count
 )
@@ -660,7 +660,7 @@ mozVerify
 (
 BookmarksSelectors
 .
-bookmarkItemSelector
+BOOKMARK_ITEM
 (
 title
 )

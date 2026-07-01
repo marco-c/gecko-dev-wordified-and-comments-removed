@@ -889,7 +889,7 @@ mozClick
 (
 BrowserPageSelectors
 .
-pageContentSelector
+PAGE_CONTENT
 (
 text
 )
@@ -911,7 +911,7 @@ mozClickIfPresent
 (
 BrowserPageSelectors
 .
-pageContentSelector
+PAGE_CONTENT
 (
 text
 )

@@ -365,7 +365,7 @@ mozVerify
 (
 BookmarksSelectors
 .
-bookmarkItemSelector
+BOOKMARK_ITEM
 (
 website
 .
@@ -385,7 +385,7 @@ mozVerify
 (
 BookmarksSelectors
 .
-bookmarkItemSelector
+BOOKMARK_ITEM
 (
 bookmarkFolderName
 )
@@ -433,7 +433,7 @@ mozVerify
 (
 BookmarksSelectors
 .
-bookmarkItemSelector
+BOOKMARK_ITEM
 (
 "
 My
@@ -497,7 +497,7 @@ mozVerify
 (
 BookmarksSelectors
 .
-bookmarkItemSelector
+BOOKMARK_ITEM
 (
 bookmarkFolderName
 )
@@ -529,7 +529,7 @@ mozVerifyElementAbsent
 (
 BookmarksSelectors
 .
-bookmarkItemSelector
+BOOKMARK_ITEM
 (
 bookmarkFolderName
 )
@@ -539,7 +539,7 @@ mozVerifyElementAbsent
 (
 BookmarksSelectors
 .
-bookmarkItemSelector
+BOOKMARK_ITEM
 (
 "
 My
@@ -553,7 +553,7 @@ mozVerifyElementAbsent
 (
 BookmarksSelectors
 .
-bookmarkItemSelector
+BOOKMARK_ITEM
 (
 website
 .
@@ -628,7 +628,7 @@ mozVerify
 (
 BookmarksSelectors
 .
-bookmarkItemSelector
+BOOKMARK_ITEM
 (
 defaultWebPage
 .
@@ -1080,7 +1080,7 @@ mozVerifyElementAbsent
 (
 BookmarksSelectors
 .
-bookmarkItemSelector
+BOOKMARK_ITEM
 (
 webPages
 [
@@ -1095,7 +1095,7 @@ mozVerifyElementAbsent
 (
 BookmarksSelectors
 .
-bookmarkItemSelector
+BOOKMARK_ITEM
 (
 webPages
 [

@@ -320,7 +320,7 @@ mozVerify
 (
 FindInPageSelectors
 .
-resultCounterSelector
+RESULT_COUNTER
 (
 "
 i
@@ -363,7 +363,7 @@ mozVerify
 (
 FindInPageSelectors
 .
-resultCounterSelector
+RESULT_COUNTER
 (
 "
 i
