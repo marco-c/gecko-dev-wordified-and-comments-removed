@@ -2403,6 +2403,7 @@ addResponseContentComplete
 blockedReason
 extension
 channel
+truncated
 }
 )
 {
@@ -2424,6 +2425,7 @@ changed
 {
 blockedReason
 extension
+truncated
 }
 ;
 if

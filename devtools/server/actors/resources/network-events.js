@@ -1349,6 +1349,14 @@ updateResource
 priority
 ;
 }
+resourceUpdates
+.
+truncated
+=
+updateResource
+.
+truncated
+;
 break
 ;
 case
