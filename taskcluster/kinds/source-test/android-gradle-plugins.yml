@@ -120,17 +120,6 @@ run
 time
 :
 1800
-run
--
-on
--
-repo
--
-type
-:
-[
-hg
-]
 fetches
 :
 toolchain
@@ -194,7 +183,7 @@ treeherder
 :
 symbol
 :
-A
+android
 (
 apilint
 )
@@ -281,7 +270,7 @@ treeherder
 :
 symbol
 :
-A
+android
 (
 ac
 -
