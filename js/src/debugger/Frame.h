@@ -904,6 +904,12 @@ isOnStackOrSuspendedWasmStack
 const
 ;
 bool
+isWasmContFrame
+(
+)
+const
+;
+bool
 isSuspendedGeneratorFrame
 (
 )
