@@ -32,7 +32,7 @@ MAX_PENDING_PINGS_DIRECTORY_SIZE
 :
 u64
 =
-10
+50
 *
 1024
 *
@@ -43,7 +43,7 @@ MAX_PENDING_PINGS_COUNT
 :
 u64
 =
-250
+500
 ;
 #
 [
@@ -396,13 +396,6 @@ u64
 MAX
 }
 }
-#
-[
-cfg
-(
-test
-)
-]
 pub
 fn
 set_max_pending_pings_directory_size
@@ -425,13 +418,6 @@ max_pending_pings_directory_size
 v
 ;
 }
-#
-[
-cfg
-(
-test
-)
-]
 pub
 fn
 set_max_pending_pings_count

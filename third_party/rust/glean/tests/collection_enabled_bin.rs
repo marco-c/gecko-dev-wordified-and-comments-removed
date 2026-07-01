@@ -664,6 +664,9 @@ to_string
 (
 )
 )
+os_version
+:
+None
 }
 ;
 glean
