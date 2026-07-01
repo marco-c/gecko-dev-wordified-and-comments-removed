@@ -2471,12 +2471,6 @@ const
 nsIFrame
 *
 aFrame
-const
-nsDisplayListBuilder
-*
-aBuilder
-=
-nullptr
 )
 ;
 static
