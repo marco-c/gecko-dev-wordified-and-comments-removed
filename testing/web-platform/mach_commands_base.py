@@ -262,7 +262,7 @@ setup
 setup
     
 def
-setup_logging
+logging_manager
 (
 self
 *
@@ -281,7 +281,7 @@ run
 return
 run
 .
-setup_logging
+GlobalLogger
 (
             
 kwargs
