@@ -2007,7 +2007,7 @@ focusedWindow
 document
 -
 >
-SetPreviouslyFocusedContent
+SetFocusNavigationStartingPoint
 (
 nullptr
 )

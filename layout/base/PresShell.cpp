@@ -7293,7 +7293,7 @@ OwnerDoc
 )
 -
 >
-SetPreviouslyFocusedContent
+SetFocusNavigationStartingPoint
 (
 element
 )
