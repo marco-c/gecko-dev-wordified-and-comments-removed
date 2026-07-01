@@ -1,8 +1,6 @@
-.
-.
+{
 include
-:
-:
+}
 .
 .
 /
@@ -17,4 +15,4 @@ supported
 -
 configurations
 .
-rst
+md
