@@ -9838,8 +9838,17 @@ return
 true
 ;
 }
+}
+#
+endif
 if
 (
+key
+=
+=
+JSProto_Iterator
+&
+&
 !
 JS
 :
@@ -9872,9 +9881,6 @@ return
 true
 ;
 }
-}
-#
-endif
 if
 (
 key

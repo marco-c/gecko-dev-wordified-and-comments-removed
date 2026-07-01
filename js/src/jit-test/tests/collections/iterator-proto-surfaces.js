@@ -204,6 +204,9 @@ every
 find
 "
 "
+includes
+"
+"
 constructor
 "
 Symbol
