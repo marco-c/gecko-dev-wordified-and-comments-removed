@@ -584,14 +584,6 @@ GetCurrentPositionState
 )
 const
 ;
-virtual
-void
-NotifyBrowsingContextDiscarded
-(
-uint64_t
-aBrowsingContextId
-)
-;
 bool
 IsMediaAudible
 (
