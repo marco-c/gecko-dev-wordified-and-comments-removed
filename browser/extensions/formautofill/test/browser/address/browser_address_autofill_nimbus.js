@@ -204,7 +204,12 @@ is
 (
 FormAutofill
 .
-isAutofillAddressesAvailable
+isAutofillTypeAvailable
+(
+"
+address
+"
+)
 true
 "
 Address
@@ -323,7 +328,12 @@ is
 (
 FormAutofill
 .
-isAutofillAddressesAvailable
+isAutofillTypeAvailable
+(
+"
+address
+"
+)
 AppConstants
 .
 NIGHTLY_BUILD

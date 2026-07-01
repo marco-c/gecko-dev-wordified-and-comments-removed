@@ -3032,15 +3032,7 @@ lazy
 .
 FormAutofill
 .
-isAutofillCreditCardsAvailable
-&
-&
-!
-lazy
-.
-FormAutofill
-.
-isAutofillAddressesAvailable
+isAnyAutofillFeatureAvailable
 )
 {
 return
