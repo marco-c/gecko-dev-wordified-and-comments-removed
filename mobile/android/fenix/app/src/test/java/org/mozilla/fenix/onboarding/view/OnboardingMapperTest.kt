@@ -175,9 +175,6 @@ text
 "
 unitLambda
 )
-shouldShowElevation
-=
-true
 )
 val
 onboardingPageUiData
@@ -280,9 +277,6 @@ onTermsOfServiceButtonClick
 =
 {
 }
-shouldShowElevation
-=
-true
 )
 assertEquals
 (
@@ -356,9 +350,6 @@ text
 "
 unitLambda
 )
-shouldShowElevation
-=
-true
 )
 val
 onboardingPageUiData
@@ -454,9 +445,6 @@ onTermsOfServiceButtonClick
 =
 {
 }
-shouldShowElevation
-=
-true
 )
 assertEquals
 (
@@ -530,9 +518,6 @@ text
 "
 unitLambda
 )
-shouldShowElevation
-=
-true
 )
 val
 onboardingPageUiData
@@ -628,9 +613,6 @@ onTermsOfServiceButtonClick
 =
 {
 }
-shouldShowElevation
-=
-true
 )
 assertEquals
 (
@@ -717,9 +699,6 @@ text
 "
 unitLambda
 )
-shouldShowElevation
-=
-true
 )
 val
 onboardingPageUiData
@@ -826,9 +805,6 @@ onTermsOfServiceButtonClick
 =
 {
 }
-shouldShowElevation
-=
-true
 )
 assertEquals
 (
@@ -943,9 +919,6 @@ unitLambda
 toolbarOptions
 =
 toolbarOptions
-shouldShowElevation
-=
-true
 )
 val
 onboardingPageUiData
@@ -1044,9 +1017,6 @@ onMarketingDataContinueClick
 =
 {
 }
-shouldShowElevation
-=
-true
 )
 assertEquals
 (
@@ -1153,9 +1123,6 @@ unitLambda
 marketingData
 =
 marketingData
-shouldShowElevation
-=
-true
 )
 val
 onboardingPageUiData
@@ -1253,9 +1220,6 @@ onTermsOfServiceButtonClick
 onMarketingDataContinueClick
 =
 unitLambda
-shouldShowElevation
-=
-true
 )
 assertEquals
 (

@@ -561,9 +561,10 @@ cardElevation
 (
 if
 (
+!
 pageState
 .
-shouldShowElevation
+isSmallDevice
 )
 6
 .

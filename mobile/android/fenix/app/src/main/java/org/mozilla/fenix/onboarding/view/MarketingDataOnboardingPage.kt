@@ -732,9 +732,10 @@ cardElevation
 (
 if
 (
+!
 state
 .
-shouldShowElevation
+isSmallDevice
 )
 6
 .

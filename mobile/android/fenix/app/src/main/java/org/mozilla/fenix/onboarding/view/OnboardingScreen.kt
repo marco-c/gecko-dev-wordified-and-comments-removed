@@ -2251,12 +2251,6 @@ onCustomizeToolbarButtonClick
 onTermsOfServiceButtonClick
 =
 onAgreeAndConfirmTermsOfService
-shouldShowElevation
-=
-!
-layout
-.
-isSmall
 isSmallDevice
 =
 layout

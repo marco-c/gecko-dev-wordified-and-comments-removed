@@ -1075,9 +1075,6 @@ mapToOnboardingPageState
 onboardingPageUiData
 :
 OnboardingPageUiData
-shouldShowElevation
-:
-Boolean
 isSmallDevice
 :
 Boolean
@@ -1198,9 +1195,6 @@ onMakeFirefoxDefaultClick
 onNegativeButtonClick
 =
 onMakeFirefoxDefaultSkipClick
-shouldShowElevation
-=
-shouldShowElevation
 isSmallDevice
 =
 isSmallDevice
@@ -1223,9 +1217,6 @@ onAddFirefoxWidgetClick
 onNegativeButtonClick
 =
 onAddFirefoxWidgetSkipClick
-shouldShowElevation
-=
-shouldShowElevation
 isSmallDevice
 =
 isSmallDevice
@@ -1248,9 +1239,6 @@ onSignInButtonClick
 onNegativeButtonClick
 =
 onSignInSkipClick
-shouldShowElevation
-=
-shouldShowElevation
 isSmallDevice
 =
 isSmallDevice
@@ -1273,9 +1261,6 @@ onNotificationPermissionButtonClick
 onNegativeButtonClick
 =
 onNotificationPermissionSkipClick
-shouldShowElevation
-=
-shouldShowElevation
 isSmallDevice
 =
 isSmallDevice
@@ -1309,9 +1294,6 @@ for
 toolbar
 placement
 .
-shouldShowElevation
-=
-shouldShowElevation
 isSmallDevice
 =
 isSmallDevice
@@ -1346,9 +1328,6 @@ terms
 of
 service
 .
-shouldShowElevation
-=
-shouldShowElevation
 isSmallDevice
 =
 isSmallDevice
@@ -1382,9 +1361,6 @@ for
 marketing
 data
 .
-shouldShowElevation
-=
-shouldShowElevation
 isSmallDevice
 =
 isSmallDevice
@@ -1397,9 +1373,6 @@ createOnboardingPageState
 onboardingPageUiData
 :
 OnboardingPageUiData
-shouldShowElevation
-:
-Boolean
 isSmallDevice
 :
 Boolean
@@ -1477,9 +1450,6 @@ marketingData
 onboardingPageUiData
 .
 marketingData
-shouldShowElevation
-=
-shouldShowElevation
 isSmallDevice
 =
 isSmallDevice
