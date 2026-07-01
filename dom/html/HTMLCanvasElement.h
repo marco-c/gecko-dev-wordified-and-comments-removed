@@ -1458,11 +1458,7 @@ HTMLCanvasElement
 GetParentObject
 (
 )
-{
-return
-mCanvas
 ;
-}
 private
 :
 ~
