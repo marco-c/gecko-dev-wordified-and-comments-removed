@@ -915,7 +915,15 @@ mod
 }
 importName
 :
-null
+'
+*
+all
+-
+but
+-
+default
+*
+'
 localName
 :
 null

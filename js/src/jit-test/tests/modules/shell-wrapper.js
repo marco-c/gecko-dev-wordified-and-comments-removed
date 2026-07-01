@@ -1318,7 +1318,15 @@ starExportEntries
 ]
 .
 importName
-null
+"
+*
+all
+-
+but
+-
+default
+*
+"
 )
 ;
 assertEq
