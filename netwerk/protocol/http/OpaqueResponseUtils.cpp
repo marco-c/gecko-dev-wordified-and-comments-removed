@@ -2844,6 +2844,13 @@ AllowResponse
 (
 )
 ;
+channel
+-
+>
+OnOpaqueResponseAllowed
+(
+)
+;
 break
 ;
 case

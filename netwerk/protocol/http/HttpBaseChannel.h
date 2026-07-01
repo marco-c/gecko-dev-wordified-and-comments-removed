@@ -3568,6 +3568,13 @@ SetChannelBlockedByOpaqueResponse
 (
 )
 ;
+virtual
+void
+OnOpaqueResponseAllowed
+(
+)
+{
+}
 bool
 Http3Allowed
 (

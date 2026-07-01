@@ -1065,6 +1065,12 @@ SnifferType
 aType
 )
 ;
+void
+OnOpaqueResponseAllowed
+(
+)
+override
+;
 public
 :
 uint32_t
@@ -2900,6 +2906,12 @@ nsCOMPtr
 nsICacheEntry
 >
 mAltDataCacheEntry
+;
+nsCOMPtr
+<
+nsICacheEntry
+>
+mORBValidationCacheEntry
 ;
 nsCOMPtr
 <
