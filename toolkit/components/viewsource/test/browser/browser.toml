@@ -16,6 +16,11 @@ file_bug464222
 .
 html
 "
+"
+file_bug2048851
+.
+html
+"
 ]
 [
 "
@@ -132,6 +137,13 @@ aarch64
 #
 Bug
 1775668
+]
+[
+"
+browser_bug2048851
+.
+js
+"
 ]
 [
 "
