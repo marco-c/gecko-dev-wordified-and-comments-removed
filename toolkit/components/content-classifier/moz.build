@@ -103,6 +103,11 @@ UNIFIED_SOURCES
 =
 [
 "
+ContentClassifierPrefMirror
+.
+cpp
+"
+"
 ContentClassifierService
 .
 cpp
