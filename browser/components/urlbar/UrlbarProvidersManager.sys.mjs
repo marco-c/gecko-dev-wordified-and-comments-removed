@@ -708,6 +708,9 @@ supportedSAPs
 searchbar
 "
 "
+smartbar
+"
+"
 urlbar
 "
 ]
@@ -1164,6 +1167,9 @@ supportedSAPs
 searchbar
 "
 "
+smartbar
+"
+"
 urlbar
 "
 ]
@@ -1540,6 +1546,9 @@ supportedSAPs
 [
 "
 searchbar
+"
+"
+smartbar
 "
 "
 urlbar
