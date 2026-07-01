@@ -17999,6 +17999,14 @@ return
 dtls_enabled_
 &
 &
+SSLStreamAdapter
+:
+:
+IsBoringSsl
+(
+)
+&
+&
 env_
 .
 field_trials

@@ -5354,6 +5354,14 @@ rtc_base
 :
 ssl
 "
+"
+.
+.
+/
+rtc_base
+:
+ssl_adapter
+"
 ]
 }
 rtc_source_set
