@@ -236,6 +236,9 @@ pageshow
 allFrames
 :
 true
+safeForUntrustedWebProcess
+:
+true
 }
 ;
 /

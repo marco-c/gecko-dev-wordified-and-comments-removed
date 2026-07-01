@@ -2337,6 +2337,9 @@ target
 includeParent
 :
 true
+safeForUntrustedWebProcess
+:
+true
 }
 ;
 const
