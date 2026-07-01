@@ -490,7 +490,7 @@ NetworkObserver
 decodeResponseBodies
 :
 false
-responseBodyLimit
+bodyLimit
 :
 0
 ignoreChannelFunction

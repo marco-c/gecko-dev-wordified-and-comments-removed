@@ -1108,7 +1108,7 @@ devtools
 .
 netmonitor
 .
-responseBodyLimit
+bodyLimit
 "
 )
 ;

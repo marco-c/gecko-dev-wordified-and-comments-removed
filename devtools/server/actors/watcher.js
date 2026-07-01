@@ -2430,6 +2430,16 @@ this
 _networkParentActor
 ;
 }
+getExistingNetworkParentActor
+(
+)
+{
+return
+this
+.
+_networkParentActor
+;
+}
 getBlackboxingActor
 (
 )

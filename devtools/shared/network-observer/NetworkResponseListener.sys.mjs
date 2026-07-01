@@ -1563,7 +1563,7 @@ devtools
 .
 netmonitor
 .
-responseBodyLimit
+bodyLimit
 pref
 .
 *

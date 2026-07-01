@@ -409,7 +409,7 @@ devtools
 .
 netmonitor
 .
-responseBodyLimit
+bodyLimit
 "
 10
 )
@@ -510,7 +510,7 @@ devtools
 .
 netmonitor
 .
-responseBodyLimit
+bodyLimit
 "
 0
 )
