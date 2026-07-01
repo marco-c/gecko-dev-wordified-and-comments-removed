@@ -1702,6 +1702,7 @@ next_
 ;
 }
 class
+V8_GSL_POINTER
 ConstIterator
 final
 {
@@ -2344,6 +2345,7 @@ total_samples_
 }
 ;
 class
+V8_EXPORT_PRIVATE
 Compiler
 {
 public

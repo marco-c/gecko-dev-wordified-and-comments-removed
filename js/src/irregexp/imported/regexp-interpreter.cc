@@ -1563,7 +1563,6 @@ if
 IsExceptionHole
 (
 result
-isolate
 )
 )
 {
@@ -2593,6 +2592,10 @@ return
 true
 ;
 }
+UNREACHABLE
+(
+)
+;
 }
 }
 template

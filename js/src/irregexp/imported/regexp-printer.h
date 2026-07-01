@@ -660,6 +660,7 @@ prefix_
 }
 ;
 class
+V8_EXPORT_PRIVATE
 Diagnostics
 {
 public
