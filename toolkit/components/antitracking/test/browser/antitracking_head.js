@@ -469,6 +469,14 @@ _createCleanupTask
 cleanupFunction
 )
 ;
+if
+(
+!
+AppConstants
+.
+DEBUG
+)
+{
 this
 .
 _createTask
@@ -507,6 +515,7 @@ _createCleanupTask
 cleanupFunction
 )
 ;
+}
 this
 .
 _createTask
@@ -618,6 +627,14 @@ _createCleanupTask
 cleanupFunction
 )
 ;
+if
+(
+!
+AppConstants
+.
+DEBUG
+)
+{
 this
 .
 _createTask
@@ -693,6 +710,7 @@ _createCleanupTask
 cleanupFunction
 )
 ;
+}
 }
 else
 {
