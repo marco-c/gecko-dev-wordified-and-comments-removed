@@ -177,6 +177,23 @@ sys
 .
 mjs
 "
+UrlbarShared
+:
+"
+chrome
+:
+/
+/
+browser
+/
+content
+/
+urlbar
+/
+UrlbarShared
+.
+mjs
+"
 WebNavigationFrames
 :
 "
@@ -922,7 +939,7 @@ Items
 typeof
 lazy
 .
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 >
@@ -1019,7 +1036,7 @@ type
 case
 lazy
 .
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .
@@ -1036,7 +1053,7 @@ break
 case
 lazy
 .
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .
@@ -1053,7 +1070,7 @@ break
 case
 lazy
 .
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .
@@ -1098,7 +1115,7 @@ break
 case
 lazy
 .
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .
@@ -1134,7 +1151,7 @@ break
 case
 lazy
 .
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .
@@ -1169,7 +1186,7 @@ through
 case
 lazy
 .
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .
@@ -1211,7 +1228,7 @@ through
 case
 lazy
 .
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .

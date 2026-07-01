@@ -273,6 +273,23 @@ sys
 .
 mjs
 "
+UrlbarShared
+:
+"
+chrome
+:
+/
+/
+browser
+/
+content
+/
+urlbar
+/
+UrlbarShared
+.
+mjs
+"
 UrlbarUtils
 :
 "
@@ -3598,7 +3615,7 @@ type
 :
 lazy
 .
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .
@@ -4030,7 +4047,7 @@ type
 :
 lazy
 .
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .
@@ -5501,7 +5518,7 @@ type
 :
 lazy
 .
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .
@@ -5776,7 +5793,7 @@ type
 :
 lazy
 .
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .
@@ -6108,7 +6125,7 @@ type
 :
 lazy
 .
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .
@@ -6533,7 +6550,7 @@ type
 :
 lazy
 .
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .
@@ -7020,7 +7037,7 @@ details
 type
 lazy
 .
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .

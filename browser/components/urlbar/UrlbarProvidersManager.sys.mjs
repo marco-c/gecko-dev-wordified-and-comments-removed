@@ -5992,7 +5992,7 @@ type
 =
 lazy
 .
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .
@@ -6124,7 +6124,7 @@ type
 =
 lazy
 .
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .

@@ -2745,7 +2745,7 @@ also
 enumerated
 by
 *
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 *
@@ -2773,7 +2773,7 @@ integer
 }
 One
 of
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .

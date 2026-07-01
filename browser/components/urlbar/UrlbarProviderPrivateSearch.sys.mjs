@@ -686,7 +686,9 @@ UrlbarResult
 {
 type
 :
-UrlbarUtils
+lazy
+.
+UrlbarShared
 .
 RESULT_TYPE
 .

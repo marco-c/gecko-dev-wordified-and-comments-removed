@@ -6701,7 +6701,9 @@ UrlbarResult
 {
 type
 :
-UrlbarUtils
+lazy
+.
+UrlbarShared
 .
 RESULT_TYPE
 .
@@ -6976,7 +6978,9 @@ UrlbarResult
 {
 type
 :
-UrlbarUtils
+lazy
+.
+UrlbarShared
 .
 RESULT_TYPE
 .
@@ -7788,7 +7792,9 @@ UrlbarResult
 {
 type
 :
-UrlbarUtils
+lazy
+.
+UrlbarShared
 .
 RESULT_TYPE
 .

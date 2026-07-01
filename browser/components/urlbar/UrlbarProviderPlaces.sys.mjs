@@ -2439,7 +2439,9 @@ UrlbarResult
 {
 type
 :
-UrlbarUtils
+lazy
+.
+UrlbarShared
 .
 RESULT_TYPE
 .
@@ -2564,7 +2566,9 @@ UrlbarResult
 {
 type
 :
-UrlbarUtils
+lazy
+.
+UrlbarShared
 .
 RESULT_TYPE
 .
@@ -3069,7 +3073,9 @@ UrlbarResult
 {
 type
 :
-UrlbarUtils
+lazy
+.
+UrlbarShared
 .
 RESULT_TYPE
 .
@@ -10944,7 +10950,9 @@ type
 )
 {
 case
-UrlbarUtils
+lazy
+.
+UrlbarShared
 .
 RESULT_TYPE
 .
@@ -11013,7 +11021,9 @@ break
 ;
 }
 case
-UrlbarUtils
+lazy
+.
+UrlbarShared
 .
 RESULT_TYPE
 .
