@@ -2431,17 +2431,6 @@ mOngoingAPIMethodTracker
 nsAutoMicroTask
 mt
 ;
-AutoEntryScript
-aes
-(
-GetRelevantGlobal
-(
-)
-"
-UpdateEntriesForSameDocumentNavigation
-"
-)
-;
 NavigationCurrentEntryChangeEventInit
 init
 ;
