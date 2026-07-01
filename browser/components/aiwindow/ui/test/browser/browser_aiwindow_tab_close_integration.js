@@ -1308,9 +1308,6 @@ actionResult
 parentElement
 ?
 .
-parentElement
-?
-.
 classList
 .
 contains
