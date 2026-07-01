@@ -28,6 +28,8 @@ skip_if_chrome
     
 skip_if_desktop
     
+skip_if_no_window_manager
+    
 skip_unless_browser_pref
     
 skip_unless_protocol
