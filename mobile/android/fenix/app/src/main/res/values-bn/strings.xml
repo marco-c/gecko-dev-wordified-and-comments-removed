@@ -461,6 +461,13 @@ name
 "
 about_content
 "
+tools
+:
+ignore
+=
+"
+BrandUsage
+"
 >
 %
 1
@@ -5113,6 +5120,13 @@ name
 =
 "
 tab_crash_send_report
+"
+tools
+:
+ignore
+=
+"
+BrandUsage
 "
 >
 Mozilla

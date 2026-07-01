@@ -7429,6 +7429,13 @@ name
 "
 mozac_feature_addons_blocklisted_2
 "
+tools
+:
+ignore
+=
+"
+BrandUsage
+"
 >
 %
 1
@@ -8435,6 +8442,13 @@ name
 =
 "
 mozac_feature_addons_status_blocklisted_1
+"
+tools
+:
+ignore
+=
+"
+BrandUsage
 "
 >
 Mozilla

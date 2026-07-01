@@ -998,6 +998,13 @@ name
 "
 about_content
 "
+tools
+:
+ignore
+=
+"
+BrandUsage
+"
 >
 Is
 Mozilla
@@ -5465,6 +5472,13 @@ name
 =
 "
 tab_crash_send_report
+"
+tools
+:
+ignore
+=
+"
+BrandUsage
 "
 >
 Seol

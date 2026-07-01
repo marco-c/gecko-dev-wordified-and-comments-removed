@@ -2091,6 +2091,13 @@ name
 "
 preference_category_mozilla
 "
+tools
+:
+ignore
+=
+"
+BrandUsage
+"
 >
 Mozilla
 <

@@ -2464,6 +2464,13 @@ name
 "
 preference_autocomplete_add_example2
 "
+tools
+:
+ignore
+=
+"
+BrandUsage
+"
 >
 mozilla
 .
@@ -3058,6 +3065,13 @@ name
 =
 "
 preference_category_mozilla
+"
+tools
+:
+ignore
+=
+"
+BrandUsage
 "
 >
 Mozilla

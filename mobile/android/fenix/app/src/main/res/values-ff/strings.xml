@@ -538,6 +538,13 @@ name
 "
 about_content
 "
+tools
+:
+ignore
+=
+"
+BrandUsage
+"
 >
 Ko
 Mozilla
@@ -7248,6 +7255,13 @@ name
 =
 "
 tab_crash_send_report
+"
+tools
+:
+ignore
+=
+"
+BrandUsage
 "
 >
 Neldu
