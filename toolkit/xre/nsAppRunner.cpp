@@ -28371,6 +28371,13 @@ get
 )
 ;
 }
+nsAppShell
+:
+:
+InitSessionRestore
+(
+)
+;
 #
 endif
 #
