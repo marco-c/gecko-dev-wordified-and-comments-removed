@@ -11191,9 +11191,6 @@ rankTopSites
 checkedAdult
 prefValues
 isStartup
-dedupedSponsored
-.
-length
 )
 ;
 }
