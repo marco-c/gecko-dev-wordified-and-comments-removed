@@ -44,6 +44,17 @@ include
 "
 absl
 /
+base
+/
+macros
+.
+h
+"
+#
+include
+"
+absl
+/
 strings
 /
 string_view
@@ -653,6 +664,9 @@ id
 =
 0
 ;
+ABSL_DEPRECATE_AND_INLINE
+(
+)
 void
 RegisterRtpHeaderExtension
 (
