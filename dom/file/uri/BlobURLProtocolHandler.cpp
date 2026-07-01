@@ -4322,12 +4322,11 @@ _ns
 {
 principal
 =
-NullPrincipal
+nsContentUtils
 :
 :
-Create
+GetSystemPrincipal
 (
-aAttrs
 )
 ;
 }
