@@ -50,6 +50,13 @@ MozURL
 .
 h
 "
+#
+include
+"
+URIHasher
+.
+h
+"
 namespace
 mozilla
 {
@@ -67,6 +74,8 @@ public
 nsIIPCSerializableURI
 public
 nsIURIWithSizeOf
+public
+URIHasher
 {
 public
 :

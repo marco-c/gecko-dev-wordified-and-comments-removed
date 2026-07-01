@@ -757,6 +757,11 @@ SimpleChannel
 .
 h
 "
+"
+URIHasher
+.
+h
+"
 ]
 EXPORTS
 .
@@ -840,6 +845,11 @@ h
 "
 "
 NetworkConnectivityService
+.
+h
+"
+"
+NoVarySearchUtils
 .
 h
 "
@@ -965,6 +975,11 @@ cpp
 "
 "
 NetworkDataCountLayer
+.
+cpp
+"
+"
+NoVarySearchUtils
 .
 cpp
 "
