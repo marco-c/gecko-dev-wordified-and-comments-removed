@@ -235,10 +235,9 @@ android
 fillColor
 =
 "
-?
-attr
+color
 /
-colorSurfaceContainerLowest
+fx_mobile_layer_color_2
 "
 /
 >
@@ -429,10 +428,9 @@ android
 fillColor
 =
 "
-?
-attr
+color
 /
-colorSurfaceContainerLowest
+fx_mobile_layer_color_2
 "
 /
 >
@@ -714,10 +712,9 @@ android
 fillColor
 =
 "
-?
-attr
+color
 /
-colorSurfaceContainerHighest
+fx_mobile_layer_color_3
 "
 /
 >
@@ -868,7 +865,7 @@ fillColor
 ?
 attr
 /
-colorSecondaryContainer
+colorPrimaryContainer
 "
 /
 >
@@ -988,7 +985,7 @@ strokeColor
 ?
 attr
 /
-colorPrimary
+colorTertiary
 "
 /
 >
