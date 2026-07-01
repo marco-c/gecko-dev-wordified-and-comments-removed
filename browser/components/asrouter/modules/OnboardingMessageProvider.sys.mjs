@@ -16000,6 +16000,11 @@ width
 "
 280px
 "
+padding
+:
+"
+16px
+"
 logo
 :
 {
