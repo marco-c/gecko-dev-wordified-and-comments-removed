@@ -411,6 +411,14 @@ libs
 .
 androidx
 .
+fragment
+.
+testing
+testImplementation
+libs
+.
+androidx
+.
 test
 .
 core
@@ -422,6 +430,12 @@ androidx
 test
 .
 junit
+testImplementation
+libs
+.
+kotlin
+.
+test
 testImplementation
 libs
 .
