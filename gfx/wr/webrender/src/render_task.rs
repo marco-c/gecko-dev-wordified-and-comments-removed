@@ -1100,7 +1100,11 @@ bool
 pub
 texture_input
 :
+[
 RenderTaskId
+;
+3
+]
 }
 #
 [
@@ -2694,7 +2698,11 @@ prim_needs_scissor_rect
 bool
 texture_input
 :
+[
 RenderTaskId
+;
+3
+]
 )
 -
 >
@@ -10351,7 +10359,6 @@ let
 filter_data
 =
 &
-mut
 data_stores
 .
 filter_data
@@ -10359,7 +10366,12 @@ filter_data
 handle
 ]
 ;
+let
+filter_data_address
+=
 filter_data
+.
+data
 .
 write_gpu_blocks
 (
@@ -10445,9 +10457,7 @@ extra_gpu_data
 :
 Some
 (
-filter_data
-.
-gpu_buffer_address
+filter_data_address
 )
 }
 )
