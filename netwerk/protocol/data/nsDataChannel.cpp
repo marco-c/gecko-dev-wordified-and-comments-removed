@@ -234,16 +234,6 @@ NS_ERROR_NOT_INITIALIZED
 nsresult
 rv
 ;
-dom
-:
-:
-ContentChild
-:
-:
-MaybeBecomeUntrusted
-(
-)
-;
 nsAutoCString
 spec
 ;
