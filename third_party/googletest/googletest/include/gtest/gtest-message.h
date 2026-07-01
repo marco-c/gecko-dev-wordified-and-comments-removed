@@ -220,7 +220,6 @@ type
 #
 endif
 >
-inline
 Message
 &
 operator
@@ -282,7 +281,6 @@ type
 =
 0
 >
-inline
 Message
 &
 operator

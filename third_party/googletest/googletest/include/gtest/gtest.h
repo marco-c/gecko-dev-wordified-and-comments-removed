@@ -201,15 +201,6 @@ string
 .
 h
 "
-#
-include
-"
-mozilla
-/
-Attributes
-.
-h
-"
 GTEST_DISABLE_MSC_WARNINGS_PUSH_
 (
 4251
@@ -714,7 +705,6 @@ HasSameFixtureClass
 (
 )
 ;
-MOZ_CAN_RUN_SCRIPT
 virtual
 void
 TestBody
