@@ -204,6 +204,14 @@ third_party
 sqlite3
 /
 src
+patches
+:
+-
+patches
+/
+*
+.
+patch
 skip
 -
 vendoring
