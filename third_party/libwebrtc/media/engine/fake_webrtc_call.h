@@ -2440,6 +2440,13 @@ return
 0
 ;
 }
+void
+DisconnectFromNetworkThread
+(
+)
+override
+{
+}
 private
 :
 AudioSendStream
