@@ -1604,6 +1604,13 @@ kAggressiveIceConnectionReceivingTimeout
 =
 1000
 ;
+static
+const
+int
+kMaxCertificates
+=
+1000
+;
 IceServers
 servers
 ;
