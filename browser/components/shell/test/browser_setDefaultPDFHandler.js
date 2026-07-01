@@ -258,6 +258,13 @@ setDefaultStub
 queryCurrentDefaultHandlerFor
 :
 queryCurrentDefaultHandlerForStub
+isDefaultHandlerFor
+:
+sinon
+.
+stub
+(
+)
 launchSetDefaultAppPicker
 :
 launchSetDefaultAppPickerStub
