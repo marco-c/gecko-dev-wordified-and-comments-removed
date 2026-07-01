@@ -24,7 +24,7 @@ MarionetteTestCase
     
 WindowManagerMixin
     
-skip_if_no_window_manager
+skip_if_no_user_session
 )
 def
 inline
@@ -1009,7 +1009,7 @@ self
 selected_tab_index
 )
     
-skip_if_no_window_manager
+skip_if_no_user_session
 (
         
 "

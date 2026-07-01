@@ -21,7 +21,7 @@ from
 marionette_harness
 import
 MarionetteTestCase
-skip_if_no_window_manager
+skip_if_no_user_session
 class
 TestAccessibility
 (
@@ -389,7 +389,7 @@ click
 )
 )
     
-skip_if_no_window_manager
+skip_if_no_user_session
 (
         
 "

@@ -18,7 +18,7 @@ functools
 .
 cache
 def
-_running_without_window_manager
+_running_without_user_session
 (
 )
 :
@@ -28,15 +28,16 @@ _running_without_window_manager
 "
 Whether
 the
-host
-runs
-without
-a
-window
-manager
-/
-display
-server
+current
+user
+has
+no
+GUI
+(
+Aqua
+)
+login
+session
 .
     
 Some
@@ -69,7 +70,9 @@ activation
 never
 happen
     
-there
+without
+a
+session
 so
 tests
 that
@@ -81,18 +84,19 @@ e
 .
 g
 .
+    
 BrowserWindowTracker
 .
 getTopWindow
 (
 )
-    
 reflecting
 the
 focused
 window
 )
 cannot
+    
 pass
 .
 Extend
@@ -101,7 +105,6 @@ per
 -
 platform
 checks
-    
 below
 as
 more
@@ -690,7 +693,7 @@ skip_wrapper
 return
 decorator
 def
-skip_if_no_window_manager
+skip_if_no_user_session
 (
 reason
 )
@@ -704,12 +707,14 @@ which
 skips
 a
 test
-on
-hosts
-without
-a
-window
-manager
+when
+the
+user
+has
+no
+GUI
+login
+session
 .
     
 Useful
@@ -728,15 +733,19 @@ does
     
 not
 happen
+without
+a
+session
+e
+.
+g
+.
 on
 a
 headless
-host
-such
-as
-a
 macOS
 Virtualization
+    
 Framework
 guest
 .
@@ -795,7 +804,7 @@ kwargs
 :
             
 if
-_running_without_window_manager
+_running_without_user_session
 (
 )
 :
