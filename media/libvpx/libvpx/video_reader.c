@@ -170,6 +170,11 @@ n
 filename
 )
 ;
+fclose
+(
+file
+)
+;
 return
 NULL
 ;
@@ -204,6 +209,11 @@ wrong
 n
 "
 filename
+)
+;
+fclose
+(
+file
 )
 ;
 return
@@ -241,6 +251,11 @@ n
 filename
 )
 ;
+fclose
+(
+file
+)
+;
 return
 NULL
 ;
@@ -275,6 +290,11 @@ VpxVideoReader
 \
 n
 "
+)
+;
+fclose
+(
+file
 )
 ;
 return

@@ -235,6 +235,9 @@ h
 \
 }
 #
+if
+CONFIG_ENCODERS
+#
 define
 FSAD64
 \
@@ -257,6 +260,17 @@ FSADS64_H
 (
 32
 )
+#
+else
+#
+define
+FSAD64
+FSAD64_H
+(
+64
+)
+#
+endif
 FSAD64
 #
 undef
@@ -267,6 +281,9 @@ FSAD64_H
 #
 undef
 FSADS64_H
+#
+if
+CONFIG_ENCODERS
 #
 define
 FSADAVG64_H
@@ -448,3 +465,5 @@ FSADAVG64
 #
 undef
 FSADAVG64_H
+#
+endif

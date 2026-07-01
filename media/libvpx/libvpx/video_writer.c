@@ -227,6 +227,11 @@ n
 "
 )
 ;
+fclose
+(
+file
+)
+;
 return
 NULL
 ;

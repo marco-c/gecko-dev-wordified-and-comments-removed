@@ -26376,6 +26376,17 @@ frames_since_golden
 >
 =
 3
+&
+&
+x
+-
+>
+pred_mv_sad
+[
+LAST_FRAME
+]
+<
+INT_MAX
 )
 if
 (
