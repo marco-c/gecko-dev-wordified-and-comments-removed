@@ -1891,6 +1891,11 @@ html
 moz
 -
 card
+role
+=
+"
+presentation
+"
 >
 {
 content
