@@ -69,6 +69,14 @@ redux
 .
 state
 import
+androidx
+.
+compose
+.
+runtime
+.
+Immutable
+import
 org
 .
 mozilla
@@ -125,6 +133,7 @@ query
 .
 *
 /
+Immutable
 data
 class
 TabSearchState

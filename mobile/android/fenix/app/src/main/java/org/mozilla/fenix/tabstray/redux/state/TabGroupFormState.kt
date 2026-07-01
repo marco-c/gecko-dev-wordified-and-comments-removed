@@ -69,6 +69,14 @@ redux
 .
 state
 import
+androidx
+.
+compose
+.
+runtime
+.
+Immutable
+import
 org
 .
 mozilla
@@ -261,6 +269,7 @@ fields
 .
 *
 /
+Immutable
 data
 class
 TabGroupFormState
