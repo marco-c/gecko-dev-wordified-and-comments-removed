@@ -131,13 +131,6 @@ height
 }
 .
 dialogRow
-:
-not
-(
-[
-hidden
-]
-)
 {
 display
 :
@@ -370,13 +363,6 @@ dialogGrid
 infoContainer
 .
 dialogRow
-:
-not
-(
-[
-hidden
-]
-)
 {
 display
 :

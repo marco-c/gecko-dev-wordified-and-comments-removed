@@ -116,13 +116,6 @@ search
 one
 -
 offs
-:
-not
-(
-[
-hidden
-]
-)
 {
 display
 :
@@ -358,13 +351,6 @@ panel
 one
 -
 offs
-:
-not
-(
-[
-hidden
-]
-)
 .
 search
 -

@@ -7874,15 +7874,6 @@ CFR_MILESTONE_MESSAGE
 "
 ]
 {
-&
-:
-not
-(
-[
-hidden
-]
-)
-{
 display
 :
 flex
@@ -7985,7 +7976,6 @@ space
 xsmall
 )
 ;
-}
 &
 :
 -
