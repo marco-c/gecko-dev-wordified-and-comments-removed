@@ -343,6 +343,16 @@ mTRRConnectionInfoInited
 false
 }
 ;
+Atomic
+<
+uint32_t
+Relaxed
+>
+mTRRConnectionInfoGeneration
+{
+0
+}
+;
 DataMutex
 <
 RefPtr
