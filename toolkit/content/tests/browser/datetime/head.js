@@ -1362,9 +1362,6 @@ document
 tabs
 =
 1
-hasTime
-=
-false
 )
 {
 info
@@ -1641,10 +1638,6 @@ KEY_Tab
 "
 {
 repeat
-:
-hasTime
-?
-6
 :
 3
 }
