@@ -194,6 +194,9 @@ true
 customUserAgent
 :
 true
+enabledHighlighters
+:
+true
 isTracerFeatureEnabled
 :
 true
