@@ -10,6 +10,13 @@ aggregation
 "
 [
 "
+test_bhr_collection
+.
+py
+"
+]
+[
+"
 test_heuristics
 .
 py
