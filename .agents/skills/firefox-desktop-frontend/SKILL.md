@@ -1,6 +1,13 @@
 -
 -
 -
+name
+:
+firefox
+-
+desktop
+-
+frontend
 description
 :
 You
