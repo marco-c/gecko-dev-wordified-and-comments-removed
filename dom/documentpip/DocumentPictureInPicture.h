@@ -85,6 +85,9 @@ const
 DocumentPictureInPictureOptions
 &
 aOptions
+nsIPrincipal
+&
+aCallerPrincipal
 ErrorResult
 &
 aRv
