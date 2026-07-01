@@ -13775,6 +13775,14 @@ JSONObject
 ;
 method
 AnyThread
+public
+void
+notifyShown
+(
+)
+;
+method
+AnyThread
 NonNull
 public
 JSONObject
