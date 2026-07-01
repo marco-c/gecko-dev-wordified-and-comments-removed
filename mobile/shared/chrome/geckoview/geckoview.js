@@ -2105,6 +2105,9 @@ messageManagerGroups
 browsers
 "
 ]
+safeForUntrustedWebProcess
+:
+true
 }
 }
 }
@@ -2223,6 +2226,9 @@ messageManagerGroups
 browsers
 "
 ]
+safeForUntrustedWebProcess
+:
+true
 }
 }
 }
@@ -2396,6 +2402,9 @@ messageManagerGroups
 browsers
 "
 ]
+safeForUntrustedWebProcess
+:
+true
 }
 }
 }
@@ -2473,6 +2482,9 @@ messageManagerGroups
 browsers
 "
 ]
+safeForUntrustedWebProcess
+:
+true
 }
 }
 }
@@ -2587,6 +2599,9 @@ messageManagerGroups
 browsers
 "
 ]
+safeForUntrustedWebProcess
+:
+true
 }
 }
 }
@@ -2643,6 +2658,9 @@ sys
 mjs
 "
 }
+safeForUntrustedWebProcess
+:
+true
 }
 }
 }
@@ -2840,6 +2858,9 @@ messageManagerGroups
 browsers
 "
 ]
+safeForUntrustedWebProcess
+:
+true
 }
 }
 }
@@ -2946,6 +2967,9 @@ messageManagerGroups
 browsers
 "
 ]
+safeForUntrustedWebProcess
+:
+true
 }
 }
 }
@@ -3039,6 +3063,9 @@ messageManagerGroups
 browsers
 "
 ]
+safeForUntrustedWebProcess
+:
+true
 }
 }
 }
@@ -3104,6 +3131,9 @@ true
 includeChrome
 :
 true
+safeForUntrustedWebProcess
+:
+true
 }
 }
 }
@@ -3166,6 +3196,9 @@ mjs
 allFrames
 :
 true
+safeForUntrustedWebProcess
+:
+true
 }
 }
 }
@@ -3206,6 +3239,9 @@ mjs
 "
 }
 allFrames
+:
+true
+safeForUntrustedWebProcess
 :
 true
 }

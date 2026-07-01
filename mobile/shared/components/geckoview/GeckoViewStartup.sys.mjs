@@ -339,6 +339,9 @@ request
 "
 ]
 }
+safeForUntrustedWebProcess
+:
+true
 }
 GeckoViewPush
 :
@@ -364,6 +367,9 @@ mjs
 "
 }
 includeParent
+:
+true
+safeForUntrustedWebProcess
 :
 true
 }
@@ -423,6 +429,9 @@ messageManagerGroups
 browsers
 "
 ]
+safeForUntrustedWebProcess
+:
+true
 }
 GeckoViewPermission
 :
@@ -471,6 +480,9 @@ allFrames
 :
 true
 includeChrome
+:
+true
+safeForUntrustedWebProcess
 :
 true
 }
@@ -577,6 +589,9 @@ messageManagerGroups
 browsers
 "
 ]
+safeForUntrustedWebProcess
+:
+true
 }
 GeckoViewFormValidation
 :
@@ -619,6 +634,9 @@ messageManagerGroups
 browsers
 "
 ]
+safeForUntrustedWebProcess
+:
+true
 }
 GeckoViewPdfjs
 :
@@ -666,6 +684,9 @@ mjs
 "
 }
 allFrames
+:
+true
+safeForUntrustedWebProcess
 :
 true
 }
