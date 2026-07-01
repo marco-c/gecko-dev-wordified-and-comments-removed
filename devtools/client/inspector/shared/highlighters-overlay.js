@@ -1583,6 +1583,7 @@ inspectorFront
 getHighlighterByType
 (
 type
+true
 )
 ;
 }

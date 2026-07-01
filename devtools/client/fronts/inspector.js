@@ -623,6 +623,9 @@ async
 getHighlighterByType
 (
 typeName
+forceNew
+=
+false
 )
 {
 let
@@ -640,6 +643,7 @@ super
 getHighlighterByType
 (
 typeName
+forceNew
 )
 ;
 }

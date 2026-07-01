@@ -213,6 +213,12 @@ _parent
 =
 parent
 ;
+this
+.
+highlighterTypeName
+=
+typeName
+;
 const
 modulePath
 =
