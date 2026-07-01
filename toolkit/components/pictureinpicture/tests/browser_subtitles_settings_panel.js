@@ -237,7 +237,7 @@ settings
 let
 panelVisiblePromise
 =
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -297,7 +297,7 @@ focus
 let
 panelHiddenPromise
 =
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -624,7 +624,7 @@ toggle
 let
 panelVisiblePromise
 =
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -694,7 +694,7 @@ panel
 let
 panelHiddenPromise
 =
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -1032,7 +1032,7 @@ toggle
 let
 panelVisiblePromise
 =
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -1262,7 +1262,7 @@ focus
 let
 panelHiddenPromise
 =
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

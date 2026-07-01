@@ -192,7 +192,7 @@ openCustomHomepageSubpage
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -299,7 +299,7 @@ unload
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

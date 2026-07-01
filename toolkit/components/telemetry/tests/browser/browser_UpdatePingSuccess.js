@@ -492,7 +492,7 @@ getFirstWindowArgs
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

@@ -520,7 +520,7 @@ exist
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

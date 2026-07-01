@@ -744,7 +744,7 @@ focus
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -854,7 +854,7 @@ page
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

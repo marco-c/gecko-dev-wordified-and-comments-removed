@@ -291,7 +291,7 @@ promise
 try
 {
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

@@ -245,7 +245,7 @@ megalist
 {
 return
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -913,7 +913,7 @@ click
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -1173,7 +1173,7 @@ card
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -1207,7 +1207,7 @@ passwordLine
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -1403,7 +1403,7 @@ click
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -1580,7 +1580,7 @@ password
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -1613,7 +1613,7 @@ passwordLine
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

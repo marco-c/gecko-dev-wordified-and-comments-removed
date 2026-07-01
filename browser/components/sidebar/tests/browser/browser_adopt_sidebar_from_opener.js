@@ -273,7 +273,7 @@ object
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -328,7 +328,7 @@ sidebar
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -565,7 +565,7 @@ history
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -645,7 +645,7 @@ let
 newContentDocument
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

@@ -1388,7 +1388,7 @@ modifiers
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -1456,7 +1456,7 @@ modifiers
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

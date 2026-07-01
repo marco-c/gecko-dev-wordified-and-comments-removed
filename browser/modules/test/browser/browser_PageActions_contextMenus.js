@@ -304,7 +304,7 @@ aboutAddonsTab
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -453,7 +453,7 @@ aboutAddonsTab
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

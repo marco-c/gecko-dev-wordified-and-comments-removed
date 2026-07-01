@@ -329,7 +329,7 @@ test
 "
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

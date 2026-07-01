@@ -28,7 +28,7 @@ i
 0
 ;
 return
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

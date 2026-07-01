@@ -672,7 +672,7 @@ evaluated
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -804,7 +804,7 @@ overriden
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -1037,7 +1037,7 @@ one
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -1427,7 +1427,7 @@ evaluated
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -1830,7 +1830,7 @@ evaluated
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

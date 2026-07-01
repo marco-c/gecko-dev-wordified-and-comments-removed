@@ -808,7 +808,7 @@ linkedBrowser
 let
 ready
 =
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

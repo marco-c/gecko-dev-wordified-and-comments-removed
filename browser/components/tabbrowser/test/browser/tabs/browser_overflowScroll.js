@@ -253,7 +253,7 @@ tabs
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -573,7 +573,7 @@ waitForNextFrame
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

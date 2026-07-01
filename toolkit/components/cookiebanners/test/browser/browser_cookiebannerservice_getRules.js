@@ -217,7 +217,7 @@ test_rules_getter_no_duplicates
 )
 {
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

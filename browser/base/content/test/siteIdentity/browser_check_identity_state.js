@@ -298,7 +298,7 @@ span
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

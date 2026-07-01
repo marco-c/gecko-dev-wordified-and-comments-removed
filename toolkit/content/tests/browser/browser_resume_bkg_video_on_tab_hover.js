@@ -226,7 +226,7 @@ true
 ;
 }
 return
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -279,7 +279,7 @@ changes
 )
 ;
 return
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

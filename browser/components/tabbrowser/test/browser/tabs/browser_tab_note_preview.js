@@ -659,7 +659,7 @@ click
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -729,7 +729,7 @@ recorded
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -3025,7 +3025,7 @@ menuHidden
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

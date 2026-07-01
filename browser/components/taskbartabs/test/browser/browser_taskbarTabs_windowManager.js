@@ -1909,7 +1909,7 @@ newY1
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -2115,7 +2115,7 @@ newY2
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

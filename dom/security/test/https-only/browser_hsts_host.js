@@ -103,7 +103,7 @@ await
 promiseLoaded
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -241,7 +241,7 @@ await
 promiseLoaded
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -639,7 +639,7 @@ await
 promiseLoaded
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

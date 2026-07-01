@@ -189,7 +189,7 @@ kTestXFOEmbedURI
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -261,7 +261,7 @@ kTestXFOObjectURI
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

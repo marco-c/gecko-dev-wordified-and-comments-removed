@@ -157,7 +157,7 @@ input
 ownerDocument
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

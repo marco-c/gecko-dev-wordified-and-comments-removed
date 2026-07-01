@@ -258,7 +258,7 @@ contentDocument
 }
 =
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -311,7 +311,7 @@ results
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -352,7 +352,7 @@ const
 scalars
 =
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -561,7 +561,7 @@ close
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

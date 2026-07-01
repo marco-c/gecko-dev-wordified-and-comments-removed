@@ -93,7 +93,7 @@ hide
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -840,7 +840,7 @@ await
 popupHidden
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -1034,7 +1034,7 @@ hidden
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

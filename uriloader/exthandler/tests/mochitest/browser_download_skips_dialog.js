@@ -91,16 +91,6 @@ useDownloadDir
 "
 true
 ]
-[
-"
-image
-.
-webp
-.
-enabled
-"
-true
-]
 ]
 }
 )
@@ -188,7 +178,7 @@ await
 downloadFinishedPromise
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

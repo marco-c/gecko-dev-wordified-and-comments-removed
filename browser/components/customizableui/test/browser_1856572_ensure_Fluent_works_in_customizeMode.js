@@ -185,7 +185,7 @@ header
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

@@ -308,7 +308,7 @@ selectedBrowser
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -588,7 +588,7 @@ switching
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -1137,7 +1137,7 @@ selectedBrowser
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -1507,7 +1507,7 @@ content
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -2073,7 +2073,7 @@ content
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -3496,7 +3496,7 @@ content
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

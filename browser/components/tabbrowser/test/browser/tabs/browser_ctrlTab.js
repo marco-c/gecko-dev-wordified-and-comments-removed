@@ -1461,7 +1461,7 @@ firstElementChild
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

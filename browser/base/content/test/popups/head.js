@@ -61,7 +61,7 @@ blockedPopupOptions
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

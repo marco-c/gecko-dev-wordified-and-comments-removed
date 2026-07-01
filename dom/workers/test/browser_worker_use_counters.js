@@ -264,7 +264,7 @@ await
 tabClosed
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

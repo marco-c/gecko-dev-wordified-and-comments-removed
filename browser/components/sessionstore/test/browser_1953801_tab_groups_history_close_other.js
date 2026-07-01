@@ -182,7 +182,7 @@ save
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

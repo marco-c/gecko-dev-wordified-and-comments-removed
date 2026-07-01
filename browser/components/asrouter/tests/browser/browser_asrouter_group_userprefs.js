@@ -282,7 +282,7 @@ loadMessagesFromAllProviders
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -309,7 +309,7 @@ message
 "
 )
 ;
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -433,7 +433,7 @@ loadMessagesFromAllProviders
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -681,7 +681,7 @@ true
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -747,7 +747,7 @@ let
 groupState
 =
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -881,7 +881,7 @@ found
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -931,7 +931,7 @@ false
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -999,7 +999,7 @@ TEST_URL
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

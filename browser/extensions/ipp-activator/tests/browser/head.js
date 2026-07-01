@@ -355,7 +355,7 @@ condition
 else
 {
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

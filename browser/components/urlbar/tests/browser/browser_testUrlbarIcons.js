@@ -258,7 +258,7 @@ value
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -330,7 +330,7 @@ getDefault
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -398,7 +398,7 @@ index
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -504,7 +504,7 @@ com
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -554,7 +554,7 @@ index
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -675,7 +675,7 @@ autofill
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -718,7 +718,7 @@ index
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

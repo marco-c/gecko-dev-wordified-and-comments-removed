@@ -246,7 +246,7 @@ expected
 )
 {
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

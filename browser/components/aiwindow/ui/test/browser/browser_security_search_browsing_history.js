@@ -720,7 +720,7 @@ conversation
 )
 {
 return
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -1116,7 +1116,7 @@ const
 conversation
 =
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -1866,7 +1866,7 @@ const
 conversation
 =
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -2356,7 +2356,7 @@ const
 conversation
 =
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -2751,7 +2751,7 @@ const
 conversation
 =
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -3048,7 +3048,7 @@ const
 conversation
 =
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

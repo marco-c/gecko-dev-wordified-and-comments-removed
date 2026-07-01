@@ -373,7 +373,7 @@ allowedSiteHosts
 )
 {
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

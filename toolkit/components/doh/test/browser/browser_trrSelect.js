@@ -334,7 +334,7 @@ selected
 try
 {
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -467,7 +467,7 @@ waitForStartup
 try
 {
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

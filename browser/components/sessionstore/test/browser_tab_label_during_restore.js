@@ -183,7 +183,7 @@ async
 >
 {
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

@@ -2421,7 +2421,7 @@ permission
 ;
 }
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -2670,7 +2670,7 @@ toggled
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

@@ -231,7 +231,7 @@ nsIUrlClassifierDBService
 )
 ;
 return
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

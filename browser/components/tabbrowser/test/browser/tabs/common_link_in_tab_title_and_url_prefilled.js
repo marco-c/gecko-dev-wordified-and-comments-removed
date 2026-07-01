@@ -827,7 +827,7 @@ await
 onNewTabCreated
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

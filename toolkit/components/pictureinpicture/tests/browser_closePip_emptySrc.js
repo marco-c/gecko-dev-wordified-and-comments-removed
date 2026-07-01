@@ -184,7 +184,7 @@ load
 try
 {
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

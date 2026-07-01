@@ -2514,7 +2514,7 @@ lazyTab
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

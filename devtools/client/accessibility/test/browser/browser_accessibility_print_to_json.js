@@ -36,7 +36,7 @@ defaultView
 .
 windowRoot
 .
-ownerGlobal
+window
 .
 document
 ;
@@ -98,7 +98,7 @@ tab
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

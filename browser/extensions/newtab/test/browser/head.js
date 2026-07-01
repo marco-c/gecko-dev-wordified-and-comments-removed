@@ -923,7 +923,7 @@ addContentHelpers
 try
 {
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

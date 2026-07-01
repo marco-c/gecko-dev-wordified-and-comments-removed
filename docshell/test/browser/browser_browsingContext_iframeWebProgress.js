@@ -219,7 +219,7 @@ tab
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

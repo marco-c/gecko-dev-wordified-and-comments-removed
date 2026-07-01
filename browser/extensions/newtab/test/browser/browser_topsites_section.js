@@ -1596,7 +1596,7 @@ addContentHelpers
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

@@ -6183,7 +6183,7 @@ group
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

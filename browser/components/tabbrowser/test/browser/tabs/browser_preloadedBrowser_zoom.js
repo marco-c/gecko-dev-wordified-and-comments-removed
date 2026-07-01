@@ -220,7 +220,7 @@ nsIContentPrefService2
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

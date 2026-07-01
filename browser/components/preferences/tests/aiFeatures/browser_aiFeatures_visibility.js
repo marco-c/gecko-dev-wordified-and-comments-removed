@@ -1385,7 +1385,7 @@ selectedTab
 generalTab
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -1536,7 +1536,7 @@ selectedTab
 generalTab
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

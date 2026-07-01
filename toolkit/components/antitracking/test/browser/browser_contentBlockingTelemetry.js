@@ -235,7 +235,7 @@ let
 storageAccessGrantedHistogram
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

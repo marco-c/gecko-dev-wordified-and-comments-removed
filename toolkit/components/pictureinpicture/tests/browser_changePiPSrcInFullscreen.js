@@ -381,7 +381,7 @@ top
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -565,7 +565,7 @@ fullscreen
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -699,7 +699,7 @@ fullscreen
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -966,7 +966,7 @@ top
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -1150,7 +1150,7 @@ fullscreen
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -1246,7 +1246,7 @@ mp4
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -1319,7 +1319,7 @@ fullscreen
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -1592,7 +1592,7 @@ top
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -1776,7 +1776,7 @@ fullscreen
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -1885,7 +1885,7 @@ mp4
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -1907,7 +1907,7 @@ updated
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -1983,7 +1983,7 @@ fullscreen
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -2080,7 +2080,7 @@ fullscreen
 else
 {
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

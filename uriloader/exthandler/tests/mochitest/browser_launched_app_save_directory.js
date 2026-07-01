@@ -106,16 +106,6 @@ always_ask_before_handling_new_types
 "
 false
 ]
-[
-"
-image
-.
-webp
-.
-enabled
-"
-true
-]
 ]
 }
 )
@@ -272,7 +262,7 @@ await
 downloadFinishedPromise
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

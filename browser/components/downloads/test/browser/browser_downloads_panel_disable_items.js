@@ -1236,7 +1236,7 @@ hidePanel
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

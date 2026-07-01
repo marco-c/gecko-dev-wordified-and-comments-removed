@@ -472,7 +472,7 @@ await
 viewLoaded
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -596,7 +596,7 @@ await
 viewLoaded
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -725,7 +725,7 @@ await
 viewLoaded
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

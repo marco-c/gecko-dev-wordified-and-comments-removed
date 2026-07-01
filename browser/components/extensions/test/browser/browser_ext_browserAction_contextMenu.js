@@ -892,7 +892,7 @@ win
 windowUtils
 ;
 return
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

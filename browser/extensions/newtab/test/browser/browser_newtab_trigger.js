@@ -126,7 +126,7 @@ waitForLoad
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

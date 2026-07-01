@@ -790,7 +790,7 @@ await
 visitUriPromise
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

@@ -182,7 +182,7 @@ expectedState
 )
 {
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

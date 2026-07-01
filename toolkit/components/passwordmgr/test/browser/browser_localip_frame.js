@@ -524,7 +524,7 @@ richlistitem
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

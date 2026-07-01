@@ -13,7 +13,7 @@ window
 )
 {
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

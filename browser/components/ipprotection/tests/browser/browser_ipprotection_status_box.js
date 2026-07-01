@@ -190,7 +190,7 @@ restore
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -589,7 +589,7 @@ restore
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -919,7 +919,7 @@ restore
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

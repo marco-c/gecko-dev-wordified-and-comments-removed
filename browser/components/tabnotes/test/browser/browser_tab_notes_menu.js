@@ -1163,7 +1163,7 @@ save
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -1484,7 +1484,7 @@ save
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -1564,7 +1564,7 @@ tabNoteEdited
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -1964,7 +1964,7 @@ await
 tabNoteRemoved
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

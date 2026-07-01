@@ -587,7 +587,7 @@ true
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -603,7 +603,6 @@ optionButton
 )
 )
 ;
-await
 EventUtils
 .
 synthesizeMouseAtCenter

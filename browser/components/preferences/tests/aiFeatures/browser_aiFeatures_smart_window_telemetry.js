@@ -936,7 +936,7 @@ click
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -1025,7 +1025,7 @@ customModelSaveButton
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -1319,7 +1319,7 @@ openSmartWindowPanel
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -1408,7 +1408,7 @@ customModelSaveButton
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -2705,7 +2705,7 @@ await
 dialogPromise
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

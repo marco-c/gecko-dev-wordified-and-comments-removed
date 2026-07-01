@@ -433,7 +433,7 @@ async
 >
 {
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -547,7 +547,7 @@ async
 >
 {
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -658,7 +658,7 @@ async
 >
 {
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -798,7 +798,7 @@ async
 >
 {
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

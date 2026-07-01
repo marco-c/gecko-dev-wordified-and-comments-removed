@@ -2230,7 +2230,7 @@ password
 )
 {
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

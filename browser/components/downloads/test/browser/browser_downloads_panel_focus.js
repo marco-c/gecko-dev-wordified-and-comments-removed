@@ -197,7 +197,7 @@ task_openPanel
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -344,7 +344,7 @@ task_openPanel
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -490,7 +490,7 @@ task_openPanel
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

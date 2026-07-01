@@ -330,7 +330,7 @@ URICountListener
 uniqueDomainsVisitedInPast24Hours
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

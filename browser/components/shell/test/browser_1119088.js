@@ -663,7 +663,7 @@ leafName
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

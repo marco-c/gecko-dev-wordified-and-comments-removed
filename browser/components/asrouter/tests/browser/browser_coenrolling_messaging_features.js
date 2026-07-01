@@ -614,7 +614,7 @@ const
 enrollment1
 =
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -669,7 +669,7 @@ let
 messages
 =
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -1178,7 +1178,7 @@ test
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -1258,7 +1258,7 @@ experiments
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -1495,7 +1495,7 @@ restore
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

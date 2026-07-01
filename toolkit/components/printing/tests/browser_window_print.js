@@ -565,7 +565,7 @@ boolean
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

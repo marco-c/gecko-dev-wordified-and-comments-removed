@@ -114,7 +114,7 @@ length
 )
 {
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

@@ -314,7 +314,7 @@ received
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -348,7 +348,7 @@ events
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -470,7 +470,7 @@ received
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -504,7 +504,7 @@ events
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

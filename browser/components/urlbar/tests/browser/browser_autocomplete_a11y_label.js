@@ -83,7 +83,7 @@ description
 )
 {
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

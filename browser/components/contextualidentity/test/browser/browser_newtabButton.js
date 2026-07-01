@@ -464,7 +464,7 @@ visible
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

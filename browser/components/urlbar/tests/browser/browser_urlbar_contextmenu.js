@@ -630,7 +630,7 @@ subMenuItemLabel
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -780,7 +780,7 @@ selectedTab
 else
 {
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

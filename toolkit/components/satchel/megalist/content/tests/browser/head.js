@@ -852,7 +852,7 @@ getAllLogins
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -1103,7 +1103,7 @@ notificationId
 const
 notifcationPromise
 =
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -1640,7 +1640,7 @@ alpha
 )
 ;
 return
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -1670,7 +1670,7 @@ megalist
 {
 return
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

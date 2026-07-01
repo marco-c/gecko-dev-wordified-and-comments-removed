@@ -274,7 +274,6 @@ null
 true
 )
 ;
-await
 EventUtils
 .
 synthesizeMouseAtCenter
@@ -395,7 +394,6 @@ openProtectionsPanel
 window
 )
 ;
-await
 EventUtils
 .
 synthesizeMouseAtCenter
@@ -419,7 +417,7 @@ all
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

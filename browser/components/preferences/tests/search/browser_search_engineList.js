@@ -1206,7 +1206,7 @@ defaultView
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

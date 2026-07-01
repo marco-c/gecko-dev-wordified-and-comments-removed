@@ -637,7 +637,7 @@ KEY_ArrowDown
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

@@ -384,7 +384,7 @@ browser
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -569,7 +569,7 @@ browser
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -766,7 +766,7 @@ browser
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -862,7 +862,7 @@ browser
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -1071,7 +1071,7 @@ browser
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

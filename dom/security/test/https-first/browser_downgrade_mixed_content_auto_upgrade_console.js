@@ -210,7 +210,7 @@ await
 promiseLoaded
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

@@ -260,7 +260,7 @@ mlmodel
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -421,7 +421,7 @@ mlmodel
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

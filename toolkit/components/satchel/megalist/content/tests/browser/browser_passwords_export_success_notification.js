@@ -408,7 +408,7 @@ megalist
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

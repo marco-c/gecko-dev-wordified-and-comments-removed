@@ -119,7 +119,7 @@ openCustomHomepageSubpage
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

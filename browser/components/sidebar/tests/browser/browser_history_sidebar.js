@@ -1302,7 +1302,7 @@ lists
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

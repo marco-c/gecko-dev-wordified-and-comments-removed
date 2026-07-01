@@ -117,7 +117,7 @@ title
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

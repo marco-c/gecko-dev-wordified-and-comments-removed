@@ -422,7 +422,7 @@ context
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -753,7 +753,7 @@ inputField
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

@@ -361,7 +361,7 @@ isFromMenuDropdown
 )
 {
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

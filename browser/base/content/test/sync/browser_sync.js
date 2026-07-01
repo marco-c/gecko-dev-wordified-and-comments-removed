@@ -6269,7 +6269,7 @@ button
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

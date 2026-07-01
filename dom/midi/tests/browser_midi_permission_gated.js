@@ -3926,7 +3926,7 @@ prevRequestPage
 )
 {
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

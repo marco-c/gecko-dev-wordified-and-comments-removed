@@ -234,7 +234,7 @@ KEY_Enter
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

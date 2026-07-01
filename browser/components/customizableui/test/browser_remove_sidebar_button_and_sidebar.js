@@ -109,7 +109,7 @@ let
 sidebarButton
 =
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -178,7 +178,7 @@ let
 sidebarBox
 =
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -298,7 +298,7 @@ await
 finishedCustomizing
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

@@ -1997,7 +1997,7 @@ reload
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

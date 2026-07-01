@@ -124,7 +124,7 @@ sizemodechange
 let
 promiseBrowserInactive
 =
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -262,7 +262,7 @@ sizemodechange
 let
 promiseBrowserActive
 =
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

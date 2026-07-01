@@ -547,7 +547,7 @@ restore
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

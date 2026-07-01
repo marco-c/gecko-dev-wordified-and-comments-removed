@@ -381,7 +381,7 @@ await
 baselinePrefChange
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

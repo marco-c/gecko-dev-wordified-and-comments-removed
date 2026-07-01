@@ -1505,7 +1505,7 @@ toggleTopsitesPref
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

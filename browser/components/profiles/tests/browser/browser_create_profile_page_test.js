@@ -2578,7 +2578,7 @@ content
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -2600,7 +2600,7 @@ canceled
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -2822,7 +2822,7 @@ ONE_HOUR_IN_MS
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

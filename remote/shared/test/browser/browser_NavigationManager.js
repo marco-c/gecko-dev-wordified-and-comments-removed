@@ -307,7 +307,7 @@ SECOND_URL
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -373,7 +373,7 @@ THIRD_URL
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -691,7 +691,7 @@ onLoad2
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -839,7 +839,7 @@ tab2
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -1108,7 +1108,7 @@ testUrl
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -1236,7 +1236,7 @@ tab
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -1489,7 +1489,7 @@ SECOND_COOP_URL
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -1842,7 +1842,7 @@ url
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

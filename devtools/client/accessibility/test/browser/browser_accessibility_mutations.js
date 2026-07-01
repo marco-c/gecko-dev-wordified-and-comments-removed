@@ -476,7 +476,7 @@ remove
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

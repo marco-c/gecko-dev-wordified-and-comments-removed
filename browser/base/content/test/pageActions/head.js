@@ -106,7 +106,7 @@ eventDict
 )
 {
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

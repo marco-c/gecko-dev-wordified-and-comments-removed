@@ -238,7 +238,7 @@ path
 destFile
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -255,7 +255,7 @@ path
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

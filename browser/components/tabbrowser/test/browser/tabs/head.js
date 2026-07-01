@@ -1679,7 +1679,7 @@ origWindow
 )
 {
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -1719,7 +1719,7 @@ origWindow
 )
 {
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

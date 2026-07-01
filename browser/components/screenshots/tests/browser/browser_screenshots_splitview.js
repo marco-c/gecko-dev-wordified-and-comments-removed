@@ -649,7 +649,7 @@ waitForOverlay
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -796,7 +796,7 @@ initialized
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

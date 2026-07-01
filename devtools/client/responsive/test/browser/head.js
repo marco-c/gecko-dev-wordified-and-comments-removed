@@ -4635,7 +4635,7 @@ zoom
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

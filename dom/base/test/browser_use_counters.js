@@ -1609,7 +1609,7 @@ prevSentinelValue
 )
 ;
 return
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

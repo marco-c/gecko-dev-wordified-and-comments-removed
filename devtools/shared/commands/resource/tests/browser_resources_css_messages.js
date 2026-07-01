@@ -261,7 +261,7 @@ message
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

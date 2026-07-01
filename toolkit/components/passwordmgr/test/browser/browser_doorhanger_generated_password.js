@@ -294,7 +294,7 @@ long
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

@@ -1877,7 +1877,7 @@ menu
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -4093,7 +4093,7 @@ separateItem
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -4423,7 +4423,7 @@ separateItem
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -5571,7 +5571,7 @@ reverseItem
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -5929,7 +5929,7 @@ reverseItem
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -6311,7 +6311,7 @@ resetEnv
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

@@ -263,7 +263,7 @@ accessibility
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

@@ -282,7 +282,7 @@ controlEl
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

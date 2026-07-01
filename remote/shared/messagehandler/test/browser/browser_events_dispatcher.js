@@ -3054,7 +3054,7 @@ event
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

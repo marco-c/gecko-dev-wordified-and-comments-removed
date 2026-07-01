@@ -302,7 +302,7 @@ gBrowser
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -326,7 +326,7 @@ once
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

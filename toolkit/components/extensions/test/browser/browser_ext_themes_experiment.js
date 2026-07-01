@@ -1833,7 +1833,7 @@ EXPERIMENTS_ENABLED
 )
 {
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

@@ -236,7 +236,7 @@ disabled
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

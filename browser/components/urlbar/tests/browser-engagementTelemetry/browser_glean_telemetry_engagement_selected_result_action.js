@@ -332,7 +332,7 @@ testaction
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -428,7 +428,7 @@ testaction
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -524,7 +524,7 @@ multiaction
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

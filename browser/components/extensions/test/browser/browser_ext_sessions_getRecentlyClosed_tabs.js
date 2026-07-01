@@ -321,7 +321,7 @@ selectedTab
 try
 {
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -429,7 +429,7 @@ url
 try
 {
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -917,7 +917,7 @@ tabBrowser
 try
 {
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

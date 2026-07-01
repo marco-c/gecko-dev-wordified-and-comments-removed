@@ -57,7 +57,7 @@ gBrowser
 contentDocument
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -129,7 +129,7 @@ gBrowser
 contentDocument
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

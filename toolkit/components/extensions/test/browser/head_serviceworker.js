@@ -174,7 +174,7 @@ terminated
 try
 {
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -525,7 +525,7 @@ baseURI
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

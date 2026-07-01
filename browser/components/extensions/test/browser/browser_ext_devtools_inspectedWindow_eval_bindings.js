@@ -929,7 +929,7 @@ await
 debuggerPanelSelectedPromise
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -1002,7 +1002,7 @@ result
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

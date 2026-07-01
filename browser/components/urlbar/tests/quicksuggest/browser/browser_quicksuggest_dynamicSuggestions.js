@@ -353,7 +353,7 @@ rowLabel
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

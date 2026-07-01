@@ -665,7 +665,7 @@ marginInlineEnd
 "
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -1150,7 +1150,7 @@ calloutContainer
 >
 {
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -2104,7 +2104,7 @@ primary
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -3613,7 +3613,7 @@ class
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

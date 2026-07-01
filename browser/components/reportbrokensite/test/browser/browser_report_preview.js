@@ -636,7 +636,7 @@ summary
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -677,7 +677,7 @@ summary
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

@@ -790,7 +790,7 @@ labels
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

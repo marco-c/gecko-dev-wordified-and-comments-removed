@@ -111,7 +111,7 @@ fullscreen
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

@@ -88,7 +88,7 @@ openNewBrowserWindow
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

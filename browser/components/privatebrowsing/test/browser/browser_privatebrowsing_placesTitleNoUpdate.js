@@ -142,7 +142,7 @@ await
 promiseTitleChanged
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -248,7 +248,7 @@ await
 promiseTitleChanged
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

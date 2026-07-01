@@ -1447,7 +1447,7 @@ await
 pagesEditedPromise
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -1564,7 +1564,7 @@ await
 cutEditedPromise
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

@@ -418,7 +418,7 @@ browsingContextId
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -501,7 +501,7 @@ type
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

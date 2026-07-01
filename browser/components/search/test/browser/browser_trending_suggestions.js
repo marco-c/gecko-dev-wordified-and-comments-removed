@@ -627,7 +627,7 @@ resultIndex
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

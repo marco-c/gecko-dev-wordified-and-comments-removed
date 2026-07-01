@@ -103,7 +103,7 @@ appear
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

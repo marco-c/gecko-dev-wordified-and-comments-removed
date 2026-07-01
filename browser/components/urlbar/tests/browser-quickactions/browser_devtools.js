@@ -197,7 +197,7 @@ description
 >
 {
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -769,7 +769,7 @@ window
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -828,7 +828,7 @@ toolbox
 isOpen
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -1180,7 +1180,7 @@ tab
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

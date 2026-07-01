@@ -79,7 +79,7 @@ mjs
 ;
 import
 {
-BrowserTestUtils
+TestUtils
 }
 from
 "
@@ -91,7 +91,7 @@ testing
 -
 common
 /
-BrowserTestUtils
+TestUtils
 .
 sys
 .
@@ -384,7 +384,7 @@ fullScreen
 wantsFS
 ;
 return
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

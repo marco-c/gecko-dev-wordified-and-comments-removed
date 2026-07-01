@@ -855,7 +855,7 @@ iframe
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

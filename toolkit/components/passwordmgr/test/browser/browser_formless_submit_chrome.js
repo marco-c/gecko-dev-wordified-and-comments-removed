@@ -672,7 +672,7 @@ button
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -794,7 +794,7 @@ html
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

@@ -773,7 +773,7 @@ let
 metadata
 =
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -837,7 +837,7 @@ id
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -1102,7 +1102,7 @@ restore
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

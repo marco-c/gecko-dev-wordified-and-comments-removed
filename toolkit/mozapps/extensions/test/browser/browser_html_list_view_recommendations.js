@@ -924,7 +924,7 @@ await
 failPromise
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

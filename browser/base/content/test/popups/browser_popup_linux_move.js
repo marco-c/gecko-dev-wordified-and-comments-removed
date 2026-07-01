@@ -164,7 +164,7 @@ screenY
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

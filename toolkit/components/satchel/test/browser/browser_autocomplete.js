@@ -503,7 +503,7 @@ browser
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -567,7 +567,7 @@ blur
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

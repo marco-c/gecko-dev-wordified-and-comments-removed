@@ -331,7 +331,7 @@ daily
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

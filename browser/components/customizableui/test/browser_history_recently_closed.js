@@ -516,7 +516,7 @@ appMenuRecentlyClosedWindows
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -618,7 +618,7 @@ openHistoryPanel
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -750,7 +750,7 @@ openHistoryPanel
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -1523,7 +1523,7 @@ tabs
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

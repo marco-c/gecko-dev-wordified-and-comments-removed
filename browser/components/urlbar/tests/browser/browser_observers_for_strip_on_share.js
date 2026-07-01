@@ -130,7 +130,7 @@ let
 areObserservesRegistered
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -273,7 +273,7 @@ let
 areObserservesRegistered
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

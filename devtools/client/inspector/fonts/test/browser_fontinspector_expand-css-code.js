@@ -142,7 +142,7 @@ icon
 const
 onExpanded
 =
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

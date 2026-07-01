@@ -1000,7 +1000,7 @@ let
 warningMessageBar
 =
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -1259,7 +1259,7 @@ let
 warningMessageBar
 =
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

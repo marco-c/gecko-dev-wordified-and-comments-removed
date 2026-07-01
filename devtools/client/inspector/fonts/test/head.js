@@ -558,7 +558,7 @@ return
 const
 onExpanded
 =
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

@@ -859,7 +859,7 @@ secondPromptHandled
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

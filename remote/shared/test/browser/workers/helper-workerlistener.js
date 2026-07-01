@@ -628,7 +628,7 @@ expectedCount
 )
 {
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

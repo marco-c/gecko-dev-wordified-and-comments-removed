@@ -886,7 +886,7 @@ const
 hasExpectedStructure
 =
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -1552,7 +1552,7 @@ Promise
 all
 (
 [
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -1701,7 +1701,7 @@ const
 hasExpectedStructure
 =
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -2046,7 +2046,7 @@ focus
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -2104,7 +2104,7 @@ doc
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -2405,7 +2405,7 @@ resetEnv
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -2650,7 +2650,7 @@ toolboxWin
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -2701,7 +2701,7 @@ click
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -2809,7 +2809,7 @@ previousAriaCheckedValue
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

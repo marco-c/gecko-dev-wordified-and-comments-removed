@@ -2288,7 +2288,7 @@ main
 )
 ;
 return
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -2459,7 +2459,7 @@ Urlbar
 )
 ;
 return
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

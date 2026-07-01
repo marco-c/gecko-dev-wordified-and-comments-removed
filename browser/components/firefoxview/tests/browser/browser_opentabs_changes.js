@@ -2426,7 +2426,7 @@ called
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -2618,7 +2618,7 @@ called
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -2800,7 +2800,7 @@ window
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -2857,7 +2857,7 @@ tabURL1
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

@@ -154,7 +154,7 @@ doCommand
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -198,7 +198,7 @@ checkPrintPreviewClosed
 )
 {
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

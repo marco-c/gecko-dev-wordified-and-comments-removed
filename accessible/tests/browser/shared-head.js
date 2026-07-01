@@ -2349,7 +2349,7 @@ chrome
 )
 {
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

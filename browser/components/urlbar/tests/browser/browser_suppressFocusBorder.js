@@ -784,7 +784,7 @@ win
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -948,7 +948,7 @@ win
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -1317,7 +1317,7 @@ win
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -1456,7 +1456,7 @@ win
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -1486,7 +1486,7 @@ selectedBrowser
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -1558,7 +1558,7 @@ win
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -1661,7 +1661,7 @@ selectedBrowser
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -1733,7 +1733,7 @@ win
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -1850,7 +1850,7 @@ attribute
 const
 onHiddenFocusRemoved
 =
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -2269,7 +2269,7 @@ selectedBrowser
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -2295,7 +2295,7 @@ true
 const
 onHiddenFocusRemoved
 =
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -2537,7 +2537,7 @@ click
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

@@ -311,7 +311,7 @@ childNodes
 ]
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

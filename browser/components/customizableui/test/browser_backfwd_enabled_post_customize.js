@@ -150,7 +150,7 @@ goBack
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -192,7 +192,7 @@ button
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -327,7 +327,7 @@ endCustomizing
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

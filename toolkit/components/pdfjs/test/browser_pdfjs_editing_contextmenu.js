@@ -803,7 +803,7 @@ unselected
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -893,7 +893,7 @@ undo
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -991,7 +991,7 @@ redo
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -1124,7 +1124,7 @@ cut
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -1229,7 +1229,7 @@ paste
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -1368,7 +1368,7 @@ delete
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -1443,7 +1443,7 @@ paste
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -1557,7 +1557,7 @@ paste
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -1657,7 +1657,7 @@ delete
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

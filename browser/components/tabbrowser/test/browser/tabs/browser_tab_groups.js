@@ -1698,7 +1698,7 @@ win
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -1806,7 +1806,7 @@ arrowScrollbox
 let
 scrolledToStart
 =
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

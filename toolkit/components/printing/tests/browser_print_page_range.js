@@ -848,7 +848,7 @@ iso_a3
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -1144,7 +1144,7 @@ mockPrinterName
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -2676,7 +2676,7 @@ all
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -3645,7 +3645,7 @@ previewUpdateCount
 let
 renderedTwice
 =
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

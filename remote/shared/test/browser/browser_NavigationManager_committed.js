@@ -168,7 +168,7 @@ SECOND_URL
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

@@ -802,7 +802,7 @@ visible
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -899,7 +899,7 @@ reloadButton
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

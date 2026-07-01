@@ -623,7 +623,7 @@ await
 finishedAllDownloads
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

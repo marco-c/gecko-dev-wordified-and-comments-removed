@@ -195,7 +195,7 @@ Promise
 race
 (
 [
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

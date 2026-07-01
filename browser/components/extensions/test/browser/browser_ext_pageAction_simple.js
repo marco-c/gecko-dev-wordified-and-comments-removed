@@ -825,7 +825,7 @@ id
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -983,7 +983,7 @@ iframe
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -1117,7 +1117,7 @@ changed
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
