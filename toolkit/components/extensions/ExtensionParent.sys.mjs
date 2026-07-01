@@ -15203,11 +15203,6 @@ if
 ExtensionCommon
 .
 isInWPT
-&
-&
-AppConstants
-.
-NIGHTLY_BUILD
 )
 {
 const
