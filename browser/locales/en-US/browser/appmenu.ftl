@@ -533,7 +533,7 @@ fullscreen
 label
 =
 Full
-Screen
+screen
 #
 #
 Firefox
