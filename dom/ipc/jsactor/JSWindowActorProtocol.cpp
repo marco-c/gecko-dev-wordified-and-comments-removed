@@ -2234,6 +2234,11 @@ false
 ;
 }
 }
+LogMatch
+(
+aRemoteType
+)
+;
 return
 true
 ;

@@ -695,6 +695,11 @@ return
 false
 ;
 }
+LogMatch
+(
+aRemoteType
+)
+;
 return
 true
 ;
