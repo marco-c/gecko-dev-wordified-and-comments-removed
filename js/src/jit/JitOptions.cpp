@@ -1039,6 +1039,12 @@ true
 ;
 SET_DEFAULT
 (
+js_regexp_buffer_boundaries
+false
+)
+;
+SET_DEFAULT
+(
 correctness_fuzzer_suppressions
 false
 )
