@@ -2881,6 +2881,7 @@ onOpenPreferences
 (
 hostname
 entryPoint
+loginGuid
 )
 {
 const
@@ -2906,6 +2907,7 @@ filterString
 :
 hostname
 entryPoint
+loginGuid
 }
 )
 ;
@@ -8615,6 +8617,9 @@ hostname
 data
 .
 entryPoint
+data
+.
+loginGuid
 )
 ;
 break
