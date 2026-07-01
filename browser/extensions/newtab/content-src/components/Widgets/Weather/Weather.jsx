@@ -1685,10 +1685,6 @@ menu
 showOptInState
 &
 &
-!
-isOptInEnabled
-&
-&
 (
 prefs
 [
