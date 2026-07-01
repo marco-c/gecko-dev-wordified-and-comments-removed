@@ -4496,6 +4496,14 @@ nsContentPolicyType
 aType
 )
 ;
+static
+bool
+IsImageType
+(
+ExtContentPolicy
+aType
+)
+;
 MOZ_CAN_RUN_SCRIPT
 static
 void
