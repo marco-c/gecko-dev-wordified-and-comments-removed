@@ -134,8 +134,12 @@ TOPSRCDIR
 browser
 /
 locales
+/
+en
 -
-preview
+US
+/
+browser
 /
 aiFeatures
 .
@@ -198,7 +202,7 @@ pane
 -
 search
 -
-title
+title2
 "
     
 "
@@ -210,7 +214,7 @@ pane
 -
 privacy
 -
-title
+title3
 "
     
 "
