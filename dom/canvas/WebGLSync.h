@@ -146,7 +146,7 @@ override
 GLsync
 mGLName
 =
-0
+nullptr
 ;
 const
 uint64_t

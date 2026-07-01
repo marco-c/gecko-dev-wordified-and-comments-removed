@@ -14,11 +14,11 @@ txList
 {
 firstItem
 =
-0
+nullptr
 ;
 lastItem
 =
-0
+nullptr
 ;
 itemCount
 =
@@ -129,14 +129,14 @@ item
 >
 nextItem
 =
-0
+nullptr
 ;
 item
 -
 >
 prevItem
 =
-0
+nullptr
 ;
 if
 (
@@ -373,11 +373,11 @@ tItem
 }
 firstItem
 =
-0
+nullptr
 ;
 lastItem
 =
-0
+nullptr
 ;
 itemCount
 =
@@ -403,7 +403,7 @@ list
 ;
 currentItem
 =
-0
+nullptr
 ;
 atEndOfList
 =
@@ -521,7 +521,7 @@ currentItem
 nextItem
 !
 =
-0
+nullptr
 )
 ;
 else
@@ -539,7 +539,7 @@ list
 firstItem
 !
 =
-0
+nullptr
 )
 ;
 return
@@ -559,7 +559,7 @@ void
 *
 obj
 =
-0
+nullptr
 ;
 if
 (
@@ -618,7 +618,7 @@ void
 *
 obj
 =
-0
+nullptr
 ;
 if
 (
@@ -682,7 +682,7 @@ currentItem
 objPtr
 ;
 return
-0
+nullptr
 ;
 }
 void
@@ -698,7 +698,7 @@ void
 *
 obj
 =
-0
+nullptr
 ;
 if
 (
@@ -755,7 +755,7 @@ false
 ;
 currentItem
 =
-0
+nullptr
 ;
 }
 void
@@ -772,6 +772,6 @@ true
 ;
 currentItem
 =
-0
+nullptr
 ;
 }

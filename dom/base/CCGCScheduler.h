@@ -418,7 +418,8 @@ aObj
 TimeDuration
 aDelay
 =
-0
+{
+}
 )
 ;
 void
@@ -554,6 +555,9 @@ EnsureGCRunner
 (
 TimeDuration
 aDelay
+=
+{
+}
 )
 ;
 void

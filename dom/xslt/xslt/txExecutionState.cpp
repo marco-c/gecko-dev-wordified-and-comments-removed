@@ -513,7 +513,7 @@ ImportFrame
 *
 frame
 =
-0
+nullptr
 ;
 txExpandedName
 nullName

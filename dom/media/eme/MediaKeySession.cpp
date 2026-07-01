@@ -3821,7 +3821,7 @@ double
 (
 time
 (
-0
+nullptr
 )
 )
 )

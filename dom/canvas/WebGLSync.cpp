@@ -110,7 +110,7 @@ mGLName
 ;
 mGLName
 =
-0
+nullptr
 ;
 }
 ClientWaitSyncResult

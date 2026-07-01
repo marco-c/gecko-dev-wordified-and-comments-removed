@@ -589,7 +589,7 @@ txPattern
 *
 match
 =
-0
+nullptr
 ;
 #
 endif

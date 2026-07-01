@@ -221,7 +221,7 @@ txFormattedCounter
 *
 counter
 =
-0
+nullptr
 ;
 while
 (
@@ -487,16 +487,15 @@ txPattern
 >
 newCountPattern
 ;
-const
 txXPathNode
-&
 currNode
-=
+(
 aContext
 -
 >
 getContextNode
 (
+)
 )
 ;
 if
@@ -562,7 +561,7 @@ nodeTest
 new
 txNameTest
 (
-0
+nullptr
 localName
 namespaceID
 txXPathNodeType
@@ -691,7 +690,7 @@ nodeTest
 new
 txNameTest
 (
-0
+nullptr
 nsGkAtoms
 :
 :
@@ -1640,7 +1639,7 @@ txFormattedCounter
 *
 counter
 =
-0
+nullptr
 ;
 rv
 =

@@ -3277,7 +3277,7 @@ WebExtensionLocalizeCallback
 cx
 func
 tempGlobalRoot
-NULL
+nullptr
 )
 ;
 wEI

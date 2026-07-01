@@ -1153,7 +1153,7 @@ Size
 (
 )
 kCFAllocatorNull
-NULL
+nullptr
 0
 aSample
 -
@@ -1233,15 +1233,15 @@ CMSampleBufferCreate
 kCFAllocatorDefault
 block
 true
-0
-0
+nullptr
+nullptr
 mFormat
 1
 1
 &
 timestamp
 0
-NULL
+nullptr
 sample
 .
 Receive

@@ -24486,7 +24486,6 @@ DocumentTimeline
 this
 TimeDuration
 (
-0
 )
 )
 ;
@@ -55723,7 +55722,7 @@ origin
 -
 trial
 "
-0
+nullptr
 }
 ;
 nsAutoCString

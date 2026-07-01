@@ -133,7 +133,6 @@ TimeStamp
 DurationType
 mFindTextDirectivesDuration
 {
-0
 }
 ;
 int64_t

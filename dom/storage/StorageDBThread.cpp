@@ -3230,7 +3230,8 @@ mFlushImmediately
 )
 {
 return
-0
+{
+}
 ;
 }
 if
@@ -3286,7 +3287,8 @@ kMaxAge
 )
 {
 return
-0
+{
+}
 ;
 }
 return

@@ -159,7 +159,7 @@ SGN_DigestInfoTemplate
 {
 SEC_ASN1_SEQUENCE
 0
-NULL
+nullptr
 sizeof
 (
 SGNDigestInfo

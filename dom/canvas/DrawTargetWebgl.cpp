@@ -6219,7 +6219,7 @@ mWebgl
 BindBuffer
 (
 LOCAL_GL_PIXEL_PACK_BUFFER
-0
+nullptr
 )
 ;
 }
@@ -6681,7 +6681,7 @@ mWebgl
 BindBuffer
 (
 LOCAL_GL_PIXEL_PACK_BUFFER
-0
+nullptr
 )
 ;
 if
@@ -6961,7 +6961,7 @@ mWebgl
 BindBuffer
 (
 LOCAL_GL_PIXEL_PACK_BUFFER
-0
+nullptr
 )
 ;
 if
@@ -15745,7 +15745,7 @@ mWebgl
 BindBuffer
 (
 LOCAL_GL_PIXEL_UNPACK_BUFFER
-0
+nullptr
 )
 ;
 }

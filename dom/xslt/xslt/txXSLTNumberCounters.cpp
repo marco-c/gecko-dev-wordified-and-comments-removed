@@ -206,7 +206,7 @@ token
 ;
 aCounter
 =
-0
+nullptr
 ;
 if
 (

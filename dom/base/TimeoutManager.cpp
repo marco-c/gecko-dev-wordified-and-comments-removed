@@ -2883,7 +2883,6 @@ When
 )
 TimeDuration
 (
-0
 )
 )
 )
@@ -4317,7 +4316,6 @@ delay
 <
 TimeDuration
 (
-0
 )
 )
 {
@@ -4325,7 +4323,6 @@ delay
 =
 TimeDuration
 (
-0
 )
 ;
 }
@@ -5042,9 +5039,6 @@ aTimeout
 {
 TimeDuration
 delta
-(
-0
-)
 ;
 if
 (

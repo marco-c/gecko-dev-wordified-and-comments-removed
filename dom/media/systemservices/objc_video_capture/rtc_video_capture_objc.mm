@@ -444,7 +444,7 @@ setSampleBufferDelegate
 nil
 queue
 :
-NULL
+nullptr
 ]
 ;
 }

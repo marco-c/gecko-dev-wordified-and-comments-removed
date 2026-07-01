@@ -267,7 +267,7 @@ nsGkAtoms
 :
 _empty
 ?
-0
+nullptr
 :
 aPrefix
 ;

@@ -419,7 +419,8 @@ mozilla
 TimeDuration
 aDelay
 =
-0
+{
+}
 )
 ;
 static

@@ -7269,7 +7269,7 @@ fVertexAttribPointer
 LOCAL_GL_FLOAT
 false
 0
-0
+nullptr
 )
 ;
 break
@@ -7292,7 +7292,7 @@ fVertexAttribIPointer
 4
 LOCAL_GL_INT
 0
-0
+nullptr
 )
 ;
 break
@@ -7315,7 +7315,7 @@ fVertexAttribIPointer
 4
 LOCAL_GL_UNSIGNED_INT
 0
-0
+nullptr
 )
 ;
 break

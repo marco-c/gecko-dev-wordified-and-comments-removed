@@ -90,7 +90,7 @@ bool
 *
 deviceIsPlaceholder
 =
-0
+nullptr
 )
 override
 ;

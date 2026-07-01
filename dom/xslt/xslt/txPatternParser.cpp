@@ -204,7 +204,7 @@ txPattern
 *
 locPath
 =
-0
+nullptr
 ;
 rv
 =
@@ -420,13 +420,13 @@ txPattern
 *
 stepPattern
 =
-0
+nullptr
 ;
 txLocPathPattern
 *
 pathPattern
 =
-0
+nullptr
 ;
 Token
 :
@@ -744,7 +744,7 @@ isChild
 ;
 stepPattern
 =
-0
+nullptr
 ;
 while
 (
@@ -817,7 +817,7 @@ isChild
 ;
 stepPattern
 =
-0
+nullptr
 ;
 type
 =

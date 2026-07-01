@@ -1941,7 +1941,7 @@ char
 *
 data
 =
-0
+nullptr
 ;
 size_t
 length
@@ -5747,7 +5747,7 @@ uint32_t
 *
 partitions
 =
-NULL
+nullptr
 ;
 nestegg_packet_offsets
 (

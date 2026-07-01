@@ -2967,7 +2967,7 @@ txReturn
 ;
 mNextInstrPtr
 =
-0
+nullptr
 ;
 }
 txInstruction

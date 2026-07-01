@@ -1708,10 +1708,8 @@ MAX_PATH
 ;
 if
 (
+!
 rv
-=
-=
-0
 )
 {
 return

@@ -234,7 +234,7 @@ char
 *
 threadName
 =
-NULL
+nullptr
 ;
 if
 (

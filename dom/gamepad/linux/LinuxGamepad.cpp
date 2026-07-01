@@ -2208,7 +2208,7 @@ char
 *
 driver
 =
-NULL
+nullptr
 ;
 struct
 udev_device

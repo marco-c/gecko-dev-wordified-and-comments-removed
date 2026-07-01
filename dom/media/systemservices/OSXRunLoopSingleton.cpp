@@ -111,7 +111,7 @@ kAudioObjectSystemObject
 &
 runloop_address
 0
-NULL
+nullptr
 sizeof
 (
 CFRunLoopRef

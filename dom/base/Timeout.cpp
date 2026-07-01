@@ -238,7 +238,6 @@ mTimeRemaining
 =
 TimeDuration
 (
-0
 )
 ;
 }

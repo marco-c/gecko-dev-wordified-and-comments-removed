@@ -6414,8 +6414,8 @@ u
 "
 ltr
 "
-0
-0
+nullptr
+nullptr
 }
 ;
 if
@@ -6532,8 +6532,8 @@ noAtts
 ]
 =
 {
-0
-0
+nullptr
+nullptr
 }
 ;
 rv
