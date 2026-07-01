@@ -194,13 +194,13 @@ TopSiteForm
 ;
 import
 {
-TopSiteList
+TopSiteListContainer
 }
 from
 "
 .
 /
-TopSite
+TopSiteListContainer
 "
 ;
 /
@@ -1047,7 +1047,7 @@ fallback
 "
 >
 <
-TopSiteList
+TopSiteListContainer
 TopSites
 =
 {
