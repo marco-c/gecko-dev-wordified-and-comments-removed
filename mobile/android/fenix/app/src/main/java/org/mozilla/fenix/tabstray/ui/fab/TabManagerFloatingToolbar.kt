@@ -2044,7 +2044,7 @@ iconsR
 .
 drawable
 .
-ic_select_all_24
+mozac_ic_select_all_24
 testTag
 =
 TabsTrayTestTag

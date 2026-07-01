@@ -149,6 +149,14 @@ compose
 .
 material3
 .
+Surface
+import
+androidx
+.
+compose
+.
+material3
+.
 Text
 import
 androidx
@@ -715,7 +723,7 @@ IconsR
 .
 drawable
 .
-mozac_ic_select_all
+mozac_ic_select_all_24
 )
 onClick
 =
@@ -888,6 +896,10 @@ SendToDevicesContentWithDevicesPreview
 (
 )
 {
+FirefoxTheme
+{
+Surface
+{
 SendToDevicesContent
 (
 uiState
@@ -936,6 +948,8 @@ onSendToAll
 }
 )
 }
+}
+}
 Preview
 Composable
 private
@@ -943,6 +957,10 @@ fun
 SendToDevicesContentNoDevicesPreview
 (
 )
+{
+FirefoxTheme
+{
+Surface
 {
 SendToDevicesContent
 (
@@ -971,4 +989,6 @@ onSendToAll
 {
 }
 )
+}
+}
 }

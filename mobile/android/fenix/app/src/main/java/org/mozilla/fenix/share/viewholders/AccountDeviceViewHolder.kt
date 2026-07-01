@@ -598,7 +598,7 @@ iconsR
 .
 drawable
 .
-mozac_ic_select_all
+mozac_ic_select_all_24
 R
 .
 color
