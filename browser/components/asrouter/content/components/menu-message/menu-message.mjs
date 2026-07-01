@@ -631,9 +631,7 @@ illustration
 class
 =
 {
-this
-.
-rtlImageURL
+useRtl
 ?
 "
 illustration
