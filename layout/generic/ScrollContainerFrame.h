@@ -929,6 +929,16 @@ GetOrCompute
 (
 )
 ;
+void
+Invalidate
+(
+)
+{
+mComputed
+=
+false
+;
+}
 ScrollContainerFrame
 *
 const
