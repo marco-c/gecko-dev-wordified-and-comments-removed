@@ -6231,9 +6231,8 @@ test
 else
 :
                 
-LOG
-.
-error
+raise
+Exception
 (
 "
 ETW
