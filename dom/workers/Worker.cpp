@@ -584,12 +584,9 @@ if
 wrapper
 )
 {
-MOZ_ALWAYS_TRUE
-(
 TryPreserveWrapper
 (
 wrapper
-)
 )
 ;
 }

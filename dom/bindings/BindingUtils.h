@@ -8083,7 +8083,7 @@ old
 )
 ;
 }
-bool
+void
 TryPreserveWrapper
 (
 JS
@@ -15237,12 +15237,9 @@ JSObject
 aGlobal
 )
 {
-MOZ_ALWAYS_TRUE
-(
 TryPreserveWrapper
 (
 aGlobal
-)
 )
 ;
 return
