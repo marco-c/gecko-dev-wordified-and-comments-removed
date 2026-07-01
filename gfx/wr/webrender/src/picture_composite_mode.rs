@@ -1902,7 +1902,6 @@ FrameBuildingState
 data_stores
 :
 &
-mut
 DataStores
 extra_gpu_data
 :
