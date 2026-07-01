@@ -8,6 +8,13 @@ raptor
 "
 [
 "
+test_addon_utils
+.
+py
+"
+]
+[
+"
 test_chrome_trace
 .
 py

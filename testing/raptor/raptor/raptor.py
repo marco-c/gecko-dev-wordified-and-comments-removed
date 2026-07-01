@@ -636,6 +636,12 @@ args
 .
 conditioned_profile
             
+install_extensions
+=
+args
+.
+install_extensions
+            
 test_bytecode_cache
 =
 args
