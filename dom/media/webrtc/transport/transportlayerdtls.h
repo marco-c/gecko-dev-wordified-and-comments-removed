@@ -426,6 +426,15 @@ GetPeerCertChainDer
 )
 const
 ;
+nsTArray
+<
+uint8_t
+>
+GetLocalCertDer
+(
+)
+const
+;
 nsresult
 SetSrtpCiphers
 (
