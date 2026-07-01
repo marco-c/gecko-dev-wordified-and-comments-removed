@@ -1399,6 +1399,13 @@ action
 update
 .
 hasUserEverHadOneTabGroup
+hasViewedTabGroupsPage
+=
+action
+.
+update
+.
+hasViewedTabGroupsPage
 )
 )
 else

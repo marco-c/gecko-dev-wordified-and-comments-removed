@@ -1850,6 +1850,11 @@ tabGroupState
 groups
 .
 size
+shouldShowTabGroupBadge
+=
+tabsTrayState
+.
+shouldShowTabGroupBadge
 syncedTabCount
 =
 syncedTabCount

@@ -901,6 +901,9 @@ tabGroupOnboardingImpressionCount
 hasUserEverHadOneTabGroup
 =
 false
+hasViewedTabGroupsPage
+=
+false
 )
 )
 }

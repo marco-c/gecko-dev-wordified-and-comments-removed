@@ -455,6 +455,7 @@ Page
 )
 :
 TabsTrayAction
+TabManagerUiStateStorageAction
 /
 *
 *
