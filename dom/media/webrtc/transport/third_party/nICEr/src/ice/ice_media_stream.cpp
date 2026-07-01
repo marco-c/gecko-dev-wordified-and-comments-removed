@@ -4604,6 +4604,17 @@ bytes_sent
 =
 len
 ;
+comp
+-
+>
+active
+-
+>
+packets_sent
++
+=
+1
+;
 gettimeofday
 (
 &

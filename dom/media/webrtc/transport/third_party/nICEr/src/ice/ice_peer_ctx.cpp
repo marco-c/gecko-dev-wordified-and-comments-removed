@@ -3982,6 +3982,17 @@ bytes_recvd
 =
 len
 ;
+peer_comp
+-
+>
+active
+-
+>
+packets_recvd
++
+=
+1
+;
 gettimeofday
 (
 &

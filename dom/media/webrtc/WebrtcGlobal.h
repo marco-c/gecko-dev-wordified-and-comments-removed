@@ -752,6 +752,8 @@ mComponentId
 mState
 mBytesSent
 mBytesReceived
+mPacketsSent
+mPacketsReceived
 mLastPacketSentTimestamp
 mLastPacketReceivedTimestamp
 mTotalRoundTripTime
