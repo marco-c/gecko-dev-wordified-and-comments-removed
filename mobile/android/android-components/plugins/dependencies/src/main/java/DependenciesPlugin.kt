@@ -289,6 +289,12 @@ java
 .
 util
 .
+Locale
+import
+java
+.
+util
+.
 Optional
 import
 java
@@ -593,6 +599,9 @@ String
 .
 format
 (
+Locale
+.
+ROOT
 "
 %
 .
@@ -637,6 +646,9 @@ String
 .
 format
 (
+Locale
+.
+ROOT
 "
 %
 .
@@ -705,6 +717,9 @@ String
 .
 format
 (
+Locale
+.
+ROOT
 "
 %
 .
