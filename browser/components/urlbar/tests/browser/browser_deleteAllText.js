@@ -269,7 +269,7 @@ equal
 details
 .
 type
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .
@@ -308,7 +308,7 @@ equal
 details
 .
 type
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .

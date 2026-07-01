@@ -6209,7 +6209,7 @@ equal
 result
 .
 type
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .

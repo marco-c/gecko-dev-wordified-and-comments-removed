@@ -417,7 +417,7 @@ KEY_Delete
 ]
 type
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .
@@ -470,7 +470,7 @@ KEY_Delete
 ]
 type
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .
@@ -519,7 +519,7 @@ KEY_Backspace
 ]
 type
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .
@@ -572,7 +572,7 @@ KEY_Backspace
 ]
 type
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .
@@ -626,7 +626,7 @@ KEY_Backspace
 ]
 type
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .
@@ -684,7 +684,7 @@ KEY_Backspace
 ]
 type
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .
@@ -738,7 +738,7 @@ KEY_Backspace
 ]
 type
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .
@@ -796,7 +796,7 @@ KEY_Backspace
 ]
 type
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .
@@ -844,7 +844,7 @@ KEY_Backspace
 ]
 type
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .
@@ -961,7 +961,7 @@ KEY_Delete
 ]
 type
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .
@@ -1079,7 +1079,7 @@ KEY_Backspace
 ]
 type
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .
@@ -1209,7 +1209,7 @@ KEY_Backspace
 ]
 type
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .
@@ -1311,7 +1311,7 @@ KEY_Backspace
 ]
 type
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .
@@ -1393,7 +1393,7 @@ KEY_Backspace
 ]
 type
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .
@@ -1458,7 +1458,7 @@ KEY_Backspace
 ]
 type
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .
@@ -1549,7 +1549,7 @@ KEY_Backspace
 ]
 type
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .

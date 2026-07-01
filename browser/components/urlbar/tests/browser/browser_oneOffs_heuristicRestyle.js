@@ -80,7 +80,7 @@ RESULT_DATA_BY_TYPE
 =
 {
 [
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .
@@ -114,7 +114,7 @@ visit
 }
 }
 [
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .
@@ -169,7 +169,7 @@ TEST_DEFAULT_ENGINE_NAME
 }
 }
 [
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .
@@ -385,7 +385,7 @@ expectedType
 =
 =
 =
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .
@@ -1215,7 +1215,7 @@ mozilla
 .
 or
 "
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .
@@ -1240,7 +1240,7 @@ doArrowTest
 "
 test
 "
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .
@@ -1266,7 +1266,7 @@ doArrowTest
 KEYWORD
 }
 test
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .
@@ -1293,7 +1293,7 @@ mozilla
 .
 or
 "
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .
@@ -1318,7 +1318,7 @@ doArrowTest
 "
 test
 "
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .
@@ -1344,7 +1344,7 @@ doArrowTest
 KEYWORD
 }
 test
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .
@@ -1618,7 +1618,7 @@ mozilla
 .
 or
 "
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .
@@ -1643,7 +1643,7 @@ doAltArrowTest
 "
 test
 "
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .
@@ -1669,7 +1669,7 @@ doAltArrowTest
 KEYWORD
 }
 test
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .
@@ -1696,7 +1696,7 @@ mozilla
 .
 or
 "
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .
@@ -1721,7 +1721,7 @@ doAltArrowTest
 "
 test
 "
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .
@@ -1747,7 +1747,7 @@ doAltArrowTest
 KEYWORD
 }
 test
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .

@@ -354,7 +354,7 @@ mozilla
 "
 type
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .
@@ -470,7 +470,7 @@ foofoo
 "
 type
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .
@@ -518,7 +518,7 @@ foofoo
 "
 type
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .
@@ -659,7 +659,7 @@ example
 "
 type
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .
@@ -801,7 +801,7 @@ q
 "
 type
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .
@@ -857,7 +857,7 @@ test
 "
 type
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .
@@ -1028,7 +1028,7 @@ doit
 "
 type
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .
@@ -1448,7 +1448,7 @@ Remote
 "
 type
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .

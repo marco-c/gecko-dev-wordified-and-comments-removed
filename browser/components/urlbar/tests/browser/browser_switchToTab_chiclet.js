@@ -256,7 +256,7 @@ equal
 result
 .
 type
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .
@@ -562,7 +562,7 @@ equal
 result
 .
 type
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .
@@ -814,7 +814,7 @@ equal
 result
 .
 type
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .
@@ -1100,7 +1100,7 @@ equal
 result
 .
 type
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .
@@ -1553,7 +1553,7 @@ notEqual
 details
 .
 type
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .
@@ -1685,7 +1685,7 @@ details
 type
 =
 =
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .

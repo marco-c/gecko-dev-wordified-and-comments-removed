@@ -198,7 +198,7 @@ EXPECTED_SPONSORED_URLBAR_RESULT
 {
 type
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .
@@ -361,7 +361,7 @@ EXPECTED_NONSPONSORED_URLBAR_RESULT
 {
 type
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .

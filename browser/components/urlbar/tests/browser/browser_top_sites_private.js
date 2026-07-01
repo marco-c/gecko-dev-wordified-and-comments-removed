@@ -1052,7 +1052,7 @@ await
 checkResults
 (
 window
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .
@@ -1187,7 +1187,7 @@ await
 checkResults
 (
 privateWin
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .

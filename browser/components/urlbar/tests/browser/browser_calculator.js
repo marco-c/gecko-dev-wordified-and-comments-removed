@@ -270,7 +270,7 @@ equal
 res
 .
 type
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .

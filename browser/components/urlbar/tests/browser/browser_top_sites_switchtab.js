@@ -813,7 +813,7 @@ Assert
 .
 notEqual
 (
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .
@@ -840,7 +840,7 @@ Assert
 .
 equal
 (
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .

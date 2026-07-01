@@ -2591,7 +2591,7 @@ return
 {
 type
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .

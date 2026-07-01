@@ -4455,7 +4455,7 @@ heuristic
 true
 type
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .
@@ -4686,7 +4686,7 @@ heuristic
 true
 type
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .
@@ -4840,7 +4840,7 @@ heuristic
 true
 type
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .

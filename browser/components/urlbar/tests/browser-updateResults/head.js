@@ -318,7 +318,7 @@ UrlbarResult
 {
 type
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .
@@ -443,7 +443,7 @@ UrlbarResult
 {
 type
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .
@@ -523,7 +523,7 @@ specType
 )
 {
 case
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .
@@ -539,7 +539,7 @@ UrlbarResult
 {
 type
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .
@@ -580,7 +580,7 @@ name
 break
 ;
 case
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .
@@ -596,7 +596,7 @@ UrlbarResult
 {
 type
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .

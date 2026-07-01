@@ -425,7 +425,7 @@ equal
 result
 .
 type
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .
@@ -613,7 +613,7 @@ equal
 heuristicResult
 .
 type
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .
@@ -639,7 +639,7 @@ equal
 richResult
 .
 type
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .

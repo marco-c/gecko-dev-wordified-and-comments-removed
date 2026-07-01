@@ -1021,9 +1021,12 @@ i
 ;
 }
 await
+UrlbarTestUtils
+.
 selectAndPaste
 (
 value
+window
 )
 ;
 await
@@ -1199,9 +1202,12 @@ i
 ;
 }
 await
+UrlbarTestUtils
+.
 selectAndPaste
 (
 value
+window
 )
 ;
 await
@@ -1277,9 +1283,12 @@ bar
 ;
 }
 await
+UrlbarTestUtils
+.
 selectAndPaste
 (
 value
+window
 )
 ;
 await
@@ -1417,7 +1426,7 @@ equal
 result
 .
 type
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .
@@ -1782,7 +1791,7 @@ result
 type
 =
 =
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .
