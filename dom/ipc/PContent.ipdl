@@ -102,6 +102,10 @@ PExternalHelperApp
 ;
 include
 protocol
+PFOGTransport
+;
+include
+protocol
 PHandlerService
 ;
 include
@@ -11786,6 +11790,16 @@ aBuf
 ;
 child
 :
+async
+CreateFOGTransport
+(
+Endpoint
+<
+PFOGTransportChild
+>
+aChildEndpoint
+)
+;
 /
 /
 Temporary
