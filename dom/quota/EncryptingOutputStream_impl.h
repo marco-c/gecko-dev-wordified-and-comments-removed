@@ -1023,17 +1023,10 @@ mozilla
 :
 Span
 (
-reinterpret_cast
-<
-uint8_t
-*
->
-(
 mBuffer
 .
 Elements
 (
-)
 )
 (
 (
