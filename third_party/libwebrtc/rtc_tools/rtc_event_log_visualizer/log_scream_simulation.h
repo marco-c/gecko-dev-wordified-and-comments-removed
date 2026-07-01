@@ -258,6 +258,11 @@ Zero
 (
 )
 ;
+bool
+is_application_limited
+=
+false
+;
 DataSize
 data_in_flight
 =
