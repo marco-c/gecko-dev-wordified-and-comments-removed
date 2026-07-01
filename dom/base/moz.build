@@ -1389,11 +1389,6 @@ SpeculationRules
 h
 "
 "
-SpeculationRuleSet
-.
-h
-"
-"
 StaticAtomSet
 .
 h
@@ -2405,11 +2400,6 @@ cpp
 "
 "
 SpeculationRules
-.
-cpp
-"
-"
-SpeculationRuleSet
 .
 cpp
 "

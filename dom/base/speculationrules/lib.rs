@@ -353,7 +353,7 @@ extern
 C
 "
 fn
-parse_speculation_rule_set
+parse_speculation_rules
 (
 rules
 :
@@ -554,7 +554,7 @@ extern
 C
 "
 fn
-speculation_rule_set_destroy
+speculation_rules_destroy
 (
 rules
 :
