@@ -122,6 +122,11 @@ MOZ_ARG_COUNT
 aEnumerators
 ;
 \
+[
+[
+maybe_unused
+]
+]
 constexpr
 aEnumName
 kHighest
