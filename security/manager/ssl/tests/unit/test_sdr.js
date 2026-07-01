@@ -1108,6 +1108,7 @@ password
 "
 )
 ;
+await
 token
 .
 logout

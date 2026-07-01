@@ -2632,6 +2632,7 @@ primaryPassword
 omgsecret
 !
 "
+async
 _set
 (
 enable
@@ -2736,6 +2737,7 @@ if
 stayLoggedIn
 )
 {
+await
 token
 .
 logout
@@ -2773,6 +2775,7 @@ password
 ;
 }
 }
+async
 enable
 (
 stayLoggedIn
@@ -2780,6 +2783,7 @@ stayLoggedIn
 false
 )
 {
+await
 this
 .
 _set
@@ -2789,10 +2793,12 @@ stayLoggedIn
 )
 ;
 }
+async
 disable
 (
 )
 {
+await
 this
 .
 _set

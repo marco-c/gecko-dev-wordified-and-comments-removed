@@ -140,6 +140,9 @@ nsIWindowWatcher
 )
 }
 ;
+add_task
+(
+async
 function
 run_test
 (
@@ -225,6 +228,7 @@ hunter2
 "
 )
 ;
+await
 token
 .
 logout
@@ -295,6 +299,7 @@ numPrompts
 =
 0
 ;
+await
 token
 .
 logout
@@ -361,3 +366,5 @@ twice
 )
 ;
 }
+)
+;
