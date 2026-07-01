@@ -220,6 +220,17 @@ RECENT_TABS
 "
 recent
 "
+/
+/
+A
+messaging
+action
+.
+MESSAGING
+:
+"
+messaging
+"
 UNKNOWN
 :
 "

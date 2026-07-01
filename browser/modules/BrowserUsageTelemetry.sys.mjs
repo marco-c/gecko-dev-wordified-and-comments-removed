@@ -9232,7 +9232,7 @@ event
 .
 detail
 .
-telemetryUserCreateSource
+telemetrySource
 tabs
 :
 event
