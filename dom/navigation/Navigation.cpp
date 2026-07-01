@@ -10235,11 +10235,6 @@ SetNavigationType
 navigationType
 )
 ;
-if
-(
-oldEntry
-)
-{
 mActivation
 -
 >
@@ -10248,7 +10243,6 @@ SetOldEntry
 oldEntry
 )
 ;
-}
 }
 }
 void
