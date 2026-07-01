@@ -5228,6 +5228,16 @@ initStoriesState
 (
 )
 {
+val
+components
+=
+context
+?
+.
+components
+?
+:
+return
 lifecycleScope
 .
 launch
@@ -5238,7 +5248,7 @@ IO
 val
 settings
 =
-requireComponents
+components
 .
 settings
 val
@@ -5266,7 +5276,7 @@ if
 showStories
 )
 {
-requireComponents
+components
 .
 appStore
 .
@@ -5278,7 +5288,7 @@ ContentRecommendationsFetched
 (
 recommendations
 =
-requireComponents
+components
 .
 core
 .
@@ -5292,7 +5302,7 @@ getContentRecommendations
 }
 else
 {
-requireComponents
+components
 .
 appStore
 .
@@ -5308,7 +5318,7 @@ if
 showSponsoredStories
 )
 {
-requireComponents
+components
 .
 appStore
 .
@@ -5320,7 +5330,7 @@ SponsoredContentsChange
 (
 sponsoredContents
 =
-requireComponents
+components
 .
 core
 .
