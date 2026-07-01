@@ -26,13 +26,6 @@ android
 .
 content
 .
-Context
-;
-import
-android
-.
-content
-.
 Intent
 ;
 import
@@ -557,9 +550,6 @@ static
 Pipes
 createCrashHelperPipes
 (
-final
-Context
-context
 )
 {
 try
