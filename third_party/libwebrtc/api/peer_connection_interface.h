@@ -1918,6 +1918,11 @@ max_sctp_streams
 =
 kMaxSctpStreams
 ;
+bool
+enable_sctp_snap
+=
+false
+;
 }
 ;
 struct

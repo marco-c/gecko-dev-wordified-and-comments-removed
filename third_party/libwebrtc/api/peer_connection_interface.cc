@@ -579,6 +579,9 @@ always_negotiate_data_channels
 int
 max_sctp_streams
 ;
+bool
+enable_sctp_snap
+;
 }
 ;
 static_assert
