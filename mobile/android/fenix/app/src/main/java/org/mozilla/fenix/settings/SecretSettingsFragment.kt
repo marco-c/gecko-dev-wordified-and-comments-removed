@@ -2533,13 +2533,6 @@ pref_key_enable_longfox
 .
 apply
 {
-isVisible
-=
-Config
-.
-channel
-.
-isNightlyOrDebug
 isChecked
 =
 settings
