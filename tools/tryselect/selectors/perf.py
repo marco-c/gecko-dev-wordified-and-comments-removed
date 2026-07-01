@@ -6414,8 +6414,6 @@ else
 get_lando_instance_id
 (
 vcs
-.
-path
 )
     
 def
