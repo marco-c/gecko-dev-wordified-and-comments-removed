@@ -259,6 +259,12 @@ LoadURIOptions
 class
 MediaController
 ;
+enum
+class
+AudioFocusInterruptAction
+:
+uint8_t
+;
 struct
 LoadingSessionHistoryInfo
 ;
@@ -955,6 +961,13 @@ UpdateMediaControlAction
 const
 MediaControlAction
 &
+aAction
+)
+;
+void
+UpdateMediaSessionInterrupt
+(
+AudioFocusInterruptAction
 aAction
 )
 ;
