@@ -956,6 +956,9 @@ ThinVec
 <
 ServiceInfo
 >
+is_trr
+:
+bool
 )
 -
 >
@@ -1037,6 +1040,7 @@ process_dns_response_https
 (
 id
 service_infos
+is_trr
 )
 }
 #
@@ -1951,6 +1955,9 @@ ThinVec
 <
 ServiceInfo
 >
+is_trr
+:
+bool
 )
 -
 >
@@ -2444,6 +2451,7 @@ dns_response_https
 id
 &
 infos
+is_trr
 )
 ;
 let

@@ -9992,6 +9992,9 @@ mHappyEyeballs
 aId
 &
 emptyArray
+mDnsMetadata
+.
+mIsTRR
 )
 ;
 return
@@ -10132,6 +10135,7 @@ mHappyEyeballs
 aId
 &
 emptyArray
+httpsIsTRR
 )
 ;
 return
@@ -10611,6 +10615,7 @@ mHappyEyeballs
 aId
 &
 serviceInfos
+httpsIsTRR
 )
 ;
 return
