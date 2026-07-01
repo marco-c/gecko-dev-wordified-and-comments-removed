@@ -3766,14 +3766,6 @@ RunImpl
 runImpl
 )
 {
-MOZ_ASSERT
-(
-cx
--
->
-noExecuteDebuggerTop
-)
-;
 if
 (
 !
