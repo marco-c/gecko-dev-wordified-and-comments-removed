@@ -2016,11 +2016,6 @@ SctpDataChannel
 CreateProxy
 (
 channel
-signaling_safety_
-.
-flag
-(
-)
 )
 ;
 pc_
@@ -2419,6 +2414,11 @@ data_channel_transport_
 =
 nullptr
 config
+signaling_safety_
+.
+flag
+(
+)
 signaling_thread
 (
 )
@@ -2740,11 +2740,6 @@ CreateProxy
 ret
 .
 MoveValue
-(
-)
-signaling_safety_
-.
-flag
 (
 )
 )
