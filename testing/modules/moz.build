@@ -158,6 +158,13 @@ sys
 mjs
 "
 "
+TestProfilerArtifact
+.
+sys
+.
+mjs
+"
+"
 TestUtils
 .
 sys
