@@ -319,7 +319,9 @@ querySelectorAll
 .
 autocomplete
 -
-richlistitem
+row
+-
+item
 "
 )
 ;
