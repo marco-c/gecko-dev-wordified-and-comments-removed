@@ -152,7 +152,7 @@ of
 DevTools
 backend
 :
-*
+-
 [
 browser_document_rdp_basics
 .
@@ -194,7 +194,7 @@ manually
 JSON
 objects
 )
-*
+-
 [
 browser_document_devtools_basics
 .

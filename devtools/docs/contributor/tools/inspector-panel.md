@@ -548,7 +548,9 @@ view
 -
 >
 StyleRuleActor
-__InspectorActor__
+#
+#
+InspectorActor
 This
 tab
 -
@@ -580,7 +582,9 @@ WalkerActor
 and
 PageStyleActor
 .
-__WalkerActor__
+#
+#
+WalkerActor
 -
 Single
 most
@@ -832,7 +836,9 @@ removed
 via
 css
 .
-__NodeActor__
+#
+#
+NodeActor
 -
 Representation
 of
