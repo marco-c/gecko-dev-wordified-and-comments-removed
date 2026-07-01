@@ -1034,7 +1034,6 @@ fn
 update
 (
 &
-mut
 self
 prim_instance_index
 :
