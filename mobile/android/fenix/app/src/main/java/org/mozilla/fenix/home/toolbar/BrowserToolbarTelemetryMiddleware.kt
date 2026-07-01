@@ -328,6 +328,16 @@ fenix
 telemetry
 .
 SOURCE_PAGE_START
+import
+org
+.
+mozilla
+.
+fenix
+.
+telemetry
+.
+SURFACE_HOME
 /
 *
 *
@@ -577,6 +587,9 @@ source
 telemetryName
 (
 )
+surface
+=
+SURFACE_HOME
 )
 )
 Source
@@ -602,6 +615,9 @@ item
 toolbarActionRecord
 .
 action
+surface
+=
+SURFACE_HOME
 )
 )
 Source
