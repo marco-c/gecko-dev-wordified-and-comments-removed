@@ -4499,7 +4499,12 @@ CanvasUtils
 ImageExtractionResult
 (
 this
-nullptr
+nsContentUtils
+:
+:
+GetCurrentJSContext
+(
+)
 &
 aSubjectPrincipal
 )
