@@ -242,8 +242,6 @@ Endpoint
 <
 PProfilerChild
 >
-&
-&
 >
 (
 "

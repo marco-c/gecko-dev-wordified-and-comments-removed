@@ -18995,7 +18995,7 @@ Dispatch
 (
 NewRunnableMethod
 <
-StoreRefPtrPassByPtr
+RefPtr
 <
 MediaStreamTrack
 >

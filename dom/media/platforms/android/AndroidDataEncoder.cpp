@@ -1919,8 +1919,6 @@ Sample
 :
 :
 GlobalRef
-&
-&
 java
 :
 :

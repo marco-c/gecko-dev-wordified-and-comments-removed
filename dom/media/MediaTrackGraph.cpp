@@ -8600,7 +8600,7 @@ CreateSwitchDriver
 nextDriver
 NewRunnableMethod
 <
-StoreRefPtrPassByPtr
+RefPtr
 <
 GraphDriver
 >
@@ -20439,12 +20439,9 @@ DispatchToMainThreadStableState
 (
 NewRunnableMethod
 <
-StoreCopyPassByRRef
-<
 MozPromiseHolder
 <
 GraphStartedPromise
->
 >
 >
 (

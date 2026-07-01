@@ -380,14 +380,9 @@ Release
 return
 ;
 }
-RefPtr
+nsCOMPtr
 <
-nsRunnableMethod
-<
-LocalStorageCacheBridge
-void
-false
->
+nsIRunnable
 >
 event
 =

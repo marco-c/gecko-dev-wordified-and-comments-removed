@@ -106,8 +106,6 @@ Dispatch
 NewRunnableMethod
 <
 JankedAnimations
-&
-&
 >
 (
 "

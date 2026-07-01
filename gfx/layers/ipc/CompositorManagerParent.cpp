@@ -336,8 +336,6 @@ Endpoint
 <
 PCompositorManagerParent
 >
-&
-&
 bool
 >
 (

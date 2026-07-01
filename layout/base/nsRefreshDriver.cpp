@@ -12155,12 +12155,9 @@ HasReasonsToTick
 )
 )
 {
-RefPtr
+nsCOMPtr
 <
-nsRunnableMethod
-<
-nsRefreshDriver
->
+nsIRunnable
 >
 event
 =

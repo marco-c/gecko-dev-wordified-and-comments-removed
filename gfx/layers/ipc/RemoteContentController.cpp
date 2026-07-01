@@ -246,12 +246,9 @@ Dispatch
 (
 NewRunnableMethod
 <
-StoreCopyPassByRRef
-<
 nsTArray
 <
 MatrixMessage
->
 >
 >
 (
@@ -467,8 +464,7 @@ NS_IsMainThread
 )
 )
 ;
-APZInputBridgeParent
-*
+auto
 apzib
 =
 CompositorBridgeParent
@@ -756,8 +752,7 @@ IsOnCurrentThread
 )
 )
 ;
-APZCTreeManagerParent
-*
+auto
 apzctmp
 =
 CompositorBridgeParent
@@ -2274,8 +2269,7 @@ return
 }
 if
 (
-APZCTreeManagerParent
-*
+auto
 parent
 =
 CompositorBridgeParent
@@ -2526,8 +2520,7 @@ return
 }
 if
 (
-APZCTreeManagerParent
-*
+auto
 parent
 =
 CompositorBridgeParent

@@ -3846,8 +3846,6 @@ UniquePtr
 <
 RendererEvent
 >
-&
-&
 bool
 >
 (

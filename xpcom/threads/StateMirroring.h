@@ -1520,7 +1520,7 @@ DispatchStateChange
 (
 NewRunnableMethod
 <
-StoreRefPtrPassByPtr
+RefPtr
 <
 AbstractCanonical
 <
@@ -1805,7 +1805,7 @@ r
 =
 NewRunnableMethod
 <
-StoreRefPtrPassByPtr
+RefPtr
 <
 AbstractMirror
 <
@@ -1913,7 +1913,7 @@ r
 =
 NewRunnableMethod
 <
-StoreRefPtrPassByPtr
+RefPtr
 <
 AbstractMirror
 <

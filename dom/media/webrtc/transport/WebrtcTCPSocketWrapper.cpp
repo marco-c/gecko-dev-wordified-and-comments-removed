@@ -316,8 +316,6 @@ nsTArray
 <
 uint8_t
 >
-&
-&
 >
 (
 "
@@ -580,8 +578,6 @@ nsTArray
 <
 uint8_t
 >
-&
-&
 >
 (
 "

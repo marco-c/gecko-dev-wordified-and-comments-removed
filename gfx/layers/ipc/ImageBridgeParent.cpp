@@ -632,8 +632,6 @@ Endpoint
 <
 PImageBridgeParent
 >
-&
-&
 >
 (
 "
@@ -1215,8 +1213,6 @@ Endpoint
 <
 PImageBridgeParent
 >
-&
-&
 >
 (
 "

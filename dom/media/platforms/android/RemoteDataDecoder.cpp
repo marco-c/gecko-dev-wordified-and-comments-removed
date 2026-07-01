@@ -2172,8 +2172,6 @@ Sample
 :
 :
 GlobalRef
-&
-&
 >
 (
 "
@@ -4406,8 +4404,6 @@ Sample
 :
 :
 GlobalRef
-&
-&
 java
 :
 :

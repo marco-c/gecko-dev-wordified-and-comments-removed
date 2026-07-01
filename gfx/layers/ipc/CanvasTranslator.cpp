@@ -1386,8 +1386,6 @@ ipc
 :
 :
 ReadOnlySharedMemoryHandle
-&
-&
 >
 (
 "
@@ -1701,8 +1699,6 @@ ipc
 :
 :
 MutableSharedMemoryHandle
-&
-&
 >
 (
 "
@@ -5306,8 +5302,6 @@ nsTArray
 <
 RemoteTextureOwnerId
 >
-&
-&
 >
 (
 "
