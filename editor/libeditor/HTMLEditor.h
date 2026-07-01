@@ -1048,6 +1048,12 @@ nodiscard
 bool
 IsStyleEditable
 (
+const
+Element
+*
+aEditingHost
+=
+nullptr
 )
 const
 ;
