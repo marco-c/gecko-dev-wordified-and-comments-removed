@@ -917,16 +917,6 @@ NotifyStartDelayedAutoplayMedia
 (
 )
 ;
-void
-NotifyMediaMutedChanged
-(
-bool
-aMuted
-ErrorResult
-&
-aRv
-)
-;
 static
 uint32_t
 CountSiteOrigins
