@@ -140,3 +140,10 @@ style
 guide
 .
 md
+.
+/
+g3doc
+/
+testing
+.
+md
