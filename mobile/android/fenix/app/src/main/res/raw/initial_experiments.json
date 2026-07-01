@@ -133,7 +133,7 @@ Experiment
 isEnrollmentPaused
 "
 :
-false
+true
 "
 isRollout
 "
@@ -577,7 +577,13 @@ startDate
 enrollmentEndDate
 "
 :
-null
+"
+2026
+-
+06
+-
+26
+"
 "
 endDate
 "
