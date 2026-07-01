@@ -3072,16 +3072,6 @@ context
 :
 {
 visitsCount
-url
-:
-match
-.
-url
-host
-:
-match
-.
-host
 }
 }
 )
