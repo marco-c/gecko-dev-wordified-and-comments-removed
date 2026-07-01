@@ -1631,6 +1631,13 @@ smartwindow
 .
 enabled
 "
+remoteTypes
+:
+[
+"
+parent
+"
+]
 }
 BackupUI
 :
