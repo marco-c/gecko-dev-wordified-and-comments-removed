@@ -95851,6 +95851,7 @@ bookmark
 translate
 homepage
 back
+summarize
 none
 .
 type
@@ -103955,6 +103956,7 @@ site_custom
 search_engine_selector
 search_engine_selected
 translate
+summarize
 .
 type
 :
