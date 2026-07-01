@@ -2893,7 +2893,7 @@ dispatch
 (
 TabGroupAction
 .
-DragAndDropCompleted
+DragAndDropInitiated
 (
 sourceId
 =

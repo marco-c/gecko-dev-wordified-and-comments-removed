@@ -1152,7 +1152,7 @@ action
 is
 TabGroupAction
 .
-DragAndDropCompleted
+DragAndDropInitiated
 )
 {
 store
@@ -1404,7 +1404,7 @@ NoExtras
 is
 TabGroupAction
 .
-DragAndDropCompleted
+DragAndDropInitiated
 -
 >
 {

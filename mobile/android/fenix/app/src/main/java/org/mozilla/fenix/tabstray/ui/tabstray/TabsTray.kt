@@ -2310,6 +2310,13 @@ TabGroupAction
 NewGroupAnimationFinished
 )
 }
+dragProcessingState
+=
+tabsTrayState
+.
+tabGroupState
+.
+dragProcessingState
 )
 }
 Page

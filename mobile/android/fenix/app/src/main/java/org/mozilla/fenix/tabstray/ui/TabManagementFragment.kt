@@ -1423,9 +1423,13 @@ dispatch
 (
 TabGroupAction
 .
-DragAndDropCompleted
+DragAndDropInitiated
 (
+sourceId
+=
 sourceKey
+destinationId
+=
 targetKey
 )
 )
