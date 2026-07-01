@@ -236,7 +236,10 @@ mTransactions
 ;
 nsTHashMap
 <
-nsISupportsHashKey
+ThreadSafeWeakPtrHashKey
+<
+BlobImpl
+>
 indexedDB
 :
 :
