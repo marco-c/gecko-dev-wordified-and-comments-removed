@@ -224,6 +224,10 @@ item__icon
 src
 :
 icon
+alt
+:
+"
+"
 }
 )
 dom

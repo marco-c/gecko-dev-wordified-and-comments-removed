@@ -312,6 +312,10 @@ props
 target
 .
 icon
+alt
+:
+"
+"
 }
 )
 ;

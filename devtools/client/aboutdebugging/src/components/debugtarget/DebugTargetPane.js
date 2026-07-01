@@ -596,6 +596,10 @@ subheading__icon
 src
 :
 icon
+alt
+:
+"
+"
 }
 )
 {
@@ -661,6 +665,10 @@ arrow
 e
 .
 svg
+"
+alt
+:
+"
 "
 }
 )
