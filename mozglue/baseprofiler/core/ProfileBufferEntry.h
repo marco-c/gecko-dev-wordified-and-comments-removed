@@ -710,13 +710,6 @@ mLocation
 c_str
 (
 )
-data
-.
-mLocation
-.
-length
-(
-)
 )
 )
 ;

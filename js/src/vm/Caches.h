@@ -1768,7 +1768,7 @@ hash_
 mozilla
 :
 :
-HashLatin1AsUTF16
+HashString
 (
 string_
 length_

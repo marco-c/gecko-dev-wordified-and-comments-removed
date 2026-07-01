@@ -1513,7 +1513,7 @@ hash
 mozilla
 :
 :
-HashString
+HashStringKnownLength
 (
 nameStr
 nameSv

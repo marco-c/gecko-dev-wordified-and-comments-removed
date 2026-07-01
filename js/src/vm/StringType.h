@@ -9845,7 +9845,7 @@ hasLatin1Chars
 mozilla
 :
 :
-HashLatin1AsUTF16
+HashString
 (
 str
 -

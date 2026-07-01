@@ -1726,7 +1726,7 @@ hash
 mozilla
 :
 :
-HashString
+HashStringKnownLength
 (
 nameStr
 aName
