@@ -606,6 +606,24 @@ FieldTrial
 '
 WebRTC
 -
+ErrorOnRtpExtensionRedefinition
+'
+               
+504685269
+               
+date
+(
+2027
+1
+1
+)
+)
+    
+FieldTrial
+(
+'
+WebRTC
+-
 ForceDtls13
 '
                
