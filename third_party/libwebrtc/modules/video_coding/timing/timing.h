@@ -353,7 +353,6 @@ Timestamp
 now
 )
 ;
-virtual
 Timestamp
 RenderTime
 (
@@ -364,7 +363,6 @@ now
 )
 const
 ;
-virtual
 TimeDelta
 MaxWaitingTime
 (
