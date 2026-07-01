@@ -65,7 +65,15 @@ nativeTheme
 "
 :
 "
-ThreeDShadow
+{
+border
+.
+color
+.
+deemphasized
+.
+base
+}
 "
 "
 light
