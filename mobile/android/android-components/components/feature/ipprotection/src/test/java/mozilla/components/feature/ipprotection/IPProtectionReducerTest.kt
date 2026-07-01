@@ -320,8 +320,13 @@ private
 val
 defaultState
 =
-IPProtectionState
+buildIPProtectionState
 (
+accountStatus
+=
+AccountStatus
+.
+Authenticated
 )
 Test
 fun
