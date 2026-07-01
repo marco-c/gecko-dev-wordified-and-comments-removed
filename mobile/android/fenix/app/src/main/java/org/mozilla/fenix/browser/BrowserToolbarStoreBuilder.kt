@@ -798,6 +798,13 @@ settings
 components
 .
 settings
+summarizationFeatureSettings
+=
+components
+.
+core
+.
+summarizeFeatureSettings
 shareUseCases
 =
 components
