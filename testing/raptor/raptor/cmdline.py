@@ -557,26 +557,24 @@ None
             
 _activity
 =
+f
 "
-%
-s
-:
-%
-s
-"
-%
-(
+{
 next_app
+}
+:
+{
 APPS
 [
 next_app
 ]
 [
-"
+'
 default_activity
-"
+'
 ]
-)
+}
+"
             
 all_activities
 .
@@ -624,26 +622,24 @@ None
             
 _intent
 =
+f
 "
-%
-s
-:
-%
-s
-"
-%
-(
+{
 next_app
+}
+:
+{
 APPS
 [
 next_app
 ]
 [
-"
+'
 default_intent
-"
+'
 ]
-)
+}
+"
             
 all_intents
 .
@@ -900,19 +896,19 @@ app
 .
 "
         
+f
 "
 i
 .
 e
 .
 :
-%
-s
-"
-%
+{
 print_all_activities
 (
 )
+}
+"
     
 )
     
@@ -957,19 +953,19 @@ app
 .
 "
         
+f
 "
 i
 .
 e
 .
 :
-%
-s
-"
-%
+{
 print_all_intents
 (
 )
+}
+"
     
 )
     
@@ -4818,62 +4814,65 @@ firefox
                 
 title
 =
+f
 "
 \
 nRaptor
 Tests
 Available
 for
-%
-s
-"
-%
+{
 APPS
 [
 _app
 ]
 [
-"
+'
 long_name
-"
+'
 ]
+}
+"
             
 else
 :
                 
 title
 =
+(
+                    
+f
 "
 \
 nRaptor
 Tests
 Available
 for
-%
-s
-(
--
--
-app
-=
-%
-s
-)
-"
-%
-(
-                    
+{
 APPS
 [
 _app
 ]
 [
-"
+'
 long_name
-"
+'
 ]
+}
+"
                     
+f
+"
+(
+-
+-
+app
+=
+{
 _app
+}
+)
+"
                 
 )
             
@@ -5120,34 +5119,34 @@ keys
                 
 print
 (
+f
 "
 \
 n
-%
-s
-"
-%
+{
 key
+}
+"
 )
                 
 print
 (
+f
 "
 type
 :
-%
-s
-"
-%
+{
 test_list
 [
 key
 ]
 [
-"
+'
 type
-"
+'
 ]
+}
+"
 )
                 
 if
@@ -5195,12 +5194,12 @@ subtests
                         
 print
 (
+f
 "
-%
-s
-"
-%
+{
 _sub
+}
+"
 )
         
 print

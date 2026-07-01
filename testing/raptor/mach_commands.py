@@ -1508,22 +1508,28 @@ clean
 =
 True
             
+version
+src
+=
+_get_browsertime_version
+(
+)
+            
 print
 (
+f
 "
 Using
 browsertime
 version
-%
-s
+{
+version
+}
 from
-%
-s
+{
+src
+}
 "
-%
-_get_browsertime_version
-(
-)
 )
         
 finally
@@ -2241,6 +2247,7 @@ Taskcluster
     
 print
 (
+f
 "
 Node
 v22
@@ -2248,11 +2255,10 @@ v22
 found
 at
 :
-%
-s
-"
-%
+{
 node_exe
+}
+"
 )
     
 return

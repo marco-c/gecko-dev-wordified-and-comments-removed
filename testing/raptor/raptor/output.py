@@ -689,14 +689,14 @@ LOG
 .
 info
 (
+f
 "
 summarizing
-%
-s
+{
+data_type
+}
 data
 "
-%
-data_type
 )
             
 if
@@ -773,28 +773,26 @@ True
                 
 suite_name
 =
+f
 "
-%
-s
--
-%
-s
-"
-%
-(
+{
 data_set
 [
-"
+'
 test
-"
+'
 ]
+}
+-
+{
 data_set
 [
-"
+'
 type
-"
+'
 ]
-)
+}
+"
             
 suite
 =
@@ -1482,6 +1480,7 @@ LOG
 error
 (
                 
+f
 "
 no
 summarized
@@ -1491,18 +1490,16 @@ found
 for
 any
 of
-%
-s
-"
-                
-%
-"
-"
+{
+'
+'
 .
 join
 (
 test_names
 )
+}
+"
             
 )
         
@@ -1616,6 +1613,7 @@ LOG
 .
 info
 (
+f
 "
 no
 alias
@@ -1624,11 +1622,10 @@ on
 test
 ignoring
 :
-%
-s
-"
-%
+{
 e
+}
+"
 )
                     
 pass
@@ -1668,6 +1665,7 @@ LOG
 .
 error
 (
+f
 "
 no
 summarized
@@ -1675,13 +1673,10 @@ raptor
 results
 found
 for
-%
-s
-"
-%
-(
+{
 tname
-)
+}
+"
 )
             
 with
@@ -1708,14 +1703,14 @@ f
 .
 write
 (
+f
 "
-%
-s
+{
+result
+}
 \
 n
 "
-%
-result
 )
         
 if
@@ -1753,20 +1748,21 @@ f
 .
 write
 (
+f
 "
-%
-s
+{
+result
+}
 \
 n
 "
-%
-result
 )
             
 LOG
 .
 info
 (
+f
 "
 screen
 captures
@@ -1776,11 +1772,10 @@ found
 locally
 at
 :
-%
-s
-"
-%
+{
 screenshot_path
+}
+"
 )
         
 if
@@ -1850,17 +1845,17 @@ LOG
 .
 info
 (
+f
 "
 scenario
 test
 type
 was
 run
-%
-s
-"
-%
+{
 not_posting
+}
+"
 )
             
 output_perf_data
@@ -2006,13 +2001,11 @@ LOG
 .
 info
 (
+f
 "
 PERFHERDER_DATA
 :
-%
-s
-"
-%
+{
 json
 .
 dumps
@@ -2021,6 +2014,8 @@ self
 .
 summarized_results
 )
+}
+"
 )
                 
 total_perfdata
@@ -2078,6 +2073,7 @@ LOG
 .
 info
 (
+f
 "
 results
 can
@@ -2087,11 +2083,10 @@ found
 locally
 at
 :
-%
-s
-"
-%
+{
 results_path
+}
+"
 )
         
 return
@@ -2219,6 +2214,7 @@ LOG
 error
 (
                 
+f
 "
 no
 summarized
@@ -2226,17 +2222,16 @@ supporting
 data
 found
 for
-%
-s
-"
-%
-"
-"
+{
+'
+'
 .
 join
 (
 test_names
 )
+}
+"
             
 )
             
@@ -2309,16 +2304,16 @@ MOZ_UPLOAD_DIR
 ]
 )
                     
+f
 "
 raptor
 -
-%
-s
+{
+data_type
+}
 .
 json
 "
-%
-data_type
                 
 )
             
@@ -2338,16 +2333,16 @@ os
 getcwd
 (
 )
+f
 "
 raptor
 -
-%
-s
+{
+data_type
+}
 .
 json
 "
-%
-data_type
 )
             
 json
@@ -2374,19 +2369,19 @@ LOG
 .
 info
 (
+f
 "
 PERFHERDER_DATA
 :
-%
-s
-"
-%
+{
 json
 .
 dumps
 (
 next_data_set
 )
+}
+"
 )
             
 LOG
@@ -2394,9 +2389,11 @@ LOG
 info
 (
                 
+f
 "
-%
-s
+{
+data_type
+}
 results
 can
 also
@@ -2405,15 +2402,10 @@ found
 locally
 at
 :
-%
-s
-"
-                
-%
-(
-data_type
+{
 results_path
-)
+}
+"
             
 )
             
@@ -2594,6 +2586,7 @@ raise
 Exception
 (
                     
+f
 "
 Speedometer
 has
@@ -2601,15 +2594,14 @@ has
 subtests
 found
 :
-%
-s
-instead
-"
-%
+{
 len
 (
 results
 )
+}
+instead
+"
                 
 )
             
@@ -3069,15 +3061,15 @@ vals
 raise
 NotImplementedError
 (
+f
 "
 Unit
-%
-s
+{
+unit
+}
 not
 suported
 "
-%
-unit
 )
         
 if
@@ -5227,6 +5219,7 @@ LOG
 info
 (
                         
+f
 "
 turning
 on
@@ -5236,11 +5229,10 @@ for
 measurement
 type
 :
-%
-s
-"
-%
+{
 name
+}
+"
                     
 )
                     
@@ -5298,37 +5290,42 @@ failed_tests
 append
 (
                         
+f
 "
-%
-s
+{
+_sub
+}
 test
 Failed
 .
-decodedFrames
-%
-s
-droppedFrames
-%
-s
-.
 "
                         
-%
-(
-_sub
-_value
-[
+f
 "
 decodedFrames
-"
-]
+{
 _value
 [
+'
+decodedFrames
+'
+]
+}
+"
+                        
+f
 "
 droppedFrames
-"
+{
+_value
+[
+'
+droppedFrames
+'
 ]
-)
+}
+.
+"
                     
 )
                 
@@ -5476,6 +5473,7 @@ LOG
 .
 warning
 (
+f
 "
 Youtube
 sub
@@ -5483,11 +5481,10 @@ sub
 test
 FAILED
 :
-%
-s
-"
-%
+{
 test
+}
+"
 )
 for
 test
@@ -8135,6 +8132,7 @@ LOG
 .
 error
 (
+f
 "
 no
 raptor
@@ -8142,17 +8140,16 @@ test
 results
 found
 for
-%
-s
-"
-%
-"
-"
+{
+'
+'
 .
 join
 (
 test_names
 )
+}
+"
 )
             
 return
@@ -8514,22 +8511,24 @@ LOG
 info
 (
                             
+f
 "
 ignoring
 the
 first
-%
-s
+{
+measurement_name
+}
 value
 due
 to
+"
+                            
+"
 initial
 pageload
 noise
 "
-                            
-%
-measurement_name
                         
 )
                         
@@ -8622,12 +8621,14 @@ for
 measurement
 type
 :
-%
-s
 "
                                 
-%
+f
+"
+{
 measurement_name
+}
+"
                             
 )
                             
@@ -8657,12 +8658,14 @@ for
 measurement
 type
 :
-%
-s
 "
                                 
-%
+f
+"
+{
 measurement_name
+}
+"
                             
 )
                             
@@ -9049,17 +9052,19 @@ test
 results
 type
 for
-%
-s
 "
                     
-%
+f
+"
+{
 test
 [
-"
+'
 name
-"
+'
 ]
+}
+"
                 
 )
                 
@@ -10104,24 +10109,21 @@ LOG
 info
 (
                 
+f
 "
 combining
 results
 from
 browser
 cycle
-%
-d
-for
-%
-s
-"
-                
-%
-(
+{
 browser_cycle
+}
+for
+{
 suite_name
-)
+}
+"
             
 )
             
@@ -10251,20 +10253,20 @@ LOG
 .
 info
 (
+f
 "
 adding
 replicates
 for
-%
-s
-"
-%
+{
 next_subtest
 [
-"
+'
 name
-"
+'
 ]
+}
+"
 )
                             
 combined_subtest
@@ -10299,20 +10301,20 @@ LOG
 .
 info
 (
+f
 "
 adding
 replicates
 for
-%
-s
-"
-%
+{
 next_subtest
 [
-"
+'
 name
-"
+'
 ]
+}
+"
 )
                         
 combined_suites
@@ -10666,6 +10668,7 @@ summarized_screenshots
 append
 (
                 
+f
 "
 "
 "
@@ -10676,8 +10679,14 @@ tr
 <
 th
 >
-%
-s
+{
+screenshot
+[
+"
+test_name
+"
+]
+}
 <
 /
 th
@@ -10686,8 +10695,14 @@ th
 <
 th
 >
-%
-s
+{
+screenshot
+[
+"
+page_cycle
+"
+]
+}
 <
 /
 th
@@ -10702,16 +10717,34 @@ img
 src
 =
 "
-%
-s
+{
+screenshot
+[
+"
+screenshot
+"
+]
+}
 "
 alt
 =
 "
-%
-s
-%
-s
+{
+screenshot
+[
+"
+test_name
+"
+]
+}
+{
+screenshot
+[
+"
+page_cycle
+"
+]
+}
 "
 width
 =
@@ -10737,46 +10770,6 @@ tr
 "
 "
 "
-                
-%
-(
-                    
-screenshot
-[
-"
-test_name
-"
-]
-                    
-screenshot
-[
-"
-page_cycle
-"
-]
-                    
-screenshot
-[
-"
-screenshot
-"
-]
-                    
-screenshot
-[
-"
-test_name
-"
-]
-                    
-screenshot
-[
-"
-page_cycle
-"
-]
-                
-)
             
 )
         
@@ -12563,7 +12556,7 @@ LOG
 .
 error
 (
-                
+f
 "
 no
 browsertime
@@ -12571,18 +12564,16 @@ test
 results
 found
 for
-%
-s
-"
-%
-"
-"
+{
+'
+'
 .
 join
 (
 test_names
 )
-            
+}
+"
 )
             
 return
@@ -13181,12 +13172,14 @@ for
 measurement
 type
 :
-%
-s
 "
                             
-%
+f
+"
+{
 measurement_name
+}
+"
                         
 )
                         
@@ -13259,12 +13252,14 @@ for
 measurement
 type
 :
-%
-s
 "
                             
-%
+f
+"
+{
 measurement_name
+}
+"
                         
 )
                         

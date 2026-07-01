@@ -407,27 +407,26 @@ extra_options
 append
 (
                         
+f
 "
 condprof
 -
-%
-s
-"
-                        
-%
+{
 self
 .
 conditioned_profile
 .
 replace
 (
-"
+'
 artifact
 :
-"
-"
-"
+'
+'
+'
 )
+}
+"
                     
 )
             
@@ -571,12 +570,14 @@ raise
 Exception
 (
                         
+f
 "
 Unknown
 test
 modifier
-%
-s
+{
+name
+}
 was
 provided
 as
@@ -584,9 +585,6 @@ an
 extra
 option
 "
-                        
-%
-name
                     
 )
         
@@ -1006,18 +1004,20 @@ RaptorResultsHandler
 .
 add_supporting_data
 received
-%
-s
-data
 "
             
-%
+f
+"
+{
 supporting_data
 [
-"
+'
 type
-"
+'
 ]
+}
+data
+"
         
 )
         
@@ -1213,24 +1213,25 @@ LOG
 critical
 (
                 
+f
 "
 PERFHERDER_DATA
 was
 seen
-%
-d
+{
+output_perfdata
+}
 times
-expected
-%
-d
-.
 "
                 
-%
-(
-output_perfdata
+f
+"
+expected
+{
 expected_perfherder
-)
+}
+.
+"
             
 )
             
@@ -1274,15 +1275,15 @@ LOG
 .
 info
 (
+f
 "
 Validating
 PERFHERDER_DATA
 against
-%
-s
-"
-%
+{
 schema_path
+}
+"
 )
         
 try
@@ -1462,16 +1463,16 @@ self
 .
 conditioned_profile
                     
+f
 "
 condprof
 -
-%
-s
-"
-%
+{
 self
 .
 conditioned_profile
+}
+"
                 
 )
                 
@@ -4292,12 +4293,10 @@ page_count
                 
 extra
 =
+f
 "
 .
-%
-s
-"
-%
+{
 page_count
 [
 page_counter
@@ -4307,6 +4306,8 @@ len
 page_count
 )
 ]
+}
+"
             
 url_parts
 =
@@ -4336,20 +4337,12 @@ page_counter
             
 bt_url
 =
+f
 "
-%
-s
-%
-s
+{
+'
 /
-%
-s
-"
-%
-(
-"
-/
-"
+'
 .
 join
 (
@@ -4360,13 +4353,19 @@ url_parts
 1
 ]
 )
+}
+{
 extra
+}
+/
+{
 url_parts
 [
 -
 1
 ]
-)
+}
+"
             
 bt_result
 =
@@ -4396,17 +4395,15 @@ bt_url
 name
 "
 :
+f
 "
-%
-s
-%
-s
-"
-%
-(
+{
 test_name
+}
+{
 extra
-)
+}
+"
                 
 "
 measurements
@@ -5609,16 +5606,16 @@ LOG
 .
 info
 (
+f
 "
 found
 browsertime
 results
 at
-%
-s
-"
-%
+{
 bt_res_json
+}
+"
 )
             
 else
@@ -5628,6 +5625,7 @@ LOG
 .
 critical
 (
+f
 "
 unable
 to
@@ -5635,11 +5633,10 @@ find
 browsertime
 results
 at
-%
-s
-"
-%
+{
 bt_res_json
+}
+"
 )
                 
 return
@@ -5683,41 +5680,36 @@ LOG
 .
 error
 (
+f
 "
 Exception
 reading
-%
-s
-"
-%
+{
 bt_res_json
+}
+"
 )
                 
 LOG
 .
 error
 (
+f
 "
 Exception
 :
-%
-s
-%
-s
-"
-%
-(
+{
 type
 (
 e
 )
 .
 __name__
-str
-(
+}
+{
 e
-)
-)
+}
+"
 )
                 
 raise
@@ -5951,41 +5943,36 @@ LOG
 .
 error
 (
+f
 "
 Exception
 reading
-%
-s
-"
-%
+{
 bt_res_json
+}
+"
 )
                     
 LOG
 .
 error
 (
+f
 "
 Exception
 :
-%
-s
-%
-s
-"
-%
-(
+{
 type
 (
 e
 )
 .
 __name__
-str
-(
+}
+{
 e
-)
-)
+}
+"
 )
                     
 raise
@@ -6087,16 +6074,16 @@ LOG
 info
 (
                             
+f
 "
 Exception
 reading
 and
 writing
-%
-s
-"
-%
+{
 bt_profiling_res_json
+}
+"
                         
 )
                         
@@ -6104,27 +6091,22 @@ LOG
 .
 info
 (
+f
 "
 Exception
 :
-%
-s
-%
-s
-"
-%
-(
+{
 type
 (
 e
 )
 .
 __name__
-str
-(
+}
+{
 e
-)
-)
+}
+"
 )
             
 if
@@ -6817,20 +6799,17 @@ LOG
 .
 info
 (
+f
 "
 parsed
 new
 power
 result
 :
-%
-s
-"
-%
-str
-(
+{
 new_result
-)
+}
+"
 )
                     
 return
@@ -6880,20 +6859,17 @@ LOG
 .
 info
 (
+f
 "
 parsed
 new
 custom
 result
 :
-%
-s
-"
-%
-str
-(
+{
 new_result
-)
+}
+"
 )
                     
 return
@@ -6928,20 +6904,17 @@ LOG
 .
 info
 (
+f
 "
 parsed
 new
 pageload
 result
 :
-%
-s
-"
-%
-str
-(
+{
 new_result
-)
+}
+"
 )
                     
 return
@@ -7008,20 +6981,17 @@ LOG
 .
 info
 (
+f
 "
 parsed
 new
 benchmark
 result
 :
-%
-s
-"
-%
-str
-(
+{
 new_result
-)
+}
+"
 )
                     
 return
@@ -7459,22 +7429,19 @@ LOG
 .
 info
 (
+f
 "
 Visual
 metric
 tests
 failed
 :
-%
-s
-"
-%
-str
-(
+{
 self
 .
 failed_vismets
-)
+}
+"
 )
         
 validate_success

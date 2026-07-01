@@ -489,15 +489,15 @@ LOG
 .
 info
 (
+f
 "
 Opening
 profile
 at
-%
-s
-"
-%
+{
 profile_path
+}
+"
 )
                 
 try
@@ -596,25 +596,23 @@ test_type
                     
 folder_name
 =
+f
 "
-%
-s
--
-%
-s
-"
-%
-(
+{
 self
 .
 test_config
 [
-"
+'
 name
-"
+'
 ]
+}
+-
+{
 test_run_type
-)
+}
+"
                     
 iteration
 =
@@ -727,28 +725,29 @@ LOG
 info
 (
                         
+f
 "
 Adding
 profile
-%
-s
+{
+profile_path
+}
 to
 archive
-%
-s
-as
-%
-s
 "
                         
-%
-(
-profile_path
+f
+"
+{
 self
 .
 profile_arcname
+}
+as
+{
 path_in_zip
-)
+}
+"
                     
 )
                     
@@ -792,26 +791,27 @@ LOG
 exception
 (
                         
+f
 "
 Failed
 to
 add
 profile
-%
-s
+{
+profile_path
+}
 to
 archive
-%
-s
 "
                         
-%
-(
-profile_path
+f
+"
+{
 self
 .
 profile_arcname
-)
+}
+"
                     
 )
                     

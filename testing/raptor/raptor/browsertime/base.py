@@ -1500,17 +1500,17 @@ chrome
 version
 "
                         
+f
 "
 being
 tested
 :
-%
-s
-"
-%
+{
 self
 .
 browsertime_chromedriver
+}
+"
                     
 )
             

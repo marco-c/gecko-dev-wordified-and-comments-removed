@@ -1323,6 +1323,7 @@ pb_args
 =
 [
                 
+f
 "
 -
 -
@@ -1330,25 +1331,22 @@ proxy
 -
 server
 =
-%
-s
-:
-%
-d
-"
-%
-(
+{
 self
 .
 playback
 .
 host
+}
+:
+{
 self
 .
 playback
 .
 port
-)
+}
+"
                 
 "
 -
@@ -1630,23 +1628,23 @@ self
 .
 android_external_storage
             
+f
 "
-%
-s
+{
+self
+.
+config
+[
+'
+binary
+'
+]
+}
 -
 geckodriver
 -
 profile
 "
-%
-self
-.
-config
-[
-"
-binary
-"
-]
         
 )
         

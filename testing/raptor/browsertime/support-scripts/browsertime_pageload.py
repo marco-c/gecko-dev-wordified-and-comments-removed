@@ -1052,12 +1052,14 @@ for
 measurement
 type
 :
-%
-s
 "
                     
-%
+f
+"
+{
 measurement_name
+}
+"
                 
 )
                 
@@ -1130,12 +1132,14 @@ for
 measurement
 type
 :
-%
-s
 "
                     
-%
+f
+"
+{
 measurement_name
+}
+"
                 
 )
                 
@@ -1752,22 +1756,19 @@ LOG
 .
 info
 (
+f
 "
 Visual
 metric
 tests
 failed
 :
-%
-s
-"
-%
-str
-(
+{
 self
 .
 failed_vismets
-)
+}
+"
 )
             
 return
