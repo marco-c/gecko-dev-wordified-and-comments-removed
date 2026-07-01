@@ -75,11 +75,11 @@ mResponseHeaders
 ;
 Atomic
 <
-bool
+uint32_t
 >
 mInVisitHeaders
 {
-false
+0
 }
 ;
 }

@@ -209,9 +209,9 @@ nsIHttpHeaderVisitor
 visitor
 )
 {
++
++
 mInVisitHeaders
-=
-true
 ;
 nsresult
 rv
@@ -223,9 +223,9 @@ VisitHeaders
 visitor
 )
 ;
+-
+-
 mInVisitHeaders
-=
-false
 ;
 return
 rv

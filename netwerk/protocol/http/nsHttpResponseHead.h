@@ -1246,14 +1246,14 @@ mRecursiveMutex
 "
 }
 ;
-bool
+uint32_t
 mInVisitHeaders
 MOZ_GUARDED_BY
 (
 mRecursiveMutex
 )
 {
-false
+0
 }
 ;
 friend
