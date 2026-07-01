@@ -24,7 +24,7 @@ browser
 "
 [
 "
-test_nimbus_defaultWindowsLaunchOnLogin_firstStartup
+test_DefaultWindowsLaunchOnLogin
 .
 js
 "

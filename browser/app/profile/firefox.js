@@ -1915,7 +1915,7 @@ windowsLaunchOnLogin
 .
 defaultEnabled
 "
-true
+false
 )
 ;
 #
