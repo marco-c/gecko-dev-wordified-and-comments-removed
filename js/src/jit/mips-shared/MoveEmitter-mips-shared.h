@@ -99,6 +99,7 @@ MoveOperand
 &
 operand
 )
+const
 ;
 Address
 getAdjustedAddress
@@ -108,6 +109,7 @@ MoveOperand
 &
 operand
 )
+const
 ;
 void
 emitMove
