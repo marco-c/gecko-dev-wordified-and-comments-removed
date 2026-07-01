@@ -769,7 +769,7 @@ baseUrl
 {
 content
 .
-document
+wrappedJSObject
 .
 location
 .
@@ -1456,7 +1456,7 @@ baseUrl
 {
 content
 .
-document
+wrappedJSObject
 .
 location
 .
