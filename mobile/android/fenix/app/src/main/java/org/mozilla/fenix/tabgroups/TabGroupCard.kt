@@ -991,6 +991,8 @@ wrapContentSize
 tabItemGridInteractionAnimation
 (
 interactionState
+=
+interactionState
 )
 .
 testTag
