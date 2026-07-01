@@ -12653,8 +12653,6 @@ static
 void
 PinCurrentAppToStartMenuAsyncImpl
 (
-bool
-aCheckOnly
 const
 RefPtr
 <
@@ -12766,7 +12764,6 @@ AppListEntry
 (
 [
 promiseHolder
-aCheckOnly
 ]
 (
 IAsyncOperation
@@ -12937,7 +12934,6 @@ bool
 promiseHolder
 entry
 startScreenManager
-aCheckOnly
 ]
 (
 IAsyncOperation
@@ -13006,9 +13002,6 @@ E_FAIL
 if
 (
 isAlreadyPinned
-|
-|
-aCheckOnly
 )
 {
 RESOLVE_AND_RETURN
@@ -13243,8 +13236,6 @@ nsWindowsShellService
 :
 PinCurrentAppToStartMenuAsync
 (
-bool
-aCheckOnly
 JSContext
 *
 aCx
@@ -13366,13 +13357,11 @@ NS_NewRunnableFunction
 PinCurrentAppToStartMenuAsync
 "
 [
-aCheckOnly
 promiseHolder
 ]
 {
 PinCurrentAppToStartMenuAsyncImpl
 (
-aCheckOnly
 promiseHolder
 )
 ;
@@ -14057,8 +14046,6 @@ nsWindowsShellService
 :
 PinCurrentAppToStartMenuAsync
 (
-bool
-aCheckOnly
 JSContext
 *
 aCx

@@ -1079,17 +1079,6 @@ MINGW
 .
 *
 *
-param
-aCheckOnly
-If
-only
-testing
-whether
-pinning
-is
-possible
-*
-*
 return
 True
 if
@@ -1152,9 +1141,6 @@ implicit_jscontext
 Promise
 pinCurrentAppToStartMenuAsync
 (
-in
-boolean
-aCheckOnly
 )
 ;
 /
