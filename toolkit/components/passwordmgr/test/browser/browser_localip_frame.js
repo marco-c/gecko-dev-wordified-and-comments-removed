@@ -227,7 +227,7 @@ org
 expected
 :
 [
-type
+originaltype
 =
 "
 insecureWarning
@@ -264,7 +264,7 @@ http
 expected
 :
 [
-type
+originaltype
 =
 "
 insecureWarning
@@ -297,7 +297,7 @@ org
 expected
 :
 [
-type
+originaltype
 =
 "
 insecureWarning
