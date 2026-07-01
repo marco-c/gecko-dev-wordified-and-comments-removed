@@ -192,9 +192,7 @@ CATEGORY_NAME
 "
 browser
 -
-before
--
-ui
+idle
 -
 startup
 "
@@ -490,7 +488,7 @@ add_task
 (
 async
 function
-test_is_registered_in_before_ui_startup
+test_is_registered_in_idle_startup
 (
 )
 {
@@ -526,9 +524,7 @@ maybeEnableOnFirstRun
 in
 browser
 -
-before
--
-ui
+idle
 -
 startup
 "
