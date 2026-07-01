@@ -3486,10 +3486,6 @@ gpu_buffer_builder
 &
 render_tasks
 &
-scene
-.
-clip_store
-&
 mut
 transform_palette
 &
@@ -5184,10 +5180,6 @@ render_tasks
 :
 &
 RenderTaskGraph
-clip_store
-:
-&
-ClipStore
 transforms
 :
 &
@@ -5323,7 +5315,6 @@ task_id
 ctx
 gpu_buffer_builder
 render_tasks
-clip_store
 transforms
 )
 ;
@@ -5391,7 +5382,6 @@ task_id
 ctx
 gpu_buffer_builder
 render_tasks
-clip_store
 transforms
 )
 ;
@@ -6016,7 +6006,6 @@ task_id
 ctx
 gpu_buffer_builder
 render_tasks
-clip_store
 transforms
 )
 ;
