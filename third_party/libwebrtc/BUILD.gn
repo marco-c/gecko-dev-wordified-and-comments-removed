@@ -4509,9 +4509,6 @@ webrtc_nonparallel_tests
 "
 )
 {
-testonly
-=
-true
 tests
 =
 [
@@ -4541,15 +4538,6 @@ rtc_base
 socket_address_unittest
 "
 ]
-if
-(
-is_android
-)
-{
-shard_timeout
-=
-900
-}
 }
 rtc_test
 (
