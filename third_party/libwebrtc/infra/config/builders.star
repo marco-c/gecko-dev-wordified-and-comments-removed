@@ -2245,12 +2245,6 @@ arm64
 "
 ]
 )
-try_builder
-(
-"
-android_compile_arm64_rel
-"
-)
 ci_builder
 (
 "
