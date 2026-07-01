@@ -2385,7 +2385,7 @@ messages
 =
 conversation
 .
-getMessagesInOpenAiFormat
+getMessagesInChatCompletionsFormat
 (
 )
 ;
@@ -2593,7 +2593,7 @@ messages
 =
 conversation
 .
-getMessagesInOpenAiFormat
+getMessagesInChatCompletionsFormat
 (
 )
 ;
@@ -2757,7 +2757,7 @@ ChatConversation
 .
 prototype
 "
-getMemoriesContext
+injectMemoriesContext
 "
 )
 .
@@ -2811,7 +2811,7 @@ memoriesStub
 .
 called
 "
-getMemoriesContext
+injectMemoriesContext
 should
 be
 called
@@ -2829,7 +2829,7 @@ memoriesStub
 .
 calledOnce
 "
-getMemoriesContext
+injectMemoriesContext
 should
 be
 called
@@ -2963,7 +2963,7 @@ ChatConversation
 .
 prototype
 "
-getMemoriesContext
+injectMemoriesContext
 "
 )
 .
@@ -3035,7 +3035,7 @@ memoriesStub
 .
 notCalled
 "
-getMemoriesContext
+injectMemoriesContext
 should
 not
 be

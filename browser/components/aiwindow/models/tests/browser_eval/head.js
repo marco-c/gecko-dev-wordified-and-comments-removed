@@ -159,7 +159,6 @@ function
 collectChatResponse
 (
 conversation
-engineInstance
 )
 {
 const
@@ -202,7 +201,6 @@ fetchWithHistory
 (
 {
 conversation
-engineInstance
 }
 )
 ;
@@ -211,7 +209,7 @@ messages
 =
 conversation
 .
-getMessagesInOpenAiFormat
+getMessagesInChatCompletionsFormat
 (
 )
 ;

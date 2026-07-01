@@ -133,7 +133,7 @@ return
 turnIndex
 ;
 }
-getMessagesInOpenAiFormat
+getMessagesInChatCompletionsFormat
 (
 )
 {

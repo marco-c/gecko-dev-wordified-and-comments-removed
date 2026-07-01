@@ -511,7 +511,7 @@ messages
 =
 conversation
 .
-getMessagesInOpenAiFormat
+getMessagesInChatCompletionsFormat
 (
 )
 ;
@@ -1568,7 +1568,7 @@ messages
 =
 conversation
 .
-getMessagesInOpenAiFormat
+getMessagesInChatCompletionsFormat
 (
 )
 ;

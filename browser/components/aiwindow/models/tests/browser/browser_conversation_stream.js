@@ -385,7 +385,7 @@ text
 )
 ;
 const
-engineInstance
+engine
 =
 await
 openAIEngine
@@ -417,6 +417,12 @@ CHAT
 }
 )
 ;
+conversation
+.
+engine
+=
+engine
+;
 await
 Chat
 .
@@ -424,7 +430,6 @@ fetchWithHistory
 (
 {
 conversation
-engineInstance
 }
 )
 ;
@@ -843,7 +848,7 @@ async
 >
 {
 const
-engineInstance
+engine
 =
 await
 openAIEngine
@@ -918,6 +923,12 @@ pageMeta
 ;
 conversation
 .
+engine
+=
+engine
+;
+conversation
+.
 addUserMessage
 (
 "
@@ -954,7 +965,6 @@ fetchWithHistory
 (
 {
 conversation
-engineInstance
 }
 )
 ;
@@ -1353,7 +1363,7 @@ text
 )
 ;
 const
-engineInstance
+engine
 =
 await
 openAIEngine
@@ -1385,6 +1395,12 @@ CHAT
 }
 )
 ;
+conversation
+.
+engine
+=
+engine
+;
 await
 Chat
 .
@@ -1392,7 +1408,6 @@ fetchWithHistory
 (
 {
 conversation
-engineInstance
 }
 )
 ;
@@ -1728,7 +1743,7 @@ text
 )
 ;
 const
-engineInstance
+engine
 =
 await
 openAIEngine
@@ -1760,6 +1775,12 @@ CHAT
 }
 )
 ;
+conversation
+.
+engine
+=
+engine
+;
 await
 Chat
 .
@@ -1767,7 +1788,6 @@ fetchWithHistory
 (
 {
 conversation
-engineInstance
 }
 )
 ;
@@ -2211,7 +2231,7 @@ text
 )
 ;
 const
-engineInstance
+engine
 =
 await
 openAIEngine
@@ -2243,6 +2263,12 @@ CHAT
 }
 )
 ;
+conversation
+.
+engine
+=
+engine
+;
 await
 Chat
 .
@@ -2250,7 +2276,6 @@ fetchWithHistory
 (
 {
 conversation
-engineInstance
 }
 )
 ;
@@ -2677,7 +2702,7 @@ text
 )
 ;
 const
-engineInstance
+engine
 =
 await
 openAIEngine
@@ -2709,6 +2734,12 @@ CHAT
 }
 )
 ;
+conversation
+.
+engine
+=
+engine
+;
 await
 Chat
 .
@@ -2716,7 +2747,6 @@ fetchWithHistory
 (
 {
 conversation
-engineInstance
 }
 )
 ;
