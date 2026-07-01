@@ -431,6 +431,18 @@ aWindowSizes
 const
 override
 ;
+bool
+IsAsciiCompatible
+(
+const
+mozilla
+:
+:
+Encoding
+*
+aEncoding
+)
+;
 virtual
 bool
 WillIgnoreCharsetOverride
@@ -638,7 +650,6 @@ mContentListHolder
 int32_t
 mNumForms
 ;
-static
 void
 TryReloadCharset
 (
