@@ -537,6 +537,10 @@ fixture
 counter
 .
 packets_count_
+.
+load
+(
+)
 <
 <
 "
@@ -550,6 +554,10 @@ fixture
 counter
 .
 total_packets_size_
+.
+load
+(
+)
 <
 <
 "
@@ -758,6 +766,10 @@ fixture
 counter
 .
 packets_count_
+.
+load
+(
+)
 <
 <
 "
@@ -771,6 +783,10 @@ fixture
 counter
 .
 total_packets_size_
+.
+load
+(
+)
 <
 <
 "
