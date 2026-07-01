@@ -1639,14 +1639,6 @@ showModal
 (
 )
 ;
-this
-.
-restoreFromBackupEl
-.
-resizeTextarea
-(
-)
-;
 }
 }
 handleShowBackupLocation
