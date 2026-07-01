@@ -8,11 +8,8 @@ iterator
 4
 5
 ]
-[
-Symbol
 .
-iterator
-]
+values
 (
 )
 ;
