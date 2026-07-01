@@ -443,6 +443,13 @@ js
 ]
 [
 "
+test_paymentsListItems
+.
+js
+"
+]
+[
+"
 test_phoneNumber
 .
 js
