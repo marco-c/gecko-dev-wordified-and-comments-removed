@@ -206,6 +206,13 @@ js
 ]
 [
 "
+test_Tools_AddMemory
+.
+js
+"
+]
+[
+"
 test_Tools_GetOpenTabs
 .
 js
