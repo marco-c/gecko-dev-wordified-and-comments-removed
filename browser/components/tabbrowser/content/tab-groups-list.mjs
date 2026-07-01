@@ -1168,9 +1168,6 @@ addTabGroup
 [
 newTab
 ]
-{
-metricsContext
-:
 win
 .
 gBrowser
@@ -1189,7 +1186,6 @@ METRIC_SOURCE
 .
 TAB_OVERFLOW_MENU
 )
-}
 )
 ;
 }

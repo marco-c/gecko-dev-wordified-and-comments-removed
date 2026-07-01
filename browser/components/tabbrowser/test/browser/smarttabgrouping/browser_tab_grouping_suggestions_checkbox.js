@@ -32,15 +32,9 @@ addTabGroup
 tab
 ]
 {
-metricsContext
+isUserTriggered
 :
-gBrowser
-.
-TabMetrics
-.
-userTriggeredContext
-(
-)
+true
 }
 )
 ;

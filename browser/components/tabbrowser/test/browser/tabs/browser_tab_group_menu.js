@@ -489,15 +489,9 @@ label
 "
 Food
 "
-metricsContext
+isUserTriggered
 :
-gBrowser
-.
-TabMetrics
-.
-userTriggeredContext
-(
-)
+true
 }
 )
 ;

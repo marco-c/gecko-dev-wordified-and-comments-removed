@@ -3390,9 +3390,6 @@ gBrowser
 removeTab
 (
 tab
-{
-metricsContext
-:
 lazy
 .
 TabMetrics
@@ -3400,7 +3397,6 @@ TabMetrics
 userTriggeredContext
 (
 )
-}
 )
 ;
 Glean
