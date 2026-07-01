@@ -63,7 +63,7 @@ js
 ;
 const
 {
-BOOLEAN_CONFIGURATION_PREFS
+CONFIGURATION_PREFS
 }
 =
 require
@@ -1340,7 +1340,7 @@ Object
 .
 keys
 (
-BOOLEAN_CONFIGURATION_PREFS
+CONFIGURATION_PREFS
 )
 .
 includes
