@@ -138,7 +138,7 @@ addr
 }
 NetworkFuzzingBuffer
 ;
-MOZ_RUNINIT
+constinit
 static
 nsTHashMap
 <
@@ -157,7 +157,17 @@ nsDeque
 <
 NetworkFuzzingBuffer
 >
+&
 gNetworkFuzzingBuffers
+=
+*
+new
+nsDeque
+<
+NetworkFuzzingBuffer
+>
+(
+)
 ;
 static
 Atomic
