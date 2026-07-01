@@ -159,6 +159,13 @@ js
 ]
 [
 "
+browser_ext_windows_create_hidpi
+.
+js
+"
+]
+[
+"
 browser_ext_windows_create_params
 .
 js
