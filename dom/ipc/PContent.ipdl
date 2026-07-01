@@ -2489,6 +2489,9 @@ name
 bool
 allFrames
 ;
+bool
+safeForUntrustedWebProcess
+;
 /
 /
 This
@@ -2617,6 +2620,9 @@ DevTools
 .
 bool
 loadInDevToolsLoader
+;
+bool
+safeForUntrustedWebProcess
 ;
 /
 /

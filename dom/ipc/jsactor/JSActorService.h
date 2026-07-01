@@ -371,6 +371,11 @@ nsCString
 >
 mRemoteTypes
 ;
+bool
+mSafeForUntrustedWebProcess
+=
+false
+;
 }
 ;
 }
