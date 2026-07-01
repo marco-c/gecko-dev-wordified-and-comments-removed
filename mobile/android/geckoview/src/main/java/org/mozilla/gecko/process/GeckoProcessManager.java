@@ -431,6 +431,9 @@ public
 ISurfaceAllocator
 getSurfaceAllocator
 (
+final
+IBinder
+client
 )
 {
 final
@@ -517,6 +520,7 @@ conn
 .
 getSurfaceAllocator
 (
+client
 )
 )
 ;
@@ -543,9 +547,10 @@ complete
 (
 RemoteSurfaceAllocator
 .
-getInstance
+create
 (
 0
+client
 )
 )
 ;
@@ -1526,10 +1531,6 @@ CompositorSurfaceManager
 mCompositorSurfaceManager
 ;
 private
-ISurfaceAllocator
-mSurfaceAllocator
-;
-private
 final
 int
 mUniqueGpuProcessId
@@ -1634,16 +1635,13 @@ public
 ISurfaceAllocator
 getSurfaceAllocator
 (
+final
+IBinder
+client
 )
 {
 if
 (
-mSurfaceAllocator
-=
-=
-null
-&
-&
 getChild
 (
 )
@@ -1654,8 +1652,7 @@ null
 {
 try
 {
-mSurfaceAllocator
-=
+return
 getChild
 (
 )
@@ -1663,6 +1660,7 @@ getChild
 getSurfaceAllocator
 (
 mUniqueGpuProcessId
+client
 )
 ;
 }
@@ -1676,7 +1674,7 @@ ignored
 }
 }
 return
-mSurfaceAllocator
+null
 ;
 }
 }

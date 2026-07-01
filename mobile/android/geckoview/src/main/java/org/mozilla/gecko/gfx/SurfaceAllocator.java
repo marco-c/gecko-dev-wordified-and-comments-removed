@@ -12,6 +12,13 @@ android
 .
 os
 .
+Binder
+;
+import
+android
+.
+os
+.
 IBinder
 ;
 import
@@ -99,6 +106,17 @@ sAllocator
 private
 static
 final
+IBinder
+sClient
+=
+new
+Binder
+(
+)
+;
+private
+static
+final
 LongSparseArray
 <
 GeckoSurface
@@ -153,6 +171,7 @@ getInstance
 .
 getSurfaceAllocator
 (
+sClient
 )
 ;
 }
@@ -164,6 +183,7 @@ GeckoServiceChildProcess
 .
 getSurfaceAllocator
 (
+sClient
 )
 ;
 }

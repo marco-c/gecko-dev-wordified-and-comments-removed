@@ -85,6 +85,13 @@ gfx
 .
 ISurfaceAllocator
 ;
+import
+android
+.
+os
+.
+IBinder
+;
 interface
 IProcessManager
 {
@@ -117,6 +124,9 @@ Surfaces
 ISurfaceAllocator
 getSurfaceAllocator
 (
+in
+IBinder
+client
 )
 ;
 }
