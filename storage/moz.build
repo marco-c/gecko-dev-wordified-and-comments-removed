@@ -261,6 +261,11 @@ mozStorageStatementRow
 h
 "
 "
+SQLiteEncryption
+.
+h
+"
+"
 SQLiteMutex
 .
 h
@@ -397,6 +402,11 @@ cpp
 "
 "
 ReadOnlyNoLockVFS
+.
+cpp
+"
+"
+SQLiteEncryption
 .
 cpp
 "

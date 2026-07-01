@@ -214,6 +214,11 @@ void
 aResult
 )
 ;
+nsresult
+MarkProfileEncryptedDatabases
+(
+)
+;
 }
 void
 BuildCompatVersion

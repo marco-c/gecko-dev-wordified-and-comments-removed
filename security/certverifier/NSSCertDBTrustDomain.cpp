@@ -7555,7 +7555,7 @@ XRE_IsUtilityProcess
 StaticPrefs
 :
 :
-security_utility_pkcs11_module_process_enabled_AtStartup
+security_utility_pkcs11_module_process_enabled
 (
 )
 |
@@ -7603,7 +7603,7 @@ XRE_IsParentProcess
 StaticPrefs
 :
 :
-security_utility_pkcs11_module_process_enabled_AtStartup
+security_utility_pkcs11_module_process_enabled
 (
 )
 ;
@@ -7802,7 +7802,7 @@ XRE_IsParentProcess
 StaticPrefs
 :
 :
-security_utility_pkcs11_module_process_enabled_AtStartup
+security_utility_pkcs11_module_process_enabled
 (
 )
 ;
