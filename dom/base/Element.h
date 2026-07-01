@@ -3078,6 +3078,8 @@ nsAttrValue
 aParsedValue
 bool
 aNotify
+IsKnownNewAttr
+aIsKnownNew
 )
 ;
 nsresult
@@ -3285,7 +3287,12 @@ aNameSpaceID
 aName
 nullptr
 aValue
+nullptr
 aNotify
+IsKnownNewAttr
+:
+:
+No
 )
 ;
 }
@@ -3317,6 +3324,10 @@ aPrefix
 aValue
 nullptr
 aNotify
+IsKnownNewAttr
+:
+:
+No
 )
 ;
 }
@@ -3348,6 +3359,10 @@ nullptr
 aValue
 aTriggeringPrincipal
 aNotify
+IsKnownNewAttr
+:
+:
+No
 )
 ;
 }
@@ -3371,6 +3386,8 @@ nsIPrincipal
 aMaybeScriptedPrincipal
 bool
 aNotify
+IsKnownNewAttr
+aIsKnownNew
 )
 ;
 nsresult
@@ -3418,6 +3435,8 @@ aValue
 bool
 *
 aHadValue
+IsKnownNewAttr
+aIsKnownNew
 )
 ;
 nsresult
@@ -3438,6 +3457,8 @@ aValue
 bool
 *
 aHadValue
+IsKnownNewAttr
+aIsKnownNew
 )
 ;
 const
@@ -7616,6 +7637,8 @@ ParseFunc
 &
 &
 aParseFn
+IsKnownNewAttr
+aIsKnownNew
 )
 ;
 nsresult
@@ -7652,6 +7675,8 @@ const
 mozAutoDocUpdate
 &
 aGuard
+IsKnownNewAttr
+aIsKnownNew
 )
 ;
 virtual
@@ -7786,6 +7811,14 @@ aStr
 nsAutoString
 *
 aNameToUse
+=
+nullptr
+RefPtr
+<
+nsAtom
+>
+*
+aOutAtom
 =
 nullptr
 )
