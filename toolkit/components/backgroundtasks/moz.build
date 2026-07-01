@@ -386,15 +386,6 @@ mjs
 "
 tests
 /
-BackgroundTask_crashReporterStatus
-.
-sys
-.
-mjs
-"
-"
-tests
-/
 BackgroundTask_file_exists
 .
 sys

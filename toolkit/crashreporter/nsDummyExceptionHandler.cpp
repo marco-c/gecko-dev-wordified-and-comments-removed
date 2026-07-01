@@ -46,8 +46,6 @@ OOPInit
 nsIFile
 *
 aXREDirectory
-bool
-force
 )
 {
 return
@@ -133,15 +131,6 @@ UnsetExceptionHandler
 {
 return
 NS_ERROR_NOT_IMPLEMENTED
-;
-}
-uint32_t
-GetCrashHelperPid
-(
-)
-{
-return
-0
 ;
 }
 const

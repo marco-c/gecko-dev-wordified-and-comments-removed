@@ -116,14 +116,6 @@ phc
 toml
 "
 ]
-DIRS
-+
-=
-[
-"
-test_utils
-"
-]
 TEST_DIRS
 +
 =

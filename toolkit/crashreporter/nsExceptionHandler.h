@@ -285,10 +285,6 @@ OOPInit
 nsIFile
 *
 aXREDirectory
-bool
-force
-=
-false
 )
 ;
 void
@@ -310,11 +306,6 @@ false
 ;
 nsresult
 UnsetExceptionHandler
-(
-)
-;
-uint32_t
-GetCrashHelperPid
 (
 )
 ;
