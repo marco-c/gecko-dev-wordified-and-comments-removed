@@ -3,6 +3,14 @@ json
 import
 os
 from
+mozilla_taskgraph
+.
+util
+.
+attributes
+import
+release_level
+from
 taskcluster
 .
 exceptions
@@ -51,7 +59,6 @@ util
 attributes
 import
 RELEASE_PROMOTION_PROJECTS
-release_level
 from
 gecko_taskgraph
 .
@@ -1527,18 +1534,32 @@ partial_updates
 )
         
 if
+(
+            
 not
 partial_updates
+            
 and
 release_level
 (
+graph_config
+[
+"
+release
+-
+branches
+"
+]
 push_parameters
 )
+            
 =
 =
 "
 production
 "
+        
+)
 :
             
 raise
