@@ -593,10 +593,10 @@ SamplesStatsCounter
 qp
 ;
 SamplesStatsCounter
-encode_time_ms
+encode_time_us
 ;
 SamplesStatsCounter
-decode_time_ms
+decode_time_us
 ;
 SamplesStatsCounter
 target_bitrate_kbps
@@ -617,7 +617,7 @@ SamplesStatsCounter
 framerate_mismatch_pct
 ;
 SamplesStatsCounter
-transmission_time_ms
+buffer_delay_ms
 ;
 struct
 Psnr
