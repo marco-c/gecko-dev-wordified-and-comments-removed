@@ -204,6 +204,9 @@ mozilla
 contentanalysis
 {
 class
+ContentAnalysisBackend
+;
+class
 ContentAnalysisCallback
 ;
 enum
@@ -474,7 +477,7 @@ Reason
 :
 eUnknown
 ;
-RefPtr
+nsCOMPtr
 <
 nsITransferable
 >
@@ -1105,7 +1108,7 @@ nsresult
 RunAnalyzeRequestTask
 (
 const
-RefPtr
+nsCOMPtr
 <
 nsIContentAnalysisRequest
 >
@@ -1114,7 +1117,7 @@ aRequest
 bool
 aAutoAcknowledge
 const
-RefPtr
+nsCOMPtr
 <
 nsIContentAnalysisCallback
 >
@@ -1484,7 +1487,7 @@ ContentAnalysis
 >
 mWeakContentAnalysis
 ;
-RefPtr
+nsCOMPtr
 <
 nsIContentAnalysisCallback
 >
@@ -1514,7 +1517,7 @@ RequestsPromise
 :
 AllPromiseType
 >
-RefPtr
+nsCOMPtr
 <
 nsIContentAnalysisResult
 >
@@ -1606,11 +1609,17 @@ false
 bool
 mSetByEnterprise
 ;
+RefPtr
+<
+ContentAnalysisBackend
+>
+mBackend
+;
 struct
 UserActionData
 final
 {
-RefPtr
+nsCOMPtr
 <
 nsIContentAnalysisCallback
 >

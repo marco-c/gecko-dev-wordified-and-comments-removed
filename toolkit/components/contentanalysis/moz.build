@@ -94,6 +94,11 @@ ContentAnalysis
 .
 cpp
 "
+"
+ExternalAgentBackend
+.
+cpp
+"
 ]
 EXTRA_JS_MODULES
 +
