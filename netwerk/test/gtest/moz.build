@@ -113,6 +113,11 @@ TestEtcHostsParsing
 cpp
 "
 "
+TestHappyEyeballsConnectionAttempt
+.
+cpp
+"
+"
 TestHeaders
 .
 cpp
