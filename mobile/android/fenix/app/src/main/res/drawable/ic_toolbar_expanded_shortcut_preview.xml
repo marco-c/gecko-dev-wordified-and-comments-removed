@@ -205,9 +205,10 @@ android
 fillColor
 =
 "
-color
+?
+attr
 /
-fx_mobile_layer_color_2
+colorSurfaceContainerLowest
 "
 /
 >
@@ -410,7 +411,7 @@ fillColor
 ?
 attr
 /
-colorPrimaryContainer
+colorSecondaryContainer
 "
 /
 >
@@ -524,7 +525,7 @@ strokeColor
 ?
 attr
 /
-colorTertiary
+colorPrimary
 "
 /
 >
