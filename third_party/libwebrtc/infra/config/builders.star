@@ -2378,7 +2378,7 @@ android_compile_x86_rel
 ci_builder
 (
 "
-Android32
+Android64
 (
 more
 configs
@@ -2387,7 +2387,7 @@ configs
 "
 Android
 |
-arm
+arm64
 |
 more
 "
