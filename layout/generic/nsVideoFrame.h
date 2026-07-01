@@ -414,13 +414,6 @@ GetVideoControls
 )
 const
 ;
-void
-UpdatePosterSource
-(
-bool
-aNotify
-)
-;
 #
 ifdef
 DEBUG_FRAME_DUMP
@@ -466,6 +459,13 @@ PosterImageSize
 (
 )
 const
+;
+void
+UpdatePosterSource
+(
+bool
+aNotify
+)
 ;
 void
 UpdateTextTrack
