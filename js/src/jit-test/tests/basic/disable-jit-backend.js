@@ -14,14 +14,6 @@ wasmIsSupported
 false
 )
 ;
-assertEq
-(
-isAsmJSCompilationAvailable
-(
-)
-false
-)
-;
 function
 test
 (

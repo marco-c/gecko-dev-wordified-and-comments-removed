@@ -299,12 +299,9 @@ n
 "
 )
 ;
-assertThrowsInstanceOf
+assertEq
 (
-(
-)
-=
->
+typeof
 asmCompile
 (
 '
@@ -335,7 +332,9 @@ Math
 }
 }
 )
-Error
+"
+object
+"
 )
 ;
 }

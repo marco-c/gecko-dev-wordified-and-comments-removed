@@ -521,10 +521,6 @@ defaultDelazificationMode
 ;
 extern
 bool
-enableAsmJS
-;
-extern
-bool
 enableWasm
 ;
 extern

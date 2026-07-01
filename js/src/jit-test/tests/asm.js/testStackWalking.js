@@ -216,13 +216,6 @@ f
 )
 ;
 }
-if
-(
-isAsmJSCompilationAvailable
-(
-)
-)
-{
 var
 callFFI
 =
@@ -261,15 +254,6 @@ f
 "
 )
 ;
-assertEq
-(
-isAsmJSModule
-(
-callFFI
-)
-true
-)
-;
 stack
 =
 null
@@ -291,7 +275,6 @@ f
 ]
 )
 ;
-}
 var
 f1
 =

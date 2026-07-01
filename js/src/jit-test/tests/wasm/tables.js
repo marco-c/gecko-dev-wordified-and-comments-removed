@@ -2550,17 +2550,6 @@ f
 (
 )
 ;
-assertEq
-(
-isAsmJSFunction
-(
-asmjsFun
-)
-isAsmJSCompilationAvailable
-(
-)
-)
-;
 assertErrorMessage
 (
 (

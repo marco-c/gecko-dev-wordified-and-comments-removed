@@ -9,14 +9,6 @@ also
 =
 -
 -
-asmjs
-;
-test
--
-also
-=
--
--
 disable
 -
 wasm
