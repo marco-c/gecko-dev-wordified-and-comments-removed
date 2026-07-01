@@ -697,6 +697,9 @@ screen_detection_mode
 arg_def_t
 validate_hbd_input
 ;
+arg_def_t
+force_max_q
+;
 #
 endif
 }

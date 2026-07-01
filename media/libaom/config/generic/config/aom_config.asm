@@ -4,7 +4,7 @@ Copyright
 (
 c
 )
-2026
+2017
 Alliance
 for
 Open

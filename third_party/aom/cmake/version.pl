@@ -586,18 +586,6 @@ VERSION_PATCH
 "
 ;
 my
-year
-=
-(
-localtime
-)
-[
-5
-]
-+
-1900
-;
-my
 lic_block
 =
 <
@@ -613,7 +601,7 @@ Copyright
 (
 c
 )
-year
+2016
 Alliance
 for
 Open

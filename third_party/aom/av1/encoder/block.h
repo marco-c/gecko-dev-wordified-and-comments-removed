@@ -2191,6 +2191,12 @@ rdcost
 ;
 #
 endif
+int
+pix_to_bottom_edge
+;
+int
+pix_to_right_edge
+;
 }
 MACROBLOCK
 ;
