@@ -1,7 +1,7 @@
 .
 .
 _components
-/
+-
 normandy
 :
 =
@@ -89,7 +89,7 @@ Remote
 Settings
 <
 services
-/
+-
 remotesettings
 >
 and
