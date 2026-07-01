@@ -141,7 +141,7 @@ strategy
 =
 SelectorStrategy
 .
-ESPRESSO_BY_TEXT
+UIAUTOMATOR_WITH_TEXT
 value
 =
 "
