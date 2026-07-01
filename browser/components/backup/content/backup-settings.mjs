@@ -1094,15 +1094,6 @@ showModal
 (
 )
 ;
-this
-.
-restoreFromBackupEl
-?
-.
-resizeTextarea
-(
-)
-;
 }
 break
 ;

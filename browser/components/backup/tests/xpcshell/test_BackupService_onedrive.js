@@ -1134,6 +1134,11 @@ backupService
 .
 findBackupsInWellKnownLocations
 (
+{
+validateFile
+:
+false
+}
 )
 ;
 Assert
@@ -1364,6 +1369,11 @@ backupService
 .
 findBackupsInWellKnownLocations
 (
+{
+validateFile
+:
+false
+}
 )
 ;
 Assert
