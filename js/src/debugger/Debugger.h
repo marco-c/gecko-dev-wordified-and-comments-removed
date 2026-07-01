@@ -3440,7 +3440,7 @@ FrameFn
 >
 static
 void
-forEachOnStackOrSuspendedDebuggerFrame
+forEachOnStackOrSuspendedGeneratorDebuggerFrame
 (
 JSContext
 *
