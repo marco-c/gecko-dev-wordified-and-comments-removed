@@ -1093,6 +1093,7 @@ disable
 )
 ;
 }
+await
 LoginTestUtils
 .
 clearData
