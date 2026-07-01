@@ -614,13 +614,6 @@ MACRO
 (
 Objects
 MallocHeap
-objectsMallocHeapElementsAsmJS
-)
-\
-MACRO
-(
-Objects
-MallocHeap
 objectsMallocHeapGlobalData
 )
 \

@@ -638,17 +638,6 @@ cx
 const
 override
 ;
-JSObject
-*
-createObjectForAsmJS
-(
-JSContext
-*
-cx
-)
-const
-override
-;
 void
 addSizeOfMisc
 (
