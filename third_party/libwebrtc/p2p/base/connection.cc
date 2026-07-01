@@ -4503,7 +4503,6 @@ Size
 (
 )
 >
-=
 kSupportGoogPingVersionRequestIndex
 &
 &
@@ -8747,7 +8746,6 @@ Size
 (
 )
 >
-=
 kSupportGoogPingVersionResponseIndex
 )
 {
