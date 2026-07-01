@@ -12142,17 +12142,6 @@ docURI
 SchemeIs
 (
 "
-blob
-"
-)
-|
-|
-docURI
--
->
-SchemeIs
-(
-"
 chrome
 "
 )
