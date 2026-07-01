@@ -266,6 +266,13 @@ html
 ]
 [
 "
+test_canvas_readback_before_draw
+.
+html
+"
+]
+[
+"
 test_command_buffer_creation
 .
 html
