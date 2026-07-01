@@ -59,7 +59,16 @@ void
 assertDone
 (
 )
+{
+MOZ_ASSERT
+(
+inCycle_
+=
+=
+0
+)
 ;
+}
 Register
 tempReg
 (
