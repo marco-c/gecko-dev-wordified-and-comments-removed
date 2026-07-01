@@ -665,7 +665,7 @@ mute
 {
 this
 .
-browser
+controller
 .
 mute
 (
@@ -676,7 +676,7 @@ else
 {
 this
 .
-browser
+controller
 .
 unmute
 (

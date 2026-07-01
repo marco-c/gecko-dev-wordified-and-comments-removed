@@ -3943,6 +3943,12 @@ linkedPanel
 {
 browser
 .
+browsingContext
+?
+.
+mediaController
+?
+.
 unmute
 (
 )
@@ -3968,6 +3974,12 @@ linkedPanel
 )
 {
 browser
+.
+browsingContext
+?
+.
+mediaController
+?
 .
 mute
 (

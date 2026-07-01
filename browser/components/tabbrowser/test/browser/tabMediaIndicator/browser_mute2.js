@@ -36,6 +36,10 @@ default
 ;
 browser
 .
+browsingContext
+.
+mediaController
+.
 mute
 (
 )
@@ -69,6 +73,10 @@ test_on_browser2
 )
 ;
 browser
+.
+browsingContext
+.
+mediaController
 .
 unmute
 (
