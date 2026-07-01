@@ -461,7 +461,7 @@ iconsR
 .
 drawable
 .
-mozac_ic_sparkle_24
+mozac_ic_lightning_24
 summariesR
 .
 string
