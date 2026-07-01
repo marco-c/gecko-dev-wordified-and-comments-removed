@@ -15,3 +15,10 @@ test_heuristics
 py
 "
 ]
+[
+"
+test_profile_processor
+.
+py
+"
+]
