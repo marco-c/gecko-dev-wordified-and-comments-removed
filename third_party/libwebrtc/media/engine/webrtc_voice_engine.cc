@@ -3442,12 +3442,6 @@ CryptoOptions
 crypto_options
 )
 {
-RTC_DCHECK_RUN_ON
-(
-&
-worker_thread_checker_
-)
-;
 return
 std
 :
@@ -3499,12 +3493,6 @@ CryptoOptions
 crypto_options
 )
 {
-RTC_DCHECK_RUN_ON
-(
-&
-worker_thread_checker_
-)
-;
 return
 std
 :
