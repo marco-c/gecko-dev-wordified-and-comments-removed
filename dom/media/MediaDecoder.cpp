@@ -6438,6 +6438,8 @@ already_AddRefed
 <
 KnowsCompositor
 >
+&
+&
 >
 (
 "

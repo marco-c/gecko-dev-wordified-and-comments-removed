@@ -433,6 +433,8 @@ Endpoint
 <
 PVRManagerParent
 >
+&
+&
 >
 (
 "
@@ -674,6 +676,8 @@ Endpoint
 <
 PVRManagerParent
 >
+&
+&
 >
 (
 "

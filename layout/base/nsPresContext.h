@@ -3462,6 +3462,13 @@ DoUpdateHiddenByContentVisibilityForAnimations
 (
 )
 ;
+friend
+class
+nsRunnableMethod
+<
+nsPresContext
+>
+;
 void
 ThemeChangedInternal
 (

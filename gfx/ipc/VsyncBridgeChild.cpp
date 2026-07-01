@@ -139,6 +139,8 @@ Endpoint
 <
 PVsyncBridgeChild
 >
+&
+&
 >
 (
 "

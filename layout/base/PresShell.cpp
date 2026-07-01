@@ -30421,11 +30421,14 @@ return
 }
 RefPtr
 <
-CancelableRunnable
+nsRunnableMethod
+<
+PresShell
+>
 >
 event
 =
-NewCancelableRunnableMethod
+NewRunnableMethod
 (
 "
 PresShell

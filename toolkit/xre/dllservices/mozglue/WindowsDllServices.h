@@ -749,7 +749,10 @@ runnable
 (
 NewRunnableMethod
 <
+StoreCopyPassByRRef
+<
 EnhancedModuleLoadInfo
+>
 >
 (
 "
@@ -805,7 +808,10 @@ runnable
 (
 NewRunnableMethod
 <
+StoreCopyPassByRRef
+<
 ModuleLoadInfoVec
+>
 >
 (
 "

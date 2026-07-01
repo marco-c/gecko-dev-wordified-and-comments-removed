@@ -845,10 +845,12 @@ mPendingSheetCount
 ;
 nsRevocableEventPtr
 <
-mozilla
-:
-:
-CancelableRunnable
+nsRunnableMethod
+<
+nsContentSink
+void
+false
+>
 >
 mProcessLinkHeaderEvent
 ;

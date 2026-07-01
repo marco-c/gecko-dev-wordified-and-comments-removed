@@ -3316,9 +3316,14 @@ NS_IsMainThread
 )
 )
 {
-nsCOMPtr
+RefPtr
 <
-nsIRunnable
+nsRunnableMethod
+<
+StorageDBThread
+void
+false
+>
 >
 event
 =

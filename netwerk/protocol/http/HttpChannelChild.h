@@ -879,7 +879,10 @@ funcPtr
 )
 (
 )
-CancelableRunnable
+nsRunnableMethod
+<
+HttpChannelChild
+>
 *
 *
 retval
@@ -1032,7 +1035,10 @@ funcPtr
 )
 (
 )
-CancelableRunnable
+nsRunnableMethod
+<
+HttpChannelChild
+>
 *
 *
 retval

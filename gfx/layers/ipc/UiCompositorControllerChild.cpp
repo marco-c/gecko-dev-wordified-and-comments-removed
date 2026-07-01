@@ -332,6 +332,8 @@ Endpoint
 <
 PUiCompositorControllerChild
 >
+&
+&
 >
 (
 "

@@ -1022,9 +1022,12 @@ n
 this
 )
 ;
-nsCOMPtr
+RefPtr
 <
-nsIRunnable
+nsRunnableMethod
+<
+ZoomConstraintsClient
+>
 >
 event
 =

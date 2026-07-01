@@ -255,6 +255,8 @@ Endpoint
 <
 PCanvasManagerParent
 >
+&
+&
 >
 (
 "
