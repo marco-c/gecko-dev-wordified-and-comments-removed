@@ -34,14 +34,6 @@ car
 "
 macosx
 -
-custom
--
-car
-"
-    
-"
-macosx
--
 arm64
 -
 custom
