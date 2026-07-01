@@ -248,6 +248,9 @@ attributionActorUnregister
 unregister
 ;
 }
+safeForUntrustedWebProcess
+:
+true
 }
 MozNewTabRemoteRendererProtocol
 :

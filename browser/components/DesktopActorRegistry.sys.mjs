@@ -268,6 +268,9 @@ ended
 "
 ]
 }
+safeForUntrustedWebProcess
+:
+true
 }
 MozCachedOHTTP
 :
@@ -434,6 +437,9 @@ ex
 )
 ;
 }
+safeForUntrustedWebProcess
+:
+true
 }
 }
 ;
@@ -1146,6 +1152,9 @@ messageManagerGroups
 browsers
 "
 ]
+safeForUntrustedWebProcess
+:
+true
 }
 AboutTabCrashed
 :
@@ -2012,6 +2021,9 @@ blocked
 allFrames
 :
 true
+safeForUntrustedWebProcess
+:
+true
 }
 BrowserTab
 :
@@ -2043,6 +2055,9 @@ messageManagerGroups
 browsers
 "
 ]
+safeForUntrustedWebProcess
+:
+true
 }
 CanonicalURL
 :
@@ -2203,6 +2218,9 @@ ActorUnregistered
 ;
 }
 }
+safeForUntrustedWebProcess
+:
+true
 }
 ClickHandler
 :
@@ -2262,6 +2280,9 @@ true
 }
 }
 allFrames
+:
+true
+safeForUntrustedWebProcess
 :
 true
 }
@@ -2399,6 +2420,9 @@ middlemouse
 contentLoadURL
 "
 allFrames
+:
+true
+safeForUntrustedWebProcess
 :
 true
 }
@@ -2561,6 +2585,9 @@ true
 allFrames
 :
 true
+safeForUntrustedWebProcess
+:
+true
 }
 CustomKeys
 :
@@ -2697,6 +2724,9 @@ browsers
 allFrames
 :
 true
+safeForUntrustedWebProcess
+:
+true
 }
 DOMFullscreen
 :
@@ -2811,6 +2841,9 @@ browsers
 allFrames
 :
 true
+safeForUntrustedWebProcess
+:
+true
 }
 EncryptedMedia
 :
@@ -2872,6 +2905,9 @@ browsers
 "
 ]
 allFrames
+:
+true
+safeForUntrustedWebProcess
 :
 true
 }
@@ -2962,6 +2998,9 @@ false
 }
 }
 allFrames
+:
+true
+safeForUntrustedWebProcess
 :
 true
 }
@@ -3252,6 +3291,9 @@ maybeRegister
 )
 ;
 }
+safeForUntrustedWebProcess
+:
+true
 }
 LightweightTheme
 :
@@ -3612,6 +3654,9 @@ messageManagerGroups
 browsers
 "
 ]
+safeForUntrustedWebProcess
+:
+true
 }
 LinkPreview
 :
@@ -3670,6 +3715,9 @@ linkPreview
 .
 enabled
 "
+safeForUntrustedWebProcess
+:
+true
 }
 PageAssist
 :
@@ -3728,6 +3776,9 @@ pageAssist
 .
 enabled
 "
+safeForUntrustedWebProcess
+:
+true
 }
 PageInfo
 :
@@ -3755,6 +3806,9 @@ mjs
 allFrames
 :
 true
+safeForUntrustedWebProcess
+:
+true
 }
 PageInfoPreview
 :
@@ -3779,6 +3833,9 @@ sys
 mjs
 "
 }
+safeForUntrustedWebProcess
+:
+true
 }
 PageStyle
 :
@@ -3844,6 +3901,9 @@ browsers
 allFrames
 :
 true
+safeForUntrustedWebProcess
+:
+true
 }
 Pdfjs
 :
@@ -3891,6 +3951,9 @@ mjs
 "
 }
 allFrames
+:
+true
+safeForUntrustedWebProcess
 :
 true
 }
@@ -3954,6 +4017,9 @@ true
 }
 }
 allFrames
+:
+true
+safeForUntrustedWebProcess
 :
 true
 }
@@ -4028,6 +4094,9 @@ browsers
 "
 ]
 allFrames
+:
+true
+safeForUntrustedWebProcess
 :
 true
 }
@@ -4141,6 +4210,9 @@ true
 allFrames
 :
 true
+safeForUntrustedWebProcess
+:
+true
 }
 RefreshBlocker
 :
@@ -4199,6 +4271,9 @@ accessibility
 .
 blockautorefresh
 "
+safeForUntrustedWebProcess
+:
+true
 }
 ScreenshotsComponent
 :
@@ -4328,6 +4403,9 @@ component
 .
 enabled
 "
+safeForUntrustedWebProcess
+:
+true
 }
 ScreenshotsHelper
 :
@@ -4398,6 +4476,9 @@ component
 .
 enabled
 "
+safeForUntrustedWebProcess
+:
+true
 }
 SearchSERPTelemetry
 :
@@ -4510,6 +4591,9 @@ https
 *
 "
 ]
+safeForUntrustedWebProcess
+:
+true
 }
 ShieldFrame
 :
@@ -4585,6 +4669,9 @@ studies
 *
 "
 ]
+safeForUntrustedWebProcess
+:
+true
 }
 SpeechDispatcher
 :
@@ -4650,6 +4737,9 @@ browsers
 "
 ]
 allFrames
+:
+true
+safeForUntrustedWebProcess
 :
 true
 }
@@ -4795,6 +4885,9 @@ mjs
 allFrames
 :
 true
+safeForUntrustedWebProcess
+:
+true
 }
 UITour
 :
@@ -4878,6 +4971,9 @@ messageManagerGroups
 browsers
 "
 ]
+safeForUntrustedWebProcess
+:
+true
 }
 WebRTC
 :
@@ -4923,6 +5019,9 @@ mjs
 "
 }
 allFrames
+:
+true
+safeForUntrustedWebProcess
 :
 true
 }

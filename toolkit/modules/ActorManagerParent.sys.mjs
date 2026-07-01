@@ -217,6 +217,9 @@ sys
 mjs
 "
 }
+safeForUntrustedWebProcess
+:
+true
 }
 ContentPrefs
 :
@@ -263,6 +266,9 @@ sys
 mjs
 "
 }
+safeForUntrustedWebProcess
+:
+true
 }
 ExtensionContent
 :
@@ -289,6 +295,9 @@ mjs
 "
 }
 includeParent
+:
+true
+safeForUntrustedWebProcess
 :
 true
 }
@@ -827,6 +836,9 @@ httpsonlyerror
 allFrames
 :
 true
+safeForUntrustedWebProcess
+:
+true
 }
 AboutRestricted
 :
@@ -895,6 +907,9 @@ restricted
 allFrames
 :
 true
+safeForUntrustedWebProcess
+:
+true
 }
 AudioPlayback
 :
@@ -951,6 +966,9 @@ playback
 ]
 }
 allFrames
+:
+true
+safeForUntrustedWebProcess
 :
 true
 }
@@ -1039,6 +1057,9 @@ mjs
 allFrames
 :
 true
+safeForUntrustedWebProcess
+:
+true
 }
 Autoplay
 :
@@ -1094,6 +1115,9 @@ GloballyAutoplayBlocked
 }
 }
 allFrames
+:
+true
+safeForUntrustedWebProcess
 :
 true
 }
@@ -1159,6 +1183,9 @@ true
 allFrames
 :
 true
+safeForUntrustedWebProcess
+:
+true
 }
 BackgroundThumbnails
 :
@@ -1202,6 +1229,9 @@ messageManagerGroups
 thumbnails
 "
 ]
+safeForUntrustedWebProcess
+:
+true
 }
 BrowserElement
 :
@@ -1259,6 +1289,9 @@ DOMWindowClose
 allFrames
 :
 true
+safeForUntrustedWebProcess
+:
+true
 }
 Conduits
 :
@@ -1308,6 +1341,9 @@ mjs
 allFrames
 :
 true
+safeForUntrustedWebProcess
+:
+true
 }
 Controllers
 :
@@ -1355,6 +1391,9 @@ mjs
 "
 }
 allFrames
+:
+true
+safeForUntrustedWebProcess
 :
 true
 }
@@ -1647,6 +1686,9 @@ actor
 .
 enabled
 "
+safeForUntrustedWebProcess
+:
+true
 }
 CaptchaDetectionCommunication
 :
@@ -1694,6 +1736,9 @@ mjs
 "
 }
 allFrames
+:
+true
+safeForUntrustedWebProcess
 :
 true
 }
@@ -2014,6 +2059,9 @@ maybeRegister
 )
 ;
 }
+safeForUntrustedWebProcess
+:
+true
 }
 ExtFind
 :
@@ -2040,6 +2088,9 @@ mjs
 "
 }
 allFrames
+:
+true
+safeForUntrustedWebProcess
 :
 true
 }
@@ -2112,6 +2163,9 @@ browsers
 test
 "
 ]
+safeForUntrustedWebProcess
+:
+true
 }
 /
 /
@@ -2162,6 +2216,9 @@ mjs
 "
 }
 allFrames
+:
+true
+safeForUntrustedWebProcess
 :
 true
 }
@@ -2219,6 +2276,9 @@ DOMFormBeforeSubmit
 }
 }
 allFrames
+:
+true
+safeForUntrustedWebProcess
 :
 true
 }
@@ -2281,6 +2341,9 @@ false
 allFrames
 :
 true
+safeForUntrustedWebProcess
+:
+true
 }
 InlineSpellChecker
 :
@@ -2330,6 +2393,9 @@ mjs
 allFrames
 :
 true
+safeForUntrustedWebProcess
+:
+true
 }
 KeyPressEventModelChecker
 :
@@ -2370,6 +2436,9 @@ true
 }
 }
 allFrames
+:
+true
+safeForUntrustedWebProcess
 :
 true
 }
@@ -2482,6 +2551,9 @@ browser
 "
 "
 ]
+safeForUntrustedWebProcess
+:
+true
 }
 ManifestMessages
 :
@@ -2507,6 +2579,9 @@ sys
 mjs
 "
 }
+safeForUntrustedWebProcess
+:
+true
 }
 NetError
 :
@@ -2586,6 +2661,9 @@ neterror
 allFrames
 :
 true
+safeForUntrustedWebProcess
+:
+true
 }
 OpenSearchLoader
 :
@@ -2632,6 +2710,9 @@ messageManagerGroups
 opensearch
 "
 ]
+safeForUntrustedWebProcess
+:
+true
 }
 PageExtractor
 :
@@ -2744,6 +2825,9 @@ headless
 browsers
 "
 ]
+safeForUntrustedWebProcess
+:
+true
 }
 PopupAndRedirectBlocking
 :
@@ -2840,6 +2924,9 @@ false
 allFrames
 :
 true
+safeForUntrustedWebProcess
+:
+true
 }
 Printing
 :
@@ -2904,6 +2991,9 @@ true
 }
 }
 }
+safeForUntrustedWebProcess
+:
+true
 }
 PrintingSelection
 :
@@ -2930,6 +3020,9 @@ mjs
 "
 }
 allFrames
+:
+true
+safeForUntrustedWebProcess
 :
 true
 }
@@ -3024,6 +3117,9 @@ browsers
 allFrames
 :
 true
+safeForUntrustedWebProcess
+:
+true
 }
 TLSCertificateBinding
 :
@@ -3056,6 +3152,9 @@ messageManagerGroups
 browsers
 "
 ]
+safeForUntrustedWebProcess
+:
+true
 }
 /
 /
@@ -3135,6 +3234,9 @@ mjs
 "
 }
 allFrames
+:
+true
+safeForUntrustedWebProcess
 :
 true
 }
@@ -3225,6 +3327,9 @@ source
 allFrames
 :
 true
+safeForUntrustedWebProcess
+:
+true
 }
 WebChannel
 :
@@ -3288,6 +3393,9 @@ true
 allFrames
 :
 true
+safeForUntrustedWebProcess
+:
+true
 }
 Thumbnails
 :
@@ -3313,6 +3421,9 @@ sys
 mjs
 "
 }
+safeForUntrustedWebProcess
+:
+true
 }
 /
 /
@@ -3539,6 +3650,9 @@ isEnabled
 )
 ;
 }
+safeForUntrustedWebProcess
+:
+true
 }
 UAWidgets
 :
@@ -3580,6 +3694,9 @@ includeChrome
 :
 true
 allFrames
+:
+true
+safeForUntrustedWebProcess
 :
 true
 }
@@ -3649,6 +3766,9 @@ Disable
 }
 }
 allFrames
+:
+true
+safeForUntrustedWebProcess
 :
 true
 }
