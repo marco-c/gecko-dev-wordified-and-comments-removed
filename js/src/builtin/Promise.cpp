@@ -13590,15 +13590,12 @@ valueIsIterable
 )
 ;
 return
-index
-!
-=
-NOT_ARRAY
+isOptimizedArray_
 &
 &
 IsPackedArray
 (
-iterator
+iteratorOrArray_
 )
 ;
 }
