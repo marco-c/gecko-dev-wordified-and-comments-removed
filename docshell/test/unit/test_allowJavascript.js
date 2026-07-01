@@ -457,6 +457,9 @@ sys
 mjs
 "
 }
+safeForUntrustedWebProcess
+:
+true
 }
 )
 ;

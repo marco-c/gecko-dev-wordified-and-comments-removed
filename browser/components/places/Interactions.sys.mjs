@@ -1173,6 +1173,9 @@ messageManagerGroups
 browsers
 "
 ]
+safeForUntrustedWebProcess
+:
+true
 }
 )
 ;

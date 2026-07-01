@@ -1146,6 +1146,9 @@ sys
 mjs
 "
 }
+safeForUntrustedWebProcess
+:
+true
 }
 )
 ;
@@ -1199,6 +1202,9 @@ sys
 mjs
 "
 }
+safeForUntrustedWebProcess
+:
+true
 }
 )
 ;

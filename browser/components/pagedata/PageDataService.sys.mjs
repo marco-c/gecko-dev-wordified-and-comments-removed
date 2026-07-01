@@ -1532,6 +1532,9 @@ pageshow
 }
 }
 }
+safeForUntrustedWebProcess
+:
+true
 }
 )
 ;

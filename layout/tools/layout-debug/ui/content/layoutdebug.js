@@ -2559,6 +2559,9 @@ mjs
 allFrames
 :
 true
+safeForUntrustedWebProcess
+:
+true
 }
 )
 ;

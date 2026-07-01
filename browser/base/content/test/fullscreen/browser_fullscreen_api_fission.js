@@ -396,6 +396,9 @@ true
 allFrames
 :
 true
+safeForUntrustedWebProcess
+:
+true
 }
 )
 ;

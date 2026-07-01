@@ -390,6 +390,9 @@ true
 includeChrome
 :
 true
+safeForUntrustedWebProcess
+:
+true
 }
 )
 ;
@@ -481,6 +484,9 @@ true
 }
 }
 allFrames
+:
+true
+safeForUntrustedWebProcess
 :
 true
 }

@@ -2241,6 +2241,9 @@ DOMContentLoaded
 }
 }
 }
+safeForUntrustedWebProcess
+:
+true
 }
 )
 ;
@@ -4832,6 +4835,9 @@ sys
 mjs
 "
 }
+safeForUntrustedWebProcess
+:
+true
 }
 )
 ;

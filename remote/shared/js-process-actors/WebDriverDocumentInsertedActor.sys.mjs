@@ -188,6 +188,9 @@ inserted
 includeParent
 :
 true
+safeForUntrustedWebProcess
+:
+true
 }
 )
 ;

@@ -592,6 +592,9 @@ messageManagerGroups
 browsers
 "
 ]
+safeForUntrustedWebProcess
+:
+true
 }
 )
 ;

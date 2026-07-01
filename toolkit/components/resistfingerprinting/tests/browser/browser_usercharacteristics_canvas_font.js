@@ -63,6 +63,9 @@ sys
 mjs
 "
 }
+safeForUntrustedWebProcess
+:
+true
 }
 )
 ;

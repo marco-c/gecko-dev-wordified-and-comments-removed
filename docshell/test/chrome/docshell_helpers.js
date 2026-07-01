@@ -921,6 +921,9 @@ test
 "
 "
 ]
+safeForUntrustedWebProcess
+:
+true
 }
 )
 ;

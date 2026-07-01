@@ -52,6 +52,9 @@ sys
 .
 mjs
 }
+safeForUntrustedWebProcess
+:
+true
 }
 )
 ;

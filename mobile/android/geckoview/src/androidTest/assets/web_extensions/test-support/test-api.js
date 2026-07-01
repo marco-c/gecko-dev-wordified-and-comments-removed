@@ -105,6 +105,9 @@ mjs
 allFrames
 :
 true
+safeForUntrustedWebProcess
+:
+true
 }
 )
 ;
@@ -143,6 +146,9 @@ sys
 mjs
 "
 }
+safeForUntrustedWebProcess
+:
+true
 }
 )
 ;

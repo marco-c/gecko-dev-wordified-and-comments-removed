@@ -3895,6 +3895,9 @@ messageManagerGroups
 browsers
 "
 ]
+safeForUntrustedWebProcess
+:
+true
 }
 ;
 }
@@ -4001,6 +4004,9 @@ true
 allFrames
 :
 true
+safeForUntrustedWebProcess
+:
+true
 }
 ;
 /
@@ -4084,6 +4090,9 @@ true
 allFrames
 :
 true
+safeForUntrustedWebProcess
+:
+true
 }
 ;
 JSWINDOWACTORS
@@ -4154,6 +4163,9 @@ browsers
 allFrames
 :
 true
+safeForUntrustedWebProcess
+:
+true
 }
 ;
 JSWINDOWACTORS
@@ -4216,6 +4228,9 @@ player
 "
 ]
 allFrames
+:
+true
+safeForUntrustedWebProcess
 :
 true
 }
@@ -4290,6 +4305,9 @@ browsers
 "
 ]
 allFrames
+:
+true
+safeForUntrustedWebProcess
 :
 true
 }
@@ -4543,6 +4561,9 @@ includeChrome
 :
 true
 allFrames
+:
+true
+safeForUntrustedWebProcess
 :
 true
 }

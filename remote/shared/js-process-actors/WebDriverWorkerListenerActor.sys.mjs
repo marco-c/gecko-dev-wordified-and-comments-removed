@@ -296,6 +296,9 @@ mjs
 includeParent
 :
 true
+safeForUntrustedWebProcess
+:
+true
 }
 )
 ;
