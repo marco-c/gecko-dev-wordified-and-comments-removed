@@ -2758,6 +2758,10 @@ mSkippedComposite
 =
 false
 ;
+const
+bool
+mIsRootWebRenderBridgeParent
+;
 DataMutex
 <
 nsClassHashtable
