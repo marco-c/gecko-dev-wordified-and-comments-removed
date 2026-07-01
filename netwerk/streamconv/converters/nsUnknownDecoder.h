@@ -242,7 +242,7 @@ aRequest
 )
 ;
 bool
-LastDitchSniff
+SniffBinary
 (
 nsIRequest
 *
