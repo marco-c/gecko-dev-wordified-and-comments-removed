@@ -1342,7 +1342,7 @@ mDoc
 nullptr
 ;
 }
-void
+bool
 ApplyCache
 (
 CacheUpdateType
