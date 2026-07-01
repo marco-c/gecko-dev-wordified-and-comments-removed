@@ -1398,6 +1398,15 @@ IPProtection
 :
 RefreshUsage
 "
+"
+GeckoView
+:
+IPProtection
+:
+ServerList
+:
+GetCountryList
+"
 ]
 }
 )
