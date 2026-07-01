@@ -818,7 +818,7 @@ into
 )
 (
 "
-USER
+CHOWN_OUTPUT
 "
 .
 into
