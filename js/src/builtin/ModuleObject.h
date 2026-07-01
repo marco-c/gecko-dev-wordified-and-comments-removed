@@ -2435,11 +2435,6 @@ ExportNameVector
 exports
 )
 ;
-void
-clearNamespaceOnFailure
-(
-)
-;
 static
 bool
 createEnvironment
