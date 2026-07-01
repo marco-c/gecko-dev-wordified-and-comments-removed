@@ -5128,6 +5128,16 @@ assignedSlot
 null
 "
 "
+attributeStyleMap
+:
+StylePropertyMap
+{
+size
+:
+0
+}
+"
+"
 attributes
 :
 NamedNodeMap
