@@ -140,6 +140,15 @@ tests
 -
 wdspec
 "
+"
+web
+-
+platform
+-
+tests
+-
+aam
+"
 ]
 with
 Files

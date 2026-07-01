@@ -3531,6 +3531,12 @@ wdspec
 "
 in
 test_types
+or
+"
+aamtest
+"
+in
+test_types
 :
             
 geckodriver_path

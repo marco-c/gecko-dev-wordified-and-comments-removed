@@ -188,13 +188,13 @@ gtest
 "
 marionette
 -
-unittest
+integration
 "
     
 "
 marionette
 -
-integration
+unittest
 "
     
 "
@@ -333,6 +333,16 @@ platform
 tests
 -
 wdspec
+"
+    
+"
+web
+-
+platform
+-
+tests
+-
+aam
 "
     
 "
