@@ -14,7 +14,7 @@ TOOLCHAIN
 =
 1
 .
-76
+96
 .
 0
 if
@@ -233,7 +233,7 @@ PATH
 #
 -
 -
-out
+artifact
 -
 dir
 is
@@ -257,7 +257,7 @@ target
 TARGET
 -
 -
-out
+artifact
 -
 dir
 =
