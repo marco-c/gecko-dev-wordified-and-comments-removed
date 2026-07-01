@@ -3057,7 +3057,7 @@ removeWrapper
 p
 )
 ;
-NukeRemovedCrossCompartmentWrapper
+NukeCrossCompartmentWrapper
 (
 cx
 wobj
