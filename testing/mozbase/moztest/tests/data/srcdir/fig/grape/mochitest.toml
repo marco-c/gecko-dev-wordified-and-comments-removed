@@ -3,11 +3,9 @@ DEFAULT
 ]
 [
 "
-src
-/
-TestInstrumentationA
+test_MochitestA
 .
-java
+html
 "
 ]
 subsuite
