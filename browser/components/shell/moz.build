@@ -339,6 +339,11 @@ WindowsUIElement
 cpp
 "
 "
+WindowsUIOverlayImage
+.
+cpp
+"
+"
 WindowsUserChoice
 .
 cpp
@@ -389,6 +394,9 @@ crypt32
 "
 "
 propsys
+"
+"
+windowscodecs
 "
 ]
 FINAL_TARGET_FILES
