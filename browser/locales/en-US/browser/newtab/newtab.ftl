@@ -543,6 +543,16 @@ Add
 Shortcut
 newtab
 -
+shortcuts
+-
+pinned
+-
+area
+=
+Pinned
+Area
+newtab
+-
 topsites
 -
 title
