@@ -5719,7 +5719,7 @@ marker
 -
 schema
 .
-js
+ts
 >
 _
 in

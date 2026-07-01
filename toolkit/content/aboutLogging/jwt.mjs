@@ -102,7 +102,7 @@ utils
 /
 jwt
 .
-js
+ts
 /
 /
 and
@@ -112,7 +112,7 @@ use
 typescript
 jsdocs
 instead
-flow
+TS
 types
 (
 even

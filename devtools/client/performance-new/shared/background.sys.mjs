@@ -488,7 +488,7 @@ web
 -
 channel
 .
-js
+ts
 const
 CURRENT_WEBCHANNEL_VERSION
 =
