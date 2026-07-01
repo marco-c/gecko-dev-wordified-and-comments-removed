@@ -11804,7 +11804,7 @@ filenameHash_
 mozilla
 :
 :
-HashStringKnownLength
+HashString
 (
 filename_
 .

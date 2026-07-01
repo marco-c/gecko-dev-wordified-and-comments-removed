@@ -48,27 +48,6 @@ GK_ATOM
 )
 "
 \
-s
-*
-(
-0x
-[
-0
--
-9a
--
-f
-]
-+
-)
-\
-s
-*
-[
-^
-]
-*
-\
 )
 '
     
@@ -159,7 +138,6 @@ __init__
 self
 ident
 value
-hash
 )
 :
         
@@ -189,12 +167,6 @@ self
 value
 =
 value
-        
-self
-.
-hash
-=
-hash
 def
 collect_atoms
 (
@@ -282,28 +254,18 @@ append
                 
 Atom
 (
-                    
 result
 .
 group
 (
 1
 )
-                    
 result
 .
 group
 (
 2
 )
-                    
-result
-.
-group
-(
-3
-)
-                
 )
             
 )

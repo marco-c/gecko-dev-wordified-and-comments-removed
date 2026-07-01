@@ -306,6 +306,10 @@ mozilla
 HashString
 (
 aKey
+strlen
+(
+aKey
+)
 )
 ;
 }

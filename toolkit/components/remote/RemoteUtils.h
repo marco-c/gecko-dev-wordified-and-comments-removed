@@ -16,6 +16,13 @@ h
 #
 include
 "
+nsHashKeys
+.
+h
+"
+#
+include
+"
 nsString
 .
 h
@@ -174,10 +181,6 @@ mozilla
 HashString
 (
 aClassName
-.
-get
-(
-)
 )
 ;
 aClassName
