@@ -6435,6 +6435,14 @@ ip_address
 /
 rtc_base
 :
+net_helpers
+"
+"
+.
+.
+/
+rtc_base
+:
 net_test_helpers
 "
 "
