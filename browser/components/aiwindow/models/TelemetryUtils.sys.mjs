@@ -1095,6 +1095,16 @@ service_type
 "
 ai
 "
+purpose
+:
+promptRecord
+.
+purpose
+?
+?
+"
+chat
+"
 extraHeaders
 }
 )
