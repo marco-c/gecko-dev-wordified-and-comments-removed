@@ -526,8 +526,11 @@ CreateTestEnvironment
 .
 time
 =
-&
 time_controller
+.
+GetClock
+(
+)
 }
 )
 ;
