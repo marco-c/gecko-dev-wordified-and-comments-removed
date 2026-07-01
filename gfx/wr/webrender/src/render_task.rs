@@ -5337,7 +5337,6 @@ GpuBufferBuilderF
 data_stores
 :
 &
-mut
 DataStores
 _uv_rect_kind
 :
