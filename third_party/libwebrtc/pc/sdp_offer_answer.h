@@ -661,6 +661,7 @@ VideoOptions
 video_options
 (
 )
+const
 {
 return
 video_options_
@@ -3003,14 +3004,9 @@ const
 AudioOptions
 audio_options_
 ;
+const
 VideoOptions
 video_options_
-RTC_GUARDED_BY
-(
-signaling_thread
-(
-)
-)
 ;
 std
 :
