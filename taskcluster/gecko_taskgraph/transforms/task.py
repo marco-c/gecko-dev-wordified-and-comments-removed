@@ -98,6 +98,14 @@ mozilla_taskgraph
 .
 util
 .
+attributes
+import
+release_level
+from
+mozilla_taskgraph
+.
+util
+.
 signed_artifacts
 import
 get_signed_artifacts
@@ -215,7 +223,6 @@ util
 attributes
 import
 TRUNK_PROJECTS
-release_level
 from
 gecko_taskgraph
 .
@@ -8513,9 +8520,21 @@ level
 :
 release_level
 (
+                            
+config
+.
+graph_config
+[
+"
+release
+-
+branches
+"
+]
 config
 .
 params
+                        
 )
                         
 "

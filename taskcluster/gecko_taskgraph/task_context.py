@@ -1,4 +1,12 @@
 from
+mozilla_taskgraph
+.
+util
+.
+attributes
+import
+release_level
+from
 taskgraph
 .
 util
@@ -6,14 +14,6 @@ util
 task_context
 import
 custom_context
-from
-gecko_taskgraph
-.
-util
-.
-attributes
-import
-release_level
 custom_context
 (
 "
@@ -32,6 +32,7 @@ task
     
 return
 {
+        
 "
 release
 -
@@ -40,8 +41,21 @@ level
 :
 release_level
 (
+            
+config
+.
+graph_config
+[
+"
+release
+-
+branches
+"
+]
 config
 .
 params
+        
 )
+    
 }
