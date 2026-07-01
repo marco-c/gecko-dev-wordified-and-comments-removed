@@ -83,6 +83,13 @@ js
 ]
 [
 "
+test_PolicySchemaValidator
+.
+js
+"
+]
+[
+"
 test_addon_update
 .
 js
