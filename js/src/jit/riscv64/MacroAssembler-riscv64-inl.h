@@ -475,7 +475,7 @@ scratch
 scratch
 label
 cond
-LongJump
+ShortJump
 )
 ;
 }
@@ -536,7 +536,7 @@ lhs
 rhs
 label
 cond
-LongJump
+ShortJump
 )
 ;
 }
@@ -570,7 +570,7 @@ scratch
 scratch
 label
 cond
-LongJump
+ShortJump
 )
 ;
 }
@@ -2849,7 +2849,7 @@ lhs
 rhs
 label
 cond
-LongJump
+ShortJump
 )
 ;
 }
@@ -2876,7 +2876,7 @@ lhs
 imm
 label
 cond
-LongJump
+ShortJump
 )
 ;
 }
@@ -2926,7 +2926,7 @@ scratch2
 rhs
 label
 cond
-LongJump
+ShortJump
 )
 ;
 }
@@ -2976,7 +2976,7 @@ scratch2
 rhs
 label
 cond
-LongJump
+ShortJump
 )
 ;
 }
@@ -3026,7 +3026,7 @@ scratch2
 rhs
 label
 cond
-LongJump
+ShortJump
 )
 ;
 }
@@ -3076,7 +3076,7 @@ scratch2
 rhs
 label
 cond
-LongJump
+ShortJump
 )
 ;
 }
@@ -3126,7 +3126,7 @@ scratch2
 rhs
 label
 cond
-LongJump
+ShortJump
 )
 ;
 }
@@ -3177,7 +3177,7 @@ scratch2
 imm
 label
 cond
-LongJump
+ShortJump
 )
 ;
 }
@@ -3867,7 +3867,7 @@ cc
 frs1
 frs2
 L
-LongJump
+ShortJump
 )
 ;
 }
@@ -3894,7 +3894,7 @@ cc
 frs1
 frs2
 L
-LongJump
+ShortJump
 )
 ;
 }
@@ -4072,7 +4072,7 @@ lhs
 rhs
 label
 cond
-LongJump
+ShortJump
 )
 ;
 }
@@ -4099,7 +4099,7 @@ lhs
 rhs
 label
 cond
-LongJump
+ShortJump
 )
 ;
 }
@@ -4150,7 +4150,7 @@ lhs
 lhs
 label
 cond
-LongJump
+ShortJump
 )
 ;
 }
@@ -4162,7 +4162,7 @@ lhs
 rhs
 label
 cond
-LongJump
+ShortJump
 )
 ;
 }
@@ -4190,7 +4190,7 @@ lhs
 rhs
 label
 cond
-LongJump
+ShortJump
 )
 ;
 }
@@ -4217,7 +4217,7 @@ lhs
 rhs
 label
 cond
-LongJump
+ShortJump
 )
 ;
 }
@@ -4741,7 +4741,7 @@ scratch2
 scratch2
 label
 cond
-LongJump
+ShortJump
 )
 ;
 }
@@ -4823,7 +4823,7 @@ scratch2
 scratch2
 label
 cond
-LongJump
+ShortJump
 )
 ;
 }
@@ -6840,7 +6840,7 @@ lhs
 rhs
 label
 cond
-LongJump
+ShortJump
 )
 ;
 }
@@ -6874,7 +6874,7 @@ scratch
 scratch
 label
 cond
-LongJump
+ShortJump
 )
 ;
 }
@@ -6950,7 +6950,7 @@ scratch
 scratch
 label
 cond
-LongJump
+ShortJump
 )
 ;
 }
@@ -7025,7 +7025,7 @@ scratch
 scratch
 label
 cond
-LongJump
+ShortJump
 )
 ;
 }
