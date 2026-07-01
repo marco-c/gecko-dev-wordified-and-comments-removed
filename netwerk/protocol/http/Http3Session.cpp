@@ -12314,6 +12314,12 @@ mState
 !
 =
 CONNECTED
+&
+&
+NS_FAILED
+(
+mError
+)
 )
 {
 mBeforeConnectedError
