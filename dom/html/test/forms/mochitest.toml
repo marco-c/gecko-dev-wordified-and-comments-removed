@@ -378,6 +378,13 @@ html
 ]
 [
 "
+test_input_datetime_timepicker_disabled
+.
+html
+"
+]
+[
+"
 test_input_defaultValue
 .
 html
