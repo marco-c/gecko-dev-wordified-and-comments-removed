@@ -1235,7 +1235,7 @@ context
 .
 components
 .
-aiControlsFeatureBlock
+aiFeatureBlockStorage
 .
 isBlocked
 .
