@@ -7575,7 +7575,7 @@ this
 .
 controller
 .
-_userSelectionBehavior
+userSelectionBehavior
 =
 =
 "
