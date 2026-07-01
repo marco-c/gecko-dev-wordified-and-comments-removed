@@ -734,10 +734,6 @@ if
 (
 !
 is_asan
-&
-&
-!
-rtc_rusty_base64
 )
 {
 #
@@ -3773,10 +3769,6 @@ rtc_include_tests
 &
 !
 is_asan
-&
-&
-!
-rtc_rusty_base64
 )
 {
 rtc_executable
