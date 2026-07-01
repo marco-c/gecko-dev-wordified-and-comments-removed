@@ -431,7 +431,7 @@ layout
 .
 space
 .
-dynamic200
+static200
 vertical
 =
 FirefoxTheme
