@@ -334,6 +334,11 @@ WindowsDefaultBrowser
 cpp
 "
 "
+WindowsUIElement
+.
+cpp
+"
+"
 WindowsUserChoice
 .
 cpp
