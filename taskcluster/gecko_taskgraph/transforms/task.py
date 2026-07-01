@@ -61,8 +61,6 @@ functools
 import
 hashlib
 import
-json
-import
 os
 import
 re
@@ -9924,12 +9922,6 @@ file
     
 locales
 =
-list
-(
-json
-.
-loads
-(
 open
 (
 locales_file
@@ -9938,11 +9930,13 @@ locales_file
 read
 (
 )
-)
 .
-keys
+split
 (
-)
+"
+\
+n
+"
 )
     
 task_def

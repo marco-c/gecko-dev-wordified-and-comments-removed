@@ -110,6 +110,15 @@ browser
 /
 locales
 /
+all
+-
+locales
+path
+:
+browser
+/
+locales
+/
 shipped
 -
 locales
