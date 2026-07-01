@@ -7920,7 +7920,7 @@ round_edges
 .
 select
 (
-prim_rect
+prim_clip_rect
 .
 round
 (
