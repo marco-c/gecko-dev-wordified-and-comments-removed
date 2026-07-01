@@ -42000,6 +42000,10 @@ PreBarrierReg
 )
 ;
 }
+sync
+(
+)
+;
 Label
 done
 ;
