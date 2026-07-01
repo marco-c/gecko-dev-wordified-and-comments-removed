@@ -300,6 +300,15 @@ browser
 /
 preferences
 /
+FocusHistory
+.
+mjs
+content
+/
+browser
+/
+preferences
+/
 config
 /
 about
