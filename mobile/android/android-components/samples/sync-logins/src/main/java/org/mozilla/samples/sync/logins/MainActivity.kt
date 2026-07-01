@@ -305,18 +305,6 @@ fxa
 .
 manager
 .
-SCOPE_SESSION
-import
-mozilla
-.
-components
-.
-service
-.
-fxa
-.
-manager
-.
 SCOPE_SYNC
 import
 mozilla
@@ -577,7 +565,6 @@ PeriodicSyncConfig
 setOf
 (
 SCOPE_SYNC
-SCOPE_SESSION
 )
 )
 }
