@@ -190,6 +190,13 @@ js
 ]
 [
 "
+test_PrivacyFeed
+.
+js
+"
+]
+[
+"
 test_RemoteRenderer
 .
 js
