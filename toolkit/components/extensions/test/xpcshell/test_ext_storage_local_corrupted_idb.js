@@ -335,7 +335,7 @@ equal
 ExtensionStorageLocalIDB
 .
 disabledAutoResetOnCorrupted
-true
+false
 "
 Expect
 auto
@@ -347,7 +347,7 @@ IDB
 storage
 to
 be
-disabled
+enabled
 by
 default
 "
