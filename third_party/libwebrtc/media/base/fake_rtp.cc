@@ -38,6 +38,15 @@ h
 #
 include
 "
+api
+/
+rtp_header_extension_id
+.
+h
+"
+#
+include
+"
 rtc_base
 /
 checks
@@ -53,6 +62,9 @@ gtest
 .
 h
 "
+namespace
+webrtc
+{
 void
 CompareHeaderExtensions
 (
@@ -74,7 +86,7 @@ std
 :
 vector
 <
-int
+RtpHeaderExtensionId
 >
 &
 encrypted_headers
@@ -279,7 +291,10 @@ absl
 c_linear_search
 (
 encrypted_headers
+RtpHeaderExtensionId
+(
 id
+)
 )
 )
 {
@@ -341,6 +356,7 @@ extension_data2
 +
 +
 ;
+}
 }
 }
 }

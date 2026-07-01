@@ -148,6 +148,15 @@ include
 "
 api
 /
+rtp_header_extension_id
+.
+h
+"
+#
+include
+"
+api
+/
 rtp_transport_factory
 .
 h
@@ -1462,7 +1471,7 @@ std
 :
 vector
 <
-int
+RtpHeaderExtensionId
 >
 &
 encrypted_extension_ids
@@ -1481,7 +1490,7 @@ std
 :
 vector
 <
-int
+RtpHeaderExtensionId
 >
 >
 MergeEncryptedHeaderExtensionIdsForBundles
@@ -1497,7 +1506,7 @@ std
 :
 vector
 <
-int
+RtpHeaderExtensionId
 >
 GetEncryptedHeaderExtensionIds
 (

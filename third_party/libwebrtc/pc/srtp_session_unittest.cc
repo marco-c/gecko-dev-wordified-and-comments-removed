@@ -49,6 +49,15 @@ h
 #
 include
 "
+api
+/
+rtp_header_extension_id
+.
+h
+"
+#
+include
+"
 media
 /
 base
@@ -187,7 +196,7 @@ std
 :
 vector
 <
-int
+RtpHeaderExtensionId
 >
 kEncryptedHeaderExtensionIds
 ;
@@ -244,7 +253,7 @@ rtcp_len_
 =
 sizeof
 (
-kRtcpReport
+kFakeRtcpReport
 )
 ;
 rtp_packet_
@@ -279,7 +288,7 @@ rtcp_packet_
 .
 SetData
 (
-kRtcpReport
+kFakeRtcpReport
 rtcp_len_
 )
 ;
@@ -385,7 +394,7 @@ std
 :
 memcmp
 (
-kRtcpReport
+kFakeRtcpReport
 rtcp_packet_
 .
 data
@@ -483,7 +492,7 @@ size
 )
 sizeof
 (
-kRtcpReport
+kFakeRtcpReport
 )
 )
 ;
@@ -495,7 +504,7 @@ std
 :
 memcmp
 (
-kRtcpReport
+kFakeRtcpReport
 rtcp_packet_
 .
 data

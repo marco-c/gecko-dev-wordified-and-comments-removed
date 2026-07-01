@@ -37,6 +37,15 @@ include
 "
 api
 /
+rtp_header_extension_id
+.
+h
+"
+#
+include
+"
+api
+/
 sequence_checker
 .
 h
@@ -166,7 +175,7 @@ std
 :
 vector
 <
-int
+RtpHeaderExtensionId
 >
 &
 extension_ids
@@ -190,7 +199,7 @@ std
 :
 vector
 <
-int
+RtpHeaderExtensionId
 >
 &
 extension_ids
@@ -214,7 +223,7 @@ std
 :
 vector
 <
-int
+RtpHeaderExtensionId
 >
 &
 extension_ids
@@ -238,7 +247,7 @@ std
 :
 vector
 <
-int
+RtpHeaderExtensionId
 >
 &
 extension_ids
@@ -322,7 +331,7 @@ std
 :
 vector
 <
-int
+RtpHeaderExtensionId
 >
 &
 extension_ids
@@ -348,7 +357,7 @@ std
 :
 vector
 <
-int
+RtpHeaderExtensionId
 >
 &
 extension_ids
@@ -374,7 +383,7 @@ std
 :
 vector
 <
-int
+RtpHeaderExtensionId
 >
 &
 extension_ids

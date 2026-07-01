@@ -172,6 +172,15 @@ include
 "
 api
 /
+rtp_header_extension_id
+.
+h
+"
+#
+include
+"
+api
+/
 rtp_parameters
 .
 h
@@ -3889,7 +3898,7 @@ std
 :
 vector
 <
-int
+RtpHeaderExtensionId
 >
 >
 merged_encrypted_extension_ids_by_bundle
@@ -4271,7 +4280,7 @@ std
 :
 vector
 <
-int
+RtpHeaderExtensionId
 >
 extension_ids
 ;
@@ -6212,7 +6221,7 @@ std
 :
 vector
 <
-int
+RtpHeaderExtensionId
 >
 &
 encrypted_extension_ids
@@ -6285,7 +6294,7 @@ std
 :
 vector
 <
-int
+RtpHeaderExtensionId
 >
 JsepTransportController
 :
@@ -6327,7 +6336,7 @@ std
 :
 vector
 <
-int
+RtpHeaderExtensionId
 >
 (
 )
@@ -6338,7 +6347,7 @@ std
 :
 vector
 <
-int
+RtpHeaderExtensionId
 >
 encrypted_header_extension_ids
 ;
@@ -6411,7 +6420,7 @@ std
 :
 vector
 <
-int
+RtpHeaderExtensionId
 >
 >
 JsepTransportController
@@ -6457,7 +6466,7 @@ std
 :
 vector
 <
-int
+RtpHeaderExtensionId
 >
 >
 merged_encrypted_extension_ids_by_bundle
@@ -6503,7 +6512,7 @@ std
 :
 vector
 <
-int
+RtpHeaderExtensionId
 >
 &
 merged_ids
@@ -6518,7 +6527,7 @@ std
 :
 vector
 <
-int
+RtpHeaderExtensionId
 >
 extension_ids
 =
@@ -6529,7 +6538,7 @@ content_info
 ;
 for
 (
-int
+RtpHeaderExtensionId
 id
 :
 extension_ids

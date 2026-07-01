@@ -47,6 +47,15 @@ vector
 #
 include
 "
+api
+/
+rtp_header_extension_id
+.
+h
+"
+#
+include
+"
 modules
 /
 rtp_rtcp
@@ -839,7 +848,7 @@ ExtensionInfo
 *
 FindExtensionInfo
 (
-int
+RtpHeaderExtensionId
 id
 )
 const
@@ -848,7 +857,7 @@ ExtensionInfo
 &
 FindOrCreateExtensionInfo
 (
-int
+RtpHeaderExtensionId
 id
 )
 ;
@@ -861,7 +870,7 @@ uint8_t
 >
 AllocateRawExtension
 (
-int
+RtpHeaderExtensionId
 id
 size_t
 length

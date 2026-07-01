@@ -118,6 +118,15 @@ include
 "
 api
 /
+rtp_header_extension_id
+.
+h
+"
+#
+include
+"
+api
+/
 scoped_refptr
 .
 h
@@ -6547,7 +6556,7 @@ std
 :
 vector
 <
-int
+RtpHeaderExtensionId
 >
 recv_encrypted_headers1_
 ;
@@ -6556,7 +6565,7 @@ std
 :
 vector
 <
-int
+RtpHeaderExtensionId
 >
 recv_encrypted_headers2_
 ;

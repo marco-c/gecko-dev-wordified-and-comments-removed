@@ -69,6 +69,15 @@ include
 "
 api
 /
+rtp_header_extension_id
+.
+h
+"
+#
+include
+"
+api
+/
 rtp_parameters
 .
 h
@@ -623,7 +632,7 @@ RtpHeaderExtensionRecorder
 RTCError
 AddMapping
 (
-int
+RtpHeaderExtensionId
 id
 absl
 :
@@ -636,7 +645,7 @@ encrypt
 ;
 RTCErrorOr
 <
-int
+RtpHeaderExtensionId
 >
 LookupId
 (
@@ -679,7 +688,7 @@ std
 string
 bool
 >
-int
+RtpHeaderExtensionId
 >
 uri_to_id_
 ;
@@ -696,7 +705,7 @@ std
 string
 bool
 >
-int
+RtpHeaderExtensionId
 >
 checkpoint_uri_to_id_
 ;
@@ -721,7 +730,7 @@ RtpHeaderExtensionPicker
 }
 RTCErrorOr
 <
-int
+RtpHeaderExtensionId
 >
 SuggestMapping
 (
@@ -732,7 +741,7 @@ string_view
 uri
 bool
 encrypt
-int
+RtpHeaderExtensionId
 preferred_id
 RtpTransceiverIdDomain
 id_domain
@@ -745,7 +754,7 @@ excluder
 RTCError
 AddMapping
 (
-int
+RtpHeaderExtensionId
 id
 absl
 :
@@ -770,7 +779,7 @@ uri
 bool
 encrypt
 ;
-int
+RtpHeaderExtensionId
 id
 ;
 }
@@ -786,7 +795,7 @@ entries_
 ;
 flat_set
 <
-int
+RtpHeaderExtensionId
 >
 seen_ids_
 ;

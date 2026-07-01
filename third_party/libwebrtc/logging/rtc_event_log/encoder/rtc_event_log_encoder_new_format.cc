@@ -1138,6 +1138,10 @@ set_audio_level_id
 extension
 .
 id
+.
+value
+(
+)
 )
 ;
 }
@@ -1163,6 +1167,10 @@ set_transmission_time_offset_id
 extension
 .
 id
+.
+value
+(
+)
 )
 ;
 }
@@ -1188,6 +1196,10 @@ set_absolute_send_time_id
 extension
 .
 id
+.
+value
+(
+)
 )
 ;
 }
@@ -1213,6 +1225,10 @@ set_transport_sequence_number_id
 extension
 .
 id
+.
+value
+(
+)
 )
 ;
 }
@@ -1238,6 +1254,10 @@ set_video_rotation_id
 extension
 .
 id
+.
+value
+(
+)
 )
 ;
 }
@@ -1263,6 +1283,10 @@ set_dependency_descriptor_id
 extension
 .
 id
+.
+value
+(
+)
 )
 ;
 }

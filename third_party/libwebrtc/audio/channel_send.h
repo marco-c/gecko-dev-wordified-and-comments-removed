@@ -134,6 +134,15 @@ include
 "
 api
 /
+rtp_header_extension_id
+.
+h
+"
+#
+include
+"
+api
+/
 scoped_refptr
 .
 h
@@ -377,9 +386,7 @@ virtual
 void
 SetSendAudioLevelIndicationStatus
 (
-bool
-enable
-int
+RtpHeaderExtensionId
 id
 )
 =

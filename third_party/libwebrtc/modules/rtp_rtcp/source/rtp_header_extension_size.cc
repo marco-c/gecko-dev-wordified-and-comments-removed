@@ -21,6 +21,15 @@ include
 "
 api
 /
+rtp_header_extension_id
+.
+h
+"
+#
+include
+"
+api
+/
 rtp_parameters
 .
 h
@@ -91,7 +100,7 @@ extension
 extensions
 )
 {
-int
+RtpHeaderExtensionId
 id
 =
 registered_extensions
@@ -119,7 +128,7 @@ if
 (
 id
 >
-RtpExtension
+RtpHeaderExtensionId
 :
 :
 kOneByteHeaderExtensionMaxId

@@ -76,6 +76,15 @@ include
 "
 api
 /
+rtp_header_extension_id
+.
+h
+"
+#
+include
+"
+api
+/
 transport
 /
 ecn_marking
@@ -279,15 +288,6 @@ int
 kRtpAuthTagLen
 =
 10
-;
-const
-auto
-&
-kRtcpReportForTest
-=
-:
-:
-kRtcpReport
 ;
 class
 DtlsSrtpTransportTest
@@ -940,7 +940,7 @@ rtcp_len
 =
 sizeof
 (
-kRtcpReportForTest
+kFakeRtcpReport
 )
 ;
 size_t
@@ -966,7 +966,7 @@ packet_size
 CopyOnWriteBuffer
 rtcp_packet1to2
 (
-kRtcpReportForTest
+kFakeRtcpReport
 rtcp_len
 packet_size
 )
@@ -974,7 +974,7 @@ packet_size
 CopyOnWriteBuffer
 rtcp_packet2to1
 (
-kRtcpReportForTest
+kFakeRtcpReport
 rtcp_len
 packet_size
 )
@@ -1032,7 +1032,7 @@ last_recv_rtcp_packet
 data
 (
 )
-kRtcpReportForTest
+kFakeRtcpReport
 rtcp_len
 )
 )
@@ -1098,7 +1098,7 @@ last_recv_rtcp_packet
 data
 (
 )
-kRtcpReportForTest
+kFakeRtcpReport
 rtcp_len
 )
 )
@@ -1125,7 +1125,7 @@ std
 :
 vector
 <
-int
+RtpHeaderExtensionId
 >
 &
 encrypted_header_ids
@@ -2768,7 +2768,7 @@ std
 :
 vector
 <
-int
+RtpHeaderExtensionId
 >
 encrypted_headers
 ;

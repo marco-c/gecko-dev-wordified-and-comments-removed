@@ -3646,6 +3646,14 @@ rtc_event_log_output_file
 /
 api
 :
+rtp_header_extension_id
+"
+"
+.
+.
+/
+api
+:
 rtp_headers
 "
 "
