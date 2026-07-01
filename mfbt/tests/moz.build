@@ -231,6 +231,9 @@ TestSplayTree
 TestTextUtils
 "
 "
+TestTiedFields
+"
+"
 TestTypedEnum
 "
 "

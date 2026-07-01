@@ -87,15 +87,6 @@ include
 "
 mozilla
 /
-ParamTraits_TiedFields
-.
-h
-"
-#
-include
-"
-mozilla
-/
 dom
 /
 MFCDMSerializers
