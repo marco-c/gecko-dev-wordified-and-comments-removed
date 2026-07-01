@@ -36,6 +36,15 @@ h
 #
 include
 "
+mozilla
+/
+Utf16
+.
+h
+"
+#
+include
+"
 nsBidiUtils
 .
 h
@@ -749,7 +758,10 @@ aCh
 )
 {
 return
-IS_SURROGATE
+mozilla
+:
+:
+IsSurrogate
 (
 aCh
 )

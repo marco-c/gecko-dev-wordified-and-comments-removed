@@ -152,6 +152,15 @@ h
 #
 include
 "
+mozilla
+/
+Utf16
+.
+h
+"
+#
+include
+"
 AndroidBuild
 .
 h
@@ -1213,7 +1222,10 @@ kNotoColorEmoji
 }
 if
 (
-IS_IN_BMP
+mozilla
+:
+:
+IsInBMP
 (
 aCh
 )

@@ -14,11 +14,11 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 a11y
-{
-namespace
+:
+:
 DOMtoATK
 {
 void
@@ -700,7 +700,5 @@ get
 )
 )
 ;
-}
-}
 }
 }

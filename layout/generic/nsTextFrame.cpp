@@ -15861,7 +15861,7 @@ i
 length
 &
 &
-NS_IS_SURROGATE_PAIR
+IsSurrogatePair
 (
 text
 [
@@ -15879,7 +15879,7 @@ i
 uint32_t
 ch
 =
-SURROGATE_TO_UCS4
+SurrogateToUCS4
 (
 text
 [
@@ -17872,7 +17872,7 @@ true
 }
 if
 (
-NS_IS_HIGH_SURROGATE
+IsHighSurrogate
 (
 ch
 )
@@ -20836,7 +20836,7 @@ i
 ;
 if
 (
-NS_IS_LOW_SURROGATE
+IsLowSurrogate
 (
 ch
 )
@@ -20861,7 +20861,7 @@ i
 ;
 if
 (
-NS_IS_HIGH_SURROGATE
+IsHighSurrogate
 (
 hi
 )
@@ -20869,7 +20869,7 @@ hi
 {
 ch
 =
-SURROGATE_TO_UCS4
+SurrogateToUCS4
 (
 hi
 ch
@@ -48164,7 +48164,7 @@ false
 }
 if
 (
-NS_IS_HIGH_SURROGATE
+IsHighSurrogate
 (
 ch
 )
@@ -48961,9 +48961,6 @@ mCharIndex
 )
 ;
 return
-mozilla
-:
-:
 IsPunctuationForWordSelect
 (
 ch

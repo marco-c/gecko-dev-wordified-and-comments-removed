@@ -57,17 +57,6 @@ h
 #
 include
 "
-mozilla
-/
-intl
-/
-UnicodeProperties
-.
-h
-"
-#
-include
-"
 nsUnicodeProperties
 .
 h
@@ -75,7 +64,9 @@ h
 #
 include
 "
-nsCharTraits
+mozilla
+/
+Utf16
 .
 h
 "
@@ -1071,7 +1062,7 @@ mPos
 0
 &
 &
-NS_IS_SURROGATE_PAIR
+IsSurrogatePair
 (
 mText
 [
@@ -1085,7 +1076,7 @@ ch
 {
 ch
 =
-SURROGATE_TO_UCS4
+SurrogateToUCS4
 (
 mText
 [

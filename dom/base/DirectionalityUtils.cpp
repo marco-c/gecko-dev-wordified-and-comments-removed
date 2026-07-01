@@ -32,6 +32,15 @@ include
 "
 mozilla
 /
+Utf16
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 CharacterDataBuffer
@@ -162,13 +171,6 @@ h
 include
 "
 nsINode
-.
-h
-"
-#
-include
-"
-nsUnicodeProperties
 .
 h
 "
@@ -655,7 +657,7 @@ start
 end
 &
 &
-NS_IS_SURROGATE_PAIR
+IsSurrogatePair
 (
 ch
 *
@@ -665,7 +667,7 @@ start
 {
 ch
 =
-SURROGATE_TO_UCS4
+SurrogateToUCS4
 (
 ch
 *
@@ -682,7 +684,7 @@ current
 if
 (
 !
-IS_SURROGATE
+IsSurrogate
 (
 ch
 )

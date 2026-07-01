@@ -571,6 +571,15 @@ h
 #
 include
 "
+mozilla
+/
+Utf16
+.
+h
+"
+#
+include
+"
 nsContentUtils
 .
 h
@@ -8233,7 +8242,10 @@ IsEmpty
 )
 &
 &
-IS_SURROGATE
+mozilla
+:
+:
+IsSurrogate
 (
 aKeyboardEvent
 -

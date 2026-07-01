@@ -18,6 +18,15 @@ TextEvents
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Utf16
+.
+h
+"
 namespace
 mozilla
 {
@@ -372,7 +381,10 @@ mCharCode
 }
 if
 (
-IS_IN_BMP
+mozilla
+:
+:
+IsInBMP
 (
 charCode
 )

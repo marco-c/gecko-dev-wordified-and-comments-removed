@@ -44,10 +44,23 @@ include
 "
 mozilla
 /
+Utf16
+.
+h
+"
+#
+include
+"
+mozilla
+/
 StaticPrefs_layout
 .
 h
 "
+using
+namespace
+mozilla
+;
 static
 const
 uint8_t
@@ -212,9 +225,6 @@ aChar
 ;
 }
 return
-mozilla
-:
-:
 intl
 :
 :
@@ -766,9 +776,6 @@ aChar
 ]
 ;
 return
-mozilla
-:
-:
 unicode
 :
 :
@@ -855,7 +862,7 @@ aLen
 1
 &
 &
-NS_IS_SURROGATE_PAIR
+IsSurrogatePair
 (
 ch
 aIn
@@ -869,15 +876,12 @@ i
 {
 ch
 =
-mozilla
-:
-:
 unicode
 :
 :
 GetFoldedcase
 (
-SURROGATE_TO_UCS4
+SurrogateToUCS4
 (
 ch
 aIn
@@ -892,7 +896,7 @@ i
 NS_ASSERTION
 (
 !
-IS_IN_BMP
+IsInBMP
 (
 ch
 )
@@ -915,7 +919,7 @@ i
 +
 ]
 =
-H_SURROGATE
+HighSurrogate
 (
 ch
 )
@@ -925,7 +929,7 @@ aOut
 i
 ]
 =
-L_SURROGATE
+LowSurrogate
 (
 ch
 )
@@ -965,9 +969,6 @@ aChar
 ;
 }
 return
-mozilla
-:
-:
 unicode
 :
 :
@@ -1022,7 +1023,7 @@ Length
 1
 &
 &
-NS_IS_SURROGATE_PAIR
+IsSurrogatePair
 (
 ch
 aString
@@ -1036,7 +1037,7 @@ i
 {
 ch
 =
-SURROGATE_TO_UCS4
+SurrogateToUCS4
 (
 ch
 aString
@@ -1049,9 +1050,6 @@ i
 ;
 if
 (
-mozilla
-:
-:
 unicode
 :
 :
@@ -1074,9 +1072,6 @@ else
 {
 ch
 =
-mozilla
-:
-:
 unicode
 :
 :
@@ -1088,7 +1083,7 @@ ch
 NS_ASSERTION
 (
 !
-IS_IN_BMP
+IsInBMP
 (
 ch
 )
@@ -1111,7 +1106,7 @@ i
 +
 +
 1
-H_SURROGATE
+HighSurrogate
 (
 ch
 )
@@ -1125,7 +1120,7 @@ i
 +
 +
 1
-L_SURROGATE
+LowSurrogate
 (
 ch
 )
@@ -1137,9 +1132,6 @@ continue
 }
 if
 (
-mozilla
-:
-:
 unicode
 :
 :
@@ -1423,7 +1415,7 @@ aLen
 1
 &
 &
-NS_IS_SURROGATE_PAIR
+IsSurrogatePair
 (
 ch
 aIn
@@ -1437,9 +1429,6 @@ i
 {
 ch
 =
-mozilla
-:
-:
 intl
 :
 :
@@ -1448,7 +1437,7 @@ UnicodeProperties
 :
 ToLower
 (
-SURROGATE_TO_UCS4
+SurrogateToUCS4
 (
 ch
 aIn
@@ -1463,7 +1452,7 @@ i
 NS_ASSERTION
 (
 !
-IS_IN_BMP
+IsInBMP
 (
 ch
 )
@@ -1486,7 +1475,7 @@ i
 +
 ]
 =
-H_SURROGATE
+HighSurrogate
 (
 ch
 )
@@ -1496,7 +1485,7 @@ aOut
 i
 ]
 =
-L_SURROGATE
+LowSurrogate
 (
 ch
 )
@@ -1608,9 +1597,6 @@ aChar
 ;
 }
 return
-mozilla
-:
-:
 intl
 :
 :
@@ -1670,7 +1656,7 @@ aLen
 1
 &
 &
-NS_IS_SURROGATE_PAIR
+IsSurrogatePair
 (
 ch
 aIn
@@ -1684,9 +1670,6 @@ i
 {
 ch
 =
-mozilla
-:
-:
 intl
 :
 :
@@ -1695,7 +1678,7 @@ UnicodeProperties
 :
 ToUpper
 (
-SURROGATE_TO_UCS4
+SurrogateToUCS4
 (
 ch
 aIn
@@ -1710,7 +1693,7 @@ i
 NS_ASSERTION
 (
 !
-IS_IN_BMP
+IsInBMP
 (
 ch
 )
@@ -1733,7 +1716,7 @@ i
 +
 ]
 =
-H_SURROGATE
+HighSurrogate
 (
 ch
 )
@@ -1743,7 +1726,7 @@ aOut
 i
 ]
 =
-L_SURROGATE
+LowSurrogate
 (
 ch
 )
@@ -1786,9 +1769,6 @@ aChar
 ;
 }
 return
-mozilla
-:
-:
 unicode
 :
 :
@@ -1860,7 +1840,7 @@ len
 1
 &
 &
-NS_IS_SURROGATE_PAIR
+IsSurrogatePair
 (
 c1
 *
@@ -1870,7 +1850,7 @@ a
 {
 c1
 =
-SURROGATE_TO_UCS4
+SurrogateToUCS4
 (
 c1
 *
@@ -1881,7 +1861,7 @@ a
 ;
 if
 (
-NS_IS_SURROGATE_PAIR
+IsSurrogatePair
 (
 c2
 *
@@ -1891,7 +1871,7 @@ b
 {
 c2
 =
-SURROGATE_TO_UCS4
+SurrogateToUCS4
 (
 c2
 *
@@ -2086,9 +2066,6 @@ str
 ;
 c
 =
-mozilla
-:
-:
 intl
 :
 :
@@ -2181,9 +2158,6 @@ str
 ;
 c
 =
-mozilla
-:
-:
 intl
 :
 :
@@ -2291,9 +2265,6 @@ str
 ;
 c
 =
-mozilla
-:
-:
 intl
 :
 :
@@ -2550,9 +2521,6 @@ break
 if
 (
 !
-mozilla
-:
-:
 unicode
 :
 :

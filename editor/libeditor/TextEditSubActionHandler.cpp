@@ -233,6 +233,15 @@ h
 #
 include
 "
+mozilla
+/
+Utf16
+.
+h
+"
+#
+include
+"
 nsIContent
 .
 h
@@ -1999,7 +2008,7 @@ GetComposition
 )
 -
 >
-XPOffsetInTextNode
+ClampedStartOffsetInTextNode
 (
 )
 ;
@@ -4140,7 +4149,10 @@ newInsertionStringLength
 ;
 if
 (
-NS_IS_SURROGATE_PAIR
+mozilla
+:
+:
+IsSurrogatePair
 (
 maybeHighSurrogate
 maybeLowSurrogate

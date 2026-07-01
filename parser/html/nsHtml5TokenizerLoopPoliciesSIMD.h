@@ -24,6 +24,15 @@ htmlaccelNotInline
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Utf16
+.
+h
+"
 struct
 nsHtml5FastestPolicySIMD
 {
@@ -1872,7 +1881,10 @@ if
 MOZ_LIKELY
 (
 !
-NS_IS_LOW_SURROGATE
+mozilla
+:
+:
+IsLowSurrogate
 (
 c
 )

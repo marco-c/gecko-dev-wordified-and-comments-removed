@@ -19,6 +19,15 @@ include
 "
 mozilla
 /
+Utf16
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 Element
@@ -97,7 +106,10 @@ maybeTruncatedLength
 {
 if
 (
-NS_IS_LOW_SURROGATE
+mozilla
+:
+:
+IsLowSurrogate
 (
 aSample
 [

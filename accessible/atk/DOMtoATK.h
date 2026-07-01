@@ -25,7 +25,9 @@ h
 #
 include
 "
-nsCharTraits
+mozilla
+/
+Utf16
 .
 h
 "
@@ -38,11 +40,11 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 a11y
-{
-namespace
+:
+:
 DOMtoATK
 {
 gchar
@@ -262,7 +264,7 @@ aOffset
 ;
 if
 (
-NS_IS_LOW_SURROGATE
+IsLowSurrogate
 (
 character
 )
@@ -274,7 +276,7 @@ return
 }
 if
 (
-NS_IS_HIGH_SURROGATE
+IsHighSurrogate
 (
 character
 )
@@ -302,7 +304,7 @@ aOffset
 if
 (
 !
-NS_IS_LOW_SURROGATE
+IsLowSurrogate
 (
 characterLow
 )
@@ -313,7 +315,7 @@ return
 ;
 }
 return
-SURROGATE_TO_UCS4
+SurrogateToUCS4
 (
 character
 characterLow
@@ -323,8 +325,6 @@ characterLow
 return
 character
 ;
-}
-}
 }
 }
 #
