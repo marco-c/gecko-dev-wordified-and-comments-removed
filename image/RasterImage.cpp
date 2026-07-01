@@ -6926,6 +6926,19 @@ LoadHasBeenDecoded
 )
 )
 {
+if
+(
+aStatus
+.
+mFinished
+&
+&
+!
+aStatus
+.
+mHadError
+)
+{
 mAnimationState
 -
 >
@@ -6933,6 +6946,7 @@ NotifyDecodeComplete
 (
 )
 ;
+}
 IntRect
 rect
 =
