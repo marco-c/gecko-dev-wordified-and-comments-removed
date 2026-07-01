@@ -799,6 +799,10 @@ cleanupFunction
 )
 ;
 }
+forceGC
+(
+)
+;
 }
 )
 ;
