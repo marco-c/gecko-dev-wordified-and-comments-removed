@@ -4284,6 +4284,8 @@ AddSample
 StatsSample
 (
 1000
+.
+0
 *
 buffer_level_bits
 /
