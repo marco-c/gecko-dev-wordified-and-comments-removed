@@ -51,6 +51,13 @@ nativeTheme
 "
 Field
 "
+"
+forcedColors
+"
+:
+"
+Menu
+"
 }
 }
 "
@@ -316,6 +323,13 @@ nativeTheme
 :
 "
 FieldText
+"
+"
+forcedColors
+"
+:
+"
+MenuText
 "
 }
 }

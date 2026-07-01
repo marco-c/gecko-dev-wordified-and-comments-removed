@@ -3285,6 +3285,11 @@ nativeTheme
 "
 Field
 "
+forcedColors
+:
+"
+Menu
+"
 platform
 :
 {
@@ -23561,6 +23566,11 @@ nativeTheme
 :
 "
 FieldText
+"
+forcedColors
+:
+"
+MenuText
 "
 platform
 :
@@ -44352,6 +44362,11 @@ nativeTheme
 "
 Field
 "
+forcedColors
+:
+"
+Menu
+"
 platform
 :
 {
@@ -44733,6 +44748,11 @@ nativeTheme
 :
 "
 FieldText
+"
+forcedColors
+:
+"
+MenuText
 "
 platform
 :
