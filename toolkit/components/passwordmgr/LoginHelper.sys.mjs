@@ -10576,7 +10576,6 @@ so
 log
 out
 .
-await
 token
 .
 logout
@@ -10651,7 +10650,6 @@ the
 primary
 password
 .
-await
 token
 .
 login

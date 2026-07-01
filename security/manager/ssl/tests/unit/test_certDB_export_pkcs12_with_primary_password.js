@@ -234,9 +234,6 @@ return
 null
 ;
 }
-add_task
-(
-async
 function
 run_test
 (
@@ -303,7 +300,6 @@ Ci
 nsIPKCS11Token
 )
 ;
-await
 token
 .
 changePassword
@@ -315,7 +311,6 @@ password
 "
 )
 ;
-await
 token
 .
 logout
@@ -409,7 +404,6 @@ now
 "
 )
 ;
-await
 token
 .
 logout
@@ -508,7 +502,6 @@ remove
 false
 )
 ;
-await
 token
 .
 logout
@@ -611,5 +604,3 @@ export
 )
 ;
 }
-)
-;

@@ -28,6 +28,13 @@ h
 #
 include
 "
+nsNSSHelper
+.
+h
+"
+#
+include
+"
 nsString
 .
 h
@@ -67,8 +74,6 @@ slot
 PKCS11Token
 (
 )
-=
-default
 ;
 nsresult
 Init
@@ -121,6 +126,12 @@ mIsInternalKeyToken
 ;
 int
 mSeries
+;
+nsCOMPtr
+<
+nsIInterfaceRequestor
+>
+mUIContext
 ;
 nsresult
 GetAttributeHelper

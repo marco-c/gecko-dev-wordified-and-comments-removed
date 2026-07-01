@@ -293,6 +293,13 @@ h
 #
 include
 "
+nsNSSHelper
+.
+h
+"
+#
+include
+"
 nsPrintfCString
 .
 h

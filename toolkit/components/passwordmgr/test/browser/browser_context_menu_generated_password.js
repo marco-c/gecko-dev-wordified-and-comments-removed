@@ -407,7 +407,6 @@ test_fill_hidden_by_locked_primary_password
 (
 )
 {
-await
 LoginTestUtils
 .
 primaryPassword
@@ -519,7 +518,6 @@ hidePopup
 }
 )
 ;
-await
 LoginTestUtils
 .
 primaryPassword

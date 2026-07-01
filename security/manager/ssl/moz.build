@@ -340,6 +340,11 @@ nsNSSComponent
 h
 "
 "
+nsNSSHelper
+.
+h
+"
+"
 nsRandomGenerator
 .
 h

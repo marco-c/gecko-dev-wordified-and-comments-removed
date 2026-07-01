@@ -86,6 +86,13 @@ h
 #
 include
 "
+nsNSSHelper
+.
+h
+"
+#
+include
+"
 secerr
 .
 h

@@ -424,7 +424,6 @@ true
 }
 )
 ;
-await
 mpToken
 .
 changePassword
@@ -470,7 +469,6 @@ true
 }
 )
 ;
-await
 mpToken
 .
 changePassword

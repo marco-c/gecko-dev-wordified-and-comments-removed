@@ -482,7 +482,6 @@ token
 "
 )
 ;
-await
 testToken
 .
 login

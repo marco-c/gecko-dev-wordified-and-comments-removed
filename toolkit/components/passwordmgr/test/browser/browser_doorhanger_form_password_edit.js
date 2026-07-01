@@ -1376,7 +1376,6 @@ testData
 isLoggedIn
 )
 {
-await
 LoginTestUtils
 .
 primaryPassword
@@ -1442,7 +1441,6 @@ testData
 isLoggedIn
 )
 {
-await
 LoginTestUtils
 .
 primaryPassword

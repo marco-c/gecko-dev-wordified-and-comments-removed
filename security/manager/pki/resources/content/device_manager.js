@@ -158,7 +158,6 @@ case
 login_button
 "
 :
-await
 doLogin
 (
 )
@@ -170,7 +169,6 @@ case
 logout_button
 "
 :
-await
 doLogout
 (
 )
@@ -1698,7 +1696,6 @@ item
 )
 ;
 }
-async
 function
 doLogin
 (
@@ -1719,7 +1716,6 @@ getToken
 ;
 try
 {
-await
 selected_token
 .
 login
@@ -1808,7 +1804,6 @@ enableButtons
 )
 ;
 }
-async
 function
 doLogout
 (
@@ -1829,7 +1824,6 @@ getToken
 ;
 try
 {
-await
 selected_token
 .
 logout

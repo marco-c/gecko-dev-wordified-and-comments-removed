@@ -2046,7 +2046,6 @@ syncedtabs
 "
 )
 ;
-await
 LoginTestUtils
 .
 primaryPassword
@@ -2270,7 +2269,6 @@ visible
 "
 )
 ;
-await
 LoginTestUtils
 .
 primaryPassword

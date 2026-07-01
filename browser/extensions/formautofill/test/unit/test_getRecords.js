@@ -1410,14 +1410,12 @@ Ci
 nsIPKCS11Token
 )
 ;
-await
 token
 .
 reset
 (
 )
 ;
-await
 token
 .
 changePassword

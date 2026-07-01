@@ -140,9 +140,6 @@ nsIWindowWatcher
 )
 }
 ;
-add_task
-(
-async
 function
 run_test
 (
@@ -217,7 +214,6 @@ Ci
 nsIPKCS11Token
 )
 ;
-await
 token
 .
 changePassword
@@ -229,7 +225,6 @@ hunter2
 "
 )
 ;
-await
 token
 .
 logout
@@ -300,7 +295,6 @@ numPrompts
 =
 0
 ;
-await
 token
 .
 logout
@@ -367,5 +361,3 @@ twice
 )
 ;
 }
-)
-;
