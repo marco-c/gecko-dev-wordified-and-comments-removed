@@ -2763,6 +2763,11 @@ fat
 aar
 /
 opt
+disable
+-
+optimization
+:
+true
 run
 :
 gradle
@@ -3248,6 +3253,11 @@ aar
 shippable
 /
 opt
+disable
+-
+optimization
+:
+true
 run
 :
 gradle
