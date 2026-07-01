@@ -214,6 +214,8 @@ aDrawTargetForTightBoundingBox
 Spacing
 *
 aSpacing
+nscoord
+aLetterSpacing
 mozilla
 :
 :

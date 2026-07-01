@@ -788,6 +788,16 @@ mWordSpacing
 mTextAutospace
 ;
 }
+nscoord
+LetterSpacing
+(
+)
+const
+{
+return
+mLetterSpacing
+;
+}
 protected
 :
 void

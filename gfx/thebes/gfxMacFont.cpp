@@ -923,6 +923,8 @@ aRefDrawTarget
 Spacing
 *
 aSpacing
+nscoord
+aLetterSpacing
 gfx
 :
 :
@@ -947,6 +949,7 @@ aEnd
 aBoundingBoxType
 aRefDrawTarget
 aSpacing
+aLetterSpacing
 aOrientation
 )
 ;

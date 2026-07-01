@@ -9739,7 +9739,7 @@ GetFontSizeScaleFactor
 }
 static
 nscoord
-LetterSpacing
+ResolveLetterSpacing
 (
 nsIFrame
 *
@@ -9827,7 +9827,7 @@ ToAppUnits
 }
 static
 nscoord
-WordSpacing
+ResolveWordSpacing
 (
 nsIFrame
 *
@@ -10760,7 +10760,7 @@ StyleFont
 nscoord
 letterSpacing1
 =
-LetterSpacing
+ResolveLetterSpacing
 (
 aFrame1
 *
@@ -10770,7 +10770,7 @@ textStyle1
 nscoord
 letterSpacing2
 =
-LetterSpacing
+ResolveLetterSpacing
 (
 aFrame2
 *
@@ -13277,7 +13277,7 @@ PresContext
 )
 fontStyle
 textStyle
-LetterSpacing
+ResolveLetterSpacing
 (
 firstFrame
 *
@@ -18341,7 +18341,7 @@ aLength
 )
 mWordSpacing
 (
-WordSpacing
+ResolveWordSpacing
 (
 aFrame
 *
@@ -18350,7 +18350,7 @@ aTextStyle
 )
 mLetterSpacing
 (
-LetterSpacing
+ResolveLetterSpacing
 (
 aFrame
 *
@@ -18516,7 +18516,7 @@ GetContentLength
 )
 mWordSpacing
 (
-WordSpacing
+ResolveWordSpacing
 (
 aFrame
 *
@@ -18525,7 +18525,7 @@ mTextStyle
 )
 mLetterSpacing
 (
-LetterSpacing
+ResolveLetterSpacing
 (
 aFrame
 *
@@ -52728,6 +52728,11 @@ Range
 (
 start
 flowEndInTextRun
+)
+provider
+.
+LetterSpacing
+(
 )
 )
 ;
