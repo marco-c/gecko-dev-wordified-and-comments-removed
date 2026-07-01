@@ -490,6 +490,11 @@ deltaMode
 =
 0
 ;
+boolean
+momentum
+=
+false
+;
 }
 ;
 partial
