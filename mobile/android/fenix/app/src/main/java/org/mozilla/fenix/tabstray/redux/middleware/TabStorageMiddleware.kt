@@ -3051,9 +3051,6 @@ inactive
 -
 >
 {
-normalTabCount
-+
-+
 inactiveTabs
 .
 add

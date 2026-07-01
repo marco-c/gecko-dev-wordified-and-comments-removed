@@ -2029,7 +2029,7 @@ NormalTabsState
 (
 tabCount
 =
-1
+0
 )
 inactiveTabs
 =
