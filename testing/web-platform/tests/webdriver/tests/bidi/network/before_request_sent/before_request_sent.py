@@ -8,6 +8,8 @@ import
 urlencode
 import
 pytest
+import
+pytest_asyncio
 from
 webdriver
 .
@@ -53,6 +55,30 @@ pytest
 mark
 .
 asyncio
+pytest_asyncio
+.
+fixture
+(
+autouse
+=
+True
+)
+async
+def
+delete_cookies
+(
+bidi_session
+)
+:
+    
+await
+bidi_session
+.
+storage
+.
+delete_cookies
+(
+)
 async
 def
 test_subscribe_status
@@ -409,6 +435,35 @@ top_context
 context
 "
 ]
+            
+*
+*
+(
+{
+"
+userContext
+"
+:
+top_context
+[
+"
+userContext
+"
+]
+}
+if
+"
+userContext
+"
+in
+events
+[
+0
+]
+else
+{
+}
+)
         
 }
     
@@ -448,6 +503,35 @@ frame_context
 context
 "
 ]
+            
+*
+*
+(
+{
+"
+userContext
+"
+:
+top_context
+[
+"
+userContext
+"
+]
+}
+if
+"
+userContext
+"
+in
+events
+[
+1
+]
+else
+{
+}
+)
         
 }
     
@@ -1298,14 +1382,6 @@ path
 "
                 
 "
-sameSite
-"
-:
-"
-default
-"
-                
-"
 secure
 "
 :
@@ -1497,14 +1573,6 @@ path
 "
                 
 "
-sameSite
-"
-:
-"
-default
-"
-                
-"
 secure
 "
 :
@@ -1561,14 +1629,6 @@ path
 :
 "
 /
-"
-                
-"
-sameSite
-"
-:
-"
-default
 "
                 
 "
@@ -1647,15 +1707,6 @@ redirectCount
 0
 }
     
-)
-    
-await
-bidi_session
-.
-storage
-.
-delete_cookies
-(
 )
 async
 def
@@ -1910,14 +1961,6 @@ support
 "
                 
 "
-sameSite
-"
-:
-"
-default
-"
-                
-"
 secure
 "
 :
@@ -1993,15 +2036,6 @@ redirectCount
 0
 }
     
-)
-    
-await
-bidi_session
-.
-storage
-.
-delete_cookies
-(
 )
 async
 def

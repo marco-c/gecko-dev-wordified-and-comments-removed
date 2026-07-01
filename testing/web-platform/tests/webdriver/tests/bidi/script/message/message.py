@@ -357,6 +357,37 @@ top_context
 context
 "
 ]
+            
+*
+*
+(
+{
+"
+userContext
+"
+:
+top_context
+[
+"
+userContext
+"
+]
+}
+if
+"
+userContext
+"
+in
+event
+[
+"
+source
+"
+]
+else
+{
+}
+)
         
 }
     

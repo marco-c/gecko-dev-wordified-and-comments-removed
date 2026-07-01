@@ -51,6 +51,10 @@ context
 =
 None
     
+user_context
+=
+None
+    
 stacktrace
 =
 None
@@ -226,6 +230,30 @@ context
 =
 =
 context
+    
+if
+user_context
+is
+not
+None
+and
+"
+userContext
+"
+in
+source
+:
+        
+assert
+source
+[
+"
+userContext
+"
+]
+=
+=
+user_context
 def
 assert_console_entry
 (
@@ -257,6 +285,10 @@ realm
 any_string
     
 context
+=
+None
+    
+user_context
 =
 None
     
@@ -292,6 +324,10 @@ realm
 context
 =
 context
+        
+user_context
+=
+user_context
         
 stacktrace
 =
@@ -351,6 +387,10 @@ context
 =
 None
     
+userContext
+=
+None
+    
 stacktrace
 =
 None
@@ -387,6 +427,10 @@ stacktrace
 context
 =
 context
+        
+user_context
+=
+userContext
 )
     
 recursive_compare

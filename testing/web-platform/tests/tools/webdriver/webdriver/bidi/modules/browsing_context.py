@@ -653,6 +653,26 @@ context
 str
 )
         
+if
+"
+userContext
+"
+in
+result
+:
+            
+assert
+isinstance
+(
+result
+[
+"
+userContext
+"
+]
+str
+)
+        
 return
 result
     

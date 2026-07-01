@@ -214,6 +214,14 @@ top_context
 context
 "
 ]
+user_context
+=
+top_context
+[
+"
+userContext
+"
+]
 )
 pytest
 .
@@ -854,6 +862,14 @@ top_context
 context
 "
 ]
+user_context
+=
+top_context
+[
+"
+userContext
+"
+]
 )
     
 new_context
@@ -907,6 +923,23 @@ wait_for_future_safe
 on_entry_added
 )
     
+new_user_context
+=
+new_context
+[
+"
+userContext
+"
+]
+if
+"
+userContext
+"
+in
+new_context
+else
+None
+    
 assert_console_entry
 (
 event_data
@@ -923,6 +956,9 @@ new_context
 context
 "
 ]
+user_context
+=
+new_user_context
 )
 async
 def
@@ -1085,6 +1121,14 @@ top_context
 [
 "
 context
+"
+]
+user_context
+=
+top_context
+[
+"
+userContext
 "
 ]
     
@@ -1251,6 +1295,14 @@ top_context
 context
 "
 ]
+user_context
+=
+top_context
+[
+"
+userContext
+"
+]
 )
     
 on_entry_added
@@ -1302,6 +1354,14 @@ frame_context
 [
 "
 context
+"
+]
+user_context
+=
+frame_context
+[
+"
+userContext
 "
 ]
 )

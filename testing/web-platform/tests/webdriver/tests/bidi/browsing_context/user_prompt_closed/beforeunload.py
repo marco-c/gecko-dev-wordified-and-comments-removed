@@ -240,6 +240,32 @@ type
 "
 beforeunload
 "
+        
+*
+*
+(
+{
+"
+userContext
+"
+:
+new_tab
+[
+"
+userContext
+"
+]
+}
+if
+"
+userContext
+"
+in
+event
+else
+{
+}
+)
     
 }
     

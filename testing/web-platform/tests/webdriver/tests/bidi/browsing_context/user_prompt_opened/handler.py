@@ -148,6 +148,32 @@ handler
 "
 :
 expected_handler
+            
+*
+*
+(
+{
+"
+userContext
+"
+:
+new_tab
+[
+"
+userContext
+"
+]
+}
+if
+"
+userContext
+"
+in
+event
+else
+{
+}
+)
         
 }
         

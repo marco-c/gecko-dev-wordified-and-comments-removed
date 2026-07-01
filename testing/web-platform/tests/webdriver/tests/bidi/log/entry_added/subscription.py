@@ -534,6 +534,14 @@ new_tab
 context
 "
 ]
+user_context
+=
+new_tab
+[
+"
+userContext
+"
+]
 )
     
 assert_base_entry
@@ -553,6 +561,14 @@ new_tab
 context
 "
 ]
+user_context
+=
+new_tab
+[
+"
+userContext
+"
+]
 )
     
 assert_base_entry
@@ -570,6 +586,14 @@ new_tab
 [
 "
 context
+"
+]
+user_context
+=
+new_tab
+[
+"
+userContext
 "
 ]
 )
@@ -644,6 +668,14 @@ new_context
 [
 "
 context
+"
+]
+user_context
+=
+new_tab
+[
+"
+userContext
 "
 ]
 )

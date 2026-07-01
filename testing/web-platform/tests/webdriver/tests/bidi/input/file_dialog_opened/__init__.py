@@ -11,6 +11,7 @@ assert_file_dialog_opened_event
 (
 event
 context
+user_context
 multiple
 =
 any_bool
@@ -30,6 +31,27 @@ context
 '
 :
 context
+        
+*
+*
+(
+{
+'
+userContext
+'
+:
+user_context
+}
+if
+'
+userContext
+'
+in
+event
+else
+{
+}
+)
         
 '
 element

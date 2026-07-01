@@ -173,6 +173,15 @@ context
 "
 ]
         
+user_context
+=
+top_context
+[
+"
+userContext
+"
+]
+        
 realm
 =
 result

@@ -160,6 +160,32 @@ message
 "
 :
 any_string
+            
+*
+*
+(
+{
+"
+userContext
+"
+:
+new_tab
+[
+"
+userContext
+"
+]
+}
+if
+"
+userContext
+"
+in
+event
+else
+{
+}
+)
         
 }
         

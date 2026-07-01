@@ -380,6 +380,15 @@ top_context
 context
 "
 ]
+        
+user_context
+=
+top_context
+[
+"
+userContext
+"
+]
     
 )
     
@@ -656,6 +665,15 @@ top_context
 [
 "
 context
+"
+]
+        
+userContext
+=
+top_context
+[
+"
+userContext
 "
 ]
     
