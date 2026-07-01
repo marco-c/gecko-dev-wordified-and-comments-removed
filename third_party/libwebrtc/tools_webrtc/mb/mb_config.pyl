@@ -1097,7 +1097,7 @@ android_arm_dbg
 '
 :
 '
-android_debug_static_bot_arm
+android_debug_static_bot_arm64
 '
 '
 android_arm_more_configs
@@ -1145,7 +1145,7 @@ android_arm_rel
 '
 :
 '
-android_release_bot_arm
+android_release_bot_arm64
 '
 '
 android_compile_arm64_dbg
@@ -1166,14 +1166,14 @@ android_compile_arm_dbg
 '
 :
 '
-android_debug_static_bot_arm
+android_debug_static_bot_arm64
 '
 '
 android_compile_arm_rel
 '
 :
 '
-android_pure_release_bot_arm
+android_pure_release_bot_arm64
 '
 '
 android_compile_x64_dbg

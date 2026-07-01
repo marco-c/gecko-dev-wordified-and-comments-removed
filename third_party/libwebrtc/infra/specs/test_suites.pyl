@@ -308,15 +308,6 @@ svc_tests
 :
 {
 '
-remove_mixins
-'
-:
-[
-'
-walleye
-'
-]
-'
 mixins
 '
 :
@@ -325,9 +316,6 @@ mixins
 shards
 -
 8
-'
-'
-crosshatch
 '
 ]
 }
