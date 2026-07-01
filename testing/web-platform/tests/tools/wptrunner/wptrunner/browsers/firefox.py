@@ -2006,6 +2006,19 @@ MOZ_ENABLE_INC_ORIGIN_INIT
 1
 "
           
+"
+isolated_process
+"
+:
+kwargs
+.
+get
+(
+"
+isolated_process
+"
+)
+          
 }
     
 rv

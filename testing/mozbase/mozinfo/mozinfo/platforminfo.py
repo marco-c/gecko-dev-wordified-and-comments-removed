@@ -240,24 +240,6 @@ variant_data
 {
 }
     
-buildmap
-=
-{
-        
-"
-debug
--
-isolated
--
-process
-"
-:
-"
-isolated_process
-"
-    
-}
-    
 def
 __init__
 (
@@ -1080,18 +1062,6 @@ filtered_types
 [
 0
 ]
-        
-build_type
-=
-self
-.
-buildmap
-.
-get
-(
-build_type
-build_type
-)
         
 if
 build_type
