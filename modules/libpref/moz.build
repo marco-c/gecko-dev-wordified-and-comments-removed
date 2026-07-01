@@ -865,6 +865,8 @@ aar
 /
 output
 /
+geckoview
+/
 {
 arch
 }
