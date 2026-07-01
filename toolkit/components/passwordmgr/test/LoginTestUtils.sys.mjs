@@ -2723,6 +2723,7 @@ n
 "
 )
 ;
+await
 token
 .
 changePassword
