@@ -4796,6 +4796,13 @@ get
 (
 )
 )
+audio
+.
+Length
+(
+)
+*
+sampleSize
 offset
 size
 )
