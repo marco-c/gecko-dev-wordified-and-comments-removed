@@ -29,6 +29,9 @@ Any
 IAccessible2Ptr
 =
 Any
+IAccessibleHyperlinkPtr
+=
+Any
 import
 comtypes
 .
@@ -48,6 +51,8 @@ import
 (
     
 IAccessible2_2
+    
+IAccessibleHyperlink
     
 Role
     
@@ -487,6 +492,39 @@ IA2
         
 return
 test_node
+    
+def
+get_hyperlink_interface
+(
+self
+node
+:
+IAccessible2Ptr
+)
+-
+>
+IAccessibleHyperlinkPtr
+:
+        
+service
+=
+node
+.
+QueryInterface
+(
+IServiceProvider
+)
+        
+return
+service
+.
+QueryService
+(
+IAccessible
+.
+_iid_
+IAccessibleHyperlink
+)
     
 def
 get_role
