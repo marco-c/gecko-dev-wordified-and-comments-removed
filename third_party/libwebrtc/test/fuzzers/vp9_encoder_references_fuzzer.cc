@@ -3094,6 +3094,11 @@ build
 (
 )
 ;
+int
+num_actions
+=
+0
+;
 while
 (
 fuzz_data
@@ -3102,6 +3107,14 @@ CanReadBytes
 (
 1
 )
+&
+&
++
++
+num_actions
+<
+=
+1000
 )
 {
 uint8_t
