@@ -71,13 +71,6 @@ height
 "
 80
 "
-fill
-=
-"
-context
--
-fill
-"
 xmlns
 =
 "
@@ -137,6 +130,12 @@ white
 >
 <
 path
+fill
+=
+"
+#
+15141a
+"
 fill
 -
 rule
