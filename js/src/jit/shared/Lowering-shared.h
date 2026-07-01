@@ -553,6 +553,15 @@ MDefinition
 mir
 )
 ;
+inline
+LAllocation
+useAnyOrInt32ConstantAtStart
+(
+MDefinition
+*
+mir
+)
+;
 LAllocation
 useRegisterOrIndexConstant
 (
