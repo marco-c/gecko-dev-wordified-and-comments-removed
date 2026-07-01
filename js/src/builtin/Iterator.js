@@ -5613,6 +5613,8 @@ JSMSG_ITERATOR_RANGE_INVALID_START
 )
 ;
 }
+#
+endif
 function
 IteratorChunks
 (
@@ -6146,8 +6148,6 @@ buffer
 ;
 }
 }
-#
-endif
 function
 IteratorJoin
 (
