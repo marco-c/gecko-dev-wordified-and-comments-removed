@@ -163,10 +163,10 @@ platform_thread_win
 .
 cc
 -
-32
+54
 27
 +
-32
+54
 30
 typedef
 struct
@@ -272,6 +272,10 @@ info
 dwThreadID
 =
 thread_id
+.
+raw
+(
+)
 ;
 info
 .
@@ -333,9 +337,6 @@ joinable
 ;
 ThreadType
 thread_type
-;
-MessagePumpType
-message_pump_type
 ;
 }
 ;

@@ -340,6 +340,8 @@ NtImpersonateAnonymousTokenFunction
 (
 +
 g_originals
+.
+functions
 [
 IMPERSONATE_ANONYMOUS_TOKEN_ID
 ]
@@ -839,10 +841,10 @@ policy_broker
 .
 cc
 -
-95
+42
 16
 +
-95
+42
 18
 bool
 SetupBasicInterceptions
@@ -1152,7 +1154,7 @@ means
 a
 non
 -
-retricted
+restricted
 token
 behaves
 the
