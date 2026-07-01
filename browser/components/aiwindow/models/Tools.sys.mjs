@@ -663,7 +663,7 @@ once
 const
 MAX_TABS
 =
-15
+30
 ;
 /
 /
