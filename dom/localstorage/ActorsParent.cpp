@@ -10808,7 +10808,7 @@ DatastoreHashKey
 std
 :
 :
-conditional
+conditional_t
 <
 DiagnosticAssertEnabled
 :
@@ -10817,9 +10817,6 @@ value
 nsCStringHashKeyWithDisabledMemmove
 nsCStringHashKey
 >
-:
-:
-type
 ;
 using
 DatastoreHashtable

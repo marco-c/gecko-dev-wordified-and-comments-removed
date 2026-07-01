@@ -265,13 +265,10 @@ static_assert
 std
 :
 :
-is_trivially_copyable
+is_trivially_copyable_v
 <
 GamepadHandle
 >
-:
-:
-value
 "
 GamepadHandle
 must

@@ -354,7 +354,7 @@ FileSystemDataManagerHashKey
 std
 :
 :
-conditional
+conditional_t
 <
 ReleaseAssertEnabled
 :
@@ -366,9 +366,6 @@ quota
 nsCStringHashKeyWithDisabledMemmove
 nsCStringHashKey
 >
-:
-:
-type
 ;
 using
 FileSystemDataManagerHashtable

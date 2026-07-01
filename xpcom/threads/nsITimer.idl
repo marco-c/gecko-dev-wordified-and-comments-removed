@@ -2192,7 +2192,7 @@ static_assert
 std
 :
 :
-is_convertible
+is_convertible_v
 <
 decltype
 (
@@ -2201,9 +2201,6 @@ this
 nsINamed
 *
 >
-:
-:
-value
 \
 "
 nsITimerCallback

@@ -89,7 +89,7 @@ constexpr
 std
 :
 :
-is_same
+is_same_v
 <
 decltype
 (
@@ -100,9 +100,6 @@ aRv
 )
 void
 >
-:
-:
-value
 )
 {
 result

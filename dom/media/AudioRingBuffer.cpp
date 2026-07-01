@@ -85,13 +85,10 @@ MOZ_ASSERT
 std
 :
 :
-is_trivial
+is_trivial_v
 <
 T
 >
-:
-:
-value
 )
 ;
 }

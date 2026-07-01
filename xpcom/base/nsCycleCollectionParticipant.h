@@ -2282,14 +2282,11 @@ IsXPCOM
 std
 :
 :
-is_base_of
+is_base_of_v
 <
 nsISupports
 T
 >
-:
-:
-value
 >
 struct
 DowncastCCParticipantImpl

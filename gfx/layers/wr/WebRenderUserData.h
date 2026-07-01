@@ -546,16 +546,13 @@ static_cast
 std
 :
 :
-underlying_type
+underlying_type_t
 <
 decltype
 (
 mType
 )
 >
-:
-:
-type
 >
 (
 mType

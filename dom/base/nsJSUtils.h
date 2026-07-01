@@ -311,7 +311,7 @@ enable_if_t
 std
 :
 :
-is_same
+is_same_v
 <
 typename
 T
@@ -320,9 +320,6 @@ T
 char_type
 char16_t
 >
-:
-:
-value
 >
 *
 =
@@ -453,7 +450,7 @@ enable_if_t
 std
 :
 :
-is_same
+is_same_v
 <
 typename
 T
@@ -462,9 +459,6 @@ T
 char_type
 char
 >
-:
-:
-value
 >
 *
 =

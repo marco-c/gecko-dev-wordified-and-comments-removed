@@ -4786,7 +4786,7 @@ enable_if_t
 std
 :
 :
-is_same
+is_same_v
 <
 std
 :
@@ -4800,9 +4800,6 @@ decay_t
 T
 >
 >
-:
-:
-value
 void
 >
 LogWithMaxLength
@@ -4839,7 +4836,7 @@ enable_if_t
 std
 :
 :
-is_same
+is_same_v
 <
 std
 :
@@ -4853,9 +4850,6 @@ decay_t
 T
 >
 >
-:
-:
-value
 void
 >
 LogWithMaxLength

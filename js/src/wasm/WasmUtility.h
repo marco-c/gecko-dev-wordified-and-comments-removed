@@ -92,7 +92,7 @@ static_assert
 std
 :
 :
-is_trivially_copyable
+is_trivially_copyable_v
 <
 js
 :
@@ -102,9 +102,6 @@ wasm
 :
 Type
 >
-:
-:
-value
 \
 "
 Must
@@ -120,7 +117,7 @@ static_assert
 std
 :
 :
-is_trivially_destructible
+is_trivially_destructible_v
 <
 js
 :
@@ -130,9 +127,6 @@ wasm
 :
 Type
 >
-:
-:
-value
 \
 "
 Must
