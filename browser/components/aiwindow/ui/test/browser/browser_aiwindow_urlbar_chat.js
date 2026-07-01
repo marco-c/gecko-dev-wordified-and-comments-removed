@@ -417,6 +417,12 @@ win
 )
 ;
 await
+waitForSidebarClosed
+(
+win
+)
+;
+await
 lazy
 .
 UrlbarTestUtils
