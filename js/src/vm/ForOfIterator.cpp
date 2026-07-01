@@ -718,6 +718,17 @@ iterator
 ;
 if
 (
+index
+!
+=
+NOT_ARRAY
+)
+{
+return
+;
+}
+if
+(
 !
 cx_
 -
