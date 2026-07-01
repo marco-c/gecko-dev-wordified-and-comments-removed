@@ -714,7 +714,7 @@ _ns
 ;
 }
 }
-StyleMathSum
+StyleMathProduct
 CSSMathProduct
 :
 :

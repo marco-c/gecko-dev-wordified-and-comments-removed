@@ -31039,6 +31039,14 @@ NumericType
 add_types
 (
 numeric_types
+.
+iter
+(
+)
+.
+copied
+(
+)
 )
 {
 Ok
