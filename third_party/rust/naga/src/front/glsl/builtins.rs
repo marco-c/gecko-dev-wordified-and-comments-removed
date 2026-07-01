@@ -4203,7 +4203,7 @@ packSnorm2x16
 MathFunction
 :
 :
-Pack2x16unorm
+Pack2x16snorm
 "
 packUnorm2x16
 "
@@ -4212,7 +4212,7 @@ packUnorm2x16
 MathFunction
 :
 :
-Pack2x16snorm
+Pack2x16unorm
 "
 packHalf2x16
 "

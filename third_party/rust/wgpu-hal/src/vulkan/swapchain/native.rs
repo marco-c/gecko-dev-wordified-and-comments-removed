@@ -2262,6 +2262,17 @@ into
 }
 }
 ;
+#
+[
+cfg
+(
+target_os
+=
+"
+windows
+"
+)
+]
 unsafe
 {
 self

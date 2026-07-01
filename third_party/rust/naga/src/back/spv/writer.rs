@@ -636,6 +636,11 @@ use_storage_input_output_16
 options
 .
 use_storage_input_output_16
+emit_int_div_checks
+:
+options
+.
+emit_int_div_checks
 void_type
 tuple_of_u32s_ty_id
 :
@@ -1134,6 +1139,11 @@ mesh_shader_primitive_indices_clamp
 self
 .
 mesh_shader_primitive_indices_clamp
+emit_int_div_checks
+:
+self
+.
+emit_int_div_checks
 id_gen
 void_type
 tuple_of_u32s_ty_id
@@ -3405,6 +3415,10 @@ ScalarKind
 :
 Uint
 )
+if
+self
+.
+emit_int_div_checks
 =
 >
 {

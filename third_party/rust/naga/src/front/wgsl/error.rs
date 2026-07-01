@@ -2105,6 +2105,16 @@ inline
 never
 )
 ]
+#
+[
+allow
+(
+clippy
+:
+:
+large_stack_frames
+)
+]
 pub
 (
 crate

@@ -6081,6 +6081,16 @@ Ok
 )
 )
 }
+#
+[
+allow
+(
+clippy
+:
+:
+large_stack_frames
+)
+]
 fn
 validate_block_impl
 (

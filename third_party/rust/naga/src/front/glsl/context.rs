@@ -2398,6 +2398,16 @@ Ok
 )
 )
 }
+#
+[
+allow
+(
+clippy
+:
+:
+large_stack_frames
+)
+]
 fn
 lower_inner
 (

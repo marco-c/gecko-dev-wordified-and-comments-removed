@@ -2313,7 +2313,7 @@ add
 Action
 :
 :
-DestroyBlas
+DropBlas
 (
 blas
 .
@@ -2433,7 +2433,7 @@ add
 Action
 :
 :
-DestroyTlas
+DropTlas
 (
 tlas
 .

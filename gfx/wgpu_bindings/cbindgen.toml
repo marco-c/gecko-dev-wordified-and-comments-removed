@@ -739,6 +739,11 @@ include
 =
 [
 "
+naga
+-
+types
+"
+"
 wgpu
 -
 core
@@ -757,6 +762,11 @@ hal
 extra_bindings
 =
 [
+"
+naga
+-
+types
+"
 "
 wgpu
 -

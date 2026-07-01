@@ -69,6 +69,16 @@ Frontend
 I
 >
 {
+#
+[
+allow
+(
+clippy
+:
+:
+large_stack_frames
+)
+]
 pub
 (
 in
