@@ -2907,7 +2907,7 @@ getBoolPref
 (
 "
 browser
--
+.
 settings
 -
 redesign
