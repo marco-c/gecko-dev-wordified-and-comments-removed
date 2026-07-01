@@ -92,6 +92,17 @@ build
 .
 gradle
 '
+-
+'
+*
+*
+/
+*
+.
+gradle
+.
+kts
+'
 type
 :
 global

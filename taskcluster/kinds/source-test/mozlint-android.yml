@@ -1001,6 +1001,17 @@ build
 .
 gradle
 '
+-
+'
+*
+*
+/
+*
+.
+gradle
+.
+kts
+'
 #
 Other
 misc
