@@ -431,7 +431,11 @@ val
 closeBottomSheet
 =
 {
-dismiss
+findNavController
+(
+)
+.
+popBackStack
 (
 )
 }
