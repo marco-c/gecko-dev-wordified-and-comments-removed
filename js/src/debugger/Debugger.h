@@ -2509,9 +2509,6 @@ JSObject
 uncaughtExceptionHook
 ;
 bool
-allowUnobservedAsmJS
-;
-bool
 allowUnobservedWasm
 ;
 bool
@@ -3531,12 +3528,6 @@ observesAllExecution
 const
 ;
 IsObserving
-observesAsmJS
-(
-)
-const
-;
-IsObserving
 observesWasm
 (
 )
@@ -3632,13 +3623,6 @@ updateObservesCoverageOnDebuggees
 JSContext
 *
 cx
-IsObserving
-observing
-)
-;
-void
-updateObservesAsmJSOnDebuggees
-(
 IsObserving
 observing
 )

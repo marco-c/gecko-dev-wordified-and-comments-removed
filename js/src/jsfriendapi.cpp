@@ -812,7 +812,7 @@ return
 realm
 -
 >
-debuggerObservesAsmJS
+debuggerObservesWasm
 (
 )
 ;
