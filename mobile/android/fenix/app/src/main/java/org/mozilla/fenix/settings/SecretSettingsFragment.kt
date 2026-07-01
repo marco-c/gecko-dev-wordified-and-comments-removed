@@ -2049,11 +2049,7 @@ apply
 {
 isVisible
 =
-Config
-.
-channel
-.
-isDebug
+true
 isChecked
 =
 context

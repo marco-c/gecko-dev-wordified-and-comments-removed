@@ -4064,11 +4064,11 @@ onBackPressedCallback
 )
 if
 (
-Config
+components
 .
-channel
+settings
 .
-isDebug
+uninstallSurveyFeatureFlagEnabled
 )
 {
 lifecycleScope
