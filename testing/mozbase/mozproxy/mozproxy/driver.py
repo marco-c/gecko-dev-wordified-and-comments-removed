@@ -891,6 +891,7 @@ LOG
 .
 info
 (
+f
 "
 Recording
 will
@@ -898,13 +899,12 @@ be
 saved
 to
 :
-%
-s
-"
-%
+{
 args
 .
 file
+}
+"
 )
             
 proxy_service
@@ -1025,14 +1025,14 @@ LOG
 .
 info
 (
+f
 "
 Proxy
 settings
-%
-s
-"
-%
+{
 proxy_service
+}
+"
 )
         
 proxy_service
@@ -1045,18 +1045,18 @@ LOG
 .
 info
 (
+f
 "
 Proxy
 running
 on
 port
-%
-d
-"
-%
+{
 proxy_service
 .
 port
+}
+"
 )
         
 proxy_service

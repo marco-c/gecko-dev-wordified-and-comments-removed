@@ -6308,6 +6308,7 @@ self
 error
 (
                     
+f
 "
 Chrome
 is
@@ -6316,18 +6317,16 @@ installed
 on
 the
 platform
-%
-s
-yet
-.
-"
-                    
-%
+{
 self
 .
 platform_name
 (
 )
+}
+yet
+.
+"
                 
 )
             
@@ -6349,6 +6348,7 @@ self
 info
 (
                     
+f
 "
 Google
 Chrome
@@ -6356,14 +6356,12 @@ found
 in
 expected
 location
-%
-s
-"
-                    
-%
+{
 self
 .
 chromium_dist_path
+}
+"
                 
 )
             
@@ -6374,19 +6372,19 @@ self
 .
 error
 (
+f
 "
 Cannot
 find
 Google
 Chrome
 at
-%
-s
-"
-%
+{
 self
 .
 chromium_dist_path
+}
+"
 )
             
 return
@@ -6414,10 +6412,12 @@ self
 .
 info
 (
+f
 "
 Expecting
-%
-s
+{
+chromium_dist
+}
 to
 be
 pre
@@ -6425,8 +6425,6 @@ pre
 installed
 locally
 "
-%
-chromium_dist
 )
             
 return
@@ -6435,15 +6433,15 @@ self
 .
 info
 (
+f
 "
 Getting
 fetched
-%
-s
+{
+chromium_dist
+}
 build
 "
-%
-chromium_dist
 )
         
 self
@@ -6577,44 +6575,40 @@ self
 .
 info
 (
+f
 "
-%
-s
+{
+chromium_dist
+}
 dest
 is
 :
-%
-s
-"
-%
-(
-chromium_dist
+{
 self
 .
 chromium_dist_dest
-)
+}
+"
 )
         
 self
 .
 info
 (
+f
 "
-%
-s
+{
+chromium_dist
+}
 path
 is
 :
-%
-s
-"
-%
-(
-chromium_dist
+{
 self
 .
 chromium_dist_path
-)
+}
+"
 )
         
 if
@@ -6635,24 +6629,21 @@ self
 info
 (
                 
+f
 "
 Successfully
 installed
-%
-s
+{
+chromium_dist
+}
 to
 :
-%
-s
-"
-                
-%
-(
-chromium_dist
+{
 self
 .
 chromium_dist_path
-)
+}
+"
             
 )
         
@@ -6663,17 +6654,17 @@ self
 .
 info
 (
+f
 "
 Abort
 :
 failed
 to
 install
-%
-s
-"
-%
+{
 chromium_dist
+}
+"
 )
     
 def
@@ -6850,28 +6841,25 @@ self
 info
 (
                     
+f
 "
 Set
 binary
 to
-%
-s
-instead
-of
-%
-s
-"
-                    
-%
-(
+{
 kw_options
 [
-"
+'
 binary
-"
+'
 ]
+}
+instead
+of
+{
 binary_path
-)
+}
+"
                 
 )
         
@@ -7916,7 +7904,7 @@ options
 extend
 (
 [
-                
+f
 "
 -
 -
@@ -7925,23 +7913,18 @@ browser
 cycles
 =
 {
-}
-"
-.
-format
-(
 self
 .
 config
 .
 get
 (
-"
+'
 browser_cycles
+'
+)
+}
 "
-)
-)
-            
 ]
 )
         
@@ -8433,14 +8416,14 @@ options
 extend
 (
 [
+f
 "
 -
 -
-%
-s
-"
-%
+{
 key
+}
+"
 value
 ]
 )
@@ -9530,7 +9513,7 @@ self
 .
 info
 (
-                
+f
 "
 Added
 local
@@ -9538,15 +9521,13 @@ ffmpeg
 found
 at
 :
-%
-s
+{
+path_to_ffmpeg
+}
 to
 environment
 .
 "
-%
-path_to_ffmpeg
-            
 )
         
 else
@@ -9556,6 +9537,7 @@ raise
 Exception
 (
                 
+f
 "
 No
 local
@@ -9569,12 +9551,10 @@ to
 be
 here
 :
-%
-s
-"
-                
-%
+{
 path_to_ffmpeg
+}
+"
             
 )
     
@@ -9763,14 +9743,12 @@ self
 .
 info
 (
+f
 "
 Creating
 dir
 :
-%
-s
-"
-%
+{
 os
 .
 path
@@ -9779,6 +9757,8 @@ dirname
 (
 dest
 )
+}
+"
 )
             
 os
@@ -9799,22 +9779,20 @@ self
 .
 info
 (
+f
 "
 Copying
 raptor
 results
 from
-%
-s
-to
-%
-s
-"
-%
-(
+{
 src
+}
+to
+{
 dest
-)
+}
+"
 )
         
 try
@@ -9836,23 +9814,21 @@ self
 .
 critical
 (
+f
 "
 Error
 copying
 results
-%
-s
+{
+src
+}
 to
 upload
 dir
-%
-s
-"
-%
-(
-src
+{
 dest
-)
+}
+"
 )
             
 self
@@ -10499,30 +10475,31 @@ config
             
 fname_pattern
 =
+f
 "
-%
-s_
-%
+{
+self
+.
+config
+[
+'
+test
+'
+]
+}
+_
 %
 s
 .
 log
 "
-%
-self
-.
-config
-[
-"
-test
-"
-]
             
 mozlog_opts
 .
 append
 (
                 
+f
 "
 -
 -
@@ -10530,11 +10507,7 @@ log
 -
 errorsummary
 =
-%
-s
-"
-                
-%
+{
 os
 .
 path
@@ -10543,16 +10516,18 @@ join
 (
 env
 [
-"
+'
 MOZ_UPLOAD_DIR
-"
+'
 ]
 fname_pattern
 %
-"
+'
 errorsummary
-"
+'
 )
+}
+"
             
 )
         
@@ -10968,18 +10943,18 @@ env
 MOZ_UPLOAD_DIR
 "
 ]
+f
 "
 perfherder
 -
 data
 -
-%
-s
+{
+data_name
+}
 .
 json
 "
-%
-data_name
                 
 )
                 
@@ -11091,34 +11066,31 @@ self
 info
 (
                 
+f
 "
 return
 code
-%
-s
-changed
-to
-%
-s
-due
-to
-log
-output
-"
-                
-%
-(
+{
 str
 (
 self
 .
 return_code
 )
+}
+changed
+to
+{
 str
 (
 parser_status
 )
-)
+}
+due
+to
+log
+output
+"
             
 )
             
@@ -11355,12 +11327,12 @@ self
 .
 critical
 (
+f
 "
-%
-s
-"
-%
+{
 line
+}
+"
 )
             
 self

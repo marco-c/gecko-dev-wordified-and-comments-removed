@@ -2320,6 +2320,12 @@ options
 browsertime
 .
 login
+=
+=
+=
+"
+true
+"
 )
 {
 logins
