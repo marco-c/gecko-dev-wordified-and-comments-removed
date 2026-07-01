@@ -2908,6 +2908,12 @@ av1_qp_parser
 "
 )
 {
+if
+(
+!
+build_with_mozilla
+)
+{
 testonly
 =
 true
@@ -2929,10 +2935,6 @@ av1_qp_parser
 h
 "
 ]
-sources
--
-=
-sources
 deps
 =
 [
@@ -2981,10 +2983,6 @@ libgav1
 libgav1_parser
 "
 ]
-deps
--
-=
-deps
 public_configs
 =
 [
@@ -2998,10 +2996,7 @@ libgav1
 libgav1_public_config
 "
 ]
-public_configs
--
-=
-public_configs
+}
 }
 rtc_library
 (
