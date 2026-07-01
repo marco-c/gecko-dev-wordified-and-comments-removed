@@ -12,7 +12,7 @@ mozilla
 /
 java
 /
-GeckoAppShellWrappers
+GeckoSensorWrappers
 .
 h
 "
@@ -25,8 +25,8 @@ hal
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 hal_impl
 {
 void
@@ -39,7 +39,7 @@ aSensor
 java
 :
 :
-GeckoAppShell
+GeckoSensor
 :
 :
 EnableSensor
@@ -58,7 +58,7 @@ aSensor
 java
 :
 :
-GeckoAppShell
+GeckoSensor
 :
 :
 DisableSensor
@@ -66,6 +66,5 @@ DisableSensor
 aSensor
 )
 ;
-}
 }
 }

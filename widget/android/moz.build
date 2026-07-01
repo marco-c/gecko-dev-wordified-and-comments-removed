@@ -212,6 +212,9 @@ GeckoResult
 GeckoRuntime
 "
 "
+GeckoSensor
+"
+"
 GeckoServiceChildProcess
 "
 "
@@ -606,6 +609,11 @@ cpp
 "
 "
 GeckoProcessManager
+.
+cpp
+"
+"
+GeckoSensorSupport
 .
 cpp
 "
