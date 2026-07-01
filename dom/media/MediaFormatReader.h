@@ -3328,6 +3328,15 @@ TimeUnit
 >
 mPendingSeekTime
 ;
+Maybe
+<
+media
+:
+:
+TimeUnit
+>
+mPendingVideoSeekThreshold
+;
 MozPromiseHolder
 <
 SeekPromise
