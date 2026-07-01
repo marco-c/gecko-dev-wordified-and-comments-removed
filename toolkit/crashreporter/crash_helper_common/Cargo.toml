@@ -68,6 +68,13 @@ mozannotation_server
 /
 "
 }
+mozbuild
+=
+"
+0
+.
+1
+"
 num
 -
 derive

@@ -7423,6 +7423,9 @@ writer
 mozannotation_server
 "
 "
+mozbuild
+"
+"
 nix
 "
 "
