@@ -1548,6 +1548,10 @@ RTC_NO_UNIQUE_ADDRESS
 SequenceChecker
 rtcp_module_checker_
 ;
+RTC_NO_UNIQUE_ADDRESS
+ScopedTaskSafety
+task_safety_
+;
 absl
 :
 :
@@ -1627,10 +1631,6 @@ RTC_GUARDED_BY
 (
 mutex_rtt_
 )
-;
-RTC_NO_UNIQUE_ADDRESS
-ScopedTaskSafety
-task_safety_
 ;
 }
 ;

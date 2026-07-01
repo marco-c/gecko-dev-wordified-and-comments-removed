@@ -384,6 +384,14 @@ schedule_next_rtcp_send_evaluation
 TimeDelta
 rtcp_report_interval
 ;
+RtcpMode
+rtcp_mode
+=
+RtcpMode
+:
+:
+kOff
+;
 ReceiveStatisticsProvider
 *
 receive_statistics
