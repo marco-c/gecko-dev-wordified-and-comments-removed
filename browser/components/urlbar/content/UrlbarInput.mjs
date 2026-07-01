@@ -1002,7 +1002,9 @@ logger
 )
 =
 >
-UrlbarShared
+lazy
+.
+UrlbarUtils
 .
 getLogger
 (

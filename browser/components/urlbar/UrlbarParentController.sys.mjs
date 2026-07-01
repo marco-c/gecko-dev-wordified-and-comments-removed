@@ -420,7 +420,7 @@ logger
 >
 lazy
 .
-UrlbarShared
+UrlbarUtils
 .
 getLogger
 (
