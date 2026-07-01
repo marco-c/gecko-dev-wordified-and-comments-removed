@@ -250,10 +250,14 @@ wgt
 :
 BufferAddress
 =
+(
 1u64
 <
 <
-30u64
+31
+)
+-
+4
 ;
 const
 MAX_TEXTURE_EXTENT
