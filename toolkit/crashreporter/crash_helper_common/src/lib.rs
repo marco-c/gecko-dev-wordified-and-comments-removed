@@ -173,6 +173,7 @@ platform
 :
 :
 {
+AsProcessReaderHandle
 PlatformError
 ProcessHandle
 }
