@@ -60,7 +60,6 @@ uint16_t
 >
 unicode_ranges_flags
 ;
-extern
 const
 std
 :
@@ -69,7 +68,10 @@ unordered_set
 <
 uint32_t
 >
-unicode_set_whitespace
+&
+get_unicode_set_whitespace
+(
+)
 ;
 extern
 const

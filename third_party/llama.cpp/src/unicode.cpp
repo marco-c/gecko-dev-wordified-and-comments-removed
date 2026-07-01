@@ -845,6 +845,15 @@ second
 ;
 }
 }
+const
+auto
+&
+unicode_set_whitespace
+=
+get_unicode_set_whitespace
+(
+)
+;
 for
 (
 auto
