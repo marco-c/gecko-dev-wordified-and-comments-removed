@@ -1373,15 +1373,31 @@ fetches
             
 locale
             
+job
+[
 "
-nightly
+attributes
+"
+]
+[
+"
+update
 -
-try
+channel
 "
+]
             
+job
+[
 "
-firefox
+attributes
 "
+]
+[
+"
+shipping_product
+"
+]
             
 "
 /
