@@ -88,7 +88,7 @@ msg
 .
 )
 \
-DDMOZ_LOG
+DDMOZ_LOG_FMT
 (
 gMediaDemuxerLog
 LogLevel
@@ -110,7 +110,7 @@ msg
 .
 )
 \
-DDMOZ_LOG
+DDMOZ_LOG_FMT
 (
 gMediaDemuxerLog
 LogLevel
