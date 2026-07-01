@@ -1175,9 +1175,15 @@ initialContents
 ChannelCount
 (
 )
+AssertedCast
+<
+uint32_t
+>
+(
 initialContents
 .
 mDuration
+)
 aSampleRate
 rv
 )

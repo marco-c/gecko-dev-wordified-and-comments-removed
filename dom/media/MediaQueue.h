@@ -1245,7 +1245,10 @@ i
 ;
 }
 }
+CheckedInt
+<
 uint32_t
+>
 AudioFramesCount
 (
 )
@@ -1277,7 +1280,10 @@ lock
 mRecursiveMutex
 )
 ;
+CheckedInt
+<
 uint32_t
+>
 frames
 =
 0
