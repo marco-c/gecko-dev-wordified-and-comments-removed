@@ -398,8 +398,10 @@ MOZ_REQUIRES
 mMutex
 )
 ;
-nsCString
-mProfilePath
+void
+CacheProfilePathOnMainThread
+(
+)
 ;
 Mutex
 mMutex
@@ -414,6 +416,13 @@ mMutex
 ;
 bool
 mShutdown
+MOZ_GUARDED_BY
+(
+mMutex
+)
+;
+nsCString
+mProfilePath
 MOZ_GUARDED_BY
 (
 mMutex
