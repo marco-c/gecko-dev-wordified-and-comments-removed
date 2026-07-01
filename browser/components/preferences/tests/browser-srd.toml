@@ -259,13 +259,6 @@ js
 ]
 [
 "
-browser_setting_pane_focus_restoration
-.
-js
-"
-]
-[
-"
 browser_setting_pane_scroll_restoration
 .
 js
