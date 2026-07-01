@@ -183,6 +183,16 @@ Tab
 Groups
 "
 )
+SPHINX_TREES
+[
+"
+docs
+"
+]
+=
+"
+docs
+"
 JAR_MANIFESTS
 +
 =
