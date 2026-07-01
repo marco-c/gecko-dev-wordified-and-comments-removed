@@ -937,31 +937,6 @@ else
 return
 None
     
-elif
-try_task_config
-[
-"
-version
-"
-]
-=
-=
-1
-:
-        
-return
-try_task_config
-.
-get
-(
-"
-tasks
-"
-list
-(
-)
-)
-    
 else
 :
         
