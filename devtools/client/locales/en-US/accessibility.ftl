@@ -67,14 +67,6 @@ panel
 .
 accessibility
 -
-learn
--
-more
-=
-Learn
-more
-accessibility
--
 text
 -
 label
