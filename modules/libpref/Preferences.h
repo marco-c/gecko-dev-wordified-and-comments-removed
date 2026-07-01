@@ -2220,10 +2220,6 @@ void
 aClosure
 bool
 aPrefixMatch
-bool
-aIsPriority
-=
-false
 )
 ;
 static
