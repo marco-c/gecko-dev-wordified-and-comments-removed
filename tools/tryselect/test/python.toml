@@ -147,3 +147,10 @@ test_tasks
 py
 "
 ]
+[
+"
+test_util_taskcluster
+.
+py
+"
+]
