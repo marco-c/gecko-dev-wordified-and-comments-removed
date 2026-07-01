@@ -181,13 +181,6 @@ repository
 DefaultIPProtectionPromptRepository
 (
 settings
-=
-settings
-installedTimeMillis
-=
-{
-0L
-}
 )
 middleware
 =
