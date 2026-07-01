@@ -134,8 +134,6 @@ use_low_complexity_for_vp9
 ;
 bool
 dynamic_speed_enabled_
-=
-false
 ;
 ComplexitySettings
 av1_complexity_

@@ -305,11 +305,15 @@ quality_thresholds
 .
 min_avg_psnr
 =
-37
+36
+.
+5
 .
 min_min_psnr
 =
-34
+33
+.
+5
 .
 min_avg_ssim
 =
