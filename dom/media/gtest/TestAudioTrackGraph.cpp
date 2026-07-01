@@ -1570,7 +1570,7 @@ StreamInitEvent
 )
 )
 ;
-EXPECT_STREQ
+EXPECT_EQ
 (
 stream
 -
@@ -1579,10 +1579,6 @@ StreamName
 (
 )
 name1
-.
-get
-(
-)
 )
 ;
 nsLiteralCString
