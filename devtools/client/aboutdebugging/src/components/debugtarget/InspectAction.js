@@ -297,9 +297,6 @@ inspect
 className
 :
 "
-default
--
-button
 qa
 -
 debug

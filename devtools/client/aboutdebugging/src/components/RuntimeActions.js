@@ -371,9 +371,6 @@ button
 className
 :
 "
-default
--
-button
 qa
 -
 profile

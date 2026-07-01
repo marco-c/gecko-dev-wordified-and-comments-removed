@@ -228,9 +228,6 @@ button
 className
 :
 "
-default
--
-button
 qa
 -
 refresh

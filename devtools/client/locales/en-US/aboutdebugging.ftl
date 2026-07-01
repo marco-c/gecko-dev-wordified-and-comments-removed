@@ -4483,10 +4483,10 @@ message
 -
 close
 -
-icon
+icon2
 =
 .
-alt
+tooltiptext
 =
 Close
 message

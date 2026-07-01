@@ -237,9 +237,6 @@ className
 {
 className
 }
-default
--
-button
 qa
 -
 temporary

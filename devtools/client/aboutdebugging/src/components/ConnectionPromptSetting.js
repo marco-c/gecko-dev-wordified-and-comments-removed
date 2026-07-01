@@ -274,9 +274,6 @@ className
 {
 className
 }
-default
--
-button
 qa
 -
 connection

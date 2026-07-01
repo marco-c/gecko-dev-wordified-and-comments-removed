@@ -301,9 +301,6 @@ button
 className
 :
 "
-default
--
-button
 qa
 -
 network

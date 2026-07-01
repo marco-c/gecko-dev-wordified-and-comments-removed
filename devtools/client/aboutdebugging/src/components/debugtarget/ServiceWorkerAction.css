@@ -216,9 +216,11 @@ var
 (
 -
 -
-success
+color
 -
-background
+accent
+-
+attention
 )
 ;
 }

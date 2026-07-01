@@ -113,6 +113,11 @@ extraContent
 PropTypes
 .
 node
+headerButton
+:
+PropTypes
+.
+node
 icon
 :
 PropTypes
@@ -167,6 +172,7 @@ render
 {
 const
 {
+headerButton
 extraContent
 }
 =
@@ -234,13 +240,12 @@ icon
 )
 dom
 .
-h1
+h3
 (
 {
 className
 :
 "
-card__heading
 connect
 -
 section__header__title
@@ -252,6 +257,7 @@ props
 .
 title
 )
+headerButton
 )
 this
 .
