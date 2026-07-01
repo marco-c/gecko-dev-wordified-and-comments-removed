@@ -3942,6 +3942,12 @@ scrollable
 -
 content
 "
+tabindex
+=
+"
+-
+1
+"
 >
 {
 this
