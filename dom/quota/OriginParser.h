@@ -156,9 +156,6 @@ mMaybeDriveLetter
 bool
 mError
 ;
-bool
-mMaybeObsolete
-;
 uint8_t
 mIPGroup
 ;
@@ -201,10 +198,6 @@ mMaybeDriveLetter
 false
 )
 mError
-(
-false
-)
-mMaybeObsolete
 (
 false
 )
