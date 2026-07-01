@@ -482,6 +482,17 @@ aarch64
 .
 0esr
 "
+win64
+-
+aarch64
+.
+*
+:
+"
+140
+.
+0esr
+"
 default
 :
 "
