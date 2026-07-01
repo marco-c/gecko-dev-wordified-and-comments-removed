@@ -358,14 +358,9 @@ element
 const
 {
 browsingContext
-innerWindowID
-:
-innerWindowId
 }
 =
 watcherActor
-.
-browserElement
 ;
 await
 this
@@ -375,6 +370,10 @@ _spawnActor
 browsingContext
 .
 id
+browsingContext
+.
+currentWindowGlobal
+.
 innerWindowId
 )
 ;

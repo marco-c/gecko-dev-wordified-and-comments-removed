@@ -417,8 +417,6 @@ this
 .
 watcherActor
 .
-browserElement
-.
 browsingContext
 )
 {
