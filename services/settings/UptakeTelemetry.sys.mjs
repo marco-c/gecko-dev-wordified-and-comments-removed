@@ -241,6 +241,11 @@ CUSTOM_1_ERROR
 "
 custom_1_error
 "
+STALE_EXPECTED
+:
+"
+stale_expected
+"
 }
 ;
 }
