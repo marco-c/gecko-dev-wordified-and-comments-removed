@@ -1745,7 +1745,7 @@ value
 )
 {
 return
-LOG_ERROR
+RTC_LOG_ERROR
 (
 RTCError
 (
@@ -1977,7 +1977,7 @@ modified_config
 )
 {
 return
-LOG_ERROR
+RTC_LOG_ERROR
 (
 RTCError
 (
@@ -5151,7 +5151,7 @@ ConfiguredForMedia
 )
 {
 return
-LOG_ERROR
+RTC_LOG_ERROR
 (
 RTCError
 (
@@ -5178,7 +5178,7 @@ track
 )
 {
 return
-LOG_ERROR
+RTC_LOG_ERROR
 (
 RTCError
 (
@@ -5232,7 +5232,7 @@ kVideoKind
 )
 {
 return
-LOG_ERROR
+RTC_LOG_ERROR
 (
 RTCError
 (
@@ -5269,7 +5269,7 @@ IsClosed
 )
 {
 return
-LOG_ERROR
+RTC_LOG_ERROR
 (
 RTCError
 (
@@ -5307,7 +5307,7 @@ get
 )
 {
 return
-LOG_ERROR
+RTC_LOG_ERROR
 (
 RTCError
 (
@@ -5483,7 +5483,7 @@ ConfiguredForMedia
 )
 {
 return
-LOG_ERROR
+RTC_LOG_ERROR
 (
 RTCError
 (
@@ -5510,7 +5510,7 @@ sender
 )
 {
 return
-LOG_ERROR
+RTC_LOG_ERROR
 (
 RTCError
 (
@@ -5538,7 +5538,7 @@ IsClosed
 )
 {
 return
-LOG_ERROR
+RTC_LOG_ERROR
 (
 RTCError
 (
@@ -5785,7 +5785,7 @@ removed
 )
 {
 return
-LOG_ERROR
+RTC_LOG_ERROR
 (
 RTCError
 (
@@ -5902,7 +5902,7 @@ ConfiguredForMedia
 )
 {
 return
-LOG_ERROR
+RTC_LOG_ERROR
 (
 RTCError
 (
@@ -5971,7 +5971,7 @@ ConfiguredForMedia
 )
 {
 return
-LOG_ERROR
+RTC_LOG_ERROR
 (
 RTCError
 (
@@ -6017,7 +6017,7 @@ track
 )
 {
 return
-LOG_ERROR
+RTC_LOG_ERROR
 (
 RTCError
 (
@@ -6091,7 +6091,7 @@ VIDEO
 else
 {
 return
-LOG_ERROR
+RTC_LOG_ERROR
 (
 RTCError
 (
@@ -6185,7 +6185,7 @@ ConfiguredForMedia
 )
 {
 return
-LOG_ERROR
+RTC_LOG_ERROR
 (
 RTCError
 (
@@ -6248,7 +6248,7 @@ VIDEO
 )
 {
 return
-LOG_ERROR
+RTC_LOG_ERROR
 (
 RTCError
 (
@@ -6323,7 +6323,7 @@ ConfiguredForMedia
 )
 {
 return
-LOG_ERROR
+RTC_LOG_ERROR
 (
 RTCError
 (
@@ -6453,7 +6453,7 @@ size
 )
 {
 return
-LOG_ERROR
+RTC_LOG_ERROR
 (
 RTCError
 (
@@ -6523,7 +6523,7 @@ rid
 )
 {
 return
-LOG_ERROR
+RTC_LOG_ERROR
 (
 RTCError
 (
@@ -6577,7 +6577,7 @@ has_value
 )
 {
 return
-LOG_ERROR
+RTC_LOG_ERROR
 (
 RTCError
 (
@@ -6812,7 +6812,7 @@ parameters
 )
 {
 return
-LOG_ERROR
+RTC_LOG_ERROR
 (
 RTCError
 (
@@ -6955,7 +6955,7 @@ UNSUPPORTED_OPERATION
 ;
 }
 return
-LOG_ERROR
+RTC_LOG_ERROR
 (
 RTCError
 (
@@ -8572,7 +8572,7 @@ IsClosed
 )
 {
 return
-LOG_ERROR
+RTC_LOG_ERROR
 (
 RTCError
 (
@@ -9321,7 +9321,7 @@ IsClosed
 )
 {
 return
-LOG_ERROR
+RTC_LOG_ERROR
 (
 RTCError
 (
@@ -9413,7 +9413,7 @@ crypto_options
 )
 {
 return
-LOG_ERROR
+RTC_LOG_ERROR
 (
 RTCError
 (
@@ -9695,7 +9695,7 @@ result
 )
 {
 return
-LOG_ERROR
+RTC_LOG_ERROR
 (
 RTCError
 (
@@ -9967,7 +9967,7 @@ call_
 )
 {
 return
-LOG_ERROR
+RTC_LOG_ERROR
 (
 RTCError
 (
@@ -10037,7 +10037,7 @@ min_bitrate_bps
 )
 {
 return
-LOG_ERROR
+RTC_LOG_ERROR
 (
 RTCError
 (
@@ -10079,7 +10079,7 @@ min_bitrate_bps
 )
 {
 return
-LOG_ERROR
+RTC_LOG_ERROR
 (
 RTCError
 (
@@ -10110,7 +10110,7 @@ start_bitrate_bps
 )
 {
 return
-LOG_ERROR
+RTC_LOG_ERROR
 (
 RTCError
 (
@@ -10122,7 +10122,7 @@ INVALID_PARAMETER
 <
 <
 "
-curent_bitrate_bps
+start_bitrate_bps
 <
 0
 "
@@ -10152,7 +10152,7 @@ start_bitrate_bps
 )
 {
 return
-LOG_ERROR
+RTC_LOG_ERROR
 (
 RTCError
 (
@@ -10189,7 +10189,7 @@ min_bitrate_bps
 )
 {
 return
-LOG_ERROR
+RTC_LOG_ERROR
 (
 RTCError
 (
@@ -10220,7 +10220,7 @@ max_bitrate_bps
 )
 {
 return
-LOG_ERROR
+RTC_LOG_ERROR
 (
 RTCError
 (
@@ -17695,7 +17695,7 @@ options
 )
 {
 return
-LOG_ERROR
+RTC_LOG_ERROR
 (
 RTCError
 (

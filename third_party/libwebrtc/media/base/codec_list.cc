@@ -237,7 +237,7 @@ ID
 "
 ;
 return
-LOG_ERROR
+RTC_LOG_ERROR
 (
 RTCError
 (
@@ -465,7 +465,7 @@ apt_it
 second
 ;
 return
-LOG_ERROR
+RTC_LOG_ERROR
 (
 RTCError
 (
@@ -560,7 +560,7 @@ times
 "
 ;
 return
-LOG_ERROR
+RTC_LOG_ERROR
 (
 RTCError
 (

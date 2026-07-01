@@ -10244,7 +10244,7 @@ second
 )
 {
 return
-LOG_ERROR
+RTC_LOG_ERROR
 (
 RTCError
 (
@@ -10280,6 +10280,7 @@ payload_type
 <
 <
 "
+'
 .
 All
 codecs
@@ -10405,7 +10406,7 @@ nullptr
 )
 {
 return
-LOG_ERROR
+RTC_LOG_ERROR
 (
 RTCError
 (

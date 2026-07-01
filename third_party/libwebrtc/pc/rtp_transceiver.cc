@@ -776,7 +776,7 @@ codec
 )
 {
 return
-LOG_ERROR
+RTC_LOG_ERROR
 (
 RTCError
 :
@@ -813,7 +813,7 @@ codecs
 )
 {
 return
-LOG_ERROR
+RTC_LOG_ERROR
 (
 RTCError
 :
@@ -5708,7 +5708,7 @@ stopping
 )
 {
 return
-LOG_ERROR
+RTC_LOG_ERROR
 (
 RTCError
 :
@@ -5758,7 +5758,7 @@ kStopped
 )
 {
 return
-LOG_ERROR
+RTC_LOG_ERROR
 (
 RTCError
 :
@@ -5885,7 +5885,7 @@ false
 )
 {
 return
-LOG_ERROR
+RTC_LOG_ERROR
 (
 RTCError
 :

@@ -1061,7 +1061,7 @@ size
 )
 {
 return
-LOG_ERROR
+RTC_LOG_ERROR
 (
 RTCError
 :
@@ -1478,7 +1478,7 @@ stopping
 )
 {
 return
-LOG_ERROR
+RTC_LOG_ERROR
 (
 RTCError
 :
