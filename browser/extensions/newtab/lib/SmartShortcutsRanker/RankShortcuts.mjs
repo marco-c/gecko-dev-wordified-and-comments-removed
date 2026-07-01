@@ -420,7 +420,7 @@ thom_weight
 "
 def
 :
-0
+181
 }
 frec
 :
@@ -432,7 +432,7 @@ frec_weight
 "
 def
 :
-70
+0
 }
 hour
 :
@@ -480,7 +480,7 @@ rece_weight
 "
 def
 :
-30
+466
 }
 freq
 :
@@ -492,7 +492,7 @@ freq_weight
 "
 def
 :
-0
+200
 }
 refre
 :
@@ -540,7 +540,7 @@ ctr_weight
 "
 def
 :
-0
+954
 }
 bias
 :
@@ -561,10 +561,16 @@ FEATURES
 =
 [
 "
-frec
+thom
 "
 "
 rece
+"
+"
+freq
+"
+"
+ctr
 "
 ]
 ;
