@@ -149,6 +149,7 @@ rtcp_mux
 =
 false
 )
+const
 {
 if
 (
@@ -215,6 +216,7 @@ bool
 IsSet
 (
 )
+const
 {
 return
 value
