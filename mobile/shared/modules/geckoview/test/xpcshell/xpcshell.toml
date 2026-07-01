@@ -49,13 +49,6 @@ js
 ]
 [
 "
-test_GeckoViewAppConstants
-.
-js
-"
-]
-[
-"
 test_GeckoViewTrackingDB
 .
 js
