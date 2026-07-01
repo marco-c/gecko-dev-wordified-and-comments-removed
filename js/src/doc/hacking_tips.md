@@ -2456,10 +2456,6 @@ end
 #
 #
 Printing
-asm
-.
-js
-/
 wasm
 generated
 assembly
@@ -2501,10 +2497,6 @@ will
 trigger
 for
 _any_
-asm
-.
-js
-/
 wasm
 call
 so
@@ -3565,9 +3557,7 @@ mir
 function
 0
 (
-asm
-.
-js
+wasm
 compilation
 )
 :

@@ -8941,10 +8941,6 @@ classInfo
 objectsNonHeapElementsWasm
 "
 wasm
-/
-asm
-.
-js
 array
 buffer
 elements
@@ -8998,10 +8994,6 @@ classInfo
 objectsNonHeapElementsWasmShared
 "
 wasm
-/
-asm
-.
-js
 array
 buffer
 elements
@@ -9082,10 +9074,6 @@ AOT
 -
 compiled
 wasm
-/
-asm
-.
-js
 code
 .
 "

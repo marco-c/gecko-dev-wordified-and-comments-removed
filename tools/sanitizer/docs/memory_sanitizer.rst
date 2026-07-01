@@ -1133,10 +1133,6 @@ This
 includes
 the
 JITs
-and
-asm
-.
-js
 .
 Therefore
 always
@@ -1155,11 +1151,6 @@ ion
 no
 -
 baseline
--
--
-no
--
-asmjs
 -
 -
 no

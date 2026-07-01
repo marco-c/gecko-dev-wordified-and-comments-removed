@@ -90,12 +90,6 @@ dbg
 ;
 dbg
 .
-allowUnobservedAsmJS
-=
-true
-;
-dbg
-.
 allowUnobservedWasm
 =
 true

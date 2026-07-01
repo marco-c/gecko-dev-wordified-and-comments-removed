@@ -1983,14 +1983,6 @@ re
 ^
 call
 to
-(
-?
-:
-asm
-.
-js
-)
-?
 native
 (
 .

@@ -1035,9 +1035,7 @@ for
 memory
 accesses
 in
-asm
-.
-js
+wasm
 .
 #
 #

@@ -227,17 +227,6 @@ browser_dbg
 -
 features
 -
-asm
-.
-js
-"
-]
-[
-"
-browser_dbg
--
-features
--
 breakable
 -
 lines

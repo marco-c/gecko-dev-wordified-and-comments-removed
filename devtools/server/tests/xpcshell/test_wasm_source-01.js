@@ -37,9 +37,6 @@ gThreadFront
 reconfigure
 (
 {
-observeAsmJS
-:
-true
 observeWasm
 :
 true

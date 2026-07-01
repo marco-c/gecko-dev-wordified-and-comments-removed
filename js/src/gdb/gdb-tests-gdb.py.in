@@ -64,10 +64,10 @@ current_objfile
 import
 mozilla
 .
-asmjs
+wasm_trap
 mozilla
 .
-asmjs
+wasm_trap
 .
 install
 (

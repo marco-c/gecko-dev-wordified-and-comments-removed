@@ -129,10 +129,8 @@ arguments
 name
 :
 "
-asm
-.
-js
-module
+AsmModule
+call
 "
 fn
 :
