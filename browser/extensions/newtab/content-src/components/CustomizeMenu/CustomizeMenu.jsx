@@ -1297,6 +1297,15 @@ props
 .
 mayHaveCrosswordWidget
 }
+mayHaveStocksWidget
+=
+{
+this
+.
+props
+.
+mayHaveStocksWidget
+}
 dispatch
 =
 {
