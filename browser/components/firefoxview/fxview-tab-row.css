@@ -316,7 +316,11 @@ columns
 min
 -
 content
-auto
+minmax
+(
+0
+1fr
+)
 ;
 }
 &
