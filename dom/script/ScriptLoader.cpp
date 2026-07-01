@@ -3704,12 +3704,6 @@ IsDelayingReady
 )
 )
 ;
-EmulateNetworkEvents
-(
-aRequest
-aCharsetForPreload
-)
-;
 aRequest
 -
 >
@@ -3755,6 +3749,12 @@ IsRetrievedFromMemoryCache
 )
 )
 {
+EmulateNetworkEvents
+(
+aRequest
+aCharsetForPreload
+)
+;
 nsCOMPtr
 <
 nsIRunnable
