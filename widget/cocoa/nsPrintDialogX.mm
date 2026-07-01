@@ -1026,13 +1026,7 @@ NSPrintInfo
 *
 result
 =
-[
-[
-NSPrintOperation
-currentOperation
-]
 printInfo
-]
 ;
 [
 NSPrintOperation
