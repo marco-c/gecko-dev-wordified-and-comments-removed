@@ -109,6 +109,11 @@ defined
 (
 WEBRTC_IOS
 )
+[
+[
+deprecated
+]
+]
 std
 :
 :
