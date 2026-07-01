@@ -761,6 +761,13 @@ xhtml
 ]
 [
 "
+test_segmented_control
+.
+html
+"
+]
+[
+"
 test_tree_column_reorder
 .
 xhtml
