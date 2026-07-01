@@ -807,6 +807,17 @@ GetAudioDeviceStats
 )
 override
 ;
+bool
+NeedsAuxiliaryCodecsAdded
+(
+)
+const
+override
+{
+return
+true
+;
+}
 private
 :
 const

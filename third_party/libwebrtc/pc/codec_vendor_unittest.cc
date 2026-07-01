@@ -1914,7 +1914,10 @@ foo
 "
 )
 ;
-auto
+RTCErrorOr
+<
+PayloadType
+>
 pt_or_error
 =
 pt_suggester
@@ -1923,6 +1926,7 @@ SuggestPayloadType
 (
 mid
 some_codec
+false
 )
 ;
 ASSERT_THAT
@@ -2058,7 +2062,10 @@ foo
 "
 )
 ;
-auto
+RTCErrorOr
+<
+PayloadType
+>
 pt_or_error
 =
 pt_suggester
@@ -2067,6 +2074,7 @@ SuggestPayloadType
 (
 mid
 some_codec
+false
 )
 ;
 ASSERT_THAT
@@ -2918,6 +2926,8 @@ push_back
 some_codec
 )
 ;
+RTC_CHECK
+(
 pt_suggester
 .
 AddLocalMapping
@@ -2925,6 +2935,11 @@ AddLocalMapping
 mid
 97
 some_codec
+)
+.
+ok
+(
+)
 )
 ;
 Codec
