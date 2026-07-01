@@ -5253,7 +5253,7 @@ disp
 )
 const
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 numSafepointIndices
 (
@@ -5342,7 +5342,7 @@ displacement
 (
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 min
 <

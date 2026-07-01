@@ -15061,7 +15061,7 @@ reg
 )
 const
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 reg
 .
@@ -15111,7 +15111,7 @@ getRegisterDumpOffsetInBytes
 (
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 (
 offset
@@ -15126,16 +15126,9 @@ T
 0
 )
 ;
-MOZ_ASSERT
-(
+MOZ_RELEASE_ASSERT
 (
 offset
-+
-sizeof
-(
-T
-)
-)
 <
 =
 sizeof
@@ -15144,6 +15137,11 @@ RegisterDump
 :
 :
 FPUArray
+)
+-
+sizeof
+(
+T
 )
 )
 ;
