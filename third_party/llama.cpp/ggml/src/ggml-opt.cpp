@@ -4135,6 +4135,14 @@ opt_ctx
 ctx_cpu
 )
 ;
+ggml_free
+(
+opt_ctx
+-
+>
+ctx_copy
+)
+;
 delete
 opt_ctx
 ;
