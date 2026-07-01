@@ -28,6 +28,13 @@ js
 ]
 [
 "
+test_l10nregistry_observer
+.
+js
+"
+]
+[
+"
 test_l10nregistry_sync
 .
 js
