@@ -610,9 +610,13 @@ kInstrSize
 .
 guardSize
 =
-2
+1
 .
 headerSize
+=
+1
+.
+veneerSize
 =
 2
 .

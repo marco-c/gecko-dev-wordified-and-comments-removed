@@ -247,6 +247,10 @@ headerSize
 =
 1
 .
+veneerSize
+=
+1
+.
 pcBias
 =
 0

@@ -1315,6 +1315,9 @@ unsigned
 headerSize
 ;
 unsigned
+veneerSize
+;
+unsigned
 pcBias
 ;
 uint32_t
@@ -1401,7 +1404,7 @@ VeneerSize
 =
 settings
 .
-guardSize
+veneerSize
 ;
 static
 constexpr
