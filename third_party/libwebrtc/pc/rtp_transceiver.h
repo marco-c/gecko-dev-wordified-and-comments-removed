@@ -1461,6 +1461,11 @@ HasChannel
 )
 const
 {
+RTC_DCHECK_RUN_ON
+(
+thread_
+)
+;
 return
 channel_
 !
