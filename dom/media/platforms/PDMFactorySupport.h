@@ -174,13 +174,9 @@ aDiagnostics
 ;
 }
 static
-void
+bool
 EnsureInvalidationListenersRegistered
 (
-const
-StaticMutexAutoLock
-&
-aProofOfLock
 )
 ;
 static
