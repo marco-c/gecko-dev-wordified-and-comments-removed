@@ -13835,7 +13835,7 @@ GetDoc
 )
 -
 >
-WarnOnceAbout
+WarnOnceAndReportAbout
 (
 DeprecatedOperations
 :

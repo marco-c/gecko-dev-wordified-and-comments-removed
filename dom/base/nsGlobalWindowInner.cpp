@@ -16257,7 +16257,7 @@ doc
 doc
 -
 >
-WarnOnceAbout
+WarnOnceAndReportAbout
 (
 DeprecatedOperations
 :
@@ -16806,7 +16806,7 @@ GetExtantDoc
 )
 -
 >
-WarnOnceAbout
+WarnOnceAndReportAbout
 (
 DeprecatedOperations
 :

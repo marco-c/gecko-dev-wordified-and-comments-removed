@@ -2480,7 +2480,7 @@ GetExtantDoc
 doc
 -
 >
-WarnOnceAbout
+WarnOnceAndReportAbout
 (
 DeprecatedOperations
 :

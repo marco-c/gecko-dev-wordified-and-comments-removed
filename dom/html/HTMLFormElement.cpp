@@ -2963,7 +2963,7 @@ OwnerDoc
 )
 -
 >
-WarnOnceAbout
+WarnOnceAndReportAbout
 (
 DeprecatedOperations
 :

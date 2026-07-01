@@ -775,7 +775,7 @@ OwnerDoc
 )
 -
 >
-WarnOnceAbout
+WarnOnceAndReportAbout
 (
 dom
 :
@@ -1349,7 +1349,7 @@ aString
 ;
 aDocument
 .
-WarnOnceAbout
+WarnOnceAndReportAbout
 (
 dom
 :
@@ -3116,7 +3116,7 @@ Document
 (
 )
 .
-WarnOnceAbout
+WarnOnceAndReportAbout
 (
 dom
 :

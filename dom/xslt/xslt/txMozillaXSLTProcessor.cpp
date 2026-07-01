@@ -6622,7 +6622,7 @@ GetExtantDoc
 )
 -
 >
-WarnOnceAbout
+WarnOnceAndReportAbout
 (
 DeprecatedOperations
 :

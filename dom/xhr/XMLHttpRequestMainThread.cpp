@@ -7009,7 +7009,7 @@ GetExtantDoc
 )
 -
 >
-WarnOnceAbout
+WarnOnceAndReportAbout
 (
 DeprecatedOperations
 :

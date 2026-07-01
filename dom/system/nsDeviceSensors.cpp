@@ -3100,7 +3100,7 @@ doc
 doc
 -
 >
-WarnOnceAbout
+WarnOnceAndReportAbout
 (
 DeprecatedOperations
 :
@@ -3152,7 +3152,7 @@ doc
 doc
 -
 >
-WarnOnceAbout
+WarnOnceAndReportAbout
 (
 DeprecatedOperations
 :
@@ -3192,13 +3192,12 @@ doc
 doc
 -
 >
-WarnOnceAbout
+WarnOnceAndReportAbout
 (
 DeprecatedOperations
 :
 :
 eProximityEvent
-true
 )
 ;
 }
@@ -3233,13 +3232,12 @@ doc
 doc
 -
 >
-WarnOnceAbout
+WarnOnceAndReportAbout
 (
 DeprecatedOperations
 :
 :
 eAmbientLightEvent
-true
 )
 ;
 }
