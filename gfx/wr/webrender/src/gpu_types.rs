@@ -3020,7 +3020,7 @@ bounds
 :
 LayoutOrDeviceRect
 pub
-pattern_rect
+clip
 :
 LayoutOrDeviceRect
 pub
@@ -3075,7 +3075,7 @@ push_one
 (
 self
 .
-pattern_rect
+clip
 )
 ;
 writer
