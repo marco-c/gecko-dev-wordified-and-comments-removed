@@ -685,6 +685,10 @@ HappyEyeballsConnectionAttempt
 ;
 friend
 class
+DefaultHappyEyeballsConnMgrDelegate
+;
+friend
+class
 PendingTransactionInfo
 ;
 friend
