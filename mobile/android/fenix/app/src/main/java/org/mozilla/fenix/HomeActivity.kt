@@ -973,6 +973,16 @@ fenix
 .
 components
 .
+DefaultShortcutManagerCompatWrapper
+import
+org
+.
+mozilla
+.
+fenix
+.
+components
+.
 appstate
 .
 AppAction
@@ -2552,6 +2562,9 @@ lazy
 UninstallSurveyManager
 (
 this
+DefaultShortcutManagerCompatWrapper
+(
+)
 )
 }
 /
@@ -4076,6 +4089,8 @@ uninstallSurveyManager
 showUninstallSurvey
 (
 intent
+.
+action
 navHost
 .
 navController
