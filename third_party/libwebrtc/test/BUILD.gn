@@ -8844,6 +8844,13 @@ video_codec_tester
 "
 )
 {
+visibility
+=
+[
+"
+*
+"
+]
 testonly
 =
 true
