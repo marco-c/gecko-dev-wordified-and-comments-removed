@@ -579,7 +579,7 @@ this
 }
 /
 /
-UrlbarController
+UrlbarChildController
 listener
 methods
 .

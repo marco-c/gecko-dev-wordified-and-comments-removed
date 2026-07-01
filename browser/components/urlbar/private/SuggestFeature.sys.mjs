@@ -2230,7 +2230,7 @@ context
 *
 param
 {
-UrlbarController
+UrlbarParentController
 }
 controller
 *
@@ -2368,7 +2368,7 @@ context
 *
 param
 {
-UrlbarController
+UrlbarParentController
 }
 controller
 *
@@ -2988,7 +2988,7 @@ context
 *
 param
 {
-UrlbarController
+UrlbarParentController
 }
 controller
 *

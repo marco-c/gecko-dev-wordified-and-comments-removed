@@ -277,7 +277,7 @@ object
 *
 param
 {
-UrlbarController
+UrlbarParentController
 }
 _controller
 The

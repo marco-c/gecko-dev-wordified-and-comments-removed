@@ -80,7 +80,7 @@ such
 providers
 and
 a
-UrlbarController
+UrlbarParentController
 .
 *
 /
@@ -2856,14 +2856,14 @@ object
 param
 {
 ?
-UrlbarController
+UrlbarParentController
 }
 [
 controller
 ]
 *
 a
-UrlbarController
+UrlbarParentController
 instance
 *
 /
@@ -3874,7 +3874,7 @@ any
 *
 param
 {
-UrlbarController
+UrlbarParentController
 }
 controller
 *
@@ -4393,7 +4393,7 @@ context
 param
 {
 ?
-UrlbarController
+UrlbarParentController
 }
 controller
 *

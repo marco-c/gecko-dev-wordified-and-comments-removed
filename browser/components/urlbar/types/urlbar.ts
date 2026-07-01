@@ -37,11 +37,6 @@ mjs
 UrlbarParentController
 ;
 type
-UrlbarController
-=
-UrlbarParentController
-;
-type
 UrlbarInput
 =
 import

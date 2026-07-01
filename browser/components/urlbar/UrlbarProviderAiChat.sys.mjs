@@ -646,7 +646,7 @@ object
 *
 param
 {
-UrlbarController
+UrlbarParentController
 }
 [
 controller

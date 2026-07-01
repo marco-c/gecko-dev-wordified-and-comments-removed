@@ -6841,7 +6841,7 @@ true
 }
 /
 /
-UrlbarController
+UrlbarChildController
 listener
 methods
 .

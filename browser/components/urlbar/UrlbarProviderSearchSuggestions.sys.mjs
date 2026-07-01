@@ -1629,11 +1629,11 @@ result
 *
 param
 {
-UrlbarController
+UrlbarParentController
 }
 controller
 The
-UrlbarController
+UrlbarParentController
 instance
 .
 *

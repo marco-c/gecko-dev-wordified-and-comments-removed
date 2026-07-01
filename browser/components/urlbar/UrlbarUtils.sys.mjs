@@ -21595,7 +21595,7 @@ object
 *
 param
 {
-UrlbarController
+UrlbarParentController
 }
 [
 _controller
@@ -21830,7 +21830,7 @@ result
 *
 param
 {
-UrlbarController
+UrlbarParentController
 }
 _controller
 *
@@ -22013,7 +22013,7 @@ abandonment
 *
 param
 {
-UrlbarController
+UrlbarParentController
 }
 _controller
 *
@@ -22402,7 +22402,7 @@ abandonment
 *
 param
 {
-UrlbarController
+UrlbarParentController
 }
 _controller
 *
@@ -22561,7 +22561,7 @@ context
 *
 param
 {
-UrlbarController
+UrlbarParentController
 }
 _controller
 *
@@ -22748,7 +22748,7 @@ context
 *
 param
 {
-UrlbarController
+UrlbarParentController
 }
 _controller
 *
