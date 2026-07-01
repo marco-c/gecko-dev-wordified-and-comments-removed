@@ -1096,6 +1096,12 @@ StopObservingGVAutoplayIfNeeded
 )
 ;
 bool
+ShouldDelayPlayUntilGVAutoplayRequestResolved
+(
+)
+const
+;
+bool
 ShouldCheckAllowOrigin
 (
 )

@@ -31,7 +31,7 @@ inline
 constexpr
 const
 char
-kGVAutoplayAllowedTopic
+kGVAutoplayRequestStatusChangedTopic
 [
 ]
 =
@@ -40,7 +40,11 @@ geckoview
 -
 autoplay
 -
-allowed
+request
+-
+status
+-
+changed
 "
 ;
 class
