@@ -105,8 +105,6 @@ already_AddRefed
 <
 T
 >
-&
-&
 aValue
 )
 :
@@ -521,8 +519,6 @@ already_AddRefed
 <
 T
 >
-&
-&
 aValue
 )
 :

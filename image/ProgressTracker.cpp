@@ -705,8 +705,6 @@ already_AddRefed
 <
 AsyncNotifyRunnable
 >
-&
-&
 aEvent
 )
 :
@@ -813,8 +811,6 @@ already_AddRefed
 <
 AsyncNotifyRunnable
 >
-&
-&
 aEvent
 )
 {

@@ -6551,8 +6551,6 @@ image
 :
 Image
 >
-&
-&
 aImage
 const
 StaticMutexAutoLock
