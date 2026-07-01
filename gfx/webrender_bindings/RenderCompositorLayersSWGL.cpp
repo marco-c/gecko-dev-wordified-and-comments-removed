@@ -1890,6 +1890,14 @@ image
 AsRenderEGLImageTextureHost
 (
 )
+|
+|
+image
+-
+>
+AsRenderAndroidImageReaderImageTextureHost
+(
+)
 )
 ;
 #

@@ -128,6 +128,9 @@ class
 RenderAndroidHardwareBufferTextureHost
 ;
 class
+RenderAndroidImageReaderImageTextureHost
+;
+class
 RenderAndroidSurfaceTextureHost
 ;
 class
@@ -528,6 +531,17 @@ virtual
 RenderAndroidHardwareBufferTextureHost
 *
 AsRenderAndroidHardwareBufferTextureHost
+(
+)
+{
+return
+nullptr
+;
+}
+virtual
+RenderAndroidImageReaderImageTextureHost
+*
+AsRenderAndroidImageReaderImageTextureHost
 (
 )
 {
