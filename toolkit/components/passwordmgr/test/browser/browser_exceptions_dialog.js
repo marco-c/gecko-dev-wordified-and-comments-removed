@@ -786,6 +786,11 @@ key
 "
 )
 ;
+await
+btnBlock
+.
+updateComplete
+;
 EventUtils
 .
 sendKey
