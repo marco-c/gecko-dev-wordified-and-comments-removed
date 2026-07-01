@@ -8620,6 +8620,7 @@ stack
 traceSuspended
 (
 trc
+nullptr
 )
 ;
 }

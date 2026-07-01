@@ -160,6 +160,9 @@ struct
 Handlers
 ;
 class
+Instance
+;
+class
 ContStack
 ;
 class
@@ -849,6 +852,9 @@ traceSuspended
 JSTracer
 *
 trc
+JSObject
+*
+src
 )
 ;
 void
