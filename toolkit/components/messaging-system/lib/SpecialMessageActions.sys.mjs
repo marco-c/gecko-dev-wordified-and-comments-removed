@@ -5938,9 +5938,8 @@ tab
 group
 .
 nextElementSibling
-.
-.
-.
+metricsContext
+:
 window
 .
 gBrowser
@@ -6020,9 +6019,8 @@ tab
 insertBefore
 :
 tab
-.
-.
-.
+metricsContext
+:
 window
 .
 gBrowser
