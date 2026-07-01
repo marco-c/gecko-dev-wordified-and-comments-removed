@@ -200,6 +200,13 @@ parent
 }
 .
 dialogRow
+:
+not
+(
+[
+hidden
+]
+)
 {
 display
 :

@@ -330,6 +330,13 @@ max
 }
 #
 rememberContainer
+:
+not
+(
+[
+hidden
+]
+)
 {
 /
 *

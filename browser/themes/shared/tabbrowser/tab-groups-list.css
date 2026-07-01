@@ -61,6 +61,13 @@ tab
 groups
 -
 list
+:
+not
+(
+[
+hidden
+]
+)
 {
 display
 :

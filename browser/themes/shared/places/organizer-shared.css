@@ -123,6 +123,13 @@ box
 /
 #
 infoBox
+:
+not
+(
+[
+hidden
+]
+)
 {
 display
 :
@@ -145,6 +152,13 @@ auto
 caption
 -
 label
+:
+not
+(
+[
+hidden
+]
+)
 {
 display
 :
