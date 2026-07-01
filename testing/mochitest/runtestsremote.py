@@ -664,14 +664,6 @@ self
 appName
 )
         
-self
-.
-isolatedProcess
-=
-options
-.
-isolated_process
-        
 if
 self
 .
@@ -2212,23 +2204,6 @@ MOZ_UPLOAD_DIR
 self
 .
 remoteMozLog
-        
-if
-self
-.
-isolatedProcess
-:
-            
-browserEnv
-[
-"
-MOZ_CONTENT_SERVICE_ISOLATED_PROCESS
-"
-]
-=
-"
-1
-"
         
 return
 browserEnv
