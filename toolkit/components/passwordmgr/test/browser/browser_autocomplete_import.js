@@ -773,7 +773,7 @@ popup
 querySelector
 (
 [
-originaltype
+type
 =
 "
 importableLearnMore
