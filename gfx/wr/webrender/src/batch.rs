@@ -6012,9 +6012,12 @@ i32
 let
 user_data
 =
-filter_data
+picture_scratch
 .
-gpu_buffer_address
+extra_gpu_data
+[
+0
+]
 .
 as_int
 (
