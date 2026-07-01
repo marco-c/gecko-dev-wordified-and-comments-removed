@@ -5468,15 +5468,14 @@ items
 :
                 
 if
-(
-                    
 "
 win
 "
 in
 test_platform
+:
                     
-and
+if
 "
 win64
 -
@@ -5485,10 +5484,8 @@ samply
 not
 in
 test_platform_config
-                
-)
 :
-                    
+                        
 test_platform_config
 .
 append
@@ -5497,6 +5494,32 @@ append
 win64
 -
 samply
+"
+)
+                    
+if
+"
+profiler
+-
+node
+-
+tools
+"
+not
+in
+test_platform_config
+:
+                        
+test_platform_config
+.
+append
+(
+"
+profiler
+-
+node
+-
+tools
 "
 )
         

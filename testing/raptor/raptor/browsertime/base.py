@@ -8072,7 +8072,7 @@ self
 .
 etw_profiler
 .
-archive
+post_process_profiles
 (
 )
                     
