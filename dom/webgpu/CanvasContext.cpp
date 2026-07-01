@@ -2175,13 +2175,6 @@ GetClient
 )
 )
 ;
-mChild
--
->
-FlushQueuedMessages
-(
-)
-;
 RefPtr
 <
 gfx
