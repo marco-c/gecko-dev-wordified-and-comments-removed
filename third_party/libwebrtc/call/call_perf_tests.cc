@@ -1703,7 +1703,7 @@ PacketTransport
 >
 (
 send_env_
-task_queue
+network_thread
 (
 )
 sender_call_
@@ -1784,7 +1784,7 @@ PacketTransport
 >
 (
 send_env_
-task_queue
+network_thread
 (
 )
 sender_call_
@@ -1867,7 +1867,7 @@ PacketTransport
 >
 (
 recv_env_
-task_queue
+network_thread
 (
 )
 receiver_call_
