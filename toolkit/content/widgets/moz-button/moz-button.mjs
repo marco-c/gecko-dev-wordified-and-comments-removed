@@ -1271,7 +1271,7 @@ with
 multiple
 types
 and
-two
+three
 sizes
 .
 *
@@ -1337,6 +1337,7 @@ Options
 :
 default
 small
+large
 .
 *
 property
