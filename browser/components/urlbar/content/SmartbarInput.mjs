@@ -41761,17 +41761,6 @@ this
 sapName
 maxResults
 searchString
-excludeSponsoredResults
-:
-this
-.
-sapName
-=
-=
-=
-"
-smartbar
-"
 prohibitRemoteResults
 :
 event

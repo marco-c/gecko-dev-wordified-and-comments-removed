@@ -1092,9 +1092,6 @@ supportedSAPs
 :
 [
 "
-smartbar
-"
-"
 urlbar
 "
 ]
