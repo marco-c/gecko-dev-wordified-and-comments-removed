@@ -3022,6 +3022,17 @@ b
 )
 {
 return
+(
+a
+.
+offset
+>
+b
+.
+offset
+)
+-
+(
 a
 .
 offset
@@ -3029,6 +3040,7 @@ offset
 b
 .
 offset
+)
 ;
 }
 )

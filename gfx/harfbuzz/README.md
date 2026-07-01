@@ -1971,6 +1971,7 @@ Android
 Chrome
 ChromeOS
 Firefox
+Flutter
 GNOME
 GTK
 +

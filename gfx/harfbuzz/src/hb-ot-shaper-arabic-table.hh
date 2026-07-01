@@ -2063,7 +2063,7 @@ ligature
 }
 ligatures
 [
-14
+15
 ]
 ;
 }
@@ -2315,6 +2315,12 @@ ligature_table
 0xFEE4u
 }
 0xFCCCu
+}
+{
+{
+0xFEF0u
+}
+0xFC43u
 }
 {
 {

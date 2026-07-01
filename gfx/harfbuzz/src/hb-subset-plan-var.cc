@@ -201,6 +201,9 @@ minor
 ;
 }
 }
+#
+ifndef
+HB_NO_OT_FONT_CFF
 static
 inline
 hb_font_t
@@ -318,6 +321,8 @@ return
 font
 ;
 }
+#
+endif
 template
 <
 typename
@@ -1529,6 +1534,9 @@ return
 true
 ;
 }
+#
+ifndef
+HB_NO_OT_FONT_CFF
 void
 update_instance_metrics_map_from_cff2
 (
@@ -2194,6 +2202,8 @@ vvar_store_cache
 )
 ;
 }
+#
+endif
 bool
 get_instance_glyphs_contour_points
 (
