@@ -122,7 +122,9 @@ aContentParentHandle
 SharedWorkerParent
 *
 aActor
+const
 RemoteWorkerData
+&
 aData
 uint64_t
 aWindowID

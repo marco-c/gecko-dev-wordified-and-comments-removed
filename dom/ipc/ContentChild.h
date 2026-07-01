@@ -5127,11 +5127,6 @@ aContentChild
 )
 ;
 }
-nsCString
-CurrentRemoteType
-(
-)
-;
 }
 }
 #
