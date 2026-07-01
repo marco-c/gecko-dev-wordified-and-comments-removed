@@ -7363,6 +7363,11 @@ moduleSourceObject
 }
 else
 {
+MOZ_ASSERT
+(
+importName
+)
+;
 ModuleErrorInfo
 errorInfo
 {
