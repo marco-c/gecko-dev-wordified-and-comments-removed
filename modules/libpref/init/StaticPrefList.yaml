@@ -25773,15 +25773,10 @@ mirror
 always
 #
 if
+!
 defined
 (
-MOZ_WIDGET_COCOA
-)
-|
-|
-defined
-(
-MOZ_WIDGET_GTK
+ANDROID
 )
 #
 Whether
