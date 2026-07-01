@@ -197,6 +197,10 @@ dom
 BrowserParent
 *
 aBrowserParent
+const
+bool
+&
+aUnadjustedMovement
 nsACString
 &
 aError
@@ -212,6 +216,12 @@ dom
 BrowserParent
 *
 aBrowserParent
+)
+;
+static
+bool
+ShouldResetPointer
+(
 )
 ;
 private
