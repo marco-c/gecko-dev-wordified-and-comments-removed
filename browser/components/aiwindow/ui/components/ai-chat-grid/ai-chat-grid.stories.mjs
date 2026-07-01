@@ -132,9 +132,7 @@ MozXULElement
 insertFTLIfNeeded
 (
 "
-locales
--
-preview
+browser
 /
 aiWindow
 .
