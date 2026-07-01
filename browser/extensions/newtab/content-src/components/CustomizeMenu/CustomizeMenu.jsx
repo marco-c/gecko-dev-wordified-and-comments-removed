@@ -1288,6 +1288,15 @@ props
 .
 mayHavePrivacyWidget
 }
+mayHaveCrosswordWidget
+=
+{
+this
+.
+props
+.
+mayHaveCrosswordWidget
+}
 dispatch
 =
 {

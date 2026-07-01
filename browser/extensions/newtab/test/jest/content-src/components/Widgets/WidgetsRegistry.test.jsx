@@ -653,6 +653,8 @@ lists
 weather
 sportsWidget
 clocks
+privacy
+crossword
 "
 )
 )
@@ -677,6 +679,9 @@ clocks
 "
 "
 privacy
+"
+"
+crossword
 "
 ]
 )
@@ -730,6 +735,9 @@ focusTimer
 "
 "
 privacy
+"
+"
+crossword
 "
 ]
 )
@@ -786,6 +794,9 @@ focusTimer
 "
 "
 privacy
+"
+"
+crossword
 "
 ]
 )
@@ -904,6 +915,9 @@ weather
 "
 "
 privacy
+"
+"
+crossword
 "
 ]
 )
@@ -1037,6 +1051,9 @@ clocks
 "
 privacy
 "
+"
+crossword
+"
 ]
 )
 ;
@@ -1111,6 +1128,9 @@ clocks
 "
 "
 privacy
+"
+"
+crossword
 "
 ]
 )
@@ -1187,6 +1207,9 @@ clocks
 "
 "
 privacy
+"
+"
+crossword
 "
 ]
 )
