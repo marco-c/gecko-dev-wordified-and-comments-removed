@@ -563,11 +563,6 @@ answers
 it
 .
 answers
-maxLabelLines
-=
-it
-.
-maxNumberLines
 onPrivacyPolicyLinkClick
 =
 {
