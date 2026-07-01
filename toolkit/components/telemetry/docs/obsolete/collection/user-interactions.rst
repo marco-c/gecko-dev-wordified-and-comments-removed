@@ -249,14 +249,6 @@ a
 :
 doc
 :
-.
-.
-/
-.
-.
-/
-data
-/
 backgroundhangmonitor
 -
 ping

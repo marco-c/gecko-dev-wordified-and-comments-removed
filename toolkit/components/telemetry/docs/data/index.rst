@@ -58,9 +58,6 @@ environment
 main
 -
 ping
-backgroundhangmonitor
--
-ping
 anonymous
 -
 ping
