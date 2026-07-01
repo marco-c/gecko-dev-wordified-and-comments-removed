@@ -96,6 +96,7 @@ impl
 TimeDelta
 {
 pub
+const
 fn
 ms
 (
@@ -113,6 +114,7 @@ microseconds
 1000
 }
 pub
+const
 fn
 us
 (
@@ -128,6 +130,7 @@ self
 microseconds
 }
 pub
+const
 fn
 from_millis
 (
@@ -149,6 +152,7 @@ value
 }
 }
 pub
+const
 fn
 from_micros
 (
@@ -168,6 +172,7 @@ value
 }
 }
 pub
+const
 fn
 zero
 (
@@ -184,6 +189,7 @@ microseconds
 }
 }
 pub
+const
 fn
 seconds_f64
 (
