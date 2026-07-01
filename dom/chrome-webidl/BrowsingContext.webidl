@@ -2006,6 +2006,16 @@ notifyStartDelayedAutoplayMedia
 (
 )
 ;
+[
+Throws
+]
+undefined
+notifyMediaMutedChanged
+(
+boolean
+muted
+)
+;
 readonly
 attribute
 nsISecureBrowserUI

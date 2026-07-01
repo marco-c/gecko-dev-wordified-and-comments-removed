@@ -4390,10 +4390,6 @@ aMuted
 {
 browser
 .
-browsingContext
-.
-mediaController
-.
 mute
 (
 )
@@ -4402,10 +4398,6 @@ mute
 else
 {
 browser
-.
-browsingContext
-.
-mediaController
 .
 unmute
 (
