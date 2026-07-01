@@ -769,8 +769,6 @@ HashGeneric
 -
 HashLatin1AsUTF16
 -
-HashUTF8AsUTF16
--
 HashString
 -
 HashBytes
@@ -1828,8 +1826,6 @@ IsTrailingUnit
 DecodeOneUtf8CodePointInline
 -
 DecodeOneUtf8CodePoint
--
-LossyDecodeOneUtf8CodePoint
 types
 :
 -
