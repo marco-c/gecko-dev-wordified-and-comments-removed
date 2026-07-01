@@ -5374,7 +5374,7 @@ datetime
 .
 timepicker
 "
-false
+true
 )
 ;
 pref
