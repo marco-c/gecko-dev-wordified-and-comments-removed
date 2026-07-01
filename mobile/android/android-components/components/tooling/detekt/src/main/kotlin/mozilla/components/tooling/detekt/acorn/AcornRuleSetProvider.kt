@@ -167,6 +167,10 @@ AcornThemeUsageRule
 (
 config
 )
+MaterialOutlinedButtonUsageRule
+(
+config
+)
 MaterialSwitchUsageRule
 (
 config

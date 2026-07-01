@@ -5066,6 +5066,11 @@ theme
 .
 FirefoxTheme
 '
+MaterialOutlinedButtonUsage
+:
+active
+:
+true
 MaterialSwitchUsage
 :
 active
