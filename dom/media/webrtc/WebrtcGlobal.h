@@ -932,6 +932,7 @@ dom
 RTCSentRtpStreamStats
 mRemoteId
 mFramesEncoded
+mKeyFramesEncoded
 mQpSum
 mNackCount
 mFirCount
