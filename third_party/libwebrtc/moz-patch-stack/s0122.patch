@@ -128,10 +128,10 @@ screen_capturer_sck
 .
 mm
 index
-0d0750f63e
+0691aba3e4
 .
 .
-8ec1d182a3
+e429f2c635
 100644
 -
 -
@@ -162,10 +162,10 @@ screen_capturer_sck
 .
 mm
 -
-590
+588
 7
 +
-590
+588
 8
 void
 ScreenCapturerSck

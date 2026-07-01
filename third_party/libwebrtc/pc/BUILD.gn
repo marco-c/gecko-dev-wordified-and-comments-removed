@@ -24219,9 +24219,9 @@ priority
 .
 .
 /
-media
+api
 :
-rtc_data_sctp_transport_internal
+sctp_transport_interface
 "
 "
 .

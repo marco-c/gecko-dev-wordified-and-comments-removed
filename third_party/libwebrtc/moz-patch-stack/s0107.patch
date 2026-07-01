@@ -141,10 +141,10 @@ screen_capturer_sck
 .
 mm
 index
-49c923e56b
+6a31c6a56f
 .
 .
-0d0750f63e
+0691aba3e4
 100644
 -
 -
@@ -175,10 +175,10 @@ screen_capturer_sck
 .
 mm
 -
-444
+442
 7
 +
-444
+442
 7
 bool
 ScreenCapturerSck

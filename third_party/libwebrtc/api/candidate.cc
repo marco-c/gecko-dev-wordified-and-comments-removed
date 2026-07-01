@@ -162,12 +162,6 @@ string_builder
 .
 h
 "
-using
-webrtc
-:
-:
-IceCandidateType
-;
 namespace
 webrtc
 {

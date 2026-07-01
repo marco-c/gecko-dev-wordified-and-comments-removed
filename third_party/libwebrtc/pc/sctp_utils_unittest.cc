@@ -50,11 +50,9 @@ h
 #
 include
 "
-media
+api
 /
-sctp
-/
-sctp_transport_internal
+sctp_transport_interface
 .
 h
 "
@@ -85,12 +83,6 @@ gtest
 .
 h
 "
-using
-webrtc
-:
-:
-StreamId
-;
 class
 SctpUtilsTest
 :

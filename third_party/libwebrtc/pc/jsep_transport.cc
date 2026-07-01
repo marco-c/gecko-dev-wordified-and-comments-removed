@@ -350,12 +350,6 @@ trace_event
 .
 h
 "
-using
-webrtc
-:
-:
-SdpType
-;
 namespace
 webrtc
 {
