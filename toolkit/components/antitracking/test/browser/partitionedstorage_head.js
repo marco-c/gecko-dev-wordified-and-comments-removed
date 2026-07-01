@@ -322,7 +322,7 @@ flushPrefEnv
 await
 setCookieBehaviorPref
 (
-BEHAVIOR_REJECT_TRACKER_AND_PARTITION_FOREIGN
+BEHAVIOR_PARTITION_FOREIGN
 runInPrivateWindow
 )
 ;
@@ -2094,10 +2094,6 @@ cleanupFunction
 )
 ;
 }
-forceGC
-(
-)
-;
 }
 )
 ;
