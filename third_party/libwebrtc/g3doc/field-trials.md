@@ -24,11 +24,11 @@ hta
 reviewed
 :
 '
-2025
+2026
 -
-10
+04
 -
-01
+23
 '
 }
 *
@@ -61,7 +61,7 @@ trials
 .
 This
 is
-foremost
+primarily
 used
 for
 A
@@ -71,7 +71,7 @@ testing
 new
 features
 and
-are
+is
 related
 to
 [
@@ -113,7 +113,7 @@ interoperability
 A
 field
 trial
-consist
+consists
 of
 a
 key
