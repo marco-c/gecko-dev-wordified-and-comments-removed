@@ -888,6 +888,11 @@ vp8
 ivf
 "
 "
+test_hevc_open_gop
+.
+mp4
+"
+"
 test_InvalidElementId
 .
 webm
