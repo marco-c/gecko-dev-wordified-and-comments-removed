@@ -13575,6 +13575,11 @@ isFloatingType
 (
 elementType
 )
+&
+&
+JitOptions
+.
+disableCanonicalizeNaNAtUses
 )
 {
 result
@@ -17706,6 +17711,11 @@ isFloatingType
 (
 elementType
 )
+&
+&
+JitOptions
+.
+disableCanonicalizeNaNAtUses
 )
 {
 result
