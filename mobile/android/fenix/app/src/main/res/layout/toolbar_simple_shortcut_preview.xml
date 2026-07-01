@@ -246,9 +246,10 @@ app
 tint
 =
 "
-color
+?
+attr
 /
-fx_mobile_icon_color_accent_violet
+colorPrimary
 "
 app
 :
