@@ -1026,6 +1026,7 @@ testCase
 isLoggedIn
 )
 {
+await
 LoginTestUtils
 .
 primaryPassword
@@ -1082,6 +1083,7 @@ testCase
 isLoggedIn
 )
 {
+await
 LoginTestUtils
 .
 primaryPassword

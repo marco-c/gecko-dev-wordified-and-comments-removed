@@ -937,6 +937,7 @@ logins
 }
 )
 ;
+await
 LoginTestUtils
 .
 primaryPassword
@@ -1371,6 +1372,7 @@ gBrowser
 selectedTab
 )
 ;
+await
 LoginTestUtils
 .
 primaryPassword
@@ -1423,6 +1425,7 @@ logins
 }
 )
 ;
+await
 LoginTestUtils
 .
 primaryPassword
@@ -1780,6 +1783,7 @@ gBrowser
 selectedTab
 )
 ;
+await
 LoginTestUtils
 .
 primaryPassword
