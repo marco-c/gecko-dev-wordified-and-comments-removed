@@ -162,6 +162,14 @@ arrayBuffer
 [
 NewObject
 ]
+ReadableStream
+textStream
+(
+)
+;
+[
+NewObject
+]
 Promise
 <
 Uint8Array

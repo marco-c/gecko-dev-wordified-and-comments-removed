@@ -246,6 +246,14 @@ text
 (
 )
 ;
+[
+NewObject
+]
+ReadableStream
+textStream
+(
+)
+;
 }
 ;
 typedef

@@ -236,14 +236,6 @@ unsigned
 long
 selectionEnd
 ;
-unsigned
-long
-compositionStart
-;
-unsigned
-long
-compositionEnd
-;
 }
 ;
 [
