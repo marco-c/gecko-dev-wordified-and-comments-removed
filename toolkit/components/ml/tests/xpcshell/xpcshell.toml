@@ -59,6 +59,13 @@ js
 ]
 [
 "
+test_download_rs_attachment_failure
+.
+js
+"
+]
+[
+"
 test_json_policy_system
 .
 js
