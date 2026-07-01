@@ -2204,6 +2204,7 @@ run_filename
         
 raw_log_file
 error_summary_file
+test_summary_file
 =
 self
 .
@@ -2357,6 +2358,12 @@ error_summary_file
 "
 :
 error_summary_file
+            
+"
+test_summary_file
+"
+:
+test_summary_file
             
 "
 xpcshell_extra

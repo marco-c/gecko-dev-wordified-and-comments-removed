@@ -2382,6 +2382,7 @@ abs_test_install_dir
         
 raw_log_file
 error_summary_file
+_test_summary_file
 =
 self
 .
