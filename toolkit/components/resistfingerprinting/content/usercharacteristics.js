@@ -7894,6 +7894,13 @@ woff
 '
 )
 "
+{
+style
+:
+"
+italic
+"
+}
 )
 ;
 if
