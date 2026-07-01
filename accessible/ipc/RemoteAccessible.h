@@ -1892,6 +1892,12 @@ RetrieveCachedBounds
 )
 const
 ;
+LayoutDeviceIntRect
+ComputeBoundsFromContent
+(
+)
+const
+;
 bool
 ApplyTransform
 (
