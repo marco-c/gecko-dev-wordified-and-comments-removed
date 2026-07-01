@@ -199,7 +199,7 @@ String
 manufacturerChecker
 :
 ManufacturerChecker
-func
+jexlEvaluator
 :
 (
 String
@@ -227,13 +227,17 @@ on
 Nimbus
 configuration
 return
+asSequence
+(
+)
+.
 filter
 {
 it
 .
 shouldDisplayCard
 (
-func
+jexlEvaluator
 jexlConditions
 )
 }
@@ -327,6 +331,10 @@ toPageUiData
 (
 )
 }
+.
+toList
+(
+)
 }
 private
 fun
@@ -428,7 +436,7 @@ displayed
 *
 *
 param
-func
+jexlEvaluator
 Function
 that
 receives
@@ -443,6 +451,7 @@ and
 returns
 its
 JEXL
+*
 evaluation
 as
 a
@@ -485,7 +494,7 @@ OnboardingCardData
 .
 shouldDisplayCard
 (
-func
+jexlEvaluator
 :
 (
 String
@@ -649,7 +658,7 @@ getOrPut
 condition
 )
 {
-func
+jexlEvaluator
 (
 condition
 )
@@ -696,7 +705,7 @@ getOrPut
 condition
 )
 {
-func
+jexlEvaluator
 (
 condition
 )
