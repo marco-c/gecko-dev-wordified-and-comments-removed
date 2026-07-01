@@ -563,7 +563,7 @@ termsofuse
 ftl
 "
 "
-browser
+preview
 /
 aiWindow
 .
@@ -749,7 +749,7 @@ termsofuse
 ftl
 "
 "
-browser
+preview
 /
 aiWindow
 .
