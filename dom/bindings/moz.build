@@ -891,6 +891,13 @@ h
 "
 test
 /
+TestInterfaceObservableArrayBase
+.
+h
+"
+"
+test
+/
 TestInterfaceSetlike
 .
 h
