@@ -1179,6 +1179,10 @@ SharedContextWebgl
 (
 )
 {
+DetachWeakPtr
+(
+)
+;
 if
 (
 mWebgl
