@@ -604,10 +604,15 @@ runtime
 .
 val
 docletJar
-by
+=
 configurations
 .
-creating
+create
+(
+"
+docletJar
+"
+)
 dependencies
 {
 docletJar

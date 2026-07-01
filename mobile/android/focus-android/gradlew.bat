@@ -229,7 +229,7 @@ rem
 #
 rem
 rem
-Gradle
+gradlew
 startup
 script
 for
@@ -646,7 +646,7 @@ command
 line
 rem
 Execute
-Gradle
+gradlew
 rem
 endlocal
 doesn

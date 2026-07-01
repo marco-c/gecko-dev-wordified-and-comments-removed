@@ -224,7 +224,7 @@ Apache
 #
 #
 #
-Gradle
+gradlew
 start
 up
 script
@@ -299,7 +299,7 @@ like
 #
 #
 ksh
-Gradle
+gradlew
 #
 #
 Busybox
