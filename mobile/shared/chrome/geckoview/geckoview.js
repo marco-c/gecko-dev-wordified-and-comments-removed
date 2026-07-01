@@ -2213,6 +2213,9 @@ MozPaintStatusReset
 contextmenu
 :
 {
+mozSystemGroup
+:
+true
 }
 }
 }
