@@ -401,6 +401,9 @@ sources
 [
 sourceId
 ]
+?
+.
+sourceText
 ;
 if
 (

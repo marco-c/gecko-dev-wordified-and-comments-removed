@@ -254,7 +254,7 @@ message
 function
 getJSSources
 (
-sourceUuids
+sourceIds
 expectError
 =
 false
@@ -564,7 +564,7 @@ type
 GET_JS_SOURCES
 "
 requestId
-sourceUuids
+sourceIds
 }
 }
 )
@@ -654,7 +654,7 @@ request
 test
 case
 where
-sourceUuids
+sourceIds
 is
 intentionally
 not
@@ -679,7 +679,7 @@ params
 get
 (
 "
-sourceUuids
+sourceIds
 "
 )
 ;
@@ -709,7 +709,7 @@ params
 get
 (
 "
-sourceUuids
+sourceIds
 "
 )
 |
@@ -1041,7 +1041,7 @@ error
 includes
 (
 "
-sourceUuids
+sourceIds
 must
 be
 an
