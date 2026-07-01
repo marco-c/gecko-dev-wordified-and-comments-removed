@@ -326,8 +326,8 @@ assumption
 )
 .
 Keeping
-this
-file
+these
+files
 out
 of
 the
@@ -345,6 +345,11 @@ SOURCES
 [
 "
 TestCacheCrypto
+.
+cpp
+"
+"
+TestHappyEyeballsConnectionAttempt
 .
 cpp
 "
