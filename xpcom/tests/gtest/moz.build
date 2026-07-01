@@ -158,6 +158,11 @@ TestGCPostBarriers
 cpp
 "
 "
+TestHex
+.
+cpp
+"
+"
 TestID
 .
 cpp
@@ -858,6 +863,11 @@ SOURCES
 +
 =
 [
+"
+TestAsyncPlatformPipes
+.
+cpp
+"
 "
 TestCOMArray
 .

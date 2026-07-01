@@ -454,6 +454,11 @@ mozilla
 =
 [
 "
+AsyncPlatformPipes
+.
+h
+"
+"
 Base64
 .
 h
@@ -465,6 +470,11 @@ h
 "
 "
 FixedBufferOutputStream
+.
+h
+"
+"
+Hex
 .
 h
 "
@@ -529,6 +539,11 @@ UNIFIED_SOURCES
 =
 [
 "
+AsyncPlatformPipes
+.
+cpp
+"
+"
 Base64
 .
 cpp
@@ -550,6 +565,11 @@ cpp
 "
 "
 FixedBufferOutputStream
+.
+cpp
+"
+"
+Hex
 .
 cpp
 "
