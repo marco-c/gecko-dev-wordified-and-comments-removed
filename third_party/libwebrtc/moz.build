@@ -3631,7 +3631,7 @@ congestion_controller
 /
 scream
 /
-loss_rate_estimator_gn
+loss_estimator_gn
 "
 "
 /
