@@ -667,7 +667,7 @@ equal
 (
 mock
 .
-pinCurrentAppToTaskbar
+pinCurrentAppToTaskbarAsync
 .
 callCount
 0
@@ -690,7 +690,7 @@ equal
 (
 mock
 .
-pinCurrentAppToStartMenu
+pinCurrentAppToStartMenuAsync
 .
 callCount
 0
@@ -814,7 +814,7 @@ equal
 (
 mock
 .
-pinCurrentAppToTaskbar
+pinCurrentAppToTaskbarAsync
 .
 callCount
 1
@@ -846,7 +846,7 @@ equal
 (
 mock
 .
-pinCurrentAppToStartMenu
+pinCurrentAppToStartMenuAsync
 .
 callCount
 1

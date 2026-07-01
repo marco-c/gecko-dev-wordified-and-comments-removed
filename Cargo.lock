@@ -39614,9 +39614,6 @@ base64
 1
 "
 "
-futures
-"
-"
 log
 "
 "
@@ -39629,9 +39626,6 @@ nserror
 nsstring
 "
 "
-scopeguard
-"
-"
 sha2
 "
 "
@@ -39641,11 +39635,6 @@ vec
 "
 "
 windows
-"
-"
-windows
--
-core
 "
 "
 xpcom

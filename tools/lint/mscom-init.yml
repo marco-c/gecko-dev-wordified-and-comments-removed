@@ -268,6 +268,16 @@ exception
 list
 .
 -
+browser
+/
+components
+/
+shell
+/
+nsWindowsShellService
+.
+cpp
+-
 image
 /
 DecodePool

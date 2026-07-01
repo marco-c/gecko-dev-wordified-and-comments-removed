@@ -1026,7 +1026,7 @@ nsIWindowsShellService
 return
 shellService
 .
-enableLaunchOnLoginMSIX
+enableLaunchOnLoginMSIXAsync
 (
 LAUNCH_ON_LOGIN_TASKID
 )
@@ -1152,7 +1152,7 @@ nsIWindowsShellService
 return
 shellService
 .
-disableLaunchOnLoginMSIX
+disableLaunchOnLoginMSIXAsync
 (
 LAUNCH_ON_LOGIN_TASKID
 )
@@ -1767,7 +1767,7 @@ state
 await
 shellService
 .
-getLaunchOnLoginEnabledMSIX
+getLaunchOnLoginEnabledMSIXAsync
 (
 LAUNCH_ON_LOGIN_TASKID
 )

@@ -2062,7 +2062,7 @@ pinned
 await
 shellService
 .
-isCurrentAppPinnedToTaskbar
+isCurrentAppPinnedToTaskbarAsync
 (
 winTaskbar
 .

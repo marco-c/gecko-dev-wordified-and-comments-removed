@@ -3,8 +3,8 @@ nserror
 :
 :
 {
-NS_ERROR_INVALID_ARG
 NS_OK
+NS_ERROR_INVALID_ARG
 nsresult
 }
 ;
@@ -793,7 +793,7 @@ moz_task
 spawn_blocking
 (
 "
-SecondaryTile
+SeconaryTile
 image
 deletion
 "
