@@ -171,6 +171,12 @@ gfxVars
 IsInitialized
 (
 )
+|
+|
+!
+XRE_IsGPUProcess
+(
+)
 )
 {
 return
@@ -400,6 +406,12 @@ CodecType
 :
 :
 H264
+&
+&
+!
+XRE_IsGPUProcess
+(
+)
 )
 {
 auto
