@@ -2364,11 +2364,6 @@ const
 nsAString
 &
 aUTF16String
-bool
-*
-aErr
-=
-nullptr
 )
 ;
 void
