@@ -1,6 +1,14 @@
 mod
 reexport_appservices_uniffi_scaffolding
 {
+ads_client
+:
+:
+uniffi_reexport_scaffolding
+!
+(
+)
+;
 tabs
 :
 :
