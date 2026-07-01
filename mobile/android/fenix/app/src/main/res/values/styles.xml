@@ -1766,10 +1766,9 @@ name
 colorControlActivated
 "
 >
-?
-attr
+color
 /
-colorPrimary
+fx_mobile_primary
 <
 /
 item
@@ -4127,10 +4126,9 @@ name
 colorControlActivated
 "
 >
-?
-attr
+color
 /
-colorPrimary
+fx_mobile_private_primary
 <
 /
 item
