@@ -400,6 +400,11 @@ WebGLRendererConstant
 )
 ITEM_VALUE
 (
+IMEStyle
+81
+)
+ITEM_VALUE
+(
 IsAlwaysEnabledForPrecompute
 0
 )
