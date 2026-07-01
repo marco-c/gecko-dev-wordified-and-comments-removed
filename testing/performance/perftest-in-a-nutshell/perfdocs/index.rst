@@ -4058,6 +4058,9 @@ e
 Simpleperf
 for
 Android
+Xperf
+for
+Windows
 )
 use
 the
