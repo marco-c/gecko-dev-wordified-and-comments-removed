@@ -2709,7 +2709,7 @@ useMlock
 false
 useMmap
 :
-true
+false
 .
 .
 .
