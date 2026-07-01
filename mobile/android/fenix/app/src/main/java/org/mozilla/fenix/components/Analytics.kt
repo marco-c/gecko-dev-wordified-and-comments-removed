@@ -989,6 +989,12 @@ crashReportOption
 CrashReportOption
 .
 Auto
+&
+&
+!
+settings
+.
+useNewCrashReporterFlow
 runtimeTagProviders
 =
 listOf

@@ -5124,6 +5124,13 @@ isMainProcess
 )
 &
 &
+components
+.
+settings
+.
+useNewCrashReporterFlow
+&
+&
 !
 components
 .
