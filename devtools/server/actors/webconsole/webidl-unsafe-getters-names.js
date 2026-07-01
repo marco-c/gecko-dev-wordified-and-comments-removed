@@ -12,6 +12,12 @@ exports
 InstallTrigger
 "
 "
+containerName
+"
+"
+containerQuery
+"
+"
 fullScreen
 "
 "
