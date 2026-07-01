@@ -1,5 +1,11 @@
-UrlbarController
+UrlbarParentController
 Reference
+=
+=
+=
+=
+=
+=
 =
 =
 =
@@ -33,7 +39,7 @@ js
 autoclass
 :
 :
-UrlbarController
+UrlbarParentController
 :
 members
 :

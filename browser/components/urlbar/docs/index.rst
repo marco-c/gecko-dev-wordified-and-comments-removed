@@ -247,6 +247,6 @@ Reference
 toctree
 :
 :
-UrlbarController
+UrlbarParentController
 UrlbarInput
 UrlbarView
