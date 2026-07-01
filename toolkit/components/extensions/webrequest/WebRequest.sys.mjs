@@ -2639,6 +2639,13 @@ would
 abort
 the
 redirection
+Cu
+.
+reportError
+(
+e
+)
+;
 }
 }
 /

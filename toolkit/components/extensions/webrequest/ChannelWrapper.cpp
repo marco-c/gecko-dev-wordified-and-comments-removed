@@ -4456,6 +4456,17 @@ CheckEventListeners
 (
 )
 ;
+if
+(
+!
+mAddedStreamListener
+)
+{
+mChannelEntry
+=
+nullptr
+;
+}
 }
 }
 already_AddRefed

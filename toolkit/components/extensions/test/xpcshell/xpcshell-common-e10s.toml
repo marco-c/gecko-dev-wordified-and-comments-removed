@@ -3,6 +3,13 @@ DEFAULT
 ]
 [
 "
+test_ext_webRequest_StreamFilter_redirect_race
+.
+js
+"
+]
+[
+"
 test_ext_webRequest_eventPage_StreamFilter
 .
 js
