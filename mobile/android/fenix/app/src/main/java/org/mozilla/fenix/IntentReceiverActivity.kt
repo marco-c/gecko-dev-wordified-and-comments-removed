@@ -304,16 +304,6 @@ fenix
 shortcut
 .
 NewTabShortcutIntentProcessor
-import
-org
-.
-mozilla
-.
-fenix
-.
-shortcut
-.
-UninstallShortcutIntentProcessor
 /
 *
 *
@@ -1078,10 +1068,6 @@ passwordManagerIntentProcessor
 modeDependentProcessors
 +
 NewTabShortcutIntentProcessor
-(
-)
-+
-UninstallShortcutIntentProcessor
 (
 )
 }
