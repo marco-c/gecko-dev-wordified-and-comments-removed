@@ -4726,7 +4726,7 @@ IsPlayable
 const
 ;
 bool
-ShouldStartMediaControlKeyListener
+IsControllableMediaSource
 (
 )
 const
