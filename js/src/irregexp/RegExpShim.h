@@ -353,6 +353,9 @@ define
 V8_LIFETIME_BOUND
 #
 define
+V8_GSL_POINTER
+#
+define
 V8_LIKELY
 (
 x
@@ -4306,8 +4309,6 @@ IsExceptionHole
 (
 Object
 obj
-Isolate
-*
 )
 {
 return
