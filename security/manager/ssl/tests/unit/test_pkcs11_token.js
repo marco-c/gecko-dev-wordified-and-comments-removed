@@ -320,6 +320,7 @@ _
 ?
 "
 ;
+await
 token
 .
 changePassword
