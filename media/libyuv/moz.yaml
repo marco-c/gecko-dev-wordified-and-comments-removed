@@ -175,7 +175,7 @@ preferred
 )
 revision
 :
-5cfaa44d71e019363a715d55279abeeb14abd8f9
+d23308a2a7442be8e559b1b471862fd7588d6a57
 #
 The
 package
@@ -342,5 +342,9 @@ patch
 patch
 -
 04_disable_sme
+.
+patch
+-
+05_fix_gcc_neon_rgbtouvmatrixrow
 .
 patch
