@@ -1410,6 +1410,7 @@ Ci
 nsIPKCS11Token
 )
 ;
+await
 token
 .
 reset
