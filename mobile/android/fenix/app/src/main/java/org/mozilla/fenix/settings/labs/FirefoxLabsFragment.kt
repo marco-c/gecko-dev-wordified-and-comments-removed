@@ -366,6 +366,13 @@ onOpenFeedback
 :
 :
 openFeedbackLink
+crashReporter
+=
+requireComponents
+.
+analytics
+.
+crashReporter
 )
 LabsTelemetryMiddleware
 (
