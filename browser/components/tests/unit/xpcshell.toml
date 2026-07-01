@@ -183,6 +183,13 @@ js
 ]
 [
 "
+test_profileDataUpgrade_duplicateCookiePerms
+.
+js
+"
+]
+[
+"
 test_profileDataUpgrade_smartwindow
 .
 js
