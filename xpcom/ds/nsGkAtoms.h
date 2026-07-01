@@ -26,10 +26,7 @@ GK_ATOM
 (
 name_
 value_
-hash_
-is_ascii_lower_
 )
-\
 const
 char16_t
 name_
@@ -63,8 +60,6 @@ GK_ATOM
 (
 name_
 value_
-hash_
-is_ascii_lower_
 )
 name_
 #
@@ -247,8 +242,6 @@ GK_ATOM
 (
 name_
 value_
-hash_
-is_ascii_lower_
 )
 \
 static

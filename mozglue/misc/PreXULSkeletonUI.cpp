@@ -1592,6 +1592,14 @@ binPath
 get
 (
 )
+wcslen
+(
+binPath
+.
+get
+(
+)
+)
 )
 ;
 swprintf

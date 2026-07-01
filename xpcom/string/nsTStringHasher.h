@@ -70,6 +70,11 @@ aLookup
 get
 (
 )
+aLookup
+.
+Length
+(
+)
 )
 ;
 }

@@ -767,9 +767,7 @@ AddToHash
 -
 HashGeneric
 -
-HashStringUntilZero
--
-HashStringKnownLength
+HashLatin1AsUTF16
 -
 HashString
 -

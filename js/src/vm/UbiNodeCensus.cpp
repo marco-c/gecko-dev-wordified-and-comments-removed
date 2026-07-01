@@ -2875,6 +2875,14 @@ lookup
 get
 (
 )
+js_strlen
+(
+lookup
+.
+get
+(
+)
+)
 )
 ;
 }

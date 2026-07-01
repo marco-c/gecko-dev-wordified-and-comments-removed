@@ -535,6 +535,11 @@ SegmentedVector
 h
 "
 "
+SEH
+.
+h
+"
+"
 SHA1
 .
 h
@@ -963,11 +968,6 @@ cc
 "
 "
 FloatingPoint
-.
-cpp
-"
-"
-HashFunctions
 .
 cpp
 "
