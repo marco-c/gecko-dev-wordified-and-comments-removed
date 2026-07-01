@@ -15521,6 +15521,14 @@ focusedWindow
 }
 }
 }
+mDocument
+-
+>
+SetFocusNavigationStartingPoint
+(
+nullptr
+)
+;
 if
 (
 auto
