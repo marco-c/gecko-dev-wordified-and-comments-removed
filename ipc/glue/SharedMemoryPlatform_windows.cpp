@@ -1085,6 +1085,7 @@ const
 PlatformHandle
 &
 aHandle
+uint64_t
 )
 {
 return
