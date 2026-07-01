@@ -284,6 +284,10 @@ codebook
 *
 fullbooks
 ;
+dec_codebook
+*
+decbooks
+;
 vorbis_info_psy
 *
 psy_param
