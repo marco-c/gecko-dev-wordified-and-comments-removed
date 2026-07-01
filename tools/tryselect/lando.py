@@ -2652,6 +2652,14 @@ str
 base_commit_vcs
 :
 str
+        
+repo_name
+:
+str
+=
+"
+try
+"
     
 )
 -
@@ -2705,6 +2713,12 @@ authorization
 request_json_body
 =
 {
+            
+"
+repo_name
+"
+:
+repo_name
             
 "
 base_commit
@@ -2771,6 +2785,14 @@ force_old_lando
 bool
 =
 False
+    
+repo_name
+:
+str
+=
+"
+try
+"
 )
 :
     
@@ -3029,9 +3051,16 @@ post_try_push_patches
 (
             
 patches
+            
 patch_format
+            
 base_commit
+            
 base_commit_vcs
+            
+repo_name
+=
+repo_name
         
 )
     
@@ -3274,6 +3303,36 @@ vcs
 .
 path
 )
+/
+"
+.
+lando
+.
+ini
+"
+    
+if
+not
+lando_ini_path
+.
+exists
+(
+)
+:
+        
+lando_ini_path
+=
+Path
+(
+vcs
+.
+path
+)
+/
+"
+.
+.
+"
 /
 "
 .
