@@ -2845,6 +2845,10 @@ weak_ptr
 label
 false
 init
+std
+:
+:
+nullopt
 signaling_safety_
 .
 flag

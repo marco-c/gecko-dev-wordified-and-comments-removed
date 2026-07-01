@@ -12,6 +12,11 @@ cstdint
 #
 include
 <
+optional
+>
+#
+include
+<
 string
 >
 #
@@ -189,6 +194,10 @@ controller
 )
 label
 false
+std
+:
+:
+nullopt
 PendingTaskSafetyFlag
 :
 :

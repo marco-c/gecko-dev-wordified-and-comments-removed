@@ -15670,6 +15670,10 @@ false
 InternalDataChannelInit
 (
 )
+std
+:
+:
+nullopt
 signaling_safety
 .
 flag
@@ -15712,6 +15716,10 @@ false
 InternalDataChannelInit
 (
 )
+std
+:
+:
+nullopt
 signaling_safety
 .
 flag
