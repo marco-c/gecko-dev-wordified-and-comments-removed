@@ -317,6 +317,11 @@ TestGMPUtils
 cpp
 "
 "
+TestGMPVideoEncodedFrame
+.
+cpp
+"
+"
 TestGMPVideoi420Frame
 .
 cpp
