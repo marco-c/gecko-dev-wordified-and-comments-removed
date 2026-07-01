@@ -4891,6 +4891,11 @@ rules
 active
 :
 true
+ClassAcronymCasing
+:
+active
+:
+true
 acorn
 -
 detekt
