@@ -76,6 +76,13 @@ h
 #
 include
 "
+HappyEyeballsConnMgrDelegate
+.
+h
+"
+#
+include
+"
 HappyEyeballsTransaction
 .
 h
@@ -886,6 +893,12 @@ RefPtr
 ConnectionEstablisherFactory
 >
 mEstablisherFactory
+;
+RefPtr
+<
+HappyEyeballsConnMgrDelegate
+>
+mConnMgrDelegate
 ;
 RefPtr
 <
