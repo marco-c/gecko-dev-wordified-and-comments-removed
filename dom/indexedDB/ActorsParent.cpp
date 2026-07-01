@@ -9664,11 +9664,6 @@ IsOnBackgroundThread
 )
 )
 ;
-MOZ_ASSERT
-(
-mInvalidated
-)
-;
 }
 #
 endif

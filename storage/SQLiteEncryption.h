@@ -56,6 +56,7 @@ EncryptionStatus
 :
 uint8_t
 {
+Unset
 Encrypted
 Plaintext
 }
@@ -70,6 +71,15 @@ aDatabasePath
 EncryptionStatus
 &
 aStatus
+)
+;
+bool
+IsBootstrapDatabasePath
+(
+const
+nsACString
+&
+aPath
 )
 ;
 nsresult

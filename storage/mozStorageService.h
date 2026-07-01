@@ -247,6 +247,10 @@ UniquePtr
 sqlite3_vfs
 >
 aVFS
+bool
+aMakeDefault
+=
+false
 )
 ;
 ~
