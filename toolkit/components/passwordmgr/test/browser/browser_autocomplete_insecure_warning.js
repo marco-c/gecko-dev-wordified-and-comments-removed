@@ -124,7 +124,7 @@ popup
 querySelector
 (
 [
-type
+originaltype
 =
 "
 insecureWarning
