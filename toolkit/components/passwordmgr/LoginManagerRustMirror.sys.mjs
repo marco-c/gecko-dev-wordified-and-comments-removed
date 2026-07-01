@@ -2517,10 +2517,9 @@ this
 #
 rustStorage
 .
-addLoginsAsync
+addLoginsWithResultsAsync
 (
 sortedLogins
-true
 )
 ;
 const
@@ -2698,10 +2697,9 @@ this
 #
 rustStorage
 .
-addLoginsAsync
+addLoginsWithResultsAsync
 (
 duplicates
-true
 )
 ;
 for
