@@ -113,7 +113,7 @@ x
 .
 )
 \
-DDMOZ_LOG
+DDMOZ_LOG_FMT
 (
 gMediaDecoderLog
 LogLevel
@@ -1606,9 +1606,11 @@ LOG
 NotifyDownloadEnded
 status
 =
-%
+{
+:
+x
+}
 "
-PRIx32
 static_cast
 <
 uint32_t
