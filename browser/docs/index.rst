@@ -168,11 +168,9 @@ index
 search
 /
 index
-components
+base
 /
 tabbrowser
-/
-docs
 /
 index
 touchbar
