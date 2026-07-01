@@ -1029,9 +1029,9 @@ typeId
 =
 lazy
 .
-FormAutofillUtils
+AutofillDataTypes
 .
-typeIdFromFieldName
+typeIdForFieldName
 (
 fd
 .
@@ -2165,9 +2165,9 @@ fd
 >
 lazy
 .
-FormAutofillUtils
+AutofillDataTypes
 .
-typeIdFromFieldName
+typeIdForFieldName
 (
 fd
 .
@@ -7247,9 +7247,9 @@ typeId
 =
 lazy
 .
-FormAutofillUtils
+AutofillDataTypes
 .
-typeIdFromFieldName
+typeIdForFieldName
 (
 fieldName
 )
@@ -7518,9 +7518,9 @@ typeId
 =
 lazy
 .
-FormAutofillUtils
+AutofillDataTypes
 .
-typeIdFromFieldName
+typeIdForFieldName
 (
 fieldDetail
 .

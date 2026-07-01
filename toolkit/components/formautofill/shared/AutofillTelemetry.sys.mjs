@@ -2266,9 +2266,9 @@ fieldDetail
 const
 typeId
 =
-FormAutofillUtils
+AutofillDataTypes
 .
-typeIdFromFieldName
+typeIdForFieldName
 (
 fieldDetail
 .
