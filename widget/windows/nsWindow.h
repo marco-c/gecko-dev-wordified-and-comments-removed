@@ -1145,6 +1145,13 @@ aIconSpec
 )
 override
 ;
+void
+SetIconFromExeResource
+(
+uint16_t
+aResourceId
+)
+;
 LayoutDeviceIntPoint
 WidgetToScreenOffset
 (
