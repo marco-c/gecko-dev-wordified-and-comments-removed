@@ -2362,7 +2362,7 @@ return
 strtol
 (
 suffix
-NULL
+nullptr
 16
 )
 %

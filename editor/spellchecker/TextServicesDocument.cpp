@@ -10519,7 +10519,7 @@ NS_ERROR_NULL_POINTER
 *
 aContent
 =
-0
+nullptr
 ;
 nsINode
 *
@@ -10642,7 +10642,7 @@ NS_ERROR_NULL_POINTER
 *
 aContent
 =
-0
+nullptr
 ;
 nsINode
 *

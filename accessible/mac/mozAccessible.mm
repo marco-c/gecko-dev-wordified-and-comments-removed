@@ -5564,7 +5564,7 @@ kUAZoomFocusTypeInsertionPoint
 &
 highlightRect
 :
-NULL
+nullptr
 focusType
 )
 ;

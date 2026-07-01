@@ -127,7 +127,7 @@ value_
 >
 Set
 (
-NULL
+nullptr
 value
 )
 ;
@@ -323,7 +323,7 @@ if
 base
 !
 =
-NULL
+nullptr
 )
 return
 false
@@ -453,7 +453,7 @@ addend
 :
 base_
 (
-NULL
+nullptr
 )
 addend_
 (
@@ -553,7 +553,7 @@ binding
 >
 Set
 (
-NULL
+nullptr
 addend_
 -
 addend
@@ -2014,7 +2014,7 @@ entry_length_
 ;
 entry_length_
 =
-NULL
+nullptr
 ;
 in_fde_
 =

@@ -1563,8 +1563,6 @@ DWORD
 #
 endif
 gMainThreadId
-=
-0
 ;
 static
 Mutex

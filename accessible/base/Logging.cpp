@@ -4017,7 +4017,7 @@ char
 *
 strType
 =
-0
+nullptr
 ;
 if
 (

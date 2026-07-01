@@ -137,7 +137,7 @@ aData
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 void
@@ -471,7 +471,7 @@ context
 .
 copyDescription
 =
-NULL
+nullptr
 ;
 context
 .
@@ -483,13 +483,13 @@ context
 .
 release
 =
-NULL
+nullptr
 ;
 context
 .
 retain
 =
-NULL
+nullptr
 ;
 context
 .
@@ -501,7 +501,7 @@ mMessageServer
 =
 CFMessagePortCreateLocal
 (
-NULL
+nullptr
 (
 CFStringRef
 )
@@ -509,7 +509,7 @@ serverNameString
 messageServerCallback
 &
 context
-NULL
+nullptr
 )
 ;
 if
@@ -526,7 +526,7 @@ mRunLoopSource
 =
 CFMessagePortCreateRunLoopSource
 (
-NULL
+nullptr
 mMessageServer
 0
 )
@@ -544,7 +544,7 @@ mMessageServer
 ;
 mMessageServer
 =
-NULL
+nullptr
 ;
 return
 NS_ERROR_FAILURE
@@ -599,7 +599,7 @@ mRunLoopSource
 ;
 mRunLoopSource
 =
-NULL
+nullptr
 ;
 }
 if
@@ -614,7 +614,7 @@ mMessageServer
 ;
 mMessageServer
 =
-NULL
+nullptr
 ;
 }
 }

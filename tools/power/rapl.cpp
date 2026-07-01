@@ -713,7 +713,7 @@ model
 cpuModel
 &
 size
-NULL
+nullptr
 0
 )
 !
@@ -907,7 +907,7 @@ logicalcpu_max
 logicalcpu_max
 &
 size
-NULL
+nullptr
 0
 )
 !

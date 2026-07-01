@@ -363,7 +363,7 @@ acc
 )
 {
 return
-0
+nullptr
 ;
 }
 if
@@ -541,7 +541,7 @@ acc
 )
 {
 return
-0
+nullptr
 ;
 }
 if

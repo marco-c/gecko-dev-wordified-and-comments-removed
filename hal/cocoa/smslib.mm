@@ -1890,7 +1890,7 @@ iRecord
 ;
 iRecord
 =
-0
+nullptr
 ;
 free
 (
@@ -1899,7 +1899,7 @@ oRecord
 ;
 oRecord
 =
-0
+nullptr
 ;
 if
 (
@@ -3249,7 +3249,7 @@ if
 ref
 =
 =
-NULL
+nullptr
 )
 {
 *
@@ -3513,7 +3513,7 @@ CFPreferencesSetAppValue
 CFStringRef
 )
 prefName
-NULL
+nullptr
 APP_ID
 )
 ;
@@ -4011,7 +4011,7 @@ name
 model
 &
 len
-NULL
+nullptr
 0
 )
 =

@@ -124,7 +124,7 @@ uint64_t
 *
 value_p
 =
-NULL
+nullptr
 )
 const
 ;
@@ -139,7 +139,7 @@ uint64_t
 *
 offset_p
 =
-NULL
+nullptr
 )
 const
 ;
@@ -964,7 +964,7 @@ DW_EH_PE_absptr
 )
 entry_length_
 (
-NULL
+nullptr
 )
 in_fde_
 (

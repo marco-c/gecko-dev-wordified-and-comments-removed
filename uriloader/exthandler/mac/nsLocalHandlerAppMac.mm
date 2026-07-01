@@ -222,7 +222,7 @@ uri
 :
 CFURLCreateWithBytes
 (
-NULL
+nullptr
 uriString
 uriSpec
 .
@@ -230,7 +230,7 @@ Length
 (
 )
 kCFStringEncodingUTF8
-NULL
+nullptr
 )
 ;
 if
@@ -257,7 +257,7 @@ uris
 :
 CFArrayCreate
 (
-NULL
+nullptr
 reinterpret_cast
 <
 const
@@ -270,7 +270,7 @@ void
 uri
 )
 1
-NULL
+nullptr
 )
 ;
 if
@@ -316,7 +316,7 @@ launchSpec
 .
 passThruParams
 =
-NULL
+nullptr
 ;
 launchSpec
 .
@@ -328,7 +328,7 @@ launchSpec
 .
 asyncRefCon
 =
-NULL
+nullptr
 ;
 OSErr
 err
@@ -339,7 +339,7 @@ LSOpenFromURLSpec
 (
 &
 launchSpec
-NULL
+nullptr
 )
 ;
 :

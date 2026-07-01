@@ -352,7 +352,7 @@ false
 )
 base_
 (
-NULL
+nullptr
 )
 size_
 (
@@ -373,7 +373,7 @@ is_set_
 base_
 !
 =
-NULL
+nullptr
 )
 {
 MOZ_ASSERT
@@ -430,7 +430,7 @@ false
 ;
 base_
 =
-NULL
+nullptr
 ;
 size_
 =
@@ -1775,8 +1775,8 @@ debug_frame
 "
 dwarf_cfi_section
 false
-0
-0
+nullptr
+nullptr
 big_endian
 smap
 text_bias
@@ -2153,7 +2153,7 @@ x86_64
 default
 :
 return
-NULL
+nullptr
 ;
 }
 }
@@ -2569,7 +2569,7 @@ Ehdr
 *
 debug_elf_header
 =
-NULL
+nullptr
 ;
 if
 (
@@ -2992,7 +2992,7 @@ void
 *
 elf_header
 =
-NULL
+nullptr
 ;
 if
 (
@@ -3226,7 +3226,7 @@ if
 section
 !
 =
-NULL
+nullptr
 &
 &
 section
@@ -3552,7 +3552,7 @@ section_size
 *
 section_start
 =
-NULL
+nullptr
 ;
 *
 section_size
@@ -3629,7 +3629,7 @@ return
 section_start
 !
 =
-NULL
+nullptr
 ;
 }
 else
@@ -3658,7 +3658,7 @@ return
 section_start
 !
 =
-NULL
+nullptr
 ;
 }
 return
@@ -3705,7 +3705,7 @@ segment_size
 *
 segment_start
 =
-NULL
+nullptr
 ;
 *
 segment_size
@@ -3781,7 +3781,7 @@ return
 segment_start
 !
 =
-NULL
+nullptr
 ;
 }
 else
@@ -3809,7 +3809,7 @@ return
 segment_start
 !
 =
-NULL
+nullptr
 ;
 }
 return
@@ -4234,7 +4234,7 @@ void
 text_section
 &
 text_size
-NULL
+nullptr
 )
 |
 |

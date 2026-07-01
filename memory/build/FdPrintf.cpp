@@ -1095,10 +1095,8 @@ aSize
 {
 if
 (
+!
 aFd
-=
-=
-0
 )
 {
 return

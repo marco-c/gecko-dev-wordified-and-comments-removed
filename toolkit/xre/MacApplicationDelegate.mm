@@ -1306,7 +1306,7 @@ windowNumber
 0
 context
 :
-NULL
+nullptr
 subtype
 :
 kEventSubtypeNone

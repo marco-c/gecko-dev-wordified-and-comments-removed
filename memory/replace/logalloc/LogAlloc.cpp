@@ -80,8 +80,6 @@ sFuncs
 static
 platform_handle_t
 sFd
-=
-0
 ;
 static
 bool
@@ -1066,10 +1064,8 @@ endif
 }
 if
 (
+!
 sFd
-=
-=
-0
 )
 {
 return

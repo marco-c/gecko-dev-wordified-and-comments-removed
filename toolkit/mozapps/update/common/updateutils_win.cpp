@@ -263,7 +263,7 @@ ENOENT
 ;
 }
 return
-0
+nullptr
 ;
 }
 }
@@ -318,7 +318,7 @@ EBADF
 ;
 }
 return
-0
+nullptr
 ;
 }
 }

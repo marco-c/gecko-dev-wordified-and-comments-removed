@@ -438,7 +438,7 @@ get
 )
 )
 kCFStringEncodingUTF8
-NULL
+nullptr
 )
 ;
 if
@@ -454,7 +454,7 @@ status
 LSOpenCFURLRef
 (
 myURLRef
-NULL
+nullptr
 )
 ;
 if

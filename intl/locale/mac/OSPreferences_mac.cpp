@@ -109,7 +109,7 @@ CFNotificationCenterGetLocalCenter
 this
 LocaleChangedNotificationCallback
 kCFLocaleCurrentLocaleDidChangeNotification
-0
+nullptr
 CFNotificationSuspensionBehaviorDeliverImmediately
 )
 ;
@@ -700,7 +700,7 @@ CFNotificationCenterGetLocalCenter
 )
 this
 kCTFontManagerRegisteredFontsChangedNotification
-0
+nullptr
 )
 ;
 }

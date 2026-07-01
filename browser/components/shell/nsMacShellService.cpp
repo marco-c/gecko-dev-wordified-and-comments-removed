@@ -1245,7 +1245,7 @@ urlStr
 CFStringCreateWithFormat
 (
 kCFAllocatorDefault
-NULL
+nullptr
 format
 paneID
 )
@@ -1262,9 +1262,9 @@ url
 :
 CFURLCreateWithString
 (
-NULL
+nullptr
 urlStr
-NULL
+nullptr
 )
 ;
 rv
@@ -1408,7 +1408,7 @@ if
 mRef
 !
 =
-NULL
+nullptr
 )
 :
 :
@@ -1484,7 +1484,7 @@ if
 cfProtocol
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -1500,7 +1500,7 @@ CFURLCreateWithString
 (
 kCFAllocatorDefault
 cfProtocol
-NULL
+nullptr
 )
 ;
 CFTypeRefAutoDeleter
@@ -1517,7 +1517,7 @@ if
 protocolURL
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -1549,7 +1549,7 @@ if
 appURLs
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -1616,7 +1616,7 @@ if
 appBundle
 =
 =
-NULL
+nullptr
 )
 {
 continue
@@ -1637,7 +1637,7 @@ if
 appInfo
 =
 =
-NULL
+nullptr
 )
 {
 continue
@@ -1662,7 +1662,7 @@ if
 displayName
 =
 =
-NULL
+nullptr
 )
 {
 continue

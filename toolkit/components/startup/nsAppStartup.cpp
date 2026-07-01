@@ -3118,7 +3118,7 @@ false
 *
 _retval
 =
-0
+nullptr
 ;
 if
 (
@@ -3318,8 +3318,8 @@ appShell
 >
 CreateTopLevelWindow
 (
-0
-0
+nullptr
+nullptr
 aChromeFlags
 nsIAppShellService
 :

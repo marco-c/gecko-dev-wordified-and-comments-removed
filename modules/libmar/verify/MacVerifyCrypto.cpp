@@ -77,7 +77,7 @@ inputStream
 SecTransformCreateReadTransformWithReadStreamFunc
 SecTransformCreateReadTransformWithReadStreamPtr
 =
-NULL
+nullptr
 ;
 typedef
 CFTypeRef
@@ -96,7 +96,7 @@ error
 SecTransformExecuteFunc
 SecTransformExecutePtr
 =
-NULL
+nullptr
 ;
 typedef
 SecTransformRef
@@ -117,7 +117,7 @@ error
 SecVerifyTransformCreateFunc
 SecVerifyTransformCreatePtr
 =
-NULL
+nullptr
 ;
 typedef
 Boolean
@@ -140,7 +140,7 @@ error
 SecTransformSetAttributeFunc
 SecTransformSetAttributePtr
 =
-NULL
+nullptr
 ;
 #
 if
@@ -414,7 +414,7 @@ CryptoX_Error
 *
 aPublicKey
 =
-NULL
+nullptr
 ;
 CFDataRef
 certData
@@ -846,7 +846,7 @@ return
 CFMutableDataRef
 inputData
 =
-NULL
+nullptr
 ;
 inputData
 =

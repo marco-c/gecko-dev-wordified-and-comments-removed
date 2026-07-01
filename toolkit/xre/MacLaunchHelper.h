@@ -7,13 +7,6 @@ MacLaunchHelper_h_
 #
 include
 <
-stdint
-.
-h
->
-#
-include
-<
 unistd
 .
 h
@@ -70,7 +63,7 @@ pid_t
 *
 aPid
 =
-0
+nullptr
 )
 ;
 void
@@ -97,7 +90,7 @@ pid_t
 *
 aPid
 =
-0
+nullptr
 )
 ;
 bool

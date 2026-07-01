@@ -113,11 +113,11 @@ aTransaction
 )
 mUndoStack
 (
-0
+nullptr
 )
 mRedoStack
 (
-0
+nullptr
 )
 {
 }

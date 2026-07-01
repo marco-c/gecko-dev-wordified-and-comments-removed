@@ -750,7 +750,7 @@ LaunchChildMac
 (
 aArgc
 aArgv
-0
+nullptr
 )
 ;
 return
@@ -816,14 +816,14 @@ InstallPrivilegedHelper
 AuthorizationRef
 authRef
 =
-NULL
+nullptr
 ;
 OSStatus
 status
 =
 AuthorizationCreate
 (
-NULL
+nullptr
 kAuthorizationEmptyEnvironment
 kAuthorizationFlagDefaults
 |
@@ -872,7 +872,7 @@ authItem
 {
 kSMRightBlessPrivilegedHelper
 0
-NULL
+nullptr
 0
 }
 ;
@@ -905,7 +905,7 @@ authRef
 authRights
 kAuthorizationEmptyEnvironment
 flags
-NULL
+nullptr
 )
 ;
 if

@@ -2262,7 +2262,7 @@ mNameLen
 ;
 mName
 =
-0
+nullptr
 ;
 return
 NS_OK

@@ -696,7 +696,7 @@ lower
 "
 1
 SQLITE_UTF16
-0
+nullptr
 caseFunction
 }
 {
@@ -705,7 +705,7 @@ lower
 "
 1
 SQLITE_UTF8
-0
+nullptr
 caseFunction
 }
 {
@@ -740,7 +740,7 @@ like
 "
 2
 SQLITE_UTF16
-0
+nullptr
 likeFunction
 }
 {
@@ -749,7 +749,7 @@ like
 "
 2
 SQLITE_UTF8
-0
+nullptr
 likeFunction
 }
 {
@@ -758,7 +758,7 @@ like
 "
 3
 SQLITE_UTF16
-0
+nullptr
 likeFunction
 }
 {
@@ -767,7 +767,7 @@ like
 "
 3
 SQLITE_UTF8
-0
+nullptr
 likeFunction
 }
 {
@@ -776,7 +776,7 @@ levenshteinDistance
 "
 2
 SQLITE_UTF16
-0
+nullptr
 levenshteinDistanceFunction
 }
 {
@@ -785,7 +785,7 @@ levenshteinDistance
 "
 2
 SQLITE_UTF8
-0
+nullptr
 levenshteinDistanceFunction
 }
 {
@@ -794,7 +794,7 @@ utf16Length
 "
 1
 SQLITE_UTF16
-0
+nullptr
 utf16LengthFunction
 }
 {
@@ -803,7 +803,7 @@ utf16Length
 "
 1
 SQLITE_UTF8
-0
+nullptr
 utf16LengthFunction
 }
 }

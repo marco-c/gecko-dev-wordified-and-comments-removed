@@ -138,7 +138,7 @@ messageServer
 =
 CFMessagePortCreateRemote
 (
-0
+nullptr
 (
 CFStringRef
 )
@@ -257,8 +257,8 @@ data
 0
 .
 0
-NULL
-NULL
+nullptr
+nullptr
 )
 ;
 CFMessagePortInvalidate

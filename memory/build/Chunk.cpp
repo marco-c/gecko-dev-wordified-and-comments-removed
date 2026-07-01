@@ -874,6 +874,7 @@ buf
 ;
 if
 (
+!
 strerror_r
 (
 errno
@@ -883,9 +884,6 @@ sizeof
 buf
 )
 )
-=
-=
-0
 )
 {
 _malloc_message
