@@ -2488,7 +2488,7 @@ CryptoOptions
 crypto_options
 VideoDecoderFactory
 *
-absl_nonnull
+absl_nullable
 decoder_factory
 )
 ;

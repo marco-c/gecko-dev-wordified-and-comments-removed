@@ -994,6 +994,7 @@ GetDefaultSupportedFormats
 const
 T
 *
+absl_nullable
 factory
 bool
 is_decoder_factory
@@ -1297,6 +1298,7 @@ GetPayloadTypesAndDefaultCodecs
 const
 T
 *
+absl_nullable
 factory
 bool
 is_decoder_factory
@@ -16918,7 +16920,7 @@ CryptoOptions
 crypto_options
 VideoDecoderFactory
 *
-absl_nonnull
+absl_nullable
 decoder_factory
 )
 :
