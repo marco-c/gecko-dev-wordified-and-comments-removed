@@ -915,7 +915,6 @@ button
 Let
 s
 go
-!
 aiwindow
 -
 firstrun
