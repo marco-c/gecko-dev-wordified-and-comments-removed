@@ -4292,7 +4292,6 @@ frame_context
 .
 spatial_tree
 &
-mut
 frame_state
 .
 data_stores
