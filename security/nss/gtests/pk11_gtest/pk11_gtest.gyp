@@ -159,6 +159,11 @@ pk11_cipherop_unittest
 cc
 '
 '
+pk11_create_priv_key_from_template_unittest
+.
+cc
+'
+'
 pk11_curve25519_unittest
 .
 cc

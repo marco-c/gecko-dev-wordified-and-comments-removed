@@ -6661,7 +6661,8 @@ pk11_MakePrivKey
 (
 slot
 nullKey
-PR_FALSE
+!
+perm
 privKeyID
 wincx
 )
