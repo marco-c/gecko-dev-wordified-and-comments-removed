@@ -3633,7 +3633,7 @@ content
 mechanism
 .
 )
-04
+1
 .
 1
 .
@@ -3670,7 +3670,7 @@ or
 tap
 gestures
 .
-2
+1
 .
 If
 the
@@ -3731,7 +3731,7 @@ of
 step
 10
 .
-05
+4
 .
 The
 call
@@ -3762,7 +3762,7 @@ transforms
 are
 removed
 .
-06
+5
 .
 The
 call
@@ -3801,7 +3801,7 @@ Gecko
 main
 thread
 .
-07
+6
 .
 Gecko
 performs
@@ -3851,7 +3851,7 @@ the
 input
 events
 .
-08
+7
 .
 The
 call
@@ -3968,7 +3968,7 @@ the
 input
 type
 .
-09
+1
 .
 1
 .
@@ -3998,7 +3998,7 @@ step
 is
 skipped
 .
-2
+1
 .
 If
 events
@@ -4038,7 +4038,7 @@ ready
 for
 processing
 .
-3
+2
 .
 If
 events
@@ -4078,7 +4078,7 @@ already
 have
 happened
 .
-10
+8
 .
 If
 events

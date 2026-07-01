@@ -11,7 +11,6 @@ Possibly
 incorrect
 or
 incomplete
-.
 #
 #
 Jargon
