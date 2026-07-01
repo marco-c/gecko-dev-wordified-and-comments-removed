@@ -371,6 +371,9 @@ struct
 ConvertCoordinateOptions
 ;
 class
+CustomElementRegistry
+;
+class
 DocGroup
 ;
 class
@@ -6776,6 +6779,13 @@ ElementHasCustomElementData
 )
 ;
 }
+inline
+bool
+HasScopedRegistry
+(
+)
+const
+;
 void
 SetElementCreatedFromPrototypeAndHasUnmodifiedL10n
 (

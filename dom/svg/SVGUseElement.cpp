@@ -2005,6 +2005,9 @@ shadow
 AttachShadowWithoutNameChecks
 (
 init
+Nothing
+(
+)
 )
 ;
 }

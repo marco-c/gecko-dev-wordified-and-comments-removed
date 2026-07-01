@@ -2761,6 +2761,9 @@ dom
 :
 HTMLContentCreatorFunction
 aCreator
+nsINode
+*
+aIntendedParent
 )
 ;
 static

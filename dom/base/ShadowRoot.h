@@ -372,8 +372,10 @@ aCustomSlotDispatch
 const
 Maybe
 <
+RefPtr
+<
 CustomElementRegistry
-*
+>
 >
 aRegistry
 already_AddRefed
