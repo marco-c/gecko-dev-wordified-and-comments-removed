@@ -49,6 +49,17 @@ include
 "
 absl
 /
+base
+/
+nullability
+.
+h
+"
+#
+include
+"
+absl
+/
 strings
 /
 string_view
@@ -329,9 +340,11 @@ Environment
 env
 PacketRouter
 *
+absl_nonnull
 packet_router
 NetEqFactory
 *
+absl_nullable
 neteq_factory
 const
 webrtc
@@ -363,6 +376,7 @@ Environment
 env
 PacketRouter
 *
+absl_nonnull
 packet_router
 const
 webrtc
@@ -384,6 +398,7 @@ AudioState
 >
 &
 audio_state
+absl_nonnull
 std
 :
 :

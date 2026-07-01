@@ -32,6 +32,17 @@ string
 #
 include
 "
+absl
+/
+base
+/
+nullability
+.
+h
+"
+#
+include
+"
 api
 /
 frame_transformer_interface
@@ -157,6 +168,7 @@ FrameTransformerInterface
 frame_transformer
 TaskQueueBase
 *
+absl_nonnull
 channel_receive_thread
 )
 ;
