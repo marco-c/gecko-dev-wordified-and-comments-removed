@@ -553,6 +553,13 @@ snapshot
             
 "
 -
+no
+-
+metrics
+"
+            
+"
+-
 prop
 "
             
@@ -677,6 +684,13 @@ snapshot
             
 "
 -
+no
+-
+metrics
+"
+            
+"
+-
 prop
 "
             
@@ -794,6 +808,13 @@ snapstorage
 no
 -
 snapshot
+"
+            
+"
+-
+no
+-
+metrics
 "
             
 "
