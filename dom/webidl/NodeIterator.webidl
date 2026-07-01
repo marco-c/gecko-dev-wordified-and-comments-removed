@@ -179,6 +179,11 @@ previousNode
 (
 )
 ;
+[
+Deprecated
+=
+NodeIteratorDetach
+]
 undefined
 detach
 (
