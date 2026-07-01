@@ -653,6 +653,48 @@ API
 documentation
 "
 )
+CommandArgument
+(
+    
+"
+-
+-
+errors
+-
+file
+"
+    
+dest
+=
+"
+errors_file
+"
+    
+default
+=
+None
+    
+help
+=
+"
+File
+to
+store
+errors
+in
+in
+JSON
+format
+.
+Typically
+used
+for
+code
+review
+bot
+.
+"
+)
 def
 build_docs
 (
@@ -720,6 +762,10 @@ None
 no_autodoc
 =
 False
+    
+errors_file
+=
+None
 )
 :
     
@@ -1217,6 +1263,7 @@ log_results
 (
 fatal_errors
 known_errors
+errors_file
 )
         
 if
@@ -3219,6 +3266,7 @@ def
 transform_error
 (
 msg
+level
 )
 :
     
@@ -3371,6 +3419,12 @@ None
 )
                 
 "
+level
+"
+:
+level
+                
+"
 message
 "
 :
@@ -3399,6 +3453,12 @@ doc
 -
 upload
 "
+        
+"
+level
+"
+:
+level
         
 "
 message
@@ -3546,6 +3606,9 @@ log_results
 (
 fatal_errors
 known_errors
+error_file
+=
+None
 )
 :
     
@@ -3593,6 +3656,11 @@ here
 "
 "
     
+results
+=
+[
+]
+    
 for
 m
 in
@@ -3604,6 +3672,9 @@ result_details
 transform_error
 (
 m
+"
+warning
+"
 )
         
 print_result_to_stderr
@@ -3611,6 +3682,21 @@ print_result_to_stderr
 "
 KNOWN
 "
+result_details
+)
+        
+if
+"
+relpath
+"
+in
+result_details
+:
+            
+results
+.
+append
+(
 result_details
 )
     
@@ -3641,6 +3727,9 @@ result_details
 transform_error
 (
 m
+"
+error
+"
 )
         
 print_result_to_stderr
@@ -3648,6 +3737,21 @@ print_result_to_stderr
 "
 UNEXPECTED
 "
+result_details
+)
+        
+if
+"
+relpath
+"
+in
+result_details
+:
+            
+results
+.
+append
+(
 result_details
 )
     
@@ -3664,4 +3768,28 @@ fatal_errors
 )
 }
 "
+)
+    
+if
+error_file
+:
+        
+with
+open
+(
+error_file
+"
+w
+"
+)
+as
+fh
+:
+            
+json
+.
+dump
+(
+results
+fh
 )
