@@ -481,7 +481,7 @@ linux64
 -
 clang
 -
-17
+19
 -
 raw
 :
@@ -489,7 +489,7 @@ description
 :
 "
 Clang
-17
+19
 toolchain
 build
 "
@@ -501,7 +501,7 @@ TL
 (
 clang
 -
-17
+19
 -
 raw
 )
@@ -555,7 +555,7 @@ clang
 /
 clang
 -
-17
+19
 .
 json
 '
@@ -599,7 +599,7 @@ clang
 /
 clang
 -
-17
+19
 .
 json
 '
@@ -635,7 +635,7 @@ fetch
 -
 clang
 -
-17
+19
 toolchain
 :
 -
@@ -648,13 +648,13 @@ linux64
 -
 clang
 -
-17
+19
 :
 description
 :
 "
 Clang
-17
+19
 toolchain
 build
 "
@@ -666,7 +666,7 @@ TL
 (
 clang
 -
-17
+19
 )
 worker
 -
@@ -728,7 +728,7 @@ linux64
 -
 clang
 -
-17
+19
 -
 raw
 -
@@ -740,7 +740,7 @@ compiler
 -
 rt
 -
-17
+19
 linux64
 -
 clang
