@@ -1255,11 +1255,11 @@ CameraMode
 LENS
 iconRes
 =
-iconsR
+R
 .
 drawable
 .
-mozac_ic_image_24
+ic_logo_google_lens_24
 contentDesc
 =
 stringResource
