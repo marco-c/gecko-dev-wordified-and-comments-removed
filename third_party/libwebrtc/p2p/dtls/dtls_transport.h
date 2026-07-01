@@ -1288,7 +1288,7 @@ callback
 )
 ;
 void
-PeriodicRetransmitDtlsPacketUntilDtlsConnected
+FlushPendingDtlsPacket
 (
 )
 ;
@@ -1461,11 +1461,6 @@ ReceivedIpPacket
 )
 >
 piggybacked_dtls_callback_
-;
-bool
-pending_periodic_retransmit_dtls_packet_
-=
-false
 ;
 ScopedTaskSafetyDetached
 safety_flag_
