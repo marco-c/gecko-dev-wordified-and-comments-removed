@@ -173,6 +173,17 @@ hidden
 ]
 pub
 mod
+interned_prims
+;
+#
+[
+doc
+(
+hidden
+)
+]
+pub
+mod
 prim_geometry
 ;
 mod

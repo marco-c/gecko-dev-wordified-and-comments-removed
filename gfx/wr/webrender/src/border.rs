@@ -181,10 +181,7 @@ api
 key_types
 :
 :
-{
 BorderSideAu
-NormalBorderAu
-}
 ;
 #
 [
