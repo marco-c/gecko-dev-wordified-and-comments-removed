@@ -147,7 +147,6 @@ ping
 ping
 "
 false
-false
 )
 ;
 Glean
@@ -223,7 +222,6 @@ ping
 "
 ping
 "
-false
 false
 )
 ;
@@ -323,7 +321,6 @@ ping
 "
 ping
 "
-false
 false
 )
 ;
@@ -434,7 +431,6 @@ ping
 "
 ping
 "
-false
 false
 JSON
 .
@@ -580,7 +576,6 @@ ping
 ping
 "
 false
-false
 )
 ;
 Glean
@@ -691,7 +686,6 @@ ping
 ping
 "
 false
-false
 JSON
 .
 stringify
@@ -788,7 +782,6 @@ ping
 ping
 "
 false
-false
 )
 ;
 Glean
@@ -854,7 +847,6 @@ ping
 "
 ping
 "
-false
 false
 )
 ;
@@ -946,7 +938,6 @@ ping
 "
 ping
 "
-false
 false
 JSON
 .
@@ -1088,7 +1079,6 @@ ping
 "
 ping
 "
-false
 false
 JSON
 .
@@ -1314,7 +1304,6 @@ ping
 ping
 "
 false
-false
 JSON
 .
 stringify
@@ -1479,7 +1468,6 @@ ping
 "
 ping
 "
-false
 false
 JSON
 .
@@ -1685,7 +1673,6 @@ ping
 ping
 "
 false
-false
 )
 ;
 Services
@@ -1850,7 +1837,6 @@ ping
 "
 ping
 "
-false
 false
 JSON
 .
@@ -2087,7 +2073,6 @@ ping
 ping
 "
 false
-false
 )
 ;
 Assert
@@ -2320,7 +2305,6 @@ ping
 ping
 "
 false
-false
 JSON
 .
 stringify
@@ -2515,7 +2499,6 @@ ping
 "
 ping
 "
-false
 false
 )
 ;
@@ -2718,7 +2701,6 @@ ping
 "
 ping
 "
-false
 false
 JSON
 .
@@ -2923,7 +2905,6 @@ ping
 ping
 "
 false
-false
 )
 ;
 Assert
@@ -3125,7 +3106,6 @@ ping
 "
 ping
 "
-false
 false
 JSON
 .
@@ -3341,7 +3321,6 @@ ping
 ping
 "
 false
-false
 )
 ;
 Glean
@@ -3406,7 +3385,6 @@ ping
 "
 ping
 "
-false
 false
 )
 ;
@@ -3481,7 +3459,6 @@ ping
 ping
 "
 false
-false
 JSON
 .
 stringify
@@ -3518,9 +3495,6 @@ ping
 disabled
 :
 false
-in_session
-:
-false
 }
 ]
 }
@@ -3552,7 +3526,6 @@ ping
 "
 ping
 "
-false
 false
 )
 ;
@@ -3654,7 +3627,6 @@ ping
 "
 ping
 "
-false
 false
 )
 ;
@@ -3990,7 +3962,6 @@ ping
 ping
 "
 true
-false
 )
 ;
 Assert
@@ -4166,7 +4137,6 @@ ping
 "
 ping
 "
-false
 false
 JSON
 .
@@ -4386,7 +4356,6 @@ ping
 ping
 "
 false
-false
 )
 ;
 Glean
@@ -4452,7 +4421,6 @@ ping
 "
 ping
 "
-false
 false
 JSON
 .
@@ -4666,7 +4634,6 @@ ping
 ping
 "
 false
-false
 JSON
 .
 stringify
@@ -4837,7 +4804,6 @@ ping
 "
 ping
 "
-false
 false
 JSON
 .
@@ -5062,7 +5028,6 @@ ping
 "
 ping
 "
-false
 false
 )
 ;
@@ -5304,7 +5269,6 @@ ping
 ping
 "
 false
-false
 )
 ;
 Glean
@@ -5428,7 +5392,6 @@ ping
 ping
 "
 false
-false
 )
 ;
 Glean
@@ -5494,7 +5457,6 @@ ping
 "
 ping
 "
-false
 false
 )
 ;
@@ -5586,7 +5548,6 @@ ping
 "
 ping
 "
-false
 false
 JSON
 .
@@ -5728,7 +5689,6 @@ ping
 "
 ping
 "
-false
 false
 JSON
 .
@@ -5953,7 +5913,6 @@ ping
 ping
 "
 false
-false
 )
 ;
 Services
@@ -5981,7 +5940,6 @@ ping
 "
 ping
 "
-false
 false
 )
 ;
@@ -6177,7 +6135,6 @@ ping
 "
 ping
 "
-false
 false
 JSON
 .

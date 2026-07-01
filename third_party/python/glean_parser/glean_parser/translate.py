@@ -254,7 +254,7 @@ Outputter
 (
 go_server
 .
-output_go_logger
+output_go
 [
 ]
 )

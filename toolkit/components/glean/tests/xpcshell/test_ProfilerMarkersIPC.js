@@ -148,7 +148,6 @@ ping
 ping
 "
 false
-false
 ]
 ]
 ;

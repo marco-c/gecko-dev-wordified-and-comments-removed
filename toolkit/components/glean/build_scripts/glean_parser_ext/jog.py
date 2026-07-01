@@ -76,10 +76,6 @@ disabled
 "
 dynamic_label
 "
-    
-"
-in_session
-"
 ]
 known_extra_args
 =
@@ -1008,25 +1004,12 @@ for
 arg_name
 in
 common_metric_data_args
+[
 :
-                
-if
-arg_name
-=
-=
-"
-dynamic_label
-"
+-
+1
+]
 :
-                    
-args
-.
-append
-(
-None
-)
-                    
-continue
                 
 args
 .
@@ -1037,6 +1020,13 @@ getattr
 value
 arg_name
 )
+)
+            
+args
+.
+append
+(
+None
 )
             
 return
@@ -1104,6 +1094,11 @@ for
 arg
 in
 common_metric_data_args
+[
+:
+-
+1
+]
 :
                 
 if
@@ -1112,9 +1107,6 @@ in
 [
 "
 category
-"
-"
-dynamic_label
 "
 ]
 :

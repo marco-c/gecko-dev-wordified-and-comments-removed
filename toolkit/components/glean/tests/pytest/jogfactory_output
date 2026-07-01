@@ -1990,9 +1990,6 @@ Lifetime
 disabled
 :
 bool
-in_session
-:
-bool
 time_unit
 :
 Option
@@ -2153,7 +2150,6 @@ category
 send_in_pings
 lifetime
 disabled
-in_session
 .
 .
 Default
@@ -2277,7 +2273,6 @@ category
 send_in_pings
 lifetime
 disabled
-in_session
 .
 .
 Default
@@ -2378,7 +2373,6 @@ category
 send_in_pings
 lifetime
 disabled
-in_session
 .
 .
 Default
@@ -2499,7 +2493,6 @@ category
 send_in_pings
 lifetime
 disabled
-in_session
 .
 .
 Default
@@ -2605,7 +2598,6 @@ category
 send_in_pings
 lifetime
 disabled
-in_session
 .
 .
 Default
@@ -2711,7 +2703,6 @@ category
 send_in_pings
 lifetime
 disabled
-in_session
 .
 .
 Default
@@ -2814,7 +2805,6 @@ category
 send_in_pings
 lifetime
 disabled
-in_session
 .
 .
 Default
@@ -2927,7 +2917,6 @@ category
 send_in_pings
 lifetime
 disabled
-in_session
 .
 .
 Default
@@ -3061,7 +3050,6 @@ category
 send_in_pings
 lifetime
 disabled
-in_session
 .
 .
 Default
@@ -3171,7 +3159,6 @@ category
 send_in_pings
 lifetime
 disabled
-in_session
 .
 .
 Default
@@ -3274,7 +3261,6 @@ category
 send_in_pings
 lifetime
 disabled
-in_session
 .
 .
 Default
@@ -3380,7 +3366,6 @@ category
 send_in_pings
 lifetime
 disabled
-in_session
 .
 .
 Default
@@ -3481,7 +3466,6 @@ category
 send_in_pings
 lifetime
 disabled
-in_session
 .
 .
 Default
@@ -3582,7 +3566,6 @@ category
 send_in_pings
 lifetime
 disabled
-in_session
 .
 .
 Default
@@ -3706,7 +3689,6 @@ category
 send_in_pings
 lifetime
 disabled
-in_session
 .
 .
 Default
@@ -3807,7 +3789,6 @@ category
 send_in_pings
 lifetime
 disabled
-in_session
 .
 .
 Default
@@ -3908,7 +3889,6 @@ category
 send_in_pings
 lifetime
 disabled
-in_session
 .
 .
 Default
@@ -4009,7 +3989,6 @@ category
 send_in_pings
 lifetime
 disabled
-in_session
 .
 .
 Default
@@ -4110,7 +4089,6 @@ category
 send_in_pings
 lifetime
 disabled
-in_session
 .
 .
 Default
@@ -4216,7 +4194,6 @@ category
 send_in_pings
 lifetime
 disabled
-in_session
 .
 .
 Default
@@ -4322,7 +4299,6 @@ category
 send_in_pings
 lifetime
 disabled
-in_session
 .
 .
 Default

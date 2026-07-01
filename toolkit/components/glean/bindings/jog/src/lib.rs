@@ -272,9 +272,6 @@ nsACString
 disabled
 :
 bool
-in_session
-:
-bool
 extra_args
 :
 &
@@ -325,10 +322,6 @@ Disabled
 :
 {
 }
-InSession
-:
-{
-}
 ExtraArgs
 :
 {
@@ -340,7 +333,6 @@ name
 send_in_pings
 lifetime
 disabled
-in_session
 extra_args
 )
 ;
@@ -492,7 +484,6 @@ name
 send_in_pings
 lifetime
 disabled
-in_session
 extra_args
 )
 .
@@ -557,9 +548,6 @@ lifetime
 &
 nsACString
 disabled
-:
-bool
-in_session
 :
 bool
 extra_args
@@ -826,7 +814,6 @@ name
 send_in_pings
 lifetime
 disabled
-in_session
 extra_args
 )
 {
@@ -914,9 +901,6 @@ Lifetime
 disabled
 :
 bool
-in_session
-:
-bool
 extra_args
 :
 ExtraMetricArgs
@@ -980,7 +964,6 @@ name
 send_in_pings
 lifetime
 disabled
-in_session
 extra_args
 .
 time_unit
@@ -1777,9 +1760,6 @@ Lifetime
 disabled
 :
 bool
-in_session
-:
-bool
 #
 [
 serde
@@ -2171,9 +2151,6 @@ lifetime
 metric
 .
 disabled
-metric
-.
-in_session
 metric
 .
 extra_args

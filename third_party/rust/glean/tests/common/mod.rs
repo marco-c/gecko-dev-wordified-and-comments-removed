@@ -172,9 +172,6 @@ to_string
 (
 )
 )
-os_version
-:
-None
 }
 ;
 _
