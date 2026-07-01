@@ -11663,14 +11663,15 @@ UrlbarQueryContext
 options
 )
 ;
+let
+heuristicResult
+=
 await
 urlbarInput
 .
 controller
 .
-manager
-.
-startQuery
+getHeuristicResult
 (
 context
 )
@@ -11678,8 +11679,6 @@ context
 if
 (
 !
-context
-.
 heuristicResult
 )
 {
@@ -11700,8 +11699,6 @@ result
 ;
 }
 return
-context
-.
 heuristicResult
 ;
 }
