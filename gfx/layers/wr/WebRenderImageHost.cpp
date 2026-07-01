@@ -868,6 +868,8 @@ WebRenderImageHost
 :
 UseRemoteTexture
 (
+bool
+aCalledInCallback
 )
 {
 if
@@ -1051,6 +1053,7 @@ self
 >
 UseRemoteTexture
 (
+true
 )
 ;
 }
@@ -1100,6 +1103,10 @@ AsRemoteTextureHostWrapper
 if
 (
 mWaitForRemoteTextureOwner
+&
+&
+!
+aCalledInCallback
 )
 {
 RemoteTextureMap

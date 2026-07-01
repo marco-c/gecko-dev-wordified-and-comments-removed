@@ -203,6 +203,8 @@ aFlags
 void
 UseRemoteTexture
 (
+bool
+aCalledInCallback
 )
 ;
 TextureHost
