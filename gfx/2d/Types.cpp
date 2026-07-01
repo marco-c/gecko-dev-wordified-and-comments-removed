@@ -322,6 +322,14 @@ Emit
 SurfaceFormat
 :
 :
+NV16
+)
+;
+Emit
+(
+SurfaceFormat
+:
+:
 P210
 )
 ;
