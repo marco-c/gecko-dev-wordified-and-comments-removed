@@ -65,7 +65,6 @@ js
 ;
 import
 {
-AddressSpace
 kAccessModeInfo
 kAddressSpaceInfo
 }
@@ -1151,10 +1150,6 @@ as
 handle
 '
 )
-as
-AddressSpace
-[
-]
 ;
 g
 .

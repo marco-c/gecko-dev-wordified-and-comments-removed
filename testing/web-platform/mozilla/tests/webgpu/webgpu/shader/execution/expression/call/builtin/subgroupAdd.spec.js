@@ -2938,15 +2938,15 @@ subgroups
 )
 ;
 const
-{
 subgroupMinSize
-}
 =
 t
 .
 device
 .
 adapterInfo
+.
+subgroupMinSize
 ;
 const
 innerTexels
