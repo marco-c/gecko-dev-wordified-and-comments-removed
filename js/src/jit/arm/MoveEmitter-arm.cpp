@@ -401,10 +401,6 @@ breakCycle
 const
 MoveOperand
 &
-from
-const
-MoveOperand
-&
 to
 MoveOp
 :
@@ -2350,7 +2346,6 @@ isCycleBegin
 {
 breakCycle
 (
-from
 to
 move
 .
@@ -2438,7 +2433,6 @@ isCycleBegin
 {
 breakCycle
 (
-from
 to
 move
 .
