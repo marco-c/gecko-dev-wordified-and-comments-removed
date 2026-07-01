@@ -565,11 +565,6 @@ TestRTCStatsTimestampMaker
 cpp
 "
 "
-TestWebrtcCodecFactory
-.
-cpp
-"
-"
 TestWebrtcTaskQueueWrapper
 .
 cpp
