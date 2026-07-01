@@ -13576,7 +13576,12 @@ ClearTree
 (
 )
 {
-AssertOnUpdaterThread
+GetUpdater
+(
+)
+-
+>
+AssertOnUpdaterThreadOrNotInitialized
 (
 )
 ;

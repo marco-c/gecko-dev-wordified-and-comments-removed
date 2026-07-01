@@ -345,6 +345,12 @@ AssertOnUpdaterThread
 )
 const
 ;
+void
+AssertOnUpdaterThreadOrNotInitialized
+(
+)
+const
+;
 enum
 class
 DuringShutdown
@@ -434,6 +440,12 @@ ProcessQueue
 ;
 private
 :
+bool
+HasUpdaterThread
+(
+)
+const
+;
 RefPtr
 <
 APZCTreeManager
