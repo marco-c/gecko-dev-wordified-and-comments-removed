@@ -134,12 +134,8 @@ TOPSRCDIR
 browser
 /
 locales
-/
-en
 -
-US
-/
-browser
+preview
 /
 aiFeatures
 .

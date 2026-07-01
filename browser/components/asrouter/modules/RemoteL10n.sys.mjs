@@ -1144,7 +1144,7 @@ termsofuse
 ftl
 "
 "
-browser
+preview
 /
 aiWindow
 .
