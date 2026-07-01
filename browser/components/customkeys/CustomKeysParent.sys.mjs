@@ -1265,6 +1265,8 @@ customkeys
 category
 -
 navigation
+-
+2
 "
 ]
 =
@@ -2408,6 +2410,13 @@ false
 ;
 }
 }
+if
+(
+data
+.
+isValid
+)
+{
 data
 .
 shortcut
@@ -2419,6 +2428,7 @@ prettifyShortcut
 data
 )
 ;
+}
 this
 .
 sendAsyncMessage
