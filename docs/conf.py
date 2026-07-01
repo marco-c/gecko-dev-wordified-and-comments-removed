@@ -310,6 +310,10 @@ html_admonition
 "
 fieldlist
 "
+    
+"
+substitution
+"
 ]
 with
 open
