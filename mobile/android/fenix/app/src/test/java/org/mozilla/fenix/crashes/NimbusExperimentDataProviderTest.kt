@@ -354,6 +354,9 @@ slug
 branchSlug
 =
 branchSlug
+isRollout
+=
+false
 )
 }
 private

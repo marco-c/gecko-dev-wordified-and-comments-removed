@@ -716,6 +716,9 @@ branchSlug
 =
 "
 "
+isRollout
+=
+false
 )
 EnrolledExperiment
 (
@@ -741,6 +744,9 @@ branchSlug
 =
 "
 "
+isRollout
+=
+false
 )
 )
 experimentBranchLambda
@@ -1596,6 +1602,9 @@ branchSlug
 =
 "
 "
+isRollout
+=
+false
 )
 EnrolledExperiment
 (
@@ -1621,6 +1630,9 @@ branchSlug
 =
 "
 "
+isRollout
+=
+false
 )
 )
 experimentBranchLambda
@@ -2420,6 +2432,9 @@ branchSlug
 =
 "
 "
+isRollout
+=
+false
 )
 )
 experimentBranchLambda
