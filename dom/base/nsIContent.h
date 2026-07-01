@@ -1380,6 +1380,13 @@ GetEditingHost
 )
 const
 ;
+nsIContent
+*
+GetInclusiveEditableAncestor
+(
+)
+const
+;
 bool
 SupportsLangAttr
 (

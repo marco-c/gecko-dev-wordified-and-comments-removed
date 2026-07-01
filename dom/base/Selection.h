@@ -599,6 +599,13 @@ GetPresShell
 )
 const
 ;
+Document
+*
+GetDocument
+(
+)
+const
+;
 nsFrameSelection
 *
 GetFrameSelection
@@ -3200,13 +3207,6 @@ size_t
 *
 aOutIndex
 )
-;
-Document
-*
-GetDocument
-(
-)
-const
 ;
 MOZ_CAN_RUN_SCRIPT
 void

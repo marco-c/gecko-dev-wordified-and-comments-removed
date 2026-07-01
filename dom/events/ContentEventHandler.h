@@ -758,7 +758,12 @@ true
 )
 ;
 MOZ_CAN_RUN_SCRIPT
+Result
+<
+nsRange
+*
 nsresult
+>
 InitRootContent
 (
 const
