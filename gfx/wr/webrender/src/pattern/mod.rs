@@ -22,6 +22,10 @@ pub
 mod
 yuv
 ;
+pub
+mod
+backdrop
+;
 use
 api
 :
@@ -174,6 +178,9 @@ YuvTextureExternalBT709
 YuvTextureRect
 =
 11
+Backdrop
+=
+12
 }
 pub
 const
@@ -181,7 +188,7 @@ NUM_PATTERNS
 :
 u32
 =
-12
+13
 ;
 impl
 PatternKind
