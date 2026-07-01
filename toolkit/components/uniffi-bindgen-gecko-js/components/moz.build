@@ -60,15 +60,6 @@ MOZ_SRC_FILES
 "
 generated
 /
-RustAdsClient
-.
-sys
-.
-mjs
-"
-"
-generated
-/
 RustBreachAlerts
 .
 sys

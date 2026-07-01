@@ -269,7 +269,7 @@ UniFFIScaffolding
 .
 callSync
 (
-89
+75
 /
 /
 uniffi_relevancy_fn_func_score
@@ -7202,7 +7202,7 @@ UniFFIScaffolding
 .
 callSync
 (
-90
+76
 /
 /
 uniffi_relevancy_fn_constructor_relevancystore_new
@@ -7364,7 +7364,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-91
+77
 /
 /
 uniffi_relevancy_fn_method_relevancystore_bandit_init
@@ -7574,7 +7574,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-92
+78
 /
 /
 uniffi_relevancy_fn_method_relevancystore_bandit_select
@@ -7772,7 +7772,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-93
+79
 /
 /
 uniffi_relevancy_fn_method_relevancystore_bandit_update
@@ -7862,7 +7862,7 @@ UniFFIScaffolding
 .
 callSync
 (
-94
+80
 /
 /
 uniffi_relevancy_fn_method_relevancystore_close
@@ -7914,7 +7914,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-95
+81
 /
 /
 uniffi_relevancy_fn_method_relevancystore_ensure_interest_data_populated
@@ -8011,7 +8011,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-96
+82
 /
 /
 uniffi_relevancy_fn_method_relevancystore_get_bandit_data
@@ -8229,7 +8229,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-97
+83
 /
 /
 uniffi_relevancy_fn_method_relevancystore_ingest
@@ -8290,7 +8290,7 @@ UniFFIScaffolding
 .
 callSync
 (
-98
+84
 /
 /
 uniffi_relevancy_fn_method_relevancystore_interrupt
@@ -8383,7 +8383,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-99
+85
 /
 /
 uniffi_relevancy_fn_method_relevancystore_user_interest_vector
@@ -8551,7 +8551,7 @@ dataStream
 .
 readPointer
 (
-15
+12
 )
 )
 ;
@@ -8567,7 +8567,7 @@ dataStream
 .
 writePointer
 (
-15
+12
 this
 .
 lower

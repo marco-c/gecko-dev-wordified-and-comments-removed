@@ -10266,7 +10266,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-100
+86
 /
 /
 uniffi_remote_settings_fn_method_remotesettingsclient_collection_name
@@ -10421,7 +10421,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-101
+87
 /
 /
 uniffi_remote_settings_fn_method_remotesettingsclient_get_attachment
@@ -10501,7 +10501,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-102
+88
 /
 /
 uniffi_remote_settings_fn_method_remotesettingsclient_get_last_modified_timestamp
@@ -10764,7 +10764,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-103
+89
 /
 /
 uniffi_remote_settings_fn_method_remotesettingsclient_get_records
@@ -10884,7 +10884,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-104
+90
 /
 /
 uniffi_remote_settings_fn_method_remotesettingsclient_get_records_map
@@ -10936,7 +10936,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-105
+91
 /
 /
 uniffi_remote_settings_fn_method_remotesettingsclient_reset_storage
@@ -10998,7 +10998,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-106
+92
 /
 /
 uniffi_remote_settings_fn_method_remotesettingsclient_shutdown
@@ -11042,7 +11042,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-107
+93
 /
 /
 uniffi_remote_settings_fn_method_remotesettingsclient_sync
@@ -11208,7 +11208,7 @@ dataStream
 .
 readPointer
 (
-16
+13
 )
 )
 ;
@@ -11224,7 +11224,7 @@ dataStream
 .
 writePointer
 (
-16
+13
 this
 .
 lower
@@ -12087,7 +12087,7 @@ UniFFIScaffolding
 .
 callSync
 (
-108
+94
 /
 /
 uniffi_remote_settings_fn_constructor_remotesettingsservice_new
@@ -12142,7 +12142,7 @@ UniFFIScaffolding
 .
 callSync
 (
-109
+95
 /
 /
 uniffi_remote_settings_fn_method_remotesettingsservice_client_url
@@ -12242,7 +12242,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-110
+96
 /
 /
 uniffi_remote_settings_fn_method_remotesettingsservice_make_client
@@ -12332,7 +12332,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-111
+97
 /
 /
 uniffi_remote_settings_fn_method_remotesettingsservice_sync
@@ -12461,7 +12461,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-112
+98
 /
 /
 uniffi_remote_settings_fn_method_remotesettingsservice_update_config
@@ -12633,7 +12633,7 @@ dataStream
 .
 readPointer
 (
-17
+14
 )
 )
 ;
@@ -12649,7 +12649,7 @@ dataStream
 .
 writePointer
 (
-17
+14
 this
 .
 lower
