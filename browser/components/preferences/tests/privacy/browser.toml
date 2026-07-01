@@ -425,6 +425,13 @@ js
 ]
 [
 "
+browser_shutdownClearingExceptions
+.
+js
+"
+]
+[
+"
 browser_warning_permanent_private_browsing
 .
 js

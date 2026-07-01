@@ -274,6 +274,13 @@ js
 ]
 [
 "
+browser_shutdownClearingExceptions
+.
+js
+"
+]
+[
+"
 browser_warning_permanent_private_browsing_srd
 .
 js
