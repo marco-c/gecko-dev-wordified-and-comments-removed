@@ -2243,15 +2243,6 @@ data
 browser
 .
 documentGlobal
-|
-|
-msg
-.
-data
-.
-browser
-.
-ownerGlobal
 }
 }
 ;
