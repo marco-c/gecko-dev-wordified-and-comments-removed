@@ -113,6 +113,15 @@ ResumeFromInterrupt
 )
 {
 }
+virtual
+void
+HandleAudioFocusInterrupt
+(
+AudioFocusInterruptAction
+aAction
+)
+{
+}
 }
 ;
 class
@@ -396,6 +405,7 @@ HandleAudioFocusInterrupt
 AudioFocusInterruptAction
 aAction
 )
+override
 ;
 private
 :
