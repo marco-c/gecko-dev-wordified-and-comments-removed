@@ -49915,6 +49915,10 @@ nsReflowStatus
 aStatus
 )
 {
+NormalizeChildLists
+(
+)
+;
 if
 (
 IsHiddenByContentVisibilityOfInFlowParentForLayout
@@ -49981,10 +49985,6 @@ aStatus
 return
 ;
 }
-NormalizeChildLists
-(
-)
-;
 #
 ifdef
 DEBUG
