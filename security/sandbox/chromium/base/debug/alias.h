@@ -20,6 +20,15 @@ base_export
 .
 h
 "
+#
+include
+"
+base
+/
+compiler_specific
+.
+h
+"
 namespace
 base
 {
@@ -102,6 +111,8 @@ array_size
 }
 ;
 \
+UNSAFE_TODO
+(
 :
 :
 base
@@ -119,6 +130,7 @@ std
 size
 (
 var_name
+)
 )
 )
 ;
@@ -154,6 +166,8 @@ array_size
 }
 ;
 \
+UNSAFE_TODO
+(
 :
 :
 base
@@ -171,6 +185,7 @@ std
 size
 (
 var_name
+)
 )
 )
 ;
@@ -206,6 +221,8 @@ array_size
 }
 ;
 \
+UNSAFE_TODO
+(
 :
 :
 base
@@ -223,6 +240,7 @@ std
 size
 (
 var_name
+)
 )
 )
 ;

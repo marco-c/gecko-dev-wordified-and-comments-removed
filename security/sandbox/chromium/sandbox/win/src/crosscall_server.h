@@ -26,6 +26,15 @@ include
 "
 base
 /
+compiler_specific
+.
+h
+"
+#
+include
+"
+base
+/
 functional
 /
 callback
@@ -276,6 +285,8 @@ other
 const
 {
 return
+UNSAFE_TODO
+(
 !
 memcmp
 (
@@ -285,6 +296,7 @@ sizeof
 (
 *
 other
+)
 )
 )
 ;

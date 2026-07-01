@@ -179,6 +179,17 @@ thunks
 ;
 }
 ;
+struct
+PatchClientResultData
+{
+OriginalFunctions
+originals
+;
+DllInterceptionData
+dll_data
+;
+}
+;
 #
 pragma
 pack

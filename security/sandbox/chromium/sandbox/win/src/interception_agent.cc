@@ -1,4 +1,12 @@
 #
+ifdef
+UNSAFE_BUFFERS_BUILD
+#
+pragma
+allow_unsafe_buffers
+#
+endif
+#
 include
 "
 sandbox
@@ -962,14 +970,6 @@ thunks
 [
 i
 ]
-&
-thunks
--
->
-thunks
-[
-i
-]
 sizeof
 (
 ThunkData
@@ -998,6 +998,8 @@ DCHECK_NT
 (
 !
 g_originals
+.
+functions
 [
 function
 -
@@ -1007,6 +1009,8 @@ id
 |
 |
 g_originals
+.
+functions
 [
 function
 -
@@ -1026,6 +1030,8 @@ i
 )
 ;
 g_originals
+.
+functions
 [
 function
 -

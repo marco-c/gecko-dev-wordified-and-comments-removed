@@ -78,11 +78,15 @@ override
 default
 ;
 const
-char
-*
+std
+:
+:
+string
+&
 JsonString
 (
 )
+const
 override
 {
 MOZ_CRASH

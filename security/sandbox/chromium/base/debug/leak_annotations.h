@@ -19,13 +19,6 @@ defined
 (
 LEAK_SANITIZER
 )
-&
-&
-!
-BUILDFLAG
-(
-IS_NACL
-)
 #
 include
 <
@@ -89,6 +82,7 @@ ANNOTATE_SCOPED_MEMORY_LEAK
 ScopedLeakSanitizerDisabler
 leak_sanitizer_disabler
 ;
+\
 static_cast
 <
 void

@@ -159,6 +159,12 @@ DisableAllAtExitManagers
 (
 )
 ;
+static
+void
+AllowShadowingForTesting
+(
+)
+;
 protected
 :
 explicit
@@ -215,6 +221,11 @@ AtExitManager
 DanglingUntriaged
 >
 next_manager_
+;
+bool
+allow_shadowing_
+=
+false
 ;
 }
 ;

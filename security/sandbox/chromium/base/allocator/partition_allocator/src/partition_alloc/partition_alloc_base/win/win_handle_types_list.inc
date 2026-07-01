@@ -1,3 +1,11 @@
+#
+ifdef
+UNSAFE_BUFFERS_BUILD
+#
+pragma
+allow_unsafe_buffers
+#
+endif
 PA_WINDOWS_HANDLE_TYPE
 (
 HDC

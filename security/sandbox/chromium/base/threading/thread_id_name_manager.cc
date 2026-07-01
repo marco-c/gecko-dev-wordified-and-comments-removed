@@ -48,17 +48,6 @@ include
 "
 base
 /
-containers
-/
-cxx20_erase
-.
-h
-"
-#
-include
-"
-base
-/
 memory
 /
 singleton
@@ -87,23 +76,6 @@ heap_profiler_allocation_context_tracker
 .
 h
 "
-#
-include
-"
-third_party
-/
-abseil
--
-cpp
-/
-absl
-/
-base
-/
-attributes
-.
-h
-"
 namespace
 base
 {
@@ -127,7 +99,7 @@ string
 *
 g_default_name
 ;
-ABSL_CONST_INIT
+constinit
 thread_local
 const
 char
@@ -351,10 +323,10 @@ obs
 )
 )
 ;
-base
+std
 :
 :
-Erase
+erase
 (
 observers_
 obs
@@ -480,6 +452,7 @@ obs
 :
 observers_
 )
+{
 obs
 -
 >
@@ -493,6 +466,7 @@ c_str
 )
 )
 ;
+}
 if
 (
 id_to_handle_iter
@@ -569,6 +543,7 @@ id
 =
 main_process_id_
 )
+{
 return
 main_process_name_
 -
@@ -577,6 +552,7 @@ c_str
 (
 )
 ;
+}
 auto
 id_to_handle_iter
 =
@@ -598,6 +574,7 @@ end
 (
 )
 )
+{
 return
 name_to_interned_name_
 [
@@ -609,6 +586,7 @@ c_str
 (
 )
 ;
+}
 auto
 handle_to_name_iter
 =
@@ -679,7 +657,7 @@ find
 handle
 )
 ;
-DCHECK
+CHECK
 (
 handle_to_name_iter
 !
@@ -708,8 +686,7 @@ find
 id
 )
 ;
-DCHECK
-(
+CHECK
 (
 id_to_handle_iter
 !
@@ -718,7 +695,6 @@ thread_id_to_handle_
 .
 end
 (
-)
 )
 )
 ;
@@ -732,8 +708,10 @@ second
 =
 handle
 )
+{
 return
 ;
+}
 thread_id_to_handle_
 .
 erase
@@ -791,6 +769,7 @@ iter
 :
 thread_id_to_handle_
 )
+{
 ids
 .
 push_back
@@ -800,6 +779,7 @@ iter
 first
 )
 ;
+}
 return
 ids
 ;

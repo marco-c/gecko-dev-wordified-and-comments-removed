@@ -6,6 +6,15 @@ define
 SANDBOX_LINUX_SYSTEM_HEADERS_LINUX_SYSCALLS_H_
 #
 include
+<
+sys
+/
+syscall
+.
+h
+>
+#
+include
 "
 build
 /

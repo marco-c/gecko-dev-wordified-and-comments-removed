@@ -81,9 +81,6 @@ void
 interceptor_entry_point
 void
 *
-local_thunk_storage
-void
-*
 thunk_storage
 size_t
 storage_bytes
@@ -91,10 +88,6 @@ storage_bytes
 {
 if
 (
-!
-local_thunk_storage
-|
-|
 !
 thunk_storage
 |

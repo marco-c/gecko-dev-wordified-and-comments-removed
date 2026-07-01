@@ -250,17 +250,6 @@ nt_status
 ;
 }
 ;
-bool
-PreProcessName
-(
-std
-:
-:
-wstring
-*
-path
-)
-;
 std
 :
 :

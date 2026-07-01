@@ -11,6 +11,13 @@ utility
 >
 #
 include
+<
+stdint
+.
+h
+>
+#
+include
 "
 base
 /
@@ -209,6 +216,7 @@ if
 (
 scoped_variable_
 )
+{
 *
 scoped_variable_
 =
@@ -220,6 +228,7 @@ move
 original_value_
 )
 ;
+}
 }
 private
 :

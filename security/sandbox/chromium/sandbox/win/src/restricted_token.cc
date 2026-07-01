@@ -28,6 +28,11 @@ h
 #
 include
 <
+algorithm
+>
+#
+include
+<
 memory
 >
 #
@@ -46,17 +51,6 @@ include
 base
 /
 logging
-.
-h
-"
-#
-include
-"
-base
-/
-ranges
-/
-algorithm
 .
 h
 "
@@ -117,7 +111,7 @@ RestrictedToken
 =
 default
 ;
-absl
+std
 :
 :
 optional
@@ -138,7 +132,7 @@ GetRestrictedToken
 )
 const
 {
-absl
+std
 :
 :
 optional
@@ -175,7 +169,7 @@ token
 )
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -525,7 +519,7 @@ access
 )
 ;
 }
-absl
+std
 :
 :
 optional
@@ -684,7 +678,7 @@ continue
 }
 if
 (
-base
+std
 :
 :
 ranges
@@ -866,7 +860,7 @@ if
 add_restricting_sid_logon_session_
 )
 {
-absl
+std
 :
 :
 optional
@@ -916,7 +910,7 @@ return
 sids
 ;
 }
-absl
+std
 :
 :
 optional
@@ -947,7 +941,7 @@ token
 )
 const
 {
-absl
+std
 :
 :
 optional
@@ -1061,7 +1055,7 @@ new_token
 )
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -1079,14 +1073,13 @@ remove_traversal_privilege_
 new_token
 -
 >
-RemovePrivilege
+RemoveAllPrivileges
 (
-SE_CHANGE_NOTIFY_NAME
 )
 )
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -1107,7 +1100,7 @@ ExplicitAccessEntry
 >
 dacl_entries
 ;
-absl
+std
 :
 :
 optional
@@ -1136,7 +1129,7 @@ dacl
 )
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -1147,7 +1140,7 @@ if
 lockdown_default_dacl_
 )
 {
-absl
+std
 :
 :
 optional
@@ -1219,7 +1212,7 @@ ERROR_NOT_FOUND
 )
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -1323,7 +1316,7 @@ dacl_entries
 )
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -1343,7 +1336,7 @@ dacl
 )
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -1372,7 +1365,7 @@ integrity_rid_
 )
 {
 return
-absl
+std
 :
 :
 nullopt

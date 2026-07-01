@@ -39,7 +39,7 @@ win
 /
 src
 /
-restricted_token
+security_level
 .
 h
 "
@@ -310,7 +310,7 @@ SetInformationJobObject
 (
 job_handle_
 .
-Get
+get
 (
 )
 JobObjectExtendedLimitInformation
@@ -353,7 +353,7 @@ SetInformationJobObject
 (
 job_handle_
 .
-Get
+get
 (
 )
 JobObjectBasicUIRestrictions

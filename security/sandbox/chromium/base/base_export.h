@@ -43,12 +43,6 @@ endif
 #
 else
 #
-if
-defined
-(
-BASE_IMPLEMENTATION
-)
-#
 define
 BASE_EXPORT
 __attribute__
@@ -62,13 +56,6 @@ default
 )
 )
 )
-#
-else
-#
-define
-BASE_EXPORT
-#
-endif
 #
 endif
 #

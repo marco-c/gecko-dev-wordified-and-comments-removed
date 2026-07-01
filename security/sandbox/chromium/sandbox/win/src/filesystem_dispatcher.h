@@ -18,6 +18,11 @@ string
 >
 #
 include
+<
+string_view
+>
+#
+include
 "
 base
 /
@@ -237,12 +242,10 @@ EvalPolicy
 (
 IpcTag
 ipc_tag
-const
 std
 :
 :
-wstring
-&
+wstring_view
 name
 uint32_t
 desired_access

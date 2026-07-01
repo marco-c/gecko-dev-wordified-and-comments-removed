@@ -1071,6 +1071,8 @@ auto
 &
 trap
 =
+UNSAFE_TODO
+(
 trap_array_
 [
 info
@@ -1080,6 +1082,7 @@ si_errno
 -
 1
 ]
+)
 ;
 if
 (
@@ -1405,10 +1408,13 @@ handler
 =
 id
 ;
+UNSAFE_TODO
+(
 trap_array_
 [
 trap_array_size_
 ]
+)
 =
 handler
 ;

@@ -38,6 +38,7 @@ HANDLE_EINTR
 (
 x
 )
+\
 (
 {
 \
@@ -88,6 +89,7 @@ HANDLE_EINTR
 (
 x
 )
+\
 (
 {
 \
@@ -152,6 +154,7 @@ IGNORE_EINTR
 (
 x
 )
+\
 (
 {
 \

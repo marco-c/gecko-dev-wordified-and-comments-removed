@@ -31,12 +31,6 @@ defined
 COMPONENT_BUILD
 )
 #
-if
-defined
-(
-SANDBOX_IMPLEMENTATION
-)
-#
 define
 SANDBOX_EXPORT
 __attribute__
@@ -50,13 +44,6 @@ default
 )
 )
 )
-#
-else
-#
-define
-SANDBOX_EXPORT
-#
-endif
 #
 else
 #

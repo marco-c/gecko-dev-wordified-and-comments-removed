@@ -5873,4 +5873,17 @@ __NR_lsm_list_modules
 #
 endif
 #
+if
+!
+defined
+(
+__NR_mseal
+)
+#
+define
+__NR_mseal
+462
+#
+endif
+#
 endif

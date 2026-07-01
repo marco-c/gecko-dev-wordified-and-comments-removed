@@ -277,6 +277,9 @@ OS_LIBS
 advapi32
 "
 "
+shlwapi
+"
+"
 user32
 "
 "

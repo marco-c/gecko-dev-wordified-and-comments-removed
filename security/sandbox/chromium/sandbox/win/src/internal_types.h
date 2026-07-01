@@ -62,19 +62,6 @@ kernel32
 dll
 "
 ;
-const
-wchar_t
-kKernelBasedllName
-[
-]
-=
-L
-"
-kernelbase
-.
-dll
-"
-;
 enum
 ArgType
 {
@@ -83,7 +70,6 @@ INVALID_TYPE
 0
 WCHAR_TYPE
 UINT32_TYPE
-UNISTR_TYPE
 VOIDPTR_TYPE
 INPTR_TYPE
 INOUTPTR_TYPE

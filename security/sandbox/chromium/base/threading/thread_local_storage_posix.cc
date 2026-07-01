@@ -20,8 +20,8 @@ h
 "
 namespace
 base
-{
-namespace
+:
+:
 internal
 {
 bool
@@ -106,6 +106,5 @@ ret
 0
 )
 ;
-}
 }
 }

@@ -336,9 +336,6 @@ NOTREACHED
 (
 )
 ;
-return
-false
-;
 default
 :
 return

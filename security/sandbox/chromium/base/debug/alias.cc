@@ -20,8 +20,8 @@ h
 "
 namespace
 base
-{
-namespace
+:
+:
 debug
 {
 NOINLINE
@@ -34,6 +34,5 @@ void
 var
 )
 {
-}
 }
 }

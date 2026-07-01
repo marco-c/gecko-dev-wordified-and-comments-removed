@@ -1,4 +1,12 @@
 #
+ifdef
+UNSAFE_BUFFERS_BUILD
+#
+pragma
+allow_unsafe_buffers
+#
+endif
+#
 include
 "
 base
@@ -34,7 +42,7 @@ h
 namespace
 base
 {
-absl
+std
 :
 :
 optional
@@ -116,7 +124,7 @@ unused
 )
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -315,7 +323,7 @@ code_point
 if
 defined
 (
-WCHAR_T_IS_UTF32
+WCHAR_T_IS_32_BIT
 )
 bool
 ReadUnicodeCharacter
@@ -590,8 +598,10 @@ src_len
 =
 0
 )
+{
 return
 ;
+}
 if
 (
 src
@@ -697,8 +707,10 @@ src_len
 =
 0
 )
+{
 return
 ;
+}
 if
 (
 static_cast

@@ -32,10 +32,21 @@ platform_thread
 .
 h
 "
+#
+include
+"
+base
+/
+time
+/
+time
+.
+h
+"
 namespace
 base
-{
-namespace
+:
+:
 internal
 {
 bool
@@ -143,6 +154,7 @@ Milliseconds
 1
 )
 )
+{
 PlatformThread
 :
 :
@@ -150,7 +162,9 @@ YieldCurrentThread
 (
 )
 ;
+}
 else
+{
 PlatformThread
 :
 :
@@ -162,6 +176,7 @@ Milliseconds
 )
 )
 ;
+}
 }
 while
 (
@@ -230,6 +245,7 @@ new_instance
 &
 destructor
 )
+{
 AtExitManager
 :
 :

@@ -20,6 +20,17 @@ utf_string_conversions
 .
 h
 "
+#
+include
+"
+base
+/
+types
+/
+supports_ostream_operator
+.
+h
+"
 std
 :
 :

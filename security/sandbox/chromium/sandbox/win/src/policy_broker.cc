@@ -199,6 +199,16 @@ g_nt
 GetNtExports
 (
 )
+const_cast
+<
+NtExports
+*
+>
+(
+GetNtExports
+(
+)
+)
 sizeof
 (
 NtExports

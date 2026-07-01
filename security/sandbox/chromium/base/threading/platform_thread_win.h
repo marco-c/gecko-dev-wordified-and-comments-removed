@@ -9,9 +9,7 @@ include
 "
 base
 /
-win
-/
-windows_types
+base_export
 .
 h
 "
@@ -31,7 +29,9 @@ include
 "
 base
 /
-base_export
+win
+/
+windows_types
 .
 h
 "
@@ -52,12 +52,6 @@ memory_priority
 )
 ;
 }
-BASE_EXPORT
-void
-InitializePlatformThreadFeatures
-(
-)
-;
 }
 #
 endif

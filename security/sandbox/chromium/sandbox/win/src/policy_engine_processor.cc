@@ -25,6 +25,15 @@ stdint
 .
 h
 >
+#
+include
+"
+base
+/
+compiler_specific
+.
+h
+"
 namespace
 sandbox
 {
@@ -226,6 +235,8 @@ PolicyOpcode
 &
 opcode
 =
+UNSAFE_TODO
+(
 policy_
 -
 >
@@ -233,6 +244,7 @@ opcodes
 [
 ix
 ]
+)
 ;
 if
 (

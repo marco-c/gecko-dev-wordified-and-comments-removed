@@ -122,9 +122,6 @@ void
 interceptor_entry_point
 void
 *
-local_thunk_storage
-void
-*
 thunk_storage
 size_t
 storage_bytes
