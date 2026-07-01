@@ -675,6 +675,9 @@ sportsWidget
 "
 clocks
 "
+"
+privacy
+"
 ]
 )
 ;
@@ -724,6 +727,9 @@ lists
 "
 "
 focusTimer
+"
+"
+privacy
 "
 ]
 )
@@ -777,6 +783,9 @@ clocks
 "
 "
 focusTimer
+"
+"
+privacy
 "
 ]
 )
@@ -892,6 +901,9 @@ clocks
 "
 "
 weather
+"
+"
+privacy
 "
 ]
 )
@@ -1022,6 +1034,9 @@ sportsWidget
 "
 clocks
 "
+"
+privacy
+"
 ]
 )
 ;
@@ -1093,6 +1108,9 @@ sportsWidget
 "
 "
 clocks
+"
+"
+privacy
 "
 ]
 )
@@ -1166,6 +1184,9 @@ sportsWidget
 "
 "
 clocks
+"
+"
+privacy
 "
 ]
 )

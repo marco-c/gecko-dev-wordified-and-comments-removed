@@ -1279,6 +1279,15 @@ props
 .
 mayHaveClocksWidget
 }
+mayHavePrivacyWidget
+=
+{
+this
+.
+props
+.
+mayHavePrivacyWidget
+}
 dispatch
 =
 {
