@@ -2562,6 +2562,16 @@ getOriginalTokenValue
 (
 token
 prop
+"
+brand
+"
+)
+?
+?
+getOriginalTokenValue
+(
+token
+prop
 )
 ;
 if

@@ -9804,7 +9804,12 @@ forcedColors
 "
 :
 "
-currentColor
+{
+Theme
+border
+/
+color
+}
 "
 }
 "
