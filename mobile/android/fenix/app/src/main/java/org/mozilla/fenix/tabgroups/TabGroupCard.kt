@@ -485,7 +485,7 @@ ui
 .
 colors
 .
-PhotonColors
+NovaColors
 import
 org
 .
@@ -2054,7 +2054,7 @@ color
 :
 Color
 =
-PhotonColors
+NovaColors
 .
 Pink70
 val
