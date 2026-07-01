@@ -112,6 +112,8 @@ Register
 rd
 int32_t
 imm21
+LabelDoc
+doc
 )
 {
 GenInstrJ
@@ -119,6 +121,7 @@ GenInstrJ
 JAL
 rd
 imm21
+doc
 )
 ;
 return
@@ -142,6 +145,8 @@ Register
 rs1
 int16_t
 imm12
+LabelDoc
+doc
 )
 {
 return
@@ -152,6 +157,7 @@ JALR
 rd
 rs1
 imm12
+doc
 )
 ;
 }
@@ -167,6 +173,8 @@ Register
 rs2
 int16_t
 imm13
+LabelDoc
+doc
 )
 {
 GenInstrBranchCC_rri
@@ -175,6 +183,7 @@ GenInstrBranchCC_rri
 rs1
 rs2
 imm13
+doc
 )
 ;
 }
@@ -190,6 +199,8 @@ Register
 rs2
 int16_t
 imm13
+LabelDoc
+doc
 )
 {
 GenInstrBranchCC_rri
@@ -198,6 +209,7 @@ GenInstrBranchCC_rri
 rs1
 rs2
 imm13
+doc
 )
 ;
 }
@@ -213,6 +225,8 @@ Register
 rs2
 int16_t
 imm13
+LabelDoc
+doc
 )
 {
 GenInstrBranchCC_rri
@@ -221,6 +235,7 @@ GenInstrBranchCC_rri
 rs1
 rs2
 imm13
+doc
 )
 ;
 }
@@ -236,6 +251,8 @@ Register
 rs2
 int16_t
 imm13
+LabelDoc
+doc
 )
 {
 GenInstrBranchCC_rri
@@ -244,6 +261,7 @@ GenInstrBranchCC_rri
 rs1
 rs2
 imm13
+doc
 )
 ;
 }
@@ -259,6 +277,8 @@ Register
 rs2
 int16_t
 imm13
+LabelDoc
+doc
 )
 {
 GenInstrBranchCC_rri
@@ -267,6 +287,7 @@ GenInstrBranchCC_rri
 rs1
 rs2
 imm13
+doc
 )
 ;
 }
@@ -282,6 +303,8 @@ Register
 rs2
 int16_t
 imm13
+LabelDoc
+doc
 )
 {
 GenInstrBranchCC_rri
@@ -290,6 +313,7 @@ GenInstrBranchCC_rri
 rs1
 rs2
 imm13
+doc
 )
 ;
 }
