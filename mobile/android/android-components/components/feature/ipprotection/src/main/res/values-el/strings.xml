@@ -119,8 +119,7 @@ mozac_feature_ipprotection_unavaliable_dialog_title
 "
 >
 VPN
--
-?
+;
 <
 /
 string
@@ -167,7 +166,6 @@ mozac_feature_ipprotection_unavaliable_dialog_body
 VPN
 .
 VPN
--
 .
 <
 /

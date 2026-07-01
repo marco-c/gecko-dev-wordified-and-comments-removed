@@ -43966,9 +43966,9 @@ quantity
 one
 "
 >
+Zablokowano
 %
 d
-zablokowany
 element
 ledz
 cy
@@ -43984,9 +43984,9 @@ quantity
 few
 "
 >
+Zablokowano
 %
 d
-zablokowane
 elementy
 ledz
 ce
@@ -44002,9 +44002,9 @@ quantity
 other
 "
 >
+Zablokowano
 %
 d
-zablokowanych
 element
 w
 ledz
@@ -44062,9 +44062,9 @@ quantity
 one
 "
 >
+Zablokowano
 %
 d
-zablokowany
 element
 ledz
 cy
@@ -44080,9 +44080,9 @@ quantity
 few
 "
 >
+Zablokowano
 %
 d
-zablokowane
 elementy
 ledz
 ce
@@ -44098,9 +44098,9 @@ quantity
 other
 "
 >
+Zablokowano
 %
 d
-zablokowanych
 element
 w
 ledz
@@ -76686,7 +76686,7 @@ name
 sports_widget_view_schedule
 "
 >
-Harmonogram
+Terminarz
 <
 /
 string
