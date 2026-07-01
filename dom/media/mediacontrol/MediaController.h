@@ -516,6 +516,12 @@ IsActive
 const
 override
 ;
+bool
+IsMuted
+(
+)
+const
+;
 void
 NotifyMediaPlaybackChanged
 (
@@ -827,6 +833,11 @@ false
 ;
 bool
 mShutdown
+=
+false
+;
+bool
+mIsMuted
 =
 false
 ;

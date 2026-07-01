@@ -502,6 +502,13 @@ Bug
 ]
 [
 "
+browser_media_control_mute
+.
+js
+"
+]
+[
+"
 browser_media_control_metadata
 .
 js
