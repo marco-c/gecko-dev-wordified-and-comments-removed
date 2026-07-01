@@ -437,6 +437,11 @@ TestPDMFactorySupport
 cpp
 "
 "
+TestQuantizableBuffer
+.
+cpp
+"
+"
 TestRemoteImageHolder
 .
 cpp
