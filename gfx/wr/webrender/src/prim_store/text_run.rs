@@ -2365,7 +2365,7 @@ TextRunTemplate
 >
 (
 )
-80
+88
 "
 TextRunTemplate
 size
