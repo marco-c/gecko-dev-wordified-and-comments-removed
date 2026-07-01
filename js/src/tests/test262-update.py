@@ -250,6 +250,21 @@ join
 "
     
 "
+iterator
+-
+chunking
+"
+:
+"
+!
+Iterator
+.
+prototype
+.
+chunks
+"
+    
+"
 immutable
 -
 arraybuffer
@@ -494,6 +509,22 @@ enable
 iterator
 -
 join
+"
+    
+"
+iterator
+-
+chunking
+"
+:
+"
+-
+-
+enable
+-
+iterator
+-
+chunking
 "
     
 "
