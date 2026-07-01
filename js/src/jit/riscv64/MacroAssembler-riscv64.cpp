@@ -12719,7 +12719,6 @@ reg
 jalr
 (
 reg
-0
 )
 ;
 return
@@ -12856,18 +12855,19 @@ scratch2
 jr
 (
 scratch
-0
 )
 ;
-spew
+comment
 (
 "
 .
 space
 32bit
-initValue
+[
 0xffff
+'
 ffff
+]
 "
 )
 ;
@@ -29552,7 +29552,6 @@ dest
 jr
 (
 scratch
-0
 )
 ;
 return
@@ -31795,7 +31794,6 @@ dest
 jalr
 (
 CallReg
-0
 )
 ;
 return
