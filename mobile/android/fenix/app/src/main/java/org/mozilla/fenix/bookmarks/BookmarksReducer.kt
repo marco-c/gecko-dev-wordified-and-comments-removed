@@ -503,6 +503,9 @@ false
 ImportAction
 .
 ImportStarted
+ImportAction
+.
+ImportCancelled
 is
 ImportAction
 .

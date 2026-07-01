@@ -912,7 +912,14 @@ FenixImporterEvent
 Canceled
 -
 >
-Unit
+store
+.
+dispatch
+(
+ImportAction
+.
+ImportCancelled
+)
 is
 FenixImporterEvent
 .
@@ -2352,6 +2359,9 @@ ImportFailed
 ImportAction
 .
 ImportStarted
+ImportAction
+.
+ImportCancelled
 SearchClicked
 RootOverflowMenuClicked
 RootOverflowMenuDismissed

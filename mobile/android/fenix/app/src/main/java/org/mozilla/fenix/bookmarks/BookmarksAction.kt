@@ -1180,6 +1180,14 @@ ImportAction
 )
 internal
 data
+object
+ImportCancelled
+:
+ImportAction
+(
+)
+internal
+data
 class
 ImportFailed
 (
