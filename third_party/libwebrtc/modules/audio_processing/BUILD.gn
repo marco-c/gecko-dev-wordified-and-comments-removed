@@ -2442,11 +2442,6 @@ cascaded_biquad_filter_unittest
 "
 utility
 :
-legacy_delay_estimator_unittest
-"
-"
-utility
-:
 pffft_wrapper_unittest
 "
 "
