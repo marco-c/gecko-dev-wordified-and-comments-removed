@@ -118,7 +118,7 @@ arg
 .
 )
 \
-DDMOZ_LOG
+DDMOZ_LOG_FMT
 (
 GetMediaSourceLog
 (
@@ -133,8 +133,8 @@ Debug
 "
 :
 :
-%
-s
+{
+}
 :
 "
 arg
@@ -154,7 +154,7 @@ arg
 .
 )
 \
-DDMOZ_LOG
+DDMOZ_LOG_FMT
 (
 GetMediaSourceLog
 (
@@ -169,8 +169,8 @@ Verbose
 "
 :
 :
-%
-s
+{
+}
 :
 "
 arg
@@ -775,8 +775,8 @@ MSE_DEBUG
 "
 ranges
 =
-%
-s
+{
+}
 "
 DumpTimeRanges
 (
@@ -1085,8 +1085,8 @@ MSE_DEBUG
 "
 ranges
 =
-%
-s
+{
+}
 "
 DumpTimeRanges
 (
