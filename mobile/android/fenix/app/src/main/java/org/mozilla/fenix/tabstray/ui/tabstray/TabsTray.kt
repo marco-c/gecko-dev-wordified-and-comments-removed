@@ -2118,6 +2118,13 @@ tabsTrayState
 config
 .
 tabGroupsDragAndDropEnabled
+liveReorderEnabled
+=
+tabsTrayState
+.
+config
+.
+tabGroupsLiveReorderEnabled
 displayTabGroupOnboarding
 =
 tabsTrayState
