@@ -1789,7 +1789,7 @@ Ok
 MathSum
 :
 :
-try_from_numeric_values
+from_numeric_values_unchecked
 (
 values
 .
@@ -1809,7 +1809,6 @@ collect
 (
 )
 )
-?
 )
 ;
 }
@@ -1988,11 +1987,10 @@ Ok
 MathSum
 :
 :
-try_from_numeric_values
+from_numeric_values_unchecked
 (
 result
 )
-?
 )
 }
 }
