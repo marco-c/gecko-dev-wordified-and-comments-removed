@@ -63,6 +63,16 @@ FieldTrialsView
 field_trials
 )
 ;
+EncoderSpeedExperiment
+(
+const
+FieldTrialsView
+&
+field_trials
+bool
+use_low_complexity_for_vp9
+)
+;
 bool
 IsDynamicSpeedEnabled
 (
@@ -118,6 +128,8 @@ trial_string
 ComplexitySettings
 &
 settings
+bool
+use_low_complexity_for_vp9
 )
 ;
 bool
