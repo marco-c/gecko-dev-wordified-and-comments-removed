@@ -22,3 +22,10 @@ test_profile_processor
 py
 "
 ]
+[
+"
+test_symbolication
+.
+py
+"
+]
