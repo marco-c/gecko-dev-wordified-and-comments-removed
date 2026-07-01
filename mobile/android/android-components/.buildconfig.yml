@@ -7237,6 +7237,12 @@ state
 -
 components
 :
+service
+-
+nimbus
+-
+components
+:
 support
 -
 base
@@ -7246,6 +7252,12 @@ components
 support
 -
 ktx
+-
+components
+:
+support
+-
+locale
 -
 components
 :
