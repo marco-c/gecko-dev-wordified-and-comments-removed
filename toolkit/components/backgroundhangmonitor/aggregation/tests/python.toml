@@ -1,0 +1,17 @@
+[
+DEFAULT
+]
+subsuite
+=
+"
+bhr
+-
+aggregation
+"
+[
+"
+test_heuristics
+.
+py
+"
+]
