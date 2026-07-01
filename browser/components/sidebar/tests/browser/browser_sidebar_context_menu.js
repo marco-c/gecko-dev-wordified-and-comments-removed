@@ -52,7 +52,9 @@ sidebarRevampVisibility
 "
 hide
 -
-sidebar
+on
+-
+close
 "
 "
 revamp
@@ -2390,7 +2392,9 @@ SIDEBAR_VISIBILITY_PREF
 "
 hide
 -
-sidebar
+on
+-
+close
 "
 "
 Sanity
@@ -2783,7 +2787,9 @@ SIDEBAR_VISIBILITY_PREF
 "
 hide
 -
-sidebar
+on
+-
+close
 "
 "
 Sanity
