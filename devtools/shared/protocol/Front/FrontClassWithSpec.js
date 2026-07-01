@@ -642,6 +642,7 @@ frontProto
 name
 ]
 =
+async
 function
 (
 .
@@ -650,7 +651,10 @@ function
 args
 )
 {
-return
+const
+result
+=
+await
 fn
 .
 apply
@@ -658,13 +662,7 @@ apply
 this
 args
 )
-.
-then
-(
-result
-=
->
-{
+;
 this
 .
 destroy
@@ -673,9 +671,6 @@ destroy
 ;
 return
 result
-;
-}
-)
 ;
 }
 ;

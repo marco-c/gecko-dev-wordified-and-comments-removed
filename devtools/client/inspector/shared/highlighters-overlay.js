@@ -6439,7 +6439,7 @@ highlighters
 type
 ]
 .
-finalize
+destroy
 (
 )
 ;
