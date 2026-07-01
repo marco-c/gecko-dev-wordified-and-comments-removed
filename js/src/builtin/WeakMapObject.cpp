@@ -1199,9 +1199,6 @@ if
 addPtr
 )
 {
-if
-(
-!
 PreserveReflectorAndAssertValidEntry
 (
 cx
@@ -1209,12 +1206,7 @@ mapObj
 key
 value
 )
-)
-{
-return
-false
 ;
-}
 if
 (
 !

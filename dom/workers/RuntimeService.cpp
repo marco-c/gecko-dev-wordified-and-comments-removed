@@ -3851,7 +3851,7 @@ true
 ;
 }
 static
-bool
+void
 PreserveWrapper
 (
 JSContext
@@ -3902,9 +3902,6 @@ TryPreserveWrapper
 (
 obj
 )
-;
-return
-true
 ;
 }
 static

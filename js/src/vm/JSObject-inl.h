@@ -3099,7 +3099,7 @@ isConstructor
 }
 static
 inline
-bool
+void
 MaybePreserveDOMWrapper
 (
 JSContext
@@ -3149,7 +3149,6 @@ isDOMClass
 )
 {
 return
-true
 ;
 }
 if
@@ -3173,7 +3172,6 @@ get
 )
 )
 {
-return
 cx
 -
 >
@@ -3189,9 +3187,6 @@ obj
 )
 ;
 }
-return
-true
-;
 }
 }
 MOZ_ALWAYS_INLINE

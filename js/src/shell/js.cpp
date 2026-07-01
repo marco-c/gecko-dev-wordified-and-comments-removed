@@ -22361,7 +22361,7 @@ true
 #
 endif
 static
-bool
+void
 DummyPreserveWrapperCallback
 (
 JSContext
@@ -22371,9 +22371,6 @@ HandleObject
 obj
 )
 {
-return
-true
-;
 }
 static
 bool

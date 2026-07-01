@@ -5943,14 +5943,13 @@ return
 true
 ;
 }
-return
 MaybePreserveDOMWrapper
 (
 cx
 obj
 )
-&
-&
+;
+return
 JSObject
 :
 :

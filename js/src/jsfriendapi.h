@@ -668,7 +668,7 @@ realm
 using
 PreserveWrapperCallback
 =
-bool
+void
 (
 *
 )

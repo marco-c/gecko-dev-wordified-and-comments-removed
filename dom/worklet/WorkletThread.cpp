@@ -230,7 +230,7 @@ size_t
 )
 *
 1024
-bool
+void
 PreserveWrapper
 (
 JSContext
@@ -281,9 +281,6 @@ TryPreserveWrapper
 (
 aObj
 )
-;
-return
-true
 ;
 }
 JSObject

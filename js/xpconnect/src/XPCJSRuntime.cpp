@@ -17596,7 +17596,7 @@ nullptr
 ;
 }
 static
-bool
+void
 PreserveWrapper
 (
 JSContext
@@ -17675,9 +17675,6 @@ preserved
 it
 "
 )
-;
-return
-true
 ;
 }
 static
