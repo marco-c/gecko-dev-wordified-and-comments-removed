@@ -46,6 +46,8 @@ OOPInit
 nsIFile
 *
 aXREDirectory
+bool
+force
 )
 {
 return
@@ -115,10 +117,9 @@ SetupExtraData
 nsIFile
 *
 aAppDataDirectory
-const
-nsACString
-&
-aBuildID
+nsIFile
+*
+aXreDirectory
 )
 {
 return

@@ -6275,6 +6275,7 @@ CrashReporter
 OOPInit
 (
 greBinDir
+true
 )
 ;
 if
