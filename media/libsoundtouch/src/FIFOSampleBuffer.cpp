@@ -118,9 +118,6 @@ int
 numChannels
 )
 {
-uint
-usedBytes
-;
 if
 (
 !
@@ -131,11 +128,9 @@ numChannels
 )
 return
 ;
-usedBytes
-=
-channels
-*
-samplesInBuffer
+clear
+(
+)
 ;
 channels
 =
@@ -143,12 +138,6 @@ channels
 uint
 )
 numChannels
-;
-samplesInBuffer
-=
-usedBytes
-/
-channels
 ;
 }
 void
