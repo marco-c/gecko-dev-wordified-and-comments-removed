@@ -405,6 +405,18 @@ button
 .
 TextButton
 import
+mozilla
+.
+components
+.
+support
+.
+base
+.
+android
+.
+NoObscuredTouchesDialogFragment
+import
 org
 .
 mozilla
@@ -556,7 +568,7 @@ DownloadAddonDialogFragmentArgs
 class
 DownloadAddonDialogFragment
 :
-AppCompatDialogFragment
+NoObscuredTouchesDialogFragment
 (
 )
 {

@@ -133,6 +133,18 @@ components
 .
 support
 .
+base
+.
+android
+.
+NoObscuredTouchesDialogFragment
+import
+mozilla
+.
+components
+.
+support
+.
 utils
 .
 ext
@@ -173,7 +185,7 @@ open
 class
 AddonDialogFragment
 :
-AppCompatDialogFragment
+NoObscuredTouchesDialogFragment
 (
 )
 {
