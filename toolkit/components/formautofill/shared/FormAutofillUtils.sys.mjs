@@ -604,8 +604,6 @@ autofill
 card
 -
 number
--
-2
 "
 "
 autofill
@@ -617,8 +615,6 @@ name
 on
 -
 card
--
-2
 "
 "
 autofill
@@ -628,8 +624,6 @@ card
 expires
 -
 month
--
-2
 "
 "
 autofill
@@ -639,8 +633,6 @@ card
 expires
 -
 year
--
-2
 "
 "
 autofill
