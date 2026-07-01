@@ -347,7 +347,7 @@ media
 :
 :
 TimeUnit
-mNextFrameTime
+mLastFrameTime
 {
 media
 :
