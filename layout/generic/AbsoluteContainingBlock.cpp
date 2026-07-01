@@ -2369,7 +2369,7 @@ if
 (
 aPositionArea
 .
-first
+second
 =
 =
 StylePositionAreaKeyword
