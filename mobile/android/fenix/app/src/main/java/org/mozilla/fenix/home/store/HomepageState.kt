@@ -1670,7 +1670,6 @@ topSites
 .
 size
 <
-=
 8
 )
 showRecentTabs
