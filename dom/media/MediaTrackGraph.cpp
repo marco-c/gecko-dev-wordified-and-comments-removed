@@ -18016,12 +18016,7 @@ mAudioOutputLatency
 )
 mMaxOutputChannelCount
 (
-CubebUtils
-:
-:
-MaxNumberOfChannels
-(
-)
+0
 )
 {
 }
@@ -18060,6 +18055,10 @@ aDriverRequested
 !
 =
 OFFLINE_THREAD_DRIVER
+;
+mMaxOutputChannelCount
+=
+aChannelCount
 ;
 mOutputDeviceRefCnts
 .
