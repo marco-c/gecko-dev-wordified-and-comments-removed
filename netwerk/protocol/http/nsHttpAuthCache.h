@@ -60,6 +60,13 @@ nsIObserver
 .
 h
 "
+#
+include
+"
+nsWeakReference
+.
+h
+"
 namespace
 mozilla
 {
@@ -651,6 +658,8 @@ public
 nsIHttpAuthCache
 public
 nsIObserver
+public
+nsSupportsWeakReference
 {
 public
 :
@@ -658,6 +667,11 @@ NS_DECL_ISUPPORTS
 NS_DECL_NSIHTTPAUTHCACHE
 NS_DECL_NSIOBSERVER
 nsHttpAuthCache
+(
+)
+;
+void
+Init
 (
 )
 ;
