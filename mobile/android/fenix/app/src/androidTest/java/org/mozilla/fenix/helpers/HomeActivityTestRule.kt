@@ -504,11 +504,6 @@ Boolean
 settings
 .
 shouldUseBottomToolbar
-isUseNewCrashReporterFlow
-:
-Boolean
-=
-false
 isIPProtectionEnabled
 :
 Boolean
@@ -649,11 +644,6 @@ this
 shouldUseBottomToolbar
 =
 shouldUseBottomToolbar
-this
-.
-isUseNewCrashReporterFlow
-=
-isUseNewCrashReporterFlow
 this
 .
 enableOrDisableIPProtection
@@ -1048,9 +1038,6 @@ false
 isIPProtectionEnabled
 =
 false
-isUseNewCrashReporterFlow
-=
-useNewCrashReporterFlow
 isTabSwipeCFREnabled
 =
 true
