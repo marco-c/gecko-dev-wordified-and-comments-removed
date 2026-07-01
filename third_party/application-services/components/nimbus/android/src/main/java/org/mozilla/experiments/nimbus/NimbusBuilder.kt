@@ -849,6 +849,9 @@ else
 {
 applyPendingExperiments
 (
+initial
+=
+true
 )
 }
 /

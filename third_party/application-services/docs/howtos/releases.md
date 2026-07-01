@@ -31,6 +31,7 @@ is
 listed
 here
 :
+<
 https
 :
 /
@@ -62,6 +63,7 @@ v2
 nightly
 /
 latest
+>
 -
 The
 latest
@@ -73,6 +75,7 @@ be
 listed
 here
 :
+<
 https
 :
 /
@@ -112,6 +115,7 @@ taskgraph
 decision
 -
 nightly
+>
 -
 If
 you
@@ -645,6 +649,7 @@ maven
 -
 production
 :
+<
 https
 :
 /
@@ -666,6 +671,7 @@ mozilla
 /
 appservices
 /
+>
 -
 maven
 -
@@ -673,6 +679,7 @@ nightly
 -
 production
 :
+<
 https
 :
 /
@@ -696,11 +703,13 @@ appservices
 /
 nightly
 /
+>
 -
 maven
 -
 staging
 :
+<
 https
 :
 /
@@ -726,6 +735,7 @@ mozilla
 /
 appservices
 /
+>
 -
 maven
 -
@@ -733,6 +743,7 @@ nightly
 -
 staging
 :
+<
 https
 :
 /
@@ -760,6 +771,7 @@ appservices
 /
 nightly
 /
+>
 -
 Links
 to
@@ -893,6 +905,8 @@ in
 firefox
 -
 ios
+:
+<
 https
 :
 /
@@ -914,6 +928,7 @@ tree
 main
 /
 MozillaRustComponents
+>
 #
 #
 Release

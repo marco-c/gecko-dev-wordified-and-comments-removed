@@ -450,7 +450,7 @@ Method
 pub
 url
 :
-Url
+ViaductUrl
 pub
 headers
 :
@@ -1113,7 +1113,7 @@ Method
 pub
 url
 :
-Url
+ViaductUrl
 pub
 status
 :

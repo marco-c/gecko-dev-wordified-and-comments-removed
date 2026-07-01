@@ -20,6 +20,10 @@ evaluator
 ;
 pub
 mod
+firefox_labs
+;
+pub
+mod
 gecko_prefs
 ;
 pub

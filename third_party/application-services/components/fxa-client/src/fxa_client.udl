@@ -8692,6 +8692,12 @@ CheckAuthorizationStatus
 (
 )
 ;
+WebChannelPasswordChange
+(
+string
+json_payload
+)
+;
 Disconnect
 (
 )

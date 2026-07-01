@@ -685,6 +685,12 @@ state
 :
 String
 }
+WebChannelPasswordChange
+{
+json_payload
+:
+String
+}
 CancelOAuthFlow
 CheckAuthorizationStatus
 Disconnect

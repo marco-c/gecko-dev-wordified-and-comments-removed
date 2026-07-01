@@ -10266,7 +10266,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-75
+86
 /
 /
 uniffi_remote_settings_fn_method_remotesettingsclient_collection_name
@@ -10421,7 +10421,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-76
+87
 /
 /
 uniffi_remote_settings_fn_method_remotesettingsclient_get_attachment
@@ -10501,7 +10501,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-77
+88
 /
 /
 uniffi_remote_settings_fn_method_remotesettingsclient_get_last_modified_timestamp
@@ -10764,7 +10764,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-78
+89
 /
 /
 uniffi_remote_settings_fn_method_remotesettingsclient_get_records
@@ -10884,7 +10884,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-79
+90
 /
 /
 uniffi_remote_settings_fn_method_remotesettingsclient_get_records_map
@@ -10936,7 +10936,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-80
+91
 /
 /
 uniffi_remote_settings_fn_method_remotesettingsclient_reset_storage
@@ -10998,7 +10998,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-81
+92
 /
 /
 uniffi_remote_settings_fn_method_remotesettingsclient_shutdown
@@ -11042,7 +11042,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-82
+93
 /
 /
 uniffi_remote_settings_fn_method_remotesettingsclient_sync
@@ -11208,7 +11208,7 @@ dataStream
 .
 readPointer
 (
-12
+13
 )
 )
 ;
@@ -11224,7 +11224,7 @@ dataStream
 .
 writePointer
 (
-12
+13
 this
 .
 lower
@@ -12087,7 +12087,7 @@ UniFFIScaffolding
 .
 callSync
 (
-83
+94
 /
 /
 uniffi_remote_settings_fn_constructor_remotesettingsservice_new
@@ -12142,7 +12142,7 @@ UniFFIScaffolding
 .
 callSync
 (
-84
+95
 /
 /
 uniffi_remote_settings_fn_method_remotesettingsservice_client_url
@@ -12242,7 +12242,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-85
+96
 /
 /
 uniffi_remote_settings_fn_method_remotesettingsservice_make_client
@@ -12332,7 +12332,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-86
+97
 /
 /
 uniffi_remote_settings_fn_method_remotesettingsservice_sync
@@ -12461,7 +12461,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-87
+98
 /
 /
 uniffi_remote_settings_fn_method_remotesettingsservice_update_config
@@ -12633,7 +12633,7 @@ dataStream
 .
 readPointer
 (
-13
+14
 )
 )
 ;
@@ -12649,7 +12649,7 @@ dataStream
 .
 writePointer
 (
-13
+14
 this
 .
 lower

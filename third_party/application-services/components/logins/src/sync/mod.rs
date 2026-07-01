@@ -1,4 +1,7 @@
 mod
+bridge
+;
+mod
 engine
 ;
 pub
@@ -13,6 +16,13 @@ payload
 ;
 mod
 update_plan
+;
+pub
+use
+bridge
+:
+:
+LoginsBridgedEngine
 ;
 pub
 use

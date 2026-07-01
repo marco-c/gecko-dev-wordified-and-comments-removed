@@ -17,6 +17,7 @@ geoname
 :
 :
 Geoname
+JsonValue
 }
 ;
 const
@@ -284,10 +285,7 @@ data
 :
 Option
 <
-serde_json
-:
-:
-Value
+JsonValue
 >
 dismissal_key
 :

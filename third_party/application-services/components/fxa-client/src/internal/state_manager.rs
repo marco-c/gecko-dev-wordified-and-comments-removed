@@ -1031,6 +1031,14 @@ false
 ;
 self
 .
+persisted_state
+.
+last_seen_profile
+=
+None
+;
+self
+.
 flow_store
 .
 clear

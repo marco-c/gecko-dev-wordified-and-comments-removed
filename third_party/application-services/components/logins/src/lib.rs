@@ -156,7 +156,10 @@ crate
 sync
 :
 :
+{
+LoginsBridgedEngine
 LoginsSyncEngine
+}
 ;
 use
 std

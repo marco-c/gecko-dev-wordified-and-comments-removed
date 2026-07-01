@@ -153,7 +153,10 @@ storage
 ClientRemoteTabs
 LocalTabsInfo
 RemoteTabRecord
+TabGroup
 TabsDeviceType
+Window
+WindowType
 }
 ;
 pub

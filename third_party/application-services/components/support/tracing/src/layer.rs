@@ -67,7 +67,7 @@ crate
 :
 {
 EventSink
-Level
+TracingLevel
 }
 ;
 use
@@ -276,7 +276,7 @@ min_level
 :
 Option
 <
-Level
+TracingLevel
 >
 }
 #
@@ -301,7 +301,7 @@ String
 pub
 level
 :
-Level
+TracingLevel
 }
 #
 [
@@ -712,7 +712,7 @@ target
 let
 level
 =
-Level
+TracingLevel
 :
 :
 from

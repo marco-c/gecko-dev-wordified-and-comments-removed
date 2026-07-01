@@ -622,6 +622,13 @@ feature_map
 }
 )
 }
+#
+[
+uniffi
+:
+:
+trait_interface
+]
 pub
 trait
 GeckoPrefHandler
@@ -785,11 +792,8 @@ handler
 :
 Arc
 <
-Box
-<
 dyn
 GeckoPrefHandler
->
 >
 pub
 state
@@ -810,11 +814,8 @@ handler
 :
 Arc
 <
-Box
-<
 dyn
 GeckoPrefHandler
->
 >
 )
 -
@@ -1049,6 +1050,9 @@ HashMap
 String
 EnrolledExperiment
 >
+update_gecko_prefs
+:
+bool
 )
 -
 >
@@ -1509,6 +1513,9 @@ None
 }
 }
 }
+if
+update_gecko_prefs
+{
 let
 mut
 set_state_list
@@ -1588,6 +1595,7 @@ set_gecko_prefs_state
 set_state_list
 )
 ;
+}
 results
 }
 }
