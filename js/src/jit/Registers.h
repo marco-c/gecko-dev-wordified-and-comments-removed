@@ -480,6 +480,7 @@ VolatileMask
 )
 ;
 }
+constexpr
 bool
 aliases
 (
