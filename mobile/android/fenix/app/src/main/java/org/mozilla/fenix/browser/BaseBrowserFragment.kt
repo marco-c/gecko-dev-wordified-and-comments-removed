@@ -4537,7 +4537,7 @@ proxyUnavailable
 {
 Vpn
 .
-errorEncountered
+proxyUnavailable
 .
 record
 (
