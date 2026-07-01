@@ -3168,8 +3168,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-nsIFrame
-*
+AutoWeakFrame
 focusableFrame
 =
 GetFocusableFrame
