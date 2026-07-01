@@ -254,16 +254,19 @@ profiler
 ]
             
 {
+                
 "
 try_task_config
 "
 :
 {
+                    
 "
 env
 "
 :
 {
+                        
 "
 MOZ_PROFILER_STARTUP
 "
@@ -271,8 +274,27 @@ MOZ_PROFILER_STARTUP
 "
 1
 "
+                        
+"
+MOZ_PROFILER_STARTUP_FEATURES
+"
+:
+"
+default
+"
+                        
+"
+MOZ_PROFILER_STARTUP_INTERVAL
+"
+:
+"
+1
+"
+                    
 }
+                
 }
+            
 }
         
 )
@@ -339,6 +361,7 @@ env
 "
 :
 {
+                        
 "
 MOZ_PROFILER_STARTUP
 "
@@ -346,6 +369,23 @@ MOZ_PROFILER_STARTUP
 "
 1
 "
+                        
+"
+MOZ_PROFILER_STARTUP_FEATURES
+"
+:
+"
+default
+"
+                        
+"
+MOZ_PROFILER_STARTUP_INTERVAL
+"
+:
+"
+1
+"
+                        
 "
 MOZ_RECORD_TEST
 "
@@ -353,6 +393,7 @@ MOZ_RECORD_TEST
 "
 1
 "
+                    
 }
                 
 }
