@@ -134,6 +134,17 @@ nocontext
 .
 txt
 "
+"
+data
+/
+cfhtml
+-
+negative
+-
+endfragment
+.
+txt
+"
 ]
 [
 "
