@@ -13389,6 +13389,17 @@ require_safe_negotiation
 "
 security
 .
+storage
+.
+encryption
+.
+sqlite
+.
+enabled
+"
+"
+security
+.
 tls
 .
 enable_0rtt_data

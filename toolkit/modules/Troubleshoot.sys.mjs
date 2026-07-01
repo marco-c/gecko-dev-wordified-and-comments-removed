@@ -1081,6 +1081,17 @@ restrict3rdpartystorage
 .
 url_decorations
 "
+"
+security
+.
+storage
+.
+encryption
+.
+sqlite
+.
+enabled
+"
 ]
 ;
 function
