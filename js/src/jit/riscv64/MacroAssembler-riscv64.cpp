@@ -25988,7 +25988,7 @@ offset
 =
 nextInstrOffset
 (
-2
+1
 1
 )
 .
@@ -26100,7 +26100,7 @@ AutoForbidPoolsAndNops
 afp
 (
 this
-2
+1
 1
 )
 ;
@@ -26365,7 +26365,7 @@ AutoForbidPoolsAndNops
 afp
 (
 this
-2
+1
 1
 )
 ;
@@ -26650,7 +26650,7 @@ AutoForbidPoolsAndNops
 afp
 (
 this
-2
+1
 1
 )
 ;
