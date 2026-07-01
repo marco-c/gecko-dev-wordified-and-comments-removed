@@ -465,6 +465,16 @@ policy
 .
 json
 ENV
+CONTAINERS_POLICY_JSON
+/
+kaniko
+/
+containers
+/
+policy
+.
+json
+ENV
 HOME
 /
 root
