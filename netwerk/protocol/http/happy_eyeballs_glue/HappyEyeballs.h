@@ -93,10 +93,6 @@ happy_eyeballs
 :
 HttpVersions
 aHttpVersions
-uint32_t
-aResolutionDelayMs
-uint32_t
-aConnectionAttemptDelayMs
 )
 ;
 void

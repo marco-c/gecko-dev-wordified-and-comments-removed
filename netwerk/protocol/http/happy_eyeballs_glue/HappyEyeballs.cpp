@@ -47,10 +47,6 @@ happy_eyeballs
 :
 HttpVersions
 aHttpVersions
-uint32_t
-aResolutionDelayMs
-uint32_t
-aConnectionAttemptDelayMs
 )
 {
 return
@@ -72,8 +68,6 @@ aPort
 aAltSvc
 aPref
 aHttpVersions
-aResolutionDelayMs
-aConnectionAttemptDelayMs
 )
 ;
 }

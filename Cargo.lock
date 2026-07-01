@@ -17611,6 +17611,9 @@ nsstring
 serde
 "
 "
+static_prefs
+"
+"
 thin
 -
 vec
