@@ -629,6 +629,7 @@ engine
 ?
 .
 model
+toolCallId
 )
 ;
 if
