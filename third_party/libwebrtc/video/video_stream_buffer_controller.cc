@@ -2001,7 +2001,7 @@ ms
 )
 timings
 .
-target_delay
+stats_target_delay
 .
 ms
 (
@@ -2057,7 +2057,7 @@ OnDecodableFrame
 jitter_buffer_delay
 timings
 .
-target_delay
+stats_target_delay
 timings
 .
 minimum_delay
