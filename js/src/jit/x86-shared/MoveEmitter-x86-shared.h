@@ -298,6 +298,9 @@ finish
 (
 )
 ;
+#
+ifdef
+JS_CODEGEN_X86
 void
 setScratchRegister
 (
@@ -305,9 +308,6 @@ Register
 reg
 )
 {
-#
-ifdef
-JS_CODEGEN_X86
 scratchRegister_
 .
 emplace
@@ -315,9 +315,9 @@ emplace
 reg
 )
 ;
+}
 #
 endif
-}
 mozilla
 :
 :
