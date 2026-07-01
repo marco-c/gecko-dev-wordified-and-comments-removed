@@ -280,7 +280,7 @@ AXPopupValue
 "
 )
 "
-true
+menu
 "
 "
 Correct
@@ -519,7 +519,7 @@ AXPopupValue
 "
 )
 "
-true
+menu
 "
 "
 Correct
@@ -760,7 +760,7 @@ AXPopupValue
 "
 )
 "
-true
+menu
 "
 "
 Correct
@@ -994,7 +994,7 @@ AXPopupValue
 "
 )
 "
-true
+menu
 "
 "
 Correct
@@ -1230,7 +1230,7 @@ AXPopupValue
 "
 )
 "
-true
+menu
 "
 "
 Correct
@@ -1466,7 +1466,7 @@ AXPopupValue
 "
 )
 "
-true
+menu
 "
 "
 Correct
