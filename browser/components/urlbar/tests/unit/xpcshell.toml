@@ -554,6 +554,13 @@ js
 ]
 [
 "
+test_muxer_excludeSponsoredResults
+.
+js
+"
+]
+[
+"
 test_pages_alt_frecency
 .
 js
