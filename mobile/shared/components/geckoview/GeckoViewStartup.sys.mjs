@@ -1391,6 +1391,13 @@ IPProtection
 :
 Enroll
 "
+"
+GeckoView
+:
+IPProtection
+:
+RefreshUsage
+"
 ]
 }
 )
