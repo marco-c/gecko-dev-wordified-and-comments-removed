@@ -385,7 +385,7 @@ downloadFileUri
 =
 downloadFileUtils
 .
-findDownloadFileUri
+findShareableDownloadFileUri
 (
 fileName
 =
