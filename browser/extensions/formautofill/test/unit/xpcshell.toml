@@ -219,6 +219,13 @@ js
 ]
 [
 "
+test_autofillDataTypes
+.
+js
+"
+]
+[
+"
 test_autofillFormFields
 .
 js
