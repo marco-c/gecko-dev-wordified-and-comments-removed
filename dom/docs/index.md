@@ -1,7 +1,5 @@
+#
 DOM
-=
-=
-=
 These
 linked
 pages
@@ -29,11 +27,9 @@ docs
 '
 directory
 .
-.
-.
+{
 toctree
-:
-:
+}
 :
 maxdepth
 :
