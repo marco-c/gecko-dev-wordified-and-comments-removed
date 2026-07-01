@@ -664,6 +664,9 @@ nonCanRunScriptParentFunction
 )
 )
 )
+isFirstParty
+(
+)
 )
 this
 )
