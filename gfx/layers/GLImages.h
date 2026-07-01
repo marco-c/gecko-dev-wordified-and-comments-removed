@@ -201,12 +201,13 @@ SetCurrentCallback
 public
 :
 virtual
-void
+bool
 operator
 (
 )
 (
-void
+bool
+aRender
 )
 =
 0
@@ -438,6 +439,7 @@ mSetCurrentCallback
 mSetCurrentCallback
 )
 (
+true
 )
 ;
 mSetCurrentCallback

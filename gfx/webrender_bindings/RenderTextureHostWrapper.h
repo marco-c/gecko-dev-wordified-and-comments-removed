@@ -139,6 +139,13 @@ AsRenderAndroidHardwareBufferTextureHost
 )
 override
 ;
+RenderAndroidImageReaderImageTextureHost
+*
+AsRenderAndroidImageReaderImageTextureHost
+(
+)
+override
+;
 RenderAndroidSurfaceTextureHost
 *
 AsRenderAndroidSurfaceTextureHost

@@ -366,6 +366,11 @@ RenderAndroidHardwareBufferTextureHost
 h
 "
 "
+RenderAndroidImageReaderImageTextureHost
+.
+h
+"
+"
 RenderAndroidSurfaceTextureHost
 .
 h
@@ -377,6 +382,11 @@ UNIFIED_SOURCES
 [
 "
 RenderAndroidHardwareBufferTextureHost
+.
+cpp
+"
+"
+RenderAndroidImageReaderImageTextureHost
 .
 cpp
 "
