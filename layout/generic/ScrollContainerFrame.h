@@ -1255,6 +1255,10 @@ ScrollSnapTargetIds
 &
 &
 aLastSnapTargetIds
+const
+APZScrollGeneration
+&
+aGenerationOnApz
 )
 ;
 CSSIntPoint
@@ -1592,10 +1596,6 @@ const
 MainThreadScrollGeneration
 &
 aGeneration
-const
-APZScrollGeneration
-&
-aGenerationOnApz
 APZScrollAnimationType
 aAPZScrollAnimationType
 InScrollingGesture
