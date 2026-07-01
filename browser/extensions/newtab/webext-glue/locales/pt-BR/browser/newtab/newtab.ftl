@@ -9664,8 +9664,7 @@ label
 =
 Lista
 de
-verifica
-o
+tarefas
 newtab
 -
 widget
@@ -9701,8 +9700,7 @@ placeholder
 =
 Lista
 de
-verifica
-o
+tarefas
 .
 aria
 -
@@ -10201,8 +10199,7 @@ default
 =
 Lista
 de
-verifica
-o
+tarefas
 #
 #
 Strings
