@@ -452,6 +452,11 @@ TestSimpleMap
 cpp
 "
 "
+TestTelemetryProbesReporter
+.
+cpp
+"
+"
 TestTimeUnit
 .
 cpp

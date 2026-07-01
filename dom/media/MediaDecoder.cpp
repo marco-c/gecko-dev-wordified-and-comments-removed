@@ -4963,6 +4963,14 @@ get
 )
 )
 ;
+mTelemetryProbesReporter
+-
+>
+OnDecodeError
+(
+aError
+)
+;
 GetOwner
 (
 )
