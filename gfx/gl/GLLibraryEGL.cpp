@@ -441,6 +441,9 @@ EGL_MESA_image_dma_buf_export
 "
 EGL_KHR_no_config_context
 "
+"
+EGL_ANGLE_iosurface_client_buffer
+"
 }
 ;
 PRLibrary

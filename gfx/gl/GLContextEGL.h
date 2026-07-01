@@ -475,6 +475,11 @@ HasKhrPartialUpdate
 )
 const
 ;
+EGLint
+GetBindToTextureTargetANGLE
+(
+)
+;
 bool
 BindTex2DOffscreen
 (
@@ -671,6 +676,12 @@ bool
 mOwnsContext
 =
 true
+;
+Maybe
+<
+EGLint
+>
+mBindToTextureTargetANGLE
 ;
 nsIntRegion
 mDamageRegion
