@@ -19383,6 +19383,7 @@ js
 cpu
 processcpu
 nomarkerstacks
+java
 *
 *
 *
@@ -24155,6 +24156,7 @@ js
 cpu
 processcpu
 nomarkerstacks
+java
 *
 *
 *

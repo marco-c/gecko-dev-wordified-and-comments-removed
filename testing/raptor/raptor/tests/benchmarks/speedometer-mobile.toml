@@ -35,6 +35,7 @@ js
 cpu
 processcpu
 nomarkerstacks
+java
 "
 gecko_profile_threads
 =
