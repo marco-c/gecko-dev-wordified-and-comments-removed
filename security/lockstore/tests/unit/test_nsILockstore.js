@@ -224,6 +224,7 @@ _keepalive
 "
 KEK_LOCAL
 false
+32
 )
 ;
 await
@@ -325,6 +326,7 @@ rt
 "
 KEK_LOCAL
 false
+32
 )
 ;
 const
@@ -436,6 +438,7 @@ rt
 "
 KEK_LOCAL
 false
+32
 )
 /
 NS_ERROR_FAILURE
@@ -481,6 +484,7 @@ createDek
 "
 KEK_LOCAL
 false
+32
 )
 INVALID_ARG_RE
 "
@@ -507,6 +511,7 @@ col
 "
 "
 false
+32
 )
 INVALID_ARG_RE
 "
@@ -1229,6 +1234,7 @@ only
 "
 KEK_LOCAL
 false
+32
 )
 ;
 const
@@ -1330,6 +1336,7 @@ one
 "
 KEK_LOCAL
 false
+32
 )
 ;
 await
@@ -1342,6 +1349,7 @@ two
 "
 KEK_LOCAL
 false
+32
 )
 ;
 const
@@ -1561,6 +1569,7 @@ rt
 "
 KEK_LOCAL
 false
+32
 )
 ;
 let
@@ -1746,6 +1755,7 @@ delete
 "
 KEK_LOCAL
 false
+32
 )
 ;
 await
@@ -2004,6 +2014,7 @@ col
 "
 KEK_PASSWORD
 false
+32
 )
 ;
 const
@@ -2381,6 +2392,7 @@ multi
 "
 KEK_LOCAL
 true
+32
 )
 ;
 await
@@ -3367,6 +3379,7 @@ concurrent
 "
 KEK_LOCAL
 false
+32
 )
 ;
 const
@@ -3614,6 +3627,7 @@ createDek
 c
 KEK_LOCAL
 false
+32
 )
 )
 )
@@ -4292,6 +4306,7 @@ yes
 "
 KEK_LOCAL
 true
+32
 )
 ;
 Assert
@@ -4363,6 +4378,7 @@ no
 "
 KEK_LOCAL
 false
+32
 )
 ;
 Assert
@@ -4504,6 +4520,7 @@ rt
 "
 KEK_LOCAL
 false
+32
 )
 ;
 const
@@ -4689,6 +4706,7 @@ ref
 "
 KEK_LOCAL
 false
+32
 )
 ;
 await
@@ -4931,6 +4949,7 @@ delete
 "
 ephemeral
 false
+32
 )
 /
 NS_ERROR
@@ -5048,6 +5067,7 @@ use
 "
 ephemeral
 false
+32
 )
 ;
 await

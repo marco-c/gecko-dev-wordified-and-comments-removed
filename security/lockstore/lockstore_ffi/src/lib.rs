@@ -412,6 +412,9 @@ nsACString
 extractable
 :
 bool
+key_size
+:
+usize
 )
 -
 >
@@ -481,6 +484,7 @@ coll_str
 &
 kek_ref_str
 extractable
+key_size
 )
 {
 Ok

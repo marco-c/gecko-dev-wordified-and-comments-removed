@@ -671,6 +671,7 @@ coll
 &
 mLocalKekRef
 false
+32
 )
 ;
 ASSERT_NS_SUCCEEDED
@@ -757,6 +758,7 @@ empty
 &
 mLocalKekRef
 false
+32
 )
 ;
 ASSERT_EQ
@@ -811,6 +813,7 @@ coll
 &
 mLocalKekRef
 false
+32
 )
 ;
 ASSERT_NS_SUCCEEDED
@@ -828,6 +831,7 @@ coll
 &
 mLocalKekRef
 false
+32
 )
 ;
 ASSERT_EQ
@@ -882,6 +886,7 @@ coll
 &
 mLocalKekRef
 true
+32
 )
 ;
 ASSERT_NS_SUCCEEDED
@@ -1085,6 +1090,7 @@ coll
 &
 mLocalKekRef
 false
+32
 )
 ;
 ASSERT_NS_SUCCEEDED
@@ -1163,6 +1169,7 @@ coll
 &
 mLocalKekRef
 false
+32
 )
 ;
 ASSERT_NS_SUCCEEDED
@@ -1431,6 +1438,7 @@ alpha
 &
 mLocalKekRef
 false
+32
 )
 ;
 ASSERT_NS_SUCCEEDED
@@ -1448,6 +1456,7 @@ beta
 &
 mLocalKekRef
 false
+32
 )
 ;
 ASSERT_NS_SUCCEEDED
@@ -1465,6 +1474,7 @@ gamma
 &
 mLocalKekRef
 false
+32
 )
 ;
 ASSERT_NS_SUCCEEDED
@@ -1578,6 +1588,7 @@ coll
 &
 mLocalKekRef
 false
+32
 )
 ;
 ASSERT_NS_SUCCEEDED
@@ -1801,6 +1812,7 @@ coll
 &
 mLocalKekRef
 false
+32
 )
 ;
 ASSERT_NS_SUCCEEDED
@@ -1973,6 +1985,7 @@ coll
 &
 mLocalKekRef
 false
+32
 )
 ;
 ASSERT_NS_SUCCEEDED
@@ -2043,6 +2056,7 @@ coll
 &
 mLocalKekRef
 false
+32
 )
 ;
 ASSERT_NS_SUCCEEDED
@@ -2377,6 +2391,7 @@ coll
 &
 mLocalKekRef
 false
+32
 )
 ;
 ASSERT_NS_SUCCEEDED
@@ -2811,6 +2826,7 @@ coll
 &
 pwKekRef
 false
+32
 )
 ;
 ASSERT_EQ
@@ -3297,6 +3313,7 @@ coll
 &
 mLocalKekRef
 true
+32
 )
 ;
 ASSERT_NS_SUCCEEDED
@@ -3378,6 +3395,7 @@ coll
 &
 mLocalKekRef
 false
+32
 )
 ;
 ASSERT_NS_SUCCEEDED
@@ -3663,6 +3681,7 @@ coll
 &
 mLocalKekRef
 false
+32
 )
 ;
 ASSERT_NS_SUCCEEDED
@@ -3832,6 +3851,7 @@ coll
 &
 mLocalKekRef
 false
+32
 )
 ;
 ASSERT_NS_SUCCEEDED

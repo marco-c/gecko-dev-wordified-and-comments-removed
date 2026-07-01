@@ -401,6 +401,7 @@ mTestColl
 &
 mLocalKekRef
 false
+32
 )
 ;
 ASSERT_NS_SUCCEEDED
