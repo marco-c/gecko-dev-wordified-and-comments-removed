@@ -754,6 +754,9 @@ platforms
 :
 [
 "
+linux
+"
+"
 macosx
 "
 "
