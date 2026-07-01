@@ -1038,6 +1038,16 @@ v
 other
 .
 v
+&
+&
+self
+.
+attr_tainted
+=
+=
+other
+.
+attr_tainted
 }
 }
 impl
@@ -2715,7 +2725,7 @@ specified
 Image
 :
 :
-parse
+parse_forbid_none
 (
 context
 input
