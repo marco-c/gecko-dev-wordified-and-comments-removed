@@ -8,6 +8,11 @@ prompts
 common
 .
 md
+agents
+/
+README
+.
+md
 #
 Searching
 Downstream
