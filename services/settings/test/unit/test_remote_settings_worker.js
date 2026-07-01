@@ -1,15 +1,3 @@
-const
-IS_ANDROID
-=
-AppConstants
-.
-platform
-=
-=
-"
-android
-"
-;
 add_task
 (
 async
