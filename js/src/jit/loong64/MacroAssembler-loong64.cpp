@@ -28342,7 +28342,7 @@ template
 typename
 T
 >
-void
+FaultingCodeOffset
 MacroAssemblerLOONG64Compat
 :
 :
@@ -28377,6 +28377,7 @@ scratch
 imm
 )
 ;
+return
 ma_store
 (
 scratch
@@ -28386,7 +28387,7 @@ SizeDouble
 ;
 }
 template
-void
+FaultingCodeOffset
 MacroAssemblerLOONG64Compat
 :
 :
@@ -28402,7 +28403,7 @@ address
 )
 ;
 template
-void
+FaultingCodeOffset
 MacroAssemblerLOONG64Compat
 :
 :

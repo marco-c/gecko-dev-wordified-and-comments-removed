@@ -662,7 +662,7 @@ extension
 SignExtend
 )
 ;
-void
+FaultingCodeOffset
 ma_store
 (
 ImmWord
@@ -681,7 +681,7 @@ extension
 SignExtend
 )
 ;
-void
+FaultingCodeOffset
 ma_store
 (
 ImmWord
@@ -5046,7 +5046,7 @@ template
 typename
 T
 >
-void
+FaultingCodeOffset
 storePtr
 (
 ImmWord

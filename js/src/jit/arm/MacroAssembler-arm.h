@@ -7918,7 +7918,7 @@ BaseIndex
 address
 )
 ;
-void
+FaultingCodeOffset
 store32
 (
 Imm32
@@ -7929,7 +7929,7 @@ Address
 address
 )
 ;
-void
+FaultingCodeOffset
 store32
 (
 Imm32
@@ -8160,7 +8160,7 @@ dest
 )
 ;
 }
-void
+FaultingCodeOffset
 storePtr
 (
 ImmWord
@@ -8171,7 +8171,7 @@ Address
 address
 )
 ;
-void
+FaultingCodeOffset
 storePtr
 (
 ImmWord

@@ -5181,7 +5181,7 @@ template
 typename
 T
 >
-void
+FaultingCodeOffset
 storePtr
 (
 ImmWord
@@ -5190,6 +5190,16 @@ T
 address
 )
 {
+FaultingCodeOffset
+fco
+=
+FaultingCodeOffset
+(
+currentOffset
+(
+)
+)
+;
 movl
 (
 Imm32
@@ -5203,6 +5213,9 @@ Operand
 address
 )
 )
+;
+return
+fco
 ;
 }
 template

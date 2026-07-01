@@ -5934,7 +5934,7 @@ template
 typename
 T
 >
-void
+FaultingCodeOffset
 storePtr
 (
 ImmWord

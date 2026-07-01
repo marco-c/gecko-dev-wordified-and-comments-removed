@@ -5505,7 +5505,7 @@ dest
 )
 ;
 }
-void
+FaultingCodeOffset
 storePtr
 (
 ImmWord
@@ -5526,6 +5526,7 @@ value
 0
 )
 {
+return
 Str
 (
 vixl
@@ -5537,8 +5538,6 @@ toMemOperand
 address
 )
 )
-;
-return
 ;
 }
 vixl
@@ -5580,6 +5579,7 @@ imm
 scratch
 )
 ;
+return
 storePtr
 (
 scratch
@@ -5735,7 +5735,7 @@ address
 )
 ;
 }
-void
+FaultingCodeOffset
 storePtr
 (
 ImmWord
@@ -5756,6 +5756,7 @@ value
 0
 )
 {
+return
 doBaseIndex
 (
 vixl
@@ -5768,8 +5769,6 @@ vixl
 :
 STR_x
 )
-;
-return
 ;
 }
 vixl
@@ -5830,6 +5829,7 @@ value
 )
 )
 ;
+return
 doBaseIndex
 (
 scratch64
