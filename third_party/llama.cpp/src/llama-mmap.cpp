@@ -4307,6 +4307,12 @@ defined
 (
 __HAIKU__
 )
+|
+|
+defined
+(
+__sun__
+)
 suggest
 =
 false
