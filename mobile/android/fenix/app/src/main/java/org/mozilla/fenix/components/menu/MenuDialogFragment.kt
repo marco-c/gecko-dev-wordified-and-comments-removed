@@ -2148,10 +2148,6 @@ rememberScrollState
 (
 )
 val
-store
-=
-menuStore
-val
 descCustom
 =
 stringResource
@@ -2211,7 +2207,7 @@ isMoreMenuExpanded
 by
 remember
 {
-store
+menuStore
 .
 stateFlow
 .
@@ -2399,7 +2395,7 @@ orientation
 onShown
 =
 {
-store
+menuStore
 .
 dispatch
 (
@@ -2411,7 +2407,7 @@ OnCFRShown
 onDismiss
 =
 {
-store
+menuStore
 .
 dispatch
 (
@@ -2517,7 +2513,7 @@ isWebCompatEnabled
 by
 remember
 {
-store
+menuStore
 .
 stateFlow
 .
@@ -2533,7 +2529,7 @@ collectAsState
 (
 initial
 =
-store
+menuStore
 .
 state
 .
@@ -2582,7 +2578,7 @@ isDesktopMode
 by
 remember
 {
-store
+menuStore
 .
 stateFlow
 .
@@ -2608,7 +2604,7 @@ recommendedAddons
 by
 remember
 {
-store
+menuStore
 .
 stateFlow
 .
@@ -2638,7 +2634,7 @@ isBookmarked
 by
 remember
 {
-store
+menuStore
 .
 stateFlow
 .
@@ -2676,7 +2672,7 @@ isPinned
 by
 remember
 {
-store
+menuStore
 .
 stateFlow
 .
@@ -2712,7 +2708,7 @@ isReaderViewActive
 by
 remember
 {
-store
+menuStore
 .
 stateFlow
 .
@@ -2738,7 +2734,7 @@ addonInstallationInProgress
 by
 remember
 {
-store
+menuStore
 .
 stateFlow
 .
@@ -2766,7 +2762,7 @@ browserWebExtensionMenuItem
 by
 remember
 {
-store
+menuStore
 .
 stateFlow
 .
@@ -2796,7 +2792,7 @@ availableAddons
 by
 remember
 {
-store
+menuStore
 .
 stateFlow
 .
@@ -2826,7 +2822,7 @@ webExtensionsCount
 by
 remember
 {
-store
+menuStore
 .
 stateFlow
 .
@@ -2854,7 +2850,7 @@ isAllWebExtensionsDisabled
 by
 remember
 {
-store
+menuStore
 .
 stateFlow
 .
@@ -2985,7 +2981,7 @@ selectedTab
 .
 let
 {
-store
+menuStore
 .
 dispatch
 (
@@ -3003,7 +2999,7 @@ summarizationMenuState
 by
 remember
 {
-store
+menuStore
 .
 stateFlow
 .
@@ -3031,7 +3027,7 @@ ipProtectionMenuState
 by
 remember
 {
-store
+menuStore
 .
 stateFlow
 .
@@ -3050,7 +3046,7 @@ collectAsState
 (
 initial
 =
-store
+menuStore
 .
 state
 .
@@ -3578,7 +3574,7 @@ ipProtectionMenuState
 onMozillaAccountButtonClick
 =
 {
-store
+menuStore
 .
 dispatch
 (
@@ -3602,7 +3598,7 @@ accesspoint
 onSettingsButtonClick
 =
 {
-store
+menuStore
 .
 dispatch
 (
@@ -3616,7 +3612,7 @@ Settings
 onWallpaperButtonClick
 =
 {
-store
+menuStore
 .
 dispatch
 (
@@ -3630,7 +3626,7 @@ Wallpaper
 onBookmarkPageMenuClick
 =
 {
-store
+menuStore
 .
 dispatch
 (
@@ -3642,7 +3638,7 @@ AddBookmark
 onEditBookmarkButtonClick
 =
 {
-store
+menuStore
 .
 dispatch
 (
@@ -3661,7 +3657,7 @@ if
 isDesktopMode
 )
 {
-store
+menuStore
 .
 dispatch
 (
@@ -3672,7 +3668,7 @@ RequestMobileSite
 }
 else
 {
-store
+menuStore
 .
 dispatch
 (
@@ -3685,7 +3681,7 @@ RequestDesktopSite
 onFindInPageMenuClick
 =
 {
-store
+menuStore
 .
 dispatch
 (
@@ -3697,7 +3693,7 @@ FindInPage
 onBannerClick
 =
 {
-store
+menuStore
 .
 dispatch
 (
@@ -3720,7 +3716,7 @@ openSetDefaultBrowserOption
 onBannerDismiss
 =
 {
-store
+menuStore
 .
 dispatch
 (
@@ -3749,7 +3745,7 @@ extensionsMenuItemDescription
 null
 )
 {
-store
+menuStore
 .
 dispatch
 (
@@ -3771,7 +3767,7 @@ isExtensionsExpanded
 onMoreMenuClick
 =
 {
-store
+menuStore
 .
 dispatch
 (
@@ -3783,7 +3779,7 @@ OnMoreMenuClicked
 onBookmarksMenuClick
 =
 {
-store
+menuStore
 .
 dispatch
 (
@@ -3797,7 +3793,7 @@ Bookmarks
 onHistoryMenuClick
 =
 {
-store
+menuStore
 .
 dispatch
 (
@@ -3811,7 +3807,7 @@ History
 onDownloadsMenuClick
 =
 {
-store
+menuStore
 .
 dispatch
 (
@@ -3825,7 +3821,7 @@ Downloads
 onPasswordsMenuClick
 =
 {
-store
+menuStore
 .
 dispatch
 (
@@ -3839,7 +3835,7 @@ Passwords
 onCustomizeReaderViewMenuClick
 =
 {
-store
+menuStore
 .
 dispatch
 (
@@ -3851,7 +3847,7 @@ CustomizeReaderView
 onQuitMenuClick
 =
 {
-store
+menuStore
 .
 dispatch
 (
@@ -3868,7 +3864,7 @@ viewHistory
 Boolean
 -
 >
-store
+menuStore
 .
 dispatch
 (
@@ -3890,7 +3886,7 @@ viewHistory
 Boolean
 -
 >
-store
+menuStore
 .
 dispatch
 (
@@ -3912,7 +3908,7 @@ bypassCache
 Boolean
 -
 >
-store
+menuStore
 .
 dispatch
 (
@@ -3929,7 +3925,7 @@ bypassCache
 onStopButtonClick
 =
 {
-store
+menuStore
 .
 dispatch
 (
@@ -3948,7 +3944,7 @@ selectedTab
 .
 let
 {
-store
+menuStore
 .
 dispatch
 (
@@ -3967,7 +3963,7 @@ handleIPProtectionClick
 (
 ipProtectionMenuState
 components
-store
+menuStore
 )
 }
 onIPProtectionNavigate
@@ -3990,7 +3986,7 @@ Menu
 "
 )
 )
-store
+menuStore
 .
 dispatch
 (
@@ -4083,7 +4079,7 @@ summarizationMenuState
 onWebCompatReporterClick
 =
 {
-store
+menuStore
 .
 dispatch
 (
@@ -4097,7 +4093,7 @@ WebCompatReporter
 onSummarizePageMenuExposed
 =
 {
-store
+menuStore
 .
 dispatch
 (
@@ -4109,7 +4105,7 @@ OnSummarizationMenuExposed
 onSummarizePageClick
 =
 {
-store
+menuStore
 .
 dispatch
 (
@@ -4129,7 +4125,7 @@ if
 isPinned
 )
 {
-store
+menuStore
 .
 dispatch
 (
@@ -4140,7 +4136,7 @@ AddShortcut
 }
 else
 {
-store
+menuStore
 .
 dispatch
 (
@@ -4153,7 +4149,7 @@ RemoveShortcut
 onAddToHomeScreenMenuClick
 =
 {
-store
+menuStore
 .
 dispatch
 (
@@ -4167,7 +4163,7 @@ AddToHomeScreen
 onSaveToCollectionMenuClick
 =
 {
-store
+menuStore
 .
 dispatch
 (
@@ -4212,7 +4208,7 @@ dismiss
 onOpenInAppMenuClick
 =
 {
-store
+menuStore
 .
 dispatch
 (
@@ -4224,7 +4220,7 @@ OpenInApp
 onMoveToNonPrivateTabMenuClick
 =
 {
-store
+menuStore
 .
 dispatch
 (
@@ -4263,7 +4259,7 @@ onAddonClick
 addon
 -
 >
-store
+menuStore
 .
 dispatch
 (
@@ -4285,7 +4281,7 @@ onAddonSettingsClick
 addon
 -
 >
-store
+menuStore
 .
 dispatch
 (
@@ -4307,7 +4303,7 @@ onInstallAddonClick
 addon
 -
 >
-store
+menuStore
 .
 dispatch
 (
@@ -4324,7 +4320,7 @@ addon
 onManageExtensionsMenuClick
 =
 {
-store
+menuStore
 .
 dispatch
 (
@@ -4338,7 +4334,7 @@ ManageExtensions
 onDiscoverMoreExtensionsMenuClick
 =
 {
-store
+menuStore
 .
 dispatch
 (
@@ -4527,7 +4523,7 @@ intent
 PendingIntent
 -
 >
-store
+menuStore
 .
 dispatch
 (
@@ -4558,7 +4554,7 @@ if
 isDesktopMode
 )
 {
-store
+menuStore
 .
 dispatch
 (
@@ -4569,7 +4565,7 @@ RequestMobileSite
 }
 else
 {
-store
+menuStore
 .
 dispatch
 (
@@ -4582,7 +4578,7 @@ RequestDesktopSite
 onBookmarkPageMenuClick
 =
 {
-store
+menuStore
 .
 dispatch
 (
@@ -4594,7 +4590,7 @@ AddBookmark
 onEditBookmarkMenuClick
 =
 {
-store
+menuStore
 .
 dispatch
 (
@@ -4608,7 +4604,7 @@ EditBookmark
 onFindInPageMenuClick
 =
 {
-store
+menuStore
 .
 dispatch
 (
@@ -4620,7 +4616,7 @@ FindInPage
 onOpenInFirefoxMenuClick
 =
 {
-store
+menuStore
 .
 dispatch
 (
@@ -4637,7 +4633,7 @@ viewHistory
 Boolean
 -
 >
-store
+menuStore
 .
 dispatch
 (
@@ -4659,7 +4655,7 @@ viewHistory
 Boolean
 -
 >
-store
+menuStore
 .
 dispatch
 (
@@ -4681,7 +4677,7 @@ bypassCache
 Boolean
 -
 >
-store
+menuStore
 .
 dispatch
 (
@@ -4698,7 +4694,7 @@ bypassCache
 onStopButtonClick
 =
 {
-store
+menuStore
 .
 dispatch
 (
@@ -4712,7 +4708,7 @@ Stop
 onShareButtonClick
 =
 {
-store
+menuStore
 .
 dispatch
 (
