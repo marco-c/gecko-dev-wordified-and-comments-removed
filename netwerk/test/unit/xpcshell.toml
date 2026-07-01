@@ -3817,6 +3817,13 @@ js
 ]
 [
 "
+test_dns_negative_refresh_on_use
+.
+js
+"
+]
+[
+"
 test_dns_offline
 .
 js
