@@ -36,6 +36,11 @@ mediasource
 js
 "
 "
+h264_sps_utils
+.
+js
+"
+"
 seek
 .
 webm
@@ -2341,6 +2346,13 @@ win
 #
 bug
 1487973
+]
+[
+"
+test_H264_SPS_InvalidDimensions
+.
+html
+"
 ]
 [
 "
