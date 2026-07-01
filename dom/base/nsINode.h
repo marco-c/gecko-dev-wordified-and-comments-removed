@@ -2145,17 +2145,6 @@ ComputeIndexInParentContent
 )
 const
 ;
-[
-[
-nodiscard
-]
-]
-bool
-MaybeParentCachesComputedIndex
-(
-)
-const
-;
 int32_t
 ComputeIndexOf_Deprecated
 (
