@@ -995,6 +995,12 @@ trampoline_table_entry
 ;
 #
 else
+#
+ifdef
+__GNUC__
+__extension__
+#
+endif
 union
 {
 char

@@ -45,7 +45,7 @@ FFI_VERSION_NUMBER
 "
 :
 "
-30502
+30600
 "
         
 "
@@ -55,9 +55,9 @@ FFI_VERSION_STRING
 "
 3
 .
-5
+6
 .
-2
+0
 "
         
 "

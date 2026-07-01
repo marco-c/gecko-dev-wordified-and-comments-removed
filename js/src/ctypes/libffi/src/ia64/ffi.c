@@ -162,7 +162,7 @@ addr
 value
 )
 \
-asm
+__asm__
 (
 "
 stf
@@ -216,7 +216,7 @@ result
 addr
 )
 \
-asm
+__asm__
 (
 "
 ldf

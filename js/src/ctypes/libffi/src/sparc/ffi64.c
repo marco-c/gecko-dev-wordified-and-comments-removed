@@ -1953,7 +1953,7 @@ void
 p
 )
 {
-asm
+__asm__
 volatile
 (
 "

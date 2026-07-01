@@ -931,7 +931,7 @@ closure
 user_data
 )
 ;
-asm
+__asm__
 (
 "
 ldi
@@ -954,7 +954,7 @@ rvalue
 )
 )
 ;
-asm
+__asm__
 (
 "
 ldi

@@ -119,7 +119,6 @@ riscv_nfixedargs
 ;
 unsigned
 riscv_unused
-;
 #
 define
 FFI_TARGET_SPECIFIC_VARIADIC

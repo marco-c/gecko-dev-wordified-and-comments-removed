@@ -115,7 +115,7 @@ ptr
 UINT64
 ret
 ;
-asm
+__asm__
 (
 "
 lds
@@ -162,7 +162,7 @@ UINT64
 val
 )
 {
-asm
+__asm__
 (
 "
 sts
@@ -1411,7 +1411,7 @@ user_data
 =
 user_data
 ;
-asm
+__asm__
 volatile
 (
 "

@@ -1404,7 +1404,7 @@ hint
 #
 36
 "
-asm
+__asm__
 volatile
 (
 "
@@ -2007,7 +2007,7 @@ break
 case
 AARCH64_RET_S2
 :
-asm
+__asm__
 (
 "
 ldp
@@ -2071,7 +2071,7 @@ break
 case
 AARCH64_RET_S3
 :
-asm
+__asm__
 (
 "
 ldp
@@ -2155,7 +2155,7 @@ break
 case
 AARCH64_RET_S4
 :
-asm
+__asm__
 (
 "
 ldp
@@ -2285,7 +2285,7 @@ break
 case
 AARCH64_RET_D2
 :
-asm
+__asm__
 (
 "
 ldp
@@ -2349,7 +2349,7 @@ break
 case
 AARCH64_RET_D3
 :
-asm
+__asm__
 (
 "
 ldp
@@ -2433,7 +2433,7 @@ break
 case
 AARCH64_RET_D4
 :
-asm
+__asm__
 (
 "
 ldp

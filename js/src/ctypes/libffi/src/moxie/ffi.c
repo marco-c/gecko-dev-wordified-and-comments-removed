@@ -1260,7 +1260,7 @@ closure
 user_data
 )
 ;
-asm
+__asm__
 (
 "
 mov

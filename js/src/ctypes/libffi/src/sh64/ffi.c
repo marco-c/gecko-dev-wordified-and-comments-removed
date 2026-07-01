@@ -1614,7 +1614,7 @@ user_data
 =
 user_data
 ;
-asm
+__asm__
 volatile
 (
 "
