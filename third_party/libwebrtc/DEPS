@@ -116,7 +116,7 @@ chromium_revision
 '
 :
 '
-8af2e3f3e3efca1540c5af891812a62322a8aa48
+15ef0750482972d738ff7b8d278950ff3d02ee29
 '
 #
 Fetch
@@ -696,7 +696,7 @@ chromium
 src
 /
 ios
-50f3fae68384fbe2ade979c069ee92fe2d21ed19
+622842bf858013dc4aabe8be126dd1056062408d
 '
 '
 condition
@@ -728,7 +728,7 @@ chromium
 src
 /
 testing
-4299f7784703953833b79ebd4e8653191f554dc2
+4f9c197cb09282b7101463eba685d38957fb3ca2
 '
 '
 src
@@ -752,7 +752,7 @@ chromium
 src
 /
 third_party
-00c71a768a5a68ad753e1d22586ce041ae6eb41e
+a030eb2fbb9cacc59399eb89532a197be6be80ed
 '
 '
 src
@@ -2946,7 +2946,7 @@ compiler
 rt
 .
 git
-39c1982a7cd016d75508c5858ee4f830c0fadc6e
+4d26592f71a9a0fb5c86f3d270e425232a94c65d
 '
 '
 src
@@ -3898,7 +3898,7 @@ com
 boringssl
 .
 git
-3c6ffab1743dc0d1f1d43f91e6084be627ca1995
+d03dbc3e5d7de44183ff17018af22323af650fbc
 '
 '
 src
@@ -4127,7 +4127,7 @@ tools
 depot_tools
 .
 git
-b84f0682adbfd310e06d075a3c407b9583f4b75b
+c919a6c50df862da7ca4e17130f25a4add6132d4
 '
 '
 src
@@ -5152,7 +5152,7 @@ com
 aom
 .
 git
-323c7650363b79df32daabce52baf8709c92878c
+1ae0d47fac98359c29be61a35060ce51065f86f8
 '
 '
 src
@@ -5263,7 +5263,7 @@ git
 '
 +
 '
-fef9c953a4a8aad9a83ea7e2e19ff885a32abb64
+80b19a484151fdc5d8a4000f13108295999f007c
 '
 '
 src
@@ -5333,7 +5333,7 @@ webm
 libvpx
 .
 git
-76b08021715417b48f01713c6100f86d9b7ab450
+c1ffdaa94be5bff1332cf9a53682734218faa147
 '
 '
 src
@@ -5359,7 +5359,7 @@ libyuv
 libyuv
 .
 git
-cb061d0378825bfa5c1ff6c75869c3f65d2f21bc
+c6c8689c74d8c20ab66b4e9340ba407848e32187
 '
 '
 src
@@ -5808,7 +5808,7 @@ chromium
 src
 /
 tools
-ee6aa870fa9af3403785aaf05f742d5111037357
+fe8f07d8190e39def788af905116ced756e87b01
 '
 '
 src
@@ -7052,7 +7052,7 @@ git
 '
 +
 '
-878e01e83a22ae6675537a5839810541e958d149
+8a3d6b7a8151e46f9fa10b330709674f9123c43d
 '
 '
 src
