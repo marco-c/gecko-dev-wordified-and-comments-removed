@@ -40,7 +40,6 @@ batch
 :
 :
 {
-ClipBatcher
 BatchBuilder
 INVALID_SEGMENT_INDEX
 ClipMaskInstanceList
@@ -891,10 +890,6 @@ FrameVec
 LineDecorationJob
 >
 pub
-clip_batcher
-:
-ClipBatcher
-pub
 clears
 :
 FrameVec
@@ -938,9 +933,6 @@ CacheTextureId
 screen_size
 :
 DeviceIntSize
-gpu_supports_fast_clears
-:
-bool
 used_rect
 :
 Option
@@ -1066,16 +1058,6 @@ ClipMaskInstanceList
 :
 new
 (
-memory
-)
-clip_batcher
-:
-ClipBatcher
-:
-:
-new
-(
-gpu_supports_fast_clears
 memory
 )
 border_segments_complex
