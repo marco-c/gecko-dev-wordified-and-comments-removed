@@ -9384,7 +9384,7 @@ void
 DisplayListBuilder
 :
 :
-PushNV16Image
+PushP210Image
 (
 const
 wr
@@ -9438,7 +9438,7 @@ bool
 aSupportsExternalCompositing
 )
 {
-wr_dp_push_yuv_NV16_image
+wr_dp_push_yuv_P210_image
 (
 mWrState
 aBounds

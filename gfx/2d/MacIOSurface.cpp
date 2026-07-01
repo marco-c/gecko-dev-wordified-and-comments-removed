@@ -1896,7 +1896,7 @@ gfx
 SurfaceFormat
 :
 :
-NV16
+P210
 ;
 case
 kCVPixelFormatType_32BGRA
@@ -3626,7 +3626,7 @@ gfx
 SurfaceFormat
 :
 :
-NV16
+P210
 ;
 }
 }

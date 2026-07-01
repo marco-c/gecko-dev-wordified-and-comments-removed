@@ -640,7 +640,7 @@ HALF_WIDTH_AND_HEIGHT
 TEST
 (
 MacIOSurfaceHelpers
-NV16Readback
+P210Readback
 )
 {
 ASSERT_NO_FATAL_FAILURE

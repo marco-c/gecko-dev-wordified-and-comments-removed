@@ -2836,7 +2836,7 @@ gfx
 SurfaceFormat
 :
 :
-NV16
+P210
 :
 case
 gfx
@@ -7384,7 +7384,7 @@ gfx
 SurfaceFormat
 :
 :
-NV16
+P210
 :
 case
 gfx

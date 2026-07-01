@@ -69,7 +69,7 @@ YUV_FORMAT_P010
 1
 #
 define
-YUV_FORMAT_NV16
+YUV_FORMAT_P210
 2
 #
 define
@@ -1144,7 +1144,7 @@ case
 YUV_FORMAT_P010
 :
 case
-YUV_FORMAT_NV16
+YUV_FORMAT_P210
 :
 {
 vec2

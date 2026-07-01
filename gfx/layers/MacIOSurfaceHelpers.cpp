@@ -169,7 +169,7 @@ ioFormat
 SurfaceFormat
 :
 :
-NV16
+P210
 )
 &
 &
@@ -561,7 +561,7 @@ ioFormat
 SurfaceFormat
 :
 :
-NV16
+P210
 )
 {
 size_t
@@ -1645,7 +1645,7 @@ ioFormat
 SurfaceFormat
 :
 :
-NV16
+P210
 )
 ?
 SurfaceFormat
@@ -1977,7 +1977,7 @@ ioFormat
 SurfaceFormat
 :
 :
-NV16
+P210
 )
 ?
 SurfaceFormat

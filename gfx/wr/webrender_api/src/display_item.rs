@@ -7535,7 +7535,7 @@ P010
 ImageKey
 ImageKey
 )
-NV16
+P210
 (
 ImageKey
 ImageKey
@@ -7600,7 +7600,7 @@ P010
 YuvData
 :
 :
-NV16
+P210
 (
 .
 .
@@ -7610,7 +7610,7 @@ NV16
 YuvFormat
 :
 :
-NV16
+P210
 YuvData
 :
 :
@@ -7668,7 +7668,7 @@ NV12
 P010
 =
 1
-NV16
+P210
 =
 2
 PlanarYCbCr
@@ -7707,7 +7707,7 @@ P010
 YuvFormat
 :
 :
-NV16
+P210
 =
 >
 2
