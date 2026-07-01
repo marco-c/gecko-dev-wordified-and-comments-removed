@@ -1172,12 +1172,6 @@ strings
 "
 )
 ;
-token
-.
-reset
-(
-)
-;
 }
 )
 ;

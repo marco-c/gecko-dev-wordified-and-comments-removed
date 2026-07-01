@@ -356,6 +356,13 @@ js
 ]
 [
 "
+browser_reset_password_ui
+.
+js
+"
+]
+[
+"
 browser_setDisableAllSecurityChecksAndLetAttackersInterceptMyData
 .
 js

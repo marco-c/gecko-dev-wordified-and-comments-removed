@@ -3,6 +3,7 @@ use
 strict
 "
 ;
+async
 function
 resetPrimaryPassword
 (
@@ -33,6 +34,7 @@ Ci
 nsIPKCS11Token
 )
 ;
+await
 token
 .
 reset
@@ -67,6 +69,7 @@ addLogins
 logins
 )
 ;
+await
 resetPrimaryPassword
 (
 )
@@ -682,6 +685,7 @@ exists
 /
 )
 ;
+await
 resetPrimaryPassword
 (
 )
@@ -824,6 +828,7 @@ getLastSync
 123
 )
 ;
+await
 resetPrimaryPassword
 (
 )
