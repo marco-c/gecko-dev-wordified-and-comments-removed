@@ -5127,6 +5127,11 @@ aContentChild
 )
 ;
 }
+nsCString
+CurrentRemoteType
+(
+)
+;
 }
 }
 #
