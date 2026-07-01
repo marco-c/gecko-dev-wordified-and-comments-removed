@@ -88,6 +88,16 @@ pub
 mod
 components
 ;
+mod
+xpc
+;
+pub
+use
+xpc
+:
+:
+*
+;
 #
 [
 doc
