@@ -294,6 +294,7 @@ Assembler
 :
 :
 Zero
+LongJump
 )
 ;
 bailoutFrom
@@ -371,6 +372,7 @@ label
 (
 )
 cond
+LongJump
 )
 ;
 }

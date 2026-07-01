@@ -475,6 +475,7 @@ scratch
 scratch
 label
 cond
+LongJump
 )
 ;
 }
@@ -535,6 +536,7 @@ lhs
 rhs
 label
 cond
+LongJump
 )
 ;
 }
@@ -568,6 +570,7 @@ scratch
 scratch
 label
 cond
+LongJump
 )
 ;
 }
@@ -985,6 +988,7 @@ dest
 dest
 label
 cond
+LongJump
 )
 ;
 break
@@ -1064,6 +1068,7 @@ dest
 dest
 label
 cond
+LongJump
 )
 ;
 break
@@ -1163,6 +1168,7 @@ Equal
 AboveOrEqual
 :
 Below
+LongJump
 )
 ;
 }
@@ -2843,6 +2849,7 @@ lhs
 rhs
 label
 cond
+LongJump
 )
 ;
 }
@@ -2869,6 +2876,7 @@ lhs
 imm
 label
 cond
+LongJump
 )
 ;
 }
@@ -2918,6 +2926,7 @@ scratch2
 rhs
 label
 cond
+LongJump
 )
 ;
 }
@@ -2967,6 +2976,7 @@ scratch2
 rhs
 label
 cond
+LongJump
 )
 ;
 }
@@ -3016,6 +3026,7 @@ scratch2
 rhs
 label
 cond
+LongJump
 )
 ;
 }
@@ -3065,6 +3076,7 @@ scratch2
 rhs
 label
 cond
+LongJump
 )
 ;
 }
@@ -3114,6 +3126,7 @@ scratch2
 rhs
 label
 cond
+LongJump
 )
 ;
 }
@@ -3164,6 +3177,7 @@ scratch2
 imm
 label
 cond
+LongJump
 )
 ;
 }
@@ -4058,6 +4072,7 @@ lhs
 rhs
 label
 cond
+LongJump
 )
 ;
 }
@@ -4084,6 +4099,7 @@ lhs
 rhs
 label
 cond
+LongJump
 )
 ;
 }
@@ -4134,6 +4150,7 @@ lhs
 lhs
 label
 cond
+LongJump
 )
 ;
 }
@@ -4145,6 +4162,7 @@ lhs
 rhs
 label
 cond
+LongJump
 )
 ;
 }
@@ -4172,6 +4190,7 @@ lhs
 rhs
 label
 cond
+LongJump
 )
 ;
 }
@@ -4198,6 +4217,7 @@ lhs
 rhs
 label
 cond
+LongJump
 )
 ;
 }
@@ -4721,6 +4741,7 @@ scratch2
 scratch2
 label
 cond
+LongJump
 )
 ;
 }
@@ -4802,6 +4823,7 @@ scratch2
 scratch2
 label
 cond
+LongJump
 )
 ;
 }
@@ -4843,6 +4865,7 @@ JSVAL_TAG_BIGINT
 )
 label
 cond
+LongJump
 )
 ;
 }
@@ -5056,6 +5079,7 @@ b
 NotEqual
 :
 Equal
+LongJump
 )
 ;
 }
@@ -5097,6 +5121,7 @@ JSVAL_TAG_BOOLEAN
 )
 label
 cond
+LongJump
 )
 ;
 }
@@ -5292,6 +5317,7 @@ b
 NonZero
 :
 Zero
+LongJump
 )
 ;
 }
@@ -5347,6 +5373,7 @@ JSVAL_TAG_MAX_DOUBLE
 )
 label
 actual
+LongJump
 )
 ;
 }
@@ -5655,6 +5682,7 @@ JSVAL_TAG_INT32
 )
 label
 cond
+LongJump
 )
 ;
 }
@@ -5854,6 +5882,7 @@ b
 NonZero
 :
 Zero
+LongJump
 )
 ;
 }
@@ -5895,6 +5924,7 @@ JSVAL_TAG_MAGIC
 )
 label
 cond
+LongJump
 )
 ;
 }
@@ -6103,6 +6133,7 @@ magic
 )
 label
 cond
+LongJump
 )
 ;
 }
@@ -6167,6 +6198,7 @@ magic
 )
 label
 cond
+LongJump
 )
 ;
 }
@@ -6208,6 +6240,7 @@ JSVAL_TAG_NULL
 )
 label
 cond
+LongJump
 )
 ;
 }
@@ -6411,6 +6444,7 @@ ValueUpperInclNumberTag
 )
 label
 actual
+LongJump
 )
 ;
 }
@@ -6498,6 +6532,7 @@ JSVAL_TAG_OBJECT
 )
 label
 cond
+LongJump
 )
 ;
 }
@@ -6744,6 +6779,7 @@ Equal
 Below
 :
 AboveOrEqual
+LongJump
 )
 ;
 }
@@ -6804,6 +6840,7 @@ lhs
 rhs
 label
 cond
+LongJump
 )
 ;
 }
@@ -6837,6 +6874,7 @@ scratch
 scratch
 label
 cond
+LongJump
 )
 ;
 }
@@ -6912,6 +6950,7 @@ scratch
 scratch
 label
 cond
+LongJump
 )
 ;
 }
@@ -6986,6 +7025,7 @@ scratch
 scratch
 label
 cond
+LongJump
 )
 ;
 }
@@ -7076,6 +7116,7 @@ JSVAL_TAG_STRING
 )
 label
 cond
+LongJump
 )
 ;
 }
@@ -7289,6 +7330,7 @@ b
 NotEqual
 :
 Equal
+LongJump
 )
 ;
 }
@@ -7330,6 +7372,7 @@ JSVAL_TAG_SYMBOL
 )
 label
 cond
+LongJump
 )
 ;
 }
@@ -7659,6 +7702,7 @@ JSVAL_TAG_UNDEFINED
 )
 label
 cond
+LongJump
 )
 ;
 }
@@ -9413,6 +9457,7 @@ Assembler
 :
 :
 NotEqual
+LongJump
 )
 ;
 }
