@@ -855,7 +855,6 @@ gpu_buffer
 :
 :
 {
-GpuBufferBlockF
 GpuBufferDataF
 GpuBufferDataI
 GpuBufferWriterI
