@@ -176,6 +176,10 @@ enableSendMoreInfo
 (
 )
 ;
+enableScreenshots
+(
+)
+;
 await
 withNewTab
 (
@@ -257,6 +261,11 @@ HelpMenu
 (
 win2
 )
+{
+screenshotOptOut
+:
+true
+}
 )
 ;
 }
