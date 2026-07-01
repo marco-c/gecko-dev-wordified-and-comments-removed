@@ -2649,6 +2649,9 @@ const
 bool
 aDisabled
 const
+bool
+aInSession
+const
 nsACString
 &
 aExtraArgs
@@ -2684,6 +2687,7 @@ aPings
 &
 aLifetime
 aDisabled
+aInSession
 &
 aExtraArgs
 )
@@ -2725,6 +2729,9 @@ const
 bool
 aDisabled
 const
+bool
+aInSession
+const
 nsACString
 &
 aExtraArgs
@@ -2757,6 +2764,7 @@ aPings
 &
 aLifetime
 aDisabled
+aInSession
 &
 aExtraArgs
 )
