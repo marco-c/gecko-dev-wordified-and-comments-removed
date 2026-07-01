@@ -2216,6 +2216,16 @@ onClick
 =
 onMozillaAccountButtonClick
 )
+if
+(
+accessPoint
+=
+=
+MenuAccessPoint
+.
+Home
+)
+{
 MenuItem
 (
 label
@@ -2246,6 +2256,7 @@ onClick
 =
 onWallpaperButtonClick
 )
+}
 MenuItem
 (
 label

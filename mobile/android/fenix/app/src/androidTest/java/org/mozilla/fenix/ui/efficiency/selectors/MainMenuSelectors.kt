@@ -1103,13 +1103,7 @@ groups
 listOf
 (
 "
-requiredForPage
-"
-"
 homePageMainMenuItems
-"
-"
-browserViewMainMenuItems
 "
 )
 )
