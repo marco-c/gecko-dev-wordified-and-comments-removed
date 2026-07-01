@@ -9931,6 +9931,10 @@ read
 (
 )
 .
+strip
+(
+)
+.
 split
 (
 "
