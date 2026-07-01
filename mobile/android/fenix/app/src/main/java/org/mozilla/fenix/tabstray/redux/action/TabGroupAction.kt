@@ -923,4 +923,5 @@ object
 OnboardingDismissed
 :
 TabGroupAction
+TabManagerUiStateStorageAction
 }
