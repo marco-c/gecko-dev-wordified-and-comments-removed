@@ -189,6 +189,10 @@ InitAction
 is
 LabsAction
 .
+RefreshLabs
+is
+LabsAction
+.
 RestartApplication
 is
 LabsAction

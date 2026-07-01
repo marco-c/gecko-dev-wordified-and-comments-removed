@@ -277,7 +277,7 @@ dispatch
 (
 LabsAction
 .
-InitAction
+RefreshLabs
 )
 }
 }
