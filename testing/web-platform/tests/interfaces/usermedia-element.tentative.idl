@@ -39,6 +39,10 @@ onstream
 ;
 attribute
 EventHandler
+oncancel
+;
+attribute
+EventHandler
 onerror
 ;
 static
