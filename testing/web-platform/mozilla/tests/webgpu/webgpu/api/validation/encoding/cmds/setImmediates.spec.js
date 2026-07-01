@@ -437,7 +437,7 @@ isContentSizeAligned
 false
 :
 '
-RangeError
+OperationError
 '
 (
 )
@@ -629,7 +629,7 @@ elementCount
 _expectedError
 :
 '
-RangeError
+OperationError
 '
 }
 {
@@ -650,7 +650,7 @@ elementCount
 _expectedError
 :
 '
-RangeError
+OperationError
 '
 }
 ]
@@ -736,7 +736,7 @@ _expectedError
 =
 =
 '
-RangeError
+OperationError
 '
 )
 {
@@ -745,7 +745,7 @@ t
 shouldThrow
 (
 '
-RangeError
+OperationError
 '
 doSetImmediates
 )
@@ -802,7 +802,7 @@ than
 data
 size
 (
-RangeError
+OperationError
 )
 .
 )
@@ -1031,7 +1031,7 @@ shouldThrow
 dataOverLimit
 ?
 '
-RangeError
+OperationError
 '
 :
 false
