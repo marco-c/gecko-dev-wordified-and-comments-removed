@@ -9581,6 +9581,12 @@ IsBlockFrameOrSubclass
 const
 ;
 bool
+IsInlineFrameOrSubclass
+(
+)
+const
+;
+bool
 IsImageFrameOrSubclass
 (
 )
