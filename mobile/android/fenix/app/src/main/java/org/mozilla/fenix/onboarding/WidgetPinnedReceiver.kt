@@ -125,9 +125,11 @@ fenix
 .
 onboarding
 .
+redesign
+.
 view
 .
-OnboardingScreen
+OnboardingScreenRedesign
 /
 *
 *
@@ -258,7 +260,7 @@ Widget
 card
 from
 [
-OnboardingScreen
+OnboardingScreenRedesign
 ]
 .
 *

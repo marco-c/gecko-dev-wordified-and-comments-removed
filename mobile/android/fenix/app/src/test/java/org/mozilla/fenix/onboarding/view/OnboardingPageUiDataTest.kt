@@ -369,9 +369,6 @@ secondary
 button
 text
 "
-privacyCaption
-=
-null
 )
 val
 syncPageUiData
@@ -420,9 +417,6 @@ secondary
 button
 text
 "
-privacyCaption
-=
-null
 )
 val
 notificationPageUiData
@@ -471,9 +465,6 @@ secondary
 button
 text
 "
-privacyCaption
-=
-null
 )
 private
 val

@@ -9456,7 +9456,7 @@ R
 .
 string
 .
-juno_onboarding_default_browser_positive_button
+nova_onboarding_set_to_default_button
 )
 )
 .
@@ -9547,7 +9547,7 @@ R
 .
 string
 .
-juno_onboarding_sign_in_positive_button
+onboarding_redesign_sync_positive_button
 )
 )
 .

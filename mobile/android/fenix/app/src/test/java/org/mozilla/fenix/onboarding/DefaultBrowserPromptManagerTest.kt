@@ -581,7 +581,4 @@ secondary
 button
 text
 "
-privacyCaption
-=
-null
 )

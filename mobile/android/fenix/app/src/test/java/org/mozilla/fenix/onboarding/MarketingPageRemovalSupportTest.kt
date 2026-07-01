@@ -326,9 +326,6 @@ secondary
 button
 text
 "
-privacyCaption
-=
-null
 )
 )
 add
@@ -373,9 +370,6 @@ secondary
 button
 text
 "
-privacyCaption
-=
-null
 )
 )
 }
@@ -645,9 +639,6 @@ secondary
 button
 text
 "
-privacyCaption
-=
-null
 )
 )
 add
@@ -660,14 +651,14 @@ OnboardingPageUiData
 .
 Type
 .
-THEME_SELECTION
+NOTIFICATION_PERMISSION
 imageRes
 =
 0
 title
 =
 "
-theme
+notification
 title
 "
 description
@@ -692,9 +683,6 @@ secondary
 button
 text
 "
-privacyCaption
-=
-null
 )
 )
 }
