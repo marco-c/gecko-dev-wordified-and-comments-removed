@@ -75,6 +75,16 @@ nsISupports
 aParent
 )
 ;
+static
+bool
+IsEnabled
+(
+JSContext
+*
+JSObject
+*
+)
+;
 JSObject
 *
 WrapObject
