@@ -204,6 +204,7 @@ action
 bookmarksImported
 )
 )
+is
 ImporterAction
 .
 ImportFailed
@@ -212,6 +213,11 @@ ImportFailed
 Finished
 (
 Failure
+(
+action
+.
+error
+)
 )
 ImporterAction
 .
