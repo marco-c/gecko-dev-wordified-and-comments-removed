@@ -1594,11 +1594,6 @@ defaultBrowserPromptManager
 .
 maybePromptToSetAsDefaultBrowser
 (
-pagesToDisplay
-=
-pagesToDisplay
-currentCard
-=
 it
 )
 }
