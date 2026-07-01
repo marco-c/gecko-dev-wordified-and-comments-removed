@@ -3712,6 +3712,8 @@ requested
 async
 RequestPointerLock
 (
+bool
+aUnadjustedMovement
 )
 returns
 (
