@@ -1338,7 +1338,6 @@ IsSafeToMap
 const
 PlatformHandle
 &
-uint64_t
 )
 {
 return
