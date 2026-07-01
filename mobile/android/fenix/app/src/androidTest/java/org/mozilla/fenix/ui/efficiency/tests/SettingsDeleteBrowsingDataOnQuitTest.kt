@@ -554,6 +554,13 @@ DELETE_BROWSING_DATA_ON_QUIT_TOGGLE
 )
 on
 .
+home
+.
+navigateToPage
+(
+)
+on
+.
 browserPage
 .
 navigateToPage
