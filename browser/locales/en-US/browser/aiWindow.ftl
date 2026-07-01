@@ -2164,7 +2164,7 @@ label
 =
 Browsing
 download
-and
+&
 chat
 history
 .
