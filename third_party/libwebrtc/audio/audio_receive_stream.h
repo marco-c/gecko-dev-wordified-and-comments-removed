@@ -734,15 +734,7 @@ remote_ssrc
 )
 const
 override
-{
-return
-config_
-.
-rtp
-.
-remote_ssrc
 ;
-}
 const
 std
 :
@@ -808,6 +800,7 @@ AudioReceiveStreamInterface
 Config
 config_
 ;
+const
 scoped_refptr
 <
 webrtc
