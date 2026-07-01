@@ -2628,7 +2628,7 @@ WaitForInitialization
 ;
 NS_WARNING_ASSERTION
 (
-NS_FAILED
+NS_SUCCEEDED
 (
 rv
 )
