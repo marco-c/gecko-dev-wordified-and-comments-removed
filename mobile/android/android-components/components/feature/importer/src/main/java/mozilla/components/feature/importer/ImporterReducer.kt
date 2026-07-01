@@ -73,7 +73,7 @@ feature
 .
 importer
 .
-ImporterEvent
+ImporterResult
 .
 Canceled
 import
@@ -85,7 +85,7 @@ feature
 .
 importer
 .
-ImporterEvent
+ImporterResult
 .
 Failure
 import
@@ -97,7 +97,7 @@ feature
 .
 importer
 .
-ImporterEvent
+ImporterResult
 .
 Success
 import
@@ -158,6 +158,9 @@ ImporterState
 fun
 importerReducer
 (
+state
+:
+ImporterState
 action
 :
 ImporterAction
@@ -182,7 +185,7 @@ ImporterAction
 FileSelected
 -
 >
-Loading
+state
 ImporterAction
 .
 ImportStarted

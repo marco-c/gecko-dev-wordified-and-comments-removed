@@ -237,6 +237,14 @@ lifecycleScope
 .
 launch
 {
+store
+.
+dispatch
+(
+ImporterAction
+.
+ImportStarted
+)
 /
 /
 We

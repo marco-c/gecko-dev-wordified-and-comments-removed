@@ -17937,7 +17937,7 @@ lastSavedFolderCache
 reportResultGlobally
 =
 reportResultGlobally
-importEvents
+importResults
 =
 {
 emptyFlow

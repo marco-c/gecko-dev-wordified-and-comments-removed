@@ -243,7 +243,7 @@ feature
 .
 importer
 .
-ImporterEvent
+ImporterResult
 import
 mozilla
 .
@@ -793,11 +793,11 @@ isGranted
 }
 private
 val
-importEventsFlow
+importResultFlow
 =
 MutableSharedFlow
 <
-ImporterEvent
+ImporterResult
 >
 (
 extraBufferCapacity
@@ -1260,10 +1260,10 @@ it
 )
 )
 }
-importEvents
+importResults
 =
 {
-importEventsFlow
+importResultFlow
 }
 )
 )
@@ -1391,7 +1391,7 @@ bundle
 .
 let
 {
-importEventsFlow
+importResultFlow
 .
 tryEmit
 (
