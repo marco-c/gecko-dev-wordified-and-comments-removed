@@ -35,17 +35,6 @@ util
 .
 List
 ;
-import
-org
-.
-mozilla
-.
-gecko
-.
-annotation
-.
-RobocopTarget
-;
 public
 final
 class
@@ -124,7 +113,6 @@ clear
 ;
 }
 }
-RobocopTarget
 public
 static
 void
@@ -176,7 +164,6 @@ uptimeMillis
 )
 ;
 }
-RobocopTarget
 public
 static
 List
@@ -251,7 +238,6 @@ mFrameStartTime
 ;
 }
 }
-RobocopTarget
 public
 static
 void
@@ -266,7 +252,6 @@ UnsupportedOperationException
 )
 ;
 }
-RobocopTarget
 public
 static
 List

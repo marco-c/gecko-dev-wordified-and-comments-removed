@@ -54,17 +54,6 @@ mozilla
 .
 gecko
 .
-annotation
-.
-RobocopTarget
-;
-import
-org
-.
-mozilla
-.
-gecko
-.
 util
 .
 ThreadUtils
@@ -198,7 +187,6 @@ run
 }
 }
 }
-RobocopTarget
 public
 void
 addDrawCallback
@@ -271,7 +259,6 @@ true
 ;
 }
 }
-RobocopTarget
 public
 void
 removeDrawCallback

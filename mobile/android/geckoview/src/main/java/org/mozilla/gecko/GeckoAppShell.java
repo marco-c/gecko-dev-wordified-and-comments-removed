@@ -469,17 +469,6 @@ gecko
 .
 annotation
 .
-RobocopTarget
-;
-import
-org
-.
-mozilla
-.
-gecko
-.
-annotation
-.
 WrapForJNI
 ;
 import
@@ -1251,7 +1240,6 @@ String
 notes
 )
 ;
-RobocopTarget
 public
 static
 void
@@ -6249,7 +6237,6 @@ calledFrom
 gecko
 "
 )
-RobocopTarget
 public
 static
 boolean

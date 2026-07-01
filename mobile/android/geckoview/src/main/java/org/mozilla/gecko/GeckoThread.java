@@ -172,17 +172,6 @@ gecko
 .
 annotation
 .
-RobocopTarget
-;
-import
-org
-.
-mozilla
-.
-gecko
-.
-annotation
-.
 WrapForJNI
 ;
 import
@@ -1260,7 +1249,6 @@ INITIAL
 )
 ;
 }
-RobocopTarget
 public
 static
 boolean

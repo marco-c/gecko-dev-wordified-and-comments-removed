@@ -28,17 +28,6 @@ util
 .
 Log
 ;
-import
-org
-.
-mozilla
-.
-gecko
-.
-annotation
-.
-RobocopTarget
-;
 public
 final
 class
@@ -286,7 +275,6 @@ THROW
 )
 ;
 }
-RobocopTarget
 public
 static
 void
@@ -617,7 +605,6 @@ getUiThread
 )
 ;
 }
-RobocopTarget
 public
 static
 boolean
