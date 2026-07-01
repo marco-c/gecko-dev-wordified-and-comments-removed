@@ -1999,9 +1999,6 @@ disassemble
 (
 )
 {
-#
-ifdef
-JS_DISASM_RISCV64
 Assembler
 :
 :
@@ -2068,8 +2065,6 @@ at
 )
 )
 ;
-#
-endif
 }
 int
 target
@@ -3273,9 +3268,6 @@ disassemble
 (
 )
 {
-#
-ifdef
-JS_DISASM_RISCV64
 Assembler
 :
 :
@@ -3364,8 +3356,6 @@ at
 )
 )
 ;
-#
-endif
 }
 int64_t
 load
@@ -8024,16 +8014,11 @@ getOffset
 )
 )
 ;
-#
-ifdef
-JS_DISASM_RISCV64
 disassembleInstr
 (
 branchInst
 )
 ;
-#
-endif
 DEBUG_PRINTF
 (
 "
@@ -8223,9 +8208,6 @@ offset
 )
 ;
 }
-#
-ifdef
-JS_DISASM_RISCV64
 DEBUG_PRINTF
 (
 "
@@ -8242,8 +8224,6 @@ disassembleInstr
 branchInst
 )
 ;
-#
-endif
 }
 }
 }
