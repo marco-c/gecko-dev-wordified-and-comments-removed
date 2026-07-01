@@ -1468,6 +1468,7 @@ TransformPalette
 data_stores
 :
 &
+mut
 DataStores
 scratch
 :
@@ -2869,6 +2870,7 @@ SceneProperties
 data_stores
 :
 &
+mut
 DataStores
 scratch
 :

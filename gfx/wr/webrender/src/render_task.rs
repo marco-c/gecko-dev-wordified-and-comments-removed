@@ -5571,6 +5571,7 @@ GpuBufferBuilderF
 data_stores
 :
 &
+mut
 DataStores
 _uv_rect_kind
 :
@@ -10358,6 +10359,7 @@ let
 filter_data
 =
 &
+mut
 data_stores
 .
 filter_data
@@ -10365,12 +10367,7 @@ filter_data
 handle
 ]
 ;
-let
-filter_data_address
-=
 filter_data
-.
-data
 .
 write_gpu_blocks
 (
@@ -10456,7 +10453,9 @@ extra_gpu_data
 :
 Some
 (
-filter_data_address
+filter_data
+.
+gpu_buffer_address
 )
 }
 )
