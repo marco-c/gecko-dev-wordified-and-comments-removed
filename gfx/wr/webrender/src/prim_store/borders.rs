@@ -1107,7 +1107,7 @@ surface_builder
 mut
 |
 rg_builder
-_
+gpu_buffer_builder
 |
 {
 rg_builder
@@ -1141,6 +1141,7 @@ self
 .
 border
 scale
+gpu_buffer_builder
 )
 )
 )
