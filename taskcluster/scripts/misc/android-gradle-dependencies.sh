@@ -181,7 +181,7 @@ lib
 -
 auth
 :
-testRelease
+test
 :
 components
 :
