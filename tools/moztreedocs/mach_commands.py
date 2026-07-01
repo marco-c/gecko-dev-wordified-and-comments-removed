@@ -3403,6 +3403,7 @@ group
 :
 ]
 )
+                    
 if
 match
 .
@@ -3413,6 +3414,22 @@ group
 is
 not
 None
+and
+match
+.
+group
+(
+2
+)
+[
+1
+:
+]
+.
+isdigit
+(
+)
+                    
 else
 None
                 
