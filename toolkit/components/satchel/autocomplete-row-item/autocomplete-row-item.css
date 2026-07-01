@@ -345,4 +345,13 @@ start
 :
 auto
 ;
+&
+.
+selected
+{
+visibility
+:
+visible
+;
+}
 }
