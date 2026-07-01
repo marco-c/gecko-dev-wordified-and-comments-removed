@@ -2004,11 +2004,3 @@ types
 :
 -
 XorShift128PlusRNG
-MaybeFmt
-.
-h
-:
-types
-:
--
-Maybe
