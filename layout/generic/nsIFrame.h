@@ -9484,6 +9484,12 @@ IsReplaced
 )
 const
 ;
+bool
+IsAtomicInline
+(
+)
+const
+;
 enum
 {
 IN_CSS_UNITS
