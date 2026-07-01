@@ -7510,7 +7510,7 @@ width
 ;
 }
 .
-richMediaAnnotation
+mediaAnnotation
 {
 pointer
 -
@@ -7519,7 +7519,7 @@ events
 auto
 ;
 .
-richMediaContent
+mediaContent
 {
 width
 :
@@ -7529,7 +7529,7 @@ width
 }
 video
 .
-richMediaContent
+mediaContent
 {
 height
 :
@@ -7545,7 +7545,7 @@ contain
 }
 audio
 .
-richMediaContent
+mediaContent
 {
 position
 :
@@ -7557,7 +7557,7 @@ bottom
 ;
 }
 .
-richMediaPlayButton
+mediaPlayButton
 {
 height
 :
