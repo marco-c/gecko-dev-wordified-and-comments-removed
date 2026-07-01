@@ -680,6 +680,10 @@ tasks
 "
         
 "
+extensions
+"
+        
+"
 gecko
 -
 profile

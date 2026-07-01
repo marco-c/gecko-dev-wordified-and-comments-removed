@@ -531,6 +531,10 @@ env
 "
         
 "
+extensions
+"
+        
+"
 gecko
 -
 profile
@@ -7390,7 +7394,35 @@ PERF_FLAGS
 "
 ]
 =
+(
+                
+f
+"
+{
+env
+[
+'
+PERF_FLAGS
+'
+]
+}
+{
 args
+}
+"
+if
+env
+.
+get
+(
+"
+PERF_FLAGS
+"
+)
+else
+args
+            
+)
         
 if
 (

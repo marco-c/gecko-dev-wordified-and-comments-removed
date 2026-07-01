@@ -53,6 +53,10 @@ env
 "
         
 "
+extensions
+"
+        
+"
 gecko
 -
 profile
