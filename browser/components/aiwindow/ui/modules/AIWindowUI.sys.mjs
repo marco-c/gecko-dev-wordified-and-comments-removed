@@ -1645,6 +1645,13 @@ toggle
 )
 )
 ;
+this
+.
+focusSidebar
+(
+win
+)
+;
 return
 true
 ;
