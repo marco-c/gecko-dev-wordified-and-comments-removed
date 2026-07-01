@@ -468,6 +468,25 @@ add_handler
 log_buffer
 )
         
+original_shutdown
+=
+logger
+.
+shutdown
+        
+logger
+.
+shutdown
+=
+lambda
+*
+args
+*
+*
+kwargs
+:
+None
+        
 result
 =
 1
@@ -488,6 +507,12 @@ kwargs
         
 finally
 :
+            
+logger
+.
+shutdown
+=
+original_shutdown
             
 if
 int
