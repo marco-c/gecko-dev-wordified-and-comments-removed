@@ -3238,6 +3238,8 @@ NetAddr
 aAddr
 uint32_t
 aCaps
+bool
+bool
 )
 :
 ConnectionEstablisher

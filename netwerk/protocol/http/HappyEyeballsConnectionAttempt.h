@@ -883,6 +883,12 @@ mConnectionEstablisherTable
 ;
 RefPtr
 <
+ConnectionEstablisherFactory
+>
+mEstablisherFactory
+;
+RefPtr
+<
 HttpConnectionBase
 >
 mOutputConn
