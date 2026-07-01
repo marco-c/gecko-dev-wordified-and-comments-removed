@@ -2430,8 +2430,6 @@ use
 executable
 |
 rtc_executable
-|
-|
 shared_library
 |
 rtc_shared_library
