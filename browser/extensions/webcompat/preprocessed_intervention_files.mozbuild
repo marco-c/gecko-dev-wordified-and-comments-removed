@@ -1613,6 +1613,17 @@ hide_browser_notice
 css
 "
 "
+bug2009187
+-
+deadpixeltest
+.
+org
+-
+fix_popup_position
+.
+css
+"
+"
 bug2009358
 -
 stgguaiba
