@@ -465,13 +465,6 @@ HistorySelectors
 DELETE_CONFIRM_BUTTON
 )
 .
-mozVerify
-(
-HistorySelectors
-.
-BROWSING_DATA_DELETED_SNACKBAR
-)
-.
 mozVerifyElementsByGroup
 (
 "
