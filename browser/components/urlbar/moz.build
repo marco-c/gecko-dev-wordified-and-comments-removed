@@ -142,14 +142,14 @@ sys
 mjs
 "
 "
-UrlbarMuxerStandard
+UrlbarController
 .
 sys
 .
 mjs
 "
 "
-UrlbarParentController
+UrlbarMuxerStandard
 .
 sys
 .

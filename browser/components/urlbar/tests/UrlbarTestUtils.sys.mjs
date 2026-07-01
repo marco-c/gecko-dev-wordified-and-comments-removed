@@ -312,7 +312,7 @@ sys
 .
 mjs
 "
-UrlbarParentController
+UrlbarController
 :
 "
 moz
@@ -328,7 +328,7 @@ components
 /
 urlbar
 /
-UrlbarParentController
+UrlbarController
 .
 sys
 .
@@ -9475,14 +9475,14 @@ to
 pass
 to
 the
+UrlbarController
 *
-UrlbarParentController
 constructor
 .
 *
 returns
 {
-UrlbarParentController
+UrlbarController
 }
 A
 new
@@ -9578,7 +9578,7 @@ return
 new
 lazy
 .
-UrlbarParentController
+UrlbarController
 (
 Object
 .

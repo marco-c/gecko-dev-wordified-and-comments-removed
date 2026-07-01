@@ -180,7 +180,7 @@ sys
 .
 mjs
 "
-UrlbarParentController
+UrlbarController
 :
 "
 moz
@@ -196,7 +196,7 @@ components
 /
 urlbar
 /
-UrlbarParentController
+UrlbarController
 .
 sys
 .

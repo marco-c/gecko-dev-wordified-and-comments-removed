@@ -22824,7 +22824,7 @@ record
 )
 in
 *
-UrlbarParentController
+UrlbarController
 .
 sys
 .
