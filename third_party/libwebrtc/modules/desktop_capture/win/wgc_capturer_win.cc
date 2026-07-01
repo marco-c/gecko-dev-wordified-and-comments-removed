@@ -1016,14 +1016,6 @@ if
 full_screen_window_detector_
 &
 &
-full_screen_window_detector_
--
->
-UseHeuristicForFindingEditor
-(
-)
-&
-&
 editor_id_
 =
 =
@@ -2311,8 +2303,6 @@ SourceId
 source_id
 bool
 fullscreen_slide_show_started_after_capture_start
-bool
-use_heuristic_for_finding_editor
 )
 {
 if
@@ -2327,7 +2317,6 @@ CreateFullScreenApplicationHandlerForTest
 (
 source_id
 fullscreen_slide_show_started_after_capture_start
-use_heuristic_for_finding_editor
 )
 ;
 }

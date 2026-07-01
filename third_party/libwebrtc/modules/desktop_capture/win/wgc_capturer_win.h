@@ -502,10 +502,6 @@ bool
 fullscreen_slide_show_started_after_capture_start
 =
 true
-bool
-use_heuristic_for_finding_editor_
-=
-false
 )
 ;
 private
