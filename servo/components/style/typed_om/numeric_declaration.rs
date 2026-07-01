@@ -60,8 +60,8 @@ calc
 :
 :
 {
-CalcParseFlags
 CalcNode
+CalcParseFlags
 }
 ;
 use
