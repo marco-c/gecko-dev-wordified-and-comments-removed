@@ -1794,6 +1794,13 @@ void
 )
 SendNotifyHardwareReset
 (
+static_cast
+<
+uint32_t
+>
+(
+aResult
+)
 )
 ;
 return
@@ -4693,6 +4700,13 @@ void
 )
 SendNotifyHardwareReset
 (
+static_cast
+<
+uint32_t
+>
+(
+rv
+)
 )
 ;
 }

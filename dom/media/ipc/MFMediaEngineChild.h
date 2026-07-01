@@ -188,6 +188,8 @@ ipc
 IPCResult
 RecvNotifyHardwareReset
 (
+uint32_t
+aPlatformError
 )
 ;
 mozilla
@@ -603,6 +605,8 @@ aError
 void
 NotifyHardwareReset
 (
+uint32_t
+aPlatformError
 )
 ;
 void

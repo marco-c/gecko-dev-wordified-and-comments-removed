@@ -302,6 +302,8 @@ error
 async
 NotifyHardwareReset
 (
+uint32_t
+platformError
 )
 ;
 async
