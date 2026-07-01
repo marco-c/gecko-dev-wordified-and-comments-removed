@@ -6749,6 +6749,13 @@ tuple
 (
 wrapper
 )
+set_config
+(
+"
+COMPILER_WRAPPER
+"
+compiler_wrapper
+)
 dependable
 def
 wasm

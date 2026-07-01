@@ -857,8 +857,10 @@ None
 return
 None
         
-ccache
+wrapper
 =
+list
+(
 self
 .
 environment
@@ -868,31 +870,38 @@ substs
 get
 (
 "
-CCACHE
+COMPILER_WRAPPER
 "
+[
+]
+)
 )
         
 if
-len
-(
-compiler_args
-)
+wrapper
 and
 compiler_args
 [
-0
+:
+len
+(
+wrapper
+)
 ]
 =
 =
-ccache
+wrapper
 :
             
+del
 compiler_args
-.
-pop
+[
+:
+len
 (
-0
+wrapper
 )
+]
         
 return
 compiler_args
