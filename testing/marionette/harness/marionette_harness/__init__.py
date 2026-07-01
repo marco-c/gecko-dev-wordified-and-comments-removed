@@ -31,7 +31,7 @@ skip_if_chrome
     
 skip_if_desktop
     
-skip_if_no_user_session
+skip_if_macos_vm
     
 skip_unless_browser_pref
     
