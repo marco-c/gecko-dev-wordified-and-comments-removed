@@ -683,9 +683,6 @@ privacy
 "
 crossword
 "
-"
-stocks
-"
 ]
 )
 ;
@@ -741,9 +738,6 @@ privacy
 "
 "
 crossword
-"
-"
-stocks
 "
 ]
 )
@@ -803,9 +797,6 @@ privacy
 "
 "
 crossword
-"
-"
-stocks
 "
 ]
 )
@@ -927,9 +918,6 @@ privacy
 "
 "
 crossword
-"
-"
-stocks
 "
 ]
 )
@@ -1066,9 +1054,6 @@ privacy
 "
 crossword
 "
-"
-stocks
-"
 ]
 )
 ;
@@ -1146,9 +1131,6 @@ privacy
 "
 "
 crossword
-"
-"
-stocks
 "
 ]
 )
@@ -1228,9 +1210,6 @@ privacy
 "
 "
 crossword
-"
-"
-stocks
 "
 ]
 )
