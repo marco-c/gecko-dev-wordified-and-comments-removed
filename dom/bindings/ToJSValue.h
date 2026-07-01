@@ -539,9 +539,15 @@ aCx
 ;
 aValue
 .
-setNumber
+set
+(
+JS_NumberValue
+(
+double
 (
 aArgument
+)
+)
 )
 ;
 return
