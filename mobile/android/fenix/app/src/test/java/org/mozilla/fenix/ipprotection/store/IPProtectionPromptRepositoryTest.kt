@@ -238,7 +238,7 @@ settings
 .
 onboardingCompletedTimestamp
 =
-EXACTLY_ONE_WEEK_AGO
+MORE_THAN_ONE_WEEK_AGO
 repository
 =
 DefaultIPProtectionPromptRepository
@@ -480,12 +480,19 @@ a
 week
 ago
 THEN
+do
+not
 show
 the
 prompt
 (
 )
 {
+settings
+.
+onboardingCompletedTimestamp
+=
+EXACTLY_ONE_WEEK_AGO
 repository
 =
 DefaultIPProtectionPromptRepository
@@ -508,7 +515,7 @@ settings
 .
 isIPProtectionAvailable
 )
-assertTrue
+assertFalse
 (
 repository
 .

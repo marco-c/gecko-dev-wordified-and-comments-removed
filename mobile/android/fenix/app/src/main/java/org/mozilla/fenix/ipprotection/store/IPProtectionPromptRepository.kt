@@ -487,7 +487,7 @@ settings
 isIPProtectionAvailable
 &
 &
-hasCompletedOnboardingAtLeastAWeekAgo
+completedOnboardingOverAWeekAgo
 (
 currentTimeMillis
 )
@@ -505,7 +505,7 @@ hasShownPrompt
 hasAlreadyUsedIPProtection
 private
 fun
-hasCompletedOnboardingAtLeastAWeekAgo
+completedOnboardingOverAWeekAgo
 (
 currentTimeMillis
 :
@@ -520,6 +520,5 @@ settings
 .
 onboardingCompletedTimestamp
 >
-=
 ONE_WEEK_MS
 }
