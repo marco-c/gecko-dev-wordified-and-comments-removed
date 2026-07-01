@@ -1,0 +1,14 @@
+"
+use
+strict
+"
+;
+function
+hello
+(
+)
+{
+return
+42
+;
+}
