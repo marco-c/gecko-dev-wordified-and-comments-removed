@@ -180,7 +180,7 @@ releases
 [
 release
 beta
-esr140
+esr153
 ]
 treeherder
 :
@@ -316,7 +316,7 @@ windows11
 -
 64
 -
-24h2
+25h2
 -
 shippable
 :
@@ -324,7 +324,7 @@ win11
 -
 64
 -
-24h2
+25h2
 -
 source
 windows10
@@ -420,7 +420,7 @@ windows11
 -
 64
 -
-24h2
+25h2
 -
 shippable
 -
@@ -581,7 +581,7 @@ windows11
 -
 64
 -
-24h2
+25h2
 -
 shippable
 -
@@ -760,7 +760,7 @@ windows11
 -
 64
 -
-24h2
+25h2
 -
 shippable
 -
@@ -921,7 +921,7 @@ releases
 :
 [
 release
-esr140
+esr153
 ]
 shipping
 -
@@ -937,7 +937,7 @@ windows11
 -
 64
 -
-24h2
+25h2
 -
 shippable
 -
@@ -968,7 +968,7 @@ releases
 :
 [
 release
-esr140
+esr153
 ]
 shipping
 -

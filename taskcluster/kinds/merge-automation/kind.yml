@@ -279,7 +279,7 @@ staging
 -
 firefox
 -
-esr140
+esr153
 bump
 -
 main
@@ -291,13 +291,13 @@ firefox
 main
 bump
 -
-esr140
+esr153
 :
 staging
 -
 firefox
 -
-esr140
+esr153
 default
 :
 by
@@ -341,7 +341,7 @@ esr
 :
 firefox
 -
-esr140
+esr153
 bump
 -
 main
@@ -351,11 +351,11 @@ firefox
 main
 bump
 -
-esr140
+esr153
 :
 firefox
 -
-esr140
+esr153
 dontbuild
 :
 false
@@ -689,7 +689,7 @@ main
 '
 bump
 -
-esr140
+esr153
 :
 -
 esr
@@ -782,7 +782,7 @@ to
 branch
 :
 '
-esr140
+esr153
 '
 early
 -
@@ -1609,7 +1609,7 @@ arcconfig
 -
 FIREFOXRELEASE
 -
-FIREFOXESRONEFOURZERO
+FIREFOXESRONEFIVETHREE
 end
 -
 tag
@@ -1626,7 +1626,7 @@ to
 branch
 :
 '
-esr140
+esr153
 '
 run
 -

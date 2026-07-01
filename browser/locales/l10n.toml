@@ -563,9 +563,7 @@ this
 entry
 until
 esr115
-and
-esr128
-become
+becomes
 #
 unsupported
 .
@@ -633,9 +631,7 @@ this
 entry
 until
 esr115
-and
-esr128
-become
+becomes
 #
 unsupported
 .

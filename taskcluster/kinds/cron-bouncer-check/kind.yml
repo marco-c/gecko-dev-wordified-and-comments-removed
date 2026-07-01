@@ -338,7 +338,7 @@ release
 LATEST_FIREFOX_VERSION
 mozilla
 -
-esr140
+esr153
 :
 FIREFOX_ESR_NEXT
 default

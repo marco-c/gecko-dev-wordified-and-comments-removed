@@ -448,13 +448,13 @@ esr115
 "
 mozilla
 -
-esr128
+esr140
 "
             
 "
 mozilla
 -
-esr140
+esr153
 "
             
 "
@@ -472,19 +472,13 @@ release
 "
 comm
 -
-esr115
-"
-            
-"
-comm
--
-esr128
-"
-            
-"
-comm
--
 esr140
+"
+            
+"
+comm
+-
+esr153
 "
         
 }
@@ -687,13 +681,13 @@ esr115
 "
 mozilla
 -
-esr128
+esr140
 "
             
 "
 mozilla
 -
-esr140
+esr153
 "
             
 "
@@ -711,19 +705,13 @@ release
 "
 comm
 -
-esr115
-"
-            
-"
-comm
--
-esr128
-"
-            
-"
-comm
--
 esr140
+"
+            
+"
+comm
+-
+esr153
 "
         
 }
@@ -1311,7 +1299,7 @@ esr115
 [
         
 "
-esr128
+esr140
 "
         
 {
@@ -1319,13 +1307,13 @@ esr128
 "
 mozilla
 -
-esr128
+esr140
 "
             
 "
 comm
 -
-esr128
+esr140
 "
         
 }
@@ -1335,7 +1323,7 @@ esr128
 [
         
 "
-esr140
+esr153
 "
         
 {
@@ -1343,13 +1331,13 @@ esr140
 "
 mozilla
 -
-esr140
+esr153
 "
             
 "
 comm
 -
-esr140
+esr153
 "
         
 }
@@ -1437,7 +1425,7 @@ esr
 "
     
 "
-esr128
+esr140
 "
 :
 "
@@ -1449,7 +1437,7 @@ esr
 "
     
 "
-esr140
+esr153
 "
 :
 "

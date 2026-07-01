@@ -3555,11 +3555,17 @@ parameters
 register_target_task
 (
 "
+mozilla_esr153_tasks
+"
+)
+register_target_task
+(
+"
 mozilla_esr140_tasks
 "
 )
 def
-target_tasks_mozilla_esr140
+target_tasks_mozilla_esr
 (
 full_task_graph
 parameters
@@ -8412,6 +8418,16 @@ release
 mozilla
 -
 release
+"
+        
+"
+esr153
+"
+:
+"
+mozilla
+-
+esr153
 "
         
 "
