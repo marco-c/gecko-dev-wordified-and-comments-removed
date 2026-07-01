@@ -1503,7 +1503,7 @@ RESULT_TYPE
 AI_CHAT
 source
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .

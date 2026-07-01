@@ -27,7 +27,7 @@ RESULT_TYPE
 TAB_SWITCH
 source
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -224,7 +224,7 @@ RESULT_TYPE
 TAB_SWITCH
 source
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -262,7 +262,7 @@ RESULT_TYPE
 TAB_SWITCH
 source
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -469,7 +469,7 @@ RESULT_TYPE
 TAB_SWITCH
 source
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -507,7 +507,7 @@ RESULT_TYPE
 TAB_SWITCH
 source
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -684,7 +684,7 @@ RESULT_TYPE
 TAB_SWITCH
 source
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -726,7 +726,7 @@ RESULT_TYPE
 TAB_SWITCH
 source
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -1042,7 +1042,7 @@ RESULT_TYPE
 TAB_SWITCH
 source
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -1080,7 +1080,7 @@ RESULT_TYPE
 URL
 source
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -1132,7 +1132,7 @@ RESULT_TYPE
 URL
 source
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -1214,7 +1214,7 @@ sources
 .
 includes
 (
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -1297,7 +1297,7 @@ undefined
 sources
 :
 [
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -1390,7 +1390,7 @@ results
 ]
 .
 source
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -1603,7 +1603,7 @@ RESULT_TYPE
 TAB_SWITCH
 source
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -1644,7 +1644,7 @@ RESULT_TYPE
 TAB_SWITCH
 source
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -1695,7 +1695,7 @@ undefined
 sources
 :
 [
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -1823,7 +1823,7 @@ results
 ]
 .
 source
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -1880,7 +1880,7 @@ RESULT_TYPE
 TAB_SWITCH
 source
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -1918,7 +1918,7 @@ RESULT_TYPE
 URL
 source
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -1956,7 +1956,7 @@ RESULT_TYPE
 URL
 source
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -1994,7 +1994,7 @@ RESULT_TYPE
 SEARCH
 source
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -2322,7 +2322,7 @@ results
 ]
 .
 source
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 [

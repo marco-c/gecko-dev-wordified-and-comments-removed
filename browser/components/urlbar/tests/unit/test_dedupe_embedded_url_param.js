@@ -132,7 +132,7 @@ kitten
 "
 source
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -277,7 +277,7 @@ kitten
 "
 source
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -440,7 +440,7 @@ kitten
 "
 source
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -625,7 +625,7 @@ kitten
 "
 source
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -783,7 +783,7 @@ kitten
 "
 source
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -938,7 +938,7 @@ context
 {
 source
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .

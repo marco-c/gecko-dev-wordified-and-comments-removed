@@ -43,7 +43,7 @@ RESULT_TYPE
 URL
 source
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -152,7 +152,7 @@ RESULT_TYPE
 URL
 source
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -338,7 +338,7 @@ firstProvider
 "
 source
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -385,7 +385,7 @@ secondProvider
 "
 source
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -528,7 +528,7 @@ firstProvider
 "
 source
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -565,7 +565,7 @@ secondProvider
 "
 source
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -700,7 +700,7 @@ firstProvider
 "
 source
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -747,7 +747,7 @@ secondProvider
 "
 source
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -937,7 +937,7 @@ firstProvider
 "
 source
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -984,7 +984,7 @@ secondProvider
 "
 source
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .

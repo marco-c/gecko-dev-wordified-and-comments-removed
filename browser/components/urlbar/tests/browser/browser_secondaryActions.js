@@ -1142,7 +1142,7 @@ window
 {
 source
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .

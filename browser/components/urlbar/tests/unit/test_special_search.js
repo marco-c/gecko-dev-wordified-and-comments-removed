@@ -1098,7 +1098,7 @@ RESTRICT_TOKENS
 HISTORY
 source
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .

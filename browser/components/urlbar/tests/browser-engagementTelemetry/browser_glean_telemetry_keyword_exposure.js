@@ -2711,14 +2711,14 @@ resultSourceByType
 {
 history
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
 HISTORY
 bookmark
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .

@@ -765,7 +765,7 @@ window
 {
 source
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -1099,7 +1099,7 @@ window
 engineName
 source
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -1704,7 +1704,7 @@ window
 {
 source
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -1818,7 +1818,7 @@ window
 {
 source
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -1999,7 +1999,7 @@ window
 {
 source
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -2091,7 +2091,7 @@ window
 {
 source
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -2160,7 +2160,7 @@ window
 {
 source
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -2222,7 +2222,7 @@ window
 {
 source
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -2600,7 +2600,7 @@ window
 {
 source
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -3491,7 +3491,7 @@ isGeneralPurposeEngine
 true
 source
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -3549,7 +3549,7 @@ isGeneralPurposeEngine
 true
 source
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .

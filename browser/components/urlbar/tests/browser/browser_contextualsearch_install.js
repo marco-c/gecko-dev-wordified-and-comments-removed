@@ -1021,7 +1021,7 @@ example
 "
 Example
 "
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -1217,7 +1217,7 @@ foo
 Foo
 Config
 "
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .

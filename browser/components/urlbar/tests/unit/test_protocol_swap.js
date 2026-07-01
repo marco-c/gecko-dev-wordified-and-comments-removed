@@ -389,7 +389,7 @@ title
 "
 source
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -480,7 +480,7 @@ title
 "
 source
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -607,7 +607,7 @@ searchString
 /
 source
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -699,7 +699,7 @@ searchString
 /
 source
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -827,7 +827,7 @@ searchString
 /
 source
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -919,7 +919,7 @@ searchString
 /
 source
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -1046,7 +1046,7 @@ title
 "
 source
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -1246,7 +1246,7 @@ searchString
 /
 source
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -1373,7 +1373,7 @@ searchString
 /
 source
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -1543,7 +1543,7 @@ searchString
 /
 source
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -1654,7 +1654,7 @@ searchString
 /
 source
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -1814,7 +1814,7 @@ searchString
 /
 source
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -1925,7 +1925,7 @@ searchString
 /
 source
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .

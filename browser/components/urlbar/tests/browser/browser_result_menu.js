@@ -891,7 +891,7 @@ result
 source
 =
 =
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -1015,7 +1015,7 @@ result
 source
 !
 =
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -1176,7 +1176,7 @@ RESULT_TYPE
 URL
 source
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .

@@ -6,7 +6,7 @@ strict
 const
 RESULT_SOURCE
 =
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 ;

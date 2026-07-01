@@ -1403,7 +1403,7 @@ equal
 exampleResult
 .
 source
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -1488,7 +1488,7 @@ equal
 youtubeResult
 .
 source
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -2096,7 +2096,7 @@ equal
 exampleResult
 .
 source
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -2451,7 +2451,7 @@ equal
 exampleResult
 .
 source
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -2534,7 +2534,7 @@ equal
 youtubeResult
 .
 source
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -3376,7 +3376,7 @@ equal
 aboutRobotsResult
 .
 source
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -3612,7 +3612,7 @@ equal
 aboutRobotsResult
 .
 source
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .

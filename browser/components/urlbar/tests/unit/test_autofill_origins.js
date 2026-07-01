@@ -982,7 +982,7 @@ context
 {
 source
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -1102,7 +1102,7 @@ context
 {
 source
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -1219,7 +1219,7 @@ context
 {
 source
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -2702,7 +2702,7 @@ context
 {
 source
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -2782,7 +2782,7 @@ context
 {
 source
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -2866,7 +2866,7 @@ context
 {
 source
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -3944,7 +3944,7 @@ blan
 "
 source
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .

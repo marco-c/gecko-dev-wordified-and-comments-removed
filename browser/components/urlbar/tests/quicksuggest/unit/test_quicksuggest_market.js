@@ -874,7 +874,7 @@ RESULT_TYPE
 DYNAMIC
 source
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .

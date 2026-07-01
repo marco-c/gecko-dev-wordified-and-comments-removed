@@ -235,7 +235,7 @@ RESULT_TYPE
 TAB_SWITCH
 source
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -273,7 +273,7 @@ RESULT_TYPE
 URL
 source
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -311,7 +311,7 @@ RESULT_TYPE
 URL
 source
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -421,7 +421,7 @@ b
 source
 =
 =
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -440,7 +440,7 @@ b
 source
 =
 =
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -457,7 +457,7 @@ a
 source
 =
 =
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -588,7 +588,7 @@ RESULT_TYPE
 URL
 source
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -625,7 +625,7 @@ RESULT_TYPE
 URL
 source
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -665,7 +665,7 @@ RESULT_TYPE
 URL
 source
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -811,7 +811,7 @@ RESULT_TYPE
 URL
 source
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -848,7 +848,7 @@ RESULT_TYPE
 URL
 source
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -885,7 +885,7 @@ RESULT_TYPE
 URL
 source
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -928,7 +928,7 @@ RESULT_TYPE
 URL
 source
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -965,7 +965,7 @@ RESULT_TYPE
 URL
 source
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -1005,7 +1005,7 @@ RESULT_TYPE
 URL
 source
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -1185,7 +1185,7 @@ RESULT_TYPE
 URL
 source
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -1222,7 +1222,7 @@ RESULT_TYPE
 URL
 source
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -1259,7 +1259,7 @@ RESULT_TYPE
 SEARCH
 source
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -1303,7 +1303,7 @@ RESULT_TYPE
 SEARCH
 source
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -1347,7 +1347,7 @@ RESULT_TYPE
 SEARCH
 source
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -1389,7 +1389,7 @@ RESULT_TYPE
 URL
 source
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -1561,7 +1561,7 @@ RESULT_TYPE
 SEARCH
 source
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -1626,7 +1626,7 @@ RESULT_TYPE
 DYNAMIC
 source
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -1757,7 +1757,7 @@ RESULT_TYPE
 URL
 source
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -1799,7 +1799,7 @@ RESULT_TYPE
 URL
 source
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -1841,7 +1841,7 @@ RESULT_TYPE
 URL
 source
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -1882,7 +1882,7 @@ RESULT_TYPE
 URL
 source
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -2729,7 +2729,7 @@ RESULT_TYPE
 URL
 source
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -2769,7 +2769,7 @@ RESULT_TYPE
 URL
 source
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -2881,7 +2881,7 @@ RESULT_TYPE
 URL
 source
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -2996,7 +2996,7 @@ RESULT_TYPE
 URL
 source
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -3109,7 +3109,7 @@ RESULT_TYPE
 URL
 source
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -3149,7 +3149,7 @@ RESULT_TYPE
 URL
 source
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -3262,7 +3262,7 @@ RESULT_TYPE
 URL
 source
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -3302,7 +3302,7 @@ RESULT_TYPE
 URL
 source
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -3356,7 +3356,7 @@ RESULT_TYPE
 URL
 source
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -3520,13 +3520,13 @@ RESULT_TYPE
 .
 TAB_SWITCH
 ?
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
 TABS
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -4107,7 +4107,7 @@ RESULT_TYPE
 URL
 source
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -4158,7 +4158,7 @@ RESULT_TYPE
 TAB_SWITCH
 source
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -4381,7 +4381,7 @@ RESULT_TYPE
 URL
 source
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -4429,7 +4429,7 @@ RESULT_TYPE
 URL
 source
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -4641,7 +4641,7 @@ RESULT_TYPE
 URL
 source
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .

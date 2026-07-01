@@ -1559,7 +1559,7 @@ doSearchModeTest
 {
 source
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -1664,7 +1664,7 @@ doSearchModeTest
 {
 source
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -1709,7 +1709,7 @@ doSearchModeTest
 {
 source
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -1754,7 +1754,7 @@ doSearchModeTest
 {
 source
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .

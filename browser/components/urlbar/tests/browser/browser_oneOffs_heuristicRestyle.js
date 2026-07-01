@@ -201,7 +201,7 @@ source
 )
 {
 case
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -223,7 +223,7 @@ svg
 "
 ;
 case
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -245,7 +245,7 @@ svg
 "
 ;
 case
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
