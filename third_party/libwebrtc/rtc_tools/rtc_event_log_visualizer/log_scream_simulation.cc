@@ -1200,6 +1200,15 @@ delay_based_congestion_control
 l4s_alpha_v
 (
 )
+.
+loss_event_rate
+=
+scream_
+-
+>
+loss_event_rate
+(
+)
 }
 )
 ;
