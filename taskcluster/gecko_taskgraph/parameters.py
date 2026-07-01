@@ -503,6 +503,15 @@ version
 :
 str
     
+head_git_repository
+:
+Optional
+[
+str
+]
+=
+None
+    
 head_git_rev
 :
 Optional
