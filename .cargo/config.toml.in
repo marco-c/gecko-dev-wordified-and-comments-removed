@@ -667,6 +667,10 @@ com
 martinthomson
 /
 ohttp
+?
+rev
+=
+600931b5a1e947776cbaad931ed78f1e89005352
 "
 ]
 git
@@ -684,6 +688,11 @@ martinthomson
 /
 ohttp
 "
+rev
+=
+"
+600931b5a1e947776cbaad931ed78f1e89005352
+"
 replace
 -
 with
@@ -713,7 +722,7 @@ audioipc
 ?
 rev
 =
-042d48dc5932ced772c2bf20a2aef2845fd6ec85
+c9dcbaee1624daad2fa6b1445fd047efde4f1ec0
 "
 ]
 git
@@ -734,7 +743,7 @@ audioipc
 rev
 =
 "
-042d48dc5932ced772c2bf20a2aef2845fd6ec85
+c9dcbaee1624daad2fa6b1445fd047efde4f1ec0
 "
 replace
 -
@@ -953,7 +962,7 @@ tag
 =
 v0
 .
-6
+8
 .
 0
 "
@@ -980,7 +989,7 @@ tag
 "
 v0
 .
-6
+8
 .
 0
 "
@@ -1183,7 +1192,7 @@ rust
 ?
 rev
 =
-3d36cb1c1211f0aa65087895524f3e6690e23289
+b693c7e4a91d1d5a391c0404d18b6fc94714894e
 "
 ]
 git
@@ -1206,7 +1215,7 @@ rust
 rev
 =
 "
-3d36cb1c1211f0aa65087895524f3e6690e23289
+b693c7e4a91d1d5a391c0404d18b6fc94714894e
 "
 replace
 -
