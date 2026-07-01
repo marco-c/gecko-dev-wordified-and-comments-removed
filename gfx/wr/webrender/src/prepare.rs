@@ -3588,7 +3588,6 @@ let
 prim_data
 =
 &
-mut
 data_stores
 .
 normal_border
@@ -3619,7 +3618,6 @@ let
 border_data
 =
 &
-mut
 prim_data
 .
 kind
@@ -4525,7 +4523,6 @@ let
 prim_data
 =
 &
-mut
 data_stores
 .
 prim
@@ -4747,7 +4744,6 @@ let
 prim_data
 =
 &
-mut
 data_stores
 .
 yuv_image
@@ -4768,7 +4764,6 @@ let
 yuv_image_data
 =
 &
-mut
 prim_data
 .
 kind
@@ -4958,7 +4953,6 @@ let
 prim_data
 =
 &
-mut
 data_stores
 .
 image
@@ -4979,7 +4973,6 @@ let
 image_data
 =
 &
-mut
 prim_data
 .
 kind
@@ -5670,7 +5663,6 @@ let
 prim_data
 =
 &
-mut
 data_stores
 .
 radial_grad
@@ -5850,7 +5842,6 @@ let
 prim_data
 =
 &
-mut
 data_stores
 .
 conic_grad
