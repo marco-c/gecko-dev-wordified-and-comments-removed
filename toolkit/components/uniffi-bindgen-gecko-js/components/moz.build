@@ -69,6 +69,15 @@ mjs
 "
 generated
 /
+RustAutofill
+.
+sys
+.
+mjs
+"
+"
+generated
+/
 RustBreachAlerts
 .
 sys
