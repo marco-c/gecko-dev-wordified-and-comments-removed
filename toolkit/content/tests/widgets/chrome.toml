@@ -768,13 +768,6 @@ html
 ]
 [
 "
-test_theme_picker
-.
-html
-"
-]
-[
-"
 test_tree_column_reorder
 .
 xhtml
