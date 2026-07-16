@@ -9782,6 +9782,13 @@ name
 "
 nova_onboarding_marketing_secondary_button_text
 "
+tools
+:
+ignore
+=
+"
+UnusedResources
+"
 >
 <
 /
