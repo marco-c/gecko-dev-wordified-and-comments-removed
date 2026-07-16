@@ -1476,7 +1476,6 @@ NewBuiltinClassInstance
 cx
 &
 TestClass
-GenericObject
 )
 )
 ;
