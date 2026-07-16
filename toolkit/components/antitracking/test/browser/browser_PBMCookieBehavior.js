@@ -3,11 +3,6 @@ use
 strict
 "
 ;
-requestLongerTimeout
-(
-3
-)
-;
 const
 COOKIE_BEHAVIORS
 =

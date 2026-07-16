@@ -1,6 +1,6 @@
 requestLongerTimeout
 (
-4
+2
 )
 ;
 Services

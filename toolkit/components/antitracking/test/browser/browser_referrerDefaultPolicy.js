@@ -3,11 +3,6 @@ use
 strict
 "
 ;
-requestLongerTimeout
-(
-16
-)
-;
 Services
 .
 scriptloader
