@@ -418,13 +418,6 @@ paddingStart
 "
 5dp
 "
-android
-:
-paddingLeft
-=
-"
-5dp
-"
 /
 >
 <
