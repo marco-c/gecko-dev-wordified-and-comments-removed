@@ -368,17 +368,12 @@ org
 "
         
 jj
-describe
+metaedit
 -
 -
-reset
+update
 -
 author
--
--
-no
--
-edit
         
 jj
 abandon

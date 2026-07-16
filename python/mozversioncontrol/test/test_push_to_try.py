@@ -1592,14 +1592,6 @@ None
 -
 allow
 -
-new
-"
-                
-"
--
--
-allow
--
 empty
 -
 description
