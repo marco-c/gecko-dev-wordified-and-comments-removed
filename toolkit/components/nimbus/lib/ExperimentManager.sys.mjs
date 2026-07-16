@@ -6530,6 +6530,9 @@ ROLLOUTS_OPT_OUT
 UnenrollReason
 .
 STUDIES_OPT_OUT
+UnenrollReason
+.
+RECIPE_NOT_SEEN
 ]
 .
 includes
