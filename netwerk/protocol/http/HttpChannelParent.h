@@ -348,6 +348,15 @@ nsACString
 aTopLevelSite
 )
 ;
+dom
+:
+:
+ContentParentId
+GetContentParentId
+(
+)
+const
+;
 void
 OnBackgroundParentReady
 (
