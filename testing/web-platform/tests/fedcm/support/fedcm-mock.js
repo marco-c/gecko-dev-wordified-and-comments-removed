@@ -21,7 +21,7 @@ mojom
 /
 webid
 /
-federated_auth_request
+federated_request
 .
 mojom
 .
