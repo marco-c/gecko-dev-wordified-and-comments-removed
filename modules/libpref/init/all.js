@@ -12175,7 +12175,7 @@ notification_enable_delay
 ;
 #
 ifdef
-EARLY_BETA_OR_EARLIER
+NIGHTLY_BUILD
 pref
 (
 "
