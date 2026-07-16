@@ -968,6 +968,16 @@ aMouseEvent
 ;
 static
 void
+WillDispatchMouseEventToDOM
+(
+const
+WidgetMouseEvent
+&
+aMouseEvent
+)
+;
+static
+void
 RecordMouseButtons
 (
 const
