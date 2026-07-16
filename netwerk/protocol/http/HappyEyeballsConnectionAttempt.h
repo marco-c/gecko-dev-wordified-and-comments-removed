@@ -1077,6 +1077,9 @@ TimeStamp
 mFirstConnectionStart
 ;
 TimeStamp
+mDnsResolutionEnd
+;
+TimeStamp
 mFirstTcpConnectEnd
 ;
 TimeStamp
