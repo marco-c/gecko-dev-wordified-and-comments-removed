@@ -77,7 +77,7 @@ toggler
 :
 root
 [
-inDOMFullscreen
+fullscreenNavToolboxHidden
 ]
 #
 sidebar
@@ -86,7 +86,7 @@ box
 :
 root
 [
-inDOMFullscreen
+fullscreenNavToolboxHidden
 ]
 #
 sidebar
@@ -95,7 +95,7 @@ container
 :
 root
 [
-inDOMFullscreen
+fullscreenNavToolboxHidden
 ]
 #
 sidebar
@@ -104,7 +104,7 @@ splitter
 :
 root
 [
-inDOMFullscreen
+fullscreenNavToolboxHidden
 ]
 #
 sidebar
