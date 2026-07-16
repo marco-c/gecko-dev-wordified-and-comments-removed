@@ -347,11 +347,7 @@ getSamplerState
 (
 )
 const
-{
-return
-mState
 ;
-}
 rx
 :
 :

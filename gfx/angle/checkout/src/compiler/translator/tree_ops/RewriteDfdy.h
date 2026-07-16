@@ -37,6 +37,9 @@ class
 TSymbolTable
 ;
 class
+SpecConst
+;
+class
 DriverUniform
 ;
 [
@@ -58,6 +61,9 @@ TSymbolTable
 symbolTable
 int
 shaderVersion
+SpecConst
+*
+specConst
 const
 DriverUniform
 *

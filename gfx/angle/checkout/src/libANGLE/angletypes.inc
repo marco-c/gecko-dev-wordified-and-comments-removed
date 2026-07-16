@@ -1,11 +1,3 @@
-#
-ifdef
-UNSAFE_BUFFERS_BUILD
-#
-pragma
-allow_unsafe_libc_calls
-#
-endif
 namespace
 gl
 {

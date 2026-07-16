@@ -1,12 +1,4 @@
 #
-ifdef
-UNSAFE_BUFFERS_BUILD
-#
-pragma
-allow_unsafe_buffers
-#
-endif
-#
 include
 "
 libANGLE
@@ -147,9 +139,6 @@ gl
 :
 BufferUsage
 usage
-BufferFeedback
-*
-feedback
 )
 {
 if
@@ -211,13 +200,11 @@ updateD3DBufferUsage
 (
 context
 usage
-feedback
 )
 ;
 invalidateStaticData
 (
 context
-feedback
 )
 ;
 return
@@ -319,9 +306,6 @@ size_t
 size
 size_t
 offset
-BufferFeedback
-*
-feedback
 )
 {
 if
@@ -397,7 +381,6 @@ size
 invalidateStaticData
 (
 context
-feedback
 )
 ;
 return
@@ -435,9 +418,6 @@ GLintptr
 destOffset
 GLsizeiptr
 size
-BufferFeedback
-*
-feedback
 )
 {
 Buffer9
@@ -482,7 +462,6 @@ size
 invalidateStaticData
 (
 context
-feedback
 )
 ;
 return
@@ -517,9 +496,6 @@ void
 *
 *
 mapPtr
-BufferFeedback
-*
-feedback
 )
 {
 ANGLE_HR_UNREACHABLE
@@ -569,9 +545,6 @@ void
 *
 *
 mapPtr
-BufferFeedback
-*
-feedback
 )
 {
 ANGLE_HR_UNREACHABLE
@@ -614,9 +587,6 @@ context
 GLboolean
 *
 result
-BufferFeedback
-*
-feedback
 )
 {
 ANGLE_HR_UNREACHABLE
@@ -656,9 +626,6 @@ gl
 Context
 *
 context
-BufferFeedback
-*
-feedback
 )
 {
 ANGLE_HR_UNREACHABLE

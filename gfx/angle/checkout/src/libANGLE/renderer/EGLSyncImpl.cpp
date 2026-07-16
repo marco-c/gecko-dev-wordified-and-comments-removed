@@ -63,9 +63,8 @@ return
 egl
 :
 :
-Error
+EglBadMatch
 (
-EGL_BAD_MATCH
 )
 ;
 }
@@ -100,9 +99,8 @@ return
 egl
 :
 :
-Error
+EglBadMatch
 (
-EGL_BAD_MATCH
 )
 ;
 }
@@ -136,9 +134,8 @@ return
 egl
 :
 :
-Error
+EglBadMatch
 (
-EGL_BAD_MATCH
 )
 ;
 }

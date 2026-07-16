@@ -35,7 +35,7 @@ constexpr
 uint32_t
 kFontGlyphHeight
 =
-39
+34
 ;
 constexpr
 uint32_t
@@ -45,8 +45,8 @@ kFontMipCount
 ]
 =
 {
-62985
-14440
+54910
+12920
 }
 ;
 constexpr
@@ -58,14 +58,14 @@ kFontMipCount
 =
 {
 0
-62985
+54910
 }
 ;
 constexpr
 uint32_t
 kFontTotalDataSize
 =
-77425
+67830
 ;
 constexpr
 uint32_t

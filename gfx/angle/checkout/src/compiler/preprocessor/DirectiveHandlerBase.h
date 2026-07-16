@@ -18,13 +18,6 @@ ShaderLang
 .
 h
 "
-#
-include
-"
-Macro
-.
-h
-"
 namespace
 angle
 {
@@ -130,9 +123,6 @@ int
 version
 ShShaderSpec
 spec
-MacroSet
-*
-macro_set
 )
 =
 0

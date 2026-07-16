@@ -316,7 +316,7 @@ GLenum
 pname
 GLfixed
 *
-data
+params
 )
 ;
 ANGLE_EXPORT

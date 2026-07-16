@@ -183,15 +183,12 @@ Medium
 High
 =
 2
-Realtime
-=
-3
 InvalidEnum
 =
-4
+3
 EnumCount
 =
-4
+3
 }
 ;
 template

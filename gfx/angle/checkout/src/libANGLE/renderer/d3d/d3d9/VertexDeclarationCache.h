@@ -33,7 +33,7 @@ class
 VertexDataManager
 ;
 class
-ProgramExecutable
+Program
 ;
 }
 namespace
@@ -82,9 +82,9 @@ attributes
 gl
 :
 :
-ProgramExecutable
+Program
 *
-executable
+program
 GLint
 start
 GLsizei

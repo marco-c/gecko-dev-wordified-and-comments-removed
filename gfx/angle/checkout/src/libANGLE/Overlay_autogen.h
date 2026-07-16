@@ -9,6 +9,7 @@ FPS
 VulkanLastValidationMessage
 VulkanValidationMessageCount
 VulkanRenderPassCount
+VulkanRenderPassBufferCount
 VulkanSecondaryCommandBufferPoolWaste
 VulkanWriteDescriptorSetCount
 VulkanDescriptorSetAllocations
@@ -55,6 +56,11 @@ VulkanValidationMessageCount
 PROC
 (
 VulkanRenderPassCount
+)
+\
+PROC
+(
+VulkanRenderPassBufferCount
 )
 \
 PROC

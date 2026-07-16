@@ -1,12 +1,4 @@
 #
-ifdef
-UNSAFE_BUFFERS_BUILD
-#
-pragma
-allow_unsafe_buffers
-#
-endif
-#
 if
 defined
 (
@@ -930,10 +922,6 @@ layoutQualifier
 .
 binding
 )
-mIsDefaultUniformBlock
-(
-false
-)
 {
 ASSERT
 (
@@ -1005,10 +993,6 @@ mBinding
 layoutQualifier
 .
 binding
-)
-mIsDefaultUniformBlock
-(
-false
 )
 {
 ASSERT

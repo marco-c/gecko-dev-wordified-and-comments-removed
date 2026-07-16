@@ -16596,12 +16596,6 @@ dxgiFormat
 case
 D3D_FEATURE_LEVEL_11_1
 :
-case
-D3D_FEATURE_LEVEL_12_0
-:
-case
-D3D_FEATURE_LEVEL_12_1
-:
 return
 GetDXGISupport_11_1
 (

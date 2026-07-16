@@ -295,8 +295,6 @@ samples
 =
 formatCaps
 .
-sampleCounts
-.
 getMaxSamples
 (
 )

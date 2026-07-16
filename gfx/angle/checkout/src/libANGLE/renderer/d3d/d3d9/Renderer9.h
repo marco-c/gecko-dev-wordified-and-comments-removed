@@ -162,9 +162,6 @@ class
 ProgramD3D
 ;
 class
-ProgramExecutableD3D
-;
-class
 RenderTarget9
 ;
 class
@@ -693,9 +690,9 @@ depthStencilRenderTarget
 void
 applyUniforms
 (
-ProgramExecutableD3D
+ProgramD3D
 *
-executableD3D
+programD3D
 )
 ;
 bool
@@ -2325,9 +2322,6 @@ gl
 Limitations
 *
 outLimitations
-ShPixelLocalStorageOptions
-*
-outPLSOptions
 )
 const
 override

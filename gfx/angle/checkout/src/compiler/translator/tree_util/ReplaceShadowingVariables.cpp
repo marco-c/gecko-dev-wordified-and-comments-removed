@@ -482,7 +482,6 @@ variable
 getType
 (
 )
-EvqTemporary
 )
 mFunctionBody
 }
