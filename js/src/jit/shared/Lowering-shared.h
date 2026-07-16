@@ -1226,6 +1226,15 @@ mir
 ;
 inline
 LInt64Allocation
+useInt64RegisterOrZeroAtStart
+(
+MDefinition
+*
+mir
+)
+;
+inline
+LInt64Allocation
 useInt64OrConstantAtStart
 (
 MDefinition
