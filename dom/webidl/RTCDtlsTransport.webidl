@@ -151,9 +151,5 @@ attribute
 EventHandler
 onstatechange
 ;
-attribute
-EventHandler
-onerror
-;
 }
 ;

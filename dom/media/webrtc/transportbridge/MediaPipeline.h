@@ -209,9 +209,6 @@ RTCRTPContributingSourceStats
 class
 RTCStatsTimestampMaker
 ;
-class
-RTCErrorParams
-;
 }
 struct
 MediaPipelineReceiveControlInterface
@@ -646,13 +643,6 @@ uint8_t
 >
 &
 aRemoteCerts
-Maybe
-<
-dom
-:
-:
-RTCErrorParams
->
 )
 ;
 void
@@ -669,13 +659,6 @@ TransportLayer
 :
 :
 State
-Maybe
-<
-dom
-:
-:
-RTCErrorParams
->
 )
 ;
 virtual
