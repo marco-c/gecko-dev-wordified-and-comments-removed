@@ -8,13 +8,6 @@ h
 #
 include
 "
-nsComponentManagerUtils
-.
-h
-"
-#
-include
-"
 nsCOMPtr
 .
 h
@@ -22,7 +15,7 @@ h
 #
 include
 "
-nsXPCOM
+nsComponentManagerUtils
 .
 h
 "
@@ -43,7 +36,7 @@ h
 #
 include
 "
-nsIClipboard
+nsXPCOM
 .
 h
 "
@@ -55,6 +48,13 @@ mozilla
 dom
 /
 Document
+.
+h
+"
+#
+include
+"
+nsIClipboard
 .
 h
 "

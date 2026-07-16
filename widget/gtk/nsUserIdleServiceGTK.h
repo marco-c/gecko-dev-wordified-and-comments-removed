@@ -7,13 +7,6 @@ nsUserIdleServiceGTK_h_
 #
 include
 "
-nsUserIdleService
-.
-h
-"
-#
-include
-"
 mozilla
 /
 AppShutdown
@@ -26,6 +19,13 @@ include
 mozilla
 /
 UniquePtr
+.
+h
+"
+#
+include
+"
+nsUserIdleService
 .
 h
 "

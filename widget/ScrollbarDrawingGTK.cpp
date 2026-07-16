@@ -10,9 +10,7 @@ include
 "
 mozilla
 /
-gfx
-/
-Helpers
+StaticPrefs_widget
 .
 h
 "
@@ -21,7 +19,9 @@ include
 "
 mozilla
 /
-StaticPrefs_widget
+gfx
+/
+Helpers
 .
 h
 "

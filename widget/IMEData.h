@@ -7,6 +7,13 @@ mozilla_widget_IMEData_h_
 #
 include
 "
+Units
+.
+h
+"
+#
+include
+"
 mozilla
 /
 CheckedInt
@@ -88,13 +95,6 @@ h
 include
 "
 nsXULAppAPI
-.
-h
-"
-#
-include
-"
-Units
 .
 h
 "

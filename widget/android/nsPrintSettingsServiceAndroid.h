@@ -7,14 +7,14 @@ nsPrintSettingsServiceAndroid_h
 #
 include
 "
-nsPrintSettingsService
+nsIPrintSettings
 .
 h
 "
 #
 include
 "
-nsIPrintSettings
+nsPrintSettingsService
 .
 h
 "

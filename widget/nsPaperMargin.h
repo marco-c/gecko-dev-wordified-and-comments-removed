@@ -7,7 +7,11 @@ nsPaperMargin_h_
 #
 include
 "
-nsISupportsImpl
+mozilla
+/
+gfx
+/
+Rect
 .
 h
 "
@@ -21,11 +25,7 @@ h
 #
 include
 "
-mozilla
-/
-gfx
-/
-Rect
+nsISupportsImpl
 .
 h
 "

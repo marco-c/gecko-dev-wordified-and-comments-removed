@@ -7,14 +7,14 @@ MACFINDERPROGRESS_H_
 #
 include
 "
-nsIMacFinderProgress
+nsCOMPtr
 .
 h
 "
 #
 include
 "
-nsCOMPtr
+nsIMacFinderProgress
 .
 h
 "

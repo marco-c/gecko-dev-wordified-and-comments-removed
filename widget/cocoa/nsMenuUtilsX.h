@@ -7,14 +7,14 @@ nsMenuUtilsX_h_
 #
 include
 "
-nscore
+nsStringFwd
 .
 h
 "
 #
 include
 "
-nsStringFwd
+nscore
 .
 h
 "

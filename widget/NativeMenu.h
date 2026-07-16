@@ -7,14 +7,14 @@ mozilla_widget_NativeMenu_h
 #
 include
 "
-nsISupportsImpl
+Units
 .
 h
 "
 #
 include
 "
-Units
+nsISupportsImpl
 .
 h
 "

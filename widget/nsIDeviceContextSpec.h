@@ -14,7 +14,9 @@ h
 #
 include
 "
-nsISupports
+mozilla
+/
+MoveOnlyFunction
 .
 h
 "
@@ -52,9 +54,7 @@ h
 #
 include
 "
-mozilla
-/
-MoveOnlyFunction
+nsISupports
 .
 h
 "

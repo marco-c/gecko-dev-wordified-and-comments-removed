@@ -6,6 +6,13 @@ define
 WinPointerEvents_h_
 #
 include
+<
+windef
+.
+h
+>
+#
+include
 "
 mozilla
 /
@@ -20,13 +27,6 @@ touchinjection_sdk80
 .
 h
 "
-#
-include
-<
-windef
-.
-h
->
 class
 WinPointerInfo
 final

@@ -8,6 +8,13 @@ h
 #
 include
 "
+ThemeDrawing
+.
+h
+"
+#
+include
+"
 mozilla
 /
 RelativeLuminanceUtils
@@ -29,13 +36,6 @@ include
 mozilla
 /
 StaticPrefs_widget
-.
-h
-"
-#
-include
-"
-ThemeDrawing
 .
 h
 "

@@ -47,14 +47,14 @@ h
 #
 include
 "
-nsScrollbarFrame
+nsNativeTheme
 .
 h
 "
 #
 include
 "
-nsNativeTheme
+nsScrollbarFrame
 .
 h
 "

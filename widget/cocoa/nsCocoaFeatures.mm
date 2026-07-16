@@ -71,11 +71,6 @@ nsObjCExceptions
 h
 "
 #
-include
-<
-atomic
->
-#
 import
 <
 Cocoa
@@ -92,6 +87,11 @@ sys
 sysctl
 .
 h
+>
+#
+include
+<
+atomic
 >
 static
 std

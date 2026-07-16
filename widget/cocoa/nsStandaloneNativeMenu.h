@@ -7,14 +7,14 @@ nsStandaloneNativeMenu_h_
 #
 include
 "
-nsIStandaloneNativeMenu
+NativeMenuMac
 .
 h
 "
 #
 include
 "
-NativeMenuMac
+nsIStandaloneNativeMenu
 .
 h
 "

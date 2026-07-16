@@ -6,13 +6,6 @@ define
 _nsNativeDragSource_h_
 #
 include
-"
-nscore
-.
-h
-"
-#
-include
 <
 ole2
 .
@@ -31,6 +24,13 @@ include
 mozilla
 /
 RefPtr
+.
+h
+"
+#
+include
+"
+nscore
 .
 h
 "

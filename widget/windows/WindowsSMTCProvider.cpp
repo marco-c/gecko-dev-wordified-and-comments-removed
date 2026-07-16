@@ -34,13 +34,6 @@ h
 #
 include
 "
-nsMimeTypes
-.
-h
-"
-#
-include
-"
 mozilla
 /
 Assertions
@@ -70,7 +63,7 @@ include
 "
 mozilla
 /
-WidgetUtils
+ScopeExit
 .
 h
 "
@@ -79,7 +72,7 @@ include
 "
 mozilla
 /
-ScopeExit
+WidgetUtils
 .
 h
 "
@@ -102,6 +95,13 @@ mozilla
 media
 /
 MediaUtils
+.
+h
+"
+#
+include
+"
+nsMimeTypes
 .
 h
 "

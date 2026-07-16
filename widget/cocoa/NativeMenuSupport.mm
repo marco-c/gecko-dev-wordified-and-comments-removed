@@ -19,6 +19,13 @@ h
 #
 include
 "
+NativeMenuMac
+.
+h
+"
+#
+include
+"
 mozilla
 /
 StaticPrefs_browser
@@ -31,13 +38,6 @@ include
 mozilla
 /
 StaticPrefs_widget
-.
-h
-"
-#
-include
-"
-NativeMenuMac
 .
 h
 "

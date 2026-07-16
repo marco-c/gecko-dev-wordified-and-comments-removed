@@ -7,6 +7,13 @@ mozilla_widget_ScrollbarDrawingWin_h
 #
 include
 "
+ScrollbarDrawing
+.
+h
+"
+#
+include
+"
 nsITheme
 .
 h
@@ -15,13 +22,6 @@ h
 include
 "
 nsNativeTheme
-.
-h
-"
-#
-include
-"
-ScrollbarDrawing
 .
 h
 "

@@ -26,7 +26,7 @@ h
 #
 include
 "
-nsQueryObject
+nsCocoaUtils
 .
 h
 "
@@ -40,7 +40,7 @@ h
 #
 include
 "
-nsCocoaUtils
+nsQueryObject
 .
 h
 "

@@ -7,14 +7,14 @@ nsUXThemeConstants_h
 #
 include
 <
-vssym32
+vsstyle
 .
 h
 >
 #
 include
 <
-vsstyle
+vssym32
 .
 h
 >

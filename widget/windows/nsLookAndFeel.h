@@ -14,6 +14,13 @@ h
 #
 include
 "
+gfxFont
+.
+h
+"
+#
+include
+"
 mozilla
 /
 EnumeratedArray
@@ -24,13 +31,6 @@ h
 include
 "
 nsXPLookAndFeel
-.
-h
-"
-#
-include
-"
-gfxFont
 .
 h
 "

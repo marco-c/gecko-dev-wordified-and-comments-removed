@@ -7,13 +7,6 @@ mozilla_widget_Screen_h
 #
 include
 "
-nsIScreen
-.
-h
-"
-#
-include
-"
 Units
 .
 h
@@ -24,6 +17,13 @@ include
 mozilla
 /
 HalScreenConfiguration
+.
+h
+"
+#
+include
+"
+nsIScreen
 .
 h
 "

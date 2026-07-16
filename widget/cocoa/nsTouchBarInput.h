@@ -16,14 +16,14 @@ h
 #
 include
 "
-nsITouchBarInput
+nsCOMPtr
 .
 h
 "
 #
 include
 "
-nsCOMPtr
+nsITouchBarInput
 .
 h
 "

@@ -7,6 +7,13 @@ mozilla_widget_Theme_h
 #
 include
 "
+ScrollbarDrawing
+.
+h
+"
+#
+include
+"
 Units
 .
 h
@@ -55,13 +62,6 @@ h
 include
 "
 nsNativeTheme
-.
-h
-"
-#
-include
-"
-ScrollbarDrawing
 .
 h
 "

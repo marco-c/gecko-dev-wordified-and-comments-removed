@@ -7,7 +7,9 @@ mozilla_widget_GSettings_h
 #
 include
 "
-nsStringFwd
+mozilla
+/
+Maybe
 .
 h
 "
@@ -23,9 +25,7 @@ h
 #
 include
 "
-mozilla
-/
-Maybe
+nsStringFwd
 .
 h
 "

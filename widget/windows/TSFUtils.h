@@ -7,11 +7,6 @@ TSFUtils_h
 #
 include
 <
-ostream
->
-#
-include
-<
 msctf
 .
 h
@@ -22,6 +17,11 @@ include
 textstor
 .
 h
+>
+#
+include
+<
+ostream
 >
 #
 include

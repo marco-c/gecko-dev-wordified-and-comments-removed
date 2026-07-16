@@ -7,14 +7,14 @@ nsPrinterListBase_h_
 #
 include
 "
-nsIPrinterList
+nsCycleCollectionParticipant
 .
 h
 "
 #
 include
 "
-nsCycleCollectionParticipant
+nsIPrinterList
 .
 h
 "

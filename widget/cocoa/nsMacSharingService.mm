@@ -17,13 +17,6 @@ h
 #
 include
 "
-jsapi
-.
-h
-"
-#
-include
-"
 js
 /
 Array
@@ -42,7 +35,7 @@ h
 #
 include
 "
-nsCocoaUtils
+jsapi
 .
 h
 "
@@ -52,6 +45,13 @@ include
 mozilla
 /
 MacStringHelpers
+.
+h
+"
+#
+include
+"
+nsCocoaUtils
 .
 h
 "

@@ -9,9 +9,7 @@ include
 "
 mozilla
 /
-dom
-/
-ContentParent
+PClipboardContentAnalysisParent
 .
 h
 "
@@ -20,7 +18,9 @@ include
 "
 mozilla
 /
-PClipboardContentAnalysisParent
+dom
+/
+ContentParent
 .
 h
 "

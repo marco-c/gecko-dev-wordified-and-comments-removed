@@ -8,6 +8,13 @@ h
 #
 include
 "
+WinUtils
+.
+h
+"
+#
+include
+"
 nsCRT
 .
 h
@@ -23,13 +30,6 @@ h
 include
 "
 nsPrintSettingsImpl
-.
-h
-"
-#
-include
-"
-WinUtils
 .
 h
 "

@@ -1,6 +1,13 @@
 #
 include
 "
+InProcessAndroidCompositorWidget
+.
+h
+"
+#
+include
+"
 HeadlessCompositorWidget
 .
 h
@@ -20,13 +27,6 @@ mozilla
 widget
 /
 PlatformWidgetTypes
-.
-h
-"
-#
-include
-"
-InProcessAndroidCompositorWidget
 .
 h
 "

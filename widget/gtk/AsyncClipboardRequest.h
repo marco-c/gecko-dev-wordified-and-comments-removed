@@ -7,13 +7,6 @@ mozilla_AsyncClipboardRequest_h
 #
 include
 "
-nsClipboard
-.
-h
-"
-#
-include
-"
 mozilla
 /
 Maybe
@@ -26,6 +19,13 @@ include
 mozilla
 /
 UniquePtr
+.
+h
+"
+#
+include
+"
+nsClipboard
 .
 h
 "

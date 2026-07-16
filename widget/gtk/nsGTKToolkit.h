@@ -6,13 +6,6 @@ define
 GTKTOOLKIT_H
 #
 include
-"
-nsString
-.
-h
-"
-#
-include
 <
 gtk
 /
@@ -20,6 +13,13 @@ gtk
 .
 h
 >
+#
+include
+"
+nsString
+.
+h
+"
 class
 nsGTKToolkit
 final

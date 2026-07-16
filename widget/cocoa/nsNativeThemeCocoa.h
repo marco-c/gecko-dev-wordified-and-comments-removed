@@ -34,13 +34,6 @@ h
 #
 include
 "
-nsITheme
-.
-h
-"
-#
-include
-"
 ThemeCocoa
 .
 h
@@ -53,6 +46,13 @@ mozilla
 dom
 /
 RustTypes
+.
+h
+"
+#
+include
+"
+nsITheme
 .
 h
 "

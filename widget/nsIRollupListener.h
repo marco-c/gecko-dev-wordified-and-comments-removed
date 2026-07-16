@@ -7,7 +7,7 @@ _nsIRollupListener_h_
 #
 include
 "
-nsTArray
+Units
 .
 h
 "
@@ -21,7 +21,7 @@ h
 #
 include
 "
-Units
+nsTArray
 .
 h
 "

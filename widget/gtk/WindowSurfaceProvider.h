@@ -16,6 +16,13 @@ h
 #
 include
 "
+Units
+.
+h
+"
+#
+include
+"
 mozilla
 /
 gfx
@@ -54,13 +61,6 @@ mozilla
 widget
 /
 WindowSurface
-.
-h
-"
-#
-include
-"
-Units
 .
 h
 "

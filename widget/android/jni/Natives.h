@@ -31,7 +31,7 @@ include
 "
 mozilla
 /
-RefPtr
+RWLock
 .
 h
 "
@@ -40,7 +40,7 @@ include
 "
 mozilla
 /
-RWLock
+RefPtr
 .
 h
 "

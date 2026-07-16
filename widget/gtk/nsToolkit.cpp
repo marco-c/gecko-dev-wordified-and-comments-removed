@@ -1,14 +1,14 @@
 #
 include
 "
-nscore
+nsGTKToolkit
 .
 h
 "
 #
 include
 "
-nsGTKToolkit
+nscore
 .
 h
 "

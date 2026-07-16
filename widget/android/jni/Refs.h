@@ -32,7 +32,7 @@ mozilla
 /
 jni
 /
-Utils
+TypeAdapter
 .
 h
 "
@@ -43,7 +43,7 @@ mozilla
 /
 jni
 /
-TypeAdapter
+Utils
 .
 h
 "

@@ -7,13 +7,6 @@ mozilla_widget_ScreenManager_h
 #
 include
 "
-nsIScreenManager
-.
-h
-"
-#
-include
-"
 mozilla
 /
 RefPtr
@@ -37,6 +30,13 @@ mozilla
 widget
 /
 Screen
+.
+h
+"
+#
+include
+"
+nsIScreenManager
 .
 h
 "

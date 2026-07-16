@@ -10,9 +10,7 @@ include
 "
 mozilla
 /
-gfx
-/
-gfxVars
+WidgetUtilsGtk
 .
 h
 "
@@ -21,7 +19,9 @@ include
 "
 mozilla
 /
-WidgetUtilsGtk
+gfx
+/
+gfxVars
 .
 h
 "

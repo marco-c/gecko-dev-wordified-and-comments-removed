@@ -7,14 +7,14 @@ nsNativeThemeUIKit_h
 #
 include
 "
-nsITheme
+Theme
 .
 h
 "
 #
 include
 "
-Theme
+nsITheme
 .
 h
 "

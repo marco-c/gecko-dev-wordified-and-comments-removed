@@ -11,7 +11,7 @@ mozilla
 /
 widget
 /
-nsXPLookAndFeel
+LookAndFeelTypes
 .
 h
 "
@@ -22,7 +22,7 @@ mozilla
 /
 widget
 /
-LookAndFeelTypes
+nsXPLookAndFeel
 .
 h
 "

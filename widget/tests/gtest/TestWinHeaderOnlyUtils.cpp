@@ -1,5 +1,12 @@
 #
 include
+<
+shlwapi
+.
+h
+>
+#
+include
 "
 gtest
 /
@@ -16,13 +23,6 @@ WinHeaderOnlyUtils
 .
 h
 "
-#
-include
-<
-shlwapi
-.
-h
->
 TEST
 (
 WinHeaderOnlyUtils

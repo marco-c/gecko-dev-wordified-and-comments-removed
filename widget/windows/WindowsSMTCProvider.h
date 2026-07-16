@@ -10,11 +10,6 @@ __MINGW32__
 #
 include
 <
-functional
->
-#
-include
-<
 Windows
 .
 Media
@@ -35,7 +30,7 @@ mozilla
 /
 dom
 /
-MediaController
+MediaControlKeySource
 .
 h
 "
@@ -46,7 +41,7 @@ mozilla
 /
 dom
 /
-MediaControlKeySource
+MediaController
 .
 h
 "

@@ -7,7 +7,7 @@ _mozilla_WindowHook_h_
 #
 include
 <
-windows
+nsClassHashtable
 .
 h
 >
@@ -21,14 +21,14 @@ h
 #
 include
 <
-nsClassHashtable
+nsTArray
 .
 h
 >
 #
 include
 <
-nsTArray
+windows
 .
 h
 >

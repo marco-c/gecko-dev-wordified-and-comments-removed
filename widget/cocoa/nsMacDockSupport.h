@@ -7,6 +7,13 @@ mozilla_widget_nsMacDockSupport_h
 #
 include
 "
+nsCOMPtr
+.
+h
+"
+#
+include
+"
 nsIMacDockSupport
 .
 h
@@ -22,13 +29,6 @@ h
 include
 "
 nsITaskbarProgress
-.
-h
-"
-#
-include
-"
-nsCOMPtr
 .
 h
 "

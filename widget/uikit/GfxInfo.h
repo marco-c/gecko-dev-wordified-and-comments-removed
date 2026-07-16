@@ -7,14 +7,14 @@ _mozilla_widget_GfxInfo_h_
 #
 include
 "
-GfxInfoBase
+GfxDriverInfo
 .
 h
 "
 #
 include
 "
-GfxDriverInfo
+GfxInfoBase
 .
 h
 "

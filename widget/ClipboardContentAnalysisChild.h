@@ -9,9 +9,7 @@ include
 "
 mozilla
 /
-ipc
-/
-Endpoint
+PClipboardContentAnalysisChild
 .
 h
 "
@@ -20,7 +18,9 @@ include
 "
 mozilla
 /
-PClipboardContentAnalysisChild
+ipc
+/
+Endpoint
 .
 h
 "

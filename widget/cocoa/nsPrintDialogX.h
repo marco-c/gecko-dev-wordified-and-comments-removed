@@ -7,13 +7,6 @@ nsPrintDialog_h_
 #
 include
 "
-nsIPrintDialogService
-.
-h
-"
-#
-include
-"
 nsCOMPtr
 .
 h
@@ -22,6 +15,13 @@ h
 include
 "
 nsCocoaUtils
+.
+h
+"
+#
+include
+"
+nsIPrintDialogService
 .
 h
 "

@@ -8,14 +8,14 @@ h
 #
 include
 "
-nsCocoaUtils
+TextInputHandler
 .
 h
 "
 #
 include
 "
-TextInputHandler
+nsCocoaUtils
 .
 h
 "

@@ -6,6 +6,13 @@ define
 NativeKeyBindings_h
 #
 include
+<
+glib
+.
+h
+>
+#
+include
 "
 mozilla
 /
@@ -20,13 +27,6 @@ nsIWidget
 .
 h
 "
-#
-include
-<
-glib
-.
-h
->
 using
 GtkWidget
 =

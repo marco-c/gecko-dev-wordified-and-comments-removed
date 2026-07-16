@@ -12,9 +12,7 @@ h
 #
 include
 "
-mozilla
-/
-StaticPrefs_widget
+DBusMenu
 .
 h
 "
@@ -35,7 +33,9 @@ h
 #
 include
 "
-DBusMenu
+mozilla
+/
+StaticPrefs_widget
 .
 h
 "

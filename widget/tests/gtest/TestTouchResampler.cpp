@@ -13,6 +13,13 @@ h
 #
 include
 "
+TouchResampler
+.
+h
+"
+#
+include
+"
 Units
 .
 h
@@ -41,13 +48,6 @@ include
 mozilla
 /
 TimeStamp
-.
-h
-"
-#
-include
-"
-TouchResampler
 .
 h
 "

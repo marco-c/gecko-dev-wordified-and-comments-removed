@@ -15,6 +15,13 @@ h
 #
 include
 "
+nsCOMPtr
+.
+h
+"
+#
+include
+"
 nsCRT
 .
 h
@@ -22,7 +29,7 @@ h
 #
 include
 "
-nsCOMPtr
+nsISupportsPrimitives
 .
 h
 "
@@ -50,14 +57,7 @@ h
 #
 include
 "
-nsISupportsPrimitives
-.
-h
-"
-#
-include
-"
-nsPrimitiveHelpers
+nsContentUtils
 .
 h
 "
@@ -71,7 +71,7 @@ h
 #
 include
 "
-nsContentUtils
+nsPrimitiveHelpers
 .
 h
 "

@@ -29,7 +29,7 @@ vector
 #
 include
 "
-nsIWeakReferenceUtils
+Units
 .
 h
 "
@@ -56,7 +56,7 @@ h
 #
 include
 "
-Units
+nsIWeakReferenceUtils
 .
 h
 "

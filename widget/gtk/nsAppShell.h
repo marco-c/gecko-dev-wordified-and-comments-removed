@@ -21,7 +21,7 @@ include
 "
 mozilla
 /
-RefPtr
+GRefPtr
 .
 h
 "
@@ -30,7 +30,7 @@ include
 "
 mozilla
 /
-GRefPtr
+RefPtr
 .
 h
 "

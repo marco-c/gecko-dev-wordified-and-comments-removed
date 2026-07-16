@@ -17,14 +17,14 @@ h
 #
 include
 "
-nsLookAndFeel
+nsAppShellSingleton
 .
 h
 "
 #
 include
 "
-nsAppShellSingleton
+nsLookAndFeel
 .
 h
 "

@@ -14,14 +14,14 @@ h
 #
 include
 "
-nsRefPtrHashtable
+nsIDOMWakeLockListener
 .
 h
 "
 #
 include
 "
-nsIDOMWakeLockListener
+nsRefPtrHashtable
 .
 h
 "

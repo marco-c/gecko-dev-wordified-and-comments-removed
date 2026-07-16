@@ -16,14 +16,14 @@ h
 #
 include
 "
-nsTHashMap
+nsIWidget
 .
 h
 "
 #
 include
 "
-nsIWidget
+nsTHashMap
 .
 h
 "

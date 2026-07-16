@@ -7,6 +7,13 @@ mozilla_widget_ThemeDrawing_h
 #
 include
 "
+RetainedDisplayListBuilder
+.
+h
+"
+#
+include
+"
 mozilla
 /
 layers
@@ -34,13 +41,6 @@ mozilla
 layers
 /
 StackingContextHelper
-.
-h
-"
-#
-include
-"
-RetainedDisplayListBuilder
 .
 h
 "

@@ -36,7 +36,7 @@ mozilla
 /
 java
 /
-WebNotificationWrappers
+WebNotificationActionWrappers
 .
 h
 "
@@ -47,7 +47,7 @@ mozilla
 /
 java
 /
-WebNotificationActionWrappers
+WebNotificationWrappers
 .
 h
 "

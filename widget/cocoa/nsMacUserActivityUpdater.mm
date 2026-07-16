@@ -17,6 +17,13 @@ h
 #
 include
 "
+gfxPlatform
+.
+h
+"
+#
+include
+"
 nsCocoaUtils
 .
 h
@@ -25,13 +32,6 @@ h
 include
 "
 nsIBaseWindow
-.
-h
-"
-#
-include
-"
-gfxPlatform
 .
 h
 "

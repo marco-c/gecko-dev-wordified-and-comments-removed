@@ -1,5 +1,12 @@
 #
 include
+"
+JumpListBuilder
+.
+h
+"
+#
+include
 <
 windows
 .
@@ -36,7 +43,7 @@ h
 #
 include
 "
-JumpListBuilder
+WinUtils
 .
 h
 "
@@ -100,13 +107,6 @@ h
 include
 "
 nsServiceManagerUtils
-.
-h
-"
-#
-include
-"
-WinUtils
 .
 h
 "
