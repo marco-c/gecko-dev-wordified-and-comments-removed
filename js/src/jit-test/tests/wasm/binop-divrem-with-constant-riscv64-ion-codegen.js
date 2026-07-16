@@ -4,7 +4,6 @@ WasmTrapIns
 csrwi
 csr_cycle
 0x6
-ebreak
 ;
 const
 i32_div_s
@@ -103,7 +102,7 @@ t4
 bne
 a0
 t4
-12
+8
 -
 >
 0x
@@ -960,7 +959,7 @@ t4
 bne
 a0
 t4
-12
+8
 -
 >
 0x

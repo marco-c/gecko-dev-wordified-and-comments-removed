@@ -13446,13 +13446,11 @@ AutoForbidPoolsAndNops
 afp
 (
 this
-2
+1
 )
 ;
 FaultingCodeOffset
 fco
-=
-FaultingCodeOffset
 (
 currentOffset
 (
@@ -13462,10 +13460,6 @@ currentOffset
 illegal_trap
 (
 kWasmTrapCode
-)
-;
-ebreak
-(
 )
 ;
 return
