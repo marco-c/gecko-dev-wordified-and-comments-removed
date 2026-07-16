@@ -66,6 +66,11 @@ Sidebar
 js
 "
 "
+SidebarFixedItem
+.
+js
+"
+"
 SidebarItem
 .
 js
