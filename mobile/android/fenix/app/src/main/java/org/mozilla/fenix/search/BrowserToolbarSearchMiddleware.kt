@@ -3720,11 +3720,11 @@ ActionButtonRes
 (
 drawableResId
 =
-R
+iconsR
 .
 drawable
 .
-ic_logo_google_lens_24
+mozac_ic_logo_google_lens_24
 contentDescription
 =
 R
