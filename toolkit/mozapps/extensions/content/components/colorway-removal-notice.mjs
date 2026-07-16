@@ -451,7 +451,6 @@ collection
 {
 openAmoInTab
 (
-this
 "
 collections
 /
@@ -459,6 +458,17 @@ collections
 /
 colorways
 "
+{
+utmContent
+:
+"
+colorway
+-
+removal
+-
+notice
+"
+}
 )
 ;
 }
