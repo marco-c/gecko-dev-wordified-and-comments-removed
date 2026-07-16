@@ -226,7 +226,7 @@ stub
 (
 bs
 "
-getBackupFileInfo
+loadBackupFileInfo
 "
 )
 .
@@ -1183,7 +1183,7 @@ stub
 (
 bs
 "
-getBackupFileInfo
+loadBackupFileInfo
 "
 )
 .

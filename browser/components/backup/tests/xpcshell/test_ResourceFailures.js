@@ -502,7 +502,7 @@ createBackupTestRecoveredProfile
 await
 bs
 .
-getBackupFileInfo
+loadBackupFileInfo
 (
 backupFilePath
 )

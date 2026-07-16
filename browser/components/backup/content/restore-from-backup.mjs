@@ -956,7 +956,6 @@ SelectNewFilepickerPath
 {
 let
 {
-path
 iconURL
 }
 =
@@ -1236,7 +1235,6 @@ this
 .
 getBackupFileInfo
 (
-path
 )
 ;
 }
@@ -1359,17 +1357,11 @@ backupFileToRestore
 }
 getBackupFileInfo
 (
-pathToFile
-=
-null
 )
 {
 let
 backupFile
 =
-pathToFile
-|
-|
 this
 .
 backupServiceState
@@ -1422,11 +1414,6 @@ true
 composed
 :
 true
-detail
-:
-{
-backupFile
-}
 }
 )
 )
