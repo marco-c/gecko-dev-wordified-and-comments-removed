@@ -5238,7 +5238,7 @@ this
 .
 shellService
 .
-isCurrentAppPinnedToTaskbarAsync
+isCurrentAppPinnedToTaskbar
 (
 privateBrowsing
 ?
@@ -5405,7 +5405,7 @@ this
 .
 shellService
 .
-pinCurrentAppToTaskbarAsync
+pinCurrentAppToTaskbar
 (
 privateBrowsing
 fireAndForget
@@ -5525,7 +5525,7 @@ this
 .
 shellService
 .
-pinCurrentAppToStartMenuAsync
+pinCurrentAppToStartMenu
 (
 )
 ;
@@ -5558,7 +5558,7 @@ warn
 Error
 thrown
 during
-pinCurrentAppToStartMenuAsync
+pinCurrentAppToStartMenu
 "
 err
 )
@@ -5760,7 +5760,7 @@ this
 .
 shellService
 .
-isCurrentAppPinnedToStartMenuAsync
+isCurrentAppPinnedToStartMenu
 (
 )
 )
@@ -5858,7 +5858,7 @@ this
 .
 shellService
 .
-isCurrentAppPinnedToStartMenuAsync
+isCurrentAppPinnedToStartMenu
 (
 )
 ;

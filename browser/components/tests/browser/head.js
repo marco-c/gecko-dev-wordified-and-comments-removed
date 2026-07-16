@@ -248,7 +248,7 @@ this
 isPinned
 ;
 }
-isCurrentAppPinnedToTaskbarAsync
+isCurrentAppPinnedToTaskbar
 (
 )
 {
@@ -263,7 +263,7 @@ isPinned
 )
 ;
 }
-isCurrentAppPinnedToStartMenuAsync
+isCurrentAppPinnedToStartMenu
 (
 )
 {
@@ -317,10 +317,10 @@ this
 ensureAppIsPinnedToDock
 :
 sharedPinStub
-pinCurrentAppToTaskbarAsync
+pinCurrentAppToTaskbar
 :
 sharedPinStub
-pinCurrentAppToStartMenuAsync
+pinCurrentAppToStartMenu
 :
 startMenuPinStub
 setAsDefault

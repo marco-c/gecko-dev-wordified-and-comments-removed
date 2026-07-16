@@ -10142,7 +10142,7 @@ shortcutPath
 }
 static
 nsresult
-PinCurrentAppToTaskbarAsyncImpl
+PinCurrentAppToTaskbarImpl
 (
 bool
 aPrivateBrowsing
@@ -10435,7 +10435,7 @@ Promise
 >
 (
 "
-PinCurrentAppToTaskbarAsyncImpl
+PinCurrentAppToTaskbarImpl
 promise
 "
 promise
@@ -10446,7 +10446,7 @@ NS_DispatchBackgroundTask
 NS_NewRunnableFunction
 (
 "
-PinCurrentAppToTaskbarAsyncImpl
+PinCurrentAppToTaskbarImpl
 "
 [
 aPrivateBrowsing
@@ -10515,7 +10515,7 @@ NS_DispatchToMainThread
 NS_NewRunnableFunction
 (
 "
-PinCurrentAppToTaskbarAsyncImpl
+PinCurrentAppToTaskbarImpl
 callback
 "
 [
@@ -10622,7 +10622,7 @@ NS_IMETHODIMP
 nsWindowsShellService
 :
 :
-PinCurrentAppToTaskbarAsync
+PinCurrentAppToTaskbar
 (
 bool
 aPrivateBrowsing
@@ -10641,7 +10641,7 @@ aPromise
 )
 {
 return
-PinCurrentAppToTaskbarAsyncImpl
+PinCurrentAppToTaskbarImpl
 (
 aPrivateBrowsing
 aCx
@@ -10680,7 +10680,7 @@ NS_IMETHODIMP
 nsWindowsShellService
 :
 :
-IsCurrentAppPinnedToTaskbarAsync
+IsCurrentAppPinnedToTaskbar
 (
 const
 nsAString
@@ -10775,7 +10775,7 @@ Promise
 >
 (
 "
-IsCurrentAppPinnedToTaskbarAsync
+IsCurrentAppPinnedToTaskbar
 promise
 "
 promise
@@ -10792,7 +10792,7 @@ NS_DispatchBackgroundTask
 NS_NewRunnableFunction
 (
 "
-IsCurrentAppPinnedToTaskbarAsync
+IsCurrentAppPinnedToTaskbar
 "
 [
 capturedAumid
@@ -10820,7 +10820,7 @@ NS_DispatchToMainThread
 NS_NewRunnableFunction
 (
 "
-IsCurrentAppPinnedToTaskbarAsync
+IsCurrentAppPinnedToTaskbar
 callback
 "
 [
@@ -10977,7 +10977,7 @@ return
 RETURN
 static
 void
-EnableLaunchOnLoginMSIXAsyncImpl
+EnableLaunchOnLoginMSIXImpl
 (
 const
 nsString
@@ -11350,7 +11350,7 @@ NS_ERROR_FAILURE
 }
 static
 void
-DisableLaunchOnLoginMSIXAsyncImpl
+DisableLaunchOnLoginMSIXImpl
 (
 const
 nsString
@@ -11608,7 +11608,7 @@ NS_ERROR_FAILURE
 }
 static
 void
-GetLaunchOnLoginEnabledMSIXAsyncImpl
+GetLaunchOnLoginEnabledMSIXImpl
 (
 const
 nsString
@@ -11944,7 +11944,7 @@ NS_IMETHODIMP
 nsWindowsShellService
 :
 :
-EnableLaunchOnLoginMSIXAsync
+EnableLaunchOnLoginMSIX
 (
 const
 nsAString
@@ -12057,7 +12057,7 @@ Promise
 >
 (
 "
-EnableLaunchOnLoginMSIXAsync
+EnableLaunchOnLoginMSIX
 promise
 "
 promise
@@ -12068,7 +12068,7 @@ NS_DispatchBackgroundTask
 NS_NewRunnableFunction
 (
 "
-EnableLaunchOnLoginMSIXAsync
+EnableLaunchOnLoginMSIX
 "
 [
 taskId
@@ -12080,7 +12080,7 @@ aTaskId
 promiseHolder
 ]
 {
-EnableLaunchOnLoginMSIXAsyncImpl
+EnableLaunchOnLoginMSIXImpl
 (
 taskId
 promiseHolder
@@ -12105,7 +12105,7 @@ NS_IMETHODIMP
 nsWindowsShellService
 :
 :
-DisableLaunchOnLoginMSIXAsync
+DisableLaunchOnLoginMSIX
 (
 const
 nsAString
@@ -12218,7 +12218,7 @@ Promise
 >
 (
 "
-DisableLaunchOnLoginMSIXAsync
+DisableLaunchOnLoginMSIX
 promise
 "
 promise
@@ -12229,7 +12229,7 @@ NS_DispatchBackgroundTask
 NS_NewRunnableFunction
 (
 "
-DisableLaunchOnLoginMSIXAsync
+DisableLaunchOnLoginMSIX
 "
 [
 taskId
@@ -12241,7 +12241,7 @@ aTaskId
 promiseHolder
 ]
 {
-DisableLaunchOnLoginMSIXAsyncImpl
+DisableLaunchOnLoginMSIXImpl
 (
 taskId
 promiseHolder
@@ -12266,7 +12266,7 @@ NS_IMETHODIMP
 nsWindowsShellService
 :
 :
-GetLaunchOnLoginEnabledMSIXAsync
+GetLaunchOnLoginEnabledMSIX
 (
 const
 nsAString
@@ -12379,7 +12379,7 @@ Promise
 >
 (
 "
-GetLaunchOnLoginEnabledMSIXAsync
+GetLaunchOnLoginEnabledMSIX
 promise
 "
 promise
@@ -12390,7 +12390,7 @@ NS_DispatchBackgroundTask
 NS_NewRunnableFunction
 (
 "
-GetLaunchOnLoginEnabledMSIXAsync
+GetLaunchOnLoginEnabledMSIX
 "
 [
 taskId
@@ -12402,7 +12402,7 @@ aTaskId
 promiseHolder
 ]
 {
-GetLaunchOnLoginEnabledMSIXAsyncImpl
+GetLaunchOnLoginEnabledMSIXImpl
 (
 taskId
 promiseHolder
@@ -12640,7 +12640,7 @@ hr
 }
 static
 void
-PinCurrentAppToStartMenuAsyncImpl
+PinCurrentAppToStartMenuImpl
 (
 const
 RefPtr
@@ -13223,7 +13223,7 @@ NS_IMETHODIMP
 nsWindowsShellService
 :
 :
-PinCurrentAppToStartMenuAsync
+PinCurrentAppToStartMenu
 (
 JSContext
 *
@@ -13332,7 +13332,7 @@ Promise
 >
 (
 "
-PinCurrentAppToStartMenuAsync
+PinCurrentAppToStartMenu
 promise
 "
 promise
@@ -13343,13 +13343,13 @@ NS_DispatchBackgroundTask
 NS_NewRunnableFunction
 (
 "
-PinCurrentAppToStartMenuAsync
+PinCurrentAppToStartMenu
 "
 [
 promiseHolder
 ]
 {
-PinCurrentAppToStartMenuAsyncImpl
+PinCurrentAppToStartMenuImpl
 (
 promiseHolder
 )
@@ -13371,7 +13371,7 @@ NS_OK
 }
 static
 void
-IsCurrentAppPinnedToStartMenuAsyncImpl
+IsCurrentAppPinnedToStartMenuImpl
 (
 const
 RefPtr
@@ -13803,7 +13803,7 @@ NS_IMETHODIMP
 nsWindowsShellService
 :
 :
-IsCurrentAppPinnedToStartMenuAsync
+IsCurrentAppPinnedToStartMenu
 (
 JSContext
 *
@@ -13912,7 +13912,7 @@ Promise
 >
 (
 "
-IsCurrentAppPinnedToStartMenuAsync
+IsCurrentAppPinnedToStartMenu
 promise
 "
 promise
@@ -13923,13 +13923,13 @@ NS_DispatchBackgroundTask
 NS_NewRunnableFunction
 (
 "
-IsCurrentAppPinnedToStartMenuAsync
+IsCurrentAppPinnedToStartMenu
 "
 [
 promiseHolder
 ]
 {
-IsCurrentAppPinnedToStartMenuAsyncImpl
+IsCurrentAppPinnedToStartMenuImpl
 (
 promiseHolder
 )
@@ -13955,7 +13955,7 @@ NS_IMETHODIMP
 nsWindowsShellService
 :
 :
-EnableLaunchOnLoginMSIXAsync
+EnableLaunchOnLoginMSIX
 (
 const
 nsAString
@@ -13981,7 +13981,7 @@ NS_IMETHODIMP
 nsWindowsShellService
 :
 :
-DisableLaunchOnLoginMSIXAsync
+DisableLaunchOnLoginMSIX
 (
 const
 nsAString
@@ -14007,7 +14007,7 @@ NS_IMETHODIMP
 nsWindowsShellService
 :
 :
-GetLaunchOnLoginEnabledMSIXAsync
+GetLaunchOnLoginEnabledMSIX
 (
 const
 nsAString
@@ -14033,7 +14033,7 @@ NS_IMETHODIMP
 nsWindowsShellService
 :
 :
-PinCurrentAppToStartMenuAsync
+PinCurrentAppToStartMenu
 (
 JSContext
 *
@@ -14055,7 +14055,7 @@ NS_IMETHODIMP
 nsWindowsShellService
 :
 :
-IsCurrentAppPinnedToStartMenuAsync
+IsCurrentAppPinnedToStartMenu
 (
 JSContext
 *

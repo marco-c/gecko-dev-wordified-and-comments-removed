@@ -2943,7 +2943,7 @@ set
 await
 shellService
 .
-isCurrentAppPinnedToTaskbarAsync
+isCurrentAppPinnedToTaskbar
 (
 winTaskbar
 .
@@ -3011,7 +3011,7 @@ set
 await
 shellService
 .
-isCurrentAppPinnedToTaskbarAsync
+isCurrentAppPinnedToTaskbar
 (
 winTaskbar
 .
