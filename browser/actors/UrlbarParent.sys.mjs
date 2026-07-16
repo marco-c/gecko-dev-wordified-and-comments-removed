@@ -455,7 +455,16 @@ lazy
 UrlbarParentController
 (
 {
+sapName
+:
 input
+.
+sapName
+isPrivate
+:
+input
+.
+isPrivate
 }
 )
 ;
