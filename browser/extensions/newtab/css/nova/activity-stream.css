@@ -21160,9 +21160,9 @@ pin
 -
 placeholder
 {
-visibility
+opacity
 :
-hidden
+0
 ;
 }
 .
@@ -21180,9 +21180,9 @@ placeholder
 .
 over
 {
-visibility
+opacity
 :
-visible
+1
 ;
 }
 .
