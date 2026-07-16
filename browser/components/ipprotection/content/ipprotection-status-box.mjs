@@ -446,6 +446,13 @@ id
 "
 title
 "
+class
+=
+"
+heading
+-
+xlarge
+"
 data
 -
 l10n
