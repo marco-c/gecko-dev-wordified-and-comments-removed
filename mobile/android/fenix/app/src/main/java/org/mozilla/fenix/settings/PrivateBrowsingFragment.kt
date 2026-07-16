@@ -271,7 +271,7 @@ biometric
 .
 ext
 .
-isHardwareAvailable
+isDeviceLockCapable
 /
 *
 *
@@ -449,7 +449,7 @@ deviceCapable
 =
 biometricManager
 .
-isHardwareAvailable
+isDeviceLockCapable
 (
 )
 val
