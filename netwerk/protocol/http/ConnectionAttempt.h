@@ -200,6 +200,16 @@ return
 mHasConnected
 ;
 }
+void
+ForgetRealTransaction
+(
+)
+{
+mTransaction
+=
+nullptr
+;
+}
 protected
 :
 virtual
