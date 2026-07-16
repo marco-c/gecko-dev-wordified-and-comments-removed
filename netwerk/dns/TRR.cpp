@@ -1069,6 +1069,10 @@ Get
 IsExcludedFromTRR
 (
 mHost
+mRec
+-
+>
+mEffectiveTRRMode
 )
 )
 {
@@ -2143,7 +2147,6 @@ streamLength
 POST
 "
 _ns
-false
 )
 ;
 NS_ENSURE_SUCCESS

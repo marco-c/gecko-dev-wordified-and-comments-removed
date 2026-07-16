@@ -3404,7 +3404,6 @@ nsDependentCString
 (
 methodStr
 )
-false
 )
 ;
 if

@@ -1097,11 +1097,6 @@ uploadStream
 )
 a
 .
-uploadStreamHasHeaders
-(
-)
-a
-.
 priority
 (
 )
@@ -2416,10 +2411,6 @@ IPCStream
 &
 uploadStream
 const
-bool
-&
-uploadStreamHasHeaders
-const
 int16_t
 &
 priority
@@ -3354,14 +3345,6 @@ rv
 )
 ;
 }
-httpChannel
--
->
-SetUploadStreamHasHeaders
-(
-uploadStreamHasHeaders
-)
-;
 }
 nsCOMPtr
 <

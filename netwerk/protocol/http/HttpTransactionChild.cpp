@@ -328,8 +328,6 @@ nsIInputStream
 requestBody
 uint64_t
 requestContentLength
-bool
-requestBodyHasHeaders
 uint64_t
 browserId
 HttpTrafficCategory
@@ -493,7 +491,6 @@ cinfo
 requestHead
 requestBody
 requestContentLength
-requestBodyHasHeaders
 GetCurrentSerialEventTarget
 (
 )
@@ -793,10 +790,6 @@ uint64_t
 &
 aReqContentLength
 const
-bool
-&
-aReqBodyIncludesHeaders
-const
 uint64_t
 &
 aTopLevelOuterContentWindowId
@@ -946,7 +939,6 @@ aArgs
 mRequestHead
 mUploadStream
 aReqContentLength
-aReqBodyIncludesHeaders
 aTopLevelOuterContentWindowId
 aHttpTrafficCategory
 aRequestContextID

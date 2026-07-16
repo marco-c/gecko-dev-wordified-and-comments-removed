@@ -435,8 +435,6 @@ IPCStream
 requestBody
 uint64_t
 reqContentLength
-bool
-reqBodyIncludesHeaders
 uint64_t
 topLevelOuterContentWindowId
 HttpTrafficCategory

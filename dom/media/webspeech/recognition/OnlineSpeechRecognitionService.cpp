@@ -2200,7 +2200,6 @@ length
 POST
 "
 _ns
-false
 )
 ;
 MOZ_RELEASE_ASSERT

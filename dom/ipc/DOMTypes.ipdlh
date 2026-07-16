@@ -1451,9 +1451,6 @@ uploadStream
 uint64_t
 uploadStreamLength
 ;
-bool
-uploadStreamHasHeaders
-;
 nsCString
 ?
 contentType

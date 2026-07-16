@@ -11317,9 +11317,6 @@ mConnectionInfo
 mRequestHead
 mUploadStream
 mReqContentLength
-LoadUploadStreamHasHeaders
-(
-)
 GetCurrentSerialEventTarget
 (
 )

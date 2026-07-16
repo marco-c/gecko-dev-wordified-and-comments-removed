@@ -525,10 +525,6 @@ IPCStream
 &
 uploadStream
 const
-bool
-&
-uploadStreamHasHeaders
-const
 int16_t
 &
 priority

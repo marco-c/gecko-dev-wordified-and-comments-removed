@@ -955,7 +955,6 @@ Length
 POST
 "
 _ns
-false
 )
 ;
 nsCOMPtr
@@ -1009,13 +1008,12 @@ loadGroup
 )
 ;
 RefPtr
+pingListener
+=
+MakeRefPtr
 <
 nsPingListener
 >
-pingListener
-=
-new
-nsPingListener
 (
 )
 ;

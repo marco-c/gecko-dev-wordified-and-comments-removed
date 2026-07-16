@@ -3915,7 +3915,6 @@ bodyStream
 contentType
 bodyLength
 method
-false
 )
 ;
 NS_ENSURE_SUCCESS
