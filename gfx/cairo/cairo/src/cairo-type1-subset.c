@@ -4735,6 +4735,17 @@ ps_stack
 sp
 <
 1
+|
+|
+font
+-
+>
+build_stack
+.
+sp
+>
+=
+TYPE1_STACKSIZE
 )
 {
 status
