@@ -972,6 +972,8 @@ editing
 {
 .
 change
+.
+currentShortcut
 {
 display
 :
@@ -990,6 +992,12 @@ text
 wrap
 :
 nowrap
+;
+flex
+:
+1
+1
+auto
 ;
 }
 }
