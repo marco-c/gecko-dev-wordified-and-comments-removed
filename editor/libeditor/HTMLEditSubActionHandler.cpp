@@ -3054,7 +3054,7 @@ Clear
 if
 (
 !
-GetEditActionEditContext
+GetEditContext
 (
 )
 )
@@ -4181,7 +4181,7 @@ NS_OK
 }
 if
 (
-GetEditActionEditContext
+GetEditContext
 (
 )
 )
@@ -4934,7 +4934,7 @@ if
 RefPtr
 editContext
 =
-GetEditActionEditContext
+GetEditContext
 (
 )
 )
@@ -5076,7 +5076,10 @@ NS_ERROR_EDITOR_DESTROYED
 }
 if
 (
-EditContextChangedSinceStartOfEditAction
+editContext
+!
+=
+GetEditContext
 (
 )
 )

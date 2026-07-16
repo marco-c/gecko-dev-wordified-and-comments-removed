@@ -408,7 +408,7 @@ result
 }
 if
 (
-GetEditActionEditContext
+GetEditContext
 (
 )
 )

@@ -1964,16 +1964,9 @@ return
 }
 if
 (
-(
 !
 GetTopLevelEditSubAction
 (
-)
-|
-|
-IsFiringTextUpdate
-(
-)
 )
 &
 &
@@ -2169,7 +2162,7 @@ rvIgnored
 mInlineSpellChecker
 -
 >
-SpellCheckRangeIgnoringWordAtCaret
+SpellCheckRange
 (
 range
 )
@@ -2471,7 +2464,6 @@ IsEditable
 )
 |
 |
-(
 GetTopLevelEditSubAction
 (
 )
@@ -2481,13 +2473,6 @@ EditSubAction
 :
 :
 eNone
-&
-&
-!
-IsFiringTextUpdate
-(
-)
-)
 )
 {
 return
@@ -2556,7 +2541,7 @@ rvIgnored
 mInlineSpellChecker
 -
 >
-SpellCheckRangeIgnoringWordAtCaret
+SpellCheckRange
 (
 range
 )

@@ -39,13 +39,6 @@ html
 ]
 [
 "
-test_editcontext_empty_text_node
-.
-html
-"
-]
-[
-"
 test_editcontext_format_commands
 .
 html
@@ -72,13 +65,6 @@ files
 [
 "
 file_editcontext_resist_fingerprinting
-.
-html
-"
-]
-[
-"
-test_editcontext_spellcheck
 .
 html
 "

@@ -1715,7 +1715,7 @@ NS_OK
 }
 if
 (
-ComputeEditContext
+GetEditContext
 (
 )
 )
