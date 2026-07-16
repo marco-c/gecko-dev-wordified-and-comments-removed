@@ -1142,6 +1142,9 @@ AwaitingAuthorization
 AccountStatus
 .
 AwaitingEnrollment
+AccountStatus
+.
+EnrolledAndEntitled
 -
 >
 state
@@ -1157,9 +1160,6 @@ NeedsAuthorization
 AccountStatus
 .
 Authenticated
-AccountStatus
-.
-EnrolledAndEntitled
 -
 >
 {
