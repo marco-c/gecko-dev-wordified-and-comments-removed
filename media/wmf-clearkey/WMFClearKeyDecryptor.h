@@ -14,6 +14,11 @@ h
 #
 include
 <
+mutex
+>
+#
+include
+<
 windows
 .
 h
@@ -24,11 +29,6 @@ include
 wrl
 .
 h
->
-#
-include
-<
-mutex
 >
 #
 include
