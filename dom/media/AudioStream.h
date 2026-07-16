@@ -228,6 +228,11 @@ uint32_t
 aInRate
 )
 ;
+~
+AudioClock
+(
+)
+;
 void
 UpdateFrameHistory
 (
@@ -237,6 +242,13 @@ uint32_t
 aUnderrun
 bool
 aAudioThreadChanged
+)
+;
+void
+Rebase
+(
+int64_t
+aBaseOffset
 )
 ;
 int64_t

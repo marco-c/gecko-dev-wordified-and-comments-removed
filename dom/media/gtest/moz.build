@@ -212,6 +212,11 @@ TestAudioCallbackDriver
 cpp
 "
 "
+TestAudioClock
+.
+cpp
+"
+"
 TestAudioCompactor
 .
 cpp
