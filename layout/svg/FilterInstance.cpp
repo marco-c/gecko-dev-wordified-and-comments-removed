@@ -1674,6 +1674,7 @@ width
 stdDev
 .
 height
+true
 )
 )
 ;

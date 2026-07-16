@@ -1043,7 +1043,7 @@ return
 }
 self
 .
-add_nonshadowable_primitive
+add_primitive
 (
 spatial_node_index
 clip_node_id
@@ -1156,7 +1156,7 @@ return
 }
 self
 .
-add_nonshadowable_primitive
+add_primitive
 (
 spatial_node_index
 clip_node_id
