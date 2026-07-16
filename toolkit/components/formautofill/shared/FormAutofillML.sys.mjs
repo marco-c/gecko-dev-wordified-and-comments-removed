@@ -157,11 +157,6 @@ best
 -
 onnx
 "
-modelRevision
-:
-"
-main
-"
 modelId
 :
 "
