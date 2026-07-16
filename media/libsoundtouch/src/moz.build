@@ -123,6 +123,15 @@ LOCAL_INCLUDES
 [
 "
 /
+config
+/
+external
+/
+rlbox_wasm2c_sandbox
+/
+"
+"
+/
 third_party
 /
 simde
@@ -327,7 +336,7 @@ False
 DEFINES
 [
 "
-WASM_RT_GROW_FAILED_CRASH
+WASM_RT_GROW_FAILED_CRASH_OR_REDIRECT
 "
 ]
 =

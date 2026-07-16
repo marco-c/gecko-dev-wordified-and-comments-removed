@@ -1955,6 +1955,15 @@ caps
 "
 "
 /
+config
+/
+external
+/
+rlbox_wasm2c_sandbox
+/
+"
+"
+/
 docshell
 /
 base
