@@ -7733,6 +7733,12 @@ Cancel
 ;
 }
 }
+mFetchingModules
+.
+Clear
+(
+)
+;
 }
 void
 ModuleLoaderBase
