@@ -7168,7 +7168,7 @@ FieldIndex
 IDX_BrowserId
 >
 const
-uint32_t
+uint64_t
 &
 aValue
 ContentParent
@@ -7718,12 +7718,6 @@ RefPtr
 nsGeolocationService
 >
 mGeolocationServiceOverride
-;
-JS
-:
-:
-UniqueChars
-mDefaultLocale
 ;
 JS
 :
