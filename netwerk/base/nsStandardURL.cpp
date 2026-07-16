@@ -19157,7 +19157,9 @@ mQuery
 .
 mPos
 >
-0
+mPath
+.
+mPos
 &
 &
 mSpec
@@ -19195,7 +19197,9 @@ mRef
 .
 mPos
 >
-0
+mPath
+.
+mPos
 &
 &
 mSpec
