@@ -10600,7 +10600,7 @@ if
 aDocument
 -
 >
-IsBeingUsedAsImage
+IsResourceDoc
 (
 )
 |
