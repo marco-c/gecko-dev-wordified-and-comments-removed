@@ -4624,6 +4624,17 @@ to
 "
 share_image
 "
+"
+fenix
+.
+contextmenu
+.
+open_with_google_lens
+"
+to
+"
+open_with_google_lens
+"
 )
 }
 }
