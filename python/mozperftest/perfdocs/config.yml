@@ -497,6 +497,14 @@ js
 "
 "
 "
+browser_ml_llama_smollm2_smoke
+.
+js
+"
+:
+"
+"
+"
 browser_ml_llama_summarizer_perf
 .
 js
