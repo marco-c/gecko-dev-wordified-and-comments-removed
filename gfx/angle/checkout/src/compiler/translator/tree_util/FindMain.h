@@ -18,9 +18,6 @@ TIntermBlock
 class
 TIntermFunctionDefinition
 ;
-class
-TIntermFunctionPrototype
-;
 size_t
 FindMainIndex
 (
@@ -32,15 +29,6 @@ root
 TIntermFunctionDefinition
 *
 FindMain
-(
-TIntermBlock
-*
-root
-)
-;
-TIntermFunctionPrototype
-*
-FindMainPrototype
 (
 TIntermBlock
 *

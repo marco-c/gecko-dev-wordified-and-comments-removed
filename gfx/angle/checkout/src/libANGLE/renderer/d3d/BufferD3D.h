@@ -137,9 +137,6 @@ gl
 Context
 *
 context
-BufferFeedback
-*
-feedback
 )
 =
 0
@@ -204,9 +201,6 @@ gl
 Context
 *
 context
-BufferFeedback
-*
-feedback
 )
 ;
 virtual
@@ -220,9 +214,6 @@ gl
 Context
 *
 context
-BufferFeedback
-*
-feedback
 )
 ;
 void
@@ -237,9 +228,6 @@ Context
 context
 size_t
 dataSize
-BufferFeedback
-*
-feedback
 )
 ;
 angle
@@ -318,9 +306,6 @@ gl
 :
 BufferUsage
 usage
-BufferFeedback
-*
-feedback
 )
 ;
 void

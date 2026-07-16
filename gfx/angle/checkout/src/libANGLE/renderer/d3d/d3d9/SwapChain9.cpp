@@ -251,8 +251,10 @@ interval
 {
 #
 if
-!
 ANGLE_VSYNC
+=
+=
+ANGLE_DISABLED
 return
 D3DPRESENT_INTERVAL_IMMEDIATE
 ;
@@ -1885,9 +1887,8 @@ return
 egl
 :
 :
-Error
+EglBadSurface
 (
-EGL_BAD_SURFACE
 )
 ;
 }

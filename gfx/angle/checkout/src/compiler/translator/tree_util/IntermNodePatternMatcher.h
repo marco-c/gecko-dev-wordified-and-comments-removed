@@ -105,6 +105,12 @@ kArrayLengthMethod
 <
 <
 6u
+kScalarizedVecOrMatConstructor
+=
+1u
+<
+<
+7u
 }
 ;
 IntermNodePatternMatcher

@@ -33,9 +33,6 @@ namespace
 egl
 {
 class
-AttributeMap
-;
-class
 Display
 ;
 }
@@ -108,13 +105,6 @@ Context
 context
 EGLenum
 type
-const
-egl
-:
-:
-AttributeMap
-&
-attribs
 )
 =
 0

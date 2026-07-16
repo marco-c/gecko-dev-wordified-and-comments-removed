@@ -160,6 +160,7 @@ const
 Context
 *
 context
+const
 Program
 *
 program
@@ -175,6 +176,7 @@ const
 Context
 *
 context
+const
 Program
 *
 program
@@ -228,12 +230,6 @@ BlobCache
 Key
 *
 hashOut
-egl
-:
-:
-CacheGetResult
-*
-resultOut
 )
 ;
 void

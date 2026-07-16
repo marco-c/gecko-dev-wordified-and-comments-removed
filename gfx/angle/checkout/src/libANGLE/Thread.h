@@ -42,6 +42,14 @@ gUseAndroidOpenGLTlsSlot
 ;
 #
 endif
+void
+PthreadKeyDestructorCallback
+(
+void
+*
+ptr
+)
+;
 }
 namespace
 gl

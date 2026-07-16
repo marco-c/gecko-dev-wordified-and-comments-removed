@@ -1,11 +1,3 @@
-#
-ifdef
-UNSAFE_BUFFERS_BUILD
-#
-pragma
-allow_unsafe_buffers
-#
-endif
 namespace
 rx
 {
@@ -1571,9 +1563,10 @@ static_cast
 outputType
 >
 (
-1
-.
-0f
+gl
+:
+:
+Float32One
 )
 ;
 }

@@ -5,14 +5,6 @@ COMPILER_PREPROCESSOR_INPUT_H_
 define
 COMPILER_PREPROCESSOR_INPUT_H_
 #
-ifdef
-UNSAFE_BUFFERS_BUILD
-#
-pragma
-allow_unsafe_buffers
-#
-endif
-#
 include
 <
 cstddef

@@ -40,8 +40,6 @@ TIntermBlock
 *
 root
 float
-minPointSize
-float
 maxPointSize
 TSymbolTable
 *

@@ -24,20 +24,6 @@ FrameCapture
 .
 h
 "
-#
-ifdef
-ANGLE_ENABLE_CL
-#
-include
-"
-common
-/
-PackedCLEnums_autogen
-.
-h
-"
-#
-endif
 namespace
 gl
 {
@@ -493,7 +479,7 @@ GLenum
 pname
 GLfixed
 *
-data
+params
 )
 ;
 angle
@@ -1739,6 +1725,8 @@ const
 State
 &
 glState
+bool
+isCallValid
 GLenum
 p
 const
@@ -1760,6 +1748,8 @@ const
 State
 &
 glState
+bool
+isCallValid
 GLenum
 plane
 const
@@ -1781,6 +1771,8 @@ const
 State
 &
 glState
+bool
+isCallValid
 GLint
 size
 VertexAttribType
@@ -1806,6 +1798,8 @@ const
 State
 &
 glState
+bool
+isCallValid
 GLenum
 pname
 const
@@ -1827,6 +1821,8 @@ const
 State
 &
 glState
+bool
+isCallValid
 GLenum
 pname
 const
@@ -1848,6 +1844,8 @@ const
 State
 &
 glState
+bool
+isCallValid
 GLenum
 plane
 GLfloat
@@ -1868,6 +1866,8 @@ const
 State
 &
 glState
+bool
+isCallValid
 GLenum
 plane
 GLfixed
@@ -1882,17 +1882,19 @@ paramCapture
 )
 ;
 void
-CaptureGetFixedv_data
+CaptureGetFixedv_params
 (
 const
 State
 &
 glState
+bool
+isCallValid
 GLenum
 pname
 GLfixed
 *
-data
+params
 angle
 :
 :
@@ -1908,6 +1910,8 @@ const
 State
 &
 glState
+bool
+isCallValid
 GLenum
 light
 LightParameter
@@ -1930,6 +1934,8 @@ const
 State
 &
 glState
+bool
+isCallValid
 GLenum
 light
 LightParameter
@@ -1952,6 +1958,8 @@ const
 State
 &
 glState
+bool
+isCallValid
 GLenum
 face
 MaterialParameter
@@ -1974,6 +1982,8 @@ const
 State
 &
 glState
+bool
+isCallValid
 GLenum
 face
 MaterialParameter
@@ -1996,6 +2006,8 @@ const
 State
 &
 glState
+bool
+isCallValid
 TextureEnvTarget
 targetPacked
 TextureEnvParameter
@@ -2018,6 +2030,8 @@ const
 State
 &
 glState
+bool
+isCallValid
 TextureEnvTarget
 targetPacked
 TextureEnvParameter
@@ -2040,6 +2054,8 @@ const
 State
 &
 glState
+bool
+isCallValid
 TextureEnvTarget
 targetPacked
 TextureEnvParameter
@@ -2062,6 +2078,8 @@ const
 State
 &
 glState
+bool
+isCallValid
 TextureType
 targetPacked
 GLenum
@@ -2084,6 +2102,8 @@ const
 State
 &
 glState
+bool
+isCallValid
 GLenum
 pname
 const
@@ -2105,6 +2125,8 @@ const
 State
 &
 glState
+bool
+isCallValid
 GLenum
 pname
 const
@@ -2126,6 +2148,8 @@ const
 State
 &
 glState
+bool
+isCallValid
 GLenum
 light
 LightParameter
@@ -2149,6 +2173,8 @@ const
 State
 &
 glState
+bool
+isCallValid
 GLenum
 light
 LightParameter
@@ -2172,6 +2198,8 @@ const
 State
 &
 glState
+bool
+isCallValid
 const
 GLfloat
 *
@@ -2191,6 +2219,8 @@ const
 State
 &
 glState
+bool
+isCallValid
 const
 GLfixed
 *
@@ -2210,6 +2240,8 @@ const
 State
 &
 glState
+bool
+isCallValid
 GLenum
 face
 MaterialParameter
@@ -2233,6 +2265,8 @@ const
 State
 &
 glState
+bool
+isCallValid
 GLenum
 face
 MaterialParameter
@@ -2256,6 +2290,8 @@ const
 State
 &
 glState
+bool
+isCallValid
 const
 GLfloat
 *
@@ -2275,6 +2311,8 @@ const
 State
 &
 glState
+bool
+isCallValid
 const
 GLfixed
 *
@@ -2294,6 +2332,8 @@ const
 State
 &
 glState
+bool
+isCallValid
 VertexAttribType
 typePacked
 GLsizei
@@ -2317,6 +2357,8 @@ const
 State
 &
 glState
+bool
+isCallValid
 PointParameter
 pnamePacked
 const
@@ -2338,6 +2380,8 @@ const
 State
 &
 glState
+bool
+isCallValid
 PointParameter
 pnamePacked
 const
@@ -2359,6 +2403,8 @@ const
 State
 &
 glState
+bool
+isCallValid
 GLint
 size
 VertexAttribType
@@ -2384,6 +2430,8 @@ const
 State
 &
 glState
+bool
+isCallValid
 TextureEnvTarget
 targetPacked
 TextureEnvParameter
@@ -2407,6 +2455,8 @@ const
 State
 &
 glState
+bool
+isCallValid
 TextureEnvTarget
 targetPacked
 TextureEnvParameter
@@ -2430,6 +2480,8 @@ const
 State
 &
 glState
+bool
+isCallValid
 TextureEnvTarget
 targetPacked
 TextureEnvParameter
@@ -2453,6 +2505,8 @@ const
 State
 &
 glState
+bool
+isCallValid
 TextureType
 targetPacked
 GLenum
@@ -2476,6 +2530,8 @@ const
 State
 &
 glState
+bool
+isCallValid
 GLint
 size
 VertexAttribType

@@ -24,20 +24,6 @@ FrameCapture
 .
 h
 "
-#
-ifdef
-ANGLE_ENABLE_CL
-#
-include
-"
-common
-/
-PackedCLEnums_autogen
-.
-h
-"
-#
-endif
 namespace
 gl
 {
@@ -1228,8 +1214,8 @@ bool
 isCallValid
 BufferBinding
 targetPacked
-BufferParam
-pnamePacked
+GLenum
+pname
 GLint
 *
 params
@@ -1464,8 +1450,8 @@ bool
 isCallValid
 ShaderProgramID
 shaderPacked
-ShaderParameter
-pnamePacked
+GLenum
+pname
 GLint
 *
 params
@@ -2973,6 +2959,8 @@ const
 State
 &
 glState
+bool
+isCallValid
 ShaderProgramID
 programPacked
 GLuint
@@ -2996,6 +2984,8 @@ const
 State
 &
 glState
+bool
+isCallValid
 BufferBinding
 targetPacked
 GLsizeiptr
@@ -3021,6 +3011,8 @@ const
 State
 &
 glState
+bool
+isCallValid
 BufferBinding
 targetPacked
 GLintptr
@@ -3046,6 +3038,8 @@ const
 State
 &
 glState
+bool
+isCallValid
 TextureTarget
 targetPacked
 GLint
@@ -3079,6 +3073,8 @@ const
 State
 &
 glState
+bool
+isCallValid
 TextureTarget
 targetPacked
 GLint
@@ -3114,6 +3110,8 @@ const
 State
 &
 glState
+bool
+isCallValid
 GLsizei
 n
 const
@@ -3135,6 +3133,8 @@ const
 State
 &
 glState
+bool
+isCallValid
 GLsizei
 n
 const
@@ -3156,6 +3156,8 @@ const
 State
 &
 glState
+bool
+isCallValid
 GLsizei
 n
 const
@@ -3177,6 +3179,8 @@ const
 State
 &
 glState
+bool
+isCallValid
 GLsizei
 n
 const
@@ -3198,6 +3202,8 @@ const
 State
 &
 glState
+bool
+isCallValid
 PrimitiveMode
 modePacked
 GLsizei
@@ -3223,6 +3229,8 @@ const
 State
 &
 glState
+bool
+isCallValid
 GLsizei
 n
 BufferID
@@ -3243,6 +3251,8 @@ const
 State
 &
 glState
+bool
+isCallValid
 GLsizei
 n
 FramebufferID
@@ -3263,6 +3273,8 @@ const
 State
 &
 glState
+bool
+isCallValid
 GLsizei
 n
 RenderbufferID
@@ -3283,6 +3295,8 @@ const
 State
 &
 glState
+bool
+isCallValid
 GLsizei
 n
 TextureID
@@ -3303,6 +3317,8 @@ const
 State
 &
 glState
+bool
+isCallValid
 ShaderProgramID
 programPacked
 GLuint
@@ -3336,6 +3352,8 @@ const
 State
 &
 glState
+bool
+isCallValid
 ShaderProgramID
 programPacked
 GLuint
@@ -3369,6 +3387,8 @@ const
 State
 &
 glState
+bool
+isCallValid
 ShaderProgramID
 programPacked
 GLuint
@@ -3402,6 +3422,8 @@ const
 State
 &
 glState
+bool
+isCallValid
 ShaderProgramID
 programPacked
 GLuint
@@ -3435,6 +3457,8 @@ const
 State
 &
 glState
+bool
+isCallValid
 ShaderProgramID
 programPacked
 GLuint
@@ -3468,6 +3492,8 @@ const
 State
 &
 glState
+bool
+isCallValid
 ShaderProgramID
 programPacked
 GLuint
@@ -3501,6 +3527,8 @@ const
 State
 &
 glState
+bool
+isCallValid
 ShaderProgramID
 programPacked
 GLuint
@@ -3534,6 +3562,8 @@ const
 State
 &
 glState
+bool
+isCallValid
 ShaderProgramID
 programPacked
 GLuint
@@ -3567,6 +3597,8 @@ const
 State
 &
 glState
+bool
+isCallValid
 ShaderProgramID
 programPacked
 GLsizei
@@ -3592,6 +3624,8 @@ const
 State
 &
 glState
+bool
+isCallValid
 ShaderProgramID
 programPacked
 GLsizei
@@ -3617,6 +3651,8 @@ const
 State
 &
 glState
+bool
+isCallValid
 ShaderProgramID
 programPacked
 const
@@ -3638,6 +3674,8 @@ const
 State
 &
 glState
+bool
+isCallValid
 GLenum
 pname
 GLboolean
@@ -3658,10 +3696,12 @@ const
 State
 &
 glState
+bool
+isCallValid
 BufferBinding
 targetPacked
-BufferParam
-pnamePacked
+GLenum
+pname
 GLint
 *
 params
@@ -3680,6 +3720,8 @@ const
 State
 &
 glState
+bool
+isCallValid
 GLenum
 pname
 GLfloat
@@ -3700,6 +3742,8 @@ const
 State
 &
 glState
+bool
+isCallValid
 GLenum
 target
 GLenum
@@ -3724,6 +3768,8 @@ const
 State
 &
 glState
+bool
+isCallValid
 GLenum
 pname
 GLint
@@ -3744,6 +3790,8 @@ const
 State
 &
 glState
+bool
+isCallValid
 ShaderProgramID
 programPacked
 GLsizei
@@ -3769,6 +3817,8 @@ const
 State
 &
 glState
+bool
+isCallValid
 ShaderProgramID
 programPacked
 GLsizei
@@ -3794,6 +3844,8 @@ const
 State
 &
 glState
+bool
+isCallValid
 ShaderProgramID
 programPacked
 GLenum
@@ -3816,6 +3868,8 @@ const
 State
 &
 glState
+bool
+isCallValid
 GLenum
 target
 GLenum
@@ -3838,6 +3892,8 @@ const
 State
 &
 glState
+bool
+isCallValid
 ShaderProgramID
 shaderPacked
 GLsizei
@@ -3863,6 +3919,8 @@ const
 State
 &
 glState
+bool
+isCallValid
 ShaderProgramID
 shaderPacked
 GLsizei
@@ -3888,6 +3946,8 @@ const
 State
 &
 glState
+bool
+isCallValid
 GLenum
 shadertype
 GLenum
@@ -3913,6 +3973,8 @@ const
 State
 &
 glState
+bool
+isCallValid
 GLenum
 shadertype
 GLenum
@@ -3938,6 +4000,8 @@ const
 State
 &
 glState
+bool
+isCallValid
 ShaderProgramID
 shaderPacked
 GLsizei
@@ -3963,6 +4027,8 @@ const
 State
 &
 glState
+bool
+isCallValid
 ShaderProgramID
 shaderPacked
 GLsizei
@@ -3988,10 +4054,12 @@ const
 State
 &
 glState
+bool
+isCallValid
 ShaderProgramID
 shaderPacked
-ShaderParameter
-pnamePacked
+GLenum
+pname
 GLint
 *
 params
@@ -4010,6 +4078,8 @@ const
 State
 &
 glState
+bool
+isCallValid
 TextureType
 targetPacked
 GLenum
@@ -4032,6 +4102,8 @@ const
 State
 &
 glState
+bool
+isCallValid
 TextureType
 targetPacked
 GLenum
@@ -4054,6 +4126,8 @@ const
 State
 &
 glState
+bool
+isCallValid
 ShaderProgramID
 programPacked
 const
@@ -4075,6 +4149,8 @@ const
 State
 &
 glState
+bool
+isCallValid
 ShaderProgramID
 programPacked
 UniformLocation
@@ -4097,6 +4173,8 @@ const
 State
 &
 glState
+bool
+isCallValid
 ShaderProgramID
 programPacked
 UniformLocation
@@ -4119,6 +4197,8 @@ const
 State
 &
 glState
+bool
+isCallValid
 GLuint
 index
 GLenum
@@ -4142,6 +4222,8 @@ const
 State
 &
 glState
+bool
+isCallValid
 GLuint
 index
 GLenum
@@ -4164,6 +4246,8 @@ const
 State
 &
 glState
+bool
+isCallValid
 GLuint
 index
 GLenum
@@ -4186,6 +4270,8 @@ const
 State
 &
 glState
+bool
+isCallValid
 GLint
 x
 GLint
@@ -4216,6 +4302,8 @@ const
 State
 &
 glState
+bool
+isCallValid
 GLsizei
 count
 const
@@ -4245,6 +4333,8 @@ const
 State
 &
 glState
+bool
+isCallValid
 GLsizei
 count
 const
@@ -4274,6 +4364,8 @@ const
 State
 &
 glState
+bool
+isCallValid
 ShaderProgramID
 shaderPacked
 GLsizei
@@ -4303,6 +4395,8 @@ const
 State
 &
 glState
+bool
+isCallValid
 ShaderProgramID
 shaderPacked
 GLsizei
@@ -4332,6 +4426,8 @@ const
 State
 &
 glState
+bool
+isCallValid
 TextureTarget
 targetPacked
 GLint
@@ -4367,6 +4463,8 @@ const
 State
 &
 glState
+bool
+isCallValid
 TextureType
 targetPacked
 GLenum
@@ -4390,6 +4488,8 @@ const
 State
 &
 glState
+bool
+isCallValid
 TextureType
 targetPacked
 GLenum
@@ -4413,6 +4513,8 @@ const
 State
 &
 glState
+bool
+isCallValid
 TextureTarget
 targetPacked
 GLint
@@ -4448,6 +4550,8 @@ const
 State
 &
 glState
+bool
+isCallValid
 UniformLocation
 locationPacked
 GLsizei
@@ -4471,6 +4575,8 @@ const
 State
 &
 glState
+bool
+isCallValid
 UniformLocation
 locationPacked
 GLsizei
@@ -4494,6 +4600,8 @@ const
 State
 &
 glState
+bool
+isCallValid
 UniformLocation
 locationPacked
 GLsizei
@@ -4517,6 +4625,8 @@ const
 State
 &
 glState
+bool
+isCallValid
 UniformLocation
 locationPacked
 GLsizei
@@ -4540,6 +4650,8 @@ const
 State
 &
 glState
+bool
+isCallValid
 UniformLocation
 locationPacked
 GLsizei
@@ -4563,6 +4675,8 @@ const
 State
 &
 glState
+bool
+isCallValid
 UniformLocation
 locationPacked
 GLsizei
@@ -4586,6 +4700,8 @@ const
 State
 &
 glState
+bool
+isCallValid
 UniformLocation
 locationPacked
 GLsizei
@@ -4609,6 +4725,8 @@ const
 State
 &
 glState
+bool
+isCallValid
 UniformLocation
 locationPacked
 GLsizei
@@ -4632,6 +4750,8 @@ const
 State
 &
 glState
+bool
+isCallValid
 UniformLocation
 locationPacked
 GLsizei
@@ -4657,6 +4777,8 @@ const
 State
 &
 glState
+bool
+isCallValid
 UniformLocation
 locationPacked
 GLsizei
@@ -4682,6 +4804,8 @@ const
 State
 &
 glState
+bool
+isCallValid
 UniformLocation
 locationPacked
 GLsizei
@@ -4707,6 +4831,8 @@ const
 State
 &
 glState
+bool
+isCallValid
 GLuint
 index
 const
@@ -4728,6 +4854,8 @@ const
 State
 &
 glState
+bool
+isCallValid
 GLuint
 index
 const
@@ -4749,6 +4877,8 @@ const
 State
 &
 glState
+bool
+isCallValid
 GLuint
 index
 const
@@ -4770,6 +4900,8 @@ const
 State
 &
 glState
+bool
+isCallValid
 GLuint
 index
 const
@@ -4791,6 +4923,8 @@ const
 State
 &
 glState
+bool
+isCallValid
 GLuint
 index
 GLint
