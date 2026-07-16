@@ -1717,17 +1717,27 @@ previousVersion
 "
 ]
                 
-from_installer_url
+brand
 =
-_get_release_installer_url
-(
-                    
 info
 [
 "
 product
 "
 ]
+.
+lower
+(
+)
+                
+from_installer_url
+=
+_get_release_installer_url
+(
+                    
+brand
+                    
+product
                     
 build_target
                     
@@ -1749,12 +1759,9 @@ linux64_installer_url
 _get_release_installer_url
 (
                     
-info
-[
-"
+brand
+                    
 product
-"
-]
                     
 "
 Linux_x86_64
@@ -1862,20 +1869,13 @@ _get_release_installer_url
 (
     
 brand
+product
 build_target
 locale
 from_version
 archive_prefix
 )
 :
-    
-product
-=
-brand
-.
-lower
-(
-)
     
 ftp_platform
 =
@@ -1889,7 +1889,7 @@ releases_dir
 getReleasesDir
 (
         
-product
+brand
 from_version
 protocol
 =
@@ -1913,11 +1913,17 @@ quote
         
 getReleaseInstallerPath
 (
+            
 product
-brand
+product
+.
+capitalize
+(
+)
 from_version
 ftp_platform
 locale
+        
 )
     
 )
