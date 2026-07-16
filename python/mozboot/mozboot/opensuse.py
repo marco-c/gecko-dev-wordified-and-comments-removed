@@ -1,4 +1,8 @@
 from
+mozfile
+import
+which
+from
 mozboot
 .
 base
@@ -90,6 +94,16 @@ watchman
 "
 ]
         
+if
+not
+which
+(
+"
+awk
+"
+)
+:
+            
 packages
 +
 =
