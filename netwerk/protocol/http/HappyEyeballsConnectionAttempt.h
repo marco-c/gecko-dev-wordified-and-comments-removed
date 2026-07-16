@@ -726,6 +726,11 @@ RetryWithoutTRR
 (
 )
 ;
+void
+MaybeBuildOriginCoalescingKeys
+(
+)
+;
 already_AddRefed
 <
 HappyEyeballsTransaction
@@ -990,12 +995,6 @@ mAddrFamily
 {
 0
 }
-;
-nsCOMPtr
-<
-nsIDNSAddrRecord
->
-mWinnerAddrRecord
 ;
 nsTHashSet
 <
