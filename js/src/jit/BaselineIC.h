@@ -734,6 +734,13 @@ zone
 ICEntry
 *
 icEntry
+const
+gc
+:
+:
+AutoMarkingLock
+&
+lock
 )
 ;
 void

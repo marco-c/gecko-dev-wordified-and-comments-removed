@@ -872,6 +872,7 @@ zone
 )
 &
 entry
+lock_
 )
 ;
 ICAttachResult

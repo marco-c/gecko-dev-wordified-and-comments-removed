@@ -11877,6 +11877,7 @@ cx
 writer
 icScript
 stub
+lock
 )
 )
 {
@@ -12313,6 +12314,7 @@ zone
 (
 )
 icEntry
+lock
 )
 ;
 icScript

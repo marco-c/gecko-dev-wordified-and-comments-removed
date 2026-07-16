@@ -2416,6 +2416,7 @@ zone
 (
 )
 icEntry
+lock
 )
 ;
 ICAttachResult
@@ -2845,6 +2846,13 @@ icScript
 ICFallbackStub
 *
 fallback
+const
+gc
+:
+:
+AutoMarkingLock
+&
+lock
 )
 {
 ICEntry
@@ -4059,6 +4067,7 @@ zone
 (
 )
 icEntry
+lock
 )
 ;
 return
