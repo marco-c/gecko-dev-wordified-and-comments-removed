@@ -1294,7 +1294,7 @@ const
 [
 name
 {
-do_not_preview
+doNotPreview
 glean
 value
 }
@@ -1310,7 +1310,7 @@ category
 {
 if
 (
-do_not_preview
+doNotPreview
 )
 {
 continue

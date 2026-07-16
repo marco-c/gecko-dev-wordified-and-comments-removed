@@ -283,7 +283,7 @@ continuation
 >
 session
 .
-getWebCompatInfo
+getBrokenSiteReport
 (
 onResult
 =
