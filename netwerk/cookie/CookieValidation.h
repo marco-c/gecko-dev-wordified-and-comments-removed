@@ -7,14 +7,14 @@ mozilla_net_CookieValidation_h
 #
 include
 "
-nsICookieValidation
+Cookie
 .
 h
 "
 #
 include
 "
-Cookie
+nsICookieValidation
 .
 h
 "

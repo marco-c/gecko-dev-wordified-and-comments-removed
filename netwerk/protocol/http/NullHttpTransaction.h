@@ -7,14 +7,14 @@ mozilla_net_NullHttpTransaction_h
 #
 include
 "
-nsAHttpTransaction
+TimingStruct
 .
 h
 "
 #
 include
 "
-TimingStruct
+nsAHttpTransaction
 .
 h
 "
@@ -79,6 +79,10 @@ nsIInterfaceRequestor
 callbacks
 uint32_t
 caps
+bool
+reportActivity
+=
+true
 )
 ;
 [

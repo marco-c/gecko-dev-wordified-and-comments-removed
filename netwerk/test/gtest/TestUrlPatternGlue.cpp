@@ -3,7 +3,7 @@ include
 "
 gtest
 /
-gtest
+MozGTestBench
 .
 h
 "
@@ -12,7 +12,7 @@ include
 "
 gtest
 /
-MozGTestBench
+gtest
 .
 h
 "

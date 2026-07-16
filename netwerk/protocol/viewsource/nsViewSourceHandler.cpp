@@ -8,13 +8,6 @@ h
 #
 include
 "
-nsViewSourceChannel
-.
-h
-"
-#
-include
-"
 nsNetUtil
 .
 h
@@ -23,6 +16,13 @@ h
 include
 "
 nsSimpleNestedURI
+.
+h
+"
+#
+include
+"
+nsViewSourceChannel
 .
 h
 "

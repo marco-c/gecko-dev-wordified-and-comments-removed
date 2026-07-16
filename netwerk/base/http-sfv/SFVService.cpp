@@ -1,6 +1,13 @@
 #
 include
 "
+SFVService
+.
+h
+"
+#
+include
+"
 mozilla
 /
 ClearOnShutdown
@@ -20,13 +27,6 @@ h
 include
 "
 nsCOMPtr
-.
-h
-"
-#
-include
-"
-SFVService
 .
 h
 "

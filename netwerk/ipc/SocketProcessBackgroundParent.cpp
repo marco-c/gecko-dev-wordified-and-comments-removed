@@ -63,7 +63,7 @@ mozilla
 /
 psm
 /
-VerifySSLServerCertParent
+SelectTLSClientAuthCertParent
 .
 h
 "
@@ -74,7 +74,7 @@ mozilla
 /
 psm
 /
-SelectTLSClientAuthCertParent
+VerifySSLServerCertParent
 .
 h
 "

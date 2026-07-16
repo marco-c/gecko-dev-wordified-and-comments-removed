@@ -6,6 +6,11 @@ define
 mozilla_net_UrlClassifierCommon_h
 #
 include
+<
+vector
+>
+#
+include
 "
 mozilla
 /
@@ -22,11 +27,6 @@ nsString
 .
 h
 "
-#
-include
-<
-vector
->
 class
 nsIChannel
 ;

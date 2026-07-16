@@ -7,6 +7,13 @@ MockHttpAuth_h_
 #
 include
 "
+nsCOMPtr
+.
+h
+"
+#
+include
+"
 nsIHttpAuthenticator
 .
 h

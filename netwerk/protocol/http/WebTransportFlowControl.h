@@ -21,6 +21,13 @@ h
 #
 include
 "
+WebTransportStreamBase
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Assertions
@@ -53,13 +60,6 @@ mozilla
 net
 /
 neqo_glue_ffi_generated
-.
-h
-"
-#
-include
-"
-WebTransportStreamBase
 .
 h
 "

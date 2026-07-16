@@ -8,14 +8,14 @@ h
 #
 include
 "
-nsIPipe
+nsIOService
 .
 h
 "
 #
 include
 "
-nsIOService
+nsIPipe
 .
 h
 "

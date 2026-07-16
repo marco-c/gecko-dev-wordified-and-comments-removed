@@ -14,13 +14,6 @@ h
 #
 include
 "
-nsSimpleURI
-.
-h
-"
-#
-include
-"
 nsINestedURI
 .
 h
@@ -29,6 +22,13 @@ h
 include
 "
 nsIURIMutator
+.
+h
+"
+#
+include
+"
+nsSimpleURI
 .
 h
 "

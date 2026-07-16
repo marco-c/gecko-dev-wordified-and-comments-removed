@@ -16,14 +16,14 @@ h
 #
 include
 "
-nsISupports
+nsCOMPtr
 .
 h
 "
 #
 include
 "
-nsCOMPtr
+nsISupports
 .
 h
 "

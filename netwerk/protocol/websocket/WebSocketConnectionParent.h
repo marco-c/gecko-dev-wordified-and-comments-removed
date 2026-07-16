@@ -7,6 +7,13 @@ mozilla_net_WebSocketConnectionParent_h
 #
 include
 "
+WebSocketConnectionBase
+.
+h
+"
+#
+include
+"
 mozilla
 /
 net
@@ -30,13 +37,6 @@ h
 include
 "
 nsISupportsImpl
-.
-h
-"
-#
-include
-"
-WebSocketConnectionBase
 .
 h
 "

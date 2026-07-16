@@ -23,14 +23,14 @@ h
 #
 include
 "
-nsNetCID
+nsIStreamListener
 .
 h
 "
 #
 include
 "
-nsString
+nsNetCID
 .
 h
 "
@@ -44,7 +44,7 @@ h
 #
 include
 "
-nsIStreamListener
+nsString
 .
 h
 "

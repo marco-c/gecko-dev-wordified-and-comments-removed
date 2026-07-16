@@ -1,7 +1,7 @@
 #
 include
 "
-HttpLog
+Http2WebTransportSession
 .
 h
 "
@@ -22,7 +22,7 @@ h
 #
 include
 "
-Http2WebTransportSession
+Http2Session
 .
 h
 "
@@ -36,7 +36,7 @@ h
 #
 include
 "
-Http2Session
+HttpLog
 .
 h
 "
@@ -54,7 +54,7 @@ h
 #
 include
 "
-nsIWebTransport
+nsHttp
 .
 h
 "
@@ -68,7 +68,7 @@ h
 #
 include
 "
-nsHttp
+nsIWebTransport
 .
 h
 "

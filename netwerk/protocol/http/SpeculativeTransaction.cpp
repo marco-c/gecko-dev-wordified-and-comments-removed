@@ -1,13 +1,6 @@
 #
 include
 "
-HttpLog
-.
-h
-"
-#
-include
-"
 SpeculativeTransaction
 .
 h
@@ -22,7 +15,7 @@ h
 #
 include
 "
-nsICachingChannel
+HttpLog
 .
 h
 "
@@ -37,6 +30,13 @@ h
 include
 "
 nsHttpHandler
+.
+h
+"
+#
+include
+"
+nsICachingChannel
 .
 h
 "
@@ -72,6 +72,8 @@ nsresult
 &
 &
 aCallback
+bool
+reportActivity
 )
 :
 NullHttpTransaction
@@ -79,6 +81,7 @@ NullHttpTransaction
 aConnInfo
 aCallbacks
 aCaps
+reportActivity
 )
 mCloseCallback
 (

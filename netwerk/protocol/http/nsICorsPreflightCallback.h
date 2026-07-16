@@ -7,7 +7,7 @@ nsICorsPreflightCallback_h_
 #
 include
 "
-nsISupports
+nsError
 .
 h
 "
@@ -21,7 +21,7 @@ h
 #
 include
 "
-nsError
+nsISupports
 .
 h
 "

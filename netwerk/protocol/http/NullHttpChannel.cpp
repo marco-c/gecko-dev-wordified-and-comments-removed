@@ -8,14 +8,14 @@ h
 #
 include
 "
-nsContentUtils
+nsContentSecurityManager
 .
 h
 "
 #
 include
 "
-nsContentSecurityManager
+nsContentUtils
 .
 h
 "

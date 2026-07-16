@@ -36,6 +36,8 @@ include
 objc
 /
 objc
+-
+runtime
 .
 h
 >
@@ -45,15 +47,13 @@ include
 objc
 /
 objc
--
-runtime
 .
 h
 >
 #
 include
 "
-nsObjCExceptions
+MacWifiScanner
 .
 h
 "
@@ -67,7 +67,7 @@ h
 #
 include
 "
-nsWifiMonitor
+nsObjCExceptions
 .
 h
 "
@@ -81,7 +81,7 @@ h
 #
 include
 "
-MacWifiScanner
+nsWifiMonitor
 .
 h
 "

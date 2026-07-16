@@ -1,14 +1,14 @@
 #
 include
 "
-HttpLog
+Http3ConnectUDPStream
 .
 h
 "
 #
 include
 "
-Http3ConnectUDPStream
+Http3Session
 .
 h
 "
@@ -22,7 +22,7 @@ h
 #
 include
 "
-Http3Session
+HttpLog
 .
 h
 "
@@ -40,7 +40,7 @@ h
 #
 include
 "
-nsIPipe
+nsHttpHandler
 .
 h
 "
@@ -54,7 +54,7 @@ h
 #
 include
 "
-nsHttpHandler
+nsIPipe
 .
 h
 "

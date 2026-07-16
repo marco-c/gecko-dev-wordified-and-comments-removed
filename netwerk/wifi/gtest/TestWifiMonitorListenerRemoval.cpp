@@ -1,6 +1,13 @@
 #
 include
 "
+WifiScanner
+.
+h
+"
+#
+include
+"
 gtest
 /
 gtest
@@ -33,13 +40,6 @@ h
 #
 include
 "
-nsWifiMonitor
-.
-h
-"
-#
-include
-"
 nsWifiAccessPoint
 .
 h
@@ -47,7 +47,7 @@ h
 #
 include
 "
-WifiScanner
+nsWifiMonitor
 .
 h
 "

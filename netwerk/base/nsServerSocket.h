@@ -7,7 +7,9 @@ nsServerSocket_h_
 #
 include
 "
-prio
+mozilla
+/
+Mutex
 .
 h
 "
@@ -35,9 +37,7 @@ h
 #
 include
 "
-mozilla
-/
-Mutex
+prio
 .
 h
 "

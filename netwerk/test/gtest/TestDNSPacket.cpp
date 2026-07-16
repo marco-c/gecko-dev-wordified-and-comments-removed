@@ -12,9 +12,7 @@ include
 "
 mozilla
 /
-net
-/
-DNSPacket
+Preferences
 .
 h
 "
@@ -23,7 +21,9 @@ include
 "
 mozilla
 /
-Preferences
+net
+/
+DNSPacket
 .
 h
 "

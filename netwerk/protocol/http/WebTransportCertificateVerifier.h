@@ -7,14 +7,14 @@ mozilla_net_WebTransportCertificateVerifier_h
 #
 include
 "
-nsTArray
+nsIWebTransport
 .
 h
 "
 #
 include
 "
-nsIWebTransport
+nsTArray
 .
 h
 "

@@ -1,13 +1,6 @@
 #
 include
 "
-nsEscape
-.
-h
-"
-#
-include
-"
 nsDirectoryIndexStream
 .
 h
@@ -24,7 +17,7 @@ h
 #
 include
 "
-prtime
+nsEscape
 .
 h
 "
@@ -39,6 +32,13 @@ h
 include
 "
 nsNativeCharsetUtils
+.
+h
+"
+#
+include
+"
+prtime
 .
 h
 "

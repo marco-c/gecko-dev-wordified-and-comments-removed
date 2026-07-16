@@ -12,6 +12,15 @@ functional
 #
 include
 "
+mozilla
+/
+Mutex
+.
+h
+"
+#
+include
+"
 nsIChannelEventSink
 .
 h

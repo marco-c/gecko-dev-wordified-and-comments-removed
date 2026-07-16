@@ -16,14 +16,14 @@ h
 #
 include
 "
-nsProxyRelease
+nsIProtocolHandler
 .
 h
 "
 #
 include
 "
-nsIProtocolHandler
+nsProxyRelease
 .
 h
 "

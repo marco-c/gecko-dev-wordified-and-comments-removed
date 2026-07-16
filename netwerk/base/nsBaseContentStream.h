@@ -7,6 +7,13 @@ nsBaseContentStream_h_
 #
 include
 "
+nsCOMPtr
+.
+h
+"
+#
+include
+"
 nsIAsyncInputStream
 .
 h
@@ -15,13 +22,6 @@ h
 include
 "
 nsIEventTarget
-.
-h
-"
-#
-include
-"
-nsCOMPtr
 .
 h
 "

@@ -18,17 +18,6 @@ include
 "
 mozilla
 /
-net
-/
-NeqoHttp3Conn
-.
-h
-"
-#
-include
-"
-mozilla
-/
 RefPtr
 .
 h
@@ -66,6 +55,9 @@ mozilla
 :
 net
 {
+class
+Capsule
+;
 struct
 StreamMetadata
 {

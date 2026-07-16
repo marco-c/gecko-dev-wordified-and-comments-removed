@@ -1,6 +1,13 @@
 #
 include
 "
+nsTransportUtils
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Mutex
@@ -39,13 +46,6 @@ h
 include
 "
 nsThreadUtils
-.
-h
-"
-#
-include
-"
-nsTransportUtils
 .
 h
 "

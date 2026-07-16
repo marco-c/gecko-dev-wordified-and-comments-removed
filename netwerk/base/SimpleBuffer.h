@@ -7,13 +7,6 @@ SimpleBuffer_h_
 #
 include
 "
-prtypes
-.
-h
-"
-#
-include
-"
 ErrorList
 .
 h
@@ -31,6 +24,13 @@ h
 include
 "
 nsISupportsImpl
+.
+h
+"
+#
+include
+"
+prtypes
 .
 h
 "

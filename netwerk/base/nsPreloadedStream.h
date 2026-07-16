@@ -7,7 +7,9 @@ nsPreloadedStream_h_
 #
 include
 "
-nsIAsyncInputStream
+mozilla
+/
+DataMutex
 .
 h
 "
@@ -21,9 +23,7 @@ h
 #
 include
 "
-mozilla
-/
-DataMutex
+nsIAsyncInputStream
 .
 h
 "

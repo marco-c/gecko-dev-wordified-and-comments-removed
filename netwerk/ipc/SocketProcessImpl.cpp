@@ -37,7 +37,7 @@ include
 "
 mozilla
 /
-Preferences
+GeckoArgs
 .
 h
 "
@@ -46,7 +46,7 @@ include
 "
 mozilla
 /
-GeckoArgs
+Preferences
 .
 h
 "

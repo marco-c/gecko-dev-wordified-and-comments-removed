@@ -1,5 +1,12 @@
 #
 include
+"
+nsURLParsers
+.
+h
+"
+#
+include
 <
 string
 .
@@ -33,7 +40,7 @@ h
 #
 include
 "
-nsURLParsers
+nsString
 .
 h
 "
@@ -41,13 +48,6 @@ h
 include
 "
 nsURLHelper
-.
-h
-"
-#
-include
-"
-nsString
 .
 h
 "

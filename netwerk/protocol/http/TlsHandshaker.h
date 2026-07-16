@@ -11,6 +11,13 @@ nsITlsHandshakeListener
 .
 h
 "
+#
+include
+"
+nsString
+.
+h
+"
 class
 nsISocketTransport
 ;

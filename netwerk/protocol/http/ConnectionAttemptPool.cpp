@@ -60,14 +60,14 @@ h
 #
 include
 "
-nsHttpHandler
+nsHttpConnectionMgr
 .
 h
 "
 #
 include
 "
-nsHttpConnectionMgr
+nsHttpHandler
 .
 h
 "

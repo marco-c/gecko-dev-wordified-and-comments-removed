@@ -3,7 +3,7 @@ include
 "
 gtest
 /
-gtest
+MozGTestBench
 .
 h
 "
@@ -12,7 +12,7 @@ include
 "
 gtest
 /
-MozGTestBench
+gtest
 .
 h
 "
@@ -37,7 +37,9 @@ h
 #
 include
 "
-nsString
+mozilla
+/
+BasePrincipal
 .
 h
 "
@@ -69,13 +71,6 @@ h
 #
 include
 "
-nsNetUtil
-.
-h
-"
-#
-include
-"
 nsIFile
 .
 h
@@ -90,6 +85,13 @@ h
 #
 include
 "
+nsNetUtil
+.
+h
+"
+#
+include
+"
 nsStreamUtils
 .
 h
@@ -97,9 +99,7 @@ h
 #
 include
 "
-mozilla
-/
-BasePrincipal
+nsString
 .
 h
 "

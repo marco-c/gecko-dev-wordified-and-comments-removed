@@ -7,7 +7,9 @@ NETWERK_PROTOCOL_HTTP_REPLACEDHTTPRESPONSE_H_
 #
 include
 "
-nsString
+mozilla
+/
+Atomics
 .
 h
 "
@@ -28,9 +30,7 @@ h
 #
 include
 "
-mozilla
-/
-Atomics
+nsString
 .
 h
 "

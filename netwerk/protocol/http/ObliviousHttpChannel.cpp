@@ -1,13 +1,6 @@
 #
 include
 "
-HttpLog
-.
-h
-"
-#
-include
-"
 ObliviousHttpChannel
 .
 h
@@ -16,6 +9,13 @@ h
 include
 "
 BinaryHttpRequest
+.
+h
+"
+#
+include
+"
+HttpLog
 .
 h
 "

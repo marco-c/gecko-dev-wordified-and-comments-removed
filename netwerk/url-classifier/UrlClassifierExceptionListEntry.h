@@ -18,6 +18,13 @@ h
 #
 include
 "
+nsISupports
+.
+h
+"
+#
+include
+"
 nsIUrlClassifierExceptionListEntry
 .
 h
@@ -26,13 +33,6 @@ h
 include
 "
 nsString
-.
-h
-"
-#
-include
-"
-nsISupports
 .
 h
 "

@@ -19,9 +19,7 @@ include
 "
 mozilla
 /
-net
-/
-NeckoChild
+RefPtr
 .
 h
 "
@@ -30,7 +28,9 @@ include
 "
 mozilla
 /
-RefPtr
+net
+/
+NeckoChild
 .
 h
 "

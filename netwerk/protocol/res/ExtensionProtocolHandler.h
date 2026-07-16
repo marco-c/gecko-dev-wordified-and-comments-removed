@@ -7,11 +7,7 @@ ExtensionProtocolHandler_h_
 #
 include
 "
-mozilla
-/
-net
-/
-NeckoParent
+SubstitutingProtocolHandler
 .
 h
 "
@@ -36,7 +32,11 @@ h
 #
 include
 "
-SubstitutingProtocolHandler
+mozilla
+/
+net
+/
+NeckoParent
 .
 h
 "

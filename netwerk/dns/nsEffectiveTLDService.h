@@ -7,13 +7,6 @@ EffectiveTLDService_h
 #
 include
 "
-nsIEffectiveTLDService
-.
-h
-"
-#
-include
-"
 mozilla
 /
 AutoMemMap
@@ -67,6 +60,13 @@ h
 include
 "
 nsHashKeys
+.
+h
+"
+#
+include
+"
+nsIEffectiveTLDService
 .
 h
 "

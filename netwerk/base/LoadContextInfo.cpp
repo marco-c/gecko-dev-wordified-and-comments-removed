@@ -10,9 +10,7 @@ include
 "
 mozilla
 /
-dom
-/
-ToJSValue
+StoragePrincipalHelper
 .
 h
 "
@@ -21,7 +19,9 @@ include
 "
 mozilla
 /
-StoragePrincipalHelper
+dom
+/
+ToJSValue
 .
 h
 "

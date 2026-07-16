@@ -21,6 +21,13 @@ h
 #
 include
 "
+PendingTransactionInfo
+.
+h
+"
+#
+include
+"
 nsHashKeys
 .
 h
@@ -29,13 +36,6 @@ h
 include
 "
 nsTHashMap
-.
-h
-"
-#
-include
-"
-PendingTransactionInfo
 .
 h
 "

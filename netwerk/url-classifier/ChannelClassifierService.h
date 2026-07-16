@@ -7,13 +7,6 @@ mozilla_net_ChannelClassifierService_h
 #
 include
 "
-nsIChannelClassifierService
-.
-h
-"
-#
-include
-"
 mozilla
 /
 net
@@ -37,6 +30,13 @@ h
 include
 "
 nsCOMPtr
+.
+h
+"
+#
+include
+"
+nsIChannelClassifierService
 .
 h
 "

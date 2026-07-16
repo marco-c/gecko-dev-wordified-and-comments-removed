@@ -1,6 +1,13 @@
 #
 include
 "
+Helpers
+.
+h
+"
+#
+include
+"
 gtest
 /
 gtest
@@ -48,13 +55,6 @@ h
 include
 "
 nsThreadUtils
-.
-h
-"
-#
-include
-"
-Helpers
 .
 h
 "

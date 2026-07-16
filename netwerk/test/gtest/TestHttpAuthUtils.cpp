@@ -12,9 +12,7 @@ include
 "
 mozilla
 /
-net
-/
-HttpAuthUtils
+Preferences
 .
 h
 "
@@ -23,7 +21,9 @@ include
 "
 mozilla
 /
-Preferences
+net
+/
+HttpAuthUtils
 .
 h
 "

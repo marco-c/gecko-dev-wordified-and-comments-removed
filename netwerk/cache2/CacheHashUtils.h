@@ -14,14 +14,14 @@ h
 #
 include
 "
-prnetdb
+nsPrintfCString
 .
 h
 "
 #
 include
 "
-nsPrintfCString
+prnetdb
 .
 h
 "

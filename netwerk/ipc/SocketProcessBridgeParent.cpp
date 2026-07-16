@@ -31,6 +31,13 @@ endif
 #
 include
 "
+SocketProcessChild
+.
+h
+"
+#
+include
+"
 mozilla
 /
 ipc
@@ -47,13 +54,6 @@ mozilla
 ipc
 /
 Endpoint
-.
-h
-"
-#
-include
-"
-SocketProcessChild
 .
 h
 "

@@ -78,9 +78,7 @@ include
 "
 mozilla
 /
-glean
-/
-NetwerkCache2Metrics
+TelemetryHistogramEnums
 .
 h
 "
@@ -89,7 +87,9 @@ include
 "
 mozilla
 /
-TelemetryHistogramEnums
+glean
+/
+NetwerkCache2Metrics
 .
 h
 "

@@ -7,13 +7,6 @@ mozilla_net_Http3Stream_h
 #
 include
 "
-nsAHttpTransaction
-.
-h
-"
-#
-include
-"
 ARefBase
 .
 h
@@ -22,6 +15,13 @@ h
 include
 "
 Http3StreamBase
+.
+h
+"
+#
+include
+"
+nsAHttpTransaction
 .
 h
 "

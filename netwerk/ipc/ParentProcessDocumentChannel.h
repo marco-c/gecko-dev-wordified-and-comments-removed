@@ -40,14 +40,14 @@ h
 #
 include
 "
-nsIObserver
+nsIAsyncVerifyRedirectCallback
 .
 h
 "
 #
 include
 "
-nsIAsyncVerifyRedirectCallback
+nsIObserver
 .
 h
 "

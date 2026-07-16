@@ -1,13 +1,6 @@
 #
 include
 "
-CacheLog
-.
-h
-"
-#
-include
-"
 CacheIndexIterator
 .
 h
@@ -22,7 +15,7 @@ h
 #
 include
 "
-nsString
+CacheLog
 .
 h
 "
@@ -32,6 +25,13 @@ include
 mozilla
 /
 DebugOnly
+.
+h
+"
+#
+include
+"
+nsString
 .
 h
 "

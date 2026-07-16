@@ -7,6 +7,11 @@ h
 "
 #
 include
+<
+algorithm
+>
+#
+include
 "
 nsIRunnable
 .
@@ -19,11 +24,6 @@ nsThreadUtils
 .
 h
 "
-#
-include
-<
-algorithm
->
 namespace
 mozilla
 {

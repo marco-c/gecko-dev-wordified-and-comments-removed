@@ -14,14 +14,14 @@ h
 #
 include
 "
-nsString
+nsHttpHeaderArray
 .
 h
 "
 #
 include
 "
-nsHttpHeaderArray
+nsString
 .
 h
 "

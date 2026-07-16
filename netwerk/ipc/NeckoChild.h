@@ -11,7 +11,7 @@ mozilla
 /
 net
 /
-PNeckoChild
+NeckoCommon
 .
 h
 "
@@ -22,7 +22,7 @@ mozilla
 /
 net
 /
-NeckoCommon
+PNeckoChild
 .
 h
 "

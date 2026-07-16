@@ -7,14 +7,14 @@ mozilla_netwerk_socket_nsNamedPipeIOLayer_h
 #
 include
 "
-nscore
+nsStringFwd
 .
 h
 "
 #
 include
 "
-nsStringFwd
+nscore
 .
 h
 "

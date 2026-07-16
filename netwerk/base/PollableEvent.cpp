@@ -1,13 +1,6 @@
 #
 include
 "
-nsSocketTransportService2
-.
-h
-"
-#
-include
-"
 PollableEvent
 .
 h
@@ -47,6 +40,13 @@ mozilla
 net
 /
 DNS
+.
+h
+"
+#
+include
+"
+nsSocketTransportService2
 .
 h
 "

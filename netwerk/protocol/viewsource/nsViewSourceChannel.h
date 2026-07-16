@@ -39,6 +39,13 @@ h
 #
 include
 "
+nsIChildChannel
+.
+h
+"
+#
+include
+"
 nsIFormPOSTActionChannel
 .
 h
@@ -82,13 +89,6 @@ h
 include
 "
 nsIViewSourceChannel
-.
-h
-"
-#
-include
-"
-nsIChildChannel
 .
 h
 "

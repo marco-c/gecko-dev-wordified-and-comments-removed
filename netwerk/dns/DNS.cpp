@@ -11,6 +11,13 @@ h
 "
 #
 include
+<
+string
+.
+h
+>
+#
+include
 "
 mozilla
 /
@@ -23,7 +30,7 @@ include
 "
 mozilla
 /
-mozalloc
+StaticPrefs_network
 .
 h
 "
@@ -32,7 +39,7 @@ include
 "
 mozilla
 /
-StaticPrefs_network
+mozalloc
 .
 h
 "
@@ -64,13 +71,6 @@ nsString
 .
 h
 "
-#
-include
-<
-string
-.
-h
->
 #
 ifdef
 XP_WIN

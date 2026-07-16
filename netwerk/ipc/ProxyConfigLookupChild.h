@@ -6,6 +6,11 @@ define
 mozilla_net_ProxyConfigLookupChild_h
 #
 include
+<
+functional
+>
+#
+include
 "
 mozilla
 /
@@ -15,11 +20,6 @@ PProxyConfigLookupChild
 .
 h
 "
-#
-include
-<
-functional
->
 class
 nsIProxyInfo
 ;

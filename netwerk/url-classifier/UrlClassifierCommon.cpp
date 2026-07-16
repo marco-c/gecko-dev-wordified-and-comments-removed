@@ -32,9 +32,7 @@ include
 "
 mozilla
 /
-dom
-/
-WindowGlobalParent
+StaticPrefs_privacy
 .
 h
 "
@@ -43,7 +41,9 @@ include
 "
 mozilla
 /
-StaticPrefs_privacy
+dom
+/
+WindowGlobalParent
 .
 h
 "

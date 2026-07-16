@@ -14,7 +14,7 @@ h
 #
 include
 "
-nsTHashMap
+nsISupports
 .
 h
 "
@@ -28,7 +28,7 @@ h
 #
 include
 "
-nsISupports
+nsString
 .
 h
 "
@@ -42,7 +42,7 @@ h
 #
 include
 "
-nsString
+nsTHashMap
 .
 h
 "

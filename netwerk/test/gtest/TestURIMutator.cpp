@@ -17,13 +17,6 @@ h
 #
 include
 "
-nsNetCID
-.
-h
-"
-#
-include
-"
 nsIURIMutator
 .
 h
@@ -38,7 +31,7 @@ h
 #
 include
 "
-nsThreadPool
+nsNetCID
 .
 h
 "
@@ -46,6 +39,13 @@ h
 include
 "
 nsNetUtil
+.
+h
+"
+#
+include
+"
+nsThreadPool
 .
 h
 "

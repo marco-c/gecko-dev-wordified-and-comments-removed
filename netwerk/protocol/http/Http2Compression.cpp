@@ -80,14 +80,14 @@ h
 #
 include
 "
-nsIMemoryReporter
+nsHttpHandler
 .
 h
 "
 #
 include
 "
-nsHttpHandler
+nsIMemoryReporter
 .
 h
 "

@@ -8,14 +8,14 @@ h
 #
 include
 "
-nsProxyRelease
+nsIRequest
 .
 h
 "
 #
 include
 "
-nsIRequest
+nsProxyRelease
 .
 h
 "

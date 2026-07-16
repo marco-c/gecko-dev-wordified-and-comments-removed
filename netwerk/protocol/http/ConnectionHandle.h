@@ -7,14 +7,14 @@ ConnectionHandle_h_
 #
 include
 "
-nsAHttpConnection
+HttpConnectionBase
 .
 h
 "
 #
 include
 "
-HttpConnectionBase
+nsAHttpConnection
 .
 h
 "

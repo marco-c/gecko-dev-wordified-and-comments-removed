@@ -7,7 +7,7 @@ nsSyncStreamListener_h_
 #
 include
 "
-nsISyncStreamListener
+nsCOMPtr
 .
 h
 "
@@ -28,7 +28,7 @@ h
 #
 include
 "
-nsCOMPtr
+nsISyncStreamListener
 .
 h
 "

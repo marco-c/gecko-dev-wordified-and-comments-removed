@@ -19,6 +19,13 @@ h
 #
 include
 "
+UrlClassifierFeatureConsentManagerAnnotation
+.
+h
+"
+#
+include
+"
 UrlClassifierFeatureCryptominingAnnotation
 .
 h
@@ -33,7 +40,7 @@ h
 #
 include
 "
-UrlClassifierFeatureConsentManagerAnnotation
+UrlClassifierFeatureCustomTables
 .
 h
 "
@@ -103,13 +110,6 @@ h
 #
 include
 "
-UrlClassifierFeatureTrackingProtection
-.
-h
-"
-#
-include
-"
 UrlClassifierFeatureTrackingAnnotation
 .
 h
@@ -117,7 +117,7 @@ h
 #
 include
 "
-UrlClassifierFeatureCustomTables
+UrlClassifierFeatureTrackingProtection
 .
 h
 "

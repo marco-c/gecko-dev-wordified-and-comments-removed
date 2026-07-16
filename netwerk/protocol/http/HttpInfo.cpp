@@ -1,14 +1,14 @@
 #
 include
 "
-HttpLog
+HttpInfo
 .
 h
 "
 #
 include
 "
-nsHttpHandler
+HttpLog
 .
 h
 "
@@ -22,7 +22,7 @@ h
 #
 include
 "
-HttpInfo
+nsHttpHandler
 .
 h
 "
