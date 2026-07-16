@@ -273,8 +273,10 @@ mThreadPool
 ;
 }
 void
-Release
+Destroy
 (
+bool
+aJoinWorkers
 )
 ;
 protected
