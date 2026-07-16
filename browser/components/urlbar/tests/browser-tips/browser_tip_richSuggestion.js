@@ -276,7 +276,7 @@ tip
 -
 get
 -
-help
+help2
 "
 }
 }
@@ -798,7 +798,7 @@ tip
 -
 get
 -
-help
+help2
 "
 args
 :
@@ -812,9 +812,8 @@ view
 .
 resultMenu
 .
-hidePopup
+hide
 (
-true
 )
 ;
 info

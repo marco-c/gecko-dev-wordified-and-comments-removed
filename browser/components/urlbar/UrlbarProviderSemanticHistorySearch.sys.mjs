@@ -1039,7 +1039,7 @@ remove
 -
 from
 -
-history
+history2
 "
 }
 helpUrl
