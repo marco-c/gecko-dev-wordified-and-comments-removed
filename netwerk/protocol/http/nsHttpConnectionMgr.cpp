@@ -6866,6 +6866,13 @@ return
 false
 ;
 }
+ent
+-
+>
+MoveUnusableH3ConnsToPending
+(
+)
+;
 ProcessSpdyPendingQ
 (
 ent

@@ -380,6 +380,11 @@ conn
 )
 ;
 void
+MoveUnusableH3ConnsToPending
+(
+)
+;
+void
 VerifyTraffic
 (
 )
