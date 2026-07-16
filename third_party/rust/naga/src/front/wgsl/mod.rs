@@ -205,6 +205,13 @@ a
 >
 >
 ;
+#
+[
+derive
+(
+Debug
+)
+]
 pub
 struct
 Frontend

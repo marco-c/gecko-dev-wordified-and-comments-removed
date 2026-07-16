@@ -1441,6 +1441,7 @@ self
 create_surface_from_vk_surface_khr
 (
 surface
+None
 )
 )
 }

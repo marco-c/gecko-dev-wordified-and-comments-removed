@@ -23,11 +23,15 @@ alloc
 [
 cfg
 (
+any
+(
 feature
 =
 "
 std
 "
+test
+)
 )
 ]
 extern

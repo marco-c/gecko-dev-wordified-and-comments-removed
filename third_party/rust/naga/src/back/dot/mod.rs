@@ -60,6 +60,7 @@ ModuleInfo
 derive
 (
 Clone
+Debug
 Default
 )
 ]

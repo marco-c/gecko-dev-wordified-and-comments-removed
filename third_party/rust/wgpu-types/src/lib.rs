@@ -44,11 +44,15 @@ no_std
 [
 cfg
 (
+any
+(
 feature
 =
 "
 std
 "
+test
+)
 )
 ]
 extern

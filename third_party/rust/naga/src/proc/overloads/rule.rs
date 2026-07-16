@@ -75,6 +75,7 @@ Result
 derive
 (
 Clone
+Debug
 )
 ]
 pub

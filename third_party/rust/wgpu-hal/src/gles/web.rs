@@ -44,6 +44,13 @@ super
 :
 TextureFormatDesc
 ;
+#
+[
+derive
+(
+Debug
+)
+]
 pub
 struct
 AdapterContext

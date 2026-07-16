@@ -51,6 +51,7 @@ Handle
 derive
 (
 Clone
+Debug
 )
 ]
 pub
@@ -69,6 +70,13 @@ crate
 :
 Binding
 }
+#
+[
+derive
+(
+Debug
+)
+]
 struct
 PerOutputTypeMeshReturnInfo
 {
@@ -97,6 +105,13 @@ Vec
 Word
 >
 }
+#
+[
+derive
+(
+Debug
+)
+]
 pub
 struct
 MeshReturnInfo

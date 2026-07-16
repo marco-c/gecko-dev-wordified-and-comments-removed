@@ -1939,6 +1939,7 @@ BinaryOperation
 VectorCompare
 VectorComponentWise
 Modulo
+ModuloInt
 Other
 }
 fn

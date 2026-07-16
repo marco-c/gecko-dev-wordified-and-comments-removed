@@ -2,7 +2,15 @@
 [
 cfg
 (
+any
+(
 dx12
+all
+(
+vulkan
+windows
+)
+)
 )
 ]
 pub
