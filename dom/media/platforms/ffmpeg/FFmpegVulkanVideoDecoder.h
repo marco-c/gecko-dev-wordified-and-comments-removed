@@ -269,11 +269,6 @@ mCmdCopyImage
 =
 nullptr
 ;
-PFN_vkDeviceWaitIdle
-mDeviceWaitIdle
-=
-nullptr
-;
 PFN_vkCreateImage
 mCreateImage
 =
