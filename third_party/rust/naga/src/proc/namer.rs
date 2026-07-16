@@ -324,7 +324,6 @@ ExternalTextureNameKey
 [
 derive
 (
-Debug
 Default
 )
 ]

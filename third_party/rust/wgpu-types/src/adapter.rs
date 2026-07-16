@@ -624,10 +624,7 @@ u32
 pub
 transient_saves_memory
 :
-Option
-<
 bool
->
 pub
 limit_bucket
 :
@@ -711,7 +708,7 @@ crate
 MAXIMUM_SUBGROUP_MAX_SIZE
 transient_saves_memory
 :
-None
+false
 limit_bucket
 :
 None

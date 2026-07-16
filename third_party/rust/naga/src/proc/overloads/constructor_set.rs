@@ -857,7 +857,6 @@ derive
 (
 Clone
 Copy
-Debug
 )
 ]
 pub

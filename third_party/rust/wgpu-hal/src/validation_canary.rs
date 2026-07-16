@@ -43,13 +43,6 @@ new
 )
 }
 ;
-#
-[
-derive
-(
-Debug
-)
-]
 pub
 struct
 ValidationCanary

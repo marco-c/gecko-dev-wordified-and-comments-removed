@@ -506,7 +506,6 @@ missing_docs
 derive
 (
 Clone
-Debug
 Default
 )
 ]
@@ -540,10 +539,6 @@ render_pipelines
 InternalCounter
 pub
 compute_pipelines
-:
-InternalCounter
-pub
-ray_tracing_pipelines
 :
 InternalCounter
 pub
@@ -592,7 +587,6 @@ InternalCounter
 derive
 (
 Clone
-Debug
 Default
 )
 ]
@@ -606,7 +600,6 @@ CoreCounters
 derive
 (
 Clone
-Debug
 Default
 )
 ]
@@ -652,7 +645,6 @@ u64
 derive
 (
 Clone
-Debug
 )
 ]
 pub

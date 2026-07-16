@@ -465,7 +465,6 @@ derive
 (
 Clone
 Copy
-Debug
 )
 ]
 pub
@@ -840,13 +839,6 @@ false
 }
 }
 }
-#
-[
-derive
-(
-Debug
-)
-]
 pub
 struct
 FunctionCtx
@@ -2130,13 +2122,6 @@ SKIP_AABBS
 ;
 }
 }
-#
-[
-derive
-(
-Debug
-)
-]
 #
 [
 repr

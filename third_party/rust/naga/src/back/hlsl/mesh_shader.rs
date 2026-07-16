@@ -1855,9 +1855,7 @@ grid_size
 y
 )
 >
-{
-max_total
-}
+0xffffffffull
 |
 |
 "

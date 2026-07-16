@@ -121,7 +121,7 @@ types
 version
 =
 "
-30
+29
 .
 0
 .
@@ -508,7 +508,7 @@ types
 version
 =
 "
-30
+29
 .
 0
 .
@@ -801,16 +801,6 @@ std_instead_of_alloc
 warn
 "
 std_instead_of_core
-=
-"
-warn
-"
-[
-lints
-.
-rust
-]
-missing_debug_implementations
 =
 "
 warn

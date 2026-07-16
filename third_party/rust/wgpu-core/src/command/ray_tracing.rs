@@ -1519,9 +1519,6 @@ blas_address
 blas
 .
 handle
-pipeline_intersection_data_offset
-:
-0
 }
 )
 )

@@ -112,7 +112,7 @@ types
 version
 =
 "
-30
+29
 .
 0
 .
@@ -450,16 +450,6 @@ lints
 clippy
 ]
 ref_as_ptr
-=
-"
-warn
-"
-[
-lints
-.
-rust
-]
-missing_debug_implementations
 =
 "
 warn

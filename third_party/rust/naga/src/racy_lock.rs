@@ -88,13 +88,6 @@ OnceBox
 T
 >
 ;
-#
-[
-derive
-(
-Debug
-)
-]
 pub
 struct
 RacyLock
