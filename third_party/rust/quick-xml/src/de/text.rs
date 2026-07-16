@@ -24,10 +24,6 @@ serialize
 :
 :
 DeError
-utils
-:
-:
-CowRef
 }
 ;
 use
@@ -56,12 +52,6 @@ EnumAccess
 VariantAccess
 Visitor
 }
-;
-use
-serde
-:
-:
-serde_if_integer128
 ;
 use
 std

@@ -848,14 +848,10 @@ struct
 DateStrVisitor
 ;
 impl
-<
-'
-de
->
 Visitor
 <
 '
-de
+_
 >
 for
 DateStrVisitor
