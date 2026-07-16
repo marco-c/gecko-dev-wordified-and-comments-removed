@@ -492,7 +492,7 @@ mSupportedCodecs
 {
 mSupportedCodecs
 .
-EmplaceBack
+emplace_back
 (
 codec
 -
@@ -1184,7 +1184,10 @@ AddRtpExtension
 JsepMediaType
 mediaType
 const
-nsACString
+std
+:
+:
+string
 &
 extensionName
 SdpDirectionAttribute
@@ -1290,13 +1293,9 @@ SdpDirectionAttribute
 :
 :
 kSendrecv
-nsCString
-(
 extensionName
-)
 "
 "
-_ns
 }
 }
 ;
@@ -1318,7 +1317,10 @@ JsepSessionImpl
 AddAudioRtpExtension
 (
 const
-nsACString
+std
+:
+:
+string
 &
 extensionName
 SdpDirectionAttribute
@@ -1347,7 +1349,10 @@ JsepSessionImpl
 AddVideoRtpExtension
 (
 const
-nsACString
+std
+:
+:
+string
 &
 extensionName
 SdpDirectionAttribute
@@ -1376,7 +1381,10 @@ JsepSessionImpl
 AddAudioVideoRtpExtension
 (
 const
-nsACString
+std
+:
+:
+string
 &
 extensionName
 SdpDirectionAttribute
@@ -2731,8 +2739,6 @@ kSimulcastAttribute
 {
 AddVideoRtpExtension
 (
-nsLiteralCString
-(
 webrtc
 :
 :
@@ -2740,7 +2746,6 @@ RtpExtension
 :
 :
 kDependencyDescriptorUri
-)
 SdpDirectionAttribute
 :
 :
@@ -2767,8 +2772,6 @@ kRidAttribute
 {
 AddVideoRtpExtension
 (
-nsLiteralCString
-(
 webrtc
 :
 :
@@ -2776,7 +2779,6 @@ RtpExtension
 :
 :
 kRidUri
-)
 SdpDirectionAttribute
 :
 :
@@ -2808,8 +2810,6 @@ false
 {
 AddVideoRtpExtension
 (
-nsLiteralCString
-(
 webrtc
 :
 :
@@ -2817,7 +2817,6 @@ RtpExtension
 :
 :
 kRepairedRidUri
-)
 SdpDirectionAttribute
 :
 :
@@ -12867,7 +12866,10 @@ JsepSessionImpl
 SetDefaultCodecs
 (
 const
-nsTArray
+std
+:
+:
+vector
 <
 UniquePtr
 <
@@ -12880,7 +12882,7 @@ aPreferredCodecs
 {
 mSupportedCodecs
 .
-Clear
+clear
 (
 )
 ;
@@ -12896,7 +12898,7 @@ aPreferredCodecs
 {
 mSupportedCodecs
 .
-EmplaceBack
+emplace_back
 (
 codec
 -
