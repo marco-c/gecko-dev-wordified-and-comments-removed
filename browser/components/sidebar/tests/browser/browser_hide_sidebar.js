@@ -218,6 +218,16 @@ bookmarks
 "
 ]
 [
+"
+sidebar
+.
+updatedBookmarks
+.
+enabled
+"
+true
+]
+[
 VERTICAL_TABS_PREF
 false
 ]
