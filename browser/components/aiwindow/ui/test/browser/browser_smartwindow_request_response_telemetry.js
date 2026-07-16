@@ -39,6 +39,17 @@ error
 /
 )
 ;
+PromiseTestUtils
+.
+allowMatchingRejectionsGlobally
+(
+/
+400
+Bad
+request
+/
+)
+;
 const
 lazy
 =
