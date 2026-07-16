@@ -148,6 +148,17 @@ AssertWillDelete
 (
 )
 ;
+const
+cache
+:
+:
+Manager
+*
+GetManager
+(
+)
+const
+;
 void
 LostIPCCleanup
 (
