@@ -298,7 +298,7 @@ PocketStoriesConfig
 client
 =
 client
-frequency
+contentRecommendationsRefreshFrequency
 =
 Frequency
 (
