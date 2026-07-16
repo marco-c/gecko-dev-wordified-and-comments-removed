@@ -2482,7 +2482,8 @@ stories
 personalized
 -
 checkbox
--
+=
+.
 label
 =
 Personalized
