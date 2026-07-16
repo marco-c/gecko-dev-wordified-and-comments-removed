@@ -698,13 +698,6 @@ js
 ]
 [
 "
-browser_aboutStopReload
-.
-js
-"
-]
-[
-"
 browser_aboutSupport
 .
 js
