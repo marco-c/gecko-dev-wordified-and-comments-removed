@@ -4953,7 +4953,7 @@ childCount
 :
 "
 "
-NS_LossyConvertUTF16toASCII
+NS_ConvertUTF16toUTF8
 (
 title
 )
@@ -4999,7 +4999,7 @@ childCount
 :
 "
 "
-NS_LossyConvertUTF16toASCII
+NS_ConvertUTF16toUTF8
 (
 name
 )
