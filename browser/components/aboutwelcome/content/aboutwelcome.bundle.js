@@ -11226,6 +11226,9 @@ overflow
 "
 display
 "
+"
+height
+"
 ]
 )
 role
@@ -11411,9 +11414,6 @@ width
 "
 "
 padding
-"
-"
-height
 "
 ]
 )
