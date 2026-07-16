@@ -318,6 +318,9 @@ ValidatePrincipalOptions
 >
 &
 aOptions
+=
+{
+}
 )
 ;
 }

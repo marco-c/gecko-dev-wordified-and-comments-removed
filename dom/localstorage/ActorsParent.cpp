@@ -12197,8 +12197,6 @@ aContentParentHandle
 GetRemoteType
 (
 )
-{
-}
 )
 )
 )

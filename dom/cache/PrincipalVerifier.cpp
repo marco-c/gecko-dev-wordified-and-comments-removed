@@ -507,8 +507,6 @@ mHandle
 GetRemoteType
 (
 )
-{
-}
 )
 )
 )

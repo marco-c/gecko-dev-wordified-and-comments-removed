@@ -1230,8 +1230,6 @@ parent
 GetRemoteType
 (
 )
-{
-}
 )
 )
 {
@@ -1510,8 +1508,6 @@ parent
 GetRemoteType
 (
 )
-{
-}
 )
 )
 {

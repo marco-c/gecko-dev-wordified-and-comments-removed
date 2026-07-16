@@ -1584,8 +1584,6 @@ ValidatePrincipalInfo
 (
 this
 aPrincipalInfo
-{
-}
 )
 )
 {
@@ -2187,8 +2185,6 @@ ValidatePrincipalInfo
 (
 this
 aPrincipalInfo
-{
-}
 )
 )
 {
@@ -3227,8 +3223,6 @@ aData
 loadingPrincipalInfo
 (
 )
-{
-}
 )
 )
 {
@@ -4312,8 +4306,6 @@ ValidatePrincipal
 (
 this
 principal
-{
-}
 )
 )
 {
@@ -4763,8 +4755,6 @@ ValidatePrincipalInfo
 (
 this
 aPrincipalInfo
-{
-}
 )
 )
 {
@@ -5894,8 +5884,6 @@ ValidatePrincipalInfo
 (
 this
 aPrincipalInfo
-{
-}
 )
 )
 {
@@ -6484,8 +6472,6 @@ parent
 GetRemoteType
 (
 )
-{
-}
 )
 )
 {
@@ -6840,8 +6826,6 @@ ValidatePrincipalInfo
 (
 this
 aPrincipalInfo
-{
-}
 )
 )
 {

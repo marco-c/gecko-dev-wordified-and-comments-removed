@@ -3632,8 +3632,6 @@ GetSingleton
 GetRemoteType
 (
 )
-{
-}
 )
 "
 Attempting
