@@ -2912,17 +2912,6 @@ names
 /
 XPC_MSG_DEF
 (
-NS_ERROR_DOM_NETWORK_ERR
-"
-A
-network
-error
-occurred
-.
-"
-)
-XPC_MSG_DEF
-(
 NS_ERROR_DOM_NOT_FOUND_ERR
 "
 The

@@ -407,7 +407,7 @@ req
 status
 Cr
 .
-NS_ERROR_DOM_NETWORK_ERR
+NS_BINDING_ABORTED
 )
 ;
 equal

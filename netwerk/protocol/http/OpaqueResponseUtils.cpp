@@ -2214,7 +2214,7 @@ Block
 BlockResponse
 (
 httpBaseChannel
-NS_ERROR_DOM_NETWORK_ERR
+NS_BINDING_ABORTED
 )
 ;
 return
@@ -2865,7 +2865,7 @@ self
 BlockResponse
 (
 channel
-NS_ERROR_DOM_NETWORK_ERR
+NS_ERROR_FAILURE
 )
 ;
 break
@@ -2898,7 +2898,7 @@ self
 BlockResponse
 (
 channel
-NS_ERROR_DOM_NETWORK_ERR
+NS_BINDING_ABORTED
 )
 ;
 break
