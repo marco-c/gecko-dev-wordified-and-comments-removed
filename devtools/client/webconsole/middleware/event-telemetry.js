@@ -5,6 +5,7 @@ strict
 ;
 const
 {
+ORIGIN_FILTERS
 FILTER_TEXT_SET
 FILTER_TOGGLE
 DEFAULT_FILTERS_RESET
@@ -429,6 +430,19 @@ filterState
 )
 )
 {
+if
+(
+ORIGIN_FILTERS
+.
+includes
+(
+key
+)
+)
+{
+continue
+;
+}
 if
 (
 value

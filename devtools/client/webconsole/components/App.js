@@ -1622,6 +1622,7 @@ const
 {
 closeSplitConsole
 filterBarDisplayMode
+serviceContainer
 webConsoleUI
 }
 =
@@ -1642,6 +1643,7 @@ closeSplitConsole
 displayMode
 :
 filterBarDisplayMode
+serviceContainer
 webConsoleUI
 }
 )
