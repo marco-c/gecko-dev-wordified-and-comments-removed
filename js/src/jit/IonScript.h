@@ -186,7 +186,7 @@ allocBytes_
 =
 0
 ;
-HeapPtr
+GCPtr
 <
 JitCode
 *

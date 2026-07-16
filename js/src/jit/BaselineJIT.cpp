@@ -4836,6 +4836,13 @@ hasPendingIonCompileTask
 )
 )
 ;
+script
+-
+>
+method_
+=
+nullptr
+;
 gcx
 -
 >

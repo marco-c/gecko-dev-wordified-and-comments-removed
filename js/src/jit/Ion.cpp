@@ -5752,6 +5752,13 @@ IonScript
 script
 )
 {
+script
+-
+>
+method_
+=
+nullptr
+;
 mozilla
 :
 :

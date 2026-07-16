@@ -551,7 +551,7 @@ BaselineScript
 {
 private
 :
-HeapPtr
+GCPtr
 <
 JitCode
 *
