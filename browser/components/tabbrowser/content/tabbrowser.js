@@ -33650,8 +33650,8 @@ firefoxViewAvailable
 FirefoxViewHandler
 .
 tab
-|
-|
+&
+&
 FirefoxViewHandler
 .
 button

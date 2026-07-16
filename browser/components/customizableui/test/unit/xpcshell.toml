@@ -28,13 +28,6 @@ browser
 "
 [
 "
-test_firefox_view_migration
-.
-js
-"
-]
-[
-"
 test_unified_extensions_migration
 .
 js
