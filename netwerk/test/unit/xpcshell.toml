@@ -697,6 +697,13 @@ replay
 well
 [
 "
+test_altsvc_lna
+.
+js
+"
+]
+[
+"
 test_altsvc_pref
 .
 js
@@ -12229,6 +12236,13 @@ socketprocess_networking
 [
 "
 test_no_cookies_after_last_pb_exit
+.
+js
+"
+]
+[
+"
+test_no_vary_search_telemetry
 .
 js
 "
