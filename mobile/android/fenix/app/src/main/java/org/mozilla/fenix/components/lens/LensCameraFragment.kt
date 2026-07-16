@@ -413,14 +413,6 @@ ext
 .
 handleBackEvents
 import
-org
-.
-mozilla
-.
-fenix
-.
-R
-import
 java
 .
 io
