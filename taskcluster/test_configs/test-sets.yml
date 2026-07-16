@@ -809,6 +809,12 @@ browsertime
 trr
 -
 performance
+-
+browsertime
+-
+hev3
+-
+connection
 browsertime
 -
 clang
@@ -3255,6 +3261,14 @@ browsertime
 trr
 -
 performance
+-
+m
+-
+browsertime
+-
+hev3
+-
+connection
 -
 m
 android
