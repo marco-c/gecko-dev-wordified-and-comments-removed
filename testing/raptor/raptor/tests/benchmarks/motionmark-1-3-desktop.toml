@@ -24,7 +24,6 @@ gecko_profile_features
 "
 stackwalk
 js
-cpu
 java
 processcpu
 memory

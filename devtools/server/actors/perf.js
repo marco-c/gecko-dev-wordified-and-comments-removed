@@ -319,9 +319,6 @@ js
 stackwalk
 "
 "
-cpu
-"
-"
 memory
 "
 ]
