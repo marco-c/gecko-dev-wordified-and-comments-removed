@@ -2207,12 +2207,6 @@ aMessage
 =
 =
 eKeyPress
-|
-|
-aMessage
-=
-=
-eKeyDown
 )
 {
 keyEvent

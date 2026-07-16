@@ -251,7 +251,7 @@ IgnoreModifierState
 handler
 -
 >
-GetCommandStr
+GetCommand
 (
 aCommand
 )
