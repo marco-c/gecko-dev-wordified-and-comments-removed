@@ -37,7 +37,6 @@ FAQ
 at
 :
 https
-\
 :
 /
 /
