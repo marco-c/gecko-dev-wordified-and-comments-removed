@@ -15496,9 +15496,6 @@ AsElement
 if
 (
 aParent
-&
-&
-aParent
 -
 >
 Elm
