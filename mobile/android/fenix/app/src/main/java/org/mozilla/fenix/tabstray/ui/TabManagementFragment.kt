@@ -2823,6 +2823,9 @@ expandedGroup
 )
 )
 }
+tabInteractionHandler
+=
+tabInteractionHandler
 )
 }
 entry
