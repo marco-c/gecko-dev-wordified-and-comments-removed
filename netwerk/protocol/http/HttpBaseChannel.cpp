@@ -9432,6 +9432,7 @@ SetHeader
 aHeader
 flatValue
 aMerge
+aVariety
 )
 ;
 }
