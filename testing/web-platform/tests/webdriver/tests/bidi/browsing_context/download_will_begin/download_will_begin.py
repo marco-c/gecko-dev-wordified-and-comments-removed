@@ -531,6 +531,12 @@ context
 ]
             
 "
+download
+"
+:
+any_string
+            
+"
 navigation
 "
 :
@@ -906,6 +912,12 @@ context
 ]
             
 "
+download
+"
+:
+any_string
+            
+"
 navigation
 "
 :
@@ -1267,6 +1279,12 @@ new_tab
 context
 "
 ]
+            
+"
+download
+"
+:
+any_string
             
 "
 navigation
