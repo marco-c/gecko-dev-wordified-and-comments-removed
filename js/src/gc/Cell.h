@@ -4173,7 +4173,7 @@ get
 if
 JS_GC_CONCURRENT_MARKING
 uintptr_t
-headerFlagsForTracing
+headerFlagsFieldForTracing
 (
 )
 const
@@ -4199,7 +4199,7 @@ getAtomic
 #
 else
 uintptr_t
-headerFlagsForTracing
+headerFlagsFieldForTracing
 (
 )
 const

@@ -338,7 +338,7 @@ base
 shape
 -
 >
-base
+headerPtrForTracing
 (
 )
 ;
@@ -371,7 +371,9 @@ asNative
 (
 )
 .
-propMap
+propMap_
+.
+getForTracing
 (
 )
 )
@@ -432,15 +434,6 @@ baseshape_global
 )
 ;
 }
-if
-(
-proto_
-.
-isObject
-(
-)
-)
-{
 TraceEdge
 (
 trc
@@ -451,7 +444,6 @@ baseshape_proto
 "
 )
 ;
-}
 }
 template
 <
@@ -515,7 +507,9 @@ proto
 base
 -
 >
-proto
+proto_
+.
+getForTracing
 (
 )
 ;
