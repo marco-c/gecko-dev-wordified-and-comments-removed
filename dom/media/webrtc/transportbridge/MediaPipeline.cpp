@@ -1061,10 +1061,6 @@ aChannels
 )
 ;
 }
-MOZ_ALWAYS_TRUE
-(
-NS_SUCCEEDED
-(
 mPacketizer
 -
 >
@@ -1072,8 +1068,6 @@ Input
 (
 aAudioData
 aFrameCount
-)
-)
 )
 ;
 while

@@ -67,12 +67,7 @@ aBase
 )
 {
 }
-[
-[
-nodiscard
-]
-]
-nsresult
+void
 Input
 (
 const
@@ -83,7 +78,6 @@ uint32_t
 aFrameCount
 )
 {
-return
 mPacketizer
 .
 Input
