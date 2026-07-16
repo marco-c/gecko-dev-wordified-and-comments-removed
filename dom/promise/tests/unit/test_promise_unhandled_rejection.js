@@ -154,6 +154,13 @@ Promise
 executeSoon
 )
 ;
+await
+new
+Promise
+(
+executeSoon
+)
+;
 }
 )
 ;
