@@ -13884,11 +13884,17 @@ windowMode
 .
 catch
 (
+e
+=
+>
 lazy
 .
 logger
 .
 error
+(
+e
+)
 )
 ;
 this
