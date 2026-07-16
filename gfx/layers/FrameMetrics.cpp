@@ -1375,6 +1375,10 @@ GetDestination
 relativeOffset
 )
 ;
+RecalculateLayoutViewportOffset
+(
+)
+;
 mScrollGeneration
 =
 aInfo

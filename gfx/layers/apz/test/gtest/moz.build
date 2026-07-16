@@ -103,6 +103,11 @@ TestFlingAcceleration
 cpp
 "
 "
+TestFrameMetrics
+.
+cpp
+"
+"
 TestGestureDetector
 .
 cpp
