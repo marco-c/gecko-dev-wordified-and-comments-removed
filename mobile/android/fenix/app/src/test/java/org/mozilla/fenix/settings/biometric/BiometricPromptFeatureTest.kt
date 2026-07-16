@@ -249,7 +249,7 @@ biometric
 .
 ext
 .
-isBiometricHardwareAvailable
+isHardwareAvailable
 import
 org
 .
@@ -368,7 +368,7 @@ verify
 {
 manager
 .
-isBiometricHardwareAvailable
+isHardwareAvailable
 (
 )
 }

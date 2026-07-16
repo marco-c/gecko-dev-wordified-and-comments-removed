@@ -179,7 +179,7 @@ biometric
 .
 ext
 .
-isBiometricHardwareAvailable
+isHardwareAvailable
 /
 *
 *
@@ -551,7 +551,7 @@ Boolean
 =
 manager
 .
-isBiometricHardwareAvailable
+isHardwareAvailable
 (
 )
 &

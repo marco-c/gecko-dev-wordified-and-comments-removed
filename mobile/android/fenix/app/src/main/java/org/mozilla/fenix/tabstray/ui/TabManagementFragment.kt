@@ -721,7 +721,7 @@ biometric
 .
 ext
 .
-isDeviceLockCapable
+isHardwareAvailable
 import
 org
 .
@@ -3484,7 +3484,7 @@ requireContext
 )
 )
 .
-isDeviceLockCapable
+isHardwareAvailable
 (
 )
 privateLockEnabled
