@@ -1,5 +1,11 @@
 (
-external_helper_app_service
+external
+-
+helper
+-
+app
+-
+service
 )
 =
 #
@@ -239,7 +245,11 @@ URI
 Loader
 Service
 <
-uri_loader_service
+uri
+-
+loader
+-
+service
 >
 determines
 whether
