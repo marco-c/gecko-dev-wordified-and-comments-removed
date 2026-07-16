@@ -2522,11 +2522,6 @@ RTCPeerConnectionIceEvent
 "
 readonly
 "
-RTCPeerConnectionStatic
-:
-"
-readonly
-"
 RTCRtpReceiver
 :
 "

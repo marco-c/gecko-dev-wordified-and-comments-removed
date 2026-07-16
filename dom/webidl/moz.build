@@ -6822,11 +6822,6 @@ RTCPeerConnection
 webidl
 "
 "
-RTCPeerConnectionStatic
-.
-webidl
-"
-"
 RTCRtpCapabilities
 .
 webidl
