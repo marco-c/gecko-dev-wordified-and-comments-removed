@@ -1112,6 +1112,8 @@ const
 MediaInfo
 &
 aInfo
+StartType
+aStartType
 )
 {
 AssertOwnerThread
@@ -1139,6 +1141,7 @@ Start
 (
 aStartTime
 aInfo
+aStartType
 )
 ;
 mHasVideo

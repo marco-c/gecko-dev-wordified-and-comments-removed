@@ -1101,6 +1101,11 @@ MediaSink
 >
 mMediaSink
 ;
+bool
+mStartSinkAfterSeek
+=
+false
+;
 media
 :
 :

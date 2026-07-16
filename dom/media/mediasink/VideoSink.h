@@ -286,6 +286,13 @@ const
 MediaInfo
 &
 aInfo
+StartType
+aStartType
+=
+StartType
+:
+:
+Initial
 )
 override
 ;
