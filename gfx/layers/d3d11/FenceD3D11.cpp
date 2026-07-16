@@ -972,6 +972,13 @@ ID3D11Fence
 >
 fence
 ;
+{
+MutexAutoLock
+lock
+(
+mMutex
+)
+;
 auto
 it
 =
@@ -1133,6 +1140,7 @@ it
 >
 second
 ;
+}
 }
 if
 (
