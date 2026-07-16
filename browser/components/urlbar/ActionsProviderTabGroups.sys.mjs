@@ -875,11 +875,6 @@ new
 ActionsResult
 (
 {
-providerName
-:
-this
-.
-name
 key
 l10nId
 l10nArgs

@@ -758,11 +758,6 @@ let
 result
 =
 {
-providerName
-:
-this
-.
-name
 key
 l10nId
 :
