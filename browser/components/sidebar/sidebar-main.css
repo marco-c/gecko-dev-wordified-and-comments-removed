@@ -276,17 +276,6 @@ css
 /
 width
 :
-var
-(
--
--
-sidebar
--
-expanded
--
-launcher
--
-width
 calc
 (
 var
@@ -337,7 +326,6 @@ expanded
 )
 +
 1px
-)
 )
 ;
 }
