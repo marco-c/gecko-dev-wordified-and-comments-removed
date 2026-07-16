@@ -3077,6 +3077,18 @@ Result
 )
 >
 {
+let
+storage_name
+=
+Self
+:
+:
+get_storage_key
+(
+storage_name
+None
+)
+;
 if
 let
 Some
@@ -3121,6 +3133,7 @@ metric_id
 .
 starts_with
 (
+&
 storage_name
 )
 )
@@ -3162,6 +3175,7 @@ iter_from
 (
 &
 writer
+&
 storage_name
 )
 ?
@@ -3209,6 +3223,7 @@ metric_id
 .
 starts_with
 (
+&
 storage_name
 )
 {
