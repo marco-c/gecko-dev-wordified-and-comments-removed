@@ -6758,6 +6758,12 @@ components
 :
 concept
 -
+integrity
+-
+components
+:
+concept
+-
 menu
 -
 components
@@ -6809,6 +6815,14 @@ components
 lib
 -
 dataprotect
+-
+components
+:
+lib
+-
+integrity
+-
+googleplay
 -
 components
 :
