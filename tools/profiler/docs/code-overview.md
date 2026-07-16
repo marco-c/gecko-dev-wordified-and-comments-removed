@@ -5995,8 +5995,7 @@ are
 responsible
 for
 :
-\
-*
+-
 Creating
 chunks
 for
@@ -6016,8 +6015,7 @@ are
 actually
 needed
 .
-\
-*
+-
 Taking
 back
 and
@@ -6035,8 +6033,7 @@ when
 full
 )
 .
-\
-*
+-
 Automatically
 destroying
 or
@@ -6046,8 +6043,7 @@ oldest
 released
 chunks
 .
-\
-*
+-
 Giving
 temporary
 access
@@ -10179,8 +10175,7 @@ Profiler
 such
 as
 :
-\
-*
+-
 Converting
 a
 timestamp
@@ -10207,8 +10202,7 @@ at
 the
 end
 .
-\
-*
+-
 Adding
 a
 number
@@ -10216,8 +10210,7 @@ of
 null
 elements
 .
-\
-*
+-
 Adding
 a
 unique

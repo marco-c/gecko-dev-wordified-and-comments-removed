@@ -44,9 +44,7 @@ regular
 integration
 branch
 .
->
 shell
->
 mach
 try
 fuzzy
@@ -58,7 +56,6 @@ doc
 -
 generate
 "
->
 -
 doc
 -
@@ -110,9 +107,7 @@ the
 committed
 changes
 .
->
 shell
->
 mach
 try
 fuzzy
@@ -124,7 +119,6 @@ doc
 -
 upload
 "
->
 When
 the
 documentation
