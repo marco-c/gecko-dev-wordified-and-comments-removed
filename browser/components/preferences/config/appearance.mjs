@@ -2180,6 +2180,11 @@ svg
 headingLevel
 :
 2
+subcategory
+:
+"
+windowDensity
+"
 items
 :
 [

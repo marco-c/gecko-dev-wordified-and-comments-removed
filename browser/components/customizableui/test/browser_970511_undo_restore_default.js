@@ -34,6 +34,16 @@ show
 "
 true
 ]
+[
+"
+browser
+.
+nova
+.
+enabled
+"
+false
+]
 ]
 }
 )
