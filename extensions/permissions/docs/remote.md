@@ -326,7 +326,7 @@ testExactPermissionFromPrincipal
 (
 manager
 .
-html
+md
 #
 testexactpermissionfromprincipal
 )
