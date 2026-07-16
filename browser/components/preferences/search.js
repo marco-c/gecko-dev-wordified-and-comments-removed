@@ -1599,6 +1599,7 @@ aEngine
 .
 originalEngine
 aNewIndex
+null
 true
 )
 ;
@@ -1993,6 +1994,7 @@ moveEngine
 (
 engine
 i
+null
 true
 )
 ;

@@ -1178,6 +1178,13 @@ js
 ]
 [
 "
+test_settings_migrate_14
+.
+js
+"
+]
+[
+"
 test_settings_migrate_id_format
 .
 js

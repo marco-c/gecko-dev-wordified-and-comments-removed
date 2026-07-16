@@ -94,6 +94,13 @@ focusable
 ]
 [
 "
+browser_search_engineList_enterprise
+.
+js
+"
+]
+[
+"
 browser_search_engine_reorder
 .
 js
