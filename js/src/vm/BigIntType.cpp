@@ -5386,7 +5386,6 @@ std
 :
 bit_and
 <
-Digit
 >
 (
 )
@@ -5426,7 +5425,6 @@ std
 :
 bit_or
 <
-Digit
 >
 (
 )
@@ -5518,7 +5516,6 @@ std
 :
 bit_xor
 <
-Digit
 >
 (
 )
