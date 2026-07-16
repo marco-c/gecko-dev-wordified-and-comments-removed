@@ -876,9 +876,11 @@ iconListImage
 includes
 (
 "
-icon32
+about
+-
+logo
 .
-png
+svg
 "
 )
 "
