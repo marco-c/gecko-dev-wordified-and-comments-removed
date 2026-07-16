@@ -19794,6 +19794,9 @@ raw
 Add
 "
 }
+alwaysShowPinButton
+:
+true
 data
 :
 [
@@ -20241,6 +20244,11 @@ raw
 Done
 "
 }
+disabled
+:
+"
+hasPinnedSite
+"
 action
 :
 {

@@ -2581,6 +2581,13 @@ props
 .
 handleAction
 }
+setPinnedSite
+=
+{
+props
+.
+setPinnedSite
+}
 /
 >
 )
