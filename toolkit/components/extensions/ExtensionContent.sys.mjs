@@ -6051,6 +6051,9 @@ contentWindow
 wantXrays
 :
 true
+isWebExtensionContentScript
+:
+true
 wantGlobalProperties
 :
 [
