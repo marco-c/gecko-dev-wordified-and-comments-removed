@@ -1786,7 +1786,7 @@ iconsR
 .
 drawable
 .
-mozac_ic_camera_24
+mozac_ic_search_24
 )
 contentDescription
 =
