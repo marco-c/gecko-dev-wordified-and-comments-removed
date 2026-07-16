@@ -640,5 +640,12 @@ SOURCE_TRUST_PANEL
 "
 trust_panel
 "
+const
+val
+SOURCE_DEEPLINK
+=
+"
+deeplink
+"
 }
 }
