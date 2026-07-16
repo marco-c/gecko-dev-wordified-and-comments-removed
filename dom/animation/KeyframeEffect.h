@@ -736,7 +736,6 @@ ErrorResult
 &
 aRv
 )
-const
 ;
 void
 GetProperties
@@ -872,6 +871,10 @@ const
 AnimationTimeline
 *
 aTimeline
+const
+AnimationRange
+*
+aRange
 )
 ;
 void
@@ -1295,6 +1298,10 @@ const
 AnimationTimeline
 *
 aTimelne
+const
+AnimationRange
+&
+aRange
 )
 ;
 protected
