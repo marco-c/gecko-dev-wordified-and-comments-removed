@@ -58,6 +58,7 @@ mjs
 const
 {
 GET_OPEN_TABS
+MAX_TABS
 }
 =
 ChromeUtils
@@ -127,11 +128,6 @@ const
 MAX_METADATA_LENGTH
 =
 100
-;
-const
-MAX_TABS
-=
-15
 ;
 function
 pinLastAccessed
