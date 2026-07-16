@@ -1003,6 +1003,17 @@ com
 js
 "
 "
+bug1940173
+-
+bambulab
+.
+com
+-
+fix_image_flickering
+.
+css
+"
+"
 bug1941530
 -
 climate
