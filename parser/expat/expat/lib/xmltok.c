@@ -48,6 +48,13 @@ h
 #
 include
 "
+fallthrough
+.
+h
+"
+#
+include
+"
 xmltok
 .
 h
@@ -3713,12 +3720,8 @@ break
 \
 }
 \
-/
-*
-fall
-through
-*
-/
+EXPAT_FALLTHROUGH
+;
 \
 case
 0x1
@@ -9339,6 +9342,8 @@ state
 XML_CONTENT_STATE
 )
 break
+;
+EXPAT_FALLTHROUGH
 ;
 case
 0x00

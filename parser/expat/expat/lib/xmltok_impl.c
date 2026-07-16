@@ -243,12 +243,8 @@ XML_TOK_INVALID
 \
 }
 \
-/
-*
-fall
-through
-*
-/
+EXPAT_FALLTHROUGH
+;
 \
 case
 BT_NMSTRT
@@ -422,12 +418,8 @@ XML_TOK_INVALID
 \
 }
 \
-/
-*
-fall
-through
-*
-/
+EXPAT_FALLTHROUGH
+;
 \
 case
 BT_NMSTRT
@@ -938,6 +930,8 @@ return
 XML_TOK_INVALID
 ;
 }
+EXPAT_FALLTHROUGH
+;
 case
 BT_S
 :
@@ -1454,6 +1448,8 @@ return
 tok
 ;
 }
+EXPAT_FALLTHROUGH
+;
 default
 :
 *
@@ -2861,6 +2857,8 @@ XML_TOK_INVALID
 ;
 }
 }
+EXPAT_FALLTHROUGH
+;
 case
 BT_EQUALS
 :
@@ -4270,6 +4268,8 @@ XML_TOK_INVALID
 ;
 }
 }
+EXPAT_FALLTHROUGH
+;
 case
 BT_AMP
 :
@@ -5036,6 +5036,8 @@ return
 XML_TOK_PROLOG_S
 ;
 }
+EXPAT_FALLTHROUGH
+;
 case
 BT_S
 :
@@ -5101,6 +5103,8 @@ enc
 end
 )
 break
+;
+EXPAT_FALLTHROUGH
 ;
 default
 :
@@ -5675,6 +5679,8 @@ XML_TOK_NMTOKEN
 break
 ;
 }
+EXPAT_FALLTHROUGH
+;
 default
 :
 *
@@ -7078,6 +7084,8 @@ ptr
 )
 )
 break
+;
+EXPAT_FALLTHROUGH
 ;
 default
 :

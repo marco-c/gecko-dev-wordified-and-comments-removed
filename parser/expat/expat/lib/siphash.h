@@ -19,6 +19,13 @@ stdint
 h
 >
 #
+include
+"
+fallthrough
+.
+h
+"
+#
 define
 SIP_ULL
 (
@@ -1117,6 +1124,8 @@ buf
 <
 48
 ;
+EXPAT_FALLTHROUGH
+;
 case
 6
 :
@@ -1136,6 +1145,8 @@ buf
 <
 <
 40
+;
+EXPAT_FALLTHROUGH
 ;
 case
 5
@@ -1157,6 +1168,8 @@ buf
 <
 32
 ;
+EXPAT_FALLTHROUGH
+;
 case
 4
 :
@@ -1176,6 +1189,8 @@ buf
 <
 <
 24
+;
+EXPAT_FALLTHROUGH
 ;
 case
 3
@@ -1197,6 +1212,8 @@ buf
 <
 16
 ;
+EXPAT_FALLTHROUGH
+;
 case
 2
 :
@@ -1217,6 +1234,8 @@ buf
 <
 8
 ;
+EXPAT_FALLTHROUGH
+;
 case
 1
 :
@@ -1236,6 +1255,8 @@ buf
 <
 <
 0
+;
+EXPAT_FALLTHROUGH
 ;
 case
 0
