@@ -2268,6 +2268,11 @@ template
 <
 TreeKind
 aKind
+=
+TreeKind
+:
+:
+ShadowIncludingDOM
 >
 static
 mozilla
@@ -2302,6 +2307,11 @@ template
 <
 TreeKind
 aKind
+=
+TreeKind
+:
+:
+ShadowIncludingDOM
 typename
 PT1
 typename
@@ -2354,6 +2364,11 @@ template
 <
 TreeKind
 aKind
+=
+TreeKind
+:
+:
+ShadowIncludingDOM
 >
 static
 mozilla
@@ -9636,6 +9651,11 @@ template
 <
 TreeKind
 aKind
+=
+TreeKind
+:
+:
+ShadowIncludingDOM
 >
 static
 mozilla
