@@ -224,11 +224,6 @@ RPMShowOSXLocalNetworkPermissionWarning
 "
 readonly
 "
-RPMIsSSLKeyLoggingEnabled
-:
-"
-readonly
-"
 }
 }
 ;
