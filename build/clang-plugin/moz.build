@@ -272,6 +272,11 @@ RefCountedThisInsideConstructorChecker
 cpp
 "
 "
+Registration
+.
+cpp
+"
+"
 ScopeChecker
 .
 cpp
@@ -368,6 +373,14 @@ ENABLE_MOZSEARCH_PLUGIN
 "
 ]
 :
+HOST_DEFINES
+[
+"
+ENABLE_MOZSEARCH_PLUGIN
+"
+]
+=
+True
 HOST_SOURCES
 +
 =
