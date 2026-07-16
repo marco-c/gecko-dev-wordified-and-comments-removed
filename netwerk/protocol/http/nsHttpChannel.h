@@ -3524,6 +3524,15 @@ bool
 >
 mSuspendAfterExamineResponse
 ;
+Atomic
+<
+bool
+>
+mSuspendedForExamineResponse
+{
+false
+}
+;
 bool
 mWritingToCache
 =
