@@ -832,6 +832,13 @@ html
 ]
 [
 "
+test_videocontrols_muted_attr
+.
+html
+"
+]
+[
+"
 test_videocontrols_scrubber_position
 .
 html
