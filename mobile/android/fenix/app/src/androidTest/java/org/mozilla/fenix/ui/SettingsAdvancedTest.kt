@@ -1199,17 +1199,6 @@ privateBrowsingAskBeforeOpeningLinkInAppCancelTest
 (
 )
 {
-TestHelper
-.
-appContext
-.
-components
-.
-settings
-.
-shouldShowCookieBannersCFR
-=
-false
 composeTestRule
 .
 activityRule
