@@ -4635,6 +4635,10 @@ mPacketizerInput
 mChannels
 )
 ;
+MOZ_ALWAYS_TRUE
+(
+NS_SUCCEEDED
+(
 mPacketizerInput
 -
 >
@@ -4651,6 +4655,8 @@ uint32_t
 >
 (
 frameCount
+)
+)
 )
 )
 ;

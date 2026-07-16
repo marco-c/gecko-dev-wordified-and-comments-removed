@@ -463,6 +463,10 @@ channels
 prevEnd
 )
 ;
+EXPECT_TRUE
+(
+NS_SUCCEEDED
+(
 ap
 .
 Input
@@ -473,6 +477,8 @@ Get
 (
 )
 441
+)
+)
 )
 ;
 std
@@ -603,6 +609,10 @@ channels
 seqEnd
 )
 ;
+EXPECT_TRUE
+(
+NS_SUCCEEDED
+(
 ap
 .
 Input
@@ -614,7 +624,13 @@ Get
 )
 441
 )
+)
+)
 ;
+EXPECT_TRUE
+(
+NS_SUCCEEDED
+(
 ap
 .
 Input
@@ -625,6 +641,8 @@ Get
 (
 )
 441
+)
+)
 )
 ;
 std
@@ -781,6 +799,10 @@ channels
 prevSeq
 )
 ;
+EXPECT_TRUE
+(
+NS_SUCCEEDED
+(
 ap
 .
 Input
@@ -792,7 +814,13 @@ Get
 )
 480
 )
+)
+)
 ;
+EXPECT_TRUE
+(
+NS_SUCCEEDED
+(
 ap
 .
 Input
@@ -803,6 +831,8 @@ Get
 (
 )
 480
+)
+)
 )
 ;
 std
@@ -1012,6 +1042,10 @@ phase
 +
 ;
 }
+EXPECT_TRUE
+(
+NS_SUCCEEDED
+(
 ap
 .
 Input
@@ -1022,6 +1056,8 @@ Get
 (
 )
 128
+)
+)
 )
 ;
 while
@@ -1162,6 +1198,10 @@ Get
 channels
 )
 ;
+EXPECT_TRUE
+(
+NS_SUCCEEDED
+(
 ap
 .
 Input
@@ -1172,6 +1212,8 @@ Get
 (
 )
 440
+)
+)
 )
 ;
 EXPECT_EQ
@@ -1361,6 +1403,10 @@ channels
 prevSeq
 )
 ;
+EXPECT_TRUE
+(
+NS_SUCCEEDED
+(
 tp
 .
 Input
@@ -1371,6 +1417,8 @@ Get
 (
 )
 inputPacketSize
+)
+)
 )
 ;
 while
