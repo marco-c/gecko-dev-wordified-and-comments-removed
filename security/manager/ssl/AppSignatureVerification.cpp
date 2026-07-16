@@ -4058,6 +4058,16 @@ get
 )
 )
 ;
+if
+(
+!
+key
+)
+{
+return
+false
+;
+}
 SECItem
 signatureItem
 =
