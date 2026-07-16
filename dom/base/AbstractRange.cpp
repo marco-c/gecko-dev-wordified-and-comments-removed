@@ -1899,7 +1899,7 @@ ComparePoints
 TreeKind
 :
 :
-Flat
+FlatForSelection
 >
 (
 aStartBoundary
@@ -4361,7 +4361,7 @@ IsDisplayContents
 return
 ;
 }
-FlattenedChildIterator
+FlattenedChildIteratorForSelection
 childIter
 (
 content
