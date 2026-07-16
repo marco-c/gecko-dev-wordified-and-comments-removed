@@ -3048,6 +3048,7 @@ scheduleDumpToFile
 (
 delaySeconds
 timeoutProfilePath
+true
 )
 ;
 scheduledProfileDump

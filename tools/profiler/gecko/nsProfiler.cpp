@@ -1943,12 +1943,15 @@ const
 char
 *
 aFilename
+bool
+aExitAfterDump
 )
 {
 profiler_schedule_dump_to_file
 (
 aDelaySeconds
 aFilename
+aExitAfterDump
 )
 ;
 return
