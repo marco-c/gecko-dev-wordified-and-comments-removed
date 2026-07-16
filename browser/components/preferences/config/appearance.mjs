@@ -2486,7 +2486,9 @@ browser
 /
 skin
 /
-customize
+sidebar
+/
+firefox
 .
 svg
 "

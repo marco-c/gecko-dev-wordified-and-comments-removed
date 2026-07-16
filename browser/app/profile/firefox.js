@@ -1765,7 +1765,7 @@ customIcon
 .
 enabled
 "
-false
+true
 )
 ;
 pref
