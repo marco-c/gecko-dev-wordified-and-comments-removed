@@ -1748,7 +1748,7 @@ DOM
 }
 if
 (
-RawRefType
+nsIContent
 *
 const
 child
@@ -1929,6 +1929,7 @@ std
 :
 enable_if_t
 <
+!
 std
 :
 :
@@ -1938,7 +1939,6 @@ RawParentType
 >
 |
 |
-!
 std
 :
 :
