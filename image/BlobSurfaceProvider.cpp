@@ -1708,10 +1708,17 @@ Size
 (
 )
 0
+*
+wr
+:
+:
+SurfaceFormatToImageFormat
+(
 SurfaceFormat
 :
 :
 OS_RGBA
+)
 wr
 :
 :
