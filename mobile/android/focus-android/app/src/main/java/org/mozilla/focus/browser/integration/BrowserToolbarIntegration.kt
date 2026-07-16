@@ -323,6 +323,16 @@ compose
 .
 cfr
 .
+CFRPopupBackground
+import
+mozilla
+.
+components
+.
+compose
+.
+cfr
+.
 CFRPopupProperties
 import
 mozilla
@@ -1756,6 +1766,10 @@ PopupAlignment
 INDICATOR_CENTERED_IN_ANCHOR
 popupBodyColors
 =
+CFRPopupBackground
+.
+Colors
+(
 listOf
 (
 ContextCompat
@@ -1787,6 +1801,7 @@ R
 color
 .
 cfr_pop_up_shape_start_color
+)
 )
 )
 dismissButtonColor
@@ -1977,6 +1992,10 @@ PopupAlignment
 BODY_TO_ANCHOR_START
 popupBodyColors
 =
+CFRPopupBackground
+.
+Colors
+(
 listOf
 (
 ContextCompat
@@ -2008,6 +2027,7 @@ R
 color
 .
 cfr_pop_up_shape_start_color
+)
 )
 )
 dismissButtonColor
@@ -2253,6 +2273,10 @@ PopupAlignment
 INDICATOR_CENTERED_IN_ANCHOR
 popupBodyColors
 =
+CFRPopupBackground
+.
+Colors
+(
 listOf
 (
 ContextCompat
@@ -2284,6 +2308,7 @@ R
 color
 .
 cfr_pop_up_shape_start_color
+)
 )
 )
 dismissButtonColor

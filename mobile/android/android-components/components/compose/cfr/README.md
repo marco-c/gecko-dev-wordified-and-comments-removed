@@ -57,6 +57,10 @@ popupAlignment
 INDICATOR_CENTERED_IN_ANCHOR
 popupBodyColors
 =
+CFRPopupBackground
+.
+Colors
+(
 listOf
 (
 ContextCompat
@@ -80,6 +84,7 @@ R
 color
 .
 color2
+)
 )
 )
 dismissButtonColor
@@ -121,7 +126,7 @@ string1
 )
 style
 =
-MaterialTheme
+AcornTheme
 .
 typography
 .
