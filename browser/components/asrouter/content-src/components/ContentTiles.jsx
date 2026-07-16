@@ -2315,13 +2315,6 @@ props
 .
 messageId
 }
-handleAction
-=
-{
-props
-.
-handleAction
-}
 /
 >
 )

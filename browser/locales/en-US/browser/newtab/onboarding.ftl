@@ -5306,16 +5306,6 @@ label
 =
 Remove
 checklist
-onboarding
--
-checklist
--
-remove
--
-2
-=
-Remove
-checklist
 #
 #
 Tab

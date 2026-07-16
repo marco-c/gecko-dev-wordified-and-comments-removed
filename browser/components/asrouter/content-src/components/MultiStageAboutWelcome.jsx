@@ -4900,7 +4900,6 @@ context
 ;
 if
 (
-(
 value
 =
 =
@@ -4914,12 +4913,6 @@ dismiss_button
 event
 .
 name
-)
-|
-|
-action
-.
-sendDismissTelemetry
 )
 {
 MultiStageUtils
