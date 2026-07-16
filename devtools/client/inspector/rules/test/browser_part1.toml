@@ -1153,6 +1153,13 @@ js
 ]
 [
 "
+browser_rules_cssom_element
+.
+js
+"
+]
+[
+"
 browser_rules_cubicbezier
 -
 appears
@@ -1940,6 +1947,13 @@ debug
 #
 Bug
 1781473
+]
+[
+"
+browser_rules_stylesheet_text
+.
+js
+"
 ]
 [
 "
