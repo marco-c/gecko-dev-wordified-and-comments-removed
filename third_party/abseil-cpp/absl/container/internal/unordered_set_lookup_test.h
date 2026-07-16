@@ -87,9 +87,6 @@ Count
 using
 T
 =
-hash_internal
-:
-:
 GeneratedType
 <
 TypeParam
@@ -117,9 +114,6 @@ back_inserter
 values
 )
 10
-hash_internal
-:
-:
 Generator
 <
 T
@@ -219,9 +213,6 @@ Find
 using
 T
 =
-hash_internal
-:
-:
 GeneratedType
 <
 TypeParam
@@ -249,9 +240,6 @@ back_inserter
 values
 )
 10
-hash_internal
-:
-:
 Generator
 <
 T
@@ -345,7 +333,7 @@ static_assert
 std
 :
 :
-is_same
+is_same_v
 <
 const
 typename
@@ -360,9 +348,6 @@ decltype
 it
 )
 >
-:
-:
-value
 "
 "
 )
@@ -451,9 +436,6 @@ EqualRange
 using
 T
 =
-hash_internal
-:
-:
 GeneratedType
 <
 TypeParam
@@ -481,9 +463,6 @@ back_inserter
 values
 )
 10
-hash_internal
-:
-:
 Generator
 <
 T

@@ -843,6 +843,9 @@ Milliseconds
 )
 )
 ;
+#
+ifndef
+_MSC_VER
 EXPECT_LT
 (
 waited
@@ -855,6 +858,8 @@ Seconds
 )
 )
 ;
+#
+endif
 }
 TYPED_TEST_P
 (
@@ -933,6 +938,9 @@ Milliseconds
 )
 )
 ;
+#
+ifndef
+_MSC_VER
 EXPECT_LT
 (
 waited
@@ -945,6 +953,8 @@ Seconds
 )
 )
 ;
+#
+endif
 }
 TYPED_TEST_P
 (
@@ -1025,6 +1035,9 @@ Milliseconds
 )
 )
 ;
+#
+ifndef
+_MSC_VER
 EXPECT_LT
 (
 waited
@@ -1037,6 +1050,8 @@ Seconds
 )
 )
 ;
+#
+endif
 }
 REGISTER_TYPED_TEST_SUITE_P
 (

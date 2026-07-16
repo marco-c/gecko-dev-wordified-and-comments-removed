@@ -86,6 +86,11 @@ cstring
 >
 #
 include
+<
+optional
+>
+#
+include
 "
 absl
 /
@@ -94,17 +99,6 @@ random
 internal
 /
 platform
-.
-h
-"
-#
-include
-"
-absl
-/
-types
-/
-optional
 .
 h
 "
@@ -520,7 +514,7 @@ typename
 T
 >
 static
-absl
+std
 :
 :
 optional
@@ -570,7 +564,7 @@ ret
 )
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -860,7 +854,7 @@ CAP_BIT_FEAT_AES
 )
 static
 const
-absl
+std
 :
 :
 optional
@@ -934,7 +928,7 @@ kNeonAndAesCaps
 endif
 static
 const
-absl
+std
 :
 :
 optional
@@ -976,7 +970,7 @@ false
 }
 static
 const
-absl
+std
 :
 :
 optional

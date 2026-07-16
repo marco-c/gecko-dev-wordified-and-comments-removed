@@ -51,7 +51,7 @@ _MSC_VER
 &
 _MSC_VER
 <
-1920
+1930
 &
 &
 !
@@ -67,12 +67,12 @@ package
 requires
 Visual
 Studio
-2019
+2022
 (
 MSVC
 +
 +
-16
+17
 .
 0
 )
@@ -99,7 +99,7 @@ __clang__
 if
 __GNUC__
 <
-7
+10
 #
 error
 "
@@ -107,7 +107,7 @@ This
 package
 requires
 GCC
-7
+10
 or
 higher
 .

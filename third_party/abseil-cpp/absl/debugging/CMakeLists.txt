@@ -272,6 +272,10 @@ dynamic_annotations
 absl
 :
 :
+malloc_internal
+absl
+:
+:
 raw_logging_internal
 PUBLIC
 )
@@ -302,6 +306,10 @@ absl
 :
 :
 core_headers
+absl
+:
+:
+errno_saver
 absl
 :
 :
@@ -469,6 +477,10 @@ check
 absl
 :
 :
+cleanup
+absl
+:
+:
 config
 absl
 :
@@ -481,6 +493,10 @@ log
 absl
 :
 :
+malloc_internal
+absl
+:
+:
 memory
 absl
 :
@@ -490,6 +506,10 @@ absl
 :
 :
 strings
+absl
+:
+:
+str_format
 absl
 :
 :

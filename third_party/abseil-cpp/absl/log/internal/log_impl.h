@@ -70,7 +70,7 @@ STATELESS
 true
 )
 \
-ABSL_LOGGING_INTERNAL_LOG
+ABSL_LOG_INTERNAL_LOG
 #
 #
 severity
@@ -94,7 +94,7 @@ STATELESS
 true
 )
 \
-ABSL_LOGGING_INTERNAL_LOG
+ABSL_LOG_INTERNAL_LOG
 #
 #
 severity
@@ -126,7 +126,7 @@ STATELESS
 true
 )
 \
-ABSL_LOGGING_INTERNAL_DLOG
+ABSL_LOG_INTERNAL_DLOG
 #
 #
 severity
@@ -152,7 +152,7 @@ STATELESS
 false
 )
 \
-ABSL_LOGGING_INTERNAL_DLOG
+ABSL_LOG_INTERNAL_DLOG
 #
 #
 severity
@@ -173,7 +173,7 @@ switch
 (
 const
 int
-absl_logging_internal_verbose_level
+absl_log_internal_verbose_level
 =
 (
 verbose_level
@@ -193,14 +193,14 @@ ABSL_LOG_INTERNAL_LOG_IF_IMPL
 _INFO
 ABSL_VLOG_IS_ON
 (
-absl_logging_internal_verbose_level
+absl_log_internal_verbose_level
 )
 )
 \
 .
 WithVerbosity
 (
-absl_logging_internal_verbose_level
+absl_log_internal_verbose_level
 )
 #
 ifndef
@@ -216,7 +216,7 @@ switch
 (
 const
 int
-absl_logging_internal_verbose_level
+absl_log_internal_verbose_level
 =
 (
 verbose_level
@@ -236,14 +236,14 @@ ABSL_LOG_INTERNAL_DLOG_IF_IMPL
 _INFO
 ABSL_VLOG_IS_ON
 (
-absl_logging_internal_verbose_level
+absl_log_internal_verbose_level
 )
 )
 \
 .
 WithVerbosity
 (
-absl_logging_internal_verbose_level
+absl_log_internal_verbose_level
 )
 #
 else
@@ -258,7 +258,7 @@ switch
 (
 const
 int
-absl_logging_internal_verbose_level
+absl_log_internal_verbose_level
 =
 (
 verbose_level
@@ -281,14 +281,14 @@ false
 &
 ABSL_VLOG_IS_ON
 (
-absl_logging_internal_verbose_level
+absl_log_internal_verbose_level
 )
 )
 \
 .
 WithVerbosity
 (
-absl_logging_internal_verbose_level
+absl_log_internal_verbose_level
 )
 #
 endif
@@ -309,7 +309,7 @@ STATELESS
 condition
 )
 \
-ABSL_LOGGING_INTERNAL_LOG
+ABSL_LOG_INTERNAL_LOG
 #
 #
 severity
@@ -334,7 +334,7 @@ STATELESS
 condition
 )
 \
-ABSL_LOGGING_INTERNAL_LOG
+ABSL_LOG_INTERNAL_LOG
 #
 #
 severity
@@ -367,7 +367,7 @@ STATELESS
 condition
 )
 \
-ABSL_LOGGING_INTERNAL_DLOG
+ABSL_LOG_INTERNAL_DLOG
 #
 #
 severity
@@ -399,7 +399,7 @@ condition
 )
 )
 \
-ABSL_LOGGING_INTERNAL_DLOG
+ABSL_LOG_INTERNAL_DLOG
 #
 #
 severity
@@ -430,7 +430,7 @@ EveryN
 n
 )
 \
-ABSL_LOGGING_INTERNAL_LOG
+ABSL_LOG_INTERNAL_LOG
 #
 #
 severity
@@ -459,7 +459,7 @@ FirstN
 n
 )
 \
-ABSL_LOGGING_INTERNAL_LOG
+ABSL_LOG_INTERNAL_LOG
 #
 #
 severity
@@ -486,7 +486,7 @@ true
 EveryPow2
 )
 \
-ABSL_LOGGING_INTERNAL_LOG
+ABSL_LOG_INTERNAL_LOG
 #
 #
 severity
@@ -515,7 +515,7 @@ EveryNSec
 n_seconds
 )
 \
-ABSL_LOGGING_INTERNAL_LOG
+ABSL_LOG_INTERNAL_LOG
 #
 #
 severity
@@ -544,7 +544,7 @@ EveryN
 n
 )
 \
-ABSL_LOGGING_INTERNAL_LOG
+ABSL_LOG_INTERNAL_LOG
 #
 #
 severity
@@ -578,7 +578,7 @@ FirstN
 n
 )
 \
-ABSL_LOGGING_INTERNAL_LOG
+ABSL_LOG_INTERNAL_LOG
 #
 #
 severity
@@ -610,7 +610,7 @@ true
 EveryPow2
 )
 \
-ABSL_LOGGING_INTERNAL_LOG
+ABSL_LOG_INTERNAL_LOG
 #
 #
 severity
@@ -644,7 +644,7 @@ EveryNSec
 n_seconds
 )
 \
-ABSL_LOGGING_INTERNAL_LOG
+ABSL_LOG_INTERNAL_LOG
 #
 #
 severity
@@ -678,7 +678,7 @@ true
 EveryN
 n
 )
-ABSL_LOGGING_INTERNAL_DLOG
+ABSL_LOG_INTERNAL_DLOG
 #
 #
 severity
@@ -704,7 +704,7 @@ true
 FirstN
 n
 )
-ABSL_LOGGING_INTERNAL_DLOG
+ABSL_LOG_INTERNAL_DLOG
 #
 #
 severity
@@ -728,7 +728,7 @@ true
 (
 EveryPow2
 )
-ABSL_LOGGING_INTERNAL_DLOG
+ABSL_LOG_INTERNAL_DLOG
 #
 #
 severity
@@ -754,7 +754,7 @@ true
 EveryNSec
 n_seconds
 )
-ABSL_LOGGING_INTERNAL_DLOG
+ABSL_LOG_INTERNAL_DLOG
 #
 #
 severity
@@ -782,7 +782,7 @@ false
 EveryN
 n
 )
-ABSL_LOGGING_INTERNAL_DLOG
+ABSL_LOG_INTERNAL_DLOG
 #
 #
 severity
@@ -808,7 +808,7 @@ false
 FirstN
 n
 )
-ABSL_LOGGING_INTERNAL_DLOG
+ABSL_LOG_INTERNAL_DLOG
 #
 #
 severity
@@ -832,7 +832,7 @@ false
 (
 EveryPow2
 )
-ABSL_LOGGING_INTERNAL_DLOG
+ABSL_LOG_INTERNAL_DLOG
 #
 #
 severity
@@ -858,7 +858,7 @@ false
 EveryNSec
 n_seconds
 )
-ABSL_LOGGING_INTERNAL_DLOG
+ABSL_LOG_INTERNAL_DLOG
 #
 #
 severity
@@ -880,7 +880,7 @@ switch
 (
 const
 int
-absl_logging_internal_verbose_level
+absl_log_internal_verbose_level
 =
 (
 verbose_level
@@ -900,7 +900,7 @@ ABSL_LOG_INTERNAL_CONDITION_INFO
 STATEFUL
 ABSL_VLOG_IS_ON
 (
-absl_logging_internal_verbose_level
+absl_log_internal_verbose_level
 )
 )
 \
@@ -908,7 +908,7 @@ absl_logging_internal_verbose_level
 EveryN
 n
 )
-ABSL_LOGGING_INTERNAL_LOG_INFO
+ABSL_LOG_INTERNAL_LOG_INFO
 .
 InternalStream
 (
@@ -917,7 +917,7 @@ InternalStream
 WithVerbosity
 (
 \
-absl_logging_internal_verbose_level
+absl_log_internal_verbose_level
 )
 #
 define
@@ -931,7 +931,7 @@ switch
 (
 const
 int
-absl_logging_internal_verbose_level
+absl_log_internal_verbose_level
 =
 (
 verbose_level
@@ -951,7 +951,7 @@ ABSL_LOG_INTERNAL_CONDITION_INFO
 STATEFUL
 ABSL_VLOG_IS_ON
 (
-absl_logging_internal_verbose_level
+absl_log_internal_verbose_level
 )
 )
 \
@@ -959,7 +959,7 @@ absl_logging_internal_verbose_level
 FirstN
 n
 )
-ABSL_LOGGING_INTERNAL_LOG_INFO
+ABSL_LOG_INTERNAL_LOG_INFO
 .
 InternalStream
 (
@@ -968,7 +968,7 @@ InternalStream
 WithVerbosity
 (
 \
-absl_logging_internal_verbose_level
+absl_log_internal_verbose_level
 )
 #
 define
@@ -981,7 +981,7 @@ switch
 (
 const
 int
-absl_logging_internal_verbose_level
+absl_log_internal_verbose_level
 =
 (
 verbose_level
@@ -1001,14 +1001,14 @@ ABSL_LOG_INTERNAL_CONDITION_INFO
 STATEFUL
 ABSL_VLOG_IS_ON
 (
-absl_logging_internal_verbose_level
+absl_log_internal_verbose_level
 )
 )
 \
 (
 EveryPow2
 )
-ABSL_LOGGING_INTERNAL_LOG_INFO
+ABSL_LOG_INTERNAL_LOG_INFO
 .
 InternalStream
 (
@@ -1017,7 +1017,7 @@ InternalStream
 WithVerbosity
 (
 \
-absl_logging_internal_verbose_level
+absl_log_internal_verbose_level
 )
 #
 define
@@ -1031,7 +1031,7 @@ switch
 (
 const
 int
-absl_logging_internal_verbose_level
+absl_log_internal_verbose_level
 =
 (
 verbose_level
@@ -1051,7 +1051,7 @@ ABSL_LOG_INTERNAL_CONDITION_INFO
 STATEFUL
 ABSL_VLOG_IS_ON
 (
-absl_logging_internal_verbose_level
+absl_log_internal_verbose_level
 )
 )
 \
@@ -1059,7 +1059,7 @@ absl_logging_internal_verbose_level
 EveryNSec
 n_seconds
 )
-ABSL_LOGGING_INTERNAL_LOG_INFO
+ABSL_LOG_INTERNAL_LOG_INFO
 .
 InternalStream
 (
@@ -1068,7 +1068,7 @@ InternalStream
 .
 WithVerbosity
 (
-absl_logging_internal_verbose_level
+absl_log_internal_verbose_level
 )
 #
 define
@@ -1092,7 +1092,7 @@ EveryN
 n
 )
 \
-ABSL_LOGGING_INTERNAL_LOG
+ABSL_LOG_INTERNAL_LOG
 #
 #
 severity
@@ -1122,7 +1122,7 @@ FirstN
 n
 )
 \
-ABSL_LOGGING_INTERNAL_LOG
+ABSL_LOG_INTERNAL_LOG
 #
 #
 severity
@@ -1150,7 +1150,7 @@ condition
 EveryPow2
 )
 \
-ABSL_LOGGING_INTERNAL_LOG
+ABSL_LOG_INTERNAL_LOG
 #
 #
 severity
@@ -1177,12 +1177,11 @@ STATEFUL
 condition
 )
 (
-EveryNSec
 \
+EveryNSec
 n_seconds
 )
-\
-ABSL_LOGGING_INTERNAL_LOG
+ABSL_LOG_INTERNAL_LOG
 #
 #
 severity
@@ -1212,7 +1211,7 @@ EveryN
 n
 )
 \
-ABSL_LOGGING_INTERNAL_LOG
+ABSL_LOG_INTERNAL_LOG
 #
 #
 severity
@@ -1247,7 +1246,7 @@ FirstN
 n
 )
 \
-ABSL_LOGGING_INTERNAL_LOG
+ABSL_LOG_INTERNAL_LOG
 #
 #
 severity
@@ -1280,7 +1279,7 @@ condition
 EveryPow2
 )
 \
-ABSL_LOGGING_INTERNAL_LOG
+ABSL_LOG_INTERNAL_LOG
 #
 #
 severity
@@ -1312,12 +1311,11 @@ STATEFUL
 condition
 )
 (
-EveryNSec
 \
+EveryNSec
 n_seconds
 )
-\
-ABSL_LOGGING_INTERNAL_LOG
+ABSL_LOG_INTERNAL_LOG
 #
 #
 severity
@@ -1355,7 +1353,7 @@ EveryN
 n
 )
 \
-ABSL_LOGGING_INTERNAL_DLOG
+ABSL_LOG_INTERNAL_DLOG
 #
 #
 severity
@@ -1385,7 +1383,7 @@ FirstN
 n
 )
 \
-ABSL_LOGGING_INTERNAL_DLOG
+ABSL_LOG_INTERNAL_DLOG
 #
 #
 severity
@@ -1413,7 +1411,7 @@ condition
 EveryPow2
 )
 \
-ABSL_LOGGING_INTERNAL_DLOG
+ABSL_LOG_INTERNAL_DLOG
 #
 #
 severity
@@ -1440,12 +1438,11 @@ STATEFUL
 condition
 )
 (
-EveryNSec
 \
+EveryNSec
 n_seconds
 )
-\
-ABSL_LOGGING_INTERNAL_DLOG
+ABSL_LOG_INTERNAL_DLOG
 #
 #
 severity
@@ -1482,7 +1479,7 @@ condition
 EveryN
 n
 )
-ABSL_LOGGING_INTERNAL_DLOG
+ABSL_LOG_INTERNAL_DLOG
 #
 #
 severity
@@ -1517,7 +1514,7 @@ condition
 FirstN
 n
 )
-ABSL_LOGGING_INTERNAL_DLOG
+ABSL_LOG_INTERNAL_DLOG
 #
 #
 severity
@@ -1550,7 +1547,7 @@ condition
 \
 EveryPow2
 )
-ABSL_LOGGING_INTERNAL_DLOG
+ABSL_LOG_INTERNAL_DLOG
 #
 #
 severity
@@ -1586,8 +1583,7 @@ condition
 EveryNSec
 n_seconds
 )
-\
-ABSL_LOGGING_INTERNAL_DLOG
+ABSL_LOG_INTERNAL_DLOG
 #
 #
 severity

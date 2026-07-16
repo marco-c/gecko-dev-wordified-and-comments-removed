@@ -307,7 +307,7 @@ v
 }
 {
 }
-inline
+constexpr
 int128
 :
 :
@@ -316,9 +316,9 @@ int128
 float
 v
 )
-{
+:
 v_
-=
+{
 static_cast
 <
 __int128
@@ -326,9 +326,10 @@ __int128
 (
 v
 )
-;
 }
-inline
+{
+}
+constexpr
 int128
 :
 :
@@ -337,9 +338,9 @@ int128
 double
 v
 )
-{
+:
 v_
-=
+{
 static_cast
 <
 __int128
@@ -347,9 +348,10 @@ __int128
 (
 v
 )
-;
 }
-inline
+{
+}
+constexpr
 int128
 :
 :
@@ -359,9 +361,9 @@ long
 double
 v
 )
-{
+:
 v_
-=
+{
 static_cast
 <
 __int128
@@ -369,7 +371,8 @@ __int128
 (
 v
 )
-;
+}
+{
 }
 constexpr
 int128
@@ -758,7 +761,7 @@ defined
 (
 __ppc64__
 )
-inline
+constexpr
 int128
 :
 :
@@ -778,7 +781,7 @@ v_
 )
 ;
 }
-inline
+constexpr
 int128
 :
 :
@@ -798,7 +801,7 @@ v_
 )
 ;
 }
-inline
+constexpr
 int128
 :
 :
@@ -822,7 +825,7 @@ v_
 }
 #
 else
-inline
+constexpr
 int128
 :
 :
@@ -892,7 +895,7 @@ this
 pow_2_64
 ;
 }
-inline
+constexpr
 int128
 :
 :
@@ -962,7 +965,7 @@ this
 pow_2_64
 ;
 }
-inline
+constexpr
 int128
 :
 :
@@ -1428,7 +1431,13 @@ rhs
 )
 ;
 }
-inline
+#
+if
+defined
+(
+ABSL_HAVE_INTRINSIC_INT128
+)
+constexpr
 int128
 operator
 *
@@ -1457,7 +1466,7 @@ rhs
 )
 ;
 }
-inline
+constexpr
 int128
 operator
 /
@@ -1486,7 +1495,7 @@ rhs
 )
 ;
 }
-inline
+constexpr
 int128
 operator
 %
@@ -1515,6 +1524,8 @@ rhs
 )
 ;
 }
+#
+endif
 inline
 int128
 int128

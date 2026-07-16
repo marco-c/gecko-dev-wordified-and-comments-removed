@@ -644,14 +644,9 @@ false
 ;
 }
 }
-absl
-:
-:
-Nullable
-<
 char
 *
->
+absl_nullable
 DecodeRustPunycode
 (
 DecodeRustPunycodeOptions

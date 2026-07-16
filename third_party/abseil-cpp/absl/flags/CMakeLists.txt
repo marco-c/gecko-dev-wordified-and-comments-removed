@@ -439,6 +439,10 @@ flags_commandlineflag_internal
 absl
 :
 :
+nullability
+absl
+:
+:
 optional
 absl
 :
@@ -541,6 +545,10 @@ config
 absl
 :
 :
+fast_type_id
+absl
+:
+:
 flags_commandlineflag
 absl
 :
@@ -622,6 +630,10 @@ absl
 :
 :
 config
+absl
+:
+:
+fast_type_id
 absl
 :
 :
@@ -1152,10 +1164,6 @@ absl
 :
 :
 int128
-absl
-:
-:
-optional
 absl
 :
 :

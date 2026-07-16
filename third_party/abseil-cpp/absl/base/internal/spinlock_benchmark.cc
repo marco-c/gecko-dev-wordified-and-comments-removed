@@ -149,14 +149,14 @@ if
 spinlock
 -
 >
-TryLock
+try_lock
 (
 )
 )
 spinlock
 -
 >
-Unlock
+unlock
 (
 )
 ;
@@ -243,6 +243,7 @@ base_internal
 SpinLockHolder
 holder
 (
+*
 spinlock
 .
 get

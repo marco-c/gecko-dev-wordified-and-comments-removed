@@ -79,14 +79,6 @@ enable_if
 !
 defined
 (
-__native_client__
-)
-&
-&
-\
-!
-defined
-(
 __INTELLISENSE__
 )
 #

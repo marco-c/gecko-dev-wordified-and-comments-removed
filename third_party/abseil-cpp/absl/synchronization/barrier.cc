@@ -72,7 +72,6 @@ Block
 MutexLock
 l
 (
-&
 this
 -
 >

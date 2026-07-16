@@ -22,6 +22,11 @@ cstdlib
 #
 include
 <
+optional
+>
+#
+include
+<
 string
 >
 #
@@ -273,7 +278,7 @@ uint32_t
 seed_material
 )
 ;
-absl
+std
 :
 :
 optional

@@ -253,13 +253,13 @@ private
 field
 "
 ]
-ABSL_LLVM_FLAGS
+ABSL_LLVM_BASE_FLAGS
 =
 [
     
 "
 -
-Wall
+Wmost
 "
     
 "
@@ -556,9 +556,32 @@ option
     
 "
 -
+Wno
+-
+unused
+-
+command
+-
+line
+-
+argument
+"
+    
+"
+-
 DNOMINMAX
 "
 ]
+ABSL_LLVM_FLAGS
+=
+[
+"
+-
+Wall
+"
+]
++
+ABSL_LLVM_BASE_FLAGS
 ABSL_LLVM_TEST_ADDITIONAL_FLAGS
 =
 [
@@ -601,6 +624,15 @@ missing
 variable
 -
 declarations
+"
+    
+"
+-
+Wno
+-
+nullability
+-
+completeness
 "
     
 "
@@ -986,9 +1018,15 @@ ABSL_LLVM_TEST_ADDITIONAL_FLAGS
 ABSL_CLANG_CL_FLAGS
 "
 :
+(
+        
 MSVC_BIG_WARNING_FLAGS
 +
 MSVC_DEFINES
++
+ABSL_LLVM_BASE_FLAGS
+    
+)
     
 "
 ABSL_CLANG_CL_TEST_FLAGS
@@ -997,10 +1035,18 @@ ABSL_CLANG_CL_TEST_FLAGS
 (
         
 MSVC_BIG_WARNING_FLAGS
+        
 +
 MSVC_DEFINES
+        
 +
+GccStyleFilterAndCombine
+(
+            
+ABSL_LLVM_BASE_FLAGS
 ABSL_LLVM_TEST_ADDITIONAL_FLAGS
+        
+)
     
 )
     

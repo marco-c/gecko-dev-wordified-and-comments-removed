@@ -107,7 +107,7 @@ absl
 :
 :
 Mutex
-*
+&
 ProgramNameMutex
 (
 )
@@ -126,11 +126,8 @@ Mutex
 mutex
 ;
 return
+*
 mutex
-.
-get
-(
-)
 ;
 }
 ABSL_CONST_INIT

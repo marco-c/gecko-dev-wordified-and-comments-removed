@@ -72,6 +72,11 @@ typeinfo
 #
 include
 <
+utility
+>
+#
+include
+<
 vector
 >
 #
@@ -137,6 +142,17 @@ absl
 base
 /
 dynamic_annotations
+.
+h
+"
+#
+include
+"
+absl
+/
+base
+/
+fast_type_id
 .
 h
 "
@@ -309,7 +325,7 @@ if
 flag_type_id
 =
 =
-base_internal
+absl
 :
 :
 FastTypeId
@@ -356,7 +372,7 @@ mu
 {
 mu_
 .
-Unlock
+unlock
 (
 )
 ;
@@ -368,7 +384,7 @@ MutexRelock
 {
 mu_
 .
-Lock
+lock
 (
 )
 ;
@@ -409,7 +425,7 @@ absl
 :
 :
 Mutex
-*
+&
 FreelistMutex
 (
 )
@@ -428,11 +444,8 @@ Mutex
 mutex
 ;
 return
+*
 mutex
-.
-get
-(
-)
 ;
 }
 ABSL_CONST_INIT
@@ -658,13 +671,20 @@ void
 Restore
 (
 )
-const
+&
+&
 override
 {
 if
 (
 !
+std
+:
+:
+move
+(
 flag_impl_
+)
 .
 RestoreState
 (
@@ -1298,7 +1318,7 @@ absl
 :
 :
 Mutex
-*
+&
 FlagImpl
 :
 :
@@ -1339,6 +1359,7 @@ this
 )
 ;
 return
+*
 reinterpret_cast
 <
 absl
@@ -2018,7 +2039,7 @@ CurrentValue
 const
 {
 auto
-*
+&
 guard
 =
 DataGuard
@@ -2271,7 +2292,6 @@ func
 MutexRelock
 relock
 (
-*
 DataGuard
 (
 )
@@ -2283,7 +2303,6 @@ absl
 MutexLock
 lock
 (
-&
 callback_
 -
 >
@@ -2351,7 +2370,7 @@ kOneWordAtomic
 :
 {
 return
-absl
+std
 :
 :
 make_unique
@@ -2430,7 +2449,7 @@ success
 )
 ;
 return
-absl
+std
 :
 :
 make_unique
@@ -2457,7 +2476,7 @@ kHeapAllocated
 :
 {
 return
-absl
+std
 :
 :
 make_unique
@@ -2947,7 +2966,7 @@ dst
 const
 {
 auto
-*
+&
 guard
 =
 DataGuard
@@ -3143,7 +3162,7 @@ kValueAndInitBit
 )
 ;
 auto
-*
+&
 guard
 =
 DataGuard
@@ -3192,7 +3211,7 @@ kValueAndInitBit
 )
 ;
 auto
-*
+&
 guard
 =
 DataGuard

@@ -146,6 +146,7 @@ absl
 MutexLock
 lock
 (
+*
 mutex
 )
 ;
@@ -263,6 +264,7 @@ absl
 MutexLock
 lock
 (
+*
 mutex
 )
 ;
@@ -577,7 +579,7 @@ ABSL_NO_THREAD_SAFETY_ANALYSIS
 {
 const_init_sanity_mutex
 .
-Lock
+lock
 (
 )
 ;
@@ -614,7 +616,7 @@ AssertHeld
 ;
 const_init_sanity_mutex
 .
-Unlock
+unlock
 (
 )
 ;

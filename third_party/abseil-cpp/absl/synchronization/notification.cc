@@ -88,7 +88,6 @@ TraceObjectKind
 MutexLock
 l
 (
-&
 this
 -
 >
@@ -168,7 +167,6 @@ Notification
 MutexLock
 l
 (
-&
 this
 -
 >
@@ -233,7 +231,7 @@ this
 >
 mutex_
 .
-Unlock
+unlock
 (
 )
 ;
@@ -320,7 +318,7 @@ this
 >
 mutex_
 .
-Unlock
+unlock
 (
 )
 ;
@@ -414,7 +412,7 @@ this
 >
 mutex_
 .
-Unlock
+unlock
 (
 )
 ;

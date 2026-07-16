@@ -674,7 +674,10 @@ op
 )
 {
 return
-reinterpret_cast
+absl
+:
+:
+bit_cast
 <
 FlagFastTypeId
 >
@@ -844,7 +847,7 @@ absl
 :
 string_view
 str
-absl
+std
 :
 :
 index_sequence
@@ -933,7 +936,7 @@ Gen
 Value
 (
 )
-absl
+std
 :
 :
 make_index_sequence
@@ -1265,27 +1268,20 @@ typename
 ValueT
 typename
 GenT
-typename
 std
 :
 :
-enable_if
+enable_if_t
 <
 std
 :
 :
-is_integral
+is_integral_v
 <
 ValueT
 >
-:
-:
-value
 int
 >
-:
-:
-type
 =
 (
 (
@@ -1369,25 +1365,19 @@ bool
 std
 :
 :
-is_trivially_copyable
+is_trivially_copyable_v
 <
 T
 >
-:
-:
-value
 &
 &
 std
 :
 :
-is_default_constructible
+is_default_constructible_v
 <
 T
 >
-:
-:
-value
 &
 &
 (
@@ -1417,13 +1407,10 @@ bool
 std
 :
 :
-is_trivially_copyable
+is_trivially_copyable_v
 <
 T
 >
-:
-:
-value
 &
 &
 (
@@ -1454,13 +1441,10 @@ bool
 std
 :
 :
-is_trivially_copyable
+is_trivially_copyable_v
 <
 T
 >
-:
-:
-value
 &
 &
 (
@@ -2554,7 +2538,6 @@ ReadOneWord
 const
 ABSL_LOCKS_EXCLUDED
 (
-*
 DataGuard
 (
 )
@@ -2567,7 +2550,6 @@ ReadOneBool
 const
 ABSL_LOCKS_EXCLUDED
 (
-*
 DataGuard
 (
 )
@@ -2584,7 +2566,6 @@ const
 override
 ABSL_LOCKS_EXCLUDED
 (
-*
 DataGuard
 (
 )
@@ -2600,7 +2581,6 @@ value
 const
 ABSL_LOCKS_EXCLUDED
 (
-*
 DataGuard
 (
 )
@@ -2618,7 +2598,7 @@ template
 <
 typename
 T
-absl
+std
 :
 :
 enable_if_t
@@ -2653,7 +2633,6 @@ value
 const
 ABSL_LOCKS_EXCLUDED
 (
-*
 DataGuard
 (
 )
@@ -2693,11 +2672,10 @@ template
 <
 typename
 T
-typename
 std
 :
 :
-enable_if
+enable_if_t
 <
 flags_internal
 :
@@ -2716,9 +2694,6 @@ FlagValueStorageKind
 kValueAndInitBit
 int
 >
-:
-:
-type
 =
 0
 >
@@ -2732,7 +2707,6 @@ value
 const
 ABSL_LOCKS_EXCLUDED
 (
-*
 DataGuard
 (
 )
@@ -2770,7 +2744,6 @@ src
 )
 ABSL_LOCKS_EXCLUDED
 (
-*
 DataGuard
 (
 )
@@ -2785,7 +2758,6 @@ mutation_callback
 )
 ABSL_LOCKS_EXCLUDED
 (
-*
 DataGuard
 (
 )
@@ -2798,7 +2770,6 @@ InvokeCallback
 const
 ABSL_EXCLUSIVE_LOCKS_REQUIRED
 (
-*
 DataGuard
 (
 )
@@ -2843,7 +2814,7 @@ absl
 :
 :
 Mutex
-*
+&
 DataGuard
 (
 )
@@ -2877,7 +2848,6 @@ MakeInitValue
 const
 ABSL_EXCLUSIVE_LOCKS_REQUIRED
 (
-*
 DataGuard
 (
 )
@@ -2964,7 +2934,6 @@ err
 const
 ABSL_EXCLUSIVE_LOCKS_REQUIRED
 (
-*
 DataGuard
 (
 )
@@ -2982,7 +2951,6 @@ source
 )
 ABSL_EXCLUSIVE_LOCKS_REQUIRED
 (
-*
 DataGuard
 (
 )
@@ -2998,7 +2966,6 @@ dst
 const
 ABSL_LOCKS_EXCLUDED
 (
-*
 DataGuard
 (
 )
@@ -3043,7 +3010,6 @@ DefaultKind
 const
 ABSL_EXCLUSIVE_LOCKS_REQUIRED
 (
-*
 DataGuard
 (
 )
@@ -3114,7 +3080,6 @@ const
 override
 ABSL_LOCKS_EXCLUDED
 (
-*
 DataGuard
 (
 )
@@ -3131,7 +3096,6 @@ const
 override
 ABSL_LOCKS_EXCLUDED
 (
-*
 DataGuard
 (
 )
@@ -3148,7 +3112,6 @@ const
 override
 ABSL_LOCKS_EXCLUDED
 (
-*
 DataGuard
 (
 )
@@ -3167,7 +3130,6 @@ const
 override
 ABSL_LOCKS_EXCLUDED
 (
-*
 DataGuard
 (
 )
@@ -3181,7 +3143,6 @@ const
 override
 ABSL_LOCKS_EXCLUDED
 (
-*
 DataGuard
 (
 )
@@ -3194,7 +3155,6 @@ ModificationCount
 const
 ABSL_EXCLUSIVE_LOCKS_REQUIRED
 (
-*
 DataGuard
 (
 )
@@ -3213,7 +3173,6 @@ SaveState
 override
 ABSL_LOCKS_EXCLUDED
 (
-*
 DataGuard
 (
 )
@@ -3229,7 +3188,6 @@ flag_state
 )
 ABSL_LOCKS_EXCLUDED
 (
-*
 DataGuard
 (
 )
@@ -3257,7 +3215,6 @@ error
 override
 ABSL_LOCKS_EXCLUDED
 (
-*
 DataGuard
 (
 )
@@ -3316,7 +3273,6 @@ modified_
 1
 ABSL_GUARDED_BY
 (
-*
 DataGuard
 (
 )
@@ -3328,7 +3284,6 @@ on_command_line_
 1
 ABSL_GUARDED_BY
 (
-*
 DataGuard
 (
 )
@@ -3351,7 +3306,6 @@ FlagCallback
 callback_
 ABSL_GUARDED_BY
 (
-*
 DataGuard
 (
 )
@@ -3622,7 +3576,7 @@ impl_
 .
 AssertValidType
 (
-base_internal
+absl
 :
 :
 FastTypeId
@@ -3695,7 +3649,7 @@ impl_
 .
 AssertValidType
 (
-base_internal
+absl
 :
 :
 FastTypeId
@@ -4069,13 +4023,16 @@ FlagOp
 kFastTypeId
 :
 return
-const_cast
+absl
+:
+:
+bit_cast
 <
 void
 *
 >
 (
-base_internal
+absl
 :
 :
 FastTypeId

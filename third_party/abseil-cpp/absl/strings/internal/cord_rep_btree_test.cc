@@ -9933,7 +9933,6 @@ Not
 (
 AnyOf
 (
-(
 HasSubstr
 (
 "
@@ -9985,7 +9984,6 @@ ext
 \
 "
 "
-)
 )
 )
 )
@@ -9999,7 +9997,6 @@ EXPECT_THAT
 str
 AllOf
 (
-(
 HasSubstr
 (
 "
@@ -10051,7 +10048,6 @@ ext
 \
 "
 "
-)
 )
 )
 )

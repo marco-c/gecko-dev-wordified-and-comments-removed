@@ -122,6 +122,9 @@ __ANDROID_API__
 =
 33
 #
+ifdef
+ABSL_HAVE_THREAD_LOCAL
+#
 define
 ABSL_STACKTRACE_INL_HEADER
 \
@@ -138,6 +141,8 @@ inl
 .
 inc
 "
+#
+endif
 #
 elif
 defined
@@ -220,6 +225,12 @@ execinfo
 .
 h
 >
+)
+&
+&
+defined
+(
+ABSL_HAVE_THREAD_LOCAL
 )
 #
 define
@@ -359,6 +370,12 @@ execinfo
 .
 h
 >
+)
+&
+&
+defined
+(
+ABSL_HAVE_THREAD_LOCAL
 )
 #
 define

@@ -117,7 +117,6 @@ Increment
 MutexLock
 lock
 (
-&
 mutex_
 )
 ;
@@ -135,7 +134,6 @@ const
 MutexLock
 lock
 (
-&
 mutex_
 )
 ;
@@ -153,7 +151,6 @@ n
 MutexLock
 lock
 (
-&
 mutex_
 )
 ;

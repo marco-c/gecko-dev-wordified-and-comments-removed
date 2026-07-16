@@ -16,6 +16,11 @@ cstdint
 >
 #
 include
+<
+variant
+>
+#
+include
 "
 absl
 /
@@ -74,7 +79,7 @@ final
 using
 Varint
 =
-absl
+std
 :
 :
 variant
@@ -89,7 +94,7 @@ bool
 using
 I64
 =
-absl
+std
 :
 :
 variant
@@ -114,7 +119,7 @@ char
 using
 I32
 =
-absl
+std
 :
 :
 variant
@@ -127,7 +132,7 @@ float
 using
 Value
 =
-absl
+std
 :
 :
 variant
@@ -259,7 +264,7 @@ field_number
 }
 ;
 return
-absl
+std
 :
 :
 visit

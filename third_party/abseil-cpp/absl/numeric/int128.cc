@@ -309,13 +309,10 @@ static_assert
 std
 :
 :
-is_floating_point
+is_floating_point_v
 <
 T
 >
-:
-:
-value
 "
 "
 )

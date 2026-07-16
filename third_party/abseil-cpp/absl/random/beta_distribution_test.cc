@@ -277,7 +277,7 @@ RealTypes
 std
 :
 :
-conditional
+conditional_t
 <
 ShouldExerciseLongDoubleTests
 (
@@ -305,9 +305,6 @@ float
 double
 >
 >
-:
-:
-type
 ;
 TYPED_TEST_SUITE
 (

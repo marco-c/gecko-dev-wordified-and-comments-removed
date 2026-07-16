@@ -24,12 +24,6 @@ h
 if
 defined
 (
-__native_client__
-)
-|
-|
-defined
-(
 __EMSCRIPTEN__
 )
 #

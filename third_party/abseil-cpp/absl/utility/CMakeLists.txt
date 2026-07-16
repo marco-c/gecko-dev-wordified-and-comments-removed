@@ -147,6 +147,10 @@ config
 absl
 :
 :
+core_headers
+absl
+:
+:
 type_traits
 PUBLIC
 )

@@ -1544,6 +1544,9 @@ FEATURE
 "
 ORDERING
 "
+"
+SOURCE_LOCATION
+"
 )
 string
 (

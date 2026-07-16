@@ -169,7 +169,6 @@ is_snapshot
 MutexLock
 lock
 (
-&
 global_queue
 .
 mutex
@@ -261,7 +260,6 @@ to_delete
 MutexLock
 lock
 (
-&
 global_queue
 .
 mutex
@@ -429,7 +427,6 @@ SafeToDelete
 MutexLock
 lock
 (
-&
 queue
 .
 mutex
@@ -533,7 +530,6 @@ GlobalQueue
 MutexLock
 lock
 (
-&
 global_queue
 .
 mutex
@@ -643,7 +639,6 @@ GlobalQueue
 MutexLock
 lock
 (
-&
 global_queue
 .
 mutex
@@ -752,7 +747,6 @@ GlobalQueue
 MutexLock
 lock
 (
-&
 global_queue
 .
 mutex

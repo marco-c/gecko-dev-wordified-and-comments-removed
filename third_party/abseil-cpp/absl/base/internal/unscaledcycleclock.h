@@ -52,6 +52,13 @@ h
 if
 ABSL_USE_UNSCALED_CYCLECLOCK
 namespace
+gloop_do_not_use
+{
+class
+UnscaledCycleClockWrapperForPerCpuTest
+;
+}
+namespace
 absl
 {
 ABSL_NAMESPACE_BEGIN
@@ -114,6 +121,13 @@ base_internal
 :
 :
 UnscaledCycleClockWrapperForInitializeFrequency
+;
+friend
+class
+gloop_do_not_use
+:
+:
+UnscaledCycleClockWrapperForPerCpuTest
 ;
 }
 ;

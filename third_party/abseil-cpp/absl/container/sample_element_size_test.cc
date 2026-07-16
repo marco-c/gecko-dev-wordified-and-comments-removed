@@ -215,6 +215,8 @@ new_count
 =
 0
 ;
+EXPECT_EQ
+(
 sampler
 .
 Iterate
@@ -256,6 +258,8 @@ new_count
 ;
 }
 }
+)
+0
 )
 ;
 EXPECT_GT
@@ -508,6 +512,8 @@ HashtablezInfo
 >
 preexisting_info
 ;
+EXPECT_EQ
+(
 sampler
 .
 Iterate
@@ -531,6 +537,8 @@ info
 )
 ;
 }
+)
+0
 )
 ;
 TestInlineElementSize

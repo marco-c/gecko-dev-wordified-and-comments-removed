@@ -22,8 +22,6 @@ absl
 /
 base
 /
-internal
-/
 fast_type_id
 .
 h
@@ -39,9 +37,6 @@ using
 FlagFastTypeId
 =
 absl
-:
-:
-base_internal
 :
 :
 FastTypeIdType
@@ -77,7 +72,8 @@ void
 Restore
 (
 )
-const
+&
+&
 =
 0
 ;

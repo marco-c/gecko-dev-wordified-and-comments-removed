@@ -874,7 +874,7 @@ lo_
 )
 ;
 }
-inline
+constexpr
 int128
 :
 :
@@ -936,7 +936,7 @@ hi_
 pow_2_64
 ;
 }
-inline
+constexpr
 int128
 :
 :
@@ -998,7 +998,7 @@ hi_
 pow_2_64
 ;
 }
-inline
+constexpr
 int128
 :
 :

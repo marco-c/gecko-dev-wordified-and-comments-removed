@@ -7,6 +7,11 @@ ABSL_STATUS_STATUS_PAYLOAD_PRINTER_H_
 #
 include
 <
+optional
+>
+#
+include
+<
 string
 >
 #
@@ -63,12 +68,7 @@ status_internal
 using
 StatusPayloadPrinter
 =
-absl
-:
-:
-Nullable
-<
-absl
+std
 :
 :
 optional
@@ -80,6 +80,7 @@ string
 >
 (
 *
+absl_nullable
 )
 (
 absl
@@ -93,7 +94,6 @@ absl
 Cord
 &
 )
->
 ;
 void
 SetStatusPayloadPrinter

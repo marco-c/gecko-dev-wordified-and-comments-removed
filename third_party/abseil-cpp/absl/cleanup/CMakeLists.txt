@@ -158,6 +158,10 @@ core_headers
 absl
 :
 :
+hardening
+absl
+:
+:
 utility
 PUBLIC
 )
@@ -188,6 +192,10 @@ absl
 :
 :
 core_headers
+absl
+:
+:
+hardening
 PUBLIC
 )
 absl_cc_test

@@ -592,16 +592,13 @@ static_assert
 std
 :
 :
-is_trivially_destructible
+is_trivially_destructible_v
 <
 absl
 :
 :
 Time
 >
-:
-:
-value
 "
 Time
 is

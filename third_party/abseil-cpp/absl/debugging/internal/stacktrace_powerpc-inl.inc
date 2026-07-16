@@ -251,6 +251,7 @@ IS_WITH_CONTEXT
 >
 ABSL_ATTRIBUTE_NO_SANITIZE_ADDRESS
 ABSL_ATTRIBUTE_NO_SANITIZE_MEMORY
+ABSL_ATTRIBUTE_NO_SANITIZE_THREAD
 static
 void
 *
@@ -713,6 +714,7 @@ IS_WITH_CONTEXT
 >
 ABSL_ATTRIBUTE_NO_SANITIZE_ADDRESS
 ABSL_ATTRIBUTE_NO_SANITIZE_MEMORY
+ABSL_ATTRIBUTE_NO_SANITIZE_THREAD
 static
 int
 UnwindImpl
@@ -919,6 +921,11 @@ sizes
 n
 ]
 =
+static_cast
+<
+int
+>
+(
 absl
 :
 :
@@ -939,6 +946,7 @@ debugging_internal
 StripPointerMetadata
 (
 sp
+)
 )
 ;
 }

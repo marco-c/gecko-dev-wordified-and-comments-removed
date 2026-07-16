@@ -440,8 +440,8 @@ visibility
 of
 Abseil
 sources
-so
 #
+so
 users
 must
 depend
@@ -458,9 +458,9 @@ absl
 .
 This
 prevents
+#
 use
 of
-#
 banned
 targets
 like
@@ -474,6 +474,7 @@ A
 few
 targets
 require
+#
 exceptions
 .
 if

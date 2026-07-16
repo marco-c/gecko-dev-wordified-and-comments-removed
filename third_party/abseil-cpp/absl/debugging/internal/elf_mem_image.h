@@ -63,18 +63,10 @@ __QNX__
 !
 defined
 (
-__native_client__
-)
-&
-&
-!
-defined
-(
 __asmjs__
 )
 &
 &
-\
 !
 defined
 (
@@ -89,6 +81,7 @@ __HAIKU__
 )
 &
 &
+\
 !
 defined
 (
@@ -96,7 +89,6 @@ __sun
 )
 &
 &
-\
 !
 defined
 (
@@ -111,6 +103,7 @@ __hexagon__
 )
 &
 &
+\
 !
 defined
 (

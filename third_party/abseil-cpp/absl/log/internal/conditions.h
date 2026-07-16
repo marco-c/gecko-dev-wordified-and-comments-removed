@@ -261,6 +261,7 @@ condition
 )
 &
 &
+\
 :
 :
 absl
@@ -280,7 +281,7 @@ static_cast
 absl
 :
 :
-LogSeverity
+LogSeverityAtLeast
 >
 (
 ABSL_MIN_LOG_LEVEL
@@ -308,6 +309,7 @@ condition
 )
 &
 &
+\
 :
 :
 absl
@@ -327,7 +329,7 @@ static_cast
 absl
 :
 :
-LogSeverity
+LogSeverityAtLeast
 >
 (
 ABSL_MIN_LOG_LEVEL
@@ -355,6 +357,7 @@ condition
 )
 &
 &
+\
 :
 :
 absl
@@ -374,7 +377,7 @@ static_cast
 absl
 :
 :
-LogSeverity
+LogSeverityAtLeast
 >
 (
 ABSL_MIN_LOG_LEVEL
@@ -414,7 +417,6 @@ _CONDITION
 (
 condition
 )
-\
 ?
 (
 :
@@ -436,9 +438,10 @@ static_cast
 absl
 :
 :
-LogSeverity
+LogSeverityAtLeast
 >
 (
+\
 ABSL_MIN_LOG_LEVEL
 )
 \
@@ -487,7 +490,6 @@ _CONDITION
 (
 condition
 )
-\
 ?
 (
 :
@@ -509,9 +511,10 @@ static_cast
 absl
 :
 :
-LogSeverity
+LogSeverityAtLeast
 >
 (
+\
 ABSL_MIN_LOG_LEVEL
 )
 \
@@ -613,7 +616,7 @@ static_cast
 absl
 :
 :
-LogSeverity
+LogSeverityAtLeast
 >
 (
 ABSL_MIN_LOG_LEVEL
@@ -727,8 +730,8 @@ type
 #
 _CONDITION
 (
-(
 \
+(
 (
 condition
 )
@@ -747,7 +750,7 @@ static_cast
 absl
 :
 :
-LogSeverity
+LogSeverityAtLeast
 >
 (
 ABSL_MIN_LOG_LEVEL

@@ -120,10 +120,6 @@ base_internal
 SpinLock
 map_lock
 (
-absl
-:
-:
-kConstInit
 base_internal
 :
 :
@@ -270,7 +266,6 @@ base_internal
 SpinLockHolder
 l
 (
-&
 map_lock
 )
 ;
@@ -396,7 +391,6 @@ base_internal
 SpinLockHolder
 l
 (
-&
 map_lock
 )
 ;
@@ -541,7 +535,6 @@ m
 MutexLock
 lock
 (
-&
 mutexes
 [
 m

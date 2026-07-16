@@ -26,6 +26,11 @@ type_traits
 >
 #
 include
+<
+variant
+>
+#
+include
 "
 gtest
 /
@@ -63,17 +68,6 @@ absl
 strings
 /
 string_view
-.
-h
-"
-#
-include
-"
-absl
-/
-types
-/
-variant
 .
 h
 "
@@ -959,7 +953,7 @@ OverloadTest
 VariantVisitDispatchesCorrectly
 )
 {
-absl
+std
 :
 :
 variant
@@ -1050,7 +1044,7 @@ EXPECT_EQ
 "
 int
 "
-absl
+std
 :
 :
 visit
@@ -1071,7 +1065,7 @@ EXPECT_EQ
 "
 double
 "
-absl
+std
 :
 :
 visit
@@ -1092,7 +1086,7 @@ EXPECT_EQ
 "
 string
 "
-absl
+std
 :
 :
 visit
@@ -1109,7 +1103,7 @@ OverloadTest
 VariantVisitWithAutoFallbackDispatchesCorrectly
 )
 {
-absl
+std
 :
 :
 variant
@@ -1178,7 +1172,7 @@ s
 EXPECT_EQ
 (
 4
-absl
+std
 :
 :
 visit
@@ -1198,7 +1192,7 @@ int64_t
 EXPECT_EQ
 (
 8
-absl
+std
 :
 :
 visit
@@ -1223,7 +1217,7 @@ hello
 EXPECT_EQ
 (
 5
-absl
+std
 :
 :
 visit
@@ -1287,7 +1281,7 @@ s
 }
 )
 ;
-absl
+std
 :
 :
 variant
@@ -1310,7 +1304,7 @@ int32_t
 EXPECT_EQ
 (
 4
-absl
+std
 :
 :
 visit
@@ -1330,7 +1324,7 @@ int64_t
 EXPECT_EQ
 (
 8
-absl
+std
 :
 :
 visit
@@ -1355,7 +1349,7 @@ hello
 EXPECT_EQ
 (
 5
-absl
+std
 :
 :
 visit

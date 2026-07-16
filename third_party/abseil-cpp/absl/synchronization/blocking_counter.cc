@@ -176,7 +176,6 @@ TraceObjectKind
 MutexLock
 l
 (
-&
 lock_
 )
 ;
@@ -215,7 +214,6 @@ TraceObjectKind
 MutexLock
 l
 (
-&
 this
 -
 >

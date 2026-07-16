@@ -187,8 +187,9 @@ absl
 linux_hybrid
 -
 latest
+sha256
 :
-20241218
+baa99e65a3cc837bab8e5246f1870d25c76d0adf2b1d598ee5a3ec77fd2e19bd
 "
 readonly
 LINUX_ARM_CLANG_LATEST_CONTAINER
@@ -209,8 +210,9 @@ absl
 linux_arm_hybrid
 -
 latest
+sha256
 :
-20250224
+04479ae67993e1a70dc1730bcddfe3233ac3af178ede0b33044dd9c31b889ac8
 "
 readonly
 LINUX_GCC_LATEST_CONTAINER
@@ -231,8 +233,9 @@ absl
 linux_hybrid
 -
 latest
+sha256
 :
-20241218
+baa99e65a3cc837bab8e5246f1870d25c76d0adf2b1d598ee5a3ec77fd2e19bd
 "
 readonly
 LINUX_GCC_FLOOR_CONTAINER
@@ -250,9 +253,10 @@ absl
 -
 177019
 /
-linux_gcc
+linux_hybrid
 -
-floor
+latest
+sha256
 :
-20250205
+baa99e65a3cc837bab8e5246f1870d25c76d0adf2b1d598ee5a3ec77fd2e19bd
 "

@@ -275,7 +275,7 @@ StructuredProtoField
 :
 Value
 {
-absl
+std
 :
 :
 in_place_type
@@ -317,7 +317,7 @@ StructuredProtoField
 :
 Value
 {
-absl
+std
 :
 :
 in_place_type
@@ -433,7 +433,7 @@ StructuredProtoField
 :
 Value
 {
-absl
+std
 :
 :
 in_place_type

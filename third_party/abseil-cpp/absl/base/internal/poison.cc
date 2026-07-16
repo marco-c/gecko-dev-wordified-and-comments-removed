@@ -200,14 +200,18 @@ GetPageSize
 (
 )
 ;
+void
+*
+data
+=
+nullptr
+;
 #
 if
 defined
 (
 ABSL_HAVE_ADDRESS_SANITIZER
 )
-void
-*
 data
 =
 malloc
@@ -227,8 +231,6 @@ defined
 (
 ABSL_HAVE_MEMORY_SANITIZER
 )
-void
-*
 data
 =
 malloc
@@ -248,8 +250,6 @@ defined
 (
 ABSL_HAVE_MMAP
 )
-void
-*
 data
 =
 DirectMmap
@@ -283,8 +283,6 @@ defined
 (
 _WIN32
 )
-void
-*
 data
 =
 VirtualAlloc
