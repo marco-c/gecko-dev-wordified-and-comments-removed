@@ -6,11 +6,27 @@ response
 )
 :
     
-response
-.
+return
+headers_and_content
+(
+request
+)
+def
+headers_and_content
+(
+request
+)
+:
+    
+headers
+=
+[
+]
+    
 headers
 .
-set
+append
+(
 (
 b
 "
@@ -27,12 +43,12 @@ b
 *
 "
 )
+)
     
-response
-.
 headers
 .
-set
+append
+(
 (
 b
 "
@@ -47,6 +63,7 @@ text
 plain
 "
 )
+)
     
 if
 b
@@ -59,11 +76,10 @@ request
 GET
 :
         
-response
-.
 headers
 .
-set
+append
+(
 (
 b
 "
@@ -79,6 +95,7 @@ age
 =
 3600
 "
+)
 )
     
 dcb_data
@@ -852,6 +869,12 @@ request
 .
 GET
     
+content
+=
+b
+'
+'
+    
 if
 b
 '
@@ -877,11 +900,10 @@ content_encoding
 "
 )
         
-response
-.
 headers
 .
-set
+append
+(
 (
 b
 "
@@ -890,6 +912,7 @@ Content
 Encoding
 "
 content_encoding
+)
 )
         
 if
@@ -902,8 +925,6 @@ dcb
 "
 :
             
-response
-.
 content
 =
 large_dcb_data
@@ -922,8 +943,6 @@ dcz
 "
 :
             
-response
-.
 content
 =
 large_dcz_data
@@ -957,12 +976,8 @@ dcb
 else
 8
             
-response
-.
 content
 =
-response
-.
 content
 [
 :
@@ -977,8 +992,6 @@ x00
 *
 32
 +
-response
-.
 content
 [
 offset
@@ -986,3 +999,9 @@ offset
 32
 :
 ]
+    
+return
+(
+headers
+content
+)
