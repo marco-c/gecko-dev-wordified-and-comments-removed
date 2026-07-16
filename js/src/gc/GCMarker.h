@@ -1714,6 +1714,8 @@ eagerlyMarkChildren
 JSLinearString
 *
 str
+uint32_t
+flags
 )
 ;
 void

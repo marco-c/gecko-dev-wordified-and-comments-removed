@@ -10691,7 +10691,12 @@ TempRopeTag
 )
 ;
 return
-&
+static_cast
+<
+JSRope
+*
+>
+(
 ptr
 (
 )
@@ -10703,10 +10708,6 @@ JSString
 >
 (
 )
--
->
-asRope
-(
 )
 ;
 }
