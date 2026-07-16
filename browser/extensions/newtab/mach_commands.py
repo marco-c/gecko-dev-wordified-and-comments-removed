@@ -557,6 +557,32 @@ _mach_context
 kwargs
     
 )
+def
+mach_argv
+(
+command_context
+)
+:
+    
+return
+[
+sys
+.
+executable
+os
+.
+path
+.
+join
+(
+command_context
+.
+topsrcdir
+"
+mach
+"
+)
+]
 SubCommand
 (
     
@@ -615,11 +641,11 @@ Popen
 (
 [
             
-"
-.
-/
-mach
-"
+*
+mach_argv
+(
+command_context
+)
             
 "
 npm
@@ -655,11 +681,11 @@ subprocess
 Popen
 (
 [
-"
-.
-/
-mach
-"
+*
+mach_argv
+(
+command_context
+)
 "
 watch
 "
@@ -6447,11 +6473,11 @@ Popen
 (
 [
             
-"
-.
-/
-mach
-"
+*
+mach_argv
+(
+command_context
+)
             
 "
 npm
@@ -6705,11 +6731,11 @@ Popen
 (
 [
             
-"
-.
-/
-mach
-"
+*
+mach_argv
+(
+command_context
+)
             
 "
 npm
