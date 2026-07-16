@@ -160,11 +160,11 @@ listOf
 (
 NavigationStep
 .
-Click
+ClickIfPresent
 (
 ToolbarSelectors
 .
-SITE_INFORMATION_BUTTON
+SECURE_SITE_INFORMATION_BUTTON
 )
 )
 )
