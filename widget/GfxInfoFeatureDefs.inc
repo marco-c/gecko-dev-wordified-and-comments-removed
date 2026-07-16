@@ -643,3 +643,14 @@ video
 hdr
 "
 )
+GFXINFO_FEATURE
+(
+WEBGL_ANGLE_METAL
+"
+webgl
+.
+angle
+-
+metal
+"
+)
