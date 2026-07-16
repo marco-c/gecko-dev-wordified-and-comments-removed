@@ -2760,7 +2760,7 @@ MenusCanOverlapOSBar
 :
 aResult
 =
-1
+0
 ;
 break
 ;
