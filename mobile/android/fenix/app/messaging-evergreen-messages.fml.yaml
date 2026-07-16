@@ -527,7 +527,7 @@ if
 all
 :
 -
-ALWAYS
+NEVER
 style
 :
 MICROSURVEY
@@ -740,7 +740,7 @@ if
 all
 :
 -
-ALWAYS
+NEVER
 style
 :
 MICROSURVEY
