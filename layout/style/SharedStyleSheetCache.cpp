@@ -300,6 +300,14 @@ mNext
 )
 ;
 }
+const
+bool
+canFireEvents
+=
+aData
+.
+mMustNotify
+;
 AutoTArray
 <
 RefPtr
@@ -360,6 +368,7 @@ NotifyObservers
 *
 data
 status
+canFireEvents
 )
 ;
 }

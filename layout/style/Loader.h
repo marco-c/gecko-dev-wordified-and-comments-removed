@@ -1824,6 +1824,8 @@ NotifyObservers
 SheetLoadData
 &
 nsresult
+bool
+aCanFireEvents
 )
 ;
 static
