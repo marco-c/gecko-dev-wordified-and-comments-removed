@@ -423,7 +423,7 @@ features
 js
 "
 "
-cpu
+stackwalk
 "
 ]
         

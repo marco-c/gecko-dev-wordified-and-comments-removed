@@ -189,9 +189,6 @@ js
 "
 stackwalk
 "
-"
-cpu
-"
 ]
 }
     

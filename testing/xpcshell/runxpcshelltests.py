@@ -9699,7 +9699,6 @@ MOZ_PROFILER_STARTUP_FEATURES
 "
 java
 js
-cpu
 screenshots
 processcpu
 ipcmessages
