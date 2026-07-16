@@ -2960,12 +2960,23 @@ OutputStatus
 .
 FAILED
         
-return
+if
 test
 .
 expect_error
 in
 err
+:
+            
+return
+OutputStatus
+.
+OK
+        
+return
+OutputStatus
+.
+FAILED
     
 for
 line
