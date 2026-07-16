@@ -1562,6 +1562,26 @@ cargo
 {
             
 "
+configPath
+"
+:
+f
+"
+{
+command_context
+.
+topobjdir
+}
+/
+.
+cargo
+/
+config
+.
+toml
+"
+            
+"
 extraEnv
 "
 :
