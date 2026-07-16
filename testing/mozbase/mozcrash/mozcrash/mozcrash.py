@@ -4904,6 +4904,27 @@ pid
 "
 )
         
+dump_type
+=
+0
+        
+if
+os
+.
+environ
+.
+get
+(
+"
+MINIDUMP_FULL_MEMORY
+"
+)
+:
+            
+dump_type
+=
+0x00000002
+        
 proc_handle
 =
 OpenProcess
@@ -5024,7 +5045,7 @@ pid
                 
 file_handle
                 
-0
+dump_type
                 
 None
                 
