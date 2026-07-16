@@ -2237,6 +2237,10 @@ const
 ReflowInput
 &
 aReflowInput
+const
+ReflowOutput
+&
+aReflowOutput
 nsReflowStatus
 &
 aStatus
@@ -2264,6 +2268,10 @@ const
 ReflowInput
 &
 aReflowInput
+const
+ReflowOutput
+&
+aReflowOutput
 nsReflowStatus
 &
 aStatus
