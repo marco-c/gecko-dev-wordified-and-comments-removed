@@ -6322,6 +6322,11 @@ TimeEvent
 webidl
 "
 "
+TimelineRangeOffset
+.
+webidl
+"
+"
 TimeRanges
 .
 webidl

@@ -21,9 +21,6 @@ mozilla
 class
 ScrollContainerFrame
 ;
-struct
-TimelineRangeOffset
-;
 }
 namespace
 mozilla
