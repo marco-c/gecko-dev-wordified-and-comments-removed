@@ -4480,6 +4480,8 @@ JS
 :
 GCReason
 reason
+int64_t
+millis
 )
 ;
 bool
@@ -4949,7 +4951,7 @@ SliceBudget
 budget
 )
 ;
-bool
+void
 finishAnyConcurrentMarking
 (
 JS
