@@ -1728,13 +1728,13 @@ Map
 [
 [
 "
-0
+Success
 "
 1
 ]
 [
 "
-188
+SSL_ERROR_ECH_RETRY_WITH_ECH
 "
 1
 ]
@@ -1752,7 +1752,9 @@ checkEntry
 _FIRST_TRY
 "
 ]
-188
+"
+SSL_ERROR_ECH_RETRY_WITH_ECH
+"
 1
 )
 ;

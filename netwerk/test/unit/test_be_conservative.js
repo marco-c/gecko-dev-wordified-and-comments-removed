@@ -1012,7 +1012,9 @@ HandshakeTelemetryHelpers
 checkEntry
 (
 flavors
-98
+"
+SSL_ERROR_PROTOCOL_VERSION_ALERT
+"
 1
 )
 ;
