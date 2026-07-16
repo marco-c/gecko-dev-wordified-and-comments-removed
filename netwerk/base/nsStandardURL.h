@@ -1736,6 +1736,11 @@ SanityCheck
 bool
 IsValid
 (
+uint32_t
+*
+aFailReason
+=
+nullptr
 )
 ;
 static
