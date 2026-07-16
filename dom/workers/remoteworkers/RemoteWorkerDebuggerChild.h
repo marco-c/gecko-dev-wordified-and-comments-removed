@@ -9,9 +9,7 @@ include
 "
 mozilla
 /
-dom
-/
-PRemoteWorkerDebuggerChild
+Maybe
 .
 h
 "
@@ -20,7 +18,9 @@ include
 "
 mozilla
 /
-Maybe
+dom
+/
+PRemoteWorkerDebuggerChild
 .
 h
 "
