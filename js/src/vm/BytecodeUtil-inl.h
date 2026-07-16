@@ -398,6 +398,7 @@ op
 }
 }
 class
+MOZ_STACK_CLASS
 BytecodeRange
 {
 public
@@ -412,7 +413,7 @@ JSScript
 script
 )
 :
-script
+delazified
 (
 cx
 script
@@ -484,7 +485,11 @@ frontOffset
 const
 {
 return
+delazified
+.
 script
+(
+)
 -
 >
 pcToOffset
@@ -509,8 +514,11 @@ pc
 }
 private
 :
-RootedScript
-script
+JSScript
+:
+:
+AutoKeepDelazified
+delazified
 ;
 jsbytecode
 *
@@ -531,6 +539,7 @@ Yes
 }
 ;
 class
+MOZ_STACK_CLASS
 BytecodeRangeWithPosition
 :
 private
