@@ -687,7 +687,7 @@ ftl
 /
 *
 /
-toolkit
+browser
 /
 locales
 -
