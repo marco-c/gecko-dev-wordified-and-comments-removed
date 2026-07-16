@@ -7882,6 +7882,10 @@ mIsInited
 =
 true
 ;
+mIsHardwareDRM
+=
+isHWSecure
+;
 mInitParams
 =
 Some
