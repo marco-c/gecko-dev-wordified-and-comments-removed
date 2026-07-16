@@ -357,15 +357,6 @@ nsIHttpChannel
 aChannel
 )
 ;
-static
-bool
-IsSecureURI
-(
-nsIURI
-*
-aURI
-)
-;
 void
 RemoveOriginsFromHost
 (
