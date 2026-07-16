@@ -224,6 +224,7 @@ lifecycle
 *
 -
 Direct
+path
 (
 default
 for
@@ -240,8 +241,8 @@ actors
 live
 in
 the
-parent
 *
+parent
 process
 so
 the
@@ -252,8 +253,8 @@ real
 UrlbarParentController
 in
 place
-and
 *
+and
 invokes
 it
 synchronously
@@ -261,8 +262,7 @@ synchronously
 *
 -
 Message
--
-passing
+path
 :
 a
 content
@@ -298,7 +298,7 @@ set
 (
 so
 the
-wire
+message
 *
 path
 runs

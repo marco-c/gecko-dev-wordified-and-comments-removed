@@ -155,13 +155,11 @@ Urlbar
 actor
 '
 s
-*
 message
--
-passing
 path
 .
 A
+*
 UrlbarChildController
 whose
 <

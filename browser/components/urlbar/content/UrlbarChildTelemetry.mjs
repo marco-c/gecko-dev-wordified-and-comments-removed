@@ -131,10 +131,8 @@ urlbar
 actor
 '
 s
-*
 message
--
-passing
+*
 path
 .
 It
