@@ -1198,6 +1198,9 @@ tickers
 lastUpdated
 :
 null
+error
+:
+false
 }
 PictureOfTheDay
 :
@@ -7392,6 +7395,16 @@ action
 data
 .
 lastUpdated
+error
+:
+action
+.
+data
+.
+error
+?
+?
+false
 }
 ;
 default
