@@ -39629,6 +39629,9 @@ nserror
 nsstring
 "
 "
+scopeguard
+"
+"
 sha2
 "
 "
@@ -39638,6 +39641,11 @@ vec
 "
 "
 windows
+"
+"
+windows
+-
+core
 "
 "
 xpcom

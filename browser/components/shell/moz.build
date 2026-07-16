@@ -433,6 +433,13 @@ toolkit
 /
 xre
 "
+"
+rust
+/
+shell_windows
+/
+src
+"
 ]
 OS_LIBS
 +
