@@ -13593,6 +13593,14 @@ IsEditActionDataAvailable
 )
 )
 ;
+MOZ_ASSERT
+(
+!
+GetEditActionEditContext
+(
+)
+)
+;
 MOZ_ASSERT_IF
 (
 IsTextEditor
@@ -24862,6 +24870,12 @@ GetContainer
 -
 >
 Length
+(
+)
+&
+&
+!
+GetEditActionEditContext
 (
 )
 )
