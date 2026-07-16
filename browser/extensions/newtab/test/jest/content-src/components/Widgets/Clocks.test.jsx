@@ -4202,10 +4202,9 @@ it
 contains
 hide
 (
-singular
 '
 Hide
-clock
+widget
 '
 )
 and
@@ -4247,8 +4246,6 @@ id
 =
 '
 newtab
--
-clock
 -
 widget
 -
@@ -4371,8 +4368,6 @@ id
 =
 '
 newtab
--
-clock
 -
 widget
 -
@@ -4767,8 +4762,6 @@ id
 '
 newtab
 -
-clock
--
 widget
 -
 menu
@@ -5022,6 +5015,11 @@ new
 tab
 -
 widgets
+"
+where
+:
+"
+tab
 "
 }
 }
