@@ -1434,17 +1434,6 @@ MixBlend
 =
 >
 GPU_TAG_BRUSH_MIXBLEND
-BrushBatchKind
-:
-:
-YuvImage
-(
-.
-.
-)
-=
->
-GPU_TAG_BRUSH_YUV_IMAGE
 }
 }
 BatchKind
