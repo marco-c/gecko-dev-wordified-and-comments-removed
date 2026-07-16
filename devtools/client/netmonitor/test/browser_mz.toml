@@ -1165,13 +1165,6 @@ labeled
 ]
 [
 "
-browser_net_overrides_with_styleeditor
-.
-js
-"
-]
-[
-"
 browser_net_pane
 -
 collapse
