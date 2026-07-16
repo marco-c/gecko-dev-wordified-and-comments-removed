@@ -839,11 +839,7 @@ key
 =
 details
 .
-element
-.
-dataset
-.
-action
+pickedActionKey
 ;
 let
 action
