@@ -39,6 +39,13 @@ html
 ]
 [
 "
+test_editcontext_empty_text_node
+.
+html
+"
+]
+[
+"
 test_editcontext_format_commands
 .
 html
