@@ -388,6 +388,11 @@ DIRS
 "
 mozapps
 /
+dmgInstallHelper
+"
+"
+mozapps
+/
 macos
 -
 frameworks
