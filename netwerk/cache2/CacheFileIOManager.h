@@ -1530,13 +1530,13 @@ bool
 *
 aHasAltData
 const
-uint16_t
+uint32_t
 *
-aOnStartTime
+aLastFetched
 const
-uint16_t
+uint32_t
 *
-aOnStopTime
+aFetchCount
 const
 uint8_t
 *
