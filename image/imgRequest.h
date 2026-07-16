@@ -560,6 +560,12 @@ return
 mTimedChannel
 ;
 }
+bool
+HadCrossOriginRedirects
+(
+)
+const
+;
 imgCacheValidator
 *
 GetValidator
@@ -886,6 +892,11 @@ mIsCrossSiteNoCORSRequest
 ;
 bool
 mShouldReportRenderTimeForLCP
+;
+bool
+mHadCrossOriginRedirects
+=
+false
 ;
 bool
 mOffMainThreadData
