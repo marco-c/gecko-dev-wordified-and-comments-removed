@@ -1261,7 +1261,7 @@ outlineVariant
 =
 NovaColors
 .
-Gray65
+Gray60
 scrim
 =
 NovaColors
@@ -1671,9 +1671,10 @@ NovaColors
 Gray45
 outlineVariant
 =
-NovaColors
-.
-VioletDesaturated80
+Color
+(
+0xFF332752
+)
 scrim
 =
 NovaColors
