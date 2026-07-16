@@ -7684,6 +7684,10 @@ mut
 self
 .
 interners
+P
+:
+:
+SNAP_CLIPS
 )
 ;
 self
@@ -11512,6 +11516,10 @@ mut
 self
 .
 interners
+P
+:
+:
+SNAP_CLIPS
 )
 ;
 let
@@ -11626,6 +11634,10 @@ mut
 self
 .
 interners
+P
+:
+:
+SNAP_CLIPS
 )
 ;
 self
@@ -13500,6 +13512,7 @@ mut
 self
 .
 interners
+true
 )
 ;
 let
