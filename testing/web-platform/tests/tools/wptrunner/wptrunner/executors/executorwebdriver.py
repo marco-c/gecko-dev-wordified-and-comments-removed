@@ -6142,6 +6142,8 @@ response
         
 return
 await
+(
+await
 self
 .
 webdriver
@@ -6150,12 +6152,14 @@ bidi_session
 .
 send_command
 (
+            
 "
 digitalCredentials
 .
 setVirtualWalletBehavior
 "
 params
+)
 )
 class
 WebDriverStorageProtocolPart
