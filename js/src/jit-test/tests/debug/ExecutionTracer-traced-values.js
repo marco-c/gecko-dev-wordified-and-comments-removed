@@ -14,6 +14,11 @@ quit
 )
 ;
 }
+gczeal
+(
+0
+)
+;
 const
 VALUE_SUMMARY_VERSION
 =
