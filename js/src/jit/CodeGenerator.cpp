@@ -108566,6 +108566,15 @@ i
 )
 ;
 }
+MemoryReleaseFence
+(
+script
+.
+get
+(
+)
+)
+;
 freeIonScript
 .
 release

@@ -4735,11 +4735,6 @@ JSTracer
 trc
 )
 {
-if
-(
-method_
-)
-{
 TraceEdge
 (
 trc
@@ -4750,7 +4745,6 @@ method
 "
 )
 ;
-}
 for
 (
 size_t
