@@ -899,6 +899,11 @@ mSessionIsSynthesizedForTests
 false
 ;
 bool
+mSessionIsAsyncSynthesizedForTests
+=
+false
+;
+bool
 mEndingSession
 =
 false

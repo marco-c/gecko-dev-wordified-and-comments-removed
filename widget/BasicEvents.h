@@ -220,6 +220,11 @@ mIsSynthesizedForTests
 1
 ;
 bool
+mIsAsyncSynthesizedForTests
+:
+1
+;
+bool
 mExceptionWasRaised
 :
 1
