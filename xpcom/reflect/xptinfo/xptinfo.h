@@ -2048,15 +2048,6 @@ const
 if
 (
 mSigned
-|
-|
-mValue
-<
-=
-uint32_t
-(
-INT32_MAX
-)
 )
 {
 return
@@ -2076,7 +2067,7 @@ return
 JS
 :
 :
-DoubleValue
+NumberValue
 (
 mValue
 )
