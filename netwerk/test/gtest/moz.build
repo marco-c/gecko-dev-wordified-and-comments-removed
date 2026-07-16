@@ -349,11 +349,6 @@ TestCacheCrypto
 cpp
 "
 "
-TestCacheEntryWriterHang
-.
-cpp
-"
-"
 TestHappyEyeballsConnectionAttempt
 .
 cpp
