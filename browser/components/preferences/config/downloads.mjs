@@ -11168,6 +11168,15 @@ box
 -
 group
 "
+controlAttrs
+:
+{
+type
+:
+"
+list
+"
+}
 }
 {
 id
