@@ -136,7 +136,7 @@ open
 "
 README
 .
-md
+rst
 "
 )
 .
