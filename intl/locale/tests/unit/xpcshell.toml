@@ -90,6 +90,13 @@ js
 ]
 [
 "
+test_localeService_coverage
+.
+js
+"
+]
+[
+"
 test_localeService_negotiateLanguages
 .
 js
