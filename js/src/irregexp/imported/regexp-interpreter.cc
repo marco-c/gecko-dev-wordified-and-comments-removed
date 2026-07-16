@@ -1119,11 +1119,6 @@ CallOrigin
 kFromRuntime
 )
 ;
-[
-[
-maybe_unused
-]
-]
 AllowGarbageCollection
 yes_gc
 ;
@@ -1535,11 +1530,6 @@ Object
 result
 ;
 {
-[
-[
-maybe_unused
-]
-]
 AllowGarbageCollection
 yes_gc
 ;

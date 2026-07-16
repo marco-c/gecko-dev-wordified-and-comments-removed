@@ -357,6 +357,8 @@ kMaximumStackSize
 *
 MB
 ;
+private
+:
 Stack
 (
 )
@@ -366,8 +368,6 @@ Stack
 (
 )
 ;
-private
-:
 static
 const
 Address

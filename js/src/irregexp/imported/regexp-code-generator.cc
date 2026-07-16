@@ -21,11 +21,6 @@ cstddef
 #
 include
 <
-iostream
->
-#
-include
-<
 tuple
 >
 #
@@ -229,9 +224,6 @@ USE
 masm_
 )
 ;
-#
-ifndef
-COMPILING_IRREGEXP_FOR_EXTERNAL_EMBEDDER
 if
 (
 V8_UNLIKELY
@@ -316,8 +308,6 @@ analysis
 ;
 }
 }
-#
-endif
 PreVisitBytecodes
 (
 )
