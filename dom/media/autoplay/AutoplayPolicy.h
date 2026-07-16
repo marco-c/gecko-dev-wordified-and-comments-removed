@@ -16,6 +16,9 @@ cstdint
 class
 nsIPrincipal
 ;
+class
+nsPIDOMWindowInner
+;
 namespace
 mozilla
 :
@@ -79,6 +82,15 @@ dom
 AudioContext
 &
 aContext
+)
+;
+static
+bool
+IsAudioInterruptedByPlatform
+(
+nsPIDOMWindowInner
+*
+aWindow
 )
 ;
 static
