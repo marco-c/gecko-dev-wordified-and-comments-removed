@@ -164,6 +164,13 @@ SpeculationRuleSet
 [
 export
 ]
+include
+=
+[
+"
+ReferrerPolicy
+"
+]
 item_types
 =
 [
@@ -179,6 +186,13 @@ export
 .
 rename
 ]
+"
+ReferrerPolicy
+"
+=
+"
+SpeculationRulesReferrerPolicy
+"
 "
 ThinVec
 "
