@@ -291,7 +291,7 @@ constexpr
 size_t
 kChunkSize
 =
-1_MiB
+2_MiB
 ;
 static
 constexpr
