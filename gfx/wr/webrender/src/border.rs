@@ -2498,9 +2498,7 @@ new
 .
 0
 avail_size
-8
-.
-0
+avail_size
 )
 }
 }
