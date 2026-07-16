@@ -18,6 +18,12 @@ targets
 "
 import
 os
+import
+mozpack
+.
+path
+as
+mozpath
 def
 get_project_topsrcdir
 (
@@ -115,22 +121,18 @@ project
     
 project_topsrcdir
 =
-os
-.
-path
+mozpath
 .
 join
 (
 build
 .
 topsrcdir
-project_path
+mozpath
 .
 split
 (
-os
-.
-sep
+project_path
 )
 [
 0
@@ -170,10 +172,15 @@ build
 topsrcdir
     
 if
+mozpath
+.
+normpath
+(
 os
 .
 getcwd
 (
+)
 )
 .
 startswith
