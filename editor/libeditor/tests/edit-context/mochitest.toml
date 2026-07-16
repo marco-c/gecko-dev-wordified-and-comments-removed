@@ -23,6 +23,17 @@ allow_canvas
 true
 "
 ]
+support
+-
+files
+=
+[
+"
+common
+.
+js
+"
+]
 [
 "
 test_editcontext_allow_canvas_pref
