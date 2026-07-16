@@ -131,6 +131,11 @@ sources
 js
 "
 "
+stylesheets
+.
+js
+"
+"
 sources
 -
 content
