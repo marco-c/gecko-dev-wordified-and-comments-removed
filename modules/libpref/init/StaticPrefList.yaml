@@ -69620,7 +69620,7 @@ type
 bool
 value
 :
-IS_EARLY_BETA_OR_EARLIER
+IS_NIGHTLY_BUILD
 mirror
 :
 always
