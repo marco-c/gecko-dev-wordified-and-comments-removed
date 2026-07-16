@@ -2113,6 +2113,17 @@ mozilla
 /
 dom
 /
+ReferrerPolicyBinding
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 RemoteBrowser
 .
 h

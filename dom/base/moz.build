@@ -1324,6 +1324,11 @@ PostMessageEvent
 h
 "
 "
+PrefetchCandidates
+.
+h
+"
+"
 ProcessMessageManager
 .
 h
@@ -2320,6 +2325,11 @@ cpp
 "
 "
 PostMessageEvent
+.
+cpp
+"
+"
+PrefetchCandidates
 .
 cpp
 "
