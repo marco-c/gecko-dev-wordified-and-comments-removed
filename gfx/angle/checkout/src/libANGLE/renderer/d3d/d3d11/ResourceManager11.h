@@ -205,15 +205,6 @@ D3D11_SUBRESOURCE_DATA
 OP
 (
 NAME
-ComputeShader
-ID3D11ComputeShader
-ShaderData
-void
-)
-\
-OP
-(
-NAME
 DepthStencilState
 ID3D11DepthStencilState
 D3D11_DEPTH_STENCIL_DESC

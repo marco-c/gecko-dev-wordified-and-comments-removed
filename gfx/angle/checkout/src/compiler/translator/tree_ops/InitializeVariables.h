@@ -50,10 +50,9 @@ std
 :
 vector
 <
-sh
-:
-:
-ShaderVariable
+const
+TVariable
+*
 >
 InitVariableList
 ;
@@ -66,8 +65,6 @@ TIntermTyped
 initializedSymbol
 bool
 canUseLoopsToInitialize
-bool
-highPrecisionSupported
 TIntermSequence
 *
 initCode
@@ -94,8 +91,6 @@ int
 shaderVersion
 bool
 canUseLoopsToInitialize
-bool
-highPrecisionSupported
 TSymbolTable
 *
 symbolTable
@@ -130,8 +125,6 @@ TExtensionBehavior
 extensionBehavior
 bool
 canUseLoopsToInitialize
-bool
-highPrecisionSupported
 )
 ;
 }

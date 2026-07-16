@@ -1,4 +1,12 @@
 #
+ifdef
+UNSAFE_BUFFERS_BUILD
+#
+pragma
+allow_unsafe_buffers
+#
+endif
+#
 include
 "
 image_util
@@ -375,6 +383,10 @@ R8G8B8A8
 void
 LoadPalettedToRGBA8Impl
 (
+const
+ImageLoadContext
+&
+context
 size_t
 width
 size_t

@@ -1,4 +1,12 @@
 #
+ifdef
+UNSAFE_BUFFERS_BUILD
+#
+pragma
+allow_unsafe_buffers
+#
+endif
+#
 include
 "
 libANGLE
@@ -491,12 +499,22 @@ const
 gl
 :
 :
-State
+state
 :
 :
 DirtyBits
 &
 dirtyBits
+const
+gl
+:
+:
+state
+:
+:
+ExtendedDirtyBits
+&
+extendedDirtyBits
 )
 {
 if
@@ -529,7 +547,7 @@ case
 gl
 :
 :
-State
+state
 :
 :
 DIRTY_BIT_BLEND_ENABLED
@@ -591,7 +609,7 @@ case
 gl
 :
 :
-State
+state
 :
 :
 DIRTY_BIT_BLEND_FUNCS
@@ -688,7 +706,7 @@ case
 gl
 :
 :
-State
+state
 :
 :
 DIRTY_BIT_BLEND_EQUATIONS
@@ -758,7 +776,7 @@ case
 gl
 :
 :
-State
+state
 :
 :
 DIRTY_BIT_SAMPLE_ALPHA_TO_COVERAGE_ENABLED
@@ -789,7 +807,7 @@ case
 gl
 :
 :
-State
+state
 :
 :
 DIRTY_BIT_COLOR_MASK
@@ -886,7 +904,7 @@ case
 gl
 :
 :
-State
+state
 :
 :
 DIRTY_BIT_DITHER_ENABLED
@@ -921,7 +939,7 @@ case
 gl
 :
 :
-State
+state
 :
 :
 DIRTY_BIT_BLEND_COLOR
@@ -952,7 +970,7 @@ case
 gl
 :
 :
-State
+state
 :
 :
 DIRTY_BIT_CULL_FACE_ENABLED
@@ -987,7 +1005,7 @@ case
 gl
 :
 :
-State
+state
 :
 :
 DIRTY_BIT_CULL_FACE
@@ -1022,7 +1040,7 @@ case
 gl
 :
 :
-State
+state
 :
 :
 DIRTY_BIT_FRONT_FACE
@@ -1064,7 +1082,7 @@ case
 gl
 :
 :
-State
+state
 :
 :
 DIRTY_BIT_POLYGON_OFFSET_FILL_ENABLED
@@ -1099,7 +1117,7 @@ case
 gl
 :
 :
-State
+state
 :
 :
 DIRTY_BIT_POLYGON_OFFSET
@@ -1156,7 +1174,7 @@ case
 gl
 :
 :
-State
+state
 :
 :
 DIRTY_BIT_DEPTH_MASK
@@ -1191,7 +1209,7 @@ case
 gl
 :
 :
-State
+state
 :
 :
 DIRTY_BIT_DEPTH_TEST_ENABLED
@@ -1209,7 +1227,7 @@ case
 gl
 :
 :
-State
+state
 :
 :
 DIRTY_BIT_DEPTH_FUNC
@@ -1227,7 +1245,7 @@ case
 gl
 :
 :
-State
+state
 :
 :
 DIRTY_BIT_STENCIL_TEST_ENABLED
@@ -1287,7 +1305,7 @@ case
 gl
 :
 :
-State
+state
 :
 :
 DIRTY_BIT_STENCIL_FUNCS_FRONT
@@ -1305,7 +1323,7 @@ case
 gl
 :
 :
-State
+state
 :
 :
 DIRTY_BIT_STENCIL_FUNCS_BACK
@@ -1323,7 +1341,7 @@ case
 gl
 :
 :
-State
+state
 :
 :
 DIRTY_BIT_STENCIL_WRITEMASK_FRONT
@@ -1341,7 +1359,7 @@ case
 gl
 :
 :
-State
+state
 :
 :
 DIRTY_BIT_STENCIL_WRITEMASK_BACK
@@ -1359,7 +1377,7 @@ case
 gl
 :
 :
-State
+state
 :
 :
 DIRTY_BIT_STENCIL_OPS_FRONT
@@ -1377,7 +1395,7 @@ case
 gl
 :
 :
-State
+state
 :
 :
 DIRTY_BIT_STENCIL_OPS_BACK
@@ -1395,7 +1413,7 @@ case
 gl
 :
 :
-State
+state
 :
 :
 DIRTY_BIT_SCISSOR_TEST_ENABLED
@@ -1433,7 +1451,7 @@ case
 gl
 :
 :
-State
+state
 :
 :
 DIRTY_BIT_SCISSOR
@@ -1464,7 +1482,7 @@ case
 gl
 :
 :
-State
+state
 :
 :
 DIRTY_BIT_DEPTH_RANGE
@@ -1482,7 +1500,7 @@ case
 gl
 :
 :
-State
+state
 :
 :
 DIRTY_BIT_VIEWPORT

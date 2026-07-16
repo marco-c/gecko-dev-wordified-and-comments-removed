@@ -24,6 +24,20 @@ FrameCapture
 .
 h
 "
+#
+ifdef
+ANGLE_ENABLE_CL
+#
+include
+"
+common
+/
+PackedCLEnums_autogen
+.
+h
+"
+#
+endif
 namespace
 gl
 {
@@ -531,8 +545,8 @@ TextureTarget
 targetPacked
 GLint
 level
-GLenum
-pname
+TextureImageParameter
+pnamePacked
 GLfloat
 *
 params
@@ -554,8 +568,8 @@ TextureTarget
 targetPacked
 GLint
 level
-GLenum
-pname
+TextureImageParameter
+pnamePacked
 GLint
 *
 params
@@ -1578,8 +1592,6 @@ const
 State
 &
 glState
-bool
-isCallValid
 ShaderType
 typePacked
 GLsizei
@@ -1605,8 +1617,6 @@ const
 State
 &
 glState
-bool
-isCallValid
 GLsizei
 n
 const
@@ -1628,8 +1638,6 @@ const
 State
 &
 glState
-bool
-isCallValid
 PrimitiveMode
 modePacked
 const
@@ -1651,8 +1659,6 @@ const
 State
 &
 glState
-bool
-isCallValid
 PrimitiveMode
 modePacked
 DrawElementsType
@@ -1676,8 +1682,6 @@ const
 State
 &
 glState
-bool
-isCallValid
 GLsizei
 n
 ProgramPipelineID
@@ -1698,8 +1702,6 @@ const
 State
 &
 glState
-bool
-isCallValid
 GLenum
 target
 GLuint
@@ -1722,8 +1724,6 @@ const
 State
 &
 glState
-bool
-isCallValid
 GLenum
 target
 GLenum
@@ -1746,8 +1746,6 @@ const
 State
 &
 glState
-bool
-isCallValid
 GLenum
 pname
 GLuint
@@ -1770,8 +1768,6 @@ const
 State
 &
 glState
-bool
-isCallValid
 ShaderProgramID
 programPacked
 GLenum
@@ -1796,8 +1792,6 @@ const
 State
 &
 glState
-bool
-isCallValid
 ProgramPipelineID
 pipelinePacked
 GLsizei
@@ -1823,8 +1817,6 @@ const
 State
 &
 glState
-bool
-isCallValid
 ProgramPipelineID
 pipelinePacked
 GLsizei
@@ -1850,8 +1842,6 @@ const
 State
 &
 glState
-bool
-isCallValid
 ProgramPipelineID
 pipelinePacked
 GLenum
@@ -1874,8 +1864,6 @@ const
 State
 &
 glState
-bool
-isCallValid
 ShaderProgramID
 programPacked
 GLenum
@@ -1899,8 +1887,6 @@ const
 State
 &
 glState
-bool
-isCallValid
 ShaderProgramID
 programPacked
 GLenum
@@ -1924,8 +1910,6 @@ const
 State
 &
 glState
-bool
-isCallValid
 ShaderProgramID
 programPacked
 GLenum
@@ -1955,8 +1939,6 @@ const
 State
 &
 glState
-bool
-isCallValid
 ShaderProgramID
 programPacked
 GLenum
@@ -1986,8 +1968,6 @@ const
 State
 &
 glState
-bool
-isCallValid
 ShaderProgramID
 programPacked
 GLenum
@@ -2023,8 +2003,6 @@ const
 State
 &
 glState
-bool
-isCallValid
 ShaderProgramID
 programPacked
 GLenum
@@ -2060,8 +2038,6 @@ const
 State
 &
 glState
-bool
-isCallValid
 ShaderProgramID
 programPacked
 GLenum
@@ -2097,14 +2073,12 @@ const
 State
 &
 glState
-bool
-isCallValid
 TextureTarget
 targetPacked
 GLint
 level
-GLenum
-pname
+TextureImageParameter
+pnamePacked
 GLfloat
 *
 params
@@ -2123,14 +2097,12 @@ const
 State
 &
 glState
-bool
-isCallValid
 TextureTarget
 targetPacked
 GLint
 level
-GLenum
-pname
+TextureImageParameter
+pnamePacked
 GLint
 *
 params
@@ -2149,8 +2121,6 @@ const
 State
 &
 glState
-bool
-isCallValid
 ShaderProgramID
 programPacked
 UniformLocation
@@ -2176,8 +2146,6 @@ const
 State
 &
 glState
-bool
-isCallValid
 ShaderProgramID
 programPacked
 UniformLocation
@@ -2203,8 +2171,6 @@ const
 State
 &
 glState
-bool
-isCallValid
 ShaderProgramID
 programPacked
 UniformLocation
@@ -2230,8 +2196,6 @@ const
 State
 &
 glState
-bool
-isCallValid
 ShaderProgramID
 programPacked
 UniformLocation
@@ -2257,8 +2221,6 @@ const
 State
 &
 glState
-bool
-isCallValid
 ShaderProgramID
 programPacked
 UniformLocation
@@ -2284,8 +2246,6 @@ const
 State
 &
 glState
-bool
-isCallValid
 ShaderProgramID
 programPacked
 UniformLocation
@@ -2311,8 +2271,6 @@ const
 State
 &
 glState
-bool
-isCallValid
 ShaderProgramID
 programPacked
 UniformLocation
@@ -2338,8 +2296,6 @@ const
 State
 &
 glState
-bool
-isCallValid
 ShaderProgramID
 programPacked
 UniformLocation
@@ -2365,8 +2321,6 @@ const
 State
 &
 glState
-bool
-isCallValid
 ShaderProgramID
 programPacked
 UniformLocation
@@ -2392,8 +2346,6 @@ const
 State
 &
 glState
-bool
-isCallValid
 ShaderProgramID
 programPacked
 UniformLocation
@@ -2419,8 +2371,6 @@ const
 State
 &
 glState
-bool
-isCallValid
 ShaderProgramID
 programPacked
 UniformLocation
@@ -2446,8 +2396,6 @@ const
 State
 &
 glState
-bool
-isCallValid
 ShaderProgramID
 programPacked
 UniformLocation
@@ -2473,8 +2421,6 @@ const
 State
 &
 glState
-bool
-isCallValid
 ShaderProgramID
 programPacked
 UniformLocation
@@ -2502,8 +2448,6 @@ const
 State
 &
 glState
-bool
-isCallValid
 ShaderProgramID
 programPacked
 UniformLocation
@@ -2531,8 +2475,6 @@ const
 State
 &
 glState
-bool
-isCallValid
 ShaderProgramID
 programPacked
 UniformLocation
@@ -2560,8 +2502,6 @@ const
 State
 &
 glState
-bool
-isCallValid
 ShaderProgramID
 programPacked
 UniformLocation
@@ -2589,8 +2529,6 @@ const
 State
 &
 glState
-bool
-isCallValid
 ShaderProgramID
 programPacked
 UniformLocation
@@ -2618,8 +2556,6 @@ const
 State
 &
 glState
-bool
-isCallValid
 ShaderProgramID
 programPacked
 UniformLocation
@@ -2647,8 +2583,6 @@ const
 State
 &
 glState
-bool
-isCallValid
 ShaderProgramID
 programPacked
 UniformLocation
@@ -2676,8 +2610,6 @@ const
 State
 &
 glState
-bool
-isCallValid
 ShaderProgramID
 programPacked
 UniformLocation
@@ -2705,8 +2637,6 @@ const
 State
 &
 glState
-bool
-isCallValid
 ShaderProgramID
 programPacked
 UniformLocation
