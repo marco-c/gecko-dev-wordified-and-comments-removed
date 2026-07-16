@@ -194,10 +194,7 @@ aSupported
 )
 ;
 static
-media
-:
-:
-DecodeSupportSet
+bool
 Supports
 (
 RemoteMediaIn
