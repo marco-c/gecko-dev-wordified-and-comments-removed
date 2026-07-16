@@ -56,7 +56,7 @@ shadow
 {
 inline
 size_t
-NumObjectFixedSlots
+NumNativeObjectFixedSlots
 (
 Shape
 *
@@ -137,7 +137,7 @@ numFixedSlots
 const
 {
 return
-NumObjectFixedSlots
+NumNativeObjectFixedSlots
 (
 shape
 )
