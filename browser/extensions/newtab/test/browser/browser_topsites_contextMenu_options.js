@@ -96,7 +96,7 @@ equal
 contextMenuItems
 .
 length
-5
+6
 "
 Number
 of
@@ -115,6 +115,11 @@ Pin
 "
 "
 Edit
+"
+"
+Add
+New
+Shortcut
 "
 "
 Open
@@ -332,7 +337,7 @@ waitForCondition
 >
 contextMenuItems
 [
-4
+5
 ]
 .
 textContent
@@ -348,7 +353,7 @@ Dismiss
 '
 is
 the
-5th
+last
 item
 in
 the
@@ -360,7 +365,7 @@ list
 ;
 contextMenuItems
 [
-4
+5
 ]
 .
 querySelector

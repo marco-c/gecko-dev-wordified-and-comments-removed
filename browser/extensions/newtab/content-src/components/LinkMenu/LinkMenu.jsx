@@ -136,6 +136,9 @@ CheckPinTopSite
 EditTopSite
 "
 "
+AddTopSite
+"
+"
 Separator
 "
 "

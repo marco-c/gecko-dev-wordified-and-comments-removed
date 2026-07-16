@@ -1016,6 +1016,17 @@ newtab
 -
 menu
 -
+add
+-
+topsite
+=
+Add
+New
+Shortcut
+newtab
+-
+menu
+-
 open
 -
 new

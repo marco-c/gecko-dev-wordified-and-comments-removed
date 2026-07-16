@@ -76,6 +76,9 @@ CheckPinTopSite
 EditTopSite
 "
 "
+AddTopSite
+"
+"
 Separator
 "
 "

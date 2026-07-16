@@ -5010,6 +5010,9 @@ CheckPinTopSite
 EditTopSite
 "
 "
+AddTopSite
+"
+"
 Separator
 "
 "
