@@ -3039,10 +3039,6 @@ MOZ_TEST_TIMEOUT_INTERVAL
 "
 )
 )
-*
-0
-.
-9
 ;
 _Services
 .
