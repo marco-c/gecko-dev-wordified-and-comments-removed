@@ -8643,6 +8643,12 @@ addkBL1
 addkBLN
 -
 getkeyrng
+-
+idbCurNext
+-
+idbCurPKey
+-
+idbCurPrev
 run
 -
 on

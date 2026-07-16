@@ -5288,6 +5288,17 @@ raptor
 /
 browsertime
 /
+indexeddb_cursor
+.
+js
+"
+"
+testing
+/
+raptor
+/
+browsertime
+/
 indexeddb_getkeyrange
 .
 js
