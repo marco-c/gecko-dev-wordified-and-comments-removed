@@ -467,6 +467,11 @@ requireComponents
 core
 .
 store
+appStore
+=
+requireComponents
+.
+appStore
 navControllerRef
 =
 WeakReference

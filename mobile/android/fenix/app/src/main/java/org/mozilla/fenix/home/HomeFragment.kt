@@ -7355,6 +7355,11 @@ requireActivity
 store
 =
 store
+appStore
+=
+requireComponents
+.
+appStore
 navControllerRef
 =
 WeakReference
