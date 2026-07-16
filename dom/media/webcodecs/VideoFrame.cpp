@@ -12859,7 +12859,7 @@ if
 mResource
 -
 >
-CopyTo
+CopyPlaneInto
 (
 planes
 [
@@ -16996,7 +16996,7 @@ VideoFrame
 Resource
 :
 :
-CopyTo
+CopyPlaneInto
 (
 const
 Format
@@ -17016,8 +17016,6 @@ Span
 <
 uint8_t
 >
-&
-&
 aPlaneDest
 size_t
 aDestinationStride

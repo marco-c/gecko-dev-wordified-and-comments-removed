@@ -1268,7 +1268,7 @@ aPlane
 const
 ;
 bool
-CopyTo
+CopyPlaneInto
 (
 const
 Format
@@ -1288,8 +1288,6 @@ Span
 <
 uint8_t
 >
-&
-&
 aPlaneDest
 size_t
 aDestinationStride
