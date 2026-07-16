@@ -1821,7 +1821,8 @@ id
 isAtom
 (
 )
-?
+&
+&
 !
 IsIdentifier
 (
@@ -1831,14 +1832,6 @@ toAtom
 (
 )
 )
-:
-id
-.
-toInt
-(
-)
-<
-0
 )
 {
 UniqueChars

@@ -340,7 +340,7 @@ asBits_
 ;
 }
 MOZ_ALWAYS_INLINE
-int32_t
+uint32_t
 toInt
 (
 )
@@ -368,13 +368,7 @@ asBits_
 1
 ;
 return
-static_cast
-<
-int32_t
->
-(
 bits
-)
 ;
 }
 MOZ_ALWAYS_INLINE
@@ -1826,7 +1820,7 @@ isGCThing
 )
 ;
 }
-int32_t
+uint32_t
 toInt
 (
 )
