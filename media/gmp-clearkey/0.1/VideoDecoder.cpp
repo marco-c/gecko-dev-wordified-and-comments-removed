@@ -1,5 +1,12 @@
 #
 include
+"
+VideoDecoder
+.
+h
+"
+#
+include
 <
 algorithm
 >
@@ -23,13 +30,6 @@ h
 #
 include
 "
-ClearKeyUtils
-.
-h
-"
-#
-include
-"
 ClearKeyDecryptionManager
 .
 h
@@ -37,7 +37,7 @@ h
 #
 include
 "
-VideoDecoder
+ClearKeyUtils
 .
 h
 "

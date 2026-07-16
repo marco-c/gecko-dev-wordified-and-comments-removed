@@ -43,14 +43,14 @@ h
 #
 include
 "
-WMFClearKeyUtils
+WMFClearKeyOutputPolicy
 .
 h
 "
 #
 include
 "
-WMFClearKeyOutputPolicy
+WMFClearKeyUtils
 .
 h
 "
