@@ -5661,6 +5661,17 @@ scratch_register_list_
 1
 <
 <
+t6
+.
+code
+(
+)
+)
+|
+(
+1
+<
+<
 t7
 .
 code
