@@ -578,10 +578,6 @@ mIsComposing
 return
 ;
 }
-mIsComposing
-=
-false
-;
 }
 bool
 EditContext
@@ -1888,9 +1884,9 @@ mTextNextToCaretChangedByTextUpdateHandler
 =
 false
 ;
-MOZ_ASSERT
+AutoRestore
+restore
 (
-!
 mIsFiringTextUpdate
 )
 ;
@@ -1903,10 +1899,6 @@ DispatchEvent
 *
 e
 )
-;
-mIsFiringTextUpdate
-=
-false
 ;
 }
 void

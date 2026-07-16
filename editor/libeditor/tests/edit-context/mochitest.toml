@@ -32,6 +32,13 @@ html
 ]
 [
 "
+test_editcontext_blur_in_textupdate
+.
+html
+"
+]
+[
+"
 test_editcontext_composition
 .
 html
