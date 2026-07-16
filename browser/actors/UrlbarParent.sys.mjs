@@ -548,6 +548,9 @@ isPrivate
 input
 .
 isPrivate
+actor
+:
+this
 }
 )
 ;
@@ -656,6 +659,9 @@ UrlbarParentController
 {
 sapName
 isPrivate
+actor
+:
+this
 }
 )
 ;

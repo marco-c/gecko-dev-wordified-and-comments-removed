@@ -360,6 +360,7 @@ deferred
 .
 promise
 ;
+await
 assertEngagementTelemetry
 (
 [
@@ -874,6 +875,7 @@ newTab
 await
 newTabOpened
 ;
+await
 assertEngagementTelemetry
 (
 [
@@ -974,6 +976,7 @@ VK_RETURN
 await
 onDialog
 ;
+await
 assertEngagementTelemetry
 (
 expectedTelemetry

@@ -135,6 +135,13 @@ js
 ]
 [
 "
+test_UrlbarTelemetryUtils_wireSerialization
+.
+js
+"
+]
+[
+"
 test_UrlbarSearchUtils
 .
 js

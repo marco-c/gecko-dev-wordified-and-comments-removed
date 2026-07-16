@@ -346,6 +346,7 @@ target
 }
 )
 ;
+await
 assertEngagementTelemetry
 (
 [
@@ -487,6 +488,7 @@ target
 }
 )
 ;
+await
 assertEngagementTelemetry
 (
 [
@@ -672,6 +674,7 @@ target
 }
 )
 ;
+await
 assertEngagementTelemetry
 (
 [
@@ -900,6 +903,7 @@ targetMenuItem
 await
 onPopupHidden
 ;
+await
 assertEngagementTelemetry
 (
 [

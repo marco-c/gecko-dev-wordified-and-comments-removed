@@ -160,6 +160,7 @@ selectedBrowser
 await
 popupHidden
 ;
+await
 assertEngagementTelemetry
 (
 [
@@ -306,6 +307,7 @@ doEnter
 (
 )
 ;
+await
 assertEngagementTelemetry
 (
 [
@@ -513,6 +515,7 @@ doEnter
 (
 )
 ;
+await
 assertEngagementTelemetry
 (
 [

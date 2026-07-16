@@ -477,6 +477,7 @@ doEnter
 (
 )
 ;
+await
 assertEngagementTelemetry
 (
 [
@@ -659,6 +660,7 @@ results
 "
 )
 ;
+await
 assertAbandonmentTelemetry
 (
 [
@@ -670,6 +672,7 @@ doEnter
 (
 )
 ;
+await
 assertEngagementTelemetry
 (
 [
@@ -779,6 +782,7 @@ doEnter
 (
 )
 ;
+await
 assertEngagementTelemetry
 (
 [

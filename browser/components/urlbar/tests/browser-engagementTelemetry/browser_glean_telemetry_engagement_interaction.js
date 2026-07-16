@@ -187,6 +187,7 @@ com
 "
 )
 ;
+await
 assertEngagementTelemetry
 (
 [
@@ -242,6 +243,7 @@ com
 "
 )
 ;
+await
 assertEngagementTelemetry
 (
 [
@@ -358,6 +360,7 @@ com
 "
 )
 ;
+await
 assertEngagementTelemetry
 (
 [
@@ -415,6 +418,7 @@ com
 "
 )
 ;
+await
 assertEngagementTelemetry
 (
 [
@@ -455,6 +459,7 @@ doEnter
 (
 )
 ;
+await
 assertEngagementTelemetry
 (
 [

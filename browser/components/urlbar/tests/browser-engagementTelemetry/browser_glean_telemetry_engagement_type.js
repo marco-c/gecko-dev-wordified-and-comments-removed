@@ -53,6 +53,7 @@ doClick
 (
 )
 ;
+await
 assertEngagementTelemetry
 (
 [
@@ -102,6 +103,7 @@ doEnter
 (
 )
 ;
+await
 assertEngagementTelemetry
 (
 [
@@ -157,6 +159,7 @@ goButton
 }
 )
 ;
+await
 assertEngagementTelemetry
 (
 [
@@ -203,6 +206,7 @@ com
 "
 )
 ;
+await
 assertEngagementTelemetry
 (
 [
@@ -251,6 +255,7 @@ com
 "
 )
 ;
+await
 assertEngagementTelemetry
 (
 [
@@ -359,6 +364,7 @@ window
 )
 )
 ;
+await
 assertEngagementTelemetry
 (
 [
@@ -397,6 +403,7 @@ doClick
 (
 )
 ;
+await
 assertEngagementTelemetry
 (
 [
@@ -502,6 +509,7 @@ window
 )
 )
 ;
+await
 assertEngagementTelemetry
 (
 [
@@ -714,6 +722,7 @@ promiseSearchComplete
 window
 )
 ;
+await
 assertEngagementTelemetry
 (
 [
@@ -930,6 +939,7 @@ promiseSearchComplete
 window
 )
 ;
+await
 assertEngagementTelemetry
 (
 [
@@ -1145,6 +1155,7 @@ promiseSearchComplete
 window
 )
 ;
+await
 assertEngagementTelemetry
 (
 [
@@ -1333,6 +1344,7 @@ promiseSearchComplete
 window
 )
 ;
+await
 assertEngagementTelemetry
 (
 [
@@ -1536,6 +1548,7 @@ removeTab
 tab
 )
 ;
+await
 assertEngagementTelemetry
 (
 [
@@ -1642,6 +1655,7 @@ M
 await
 onManagePageLoaded
 ;
+await
 assertEngagementTelemetry
 (
 [
