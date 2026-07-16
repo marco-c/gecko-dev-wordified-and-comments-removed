@@ -24,6 +24,13 @@ toml
 ]
 [
 "
+test_cli_window_size
+.
+py
+"
+]
+[
+"
 test_exitcode
 .
 py
