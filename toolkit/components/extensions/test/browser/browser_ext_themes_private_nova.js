@@ -420,7 +420,7 @@ normalThemeId
 DARK_THEME_ID
 privateThemeId
 :
-DARK_THEME_ID
+PRIVATE_THEME_ID
 expectInApp
 :
 true
@@ -472,7 +472,7 @@ normalThemeId
 LIGHT_THEME_ID
 privateThemeId
 :
-LIGHT_THEME_ID
+PRIVATE_THEME_ID
 expectInApp
 :
 true
