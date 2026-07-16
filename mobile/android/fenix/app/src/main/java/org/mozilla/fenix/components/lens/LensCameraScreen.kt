@@ -1307,7 +1307,7 @@ iconsR
 .
 drawable
 .
-mozac_ic_cross_24
+mozac_ic_back_24
 )
 contentDescription
 =
