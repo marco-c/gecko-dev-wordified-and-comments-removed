@@ -80,7 +80,7 @@ arguments
 [
 {
 '
-input
+a
 '
 :
 '
@@ -207,7 +207,7 @@ arguments
 [
 {
 '
-input
+a
 '
 :
 '
@@ -344,7 +344,7 @@ arguments
 [
 {
 '
-input
+a
 '
 :
 '
@@ -492,7 +492,7 @@ arguments
 [
 {
 '
-input
+a
 '
 :
 '
@@ -667,7 +667,7 @@ arguments
 [
 {
 '
-input
+a
 '
 :
 '
@@ -897,7 +897,7 @@ arguments
 [
 {
 '
-input
+a
 '
 :
 '
@@ -1074,7 +1074,7 @@ arguments
 [
 {
 '
-input
+a
 '
 :
 '
@@ -1209,7 +1209,7 @@ arguments
 [
 {
 '
-input
+a
 '
 :
 '
@@ -1353,7 +1353,7 @@ arguments
 [
 {
 '
-input
+a
 '
 :
 '
@@ -1485,7 +1485,7 @@ arguments
 [
 {
 '
-input
+a
 '
 :
 '
@@ -1612,7 +1612,7 @@ arguments
 [
 {
 '
-input
+a
 '
 :
 '
@@ -1749,7 +1749,7 @@ arguments
 [
 {
 '
-input
+a
 '
 :
 '
@@ -1895,7 +1895,7 @@ arguments
 [
 {
 '
-input
+a
 '
 :
 '
@@ -2115,7 +2115,7 @@ arguments
 [
 {
 '
-input
+a
 '
 :
 '

@@ -7711,7 +7711,7 @@ tolerance
 }
 ;
 let
-minimumDataTypeSet
+requiredDataTypesAndRanks
 ;
 function
 checkMinimum
@@ -7869,7 +7869,7 @@ name
 ;
 if
 (
-minimumDataTypeSet
+requiredDataTypesAndRanks
 [
 operatorName
 ]
@@ -7911,7 +7911,7 @@ break
 }
 }
 return
-minimumDataTypeSet
+requiredDataTypesAndRanks
 [
 operatorName
 ]
@@ -7922,7 +7922,7 @@ outputName
 }
 async
 function
-getMinimumDataTypeSetJson
+getRequiredDataTypesAndRanks
 (
 )
 {
@@ -7940,7 +7940,7 @@ webnn
 /
 resources
 /
-minimum_datatype_set
+required_datatypes_ranks
 .
 json
 '
@@ -8018,7 +8018,7 @@ g
 '
 )
 ;
-minimumDataTypeSet
+requiredDataTypesAndRanks
 =
 JSON
 .
@@ -8052,7 +8052,7 @@ message
 ;
 }
 return
-minimumDataTypeSet
+requiredDataTypesAndRanks
 ;
 }
 function
@@ -8093,7 +8093,7 @@ operators
 const
 minimumLimits
 =
-minimumDataTypeSet
+requiredDataTypesAndRanks
 [
 operator
 .
@@ -8457,10 +8457,10 @@ getContext
 (
 )
 ;
-minimumDataTypeSet
+requiredDataTypesAndRanks
 =
 await
-getMinimumDataTypeSetJson
+getRequiredDataTypesAndRanks
 (
 )
 ;
