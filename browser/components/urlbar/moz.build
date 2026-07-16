@@ -156,6 +156,13 @@ sys
 mjs
 "
 "
+UrlbarParentControllerProxy
+.
+sys
+.
+mjs
+"
+"
 UrlbarPrefs
 .
 sys
