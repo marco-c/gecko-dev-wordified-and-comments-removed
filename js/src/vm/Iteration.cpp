@@ -7154,7 +7154,12 @@ cx
 NewPlainObject
 (
 cx
+{
+.
+newKind
+=
 TenuredObject
+}
 )
 )
 ;

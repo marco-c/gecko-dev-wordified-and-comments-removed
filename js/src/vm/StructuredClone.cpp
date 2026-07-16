@@ -16539,7 +16539,12 @@ NewPlainObject
 context
 (
 )
+{
+.
+newKind
+=
 kind
+}
 )
 ;
 }
