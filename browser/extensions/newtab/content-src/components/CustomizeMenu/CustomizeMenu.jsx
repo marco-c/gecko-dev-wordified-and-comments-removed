@@ -1306,15 +1306,6 @@ props
 .
 mayHaveStocksWidget
 }
-mayHavePictureOfTheDayWidget
-=
-{
-this
-.
-props
-.
-mayHavePictureOfTheDayWidget
-}
 dispatch
 =
 {
