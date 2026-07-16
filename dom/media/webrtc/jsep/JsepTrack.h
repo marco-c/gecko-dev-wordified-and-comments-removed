@@ -990,10 +990,7 @@ void
 PopulatePreferredCodecs
 (
 const
-std
-:
-:
-vector
+nsTArray
 <
 UniquePtr
 <
@@ -1011,10 +1008,7 @@ void
 PopulateCodecs
 (
 const
-std
-:
-:
-vector
+nsTArray
 <
 UniquePtr
 <

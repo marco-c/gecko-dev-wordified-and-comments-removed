@@ -923,10 +923,7 @@ mSyncGroup
 ;
 }
 const
-std
-:
-:
-vector
+nsTArray
 <
 UniquePtr
 <
@@ -1149,10 +1146,7 @@ string
 >
 mSyncGroup
 ;
-std
-:
-:
-vector
+nsTArray
 <
 UniquePtr
 <
