@@ -1386,6 +1386,13 @@ h
 #
 include
 "
+nsIContentInlines
+.
+h
+"
+#
+include
+"
 nsIDOMXULMenuListElement
 .
 h
