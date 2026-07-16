@@ -269,6 +269,17 @@ layout_height
 >
 <
 Button
+style
+=
+"
+style
+/
+Mozac
+.
+Widgets
+.
+NeutralButton
+"
 android
 :
 id

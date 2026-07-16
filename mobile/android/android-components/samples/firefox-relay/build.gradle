@@ -284,6 +284,18 @@ ktx
 implementation
 project
 (
+'
+:
+components
+:
+ui
+-
+widgets
+'
+)
+implementation
+project
+(
 "
 :
 components
@@ -319,8 +331,6 @@ libs
 androidx
 .
 core
-.
-ktx
 implementation
 libs
 .
