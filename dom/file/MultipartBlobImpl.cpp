@@ -467,7 +467,7 @@ get
 (
 )
 ;
-uint32_t
+auto
 size
 =
 blobImpl
