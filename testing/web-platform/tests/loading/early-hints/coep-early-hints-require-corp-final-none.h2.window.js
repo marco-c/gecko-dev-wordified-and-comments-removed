@@ -1,10 +1,3 @@
-test
-(
-(
-)
-=
->
-{
 const
 early_hints_policy
 =
@@ -23,12 +16,12 @@ unsafe
 none
 "
 ;
+fetch_tests_from_window
+(
 navigateToCrossOriginEmbedderPolicyMismatchTest
 (
 early_hints_policy
 final_policy
 )
-;
-}
 )
 ;
