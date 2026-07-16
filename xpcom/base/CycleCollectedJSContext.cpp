@@ -3955,13 +3955,13 @@ aIncumbentGlobal
 {
 if
 (
+!
 aGlobalObject
 -
 >
-IsScriptForbidden
+CanRunJSMicroTask
 (
 aCallbackGlobal
-false
 )
 )
 {

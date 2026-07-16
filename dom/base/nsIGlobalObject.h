@@ -346,6 +346,15 @@ false
 )
 const
 ;
+bool
+CanRunJSMicroTask
+(
+JSObject
+*
+aCallbackGlobal
+)
+const
+;
 virtual
 JSObject
 *
