@@ -884,6 +884,7 @@ value
 {
 EndIf
 }
+ClearErrors
 ReadRegDWORD
 0
 HKLM
@@ -944,6 +945,7 @@ value
 '
 0
 '
+ClearErrors
 {
 GetParameters
 }
