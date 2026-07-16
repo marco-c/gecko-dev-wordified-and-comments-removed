@@ -507,6 +507,13 @@ js
 ]
 [
 "
+browser_privatebrowsing_indicator
+.
+js
+"
+]
+[
+"
 browser_privatebrowsing_last_private_browsing_context_exited
 .
 js
