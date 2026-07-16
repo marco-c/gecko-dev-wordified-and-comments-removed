@@ -739,7 +739,10 @@ Failed
 ;
 intermediate
 =
-JS_NumberValue
+JS
+:
+:
+NumberValue
 (
 size
 )
@@ -923,7 +926,10 @@ Failed
 ;
 intermediate
 =
-JS_NumberValue
+JS
+:
+:
+NumberValue
 (
 lastModifiedDate
 )

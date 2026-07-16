@@ -47261,7 +47261,10 @@ return
 _setValue
 (
 "
-JS_NumberValue
+JS
+:
+:
+NumberValue
 (
 %
 s

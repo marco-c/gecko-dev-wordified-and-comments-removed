@@ -4830,7 +4830,10 @@ Value
 detail
 (
 cx
-JS_NumberValue
+JS
+:
+:
+NumberValue
 (
 aScale
 )

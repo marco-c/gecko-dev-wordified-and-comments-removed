@@ -1630,7 +1630,7 @@ gEventNameIDMap
 kEventCount
 )
 ;
-MOZ_RUNINIT
+constinit
 nsTHashSet
 <
 nsCString
@@ -1656,7 +1656,7 @@ EventRecordArray
 >
 EventRecordsMapType
 ;
-MOZ_RUNINIT
+constinit
 EventRecordsMapType
 gEventRecords
 ;
