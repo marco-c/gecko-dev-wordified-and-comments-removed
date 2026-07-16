@@ -7,6 +7,13 @@ mozilla_a11y_ia2Accessible_h_
 #
 include
 "
+Accessible2_2
+.
+h
+"
+#
+include
+"
 nsISupports
 .
 h
@@ -15,13 +22,6 @@ h
 include
 "
 nsTArray
-.
-h
-"
-#
-include
-"
-Accessible2_2
 .
 h
 "

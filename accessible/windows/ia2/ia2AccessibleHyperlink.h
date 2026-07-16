@@ -7,7 +7,7 @@ ACCESSIBLE_HYPERLINK_H
 #
 include
 "
-nsISupports
+AccessibleHyperlink
 .
 h
 "
@@ -21,7 +21,7 @@ h
 #
 include
 "
-AccessibleHyperlink
+nsISupports
 .
 h
 "

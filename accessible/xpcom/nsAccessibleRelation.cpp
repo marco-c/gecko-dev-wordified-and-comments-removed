@@ -15,13 +15,6 @@ h
 #
 include
 "
-xpcAccessibleDocument
-.
-h
-"
-#
-include
-"
 nsArrayUtils
 .
 h
@@ -30,6 +23,13 @@ h
 include
 "
 nsComponentManagerUtils
+.
+h
+"
+#
+include
+"
+xpcAccessibleDocument
 .
 h
 "

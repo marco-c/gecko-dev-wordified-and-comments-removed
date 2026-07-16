@@ -7,13 +7,6 @@ AccGroupInfo_h_
 #
 include
 "
-nsISupportsImpl
-.
-h
-"
-#
-include
-"
 mozilla
 /
 MemoryReporting
@@ -28,6 +21,13 @@ mozilla
 a11y
 /
 Role
+.
+h
+"
+#
+include
+"
+nsISupportsImpl
 .
 h
 "

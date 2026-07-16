@@ -8,13 +8,6 @@ h
 #
 include
 "
-nsAccessibilityService
-.
-h
-"
-#
-include
-"
 Logging
 .
 h
@@ -27,6 +20,13 @@ mozilla
 dom
 /
 DOMStringList
+.
+h
+"
+#
+include
+"
+nsAccessibilityService
 .
 h
 "

@@ -11,7 +11,7 @@ mozilla
 /
 a11y
 /
-LocalAccessible
+DocManager
 .
 h
 "
@@ -22,7 +22,7 @@ mozilla
 /
 a11y
 /
-DocManager
+LocalAccessible
 .
 h
 "

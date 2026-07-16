@@ -30,14 +30,14 @@ h
 #
 include
 "
-nsIAccessibleTable
+nsComponentManagerUtils
 .
 h
 "
 #
 include
 "
-nsComponentManagerUtils
+nsIAccessibleTable
 .
 h
 "

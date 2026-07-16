@@ -7,13 +7,6 @@ _xpcAccessiblePivot_H_
 #
 include
 "
-nsIAccessiblePivot
-.
-h
-"
-#
-include
-"
 Accessible
 .
 h
@@ -22,6 +15,13 @@ h
 include
 "
 nsCycleCollectionParticipant
+.
+h
+"
+#
+include
+"
+nsIAccessiblePivot
 .
 h
 "

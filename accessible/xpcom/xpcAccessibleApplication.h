@@ -7,14 +7,14 @@ mozilla_a11y_xpcAccessibleApplication_h_
 #
 include
 "
-nsIAccessibleApplication
+ApplicationAccessible
 .
 h
 "
 #
 include
 "
-ApplicationAccessible
+nsIAccessibleApplication
 .
 h
 "

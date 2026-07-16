@@ -17,6 +17,8 @@ h
 include
 <
 glib
+-
+object
 .
 h
 >
@@ -24,8 +26,6 @@ h
 include
 <
 glib
--
-object
 .
 h
 >

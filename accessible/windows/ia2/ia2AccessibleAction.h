@@ -7,7 +7,7 @@ ACCESSIBLE_ACTION_H
 #
 include
 "
-nsISupports
+AccessibleAction
 .
 h
 "
@@ -25,7 +25,7 @@ h
 #
 include
 "
-AccessibleAction
+nsISupports
 .
 h
 "

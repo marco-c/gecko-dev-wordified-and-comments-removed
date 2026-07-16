@@ -9,9 +9,7 @@ include
 "
 mozilla
 /
-a11y
-/
-IDSet
+NotNull
 .
 h
 "
@@ -20,7 +18,9 @@ include
 "
 mozilla
 /
-NotNull
+a11y
+/
+IDSet
 .
 h
 "

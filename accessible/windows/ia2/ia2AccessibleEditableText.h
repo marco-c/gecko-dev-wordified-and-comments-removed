@@ -7,14 +7,14 @@ ACCESSIBLE_EDITABLETEXT_H
 #
 include
 "
-nsISupports
+AccessibleEditableText
 .
 h
 "
 #
 include
 "
-AccessibleEditableText
+nsISupports
 .
 h
 "

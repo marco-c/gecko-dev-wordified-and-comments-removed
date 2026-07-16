@@ -8,14 +8,14 @@ h
 #
 include
 "
-nsIAccessible
+TextLeafRange
 .
 h
 "
 #
 include
 "
-TextLeafRange
+nsIAccessible
 .
 h
 "

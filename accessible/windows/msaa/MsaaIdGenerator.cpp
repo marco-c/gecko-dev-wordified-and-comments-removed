@@ -8,6 +8,13 @@ h
 #
 include
 "
+MsaaAccessible
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Assertions
@@ -20,13 +27,6 @@ include
 mozilla
 /
 ClearOnShutdown
-.
-h
-"
-#
-include
-"
-MsaaAccessible
 .
 h
 "

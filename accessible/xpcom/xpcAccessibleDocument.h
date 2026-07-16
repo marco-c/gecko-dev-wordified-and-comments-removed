@@ -7,13 +7,6 @@ mozilla_a11y_xpcAccessibleDocument_h_
 #
 include
 "
-nsIAccessibleDocument
-.
-h
-"
-#
-include
-"
 DocAccessible
 .
 h
@@ -22,6 +15,13 @@ h
 include
 "
 nsAccessibilityService
+.
+h
+"
+#
+include
+"
+nsIAccessibleDocument
 .
 h
 "

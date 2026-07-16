@@ -10,9 +10,9 @@ include
 "
 mozilla
 /
-dom
+a11y
 /
-HTMLInputElement
+Role
 .
 h
 "
@@ -21,9 +21,9 @@ include
 "
 mozilla
 /
-a11y
+dom
 /
-Role
+HTMLInputElement
 .
 h
 "

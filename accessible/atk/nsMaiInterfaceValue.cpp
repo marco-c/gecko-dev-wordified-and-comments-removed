@@ -1,13 +1,6 @@
 #
 include
 "
-InterfaceInitFuncs
-.
-h
-"
-#
-include
-"
 AccessibleWrap
 .
 h
@@ -15,7 +8,7 @@ h
 #
 include
 "
-nsMai
+InterfaceInitFuncs
 .
 h
 "
@@ -32,6 +25,13 @@ include
 mozilla
 /
 Likely
+.
+h
+"
+#
+include
+"
+nsMai
 .
 h
 "

@@ -7,7 +7,9 @@ mozilla_a11y_logs_h_
 #
 include
 "
-nscore
+mozilla
+/
+Attributes
 .
 h
 "
@@ -21,9 +23,7 @@ h
 #
 include
 "
-mozilla
-/
-Attributes
+nscore
 .
 h
 "

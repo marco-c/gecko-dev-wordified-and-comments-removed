@@ -7,13 +7,6 @@ mozilla_a11y_DocAccessibleParent_h
 #
 include
 "
-nsAccessibilityService
-.
-h
-"
-#
-include
-"
 mozilla
 /
 a11y
@@ -41,6 +34,13 @@ mozilla
 dom
 /
 BrowserBridgeParent
+.
+h
+"
+#
+include
+"
+nsAccessibilityService
 .
 h
 "

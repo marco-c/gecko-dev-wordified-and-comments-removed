@@ -7,13 +7,6 @@ MAI_HYPERLINK_H_
 #
 include
 "
-nsMai
-.
-h
-"
-#
-include
-"
 mozilla
 /
 a11y
@@ -48,6 +41,13 @@ h
 include
 "
 nsDebug
+.
+h
+"
+#
+include
+"
+nsMai
 .
 h
 "

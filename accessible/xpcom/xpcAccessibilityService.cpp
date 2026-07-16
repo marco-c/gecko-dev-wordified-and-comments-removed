@@ -19,13 +19,6 @@ h
 #
 include
 "
-xpcAccessiblePivot
-.
-h
-"
-#
-include
-"
 nsAccessibilityService
 .
 h
@@ -41,6 +34,13 @@ h
 include
 "
 xpcAccessibleDocument
+.
+h
+"
+#
+include
+"
+xpcAccessiblePivot
 .
 h
 "
