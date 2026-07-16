@@ -712,6 +712,13 @@ moxARIAControls
 ;
 -
 (
+NSArray
+*
+)
+moxDetailsElements
+;
+-
+(
 id
 )
 moxEditableAncestor
