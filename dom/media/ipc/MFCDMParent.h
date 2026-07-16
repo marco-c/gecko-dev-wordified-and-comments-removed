@@ -226,6 +226,12 @@ return
 mIsHardwareDRM
 ;
 }
+bool
+IsClearLead
+(
+)
+const
+;
 void
 ActorDestroy
 (
