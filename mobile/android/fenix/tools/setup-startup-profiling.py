@@ -108,6 +108,7 @@ stackwalk
 screenshots
 ipcmessages
 java
+cpu
 memory
   
 MOZ_PROFILER_STARTUP_FILTERS

@@ -775,6 +775,11 @@ StackWalk
 ProfilerFeature
 :
 :
+CPUUtilization
+|
+ProfilerFeature
+:
+:
 ProcessCPU
 ;
 }

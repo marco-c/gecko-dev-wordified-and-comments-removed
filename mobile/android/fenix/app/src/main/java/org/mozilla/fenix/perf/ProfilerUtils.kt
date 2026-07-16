@@ -326,6 +326,9 @@ js
 stackwalk
 "
 "
+cpu
+"
+"
 java
 "
 "
@@ -372,6 +375,9 @@ stackwalk
 "
 "
 js
+"
+"
+cpu
 "
 "
 java
@@ -434,6 +440,9 @@ js
 "
 "
 stackwalk
+"
+"
+cpu
 "
 "
 audiocallbacktracing
@@ -545,6 +554,9 @@ js
 stackwalk
 "
 "
+cpu
+"
+"
 java
 "
 "
@@ -604,6 +616,9 @@ debug_features
 =
 arrayOf
 (
+"
+cpu
+"
 "
 java
 "

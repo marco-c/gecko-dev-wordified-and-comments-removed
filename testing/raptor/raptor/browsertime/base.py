@@ -4407,6 +4407,7 @@ features
 "
 js
 stackwalk
+cpu
 screenshots
 memory
 java

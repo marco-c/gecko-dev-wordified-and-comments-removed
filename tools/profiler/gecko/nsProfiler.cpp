@@ -1442,6 +1442,12 @@ case
 SamplingState
 :
 :
+NoStackSamplingCompleted
+:
+case
+SamplingState
+:
+:
 SamplingCompleted
 :
 ProfilerParent

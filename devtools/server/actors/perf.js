@@ -319,6 +319,9 @@ js
 stackwalk
 "
 "
+cpu
+"
+"
 memory
 "
 ]
