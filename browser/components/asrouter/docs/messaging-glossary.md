@@ -15,7 +15,6 @@ true
 about
 :
 welcome
-:
 (
 [
 source
@@ -112,7 +111,6 @@ engagement
 .
 Advanced
 Targeting
-:
 (
 [
 source
@@ -206,7 +204,6 @@ ASRouter
 (
 ASR
 )
-:
 (
 [
 source
@@ -214,7 +211,7 @@ source
 (
 index
 .
-html
+md
 )
 )
 ASRouter
@@ -264,7 +261,6 @@ times
 .
 Control
 Branch
-:
 A
 control
 branch
@@ -313,7 +309,6 @@ feature
 .
 Custom
 Audiences
-:
 (
 [
 source
@@ -363,7 +358,6 @@ messages
 Desktop
 Messaging
 Surfaces
-:
 (
 [
 source
@@ -438,7 +432,6 @@ Users
 (
 DAU
 )
-:
 Daily
 Active
 Users
@@ -485,7 +478,6 @@ or
 experiments
 .
 Dismissal
-:
 (
 [
 source
@@ -529,7 +521,6 @@ of
 messages
 .
 Engagement
-:
 Engagement
 refers
 to
@@ -561,7 +552,6 @@ with
 users
 .
 Experiment
-:
 (
 [
 source
@@ -627,7 +617,6 @@ Nimbus
 .
 Experiment
 Brief
-:
 An
 experiment
 brief
@@ -667,7 +656,6 @@ experiments
 accurately
 .
 Experimenter
-:
 (
 [
 source
@@ -734,7 +722,6 @@ rollout
 Experiment
 Localization
 System
-:
 (
 [
 source
@@ -794,7 +781,6 @@ term
 Experimenter
 .
 Exposure
-:
 (
 [
 source
@@ -871,7 +857,6 @@ user
 .
 Feature
 Definition
-:
 (
 [
 source
@@ -920,7 +905,6 @@ system
 .
 First
 Run
-:
 (
 [
 source
@@ -930,7 +914,7 @@ first
 -
 run
 .
-html
+md
 )
 )
 First
@@ -969,7 +953,6 @@ welcome
 First
 Run
 Experiment
-:
 (
 [
 source
@@ -1047,7 +1030,6 @@ Windows
 .
 First
 Startup
-:
 (
 [
 source
@@ -1128,7 +1110,6 @@ browser
 .
 Forced
 Enrollment
-:
 Forced
 Enrollment
 is
@@ -1205,7 +1186,6 @@ configurations
 .
 Frequency
 Capping
-:
 (
 [
 source
@@ -1215,7 +1195,7 @@ frequency
 -
 caps
 .
-html
+md
 )
 )
 Frequency
@@ -1246,7 +1226,6 @@ user
 experience
 .
 Glean
-:
 (
 [
 source
@@ -1347,7 +1326,6 @@ features
 Groups
 and
 Campaigns
-:
 (
 [
 source
@@ -1400,7 +1378,6 @@ user
 engagement
 .
 Holdback
-:
 (
 [
 source
@@ -1499,7 +1476,6 @@ key
 metrics
 .
 Impression
-:
 (
 [
 source
@@ -1587,7 +1563,6 @@ Long
 -
 term
 Holdbacks
-:
 Long
 -
 term
@@ -1666,7 +1641,6 @@ do
 not
 .
 Message
-:
 (
 [
 source
@@ -1674,7 +1648,7 @@ source
 (
 index
 .
-html
+md
 )
 )
 A
@@ -1729,7 +1703,6 @@ elements
 .
 Message
 Provider
-:
 (
 [
 source
@@ -1739,23 +1712,7 @@ debugging
 -
 docs
 .
-html
-#
-how
--
-to
--
-see
--
-all
--
-messages
--
-from
--
-a
--
-provider
+md
 )
 )
 Message
@@ -1789,7 +1746,6 @@ displayed
 .
 Natural
 Enrollment
-:
 Natural
 Enrollment
 occurs
@@ -1837,7 +1793,6 @@ targeting
 conditions
 .
 Nimbus
-:
 (
 [
 source
@@ -1922,7 +1877,6 @@ collect
 data
 .
 Onboarding
-:
 (
 [
 source
@@ -1932,7 +1886,7 @@ first
 -
 run
 .
-html
+md
 )
 )
 Onboarding
@@ -1979,7 +1933,6 @@ welcome
 flow
 .
 Reach
-:
 (
 [
 source
@@ -2038,7 +1991,6 @@ the
 message
 .
 Recipe
-:
 Recipes
 define
 Firefox
@@ -2071,7 +2023,6 @@ Settings
 .
 Remote
 Localization
-:
 (
 [
 source
@@ -2160,7 +2111,6 @@ code
 .
 Remote
 Settings
-:
 (
 [
 source
@@ -2240,7 +2190,6 @@ browser
 update
 .
 Rollout
-:
 (
 [
 source
@@ -2439,7 +2388,6 @@ key
 metrics
 .
 Schemas
-:
 (
 [
 source
@@ -2508,7 +2456,6 @@ requirements
 .
 Sticky
 Enrollment
-:
 (
 [
 source
@@ -2606,7 +2553,6 @@ experiment
 >
 .
 Targeting
-:
 (
 [
 source
@@ -2616,7 +2562,7 @@ targeting
 -
 attributes
 .
-html
+md
 )
 )
 Targeting
@@ -2671,7 +2617,6 @@ user
 .
 Messaging
 Telemetry
-:
 (
 [
 source
@@ -2768,7 +2713,6 @@ html
 .
 Treatment
 Branch
-:
 A
 Treatment
 Branch
@@ -2827,7 +2771,6 @@ or
 condition
 .
 Trigger
-:
 (
 [
 source

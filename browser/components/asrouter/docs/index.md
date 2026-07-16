@@ -640,7 +640,7 @@ messaging
 -
 glossary
 .
-html
+md
 )
 .
 -
