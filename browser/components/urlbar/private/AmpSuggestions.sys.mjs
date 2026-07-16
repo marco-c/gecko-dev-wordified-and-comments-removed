@@ -1017,7 +1017,9 @@ UrlbarPrefs
 get
 (
 "
-quickSuggestAmpTopPickUseNovaIconSize
+quicksuggest
+.
+ampTopPickUseNovaIconSize
 "
 )
 )
