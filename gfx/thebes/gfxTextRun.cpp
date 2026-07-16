@@ -5604,6 +5604,12 @@ GetHyphensOption
 bool
 haveHyphenation
 =
+aSuppressBreak
+!
+=
+eSuppressAllBreaks
+&
+&
 (
 hyphensOption
 =
