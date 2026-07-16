@@ -174,6 +174,12 @@ uint8_t
 ;
 enum
 class
+StyleAnimationComposition
+:
+uint8_t
+;
+enum
+class
 StylePageSizeOrientation
 :
 uint8_t
@@ -1125,6 +1131,9 @@ const
 StyleComputedTimingFunction
 &
 aTimingFunction
+const
+StyleAnimationComposition
+aComposition
 nsTArray
 <
 Keyframe

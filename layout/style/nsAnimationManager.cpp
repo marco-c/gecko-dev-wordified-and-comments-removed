@@ -481,6 +481,9 @@ const
 StyleComputedTimingFunction
 &
 aTimingFunction
+const
+StyleAnimationComposition
+aComposition
 nsTArray
 <
 Keyframe
@@ -505,6 +508,7 @@ aElement
 mComputedStyle
 aName
 aTimingFunction
+aComposition
 aKeyframes
 )
 ;
@@ -1969,6 +1973,12 @@ animationName
 aStyle
 .
 GetAnimationTimingFunction
+(
+animIdx
+)
+aStyle
+.
+GetAnimationComposition
 (
 animIdx
 )

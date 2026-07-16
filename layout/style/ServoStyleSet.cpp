@@ -5717,6 +5717,9 @@ const
 StyleComputedTimingFunction
 &
 aTimingFunction
+const
+StyleAnimationComposition
+aComposition
 nsTArray
 <
 Keyframe
@@ -5749,6 +5752,7 @@ aStyle
 aName
 &
 aTimingFunction
+aComposition
 &
 aKeyframes
 )
