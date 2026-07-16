@@ -2682,7 +2682,7 @@ JS
 :
 :
 UniqueChars
-chars
+bytes
 =
 JS_EncodeStringToLatin1
 (
@@ -2693,7 +2693,7 @@ jsstr
 if
 (
 !
-chars
+bytes
 )
 {
 return
@@ -2715,13 +2715,10 @@ id
 .
 Parse
 (
-nsDependentCString
-(
-chars
+bytes
 .
 get
 (
-)
 )
 )
 )

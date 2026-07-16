@@ -208,7 +208,14 @@ id
 .
 Parse
 (
+PromiseFlatCString
+(
 aUUID
+)
+.
+get
+(
+)
 )
 )
 {

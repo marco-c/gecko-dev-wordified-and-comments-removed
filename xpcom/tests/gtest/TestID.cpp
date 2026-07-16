@@ -14,16 +14,11 @@ nsID
 .
 h
 "
-#
-include
-"
-nsTLiteralString
-.
-h
-"
 static
 const
-nsLiteralCString
+char
+*
+const
 ids
 [
 ]
@@ -40,7 +35,6 @@ D55C
 -
 006008911B81
 "
-_ns
 "
 {
 5C347B10
@@ -54,7 +48,6 @@ D55C
 006008911B81
 }
 "
-_ns
 "
 5c347b10
 -
@@ -66,7 +59,6 @@ d55c
 -
 006008911b81
 "
-_ns
 "
 {
 5c347b10
@@ -80,7 +72,6 @@ d55c
 006008911b81
 }
 "
-_ns
 "
 FC347B10
 -
@@ -92,7 +83,6 @@ F9B7
 -
 006008911B81
 "
-_ns
 "
 {
 FC347B10
@@ -106,7 +96,6 @@ F9B7
 006008911B81
 }
 "
-_ns
 "
 fc347b10
 -
@@ -118,7 +107,6 @@ f9b7
 -
 006008911b81
 "
-_ns
 "
 {
 fc347b10
@@ -132,7 +120,6 @@ f9b7
 006008911b81
 }
 "
-_ns
 }
 ;
 #
@@ -183,8 +170,8 @@ i
 )
 {
 const
-nsLiteralCString
-&
+char
+*
 idstr
 =
 ids
@@ -199,10 +186,6 @@ id
 Parse
 (
 idstr
-.
-AsString
-(
-)
 )
 )
 ;
@@ -234,10 +217,6 @@ i
 +
 3
 ]
-.
-get
-(
-)
 )
 ;
 }
