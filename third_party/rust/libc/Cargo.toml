@@ -109,7 +109,7 @@ version
 "
 1
 .
-63
+65
 "
 name
 =
@@ -123,7 +123,7 @@ version
 .
 2
 .
-183
+186
 "
 authors
 =
@@ -157,13 +157,6 @@ ci
 github
 /
 *
-"
-"
-/
-.
-cirrus
-.
-yml
 "
 "
 /

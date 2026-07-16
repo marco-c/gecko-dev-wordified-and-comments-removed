@@ -260,7 +260,7 @@ c_int
 [
 cfg_attr
 (
-musl32_time64
+musl_redir_time64
 link_name
 =
 "

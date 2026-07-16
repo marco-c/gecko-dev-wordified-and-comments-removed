@@ -389,10 +389,7 @@ pub
 vregs
 :
 [
-crate
-:
-:
-__uint128_t
+u128
 ;
 32
 ]

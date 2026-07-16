@@ -40,7 +40,7 @@ prelude
 [
 allow
 (
-unused
+dead_code
 )
 ]
 #
@@ -123,7 +123,7 @@ T
 [
 allow
 (
-unused
+dead_code
 )
 ]
 pub
@@ -132,8 +132,11 @@ crate
 )
 const
 fn
-uninit
+new
 (
+val
+:
+T
 )
 -
 >
@@ -144,8 +147,9 @@ Self
 MaybeUninit
 :
 :
-uninit
+new
 (
+val
 )
 )
 }

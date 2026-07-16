@@ -1412,7 +1412,7 @@ __pthread_mutex_timedlock64
 [
 cfg_attr
 (
-musl32_time64
+musl_redir_time64
 link_name
 =
 "

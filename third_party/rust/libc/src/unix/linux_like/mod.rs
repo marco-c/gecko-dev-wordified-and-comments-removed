@@ -13346,7 +13346,7 @@ __clock_getres64
 [
 cfg_attr
 (
-musl32_time64
+musl_redir_time64
 link_name
 =
 "
@@ -13384,7 +13384,7 @@ cfg_attr
 any
 (
 gnu_time_bits64
-musl32_time64
+musl_redir_time64
 )
 link_name
 =
@@ -13423,7 +13423,7 @@ cfg_attr
 any
 (
 gnu_time_bits64
-musl32_time64
+musl_redir_time64
 )
 link_name
 =
@@ -13508,7 +13508,7 @@ __getitimer64
 [
 cfg_attr
 (
-musl32_time64
+musl_redir_time64
 link_name
 =
 "
@@ -13552,7 +13552,7 @@ __setitimer64
 [
 cfg_attr
 (
-musl32_time64
+musl_redir_time64
 link_name
 =
 "
@@ -13804,7 +13804,7 @@ __futimens64
 [
 cfg_attr
 (
-musl32_time64
+musl_redir_time64
 link_name
 =
 "
@@ -13862,7 +13862,7 @@ __utimensat64
 [
 cfg_attr
 (
-musl32_time64
+musl_redir_time64
 link_name
 =
 "
@@ -14415,7 +14415,7 @@ cfg_attr
 any
 (
 gnu_time_bits64
-musl32_time64
+musl_redir_time64
 )
 link_name
 =

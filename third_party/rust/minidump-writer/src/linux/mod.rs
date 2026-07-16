@@ -19,7 +19,12 @@ LINUX_GATE_LIBRARY_NAME
 process_inspection
 :
 :
+{
+Error
+as
+BackendError
 process_reader
+}
 }
 ;
 pub

@@ -2812,6 +2812,14 @@ i32
 ;
 pub
 const
+_SC_HOST_NAME_MAX
+:
+i32
+=
+0x26
+;
+pub
+const
 SIGHUP
 :
 c_int

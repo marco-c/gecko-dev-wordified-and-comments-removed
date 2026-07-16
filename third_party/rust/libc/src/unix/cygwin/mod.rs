@@ -5630,6 +5630,14 @@ c_int
 ;
 pub
 const
+TIOCM_DSR
+:
+c_int
+=
+0x100
+;
+pub
+const
 TIOCM_CD
 :
 c_int

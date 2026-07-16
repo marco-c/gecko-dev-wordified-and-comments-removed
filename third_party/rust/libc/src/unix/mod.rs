@@ -1434,6 +1434,14 @@ target_os
 aix
 "
 )
+not
+(
+target_os
+=
+"
+espidf
+"
+)
 )
 )
 ]
@@ -7345,7 +7353,7 @@ fstat64
 [
 cfg_attr
 (
-musl32_time64
+musl_redir_time64
 link_name
 =
 "
@@ -7493,7 +7501,7 @@ stat64
 [
 cfg_attr
 (
-musl32_time64
+musl_redir_time64
 link_name
 =
 "
@@ -8281,7 +8289,7 @@ l4re
 [
 cfg_attr
 (
-musl32_time64
+musl_redir_time64
 link_name
 =
 "
@@ -9424,7 +9432,7 @@ __nanosleep64
 [
 cfg_attr
 (
-musl32_time64
+musl_redir_time64
 link_name
 =
 "
@@ -9862,7 +9870,7 @@ cfg_attr
 any
 (
 gnu_time_bits64
-musl32_time64
+musl_redir_time64
 )
 link_name
 =
@@ -10274,7 +10282,7 @@ lstat64
 [
 cfg_attr
 (
-musl32_time64
+musl_redir_time64
 link_name
 =
 "
@@ -10562,7 +10570,7 @@ __getrusage64
 [
 cfg_attr
 (
-musl32_time64
+musl_redir_time64
 link_name
 =
 "
@@ -11312,7 +11320,7 @@ __pthread_cond_timedwait64
 [
 cfg_attr
 (
-musl32_time64
+musl_redir_time64
 link_name
 =
 "
@@ -11901,7 +11909,7 @@ __utimes64
 [
 cfg_attr
 (
-musl32_time64
+musl_redir_time64
 link_name
 =
 "
@@ -11965,7 +11973,7 @@ c_char
 [
 cfg_attr
 (
-musl32_time64
+musl_redir_time64
 link_name
 =
 "
@@ -12360,7 +12368,7 @@ deprecated
 [
 cfg_attr
 (
-musl32_time64
+musl_redir_time64
 link_name
 =
 "
@@ -12435,7 +12443,7 @@ deprecated
 [
 cfg_attr
 (
-musl32_time64
+musl_redir_time64
 link_name
 =
 "
@@ -12512,7 +12520,7 @@ cfg_attr
 any
 (
 gnu_time_bits64
-musl32_time64
+musl_redir_time64
 )
 link_name
 =
@@ -12572,7 +12580,7 @@ cfg_attr
 any
 (
 gnu_time_bits64
-musl32_time64
+musl_redir_time64
 )
 link_name
 =
@@ -12632,7 +12640,7 @@ cfg_attr
 any
 (
 gnu_time_bits64
-musl32_time64
+musl_redir_time64
 )
 link_name
 =
@@ -12694,7 +12702,7 @@ cfg_attr
 any
 (
 gnu_time_bits64
-musl32_time64
+musl_redir_time64
 )
 link_name
 =
@@ -12756,7 +12764,7 @@ cfg_attr
 any
 (
 gnu_time_bits64
-musl32_time64
+musl_redir_time64
 )
 link_name
 =
@@ -12854,7 +12862,7 @@ deprecated
 [
 cfg_attr
 (
-musl32_time64
+musl_redir_time64
 link_name
 =
 "
@@ -13486,7 +13494,7 @@ __select64
 [
 cfg_attr
 (
-musl32_time64
+musl_redir_time64
 link_name
 =
 "
@@ -17462,7 +17470,7 @@ cfg_attr
 any
 (
 gnu_time_bits64
-musl32_time64
+musl_redir_time64
 )
 link_name
 =
@@ -18810,7 +18818,7 @@ __pselect64
 [
 cfg_attr
 (
-musl32_time64
+musl_redir_time64
 link_name
 =
 "
