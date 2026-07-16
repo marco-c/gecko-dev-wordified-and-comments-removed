@@ -15,14 +15,14 @@ h
 #
 include
 "
-nsCycleCollectionParticipant
+nsContentUtils
 .
 h
 "
 #
 include
 "
-nsContentUtils
+nsCycleCollectionParticipant
 .
 h
 "

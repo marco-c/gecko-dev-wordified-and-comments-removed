@@ -21,13 +21,6 @@ h
 #
 include
 "
-gfxColor
-.
-h
-"
-#
-include
-"
 StreamingLexer
 .
 h
@@ -36,6 +29,13 @@ h
 include
 "
 SurfacePipe
+.
+h
+"
+#
+include
+"
+gfxColor
 .
 h
 "
@@ -425,7 +425,7 @@ return
 mImageDataLength
 ;
 }
-int32_t
+uint32_t
 GetCompressedImageSize
 (
 )
@@ -536,7 +536,7 @@ bool
 aForClipboard
 )
 ;
-int32_t
+uint32_t
 AbsoluteHeight
 (
 )

@@ -7,6 +7,13 @@ mozilla_image_ImageRegion_h
 #
 include
 "
+PLDHashTable
+.
+h
+"
+#
+include
+"
 gfxMatrix
 .
 h
@@ -58,13 +65,6 @@ h
 include
 "
 nsSize
-.
-h
-"
-#
-include
-"
-PLDHashTable
 .
 h
 "

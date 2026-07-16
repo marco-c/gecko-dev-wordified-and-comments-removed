@@ -7,9 +7,7 @@ mozilla_image_AnimationSurfaceProvider_h
 #
 include
 "
-mozilla
-/
-UniquePtr
+AnimationFrameBuffer
 .
 h
 "
@@ -44,7 +42,9 @@ h
 #
 include
 "
-AnimationFrameBuffer
+mozilla
+/
+UniquePtr
 .
 h
 "

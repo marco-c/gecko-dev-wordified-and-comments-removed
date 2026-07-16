@@ -7,6 +7,13 @@ mozilla_image_encoders_ico_nsICOEncoder_h
 #
 include
 "
+imgIEncoder
+.
+h
+"
+#
+include
+"
 mozilla
 /
 ReentrantMonitor
@@ -21,13 +28,6 @@ mozilla
 image
 /
 ICOFileHeaders
-.
-h
-"
-#
-include
-"
-imgIEncoder
 .
 h
 "

@@ -21,13 +21,6 @@ h
 #
 include
 "
-nsCOMPtr
-.
-h
-"
-#
-include
-"
 mozilla
 /
 Attributes
@@ -51,6 +44,13 @@ mozilla
 gfx
 /
 Types
+.
+h
+"
+#
+include
+"
+nsCOMPtr
 .
 h
 "

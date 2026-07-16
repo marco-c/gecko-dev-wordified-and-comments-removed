@@ -51,9 +51,7 @@ include
 "
 mozilla
 /
-gfx
-/
-2D
+Logging
 .
 h
 "
@@ -62,7 +60,9 @@ include
 "
 mozilla
 /
-Logging
+gfx
+/
+2D
 .
 h
 "

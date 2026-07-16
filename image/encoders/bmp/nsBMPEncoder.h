@@ -7,6 +7,13 @@ mozilla_image_encoders_bmp_nsBMPEncoder_h
 #
 include
 "
+imgIEncoder
+.
+h
+"
+#
+include
+"
 mozilla
 /
 ReentrantMonitor
@@ -19,13 +26,6 @@ include
 mozilla
 /
 UniquePtr
-.
-h
-"
-#
-include
-"
-imgIEncoder
 .
 h
 "

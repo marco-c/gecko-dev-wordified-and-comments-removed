@@ -7,6 +7,13 @@ mozilla_image_src_ImageCacheKey_h
 #
 include
 "
+PLDHashTable
+.
+h
+"
+#
+include
+"
 mozilla
 /
 BasePrincipal
@@ -19,13 +26,6 @@ include
 mozilla
 /
 Maybe
-.
-h
-"
-#
-include
-"
-PLDHashTable
 .
 h
 "

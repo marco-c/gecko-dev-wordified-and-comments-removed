@@ -7,6 +7,13 @@ mozilla_image_decoders_nsJPEGDecoder_h
 #
 include
 "
+EXIF
+.
+h
+"
+#
+include
+"
 RasterImage
 .
 h
@@ -15,13 +22,6 @@ h
 include
 "
 SurfacePipe
-.
-h
-"
-#
-include
-"
-EXIF
 .
 h
 "

@@ -7,6 +7,13 @@ mozilla_image_ImageOps_h
 #
 include
 "
+ImageMetadata
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h
@@ -15,13 +22,6 @@ h
 include
 "
 nsRect
-.
-h
-"
-#
-include
-"
-ImageMetadata
 .
 h
 "

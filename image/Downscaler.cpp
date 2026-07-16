@@ -20,9 +20,7 @@ include
 "
 mozilla
 /
-gfx
-/
-2D
+fallible
 .
 h
 "
@@ -31,7 +29,9 @@ include
 "
 mozilla
 /
-fallible
+gfx
+/
+2D
 .
 h
 "

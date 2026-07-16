@@ -7,14 +7,14 @@ mozilla_image_decoders_icon_nsIconProtocolHandler_h
 #
 include
 "
-nsWeakReference
+nsIProtocolHandler
 .
 h
 "
 #
 include
 "
-nsIProtocolHandler
+nsWeakReference
 .
 h
 "

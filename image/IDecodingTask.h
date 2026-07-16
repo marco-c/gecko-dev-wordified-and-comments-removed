@@ -7,6 +7,13 @@ mozilla_image_IDecodingTask_h
 #
 include
 "
+SourceBuffer
+.
+h
+"
+#
+include
+"
 imgFrame
 .
 h
@@ -33,13 +40,6 @@ h
 include
 "
 nsIEventTarget
-.
-h
-"
-#
-include
-"
-SourceBuffer
 .
 h
 "

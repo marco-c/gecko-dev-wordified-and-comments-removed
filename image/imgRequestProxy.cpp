@@ -59,7 +59,7 @@ mozilla
 /
 dom
 /
-Document
+DocGroup
 .
 h
 "
@@ -70,7 +70,7 @@ mozilla
 /
 dom
 /
-DocGroup
+Document
 .
 h
 "

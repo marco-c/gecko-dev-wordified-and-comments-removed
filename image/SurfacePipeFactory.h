@@ -7,14 +7,14 @@ mozilla_image_SurfacePipeFactory_h
 #
 include
 "
-SurfacePipe
+SurfaceFilters
 .
 h
 "
 #
 include
 "
-SurfaceFilters
+SurfacePipe
 .
 h
 "

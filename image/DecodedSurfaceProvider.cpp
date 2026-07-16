@@ -8,6 +8,13 @@ h
 #
 include
 "
+Decoder
+.
+h
+"
+#
+include
+"
 mozilla
 /
 StaticPrefs_image
@@ -29,13 +36,6 @@ h
 include
 "
 nsProxyRelease
-.
-h
-"
-#
-include
-"
-Decoder
 .
 h
 "

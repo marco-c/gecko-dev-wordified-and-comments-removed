@@ -6,6 +6,11 @@ define
 mozilla_image_Resolution_h
 #
 include
+<
+cmath
+>
+#
+include
 "
 mozilla
 /
@@ -13,11 +18,6 @@ Assertions
 .
 h
 "
-#
-include
-<
-cmath
->
 namespace
 mozilla
 {

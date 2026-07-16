@@ -8,6 +8,13 @@ h
 #
 include
 "
+ImageRegion
+.
+h
+"
+#
+include
+"
 gfx2DGlue
 .
 h
@@ -37,13 +44,6 @@ h
 include
 "
 gfxUtils
-.
-h
-"
-#
-include
-"
-ImageRegion
 .
 h
 "
