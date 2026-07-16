@@ -233,6 +233,11 @@ MFPMPHostWrapper
 .
 h
 "
+"
+MFProtectedPathReadinessMonitor
+.
+h
+"
 ]
 UNIFIED_SOURCES
 +
@@ -255,6 +260,11 @@ cpp
 "
 "
 MFPMPHostWrapper
+.
+cpp
+"
+"
+MFProtectedPathReadinessMonitor
 .
 cpp
 "
