@@ -475,15 +475,6 @@ self
 _client
 .
 server
-or
-runargs
-.
-get
-(
-"
-env
-"
-)
 :
             
 return
@@ -2003,15 +1994,6 @@ force
 bool
 =
 False
-        
-env
-:
-Optional
-[
-dict
-]
-=
-None
     
 )
 :
@@ -2087,30 +2069,12 @@ ref
 ]
 )
         
-kwargs
-=
-{
-"
-env
-"
-:
-env
-}
-if
-env
-else
-{
-}
-        
 self
 .
 _run
 (
 *
 args
-*
-*
-kwargs
 )
     
 def
