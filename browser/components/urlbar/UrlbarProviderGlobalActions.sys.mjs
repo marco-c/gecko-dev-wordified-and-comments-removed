@@ -898,14 +898,6 @@ controller
 action
 )
 ;
-controller
-.
-view
-.
-close
-(
-)
-;
 }
 onSearchSessionEnd
 (
