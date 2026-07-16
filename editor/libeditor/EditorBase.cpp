@@ -37378,6 +37378,12 @@ nsContentUtils
 :
 :
 ComparePoints
+<
+TreeKind
+:
+:
+ShadowIncludingDOM
+>
 (
 mChangedRange
 -
@@ -37482,6 +37488,12 @@ nsContentUtils
 :
 :
 ComparePoints
+<
+TreeKind
+:
+:
+ShadowIncludingDOM
+>
 (
 mChangedRange
 -

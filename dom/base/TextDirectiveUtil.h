@@ -1012,6 +1012,12 @@ nsContentUtils
 :
 :
 ComparePoints
+<
+TreeKind
+:
+:
+ShadowIncludingDOM
+>
 (
 aRange
 .
@@ -1025,6 +1031,12 @@ nsContentUtils
 :
 :
 ComparePoints
+<
+TreeKind
+:
+:
+ShadowIncludingDOM
+>
 (
 boundary
 aRange
