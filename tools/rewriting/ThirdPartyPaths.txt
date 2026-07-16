@@ -924,6 +924,14 @@ vrpathregistry_public
 h
 gfx
 /
+vr
+/
+service
+/
+osvr
+/
+gfx
+/
 wr
 /
 gfx
