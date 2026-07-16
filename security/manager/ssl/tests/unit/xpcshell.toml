@@ -2536,13 +2536,6 @@ enabled
 false
 "
 ]
-requesttimeoutfactor
-=
-2
-#
-Slow
-on
-condprof
 firefox
 -
 appdir
