@@ -187,6 +187,11 @@ MozHelpers
 h
 "
 "
+ScopedPrefSetter
+.
+h
+"
+"
 WaitFor
 .
 h
