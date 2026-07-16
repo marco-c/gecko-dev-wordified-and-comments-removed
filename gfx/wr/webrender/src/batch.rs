@@ -364,7 +364,6 @@ pub
 enum
 BrushBatchKind
 {
-Solid
 Image
 (
 ImageBufferKind
