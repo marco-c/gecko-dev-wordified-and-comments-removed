@@ -257,10 +257,6 @@ lint
 (
 )
 .
-allowMissingSdk
-(
-)
-.
 allowCompilationErrors
 (
 )
@@ -344,10 +340,6 @@ trimIndent
 (
 )
 lint
-(
-)
-.
-allowMissingSdk
 (
 )
 .

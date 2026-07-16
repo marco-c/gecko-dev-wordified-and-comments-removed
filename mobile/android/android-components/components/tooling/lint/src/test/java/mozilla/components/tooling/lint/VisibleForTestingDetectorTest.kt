@@ -372,10 +372,6 @@ lint
 (
 )
 .
-allowMissingSdk
-(
-)
-.
 files
 (
 kotlin
@@ -444,10 +440,6 @@ trimIndent
 (
 )
 lint
-(
-)
-.
-allowMissingSdk
 (
 )
 .
@@ -643,10 +635,6 @@ trimIndent
 (
 )
 lint
-(
-)
-.
-allowMissingSdk
 (
 )
 .

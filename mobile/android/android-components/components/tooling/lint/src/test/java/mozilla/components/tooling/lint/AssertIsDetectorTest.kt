@@ -250,10 +250,6 @@ lint
 (
 )
 .
-allowMissingSdk
-(
-)
-.
 files
 (
 junitAssertStub
@@ -408,10 +404,6 @@ warning
 )
 {
 lint
-(
-)
-.
-allowMissingSdk
 (
 )
 .
@@ -593,10 +585,6 @@ warning
 )
 {
 lint
-(
-)
-.
-allowMissingSdk
 (
 )
 .
@@ -821,10 +809,6 @@ lint
 (
 )
 .
-allowMissingSdk
-(
-)
-.
 files
 (
 junitAssertStub
@@ -989,10 +973,6 @@ lint
 (
 )
 .
-allowMissingSdk
-(
-)
-.
 files
 (
 junitAssertStub
@@ -1061,10 +1041,6 @@ clean
 )
 {
 lint
-(
-)
-.
-allowMissingSdk
 (
 )
 .

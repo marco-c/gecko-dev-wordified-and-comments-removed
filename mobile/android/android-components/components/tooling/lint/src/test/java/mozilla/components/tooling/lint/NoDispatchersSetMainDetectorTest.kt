@@ -392,10 +392,6 @@ lint
 (
 )
 .
-allowMissingSdk
-(
-)
-.
 files
 (
 dispatcherStub
@@ -467,10 +463,6 @@ error
 )
 {
 lint
-(
-)
-.
-allowMissingSdk
 (
 )
 .
@@ -599,10 +591,6 @@ indented
 (
 )
 lint
-(
-)
-.
-allowMissingSdk
 (
 )
 .

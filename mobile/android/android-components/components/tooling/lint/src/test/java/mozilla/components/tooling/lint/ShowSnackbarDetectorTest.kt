@@ -793,10 +793,6 @@ lint
 (
 )
 .
-allowMissingSdk
-(
-)
-.
 files
 (
 snackbarHostStateStub
@@ -840,10 +836,6 @@ lint
 (
 )
 .
-allowMissingSdk
-(
-)
-.
 files
 (
 snackbarHostStateStub
@@ -884,10 +876,6 @@ lint
 (
 )
 .
-allowMissingSdk
-(
-)
-.
 files
 (
 snackbarHostStateStub
@@ -921,10 +909,6 @@ clean
 )
 {
 lint
-(
-)
-.
-allowMissingSdk
 (
 )
 .
