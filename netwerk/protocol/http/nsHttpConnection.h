@@ -672,8 +672,6 @@ nsACString
 &
 result
 bool
-h2ws
-bool
 aShouldResistFingerprinting
 )
 ;
