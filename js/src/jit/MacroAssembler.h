@@ -16982,7 +16982,7 @@ ReturnCallAdjustmentInfo
 retCallInfo
 )
 ;
-void
+CodeOffset
 wasmCallBuiltinInstanceMethod
 (
 const
@@ -17011,15 +17011,9 @@ wasm
 :
 Trap
 failureTrap
-CodeOffset
-*
-callStackMapKey
-CodeOffset
-*
-trapStackMapKey
 )
 ;
-CodeOffset
+void
 wasmTrapOnFailedInstanceCall
 (
 Register
