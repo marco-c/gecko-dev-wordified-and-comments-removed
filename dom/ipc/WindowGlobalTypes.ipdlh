@@ -239,6 +239,9 @@ bool
 isUncommittedInitialDocument
 ;
 bool
+isVideoDocument
+;
+bool
 blockAllMixedContent
 ;
 bool
