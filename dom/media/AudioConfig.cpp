@@ -150,6 +150,7 @@ i
 ]
 )
 >
+=
 sizeof
 (
 ChannelMap
@@ -165,7 +166,7 @@ UNKNOWN_MAP
 ChannelMap
 mask
 =
-1
+1u
 <
 <
 mChannels
