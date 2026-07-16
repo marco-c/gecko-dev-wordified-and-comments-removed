@@ -2908,12 +2908,6 @@ MarkingState
 >
 state
 ;
-MainThreadOrGCTaskData
-<
-bool
->
-haveAllImplicitEdges
-;
 public
 :
 MainThreadOrGCTaskData

@@ -16809,6 +16809,10 @@ hasAnyDeferredWeakMaps
 )
 )
 ;
+haveAllImplicitEdges_
+=
+true
+;
 for
 (
 auto
