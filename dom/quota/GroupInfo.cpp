@@ -285,7 +285,7 @@ LockedPersisted
 )
 )
 {
-AssertNoUnderflow
+QM_ASSERT_NO_UNDERFLOW
 (
 mUsage
 usage
@@ -314,7 +314,7 @@ MOZ_ASSERT
 quotaManager
 )
 ;
-AssertNoUnderflow
+QM_ASSERT_NO_UNDERFLOW
 (
 quotaManager
 -

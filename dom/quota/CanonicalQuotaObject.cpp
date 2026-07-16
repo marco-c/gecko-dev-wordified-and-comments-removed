@@ -993,7 +993,7 @@ OriginMetadata
 )
 ;
 }
-AssertNoUnderflow
+QM_ASSERT_NO_UNDERFLOW
 (
 aSize
 mSize
