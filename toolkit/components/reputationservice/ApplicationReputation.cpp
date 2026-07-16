@@ -3357,6 +3357,7 @@ aFileExtensions
 i
 ]
 )
+nsCaseInsensitiveCStringComparator
 )
 )
 {
@@ -3572,11 +3573,22 @@ aFilename
 )
 )
 ;
+nsAutoCString
+fileName
+(
+aFilename
+)
+;
+ToLowerCase
+(
+fileName
+)
+;
 if
 (
 StringEndsWith
 (
-aFilename
+fileName
 "
 .
 zip
@@ -3597,7 +3609,7 @@ if
 (
 StringEndsWith
 (
-aFilename
+fileName
 "
 .
 apk
@@ -3618,7 +3630,7 @@ if
 (
 StringEndsWith
 (
-aFilename
+fileName
 "
 .
 app
@@ -3629,7 +3641,7 @@ _ns
 |
 StringEndsWith
 (
-aFilename
+fileName
 "
 .
 applescript
@@ -3640,7 +3652,7 @@ _ns
 |
 StringEndsWith
 (
-aFilename
+fileName
 "
 .
 cdr
@@ -3651,7 +3663,7 @@ _ns
 |
 StringEndsWith
 (
-aFilename
+fileName
 "
 .
 dart
@@ -3662,7 +3674,7 @@ _ns
 |
 StringEndsWith
 (
-aFilename
+fileName
 "
 .
 dc42
@@ -3673,7 +3685,7 @@ _ns
 |
 StringEndsWith
 (
-aFilename
+fileName
 "
 .
 diskcopy42
@@ -3684,7 +3696,7 @@ _ns
 |
 StringEndsWith
 (
-aFilename
+fileName
 "
 .
 dmg
@@ -3695,7 +3707,7 @@ _ns
 |
 StringEndsWith
 (
-aFilename
+fileName
 "
 .
 dmgpart
@@ -3706,7 +3718,7 @@ _ns
 |
 StringEndsWith
 (
-aFilename
+fileName
 "
 .
 dvdr
@@ -3717,7 +3729,7 @@ _ns
 |
 StringEndsWith
 (
-aFilename
+fileName
 "
 .
 img
@@ -3728,7 +3740,7 @@ _ns
 |
 StringEndsWith
 (
-aFilename
+fileName
 "
 .
 imgpart
@@ -3739,7 +3751,7 @@ _ns
 |
 StringEndsWith
 (
-aFilename
+fileName
 "
 .
 iso
@@ -3750,7 +3762,7 @@ _ns
 |
 StringEndsWith
 (
-aFilename
+fileName
 "
 .
 mpkg
@@ -3761,7 +3773,7 @@ _ns
 |
 StringEndsWith
 (
-aFilename
+fileName
 "
 .
 ndif
@@ -3772,7 +3784,7 @@ _ns
 |
 StringEndsWith
 (
-aFilename
+fileName
 "
 .
 osas
@@ -3783,7 +3795,7 @@ _ns
 |
 StringEndsWith
 (
-aFilename
+fileName
 "
 .
 osax
@@ -3794,7 +3806,7 @@ _ns
 |
 StringEndsWith
 (
-aFilename
+fileName
 "
 .
 pkg
@@ -3805,7 +3817,7 @@ _ns
 |
 StringEndsWith
 (
-aFilename
+fileName
 "
 .
 scpt
@@ -3816,7 +3828,7 @@ _ns
 |
 StringEndsWith
 (
-aFilename
+fileName
 "
 .
 scptd
@@ -3827,7 +3839,7 @@ _ns
 |
 StringEndsWith
 (
-aFilename
+fileName
 "
 .
 seplugin
@@ -3838,7 +3850,7 @@ _ns
 |
 StringEndsWith
 (
-aFilename
+fileName
 "
 .
 smi
@@ -3849,7 +3861,7 @@ _ns
 |
 StringEndsWith
 (
-aFilename
+fileName
 "
 .
 sparsebundle
@@ -3860,7 +3872,7 @@ _ns
 |
 StringEndsWith
 (
-aFilename
+fileName
 "
 .
 sparseimage
@@ -3871,7 +3883,7 @@ _ns
 |
 StringEndsWith
 (
-aFilename
+fileName
 "
 .
 toast
@@ -3882,7 +3894,7 @@ _ns
 |
 StringEndsWith
 (
-aFilename
+fileName
 "
 .
 udif
