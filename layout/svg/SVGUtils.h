@@ -176,9 +176,6 @@ SVGAnimatedLength
 class
 SVGContextPaint
 ;
-struct
-SVGContextPaintImpl
-;
 class
 SVGDisplayContainerFrame
 ;

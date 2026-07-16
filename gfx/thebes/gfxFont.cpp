@@ -13988,7 +13988,7 @@ contextPaint
 =
 MakeRefPtr
 <
-SVGContextPaintImpl
+SVGContextPaint
 >
 (
 aRunParams

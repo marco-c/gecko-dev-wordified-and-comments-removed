@@ -672,7 +672,7 @@ contextPaint
 =
 MakeRefPtr
 <
-SVGContextPaintImpl
+SVGContextPaint
 >
 (
 aContext
