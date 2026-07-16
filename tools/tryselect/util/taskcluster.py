@@ -56,7 +56,7 @@ import
 taskcluster
 TC_CREDENTIALS_EXPIRY_DAYS
 =
-30
+365
 TC_ROOT_URL
 =
 "
