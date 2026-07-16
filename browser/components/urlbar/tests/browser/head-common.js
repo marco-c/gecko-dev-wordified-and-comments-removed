@@ -1518,7 +1518,7 @@ focus
 ;
 gURLBar
 .
-_setValue
+setValue
 (
 searchString
 )

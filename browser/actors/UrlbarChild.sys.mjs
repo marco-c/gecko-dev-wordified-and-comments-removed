@@ -180,7 +180,7 @@ Set
 search
 "
 "
-_setValue
+setValue
 "
 "
 startQuery

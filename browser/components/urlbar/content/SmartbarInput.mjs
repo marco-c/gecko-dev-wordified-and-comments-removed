@@ -9366,7 +9366,7 @@ offset
 ;
 this
 .
-_setValue
+setValue
 (
 value
 {
@@ -18557,7 +18557,7 @@ allow
 trimming
 when
 calling
-_setValue
+setValue
 since
 it
 makes
@@ -18735,7 +18735,7 @@ canonizedUrl
 {
 this
 .
-_setValue
+setValue
 (
 canonizedUrl
 )
@@ -18916,7 +18916,7 @@ enteredSearchMode
 {
 this
 .
-_setValue
+setValue
 (
 this
 .
@@ -18981,7 +18981,7 @@ element
 ;
 this
 .
-_setValue
+setValue
 (
 value
 {
@@ -19798,7 +19798,7 @@ null
 ;
 this
 .
-_setValue
+setValue
 (
 this
 .
@@ -24863,7 +24863,7 @@ val
 {
 this
 .
-_setValue
+setValue
 (
 val
 {
@@ -26128,7 +26128,7 @@ trimStart
 ;
 this
 .
-_setValue
+setValue
 (
 value
 )
@@ -27842,7 +27842,7 @@ value
 .
 *
 /
-_setValue
+setValue
 (
 val
 {
@@ -32234,7 +32234,7 @@ else
 {
 this
 .
-_setValue
+setValue
 (
 value
 {
@@ -34921,7 +34921,7 @@ moveCursorToStart
 {
 this
 .
-_setValue
+setValue
 (
 this
 .
@@ -35204,7 +35204,7 @@ offset
 }
 this
 .
-_setValue
+setValue
 (
 this
 .
@@ -36887,7 +36887,7 @@ url
 ;
 this
 .
-_setValue
+setValue
 (
 this
 .
@@ -41256,7 +41256,7 @@ untrim
 {
 this
 .
-_setValue
+setValue
 (
 this
 .
@@ -43484,7 +43484,7 @@ oldEnd
 ;
 this
 .
-_setValue
+setValue
 (
 value
 {

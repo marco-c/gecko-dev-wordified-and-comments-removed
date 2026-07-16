@@ -1562,7 +1562,7 @@ options
 )
 ;
 }
-_setValue
+setValue
 (
 value
 )
@@ -1573,7 +1573,7 @@ this
 invoke
 (
 "
-_setValue
+setValue
 "
 [
 value

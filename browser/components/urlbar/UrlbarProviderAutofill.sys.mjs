@@ -3387,7 +3387,7 @@ controller
 .
 input
 .
-_setValue
+setValue
 (
 queryContext
 .

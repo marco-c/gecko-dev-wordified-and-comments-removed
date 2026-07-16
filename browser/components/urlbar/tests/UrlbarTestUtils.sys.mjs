@@ -1476,7 +1476,7 @@ urlbar
 window
 )
 .
-_setValue
+setValue
 (
 value
 )
@@ -10433,7 +10433,7 @@ urlbar
 win
 )
 .
-_setValue
+setValue
 (
 text
 .
