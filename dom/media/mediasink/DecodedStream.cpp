@@ -3425,6 +3425,8 @@ DecodedStream
 :
 Stop
 (
+StopReason
+aReason
 )
 {
 AssertOwnerThread
@@ -3777,6 +3779,8 @@ SetPlaying
 (
 bool
 aPlaying
+StopReason
+aReason
 )
 {
 AssertOwnerThread

@@ -281,6 +281,13 @@ SetPlaying
 (
 bool
 aPlaying
+StopReason
+aReason
+=
+StopReason
+:
+:
+Regular
 )
 override
 ;
@@ -332,6 +339,13 @@ override
 void
 Stop
 (
+StopReason
+aReason
+=
+StopReason
+:
+:
+Regular
 )
 override
 ;

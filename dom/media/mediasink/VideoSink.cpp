@@ -948,6 +948,8 @@ SetPlaying
 (
 bool
 aPlaying
+StopReason
+aReason
 )
 {
 AssertOwnerThread
@@ -1075,6 +1077,7 @@ mAudioSink
 SetPlaying
 (
 aPlaying
+aReason
 )
 ;
 if
@@ -1291,6 +1294,8 @@ VideoSink
 :
 Stop
 (
+StopReason
+aReason
 )
 {
 AssertOwnerThread
@@ -1329,6 +1334,7 @@ mAudioSink
 >
 Stop
 (
+aReason
 )
 ;
 mUpdateScheduler
