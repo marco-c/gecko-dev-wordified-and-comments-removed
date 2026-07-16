@@ -252,6 +252,17 @@ GetSymbolLoader
 const
 override
 ;
+GLenum
+GetPreferredMacIOSurfaceTextureTarget
+(
+)
+const
+override
+{
+return
+LOCAL_GL_TEXTURE_RECTANGLE_ARB
+;
+}
 }
 ;
 }

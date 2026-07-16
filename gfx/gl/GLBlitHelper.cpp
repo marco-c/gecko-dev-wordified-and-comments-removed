@@ -8777,12 +8777,11 @@ const
 GLenum
 texTarget
 =
-MacIOSurface
-:
-:
-GetTextureTarget
-(
 mGL
+-
+>
+GetPreferredMacIOSurfaceTextureTarget
+(
 )
 ;
 const

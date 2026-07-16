@@ -479,6 +479,14 @@ EGLint
 GetBindToTextureTargetANGLE
 (
 )
+const
+;
+GLenum
+GetPreferredMacIOSurfaceTextureTarget
+(
+)
+const
+override
 ;
 bool
 BindTex2DOffscreen
@@ -677,6 +685,7 @@ mOwnsContext
 =
 true
 ;
+mutable
 Maybe
 <
 EGLint
