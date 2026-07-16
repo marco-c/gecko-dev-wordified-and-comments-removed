@@ -300,7 +300,7 @@ super
 (
 view
 .
-panel
+input
 .
 querySelector
 (
