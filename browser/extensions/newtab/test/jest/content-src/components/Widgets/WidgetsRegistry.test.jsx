@@ -684,10 +684,10 @@ privacy
 crossword
 "
 "
-stocks
-"
-"
 pictureOfTheDay
+"
+"
+stocks
 "
 ]
 )
@@ -728,6 +728,9 @@ toEqual
 weather
 "
 "
+pictureOfTheDay
+"
+"
 sportsWidget
 "
 "
@@ -747,9 +750,6 @@ crossword
 "
 "
 stocks
-"
-"
-pictureOfTheDay
 "
 ]
 )
@@ -796,6 +796,9 @@ lists
 weather
 "
 "
+pictureOfTheDay
+"
+"
 sportsWidget
 "
 "
@@ -812,9 +815,6 @@ crossword
 "
 "
 stocks
-"
-"
-pictureOfTheDay
 "
 ]
 )
@@ -923,6 +923,9 @@ focusTimer
 lists
 "
 "
+pictureOfTheDay
+"
+"
 sportsWidget
 "
 "
@@ -939,9 +942,6 @@ crossword
 "
 "
 stocks
-"
-"
-pictureOfTheDay
 "
 ]
 )
@@ -1067,6 +1067,9 @@ lists
 focusTimer
 "
 "
+pictureOfTheDay
+"
+"
 sportsWidget
 "
 "
@@ -1080,9 +1083,6 @@ crossword
 "
 "
 stocks
-"
-"
-pictureOfTheDay
 "
 ]
 )
@@ -1151,6 +1151,9 @@ weather
 lists
 "
 "
+pictureOfTheDay
+"
+"
 sportsWidget
 "
 "
@@ -1164,9 +1167,6 @@ crossword
 "
 "
 stocks
-"
-"
-pictureOfTheDay
 "
 ]
 )
@@ -1236,6 +1236,9 @@ focusTimer
 weather
 "
 "
+pictureOfTheDay
+"
+"
 sportsWidget
 "
 "
@@ -1249,9 +1252,6 @@ crossword
 "
 "
 stocks
-"
-"
-pictureOfTheDay
 "
 ]
 )
