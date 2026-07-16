@@ -331,6 +331,13 @@ json
 ]
 [
 "
+test_launch_first_click_with_permission
+.
+js
+"
+]
+[
+"
 test_punycodeURIs
 .
 js
