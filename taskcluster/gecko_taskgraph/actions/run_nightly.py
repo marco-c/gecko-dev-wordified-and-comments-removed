@@ -811,16 +811,12 @@ release_history
 =
 populate_release_history
 (
-            
 "
 Firefox
 "
 "
-mozilla
--
-central
+try
 "
-        
 )
     
 if
