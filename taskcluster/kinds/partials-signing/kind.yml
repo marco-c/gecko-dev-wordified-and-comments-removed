@@ -85,6 +85,8 @@ gecko_taskgraph
 transforms
 .
 zucchini_partial_rollout
+:
+zucchini_transforms
 -
 gecko_taskgraph
 .
