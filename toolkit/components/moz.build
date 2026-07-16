@@ -245,6 +245,9 @@ gecko
 trace
 "
 "
+geolocation
+"
+"
 glean
 "
 "
