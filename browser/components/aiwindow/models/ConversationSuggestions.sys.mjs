@@ -1680,6 +1680,13 @@ n
 date
 :
 today
+locale
+:
+Services
+.
+locale
+.
+appLocaleAsBCP47
 assistant_limitations
 :
 assistantLimitations
