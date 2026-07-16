@@ -4614,6 +4614,12 @@ Shutdown
 )
 ;
 static
+void
+WriteIndexToDiskNow
+(
+)
+;
+static
 nsresult
 AddEntry
 (
@@ -5185,6 +5191,11 @@ aProofOfLock
 MOZ_REQUIRES
 (
 sLock
+)
+;
+void
+WriteIndexToDiskNowInternal
+(
 )
 ;
 void
