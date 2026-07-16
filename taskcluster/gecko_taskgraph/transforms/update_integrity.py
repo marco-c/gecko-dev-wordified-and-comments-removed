@@ -1283,6 +1283,17 @@ build_target
 "
 ]
         
+product
+=
+job
+.
+pop
+(
+"
+product
+"
+)
+        
 cmd
 =
 [
@@ -1387,17 +1398,7 @@ channel
 "
 ]
             
-job
-[
-"
-attributes
-"
-]
-[
-"
-shipping_product
-"
-]
+product
             
 "
 /
