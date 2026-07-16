@@ -4129,8 +4129,6 @@ uninstallSurveyManager
 showUninstallSurvey
 (
 intent
-.
-action
 navHost
 .
 navController
