@@ -1011,6 +1011,12 @@ cfError
 ;
 }
 }
+AuthorizationFree
+(
+authRef
+kAuthorizationFlagDefaults
+)
+;
 return
 result
 ;
