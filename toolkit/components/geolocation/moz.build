@@ -74,11 +74,13 @@ Provider
 "
 )
 EXPORTS
+.
+mozilla
 +
 =
 [
 "
-nsGeolocationService
+GeolocationService
 .
 h
 "
@@ -88,7 +90,7 @@ UNIFIED_SOURCES
 =
 [
 "
-nsGeolocationService
+GeolocationService
 .
 cpp
 "
