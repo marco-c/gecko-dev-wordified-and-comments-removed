@@ -141,7 +141,6 @@ stackwalk
 screenshots
 ipcmessages
 java
-cpu
 memory
 "
     
