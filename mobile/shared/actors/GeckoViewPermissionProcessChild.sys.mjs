@@ -825,13 +825,6 @@ window
 getMediaPermission
 (
 {
-uri
-:
-window
-.
-document
-.
-documentURI
 video
 :
 constraints
