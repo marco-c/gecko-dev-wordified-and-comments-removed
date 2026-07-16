@@ -28,14 +28,14 @@ h
 #
 include
 "
-nsScriptSecurityManager
+nsNetUtil
 .
 h
 "
 #
 include
 "
-nsNetUtil
+nsScriptSecurityManager
 .
 h
 "

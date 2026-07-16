@@ -7,6 +7,13 @@ mozilla_SharedJSONHandler_h
 #
 include
 "
+BasePrincipal
+.
+h
+"
+#
+include
+"
 js
 /
 JSON
@@ -19,13 +26,6 @@ include
 mozilla
 /
 RefPtr
-.
-h
-"
-#
-include
-"
-BasePrincipal
 .
 h
 "
