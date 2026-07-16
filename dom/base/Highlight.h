@@ -96,6 +96,9 @@ class
 Document
 ;
 class
+Element
+;
+class
 HighlightRegistry
 ;
 class
@@ -383,11 +386,9 @@ mozilla
 dom
 :
 :
-ShadowRoot
+Element
 *
-aPointShadowRoot
-=
-nullptr
+aElementAtPoint
 )
 const
 ;
