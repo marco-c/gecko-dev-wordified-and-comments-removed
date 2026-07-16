@@ -781,6 +781,9 @@ CSSTranslate
 insecureContext
 :
 true
+nightly
+:
+true
 }
 {
 name
