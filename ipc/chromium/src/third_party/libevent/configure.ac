@@ -42,7 +42,7 @@ libevent
 .
 1
 .
-12
+13
 -
 stable
 )
@@ -117,7 +117,7 @@ in
 AC_DEFINE
 (
 NUMERIC_VERSION
-0x02010c00
+0x02010d00
 [
 Numeric
 representation

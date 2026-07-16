@@ -24,6 +24,9 @@ declarations
 #
 endif
 #
+define
+OPENSSL_SUPPRESS_DEPRECATED
+#
 include
 <
 stdio

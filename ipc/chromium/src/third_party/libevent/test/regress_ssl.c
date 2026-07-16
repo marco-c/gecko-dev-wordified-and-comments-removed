@@ -766,7 +766,7 @@ X509_sign
 (
 x509
 key
-EVP_sha1
+EVP_sha256
 (
 )
 )
@@ -1398,6 +1398,9 @@ type
 enum
 regress_openssl_type
 )
+(
+size_t
+)
 ctx
 ;
 line
@@ -1639,6 +1642,9 @@ type
 (
 enum
 regress_openssl_type
+)
+(
+size_t
 )
 ctx
 ;
@@ -2211,6 +2217,9 @@ type
 (
 enum
 regress_openssl_type
+)
+(
+size_t
 )
 data
 -
@@ -2811,6 +2820,9 @@ type
 (
 enum
 regress_openssl_type
+)
+(
+size_t
 )
 data
 -
@@ -3509,6 +3521,9 @@ type
 (
 enum
 regress_openssl_type
+)
+(
+size_t
 )
 data
 -
@@ -4387,6 +4402,9 @@ type
 (
 enum
 regress_openssl_type
+)
+(
+size_t
 )
 data
 -

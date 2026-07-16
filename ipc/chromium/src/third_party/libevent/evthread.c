@@ -204,6 +204,7 @@ evthread_lock_callbacks
 *
 evthread_get_lock_callbacks
 (
+void
 )
 {
 return
@@ -221,6 +222,7 @@ evthread_condition_callbacks
 *
 evthread_get_condition_callbacks
 (
+void
 )
 {
 return

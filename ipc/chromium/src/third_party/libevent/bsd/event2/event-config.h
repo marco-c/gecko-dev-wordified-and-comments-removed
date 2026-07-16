@@ -463,7 +463,7 @@ libs
 #
 define
 EVENT__NUMERIC_VERSION
-0x02010c00
+0x02010d00
 #
 define
 EVENT__PACKAGE
@@ -490,7 +490,7 @@ libevent
 .
 1
 .
-12
+13
 -
 stable
 "
@@ -513,7 +513,7 @@ EVENT__PACKAGE_VERSION
 .
 1
 .
-12
+13
 -
 stable
 "
@@ -699,7 +699,7 @@ EVENT__VERSION
 .
 1
 .
-12
+13
 -
 stable
 "
