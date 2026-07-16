@@ -7428,13 +7428,6 @@ requireComponents
 useCases
 .
 topSitesUseCase
-marsUseCases
-=
-requireComponents
-.
-useCases
-.
-marsUseCases
 mozAdsUseCases
 =
 requireComponents
