@@ -140,6 +140,17 @@ AndroidMediaCodecFrameId
 aFrameId
 )
 ;
+bool
+HasImage
+(
+)
+{
+return
+!
+!
+mCurrentImage
+;
+}
 GLuint
 GetGlTextureHandle
 (

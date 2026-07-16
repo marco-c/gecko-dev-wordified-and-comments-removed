@@ -743,6 +743,16 @@ aOutDescriptor
 )
 override
 ;
+void
+GetSubDescriptor
+(
+RemoteDecoderVideoSubDescriptor
+*
+const
+aOutDesc
+)
+override
+;
 bool
 Lock
 (

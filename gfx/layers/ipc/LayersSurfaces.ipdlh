@@ -1019,6 +1019,8 @@ SurfaceDescriptorMacIOSurface
 ;
 SurfaceDescriptorDcompSurface
 ;
+AndroidImageReaderImageDescriptor
+;
 null_t
 ;
 }
