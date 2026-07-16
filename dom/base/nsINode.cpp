@@ -4102,13 +4102,13 @@ FlatForSelection
 (
 aRef1
 .
-AsRangeBoundaryInFlatTree
+AsRangeBoundaryInFlatTreeOrNonFlattenedNode
 (
 aFor1
 )
 aRef2
 .
-AsRangeBoundaryInFlatTree
+AsRangeBoundaryInFlatTreeOrNonFlattenedNode
 (
 aFor2
 )
@@ -4884,7 +4884,7 @@ FlatForSelection
 (
 aBoundary1
 .
-AsRangeBoundaryInFlatTree
+AsRangeBoundaryInFlatTreeOrNonFlattenedNode
 (
 aFor1
 )
@@ -4894,7 +4894,7 @@ AsRaw
 (
 )
 .
-AsRangeBoundaryInFlatTree
+AsRangeBoundaryInFlatTreeOrNonFlattenedNode
 (
 aFor2
 )

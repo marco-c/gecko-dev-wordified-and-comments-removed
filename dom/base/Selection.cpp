@@ -5477,13 +5477,13 @@ FlatForSelection
 (
 aCompareBoundary
 .
-AsRangeBoundaryInFlatTree
+AsRangeBoundaryInFlatTreeOrNonFlattenedNode
 (
 aFor
 )
 startRef
 .
-AsRangeBoundaryInFlatTree
+AsRangeBoundaryInFlatTreeOrNonFlattenedNode
 (
 rangeBoundaryFor
 )
@@ -5513,7 +5513,7 @@ n
 "
 "
 .
-AsRangeBoundaryInFlatTree
+AsRangeBoundaryInFlatTreeOrNonFlattenedNode
 (
 {
 }
@@ -5534,7 +5534,7 @@ n
 "
 "
 .
-AsRangeBoundaryInFlatTree
+AsRangeBoundaryInFlatTreeOrNonFlattenedNode
 (
 {
 }
@@ -5553,7 +5553,7 @@ AsConstRaw
 (
 )
 .
-AsRangeBoundaryInFlatTree
+AsRangeBoundaryInFlatTreeOrNonFlattenedNode
 (
 aFor
 )
@@ -5565,7 +5565,7 @@ AsConstRaw
 (
 )
 .
-AsRangeBoundaryInFlatTree
+AsRangeBoundaryInFlatTreeOrNonFlattenedNode
 (
 rangeBoundaryFor
 )
@@ -5957,13 +5957,13 @@ FlatForSelection
 (
 aCompareBoundary
 .
-AsRangeBoundaryInFlatTree
+AsRangeBoundaryInFlatTreeOrNonFlattenedNode
 (
 aFor
 )
 endRef
 .
-AsRangeBoundaryInFlatTree
+AsRangeBoundaryInFlatTreeOrNonFlattenedNode
 (
 rangeBoundaryFor
 )
@@ -5992,7 +5992,7 @@ n
 "
 "
 .
-AsRangeBoundaryInFlatTree
+AsRangeBoundaryInFlatTreeOrNonFlattenedNode
 (
 {
 }
@@ -6013,7 +6013,7 @@ n
 "
 "
 .
-AsRangeBoundaryInFlatTree
+AsRangeBoundaryInFlatTreeOrNonFlattenedNode
 (
 {
 }
@@ -6032,7 +6032,7 @@ AsConstRaw
 (
 )
 .
-AsRangeBoundaryInFlatTree
+AsRangeBoundaryInFlatTreeOrNonFlattenedNode
 (
 aFor
 )
@@ -6044,7 +6044,7 @@ AsConstRaw
 (
 )
 .
-AsRangeBoundaryInFlatTree
+AsRangeBoundaryInFlatTreeOrNonFlattenedNode
 (
 rangeBoundaryFor
 )

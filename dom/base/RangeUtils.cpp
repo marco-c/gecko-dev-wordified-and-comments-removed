@@ -1543,7 +1543,7 @@ AsConstRaw
 (
 )
 .
-AsRangeBoundaryInFlatTree
+AsRangeBoundaryInFlatTreeOrNonFlattenedNode
 (
 aStartBoundary
 =
@@ -1645,7 +1645,7 @@ AsConstRaw
 (
 )
 .
-AsRangeBoundaryInFlatTree
+AsRangeBoundaryInFlatTreeOrNonFlattenedNode
 (
 aStartBoundary
 =

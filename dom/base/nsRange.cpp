@@ -6532,7 +6532,7 @@ Some
 (
 aPoint
 .
-AsRangeBoundaryInFlatTree
+AsRangeBoundaryInFlatTreeOrNonFlattenedNode
 (
 RangeBoundaryFor
 :
@@ -6616,7 +6616,7 @@ MayCrossShadowBoundaryEndRef
 (
 )
 .
-AsRangeBoundaryInFlatTree
+AsRangeBoundaryInFlatTreeOrNonFlattenedNode
 (
 RangeBoundaryFor
 :
@@ -6703,7 +6703,7 @@ MayCrossShadowBoundaryEndRef
 (
 )
 .
-AsRangeBoundaryInFlatTree
+AsRangeBoundaryInFlatTreeOrNonFlattenedNode
 (
 RangeBoundaryFor
 :
@@ -7110,7 +7110,7 @@ Some
 (
 aPoint
 .
-AsRangeBoundaryInFlatTree
+AsRangeBoundaryInFlatTreeOrNonFlattenedNode
 (
 RangeBoundaryFor
 :
@@ -7201,7 +7201,7 @@ MayCrossShadowBoundaryStartRef
 (
 )
 .
-AsRangeBoundaryInFlatTree
+AsRangeBoundaryInFlatTreeOrNonFlattenedNode
 (
 RangeBoundaryFor
 :
@@ -7288,7 +7288,7 @@ MayCrossShadowBoundaryStartRef
 (
 )
 .
-AsRangeBoundaryInFlatTree
+AsRangeBoundaryInFlatTreeOrNonFlattenedNode
 (
 RangeBoundaryFor
 :

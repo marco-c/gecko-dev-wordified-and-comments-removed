@@ -8549,7 +8549,7 @@ AsRaw
 (
 )
 .
-AsRangeBoundaryInFlatTree
+AsRangeBoundaryInFlatTreeOrNonFlattenedNode
 (
 inRange
 -
@@ -8639,7 +8639,7 @@ AsRaw
 (
 )
 .
-AsRangeBoundaryInFlatTree
+AsRangeBoundaryInFlatTreeOrNonFlattenedNode
 (
 inRange
 -
