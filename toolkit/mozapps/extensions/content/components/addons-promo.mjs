@@ -185,6 +185,16 @@ reflect
 :
 true
 }
+textCentered
+:
+{
+type
+:
+Boolean
+reflect
+:
+true
+}
 }
 ;
 imageTemplate
