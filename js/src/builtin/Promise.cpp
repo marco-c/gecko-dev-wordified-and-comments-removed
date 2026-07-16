@@ -29072,15 +29072,6 @@ promise
 )
 ;
 }
-DebugAPI
-:
-:
-onPromiseSettled
-(
-cx
-promise
-)
-;
 }
 void
 PromiseObject
