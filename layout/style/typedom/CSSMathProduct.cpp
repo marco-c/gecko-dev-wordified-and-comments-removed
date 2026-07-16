@@ -456,11 +456,12 @@ return
 nullptr
 ;
 }
-nsTArray
+AutoTArray
 <
 const
 StyleNumericType
 *
+8
 >
 numericTypes
 ;
