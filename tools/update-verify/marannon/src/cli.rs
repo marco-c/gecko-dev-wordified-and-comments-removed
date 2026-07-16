@@ -253,7 +253,7 @@ channel
 :
 String
 pub
-appname
+product
 :
 String
 pub

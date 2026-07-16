@@ -988,7 +988,7 @@ channel
 &
 args
 .
-appname
+product
 args
 .
 cert_dir

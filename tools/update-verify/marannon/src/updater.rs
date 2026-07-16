@@ -226,7 +226,7 @@ pkg
 :
 &
 Path
-appname
+product
 :
 &
 str
@@ -261,7 +261,7 @@ updater
 unpack_updater
 (
 pkg
-appname
+product
 output_dir
 )
 ?
@@ -317,7 +317,7 @@ pkg
 :
 &
 Path
-appname
+product
 :
 &
 str
@@ -390,7 +390,7 @@ updater_binary
 .
 push
 (
-appname
+product
 )
 ;
 updater_binary
@@ -844,7 +844,7 @@ item
 fn
 make_tar_xz
 (
-appname
+product
 :
 &
 str
@@ -952,7 +952,7 @@ format
 (
 "
 {
-appname
+product
 }
 /
 updater
