@@ -2407,6 +2407,13 @@ html
 ]
 [
 "
+test_peerConnection_setParameters_audioActive
+.
+html
+"
+]
+[
+"
 test_peerConnection_setParameters_maxFramerate
 .
 html
