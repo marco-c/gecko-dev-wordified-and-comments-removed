@@ -70,11 +70,6 @@ android
 build_type
 :
 opt
-code
--
-review
-:
-true
 description
 :
 Android
@@ -173,7 +168,7 @@ run
 -
 time
 :
-3600
+7200
 run
 -
 on
