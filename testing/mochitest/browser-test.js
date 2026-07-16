@@ -6414,6 +6414,14 @@ assertNoUncaughtRejections
 (
 )
 ;
+this
+.
+PromiseTestUtils
+.
+clearAllowedUncaughtRejections
+(
+)
+;
 await
 this
 .
