@@ -1038,13 +1038,6 @@ ONE_DAY_MS
 1000L
 const
 val
-TWO_DAYS_MS
-=
-2
-*
-ONE_DAY_MS
-const
-val
 THREE_DAYS_MS
 =
 3
