@@ -6692,7 +6692,7 @@ node
 tags
 ?
 .
-replace
+replaceAll
 (
 "
 "

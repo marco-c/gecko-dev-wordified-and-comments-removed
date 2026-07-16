@@ -57,6 +57,9 @@ tagB
 "
 tagA
 "
+"
+tagC
+"
 ]
 ;
 const
