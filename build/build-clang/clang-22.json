@@ -135,13 +135,6 @@ g4f4087edb182
 patch
 "
 "
-filter
--
-symbols
-.
-patch
-"
-"
 android
 -
 hardware
@@ -158,6 +151,13 @@ patch
 arm64e
 -
 hack
+.
+patch
+"
+"
+filter
+-
+symbols
 .
 patch
 "
