@@ -124,7 +124,7 @@ role
 AXGroup
 "
     
-role
+subrole
 =
 axapi
 .
@@ -141,12 +141,10 @@ None
 ]
     
 assert
-role
+subrole
 =
 =
-"
-AXUnknown
-"
+None
 def
 test_ia2
 (
