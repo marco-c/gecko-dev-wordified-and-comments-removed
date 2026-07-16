@@ -305,12 +305,7 @@ nsGenericHTMLElement
 *
 aElement
 )
-{
-mAssociatedElement
-=
-aElement
 ;
-}
 nsGenericHTMLElement
 &
 TextContainer

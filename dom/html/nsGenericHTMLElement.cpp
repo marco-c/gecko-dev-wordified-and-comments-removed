@@ -2283,6 +2283,16 @@ dom_editcontext_allow_canvas
 )
 )
 {
+OwnerDoc
+(
+)
+-
+>
+SetUseCounter
+(
+eUseCounter_custom_EditContextCanvas
+)
+;
 aRv
 .
 ThrowNotSupportedError
