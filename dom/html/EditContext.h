@@ -567,6 +567,12 @@ GetSelectionBounds
 )
 const
 ;
+LayoutDeviceIntRect
+FallbackBounds
+(
+)
+const
+;
 bool
 WasTextNextToCaretChangedByTextUpdateHandler
 (
