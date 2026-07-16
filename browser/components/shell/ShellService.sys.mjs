@@ -5527,7 +5527,6 @@ shellService
 .
 pinCurrentAppToStartMenuAsync
 (
-false
 )
 ;
 Services
