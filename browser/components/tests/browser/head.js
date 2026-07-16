@@ -220,8 +220,7 @@ false
 isPinnedToStartMenu
 :
 false
-async
-checkPinCurrentAppToTaskbarAsync
+canPinToTaskbar
 (
 )
 {

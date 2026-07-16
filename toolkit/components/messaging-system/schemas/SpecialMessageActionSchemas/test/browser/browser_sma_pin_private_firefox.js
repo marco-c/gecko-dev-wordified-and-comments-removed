@@ -24,8 +24,7 @@ let
 shell
 =
 {
-async
-checkPinCurrentAppToTaskbarAsync
+canPinToTaskbar
 (
 )
 {

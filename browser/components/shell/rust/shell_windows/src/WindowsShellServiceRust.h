@@ -64,10 +64,13 @@ result
 )
 ;
 nsresult
+shell_windows_taskbar_can_pin_to_taskbar
+(
+)
+;
+nsresult
 shell_windows_taskbar_pin_app_to_taskbar
 (
-bool
-check_only
 const
 nsAString
 *
