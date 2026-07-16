@@ -309,6 +309,15 @@ browser
 /
 preferences
 /
+DefaultBrowserHelper
+.
+mjs
+content
+/
+browser
+/
+preferences
+/
 config
 /
 about
