@@ -2787,10 +2787,6 @@ TokenPos
 pos
 MutableHandleValue
 dst
-bool
-isImportSource
-=
-false
 )
 ;
 [
@@ -6878,8 +6874,6 @@ TokenPos
 pos
 MutableHandleValue
 dst
-bool
-isImportSource
 )
 {
 RootedValue
@@ -6905,7 +6899,12 @@ false
 }
 if
 (
-isImportSource
+!
+property
+.
+isNull
+(
+)
 )
 {
 return
@@ -6929,8 +6928,6 @@ dst
 )
 ;
 }
-else
-{
 return
 newNode
 (
@@ -6947,7 +6944,6 @@ array
 dst
 )
 ;
-}
 }
 bool
 NodeBuilder
@@ -19473,7 +19469,6 @@ pn
 >
 pn_pos
 dst
-isImportSource
 )
 ;
 }
