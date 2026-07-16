@@ -129,13 +129,13 @@ await
 load_promise
 ;
 const
-iframe_navigator
+iframe_document
 =
 iframe
 .
 contentWindow
 .
-navigator
+document
 ;
 /
 /
@@ -144,7 +144,7 @@ not
 reject
 !
 await
-iframe_navigator
+iframe_document
 .
 modelContext
 .
