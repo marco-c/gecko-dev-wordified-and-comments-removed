@@ -4557,6 +4557,12 @@ offset
 :
 1px
 ;
+min
+-
+width
+:
+1ch
+;
 &
 :
 focus
