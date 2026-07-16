@@ -50,13 +50,6 @@ h
 #
 include
 "
-nsIContentInlines
-.
-h
-"
-#
-include
-"
 nsIInterfaceRequestorUtils
 .
 h

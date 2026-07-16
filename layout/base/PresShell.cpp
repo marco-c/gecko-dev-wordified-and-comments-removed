@@ -7293,7 +7293,7 @@ OwnerDoc
 )
 -
 >
-SetFocusNavigationStartingPoint
+SetPreviouslyFocusedContent
 (
 element
 )
@@ -15524,7 +15524,7 @@ focusedWindow
 mDocument
 -
 >
-SetFocusNavigationStartingPoint
+SetPreviouslyFocusedContent
 (
 nullptr
 )
