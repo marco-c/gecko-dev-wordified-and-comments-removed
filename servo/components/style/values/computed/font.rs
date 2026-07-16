@@ -5323,17 +5323,6 @@ MathDepth
 =
 i8
 ;
-#
-[
-cfg
-(
-feature
-=
-"
-gecko
-"
-)
-]
 impl
 ToComputedValue
 for
