@@ -177,3 +177,4 @@ Components
 Constants
 Preferences
 StateMachine
+BandwidthUsageDisplay
