@@ -675,13 +675,6 @@ MakeRefPtr
 SVGContextPaintImpl
 >
 (
-)
-;
-contextPaint
--
->
-Init
-(
 aContext
 .
 GetDrawTarget
