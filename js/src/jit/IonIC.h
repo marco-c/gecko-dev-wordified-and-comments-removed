@@ -341,6 +341,9 @@ kind
 void
 attachStub
 (
+IonScript
+*
+ionScript
 IonICStub
 *
 newStub

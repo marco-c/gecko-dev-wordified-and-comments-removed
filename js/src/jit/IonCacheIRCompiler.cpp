@@ -11993,6 +11993,7 @@ return
 }
 attachStub
 (
+ionScript
 newStub
 code
 )
