@@ -1896,5 +1896,11 @@ space
 xxlarge
 )
 ;
+display
+:
+inline
+-
+block
+;
 }
 }
