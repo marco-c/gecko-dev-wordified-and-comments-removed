@@ -258,6 +258,10 @@ data
 "
 "
     
+with
+mock_push_to_lando_try
+:
+        
 assert
 run_mach
 (
