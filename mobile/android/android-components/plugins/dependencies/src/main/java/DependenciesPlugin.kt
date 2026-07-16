@@ -1958,7 +1958,7 @@ version
 }
 "
 val
-mozilla_appservices_httpconfig
+mozilla_appservices_viaduct
 =
 "
 {
@@ -1967,7 +1967,7 @@ ApplicationServicesConfig
 groupId
 }
 :
-httpconfig
+viaduct
 :
 {
 ApplicationServicesConfig

@@ -145,7 +145,7 @@ implementation
 (
 ComponentsDependencies
 .
-mozilla_appservices_httpconfig
+mozilla_appservices_viaduct
 )
 {
 /

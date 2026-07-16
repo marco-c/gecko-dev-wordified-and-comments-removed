@@ -79,7 +79,7 @@ mozilla
 .
 appservices
 .
-httpconfig
+viaduct
 .
 RustHttpConfig
 as
