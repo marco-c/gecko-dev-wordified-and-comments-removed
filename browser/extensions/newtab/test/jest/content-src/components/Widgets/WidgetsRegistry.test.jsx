@@ -686,6 +686,9 @@ crossword
 "
 stocks
 "
+"
+pictureOfTheDay
+"
 ]
 )
 ;
@@ -744,6 +747,9 @@ crossword
 "
 "
 stocks
+"
+"
+pictureOfTheDay
 "
 ]
 )
@@ -806,6 +812,9 @@ crossword
 "
 "
 stocks
+"
+"
+pictureOfTheDay
 "
 ]
 )
@@ -930,6 +939,9 @@ crossword
 "
 "
 stocks
+"
+"
+pictureOfTheDay
 "
 ]
 )
@@ -1069,6 +1081,9 @@ crossword
 "
 stocks
 "
+"
+pictureOfTheDay
+"
 ]
 )
 ;
@@ -1149,6 +1164,9 @@ crossword
 "
 "
 stocks
+"
+"
+pictureOfTheDay
 "
 ]
 )
@@ -1231,6 +1249,9 @@ crossword
 "
 "
 stocks
+"
+"
+pictureOfTheDay
 "
 ]
 )
