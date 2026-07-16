@@ -2819,6 +2819,7 @@ _push_to_hg_try
 self
 message
 changed_files
+remote
 allow_log_capture
 )
 :
@@ -2899,7 +2900,6 @@ _git
 .
 _run
 (
-                
 "
 remote
 "
@@ -2909,23 +2909,15 @@ add
 "
 mach_tryserver
 "
+f
 "
 hg
 :
 :
-ssh
-:
-/
-/
-hg
-.
-mozilla
-.
-org
-/
-try
+{
+remote
+}
 "
-            
 )
             
 self
