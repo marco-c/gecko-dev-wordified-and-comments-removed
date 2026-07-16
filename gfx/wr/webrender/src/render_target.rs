@@ -1593,7 +1593,6 @@ BlendMode
 :
 :
 None
-None
 render_tasks
 gpu_buffer_builder
 |
@@ -2195,7 +2194,6 @@ ZBufferId
 BlendMode
 :
 :
-None
 None
 render_tasks
 gpu_buffer_builder
@@ -5159,7 +5157,6 @@ BlendMode
 :
 :
 None
-None
 render_tasks
 gpu_buffers
 |
@@ -5403,7 +5400,6 @@ ZBufferId
 BlendMode
 :
 :
-None
 None
 render_tasks
 gpu_buffers
