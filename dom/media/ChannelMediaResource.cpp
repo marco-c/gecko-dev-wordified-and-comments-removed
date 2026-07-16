@@ -1780,10 +1780,17 @@ ModifyLoadFlags
 loadFlags
 &
 ~
+(
 nsIRequest
 :
 :
 LOAD_BACKGROUND
+|
+nsIChannel
+:
+:
+LOAD_DOCUMENT_URI
+)
 )
 )
 )
