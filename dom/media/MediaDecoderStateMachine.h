@@ -1102,7 +1102,7 @@ MediaSink
 mMediaSink
 ;
 bool
-mStartSinkAfterSeek
+mStartSinkAfterWarmSeek
 =
 false
 ;
