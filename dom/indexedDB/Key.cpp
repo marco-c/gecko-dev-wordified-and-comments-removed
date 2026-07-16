@@ -113,6 +113,13 @@ h
 #
 include
 "
+jsapi
+.
+h
+"
+#
+include
+"
 jsfriendapi
 .
 h
@@ -2384,7 +2391,7 @@ eFloat
 {
 aVal
 .
-setDouble
+setNumber
 (
 DecodeNumber
 (

@@ -339,14 +339,9 @@ return
 }
 aResult
 .
-set
-(
-:
-:
-JS_NumberValue
+setNumber
 (
 dval
-)
 )
 ;
 break

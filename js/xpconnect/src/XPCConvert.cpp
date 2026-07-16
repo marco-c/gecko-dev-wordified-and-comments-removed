@@ -627,6 +627,8 @@ d
 .
 setNumber
 (
+double
+(
 *
 static_cast
 <
@@ -636,6 +638,7 @@ float
 >
 (
 s
+)
 )
 )
 ;
@@ -650,9 +653,7 @@ T_DOUBLE
 :
 d
 .
-set
-(
-JS_NumberValue
+setNumber
 (
 *
 static_cast
@@ -663,7 +664,6 @@ double
 >
 (
 s
-)
 )
 )
 ;

@@ -3804,15 +3804,12 @@ Tdouble
 :
 aOut
 .
-set
-(
-JS_NumberValue
+setNumber
 (
 aIn
 .
 get_double
 (
-)
 )
 )
 ;
