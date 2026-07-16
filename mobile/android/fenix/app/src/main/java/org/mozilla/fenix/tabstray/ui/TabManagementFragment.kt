@@ -3217,6 +3217,11 @@ displayTabsInGrid
 settings
 .
 gridTabView
+homepageAsNewTabEnabled
+=
+settings
+.
+enableHomepageAsNewTab
 )
 )
 ?
@@ -3307,6 +3312,13 @@ useCases
 tabsUseCases
 .
 moveTabs
+fenixBrowserUseCases
+=
+requireComponents
+.
+useCases
+.
+fenixBrowserUseCases
 mainScope
 =
 lifecycleScope
@@ -3538,6 +3550,11 @@ tabGroupsOnboardingEnabled
 settings
 .
 tabGroupsOnboardingEnabled
+homepageAsNewTabEnabled
+=
+settings
+.
+enableHomepageAsNewTab
 displayTabsInGrid
 =
 settings
