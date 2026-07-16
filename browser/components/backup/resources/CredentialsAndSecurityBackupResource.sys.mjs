@@ -296,6 +296,11 @@ credentialstate
 .
 sqlite
 "
+"
+logins
+.
+db
+"
 ]
 ;
 await
@@ -452,6 +457,11 @@ db
 credentialstate
 .
 sqlite
+"
+"
+logins
+.
+db
 "
 ]
 ;
@@ -825,6 +835,11 @@ json
 credentialstate
 .
 sqlite
+"
+"
+logins
+.
+db
 "
 ]
 ;
