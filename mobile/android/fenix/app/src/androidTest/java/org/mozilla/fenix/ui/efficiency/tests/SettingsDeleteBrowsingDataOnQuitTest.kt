@@ -642,14 +642,14 @@ SitePermissionsSelectors
 MICROPHONE_PERMISSION_PROMPT
 )
 .
-mozClick
+mozClickIfPresent
 (
 SitePermissionsSelectors
 .
 PAGE_PERMISSION_REMEMBER_DECISION_CHECKBOX
 )
 .
-mozClick
+mozClickIfPresent
 (
 SitePermissionsSelectors
 .
