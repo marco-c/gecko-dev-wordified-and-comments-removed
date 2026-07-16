@@ -99,7 +99,7 @@ label
 =
 Restart
 to
-Update
+update
 {
 -
 brand
