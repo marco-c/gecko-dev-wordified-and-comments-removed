@@ -229,14 +229,6 @@ id
 .
 dohSettingsFragment
 )
-FromTrackingProtectionDialog
-(
-R
-.
-id
-.
-trackingProtectionPanelDialogFragment
-)
 FromSavedLoginsFragment
 (
 R
