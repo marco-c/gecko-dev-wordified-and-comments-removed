@@ -4979,6 +4979,17 @@ loadInfoArgs
 initialSecurityCheckDone
 (
 )
+XRE_IsParentProcess
+(
+)
+?
+false
+:
+loadInfoArgs
+.
+isInDevToolsContext
+(
+)
 loadInfoArgs
 .
 isInThirdPartyContext
