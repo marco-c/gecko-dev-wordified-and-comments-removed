@@ -209,18 +209,6 @@ fxa
 .
 manager
 .
-SCOPE_SESSION
-import
-mozilla
-.
-components
-.
-service
-.
-fxa
-.
-manager
-.
 SCOPE_SYNC
 /
 *
@@ -627,7 +615,6 @@ setOf
 SCOPE_IPPROTECTION
 SCOPE_PROFILE
 SCOPE_SYNC
-SCOPE_SESSION
 )
 /
 /
