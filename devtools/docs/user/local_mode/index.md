@@ -47,7 +47,7 @@ web
 page
 .
 This
-make
+makes
 it
 easy
 to
@@ -117,7 +117,7 @@ project
 and
 have
 dedicated
-storages
+storage
 /
 cookies
 for
@@ -149,7 +149,7 @@ your
 computer
 /
 local
-nerwork
+network
 )
 .
 These
@@ -173,7 +173,7 @@ Local
 Mode
 "
 This
-features
+feature
 shipped
 in
 Firefox
@@ -184,10 +184,9 @@ can
 register
 mappings
 from
-DevTool
+DevTools
 '
-s
-options
+Options
 panel
 :
 {
@@ -272,6 +271,7 @@ home
 alex
 /
 app
+.
 #
 #
 Loading
@@ -283,6 +283,8 @@ loading
 any
 file
 :
+/
+/
 URL
 with
 DevTools
@@ -293,7 +295,6 @@ see
 the
 following
 notification
-shown
 at
 the
 top
@@ -332,7 +333,7 @@ bring
 you
 to
 the
-options
+Options
 panel
 and
 register
