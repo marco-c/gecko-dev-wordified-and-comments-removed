@@ -276,10 +276,7 @@ Extmap
 GetExt
 (
 const
-std
-:
-:
-string
+nsACString
 &
 ext_name
 )
@@ -292,7 +289,10 @@ mExtmap
 .
 find
 (
+nsCString
+(
 ext_name
+)
 )
 ;
 if
@@ -394,10 +394,7 @@ std
 :
 map
 <
-std
-:
-:
-string
+nsCString
 SdpExtmapAttributeList
 :
 :

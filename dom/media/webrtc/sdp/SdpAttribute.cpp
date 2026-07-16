@@ -206,6 +206,7 @@ std
 istream
 &
 is
+const
 unsigned
 char
 c
@@ -612,7 +613,7 @@ i
 >
 extensionattributes
 .
-length
+Length
 (
 )
 )
@@ -863,6 +864,7 @@ static
 uint8_t
 FromUppercaseHex
 (
+const
 char
 ch
 )
@@ -1717,8 +1719,10 @@ std
 istream
 &
 is
+const
 T
 min
+const
 T
 max
 T
@@ -6329,6 +6333,7 @@ std
 string
 &
 id
+const
 sdp
 :
 :
@@ -6716,6 +6721,7 @@ static
 bool
 ShouldSerializeChannels
 (
+const
 SdpRtpmapAttributeList
 :
 :
@@ -8300,6 +8306,7 @@ SdpAttribute
 :
 IsAllowedAtMediaLevel
 (
+const
 AttributeType
 type
 )
@@ -8554,6 +8561,7 @@ SdpAttribute
 :
 IsAllowedAtSessionLevel
 (
+const
 AttributeType
 type
 )
@@ -8812,6 +8820,7 @@ SdpAttribute
 :
 GetAttributeTypeString
 (
+const
 AttributeType
 type
 )

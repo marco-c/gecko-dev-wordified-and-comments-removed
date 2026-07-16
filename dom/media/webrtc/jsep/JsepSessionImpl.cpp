@@ -1184,10 +1184,7 @@ AddRtpExtension
 JsepMediaType
 mediaType
 const
-std
-:
-:
-string
+nsACString
 &
 extensionName
 SdpDirectionAttribute
@@ -1293,9 +1290,13 @@ SdpDirectionAttribute
 :
 :
 kSendrecv
+nsCString
+(
 extensionName
+)
 "
 "
+_ns
 }
 }
 ;
@@ -1317,10 +1318,7 @@ JsepSessionImpl
 AddAudioRtpExtension
 (
 const
-std
-:
-:
-string
+nsACString
 &
 extensionName
 SdpDirectionAttribute
@@ -1349,10 +1347,7 @@ JsepSessionImpl
 AddVideoRtpExtension
 (
 const
-std
-:
-:
-string
+nsACString
 &
 extensionName
 SdpDirectionAttribute
@@ -1381,10 +1376,7 @@ JsepSessionImpl
 AddAudioVideoRtpExtension
 (
 const
-std
-:
-:
-string
+nsACString
 &
 extensionName
 SdpDirectionAttribute
@@ -2739,6 +2731,8 @@ kSimulcastAttribute
 {
 AddVideoRtpExtension
 (
+nsLiteralCString
+(
 webrtc
 :
 :
@@ -2746,6 +2740,7 @@ RtpExtension
 :
 :
 kDependencyDescriptorUri
+)
 SdpDirectionAttribute
 :
 :
@@ -2772,6 +2767,8 @@ kRidAttribute
 {
 AddVideoRtpExtension
 (
+nsLiteralCString
+(
 webrtc
 :
 :
@@ -2779,6 +2776,7 @@ RtpExtension
 :
 :
 kRidUri
+)
 SdpDirectionAttribute
 :
 :
@@ -2810,6 +2808,8 @@ false
 {
 AddVideoRtpExtension
 (
+nsLiteralCString
+(
 webrtc
 :
 :
@@ -2817,6 +2817,7 @@ RtpExtension
 :
 :
 kRepairedRidUri
+)
 SdpDirectionAttribute
 :
 :
