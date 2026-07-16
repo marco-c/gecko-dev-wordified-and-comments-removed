@@ -4713,9 +4713,15 @@ AutoUnsafeCallWithABI
 unsafe
 ;
 return
+JS
+:
+:
+CanonicalizeNaN
+(
 fdlibm_cbrt
 (
 x
+)
 )
 ;
 }
