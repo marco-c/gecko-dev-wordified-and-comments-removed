@@ -60,7 +60,7 @@ v
 VERT_QUANTIZE_SCALE
 )
 .
-trunc
+round
 (
 )
 as
