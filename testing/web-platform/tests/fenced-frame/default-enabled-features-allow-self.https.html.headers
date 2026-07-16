@@ -2,13 +2,6 @@ Permissions
 -
 Policy
 :
-attribution
--
-reporting
-=
-(
-self
-)
 private
 -
 aggregation
