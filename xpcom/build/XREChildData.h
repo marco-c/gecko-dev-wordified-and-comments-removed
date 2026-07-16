@@ -23,7 +23,7 @@ mozilla
 /
 sandboxing
 /
-loggingTypes
+TargetGeckoServices
 .
 h
 "
@@ -69,8 +69,8 @@ mozilla
 sandboxing
 :
 :
-ProvideLogFunctionCb
-ProvideLogFunction
+SetTargetGeckoServicesCb
+setTargetGeckoServices
 =
 nullptr
 ;

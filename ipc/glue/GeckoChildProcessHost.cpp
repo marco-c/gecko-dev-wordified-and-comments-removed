@@ -499,17 +499,6 @@ Preferences
 h
 "
 #
-include
-"
-mozilla
-/
-sandboxing
-/
-sandboxLogging
-.
-h
-"
-#
 endif
 #
 include
