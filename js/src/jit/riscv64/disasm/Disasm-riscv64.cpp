@@ -12281,7 +12281,7 @@ switch
 instr
 -
 >
-Shamt
+Shamt32
 (
 )
 )

@@ -2550,7 +2550,7 @@ at
 )
 -
 >
-SetIFormat
+SetIShiftFormat
 (
 RO_SLLI
 rd
@@ -2594,7 +2594,7 @@ at
 )
 -
 >
-SetIFormat
+SetIShiftFormat
 (
 RO_SLLI
 rd
