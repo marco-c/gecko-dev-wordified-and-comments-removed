@@ -1849,7 +1849,7 @@ widgets
 .
 pictureOfTheDay
 .
-setAsWallpaper
+wallpaperActive
 "
 )
 "
@@ -2289,7 +2289,7 @@ widgets
 .
 pictureOfTheDay
 .
-setAsWallpaper
+wallpaperActive
 "
 :
 true
@@ -2379,7 +2379,7 @@ widgets
 .
 pictureOfTheDay
 .
-setAsWallpaper
+wallpaperActive
 "
 &
 &
