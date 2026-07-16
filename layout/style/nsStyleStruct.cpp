@@ -2201,6 +2201,13 @@ StyleOverflowClipMarginBox
 PaddingBox
 }
 )
+mMarginTrim
+(
+StyleMarginTrim
+:
+:
+NONE
+)
 {
 MOZ_COUNT_CTOR
 (
@@ -2236,6 +2243,12 @@ mOverflowClipMargin
 aSrc
 .
 mOverflowClipMargin
+)
+mMarginTrim
+(
+aSrc
+.
+mMarginTrim
 )
 {
 MOZ_COUNT_CTOR
