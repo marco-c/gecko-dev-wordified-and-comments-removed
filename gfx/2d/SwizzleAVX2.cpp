@@ -1,12 +1,5 @@
 #
 include
-"
-Swizzle
-.
-h
-"
-#
-include
 <
 immintrin
 .
@@ -19,6 +12,13 @@ tmmintrin
 .
 h
 >
+#
+include
+"
+Swizzle
+.
+h
+"
 namespace
 mozilla
 :

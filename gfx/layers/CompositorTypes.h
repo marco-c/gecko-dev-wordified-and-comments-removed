@@ -7,11 +7,6 @@ MOZILLA_LAYERS_COMPOSITORTYPES_H
 #
 include
 <
-iosfwd
->
-#
-include
-<
 stdint
 .
 h
@@ -27,6 +22,11 @@ h
 >
 #
 include
+<
+iosfwd
+>
+#
+include
 "
 LayersTypes
 .
@@ -35,7 +35,9 @@ h
 #
 include
 "
-nsXULAppAPI
+mozilla
+/
+TypedEnumBits
 .
 h
 "
@@ -64,9 +66,7 @@ h
 #
 include
 "
-mozilla
-/
-TypedEnumBits
+nsXULAppAPI
 .
 h
 "

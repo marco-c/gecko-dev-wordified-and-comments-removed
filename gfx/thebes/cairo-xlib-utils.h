@@ -6,13 +6,6 @@ define
 CAIROXLIBUTILS_H_
 #
 include
-"
-cairo
-.
-h
-"
-#
-include
 <
 X11
 /
@@ -20,6 +13,13 @@ Xlib
 .
 h
 >
+#
+include
+"
+cairo
+.
+h
+"
 CAIRO_BEGIN_DECLS
 typedef
 cairo_bool_t

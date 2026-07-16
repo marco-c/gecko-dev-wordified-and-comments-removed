@@ -8,14 +8,14 @@ h
 #
 include
 "
-moz_external_vr
+VRSession
 .
 h
 "
 #
 include
 "
-VRSession
+moz_external_vr
 .
 h
 "

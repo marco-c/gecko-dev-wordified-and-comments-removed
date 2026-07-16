@@ -14,6 +14,13 @@ h
 #
 include
 "
+gfxVR
+.
+h
+"
+#
+include
+"
 mozilla
 /
 RefPtr
@@ -28,13 +35,6 @@ mozilla
 gfx
 /
 PVRLayerChild
-.
-h
-"
-#
-include
-"
-gfxVR
 .
 h
 "

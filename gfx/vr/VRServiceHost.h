@@ -6,6 +6,11 @@ define
 GFX_VR_SERVICE_HOST_H
 #
 include
+<
+cstdint
+>
+#
+include
 "
 mozilla
 /
@@ -27,11 +32,6 @@ nsTArray
 .
 h
 "
-#
-include
-<
-cstdint
->
 namespace
 mozilla
 {

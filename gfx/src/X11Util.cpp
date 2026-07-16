@@ -8,14 +8,14 @@ h
 #
 include
 "
-nsDebug
+MainThreadUtils
 .
 h
 "
 #
 include
 "
-MainThreadUtils
+nsDebug
 .
 h
 "

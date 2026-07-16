@@ -15,14 +15,14 @@ h
 #
 include
 "
-nsThreadManager
+nsThread
 .
 h
 "
 #
 include
 "
-nsThread
+nsThreadManager
 .
 h
 "

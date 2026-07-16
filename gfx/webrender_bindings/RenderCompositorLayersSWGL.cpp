@@ -22,6 +22,13 @@ h
 #
 include
 "
+RenderCompositorRecordedFrame
+.
+h
+"
+#
+include
+"
 mozilla
 /
 layers
@@ -60,13 +67,6 @@ mozilla
 widget
 /
 CompositorWidget
-.
-h
-"
-#
-include
-"
-RenderCompositorRecordedFrame
 .
 h
 "

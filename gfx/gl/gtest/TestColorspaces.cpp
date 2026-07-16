@@ -1,12 +1,13 @@
 #
 include
-"
-gtest
-/
-gtest
-.
-h
-"
+<
+array
+>
+#
+include
+<
+limits
+>
 #
 include
 "
@@ -16,14 +17,13 @@ h
 "
 #
 include
-<
-array
->
-#
-include
-<
-limits
->
+"
+gtest
+/
+gtest
+.
+h
+"
 namespace
 mozilla
 :
@@ -42,7 +42,7 @@ float
 TfFromLinear
 (
 const
-PiecewiseGammaDesc
+TransferFunctionDesc
 &
 float
 linear
@@ -52,7 +52,7 @@ float
 LinearFromTf
 (
 const
-PiecewiseGammaDesc
+TransferFunctionDesc
 &
 float
 tf
@@ -944,7 +944,7 @@ Chromaticities
 Rec709
 (
 )
-PiecewiseGammaDesc
+TransferFunctionDesc
 :
 :
 Rec709
@@ -980,7 +980,7 @@ Chromaticities
 Rec709
 (
 )
-PiecewiseGammaDesc
+TransferFunctionDesc
 :
 :
 Rec709
@@ -1170,7 +1170,7 @@ Chromaticities
 Rec709
 (
 )
-PiecewiseGammaDesc
+TransferFunctionDesc
 :
 :
 Rec709
@@ -1206,7 +1206,7 @@ Chromaticities
 Rec709
 (
 )
-PiecewiseGammaDesc
+TransferFunctionDesc
 :
 :
 Rec709
@@ -1426,7 +1426,7 @@ Chromaticities
 Rec709
 (
 )
-PiecewiseGammaDesc
+TransferFunctionDesc
 :
 :
 Rec709
@@ -1462,7 +1462,7 @@ Chromaticities
 Rec709
 (
 )
-PiecewiseGammaDesc
+TransferFunctionDesc
 :
 :
 Rec709
@@ -1654,7 +1654,7 @@ Chromaticities
 Rec709
 (
 )
-PiecewiseGammaDesc
+TransferFunctionDesc
 :
 :
 Rec709
@@ -1690,7 +1690,7 @@ Chromaticities
 Rec709
 (
 )
-PiecewiseGammaDesc
+TransferFunctionDesc
 :
 :
 Rec709
@@ -1868,14 +1868,14 @@ ivec3
 TEST
 (
 Colorspaces
-PiecewiseGammaDesc_Srgb
+TransferFunctionDesc_Srgb
 )
 {
 const
 auto
 tf
 =
-PiecewiseGammaDesc
+TransferFunctionDesc
 :
 :
 Srgb
@@ -2238,14 +2238,14 @@ tf
 TEST
 (
 Colorspaces
-PiecewiseGammaDesc_Rec709
+TransferFunctionDesc_Rec709
 )
 {
 const
 auto
 tf
 =
-PiecewiseGammaDesc
+TransferFunctionDesc
 :
 :
 Rec709
@@ -2608,7 +2608,7 @@ tf
 TEST
 (
 Colorspaces
-ColorspaceTransform_PiecewiseGammaDesc
+ColorspaceTransform_TransferFunctionDesc
 )
 {
 const
@@ -2641,7 +2641,7 @@ Chromaticities
 Srgb
 (
 )
-PiecewiseGammaDesc
+TransferFunctionDesc
 :
 :
 Srgb
@@ -2912,7 +2912,7 @@ Chromaticities
 Rec709
 (
 )
-PiecewiseGammaDesc
+TransferFunctionDesc
 :
 :
 Rec709
@@ -2948,7 +2948,7 @@ Chromaticities
 Srgb
 (
 )
-PiecewiseGammaDesc
+TransferFunctionDesc
 :
 :
 Srgb
@@ -3122,7 +3122,7 @@ Chromaticities
 DisplayP3
 (
 )
-PiecewiseGammaDesc
+TransferFunctionDesc
 :
 :
 DisplayP3
@@ -3142,7 +3142,7 @@ Chromaticities
 Srgb
 (
 )
-PiecewiseGammaDesc
+TransferFunctionDesc
 :
 :
 Srgb
@@ -3347,7 +3347,7 @@ Chromaticities
 DisplayP3
 (
 )
-PiecewiseGammaDesc
+TransferFunctionDesc
 :
 :
 DisplayP3
@@ -3367,7 +3367,7 @@ Chromaticities
 Srgb
 (
 )
-PiecewiseGammaDesc
+TransferFunctionDesc
 :
 :
 Srgb
@@ -4659,7 +4659,7 @@ Chromaticities
 Rec709
 (
 )
-PiecewiseGammaDesc
+TransferFunctionDesc
 :
 :
 Rec709
@@ -4695,7 +4695,7 @@ Chromaticities
 Rec709
 (
 )
-PiecewiseGammaDesc
+TransferFunctionDesc
 :
 :
 Rec709
@@ -4804,7 +4804,7 @@ Chromaticities
 Rec709
 (
 )
-PiecewiseGammaDesc
+TransferFunctionDesc
 :
 :
 Rec709
@@ -4840,7 +4840,7 @@ Chromaticities
 Srgb
 (
 )
-PiecewiseGammaDesc
+TransferFunctionDesc
 :
 :
 Srgb
@@ -4887,7 +4887,7 @@ stats
 mean
 0
 .
-530
+721
 0
 .
 001
@@ -4902,7 +4902,7 @@ standardDeviation
 )
 1
 .
-674
+775
 0
 .
 001
@@ -4924,7 +4924,7 @@ EXPECT_NEAR
 stats
 .
 max
-17
+15
 0
 .
 001
@@ -6074,7 +6074,7 @@ Chromaticities
 Srgb
 (
 )
-PiecewiseGammaDesc
+TransferFunctionDesc
 :
 :
 Srgb
@@ -6099,7 +6099,7 @@ Chromaticities
 Rec709
 (
 )
-PiecewiseGammaDesc
+TransferFunctionDesc
 :
 :
 Rec709
@@ -6158,7 +6158,7 @@ const
 auto
 tfa
 =
-PiecewiseGammaDesc
+TransferFunctionDesc
 :
 :
 Srgb
@@ -6169,7 +6169,7 @@ const
 auto
 tfb
 =
-PiecewiseGammaDesc
+TransferFunctionDesc
 :
 :
 Srgb
@@ -6337,7 +6337,7 @@ const
 auto
 tfa
 =
-PiecewiseGammaDesc
+TransferFunctionDesc
 :
 :
 Rec709
@@ -6348,7 +6348,7 @@ const
 auto
 tfb
 =
-PiecewiseGammaDesc
+TransferFunctionDesc
 :
 :
 Rec709
@@ -6516,7 +6516,7 @@ const
 auto
 tfa
 =
-PiecewiseGammaDesc
+TransferFunctionDesc
 :
 :
 Rec709
@@ -6527,7 +6527,7 @@ const
 auto
 tfb
 =
-PiecewiseGammaDesc
+TransferFunctionDesc
 :
 :
 Srgb
@@ -6719,7 +6719,7 @@ Chromaticities
 Srgb
 (
 )
-PiecewiseGammaDesc
+TransferFunctionDesc
 :
 :
 Srgb
@@ -6744,7 +6744,7 @@ Chromaticities
 DisplayP3
 (
 )
-PiecewiseGammaDesc
+TransferFunctionDesc
 :
 :
 DisplayP3

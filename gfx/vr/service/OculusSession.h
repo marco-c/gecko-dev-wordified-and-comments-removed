@@ -7,6 +7,13 @@ GFX_VR_SERVICE_OCULUSSESSION_H
 #
 include
 "
+ShaderDefinitionsD3D11
+.
+h
+"
+#
+include
+"
 VRSession
 .
 h
@@ -58,13 +65,6 @@ h
 include
 "
 prlink
-.
-h
-"
-#
-include
-"
-ShaderDefinitionsD3D11
 .
 h
 "

@@ -22,7 +22,7 @@ mozilla
 /
 layers
 /
-PAPZChild
+APZTaskRunnable
 .
 h
 "
@@ -33,7 +33,7 @@ mozilla
 /
 layers
 /
-APZTaskRunnable
+PAPZChild
 .
 h
 "
@@ -55,6 +55,12 @@ PAPZChild
 {
 public
 :
+NS_INLINE_DECL_THREADSAFE_REFCOUNTING
+(
+APZChild
+final
+)
+;
 using
 APZStateChange
 =
@@ -68,12 +74,6 @@ RefPtr
 GeckoContentController
 >
 aController
-)
-;
-virtual
-~
-APZChild
-(
 )
 ;
 mozilla
@@ -298,6 +298,12 @@ RecvDestroy
 ;
 private
 :
+virtual
+~
+APZChild
+(
+)
+;
 void
 EnsureAPZTaskRunnable
 (

@@ -8,7 +8,7 @@ h
 #
 include
 "
-nsString
+ThebesRLBox
 .
 h
 "
@@ -90,7 +90,7 @@ h
 #
 include
 "
-ThebesRLBox
+nsString
 .
 h
 "

@@ -27,6 +27,13 @@ type_traits
 #
 include
 "
+Types
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Assertions
@@ -50,13 +57,6 @@ mozilla
 gfx
 /
 ScaleFactors2D
-.
-h
-"
-#
-include
-"
-Types
 .
 h
 "

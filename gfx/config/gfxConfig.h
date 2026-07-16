@@ -12,14 +12,14 @@ functional
 #
 include
 "
-gfxFeature
+gfxFallback
 .
 h
 "
 #
 include
 "
-gfxFallback
+gfxFeature
 .
 h
 "

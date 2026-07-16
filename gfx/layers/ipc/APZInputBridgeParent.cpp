@@ -12,6 +12,13 @@ h
 #
 include
 "
+InputData
+.
+h
+"
+#
+include
+"
 mozilla
 /
 ipc
@@ -50,13 +57,6 @@ mozilla
 layers
 /
 IAPZCTreeManager
-.
-h
-"
-#
-include
-"
-InputData
 .
 h
 "

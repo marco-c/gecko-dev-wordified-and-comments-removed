@@ -9,9 +9,7 @@ include
 "
 mozilla
 /
-layers
-/
-LayersTypes
+VsyncDispatcher
 .
 h
 "
@@ -20,7 +18,9 @@ include
 "
 mozilla
 /
-VsyncDispatcher
+layers
+/
+LayersTypes
 .
 h
 "

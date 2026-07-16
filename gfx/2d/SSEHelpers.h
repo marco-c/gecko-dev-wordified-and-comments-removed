@@ -7,14 +7,14 @@ GFX_2D_SSEHELPERS_H_
 #
 include
 <
-xmmintrin
+emmintrin
 .
 h
 >
 #
 include
 <
-emmintrin
+xmmintrin
 .
 h
 >

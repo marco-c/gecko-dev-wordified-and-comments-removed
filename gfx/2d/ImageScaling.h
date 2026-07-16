@@ -7,14 +7,14 @@ MOZILLA_GFX_IMAGESCALING_H
 #
 include
 "
-Types
+Point
 .
 h
 "
 #
 include
 "
-Point
+Types
 .
 h
 "

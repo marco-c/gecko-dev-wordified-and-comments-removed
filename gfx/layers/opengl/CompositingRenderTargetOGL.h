@@ -76,7 +76,7 @@ mozilla
 /
 layers
 /
-TextureHost
+CompositorOGL
 .
 h
 "
@@ -87,7 +87,7 @@ mozilla
 /
 layers
 /
-CompositorOGL
+TextureHost
 .
 h
 "

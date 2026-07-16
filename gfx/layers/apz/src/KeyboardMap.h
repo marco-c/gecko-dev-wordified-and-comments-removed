@@ -21,7 +21,7 @@ h
 #
 include
 "
-nsTArray
+KeyboardScrollAction
 .
 h
 "
@@ -37,7 +37,7 @@ h
 #
 include
 "
-KeyboardScrollAction
+nsTArray
 .
 h
 "

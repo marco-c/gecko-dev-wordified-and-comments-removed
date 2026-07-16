@@ -58,7 +58,7 @@ include
 "
 mozilla
 /
-GfxMessageUtils
+Assertions
 .
 h
 "
@@ -67,7 +67,7 @@ include
 "
 mozilla
 /
-Assertions
+GfxMessageUtils
 .
 h
 "

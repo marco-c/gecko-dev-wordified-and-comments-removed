@@ -3,7 +3,9 @@ include
 "
 mozilla
 /
-CheckedInt
+layers
+/
+NativeLayerRootRemoteMacParent
 .
 h
 "
@@ -12,9 +14,7 @@ include
 "
 mozilla
 /
-layers
-/
-NativeLayerRootRemoteMacParent
+CheckedInt
 .
 h
 "

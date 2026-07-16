@@ -6,6 +6,11 @@ define
 MOZILLA_GFX_FILTERNODESOFTWARE_H_
 #
 include
+<
+vector
+>
+#
+include
 "
 Filters
 .
@@ -20,11 +25,6 @@ Mutex
 .
 h
 "
-#
-include
-<
-vector
->
 namespace
 mozilla
 {

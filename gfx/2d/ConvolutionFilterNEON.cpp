@@ -1,5 +1,12 @@
 #
 include
+<
+arm_neon
+.
+h
+>
+#
+include
 "
 SkConvolver
 .
@@ -14,13 +21,6 @@ Attributes
 .
 h
 "
-#
-include
-<
-arm_neon
-.
-h
->
 namespace
 skia
 {

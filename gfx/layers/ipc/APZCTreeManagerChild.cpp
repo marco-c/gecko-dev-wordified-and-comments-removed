@@ -56,7 +56,7 @@ mozilla
 /
 layers
 /
-GeckoContentController
+DoubleTapToZoom
 .
 h
 "
@@ -67,7 +67,7 @@ mozilla
 /
 layers
 /
-DoubleTapToZoom
+GeckoContentController
 .
 h
 "

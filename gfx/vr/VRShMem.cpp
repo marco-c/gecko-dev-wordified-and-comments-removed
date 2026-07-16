@@ -40,6 +40,13 @@ XP_MACOSX
 #
 include
 <
+fcntl
+.
+h
+>
+#
+include
+<
 sys
 /
 mman
@@ -52,13 +59,6 @@ include
 sys
 /
 stat
-.
-h
->
-#
-include
-<
-fcntl
 .
 h
 >
