@@ -1356,6 +1356,17 @@ jp
 js
 "
 "
+bug1977440
+-
+firesmoke
+.
+ca
+-
+fix_image_flickering
+.
+css
+"
+"
 bug1978572
 -
 store
