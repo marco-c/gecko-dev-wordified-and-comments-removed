@@ -211,6 +211,12 @@ aDebuggerParentEp
 )
 ;
 static
+bool
+IsInitialized
+(
+)
+;
+static
 already_AddRefed
 <
 RemoteWorkerServiceKeepAlive

@@ -11012,6 +11012,13 @@ release
 (
 )
 ;
+mWorkerPrivate
+-
+>
+BindRemoteWorkerDebuggerChild
+(
+)
+;
 runLoopRan
 =
 true
