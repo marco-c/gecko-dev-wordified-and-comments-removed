@@ -264,7 +264,9 @@ function
 )
 {
 return
-UrlbarUtils
+lazy
+.
+UrlbarShared
 .
 getLogger
 (
