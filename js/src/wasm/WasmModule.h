@@ -517,6 +517,11 @@ tier1CodeMemoryUsed
 )
 ;
 }
+[
+[
+nodiscard
+]
+]
 bool
 instantiate
 (

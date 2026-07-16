@@ -21198,6 +21198,11 @@ EnsureBuiltinThunksInitialized
 )
 )
 {
+ReportOutOfMemory
+(
+cx
+)
+;
 return
 false
 ;
