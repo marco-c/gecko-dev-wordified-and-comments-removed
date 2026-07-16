@@ -178,6 +178,11 @@ test_context_url_page2
 .
 html
 "
+"
+test_context_url_injection_page
+.
+html
+"
 ]
 [
 "
