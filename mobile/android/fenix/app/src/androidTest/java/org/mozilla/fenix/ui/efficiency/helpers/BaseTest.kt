@@ -538,13 +538,6 @@ isRecentlyVisitedFeatureEnabled
 Boolean
 =
 true
-private
-val
-isUnifiedTrustPanelEnabled
-:
-Boolean
-=
-true
 )
 {
 get
@@ -778,9 +771,6 @@ isPocketEnabled
 isRecentlyVisitedFeatureEnabled
 =
 isRecentlyVisitedFeatureEnabled
-isUnifiedTrustPanelEnabled
-=
-isUnifiedTrustPanelEnabled
 )
 )
 {

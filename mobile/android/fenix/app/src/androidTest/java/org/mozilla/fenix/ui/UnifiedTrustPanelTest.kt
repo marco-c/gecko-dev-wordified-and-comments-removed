@@ -326,9 +326,6 @@ AndroidComposeTestRuleV2
 (
 HomeActivityIntentTestRule
 (
-isUnifiedTrustPanelEnabled
-=
-true
 isPWAsPromptEnabled
 =
 false
