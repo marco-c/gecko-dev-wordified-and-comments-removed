@@ -68,15 +68,6 @@ taskgraph
 )
 :
     
-from
-taskgraph
-.
-util
-.
-readonlydict
-import
-ReadOnlyDict
-    
 class
 TGDumper
 (
@@ -96,35 +87,6 @@ data
             
 return
 True
-        
-def
-represent_ro_dict
-(
-self
-data
-)
-:
-            
-return
-self
-.
-represent_dict
-(
-dict
-(
-data
-)
-)
-    
-TGDumper
-.
-add_representer
-(
-ReadOnlyDict
-TGDumper
-.
-represent_ro_dict
-)
     
 return
 yaml
