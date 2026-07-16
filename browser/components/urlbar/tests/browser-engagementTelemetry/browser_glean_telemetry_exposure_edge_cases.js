@@ -987,6 +987,7 @@ blur
 (
 )
 ;
+await
 assertExposureTelemetry
 (
 [
@@ -1521,6 +1522,7 @@ blur
 (
 )
 ;
+await
 assertExposureTelemetry
 (
 [
@@ -2105,6 +2107,7 @@ blur
 (
 )
 ;
+await
 assertExposureTelemetry
 (
 [
@@ -3155,6 +3158,7 @@ blur
 (
 )
 ;
+await
 assertExposureTelemetry
 (
 [
@@ -4424,6 +4428,7 @@ blur
 (
 )
 ;
+await
 assertExposureTelemetry
 (
 [
