@@ -305,7 +305,7 @@ mozVerifyAnyContainsText
 (
 BookmarkSearchSelectors
 .
-AWESOMEBAR_SUGGESTION
+SEARCH_ITEM
 url
 )
 }
@@ -334,7 +334,7 @@ mozVerifyNoneContainText
 (
 BookmarkSearchSelectors
 .
-AWESOMEBAR_SUGGESTION
+SEARCH_ITEM
 url
 )
 }
