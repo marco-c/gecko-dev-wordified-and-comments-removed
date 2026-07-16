@@ -126,6 +126,9 @@ from
 .
 .
 /
+.
+.
+/
 actors
 /
 UrlbarChild
