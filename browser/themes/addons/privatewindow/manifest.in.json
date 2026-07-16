@@ -427,8 +427,13 @@ toolbar_field_border_focus
 "
 :
 "
-#
-ffffff
+{
+color
+.
+violet
+.
+30
+}
 "
 "
 toolbar_field
