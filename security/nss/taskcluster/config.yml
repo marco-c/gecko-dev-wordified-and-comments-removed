@@ -393,6 +393,9 @@ Legacy
 DBM
 )
 database
+Gtest
+:
+Gtests
 FIPS
 :
 FIPS

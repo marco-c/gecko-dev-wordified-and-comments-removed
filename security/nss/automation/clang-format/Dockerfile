@@ -60,6 +60,8 @@ locales
 \
 mercurial
 \
+git
+\
 &
 &
 rm

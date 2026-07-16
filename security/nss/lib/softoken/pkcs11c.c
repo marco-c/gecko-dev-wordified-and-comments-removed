@@ -6299,6 +6299,15 @@ pMechanism
 mechanism
 =
 =
+CKM_AES_CBC_PAD
+|
+|
+pMechanism
+-
+>
+mechanism
+=
+=
 CKM_AES_CTS
 )
 &

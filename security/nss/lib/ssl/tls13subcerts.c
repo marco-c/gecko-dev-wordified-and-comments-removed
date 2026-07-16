@@ -1634,6 +1634,14 @@ found
 =
 PR_FALSE
 ;
+if
+(
+cert
+-
+>
+extensions
+)
+{
 for
 (
 i
@@ -1689,6 +1697,7 @@ PR_TRUE
 ;
 break
 ;
+}
 }
 }
 if

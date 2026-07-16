@@ -304,6 +304,11 @@ pk11_rsapss_unittest
 cc
 '
 '
+pk11_savecontext_unittest
+.
+cc
+'
+'
 pk11_seed_cbc_unittest
 .
 cc
