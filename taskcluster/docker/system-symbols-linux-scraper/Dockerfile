@@ -124,11 +124,12 @@ bin
 python3
 -
 pip
+rpm2cpio
 squashfs
 -
 tools
-unzip
 \
+unzip
 wget
 xz
 -
