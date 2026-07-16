@@ -450,8 +450,15 @@ KEY_Enter
 win
 )
 ;
-is
+await
+TestUtils
+.
+waitForCondition
 (
+(
+)
+=
+>
 win
 .
 gBrowser
@@ -459,6 +466,8 @@ gBrowser
 tabs
 .
 length
+=
+=
 1
 "
 We
