@@ -55,17 +55,6 @@ enabled
 =
 true
 "
-"
-browser
-.
-ipProtection
-.
-fxa
-.
-useActivateFlow
-=
-false
-"
 ]
 [
 "

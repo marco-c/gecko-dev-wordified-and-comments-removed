@@ -118,7 +118,7 @@ js
 ]
 [
 "
-test_IPPFxaAuthProvider
+test_IPPFxaActivateAuthProvider
 .
 js
 "
