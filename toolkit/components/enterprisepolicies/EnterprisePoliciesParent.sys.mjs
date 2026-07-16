@@ -1532,6 +1532,9 @@ parametersAreValid
 parsedValue
 :
 parsedParameters
+error
+:
+validationError
 }
 =
 lazy
@@ -1568,7 +1571,12 @@ for
 {
 policyName
 }
+:
+{
+validationError
 .
+message
+}
 )
 ;
 continue
