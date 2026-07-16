@@ -915,7 +915,7 @@ iconsR
 .
 drawable
 .
-mozac_ic_arrow_trending_up_24
+mozac_ic_arrow_trending_24
 )
 is
 ChangePercent
