@@ -5112,9 +5112,6 @@ true
 paired_with_perspective
 :
 false
-is_offset_only
-:
-false
 }
 origin
 .
@@ -7687,6 +7684,10 @@ mut
 self
 .
 interners
+P
+:
+:
+SNAP_CLIPS
 )
 ;
 self
@@ -10186,9 +10187,6 @@ true
 paired_with_perspective
 :
 false
-is_offset_only
-:
-false
 }
 LayoutVector2D
 :
@@ -11518,6 +11516,10 @@ mut
 self
 .
 interners
+P
+:
+:
+SNAP_CLIPS
 )
 ;
 let
@@ -11632,6 +11634,10 @@ mut
 self
 .
 interners
+P
+:
+:
+SNAP_CLIPS
 )
 ;
 self
@@ -13506,6 +13512,7 @@ mut
 self
 .
 interners
+true
 )
 ;
 let
