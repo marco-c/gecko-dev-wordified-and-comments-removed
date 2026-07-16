@@ -13,7 +13,7 @@ version
 .
 9
 .
-3
+11
 "
 authors
 =
@@ -37,6 +37,10 @@ gmail
 .
 com
 >
+"
+"
+The
+Contributors
 "
 ]
 license
@@ -116,7 +120,16 @@ file
 edition
 =
 "
-2018
+2021
+"
+rust
+-
+version
+=
+"
+1
+.
+65
 "
 [
 dependencies
@@ -154,7 +167,7 @@ libc
 .
 2
 .
-143
+151
 "
 [
 dev

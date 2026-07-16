@@ -1,4 +1,15 @@
 #
+!
+[
+allow
+(
+clippy
+:
+:
+let_underscore_untyped
+)
+]
+#
 [
 rustversion
 :
@@ -11,6 +22,11 @@ nightly
 #
 [
 ignore
+=
+"
+requires
+nightly
+"
 ]
 #
 [

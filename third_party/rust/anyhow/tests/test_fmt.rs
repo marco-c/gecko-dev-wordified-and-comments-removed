@@ -432,17 +432,6 @@ unwrap_err
 [
 test
 ]
-#
-[
-cfg_attr
-(
-not
-(
-backtrace
-)
-ignore
-)
-]
 fn
 test_debug
 (

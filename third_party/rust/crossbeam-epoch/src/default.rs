@@ -357,6 +357,9 @@ pin
 ;
 }
 }
+std
+:
+:
 thread_local
 !
 {
@@ -365,7 +368,10 @@ FOO
 :
 Foo
 =
+const
+{
 Foo
+}
 ;
 }
 thread
