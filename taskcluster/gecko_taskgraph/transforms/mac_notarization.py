@@ -914,12 +914,5 @@ job
 name
 "
 :
-f
-"
-{
 platform
-}
--
-notarized
-"
 }
