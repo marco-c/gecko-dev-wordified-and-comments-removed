@@ -4251,7 +4251,7 @@ ComputedStyle
 ;
 nsContainerFrame
 *
-ConstructFrameWithAnonymousChild
+ConstructSVGFrameWithAnonymousChild
 (
 nsFrameConstructorState
 &
@@ -4269,9 +4269,6 @@ ContainerFrameCreationFunc
 aConstructor
 ContainerFrameCreationFunc
 aInnerConstructor
-mozilla
-:
-:
 PseudoStyleType
 aInnerPseudo
 bool

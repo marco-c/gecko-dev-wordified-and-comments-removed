@@ -21128,7 +21128,7 @@ nsContainerFrame
 nsCSSFrameConstructor
 :
 :
-ConstructFrameWithAnonymousChild
+ConstructSVGFrameWithAnonymousChild
 (
 nsFrameConstructorState
 &
@@ -21335,7 +21335,7 @@ aState
 content
 computedStyle
 innerFrame
-true
+false
 childList
 false
 )
@@ -21389,7 +21389,7 @@ aFrameList
 )
 {
 return
-ConstructFrameWithAnonymousChild
+ConstructSVGFrameWithAnonymousChild
 (
 aState
 aItem
@@ -21431,7 +21431,7 @@ aFrameList
 )
 {
 return
-ConstructFrameWithAnonymousChild
+ConstructSVGFrameWithAnonymousChild
 (
 aState
 aItem
@@ -23157,17 +23157,12 @@ IsSVGForeignObjectFrame
 )
 &
 &
-aStyle
+!
+aElement
 .
-GetPseudoType
+IsRootOfNativeAnonymousSubtree
 (
 )
-!
-=
-PseudoStyleType
-:
-:
-Backdrop
 )
 {
 return
