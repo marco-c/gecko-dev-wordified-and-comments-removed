@@ -762,6 +762,10 @@ timeToLive
 continue
 ;
 }
+profiler_wait_for_scheduled_dump
+(
+)
+;
 NoteIntentionalCrash
 (
 XRE_GetProcessTypeString
