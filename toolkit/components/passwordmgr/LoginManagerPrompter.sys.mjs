@@ -3522,6 +3522,9 @@ now
 )
 +
 timeoutMs
+autofocus
+:
+true
 persistWhileVisible
 :
 true
