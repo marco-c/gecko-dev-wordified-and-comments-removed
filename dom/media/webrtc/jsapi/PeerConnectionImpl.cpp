@@ -12799,6 +12799,13 @@ RTCSignalingState
 :
 Closed
 ;
+mIceConnectionState
+=
+RTCIceConnectionState
+:
+:
+Closed
+;
 mConnectionState
 =
 RTCPeerConnectionState
