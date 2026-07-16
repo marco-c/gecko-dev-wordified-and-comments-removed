@@ -1,3 +1,10 @@
+test
+(
+(
+)
+=
+>
+{
 const
 early_hints_policy
 =
@@ -12,12 +19,12 @@ final_policy
 allowed
 "
 ;
-fetch_tests_from_window
-(
 navigateToContentSecurityPolicyBasicTest
 (
 early_hints_policy
 final_policy
 )
+;
+}
 )
 ;

@@ -1,3 +1,10 @@
+test
+(
+(
+)
+=
+>
+{
 const
 preloads
 =
@@ -53,8 +60,6 @@ fetchpriority
 }
 )
 ;
-fetch_tests_from_window
-(
 navigateToTestWithEarlyHints
 (
 "
@@ -68,5 +73,7 @@ html
 "
 preloads
 )
+;
+}
 )
 ;

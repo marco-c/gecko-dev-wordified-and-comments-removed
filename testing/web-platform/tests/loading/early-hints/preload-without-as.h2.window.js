@@ -1,3 +1,10 @@
+test
+(
+(
+)
+=
+>
+{
 const
 params
 =
@@ -88,9 +95,11 @@ toString
 (
 )
 ;
-fetch_tests_from_window
-(
-openWindow
+window
+.
+location
+.
+replace
 (
 new
 URL
@@ -101,5 +110,7 @@ window
 location
 )
 )
+;
+}
 )
 ;

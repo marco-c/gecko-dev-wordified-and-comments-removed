@@ -1,5 +1,9 @@
-fetch_tests_from_window
+test
 (
+(
+)
+=
+>
 testReferrerPolicy
 (
 "
