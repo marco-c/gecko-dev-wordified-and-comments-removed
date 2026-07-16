@@ -396,15 +396,12 @@ markerData
 markerStringIndex
 &
 &
-stringTable
-[
 markerData
 [
 5
 ]
 .
 name
-]
 =
 =
 expectedName
