@@ -82,6 +82,9 @@ DIRS
 "
 memories
 "
+"
+agents
+"
 ]
 BROWSER_CHROME_MANIFESTS
 +
