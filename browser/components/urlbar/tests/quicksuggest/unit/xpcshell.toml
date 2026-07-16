@@ -106,6 +106,13 @@ js
 ]
 [
 "
+test_pickedSearchSuggestion
+.
+js
+"
+]
+[
+"
 test_quicksuggest
 .
 js

@@ -288,6 +288,10 @@ queryContext
 if
 (
 !
+searchString
+|
+|
+!
 queryContext
 .
 allowRemoteResults

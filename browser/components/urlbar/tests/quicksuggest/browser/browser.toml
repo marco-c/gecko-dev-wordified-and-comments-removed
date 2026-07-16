@@ -115,6 +115,13 @@ true
 ]
 [
 "
+browser_pickedSearchSuggestion
+.
+js
+"
+]
+[
+"
 browser_quicksuggest
 .
 js
