@@ -396,6 +396,8 @@ RetrievalContextWayland
 (
 bool
 aIsDragContext
+=
+false
 )
 ;
 virtual
