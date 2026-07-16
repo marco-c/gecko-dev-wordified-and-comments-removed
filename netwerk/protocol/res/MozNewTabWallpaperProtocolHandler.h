@@ -107,6 +107,9 @@ NewStream
 nsIURI
 *
 aChildURI
+nsILoadInfo
+*
+aLoadInfo
 bool
 *
 aTerminateSender
