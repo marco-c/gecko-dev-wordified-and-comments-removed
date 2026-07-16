@@ -396,7 +396,7 @@ build
 /
 artifact_builds
 .
-rst
+md
 [
 mozconfig
 ]

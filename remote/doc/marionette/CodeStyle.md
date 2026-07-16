@@ -1880,7 +1880,7 @@ lint
 /
 mozlint
 .
-rst
+md
 [
 eslint
 ]
@@ -1896,7 +1896,7 @@ linters
 /
 eslint
 .
-rst
+md
 [
 ruff
 ]
@@ -1912,7 +1912,7 @@ linters
 /
 ruff
 .
-rst
+md
 [
 enable
 automatic
@@ -1928,7 +1928,7 @@ lint
 /
 usage
 .
-rst
+md
 #
 using
 -
