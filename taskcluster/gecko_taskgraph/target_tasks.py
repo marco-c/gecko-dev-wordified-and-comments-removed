@@ -6193,6 +6193,13 @@ parameters
 )
 :
         
+filter_for_target_project
+=
+_filter_by_release_project
+(
+parameters
+)
+        
 return
 all
 (
@@ -6204,10 +6211,9 @@ task
 platforms
 )
             
-filter_for_project
+filter_for_target_project
 (
 task
-parameters
 )
             
 task
