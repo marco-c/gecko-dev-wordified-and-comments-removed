@@ -979,6 +979,9 @@ ENABLE_WASM_COMPONENTS
 case
 JSProto_WasmComponent
 :
+case
+JSProto_WasmComponentInstance
+:
 #
 endif
 case

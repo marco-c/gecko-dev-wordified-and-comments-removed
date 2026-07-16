@@ -195,6 +195,9 @@ ENABLE_WASM_COMPONENTS
 class
 Component
 ;
+class
+ComponentInstance
+;
 #
 endif
 class

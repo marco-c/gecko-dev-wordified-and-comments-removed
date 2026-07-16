@@ -881,6 +881,16 @@ WasmComponent
 )
 )
 \
+REAL_IF_WASM_COMPONENTS
+(
+WasmComponentInstance
+\
+OCLASP
+(
+WasmComponentInstance
+)
+)
+\
 REAL
 (
 WasmInstance
