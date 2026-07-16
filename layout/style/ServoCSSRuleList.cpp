@@ -1215,7 +1215,7 @@ allowImportRules
 mStyleSheet
 -
 >
-SelfOrAncestorIsConstructed
+IsConstructed
 (
 )
 ?
