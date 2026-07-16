@@ -2872,6 +2872,12 @@ GetNimbusFeature
 }
 )
 {
+SuppressLint
+(
+"
+ThreadConstraint
+"
+)
 Override
 public
 void
@@ -11085,6 +11091,12 @@ this
 ;
 }
 }
+SuppressLint
+(
+"
+ThreadConstraint
+"
+)
 AnyThread
 public
 void
@@ -12608,6 +12620,12 @@ null
 )
 ;
 }
+SuppressLint
+(
+"
+ThreadConstraint
+"
+)
 AnyThread
 public
 void
@@ -15192,7 +15210,7 @@ return
 mCompositorScrollDelegate
 ;
 }
-AnyThread
+UiThread
 public
 void
 setHistoryDelegate
@@ -15228,7 +15246,7 @@ getDelegate
 )
 ;
 }
-AnyThread
+UiThread
 public
 void
 setContentBlockingDelegate
@@ -15360,7 +15378,7 @@ this
 )
 ;
 }
-AnyThread
+UiThread
 public
 void
 setMediaDelegate
@@ -15396,7 +15414,7 @@ getDelegate
 )
 ;
 }
-AnyThread
+UiThread
 public
 void
 setMediaSessionDelegate
@@ -15450,7 +15468,7 @@ return
 mTranslations
 ;
 }
-AnyThread
+UiThread
 public
 void
 setTranslationsSessionDelegate
@@ -28527,7 +28545,7 @@ getDelegate
 )
 ;
 }
-AnyThread
+UiThread
 public
 void
 setPrintDelegate
@@ -28637,7 +28655,7 @@ return
 null
 ;
 }
-AnyThread
+UiThread
 public
 void
 setExperimentDelegate

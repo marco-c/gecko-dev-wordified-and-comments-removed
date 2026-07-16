@@ -11633,7 +11633,7 @@ CompositorScrollDelegate
 )
 ;
 method
-AnyThread
+UiThread
 public
 void
 setContentBlockingDelegate
@@ -11657,7 +11657,7 @@ ContentDelegate
 )
 ;
 method
-AnyThread
+UiThread
 public
 void
 setExperimentDelegate
@@ -11676,7 +11676,7 @@ boolean
 )
 ;
 method
-AnyThread
+UiThread
 public
 void
 setHistoryDelegate
@@ -11688,7 +11688,7 @@ HistoryDelegate
 )
 ;
 method
-AnyThread
+UiThread
 public
 void
 setMediaDelegate
@@ -11700,7 +11700,7 @@ MediaDelegate
 )
 ;
 method
-AnyThread
+UiThread
 public
 void
 setMediaSessionDelegate
@@ -11736,7 +11736,7 @@ PermissionDelegate
 )
 ;
 method
-AnyThread
+UiThread
 public
 void
 setPrintDelegate
@@ -11805,7 +11805,7 @@ SelectionActionDelegate
 )
 ;
 method
-AnyThread
+UiThread
 public
 void
 setTranslationsSessionDelegate

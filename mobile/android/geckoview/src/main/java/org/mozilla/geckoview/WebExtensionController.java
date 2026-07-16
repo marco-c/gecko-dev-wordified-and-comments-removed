@@ -3586,6 +3586,12 @@ return
 webExtension
 ;
 }
+SuppressLint
+(
+"
+ThreadConstraint
+"
+)
 void
 handleMessage
 (
@@ -6427,6 +6433,12 @@ response
 )
 ;
 }
+SuppressLint
+(
+"
+ThreadConstraint
+"
+)
 void
 download
 (

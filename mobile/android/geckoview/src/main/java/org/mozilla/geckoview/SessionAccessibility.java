@@ -156,6 +156,13 @@ androidx
 .
 annotation
 .
+AnyThread
+;
+import
+androidx
+.
+annotation
+.
 NonNull
 ;
 import
@@ -2027,6 +2034,7 @@ updateAccessibilitySettings
 )
 ;
 }
+AnyThread
 static
 void
 setForceEnabled

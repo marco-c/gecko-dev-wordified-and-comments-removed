@@ -8,6 +8,13 @@ geckoview
 import
 android
 .
+annotation
+.
+SuppressLint
+;
+import
+android
+.
 content
 .
 Context
@@ -1320,6 +1327,12 @@ mInputConnection
 )
 ;
 }
+SuppressLint
+(
+"
+ThreadConstraint
+"
+)
 AnyThread
 public
 synchronized
