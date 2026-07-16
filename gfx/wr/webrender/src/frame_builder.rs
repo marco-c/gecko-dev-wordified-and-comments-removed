@@ -3374,13 +3374,6 @@ scene
 prim_store
 resource_cache
 use_dual_source_blending
-use_advanced_blending
-:
-scene
-.
-config
-.
-gpu_supports_advanced_blend
 break_advanced_blend_batches
 :
 !
@@ -3513,13 +3506,6 @@ scene
 prim_store
 resource_cache
 use_dual_source_blending
-use_advanced_blending
-:
-scene
-.
-config
-.
-gpu_supports_advanced_blend
 break_advanced_blend_batches
 :
 !
