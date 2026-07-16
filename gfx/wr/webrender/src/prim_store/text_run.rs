@@ -1256,7 +1256,7 @@ Screen
 |
 transform
 .
-has_perspective_component
+has_2d_plane_perspective
 (
 )
 |
