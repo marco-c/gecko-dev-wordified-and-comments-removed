@@ -714,13 +714,12 @@ item
 icon
 =
 {
+ifDefined
+(
 item
 .
 icon
-?
-?
-"
-"
+)
 }
 ?
 checked
