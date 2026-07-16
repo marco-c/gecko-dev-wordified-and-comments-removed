@@ -3451,6 +3451,11 @@ has_color
 cairo_bool_t
 is_user
 ;
+scaled_font_glyph_index
+&
+=
+0xffffff
+;
 if
 (
 subsets
