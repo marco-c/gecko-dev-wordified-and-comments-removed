@@ -3493,12 +3493,14 @@ const
 double
 doubleMin
 =
+double
+(
 mozilla
 :
 :
 BitwiseCast
 <
-double
+float
 >
 (
 mozilla
@@ -3506,7 +3508,7 @@ mozilla
 :
 SpecificFloatingPointBits
 <
-double
+float
 0
 1
 0
@@ -3514,6 +3516,7 @@ double
 :
 :
 value
+)
 )
 ;
 bool
