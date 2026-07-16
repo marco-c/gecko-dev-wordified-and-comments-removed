@@ -297,9 +297,7 @@ directory
 should
 be
 :
->
 shell
->
 c
 :
 \
@@ -307,7 +305,6 @@ mozilla
 -
 build
 \
->
 3
 .
 Before
