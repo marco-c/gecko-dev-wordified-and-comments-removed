@@ -274,6 +274,9 @@ VTEncodeInfoFlags
 aFlags
 CMSampleBufferRef
 aBuffer
+void
+*
+aSourceFrameRefcon
 )
 ;
 private
@@ -342,6 +345,10 @@ MediaRawData
 aOutput
 EncodeResult
 aResult
+bool
+aWasForcedKeyframe
+=
+false
 )
 ;
 void
