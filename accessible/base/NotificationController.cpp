@@ -5444,12 +5444,6 @@ DocumentNode
 GetBrowsingContext
 (
 )
-childDoc
--
->
-IsPrintDoc
-(
-)
 )
 ;
 }

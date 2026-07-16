@@ -2248,9 +2248,6 @@ uint64_t
 const
 MaybeDiscardedBrowsingContext
 &
-const
-bool
-&
 )
 ;
 bool

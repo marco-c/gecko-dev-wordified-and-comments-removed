@@ -8548,9 +8548,6 @@ mDocumentNode
 GetBrowsingContext
 (
 )
-IsPrintDoc
-(
-)
 )
 )
 ;
@@ -16505,12 +16502,6 @@ DocumentNode
 -
 >
 GetBrowsingContext
-(
-)
-aDocument
--
->
-IsPrintDoc
 (
 )
 )

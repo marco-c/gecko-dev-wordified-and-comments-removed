@@ -3147,17 +3147,6 @@ AppendElement
 aDoc
 )
 ;
-if
-(
-!
-aDoc
--
->
-IsPrintDoc
-(
-)
-)
-{
 ProxyCreated
 (
 aDoc
@@ -3211,7 +3200,6 @@ FireDelayedEvent
 reorder
 )
 ;
-}
 }
 }
 DocAccessible
