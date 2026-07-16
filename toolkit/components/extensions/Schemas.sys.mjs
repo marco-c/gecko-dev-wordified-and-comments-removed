@@ -6239,6 +6239,8 @@ returns
 import
 (
 "
+.
+/
 ExtensionCommon
 .
 sys

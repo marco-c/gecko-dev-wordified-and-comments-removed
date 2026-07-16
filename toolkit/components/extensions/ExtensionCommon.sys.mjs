@@ -8424,6 +8424,8 @@ param
 import
 (
 "
+.
+/
 Schemas
 .
 sys

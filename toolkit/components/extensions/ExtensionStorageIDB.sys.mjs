@@ -5020,6 +5020,8 @@ param
 import
 (
 "
+.
+/
 ExtensionPageChild
 .
 sys
@@ -6066,6 +6068,8 @@ typedef
 import
 (
 "
+.
+/
 ExtensionUtils
 .
 sys

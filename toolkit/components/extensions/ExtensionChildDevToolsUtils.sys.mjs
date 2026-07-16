@@ -520,6 +520,8 @@ param
 import
 (
 "
+.
+/
 ExtensionPageChild
 .
 sys

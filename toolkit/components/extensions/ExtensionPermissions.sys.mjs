@@ -2850,6 +2850,8 @@ typedef
 import
 (
 "
+.
+/
 ExtensionCommon
 .
 sys
