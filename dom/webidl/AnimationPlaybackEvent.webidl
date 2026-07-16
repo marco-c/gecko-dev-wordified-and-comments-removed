@@ -142,7 +142,7 @@ currentTime
 ;
 readonly
 attribute
-double
+CSSNumberish
 ?
 timelineTime
 ;
@@ -159,7 +159,7 @@ currentTime
 =
 null
 ;
-double
+CSSNumberish
 ?
 timelineTime
 =
