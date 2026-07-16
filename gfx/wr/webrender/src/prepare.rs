@@ -5331,6 +5331,17 @@ Filter
 Filter
 :
 :
+Identity
+)
+|
+PictureCompositeMode
+:
+:
+Filter
+(
+Filter
+:
+:
 Blur
 {
 .
