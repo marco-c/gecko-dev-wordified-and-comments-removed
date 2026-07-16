@@ -599,6 +599,7 @@ finish
 )
 ;
 }
+async
 function
 new_scroller
 (
@@ -660,6 +661,11 @@ display
 appendChild
 (
 gScroller
+)
+;
+await
+waitForPaintsFlushed
+(
 )
 ;
 return
@@ -935,6 +941,7 @@ function
 (
 )
 {
+await
 new_scroller
 (
 )
@@ -1046,6 +1053,7 @@ function
 let
 scroller
 =
+await
 new_scroller
 (
 )
@@ -1167,6 +1175,7 @@ function
 let
 scroller
 =
+await
 new_scroller
 (
 )
@@ -1609,6 +1618,7 @@ function
 let
 scroller
 =
+await
 new_scroller
 (
 )
@@ -1961,6 +1971,7 @@ function
 let
 scroller
 =
+await
 new_scroller
 (
 )
