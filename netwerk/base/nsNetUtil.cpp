@@ -2236,6 +2236,8 @@ nsIIOService
 aIoService
 uint32_t
 aSandboxFlags
+uint64_t
+aAssociatedBrowsingContextID
 )
 {
 AssertLoadingPrincipalAndClientInfoMatch
@@ -2277,6 +2279,7 @@ aCallbacks
 aLoadFlags
 aIoService
 aSandboxFlags
+aAssociatedBrowsingContextID
 )
 ;
 }
@@ -2336,6 +2339,8 @@ nsIIOService
 aIoService
 uint32_t
 aSandboxFlags
+uint64_t
+aAssociatedBrowsingContextID
 )
 {
 NS_ENSURE_ARG_POINTER
@@ -2414,6 +2419,7 @@ aController
 aSecurityFlags
 aContentPolicyType
 aSandboxFlags
+aAssociatedBrowsingContextID
 getter_AddRefs
 (
 channel

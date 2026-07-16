@@ -654,6 +654,10 @@ uint32_t
 aSandboxFlags
 =
 0
+uint64_t
+aAssociatedBrowsingContextID
+=
+0
 )
 ;
 nsresult
@@ -1105,6 +1109,10 @@ aIoService
 nullptr
 uint32_t
 aSandboxFlags
+=
+0
+uint64_t
+aAssociatedBrowsingContextID
 =
 0
 )

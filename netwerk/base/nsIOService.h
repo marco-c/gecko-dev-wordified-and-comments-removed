@@ -758,6 +758,8 @@ nsContentPolicyType
 aContentPolicyType
 uint32_t
 aSandboxFlags
+uint64_t
+aAssociatedBrowsingContextID
 nsIChannel
 *
 *
