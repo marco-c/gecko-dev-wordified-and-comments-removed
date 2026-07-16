@@ -17,6 +17,12 @@ tasks
 import
 logging
 from
+mozilla_taskgraph
+.
+worker_types
+import
+get_release_config
+from
 taskgraph
 .
 transforms
@@ -65,14 +71,6 @@ check_if_partners_enabled
     
 get_partners_to_be_published
 )
-from
-gecko_taskgraph
-.
-util
-.
-scriptworker
-import
-get_release_config
 logger
 =
 logging

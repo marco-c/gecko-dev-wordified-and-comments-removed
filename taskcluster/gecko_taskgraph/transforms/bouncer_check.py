@@ -7,6 +7,12 @@ quote
 as
 shell_quote
 from
+mozilla_taskgraph
+.
+worker_types
+import
+get_release_config
+from
 taskgraph
 .
 transforms
@@ -20,14 +26,6 @@ taskgraph
 util
 import
 json
-from
-gecko_taskgraph
-.
-util
-.
-scriptworker
-import
-get_release_config
 logger
 =
 logging

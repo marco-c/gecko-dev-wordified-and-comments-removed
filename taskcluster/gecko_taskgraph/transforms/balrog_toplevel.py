@@ -15,6 +15,12 @@ description
 "
 "
 from
+mozilla_taskgraph
+.
+worker_types
+import
+get_release_config
+from
 mozilla_version
 .
 gecko
@@ -42,14 +48,6 @@ util
 yaml
 import
 load_yaml
-from
-gecko_taskgraph
-.
-util
-.
-scriptworker
-import
-get_release_config
 transforms
 =
 TransformSequence
