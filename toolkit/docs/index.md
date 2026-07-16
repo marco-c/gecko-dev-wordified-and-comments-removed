@@ -177,13 +177,6 @@ spellcheck
 index
 mozapps
 /
-dmgInstallHelper
-/
-docs
-/
-index
-mozapps
-/
 update
 /
 docs
