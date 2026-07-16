@@ -200,6 +200,13 @@ js
 ]
 [
 "
+browser_bug1850539
+.
+js
+"
+]
+[
+"
 browser_css_registered_property
 .
 js
