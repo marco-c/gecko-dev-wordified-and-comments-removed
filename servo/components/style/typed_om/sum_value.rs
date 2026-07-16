@@ -653,7 +653,10 @@ default
 for
 item
 in
+&
 math_product
+.
+values
 {
 let
 new_values
