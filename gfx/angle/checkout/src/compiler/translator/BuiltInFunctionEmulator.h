@@ -54,11 +54,6 @@ TIntermNode
 root
 )
 ;
-void
-cleanup
-(
-)
-;
 static
 void
 WriteEmulatedFunctionName

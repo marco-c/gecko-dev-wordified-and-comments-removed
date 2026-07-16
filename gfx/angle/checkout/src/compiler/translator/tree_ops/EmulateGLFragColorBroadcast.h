@@ -49,15 +49,8 @@ TIntermBlock
 root
 int
 maxDrawBuffers
-std
-:
-:
-vector
-<
-ShaderVariable
->
-*
-outputVariables
+int
+maxDualSourceDrawBuffers
 TSymbolTable
 *
 symbolTable

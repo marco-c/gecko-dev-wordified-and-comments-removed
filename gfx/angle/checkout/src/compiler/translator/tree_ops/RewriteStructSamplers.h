@@ -25,11 +25,6 @@ TIntermBlock
 class
 TSymbolTable
 ;
-[
-[
-nodiscard
-]
-]
 bool
 RewriteStructSamplers
 (

@@ -111,6 +111,8 @@ InterfaceBlock
 >
 *
 shaderStorageBlocks
+char
+userVariablePrefix
 ShHashFunction64
 hashFunction
 TSymbolTable
@@ -122,12 +124,8 @@ const
 TExtensionBehavior
 &
 extensionBehavior
-const
-ShBuiltInResources
-&
-resources
-int
-tessControlShaderOutputVertices
+bool
+transformFloatUniformToFP16
 )
 ;
 }
