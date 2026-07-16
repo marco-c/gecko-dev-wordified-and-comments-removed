@@ -2528,6 +2528,10 @@ Length
 )
 )
 ;
+mAudioInterruptedByPlatform
+=
+suspend
+;
 for
 (
 auto
