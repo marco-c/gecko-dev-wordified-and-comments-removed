@@ -5054,8 +5054,6 @@ tab
 -
 group
 -
-color
--
 {
 group
 .
@@ -5088,8 +5086,6 @@ var
 tab
 -
 group
--
-color
 -
 {
 group
@@ -5125,8 +5121,6 @@ var
 tab
 -
 group
--
-color
 -
 {
 group

@@ -1731,8 +1731,6 @@ tab
 -
 group
 -
-color
--
 blue
 "
 )
@@ -1778,8 +1776,6 @@ includes
 tab
 -
 group
--
-color
 -
 blue
 -
@@ -1893,8 +1889,6 @@ tab
 -
 group
 -
-color
--
 red
 "
 )
@@ -1940,8 +1934,6 @@ includes
 tab
 -
 group
--
-color
 -
 red
 -
@@ -4327,8 +4319,6 @@ tab
 -
 group
 -
-color
--
 blue
 "
 )
@@ -4373,8 +4363,6 @@ includes
 tab
 -
 group
--
-color
 -
 blue
 -
