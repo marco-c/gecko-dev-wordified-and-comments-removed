@@ -7565,6 +7565,14 @@ settings
 .
 toolbarExpandedShortcutKey
 )
+toolbarTabStripShortcut
+.
+set
+(
+settings
+.
+toolbarTabStripShortcutKey
+)
 enhancedTrackingProtection
 .
 set

@@ -7756,7 +7756,7 @@ FirefoxTheme
 {
 TabStrip
 (
-showActionButtons
+showTabCounterButton
 =
 false
 onAddTabClick

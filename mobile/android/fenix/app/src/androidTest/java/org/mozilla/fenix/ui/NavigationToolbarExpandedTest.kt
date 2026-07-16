@@ -2848,9 +2848,8 @@ verifyTheForwardButton
 verifyTheRefreshButton
 (
 )
-verifyTheNewTabButton
+verifyTheTabStripAddTabButton
 (
-false
 )
 verifyTheTabCounter
 (

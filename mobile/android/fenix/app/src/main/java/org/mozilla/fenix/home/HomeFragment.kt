@@ -4679,7 +4679,7 @@ TabStrip
 isSelectDisabled
 =
 isSelectDisabled
-showActionButtons
+showTabCounterButton
 =
 false
 tabStripColors
