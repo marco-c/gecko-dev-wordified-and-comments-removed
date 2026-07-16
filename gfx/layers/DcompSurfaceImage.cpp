@@ -1013,9 +1013,11 @@ BackendNativeTexturePolicy
 (
 aResources
 .
-GetBackendType
+GetCapabilities
 (
 )
+.
+mBackendType
 mSize
 )
 ;
