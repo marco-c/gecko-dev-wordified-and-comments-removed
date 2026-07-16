@@ -12312,7 +12312,7 @@ SetChannelBlockedByOpaqueResponse
 ;
 CancelWithReason
 (
-NS_BINDING_ABORTED
+NS_ERROR_DOM_NETWORK_ERR
 "
 OpaqueResponseBlocker
 :
