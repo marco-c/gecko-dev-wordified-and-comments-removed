@@ -3,6 +3,9 @@
 backgroundhangmonitor
 "
 ping
+(
+obsolete
+)
 Whenever
 a
 thread
