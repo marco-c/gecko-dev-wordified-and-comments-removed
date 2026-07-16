@@ -224,13 +224,6 @@ item
 "
 ;
 static
-orientation
-=
-"
-horizontal
-"
-;
-static
 properties
 =
 {
