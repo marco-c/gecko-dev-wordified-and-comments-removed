@@ -969,6 +969,13 @@ js
 ]
 [
 "
+browser_smartwindow_smartbar_contextmenu_autofill_dismiss
+.
+js
+"
+]
+[
+"
 browser_smartwindow_smartbar_glow
 .
 js
