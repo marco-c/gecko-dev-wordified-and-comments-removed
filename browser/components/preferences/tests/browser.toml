@@ -353,6 +353,13 @@ js
 ]
 [
 "
+browser_sessionRestoreNewTab
+.
+js
+"
+]
+[
+"
 browser_spotlight
 .
 js
