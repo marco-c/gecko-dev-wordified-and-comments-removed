@@ -99,6 +99,13 @@ js
 ]
 [
 "
+test_AdsClient
+.
+js
+"
+]
+[
+"
 test_AdsFeed
 .
 js
