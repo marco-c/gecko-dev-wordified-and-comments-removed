@@ -2493,6 +2493,12 @@ GetDataObjCollection
 mDataObject
 )
 ;
+NS_ENSURE_TRUE
+(
+dataObjCol
+NS_ERROR_FAILURE
+)
+;
 uint32_t
 cnt
 =
