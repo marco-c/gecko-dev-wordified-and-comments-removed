@@ -581,13 +581,6 @@ js
 ]
 [
 "
-browser_fxa_menu_profiles
-.
-js
-"
-]
-[
-"
 browser_menubar_profiles
 .
 js
