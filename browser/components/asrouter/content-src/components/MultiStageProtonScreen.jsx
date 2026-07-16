@@ -5110,9 +5110,6 @@ overflow
 "
 display
 "
-"
-height
-"
 ]
 )
 }
@@ -5300,6 +5297,9 @@ width
 "
 "
 padding
+"
+"
+height
 "
 ]
 )
