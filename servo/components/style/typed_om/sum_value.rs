@@ -790,7 +790,10 @@ SumValue
 :
 try_from_numeric_value
 (
+&
 math_negate
+.
+value
 )
 ?
 .
@@ -846,7 +849,10 @@ SumValue
 :
 try_from_numeric_value
 (
+&
 math_invert
+.
+value
 )
 ?
 .
@@ -949,7 +955,10 @@ new
 for
 item
 in
+&
 math_min
+.
+values
 {
 let
 values
@@ -1136,7 +1145,10 @@ new
 for
 item
 in
+&
 math_max
+.
+values
 {
 let
 values
@@ -1319,6 +1331,8 @@ try_from_numeric_value
 (
 &
 math_clamp
+.
+values
 [
 0
 ]
@@ -1335,6 +1349,8 @@ try_from_numeric_value
 (
 &
 math_clamp
+.
+values
 [
 1
 ]
@@ -1351,6 +1367,8 @@ try_from_numeric_value
 (
 &
 math_clamp
+.
+values
 [
 2
 ]
