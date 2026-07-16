@@ -508,9 +508,6 @@ aArgs
 )
 ;
 EncryptedRandomAccessStream
-<
-CipherStrategy
->
 (
 MovingNotNull
 <
