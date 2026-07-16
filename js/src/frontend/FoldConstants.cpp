@@ -647,12 +647,6 @@ case
 ParseNodeKind
 :
 :
-ImportSourceDecl
-:
-case
-ParseNodeKind
-:
-:
 ImportSpecList
 :
 case
@@ -714,12 +708,6 @@ ParseNodeKind
 :
 :
 CallImportExpr
-:
-case
-ParseNodeKind
-:
-:
-CallImportSourceExpr
 :
 case
 ParseNodeKind
