@@ -122,11 +122,6 @@ editor
 .
 getFunctionSymbols
 (
-location
-.
-source
-.
-id
 maxResults
 )
 ;
@@ -177,11 +172,6 @@ editor
 .
 getClassSymbols
 (
-location
-.
-source
-.
-id
 )
 ;
 }

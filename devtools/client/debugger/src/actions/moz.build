@@ -136,13 +136,6 @@ open
 js
 "
 "
-responsive
--
-mode
-.
-js
-"
-"
 source
 -
 actors

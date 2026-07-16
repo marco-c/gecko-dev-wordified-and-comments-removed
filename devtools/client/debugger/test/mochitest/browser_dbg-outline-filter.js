@@ -236,7 +236,7 @@ dbg
 0
 ]
 .
-innerText
+textContent
 .
 includes
 (
@@ -263,7 +263,7 @@ dbg
 1
 ]
 .
-innerText
+textContent
 .
 includes
 (
@@ -290,7 +290,7 @@ dbg
 2
 ]
 .
-innerText
+textContent
 .
 includes
 (
@@ -317,7 +317,7 @@ dbg
 3
 ]
 .
-innerText
+textContent
 .
 includes
 (
@@ -374,7 +374,7 @@ dbg
 0
 ]
 .
-innerText
+textContent
 .
 includes
 (
@@ -401,7 +401,7 @@ dbg
 1
 ]
 .
-innerText
+textContent
 .
 includes
 (
@@ -517,7 +517,7 @@ dbg
 0
 ]
 .
-innerText
+textContent
 .
 includes
 (
@@ -544,7 +544,7 @@ dbg
 1
 ]
 .
-innerText
+textContent
 .
 includes
 (
