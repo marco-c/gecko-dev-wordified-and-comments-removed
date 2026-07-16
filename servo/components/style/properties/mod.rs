@@ -1053,6 +1053,7 @@ Clone
 PartialEq
 ToCss
 ToShmem
+ToTyped
 )
 ]
 pub
@@ -1100,13 +1101,6 @@ ToCss
 ToShmem
 MallocSizeOf
 ToTyped
-)
-]
-#
-[
-typed
-(
-todo_derive_fields
 )
 ]
 pub

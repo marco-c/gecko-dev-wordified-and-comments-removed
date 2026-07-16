@@ -962,6 +962,14 @@ ToCss
 ToComputedValue
 ToResolvedValue
 ToShmem
+ToTyped
+)
+]
+#
+[
+typed
+(
+todo_derive_fields
 )
 ]
 pub
@@ -1870,6 +1878,7 @@ clone
 impl
 ComputedValue
 {
+pub
 fn
 to_declared_value
 (
