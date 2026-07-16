@@ -2410,6 +2410,10 @@ uint32_t
 aResponseStatus
 =
 0
+bool
+aIsPost
+=
+false
 )
 ;
 static
@@ -2442,6 +2446,10 @@ uint32_t
 aLoadType
 bool
 aWasUpgraded
+bool
+aIsPost
+=
+false
 )
 ;
 static
