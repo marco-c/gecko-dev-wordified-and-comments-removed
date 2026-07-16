@@ -643,6 +643,11 @@ uint8_t
 >
 &
 aRemoteCerts
+Maybe
+<
+RTCErrorParams
+>
+aError
 )
 {
 NS_ENSURE_TRUE_VOID
@@ -655,6 +660,7 @@ SendOnStateChange
 aTransportId
 aState
 aRemoteCerts
+aError
 )
 )
 ;
@@ -674,6 +680,11 @@ TransportLayer
 :
 State
 aState
+Maybe
+<
+RTCErrorParams
+>
+aError
 )
 {
 NS_ENSURE_TRUE_VOID
@@ -685,6 +696,7 @@ SendOnRtcpStateChange
 (
 aTransportId
 aState
+aError
 )
 )
 ;

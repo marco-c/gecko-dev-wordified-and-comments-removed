@@ -189,6 +189,9 @@ RTCDataChannel
 struct
 RTCStatsCollection
 ;
+class
+RTCErrorParams
+;
 }
 ;
 enum
@@ -1085,6 +1088,13 @@ uint8_t
 >
 &
 aRemoteCerts
+Maybe
+<
+dom
+:
+:
+RTCErrorParams
+>
 )
 ;
 void

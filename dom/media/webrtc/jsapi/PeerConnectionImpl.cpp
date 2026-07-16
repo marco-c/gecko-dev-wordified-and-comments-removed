@@ -9950,6 +9950,14 @@ uint8_t
 >
 &
 aRemoteCerts
+Maybe
+<
+dom
+:
+:
+RTCErrorParams
+>
+aError
 )
 {
 MOZ_ASSERT
@@ -10074,6 +10082,7 @@ move
 (
 certsCopy
 )
+aError
 )
 ;
 GetMainThreadSerialEventTarget
@@ -10145,6 +10154,14 @@ TransportLayer
 :
 State
 aState
+Maybe
+<
+dom
+:
+:
+RTCErrorParams
+>
+aError
 )
 {
 OnDtlsStateChange
@@ -10153,6 +10170,7 @@ aTransportId
 aState
 {
 }
+aError
 )
 ;
 }
