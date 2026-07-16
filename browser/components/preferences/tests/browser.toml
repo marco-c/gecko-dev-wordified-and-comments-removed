@@ -82,6 +82,13 @@ head
 js
 "
 "
+head
+-
+common
+.
+js
+"
+"
 addons
 /
 pl
@@ -340,6 +347,13 @@ js
 [
 "
 browser_open_migration_wizard
+.
+js
+"
+]
+[
+"
+browser_sessionRestoreNewTab
 .
 js
 "
