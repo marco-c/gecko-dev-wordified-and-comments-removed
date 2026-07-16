@@ -149,3 +149,13 @@ enableOptimizedPartialRendering
 true
 )
 ;
+pref
+(
+"
+pdfjs
+.
+enableSignatureVerification
+"
+false
+)
+;
