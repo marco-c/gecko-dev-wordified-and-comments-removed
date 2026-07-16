@@ -4728,7 +4728,7 @@ ChromeRulesEnabled
 mDocument
 -
 >
-UserHasInteracted
+HasBeenUserGestureActivated
 (
 )
 )
