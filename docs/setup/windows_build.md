@@ -1114,8 +1114,6 @@ ensure
 antivirus
 -
 exclusions
--
-1
 )
 =
 Microsoft
