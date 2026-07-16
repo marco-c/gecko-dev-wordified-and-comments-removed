@@ -2783,6 +2783,13 @@ html
 ]
 [
 "
+test_webgl_high_power
+.
+html
+"
+]
+[
+"
 test_webgl_renderer_constant_fpp
 .
 html
