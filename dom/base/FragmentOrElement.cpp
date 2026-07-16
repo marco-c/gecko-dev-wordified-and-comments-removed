@@ -999,7 +999,7 @@ containingShadowRoot
 containingShadowRoot
 -
 >
-IsUAShadowRootSlow
+IsUAWidget
 (
 )
 ?

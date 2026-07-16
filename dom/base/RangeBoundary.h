@@ -3770,7 +3770,7 @@ if
 shadowRoot
 -
 >
-IsUAShadowRootSlow
+IsUAWidget
 (
 )
 )

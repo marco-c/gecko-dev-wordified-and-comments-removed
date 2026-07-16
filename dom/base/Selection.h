@@ -3541,7 +3541,12 @@ IsUnlinking
 No
 )
 ;
-void
+[
+[
+nodiscard
+]
+]
+nsresult
 ReorderRangesIfNecessary
 (
 )

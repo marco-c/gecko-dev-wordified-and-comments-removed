@@ -1684,6 +1684,13 @@ only
 ]
 [
 "
+test_selection_cross_svg_use_boundary
+.
+html
+"
+]
+[
+"
 test_selection_doubleclick
 .
 html
