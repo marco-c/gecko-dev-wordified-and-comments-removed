@@ -982,7 +982,7 @@ R
 .
 string
 .
-uninstall_survey_option_1
+uninstall_survey_option_1_v2
 )
 stringResource
 (
@@ -992,7 +992,7 @@ R
 .
 string
 .
-uninstall_survey_option_2
+uninstall_survey_option_2_v2
 )
 stringResource
 (
@@ -1002,7 +1002,7 @@ R
 .
 string
 .
-uninstall_survey_option_3
+uninstall_survey_option_3_v2
 )
 stringResource
 (
@@ -1012,7 +1012,7 @@ R
 .
 string
 .
-uninstall_survey_option_4
+uninstall_survey_option_4_v2
 )
 stringResource
 (
@@ -1022,7 +1022,7 @@ R
 .
 string
 .
-uninstall_survey_option_5
+uninstall_survey_option_5_v2
 )
 stringResource
 (
@@ -1032,7 +1032,7 @@ R
 .
 string
 .
-uninstall_survey_option_6
+uninstall_survey_option_6_v2
 )
 )
 isSubmitAlwaysEnabled
