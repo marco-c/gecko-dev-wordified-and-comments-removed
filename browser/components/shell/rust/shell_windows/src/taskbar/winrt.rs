@@ -1005,6 +1005,9 @@ _
 must_use
 ]
 pub
+(
+super
+)
 async
 fn
 set_aumid
@@ -1147,6 +1150,9 @@ default_aumid_lock
 )
 }
 pub
+(
+super
+)
 fn
 restore_aumid
 (
