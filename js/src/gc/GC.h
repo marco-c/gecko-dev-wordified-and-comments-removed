@@ -597,6 +597,14 @@ bool
 writableOut
 )
 ;
+extern
+bool
+IsGCParameterFuzzingSafe
+(
+JSGCParamKey
+key
+)
+;
 namespace
 gc
 {
