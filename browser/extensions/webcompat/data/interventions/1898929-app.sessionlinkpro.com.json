@@ -90,6 +90,11 @@ define_minimal_window_chrome
 .
 js
 "
+"
+undefine_firefox_properties
+.
+js
+"
 ]
 }
 }
