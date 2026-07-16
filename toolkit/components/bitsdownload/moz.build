@@ -106,7 +106,7 @@ Bits
 cpp
 "
 ]
-EXTRA_JS_MODULES
+MOZ_SRC_FILES
 +
 =
 [
