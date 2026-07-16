@@ -67,14 +67,11 @@ LOCAL_INCLUDES
 [
 '
 /
-gfx
+third_party
 /
 angle
 /
-checkout
-/
 include
-/
 '
 '
 libepoxy
