@@ -1181,6 +1181,16 @@ ok
 )
 ;
 async
+ClearPrivateBrowsingSessionCache
+(
+)
+returns
+(
+void_t
+ok
+)
+;
+async
 PTRRService
 (
 bool

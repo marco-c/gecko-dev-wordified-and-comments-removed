@@ -9091,16 +9091,7 @@ ClearPrivateBrowsingOCSPCache
 )
 ;
 }
-mozilla
-:
-:
-net
-:
-:
-SSLTokensCache
-:
-:
-ClearSessionCacheAndTokens
+SSL_ClearSessionCache
 (
 )
 ;
