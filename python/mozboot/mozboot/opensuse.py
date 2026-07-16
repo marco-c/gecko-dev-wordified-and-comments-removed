@@ -1,8 +1,4 @@
 from
-mozfile
-import
-which
-from
 mozboot
 .
 base
@@ -91,25 +87,6 @@ p
 =
 "
 watchman
-"
-]
-        
-if
-not
-which
-(
-"
-awk
-"
-)
-:
-            
-packages
-+
-=
-[
-"
-awk
 "
 ]
         
