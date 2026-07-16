@@ -753,9 +753,6 @@ name
 document
 |
 <
-!
--
--
 ?
 import
 namespace
@@ -769,8 +766,7 @@ implementation
 #
 bar
 "
--
--
+?
 >
 |
 <
