@@ -2571,11 +2571,6 @@ frame_context
 fb_config
 .
 advanced_blend_is_coherent
-frame_context
-.
-fb_config
-.
-dual_source_blending_is_supported
 )
 .
 is_none
