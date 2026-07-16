@@ -13560,11 +13560,13 @@ uint64_t
 const
 MaybeDiscardedBrowsingContext
 &
+const
+bool
+&
 )
 {
-MOZ_ASSERT
+MOZ_ASSERT_UNREACHABLE
 (
-false
 "
 should
 never
