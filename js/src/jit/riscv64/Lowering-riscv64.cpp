@@ -6015,7 +6015,7 @@ HeapReg
 LAllocation
 ptr
 =
-useRegisterAtStart
+useRegisterOrConstantAtStart
 (
 base
 )
@@ -6178,7 +6178,7 @@ HeapReg
 LAllocation
 baseAlloc
 =
-useRegisterAtStart
+useRegisterOrConstantAtStart
 (
 base
 )
