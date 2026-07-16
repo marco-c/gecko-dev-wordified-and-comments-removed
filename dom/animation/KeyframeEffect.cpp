@@ -9734,7 +9734,7 @@ state
 scrollTimeline
 -
 >
-GetState
+GetSnapshot
 (
 )
 ;

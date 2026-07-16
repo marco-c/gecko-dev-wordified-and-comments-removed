@@ -2043,7 +2043,7 @@ state
 timeline
 -
 >
-GetState
+GetSnapshot
 (
 )
 ;
