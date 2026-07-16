@@ -7,14 +7,7 @@ mozilla_testcontentanalysis_h
 #
 include
 <
-processthreadsapi
-.
-h
->
-#
-include
-<
-errhandlingapi
+windows
 .
 h
 >
