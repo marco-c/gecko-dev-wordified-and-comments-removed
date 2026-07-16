@@ -241,6 +241,7 @@ binaryname
 def
 attributeAttributes
 (
+iface
 a
 getter
 )
@@ -298,11 +299,52 @@ MOZ_CAN_RUN_SCRIPT
 +
 ret
     
+kind
+=
+"
+getter
+"
+if
+getter
+else
+"
+setter
+"
+    
+ret
+=
+f
+"
+MOZ_BINDING
+(
+binding_to
+idl
+{
+kind
+}
+XPIDL_
+{
+iface
+.
+name
+}
+_
+{
+a
+.
+name
+}
+)
+"
++
+ret
+    
 return
 ret
 def
 attributeReturnType
 (
+iface
 a
 getter
 macro
@@ -419,6 +461,7 @@ ret
 return
 attributeAttributes
 (
+iface
 a
 getter
 )
@@ -521,6 +564,7 @@ l
 def
 attributeAsNative
 (
+iface
 a
 getter
 declType
@@ -535,6 +579,7 @@ returntype
 =
 attributeReturnType
 (
+iface
 a
 getter
 declType
@@ -599,6 +644,7 @@ name
 def
 methodAttributes
 (
+iface
 m
 )
 :
@@ -640,11 +686,38 @@ MOZ_CAN_RUN_SCRIPT
 +
 ret
     
+ret
+=
+f
+"
+MOZ_BINDING
+(
+binding_to
+idl
+method
+XPIDL_
+{
+iface
+.
+name
+}
+_
+{
+m
+.
+name
+}
+)
+"
++
+ret
+    
 return
 ret
 def
 methodReturnType
 (
+iface
 m
 macro
 )
@@ -754,6 +827,7 @@ ret
 return
 methodAttributes
 (
+iface
 m
 )
 +
@@ -761,6 +835,7 @@ ret
 def
 methodAsNative
 (
+iface
 m
 declType
 =
@@ -774,6 +849,7 @@ returntype
 =
 methodReturnType
 (
+iface
 m
 declType
 )
@@ -2635,6 +2711,7 @@ true_type
 def
 infallibleDecl
 (
+iface
 member
 )
 :
@@ -2771,6 +2848,7 @@ attributes
 =
 attributeAttributes
 (
+iface
 member
 getter
 =
@@ -2811,6 +2889,7 @@ attributes
 =
 methodAttributes
 (
+iface
 member
 )
     
@@ -3064,6 +3143,34 @@ or
 "
 "
             
+binding_annotation
+=
+(
+                
+f
+"
+MOZ_BINDING
+(
+binding_to
+idl
+const
+XPIDL_
+{
+iface
+.
+name
+}
+_
+{
+c
+.
+name
+}
+)
+"
+            
+)
+            
 enums
 .
 append
@@ -3074,6 +3181,9 @@ f
 c
 .
 name
+}
+{
+binding_annotation
 }
 =
 {
@@ -3123,13 +3233,45 @@ b
 )
 :
         
+enum_binding_annotation
+=
+(
+            
+f
+"
+MOZ_BINDING
+(
+binding_to
+idl
+class
+XPIDL_
+{
+iface
+.
+name
+}
+_
+{
+b
+.
+basename
+}
+)
+"
+        
+)
+        
 fd
 .
 write
 (
+            
 f
 "
 enum
+{
+enum_binding_annotation
+}
 {
 b
 .
@@ -3148,6 +3290,7 @@ _t
 \
 n
 "
+        
 )
         
 for
@@ -3157,6 +3300,36 @@ b
 .
 variants
 :
+            
+variant_binding_annotation
+=
+f
+"
+MOZ_BINDING
+(
+binding_to
+idl
+const
+XPIDL_
+{
+iface
+.
+name
+}
+_
+{
+b
+.
+basename
+}
+_
+{
+var
+.
+name
+}
+)
+"
             
 fd
 .
@@ -3168,6 +3341,9 @@ f
 var
 .
 name
+}
+{
+variant_binding_annotation
 }
 =
 {
@@ -3248,6 +3424,7 @@ m
 {
 methodAsNative
 (
+iface
 m
 )
 }
@@ -3273,6 +3450,7 @@ write
 (
 infallibleDecl
 (
+iface
 m
 )
 )
@@ -3320,6 +3498,7 @@ fd
 .
 write
 (
+            
 f
 "
 {
@@ -3331,6 +3510,7 @@ a
 {
 attributeAsNative
 (
+iface
 a
 True
 )
@@ -3341,6 +3521,7 @@ True
 \
 n
 "
+        
 )
         
 if
@@ -3355,6 +3536,7 @@ write
 (
 infallibleDecl
 (
+iface
 a
 )
 )
@@ -3370,6 +3552,7 @@ fd
 .
 write
 (
+                
 f
 "
 {
@@ -3381,6 +3564,7 @@ a
 {
 attributeAsNative
 (
+iface
 a
 False
 )
@@ -3391,6 +3575,7 @@ False
 \
 n
 "
+            
 )
         
 fd
@@ -3675,6 +3860,27 @@ write
 (
 "
 NS_NO_VTABLE
+"
+)
+    
+fd
+.
+write
+(
+f
+"
+MOZ_BINDING
+(
+binding_to
+idl
+class
+XPIDL_
+{
+iface
+.
+name
+}
+)
 "
 )
     
@@ -4006,6 +4212,7 @@ fd
 .
 write
 (
+                    
 f
 "
 \
@@ -4015,6 +4222,7 @@ n
 {
 attributeAsNative
 (
+iface
 member
 True
 declType
@@ -4025,6 +4233,7 @@ suffix
 }
 ;
 "
+                
 )
                 
 if
@@ -4048,6 +4257,7 @@ n
 {
 attributeAsNative
 (
+iface
 member
 False
 declType
@@ -4084,6 +4294,7 @@ n
 {
 methodAsNative
 (
+iface
 member
 declType
 )
@@ -4296,6 +4507,7 @@ asNative
 =
 attributeAsNative
 (
+iface
 member
 True
 )
@@ -4341,6 +4553,7 @@ asNative
 =
 attributeAsNative
 (
+iface
 member
 False
 )
@@ -4395,6 +4608,7 @@ asNative
 =
 methodAsNative
 (
+iface
 member
 )
                             
@@ -4433,6 +4647,7 @@ asNative
 =
 methodAsNative
 (
+iface
 member
 )
                             
