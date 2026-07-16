@@ -15,7 +15,7 @@ version
 .
 2
 .
-14
+18
 "
 authors
 =
@@ -123,6 +123,11 @@ build
 .
 rs
 "
+edition
+=
+"
+2024
+"
 [
 build
 -
@@ -135,7 +140,7 @@ version
 "
 0
 .
-69
+72
 "
 default
 -
@@ -165,6 +170,9 @@ audio_unit
 core_audio
 "
 "
+audio_server_plugin
+"
+"
 open_al
 "
 "
@@ -180,6 +188,10 @@ audio_unit
 [
 ]
 core_audio
+=
+[
+]
+audio_server_plugin
 =
 [
 ]

@@ -167,6 +167,17 @@ license
 ISC
 "
 [
+features
+]
+no
+-
+private
+-
+apis
+=
+[
+]
+[
 lib
 ]
 name
@@ -213,7 +224,7 @@ version
 .
 2
 .
-14
+18
 "
 features
 =
