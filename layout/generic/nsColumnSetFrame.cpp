@@ -3151,6 +3151,9 @@ mMustReflowPlaceholders
 =
 !
 changingBSize
+|
+|
+reflowLastColumnWithUnconstrainedAvailBSize
 ;
 COLUMN_SET_LOG
 (
