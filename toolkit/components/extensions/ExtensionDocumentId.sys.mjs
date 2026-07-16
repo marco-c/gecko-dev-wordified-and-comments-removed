@@ -561,16 +561,6 @@ return
 gMapper
 ;
 }
-/
-*
-*
-typedef
-{
-number
-}
-integer
-*
-/
 export
 const
 ExtensionDocumentId

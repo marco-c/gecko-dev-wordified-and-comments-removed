@@ -22673,8 +22673,6 @@ type
 import
 (
 "
-.
-/
 ExtensionShortcuts
 .
 sys

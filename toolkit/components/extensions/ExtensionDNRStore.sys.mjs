@@ -5734,8 +5734,6 @@ param
 import
 (
 "
-.
-/
 ExtensionDNR
 .
 sys
@@ -6663,8 +6661,6 @@ typedef
 import
 (
 "
-.
-/
 ExtensionDNR
 .
 sys

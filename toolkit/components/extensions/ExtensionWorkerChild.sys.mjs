@@ -2764,8 +2764,6 @@ returns
 import
 (
 "
-.
-/
 ExtensionCommon
 .
 sys
@@ -4029,16 +4027,6 @@ this
 )
 ;
 return
-/
-*
-*
-type
-{
-WebIDLChildAPIManager
-}
-*
-/
-(
 redefineGetter
 (
 this
@@ -4046,7 +4034,6 @@ this
 childManager
 "
 childManager
-)
 )
 ;
 }
