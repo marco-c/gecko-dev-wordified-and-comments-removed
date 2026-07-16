@@ -354,6 +354,7 @@ SetProxyConnectFailed
 0
 ;
 virtual
+const
 nsHttpRequestHead
 *
 RequestHead
@@ -876,6 +877,7 @@ override
 ;
 \
 virtual
+const
 nsHttpRequestHead
 *
 RequestHead

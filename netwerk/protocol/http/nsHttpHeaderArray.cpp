@@ -2064,6 +2064,7 @@ pruneProxyHeaders
 bool
 pruneTransients
 )
+const
 {
 auto
 shouldInclude

@@ -2397,6 +2397,7 @@ mProxyConnectFailed
 true
 ;
 }
+const
 nsHttpRequestHead
 *
 nsHttpTransaction

@@ -582,6 +582,7 @@ SetProxyConnectFailed
 )
 ;
 }
+const
 nsHttpRequestHead
 *
 RequestHead
@@ -851,6 +852,18 @@ override
 {
 mConnection
 =
+nullptr
+;
+}
+const
+nsHttpRequestHead
+*
+RequestHead
+(
+)
+override
+{
+return
 nullptr
 ;
 }

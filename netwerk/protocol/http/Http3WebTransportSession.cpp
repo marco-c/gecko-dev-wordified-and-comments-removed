@@ -283,6 +283,7 @@ this
 )
 )
 ;
+const
 nsHttpRequestHead
 *
 head

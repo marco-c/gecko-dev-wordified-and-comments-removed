@@ -1373,6 +1373,7 @@ aTargetIpAddressSpace
 )
 ;
 }
+const
 nsHttpRequestHead
 *
 HappyEyeballsTransaction

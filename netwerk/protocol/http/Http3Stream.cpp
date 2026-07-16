@@ -517,6 +517,7 @@ this
 )
 )
 ;
+const
 nsHttpRequestHead
 *
 head
@@ -2371,9 +2372,8 @@ false
 ;
 mFlatResponseHeaders
 .
-TruncateLength
+ClearAndRetainStorage
 (
-0
 )
 ;
 mTotalSent

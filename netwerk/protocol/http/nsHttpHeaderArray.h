@@ -385,6 +385,7 @@ pruneProxyHeaders
 bool
 pruneTransients
 )
+const
 ;
 void
 FlattenOriginalHeader

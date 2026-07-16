@@ -271,6 +271,7 @@ aTargetIpAddressSpace
 )
 override
 ;
+const
 nsHttpRequestHead
 *
 RequestHead

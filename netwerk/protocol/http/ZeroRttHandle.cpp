@@ -331,6 +331,7 @@ return
 false
 ;
 }
+const
 nsHttpRequestHead
 *
 head
