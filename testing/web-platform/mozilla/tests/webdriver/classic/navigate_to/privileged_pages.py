@@ -50,6 +50,12 @@ sync
 import
 Poll
 from
+webdriver
+.
+error
+import
+NoSuchWindowException
+from
 .
 .
 addon_install
@@ -368,6 +374,9 @@ session
 timeout
 =
 5
+ignored_exceptions
+=
+NoSuchWindowException
 )
     
 ext_handle
