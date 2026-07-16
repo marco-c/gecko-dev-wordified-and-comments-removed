@@ -31309,7 +31309,7 @@ CommandBuilder
 (
 )
 .
-CreateOrRecycleWebRenderUserData
+GetWebRenderUserData
 <
 WebRenderAPZAnimationData
 >
@@ -35645,12 +35645,6 @@ params
 mAnimated
 =
 animated
-;
-params
-.
-mRasterizeLocally
-=
-false
 ;
 params
 .
