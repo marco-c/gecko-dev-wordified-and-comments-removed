@@ -6579,8 +6579,6 @@ true
 ;
 queryOptions
 .
-event
-.
 interactionType
 =
 "
