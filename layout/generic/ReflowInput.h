@@ -1539,7 +1539,12 @@ mShouldApplyTextBoxTrimStart
 1
 ;
 bool
-mShouldApplyTextBoxTrimEnd
+mShouldApplyTextBoxTrimAtBlockEnd
+:
+1
+;
+bool
+mShouldApplyTextBoxTrimAtFragmentEnd
 :
 1
 ;

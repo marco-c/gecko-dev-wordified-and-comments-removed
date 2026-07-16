@@ -1732,6 +1732,15 @@ true
 ;
 }
 }
+aState
+.
+mNeedsTextBoxTrimAtFragmentEndRetry
+|
+=
+mMetrics
+.
+mNeedsTextBoxTrimAtFragmentEndRetry
+;
 }
 bool
 nsBlockReflowContext

@@ -937,6 +937,11 @@ mBoundingMetrics
 CollapsingMargin
 mCarriedOutBEndMargin
 ;
+bool
+mNeedsTextBoxTrimAtFragmentEndRetry
+=
+false
+;
 OverflowAreas
 mOverflowAreas
 ;
