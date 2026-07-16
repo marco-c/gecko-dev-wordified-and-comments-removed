@@ -310,6 +310,13 @@ topic
 recommendation
 .
 topic
+source
+=
+action
+.
+source
+.
+sourceName
 )
 )
 Pings
@@ -405,6 +412,13 @@ topic
 story
 .
 topic
+source
+=
+action
+.
+source
+.
+sourceName
 )
 )
 }

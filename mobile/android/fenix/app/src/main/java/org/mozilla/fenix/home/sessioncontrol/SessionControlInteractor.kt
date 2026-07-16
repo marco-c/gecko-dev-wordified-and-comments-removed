@@ -261,6 +261,20 @@ fenix
 .
 home
 .
+pocket
+.
+controller
+.
+StoriesImpressionSource
+import
+org
+.
+mozilla
+.
+fenix
+.
+home
+.
 privatebrowsing
 .
 controller
@@ -2078,6 +2092,9 @@ List
 <
 PocketStory
 >
+source
+:
+StoriesImpressionSource
 )
 {
 pocketStoriesController
@@ -2085,6 +2102,7 @@ pocketStoriesController
 handleStoriesShown
 (
 storiesShown
+source
 )
 }
 override
@@ -2118,6 +2136,9 @@ Int
 Int
 Int
 >
+source
+:
+StoriesImpressionSource
 )
 {
 pocketStoriesController
@@ -2126,6 +2147,7 @@ handleStoryClicked
 (
 storyClicked
 storyPosition
+source
 )
 }
 override
