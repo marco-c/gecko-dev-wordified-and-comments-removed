@@ -16,7 +16,9 @@ endif
 #
 include
 "
-nscore
+mozilla
+/
+UniquePtr
 .
 h
 "
@@ -30,9 +32,7 @@ h
 #
 include
 "
-mozilla
-/
-UniquePtr
+nscore
 .
 h
 "
@@ -62,6 +62,11 @@ Init
 nsIFile
 *
 aFile
+bool
+*
+aContainedErrors
+=
+nullptr
 )
 ;
 nsresult
@@ -71,6 +76,11 @@ const
 nsCString
 &
 aStr
+bool
+*
+aContainedErrors
+=
+nullptr
 )
 ;
 nsresult

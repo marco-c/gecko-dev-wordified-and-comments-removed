@@ -16,14 +16,14 @@ h
 #
 include
 "
-nsDependentSubstring
+nsCRTGlue
 .
 h
 "
 #
 include
 "
-nsCRTGlue
+nsDependentSubstring
 .
 h
 "

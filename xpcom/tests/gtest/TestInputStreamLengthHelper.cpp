@@ -1,6 +1,13 @@
 #
 include
 "
+Helpers
+.
+h
+"
+#
+include
+"
 gtest
 /
 gtest
@@ -71,13 +78,6 @@ h
 include
 "
 nsXPCOM
-.
-h
-"
-#
-include
-"
-Helpers
 .
 h
 "

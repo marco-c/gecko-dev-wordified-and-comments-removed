@@ -12,13 +12,6 @@ type_traits
 #
 include
 "
-nsString
-.
-h
-"
-#
-include
-"
 mozilla
 /
 CheckedInt
@@ -40,6 +33,13 @@ include
 mozilla
 /
 UniquePtr
+.
+h
+"
+#
+include
+"
+nsString
 .
 h
 "

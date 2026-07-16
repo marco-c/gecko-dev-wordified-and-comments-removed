@@ -8,14 +8,14 @@ h
 #
 include
 "
-nsVersionComparator
+nsString
 .
 h
 "
 #
 include
 "
-nsString
+nsVersionComparator
 .
 h
 "

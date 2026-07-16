@@ -30,13 +30,6 @@ h
 #
 include
 "
-nsStringFwd
-.
-h
-"
-#
-include
-"
 nsAString
 .
 h
@@ -52,6 +45,13 @@ h
 include
 "
 nsReadableUtils
+.
+h
+"
+#
+include
+"
+nsStringFwd
 .
 h
 "

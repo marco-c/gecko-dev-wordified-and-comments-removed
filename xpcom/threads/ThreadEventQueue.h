@@ -9,7 +9,7 @@ include
 "
 mozilla
 /
-EventQueue
+CondVar
 .
 h
 "
@@ -18,7 +18,7 @@ include
 "
 mozilla
 /
-CondVar
+EventQueue
 .
 h
 "

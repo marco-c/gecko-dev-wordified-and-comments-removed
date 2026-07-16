@@ -39,14 +39,14 @@ h
 #
 include
 "
-nsStringFwd
+nsIFile
 .
 h
 "
 #
 include
 "
-nsIFile
+nsStringFwd
 .
 h
 "

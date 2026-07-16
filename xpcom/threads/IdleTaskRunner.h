@@ -6,6 +6,11 @@ define
 IdleTaskRunner_h
 #
 include
+<
+functional
+>
+#
+include
 "
 mozilla
 /
@@ -41,11 +46,6 @@ nsString
 .
 h
 "
-#
-include
-<
-functional
->
 namespace
 mozilla
 {

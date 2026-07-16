@@ -88,6 +88,13 @@ h
 #
 include
 "
+nsCycleCollectionContainerParticipant
+.
+h
+"
+#
+include
+"
 nsPointerHashKeys
 .
 h
@@ -96,13 +103,6 @@ h
 include
 "
 nsTArrayForwardDeclare
-.
-h
-"
-#
-include
-"
-nsCycleCollectionContainerParticipant
 .
 h
 "

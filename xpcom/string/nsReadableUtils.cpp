@@ -35,13 +35,6 @@ h
 #
 include
 "
-nscore
-.
-h
-"
-#
-include
-"
 nsString
 .
 h
@@ -50,6 +43,13 @@ h
 include
 "
 nsTArray
+.
+h
+"
+#
+include
+"
+nscore
 .
 h
 "

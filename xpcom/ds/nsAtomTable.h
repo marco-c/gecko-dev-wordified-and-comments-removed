@@ -6,6 +6,13 @@ define
 nsAtomTable_h_
 #
 include
+<
+stddef
+.
+h
+>
+#
+include
 "
 mozilla
 /
@@ -20,13 +27,6 @@ nsAtom
 .
 h
 "
-#
-include
-<
-stddef
-.
-h
->
 void
 NS_InitAtomTable
 (

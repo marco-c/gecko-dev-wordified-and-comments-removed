@@ -14,7 +14,9 @@ h
 #
 include
 "
-nscore
+mozilla
+/
+Span
 .
 h
 "
@@ -28,9 +30,7 @@ h
 #
 include
 "
-mozilla
-/
-Span
+nscore
 .
 h
 "

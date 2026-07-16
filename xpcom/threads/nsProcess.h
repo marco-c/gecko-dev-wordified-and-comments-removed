@@ -27,14 +27,14 @@ h
 #
 include
 "
-nsIProcess
+nsIObserver
 .
 h
 "
 #
 include
 "
-nsIObserver
+nsIProcess
 .
 h
 "

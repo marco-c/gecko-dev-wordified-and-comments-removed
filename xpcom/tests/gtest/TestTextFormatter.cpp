@@ -1,7 +1,9 @@
 #
 include
 "
-nsTextFormatter
+gtest
+/
+gtest
 .
 h
 "
@@ -15,9 +17,7 @@ h
 #
 include
 "
-gtest
-/
-gtest
+nsTextFormatter
 .
 h
 "

@@ -1,5 +1,10 @@
 #
 include
+<
+fstream
+>
+#
+include
 "
 mozilla
 /
@@ -7,11 +12,6 @@ AvailableMemoryWatcherUtils
 .
 h
 "
-#
-include
-<
-fstream
->
 using
 namespace
 mozilla

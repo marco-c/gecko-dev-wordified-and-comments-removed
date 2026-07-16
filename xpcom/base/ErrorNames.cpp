@@ -10,6 +10,13 @@ h
 #
 include
 "
+MainThreadUtils
+.
+h
+"
+#
+include
+"
 nsString
 .
 h
@@ -18,13 +25,6 @@ h
 include
 "
 prerror
-.
-h
-"
-#
-include
-"
-MainThreadUtils
 .
 h
 "

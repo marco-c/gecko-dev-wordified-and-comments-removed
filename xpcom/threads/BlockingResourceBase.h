@@ -25,14 +25,14 @@ h
 #
 include
 "
-nscore
+nsDebug
 .
 h
 "
 #
 include
 "
-nsDebug
+nscore
 .
 h
 "

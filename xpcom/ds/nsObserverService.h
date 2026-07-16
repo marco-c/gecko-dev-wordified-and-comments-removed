@@ -7,6 +7,13 @@ nsObserverService_h_
 #
 include
 "
+nsIMemoryReporter
+.
+h
+"
+#
+include
+"
 nsIObserverService
 .
 h
@@ -15,13 +22,6 @@ h
 include
 "
 nsObserverList
-.
-h
-"
-#
-include
-"
-nsIMemoryReporter
 .
 h
 "

@@ -7,14 +7,14 @@ nsAppFileLocationProvider_h
 #
 include
 "
-nsIDirectoryService
+nsCOMPtr
 .
 h
 "
 #
 include
 "
-nsCOMPtr
+nsIDirectoryService
 .
 h
 "

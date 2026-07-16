@@ -7,6 +7,13 @@ nsProperties_h_
 #
 include
 "
+nsHashKeys
+.
+h
+"
+#
+include
+"
 nsIProperties
 .
 h
@@ -15,13 +22,6 @@ h
 include
 "
 nsInterfaceHashtable
-.
-h
-"
-#
-include
-"
-nsHashKeys
 .
 h
 "

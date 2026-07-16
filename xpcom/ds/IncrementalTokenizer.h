@@ -6,6 +6,11 @@ define
 INCREMENTAL_TOKENIZER_H_
 #
 include
+<
+functional
+>
+#
+include
 "
 mozilla
 /
@@ -20,11 +25,6 @@ nsError
 .
 h
 "
-#
-include
-<
-functional
->
 class
 nsIInputStream
 ;

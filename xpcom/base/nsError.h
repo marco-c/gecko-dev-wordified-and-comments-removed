@@ -21,6 +21,13 @@ sources
 endif
 #
 include
+<
+stdint
+.
+h
+>
+#
+include
 "
 mozilla
 /
@@ -28,13 +35,6 @@ Likely
 .
 h
 "
-#
-include
-<
-stdint
-.
-h
->
 #
 define
 NS_ERROR_SEVERITY_SUCCESS
@@ -358,8 +358,8 @@ nsInputStream
 pragma
 warning
 (
-\
 disable
+\
 :
 4275
 )
@@ -375,8 +375,8 @@ nsISupports
 '
 used
 as
-base
 \
+base
 for
 dll
 -

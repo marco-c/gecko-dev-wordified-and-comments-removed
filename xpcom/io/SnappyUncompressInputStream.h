@@ -7,6 +7,13 @@ mozilla_SnappyUncompressInputStream_h_
 #
 include
 "
+SnappyFrameUtils
+.
+h
+"
+#
+include
+"
 mozilla
 /
 UniquePtr
@@ -31,13 +38,6 @@ h
 include
 "
 nsISupportsImpl
-.
-h
-"
-#
-include
-"
-SnappyFrameUtils
 .
 h
 "

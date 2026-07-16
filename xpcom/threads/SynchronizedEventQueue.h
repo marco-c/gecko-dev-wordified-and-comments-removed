@@ -43,14 +43,14 @@ h
 #
 include
 "
-nsIThreadInternal
+nsCOMPtr
 .
 h
 "
 #
 include
 "
-nsCOMPtr
+nsIThreadInternal
 .
 h
 "

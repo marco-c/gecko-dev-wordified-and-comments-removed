@@ -45,13 +45,6 @@ XP_UNIX
 #
 include
 <
-unistd
-.
-h
->
-#
-include
-<
 stdlib
 .
 h
@@ -60,6 +53,13 @@ h
 include
 <
 string
+.
+h
+>
+#
+include
+<
+unistd
 .
 h
 >

@@ -1,9 +1,9 @@
 #
 include
 "
-mozilla
+gtest
 /
-HelperMacros
+gtest
 .
 h
 "
@@ -12,7 +12,7 @@ include
 "
 mozilla
 /
-Tokenizer
+HelperMacros
 .
 h
 "
@@ -28,9 +28,9 @@ h
 #
 include
 "
-gtest
+mozilla
 /
-gtest
+Tokenizer
 .
 h
 "

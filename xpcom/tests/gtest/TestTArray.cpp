@@ -1,13 +1,6 @@
 #
 include
 "
-nsTArray
-.
-h
-"
-#
-include
-"
 gtest
 /
 gtest
@@ -20,6 +13,13 @@ include
 mozilla
 /
 RefPtr
+.
+h
+"
+#
+include
+"
+nsTArray
 .
 h
 "

@@ -4,7 +4,7 @@ once
 #
 include
 "
-prio
+nsIFile
 .
 h
 "
@@ -18,7 +18,7 @@ h
 #
 include
 "
-nsIFile
+prio
 .
 h
 "

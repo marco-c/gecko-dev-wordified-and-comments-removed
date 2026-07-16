@@ -25,14 +25,14 @@ h
 #
 include
 "
-nsTArray
+nsCycleCollectionNoteChild
 .
 h
 "
 #
 include
 "
-nsCycleCollectionNoteChild
+nsTArray
 .
 h
 "

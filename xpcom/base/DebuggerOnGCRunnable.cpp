@@ -35,9 +35,7 @@ include
 "
 mozilla
 /
-dom
-/
-ScriptSettings
+SchedulerGroup
 .
 h
 "
@@ -46,7 +44,9 @@ include
 "
 mozilla
 /
-SchedulerGroup
+dom
+/
+ScriptSettings
 .
 h
 "

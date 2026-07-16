@@ -78,13 +78,6 @@ h
 #
 include
 "
-nsString
-.
-h
-"
-#
-include
-"
 nsAString
 .
 h
@@ -93,6 +86,13 @@ h
 include
 "
 nsReadableUtils
+.
+h
+"
+#
+include
+"
+nsString
 .
 h
 "

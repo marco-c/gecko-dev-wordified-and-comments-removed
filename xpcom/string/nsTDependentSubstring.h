@@ -7,7 +7,9 @@ nsTDependentSubstring_h
 #
 include
 "
-nsTSubstring
+mozilla
+/
+Span
 .
 h
 "
@@ -21,9 +23,7 @@ h
 #
 include
 "
-mozilla
-/
-Span
+nsTSubstring
 .
 h
 "

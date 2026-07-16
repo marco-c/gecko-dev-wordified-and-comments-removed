@@ -32,6 +32,13 @@ h
 #
 include
 "
+nsCycleCollectionNoteChild
+.
+h
+"
+#
+include
+"
 nsIWeakReferenceUtils
 .
 h
@@ -40,13 +47,6 @@ h
 include
 "
 nsTArray
-.
-h
-"
-#
-include
-"
-nsCycleCollectionNoteChild
 .
 h
 "

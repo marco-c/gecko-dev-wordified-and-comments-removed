@@ -21,13 +21,6 @@ h
 #
 include
 "
-nscore
-.
-h
-"
-#
-include
-"
 nsStringFwd
 .
 h
@@ -36,6 +29,13 @@ h
 include
 "
 nsTArrayForwardDeclare
+.
+h
+"
+#
+include
+"
+nscore
 .
 h
 "

@@ -33,13 +33,6 @@ h
 #
 include
 "
-nsMemoryPressure
-.
-h
-"
-#
-include
-"
 nsIObserver
 .
 h
@@ -48,6 +41,13 @@ h
 include
 "
 nsIObserverService
+.
+h
+"
+#
+include
+"
+nsMemoryPressure
 .
 h
 "

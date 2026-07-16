@@ -7,7 +7,7 @@ _nsscriptableinputstream_h_
 #
 include
 "
-nsIScriptableInputStream
+nsCOMPtr
 .
 h
 "
@@ -21,7 +21,7 @@ h
 #
 include
 "
-nsCOMPtr
+nsIScriptableInputStream
 .
 h
 "

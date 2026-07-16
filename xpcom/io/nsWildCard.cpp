@@ -8,13 +8,6 @@ h
 #
 include
 "
-nsXPCOM
-.
-h
-"
-#
-include
-"
 nsCRTGlue
 .
 h
@@ -23,6 +16,13 @@ h
 include
 "
 nsCharTraits
+.
+h
+"
+#
+include
+"
+nsXPCOM
 .
 h
 "

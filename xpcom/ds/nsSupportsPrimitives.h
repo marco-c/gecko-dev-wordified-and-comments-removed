@@ -7,14 +7,14 @@ nsSupportsPrimitives_h_
 #
 include
 "
-nsISupportsPrimitives
+nsCOMPtr
 .
 h
 "
 #
 include
 "
-nsCOMPtr
+nsISupportsPrimitives
 .
 h
 "

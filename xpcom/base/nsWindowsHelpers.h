@@ -28,13 +28,6 @@ h
 #
 include
 "
-nsAutoRef
-.
-h
-"
-#
-include
-"
 mozilla
 /
 Assertions
@@ -56,6 +49,13 @@ include
 mozilla
 /
 UniquePtr
+.
+h
+"
+#
+include
+"
+nsAutoRef
 .
 h
 "

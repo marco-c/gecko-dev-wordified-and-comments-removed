@@ -8,6 +8,13 @@ h
 #
 include
 "
+SerializedLoadContext
+.
+h
+"
+#
+include
+"
 mozilla
 /
 ipc
@@ -65,13 +72,6 @@ include
 private
 /
 pprio
-.
-h
-"
-#
-include
-"
-SerializedLoadContext
 .
 h
 "

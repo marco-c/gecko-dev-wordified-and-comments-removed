@@ -8,14 +8,14 @@ h
 #
 include
 "
-nsZipArchive
+nsURLHelper
 .
 h
 "
 #
 include
 "
-nsURLHelper
+nsZipArchive
 .
 h
 "

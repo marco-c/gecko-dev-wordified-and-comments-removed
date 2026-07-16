@@ -6,6 +6,11 @@ define
 mozilla_ThreadBound_h
 #
 include
+<
+type_traits
+>
+#
+include
 "
 mozilla
 /
@@ -20,11 +25,6 @@ prthread
 .
 h
 "
-#
-include
-<
-type_traits
->
 namespace
 mozilla
 {

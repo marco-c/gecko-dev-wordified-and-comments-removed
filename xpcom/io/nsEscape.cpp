@@ -26,7 +26,7 @@ h
 #
 include
 "
-nsTArray
+nsASCIIMask
 .
 h
 "
@@ -40,7 +40,7 @@ h
 #
 include
 "
-nsASCIIMask
+nsTArray
 .
 h
 "

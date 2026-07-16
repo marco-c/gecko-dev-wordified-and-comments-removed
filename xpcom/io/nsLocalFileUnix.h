@@ -16,14 +16,14 @@ h
 #
 include
 "
-nscore
+nsString
 .
 h
 "
 #
 include
 "
-nsString
+nscore
 .
 h
 "

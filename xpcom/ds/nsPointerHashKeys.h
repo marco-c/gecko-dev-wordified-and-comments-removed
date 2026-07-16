@@ -7,7 +7,7 @@ nsPointerHashKeys_h
 #
 include
 "
-nscore
+PLDHashTable
 .
 h
 "
@@ -32,7 +32,7 @@ h
 #
 include
 "
-PLDHashTable
+nscore
 .
 h
 "

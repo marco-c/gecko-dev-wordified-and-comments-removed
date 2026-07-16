@@ -1,6 +1,13 @@
 #
 include
 "
+VideoUtils
+.
+h
+"
+#
+include
+"
 gtest
 /
 gtest
@@ -38,13 +45,6 @@ h
 include
 "
 nsISupportsImpl
-.
-h
-"
-#
-include
-"
-VideoUtils
 .
 h
 "

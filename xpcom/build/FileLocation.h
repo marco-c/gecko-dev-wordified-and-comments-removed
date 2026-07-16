@@ -7,7 +7,9 @@ mozilla_FileLocation_h
 #
 include
 "
-nsString
+mozilla
+/
+FileUtils
 .
 h
 "
@@ -28,9 +30,7 @@ h
 #
 include
 "
-mozilla
-/
-FileUtils
+nsString
 .
 h
 "

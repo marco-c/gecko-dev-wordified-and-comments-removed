@@ -1,6 +1,13 @@
 #
 include
 "
+Helpers
+.
+h
+"
+#
+include
+"
 gtest
 /
 gtest
@@ -57,13 +64,6 @@ h
 include
 "
 nsStringStream
-.
-h
-"
-#
-include
-"
-Helpers
 .
 h
 "

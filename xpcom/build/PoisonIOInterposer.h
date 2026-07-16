@@ -6,6 +6,13 @@ define
 mozilla_PoisonIOInterposer_h
 #
 include
+<
+stdio
+.
+h
+>
+#
+include
 "
 mozilla
 /
@@ -13,13 +20,6 @@ Types
 .
 h
 "
-#
-include
-<
-stdio
-.
-h
->
 #
 ifdef
 _WIN32

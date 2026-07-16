@@ -1,9 +1,14 @@
 #
 include
+<
+unordered_set
+>
+#
+include
 "
 gtest
 /
-gtest
+MozGTestBench
 .
 h
 "
@@ -12,7 +17,7 @@ include
 "
 gtest
 /
-MozGTestBench
+gtest
 .
 h
 "
@@ -59,11 +64,6 @@ nsTHashtable
 .
 h
 "
-#
-include
-<
-unordered_set
->
 using
 namespace
 mozilla

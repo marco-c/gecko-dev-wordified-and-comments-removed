@@ -1,14 +1,14 @@
 #
 include
 "
-nsIInterfaceRequestor
+nsIInterfaceRequestorUtils
 .
 h
 "
 #
 include
 "
-nsIInterfaceRequestorUtils
+nsIInterfaceRequestor
 .
 h
 "

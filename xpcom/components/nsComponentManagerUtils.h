@@ -7,13 +7,6 @@ nsComponentManagerUtils_h_
 #
 include
 "
-nscore
-.
-h
-"
-#
-include
-"
 nsCOMPtr
 .
 h
@@ -22,6 +15,13 @@ h
 include
 "
 nsIFactory
+.
+h
+"
+#
+include
+"
+nscore
 .
 h
 "

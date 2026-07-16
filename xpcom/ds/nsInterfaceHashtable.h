@@ -7,7 +7,7 @@ nsInterfaceHashtable_h_
 #
 include
 "
-nsRefCountedHashtable
+nsCOMPtr
 .
 h
 "
@@ -21,7 +21,7 @@ h
 #
 include
 "
-nsCOMPtr
+nsRefCountedHashtable
 .
 h
 "

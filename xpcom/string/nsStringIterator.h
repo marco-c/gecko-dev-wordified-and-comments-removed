@@ -7,14 +7,14 @@ nsStringIterator_h_
 #
 include
 "
-nsCharTraits
+nsAlgorithm
 .
 h
 "
 #
 include
 "
-nsAlgorithm
+nsCharTraits
 .
 h
 "

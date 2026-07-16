@@ -1,7 +1,9 @@
 #
 include
 "
-nsThreadUtils
+mozilla
+/
+RLBoxSandboxPool
 .
 h
 "
@@ -26,9 +28,7 @@ h
 #
 include
 "
-mozilla
-/
-RLBoxSandboxPool
+nsThreadUtils
 .
 h
 "
