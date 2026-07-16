@@ -2914,10 +2914,10 @@ ClearSessionCacheResolver
 aResolve
 )
 {
-nsNSSComponent
+SSLTokensCache
 :
 :
-DoClearSSLExternalAndInternalSessionCache
+ClearSessionCacheAndTokens
 (
 )
 ;

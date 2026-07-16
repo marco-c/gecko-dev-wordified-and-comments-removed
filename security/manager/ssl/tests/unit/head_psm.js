@@ -2047,7 +2047,7 @@ clearSessionCache
 )
 {
 let
-nssComponent
+sslTokensCache
 =
 Cc
 [
@@ -2056,7 +2056,13 @@ mozilla
 .
 org
 /
-psm
+network
+/
+ssl
+-
+tokens
+-
+cache
 ;
 1
 "
@@ -2066,10 +2072,10 @@ getService
 (
 Ci
 .
-nsINSSComponent
+nsISSLTokensCache
 )
 ;
-nssComponent
+sslTokensCache
 .
 clearSSLExternalAndInternalSessionCache
 (
