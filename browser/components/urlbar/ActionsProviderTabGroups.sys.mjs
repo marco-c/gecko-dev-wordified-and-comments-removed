@@ -930,6 +930,8 @@ tab
 -
 group
 -
+color
+-
 {
 color
 }
@@ -953,6 +955,8 @@ var
 tab
 -
 group
+-
+color
 -
 {
 color
@@ -979,6 +983,8 @@ var
 tab
 -
 group
+-
+color
 -
 {
 color

@@ -488,7 +488,7 @@ var
 (
 -
 -
-urlbarview
+urlbarView
 -
 row
 -
@@ -624,7 +624,7 @@ small
 ;
 -
 -
-urlbarview
+urlbarView
 -
 row
 -
@@ -813,13 +813,13 @@ color
 ;
 -
 -
-urlbarview
+urlbarView
+-
+secondary
 -
 text
 -
 color
--
-secondary
 :
 light
 -
@@ -1273,7 +1273,7 @@ var
 (
 -
 -
-urlbarview
+urlbarView
 -
 separator
 -
@@ -1509,7 +1509,7 @@ var
 (
 -
 -
-urlbarview
+urlbarView
 -
 row
 -
@@ -2032,7 +2032,7 @@ var
 (
 -
 -
-urlbarview
+urlbarView
 -
 row
 -
