@@ -451,14 +451,8 @@ target
 node
 .
 data
-?
-"
-"
-+
-node
-.
-data
-:
+|
+|
 "
 "
 }
