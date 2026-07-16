@@ -86,7 +86,7 @@ resources
 Title
 for
 the
-bookmarks
+passwords
 import
 loading
 dialog
@@ -99,17 +99,12 @@ string
 name
 =
 "
-mozac_feature_importer_dialog_title
+mozac_feature_passwords_importer_dialog_title
 "
 >
-S
-estan
-important
-les
-adreces
-d
-inter
-s
+Importaci
+de
+contrasenyes
 <
 /
 string
@@ -121,7 +116,7 @@ string
 Description
 for
 the
-bookmarks
+passwords
 import
 loading
 dialog
@@ -134,7 +129,7 @@ string
 name
 =
 "
-mozac_feature_importer_dialog_description
+mozac_feature_passwords_importer_dialog_description
 "
 >
 Mantingueu
@@ -165,7 +160,7 @@ cancel
 action
 on
 the
-bookmarks
+passwords
 import
 loading
 dialog
@@ -178,7 +173,7 @@ string
 name
 =
 "
-mozac_feature_importer_dialog_cancel
+mozac_feature_passwords_importer_dialog_cancel
 "
 >
 Cancel
