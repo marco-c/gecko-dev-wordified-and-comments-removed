@@ -1298,6 +1298,11 @@ ThemeDrawing
 h
 "
 "
+WebCustomFormatUtils
+.
+h
+"
+"
 WidgetLogging
 .
 h
@@ -1579,6 +1584,11 @@ cpp
 "
 "
 VsyncDispatcher
+.
+cpp
+"
+"
+WebCustomFormatUtils
 .
 cpp
 "
