@@ -686,6 +686,15 @@ CloneRange
 )
 const
 ;
+already_AddRefed
+<
+nsRange
+>
+GetRangeInFlatTree
+(
+)
+const
+;
 nsresult
 SetStartAndEnd
 (
