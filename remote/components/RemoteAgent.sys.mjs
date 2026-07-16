@@ -333,10 +333,15 @@ Services
 .
 env
 .
-exists
+get
 (
 ENV_ALLOW_SYSTEM_ACCESS
 )
+=
+=
+"
+1
+"
 ;
 this
 .
