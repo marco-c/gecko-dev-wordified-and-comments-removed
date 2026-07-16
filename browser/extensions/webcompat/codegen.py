@@ -698,6 +698,9 @@ all_frames
 "
 match_origin_as_fallback
 "
+"
+user_styles
+"
 ]
 class
 special_js_script_checker

@@ -895,6 +895,9 @@ run_at
 "
 document_start
 "
+user_styles
+=
+false
 }
 =
 contentScriptDescriptor
@@ -911,6 +914,7 @@ all_frames
 isolated
 match_origin_as_fallback
 run_at
+user_styles
 }
 )
 ;
@@ -1074,6 +1078,7 @@ all_frames
 isolated
 match_origin_as_fallback
 run_at
+user_styles
 }
 =
 JSON
@@ -1093,6 +1098,20 @@ reg
 allFrames
 =
 true
+;
+}
+if
+(
+user_styles
+)
+{
+reg
+.
+cssOrigin
+=
+"
+user
+"
 ;
 }
 if
