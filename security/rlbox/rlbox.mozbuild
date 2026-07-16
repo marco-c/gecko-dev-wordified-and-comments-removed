@@ -73,6 +73,16 @@ memory
 /
 mozalloc
 /
+cxxalloc
+.
+cpp
+"
+"
+/
+memory
+/
+mozalloc
+/
 mozalloc
 .
 cpp
