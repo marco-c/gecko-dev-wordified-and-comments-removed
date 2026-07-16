@@ -1046,9 +1046,9 @@ null
 isLoading
 =
 false
-searchState
+isSearching
 =
-null
+false
 )
 )
 FirefoxTheme

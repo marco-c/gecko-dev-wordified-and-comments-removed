@@ -103,15 +103,6 @@ bookmarks
 .
 toolbar
 "
-const
-val
-BOOKMARK_PLACEHOLDER
-=
-"
-bookmarks
-.
-placeholder
-"
 /
 /
 Edit
