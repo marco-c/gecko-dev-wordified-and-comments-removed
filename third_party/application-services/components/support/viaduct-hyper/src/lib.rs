@@ -120,13 +120,6 @@ fn
 viaduct_init_backend_hyper
 (
 )
--
->
-Result
-<
-(
-)
->
 {
 info
 !

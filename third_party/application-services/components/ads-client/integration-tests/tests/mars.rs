@@ -27,9 +27,6 @@ init_backend
 (
 )
 {
-let
-_
-=
 viaduct_hyper
 :
 :

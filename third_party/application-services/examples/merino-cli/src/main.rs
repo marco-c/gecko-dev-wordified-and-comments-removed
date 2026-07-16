@@ -398,6 +398,19 @@ String
 >
 #
 [
+arg
+(
+long
+)
+]
+date
+:
+Option
+<
+String
+>
+#
+[
 command
 (
 subcommand
@@ -441,7 +454,6 @@ viaduct_hyper
 viaduct_init_backend_hyper
 (
 )
-?
 ;
 let
 cli
@@ -769,6 +781,7 @@ WorldCup
 limit
 teams
 accept_language
+date
 endpoint
 }
 =
@@ -801,6 +814,7 @@ WorldCupOptions
 limit
 teams
 accept_language
+date
 }
 ;
 let

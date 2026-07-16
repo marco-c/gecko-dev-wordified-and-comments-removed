@@ -38,7 +38,3 @@ pub
 use
 viaduct
 ;
-pub
-use
-viaduct_reqwest
-;

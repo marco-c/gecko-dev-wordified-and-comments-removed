@@ -129,7 +129,6 @@ viaduct_hyper
 viaduct_init_backend_hyper
 (
 )
-?
 ;
 let
 cmds

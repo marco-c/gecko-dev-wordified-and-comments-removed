@@ -16,6 +16,7 @@ bridged_engine
 ApplyResults
 BridgedEngine
 BridgedEngineAdaptor
+BridgedEngineWrapper
 }
 ;
 #

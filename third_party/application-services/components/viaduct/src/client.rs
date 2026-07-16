@@ -3,14 +3,14 @@ crate
 :
 :
 {
+backend
+:
+:
+get_backend
 header_names
 :
 :
 USER_AGENT
-new_backend
-:
-:
-get_backend
 settings
 :
 :
@@ -415,7 +415,7 @@ uniffi
 (
 default
 =
-0
+60_000
 )
 ]
 pub

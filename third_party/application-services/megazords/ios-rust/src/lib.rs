@@ -110,7 +110,3 @@ pub
 use
 viaduct_hyper
 ;
-pub
-use
-viaduct_reqwest
-;

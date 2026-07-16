@@ -36,6 +36,10 @@ Ok
 "
 android
 "
+|
+"
+ios
+"
 )
 =
 std

@@ -163,6 +163,9 @@ prost
 -
 derive
 "
+"
+std
+"
 ]
 }
 xpcom

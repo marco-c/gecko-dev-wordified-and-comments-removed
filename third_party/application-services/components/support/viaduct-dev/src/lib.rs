@@ -545,9 +545,6 @@ new
 )
 )
 ;
-let
-_
-=
 init_backend
 (
 backend

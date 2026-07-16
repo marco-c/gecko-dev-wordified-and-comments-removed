@@ -10266,7 +10266,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-129
+132
 /
 /
 uniffi_remote_settings_fn_method_remotesettingsclient_collection_name
@@ -10421,7 +10421,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-130
+133
 /
 /
 uniffi_remote_settings_fn_method_remotesettingsclient_get_attachment
@@ -10501,7 +10501,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-131
+134
 /
 /
 uniffi_remote_settings_fn_method_remotesettingsclient_get_last_modified_timestamp
@@ -10764,7 +10764,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-132
+135
 /
 /
 uniffi_remote_settings_fn_method_remotesettingsclient_get_records
@@ -10884,7 +10884,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-133
+136
 /
 /
 uniffi_remote_settings_fn_method_remotesettingsclient_get_records_map
@@ -10936,7 +10936,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-134
+137
 /
 /
 uniffi_remote_settings_fn_method_remotesettingsclient_reset_storage
@@ -10998,7 +10998,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-135
+138
 /
 /
 uniffi_remote_settings_fn_method_remotesettingsclient_shutdown
@@ -11042,7 +11042,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-136
+139
 /
 /
 uniffi_remote_settings_fn_method_remotesettingsclient_sync
@@ -12087,7 +12087,7 @@ UniFFIScaffolding
 .
 callSync
 (
-137
+140
 /
 /
 uniffi_remote_settings_fn_constructor_remotesettingsservice_new
@@ -12142,7 +12142,7 @@ UniFFIScaffolding
 .
 callSync
 (
-138
+141
 /
 /
 uniffi_remote_settings_fn_method_remotesettingsservice_client_url
@@ -12242,7 +12242,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-139
+142
 /
 /
 uniffi_remote_settings_fn_method_remotesettingsservice_make_client
@@ -12332,7 +12332,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-140
+143
 /
 /
 uniffi_remote_settings_fn_method_remotesettingsservice_sync
@@ -12461,7 +12461,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-141
+144
 /
 /
 uniffi_remote_settings_fn_method_remotesettingsservice_update_config

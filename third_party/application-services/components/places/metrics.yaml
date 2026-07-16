@@ -699,7 +699,7 @@ run_maintenance
 )
 Duplication
 of
-run_maintenance_chk_pnt_time_temp
+run_maintenance_chk_pnt_time
 for
 glean
 -
