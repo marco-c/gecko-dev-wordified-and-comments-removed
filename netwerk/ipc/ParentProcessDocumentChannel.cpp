@@ -707,6 +707,7 @@ mDocumentLoadListener
 GetRedirectChannelId
 (
 )
+0
 )
 ;
 }

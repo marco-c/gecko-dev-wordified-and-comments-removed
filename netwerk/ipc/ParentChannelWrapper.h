@@ -57,6 +57,8 @@ Register
 (
 uint64_t
 aRegistrarId
+uint64_t
+aContentParentId
 )
 ;
 NS_DECL_ISUPPORTS
