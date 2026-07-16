@@ -60,6 +60,13 @@ js
 ]
 [
 "
+browser_search_overlapping_ranges
+.
+js
+"
+]
+[
+"
 browser_search_results_back_button
 .
 js
