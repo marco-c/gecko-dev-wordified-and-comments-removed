@@ -5699,14 +5699,6 @@ Feature
 :
 GPU_PROCESS
 )
-&
-&
-StaticPrefs
-:
-:
-gfx_webrender_enabled_no_gpu_process_with_angle_win_AtStartup
-(
-)
 )
 {
 gPlatform
