@@ -1110,6 +1110,8 @@ time
 ;
 uint32_t
 typicalPacketFrameCount
+=
+1024
 ;
 if
 (
@@ -1117,10 +1119,6 @@ if
 frontPacket
 )
 {
-typicalPacketFrameCount
-=
-1024
-;
 offset
 =
 0
@@ -1134,6 +1132,16 @@ GetPosition
 }
 else
 {
+if
+(
+frontPacket
+-
+>
+Frames
+(
+)
+)
+{
 typicalPacketFrameCount
 =
 frontPacket
@@ -1143,6 +1151,7 @@ Frames
 (
 )
 ;
+}
 offset
 =
 frontPacket
