@@ -26,10 +26,6 @@ pub
 mod
 backdrop
 ;
-pub
-mod
-filter
-;
 use
 api
 :
@@ -185,9 +181,6 @@ YuvTextureRect
 Backdrop
 =
 12
-Blend
-=
-13
 }
 pub
 const
@@ -195,7 +188,7 @@ NUM_PATTERNS
 :
 u32
 =
-14
+13
 ;
 impl
 PatternKind
