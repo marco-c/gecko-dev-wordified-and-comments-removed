@@ -9714,6 +9714,7 @@ features
 :
 stackwalk
 js
+cpu
 java
 processcpu
 memory
@@ -11559,6 +11560,7 @@ features
 :
 stackwalk
 js
+cpu
 java
 processcpu
 memory
@@ -13465,6 +13467,7 @@ features
 :
 stackwalk
 js
+cpu
 java
 processcpu
 memory
@@ -15371,6 +15374,7 @@ features
 :
 stackwalk
 js
+cpu
 java
 processcpu
 memory
@@ -17305,6 +17309,7 @@ features
 :
 stackwalk
 js
+cpu
 processcpu
 nomarkerstacks
 *
@@ -19222,6 +19227,7 @@ features
 :
 stackwalk
 js
+cpu
 processcpu
 nomarkerstacks
 java
@@ -21201,6 +21207,7 @@ features
 :
 stackwalk
 js
+cpu
 processcpu
 nomarkerstacks
 *
@@ -23617,6 +23624,7 @@ features
 :
 stackwalk
 js
+cpu
 processcpu
 nomarkerstacks
 java
@@ -58947,6 +58955,7 @@ features
 :
 js
 stackwalk
+cpu
 memory
 *
 *
@@ -60004,6 +60013,7 @@ features
 :
 js
 stackwalk
+cpu
 memory
 *
 *
@@ -61063,6 +61073,7 @@ features
 :
 js
 stackwalk
+cpu
 memory
 *
 *
@@ -62120,6 +62131,7 @@ features
 :
 js
 stackwalk
+cpu
 memory
 *
 *
@@ -63179,6 +63191,7 @@ features
 :
 js
 stackwalk
+cpu
 memory
 *
 *
@@ -64236,6 +64249,7 @@ features
 :
 js
 stackwalk
+cpu
 memory
 *
 *
@@ -65297,6 +65311,7 @@ features
 :
 js
 stackwalk
+cpu
 memory
 *
 *
@@ -66356,6 +66371,7 @@ features
 :
 js
 stackwalk
+cpu
 memory
 *
 *
@@ -67418,6 +67434,7 @@ features
 :
 js
 stackwalk
+cpu
 memory
 *
 *
@@ -68478,6 +68495,7 @@ features
 :
 js
 stackwalk
+cpu
 memory
 *
 *
@@ -69539,6 +69557,7 @@ features
 :
 js
 stackwalk
+cpu
 memory
 *
 *
@@ -70598,6 +70617,7 @@ features
 :
 js
 stackwalk
+cpu
 memory
 *
 *
@@ -75800,6 +75820,7 @@ features
 :
 js
 stackwalk
+cpu
 memory
 *
 *
@@ -88443,6 +88464,7 @@ features
 :
 js
 stackwalk
+cpu
 memory
 *
 *
@@ -89567,6 +89589,7 @@ features
 :
 js
 stackwalk
+cpu
 memory
 *
 *
@@ -90690,6 +90713,7 @@ features
 :
 js
 stackwalk
+cpu
 memory
 *
 *
@@ -91813,6 +91837,7 @@ features
 :
 js
 stackwalk
+cpu
 memory
 *
 *
@@ -142974,6 +142999,7 @@ features
 :
 stackwalk
 js
+cpu
 java
 processcpu
 screenshots
@@ -144735,6 +144761,7 @@ features
 :
 stackwalk
 js
+cpu
 java
 processcpu
 screenshots
@@ -146519,6 +146546,7 @@ features
 :
 stackwalk
 js
+cpu
 java
 processcpu
 screenshots
