@@ -106,7 +106,7 @@ Rust
 Includes
 parsing
 and
-serilization
+serialization
 of
 selectors
 as
