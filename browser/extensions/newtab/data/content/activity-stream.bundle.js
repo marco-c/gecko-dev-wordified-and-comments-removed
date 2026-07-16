@@ -81469,11 +81469,13 @@ id
 "
 newtab
 -
+widget
+-
+lists
+-
 menu
 -
-section
--
-tooltip
+button
 "
 iconSrc
 :
