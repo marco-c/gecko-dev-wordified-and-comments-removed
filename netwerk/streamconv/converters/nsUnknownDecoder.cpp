@@ -643,12 +643,12 @@ NS_ERROR_OUT_OF_MEMORY
 ;
 if
 (
-mBufferLen
-+
 aCount
 >
 =
 MAX_BUFFER_SIZE
+-
+mBufferLen
 )
 {
 count
