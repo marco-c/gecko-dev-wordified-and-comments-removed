@@ -226,8 +226,6 @@ placeholder
 add
 -
 button
--
-tile
 )
 "
 ;

@@ -12279,6 +12279,11 @@ index
 {
 7
 }
+isAddButton
+=
+{
+true
+}
 /
 >
 )
@@ -12288,7 +12293,8 @@ wrapper
 find
 (
 "
-moz
+.
+add
 -
 button
 "
