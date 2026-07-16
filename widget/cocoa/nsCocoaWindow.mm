@@ -15474,6 +15474,13 @@ void
 )
 viewsWindowDidResignKey
 {
+TextInputHandler
+:
+:
+EnsureSecureEventInputDisabled
+(
+)
+;
 if
 (
 !
@@ -15506,13 +15513,6 @@ listener
 -
 >
 WindowDeactivated
-(
-)
-;
-TextInputHandler
-:
-:
-EnsureSecureEventInputDisabled
 (
 )
 ;
