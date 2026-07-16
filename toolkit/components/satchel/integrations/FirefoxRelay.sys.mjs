@@ -2403,14 +2403,8 @@ mask
 description
 |
 |
-mask
-.
-generated_for
-|
-|
-mask
-.
-used_on
+"
+"
 ;
 maskDescription
 .
