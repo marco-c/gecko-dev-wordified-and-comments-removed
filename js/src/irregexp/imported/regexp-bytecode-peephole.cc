@@ -6269,6 +6269,9 @@ optimized_bytecode
 optimized_length
 )
 ;
+#
+ifndef
+COMPILING_IRREGEXP_FOR_EXTERNAL_EMBEDDER
 if
 (
 did_optimize
@@ -6368,6 +6371,8 @@ get
 )
 ;
 }
+#
+endif
 return
 array
 ;
