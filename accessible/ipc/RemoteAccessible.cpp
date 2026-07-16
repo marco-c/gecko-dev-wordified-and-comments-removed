@@ -1435,7 +1435,7 @@ aFields
 }
 if
 (
-IsTextLeaf
+IsText
 (
 )
 )
