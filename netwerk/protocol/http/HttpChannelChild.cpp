@@ -2427,6 +2427,15 @@ allRedirectsSameOrigin
 )
 )
 ;
+StoreAllRedirectsSameOriginIgnoringInternal
+(
+aArgs
+.
+allRedirectsSameOriginIgnoringInternal
+(
+)
+)
+;
 mMultiPartID
 =
 aArgs

@@ -263,9 +263,6 @@ bool
 isFromCache
 ;
 bool
-isRacing
-;
-bool
 cacheEntryAvailable
 ;
 bool
@@ -279,6 +276,9 @@ isResolvedByTRR
 ;
 bool
 allRedirectsSameOrigin
+;
+bool
+allRedirectsSameOriginIgnoringInternal
 ;
 bool
 isFirstPartOfMultiPart

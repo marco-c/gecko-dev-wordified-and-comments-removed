@@ -3445,7 +3445,7 @@ NS_SUCCEEDED
 timedChannel
 -
 >
-GetAllRedirectsSameOrigin
+GetAllRedirectsSameOriginIgnoringInternal
 (
 &
 allRedirectsSameOrigin

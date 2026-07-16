@@ -1384,6 +1384,9 @@ bool
 allRedirectsSameOrigin
 ;
 bool
+allRedirectsSameOriginIgnoringInternal
+;
+bool
 allRedirectsPassTimingAllowCheck
 ;
 bool
