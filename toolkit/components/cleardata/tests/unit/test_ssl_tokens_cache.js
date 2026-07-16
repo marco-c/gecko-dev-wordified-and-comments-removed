@@ -13,13 +13,7 @@ mozilla
 .
 org
 /
-network
-/
-ssl
--
-tokens
--
-cache
+psm
 ;
 1
 "
