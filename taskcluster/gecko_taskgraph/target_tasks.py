@@ -6234,7 +6234,6 @@ shipping_product
 )
 in
 {
-None
 "
 firefox
 "
