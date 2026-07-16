@@ -2732,6 +2732,12 @@ OnHardwareContextReset
 "
 )
 ;
+mReadinessMonitor
+.
+ResetEngineConditions
+(
+)
+;
 for
 (
 auto
