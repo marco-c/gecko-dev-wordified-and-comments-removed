@@ -7876,6 +7876,10 @@ State
 Sweeping
 )
 {
+majorSweepingStartedWhileMinorSweeping
+=
+true
+;
 majorFinishedWhileMinorSweeping
 =
 true
