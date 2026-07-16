@@ -204,6 +204,16 @@ redux
 state
 .
 Page
+import
+org
+.
+mozilla
+.
+fenix
+.
+theme
+.
+FirefoxTheme
 /
 *
 *
@@ -399,6 +409,8 @@ dismiss
 (
 )
 }
+FirefoxTheme
+{
 IPProtectionUnavailableDialog
 (
 onDismiss
@@ -473,5 +485,6 @@ NormalTabs
 )
 }
 )
+}
 }
 }
