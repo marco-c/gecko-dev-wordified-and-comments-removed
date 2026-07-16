@@ -131,6 +131,7 @@ SummarizationStore
 .
 *
 /
+sealed
 interface
 SummarizationAction
 :
