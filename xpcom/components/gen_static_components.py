@@ -2401,7 +2401,7 @@ static_assert
 std
 :
 :
-is_base_of
+is_base_of_v
 <
 %
 (
@@ -2410,9 +2410,6 @@ type
 s
 T
 >
-:
-:
-value
           
 "
 Singleton
