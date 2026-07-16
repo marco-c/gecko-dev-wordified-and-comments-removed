@@ -48,6 +48,22 @@ ResolveError
 ;
 #
 [
+cfg
+(
+test
+)
+]
+use
+alloc
+:
+:
+boxed
+:
+:
+Box
+;
+#
+[
 derive
 (
 Clone
@@ -10706,6 +10722,8 @@ Capabilities
 Result
 <
 ModuleInfo
+Box
+<
 crate
 :
 :
@@ -10718,6 +10736,7 @@ super
 :
 :
 ValidationError
+>
 >
 >
 {
@@ -10877,6 +10896,8 @@ Capabilities
 Result
 <
 ModuleInfo
+Box
+<
 crate
 :
 :
@@ -10889,6 +10910,7 @@ super
 :
 :
 ValidationError
+>
 >
 >
 {

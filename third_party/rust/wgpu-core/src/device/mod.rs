@@ -120,6 +120,10 @@ pub
 mod
 resource
 ;
+pub
+(
+crate
+)
 mod
 surface_config
 ;
@@ -1109,6 +1113,10 @@ DeviceLostInvocation
 impl
 UserClosures
 {
+pub
+(
+crate
+)
 fn
 extend
 (
@@ -1165,6 +1173,10 @@ device_lost_invocations
 )
 ;
 }
+pub
+(
+crate
+)
 fn
 fire
 (

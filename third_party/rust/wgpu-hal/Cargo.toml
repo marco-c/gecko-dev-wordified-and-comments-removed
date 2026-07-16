@@ -902,6 +902,13 @@ dep
 windows
 "
 "
+dep
+:
+windows
+-
+core
+"
+"
 gpu
 -
 allocator
@@ -3168,6 +3175,12 @@ clippy
 cfg
 (
 web_sys_unstable_apis
+)
+"
+"
+cfg
+(
+windows_angle
 )
 "
 ]

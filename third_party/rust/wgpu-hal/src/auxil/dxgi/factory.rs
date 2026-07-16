@@ -43,10 +43,10 @@ Dxgi
 }
 ;
 use
-crate
+super
 :
 :
-dx12
+dxgi_lib
 :
 :
 DxgiLib
