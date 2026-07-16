@@ -242,6 +242,13 @@ js
 ]
 [
 "
+test_MenuSectionLayout
+.
+js
+"
+]
+[
+"
 test_PermissionPromptTargeting
 .
 js
