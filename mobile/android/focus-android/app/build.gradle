@@ -301,7 +301,9 @@ config
 .
 minSdkVersion
 targetSdk
-37
+config
+.
+targetSdkVersion
 versionCode
 11
 /
@@ -2541,8 +2543,6 @@ libs
 androidx
 .
 core
-.
-ktx
 implementation
 libs
 .
