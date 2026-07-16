@@ -7912,7 +7912,7 @@ Defined
 :
 return
 *
-loweredFuncs_
+definedCoreFuncs_
 [
 item
 .
@@ -7921,7 +7921,7 @@ itemIndex
 )
 ]
 .
-flattenedType
+coreFuncType
 (
 )
 ;
