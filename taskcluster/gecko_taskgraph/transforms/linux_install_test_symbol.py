@@ -85,6 +85,16 @@ inst
 -
 tarball
 "
+    
+"
+snap
+"
+:
+"
+inst
+-
+snap
+"
 }
 transforms
 =
