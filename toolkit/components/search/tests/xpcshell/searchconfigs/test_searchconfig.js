@@ -3037,6 +3037,9 @@ ecosia
 aliases
 :
 [
+"
+ecosia
+"
 ]
 default
 :
