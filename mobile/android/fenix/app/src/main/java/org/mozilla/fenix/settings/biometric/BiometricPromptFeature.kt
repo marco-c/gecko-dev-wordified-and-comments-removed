@@ -165,7 +165,7 @@ biometric
 .
 ext
 .
-isEnrolled
+isBiometricHardwareAvailable
 import
 org
 .
@@ -179,7 +179,7 @@ biometric
 .
 ext
 .
-isHardwareAvailable
+isEnrolled
 /
 *
 *
@@ -551,7 +551,7 @@ Boolean
 =
 manager
 .
-isHardwareAvailable
+isBiometricHardwareAvailable
 (
 )
 &
