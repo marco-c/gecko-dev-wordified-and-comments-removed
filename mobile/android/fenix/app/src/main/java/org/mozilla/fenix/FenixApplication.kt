@@ -4088,6 +4088,13 @@ fileUploadsDirCleaner
 cleanUploadsDirectory
 (
 )
+components
+.
+settings
+.
+deletePocketDatabaseIfNeeded
+(
+)
 }
 /
 /
