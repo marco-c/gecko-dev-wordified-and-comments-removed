@@ -2619,11 +2619,6 @@ iconsR
 drawable
 .
 mozac_ic_cookies_slash_24
-iconsR
-.
-drawable
-.
-mozac_ic_social_tracker_24
 )
 private
 val

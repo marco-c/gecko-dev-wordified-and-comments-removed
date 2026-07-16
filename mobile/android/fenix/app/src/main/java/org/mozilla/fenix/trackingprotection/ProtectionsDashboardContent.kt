@@ -764,7 +764,7 @@ iconsR
 .
 drawable
 .
-mozac_ic_social_tracker_24
+mozac_ic_thumbs_down_24
 name
 =
 R
