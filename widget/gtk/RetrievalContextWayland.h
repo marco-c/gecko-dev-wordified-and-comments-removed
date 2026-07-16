@@ -391,12 +391,11 @@ RetrievalContext
 {
 public
 :
+explicit
 RetrievalContextWayland
 (
 bool
 aIsDragContext
-=
-false
 )
 ;
 virtual
