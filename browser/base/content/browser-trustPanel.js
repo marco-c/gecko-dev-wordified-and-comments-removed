@@ -1615,9 +1615,9 @@ this
 async
 showPopup
 (
+opts
+=
 {
-event
-reason
 }
 )
 {
@@ -1724,6 +1724,8 @@ this
 #
 openingReason
 =
+opts
+.
 reason
 ;
 PanelMultiView
@@ -1749,6 +1751,8 @@ topleft
 "
 triggerEvent
 :
+opts
+.
 event
 }
 )
