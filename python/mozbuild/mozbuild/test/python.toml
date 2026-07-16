@@ -316,6 +316,15 @@ py
 "
 frontend
 /
+test_file_info_reviewers
+.
+py
+"
+]
+[
+"
+frontend
+/
 test_namespaces
 .
 py
