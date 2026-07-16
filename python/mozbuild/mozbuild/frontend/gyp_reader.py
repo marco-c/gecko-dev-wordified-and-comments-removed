@@ -2807,6 +2807,11 @@ update
             
 CC
 =
+mozshellutil
+.
+quote
+(
+*
 config
 .
 substs
@@ -2815,6 +2820,7 @@ substs
 CC
 "
 ]
+)
             
 CFLAGS
 =

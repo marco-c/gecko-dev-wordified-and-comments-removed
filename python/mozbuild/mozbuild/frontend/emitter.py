@@ -42,6 +42,10 @@ manifest
 import
 Manifest
 from
+mozshellutil
+import
+quote
+from
 mozbuild
 .
 base
@@ -10885,6 +10889,9 @@ AS
 "
 ]
 =
+quote
+(
+*
 context
 .
 config
@@ -10896,6 +10903,7 @@ get
 "
 CC
 "
+)
 )
             
 passthru

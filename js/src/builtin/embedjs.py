@@ -1035,10 +1035,6 @@ inputs
     
 cxx
 =
-shlex
-.
-split
-(
 buildconfig
 .
 substs
@@ -1047,7 +1043,6 @@ substs
 CXX
 "
 ]
-)
     
 pp_option
 =
