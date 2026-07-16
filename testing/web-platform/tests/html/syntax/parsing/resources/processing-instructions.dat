@@ -3886,10 +3886,6 @@ head
 >
 |
 <
-body
->
-|
-<
 script
 >
 |
@@ -3899,6 +3895,10 @@ script
 something
 >
 "
+|
+<
+body
+>
 #
 data
 <
@@ -3924,10 +3924,6 @@ head
 >
 |
 <
-body
->
-|
-<
 style
 >
 |
@@ -3937,6 +3933,10 @@ style
 something
 >
 "
+|
+<
+body
+>
 #
 data
 <
