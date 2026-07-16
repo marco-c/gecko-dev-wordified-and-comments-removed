@@ -495,8 +495,7 @@ have
 special
 significance
 :
-\
-*
+-
 opt
 implies
 =
@@ -515,8 +514,7 @@ debug
 &
 !
 tsan
-\
-*
+-
 Instead
 of
 !
