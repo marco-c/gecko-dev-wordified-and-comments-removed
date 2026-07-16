@@ -427,8 +427,7 @@ restore
 const
 gRegistry
 =
-new
-TaskbarTabsRegistry
+createInMemoryRegistry
 (
 )
 ;
