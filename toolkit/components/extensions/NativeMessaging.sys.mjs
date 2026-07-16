@@ -1438,6 +1438,8 @@ param
 import
 (
 "
+.
+/
 ExtensionParent
 .
 sys
@@ -1462,6 +1464,8 @@ returns
 import
 (
 "
+.
+/
 ExtensionParent
 .
 sys
