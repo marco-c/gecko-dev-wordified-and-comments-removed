@@ -4695,6 +4695,11 @@ CustomizableUI
 createWidget
 (
 item
+lazy
+.
+CustomizableUI
+.
+SOURCE_BUILTIN
 )
 ;
 lazy
