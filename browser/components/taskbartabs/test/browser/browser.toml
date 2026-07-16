@@ -160,13 +160,6 @@ js
 ]
 [
 "
-browser_taskbarTabs_pin
-.
-js
-"
-]
-[
-"
 browser_taskbarTabs_telemetry
 .
 js

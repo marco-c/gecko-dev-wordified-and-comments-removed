@@ -1375,7 +1375,7 @@ firstCall
 .
 args
 [
-1
+2
 ]
 fakeImg
 "
@@ -1691,7 +1691,7 @@ firstCall
 .
 args
 [
-1
+2
 ]
 )
 aImageWithoutTab
@@ -1900,7 +1900,7 @@ firstCall
 .
 args
 [
-1
+2
 ]
 )
 aImage
@@ -1919,7 +1919,7 @@ firstCall
 .
 args
 [
-1
+2
 ]
 )
 encodeImagePNG

@@ -134,7 +134,8 @@ nsIWinTaskbar
 const
 registry
 =
-createInMemoryRegistry
+new
+TaskbarTabsRegistry
 (
 )
 ;
