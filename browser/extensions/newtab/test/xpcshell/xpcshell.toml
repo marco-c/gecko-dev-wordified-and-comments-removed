@@ -274,13 +274,6 @@ js
 ]
 [
 "
-test_StocksFeed
-.
-js
-"
-]
-[
-"
 test_Store
 .
 js
