@@ -393,6 +393,10 @@ originalExtension
 File
 (
 previousName
+.
+trim
+(
+)
 )
 .
 extension
@@ -408,6 +412,10 @@ File
 action
 .
 newName
+.
+trim
+(
+)
 )
 .
 extension
@@ -417,13 +425,6 @@ lowercase
 )
 if
 (
-proposedExtension
-.
-isNotEmpty
-(
-)
-&
-&
 proposedExtension
 !
 =
