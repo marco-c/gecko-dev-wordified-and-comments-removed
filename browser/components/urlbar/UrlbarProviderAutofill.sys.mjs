@@ -3408,7 +3408,7 @@ queryContext
 searchString
 allowAutofill
 :
-false
+true
 resetSearchState
 :
 false
