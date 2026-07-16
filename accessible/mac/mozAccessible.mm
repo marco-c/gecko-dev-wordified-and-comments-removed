@@ -2065,7 +2065,12 @@ if
 (
 !
 [
+(
+NSString
+*
+)
 macSubrole
+\
 isEqualToString
 :
 NSAccessibilityUnknownSubrole

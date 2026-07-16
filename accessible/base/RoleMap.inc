@@ -36,7 +36,7 @@ nsGkAtoms
 menubar
 ATK_ROLE_MENU_BAR
 NSAccessibilityMenuBarRole
-NSAccessibilityUnknownSubrole
+nil
 ROLE_SYSTEM_MENUBAR
 ROLE_SYSTEM_MENUBAR
 java
@@ -65,7 +65,7 @@ nsGkAtoms
 scrollbar
 ATK_ROLE_SCROLL_BAR
 NSAccessibilityScrollBarRole
-NSAccessibilityUnknownSubrole
+nil
 ROLE_SYSTEM_SCROLLBAR
 ROLE_SYSTEM_SCROLLBAR
 java
@@ -152,7 +152,7 @@ nsGkAtoms
 menu
 ATK_ROLE_MENU
 NSAccessibilityMenuRole
-NSAccessibilityUnknownSubrole
+nil
 ROLE_SYSTEM_MENUPOPUP
 ROLE_SYSTEM_MENUPOPUP
 java
@@ -181,7 +181,7 @@ nsGkAtoms
 menuitem
 ATK_ROLE_MENU_ITEM
 NSAccessibilityMenuItemRole
-NSAccessibilityUnknownSubrole
+nil
 ROLE_SYSTEM_MENUITEM
 ROLE_SYSTEM_MENUITEM
 java
@@ -418,7 +418,7 @@ nsGkAtoms
 toolbar
 ATK_ROLE_TOOL_BAR
 NSAccessibilityToolbarRole
-NSAccessibilityUnknownSubrole
+nil
 ROLE_SYSTEM_TOOLBAR
 ROLE_SYSTEM_TOOLBAR
 java
@@ -478,7 +478,7 @@ nsGkAtoms
 table
 ATK_ROLE_TABLE
 NSAccessibilityTableRole
-NSAccessibilityUnknownSubrole
+nil
 ROLE_SYSTEM_TABLE
 ROLE_SYSTEM_TABLE
 java
@@ -507,7 +507,7 @@ nsGkAtoms
 columnheader
 ATK_ROLE_COLUMN_HEADER
 NSAccessibilityCellRole
-NSAccessibilityUnknownSubrole
+nil
 ROLE_SYSTEM_COLUMNHEADER
 ROLE_SYSTEM_COLUMNHEADER
 java
@@ -536,7 +536,7 @@ nsGkAtoms
 rowheader
 ATK_ROLE_ROW_HEADER
 NSAccessibilityCellRole
-NSAccessibilityUnknownSubrole
+nil
 ROLE_SYSTEM_ROWHEADER
 ROLE_SYSTEM_ROWHEADER
 java
@@ -565,7 +565,7 @@ nsGkAtoms
 row
 ATK_ROLE_TABLE_ROW
 NSAccessibilityRowRole
-NSAccessibilityUnknownSubrole
+nil
 ROLE_SYSTEM_ROW
 ROLE_SYSTEM_ROW
 java
@@ -594,7 +594,7 @@ nsGkAtoms
 cell
 ATK_ROLE_TABLE_CELL
 NSAccessibilityCellRole
-NSAccessibilityUnknownSubrole
+nil
 ROLE_SYSTEM_CELL
 ROLE_SYSTEM_CELL
 java
@@ -623,7 +623,7 @@ nsGkAtoms
 link
 ATK_ROLE_LINK
 NSAccessibilityLinkRole
-NSAccessibilityUnknownSubrole
+nil
 ROLE_SYSTEM_LINK
 ROLE_SYSTEM_LINK
 java
@@ -681,7 +681,7 @@ nsGkAtoms
 listitem
 ATK_ROLE_LIST_ITEM
 NSAccessibilityGroupRole
-NSAccessibilityUnknownSubrole
+nil
 ROLE_SYSTEM_LISTITEM
 ROLE_SYSTEM_LISTITEM
 java
@@ -710,7 +710,7 @@ nsGkAtoms
 tree
 ATK_ROLE_TREE
 NSAccessibilityOutlineRole
-NSAccessibilityUnknownSubrole
+nil
 ROLE_SYSTEM_OUTLINE
 ROLE_SYSTEM_OUTLINE
 java
@@ -830,7 +830,7 @@ nsGkAtoms
 image
 ATK_ROLE_IMAGE
 NSAccessibilityImageRole
-NSAccessibilityUnknownSubrole
+nil
 ROLE_SYSTEM_GRAPHIC
 ROLE_SYSTEM_GRAPHIC
 java
@@ -912,7 +912,7 @@ nsGkAtoms
 button
 ATK_ROLE_PUSH_BUTTON
 NSAccessibilityButtonRole
-NSAccessibilityUnknownSubrole
+nil
 ROLE_SYSTEM_PUSHBUTTON
 ROLE_SYSTEM_PUSHBUTTON
 java
@@ -941,7 +941,7 @@ nsGkAtoms
 checkbox
 ATK_ROLE_CHECK_BOX
 NSAccessibilityCheckBoxRole
-NSAccessibilityUnknownSubrole
+nil
 ROLE_SYSTEM_CHECKBUTTON
 ROLE_SYSTEM_CHECKBUTTON
 java
@@ -970,7 +970,7 @@ nsGkAtoms
 radio
 ATK_ROLE_RADIO_BUTTON
 NSAccessibilityRadioButtonRole
-NSAccessibilityUnknownSubrole
+nil
 ROLE_SYSTEM_RADIOBUTTON
 ROLE_SYSTEM_RADIOBUTTON
 java
@@ -999,7 +999,7 @@ nsGkAtoms
 combobox
 ATK_ROLE_COMBO_BOX
 NSAccessibilityPopUpButtonRole
-NSAccessibilityUnknownSubrole
+nil
 ROLE_SYSTEM_COMBOBOX
 ROLE_SYSTEM_COMBOBOX
 java
@@ -1028,7 +1028,7 @@ nsGkAtoms
 progressbar
 ATK_ROLE_PROGRESS_BAR
 NSAccessibilityProgressIndicatorRole
-NSAccessibilityUnknownSubrole
+nil
 ROLE_SYSTEM_PROGRESSBAR
 ROLE_SYSTEM_PROGRESSBAR
 java
@@ -1057,7 +1057,7 @@ nsGkAtoms
 slider
 ATK_ROLE_SLIDER
 NSAccessibilitySliderRole
-NSAccessibilityUnknownSubrole
+nil
 ROLE_SYSTEM_SLIDER
 ROLE_SYSTEM_SLIDER
 java
@@ -1086,7 +1086,7 @@ nsGkAtoms
 spinbutton
 ATK_ROLE_SPIN_BUTTON
 NSAccessibilityIncrementorRole
-NSAccessibilityUnknownSubrole
+nil
 ROLE_SYSTEM_SPINBUTTON
 ROLE_SYSTEM_SPINBUTTON
 java
@@ -1256,7 +1256,7 @@ nsGkAtoms
 tablist
 ATK_ROLE_PAGE_TAB_LIST
 NSAccessibilityTabGroupRole
-NSAccessibilityUnknownSubrole
+nil
 ROLE_SYSTEM_PAGETABLIST
 ROLE_SYSTEM_PAGETABLIST
 java
@@ -1313,7 +1313,7 @@ nsGkAtoms
 menuitemcheckbox
 ATK_ROLE_CHECK_MENU_ITEM
 NSAccessibilityMenuItemRole
-NSAccessibilityUnknownSubrole
+nil
 ROLE_SYSTEM_MENUITEM
 IA2_ROLE_CHECK_MENU_ITEM
 java
@@ -1453,7 +1453,7 @@ nsGkAtoms
 menuitemradio
 ATK_ROLE_RADIO_MENU_ITEM
 NSAccessibilityMenuItemRole
-NSAccessibilityUnknownSubrole
+nil
 ROLE_SYSTEM_MENUITEM
 IA2_ROLE_RADIO_MENU_ITEM
 java
@@ -1543,7 +1543,7 @@ nsGkAtoms
 treegrid
 ATK_ROLE_TREE_TABLE
 NSAccessibilityTableRole
-NSAccessibilityUnknownSubrole
+nil
 ROLE_SYSTEM_OUTLINE
 ROLE_SYSTEM_OUTLINE
 java
@@ -1572,7 +1572,7 @@ nsGkAtoms
 paragraph
 ATK_ROLE_PARAGRAPH
 NSAccessibilityGroupRole
-NSAccessibilityUnknownSubrole
+nil
 ROLE_SYSTEM_GROUPING
 IA2_ROLE_PARAGRAPH
 java
@@ -1601,7 +1601,7 @@ nsGkAtoms
 textbox
 ATK_ROLE_ENTRY
 NSAccessibilityTextFieldRole
-NSAccessibilityUnknownSubrole
+nil
 ROLE_SYSTEM_TEXT
 ROLE_SYSTEM_TEXT
 java
@@ -1630,7 +1630,7 @@ nsGkAtoms
 caption
 ATK_ROLE_CAPTION
 NSAccessibilityGroupRole
-NSAccessibilityUnknownSubrole
+nil
 ROLE_SYSTEM_GROUPING
 IA2_ROLE_CAPTION
 java
@@ -1695,7 +1695,7 @@ ATK_ROLE_HEADING
 "
 AXHeading
 "
-NSAccessibilityUnknownSubrole
+nil
 ROLE_SYSTEM_GROUPING
 IA2_ROLE_HEADING
 java
@@ -1810,7 +1810,7 @@ nsGkAtoms
 menuitem
 ATK_ROLE_MENU
 NSAccessibilityMenuItemRole
-NSAccessibilityUnknownSubrole
+nil
 ROLE_SYSTEM_MENUITEM
 ROLE_SYSTEM_MENUITEM
 java
@@ -1840,7 +1840,7 @@ nsGkAtoms
 listbox
 ATK_ROLE_MENU
 NSAccessibilityMenuRole
-NSAccessibilityUnknownSubrole
+nil
 ROLE_SYSTEM_LIST
 ROLE_SYSTEM_LIST
 java
@@ -1870,7 +1870,7 @@ nsGkAtoms
 option
 ATK_ROLE_MENU_ITEM
 NSAccessibilityMenuItemRole
-NSAccessibilityUnknownSubrole
+nil
 ROLE_SYSTEM_LISTITEM
 ROLE_SYSTEM_LISTITEM
 java
@@ -1902,7 +1902,7 @@ ATK_ROLE_IMAGE
 "
 AXImageMap
 "
-NSAccessibilityUnknownSubrole
+nil
 ROLE_SYSTEM_GRAPHIC
 ROLE_SYSTEM_GRAPHIC
 java
@@ -1932,7 +1932,7 @@ nsGkAtoms
 option
 ATK_ROLE_LIST_ITEM
 NSAccessibilityStaticTextRole
-NSAccessibilityUnknownSubrole
+nil
 ROLE_SYSTEM_LISTITEM
 ROLE_SYSTEM_LISTITEM
 java
@@ -1960,7 +1960,7 @@ option
 nullptr
 ATK_ROLE_LIST_ITEM
 NSAccessibilityRowRole
-NSAccessibilityUnknownSubrole
+nil
 ROLE_SYSTEM_LISTITEM
 ROLE_SYSTEM_LISTITEM
 java
@@ -2050,7 +2050,7 @@ nsGkAtoms
 gridcell
 ATK_ROLE_TABLE_CELL
 NSAccessibilityCellRole
-NSAccessibilityUnknownSubrole
+nil
 ROLE_SYSTEM_CELL
 ROLE_SYSTEM_CELL
 java
@@ -2110,7 +2110,7 @@ nsGkAtoms
 figure
 ATK_ROLE_PANEL
 NSAccessibilityGroupRole
-NSAccessibilityUnknownSubrole
+nil
 ROLE_SYSTEM_GROUPING
 ROLE_SYSTEM_GROUPING
 java
@@ -3259,7 +3259,7 @@ nsGkAtoms
 radiogroup
 ATK_ROLE_PANEL
 NSAccessibilityRadioGroupRole
-NSAccessibilityUnknownSubrole
+nil
 ROLE_SYSTEM_GROUPING
 ROLE_SYSTEM_GROUPING
 java
@@ -3518,7 +3518,7 @@ nsGkAtoms
 combobox
 ATK_ROLE_COMBO_BOX
 NSAccessibilityComboBoxRole
-NSAccessibilityUnknownSubrole
+nil
 ROLE_SYSTEM_COMBOBOX
 ROLE_SYSTEM_COMBOBOX
 java
@@ -3547,7 +3547,7 @@ nsGkAtoms
 blockquote
 ATK_ROLE_BLOCK_QUOTE
 NSAccessibilityGroupRole
-NSAccessibilityUnknownSubrole
+nil
 ROLE_SYSTEM_GROUPING
 IA2_ROLE_BLOCK_QUOTE
 java
@@ -4034,7 +4034,7 @@ nsGkAtoms
 grid
 ATK_ROLE_TABLE
 NSAccessibilityTableRole
-NSAccessibilityUnknownSubrole
+nil
 ROLE_SYSTEM_TABLE
 ROLE_SYSTEM_TABLE
 java
