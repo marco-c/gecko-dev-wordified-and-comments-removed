@@ -18193,11 +18193,6 @@ return
 QueueSuspended
 ;
 }
-bool
-hadDelayed
-=
-delayedMarkingWorkAdded
-;
 marker
 (
 )
@@ -18209,10 +18204,6 @@ obj
 ;
 if
 (
-!
-hadDelayed
-&
-&
 delayedMarkingWorkAdded
 )
 {
