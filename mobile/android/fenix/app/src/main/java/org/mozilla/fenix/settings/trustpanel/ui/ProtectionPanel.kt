@@ -1252,7 +1252,7 @@ iconsR
 .
 drawable
 .
-mozac_ic_shield_slash_critical_24
+mozac_ic_shield_slash_multicolor_24
 )
 state
 =
@@ -1461,7 +1461,7 @@ iconsR
 .
 drawable
 .
-mozac_ic_lock_slash_critical_24
+mozac_ic_lock_slash_multicolor_24
 )
 state
 =

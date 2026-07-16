@@ -3409,9 +3409,6 @@ isDesktopMode
 isPdf
 =
 isPdf
-isPrivate
-=
-isPrivate
 isReaderViewActive
 =
 isReaderViewActive
@@ -4392,9 +4389,6 @@ isSandboxCustomTab
 args
 .
 isSandboxCustomTab
-isPrivate
-=
-isPrivate
 isExtensionsExpanded
 =
 isExtensionsExpanded

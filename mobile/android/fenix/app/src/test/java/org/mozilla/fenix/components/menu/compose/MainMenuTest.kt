@@ -393,9 +393,6 @@ false
 isPdf
 =
 false
-isPrivate
-=
-false
 isReaderViewActive
 =
 false

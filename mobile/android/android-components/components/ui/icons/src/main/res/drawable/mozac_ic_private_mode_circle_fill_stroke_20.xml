@@ -120,7 +120,7 @@ fillColor
 "
 color
 /
-mozac_ui_private_mode_circle_fill
+mozac_ic_private_mode_circle_fill
 "
 android
 :
@@ -206,7 +206,7 @@ strokeColor
 "
 color
 /
-mozac_ui_private_mode_circle_stroke_fill
+mozac_ic_private_mode_circle_stroke_fill
 "
 /
 >
@@ -219,7 +219,7 @@ fillColor
 "
 color
 /
-mozac_ui_private_mode_mask_fill
+mozac_ic_private_mode_mask_fill
 "
 android
 :
