@@ -2708,9 +2708,13 @@ max
 {
 if
 (
+!
+(
 value
-<
+>
+=
 min
+)
 )
 return
 min
