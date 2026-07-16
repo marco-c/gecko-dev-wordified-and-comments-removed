@@ -1503,6 +1503,13 @@ TabMetrics
 .
 userTriggeredContext
 (
+gBrowser
+.
+TabMetrics
+.
+METRIC_SOURCE
+.
+KEYBOARD
 )
 excludePinnedTabs
 }
@@ -1583,6 +1590,13 @@ TabMetrics
 .
 userTriggeredContext
 (
+gBrowser
+.
+TabMetrics
+.
+METRIC_SOURCE
+.
+KEYBOARD
 )
 }
 )

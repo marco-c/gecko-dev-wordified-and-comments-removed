@@ -682,6 +682,7 @@ DIRECTION_BACKWARD
 :
 DIRECTION_FORWARD
 true
+event
 )
 ;
 event
@@ -713,6 +714,7 @@ advanceSelectedTab
 (
 DIRECTION_BACKWARD
 true
+event
 )
 ;
 event
@@ -744,6 +746,7 @@ advanceSelectedTab
 (
 DIRECTION_FORWARD
 true
+event
 )
 ;
 event
@@ -3876,6 +3879,7 @@ advanceSelectedTab
 (
 DIRECTION_FORWARD
 false
+event
 )
 ;
 }
@@ -3887,6 +3891,7 @@ advanceSelectedTab
 (
 DIRECTION_BACKWARD
 false
+event
 )
 ;
 }
@@ -5247,6 +5252,7 @@ advanceSelectedTab
 (
 aDir
 aWrap
+aEvent
 )
 {
 let
