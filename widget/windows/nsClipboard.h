@@ -211,7 +211,7 @@ aFormat
 const
 char
 *
-aMIMEFlavor
+aMIMEImageFormat
 void
 *
 *
@@ -306,12 +306,6 @@ GetHtmlClipboardFormat
 static
 UINT
 GetCustomClipboardFormat
-(
-)
-;
-static
-UINT
-GetWebCustomFormatMapClipboardFormat
 (
 )
 ;
