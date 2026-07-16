@@ -6,6 +6,11 @@ define
 DOM_MEDIA_GTEST_AUDIOVERIFIER_H_
 #
 include
+<
+numbers
+>
+#
+include
 "
 AudioGenerator
 .
@@ -305,7 +310,13 @@ sin
 (
 2
 *
-M_PI
+std
+:
+:
+numbers
+:
+:
+pi
 *
 mFrequency
 /

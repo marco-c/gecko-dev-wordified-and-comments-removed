@@ -6,6 +6,11 @@ define
 CanvasRenderingContext2D_h
 #
 include
+<
+numbers
+>
+#
+include
 "
 FilterDescription
 .
@@ -4911,7 +4916,13 @@ sqrt
 (
 2
 *
-M_PI
+std
+:
+:
+numbers
+:
+:
+pi
 )
 /
 4
