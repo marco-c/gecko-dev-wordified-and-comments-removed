@@ -330,9 +330,6 @@ true
 supportsEnableWindowGlobalThreadActors
 :
 true
-supportsCommentNodesDisplayControl
-:
-true
 }
 ;
 }
