@@ -558,7 +558,9 @@ verifySelectedSnapTarget
 t
 scroller
 expected_target_y
-axis
+"
+y
+"
 )
 ;
 }
@@ -585,7 +587,9 @@ verifySelectedSnapTarget
 t
 scroller
 expected_target_x
-axis
+"
+x
+"
 )
 ;
 }
