@@ -1074,6 +1074,7 @@ pushes
 =
 get_pushes_in_gap
 (
+            
 parameters
 input_for_action
 .
@@ -1085,6 +1086,8 @@ label
 "
 "
 )
+graph_config
+        
 )
         
 if
@@ -1130,27 +1133,22 @@ info
 (
         
 "
-Backfill
-started
+BACKFILL_STARTED
 :
-label
-=
-%
-s
-strategy
-=
-%
-s
-slices
-=
-%
-d
-target_pushes
-=
 %
 s
 "
         
+json
+.
+dumps
+(
+{
+            
+"
+label
+"
+:
 input_for_action
 .
 get
@@ -1161,12 +1159,36 @@ label
 "
 "
 )
-        
+            
+"
 strategy
-        
+"
+:
+strategy
+            
+"
 slices
-        
+"
+:
+slices
+            
+"
+scanned_push_count
+"
+:
+len
+(
+pushes
+)
+            
+"
+target_pushes
+"
+:
 planned_pushes
+        
+}
+)
     
 )
     
