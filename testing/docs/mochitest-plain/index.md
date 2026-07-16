@@ -144,7 +144,7 @@ gtest
 /
 index
 .
-rst
+md
 )
 to
 do
