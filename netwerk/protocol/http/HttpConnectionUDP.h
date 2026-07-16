@@ -406,6 +406,11 @@ SetDontExclude
 )
 override
 ;
+bool
+IsConnectedAndUnusable
+(
+)
+;
 private
 :
 nsresult
