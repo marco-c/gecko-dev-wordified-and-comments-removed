@@ -90,6 +90,16 @@ DIRS
 zipwriter
 "
 ]
+TEST_DIRS
++
+=
+[
+"
+test
+/
+gtest
+"
+]
 MOCHITEST_MANIFESTS
 +
 =
