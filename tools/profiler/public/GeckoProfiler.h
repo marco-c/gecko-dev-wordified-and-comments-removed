@@ -869,6 +869,8 @@ const
 char
 *
 aFilename
+bool
+aExitAfterDump
 )
 ;
 void
