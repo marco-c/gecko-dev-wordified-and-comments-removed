@@ -360,11 +360,15 @@ false
 ]
 [
 "
-toolkit
+permissions
+.
+desktop
+-
+notification
 .
 telemetry
 .
-site_categories
+siteCategories
 "
 JSON
 .
