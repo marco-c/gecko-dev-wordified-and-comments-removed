@@ -905,7 +905,7 @@ if
 lastSeperator
 =
 =
-NULL
+nullptr
 )
 {
 return
