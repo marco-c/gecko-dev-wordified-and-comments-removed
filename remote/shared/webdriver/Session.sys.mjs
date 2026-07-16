@@ -2691,6 +2691,13 @@ navigableSeenNodes
 =
 null
 ;
+if
+(
+this
+.
+acceptInsecureCerts
+)
+{
 lazy
 .
 Certificates
@@ -2699,6 +2706,7 @@ enableSecurityChecks
 (
 )
 ;
+}
 /
 /
 Close
