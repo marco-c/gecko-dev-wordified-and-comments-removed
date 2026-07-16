@@ -89,9 +89,9 @@ secondary
 -
 button
 {
-display
+visibility
 :
-none
+hidden
 ;
 :
 host
@@ -101,9 +101,9 @@ hover
 )
 &
 {
-display
+visibility
 :
-inline
+visible
 ;
 }
 }
