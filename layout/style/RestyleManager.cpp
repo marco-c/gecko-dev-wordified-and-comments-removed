@@ -5541,6 +5541,15 @@ GetRealFrameForPlaceholder
 f
 )
 ;
+if
+(
+!
+outOfFlow
+)
+{
+continue
+;
+}
 NS_ASSERTION
 (
 !
