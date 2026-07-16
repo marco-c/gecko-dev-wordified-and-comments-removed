@@ -1690,6 +1690,13 @@ targetType
 )
 ;
 }
+ContentProcessWatcherRegistry
+.
+remove
+(
+watcherDataObject
+)
+;
 }
 /
 *
