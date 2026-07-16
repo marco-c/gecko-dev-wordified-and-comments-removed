@@ -17486,6 +17486,15 @@ type
 string
 "
 }
+suggestionId
+:
+{
+type
+:
+"
+string
+"
+}
 suggestionObject
 :
 {

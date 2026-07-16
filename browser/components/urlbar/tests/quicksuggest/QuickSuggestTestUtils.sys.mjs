@@ -3576,6 +3576,9 @@ categories
 =
 [
 ]
+suggestionId
+=
+undefined
 }
 =
 {
@@ -3639,6 +3642,7 @@ originalUrl
 requestId
 source
 provider
+suggestionId
 isSponsored
 :
 true

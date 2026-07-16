@@ -36,6 +36,15 @@ function
 (
 )
 {
+GleanPings
+.
+quickSuggest
+.
+setEnabled
+(
+true
+)
+;
 await
 SpecialPowers
 .
@@ -256,6 +265,9 @@ reportingUrl
 SUGGESTION
 .
 impression_url
+suggestionId
+:
+null
 }
 click
 :
@@ -304,6 +316,9 @@ reportingUrl
 SUGGESTION
 .
 impression_url
+suggestionId
+:
+null
 }
 {
 pingType
@@ -346,6 +361,9 @@ reportingUrl
 SUGGESTION
 .
 click_url
+suggestionId
+:
+null
 }
 ]
 commands
@@ -404,6 +422,9 @@ reportingUrl
 SUGGESTION
 .
 impression_url
+suggestionId
+:
+null
 }
 {
 pingType
@@ -446,6 +467,9 @@ iabCategory
 SUGGESTION
 .
 iab_category
+suggestionId
+:
+null
 }
 ]
 }
@@ -502,6 +526,9 @@ reportingUrl
 SUGGESTION
 .
 impression_url
+suggestionId
+:
+null
 }
 ]
 }
@@ -636,6 +663,9 @@ reportingUrl
 SUGGESTION
 .
 impression_url
+suggestionId
+:
+null
 }
 click
 :
@@ -685,6 +715,9 @@ reportingUrl
 SUGGESTION
 .
 impression_url
+suggestionId
+:
+null
 }
 {
 pingType
@@ -728,6 +761,9 @@ reportingUrl
 SUGGESTION
 .
 click_url
+suggestionId
+:
+null
 }
 ]
 commands
@@ -787,6 +823,9 @@ reportingUrl
 SUGGESTION
 .
 impression_url
+suggestionId
+:
+null
 }
 {
 pingType
@@ -830,6 +869,9 @@ iabCategory
 SUGGESTION
 .
 iab_category
+suggestionId
+:
+null
 }
 ]
 }
@@ -887,6 +929,9 @@ reportingUrl
 SUGGESTION
 .
 impression_url
+suggestionId
+:
+null
 }
 ]
 }
