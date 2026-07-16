@@ -61,3 +61,10 @@ browser_policies_mistyped_json
 js
 "
 ]
+[
+"
+browser_policies_setAndLockPref_API
+.
+js
+"
+]

@@ -152,13 +152,6 @@ js
 ]
 [
 "
-browser_policies_setAndLockPref_API
-.
-js
-"
-]
-[
-"
 browser_policy_allowfileselectiondialogs
 .
 js
