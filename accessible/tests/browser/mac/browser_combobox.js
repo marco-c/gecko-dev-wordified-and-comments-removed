@@ -538,7 +538,7 @@ box
 getAttributeValue
 (
 "
-AXARIAControls
+AXLinkedUIElements
 "
 )
 .

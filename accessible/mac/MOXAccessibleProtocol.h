@@ -401,14 +401,6 @@ NSArray
 *
 _Nullable
 )
-moxARIAControls
-;
--
-(
-NSArray
-*
-_Nullable
-)
 moxDetailsElements
 ;
 -

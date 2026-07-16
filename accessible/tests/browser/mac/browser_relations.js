@@ -86,7 +86,7 @@ id
 getAttributeValue
 (
 "
-AXARIAControls
+AXLinkedUIElements
 "
 )
 .

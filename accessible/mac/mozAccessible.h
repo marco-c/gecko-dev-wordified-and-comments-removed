@@ -708,13 +708,6 @@ moxLinkedUIElements
 NSArray
 *
 )
-moxARIAControls
-;
--
-(
-NSArray
-*
-)
 moxDetailsElements
 ;
 -
