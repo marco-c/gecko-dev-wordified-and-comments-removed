@@ -3224,6 +3224,13 @@ MaxComponentCanonOpts
 =
 1000
 ;
+static
+const
+uint32_t
+MaxComponentInlineExports
+=
+MaxComponentImports
+;
 #
 endif
 static

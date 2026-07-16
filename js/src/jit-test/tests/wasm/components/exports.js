@@ -436,8 +436,6 @@ invalid
 function
 index
 1
-for
-export
 /
 )
 ;
@@ -465,8 +463,6 @@ invalid
 type
 index
 5
-for
-export
 /
 )
 ;
@@ -496,8 +492,6 @@ core
 module
 index
 1
-for
-export
 /
 )
 ;
