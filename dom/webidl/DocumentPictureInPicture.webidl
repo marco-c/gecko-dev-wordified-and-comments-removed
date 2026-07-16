@@ -110,6 +110,7 @@ EventTarget
 {
 [
 NewObject
+NeedsSubjectPrincipal
 ]
 Promise
 <
