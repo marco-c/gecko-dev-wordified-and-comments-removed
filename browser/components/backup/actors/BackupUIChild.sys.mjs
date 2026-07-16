@@ -804,6 +804,15 @@ GetBackupFileInfo
 "
 )
 {
+let
+{
+backupFile
+}
+=
+event
+.
+detail
+;
 this
 .
 sendAsyncMessage
@@ -811,6 +820,9 @@ sendAsyncMessage
 "
 GetBackupFileInfo
 "
+{
+backupFile
+}
 )
 ;
 }
