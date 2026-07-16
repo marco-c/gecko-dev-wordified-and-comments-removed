@@ -1143,7 +1143,7 @@ return
 ;
 }
 function
-getSafePrivatePropertiesSymbols
+getSafePrivateProperties
 (
 obj
 )
@@ -1481,7 +1481,7 @@ isArrayIndex
 getPropsForEvent
 getPropNamesFromObject
 getSafeOwnPropertySymbols
-getSafePrivatePropertiesSymbols
+getSafePrivateProperties
 getModifiersForEvent
 isObjectOrFunction
 createStringGrip

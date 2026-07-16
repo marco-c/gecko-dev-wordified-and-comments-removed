@@ -174,7 +174,7 @@ index
 )
 {
 const
-symbol
+privateName
 =
 privateProperties
 [
@@ -185,7 +185,7 @@ return
 {
 name
 :
-symbol
+privateName
 .
 description
 descriptor
@@ -193,7 +193,7 @@ descriptor
 propertyDescriptor
 (
 objectActor
-symbol
+privateName
 0
 )
 }
