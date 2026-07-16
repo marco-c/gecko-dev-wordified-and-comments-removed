@@ -191,6 +191,12 @@ SummarizationState
 Finished
 .
 ErrorDismissed
+PageLoadStarted
+-
+>
+SummarizationState
+.
+PageLoading
 is
 SummarizationRequested
 -
@@ -353,6 +359,7 @@ AllowClicked
 OnDeviceSummarizationShakeConsentAction
 .
 CancelClicked
+PageLoadCompleted
 ViewAppeared
 is
 ViewDismissed
