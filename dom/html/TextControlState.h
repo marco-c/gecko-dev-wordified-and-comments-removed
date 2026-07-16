@@ -485,6 +485,17 @@ UpdateEditorOnTypeChange
 nodiscard
 ]
 ]
+bool
+IsPreparingEditor
+(
+)
+const
+;
+[
+[
+nodiscard
+]
+]
 MOZ_CAN_RUN_SCRIPT
 nsresult
 OnEditActionHandled

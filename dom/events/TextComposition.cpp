@@ -2829,6 +2829,10 @@ contentObserver
 >
 MaybeNotifyCompositionEventHandled
 (
+aCompositionEvent
+-
+>
+mMessage
 )
 ;
 return

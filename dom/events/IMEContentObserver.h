@@ -459,6 +459,12 @@ IsEditorHandlingEventForComposition
 const
 ;
 bool
+IsPreparingTextEditor
+(
+)
+const
+;
+bool
 KeepAliveDuringDeactive
 (
 )
@@ -571,6 +577,7 @@ aAllowAsync
 void
 MaybeNotifyCompositionEventHandled
 (
+EventMessage
 )
 ;
 void

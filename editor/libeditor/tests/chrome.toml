@@ -97,6 +97,13 @@ png
 ]
 [
 "
+test_reframe_text_control_at_compositionstart
+.
+html
+"
+]
+[
+"
 test_texteditor_keyevent_handling
 .
 html
