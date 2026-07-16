@@ -578,11 +578,6 @@ mPlaybackRate
 #
 ifdef
 MOZ_WMF_CDM
-bool
-mHardwareResetInProgress
-=
-false
-;
 static
 inline
 RefPtr
