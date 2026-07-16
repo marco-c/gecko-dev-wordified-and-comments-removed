@@ -552,7 +552,7 @@ HomeFragmentDirections
 .
 actionGlobalUninstallSurveyDialog
 (
-UNINSTALL_SURVEY_ARG
+UNINSTALL_MICROSURVEY_ID
 )
 )
 }
@@ -585,10 +585,14 @@ uninstall_survey_shortcut
 private
 const
 val
-UNINSTALL_SURVEY_ARG
+UNINSTALL_MICROSURVEY_ID
 =
 "
-uninstall_survey_arg
+microsurvey
+-
+uninstall
+-
+survey
 "
 }
 }
