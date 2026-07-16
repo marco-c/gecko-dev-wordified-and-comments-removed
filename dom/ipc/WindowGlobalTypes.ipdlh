@@ -186,7 +186,7 @@ principal
 ;
 nullable
 nsIPrincipal
-storagePrincipal
+partitionedPrincipal
 ;
 nullable
 nsIURI
@@ -246,6 +246,9 @@ blockAllMixedContent
 ;
 bool
 upgradeInsecureRequests
+;
+bool
+partitionStoragePrincipal
 ;
 uint32_t
 sandboxFlags

@@ -803,6 +803,11 @@ documentPrincipal
 readonly
 attribute
 Principal
+documentPartitionedPrincipal
+;
+readonly
+attribute
+Principal
 documentStoragePrincipal
 ;
 readonly
