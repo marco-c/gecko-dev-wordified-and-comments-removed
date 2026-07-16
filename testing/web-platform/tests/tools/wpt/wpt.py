@@ -10,6 +10,8 @@ import
 os
 import
 sys
+import
+traceback
 from
 tools
 import
@@ -1590,7 +1592,25 @@ post_mortem
 else
 :
                 
-raise
+traceback
+.
+print_exc
+(
+)
+                
+sys
+.
+exit
+(
+getattr
+(
+os
+"
+EX_SOFTWARE
+"
+70
+)
+)
     
 sys
 .

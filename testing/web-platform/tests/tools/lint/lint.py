@@ -8502,7 +8502,8 @@ jobs
 0
 )
     
-return
+error_count
+=
 lint
 (
 repo_root
@@ -8512,6 +8513,15 @@ ignore_glob
 github_checks_outputter
 jobs
 )
+    
+return
+1
+if
+error_count
+>
+0
+else
+0
 MIN_FILES_FOR_PARALLEL
 =
 80
@@ -9304,8 +9314,10 @@ None
 try
 :
         
-error_count
-=
+sys
+.
+exit
+(
 main
 (
 *
@@ -9319,6 +9331,7 @@ create_parser
 parse_args
 (
 argv
+)
 )
 )
 )
@@ -9343,20 +9356,14 @@ sys
 .
 exit
 (
-3
-)
-    
-if
-error_count
->
-0
-:
-        
-sys
-.
-exit
+getattr
 (
-1
+os
+"
+EX_SOFTWARE
+"
+70
+)
 )
 if
 __name__
