@@ -675,8 +675,14 @@ onRequestDismiss
 onDismiss
 contentDescription
 =
-"
-"
+stringResource
+(
+R
+.
+string
+.
+tracker_protections_dashboard_close_handlebar_content_description
+)
 modifier
 =
 Modifier
