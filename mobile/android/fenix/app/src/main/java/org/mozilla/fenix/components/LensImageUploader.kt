@@ -2048,7 +2048,7 @@ const
 val
 JPEG_QUALITY
 =
-85
+40
 private
 const
 val
