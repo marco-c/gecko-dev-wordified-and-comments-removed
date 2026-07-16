@@ -1,0 +1,6 @@
+window
+.
+__crossOriginScriptLoaded
+=
+true
+;

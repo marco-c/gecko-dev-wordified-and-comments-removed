@@ -1,0 +1,6 @@
+self
+.
+__scriptLoaded
+=
+true
+;
