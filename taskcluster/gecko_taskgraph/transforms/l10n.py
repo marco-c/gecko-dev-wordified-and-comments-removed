@@ -23,6 +23,14 @@ chunkify
 import
 chunkify
 from
+mozilla_taskgraph
+.
+util
+.
+attributes
+import
+copy_attributes_from_dependent_job
+from
 taskgraph
 .
 transforms
@@ -109,12 +117,7 @@ util
 .
 attributes
 import
-(
-    
-copy_attributes_from_dependent_job
-    
 task_name
-)
 def
 _by_platform
 (

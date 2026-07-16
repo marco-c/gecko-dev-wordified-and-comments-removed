@@ -34,6 +34,14 @@ description
 import
 logging
 from
+mozilla_taskgraph
+.
+util
+.
+attributes
+import
+copy_attributes_from_dependent_job
+from
 taskgraph
 .
 transforms
@@ -65,12 +73,7 @@ util
 .
 attributes
 import
-(
-    
 RELEASE_PROJECTS
-    
-copy_attributes_from_dependent_job
-)
 logger
 =
 logging
