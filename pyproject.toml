@@ -777,6 +777,9 @@ gfx
 /
 angle
 /
+vendor_from_git
+.
+py
 "
 "
 gfx
