@@ -1205,6 +1205,17 @@ Shutdown
 (
 )
 ;
+static
+void
+ResetShutdownForTesting
+(
+)
+{
+sShutdown
+=
+false
+;
+}
 nsresult
 AddEntry
 (
