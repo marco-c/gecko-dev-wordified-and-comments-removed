@@ -45,6 +45,8 @@ public
 :
 enum
 Channel
+:
+int32_t
 {
 CHANNEL_INVALID
 =
