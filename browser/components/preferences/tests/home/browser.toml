@@ -39,6 +39,13 @@ os_integration
 "
 [
 "
+browser_home_pane_late_group_registration
+.
+js
+"
+]
+[
+"
 browser_homepage_default
 .
 js
