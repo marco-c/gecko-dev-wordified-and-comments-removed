@@ -658,6 +658,11 @@ onInteraction
 it
 )
 }
+testTag
+=
+action
+.
+testTag
 )
 }
 }
@@ -713,6 +718,11 @@ onInteraction
 it
 )
 }
+testTag
+=
+action
+.
+testTag
 )
 }
 }
@@ -870,6 +880,11 @@ onClick
 onInteraction
 =
 onInteraction
+testTag
+=
+action
+.
+testTag
 )
 }
 }
