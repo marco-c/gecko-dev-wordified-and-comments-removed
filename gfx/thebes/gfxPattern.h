@@ -7,14 +7,14 @@ GFX_PATTERN_H
 #
 include
 "
-gfxTypes
+gfxMatrix
 .
 h
 "
 #
 include
 "
-gfxMatrix
+gfxTypes
 .
 h
 "

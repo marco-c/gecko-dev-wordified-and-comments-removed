@@ -16,6 +16,13 @@ h
 #
 include
 "
+NativeLayerCA
+.
+h
+"
+#
+include
+"
 mozilla
 /
 layers
@@ -43,13 +50,6 @@ mozilla
 layers
 /
 NativeLayerMacSurfaceHandler
-.
-h
-"
-#
-include
-"
-NativeLayerCA
 .
 h
 "

@@ -20,7 +20,7 @@ mozilla
 /
 layers
 /
-LayersTypes
+CompositorTypes
 .
 h
 "
@@ -31,7 +31,7 @@ mozilla
 /
 layers
 /
-CompositorTypes
+LayersTypes
 .
 h
 "

@@ -44,11 +44,7 @@ h
 #
 include
 "
-mozilla
-/
-gfx
-/
-Types
+CFTypeRefPtr
 .
 h
 "
@@ -64,7 +60,11 @@ h
 #
 include
 "
-CFTypeRefPtr
+mozilla
+/
+gfx
+/
+Types
 .
 h
 "

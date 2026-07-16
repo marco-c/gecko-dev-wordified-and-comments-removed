@@ -21,7 +21,9 @@ h
 #
 include
 "
-nsISupportsImpl
+mozilla
+/
+Atomics
 .
 h
 "
@@ -30,7 +32,7 @@ include
 "
 mozilla
 /
-Atomics
+RefPtr
 .
 h
 "
@@ -72,7 +74,9 @@ include
 "
 mozilla
 /
-RefPtr
+webrender
+/
+WebRenderTypes
 .
 h
 "
@@ -90,11 +94,7 @@ h
 #
 include
 "
-mozilla
-/
-webrender
-/
-WebRenderTypes
+nsISupportsImpl
 .
 h
 "

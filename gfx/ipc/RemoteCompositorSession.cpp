@@ -39,7 +39,7 @@ mozilla
 /
 layers
 /
-APZChild
+APZCTreeManagerChild
 .
 h
 "
@@ -50,7 +50,7 @@ mozilla
 /
 layers
 /
-APZCTreeManagerChild
+APZChild
 .
 h
 "

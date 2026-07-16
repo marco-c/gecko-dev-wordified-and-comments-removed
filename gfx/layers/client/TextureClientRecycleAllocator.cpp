@@ -1,7 +1,7 @@
 #
 include
 "
-gfxPlatform
+TextureClientRecycleAllocator
 .
 h
 "
@@ -9,6 +9,13 @@ h
 include
 "
 ImageContainer
+.
+h
+"
+#
+include
+"
+gfxPlatform
 .
 h
 "
@@ -42,13 +49,6 @@ mozilla
 layers
 /
 TextureForwarder
-.
-h
-"
-#
-include
-"
-TextureClientRecycleAllocator
 .
 h
 "

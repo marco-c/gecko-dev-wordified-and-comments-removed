@@ -14,7 +14,7 @@ include
 "
 mozilla
 /
-ScrollTypes
+DefineEnum
 .
 h
 "
@@ -23,7 +23,7 @@ include
 "
 mozilla
 /
-DefineEnum
+ScrollTypes
 .
 h
 "

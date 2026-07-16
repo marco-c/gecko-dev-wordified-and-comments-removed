@@ -14,6 +14,15 @@ h
 #
 include
 "
+mozilla
+/
+StaticPrefs_gfx
+.
+h
+"
+#
+include
+"
 opentype
 -
 sanitiser

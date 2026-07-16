@@ -8,11 +8,6 @@ h
 #
 include
 <
-algorithm
->
-#
-include
-<
 stdint
 .
 h
@@ -23,6 +18,11 @@ include
 string
 .
 h
+>
+#
+include
+<
+algorithm
 >
 namespace
 mozilla

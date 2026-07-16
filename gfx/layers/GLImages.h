@@ -35,13 +35,6 @@ h
 #
 include
 "
-nsCOMPtr
-.
-h
-"
-#
-include
-"
 mozilla
 /
 Maybe
@@ -67,6 +60,13 @@ mozilla
 gfx
 /
 Point
+.
+h
+"
+#
+include
+"
+nsCOMPtr
 .
 h
 "

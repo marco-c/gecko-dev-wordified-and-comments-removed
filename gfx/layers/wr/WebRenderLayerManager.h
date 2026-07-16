@@ -29,6 +29,13 @@ h
 #
 include
 "
+WindowRenderer
+.
+h
+"
+#
+include
+"
 mozilla
 /
 AlreadyAddRefed
@@ -167,13 +174,6 @@ mozilla
 layers
 /
 WebRenderScrollData
-.
-h
-"
-#
-include
-"
-WindowRenderer
 .
 h
 "

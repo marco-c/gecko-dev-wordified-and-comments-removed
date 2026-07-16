@@ -6,13 +6,6 @@ define
 GLCONTEXTEAGL_H_
 #
 include
-"
-GLContext
-.
-h
-"
-#
-include
 <
 CoreGraphics
 /
@@ -20,6 +13,13 @@ CoreGraphics
 .
 h
 >
+#
+include
+"
+GLContext
+.
+h
+"
 #
 ifdef
 __OBJC__

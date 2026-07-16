@@ -12,13 +12,6 @@ unordered_set
 #
 include
 "
-gfx2DGlue
-.
-h
-"
-#
-include
-"
 GLContextTypes
 .
 h
@@ -41,6 +34,13 @@ h
 include
 "
 Units
+.
+h
+"
+#
+include
+"
+gfx2DGlue
 .
 h
 "

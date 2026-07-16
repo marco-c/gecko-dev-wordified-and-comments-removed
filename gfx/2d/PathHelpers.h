@@ -6,6 +6,11 @@ define
 MOZILLA_GFX_PATHHELPERS_H_
 #
 include
+<
+cmath
+>
+#
+include
 "
 2D
 .
@@ -18,11 +23,6 @@ UserData
 .
 h
 "
-#
-include
-<
-cmath
->
 namespace
 mozilla
 {

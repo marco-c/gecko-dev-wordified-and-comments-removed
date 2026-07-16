@@ -39,7 +39,7 @@ mozilla
 /
 dom
 /
-Element
+Document
 .
 h
 "
@@ -50,7 +50,7 @@ mozilla
 /
 dom
 /
-Document
+Element
 .
 h
 "

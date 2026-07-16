@@ -24,14 +24,14 @@ h
 #
 include
 "
-nsProxyRelease
+nsNetUtil
 .
 h
 "
 #
 include
 "
-nsNetUtil
+nsProxyRelease
 .
 h
 "

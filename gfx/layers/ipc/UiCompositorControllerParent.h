@@ -9,9 +9,7 @@ include
 "
 mozilla
 /
-layers
-/
-PUiCompositorControllerParent
+RefPtr
 .
 h
 "
@@ -42,7 +40,9 @@ include
 "
 mozilla
 /
-RefPtr
+layers
+/
+PUiCompositorControllerParent
 .
 h
 "

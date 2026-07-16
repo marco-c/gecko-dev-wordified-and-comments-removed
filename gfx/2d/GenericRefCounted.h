@@ -14,7 +14,7 @@ include
 "
 mozilla
 /
-RefPtr
+RefCounted
 .
 h
 "
@@ -23,7 +23,7 @@ include
 "
 mozilla
 /
-RefCounted
+RefPtr
 .
 h
 "

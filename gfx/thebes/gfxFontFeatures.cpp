@@ -15,14 +15,14 @@ h
 #
 include
 "
-nsUnicharUtils
+nsHashKeys
 .
 h
 "
 #
 include
 "
-nsHashKeys
+nsUnicharUtils
 .
 h
 "

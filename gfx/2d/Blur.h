@@ -11,7 +11,7 @@ mozilla
 /
 gfx
 /
-Rect
+Point
 .
 h
 "
@@ -22,7 +22,7 @@ mozilla
 /
 gfx
 /
-Point
+Rect
 .
 h
 "

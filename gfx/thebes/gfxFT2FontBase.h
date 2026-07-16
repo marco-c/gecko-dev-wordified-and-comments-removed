@@ -50,14 +50,14 @@ h
 #
 include
 "
-nsTHashMap
+nsHashKeys
 .
 h
 "
 #
 include
 "
-nsHashKeys
+nsTHashMap
 .
 h
 "

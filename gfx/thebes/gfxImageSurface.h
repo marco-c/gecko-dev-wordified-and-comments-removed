@@ -7,6 +7,13 @@ GFX_IMAGESURFACE_H
 #
 include
 "
+gfxASurface
+.
+h
+"
+#
+include
+"
 mozilla
 /
 MemoryReporting
@@ -19,13 +26,6 @@ include
 mozilla
 /
 RefPtr
-.
-h
-"
-#
-include
-"
-gfxASurface
 .
 h
 "
