@@ -368,12 +368,6 @@ restoredState
 }
 WebCompatReporterAction
 .
-BackPressed
-WebCompatReporterAction
-.
-AddMoreInfoClicked
-WebCompatReporterAction
-.
 LearnMoreClicked
 -
 >
