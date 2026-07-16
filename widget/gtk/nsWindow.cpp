@@ -29880,6 +29880,16 @@ KeyPress
 2
 #
 endif
+if
+(
+StaticPrefs
+:
+:
+widget_gtk_x11_key_repeat_throttle_enabled
+(
+)
+)
+{
 GdkDisplay
 *
 gdkDisplay
@@ -30008,6 +30018,7 @@ xkey
 .
 time
 ;
+}
 }
 }
 #
