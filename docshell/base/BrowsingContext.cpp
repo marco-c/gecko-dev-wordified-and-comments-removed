@@ -21894,7 +21894,7 @@ FieldIndex
 IDX_BrowserId
 >
 const
-uint64_t
+uint32_t
 &
 aValue
 ContentParent
