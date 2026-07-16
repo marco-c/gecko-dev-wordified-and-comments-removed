@@ -7489,6 +7489,8 @@ dirty_rect
 plane_split_anchor
 )
 ;
+return
+;
 }
 }
 PrimitiveKind
