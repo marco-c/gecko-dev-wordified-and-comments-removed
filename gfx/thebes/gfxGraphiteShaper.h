@@ -7,13 +7,6 @@ GFX_GRAPHITESHAPER_H
 #
 include
 "
-ThebesRLBoxTypes
-.
-h
-"
-#
-include
-"
 gfxFont
 .
 h
@@ -22,6 +15,13 @@ h
 include
 "
 nsTHashSet
+.
+h
+"
+#
+include
+"
+ThebesRLBoxTypes
 .
 h
 "

@@ -7,11 +7,6 @@ h
 "
 #
 include
-<
-algorithm
->
-#
-include
 "
 mozilla
 /
@@ -19,6 +14,11 @@ Logging
 .
 h
 "
+#
+include
+<
+algorithm
+>
 static
 mozilla
 :

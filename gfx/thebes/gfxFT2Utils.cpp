@@ -1,14 +1,14 @@
 #
 include
 "
-gfxFT2Utils
+gfxFT2FontBase
 .
 h
 "
 #
 include
 "
-gfxFT2FontBase
+gfxFT2Utils
 .
 h
 "

@@ -14,14 +14,14 @@ h
 #
 include
 "
-gfxPoint
+nsSize
 .
 h
 "
 #
 include
 "
-nsSize
+gfxPoint
 .
 h
 "

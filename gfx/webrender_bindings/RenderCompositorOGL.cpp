@@ -33,7 +33,7 @@ mozilla
 /
 gfx
 /
-Logging
+gfxVars
 .
 h
 "
@@ -44,7 +44,7 @@ mozilla
 /
 gfx
 /
-gfxVars
+Logging
 .
 h
 "

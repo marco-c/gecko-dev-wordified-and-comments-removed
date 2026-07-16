@@ -8,13 +8,6 @@ h
 #
 include
 "
-gfx2DGlue
-.
-h
-"
-#
-include
-"
 gfxContext
 .
 h
@@ -23,6 +16,13 @@ h
 include
 "
 gfxPlatform
+.
+h
+"
+#
+include
+"
+gfx2DGlue
 .
 h
 "

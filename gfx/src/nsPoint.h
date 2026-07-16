@@ -12,6 +12,13 @@ cstdint
 #
 include
 "
+nsCoord
+.
+h
+"
+#
+include
+"
 mozilla
 /
 gfx
@@ -28,13 +35,6 @@ mozilla
 gfx
 /
 Point
-.
-h
-"
-#
-include
-"
-nsCoord
 .
 h
 "

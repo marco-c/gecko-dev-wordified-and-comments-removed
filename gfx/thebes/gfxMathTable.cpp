@@ -11,8 +11,6 @@ include
 harfbuzz
 /
 hb
--
-ot
 .
 h
 "
@@ -22,6 +20,8 @@ include
 harfbuzz
 /
 hb
+-
+ot
 .
 h
 "

@@ -43,14 +43,14 @@ h
 #
 include
 "
-nsString
+nsTArray
 .
 h
 "
 #
 include
 "
-nsTArray
+nsString
 .
 h
 "

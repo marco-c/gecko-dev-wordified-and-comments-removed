@@ -14,6 +14,13 @@ h
 #
 include
 "
+nsSize
+.
+h
+"
+#
+include
+"
 mozilla
 /
 AlreadyAddRefed
@@ -39,13 +46,6 @@ mozilla
 gfx
 /
 Types
-.
-h
-"
-#
-include
-"
-nsSize
 .
 h
 "

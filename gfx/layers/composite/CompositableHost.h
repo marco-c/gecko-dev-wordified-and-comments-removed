@@ -90,13 +90,6 @@ h
 #
 include
 "
-Units
-.
-h
-"
-#
-include
-"
 mozilla
 /
 layers
@@ -127,6 +120,13 @@ h
 include
 "
 nscore
+.
+h
+"
+#
+include
+"
+Units
 .
 h
 "

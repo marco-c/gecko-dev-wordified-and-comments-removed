@@ -15,11 +15,6 @@ h
 >
 #
 include
-<
-unordered_map
->
-#
-include
 "
 GLContext
 .
@@ -54,6 +49,11 @@ WaylandBuffer
 .
 h
 "
+#
+include
+<
+unordered_map
+>
 namespace
 mozilla
 :

@@ -31,6 +31,13 @@ USE_CAIRO
 #
 include
 "
+PathCairo
+.
+h
+"
+#
+include
+"
 DrawTargetCairo
 .
 h
@@ -39,13 +46,6 @@ h
 include
 "
 HelpersCairo
-.
-h
-"
-#
-include
-"
-PathCairo
 .
 h
 "

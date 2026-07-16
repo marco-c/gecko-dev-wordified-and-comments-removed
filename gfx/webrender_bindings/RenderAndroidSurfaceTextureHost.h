@@ -7,13 +7,6 @@ MOZILLA_GFX_RENDERANDROIDSURFACETEXTUREHOST_H
 #
 include
 "
-RenderTextureHostSWGL
-.
-h
-"
-#
-include
-"
 mozilla
 /
 java
@@ -30,6 +23,13 @@ mozilla
 layers
 /
 TextureHostOGL
+.
+h
+"
+#
+include
+"
+RenderTextureHostSWGL
 .
 h
 "

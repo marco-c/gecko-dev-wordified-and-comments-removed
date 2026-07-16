@@ -7,6 +7,13 @@ MOZILLA_GFX_VR_VRMANAGERCHILD_H
 #
 include
 "
+nsISupportsImpl
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Attributes
@@ -76,13 +83,6 @@ mozilla
 layers
 /
 LayersTypes
-.
-h
-"
-#
-include
-"
-nsISupportsImpl
 .
 h
 "

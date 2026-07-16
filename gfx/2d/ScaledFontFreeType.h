@@ -6,6 +6,13 @@ define
 MOZILLA_GFX_SCALEDFONTCAIRO_H_
 #
 include
+"
+ScaledFontBase
+.
+h
+"
+#
+include
 <
 cairo
 -
@@ -13,13 +20,6 @@ ft
 .
 h
 >
-#
-include
-"
-ScaledFontBase
-.
-h
-"
 namespace
 mozilla
 {

@@ -23,13 +23,6 @@ h
 #
 include
 "
-ImageContainer
-.
-h
-"
-#
-include
-"
 mozilla
 /
 RefPtr
@@ -77,6 +70,13 @@ mozilla
 layers
 /
 LayersSurfaces
+.
+h
+"
+#
+include
+"
+ImageContainer
 .
 h
 "

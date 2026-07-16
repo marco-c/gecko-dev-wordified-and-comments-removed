@@ -7,14 +7,14 @@ GFX_SHAREABLECANVASRENDERER_H
 #
 include
 "
-CanvasRenderer
+CompositorTypes
 .
 h
 "
 #
 include
 "
-CompositorTypes
+CanvasRenderer
 .
 h
 "

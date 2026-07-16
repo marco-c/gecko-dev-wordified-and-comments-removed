@@ -7,11 +7,6 @@ h
 "
 #
 include
-<
-ostream
->
-#
-include
 "
 Matrix
 .
@@ -24,6 +19,11 @@ Tools
 .
 h
 "
+#
+include
+<
+ostream
+>
 namespace
 mozilla
 {

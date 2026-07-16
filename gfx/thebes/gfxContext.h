@@ -28,6 +28,13 @@ h
 #
 include
 "
+nsTArray
+.
+h
+"
+#
+include
+"
 mozilla
 /
 EnumSet
@@ -42,13 +49,6 @@ mozilla
 gfx
 /
 2D
-.
-h
-"
-#
-include
-"
-nsTArray
 .
 h
 "

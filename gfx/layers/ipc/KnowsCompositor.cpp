@@ -10,9 +10,9 @@ include
 "
 mozilla
 /
-ipc
+layers
 /
-ProtocolUtils
+ImageBridgeChild
 .
 h
 "
@@ -21,9 +21,9 @@ include
 "
 mozilla
 /
-layers
+ipc
 /
-ImageBridgeChild
+ProtocolUtils
 .
 h
 "

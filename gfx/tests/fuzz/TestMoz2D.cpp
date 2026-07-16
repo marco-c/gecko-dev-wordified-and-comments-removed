@@ -1,14 +1,14 @@
 #
 include
 "
-FuzzingBufferReader
+FuzzingInterface
 .
 h
 "
 #
 include
 "
-FuzzingInterface
+FuzzingBufferReader
 .
 h
 "

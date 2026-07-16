@@ -22,7 +22,7 @@ mozilla
 /
 layers
 /
-APZTaskRunnable
+PAPZChild
 .
 h
 "
@@ -33,7 +33,7 @@ mozilla
 /
 layers
 /
-PAPZChild
+APZTaskRunnable
 .
 h
 "

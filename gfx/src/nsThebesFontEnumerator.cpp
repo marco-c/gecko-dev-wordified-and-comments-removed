@@ -51,13 +51,6 @@ h
 #
 include
 "
-nsAtom
-.
-h
-"
-#
-include
-"
 nsCOMPtr
 .
 h
@@ -73,6 +66,13 @@ h
 include
 "
 nsError
+.
+h
+"
+#
+include
+"
+nsAtom
 .
 h
 "

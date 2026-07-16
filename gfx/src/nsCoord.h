@@ -7,13 +7,6 @@ NSCOORD_H
 #
 include
 <
-math
-.
-h
->
-#
-include
-<
 algorithm
 >
 #
@@ -25,6 +18,13 @@ cstdint
 include
 <
 cstdlib
+>
+#
+include
+<
+math
+.
+h
 >
 #
 include

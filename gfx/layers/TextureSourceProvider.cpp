@@ -16,7 +16,7 @@ mozilla
 /
 layers
 /
-PTextureParent
+TextureHost
 .
 h
 "
@@ -27,7 +27,7 @@ mozilla
 /
 layers
 /
-TextureHost
+PTextureParent
 .
 h
 "

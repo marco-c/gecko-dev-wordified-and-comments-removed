@@ -9,7 +9,9 @@ include
 "
 mozilla
 /
-DataMutex
+layers
+/
+LayersTypes
 .
 h
 "
@@ -29,9 +31,7 @@ include
 "
 mozilla
 /
-layers
-/
-LayersTypes
+DataMutex
 .
 h
 "

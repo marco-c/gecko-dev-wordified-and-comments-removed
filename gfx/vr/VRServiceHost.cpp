@@ -15,13 +15,6 @@ h
 #
 include
 "
-VRManager
-.
-h
-"
-#
-include
-"
 VRPuppetCommandBuffer
 .
 h
@@ -52,6 +45,13 @@ include
 service
 /
 VRService
+.
+h
+"
+#
+include
+"
+VRManager
 .
 h
 "

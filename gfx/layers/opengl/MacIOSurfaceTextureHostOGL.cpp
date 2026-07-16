@@ -12,7 +12,7 @@ mozilla
 /
 gfx
 /
-MacIOSurface
+gfxVars
 .
 h
 "
@@ -23,7 +23,7 @@ mozilla
 /
 gfx
 /
-gfxVars
+MacIOSurface
 .
 h
 "

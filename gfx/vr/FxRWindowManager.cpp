@@ -17,6 +17,13 @@ h
 #
 include
 "
+nsPIDOMWindow
+.
+h
+"
+#
+include
+"
 mozilla
 /
 ClearOnShutdown
@@ -29,13 +36,6 @@ include
 mozilla
 /
 WidgetUtils
-.
-h
-"
-#
-include
-"
-nsPIDOMWindow
 .
 h
 "

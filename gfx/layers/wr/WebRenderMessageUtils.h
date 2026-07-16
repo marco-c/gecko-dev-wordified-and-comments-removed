@@ -38,9 +38,9 @@ include
 "
 mozilla
 /
-dom
+webrender
 /
-MediaIPCUtils
+webrender_ffi
 .
 h
 "
@@ -60,9 +60,9 @@ include
 "
 mozilla
 /
-webrender
+dom
 /
-webrender_ffi
+MediaIPCUtils
 .
 h
 "

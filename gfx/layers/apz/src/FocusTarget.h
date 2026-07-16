@@ -25,7 +25,9 @@ include
 "
 mozilla
 /
-Maybe
+layers
+/
+ScrollableLayerGuid
 .
 h
 "
@@ -43,9 +45,7 @@ include
 "
 mozilla
 /
-layers
-/
-ScrollableLayerGuid
+Maybe
 .
 h
 "

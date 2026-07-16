@@ -29,13 +29,6 @@ h
 #
 include
 "
-ScopedGLHelpers
-.
-h
-"
-#
-include
-"
 mozilla
 /
 gfx
@@ -52,6 +45,13 @@ mozilla
 layers
 /
 TextureForwarder
+.
+h
+"
+#
+include
+"
+ScopedGLHelpers
 .
 h
 "

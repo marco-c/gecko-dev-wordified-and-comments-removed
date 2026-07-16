@@ -7,13 +7,6 @@ GFX_STACKINGCONTEXTHELPER_H
 #
 include
 "
-Units
-.
-h
-"
-#
-include
-"
 mozilla
 /
 Attributes
@@ -50,6 +43,13 @@ mozilla
 webrender
 /
 WebRenderTypes
+.
+h
+"
+#
+include
+"
+Units
 .
 h
 "

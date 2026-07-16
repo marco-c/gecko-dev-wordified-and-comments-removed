@@ -7,11 +7,6 @@ h
 "
 #
 include
-<
-functional
->
-#
-include
 "
 mozilla
 /
@@ -41,6 +36,11 @@ GPUProcessManager
 .
 h
 "
+#
+include
+<
+functional
+>
 namespace
 mozilla
 {

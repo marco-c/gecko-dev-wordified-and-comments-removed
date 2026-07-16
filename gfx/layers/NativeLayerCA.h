@@ -39,13 +39,6 @@ h
 #
 include
 "
-CFTypeRefPtr
-.
-h
-"
-#
-include
-"
 mozilla
 /
 gfx
@@ -90,7 +83,7 @@ h
 #
 include
 "
-nsISupportsImpl
+CFTypeRefPtr
 .
 h
 "
@@ -98,6 +91,13 @@ h
 include
 "
 nsRegion
+.
+h
+"
+#
+include
+"
+nsISupportsImpl
 .
 h
 "

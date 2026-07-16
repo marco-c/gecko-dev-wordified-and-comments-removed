@@ -22,13 +22,6 @@ h
 #
 include
 "
-ScopedGLHelpers
-.
-h
-"
-#
-include
-"
 mozilla
 /
 gfx
@@ -56,6 +49,13 @@ mozilla
 layers
 /
 LayersTypes
+.
+h
+"
+#
+include
+"
+ScopedGLHelpers
 .
 h
 "

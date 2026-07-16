@@ -17,7 +17,9 @@ tuple
 #
 include
 "
-gfxPoint
+mozilla
+/
+FloatingPoint
 .
 h
 "
@@ -26,7 +28,9 @@ include
 "
 mozilla
 /
-FloatingPoint
+gfx
+/
+ScaleFactor
 .
 h
 "
@@ -44,11 +48,7 @@ h
 #
 include
 "
-mozilla
-/
-gfx
-/
-ScaleFactor
+gfxPoint
 .
 h
 "

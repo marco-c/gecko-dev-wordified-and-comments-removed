@@ -14,13 +14,6 @@ h
 #
 include
 "
-ImageTypes
-.
-h
-"
-#
-include
-"
 mozilla
 /
 Maybe
@@ -89,6 +82,13 @@ h
 include
 "
 nsThreadUtils
+.
+h
+"
+#
+include
+"
+ImageTypes
 .
 h
 "

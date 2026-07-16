@@ -8,13 +8,6 @@ h
 #
 include
 "
-InputData
-.
-h
-"
-#
-include
-"
 mozilla
 /
 PresShell
@@ -69,6 +62,13 @@ h
 include
 "
 nsIContentInlines
+.
+h
+"
+#
+include
+"
+InputData
 .
 h
 "

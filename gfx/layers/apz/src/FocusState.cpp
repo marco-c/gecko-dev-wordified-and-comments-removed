@@ -10,7 +10,7 @@ include
 "
 mozilla
 /
-IntegerPrintfMacros
+Logging
 .
 h
 "
@@ -19,7 +19,7 @@ include
 "
 mozilla
 /
-Logging
+IntegerPrintfMacros
 .
 h
 "

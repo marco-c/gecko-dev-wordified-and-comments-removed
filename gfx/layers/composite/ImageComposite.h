@@ -16,7 +16,9 @@ include
 "
 mozilla
 /
-TimeStamp
+gfx
+/
+2D
 .
 h
 "
@@ -25,9 +27,7 @@ include
 "
 mozilla
 /
-gfx
-/
-2D
+TimeStamp
 .
 h
 "

@@ -7,6 +7,13 @@ mozilla_layers_ScreenshotGrabber_h
 #
 include
 "
+nsISupportsImpl
+.
+h
+"
+#
+include
+"
 mozilla
 /
 UniquePtr
@@ -43,13 +50,6 @@ mozilla
 gfx
 /
 Rect
-.
-h
-"
-#
-include
-"
-nsISupportsImpl
 .
 h
 "

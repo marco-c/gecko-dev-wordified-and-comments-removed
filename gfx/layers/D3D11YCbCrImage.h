@@ -7,13 +7,6 @@ GFX_D3D11_YCBCR_IMAGE_H
 #
 include
 "
-ImageContainer
-.
-h
-"
-#
-include
-"
 d3d11
 .
 h
@@ -26,6 +19,13 @@ mozilla
 layers
 /
 TextureClientRecycleAllocator
+.
+h
+"
+#
+include
+"
+ImageContainer
 .
 h
 "

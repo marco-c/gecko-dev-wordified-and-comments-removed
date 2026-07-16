@@ -6,6 +6,13 @@ define
 GFX_SRC_NSRECTINTERSECTGENERICIMPL_H_
 #
 include
+"
+nsRectIntersectGeneric
+.
+h
+"
+#
+include
 <
 xsimd
 /
@@ -13,13 +20,6 @@ xsimd
 .
 hpp
 >
-#
-include
-"
-nsRectIntersectGeneric
-.
-h
-"
 template
 <
 class

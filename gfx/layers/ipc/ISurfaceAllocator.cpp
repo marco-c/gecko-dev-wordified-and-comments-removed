@@ -12,7 +12,7 @@ mozilla
 /
 layers
 /
-CompositableForwarder
+ImageBridgeParent
 .
 h
 "
@@ -23,7 +23,7 @@ mozilla
 /
 layers
 /
-ImageBridgeParent
+TextureHost
 .
 h
 "
@@ -45,7 +45,7 @@ mozilla
 /
 layers
 /
-TextureHost
+CompositableForwarder
 .
 h
 "

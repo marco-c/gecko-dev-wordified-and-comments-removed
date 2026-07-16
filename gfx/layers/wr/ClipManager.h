@@ -28,9 +28,9 @@ include
 "
 mozilla
 /
-layout
+webrender
 /
-StickyScrollContainer
+WebRenderAPI
 .
 h
 "
@@ -39,9 +39,9 @@ include
 "
 mozilla
 /
-webrender
+layout
 /
-WebRenderAPI
+StickyScrollContainer
 .
 h
 "

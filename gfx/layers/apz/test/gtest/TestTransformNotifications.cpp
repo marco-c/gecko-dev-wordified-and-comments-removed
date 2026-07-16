@@ -22,7 +22,11 @@ h
 #
 include
 "
-InputUtils
+mozilla
+/
+layers
+/
+WebRenderScrollDataWrapper
 .
 h
 "
@@ -40,11 +44,7 @@ h
 #
 include
 "
-mozilla
-/
-layers
-/
-WebRenderScrollDataWrapper
+InputUtils
 .
 h
 "

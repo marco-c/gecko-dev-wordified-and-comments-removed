@@ -7,6 +7,13 @@ MOZ_FRAMEBUFFER_H_
 #
 include
 "
+gfx2DGlue
+.
+h
+"
+#
+include
+"
 GLConsts
 .
 h
@@ -15,13 +22,6 @@ h
 include
 "
 GLContextTypes
-.
-h
-"
-#
-include
-"
-gfx2DGlue
 .
 h
 "

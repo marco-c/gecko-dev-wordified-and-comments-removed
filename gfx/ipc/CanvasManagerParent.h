@@ -9,7 +9,9 @@ include
 "
 mozilla
 /
-StaticMonitor
+gfx
+/
+PCanvasManagerParent
 .
 h
 "
@@ -31,9 +33,7 @@ include
 "
 mozilla
 /
-gfx
-/
-PCanvasManagerParent
+StaticMonitor
 .
 h
 "

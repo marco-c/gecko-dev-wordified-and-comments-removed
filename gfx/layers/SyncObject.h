@@ -9,7 +9,9 @@ include
 "
 mozilla
 /
-RefCounted
+gfx
+/
+FileHandleWrapper
 .
 h
 "
@@ -18,9 +20,7 @@ include
 "
 mozilla
 /
-gfx
-/
-FileHandleWrapper
+RefCounted
 .
 h
 "
