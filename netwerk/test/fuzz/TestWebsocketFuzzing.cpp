@@ -878,6 +878,9 @@ nsIContentPolicy
 :
 :
 TYPE_WEBSOCKET
+Nothing
+(
+)
 sandboxFlags
 )
 ;
