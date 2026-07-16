@@ -10184,10 +10184,19 @@ context
 else
 :
                         
-if
+source_basename
+=
+mozpath
+.
+basename
+(
 f
 .
-target_basename
+full_path
+)
+                        
+if
+source_basename
 not
 in
 generated_files
@@ -10249,9 +10258,7 @@ LOCALIZED_
 :
                             
 if
-f
-.
-target_basename
+source_basename
 not
 in
 localized_generated_files
@@ -10295,9 +10302,7 @@ context
 )
                         
 elif
-f
-.
-target_basename
+source_basename
 in
 localized_generated_files
 :
