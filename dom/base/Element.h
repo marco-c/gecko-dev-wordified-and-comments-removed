@@ -7880,11 +7880,6 @@ aNotify
 void
 PreIdMaybeChange
 (
-int32_t
-aNamespaceID
-nsAtom
-*
-aName
 const
 nsAttrValue
 *
@@ -7894,11 +7889,6 @@ aValue
 void
 PostIdMaybeChange
 (
-int32_t
-aNamespaceID
-nsAtom
-*
-aName
 const
 nsAttrValue
 *
