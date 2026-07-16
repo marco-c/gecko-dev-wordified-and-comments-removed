@@ -4385,9 +4385,7 @@ controller
 .
 notify
 (
-this
-.
-controller
+UrlbarShared
 .
 NOTIFICATIONS
 .
@@ -9040,9 +9038,7 @@ controller
 .
 notify
 (
-this
-.
-controller
+UrlbarShared
 .
 NOTIFICATIONS
 .
