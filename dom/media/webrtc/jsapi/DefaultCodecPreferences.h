@@ -59,7 +59,7 @@ UniquePtr
 JsepCodecDescription
 >
 >
-&
+*
 aSupportedCodecs
 const
 JsepCodecPreferences
@@ -91,7 +91,7 @@ UniquePtr
 JsepCodecDescription
 >
 >
-&
+*
 aSupportedCodecs
 const
 JsepCodecPreferences

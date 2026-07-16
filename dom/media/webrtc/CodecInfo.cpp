@@ -195,6 +195,7 @@ codecs
 ;
 EnumerateDefaultAudioCodecs
 (
+&
 codecs
 mPrefs
 )
@@ -223,6 +224,7 @@ codecs
 ;
 EnumerateDefaultVideoCodecs
 (
+&
 codecs
 mPrefs
 )
