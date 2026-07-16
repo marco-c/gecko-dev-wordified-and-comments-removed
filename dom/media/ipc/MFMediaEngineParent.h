@@ -427,6 +427,13 @@ NotifyDisableHWDRM
 (
 )
 ;
+void
+RecoverProtectedPlayback
+(
+HRESULT
+aResult
+)
+;
 #
 endif
 static
