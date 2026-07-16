@@ -305,13 +305,6 @@ CallImport
 )
 ASTDEF
 (
-AST_CALL_IMPORT_SOURCE
-"
-CallImportSource
-"
-)
-ASTDEF
-(
 AST_EMPTY_STMT
 "
 EmptyStatement
@@ -462,13 +455,6 @@ ASTDEF
 AST_IMPORT_DECL
 "
 ImportDeclaration
-"
-)
-ASTDEF
-(
-AST_IMPORT_SOURCE_DECL
-"
-ImportSourceDeclaration
 "
 )
 ASTDEF
