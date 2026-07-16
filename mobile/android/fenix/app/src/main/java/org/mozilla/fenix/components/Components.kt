@@ -2525,13 +2525,6 @@ continuousOnboardingFeatureEnabled
 !
 continuousOnboardingCompleted
 }
-shouldUseNewTriggerCriteria
-=
-{
-settings
-.
-newReviewPromptTriggerCriteriaEnabled
-}
 shouldShowCustomPrompt
 =
 {
