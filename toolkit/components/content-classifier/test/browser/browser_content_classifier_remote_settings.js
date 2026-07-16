@@ -2349,6 +2349,14 @@ settled
 =
 waitForListsSettled
 (
+{
+minNotifies
+:
+1
+quietMs
+:
+200
+}
 )
 ;
 await
