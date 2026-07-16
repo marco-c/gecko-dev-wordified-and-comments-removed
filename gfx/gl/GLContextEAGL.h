@@ -111,7 +111,7 @@ GLContext
 gl
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 gl
 -
@@ -211,6 +211,17 @@ override
 {
 return
 mBackbufferFB
+;
+}
+GLenum
+GetPreferredMacIOSurfaceTextureTarget
+(
+)
+const
+override
+{
+return
+LOCAL_GL_TEXTURE_2D
 ;
 }
 private

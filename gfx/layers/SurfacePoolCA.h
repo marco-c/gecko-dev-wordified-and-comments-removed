@@ -536,6 +536,8 @@ IntSize
 aSize
 GLuint
 aTexture
+GLenum
+aTarget
 bool
 aNeedsDepthBuffer
 )
