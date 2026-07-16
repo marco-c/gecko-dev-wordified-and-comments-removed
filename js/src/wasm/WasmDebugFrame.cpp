@@ -623,11 +623,6 @@ set
 (
 NumberValue
 (
-JS
-:
-:
-CanonicalizeNaN
-(
 *
 static_cast
 <
@@ -636,7 +631,6 @@ float
 >
 (
 dataPtr
-)
 )
 )
 )
@@ -658,11 +652,6 @@ set
 (
 NumberValue
 (
-JS
-:
-:
-CanonicalizeNaN
-(
 *
 static_cast
 <
@@ -671,7 +660,6 @@ double
 >
 (
 dataPtr
-)
 )
 )
 )

@@ -16098,10 +16098,7 @@ vp
 .
 setDouble
 (
-CanonicalizeNaN
-(
 d
-)
 )
 ;
 if
@@ -17128,10 +17125,7 @@ vp
 .
 setNumber
 (
-CanonicalizeNaN
-(
 d
-)
 )
 ;
 break
