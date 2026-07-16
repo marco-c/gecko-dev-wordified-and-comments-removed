@@ -232,6 +232,8 @@ querySelector
 tab
 [
 selected
+=
+true
 ]
 .
 tab
