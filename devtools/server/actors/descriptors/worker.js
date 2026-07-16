@@ -371,6 +371,11 @@ _getServiceWorkerRegistrationInfo
 (
 )
 ;
+if
+(
+registration
+)
+{
 form
 .
 scope
@@ -405,6 +410,7 @@ newestWorker
 .
 handlesFetchEvents
 ;
+}
 }
 }
 return
@@ -704,6 +710,8 @@ _getServiceWorkerRegistrationInfo
 (
 )
 {
+try
+{
 return
 swm
 .
@@ -721,6 +729,16 @@ _dbg
 url
 )
 ;
+}
+catch
+(
+e
+)
+{
+return
+null
+;
+}
 }
 _detach
 (
