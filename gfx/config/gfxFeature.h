@@ -567,6 +567,17 @@ supported
 "
 )
 \
+_
+(
+WEBRENDER_ANGLE_METAL
+Feature
+"
+WebRender
+ANGLE
+Metal
+"
+)
+\
 /
 *
 Add

@@ -13567,9 +13567,6 @@ true
 }
 #
 endif
-#
-ifdef
-XP_WIN
 if
 (
 gfxConfig
@@ -13593,8 +13590,6 @@ true
 )
 ;
 }
-#
-endif
 if
 (
 gfxConfig
