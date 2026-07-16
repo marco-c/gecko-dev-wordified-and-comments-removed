@@ -192,13 +192,6 @@ for
 fenix
 .
 '
-attributes
-:
-shipping
--
-product
-:
-fenix
 dependencies
 :
 build

@@ -20,9 +20,9 @@ the
 task
 '
 s
-shipping
+app
 -
-product
+name
 and
 build
 the
@@ -685,6 +685,19 @@ in
 tasks
 :
         
+product
+=
+task
+.
+pop
+(
+"
+app
+-
+name
+"
+)
+        
 extra
 =
 task
@@ -738,28 +751,6 @@ yield
 task
             
 continue
-        
-product
-=
-task
-.
-get
-(
-"
-attributes
-"
-{
-}
-)
-.
-get
-(
-"
-shipping
--
-product
-"
-)
         
 header
 =

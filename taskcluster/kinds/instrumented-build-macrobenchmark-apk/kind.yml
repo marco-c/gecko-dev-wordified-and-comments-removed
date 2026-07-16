@@ -202,13 +202,6 @@ baseline
 profile
 .
 '
-attributes
-:
-shipping
--
-product
-:
-fenix
 dependencies
 :
 build
