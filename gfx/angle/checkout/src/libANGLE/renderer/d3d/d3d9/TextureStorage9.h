@@ -179,6 +179,19 @@ getLevelCount
 const
 override
 ;
+bool
+isMultiplanar
+(
+const
+gl
+:
+:
+Context
+*
+context
+)
+override
+;
 angle
 :
 :
@@ -381,8 +394,6 @@ gl
 ImageIndex
 &
 index
-GLsizei
-samples
 RenderTargetD3D
 *
 *
@@ -411,8 +422,6 @@ gl
 ImageIndex
 &
 index
-GLsizei
-samples
 RenderTargetD3D
 *
 *
@@ -591,8 +600,6 @@ gl
 ImageIndex
 &
 index
-GLsizei
-samples
 RenderTargetD3D
 *
 *
@@ -621,8 +628,6 @@ gl
 ImageIndex
 &
 index
-GLsizei
-samples
 RenderTargetD3D
 *
 *
@@ -794,8 +799,6 @@ gl
 ImageIndex
 &
 index
-GLsizei
-samples
 RenderTargetD3D
 *
 *
@@ -824,8 +827,6 @@ gl
 ImageIndex
 &
 index
-GLsizei
-samples
 RenderTargetD3D
 *
 *

@@ -1,4 +1,12 @@
 #
+ifdef
+UNSAFE_BUFFERS_BUILD
+#
+pragma
+allow_unsafe_buffers
+#
+endif
+#
 include
 "
 libANGLE
@@ -5479,14 +5487,6 @@ componentType
 !
 =
 GL_NONE
-)
-;
-ASSERT
-(
-componentType
-!
-=
-GL_SIGNED_NORMALIZED
 )
 ;
 bool

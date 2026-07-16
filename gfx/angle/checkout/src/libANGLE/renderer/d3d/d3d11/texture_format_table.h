@@ -113,6 +113,8 @@ blitSRVFormat
 DXGI_FORMAT
 stencilSRVFormat
 DXGI_FORMAT
+linearSRVFormat
+DXGI_FORMAT
 typelessFormat
 GLenum
 swizzleFormat
@@ -194,6 +196,9 @@ DXGI_FORMAT
 stencilSRVFormat
 ;
 DXGI_FORMAT
+linearSRVFormat
+;
+DXGI_FORMAT
 typelessFormat
 ;
 GLenum
@@ -254,6 +259,10 @@ stencilSRVFormat
 (
 DXGI_FORMAT_UNKNOWN
 )
+linearSRVFormat
+(
+DXGI_FORMAT_UNKNOWN
+)
 typelessFormat
 (
 DXGI_FORMAT_UNKNOWN
@@ -295,6 +304,8 @@ DXGI_FORMAT
 blitSRVFormat
 DXGI_FORMAT
 stencilSRVFormat
+DXGI_FORMAT
+linearSRVFormat
 DXGI_FORMAT
 typelessFormat
 GLenum
@@ -338,6 +349,10 @@ blitSRVFormat
 stencilSRVFormat
 (
 stencilSRVFormat
+)
+linearSRVFormat
+(
+linearSRVFormat
 )
 typelessFormat
 (
