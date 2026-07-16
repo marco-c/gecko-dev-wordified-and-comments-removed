@@ -545,7 +545,7 @@ rval
 (
 )
 .
-setDouble
+setDoubleAssumeCanonicalNaN
 (
 z
 )
@@ -651,7 +651,7 @@ rval
 (
 )
 .
-setNumber
+setNumberAssumeCanonicalNaN
 (
 math_abs_impl
 (
@@ -934,7 +934,7 @@ rval
 (
 )
 .
-setDouble
+setDoubleAssumeCanonicalNaN
 (
 z
 )
@@ -1044,7 +1044,7 @@ rval
 (
 )
 .
-setNumber
+setNumberAssumeCanonicalNaN
 (
 math_ceil_impl
 (
@@ -1408,7 +1408,7 @@ rval
 (
 )
 .
-setNumber
+setNumberAssumeCanonicalNaN
 (
 math_floor_impl
 (
@@ -1636,7 +1636,7 @@ false
 }
 res
 .
-setDouble
+setDoubleAssumeCanonicalNaN
 (
 static_cast
 <
@@ -1856,7 +1856,7 @@ rval
 (
 )
 .
-setDouble
+setDoubleAssumeCanonicalNaN
 (
 RoundFloat16
 (
@@ -2067,7 +2067,7 @@ rval
 (
 )
 .
-setNumber
+setNumberAssumeCanonicalNaN
 (
 maxval
 )
@@ -2221,7 +2221,7 @@ rval
 (
 )
 .
-setNumber
+setNumberAssumeCanonicalNaN
 (
 minval
 )
@@ -2728,7 +2728,7 @@ rval
 (
 )
 .
-setNumber
+setNumberAssumeCanonicalNaN
 (
 z
 )
@@ -2881,7 +2881,7 @@ rval
 (
 )
 .
-setDouble
+setDoubleAssumeCanonicalNaN
 (
 math_random_impl
 (
@@ -3066,7 +3066,7 @@ rval
 (
 )
 .
-setNumber
+setNumberAssumeCanonicalNaN
 (
 math_round_impl
 (
@@ -4296,7 +4296,7 @@ y
 ;
 res
 .
-setDouble
+setDoubleAssumeCanonicalNaN
 (
 result
 )
@@ -4438,7 +4438,7 @@ sumsq
 ;
 res
 .
-setDouble
+setDoubleAssumeCanonicalNaN
 (
 result
 )
@@ -4550,7 +4550,7 @@ rval
 (
 )
 .
-setNumber
+setNumberAssumeCanonicalNaN
 (
 math_trunc_impl
 (
@@ -4687,7 +4687,7 @@ rval
 (
 )
 .
-setNumber
+setNumberAssumeCanonicalNaN
 (
 math_sign_impl
 (
@@ -5301,7 +5301,7 @@ rval
 (
 )
 .
-setNumber
+setNumberAssumeCanonicalNaN
 (
 rval
 )

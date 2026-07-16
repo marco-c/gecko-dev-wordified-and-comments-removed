@@ -1829,7 +1829,7 @@ res
 }
 res
 .
-setNumber
+setNumberAssumeCanonicalNaN
 (
 -
 val
@@ -1907,7 +1907,7 @@ isNumber
 {
 res
 .
-setNumber
+setNumberAssumeCanonicalNaN
 (
 val
 .
@@ -2020,7 +2020,7 @@ isNumber
 {
 res
 .
-setNumber
+setNumberAssumeCanonicalNaN
 (
 val
 .
@@ -3772,7 +3772,7 @@ res
 }
 res
 .
-setNumber
+setNumberAssumeCanonicalNaN
 (
 lhs
 .
@@ -3860,7 +3860,7 @@ res
 }
 res
 .
-setNumber
+setNumberAssumeCanonicalNaN
 (
 lhs
 .
@@ -3948,7 +3948,7 @@ res
 }
 res
 .
-setNumber
+setNumberAssumeCanonicalNaN
 (
 lhs
 .
@@ -4036,7 +4036,7 @@ res
 }
 res
 .
-setNumber
+setNumberAssumeCanonicalNaN
 (
 NumberDiv
 (
@@ -4191,7 +4191,7 @@ res
 }
 res
 .
-setNumber
+setNumberAssumeCanonicalNaN
 (
 NumberMod
 (
@@ -4281,7 +4281,7 @@ res
 }
 res
 .
-setNumber
+setNumberAssumeCanonicalNaN
 (
 ecmaPow
 (
