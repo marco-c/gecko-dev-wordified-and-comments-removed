@@ -834,6 +834,15 @@ mEarlyDataDisposition
 =
 EARLY_SENT
 ;
+mEarlyDataSentTime
+=
+TimeStamp
+:
+:
+Now
+(
+)
+;
 }
 }
 void
@@ -1041,6 +1050,11 @@ nodiscard
 ]
 nsresult
 Restart
+(
+)
+;
+void
+Apply0RTTTimingOverride
 (
 )
 ;
@@ -2328,6 +2342,9 @@ mEarlyDataDisposition
 {
 EARLY_NONE
 }
+;
+TimeStamp
+mEarlyDataSentTime
 ;
 HttpTrafficCategory
 mTrafficCategory
