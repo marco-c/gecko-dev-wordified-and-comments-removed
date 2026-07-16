@@ -52,6 +52,16 @@ ArrayBufferObject
 .
 h
 "
+alignas
+(
+js
+:
+:
+ArrayBufferObject
+:
+:
+ARRAY_BUFFER_ALIGNMENT
+)
 char
 testData
 [
