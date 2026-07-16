@@ -280,7 +280,7 @@ serializable
 )
 ;
 }
-void
+uint32_t
 RInstruction
 :
 :
@@ -324,6 +324,7 @@ Recover_
 #
 op
 :
+{
 \
 static_assert
 (
@@ -389,6 +390,10 @@ op
 )
 ;
 \
+auto
+*
+ins
+=
 new
 (
 raw
@@ -407,8 +412,16 @@ reader
 )
 ;
 \
-break
+return
+ins
+-
+>
+numOperands
+(
+)
 ;
+\
+}
 RECOVER_OPCODE_LIST
 (
 MATCH_OPCODES_

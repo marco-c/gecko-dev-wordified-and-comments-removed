@@ -2423,6 +2423,9 @@ numInstructionsRead_
 RInstructionStorage
 rawData_
 ;
+uint32_t
+numOperands_
+;
 private
 :
 void
@@ -2534,6 +2537,16 @@ addr
 (
 )
 )
+;
+}
+uint32_t
+numOperands
+(
+)
+const
+{
+return
+numOperands_
 ;
 }
 }

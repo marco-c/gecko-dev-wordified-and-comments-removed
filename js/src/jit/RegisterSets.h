@@ -2221,7 +2221,7 @@ reg
 )
 const
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 hasRegisterIndex
 (

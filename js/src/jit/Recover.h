@@ -674,7 +674,7 @@ const
 0
 ;
 static
-void
+uint32_t
 readRecoverData
 (
 CompactBufferReader
