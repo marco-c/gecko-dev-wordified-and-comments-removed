@@ -1967,9 +1967,6 @@ unsigned
 numPoolEntries
 uint8_t
 *
-inst
-uint8_t
-*
 data
 )
 {
@@ -2086,7 +2083,6 @@ insertEntryForwards
 (
 numInst
 numPoolEntries
-inst
 data
 )
 ;
@@ -2409,7 +2405,6 @@ insertEntryForwards
 (
 numInst
 numPoolEntries
-inst
 data
 )
 ;
