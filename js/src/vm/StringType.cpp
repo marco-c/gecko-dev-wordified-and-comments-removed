@@ -7186,6 +7186,9 @@ wholeChars
 hasStringBuffer
 )
 ;
+setField
+(
+&
 root
 -
 >
@@ -7196,8 +7199,8 @@ s
 u3
 .
 capacity
-=
 wholeCapacity
+)
 ;
 AddCellMemory
 (
