@@ -2492,13 +2492,6 @@ alltabs
 -
 button
 "
-"
-ai
--
-window
--
-toggle
-"
 ]
 verticalTabsDefaultPlacements
 :
