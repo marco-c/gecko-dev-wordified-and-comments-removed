@@ -3718,7 +3718,6 @@ g
 .
 js
 stackwalk
-cpu
 screenshots
 memory
 )

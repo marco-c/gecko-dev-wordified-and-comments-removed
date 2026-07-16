@@ -661,9 +661,6 @@ screenshots
 js
 "
 "
-cpu
-"
-"
 memory
 "
 ]
@@ -791,9 +788,6 @@ js
 "
 "
 stackwalk
-"
-"
-cpu
 "
 "
 java
@@ -929,9 +923,6 @@ stackwalk
 js
 "
 "
-cpu
-"
-"
 java
 "
 "
@@ -1060,9 +1051,6 @@ js
 "
 "
 stackwalk
-"
-"
-cpu
 "
 "
 audiocallbacktracing
@@ -1243,9 +1231,6 @@ js
 stackwalk
 "
 "
-cpu
-"
-"
 ipcmessages
 "
 "
@@ -1369,9 +1354,6 @@ js
 "
 "
 stackwalk
-"
-"
-cpu
 "
 "
 java
@@ -1517,9 +1499,6 @@ js
 stackwalk
 "
 "
-cpu
-"
-"
 processcpu
 "
 "
@@ -1631,9 +1610,6 @@ interval
 features
 :
 [
-"
-cpu
-"
 "
 ipcmessages
 "
