@@ -2164,7 +2164,10 @@ actionGlobalHome
 (
 focusOnAddressBar
 =
-true
+!
+settings
+.
+enableHomepageTrendingRecentSearch
 )
 )
 }

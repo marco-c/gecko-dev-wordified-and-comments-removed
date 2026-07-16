@@ -3887,6 +3887,11 @@ navController
 findNavController
 (
 )
+settings
+=
+requireComponents
+.
+settings
 )
 view
 =
@@ -7796,7 +7801,10 @@ actionGlobalHome
 (
 focusOnAddressBar
 =
-true
+!
+settings
+.
+enableHomepageTrendingRecentSearch
 )
 )
 }

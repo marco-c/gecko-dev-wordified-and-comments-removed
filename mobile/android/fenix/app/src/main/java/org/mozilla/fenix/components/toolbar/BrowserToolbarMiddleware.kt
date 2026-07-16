@@ -5959,6 +5959,12 @@ focusOnAddressBar
 settings
 .
 enableHomepageSearchBar
+&
+&
+!
+settings
+.
+enableHomepageTrendingRecentSearch
 browsingModeManager
 .
 mode
