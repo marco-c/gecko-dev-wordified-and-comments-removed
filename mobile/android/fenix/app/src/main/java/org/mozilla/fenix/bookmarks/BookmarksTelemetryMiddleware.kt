@@ -252,6 +252,8 @@ handleSelectFolderActions
 action
 )
 }
+SearchAction
+.
 SearchClicked
 -
 >
@@ -334,7 +336,17 @@ BookmarkLongClicked
 is
 BookmarksLoaded
 is
+SearchAction
+.
 SearchDismissed
+is
+SearchAction
+.
+ReceivedSearchResults
+is
+SearchAction
+.
+SearchQueryChanged
 is
 EditBookmarkClicked
 is

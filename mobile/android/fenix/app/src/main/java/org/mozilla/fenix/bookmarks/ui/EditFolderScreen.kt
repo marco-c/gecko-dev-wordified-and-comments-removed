@@ -1180,9 +1180,9 @@ null
 isLoading
 =
 false
-isSearching
+searchState
 =
-false
+null
 )
 )
 FirefoxTheme

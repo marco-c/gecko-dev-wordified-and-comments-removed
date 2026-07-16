@@ -2455,6 +2455,8 @@ store
 .
 dispatch
 (
+SearchAction
+.
 SearchDismissed
 )
 }
@@ -2615,6 +2617,8 @@ store
 .
 dispatch
 (
+SearchAction
+.
 SearchClicked
 )
 }
@@ -3486,6 +3490,8 @@ store
 .
 dispatch
 (
+SearchAction
+.
 SearchDismissed
 )
 }
@@ -7859,9 +7865,9 @@ null
 isLoading
 =
 false
-isSearching
+searchState
 =
-false
+null
 )
 )
 FirefoxTheme
@@ -8075,9 +8081,9 @@ null
 isLoading
 =
 false
-isSearching
+searchState
 =
-false
+null
 )
 )
 }
@@ -8228,9 +8234,9 @@ null
 isLoading
 =
 false
-isSearching
+searchState
 =
-false
+null
 )
 )
 }

@@ -289,6 +289,8 @@ store
 .
 dispatch
 (
+SearchAction
+.
 SearchDismissed
 )
 }
