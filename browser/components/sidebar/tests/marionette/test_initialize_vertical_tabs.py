@@ -1418,7 +1418,9 @@ pref_value
 "
 hide
 -
-sidebar
+on
+-
+close
 "
 )
     
