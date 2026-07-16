@@ -4029,6 +4029,16 @@ this
 )
 ;
 return
+/
+*
+*
+type
+{
+WebIDLChildAPIManager
+}
+*
+/
+(
 redefineGetter
 (
 this
@@ -4036,6 +4046,7 @@ this
 childManager
 "
 childManager
+)
 )
 ;
 }
