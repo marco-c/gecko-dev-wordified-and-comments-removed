@@ -4035,7 +4035,6 @@ Value
 target
 )
 ;
-static
 bool
 relocateFinalizationObserverTarget
 (
