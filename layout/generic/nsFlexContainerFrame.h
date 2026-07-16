@@ -1313,6 +1313,15 @@ IntrinsicISizeType
 aType
 )
 ;
+void
+MaybePropagateRelativeBSizeFlagFrom
+(
+const
+FlexItem
+&
+aItem
+)
+;
 mozilla
 :
 :
