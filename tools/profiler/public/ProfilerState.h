@@ -521,20 +521,6 @@ MACRO
 (
 14
 "
-cpu
-"
-CPUUtilization
-"
-CPU
-utilization
-"
-)
-\
-\
-MACRO
-(
-15
-"
 notimerresolutionchange
 "
 NoTimerResolutionChange
@@ -566,7 +552,7 @@ affected
 \
 MACRO
 (
-16
+15
 "
 cpuallthreads
 "
@@ -587,7 +573,7 @@ threads
 \
 MACRO
 (
-17
+16
 "
 samplingallthreads
 "
@@ -607,7 +593,7 @@ threads
 \
 MACRO
 (
-18
+17
 "
 markersallthreads
 "
@@ -626,7 +612,7 @@ threads
 \
 MACRO
 (
-19
+18
 "
 unregisteredthreads
 "
@@ -650,7 +636,7 @@ expensive
 \
 MACRO
 (
-20
+19
 "
 processcpu
 "
@@ -670,7 +656,7 @@ process
 \
 MACRO
 (
-21
+20
 "
 power
 "
@@ -681,7 +667,7 @@ POWER_HELP
 \
 MACRO
 (
-22
+21
 "
 cpufreq
 "
@@ -710,7 +696,7 @@ sample
 \
 MACRO
 (
-23
+22
 "
 bandwidth
 "
@@ -733,7 +719,7 @@ sample
 \
 MACRO
 (
-24
+23
 "
 memory
 "
@@ -760,7 +746,7 @@ time
 \
 MACRO
 (
-25
+24
 "
 tracing
 "
@@ -793,7 +779,7 @@ only
 \
 MACRO
 (
-26
+25
 "
 sandbox
 "
@@ -818,7 +804,7 @@ profiler
 \
 MACRO
 (
-27
+26
 "
 flows
 "
@@ -858,7 +844,7 @@ normal
 \
 MACRO
 (
-28
+27
 "
 jssources
 "

@@ -346,7 +346,6 @@ SamplingState
 {
 JustStopped
 SamplingPaused
-NoStackSamplingCompleted
 SamplingCompleted
 }
 ;

@@ -1340,15 +1340,6 @@ SamplingState
 :
 :
 SamplingCompleted
-|
-|
-aSamplingState
-=
-=
-SamplingState
-:
-:
-NoStackSamplingCompleted
 )
 ;
 }
