@@ -397,10 +397,6 @@ NS_ConvertUTF16toUTF8
 (
 aClientID
 )
-.
-get
-(
-)
 )
 )
 {

@@ -2267,8 +2267,11 @@ messageChannelId
 .
 Parse
 (
+nsDependentCString
+(
 *
 initialChannelIdString
+)
 )
 )
 )

@@ -14,6 +14,13 @@ h
 #
 include
 "
+nsStringFwd
+.
+h
+"
+#
+include
+"
 nscore
 .
 h
@@ -257,8 +264,8 @@ bool
 Parse
 (
 const
-char
-*
+nsACString
+&
 aIDStr
 )
 ;
