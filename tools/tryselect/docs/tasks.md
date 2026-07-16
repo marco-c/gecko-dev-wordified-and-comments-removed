@@ -22,11 +22,13 @@ ref
 }
 taskgraph
 <
-TaskCluster
-Task
+taskcluster
 -
-Graph
-Generation
+task
+-
+graph
+-
+generation
 >
 module
 by

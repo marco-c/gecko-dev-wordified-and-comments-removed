@@ -2493,7 +2493,11 @@ chrome
 manifest
 files
 <
-chrome_manifest_resource
+chrome
+-
+manifest
+-
+resource
 >
 however
 can
@@ -2875,7 +2879,11 @@ ref
 an
 FAQ
 <
-eslint_common_issues
+eslint
+-
+common
+-
+issues
 >
 .
 Details
