@@ -3452,6 +3452,12 @@ GetIsMediaRequest
 aLoadInfo
 -
 >
+GetIsMediaInitialRequest
+(
+)
+aLoadInfo
+-
+>
 GetIsFromObjectOrEmbed
 (
 )
