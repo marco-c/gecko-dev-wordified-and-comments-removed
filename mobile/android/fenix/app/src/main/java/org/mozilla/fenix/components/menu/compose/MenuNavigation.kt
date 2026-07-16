@@ -1165,7 +1165,7 @@ MaterialTheme
 .
 colorScheme
 .
-onSurface
+onSurfaceVariant
 }
 }
 Preview

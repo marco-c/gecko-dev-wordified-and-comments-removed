@@ -773,7 +773,7 @@ MaterialTheme
 .
 colorScheme
 .
-onSurface
+onSurfaceVariant
 )
 }
 }
@@ -900,7 +900,7 @@ MaterialTheme
 .
 colorScheme
 .
-onSurface
+onSurfaceVariant
 )
 Column
 (

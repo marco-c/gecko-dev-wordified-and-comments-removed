@@ -696,7 +696,7 @@ MaterialTheme
 .
 colorScheme
 .
-onSurface
+onSurfaceVariant
 )
 }
 return
@@ -1051,7 +1051,7 @@ MaterialTheme
 .
 colorScheme
 .
-onSurface
+onSurfaceVariant
 modifier
 =
 Modifier
@@ -1219,7 +1219,7 @@ MaterialTheme
 .
 colorScheme
 .
-onSurface
+onSurfaceVariant
 else
 -
 >

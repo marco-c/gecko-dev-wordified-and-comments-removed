@@ -1000,6 +1000,13 @@ mozac_ic_avatar_circle_24
 contentDescription
 =
 null
+tint
+=
+MaterialTheme
+.
+colorScheme
+.
+onSurfaceVariant
 )
 }
 Composable

@@ -2919,7 +2919,7 @@ MaterialTheme
 .
 colorScheme
 .
-onSurface
+onSurfaceVariant
 modifier
 =
 Modifier

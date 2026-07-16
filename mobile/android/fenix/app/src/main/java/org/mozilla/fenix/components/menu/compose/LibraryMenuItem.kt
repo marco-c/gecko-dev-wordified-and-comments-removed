@@ -804,7 +804,7 @@ MaterialTheme
 .
 colorScheme
 .
-onSurface
+onSurfaceVariant
 )
 Spacer
 (

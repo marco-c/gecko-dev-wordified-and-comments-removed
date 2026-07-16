@@ -1896,7 +1896,7 @@ MaterialTheme
 .
 colorScheme
 .
-onSurface
+onSurfaceVariant
 contentDescription
 =
 null
@@ -2660,7 +2660,7 @@ MaterialTheme
 .
 colorScheme
 .
-onSurface
+onSurfaceVariant
 }
 }
 Composable
@@ -2752,7 +2752,7 @@ MaterialTheme
 .
 colorScheme
 .
-onSurface
+onSurfaceVariant
 enabled
 =
 true
