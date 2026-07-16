@@ -8757,6 +8757,12 @@ mBlockRS
 mFlags
 .
 mShouldApplyTextBoxTrimStart
+&
+&
+mLineNumber
+=
+=
+0
 ;
 const
 bool

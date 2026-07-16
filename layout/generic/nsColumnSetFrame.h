@@ -273,6 +273,12 @@ aExportContext
 const
 override
 ;
+bool
+IsEmpty
+(
+)
+override
+;
 protected
 :
 nscoord
