@@ -14795,6 +14795,7 @@ const
 {
 canceled
 contextId
+downloadId
 filepath
 navigableId
 navigationId
@@ -14811,6 +14812,9 @@ browsingContextInfo
 context
 :
 navigableId
+download
+:
+downloadId
 navigation
 :
 navigationId
@@ -14937,6 +14941,7 @@ downloadWillBegin
 const
 {
 contextId
+downloadId
 navigationId
 navigableId
 suggestedFilename
@@ -14953,6 +14958,9 @@ browsingContextInfo
 context
 :
 navigableId
+download
+:
+downloadId
 navigation
 :
 navigationId
