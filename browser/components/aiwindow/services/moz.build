@@ -87,6 +87,13 @@ sys
 .
 mjs
 "
+"
+MemoryStoreConstants
+.
+sys
+.
+mjs
+"
 ]
 XPCSHELL_TESTS_MANIFESTS
 +
