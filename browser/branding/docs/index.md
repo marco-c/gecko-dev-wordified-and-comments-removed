@@ -22,14 +22,12 @@ things
 such
 as
 :
-\
-*
+-
 Logos
 and
 other
 iconography
-\
-*
+-
 Product
 names
 (
@@ -45,8 +43,7 @@ Developer
 Edition
 "
 )
-\
-*
+-
 Channel
 -
 specific

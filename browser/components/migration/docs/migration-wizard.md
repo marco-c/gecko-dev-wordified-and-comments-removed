@@ -372,8 +372,7 @@ the
 MigrationWizard
 provides
 .
-\
-*
+-
 option
 -
 expander
@@ -419,8 +418,7 @@ it
 is
 set
 .
-\
-*
+-
 hide
 -
 option
@@ -447,8 +445,7 @@ resource
 list
 expander
 .
-\
-*
+-
 import
 -
 button
@@ -477,8 +474,7 @@ attribute
 when
 set
 .
-\
-*
+-
 import
 -
 button
@@ -509,8 +505,7 @@ the
 selection
 page
 .
-\
-*
+-
 checkbox
 -
 margin
@@ -545,8 +540,7 @@ the
 selection
 page
 .
-\
-*
+-
 checkbox
 -
 margin
@@ -581,8 +575,7 @@ the
 selection
 page
 .
-\
-*
+-
 selection
 -
 header
@@ -607,8 +600,7 @@ the
 set
 string
 .
-\
-*
+-
 selection
 -
 subheader
@@ -629,8 +621,7 @@ the
 set
 string
 .
-\
-*
+-
 data
 -
 import
@@ -667,8 +658,7 @@ import
 was
 successful
 .
-\
-*
+-
 header
 -
 font
@@ -691,8 +681,7 @@ of
 this
 string
 .
-\
-*
+-
 header
 -
 font
@@ -715,8 +704,7 @@ of
 this
 string
 .
-\
-*
+-
 header
 -
 margin
@@ -739,8 +727,7 @@ of
 this
 string
 .
-\
-*
+-
 subheader
 -
 font
@@ -781,8 +768,7 @@ when
 used
 alone
 .
-\
-*
+-
 subheader
 -
 font
@@ -823,8 +809,7 @@ when
 used
 alone
 .
-\
-*
+-
 subheader
 -
 margin
