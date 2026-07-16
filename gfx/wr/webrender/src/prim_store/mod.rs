@@ -3941,13 +3941,6 @@ InternData
 +
 Sized
 {
-const
-SNAP_CLIPS
-:
-bool
-=
-true
-;
 fn
 into_key
 (

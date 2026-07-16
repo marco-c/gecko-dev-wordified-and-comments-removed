@@ -15605,6 +15605,9 @@ paired_with_perspective
 params
 .
 paired_with_perspective
+is_offset_only
+:
+false
 }
 WrReferenceFrameKind
 :
@@ -15821,6 +15824,9 @@ false
 paired_with_perspective
 :
 false
+is_offset_only
+:
+true
 }
 )
 ;

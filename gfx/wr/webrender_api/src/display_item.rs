@@ -2997,6 +2997,9 @@ bool
 paired_with_perspective
 :
 bool
+is_offset_only
+:
+bool
 }
 Perspective
 {
@@ -9623,6 +9626,9 @@ should_snap
 :
 false
 paired_with_perspective
+:
+false
+is_offset_only
 :
 false
 }

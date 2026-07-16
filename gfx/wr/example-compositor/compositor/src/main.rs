@@ -1092,6 +1092,9 @@ false
 paired_with_perspective
 :
 false
+is_offset_only
+:
+false
 }
 )
 ;
