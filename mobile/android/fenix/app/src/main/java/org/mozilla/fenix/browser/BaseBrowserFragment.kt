@@ -4893,6 +4893,16 @@ permissions
 REQUEST_CODE_DOWNLOAD_PERMISSIONS
 )
 }
+dismissCustomFirstPartyDownloadDialog
+=
+{
+dismissRenameDialog
+(
+)
+dismissDownloadDialogs
+(
+)
+}
 customFirstPartyDownloadDialog
 =
 {
