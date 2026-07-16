@@ -8421,8 +8421,8 @@ openPopup
 (
 anchor
 "
-bottomleft
-topleft
+bottomright
+topright
 "
 )
 ;
