@@ -121,7 +121,7 @@ core
 version
 =
 "
-29
+30
 .
 0
 .
@@ -937,7 +937,7 @@ naga
 version
 =
 "
-29
+30
 .
 0
 .
@@ -961,7 +961,7 @@ types
 version
 =
 "
-29
+30
 .
 0
 .
@@ -1164,7 +1164,7 @@ hal
 version
 =
 "
-29
+30
 .
 0
 .
@@ -1192,7 +1192,7 @@ bridge
 version
 =
 "
-29
+30
 .
 0
 .
@@ -1220,7 +1220,7 @@ types
 version
 =
 "
-29
+30
 .
 0
 .
@@ -1295,7 +1295,7 @@ wasm
 version
 =
 "
-29
+30
 .
 0
 .
@@ -1358,7 +1358,7 @@ android
 version
 =
 "
-29
+30
 .
 0
 .
@@ -1440,7 +1440,7 @@ emscripten
 version
 =
 "
-29
+30
 .
 0
 .
@@ -1485,7 +1485,7 @@ apple
 version
 =
 "
-29
+30
 .
 0
 .
@@ -1503,6 +1503,16 @@ apple
 optional
 =
 true
+[
+lints
+.
+rust
+]
+missing_debug_implementations
+=
+"
+warn
+"
 [
 lints
 .

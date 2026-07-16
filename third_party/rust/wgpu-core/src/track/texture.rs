@@ -2100,11 +2100,13 @@ push
 (
 tex
 .
-inner
-.
-get
+try_inner
 (
 snatch_guard
+)
+.
+ok
+(
 )
 )
 ;

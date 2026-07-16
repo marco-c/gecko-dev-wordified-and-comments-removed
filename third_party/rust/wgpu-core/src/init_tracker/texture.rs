@@ -21,6 +21,10 @@ alloc
 :
 :
 {
+string
+:
+:
+String
 sync
 :
 :
@@ -123,8 +127,7 @@ wgt
 :
 TextureDescriptor
 <
-(
-)
+String
 Vec
 <
 wgt
