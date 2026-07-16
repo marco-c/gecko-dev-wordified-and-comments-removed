@@ -1015,6 +1015,12 @@ TimelineDataDidChange
 (
 )
 ;
+StateSnapshot
+ComputeSnapshot
+(
+)
+const
+;
 struct
 ComputedTimelineData
 {
@@ -1096,6 +1102,12 @@ mScrollerInfo
 ;
 StyleScrollAxis
 mAxis
+;
+Maybe
+<
+StateSnapshot
+>
+mCachedStateSnapshot
 ;
 struct
 CurrentTimeData
