@@ -606,7 +606,7 @@ TimingFunction
 >
 start_percentage
 :
-f32
+f64
 }
 impl
 IntermediateComputedKeyframe
@@ -616,7 +616,7 @@ new
 (
 start_percentage
 :
-f32
+f64
 )
 -
 >
@@ -734,6 +734,8 @@ start_offset
 percentage
 .
 0
+as
+f64
 ;
 if
 start_percentage
@@ -1283,7 +1285,7 @@ timing_function
 TimingFunction
 start_percentage
 :
-f32
+f64
 values
 :
 Box
@@ -1331,7 +1333,7 @@ a
 TimingFunction
 start_percentage
 :
-f32
+f64
 value
 :
 &
@@ -3839,11 +3841,7 @@ position
 |
 step
 |
-(
 total_progress
-as
-f32
-)
 <
 step
 .
@@ -3911,8 +3909,6 @@ position
 step
 |
 total_progress
-as
-f32
 <
 =
 1
@@ -4217,8 +4213,6 @@ start_percentage
 abs
 (
 )
-as
-f64
 ;
 let
 duration_between_keyframes
@@ -4246,8 +4240,6 @@ Normal
 previous_keyframe
 .
 start_percentage
-as
-f64
 AnimationDirection
 :
 :
@@ -4260,8 +4252,6 @@ Reverse
 previous_keyframe
 .
 start_percentage
-as
-f64
 _
 =
 >
@@ -4317,8 +4307,6 @@ clone
 duration
 :
 duration_between_keyframes
-as
-f64
 }
 ;
 let
@@ -7412,6 +7400,8 @@ i
 seconds
 (
 )
+as
+f64
 ;
 let
 iteration_count
@@ -7528,8 +7518,6 @@ started_at
 now
 +
 delay
-as
-f64
 ;
 let
 mut
@@ -7697,10 +7685,6 @@ animation_fill_mode_mod
 i
 )
 delay
-:
-delay
-as
-f64
 iteration_state
 state
 direction
