@@ -647,6 +647,12 @@ jversion
 .
 h
 -
+libjpeg
+-
+config
+.
+mozbuild
+-
 simd
 /
 arm
