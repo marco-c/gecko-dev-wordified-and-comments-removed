@@ -2494,7 +2494,7 @@ remove
 -
 from
 -
-history
+history2
 "
 }
 helpUrl
@@ -2857,7 +2857,7 @@ remove
 -
 from
 -
-history
+history2
 "
 }
 ;

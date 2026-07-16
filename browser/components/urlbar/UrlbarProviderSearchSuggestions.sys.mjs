@@ -2307,7 +2307,7 @@ trending
 -
 dont
 -
-show
+show2
 "
 }
 }
@@ -2338,7 +2338,7 @@ menu
 -
 learn
 -
-more
+more2
 "
 }
 }
@@ -4248,7 +4248,7 @@ remove
 -
 from
 -
-history
+history2
 "
 }
 helpUrl
