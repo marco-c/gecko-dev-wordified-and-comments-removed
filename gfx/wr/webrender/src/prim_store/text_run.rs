@@ -1493,8 +1493,8 @@ if
 prim_spatial_node
 .
 is_ancestor_or_self_zooming
-{
-if
+&
+&
 low_quality_pinch_zoom
 {
 RasterSpace
@@ -1508,6 +1508,15 @@ Local
 )
 }
 else
+if
+prim_spatial_node
+.
+is_ancestor_or_self_zooming
+|
+|
+prim_spatial_node
+.
+is_ancestor_or_self_animating
 {
 let
 root_spatial_node_index
@@ -1592,7 +1601,6 @@ device_pixel_scale
 .
 0
 )
-}
 }
 else
 {
