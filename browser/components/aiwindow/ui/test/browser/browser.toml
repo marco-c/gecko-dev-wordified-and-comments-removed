@@ -447,6 +447,13 @@ js
 ]
 [
 "
+browser_aiwindow_smartbar_autofill
+.
+js
+"
+]
+[
+"
 browser_aiwindow_smartbar_chat_active_navigate
 .
 js
