@@ -1117,13 +1117,6 @@ optional
 :
 true
 "
-onError
-"
-:
-"
-warn
-"
-"
 choices
 "
 :
