@@ -3546,11 +3546,6 @@ aFrecency
 )
 )
 ;
-MarkDirty
-(
-false
-)
-;
 mMetaHdr
 .
 mFrecency
@@ -3566,11 +3561,6 @@ OnFetched
 (
 )
 {
-MarkDirty
-(
-false
-)
-;
 mMetaHdr
 .
 mLastFetched

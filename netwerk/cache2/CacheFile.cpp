@@ -5872,10 +5872,6 @@ mMetadata
 NS_ERROR_UNEXPECTED
 )
 ;
-PostWriteTimer
-(
-)
-;
 if
 (
 mHandle
@@ -6835,10 +6831,6 @@ NS_ENSURE_TRUE
 (
 mMetadata
 NS_ERROR_UNEXPECTED
-)
-;
-PostWriteTimer
-(
 )
 ;
 mMetadata
