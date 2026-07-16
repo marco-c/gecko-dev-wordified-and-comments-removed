@@ -95507,15 +95507,6 @@ normal
 LNA
 rules
 .
-#
-Currently
-this
-is
-disabled
-for
-parity
-with
-chrome
 -
 name
 :
@@ -95531,7 +95522,7 @@ type
 RelaxedAtomicBool
 value
 :
-false
+true
 mirror
 :
 always
