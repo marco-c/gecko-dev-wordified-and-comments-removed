@@ -3133,6 +3133,15 @@ transparent
 firstURI
 |
 |
+typeof
+firstURI
+!
+=
+"
+string
+"
+|
+|
 AIWindow
 .
 isAIWindowContentPage
