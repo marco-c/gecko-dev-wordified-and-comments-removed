@@ -123,14 +123,6 @@ org
 .
 junit
 .
-Assert
-.
-assertNotNull
-import
-org
-.
-junit
-.
 Rule
 import
 org
@@ -138,6 +130,12 @@ org
 junit
 .
 Test
+import
+kotlin
+.
+test
+.
+assertNotNull
 import
 org
 .
