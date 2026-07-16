@@ -6362,15 +6362,9 @@ end
 {
 charAdvance
 =
-GetAdvanceForGlyphs
-(
-Range
+GetAdvanceForGlyph
 (
 i
-i
-+
-1
-)
 letterSpacing
 )
 ;
