@@ -1,0 +1,11 @@
+runTestsWithWebExtension
+(
+'
+/
+resources
+/
+storage
+/
+'
+)
+;
