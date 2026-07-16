@@ -605,6 +605,11 @@ new
 ActionsResult
 (
 {
+providerName
+:
+this
+.
+name
 key
 l10nId
 :
