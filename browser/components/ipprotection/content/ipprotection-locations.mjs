@@ -536,6 +536,16 @@ state
 .
 locationsList
 }
+.
+premium
+=
+{
+this
+.
+state
+.
+isPremium
+}
 >
 <
 /
