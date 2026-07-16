@@ -30,7 +30,6 @@ def
 test_type_hint
 (
 bidi_session
-current_session
 type_hint
 )
 :
@@ -67,6 +66,8 @@ get_client_windows
 =
 1
     
+new_context
+=
 await
 bidi_session
 .
@@ -99,6 +100,9 @@ expected_window_count
 =
 1
     
+try
+:
+        
 assert
 len
 (
@@ -114,8 +118,10 @@ get_tree
 =
 =
 2
-    
+        
 assert
+(
+            
 len
 (
 await
@@ -127,6 +133,29 @@ get_client_windows
 (
 )
 )
+            
 =
 =
 expected_window_count
+        
+)
+    
+finally
+:
+        
+await
+bidi_session
+.
+browsing_context
+.
+close
+(
+context
+=
+new_context
+[
+"
+context
+"
+]
+)

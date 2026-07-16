@@ -35,6 +35,16 @@ pytest
 .
 mark
 .
+geckodriver
+(
+allow_system_access
+=
+True
+)
+pytest
+.
+mark
+.
 parametrize
 (
     
@@ -77,11 +87,6 @@ window
 "
 ]
 )
-pytest
-.
-mark
-.
-allow_system_access
 def
 test_web_reference
 (

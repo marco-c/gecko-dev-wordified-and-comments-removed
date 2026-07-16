@@ -59,7 +59,12 @@ pytest
 .
 mark
 .
+geckodriver
+(
 allow_system_access
+=
+True
+)
 def
 test_basic
 (
@@ -95,7 +100,12 @@ pytest
 .
 mark
 .
+geckodriver
+(
 allow_system_access
+=
+True
+)
 def
 test_different_handle_than_content_scope
 (

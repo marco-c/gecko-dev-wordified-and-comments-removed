@@ -10,7 +10,12 @@ pytest
 .
 mark
 .
+geckodriver
+(
 allow_system_access
+=
+True
+)
 def
 test_recommended_preferences
 (

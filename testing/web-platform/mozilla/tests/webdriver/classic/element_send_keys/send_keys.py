@@ -163,6 +163,16 @@ pytest
 .
 mark
 .
+geckodriver
+(
+allow_system_access
+=
+True
+)
+pytest
+.
+mark
+.
 parametrize
 (
 "

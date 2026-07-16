@@ -56,6 +56,8 @@ prompt
 def
 test_no_abort_by_user_prompt_in_other_tab
 (
+    
+configuration
 session
 inline
 dialog_type
@@ -342,7 +344,14 @@ session
         
 timeout
 =
-15
+5
+*
+configuration
+[
+"
+timeout_multiplier
+"
+]
         
 ignored_exceptions
 =

@@ -289,7 +289,12 @@ pytest
 .
 mark
 .
+geckodriver
+(
 allow_system_access
+=
+True
+)
 def
 test_huge_full_screenshot
 (
@@ -377,7 +382,12 @@ pytest
 .
 mark
 .
+geckodriver
+(
 allow_system_access
+=
+True
+)
 pytest
 .
 mark

@@ -7,13 +7,6 @@ addons
 import
 is_addon_private_browsing_allowed
 from
-support
-.
-helpers
-import
-clear_pref
-set_pref
-from
 tests
 .
 bidi
@@ -32,7 +25,12 @@ pytest
 .
 mark
 .
+geckodriver
+(
 allow_system_access
+=
+True
+)
 pytest
 .
 mark
@@ -100,6 +98,8 @@ current_session
 extension_data
     
 install_webextension
+    
+use_pref
     
 allowPrivateBrowsing
     
@@ -189,12 +189,9 @@ else
     
 )
     
-try
-:
-        
-set_pref
+await
+use_pref
 (
-current_session
 "
 xpinstall
 .
@@ -204,54 +201,39 @@ required
 "
 True
 )
-        
+    
 web_extension
 =
 await
 install_webextension
 (
-            
+        
 extension_data
 =
 data
-            
+        
 _extension_params
 =
 extension_params
-        
+    
 )
-        
+    
 assert_extension_id
 (
 web_extension
 extension_data
 )
-        
+    
 assert
 is_addon_private_browsing_allowed
 (
-            
 current_session
 web_extension
-        
 )
 is
 bool
 (
-allowPrivateBrowsing
-)
-    
-finally
-:
         
-clear_pref
-(
-current_session
-"
-xpinstall
-.
-signatures
-.
-required
-"
+allowPrivateBrowsing
+    
 )

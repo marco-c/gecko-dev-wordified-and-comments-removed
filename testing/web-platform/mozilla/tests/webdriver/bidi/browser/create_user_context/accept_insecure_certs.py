@@ -10,8 +10,6 @@ tests
 bidi
 .
 browsing_context
-.
-navigate
 import
 navigate_and_assert
 pytestmark
@@ -82,11 +80,11 @@ test_accept_insecure_certs
     
 configuration
     
+geckodriver
+    
 url
     
 create_custom_profile
-    
-geckodriver
     
 accept_insecure_certs_in_session
     
@@ -118,53 +116,6 @@ capabilities
 ]
 [
 "
-moz
-:
-firefoxOptions
-"
-]
-[
-"
-args
-"
-]
-=
-[
-        
-"
--
--
-profile
-"
-        
-custom_profile
-.
-profile
-    
-]
-    
-config
-[
-"
-capabilities
-"
-]
-[
-"
-webSocketUrl
-"
-]
-=
-True
-    
-config
-[
-"
-capabilities
-"
-]
-[
-"
 acceptInsecureCerts
 "
 ]
@@ -178,6 +129,9 @@ geckodriver
 config
 =
 config
+profile
+=
+custom_profile
 )
     
 driver

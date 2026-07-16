@@ -25,7 +25,12 @@ pytest
 .
 mark
 .
+geckodriver
+(
 allow_system_access
+=
+True
+)
 def
 test_no_such_window
 (
@@ -66,7 +71,12 @@ pytest
 .
 mark
 .
+geckodriver
+(
 allow_system_access
+=
+True
+)
 def
 test_chrome_window
 (

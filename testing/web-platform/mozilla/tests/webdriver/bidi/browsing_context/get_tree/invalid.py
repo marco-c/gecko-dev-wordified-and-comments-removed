@@ -17,7 +17,12 @@ pytest
 .
 mark
 .
+geckodriver
+(
 allow_system_access
+=
+True
+)
 async
 def
 test_mutual_exclusive_with_scope

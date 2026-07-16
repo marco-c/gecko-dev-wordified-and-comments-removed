@@ -52,7 +52,12 @@ pytest
 .
 mark
 .
+geckodriver
+(
 allow_system_access
+=
+True
+)
 async
 def
 test_install_temporary_web_extension_with_content_script

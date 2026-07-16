@@ -83,7 +83,12 @@ pytest
 .
 mark
 .
+geckodriver
+(
 allow_system_access
+=
+True
+)
 pytest
 .
 mark
@@ -136,9 +141,11 @@ install_addon
 (
         
 session
+        
 "
 addon
 "
+        
 get_base64_for_extension_file
 (
 "
@@ -149,6 +156,7 @@ unsigned
 xpi
 "
 )
+        
 False
     
 )
@@ -220,7 +228,12 @@ pytest
 .
 mark
 .
+geckodriver
+(
 allow_system_access
+=
+True
+)
 def
 test_install_unsigned_addon_temporarily
 (
@@ -234,9 +247,11 @@ install_addon
 (
         
 session
+        
 "
 addon
 "
+        
 get_base64_for_extension_file
 (
 "
@@ -247,6 +262,7 @@ unsigned
 xpi
 "
 )
+        
 True
     
 )
@@ -300,7 +316,12 @@ pytest
 .
 mark
 .
+geckodriver
+(
 allow_system_access
+=
+True
+)
 pytest
 .
 mark
@@ -329,9 +350,11 @@ install_addon
 (
         
 session
+        
 "
 addon
 "
+        
 get_base64_for_extension_file
 (
 "
@@ -342,6 +365,7 @@ signed
 xpi
 "
 )
+        
 temporary
     
 )
@@ -395,7 +419,12 @@ pytest
 .
 mark
 .
+geckodriver
+(
 allow_system_access
+=
+True
+)
 def
 test_install_temporary_addon_with_content_script
 (
@@ -559,7 +588,12 @@ pytest
 .
 mark
 .
+geckodriver
+(
 allow_system_access
+=
+True
+)
 pytest
 .
 mark

@@ -117,15 +117,12 @@ config
 config
 )
     
-try
-:
-        
 driver
 .
 new_session
 (
 )
-        
+    
 assert
 driver
 .
@@ -139,7 +136,7 @@ about
 :
 about
 "
-        
+    
 response
 =
 execute_script
@@ -154,7 +151,7 @@ return
 1
 "
 )
-        
+    
 assert_error
 (
 response
@@ -163,27 +160,20 @@ unsupported
 operation
 "
 )
-    
-finally
-:
-        
-await
-driver
-.
-stop
-(
-)
 pytest
 .
 mark
 .
+geckodriver
+(
 allow_system_access
+=
+True
+)
 def
 test_execute_script_parent_process_context_with_system_access
 (
-    
 session
-new_tab_classic
 )
 :
     

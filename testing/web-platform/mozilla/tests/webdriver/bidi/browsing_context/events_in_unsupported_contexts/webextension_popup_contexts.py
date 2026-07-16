@@ -3,6 +3,12 @@ os
 import
 pytest
 from
+support
+.
+context
+import
+using_context
+from
 tests
 .
 support
@@ -16,11 +22,6 @@ webdriver
 error
 import
 TimeoutException
-from
-.
-.
-import
-using_context
 pytestmark
 =
 pytest
@@ -32,7 +33,12 @@ pytest
 .
 mark
 .
+geckodriver
+(
 allow_system_access
+=
+True
+)
 pytest
 .
 mark
@@ -131,6 +137,9 @@ popup_webextension
     
 )
     
+await
+install_webextension
+(
 extension_data
 =
 {
@@ -147,13 +156,6 @@ path
 :
 path
 }
-    
-await
-install_webextension
-(
-extension_data
-=
-extension_data
 )
     
 await
