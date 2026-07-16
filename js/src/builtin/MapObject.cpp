@@ -265,10 +265,7 @@ i
 ;
 }
 return
-JS
-:
-:
-CanonicalizedDoubleValue
+DoubleValue
 (
 d
 )

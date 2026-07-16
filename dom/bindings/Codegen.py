@@ -45574,7 +45574,7 @@ return
 JS
 :
 :
-CanonicalizedDoubleValue
+DoubleValue
 (
 %
 s
@@ -45643,7 +45643,7 @@ return
 JS
 :
 :
-CanonicalizedDoubleValue
+DoubleValue
 (
 %
 s

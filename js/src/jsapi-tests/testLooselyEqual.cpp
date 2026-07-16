@@ -286,7 +286,7 @@ qNaN
 JS
 :
 :
-CanonicalizedDoubleValue
+DoubleValue
 (
 numeric_limits
 <
@@ -304,7 +304,7 @@ sNaN
 JS
 :
 :
-CanonicalizedDoubleValue
+DoubleValue
 (
 numeric_limits
 <

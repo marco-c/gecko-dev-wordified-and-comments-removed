@@ -30619,10 +30619,7 @@ index
 *
 vp
 =
-JS
-:
-:
-CanonicalizedDoubleValue
+DoubleValue
 (
 static_cast
 <
@@ -30676,10 +30673,7 @@ val
 *
 vp
 =
-JS
-:
-:
-CanonicalizedDoubleValue
+DoubleValue
 (
 dval
 )
@@ -30722,10 +30716,7 @@ index
 *
 vp
 =
-JS
-:
-:
-CanonicalizedDoubleValue
+DoubleValue
 (
 val
 )

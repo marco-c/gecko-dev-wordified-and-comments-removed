@@ -306,7 +306,7 @@ time
 )
 {
 return
-CanonicalizedDoubleValue
+DoubleValue
 (
 time
 .
