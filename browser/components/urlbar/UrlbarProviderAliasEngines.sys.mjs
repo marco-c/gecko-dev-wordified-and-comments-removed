@@ -308,7 +308,9 @@ SEARCH
 !
 queryContext
 .
-searchMode
+restrictInSearchMode
+(
+)
 &
 &
 !

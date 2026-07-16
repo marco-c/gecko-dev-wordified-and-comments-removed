@@ -398,7 +398,9 @@ value
 !
 queryContext
 .
-searchMode
+restrictInSearchMode
+(
+)
 )
 {
 return

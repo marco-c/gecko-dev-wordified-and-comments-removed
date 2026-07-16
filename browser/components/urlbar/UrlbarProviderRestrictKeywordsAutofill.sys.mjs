@@ -418,7 +418,9 @@ if
 (
 queryContext
 .
-searchMode
+restrictInSearchMode
+(
+)
 |
 |
 queryContext

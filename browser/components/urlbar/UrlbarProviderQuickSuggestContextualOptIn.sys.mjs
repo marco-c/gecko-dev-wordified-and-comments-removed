@@ -438,7 +438,9 @@ searchString
 |
 queryContext
 .
-searchMode
+restrictInSearchMode
+(
+)
 )
 )
 {

@@ -726,7 +726,9 @@ MIN_CHARS_FOR_CHAT
 !
 queryContext
 .
-searchMode
+restrictInSearchMode
+(
+)
 )
 ;
 }

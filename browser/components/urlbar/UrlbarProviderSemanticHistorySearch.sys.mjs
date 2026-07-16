@@ -678,12 +678,15 @@ minSearchStringLength
 !
 queryContext
 .
-searchMode
+restrictInSearchMode
+(
+)
 |
 |
 queryContext
 .
 searchMode
+?
 .
 source
 =

@@ -391,7 +391,9 @@ ENABLED_PREF
 !
 queryContext
 .
-searchMode
+restrictInSearchMode
+(
+)
 &
 &
 queryContext

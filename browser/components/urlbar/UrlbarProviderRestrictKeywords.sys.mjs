@@ -293,10 +293,13 @@ false
 ;
 }
 return
+(
 !
 queryContext
 .
-searchMode
+restrictInSearchMode
+(
+)
 &
 &
 queryContext
@@ -306,6 +309,7 @@ trimmedSearchString
 =
 "
 "
+)
 ;
 }
 /

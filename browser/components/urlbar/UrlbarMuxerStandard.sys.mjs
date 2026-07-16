@@ -7993,6 +7993,15 @@ result
 payload
 .
 url
+&
+&
+state
+.
+context
+.
+restrictInSearchMode
+(
+)
 )
 {
 let

@@ -644,7 +644,9 @@ length
 !
 queryContext
 .
-searchMode
+restrictInSearchMode
+(
+)
 &
 &
 lazy

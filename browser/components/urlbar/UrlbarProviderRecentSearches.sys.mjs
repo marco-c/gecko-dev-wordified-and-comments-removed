@@ -457,7 +457,9 @@ searchString
 !
 queryContext
 .
-searchMode
+restrictInSearchMode
+(
+)
 &
 &
 !

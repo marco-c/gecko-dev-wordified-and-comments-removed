@@ -476,7 +476,9 @@ if
 (
 queryContext
 .
-searchMode
+restrictInSearchMode
+(
+)
 )
 {
 return

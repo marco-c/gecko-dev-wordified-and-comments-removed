@@ -596,7 +596,9 @@ ENABLED_PREF
 !
 queryContext
 .
-searchMode
+restrictInSearchMode
+(
+)
 &
 &
 lazy

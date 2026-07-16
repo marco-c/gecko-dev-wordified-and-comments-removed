@@ -698,7 +698,9 @@ openpage
 !
 queryContext
 .
-searchMode
+restrictInSearchMode
+(
+)
 )
 ;
 }

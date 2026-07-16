@@ -3533,6 +3533,13 @@ this
 .
 #
 searchModeEngine
+&
+&
+queryContext
+.
+restrictInSearchMode
+(
+)
 )
 {
 /

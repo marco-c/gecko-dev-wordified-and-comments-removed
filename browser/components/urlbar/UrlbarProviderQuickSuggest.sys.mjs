@@ -534,7 +534,9 @@ isPrivate
 |
 queryContext
 .
-searchMode
+restrictInSearchMode
+(
+)
 )
 {
 return

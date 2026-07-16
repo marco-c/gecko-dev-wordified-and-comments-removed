@@ -343,7 +343,9 @@ searchString
 |
 queryContext
 .
-searchMode
+restrictInSearchMode
+(
+)
 )
 {
 return

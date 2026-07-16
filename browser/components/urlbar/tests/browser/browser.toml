@@ -773,6 +773,13 @@ js
 ]
 [
 "
+browser_historyInSearchMode
+.
+js
+"
+]
+[
+"
 browser_ime_composition
 .
 js

@@ -299,7 +299,9 @@ BOOKMARKS
 !
 queryContext
 .
-searchMode
+restrictInSearchMode
+(
+)
 &
 &
 !

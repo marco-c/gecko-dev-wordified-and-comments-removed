@@ -673,7 +673,9 @@ trimmedSearchString
 !
 queryContext
 .
-searchMode
+restrictInSearchMode
+(
+)
 &
 &
 lazy

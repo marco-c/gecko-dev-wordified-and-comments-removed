@@ -627,7 +627,9 @@ searchString
 !
 queryContext
 .
-searchMode
+restrictInSearchMode
+(
+)
 )
 ;
 }
