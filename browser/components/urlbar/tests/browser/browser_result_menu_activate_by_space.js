@@ -319,7 +319,7 @@ view
 .
 resultMenu
 "
-shown
+popupshown
 "
 )
 ;
@@ -409,11 +409,8 @@ view
 .
 resultMenu
 .
-removeAttribute
+hidePopup
 (
-"
-open
-"
 )
 ;
 }

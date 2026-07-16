@@ -1759,7 +1759,7 @@ report
 -
 inaccurate
 -
-location2
+location
 "
 }
 }
@@ -1798,7 +1798,7 @@ show
 -
 less
 -
-frequently2
+frequently
 "
 }
 }
@@ -1829,7 +1829,7 @@ menu
 -
 dismiss
 -
-suggestion2
+suggestion
 "
 }
 }
@@ -1862,7 +1862,7 @@ manage
 -
 firefox
 -
-suggest2
+suggest
 "
 }
 }
@@ -1886,7 +1886,7 @@ menu
 -
 learn
 -
-more2
+more
 "
 }
 }

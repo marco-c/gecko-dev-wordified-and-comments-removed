@@ -484,7 +484,7 @@ menu
 -
 dismiss
 -
-suggestion2
+suggestion
 "
 }
 }
@@ -517,7 +517,7 @@ manage
 -
 firefox
 -
-suggest2
+suggest
 "
 }
 }

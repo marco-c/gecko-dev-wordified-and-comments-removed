@@ -749,7 +749,7 @@ show
 -
 less
 -
-frequently2
+frequently
 "
 }
 }
@@ -780,7 +780,7 @@ menu
 -
 dismiss
 -
-suggestion2
+suggestion
 "
 }
 }
@@ -806,7 +806,7 @@ dont
 -
 show
 -
-addons2
+addons
 "
 }
 }
@@ -839,7 +839,7 @@ manage
 -
 firefox
 -
-suggest2
+suggest
 "
 }
 }

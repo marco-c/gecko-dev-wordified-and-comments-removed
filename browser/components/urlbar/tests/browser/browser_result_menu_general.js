@@ -214,7 +214,7 @@ tip
 -
 get
 -
-help2
+help
 "
 args
 :
@@ -261,7 +261,7 @@ menu
 -
 learn
 -
-more2
+more
 "
 args
 :
@@ -460,11 +460,9 @@ view
 .
 resultMenu
 .
-removeAttribute
+hidePopup
 (
-"
-open
-"
+true
 )
 ;
 let
@@ -1642,7 +1640,7 @@ tip
 -
 get
 -
-help2
+help
 "
 }
 }

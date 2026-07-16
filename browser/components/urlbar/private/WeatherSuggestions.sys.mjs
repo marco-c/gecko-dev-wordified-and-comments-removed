@@ -1885,7 +1885,7 @@ report
 -
 inaccurate
 -
-location2
+location
 "
 }
 }
@@ -1924,7 +1924,7 @@ show
 -
 less
 -
-frequently2
+frequently
 "
 }
 }
@@ -1959,7 +1959,7 @@ show
 -
 weather
 -
-suggestions2
+suggestions
 "
 }
 }
@@ -1992,7 +1992,7 @@ manage
 -
 firefox
 -
-suggest2
+suggest
 "
 }
 }
@@ -2016,7 +2016,7 @@ menu
 -
 learn
 -
-more2
+more
 "
 }
 }

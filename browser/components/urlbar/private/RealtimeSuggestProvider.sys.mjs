@@ -754,6 +754,7 @@ return
 {
 id
 :
+"
 urlbar
 -
 result
@@ -764,12 +765,11 @@ dont
 -
 show
 -
-{
+"
++
 this
 .
 realtimeTypeForFtl
-}
-2
 }
 ;
 }
@@ -2563,7 +2563,7 @@ in
 -
 dismiss
 -
-all2
+all
 "
 }
 }
@@ -3320,7 +3320,7 @@ show
 -
 less
 -
-frequently2
+frequently
 "
 }
 }
@@ -3372,7 +3372,7 @@ manage
 -
 firefox
 -
-suggest2
+suggest
 "
 }
 }
@@ -3396,7 +3396,7 @@ menu
 -
 learn
 -
-more2
+more
 "
 }
 }
