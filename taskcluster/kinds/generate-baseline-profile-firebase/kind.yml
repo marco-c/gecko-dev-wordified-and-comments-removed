@@ -67,14 +67,6 @@ transform
 loader
 transforms
 :
--
-gecko_taskgraph
-.
-transforms
-.
-test_apk
-:
-transforms
 #
 While
 not
