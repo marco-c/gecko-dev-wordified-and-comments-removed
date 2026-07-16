@@ -112,6 +112,15 @@ uint32_t
 aReplacedEvent
 uint32_t
 aAllowedEvent
+void
+(
+*
+aCancelCallback
+)
+(
+nsIChannel
+*
+)
 ChannelBlockDecision
 *
 aOutDecision
