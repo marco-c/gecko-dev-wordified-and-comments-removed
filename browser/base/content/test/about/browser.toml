@@ -719,6 +719,13 @@ settings
 "
 [
 "
+browser_aboutSupport_graphics_media
+.
+js
+"
+]
+[
+"
 browser_aboutSupport_newtab_security_state
 .
 js
