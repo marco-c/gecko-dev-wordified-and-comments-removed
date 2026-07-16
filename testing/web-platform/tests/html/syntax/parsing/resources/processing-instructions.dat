@@ -331,8 +331,7 @@ body
 <
 ?
 hey
-\
-tthere
+there
 =
 1
 ?
@@ -368,8 +367,7 @@ body
 <
 ?
 hey
-\
-nthere
+there
 =
 1
 ?
@@ -405,8 +403,7 @@ body
 <
 ?
 hey
-\
-rthere
+there
 =
 1
 ?
@@ -442,8 +439,7 @@ body
 <
 ?
 hey
-\
-fthere
+there
 =
 1
 ?
@@ -2581,8 +2577,6 @@ body
 >
 <
 ?
-\
-u0665
 -
 star
 >
@@ -2762,8 +2756,7 @@ body
 >
 <
 ?
-\
-u00B7middle
+middle
 -
 dot
 >
@@ -2800,8 +2793,7 @@ body
 >
 <
 ?
-\
-u0375greek
+greek
 -
 numeral
 >
@@ -2838,8 +2830,7 @@ body
 >
 <
 ?
-\
-u0301accent
+accent
 -
 start
 >
@@ -3384,10 +3375,6 @@ body
 >
 <
 ?
-\
-uD83D
-\
-uDE80
 -
 launch
 >
@@ -3425,10 +3412,6 @@ body
 ?
 error
 -
-\
-u26A0
-\
-uFE0F
 >
 #
 document
@@ -3464,10 +3447,6 @@ body
 ?
 fire
 -
-\
-uD83D
-\
-uDD25
 >
 #
 document
@@ -3503,8 +3482,6 @@ body
 ?
 v1
 -
-\
-u2705
 >
 #
 document
