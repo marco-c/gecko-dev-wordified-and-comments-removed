@@ -2217,6 +2217,12 @@ supports_sse3
 |
 #
 endif
+#
+if
+defined
+(
+MOZ_YCBCR_ROW_SSE
+)
 (
 supports_mmx
 (
@@ -2234,6 +2240,12 @@ supports_sse3
 )
 )
 ;
+#
+else
+false
+;
+#
+endif
 if
 (
 yuv_color_space
