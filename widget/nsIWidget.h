@@ -3647,6 +3647,12 @@ return
 false
 ;
 }
+void
+SetIsTiled
+(
+bool
+)
+;
 virtual
 void
 DestroyCompositor

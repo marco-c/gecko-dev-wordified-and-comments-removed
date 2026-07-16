@@ -9297,7 +9297,7 @@ SetBoolAttr
 nsGkAtoms
 :
 :
-gtktiledwindow
+tiled
 mWindow
 -
 >
