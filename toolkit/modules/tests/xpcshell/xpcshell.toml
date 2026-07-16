@@ -184,6 +184,13 @@ js
 ]
 [
 "
+test_DateNormalizationUtils
+.
+js
+"
+]
+[
+"
 test_DeferredTask
 .
 js
