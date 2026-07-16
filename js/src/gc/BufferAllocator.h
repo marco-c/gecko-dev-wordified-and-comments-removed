@@ -1524,8 +1524,7 @@ JSTracer
 trc
 void
 *
-*
-allocp
+alloc
 const
 char
 *
@@ -2017,8 +2016,7 @@ JSTracer
 trc
 void
 *
-*
-allocp
+alloc
 const
 char
 *
