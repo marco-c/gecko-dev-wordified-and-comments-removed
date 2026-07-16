@@ -186,6 +186,15 @@ mjs
 "
 generated
 /
+RustViaduct
+.
+sys
+.
+mjs
+"
+"
+generated
+/
 RustWebextstorage
 .
 sys
