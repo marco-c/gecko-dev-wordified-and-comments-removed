@@ -628,7 +628,6 @@ TaskbarTabsPin
 pinTaskbarTab
 (
 taskbarTab
-registry
 img
 )
 ;
@@ -710,7 +709,6 @@ TaskbarTabsPin
 pinTaskbarTab
 (
 taskbarTab
-registry
 img
 )
 ;
