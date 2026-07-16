@@ -2747,8 +2747,6 @@ Substring
 (
 aPeerId
 caretPos
-+
-1
 )
 )
 ;
