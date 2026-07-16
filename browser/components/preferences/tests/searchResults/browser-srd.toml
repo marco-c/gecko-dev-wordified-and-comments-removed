@@ -39,6 +39,13 @@ os_integration
 "
 [
 "
+browser_search_backup_multi_profile_legacy_pref
+.
+js
+"
+]
+[
+"
 browser_search_category_filter
 .
 js
