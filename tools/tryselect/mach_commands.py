@@ -639,15 +639,10 @@ command_context
 )
 :
             
-command_context
-.
-_mach_context
-.
 parser
 .
 error
 (
-                
 f
 "
 preset
@@ -660,7 +655,6 @@ does
 not
 exist
 "
-            
 )
         
 name
