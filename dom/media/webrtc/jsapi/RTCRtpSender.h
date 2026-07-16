@@ -1454,6 +1454,16 @@ UpdateParametersCodecs
 (
 )
 ;
+void
+UpdateParametersRtcp
+(
+)
+;
+void
+UpdateParametersHeaderExtensions
+(
+)
+;
 Canonical
 <
 Ssrcs
