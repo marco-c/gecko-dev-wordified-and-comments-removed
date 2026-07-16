@@ -811,6 +811,9 @@ resolver
 -
 rules
 =
+"
+                                  
+"
 MAP
 nonexistent
 .
@@ -819,6 +822,9 @@ nonexistent
 test
 ^
 NOTFOUND
+"
+                                  
+"
 MAP
 *
 .
@@ -830,6 +836,9 @@ test
 0
 .
 1
+"
+                                  
+"
 MAP
 *
 .
@@ -842,6 +851,26 @@ test
 0
 .
 1
+"
+                                  
+"
+MAP
+apple
+.
+com
+^
+NOTFOUND
+"
+                                  
+"
+MAP
+*
+.
+apple
+.
+com
+^
+NOTFOUND
 "
 )
     
