@@ -1720,8 +1720,6 @@ tab
 -
 group
 -
-color
--
 {
 tabGroup
 .
@@ -1754,8 +1752,6 @@ var
 tab
 -
 group
--
-color
 -
 {
 tabGroup
@@ -1791,8 +1787,6 @@ var
 tab
 -
 group
--
-color
 -
 {
 tabGroup
