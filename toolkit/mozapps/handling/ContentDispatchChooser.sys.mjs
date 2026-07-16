@@ -894,7 +894,7 @@ aURI
 let
 shouldOpenHandler
 =
-aHasPermission
+false
 ;
 let
 resetHandlerChoice
