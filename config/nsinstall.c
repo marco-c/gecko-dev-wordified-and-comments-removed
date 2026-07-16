@@ -2069,13 +2069,6 @@ todir
 ;
 #
 endif
-tdlen
-=
-strlen
-(
-todir
-)
-;
 xchdir
 (
 cwd
