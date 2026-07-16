@@ -3591,6 +3591,11 @@ true
 detail
 :
 {
+conversationId
+:
+this
+.
+conversationId
 messageId
 :
 this
