@@ -410,6 +410,8 @@ msix
 -
 nogpu
 -
+privateBrowsing
+-
 remote_async
 -
 snapshot

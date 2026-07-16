@@ -365,6 +365,8 @@ inc
 origin
 -
 init
+-
+privatebrowsing
 instance
 -
 size
@@ -561,6 +563,10 @@ inc
 origin
 -
 init
+:
+[
+]
+privatebrowsing
 :
 [
 ]

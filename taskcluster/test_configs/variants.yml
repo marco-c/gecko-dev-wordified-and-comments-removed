@@ -4382,6 +4382,11 @@ MOZHARNESS_TEST_TAG
 "
 privatebrowsing
 "
+MOZ_PRIVATE_BROWSING
+:
+"
+1
+"
 mozharness
 :
 extra
@@ -4488,6 +4493,11 @@ origin
 init
 "
 MOZ_ENABLE_INC_ORIGIN_INIT
+:
+"
+1
+"
+MOZ_PRIVATE_BROWSING
 :
 "
 1
