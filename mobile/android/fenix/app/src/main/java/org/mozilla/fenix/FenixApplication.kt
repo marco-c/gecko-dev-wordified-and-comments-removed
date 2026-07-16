@@ -4095,6 +4095,13 @@ settings
 deletePocketDatabaseIfNeeded
 (
 )
+components
+.
+settings
+.
+deleteReportSiteDomainsDataStoreIfNeeded
+(
+)
 }
 /
 /
