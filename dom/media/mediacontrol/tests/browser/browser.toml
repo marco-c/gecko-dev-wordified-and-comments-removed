@@ -102,6 +102,11 @@ file_iframe_media
 html
 "
 "
+file_interrupt_blocks_start
+.
+html
+"
+"
 file_named_media_session
 .
 html
@@ -260,6 +265,13 @@ webm
 [
 "
 browser_audiblechange_event
+.
+js
+"
+]
+[
+"
+browser_audio_focus_interrupt_blocks_start
 .
 js
 "
