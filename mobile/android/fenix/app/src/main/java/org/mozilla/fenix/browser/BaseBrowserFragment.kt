@@ -11768,11 +11768,6 @@ themeManager
 applyStatusBarTheme
 (
 homeActivity
-requireComponents
-.
-settings
-.
-isTabStripEnabled
 )
 }
 }
