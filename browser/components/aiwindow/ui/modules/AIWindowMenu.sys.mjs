@@ -832,14 +832,6 @@ conversation
 }
 else
 {
-AIWindow
-.
-restoreTabConversation
-(
-targetBrowser
-conversation
-)
-;
 AIWindowUI
 .
 openSidebar
