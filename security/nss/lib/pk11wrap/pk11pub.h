@@ -904,6 +904,13 @@ CK_MECHANISM_TYPE
 type
 )
 ;
+PRBool
+PK11_IsAEAD
+(
+CK_MECHANISM_TYPE
+type
+)
+;
 SECItem
 *
 PK11_ParamFromAlgid

@@ -38,6 +38,13 @@ pip
 &
 pip3
 install
+-
+-
+break
+-
+system
+-
+packages
 sphinx
 \
 &

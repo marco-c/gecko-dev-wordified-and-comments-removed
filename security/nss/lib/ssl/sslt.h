@@ -213,6 +213,12 @@ ssl_kea_ecdh_hybrid
 ssl_kea_ecdh_hybrid_psk
 =
 9
+ssl_kea_kem
+=
+10
+ssl_kea_kem_psk
+=
+11
 ssl_kea_size
 }
 SSLKEAType
@@ -629,6 +635,9 @@ ssl_grp_ffdhe_6144
 ssl_grp_ffdhe_8192
 =
 260
+ssl_grp_kem_mlkem1024
+=
+514
 ssl_grp_kem_secp256r1mlkem768
 =
 4587

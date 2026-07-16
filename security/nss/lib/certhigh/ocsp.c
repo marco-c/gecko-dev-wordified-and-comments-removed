@@ -19763,6 +19763,11 @@ certificateUsageSSLCA
 0
 )
 {
+CERT_DestroyCertificate
+(
+cert
+)
+;
 PORT_SetError
 (
 SEC_ERROR_OCSP_RESPONDER_CERT_INVALID

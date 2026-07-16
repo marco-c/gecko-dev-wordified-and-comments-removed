@@ -7370,7 +7370,7 @@ CHECK_FORK
 )
 ;
 return
-FC_AsyncJoin
+NSC_AsyncJoin
 (
 hSession
 pFunctionName

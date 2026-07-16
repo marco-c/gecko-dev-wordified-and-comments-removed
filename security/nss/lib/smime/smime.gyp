@@ -149,6 +149,11 @@ cmsencode
 c
 '
 '
+cmsauthenvdata
+.
+c
+'
+'
 cmsenvdata
 .
 c

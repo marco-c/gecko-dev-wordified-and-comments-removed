@@ -976,6 +976,14 @@ DER_LengthLength
 (
 sub_len
 )
++
+sub_len
+;
+else
+len
++
+=
+sub_len
 ;
 }
 }

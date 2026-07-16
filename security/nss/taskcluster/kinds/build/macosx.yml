@@ -23,7 +23,9 @@ artifacts
 name
 :
 public
-macosx64
+mac
+-
+x64
 /
 opt
 :
@@ -35,7 +37,9 @@ Mac
 opt
 )
 "
-macosx64
+mac
+-
+x64
 /
 opt
 -
@@ -55,7 +59,9 @@ attributes
 static
 :
 true
-macosx64
+mac
+-
+x64
 /
 debug
 :
@@ -67,7 +73,9 @@ Mac
 debug
 )
 "
-macosx64
+mac
+-
+x64
 /
 opt
 -
@@ -96,7 +104,9 @@ USE_64
 "
 1
 "
-macosx64
+mac
+-
+x64
 /
 debug
 -

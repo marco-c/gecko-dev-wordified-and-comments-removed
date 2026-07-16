@@ -4516,6 +4516,8 @@ global
 :
 PK11_CreatePrivateKeyFromTemplate
 ;
+PK11_IsAEAD
+;
 ;
 +
 local
