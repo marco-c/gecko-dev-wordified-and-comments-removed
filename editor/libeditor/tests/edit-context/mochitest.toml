@@ -69,3 +69,10 @@ file_editcontext_resist_fingerprinting
 html
 "
 ]
+[
+"
+test_editcontext_spellcheck
+.
+html
+"
+]
