@@ -9168,6 +9168,7 @@ ignore
 =
 "
 BrandUsage
+UnusedResources
 "
 >
 Mozilla
@@ -9235,6 +9236,7 @@ ignore
 =
 "
 BrandUsage
+UnusedResources
 "
 >
 Mozilla
@@ -9678,6 +9680,7 @@ ignore
 =
 "
 BrandUsage
+UnusedResources
 "
 >
 Firefox
