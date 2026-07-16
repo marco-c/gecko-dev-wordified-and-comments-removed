@@ -5803,6 +5803,13 @@ ShrinkToLigatureBoundaries
 ligatureRange
 )
 ;
+const
+CompressedGlyph
+*
+charGlyphs
+=
+mCharacterGlyphs
+;
 uint32_t
 rescanLimit
 =
@@ -6000,7 +6007,7 @@ aStart
 bool
 atNaturalBreak
 =
-mCharacterGlyphs
+charGlyphs
 [
 i
 ]
@@ -6084,7 +6091,7 @@ aCanWordWrap
 aCanWhitespaceWrap
 &
 &
-mCharacterGlyphs
+charGlyphs
 [
 i
 ]
@@ -6102,7 +6109,7 @@ FLAG_BREAK_TYPE_EMERGENCY_WRAP
 )
 &
 &
-mCharacterGlyphs
+charGlyphs
 [
 i
 ]
@@ -6137,7 +6144,7 @@ const
 &
 g
 =
-mCharacterGlyphs
+charGlyphs
 [
 i
 -
@@ -6428,7 +6435,7 @@ aOutTrimmableWhitespace
 {
 if
 (
-mCharacterGlyphs
+charGlyphs
 [
 i
 ]
