@@ -99530,6 +99530,7 @@ class
 SpeculationRules
 >
 (
+this
 )
 ;
 }
