@@ -1207,8 +1207,13 @@ lib
 >
 CreateDisplay
 (
+EGLCreateDisplayFlags
+{
+.
+mForceAccel
+=
 true
-false
+}
 &
 failureId
 )

@@ -142,8 +142,13 @@ lib
 >
 CreateDisplay
 (
-false
+EGLCreateDisplayFlags
+{
+.
+mForceSoftware
+=
 true
+}
 out_failureId
 )
 ;
