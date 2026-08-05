@@ -360,6 +360,15 @@ OnDeviceSummarizationShakeConsentAction
 .
 CancelClicked
 PageLoadCompleted
+SignInSummarizationContentAction
+.
+DismissClicked
+SignInSummarizationContentAction
+.
+LearnMoreClicked
+SignInSummarizationContentAction
+.
+SignInClicked
 ViewAppeared
 is
 ViewDismissed

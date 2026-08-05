@@ -579,6 +579,15 @@ ReceivedParsedDocument
 SettingsBackClicked
 SettingsClicked
 ShakeConsentRequested
+SignInSummarizationContentAction
+.
+DismissClicked
+SignInSummarizationContentAction
+.
+LearnMoreClicked
+SignInSummarizationContentAction
+.
+SignInClicked
 SummarizationCompleted
 is
 SummarizationRequested

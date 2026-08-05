@@ -153,6 +153,16 @@ concept
 .
 llm
 .
+AttestationFailure
+import
+mozilla
+.
+components
+.
+concept
+.
+llm
+.
 AuthFailure
 import
 mozilla
@@ -314,6 +324,7 @@ Exception
 message
 )
 MlpaError
+AttestationFailure
 /
 *
 *
