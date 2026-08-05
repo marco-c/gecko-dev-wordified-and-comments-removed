@@ -1404,6 +1404,7 @@ toWire
 }
 close
 (
+options
 )
 {
 this
@@ -1414,6 +1415,12 @@ invoke
 "
 close
 "
+options
+?
+[
+options
+]
+:
 [
 ]
 )
