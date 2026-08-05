@@ -3596,9 +3596,31 @@ HOST_RUST_PROGRAM_OUTPUT_CATEGORY
 class
 RustTests
 (
-ContextDerived
+Linkable
 )
 :
+    
+"
+"
+"
+Context
+derived
+container
+object
+for
+Rust
+test
+targets
+.
+"
+"
+"
+    
+KIND
+=
+"
+target
+"
     
 __slots__
 =
@@ -3624,7 +3646,7 @@ features
 )
 :
         
-ContextDerived
+Linkable
 .
 __init__
 (

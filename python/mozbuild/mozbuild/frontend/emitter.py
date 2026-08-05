@@ -1381,6 +1381,16 @@ _static_linking_shared
 :
             
 if
+isinstance
+(
+lib
+RustTests
+)
+:
+                
+continue
+            
+if
 all
 (
 isinstance
@@ -2194,11 +2204,19 @@ isinstance
 (
                 
 obj
+                
 (
+                    
 StaticLibrary
+                    
 HostLibrary
+                    
 HostSharedLibrary
+                    
 BaseRustProgram
+                    
+RustTests
+                
 )
             
 )
@@ -3067,7 +3085,10 @@ elif
 isinstance
 (
 obj
+(
 StaticLibrary
+RustTests
+)
 )
 and
 isinstance
@@ -10676,13 +10697,32 @@ RUST_TEST_FEATURES
 ]
 )
             
-yield
+rust_tests_obj
+=
 RustTests
 (
 context
 rust_tests
 features
 )
+            
+self
+.
+_linkage
+.
+append
+(
+(
+context
+rust_tests_obj
+"
+USE_LIBS
+"
+)
+)
+            
+yield
+rust_tests_obj
         
 for
 obj
