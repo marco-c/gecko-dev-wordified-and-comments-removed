@@ -6538,9 +6538,6 @@ groupTabsButton
 .
 hidden
 =
-isImmersiveView
-|
-|
 !
 groupTabsEnabled
 |
