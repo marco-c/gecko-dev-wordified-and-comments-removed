@@ -651,7 +651,7 @@ false
 [
 pictureData
 .
-imageUrl
+thumbnailUrl
 ]
 )
 ;
@@ -903,7 +903,7 @@ Boolean
 (
 pictureData
 .
-imageUrl
+thumbnailUrl
 )
 &
 &
@@ -2566,7 +2566,7 @@ src
 {
 pictureData
 .
-imageUrl
+thumbnailUrl
 }
 alt
 =
