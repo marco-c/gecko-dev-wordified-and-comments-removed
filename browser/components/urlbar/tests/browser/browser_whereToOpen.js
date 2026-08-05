@@ -366,7 +366,9 @@ where
 =
 gURLBar
 .
-_whereToOpen
+controller
+.
+whereToOpen
 (
 test
 .
@@ -502,7 +504,9 @@ where
 =
 gURLBar
 .
-_whereToOpen
+controller
+.
+whereToOpen
 (
 test
 .
@@ -672,7 +676,9 @@ where
 =
 gURLBar
 .
-_whereToOpen
+controller
+.
+whereToOpen
 (
 test
 .
@@ -950,7 +956,9 @@ where
 =
 gURLBar
 .
-_whereToOpen
+controller
+.
+whereToOpen
 (
 test
 .
