@@ -217,6 +217,13 @@ html
 ]
 [
 "
+test_input_click_clear_button_without_focus
+.
+html
+"
+]
+[
+"
 test_input_color_input_change_events
 .
 html
