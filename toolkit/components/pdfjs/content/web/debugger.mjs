@@ -126,6 +126,7 @@ License
 /
 const
 {
+makeSet
 OPS
 }
 =
@@ -3263,14 +3264,7 @@ dependents
 getOrInsertComputed
 (
 dependencyIdx
-(
-)
-=
->
-new
-Set
-(
-)
+makeSet
 )
 .
 add
