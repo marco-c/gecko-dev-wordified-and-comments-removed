@@ -524,6 +524,10 @@ optional
 int
 >
 vsbc_frames_dropped_
+RTC_GUARDED_BY
+(
+sequence_checker_
+)
 ;
 std
 :
@@ -533,6 +537,10 @@ optional
 VideoStreamBufferControllerObserverDecodableStats
 >
 vsbc_decodable_stats_
+RTC_GUARDED_BY
+(
+sequence_checker_
+)
 ;
 RenderingTrackerEvents
 &
