@@ -1,14 +1,3 @@
-#
-[
-cfg
-(
-test
-)
-]
-pub
-mod
-test
-;
 mod
 atomic_refcell
 ;

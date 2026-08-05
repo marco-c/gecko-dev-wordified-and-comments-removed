@@ -5,9 +5,6 @@ mod
 chroma_upsample
 ;
 mod
-cms
-;
-mod
 convert
 ;
 mod
@@ -70,13 +67,6 @@ blending
 pub
 use
 chroma_upsample
-:
-:
-*
-;
-pub
-use
-cms
 :
 :
 *

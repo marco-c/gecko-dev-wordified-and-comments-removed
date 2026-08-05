@@ -811,6 +811,13 @@ Vec
 <
 bool
 >
+pub
+group_scratch_buffers_limit
+:
+Option
+<
+usize
+>
 }
 impl
 <

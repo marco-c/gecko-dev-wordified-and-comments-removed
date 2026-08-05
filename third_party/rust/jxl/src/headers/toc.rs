@@ -60,6 +60,7 @@ derive
 UnconditionalCoder
 Debug
 PartialEq
+Clone
 )
 ]
 #
@@ -465,10 +466,10 @@ push
 entry
 )
 ;
-Ok
+br
+.
+check_for_error
 (
-(
-)
 )
 }
 fn
@@ -529,10 +530,10 @@ Some
 permutation
 )
 ;
-Ok
+br
+.
+check_for_error
 (
-(
-)
 )
 }
 pub

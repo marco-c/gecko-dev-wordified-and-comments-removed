@@ -192,6 +192,12 @@ usize
 chunk_size
 :
 usize
+group_scratch_buffers_limit
+:
+Option
+<
+usize
+>
 )
 -
 >
@@ -337,6 +343,7 @@ false
 ;
 num_channels
 ]
+group_scratch_buffers_limit
 }
 }
 }
@@ -395,6 +402,12 @@ usize
 log_group_size
 :
 usize
+group_scratch_buffers_limit
+:
+Option
+<
+usize
+>
 )
 -
 >
@@ -417,6 +430,7 @@ log_group_size
 +
 downsampling_shift
 )
+group_scratch_buffers_limit
 )
 }
 pub

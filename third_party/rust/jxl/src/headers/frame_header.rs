@@ -180,6 +180,7 @@ derive
 UnconditionalCoder
 Debug
 PartialEq
+Clone
 )
 ]
 pub
@@ -796,6 +797,7 @@ derive
 UnconditionalCoder
 Debug
 PartialEq
+Clone
 )
 ]
 #
@@ -1477,6 +1479,7 @@ derive
 UnconditionalCoder
 Debug
 PartialEq
+Clone
 )
 ]
 #
@@ -5165,10 +5168,10 @@ use
 crate
 :
 :
-util
+tests
 :
 :
-test
+decode
 :
 :
 read_headers_and_toc
@@ -5458,7 +5461,7 @@ assert_eq
 frame_header
 .
 x_qm_scale
-3
+2
 )
 ;
 assert_eq

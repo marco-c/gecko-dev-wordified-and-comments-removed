@@ -11,6 +11,9 @@ mod
 specialized_trees
 ;
 pub
+(
+super
+)
 use
 bitstream
 :

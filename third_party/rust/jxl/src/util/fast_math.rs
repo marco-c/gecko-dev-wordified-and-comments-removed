@@ -1394,13 +1394,10 @@ use
 crate
 :
 :
-util
+tests
 :
 :
-test
-:
-:
-assert_almost_abs_eq
+assert_close
 ;
 use
 super
@@ -1687,7 +1684,8 @@ erf_x
 in
 golden
 {
-assert_almost_abs_eq
+assert_close
+!
 (
 fast_erff
 (
@@ -1699,7 +1697,8 @@ erf_x
 4
 )
 ;
-assert_almost_abs_eq
+assert_close
+!
 (
 fast_erff
 (
@@ -1759,7 +1758,8 @@ PI
 PI
 )
 ;
-assert_almost_abs_eq
+assert_close
+!
 (
 fast_cos
 (
