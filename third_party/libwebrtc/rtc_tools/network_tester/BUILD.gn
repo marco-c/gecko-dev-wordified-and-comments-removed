@@ -1310,13 +1310,5 @@ output_extension
 "
 so
 "
-java_targets
-=
-[
-"
-:
-NetworkTesterMobile
-"
-]
 }
 }
