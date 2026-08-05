@@ -334,6 +334,13 @@ js
 ]
 [
 "
+browser_audiosession_telemetry
+.
+js
+"
+]
+[
+"
 browser_audiosessiontype_compute
 .
 js
