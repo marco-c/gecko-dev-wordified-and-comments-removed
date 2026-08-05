@@ -2717,6 +2717,9 @@ WebTransportError
 WebTransportReceiveStream
 "
 "
+WebTransportSendGroup
+"
+"
 WebTransportSendStream
 "
 "

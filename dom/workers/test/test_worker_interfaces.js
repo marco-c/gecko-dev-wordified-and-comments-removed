@@ -4179,6 +4179,16 @@ false
 name
 :
 "
+WebTransportSendGroup
+"
+insecureContext
+:
+false
+}
+{
+name
+:
+"
 WebTransportSendStream
 "
 insecureContext
