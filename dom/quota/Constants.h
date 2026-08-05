@@ -129,7 +129,7 @@ const
 uint32_t
 kCurrentQuotaVersion
 =
-1
+2
 ;
 }
 #
