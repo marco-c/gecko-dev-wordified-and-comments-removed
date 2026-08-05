@@ -89,12 +89,12 @@ LimitedAccessFeatureTests
 cpp
 "
 "
-SetDefaultBrowserButtonTests
+ShellLinkTests
 .
 cpp
 "
 "
-ShellLinkTests
+WindowsDefaultBrowserTests
 .
 cpp
 "
