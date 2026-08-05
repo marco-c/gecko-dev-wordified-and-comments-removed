@@ -1480,7 +1480,7 @@ CreateAndSetAndSignalOffer
 (
 )
 ;
-ASSERT_THAT
+ASSERT_TRUE
 (
 WaitUntil
 (
@@ -1510,12 +1510,6 @@ PeerConnectionInterface
 kHaveRemotePrAnswer
 ;
 }
-IsTrue
-(
-)
-)
-IsRtcOk
-(
 )
 )
 ;
@@ -1565,7 +1559,7 @@ kOffer
 saved_offer
 )
 ;
-EXPECT_THAT
+EXPECT_TRUE
 (
 WaitUntil
 (
@@ -1584,12 +1578,6 @@ SignalingStateStable
 )
 ;
 }
-IsTrue
-(
-)
-)
-IsRtcOk
-(
 )
 )
 ;
@@ -1756,7 +1744,7 @@ CreateAndSetAndSignalOffer
 (
 )
 ;
-ASSERT_THAT
+ASSERT_TRUE
 (
 WaitUntil
 (
@@ -1786,12 +1774,6 @@ PeerConnectionInterface
 kHaveRemotePrAnswer
 ;
 }
-IsTrue
-(
-)
-)
-IsRtcOk
-(
 )
 )
 ;
@@ -1902,7 +1884,7 @@ kOffer
 saved_offer
 )
 ;
-EXPECT_THAT
+EXPECT_TRUE
 (
 WaitUntil
 (
@@ -1921,12 +1903,6 @@ SignalingStateStable
 )
 ;
 }
-IsTrue
-(
-)
-)
-IsRtcOk
-(
 )
 )
 ;

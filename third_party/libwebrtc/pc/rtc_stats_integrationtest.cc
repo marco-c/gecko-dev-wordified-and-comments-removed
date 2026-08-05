@@ -7385,7 +7385,7 @@ has_value
 ;
 }
 ;
-EXPECT_THAT
+EXPECT_TRUE
 (
 WaitUntil
 (
@@ -7399,9 +7399,6 @@ GetStatsReportAndReturnTrueIfRttIsDefined
 )
 ;
 }
-IsTrue
-(
-)
 {
 .
 timeout
@@ -7414,9 +7411,6 @@ Millis
 kMaxWaitMs
 )
 }
-)
-IsRtcOk
-(
 )
 )
 ;
@@ -9412,7 +9406,7 @@ AwaitAddRemoteIceCandidates
 (
 )
 ;
-EXPECT_THAT
+EXPECT_TRUE
 (
 WaitUntil
 (
@@ -9453,9 +9447,6 @@ empty
 )
 ;
 }
-IsTrue
-(
-)
 {
 .
 timeout
@@ -9468,9 +9459,6 @@ Millis
 kGetStatsTimeoutMs
 )
 }
-)
-IsRtcOk
-(
 )
 )
 ;
@@ -9649,7 +9637,7 @@ AwaitAddRemoteIceCandidates
 (
 )
 ;
-EXPECT_THAT
+EXPECT_TRUE
 (
 WaitUntil
 (
@@ -9690,9 +9678,6 @@ empty
 )
 ;
 }
-IsTrue
-(
-)
 {
 .
 timeout
@@ -9705,9 +9690,6 @@ Millis
 kGetStatsTimeoutMs
 )
 }
-)
-IsRtcOk
-(
 )
 )
 ;
@@ -10040,7 +10022,7 @@ RTCInboundRtpStreamStats
 >
 inbound_rtps
 ;
-EXPECT_THAT
+EXPECT_TRUE
 (
 WaitUntil
 (
@@ -10081,9 +10063,6 @@ empty
 )
 ;
 }
-IsTrue
-(
-)
 {
 .
 timeout
@@ -10096,9 +10075,6 @@ Millis
 kGetStatsTimeoutMs
 )
 }
-)
-IsRtcOk
-(
 )
 )
 ;

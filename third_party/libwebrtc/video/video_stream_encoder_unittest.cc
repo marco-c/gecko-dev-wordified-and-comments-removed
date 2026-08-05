@@ -41497,7 +41497,7 @@ timestamp_ms
 )
 ;
 }
-EXPECT_THAT
+EXPECT_TRUE
 (
 WaitUntil
 (
@@ -41516,9 +41516,6 @@ GetStats
 bw_limited_resolution
 ;
 }
-IsTrue
-(
-)
 {
 .
 timeout
@@ -41537,9 +41534,6 @@ Millis
 2
 )
 }
-)
-IsRtcOk
-(
 )
 )
 ;
@@ -51004,7 +50998,7 @@ Millis
 )
 ;
 }
-ASSERT_THAT
+ASSERT_TRUE
 (
 WaitUntil
 (
@@ -51023,17 +51017,6 @@ GetNumEncodes
 0
 ;
 }
-:
-:
-testing
-:
-:
-IsTrue
-(
-)
-)
-IsRtcOk
-(
 )
 )
 ;

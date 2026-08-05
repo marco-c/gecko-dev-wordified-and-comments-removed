@@ -112,17 +112,6 @@ include
 "
 api
 /
-test
-/
-rtc_error_matchers
-.
-h
-"
-#
-include
-"
-api
-/
 transport
 /
 stun
@@ -1938,7 +1927,7 @@ delta
 )
 )
 ;
-ASSERT_THAT
+ASSERT_TRUE
 (
 WaitUntil
 (
@@ -1955,9 +1944,6 @@ last_stun_msg
 )
 ;
 }
-IsTrue
-(
-)
 {
 .
 timeout
@@ -1975,9 +1961,6 @@ clock
 &
 time_controller_
 }
-)
-IsRtcOk
-(
 )
 )
 ;
@@ -2265,7 +2248,7 @@ delta
 )
 )
 ;
-ASSERT_THAT
+ASSERT_TRUE
 (
 WaitUntil
 (
@@ -2282,9 +2265,6 @@ last_stun_msg
 )
 ;
 }
-IsTrue
-(
-)
 {
 .
 timeout
@@ -2302,9 +2282,6 @@ clock
 &
 time_controller_
 }
-)
-IsRtcOk
-(
 )
 )
 ;
@@ -2359,7 +2336,7 @@ ms
 )
 )
 ;
-ASSERT_THAT
+ASSERT_TRUE
 (
 WaitUntil
 (
@@ -2376,9 +2353,6 @@ last_stun_msg
 )
 ;
 }
-IsTrue
-(
-)
 {
 .
 timeout
@@ -2396,9 +2370,6 @@ clock
 &
 time_controller_
 }
-)
-IsRtcOk
-(
 )
 )
 ;
@@ -2711,7 +2682,7 @@ delta
 )
 )
 ;
-ASSERT_THAT
+ASSERT_TRUE
 (
 WaitUntil
 (
@@ -2728,9 +2699,6 @@ last_stun_msg
 )
 ;
 }
-IsTrue
-(
-)
 {
 .
 timeout
@@ -2748,9 +2716,6 @@ clock
 &
 time_controller_
 }
-)
-IsRtcOk
-(
 )
 )
 ;

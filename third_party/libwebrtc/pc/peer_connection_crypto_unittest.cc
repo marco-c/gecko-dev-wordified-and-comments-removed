@@ -2530,7 +2530,7 @@ observer
 observers
 )
 {
-EXPECT_THAT
+EXPECT_TRUE
 (
 WaitUntil
 (
@@ -2547,17 +2547,6 @@ called
 )
 ;
 }
-:
-:
-testing
-:
-:
-IsTrue
-(
-)
-)
-IsRtcOk
-(
 )
 )
 ;
