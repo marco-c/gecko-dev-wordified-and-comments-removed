@@ -3472,6 +3472,16 @@ NoCacheEntryFound
 referrerPolicy
 fetchOptions
 uri
+request
+-
+>
+IsModuleRequest
+(
+)
+?
+nullptr
+:
+UTF_8_ENCODING
 )
 ;
 return
