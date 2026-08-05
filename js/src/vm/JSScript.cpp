@@ -5391,9 +5391,6 @@ ScriptSource
 :
 getSourceProperties
 (
-ScriptSource
-*
-ss
 bool
 *
 hasSourceText
@@ -5405,9 +5402,6 @@ bool
 isTwoByteString
 )
 {
-ss
--
->
 data
 .
 match

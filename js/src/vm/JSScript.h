@@ -2533,13 +2533,9 @@ bool
 loaded
 )
 ;
-static
 void
 getSourceProperties
 (
-ScriptSource
-*
-ss
 bool
 *
 hasSourceText
