@@ -272,9 +272,9 @@ third_party
 /
 libwebrtc
 /
-media
+api
 /
-base
+video
 /
 video_adapter
 .

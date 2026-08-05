@@ -272,11 +272,11 @@ third_party
 /
 libwebrtc
 /
-media
+api
 /
-base
+video
 /
-video_broadcaster
+adapted_video_track_source
 .
 cc
 "
@@ -1510,6 +1510,6 @@ True
 Library
 (
 "
-video_broadcaster_gn
+adapted_video_track_source_gn
 "
 )
