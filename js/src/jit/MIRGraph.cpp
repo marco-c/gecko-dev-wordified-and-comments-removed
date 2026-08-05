@@ -483,6 +483,7 @@ perfSpewer
 .
 startRecording
 (
+runtime
 )
 ;
 }
@@ -539,6 +540,7 @@ perfSpewer
 .
 startRecording
 (
+nullptr
 wasmCodeMeta_
 )
 ;

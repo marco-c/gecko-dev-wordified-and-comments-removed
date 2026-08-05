@@ -618,14 +618,6 @@ nullptr
 )
 ;
 }
-jit
-:
-:
-ResetPerfSpewer
-(
-enabled
-)
-;
 enabled_
 =
 enabled
