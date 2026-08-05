@@ -352,6 +352,13 @@ js
 ]
 [
 "
+browser_aiwindow_agentui_command
+.
+js
+"
+]
+[
+"
 browser_aiwindow_ai_action_result
 .
 js
