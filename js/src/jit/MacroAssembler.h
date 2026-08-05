@@ -26522,6 +26522,13 @@ bool
 countIncludesThis
 )
 ;
+void
+alignJitStackBasedOnNumValues
+(
+uint32_t
+numValues
+)
+;
 inline
 void
 assertStackAlignment

@@ -55,6 +55,7 @@ JSContext
 *
 MacroAssembler
 &
+EnterJitMode
 )
 {
 MOZ_CRASH
