@@ -404,6 +404,13 @@ snackbarMessages
 IPProtectionTelemetryMiddleware
 (
 )
+IPProtectionPreferencesMiddleware
+(
+DefaultIPProtectionRepository
+(
+settings
+)
+)
 )
 )
 }

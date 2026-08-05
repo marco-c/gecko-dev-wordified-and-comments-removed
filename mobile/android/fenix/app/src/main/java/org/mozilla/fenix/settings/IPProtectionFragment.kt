@@ -778,13 +778,6 @@ NoExtras
 (
 )
 )
-requireComponents
-.
-settings
-.
-hasAlreadyUsedVpn
-=
-true
 }
 else
 {
