@@ -19,16 +19,16 @@ freshness
 owner
 :
 '
-hta
+tommi
 '
 reviewed
 :
 '
-2021
+2026
 -
-01
+06
 -
-01
+17
 '
 }
 *
@@ -66,7 +66,7 @@ md
 )
 but
 :
-*
+-
 Note
 that
 api
@@ -117,7 +117,7 @@ foo
 .
 cc
 .
-*
+-
 Headers
 in
 api
@@ -161,7 +161,7 @@ trying
 to
 shrink
 .
-*
+-
 .
 cc
 files
@@ -182,7 +182,7 @@ outside
 api
 /
 .
-*
+-
 Avoid
 structs
 in
@@ -242,7 +242,8 @@ refer
 to
 non
 -
-public
+api
+/
 types
 forward
 declarations
@@ -355,7 +356,7 @@ from
 the
 api
 is
-particular
+particularly
 challenging
 as
 it
@@ -374,7 +375,7 @@ needs
 to
 be
 updated
-independetly
+independently
 from
 its
 usage
@@ -427,7 +428,8 @@ you
 need
 to
 evolve
-existent
+an
+existing
 struct
 in
 api

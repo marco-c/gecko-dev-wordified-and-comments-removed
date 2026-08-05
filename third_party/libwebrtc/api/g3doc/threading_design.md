@@ -19,16 +19,16 @@ freshness
 owner
 :
 '
-hta
+tommi
 '
 reviewed
 :
 '
-2021
+2026
 -
-04
+06
 -
-12
+17
 '
 }
 *
@@ -89,6 +89,7 @@ from
 a
 single
 thread
+\
 *
 (
 the
@@ -292,6 +293,7 @@ two
 calls
 .
 (
+\
 *
 )
 The
@@ -343,6 +345,7 @@ guarantee
 on
 which
 thread
+\
 *
 the
 callbacks

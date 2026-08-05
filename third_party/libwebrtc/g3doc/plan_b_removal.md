@@ -19,14 +19,14 @@ freshness
 owner
 :
 '
-hta
+hbos
 '
 reviewed
 :
 '
 2026
 -
-01
+06
 -
 17
 '
@@ -112,7 +112,7 @@ at
 compile
 time
 .
-*
+-
 *
 *
 false
@@ -130,7 +130,7 @@ available
 without
 warnings
 .
-*
+-
 *
 *
 true
