@@ -411,7 +411,7 @@ lateinit
 var
 feature
 :
-ContinuousOnboardingFeatureDefault
+ContinuousOnboardingFeature
 Before
 fun
 setup
@@ -472,8 +472,16 @@ FakeContinuousOnboardingStageProvider
 )
 feature
 =
-ContinuousOnboardingFeatureDefault
+ContinuousOnboardingFeature
 (
+activity
+=
+activity
+launcher
+=
+FakeActivityResultLauncher
+(
+)
 settings
 =
 settings
@@ -844,7 +852,6 @@ feature
 .
 getSyncOnboardingPageState
 (
-activity
 ContinuousOnboardingStage
 .
 DAY_7
@@ -930,7 +937,6 @@ feature
 .
 getSyncOnboardingPageState
 (
-activity
 ContinuousOnboardingStage
 .
 DAY_7
@@ -1143,8 +1149,16 @@ true
 val
 feature
 =
-ContinuousOnboardingFeatureDefault
+ContinuousOnboardingFeature
 (
+activity
+=
+activity
+launcher
+=
+FakeActivityResultLauncher
+(
+)
 settings
 =
 settings
@@ -1168,7 +1182,6 @@ feature
 .
 getSyncOnboardingPageState
 (
-activity
 ContinuousOnboardingStage
 .
 DAY_7
@@ -1211,7 +1224,6 @@ feature
 .
 getSyncOnboardingPageState
 (
-activity
 ContinuousOnboardingStage
 .
 DAY_7
@@ -1424,7 +1436,6 @@ feature
 .
 getSyncOnboardingPageState
 (
-activity
 ContinuousOnboardingStage
 .
 DAY_7
@@ -1520,7 +1531,6 @@ feature
 .
 getSyncOnboardingPageState
 (
-activity
 ContinuousOnboardingStage
 .
 DAY_7
@@ -1738,7 +1748,6 @@ feature
 .
 getNotificationOnboardingPageState
 (
-activity
 ContinuousOnboardingStage
 .
 DAY_2
@@ -1830,7 +1839,6 @@ feature
 .
 getNotificationOnboardingPageState
 (
-activity
 ContinuousOnboardingStage
 .
 DAY_2
@@ -1946,7 +1954,6 @@ feature
 .
 getNotificationOnboardingPageState
 (
-activity
 ContinuousOnboardingStage
 .
 DAY_2
@@ -2063,7 +2070,6 @@ feature
 .
 getNotificationOnboardingPageState
 (
-activity
 ContinuousOnboardingStage
 .
 DAY_2
@@ -2163,7 +2169,6 @@ feature
 .
 getNotificationOnboardingPageState
 (
-activity
 ContinuousOnboardingStage
 .
 DAY_2
@@ -2434,7 +2439,6 @@ feature
 .
 onDefaultBrowserStepCompleted
 (
-activity
 Activity
 .
 RESULT_OK
@@ -2528,7 +2532,6 @@ feature
 .
 onDefaultBrowserStepCompleted
 (
-activity
 Activity
 .
 RESULT_CANCELED
@@ -2572,7 +2575,6 @@ feature
 .
 onDefaultBrowserStepCompleted
 (
-activity
 Activity
 .
 RESULT_CANCELED
@@ -2615,7 +2617,6 @@ feature
 .
 onDefaultBrowserStepCompleted
 (
-activity
 Activity
 .
 RESULT_OK
@@ -2632,7 +2633,9 @@ pendingStage
 }
 /
 /
-maybeRunContinuousOnboarding
+start
+(
+)
 re
 -
 entrancy
@@ -2645,7 +2648,7 @@ is
 not
 none
 THEN
-maybeRunContinuousOnboarding
+start
 does
 not
 evaluate
@@ -2671,8 +2674,16 @@ DAY_7
 val
 feature
 =
-ContinuousOnboardingFeatureDefault
+ContinuousOnboardingFeature
 (
+activity
+=
+activity
+launcher
+=
+FakeActivityResultLauncher
+(
+)
 settings
 =
 settings
@@ -2699,12 +2710,8 @@ ContinuousOnboardingStage
 DAY_2
 feature
 .
-maybeRunContinuousOnboarding
+start
 (
-activity
-FakeActivityResultLauncher
-(
-)
 )
 assertEquals
 (
@@ -2725,7 +2732,7 @@ is
 already
 showing
 THEN
-maybeRunContinuousOnboarding
+start
 does
 not
 evaluate
@@ -2751,8 +2758,16 @@ DAY_7
 val
 feature
 =
-ContinuousOnboardingFeatureDefault
+ContinuousOnboardingFeature
 (
+activity
+=
+activity
+launcher
+=
+FakeActivityResultLauncher
+(
+)
 settings
 =
 settings
@@ -2798,12 +2813,8 @@ CONTINUOUS_ONBOARDING_DIALOG_TAG
 )
 feature
 .
-maybeRunContinuousOnboarding
+start
 (
-activity
-FakeActivityResultLauncher
-(
-)
 )
 assertEquals
 (
