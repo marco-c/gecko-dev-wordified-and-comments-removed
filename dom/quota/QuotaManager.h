@@ -462,9 +462,6 @@ SaveOriginAccessTimeOp
 class
 UniversalDirectoryLock
 ;
-class
-UsageTracker
-;
 namespace
 test
 {
@@ -577,6 +574,10 @@ ThumbnailPrivateIdentityTemporaryOriginCount
 friend
 class
 UniversalDirectoryLock
+;
+friend
+class
+UsageTracker
 ;
 friend
 Result
@@ -2108,6 +2109,14 @@ EnsureTemporaryStorageIsInitializedInternal
 (
 )
 ;
+void
+RegisterDirtyOriginInfo
+(
+DirtyTrackingAutoLock
+&
+)
+{
+}
 public
 :
 RefPtr

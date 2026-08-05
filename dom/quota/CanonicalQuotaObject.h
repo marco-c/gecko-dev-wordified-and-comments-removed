@@ -113,6 +113,9 @@ dom
 quota
 {
 class
+DirtyTrackingAutoLock
+;
+class
 OriginInfo
 ;
 class
@@ -274,6 +277,9 @@ int64_t
 aSize
 bool
 aTruncate
+DirtyTrackingAutoLock
+&
+aProofOfLock
 )
 ;
 mozilla
