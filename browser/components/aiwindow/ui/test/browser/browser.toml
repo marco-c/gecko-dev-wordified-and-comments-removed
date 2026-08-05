@@ -224,13 +224,6 @@ js
 ]
 [
 "
-browser_aichat_content_loader_suppression
-.
-js
-"
-]
-[
-"
 browser_aichat_content_message_event
 .
 js
