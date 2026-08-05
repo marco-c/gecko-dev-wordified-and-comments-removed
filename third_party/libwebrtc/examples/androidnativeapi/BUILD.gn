@@ -547,13 +547,6 @@ utility
 /
 pc
 :
-libjingle_peerconnection
-"
-"
-/
-/
-pc
-:
 webrtc_sdp
 "
 "
