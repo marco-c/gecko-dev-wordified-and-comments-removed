@@ -315,9 +315,6 @@ if
 is_android
 )
 {
-use_default_launcher
-=
-false
 shard_timeout
 =
 900
@@ -512,9 +509,6 @@ if
 is_android
 )
 {
-use_default_launcher
-=
-false
 deps
 +
 =

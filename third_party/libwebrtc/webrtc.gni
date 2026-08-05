@@ -1117,6 +1117,7 @@ directly
 instead
 of
 using
+#
 the
 dlopen
 .
@@ -1137,8 +1138,8 @@ Android
 SDK
 26
 or
-above
 #
+above
 and
 NDK
 r16
@@ -3667,8 +3668,8 @@ be
 applied
 to
 WebRTC
-targets
 #
+targets
 that
 are
 testonly
@@ -3904,6 +3905,22 @@ build_with_chromium
 is_android
 )
 {
+#
+Do
+not
+use
+Chromium
+'
+s
+launcher
+.
+native_unittests
+defines
+its
+own
+#
+JNI_OnLoad
+.
 use_default_launcher
 =
 false
@@ -4126,6 +4143,7 @@ abseil
 cpp
 :
 absl
+#
 when
 build_with_chromium
 =
@@ -4765,6 +4783,7 @@ abseil
 cpp
 :
 absl
+#
 when
 build_with_chromium
 =
@@ -5418,6 +5437,7 @@ abseil
 cpp
 :
 absl
+#
 when
 build_with_chromium
 =
@@ -6189,6 +6209,7 @@ abseil
 cpp
 :
 absl
+#
 when
 build_with_chromium
 =
@@ -9816,6 +9837,7 @@ header
 visibility
 cleanly
 via
+#
 public_configs
 .
 if

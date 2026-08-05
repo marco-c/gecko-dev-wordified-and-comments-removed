@@ -15883,9 +15883,6 @@ if
 is_android
 )
 {
-use_default_launcher
-=
-false
 deps
 +
 =
