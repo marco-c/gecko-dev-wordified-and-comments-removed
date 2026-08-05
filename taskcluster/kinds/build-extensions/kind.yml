@@ -353,6 +353,11 @@ PERFHERDER_EXTRA_OPTIONS
 browser
 -
 extensions
+MOZ_BROWSER_NEWTAB_METRICS_FETCH
+:
+"
+1
+"
 max
 -
 run
