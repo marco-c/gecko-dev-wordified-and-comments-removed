@@ -201,10 +201,7 @@ crate
 picture
 :
 :
-{
-SurfaceInfo
 ResolvedSurfaceTexture
-}
 ;
 use
 crate
@@ -467,15 +464,6 @@ data_stores
 '
 a
 DataStores
-pub
-surfaces
-:
-&
-'
-a
-[
-SurfaceInfo
-]
 pub
 scratch
 :
