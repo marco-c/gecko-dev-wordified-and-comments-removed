@@ -694,6 +694,7 @@ type
 :
 "
 icon
+ghost
 "
 iconsrc
 :
