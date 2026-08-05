@@ -5771,7 +5771,7 @@ unsigned
 long
 DATABASE_SCHEMA_VERSION
 =
-86
+87
 ;
 /
 *

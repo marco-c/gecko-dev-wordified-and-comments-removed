@@ -713,6 +713,11 @@ MigrateV86Up
 )
 ;
 nsresult
+MigrateV87Up
+(
+)
+;
+nsresult
 UpdateBookmarkRootTitles
 (
 )

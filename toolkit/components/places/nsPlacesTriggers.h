@@ -367,8 +367,8 @@ frecency
 ON
 CONFLICT
 (
-prefix
 host
+prefix
 )
 DO
 UPDATE
