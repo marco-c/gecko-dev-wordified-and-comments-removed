@@ -578,6 +578,16 @@ isRakutenAttribution
 (
 installReferrerResponse
 )
+settings
+.
+isUserSkyflagAttributed
+=
+InstallReferrerHandlingService
+.
+isSkyflagAttribution
+(
+installReferrerResponse
+)
 utmParams
 .
 recordInstallReferrer
