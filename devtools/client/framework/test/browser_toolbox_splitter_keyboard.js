@@ -162,7 +162,11 @@ is
 (
 bottomIframe
 .
-clientHeight
+getBoundingClientRect
+(
+)
+.
+height
 TOOLBOX_INITIAL_SIZE
 "
 The
@@ -657,7 +661,11 @@ is
 (
 sideIframe
 .
-clientWidth
+getBoundingClientRect
+(
+)
+.
+width
 TOOLBOX_INITIAL_SIZE
 "
 The
