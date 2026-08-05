@@ -482,6 +482,13 @@ mIsHandlingUserInput
 aIsHandlingUserInput
 )
 {
+MOZ_ASSERT
+(
+NS_IsMainThread
+(
+)
+)
+;
 if
 (
 !
