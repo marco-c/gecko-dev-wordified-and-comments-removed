@@ -966,9 +966,6 @@ fake_call_
 MediaConfig
 (
 )
-VideoOptions
-(
-)
 CryptoOptions
 (
 )

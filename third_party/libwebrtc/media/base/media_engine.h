@@ -577,10 +577,6 @@ MediaConfig
 &
 config
 const
-VideoOptions
-&
-options
-const
 CryptoOptions
 &
 crypto_options
@@ -981,10 +977,6 @@ const
 MediaConfig
 &
 config
-const
-VideoOptions
-&
-options
 const
 CryptoOptions
 &

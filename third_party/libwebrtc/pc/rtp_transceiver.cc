@@ -1644,7 +1644,6 @@ CreateReceiveChannel
 env
 call
 media_config
-video_options
 crypto_options
 )
 }

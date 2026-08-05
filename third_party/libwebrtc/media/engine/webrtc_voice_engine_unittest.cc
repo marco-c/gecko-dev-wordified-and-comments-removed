@@ -2701,7 +2701,7 @@ SetReceiveNackEnabled
 send_channel_
 -
 >
-SendCodecHasNack
+SenderNackEnabled
 (
 )
 )
