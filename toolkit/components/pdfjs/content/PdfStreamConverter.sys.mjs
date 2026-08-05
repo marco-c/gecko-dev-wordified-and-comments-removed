@@ -170,7 +170,7 @@ html
 const
 MAX_NUMBER_OF_PREFS
 =
-50
+60
 ;
 const
 PDF_CONTENT_TYPE
