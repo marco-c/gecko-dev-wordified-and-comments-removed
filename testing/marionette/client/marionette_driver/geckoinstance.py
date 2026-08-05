@@ -90,6 +90,26 @@ content_response_timeout
 60000
         
 "
+apz
+.
+touch_move_tolerance
+"
+:
+0
+.
+0
+        
+"
+apz
+.
+touch_start_tolerance
+"
+:
+0
+.
+0
+        
+"
 browser
 .
 discovery
