@@ -1650,6 +1650,10 @@ PruneOrInsertSubtree
 nsIContent
 *
 aRoot
+bool
+aIsInsertRoot
+=
+true
 )
 ;
 protected

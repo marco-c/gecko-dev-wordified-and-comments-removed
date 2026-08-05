@@ -6782,6 +6782,8 @@ PruneOrInsertSubtree
 nsIContent
 *
 aRoot
+bool
+aIsInsertRoot
 )
 {
 AUTO_PROFILER_MARKER_TEXT
@@ -7203,6 +7205,9 @@ false
 }
 if
 (
+aIsInsertRoot
+&
+&
 acc
 -
 >
@@ -7571,6 +7576,7 @@ if
 PruneOrInsertSubtree
 (
 childNode
+false
 )
 )
 {
