@@ -537,10 +537,9 @@ GetViewBox
 ;
 if
 (
-!
 viewBox
 .
-IsValid
+IsEmpty
 (
 )
 )
@@ -807,10 +806,9 @@ GetViewBox
 ;
 if
 (
-!
 viewBox
 .
-IsValid
+IsEmpty
 (
 )
 )

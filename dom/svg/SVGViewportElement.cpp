@@ -730,10 +730,9 @@ viewportHeight
 ;
 if
 (
-!
 viewBox
 .
-IsValid
+IsEmpty
 (
 )
 )
