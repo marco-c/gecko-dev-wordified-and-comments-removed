@@ -21223,7 +21223,7 @@ cx
 callee
 "
 Atom
-marking
+reference
 bitmap
 is
 not
@@ -21277,7 +21277,7 @@ cx
 callee
 "
 Atom
-marking
+reference
 bitmap
 is
 not
@@ -66681,7 +66681,7 @@ atom
 Return
 the
 atom
-marking
+reference
 bitmap
 '
 s
@@ -66712,11 +66712,10 @@ index
 Return
 the
 atom
-marking
+reference
 bitmap
 '
 s
-mark
 color
 for
 |
