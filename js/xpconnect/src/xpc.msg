@@ -990,6 +990,14 @@ already
 exists
 "
 )
+XPC_MSG_DEF
+(
+NS_ERROR_INVALID_SIGNATURE
+"
+Invalid
+signature
+"
+)
 /
 *
 added
