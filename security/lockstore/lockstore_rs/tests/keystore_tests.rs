@@ -168,6 +168,7 @@ col1
 &
 local
 true
+32
 )
 .
 expect
@@ -266,6 +267,7 @@ dup
 &
 local
 true
+32
 )
 .
 expect
@@ -291,6 +293,7 @@ dup
 &
 local
 true
+32
 )
 ;
 assert
@@ -368,6 +371,7 @@ to_delete
 &
 local
 true
+32
 )
 .
 expect
@@ -549,6 +553,7 @@ extractable
 &
 local
 true
+32
 )
 .
 expect
@@ -686,6 +691,7 @@ non_extractable
 &
 local
 false
+32
 )
 .
 expect
@@ -814,6 +820,7 @@ CipherSuite
 :
 :
 Aes256Gcm
+32
 )
 .
 expect
@@ -922,6 +929,7 @@ CipherSuite
 :
 :
 ChaCha20Poly1305
+32
 )
 .
 expect
@@ -1026,6 +1034,7 @@ get_test
 &
 local
 true
+32
 )
 .
 expect
@@ -1209,6 +1218,7 @@ only
 &
 local
 true
+32
 )
 .
 expect
@@ -1307,6 +1317,7 @@ alpha
 &
 local
 true
+32
 )
 .
 expect
@@ -1329,6 +1340,7 @@ beta
 &
 local
 false
+32
 )
 .
 expect
@@ -1351,6 +1363,7 @@ gamma
 &
 local
 true
+32
 )
 .
 expect
@@ -1501,6 +1514,7 @@ a
 &
 local
 true
+32
 )
 .
 expect
@@ -1523,6 +1537,7 @@ b
 &
 local
 true
+32
 )
 .
 expect
@@ -1633,6 +1648,7 @@ col
 &
 local
 true
+32
 )
 .
 unwrap
@@ -1728,6 +1744,7 @@ col
 &
 local
 true
+32
 )
 .
 unwrap
@@ -1864,6 +1881,7 @@ col
 &
 local
 true
+32
 )
 .
 unwrap
@@ -2273,6 +2291,7 @@ col1
 &
 local
 true
+32
 )
 .
 expect
@@ -2421,6 +2440,7 @@ persist
 &
 local
 true
+32
 )
 .
 expect
@@ -2635,6 +2655,7 @@ alpha
 &
 local
 true
+32
 )
 .
 expect
@@ -2657,6 +2678,7 @@ beta
 &
 local
 false
+32
 )
 .
 expect
@@ -2679,6 +2701,7 @@ gamma
 &
 local
 true
+32
 )
 .
 expect
@@ -2904,6 +2927,7 @@ to_delete
 &
 local
 true
+32
 )
 .
 expect
@@ -3089,6 +3113,7 @@ col
 &
 local
 true
+32
 )
 .
 expect
@@ -3253,6 +3278,7 @@ col
 &
 local
 true
+32
 )
 .
 expect
@@ -3365,6 +3391,7 @@ col
 &
 local
 true
+32
 )
 .
 expect
@@ -3476,6 +3503,7 @@ col
 &
 local
 true
+32
 )
 .
 expect
@@ -3661,6 +3689,7 @@ col
 &
 local
 true
+32
 )
 .
 expect
@@ -3771,6 +3800,7 @@ col
 &
 local
 true
+32
 )
 .
 expect
@@ -3893,6 +3923,7 @@ col
 &
 local
 true
+32
 )
 .
 expect
@@ -4016,6 +4047,7 @@ invalid
 ref
 "
 true
+32
 )
 ;
 assert
@@ -4093,6 +4125,7 @@ col
 &
 local
 false
+32
 )
 .
 expect
@@ -4182,8 +4215,18 @@ decrypt
 assert_eq
 !
 (
+&
 round
+[
+.
+.
+]
+&
 plaintext
+[
+.
+.
+]
 )
 ;
 keystore
@@ -4241,6 +4284,7 @@ col
 &
 local
 false
+32
 )
 .
 expect
@@ -4367,6 +4411,7 @@ col
 &
 local
 false
+32
 )
 .
 expect
@@ -4507,6 +4552,7 @@ col
 &
 local
 false
+32
 )
 .
 expect
@@ -4599,7 +4645,12 @@ decrypt
 assert_eq
 !
 (
+&
 round
+[
+.
+.
+]
 b
 "
 abc
@@ -4745,6 +4796,7 @@ col
 &
 local
 false
+32
 )
 .
 expect
@@ -4850,6 +4902,7 @@ col
 &
 local
 false
+32
 )
 .
 expect
@@ -4960,6 +5013,7 @@ col
 &
 local
 false
+32
 )
 .
 expect
@@ -5109,6 +5163,7 @@ col
 &
 local
 false
+32
 )
 .
 expect
@@ -5218,6 +5273,7 @@ CipherSuite
 :
 :
 Aes256Gcm
+32
 )
 .
 expect
@@ -5421,6 +5477,7 @@ col
 &
 local
 false
+32
 )
 .
 expect
@@ -5605,6 +5662,7 @@ col
 &
 local
 false
+32
 )
 .
 expect
@@ -5768,6 +5826,7 @@ a
 &
 local
 false
+32
 )
 .
 expect
@@ -5788,6 +5847,7 @@ b
 &
 local
 false
+32
 )
 .
 expect
@@ -5925,6 +5985,7 @@ col
 &
 local
 true
+32
 )
 .
 expect
@@ -6017,7 +6078,12 @@ test
 assert_eq
 !
 (
+&
 round
+[
+.
+.
+]
 b
 "
 cross
@@ -6154,6 +6220,7 @@ a
 &
 kek
 true
+32
 )
 .
 expect
@@ -6176,6 +6243,7 @@ b
 &
 kek
 true
+32
 )
 .
 expect
@@ -6649,6 +6717,7 @@ state
 &
 local
 true
+32
 )
 .
 expect
@@ -6837,8 +6906,18 @@ DEK
 assert_eq
 !
 (
+&
 round
+[
+.
+.
+]
+&
 dek
+[
+.
+.
+]
 "
 round
 -
@@ -6911,7 +6990,12 @@ decrypt
 assert_eq
 !
 (
+&
 pt
+[
+.
+.
+]
 b
 "
 payload
@@ -7304,7 +7388,12 @@ decrypt
 assert_eq
 !
 (
+&
 pt
+[
+.
+.
+]
 b
 "
 opaque
@@ -7375,6 +7464,7 @@ col
 &
 local
 true
+32
 )
 .
 expect
@@ -7624,6 +7714,7 @@ col
 &
 local
 true
+32
 )
 .
 expect
@@ -7733,6 +7824,7 @@ col
 &
 local
 true
+32
 )
 .
 expect
@@ -7855,6 +7947,7 @@ col
 &
 local
 true
+32
 )
 .
 expect
@@ -7963,6 +8056,7 @@ col
 &
 local
 false
+32
 )
 .
 expect
@@ -8049,7 +8143,12 @@ switch
 assert_eq
 !
 (
+&
 pt
+[
+.
+.
+]
 b
 "
 pre
@@ -8150,6 +8249,7 @@ c
 &
 kek
 false
+32
 )
 .
 expect
@@ -8249,15 +8349,16 @@ decrypt
 assert_eq
 !
 (
+&
 pt
+[
+.
+.
+]
 b
 "
 hello
 "
-.
-to_vec
-(
-)
 )
 ;
 keystore
