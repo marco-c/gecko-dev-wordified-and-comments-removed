@@ -620,6 +620,11 @@ ClientUsageArray
 cpp
 "
 "
+CommonMetadata
+.
+cpp
+"
+"
 DecryptingInputStream
 .
 cpp
@@ -631,6 +636,11 @@ cpp
 "
 "
 DirectoryMetadata
+.
+cpp
+"
+"
+EncryptedRandomAccessStream
 .
 cpp
 "
