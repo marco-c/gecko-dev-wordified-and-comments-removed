@@ -28553,10 +28553,6 @@ tempArgv
 false
 )
 ;
-StartupURLCollectionComplete
-(
-)
-;
 rv
 =
 cmdLine

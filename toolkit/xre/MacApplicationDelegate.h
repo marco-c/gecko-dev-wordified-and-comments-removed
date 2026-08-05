@@ -7,7 +7,6 @@ MacApplicationDelegate_h_
 void
 EnsureUseCocoaDockAPI
 (
-void
 )
 ;
 void
@@ -21,7 +20,6 @@ gRestartedByOS
 void
 InitializeMacApp
 (
-void
 )
 ;
 nsTArray
@@ -33,15 +31,8 @@ TakeStartupURLs
 )
 ;
 void
-StartupURLCollectionComplete
-(
-void
-)
-;
-void
 DisableAppNap
 (
-void
 )
 ;
 #
