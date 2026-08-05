@@ -1924,7 +1924,18 @@ implementedPseudoElement
 "
 :
 :
-marker
+after
+"
+|
+|
+implementedPseudoElement
+=
+=
+=
+"
+:
+:
+backdrop
 "
 |
 |
@@ -1946,7 +1957,7 @@ implementedPseudoElement
 "
 :
 :
-after
+checkmark
 "
 |
 |
@@ -1957,7 +1968,7 @@ implementedPseudoElement
 "
 :
 :
-backdrop
+marker
 "
 |
 |
