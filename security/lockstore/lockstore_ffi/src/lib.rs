@@ -96,6 +96,7 @@ error_to_nsresult
 (
 err
 :
+&
 LockstoreError
 )
 -
@@ -113,9 +114,9 @@ Lockstore
 error
 :
 {
+err
 }
 "
-err
 )
 ;
 match
@@ -128,6 +129,19 @@ NotFound
 (
 _
 )
+|
+LockstoreError
+:
+:
+NotExtractable
+(
+_
+)
+|
+LockstoreError
+:
+:
+Locked
 =
 >
 NS_ERROR_NOT_AVAILABLE
@@ -138,26 +152,7 @@ Serialization
 (
 _
 )
-=
->
-NS_ERROR_INVALID_ARG
-LockstoreError
-:
-:
-NotExtractable
-(
-_
-)
-=
->
-NS_ERROR_NOT_AVAILABLE
-LockstoreError
-:
-:
-AuthenticationCancelled
-=
->
-NS_ERROR_ABORT
+|
 LockstoreError
 :
 :
@@ -171,10 +166,8 @@ NS_ERROR_INVALID_ARG
 LockstoreError
 :
 :
-Locked
-=
->
-NS_ERROR_NOT_AVAILABLE
+AuthenticationCancelled
+|
 LockstoreError
 :
 :
@@ -230,6 +223,7 @@ e
 >
 error_to_nsresult
 (
+&
 e
 )
 }
@@ -351,6 +345,7 @@ e
 return
 error_to_nsresult
 (
+&
 e
 )
 }
@@ -502,6 +497,7 @@ e
 >
 error_to_nsresult
 (
+&
 e
 )
 }
@@ -669,6 +665,7 @@ e
 >
 error_to_nsresult
 (
+&
 e
 )
 }
@@ -770,6 +767,7 @@ e
 >
 error_to_nsresult
 (
+&
 e
 )
 }
@@ -911,6 +909,7 @@ e
 >
 error_to_nsresult
 (
+&
 e
 )
 }
@@ -1001,6 +1000,7 @@ e
 >
 error_to_nsresult
 (
+&
 e
 )
 }
@@ -1092,6 +1092,7 @@ e
 >
 error_to_nsresult
 (
+&
 e
 )
 }
@@ -1198,6 +1199,7 @@ e
 >
 error_to_nsresult
 (
+&
 e
 )
 }
@@ -1335,6 +1337,7 @@ e
 >
 error_to_nsresult
 (
+&
 e
 )
 }
@@ -1449,6 +1452,7 @@ e
 >
 error_to_nsresult
 (
+&
 e
 )
 }
@@ -1586,6 +1590,7 @@ e
 >
 error_to_nsresult
 (
+&
 e
 )
 }
@@ -1751,6 +1756,7 @@ e
 >
 error_to_nsresult
 (
+&
 e
 )
 }
@@ -1922,6 +1928,7 @@ e
 >
 error_to_nsresult
 (
+&
 e
 )
 }
@@ -2088,6 +2095,7 @@ e
 >
 error_to_nsresult
 (
+&
 e
 )
 }
@@ -2233,6 +2241,7 @@ e
 >
 error_to_nsresult
 (
+&
 e
 )
 }
@@ -2320,9 +2329,11 @@ to_utf8
 )
 ;
 let
+Some
+(
 parsed
+)
 =
-match
 lockstore_rs
 :
 :
@@ -2334,19 +2345,11 @@ parse
 &
 kek_type_str
 )
+else
 {
-Some
-(
-t
-)
-=
->
-t
-None
-=
->
 return
 NS_ERROR_INVALID_ARG
+;
 }
 ;
 let
@@ -2428,6 +2431,7 @@ e
 >
 error_to_nsresult
 (
+&
 e
 )
 }
@@ -2504,6 +2508,7 @@ e
 >
 error_to_nsresult
 (
+&
 e
 )
 }
@@ -2606,13 +2611,10 @@ LockstoreDatastore
 :
 new
 (
+&
 keystore_handle
 .
 profile_path
-.
-clone
-(
-)
 coll_str
 .
 to_string
@@ -2645,6 +2647,7 @@ e
 return
 error_to_nsresult
 (
+&
 e
 )
 }
@@ -2812,6 +2815,7 @@ e
 >
 error_to_nsresult
 (
+&
 e
 )
 }
@@ -2919,6 +2923,7 @@ e
 >
 error_to_nsresult
 (
+&
 e
 )
 }
@@ -3008,6 +3013,7 @@ e
 >
 error_to_nsresult
 (
+&
 e
 )
 }
@@ -3097,6 +3103,7 @@ e
 >
 error_to_nsresult
 (
+&
 e
 )
 }
