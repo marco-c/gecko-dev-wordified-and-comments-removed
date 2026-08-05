@@ -59,6 +59,9 @@ debuggee
 ignoreCache
 :
 true
+allowUnsafeURL
+:
+true
 }
 )
 ;
@@ -137,6 +140,9 @@ target
 :
 debuggee
 ignoreCache
+:
+true
+allowUnsafeURL
 :
 true
 }
