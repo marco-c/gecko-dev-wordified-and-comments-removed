@@ -1319,6 +1319,7 @@ share
 is
 invoked
 with
+numbered
 urls
 joined
 by
@@ -1387,6 +1388,8 @@ share
 text
 =
 "
+1
+.
 https
 :
 /
@@ -1395,7 +1398,9 @@ mozilla
 .
 org
 \
-nhttps
+n2
+.
+https
 :
 /
 /
@@ -1644,7 +1649,12 @@ share
 is
 invoked
 with
+numbered
 urls
+joined
+with
+new
+lines
 and
 subject
 (
@@ -1717,6 +1727,8 @@ share
 text
 =
 "
+1
+.
 https
 :
 /
@@ -1725,7 +1737,9 @@ mozilla
 .
 org
 \
-nhttps
+n2
+.
+https
 :
 /
 /
