@@ -1476,9 +1476,6 @@ ok
 (
 ev
 .
-type
-ev
-.
 level
 completionText
 )
@@ -1495,9 +1492,6 @@ ConsoleLogger
 .
 err
 (
-ev
-.
-type
 ev
 .
 level
@@ -1675,9 +1669,6 @@ ConsoleLogger
 .
 skip
 (
-ev
-.
-type
 ev
 .
 level
