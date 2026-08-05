@@ -9003,6 +9003,7 @@ GetDesktopToDeviceScale
 (
 )
 )
+aByMoveToRect
 )
 ;
 }
