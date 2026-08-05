@@ -3544,6 +3544,17 @@ length
 =
 =
 0
+|
+|
+!
+UrlbarPrefs
+.
+get
+(
+"
+trackerCountShown
+"
+)
 ;
 this
 .
