@@ -188,6 +188,9 @@ tabsUseCases
 components
 .
 customTabsUseCases
+components
+.
+searchUseCases
 )
 }
 override
