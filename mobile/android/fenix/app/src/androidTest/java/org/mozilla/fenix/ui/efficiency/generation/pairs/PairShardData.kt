@@ -9,7 +9,7 @@ ui
 .
 efficiency
 .
-navigation
+generation
 .
 pairs
 import
@@ -45,7 +45,7 @@ planning
 .
 ShardUtils
 object
-NavigationPairShardData
+PairShardData
 {
 fun
 loadShard
@@ -129,7 +129,7 @@ NavigationGraphBootstrap
 ensureInitialized
 (
 )
-NavigationPairCaseFactory
+PairCaseFactory
 .
 buildPairCasesForShard
 (

@@ -137,8 +137,8 @@ pasted
 *
 identically
 into
-NavigationCaseFactory
-NavigationPairCaseFactory
+ReachabilityCaseFactory
+PairCaseFactory
 NavigationTestPlanner
 *
 and

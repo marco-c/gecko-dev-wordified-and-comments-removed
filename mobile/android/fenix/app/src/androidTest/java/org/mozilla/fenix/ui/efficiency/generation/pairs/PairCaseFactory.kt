@@ -9,7 +9,7 @@ ui
 .
 efficiency
 .
-navigation
+generation
 .
 pairs
 import
@@ -67,7 +67,7 @@ planning
 .
 toDisplayLabel
 object
-NavigationPairCaseFactory
+PairCaseFactory
 {
 private
 const
@@ -75,7 +75,7 @@ val
 TAG
 =
 "
-NavigationPairCaseFactory
+PairCaseFactory
 "
 fun
 buildPairCases
@@ -87,7 +87,7 @@ String
 :
 List
 <
-NavigationPairCase
+PairCase
 >
 {
 val
@@ -108,7 +108,7 @@ map
 generated
 -
 >
-NavigationPairCase
+PairCase
 (
 label
 =
@@ -199,7 +199,7 @@ Int
 :
 List
 <
-NavigationPairCase
+PairCase
 >
 {
 val

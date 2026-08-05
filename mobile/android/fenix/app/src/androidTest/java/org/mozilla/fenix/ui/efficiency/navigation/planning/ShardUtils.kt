@@ -274,8 +274,8 @@ pasted
 logic
 *
 in
-NavigationShardData
-NavigationPairShardData
+ReachabilityShardData
+PairShardData
 InteractionShardData
 and
 *
