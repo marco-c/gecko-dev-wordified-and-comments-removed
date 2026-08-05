@@ -24,6 +24,16 @@ productRadar
 =
 CMAX
 "
+FRAME_CSS
+=
+"
+iframe
+[
+title
+=
+dashboard
+]
+"
 MAP_CSS
 =
 "
@@ -69,6 +79,18 @@ wait
 "
 none
 "
+)
+    
+client
+.
+switch_to_frame
+(
+client
+.
+await_css
+(
+FRAME_CSS
+)
 )
     
 client
