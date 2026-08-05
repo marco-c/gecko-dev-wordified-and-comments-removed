@@ -4574,11 +4574,6 @@ suffix
 "
 nv
 "
-replace
-:
-tier
-:
-3
 merge
 :
 mozharness
