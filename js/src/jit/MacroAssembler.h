@@ -26507,6 +26507,10 @@ Register
 nargs
 bool
 countIncludesThis
+uint32_t
+extraArgs
+=
+0
 )
 ;
 void
