@@ -200,6 +200,11 @@ exists
 (
 uri
 "
+moz
+-
+cached
+-
+ohttp
 "
 )
 ;
@@ -236,6 +241,11 @@ asyncOpenURI
 (
 uri
 "
+moz
+-
+cached
+-
+ohttp
 "
 Ci
 .
