@@ -15,11 +15,11 @@ value
 :
 "
 {
-button
-.
 border
 .
 radius
+.
+large
 }
 "
 }
