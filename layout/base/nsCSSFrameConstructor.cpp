@@ -7482,11 +7482,12 @@ originalStart
 ;
 found
 =
-CaseInsensitiveFindInReadable
+FindInReadable
 (
 accesskey
 start
 end
+nsCaseInsensitiveStringComparator
 )
 ;
 }

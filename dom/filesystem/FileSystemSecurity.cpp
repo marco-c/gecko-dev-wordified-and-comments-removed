@@ -602,9 +602,7 @@ _ns
 )
 |
 |
-aPath
-.
-Contains
+FindInReadable
 (
 u
 "
@@ -614,6 +612,7 @@ u
 /
 "
 _ns
+aPath
 )
 |
 |

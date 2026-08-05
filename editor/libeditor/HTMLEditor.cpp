@@ -3256,7 +3256,7 @@ currentValue
 if
 (
 !
-CaseInsensitiveFindInReadable
+FindInReadable
 (
 u
 "
@@ -3266,6 +3266,7 @@ type
 "
 _ns
 currentValue
+nsCaseInsensitiveStringComparator
 )
 )
 {
@@ -3322,11 +3323,12 @@ end
 if
 (
 !
-CaseInsensitiveFindInReadable
+FindInReadable
 (
 charsetEquals
 start
 end
+nsCaseInsensitiveStringComparator
 )
 )
 {
