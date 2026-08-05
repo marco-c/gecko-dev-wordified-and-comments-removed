@@ -423,6 +423,16 @@ gradle
 .
 properties
 -
+proguard
+-
+rules
+-
+consumer
+-
+jna
+.
+pro
+-
 install
 -
 nimbus
