@@ -643,7 +643,7 @@ FontVariantNumeric
 ComputedMozPrefFeatureValue
 "
 "
-ComputedFontWidthRange
+ComputedFontStretchRange
 "
 "
 ComputedFontStyleRange
@@ -6212,7 +6212,7 @@ oblique
 "
 "
 "
-FontWidth
+FontStretch
 "
 =
 "
@@ -6220,9 +6220,9 @@ FontWidth
 "
 SERVO_FIXED_POINT_HELPERS
 (
-StyleFontWidth
+StyleFontStretch
 uint16_t
-StyleFONT_WIDTH_FRACTION_BITS
+StyleFONT_STRETCH_FRACTION_BITS
 )
 ;
 bool

@@ -6750,7 +6750,7 @@ aString
 }
 inline
 void
-StyleFontWidth
+StyleFontStretch
 :
 :
 ToString
@@ -6761,7 +6761,7 @@ aString
 )
 const
 {
-Servo_FontWidth_ToCss
+Servo_FontStretch_ToCss
 (
 this
 &
@@ -6896,9 +6896,9 @@ ObliqueAngle
 ;
 }
 using
-FontWidth
+FontStretch
 =
-StyleFontWidth
+StyleFontStretch
 ;
 using
 FontSlantStyle

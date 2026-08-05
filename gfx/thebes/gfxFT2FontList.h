@@ -159,8 +159,8 @@ nsACString
 aFontName
 WeightRange
 aWeight
-WidthRange
-aWidth
+StretchRange
+aStretch
 SlantStyleRange
 aStyle
 const
@@ -647,8 +647,8 @@ nsACString
 aFontName
 WeightRange
 aWeightForEntry
-WidthRange
-aWidthForEntry
+StretchRange
+aStretchForEntry
 SlantStyleRange
 aStyleForEntry
 )
@@ -666,8 +666,8 @@ nsACString
 aFontName
 WeightRange
 aWeightForEntry
-WidthRange
-aWidthForEntry
+StretchRange
+aStretchForEntry
 SlantStyleRange
 aStyleForEntry
 const

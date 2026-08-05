@@ -97,14 +97,14 @@ important
 "
 font
 -
-width
+stretch
 "
 :
 {
 domProp
 :
 "
-fontWidth
+fontStretch
 "
 values
 :
