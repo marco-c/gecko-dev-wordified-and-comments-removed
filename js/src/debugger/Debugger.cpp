@@ -21033,7 +21033,7 @@ dbg
 >
 frames
 .
-lookup
+readonlyThreadsafeLookup
 (
 fp
 )
