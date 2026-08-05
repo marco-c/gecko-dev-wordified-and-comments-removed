@@ -266,7 +266,12 @@ x86_64
 '
 &
 &
-nova
+display
+=
+=
+'
+wayland
+'
 "
 #
 Bug
