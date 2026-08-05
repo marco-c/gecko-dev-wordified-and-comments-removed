@@ -479,6 +479,11 @@ mDecoderMatchesCompositor
 =
 false
 ;
+bool
+mForcedNvidiaBlockLinear
+=
+false
+;
 ~
 FFmpegVulkanVideoDecoder
 (
