@@ -329,6 +329,9 @@ pre
 -
 export
 export
+pre
+-
+compile
 rusttests
 else
 #
