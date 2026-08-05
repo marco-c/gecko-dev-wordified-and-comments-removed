@@ -1248,12 +1248,6 @@ bench
 :
 "
 "
-media
--
-capabilities
-:
-"
-"
 motionmark
 -
 1
