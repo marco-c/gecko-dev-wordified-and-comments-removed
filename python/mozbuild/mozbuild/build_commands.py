@@ -2556,6 +2556,23 @@ properly
 return
 1
         
+print
+(
+f
+"
+Hosting
+profile
+data
+server
+at
+{
+server
+.
+url
+}
+"
+)
+        
 server
 .
 add_resource_json_file
