@@ -89,6 +89,9 @@ showHiddenAddons
 temporaryInstallError
 :
 null
+temporaryInstallErrorCount
+:
+0
 }
 ;
 }
@@ -402,6 +405,13 @@ state
 temporaryInstallError
 :
 error
+temporaryInstallErrorCount
+:
+state
+.
+temporaryInstallErrorCount
++
+1
 }
 )
 ;
