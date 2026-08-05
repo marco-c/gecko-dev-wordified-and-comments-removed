@@ -547,6 +547,17 @@ wantUntrusted
 :
 true
 }
+"
+ASRouterNewTabMessage
+:
+EvaluateTargeting
+"
+:
+{
+wantUntrusted
+:
+true
+}
 }
 }
 matches
