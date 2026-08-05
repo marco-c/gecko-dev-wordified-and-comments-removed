@@ -590,6 +590,8 @@ flex
 container
 -
 fix
+-
+1
 "
 msgId
 :
@@ -653,7 +655,7 @@ item
 -
 fix
 -
-2
+3
 "
 msgId
 :
@@ -750,6 +752,8 @@ grid
 container
 -
 fix
+-
+1
 "
 msgId
 :
@@ -846,7 +850,7 @@ item
 -
 fix
 -
-2
+3
 "
 msgId
 :
@@ -905,7 +909,7 @@ item
 -
 fix
 -
-3
+4
 "
 msgId
 :
@@ -986,6 +990,8 @@ positioned
 item
 -
 fix
+-
+1
 "
 msgId
 :
@@ -1057,6 +1063,8 @@ positioned
 item
 -
 fix
+-
+1
 "
 msgId
 :
@@ -1149,6 +1157,8 @@ flex
 container
 -
 fix
+-
+1
 "
 msgId
 :
@@ -1275,6 +1285,8 @@ block
 container
 -
 fix
+-
+1
 "
 msgId
 :
@@ -1363,6 +1375,8 @@ multicol
 container
 -
 fix
+-
+1
 "
 msgId
 :
@@ -1448,6 +1462,8 @@ multicol
 container
 -
 fix
+-
+1
 "
 msgId
 :
@@ -1495,6 +1511,8 @@ column
 span
 -
 fix
+-
+1
 "
 msgId
 :
@@ -1558,6 +1576,8 @@ or
 tablecell
 -
 fix
+-
+1
 "
 msgId
 :
@@ -1602,13 +1622,6 @@ when
 this
 .
 isFirstLine
-fixId
-:
-"
-learn
--
-more
-"
 msgId
 :
 "
@@ -1649,13 +1662,6 @@ when
 this
 .
 isFirstLetter
-fixId
-:
-"
-learn
--
-more
-"
 msgId
 :
 "
@@ -1771,13 +1777,6 @@ placeholder
 )
 ;
 }
-fixId
-:
-"
-learn
--
-more
-"
 msgId
 :
 "
@@ -1862,6 +1861,8 @@ row
 group
 -
 fix
+-
+1
 "
 msgId
 :
@@ -1942,6 +1943,8 @@ column
 group
 -
 fix
+-
+1
 "
 msgId
 :
@@ -2077,6 +2080,8 @@ on
 floated
 -
 fix
+-
+1
 "
 msgId
 :
@@ -2140,6 +2145,8 @@ flex
 item
 -
 fix
+-
+1
 "
 msgId
 :
@@ -2203,6 +2210,8 @@ not
 block
 -
 fix
+-
+1
 "
 msgId
 :
@@ -2252,6 +2261,8 @@ block
 container
 -
 fix
+-
+1
 "
 msgId
 :
@@ -2337,6 +2348,8 @@ grid
 container
 -
 fix
+-
+1
 "
 msgId
 :
@@ -2400,6 +2413,8 @@ not
 floated
 -
 fix
+-
+1
 "
 msgId
 :
@@ -2428,13 +2443,6 @@ this
 isVisitedRule
 (
 )
-fixId
-:
-"
-learn
--
-more
-"
 msgId
 :
 "
@@ -2505,6 +2513,8 @@ unpositioned
 box
 -
 fix
+-
+1
 "
 msgId
 :
@@ -2574,6 +2584,8 @@ unpositioned
 box
 -
 fix
+-
+1
 "
 msgId
 :
@@ -2632,6 +2644,8 @@ replaced
 elements
 -
 fix
+-
+1
 "
 msgId
 :
@@ -2694,6 +2708,8 @@ no
 overflow
 -
 fix
+-
+1
 "
 msgId
 :
@@ -2770,6 +2786,8 @@ size
 containment
 -
 fix
+-
+1
 "
 msgId
 :
@@ -2878,6 +2896,8 @@ table
 elements
 -
 fix
+-
+1
 "
 msgId
 :
@@ -3014,6 +3034,8 @@ table
 cells
 -
 fix
+-
+1
 "
 msgId
 :
@@ -3096,6 +3118,8 @@ not
 table
 -
 fix
+-
+1
 "
 msgId
 :
@@ -3154,6 +3178,8 @@ table
 borders
 -
 fix
+-
+1
 "
 msgId
 :
@@ -3215,6 +3241,8 @@ table
 cell
 -
 fix
+-
+1
 "
 msgId
 :
@@ -3346,6 +3374,8 @@ scroll
 container
 -
 fix
+-
+1
 "
 msgId
 :
@@ -3438,6 +3468,8 @@ border
 image
 -
 fix
+-
+1
 "
 msgId
 :
@@ -3518,6 +3550,8 @@ ruby
 element
 -
 fix
+-
+1
 "
 msgId
 :
@@ -3565,6 +3599,8 @@ css
 resize
 -
 fix
+-
+1
 "
 msgId
 :
@@ -3661,6 +3697,8 @@ lines
 exceeded
 -
 fix
+-
+1
 "
 msgId
 :
@@ -3768,6 +3806,8 @@ balance
 fragmented
 -
 fix
+-
+1
 "
 msgId
 :
@@ -3804,13 +3844,6 @@ when
 this
 .
 nonReplacedInlineBox
-fixId
-:
-"
-learn
--
-more
-"
 msgId
 :
 "
@@ -3859,6 +3892,8 @@ principal
 box
 -
 fix
+-
+1
 "
 msgId
 :
@@ -3941,6 +3976,8 @@ positioned
 item
 -
 fix
+-
+1
 "
 }
 {
@@ -4013,6 +4050,8 @@ default
 anchor
 -
 fix
+-
+1
 "
 }
 ]
@@ -4177,13 +4216,6 @@ elements
 not
 -
 supported
-"
-fixId
-:
-"
-learn
--
-more
 "
 learnMoreURL
 :
@@ -4480,13 +4512,6 @@ not
 -
 supported
 "
-fixId
-:
-"
-learn
--
-more
-"
 learnMoreURL
 :
 CUE_PSEUDO_ELEMENT_STYLING_SPEC_URL
@@ -4561,13 +4586,6 @@ try
 not
 -
 supported
-"
-fixId
-:
-"
-learn
--
-more
 "
 learnMoreURL
 :
