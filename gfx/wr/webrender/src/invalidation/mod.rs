@@ -272,6 +272,7 @@ CompositorKindChanged
 ValidRectChanged
 ScaleChanged
 SurfaceContentChanged
+CancelUnderlay
 }
 #
 [
