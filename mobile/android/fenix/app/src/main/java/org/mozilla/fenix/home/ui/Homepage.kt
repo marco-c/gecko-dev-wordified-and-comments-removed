@@ -2073,14 +2073,13 @@ verticalMargin
 )
 )
 {
+WallpaperTheme
+{
 RecentSyncedTab
 (
 tab
 =
 syncedTab
-backgroundColor
-=
-cardBackgroundColor
 buttonBackgroundColor
 =
 if
@@ -2091,6 +2090,8 @@ syncedTab
 null
 )
 {
+WallpaperTheme
+.
 buttonBackgroundColor
 }
 else
@@ -2103,6 +2104,8 @@ surfaceContainerHighest
 }
 buttonTextColor
 =
+WallpaperTheme
+.
 buttonTextColor
 onRecentSyncedTabClick
 =
@@ -2123,6 +2126,7 @@ interactor
 :
 onRemovedRecentSyncedTab
 )
+}
 }
 }
 }
