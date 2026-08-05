@@ -87,13 +87,7 @@ ClientHandleOpParent
 =
 default
 ;
-mozilla
-:
-:
-ipc
-:
-:
-IPCResult
+void
 Init
 (
 ClientOpConstructorArgs

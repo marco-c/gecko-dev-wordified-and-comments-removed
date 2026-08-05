@@ -153,13 +153,7 @@ ClientHandleParent
 (
 )
 ;
-mozilla
-:
-:
-ipc
-:
-:
-IPCResult
+void
 Init
 (
 const
