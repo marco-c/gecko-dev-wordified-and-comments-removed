@@ -3123,6 +3123,16 @@ Widen
 }
 }
 ;
+enum
+class
+ZeroExtendIndex
+:
+bool
+{
+No
+Yes
+}
+;
 }
 namespace
 jit
