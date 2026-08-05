@@ -121,7 +121,7 @@ SetEffect
 aEffect
 )
 ;
-AddOverriddenProperties
+PropertiesWillSetFromJS
 (
 CSSAnimationProperties
 :
@@ -203,7 +203,7 @@ wasPaused
 isPaused
 )
 {
-AddOverriddenProperties
+PropertiesWillSetFromJS
 (
 CSSAnimationProperties
 :
@@ -310,7 +310,7 @@ wasPaused
 isPaused
 )
 {
-AddOverriddenProperties
+PropertiesWillSetFromJS
 (
 CSSAnimationProperties
 :
@@ -399,7 +399,7 @@ Failed
 return
 ;
 }
-AddOverriddenProperties
+PropertiesWillSetFromJS
 (
 CSSAnimationProperties
 :
@@ -439,7 +439,7 @@ Failed
 return
 ;
 }
-AddOverriddenProperties
+PropertiesWillSetFromJS
 (
 CSSAnimationProperties
 :
@@ -1527,7 +1527,7 @@ FillMode
 cssAnimation
 -
 >
-AddOverriddenProperties
+PropertiesWillSetFromJS
 (
 updatedProperties
 )
@@ -1593,7 +1593,7 @@ GetOwningCSSAnimation
 cssAnimation
 -
 >
-AddOverriddenProperties
+PropertiesWillSetFromJS
 (
 CSSAnimationProperties
 :
@@ -1637,7 +1637,7 @@ GetOwningCSSAnimation
 cssAnimation
 -
 >
-AddOverriddenProperties
+PropertiesWillSetFromJS
 (
 CSSAnimationProperties
 :
