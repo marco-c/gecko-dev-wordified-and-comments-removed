@@ -747,42 +747,12 @@ horizontal
 "
 )
         
-normalized_ids
-=
-[
-            
-"
-spring
-"
-if
-wid
-.
-startswith
-(
-"
-customizableui
--
-special
--
-spring
-"
-)
-else
-wid
-            
-for
-wid
-in
-horiz_tab_ids
-        
-]
-        
 self
 .
 assertEqual
 (
             
-normalized_ids
+horiz_tab_ids
             
 [
                 
@@ -798,10 +768,6 @@ new
 tab
 -
 button
-"
-                
-"
-spring
 "
                 
 "

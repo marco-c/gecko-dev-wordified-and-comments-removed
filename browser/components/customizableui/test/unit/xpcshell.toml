@@ -35,13 +35,6 @@ js
 ]
 [
 "
-test_titlebar_spacer_migration
-.
-js
-"
-]
-[
-"
 test_unified_extensions_migration
 .
 js
