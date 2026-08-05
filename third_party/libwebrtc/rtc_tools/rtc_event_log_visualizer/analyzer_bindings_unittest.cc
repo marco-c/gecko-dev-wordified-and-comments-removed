@@ -432,6 +432,8 @@ title
 "
 Outgoing
 RTP
+/
+RTCP
 bitrate
 "
 )

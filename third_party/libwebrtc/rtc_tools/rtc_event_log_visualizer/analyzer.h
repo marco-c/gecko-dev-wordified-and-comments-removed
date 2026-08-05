@@ -420,6 +420,10 @@ bool
 show_alr_state
 bool
 show_link_capacity
+bool
+include_overhead
+=
+true
 )
 ;
 std
@@ -599,6 +603,10 @@ CreateTotalIncomingBitrateGraph
 Plot
 *
 plot
+bool
+include_overhead
+=
+true
 )
 const
 ;
@@ -620,6 +628,10 @@ bool
 show_link_capacity
 =
 false
+bool
+include_overhead
+=
+true
 )
 const
 ;

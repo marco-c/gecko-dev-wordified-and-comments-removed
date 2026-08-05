@@ -86,6 +86,10 @@ config
 Plot
 *
 plot
+bool
+include_overhead
+=
+true
 )
 ;
 void
@@ -114,6 +118,10 @@ bool
 show_link_capacity
 =
 false
+bool
+include_overhead
+=
+true
 )
 ;
 void
