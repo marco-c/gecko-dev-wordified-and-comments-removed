@@ -44,6 +44,15 @@ include
 "
 test
 /
+create_test_field_trials
+.
+h
+"
+#
+include
+"
+test
+/
 gmock
 .
 h
@@ -68,6 +77,8 @@ NoValuesWithoutFieldTrial
 {
 FieldTrials
 field_trials
+=
+CreateTestFieldTrials
 (
 "
 "
@@ -123,6 +134,8 @@ NoValueForInvalidAlignment
 {
 FieldTrials
 field_trials
+=
+CreateTestFieldTrials
 (
 "
 WebRTC
@@ -168,6 +181,8 @@ GetResolutionAlignment
 {
 FieldTrials
 field_trials
+=
+CreateTestFieldTrials
 (
 "
 WebRTC
@@ -232,6 +247,8 @@ GetApplyAlignment
 {
 FieldTrials
 field_trials
+=
+CreateTestFieldTrials
 (
 "
 WebRTC
@@ -299,6 +316,8 @@ GetResolutionBitrateLimits
 {
 FieldTrials
 field_trials
+=
+CreateTestFieldTrials
 (
 "
 WebRTC
@@ -395,6 +414,8 @@ GetResolutionBitrateLimitsWithList
 {
 FieldTrials
 field_trials
+=
+CreateTestFieldTrials
 (
 "
 WebRTC
@@ -505,6 +526,8 @@ CommonSettingsUsedIfEncoderNameUnspecified
 {
 FieldTrials
 field_trials
+=
+CreateTestFieldTrials
 (
 "
 WebRTC

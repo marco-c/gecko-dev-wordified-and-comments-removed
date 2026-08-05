@@ -23,6 +23,15 @@ include
 "
 test
 /
+create_test_field_trials
+.
+h
+"
+#
+include
+"
+test
+/
 gtest
 .
 h
@@ -42,7 +51,7 @@ EXPECT_FALSE
 (
 KeyframeIntervalSettings
 (
-FieldTrials
+CreateTestFieldTrials
 (
 "
 "
@@ -56,6 +65,8 @@ MinKeyframeSendIntervalMs
 ;
 FieldTrials
 field_trials
+=
+CreateTestFieldTrials
 (
 "
 WebRTC
@@ -91,6 +102,8 @@ DoesNotParseIncorrectValues
 {
 FieldTrials
 field_trials
+=
+CreateTestFieldTrials
 (
 "
 WebRTC

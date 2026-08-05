@@ -50,6 +50,15 @@ include
 "
 test
 /
+create_test_field_trials
+.
+h
+"
+#
+include
+"
+test
+/
 gtest
 .
 h
@@ -67,6 +76,8 @@ EnabledByDefault
 {
 FieldTrials
 field_trials
+=
+CreateTestFieldTrials
 (
 "
 "
@@ -96,6 +107,8 @@ DynamicSpeedEnabled
 {
 FieldTrials
 field_trials
+=
+CreateTestFieldTrials
 (
 "
 WebRTC
@@ -133,6 +146,8 @@ DynamicSpeedExplicitlyDisabled
 {
 FieldTrials
 field_trials
+=
+CreateTestFieldTrials
 (
 "
 WebRTC
@@ -170,6 +185,8 @@ DefaultComplexity
 {
 FieldTrials
 field_trials
+=
+CreateTestFieldTrials
 (
 "
 "
@@ -264,6 +281,8 @@ PerCodecComplexity
 {
 FieldTrials
 field_trials
+=
+CreateTestFieldTrials
 (
 "
 WebRTC
@@ -402,6 +421,8 @@ PerCodecComplexityDynamicSpeedDisabled
 {
 FieldTrials
 field_trials
+=
+CreateTestFieldTrials
 (
 "
 WebRTC
@@ -477,6 +498,8 @@ InvalidCodecComplexityValue
 {
 FieldTrials
 field_trials
+=
+CreateTestFieldTrials
 (
 "
 WebRTC
@@ -552,6 +575,8 @@ InvalidDynamicSpeedValue
 {
 FieldTrials
 field_trials
+=
+CreateTestFieldTrials
 (
 "
 WebRTC
@@ -621,6 +646,8 @@ false
 {
 FieldTrials
 field_trials
+=
+CreateTestFieldTrials
 (
 trial
 )
@@ -750,6 +777,8 @@ max
 {
 FieldTrials
 field_trials
+=
+CreateTestFieldTrials
 (
 trial
 )
@@ -801,6 +830,8 @@ Vp9LowComplexityFallbackDisabled
 {
 FieldTrials
 field_trials
+=
+CreateTestFieldTrials
 (
 "
 WebRTC

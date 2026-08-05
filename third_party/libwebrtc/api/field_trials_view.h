@@ -145,6 +145,17 @@ Disabled
 ;
 }
 virtual
+bool
+IsTest
+(
+)
+const
+{
+return
+false
+;
+}
+virtual
 std
 :
 :

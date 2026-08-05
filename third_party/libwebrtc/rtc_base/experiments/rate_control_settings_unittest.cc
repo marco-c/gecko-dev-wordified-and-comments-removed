@@ -23,9 +23,9 @@ h
 #
 include
 "
-api
+test
 /
-field_trials
+create_test_field_trials
 .
 h
 "
@@ -81,7 +81,7 @@ field_trials
 return
 RateControlSettings
 (
-FieldTrials
+CreateTestFieldTrials
 (
 field_trials
 )

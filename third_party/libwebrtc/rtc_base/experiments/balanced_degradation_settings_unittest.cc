@@ -44,6 +44,15 @@ include
 "
 test
 /
+create_test_field_trials
+.
+h
+"
+#
+include
+"
+test
+/
 gmock
 .
 h
@@ -250,6 +259,8 @@ GetsDefaultConfigIfNoList
 {
 FieldTrials
 field_trials
+=
+CreateTestFieldTrials
 (
 "
 "
@@ -368,6 +379,8 @@ GetsConfig
 {
 FieldTrials
 field_trials
+=
+CreateTestFieldTrials
 (
 "
 WebRTC
@@ -582,6 +595,8 @@ GetsDefaultConfigForZeroFpsValue
 {
 FieldTrials
 field_trials
+=
+CreateTestFieldTrials
 (
 "
 WebRTC
@@ -634,6 +649,8 @@ GetsDefaultConfigIfPixelsDecreases
 {
 FieldTrials
 field_trials
+=
+CreateTestFieldTrials
 (
 "
 WebRTC
@@ -686,6 +703,8 @@ GetsDefaultConfigIfFramerateDecreases
 {
 FieldTrials
 field_trials
+=
+CreateTestFieldTrials
 (
 "
 WebRTC
@@ -738,6 +757,8 @@ GetsConfigWithSpecificFps
 {
 FieldTrials
 field_trials
+=
+CreateTestFieldTrials
 (
 "
 WebRTC
@@ -982,6 +1003,8 @@ GetsDefaultConfigForZeroVp8FpsValue
 {
 FieldTrials
 field_trials
+=
+CreateTestFieldTrials
 (
 "
 WebRTC
@@ -1041,6 +1064,8 @@ GetsDefaultConfigForInvalidFpsValue
 {
 FieldTrials
 field_trials
+=
+CreateTestFieldTrials
 (
 "
 WebRTC
@@ -1100,6 +1125,8 @@ GetsDefaultConfigIfVp8FramerateDecreases
 {
 FieldTrials
 field_trials
+=
+CreateTestFieldTrials
 (
 "
 WebRTC
@@ -1159,6 +1186,8 @@ GetsMinFps
 {
 FieldTrials
 field_trials
+=
+CreateTestFieldTrials
 (
 "
 WebRTC
@@ -1297,6 +1326,8 @@ GetsVp8MinFps
 {
 FieldTrials
 field_trials
+=
+CreateTestFieldTrials
 (
 "
 WebRTC
@@ -1442,6 +1473,8 @@ GetsMaxFps
 {
 FieldTrials
 field_trials
+=
+CreateTestFieldTrials
 (
 "
 WebRTC
@@ -1556,6 +1589,8 @@ GetsVp8MaxFps
 {
 FieldTrials
 field_trials
+=
+CreateTestFieldTrials
 (
 "
 WebRTC
@@ -1677,6 +1712,8 @@ GetsVp9Fps
 {
 FieldTrials
 field_trials
+=
+CreateTestFieldTrials
 (
 "
 WebRTC
@@ -1751,6 +1788,8 @@ GetsH264Fps
 {
 FieldTrials
 field_trials
+=
+CreateTestFieldTrials
 (
 "
 WebRTC
@@ -1825,6 +1864,8 @@ GetsGenericFps
 {
 FieldTrials
 field_trials
+=
+CreateTestFieldTrials
 (
 "
 WebRTC
@@ -1910,6 +1951,8 @@ GetsUnlimitedForMaxValidFps
 {
 FieldTrials
 field_trials
+=
+CreateTestFieldTrials
 (
 "
 WebRTC
@@ -2025,6 +2068,8 @@ GetsConfigWithBitrate
 {
 FieldTrials
 field_trials
+=
+CreateTestFieldTrials
 (
 "
 WebRTC
@@ -2326,6 +2371,8 @@ GetsDefaultConfigIfBitrateDecreases
 {
 FieldTrials
 field_trials
+=
+CreateTestFieldTrials
 (
 "
 WebRTC
@@ -2385,6 +2432,8 @@ GetsDefaultConfigIfBitrateDecreasesWithUnsetValue
 {
 FieldTrials
 field_trials
+=
+CreateTestFieldTrials
 (
 "
 WebRTC
@@ -2449,6 +2498,8 @@ kVideoCodecVP8
 ;
 FieldTrials
 field_trials
+=
+CreateTestFieldTrials
 (
 "
 WebRTC
@@ -2600,6 +2651,8 @@ CanAdaptUpWithCodecType
 {
 FieldTrials
 field_trials
+=
+CreateTestFieldTrials
 (
 "
 WebRTC
@@ -2821,6 +2874,8 @@ kVideoCodecVP8
 ;
 FieldTrials
 field_trials
+=
+CreateTestFieldTrials
 (
 "
 WebRTC
@@ -2972,6 +3027,8 @@ CanAdaptUpResolutionWithCodecType
 {
 FieldTrials
 field_trials
+=
+CreateTestFieldTrials
 (
 "
 WebRTC
@@ -3188,6 +3245,8 @@ GetsFpsDiff
 {
 FieldTrials
 field_trials
+=
+CreateTestFieldTrials
 (
 "
 WebRTC
@@ -3317,6 +3376,8 @@ GetsNoFpsDiffIfValueBelowMinSetting
 {
 FieldTrials
 field_trials
+=
+CreateTestFieldTrials
 (
 "
 WebRTC
@@ -3402,6 +3463,8 @@ QpThresholdsNotSetByDefault
 {
 FieldTrials
 field_trials
+=
+CreateTestFieldTrials
 (
 "
 WebRTC
@@ -3500,6 +3563,8 @@ GetsConfigWithQpThresholds
 {
 FieldTrials
 field_trials
+=
+CreateTestFieldTrials
 (
 "
 WebRTC
@@ -3783,6 +3848,8 @@ GetsDefaultConfigIfOnlyHasLowThreshold
 {
 FieldTrials
 field_trials
+=
+CreateTestFieldTrials
 (
 "
 WebRTC
@@ -3842,6 +3909,8 @@ GetsDefaultConfigIfOnlyHasHighThreshold
 {
 FieldTrials
 field_trials
+=
+CreateTestFieldTrials
 (
 "
 WebRTC
@@ -3901,6 +3970,8 @@ GetsDefaultConfigIfLowEqualsHigh
 {
 FieldTrials
 field_trials
+=
+CreateTestFieldTrials
 (
 "
 WebRTC
@@ -3969,6 +4040,8 @@ GetsDefaultConfigIfLowGreaterThanHigh
 {
 FieldTrials
 field_trials
+=
+CreateTestFieldTrials
 (
 "
 WebRTC
@@ -4037,6 +4110,8 @@ GetsDefaultConfigForZeroQpValue
 {
 FieldTrials
 field_trials
+=
+CreateTestFieldTrials
 (
 "
 WebRTC
@@ -4105,6 +4180,8 @@ GetsVp8QpThresholds
 {
 FieldTrials
 field_trials
+=
+CreateTestFieldTrials
 (
 "
 WebRTC
@@ -4284,6 +4361,8 @@ GetsVp9QpThresholds
 {
 FieldTrials
 field_trials
+=
+CreateTestFieldTrials
 (
 "
 WebRTC
@@ -4378,6 +4457,8 @@ GetsH264QpThresholds
 {
 FieldTrials
 field_trials
+=
+CreateTestFieldTrials
 (
 "
 WebRTC
@@ -4472,6 +4553,8 @@ GetsGenericQpThresholds
 {
 FieldTrials
 field_trials
+=
+CreateTestFieldTrials
 (
 "
 WebRTC

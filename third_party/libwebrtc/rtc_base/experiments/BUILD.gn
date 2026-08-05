@@ -1313,6 +1313,17 @@ video_codecs_api
 /
 test
 :
+create_test_field_trials
+"
+"
+.
+.
+/
+.
+.
+/
+test
+:
 test_support
 "
 "

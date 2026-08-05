@@ -136,6 +136,7 @@ GetFlag
 (
 FLAGS_force_fieldtrials
 )
+true
 )
 ;
 result
