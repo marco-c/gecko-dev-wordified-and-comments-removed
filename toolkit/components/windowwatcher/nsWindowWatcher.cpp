@@ -6709,7 +6709,17 @@ full_screen_api_exit_on_windowOpen
 )
 &
 &
+(
 aCalledFromJS
+|
+|
+chromeFlags
+&
+nsIWebBrowserChrome
+:
+:
+CHROME_DOCUMENT_PIP
+)
 &
 &
 !
