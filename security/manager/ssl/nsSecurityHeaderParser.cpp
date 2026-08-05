@@ -855,7 +855,8 @@ Accept
 IsTokenSymbol
 )
 )
-;
+{
+}
 }
 void
 nsSecurityHeaderParser
