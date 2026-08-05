@@ -156,6 +156,13 @@ js
 ]
 [
 "
+test_UrlbarShared_formatDate
+.
+js
+"
+]
+[
+"
 test_UrlbarTelemetryUtils_wireSerialization
 .
 js
@@ -192,13 +199,6 @@ js
 [
 "
 test_UrlbarUtils_copySnakeKeysToCamel
-.
-js
-"
-]
-[
-"
-test_UrlbarUtils_formatDate
 .
 js
 "

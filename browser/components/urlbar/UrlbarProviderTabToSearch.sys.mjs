@@ -1342,7 +1342,9 @@ let
 searchStr
 ]
 =
-UrlbarUtils
+lazy
+.
+UrlbarShared
 .
 stripPrefixAndTrim
 (
@@ -1655,7 +1657,9 @@ let
 host
 ]
 =
-UrlbarUtils
+lazy
+.
+UrlbarShared
 .
 stripPrefixAndTrim
 (
@@ -2118,7 +2122,9 @@ let
 value
 ]
 =
-UrlbarUtils
+lazy
+.
+UrlbarShared
 .
 stripPrefixAndTrim
 (

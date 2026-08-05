@@ -720,7 +720,7 @@ action
 search
 -
 {
-UrlbarUtils
+UrlbarShared
 .
 getResultSourceName
 (

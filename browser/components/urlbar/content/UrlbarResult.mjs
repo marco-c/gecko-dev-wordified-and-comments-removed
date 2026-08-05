@@ -467,9 +467,7 @@ param
 Values
 <
 typeof
-lazy
-.
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 >

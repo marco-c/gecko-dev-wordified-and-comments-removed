@@ -158,7 +158,7 @@ isRelative
 false
 dateFormatType
 :
-UrlbarUtils
+UrlbarShared
 .
 DATE_FORMAT_TYPE
 .
@@ -243,7 +243,7 @@ isRelative
 false
 dateFormatType
 :
-UrlbarUtils
+UrlbarShared
 .
 DATE_FORMAT_TYPE
 .
@@ -327,7 +327,7 @@ isRelative
 true
 dateFormatType
 :
-UrlbarUtils
+UrlbarShared
 .
 DATE_FORMAT_TYPE
 .
@@ -360,7 +360,7 @@ isRelative
 false
 dateFormatType
 :
-UrlbarUtils
+UrlbarShared
 .
 DATE_FORMAT_TYPE
 .
@@ -445,7 +445,7 @@ isRelative
 true
 dateFormatType
 :
-UrlbarUtils
+UrlbarShared
 .
 DATE_FORMAT_TYPE
 .
@@ -477,7 +477,7 @@ isRelative
 false
 dateFormatType
 :
-UrlbarUtils
+UrlbarShared
 .
 DATE_FORMAT_TYPE
 .
@@ -561,7 +561,7 @@ isRelative
 true
 dateFormatType
 :
-UrlbarUtils
+UrlbarShared
 .
 DATE_FORMAT_TYPE
 .
@@ -593,7 +593,7 @@ isRelative
 false
 dateFormatType
 :
-UrlbarUtils
+UrlbarShared
 .
 DATE_FORMAT_TYPE
 .
@@ -672,7 +672,7 @@ isRelative
 true
 dateFormatType
 :
-UrlbarUtils
+UrlbarShared
 .
 DATE_FORMAT_TYPE
 .
@@ -704,7 +704,7 @@ isRelative
 false
 dateFormatType
 :
-UrlbarUtils
+UrlbarShared
 .
 DATE_FORMAT_TYPE
 .
@@ -783,7 +783,7 @@ isRelative
 true
 dateFormatType
 :
-UrlbarUtils
+UrlbarShared
 .
 DATE_FORMAT_TYPE
 .
@@ -815,7 +815,7 @@ isRelative
 false
 dateFormatType
 :
-UrlbarUtils
+UrlbarShared
 .
 DATE_FORMAT_TYPE
 .
@@ -894,7 +894,7 @@ isRelative
 true
 dateFormatType
 :
-UrlbarUtils
+UrlbarShared
 .
 DATE_FORMAT_TYPE
 .
@@ -926,7 +926,7 @@ isRelative
 false
 dateFormatType
 :
-UrlbarUtils
+UrlbarShared
 .
 DATE_FORMAT_TYPE
 .
@@ -1001,7 +1001,7 @@ isRelative
 true
 dateFormatType
 :
-UrlbarUtils
+UrlbarShared
 .
 DATE_FORMAT_TYPE
 .
@@ -1032,7 +1032,7 @@ isRelative
 true
 dateFormatType
 :
-UrlbarUtils
+UrlbarShared
 .
 DATE_FORMAT_TYPE
 .
@@ -1064,7 +1064,7 @@ isRelative
 false
 dateFormatType
 :
-UrlbarUtils
+UrlbarShared
 .
 DATE_FORMAT_TYPE
 .
@@ -1142,7 +1142,7 @@ isRelative
 true
 dateFormatType
 :
-UrlbarUtils
+UrlbarShared
 .
 DATE_FORMAT_TYPE
 .
@@ -1173,7 +1173,7 @@ isRelative
 true
 dateFormatType
 :
-UrlbarUtils
+UrlbarShared
 .
 DATE_FORMAT_TYPE
 .
@@ -1205,7 +1205,7 @@ isRelative
 false
 dateFormatType
 :
-UrlbarUtils
+UrlbarShared
 .
 DATE_FORMAT_TYPE
 .
@@ -1283,7 +1283,7 @@ isRelative
 true
 dateFormatType
 :
-UrlbarUtils
+UrlbarShared
 .
 DATE_FORMAT_TYPE
 .
@@ -1314,7 +1314,7 @@ isRelative
 true
 dateFormatType
 :
-UrlbarUtils
+UrlbarShared
 .
 DATE_FORMAT_TYPE
 .
@@ -1346,7 +1346,7 @@ isRelative
 false
 dateFormatType
 :
-UrlbarUtils
+UrlbarShared
 .
 DATE_FORMAT_TYPE
 .
@@ -1429,7 +1429,7 @@ isRelative
 true
 dateFormatType
 :
-UrlbarUtils
+UrlbarShared
 .
 DATE_FORMAT_TYPE
 .
@@ -1471,7 +1471,7 @@ isRelative
 true
 dateFormatType
 :
-UrlbarUtils
+UrlbarShared
 .
 DATE_FORMAT_TYPE
 .
@@ -1508,7 +1508,7 @@ isRelative
 false
 dateFormatType
 :
-UrlbarUtils
+UrlbarShared
 .
 DATE_FORMAT_TYPE
 .
@@ -1588,7 +1588,7 @@ isRelative
 true
 dateFormatType
 :
-UrlbarUtils
+UrlbarShared
 .
 DATE_FORMAT_TYPE
 .
@@ -1630,7 +1630,7 @@ isRelative
 true
 dateFormatType
 :
-UrlbarUtils
+UrlbarShared
 .
 DATE_FORMAT_TYPE
 .
@@ -1666,7 +1666,7 @@ isRelative
 false
 dateFormatType
 :
-UrlbarUtils
+UrlbarShared
 .
 DATE_FORMAT_TYPE
 .
@@ -1706,7 +1706,7 @@ isRelative
 false
 dateFormatType
 :
-UrlbarUtils
+UrlbarShared
 .
 DATE_FORMAT_TYPE
 .
@@ -1789,7 +1789,7 @@ isRelative
 false
 dateFormatType
 :
-UrlbarUtils
+UrlbarShared
 .
 DATE_FORMAT_TYPE
 .
@@ -1828,7 +1828,7 @@ isRelative
 false
 dateFormatType
 :
-UrlbarUtils
+UrlbarShared
 .
 DATE_FORMAT_TYPE
 .
@@ -1864,7 +1864,7 @@ isRelative
 false
 dateFormatType
 :
-UrlbarUtils
+UrlbarShared
 .
 DATE_FORMAT_TYPE
 .
@@ -1901,7 +1901,7 @@ isRelative
 false
 dateFormatType
 :
-UrlbarUtils
+UrlbarShared
 .
 DATE_FORMAT_TYPE
 .
@@ -1985,7 +1985,7 @@ isRelative
 false
 dateFormatType
 :
-UrlbarUtils
+UrlbarShared
 .
 DATE_FORMAT_TYPE
 .
@@ -2025,7 +2025,7 @@ isRelative
 false
 dateFormatType
 :
-UrlbarUtils
+UrlbarShared
 .
 DATE_FORMAT_TYPE
 .
@@ -2109,7 +2109,7 @@ isRelative
 false
 dateFormatType
 :
-UrlbarUtils
+UrlbarShared
 .
 DATE_FORMAT_TYPE
 .
@@ -2149,7 +2149,7 @@ isRelative
 false
 dateFormatType
 :
-UrlbarUtils
+UrlbarShared
 .
 DATE_FORMAT_TYPE
 .
@@ -2234,7 +2234,7 @@ isRelative
 false
 dateFormatType
 :
-UrlbarUtils
+UrlbarShared
 .
 DATE_FORMAT_TYPE
 .
@@ -2275,7 +2275,7 @@ isRelative
 false
 dateFormatType
 :
-UrlbarUtils
+UrlbarShared
 .
 DATE_FORMAT_TYPE
 .
@@ -2360,7 +2360,7 @@ isRelative
 true
 dateFormatType
 :
-UrlbarUtils
+UrlbarShared
 .
 DATE_FORMAT_TYPE
 .
@@ -2405,7 +2405,7 @@ cases
 let
 actual
 =
-UrlbarUtils
+UrlbarShared
 .
 formatDate
 (
@@ -7938,7 +7938,7 @@ Assert
 .
 deepEqual
 (
-UrlbarUtils
+UrlbarShared
 .
 parseDate
 (

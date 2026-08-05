@@ -7635,7 +7635,7 @@ uri
 prefixedUrl
 title
 :
-UrlbarUtils
+UrlbarShared
 .
 stripPrefixAndTrim
 (

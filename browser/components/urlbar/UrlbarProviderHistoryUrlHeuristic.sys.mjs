@@ -100,7 +100,6 @@ title
 import
 {
 UrlbarProvider
-UrlbarUtils
 }
 from
 "
@@ -521,7 +520,9 @@ const
 strippedURL
 ]
 =
-UrlbarUtils
+lazy
+.
+UrlbarShared
 .
 stripPrefixAndTrim
 (

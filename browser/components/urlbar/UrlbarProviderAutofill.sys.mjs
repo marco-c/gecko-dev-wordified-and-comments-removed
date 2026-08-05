@@ -5963,7 +5963,9 @@ stripped_url
 if
 (
 !
-UrlbarUtils
+lazy
+.
+UrlbarShared
 .
 canAutofillURL
 (
@@ -6679,7 +6681,9 @@ let
 fallbackTitle
 ]
 =
-UrlbarUtils
+lazy
+.
+UrlbarShared
 .
 stripPrefixAndTrim
 (
@@ -6957,7 +6961,9 @@ let
 trimmedUrl
 ]
 =
-UrlbarUtils
+lazy
+.
+UrlbarShared
 .
 stripPrefixAndTrim
 (

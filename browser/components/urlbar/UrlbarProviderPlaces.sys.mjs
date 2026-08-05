@@ -1566,7 +1566,9 @@ key
 prefix
 ]
 =
-UrlbarUtils
+lazy
+.
+UrlbarShared
 .
 stripPrefixAndTrim
 (
@@ -1711,7 +1713,9 @@ key
 prefix
 ]
 =
-UrlbarUtils
+lazy
+.
+UrlbarShared
 .
 stripPrefixAndTrim
 (

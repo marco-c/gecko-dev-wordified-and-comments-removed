@@ -1150,7 +1150,7 @@ Assert
 .
 equal
 (
-UrlbarUtils
+UrlbarShared
 .
 getSpanForResult
 (
@@ -1631,7 +1631,7 @@ Assert
 .
 equal
 (
-UrlbarUtils
+UrlbarShared
 .
 getSpanForResult
 (
@@ -1934,7 +1934,7 @@ Assert
 .
 equal
 (
-UrlbarUtils
+UrlbarShared
 .
 getSpanForResult
 (

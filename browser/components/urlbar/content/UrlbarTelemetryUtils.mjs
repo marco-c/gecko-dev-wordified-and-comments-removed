@@ -948,7 +948,7 @@ input
 return
 lazy
 .
-UrlbarUtils
+UrlbarShared
 .
 isPasteEvent
 (
