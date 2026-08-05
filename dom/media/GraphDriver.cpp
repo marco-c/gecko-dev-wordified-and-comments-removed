@@ -5436,7 +5436,17 @@ uint32_t
 (
 aFrames
 -
+std
+:
+:
+max
+<
+MediaTime
+>
+(
+0
 renderingTime
+)
 )
 ;
 mBuffer
