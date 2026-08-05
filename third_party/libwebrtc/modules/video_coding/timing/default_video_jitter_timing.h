@@ -165,10 +165,10 @@ override
 void
 OnCompleteFrame
 (
-uint32_t
-rtp_timestamp
-Timestamp
-receive_time
+const
+FrameInfo
+&
+info
 )
 override
 ;
@@ -228,6 +228,10 @@ jitter_estimator_
 ;
 InterFrameDelayVariationCalculator
 ifdv_calculator_
+;
+const
+bool
+update_on_every_frame_
 ;
 }
 ;
