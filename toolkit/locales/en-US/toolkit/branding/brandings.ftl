@@ -236,15 +236,6 @@ name
 Firefox
 Translations
 -
-focus
--
-brand
--
-name
-=
-Firefox
-Focus
--
 relay
 -
 brand
