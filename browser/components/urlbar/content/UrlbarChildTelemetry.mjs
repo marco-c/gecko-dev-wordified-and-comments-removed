@@ -56,20 +56,11 @@ MPL
 .
 *
 /
-const
-lazy
-=
-{
-}
-;
-ChromeUtils
-.
-defineESModuleGetters
-(
-lazy
+import
 {
 UrlbarTelemetryUtils
-:
+}
+from
 "
 chrome
 :
@@ -85,8 +76,6 @@ UrlbarTelemetryUtils
 .
 mjs
 "
-}
-)
 ;
 /
 *
@@ -665,8 +654,6 @@ interactionType
 interactionType
 |
 |
-lazy
-.
 UrlbarTelemetryUtils
 .
 startInteractionType
@@ -853,8 +840,6 @@ interactionType
 interactionType
 |
 |
-lazy
-.
 UrlbarTelemetryUtils
 .
 startInteractionType
@@ -1023,8 +1008,6 @@ true
 let
 snapshot
 =
-lazy
-.
 UrlbarTelemetryUtils
 .
 collectSnapshot
@@ -1056,8 +1039,6 @@ controller
 let
 engagementData
 =
-lazy
-.
 UrlbarTelemetryUtils
 .
 engagementData
@@ -1069,8 +1050,6 @@ view
 let
 smartbarData
 =
-lazy
-.
 UrlbarTelemetryUtils
 .
 smartbarData
@@ -1084,8 +1063,6 @@ built
 previousSearchWords
 }
 =
-lazy
-.
 UrlbarTelemetryUtils
 .
 buildRecordedEngagement
@@ -1171,8 +1148,6 @@ UrlbarProviderQuickSuggest
 "
 )
 ?
-lazy
-.
 UrlbarTelemetryUtils
 .
 buildRecordedDisableCandidate
@@ -1240,8 +1215,6 @@ controller
 .
 recordEngagement
 (
-lazy
-.
 UrlbarTelemetryUtils
 .
 recordedEngagementToWire
@@ -1680,8 +1653,6 @@ resultType
 keyword
 }
 =
-lazy
-.
 UrlbarTelemetryUtils
 .
 exposureEntry
@@ -1855,8 +1826,6 @@ resultType
 keyword
 terminal
 :
-lazy
-.
 UrlbarTelemetryUtils
 .
 exposureTerminal
@@ -2105,8 +2074,6 @@ controller
 let
 engagementData
 =
-lazy
-.
 UrlbarTelemetryUtils
 .
 engagementData
@@ -2118,8 +2085,6 @@ view
 let
 smartbarData
 =
-lazy
-.
 UrlbarTelemetryUtils
 .
 smartbarData
@@ -2165,8 +2130,6 @@ browserId
 let
 snapshot
 =
-lazy
-.
 UrlbarTelemetryUtils
 .
 collectBounceSnapshot
@@ -2248,8 +2211,6 @@ let
 interaction
 }
 =
-lazy
-.
 UrlbarTelemetryUtils
 .
 getInteractionType
@@ -2273,8 +2234,6 @@ previousSearchWords
 ;
 built
 =
-lazy
-.
 UrlbarTelemetryUtils
 .
 buildEventInfo
