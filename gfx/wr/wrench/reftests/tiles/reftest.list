@@ -80,10 +80,6 @@ raster
 root
 .
 png
-scale
-(
-*
-)
 =
 =
 complex
@@ -106,10 +102,6 @@ root
 ref
 .
 yaml
-scale
-(
-*
-)
 =
 =
 tile

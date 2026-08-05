@@ -1,7 +1,3 @@
-scale
-(
-*
-)
 =
 =
 backface
@@ -16,10 +12,6 @@ leaf
 ref
 .
 yaml
-scale
-(
-*
-)
 =
 =
 backface
@@ -34,10 +26,6 @@ backface
 ref
 .
 yaml
-scale
-(
-*
-)
 =
 =
 backface
@@ -50,10 +38,6 @@ backface
 ref
 .
 yaml
-scale
-(
-*
-)
 =
 =
 backface
@@ -66,10 +50,6 @@ backface
 ref
 .
 yaml
-scale
-(
-*
-)
 =
 =
 backface
@@ -84,10 +64,6 @@ picture
 ref
 .
 yaml
-scale
-(
-*
-)
 =
 =
 backface
@@ -100,10 +76,6 @@ yaml
 blank
 .
 yaml
-scale
-(
-*
-)
 =
 =
 backface
@@ -122,10 +94,6 @@ sides
 ref
 .
 yaml
-scale
-(
-*
-)
 =
 =
 backface
@@ -138,10 +106,6 @@ yaml
 blank
 .
 yaml
-scale
-(
-*
-)
 =
 =
 backface
@@ -152,10 +116,6 @@ yaml
 blank
 .
 yaml
-scale
-(
-*
-)
 fuzzy
 (
 1
