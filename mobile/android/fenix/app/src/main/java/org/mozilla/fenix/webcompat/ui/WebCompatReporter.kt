@@ -1760,11 +1760,11 @@ previewSheetVisible
 {
 WebCompatReporterPreviewSheet
 (
-previewJSON
+previewReporterItems
 =
 state
 .
-previewJSON
+previewReporterItems
 onDismissRequest
 =
 onDismissPreview
