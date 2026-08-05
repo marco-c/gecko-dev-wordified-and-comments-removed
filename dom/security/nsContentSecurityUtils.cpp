@@ -107,6 +107,13 @@ h
 #
 include
 "
+nsIScriptElement
+.
+h
+"
+#
+include
+"
 nsITransfer
 .
 h
