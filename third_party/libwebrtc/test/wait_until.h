@@ -144,8 +144,6 @@ SimulatedClock
 *
 FakeClock
 *
-ThreadProcessingFakeClock
-*
 TimeController
 *
 >
