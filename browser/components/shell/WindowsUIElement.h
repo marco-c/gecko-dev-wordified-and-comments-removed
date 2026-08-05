@@ -82,11 +82,6 @@ IUIAutomationElement
 aElement
 )
 ;
-bool
-IsVisible
-(
-)
-;
 mozilla
 :
 :
