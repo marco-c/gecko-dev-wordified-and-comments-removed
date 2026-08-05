@@ -5585,6 +5585,11 @@ Proxy
 :
 %
 s
+Compositor
+error
+:
+%
+s
 "
 GetDesktopEnvironmentIdentifier
 (
@@ -5598,6 +5603,12 @@ WaylandProxy
 :
 :
 GetState
+(
+)
+WaylandProxy
+:
+:
+GetLastProtocolError
 (
 )
 )
