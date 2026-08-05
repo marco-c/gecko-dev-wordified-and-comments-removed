@@ -1145,6 +1145,8 @@ if
 settings
 .
 frame_output
+(
+)
 )
 {
 RTC_LOG
@@ -1177,6 +1179,8 @@ kMaxEffortLevel
 settings
 .
 effort_level
+(
+)
 )
 )
 {
@@ -1196,6 +1200,8 @@ level
 settings
 .
 effort_level
+(
+)
 ;
 return
 false
@@ -1211,6 +1217,8 @@ kMaxSpatialLayersLimit
 settings
 .
 spatial_id
+(
+)
 )
 )
 {
@@ -1230,6 +1238,8 @@ id
 settings
 .
 spatial_id
+(
+)
 ;
 return
 false
@@ -1245,6 +1255,8 @@ kMaxTemporalLayers
 settings
 .
 temporal_id
+(
+)
 )
 )
 {
@@ -1264,6 +1276,8 @@ id
 settings
 .
 temporal_id
+(
+)
 ;
 return
 false
@@ -1275,6 +1289,8 @@ if
 settings
 .
 frame_type
+(
+)
 =
 =
 VideoEncoderInterface
@@ -1289,6 +1305,8 @@ kKeyframe
 settings
 .
 frame_type
+(
+)
 =
 =
 VideoEncoderInterface
@@ -1305,6 +1323,8 @@ kStartFrame
 settings
 .
 reference_buffers
+(
+)
 .
 empty
 (
@@ -1339,6 +1359,8 @@ if
 settings
 .
 frame_type
+(
+)
 =
 =
 VideoEncoderInterface
@@ -1353,6 +1375,8 @@ kKeyframe
 settings
 .
 frame_type
+(
+)
 =
 =
 VideoEncoderInterface
@@ -1369,6 +1393,8 @@ kStartFrame
 settings
 .
 update_buffer
+(
+)
 )
 {
 RTC_LOG
@@ -1399,6 +1425,8 @@ if
 settings
 .
 update_buffer
+(
+)
 &
 &
 !
@@ -1410,6 +1438,8 @@ kNumBuffers
 settings
 .
 update_buffer
+(
+)
 )
 )
 {
@@ -1436,6 +1466,8 @@ if
 settings
 .
 reference_buffers
+(
+)
 .
 size
 (
@@ -1474,6 +1506,8 @@ j
 settings
 .
 reference_buffers
+(
+)
 .
 size
 (
@@ -1494,6 +1528,8 @@ kNumBuffers
 settings
 .
 reference_buffers
+(
+)
 [
 j
 ]
@@ -1556,6 +1592,8 @@ k
 ]
 .
 frame_type
+(
+)
 =
 =
 VideoEncoderInterface
@@ -1586,11 +1624,15 @@ k
 ]
 .
 update_buffer
+(
+)
 =
 =
 settings
 .
 reference_buffers
+(
+)
 [
 j
 ]
@@ -1604,6 +1646,8 @@ k
 ]
 .
 resolution
+(
+)
 ;
 }
 }
@@ -1624,6 +1668,8 @@ last_resolution_in_buffer
 settings
 .
 reference_buffers
+(
+)
 [
 j
 ]
@@ -1665,6 +1711,8 @@ referenced_resolution
 settings
 .
 resolution
+(
+)
 )
 )
 {
@@ -1702,6 +1750,8 @@ l
 settings
 .
 reference_buffers
+(
+)
 .
 size
 (
@@ -1717,6 +1767,8 @@ if
 settings
 .
 reference_buffers
+(
+)
 [
 i
 ]
@@ -1725,6 +1777,8 @@ i
 settings
 .
 reference_buffers
+(
+)
 [
 l
 ]
@@ -1770,6 +1824,8 @@ Cqp
 settings
 .
 rate_options
+(
+)
 )
 )
 |
@@ -1792,6 +1848,8 @@ Cbr
 settings
 .
 rate_options
+(
+)
 )
 )
 )
@@ -1858,6 +1916,8 @@ if
 settings
 .
 spatial_id
+(
+)
 >
 =
 frame_settings
@@ -1866,6 +1926,8 @@ j
 ]
 .
 spatial_id
+(
+)
 )
 {
 RTC_LOG
@@ -2506,6 +2568,8 @@ if
 settings
 .
 reference_buffers
+(
+)
 .
 empty
 (
@@ -2524,6 +2588,8 @@ i
 settings
 .
 reference_buffers
+(
+)
 .
 size
 (
@@ -2545,6 +2611,8 @@ alias_index
 settings
 .
 reference_buffers
+(
+)
 [
 i
 ]
@@ -2572,6 +2640,8 @@ i
 settings
 .
 reference_buffers
+(
+)
 .
 size
 (
@@ -2601,6 +2671,8 @@ i
 settings
 .
 reference_buffers
+(
+)
 .
 back
 (
@@ -2613,6 +2685,8 @@ if
 settings
 .
 update_buffer
+(
+)
 )
 {
 if
@@ -2626,10 +2700,14 @@ c_linear_search
 settings
 .
 reference_buffers
+(
+)
 *
 settings
 .
 update_buffer
+(
+)
 )
 )
 {
@@ -2645,6 +2723,8 @@ alias_index
 settings
 .
 update_buffer
+(
+)
 ;
 alias_index
 +
@@ -2657,6 +2737,8 @@ refresh_view
 settings
 .
 update_buffer
+(
+)
 ]
 =
 1
@@ -2677,6 +2759,8 @@ spatial_id
 settings
 .
 spatial_id
+(
+)
 ;
 sb
 <
@@ -2829,6 +2913,8 @@ back
 )
 .
 spatial_id
+(
+)
 +
 1
 ;
@@ -3029,6 +3115,8 @@ height
 settings
 .
 resolution
+(
+)
 )
 ;
 RTC_CHECK
@@ -3041,6 +3129,8 @@ scaling_factor_num_view
 settings
 .
 spatial_id
+(
+)
 ]
 =
 scaling_factor
@@ -3053,6 +3143,8 @@ scaling_factor_den_view
 settings
 .
 spatial_id
+(
+)
 ]
 =
 scaling_factor
@@ -3067,6 +3159,8 @@ flat_layer_id
 settings
 .
 spatial_id
+(
+)
 *
 svc_params
 .
@@ -3075,6 +3169,8 @@ number_temporal_layers
 settings
 .
 temporal_id
+(
+)
 ;
 RTC_LOG
 (
@@ -3105,6 +3201,8 @@ scaling_factor_num_view
 settings
 .
 spatial_id
+(
+)
 ]
 <
 <
@@ -3119,6 +3217,8 @@ scaling_factor_den_view
 settings
 .
 spatial_id
+(
+)
 ]
 ;
 std
@@ -3170,6 +3270,8 @@ last_temporal_layer_in_spatial_layer_id
 settings
 .
 spatial_id
+(
+)
 *
 svc_params
 .
@@ -3296,6 +3398,8 @@ target_qp
 settings
 .
 rate_options
+(
+)
 )
 ;
 }
@@ -3552,6 +3656,8 @@ max_number_of_threads_
 settings
 .
 max_number_of_threads
+(
+)
 ;
 cfg_
 .
@@ -3560,6 +3666,8 @@ g_w
 settings
 .
 max_encode_dimensions
+(
+)
 .
 width
 ;
@@ -3570,6 +3678,8 @@ g_h
 settings
 .
 max_encode_dimensions
+(
+)
 .
 height
 ;
@@ -3596,6 +3706,8 @@ g_input_bit_depth
 settings
 .
 encoding_format
+(
+)
 .
 bit_depth
 ;
@@ -3639,6 +3751,8 @@ Cbr
 settings
 .
 rc_mode
+(
+)
 )
 ;
 cfg_
@@ -4036,11 +4150,15 @@ if
 settings
 .
 frame_output
+(
+)
 )
 {
 settings
 .
 frame_output
+(
+)
 -
 >
 EncodeComplete
@@ -4084,6 +4202,8 @@ current_content_type_
 tu_settings
 .
 content_hint
+(
+)
 )
 {
 if
@@ -4091,6 +4211,8 @@ if
 tu_settings
 .
 content_hint
+(
+)
 =
 =
 VideoCodecMode
@@ -4132,6 +4254,8 @@ current_content_type_
 tu_settings
 .
 content_hint
+(
+)
 ;
 }
 if
@@ -4178,6 +4302,8 @@ Cbr
 settings
 .
 rate_options
+(
+)
 )
 .
 target_bitrate
@@ -4481,6 +4607,8 @@ settings_for_spatial_id
 settings
 .
 spatial_id
+(
+)
 ]
 =
 &
@@ -4498,6 +4626,8 @@ frame_settings
 ]
 .
 spatial_id
+(
+)
 ;
 sid
 <
@@ -4550,6 +4680,8 @@ temporal_layer_id
 settings
 .
 temporal_id
+(
+)
 }
 ;
 SET_OR_RETURN
@@ -4609,6 +4741,8 @@ Cbr
 settings
 .
 rate_options
+(
+)
 )
 )
 {
@@ -4638,6 +4772,8 @@ if
 settings
 .
 effort_level
+(
+)
 !
 =
 current_effort_level_
@@ -4645,6 +4781,8 @@ current_effort_level_
 settings
 .
 spatial_id
+(
+)
 ]
 )
 {
@@ -4656,6 +4794,8 @@ AOME_SET_CPUUSED
 settings
 .
 effort_level
+(
+)
 )
 ;
 current_effort_level_
@@ -4663,11 +4803,15 @@ current_effort_level_
 settings
 .
 spatial_id
+(
+)
 ]
 =
 settings
 .
 effort_level
+(
+)
 ;
 }
 }
@@ -4690,6 +4834,8 @@ timestamp
 tu_settings
 .
 presentation_timestamp
+(
+)
 .
 ms
 (
@@ -4730,6 +4876,8 @@ type
 settings
 .
 frame_type
+(
+)
 =
 =
 VideoEncoderInterface
@@ -4762,6 +4910,8 @@ image_to_encode_
 tu_settings
 .
 presentation_timestamp
+(
+)
 .
 ms
 (
@@ -4778,6 +4928,8 @@ ms
 settings
 .
 frame_type
+(
+)
 =
 =
 VideoEncoderInterface
@@ -4832,6 +4984,8 @@ if
 settings
 .
 frame_type
+(
+)
 =
 =
 VideoEncoderInterface
@@ -4854,6 +5008,8 @@ if
 settings
 .
 update_buffer
+(
+)
 )
 {
 last_resolution_in_buffer_
@@ -4862,11 +5018,15 @@ last_resolution_in_buffer_
 settings
 .
 update_buffer
+(
+)
 ]
 =
 settings
 .
 resolution
+(
+)
 ;
 }
 VideoEncoderInterface
@@ -4976,6 +5136,8 @@ output_buffer
 settings
 .
 frame_output
+(
+)
 -
 >
 GetBitstreamOutputBuffer
@@ -5067,11 +5229,15 @@ RTC_CHECK
 settings
 .
 frame_output
+(
+)
 )
 ;
 settings
 .
 frame_output
+(
+)
 -
 >
 EncodeComplete
@@ -5081,9 +5247,10 @@ result
 ;
 settings
 .
-frame_output
-=
+set_frame_output
+(
 nullptr
+)
 ;
 }
 }
