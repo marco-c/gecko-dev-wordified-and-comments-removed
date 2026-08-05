@@ -875,6 +875,13 @@ https_first_disabled
 true
 [
 "
+browser_top_sites_attribution
+.
+js
+"
+]
+[
+"
 browser_top_sites_private
 .
 js
