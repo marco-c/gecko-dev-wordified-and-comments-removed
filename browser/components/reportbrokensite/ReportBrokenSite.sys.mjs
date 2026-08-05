@@ -3146,9 +3146,6 @@ REGISTER_CUSTOM_ELEMENTS_SCRIPT
 target
 :
 window
-async
-:
-true
 }
 )
 ;
