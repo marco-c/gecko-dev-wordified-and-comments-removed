@@ -125,6 +125,13 @@ sessionStateTuples
 "
 const
 val
+TRANSLATIONS_ENGINE_IS_SUPPORTED_KEY
+=
+"
+translationsEngineIsSupported
+"
+const
+val
 SESSION_URL_KEY
 =
 "
