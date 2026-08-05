@@ -140,6 +140,9 @@ radii
 float
 shape
 ;
+vec2
+shape_offset
+;
 }
 ;
 BorderInstanceGpuData
@@ -222,6 +225,17 @@ texels
 ]
 .
 x
+;
+data
+.
+shape_offset
+=
+texels
+[
+4
+]
+.
+yz
 ;
 return
 data
