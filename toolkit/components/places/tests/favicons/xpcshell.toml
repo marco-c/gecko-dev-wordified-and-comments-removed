@@ -401,6 +401,13 @@ js
 ]
 [
 "
+test_expireFaviconsForPage
+.
+js
+"
+]
+[
+"
 test_expire_migrated_icons
 .
 js
