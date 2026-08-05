@@ -451,6 +451,14 @@ ErrorResult
 aRv
 )
 ;
+void
+Clear
+(
+ErrorResult
+&
+aRv
+)
+;
 URLExtraData
 *
 GetURLExtraData
