@@ -933,6 +933,11 @@ override
 void
 NotifySctpConnected
 (
+Maybe
+<
+uint16_t
+>
+aMaxChannels
 )
 override
 ;

@@ -782,6 +782,11 @@ virtual
 void
 NotifySctpConnected
 (
+Maybe
+<
+uint16_t
+>
+aMaxChannels
 )
 =
 0
@@ -908,6 +913,15 @@ RaiseStreamLimitTo
 uint16_t
 aNewLimit
 )
+=
+0
+;
+virtual
+uint16_t
+GetStreamIdCeiling
+(
+)
+const
 =
 0
 ;

@@ -81,6 +81,13 @@ aNewLimit
 )
 override
 ;
+uint16_t
+GetStreamIdCeiling
+(
+)
+const
+override
+;
 void
 OnTransportReady
 (

@@ -2298,7 +2298,9 @@ if
 i
 >
 =
-MAX_NUM_STREAMS
+GetStreamIdCeiling
+(
+)
 )
 {
 return
@@ -5673,6 +5675,12 @@ DataChannelConnection
 (
 this
 )
+maxChannels
+=
+Some
+(
+mNegotiatedIdLimit
+)
 ]
 (
 )
@@ -5687,6 +5695,7 @@ mListener
 >
 NotifySctpConnected
 (
+maxChannels
 )
 ;
 }

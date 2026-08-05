@@ -147,6 +147,17 @@ aNewLimit
 )
 override
 ;
+uint16_t
+GetStreamIdCeiling
+(
+)
+const
+override
+{
+return
+MAX_NUM_STREAMS
+;
+}
 void
 OnTransportReady
 (
