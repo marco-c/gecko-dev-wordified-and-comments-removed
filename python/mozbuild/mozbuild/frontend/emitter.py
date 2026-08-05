@@ -2222,6 +2222,8 @@ HostSharedLibrary
                     
 BaseRustProgram
                     
+BaseRustLibrary
+                    
 RustTests
                 
 )
