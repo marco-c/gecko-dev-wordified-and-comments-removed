@@ -134,6 +134,11 @@ Printf
 h
 "
 "
+RoundedMulDiv
+.
+h
+"
+"
 SIMD
 .
 h
