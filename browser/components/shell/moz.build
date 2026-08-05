@@ -364,6 +364,11 @@ nsWindowsShellService
 cpp
 "
 "
+Windows11TaskbarPinning
+.
+cpp
+"
+"
 WindowsDefaultBrowser
 .
 cpp
