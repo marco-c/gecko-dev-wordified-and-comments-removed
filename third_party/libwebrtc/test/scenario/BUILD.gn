@@ -1780,7 +1780,7 @@ scenario_resources_bundle_data
 ]
 }
 }
-rtc_library
+rtc_cc_test
 (
 "
 scenario_unittests

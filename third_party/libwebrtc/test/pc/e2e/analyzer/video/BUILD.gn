@@ -197,16 +197,13 @@ if
 rtc_include_tests
 )
 {
-group
+rtc_cc_test
 (
 "
 video_analyzer_unittests
 "
 )
 {
-testonly
-=
-true
 deps
 =
 [

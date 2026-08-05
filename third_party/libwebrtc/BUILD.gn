@@ -998,6 +998,13 @@ peerconnection_unittests
 "
 /
 /
+test
+:
+test_support_unittests
+"
+"
+/
+/
 video
 :
 video_tests
@@ -1349,8 +1356,8 @@ handlers
 If
 this
 define
-is
 #
+is
 not
 set
 the
@@ -1364,8 +1371,8 @@ it
 will
 store
 the
-return
 #
+return
 value
 for
 the
@@ -1377,8 +1384,8 @@ static
 variable
 so
 that
-subsequent
 #
+subsequent
 changes
 to
 the
@@ -4307,6 +4314,7 @@ native_unittests
 defines
 its
 own
+#
 JNI_OnLoad
 .
 use_default_launcher
