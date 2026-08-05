@@ -7220,12 +7220,6 @@ case
 FontType
 :
 :
-GDI
-:
-case
-FontType
-:
-:
 DWRITE
 :
 return
