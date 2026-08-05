@@ -3599,6 +3599,7 @@ SetDisplayList
 epoch
 pipeline_id
 display_list
+namespace
 }
 =
 >
@@ -3760,6 +3761,7 @@ set_display_list
 (
 pipeline_id
 epoch
+namespace
 display_list
 )
 ;

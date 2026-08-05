@@ -553,6 +553,11 @@ aEpoch
 wr
 :
 :
+IdNamespace
+aIdNamespace
+wr
+:
+:
 WrPipelineId
 pipeline_id
 wr
@@ -585,6 +590,11 @@ ClearDisplayList
 (
 Epoch
 aEpoch
+wr
+:
+:
+IdNamespace
+aIdNamespace
 wr
 :
 :

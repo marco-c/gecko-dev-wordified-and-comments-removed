@@ -3280,6 +3280,13 @@ Epoch
 *
 frame_number
 )
+self
+.
+api
+.
+get_namespace_id
+(
+)
 (
 display_list
 .

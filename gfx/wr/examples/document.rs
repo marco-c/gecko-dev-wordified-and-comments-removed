@@ -552,6 +552,11 @@ Epoch
 (
 0
 )
+api
+.
+get_namespace_id
+(
+)
 builder
 .
 end
