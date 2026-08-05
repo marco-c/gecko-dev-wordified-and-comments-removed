@@ -2605,6 +2605,13 @@ defined
 (
 UNDEFINED_SANITIZER
 )
+|
+|
+\
+defined
+(
+WEBRTC_LINUX
+)
 #
 define
 MAYBE_AudioDeviceTest
