@@ -125,16 +125,6 @@ version
 .
 0
 "
-authors
-=
-[
-"
-gfx
--
-rs
-developers
-"
-]
 build
 =
 "
@@ -581,7 +571,7 @@ version
 "
 0
 .
-10
+11
 "
 default
 -

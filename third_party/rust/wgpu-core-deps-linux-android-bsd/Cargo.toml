@@ -135,16 +135,6 @@ version
 .
 0
 "
-authors
-=
-[
-"
-gfx
--
-rs
-developers
-"
-]
 build
 =
 false

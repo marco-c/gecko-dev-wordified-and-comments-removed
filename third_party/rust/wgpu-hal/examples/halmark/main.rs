@@ -5553,7 +5553,7 @@ if
 self
 .
 frame_count
-=
+>
 =
 100
 &

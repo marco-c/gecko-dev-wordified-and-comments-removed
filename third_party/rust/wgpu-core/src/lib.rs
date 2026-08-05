@@ -43,10 +43,10 @@ vulkan
 "
 not
 (
-target_arch
+target_family
 =
 "
-wasm32
+wasm
 "
 )
 )

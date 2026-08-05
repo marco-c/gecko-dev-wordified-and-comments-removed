@@ -26,7 +26,7 @@ use
 rand
 :
 :
-RngCore
+Rng
 ;
 use
 test
