@@ -1060,7 +1060,7 @@ panel
 -
 list
 .
-js
+mjs
 "
 >
 <
