@@ -105,6 +105,10 @@ size
 const
 uint32_t
 samples
+bool
+depth
+bool
+stencil
 )
 ;
 RefPtr
@@ -242,7 +246,9 @@ size
 uint32_t
 samples
 bool
-depthStencil
+depth
+bool
+stencil
 )
 ;
 static
@@ -265,7 +271,9 @@ size
 uint32_t
 samples
 bool
-depthStencil
+depth
+bool
+stencil
 GLenum
 colorTarget
 GLuint

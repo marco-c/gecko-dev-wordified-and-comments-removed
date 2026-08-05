@@ -2294,6 +2294,7 @@ aGL
 aSize
 0
 aNeedsDepthBuffer
+aNeedsDepthBuffer
 aTarget
 aTexture
 )
