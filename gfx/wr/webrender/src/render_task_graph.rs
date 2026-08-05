@@ -966,9 +966,6 @@ RenderTargetKind
 allocator
 :
 GuillotineAllocator
-is_shared
-:
-bool
 lifetime_group
 :
 PassId
@@ -991,9 +988,6 @@ DeviceIntSize
 kind
 :
 RenderTargetKind
-is_shared
-:
-bool
 lifetime_group
 :
 PassId
@@ -1012,14 +1006,6 @@ kind
 =
 =
 kind
-&
-&
-self
-.
-is_shared
-=
-=
-is_shared
 &
 &
 self
@@ -1161,6 +1147,10 @@ FrameVec
 <
 RenderTaskId
 >
+pub
+is_shared
+:
+bool
 }
 #
 [
@@ -2465,6 +2455,15 @@ pass
 sub_passes
 {
 if
+!
+sub_pass
+.
+is_shared
+{
+continue
+;
+}
+if
 let
 SubPassSurface
 :
@@ -2513,7 +2512,6 @@ alloc_rect
 (
 size
 kind
-true
 task
 .
 free_after
@@ -2749,9 +2747,6 @@ Some
 surface_size
 )
 )
-is_shared
-:
-can_use_shared_surface
 lifetime_group
 :
 task
@@ -2771,7 +2766,6 @@ alloc_rect
 (
 size
 kind
-can_use_shared_surface
 task
 .
 free_after
@@ -2896,6 +2890,9 @@ size
 )
 }
 task_ids
+is_shared
+:
+can_use_shared_surface
 }
 )
 ;
@@ -3143,6 +3140,9 @@ used_rect
 rect
 }
 task_ids
+is_shared
+:
+false
 }
 )
 ;
@@ -3257,6 +3257,9 @@ clone
 )
 }
 task_ids
+is_shared
+:
+false
 }
 )
 ;
