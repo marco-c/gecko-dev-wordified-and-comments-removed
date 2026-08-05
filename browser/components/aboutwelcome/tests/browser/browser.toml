@@ -266,6 +266,13 @@ focusable
 ]
 [
 "
+browser_aboutwelcome_impression_action
+.
+js
+"
+]
+[
+"
 browser_aboutwelcome_mobile_downloads
 .
 js
@@ -491,6 +498,13 @@ id
 [
 "
 browser_aboutwelcome_screen_targeting
+.
+js
+"
+]
+[
+"
+browser_aboutwelcome_theme_picker
 .
 js
 "

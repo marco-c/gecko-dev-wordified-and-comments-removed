@@ -1003,6 +1003,10 @@ g
 about
 :
 editprofile
+*
+about
+:
+welcome
 )
 *
 and
