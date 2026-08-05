@@ -1466,9 +1466,10 @@ if
 task
 )
 {
-snapshots
-.
-clear
+snapshotCopy
+-
+>
+remove
 (
 )
 ;
