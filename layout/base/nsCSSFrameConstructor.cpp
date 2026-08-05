@@ -45520,6 +45520,15 @@ StyleColumn
 IsColumnContainerStyle
 (
 )
+&
+&
+!
+aParentFrame
+-
+>
+IsTextInputFrame
+(
+)
 ;
 if
 (
