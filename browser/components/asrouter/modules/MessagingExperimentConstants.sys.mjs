@@ -266,9 +266,6 @@ page
 pbNewtab
 "
 "
-setToDefaultPrompt
-"
-"
 spotlight
 "
 "
