@@ -22832,6 +22832,15 @@ YieldBeforeSweeping
 )
 ;
 }
+if
+(
+useConcurrentMarking
+)
+{
+return
+false
+;
+}
 return
 markSliceCount
 >

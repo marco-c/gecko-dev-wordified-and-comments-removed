@@ -102,6 +102,17 @@ gczeal
 0
 )
 ;
+if
+(
+!
+gcparam
+(
+"
+concurrentMarkingEnabled
+"
+)
+)
+{
 gcslice
 (
 1
@@ -161,6 +172,7 @@ finishgc
 (
 )
 ;
+}
 gczeal
 (
 6
