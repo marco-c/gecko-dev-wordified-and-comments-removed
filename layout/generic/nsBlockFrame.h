@@ -2804,13 +2804,13 @@ DestroyOverflowLines
 )
 ;
 struct
-nsAutoOOFFrameList
+AutoOverflowFloatsList
 {
 nsFrameList
 mList
 ;
 explicit
-nsAutoOOFFrameList
+AutoOverflowFloatsList
 (
 nsBlockFrame
 *
@@ -2850,7 +2850,7 @@ mPropValue
 }
 }
 ~
-nsAutoOOFFrameList
+AutoOverflowFloatsList
 (
 )
 {
@@ -2886,7 +2886,7 @@ mBlock
 ;
 friend
 struct
-nsAutoOOFFrameList
+AutoOverflowFloatsList
 ;
 bool
 HasOverflowFloats

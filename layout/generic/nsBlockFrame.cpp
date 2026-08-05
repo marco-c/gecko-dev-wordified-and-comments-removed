@@ -28937,7 +28937,7 @@ bit
 }
 #
 endif
-nsAutoOOFFrameList
+AutoOverflowFloatsList
 oofs
 (
 this
@@ -29513,7 +29513,7 @@ ocContinuations
 }
 }
 }
-nsAutoOOFFrameList
+AutoOverflowFloatsList
 oofs
 (
 prevBlock
@@ -29793,7 +29793,7 @@ false
 ;
 }
 {
-nsAutoOOFFrameList
+AutoOverflowFloatsList
 oofs
 (
 this
@@ -33508,7 +33508,7 @@ return
 }
 }
 {
-nsAutoOOFFrameList
+AutoOverflowFloatsList
 oofs
 (
 this
