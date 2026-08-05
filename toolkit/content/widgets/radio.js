@@ -1159,14 +1159,12 @@ focused
 ;
 val
 .
-setAttribute
+toggleAttribute
 (
 "
 selected
 "
-"
 true
-"
 )
 ;
 this

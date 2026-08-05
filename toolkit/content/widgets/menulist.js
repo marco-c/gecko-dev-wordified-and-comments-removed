@@ -1256,14 +1256,12 @@ val
 {
 val
 .
-setAttribute
+toggleAttribute
 (
 "
 selected
 "
-"
 true
-"
 )
 ;
 for
@@ -1489,7 +1487,7 @@ getElementsByAttribute
 selected
 "
 "
-true
+*
 "
 )
 ;

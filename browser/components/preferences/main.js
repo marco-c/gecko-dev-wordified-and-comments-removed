@@ -8014,8 +8014,6 @@ querySelector
 "
 [
 selected
-=
-true
 ]
 "
 )
