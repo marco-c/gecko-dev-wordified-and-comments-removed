@@ -383,6 +383,11 @@ PolicyContainerMessageUtils
 h
 "
 "
+PrefetchLog
+.
+h
+"
+"
 PrefetchRecordChild
 .
 h
