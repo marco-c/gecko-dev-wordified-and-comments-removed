@@ -2406,14 +2406,6 @@ true
 [
 features
 ]
-backgroundtaskregistrar
-=
-[
-]
-msixcomserver_s
-=
-[
-]
 crash_helper_server
 =
 [
