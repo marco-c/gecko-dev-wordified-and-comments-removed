@@ -4565,7 +4565,13 @@ this
 ;
 mCachedName
 =
+std
+:
+:
+move
+(
 name
+)
 ;
 }
 }

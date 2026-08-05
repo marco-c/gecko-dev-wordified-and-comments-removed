@@ -6055,7 +6055,13 @@ eAtkFormat
 }
 aResult
 =
+std
+:
+:
+move
+(
 keyBindingsStr
+)
 ;
 }
 Accessible

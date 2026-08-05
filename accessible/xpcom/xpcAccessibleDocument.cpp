@@ -267,7 +267,13 @@ title
 ;
 aTitle
 =
+std
+:
+:
+move
+(
 title
+)
 ;
 return
 NS_OK

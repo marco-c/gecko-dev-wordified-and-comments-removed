@@ -573,7 +573,13 @@ aDistributor
 {
 aDistributor
 =
+std
+:
+:
+move
+(
 name
+)
 ;
 }
 if
@@ -592,7 +598,13 @@ IsEmpty
 {
 aRelease
 =
+std
+:
+:
+move
+(
 build_id
+)
 ;
 seen_version_id
 =
