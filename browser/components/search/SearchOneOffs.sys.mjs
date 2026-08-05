@@ -3016,7 +3016,7 @@ lazy
 .
 OpenSearchManager
 .
-getEngines
+getInstallableEngines
 (
 this
 .

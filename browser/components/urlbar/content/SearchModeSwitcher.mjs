@@ -3958,7 +3958,7 @@ lazy
 .
 OpenSearchManager
 .
-getEngines
+getInstallableEngines
 (
 browser
 .
