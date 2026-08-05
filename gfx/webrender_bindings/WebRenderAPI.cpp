@@ -8300,6 +8300,16 @@ v
 0f
 }
 ;
+wr
+:
+:
+LayoutSideOffsets
+inset
+=
+EmptyLayoutSideOffsets
+(
+)
+;
 wr_dp_push_border
 (
 mWrState
@@ -8321,6 +8331,7 @@ side
 side
 side
 radii
+inset
 )
 ;
 }
@@ -9826,6 +9837,13 @@ wr
 BorderRadius
 &
 aRadius
+const
+wr
+:
+:
+LayoutSideOffsets
+&
+aInset
 wr
 :
 :
@@ -9887,6 +9905,7 @@ aSides
 3
 ]
 aRadius
+aInset
 )
 ;
 }

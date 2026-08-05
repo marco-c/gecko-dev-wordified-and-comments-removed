@@ -470,6 +470,14 @@ uniform
 .
 0
 )
+inset
+:
+LayoutSideOffsets
+:
+:
+zero
+(
+)
 do_aa
 :
 true

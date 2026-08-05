@@ -1495,6 +1495,10 @@ radius
 :
 BorderRadius
 pub
+inset
+:
+LayoutSideOffsets
+pub
 do_aa
 :
 bool
