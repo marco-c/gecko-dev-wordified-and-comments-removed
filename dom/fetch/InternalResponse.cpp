@@ -135,7 +135,7 @@ const
 uint32_t
 kMaxRandomNumber
 =
-102400
+1048576
 ;
 }
 InternalResponse
