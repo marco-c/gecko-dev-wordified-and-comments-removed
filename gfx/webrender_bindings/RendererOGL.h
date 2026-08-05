@@ -595,6 +595,11 @@ mWindowId
 TimeStamp
 mFrameStartTime
 ;
+bool
+mPausedForResourceTrimming
+=
+false
+;
 #
 ifdef
 MOZ_WIDGET_ANDROID
