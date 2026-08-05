@@ -106,6 +106,13 @@ html
 ]
 [
 "
+test_editcontext_redundant_characterboundsupdate
+.
+html
+"
+]
+[
+"
 test_editcontext_resist_fingerprinting
 .
 html
