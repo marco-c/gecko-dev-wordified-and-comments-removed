@@ -264,7 +264,17 @@ browser
 .
 startScroll
 (
+{
+.
+.
+.
 data
+browsingContext
+:
+this
+.
+browsingContext
+}
 )
 )
 ;

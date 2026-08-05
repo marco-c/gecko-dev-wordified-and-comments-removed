@@ -1434,11 +1434,6 @@ this
 .
 _scrollId
 presShellId
-browsingContext
-:
-this
-.
-browsingContext
 }
 )
 ;
