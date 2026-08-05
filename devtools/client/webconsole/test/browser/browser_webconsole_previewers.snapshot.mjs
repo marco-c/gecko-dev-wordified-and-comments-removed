@@ -2008,10 +2008,8 @@ asdf
 is
 not
 defined
-[
 Learn
 More
-]
 \
 ndebugger
 eval
@@ -2039,10 +2037,8 @@ redeclaration
 of
 let
 a
-[
 Learn
 More
-]
 \
 ndebugger
 eval
@@ -2417,10 +2413,8 @@ redeclaration
 of
 const
 a
-[
 Learn
 More
-]
 \
 ndebugger
 eval
@@ -2485,10 +2479,8 @@ redeclaration
 of
 const
 a
-[
 Learn
 More
-]
 \
 ndebugger
 eval
