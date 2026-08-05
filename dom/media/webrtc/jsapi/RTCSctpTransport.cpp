@@ -77,10 +77,11 @@ RTCSctpTransport
 nsPIDOMWindowInner
 *
 aWindow
-RTCDtlsTransport
-&
-aDtlsTransport
+const
+Nullable
+<
 double
+>
 aMaxMessageSize
 const
 Nullable
@@ -104,8 +105,7 @@ Connecting
 )
 mDtlsTransport
 (
-&
-aDtlsTransport
+nullptr
 )
 mMaxMessageSize
 (
