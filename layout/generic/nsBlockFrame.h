@@ -2085,17 +2085,6 @@ GetLineClampRoot
 )
 ;
 }
-const
-mozilla
-:
-:
-StyleBlockEllipsis
-*
-GetLineClampBlockEllipsis
-(
-)
-const
-;
 bool
 MaybeHasFloats
 (
