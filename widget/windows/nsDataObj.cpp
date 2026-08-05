@@ -3695,7 +3695,7 @@ S_OK
 }
 }
 return
-E_FAIL
+DV_E_FORMATETC
 ;
 }
 STDMETHODIMP
