@@ -1272,6 +1272,17 @@ aFullOriginMetadata
 )
 ;
 nsresult
+SettleDirectoryMetadata2
+(
+nsIFile
+&
+aDirectory
+FullOriginMetadata
+&
+aFullOriginMetadata
+)
+;
+nsresult
 RestoreDirectoryMetadata2
 (
 nsIFile
