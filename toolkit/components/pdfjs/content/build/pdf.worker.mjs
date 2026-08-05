@@ -172,11 +172,11 @@ pdfjsVersion
 .
 2
 .
-24
+36
 *
 pdfjsBuild
 =
-028c02f53
+0c8f67059
 *
 /
 ;
@@ -424299,11 +424299,7 @@ data
 new
 XmlObject
 (
-NamespaceIds
-.
-datasets
-.
-id
+bind_NS_DATASETS
 "
 data
 "
@@ -424709,11 +424705,7 @@ namespaceId
 =
 =
 =
-NamespaceIds
-.
-datasets
-.
-id
+bind_NS_DATASETS
 &
 &
 dataNode
@@ -522394,7 +522386,7 @@ acroFormCalculationOrder
 ;
 acroForm
 .
-setIfDict
+setIfDefined
 (
 "
 DR
@@ -524485,7 +524477,7 @@ workerVersion
 .
 2
 .
-24
+36
 "
 ;
 if
