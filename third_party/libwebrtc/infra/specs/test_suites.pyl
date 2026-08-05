@@ -367,6 +367,12 @@ video_timing_tests
 {
 }
 '
+videocodec_test_mediacodec
+'
+:
+{
+}
+'
 voip_unittests
 '
 :

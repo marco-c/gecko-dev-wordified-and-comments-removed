@@ -847,6 +847,13 @@ examples
 android_examples_junit_tests
 "
 "
+modules
+/
+video_coding
+:
+videocodec_test_mediacodec
+"
+"
 sdk
 /
 android
