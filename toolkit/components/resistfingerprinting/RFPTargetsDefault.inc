@@ -26,6 +26,10 @@ DESKTOP_DEFAULT
 (
 MaxTouchPointsCollapse
 )
+DESKTOP_DEFAULT
+(
+IMEStyle
+)
 #
 ifdef
 NIGHTLY_BUILD
@@ -90,4 +94,8 @@ NavigatorHWConcurrencyTiered
 ANDROID_DEFAULT
 (
 MaxTouchPointsCollapse
+)
+ANDROID_DEFAULT
+(
+IMEStyle
 )
