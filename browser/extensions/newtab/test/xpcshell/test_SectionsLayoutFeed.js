@@ -2188,6 +2188,19 @@ restore
 }
 )
 ;
+const
+ALLOWED_RANKS
+=
+new
+Set
+(
+[
+0
+1
+2
+]
+)
+;
 function
 makeAdLayout
 (
@@ -2279,6 +2292,7 @@ allowAds
 :
 true
 }
+ALLOWED_RANKS
 )
 layout
 "
@@ -2339,6 +2353,7 @@ allowAds
 :
 true
 }
+ALLOWED_RANKS
 )
 ;
 Assert
@@ -2456,6 +2471,7 @@ allowAds
 :
 false
 }
+ALLOWED_RANKS
 )
 ;
 Assert

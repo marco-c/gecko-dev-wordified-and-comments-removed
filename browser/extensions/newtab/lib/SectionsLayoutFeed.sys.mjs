@@ -1767,6 +1767,7 @@ SectionsLayoutManager
 =
 {
 DEFAULT_SECTION_LAYOUT
+AD_ALLOWED_RANKS
 }
 ;
 function
@@ -1935,7 +1936,7 @@ s
 rank
 is
 in
-AD_ALLOWED_RANKS
+allowedRanks
 and
 its
 allowAds
@@ -1992,6 +1993,23 @@ and
 allowAds
 .
 *
+param
+{
+Set
+<
+number
+>
+}
+allowedRanks
+Section
+ranks
+that
+may
+carry
+an
+ad
+.
+*
 returns
 {
 object
@@ -2015,6 +2033,7 @@ layout
 receivedRank
 allowAds
 }
+allowedRanks
 )
 {
 const
@@ -2027,7 +2046,7 @@ allowAds
 false
 &
 &
-AD_ALLOWED_RANKS
+allowedRanks
 .
 has
 (
