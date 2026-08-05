@@ -254,3 +254,17 @@ browser_ipprotection_utils
 js
 "
 ]
+[
+"
+browser_ipprotection_viewer_site_exclusion
+.
+js
+"
+]
+[
+"
+browser_ipprotection_window_close
+.
+js
+"
+]
