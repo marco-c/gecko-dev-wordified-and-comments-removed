@@ -77,6 +77,15 @@ prefs
 "
 devtools
 .
+chrome
+.
+enabled
+=
+true
+"
+"
+devtools
+.
 console
 .
 stdout
