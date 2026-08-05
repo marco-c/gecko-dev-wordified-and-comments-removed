@@ -2028,4 +2028,15 @@ fix_clipped_tables
 .
 css
 "
+"
+bug2051291
+-
+customers
+.
+extend
+-
+hide_preloader
+.
+css
+"
 ]
