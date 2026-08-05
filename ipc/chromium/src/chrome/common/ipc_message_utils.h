@@ -475,9 +475,9 @@ WriteBytesZeroCopy
 void
 *
 data
-uint32_t
+size_t
 data_len
-uint32_t
+size_t
 capacity
 )
 {
