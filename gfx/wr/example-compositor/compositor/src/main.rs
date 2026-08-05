@@ -101,6 +101,15 @@ f32
 process
 }
 ;
+const
+AU_PER_DEV_PX
+:
+f32
+=
+60
+.
+0
+;
 struct
 DirectCompositeInterface
 {
@@ -2378,6 +2387,7 @@ root_builder
 .
 begin
 (
+AU_PER_DEV_PX
 )
 ;
 build_display_list
@@ -2522,6 +2532,7 @@ root_builder
 .
 begin
 (
+AU_PER_DEV_PX
 )
 ;
 build_display_list
