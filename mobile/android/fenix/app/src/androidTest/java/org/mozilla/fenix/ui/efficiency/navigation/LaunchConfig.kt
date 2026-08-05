@@ -166,4 +166,10 @@ isRecentlyVisitedFeatureEnabled
 Boolean
 =
 true
+val
+shouldUseExpandedToolbar
+:
+Boolean
+=
+false
 )

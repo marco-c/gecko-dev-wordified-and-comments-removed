@@ -580,6 +580,13 @@ isRecentlyVisitedFeatureEnabled
 Boolean
 =
 true
+private
+val
+shouldUseExpandedToolbar
+:
+Boolean
+=
+false
 )
 {
 /
@@ -619,6 +626,9 @@ isPocketEnabled
 isRecentlyVisitedFeatureEnabled
 =
 isRecentlyVisitedFeatureEnabled
+shouldUseExpandedToolbar
+=
+shouldUseExpandedToolbar
 )
 /
 *
@@ -905,6 +915,11 @@ isRecentlyVisitedFeatureEnabled
 cfg
 .
 isRecentlyVisitedFeatureEnabled
+shouldUseExpandedToolbar
+=
+cfg
+.
+shouldUseExpandedToolbar
 )
 )
 {
