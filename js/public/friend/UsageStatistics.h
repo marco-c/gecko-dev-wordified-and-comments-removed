@@ -77,6 +77,12 @@ QuantityDistribution
 \
 _
 (
+GC_MARK_STACK_MAX_CAPACITY
+MemoryDistribution
+)
+\
+_
+(
 GC_MS
 TimeDuration
 )
