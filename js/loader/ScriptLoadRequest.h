@@ -766,15 +766,6 @@ aFetchOptions
 nsIURI
 *
 aURI
-const
-mozilla
-:
-:
-Encoding
-*
-aClassicScriptFallbackEncoding
-=
-nullptr
 )
 ;
 private
