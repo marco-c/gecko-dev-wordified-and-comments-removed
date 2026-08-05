@@ -1581,14 +1581,10 @@ IsInPicture
 const
 {
 return
-GetParentElement
-(
-)
+mParent
 &
 &
-GetParentElement
-(
-)
+mParent
 -
 >
 IsHTMLElement

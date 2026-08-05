@@ -2303,6 +2303,14 @@ nsINode
 aParent
 )
 {
+const
+bool
+wasInPicture
+=
+IsInPicture
+(
+)
+;
 MOZ_TRY
 (
 nsGenericHTMLElement
@@ -2337,6 +2345,10 @@ if
 IsInPicture
 (
 )
+&
+&
+!
+wasInPicture
 )
 {
 if
