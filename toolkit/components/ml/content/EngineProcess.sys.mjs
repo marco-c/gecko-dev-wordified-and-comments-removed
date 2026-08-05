@@ -202,13 +202,6 @@ llama
 .
 cpp
 "
-bestLlama
-:
-"
-best
--
-llama
-"
 bestOnnx
 :
 "
