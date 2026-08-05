@@ -13155,6 +13155,16 @@ api
 /
 video
 :
+video_frame_type
+"
+"
+.
+.
+/
+api
+/
+video
+:
 video_layers_allocation
 "
 "
