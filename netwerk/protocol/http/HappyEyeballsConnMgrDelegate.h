@@ -261,7 +261,7 @@ aTrans
 ;
 virtual
 nsresult
-StartRetryWithoutTRR
+StartRetry
 (
 ConnectionEntry
 *
@@ -277,6 +277,8 @@ bool
 aUrgentStart
 bool
 aAllow1918
+bool
+aRetryWithoutTRR
 )
 =
 0
