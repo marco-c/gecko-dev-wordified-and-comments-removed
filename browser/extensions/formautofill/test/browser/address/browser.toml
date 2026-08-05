@@ -76,6 +76,13 @@ js
 ]
 [
 "
+browser_address_capture_before_fields_identified
+.
+js
+"
+]
+[
+"
 browser_address_capture_form_removal
 .
 js
