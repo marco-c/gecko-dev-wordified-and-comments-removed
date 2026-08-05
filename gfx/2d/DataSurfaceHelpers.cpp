@@ -1846,6 +1846,7 @@ GetMappedSurface
 aDestPoint
 )
 ;
+return
 SwizzleData
 (
 sourceData
@@ -1878,9 +1879,6 @@ Size
 (
 )
 )
-;
-return
-true
 ;
 }
 already_AddRefed
