@@ -60,6 +60,10 @@ nsISupports
 public
 nsWrapperCache
 {
+friend
+class
+WebTransportDatagramDuplexStream
+;
 public
 :
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
