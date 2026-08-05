@@ -309,6 +309,13 @@ h
 #
 include
 "
+NonSharedGlobalSyncModuleLoaderScope
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h
@@ -394,6 +401,13 @@ h
 include
 "
 nsXULAppAPI
+.
+h
+"
+#
+include
+"
+SyncModuleLoader
 .
 h
 "
