@@ -38,6 +38,7 @@ maxdepth
 1
 contribution_quickref
 stack_quickref
+phabricator_vs_github
 pocket
 -
 guide
