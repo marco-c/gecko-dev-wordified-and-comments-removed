@@ -2342,6 +2342,12 @@ const
 completionParams
 =
 {
+.
+.
+.
+request
+.
+inferenceParams
 model
 :
 modelId
