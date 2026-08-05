@@ -64,6 +64,11 @@ crash
 manager
 /
 index
+components
+/
+downloads
+/
+index
 crashreporter
 /
 crashreporter
@@ -173,6 +178,13 @@ index
 extensions
 /
 spellcheck
+/
+index
+mozapps
+/
+dmgInstallHelper
+/
+docs
 /
 index
 mozapps
