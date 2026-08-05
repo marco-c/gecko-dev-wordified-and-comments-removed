@@ -127,14 +127,14 @@ h
 #
 include
 "
-nsIFileURL
+nsGtkKeyUtils
 .
 h
 "
 #
 include
 "
-nsGtkKeyUtils
+nsIFileURL
 .
 h
 "
@@ -178,6 +178,12 @@ mozilla
 gfx
 ;
 #
+undef
+LOGDRAG
+#
+undef
+LOGDRAGSTATIC
+#
 ifdef
 MOZ_LOGGING
 extern
@@ -189,7 +195,7 @@ gWidgetDragLog
 ;
 #
 define
-LOGDRAGSERVICE
+LOGDRAG
 (
 str
 .
@@ -267,10 +273,45 @@ __VA_ARGS__
 )
 )
 #
+define
+LOGDRAGSTATIC
+(
+str
+.
+.
+.
+)
+\
+MOZ_LOG
+(
+gWidgetDragLog
+mozilla
+:
+:
+LogLevel
+:
+:
+Debug
+(
+str
+#
+#
+__VA_ARGS__
+)
+)
+#
 else
 #
 define
-LOGDRAGSERVICE
+LOGDRAG
+(
+.
+.
+.
+)
+#
+define
+LOGDRAGSTATIC
 (
 .
 .
@@ -278,9 +319,11 @@ LOGDRAGSERVICE
 )
 #
 endif
-static
 const
 char
+nsDragSession
+:
+:
 gMozUrlType
 [
 ]
@@ -289,9 +332,11 @@ gMozUrlType
 _NETSCAPE_URL
 "
 ;
-static
 const
 char
+nsDragSession
+:
+:
 gMimeListType
 [
 ]
@@ -310,9 +355,11 @@ item
 list
 "
 ;
-static
 const
 char
+nsDragSession
+:
+:
 gTextUriListType
 [
 ]
@@ -325,9 +372,11 @@ uri
 list
 "
 ;
-static
 const
 char
+nsDragSession
+:
+:
 gTextPlainUTF8Type
 [
 ]
@@ -344,9 +393,11 @@ utf
 8
 "
 ;
-static
 const
 char
+nsDragSession
+:
+:
 gXdndDirectSaveType
 [
 ]
@@ -355,9 +406,11 @@ gXdndDirectSaveType
 XdndDirectSave0
 "
 ;
-static
 const
 char
+nsDragSession
+:
+:
 gTabDropType
 [
 ]
@@ -374,9 +427,11 @@ tabbrowser
 tab
 "
 ;
-static
 const
 char
+nsDragSession
+:
+:
 gPortalFile
 [
 ]
@@ -391,9 +446,11 @@ portal
 files
 "
 ;
-static
 const
 char
+nsDragSession
+:
+:
 gPortalFileTransfer
 [
 ]
@@ -408,9 +465,11 @@ portal
 filetransfer
 "
 ;
-static
 const
 char
+nsDragSession
+:
+:
 gUTF8STRINGType
 [
 ]
@@ -419,9 +478,11 @@ gUTF8STRINGType
 UTF8_STRING
 "
 ;
-static
 const
 char
+nsDragSession
+:
+:
 gSTRINGType
 [
 ]
@@ -760,7 +821,7 @@ true
 }
 }
 }
-LOGDRAG
+LOGDRAGSTATIC
 (
 "
 GetFileFromUri
@@ -943,7 +1004,7 @@ Length
 )
 ;
 }
-LOGDRAG
+LOGDRAGSTATIC
 (
 "
 DragData
@@ -987,7 +1048,7 @@ mDataFlavor
 )
 )
 ;
-LOGDRAG
+LOGDRAGSTATIC
 (
 "
 DragData
@@ -1130,7 +1191,7 @@ if
 fileExists
 )
 {
-LOGDRAG
+LOGDRAGSTATIC
 (
 "
 uri
@@ -1154,7 +1215,7 @@ return
 false
 ;
 }
-LOGDRAG
+LOGDRAGSTATIC
 (
 "
 export
@@ -1263,7 +1324,7 @@ return
 false
 ;
 }
-LOGDRAG
+LOGDRAGSTATIC
 (
 "
 %
@@ -1352,7 +1413,7 @@ IsImageFlavor
 )
 )
 {
-LOGDRAG
+LOGDRAGSTATIC
 (
 "
 export
@@ -1423,7 +1484,7 @@ IsTextFlavor
 )
 )
 {
-LOGDRAG
+LOGDRAGSTATIC
 (
 "
 export
@@ -1537,7 +1598,7 @@ mDragData
 mDragDataLen
 )
 {
-LOGDRAG
+LOGDRAGSTATIC
 (
 "
 export
@@ -1592,7 +1653,7 @@ unicodeData
 )
 )
 {
-LOGDRAG
+LOGDRAGSTATIC
 (
 "
 failed
@@ -1801,7 +1862,7 @@ mAsURIData
 mDragUris
 )
 ;
-LOGDRAG
+LOGDRAGSTATIC
 (
 "
 ConvertToMozURL
@@ -1916,7 +1977,7 @@ MOZ_ASSERT
 mDragData
 )
 ;
-LOGDRAG
+LOGDRAGSTATIC
 (
 "
 ConvertToMozURL
@@ -1985,7 +2046,7 @@ return
 data
 ;
 }
-LOGDRAG
+LOGDRAGSTATIC
 (
 "
 ConvertToMozURL
@@ -2263,7 +2324,7 @@ mDragDataLen
 2
 )
 ;
-LOGDRAG
+LOGDRAGSTATIC
 (
 "
 DragData
@@ -2336,7 +2397,7 @@ false
 break
 ;
 }
-LOGDRAG
+LOGDRAGSTATIC
 (
 "
 URI
@@ -2516,7 +2577,7 @@ get
 mDragDataLen
 )
 ;
-LOGDRAG
+LOGDRAGSTATIC
 (
 "
 DragData
@@ -2582,7 +2643,7 @@ mDragDataLen
 2
 )
 ;
-LOGDRAG
+LOGDRAGSTATIC
 (
 "
 DragData
@@ -2630,7 +2691,7 @@ if
 mDragUris
 )
 {
-LOGDRAG
+LOGDRAGSTATIC
 (
 "
 DragData
@@ -2704,7 +2765,7 @@ i
 +
 )
 {
-LOGDRAG
+LOGDRAGSTATIC
 (
 "
 %
@@ -2731,7 +2792,7 @@ Length
 )
 )
 {
-LOGDRAG
+LOGDRAGSTATIC
 (
 "
 DragData
@@ -2790,7 +2851,7 @@ i
 +
 )
 {
-LOGDRAG
+LOGDRAGSTATIC
 (
 "
 %
@@ -2823,7 +2884,7 @@ get
 }
 else
 {
-LOGDRAG
+LOGDRAGSTATIC
 (
 "
 DragData
@@ -2871,7 +2932,7 @@ nsDragSession
 (
 )
 {
-LOGDRAGSERVICE
+LOGDRAG
 (
 "
 nsDragSession
@@ -3087,7 +3148,7 @@ nsDragSession
 (
 )
 {
-LOGDRAGSERVICE
+LOGDRAG
 (
 "
 nsDragSession
@@ -3284,7 +3345,7 @@ uint32_t
 aKeyModifiers
 )
 {
-LOGDRAGSERVICE
+LOGDRAG
 (
 "
 nsDragSession
@@ -3347,7 +3408,7 @@ bool
 aCanDrop
 )
 {
-LOGDRAGSERVICE
+LOGDRAG
 (
 "
 nsDragSession
@@ -3379,7 +3440,7 @@ bool
 aCanDrop
 )
 {
-LOGDRAGSERVICE
+LOGDRAG
 (
 "
 nsDragSession
@@ -3409,7 +3470,7 @@ uint32_t
 aNumItems
 )
 {
-LOGDRAGSERVICE
+LOGDRAG
 (
 "
 nsDragSession
@@ -3446,7 +3507,7 @@ if
 widget
 )
 {
-LOGDRAGSERVICE
+LOGDRAG
 (
 "
 *
@@ -3507,7 +3568,7 @@ GetLength
 aNumItems
 )
 ;
-LOGDRAGSERVICE
+LOGDRAG
 (
 "
 GetNumDropItems
@@ -3574,7 +3635,7 @@ GetURIsNum
 (
 )
 ;
-LOGDRAGSERVICE
+LOGDRAG
 (
 "
 GetNumDropItems
@@ -3617,7 +3678,7 @@ aNumItems
 =
 1
 ;
-LOGDRAGSERVICE
+LOGDRAG
 (
 "
 GetNumDropItems
@@ -3647,7 +3708,7 @@ uint32_t
 aItemIndex
 )
 {
-LOGDRAGSERVICE
+LOGDRAG
 (
 "
 nsDragSession
@@ -3700,7 +3761,7 @@ if
 widget
 )
 {
-LOGDRAGSERVICE
+LOGDRAG
 (
 "
 *
@@ -3750,7 +3811,7 @@ rv
 )
 )
 {
-LOGDRAGSERVICE
+LOGDRAG
 (
 "
 failed
@@ -3773,7 +3834,7 @@ IsTargetContextList
 )
 )
 {
-LOGDRAGSERVICE
+LOGDRAG
 (
 "
 Process
@@ -3815,7 +3876,7 @@ flavors
 i
 ]
 ;
-LOGDRAGSERVICE
+LOGDRAG
 (
 "
 [
@@ -3862,7 +3923,7 @@ nsISupports
 >
 data
 ;
-LOGDRAGSERVICE
+LOGDRAG
 (
 "
 trying
@@ -3909,7 +3970,7 @@ rv
 )
 )
 {
-LOGDRAGSERVICE
+LOGDRAG
 (
 "
 failed
@@ -3945,7 +4006,7 @@ rv
 )
 )
 {
-LOGDRAGSERVICE
+LOGDRAG
 (
 "
 fail
@@ -3964,7 +4025,7 @@ n
 continue
 ;
 }
-LOGDRAGSERVICE
+LOGDRAG
 (
 "
 succeeded
@@ -3977,7 +4038,7 @@ return
 NS_OK
 ;
 }
-LOGDRAGSERVICE
+LOGDRAG
 (
 "
 failed
@@ -4044,7 +4105,7 @@ requestedFlavor
 continue
 ;
 }
-LOGDRAGSERVICE
+LOGDRAG
 (
 "
 we
@@ -4100,7 +4161,7 @@ requestedFlavor
 sFileMimeAtom
 )
 {
-LOGDRAGSERVICE
+LOGDRAG
 (
 "
 try
@@ -4145,7 +4206,7 @@ requestedFlavor
 sURLMimeAtom
 )
 {
-LOGDRAGSERVICE
+LOGDRAG
 (
 "
 conversion
@@ -4201,7 +4262,7 @@ if
 dragData
 )
 {
-LOGDRAGSERVICE
+LOGDRAG
 (
 "
 conversion
@@ -4285,7 +4346,7 @@ requestedFlavor
 sFileMimeAtom
 )
 {
-LOGDRAGSERVICE
+LOGDRAG
 (
 "
 file
@@ -4402,7 +4463,7 @@ bool
 _retval
 )
 {
-LOGDRAGSERVICE
+LOGDRAG
 (
 "
 nsDragSession
@@ -4459,7 +4520,7 @@ if
 widget
 )
 {
-LOGDRAGSERVICE
+LOGDRAG
 (
 "
 *
@@ -4493,7 +4554,7 @@ IsTargetContextList
 )
 )
 {
-LOGDRAGSERVICE
+LOGDRAG
 (
 "
 It
@@ -4515,7 +4576,7 @@ if
 mSourceDataItems
 )
 {
-LOGDRAGSERVICE
+LOGDRAG
 (
 "
 quit
@@ -4535,7 +4596,7 @@ GetLength
 numDragItems
 )
 ;
-LOGDRAGSERVICE
+LOGDRAG
 (
 "
 drag
@@ -4613,7 +4674,7 @@ Length
 i
 )
 {
-LOGDRAGSERVICE
+LOGDRAG
 (
 "
 checking
@@ -4649,7 +4710,7 @@ aDataFlavor
 )
 )
 {
-LOGDRAGSERVICE
+LOGDRAG
 (
 "
 found
@@ -4689,7 +4750,7 @@ requestedFlavor
 )
 )
 {
-LOGDRAGSERVICE
+LOGDRAG
 (
 "
 %
@@ -4723,7 +4784,7 @@ sTextPlainUTF8TypeAtom
 )
 )
 {
-LOGDRAGSERVICE
+LOGDRAG
 (
 "
 %
@@ -4770,7 +4831,7 @@ sTextUriListTypeAtom
 )
 )
 {
-LOGDRAGSERVICE
+LOGDRAG
 (
 "
 %
@@ -4809,7 +4870,7 @@ sMozUrlTypeAtom
 )
 )
 {
-LOGDRAGSERVICE
+LOGDRAG
 (
 "
 %
@@ -4864,7 +4925,7 @@ sPortalFileTransferAtom
 )
 )
 {
-LOGDRAGSERVICE
+LOGDRAG
 (
 "
 %
@@ -4893,7 +4954,7 @@ return
 NS_OK
 ;
 }
-LOGDRAGSERVICE
+LOGDRAG
 (
 "
 %
@@ -4919,7 +4980,7 @@ uintptr_t
 aDragContextID
 )
 {
-LOGDRAGSERVICE
+LOGDRAG
 (
 "
 nsDragSession
@@ -4962,7 +5023,7 @@ aDragContextID
 mCachedDragContextID
 )
 {
-LOGDRAGSERVICE
+LOGDRAG
 (
 "
 cache
@@ -5010,7 +5071,7 @@ GdkAtom
 aRequestedFlavor
 )
 {
-LOGDRAGSERVICE
+LOGDRAG
 (
 "
 nsDragSession
@@ -5052,7 +5113,7 @@ aRequestedFlavor
 )
 )
 {
-LOGDRAGSERVICE
+LOGDRAG
 (
 "
 %
@@ -5099,7 +5160,7 @@ if
 data
 )
 {
-LOGDRAGSERVICE
+LOGDRAG
 (
 "
 MIME
@@ -5155,7 +5216,7 @@ aRequestedFlavor
 )
 )
 {
-LOGDRAGSERVICE
+LOGDRAG
 (
 "
 %
@@ -5252,7 +5313,7 @@ return
 nullptr
 ;
 }
-LOGDRAGSERVICE
+LOGDRAG
 (
 "
 %
@@ -5515,7 +5576,7 @@ DragTask
 aTask
 )
 {
-LOGDRAGSERVICE
+LOGDRAG
 (
 "
 nsDragSession
@@ -5532,7 +5593,7 @@ if
 mDragTaskSourceFinished
 )
 {
-LOGDRAGSERVICE
+LOGDRAG
 (
 "
 already
@@ -5560,7 +5621,7 @@ mType
 eDragTaskDrop
 )
 {
-LOGDRAGSERVICE
+LOGDRAG
 (
 "
 eDragTaskDrop
@@ -5667,7 +5728,7 @@ mNextScheduledTask
 mDragTaskSourceFinished
 )
 {
-LOGDRAGSERVICE
+LOGDRAG
 (
 "
 nsDragSession
@@ -5728,7 +5789,7 @@ mScheduledTaskIsRunning
 =
 true
 ;
-LOGDRAGSERVICE
+LOGDRAG
 (
 "
 nsDragSession
@@ -5752,7 +5813,7 @@ mNextScheduledTask
 )
 )
 ;
-LOGDRAGSERVICE
+LOGDRAG
 (
 "
 nsDragSession
@@ -5815,7 +5876,7 @@ RunScheduledTask
 "
 )
 ;
-LOGDRAGSERVICE
+LOGDRAG
 (
 "
 nsDragSession
@@ -5885,7 +5946,7 @@ aScheduledTask
 mWindow
 )
 {
-LOGDRAGSERVICE
+LOGDRAG
 (
 "
 window
@@ -5955,7 +6016,7 @@ mType
 eDragTaskLeave
 )
 {
-LOGDRAGSERVICE
+LOGDRAG
 (
 "
 quit
@@ -6021,7 +6082,7 @@ move
 aScheduledTask
 )
 ;
-LOGDRAGSERVICE
+LOGDRAG
 (
 "
 start
@@ -6084,7 +6145,7 @@ eDragTaskMotion
 positionHasChanged
 )
 {
-LOGDRAGSERVICE
+LOGDRAG
 (
 "
 process
@@ -6150,7 +6211,7 @@ mType
 eDragTaskDrop
 )
 {
-LOGDRAGSERVICE
+LOGDRAG
 (
 "
 process
@@ -6185,7 +6246,7 @@ GdkDragAction
 aGdkAction
 )
 {
-LOGDRAGSERVICE
+LOGDRAG
 (
 "
 nsDragSession
@@ -6218,7 +6279,7 @@ aGdkAction
 GDK_ACTION_DEFAULT
 )
 {
-LOGDRAGSERVICE
+LOGDRAG
 (
 "
 nsDragSession
@@ -6249,7 +6310,7 @@ aGdkAction
 GDK_ACTION_MOVE
 )
 {
-LOGDRAGSERVICE
+LOGDRAG
 (
 "
 nsDragSession
@@ -6281,7 +6342,7 @@ aGdkAction
 GDK_ACTION_LINK
 )
 {
-LOGDRAGSERVICE
+LOGDRAG
 (
 "
 nsDragSession
@@ -6313,7 +6374,7 @@ aGdkAction
 GDK_ACTION_COPY
 )
 {
-LOGDRAGSERVICE
+LOGDRAG
 (
 "
 nsDragSession
@@ -6458,7 +6519,7 @@ break
 ;
 }
 }
-LOGDRAGSERVICE
+LOGDRAG
 (
 "
 nsDragSession
@@ -6633,4 +6694,7 @@ aTime
 ;
 #
 undef
-LOGDRAGSERVICE
+LOGDRAG
+#
+undef
+LOGDRAGSTATIC
