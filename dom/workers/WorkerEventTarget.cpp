@@ -374,6 +374,7 @@ WorkerDebuggerRunnable
 "
 WrappedDebuggerRunnable
 "
+true
 )
 mInner
 (
