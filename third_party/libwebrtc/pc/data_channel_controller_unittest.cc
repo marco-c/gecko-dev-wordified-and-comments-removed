@@ -720,7 +720,7 @@ Stop
 )
 ;
 }
-ScopedBaseFakeClock
+ScopedFakeClock
 clock_
 ;
 test

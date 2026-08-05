@@ -243,7 +243,7 @@ duration
 ;
 private
 :
-ScopedBaseFakeClock
+ScopedFakeClock
 global_clock_
 ;
 SimulatedClock
