@@ -679,6 +679,7 @@ HTMLImageElement
 Complete
 (
 )
+const
 {
 if
 (
@@ -711,7 +712,9 @@ if
 mPendingRequest
 |
 |
-mPendingImageLoadTask
+HasPendingAlwaysLoadImageTask
+(
+)
 )
 {
 return

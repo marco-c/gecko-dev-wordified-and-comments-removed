@@ -580,6 +580,12 @@ imgIRequest
 aRequest
 )
 ;
+bool
+HasPendingAlwaysLoadImageTask
+(
+)
+const
+;
 static
 nsContentPolicyType
 PolicyTypeForLoad
