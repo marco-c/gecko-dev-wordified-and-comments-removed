@@ -163,6 +163,13 @@ js
 ]
 [
 "
+browser_mute_restore_closed_audible_tab
+.
+js
+"
+]
+[
+"
 browser_mute2
 .
 js
