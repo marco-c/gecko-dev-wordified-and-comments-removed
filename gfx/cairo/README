@@ -356,3 +356,17 @@ in
 16
 fixpoint
 .
+pixman
+-
+edge
+-
+saturate
+.
+patch
+:
+Saturate
+when
+rounding
+up
+trapezoid
+edges
