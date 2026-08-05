@@ -223,6 +223,7 @@ if
 (
 level
 >
+=
 mMediaSections
 .
 size
@@ -259,6 +260,7 @@ if
 (
 level
 >
+=
 mMediaSections
 .
 size
