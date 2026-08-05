@@ -196,7 +196,7 @@ bidi_session
 url
 get_navigator_online
         
-top_context
+new_tab
 create_iframe
 domain
 )
@@ -207,7 +207,7 @@ iframe_id
 await
 create_iframe
 (
-top_context
+new_tab
 url
 (
 '
@@ -242,7 +242,7 @@ OFFLINE_NETWORK_CONDITIONS
 contexts
 =
 [
-top_context
+new_tab
 [
 "
 context
@@ -274,7 +274,7 @@ None
 contexts
 =
 [
-top_context
+new_tab
 [
 "
 context
