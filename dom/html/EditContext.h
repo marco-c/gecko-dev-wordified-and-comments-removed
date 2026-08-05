@@ -593,6 +593,16 @@ return
 mIsFiringTextUpdate
 ;
 }
+static
+MOZ_CAN_RUN_SCRIPT
+void
+NotifyActiveEditContextChanged
+(
+Document
+&
+aDocument
+)
+;
 private
 :
 EditContext

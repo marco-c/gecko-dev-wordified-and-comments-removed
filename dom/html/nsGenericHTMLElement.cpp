@@ -2623,9 +2623,14 @@ delta
 )
 ;
 }
+RefPtr
+doc
+=
 OwnerDoc
 (
 )
+;
+doc
 -
 >
 UpdateTextEditContext
