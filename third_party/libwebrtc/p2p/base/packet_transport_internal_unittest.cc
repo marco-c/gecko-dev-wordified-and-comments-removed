@@ -61,6 +61,15 @@ include
 "
 test
 /
+create_test_environment
+.
+h
+"
+#
+include
+"
+test
+/
 gmock
 .
 h
@@ -96,6 +105,9 @@ NotifyPacketReceivedPassthrougPacketToRegisteredListener
 FakePacketTransport
 packet_transport
 (
+CreateTestEnvironment
+(
+)
 "
 test
 "
@@ -206,6 +218,9 @@ NotifiesOnceOnClose
 FakePacketTransport
 packet_transport
 (
+CreateTestEnvironment
+(
+)
 "
 test
 "
