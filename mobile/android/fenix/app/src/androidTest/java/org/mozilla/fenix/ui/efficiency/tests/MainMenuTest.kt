@@ -110,6 +110,16 @@ fenix
 helpers
 .
 TestAssetHelper
+import
+org
+.
+mozilla
+.
+fenix
+.
+helpers
+.
+TestAssetHelper
 .
 firstForeignWebPageAsset
 import
@@ -1886,6 +1896,9 @@ mozWaitUntilAbsent
 BrowserPageSelectors
 .
 TRANSLATION_SHEET_TRANSLATE_BUTTON
+TestAssetHelper
+.
+waitingTimeLong
 )
 on
 .
