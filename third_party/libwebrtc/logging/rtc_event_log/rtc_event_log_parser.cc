@@ -17812,10 +17812,10 @@ feedback_delta
 TimeDelta
 :
 :
-Millis
+Seconds
 (
 -
-500
+5
 )
 )
 {
