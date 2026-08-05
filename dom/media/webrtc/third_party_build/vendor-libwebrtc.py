@@ -36,20 +36,6 @@ pffft
 rnnoise
 "
 ]
-LIBWEBRTC_DIR
-=
-os
-.
-path
-.
-normpath
-(
-"
-third_party
-/
-libwebrtc
-"
-)
 def
 get_excluded_files
 (
@@ -2703,6 +2689,7 @@ fetch
 (
 target
 url
+destination_dir
 )
 :
     
@@ -2812,7 +2799,7 @@ path
 .
 join
 (
-LIBWEBRTC_DIR
+destination_dir
 "
 README
 .
@@ -2954,6 +2941,7 @@ fetch_local
 target
 path
 commit
+destination_dir
 )
 :
     
@@ -2972,7 +2960,7 @@ path
 .
 join
 (
-LIBWEBRTC_DIR
+destination_dir
 "
 README
 .
@@ -3387,6 +3375,7 @@ def
 unpack
 (
 target
+destination_dir
 from_local
 =
 None
@@ -3498,7 +3487,7 @@ path
 .
 join
 (
-LIBWEBRTC_DIR
+destination_dir
 path
 )
 )
@@ -3662,7 +3651,7 @@ path
 .
 join
 (
-LIBWEBRTC_DIR
+destination_dir
 path
 )
             
@@ -3737,7 +3726,7 @@ path
 .
 join
 (
-LIBWEBRTC_DIR
+destination_dir
 path
 )
             
@@ -3865,7 +3854,7 @@ path
 .
 join
 (
-LIBWEBRTC_DIR
+destination_dir
 path
 )
 )
@@ -3913,7 +3902,7 @@ path
 .
 join
 (
-LIBWEBRTC_DIR
+destination_dir
 path
 )
             
@@ -3947,7 +3936,7 @@ path
 .
 join
 (
-LIBWEBRTC_DIR
+destination_dir
 path
 )
 )
@@ -4034,7 +4023,7 @@ path
 .
 join
 (
-LIBWEBRTC_DIR
+destination_dir
 path
 )
             
@@ -4139,7 +4128,7 @@ path
 .
 join
 (
-LIBWEBRTC_DIR
+destination_dir
 path
 )
 )
@@ -4189,7 +4178,7 @@ path
 .
 join
 (
-LIBWEBRTC_DIR
+destination_dir
 path
 )
             
@@ -4422,7 +4411,7 @@ build
 "
 :
         
-LIBWEBRTC_DIR
+destination_dir
 =
 os
 .
@@ -4450,7 +4439,7 @@ third_party
 "
 :
         
-LIBWEBRTC_DIR
+destination_dir
 =
 os
 .
@@ -4458,10 +4447,23 @@ path
 .
 join
 (
-LIBWEBRTC_DIR
+            
+os
+.
+path
+.
+normpath
+(
+"
+third_party
+/
+libwebrtc
+"
+)
 "
 third_party
 "
+        
 )
     
 elif
@@ -4477,7 +4479,7 @@ cpp
 "
 :
         
-LIBWEBRTC_DIR
+destination_dir
 =
 os
 .
@@ -4494,11 +4496,29 @@ cpp
 "
 )
     
+else
+:
+        
+destination_dir
+=
+os
+.
+path
+.
+normpath
+(
+"
+third_party
+/
+libwebrtc
+"
+)
+    
 os
 .
 makedirs
 (
-LIBWEBRTC_DIR
+destination_dir
 exist_ok
 =
 True
@@ -4519,9 +4539,11 @@ from_github
             
 fetch
 (
+                
 args
 .
 target
+                
 make_github_url
 (
 args
@@ -4531,6 +4553,9 @@ args
 .
 commit
 )
+                
+destination_dir
+            
 )
         
 elif
@@ -4541,9 +4566,11 @@ from_googlesource
             
 fetch
 (
+                
 args
 .
 target
+                
 make_googlesource_url
 (
 args
@@ -4553,6 +4580,9 @@ args
 .
 commit
 )
+                
+destination_dir
+            
 )
         
 elif
@@ -4572,23 +4602,30 @@ from_local
 args
 .
 commit
+destination_dir
 )
     
 unpack
 (
+        
 args
 .
 target
+        
+destination_dir
+        
 from_local
 =
 args
 .
 from_local
+        
 commit
 =
 args
 .
 commit
+    
 )
     
 if
