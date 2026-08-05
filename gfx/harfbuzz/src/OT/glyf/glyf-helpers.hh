@@ -535,11 +535,10 @@ loca_prime_data
 char
 *
 )
-hb_malloc
+hb_malloc2
 (
-entry_size
-*
 num_offsets
+entry_size
 )
 ;
 if

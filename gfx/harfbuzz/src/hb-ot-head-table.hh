@@ -404,6 +404,16 @@ macStyle
 EXPANDED
 ;
 }
+unsigned
+get_mac_style
+(
+)
+const
+{
+return
+macStyle
+;
+}
 bool
 sanitize
 (

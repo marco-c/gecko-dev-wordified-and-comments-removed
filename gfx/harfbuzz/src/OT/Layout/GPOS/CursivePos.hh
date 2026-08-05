@@ -123,6 +123,10 @@ v
 case
 1
 :
+hb_barrier
+(
+)
+;
 return_trace
 (
 c

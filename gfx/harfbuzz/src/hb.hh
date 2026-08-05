@@ -1053,6 +1053,17 @@ diagnostic
 ignored
 "
 -
+Wunused
+-
+template
+"
+#
+pragma
+GCC
+diagnostic
+ignored
+"
+-
 Wc
 +
 +
@@ -1200,6 +1211,9 @@ h
 #
 define
 HB_AAT_H_IN
+#
+define
+HB_SUBSET_H_IN
 #
 include
 <
@@ -1631,6 +1645,7 @@ suppress
 :
 4100
 4101
+4189
 )
 )
 #

@@ -156,6 +156,10 @@ v
 case
 1
 :
+hb_barrier
+(
+)
+;
 return_trace
 (
 c
@@ -185,6 +189,10 @@ ds
 case
 2
 :
+hb_barrier
+(
+)
+;
 return_trace
 (
 c
@@ -217,6 +225,10 @@ HB_NO_BEYOND_64K
 case
 3
 :
+hb_barrier
+(
+)
+;
 return_trace
 (
 c
@@ -246,6 +258,10 @@ ds
 case
 4
 :
+hb_barrier
+(
+)
+;
 return_trace
 (
 c

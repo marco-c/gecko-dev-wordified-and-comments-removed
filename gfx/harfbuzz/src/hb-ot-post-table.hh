@@ -845,10 +845,9 @@ gids
 uint16_t
 *
 )
-hb_malloc
+hb_malloc2
 (
 count
-*
 sizeof
 (
 gids

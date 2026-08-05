@@ -569,6 +569,9 @@ mutable
 bool
 has_gdef_varstore
 ;
+bool
+has_avar2
+;
 #
 define
 HB_SUBSET_PLAN_MEMBER

@@ -322,6 +322,9 @@ default_index
 if
 (
 selectors_count
+&
+&
+selectors
 )
 {
 +
@@ -549,6 +552,9 @@ const
 if
 (
 count
+&
+&
+features
 )
 {
 +

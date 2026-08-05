@@ -256,6 +256,9 @@ const
 if
 (
 count
+&
+&
+entries
 )
 {
 +

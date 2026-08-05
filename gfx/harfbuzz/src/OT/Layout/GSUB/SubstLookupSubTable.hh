@@ -206,6 +206,10 @@ lookup_type
 case
 Single
 :
+hb_barrier
+(
+)
+;
 return_trace
 (
 u
@@ -234,6 +238,10 @@ ds
 case
 Multiple
 :
+hb_barrier
+(
+)
+;
 return_trace
 (
 u
@@ -262,6 +270,10 @@ ds
 case
 Alternate
 :
+hb_barrier
+(
+)
+;
 return_trace
 (
 u
@@ -290,6 +302,10 @@ ds
 case
 Ligature
 :
+hb_barrier
+(
+)
+;
 return_trace
 (
 u
@@ -318,6 +334,10 @@ ds
 case
 Context
 :
+hb_barrier
+(
+)
+;
 return_trace
 (
 u
@@ -346,6 +366,10 @@ ds
 case
 ChainContext
 :
+hb_barrier
+(
+)
+;
 return_trace
 (
 u
@@ -374,6 +398,10 @@ ds
 case
 Extension
 :
+hb_barrier
+(
+)
+;
 return_trace
 (
 u
@@ -402,6 +430,10 @@ ds
 case
 ReverseChainSingle
 :
+hb_barrier
+(
+)
+;
 return_trace
 (
 u

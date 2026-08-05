@@ -56,6 +56,7 @@ SmallTypes
 >
 *
 thiz
+const
 graph_t
 :
 :
@@ -172,6 +173,7 @@ SmallTypes
 >
 *
 thiz
+const
 graph_t
 :
 :
@@ -878,6 +880,7 @@ true
 bool
 sanitize
 (
+const
 graph_t
 :
 :

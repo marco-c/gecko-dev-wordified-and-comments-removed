@@ -367,6 +367,9 @@ depends
 [
 hb_rs
 ]
+build_always_stale
+:
+true
 env
 :
 [

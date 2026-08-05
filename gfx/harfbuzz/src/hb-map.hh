@@ -1064,13 +1064,12 @@ new_items
 item_t
 *
 )
-hb_malloc
+hb_malloc2
 (
 (
 size_t
 )
 new_size
-*
 sizeof
 (
 item_t

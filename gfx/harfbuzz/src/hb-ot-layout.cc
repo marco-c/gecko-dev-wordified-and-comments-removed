@@ -2424,6 +2424,9 @@ feature_tags
 ;
 if
 (
+feature_count
+&
+&
 feature_tags
 )
 {

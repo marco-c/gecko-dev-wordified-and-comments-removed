@@ -980,6 +980,9 @@ numColors
 if
 (
 color_count
+&
+&
+colors
 )
 {
 +

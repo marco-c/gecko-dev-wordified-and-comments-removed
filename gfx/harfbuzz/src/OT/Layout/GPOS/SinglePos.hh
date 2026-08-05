@@ -230,6 +230,10 @@ v
 case
 1
 :
+hb_barrier
+(
+)
+;
 u
 .
 format1
@@ -248,6 +252,10 @@ return
 case
 2
 :
+hb_barrier
+(
+)
+;
 u
 .
 format2
@@ -349,6 +357,10 @@ v
 case
 1
 :
+hb_barrier
+(
+)
+;
 return_trace
 (
 c
@@ -378,6 +390,10 @@ ds
 case
 2
 :
+hb_barrier
+(
+)
+;
 return_trace
 (
 c

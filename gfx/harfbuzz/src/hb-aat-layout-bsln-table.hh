@@ -324,6 +324,10 @@ format
 case
 0
 :
+hb_barrier
+(
+)
+;
 return_trace
 (
 parts
@@ -339,6 +343,10 @@ c
 case
 1
 :
+hb_barrier
+(
+)
+;
 return_trace
 (
 parts
@@ -354,6 +362,10 @@ c
 case
 2
 :
+hb_barrier
+(
+)
+;
 return_trace
 (
 parts
@@ -369,6 +381,10 @@ c
 case
 3
 :
+hb_barrier
+(
+)
+;
 return_trace
 (
 parts
