@@ -401,7 +401,7 @@ size
 (
 )
 <
-kRtpHeaderSize
+kRtxHeaderSize
 )
 {
 RTC_LOG
