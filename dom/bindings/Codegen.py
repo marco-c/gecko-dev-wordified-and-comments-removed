@@ -123243,6 +123243,35 @@ parentDesc
 else
 :
             
+isFinal
+=
+not
+descriptor
+.
+interface
+.
+hasChildInterfaces
+(
+)
+            
+isupportsVariant
+=
+(
+                
+"
+NS_DECL_CYCLE_COLLECTING_ISUPPORTS_FINAL
+"
+                
+if
+isFinal
+                
+else
+"
+NS_DECL_CYCLE_COLLECTING_ISUPPORTS
+"
+            
+)
+            
 extradeclarations
 =
 (
@@ -123255,7 +123284,8 @@ n
 "
                 
 "
-NS_DECL_CYCLE_COLLECTING_ISUPPORTS
+%
+s
 \
 n
 "
@@ -123275,11 +123305,14 @@ n
 n
 "
 %
+(
+isupportsVariant
 self
 .
 nativeLeafName
 (
 descriptor
+)
 )
             
 )
@@ -125975,13 +126008,38 @@ nsWrapperCache
             
 ]
             
+isFinal
+=
+not
+descriptor
+.
+interface
+.
+hasChildInterfaces
+(
+)
+            
 isupportsDecl
 =
+(
+                
+"
+NS_DECL_CYCLE_COLLECTING_ISUPPORTS_FINAL
+\
+n
+"
+                
+if
+isFinal
+                
+else
 "
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
 \
 n
 "
+            
+)
             
 ccDecl
 =
