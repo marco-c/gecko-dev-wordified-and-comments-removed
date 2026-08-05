@@ -98,6 +98,11 @@ WindowsDefaultBrowserTests
 .
 cpp
 "
+"
+WindowsUIElementTests
+.
+cpp
+"
 ]
 FINAL_LIBRARY
 =
