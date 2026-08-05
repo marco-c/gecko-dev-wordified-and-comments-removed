@@ -838,6 +838,10 @@ uint8_t
 aData
 uint64_t
 aTrackingId
+uint64_t
+aSendGroupId
+int64_t
+aSendOrder
 )
 {
 return
@@ -848,6 +852,8 @@ aSessionId
 &
 aData
 aTrackingId
+aSendGroupId
+aSendOrder
 )
 ;
 }
@@ -864,6 +870,10 @@ uint8_t
 aData
 uint64_t
 aTrackingId
+uint64_t
+aSendGroupId
+int64_t
+aSendOrder
 )
 {
 return
@@ -874,6 +884,8 @@ aSessionId
 &
 aData
 aTrackingId
+aSendGroupId
+aSendOrder
 )
 ;
 }
