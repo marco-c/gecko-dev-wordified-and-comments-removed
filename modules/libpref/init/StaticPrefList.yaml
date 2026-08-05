@@ -51385,12 +51385,6 @@ defined
 (
 XP_DARWIN
 )
-|
-|
-defined
-(
-MOZ_WIDGET_GTK
-)
 value
 :
 true
