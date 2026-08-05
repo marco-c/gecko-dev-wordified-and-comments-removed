@@ -828,7 +828,7 @@ tests
 /
 browser
 -
-switchTab
+tabs
 /
 browser
 .
@@ -839,7 +839,7 @@ tests
 /
 browser
 -
-switchTab
+tabs
 /
 browserNova
 .
