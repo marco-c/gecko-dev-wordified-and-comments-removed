@@ -859,9 +859,7 @@ querySelector
 "
 moz
 -
-input
--
-text
+textarea
 .
 monitor
 -
@@ -1026,9 +1024,7 @@ querySelector
 "
 moz
 -
-input
--
-text
+textarea
 .
 monitor
 -
@@ -2555,9 +2551,7 @@ querySelector
 "
 moz
 -
-input
--
-text
+textarea
 .
 monitor
 -
@@ -2943,9 +2937,7 @@ querySelector
 "
 moz
 -
-input
--
-text
+textarea
 .
 monitor
 -

@@ -1785,6 +1785,17 @@ true
 "
 SmartWindowTasks
 :
+RequestPauseMonitor
+"
+:
+{
+wantUntrusted
+:
+true
+}
+"
+SmartWindowTasks
+:
 RequestConstants
 "
 :

@@ -2290,9 +2290,7 @@ span
 <
 moz
 -
-input
--
-text
+textarea
 class
 =
 "
@@ -2352,9 +2350,7 @@ condition
 /
 moz
 -
-input
--
-text
+textarea
 >
 {
 presets
