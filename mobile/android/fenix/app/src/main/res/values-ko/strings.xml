@@ -39527,10 +39527,6 @@ preference_doh_summary
 DNS
 over
 HTTPS
-(
-HTTPS
-DNS
-)
 DNS
 .
 %
