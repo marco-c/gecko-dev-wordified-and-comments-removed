@@ -30,6 +30,16 @@ extern
 crate
 tracy_rs
 ;
+pub
+const
+AU_PER_DEV_PX
+:
+f32
+=
+60
+.
+0
+;
 mod
 angle
 ;
