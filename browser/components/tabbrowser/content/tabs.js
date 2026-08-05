@@ -7954,15 +7954,6 @@ removeListener
 this
 )
 ;
-this
-.
-previewPanel
-?
-.
-forceReset
-(
-)
-;
 }
 updateTabSoundLabel
 (
