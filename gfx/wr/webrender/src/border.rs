@@ -351,12 +351,6 @@ add_primitive
 spatial_node_index
 clip_node_id
 info
-Vec
-:
-:
-new
-(
-)
 NormalBorderPrim
 {
 border
