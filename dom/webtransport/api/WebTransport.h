@@ -309,6 +309,14 @@ friend
 class
 WebTransportReceiveStream
 ;
+friend
+class
+WebTransportDatagramDuplexStream
+;
+friend
+class
+WebTransportSendGroup
+;
 public
 :
 explicit
