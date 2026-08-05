@@ -236,6 +236,25 @@ str
 =
 None
     
+clone_with
+:
+Optional
+[
+Literal
+[
+"
+hg
+"
+"
+git
+"
+]
+]
+=
+"
+hg
+"
+    
 use_simple_package
 :
 bool

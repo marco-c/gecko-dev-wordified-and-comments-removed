@@ -226,6 +226,25 @@ bool
 =
 None
     
+clone_with
+:
+Optional
+[
+Literal
+[
+"
+hg
+"
+"
+git
+"
+]
+]
+=
+"
+hg
+"
+    
 workdir
 :
 Optional

@@ -112,6 +112,25 @@ internal
 ]
 ]
     
+clone_with
+:
+Optional
+[
+Literal
+[
+"
+hg
+"
+"
+git
+"
+]
+]
+=
+"
+hg
+"
+    
 def
 __post_init__
 (
