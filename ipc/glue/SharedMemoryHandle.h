@@ -57,9 +57,6 @@ mozilla
 :
 ipc
 {
-struct
-SharedMemoryInternalTest
-;
 namespace
 shared_memory
 {
@@ -550,9 +547,6 @@ uint64_t
 mSize
 =
 0
-;
-friend
-SharedMemoryInternalTest
 ;
 }
 ;
