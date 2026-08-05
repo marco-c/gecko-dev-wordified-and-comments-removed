@@ -1410,16 +1410,6 @@ openResults
 (
 )
 ;
-let
-engaged
-=
-UrlbarTestUtils
-.
-promiseProviderEngagement
-(
-window
-)
-;
 await
 UrlbarTestUtils
 .
@@ -1435,9 +1425,6 @@ resultIndex
 0
 }
 )
-;
-await
-engaged
 ;
 Assert
 .
