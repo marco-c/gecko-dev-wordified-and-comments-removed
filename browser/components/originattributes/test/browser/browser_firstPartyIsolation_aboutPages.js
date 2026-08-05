@@ -802,6 +802,9 @@ credits
 logins
 "
 "
+referrals
+"
+"
 rights
 "
 ]
