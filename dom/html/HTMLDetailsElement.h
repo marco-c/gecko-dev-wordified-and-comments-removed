@@ -329,6 +329,9 @@ override
 void
 CloseElementIfNeeded
 (
+nsAtom
+*
+aName
 )
 ;
 void

@@ -144,15 +144,6 @@ constructor
 [
 CEReactions
 SetterThrows
-Pref
-=
-"
-dom
-.
-details_group
-.
-enabled
-"
 ]
 attribute
 DOMString
