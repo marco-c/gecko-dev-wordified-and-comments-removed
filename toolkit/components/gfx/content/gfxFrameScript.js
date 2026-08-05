@@ -86,11 +86,13 @@ io
 newURI
 (
 "
-resource
+chrome
 :
 /
 /
 gfxsanity
+/
+content
 /
 sanitytest
 .
