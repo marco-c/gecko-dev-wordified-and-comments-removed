@@ -105,12 +105,7 @@ focus_dialog
 xhtml
 "
 "
-queryCaretRectUnix
-.
-html
-"
-"
-queryCaretRectWin
+queryCaretRect
 .
 html
 "
