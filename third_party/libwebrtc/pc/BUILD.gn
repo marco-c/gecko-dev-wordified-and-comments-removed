@@ -3869,7 +3869,7 @@ scoped_refptr
 /
 api
 :
-sframe_decrypter_interface
+sframe_decryptor_interface
 "
 "
 .
@@ -4004,7 +4004,7 @@ scoped_refptr
 /
 api
 :
-sframe_encrypter_interface
+sframe_encryptor_interface
 "
 "
 .
@@ -12364,7 +12364,7 @@ sequence_checker
 /
 api
 :
-sframe_decrypter_interface
+sframe_decryptor_interface
 "
 "
 .
@@ -13649,7 +13649,7 @@ sequence_checker
 /
 api
 :
-sframe_encrypter_interface
+sframe_encryptor_interface
 "
 "
 .
@@ -21564,7 +21564,7 @@ set_remote_description_observer_interface
 /
 api
 :
-sframe_encrypter_interface
+sframe_encryptor_interface
 "
 "
 .
@@ -23386,7 +23386,7 @@ scoped_refptr
 /
 api
 :
-sframe_encrypter_interface
+sframe_encryptor_interface
 "
 "
 .

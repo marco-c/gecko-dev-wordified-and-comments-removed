@@ -1841,10 +1841,10 @@ BUILD
 .
 gn
 index
-2e0bd76b33
+f22ec6bc9e
 .
 .
-ca9f2cc43a
+a1c97b9bb1
 100644
 -
 -
@@ -2117,7 +2117,7 @@ visibility
 rtc_library
 (
 "
-sframe_decrypter_interface
+sframe_decryptor_interface
 "
 )
 {
@@ -2224,7 +2224,7 @@ scoped_refptr
 "
 "
 :
-sframe_encrypter_interface
+sframe_encryptor_interface
 "
 "
 .
@@ -2618,10 +2618,10 @@ rtp_sender_interface
 .
 h
 index
-32cbfeb556
+d3e54ddf2f
 .
 .
-31629ddc21
+41066c929e
 100644
 -
 -

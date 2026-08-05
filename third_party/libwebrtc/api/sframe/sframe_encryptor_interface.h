@@ -1,9 +1,9 @@
 #
 ifndef
-API_SFRAME_SFRAME_ENCRYPTER_INTERFACE_H_
+API_SFRAME_SFRAME_ENCRYPTOR_INTERFACE_H_
 #
 define
-API_SFRAME_SFRAME_ENCRYPTER_INTERFACE_H_
+API_SFRAME_SFRAME_ENCRYPTOR_INTERFACE_H_
 #
 include
 <
@@ -47,7 +47,7 @@ namespace
 webrtc
 {
 struct
-SframeEncrypterInit
+SframeEncryptorInit
 {
 SframeMode
 mode
@@ -58,7 +58,7 @@ cipher_suite
 }
 ;
 class
-SframeEncrypterInterface
+SframeEncryptorInterface
 :
 public
 RefCountInterface
@@ -87,7 +87,7 @@ key_material
 protected
 :
 ~
-SframeEncrypterInterface
+SframeEncryptorInterface
 (
 )
 override

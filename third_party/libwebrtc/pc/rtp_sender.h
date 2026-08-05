@@ -179,7 +179,7 @@ api
 /
 sframe
 /
-sframe_encrypter_interface
+sframe_encryptor_interface
 .
 h
 "
@@ -1102,13 +1102,13 @@ RTCErrorOr
 <
 scoped_refptr
 <
-SframeEncrypterInterface
+SframeEncryptorInterface
 >
 >
-CreateSframeEncrypterOrError
+CreateSframeEncryptorOrError
 (
 const
-SframeEncrypterInit
+SframeEncryptorInit
 &
 options
 )

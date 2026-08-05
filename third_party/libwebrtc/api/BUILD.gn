@@ -1451,7 +1451,7 @@ h
 rtc_library
 (
 "
-sframe_encrypter_interface
+sframe_encryptor_interface
 "
 )
 {
@@ -1468,7 +1468,7 @@ sources
 "
 sframe
 /
-sframe_encrypter_interface
+sframe_encryptor_interface
 .
 h
 "
@@ -1493,7 +1493,7 @@ sframe_types
 rtc_library
 (
 "
-sframe_decrypter_interface
+sframe_decryptor_interface
 "
 )
 {
@@ -1510,7 +1510,7 @@ sources
 "
 sframe
 /
-sframe_decrypter_interface
+sframe_decryptor_interface
 .
 h
 "
@@ -1646,7 +1646,7 @@ scoped_refptr
 "
 "
 :
-sframe_encrypter_interface
+sframe_encryptor_interface
 "
 "
 .
@@ -2873,7 +2873,7 @@ scoped_refptr
 "
 "
 :
-sframe_decrypter_interface
+sframe_decryptor_interface
 "
 "
 :
