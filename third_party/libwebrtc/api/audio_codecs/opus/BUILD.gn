@@ -823,16 +823,5 @@ test_support
 /
 environment
 "
-"
-.
-.
-/
-.
-.
-/
-environment
-:
-environment_factory
-"
 ]
 }

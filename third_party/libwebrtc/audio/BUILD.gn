@@ -2036,16 +2036,6 @@ options
 /
 api
 /
-environment
-:
-environment_factory
-"
-"
-.
-.
-/
-api
-/
 units
 :
 time_delta

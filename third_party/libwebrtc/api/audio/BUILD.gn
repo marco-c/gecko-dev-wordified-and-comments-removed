@@ -1281,14 +1281,6 @@ test_support
 environment
 "
 "
-.
-.
-/
-environment
-:
-environment_factory
-"
-"
 test
 :
 audio_api_unittests

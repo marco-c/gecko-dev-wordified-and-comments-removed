@@ -251,17 +251,6 @@ environment
 .
 .
 /
-.
-.
-/
-environment
-:
-environment_factory
-"
-"
-.
-.
-/
 L16
 :
 audio_decoder_L16
