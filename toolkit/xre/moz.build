@@ -988,7 +988,7 @@ DIRS
 =
 [
 "
-gfxtest
+glxtest
 "
 ]
 for
