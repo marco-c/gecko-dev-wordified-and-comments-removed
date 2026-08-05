@@ -53,6 +53,17 @@ which
 "
 code
 "
+if
+ide
+=
+=
+"
+vscode
+"
+else
+"
+codium
+"
 )
     
 if

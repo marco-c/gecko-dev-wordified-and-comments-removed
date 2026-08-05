@@ -109,6 +109,15 @@ py
 "
 backend
 /
+test_ide
+.
+py
+"
+]
+[
+"
+backend
+/
 test_partialconfigenvironment
 .
 py
