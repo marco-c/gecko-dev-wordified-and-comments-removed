@@ -5528,10 +5528,6 @@ string
 telemetry_mirror
 :
 Installation_FirstSeen_Full
-no_lint
-:
--
-COMMON_PREFIX
 first_seen_stub
 :
 type
@@ -5612,10 +5608,6 @@ installation_first_seen_extra
 telemetry_mirror
 :
 Installation_FirstSeen_Stub
-no_lint
-:
--
-COMMON_PREFIX
 first_seen_msix
 :
 type
@@ -5696,10 +5688,6 @@ installation_first_seen_extra
 telemetry_mirror
 :
 Installation_FirstSeen_Msix
-no_lint
-:
--
-COMMON_PREFIX
 partner_link
 :
 click_newtab

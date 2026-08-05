@@ -5363,10 +5363,6 @@ ms
 type
 :
 string
-no_lint
-:
--
-COMMON_PREFIX
 notify_delay
 :
 type

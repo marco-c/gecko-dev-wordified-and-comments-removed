@@ -2431,10 +2431,6 @@ string
 telemetry_mirror
 :
 Aboutpreferences_Show_Initial
-no_lint
-:
--
-COMMON_PREFIX
 show_click
 :
 type
@@ -2500,10 +2496,6 @@ aboutpreferences_show_extra
 telemetry_mirror
 :
 Aboutpreferences_Show_Click
-no_lint
-:
--
-COMMON_PREFIX
 show_hash
 :
 type
@@ -2566,10 +2558,6 @@ aboutpreferences_show_extra
 telemetry_mirror
 :
 Aboutpreferences_Show_Hash
-no_lint
-:
--
-COMMON_PREFIX
 change
 :
 type

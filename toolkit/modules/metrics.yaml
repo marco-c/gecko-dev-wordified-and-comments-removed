@@ -1264,10 +1264,6 @@ string
 telemetry_mirror
 :
 Jsonfile_Load_Logins
-no_lint
-:
--
-COMMON_PREFIX
 load_autofillprofiles
 :
 type
@@ -1352,10 +1348,6 @@ jsonfile_load_extra
 telemetry_mirror
 :
 Jsonfile_Load_Autofillprofiles
-no_lint
-:
--
-COMMON_PREFIX
 os
 .
 environment

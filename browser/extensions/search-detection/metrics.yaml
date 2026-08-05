@@ -296,10 +296,6 @@ never
 telemetry_mirror
 :
 Addonssearchdetection_EtldChange_Webrequest
-no_lint
-:
--
-COMMON_PREFIX
 etld_change_other
 :
 type
@@ -416,10 +412,6 @@ never
 telemetry_mirror
 :
 Addonssearchdetection_EtldChange_Other
-no_lint
-:
--
-COMMON_PREFIX
 same_site_redirect
 :
 type
@@ -572,7 +564,3 @@ string
 expires
 :
 never
-no_lint
-:
--
-COMMON_PREFIX

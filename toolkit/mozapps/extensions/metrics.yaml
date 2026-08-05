@@ -383,10 +383,6 @@ com
 expires
 :
 never
-no_lint
-:
--
-COMMON_PREFIX
 structure
 :
 type
@@ -1035,10 +1031,6 @@ com
 expires
 :
 never
-no_lint
-:
--
-COMMON_PREFIX
 structure
 :
 type

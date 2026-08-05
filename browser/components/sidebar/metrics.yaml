@@ -3749,10 +3749,6 @@ com
 expires
 :
 never
-no_lint
-:
--
-COMMON_PREFIX
 labels
 :
 -
@@ -3854,10 +3850,6 @@ com
 expires
 :
 never
-no_lint
-:
--
-COMMON_PREFIX
 labels
 :
 -
@@ -3936,10 +3928,6 @@ com
 expires
 :
 never
-no_lint
-:
--
-COMMON_PREFIX
 labels
 :
 -
@@ -4031,10 +4019,6 @@ com
 expires
 :
 never
-no_lint
-:
--
-COMMON_PREFIX
 extra_keys
 :
 sort_type
