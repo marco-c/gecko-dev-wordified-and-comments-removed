@@ -1450,14 +1450,15 @@ break
 ;
 case
 "
-synthesizeMultiTouch
+synthesizeTouchAtPoint
 "
 :
+await
 lazy
 .
 event
 .
-synthesizeMultiTouch
+synthesizeTouchAtPoint
 (
 details
 .
