@@ -7554,6 +7554,16 @@ GrowableSharedArrayBufferObject
 :
 :
 class_
+|
+|
+clasp
+=
+=
+&
+ImmutableArrayBufferObject
+:
+:
+class_
 )
 {
 FAIL_IC
