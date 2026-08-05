@@ -79,6 +79,9 @@ namespace
 dom
 {
 class
+BrowserParent
+;
+class
 CanonicalBrowsingContext
 ;
 }
@@ -274,6 +277,16 @@ return
 mBrowsingContext
 ;
 }
+dom
+:
+:
+BrowserParent
+*
+Manager
+(
+)
+const
+;
 mozilla
 :
 :

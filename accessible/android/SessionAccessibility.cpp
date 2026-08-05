@@ -2261,15 +2261,6 @@ CanonicalBrowsingContext
 *
 cbc
 =
-static_cast
-<
-dom
-:
-:
-BrowserParent
-*
->
-(
 aAccessible
 -
 >
@@ -2285,7 +2276,6 @@ Document
 >
 Manager
 (
-)
 )
 -
 >
@@ -2320,15 +2310,6 @@ bp
 {
 bp
 =
-static_cast
-<
-dom
-:
-:
-BrowserParent
-*
->
-(
 aAccessible
 -
 >
@@ -2344,7 +2325,6 @@ Document
 >
 Manager
 (
-)
 )
 ;
 }
