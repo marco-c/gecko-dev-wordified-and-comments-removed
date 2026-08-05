@@ -2968,7 +2968,13 @@ get
 ;
 host
 =
+std
+:
+:
+move
+(
 aliasName
+)
 ;
 continue
 ;
