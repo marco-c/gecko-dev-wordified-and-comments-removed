@@ -1460,6 +1460,13 @@ android
 ]
 [
 "
+test_keyboard_scroll_handoff
+.
+html
+"
+]
+[
+"
 test_mozPaintCount
 .
 html
