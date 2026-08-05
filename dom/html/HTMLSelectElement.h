@@ -1908,6 +1908,11 @@ HTMLOptionElement
 >
 mEnd
 ;
+bool
+mStartIsLow
+=
+true
+;
 void
 SetTo
 (
@@ -1922,6 +1927,10 @@ mEnd
 =
 aOption
 ;
+mStartIsLow
+=
+true
+;
 }
 void
 Clear
@@ -1933,6 +1942,10 @@ mStart
 mEnd
 =
 nullptr
+;
+mStartIsLow
+=
+true
 ;
 }
 }
