@@ -14604,6 +14604,18 @@ tasks
 )
 :
     
+if
+taskgraph
+.
+fast
+:
+        
+yield
+from
+tasks
+        
+return
+    
 for
 task
 in
