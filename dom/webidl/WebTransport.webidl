@@ -96,9 +96,11 @@ configuration
 dictionary
 WebTransportHash
 {
+required
 DOMString
 algorithm
 ;
+required
 BufferSource
 value
 ;
