@@ -42,12 +42,6 @@ import
 path
 as
 mozpath
-from
-mozbuild
-.
-util
-import
-get_rust_build_kind
 CLOBBER_MESSAGE
 =
 "
@@ -924,12 +918,28 @@ substs
         
 rust_build_kind
 =
-get_rust_build_kind
-(
+"
+release
+"
+        
+if
 self
 .
 substs
+.
+get
+(
+"
+MOZ_DEBUG_RUST
+"
 )
+:
+            
+rust_build_kind
+=
+"
+debug
+"
         
 no_clobber
 =

@@ -80,8 +80,6 @@ data
 import
 (
     
-BaseRustLibrary
-    
 BaseRustProgram
     
 ChromeManifestEntry
@@ -1388,10 +1386,7 @@ if
 isinstance
 (
 lib
-(
-BaseRustLibrary
 RustTests
-)
 )
 :
                 
@@ -3996,47 +3991,47 @@ context
             
 )
         
+crate_type
+=
+crate_type
+[
+0
+]
+        
 if
+crate_type
+!
+=
 "
 staticlib
 "
-not
-in
-crate_type
 :
             
 raise
 SandboxValidationError
 (
                 
-f
 "
 crate
 -
 type
-{
-crate_type
-}
+%
+s
+is
+not
+permitted
 for
-{
-libname
-}
-must
-include
-'
-staticlib
-'
+%
+s
 "
-                
+%
+(
+crate_type
+libname
+)
 context
             
 )
-        
-crate_type
-=
-"
-staticlib
-"
         
 dependencies
 =

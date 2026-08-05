@@ -53,8 +53,9 @@ MPL
 0
 /
 .
-HostRustProgram
-(
+HOST_RUST_PROGRAMS
+=
+[
 "
 embedded
 -
@@ -62,14 +63,7 @@ uniffi
 -
 bindgen
 "
-output_category
-=
-"
-uniffi
--
-target
-"
-)
+]
 with
 Files
 (

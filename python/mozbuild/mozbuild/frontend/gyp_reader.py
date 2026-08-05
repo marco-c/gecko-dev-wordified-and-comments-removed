@@ -1377,6 +1377,8 @@ FORCE_SHARED_LIB
 True
             
 elif
+(
+                
 spec
 [
 "
@@ -1388,9 +1390,8 @@ type
 "
 static_library
 "
-:
                 
-if
+and
 spec
 .
 get
@@ -1416,34 +1417,14 @@ no_expand_libs
 "
 1
 "
+            
+)
 :
-                    
+                
 context
 [
 "
 NO_EXPAND_LIBS
-"
-]
-=
-True
-                
-if
-name
-in
-(
-gyp_dir_attrs
-.
-install_static_libs
-or
-[
-]
-)
-:
-                    
-context
-[
-"
-DIST_INSTALL
 "
 ]
 =
