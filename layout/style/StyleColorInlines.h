@@ -20,13 +20,6 @@ nsColor
 .
 h
 "
-#
-include
-"
-nsStyleUtil
-.
-h
-"
 namespace
 mozilla
 {

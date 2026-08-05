@@ -79,6 +79,13 @@ FontFaceSetImpl
 .
 h
 "
+#
+include
+"
+nsStyleUtil
+.
+h
+"
 namespace
 mozilla
 :

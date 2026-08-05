@@ -261,6 +261,13 @@ nsString
 .
 h
 "
+#
+include
+"
+nsStyleUtil
+.
+h
+"
 namespace
 mozilla
 :

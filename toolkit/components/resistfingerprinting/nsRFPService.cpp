@@ -456,6 +456,13 @@ h
 #
 include
 "
+nsCRT
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h
