@@ -8280,6 +8280,12 @@ mAllowDNSPrefetch
 }
 SpeculationRulesManager
 *
+EnsureSpeculationRulesManager
+(
+)
+;
+SpeculationRulesManager
+*
 GetSpeculationRulesManager
 (
 )
