@@ -566,6 +566,15 @@ attribute
 ReadableStream
 incomingUnidirectionalStreams
 ;
+[
+NewObject
+Throws
+]
+WebTransportSendGroup
+createSendGroup
+(
+)
+;
 }
 ;
 enum

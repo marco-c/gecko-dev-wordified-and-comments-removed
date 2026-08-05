@@ -6567,6 +6567,11 @@ WebTransportError
 webidl
 "
 "
+WebTransportSendGroup
+.
+webidl
+"
+"
 WebTransportSendReceiveStream
 .
 webidl
@@ -6798,6 +6803,11 @@ webidl
 "
 "
 RTCIceCandidate
+.
+webidl
+"
+"
+RTCIceCandidatePair
 .
 webidl
 "

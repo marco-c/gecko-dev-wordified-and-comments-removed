@@ -87,6 +87,11 @@ WebTransportReceiveStream
 h
 "
 "
+WebTransportSendGroup
+.
+h
+"
+"
 WebTransportSendStream
 .
 h
@@ -123,6 +128,11 @@ cpp
 "
 "
 WebTransportReceiveStream
+.
+cpp
+"
+"
+WebTransportSendGroup
 .
 cpp
 "
