@@ -90,12 +90,6 @@ wasm
 if
 defined
 (
-DEBUG
-)
-#
-if
-defined
-(
 JS_CODEGEN_X64
 )
 |
@@ -7597,8 +7591,6 @@ on
 this
 architecture
 "
-#
-endif
 #
 endif
 }
