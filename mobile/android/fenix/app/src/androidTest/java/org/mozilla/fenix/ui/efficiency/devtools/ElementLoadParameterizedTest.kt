@@ -67,7 +67,7 @@ ui
 .
 efficiency
 .
-examples
+devtools
 import
 android
 .
@@ -634,7 +634,7 @@ ui
 .
 efficiency
 .
-examples
+devtools
 .
 ElementLoadParameterizedTest
 \

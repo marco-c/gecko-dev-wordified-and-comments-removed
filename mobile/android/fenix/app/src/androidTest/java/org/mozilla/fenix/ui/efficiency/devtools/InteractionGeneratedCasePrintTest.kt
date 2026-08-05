@@ -9,7 +9,7 @@ ui
 .
 efficiency
 .
-examples
+devtools
 import
 android
 .

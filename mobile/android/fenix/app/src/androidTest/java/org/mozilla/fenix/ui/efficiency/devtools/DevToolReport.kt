@@ -67,9 +67,7 @@ ui
 .
 efficiency
 .
-navigation
-.
-planning
+devtools
 import
 android
 .

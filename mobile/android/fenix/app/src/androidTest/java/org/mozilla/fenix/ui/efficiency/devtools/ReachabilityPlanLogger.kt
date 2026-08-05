@@ -67,9 +67,7 @@ ui
 .
 efficiency
 .
-navigation
-.
-planning
+devtools
 import
 org
 .
@@ -152,7 +150,7 @@ re
 temporary
 .
 object
-NavigationTestPlannerLogger
+ReachabilityPlanLogger
 {
 private
 const
