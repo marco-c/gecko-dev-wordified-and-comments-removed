@@ -141,6 +141,14 @@ components
 :
 concept
 -
+storage
+-
+bookmarks
+-
+components
+:
+concept
+-
 sync
 -
 components
@@ -410,6 +418,12 @@ components
 support
 -
 webextensions
+-
+components
+:
+tooling
+-
+detekt
 -
 components
 :
