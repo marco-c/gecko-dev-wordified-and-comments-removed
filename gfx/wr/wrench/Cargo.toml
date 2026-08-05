@@ -312,7 +312,7 @@ replay
 png
 "
 "
-profiler
+tracy
 "
 "
 dynamic_freetype
