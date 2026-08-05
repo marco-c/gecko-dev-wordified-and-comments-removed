@@ -6,7 +6,7 @@ Services
 .
 scriptloader
 .
-loadSubScript
+loadSubScriptWithOptions
 (
 Services
 .
@@ -25,6 +25,13 @@ js
 )
 .
 spec
+{
+target
+:
 this
+allowUnsafeURL
+:
+true
+}
 )
 ;

@@ -8,7 +8,7 @@ Services
 .
 scriptloader
 .
-loadSubScript
+loadSubScriptWithOptions
 (
 base
 +
@@ -17,7 +17,14 @@ file_expandosharing
 .
 js
 "
+{
+target
+:
 ns
+allowUnsafeURL
+:
+true
+}
 )
 ;
 var
