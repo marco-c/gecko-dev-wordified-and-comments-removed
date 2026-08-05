@@ -594,7 +594,7 @@ aRv
 )
 ;
 void
-GetWidth
+GetStretch
 (
 nsACString
 &
@@ -602,7 +602,7 @@ aResult
 )
 ;
 void
-SetWidth
+SetStretch
 (
 const
 nsACString

@@ -825,9 +825,9 @@ aFamilyList
 FontWeight
 &
 aWeight
-FontWidth
+FontStretch
 &
-aWidth
+aStretch
 FontSlantStyle
 &
 aStyle

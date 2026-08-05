@@ -590,8 +590,8 @@ mWeight
 mozilla
 :
 :
-WidthRange
-mWidth
+StretchRange
+mStretch
 ;
 mozilla
 :
@@ -654,11 +654,11 @@ aData
 .
 mWeight
 )
-mWidth
+mStretch
 (
 aData
 .
-mWidth
+mStretch
 )
 mStyle
 (
@@ -743,8 +743,8 @@ mWeight
 mozilla
 :
 :
-WidthRange
-mWidth
+StretchRange
+mStretch
 ;
 mozilla
 :

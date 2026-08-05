@@ -137,8 +137,8 @@ CGFontRef
 aFontRef
 WeightRange
 aWeight
-WidthRange
-aWidth
+StretchRange
+aStretch
 SlantStyleRange
 aStyle
 bool
@@ -641,8 +641,8 @@ nsACString
 aFontName
 WeightRange
 aWeightForEntry
-WidthRange
-aWidthForEntry
+StretchRange
+aStretchForEntry
 SlantStyleRange
 aStyleForEntry
 )
@@ -660,8 +660,8 @@ nsACString
 aFontName
 WeightRange
 aWeightForEntry
-WidthRange
-aWidthForEntry
+StretchRange
+aStretchForEntry
 SlantStyleRange
 aStyleForEntry
 const
