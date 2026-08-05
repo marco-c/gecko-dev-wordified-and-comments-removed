@@ -3105,6 +3105,13 @@ expandedGroup
 actions
 =
 expandedGroupActions
+displayTabsInGrid
+=
+state
+.
+config
+.
+displayTabsInGrid
 tabInteractionHandler
 =
 tabInteractionHandler

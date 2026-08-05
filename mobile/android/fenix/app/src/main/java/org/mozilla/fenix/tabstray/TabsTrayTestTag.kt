@@ -680,4 +680,17 @@ TABS_TRAY
 .
 grid
 "
+/
+/
+Tab
+list
+const
+val
+TAB_LIST
+=
+"
+TABS_TRAY
+.
+list
+"
 }
