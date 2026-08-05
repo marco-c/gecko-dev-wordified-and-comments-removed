@@ -200,8 +200,8 @@ specified
 :
 :
 {
-ImageRendering
 ImageDecoding
+ImageRendering
 }
 ;
 pub
