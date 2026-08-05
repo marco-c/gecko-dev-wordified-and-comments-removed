@@ -1557,7 +1557,9 @@ preview
 backend
 :
 "
-wllama
+llama
+.
+cpp
 "
 modelId
 :
@@ -1998,7 +2000,9 @@ preview
 backend
 :
 "
-wllama
+llama
+.
+cpp
 "
 modelId
 :
@@ -2347,7 +2351,9 @@ preview
 backend
 :
 "
-wllama
+llama
+.
+cpp
 "
 modelId
 :

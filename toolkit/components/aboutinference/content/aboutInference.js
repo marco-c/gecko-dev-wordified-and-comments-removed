@@ -6036,7 +6036,9 @@ modelId
 backend
 :
 "
-wllama
+llama
+.
+cpp
 "
 numContext
 numBatch
@@ -7972,7 +7974,7 @@ lazy
 .
 BACKENDS
 .
-wllama
+llamaCpp
 ]
 inputArgs
 :
@@ -8335,7 +8337,9 @@ currentBackend
 =
 =
 "
-wllama
+llama
+.
+cpp
 "
 )
 {

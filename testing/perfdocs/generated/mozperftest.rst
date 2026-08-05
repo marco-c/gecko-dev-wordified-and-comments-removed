@@ -10200,10 +10200,9 @@ for
 Summarizer
 model
 using
-Llama
+llama
 .
 cpp
-WASM
 *
 *
 browser_ml_smart_tab_perf
