@@ -7331,6 +7331,9 @@ new
 (
 instance_kind
 clip_leaf_id
+info
+.
+rect
 )
 }
 fn
@@ -15914,6 +15917,12 @@ clip_tree_builder
 build_for_picture
 (
 clip_node_id
+)
+LayoutRect
+:
+:
+zero
+(
 )
 )
 }

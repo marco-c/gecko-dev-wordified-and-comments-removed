@@ -1513,18 +1513,6 @@ data_stores
 )
 ;
 let
-unsnapped_prim_rect
-=
-frame_state
-.
-data_stores
-.
-prim_rect
-(
-prim_instance
-)
-;
-let
 snapped_local_rect
 =
 snapper
@@ -1532,6 +1520,8 @@ snapper
 snap_rect_rounded
 (
 &
+prim_instance
+.
 unsnapped_prim_rect
 policy
 .
