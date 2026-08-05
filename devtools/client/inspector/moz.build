@@ -76,6 +76,9 @@ components
 computed
 "
 "
+emulation
+"
+"
 extensions
 "
 "
