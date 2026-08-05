@@ -832,6 +832,12 @@ GetAvailableScrollingDirectionsForUserInputEvents
 )
 const
 ;
+Sides
+SidesToScrollForUserInputEvents
+(
+)
+const
+;
 enum
 class
 ScrollbarSizesOptions
