@@ -544,7 +544,7 @@ MaterialTheme
 .
 colorScheme
 .
-surfaceBright
+surface
 )
 elevation
 =
