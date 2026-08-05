@@ -2653,6 +2653,11 @@ settings
 isTabStripEnabled
 =
 false
+settings
+.
+enableHomepageTrendingRecentSearch
+=
+false
 }
 Test
 fun
