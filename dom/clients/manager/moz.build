@@ -126,6 +126,11 @@ ClientThing
 .
 h
 "
+"
+ClientValidation
+.
+h
+"
 ]
 UNIFIED_SOURCES
 +
