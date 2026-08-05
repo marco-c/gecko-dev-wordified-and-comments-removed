@@ -2028,15 +2028,6 @@ void
 aData
 )
 ;
-static
-bool
-SetDirtyCallback
-(
-void
-*
-aData
-)
-;
 void
 WatchLabeledDescendantsOfNearestAncestorLabel
 (
