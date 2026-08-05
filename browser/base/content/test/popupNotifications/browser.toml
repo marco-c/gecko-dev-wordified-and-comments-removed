@@ -1772,6 +1772,13 @@ js
 ]
 [
 "
+browser_popupNotification_replace_while_opening
+.
+js
+"
+]
+[
+"
 browser_popupNotification_security_delay
 .
 js
