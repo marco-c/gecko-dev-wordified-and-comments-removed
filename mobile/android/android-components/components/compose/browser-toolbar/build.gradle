@@ -413,6 +413,12 @@ junit
 testImplementation
 libs
 .
+kotlin
+.
+test
+testImplementation
+libs
+.
 robolectric
 }
 apply

@@ -1325,6 +1325,7 @@ else
 val
 startIndex
 =
+(
 highlightRange
 ?
 .
@@ -1332,6 +1333,15 @@ first
 ?
 :
 0
+)
+.
+coerceIn
+(
+0
+text
+.
+length
+)
 val
 endIndex
 =
@@ -1351,8 +1361,9 @@ END_SCROLL_OFFSET
 0
 )
 .
-coerceAtMost
+coerceIn
 (
+startIndex
 text
 .
 length
