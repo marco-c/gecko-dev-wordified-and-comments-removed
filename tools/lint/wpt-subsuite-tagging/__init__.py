@@ -77,6 +77,16 @@ encrypted
 media
 "
 ]
+    
+"
+webrtc
+"
+:
+[
+"
+webrtc
+"
+]
 }
 _TESTS_META_PAIRS
 =
