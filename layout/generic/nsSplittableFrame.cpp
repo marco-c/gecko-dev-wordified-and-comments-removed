@@ -1074,7 +1074,7 @@ f
 ;
 f
 =
-reinterpret_cast
+static_cast
 <
 nsSplittableFrame
 *
@@ -1118,7 +1118,7 @@ f
 ;
 f
 =
-reinterpret_cast
+static_cast
 <
 nsSplittableFrame
 *
@@ -1191,7 +1191,7 @@ f
 ;
 f
 =
-reinterpret_cast
+static_cast
 <
 nsSplittableFrame
 *
@@ -1235,7 +1235,7 @@ f
 ;
 f
 =
-reinterpret_cast
+static_cast
 <
 nsSplittableFrame
 *
