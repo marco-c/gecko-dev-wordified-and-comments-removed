@@ -1125,9 +1125,9 @@ autofill
 store
 owned
 by
-FormAutofillStorageBase
-#
-rustStore
+the
+RustAutofillStore
+handler
 and
 opened
 off

@@ -513,6 +513,13 @@ Bug
 ]
 [
 "
+test_rustStoreShutdown
+.
+js
+"
+]
+[
+"
 test_savedFieldNames
 .
 js
