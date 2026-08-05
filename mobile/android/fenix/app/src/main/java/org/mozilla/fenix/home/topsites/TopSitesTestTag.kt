@@ -124,6 +124,15 @@ add_shortcut_title
 "
 const
 val
+ADD_WEBSITE
+=
+"
+TOP_SITES
+.
+add_website
+"
+const
+val
 TOP_SITES_PAGER_INDICATOR
 =
 "

@@ -521,6 +521,9 @@ verifyExistingTopSitesTabs
 value
 )
 }
+verifyAddShortcutButtonExists
+(
+)
 }
 .
 openThreeDotMenu
@@ -556,6 +559,9 @@ composeTestRule
 )
 {
 verifyNotExistingSponsoredTopSitesList
+(
+)
+verifyAddShortcutButtonExists
 (
 )
 }
