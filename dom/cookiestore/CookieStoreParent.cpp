@@ -276,7 +276,7 @@ contentParent
 )
 {
 return
-true
+false
 ;
 }
 PNeckoParent
@@ -300,7 +300,7 @@ neckoParent
 )
 {
 return
-true
+false
 ;
 }
 PCookieServiceParent
@@ -324,7 +324,7 @@ csParent
 )
 {
 return
-true
+false
 ;
 }
 auto
