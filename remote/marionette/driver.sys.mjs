@@ -346,7 +346,7 @@ sys
 .
 mjs
 "
-isParentProcess
+isPrivilegedContext
 :
 "
 chrome
@@ -27840,8 +27840,7 @@ async
 Script
 evaluation
 against
-parent
-process
+privileged
 contexts
 should
 only
@@ -27875,7 +27874,7 @@ allowSystemAccess
 &
 lazy
 .
-isParentProcess
+isPrivilegedContext
 (
 context
 )
@@ -27896,8 +27895,7 @@ are
 not
 supported
 for
-parent
-process
+privileged
 browsing
 contexts
 :
