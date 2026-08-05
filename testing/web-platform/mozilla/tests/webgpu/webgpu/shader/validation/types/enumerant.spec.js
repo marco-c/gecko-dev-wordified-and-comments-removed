@@ -352,6 +352,9 @@ uniform
 handle
 '
 '
+immediate
+'
+'
 rgba8unorm
 '
 '

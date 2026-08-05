@@ -179,8 +179,6 @@ size
 -
 control
 '
-as
-GPUFeatureName
 )
 )
 .

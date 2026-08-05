@@ -1644,6 +1644,11 @@ pointer_composite_access
 requires
 pointer_composite_access
 ;
+immediate_address_space
+:
+requires
+immediate_address_space
+;
 }
 ;
 g

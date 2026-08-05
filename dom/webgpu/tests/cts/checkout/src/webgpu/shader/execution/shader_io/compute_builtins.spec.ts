@@ -6909,8 +6909,6 @@ size
 -
 control
 '
-as
-GPUFeatureName
 )
 ;
 const

@@ -5616,6 +5616,16 @@ swizzle
 :
 {
 }
+'
+subgroup
+-
+size
+-
+control
+'
+:
+{
+}
 [
 '
 atomic

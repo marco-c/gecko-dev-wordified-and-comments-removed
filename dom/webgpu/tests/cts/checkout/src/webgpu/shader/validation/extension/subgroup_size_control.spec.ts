@@ -181,8 +181,6 @@ size
 -
 control
 '
-as
-GPUFeatureName
 ]
 }
 )
@@ -327,8 +325,6 @@ size
 -
 control
 '
-as
-GPUFeatureName
 ]
 }
 )
@@ -492,8 +488,6 @@ size
 -
 control
 '
-as
-GPUFeatureName
 ]
 }
 )
@@ -1119,8 +1113,6 @@ size
 -
 control
 '
-as
-GPUFeatureName
 ]
 }
 )
@@ -1281,8 +1273,6 @@ size
 -
 control
 '
-as
-GPUFeatureName
 ]
 }
 )
@@ -1399,6 +1389,7 @@ combine
 size
 '
 [
+0
 3
 5
 7
@@ -1433,8 +1424,6 @@ size
 -
 control
 '
-as
-GPUFeatureName
 ]
 }
 )
@@ -1765,8 +1754,6 @@ size
 -
 control
 '
-as
-GPUFeatureName
 ]
 }
 )
@@ -2006,8 +1993,6 @@ size
 -
 control
 '
-as
-GPUFeatureName
 ]
 }
 )
@@ -2316,8 +2301,6 @@ size
 -
 control
 '
-as
-GPUFeatureName
 ]
 }
 )

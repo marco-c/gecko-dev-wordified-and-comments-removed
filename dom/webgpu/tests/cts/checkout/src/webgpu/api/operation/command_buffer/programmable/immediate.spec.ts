@@ -2660,7 +2660,6 @@ encoder
 encoder
 .
 setImmediates
-!
 (
 0
 inputData
@@ -2905,7 +2904,6 @@ bindGroup
 enc
 .
 setImmediates
-!
 (
 0
 new
@@ -2940,7 +2938,6 @@ bindGroup
 enc
 .
 setImmediates
-!
 (
 0
 new
@@ -2975,7 +2972,6 @@ bindGroup
 enc
 .
 setImmediates
-!
 (
 4
 new
@@ -3658,7 +3654,6 @@ bindGroup
 enc
 .
 setImmediates
-!
 (
 0
 new
@@ -3683,7 +3678,6 @@ pipelineB
 enc
 .
 setImmediates
-!
 (
 0
 immDataB
@@ -3810,7 +3804,6 @@ bindGroup
 enc
 .
 setImmediates
-!
 (
 0
 new
@@ -3835,7 +3828,6 @@ pipelineB
 enc
 .
 setImmediates
-!
 (
 0
 immDataB
@@ -4227,7 +4219,6 @@ encoder
 encoder
 .
 setImmediates
-!
 (
 0
 data
@@ -5043,7 +5034,6 @@ bindGroup
 enc
 .
 setImmediates
-!
 (
 0
 clearData
@@ -5052,7 +5042,6 @@ clearData
 enc
 .
 setImmediates
-!
 (
 0
 arr
@@ -5298,7 +5287,6 @@ encoder
 encoder
 .
 setImmediates
-!
 (
 0
 new
@@ -5316,7 +5304,6 @@ Uint32Array
 encoder
 .
 setImmediates
-!
 (
 4
 new
@@ -5332,7 +5319,6 @@ Uint32Array
 encoder
 .
 setImmediates
-!
 (
 12
 new
@@ -5534,7 +5520,6 @@ bindGroup
 bundleEncoder
 .
 setImmediates
-!
 (
 0
 new
@@ -5684,7 +5669,6 @@ bindGroup
 pass
 .
 setImmediates
-!
 (
 0
 new
@@ -5989,7 +5973,6 @@ bindGroup
 bundleEncoderA
 .
 setImmediates
-!
 (
 0
 new
@@ -6057,7 +6040,6 @@ bindGroup
 bundleEncoderB
 .
 setImmediates
-!
 (
 0
 new

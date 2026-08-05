@@ -231,11 +231,6 @@ usage
 ;
 }
 let
-printMetadataWarnings
-=
-false
-;
-let
 printCaseCountReport
 =
 false
@@ -270,10 +265,6 @@ metadata
 warnings
 '
 :
-printMetadataWarnings
-=
-true
-;
 break
 ;
 case
@@ -341,7 +332,6 @@ suiteDir
 validate
 :
 true
-printMetadataWarnings
 printCaseCountReport
 }
 )
