@@ -127,6 +127,12 @@ toolchain
 linux64
 -
 node
+-
+newtab
+-
+node
+-
+modules
 optimization
 :
 skip
