@@ -64,6 +64,17 @@ featureGate
 =
 false
 "
+"
+layout
+.
+css
+.
+attr
+.
+enabled
+=
+true
+"
 ]
 [
 "
