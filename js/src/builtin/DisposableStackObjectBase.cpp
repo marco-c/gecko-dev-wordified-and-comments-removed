@@ -1243,7 +1243,7 @@ nullptr
 obj
 -
 >
-setReservedSlot
+setReservedSlotTyped
 (
 DISPOSABLE_RESOURCE_STACK_SLOT
 ObjectValue
@@ -1280,7 +1280,7 @@ isDisposableResourceStackEmpty
 const
 {
 return
-getReservedSlot
+getReservedSlotTyped
 (
 DISPOSABLE_RESOURCE_STACK_SLOT
 )
@@ -1298,7 +1298,7 @@ clearDisposableResourceStack
 (
 )
 {
-setReservedSlot
+setReservedSlotTyped
 (
 DISPOSABLE_RESOURCE_STACK_SLOT
 JS
@@ -1330,7 +1330,7 @@ isDisposableResourceStackEmpty
 ;
 return
 &
-getReservedSlot
+getReservedSlotTyped
 (
 DISPOSABLE_RESOURCE_STACK_SLOT
 )
@@ -1364,7 +1364,7 @@ DisposableState
 (
 uint8_t
 (
-getReservedSlot
+getReservedSlotTyped
 (
 STATE_SLOT
 )
@@ -1386,7 +1386,7 @@ DisposableState
 state
 )
 {
-setReservedSlot
+setReservedSlotTyped
 (
 STATE_SLOT
 JS
