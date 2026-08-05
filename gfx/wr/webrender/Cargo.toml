@@ -87,7 +87,7 @@ default
 static_freetype
 "
 ]
-tracy
+profiler
 =
 [
 "

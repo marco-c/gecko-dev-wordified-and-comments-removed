@@ -261,7 +261,7 @@ capture
 "
 webrender
 /
-tracy
+profiler
 "
 ]
 [

@@ -4271,9 +4271,6 @@ INVALID
 return
 ;
 }
-tracy_rs
-:
-:
 profile_scope
 !
 (
@@ -4605,9 +4602,6 @@ FrameMemory
 >
 TransformPalette
 {
-tracy_rs
-:
-:
 profile_scope
 !
 (
