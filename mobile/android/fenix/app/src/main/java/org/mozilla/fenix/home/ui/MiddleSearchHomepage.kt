@@ -1102,13 +1102,6 @@ FakeHomepagePreview
 topSites
 (
 )
-syncedTab
-=
-FakeHomepagePreview
-.
-recentSyncedTab
-(
-)
 recentlyVisited
 =
 FakeHomepagePreview
@@ -1130,9 +1123,6 @@ FakeHomepagePreview
 pocketState
 (
 )
-showRecentSyncedTab
-=
-false
 showPrivacyReport
 =
 true

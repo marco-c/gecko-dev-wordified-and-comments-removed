@@ -1399,6 +1399,9 @@ AppState
 .
 shouldShowRecentSyncedTabs
 (
+settings
+:
+Settings
 )
 :
 Boolean
@@ -1409,4 +1412,9 @@ is
 RecentSyncedTabState
 .
 Success
+&
+&
+settings
+.
+showSyncedTabs
 }
