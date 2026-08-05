@@ -2822,7 +2822,7 @@ mPropValue
 aBlock
 -
 >
-GetOverflowOutOfFlows
+GetOverflowFloats
 (
 )
 )
@@ -2857,7 +2857,7 @@ nsAutoOOFFrameList
 mBlock
 -
 >
-SetOverflowOutOfFlows
+SetOverflowFloats
 (
 std
 :
@@ -2890,13 +2890,13 @@ nsAutoOOFFrameList
 ;
 nsFrameList
 *
-GetOverflowOutOfFlows
+GetOverflowFloats
 (
 )
 const
 ;
 void
-SetOverflowOutOfFlows
+SetOverflowFloats
 (
 nsFrameList
 &
