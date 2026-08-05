@@ -3015,7 +3015,7 @@ JSContext
 cx
 )
 {
-setFixedSlot
+setFixedSlotTyped
 (
 CALLEE_OR_MODULE_SLOT
 NullValue
@@ -3023,7 +3023,7 @@ NullValue
 )
 )
 ;
-setFixedSlot
+setFixedSlotTyped
 (
 ENV_CHAIN_SLOT
 NullValue
@@ -3031,7 +3031,7 @@ NullValue
 )
 )
 ;
-setFixedSlot
+setFixedSlotTyped
 (
 ARGS_OBJ_SLOT
 NullValue
@@ -3039,7 +3039,7 @@ NullValue
 )
 )
 ;
-setFixedSlot
+setFixedSlotTyped
 (
 STACK_STORAGE_SLOT
 NullValue
@@ -3047,7 +3047,7 @@ NullValue
 )
 )
 ;
-setFixedSlot
+setFixedSlotTyped
 (
 RESUME_INDEX_SLOT
 NullValue
