@@ -4298,10 +4298,6 @@ head
 >
 |
 <
-body
->
-|
-<
 template
 >
 |
@@ -4311,4 +4307,8 @@ content
 ?
 pi
 ?
+>
+|
+<
+body
 >
