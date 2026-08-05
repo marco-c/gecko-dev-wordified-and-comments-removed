@@ -563,29 +563,6 @@ logger
 ;
 }
 /
-/
-TODO
-:
-rename
-to
-#
-parentController
-to
-mirror
-the
-public
-getter
-and
-avoid
-/
-/
-confusion
-with
-the
-UrlbarParent
-actor
-.
-/
 *
 *
 type
@@ -595,7 +572,7 @@ UrlbarParentController
 *
 /
 #
-parent
+parentController
 ;
 #
 input
@@ -934,7 +911,7 @@ construction
 this
 .
 #
-parent
+parentController
 =
 actor
 .
@@ -973,7 +950,7 @@ actor
 this
 .
 #
-parent
+parentController
 .
 setChild
 (
@@ -1110,7 +1087,7 @@ return
 this
 .
 #
-parent
+parentController
 ;
 }
 get
@@ -1165,7 +1142,7 @@ return
 this
 .
 #
-parent
+parentController
 .
 engagementEvent
 ?
@@ -1351,7 +1328,7 @@ return
 this
 .
 #
-parent
+parentController
 .
 _lastQueryContextWrapper
 ;
@@ -1379,7 +1356,7 @@ return
 this
 .
 #
-parent
+parentController
 .
 getViewUpdate
 (
@@ -1398,7 +1375,7 @@ return
 this
 .
 #
-parent
+parentController
 .
 onBeforeSelection
 (
@@ -1417,7 +1394,7 @@ return
 this
 .
 #
-parent
+parentController
 .
 onSelection
 (
@@ -1435,7 +1412,7 @@ return
 this
 .
 #
-parent
+parentController
 .
 getHeuristicResult
 (
@@ -1700,7 +1677,7 @@ return
 this
 .
 #
-parent
+parentController
 .
 recordEngagement
 (
@@ -1716,7 +1693,7 @@ return
 this
 .
 #
-parent
+parentController
 .
 resetEngagement
 (
@@ -1732,7 +1709,7 @@ return
 this
 .
 #
-parent
+parentController
 .
 handleBounceTrigger
 (
@@ -1749,7 +1726,7 @@ return
 this
 .
 #
-parent
+parentController
 .
 trackBounceBrowser
 (
@@ -1823,7 +1800,7 @@ queryContextPromise
 this
 .
 #
-parent
+parentController
 .
 startQuery
 (
@@ -1938,7 +1915,7 @@ return
 this
 .
 #
-parent
+parentController
 .
 cancelQuery
 (
@@ -1954,7 +1931,7 @@ return
 this
 .
 #
-parent
+parentController
 .
 receiveResults
 (
@@ -1972,7 +1949,7 @@ return
 this
 .
 #
-parent
+parentController
 .
 removeResult
 (
@@ -1990,7 +1967,7 @@ return
 this
 .
 #
-parent
+parentController
 .
 setLastQueryContextCache
 (
@@ -2006,7 +1983,7 @@ return
 this
 .
 #
-parent
+parentController
 .
 clearLastQueryContextCache
 (
@@ -4463,7 +4440,7 @@ return
 this
 .
 #
-parent
+parentController
 .
 speculativeConnect
 (
@@ -4482,7 +4459,7 @@ return
 this
 .
 #
-parent
+parentController
 .
 loadURL
 (
@@ -5355,7 +5332,7 @@ initEngineStore
 this
 .
 #
-parent
+parentController
 .
 initEngineStore
 (
@@ -5370,7 +5347,7 @@ return
 this
 .
 #
-parent
+parentController
 .
 maybeInitEngineStore
 (
@@ -5402,7 +5379,7 @@ inBackground
 this
 .
 #
-parent
+parentController
 .
 openSERP
 (
@@ -5437,7 +5414,7 @@ inBackground
 this
 .
 #
-parent
+parentController
 .
 openSearchForm
 (
