@@ -895,7 +895,7 @@ nova
 -
 info
 -
-subheader
+subheader2
 =
 We
 ll
@@ -909,8 +909,10 @@ in
 when
 you
 close
-this
-window
+all
+your
+Private
+Windows
 .
 {
 -
