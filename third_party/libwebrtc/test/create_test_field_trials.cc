@@ -80,7 +80,7 @@ WebRTC
 -
 FooFeature
 /
-Enable
+Enabled
 /
 "
 "
@@ -88,7 +88,7 @@ will
 assign
 the
 group
-Enable
+Enabled
 to
 field
 trial
