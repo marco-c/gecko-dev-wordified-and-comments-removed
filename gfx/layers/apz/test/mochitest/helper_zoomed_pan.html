@@ -224,6 +224,11 @@ OFFSET_SCREEN_PX
 /
 RESOLUTION
 ;
+const
+MARGIN_CSS_PX
+=
+10
+;
 function
 computeDelta
 (
@@ -327,7 +332,7 @@ cases
 {
 x
 :
-0
+MARGIN_CSS_PX
 y
 :
 0
@@ -383,6 +388,8 @@ affected
 {
 x
 :
+MARGIN_CSS_PX
++
 OFFSET_CSS_PX
 y
 :
