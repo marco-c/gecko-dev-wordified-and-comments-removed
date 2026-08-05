@@ -1802,6 +1802,11 @@ uint64_t
 aBrowserId
 )
 {
+if
+(
+sCurrentTopByBrowserId
+)
+{
 return
 do_AddRef
 (
@@ -1813,6 +1818,10 @@ Get
 aBrowserId
 )
 )
+;
+}
+return
+nullptr
 ;
 }
 already_AddRefed
