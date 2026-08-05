@@ -469,10 +469,6 @@ const
 nsACString
 &
 aURI
-const
-nsACString
-&
-aHintCharset
 )
 ;
 private
@@ -1312,10 +1308,6 @@ const
 nsACString
 &
 aURI
-const
-nsACString
-&
-aHintCharset
 JS
 :
 :
