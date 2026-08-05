@@ -1600,11 +1600,6 @@ UniquePtr
 SpecifierResolutionRecord
 >
 aRecord
-ScriptFetchInfo
-*
-aFetchInfo
-=
-nullptr
 Handle
 <
 Value
