@@ -747,12 +747,42 @@ horizontal
 "
 )
         
+normalized_ids
+=
+[
+            
+"
+spring
+"
+if
+wid
+.
+startswith
+(
+"
+customizableui
+-
+special
+-
+spring
+"
+)
+else
+wid
+            
+for
+wid
+in
+horiz_tab_ids
+        
+]
+        
 self
 .
 assertEqual
 (
             
-horiz_tab_ids
+normalized_ids
             
 [
                 
@@ -771,9 +801,21 @@ button
 "
                 
 "
+spring
+"
+                
+"
 alltabs
 -
 button
+"
+                
+"
+ai
+-
+window
+-
+toggle
 "
             
 ]
