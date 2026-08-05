@@ -617,7 +617,7 @@ isFocus
 ;
 }
 class
-SetDefaultBrowserButtonTests
+FindSetDefaultBrowserButtonTests
 :
 public
 :
@@ -1558,8 +1558,8 @@ sAppRegName
 ;
 TEST_F
 (
-SetDefaultBrowserButtonTests
-FindDefaultBrowserButton
+FindSetDefaultBrowserButtonTests
+ButtonFound
 )
 {
 ASSERT_TRUE
@@ -1605,8 +1605,8 @@ NotNull
 }
 TEST_F
 (
-SetDefaultBrowserButtonTests
-FocusDefaultBrowserButton
+FindSetDefaultBrowserButtonTests
+ButtonFocused
 )
 {
 ASSERT_TRUE
