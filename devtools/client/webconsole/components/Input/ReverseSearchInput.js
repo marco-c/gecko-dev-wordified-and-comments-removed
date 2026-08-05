@@ -1335,6 +1335,11 @@ devtools
 -
 monospace
 "
+dir
+:
+"
+auto
+"
 onKeyDown
 :
 this

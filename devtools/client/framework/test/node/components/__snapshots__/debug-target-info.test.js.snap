@@ -564,6 +564,11 @@ target
 /
 url
 "
+dir
+=
+"
+auto
+"
 onChange
 =
 {
@@ -1467,6 +1472,11 @@ some
 target
 /
 url
+"
+dir
+=
+"
+auto
 "
 onChange
 =
@@ -2922,6 +2932,11 @@ target
 /
 url
 "
+dir
+=
+"
+auto
+"
 onChange
 =
 {
@@ -3426,6 +3441,11 @@ without
 a
 /
 name
+"
+dir
+=
+"
+auto
 "
 onChange
 =
