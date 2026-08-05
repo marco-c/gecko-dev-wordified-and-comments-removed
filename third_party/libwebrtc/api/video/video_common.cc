@@ -1,9 +1,9 @@
 #
 include
 "
-media
+api
 /
-base
+video
 /
 video_common
 .

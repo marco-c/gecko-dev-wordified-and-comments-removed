@@ -272,7 +272,9 @@ scoped_refptr
 .
 .
 /
-media
+api
+/
+video
 :
 video_common
 "
@@ -1721,7 +1723,9 @@ timestamp
 .
 .
 /
-media
+api
+/
+video
 :
 video_common
 "
