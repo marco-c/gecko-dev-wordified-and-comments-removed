@@ -44,6 +44,15 @@ include
 "
 api
 /
+rtp_header_extension_id
+.
+h
+"
+#
+include
+"
+api
+/
 rtp_headers
 .
 h
@@ -296,7 +305,10 @@ Register
 TransportSequenceNumber
 >
 (
+RtpHeaderExtensionId
+(
 1
+)
 )
 ;
 }

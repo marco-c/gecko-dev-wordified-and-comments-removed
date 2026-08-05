@@ -59,6 +59,15 @@ include
 "
 api
 /
+rtp_header_extension_id
+.
+h
+"
+#
+include
+"
+api
+/
 units
 /
 timestamp
@@ -888,7 +897,10 @@ extension_map
 .
 RegisterByType
 (
+RtpHeaderExtensionId
+(
 3
+)
 kRtpExtensionVideoRotation
 )
 ;

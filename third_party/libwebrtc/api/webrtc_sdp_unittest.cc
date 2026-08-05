@@ -690,10 +690,11 @@ n
 "
 ;
 constexpr
-int
+RtpHeaderExtensionId
 kExtmapId
-=
+(
 1
+)
 ;
 constexpr
 char

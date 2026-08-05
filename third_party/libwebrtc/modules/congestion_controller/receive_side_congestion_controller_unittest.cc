@@ -60,6 +60,15 @@ include
 "
 api
 /
+rtp_header_extension_id
+.
+h
+"
+#
+include
+"
+api
+/
 rtp_parameters
 .
 h
@@ -457,7 +466,10 @@ Register
 AbsoluteSendTime
 >
 (
+RtpHeaderExtensionId
+(
 1
+)
 )
 ;
 RtpPacketReceived
@@ -1376,7 +1388,10 @@ Register
 TransportSequenceNumber
 >
 (
+RtpHeaderExtensionId
+(
 1
+)
 )
 ;
 RtpPacketReceived

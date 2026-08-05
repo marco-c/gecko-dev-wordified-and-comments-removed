@@ -618,6 +618,17 @@ network_emulation_manager_api
 /
 api
 :
+rtp_header_extension_id
+"
+"
+.
+.
+/
+.
+.
+/
+api
+:
 rtp_headers
 "
 "

@@ -42,6 +42,15 @@ include
 "
 api
 /
+rtp_header_extension_id
+.
+h
+"
+#
+include
+"
+api
+/
 test
 /
 simulated_network
@@ -2772,7 +2781,10 @@ Register
 TransportSequenceNumber
 >
 (
+RtpHeaderExtensionId
+(
 7
+)
 )
 ;
 RtpPacketReceived

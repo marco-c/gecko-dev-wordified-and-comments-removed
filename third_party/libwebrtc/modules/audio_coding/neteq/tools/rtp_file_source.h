@@ -40,6 +40,15 @@ h
 #
 include
 "
+api
+/
+rtp_header_extension_id
+.
+h
+"
+#
+include
+"
 modules
 /
 audio_coding
@@ -188,7 +197,7 @@ RegisterRtpHeaderExtension
 (
 RTPExtensionType
 type
-uint8_t
+RtpHeaderExtensionId
 id
 )
 ;

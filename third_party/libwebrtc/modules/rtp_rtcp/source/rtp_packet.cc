@@ -901,9 +901,12 @@ extensions_
 .
 GetType
 (
+RtpHeaderExtensionId
+(
 extension
 .
 id
+)
 )
 )
 {

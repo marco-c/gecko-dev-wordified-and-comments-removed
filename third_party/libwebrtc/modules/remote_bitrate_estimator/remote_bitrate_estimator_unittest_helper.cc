@@ -44,6 +44,15 @@ include
 "
 api
 /
+rtp_header_extension_id
+.
+h
+"
+#
+include
+"
+api
+/
 units
 /
 data_rate
@@ -1353,7 +1362,10 @@ Register
 AbsoluteSendTime
 >
 (
+RtpHeaderExtensionId
+(
 1
+)
 )
 ;
 RtpPacketReceived

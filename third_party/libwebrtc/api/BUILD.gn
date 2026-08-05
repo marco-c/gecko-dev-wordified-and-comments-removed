@@ -1902,6 +1902,10 @@ rtc_error
 "
 "
 :
+rtp_header_extension_id
+"
+"
+:
 rtp_parameters
 "
 "

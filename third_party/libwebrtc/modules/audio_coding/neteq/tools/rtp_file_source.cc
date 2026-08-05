@@ -54,6 +54,15 @@ include
 "
 api
 /
+rtp_header_extension_id
+.
+h
+"
+#
+include
+"
+api
+/
 units
 /
 timestamp
@@ -271,7 +280,7 @@ RegisterRtpHeaderExtension
 (
 RTPExtensionType
 type
-uint8_t
+RtpHeaderExtensionId
 id
 )
 {
