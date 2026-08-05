@@ -3712,6 +3712,9 @@ true
 persistWhileVisible
 :
 true
+lowerPanelLevel
+:
+true
 passwordNotificationType
 :
 type
