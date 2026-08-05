@@ -259,6 +259,23 @@ sys
 .
 mjs
 "
+UrlbarShared
+:
+"
+chrome
+:
+/
+/
+browser
+/
+content
+/
+urlbar
+/
+UrlbarShared
+.
+mjs
+"
 UrlbarUtils
 :
 "
@@ -19372,7 +19389,7 @@ KEYWORD
 return
 lazy
 .
-UrlbarUtils
+UrlbarShared
 .
 ICON
 .
@@ -19464,7 +19481,7 @@ trending
 return
 lazy
 .
-UrlbarUtils
+UrlbarShared
 .
 ICON
 .
@@ -19500,7 +19517,7 @@ KEYWORD
 return
 lazy
 .
-UrlbarUtils
+UrlbarShared
 .
 ICON
 .
@@ -19510,7 +19527,7 @@ SEARCH_GLASS
 return
 lazy
 .
-UrlbarUtils
+UrlbarShared
 .
 ICON
 .
@@ -28261,7 +28278,7 @@ localSearchMode
 =
 lazy
 .
-UrlbarUtils
+UrlbarShared
 .
 LOCAL_SEARCH_MODES
 .
@@ -29169,7 +29186,7 @@ icon
 |
 lazy
 .
-UrlbarUtils
+UrlbarShared
 .
 ICON
 .
@@ -29320,7 +29337,7 @@ iconOverride
 =
 lazy
 .
-UrlbarUtils
+UrlbarShared
 .
 ICON
 .

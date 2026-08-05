@@ -2342,7 +2342,7 @@ set
 .
 .
 .
-UrlbarUtils
+UrlbarShared
 .
 LOCAL_SEARCH_MODES
 .
@@ -3664,7 +3664,7 @@ set
 .
 .
 .
-UrlbarUtils
+UrlbarShared
 .
 LOCAL_SEARCH_MODES
 .
@@ -3970,7 +3970,7 @@ pref
 source
 }
 of
-UrlbarUtils
+UrlbarShared
 .
 LOCAL_SEARCH_MODES
 )
@@ -4075,7 +4075,7 @@ exist
 let
 otherModes
 =
-UrlbarUtils
+UrlbarShared
 .
 LOCAL_SEARCH_MODES
 .
@@ -4194,7 +4194,7 @@ pushPrefEnv
 {
 set
 :
-UrlbarUtils
+UrlbarShared
 .
 LOCAL_SEARCH_MODES
 .
@@ -4433,7 +4433,7 @@ oneOffSearchButtons
 localButtons
 .
 length
-UrlbarUtils
+UrlbarShared
 .
 LOCAL_SEARCH_MODES
 .

@@ -95,7 +95,7 @@ url
 TEST_URL
 icon
 :
-UrlbarUtils
+UrlbarShared
 .
 ICON
 .

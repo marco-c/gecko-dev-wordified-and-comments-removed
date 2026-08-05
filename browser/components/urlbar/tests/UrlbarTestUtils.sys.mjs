@@ -7329,7 +7329,7 @@ expectedSearchMode
 may
 come
 from
-UrlbarUtils
+UrlbarShared
 .
 LOCAL_SEARCH_MODES
 .
@@ -13193,7 +13193,9 @@ param
 Values
 <
 typeof
-UrlbarUtils
+lazy
+.
+UrlbarShared
 .
 PROVIDER_TYPE
 >
@@ -13538,7 +13540,9 @@ generateUUID
 )
 type
 =
-UrlbarUtils
+lazy
+.
+UrlbarShared
 .
 PROVIDER_TYPE
 .
@@ -13712,7 +13716,9 @@ this
 .
 _type
 =
-UrlbarUtils
+lazy
+.
+UrlbarShared
 .
 PROVIDER_TYPE
 .

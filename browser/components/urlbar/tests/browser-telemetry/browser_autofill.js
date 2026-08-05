@@ -526,7 +526,7 @@ priority
 Infinity
 type
 :
-UrlbarUtils
+UrlbarShared
 .
 PROVIDER_TYPE
 .

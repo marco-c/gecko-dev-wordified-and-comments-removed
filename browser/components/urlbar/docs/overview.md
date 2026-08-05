@@ -1135,7 +1135,7 @@ must
 be
 one
 of
-UrlbarUtils
+UrlbarShared
 .
 PROVIDER_TYPE
 .
@@ -1146,7 +1146,7 @@ returns
 Values
 <
 typeof
-UrlbarUtils
+UrlbarShared
 .
 PROVIDER_TYPE
 >

@@ -1456,7 +1456,7 @@ type
 )
 {
 return
-UrlbarUtils
+UrlbarShared
 .
 PROVIDER_TYPE
 .

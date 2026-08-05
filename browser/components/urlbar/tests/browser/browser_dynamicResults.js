@@ -1882,7 +1882,7 @@ highlights
 {
 text
 :
-UrlbarUtils
+UrlbarShared
 .
 HIGHLIGHT
 .

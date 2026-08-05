@@ -607,7 +607,7 @@ added
 payload
 .
 icon
-UrlbarUtils
+UrlbarShared
 .
 getIconForUrl
 (
@@ -1710,7 +1710,7 @@ result
 payload
 .
 icon
-UrlbarUtils
+UrlbarShared
 .
 getIconForUrl
 (

@@ -1362,7 +1362,7 @@ test
 "
 iconUri
 :
-UrlbarUtils
+UrlbarShared
 .
 ICON
 .

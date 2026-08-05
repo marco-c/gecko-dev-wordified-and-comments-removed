@@ -50,7 +50,7 @@ children
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -67,7 +67,7 @@ flex
 1
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -79,7 +79,7 @@ flex
 1
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -91,7 +91,7 @@ flex
 1
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -196,7 +196,7 @@ suggestedIndex
 0
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -209,7 +209,7 @@ expected
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -221,7 +221,7 @@ count
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -233,7 +233,7 @@ suggestedIndex
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -245,7 +245,7 @@ count
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -278,7 +278,7 @@ suggestedIndex
 1
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -291,7 +291,7 @@ expected
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -303,7 +303,7 @@ count
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -315,7 +315,7 @@ count
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -328,7 +328,7 @@ suggestedIndex
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -360,7 +360,7 @@ suggestedIndex
 0
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -373,7 +373,7 @@ expected
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -385,7 +385,7 @@ suggestedIndex
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -397,7 +397,7 @@ count
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -409,7 +409,7 @@ count
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -442,7 +442,7 @@ suggestedIndex
 1
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -455,7 +455,7 @@ expected
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -467,7 +467,7 @@ count
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -479,7 +479,7 @@ count
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -494,7 +494,7 @@ count
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -526,7 +526,7 @@ suggestedIndex
 0
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -539,7 +539,7 @@ suggestedIndex
 1
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -552,7 +552,7 @@ expected
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -564,7 +564,7 @@ count
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -576,7 +576,7 @@ suggestedIndex
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -588,7 +588,7 @@ count
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -601,7 +601,7 @@ suggestedIndex
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -635,7 +635,7 @@ suggestedIndex
 0
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -648,7 +648,7 @@ suggestedIndex
 1
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -661,7 +661,7 @@ expected
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -673,7 +673,7 @@ suggestedIndex
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -685,7 +685,7 @@ count
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -697,7 +697,7 @@ count
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -712,7 +712,7 @@ count
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -746,7 +746,7 @@ suggestedIndex
 0
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -758,7 +758,7 @@ suggestedIndex
 0
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -771,7 +771,7 @@ expected
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -783,7 +783,7 @@ suggestedIndex
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -795,7 +795,7 @@ count
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -807,7 +807,7 @@ suggestedIndex
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -819,7 +819,7 @@ count
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -863,7 +863,7 @@ suggestedIndex
 1
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -876,7 +876,7 @@ expected
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -888,7 +888,7 @@ count
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -933,7 +933,7 @@ flex
 2
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -945,7 +945,7 @@ flex
 1
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -956,7 +956,7 @@ children
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -981,7 +981,7 @@ suggestedIndex
 1
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -994,7 +994,7 @@ expected
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -1006,7 +1006,7 @@ count
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -1047,7 +1047,7 @@ children
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -1068,7 +1068,7 @@ flex
 2
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -1080,7 +1080,7 @@ flex
 1
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -1091,7 +1091,7 @@ children
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -1129,7 +1129,7 @@ heuristic
 true
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -1207,7 +1207,7 @@ suggestedIndex
 1
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -1220,7 +1220,7 @@ expected
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -1232,7 +1232,7 @@ count
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -1250,7 +1250,7 @@ count
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -1262,7 +1262,7 @@ count
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -1303,7 +1303,7 @@ suggestedIndex
 1
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -1316,7 +1316,7 @@ expected
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -1328,7 +1328,7 @@ count
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -1369,7 +1369,7 @@ suggestedIndex
 1
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -1382,7 +1382,7 @@ expected
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -1394,7 +1394,7 @@ count
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -1406,7 +1406,7 @@ count
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .

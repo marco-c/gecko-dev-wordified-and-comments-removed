@@ -83,7 +83,7 @@ priority
 999
 type
 :
-UrlbarUtils
+UrlbarShared
 .
 PROVIDER_TYPE
 .
@@ -192,7 +192,7 @@ priority
 999
 type
 :
-UrlbarUtils
+UrlbarShared
 .
 PROVIDER_TYPE
 .

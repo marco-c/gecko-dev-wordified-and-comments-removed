@@ -284,7 +284,7 @@ children
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -293,7 +293,7 @@ HEURISTIC_TEST
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -302,7 +302,7 @@ HEURISTIC_EXTENSION
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -311,7 +311,7 @@ HEURISTIC_SEARCH_TIP
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -320,7 +320,7 @@ HEURISTIC_OMNIBOX
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -329,7 +329,7 @@ HEURISTIC_ENGINE_ALIAS
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -338,7 +338,7 @@ HEURISTIC_BOOKMARK_KEYWORD
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -347,7 +347,7 @@ HEURISTIC_AUTOFILL
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -356,7 +356,7 @@ HEURISTIC_TOKEN_ALIAS_ENGINE
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -365,7 +365,7 @@ HEURISTIC_RESTRICT_KEYWORD_AUTOFILL
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -374,7 +374,7 @@ HEURISTIC_HISTORY_URL
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -385,7 +385,7 @@ HEURISTIC_FALLBACK
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -418,7 +418,7 @@ flex
 2
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -430,7 +430,7 @@ flex
 99
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -442,7 +442,7 @@ flex
 4
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -453,7 +453,7 @@ REMOTE_SUGGESTION
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -464,7 +464,7 @@ TAIL_SUGGESTION
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -481,7 +481,7 @@ availableSpan
 3
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -500,7 +500,7 @@ flex
 1
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -512,7 +512,7 @@ flex
 2
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -529,7 +529,7 @@ flex
 2
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -541,7 +541,7 @@ flex
 99
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -552,7 +552,7 @@ RESTRICT_SEARCH_KEYWORD
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -582,7 +582,7 @@ children
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -591,7 +591,7 @@ HEURISTIC_TEST
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -600,7 +600,7 @@ HEURISTIC_EXTENSION
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -609,7 +609,7 @@ HEURISTIC_SEARCH_TIP
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -618,7 +618,7 @@ HEURISTIC_OMNIBOX
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -627,7 +627,7 @@ HEURISTIC_ENGINE_ALIAS
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -636,7 +636,7 @@ HEURISTIC_BOOKMARK_KEYWORD
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -645,7 +645,7 @@ HEURISTIC_AUTOFILL
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -654,7 +654,7 @@ HEURISTIC_TOKEN_ALIAS_ENGINE
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -663,7 +663,7 @@ HEURISTIC_RESTRICT_KEYWORD_AUTOFILL
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -672,7 +672,7 @@ HEURISTIC_HISTORY_URL
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -683,7 +683,7 @@ HEURISTIC_FALLBACK
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -699,7 +699,7 @@ children
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -716,7 +716,7 @@ availableSpan
 3
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -735,7 +735,7 @@ flex
 1
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -747,7 +747,7 @@ flex
 2
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -764,7 +764,7 @@ flex
 2
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -776,7 +776,7 @@ flex
 99
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -787,7 +787,7 @@ RESTRICT_SEARCH_KEYWORD
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -815,7 +815,7 @@ flex
 2
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -827,7 +827,7 @@ flex
 99
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -839,7 +839,7 @@ flex
 4
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -850,7 +850,7 @@ REMOTE_SUGGESTION
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -880,7 +880,7 @@ children
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -889,7 +889,7 @@ HEURISTIC_TEST
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -898,7 +898,7 @@ HEURISTIC_AUTOFILL
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -907,7 +907,7 @@ HEURISTIC_HISTORY_URL
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -916,7 +916,7 @@ HEURISTIC_AI_CHAT
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -944,7 +944,7 @@ availableSpan
 2
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -963,7 +963,7 @@ flex
 2
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -975,7 +975,7 @@ flex
 99
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -987,7 +987,7 @@ flex
 4
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -998,7 +998,7 @@ REMOTE_SUGGESTION
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -1012,7 +1012,7 @@ flex
 1
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -1026,7 +1026,7 @@ availableSpan
 3
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -1045,7 +1045,7 @@ flex
 2
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -1062,7 +1062,7 @@ flex
 1
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -1074,7 +1074,7 @@ flex
 2
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -1085,7 +1085,7 @@ ABOUT_PAGES
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -1115,7 +1115,7 @@ children
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -1124,7 +1124,7 @@ HEURISTIC_TEST
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -1133,7 +1133,7 @@ HEURISTIC_AUTOFILL
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -1142,7 +1142,7 @@ HEURISTIC_HISTORY_URL
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -1151,7 +1151,7 @@ HEURISTIC_AI_CHAT
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -1172,7 +1172,7 @@ flex
 1
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -1186,7 +1186,7 @@ availableSpan
 3
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -1205,7 +1205,7 @@ flex
 2
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -1222,7 +1222,7 @@ flex
 1
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -1234,7 +1234,7 @@ flex
 2
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -1245,7 +1245,7 @@ ABOUT_PAGES
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -1266,7 +1266,7 @@ availableSpan
 2
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -1285,7 +1285,7 @@ flex
 2
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -1297,7 +1297,7 @@ flex
 99
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -1309,7 +1309,7 @@ flex
 4
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -1320,7 +1320,7 @@ REMOTE_SUGGESTION
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .

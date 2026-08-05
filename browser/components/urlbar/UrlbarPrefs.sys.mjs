@@ -185,25 +185,20 @@ sys
 .
 mjs
 "
-UrlbarUtils
+UrlbarShared
 :
 "
-moz
--
-src
+chrome
 :
-/
 /
 /
 browser
 /
-components
+content
 /
 urlbar
 /
-UrlbarUtils
-.
-sys
+UrlbarShared
 .
 mjs
 "
@@ -6530,7 +6525,7 @@ Values
 typeof
 lazy
 .
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 >
@@ -6957,7 +6952,7 @@ group
 :
 lazy
 .
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -6968,7 +6963,7 @@ group
 :
 lazy
 .
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -6979,7 +6974,7 @@ group
 :
 lazy
 .
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -6990,7 +6985,7 @@ group
 :
 lazy
 .
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -7001,7 +6996,7 @@ group
 :
 lazy
 .
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -7012,7 +7007,7 @@ group
 :
 lazy
 .
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -7023,7 +7018,7 @@ group
 :
 lazy
 .
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -7034,7 +7029,7 @@ group
 :
 lazy
 .
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -7045,7 +7040,7 @@ group
 :
 lazy
 .
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -7056,7 +7051,7 @@ group
 :
 lazy
 .
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -7067,7 +7062,7 @@ group
 :
 lazy
 .
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -7087,7 +7082,7 @@ group
 :
 lazy
 .
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -7195,7 +7190,7 @@ group
 :
 lazy
 .
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -7214,7 +7209,7 @@ group
 :
 lazy
 .
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -7236,7 +7231,7 @@ group
 :
 lazy
 .
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -7314,7 +7309,7 @@ group
 :
 lazy
 .
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -7328,7 +7323,7 @@ group
 :
 lazy
 .
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -7342,7 +7337,7 @@ group
 :
 lazy
 .
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -7355,7 +7350,7 @@ group
 :
 lazy
 .
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -7371,7 +7366,7 @@ group
 :
 lazy
 .
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -7387,7 +7382,7 @@ group
 :
 lazy
 .
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -7408,7 +7403,7 @@ group
 :
 lazy
 .
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -7450,7 +7445,7 @@ group
 :
 lazy
 .
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -7464,7 +7459,7 @@ group
 :
 lazy
 .
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -7477,7 +7472,7 @@ group
 :
 lazy
 .
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -7651,7 +7646,7 @@ group
 :
 lazy
 .
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -7670,7 +7665,7 @@ group
 :
 lazy
 .
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -7692,7 +7687,7 @@ group
 :
 lazy
 .
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -7730,7 +7725,7 @@ group
 :
 lazy
 .
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -7774,7 +7769,7 @@ group
 :
 lazy
 .
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -7788,7 +7783,7 @@ group
 :
 lazy
 .
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -7802,7 +7797,7 @@ group
 :
 lazy
 .
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -7815,7 +7810,7 @@ group
 :
 lazy
 .
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -7831,7 +7826,7 @@ group
 :
 lazy
 .
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -7847,7 +7842,7 @@ group
 :
 lazy
 .
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -7869,7 +7864,7 @@ group
 :
 lazy
 .
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -7910,7 +7905,7 @@ group
 :
 lazy
 .
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -7923,7 +7918,7 @@ group
 :
 lazy
 .
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -8004,7 +7999,7 @@ group
 :
 lazy
 .
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -8015,7 +8010,7 @@ group
 :
 lazy
 .
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -8026,7 +8021,7 @@ group
 :
 lazy
 .
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -8037,7 +8032,7 @@ group
 :
 lazy
 .
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -8048,7 +8043,7 @@ group
 :
 lazy
 .
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .

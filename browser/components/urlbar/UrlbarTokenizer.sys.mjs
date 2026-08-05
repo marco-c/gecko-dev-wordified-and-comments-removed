@@ -429,9 +429,7 @@ gFluentStrings
 .
 formatValues
 (
-lazy
-.
-UrlbarUtils
+UrlbarShared
 .
 LOCAL_SEARCH_MODES
 .
@@ -501,9 +499,7 @@ englishSearchStrings
 .
 formatValues
 (
-lazy
-.
-UrlbarUtils
+UrlbarShared
 .
 LOCAL_SEARCH_MODES
 .
@@ -555,9 +551,7 @@ let
 restrict
 }
 of
-lazy
-.
-UrlbarUtils
+UrlbarShared
 .
 LOCAL_SEARCH_MODES
 )

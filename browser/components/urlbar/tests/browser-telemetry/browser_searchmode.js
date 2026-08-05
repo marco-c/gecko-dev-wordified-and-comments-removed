@@ -158,7 +158,7 @@ for
 let
 e
 of
-UrlbarUtils
+UrlbarShared
 .
 SEARCH_MODE_ENTRY
 )
@@ -267,7 +267,7 @@ for
 let
 e
 of
-UrlbarUtils
+UrlbarShared
 .
 SEARCH_MODE_ENTRY
 )

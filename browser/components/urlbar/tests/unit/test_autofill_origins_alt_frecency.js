@@ -586,7 +586,7 @@ engine
 name
 engineIconUri
 :
-UrlbarUtils
+UrlbarShared
 .
 ICON
 .

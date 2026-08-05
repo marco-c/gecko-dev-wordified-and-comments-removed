@@ -1383,7 +1383,7 @@ uri
 .
 length
 <
-UrlbarUtils
+UrlbarShared
 .
 MAX_TEXT_LENGTH
 ;

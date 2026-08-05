@@ -568,7 +568,9 @@ returns
 Values
 <
 typeof
-UrlbarUtils
+lazy
+.
+UrlbarShared
 .
 PROVIDER_TYPE
 >
@@ -581,7 +583,9 @@ type
 )
 {
 return
-UrlbarUtils
+lazy
+.
+UrlbarShared
 .
 PROVIDER_TYPE
 .
@@ -1012,7 +1016,9 @@ res
 url
 icon
 :
-UrlbarUtils
+lazy
+.
+UrlbarShared
 .
 getIconForUrl
 (
@@ -1342,7 +1348,9 @@ res
 title
 icon
 :
-UrlbarUtils
+lazy
+.
+UrlbarShared
 .
 getIconForUrl
 (

@@ -1181,7 +1181,7 @@ type
 )
 {
 return
-UrlbarUtils
+UrlbarShared
 .
 PROVIDER_TYPE
 .
@@ -1459,7 +1459,7 @@ type
 )
 {
 return
-UrlbarUtils
+UrlbarShared
 .
 PROVIDER_TYPE
 .
@@ -1678,7 +1678,7 @@ registerBasicTestProvider
 (
 matches
 undefined
-UrlbarUtils
+UrlbarShared
 .
 PROVIDER_TYPE
 .
