@@ -154,7 +154,6 @@ ClipSnap
 ClipTaskIndex
 PictureIndex
 PrimitiveKind
-SegmentInstanceIndex
 }
 ;
 use
@@ -1011,10 +1010,6 @@ kind_scratch
 :
 KindScratchHandle
 pub
-segment_instance_index
-:
-SegmentInstanceIndex
-pub
 compositor_surface_kind
 :
 CompositorSurfaceKind
@@ -1069,12 +1064,6 @@ KindScratchHandle
 :
 :
 None
-segment_instance_index
-:
-SegmentInstanceIndex
-:
-:
-UNUSED
 compositor_surface_kind
 :
 CompositorSurfaceKind
@@ -1126,15 +1115,6 @@ KindScratchHandle
 :
 :
 None
-;
-self
-.
-segment_instance_index
-=
-SegmentInstanceIndex
-:
-:
-UNUSED
 ;
 self
 .

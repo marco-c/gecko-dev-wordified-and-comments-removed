@@ -602,14 +602,9 @@ f
 float
 perspective_interpolate
 =
-float
-(
-ph
+1
 .
-user_data
-.
-y
-)
+0
 ;
 vUv
 =

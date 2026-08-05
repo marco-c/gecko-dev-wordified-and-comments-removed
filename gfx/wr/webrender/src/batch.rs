@@ -66,7 +66,6 @@ gpu_types
 :
 :
 {
-BrushFlags
 PrimitiveHeaders
 ZBufferId
 ZBufferIdGenerator
@@ -3787,16 +3786,7 @@ uv_rect_address
 as_int
 (
 )
-BrushFlags
-:
-:
-PERSPECTIVE_INTERPOLATION
-.
-bits
-(
-)
-as
-i32
+0
 0
 clip_task_address
 .
