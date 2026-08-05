@@ -2815,6 +2815,11 @@ mIsAlert
 false
 ;
 bool
+mIsInitialFullscreenSuppressed
+=
+false
+;
+bool
 mWasShown
 =
 false

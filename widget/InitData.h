@@ -224,6 +224,11 @@ mIsAnimationSuppressed
 false
 ;
 bool
+mIsInitialFullscreenSuppressed
+=
+false
+;
+bool
 mHasRemoteContent
 =
 false

@@ -21110,6 +21110,12 @@ aInitData
 .
 mIsAlert
 ;
+mIsInitialFullscreenSuppressed
+=
+aInitData
+.
+mIsInitialFullscreenSuppressed
+;
 nsresult
 rv
 =
@@ -22943,6 +22949,9 @@ mAlwaysOnTop
 |
 |
 mIsAlert
+|
+|
+mIsInitialFullscreenSuppressed
 )
 )
 {
