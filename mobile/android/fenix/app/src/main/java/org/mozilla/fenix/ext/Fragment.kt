@@ -1842,7 +1842,12 @@ isToolbarAtBottom
 {
 settings
 .
-browserToolbarHeight
+getBrowserToolbarHeight
+(
+requireContext
+(
+)
+)
 }
 else
 {
@@ -1968,7 +1973,12 @@ toolbarHeight
 =
 settings
 .
-browserToolbarHeight
+getBrowserToolbarHeight
+(
+requireContext
+(
+)
+)
 return
 if
 (

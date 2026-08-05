@@ -12817,7 +12817,12 @@ requireComponents
 .
 settings
 .
-browserToolbarHeight
+getBrowserToolbarHeight
+(
+requireContext
+(
+)
+)
 toolbarsHideCallback
 =
 {
