@@ -558,6 +558,9 @@ GRADLE_INVOKED_WITHIN_MACH_BUILD
 =
 1
 (
+PYTHON3
+)
+(
 topsrcdir
 )
 /
