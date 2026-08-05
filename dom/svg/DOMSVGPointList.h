@@ -359,12 +359,9 @@ MOZ_ASSERT
 (
 mItems
 .
-Length
+IsEmpty
 (
 )
-=
-=
-0
 |
 |
 mItems
@@ -372,7 +369,7 @@ mItems
 Length
 (
 )
-=
+<
 =
 InternalList
 (
@@ -684,7 +681,7 @@ uint32_t
 aIndex
 )
 ;
-void
+bool
 MaybeInsertNullInAnimValListAt
 (
 uint32_t

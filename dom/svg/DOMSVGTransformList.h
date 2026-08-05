@@ -380,7 +380,7 @@ mItems
 Length
 (
 )
-=
+<
 =
 InternalList
 (
@@ -777,7 +777,7 @@ uint32_t
 aIndex
 )
 ;
-void
+bool
 MaybeInsertNullInAnimValListAt
 (
 uint32_t

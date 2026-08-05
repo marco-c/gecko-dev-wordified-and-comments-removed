@@ -422,6 +422,11 @@ DOMSVGTransform
 (
 )
 ;
+void
+CleanupWeakRefs
+(
+)
+;
 friend
 class
 dom
