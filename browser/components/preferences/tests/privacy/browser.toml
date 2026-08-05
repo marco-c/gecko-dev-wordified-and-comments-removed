@@ -98,6 +98,13 @@ os_integration
 "
 [
 "
+browser_containers_dialog_size
+.
+js
+"
+]
+[
+"
 browser_containers_name_input
 .
 js
