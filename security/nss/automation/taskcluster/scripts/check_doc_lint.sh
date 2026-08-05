@@ -94,7 +94,7 @@ nss
 /
 doc
 /
-src
+rst
 "
 /
 tmp

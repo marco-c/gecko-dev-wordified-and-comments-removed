@@ -7,11 +7,11 @@ found
 in
 doc
 /
-src
+rst
 /
 runbooks
 /
 fuzzing
 .
-md
+rst
 .
