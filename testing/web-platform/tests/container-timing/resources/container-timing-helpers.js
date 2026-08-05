@@ -23,9 +23,6 @@ entry
 .
 name
 '
-container
--
-paints
 '
 )
 ;
