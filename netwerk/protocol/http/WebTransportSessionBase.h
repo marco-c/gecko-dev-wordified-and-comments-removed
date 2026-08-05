@@ -141,6 +141,16 @@ aTrackingId
 0
 ;
 virtual
+nsresult
+RegisterSendGroup
+(
+uint64_t
+aGroupId
+)
+=
+0
+;
+virtual
 void
 CreateOutgoingBidirectionalStream
 (
