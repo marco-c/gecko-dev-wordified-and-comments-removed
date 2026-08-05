@@ -516,9 +516,9 @@ contains
 python
 RustLibrary
 (
-'
+"
 crate_name
-'
+"
 )
 where
 crate_name
@@ -853,9 +853,9 @@ python
 RUST_PROGRAMS
 =
 [
-'
+"
 prog_name
-'
+"
 ]
 where
 *

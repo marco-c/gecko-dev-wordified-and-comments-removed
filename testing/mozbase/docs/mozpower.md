@@ -137,11 +137,11 @@ sampling_rate
 1000
 output_file_path
 =
-'
+"
 tempdir
 /
 dataprefix
-'
+"
 )
 mp
 .
@@ -163,9 +163,9 @@ output_dir_path
 =
 env
 [
-'
+"
 MOZ_UPLOAD_DIR
-'
+"
 ]
 )
 #
@@ -178,9 +178,9 @@ mp
 .
 get_full_perfherder_data
 (
-'
+"
 raptor
-'
+"
 )
 All
 the

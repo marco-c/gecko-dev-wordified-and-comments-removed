@@ -94,10 +94,10 @@ p
 .
 endswith
 (
-'
+"
 .
 py
-'
+"
 )
 :
 providers

@@ -2267,7 +2267,7 @@ MOCHITEST_MANIFESTS
 +
 =
 [
-'
+"
 apz
 /
 test
@@ -2275,13 +2275,13 @@ test
 mochitest
 .
 toml
-'
+"
 ]
 MOCHITEST_CHROME_MANIFESTS
 +
 =
 [
-'
+"
 apz
 /
 test
@@ -2289,7 +2289,7 @@ test
 chrome
 .
 toml
-'
+"
 ]
 <
 !

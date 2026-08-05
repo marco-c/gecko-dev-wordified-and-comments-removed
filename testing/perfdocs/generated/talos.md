@@ -2053,7 +2053,7 @@ run
 python
 tpmanifest
 =
-'
+"
 {
 talos
 }
@@ -2065,7 +2065,7 @@ svgx
 svgx
 .
 manifest
-'
+"
 tpcycles
 =
 1

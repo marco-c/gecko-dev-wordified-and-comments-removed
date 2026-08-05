@@ -94,6 +94,8 @@ build
 -
 configure
 -
+md
+-
 mozbuild
 -
 py

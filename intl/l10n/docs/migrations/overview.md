@@ -586,7 +586,7 @@ index
 "
 target
 =
-'
+"
 browser
 /
 browser
@@ -594,10 +594,10 @@ browser
 feature
 .
 ftl
-'
+"
 reference
 =
-'
+"
 browser
 /
 browser
@@ -605,7 +605,7 @@ browser
 feature
 .
 ftl
-'
+"
 ctx
 .
 add_transforms

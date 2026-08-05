@@ -2469,11 +2469,11 @@ baseline
 patched
 alternative
 =
-'
+"
 two
 -
 sided
-'
+"
 )
 effect_size
 =
