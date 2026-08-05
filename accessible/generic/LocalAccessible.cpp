@@ -4366,7 +4366,16 @@ IPCDoc
 ;
 MOZ_ASSERT
 (
-ipcDoc
+mDoc
+-
+>
+HasLoadState
+(
+DocAccessible
+:
+:
+eTreeConstructed
+)
 )
 ;
 if
