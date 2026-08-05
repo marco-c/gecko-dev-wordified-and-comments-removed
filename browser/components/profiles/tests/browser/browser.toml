@@ -772,13 +772,6 @@ Bug
 ]
 [
 "
-browser_test_nimbus_feature
-.
-js
-"
-]
-[
-"
 browser_test_profile_selector
 .
 js
