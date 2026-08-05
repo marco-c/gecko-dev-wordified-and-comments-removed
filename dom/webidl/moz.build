@@ -6567,6 +6567,11 @@ WebTransportError
 webidl
 "
 "
+WebTransportSendGroup
+.
+webidl
+"
+"
 WebTransportSendReceiveStream
 .
 webidl
