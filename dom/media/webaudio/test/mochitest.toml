@@ -76,6 +76,11 @@ audioBufferSourceNodeDetached_worker
 js
 "
 "
+bug2038465_varying_channels
+.
+flac
+"
+"
 corsServer
 .
 sjs
@@ -1156,6 +1161,13 @@ html
 [
 "
 test_audioContextParams_sampleRate
+.
+html
+"
+]
+[
+"
+test_bug2038465
 .
 html
 "
