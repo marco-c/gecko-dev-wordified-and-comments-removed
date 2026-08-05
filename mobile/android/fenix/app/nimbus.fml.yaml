@@ -2084,7 +2084,7 @@ be
 enabled
 default
 :
-false
+true
 defaults
 :
 -
@@ -2095,7 +2095,7 @@ value
 :
 enabled
 :
-false
+true
 -
 channel
 :
@@ -2104,7 +2104,7 @@ value
 :
 enabled
 :
-false
+true
 -
 channel
 :
@@ -2113,7 +2113,7 @@ value
 :
 enabled
 :
-false
+true
 import
 -
 bookmarks
