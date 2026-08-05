@@ -1272,6 +1272,13 @@ CrashTime
 1234
 "
 "
+InstallTime
+"
+:
+"
+1784641473
+"
+"
 LastInteractionDuration
 "
 :
