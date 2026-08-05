@@ -429,7 +429,6 @@ SurfaceTileDescriptor
 get_surface_rects
 }
 ;
-pub
 use
 crate
 :
@@ -442,16 +441,6 @@ SurfaceIndex
 SurfaceInfo
 SubpixelMode
 }
-;
-pub
-use
-crate
-:
-:
-surface
-:
-:
-calculate_screen_uv
 ;
 use
 smallvec
@@ -570,7 +559,6 @@ tile_cache
 :
 MAX_SURFACE_SIZE
 ;
-pub
 use
 crate
 :

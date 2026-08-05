@@ -127,7 +127,7 @@ use
 crate
 :
 :
-picture
+surface
 :
 :
 SurfaceInfo

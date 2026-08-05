@@ -32,8 +32,16 @@ crate
 picture
 :
 :
-{
 PictureInstance
+;
+use
+crate
+:
+:
+surface
+:
+:
+{
 SurfaceIndex
 SurfaceInfo
 }

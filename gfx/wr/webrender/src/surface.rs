@@ -46,7 +46,7 @@ use
 crate
 :
 :
-picture
+picture_composite_mode
 :
 :
 PictureCompositeMode

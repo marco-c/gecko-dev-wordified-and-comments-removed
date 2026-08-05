@@ -226,10 +226,17 @@ picture
 :
 {
 SurfaceTextureDescriptor
-PictureCompositeMode
-SurfaceIndex
 clamp
 }
+;
+use
+crate
+:
+:
+picture_composite_mode
+:
+:
+PictureCompositeMode
 ;
 use
 crate
@@ -372,6 +379,7 @@ surface
 :
 {
 SubpixelMode
+SurfaceIndex
 SurfaceInfo
 }
 ;
