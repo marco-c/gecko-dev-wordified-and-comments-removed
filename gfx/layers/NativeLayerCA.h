@@ -937,6 +937,8 @@ EnqueueSurface
 (
 IOSurfaceRef
 aSurfaceRef
+bool
+aIsHDR
 )
 ;
 bool
@@ -1023,9 +1025,11 @@ DeviceColor
 &
 aColor
 bool
+aIsVideo
+bool
 aIsDRM
 bool
-aIsVideo
+aIsHDR
 )
 ;
 NativeLayerCAUpdateType
@@ -1131,6 +1135,11 @@ mMutatedSpecializeVideo
 ;
 bool
 mMutatedIsDRM
+:
+1
+;
+bool
+mMutatedIsHDR
 :
 1
 ;
