@@ -1617,8 +1617,7 @@ void
 FlushDirtyOriginInfos
 (
 )
-{
-}
+;
 private
 :
 nsresult
