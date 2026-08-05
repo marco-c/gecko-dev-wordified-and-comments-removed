@@ -864,7 +864,7 @@ SumoTopic
 VPN
 useMobilePage
 =
-false
+true
 )
 )
 }
