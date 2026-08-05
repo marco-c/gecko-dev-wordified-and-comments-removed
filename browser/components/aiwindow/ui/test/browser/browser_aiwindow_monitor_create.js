@@ -1463,6 +1463,13 @@ true
 }
 )
 ;
+await
+MonitorAgent
+.
+_resetForTesting
+(
+)
+;
 const
 initialMonitors
 =
@@ -2163,6 +2170,13 @@ BrowserTestUtils
 removeTab
 (
 tab
+)
+;
+await
+MonitorAgent
+.
+_resetForTesting
+(
 )
 ;
 await
