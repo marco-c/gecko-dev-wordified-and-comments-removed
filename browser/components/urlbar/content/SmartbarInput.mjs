@@ -33141,7 +33141,7 @@ value
 =
 lazy
 .
-UrlbarUtils
+UrlbarPrefs
 .
 isPersistedSearchTermsEnabled
 (
@@ -37751,7 +37751,7 @@ if
 !
 lazy
 .
-UrlbarUtils
+UrlbarPrefs
 .
 isPersistedSearchTermsEnabled
 (
