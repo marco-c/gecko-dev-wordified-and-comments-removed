@@ -14,6 +14,13 @@ os_integration
 "
 [
 "
+test_contextual_password_manager_disabled
+.
+py
+"
+]
+[
+"
 test_default_launcher_visible
 .
 py
