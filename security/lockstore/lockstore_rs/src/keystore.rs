@@ -265,6 +265,17 @@ KekType
 kek_ref
 :
 String
+#
+[
+serde
+(
+rename
+=
+"
+wrapped_dek
+"
+)
+]
 dek
 :
 Vec
