@@ -851,7 +851,10 @@ budget
 =
 SliceBudget
 (
-TimeBudget
+TimeDuration
+:
+:
+FromMilliseconds
 (
 2
 )

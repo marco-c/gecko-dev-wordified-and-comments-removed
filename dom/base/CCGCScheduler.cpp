@@ -2720,13 +2720,7 @@ JS
 :
 SliceBudget
 (
-JS
-:
-:
-TimeBudget
-(
 baseBudget
-)
 )
 ;
 }
@@ -2856,11 +2850,6 @@ JS
 :
 SliceBudget
 (
-JS
-:
-:
-TimeBudget
-(
 std
 :
 :
@@ -2871,7 +2860,6 @@ delaySliceBudget
 laterSliceBudget
 baseBudget
 }
-)
 )
 )
 ;
@@ -2998,13 +2986,7 @@ JS
 :
 SliceBudget
 (
-JS
-:
-:
-TimeBudget
-(
 extendedBudget
-)
 nullptr
 )
 ;
