@@ -22836,6 +22836,16 @@ body
 kNameSpaceID_XHTML
 false
 true
+nsContentUtils
+:
+:
+kParseFragmentPrivilegedDefaultSanitization
+mozilla
+:
+:
+Nothing
+(
+)
 )
 ;
 NS_WARNING_ASSERTION

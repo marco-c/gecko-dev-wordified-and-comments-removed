@@ -704,6 +704,7 @@ aCreator
 .
 html
 intendedParent
+mCustomElementRegistry
 )
 ;
 }
