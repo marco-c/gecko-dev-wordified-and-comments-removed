@@ -15226,7 +15226,7 @@ onQueryResultRemoved
 (
 result
 .
-rowIndex
+id
 )
 ;
 return
