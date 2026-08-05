@@ -42,7 +42,7 @@ path
 extension
 =
 "
-rst
+md
 "
 )
 :

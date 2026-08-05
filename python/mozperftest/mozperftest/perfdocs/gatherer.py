@@ -74,7 +74,7 @@ ALLOWED_STATIC_FILETYPES
 =
 (
 "
-rst
+md
 "
 "
 png
@@ -561,7 +561,7 @@ file
 "
 index
 .
-rst
+md
 "
 :
                     
@@ -581,7 +581,7 @@ file
 "
 metrics
 .
-rst
+md
 "
 :
                     

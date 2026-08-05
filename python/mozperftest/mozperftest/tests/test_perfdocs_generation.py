@@ -233,7 +233,7 @@ temp_file
 "
 index
 .
-rst
+md
 "
 tempdir
 =
@@ -446,7 +446,7 @@ temp_file
 "
 metrics
 .
-rst
+md
 "
         
 tempdir
@@ -603,7 +603,7 @@ temp_file
 "
 index
 .
-rst
+md
 "
 tempdir
 =
@@ -638,7 +638,7 @@ raptor
 -
 metrics
 .
-rst
+md
 "
 )
 .
@@ -699,7 +699,7 @@ perfdocs_path
 "
 raptor
 .
-rst
+md
 "
 )
 .
@@ -1031,7 +1031,7 @@ temp_file
 "
 index
 .
-rst
+md
 "
 tempdir
 =
@@ -1237,7 +1237,7 @@ docs
 :
 index
 .
-rst
+md
 "
         
 "
@@ -1248,7 +1248,7 @@ docs
 :
 mozperftest
 .
-rst
+md
 "
     
 )
@@ -1478,7 +1478,7 @@ temp_file
 "
 index
 .
-rst
+md
 "
 tempdir
 =
@@ -1791,7 +1791,7 @@ temp_file
 "
 index
 .
-rst
+md
 "
 tempdir
 =
@@ -1841,12 +1841,12 @@ expected_files
 "
 index
 .
-rst
+md
 "
 "
 mozperftest
 .
-rst
+md
 "
 ]
     
@@ -1908,9 +1908,9 @@ filedata
 =
 "
 *
-:
+{
 doc
-:
+}
 mozperftest
 "
 mock
@@ -2462,7 +2462,7 @@ temp_file
 "
 index
 .
-rst
+md
 "
 tempdir
 =
@@ -2498,12 +2498,12 @@ expected
 "
 index
 .
-rst
+md
 "
 "
 mozperftest
 .
-rst
+md
 "
 ]
     
@@ -2683,7 +2683,7 @@ temp_file
 "
 index
 .
-rst
+md
 "
 tempdir
 =
