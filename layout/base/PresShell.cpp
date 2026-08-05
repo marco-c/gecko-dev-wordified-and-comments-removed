@@ -42567,9 +42567,10 @@ GetOutEventTarget
 :
 nullptr
 ;
+nsCOMPtr
+<
 nsIContent
-*
-const
+>
 deepestLeaveEventTarget
 =
 boundaryEventTargets
