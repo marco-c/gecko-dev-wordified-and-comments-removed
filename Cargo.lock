@@ -13904,6 +13904,9 @@ dependencies
 =
 [
 "
+nsstring
+"
+"
 skrifa
 "
 ]
