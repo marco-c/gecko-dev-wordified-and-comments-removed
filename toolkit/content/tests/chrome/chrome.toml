@@ -1,11 +1,6 @@
 [
 DEFAULT
 ]
-dupe
--
-manifest
-=
-true
 support
 -
 files
@@ -268,15 +263,6 @@ font_rendering
 fallback
 .
 async
-=
-false
-"
-"
-browser
-.
-nova
-.
-enabled
 =
 false
 "
