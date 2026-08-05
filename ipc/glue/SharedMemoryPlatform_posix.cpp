@@ -671,6 +671,9 @@ unsigned
 aMaybeFlags
 )
 {
+#
+ifdef
+USE_MEMFD_CREATE
 return
 aMaybeFlags
 &
@@ -682,6 +685,13 @@ aMaybeFlags
 MFD_ALLOW_SEALING
 )
 ;
+#
+else
+return
+false
+;
+#
+endif
 }
 bool
 AppendPosixShmPrefix
