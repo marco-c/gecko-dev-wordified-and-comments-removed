@@ -715,6 +715,12 @@ p
 =
 nullptr
 )
+{
+left_len
+-
+=
+1
+;
 memmove
 (
 left
@@ -726,6 +732,7 @@ left_len
 1
 )
 ;
+}
 if
 (
 resolved
