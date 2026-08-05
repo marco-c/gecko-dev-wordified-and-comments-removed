@@ -12697,6 +12697,15 @@ pc
 =
 CreatePeerConnection
 (
+"
+WebRTC
+-
+NoSdpMangleAllowForTesting
+/
+Enabled
+1
+/
+"
 )
 ;
 pc
