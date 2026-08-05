@@ -187,6 +187,9 @@ mod
 prim_geometry
 ;
 mod
+fast_transform
+;
+mod
 tile_pool
 ;
 pub
@@ -259,6 +262,16 @@ crate
 :
 :
 tile_pool
+:
+:
+*
+;
+pub
+use
+crate
+:
+:
+fast_transform
 :
 :
 *
