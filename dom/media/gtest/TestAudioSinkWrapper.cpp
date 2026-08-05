@@ -1651,6 +1651,10 @@ KeepProcessing
 InvalidState
 )
 {
+ProcessPending
+(
+)
+;
 return
 r
 ;
@@ -1734,10 +1738,6 @@ r
 DriveCallback
 (
 kCallbackFrames
-)
-;
-ProcessPending
-(
 )
 ;
 played
@@ -1879,10 +1879,6 @@ true
 DriveCallback
 (
 aPlayFrames
-)
-;
-ProcessPending
-(
 )
 ;
 nsTArray
