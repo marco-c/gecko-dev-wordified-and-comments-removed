@@ -1973,6 +1973,17 @@ aRec
 )
 ;
 void
+DedupePrefetchRecords
+(
+dom
+:
+:
+PrefetchRecordParent
+*
+aJustCompleted
+)
+;
+void
 UpdateFullscreenKeyboardLockStatus
 (
 FullscreenKeyboardLock
