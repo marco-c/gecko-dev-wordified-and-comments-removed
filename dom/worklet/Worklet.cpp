@@ -15,6 +15,17 @@ h
 #
 include
 "
+js
+/
+loader
+/
+ResolveResult
+.
+h
+"
+#
+include
+"
 mozilla
 /
 dom
