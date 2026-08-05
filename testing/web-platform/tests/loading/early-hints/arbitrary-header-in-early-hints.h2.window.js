@@ -1,10 +1,3 @@
-test
-(
-(
-)
-=
->
-{
 const
 test_url
 =
@@ -26,11 +19,9 @@ h2
 py
 "
 ;
-window
-.
-location
-.
-replace
+fetch_tests_from_window
+(
+openWindow
 (
 new
 URL
@@ -41,7 +32,5 @@ window
 location
 )
 )
-;
-}
 )
 ;

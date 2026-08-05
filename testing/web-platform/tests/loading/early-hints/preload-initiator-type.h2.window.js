@@ -1,10 +1,3 @@
-test
-(
-(
-)
-=
->
-{
 const
 preloads
 =
@@ -36,6 +29,8 @@ script
 }
 ]
 ;
+fetch_tests_from_window
+(
 navigateToTestWithEarlyHints
 (
 "
@@ -51,7 +46,5 @@ html
 "
 preloads
 )
-;
-}
 )
 ;
