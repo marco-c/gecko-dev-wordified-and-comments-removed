@@ -442,6 +442,25 @@ responses
 .
 add_passthru
 (
+"
+https
+:
+/
+/
+product
+-
+details
+.
+mozilla
+.
+org
+"
+)
+        
+responses
+.
+add_passthru
+(
 ROOT_URL
 )
         
