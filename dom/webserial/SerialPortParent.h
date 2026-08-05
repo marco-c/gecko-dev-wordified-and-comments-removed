@@ -405,6 +405,11 @@ mPipeCapacity
 =
 0
 ;
+bool
+mDetectParityErrors
+=
+false
+;
 RefPtr
 <
 mozilla

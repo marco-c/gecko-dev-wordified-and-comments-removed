@@ -827,6 +827,8 @@ nsString
 aPortId
 uint32_t
 aBufferSize
+bool
+aDetectParityErrors
 nsIAsyncInputStream
 *
 *
@@ -861,6 +863,7 @@ GetReadStreamImpl
 (
 aPortId
 aBufferSize
+aDetectParityErrors
 aStream
 )
 ;
