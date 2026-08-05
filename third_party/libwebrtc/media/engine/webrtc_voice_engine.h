@@ -769,6 +769,16 @@ AudioOptions
 options
 )
 ;
+void
+ApplyGlobalOptions
+(
+const
+AudioOptions
+&
+options
+)
+override
+;
 AudioDeviceModule
 *
 adm

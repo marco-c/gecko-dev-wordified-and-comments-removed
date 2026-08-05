@@ -5275,6 +5275,17 @@ GetAudioDeviceStats
 )
 override
 ;
+void
+ApplyGlobalOptions
+(
+const
+AudioOptions
+&
+options
+)
+override
+{
+}
 std
 :
 :

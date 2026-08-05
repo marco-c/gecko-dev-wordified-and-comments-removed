@@ -1028,6 +1028,12 @@ max_packets
 )
 override
 {
+config_
+.
+jitter_buffer_max_packets
+=
+max_packets
+;
 }
 void
 SetJitterBufferFastAccelerate
@@ -1037,6 +1043,12 @@ fast_accelerate
 )
 override
 {
+config_
+.
+jitter_buffer_fast_accelerate
+=
+fast_accelerate
+;
 }
 bool
 SetBaseMinimumPlayoutDelayMs
