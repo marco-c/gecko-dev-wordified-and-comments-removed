@@ -629,7 +629,7 @@ supported
 flavors
 see
 the
-mozperftest
+MozPerftest
 writing
 guide
 <
@@ -2466,7 +2466,7 @@ full
 documentation
 on
 the
-browsertime
+Browsertime
 scripting
 API
 see
@@ -2837,7 +2837,7 @@ binary
 on
 desktop
 .
-Mozperftest
+MozPerftest
 verifies
 that
 it
@@ -2856,7 +2856,7 @@ perfMetrics
 line
 is
 what
-mozperftest
+MozPerftest
 parses
 for
 results
@@ -3858,7 +3858,7 @@ is
 larger
 than
 for
-mozperftest
+MozPerftest
 tests
 -
 -
@@ -4653,7 +4653,7 @@ kinds
 directory
 :
 -
-mozperftest
+MozPerftest
 :
 taskcluster
 /
@@ -4758,7 +4758,7 @@ For
 xpcshell
 and
 mochitest
-mozperftest
+MozPerftest
 tests
 you
 may

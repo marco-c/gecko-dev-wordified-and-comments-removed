@@ -3878,7 +3878,7 @@ faster
 .
 This
 affects
-talos
+Talos
 numbers
 as
 we

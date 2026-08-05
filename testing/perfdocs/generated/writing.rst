@@ -941,7 +941,7 @@ to
 be
 compatible
 with
-mozperftest
+MozPerftest
 but
 note
 that
@@ -999,7 +999,7 @@ performance
 tests
 .
 Locally
-mozperftest
+MozPerftest
 uses
 .
 /
@@ -1643,7 +1643,7 @@ same
 as
 other
 android
-mozperftest
+MozPerftest
 tests
 .
 Note

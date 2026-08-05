@@ -214,7 +214,7 @@ uses
 a
 tool
 called
-Mitmproxy
+mitmproxy
 <
 https
 :
@@ -236,7 +236,7 @@ Mitmproxy
 >
 _
 .
-Mitmproxy
+mitmproxy
 allows
 us
 to
@@ -252,7 +252,7 @@ Firefox
 proxy
 .
 The
-Mitmproxy
+mitmproxy
 recordings
 are
 stored
@@ -4375,7 +4375,7 @@ i
 .
 e
 .
-Mitmproxy
+mitmproxy
 )
 and
 will
@@ -5969,7 +5969,7 @@ suites
 )
 use
 the
-Mitmproxy
+mitmproxy
 <
 https
 :
@@ -6003,7 +6003,7 @@ please
 see
 Raptor
 and
-Mitmproxy
+mitmproxy
 <
 https
 :

@@ -371,7 +371,7 @@ our
 pageloader
 extension
 and
-talos
+Talos
 harness
 .
 a11yr
@@ -17574,7 +17574,7 @@ our
 pageloader
 extension
 and
-talos
+Talos
 harness
 .
 -
@@ -18567,7 +18567,7 @@ suite
 is
 a
 unique
-talos
+Talos
 suite
 where
 each
@@ -18735,12 +18735,12 @@ local
 .
 json
 '
-talos
+Talos
 output
 file
 when
 running
-talos
+Talos
 locally
 .
 In
@@ -38906,7 +38906,7 @@ our
 pageloader
 extension
 and
-talos
+Talos
 harness
 .
 The

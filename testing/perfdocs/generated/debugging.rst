@@ -1408,7 +1408,7 @@ TP6
 and
 Killing
 the
-Mitmproxy
+mitmproxy
 Server
 -
 -
@@ -1463,7 +1463,7 @@ pageload
 tests
 that
 use
-Mitmproxy
+mitmproxy
 (
 i
 .
@@ -1486,7 +1486,7 @@ doesn
 t
 stop
 the
-Mitmproxy
+mitmproxy
 tool
 the
 next
@@ -1543,7 +1543,7 @@ returned
 This
 means
 the
-Mitmproxy
+mitmproxy
 server
 was
 already
@@ -1564,7 +1564,7 @@ need
 to
 kill
 the
-Mitmproxy
+mitmproxy
 server
 processes
 i
@@ -1805,7 +1805,7 @@ run
 Raptor
 again
 the
-Mitmproxy
+mitmproxy
 server
 will
 be

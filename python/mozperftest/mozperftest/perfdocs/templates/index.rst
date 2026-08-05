@@ -85,7 +85,7 @@ types
 of
 tests
 but
-mozperftest
+MozPerftest
 <
 /
 testing
@@ -289,7 +289,7 @@ etc
 .
 .
 *
-Mozperftest
+MozPerftest
 -
 Owner
 :
@@ -312,7 +312,7 @@ run
 performance
 tests
 *
-Mozperftest
+MozPerftest
 Tools
 -
 Owner
@@ -548,7 +548,7 @@ test
 running
 in
 the
-mozperftest
+MozPerftest
 framework
 used
 as

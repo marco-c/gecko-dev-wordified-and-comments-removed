@@ -2608,7 +2608,7 @@ base
 revision
 .
 Although
-talos
+Talos
 is
 set
 at

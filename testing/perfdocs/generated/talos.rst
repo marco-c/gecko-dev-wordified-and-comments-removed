@@ -37,7 +37,7 @@ to
 the
 newer
 framework
-mozperftest
+MozPerftest
 <
 /
 testing
@@ -1855,7 +1855,7 @@ load
 Many
 of
 the
-talos
+Talos
 tests
 use
 the
@@ -3233,7 +3233,7 @@ not
 part
 of
 the
-talos
+Talos
 repository
 but
 without
@@ -3306,7 +3306,7 @@ it
 by
 running
 a
-talos
+Talos
 test
 locally
 to
@@ -3964,7 +3964,7 @@ our
 pageloader
 extension
 and
-talos
+Talos
 harness
 .
 *
@@ -25157,7 +25157,7 @@ our
 pageloader
 extension
 and
-talos
+Talos
 harness
 .
 *
@@ -39159,7 +39159,7 @@ suite
 is
 a
 unique
-talos
+Talos
 suite
 where
 each
@@ -39327,12 +39327,12 @@ local
 .
 json
 '
-talos
+Talos
 output
 file
 when
 running
-talos
+Talos
 locally
 .
 In
@@ -75252,7 +75252,7 @@ our
 pageloader
 extension
 and
-talos
+Talos
 harness
 .
 The

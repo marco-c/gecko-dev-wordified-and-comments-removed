@@ -1,6 +1,6 @@
 Developing
 in
-mozperftest
+MozPerftest
 =
 =
 =
@@ -49,7 +49,7 @@ overview
 -
 -
 -
-mozperftest
+MozPerftest
 implements
 a
 mach
@@ -788,7 +788,7 @@ layers
 -
 *
 *
-mozperftest
+MozPerftest
 *
 *
 can
@@ -1015,7 +1015,7 @@ landing
 a
 patch
 for
-mozperftest
+MozPerftest
 make
 sure
 you

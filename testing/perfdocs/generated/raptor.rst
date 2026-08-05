@@ -74825,10 +74825,10 @@ Used
 to
 run
 vanilla
-browsertime
+Browsertime
 tests
 through
-raptor
+Raptor
 .
 For
 example

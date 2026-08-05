@@ -390,7 +390,7 @@ that
 are
 built
 into
-raptor
+Raptor
 .
 You
 can
@@ -442,7 +442,7 @@ run
 performance
 tests
 through
-browsertime
+Browsertime
 listed
 below
 .
@@ -1031,7 +1031,7 @@ the
 pageComplete
 check
 in
-browsertime
+Browsertime
 completes
 .
 Running
@@ -1313,7 +1313,7 @@ appropriate
 safaridriver
 binary
 and
-browsertime
+Browsertime
 (
 via
 selenium
@@ -1588,7 +1588,7 @@ adding
 to
 the
 base
-raptor
+Raptor
 command
 the
 additional
@@ -2650,7 +2650,7 @@ run
 all
 of
 our
-browsertime
+Browsertime
 pageload
 tests
 through
@@ -3271,7 +3271,7 @@ Browsertime
 -
 -
 With
-browsertime
+Browsertime
 you
 can
 now
@@ -4272,7 +4272,7 @@ Tree
 To
 upgrade
 the
-browsertime
+Browsertime
 version
 used
 in
@@ -4347,7 +4347,7 @@ the
 upgrade
 run
 a
-raptor
+Raptor
 test
 locally
 (
@@ -4826,7 +4826,7 @@ push
 then
 trigger
 the
-browsertime
+Browsertime
 tests
 which
 will

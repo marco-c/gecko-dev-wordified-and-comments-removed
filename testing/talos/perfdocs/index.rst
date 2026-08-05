@@ -37,7 +37,7 @@ to
 the
 newer
 framework
-mozperftest
+MozPerftest
 <
 /
 testing
@@ -1855,7 +1855,7 @@ load
 Many
 of
 the
-talos
+Talos
 tests
 use
 the
@@ -3233,7 +3233,7 @@ not
 part
 of
 the
-talos
+Talos
 repository
 but
 without
@@ -3306,7 +3306,7 @@ it
 by
 running
 a
-talos
+Talos
 test
 locally
 to

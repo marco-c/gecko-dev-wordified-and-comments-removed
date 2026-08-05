@@ -6,7 +6,7 @@ Vision
 =
 =
 The
-mozperftest
+MozPerftest
 project
 was
 created
@@ -129,7 +129,7 @@ a
 wrapper
 around
 the
-browsertime
+Browsertime
 tool
 .
 All
@@ -171,7 +171,7 @@ the
 Browsertime
 framework
 .
-mozperftest
+MozPerftest
 currently
 provides
 the
@@ -521,7 +521,7 @@ running
 a
 *
 *
-raptor
+Raptor
 *
 *
 test

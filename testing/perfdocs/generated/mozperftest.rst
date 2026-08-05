@@ -9,7 +9,7 @@
 =
 =
 =
-Mozperftest
+MozPerftest
 =
 =
 =
@@ -23,7 +23,7 @@ Mozperftest
 =
 *
 *
-Mozperftest
+MozPerftest
 *
 *
 can
@@ -52,7 +52,7 @@ testing
 we
 have
 for
-mozperftest
+MozPerftest
 .
 If
 the

@@ -2749,9 +2749,9 @@ This
 works
 for
 any
-browsertime
+Browsertime
 /
-raptor
+Raptor
 test
 (
 tp6
@@ -2763,7 +2763,7 @@ etc
 as
 well
 as
-mozperftest
+MozPerftest
 tests
 .
 The
@@ -3099,7 +3099,7 @@ the
 task
 .
 For
-raptor
+Raptor
 this
 is
 the
@@ -3111,7 +3111,7 @@ by
 test
 .
 For
-talos
+Talos
 it
 can
 either
