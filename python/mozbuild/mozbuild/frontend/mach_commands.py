@@ -1909,6 +1909,14 @@ topsrcdir
 find_dotfiles
 =
 True
+ignore
+=
+[
+"
+.
+hg
+"
+]
 )
     
 for
