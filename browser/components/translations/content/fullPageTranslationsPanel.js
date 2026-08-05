@@ -1658,6 +1658,8 @@ returns
 Promise
 <
 LangTags
+|
+null
 >
 }
 *
@@ -1682,7 +1684,7 @@ gBrowser
 selectedBrowser
 )
 .
-getDetectedLanguages
+getLangTags
 (
 )
 ;
@@ -1731,6 +1733,8 @@ returns
 Promise
 <
 LangTags
+|
+null
 >
 }
 *
