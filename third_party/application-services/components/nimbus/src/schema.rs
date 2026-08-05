@@ -1903,6 +1903,7 @@ UserId
 [
 derive
 (
+Clone
 Default
 )
 ]
@@ -2029,20 +2030,12 @@ to_string
 pub
 fn
 get_value
-<
-'
-a
->
 (
 &
-'
-a
 self
 wanted
 :
 &
-'
-a
 RandomizationUnit
 )
 -
@@ -2050,8 +2043,6 @@ RandomizationUnit
 Option
 <
 &
-'
-a
 str
 >
 {

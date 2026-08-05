@@ -2582,6 +2582,9 @@ NimbusError
 boolean
 eval_jexl
 (
+[
+ByRef
+]
 string
 expression
 )
@@ -2617,6 +2620,9 @@ NimbusError
 string
 eval_jexl_debug
 (
+[
+ByRef
+]
 string
 expression
 )

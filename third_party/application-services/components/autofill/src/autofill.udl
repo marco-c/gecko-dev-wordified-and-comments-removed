@@ -905,6 +905,11 @@ run_maintenance
 (
 )
 ;
+void
+shutdown
+(
+)
+;
 [
 Self
 =

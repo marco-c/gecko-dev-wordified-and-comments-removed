@@ -325,9 +325,7 @@ and
 or
 set
 environment
-variables
-ANDROID_SDK_ROOT
-and
+variable
 ANDROID_HOME
 .
 In

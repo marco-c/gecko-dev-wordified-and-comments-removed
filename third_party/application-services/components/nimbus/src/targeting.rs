@@ -366,7 +366,8 @@ eval_jexl
 self
 expr
 :
-String
+&
+str
 )
 -
 >
@@ -396,7 +397,6 @@ stateful
 {
 jexl_eval
 (
-&
 expr
 &
 self
@@ -422,7 +422,6 @@ else
 {
 jexl_eval
 (
-&
 expr
 &
 self
@@ -451,7 +450,8 @@ eval_jexl_debug
 self
 expression
 :
-String
+&
+str
 )
 -
 >
@@ -465,7 +465,6 @@ eval_result
 =
 jexl_eval_raw
 (
-&
 expression
 &
 self

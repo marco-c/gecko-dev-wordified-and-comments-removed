@@ -154,7 +154,7 @@ UniFFIScaffolding
 .
 callSync
 (
-203
+204
 /
 /
 uniffi_tracing_support_fn_func_register_event_sink
@@ -220,7 +220,7 @@ UniFFIScaffolding
 .
 callSync
 (
-204
+205
 /
 /
 uniffi_tracing_support_fn_func_unregister_event_sink
