@@ -9207,7 +9207,7 @@ fingerprint
 SSLFingerprint
 :
 :
-CreateUniqueFromRfc4572
+CreateFromRfc4572
 (
 algorithm
 fields
@@ -9218,9 +9218,11 @@ fields
 ;
 if
 (
-!
 *
 fingerprint
+=
+=
+nullptr
 )
 {
 return

@@ -2858,7 +2858,7 @@ good_fingerprint
 SSLFingerprint
 :
 :
-CreateUnique
+Create
 (
 digest_algorithm
 *
@@ -2872,8 +2872,8 @@ identity
 ;
 ASSERT_NE
 (
-nullptr
 good_fingerprint
+nullptr
 )
 ;
 EXPECT_TRUE
