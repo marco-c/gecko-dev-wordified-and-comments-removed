@@ -76,7 +76,7 @@ nova
 .
 enabled
 =
-false
+true
 "
 ]
 [
