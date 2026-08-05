@@ -3972,6 +3972,11 @@ showShortcuts
 settings
 .
 showTopSitesFeature
+showSaveToCollection
+=
+settings
+.
+collections
 isAndroidAutomotiveAvailable
 =
 context

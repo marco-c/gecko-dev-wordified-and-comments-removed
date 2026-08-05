@@ -306,6 +306,9 @@ TranslationInfo
 showShortcuts
 :
 Boolean
+showSaveToCollection
+:
+Boolean
 isAndroidAutomotiveAvailable
 :
 Boolean
@@ -466,6 +469,9 @@ onAddToHomeScreenMenuClick
 )
 SaveToCollectionMenuItem
 (
+showSaveToCollection
+=
+showSaveToCollection
 onSaveToCollectionMenuClick
 =
 onSaveToCollectionMenuClick
@@ -711,6 +717,9 @@ private
 fun
 SaveToCollectionMenuItem
 (
+showSaveToCollection
+:
+Boolean
 onSaveToCollectionMenuClick
 :
 (
@@ -718,6 +727,11 @@ onSaveToCollectionMenuClick
 -
 >
 Unit
+)
+{
+if
+(
+showSaveToCollection
 )
 {
 MenuItem
@@ -750,6 +764,7 @@ onClick
 =
 onSaveToCollectionMenuClick
 )
+}
 }
 Composable
 private
@@ -1372,6 +1387,9 @@ onTranslatePageMenuClick
 showShortcuts
 =
 true
+showSaveToCollection
+=
+true
 isAndroidAutomotiveAvailable
 =
 false
@@ -1549,6 +1567,9 @@ onTranslatePageMenuClick
 }
 )
 showShortcuts
+=
+true
+showSaveToCollection
 =
 true
 isAndroidAutomotiveAvailable

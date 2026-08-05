@@ -3797,6 +3797,11 @@ canShowCfr
 settings
 .
 cfrPopupsEnabled
+collectionsEnabled
+=
+settings
+.
+collections
 )
 )
 }
