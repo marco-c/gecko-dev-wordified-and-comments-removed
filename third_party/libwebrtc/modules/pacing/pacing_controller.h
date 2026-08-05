@@ -402,6 +402,15 @@ PacerConfig
 :
 kDefaultTimeInterval
 ;
+std
+:
+:
+optional
+<
+PacerConfig
+>
+initial_pacer_config
+;
 }
 ;
 static
