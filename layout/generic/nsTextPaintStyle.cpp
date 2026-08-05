@@ -26,17 +26,6 @@ h
 #
 include
 "
-mozilla
-/
-dom
-/
-Document
-.
-h
-"
-#
-include
-"
 nsCSSColorUtils
 .
 h
