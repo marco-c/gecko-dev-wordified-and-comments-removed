@@ -3673,8 +3673,15 @@ if
 (
 !
 bc
-|
-|
+)
+{
+return
+-
+1
+;
+}
+if
+(
 bcID
 =
 =
@@ -3791,7 +3798,8 @@ loadInfo
 ;
 }
 return
-0
+-
+1
 ;
 }
 int64_t

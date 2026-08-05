@@ -449,7 +449,8 @@ canModify
 false
 frameId
 :
-0
+-
+1
 parentFrameId
 :
 -
@@ -2508,6 +2509,10 @@ null
 documentURI
 :
 null
+frameId
+:
+-
+1
 documentInnerWindowId
 :
 0

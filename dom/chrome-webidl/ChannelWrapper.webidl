@@ -1851,7 +1851,6 @@ the
 request
 belongs
 to
-or
 0
 if
 it
@@ -1863,12 +1862,17 @@ top
 level
 load
 or
+-
+1
+if
+the
+request
 does
 not
 belong
 to
 a
-document
+frame
 .
 *
 /
