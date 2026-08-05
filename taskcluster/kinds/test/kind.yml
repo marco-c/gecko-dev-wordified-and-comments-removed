@@ -286,7 +286,7 @@ use
 -
 python
 :
-system
+default
 use
 -
 uv
@@ -557,7 +557,9 @@ stacks
 -
 linux64
 -
-2404
+python3
+.
+9
 -
 dbus
 -
