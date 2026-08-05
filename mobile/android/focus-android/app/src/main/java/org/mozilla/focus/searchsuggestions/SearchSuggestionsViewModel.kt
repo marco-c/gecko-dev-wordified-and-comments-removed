@@ -73,6 +73,14 @@ Application
 import
 androidx
 .
+compose
+.
+runtime
+.
+Stable
+import
+androidx
+.
 lifecycle
 .
 AndroidViewModel
@@ -244,6 +252,7 @@ suggestions
 .
 *
 /
+Stable
 class
 SearchSuggestionsViewModel
 (
