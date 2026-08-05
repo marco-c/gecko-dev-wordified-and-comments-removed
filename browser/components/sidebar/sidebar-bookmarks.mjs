@@ -1288,11 +1288,18 @@ nodes
 for
 (
 const
+[
+index
 item
+]
 of
 list
 .
 tabItems
+.
+entries
+(
+)
 )
 {
 const
@@ -1318,6 +1325,7 @@ this
 collectNodesFromFolder
 (
 item
+index
 list
 nodes
 )
@@ -1332,6 +1340,7 @@ push
 {
 list
 item
+index
 type
 :
 item
@@ -1388,6 +1397,7 @@ guid
 collectNodesFromFolder
 (
 folder
+index
 list
 nodes
 )
@@ -1425,6 +1435,7 @@ list
 item
 :
 folder
+index
 type
 :
 "
@@ -1512,6 +1523,7 @@ list
 item
 :
 folder
+index
 type
 :
 "
@@ -6812,6 +6824,14 @@ add
 )
 ;
 }
+this
+.
+treeView
+.
+resetActiveNode
+(
+)
+;
 }
 #
 searchBookmarks
@@ -9317,8 +9337,6 @@ this
 .
 onPrimaryAction
 }
-bookmark
--
 folder
 -
 toggle
