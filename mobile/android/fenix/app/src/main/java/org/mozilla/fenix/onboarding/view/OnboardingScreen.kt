@@ -2615,14 +2615,14 @@ MaterialTheme
 .
 colorScheme
 .
-onPrimary
+primary
 inactiveColor
 =
 MaterialTheme
 .
 colorScheme
 .
-onSurfaceVariant
+outlineVariant
 leaveTrail
 =
 false
