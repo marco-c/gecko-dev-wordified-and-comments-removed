@@ -4690,6 +4690,12 @@ budgetWasIncreased
 )
 ;
 bool
+shouldYieldAtEndOfMarkPhase
+(
+)
+const
+;
+bool
 mightSweepInThisSlice
 (
 bool
@@ -6552,7 +6558,7 @@ MainThreadData
 <
 bool
 >
-lastMarkSlice
+didYieldAtEndOfMarkPhase
 ;
 MainThreadData
 <
