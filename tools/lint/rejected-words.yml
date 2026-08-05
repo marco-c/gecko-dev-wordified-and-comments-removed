@@ -516,6 +516,8 @@ urlbar
 tests
 /
 browser
+-
+trustPanel
 /
 browser_trust_panel
 .
@@ -530,6 +532,8 @@ urlbar
 tests
 /
 browser
+-
+trustPanel
 /
 browser_trust_panel_icon
 .
