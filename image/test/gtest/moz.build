@@ -966,6 +966,11 @@ progressive
 jxl
 "
 "
+progressive_alpha_multigroup
+.
+jxl
+"
+"
 rle4
 .
 bmp
