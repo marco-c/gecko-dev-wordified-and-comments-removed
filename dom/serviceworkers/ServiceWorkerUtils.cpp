@@ -799,7 +799,13 @@ _ns
 )
 mCheckFunc
 (
+std
+:
+:
+move
+(
 aCheckFunc
+)
 )
 {
 }
