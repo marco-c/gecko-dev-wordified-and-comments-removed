@@ -472,14 +472,14 @@ item
 should
 reject
 with
-DataError
+InvalidStateError
 .
 await
 promise_rejects_dom
 (
 t
 '
-DataError
+InvalidStateError
 '
 staleItem
 .
@@ -500,7 +500,7 @@ getType
 )
 rejects
 with
-DataError
+InvalidStateError
 on
 stale
 ClipboardItem
