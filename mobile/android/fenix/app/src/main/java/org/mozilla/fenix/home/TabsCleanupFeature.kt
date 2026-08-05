@@ -936,6 +936,17 @@ invoke
 tabId
 )
 }
+navController
+.
+navigate
+(
+HomeFragmentDirections
+.
+actionGlobalBrowser
+(
+null
+)
+)
 }
 private
 fun
