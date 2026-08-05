@@ -307,6 +307,16 @@ screen_capture
 mod
 segment
 ;
+#
+[
+cfg
+(
+test
+)
+]
+mod
+shutdown_test
+;
 mod
 spatial_node
 ;
