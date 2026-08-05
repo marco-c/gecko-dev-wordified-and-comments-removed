@@ -304,6 +304,15 @@ js
 "
 browser_devtools
 -
+close
+.
+js
+"
+]
+[
+"
+browser_devtools
+-
 interrupted
 .
 js
