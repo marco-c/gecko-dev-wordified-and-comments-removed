@@ -53,6 +53,16 @@ MPL
 0
 /
 .
+MOCHITEST_MANIFESTS
++
+=
+[
+"
+mochitest
+.
+toml
+"
+]
 MOCHITEST_CHROME_MANIFESTS
 +
 =
