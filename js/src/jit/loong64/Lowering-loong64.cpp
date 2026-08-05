@@ -1074,7 +1074,7 @@ alloc
 )
 LDivPowTwoI
 (
-useRegister
+useRegisterAtStart
 (
 div
 -
@@ -1522,7 +1522,7 @@ alloc
 )
 LModPowTwoI
 (
-useRegister
+useRegisterAtStart
 (
 mod
 -
@@ -1946,7 +1946,7 @@ alloc
 )
 LDivPowTwoI
 (
-useRegister
+useRegisterAtStart
 (
 div
 -
@@ -2391,7 +2391,7 @@ alloc
 )
 LModPowTwoI
 (
-useRegister
+useRegisterAtStart
 (
 mod
 -
