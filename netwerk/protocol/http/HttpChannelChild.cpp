@@ -5102,6 +5102,12 @@ move
 (
 mSource
 )
+mIsFromCache
+?
+Nothing
+(
+)
+:
 httpVersion
 responseStatus
 Some
