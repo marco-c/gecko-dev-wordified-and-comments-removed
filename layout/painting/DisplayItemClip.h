@@ -16,6 +16,13 @@ h
 #
 include
 "
+nsMargin
+.
+h
+"
+#
+include
+"
 nsRect
 .
 h
@@ -110,6 +117,9 @@ mRect
 ;
 nsRectCornerRadii
 mRadii
+;
+nsMargin
+mInset
 ;
 RoundedRect
 operator
@@ -241,6 +251,12 @@ const
 nsRectCornerRadii
 *
 aRadii
+const
+nsMargin
+*
+aInset
+=
+nullptr
 )
 ;
 void

@@ -14651,6 +14651,9 @@ clipRect
 nsRectCornerRadii
 radii
 ;
+nsMargin
+inset
+;
 bool
 haveRadii
 =
@@ -14662,6 +14665,7 @@ ComputeOverflowClipRectRelativeToSelf
 aClipAxes
 clipRect
 radii
+inset
 )
 ;
 aClipState
@@ -14681,6 +14685,12 @@ haveRadii
 ?
 &
 radii
+:
+nullptr
+haveRadii
+?
+&
+inset
 :
 nullptr
 )
@@ -14783,6 +14793,9 @@ aOutRect
 nsRectCornerRadii
 &
 aOutRadii
+nsMargin
+&
+aOutInset
 )
 const
 {
@@ -14831,6 +14844,11 @@ ToSkipSides
 aClipAxes
 )
 )
+;
+aOutInset
+=
+-
+boxMargin
 ;
 aOutRect
 =

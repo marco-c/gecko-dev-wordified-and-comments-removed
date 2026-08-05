@@ -3998,6 +3998,9 @@ clipRect
 nsRectCornerRadii
 radii
 ;
+nsMargin
+inset
+;
 const
 bool
 haveRadii
@@ -4007,6 +4010,7 @@ ComputeOverflowClipRectRelativeToSelf
 clipAxes
 clipRect
 radii
+inset
 )
 ;
 const
@@ -4052,6 +4056,12 @@ haveRadii
 ?
 &
 radii
+:
+nullptr
+haveRadii
+?
+&
+inset
 :
 nullptr
 )

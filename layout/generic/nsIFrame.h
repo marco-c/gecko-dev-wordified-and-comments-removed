@@ -8703,6 +8703,9 @@ aOutRect
 nsRectCornerRadii
 &
 aOutRadii
+nsMargin
+&
+aOutInset
 )
 const
 ;
