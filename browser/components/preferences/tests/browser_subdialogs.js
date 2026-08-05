@@ -1901,8 +1901,8 @@ BrowserTestUtils
 .
 synthesizeMouseAtPoint
 (
-2
-2
+20
+20
 {
 }
 tab
