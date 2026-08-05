@@ -3394,8 +3394,7 @@ thumbnailCanvas
 .
 then
 (
-(
-)
+captured
 =
 >
 {
@@ -3421,6 +3420,9 @@ the
 thumbnail
 if
 (
+captured
+&
+&
 this
 .
 #
