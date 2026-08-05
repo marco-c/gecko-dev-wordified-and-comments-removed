@@ -756,9 +756,8 @@ Boolean
 >
 (
 )
-val
-job
-=
+backgroundScope
+.
 launch
 {
 prefs
@@ -795,11 +794,6 @@ listOf
 true
 )
 results
-)
-job
-.
-cancel
-(
 )
 }
 Test
@@ -899,9 +893,8 @@ Boolean
 >
 (
 )
-val
-job
-=
+backgroundScope
+.
 launch
 {
 prefs
@@ -955,11 +948,6 @@ true
 false
 )
 results
-)
-job
-.
-cancel
-(
 )
 }
 }
