@@ -5071,17 +5071,6 @@ composite_mode
 write_gpu_blocks
 (
 &
-frame_state
-.
-surfaces
-[
-raster_config
-.
-surface_index
-.
-0
-]
-&
 mut
 frame_state
 .
