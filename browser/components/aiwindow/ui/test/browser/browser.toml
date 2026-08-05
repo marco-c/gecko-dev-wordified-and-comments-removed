@@ -974,6 +974,13 @@ Bug
 ]
 [
 "
+browser_smartwindow_bookmarks_toolbar
+.
+js
+"
+]
+[
+"
 browser_smartwindow_chat_browser_tabbable
 .
 js
