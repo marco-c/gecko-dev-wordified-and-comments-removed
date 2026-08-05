@@ -87,6 +87,12 @@ thiserror
 :
 Error
 ;
+use
+zeroize
+:
+:
+ZeroizeOnDrop
+;
 pub
 const
 KEYSTORE_FILENAME
@@ -860,6 +866,7 @@ Debug
 Clone
 Serialize
 Deserialize
+ZeroizeOnDrop
 )
 ]
 pub
