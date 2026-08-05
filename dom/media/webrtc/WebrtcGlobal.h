@@ -1235,6 +1235,7 @@ mTlsVersion
 mDtlsCipher
 mDtlsRole
 mSrtpCipher
+mSelectedCandidatePairChanges
 )
 DEFINE_IPC_SERIALIZER_WITH_SUPER_CLASS_AND_FIELDS
 (

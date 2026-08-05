@@ -993,6 +993,10 @@ dtlsRole
 DOMString
 srtpCipher
 ;
+unsigned
+long
+selectedCandidatePairChanges
+;
 }
 ;
 dictionary
