@@ -3873,6 +3873,9 @@ false
 startLoading
 =
 false
+selectTab
+=
+false
 )
 val
 tabGroup

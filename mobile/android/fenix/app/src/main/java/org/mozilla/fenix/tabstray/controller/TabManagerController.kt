@@ -2146,6 +2146,9 @@ private
 =
 isPrivate
 )
+handleNavigateToHome
+(
+)
 }
 else
 {
