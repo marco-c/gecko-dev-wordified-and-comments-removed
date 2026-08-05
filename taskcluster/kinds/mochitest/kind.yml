@@ -181,12 +181,12 @@ use
 -
 python
 :
-default
+system
 use
 -
 uv
 :
-true
+false
 worker
 -
 type
