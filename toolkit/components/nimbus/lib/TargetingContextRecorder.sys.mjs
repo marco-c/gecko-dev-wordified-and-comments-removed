@@ -1082,6 +1082,16 @@ isMSIX
 typeAssertions
 .
 boolean
+launchOnLoginAllowedByPolicy
+:
+typeAssertions
+.
+boolean
+launchOnLoginEnabled
+:
+typeAssertions
+.
+boolean
 locale
 :
 typeAssertions
