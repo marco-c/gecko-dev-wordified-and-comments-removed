@@ -1649,6 +1649,11 @@ moz
 visual
 -
 picker
+type
+=
+"
+listbox
+"
 .
 value
 =
