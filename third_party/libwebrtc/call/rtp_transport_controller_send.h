@@ -908,6 +908,13 @@ ReceivedTransportCcFeedbackCount
 const
 override
 ;
+DataSize
+GetTransportOverhead
+(
+)
+const
+override
+;
 void
 NotifyBweOfSentPacketForTesting
 (

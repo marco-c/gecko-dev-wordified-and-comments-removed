@@ -909,6 +909,17 @@ logging
 /
 rtc_base
 :
+macromagic
+"
+"
+.
+.
+/
+.
+.
+/
+rtc_base
+:
 rtc_numerics
 "
 "

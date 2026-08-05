@@ -2901,6 +2901,11 @@ BitsPerSec
 '
 000
 )
+true
+std
+:
+:
+nullopt
 )
 ;
 EXPECT_EQ
@@ -2935,6 +2940,11 @@ DataRate
 Zero
 (
 )
+true
+std
+:
+:
+nullopt
 )
 ;
 EXPECT_EQ
@@ -2972,6 +2982,11 @@ BitsPerSec
 '
 000
 )
+true
+std
+:
+:
+nullopt
 )
 ;
 EXPECT_EQ
@@ -3009,6 +3024,11 @@ BitsPerSec
 '
 000
 )
+true
+std
+:
+:
+nullopt
 )
 ;
 EXPECT_EQ

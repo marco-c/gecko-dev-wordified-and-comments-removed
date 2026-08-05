@@ -689,6 +689,14 @@ OnSendBandwidthEstimateChanged
 (
 DataRate
 estimate
+bool
+std
+:
+:
+optional
+<
+DataSize
+>
 )
 {
 constexpr
