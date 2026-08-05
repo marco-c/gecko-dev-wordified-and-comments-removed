@@ -7389,6 +7389,13 @@ error
 )
 ;
 }
+if
+(
+results
+.
+length
+)
+{
 change
 .
 guid
@@ -7397,10 +7404,10 @@ results
 [
 0
 ]
-?
 .
 guid
 ;
+}
 }
 await
 updateFormHistoryWrite
