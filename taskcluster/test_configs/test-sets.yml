@@ -2407,6 +2407,8 @@ tests
 -
 cppunittest
 -
+gtest
+-
 firefox
 -
 ui
@@ -2743,8 +2745,6 @@ tests
 :
 -
 cppunittest
--
-gtest
 macosx1015
 -
 64
