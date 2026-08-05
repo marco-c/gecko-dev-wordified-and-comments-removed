@@ -1557,6 +1557,14 @@ nsAutoString
 aCharsetForPreload
 )
 ;
+void
+NotifyPreloadCoalescing
+(
+ModuleLoadRequest
+*
+aRequest
+)
+;
 nsresult
 RestartLoad
 (
