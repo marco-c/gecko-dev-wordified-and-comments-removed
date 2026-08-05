@@ -2277,6 +2277,11 @@ mAsyncParseBlockers
 0
 }
 ;
+uint32_t
+mInnerSheetIndex
+=
+0
+;
 StyleSheetInfo
 *
 mInner
