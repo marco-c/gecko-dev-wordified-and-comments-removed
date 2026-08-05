@@ -769,7 +769,7 @@ synthesizeMouseAtCenter
 (
 editProfileCard
 .
-avatarSelectorLink
+avatarSelectorButton
 {
 }
 content
@@ -1067,7 +1067,7 @@ synthesizeMouseAtCenter
 (
 editProfileCard
 .
-avatarSelectorLink
+avatarSelectorButton
 {
 }
 content
@@ -1586,7 +1586,7 @@ synthesizeMouseAtCenter
 (
 editProfileCard
 .
-avatarSelectorLink
+avatarSelectorButton
 {
 }
 content
@@ -2237,7 +2237,7 @@ synthesizeMouseAtCenter
 (
 editProfileCard
 .
-avatarSelectorLink
+avatarSelectorButton
 {
 }
 content
@@ -3298,7 +3298,7 @@ synthesizeMouseAtCenter
 (
 editProfileCard
 .
-avatarSelectorLink
+avatarSelectorButton
 {
 }
 content
@@ -4464,7 +4464,7 @@ synthesizeMouseAtCenter
 (
 editProfileCard
 .
-avatarSelectorLink
+avatarSelectorButton
 {
 }
 content
@@ -4556,7 +4556,7 @@ synthesizeMouseAtCenter
 (
 editProfileCard
 .
-avatarSelectorLink
+avatarSelectorButton
 {
 }
 content
@@ -4720,7 +4720,7 @@ synthesizeMouseAtCenter
 (
 editProfileCard
 .
-avatarSelectorLink
+avatarSelectorButton
 {
 }
 content
