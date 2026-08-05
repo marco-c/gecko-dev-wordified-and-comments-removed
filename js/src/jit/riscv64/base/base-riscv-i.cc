@@ -102,7 +102,7 @@ imm20
 )
 ;
 }
-CodeOffset
+BufferOffset
 AssemblerRISCVI
 :
 :
@@ -116,20 +116,13 @@ LabelDoc
 doc
 )
 {
+return
 GenInstrJ
 (
 JAL
 rd
 imm21
 doc
-)
-;
-return
-CodeOffset
-(
-currentOffset
-(
-)
 )
 ;
 }
@@ -161,7 +154,7 @@ doc
 )
 ;
 }
-void
+BufferOffset
 AssemblerRISCVI
 :
 :
@@ -177,6 +170,7 @@ LabelDoc
 doc
 )
 {
+return
 GenInstrBranchCC_rri
 (
 0b000
@@ -187,7 +181,7 @@ doc
 )
 ;
 }
-void
+BufferOffset
 AssemblerRISCVI
 :
 :
@@ -203,6 +197,7 @@ LabelDoc
 doc
 )
 {
+return
 GenInstrBranchCC_rri
 (
 0b001
@@ -213,7 +208,7 @@ doc
 )
 ;
 }
-void
+BufferOffset
 AssemblerRISCVI
 :
 :
@@ -229,6 +224,7 @@ LabelDoc
 doc
 )
 {
+return
 GenInstrBranchCC_rri
 (
 0b100
@@ -239,7 +235,7 @@ doc
 )
 ;
 }
-void
+BufferOffset
 AssemblerRISCVI
 :
 :
@@ -255,6 +251,7 @@ LabelDoc
 doc
 )
 {
+return
 GenInstrBranchCC_rri
 (
 0b101
@@ -265,7 +262,7 @@ doc
 )
 ;
 }
-void
+BufferOffset
 AssemblerRISCVI
 :
 :
@@ -281,6 +278,7 @@ LabelDoc
 doc
 )
 {
+return
 GenInstrBranchCC_rri
 (
 0b110
@@ -291,7 +289,7 @@ doc
 )
 ;
 }
-void
+BufferOffset
 AssemblerRISCVI
 :
 :
@@ -307,6 +305,7 @@ LabelDoc
 doc
 )
 {
+return
 GenInstrBranchCC_rri
 (
 0b111
