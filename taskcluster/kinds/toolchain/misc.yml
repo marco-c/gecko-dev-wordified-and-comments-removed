@@ -1447,6 +1447,12 @@ MacOSX26
 5
 .
 sdk
+-
+macosx64
+-
+aarch64
+-
+uv
 android
 -
 custom
