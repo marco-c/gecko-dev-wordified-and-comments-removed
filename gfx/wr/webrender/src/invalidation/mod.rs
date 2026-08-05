@@ -10,6 +10,10 @@ pub
 mod
 cached_surface
 ;
+pub
+mod
+vert_buffer
+;
 use
 api
 :
@@ -323,7 +327,6 @@ PrimitiveCompareResult
 Equal
 Descriptor
 Clip
-Transform
 Image
 OpacityBinding
 ColorBinding
