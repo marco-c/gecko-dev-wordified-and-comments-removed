@@ -13,6 +13,9 @@ neqo_common
 :
 {
 hex
+:
+:
+Hex
 qlog
 :
 :
@@ -87,9 +90,16 @@ data
 :
 Some
 (
-hex
+Hex
+:
+:
+new
 (
 data
+)
+.
+to_string
+(
 )
 )
 }

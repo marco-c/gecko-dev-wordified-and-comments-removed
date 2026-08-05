@@ -63,6 +63,9 @@ Provider
 as
 _
 hex
+:
+:
+Hex
 qdebug
 qerror
 qinfo
@@ -75,7 +78,7 @@ qwarn
 }
 ;
 use
-neqo_crypto
+nss
 :
 :
 {
@@ -2453,7 +2456,10 @@ datagram
 {
 }
 "
-hex
+Hex
+:
+:
+new
 (
 &
 dgram

@@ -48,6 +48,7 @@ network
 :
 :
 {
+Aqm
 Drop
 RandomDelay
 TailDrop
@@ -141,11 +142,9 @@ Duration
 :
 from_secs
 (
-(
 m
 as
 u64
-)
 *
 60
 *
@@ -1041,7 +1040,12 @@ new
 (
 1_000_000
 65_536
-true
+Aqm
+:
+:
+codel
+(
+)
 Duration
 :
 :
@@ -1074,7 +1078,12 @@ new
 (
 200_000
 16_384
-true
+Aqm
+:
+:
+codel
+(
+)
 Duration
 :
 :

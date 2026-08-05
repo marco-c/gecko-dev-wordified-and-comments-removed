@@ -81,6 +81,7 @@ current_bit
 }
 }
 pub
+const
 fn
 read_bit
 (
@@ -194,6 +195,7 @@ current_bit
 )
 }
 pub
+const
 fn
 verify_ending
 (
@@ -720,10 +722,14 @@ e
 =
 HUFFMAN_TABLE
 [
+usize
+:
+:
+from
+(
 *
 c
-as
-usize
+)
 ]
 ;
 if

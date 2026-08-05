@@ -17,7 +17,10 @@ Display
 time
 :
 :
+{
 Duration
+Instant
+}
 }
 ;
 use
@@ -106,7 +109,7 @@ Duration
 >
 rtt_sample_count
 :
-usize
+u64
 window_end
 :
 Option
@@ -217,7 +220,7 @@ pub
 const
 N_RTT_SAMPLE
 :
-usize
+u64
 =
 8
 ;
@@ -552,7 +555,7 @@ self
 )
 -
 >
-usize
+u64
 {
 self
 .
@@ -651,6 +654,9 @@ packet
 :
 :
 Number
+_sent_bytes
+:
+usize
 )
 {
 self
@@ -730,6 +736,9 @@ cc_stats
 &
 mut
 CongestionControlStats
+_now
+:
+Instant
 )
 -
 >

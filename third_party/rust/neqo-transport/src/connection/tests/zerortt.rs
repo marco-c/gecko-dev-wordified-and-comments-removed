@@ -32,7 +32,7 @@ qdebug
 }
 ;
 use
-neqo_crypto
+nss
 :
 :
 {
@@ -1691,11 +1691,10 @@ cast_possible_truncation
 reason
 =
 "
-OK
-in
-a
-test
-.
+small
+value
+will
+fit
 "
 )
 ]

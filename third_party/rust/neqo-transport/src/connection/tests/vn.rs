@@ -2011,18 +2011,7 @@ new
 0
 0
 )
-|
-dgram
-|
-{
-Some
-(
 strip_padding
-(
-dgram
-)
-)
-}
 )
 ;
 assert_eq
@@ -4288,7 +4277,7 @@ tls_hello_retry_request
 )
 {
 use
-neqo_crypto
+nss
 :
 :
 constants

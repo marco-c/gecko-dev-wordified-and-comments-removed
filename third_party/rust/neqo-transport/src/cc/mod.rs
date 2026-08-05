@@ -146,6 +146,9 @@ enum
 CongestionTrigger
 {
 Loss
+(
+usize
+)
 Ecn
 }
 pub
@@ -401,9 +404,6 @@ Packet
 now
 :
 Instant
-pacing_limited
-:
-bool
 )
 ;
 fn
@@ -1099,9 +1099,6 @@ Packet
 now
 :
 Instant
-pacing_limited
-:
-bool
 )
 {
 dispatch
@@ -1113,7 +1110,6 @@ on_packet_sent
 (
 pkt
 now
-pacing_limited
 )
 )
 ;

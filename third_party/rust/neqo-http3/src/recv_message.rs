@@ -303,8 +303,6 @@ write
 f
 "
 RecvMessage
-stream_id
-:
 {
 }
 "
@@ -1477,12 +1475,8 @@ qdebug
 self
 }
 ]
-A
-new
+recv
 frame
-has
-been
-received
 :
 {
 frame
