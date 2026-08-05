@@ -65,11 +65,16 @@ Services
 .
 scriptloader
 .
-loadSubScript
+loadSubScriptWithOptions
 (
 uri
 .
 spec
+{
+allowUnsafeURL
+:
+true
+}
 )
 ;
 }

@@ -65,7 +65,7 @@ Services
 .
 scriptloader
 .
-loadSubScript
+loadSubScriptWithOptions
 (
 Services
 .
@@ -77,7 +77,14 @@ sharedHead
 )
 .
 spec
+{
+target
+:
 this
+allowUnsafeURL
+:
+true
+}
 )
 ;
 add_setup
