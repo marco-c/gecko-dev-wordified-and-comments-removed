@@ -21077,6 +21077,7 @@ nsLayoutUtils
 :
 FindNearestBlockAncestor
 (
+const
 nsIFrame
 *
 aFrame

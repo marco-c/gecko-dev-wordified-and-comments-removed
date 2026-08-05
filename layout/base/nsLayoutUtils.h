@@ -3279,6 +3279,7 @@ nsBlockFrame
 *
 FindNearestBlockAncestor
 (
+const
 nsIFrame
 *
 aFrame
