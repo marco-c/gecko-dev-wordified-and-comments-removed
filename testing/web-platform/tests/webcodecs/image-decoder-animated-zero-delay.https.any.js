@@ -345,6 +345,13 @@ gif
 await
 decoder
 .
+tracks
+.
+ready
+;
+await
+decoder
+.
 completed
 ;
 let
