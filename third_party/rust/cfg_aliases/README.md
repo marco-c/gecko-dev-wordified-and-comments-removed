@@ -57,7 +57,7 @@ the
 impact
 on
 your
-comile
+compile
 times
 should
 be
@@ -129,9 +129,9 @@ cfg_aliases
 "
 0
 .
-1
+2
 .
-0
+1
 "
 *
 *
