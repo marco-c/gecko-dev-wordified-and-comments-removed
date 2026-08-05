@@ -375,6 +375,12 @@ GetInstance
 (
 )
 ;
+static
+bool
+IsInitialized
+(
+)
+;
 std
 :
 :
