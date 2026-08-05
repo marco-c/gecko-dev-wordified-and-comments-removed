@@ -796,6 +796,7 @@ ColorF
 :
 :
 WHITE
+None
 )
 ;
 }
@@ -876,6 +877,7 @@ ColorF
 :
 :
 WHITE
+None
 )
 ;
 }
@@ -957,6 +959,7 @@ ColorF
 :
 :
 WHITE
+None
 )
 ;
 self

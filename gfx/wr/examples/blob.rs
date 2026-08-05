@@ -1446,6 +1446,7 @@ ColorF
 :
 :
 WHITE
+None
 )
 ;
 let
@@ -1579,6 +1580,7 @@ ColorF
 :
 :
 WHITE
+None
 )
 ;
 builder

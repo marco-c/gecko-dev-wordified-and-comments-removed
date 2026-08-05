@@ -7094,6 +7094,12 @@ ImageKey
 color
 :
 ColorF
+sub_rect
+:
+Option
+<
+DeviceIntRect
+>
 )
 {
 let
@@ -7140,6 +7146,7 @@ key
 image_rendering
 alpha_type
 color
+sub_rect
 }
 )
 ;

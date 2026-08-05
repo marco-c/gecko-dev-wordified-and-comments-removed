@@ -60,6 +60,7 @@ units
 :
 :
 {
+DeviceIntRect
 LayoutSideOffsetsAu
 TileOffset
 }
@@ -256,6 +257,13 @@ pub
 alpha_type
 :
 AlphaType
+pub
+sub_rect
+:
+Option
+<
+DeviceIntRect
+>
 }
 #
 [
