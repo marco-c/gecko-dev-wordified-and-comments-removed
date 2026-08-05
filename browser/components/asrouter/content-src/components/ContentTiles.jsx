@@ -279,6 +279,12 @@ TILE_STYLES
 =
 [
 "
+border
+"
+"
+borderRadius
+"
+"
 marginBlock
 "
 "

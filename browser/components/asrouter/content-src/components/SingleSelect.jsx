@@ -532,6 +532,9 @@ CONFIGURABLE_STYLES
 background
 "
 "
+border
+"
+"
 borderRadius
 "
 "
