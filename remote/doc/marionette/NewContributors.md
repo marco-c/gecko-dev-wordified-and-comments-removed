@@ -381,9 +381,9 @@ list
 (
 index
 .
-rst
+md
 #
-Communication
+communication
 )
 instead
 .

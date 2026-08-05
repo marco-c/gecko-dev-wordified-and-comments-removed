@@ -220,7 +220,7 @@ fluent
 /
 tutorial
 .
-rst
+md
 )
 .
 It
@@ -543,7 +543,6 @@ where
 you
 need
 it
-.
 Supposing
 you
 need
@@ -1170,7 +1169,7 @@ fluent
 /
 tutorial
 .
-rst
+md
 )
 -
 [

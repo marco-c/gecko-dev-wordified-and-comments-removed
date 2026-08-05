@@ -202,7 +202,7 @@ buildsystem
 /
 pgo
 .
-rst
+md
 #
 profile
 -
@@ -743,7 +743,7 @@ setup
 /
 configuring_build_options
 .
-rst
+md
 #
 using
 -

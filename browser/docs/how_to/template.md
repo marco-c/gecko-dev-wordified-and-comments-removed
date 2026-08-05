@@ -432,7 +432,7 @@ docs
 /
 index
 .
-rst
+md
 )
 -
 Example

@@ -408,7 +408,7 @@ buildsystem
 /
 mozconfigs
 .
-rst
+md
 [
 ccache
 ]
@@ -448,4 +448,4 @@ remote
 /
 index
 .
-rst
+md

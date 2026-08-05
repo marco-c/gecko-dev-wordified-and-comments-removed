@@ -51,7 +51,7 @@ profiler
 /
 index
 .
-rst
+md
 )
 explains
 how

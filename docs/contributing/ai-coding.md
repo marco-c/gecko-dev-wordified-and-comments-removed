@@ -261,7 +261,7 @@ reviewer
 /
 Code_Review_FAQ
 .
-rst
+md
 )
 is
 to

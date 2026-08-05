@@ -140,7 +140,7 @@ xpcshell
 /
 index
 .
-rst
+md
 #
 #
 Browser

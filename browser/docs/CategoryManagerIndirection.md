@@ -85,7 +85,6 @@ with
 the
 category
 manager
-.
 The
 category
 manager
@@ -664,7 +663,7 @@ browser_console
 /
 index
 .
-rst
+md
 )
 .
 Async

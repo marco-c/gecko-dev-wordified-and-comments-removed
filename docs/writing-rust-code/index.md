@@ -39,7 +39,7 @@ buildsystem
 /
 rust
 .
-rst
+md
 )
 explains
 how

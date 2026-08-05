@@ -370,8 +370,7 @@ list
 :
 index
 .
-rst
-/
+md
 #
 communication
 [

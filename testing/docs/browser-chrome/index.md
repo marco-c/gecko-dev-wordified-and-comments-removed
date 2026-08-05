@@ -125,7 +125,7 @@ mjs
 /
 assert
 .
-rst
+md
 )
 .
 These
@@ -178,7 +178,7 @@ xpcshell
 /
 index
 .
-rst
+md
 )
 are
 probably
@@ -343,7 +343,7 @@ verification
 /
 index
 .
-rst
+md
 )
 .
 This
@@ -803,7 +803,7 @@ intermittent
 /
 index
 .
-rst
+md
 )
 .
 Profiling
@@ -947,7 +947,7 @@ module
 /
 assert
 .
-rst
+md
 )
 -
 [
@@ -960,7 +960,7 @@ module
 /
 testutils
 .
-rst
+md
 )
 -
 [
@@ -970,7 +970,7 @@ module
 (
 browsertestutils
 .
-rst
+md
 )
 -
 [
@@ -983,7 +983,7 @@ utilities
 /
 simpletest
 .
-rst
+md
 )
 -
 [
@@ -996,5 +996,5 @@ utilities
 /
 eventutils
 .
-rst
+md
 )

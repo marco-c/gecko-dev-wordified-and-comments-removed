@@ -593,7 +593,7 @@ tests
 /
 index
 .
-rst
+md
 )
 .
 #
@@ -953,7 +953,7 @@ networking
 /
 http_server_for_testing
 .
-rst
+md
 )
 docs
 for

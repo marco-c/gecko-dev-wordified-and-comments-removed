@@ -372,4 +372,4 @@ telemetry
 /
 index
 .
-rst
+md

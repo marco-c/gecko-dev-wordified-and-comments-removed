@@ -1182,6 +1182,6 @@ scriptSecurity
 /
 xray_vision
 .
-rst
+md
 )
 ?

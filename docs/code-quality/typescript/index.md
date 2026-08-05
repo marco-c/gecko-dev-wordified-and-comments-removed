@@ -529,7 +529,7 @@ linters
 /
 typescript
 .
-rst
+md
 )
 it
 is

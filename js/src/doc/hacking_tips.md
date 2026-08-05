@@ -110,7 +110,7 @@ SpiderMonkey
 (
 build
 .
-rst
+md
 )
 .
 It
@@ -4665,7 +4665,7 @@ profiler
 /
 index
 .
-rst
+md
 )
 .
 This

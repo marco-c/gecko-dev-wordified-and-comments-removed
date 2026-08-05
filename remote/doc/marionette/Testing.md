@@ -255,7 +255,7 @@ xpcshell
 /
 index
 .
-rst
+md
 #
 #
 Marionette
@@ -1110,7 +1110,7 @@ geckodriver
 /
 index
 .
-rst
+md
 #
 #
 WPT

@@ -410,7 +410,7 @@ remote
 /
 index
 .
-rst
+md
 [
 Chrome
 DevTools

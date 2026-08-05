@@ -320,7 +320,7 @@ contributing
 /
 contribution_quickref
 .
-rst
+md
 #
 commit
 -
@@ -2887,7 +2887,7 @@ style
 /
 rtl_guidelines
 .
-rst
+md
 )
 for
 more
@@ -2932,7 +2932,7 @@ style
 /
 css_guidelines
 .
-rst
+md
 )
 .
 *
@@ -2955,7 +2955,7 @@ style
 /
 svg_guidelines
 .
-rst
+md
 )
 .
 #
@@ -3162,7 +3162,7 @@ fluent
 /
 review
 .
-rst
+md
 #
 guidelines
 -

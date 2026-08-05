@@ -2392,11 +2392,13 @@ components
 /
 telemetry
 /
+obsolete
+/
 collection
 /
 scalars
 .
-rst
+md
 )
 sent
 by

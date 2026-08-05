@@ -186,7 +186,7 @@ Firefox
 (
 InAppUpdateProcess
 .
-rst
+md
 )
 or
 an

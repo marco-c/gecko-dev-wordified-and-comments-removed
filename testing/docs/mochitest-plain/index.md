@@ -26,7 +26,7 @@ platform
 /
 index
 .
-rst
+md
 )
 (
 preferably
@@ -413,7 +413,7 @@ tests
 /
 index
 .
-rst
+md
 )
 .
 *
@@ -2176,7 +2176,7 @@ buildsystem
 /
 test_manifests
 .
-rst
+md
 )
 which
 is

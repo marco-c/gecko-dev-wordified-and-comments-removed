@@ -2948,7 +2948,7 @@ work_with_animations
 /
 index
 .
-rst
+md
 #
 animation
 -

@@ -1845,9 +1845,15 @@ browser_console
 /
 index
 .
-rst
+md
 #
-browser_console_command_line
+browser
+-
+console
+-
+command
+-
+line
 )
 .
 Note
@@ -1872,7 +1878,7 @@ web_console
 /
 index
 .
-rst
+md
 )
 you
 might

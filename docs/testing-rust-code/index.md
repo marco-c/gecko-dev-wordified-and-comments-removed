@@ -30,7 +30,7 @@ buildsystem
 /
 rust
 .
-rst
+md
 )
 explains
 how
@@ -948,7 +948,7 @@ xpcom
 /
 logging
 .
-rst
+md
 -
 When
 parsing

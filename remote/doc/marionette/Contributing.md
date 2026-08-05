@@ -264,7 +264,7 @@ _Marionette_
 /
 index
 .
-rst
+md
 [
 _geckodriver_
 ]
@@ -276,7 +276,7 @@ geckodriver
 /
 index
 .
-rst
+md
 [
 _webdriver_
 ]
@@ -493,9 +493,9 @@ questions
 :
 index
 .
-rst
+md
 #
-Communication
+communication
 [
 mozilla
 -

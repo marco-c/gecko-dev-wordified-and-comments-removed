@@ -66,7 +66,7 @@ use
 -
 counters
 .
-rst
+md
 )
 are
 used

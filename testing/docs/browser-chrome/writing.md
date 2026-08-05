@@ -282,7 +282,7 @@ withNewTab
 (
 browsertestutils
 .
-rst
+md
 #
 BrowserTestUtils
 .
@@ -742,7 +742,7 @@ TestUtils
 /
 testutils
 .
-rst
+md
 #
 TestUtils
 .
@@ -771,7 +771,7 @@ BrowserTestUtils
 (
 browsertestutils
 .
-rst
+md
 #
 BrowserTestUtils
 .
@@ -810,7 +810,7 @@ waitForMutationCondition
 (
 browsertestutils
 .
-rst
+md
 #
 BrowserTestUtils
 .
@@ -855,7 +855,7 @@ querySelectorDeep
 (
 browsertestutils
 .
-rst
+md
 #
 BrowserTestUtils
 .

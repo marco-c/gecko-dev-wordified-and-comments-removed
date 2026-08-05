@@ -126,7 +126,7 @@ setup
 /
 index
 .
-rst
+md
 )
 .
 #

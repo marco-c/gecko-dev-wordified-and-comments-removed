@@ -1091,7 +1091,7 @@ debugging
 /
 local_symbols
 .
-rst
+md
 )
 logs
 generated

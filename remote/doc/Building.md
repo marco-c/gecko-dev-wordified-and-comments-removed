@@ -310,7 +310,7 @@ buildsystem
 /
 mozconfigs
 .
-rst
+md
 [
 artifact
 builds
@@ -335,4 +335,4 @@ marionette
 /
 index
 .
-rst
+md

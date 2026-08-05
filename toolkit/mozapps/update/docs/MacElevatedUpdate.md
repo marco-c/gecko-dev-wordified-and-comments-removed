@@ -227,7 +227,7 @@ signing
 /
 signing_macos_build
 .
-rst
+md
 )
 to
 request
@@ -316,7 +316,7 @@ Server
 (
 SettingUpAnUpdateServer
 .
-rst
+md
 )
 .
 The

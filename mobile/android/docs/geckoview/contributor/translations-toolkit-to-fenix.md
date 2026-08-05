@@ -356,7 +356,7 @@ geckoview
 -
 architecture
 .
-rst
+md
 #
 jni
 )
@@ -687,7 +687,7 @@ geckoview
 -
 architecture
 .
-rst
+md
 #
 view
 -
@@ -2689,7 +2689,7 @@ geckoview
 -
 architecture
 .
-rst
+md
 #
 window
 -
@@ -4249,7 +4249,7 @@ quick
 -
 start
 .
-rst
+md
 #
 updating
 -
@@ -4279,7 +4279,7 @@ geckoview
 -
 architecture
 .
-rst
+md
 #
 api
 )
@@ -4459,7 +4459,7 @@ geckoview
 -
 architecture
 .
-rst
+md
 #
 view
 -
@@ -4926,7 +4926,7 @@ geckoview
 -
 architecture
 .
-rst
+md
 #
 eventdispatcher
 )
@@ -5119,7 +5119,7 @@ geckoview
 -
 architecture
 .
-rst
+md
 #
 delegates
 )
@@ -5927,7 +5927,7 @@ quick
 -
 start
 .
-rst
+md
 #
 updating
 -
@@ -6403,7 +6403,7 @@ quick
 -
 start
 .
-rst
+md
 )
 for
 more
@@ -6429,7 +6429,7 @@ Framework
 /
 junit
 .
-rst
+md
 )
 guide
 for
@@ -8158,7 +8158,7 @@ guide
 /
 junit
 .
-rst
+md
 #
 the
 -

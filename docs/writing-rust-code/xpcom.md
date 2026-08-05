@@ -178,7 +178,7 @@ buildsystem
 /
 rust
 .
-rst
+md
 )
 .
 The
@@ -892,5 +892,5 @@ rust
 -
 engines
 .
-rst
+md
 )
