@@ -1585,9 +1585,6 @@ verifyTextSelectionOptions
 Copy
 "
 "
-Paste
-"
-"
 Cut
 "
 )
