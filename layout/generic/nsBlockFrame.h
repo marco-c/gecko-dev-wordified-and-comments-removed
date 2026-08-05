@@ -2086,7 +2086,7 @@ GetLineClampRoot
 ;
 }
 bool
-MaybeHasFloats
+HasAnyFloats
 (
 )
 const
@@ -2326,7 +2326,7 @@ aCollectFromSiblings
 {
 if
 (
-MaybeHasFloats
+HasAnyFloats
 (
 )
 )
@@ -2887,6 +2887,12 @@ mBlock
 friend
 struct
 nsAutoOOFFrameList
+;
+bool
+HasOverflowFloats
+(
+)
+const
 ;
 nsFrameList
 *
