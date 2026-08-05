@@ -67,7 +67,7 @@ ui
 .
 efficiency
 .
-navigation
+generation
 .
 behavior
 .
@@ -105,7 +105,7 @@ ui
 .
 efficiency
 .
-navigation
+generation
 .
 behavior
 .
@@ -121,7 +121,7 @@ ui
 .
 efficiency
 .
-navigation
+generation
 .
 behavior
 .
@@ -137,7 +137,7 @@ ui
 .
 efficiency
 .
-navigation
+generation
 .
 behavior
 .

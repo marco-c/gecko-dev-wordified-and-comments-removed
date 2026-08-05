@@ -67,7 +67,7 @@ ui
 .
 efficiency
 .
-navigation
+generation
 .
 behavior
 enum
