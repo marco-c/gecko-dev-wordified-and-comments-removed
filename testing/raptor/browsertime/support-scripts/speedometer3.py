@@ -35,7 +35,7 @@ BasePythonSupport
 )
 :
     
-nova
+no_nova
 =
 None
     
@@ -74,11 +74,13 @@ enabled
 "
 True
 )
+is
+False
 :
             
 self
 .
-nova
+no_nova
 =
 True
         
@@ -1087,7 +1089,7 @@ False
 if
 self
 .
-nova
+no_nova
 :
             
 suite
@@ -1100,6 +1102,8 @@ extraOptions
 append
 (
 "
+no
+-
 nova
 "
 )
