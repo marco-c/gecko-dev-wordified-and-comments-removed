@@ -663,10 +663,15 @@ false
 await
 pageLoaded
 ;
-Assert
+await
+TestUtils
 .
-equal
+waitForCondition
 (
+(
+)
+=
+>
 fetchIconUrl
 (
 tab
@@ -678,6 +683,9 @@ trust
 icon
 "
 )
+=
+=
+=
 testData
 .
 icon
