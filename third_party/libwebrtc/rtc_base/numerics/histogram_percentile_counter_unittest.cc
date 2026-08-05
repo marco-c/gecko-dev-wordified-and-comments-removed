@@ -33,15 +33,17 @@ gtest
 .
 h
 "
+namespace
+webrtc
+{
+namespace
+{
 TEST
 (
 HistogramPercentileCounterTest
 ReturnsCorrectPercentiles
 )
 {
-webrtc
-:
-:
 HistogramPercentileCounter
 counter
 (
@@ -209,9 +211,6 @@ HistogramPercentileCounterTest
 HandlesEmptySequence
 )
 {
-webrtc
-:
-:
 HistogramPercentileCounter
 counter
 (
@@ -249,4 +248,6 @@ GetPercentile
 )
 )
 ;
+}
+}
 }

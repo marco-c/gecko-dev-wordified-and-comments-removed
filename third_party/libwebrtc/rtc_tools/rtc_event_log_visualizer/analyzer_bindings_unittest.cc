@@ -124,6 +124,11 @@ h
 "
 #
 endif
+namespace
+webrtc
+{
+namespace
+{
 class
 RtcEventLogAnalyzerBindingsTest
 :
@@ -147,9 +152,6 @@ std
 string
 file_name
 =
-webrtc
-:
-:
 test
 :
 :
@@ -165,15 +167,9 @@ binarypb
 "
 )
 ;
-webrtc
-:
-:
 FileWrapper
 file
 =
-webrtc
-:
-:
 FileWrapper
 :
 :
@@ -369,9 +365,6 @@ output_size
 0u
 )
 ;
-webrtc
-:
-:
 analytics
 :
 :
@@ -543,9 +536,6 @@ output_size
 0u
 )
 ;
-webrtc
-:
-:
 analytics
 :
 :
@@ -721,4 +711,6 @@ output_size
 0u
 )
 ;
+}
+}
 }

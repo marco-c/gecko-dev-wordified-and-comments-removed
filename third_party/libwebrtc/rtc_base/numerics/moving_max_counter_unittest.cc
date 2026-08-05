@@ -18,15 +18,17 @@ gtest
 .
 h
 "
+namespace
+webrtc
+{
+namespace
+{
 TEST
 (
 MovingMaxCounter
 ReportsMaximumInTheWindow
 )
 {
-webrtc
-:
-:
 MovingMaxCounter
 <
 int
@@ -138,9 +140,6 @@ MovingMaxCounter
 IgnoresOldElements
 )
 {
-webrtc
-:
-:
 MovingMaxCounter
 <
 int
@@ -219,9 +218,6 @@ MovingMaxCounter
 HandlesEmptyWindow
 )
 {
-webrtc
-:
-:
 MovingMaxCounter
 <
 int
@@ -274,9 +270,6 @@ MovingMaxCounter
 HandlesSamplesWithEqualTimestamps
 )
 {
-webrtc
-:
-:
 MovingMaxCounter
 <
 int
@@ -362,4 +355,6 @@ Max
 1
 )
 ;
+}
+}
 }

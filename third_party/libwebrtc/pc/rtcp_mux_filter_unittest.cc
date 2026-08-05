@@ -25,15 +25,17 @@ gtest
 .
 h
 "
+namespace
+webrtc
+{
+namespace
+{
 TEST
 (
 RtcpMuxFilterTest
 IsActiveSender
 )
 {
-webrtc
-:
-:
 RtcpMuxFilter
 filter
 ;
@@ -69,9 +71,6 @@ filter
 SetOffer
 (
 true
-webrtc
-:
-:
 CS_LOCAL
 )
 ;
@@ -107,9 +106,6 @@ filter
 SetAnswer
 (
 true
-webrtc
-:
-:
 CS_REMOTE
 )
 ;
@@ -147,9 +143,6 @@ RtcpMuxFilterTest
 ReceivePrAnswer
 )
 {
-webrtc
-:
-:
 RtcpMuxFilter
 filter
 ;
@@ -158,9 +151,6 @@ filter
 SetOffer
 (
 true
-webrtc
-:
-:
 CS_LOCAL
 )
 ;
@@ -171,9 +161,6 @@ filter
 SetProvisionalAnswer
 (
 true
-webrtc
-:
-:
 CS_REMOTE
 )
 )
@@ -212,9 +199,6 @@ filter
 SetProvisionalAnswer
 (
 false
-webrtc
-:
-:
 CS_REMOTE
 )
 )
@@ -253,9 +237,6 @@ filter
 SetAnswer
 (
 true
-webrtc
-:
-:
 CS_REMOTE
 )
 )
@@ -294,9 +275,6 @@ RtcpMuxFilterTest
 IsActiveReceiver
 )
 {
-webrtc
-:
-:
 RtcpMuxFilter
 filter
 ;
@@ -332,9 +310,6 @@ filter
 SetOffer
 (
 true
-webrtc
-:
-:
 CS_REMOTE
 )
 ;
@@ -370,9 +345,6 @@ filter
 SetAnswer
 (
 true
-webrtc
-:
-:
 CS_LOCAL
 )
 ;
@@ -410,9 +382,6 @@ RtcpMuxFilterTest
 SendPrAnswer
 )
 {
-webrtc
-:
-:
 RtcpMuxFilter
 filter
 ;
@@ -421,9 +390,6 @@ filter
 SetOffer
 (
 true
-webrtc
-:
-:
 CS_REMOTE
 )
 ;
@@ -434,9 +400,6 @@ filter
 SetProvisionalAnswer
 (
 true
-webrtc
-:
-:
 CS_LOCAL
 )
 )
@@ -475,9 +438,6 @@ filter
 SetProvisionalAnswer
 (
 false
-webrtc
-:
-:
 CS_LOCAL
 )
 )
@@ -516,9 +476,6 @@ filter
 SetAnswer
 (
 true
-webrtc
-:
-:
 CS_LOCAL
 )
 )
@@ -557,9 +514,6 @@ RtcpMuxFilterTest
 EnableFilterDuringUpdate
 )
 {
-webrtc
-:
-:
 RtcpMuxFilter
 filter
 ;
@@ -579,9 +533,6 @@ filter
 SetOffer
 (
 false
-webrtc
-:
-:
 CS_REMOTE
 )
 )
@@ -593,9 +544,6 @@ filter
 SetAnswer
 (
 false
-webrtc
-:
-:
 CS_LOCAL
 )
 )
@@ -616,9 +564,6 @@ filter
 SetOffer
 (
 true
-webrtc
-:
-:
 CS_REMOTE
 )
 )
@@ -630,9 +575,6 @@ filter
 SetAnswer
 (
 true
-webrtc
-:
-:
 CS_LOCAL
 )
 )
@@ -653,9 +595,6 @@ filter
 SetOffer
 (
 false
-webrtc
-:
-:
 CS_REMOTE
 )
 )
@@ -667,9 +606,6 @@ filter
 SetAnswer
 (
 false
-webrtc
-:
-:
 CS_LOCAL
 )
 )
@@ -690,9 +626,6 @@ RtcpMuxFilterTest
 SetOfferTwice
 )
 {
-webrtc
-:
-:
 RtcpMuxFilter
 filter
 ;
@@ -703,9 +636,6 @@ filter
 SetOffer
 (
 true
-webrtc
-:
-:
 CS_REMOTE
 )
 )
@@ -717,9 +647,6 @@ filter
 SetOffer
 (
 true
-webrtc
-:
-:
 CS_REMOTE
 )
 )
@@ -731,9 +658,6 @@ filter
 SetAnswer
 (
 true
-webrtc
-:
-:
 CS_LOCAL
 )
 )
@@ -747,9 +671,6 @@ IsActive
 )
 )
 ;
-webrtc
-:
-:
 RtcpMuxFilter
 filter2
 ;
@@ -760,9 +681,6 @@ filter2
 SetOffer
 (
 false
-webrtc
-:
-:
 CS_LOCAL
 )
 )
@@ -774,9 +692,6 @@ filter2
 SetOffer
 (
 false
-webrtc
-:
-:
 CS_LOCAL
 )
 )
@@ -788,9 +703,6 @@ filter2
 SetAnswer
 (
 false
-webrtc
-:
-:
 CS_REMOTE
 )
 )
@@ -811,9 +723,6 @@ RtcpMuxFilterTest
 EnableFilterTwiceDuringUpdate
 )
 {
-webrtc
-:
-:
 RtcpMuxFilter
 filter
 ;
@@ -824,9 +733,6 @@ filter
 SetOffer
 (
 true
-webrtc
-:
-:
 CS_REMOTE
 )
 )
@@ -838,9 +744,6 @@ filter
 SetAnswer
 (
 true
-webrtc
-:
-:
 CS_LOCAL
 )
 )
@@ -861,9 +764,6 @@ filter
 SetOffer
 (
 true
-webrtc
-:
-:
 CS_REMOTE
 )
 )
@@ -875,9 +775,6 @@ filter
 SetAnswer
 (
 true
-webrtc
-:
-:
 CS_LOCAL
 )
 )
@@ -898,9 +795,6 @@ RtcpMuxFilterTest
 KeepFilterDisabledDuringUpdate
 )
 {
-webrtc
-:
-:
 RtcpMuxFilter
 filter
 ;
@@ -911,9 +805,6 @@ filter
 SetOffer
 (
 false
-webrtc
-:
-:
 CS_REMOTE
 )
 )
@@ -925,9 +816,6 @@ filter
 SetAnswer
 (
 false
-webrtc
-:
-:
 CS_LOCAL
 )
 )
@@ -948,9 +836,6 @@ filter
 SetOffer
 (
 false
-webrtc
-:
-:
 CS_REMOTE
 )
 )
@@ -962,9 +847,6 @@ filter
 SetAnswer
 (
 false
-webrtc
-:
-:
 CS_LOCAL
 )
 )
@@ -985,9 +867,6 @@ RtcpMuxFilterTest
 SetActiveCantDeactivate
 )
 {
-webrtc
-:
-:
 RtcpMuxFilter
 filter
 ;
@@ -1013,9 +892,6 @@ filter
 SetOffer
 (
 false
-webrtc
-:
-:
 CS_LOCAL
 )
 )
@@ -1036,9 +912,6 @@ filter
 SetOffer
 (
 true
-webrtc
-:
-:
 CS_LOCAL
 )
 )
@@ -1059,9 +932,6 @@ filter
 SetProvisionalAnswer
 (
 false
-webrtc
-:
-:
 CS_REMOTE
 )
 )
@@ -1082,9 +952,6 @@ filter
 SetProvisionalAnswer
 (
 true
-webrtc
-:
-:
 CS_REMOTE
 )
 )
@@ -1105,9 +972,6 @@ filter
 SetAnswer
 (
 false
-webrtc
-:
-:
 CS_REMOTE
 )
 )
@@ -1128,9 +992,6 @@ filter
 SetAnswer
 (
 true
-webrtc
-:
-:
 CS_REMOTE
 )
 )
@@ -1151,9 +1012,6 @@ filter
 SetOffer
 (
 false
-webrtc
-:
-:
 CS_REMOTE
 )
 )
@@ -1174,9 +1032,6 @@ filter
 SetOffer
 (
 true
-webrtc
-:
-:
 CS_REMOTE
 )
 )
@@ -1197,9 +1052,6 @@ filter
 SetProvisionalAnswer
 (
 false
-webrtc
-:
-:
 CS_LOCAL
 )
 )
@@ -1220,9 +1072,6 @@ filter
 SetProvisionalAnswer
 (
 true
-webrtc
-:
-:
 CS_LOCAL
 )
 )
@@ -1243,9 +1092,6 @@ filter
 SetAnswer
 (
 false
-webrtc
-:
-:
 CS_LOCAL
 )
 )
@@ -1266,9 +1112,6 @@ filter
 SetAnswer
 (
 true
-webrtc
-:
-:
 CS_LOCAL
 )
 )
@@ -1282,4 +1125,6 @@ IsActive
 )
 )
 ;
+}
+}
 }

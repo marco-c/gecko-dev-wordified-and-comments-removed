@@ -24,7 +24,9 @@ gtest
 h
 "
 namespace
-test
+webrtc
+{
+namespace
 {
 TEST
 (
@@ -32,9 +34,6 @@ MovingAverageTest
 EmptyAverage
 )
 {
-webrtc
-:
-:
 MovingAverage
 moving_average
 (
@@ -71,9 +70,6 @@ MovingAverageTest
 OneElement
 )
 {
-webrtc
-:
-:
 MovingAverage
 moving_average
 (
@@ -115,9 +111,6 @@ MovingAverageTest
 GetAverage
 )
 {
-webrtc
-:
-:
 MovingAverage
 moving_average
 (
@@ -181,9 +174,6 @@ MovingAverageTest
 GetAverageRoundedDownRounds
 )
 {
-webrtc
-:
-:
 MovingAverage
 moving_average
 (
@@ -236,9 +226,6 @@ MovingAverageTest
 GetAverageRoundedToClosestRounds
 )
 {
-webrtc
-:
-:
 MovingAverage
 moving_average
 (
@@ -291,9 +278,6 @@ MovingAverageTest
 Reset
 )
 {
-webrtc
-:
-:
 MovingAverage
 moving_average
 (
@@ -380,9 +364,6 @@ MovingAverageTest
 ManySamples
 )
 {
-webrtc
-:
-:
 MovingAverage
 moving_average
 (
@@ -481,5 +462,6 @@ GetAverageRoundedToClosest
 1996
 )
 ;
+}
 }
 }
