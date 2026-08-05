@@ -2370,9 +2370,6 @@ any
 any
 (
 )
-any
-(
-)
 )
 }
 .
@@ -2485,9 +2482,6 @@ BookmarksUseCase
 .
 DEFAULT_BOOKMARKS_TO_RETRIEVE
 null
-any
-(
-)
 )
 }
 }
@@ -2567,9 +2561,6 @@ any
 any
 (
 )
-any
-(
-)
 )
 }
 .
@@ -2615,9 +2606,6 @@ BookmarksUseCase
 .
 DEFAULT_BOOKMARKS_TO_RETRIEVE
 null
-any
-(
-)
 )
 }
 }

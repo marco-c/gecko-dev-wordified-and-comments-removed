@@ -728,6 +728,9 @@ PocketTestResources
 sponsoredContentEntity
 .
 url
+targetImpressionDateInSeconds
+=
+0L
 )
 val
 impressions

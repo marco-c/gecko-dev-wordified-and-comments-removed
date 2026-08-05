@@ -574,15 +574,6 @@ toSitePermissions
 origin
 :
 String
-savedAt
-:
-Long
-=
-System
-.
-currentTimeMillis
-(
-)
 )
 :
 SitePermissions
@@ -670,9 +661,6 @@ localNetworkAccess
 toStatus
 (
 )
-savedAt
-=
-savedAt
 )
 }
 }

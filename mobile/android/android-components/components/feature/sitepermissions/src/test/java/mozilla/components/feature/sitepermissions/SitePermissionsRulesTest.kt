@@ -1142,9 +1142,6 @@ localNetworkAccess
 Status
 .
 ALLOWED
-savedAt
-=
-1L
 )
 val
 rules
@@ -1201,9 +1198,6 @@ origin
 "
 origin
 "
-savedAt
-=
-1L
 )
 assertEquals
 (
@@ -1312,15 +1306,6 @@ localNetworkAccess
 convertedSitePermissions
 .
 localNetworkAccess
-)
-assertEquals
-(
-expectedSitePermission
-.
-savedAt
-convertedSitePermissions
-.
-savedAt
 )
 }
 Test

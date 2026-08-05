@@ -222,6 +222,12 @@ val
 savedAt
 :
 Long
+=
+System
+.
+currentTimeMillis
+(
+)
 )
 :
 Parcelable
