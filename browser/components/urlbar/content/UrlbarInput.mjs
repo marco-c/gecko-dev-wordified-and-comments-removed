@@ -172,6 +172,25 @@ mjs
 "
 ;
 import
+UrlbarPrefs
+from
+"
+chrome
+:
+/
+/
+browser
+/
+content
+/
+urlbar
+/
+UrlbarContentPrefs
+.
+mjs
+"
+;
+import
 {
 UrlbarView
 }
@@ -745,28 +764,6 @@ components
 search
 /
 SearchUIUtils
-.
-sys
-.
-mjs
-"
-UrlbarPrefs
-:
-"
-moz
--
-src
-:
-/
-/
-/
-browser
-/
-components
-/
-urlbar
-/
-UrlbarPrefs
 .
 sys
 .
@@ -2326,8 +2323,6 @@ this
 window
 )
 ;
-lazy
-.
 UrlbarPrefs
 .
 addObserver
@@ -2378,8 +2373,6 @@ gc
 '
 d
 yet
-.
-lazy
 .
 UrlbarPrefs
 .
@@ -3514,8 +3507,6 @@ searchbar
 &
 &
 !
-lazy
-.
 UrlbarPrefs
 .
 get
@@ -4301,8 +4292,6 @@ searchbar
 &
 &
 !
-lazy
-.
 UrlbarPrefs
 .
 get
@@ -5565,8 +5554,6 @@ isConnected
 {
 if
 (
-lazy
-.
 UrlbarPrefs
 .
 get
@@ -6475,8 +6462,6 @@ if
 dueToTabSwitch
 &
 &
-lazy
-.
 UrlbarPrefs
 .
 getScotchBonnetPref
@@ -8223,8 +8208,6 @@ return
 }
 if
 (
-lazy
-.
 UrlbarPrefs
 .
 get
@@ -9454,8 +9437,6 @@ selection
 .
 if
 (
-lazy
-.
 UrlbarPrefs
 .
 get
@@ -10942,8 +10923,6 @@ newtabSessionId
 ;
 if
 (
-lazy
-.
 UrlbarPrefs
 .
 get
@@ -11267,8 +11246,6 @@ return
 }
 if
 (
-lazy
-.
 UrlbarPrefs
 .
 get
@@ -12319,8 +12296,6 @@ prefs
 .
 if
 (
-lazy
-.
 UrlbarPrefs
 .
 get
@@ -12476,8 +12451,6 @@ override
 |
 |
 (
-lazy
-.
 UrlbarPrefs
 .
 get
@@ -12748,8 +12721,6 @@ facto
 check
 .
 !
-lazy
-.
 UrlbarPrefs
 .
 get
@@ -12794,8 +12765,6 @@ above
 will
 run
 it
-.
-lazy
 .
 UrlbarPrefs
 .
@@ -14015,8 +13984,6 @@ adaptiveHistoryInput
 else
 if
 (
-lazy
-.
 UrlbarPrefs
 .
 get
@@ -14247,8 +14214,6 @@ block
 .
 if
 (
-lazy
-.
 UrlbarPrefs
 .
 get
@@ -15690,8 +15655,6 @@ checkValue
 false
 startQuery
 :
-lazy
-.
 UrlbarPrefs
 .
 get
@@ -25778,8 +25741,6 @@ data
 &
 &
 !
-lazy
-.
 UrlbarPrefs
 .
 get
@@ -25936,8 +25897,6 @@ URIs
 if
 (
 !
-lazy
-.
 UrlbarPrefs
 .
 get
@@ -26545,8 +26504,6 @@ val
 let
 trimmedValue
 =
-lazy
-.
 UrlbarPrefs
 .
 get
@@ -27813,7 +27770,7 @@ value
 =
 lazy
 .
-UrlbarPrefs
+UrlbarUtils
 .
 isPersistedSearchTermsEnabled
 (
@@ -28929,8 +28886,6 @@ value
 if
 (
 !
-lazy
-.
 UrlbarPrefs
 .
 getScotchBonnetPref
@@ -30506,8 +30461,6 @@ false
 if
 (
 !
-lazy
-.
 UrlbarPrefs
 .
 get
@@ -30773,8 +30726,6 @@ now
 (
 )
 +
-lazy
-.
 UrlbarPrefs
 .
 get
@@ -32326,7 +32277,7 @@ if
 !
 lazy
 .
-UrlbarPrefs
+UrlbarUtils
 .
 isPersistedSearchTermsEnabled
 (
@@ -33462,8 +33413,6 @@ available
 |
 |
 =
-lazy
-.
 UrlbarPrefs
 .
 get
@@ -33766,8 +33715,6 @@ l10nId
 ;
 if
 (
-lazy
-.
 UrlbarPrefs
 .
 get
@@ -34559,8 +34506,6 @@ toolbox
 if
 (
 !
-lazy
-.
 UrlbarPrefs
 .
 get
@@ -35102,8 +35047,6 @@ _untrimmedValue
 ;
 if
 (
-lazy
-.
 UrlbarPrefs
 .
 getScotchBonnetPref
@@ -35413,8 +35356,6 @@ _on_draggableregionleftmousedown
 if
 (
 !
-lazy
-.
 UrlbarPrefs
 .
 get
@@ -35839,8 +35780,6 @@ toolbox
 if
 (
 !
-lazy
-.
 UrlbarPrefs
 .
 get
@@ -36074,8 +36013,6 @@ add
 }
 if
 (
-lazy
-.
 UrlbarPrefs
 .
 get
@@ -36511,8 +36448,6 @@ value
 &
 &
 !
-lazy
-.
 UrlbarPrefs
 .
 get
@@ -36669,8 +36604,6 @@ start
 if
 (
 !
-lazy
-.
 UrlbarPrefs
 .
 get
@@ -36738,8 +36671,6 @@ allowAutofill
 =
 (
 !
-lazy
-.
 UrlbarPrefs
 .
 get
@@ -37691,8 +37622,6 @@ RESULT_SOURCE
 .
 ACTIONS
 ?
-lazy
-.
 UrlbarPrefs
 .
 get
@@ -37739,8 +37668,6 @@ event
 )
 &
 &
-lazy
-.
 UrlbarPrefs
 .
 get
@@ -37917,8 +37844,6 @@ source
 &
 &
 !
-lazy
-.
 UrlbarPrefs
 .
 get
@@ -39236,8 +39161,6 @@ false
 ;
 if
 (
-lazy
-.
 UrlbarPrefs
 .
 get
@@ -39448,8 +39371,6 @@ composition
 if
 (
 !
-lazy
-.
 UrlbarPrefs
 .
 get
@@ -39637,8 +39558,6 @@ compositionClosedPopup
 &
 &
 !
-lazy
-.
 UrlbarPrefs
 .
 get
