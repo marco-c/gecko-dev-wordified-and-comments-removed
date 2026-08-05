@@ -10423,7 +10423,8 @@ sharp
 [
 0
 ]
-movrel
+ldrel
+q16
 x16
 word_1248
 ushr
@@ -10438,15 +10439,6 @@ v1
 /
 /
 H
-ld1
-{
-v16
-.
-4s
-}
-[
-x16
-]
 sshl
 v3
 .
@@ -10930,6 +10922,9 @@ h
 uv
 const
 word_1248
+align
+=
+4
 .
 word
 1

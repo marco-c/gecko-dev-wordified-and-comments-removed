@@ -998,6 +998,7 @@ alpha
 HIGHBD_DECL_SUFFIX
 )
 {
+const
 unsigned
 dc
 =

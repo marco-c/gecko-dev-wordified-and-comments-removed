@@ -2,7 +2,7 @@
 Copyright
 2018
 -
-2024
+2026
 VideoLAN
 and
 dav1d
@@ -252,7 +252,7 @@ version
 .
 5
 .
-3
+4
 '
 default_options
 :
@@ -1241,7 +1241,7 @@ COPYRIGHT_YEARS
 '
 2018
 -
-2025
+2026
 '
 )
 else

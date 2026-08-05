@@ -1649,9 +1649,9 @@ q0
 p0
 )
 )
-f1
-f2
 ;
+const
+int
 f1
 =
 imin
@@ -1672,6 +1672,8 @@ bitdepth_min_8
 >
 3
 ;
+const
+int
 f2
 =
 imin

@@ -7863,7 +7863,8 @@ sharp
 [
 0
 ]
-movrel
+ldrel
+d16
 x16
 word_12
 ushr
@@ -7878,15 +7879,6 @@ v1
 /
 /
 H
-ld1
-{
-v16
-.
-2s
-}
-[
-x16
-]
 sshl
 v3
 .
@@ -8449,6 +8441,9 @@ h
 uv
 const
 word_12
+align
+=
+3
 .
 word
 1

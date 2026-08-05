@@ -724,6 +724,17 @@ define
 MF8
 5
 #
+define
+X
+(
+x
+)
+CONCAT
+(
+EXTERN
+x
+)
+#
 endif
 /
 *
