@@ -830,9 +830,8 @@ tuple
 )
 input
 output
-Nothing
-(
-)
+0
+nullptr
 aRv
 )
 ;
