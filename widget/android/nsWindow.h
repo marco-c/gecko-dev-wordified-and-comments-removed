@@ -1180,9 +1180,11 @@ aMessage
 override
 ;
 void
-NotifyCompositorScrollUpdate
+NotifyCompositorScrollUpdates
 (
 const
+nsTArray
+<
 mozilla
 :
 :
@@ -1190,8 +1192,9 @@ layers
 :
 :
 CompositorScrollUpdate
+>
 &
-aUpdate
+aUpdates
 )
 override
 ;
