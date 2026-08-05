@@ -467,6 +467,11 @@ receivedTime
 )
 ;
 async
+Draining
+(
+)
+;
+async
 RemoteClosed
 (
 bool
