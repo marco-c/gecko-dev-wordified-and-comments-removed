@@ -152,6 +152,15 @@ include
 "
 mozilla
 /
+StoragePrincipalHelper
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 BrowserBridgeParent

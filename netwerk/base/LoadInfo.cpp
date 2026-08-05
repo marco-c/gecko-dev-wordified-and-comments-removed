@@ -89,6 +89,15 @@ include
 "
 mozilla
 /
+StoragePrincipalHelper
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 BrowserChild
