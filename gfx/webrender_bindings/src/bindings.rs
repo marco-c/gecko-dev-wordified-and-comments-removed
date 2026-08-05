@@ -6352,6 +6352,15 @@ null_mut
 )
 ;
 }
+set_profiler_hooks
+(
+Some
+(
+&
+PROFILER_HOOKS
+)
+)
+;
 let
 font_namespace
 =
