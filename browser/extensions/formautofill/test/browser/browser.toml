@@ -688,6 +688,13 @@ standalone
 ]
 [
 "
+browser_editPassportDialog
+.
+js
+"
+]
+[
+"
 browser_email_dropdown
 .
 js
@@ -836,6 +843,13 @@ js
 [
 "
 browser_manageAddressesDialog
+.
+js
+"
+]
+[
+"
+browser_managePersonalInfoSubpage
 .
 js
 "
