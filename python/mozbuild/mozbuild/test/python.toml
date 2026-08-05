@@ -118,6 +118,15 @@ py
 "
 backend
 /
+test_l10n_manifest
+.
+py
+"
+]
+[
+"
+backend
+/
 test_partialconfigenvironment
 .
 py
