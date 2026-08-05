@@ -1429,6 +1429,10 @@ static
 void
 LogSurface
 (
+const
+nsACString
+&
+aHeader
 IOSurfaceRef
 aSurfaceRef
 CVPixelBufferRef
