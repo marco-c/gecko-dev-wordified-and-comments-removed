@@ -603,6 +603,10 @@ clicked
 dismissed
 =
 false
+clearInvocations
+(
+view
+)
 holder
 .
 bind
