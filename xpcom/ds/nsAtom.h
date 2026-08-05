@@ -459,6 +459,7 @@ mHash
 ;
 class
 nsStaticAtom
+final
 :
 public
 nsAtom

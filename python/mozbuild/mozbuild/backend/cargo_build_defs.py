@@ -192,14 +192,6 @@ style
 "
 gecko
 /
-atom_macro
-.
-rs
-"
-        
-"
-gecko
-/
 pseudo_element_definition
 .
 rs
