@@ -3416,6 +3416,8 @@ pqc
 {
 FieldTrials
 field_trials
+=
+CreateTestFieldTrials
 (
 "
 WebRTC
