@@ -199,7 +199,10 @@ use
 specified
 :
 :
+{
+ImageDecoding
 ImageRendering
+}
 ;
 pub
 type

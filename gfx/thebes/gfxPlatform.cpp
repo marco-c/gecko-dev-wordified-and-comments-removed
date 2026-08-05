@@ -10196,9 +10196,9 @@ WeightRange
 &
 aWeightForEntry
 const
-StretchRange
+WidthRange
 &
-aStretchForEntry
+aWidthForEntry
 const
 SlantStyleRange
 &
@@ -10219,7 +10219,7 @@ LookupLocalFont
 aFontVisibilityProvider
 aFontName
 aWeightForEntry
-aStretchForEntry
+aWidthForEntry
 aStyleForEntry
 )
 ;
@@ -10242,9 +10242,9 @@ WeightRange
 &
 aWeightForEntry
 const
-StretchRange
+WidthRange
 &
-aStretchForEntry
+aWidthForEntry
 const
 SlantStyleRange
 &
@@ -10270,7 +10270,7 @@ MakePlatformFont
 (
 aFontName
 aWeightForEntry
-aStretchForEntry
+aWidthForEntry
 aStyleForEntry
 aFontData
 aLength

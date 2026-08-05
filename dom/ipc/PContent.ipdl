@@ -2158,7 +2158,7 @@ uint32_t
 weightRange
 ;
 uint32_t
-stretchRange
+widthRange
 ;
 uint32_t
 styleRange

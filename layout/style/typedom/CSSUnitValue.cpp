@@ -526,7 +526,7 @@ case
 eCSSProperty_font_size_adjust
 :
 case
-eCSSProperty_font_stretch
+eCSSProperty_font_width
 :
 case
 eCSSProperty_flex_grow

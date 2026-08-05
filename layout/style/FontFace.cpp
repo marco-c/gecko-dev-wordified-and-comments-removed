@@ -911,7 +911,7 @@ void
 FontFace
 :
 :
-GetStretch
+GetWidth
 (
 nsACString
 &
@@ -921,7 +921,7 @@ aResult
 mImpl
 -
 >
-GetStretch
+GetWidth
 (
 aResult
 )
@@ -931,7 +931,7 @@ void
 FontFace
 :
 :
-SetStretch
+SetWidth
 (
 const
 nsACString
@@ -945,7 +945,7 @@ aRv
 mImpl
 -
 >
-SetStretch
+SetWidth
 (
 aValue
 aRv

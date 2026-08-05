@@ -594,7 +594,7 @@ aRv
 )
 ;
 void
-GetStretch
+GetWidth
 (
 nsACString
 &
@@ -602,7 +602,7 @@ aResult
 )
 ;
 void
-SetStretch
+SetWidth
 (
 const
 nsACString
@@ -801,9 +801,6 @@ Status
 void
 Load
 (
-ErrorResult
-&
-aRv
 )
 ;
 void
@@ -838,6 +835,11 @@ uint8_t
 aBuffer
 uint32_t
 aLength
+)
+;
+void
+UpdateOwnerKeepAlive
+(
 )
 ;
 bool
@@ -888,6 +890,11 @@ DoLoad
 ;
 void
 UpdateOwnerPromise
+(
+)
+;
+void
+UpdateOwnerPromiseSync
 (
 )
 ;

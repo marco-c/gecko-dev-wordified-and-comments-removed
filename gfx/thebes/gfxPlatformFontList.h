@@ -640,8 +640,8 @@ typedef
 mozilla
 :
 :
-StretchRange
-StretchRange
+WidthRange
+WidthRange
 ;
 typedef
 mozilla
@@ -1794,8 +1794,8 @@ nsACString
 aFontName
 WeightRange
 aWeightForEntry
-StretchRange
-aStretchForEntry
+WidthRange
+aWidthForEntry
 SlantStyleRange
 aStyleForEntry
 )
@@ -1815,8 +1815,8 @@ nsACString
 aFontName
 WeightRange
 aWeightForEntry
-StretchRange
-aStretchForEntry
+WidthRange
+aWidthForEntry
 SlantStyleRange
 aStyleForEntry
 const
@@ -3406,8 +3406,8 @@ nsACString
 aFaceName
 WeightRange
 aWeightForEntry
-StretchRange
-aStretchForEntry
+WidthRange
+aWidthForEntry
 SlantStyleRange
 aStyleForEntry
 )
