@@ -2639,6 +2639,13 @@ topobjdir
 )
 export
 MOZ_FOLD_LIBS
+GLEAN_PYTHON_VENV_DIR
+=
+(
+GRADLE_GLEAN_PARSER_VENV
+)
+export
+GLEAN_PYTHON_VENV_DIR
 export
 PYTHON3
 export
