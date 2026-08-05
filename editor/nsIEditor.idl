@@ -1118,6 +1118,14 @@ selection
 anchor
 is
 editable
+or
+if
+this
+is
+an
+EditContext
+editor
+.
 *
 /
 readonly

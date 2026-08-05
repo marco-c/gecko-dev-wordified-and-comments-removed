@@ -627,6 +627,12 @@ UnsuppressNotifyingIME
 )
 ;
 }
+bool
+IsCanvas
+(
+)
+const
+;
 private
 :
 EditContext

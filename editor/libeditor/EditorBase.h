@@ -791,6 +791,13 @@ return
 selection
 ;
 }
+nsFrameSelection
+*
+GetEditableFrameSelection
+(
+)
+const
+;
 [
 [
 nodiscard
