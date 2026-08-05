@@ -6267,7 +6267,7 @@ ClipSnap
 :
 Text
 (
-rounding
+_
 )
 =
 >
@@ -6277,7 +6277,10 @@ snapped_clip_rect
 (
 snapper
 spatial_tree
-rounding
+SnapRounding
+:
+:
+RoundOut
 )
 ClipSnap
 :
