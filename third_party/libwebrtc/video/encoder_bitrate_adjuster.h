@@ -238,6 +238,11 @@ temporal_index
 )
 ;
 void
+OnFrameDropped
+(
+)
+;
+void
 Reset
 (
 )
