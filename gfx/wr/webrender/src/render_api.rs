@@ -5753,8 +5753,11 @@ send
 SceneBuilderRequest
 :
 :
-Flush
+StopWindow
 (
+self
+.
+backend_id
 tx
 )
 )
