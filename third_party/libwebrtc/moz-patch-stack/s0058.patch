@@ -298,10 +298,10 @@ rtp_video_stream_receiver2
 .
 cc
 index
-90c4432fd3
+8ed9d9db6e
 .
 .
-a15167060c
+7676870a78
 100644
 -
 -
@@ -324,10 +324,10 @@ rtp_video_stream_receiver2
 .
 cc
 -
-1366
+1374
 7
 +
-1366
+1374
 9
 void
 RtpVideoStreamReceiver2
@@ -400,6 +400,7 @@ reference_finder_
 ClearTo
 (
 seq_num
+rtp_timestamp
 )
 ;
 }
