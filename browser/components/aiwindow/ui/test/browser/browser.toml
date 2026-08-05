@@ -134,6 +134,16 @@ test_grouped_chips
 mjs
 "
 "
+test_smartwindow_prompts_page
+.
+html
+"
+"
+test_smartwindow_prompts
+.
+mjs
+"
+"
 test_smartwindow_panel_list_page
 .
 html
