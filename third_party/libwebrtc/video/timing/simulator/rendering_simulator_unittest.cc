@@ -782,7 +782,7 @@ EXPECT_THAT
 (
 frame
 .
-AssembledInTime
+RenderedInTime
 (
 )
 Optional
@@ -795,7 +795,7 @@ EXPECT_THAT
 (
 frame
 .
-AssembledLate
+RenderedLate
 (
 )
 Optional
@@ -924,10 +924,8 @@ AssembledMargin
 TimeDelta
 :
 :
-Micros
+Zero
 (
--
-499
 )
 )
 ;
@@ -950,10 +948,8 @@ RenderedMargin
 TimeDelta
 :
 :
-Micros
+Zero
 (
--
-499
 )
 )
 ;
@@ -1050,9 +1046,8 @@ AssembledMargin
 TimeDelta
 :
 :
-Micros
+Zero
 (
-500
 )
 )
 ;
@@ -1075,9 +1070,8 @@ RenderedMargin
 TimeDelta
 :
 :
-Micros
+Zero
 (
-500
 )
 )
 ;
