@@ -609,9 +609,11 @@ ice_role_
 (
 ICEROLE_UNKNOWN
 )
-tiebreaker_
+ice_tiebreaker_
 (
-0
+args
+.
+ice_tiebreaker
 )
 shared_socket_
 (
@@ -942,7 +944,7 @@ RTC_DCHECK_RUN_ON
 thread_
 )
 ;
-tiebreaker_
+ice_tiebreaker_
 =
 tiebreaker
 ;
@@ -962,7 +964,7 @@ thread_
 )
 ;
 return
-tiebreaker_
+ice_tiebreaker_
 ;
 }
 bool
@@ -1250,7 +1252,7 @@ c
 ComputeFoundation
 (
 base_address
-tiebreaker_
+ice_tiebreaker_
 )
 ;
 c
@@ -4183,7 +4185,7 @@ if
 remote_tiebreaker
 >
 =
-tiebreaker_
+ice_tiebreaker_
 )
 {
 NotifyRoleConflict
@@ -4224,7 +4226,7 @@ if
 (
 remote_tiebreaker
 <
-tiebreaker_
+ice_tiebreaker_
 )
 {
 NotifyRoleConflict

@@ -808,6 +808,9 @@ lna_permission_factory
 =
 nullptr
 ;
+uint64_t
+ice_tiebreaker
+;
 }
 ;
 protected
@@ -884,6 +887,18 @@ role
 )
 override
 ;
+[
+[
+deprecated
+(
+"
+Pass
+via
+PortParametersRef
+"
+)
+]
+]
 void
 SetIceTiebreaker
 (
@@ -2636,7 +2651,7 @@ thread_
 )
 ;
 uint64_t
-tiebreaker_
+ice_tiebreaker_
 RTC_GUARDED_BY
 (
 thread_
