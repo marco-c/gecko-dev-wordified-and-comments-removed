@@ -3034,7 +3034,7 @@ nodiscard
 bool
 emitPropLHS
 (
-PropertyAccess
+NonOptonalPropertyAccessBase
 *
 prop
 )

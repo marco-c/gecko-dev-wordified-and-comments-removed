@@ -8683,7 +8683,7 @@ BytecodeEmitter
 :
 emitPropLHS
 (
-PropertyAccess
+NonOptonalPropertyAccessBase
 *
 prop
 )
@@ -9093,7 +9093,7 @@ ValueUsage
 valueUsage
 )
 {
-PropertyAccess
+NonOptonalPropertyAccessBase
 *
 prop
 =
@@ -9108,7 +9108,7 @@ kid
 >
 as
 <
-PropertyAccess
+NonOptonalPropertyAccessBase
 >
 (
 )
@@ -13910,7 +13910,7 @@ ParseNodeKind
 DotExpr
 :
 {
-PropertyAccess
+NonOptonalPropertyAccessBase
 *
 prop
 =
@@ -13920,7 +13920,7 @@ target
 >
 as
 <
-PropertyAccess
+NonOptonalPropertyAccessBase
 >
 (
 )
@@ -14500,7 +14500,7 @@ target
 >
 as
 <
-PropertyAccess
+NonOptonalPropertyAccessBase
 >
 (
 )
@@ -20846,7 +20846,7 @@ ParseNodeKind
 DotExpr
 :
 {
-PropertyAccess
+NonOptonalPropertyAccessBase
 *
 prop
 =
@@ -20856,7 +20856,7 @@ lhs
 >
 as
 <
-PropertyAccess
+NonOptonalPropertyAccessBase
 >
 (
 )
@@ -21386,7 +21386,7 @@ ParseNodeKind
 DotExpr
 :
 {
-PropertyAccess
+NonOptonalPropertyAccessBase
 *
 prop
 =
@@ -21396,7 +21396,7 @@ lhs
 >
 as
 <
-PropertyAccess
+NonOptonalPropertyAccessBase
 >
 (
 )
@@ -21735,7 +21735,7 @@ ParseNodeKind
 DotExpr
 :
 {
-PropertyAccess
+NonOptonalPropertyAccessBase
 *
 prop
 =
@@ -21745,7 +21745,7 @@ lhs
 >
 as
 <
-PropertyAccess
+NonOptonalPropertyAccessBase
 >
 (
 )
@@ -22141,7 +22141,7 @@ ParseNodeKind
 DotExpr
 :
 {
-PropertyAccess
+NonOptonalPropertyAccessBase
 *
 prop
 =
@@ -22151,7 +22151,7 @@ lhs
 >
 as
 <
-PropertyAccess
+NonOptonalPropertyAccessBase
 >
 (
 )
@@ -22685,7 +22685,7 @@ ParseNodeKind
 DotExpr
 :
 {
-PropertyAccess
+NonOptonalPropertyAccessBase
 *
 prop
 =
@@ -22695,7 +22695,7 @@ lhs
 >
 as
 <
-PropertyAccess
+NonOptonalPropertyAccessBase
 >
 (
 )
@@ -32988,7 +32988,7 @@ DeletePropExpr
 )
 )
 ;
-PropertyAccess
+NonOptonalPropertyAccessBase
 *
 propExpr
 =
@@ -33003,7 +33003,7 @@ kid
 >
 as
 <
-PropertyAccess
+NonOptonalPropertyAccessBase
 >
 (
 )
@@ -33022,13 +33022,6 @@ Delete
 propExpr
 -
 >
-as
-<
-PropertyAccess
->
-(
-)
-.
 isSuper
 (
 )
@@ -33592,28 +33585,12 @@ OptionalEmitter
 oe
 )
 {
-MOZ_ASSERT_IF
+MOZ_ASSERT
 (
-propExpr
--
->
-is
-<
-PropertyAccess
->
-(
-)
 !
 propExpr
 -
 >
-as
-<
-PropertyAccess
->
-(
-)
-.
 isSuper
 (
 )
@@ -37678,7 +37655,7 @@ calleeNode
 >
 as
 <
-PropertyAccess
+NonOptonalPropertyAccessBase
 >
 (
 )
