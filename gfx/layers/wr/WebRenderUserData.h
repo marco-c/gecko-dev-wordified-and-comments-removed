@@ -1642,6 +1642,12 @@ mExternalSurfaces
 LayerIntRect
 mItemRect
 ;
+gfx
+:
+:
+Point
+mResidual
+;
 nsPoint
 mMaskOffset
 ;
