@@ -4420,13 +4420,10 @@ return
 mOffset
 <
 =
-GetContainer
+ComputeLength
 (
-)
--
->
-Length
-(
+mParent
+mTreeKind
 )
 ;
 }
