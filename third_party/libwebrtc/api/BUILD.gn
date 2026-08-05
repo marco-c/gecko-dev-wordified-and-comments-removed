@@ -8950,6 +8950,11 @@ rtc_event_log_output_file_unittest
 cc
 "
 "
+rtp_header_extension_id_unittest
+.
+cc
+"
+"
 rtp_packet_info_unittest
 .
 cc
