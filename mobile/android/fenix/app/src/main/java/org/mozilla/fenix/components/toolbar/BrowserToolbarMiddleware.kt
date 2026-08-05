@@ -8225,9 +8225,8 @@ onClick
 testTag
 =
 testTag
-)
-.
-also
+onAnimationStarted
+=
 {
 ipProtectionStore
 .
@@ -8238,6 +8237,7 @@ IPProtectionAction
 ProxyActiveShown
 )
 }
+)
 }
 else
 {
