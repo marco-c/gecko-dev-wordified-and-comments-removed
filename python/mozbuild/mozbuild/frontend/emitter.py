@@ -80,6 +80,8 @@ data
 import
 (
     
+BaseRustLibrary
+    
 BaseRustProgram
     
 ChromeManifestEntry
@@ -1386,7 +1388,10 @@ if
 isinstance
 (
 lib
+(
+BaseRustLibrary
 RustTests
+)
 )
 :
                 
