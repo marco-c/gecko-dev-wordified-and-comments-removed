@@ -82,6 +82,13 @@ js
 ]
 [
 "
+test_SmartWindowTelemetry
+.
+js
+"
+]
+[
+"
 test_TabManagementService
 .
 js
