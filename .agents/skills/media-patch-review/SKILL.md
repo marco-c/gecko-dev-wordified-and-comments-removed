@@ -116,14 +116,6 @@ tools
 [
 Agent
 ]
-paths
-:
-dom
-/
-media
-/
-*
-*
 -
 -
 -
