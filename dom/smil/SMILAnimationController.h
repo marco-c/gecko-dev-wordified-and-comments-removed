@@ -399,7 +399,7 @@ aActiveContainers
 )
 ;
 static
-void
+bool
 AddAnimationToCompositorTable
 (
 mozilla
