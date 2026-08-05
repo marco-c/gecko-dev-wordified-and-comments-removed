@@ -1675,7 +1675,7 @@ deps
 .
 disableShowUpdateHistory
 .
-value
+locked
 onUserClick
 :
 (

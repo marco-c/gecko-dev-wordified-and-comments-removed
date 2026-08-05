@@ -306,6 +306,13 @@ js
 ]
 [
 "
+browser_policy_disable_buttons
+.
+js
+"
+]
+[
+"
 browser_policy_disable_feedback_commands
 .
 js
