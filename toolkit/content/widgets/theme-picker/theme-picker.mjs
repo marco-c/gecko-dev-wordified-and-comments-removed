@@ -64,9 +64,9 @@ MozXULElement
 insertFTLIfNeeded
 (
 "
-locales
--
-preview
+toolkit
+/
+global
 /
 theme
 -

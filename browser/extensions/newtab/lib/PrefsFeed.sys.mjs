@@ -553,9 +553,9 @@ bug
 2050531
 )
 and
-locales
--
-preview
+toolkit
+/
+global
 /
 theme
 -
