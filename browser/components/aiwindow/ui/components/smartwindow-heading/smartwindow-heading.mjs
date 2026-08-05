@@ -221,7 +221,11 @@ chrome
 /
 browser
 /
-skin
+content
+/
+aiwindow
+/
+assets
 /
 smart
 -
