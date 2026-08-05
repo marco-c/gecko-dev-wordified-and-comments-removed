@@ -108,6 +108,15 @@ toml
 widgets
 /
 chrome
+-
+nova
+.
+toml
+"
+"
+widgets
+/
+chrome
 .
 toml
 "
