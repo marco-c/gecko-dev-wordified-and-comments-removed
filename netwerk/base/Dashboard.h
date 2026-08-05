@@ -75,6 +75,9 @@ class
 ConnectionData
 ;
 class
+SSLTokensCacheData
+;
+class
 Dashboard
 final
 :
@@ -371,6 +374,13 @@ nsresult
 GetWebSocketConnections
 (
 WebSocketRequest
+*
+)
+;
+nsresult
+GetSSLTokensCache
+(
+SSLTokensCacheData
 *
 )
 ;
