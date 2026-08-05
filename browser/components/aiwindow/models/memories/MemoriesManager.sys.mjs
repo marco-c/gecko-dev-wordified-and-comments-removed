@@ -136,6 +136,7 @@ import
 {
 MODEL_FEATURES
 renderPrompt
+parseAndExtractJSON
 }
 from
 "
@@ -356,7 +357,6 @@ mjs
 import
 {
 getFormattedMemoryAttributeList
-parseAndExtractJSON
 runSessionMemoryPipeline
 }
 from

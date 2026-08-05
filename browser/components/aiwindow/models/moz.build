@@ -85,6 +85,9 @@ memories
 "
 agents
 "
+"
+search
+"
 ]
 BROWSER_CHROME_MANIFESTS
 +
