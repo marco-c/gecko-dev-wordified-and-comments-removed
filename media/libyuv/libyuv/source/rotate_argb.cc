@@ -9,6 +9,13 @@ h
 "
 #
 include
+<
+limits
+.
+h
+>
+#
+include
 "
 libyuv
 /
@@ -330,6 +337,9 @@ height
 src_argb
 +
 =
+(
+ptrdiff_t
+)
 src_stride_argb
 *
 (
@@ -379,6 +389,9 @@ height
 dst_argb
 +
 =
+(
+ptrdiff_t
+)
 dst_stride_argb
 *
 (
@@ -432,6 +445,9 @@ src_bot
 =
 src_argb
 +
+(
+ptrdiff_t
+)
 src_stride_argb
 *
 (
@@ -446,6 +462,9 @@ dst_bot
 =
 dst_argb
 +
+(
+ptrdiff_t
+)
 dst_stride_argb
 *
 (
@@ -995,6 +1014,12 @@ height
 0
 |
 |
+height
+=
+=
+INT_MIN
+|
+|
 !
 dst_argb
 )
@@ -1020,6 +1045,9 @@ src_argb
 =
 src_argb
 +
+(
+ptrdiff_t
+)
 (
 height
 -

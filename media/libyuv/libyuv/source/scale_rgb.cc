@@ -160,6 +160,12 @@ src_height
 0
 |
 |
+src_height
+=
+=
+INT_MIN
+|
+|
 dst_width
 <
 =
@@ -249,6 +255,11 @@ src_argb_size
 +
 dst_argb_size
 ;
+#
+if
+UINT64_MAX
+>
+SIZE_MAX
 if
 (
 argb_size
@@ -261,6 +272,8 @@ return
 1
 ;
 }
+#
+endif
 uint8_t
 *
 src_argb

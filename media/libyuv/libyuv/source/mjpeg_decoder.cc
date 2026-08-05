@@ -568,6 +568,8 @@ i
 )
 {
 delete
+[
+]
 scanlines_
 [
 i
@@ -629,6 +631,8 @@ i
 )
 {
 delete
+[
+]
 databuf_
 [
 i
