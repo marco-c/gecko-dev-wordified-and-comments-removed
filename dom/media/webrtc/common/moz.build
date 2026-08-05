@@ -168,6 +168,11 @@ IceServerParser
 cpp
 "
 "
+RtpHeaderExtensions
+.
+cpp
+"
+"
 time_profiling
 /
 timecard
