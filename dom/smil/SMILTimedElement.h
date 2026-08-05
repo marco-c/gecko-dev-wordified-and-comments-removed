@@ -901,6 +901,11 @@ aIsBegin
 void
 RegisterMilestone
 (
+SMILTimeContainer
+*
+aContainer
+=
+nullptr
 )
 ;
 bool
