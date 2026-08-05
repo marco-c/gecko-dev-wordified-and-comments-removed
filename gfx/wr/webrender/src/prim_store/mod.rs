@@ -1086,11 +1086,7 @@ api
 key_types
 :
 :
-{
-PointKey
-SizeKey
 VectorKey
-}
 ;
 pub
 use
