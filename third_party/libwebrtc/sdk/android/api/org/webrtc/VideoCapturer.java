@@ -54,6 +54,11 @@ int
 framerate
 )
 ;
+boolean
+isCapturing
+(
+)
+;
 void
 dispose
 (
