@@ -243,18 +243,6 @@ fenix
 .
 home
 .
-sports
-.
-SportsInteractor
-import
-org
-.
-mozilla
-.
-fenix
-.
-home
-.
 termsofuse
 .
 PrivacyNoticeBannerInteractor
@@ -318,4 +306,3 @@ PrivateBrowsingInteractor
 WallpaperInteractor
 SetupChecklistInteractor
 TrackingProtectionInteractor
-SportsInteractor
