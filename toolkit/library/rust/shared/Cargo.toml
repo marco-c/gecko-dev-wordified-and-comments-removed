@@ -2958,6 +2958,9 @@ features
 "
 xpcom
 "
+"
+mozbuild
+"
 ]
 }
 uniffi
