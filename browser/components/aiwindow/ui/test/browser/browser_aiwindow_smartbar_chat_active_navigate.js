@@ -456,10 +456,11 @@ ok
 (
 called
 "
-_loadURL
+The
+load
+path
 should
-be
-called
+run
 for
 URL
 -
@@ -484,7 +485,8 @@ com
 /
 "
 "
-_loadURL
+The
+load
 should
 receive
 the
