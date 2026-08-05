@@ -430,6 +430,16 @@ pref
 "
 pdfjs
 .
+featuresNotificationDismissed
+"
+false
+)
+;
+pref
+(
+"
+pdfjs
+.
 forcePageColors
 "
 false

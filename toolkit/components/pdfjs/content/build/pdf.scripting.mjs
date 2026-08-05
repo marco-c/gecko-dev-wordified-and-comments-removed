@@ -172,11 +172,11 @@ pdfjsVersion
 .
 2
 .
-52
+80
 *
 pdfjsBuild
 =
-05e100c76
+2ea8820d9
 *
 /
 ;
