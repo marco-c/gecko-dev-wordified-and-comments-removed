@@ -167,6 +167,8 @@ nsACString
 &
 aOrigin
 FullOriginMetadata
+&
+&
 aValue
 )
 {
