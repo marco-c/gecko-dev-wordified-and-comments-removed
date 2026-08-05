@@ -1049,6 +1049,12 @@ case
 eCSSProperty_right
 :
 case
+eCSSProperty_width
+:
+case
+eCSSProperty_height
+:
+case
 eCSSProperty_margin
 :
 case
