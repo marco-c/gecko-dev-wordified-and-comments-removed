@@ -9374,10 +9374,6 @@ GetActiveCacheDomains
 )
 )
 ;
-mWasA11yEverActivated
-=
-true
-;
 }
 #
 endif
@@ -21147,10 +21143,6 @@ GetActiveCacheDomains
 (
 )
 )
-;
-mWasA11yEverActivated
-=
-true
 ;
 }
 else
