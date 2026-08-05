@@ -241,6 +241,13 @@ h
 #
 include
 "
+nsThreadUtils
+.
+h
+"
+#
+include
+"
 nsUTF8Utils
 .
 h
