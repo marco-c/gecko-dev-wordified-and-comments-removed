@@ -138,6 +138,12 @@ android
 .
 yml
 -
+android
+-
+emulator
+.
+yml
+-
 linux
 .
 yml
