@@ -3414,32 +3414,6 @@ version
 ]
 )
                 
-python_path
-=
-os
-.
-environ
-.
-get
-(
-                    
-"
-MOZ_PYTHON_HOME
-"
-Path
-(
-sys
-.
-executable
-)
-.
-parents
-[
-1
-]
-                
-)
-                
 uv_venv_creation_command
 =
 [
@@ -3467,7 +3441,9 @@ f
 python
 =
 {
-python_path
+sys
+.
+executable
 }
 "
                     
