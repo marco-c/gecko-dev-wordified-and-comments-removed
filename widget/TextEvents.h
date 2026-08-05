@@ -3712,6 +3712,11 @@ mRelativeToInsertionPoint
 =
 false
 ;
+bool
+mIsFirstCharFallbackRect
+=
+false
+;
 Input
 (
 )

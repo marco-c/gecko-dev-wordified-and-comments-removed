@@ -50,6 +50,13 @@ html
 ]
 [
 "
+test_editcontext_characterboundsupdate_range
+.
+html
+"
+]
+[
+"
 test_editcontext_composition
 .
 html

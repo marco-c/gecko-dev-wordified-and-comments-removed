@@ -1886,13 +1886,11 @@ aSelectionChangeData
 private
 :
 bool
-QueryCharRect
+QueryFirstCharFallbackRect
 (
 nsIWidget
 *
 aWidget
-uint32_t
-aOffset
 LayoutDeviceIntRect
 &
 aCharRect
