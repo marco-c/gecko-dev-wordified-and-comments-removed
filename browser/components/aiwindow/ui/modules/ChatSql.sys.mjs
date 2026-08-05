@@ -1002,6 +1002,7 @@ CONVERSATIONS_MOST_RECENT
 SELECT
 conv_id
 title
+page_url
 FROM
 conversation
 ORDER

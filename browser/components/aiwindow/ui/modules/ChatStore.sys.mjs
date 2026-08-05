@@ -2143,6 +2143,16 @@ getResultByName
 title
 "
 )
+pageUrl
+:
+row
+.
+getResultByName
+(
+"
+page_url
+"
+)
 }
 )
 ;
