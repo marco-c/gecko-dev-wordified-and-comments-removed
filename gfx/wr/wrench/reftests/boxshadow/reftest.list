@@ -1,3 +1,7 @@
+scale
+(
+*
+)
 !
 =
 inset
@@ -12,6 +16,10 @@ simple
 ref
 .
 yaml
+scale
+(
+*
+)
 !
 =
 inset
@@ -26,6 +34,10 @@ spread
 ref
 .
 yaml
+scale
+(
+*
+)
 !
 =
 inset
@@ -125,6 +137,10 @@ radius
 ref
 .
 png
+scale
+(
+*
+)
 =
 =
 inset
@@ -183,6 +199,10 @@ only
 ref
 .
 png
+scale
+(
+*
+)
 =
 =
 box
@@ -306,6 +326,10 @@ neg
 offset
 .
 png
+scale
+(
+*
+)
 =
 =
 box
@@ -377,6 +401,10 @@ suite
 blur
 .
 png
+scale
+(
+*
+)
 fuzzy
 (
 1
@@ -408,6 +436,10 @@ radius
 ref
 .
 yaml
+scale
+(
+*
+)
 fuzzy
 (
 1
@@ -531,6 +563,10 @@ radii
 ref
 .
 yaml
+scale
+(
+*
+)
 =
 =
 invalid
@@ -541,6 +577,10 @@ invalid
 ref
 .
 yaml
+scale
+(
+*
+)
 =
 =
 inset
@@ -774,6 +814,10 @@ mask
 region
 .
 png
+scale
+(
+*
+)
 =
 =
 box
