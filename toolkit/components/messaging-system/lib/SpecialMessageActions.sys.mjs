@@ -2747,6 +2747,13 @@ didSeeFinalScreen
 "
 browser
 .
+sessionstore
+.
+newTabOnRestore
+"
+"
+browser
+.
 smartwindow
 .
 enabled
