@@ -278,16 +278,6 @@ PatternBuilderState
 Pattern
 {
 let
-no_scale
-=
-DeviceVector2D
-:
-:
-one
-(
-)
-;
-let
 center
 =
 self
@@ -307,7 +297,6 @@ offset
 conic_gradient_pattern
 (
 center
-no_scale
 self
 .
 params

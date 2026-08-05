@@ -308,13 +308,6 @@ data0
 .
 xy
 ;
-vec2
-scale
-=
-data0
-.
-zw
-;
 float
 start_radius
 =
@@ -452,8 +445,6 @@ normalized_pos
 =
 (
 position
-*
-scale
 -
 center
 )
@@ -519,13 +510,6 @@ center
 data0
 .
 xy
-;
-vec2
-scale
-=
-data0
-.
-zw
 ;
 float
 start_offset
@@ -625,8 +609,6 @@ dir
 =
 (
 position
-*
-scale
 -
 center
 )

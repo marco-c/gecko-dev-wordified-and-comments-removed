@@ -293,16 +293,6 @@ PatternBuilderState
 Pattern
 {
 let
-no_scale
-=
-DeviceVector2D
-:
-:
-one
-(
-)
-;
-let
 center
 =
 self
@@ -326,7 +316,6 @@ offset
 radial_gradient_pattern
 (
 center
-no_scale
 self
 .
 params
