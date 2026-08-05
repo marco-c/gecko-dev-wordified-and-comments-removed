@@ -1180,9 +1180,6 @@ native
 llama
 .
 cpp
-best
--
-llama
 openai
 or
 static
