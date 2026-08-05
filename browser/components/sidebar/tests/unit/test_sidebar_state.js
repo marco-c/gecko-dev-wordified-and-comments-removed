@@ -230,6 +230,13 @@ hasSidebarLauncherBeenVisible
 :
 false
 }
+requestMaxWidthUpdate
+:
+sinon
+.
+stub
+(
+)
 }
 ;
 add_task
