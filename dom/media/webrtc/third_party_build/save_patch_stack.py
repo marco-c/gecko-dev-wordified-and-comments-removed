@@ -578,9 +578,25 @@ stdout_lines
             
 cmd
 =
+(
+                
 f
 "
 git
+-
+c
+core
+.
+fsmonitor
+=
+false
+-
+c
+gc
+.
+auto
+=
+0
 rm
 {
 '
@@ -592,6 +608,8 @@ stdout_lines
 )
 }
 "
+            
+)
             
 run_git
 (
@@ -741,9 +759,25 @@ stdout_lines
             
 cmd
 =
+(
+                
 f
 "
 git
+-
+c
+core
+.
+fsmonitor
+=
+false
+-
+c
+gc
+.
+auto
+=
+0
 add
 {
 '
@@ -755,6 +789,8 @@ stdout_lines
 )
 }
 "
+            
+)
             
 run_git
 (
@@ -904,6 +940,20 @@ cmd
 f
 "
 git
+-
+c
+core
+.
+fsmonitor
+=
+false
+-
+c
+gc
+.
+auto
+=
+0
 add
 {
 '
