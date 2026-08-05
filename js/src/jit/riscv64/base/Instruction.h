@@ -442,6 +442,7 @@ lo
 ;
 }
 inline
+enum
 BaseOpcode
 BaseOpcodeValue
 (
@@ -468,6 +469,7 @@ kBaseOpcodeShift
 ;
 }
 inline
+enum
 BaseOpcode
 BaseOpcodeFieldRaw
 (
