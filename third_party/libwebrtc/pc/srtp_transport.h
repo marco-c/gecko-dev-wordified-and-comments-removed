@@ -520,6 +520,11 @@ decryption_failure_count_
 =
 0
 ;
+int
+rtcp_decryption_failure_count_
+=
+0
+;
 bool
 enable_cryptex_
 =

@@ -495,6 +495,15 @@ thread_checker_
 =
 0
 ;
+int
+rtcp_decryption_failure_count_
+RTC_GUARDED_BY
+(
+thread_checker_
+)
+=
+0
+;
 bool
 use_cryptex_
 RTC_GUARDED_BY
