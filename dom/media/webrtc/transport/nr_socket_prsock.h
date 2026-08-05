@@ -270,6 +270,7 @@ static
 bool
 IsForbiddenAddress
 (
+const
 nr_transport_addr
 *
 addr
