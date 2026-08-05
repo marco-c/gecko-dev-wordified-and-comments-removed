@@ -4007,6 +4007,8 @@ aER
 ProcessStreamingContext
 &
 aProcessStreamingContext
+uint64_t
+aEntryPosition
 )
 {
 ThreadStreamingContext
@@ -4046,6 +4048,7 @@ aProcessStreamingContext
 GetThreadStreamingContext
 (
 aThreadId
+aEntryPosition
 )
 ;
 return
@@ -4714,6 +4717,9 @@ StreamMarkerAfterKind
 er
 *
 mStreamingContextForMarkers
+CurPos
+(
+)
 )
 ;
 if
@@ -5078,6 +5084,7 @@ aGetStreamingParametersForThreadCallback
 context
 .
 id
+UINT64_MAX
 )
 ;
 if
@@ -6439,6 +6446,16 @@ GetThreadId
 (
 )
 ;
+const
+uint64_t
+entryPosition
+=
+e
+.
+CurPos
+(
+)
+;
 e
 .
 Next
@@ -6454,6 +6471,7 @@ streamingParameters
 aGetStreamingParametersForThreadCallback
 (
 threadId
+entryPosition
 )
 ;
 if
@@ -8045,6 +8063,15 @@ StreamMarkerAfterKind
 er
 *
 aStreamingContextForMarkers
+it
+.
+CurrentBlockIndex
+(
+)
+.
+ConvertToProfileBufferIndex
+(
+)
 )
 ;
 continue
@@ -8349,6 +8376,15 @@ StreamMarkerAfterKind
 er
 *
 aStreamingContextForMarkers
+it
+.
+CurrentBlockIndex
+(
+)
+.
+ConvertToProfileBufferIndex
+(
+)
 )
 ;
 continue
@@ -8494,6 +8530,7 @@ SourceFailureLatch
 (
 ProfilerThreadId
 aReadThreadId
+uint64_t
 )
 {
 Maybe
@@ -8617,6 +8654,8 @@ getStreamingParamsCallback
 (
 ProfilerThreadId
 aReadThreadId
+uint64_t
+aEntryPosition
 )
 {
 Maybe
@@ -8634,6 +8673,7 @@ aProcessStreamingContext
 GetThreadStreamingContext
 (
 aReadThreadId
+aEntryPosition
 )
 ;
 if
