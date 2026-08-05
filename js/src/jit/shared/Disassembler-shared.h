@@ -69,6 +69,12 @@ defined
 (
 JS_DISASM_RISCV64
 )
+|
+|
+defined
+(
+JS_DISASM_LOONG64
+)
 #
 define
 JS_DISASM_SUPPORTED

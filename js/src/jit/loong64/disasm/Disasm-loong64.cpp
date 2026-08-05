@@ -2922,6 +2922,10 @@ s
 %
 s
 %
+d
+-
+>
+%
 s
 "
 mnemonic
@@ -2943,6 +2947,7 @@ RDShift
 RDBits
 )
 )
+offset
 target
 (
 instruction
@@ -3016,6 +3021,10 @@ output_
 %
 s
 %
+d
+-
+>
+%
 s
 "
 mnemonic
@@ -3028,6 +3037,7 @@ RJShift
 RJBits
 )
 )
+offset
 target
 (
 instruction
@@ -3119,6 +3129,10 @@ fcc
 %
 u
 %
+d
+-
+>
+%
 s
 "
 condition
@@ -3139,6 +3153,7 @@ word
 CJShift
 CJBits
 )
+offset
 target
 (
 instruction
@@ -3210,9 +3225,14 @@ output_
 -
 12s
 %
+d
+-
+>
+%
 s
 "
 mnemonic
+offset
 target
 (
 instruction
