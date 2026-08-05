@@ -372,6 +372,12 @@ this
 props
 .
 isValidJson
+&
+&
+!
+JSONView
+.
+isJsonlines
 ?
 ToolbarButton
 (
