@@ -2316,9 +2316,7 @@ exactly
 {
 settings
 .
-lastBrowseActivity
-=
-any
+recordLastBrowseActivity
 (
 )
 }

@@ -3057,11 +3057,7 @@ requireComponents
 .
 settings
 .
-lastBrowseActivity
-=
-System
-.
-currentTimeMillis
+recordLastBrowseActivity
 (
 )
 }

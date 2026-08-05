@@ -2011,11 +2011,7 @@ requireComponents
 settings
 settings
 .
-onboardingCompletedTimestamp
-=
-System
-.
-currentTimeMillis
+recordOnboardingCompleted
 (
 )
 settings
@@ -2328,11 +2324,7 @@ requireComponents
 .
 settings
 .
-lastSetAsDefaultPromptShownTimeInMillis
-=
-System
-.
-currentTimeMillis
+recordSetAsDefaultPromptShownTime
 (
 )
 telemetryRecorder

@@ -7861,11 +7861,7 @@ requireComponents
 .
 settings
 .
-lastHomeActivity
-=
-System
-.
-currentTimeMillis
+recordLastHomeActivity
 (
 )
 }
