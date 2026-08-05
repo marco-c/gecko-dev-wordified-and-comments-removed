@@ -708,6 +708,9 @@ Dav1dDecoderTemplateAdapter
 nullptr
 nullptr
 nullptr
+CreateTestFieldTrialsPtr
+(
+)
 )
 )
 {

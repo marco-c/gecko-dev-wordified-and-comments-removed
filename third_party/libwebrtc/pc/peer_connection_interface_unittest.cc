@@ -6651,6 +6651,14 @@ Create
 (
 )
 ;
+dependencies
+.
+env
+=
+CreateTestEnvironment
+(
+)
+;
 EnableMediaWithDefaults
 (
 dependencies
