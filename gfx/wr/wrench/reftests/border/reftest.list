@@ -155,10 +155,6 @@ border
 radii
 .
 png
-scale
-(
-*
-)
 =
 =
 border
@@ -207,10 +203,6 @@ corner
 ref
 .
 yaml
-scale
-(
-*
-)
 =
 =
 border
@@ -252,10 +244,6 @@ overlap
 ref
 .
 yaml
-scale
-(
-*
-)
 =
 =
 long
@@ -286,10 +274,6 @@ corner
 ref
 .
 yaml
-scale
-(
-*
-)
 =
 =
 border
@@ -592,10 +576,6 @@ round
 ref
 .
 png
-scale
-(
-*
-)
 =
 =
 border
@@ -614,10 +594,6 @@ crash
 ref
 .
 yaml
-scale
-(
-*
-)
 =
 =
 border
@@ -778,10 +754,6 @@ yaml
 overlapping
 .
 png
-scale
-(
-*
-)
 =
 =
 zero
@@ -866,10 +838,6 @@ dotted
 caching
 .
 png
-scale
-(
-*
-)
 !
 =
 small

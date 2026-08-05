@@ -1,7 +1,3 @@
-scale
-(
-*
-)
 !
 =
 iframe
@@ -12,10 +8,6 @@ yaml
 blank
 .
 yaml
-scale
-(
-*
-)
 !
 =
 many

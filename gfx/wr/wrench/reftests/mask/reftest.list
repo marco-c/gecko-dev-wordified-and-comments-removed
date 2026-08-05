@@ -65,10 +65,6 @@ mask
 ref
 .
 yaml
-scale
-(
-*
-)
 !
 =
 mask
@@ -77,10 +73,6 @@ yaml
 green
 .
 yaml
-scale
-(
-*
-)
 =
 =
 aligned
@@ -99,10 +91,6 @@ rect
 ref
 .
 yaml
-scale
-(
-*
-)
 =
 =
 mask
@@ -146,10 +134,6 @@ rounded
 corners
 .
 png
-scale
-(
-*
-)
 !
 =
 mask
@@ -237,10 +221,6 @@ mask
 perspective
 .
 png
-scale
-(
-*
-)
 =
 =
 fuzzy
@@ -273,10 +253,6 @@ yaml
 checkerboard
 .
 png
-scale
-(
-*
-)
 skip_on
 (
 android
@@ -302,10 +278,6 @@ Fails
 on
 a
 Pixel2
-scale
-(
-*
-)
 =
 =
 missing
