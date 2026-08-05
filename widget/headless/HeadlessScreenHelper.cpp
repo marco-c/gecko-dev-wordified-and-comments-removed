@@ -179,6 +179,12 @@ IsHDR
 :
 :
 No
+80
+.
+0f
+1000
+.
+0f
 )
 ;
 screenList

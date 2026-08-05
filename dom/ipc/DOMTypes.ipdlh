@@ -852,6 +852,12 @@ isPseudoDisplay
 bool
 isHDR
 ;
+float
+sdrContentBrightness
+;
+float
+hdrPeakBrightness
+;
 }
 ;
 struct
