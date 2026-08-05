@@ -17665,12 +17665,12 @@ light
 :
 "
 {
-Theme
-border
-/
+Colors
 color
 /
-interactive
+gray
+/
+70
 }
 "
 "
