@@ -206,12 +206,12 @@ register
 (
 from
 =
+pageName
+to
+=
 "
 SettingsPage
 "
-to
-=
-pageName
 steps
 =
 listOf
