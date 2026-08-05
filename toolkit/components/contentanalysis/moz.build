@@ -95,6 +95,11 @@ ContentAnalysis
 cpp
 "
 "
+ContentAnalysisBackend
+.
+cpp
+"
+"
 ContentAnalysisBackendFactory
 .
 cpp
@@ -106,6 +111,11 @@ cpp
 "
 "
 ExternalAgentBackend
+.
+cpp
+"
+"
+WasmModuleBackend
 .
 cpp
 "

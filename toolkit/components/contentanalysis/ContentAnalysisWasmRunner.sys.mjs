@@ -420,7 +420,7 @@ lazy
 .
 AddonManager
 .
-SIGNEDSTATE_SIGNED
+SIGNEDSTATE_SYSTEM
 )
 )
 {
