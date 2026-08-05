@@ -274,16 +274,6 @@ fenix
 theme
 .
 FirefoxTheme
-import
-org
-.
-mozilla
-.
-fenix
-.
-wallpapers
-.
-WallpaperTheme
 /
 *
 *
@@ -481,8 +471,6 @@ height
 dp
 )
 )
-WallpaperTheme
-{
 Stories
 (
 stories
@@ -518,7 +506,6 @@ HOMEPAGE
 )
 }
 )
-}
 }
 }
 Preview
