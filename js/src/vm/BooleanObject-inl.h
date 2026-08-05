@@ -70,7 +70,7 @@ nullptr
 obj
 -
 >
-setPrimitiveValue
+initPrimitiveValue
 (
 b
 )

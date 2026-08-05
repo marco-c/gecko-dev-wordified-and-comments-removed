@@ -353,7 +353,7 @@ nullptr
 bn
 -
 >
-initFixedSlot
+initFixedSlotTyped
 (
 PRIMITIVE_VALUE_SLOT
 BigIntValue
@@ -377,7 +377,7 @@ unbox
 const
 {
 return
-getFixedSlot
+getFixedSlotTyped
 (
 PRIMITIVE_VALUE_SLOT
 )
