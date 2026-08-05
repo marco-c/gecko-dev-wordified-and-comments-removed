@@ -467,6 +467,17 @@ VideoTrackSourceConstraints
 )
 {
 }
+virtual
+bool
+allow_zero_hertz_video
+(
+)
+const
+{
+return
+false
+;
+}
 protected
 :
 ~

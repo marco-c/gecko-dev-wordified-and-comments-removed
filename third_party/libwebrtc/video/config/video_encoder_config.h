@@ -616,6 +616,9 @@ legacy_conference_mode
 bool
 is_quality_scaling_allowed
 ;
+bool
+allow_zero_hertz_video
+;
 int
 max_qp
 ;

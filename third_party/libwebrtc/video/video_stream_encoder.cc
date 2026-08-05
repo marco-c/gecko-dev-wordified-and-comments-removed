@@ -5766,6 +5766,11 @@ ContentType
 :
 :
 kScreen
+|
+|
+config
+.
+allow_zero_hertz_video
 )
 {
 frame_cadence_adapter_
@@ -9093,6 +9098,15 @@ is_screenshare
 if
 (
 is_screenshare
+|
+|
+encoder_settings
+.
+encoder_config
+(
+)
+.
+allow_zero_hertz_video
 )
 {
 frame_cadence_adapter_
