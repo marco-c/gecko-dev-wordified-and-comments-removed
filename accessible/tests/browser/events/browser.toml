@@ -211,6 +211,13 @@ js
 ]
 [
 "
+browser_test_focus_searchbar
+.
+js
+"
+]
+[
+"
 browser_test_focus_urlbar
 .
 js
