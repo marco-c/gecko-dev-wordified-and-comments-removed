@@ -1256,7 +1256,7 @@ e
 aTimelineCandidate
 -
 >
-GetFlattenedTreeParentElement
+GetParentElementCrossingShadowRoot
 (
 )
 ;
@@ -1276,7 +1276,7 @@ e
 e
 -
 >
-GetFlattenedTreeParentElement
+GetParentElementCrossingShadowRoot
 (
 )
 )
