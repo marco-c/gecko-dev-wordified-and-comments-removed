@@ -318,6 +318,11 @@ aSuccess
 )
 ;
 void
+MarkCanceled
+(
+)
+;
+void
 ActorDestroy
 (
 ActorDestroyReason
