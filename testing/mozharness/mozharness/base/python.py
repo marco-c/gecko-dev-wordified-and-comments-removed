@@ -3414,32 +3414,6 @@ version
 ]
 )
                 
-python_path
-=
-os
-.
-environ
-.
-get
-(
-                    
-"
-MOZ_PYTHON_HOME
-"
-Path
-(
-sys
-.
-executable
-)
-.
-parents
-[
-1
-]
-                
-)
-                
 uv_venv_creation_command
 =
 [
@@ -3467,7 +3441,9 @@ f
 python
 =
 {
-python_path
+sys
+.
+executable
 }
 "
                     
@@ -5206,6 +5182,16 @@ query_abs_dirs
 abs_blob_upload_dir
 "
 ]
+            
+os
+.
+makedirs
+(
+upload_dir
+exist_ok
+=
+True
+)
             
 self
 .
