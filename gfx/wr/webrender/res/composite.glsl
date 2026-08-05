@@ -304,6 +304,8 @@ desc
 COMPOSITE
 (
 renderer
+/
+vertex
 .
 rs
 )
