@@ -39,6 +39,7 @@ fs
 create_dir_all
 read_dir
 read_to_string
+remove_dir_all
 File
 }
 ;
@@ -2392,9 +2393,6 @@ now
 (
 )
 ;
-remove_dir_all
-:
-:
 remove_dir_all
 (
 &
