@@ -132,6 +132,15 @@ congestionControl
 default
 "
 ;
+sequence
+<
+DOMString
+>
+protocols
+=
+[
+]
+;
 }
 ;
 enum
@@ -451,6 +460,11 @@ readonly
 attribute
 WebTransportCongestionControl
 congestionControl
+;
+readonly
+attribute
+DOMString
+protocol
 ;
 readonly
 attribute
