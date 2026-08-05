@@ -254,7 +254,7 @@ AudioState
 RTC_DCHECK_RUN_ON
 (
 &
-thread_checker_
+worker_thread_checker_
 )
 ;
 RTC_DCHECK
@@ -351,7 +351,7 @@ enabled
 RTC_DCHECK_RUN_ON
 (
 &
-thread_checker_
+worker_thread_checker_
 )
 ;
 auto
@@ -443,9 +443,6 @@ AudioState
 :
 AddReceivingStream
 (
-webrtc
-:
-:
 AudioReceiveStreamInterface
 *
 stream
@@ -454,7 +451,7 @@ stream
 RTC_DCHECK_RUN_ON
 (
 &
-thread_checker_
+worker_thread_checker_
 )
 ;
 RTC_DCHECK_EQ
@@ -590,9 +587,6 @@ AudioState
 :
 RemoveReceivingStream
 (
-webrtc
-:
-:
 AudioReceiveStreamInterface
 *
 stream
@@ -601,7 +595,7 @@ stream
 RTC_DCHECK_RUN_ON
 (
 &
-thread_checker_
+worker_thread_checker_
 )
 ;
 auto
@@ -691,7 +685,7 @@ enabled
 RTC_DCHECK_RUN_ON
 (
 &
-thread_checker_
+worker_thread_checker_
 )
 ;
 auto
@@ -792,7 +786,7 @@ num_channels
 RTC_DCHECK_RUN_ON
 (
 &
-thread_checker_
+worker_thread_checker_
 )
 ;
 auto
@@ -906,7 +900,7 @@ stream
 RTC_DCHECK_RUN_ON
 (
 &
-thread_checker_
+worker_thread_checker_
 )
 ;
 auto
@@ -959,13 +953,10 @@ bool
 enable
 )
 {
-RTC_DCHECK
+RTC_DCHECK_RUN_ON
 (
-thread_checker_
-.
-IsCurrent
-(
-)
+&
+worker_thread_checker_
 )
 ;
 audio_transport_
@@ -984,13 +975,10 @@ UpdateAudioTransportWithSendingStreams
 (
 )
 {
-RTC_DCHECK
+RTC_DCHECK_RUN_ON
 (
-thread_checker_
-.
-IsCurrent
-(
-)
+&
+worker_thread_checker_
 )
 ;
 std
