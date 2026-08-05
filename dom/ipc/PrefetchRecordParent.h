@@ -9,6 +9,15 @@ include
 "
 mozilla
 /
+Maybe
+.
+h
+"
+#
+include
+"
+mozilla
+/
 OriginAttributes
 .
 h
@@ -139,6 +148,9 @@ mozilla
 dom
 {
 class
+WindowGlobalParent
+;
+class
 PrefetchRecordParent
 final
 :
@@ -161,6 +173,9 @@ NS_DECL_NSICHANNELEVENTSINK
 void
 Init
 (
+WindowGlobalParent
+*
+aWGP
 const
 SpeculativePrefetchArgs
 &
