@@ -773,13 +773,6 @@ settings
 shouldShowMicrosurveyPrompt
 =
 false
-activity
-.
-isMicrosurveyPromptDismissed
-.
-value
-=
-true
 closeBottomSheet
 (
 )
@@ -797,13 +790,6 @@ settings
 shouldShowMicrosurveyPrompt
 =
 false
-activity
-.
-isMicrosurveyPromptDismissed
-.
-value
-=
-true
 microsurveyMessageController
 .
 onSurveyCompleted
