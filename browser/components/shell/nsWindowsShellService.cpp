@@ -2984,7 +2984,7 @@ const
 uint32_t
 kDelayMs
 {
-30
+10
 }
 ;
 NS_NewTimerWithCallback
