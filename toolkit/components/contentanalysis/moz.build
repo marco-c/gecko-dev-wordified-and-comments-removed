@@ -95,6 +95,16 @@ ContentAnalysis
 cpp
 "
 "
+ContentAnalysisBackendFactory
+.
+cpp
+"
+"
+ContentAnalysisRuleParser
+.
+cpp
+"
+"
 ExternalAgentBackend
 .
 cpp

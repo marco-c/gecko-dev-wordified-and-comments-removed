@@ -338,6 +338,11 @@ ConsoleInstance
 webidl
 "
 "
+ContentAnalysis
+.
+webidl
+"
+"
 CSSAppearanceBaseRule
 .
 webidl
