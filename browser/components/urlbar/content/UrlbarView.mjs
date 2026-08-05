@@ -4208,9 +4208,7 @@ null
 ;
 this
 .
-chromeWindow
-.
-gBrowser
+input
 .
 userTypedValue
 =
