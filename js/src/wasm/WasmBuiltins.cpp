@@ -3865,15 +3865,7 @@ ContStack
 *
 wasmPreviousStack
 =
-iter
-.
-asWasm
-(
-)
-.
-unwoundContStack
-(
-)
+nullptr
 ;
 #
 endif
