@@ -398,7 +398,6 @@ drop
 %
 d
 "
-\
 "
 mDragAction
 %
