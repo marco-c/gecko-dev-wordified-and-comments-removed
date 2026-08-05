@@ -945,6 +945,7 @@ windowId
 pinnedTabsTemplate
 (
 pinnedTabItems
+isCurrent
 )
 {
 return
@@ -1012,6 +1013,10 @@ tabElement
 ?
 .
 selected
+inactive
+:
+!
+isCurrent
 }
 )
 }
@@ -1292,6 +1297,7 @@ this
 pinnedTabsTemplate
 (
 pinnedTabItems
+isCurrent
 )
 )
 }
@@ -1333,6 +1339,13 @@ mediumView
 =
 {
 true
+}
+.
+inactiveWindow
+=
+{
+!
+isCurrent
 }
 .
 dateTimeFormat
