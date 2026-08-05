@@ -640,6 +640,11 @@ DirectoryMetadata
 cpp
 "
 "
+DirtyTrackingAutoLock
+.
+cpp
+"
+"
 EncryptedRandomAccessStream
 .
 cpp
