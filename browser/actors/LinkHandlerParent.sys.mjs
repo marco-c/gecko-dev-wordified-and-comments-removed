@@ -994,7 +994,6 @@ setIconFromLink
 gBrowser
 browser
 {
-pageURL
 originalURL
 expiration
 iconURL
@@ -1419,14 +1418,11 @@ favicons
 .
 setFaviconForPage
 (
-Services
+this
 .
-io
+manager
 .
-newURI
-(
-pageURL
-)
+documentURI
 Services
 .
 io
