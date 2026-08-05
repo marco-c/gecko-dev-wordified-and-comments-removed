@@ -128,6 +128,15 @@ element
 if
 (
 !
+aParent
+-
+>
+IsSVGUseFrame
+(
+)
+|
+|
+!
 dom
 :
 :
