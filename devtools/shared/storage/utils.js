@@ -55,7 +55,7 @@ vendor
 /
 json5
 .
-js
+mjs
 "
 )
 ;

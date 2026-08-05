@@ -66,6 +66,6 @@ DevToolsModules
 '
 json5
 .
-js
+mjs
 '
 )
