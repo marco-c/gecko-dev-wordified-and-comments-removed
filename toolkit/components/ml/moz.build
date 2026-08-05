@@ -206,6 +206,15 @@ eval
 .
 toml
 "
+"
+tests
+/
+browser_models
+/
+browser_models
+.
+toml
+"
 ]
 XPIDL_SOURCES
 +
