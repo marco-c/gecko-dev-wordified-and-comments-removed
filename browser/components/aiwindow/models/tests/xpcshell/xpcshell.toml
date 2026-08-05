@@ -206,6 +206,13 @@ js
 ]
 [
 "
+test_Tools_GetTabList
+.
+js
+"
+]
+[
+"
 test_Tools_GetUserMemories
 .
 js
