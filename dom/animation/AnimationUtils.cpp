@@ -72,7 +72,7 @@ mozilla
 /
 dom
 /
-CSSNumericValueBinding
+CSSNumericValue
 .
 h
 "
@@ -83,7 +83,7 @@ mozilla
 /
 dom
 /
-CSSNumericValue
+CSSNumericValueBinding
 .
 h
 "
