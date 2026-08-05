@@ -933,6 +933,8 @@ false
 }
 DoLock
 mDoLock
+=
+MUST_LOCK
 ;
 #
 ifdef

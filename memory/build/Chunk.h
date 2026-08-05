@@ -209,6 +209,8 @@ mNumDirty
 ;
 uint16_t
 mDirtyRunHint
+=
+0
 ;
 bool
 mIsPurging
