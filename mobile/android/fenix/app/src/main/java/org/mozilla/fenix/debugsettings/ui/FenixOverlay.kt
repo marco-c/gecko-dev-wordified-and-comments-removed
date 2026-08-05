@@ -854,6 +854,11 @@ gleanDebugToolsStorage
 =
 DefaultGleanDebugToolsStorage
 (
+context
+.
+components
+.
+settings
 )
 clipboardHandler
 =
