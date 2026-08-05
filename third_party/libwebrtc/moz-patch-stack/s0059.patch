@@ -1490,10 +1490,10 @@ rtp_video_stream_receiver2
 .
 cc
 index
-5948ce1b9a
+75fc4fda46
 .
 .
-1230609b34
+ff730fa780
 100644
 -
 -
@@ -1583,10 +1583,10 @@ buffered_frame_decryptor
 h
 "
 -
-1375
+1378
 6
 +
-1376
+1379
 9
 void
 RtpVideoStreamReceiver2
@@ -1613,7 +1613,7 @@ packet_buffer_
 .
 ClearTo
 (
-seq_num
+unwrapped_rtp_seq_num
 )
 ;
 if

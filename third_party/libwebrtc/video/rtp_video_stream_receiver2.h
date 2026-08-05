@@ -1333,8 +1333,8 @@ packet_sequence_checker_
 void
 NotifyReceiverOfEmptyPacket
 (
-uint16_t
-seq_num
+int64_t
+seq_number
 std
 :
 :
