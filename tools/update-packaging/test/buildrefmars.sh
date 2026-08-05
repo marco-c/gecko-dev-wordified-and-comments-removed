@@ -67,6 +67,7 @@ from
 pwd
 /
 to
+firefox
 .
 .
 /
@@ -88,6 +89,7 @@ pwd
 to
 -
 mac
+firefox
 if
 [
 -
