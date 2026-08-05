@@ -101,6 +101,15 @@ MOCHITEST_CHROME_MANIFESTS
 chrome
 /
 chrome
+-
+nova
+.
+toml
+"
+"
+chrome
+/
+chrome
 .
 toml
 "
