@@ -85,16 +85,12 @@ caption
 :
 Debugging
 :
-glob
-:
-true
-:
 maxdepth
 :
 1
 debugging
 /
-*
+index
 {
 toctree
 }
