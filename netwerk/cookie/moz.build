@@ -216,6 +216,11 @@ CookieValidation
 h
 "
 "
+PrefetchCookieCopier
+.
+h
+"
+"
 ThirdPartyCookieBlockingExceptions
 .
 h
@@ -292,6 +297,11 @@ cpp
 "
 "
 CookieValidation
+.
+cpp
+"
+"
+PrefetchCookieCopier
 .
 cpp
 "

@@ -1323,6 +1323,14 @@ GetParentWindowContext
 const
 ;
 void
+TryActivateFromPrefetch
+(
+nsIURI
+*
+aURI
+)
+;
+void
 AddURIVisit
 (
 nsIChannel
