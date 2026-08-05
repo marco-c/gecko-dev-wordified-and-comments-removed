@@ -7669,6 +7669,11 @@ gBrowser
 removeAllTabsBut
 (
 initialTab
+{
+animate
+:
+false
+}
 )
 ;
 }
@@ -7802,6 +7807,11 @@ gBrowser
 removeAllTabsBut
 (
 initialTab
+{
+animate
+:
+false
+}
 )
 ;
 }
