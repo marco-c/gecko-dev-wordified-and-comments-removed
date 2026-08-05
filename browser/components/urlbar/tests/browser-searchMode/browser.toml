@@ -363,6 +363,13 @@ js
 ]
 [
 "
+browser_searchModeSwitcher_newBadge
+.
+js
+"
+]
+[
+"
 browser_searchModeSwitcher_opensearchInstall
 .
 js
