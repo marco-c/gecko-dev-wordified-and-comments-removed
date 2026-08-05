@@ -191,6 +191,14 @@ coroutines
 .
 test
 .
+runCurrent
+import
+kotlinx
+.
+coroutines
+.
+test
+.
 runTest
 import
 mozilla
@@ -849,7 +857,7 @@ toList
 collectedActiveStates
 )
 }
-advanceUntilIdle
+runCurrent
 (
 )
 assertEquals
@@ -924,7 +932,7 @@ toList
 collectedActiveStates
 )
 }
-advanceUntilIdle
+runCurrent
 (
 )
 assertEquals
@@ -1008,7 +1016,7 @@ ioDispatcher
 =
 testDispatcher
 )
-advanceUntilIdle
+runCurrent
 (
 )
 assertEquals
@@ -1030,7 +1038,7 @@ ProfilerSettings
 .
 Firefox
 )
-advanceUntilIdle
+runCurrent
 (
 )
 val
@@ -1140,7 +1148,7 @@ ioDispatcher
 =
 testDispatcher
 )
-advanceUntilIdle
+runCurrent
 (
 )
 assertEquals
@@ -1162,7 +1170,7 @@ ProfilerSettings
 .
 Firefox
 )
-advanceUntilIdle
+runCurrent
 (
 )
 assertEquals
@@ -1260,7 +1268,7 @@ toList
 collectedStates
 )
 }
-advanceUntilIdle
+runCurrent
 (
 )
 viewModel
@@ -1279,7 +1287,7 @@ isProfilerActive
 }
 returns
 true
-advanceUntilIdle
+runCurrent
 (
 )
 collectionJob
@@ -1400,7 +1408,7 @@ ioDispatcher
 =
 testDispatcher
 )
-advanceUntilIdle
+runCurrent
 (
 )
 viewModel
@@ -1408,7 +1416,7 @@ viewModel
 stopProfilerAndSave
 (
 )
-advanceUntilIdle
+runCurrent
 (
 )
 val
@@ -1579,7 +1587,7 @@ toList
 collectedStates
 )
 }
-advanceUntilIdle
+runCurrent
 (
 )
 viewModel
@@ -1830,7 +1838,7 @@ toList
 collectedStates
 )
 }
-advanceUntilIdle
+runCurrent
 (
 )
 viewModel
@@ -1838,7 +1846,7 @@ viewModel
 stopProfilerAndSave
 (
 )
-advanceUntilIdle
+runCurrent
 (
 )
 collectionJob
@@ -2079,7 +2087,7 @@ toList
 collectedStates
 )
 }
-advanceUntilIdle
+runCurrent
 (
 )
 viewModel
@@ -2087,7 +2095,7 @@ viewModel
 stopProfilerAndSave
 (
 )
-advanceUntilIdle
+runCurrent
 (
 )
 collectionJob
@@ -2330,7 +2338,7 @@ toList
 collectedUiStates
 )
 }
-advanceUntilIdle
+runCurrent
 (
 )
 viewModel
@@ -2338,7 +2346,7 @@ viewModel
 stopProfilerWithoutSaving
 (
 )
-advanceUntilIdle
+runCurrent
 (
 )
 collectionJob

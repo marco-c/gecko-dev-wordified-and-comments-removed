@@ -574,7 +574,7 @@ testDispatcher
 .
 scheduler
 .
-advanceUntilIdle
+runCurrent
 (
 )
 assertEquals
@@ -790,7 +790,7 @@ testDispatcher
 .
 scheduler
 .
-advanceUntilIdle
+runCurrent
 (
 )
 lifecycleOwner
@@ -828,7 +828,7 @@ testDispatcher
 .
 scheduler
 .
-advanceUntilIdle
+runCurrent
 (
 )
 samplesJob
@@ -944,7 +944,7 @@ testDispatcher
 .
 scheduler
 .
-advanceUntilIdle
+runCurrent
 (
 )
 assertEquals
@@ -1110,7 +1110,7 @@ testDispatcher
 .
 scheduler
 .
-advanceUntilIdle
+runCurrent
 (
 )
 assertEquals
@@ -1302,7 +1302,7 @@ testDispatcher
 .
 scheduler
 .
-advanceUntilIdle
+runCurrent
 (
 )
 assertEquals
@@ -1449,7 +1449,7 @@ testDispatcher
 .
 scheduler
 .
-advanceUntilIdle
+runCurrent
 (
 )
 assertEquals
@@ -1608,7 +1608,7 @@ testDispatcher
 .
 scheduler
 .
-advanceUntilIdle
+runCurrent
 (
 )
 assertEquals

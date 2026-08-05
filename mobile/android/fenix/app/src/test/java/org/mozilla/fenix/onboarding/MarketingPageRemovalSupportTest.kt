@@ -449,7 +449,7 @@ start
 )
 testScheduler
 .
-advanceUntilIdle
+runCurrent
 (
 )
 assertTrue
@@ -510,7 +510,7 @@ start
 )
 testScheduler
 .
-advanceUntilIdle
+runCurrent
 (
 )
 assertTrue
@@ -785,7 +785,7 @@ onResume
 )
 testScheduler
 .
-advanceUntilIdle
+runCurrent
 (
 )
 assertEquals
@@ -928,7 +928,7 @@ onResume
 )
 testScheduler
 .
-advanceUntilIdle
+runCurrent
 (
 )
 listenerSlot
@@ -944,7 +944,7 @@ my_key
 )
 testScheduler
 .
-advanceUntilIdle
+runCurrent
 (
 )
 assertEquals
