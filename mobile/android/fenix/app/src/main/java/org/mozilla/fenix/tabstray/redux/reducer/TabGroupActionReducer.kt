@@ -308,6 +308,10 @@ is
 TabGroupAction
 .
 NewTabGroupFabClicked
+is
+TabGroupAction
+.
+NewTabGroupMenuClicked
 -
 >
 state

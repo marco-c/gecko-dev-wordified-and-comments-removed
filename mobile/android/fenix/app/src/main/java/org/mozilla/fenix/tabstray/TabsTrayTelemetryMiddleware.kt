@@ -1287,6 +1287,10 @@ NewTabGroupFabClicked
 is
 TabGroupAction
 .
+NewTabGroupMenuClicked
+is
+TabGroupAction
+.
 DragAndDropInitiated
 -
 >
@@ -1630,6 +1634,10 @@ is
 TabGroupAction
 .
 AddToNewTabGroup
+is
+TabGroupAction
+.
+NewTabGroupMenuClicked
 -
 >
 {

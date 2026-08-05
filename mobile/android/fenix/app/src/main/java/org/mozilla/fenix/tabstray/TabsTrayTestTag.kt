@@ -198,6 +198,15 @@ closeAllTabs
 "
 const
 val
+NEW_TAB_GROUP
+=
+"
+THREE_DOT_BUTTON
+.
+newTabGroup
+"
+const
+val
 RECENTLY_CLOSED_TABS
 =
 "
