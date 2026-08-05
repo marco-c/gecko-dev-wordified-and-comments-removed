@@ -764,7 +764,7 @@ MruCache
 uint32_t
 CmapCacheData
 CmapCache
-251
+256
 >
 {
 static
@@ -846,7 +846,7 @@ MruCache
 uint32_t
 WidthCacheData
 WidthCache
-251
+256
 >
 {
 static
