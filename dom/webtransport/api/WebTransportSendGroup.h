@@ -89,6 +89,17 @@ return
 mGlobal
 ;
 }
+WebTransport
+*
+GetTransport
+(
+)
+const
+{
+return
+mWebTransport
+;
+}
 void
 SetGroupId
 (
