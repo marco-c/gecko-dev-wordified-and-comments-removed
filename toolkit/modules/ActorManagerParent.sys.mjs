@@ -3710,6 +3710,9 @@ messageManagerGroups
 browsers
 "
 ]
+allFrames
+:
+true
 enablePreference
 :
 "
