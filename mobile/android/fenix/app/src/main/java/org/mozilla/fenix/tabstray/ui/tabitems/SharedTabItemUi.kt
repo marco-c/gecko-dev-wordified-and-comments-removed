@@ -1042,7 +1042,7 @@ AcornLayout
 .
 AcornBorder
 .
-thin
+default
 color
 =
 MaterialTheme
@@ -2199,7 +2199,7 @@ layout
 .
 border
 .
-thick
+heaviest
 brush
 =
 FirefoxTheme
@@ -3753,7 +3753,7 @@ layout
 .
 border
 .
-thick
+heaviest
 return
 this
 .

@@ -974,7 +974,7 @@ layout
 .
 border
 .
-thin
+default
 color
 =
 MaterialTheme
@@ -1081,7 +1081,7 @@ layout
 .
 border
 .
-normal
+heavy
 color
 =
 MaterialTheme

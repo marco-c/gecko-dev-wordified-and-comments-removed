@@ -1623,7 +1623,7 @@ layout
 .
 border
 .
-thick
+heaviest
 color
 =
 MaterialTheme
@@ -1656,7 +1656,7 @@ layout
 .
 border
 .
-thick
+heaviest
 color
 =
 MaterialTheme

@@ -312,7 +312,7 @@ object
 AcornBorder
 {
 val
-thin
+default
 :
 Dp
 =
@@ -320,7 +320,7 @@ Dp
 .
 dp
 val
-normal
+heavy
 :
 Dp
 =
@@ -328,7 +328,7 @@ Dp
 .
 dp
 val
-thick
+heaviest
 :
 Dp
 =
@@ -543,7 +543,7 @@ layout
 .
 border
 .
-normal
+heavy
 color
 =
 Color

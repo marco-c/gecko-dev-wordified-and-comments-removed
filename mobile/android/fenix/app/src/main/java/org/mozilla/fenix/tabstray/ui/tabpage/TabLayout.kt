@@ -10313,7 +10313,7 @@ layout
 .
 border
 .
-thick
+heaviest
 return
 this
 .
@@ -10497,7 +10497,7 @@ layout
 .
 border
 .
-thick
+heaviest
 return
 this
 .
