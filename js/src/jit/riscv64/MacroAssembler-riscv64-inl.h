@@ -10123,6 +10123,7 @@ Float64Max
 srcDest
 srcDest
 other
+handleNaN
 )
 ;
 }
@@ -10145,6 +10146,7 @@ Float32Max
 srcDest
 srcDest
 other
+handleNaN
 )
 ;
 }
@@ -10193,6 +10195,7 @@ Float64Min
 srcDest
 srcDest
 other
+handleNaN
 )
 ;
 }
@@ -10215,6 +10218,7 @@ Float32Min
 srcDest
 srcDest
 other
+handleNaN
 )
 ;
 }

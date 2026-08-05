@@ -2676,6 +2676,8 @@ FPURegister
 src1
 FPURegister
 src2
+bool
+handleNaN
 )
 ;
 void
@@ -2687,6 +2689,8 @@ FPURegister
 src1
 FPURegister
 src2
+bool
+handleNaN
 )
 ;
 void
@@ -2698,6 +2702,8 @@ FPURegister
 src1
 FPURegister
 src2
+bool
+handleNaN
 )
 ;
 void
@@ -2709,6 +2715,8 @@ FPURegister
 src1
 FPURegister
 src2
+bool
+handleNaN
 )
 ;
 template
@@ -2727,6 +2735,8 @@ FPURegister
 src2
 MaxMinKind
 kind
+bool
+handleNaN
 )
 ;
 inline
