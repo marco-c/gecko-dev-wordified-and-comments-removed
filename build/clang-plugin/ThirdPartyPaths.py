@@ -93,14 +93,14 @@ readlines
 )
     
 for
-line
+raw_line
 in
 lines
 :
         
 line
 =
-line
+raw_line
 .
 strip
 (
@@ -164,6 +164,7 @@ output
 write
 (
         
+f
 "
 "
 "
@@ -199,9 +200,12 @@ MOZ_THIRD_PARTY_PATHS
 ]
 =
 {
+{
   
-%
-s
+{
+tpp_strings
+}
+}
 }
 ;
 extern
@@ -209,20 +213,15 @@ const
 uint32_t
 MOZ_THIRD_PARTY_PATHS_COUNT
 =
-%
-d
-;
-"
-"
-"
-        
-%
-(
-tpp_strings
+{
 len
 (
 tpp_list
 )
-)
+}
+;
+"
+"
+"
     
 )
