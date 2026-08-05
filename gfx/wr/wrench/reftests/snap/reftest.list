@@ -36,6 +36,10 @@ preserve
 3d
 .
 png
+scale
+(
+*
+)
 fuzzy
 (
 128
@@ -101,6 +105,10 @@ snap
 ref
 .
 yaml
+scale
+(
+*
+)
 =
 =
 backdrop
@@ -123,6 +131,10 @@ readback
 ref
 .
 yaml
+scale
+(
+*
+)
 max_surface_size
 (
 256
@@ -167,6 +179,10 @@ frame
 ref
 .
 yaml
+scale
+(
+*
+)
 =
 =
 refframe
@@ -185,6 +201,10 @@ quantize
 ref
 .
 yaml
+scale
+(
+*
+)
 =
 =
 refframe

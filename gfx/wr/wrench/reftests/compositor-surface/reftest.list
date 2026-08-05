@@ -1,3 +1,7 @@
+scale
+(
+*
+)
 skip_on
 (
 android
@@ -35,6 +39,10 @@ surfaces
 ref
 .
 yaml
+scale
+(
+*
+)
 !
 =
 picture
@@ -45,6 +53,10 @@ yaml
 blank
 .
 yaml
+scale
+(
+*
+)
 fuzzy
 (
 2
@@ -64,6 +76,10 @@ blend
 ref
 .
 yaml
+scale
+(
+*
+)
 !
 =
 coord
@@ -74,6 +90,10 @@ yaml
 blank
 .
 yaml
+scale
+(
+*
+)
 fuzzy
 (
 2
@@ -123,6 +143,10 @@ yaml
 underlay
 .
 png
+scale
+(
+*
+)
 fuzzy
 (
 2
