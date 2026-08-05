@@ -4331,19 +4331,6 @@ tags
 "
 ]
     
-new_yaml
-[
-"
-no_lint
-"
-]
-=
-[
-"
-COMMON_PREFIX
-"
-]
-    
 yaml_content
 =
 yaml
