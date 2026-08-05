@@ -53,7 +53,10 @@ file
 0
 )
 ;
-do
+while
+(
+true
+)
 {
 var
 written
@@ -91,11 +94,6 @@ written
 )
 ;
 }
-while
-(
-1
-)
-;
 stream
 .
 QueryInterface
@@ -166,7 +164,10 @@ file
 0
 )
 ;
-do
+while
+(
+true
+)
 {
 var
 written
@@ -204,11 +205,6 @@ written
 )
 ;
 }
-while
-(
-1
-)
-;
 stream
 .
 QueryInterface

@@ -14,11 +14,6 @@ log_
 msg
 )
 {
-if
-(
-true
-)
-{
 dump
 (
 "
@@ -45,7 +40,6 @@ n
 "
 )
 ;
-}
 }
 function
 run_test
