@@ -370,6 +370,13 @@ available
 yet
 .
 #
+expand_directory_allowlist
+=
+build_dotfile_settings
+.
+expand_directory_allowlist
+#
+#
 export_compile_commands
 =
 [
