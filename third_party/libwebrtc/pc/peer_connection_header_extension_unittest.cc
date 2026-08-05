@@ -406,7 +406,10 @@ RtpHeaderExtensionCapability
 "
 uri1
 "
+RtpHeaderExtensionId
+(
 1
+)
 RtpTransceiverDirection
 :
 :
@@ -417,7 +420,10 @@ RtpHeaderExtensionCapability
 "
 uri2
 "
+RtpHeaderExtensionId
+(
 2
+)
 RtpTransceiverDirection
 :
 :
@@ -428,7 +434,10 @@ RtpHeaderExtensionCapability
 "
 uri3
 "
+RtpHeaderExtensionId
+(
 3
+)
 RtpTransceiverDirection
 :
 :
@@ -439,7 +448,10 @@ RtpHeaderExtensionCapability
 "
 uri4
 "
+RtpHeaderExtensionId
+(
 4
+)
 RtpTransceiverDirection
 :
 :
@@ -450,7 +462,10 @@ RtpHeaderExtensionCapability
 "
 encrypted_uri
 "
+RtpHeaderExtensionId
+(
 5
+)
 true
 RtpTransceiverDirection
 :

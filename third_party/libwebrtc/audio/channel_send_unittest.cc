@@ -1419,7 +1419,10 @@ extension_manager
 .
 RegisterByType
 (
+RtpHeaderExtensionId
+(
 1
+)
 kRtpExtensionAudioLevel
 )
 ;
@@ -1808,7 +1811,10 @@ extension_manager
 .
 RegisterByType
 (
+RtpHeaderExtensionId
+(
 1
+)
 kRtpExtensionAudioLevel
 )
 ;
