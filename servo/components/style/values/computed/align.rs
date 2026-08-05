@@ -2,6 +2,15 @@ use
 crate
 :
 :
+derives
+:
+:
+*
+;
+use
+crate
+:
+:
 values
 :
 :
@@ -56,6 +65,13 @@ ToTyped
 repr
 (
 C
+)
+]
+#
+[
+typed
+(
+todo_derive_fields
 )
 ]
 pub
@@ -235,6 +251,6 @@ Self
 {
 computed
 .
-specified
+computed
 }
 }
