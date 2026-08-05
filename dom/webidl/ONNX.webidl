@@ -388,6 +388,12 @@ Window
 interface
 InferenceSession
 {
+static
+boolean
+isAvailable
+(
+)
+;
 [
 NewObject
 ]
