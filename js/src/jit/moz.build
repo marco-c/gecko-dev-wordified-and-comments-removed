@@ -1620,6 +1620,17 @@ cpp
 "
 loong64
 /
+disasm
+/
+Disasm
+-
+loong64
+.
+cpp
+"
+"
+loong64
+/
 Lowering
 -
 loong64
