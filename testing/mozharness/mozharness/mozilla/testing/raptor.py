@@ -8083,6 +8083,8 @@ cache
 )
         
 if
+(
+            
 self
 .
 config
@@ -8093,6 +8095,25 @@ get
 collect_perfstats
 "
 False
+)
+            
+or
+os
+.
+environ
+.
+get
+(
+"
+MOZ_RAPTOR_COLLECT_PERFSTATS
+"
+)
+=
+=
+"
+1
+"
+        
 )
 :
             
