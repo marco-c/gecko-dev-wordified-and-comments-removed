@@ -287,14 +287,9 @@ alloc
 )
 LBoxFloatingPoint
 (
-useRegisterAtStart
+useRegister
 (
 inner
-)
-tempCopy
-(
-inner
-0
 )
 spectreTemp
 inner

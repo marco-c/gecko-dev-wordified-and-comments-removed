@@ -13174,7 +13174,7 @@ type
 MIRType
 num_temps
 :
-2
+1
 extra_name
 :
 true
@@ -13638,9 +13638,6 @@ arguments
 type
 :
 MIRType
-num_temps
-:
-1
 extra_name
 :
 true

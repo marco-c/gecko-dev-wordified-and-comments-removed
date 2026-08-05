@@ -280,14 +280,9 @@ alloc
 )
 LBoxFloatingPoint
 (
-useRegisterAtStart
+useRegister
 (
 inner
-)
-tempCopy
-(
-inner
-0
 )
 inner
 -
