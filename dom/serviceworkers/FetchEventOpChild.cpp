@@ -2018,12 +2018,11 @@ name
 (
 )
 .
-Equals
+EqualsIgnoreCase
 (
 "
 Range
 "
-_ns
 )
 )
 {
