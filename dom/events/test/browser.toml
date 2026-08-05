@@ -468,3 +468,10 @@ browser_shortcutkey_modifier_conflicts_with_content_accesskey_modifier
 js
 "
 ]
+[
+"
+browser_touch_target_new_session
+.
+js
+"
+]
