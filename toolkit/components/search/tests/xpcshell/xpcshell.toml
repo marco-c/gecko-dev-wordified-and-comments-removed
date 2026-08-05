@@ -1363,6 +1363,13 @@ js
 ]
 [
 "
+test_telemetry_default_changed_startup
+.
+js
+"
+]
+[
+"
 test_telemetry_installed_engine_counts
 .
 js
