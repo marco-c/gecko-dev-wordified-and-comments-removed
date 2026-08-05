@@ -1667,12 +1667,7 @@ trans
 >
 SetDataPrincipal
 (
-mSourceNode
--
->
-NodePrincipal
-(
-)
+mTriggeringPrincipal
 )
 ;
 trans
@@ -1741,12 +1736,7 @@ trans
 >
 SetDataPrincipal
 (
-mSourceNode
--
->
-NodePrincipal
-(
-)
+mTriggeringPrincipal
 )
 ;
 trans
