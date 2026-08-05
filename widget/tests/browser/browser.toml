@@ -594,6 +594,16 @@ helper_swipe_gesture_rotated_vertical
 html
 "
 "
+helper_swipe_gesture_double_rotated_oopif
+.
+html
+"
+"
+helper_swipe_gesture_double_rotated_oopif_child
+.
+html
+"
+"
 !
 /
 gfx
