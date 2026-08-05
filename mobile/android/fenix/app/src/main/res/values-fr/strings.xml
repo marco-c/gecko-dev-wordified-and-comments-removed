@@ -17201,7 +17201,6 @@ local_network_access_allowed_summary
 "
 >
 Autoris
-s
 <
 /
 string
@@ -17234,7 +17233,6 @@ local_network_access_not_allowed_summary
 >
 Non
 autoris
-es
 <
 /
 string
