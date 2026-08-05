@@ -117,7 +117,7 @@ highlights
 {
 title
 :
-UrlbarShared
+UrlbarUtils
 .
 HIGHLIGHT
 .
@@ -278,7 +278,7 @@ highlights
 {
 title
 :
-UrlbarShared
+UrlbarUtils
 .
 HIGHLIGHT
 .

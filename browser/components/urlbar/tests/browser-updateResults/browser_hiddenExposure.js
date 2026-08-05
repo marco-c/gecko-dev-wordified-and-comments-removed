@@ -257,7 +257,7 @@ RESULT_SOURCE
 HISTORY
 exposureTelemetry
 :
-UrlbarShared
+UrlbarUtils
 .
 EXPOSURE_TELEMETRY
 .

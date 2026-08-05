@@ -1621,7 +1621,7 @@ highlights
 {
 url
 :
-UrlbarShared
+UrlbarUtils
 .
 HIGHLIGHT
 .
@@ -1734,7 +1734,7 @@ highlights
 {
 suggestion
 :
-UrlbarShared
+UrlbarUtils
 .
 HIGHLIGHT
 .
@@ -1847,7 +1847,7 @@ highlights
 {
 url
 :
-UrlbarShared
+UrlbarUtils
 .
 HIGHLIGHT
 .
@@ -1967,7 +1967,7 @@ highlights
 {
 url
 :
-UrlbarShared
+UrlbarUtils
 .
 HIGHLIGHT
 .
@@ -2084,7 +2084,7 @@ highlights
 {
 url
 :
-UrlbarShared
+UrlbarUtils
 .
 HIGHLIGHT
 .
@@ -2189,7 +2189,7 @@ highlights
 {
 url
 :
-UrlbarShared
+UrlbarUtils
 .
 HIGHLIGHT
 .
@@ -2295,7 +2295,7 @@ highlights
 {
 url
 :
-UrlbarShared
+UrlbarUtils
 .
 HIGHLIGHT
 .
@@ -2399,7 +2399,7 @@ highlights
 {
 url
 :
-UrlbarShared
+UrlbarUtils
 .
 HIGHLIGHT
 .

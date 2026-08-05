@@ -245,7 +245,7 @@ com
 "
 icon
 :
-UrlbarShared
+UrlbarUtils
 .
 ICON
 .
@@ -298,7 +298,7 @@ com
 "
 icon
 :
-UrlbarShared
+UrlbarUtils
 .
 ICON
 .

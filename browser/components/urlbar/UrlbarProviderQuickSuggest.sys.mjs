@@ -59,6 +59,7 @@ MPL
 import
 {
 UrlbarProvider
+UrlbarUtils
 }
 from
 "
@@ -302,9 +303,7 @@ returns
 Values
 <
 typeof
-lazy
-.
-UrlbarShared
+UrlbarUtils
 .
 PROVIDER_TYPE
 >
@@ -317,9 +316,7 @@ type
 )
 {
 return
-lazy
-.
-UrlbarShared
+UrlbarUtils
 .
 PROVIDER_TYPE
 .
@@ -3129,9 +3126,7 @@ queryContext
 tokens
 highlightType
 :
-lazy
-.
-UrlbarShared
+UrlbarUtils
 .
 HIGHLIGHT
 .
@@ -3172,9 +3167,7 @@ title
 ;
 titleHighlights
 =
-lazy
-.
-UrlbarShared
+UrlbarUtils
 .
 HIGHLIGHT
 .

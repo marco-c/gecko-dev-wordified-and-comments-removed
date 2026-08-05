@@ -78,6 +78,7 @@ searches
 import
 {
 UrlbarProvider
+UrlbarUtils
 }
 from
 "
@@ -360,9 +361,7 @@ returns
 Values
 <
 typeof
-lazy
-.
-UrlbarShared
+UrlbarUtils
 .
 PROVIDER_TYPE
 >
@@ -375,9 +374,7 @@ type
 )
 {
 return
-lazy
-.
-UrlbarShared
+UrlbarUtils
 .
 PROVIDER_TYPE
 .

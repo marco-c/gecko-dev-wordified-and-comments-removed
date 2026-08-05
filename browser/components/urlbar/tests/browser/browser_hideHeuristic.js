@@ -161,7 +161,7 @@ ExtensionTest
 "
 type
 :
-UrlbarShared
+UrlbarUtils
 .
 PROVIDER_TYPE
 .
@@ -239,7 +239,7 @@ test
 "
 expectedGroup
 :
-UrlbarShared
+UrlbarUtils
 .
 RESULT_GROUP
 .
@@ -395,7 +395,7 @@ foo
 "
 expectedGroup
 :
-UrlbarShared
+UrlbarUtils
 .
 RESULT_GROUP
 .
@@ -688,7 +688,7 @@ foo
 "
 expectedGroup
 :
-UrlbarShared
+UrlbarUtils
 .
 RESULT_GROUP
 .
@@ -907,7 +907,7 @@ foo
 "
 expectedGroup
 :
-UrlbarShared
+UrlbarUtils
 .
 RESULT_GROUP
 .
@@ -1055,7 +1055,7 @@ ex
 "
 expectedGroup
 :
-UrlbarShared
+UrlbarUtils
 .
 RESULT_GROUP
 .
@@ -1204,7 +1204,7 @@ value
 url
 expectedGroup
 :
-UrlbarShared
+UrlbarUtils
 .
 RESULT_GROUP
 .
@@ -1308,7 +1308,7 @@ foo
 "
 expectedGroup
 :
-UrlbarShared
+UrlbarUtils
 .
 RESULT_GROUP
 .
@@ -1488,7 +1488,7 @@ foo
 "
 expectedGroup
 :
-UrlbarShared
+UrlbarUtils
 .
 RESULT_GROUP
 .
@@ -1629,7 +1629,7 @@ ex
 "
 expectedGroup
 :
-UrlbarShared
+UrlbarUtils
 .
 RESULT_GROUP
 .

@@ -130,7 +130,7 @@ engines
 .
 length
 +
-UrlbarShared
+UrlbarUtils
 .
 LOCAL_SEARCH_MODES
 .

@@ -5089,9 +5089,7 @@ Values
 typeof
 lazy
 .
-lazy
-.
-UrlbarShared
+UrlbarUtils
 .
 HIGHLIGHT
 >

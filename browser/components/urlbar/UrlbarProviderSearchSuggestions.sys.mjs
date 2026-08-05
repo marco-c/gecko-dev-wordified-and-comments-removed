@@ -653,9 +653,7 @@ returns
 Values
 <
 typeof
-lazy
-.
-UrlbarShared
+UrlbarUtils
 .
 PROVIDER_TYPE
 >
@@ -668,9 +666,7 @@ type
 )
 {
 return
-lazy
-.
-UrlbarShared
+UrlbarUtils
 .
 PROVIDER_TYPE
 .
@@ -3347,9 +3343,7 @@ tail
 ;
 titleHighlight
 =
-lazy
-.
-UrlbarShared
+UrlbarUtils
 .
 HIGHLIGHT
 .
@@ -3368,9 +3362,7 @@ suggestion
 ;
 titleHighlight
 =
-lazy
-.
-UrlbarShared
+UrlbarUtils
 .
 HIGHLIGHT
 .
@@ -4294,9 +4286,7 @@ highlights
 {
 suggestion
 :
-lazy
-.
-UrlbarShared
+UrlbarUtils
 .
 HIGHLIGHT
 .

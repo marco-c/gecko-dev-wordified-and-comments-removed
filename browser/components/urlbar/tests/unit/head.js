@@ -2432,7 +2432,7 @@ content
 keyword
 icon
 :
-UrlbarShared
+UrlbarUtils
 .
 ICON
 .
@@ -4230,7 +4230,7 @@ protocol
 if
 (
 !
-UrlbarShared
+UrlbarUtils
 .
 PROTOCOLS_WITH_ICONS
 .
@@ -4258,7 +4258,7 @@ payload
 .
 icon
 =
-UrlbarShared
+UrlbarUtils
 .
 ICON
 .

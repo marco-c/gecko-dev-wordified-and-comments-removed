@@ -357,7 +357,7 @@ result
 ]
 type
 :
-UrlbarShared
+UrlbarUtils
 .
 PROVIDER_TYPE
 .

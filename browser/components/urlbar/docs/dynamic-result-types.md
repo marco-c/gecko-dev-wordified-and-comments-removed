@@ -3723,7 +3723,7 @@ second
 element
 is
 a
-UrlbarShared
+UrlbarUtils
 .
 HIGHLIGHT
 value
@@ -3770,7 +3770,7 @@ Some
 result
 title
 "
-UrlbarShared
+UrlbarUtils
 .
 HIGHLIGHT
 .
@@ -3930,7 +3930,7 @@ There
 are
 two
 possible
-UrlbarShared
+UrlbarUtils
 .
 HIGHLIGHT
 values
@@ -3942,7 +3942,7 @@ highlighting
 is
 performed
 :
-UrlbarShared
+UrlbarUtils
 .
 HIGHLIGHT
 .
@@ -3965,7 +3965,7 @@ will
 be
 emphasized
 .
-UrlbarShared
+UrlbarUtils
 .
 HIGHLIGHT
 .

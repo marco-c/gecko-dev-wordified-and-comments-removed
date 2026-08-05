@@ -1831,7 +1831,7 @@ if
 (
 lazy
 .
-UrlbarShared
+UrlbarUtils
 .
 LOCAL_SEARCH_MODES
 .
@@ -1951,7 +1951,7 @@ if
 .
 lazy
 .
-UrlbarShared
+UrlbarUtils
 .
 LOCAL_SEARCH_MODES
 .
@@ -2101,7 +2101,7 @@ restrict
 of
 lazy
 .
-UrlbarShared
+UrlbarUtils
 .
 LOCAL_SEARCH_MODES
 )

@@ -1164,7 +1164,7 @@ com
 "
 icon
 :
-UrlbarShared
+UrlbarUtils
 .
 ICON
 .

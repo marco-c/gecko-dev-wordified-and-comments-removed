@@ -62,7 +62,7 @@ type
 )
 {
 return
-UrlbarShared
+UrlbarUtils
 .
 PROVIDER_TYPE
 .
@@ -157,7 +157,7 @@ type
 )
 {
 return
-UrlbarShared
+UrlbarUtils
 .
 PROVIDER_TYPE
 .

@@ -80,6 +80,7 @@ mjs
 import
 {
 UrlbarProvider
+UrlbarUtils
 }
 from
 "
@@ -3511,9 +3512,7 @@ returns
 Values
 <
 typeof
-lazy
-.
-UrlbarShared
+UrlbarUtils
 .
 PROVIDER_TYPE
 >
@@ -3526,9 +3525,7 @@ type
 )
 {
 return
-lazy
-.
-UrlbarShared
+UrlbarUtils
 .
 PROVIDER_TYPE
 .
@@ -3607,9 +3604,7 @@ searchString
 .
 length
 >
-lazy
-.
-UrlbarShared
+UrlbarUtils
 .
 MAX_TEXT_LENGTH
 |
@@ -4940,9 +4935,7 @@ this
 currentTip
 icon
 :
-lazy
-.
-UrlbarShared
+UrlbarUtils
 .
 ICON
 .

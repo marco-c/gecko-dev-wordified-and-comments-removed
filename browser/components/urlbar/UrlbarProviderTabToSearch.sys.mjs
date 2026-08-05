@@ -546,9 +546,7 @@ returns
 Values
 <
 typeof
-lazy
-.
-UrlbarShared
+UrlbarUtils
 .
 PROVIDER_TYPE
 >
@@ -561,9 +559,7 @@ type
 )
 {
 return
-lazy
-.
-UrlbarShared
+UrlbarUtils
 .
 PROVIDER_TYPE
 .
@@ -2012,9 +2008,7 @@ providesSearchMode
 true
 icon
 :
-lazy
-.
-UrlbarShared
+UrlbarUtils
 .
 ICON
 .
@@ -2090,9 +2084,7 @@ providesSearchMode
 true
 icon
 :
-lazy
-.
-UrlbarShared
+UrlbarUtils
 .
 ICON
 .

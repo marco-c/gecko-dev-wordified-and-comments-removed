@@ -400,7 +400,7 @@ TestEngine
 "
 engineIconUri
 :
-UrlbarShared
+UrlbarUtils
 .
 ICON
 .
@@ -612,7 +612,7 @@ engine2
 name
 engineIconUri
 :
-UrlbarShared
+UrlbarUtils
 .
 ICON
 .
@@ -858,7 +858,7 @@ TestEngine3
 "
 engineIconUri
 :
-UrlbarShared
+UrlbarUtils
 .
 ICON
 .

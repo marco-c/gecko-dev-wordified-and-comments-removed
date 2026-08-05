@@ -450,7 +450,7 @@ children
 {
 group
 :
-UrlbarShared
+UrlbarUtils
 .
 RESULT_GROUP
 .
@@ -459,7 +459,7 @@ HEURISTIC_TEST
 {
 group
 :
-UrlbarShared
+UrlbarUtils
 .
 RESULT_GROUP
 .
@@ -468,7 +468,7 @@ HEURISTIC_EXTENSION
 {
 group
 :
-UrlbarShared
+UrlbarUtils
 .
 RESULT_GROUP
 .
@@ -477,7 +477,7 @@ HEURISTIC_SEARCH_TIP
 {
 group
 :
-UrlbarShared
+UrlbarUtils
 .
 RESULT_GROUP
 .
@@ -486,7 +486,7 @@ HEURISTIC_OMNIBOX
 {
 group
 :
-UrlbarShared
+UrlbarUtils
 .
 RESULT_GROUP
 .
@@ -495,7 +495,7 @@ HEURISTIC_AUTOFILL
 {
 group
 :
-UrlbarShared
+UrlbarUtils
 .
 RESULT_GROUP
 .
@@ -504,7 +504,7 @@ HEURISTIC_TOKEN_ALIAS_ENGINE
 {
 group
 :
-UrlbarShared
+UrlbarUtils
 .
 RESULT_GROUP
 .
@@ -515,7 +515,7 @@ HEURISTIC_FALLBACK
 {
 group
 :
-UrlbarShared
+UrlbarUtils
 .
 RESULT_GROUP
 .
@@ -3616,7 +3616,7 @@ children
 {
 group
 :
-UrlbarShared
+UrlbarUtils
 .
 RESULT_GROUP
 .
@@ -3625,7 +3625,7 @@ FORM_HISTORY
 {
 group
 :
-UrlbarShared
+UrlbarUtils
 .
 RESULT_GROUP
 .
@@ -3639,7 +3639,7 @@ maxResultCount
 5
 group
 :
-UrlbarShared
+UrlbarUtils
 .
 RESULT_GROUP
 .
@@ -3655,7 +3655,7 @@ children
 {
 group
 :
-UrlbarShared
+UrlbarUtils
 .
 RESULT_GROUP
 .
@@ -3664,7 +3664,7 @@ FORM_HISTORY
 {
 group
 :
-UrlbarShared
+UrlbarUtils
 .
 RESULT_GROUP
 .
@@ -3675,7 +3675,7 @@ REMOTE_SUGGESTION
 {
 group
 :
-UrlbarShared
+UrlbarUtils
 .
 RESULT_GROUP
 .
@@ -3684,7 +3684,7 @@ GENERAL
 {
 group
 :
-UrlbarShared
+UrlbarUtils
 .
 RESULT_GROUP
 .
@@ -3693,7 +3693,7 @@ FORM_HISTORY
 {
 group
 :
-UrlbarShared
+UrlbarUtils
 .
 RESULT_GROUP
 .
