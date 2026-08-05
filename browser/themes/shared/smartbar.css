@@ -365,7 +365,7 @@ visible
 -
 rows
 :
-7
+9
 ;
 -
 -
@@ -1432,8 +1432,10 @@ width
 /
 *
 *
-Limit
-to
+Show
+a
+maximum
+of
 -
 -
 smartbar
@@ -1447,10 +1449,12 @@ non
 -
 rich
 results
+before
+*
+overflowing
 .
 Fewer
 results
-*
 are
 visible
 if
@@ -2980,7 +2984,7 @@ font
 -
 size
 -
-large
+root
 )
 ;
 padding
@@ -3138,7 +3142,7 @@ var
 -
 space
 -
-medium
+large
 )
 ;
 position
