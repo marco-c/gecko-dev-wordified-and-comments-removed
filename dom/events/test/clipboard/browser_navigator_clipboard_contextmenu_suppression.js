@@ -2168,15 +2168,13 @@ async
 {
 EventUtils
 .
-synthesizeMouse
+synthesizeMouseAtCenter
 (
 content
 .
 document
 .
 documentElement
-1
-1
 {
 button
 :
