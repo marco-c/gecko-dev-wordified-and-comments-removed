@@ -806,6 +806,8 @@ substring
 )
 ;
 await
+UrlbarTestUtils
+.
 selectWithMouseDrag
 (
 getTextWidth
@@ -835,6 +837,7 @@ substring
 )
 +
 1
+window
 )
 ;
 }
@@ -953,6 +956,8 @@ endOfHost
 )
 ;
 await
+UrlbarTestUtils
+.
 selectWithMouseDrag
 (
 getTextWidth
@@ -974,6 +979,7 @@ this
 .
 _expectedSelectedText
 )
+window
 )
 ;
 }
@@ -1037,6 +1043,8 @@ substring
 )
 ;
 await
+UrlbarTestUtils
+.
 selectWithMouseDrag
 (
 getTextWidth
@@ -1053,6 +1061,7 @@ this
 .
 _expectedSelectedText
 )
+window
 )
 ;
 }
@@ -1116,6 +1125,8 @@ substring
 )
 ;
 await
+UrlbarTestUtils
+.
 selectWithMouseDrag
 (
 getTextWidth
@@ -1146,6 +1157,7 @@ substring
 )
 +
 1
+window
 )
 ;
 }
@@ -1222,6 +1234,8 @@ test
 "
 ;
 await
+UrlbarTestUtils
+.
 selectWithDoubleClick
 (
 getTextWidth
@@ -1236,6 +1250,7 @@ substring
 wordBoundaryIndex
 )
 )
+window
 )
 ;
 }
