@@ -625,6 +625,10 @@ imageRes
 contentDescription
 =
 null
+/
+/
+Decorative
+only
 )
 }
 Text
@@ -679,7 +683,7 @@ MaterialTheme
 .
 colorScheme
 .
-surface
+surfaceBright
 )
 )
 {
@@ -734,6 +738,13 @@ mozac_ic_cross_24
 contentDescription
 =
 null
+/
+/
+Uses
+the
+parent
+content
+description
 )
 }
 Column
