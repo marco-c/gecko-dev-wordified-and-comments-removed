@@ -108,6 +108,13 @@ sys
 mjs
 "
 "
+ThemesBundledLocalization
+.
+sys
+.
+mjs
+"
+"
 XPIDatabase
 .
 sys
