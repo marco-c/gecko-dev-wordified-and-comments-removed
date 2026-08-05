@@ -4699,6 +4699,18 @@ cargo_home
 (
 )
         
+cargo_bin
+.
+mkdir
+(
+parents
+=
+True
+exist_ok
+=
+True
+)
+        
 print
 (
 "
