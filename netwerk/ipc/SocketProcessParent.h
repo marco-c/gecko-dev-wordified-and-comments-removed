@@ -235,8 +235,10 @@ DiscardedData
 aDiscardedData
 )
 ;
+already_AddRefed
+<
 PWebrtcTCPSocketParent
-*
+>
 AllocPWebrtcTCPSocketParent
 (
 const
@@ -246,14 +248,6 @@ TabId
 >
 &
 aTabId
-)
-;
-bool
-DeallocPWebrtcTCPSocketParent
-(
-PWebrtcTCPSocketParent
-*
-aActor
 )
 ;
 already_AddRefed
