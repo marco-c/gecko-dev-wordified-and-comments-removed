@@ -263,6 +263,10 @@ quad
 mod
 render_backend
 ;
+pub
+mod
+render_backend_pool
+;
 mod
 render_target
 ;

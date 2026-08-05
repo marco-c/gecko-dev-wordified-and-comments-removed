@@ -65,6 +65,7 @@ api
 :
 {
 DebugFlags
+RenderBackendId
 TextureCacheCategory
 }
 ;
@@ -226,6 +227,9 @@ Sender
 <
 ApiMsg
 >
+backend_id
+:
+RenderBackendId
 }
 impl
 DebugRenderApi
@@ -249,6 +253,13 @@ api_sender
 api
 .
 get_api_sender
+(
+)
+backend_id
+:
+api
+.
+backend_id
 (
 )
 }
@@ -281,6 +292,9 @@ ApiMsg
 :
 DebugCommand
 (
+self
+.
+backend_id
 DebugCommand
 :
 :
@@ -331,6 +345,9 @@ ApiMsg
 :
 DebugCommand
 (
+self
+.
+backend_id
 cmd
 )
 ;

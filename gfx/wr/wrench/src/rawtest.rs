@@ -9188,6 +9188,15 @@ ApiMsg
 :
 DebugCommand
 (
+self
+.
+wrench
+.
+api
+.
+backend_id
+(
+)
 DebugCommand
 :
 :
