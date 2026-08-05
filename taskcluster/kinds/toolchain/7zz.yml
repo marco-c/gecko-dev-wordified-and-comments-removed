@@ -173,6 +173,17 @@ type
 b
 -
 win2022
+run
+:
+toolchain
+-
+alias
+:
+win64
+-
+aarch64
+-
+7zz
 fetches
 :
 toolchain
