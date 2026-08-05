@@ -1511,6 +1511,7 @@ if
 (
 digit
 >
+=
 sizeof
 (
 DIGITS
