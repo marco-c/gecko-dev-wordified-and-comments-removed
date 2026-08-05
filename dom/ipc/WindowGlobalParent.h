@@ -223,6 +223,9 @@ class
 BrowserParent
 ;
 class
+PrefetchRecordParent
+;
+class
 WindowGlobalChild
 ;
 class
@@ -1956,6 +1959,17 @@ dom
 SpeculativePrefetchArgs
 &
 aArgs
+)
+;
+void
+NotifyPrefetchStateChanged
+(
+dom
+:
+:
+PrefetchRecordParent
+*
+aRec
 )
 ;
 void

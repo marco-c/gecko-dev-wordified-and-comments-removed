@@ -311,6 +311,13 @@ RecvCancel
 )
 ;
 void
+FirePrefetchStatusUpdated
+(
+bool
+aSuccess
+)
+;
+void
 ActorDestroy
 (
 ActorDestroyReason
