@@ -81755,7 +81755,7 @@ FlushViewTransitionUpdateCallbackQueue
 ;
 }
 }
-void
+bool
 Document
 :
 :
@@ -81763,6 +81763,7 @@ FlushViewTransitionUpdateCallbackQueue
 (
 )
 {
+const
 auto
 callbacks
 =
@@ -81785,6 +81786,7 @@ IsEmpty
 ;
 for
 (
+const
 RefPtr
 <
 ViewTransition
@@ -81809,6 +81811,14 @@ IgnoreErrors
 )
 ;
 }
+return
+!
+callbacks
+.
+IsEmpty
+(
+)
+;
 }
 void
 Document
