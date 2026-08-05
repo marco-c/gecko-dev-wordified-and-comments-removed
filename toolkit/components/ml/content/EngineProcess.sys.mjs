@@ -183,11 +183,6 @@ onnx
 "
 onnx
 "
-wllama
-:
-"
-wllama
-"
 onnxNative
 :
 "
@@ -253,9 +248,6 @@ WASM_BACKENDS
 BACKENDS
 .
 onnx
-BACKENDS
-.
-wllama
 ]
 ;
 /
