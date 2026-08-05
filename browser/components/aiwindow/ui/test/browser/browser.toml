@@ -988,6 +988,13 @@ js
 ]
 [
 "
+browser_smartwindow_client_error_telemetry
+.
+js
+"
+]
+[
+"
 browser_smartwindow_content
 .
 js
