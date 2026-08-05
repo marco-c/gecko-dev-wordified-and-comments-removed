@@ -109,16 +109,6 @@ sys
 mjs
 "
 ]
-XPCOM_MANIFESTS
-+
-=
-[
-"
-components
-.
-conf
-"
-]
 SPHINX_TREES
 [
 "
