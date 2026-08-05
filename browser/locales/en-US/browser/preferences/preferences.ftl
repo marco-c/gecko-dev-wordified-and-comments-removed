@@ -19006,6 +19006,8 @@ sidebar
 chatbot
 -
 group
+-
+2
 =
 .
 label
@@ -19036,9 +19038,8 @@ Copilot
 Google
 Gemini
 and
-Le
-Chat
 Mistral
+Vibe
 .
 preferences
 -
