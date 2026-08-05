@@ -31127,6 +31127,17 @@ UseNativeEventProcessing
 case
 GeckoProcessType_Content
 :
+#
+if
+defined
+(
+XP_DARWIN
+)
+return
+false
+;
+#
+else
 return
 StaticPrefs
 :
@@ -31135,6 +31146,8 @@ dom_ipc_useNativeEventProcessing_content
 (
 )
 ;
+#
+endif
 default
 :
 return
