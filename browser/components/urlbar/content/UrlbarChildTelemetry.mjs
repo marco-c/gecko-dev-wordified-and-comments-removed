@@ -1267,6 +1267,11 @@ snapshot
 .
 internalDetails
 exposures
+visibleResults
+:
+engagementData
+.
+visibleResults
 }
 )
 )
