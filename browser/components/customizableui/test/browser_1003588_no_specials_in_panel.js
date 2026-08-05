@@ -459,6 +459,15 @@ isSpecialWidget
 (
 id
 )
+&
+&
+!
+startingToolbarPlacements
+.
+includes
+(
+id
+)
 )
 {
 elementsToMove
