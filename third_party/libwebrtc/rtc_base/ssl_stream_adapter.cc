@@ -184,7 +184,7 @@ kSrtpAes128CmSha1_80
 :
 return
 "
-AES_CM_128_HMAC_SHA1_80
+SRTP_AES128_CM_HMAC_SHA1_80
 "
 ;
 case
@@ -192,7 +192,7 @@ kSrtpAes128CmSha1_32
 :
 return
 "
-AES_CM_128_HMAC_SHA1_32
+SRTP_AES128_CM_HMAC_SHA1_32
 "
 ;
 case
@@ -200,7 +200,7 @@ kSrtpAeadAes128Gcm
 :
 return
 "
-AEAD_AES_128_GCM
+SRTP_AEAD_AES_128_GCM
 "
 ;
 case
@@ -208,7 +208,7 @@ kSrtpAeadAes256Gcm
 :
 return
 "
-AEAD_AES_256_GCM
+SRTP_AEAD_AES_256_GCM
 "
 ;
 default

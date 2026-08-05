@@ -22998,7 +22998,7 @@ expected_rtp_transport
 srtp_cipher
 =
 "
-AES_CM_128_HMAC_SHA1_80
+SRTP_AES128_CM_HMAC_SHA1_80
 "
 ;
 expected_rtp_transport
