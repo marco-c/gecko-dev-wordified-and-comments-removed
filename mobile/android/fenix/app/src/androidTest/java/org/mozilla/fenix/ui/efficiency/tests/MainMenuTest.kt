@@ -2185,6 +2185,13 @@ on
 .
 browserPage
 .
+mozVerify
+(
+BrowserPageSelectors
+.
+ENGINE_VIEW
+)
+.
 navigateToPage
 (
 )
