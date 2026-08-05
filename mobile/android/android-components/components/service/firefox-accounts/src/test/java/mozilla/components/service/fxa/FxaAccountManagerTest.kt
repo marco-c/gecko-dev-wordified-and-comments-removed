@@ -789,14 +789,6 @@ cleanup
 (
 )
 {
-SyncAuthInfoCache
-(
-testContext
-)
-.
-clear
-(
-)
 SyncEnginesStorage
 (
 testContext
