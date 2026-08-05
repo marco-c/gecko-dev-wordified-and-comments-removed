@@ -5574,9 +5574,9 @@ description
 uv
 0
 .
-7
+11
 .
-2
+28
 source
 code
 fetch
@@ -5601,7 +5601,7 @@ sh
 uv
 revision
 :
-481d05d8dfb8627612dec72840a02c17b926b263
+ebf0f43d7c4267876fc256f5fce75982c33f4399
 dxc
 -
 src
