@@ -1092,7 +1092,7 @@ mixins
 :
 [
 '
-mac_15_arm64
+mac_26_arm64
 '
 '
 mac
@@ -1417,7 +1417,7 @@ mixins
 :
 [
 '
-mac_15_arm64
+mac_26_arm64
 '
 '
 xcode_26_main
@@ -2179,7 +2179,7 @@ mixins
 :
 [
 '
-mac_15_arm64
+mac_26_arm64
 '
 '
 xcode_26_main
@@ -2936,7 +2936,7 @@ mixins
 :
 [
 '
-mac_15_arm64
+mac_26_arm64
 '
 '
 mac
@@ -3027,7 +3027,7 @@ mixins
 :
 [
 '
-mac_15_arm64
+mac_26_arm64
 '
 '
 mac
