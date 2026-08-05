@@ -1764,7 +1764,7 @@ value
 {
 this
 .
-avatar
+value
 }
 name
 =
