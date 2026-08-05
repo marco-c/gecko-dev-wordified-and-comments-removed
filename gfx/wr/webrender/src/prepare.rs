@@ -1404,16 +1404,6 @@ return
 }
 }
 let
-prim_instance_index
-=
-PrimitiveInstanceIndex
-(
-prim_instance_index
-as
-u32
-)
-;
-let
 prim_spatial_node_index
 =
 cluster
@@ -1518,7 +1508,7 @@ frame_state
 scratch
 prim_spatial_node_index
 device_pixel_scale
-prim_instance_index
+draw_index
 targets
 data_stores
 )
@@ -1669,7 +1659,7 @@ LayoutSize
 zero
 (
 )
-prim_instance_index
+draw_index
 &
 None
 &
@@ -1730,7 +1720,7 @@ common
 .
 transformed_aa_edges
 }
-prim_instance_index
+draw_index
 &
 None
 &
@@ -2103,7 +2093,7 @@ prim_info
 clip_chain
 prim_spatial_node_index
 device_pixel_scale
-prim_instance_index
+draw_index
 quad_transform
 frame_context
 pic_context
@@ -2254,7 +2244,7 @@ local_clip_rect
 aligned_aa_edges
 transformed_aa_edges
 }
-prim_instance_index
+draw_index
 &
 prim_info
 .
@@ -2363,7 +2353,7 @@ common
 .
 transformed_aa_edges
 }
-prim_instance_index
+draw_index
 &
 None
 &
@@ -2480,7 +2470,7 @@ common_data
 .
 transformed_aa_edges
 }
-prim_instance_index
+draw_index
 &
 None
 &
@@ -2595,7 +2585,7 @@ common_data
 .
 transformed_aa_edges
 }
-prim_instance_index
+draw_index
 &
 None
 &
@@ -2717,7 +2707,7 @@ common_data
 .
 transformed_aa_edges
 }
-prim_instance_index
+draw_index
 &
 None
 &
@@ -2758,7 +2748,7 @@ image_data
 prim_info
 .
 clip_chain
-prim_instance_index
+draw_index
 quad_transform
 frame_context
 pic_context
@@ -2902,7 +2892,7 @@ common
 transformed_aa_edges
 }
 stretch_size
-prim_instance_index
+draw_index
 &
 prim_info
 .
@@ -3053,7 +3043,7 @@ transformed_aa_edges
 :
 edge_aa_mask
 }
-prim_instance_index
+draw_index
 &
 None
 &
@@ -3246,7 +3236,7 @@ stretch_size
 prim_data
 .
 tile_spacing
-prim_instance_index
+draw_index
 &
 cache_key
 &
@@ -3394,7 +3384,7 @@ common
 transformed_aa_edges
 }
 stretch_size
-prim_instance_index
+draw_index
 &
 prim_info
 .
@@ -3450,7 +3440,7 @@ stretch_size
 prim_data
 .
 tile_spacing
-prim_instance_index
+draw_index
 &
 None
 &
@@ -3600,7 +3590,7 @@ common
 transformed_aa_edges
 }
 stretch_size
-prim_instance_index
+draw_index
 &
 prim_info
 .
@@ -3787,7 +3777,7 @@ stretch_size
 prim_data
 .
 tile_spacing
-prim_instance_index
+draw_index
 &
 cache_key
 &
@@ -3880,7 +3870,7 @@ prepare_picture_primitive
 (
 pic
 raster_config
-prim_instance_index
+draw_index
 prim_spatial_node_index
 &
 prim_info
@@ -4470,7 +4460,7 @@ local_clip_rect
 aligned_aa_edges
 transformed_aa_edges
 }
-prim_instance_index
+draw_index
 &
 None
 &

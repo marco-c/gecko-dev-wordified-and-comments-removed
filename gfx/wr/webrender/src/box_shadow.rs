@@ -85,7 +85,6 @@ InternablePrimitive
 PrimKey
 PrimTemplate
 PrimTemplateCommonData
-PrimitiveInstanceIndex
 PrimitiveScratchBuffer
 }
 ;
@@ -113,6 +112,15 @@ self
 QuadDescriptor
 QuadTransformState
 }
+;
+use
+crate
+:
+:
+visibility
+:
+:
+PrimitiveDrawIndex
 ;
 use
 crate
@@ -1087,9 +1095,9 @@ SpatialNodeIndex
 device_pixel_scale
 :
 DevicePixelScale
-prim_instance_index
+draw_index
 :
-PrimitiveInstanceIndex
+PrimitiveDrawIndex
 cmd_buffer_targets
 :
 &
@@ -2294,7 +2302,7 @@ common_data
 .
 transformed_aa_edges
 }
-prim_instance_index
+draw_index
 &
 None
 clip_chain
