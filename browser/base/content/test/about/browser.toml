@@ -308,6 +308,13 @@ standalone
 ]
 [
 "
+browser_aboutDialog_referrals
+.
+js
+"
+]
+[
+"
 browser_aboutNetError
 .
 js
