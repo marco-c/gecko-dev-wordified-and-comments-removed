@@ -2711,6 +2711,9 @@ WebTransportBidirectionalStream
 WebTransportDatagramDuplexStream
 "
 "
+WebTransportDatagramsWritable
+"
+"
 WebTransportError
 "
 "

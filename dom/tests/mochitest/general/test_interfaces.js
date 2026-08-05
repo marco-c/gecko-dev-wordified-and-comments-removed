@@ -9175,6 +9175,16 @@ false
 name
 :
 "
+WebTransportDatagramsWritable
+"
+insecureContext
+:
+false
+}
+{
+name
+:
+"
 WebTransportError
 "
 insecureContext
