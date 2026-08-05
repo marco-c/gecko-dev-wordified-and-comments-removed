@@ -4834,8 +4834,6 @@ direction
 :
 "
 row
--
-reverse
 "
 position
 :
