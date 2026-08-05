@@ -285,6 +285,9 @@ OperationError
 NotAllowedError
 =
 0
+ParityError
+=
+0
 }
 ;
 #
