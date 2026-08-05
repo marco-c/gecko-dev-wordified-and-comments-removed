@@ -47234,7 +47234,7 @@ dom
 PCError
 :
 :
-InvalidModificationError
+InvalidStateError
 *
 result
 .
@@ -47420,7 +47420,7 @@ dom
 PCError
 :
 :
-InvalidModificationError
+InvalidStateError
 *
 result
 .
