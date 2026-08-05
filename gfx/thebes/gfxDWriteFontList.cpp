@@ -1224,7 +1224,7 @@ weight
 :
 %
 s
-stretch
+width
 :
 %
 d
@@ -1291,7 +1291,7 @@ get
 fe
 -
 >
-Stretch
+Width
 (
 )
 .
@@ -1918,9 +1918,9 @@ mWeightRange
 fe
 -
 >
-mStretchRange
+mWidthRange
 =
-mStretchRange
+mWidthRange
 ;
 fe
 -
@@ -4859,8 +4859,8 @@ nsACString
 aFontName
 WeightRange
 aWeightForEntry
-StretchRange
-aStretchForEntry
+WidthRange
+aWidthForEntry
 SlantStyleRange
 aStyleForEntry
 )
@@ -4884,7 +4884,7 @@ LookupInSharedFaceNameList
 aFontVisibilityProvider
 aFontName
 aWeightForEntry
-aStretchForEntry
+aWidthForEntry
 aStyleForEntry
 )
 ;
@@ -4942,7 +4942,7 @@ dwriteLookup
 >
 mFont
 aWeightForEntry
-aStretchForEntry
+aWidthForEntry
 aStyleForEntry
 )
 ;
@@ -4982,8 +4982,8 @@ nsACString
 aFontName
 WeightRange
 aWeightForEntry
-StretchRange
-aStretchForEntry
+WidthRange
+aWidthForEntry
 SlantStyleRange
 aStyleForEntry
 const
@@ -5130,7 +5130,7 @@ uniqueName
 fontFile
 fontFileStream
 aWeightForEntry
-aStretchForEntry
+aWidthForEntry
 aStyleForEntry
 )
 ;
@@ -7162,10 +7162,10 @@ GetWeight
 )
 )
 ;
-StretchRange
-stretch
+WidthRange
+width
 (
-FontStretchFromDWriteStretch
+FontWidthFromDWriteStretch
 (
 dwFont
 -
@@ -7461,7 +7461,7 @@ i
 )
 false
 weight
-stretch
+width
 slant
 charmap
 }
@@ -9634,7 +9634,7 @@ weight
 :
 %
 s
-stretch
+width
 :
 %
 d
@@ -9696,7 +9696,7 @@ get
 face
 -
 >
-Stretch
+Width
 (
 )
 .

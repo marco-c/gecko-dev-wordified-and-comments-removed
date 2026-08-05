@@ -82,7 +82,7 @@ struct
 StyleFontFamilyList
 ;
 struct
-StyleFontStretch
+StyleFontWidth
 ;
 struct
 StyleFontWeight
@@ -402,9 +402,9 @@ aList
 StyleFontStyle
 &
 aStyle
-StyleFontStretch
+StyleFontWidth
 &
-aStretch
+aWidth
 StyleFontWeight
 &
 aWeight

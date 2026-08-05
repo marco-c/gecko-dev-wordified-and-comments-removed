@@ -4149,7 +4149,7 @@ clone_font_weight
 font_property_changed
 !
 (
-clone_font_stretch
+clone_font_width
 )
 }
 fn

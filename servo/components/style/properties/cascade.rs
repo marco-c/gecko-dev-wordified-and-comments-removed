@@ -4416,7 +4416,7 @@ MathDepth
 |
 FontWeight
 |
-FontStretch
+FontWidth
 |
 FontStyle
 |

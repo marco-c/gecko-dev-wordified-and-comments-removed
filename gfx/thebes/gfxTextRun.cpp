@@ -14790,7 +14790,7 @@ weight
 :
 %
 g
-stretch
+width
 :
 %
 g
@@ -14901,7 +14901,7 @@ ToFloat
 )
 mStyle
 .
-stretch
+width
 .
 ToFloat
 (

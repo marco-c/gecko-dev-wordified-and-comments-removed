@@ -50433,11 +50433,11 @@ weight
 aSystemFont
 -
 >
-stretch
+width
 =
 fontStyle
 .
-stretch
+width
 ;
 aSystemFont
 -

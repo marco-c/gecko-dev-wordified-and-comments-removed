@@ -1986,7 +1986,7 @@ filter
 "
 font
 -
-stretch
+width
 "
 "
 font
