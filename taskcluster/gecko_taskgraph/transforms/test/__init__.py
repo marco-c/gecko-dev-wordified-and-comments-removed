@@ -1658,6 +1658,16 @@ use_python
 :
 TOptional
 [
+        
+optionally_keyed_by
+(
+            
+"
+test
+-
+platform
+"
+            
 JobDescriptionSchema
 .
 __annotations__
@@ -1666,6 +1676,13 @@ __annotations__
 use_python
 "
 ]
+            
+use_msgspec
+=
+True
+        
+)
+    
 ]
 =
 None
@@ -2608,6 +2625,12 @@ timeoutfactor
 use
 -
 caches
+"
+        
+"
+use
+-
+python
 "
     
 )
