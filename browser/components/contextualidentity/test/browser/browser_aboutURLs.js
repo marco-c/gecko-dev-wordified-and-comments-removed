@@ -35,9 +35,6 @@ credits
 logins
 "
 "
-referrals
-"
-"
 rights
 "
 "
