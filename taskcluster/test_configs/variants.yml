@@ -4540,6 +4540,8 @@ autostart
 =
 true
 "
+no
+-
 nova
 :
 description
@@ -4550,7 +4552,7 @@ description
 }
 with
 Nova
-enabled
+disabled
 "
 component
 :
@@ -4572,6 +4574,8 @@ expiration
 suffix
 :
 "
+no
+-
 nv
 "
 merge
@@ -4594,5 +4598,5 @@ nova
 .
 enabled
 =
-true
+false
 "

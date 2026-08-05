@@ -22480,6 +22480,8 @@ firefox
 -
 speedometer3
 -
+no
+-
 nv
 *
 *
@@ -22571,6 +22573,8 @@ benchmark
 firefox
 -
 speedometer3
+-
+no
 -
 nv
 *
@@ -22700,6 +22704,8 @@ firefox
 -
 speedometer3
 -
+no
+-
 nv
 *
 *
@@ -22789,6 +22795,8 @@ benchmark
 firefox
 -
 speedometer3
+-
+no
 -
 nv
 *
@@ -22881,6 +22889,8 @@ benchmark
 firefox
 -
 speedometer3
+-
+no
 -
 nv
 *
@@ -22991,6 +23001,8 @@ firefox
 -
 speedometer3
 -
+no
+-
 nv
 *
 *
@@ -23080,6 +23092,8 @@ benchmark
 firefox
 -
 speedometer3
+-
+no
 -
 nv
 *
@@ -23172,6 +23186,8 @@ benchmark
 firefox
 -
 speedometer3
+-
+no
 -
 nv
 *
@@ -23300,6 +23316,8 @@ benchmark
 firefox
 -
 speedometer3
+-
+no
 -
 nv
 *
@@ -23471,6 +23489,8 @@ firefox
 -
 speedometer3
 -
+no
+-
 nv
 *
 *
@@ -23567,6 +23587,8 @@ firefox
 -
 speedometer3
 -
+no
+-
 nv
 *
 *
@@ -23660,6 +23682,8 @@ benchmark
 firefox
 -
 speedometer3
+-
+no
 -
 nv
 *
@@ -23791,6 +23815,8 @@ firefox
 -
 speedometer3
 -
+no
+-
 nv
 *
 *
@@ -23882,6 +23908,8 @@ benchmark
 firefox
 -
 speedometer3
+-
+no
 -
 nv
 *
@@ -25177,6 +25205,8 @@ firefox
 -
 speedometer3
 -
+no
+-
 nv
 *
 *
@@ -25268,6 +25298,8 @@ benchmark
 firefox
 -
 speedometer3
+-
+no
 -
 nv
 *
@@ -25397,6 +25429,8 @@ firefox
 -
 speedometer3
 -
+no
+-
 nv
 *
 *
@@ -25486,6 +25520,8 @@ benchmark
 firefox
 -
 speedometer3
+-
+no
 -
 nv
 *
@@ -25578,6 +25614,8 @@ benchmark
 firefox
 -
 speedometer3
+-
+no
 -
 nv
 *
@@ -25688,6 +25726,8 @@ firefox
 -
 speedometer3
 -
+no
+-
 nv
 *
 *
@@ -25777,6 +25817,8 @@ benchmark
 firefox
 -
 speedometer3
+-
+no
 -
 nv
 *
@@ -25869,6 +25911,8 @@ benchmark
 firefox
 -
 speedometer3
+-
+no
 -
 nv
 *
@@ -25997,6 +26041,8 @@ benchmark
 firefox
 -
 speedometer3
+-
+no
 -
 nv
 *
@@ -26168,6 +26214,8 @@ firefox
 -
 speedometer3
 -
+no
+-
 nv
 *
 *
@@ -26264,6 +26312,8 @@ firefox
 -
 speedometer3
 -
+no
+-
 nv
 *
 *
@@ -26357,6 +26407,8 @@ benchmark
 firefox
 -
 speedometer3
+-
+no
 -
 nv
 *
@@ -26488,6 +26540,8 @@ firefox
 -
 speedometer3
 -
+no
+-
 nv
 *
 *
@@ -26579,6 +26633,8 @@ benchmark
 firefox
 -
 speedometer3
+-
+no
 -
 nv
 *

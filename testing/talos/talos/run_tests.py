@@ -1783,7 +1783,7 @@ nova
 .
 enabled
 "
-False
+True
 )
 :
         
