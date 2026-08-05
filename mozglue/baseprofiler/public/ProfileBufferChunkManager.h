@@ -9,6 +9,15 @@ include
 "
 mozilla
 /
+MoveOnlyFunction
+.
+h
+"
+#
+include
+"
+mozilla
+/
 ProfileBufferChunk
 .
 h
@@ -111,10 +120,7 @@ virtual
 void
 RequestChunk
 (
-std
-:
-:
-function
+MoveOnlyFunction
 <
 void
 (

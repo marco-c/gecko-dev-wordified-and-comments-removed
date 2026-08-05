@@ -258,10 +258,7 @@ first
 void
 RequestChunk
 (
-std
-:
-:
-function
+MoveOnlyFunction
 <
 void
 (
@@ -324,10 +321,7 @@ AUTO_PROFILER_STATS
 Local_FulfillChunkRequests
 )
 ;
-std
-:
-:
-function
+MoveOnlyFunction
 <
 void
 (
@@ -1940,10 +1934,7 @@ ProfileBufferChunk
 >
 mChunkDestroyedCallback
 ;
-std
-:
-:
-function
+MoveOnlyFunction
 <
 void
 (
