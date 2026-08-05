@@ -656,7 +656,7 @@ cx
 ;
 static
 inline
-void
+bool
 onNewPromise
 (
 JSContext
@@ -1140,7 +1140,7 @@ wasmInstance
 )
 ;
 static
-void
+bool
 slowPathOnNewPromise
 (
 JSContext
