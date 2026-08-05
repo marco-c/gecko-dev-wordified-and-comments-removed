@@ -8030,6 +8030,10 @@ radii
 :
 BorderRadius
 pub
+inset
+:
+LayoutSideOffsets
+pub
 mode
 :
 ClipMode
@@ -8555,6 +8559,9 @@ LayoutRect
 radii
 :
 BorderRadius
+inset
+:
+LayoutSideOffsets
 mode
 :
 ClipMode
@@ -8567,6 +8574,7 @@ ComplexClipRegion
 {
 rect
 radii
+inset
 mode
 }
 }

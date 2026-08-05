@@ -4479,6 +4479,9 @@ ClipMode
 Clip
 ref
 radius
+inset
+:
+_
 }
 =
 >
@@ -4764,6 +4767,9 @@ ClipMode
 ClipOut
 ref
 radius
+inset
+:
+_
 }
 =
 >
@@ -6790,6 +6796,9 @@ radius
 :
 &
 BorderRadius
+inset
+:
+LayoutSideOffsets
 mode
 :
 ClipMode
@@ -6910,7 +6919,7 @@ gpu_buffer
 .
 write_blocks
 (
-5
+6
 )
 ;
 writer
@@ -7018,6 +7027,13 @@ shape_bottom_left
 ]
 )
 ;
+writer
+.
+push_one
+(
+inset
+)
+;
 (
 writer
 .
@@ -7104,6 +7120,7 @@ ClipItemKind
 RoundedRectangle
 {
 radius
+inset
 mode
 }
 =
@@ -7117,6 +7134,7 @@ clip_instance
 clip_rect
 &
 radius
+inset
 mode
 )
 }

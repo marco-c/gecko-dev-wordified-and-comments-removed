@@ -3645,6 +3645,7 @@ ClipItemKeyKind
 RoundedRectangle
 (
 _
+_
 ClipMode
 :
 :
@@ -4599,6 +4600,7 @@ ClipItemKeyKind
 RoundedRectangle
 (
 radius
+inset
 mode
 )
 =
@@ -4615,6 +4617,15 @@ radius
 .
 into
 (
+)
+inset
+:
+LayoutSideOffsets
+:
+:
+from_au
+(
+inset
 )
 mode
 }
@@ -6628,6 +6639,9 @@ ClipMode
 :
 Clip
 radius
+inset
+:
+_
 }
 =
 >
@@ -7536,6 +7550,7 @@ ClipMode
 RoundedRectangle
 (
 BorderRadiusAu
+LayoutSideOffsetsAu
 ClipMode
 )
 ImageMask
@@ -7577,6 +7592,9 @@ rounded_rect
 radii
 :
 BorderRadius
+inset
+:
+LayoutSideOffsets
 mode
 :
 ClipMode
@@ -7610,6 +7628,11 @@ RoundedRectangle
 radii
 .
 into
+(
+)
+inset
+.
+to_au
 (
 )
 mode
@@ -7912,6 +7935,9 @@ RoundedRectangle
 radius
 :
 BorderRadius
+inset
+:
+LayoutSideOffsets
 mode
 :
 ClipMode
@@ -8271,6 +8297,9 @@ RoundedRectangle
 {
 ref
 radius
+inset
+:
+_
 mode
 }
 =
@@ -8627,6 +8656,9 @@ RoundedRectangle
 {
 ref
 radius
+inset
+:
+_
 mode
 :
 ClipMode
@@ -8712,6 +8744,9 @@ RoundedRectangle
 {
 ref
 radius
+inset
+:
+_
 mode
 :
 ClipMode

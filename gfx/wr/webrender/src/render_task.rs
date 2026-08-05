@@ -889,6 +889,10 @@ radius
 :
 BorderRadius
 pub
+inset
+:
+LayoutSideOffsets
+pub
 mode
 :
 ClipMode
@@ -2711,6 +2715,9 @@ LayoutRect
 radius
 :
 BorderRadius
+inset
+:
+LayoutSideOffsets
 mode
 :
 ClipMode
@@ -2731,6 +2738,7 @@ ClipRegionTask
 {
 clip_rect
 radius
+inset
 mode
 device_pixel_scale
 }
