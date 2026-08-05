@@ -2152,7 +2152,7 @@ auto
 &
 slot
 =
-getFixedSlot
+getFixedSlotTyped
 (
 OPTIONS_SLOT
 )
@@ -2199,7 +2199,7 @@ DateTimeFormatOptions
 options
 )
 {
-setFixedSlot
+setFixedSlotTyped
 (
 OPTIONS_SLOT
 PackedDateTimeFormatOptions

@@ -779,7 +779,7 @@ auto
 &
 slot
 =
-getFixedSlot
+getFixedSlotTyped
 (
 OPTIONS_SLOT
 )
@@ -789,7 +789,7 @@ auto
 &
 digitsSlot
 =
-getFixedSlot
+getFixedSlotTyped
 (
 DIGITS_OPTIONS_SLOT
 )
@@ -858,13 +858,13 @@ pack
 options
 )
 ;
-setFixedSlot
+setFixedSlotTyped
 (
 OPTIONS_SLOT
 packed
 )
 ;
-setFixedSlot
+setFixedSlotTyped
 (
 DIGITS_OPTIONS_SLOT
 packedDigits

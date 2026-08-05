@@ -1314,7 +1314,7 @@ auto
 &
 slot
 =
-getFixedSlot
+getFixedSlotTyped
 (
 OPTIONS_SLOT
 )
@@ -1362,7 +1362,7 @@ DurationFormatOptions
 options
 )
 {
-setFixedSlot
+setFixedSlotTyped
 (
 OPTIONS_SLOT
 PackedDurationFormatOptions
@@ -6967,6 +6967,12 @@ minutesFormatted
 secondsFormatted
 )
 {
+result
+.
+setUndefined
+(
+)
+;
 return
 true
 ;
