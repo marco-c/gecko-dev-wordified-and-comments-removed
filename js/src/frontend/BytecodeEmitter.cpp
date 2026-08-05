@@ -8683,7 +8683,7 @@ BytecodeEmitter
 :
 emitPropLHS
 (
-NonOptonalPropertyAccessBase
+NonOptionalPropertyAccessBase
 *
 prop
 )
@@ -9093,7 +9093,7 @@ ValueUsage
 valueUsage
 )
 {
-NonOptonalPropertyAccessBase
+NonOptionalPropertyAccessBase
 *
 prop
 =
@@ -9108,7 +9108,7 @@ kid
 >
 as
 <
-NonOptonalPropertyAccessBase
+NonOptionalPropertyAccessBase
 >
 (
 )
@@ -13910,7 +13910,7 @@ ParseNodeKind
 DotExpr
 :
 {
-NonOptonalPropertyAccessBase
+NonOptionalPropertyAccessBase
 *
 prop
 =
@@ -13920,7 +13920,7 @@ target
 >
 as
 <
-NonOptonalPropertyAccessBase
+NonOptionalPropertyAccessBase
 >
 (
 )
@@ -14500,7 +14500,7 @@ target
 >
 as
 <
-NonOptonalPropertyAccessBase
+NonOptionalPropertyAccessBase
 >
 (
 )
@@ -20846,7 +20846,7 @@ ParseNodeKind
 DotExpr
 :
 {
-NonOptonalPropertyAccessBase
+NonOptionalPropertyAccessBase
 *
 prop
 =
@@ -20856,7 +20856,7 @@ lhs
 >
 as
 <
-NonOptonalPropertyAccessBase
+NonOptionalPropertyAccessBase
 >
 (
 )
@@ -21386,7 +21386,7 @@ ParseNodeKind
 DotExpr
 :
 {
-NonOptonalPropertyAccessBase
+NonOptionalPropertyAccessBase
 *
 prop
 =
@@ -21396,7 +21396,7 @@ lhs
 >
 as
 <
-NonOptonalPropertyAccessBase
+NonOptionalPropertyAccessBase
 >
 (
 )
@@ -21735,7 +21735,7 @@ ParseNodeKind
 DotExpr
 :
 {
-NonOptonalPropertyAccessBase
+NonOptionalPropertyAccessBase
 *
 prop
 =
@@ -21745,7 +21745,7 @@ lhs
 >
 as
 <
-NonOptonalPropertyAccessBase
+NonOptionalPropertyAccessBase
 >
 (
 )
@@ -22141,7 +22141,7 @@ ParseNodeKind
 DotExpr
 :
 {
-NonOptonalPropertyAccessBase
+NonOptionalPropertyAccessBase
 *
 prop
 =
@@ -22151,7 +22151,7 @@ lhs
 >
 as
 <
-NonOptonalPropertyAccessBase
+NonOptionalPropertyAccessBase
 >
 (
 )
@@ -22685,7 +22685,7 @@ ParseNodeKind
 DotExpr
 :
 {
-NonOptonalPropertyAccessBase
+NonOptionalPropertyAccessBase
 *
 prop
 =
@@ -22695,7 +22695,7 @@ lhs
 >
 as
 <
-NonOptonalPropertyAccessBase
+NonOptionalPropertyAccessBase
 >
 (
 )
@@ -32988,7 +32988,7 @@ DeletePropExpr
 )
 )
 ;
-NonOptonalPropertyAccessBase
+NonOptionalPropertyAccessBase
 *
 propExpr
 =
@@ -33003,7 +33003,7 @@ kid
 >
 as
 <
-NonOptonalPropertyAccessBase
+NonOptionalPropertyAccessBase
 >
 (
 )
@@ -37655,7 +37655,7 @@ calleeNode
 >
 as
 <
-NonOptonalPropertyAccessBase
+NonOptionalPropertyAccessBase
 >
 (
 )

@@ -390,7 +390,7 @@ ParseNodeKind
 DotExpr
 :
 {
-NonOptonalPropertyAccessBase
+NonOptionalPropertyAccessBase
 *
 prop
 =
@@ -400,7 +400,7 @@ n
 >
 as
 <
-NonOptonalPropertyAccessBase
+NonOptionalPropertyAccessBase
 >
 (
 )
