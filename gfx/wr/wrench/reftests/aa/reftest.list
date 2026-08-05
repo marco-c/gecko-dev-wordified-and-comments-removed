@@ -37,6 +37,10 @@ Too
 wide
 for
 Android
+scale
+(
+*
+)
 =
 =
 aa
@@ -55,6 +59,10 @@ bug
 ref
 .
 yaml
+scale
+(
+*
+)
 fuzzy
 -
 if
