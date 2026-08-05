@@ -82,7 +82,7 @@ contents
 "
 test_fix_temp
 .
-rst
+md
 "
 )
     
@@ -180,7 +180,7 @@ relpath
 "
 ignore
 .
-rst
+md
 "
     
 assert
@@ -236,7 +236,7 @@ relpath
 "
 ignore
 .
-rst
+md
 "
 if
 __name__
