@@ -928,17 +928,6 @@ Millis
 ;
 NtpTime
 ntp_incoming
-=
-env_
-.
-clock
-(
-)
-.
-ConvertTimestampToNtpTime
-(
-recv_timestamp
-)
 ;
 auto
 sr_incoming
