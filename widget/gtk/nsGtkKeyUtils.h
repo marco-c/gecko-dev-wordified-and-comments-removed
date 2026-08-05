@@ -350,6 +350,10 @@ aKeyEvent
 GdkEventKey
 *
 aGdkKeyEvent
+const
+nsAString
+&
+aCommitCharReceivedByIMContext
 bool
 aIsProcessedByIME
 )
@@ -377,6 +381,10 @@ aWindow
 GdkEventKey
 *
 aGdkKeyEvent
+const
+nsAString
+&
+aStringReceivedByIMContext
 bool
 aIsProcessedByIME
 bool
