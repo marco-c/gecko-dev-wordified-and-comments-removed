@@ -109,7 +109,7 @@ item
 )
 ;
 await
-waitForDOMIfNeeded
+waitForDOM
 (
 document
 "
