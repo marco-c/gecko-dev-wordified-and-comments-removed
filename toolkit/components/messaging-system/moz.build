@@ -119,6 +119,17 @@ XPCSHELL_TESTS_MANIFESTS
 =
 [
 "
+lib
+/
+test
+/
+unit
+/
+xpcshell
+.
+toml
+"
+"
 targeting
 /
 test
