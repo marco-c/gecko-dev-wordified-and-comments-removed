@@ -1590,8 +1590,9 @@ std
 :
 string
 bandwidth_type_
-=
+{
 kApplicationSpecificBandwidth
+}
 ;
 std
 :

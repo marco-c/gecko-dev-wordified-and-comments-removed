@@ -2272,7 +2272,13 @@ codec_params
 .
 count
 (
+std
+:
+:
+string
+(
 kH264FmtpSpsPpsIdrInKeyframe
+)
 )
 >
 0
@@ -7910,7 +7916,13 @@ second
 .
 find
 (
+std
+:
+:
+string
+(
 kH264FmtpSpropParameterSets
+)
 )
 ;
 if

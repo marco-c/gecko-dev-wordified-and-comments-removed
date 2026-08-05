@@ -5337,9 +5337,8 @@ codec_params
 ;
 codec_params
 .
-insert
+emplace
 (
-{
 kH264FmtpSpropParameterSets
 "
 Z0IACpZTBYmI
@@ -5347,7 +5346,6 @@ aMljiA
 =
 =
 "
-}
 )
 ;
 rtp_video_stream_receiver_
@@ -5641,13 +5639,11 @@ SpsPpsIdrIsH264Keyframe
 {
 codec_params
 .
-insert
+emplace
 (
-{
 kH264FmtpSpsPpsIdrInKeyframe
 "
 "
-}
 )
 ;
 }
