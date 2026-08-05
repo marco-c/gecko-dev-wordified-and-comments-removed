@@ -137,6 +137,12 @@ Run
 (
 )
 ;
+bool
+IsEmpty
+(
+)
+const
+;
 void
 Add
 (

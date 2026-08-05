@@ -798,11 +798,7 @@ RTC_CHECK
 (
 worker_tasks
 .
-Run
-(
-)
-.
-ok
+IsEmpty
 (
 )
 )
@@ -1008,11 +1004,7 @@ RTC_CHECK
 (
 worker_tasks
 .
-Run
-(
-)
-.
-ok
+IsEmpty
 (
 )
 )
