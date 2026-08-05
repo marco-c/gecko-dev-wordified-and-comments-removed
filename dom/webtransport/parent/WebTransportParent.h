@@ -494,6 +494,12 @@ mSessionReady
 false
 }
 ;
+uint64_t
+mSessionId
+{
+0
+}
+;
 mozilla
 :
 :

@@ -3052,6 +3052,10 @@ mSessionReady
 =
 true
 ;
+mSessionId
+=
+aSessionId
+;
 nsresult
 rv
 =
