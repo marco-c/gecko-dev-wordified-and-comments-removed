@@ -104,7 +104,7 @@ const
 Value
 val
 =
-getReservedSlot
+getReservedSlotTyped
 (
 SOURCEID_SLOT
 )
@@ -231,7 +231,7 @@ JSObject
 *
 obj
 =
-getReservedSlot
+getReservedSlotTyped
 (
 STACK_SLOT
 )

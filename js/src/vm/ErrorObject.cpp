@@ -2950,7 +2950,7 @@ stack
 obj
 -
 >
-initReservedSlot
+initReservedSlotTyped
 (
 ERROR_REPORT_SLOT
 PrivateValue
@@ -3243,7 +3243,7 @@ release
 obj
 -
 >
-initReservedSlot
+initReservedSlotTyped
 (
 STACK_SLOT
 ObjectOrNullValue
@@ -3255,7 +3255,7 @@ stack
 obj
 -
 >
-setReservedSlot
+setReservedSlotTyped
 (
 ERROR_REPORT_SLOT
 PrivateValue
@@ -3364,7 +3364,7 @@ JS_ERROR_WITHOUT_CAUSE
 obj
 -
 >
-initReservedSlot
+initReservedSlotTyped
 (
 SOURCEID_SLOT
 Int32Value
@@ -3396,12 +3396,16 @@ getClass
 )
 >
 WASM_TRAP_SLOT
+.
+index
+(
+)
 )
 ;
 obj
 -
 >
-initReservedSlot
+initReservedSlotTyped
 (
 WASM_TRAP_SLOT
 BooleanValue
@@ -3807,7 +3811,7 @@ return
 nullptr
 ;
 }
-setReservedSlot
+setReservedSlotTyped
 (
 ERROR_REPORT_SLOT
 PrivateValue
@@ -4332,9 +4336,13 @@ getClass
 )
 >
 WASM_TRAP_SLOT
+.
+index
+(
+)
 )
 ;
-setReservedSlot
+setReservedSlotTyped
 (
 WASM_TRAP_SLOT
 BooleanValue
