@@ -251,6 +251,15 @@ new
 64
 )
 ;
+const
+AU_PER_DEV_PX
+:
+f32
+=
+60
+.
+0
+;
 struct
 TestNotifier
 ;
@@ -593,6 +602,7 @@ builder
 .
 begin
 (
+AU_PER_DEV_PX
 )
 ;
 let

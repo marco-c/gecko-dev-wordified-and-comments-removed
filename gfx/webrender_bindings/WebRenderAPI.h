@@ -2794,6 +2794,8 @@ DumpSerializedDisplayList
 void
 Begin
 (
+int32_t
+aAppUnitsPerDevPixel
 )
 ;
 void
