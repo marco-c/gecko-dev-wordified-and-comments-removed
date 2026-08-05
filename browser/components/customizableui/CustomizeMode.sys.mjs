@@ -13484,10 +13484,15 @@ menu
 "
 )
 ;
+Services
+.
+prefs
+.
+setIntPref
+(
 gUIDensity
 .
-setUIDensity
-(
+uiDensityPref
 mode
 )
 ;

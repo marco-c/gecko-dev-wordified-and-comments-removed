@@ -1529,7 +1529,7 @@ uidensity
 0
 )
 ;
-pref
+sticky_pref
 (
 "
 browser
@@ -1538,7 +1538,7 @@ touchmode
 .
 auto
 "
-true
+false
 )
 ;
 pref
