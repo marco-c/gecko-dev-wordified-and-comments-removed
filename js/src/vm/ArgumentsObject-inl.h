@@ -85,7 +85,7 @@ CallObject
 &
 callobj
 =
-getFixedSlot
+getFixedSlotTyped
 (
 MAYBE_CALL_SLOT
 )
@@ -162,7 +162,7 @@ CallObject
 &
 callobj
 =
-getFixedSlot
+getFixedSlotTyped
 (
 MAYBE_CALL_SLOT
 )
