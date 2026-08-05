@@ -431,9 +431,9 @@ unused
 Targets
 should
 depend
+#
 on
 base_objc
-#
 or
 helpers_objc
 directly
@@ -7590,14 +7590,6 @@ rtc_base
 system
 :
 plan_b_only
-"
-"
-.
-.
-/
-stats
-:
-rtc_stats
 "
 "
 .
