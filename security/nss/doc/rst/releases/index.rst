@@ -32,6 +32,9 @@ glob
 :
 hidden
 :
+nss_3_126
+.
+rst
 nss_3_125
 .
 rst
@@ -348,7 +351,7 @@ note
 NSS
 3
 .
-125
+126
 *
 *
 is
@@ -368,7 +371,7 @@ here
 :
 ref
 :
-mozilla_projects_nss_nss_3_125_release_notes
+mozilla_projects_nss_nss_3_126_release_notes
 *
 *
 NSS
