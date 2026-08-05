@@ -147,7 +147,10 @@ mozac_browser_errorpages_archive_check_button
 >
 V
 rifier
-la
+l
+existence
+d
+une
 version
 archiv
 e
@@ -229,6 +232,9 @@ Aucune
 version
 archiv
 e
+n
+a
+t
 trouv
 e
 .

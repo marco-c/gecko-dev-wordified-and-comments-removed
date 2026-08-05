@@ -183,7 +183,8 @@ name
 mozac_browser_errorpages_archive_checking
 "
 >
-Gwirio
+Yn
+gwirio
 \
 '
 r
@@ -264,8 +265,10 @@ name
 mozac_browser_errorpages_archive_search_web
 "
 >
-Chwiliwch
-y
+Chwilio
+\
+'
+r
 we
 .
 <
@@ -306,7 +309,7 @@ mozac_browser_errorpages_archive_unreachable
 "
 >
 Methu
-chyrraedd
+cyrraedd
 y
 gwasanaeth
 archifau
@@ -346,7 +349,7 @@ name
 mozac_browser_errorpages_archive_retry
 "
 >
-Ceisiwch
+Ceisio
 eto
 .
 <
