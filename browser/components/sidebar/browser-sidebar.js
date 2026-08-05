@@ -1459,6 +1459,17 @@ Glean
 sidebar
 .
 openTabsIconClick
+contextMenuId
+:
+"
+sidebar
+-
+opentabs
+-
+context
+-
+menu
+"
 }
 )
 ;
