@@ -53,6 +53,13 @@ html
 ]
 [
 "
+browser_gfxDebugShortcuts
+.
+js
+"
+]
+[
+"
 browser_popup_keyNav
 .
 js
