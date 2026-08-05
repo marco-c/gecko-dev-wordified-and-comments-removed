@@ -27,6 +27,14 @@ wait300msAfterTabSwitch
 "
 true
 ]
+[
+"
+ui
+.
+prefersReducedMotion
+"
+1
+]
 ]
 }
 )
