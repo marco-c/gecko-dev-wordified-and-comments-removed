@@ -181,7 +181,7 @@ isSymbol
 cx
 -
 >
-markAtomValue
+recordRefToValue
 (
 vp
 )

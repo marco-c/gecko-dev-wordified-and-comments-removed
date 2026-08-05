@@ -66,7 +66,7 @@ class
 GCRuntime
 ;
 class
-AtomMarkingRuntime
+AtomRefRuntime
 {
 js
 :
@@ -111,7 +111,7 @@ hasPendingFreeArenaIndexes
 ;
 inline
 void
-markChildren
+recordChildren
 (
 Zone
 *
@@ -122,7 +122,7 @@ JSAtom
 ;
 inline
 void
-markChildren
+recordChildren
 (
 Zone
 *
@@ -150,7 +150,7 @@ SequentiallyConsistent
 >
 allocatedWords
 ;
-AtomMarkingRuntime
+AtomRefRuntime
 (
 )
 :
@@ -280,7 +280,7 @@ typename
 T
 >
 void
-markAtom
+recordRef
 (
 JSContext
 *
@@ -299,7 +299,7 @@ Fallible
 >
 MOZ_ALWAYS_INLINE
 bool
-inlinedMarkAtomInternal
+inlinedRecordRefInternal
 (
 Zone
 *
@@ -316,7 +316,7 @@ T
 >
 MOZ_ALWAYS_INLINE
 void
-inlinedMarkAtom
+inlinedRecordRef
 (
 Zone
 *
@@ -338,7 +338,7 @@ nodiscard
 ]
 MOZ_ALWAYS_INLINE
 bool
-inlinedMarkAtomFallible
+inlinedRecordRefFallible
 (
 Zone
 *
@@ -349,7 +349,7 @@ thing
 )
 ;
 void
-markId
+recordRefToId
 (
 JSContext
 *
@@ -359,7 +359,7 @@ id
 )
 ;
 void
-markAtomValue
+recordRefToValue
 (
 JSContext
 *
@@ -376,7 +376,7 @@ typename
 T
 >
 CellColor
-getAtomMarkColor
+getRefColor
 (
 Zone
 *
@@ -392,7 +392,7 @@ typename
 T
 >
 bool
-atomIsMarked
+hasRef
 (
 Zone
 *
@@ -403,7 +403,7 @@ thing
 )
 {
 return
-getAtomMarkColor
+getRefColor
 (
 zone
 thing
@@ -417,7 +417,7 @@ White
 ;
 }
 CellColor
-getAtomMarkColorForIndex
+getRefColorForIndex
 (
 Zone
 *
@@ -444,7 +444,7 @@ symbol
 ifdef
 DEBUG
 bool
-idIsMarked
+hasRefToId
 (
 Zone
 *
@@ -454,7 +454,7 @@ id
 )
 ;
 bool
-valueIsMarked
+hasRefToValue
 (
 Zone
 *

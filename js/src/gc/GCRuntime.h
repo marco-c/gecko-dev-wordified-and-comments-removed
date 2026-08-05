@@ -6303,8 +6303,8 @@ GCParallelTaskList
 >
 queuedParallelTasks
 ;
-AtomMarkingRuntime
-atomMarking
+AtomRefRuntime
+atomReferences
 ;
 MainThreadOrGCTaskData
 <

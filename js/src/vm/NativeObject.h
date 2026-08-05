@@ -5752,7 +5752,7 @@ compartment
 ;
 MOZ_ASSERT
 (
-AtomIsMarked
+ZoneHasRef
 (
 zoneFromAnyThread
 (

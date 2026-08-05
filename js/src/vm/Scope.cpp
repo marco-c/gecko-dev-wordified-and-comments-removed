@@ -800,7 +800,7 @@ name
 ;
 MOZ_ASSERT
 (
-AtomIsMarked
+ZoneHasRef
 (
 cx
 -

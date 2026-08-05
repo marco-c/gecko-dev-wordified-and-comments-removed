@@ -16912,7 +16912,7 @@ this
 {
 atomsUsedByUncollectedZones
 =
-atomMarking
+atomReferences
 .
 getOrMarkAtomsUsedByUncollectedZones
 (
@@ -20964,7 +20964,7 @@ grayBitsValid
 =
 false
 ;
-atomMarking
+atomReferences
 .
 unmarkAllGrayReferences
 (
@@ -22315,7 +22315,7 @@ lock
 ;
 }
 }
-atomMarking
+atomReferences
 .
 mergePendingFreeArenaIndexes
 (

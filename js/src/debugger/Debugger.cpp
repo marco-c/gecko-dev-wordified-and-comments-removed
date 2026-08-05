@@ -1461,7 +1461,7 @@ atom
 cx
 -
 >
-markAtom
+recordRef
 (
 atom
 )
@@ -12368,7 +12368,7 @@ break
 }
 MOZ_ASSERT
 (
-AtomIsMarked
+ZoneHasRef
 (
 cx
 -
@@ -34060,7 +34060,7 @@ isAtom
 cx
 -
 >
-markAtomValue
+recordRefToValue
 (
 v
 )

@@ -130,7 +130,7 @@ atomBitmapStart
 gc
 -
 >
-atomMarking
+atomReferences
 .
 allocateIndex
 (
@@ -233,7 +233,7 @@ isAtomsZone
 gc
 -
 >
-atomMarking
+atomReferences
 .
 freeIndex
 (

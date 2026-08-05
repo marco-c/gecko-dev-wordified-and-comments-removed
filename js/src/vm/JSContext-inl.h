@@ -686,9 +686,9 @@ color
 gc
 -
 >
-atomMarking
+atomReferences
 .
-getAtomMarkColor
+getRefColor
 (
 zone
 (

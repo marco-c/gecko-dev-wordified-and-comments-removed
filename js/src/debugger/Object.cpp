@@ -1,17 +1,6 @@
 #
 include
 "
-debugger
-/
-Object
--
-inl
-.
-h
-"
-#
-include
-"
 mozilla
 /
 Maybe
@@ -549,6 +538,17 @@ include
 vm
 /
 WrapperObject
+.
+h
+"
+#
+include
+"
+debugger
+/
+Object
+-
+inl
 .
 h
 "
@@ -10389,7 +10389,7 @@ result
 cx
 -
 >
-markAtom
+recordRef
 (
 result
 )
@@ -10440,7 +10440,7 @@ false
 cx
 -
 >
-markAtom
+recordRef
 (
 result
 )
@@ -10579,7 +10579,7 @@ bound
 cx
 -
 >
-markAtom
+recordRef
 (
 result
 )
@@ -10681,7 +10681,7 @@ result
 cx
 -
 >
-markAtom
+recordRef
 (
 result
 )
@@ -12287,7 +12287,7 @@ i
 cx
 -
 >
-markId
+recordRefToId
 (
 result
 [
@@ -12556,7 +12556,7 @@ i
 cx
 -
 >
-markAtom
+recordRef
 (
 result
 [
@@ -12719,7 +12719,7 @@ i
 cx
 -
 >
-markAtom
+recordRef
 (
 result
 [
@@ -12803,7 +12803,7 @@ referent
 cx
 -
 >
-markId
+recordRefToId
 (
 id
 )
@@ -13311,7 +13311,7 @@ false
 cx
 -
 >
-markId
+recordRefToId
 (
 id
 )
@@ -13535,7 +13535,7 @@ false
 cx
 -
 >
-markId
+recordRefToId
 (
 ids
 [
@@ -13647,7 +13647,7 @@ referent
 cx
 -
 >
-markId
+recordRefToId
 (
 id
 )
@@ -13806,7 +13806,7 @@ alreadyReportedError
 cx
 -
 >
-markId
+recordRefToId
 (
 id
 )
@@ -14024,7 +14024,7 @@ alreadyReportedError
 cx
 -
 >
-markId
+recordRefToId
 (
 id
 )

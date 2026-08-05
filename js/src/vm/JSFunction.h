@@ -1453,7 +1453,7 @@ atom
 js
 :
 :
-AtomIsMarked
+ZoneHasRef
 (
 zone
 (
@@ -1507,7 +1507,7 @@ atom
 js
 :
 :
-AtomIsMarked
+ZoneHasRef
 (
 zone
 (

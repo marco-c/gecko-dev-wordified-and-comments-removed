@@ -20907,9 +20907,9 @@ Some
 gc
 -
 >
-atomMarking
+atomReferences
 .
-atomIsMarked
+hasRef
 (
 zone
 args
@@ -20967,9 +20967,9 @@ Some
 gc
 -
 >
-atomMarking
+atomReferences
 .
-atomIsMarked
+hasRef
 (
 zone
 &
@@ -21298,7 +21298,7 @@ index
 gc
 :
 :
-AtomMarkingRuntime
+AtomRefRuntime
 :
 :
 getAtomBit
@@ -21529,9 +21529,9 @@ color
 gc
 -
 >
-atomMarking
+atomReferences
 .
-getAtomMarkColorForIndex
+getRefColorForIndex
 (
 zone
 index

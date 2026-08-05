@@ -209,7 +209,7 @@ true
 )
 static
 bool
-MarkAtoms
+RecordReferences
 (
 JSContext
 *
@@ -221,7 +221,7 @@ id
 cx
 -
 >
-markId
+recordRefToId
 (
 id
 )
@@ -232,7 +232,7 @@ true
 }
 static
 bool
-MarkAtoms
+RecordReferences
 (
 JSContext
 *
@@ -264,7 +264,7 @@ i
 cx
 -
 >
-markId
+recordRefToId
 (
 ids
 [
@@ -308,7 +308,7 @@ PIERCE
 (
 cx
 wrapper
-MarkAtoms
+RecordReferences
 (
 cx
 id
@@ -377,7 +377,7 @@ PIERCE
 (
 cx
 wrapper
-MarkAtoms
+RecordReferences
 (
 cx
 id
@@ -443,7 +443,7 @@ cx
 wrapper
 props
 )
-MarkAtoms
+RecordReferences
 (
 cx
 props
@@ -474,7 +474,7 @@ PIERCE
 (
 cx
 wrapper
-MarkAtoms
+RecordReferences
 (
 cx
 id
@@ -826,7 +826,7 @@ PIERCE
 (
 cx
 wrapper
-MarkAtoms
+RecordReferences
 (
 cx
 id
@@ -868,7 +868,7 @@ PIERCE
 (
 cx
 wrapper
-MarkAtoms
+RecordReferences
 (
 cx
 id
@@ -1030,7 +1030,7 @@ wrapper
 if
 (
 !
-MarkAtoms
+RecordReferences
 (
 cx
 id
@@ -1129,7 +1129,7 @@ PIERCE
 (
 cx
 wrapper
-MarkAtoms
+RecordReferences
 (
 cx
 id
@@ -1205,7 +1205,7 @@ cx
 wrapper
 props
 )
-MarkAtoms
+RecordReferences
 (
 cx
 props
@@ -1243,7 +1243,7 @@ cx
 wrapper
 props
 )
-MarkAtoms
+RecordReferences
 (
 cx
 props
@@ -2135,7 +2135,7 @@ getSource
 cx
 -
 >
-markAtom
+recordRef
 (
 source
 )

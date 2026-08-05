@@ -350,7 +350,7 @@ cx
 ifdef
 DEBUG
 bool
-AtomIsMarked
+ZoneHasRef
 (
 JS
 :
@@ -364,7 +364,7 @@ atom
 )
 ;
 bool
-AtomIsMarked
+ZoneHasRef
 (
 JS
 :
@@ -377,7 +377,7 @@ id
 )
 ;
 bool
-AtomIsMarked
+ZoneHasRef
 (
 JS
 :
