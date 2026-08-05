@@ -107,6 +107,11 @@ ScriptKind
 h
 "
 "
+ScriptLoaderInterface
+.
+h
+"
+"
 ScriptLoadRequest
 .
 h

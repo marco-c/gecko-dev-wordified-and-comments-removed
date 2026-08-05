@@ -66,6 +66,13 @@ h
 #
 include
 "
+ScriptLoaderInterface
+.
+h
+"
+#
+include
+"
 ScriptLoadRequest
 .
 h
