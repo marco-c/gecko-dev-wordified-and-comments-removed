@@ -275,6 +275,10 @@ LoginInfo
 (
             
 "
+http
+:
+/
+/
 test
 .
 marionette
@@ -2204,6 +2208,10 @@ searchLoginsAsync
 origin
 :
 "
+http
+:
+/
+/
 test
 .
 marionette
@@ -2227,11 +2235,6 @@ marionette
 mozilla
 .
 com
-/
-some
-/
-form
-/
 "
           
 }

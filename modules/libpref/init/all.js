@@ -27852,7 +27852,7 @@ rust
 .
 enabled
 "
-false
+true
 )
 ;
 pref
