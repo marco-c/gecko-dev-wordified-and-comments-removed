@@ -4644,6 +4644,8 @@ second
 )
 >
 kVideoPayloadTypeFrequency
+/
+2
 )
 {
 all_layers_droppable
