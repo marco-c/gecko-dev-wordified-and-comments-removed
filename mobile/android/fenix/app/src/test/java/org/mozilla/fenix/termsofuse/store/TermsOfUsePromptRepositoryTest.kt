@@ -247,6 +247,11 @@ repository
 DefaultTermsOfUsePromptRepository
 (
 settings
+currentTimeMillisProvider
+=
+{
+TIME_IN_MILLIS
+}
 )
 }
 Test
@@ -1059,9 +1064,6 @@ repository
 .
 updateHasAcceptedTermsOfUsePreference
 (
-nowMillis
-=
-TIME_IN_MILLIS
 )
 assertTrue
 (

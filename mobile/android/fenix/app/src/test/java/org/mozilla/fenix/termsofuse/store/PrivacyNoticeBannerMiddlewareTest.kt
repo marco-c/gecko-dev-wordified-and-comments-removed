@@ -314,9 +314,6 @@ override
 fun
 updatePrivacyNoticeBannerDisplayedPreference
 (
-nowMillis
-:
-Long
 )
 {
 updatePrivacyNoticeBannerDisplayedPreferenceCalled

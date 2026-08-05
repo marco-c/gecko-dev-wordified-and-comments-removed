@@ -252,6 +252,11 @@ gleanStarted
 =
 true
 }
+currentTimeMillis
+=
+{
+TIME_IN_MILLIS
+}
 )
 }
 Test
@@ -358,9 +363,6 @@ eventHandler
 .
 onAcceptTermsButtonClicked
 (
-nowMillis
-=
-TIME_IN_MILLIS
 )
 verify
 {

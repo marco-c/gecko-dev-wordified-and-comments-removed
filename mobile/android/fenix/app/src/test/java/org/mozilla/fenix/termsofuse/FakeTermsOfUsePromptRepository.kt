@@ -123,9 +123,6 @@ override
 fun
 updateHasAcceptedTermsOfUsePreference
 (
-nowMillis
-:
-Long
 )
 {
 }
@@ -140,9 +137,6 @@ override
 fun
 updateLastTermsOfUsePromptTimeInMillis
 (
-currentTimeInMillis
-:
-Long
 )
 {
 }
