@@ -223,6 +223,15 @@ mjs
 "
 modules
 /
+AutoTabGroupingSuggestions
+.
+sys
+.
+mjs
+"
+"
+modules
+/
 ChatConversation
 .
 sys

@@ -33,6 +33,13 @@ android
 ]
 [
 "
+test_AutoTabGrouping
+.
+js
+"
+]
+[
+"
 test_ChatConversation
 .
 js
