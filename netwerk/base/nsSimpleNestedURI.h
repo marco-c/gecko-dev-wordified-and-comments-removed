@@ -191,6 +191,15 @@ URIParams
 &
 )
 ;
+virtual
+bool
+IsValidInnerURI
+(
+nsIURI
+*
+aInnerURI
+)
+;
 nsresult
 ReadPrivate
 (
