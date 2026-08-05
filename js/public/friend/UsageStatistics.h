@@ -281,6 +281,12 @@ MemoryDistribution
 \
 _
 (
+GC_BUFFER_ALLOC_HEAP_BYTES
+MemoryDistribution
+)
+\
+_
+(
 GC_BUFFER_ALLOC_HEAP_DENSITY
 Percentage
 )
