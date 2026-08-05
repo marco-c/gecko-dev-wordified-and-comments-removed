@@ -92,6 +92,8 @@ const
 PlatformHandle
 &
 aHandle
+uint64_t
+aSize
 )
 ;
 static
