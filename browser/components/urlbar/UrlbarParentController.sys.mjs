@@ -13754,6 +13754,12 @@ previousSearchWordsSet
 =
 null
 ;
+this
+.
+_lastSearchDetailsForDisableSuggestTracking
+=
+null
+;
 }
 /
 *

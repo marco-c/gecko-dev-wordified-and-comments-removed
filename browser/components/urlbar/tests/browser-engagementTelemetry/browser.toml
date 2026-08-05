@@ -241,6 +241,13 @@ js
 ]
 [
 "
+browser_glean_telemetry_bounce_sap
+.
+js
+"
+]
+[
+"
 browser_glean_telemetry_disable
 .
 js
@@ -302,6 +309,13 @@ debug
 verify
 -
 standalone
+"
+]
+[
+"
+browser_glean_telemetry_disable_sap
+.
+js
 "
 ]
 [
