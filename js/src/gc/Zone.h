@@ -2283,7 +2283,7 @@ js
 :
 SparseBitmap
 >
-markedAtoms_
+referencedAtoms_
 ;
 js
 :
@@ -2912,7 +2912,7 @@ size_t
 shapeTables
 size_t
 *
-atomsMarkBitmaps
+atomReferenceBitmaps
 size_t
 *
 compartmentObjects
@@ -4476,12 +4476,12 @@ js
 :
 SparseBitmap
 &
-markedAtoms
+referencedAtoms
 (
 )
 {
 return
-markedAtoms_
+referencedAtoms_
 .
 ref
 (

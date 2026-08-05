@@ -1038,7 +1038,7 @@ isAtomsZone
 zone
 -
 >
-markedAtoms
+referencedAtoms
 (
 )
 .
@@ -1169,7 +1169,7 @@ words
 zone
 -
 >
-markedAtoms
+referencedAtoms
 (
 )
 .
@@ -1191,7 +1191,7 @@ return
 zone
 -
 >
-markedAtoms
+referencedAtoms
 (
 )
 .
@@ -1417,7 +1417,7 @@ atomsZone
 zone
 -
 >
-markedAtoms
+referencedAtoms
 (
 )
 )
@@ -1465,7 +1465,7 @@ isCollecting
 zone
 -
 >
-markedAtoms
+referencedAtoms
 (
 )
 .
@@ -1562,7 +1562,7 @@ bitmap
 sourceZone
 -
 >
-markedAtoms
+referencedAtoms
 (
 )
 ;
@@ -2122,7 +2122,7 @@ bitmap
 zone
 -
 >
-markedAtoms
+referencedAtoms
 (
 )
 ;
@@ -2330,7 +2330,7 @@ bitmap
 zone
 -
 >
-markedAtoms
+referencedAtoms
 (
 )
 ;
