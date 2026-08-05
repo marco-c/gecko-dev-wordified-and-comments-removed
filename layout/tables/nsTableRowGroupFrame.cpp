@@ -7769,8 +7769,6 @@ ClearRowCursor
 (
 )
 ;
-if
-(
 nsTableRowFrame
 *
 rowFrame
@@ -7779,6 +7777,10 @@ do_QueryFrame
 (
 aOldFrame
 )
+;
+if
+(
+rowFrame
 )
 {
 nsTableFrame
@@ -7823,13 +7825,11 @@ SetGeometryDirty
 )
 ;
 }
-nsContainerFrame
-:
-:
-RemoveFrame
+mFrames
+.
+DestroyFrame
 (
 aContext
-aListID
 aOldFrame
 )
 ;
