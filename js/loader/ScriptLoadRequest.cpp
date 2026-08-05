@@ -1007,6 +1007,13 @@ aFetchOptions
 nsIURI
 *
 aURI
+const
+mozilla
+:
+:
+Encoding
+*
+aClassicScriptFallbackEncoding
 )
 {
 MOZ_ASSERT
@@ -1060,6 +1067,7 @@ LoadedScript
 (
 mKind
 aURI
+aClassicScriptFallbackEncoding
 )
 ;
 mState
