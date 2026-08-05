@@ -13821,18 +13821,24 @@ extra_files
 ]
             
 "
-move_to_frameworks
+moves
 "
 :
+[
 list
 (
+m
+)
+for
+m
+in
 spec
 [
 "
-move_to_frameworks
+moves
 "
 ]
-)
+]
             
 "
 pkginfo
