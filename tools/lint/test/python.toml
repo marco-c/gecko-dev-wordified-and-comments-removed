@@ -188,6 +188,13 @@ py
 ]
 [
 "
+test_forbid_moduleloaderbase_include
+.
+py
+"
+]
+[
+"
 test_gecko_trace
 .
 py
