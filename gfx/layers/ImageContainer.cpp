@@ -7177,7 +7177,7 @@ sourceSurface
 DataSourceSurface
 :
 :
-WRITE
+READ
 )
 ;
 if
