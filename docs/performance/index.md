@@ -27,7 +27,7 @@ perfdocs
 /
 index
 .
-rst
+md
 )
 explains
 how

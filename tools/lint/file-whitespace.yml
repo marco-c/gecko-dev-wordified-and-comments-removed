@@ -1169,7 +1169,7 @@ perfdocs
 /
 index
 .
-rst
+md
 -
 python
 /
@@ -1179,7 +1179,7 @@ perfdocs
 /
 running
 .
-rst
+md
 -
 python
 /
@@ -1189,7 +1189,7 @@ perfdocs
 /
 vision
 .
-rst
+md
 -
 python
 /
@@ -1199,7 +1199,7 @@ perfdocs
 /
 writing
 .
-rst
+md
 extensions
 :
 -
