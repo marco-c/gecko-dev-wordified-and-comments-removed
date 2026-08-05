@@ -1091,6 +1091,9 @@ mut
 GpuBufferBuilder
 )
 {
+tracy_rs
+:
+:
 profile_scope
 !
 (
@@ -1123,6 +1126,9 @@ self
 .
 alpha_tasks
 {
+tracy_rs
+:
+:
 profile_scope
 !
 (
@@ -1441,6 +1447,9 @@ mut
 TransformPalette
 )
 {
+tracy_rs
+:
+:
 profile_scope
 !
 (

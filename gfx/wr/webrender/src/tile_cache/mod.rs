@@ -9140,6 +9140,9 @@ SurfacePromotionFailure
 :
 *
 ;
+tracy_rs
+:
+:
 profile_scope
 !
 (

@@ -11525,7 +11525,7 @@ Result
 ShaderError
 >
 {
-profile_scope
+profile_marker
 !
 (
 "

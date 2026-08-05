@@ -4321,6 +4321,9 @@ mut
 self
 )
 {
+tracy_rs
+:
+:
 profile_scope
 !
 (
@@ -6683,6 +6686,9 @@ new
 (
 )
 ;
+tracy_rs
+:
+:
 tracy_frame_marker
 !
 (
@@ -6726,6 +6732,9 @@ RendererError
 >
 >
 {
+tracy_rs
+:
+:
 profile_scope
 !
 (
@@ -8718,6 +8727,9 @@ Native
 =
 >
 {
+tracy_rs
+:
+:
 profile_scope
 !
 (
@@ -9120,6 +9132,9 @@ mut
 self
 )
 {
+tracy_rs
+:
+:
 profile_scope
 !
 (
@@ -13313,6 +13328,9 @@ mut
 RendererStats
 )
 {
+tracy_rs
+:
+:
 profile_scope
 !
 (
@@ -15599,6 +15617,9 @@ ortho_far_plane
 )
 )
 ;
+tracy_rs
+:
+:
 profile_scope
 !
 (
@@ -16638,6 +16659,9 @@ mut
 Frame
 )
 {
+tracy_rs
+:
+:
 profile_scope
 !
 (
@@ -16771,6 +16795,9 @@ mut
 self
 )
 {
+tracy_rs
+:
+:
 profile_scope
 !
 (
@@ -17506,6 +17533,9 @@ mut
 RenderResults
 )
 {
+tracy_rs
+:
+:
 profile_scope
 !
 (
@@ -18040,6 +18070,9 @@ _pass_index
 )
 )
 ;
+tracy_rs
+:
+:
 profile_scope
 !
 (

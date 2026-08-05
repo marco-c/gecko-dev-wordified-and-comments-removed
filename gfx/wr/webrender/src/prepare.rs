@@ -639,6 +639,9 @@ PrimitiveInstance
 >
 )
 {
+tracy_rs
+:
+:
 profile_scope
 !
 (
@@ -695,6 +698,9 @@ IS_VISIBLE
 continue
 ;
 }
+tracy_rs
+:
+:
 profile_scope
 !
 (
@@ -1028,6 +1034,9 @@ CommandBufferIndex
 ]
 )
 {
+tracy_rs
+:
+:
 profile_scope
 !
 (
@@ -1419,6 +1428,9 @@ data_handle
 =
 >
 {
+tracy_rs
+:
+:
 profile_scope
 !
 (
@@ -1484,6 +1496,9 @@ data_handle
 =
 >
 {
+tracy_rs
+:
+:
 profile_scope
 !
 (
@@ -1708,6 +1723,9 @@ data_handle
 =
 >
 {
+tracy_rs
+:
+:
 profile_scope
 !
 (
@@ -1972,6 +1990,9 @@ data_handle
 =
 >
 {
+tracy_rs
+:
+:
 profile_scope
 !
 (
@@ -2074,6 +2095,9 @@ data_handle
 =
 >
 {
+tracy_rs
+:
+:
 profile_scope
 !
 (
@@ -2226,6 +2250,9 @@ data_handle
 =
 >
 {
+tracy_rs
+:
+:
 profile_scope
 !
 (
@@ -2334,6 +2361,9 @@ data_handle
 =
 >
 {
+tracy_rs
+:
+:
 profile_scope
 !
 (
@@ -2563,6 +2593,9 @@ data_handle
 =
 >
 {
+tracy_rs
+:
+:
 profile_scope
 !
 (
@@ -2717,6 +2750,9 @@ data_handle
 =
 >
 {
+tracy_rs
+:
+:
 profile_scope
 !
 (
@@ -3208,6 +3244,9 @@ data_handle
 =
 >
 {
+tracy_rs
+:
+:
 profile_scope
 !
 (
@@ -3409,6 +3448,9 @@ data_handle
 =
 >
 {
+tracy_rs
+:
+:
 profile_scope
 !
 (
@@ -3743,6 +3785,9 @@ pic_index
 =
 >
 {
+tracy_rs
+:
+:
 profile_scope
 !
 (
