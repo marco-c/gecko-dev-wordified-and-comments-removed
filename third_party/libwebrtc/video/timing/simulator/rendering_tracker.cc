@@ -795,7 +795,7 @@ reset
 video_timing_
 -
 >
-StopDecodeTimer
+UpdateDecodeTimeEstimate
 (
 TimeDelta
 :

@@ -3779,7 +3779,7 @@ OnFrameBufferTimingsUpdated
 ;
 timing_
 .
-StopDecodeTimer
+UpdateDecodeTimeEstimate
 (
 TimeDelta
 :

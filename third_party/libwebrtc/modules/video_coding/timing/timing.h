@@ -380,7 +380,7 @@ actual_decode_time
 )
 ;
 void
-StopDecodeTimer
+UpdateDecodeTimeEstimate
 (
 TimeDelta
 decode_time
