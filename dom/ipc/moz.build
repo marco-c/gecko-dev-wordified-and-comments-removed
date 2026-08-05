@@ -388,6 +388,11 @@ PrefetchLog
 h
 "
 "
+PrefetchMatchWaiter
+.
+h
+"
+"
 PrefetchRecordChild
 .
 h
@@ -711,6 +716,11 @@ cpp
 "
 "
 PreallocatedProcessManager
+.
+cpp
+"
+"
+PrefetchMatchWaiter
 .
 cpp
 "
