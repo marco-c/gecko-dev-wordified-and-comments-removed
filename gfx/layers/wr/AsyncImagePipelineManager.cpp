@@ -2528,9 +2528,6 @@ mDLBuilder
 .
 Begin
 (
-AppUnitsPerCSSPixel
-(
-)
 )
 ;
 float
@@ -3465,9 +3462,6 @@ builder
 .
 Begin
 (
-AppUnitsPerCSSPixel
-(
-)
 )
 ;
 wr

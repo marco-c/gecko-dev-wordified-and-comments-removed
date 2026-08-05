@@ -231,15 +231,6 @@ HasWindowHandle
 RawWindowHandle
 }
 ;
-const
-AU_PER_DEV_PX
-:
-f32
-=
-60
-.
-0
-;
 struct
 Notifier
 {
@@ -1358,7 +1349,6 @@ builder
 .
 begin
 (
-AU_PER_DEV_PX
 )
 ;
 builder
