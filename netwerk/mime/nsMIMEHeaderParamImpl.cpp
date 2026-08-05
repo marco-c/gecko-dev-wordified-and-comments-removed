@@ -3506,7 +3506,13 @@ StripCRLF
 ;
 aResult
 =
+std
+:
+:
+move
+(
 temp
+)
 ;
 }
 return
@@ -4396,7 +4402,13 @@ IsEmpty
 )
 aResult
 =
+std
+:
+:
+move
+(
 decoded
+)
 ;
 }
 return

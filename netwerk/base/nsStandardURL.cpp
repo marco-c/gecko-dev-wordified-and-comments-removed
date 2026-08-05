@@ -2132,7 +2132,13 @@ else
 {
 mDisplayHost
 =
+std
+:
+:
+move
+(
 displayHost
+)
 ;
 }
 return
@@ -10345,7 +10351,13 @@ rv
 }
 hostBuf
 =
+std
+:
+:
+move
+(
 ipString
+)
 ;
 }
 }

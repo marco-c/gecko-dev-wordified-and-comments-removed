@@ -993,6 +993,14 @@ SerialEventTarget
 __func__
 [
 ipcClientInfo
+=
+std
+:
+:
+move
+(
+ipcClientInfo
+)
 holder
 outerPromise
 ]

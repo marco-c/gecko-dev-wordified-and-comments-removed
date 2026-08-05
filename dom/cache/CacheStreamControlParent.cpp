@@ -586,6 +586,14 @@ OpenStream
 aStreamId
 [
 aResolver
+=
+std
+:
+:
+move
+(
+aResolver
+)
 self
 =
 RefPtr

@@ -1668,7 +1668,13 @@ data
 (
 )
 =
+std
+:
+:
+move
+(
 data
+)
 ;
 RefPtr
 <

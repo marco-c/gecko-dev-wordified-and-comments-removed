@@ -2527,7 +2527,13 @@ else
 {
 aData
 =
+std
+:
+:
+move
+(
 stringdata
+)
 ;
 }
 }

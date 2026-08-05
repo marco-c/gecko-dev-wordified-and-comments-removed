@@ -2345,7 +2345,13 @@ return
 }
 aResult
 =
+std
+:
+:
+move
+(
 result
+)
 ;
 }
 void
@@ -2458,7 +2464,13 @@ return
 }
 aResult
 =
+std
+:
+:
+move
+(
 result
+)
 ;
 }
 void

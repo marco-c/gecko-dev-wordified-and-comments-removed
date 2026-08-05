@@ -2818,7 +2818,13 @@ IsEmpty
 {
 cookiesForDomain
 =
+std
+:
+:
+move
+(
 hostName
+)
 ;
 }
 else

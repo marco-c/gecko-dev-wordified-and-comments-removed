@@ -1440,7 +1440,13 @@ encodedData
 ;
 aResult
 =
+std
+:
+:
+move
+(
 scratchResult
+)
 ;
 }
 nsresult

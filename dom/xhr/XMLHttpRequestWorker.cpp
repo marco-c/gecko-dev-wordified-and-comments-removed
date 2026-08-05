@@ -9297,7 +9297,13 @@ return
 }
 aResponseHeader
 =
+std
+:
+:
+move
+(
 responseHeader
+)
 ;
 }
 void
@@ -9400,7 +9406,13 @@ return
 }
 aResponseHeaders
 =
+std
+:
+:
+move
+(
 responseHeaders
+)
 ;
 }
 void

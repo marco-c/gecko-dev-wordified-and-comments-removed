@@ -458,6 +458,14 @@ AddCallbacksWithCycleCollectedArgs
 [
 result
 aWellKnownConfig
+=
+std
+:
+:
+move
+(
+aWellKnownConfig
+)
 ]
 (
 JSContext

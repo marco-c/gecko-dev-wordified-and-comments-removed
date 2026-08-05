@@ -462,7 +462,13 @@ data
 >
 mDirectoryPath
 =
+std
+:
+:
+move
+(
 path
+)
 ;
 continue
 ;
@@ -1415,6 +1421,7 @@ Init
 mBrowsingContext
 mTitle
 mMode
+nullptr
 )
 )
 ;

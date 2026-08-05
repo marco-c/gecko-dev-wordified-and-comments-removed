@@ -836,7 +836,13 @@ addonId
 ;
 mAddonId
 =
+std
+:
+:
+move
+(
 addonId
+)
 ;
 }
 void

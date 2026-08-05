@@ -11125,7 +11125,13 @@ mSharedTextures
 aTextureId
 ]
 =
+std
+:
+:
+move
+(
 shared
+)
 ;
 }
 std

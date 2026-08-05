@@ -501,6 +501,14 @@ __func__
 [
 self
 origin
+=
+std
+:
+:
+move
+(
+origin
+)
 aTransactionId
 aBrowsingContextId
 attestationRequested

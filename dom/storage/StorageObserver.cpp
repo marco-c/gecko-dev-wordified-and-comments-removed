@@ -835,6 +835,8 @@ sSelf
 for
 (
 auto
+const
+&
 sink
 :
 mSinks
@@ -963,7 +965,13 @@ rv
 }
 aOriginScope
 =
+std
+:
+:
+move
+(
 originScope
+)
 ;
 return
 NS_OK

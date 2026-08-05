@@ -322,7 +322,13 @@ PUT
 {
 outMethod
 =
+std
+:
+:
+move
+(
 upperCaseMethod
+)
 ;
 }
 else

@@ -5114,7 +5114,13 @@ originSuffix
 ;
 mProcessName
 =
+std
+:
+:
+move
+(
 schemeless
+)
 ;
 }
 else

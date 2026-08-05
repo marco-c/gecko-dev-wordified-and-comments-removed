@@ -1056,6 +1056,14 @@ AddCallbacksWithCycleCollectedArgs
 (
 [
 newMetadata
+=
+std
+:
+:
+move
+(
+newMetadata
+)
 ]
 (
 JSContext

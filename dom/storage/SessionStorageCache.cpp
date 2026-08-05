@@ -518,7 +518,13 @@ value
 }
 aResult
 =
+std
+:
+:
+move
+(
 value
+)
 ;
 }
 void

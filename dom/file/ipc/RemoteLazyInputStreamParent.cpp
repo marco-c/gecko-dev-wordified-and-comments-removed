@@ -654,6 +654,14 @@ GetAsyncLength
 stream
 [
 aResolver
+=
+std
+:
+:
+move
+(
+aResolver
+)
 id
 =
 mID

@@ -7462,7 +7462,13 @@ char16_t
 }
 aResult
 =
+std
+:
+:
+move
+(
 quotes
+)
 ;
 }
 int32_t

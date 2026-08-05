@@ -506,7 +506,13 @@ rv
 {
 valueStr
 =
+std
+:
+:
+move
+(
 absURI
+)
 ;
 }
 }
