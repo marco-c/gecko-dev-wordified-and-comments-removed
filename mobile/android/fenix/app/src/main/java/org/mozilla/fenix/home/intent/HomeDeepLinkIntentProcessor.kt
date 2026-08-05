@@ -1144,6 +1144,12 @@ source
 ShareSource
 .
 DEEP_LINK
+text
+=
+text
+subject
+=
+subject
 navigateToShareFragment
 =
 {
@@ -1175,6 +1181,11 @@ text
 shareSubject
 =
 subject
+.
+ifEmpty
+{
+title
+}
 showPage
 =
 false
