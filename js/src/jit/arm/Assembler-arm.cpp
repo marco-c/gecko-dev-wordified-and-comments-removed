@@ -9421,6 +9421,7 @@ spewLiteralLoad
 php
 loadToPC
 instruction
+offs
 doc
 )
 ;
@@ -10913,6 +10914,7 @@ getInstOrNull
 (
 ret
 )
+ret
 refLabel
 (
 l
@@ -11233,6 +11235,7 @@ getInstOrNull
 (
 ret
 )
+ret
 refLabel
 (
 l
@@ -16034,6 +16037,8 @@ spew
 Instruction
 *
 i
+BufferOffset
+offs
 )
 {
 if
@@ -16067,8 +16072,15 @@ spew
 (
 "
 %
+06x
+%
 s
 "
+offs
+.
+getOffset
+(
+)
 buffer
 .
 start
@@ -16086,6 +16098,8 @@ spewBranch
 Instruction
 *
 i
+BufferOffset
+offs
 const
 LabelDoc
 &
@@ -16320,10 +16334,17 @@ spew
 (
 "
 %
+06x
+%
 s
 %
 s
 "
+offs
+.
+getOffset
+(
+)
 buffer
 .
 start
@@ -16361,6 +16382,8 @@ const
 Instruction
 *
 i
+BufferOffset
+offs
 const
 LiteralDoc
 &
@@ -16584,6 +16607,8 @@ spew
 (
 "
 %
+06x
+%
 s
 ;
 .
@@ -16591,6 +16616,11 @@ const
 %
 s
 "
+offs
+.
+getOffset
+(
+)
 buffer
 .
 start

@@ -13691,6 +13691,12 @@ length
 d
 )
 "
+"
+[
+undefined
+insn
+]
+"
 DecodeConstantPoolLength
 (
 instruction_bits

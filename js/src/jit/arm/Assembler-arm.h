@@ -5865,6 +5865,8 @@ spew
 Instruction
 *
 i
+BufferOffset
+offs
 )
 ;
 void
@@ -5873,6 +5875,8 @@ spewBranch
 Instruction
 *
 i
+BufferOffset
+offs
 const
 LabelDoc
 &
@@ -5890,6 +5894,8 @@ loadToPC
 const
 Instruction
 *
+i
+BufferOffset
 offs
 const
 LiteralDoc
@@ -6407,6 +6413,7 @@ getInstOrNull
 (
 offs
 )
+offs
 )
 ;
 #
@@ -6448,6 +6455,7 @@ getInstOrNull
 (
 offs
 )
+offs
 documentation
 )
 ;
