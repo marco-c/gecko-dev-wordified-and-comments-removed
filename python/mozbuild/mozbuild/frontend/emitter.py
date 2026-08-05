@@ -3991,47 +3991,47 @@ context
             
 )
         
-crate_type
-=
-crate_type
-[
-0
-]
-        
 if
-crate_type
-!
-=
 "
 staticlib
 "
+not
+in
+crate_type
 :
             
 raise
 SandboxValidationError
 (
                 
+f
 "
 crate
 -
 type
-%
-s
-is
-not
-permitted
-for
-%
-s
-"
-%
-(
+{
 crate_type
+}
+for
+{
 libname
-)
+}
+must
+include
+'
+staticlib
+'
+"
+                
 context
             
 )
+        
+crate_type
+=
+"
+staticlib
+"
         
 dependencies
 =
