@@ -23,9 +23,7 @@ ui
 .
 efficiency
 .
-navigation
-.
-planning
+generation
 .
 NavigationGraphBootstrap
 import
@@ -39,9 +37,7 @@ ui
 .
 efficiency
 .
-navigation
-.
-planning
+generation
 .
 ShardUtils
 object

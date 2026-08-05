@@ -68,8 +68,6 @@ ui
 efficiency
 .
 navigation
-.
-planning
 import
 org
 .

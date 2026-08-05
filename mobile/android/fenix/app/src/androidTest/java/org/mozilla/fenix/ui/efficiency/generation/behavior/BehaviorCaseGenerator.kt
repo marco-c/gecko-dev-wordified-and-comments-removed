@@ -81,11 +81,9 @@ ui
 .
 efficiency
 .
-navigation
+generation
 .
-planning
-.
-DevToolReport
+NavigationGraphBootstrap
 import
 org
 .
@@ -101,7 +99,7 @@ navigation
 .
 planning
 .
-NavigationGraphBootstrap
+DevToolReport
 import
 org
 .

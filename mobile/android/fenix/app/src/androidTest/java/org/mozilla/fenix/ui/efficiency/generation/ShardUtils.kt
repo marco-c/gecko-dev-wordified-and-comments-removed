@@ -9,9 +9,7 @@ ui
 .
 efficiency
 .
-navigation
-.
-planning
+generation
 /
 *
 *

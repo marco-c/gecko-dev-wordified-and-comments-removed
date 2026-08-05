@@ -97,8 +97,6 @@ efficiency
 .
 navigation
 .
-planning
-.
 PageCatalog
 object
 BehaviorTestPlanner

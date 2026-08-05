@@ -29,9 +29,7 @@ ui
 .
 efficiency
 .
-navigation
-.
-planning
+generation
 .
 NavigationTestPlanner
 import
@@ -45,9 +43,7 @@ ui
 .
 efficiency
 .
-navigation
-.
-planning
+generation
 .
 ShardUtils
 import
@@ -61,9 +57,7 @@ ui
 .
 efficiency
 .
-navigation
-.
-planning
+generation
 .
 toDisplayLabel
 object
