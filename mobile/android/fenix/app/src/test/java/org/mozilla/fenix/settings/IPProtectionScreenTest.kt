@@ -445,6 +445,10 @@ onNavigateBack
 =
 {
 }
+onLocationClicked
+=
+{
+}
 )
 }
 }
@@ -664,6 +668,10 @@ onNavigateBack
 =
 {
 }
+onLocationClicked
+=
+{
+}
 )
 }
 }
@@ -834,6 +842,10 @@ onDebugActionClick
 {
 }
 onNavigateBack
+=
+{
+}
+onLocationClicked
 =
 {
 }
