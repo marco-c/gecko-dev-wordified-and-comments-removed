@@ -534,6 +534,15 @@ InputContextAction
 aAction
 )
 ;
+void
+EnsureEditableParent
+(
+uint64_t
+aContentId
+uint64_t
+aTabId
+)
+;
 public
 :
 template
