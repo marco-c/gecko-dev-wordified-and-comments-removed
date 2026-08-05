@@ -7164,7 +7164,10 @@ Throwable
 >
 Unit
 )
+:
+CancellableOperation
 {
+return
 addressStructureAccessor
 .
 getAddressStructure
