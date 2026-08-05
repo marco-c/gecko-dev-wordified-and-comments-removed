@@ -2550,6 +2550,9 @@ hasSourceText
 bool
 *
 retrievable
+bool
+*
+isTwoByteString
 )
 ;
 template
