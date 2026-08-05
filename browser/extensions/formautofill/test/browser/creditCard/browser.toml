@@ -899,6 +899,13 @@ x11
 ]
 [
 "
+browser_creditCard_preview_cleared_on_pointer_leave
+.
+js
+"
+]
+[
+"
 browser_creditCard_submission_autodetect_type
 .
 js
