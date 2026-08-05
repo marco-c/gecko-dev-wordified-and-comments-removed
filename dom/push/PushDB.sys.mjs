@@ -1738,7 +1738,7 @@ getAllReq
 =
 index
 .
-mozGetAll
+getAll
 (
 aKeyValue
 )
@@ -1885,7 +1885,7 @@ undefined
 ;
 aStore
 .
-mozGetAll
+getAll
 (
 )
 .

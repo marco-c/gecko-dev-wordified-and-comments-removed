@@ -210,3 +210,15 @@ DEPRECATED_OPERATION
 (
 MozunlockorientationDeprecated
 )
+DEPRECATED_OPERATION
+(
+IDBObjectStoreMozGetAll
+)
+DEPRECATED_OPERATION
+(
+IDBIndexMozGetAll
+)
+DEPRECATED_OPERATION
+(
+IDBIndexMozGetAllKeys
+)
