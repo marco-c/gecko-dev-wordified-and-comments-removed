@@ -2209,6 +2209,16 @@ cache
 }
 }
 }
+scratch
+.
+primitive
+.
+frame
+.
+assert_draws_resolved
+(
+)
+;
 profile
 .
 end_time
