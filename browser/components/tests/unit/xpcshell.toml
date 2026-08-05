@@ -169,6 +169,13 @@ js
 ]
 [
 "
+test_distribution_idonly
+.
+js
+"
+]
+[
+"
 test_distribution_mozillaonline
 .
 js
