@@ -132,6 +132,16 @@ return
 mScale
 ;
 }
+bool
+HasDegenerateRasterScale
+(
+)
+const
+{
+return
+mRasterScaleIsDegenerate
+;
+}
 const
 gfx
 :
@@ -248,6 +258,9 @@ gfx
 :
 Matrix
 mSnappingSurfaceTransform
+;
+bool
+mRasterScaleIsDegenerate
 ;
 bool
 mAffectsClipPositioning
