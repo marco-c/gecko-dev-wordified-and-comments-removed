@@ -3981,6 +3981,9 @@ window
 decorView
 as
 ViewGroup
+lifecycle
+=
+lifecycle
 )
 )
 true
