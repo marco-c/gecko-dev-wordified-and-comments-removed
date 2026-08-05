@@ -453,6 +453,9 @@ EGL_KHR_no_config_context
 "
 EGL_ANGLE_iosurface_client_buffer
 "
+"
+EGL_ANGLE_metal_commands_scheduled_sync
+"
 }
 ;
 PRLibrary
