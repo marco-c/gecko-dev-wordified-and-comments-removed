@@ -111,9 +111,12 @@ eCommand_ID_Account
 eCommand_ID_SetAsDefault
 =
 10
-eCommand_ID_Last
+eCommand_ID_ReferralsPage
 =
 11
+eCommand_ID_Last
+=
+12
 }
 ;
 class

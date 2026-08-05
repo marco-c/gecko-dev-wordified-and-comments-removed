@@ -208,6 +208,13 @@ feature
 ]
 [
 "
+browser_menu_referrals_page
+.
+js
+"
+]
+[
+"
 browser_search_bookmarks
 .
 js
