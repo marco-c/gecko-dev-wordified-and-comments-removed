@@ -262,7 +262,7 @@ CARGOFLAGS
 -
 features
 capture
-profiler
+tracy
 cargo
 check
 {

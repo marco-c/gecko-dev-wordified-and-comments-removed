@@ -186,7 +186,7 @@ CARGOFLAGS
 -
 features
 capture
-profiler
+tracy
 cargo
 build
 {
