@@ -258,7 +258,7 @@ SetPayloadType
 payload_type
 )
 ;
-SFrameDescriptor
+SframeDescriptor
 desc
 ;
 desc

@@ -21,7 +21,7 @@ kPacket
 }
 ;
 struct
-SFrameDescriptor
+SframeDescriptor
 {
 static
 constexpr

@@ -108,7 +108,7 @@ payload_size
 (
 )
 <
-SFrameDescriptor
+SframeDescriptor
 :
 :
 kSize
@@ -152,7 +152,7 @@ payload
 ]
 )
 ;
-SFrameDescriptor
+SframeDescriptor
 descriptor
 ;
 descriptor
@@ -161,7 +161,7 @@ start
 =
 bits
 [
-SFrameDescriptor
+SframeDescriptor
 :
 :
 kSBit
@@ -173,7 +173,7 @@ end
 =
 bits
 [
-SFrameDescriptor
+SframeDescriptor
 :
 :
 kEBit
@@ -185,7 +185,7 @@ encryption_level
 =
 bits
 [
-SFrameDescriptor
+SframeDescriptor
 :
 :
 kTBit
@@ -247,7 +247,7 @@ payload
 .
 subspan
 (
-SFrameDescriptor
+SframeDescriptor
 :
 :
 kSize
