@@ -116,6 +116,13 @@ unsigned
 long
 length
 ;
+[
+BinaryName
+=
+"
+Length
+"
+]
 readonly
 attribute
 unsigned
@@ -203,8 +210,9 @@ DOMString
 newItem
 )
 ;
-/
-/
+[
+Throws
+]
 setter
 undefined
 (
