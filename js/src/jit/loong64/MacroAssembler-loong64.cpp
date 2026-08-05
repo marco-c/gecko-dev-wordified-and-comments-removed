@@ -6571,6 +6571,14 @@ Label
 label
 )
 {
+LabelDoc
+target
+=
+refLabel
+(
+label
+)
+;
 spew
 (
 "
@@ -6648,6 +6656,7 @@ BOffImm16
 (
 0
 )
+target
 )
 ;
 return
@@ -6714,6 +6723,7 @@ BranchIsCall
 encode
 (
 )
+target
 )
 ;
 writeInst
@@ -6772,6 +6782,14 @@ Register
 scratch
 )
 {
+LabelDoc
+target
+=
+refLabel
+(
+label
+)
+;
 spew
 (
 "
@@ -6938,6 +6956,7 @@ code
 encode
 (
 )
+target
 )
 ;
 return
@@ -7025,6 +7044,7 @@ BOffImm16
 (
 0
 )
+target
 )
 ;
 }
@@ -7050,6 +7070,7 @@ BOffImm16
 (
 0
 )
+target
 )
 ;
 }
@@ -7165,6 +7186,7 @@ BOffImm16
 (
 0
 )
+target
 )
 ;
 }
@@ -7190,6 +7212,7 @@ BOffImm16
 (
 0
 )
+target
 )
 ;
 }
@@ -7262,6 +7285,7 @@ code
 encode
 (
 )
+target
 )
 ;
 writeInst
@@ -7331,6 +7355,7 @@ code
 encode
 (
 )
+target
 )
 ;
 writeInst
