@@ -1913,6 +1913,9 @@ EngineSession
 action
 :
 Action
+isPrivate
+:
+Boolean
 )
 :
 EngineSession
@@ -2047,6 +2050,9 @@ onNewTabOverride
 onSelectTabOverride
 extension
 engineSession
+isPrivate
+=
+isPrivate
 )
 store
 .
