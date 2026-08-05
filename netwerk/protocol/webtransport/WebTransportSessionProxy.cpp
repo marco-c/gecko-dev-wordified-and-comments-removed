@@ -3224,6 +3224,10 @@ uint8_t
 aData
 uint64_t
 aTrackingId
+uint64_t
+aSendGroupId
+int64_t
+aSendOrder
 )
 {
 MOZ_ASSERT
@@ -3246,6 +3250,8 @@ move
 aData
 )
 aTrackingId
+aSendGroupId
+aSendOrder
 )
 ;
 }
@@ -3264,6 +3270,10 @@ uint8_t
 aData
 uint64_t
 aTrackingId
+uint64_t
+aSendGroupId
+int64_t
+aSendOrder
 )
 {
 RefPtr
@@ -3369,6 +3379,14 @@ trackingId
 (
 aTrackingId
 )
+sendGroupId
+(
+aSendGroupId
+)
+sendOrder
+(
+aSendOrder
+)
 ]
 (
 )
@@ -3388,6 +3406,8 @@ move
 data
 )
 trackingId
+sendGroupId
+sendOrder
 )
 ;
 }
@@ -3406,6 +3426,8 @@ move
 copied
 )
 aTrackingId
+aSendGroupId
+aSendOrder
 )
 ;
 return

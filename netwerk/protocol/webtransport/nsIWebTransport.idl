@@ -437,6 +437,12 @@ aData
 in
 uint64_t
 aTrackingId
+in
+uint64_t
+aSendGroupId
+in
+int64_t
+aSendOrder
 )
 ;
 void

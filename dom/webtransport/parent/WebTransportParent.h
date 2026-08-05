@@ -337,6 +337,14 @@ const
 TimeStamp
 &
 aExpirationTime
+const
+uint64_t
+&
+aSendGroupId
+const
+int64_t
+&
+aSendOrder
 OutgoingDatagramResolver
 &
 &
