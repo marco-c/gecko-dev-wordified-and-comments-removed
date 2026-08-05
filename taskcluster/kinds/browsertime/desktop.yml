@@ -2428,6 +2428,13 @@ mrb
 ]
 -
 [
+media
+-
+capabilities
+mc
+]
+-
+[
 motionmark
 -
 1
