@@ -6562,6 +6562,11 @@ WebTransportDatagramDuplexStream
 webidl
 "
 "
+WebTransportDatagramsWritable
+.
+webidl
+"
+"
 WebTransportError
 .
 webidl

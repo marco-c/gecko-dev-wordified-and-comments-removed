@@ -77,6 +77,11 @@ WebTransportDatagramDuplexStream
 h
 "
 "
+WebTransportDatagramsWritable
+.
+h
+"
+"
 WebTransportError
 .
 h
@@ -118,6 +123,11 @@ cpp
 "
 "
 WebTransportDatagramDuplexStream
+.
+cpp
+"
+"
+WebTransportDatagramsWritable
 .
 cpp
 "
