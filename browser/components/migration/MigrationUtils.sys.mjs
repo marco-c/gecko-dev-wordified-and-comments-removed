@@ -1186,6 +1186,17 @@ wantUntrusted
 :
 true
 }
+"
+MigrationWizard
+:
+LaunchMacOSPasswordsApp
+"
+:
+{
+wantUntrusted
+:
+true
+}
 }
 }
 includeChrome
