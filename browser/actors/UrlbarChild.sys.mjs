@@ -194,7 +194,13 @@ Set
 (
 [
 "
+acknowledgeFeedback
+"
+"
 close
+"
+"
+updateResultMenuCommands
 "
 "
 startTail150

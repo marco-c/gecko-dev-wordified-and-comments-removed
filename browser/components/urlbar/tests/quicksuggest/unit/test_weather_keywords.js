@@ -2072,7 +2072,7 @@ expectedCountsByCall
 acknowledgeFeedback
 :
 1
-invalidateResultMenuCommands
+updateResultMenuCommands
 :
 after
 .
