@@ -122,6 +122,14 @@ cpp
 .
 .
 /
+FFmpegDecodeStats
+.
+cpp
+"
+"
+.
+.
+/
 FFmpegEncoderModule
 .
 cpp
