@@ -1004,6 +1004,15 @@ OriginMetadata
 aOriginMetadata
 )
 ;
+void
+RemoveOriginFromCacheForEviction
+(
+const
+OriginMetadata
+&
+aOriginMetadata
+)
+;
 already_AddRefed
 <
 QuotaObject
