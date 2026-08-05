@@ -4196,7 +4196,7 @@ gCryptoHash
 update
 (
 bytes
-domain
+bytes
 .
 length
 )
