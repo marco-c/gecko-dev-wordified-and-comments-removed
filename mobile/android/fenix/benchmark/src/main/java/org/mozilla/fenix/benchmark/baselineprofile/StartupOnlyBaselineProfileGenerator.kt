@@ -132,6 +132,18 @@ benchmark
 utils
 .
 TARGET_PACKAGE
+import
+org
+.
+mozilla
+.
+fenix
+.
+benchmark
+.
+utils
+.
+startupOnlyJourney
 /
 *
 *
@@ -407,7 +419,7 @@ packageName
 TARGET_PACKAGE
 )
 {
-startActivityAndWait
+startupOnlyJourney
 (
 )
 }

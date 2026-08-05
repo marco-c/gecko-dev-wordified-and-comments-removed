@@ -161,7 +161,7 @@ benchmark
 .
 utils
 .
-completeOnboarding
+onboardingJourney
 import
 org
 .
@@ -499,12 +499,7 @@ packageName
 =
 packageName
 )
-startActivityAndWait
-(
-)
-device
-.
-completeOnboarding
+onboardingJourney
 (
 )
 }

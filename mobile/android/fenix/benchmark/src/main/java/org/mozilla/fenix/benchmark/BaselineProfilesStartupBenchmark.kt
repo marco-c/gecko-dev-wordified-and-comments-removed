@@ -156,6 +156,18 @@ benchmark
 utils
 .
 measureRepeatedDefault
+import
+org
+.
+mozilla
+.
+fenix
+.
+benchmark
+.
+utils
+.
+startupOnlyJourney
 /
 *
 *
@@ -502,7 +514,7 @@ pressHome
 }
 )
 {
-startActivityAndWait
+startupOnlyJourney
 (
 )
 SystemClock

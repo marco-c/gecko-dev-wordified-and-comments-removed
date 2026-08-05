@@ -910,6 +910,11 @@ openNewTabOnTabsTray
 )
 device
 .
+enterSearchMode
+(
+)
+device
+.
 loadSite
 (
 url
