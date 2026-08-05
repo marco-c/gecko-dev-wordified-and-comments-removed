@@ -19445,7 +19445,13 @@ nasm_asflags
 )
 #
 ANGLE
-renderer
+OpenGL
+-
+>
+D3D
+translator
+for
+WebGL
 #
 =
 =
@@ -19514,11 +19520,7 @@ only_when
 (
 compile_environment
 &
-(
 target_is_windows
-|
-target_is_osx
-)
 )
 :
 set_config

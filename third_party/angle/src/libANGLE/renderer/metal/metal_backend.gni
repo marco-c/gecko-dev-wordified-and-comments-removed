@@ -530,9 +530,6 @@ mac
 .
 metal_internal_shader_compilation_supported
 =
-false
-&
-&
 angle_has_build
 &
 &

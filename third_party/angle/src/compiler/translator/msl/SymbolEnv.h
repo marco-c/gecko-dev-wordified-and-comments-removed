@@ -178,8 +178,6 @@ other
 .
 mVariable
 ?
-other
-.
 mVariable
 -
 >
