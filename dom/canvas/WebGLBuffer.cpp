@@ -954,7 +954,7 @@ map_buffer_range
 gl
 -
 >
-IsANGLE
+IsD3DANGLE
 (
 )
 )

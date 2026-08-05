@@ -3233,6 +3233,16 @@ EGLLibExtension
 ANGLE_platform_angle
 )
 ;
+mIsD3DANGLE
+=
+IsExtensionSupported
+(
+EGLLibExtension
+:
+:
+ANGLE_platform_angle_d3d
+)
+;
 if
 (
 mIsANGLE

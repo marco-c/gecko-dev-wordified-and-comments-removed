@@ -589,6 +589,17 @@ false
 ;
 }
 virtual
+bool
+IsD3DANGLE
+(
+)
+const
+{
+return
+false
+;
+}
+virtual
 void
 GetWSIInfo
 (
