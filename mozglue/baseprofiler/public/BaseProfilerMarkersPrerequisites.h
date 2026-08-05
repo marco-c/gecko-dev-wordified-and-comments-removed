@@ -3490,6 +3490,7 @@ Bytes
 Percentage
 Integer
 Decimal
+Hexadecimal
 Flow
 TerminatingFlow
 }
