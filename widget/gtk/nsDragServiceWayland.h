@@ -7,13 +7,6 @@ nsDragServiceWayland_h_
 #
 include
 "
-nsDragSessionSource
-.
-h
-"
-#
-include
-"
 RetrievalContextWayland
 .
 h
@@ -22,6 +15,13 @@ h
 include
 "
 nsDragService
+.
+h
+"
+#
+include
+"
+nsDragSessionSource
 .
 h
 "
