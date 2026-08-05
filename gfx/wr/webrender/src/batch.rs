@@ -4410,7 +4410,9 @@ prim_instance
 &
 prim_instances
 [
-draw_index
+prim_info
+.
+prim_instance_index
 .
 0
 as
