@@ -474,6 +474,14 @@ WebTransportCloseInfo
 >
 closed
 ;
+readonly
+attribute
+Promise
+<
+undefined
+>
+draining
+;
 [
 Throws
 ]
