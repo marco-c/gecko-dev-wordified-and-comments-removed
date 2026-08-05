@@ -5859,6 +5859,17 @@ IsForModulePreload
 (
 )
 ;
+MOZ_ASSERT_IF
+(
+isPreloadModule
+!
+aHostDefined
+.
+isUndefined
+(
+)
+)
+;
 if
 (
 isPreloadModule
