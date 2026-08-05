@@ -7826,6 +7826,8 @@ engagementEvent
 handleBounceEventTrigger
 (
 browser
+.
+browserId
 )
 ;
 }
@@ -14496,6 +14498,8 @@ engagementEvent
 startTrackingBounceEvent
 (
 browser
+.
+browserId
 event
 {
 result
@@ -37930,6 +37934,8 @@ event
 target
 .
 linkedBrowser
+.
+browserId
 )
 ;
 if
