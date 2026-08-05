@@ -2522,16 +2522,12 @@ SourcePropertiesGetter
 ;
 public
 :
-static
 bool
-loadSource
+tryLoadSource
 (
 JSContext
 *
 cx
-ScriptSource
-*
-ss
 bool
 *
 loaded

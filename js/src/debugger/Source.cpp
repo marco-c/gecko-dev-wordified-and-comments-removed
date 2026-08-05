@@ -1154,13 +1154,12 @@ hasSourceText
 if
 (
 !
-ScriptSource
-:
-:
-loadSource
+ss
+-
+>
+tryLoadSource
 (
 cx_
-ss
 &
 hasSourceText
 )
