@@ -2243,6 +2243,11 @@ _fetchWithAdsClient
 (
 supportedAdTypes
 placements
+state
+.
+Prefs
+.
+values
 returnData
 )
 ;
@@ -2692,6 +2697,12 @@ param
 {
 object
 }
+prefValues
+*
+param
+{
+object
+}
 returnData
 *
 returns
@@ -2708,6 +2719,7 @@ _fetchWithAdsClient
 (
 supportedAdTypes
 placements
+prefValues
 returnData
 )
 {
@@ -2738,6 +2750,7 @@ AdsClient
 .
 requestOptions
 (
+prefValues
 )
 ;
 if
