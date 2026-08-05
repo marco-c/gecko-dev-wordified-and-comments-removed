@@ -77,7 +77,6 @@ import
 {
 SkippableTimer
 UrlbarProvider
-UrlbarUtils
 }
 from
 "
@@ -231,7 +230,9 @@ returns
 Values
 <
 typeof
-UrlbarUtils
+lazy
+.
+UrlbarShared
 .
 PROVIDER_TYPE
 >
@@ -244,7 +245,9 @@ type
 )
 {
 return
-UrlbarUtils
+lazy
+.
+UrlbarShared
 .
 PROVIDER_TYPE
 .
@@ -730,7 +733,9 @@ highlights
 {
 engine
 :
-UrlbarUtils
+lazy
+.
+UrlbarShared
 .
 HIGHLIGHT
 .

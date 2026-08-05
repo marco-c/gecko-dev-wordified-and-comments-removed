@@ -1135,7 +1135,7 @@ must
 be
 one
 of
-UrlbarUtils
+UrlbarShared
 .
 PROVIDER_TYPE
 .
@@ -1146,7 +1146,7 @@ returns
 Values
 <
 typeof
-UrlbarUtils
+UrlbarShared
 .
 PROVIDER_TYPE
 >
@@ -2068,8 +2068,6 @@ searchfox
 }
 UrlbarInput
 .
-sys
-.
 mjs
 <
 browser
@@ -2078,9 +2076,9 @@ components
 /
 urlbar
 /
+content
+/
 UrlbarInput
-.
-sys
 .
 mjs
 >

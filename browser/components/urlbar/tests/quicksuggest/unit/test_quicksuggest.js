@@ -812,7 +812,7 @@ suggestedIndex
 {
 exposureTelemetry
 :
-UrlbarUtils
+UrlbarShared
 .
 EXPOSURE_TELEMETRY
 .
@@ -1554,7 +1554,7 @@ engine
 name
 engineIconUri
 :
-UrlbarUtils
+UrlbarShared
 .
 ICON
 .

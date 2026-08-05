@@ -218,7 +218,9 @@ returns
 Values
 <
 typeof
-UrlbarUtils
+lazy
+.
+UrlbarShared
 .
 PROVIDER_TYPE
 >
@@ -231,7 +233,9 @@ type
 )
 {
 return
-UrlbarUtils
+lazy
+.
+UrlbarShared
 .
 PROVIDER_TYPE
 .
@@ -396,7 +400,9 @@ href
 length
 <
 =
-UrlbarUtils
+lazy
+.
+UrlbarShared
 .
 MAX_TEXT_LENGTH
 )
@@ -815,7 +821,9 @@ inputedURL
 title
 icon
 :
-UrlbarUtils
+lazy
+.
+UrlbarShared
 .
 getIconForUrl
 (
@@ -837,7 +845,9 @@ highlights
 {
 url
 :
-UrlbarUtils
+lazy
+.
+UrlbarShared
 .
 HIGHLIGHT
 .

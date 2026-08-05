@@ -559,7 +559,7 @@ MAX_RESULTS
 1
 )
 /
-UrlbarUtils
+UrlbarShared
 .
 PAGE_UP_DOWN_DELTA
 )
@@ -609,7 +609,7 @@ i
 1
 )
 *
-UrlbarUtils
+UrlbarShared
 .
 PAGE_UP_DOWN_DELTA
 MAX_RESULTS
@@ -754,7 +754,7 @@ MAX_RESULTS
 1
 )
 /
-UrlbarUtils
+UrlbarShared
 .
 PAGE_UP_DOWN_DELTA
 )
@@ -808,7 +808,7 @@ i
 1
 )
 *
-UrlbarUtils
+UrlbarShared
 .
 PAGE_UP_DOWN_DELTA
 0

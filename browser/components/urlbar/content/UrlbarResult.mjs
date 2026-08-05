@@ -380,7 +380,7 @@ typedef
 typeof
 lazy
 .
-UrlbarUtils
+UrlbarShared
 .
 HIGHLIGHT
 }
@@ -671,9 +671,7 @@ source
 autofill
 exposureTelemetry
 =
-lazy
-.
-UrlbarUtils
+UrlbarShared
 .
 EXPOSURE_TELEMETRY
 .
@@ -1470,9 +1468,7 @@ type
 Values
 <
 typeof
-lazy
-.
-UrlbarUtils
+UrlbarShared
 .
 PROVIDER_TYPE
 >
@@ -1800,9 +1796,7 @@ this
 exposureTelemetry
 =
 =
-lazy
-.
-UrlbarUtils
+UrlbarShared
 .
 EXPOSURE_TELEMETRY
 .
@@ -2164,9 +2158,7 @@ URL
 .
 highlightType
 =
-lazy
-.
-UrlbarUtils
+UrlbarShared
 .
 HIGHLIGHT
 .
@@ -2299,9 +2291,7 @@ value
 substring
 (
 0
-lazy
-.
-UrlbarUtils
+UrlbarShared
 .
 MAX_TEXT_LENGTH
 )
@@ -3023,6 +3013,12 @@ this
 .
 #
 suggestedIndex
+testForceNewContent
+:
+this
+.
+#
+testForceNewContent
 payload
 :
 this

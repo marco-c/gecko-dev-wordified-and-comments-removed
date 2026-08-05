@@ -1516,7 +1516,7 @@ engines
 .
 length
 +
-UrlbarUtils
+UrlbarShared
 .
 LOCAL_SEARCH_MODES
 .
@@ -1734,7 +1734,7 @@ i
 ;
 i
 <
-UrlbarUtils
+UrlbarShared
 .
 LOCAL_SEARCH_MODES
 .
@@ -1748,7 +1748,7 @@ i
 let
 shortcut
 =
-UrlbarUtils
+UrlbarShared
 .
 LOCAL_SEARCH_MODES
 [

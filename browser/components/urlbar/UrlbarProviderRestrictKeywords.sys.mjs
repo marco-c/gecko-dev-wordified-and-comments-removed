@@ -78,7 +78,6 @@ mode
 import
 {
 UrlbarProvider
-UrlbarUtils
 }
 from
 "
@@ -241,7 +240,9 @@ returns
 Values
 <
 typeof
-UrlbarUtils
+lazy
+.
+UrlbarShared
 .
 PROVIDER_TYPE
 >
@@ -254,7 +255,9 @@ type
 )
 {
 return
-UrlbarUtils
+lazy
+.
+UrlbarShared
 .
 PROVIDER_TYPE
 .
@@ -413,7 +416,9 @@ entries
 let
 icon
 =
-UrlbarUtils
+lazy
+.
+UrlbarShared
 .
 LOCAL_SEARCH_MODES
 .
@@ -480,7 +485,9 @@ highlights
 {
 l10nRestrictKeywords
 :
-UrlbarUtils
+lazy
+.
+UrlbarShared
 .
 HIGHLIGHT
 .

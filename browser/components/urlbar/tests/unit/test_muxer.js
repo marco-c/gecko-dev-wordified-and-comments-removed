@@ -1603,7 +1603,7 @@ registerBasicTestProvider
 searchSuggestion
 ]
 null
-UrlbarUtils
+UrlbarShared
 .
 PROVIDER_TYPE
 .
@@ -1670,7 +1670,7 @@ registerBasicTestProvider
 unitConversionSuggestion
 ]
 null
-UrlbarUtils
+UrlbarShared
 .
 PROVIDER_TYPE
 .
@@ -1956,7 +1956,7 @@ children
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -1967,7 +1967,7 @@ HEURISTIC_TEST
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -2005,7 +2005,7 @@ children
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -2016,7 +2016,7 @@ HEURISTIC_TEST
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -2053,7 +2053,7 @@ maxResultCount
 2
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -2062,7 +2062,7 @@ HEURISTIC_TEST
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -2096,7 +2096,7 @@ doBadHeuristicGroupsTest
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -2105,7 +2105,7 @@ HEURISTIC_TEST
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -2146,7 +2146,7 @@ children
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -2157,7 +2157,7 @@ HEURISTIC_TEST
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -2173,7 +2173,7 @@ children
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -2213,7 +2213,7 @@ children
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -2224,7 +2224,7 @@ HEURISTIC_TEST
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -2237,7 +2237,7 @@ children
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -2276,7 +2276,7 @@ maxResultCount
 1
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -2285,7 +2285,7 @@ HEURISTIC_TEST
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -2297,7 +2297,7 @@ maxResultCount
 1
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -2331,7 +2331,7 @@ doBadHeuristicGroupsTest
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -2340,7 +2340,7 @@ HEURISTIC_TEST
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -2349,7 +2349,7 @@ GENERAL
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -2383,7 +2383,7 @@ doBadHeuristicGroupsTest
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -2399,7 +2399,7 @@ children
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -2434,7 +2434,7 @@ doBadHeuristicGroupsTest
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -2447,7 +2447,7 @@ children
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -2482,7 +2482,7 @@ doBadHeuristicGroupsTest
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -2494,7 +2494,7 @@ maxResultCount
 1
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -2527,7 +2527,7 @@ doBadHeuristicGroupsTest
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -2536,7 +2536,7 @@ GENERAL
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -2572,7 +2572,7 @@ maxResultCount
 1
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -2581,7 +2581,7 @@ GENERAL
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -2590,7 +2590,7 @@ HEURISTIC_TEST
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .

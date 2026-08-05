@@ -1292,7 +1292,7 @@ window
 )
 !
 =
-UrlbarUtils
+UrlbarShared
 .
 ICON
 .

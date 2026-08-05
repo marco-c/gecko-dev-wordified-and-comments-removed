@@ -76,7 +76,7 @@ highlights
 {
 url
 :
-UrlbarUtils
+UrlbarShared
 .
 HIGHLIGHT
 .

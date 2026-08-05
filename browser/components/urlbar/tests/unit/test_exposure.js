@@ -243,7 +243,7 @@ suggestedIndex
 )
 exposureTelemetry
 :
-UrlbarUtils
+UrlbarShared
 .
 EXPOSURE_TELEMETRY
 .
@@ -330,7 +330,7 @@ wikipediaResult
 )
 exposureTelemetry
 :
-UrlbarUtils
+UrlbarShared
 .
 EXPOSURE_TELEMETRY
 .
@@ -423,7 +423,7 @@ suggestedIndex
 )
 exposureTelemetry
 :
-UrlbarUtils
+UrlbarShared
 .
 EXPOSURE_TELEMETRY
 .
@@ -510,7 +510,7 @@ wikipediaResult
 )
 exposureTelemetry
 :
-UrlbarUtils
+UrlbarShared
 .
 EXPOSURE_TELEMETRY
 .
@@ -617,7 +617,7 @@ suggestedIndex
 )
 exposureTelemetry
 :
-UrlbarUtils
+UrlbarShared
 .
 EXPOSURE_TELEMETRY
 .
@@ -718,7 +718,7 @@ wikipediaResult
 )
 exposureTelemetry
 :
-UrlbarUtils
+UrlbarShared
 .
 EXPOSURE_TELEMETRY
 .
@@ -833,7 +833,7 @@ suggestedIndex
 )
 exposureTelemetry
 :
-UrlbarUtils
+UrlbarShared
 .
 EXPOSURE_TELEMETRY
 .
@@ -940,7 +940,7 @@ suggestedIndex
 )
 exposureTelemetry
 :
-UrlbarUtils
+UrlbarShared
 .
 EXPOSURE_TELEMETRY
 .
@@ -1041,7 +1041,7 @@ wikipediaResult
 )
 exposureTelemetry
 :
-UrlbarUtils
+UrlbarShared
 .
 EXPOSURE_TELEMETRY
 .
@@ -1152,7 +1152,7 @@ keyword
 )
 exposureTelemetry
 :
-UrlbarUtils
+UrlbarShared
 .
 EXPOSURE_TELEMETRY
 .
@@ -1176,7 +1176,7 @@ suggestedIndex
 )
 exposureTelemetry
 :
-UrlbarUtils
+UrlbarShared
 .
 EXPOSURE_TELEMETRY
 .

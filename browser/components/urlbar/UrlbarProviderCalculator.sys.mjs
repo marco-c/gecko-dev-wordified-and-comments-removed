@@ -80,7 +80,6 @@ mjs
 import
 {
 UrlbarProvider
-UrlbarUtils
 }
 from
 "
@@ -585,7 +584,9 @@ returns
 Values
 <
 typeof
-UrlbarUtils
+lazy
+.
+UrlbarShared
 .
 PROVIDER_TYPE
 >
@@ -598,7 +599,9 @@ type
 )
 {
 return
-UrlbarUtils
+lazy
+.
+UrlbarShared
 .
 PROVIDER_TYPE
 .
