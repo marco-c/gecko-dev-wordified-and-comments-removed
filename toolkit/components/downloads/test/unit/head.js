@@ -1643,6 +1643,9 @@ function
 promiseDownloadMidway
 (
 aDownload
+aProgress
+=
+50
 )
 {
 return
@@ -1679,7 +1682,7 @@ aDownload
 progress
 =
 =
-50
+aProgress
 )
 {
 aDownload
