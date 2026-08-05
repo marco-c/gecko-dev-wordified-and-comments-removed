@@ -293,12 +293,10 @@ aMessage
 )
 ;
 async
-NotifyCompositorScrollUpdates
+NotifyCompositorScrollUpdate
 (
 CompositorScrollUpdate
-[
-]
-aUpdates
+aUpdate
 )
 ;
 async

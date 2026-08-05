@@ -5549,11 +5549,9 @@ Windows
 }
 virtual
 void
-NotifyCompositorScrollUpdates
+NotifyCompositorScrollUpdate
 (
 const
-nsTArray
-<
 mozilla
 :
 :
@@ -5561,9 +5559,8 @@ layers
 :
 :
 CompositorScrollUpdate
->
 &
-aUpdates
+aUpdate
 )
 {
 }
