@@ -259,5 +259,5 @@ const
 val
 FIREFOX_LABS
 =
-false
+true
 }
