@@ -5145,7 +5145,7 @@ mHDRMetadata
 >
 mContentLightLevel
 .
-isNothing
+isSome
 (
 )
 )
@@ -5254,7 +5254,7 @@ mHDRMetadata
 >
 mSmpte2086
 .
-isNothing
+isSome
 (
 )
 )
