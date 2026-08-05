@@ -16781,6 +16781,15 @@ url
 properties
 :
 {
+bookmarkDateMs
+:
+{
+type
+:
+"
+number
+"
+}
 icon
 :
 {

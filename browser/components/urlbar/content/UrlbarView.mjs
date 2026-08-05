@@ -12364,9 +12364,6 @@ explanationBookmarked
 let
 hasBookmark
 =
-setURL
-&
-&
 !
 !
 result
