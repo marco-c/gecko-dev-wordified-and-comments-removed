@@ -757,6 +757,13 @@ html
 ]
 [
 "
+browser_mailto_user_activation
+.
+js
+"
+]
+[
+"
 browser_open_internal_choice_persistence
 .
 js

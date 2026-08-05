@@ -101,7 +101,7 @@ gBrowser
 let
 dialogWindowPromise
 =
-waitForProtocolAppChooserDialog
+waitForProtocolPermissionDialog
 (
 tab
 .
@@ -149,7 +149,7 @@ interaction
 let
 dialogClosedPromise
 =
-waitForProtocolAppChooserDialog
+waitForProtocolPermissionDialog
 (
 tab
 .
