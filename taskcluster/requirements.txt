@@ -4068,9 +4068,9 @@ mozilla
 taskgraph
 =
 =
-4
+5
 .
-4
+0
 .
 0
 \
@@ -4080,7 +4080,7 @@ hash
 =
 sha256
 :
-7e8cad5e63ac40ef8669875a1a696e4347fae8edc69f7d4bb2ad6809aedf31d5
+2429a88db8efa6f190ba15867ff526a93c8534015ec9bbfcd648e1fbed996104
 \
 -
 -
@@ -4088,7 +4088,7 @@ hash
 =
 sha256
 :
-a758f775d6a413c283d854764f6955929fdd1268a7d68c33fdaf970614558634
+b7e0586e0a5dad8e9ffd8de6aac56e56ca2f52faa8c89fbbd4dcf2d924e00058
 #
 via
 -
