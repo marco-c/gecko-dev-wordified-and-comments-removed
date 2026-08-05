@@ -601,6 +601,11 @@ mIsCreatedMediaEngine
 false
 ;
 bool
+mIsMediaEngineInitialized
+=
+false
+;
+bool
 mDCompModeEnabled
 =
 false
