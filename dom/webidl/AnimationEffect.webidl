@@ -332,6 +332,9 @@ ComputedEffectTiming
 EffectTiming
 {
 CSSNumberish
+startTime
+;
+CSSNumberish
 endTime
 ;
 CSSNumberish
