@@ -2448,6 +2448,13 @@ mb_rows
 }
 #
 endif
+pbi
+-
+>
+decoded_key_frame
+=
+0
+;
 if
 (
 vp8_alloc_frame_buffers
