@@ -4773,9 +4773,9 @@ WordSized
 rhs
 :
 WordSized
-call_instruction
+num_temps
 :
-true
+2
 mir_op
 :
 Mod
