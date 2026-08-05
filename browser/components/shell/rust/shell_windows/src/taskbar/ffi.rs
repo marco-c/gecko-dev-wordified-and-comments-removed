@@ -48,7 +48,7 @@ crate
 util
 :
 :
-thread
+thread_guard
 ;
 #
 [
@@ -75,7 +75,7 @@ let
 main_guard
 =
 match
-thread
+thread_guard
 :
 :
 get_main_thread_guard
@@ -188,7 +188,7 @@ let
 main_guard
 =
 match
-thread
+thread_guard
 :
 :
 get_main_thread_guard
@@ -379,7 +379,7 @@ let
 main_guard
 =
 match
-thread
+thread_guard
 :
 :
 get_main_thread_guard
