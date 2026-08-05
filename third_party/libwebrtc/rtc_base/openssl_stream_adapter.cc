@@ -5390,6 +5390,17 @@ ssl_ctx_
 nullptr
 ;
 }
+#
+ifdef
+OPENSSL_IS_BORINGSSL
+clock_for_testing_
+.
+reset
+(
+)
+;
+#
+endif
 identity_
 .
 reset
