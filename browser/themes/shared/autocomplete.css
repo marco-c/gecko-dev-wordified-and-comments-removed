@@ -185,6 +185,13 @@ autocomplete
 row
 -
 item
+:
+not
+(
+[
+subfocused
+]
+)
 {
 border
 -

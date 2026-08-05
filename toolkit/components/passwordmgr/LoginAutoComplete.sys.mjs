@@ -891,6 +891,14 @@ type
 "
 edit
 "
+label
+:
+getLocalizedString
+(
+"
+autocompleteEditLogin
+"
+)
 fillMessageName
 :
 "
