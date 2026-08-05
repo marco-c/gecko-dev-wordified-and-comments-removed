@@ -275,11 +275,10 @@ Acquire
 ;
 masm
 .
-andi
+zext_b
 (
 scratch
 reg
-0xFF
 )
 ;
 masm

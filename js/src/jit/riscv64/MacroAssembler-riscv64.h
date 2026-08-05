@@ -3027,11 +3027,10 @@ Register
 dest
 )
 {
-andi
+zext_b
 (
 dest
 src
-0xff
 )
 ;
 }
