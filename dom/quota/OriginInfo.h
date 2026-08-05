@@ -56,6 +56,9 @@ class
 GroupInfo
 ;
 class
+OriginUpserter
+;
+class
 OriginInfo
 final
 :
