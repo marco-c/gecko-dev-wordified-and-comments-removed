@@ -138,7 +138,7 @@ pub
 fn
 datastore_filename
 (
-collection_name
+dek_name
 :
 &
 str
@@ -155,7 +155,7 @@ format
 DATASTORE_FILENAME_PREFIX
 }
 {
-collection_name
+dek_name
 }
 {
 DATASTORE_FILENAME_SUFFIX

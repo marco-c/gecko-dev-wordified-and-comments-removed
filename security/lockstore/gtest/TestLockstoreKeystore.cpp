@@ -654,10 +654,10 @@ MintLocalKek
 ;
 const
 nsCString
-coll
+dekName
 (
 "
-mycoll
+mydek
 "
 )
 ;
@@ -667,7 +667,7 @@ keystore_create_dek
 (
 mKeystore
 &
-coll
+dekName
 &
 mLocalKekRef
 false
@@ -683,7 +683,7 @@ nsTArray
 <
 nsCString
 >
-collections
+dekNames
 ;
 rv
 =
@@ -691,7 +691,7 @@ keystore_list_deks
 (
 mKeystore
 &
-collections
+dekNames
 )
 ;
 ASSERT_NS_SUCCEEDED
@@ -701,7 +701,7 @@ rv
 ;
 ASSERT_EQ
 (
-collections
+dekNames
 .
 Length
 (
@@ -711,18 +711,18 @@ Length
 ;
 EXPECT_EQ
 (
-collections
+dekNames
 [
 0
 ]
-coll
+dekName
 )
 ;
 }
 TEST_F
 (
 LockstoreKeystoreTest
-CreateDekEmptyCollection
+CreateDekEmptyDekName
 )
 {
 nsresult
@@ -796,7 +796,7 @@ MintLocalKek
 ;
 const
 nsCString
-coll
+dekName
 (
 "
 dup
@@ -809,7 +809,7 @@ keystore_create_dek
 (
 mKeystore
 &
-coll
+dekName
 &
 mLocalKekRef
 false
@@ -827,7 +827,7 @@ keystore_create_dek
 (
 mKeystore
 &
-coll
+dekName
 &
 mLocalKekRef
 false
@@ -869,7 +869,7 @@ MintLocalKek
 ;
 const
 nsCString
-coll
+dekName
 (
 "
 extract
@@ -882,7 +882,7 @@ keystore_create_dek
 (
 mKeystore
 &
-coll
+dekName
 &
 mLocalKekRef
 true
@@ -906,7 +906,7 @@ keystore_get_dek
 (
 mKeystore
 &
-coll
+dekName
 &
 mLocalKekRef
 &
@@ -932,7 +932,7 @@ Length
 TEST_F
 (
 LockstoreKeystoreTest
-GetDekEmptyCollection
+GetDekEmptyDekName
 )
 {
 nsresult
@@ -1012,7 +1012,7 @@ MintLocalKek
 ;
 const
 nsCString
-coll
+dekName
 (
 "
 nosuch
@@ -1031,7 +1031,7 @@ keystore_get_dek
 (
 mKeystore
 &
-coll
+dekName
 &
 mLocalKekRef
 &
@@ -1073,7 +1073,7 @@ MintLocalKek
 ;
 const
 nsCString
-coll
+dekName
 (
 "
 noextract
@@ -1086,7 +1086,7 @@ keystore_create_dek
 (
 mKeystore
 &
-coll
+dekName
 &
 mLocalKekRef
 false
@@ -1110,7 +1110,7 @@ keystore_get_dek
 (
 mKeystore
 &
-coll
+dekName
 &
 mLocalKekRef
 &
@@ -1152,7 +1152,7 @@ MintLocalKek
 ;
 const
 nsCString
-coll
+dekName
 (
 "
 todelete
@@ -1165,7 +1165,7 @@ keystore_create_dek
 (
 mKeystore
 &
-coll
+dekName
 &
 mLocalKekRef
 false
@@ -1183,7 +1183,7 @@ keystore_delete_dek
 (
 mKeystore
 &
-coll
+dekName
 )
 ;
 ASSERT_NS_SUCCEEDED
@@ -1195,7 +1195,7 @@ nsTArray
 <
 nsCString
 >
-collections
+dekNames
 ;
 rv
 =
@@ -1203,7 +1203,7 @@ keystore_list_deks
 (
 mKeystore
 &
-collections
+dekNames
 )
 ;
 ASSERT_NS_SUCCEEDED
@@ -1213,7 +1213,7 @@ rv
 ;
 EXPECT_EQ
 (
-collections
+dekNames
 .
 Length
 (
@@ -1225,7 +1225,7 @@ Length
 TEST_F
 (
 LockstoreKeystoreTest
-DeleteDekEmptyCollection
+DeleteDekEmptyDekName
 )
 {
 nsresult
@@ -1295,7 +1295,7 @@ MintLocalKek
 ;
 const
 nsCString
-coll
+dekName
 (
 "
 nosuch
@@ -1308,7 +1308,7 @@ keystore_delete_dek
 (
 mKeystore
 &
-coll
+dekName
 )
 ;
 ASSERT_EQ
@@ -1321,7 +1321,7 @@ NS_ERROR_NOT_AVAILABLE
 TEST_F
 (
 LockstoreKeystoreTest
-ListCollectionsEmpty
+ListDekNamesEmpty
 )
 {
 nsresult
@@ -1348,7 +1348,7 @@ nsTArray
 <
 nsCString
 >
-collections
+dekNames
 ;
 rv
 =
@@ -1356,7 +1356,7 @@ keystore_list_deks
 (
 mKeystore
 &
-collections
+dekNames
 )
 ;
 ASSERT_NS_SUCCEEDED
@@ -1366,7 +1366,7 @@ rv
 ;
 EXPECT_EQ
 (
-collections
+dekNames
 .
 Length
 (
@@ -1378,7 +1378,7 @@ Length
 TEST_F
 (
 LockstoreKeystoreTest
-ListMultipleCollections
+ListMultipleDekNames
 )
 {
 nsresult
@@ -1486,7 +1486,7 @@ nsTArray
 <
 nsCString
 >
-collections
+dekNames
 ;
 rv
 =
@@ -1494,7 +1494,7 @@ keystore_list_deks
 (
 mKeystore
 &
-collections
+dekNames
 )
 ;
 ASSERT_NS_SUCCEEDED
@@ -1504,7 +1504,7 @@ rv
 ;
 ASSERT_EQ
 (
-collections
+dekNames
 .
 Length
 (
@@ -1514,7 +1514,7 @@ Length
 ;
 EXPECT_TRUE
 (
-collections
+dekNames
 .
 Contains
 (
@@ -1524,7 +1524,7 @@ alpha
 ;
 EXPECT_TRUE
 (
-collections
+dekNames
 .
 Contains
 (
@@ -1534,7 +1534,7 @@ beta
 ;
 EXPECT_TRUE
 (
-collections
+dekNames
 .
 Contains
 (
@@ -1571,7 +1571,7 @@ MintLocalKek
 ;
 const
 nsCString
-coll
+dekName
 (
 "
 persist
@@ -1584,7 +1584,7 @@ keystore_create_dek
 (
 mKeystore
 &
-coll
+dekName
 &
 mLocalKekRef
 false
@@ -1627,7 +1627,7 @@ nsTArray
 <
 nsCString
 >
-collections
+dekNames
 ;
 rv
 =
@@ -1635,7 +1635,7 @@ keystore_list_deks
 (
 mKeystore
 &
-collections
+dekNames
 )
 ;
 ASSERT_NS_SUCCEEDED
@@ -1645,7 +1645,7 @@ rv
 ;
 ASSERT_EQ
 (
-collections
+dekNames
 .
 Length
 (
@@ -1655,18 +1655,18 @@ Length
 ;
 EXPECT_EQ
 (
-collections
+dekNames
 [
 0
 ]
-coll
+dekName
 )
 ;
 }
 TEST_F
 (
 LockstoreKeystoreTest
-AddKekEmptyCollection
+AddKekEmptyDekName
 )
 {
 nsresult
@@ -1715,7 +1715,7 @@ NS_ERROR_INVALID_ARG
 TEST_F
 (
 LockstoreKeystoreTest
-AddKekNonexistentCollection
+AddKekNonexistentDekName
 )
 {
 nsresult
@@ -1740,7 +1740,7 @@ MintLocalKek
 ;
 const
 nsCString
-coll
+dekName
 (
 "
 nosuch
@@ -1753,7 +1753,7 @@ keystore_add_kek
 (
 mKeystore
 &
-coll
+dekName
 &
 mLocalKekRef
 &
@@ -1795,7 +1795,7 @@ MintLocalKek
 ;
 const
 nsCString
-coll
+dekName
 (
 "
 adddup
@@ -1808,7 +1808,7 @@ keystore_create_dek
 (
 mKeystore
 &
-coll
+dekName
 &
 mLocalKekRef
 false
@@ -1826,7 +1826,7 @@ keystore_add_kek
 (
 mKeystore
 &
-coll
+dekName
 &
 mLocalKekRef
 &
@@ -1843,7 +1843,7 @@ NS_ERROR_FAILURE
 TEST_F
 (
 LockstoreKeystoreTest
-RemoveKekEmptyCollection
+RemoveKekEmptyDekName
 )
 {
 nsresult
@@ -1890,7 +1890,7 @@ NS_ERROR_INVALID_ARG
 TEST_F
 (
 LockstoreKeystoreTest
-RemoveKekNonexistentCollection
+RemoveKekNonexistentDekName
 )
 {
 nsresult
@@ -1915,7 +1915,7 @@ MintLocalKek
 ;
 const
 nsCString
-coll
+dekName
 (
 "
 nosuch
@@ -1928,7 +1928,7 @@ keystore_remove_kek
 (
 mKeystore
 &
-coll
+dekName
 &
 mLocalKekRef
 )
@@ -1968,7 +1968,7 @@ MintLocalKek
 ;
 const
 nsCString
-coll
+dekName
 (
 "
 removelast
@@ -1981,7 +1981,7 @@ keystore_create_dek
 (
 mKeystore
 &
-coll
+dekName
 &
 mLocalKekRef
 false
@@ -1999,7 +1999,7 @@ keystore_remove_kek
 (
 mKeystore
 &
-coll
+dekName
 &
 mLocalKekRef
 )
@@ -2039,7 +2039,7 @@ MintLocalKek
 ;
 const
 nsCString
-coll
+dekName
 (
 "
 crypto
@@ -2052,7 +2052,7 @@ keystore_create_dek
 (
 mKeystore
 &
-coll
+dekName
 &
 mLocalKekRef
 false
@@ -2100,7 +2100,7 @@ keystore_encrypt
 (
 mKeystore
 &
-coll
+dekName
 &
 mLocalKekRef
 plaintext
@@ -2142,7 +2142,7 @@ keystore_decrypt
 (
 mKeystore
 &
-coll
+dekName
 &
 mLocalKekRef
 ciphertext
@@ -2199,7 +2199,7 @@ plaintext
 TEST_F
 (
 LockstoreKeystoreTest
-EncryptEmptyCollection
+EncryptEmptyDekName
 )
 {
 nsresult
@@ -2271,7 +2271,7 @@ NS_ERROR_INVALID_ARG
 TEST_F
 (
 LockstoreKeystoreTest
-EncryptUnknownCollection
+EncryptUnknownDekName
 )
 {
 nsresult
@@ -2296,7 +2296,7 @@ MintLocalKek
 ;
 const
 nsCString
-coll
+dekName
 (
 "
 nosuch
@@ -2327,7 +2327,7 @@ keystore_encrypt
 (
 mKeystore
 &
-coll
+dekName
 &
 mLocalKekRef
 plaintext
@@ -2374,7 +2374,7 @@ MintLocalKek
 ;
 const
 nsCString
-coll
+dekName
 (
 "
 decempty
@@ -2387,7 +2387,7 @@ keystore_create_dek
 (
 mKeystore
 &
-coll
+dekName
 &
 mLocalKekRef
 false
@@ -2411,7 +2411,7 @@ keystore_decrypt
 (
 mKeystore
 &
-coll
+dekName
 &
 mLocalKekRef
 nullptr
@@ -2809,7 +2809,7 @@ pwKekRef
 ;
 const
 nsCString
-coll
+dekName
 (
 "
 pwlocked
@@ -2822,7 +2822,7 @@ keystore_create_dek
 (
 mKeystore
 &
-coll
+dekName
 &
 pwKekRef
 false
@@ -2903,7 +2903,7 @@ MintLocalKek
 ;
 const
 nsCString
-coll
+dekName
 (
 "
 imported
@@ -2957,7 +2957,7 @@ keystore_import_dek
 (
 mKeystore
 &
-coll
+dekName
 &
 mLocalKekRef
 dek
@@ -2985,7 +2985,7 @@ keystore_get_dek
 (
 mKeystore
 &
-coll
+dekName
 &
 mLocalKekRef
 &
@@ -3071,7 +3071,7 @@ MintLocalKek
 ;
 const
 nsCString
-coll
+dekName
 (
 "
 badlen
@@ -3094,7 +3094,7 @@ keystore_import_dek
 (
 mKeystore
 &
-coll
+dekName
 &
 mLocalKekRef
 shortDek
@@ -3115,7 +3115,7 @@ NS_ERROR_FAILURE
 TEST_F
 (
 LockstoreKeystoreTest
-ImportDekEmptyCollection
+ImportDekEmptyDekName
 )
 {
 nsresult
@@ -3203,7 +3203,7 @@ MintLocalKek
 ;
 const
 nsCString
-coll
+dekName
 (
 "
 dup
@@ -3226,7 +3226,7 @@ keystore_import_dek
 (
 mKeystore
 &
-coll
+dekName
 &
 mLocalKekRef
 dek
@@ -3248,7 +3248,7 @@ keystore_import_dek
 (
 mKeystore
 &
-coll
+dekName
 &
 mLocalKekRef
 dek
@@ -3294,7 +3294,7 @@ MintLocalKek
 ;
 const
 nsCString
-coll
+dekName
 (
 "
 extract
@@ -3309,7 +3309,7 @@ keystore_create_dek
 (
 mKeystore
 &
-coll
+dekName
 &
 mLocalKekRef
 true
@@ -3332,7 +3332,7 @@ keystore_is_dek_extractable
 (
 mKeystore
 &
-coll
+dekName
 &
 extractable
 )
@@ -3376,7 +3376,7 @@ MintLocalKek
 ;
 const
 nsCString
-coll
+dekName
 (
 "
 extract
@@ -3391,7 +3391,7 @@ keystore_create_dek
 (
 mKeystore
 &
-coll
+dekName
 &
 mLocalKekRef
 false
@@ -3414,7 +3414,7 @@ keystore_is_dek_extractable
 (
 mKeystore
 &
-coll
+dekName
 &
 extractable
 )
@@ -3433,7 +3433,7 @@ extractable
 TEST_F
 (
 LockstoreKeystoreTest
-IsDekExtractableMissingCollection
+IsDekExtractableMissingDekName
 )
 {
 nsresult
@@ -3458,7 +3458,7 @@ MintLocalKek
 ;
 const
 nsCString
-coll
+dekName
 (
 "
 nope
@@ -3476,7 +3476,7 @@ keystore_is_dek_extractable
 (
 mKeystore
 &
-coll
+dekName
 &
 extractable
 )
@@ -3491,7 +3491,7 @@ NS_ERROR_NOT_AVAILABLE
 TEST_F
 (
 LockstoreKeystoreTest
-IsDekExtractableEmptyCollection
+IsDekExtractableEmptyDekName
 )
 {
 nsresult
@@ -3571,7 +3571,7 @@ empty
 ;
 const
 nsCString
-coll
+dekName
 (
 "
 col
@@ -3603,7 +3603,7 @@ keystore_switch_kek
 (
 mKeystore
 &
-coll
+dekName
 &
 empty
 &
@@ -3622,7 +3622,7 @@ keystore_switch_kek
 (
 mKeystore
 &
-coll
+dekName
 &
 mLocalKekRef
 &
@@ -3664,7 +3664,7 @@ MintLocalKek
 ;
 const
 nsCString
-coll
+dekName
 (
 "
 col
@@ -3677,7 +3677,7 @@ keystore_create_dek
 (
 mKeystore
 &
-coll
+dekName
 &
 mLocalKekRef
 false
@@ -3695,7 +3695,7 @@ keystore_switch_kek
 (
 mKeystore
 &
-coll
+dekName
 &
 mLocalKekRef
 &
@@ -3712,7 +3712,7 @@ NS_ERROR_FAILURE
 TEST_F
 (
 LockstoreKeystoreTest
-SwitchKekNonexistentCollection
+SwitchKekNonexistentDekName
 )
 {
 nsresult
@@ -3737,7 +3737,7 @@ MintLocalKek
 ;
 const
 nsCString
-coll
+dekName
 (
 "
 nope
@@ -3790,7 +3790,7 @@ keystore_switch_kek
 (
 mKeystore
 &
-coll
+dekName
 &
 mLocalKekRef
 &
@@ -3832,7 +3832,7 @@ MintLocalKek
 ;
 const
 nsCString
-coll
+dekName
 (
 "
 local
@@ -3847,7 +3847,7 @@ keystore_create_dek
 (
 mKeystore
 &
-coll
+dekName
 &
 mLocalKekRef
 false
@@ -3905,7 +3905,7 @@ keystore_switch_kek
 (
 mKeystore
 &
-coll
+dekName
 &
 otherLocal
 &

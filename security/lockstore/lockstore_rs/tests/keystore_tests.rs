@@ -182,7 +182,7 @@ DEK
 )
 ;
 let
-collections
+dek_names
 =
 keystore
 .
@@ -202,7 +202,7 @@ list
 assert_eq
 !
 (
-collections
+dek_names
 vec
 !
 [
@@ -403,7 +403,7 @@ delete
 )
 ;
 let
-collections
+dek_names
 =
 keystore
 .
@@ -423,7 +423,7 @@ list
 assert
 !
 (
-collections
+dek_names
 .
 is_empty
 (
@@ -1136,7 +1136,7 @@ keystore
 )
 ;
 let
-collections
+dek_names
 =
 keystore
 .
@@ -1156,7 +1156,7 @@ list
 assert
 !
 (
-collections
+dek_names
 .
 is_empty
 (
@@ -1232,7 +1232,7 @@ DEK
 )
 ;
 let
-collections
+dek_names
 =
 keystore
 .
@@ -1252,7 +1252,7 @@ list
 assert_eq
 !
 (
-collections
+dek_names
 vec
 !
 [
@@ -1377,7 +1377,7 @@ DEK
 )
 ;
 let
-collections
+dek_names
 =
 keystore
 .
@@ -1397,7 +1397,7 @@ list
 assert_eq
 !
 (
-collections
+dek_names
 .
 len
 (
@@ -1408,7 +1408,7 @@ len
 assert
 !
 (
-collections
+dek_names
 .
 contains
 (
@@ -1426,7 +1426,7 @@ to_string
 assert
 !
 (
-collections
+dek_names
 .
 contains
 (
@@ -1444,7 +1444,7 @@ to_string
 assert
 !
 (
-collections
+dek_names
 .
 contains
 (
@@ -1569,7 +1569,7 @@ delete
 )
 ;
 let
-collections
+dek_names
 =
 keystore
 .
@@ -1589,7 +1589,7 @@ list
 assert_eq
 !
 (
-collections
+dek_names
 vec
 !
 [
@@ -2025,7 +2025,7 @@ close
 test
 ]
 fn
-test_get_dek_missing_collection
+test_get_dek_missing_dek_name
 (
 )
 {
@@ -2104,7 +2104,7 @@ close
 test
 ]
 fn
-test_is_dek_extractable_missing_collection
+test_is_dek_extractable_missing_dek_name
 (
 )
 {
@@ -2305,7 +2305,7 @@ DEK
 )
 ;
 let
-collections
+dek_names
 =
 keystore
 .
@@ -2325,7 +2325,7 @@ list
 assert_eq
 !
 (
-collections
+dek_names
 vec
 !
 [
@@ -2743,7 +2743,7 @@ keystore
 )
 ;
 let
-collections
+dek_names
 =
 keystore
 .
@@ -2763,7 +2763,7 @@ list
 assert_eq
 !
 (
-collections
+dek_names
 .
 len
 (
@@ -2774,7 +2774,7 @@ len
 assert
 !
 (
-collections
+dek_names
 .
 contains
 (
@@ -2792,7 +2792,7 @@ to_string
 assert
 !
 (
-collections
+dek_names
 .
 contains
 (
@@ -2810,7 +2810,7 @@ to_string
 assert
 !
 (
-collections
+dek_names
 .
 contains
 (
@@ -3022,7 +3022,7 @@ _
 )
 ;
 let
-collections
+dek_names
 =
 keystore
 .
@@ -3042,7 +3042,7 @@ list
 assert
 !
 (
-collections
+dek_names
 .
 is_empty
 (
@@ -4669,7 +4669,7 @@ close
 test
 ]
 fn
-test_encrypt_missing_collection
+test_encrypt_missing_dek_name
 (
 )
 {
@@ -4753,7 +4753,7 @@ close
 test
 ]
 fn
-test_encrypt_unknown_kek_ref_on_existing_collection
+test_encrypt_unknown_kek_ref_on_existing_dek_name
 (
 )
 {
@@ -6751,7 +6751,7 @@ open
 )
 ;
 let
-collections
+dek_names
 =
 b
 .
@@ -6772,7 +6772,7 @@ handle
 assert
 !
 (
-collections
+dek_names
 .
 contains
 (
@@ -7105,7 +7105,7 @@ close
 test
 ]
 fn
-test_import_dek_rejects_existing_collection
+test_import_dek_rejects_existing_dek_name
 (
 )
 {
@@ -7567,7 +7567,7 @@ kek_ref
 should
 wrap
 the
-collection
+dek_name
 after
 switch
 "
@@ -7655,7 +7655,7 @@ no
 longer
 wraps
 the
-collection
+dek_name
 "
 )
 ;

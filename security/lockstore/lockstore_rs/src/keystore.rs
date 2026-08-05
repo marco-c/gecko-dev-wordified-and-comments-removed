@@ -418,7 +418,7 @@ to_string
 )
 ;
 let
-collections
+dek_names
 =
 reader
 .
@@ -595,7 +595,7 @@ Database
 ;
 Ok
 (
-collections
+dek_names
 )
 }
 fn
@@ -603,7 +603,7 @@ load_metadata
 (
 &
 self
-collection_name
+dek_name
 :
 &
 str
@@ -627,7 +627,7 @@ format
 DEK_PREFIX
 }
 {
-collection_name
+dek_name
 }
 "
 )
@@ -701,10 +701,10 @@ DEK
 not
 found
 for
-collection
+dek_name
 :
 {
-collection_name
+dek_name
 }
 "
 )
@@ -744,7 +744,7 @@ save_metadata
 (
 &
 self
-collection_name
+dek_name
 :
 &
 str
@@ -773,7 +773,7 @@ format
 DEK_PREFIX
 }
 {
-collection_name
+dek_name
 }
 "
 )
@@ -1343,7 +1343,7 @@ create_dek
 (
 &
 self
-collection_name
+dek_name
 :
 &
 str
@@ -1371,7 +1371,7 @@ self
 .
 create_dek_with_cipher
 (
-collection_name
+dek_name
 kek_ref
 extractable
 DEFAULT_CIPHER_SUITE
@@ -1384,7 +1384,7 @@ create_dek_with_cipher
 (
 &
 self
-collection_name
+dek_name
 :
 &
 str
@@ -1489,7 +1489,7 @@ format
 DEK_PREFIX
 }
 {
-collection_name
+dek_name
 }
 "
 )
@@ -1566,10 +1566,10 @@ DEK
 already
 exists
 for
-collection
+dek_name
 :
 {
-collection_name
+dek_name
 }
 "
 )
@@ -1656,7 +1656,7 @@ conn
 .
 save_metadata
 (
-collection_name
+dek_name
 &
 metadata
 )
@@ -1667,7 +1667,7 @@ import_dek
 (
 &
 self
-collection_name
+dek_name
 :
 &
 str
@@ -1793,7 +1793,7 @@ format
 DEK_PREFIX
 }
 {
-collection_name
+dek_name
 }
 "
 )
@@ -1870,10 +1870,10 @@ DEK
 already
 exists
 for
-collection
+dek_name
 :
 {
-collection_name
+dek_name
 }
 "
 )
@@ -1948,7 +1948,7 @@ conn
 .
 save_metadata
 (
-collection_name
+dek_name
 &
 metadata
 )
@@ -1962,7 +1962,7 @@ get_dek_internal
 (
 &
 self
-collection_name
+dek_name
 :
 &
 str
@@ -2015,7 +2015,7 @@ conn
 .
 load_metadata
 (
-collection_name
+dek_name
 )
 ?
 ;
@@ -2060,10 +2060,10 @@ format
 No
 DEK
 for
-collection
+dek_name
 '
 {
-collection_name
+dek_name
 }
 '
 with
@@ -2147,7 +2147,7 @@ key_size
 {
 }
 for
-collection
+dek_name
 '
 {
 }
@@ -2161,7 +2161,7 @@ len
 metadata
 .
 key_size
-collection_name
+dek_name
 )
 )
 )
@@ -2186,7 +2186,7 @@ is_dek_extractable
 (
 &
 self
-collection_name
+dek_name
 :
 &
 str
@@ -2216,7 +2216,7 @@ conn
 .
 load_metadata
 (
-collection_name
+dek_name
 )
 ?
 ;
@@ -2233,7 +2233,7 @@ get_dek
 (
 &
 self
-collection_name
+dek_name
 :
 &
 str
@@ -2265,7 +2265,7 @@ self
 .
 is_dek_extractable
 (
-collection_name
+dek_name
 )
 ?
 {
@@ -2285,7 +2285,7 @@ DEK
 for
 '
 {
-collection_name
+dek_name
 }
 '
 is
@@ -2308,7 +2308,7 @@ self
 .
 get_dek_internal
 (
-collection_name
+dek_name
 kek_ref
 )
 ?
@@ -2327,7 +2327,7 @@ encrypt
 (
 &
 self
-collection
+dek_name
 :
 &
 str
@@ -2364,7 +2364,7 @@ self
 .
 get_dek_internal
 (
-collection
+dek_name
 kek_ref
 )
 ?
@@ -2386,7 +2386,7 @@ decrypt
 (
 &
 self
-collection
+dek_name
 :
 &
 str
@@ -2426,7 +2426,7 @@ self
 .
 get_dek_internal
 (
-collection
+dek_name
 kek_ref
 )
 ?
@@ -2508,7 +2508,7 @@ add_kek
 (
 &
 self
-collection_name
+dek_name
 :
 &
 str
@@ -2560,7 +2560,7 @@ conn
 .
 load_metadata
 (
-collection_name
+dek_name
 )
 ?
 ;
@@ -2607,10 +2607,10 @@ new_kek_ref
 already
 exists
 for
-collection
+dek_name
 '
 {
-collection_name
+dek_name
 }
 '
 "
@@ -2660,10 +2660,10 @@ format
 No
 DEK
 for
-collection
+dek_name
 '
 {
-collection_name
+dek_name
 }
 '
 with
@@ -2771,7 +2771,7 @@ conn
 .
 save_metadata
 (
-collection_name
+dek_name
 &
 metadata
 )
@@ -2782,7 +2782,7 @@ remove_kek
 (
 &
 self
-collection_name
+dek_name
 :
 &
 str
@@ -2818,7 +2818,7 @@ conn
 .
 load_metadata
 (
-collection_name
+dek_name
 )
 ?
 ;
@@ -2852,10 +2852,10 @@ the
 last
 KEK
 from
-collection
+dek_name
 '
 {
-collection_name
+dek_name
 }
 '
 "
@@ -2905,10 +2905,10 @@ format
 No
 DEK
 for
-collection
+dek_name
 '
 {
-collection_name
+dek_name
 }
 '
 with
@@ -2974,7 +2974,7 @@ conn
 .
 save_metadata
 (
-collection_name
+dek_name
 &
 metadata
 )
@@ -2992,7 +2992,7 @@ switch_kek
 (
 &
 self
-collection_name
+dek_name
 :
 &
 str
@@ -3080,7 +3080,7 @@ conn
 .
 load_metadata
 (
-collection_name
+dek_name
 )
 ?
 ;
@@ -3125,10 +3125,10 @@ format
 No
 DEK
 for
-collection
+dek_name
 '
 {
-collection_name
+dek_name
 }
 '
 with
@@ -3187,10 +3187,10 @@ new_kek_ref
 '
 already
 wraps
-collection
+dek_name
 '
 {
-collection_name
+dek_name
 }
 '
 "
@@ -3309,7 +3309,7 @@ conn
 .
 save_metadata
 (
-collection_name
+dek_name
 &
 metadata
 )
@@ -3320,7 +3320,7 @@ delete_dek
 (
 &
 self
-collection_name
+dek_name
 :
 &
 str
@@ -3355,7 +3355,7 @@ format
 DEK_PREFIX
 }
 {
-collection_name
+dek_name
 }
 "
 )
@@ -3424,10 +3424,10 @@ DEK
 not
 found
 for
-collection
+dek_name
 :
 {
-collection_name
+dek_name
 }
 "
 )
@@ -3592,12 +3592,12 @@ if
 let
 Some
 (
-coll
+dek_name
 )
 =
 self
 .
-kek_ref_referenced_by_collection
+kek_ref_referenced_by_dek_name
 (
 &
 conn
@@ -3632,7 +3632,7 @@ wrap
 DEK
 '
 {
-coll
+dek_name
 }
 '
 ;
@@ -3691,7 +3691,7 @@ kek_ref
 }
 }
 fn
-kek_ref_referenced_by_collection
+kek_ref_referenced_by_dek_name
 (
 &
 self
@@ -3720,7 +3720,7 @@ LockstoreError
 >
 {
 for
-collection
+dek_name
 in
 conn
 .
@@ -3737,7 +3737,7 @@ conn
 load_metadata
 (
 &
-collection
+dek_name
 )
 ?
 ;
@@ -3768,7 +3768,7 @@ Ok
 (
 Some
 (
-collection
+dek_name
 )
 )
 ;

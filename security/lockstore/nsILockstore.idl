@@ -131,23 +131,27 @@ by
 *
 createKek
 .
-A
-collection
-is
-an
-arbitrary
-namespace
-under
-which
-a
-*
-single
+Each
 DEK
 (
 data
 encryption
 key
 )
+is
+named
+by
+a
+dekName
+-
+-
+an
+*
+arbitrary
+namespace
+-
+-
+and
 is
 wrapped
 by
@@ -901,7 +905,7 @@ lock
 -
 DEK
 /
-collection
+dekName
 management
 -
 -
@@ -951,7 +955,7 @@ a
 new
 DEK
 for
-collection
+dekName
 wrapped
 under
 kekRef
@@ -964,8 +968,7 @@ rejects
 with
 NS_ERROR_FAILURE
 if
-the
-collection
+dekName
 *
 already
 has
@@ -1125,7 +1128,7 @@ createDek
 (
 in
 AUTF8String
-collection
+dekName
 in
 AUTF8String
 kekRef
@@ -1151,7 +1154,7 @@ as
 the
 DEK
 for
-collection
+dekName
 *
 wrapped
 under
@@ -1217,7 +1220,7 @@ wrong
 length
 or
 empty
-collection
+dekName
 *
 /
 kekRef
@@ -1237,7 +1240,7 @@ locked
 -
 NS_ERROR_FAILURE
 if
-collection
+dekName
 already
 has
 a
@@ -1290,7 +1293,7 @@ importDek
 (
 in
 AUTF8String
-collection
+dekName
 in
 AUTF8String
 kekRef
@@ -1316,7 +1319,7 @@ iff
 the
 DEK
 for
-collection
+dekName
 was
 created
 *
@@ -1356,7 +1359,7 @@ Rejects
 with
 NS_ERROR_NOT_AVAILABLE
 if
-collection
+dekName
 doesn
 '
 t
@@ -1372,7 +1375,7 @@ isDekExtractable
 (
 in
 AUTF8String
-collection
+dekName
 )
 ;
 /
@@ -1383,7 +1386,7 @@ Delete
 the
 DEK
 for
-collection
+dekName
 .
 Rejects
 with
@@ -1414,7 +1417,7 @@ of
 ciphertext
 under
 this
-collection
+DEK
 by
 other
 means
@@ -1429,7 +1432,7 @@ deleteDek
 (
 in
 AUTF8String
-collection
+dekName
 )
 ;
 /
@@ -1444,7 +1447,7 @@ ACString
 >
 of
 every
-collection
+DEK
 currently
 /
 /
@@ -1607,7 +1610,7 @@ dekName
 Wrap
 an
 existing
-collection
+dekName
 '
 s
 DEK
@@ -1624,7 +1627,7 @@ addKek
 (
 in
 AUTF8String
-collection
+dekName
 in
 AUTF8String
 fromKekRef
@@ -1642,7 +1645,7 @@ kekRef
 wrapping
 from
 a
-collection
+DEK
 .
 The
 last
@@ -1663,7 +1666,7 @@ removeKek
 (
 in
 AUTF8String
-collection
+dekName
 in
 AUTF8String
 kekRef
@@ -1678,7 +1681,7 @@ rewrap
 the
 DEK
 for
-collection
+dekName
 from
 oldKekRef
 to
@@ -1697,7 +1700,7 @@ rest
 *
 under
 this
-collection
+DEK
 remain
 valid
 .
@@ -1708,7 +1711,7 @@ to
 *
 addKek
 (
-collection
+dekName
 oldKekRef
 newKekRef
 )
@@ -1717,7 +1720,7 @@ by
 *
 removeKek
 (
-collection
+dekName
 oldKekRef
 )
 but
@@ -1760,7 +1763,7 @@ must
 currently
 wrap
 the
-collection
+DEK
 and
 be
 unlocked
@@ -1788,7 +1791,7 @@ empty
 -
 NS_ERROR_NOT_AVAILABLE
 if
-collection
+dekName
 or
 its
 oldKekRef
@@ -1806,7 +1809,7 @@ newKekRef
 already
 wraps
 this
-collection
+DEK
 *
 -
 NS_ERROR_NOT_AVAILABLE
@@ -1827,7 +1830,7 @@ switchKek
 (
 in
 AUTF8String
-collection
+dekName
 in
 AUTF8String
 oldKekRef
@@ -1896,7 +1899,7 @@ the
 DEK
 for
 (
-collection
+dekName
 kekRef
 )
 .
@@ -1977,7 +1980,7 @@ encrypt
 (
 in
 AUTF8String
-collection
+dekName
 in
 AUTF8String
 kekRef
@@ -2038,7 +2041,7 @@ decrypt
 (
 in
 AUTF8String
-collection
+dekName
 in
 AUTF8String
 kekRef
@@ -2061,7 +2064,7 @@ DEK
 bytes
 for
 (
-collection
+dekName
 kekRef
 )
 as
@@ -2191,7 +2194,7 @@ DEK
 exists
 for
 (
-collection
+dekName
 kekRef
 )
 and
@@ -2214,7 +2217,7 @@ getDek
 (
 in
 AUTF8String
-collection
+dekName
 in
 AUTF8String
 kekRef

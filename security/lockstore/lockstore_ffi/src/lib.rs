@@ -396,7 +396,7 @@ handle
 :
 &
 KeystoreHandle
-collection
+dek_name
 :
 &
 nsACString
@@ -416,7 +416,7 @@ usize
 nsresult
 {
 if
-collection
+dek_name
 .
 is_empty
 (
@@ -436,7 +436,8 @@ error
 !
 (
 "
-Collection
+DEK
+name
 and
 kek_ref
 cannot
@@ -450,9 +451,9 @@ NS_ERROR_INVALID_ARG
 ;
 }
 let
-coll_str
+dek_name_str
 =
-collection
+dek_name
 .
 to_utf8
 (
@@ -475,7 +476,7 @@ keystore
 create_dek
 (
 &
-coll_str
+dek_name_str
 &
 kek_ref_str
 extractable
@@ -519,7 +520,7 @@ handle
 :
 &
 KeystoreHandle
-collection
+dek_name
 :
 &
 nsACString
@@ -544,7 +545,7 @@ bool
 nsresult
 {
 if
-collection
+dek_name
 .
 is_empty
 (
@@ -564,7 +565,8 @@ error
 !
 (
 "
-Collection
+DEK
+name
 and
 kek_ref
 cannot
@@ -599,9 +601,9 @@ NS_ERROR_INVALID_ARG
 ;
 }
 let
-coll_str
+dek_name_str
 =
-collection
+dek_name
 .
 to_utf8
 (
@@ -642,7 +644,7 @@ keystore
 import_dek
 (
 &
-coll_str
+dek_name_str
 &
 kek_ref_str
 dek
@@ -686,7 +688,7 @@ handle
 :
 &
 KeystoreHandle
-collection
+dek_name
 :
 &
 nsACString
@@ -701,7 +703,7 @@ bool
 nsresult
 {
 if
-collection
+dek_name
 .
 is_empty
 (
@@ -714,7 +716,8 @@ error
 !
 (
 "
-Collection
+DEK
+name
 cannot
 be
 empty
@@ -726,9 +729,9 @@ NS_ERROR_INVALID_ARG
 ;
 }
 let
-coll_str
+dek_name_str
 =
-collection
+dek_name
 .
 to_utf8
 (
@@ -742,7 +745,7 @@ keystore
 is_dek_extractable
 (
 &
-coll_str
+dek_name_str
 )
 {
 Ok
@@ -788,7 +791,7 @@ handle
 :
 &
 KeystoreHandle
-collection
+dek_name
 :
 &
 nsACString
@@ -810,7 +813,7 @@ u8
 nsresult
 {
 if
-collection
+dek_name
 .
 is_empty
 (
@@ -830,7 +833,8 @@ error
 !
 (
 "
-Collection
+DEK
+name
 and
 kek_ref
 cannot
@@ -844,9 +848,9 @@ NS_ERROR_INVALID_ARG
 ;
 }
 let
-coll_str
+dek_name_str
 =
-collection
+dek_name
 .
 to_utf8
 (
@@ -869,7 +873,7 @@ keystore
 get_dek
 (
 &
-coll_str
+dek_name_str
 &
 kek_ref_str
 )
@@ -930,7 +934,7 @@ handle
 :
 &
 KeystoreHandle
-collection
+dek_name
 :
 &
 nsACString
@@ -940,7 +944,7 @@ nsACString
 nsresult
 {
 if
-collection
+dek_name
 .
 is_empty
 (
@@ -953,7 +957,8 @@ error
 !
 (
 "
-Collection
+DEK
+name
 cannot
 be
 empty
@@ -965,9 +970,9 @@ NS_ERROR_INVALID_ARG
 ;
 }
 let
-coll_str
+dek_name_str
 =
-collection
+dek_name
 .
 to_utf8
 (
@@ -981,7 +986,7 @@ keystore
 delete_dek
 (
 &
-coll_str
+dek_name_str
 )
 {
 Ok
@@ -1021,7 +1026,7 @@ handle
 :
 &
 KeystoreHandle
-ret_collections
+ret_dek_names
 :
 &
 mut
@@ -1045,15 +1050,15 @@ list_deks
 {
 Ok
 (
-collections
+dek_names
 )
 =
 >
 {
 *
-ret_collections
+ret_dek_names
 =
-collections
+dek_names
 .
 into_iter
 (
@@ -1220,7 +1225,7 @@ handle
 :
 &
 KeystoreHandle
-collection
+dek_name
 :
 &
 nsACString
@@ -1238,7 +1243,7 @@ nsACString
 nsresult
 {
 if
-collection
+dek_name
 .
 is_empty
 (
@@ -1265,7 +1270,8 @@ error
 !
 (
 "
-Collection
+DEK
+name
 from_kek_ref
 and
 to_kek_ref
@@ -1280,9 +1286,9 @@ NS_ERROR_INVALID_ARG
 ;
 }
 let
-coll_str
+dek_name_str
 =
-collection
+dek_name
 .
 to_utf8
 (
@@ -1314,7 +1320,7 @@ keystore
 add_kek
 (
 &
-coll_str
+dek_name_str
 &
 from_str
 &
@@ -1358,7 +1364,7 @@ handle
 :
 &
 KeystoreHandle
-collection
+dek_name
 :
 &
 nsACString
@@ -1372,7 +1378,7 @@ nsACString
 nsresult
 {
 if
-collection
+dek_name
 .
 is_empty
 (
@@ -1392,7 +1398,8 @@ error
 !
 (
 "
-Collection
+DEK
+name
 and
 kek_ref
 cannot
@@ -1406,9 +1413,9 @@ NS_ERROR_INVALID_ARG
 ;
 }
 let
-coll_str
+dek_name_str
 =
-collection
+dek_name
 .
 to_utf8
 (
@@ -1431,7 +1438,7 @@ keystore
 remove_kek
 (
 &
-coll_str
+dek_name_str
 &
 kek_ref_str
 )
@@ -1473,7 +1480,7 @@ handle
 :
 &
 KeystoreHandle
-collection
+dek_name
 :
 &
 nsACString
@@ -1491,7 +1498,7 @@ nsACString
 nsresult
 {
 if
-collection
+dek_name
 .
 is_empty
 (
@@ -1518,7 +1525,8 @@ error
 !
 (
 "
-Collection
+DEK
+name
 old_kek_ref
 and
 new_kek_ref
@@ -1533,9 +1541,9 @@ NS_ERROR_INVALID_ARG
 ;
 }
 let
-coll_str
+dek_name_str
 =
-collection
+dek_name
 .
 to_utf8
 (
@@ -1567,7 +1575,7 @@ keystore
 switch_kek
 (
 &
-coll_str
+dek_name_str
 &
 old_str
 &
@@ -1612,7 +1620,7 @@ handle
 :
 &
 KeystoreHandle
-collection
+dek_name
 :
 &
 nsACString
@@ -1642,7 +1650,7 @@ u8
 nsresult
 {
 if
-collection
+dek_name
 .
 is_empty
 (
@@ -1681,9 +1689,9 @@ NS_ERROR_INVALID_ARG
 ;
 }
 let
-coll_str
+dek_name_str
 =
-collection
+dek_name
 .
 to_utf8
 (
@@ -1724,7 +1732,7 @@ keystore
 encrypt
 (
 &
-coll_str
+dek_name_str
 &
 kek_ref_str
 plaintext
@@ -1778,7 +1786,7 @@ handle
 :
 &
 KeystoreHandle
-collection
+dek_name
 :
 &
 nsACString
@@ -1808,7 +1816,7 @@ u8
 nsresult
 {
 if
-collection
+dek_name
 .
 is_empty
 (
@@ -1847,9 +1855,9 @@ NS_ERROR_INVALID_ARG
 ;
 }
 let
-coll_str
+dek_name_str
 =
-collection
+dek_name
 .
 to_utf8
 (
@@ -1890,7 +1898,7 @@ keystore
 decrypt
 (
 &
-coll_str
+dek_name_str
 &
 kek_ref_str
 ciphertext
@@ -2530,7 +2538,7 @@ keystore_handle
 :
 &
 KeystoreHandle
-collection
+dek_name
 :
 &
 nsACString
@@ -2551,7 +2559,7 @@ LockstoreDatastore
 nsresult
 {
 if
-collection
+dek_name
 .
 is_empty
 (
@@ -2571,7 +2579,8 @@ error
 !
 (
 "
-Collection
+DEK
+name
 and
 kek_ref
 cannot
@@ -2585,9 +2594,9 @@ NS_ERROR_INVALID_ARG
 ;
 }
 let
-coll_str
+dek_name_str
 =
-collection
+dek_name
 .
 to_utf8
 (
@@ -2615,7 +2624,7 @@ new
 keystore_handle
 .
 profile_path
-coll_str
+dek_name_str
 .
 to_string
 (
