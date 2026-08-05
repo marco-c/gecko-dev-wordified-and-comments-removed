@@ -108,13 +108,6 @@ js
 ]
 [
 "
-browser_pip_exits_fs
-.
-js
-"
-]
-[
-"
 browser_pip_extensions
 .
 js
