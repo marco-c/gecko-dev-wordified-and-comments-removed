@@ -1340,7 +1340,7 @@ aNotify
 =
 true
 bool
-aInsertionOrRemovalSteps
+aSkipSelectedcontentUpdate
 =
 false
 IgnoredOptionList
@@ -1367,6 +1367,12 @@ false
 MOZ_CAN_RUN_SCRIPT
 void
 UpdateDescendantSelectedContentElements
+(
+)
+;
+MOZ_CAN_RUN_SCRIPT
+void
+RunPendingSelectedContentUpdate
 (
 )
 ;
