@@ -201,6 +201,9 @@ CanCloseWindow
 WindowIsClosing
 "
 "
+gLastWindowCloseTriggerHandled
+"
+"
 warnAboutClosingWindow
 "
 "
