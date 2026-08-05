@@ -952,7 +952,7 @@ JS_DEFINE_TYPED_SLOT
 (
 0
 RAWBUF_SLOT
-Double
+Private
 Undefined
 )
 ;
@@ -960,7 +960,7 @@ JS_DEFINE_TYPED_SLOT
 (
 1
 LENGTH_SLOT
-Double
+Private
 Undefined
 )
 ;

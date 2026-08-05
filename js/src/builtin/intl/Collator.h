@@ -121,7 +121,7 @@ JS_DEFINE_TYPED_SLOT
 (
 3
 INTL_COLLATOR_SLOT
-Double
+Private
 Undefined
 )
 ;

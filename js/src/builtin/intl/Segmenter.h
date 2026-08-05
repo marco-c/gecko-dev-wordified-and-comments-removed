@@ -132,7 +132,7 @@ JS_DEFINE_TYPED_SLOT
 (
 2
 SEGMENTER_SLOT
-Double
+Private
 Undefined
 )
 ;
@@ -796,7 +796,7 @@ JS_DEFINE_TYPED_SLOT
 (
 2
 STRING_CHARS_SLOT
-Double
+Private
 Undefined
 )
 ;
@@ -820,7 +820,7 @@ JS_DEFINE_TYPED_SLOT
 (
 5
 BREAK_ITERATOR_SLOT
-Double
+Private
 Undefined
 )
 ;
@@ -1326,7 +1326,7 @@ JS_DEFINE_TYPED_SLOT
 (
 2
 STRING_CHARS_SLOT
-Double
+Private
 Undefined
 )
 ;
@@ -1350,7 +1350,7 @@ JS_DEFINE_TYPED_SLOT
 (
 5
 BREAK_ITERATOR_SLOT
-Double
+Private
 Undefined
 )
 ;

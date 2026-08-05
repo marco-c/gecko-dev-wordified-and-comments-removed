@@ -178,7 +178,7 @@ JS_DEFINE_TYPED_SLOT
 (
 3
 INTL_TIMEZONE_SLOT
-Double
+Private
 Undefined
 )
 ;

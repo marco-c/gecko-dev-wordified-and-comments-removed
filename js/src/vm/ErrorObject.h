@@ -261,7 +261,7 @@ index
 +
 1
 ERROR_REPORT_SLOT
-Double
+Private
 Undefined
 )
 ;

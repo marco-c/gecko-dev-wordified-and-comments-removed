@@ -339,7 +339,7 @@ JS_DEFINE_TYPED_SLOT
 (
 1
 REGISTRATIONS_SLOT
-Double
+Private
 Undefined
 )
 ;
@@ -347,7 +347,7 @@ JS_DEFINE_TYPED_SLOT
 (
 2
 RECORDS_WITHOUT_TOKEN_SLOT
-Double
+Private
 Undefined
 )
 ;
@@ -592,7 +592,7 @@ JS_DEFINE_TYPED_SLOT
 (
 2
 RECORDS_TO_BE_CLEANED_UP_SLOT
-Double
+Private
 Undefined
 )
 ;

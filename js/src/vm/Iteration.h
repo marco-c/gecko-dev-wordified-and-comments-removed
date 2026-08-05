@@ -2384,7 +2384,7 @@ JS_DEFINE_TYPED_SLOT
 (
 0
 ITERATOR_SLOT
-Double
+Private
 Undefined
 )
 ;
