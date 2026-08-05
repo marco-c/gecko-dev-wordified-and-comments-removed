@@ -33194,7 +33194,7 @@ genObj
 AbstractGeneratorObject
 :
 :
-offsetOfCalleeSlot
+offsetOfCalleeOrModuleSlot
 (
 )
 )
@@ -34137,7 +34137,7 @@ genObj
 AbstractGeneratorObject
 :
 :
-offsetOfCalleeSlot
+offsetOfCalleeOrModuleSlot
 (
 )
 )
