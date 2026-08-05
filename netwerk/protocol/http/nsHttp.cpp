@@ -5254,7 +5254,13 @@ rv
 {
 outOrigin
 =
+std
+:
+:
+move
+(
 fullOrigin
+)
 ;
 }
 outKey

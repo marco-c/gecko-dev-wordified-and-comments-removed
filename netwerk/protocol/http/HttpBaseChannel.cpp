@@ -11124,7 +11124,13 @@ IsEmpty
 {
 aProtocolVersion
 =
+std
+:
+:
+move
+(
 protocol
+)
 ;
 return
 NS_OK
@@ -19670,7 +19676,13 @@ lastmod
 ;
 aEntityID
 =
+std
+:
+:
+move
+(
 entityID
+)
 ;
 return
 NS_OK

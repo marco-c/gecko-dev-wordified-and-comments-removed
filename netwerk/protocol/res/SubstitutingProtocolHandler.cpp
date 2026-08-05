@@ -1520,7 +1520,13 @@ GetKey
 (
 )
 )
+std
+:
+:
+move
+(
 serialized
+)
 entry
 .
 flags
@@ -1530,7 +1536,13 @@ aMappings
 .
 AppendElement
 (
+std
+:
+:
+move
+(
 substitution
+)
 )
 ;
 }

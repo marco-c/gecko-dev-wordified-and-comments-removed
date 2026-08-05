@@ -4138,7 +4138,13 @@ rv
 }
 mCname
 =
+std
+:
+:
+move
+(
 cname
+)
 ;
 if
 (

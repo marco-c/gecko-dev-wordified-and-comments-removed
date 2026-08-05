@@ -4431,6 +4431,14 @@ mCallOnResume
 "
 [
 callOnResume
+=
+std
+:
+:
+move
+(
+callOnResume
+)
 ]
 (
 )

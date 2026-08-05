@@ -695,7 +695,13 @@ false
 }
 mPrivateURI
 =
+std
+:
+:
+move
+(
 newURI
+)
 ;
 AsyncCreateTRRConnectionInfo
 (

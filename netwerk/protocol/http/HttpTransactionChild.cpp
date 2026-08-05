@@ -1561,6 +1561,11 @@ count
 aCount
 )
 data
+=
+std
+:
+:
+move
 (
 data
 )

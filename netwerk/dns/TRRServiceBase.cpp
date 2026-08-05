@@ -374,7 +374,13 @@ true
 ;
 aURI
 =
+std
+:
+:
+move
+(
 uri
+)
 ;
 }
 void

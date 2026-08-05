@@ -4972,7 +4972,13 @@ rv
 }
 aHost
 =
+std
+:
+:
+move
+(
 host
+)
 ;
 }
 return

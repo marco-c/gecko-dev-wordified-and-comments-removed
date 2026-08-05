@@ -4198,6 +4198,14 @@ this
 }
 result
 computedHash
+=
+std
+:
+:
+move
+(
+computedHash
+)
 pendingData
 =
 std

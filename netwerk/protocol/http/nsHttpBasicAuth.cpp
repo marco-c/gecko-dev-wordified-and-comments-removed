@@ -347,7 +347,13 @@ rv
 ;
 creds
 =
+std
+:
+:
+move
+(
 authString
+)
 ;
 return
 NS_OK

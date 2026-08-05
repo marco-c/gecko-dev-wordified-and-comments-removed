@@ -582,7 +582,13 @@ LoadContextInfo
 >
 (
 anon
+std
+:
+:
+move
+(
 oa
+)
 )
 ;
 }
@@ -697,7 +703,13 @@ LoadContextInfo
 >
 (
 aIsAnonymous
+std
+:
+:
+move
+(
 oa
+)
 )
 ;
 }

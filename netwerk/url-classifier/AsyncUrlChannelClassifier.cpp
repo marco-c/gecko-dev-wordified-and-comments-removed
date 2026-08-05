@@ -4124,7 +4124,13 @@ mHostInPrefTables
 aListType
 ]
 =
+std
+:
+:
+move
+(
 tableName
+)
 ;
 }
 RefPtr

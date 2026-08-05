@@ -11228,7 +11228,13 @@ IsEmpty
 {
 key
 =
+std
+:
+:
+move
+(
 entryKey
+)
 ;
 }
 else
