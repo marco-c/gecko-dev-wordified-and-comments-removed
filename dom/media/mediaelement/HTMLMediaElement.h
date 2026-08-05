@@ -4188,6 +4188,12 @@ mLoadingSrc
 ;
 nsCOMPtr
 <
+nsIURI
+>
+mLoadingSrcFinalURI
+;
+nsCOMPtr
+<
 nsIPrincipal
 >
 mLoadingSrcTriggeringPrincipal
