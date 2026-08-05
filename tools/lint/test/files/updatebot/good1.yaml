@@ -167,11 +167,9 @@ vendor
 -
 directory
 :
-gfx
+third_party
 /
 angle
-/
-checkout
 skip
 -
 vendoring
