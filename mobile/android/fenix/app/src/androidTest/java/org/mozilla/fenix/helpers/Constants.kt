@@ -79,6 +79,13 @@ getSponsoredShortcutTitle
 object
 Constants
 {
+const
+val
+GMAIL_APP_NAME
+=
+"
+Gmail
+"
 /
 /
 Tag

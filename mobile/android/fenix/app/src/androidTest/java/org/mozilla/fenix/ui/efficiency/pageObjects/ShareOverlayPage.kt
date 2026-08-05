@@ -327,6 +327,9 @@ verifySharingWithSelectedApp
 appName
 :
 String
+appPackageName
+:
+String
 content
 :
 String
@@ -453,7 +456,7 @@ toTypedArray
 )
 forceCloseApp
 (
-appName
+appPackageName
 )
 return
 this
