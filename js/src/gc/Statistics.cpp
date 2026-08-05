@@ -7978,6 +7978,10 @@ Statistics
 :
 endSlice
 (
+const
+SliceBudget
+&
+budget
 )
 {
 MOZ_ASSERT
@@ -8058,6 +8062,16 @@ gc
 state
 (
 )
+;
+slice
+.
+budget
+.
+interrupted
+=
+budget
+.
+interrupted
 ;
 sendSliceTelemetry
 (
