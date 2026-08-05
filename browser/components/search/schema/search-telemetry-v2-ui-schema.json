@@ -82,6 +82,9 @@ defaultPageQueryParam
 pageTypeParam
 "
 "
+requireTopLevelImpressionOrigin
+"
+"
 subframes
 "
 "

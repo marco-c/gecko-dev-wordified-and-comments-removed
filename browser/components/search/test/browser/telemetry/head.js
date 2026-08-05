@@ -3659,6 +3659,15 @@ async
 function
 initSinglePageAppTest
 (
+{
+baseProviderOverrides
+=
+{
+}
+}
+=
+{
+}
 )
 {
 Services
@@ -3968,6 +3977,10 @@ false
 }
 ]
 }
+.
+.
+.
+baseProviderOverrides
 }
 ;
 const
