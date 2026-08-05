@@ -543,6 +543,12 @@ IPProtectionTrustPanel
 vpn_integration_android_protection_panel
 "
 )
+ShakeToSummarize
+(
+"
+shake_to_summarize
+"
+)
 /
 *
 *
