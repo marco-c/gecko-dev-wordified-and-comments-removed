@@ -344,7 +344,3 @@ patch
 04_disable_sme
 .
 patch
--
-05_fix_gcc_neon_rgbtouvmatrixrow
-.
-patch
