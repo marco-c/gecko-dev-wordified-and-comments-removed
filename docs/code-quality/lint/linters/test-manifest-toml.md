@@ -410,6 +410,8 @@ msix
 -
 nogpu
 -
+nova
+-
 privateBrowsing
 -
 remote_async

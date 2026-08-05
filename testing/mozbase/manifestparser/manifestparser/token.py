@@ -1894,6 +1894,27 @@ nogpu
 )
 )
         
+_nova
+:
+Token
+=
+self
+.
+add
+(
+Token
+(
+t_type
+=
+t_variant
+value
+=
+"
+nova
+"
+)
+)
+        
 _private_browsing
 :
 Token
