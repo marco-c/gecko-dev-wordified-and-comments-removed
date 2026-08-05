@@ -244,6 +244,13 @@ py
 ]
 [
 "
+test_md
+.
+py
+"
+]
+[
+"
 test_node_licenses
 .
 py
@@ -280,13 +287,6 @@ py
 [
 "
 test_ruff_format
-.
-py
-"
-]
-[
-"
-test_rumdl
 .
 py
 "

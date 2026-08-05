@@ -4234,13 +4234,12 @@ rst
 .
 yml
 '
-rumdl
+md
 :
 description
 :
-rumdl
 Markdown
-linter
+linters
 run
 over
 the
@@ -4252,7 +4251,7 @@ symbol
 :
 doc
 (
-rumdl
+md
 )
 #
 Allow
@@ -4286,7 +4285,7 @@ lint
 v
 -
 l
-rumdl
+md
 -
 f
 treeherder
@@ -4324,7 +4323,7 @@ tools
 /
 lint
 /
-rumdl
+md
 .
 yml
 '

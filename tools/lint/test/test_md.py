@@ -3,7 +3,7 @@ mozunit
 LINTER
 =
 "
-rumdl
+md
 "
 fixed
 =
