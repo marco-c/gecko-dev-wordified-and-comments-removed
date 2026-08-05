@@ -5746,13 +5746,6 @@ value
 )
 )
 ;
-LInt64Definition
-temp
-=
-tempInt64
-(
-)
-;
 if
 (
 ins
@@ -5778,7 +5771,6 @@ LAtomicTypedArrayElementBinopForEffect64
 elements
 index
 value
-temp
 )
 ;
 add
@@ -5805,7 +5797,6 @@ LAtomicTypedArrayElementBinop64
 elements
 index
 value
-temp
 )
 ;
 defineInt64
@@ -7228,9 +7219,6 @@ value
 )
 )
 memoryBase
-tempInt64
-(
-)
 )
 ;
 defineInt64
