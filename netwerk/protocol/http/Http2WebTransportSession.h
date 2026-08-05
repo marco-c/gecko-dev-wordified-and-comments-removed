@@ -315,6 +315,15 @@ aKeyingMaterial
 )
 override
 ;
+void
+GetNegotiatedProtocol
+(
+nsACString
+&
+aProtocol
+)
+override
+;
 nsresult
 RegisterSendGroup
 (
