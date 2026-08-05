@@ -29234,13 +29234,13 @@ secPurpose
 )
 &
 &
-StringBeginsWith
-(
 secPurpose
+.
+EqualsLiteral
+(
 "
 prefetch
 "
-_ns
 )
 &
 &
