@@ -1044,11 +1044,6 @@ DefineDataProperty
 "
 readonly
 "
-forceInterpreter
-:
-"
-readonly
-"
 GetArgument
 :
 "

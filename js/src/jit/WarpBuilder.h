@@ -89,17 +89,6 @@ _
 \
 _
 (
-ForceInterpreter
-)
-\
-/
-*
-With
-*
-/
-\
-_
-(
 EnterWith
 )
 \

@@ -4261,16 +4261,6 @@ nodiscard
 ]
 ]
 bool
-emitSelfHostedForceInterpreter
-(
-)
-;
-[
-[
-nodiscard
-]
-]
-bool
 emitSelfHostedAllowContentIter
 (
 CallNode
