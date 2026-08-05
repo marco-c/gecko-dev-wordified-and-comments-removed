@@ -61,7 +61,7 @@ mozilla
 .
 appservices
 .
-httpconfig
+viaduct
 import
 mozilla
 .

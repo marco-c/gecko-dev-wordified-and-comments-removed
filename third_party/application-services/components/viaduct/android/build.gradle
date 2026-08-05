@@ -34,7 +34,7 @@ mozilla
 .
 appservices
 .
-httpconfig
+viaduct
 '
 }
 dependencies
