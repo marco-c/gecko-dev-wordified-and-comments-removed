@@ -2235,11 +2235,6 @@ isAllowedInPrivateBrowsing
 Boolean
 {
 return
-isBuiltIn
-(
-)
-|
-|
 nativeExtension
 .
 metaData
