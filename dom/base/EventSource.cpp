@@ -124,17 +124,6 @@ mozilla
 /
 dom
 /
-Document
-.
-h
-"
-#
-include
-"
-mozilla
-/
-dom
-/
 EventSourceBinding
 .
 h

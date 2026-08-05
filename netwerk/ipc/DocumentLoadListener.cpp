@@ -150,15 +150,6 @@ include
 "
 mozilla
 /
-StoragePrincipalHelper
-.
-h
-"
-#
-include
-"
-mozilla
-/
 dom
 /
 BrowserParent

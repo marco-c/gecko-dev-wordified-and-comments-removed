@@ -40,17 +40,6 @@ h
 #
 include
 "
-js
-/
-loader
-/
-ScriptLoaderInterface
-.
-h
-"
-#
-include
-"
 mozilla
 /
 dom
