@@ -54240,6 +54240,13 @@ CompareTreePosition
 mFrame
 aOther
 nullptr
+nsLayoutUtils
+:
+:
+CompareTreePositionFlags
+:
+:
+FramesMayBeInDifferentOrIncompleteTrees
 )
 ;
 }

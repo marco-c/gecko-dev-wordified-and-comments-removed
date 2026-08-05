@@ -6615,6 +6615,8 @@ const
 nsIFrame
 *
 aCommonAncestor
+CompareTreePositionFlags
+aFlags
 )
 {
 MOZ_ASSERT
@@ -6674,6 +6676,7 @@ nonCommonAncestor
 aCommonAncestor
 :
 nullptr
+aFlags
 )
 ;
 }
@@ -6704,6 +6707,8 @@ const
 nsIFrame
 *
 aCommonAncestor
+CompareTreePositionFlags
+aFlags
 )
 {
 MOZ_ASSERT
@@ -6812,6 +6817,7 @@ aFrame2
 aFrame1
 frame1Ancestors
 nullptr
+aFlags
 )
 ;
 return
@@ -6976,8 +6982,14 @@ return
 1
 ;
 }
-NS_WARNING
+NS_WARNING_ASSERTION
 (
+aFlags
+&
+CompareTreePositionFlags
+:
+:
+FramesMayBeInDifferentOrIncompleteTrees
 "
 Frames
 were
@@ -6985,8 +6997,6 @@ in
 different
 child
 lists
-?
-?
 ?
 "
 )
