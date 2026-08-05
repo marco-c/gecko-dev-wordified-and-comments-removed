@@ -1123,6 +1123,11 @@ cwnd_reduce_ratio
 =
 0
 ;
+bool
+is_bandwidth_limited
+=
+true
+;
 }
 ;
 struct

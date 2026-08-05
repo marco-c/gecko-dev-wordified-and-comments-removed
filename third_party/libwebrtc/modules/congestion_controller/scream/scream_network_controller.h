@@ -365,6 +365,11 @@ reported_padding_rate_
 DataRate
 reported_pacing_rate_
 ;
+bool
+reported_is_bandwidth_limited_
+=
+true
+;
 }
 ;
 }
