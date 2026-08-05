@@ -1210,8 +1210,6 @@ nsTArray
 Command
 >
 commands
-bool
-aNeedsInputProtection
 )
 ;
 RefPtr
@@ -1233,8 +1231,6 @@ nsTArray
 Command
 >
 commands
-bool
-aNeedsInputProtection
 )
 ;
 }

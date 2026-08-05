@@ -205,8 +205,6 @@ Command
 [
 ]
 commands
-bool
-needsInputProtection
 )
 returns
 (
@@ -223,8 +221,6 @@ Command
 [
 ]
 commands
-bool
-needsInputProtection
 )
 returns
 (

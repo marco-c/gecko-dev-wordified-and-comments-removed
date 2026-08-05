@@ -285,8 +285,6 @@ nsTArray
 Command
 >
 commands
-bool
-needsInputProtection
 FileResolver
 &
 &
@@ -314,7 +312,6 @@ move
 (
 commands
 )
-needsInputProtection
 )
 ;
 using
@@ -438,8 +435,6 @@ nsTArray
 Command
 >
 commands
-bool
-needsInputProtection
 FolderResolver
 &
 &
@@ -466,7 +461,6 @@ move
 (
 commands
 )
-needsInputProtection
 )
 ;
 using

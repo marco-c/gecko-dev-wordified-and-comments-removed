@@ -1025,8 +1025,6 @@ Command
 const
 &
 commands
-bool
-needsInputProtection
 )
 {
 using
@@ -1053,7 +1051,6 @@ ShowRemote
 [
 parent
 type
-needsInputProtection
 commands
 =
 commands
@@ -1104,7 +1101,6 @@ ShowFileDialogImpl
 parent
 type
 commands
-needsInputProtection
 )
 ;
 }
@@ -1136,8 +1132,6 @@ Command
 const
 &
 commands
-bool
-needsInputProtection
 )
 {
 using
@@ -1163,7 +1157,6 @@ ShowRemote
 (
 [
 parent
-needsInputProtection
 commands
 =
 commands
@@ -1213,7 +1206,6 @@ ShowFolderDialogImpl
 (
 parent
 commands
-needsInputProtection
 )
 ;
 }
@@ -1253,8 +1245,6 @@ Command
 const
 &
 commands
-bool
-needsInputProtection
 )
 {
 return
@@ -1270,7 +1260,6 @@ commands
 Clone
 (
 )
-needsInputProtection
 )
 ;
 }
@@ -1299,8 +1288,6 @@ Command
 const
 &
 commands
-bool
-needsInputProtection
 )
 {
 return
@@ -1315,7 +1302,6 @@ commands
 Clone
 (
 )
-needsInputProtection
 )
 ;
 }
@@ -2703,9 +2689,6 @@ get
 (
 )
 commands
-IsContentInitiated
-(
-)
 )
 -
 >
@@ -3352,9 +3335,6 @@ get
 )
 type
 commands
-IsContentInitiated
-(
-)
 )
 ;
 return

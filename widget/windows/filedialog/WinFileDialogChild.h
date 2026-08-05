@@ -92,8 +92,6 @@ nsTArray
 <
 Command
 >
-bool
-needsInputProtection
 FileResolver
 &
 &
@@ -116,8 +114,6 @@ nsTArray
 <
 Command
 >
-bool
-needsInputProtection
 FolderResolver
 &
 &
