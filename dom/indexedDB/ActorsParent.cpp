@@ -70016,7 +70016,7 @@ objectStoreMetadata
 )
 Err
 (
-NS_ERROR_OUT_OF_MEMORY
+NS_ERROR_FILE_CORRUPTED
 )
 )
 ;
