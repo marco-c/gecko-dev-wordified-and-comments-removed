@@ -168,6 +168,9 @@ aResult
 uint32_t
 &
 aTTL
+nsACString
+&
+aAliasName
 )
 {
 DNSPacket
@@ -481,6 +484,7 @@ host
 packet
 aResult
 aTTL
+aAliasName
 )
 ;
 }

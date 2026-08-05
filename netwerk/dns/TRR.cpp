@@ -4202,6 +4202,12 @@ NS_ERROR_UNKNOWN_HOST
 &
 &
 ra
+&
+&
+mType
+!
+=
+TRRTYPE_HTTPSSVC
 )
 {
 LOG

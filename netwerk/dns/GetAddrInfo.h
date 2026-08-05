@@ -204,6 +204,9 @@ aResult
 uint32_t
 &
 aTTL
+nsACString
+&
+aAliasName
 )
 ;
 nsresult
@@ -221,6 +224,9 @@ aResult
 uint32_t
 &
 aTTL
+nsACString
+&
+aAliasName
 )
 ;
 nsresult
@@ -360,6 +366,9 @@ aHost
 TypeRecordResultType
 &
 aResult
+nsACString
+&
+aAliasName
 )
 ;
 }
