@@ -331,7 +331,7 @@ KEY_Backspace
 ;
 }
 await
-UrlbarShared
+UrlbarUtils
 .
 _lastRecordAutofillBackspacePromise
 ;

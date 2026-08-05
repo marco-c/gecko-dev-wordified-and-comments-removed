@@ -36061,13 +36061,9 @@ payload
 url
 )
 {
-UrlbarShared
+this
 .
-_lastRecordAutofillBackspacePromise
-=
-lazy
-.
-UrlbarUtils
+controller
 .
 recordAutofillBackspace
 (

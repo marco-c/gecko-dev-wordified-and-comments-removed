@@ -406,7 +406,7 @@ win
 ;
 }
 await
-UrlbarShared
+UrlbarUtils
 .
 _lastRecordAutofillBackspacePromise
 ;
