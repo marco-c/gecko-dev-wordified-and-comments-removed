@@ -951,7 +951,7 @@ wasmInstance
 ;
 }
 }
-bool
+void
 DebugAPI
 :
 :
@@ -986,7 +986,6 @@ isDebuggee
 )
 )
 {
-return
 slowPathOnNewPromise
 (
 cx
@@ -994,9 +993,6 @@ promise
 )
 ;
 }
-return
-true
-;
 }
 void
 DebugAPI
