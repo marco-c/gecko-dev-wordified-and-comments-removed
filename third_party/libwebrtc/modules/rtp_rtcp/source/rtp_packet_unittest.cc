@@ -551,6 +551,10 @@ kSeqNumSecondByte
 |
 kAudioLevel
 kTwoByteExtensionId
+.
+value
+(
+)
 0x03
 0x00
 0x30
@@ -584,6 +588,10 @@ kSeqNumSecondByte
 0x00
 0x04
 kTwoByteExtensionId
+.
+value
+(
+)
 0x03
 0x00
 0x30
@@ -989,6 +997,10 @@ kSeqNumSecondByte
 0x00
 0x02
 kTwoByteExtensionId
+.
+value
+(
+)
 0x03
 0x00
 0x56
@@ -1022,6 +1034,10 @@ kSeqNumSecondByte
 0x00
 0x0B
 kTwoByteExtensionId
+.
+value
+(
+)
 0x29
 '
 e
@@ -1168,6 +1184,10 @@ kSeqNumSecondByte
 0x00
 0x03
 kTwoByteExtensionId
+.
+value
+(
+)
 0x03
 0x00
 0x56
@@ -1176,6 +1196,10 @@ kTwoByteExtensionId
 0x00
 0x00
 kAudioLevelExtensionId
+.
+value
+(
+)
 0x01
 0x80
 |
@@ -1208,6 +1232,10 @@ kSeqNumSecondByte
 0x02
 (
 kTransmissionOffsetExtensionId
+.
+value
+(
+)
 <
 <
 4
@@ -1283,6 +1311,10 @@ kSeqNumSecondByte
 0x04
 (
 kVideoTimingExtensionId
+.
+value
+(
+)
 <
 <
 4
