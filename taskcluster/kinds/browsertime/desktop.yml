@@ -2399,8 +2399,6 @@ app
 firefox
 :
 -
-ares6
--
 [
 assorted
 -
@@ -2473,11 +2471,6 @@ sb
 ]
 -
 [
-sunspider
-ss
-]
--
-[
 twitch
 -
 animation
@@ -2499,8 +2492,6 @@ wa
 ]
 safari
 :
--
-ares6
 -
 [
 assorted
@@ -2611,11 +2602,6 @@ Bug
 stylebench
 sb
 ]
--
-[
-sunspider
-ss
-]
 #
 -
 [
@@ -2696,8 +2682,6 @@ js3
 chrome
 :
 -
-ares6
--
 [
 assorted
 -
@@ -2767,11 +2751,6 @@ sp3
 [
 stylebench
 sb
-]
--
-[
-sunspider
-ss
 ]
 -
 [
@@ -2788,8 +2767,6 @@ wa
 default
 :
 -
-ares6
--
 [
 assorted
 -
@@ -2859,11 +2836,6 @@ sp3
 [
 stylebench
 sb
-]
--
-[
-sunspider
-ss
 ]
 -
 [
@@ -3534,9 +3506,6 @@ by
 -
 subtest
 :
-ares6
-:
-1500
 assorted
 -
 dom
