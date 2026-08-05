@@ -220,6 +220,11 @@ Compiler
 h
 "
 "
+CumulativeAverage
+.
+h
+"
+"
 DbgMacro
 .
 h

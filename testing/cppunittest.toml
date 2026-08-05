@@ -131,6 +131,11 @@ win
 ]
 [
 "
+TestCumulativeAverage
+"
+]
+[
+"
 TestDefineEnum
 "
 ]

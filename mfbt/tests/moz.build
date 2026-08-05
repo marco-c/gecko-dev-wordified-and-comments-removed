@@ -132,6 +132,9 @@ TestCheckedInt
 TestCompactPair
 "
 "
+TestCumulativeAverage
+"
+"
 TestDefineEnum
 "
 "
