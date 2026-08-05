@@ -36,8 +36,3 @@ firefox
 devtools
 -
 mcp
-code
--
-review
--
-context
