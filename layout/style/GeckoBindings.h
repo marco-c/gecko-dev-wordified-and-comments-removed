@@ -2149,7 +2149,7 @@ mozilla
 :
 Keyframe
 *
-Gecko_GetOrCreateKeyframeAtStart
+Gecko_GetOrCreateKeyframeAtEnd
 (
 nsTArray
 <

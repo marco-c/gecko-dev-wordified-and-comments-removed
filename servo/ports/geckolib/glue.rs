@@ -42553,7 +42553,7 @@ mut
 bindings
 :
 :
-Gecko_GetOrCreateKeyframeAtStart
+Gecko_GetOrCreateKeyframeAtEnd
 (
 keyframes
 step
@@ -42833,6 +42833,12 @@ composition
 }
 }
 }
+keyframes
+.
+reverse
+(
+)
+;
 let
 mut
 properties_changed
