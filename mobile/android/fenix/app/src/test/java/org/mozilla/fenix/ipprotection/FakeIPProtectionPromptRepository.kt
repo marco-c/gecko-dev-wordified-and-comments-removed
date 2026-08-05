@@ -100,6 +100,13 @@ hasAlreadyUsedIPProtection
 Boolean
 =
 false
+override
+val
+showOnboardingBottomSheet
+:
+Boolean
+=
+true
 )
 :
 IPProtectionPromptRepository
