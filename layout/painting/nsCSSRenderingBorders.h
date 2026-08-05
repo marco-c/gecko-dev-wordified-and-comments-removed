@@ -314,6 +314,10 @@ RectCornerRadii
 &
 aBorderRadii
 const
+Margin
+&
+aBorderInset
+const
 nscolor
 *
 aBorderColors
@@ -455,6 +459,9 @@ mBorderWidths
 ;
 RectCornerRadii
 mBorderRadii
+;
+Margin
+mBorderInset
 ;
 nscolor
 mBorderColors

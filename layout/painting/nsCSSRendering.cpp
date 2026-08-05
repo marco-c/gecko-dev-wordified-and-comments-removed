@@ -4250,6 +4250,9 @@ joinedBorderAreaPx
 borderStyles
 borderWidths
 bgRadii
+Margin
+(
+)
 borderColors
 !
 aForFrame
@@ -5134,6 +5137,9 @@ width
 oneDevPixel
 )
 ;
+Margin
+outlineInset
+;
 nsRectCornerRadii
 twipsRadii
 ;
@@ -5219,6 +5225,11 @@ Width
 )
 )
 ;
+outlineInset
+=
+-
+widths
+;
 nsCSSBorderRenderer
 :
 :
@@ -5293,6 +5304,7 @@ oRect
 outlineStyles
 outlineWidths
 outlineRadii
+outlineInset
 outlineColors
 !
 aForFrame
@@ -5520,6 +5532,9 @@ focusRect
 focusStyles
 focusWidths
 focusRadii
+Margin
+(
+)
 focusColors
 !
 aForFrame
