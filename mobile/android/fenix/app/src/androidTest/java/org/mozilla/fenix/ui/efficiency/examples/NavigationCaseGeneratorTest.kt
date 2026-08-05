@@ -105,9 +105,11 @@ ui
 .
 efficiency
 .
-helpers
+generation
 .
-BaseTest
+interaction
+.
+InteractionCaseGenerator
 import
 org
 .
@@ -119,11 +121,9 @@ ui
 .
 efficiency
 .
-navigation
+helpers
 .
-interaction
-.
-InteractionCaseGenerator
+BaseTest
 import
 org
 .

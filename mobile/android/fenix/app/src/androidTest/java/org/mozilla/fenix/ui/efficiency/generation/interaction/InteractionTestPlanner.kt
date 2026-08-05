@@ -9,7 +9,7 @@ ui
 .
 efficiency
 .
-navigation
+generation
 .
 interaction
 import

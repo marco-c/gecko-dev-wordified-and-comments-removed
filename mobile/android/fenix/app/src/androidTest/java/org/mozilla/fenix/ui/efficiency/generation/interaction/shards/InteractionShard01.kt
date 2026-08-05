@@ -9,7 +9,7 @@ ui
 .
 efficiency
 .
-navigation
+generation
 .
 interaction
 .
@@ -47,7 +47,7 @@ ui
 .
 efficiency
 .
-navigation
+generation
 .
 interaction
 .
@@ -63,7 +63,7 @@ ui
 .
 efficiency
 .
-navigation
+generation
 .
 interaction
 .
@@ -79,7 +79,7 @@ ui
 .
 efficiency
 .
-navigation
+generation
 .
 interaction
 .
