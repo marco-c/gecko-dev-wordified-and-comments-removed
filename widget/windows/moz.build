@@ -346,11 +346,6 @@ widget
 =
 [
 "
-AudioSession
-.
-h
-"
-"
 CompositorWidgetChild
 .
 h
@@ -372,6 +367,11 @@ h
 "
 "
 nsWindowLoggedMessages
+.
+h
+"
+"
+WinAudioSession
 .
 h
 "
@@ -425,11 +425,6 @@ UNIFIED_SOURCES
 +
 =
 [
-"
-AudioSession
-.
-cpp
-"
 "
 CompositorWidgetChild
 .
@@ -632,6 +627,11 @@ cpp
 "
 "
 TSFTextStoreBase
+.
+cpp
+"
+"
+WinAudioSession
 .
 cpp
 "

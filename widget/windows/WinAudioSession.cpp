@@ -225,7 +225,7 @@ __VA_ARGS__
 )
 )
 class
-AudioSession
+WinAudioSession
 final
 :
 public
@@ -323,7 +323,7 @@ RefPtr
 session
 =
 new
-AudioSession
+WinAudioSession
 (
 std
 :
@@ -714,7 +714,7 @@ S_OK
 }
 private
 :
-AudioSession
+WinAudioSession
 (
 nsString
 &
@@ -749,7 +749,7 @@ aSessionGroupingParameter
 {
 }
 ~
-AudioSession
+WinAudioSession
 (
 )
 {
@@ -833,7 +833,7 @@ NS_DECL_OWNINGTHREAD
 static
 StaticRefPtr
 <
-AudioSession
+WinAudioSession
 >
 sService
 MOZ_GUARDED_BY
@@ -844,16 +844,16 @@ sMutex
 }
 ;
 StaticMutex
-AudioSession
+WinAudioSession
 :
 :
 sMutex
 ;
 StaticRefPtr
 <
-AudioSession
+WinAudioSession
 >
-AudioSession
+WinAudioSession
 :
 :
 sService
@@ -1079,7 +1079,7 @@ sessionGroupingParameter
 )
 mutable
 {
-AudioSession
+WinAudioSession
 :
 :
 Create
@@ -1178,7 +1178,7 @@ IsShutdownImpending
 )
 )
 ;
-AudioSession
+WinAudioSession
 :
 :
 Destroy
@@ -1188,14 +1188,14 @@ Destroy
 }
 NS_IMPL_ADDREF
 (
-AudioSession
+WinAudioSession
 )
 NS_IMPL_RELEASE
 (
-AudioSession
+WinAudioSession
 )
 STDMETHODIMP
-AudioSession
+WinAudioSession
 :
 :
 QueryInterface
@@ -1260,7 +1260,7 @@ E_NOINTERFACE
 ;
 }
 void
-AudioSession
+WinAudioSession
 :
 :
 Start
@@ -1633,7 +1633,7 @@ release
 ;
 }
 void
-AudioSession
+WinAudioSession
 :
 :
 Stop
@@ -1771,7 +1771,7 @@ RestartAudioSession
 [
 ]
 {
-AudioSession
+WinAudioSession
 :
 :
 MaybeRestart
