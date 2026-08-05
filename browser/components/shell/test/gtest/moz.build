@@ -103,6 +103,11 @@ WindowsUIElementTests
 .
 cpp
 "
+"
+WindowsUIOverlayImageTests
+.
+cpp
+"
 ]
 FINAL_LIBRARY
 =
