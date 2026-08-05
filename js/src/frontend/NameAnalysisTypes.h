@@ -297,13 +297,8 @@ CoverArrowParameter
 Var
 Let
 Const
-#
-ifdef
-ENABLE_EXPLICIT_RESOURCE_MANAGEMENT
 Using
 AwaitUsing
-#
-endif
 Class
 Import
 BodyLevelFunction
@@ -451,9 +446,6 @@ BindingKind
 :
 Const
 ;
-#
-ifdef
-ENABLE_EXPLICIT_RESOURCE_MANAGEMENT
 case
 DeclarationKind
 :
@@ -472,8 +464,6 @@ BindingKind
 :
 Using
 ;
-#
-endif
 case
 DeclarationKind
 :
@@ -639,9 +629,6 @@ FieldPlacement
 Unspecified
 )
 {
-#
-ifdef
-ENABLE_EXPLICIT_RESOURCE_MANAGEMENT
 if
 (
 kind
@@ -667,8 +654,6 @@ closedOver_
 true
 ;
 }
-#
-endif
 }
 DeclaredNameInfo
 (

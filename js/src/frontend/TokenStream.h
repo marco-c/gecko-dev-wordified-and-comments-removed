@@ -412,9 +412,6 @@ TokenStreamPosition
 ;
 public
 :
-#
-ifdef
-ENABLE_EXPLICIT_RESOURCE_MANAGEMENT
 static
 constexpr
 unsigned
@@ -422,17 +419,6 @@ maxLookahead
 =
 3
 ;
-#
-else
-static
-constexpr
-unsigned
-maxLookahead
-=
-2
-;
-#
-endif
 using
 Modifier
 =

@@ -67398,9 +67398,6 @@ MOZ_CRASH
 #
 endif
 }
-#
-ifdef
-ENABLE_EXPLICIT_RESOURCE_MANAGEMENT
 void
 LIRGenerator
 :
@@ -67568,8 +67565,6 @@ ins
 )
 ;
 }
-#
-endif
 #
 ifdef
 FUZZING_JS_FUZZILLI

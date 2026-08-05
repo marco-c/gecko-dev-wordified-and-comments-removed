@@ -4486,9 +4486,6 @@ CallNode
 callNode
 )
 ;
-#
-ifdef
-ENABLE_EXPLICIT_RESOURCE_MANAGEMENT
 enum
 class
 DisposalKind
@@ -4514,8 +4511,6 @@ DisposalKind
 kind
 )
 ;
-#
-endif
 #
 ifdef
 DEBUG
@@ -4927,18 +4922,6 @@ createImmutableScriptData
 (
 )
 ;
-#
-if
-defined
-(
-ENABLE_DECORATORS
-)
-|
-|
-defined
-(
-ENABLE_EXPLICIT_RESOURCE_MANAGEMENT
-)
 [
 [
 nodiscard
@@ -4949,8 +4932,6 @@ emitCheckIsCallable
 (
 )
 ;
-#
-endif
 private
 :
 [

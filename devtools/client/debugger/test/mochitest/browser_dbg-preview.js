@@ -695,12 +695,6 @@ Worker
 ]
 )
 ;
-if
-(
-AppConstants
-.
-ENABLE_EXPLICIT_RESOURCE_MANAGEMENT
-)
 {
 info
 (

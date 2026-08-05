@@ -376,13 +376,8 @@ VARDECL_VAR
 0
 VARDECL_CONST
 VARDECL_LET
-#
-ifdef
-ENABLE_EXPLICIT_RESOURCE_MANAGEMENT
 VARDECL_USING
 VARDECL_AWAIT_USING
-#
-endif
 VARDECL_LIMIT
 }
 ;
@@ -6051,9 +6046,6 @@ let
 ;
 break
 ;
-#
-ifdef
-ENABLE_EXPLICIT_RESOURCE_MANAGEMENT
 case
 VARDECL_USING
 :
@@ -6077,8 +6069,6 @@ using
 ;
 break
 ;
-#
-endif
 default
 :
 s
@@ -8796,9 +8786,6 @@ LetDecl
 )
 |
 |
-#
-ifdef
-ENABLE_EXPLICIT_RESOURCE_MANAGEMENT
 pn
 -
 >
@@ -8823,8 +8810,6 @@ AwaitUsingDecl
 )
 |
 |
-#
-endif
 pn
 -
 >
@@ -8909,9 +8894,6 @@ LetDecl
 )
 |
 |
-#
-ifdef
-ENABLE_EXPLICIT_RESOURCE_MANAGEMENT
 pn
 -
 >
@@ -8936,8 +8918,6 @@ AwaitUsingDecl
 )
 |
 |
-#
-endif
 pn
 -
 >
@@ -8999,9 +8979,6 @@ LetDecl
 )
 |
 |
-#
-ifdef
-ENABLE_EXPLICIT_RESOURCE_MANAGEMENT
 declList
 -
 >
@@ -9026,8 +9003,6 @@ AwaitUsingDecl
 )
 |
 |
-#
-endif
 declList
 -
 >
@@ -9085,9 +9060,6 @@ kind
 VARDECL_LET
 ;
 }
-#
-ifdef
-ENABLE_EXPLICIT_RESOURCE_MANAGEMENT
 else
 if
 (
@@ -9128,8 +9100,6 @@ kind
 VARDECL_AWAIT_USING
 ;
 }
-#
-endif
 else
 {
 kind
@@ -11911,9 +11881,6 @@ ParseNodeKind
 :
 ConstDecl
 )
-#
-ifdef
-ENABLE_EXPLICIT_RESOURCE_MANAGEMENT
 |
 |
 pn
@@ -11938,8 +11905,6 @@ ParseNodeKind
 :
 AwaitUsingDecl
 )
-#
-endif
 ;
 return
 (
@@ -12401,9 +12366,6 @@ ParseNodeKind
 :
 ConstDecl
 :
-#
-ifdef
-ENABLE_EXPLICIT_RESOURCE_MANAGEMENT
 case
 ParseNodeKind
 :
@@ -12416,8 +12378,6 @@ ParseNodeKind
 :
 AwaitUsingDecl
 :
-#
-endif
 return
 declaration
 (
@@ -13385,9 +13345,6 @@ LetDecl
 )
 &
 &
-#
-ifdef
-ENABLE_EXPLICIT_RESOURCE_MANAGEMENT
 !
 initNode
 -
@@ -13414,8 +13371,6 @@ AwaitUsingDecl
 )
 &
 &
-#
-endif
 !
 initNode
 -
@@ -13474,9 +13429,6 @@ LetDecl
 )
 |
 |
-#
-ifdef
-ENABLE_EXPLICIT_RESOURCE_MANAGEMENT
 initNode
 -
 >
@@ -13501,8 +13453,6 @@ AwaitUsingDecl
 )
 |
 |
-#
-endif
 initNode
 -
 >

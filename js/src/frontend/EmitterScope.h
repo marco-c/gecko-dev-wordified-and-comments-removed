@@ -75,9 +75,6 @@ Stencil
 h
 "
 #
-ifdef
-ENABLE_EXPLICIT_RESOURCE_MANAGEMENT
-#
 include
 "
 frontend
@@ -86,8 +83,6 @@ UsingEmitter
 .
 h
 "
-#
-endif
 #
 include
 "
@@ -158,9 +153,6 @@ fallbackFreeNameLocation_
 bool
 hasEnvironment_
 ;
-#
-ifdef
-ENABLE_EXPLICIT_RESOURCE_MANAGEMENT
 mozilla
 :
 :
@@ -180,8 +172,6 @@ BlockKind
 :
 Other
 ;
-#
-endif
 uint16_t
 environmentChainLength_
 ;
@@ -436,9 +426,6 @@ slotEnd
 )
 ;
 }
-#
-ifdef
-ENABLE_EXPLICIT_RESOURCE_MANAGEMENT
 void
 setHasDisposables
 (
@@ -466,8 +453,6 @@ bce
 ;
 }
 }
-#
-endif
 public
 :
 explicit
@@ -505,9 +490,6 @@ LexicalScope
 ParserData
 *
 bindings
-#
-ifdef
-ENABLE_EXPLICIT_RESOURCE_MANAGEMENT
 BlockKind
 blockKind
 =
@@ -515,8 +497,6 @@ BlockKind
 :
 :
 Other
-#
-endif
 )
 ;
 [
@@ -757,9 +737,6 @@ return
 hasEnvironment_
 ;
 }
-#
-ifdef
-ENABLE_EXPLICIT_RESOURCE_MANAGEMENT
 private
 :
 [
@@ -862,8 +839,6 @@ hasAwaitUsing
 )
 ;
 }
-#
-endif
 uint32_t
 frameSlotStart
 (

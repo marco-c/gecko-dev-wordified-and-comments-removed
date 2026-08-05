@@ -9,17 +9,6 @@ js
 "
 )
 ;
-load
-(
-libdir
-+
-"
-asserts
-.
-js
-"
-)
-;
 {
 const
 disposed

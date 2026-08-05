@@ -785,17 +785,12 @@ structuredClone
 "
 locks
 "
-#
-ifdef
-ENABLE_EXPLICIT_RESOURCE_MANAGEMENT
 "
 suppressed
 "
 "
 error
 "
-#
-endif
 }
 ;
 class

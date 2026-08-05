@@ -279,8 +279,6 @@ TokenKind
 TypeOf
 )
 \
-IF_EXPLICIT_RESOURCE_MANAGEMENT
-(
 MACRO
 (
 using
@@ -289,7 +287,6 @@ TokenKind
 :
 :
 Using
-)
 )
 \
 MACRO

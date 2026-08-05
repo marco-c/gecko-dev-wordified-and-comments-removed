@@ -40,12 +40,7 @@ MissingPrivateOnGet
 MissingPrivateOnSet
 AssignToPrivateMethod
 DecoratorInvalidReturnType
-#
-ifdef
-ENABLE_EXPLICIT_RESOURCE_MANAGEMENT
 DisposeNotCallable
-#
-endif
 }
 ;
 JSErrNum

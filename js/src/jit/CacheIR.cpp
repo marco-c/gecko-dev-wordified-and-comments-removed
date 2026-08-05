@@ -65815,9 +65815,6 @@ InlinableNative
 :
 IntrinsicGuardToAsyncIteratorHelper
 :
-#
-ifdef
-ENABLE_EXPLICIT_RESOURCE_MANAGEMENT
 case
 InlinableNative
 :
@@ -65830,8 +65827,6 @@ InlinableNative
 :
 IntrinsicGuardToDisposableStack
 :
-#
-endif
 return
 tryAttachGuardToClass
 (

@@ -150,9 +150,6 @@ Start
 endif
 public
 :
-#
-ifdef
-ENABLE_EXPLICIT_RESOURCE_MANAGEMENT
 enum
 class
 HeadUsingDeclarationKind
@@ -174,8 +171,6 @@ None
 ;
 public
 :
-#
-endif
 ForOfEmitter
 (
 BytecodeEmitter
@@ -189,13 +184,8 @@ SelfHostedIter
 selfHostedIter
 IteratorKind
 iterKind
-#
-ifdef
-ENABLE_EXPLICIT_RESOURCE_MANAGEMENT
 HeadUsingDeclarationKind
 usingDeclarationInHead
-#
-endif
 )
 ;
 [

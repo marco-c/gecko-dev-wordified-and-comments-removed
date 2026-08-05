@@ -1992,9 +1992,6 @@ scriptId
 )
 ;
 }
-#
-ifdef
-ENABLE_EXPLICIT_RESOURCE_MANAGEMENT
 bool
 isUsingSyntaxAllowed
 (
@@ -2047,8 +2044,6 @@ isModule
 )
 ;
 }
-#
-endif
 void
 setSuperScopeNeedsHomeObject
 (

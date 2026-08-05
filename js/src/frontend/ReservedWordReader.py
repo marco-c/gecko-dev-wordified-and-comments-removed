@@ -13,10 +13,6 @@ enable_decorators
 =
 False
     
-enable_explicit_resource_management
-=
-False
-    
 for
 arg
 in
@@ -37,27 +33,6 @@ decorators
 :
             
 enable_decorators
-=
-True
-        
-elif
-arg
-=
-=
-"
--
--
-enable
--
-explicit
--
-resource
--
-management
-"
-:
-            
-enable_explicit_resource_management
 =
 True
         
@@ -172,20 +147,6 @@ accessor
 and
 not
 enable_decorators
-:
-                    
-continue
-                
-if
-reserved_word
-=
-=
-"
-using
-"
-and
-not
-enable_explicit_resource_management
 :
                     
 continue

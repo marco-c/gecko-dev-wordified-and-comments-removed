@@ -52,12 +52,7 @@ FormalParameter
 Var
 Let
 Const
-#
-ifdef
-ENABLE_EXPLICIT_RESOURCE_MANAGEMENT
 Using
-#
-endif
 NamedLambdaCallee
 Synthetic
 PrivateMethod
@@ -89,9 +84,6 @@ BindingKind
 :
 :
 Const
-#
-ifdef
-ENABLE_EXPLICIT_RESOURCE_MANAGEMENT
 |
 |
 kind
@@ -101,8 +93,6 @@ BindingKind
 :
 :
 Using
-#
-endif
 ;
 }
 class

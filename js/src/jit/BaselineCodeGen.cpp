@@ -27335,9 +27335,6 @@ LeaveWith
 )
 ;
 }
-#
-ifdef
-ENABLE_EXPLICIT_RESOURCE_MANAGEMENT
 template
 <
 typename
@@ -27743,8 +27740,6 @@ return
 true
 ;
 }
-#
-endif
 template
 <
 typename

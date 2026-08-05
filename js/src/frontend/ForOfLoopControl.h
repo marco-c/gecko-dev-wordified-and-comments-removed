@@ -57,9 +57,6 @@ TryEmitter
 h
 "
 #
-ifdef
-ENABLE_EXPLICIT_RESOURCE_MANAGEMENT
-#
 include
 "
 frontend
@@ -68,8 +65,6 @@ UsingEmitter
 .
 h
 "
-#
-endif
 #
 include
 "
@@ -121,9 +116,6 @@ selfHostedIter_
 IteratorKind
 iterKind_
 ;
-#
-ifdef
-ENABLE_EXPLICIT_RESOURCE_MANAGEMENT
 mozilla
 :
 :
@@ -133,8 +125,6 @@ ForOfDisposalEmitter
 >
 forOfDisposalEmitter_
 ;
-#
-endif
 public
 :
 ForOfLoopControl
@@ -150,9 +140,6 @@ IteratorKind
 iterKind
 )
 ;
-#
-ifdef
-ENABLE_EXPLICIT_RESOURCE_MANAGEMENT
 [
 [
 nodiscard
@@ -172,8 +159,6 @@ bool
 hasAwaitUsing
 )
 ;
-#
-endif
 [
 [
 nodiscard

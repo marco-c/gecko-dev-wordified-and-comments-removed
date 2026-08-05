@@ -353,18 +353,6 @@ return
 true
 ;
 }
-#
-if
-defined
-(
-ENABLE_DECORATORS
-)
-|
-|
-defined
-(
-ENABLE_EXPLICIT_RESOURCE_MANAGEMENT
-)
 bool
 InternalWhileEmitter
 :
@@ -433,5 +421,3 @@ return
 true
 ;
 }
-#
-endif

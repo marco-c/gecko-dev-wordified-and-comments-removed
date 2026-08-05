@@ -2478,9 +2478,6 @@ ParseNodeKind
 ParamsBody
 )
 ;
-#
-ifdef
-ENABLE_EXPLICIT_RESOURCE_MANAGEMENT
 MOZ_ASSERT
 (
 kind
@@ -2503,8 +2500,6 @@ ParseNodeKind
 AwaitUsingDecl
 )
 ;
-#
-endif
 return
 NodeGeneric
 ;
@@ -2572,9 +2567,6 @@ ParseNodeKind
 :
 :
 ConstDecl
-#
-ifdef
-ENABLE_EXPLICIT_RESOURCE_MANAGEMENT
 |
 |
 kind
@@ -2593,8 +2585,6 @@ ParseNodeKind
 :
 :
 AwaitUsingDecl
-#
-endif
 )
 ;
 return

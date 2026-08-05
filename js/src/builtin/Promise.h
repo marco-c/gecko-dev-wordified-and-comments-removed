@@ -89,12 +89,7 @@ AsyncGeneratorYieldReturnAwaitedRejected
 AsyncFromSyncIteratorValueUnwrapDone
 AsyncFromSyncIteratorValueUnwrapNotDone
 AsyncFromSyncIteratorClose
-#
-ifdef
-ENABLE_EXPLICIT_RESOURCE_MANAGEMENT
 AsyncIteratorDisposeAwaitFulfilled
-#
-endif
 Limit
 }
 ;
@@ -896,9 +891,6 @@ JSObject
 reject
 )
 ;
-#
-ifdef
-ENABLE_EXPLICIT_RESOURCE_MANAGEMENT
 [
 [
 nodiscard
@@ -932,8 +924,6 @@ JSObject
 resultPromise
 )
 ;
-#
-endif
 }
 #
 endif

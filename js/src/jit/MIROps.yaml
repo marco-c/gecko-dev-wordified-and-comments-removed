@@ -17058,9 +17058,6 @@ gen_boilerplate
 false
 #
 endif
-#
-ifdef
-ENABLE_EXPLICIT_RESOURCE_MANAGEMENT
 -
 name
 :
@@ -17105,5 +17102,3 @@ Value
 generate_lir
 :
 true
-#
-endif

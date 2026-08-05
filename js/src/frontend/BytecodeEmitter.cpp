@@ -5807,9 +5807,6 @@ yet
 ;
 #
 endif
-#
-ifdef
-ENABLE_EXPLICIT_RESOURCE_MANAGEMENT
 case
 ParseNodeKind
 :
@@ -5834,8 +5831,6 @@ yet
 "
 )
 ;
-#
-endif
 case
 ParseNodeKind
 :
@@ -12921,9 +12916,6 @@ switchToMain
 (
 )
 ;
-#
-ifdef
-ENABLE_EXPLICIT_RESOURCE_MANAGEMENT
 if
 (
 !
@@ -12939,8 +12931,6 @@ return
 false
 ;
 }
-#
-endif
 if
 (
 topLevelAwait
@@ -12994,9 +12984,6 @@ false
 ;
 }
 }
-#
-ifdef
-ENABLE_EXPLICIT_RESOURCE_MANAGEMENT
 if
 (
 !
@@ -13012,8 +12999,6 @@ return
 false
 ;
 }
-#
-endif
 if
 (
 topLevelAwait
@@ -13282,18 +13267,6 @@ span
 )
 ;
 }
-#
-if
-defined
-(
-ENABLE_DECORATORS
-)
-|
-|
-defined
-(
-ENABLE_EXPLICIT_RESOURCE_MANAGEMENT
-)
 bool
 BytecodeEmitter
 :
@@ -13367,8 +13340,6 @@ Call
 )
 ;
 }
-#
-endif
 bool
 BytecodeEmitter
 :
@@ -20171,9 +20142,6 @@ false
 ;
 }
 }
-#
-ifdef
-ENABLE_EXPLICIT_RESOURCE_MANAGEMENT
 if
 (
 declList
@@ -20247,8 +20215,6 @@ false
 ;
 }
 }
-#
-endif
 if
 (
 !
@@ -24473,9 +24439,6 @@ kind
 )
 ;
 }
-#
-ifdef
-ENABLE_EXPLICIT_RESOURCE_MANAGEMENT
 BlockKind
 blockKind
 =
@@ -24541,8 +24504,6 @@ BlockKind
 ForOf
 ;
 }
-#
-endif
 if
 (
 !
@@ -24557,12 +24518,7 @@ lexicalScope
 scopeBindings
 (
 )
-#
-ifdef
-ENABLE_EXPLICIT_RESOURCE_MANAGEMENT
 blockKind
-#
-endif
 )
 )
 {
@@ -26832,9 +26788,6 @@ stackDepth
 )
 ;
 }
-#
-ifdef
-ENABLE_EXPLICIT_RESOURCE_MANAGEMENT
 if
 (
 declarationList
@@ -26908,8 +26861,6 @@ false
 ;
 }
 }
-#
-endif
 if
 (
 !
@@ -27149,9 +27100,6 @@ getSelfHostedIterFor
 forHeadExpr
 )
 ;
-#
-ifdef
-ENABLE_EXPLICIT_RESOURCE_MANAGEMENT
 ForOfEmitter
 :
 :
@@ -27227,8 +27175,6 @@ HeadUsingDeclarationKind
 Async
 ;
 }
-#
-endif
 ForOfEmitter
 forOf
 (
@@ -27236,12 +27182,7 @@ this
 headLexicalEmitterScope
 selfHostedIter
 iterKind
-#
-ifdef
-ENABLE_EXPLICIT_RESOURCE_MANAGEMENT
 headUsingDeclKind
-#
-endif
 )
 ;
 if
@@ -27346,9 +27287,6 @@ ParseNodeKind
 :
 ConstDecl
 )
-#
-ifdef
-ENABLE_EXPLICIT_RESOURCE_MANAGEMENT
 |
 |
 forOfTarget
@@ -27373,8 +27311,6 @@ ParseNodeKind
 :
 AwaitUsingDecl
 )
-#
-endif
 )
 ;
 }
@@ -38186,9 +38122,6 @@ return
 true
 ;
 }
-#
-ifdef
-ENABLE_EXPLICIT_RESOURCE_MANAGEMENT
 bool
 BytecodeEmitter
 :
@@ -38446,8 +38379,6 @@ return
 true
 ;
 }
-#
-endif
 bool
 BytecodeEmitter
 :
@@ -39096,9 +39027,6 @@ callNode
 )
 ;
 }
-#
-ifdef
-ENABLE_EXPLICIT_RESOURCE_MANAGEMENT
 if
 (
 calleeName
@@ -39153,8 +39081,6 @@ Sync
 )
 ;
 }
-#
-endif
 #
 ifdef
 DEBUG
@@ -58321,9 +58247,6 @@ false
 }
 break
 ;
-#
-ifdef
-ENABLE_EXPLICIT_RESOURCE_MANAGEMENT
 case
 ParseNodeKind
 :
@@ -58360,8 +58283,6 @@ false
 }
 break
 ;
-#
-endif
 case
 ParseNodeKind
 :

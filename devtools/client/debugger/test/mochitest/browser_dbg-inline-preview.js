@@ -1160,17 +1160,6 @@ preview
 true
 )
 ;
-if
-(
-!
-AppConstants
-.
-ENABLE_EXPLICIT_RESOURCE_MANAGEMENT
-)
-{
-return
-;
-}
 const
 dbg
 =

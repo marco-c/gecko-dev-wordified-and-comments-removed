@@ -265,17 +265,13 @@ VMFUNCTION_LIST
 _
 )
 \
-IF_EXPLICIT_RESOURCE_MANAGEMENT
-(
 _
 (
 AddDisposableResourceToCapability
-\
 js
 :
 :
 AddDisposableResourceToCapability
-)
 )
 \
 _
@@ -1201,9 +1197,6 @@ jit
 CreateGeneratorFromFrame
 )
 \
-IF_EXPLICIT_RESOURCE_MANAGEMENT
-(
-\
 _
 (
 CreateSuppressedError
@@ -1211,7 +1204,6 @@ js
 :
 :
 CreateSuppressedError
-)
 )
 \
 _

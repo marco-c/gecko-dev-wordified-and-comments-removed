@@ -359,16 +359,12 @@ JSEXN_REFERENCEERR
 )
 )
 \
-IF_EXPLICIT_RESOURCE_MANAGEMENT
-(
-\
 REAL
 (
 SuppressedError
 ERROR_CLASP
 (
 JSEXN_SUPPRESSEDERR
-)
 )
 )
 \
@@ -1012,9 +1008,6 @@ AbstractModuleSourceObject
 class_
 )
 \
-IF_EXPLICIT_RESOURCE_MANAGEMENT
-(
-\
 REAL
 (
 DisposableStack
@@ -1023,10 +1016,6 @@ OCLASP
 DisposableStack
 )
 )
-)
-\
-IF_EXPLICIT_RESOURCE_MANAGEMENT
-(
 \
 REAL
 (
@@ -1034,7 +1023,6 @@ AsyncDisposableStack
 OCLASP
 (
 AsyncDisposableStack
-)
 )
 )
 \

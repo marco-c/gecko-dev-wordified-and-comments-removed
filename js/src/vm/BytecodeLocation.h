@@ -100,9 +100,6 @@ TypeofEqOperand
 h
 "
 #
-ifdef
-ENABLE_EXPLICIT_RESOURCE_MANAGEMENT
-#
 include
 "
 vm
@@ -111,8 +108,6 @@ UsingHint
 .
 h
 "
-#
-endif
 namespace
 js
 {
@@ -1537,9 +1532,6 @@ rawBytecode_
 )
 ;
 }
-#
-ifdef
-ENABLE_EXPLICIT_RESOURCE_MANAGEMENT
 UsingHint
 getUsingHint
 (
@@ -1567,8 +1559,6 @@ rawBytecode_
 )
 ;
 }
-#
-endif
 uint32_t
 getNewArrayLength
 (

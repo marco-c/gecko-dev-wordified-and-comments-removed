@@ -5167,9 +5167,6 @@ false
 break
 ;
 }
-#
-ifdef
-ENABLE_EXPLICIT_RESOURCE_MANAGEMENT
 case
 BindingKind
 :
@@ -5178,8 +5175,6 @@ Using
 :
 break
 ;
-#
-endif
 case
 BindingKind
 :

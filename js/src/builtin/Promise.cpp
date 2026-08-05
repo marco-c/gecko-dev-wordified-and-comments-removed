@@ -10545,9 +10545,6 @@ handlerResult
 argument
 ;
 }
-#
-ifdef
-ENABLE_EXPLICIT_RESOURCE_MANAGEMENT
 else
 if
 (
@@ -10570,8 +10567,6 @@ UndefinedValue
 )
 ;
 }
-#
-endif
 else
 if
 (
@@ -25256,9 +25251,6 @@ reaction
 )
 ;
 }
-#
-ifdef
-ENABLE_EXPLICIT_RESOURCE_MANAGEMENT
 [
 [
 nodiscard
@@ -25332,8 +25324,6 @@ extra
 )
 ;
 }
-#
-endif
 [
 [
 nodiscard

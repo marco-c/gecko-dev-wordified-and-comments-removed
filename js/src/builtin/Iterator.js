@@ -598,9 +598,6 @@ iterator
 )
 ;
 }
-#
-ifdef
-ENABLE_EXPLICIT_RESOURCE_MANAGEMENT
 function
 IteratorDispose
 (
@@ -639,8 +636,6 @@ O
 ;
 }
 }
-#
-endif
 function
 IteratorHelperNext
 (
