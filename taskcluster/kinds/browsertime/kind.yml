@@ -161,7 +161,7 @@ use
 -
 python
 :
-system
+default
 use
 -
 uv
