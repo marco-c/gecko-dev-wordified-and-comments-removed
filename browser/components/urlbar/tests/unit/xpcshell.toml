@@ -149,6 +149,13 @@ js
 ]
 [
 "
+test_UrlbarShared_deepEqual
+.
+js
+"
+]
+[
+"
 test_UrlbarUtils_addToInputHistoryWhenReady
 .
 js
@@ -884,6 +891,13 @@ sync
 [
 "
 test_resultGroups
+.
+js
+"
+]
+[
+"
+test_resultGroups_smartbar
 .
 js
 "
