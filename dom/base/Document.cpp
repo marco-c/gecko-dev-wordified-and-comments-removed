@@ -2333,6 +2333,17 @@ mozilla
 /
 dom
 /
+SpeculationRulesManager
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 StyleSheetApplicableStateChangeEvent
 .
 h
