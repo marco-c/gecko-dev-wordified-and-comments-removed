@@ -1267,6 +1267,15 @@ hover
 -
 identity
 -
+stroke
+-
+color
+"
+"
+-
+-
+identity
+-
 tab
 -
 color
