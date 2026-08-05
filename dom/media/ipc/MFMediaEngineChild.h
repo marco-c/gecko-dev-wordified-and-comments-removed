@@ -339,6 +339,12 @@ InitMediaEnginePromise
 >
 mInitEngineRequest
 ;
+MozPromiseRequestHolder
+<
+GenericNonExclusivePromise
+>
+mLaunchProcessRequest
+;
 NotNull
 <
 FrameStatistics
