@@ -67,4 +67,3 @@ LayersHistory
 AsyncPanZoom
 Silk
 Moz2D
-DebuggingWebRenderScreenshots
