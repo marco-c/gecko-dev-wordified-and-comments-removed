@@ -10232,10 +10232,6 @@ HandleRequestAttrs
 dwFlags
 cFilterAttrs
 paFilterAttrs
-TSFUtils
-:
-:
-NUM_OF_SUPPORTED_ATTRS
 )
 ;
 }
@@ -10312,10 +10308,6 @@ dwFlags
 TS_ATTR_FIND_WANT_VALUE
 cFilterAttrs
 paFilterAttrs
-TSFUtils
-:
-:
-NUM_OF_SUPPORTED_ATTRS
 )
 ;
 }
@@ -10343,10 +10335,6 @@ RetrieveRequestedAttrsInternal
 ulCount
 paAttrVals
 pcFetched
-TSFUtils
-:
-:
-NUM_OF_SUPPORTED_ATTRS
 )
 ;
 if
