@@ -68,6 +68,16 @@ set
 "
 browser
 .
+navigation
+.
+requireUserInteraction
+"
+false
+]
+[
+"
+browser
+.
 newtab
 .
 preload
