@@ -578,6 +578,12 @@ IsHandlingKeyboardInput
 ;
 static
 bool
+IsHandlingKeyboardInputWithPasteActions
+(
+)
+;
+static
+bool
 IsUserInteractionEvent
 (
 const
@@ -662,6 +668,9 @@ mMessage
 ;
 bool
 mIsHandlingUserInput
+;
+bool
+mPreviousHandlingKeyboardEventHasAssociatedPasteCommands
 ;
 }
 ;

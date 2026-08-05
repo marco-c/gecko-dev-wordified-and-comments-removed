@@ -162,6 +162,12 @@ mDisabledHandlerFound
 =
 false
 ;
+Maybe
+<
+Command
+>
+mRelevantCommand
+;
 }
 ;
 MOZ_CAN_RUN_SCRIPT
