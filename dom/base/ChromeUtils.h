@@ -1088,6 +1088,10 @@ const
 nsACString
 &
 aURI
+const
+nsACString
+&
+aHintCharset
 JS
 :
 :
