@@ -60,13 +60,11 @@ const
 FRAME_SCRIPT_URL
 =
 "
-chrome
+resource
 :
 /
 /
 gfxsanity
-/
-content
 /
 gfxFrameScript
 .
