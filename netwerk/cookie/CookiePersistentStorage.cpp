@@ -10428,7 +10428,7 @@ ExecuteSimpleSQL
 PRAGMA
 synchronous
 =
-OFF
+NORMAL
 "
 _ns
 )
