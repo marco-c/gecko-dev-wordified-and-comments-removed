@@ -12698,7 +12698,7 @@ pref_key_should_show_marketing_onboarding
 )
 default
 =
-true
+false
 )
 var
 shouldUseMinimalBottomToolbarWhenEnteringText
