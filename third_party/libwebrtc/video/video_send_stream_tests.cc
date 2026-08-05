@@ -11162,6 +11162,12 @@ mutex_
 ;
 CreateSenderCall
 (
+TaskQueueBase
+:
+:
+Current
+(
+)
 )
 ;
 test
@@ -19031,6 +19037,12 @@ support_orientation_ext
 {
 CreateSenderCall
 (
+TaskQueueBase
+:
+:
+Current
+(
+)
 )
 ;
 test

@@ -22192,6 +22192,9 @@ Call
 Create
 (
 CallConfig
+:
+:
+CreateSingleThreaded
 (
 env
 )
@@ -22383,6 +22386,9 @@ Call
 Create
 (
 CallConfig
+:
+:
+CreateSingleThreaded
 (
 env
 )
@@ -23005,6 +23011,9 @@ Call
 Create
 (
 CallConfig
+:
+:
+CreateSingleThreaded
 (
 env
 )
@@ -23207,6 +23216,9 @@ Call
 Create
 (
 CallConfig
+:
+:
+CreateSingleThreaded
 (
 env
 )
@@ -23323,6 +23335,11 @@ engine
 ;
 CallConfig
 call_config
+=
+CallConfig
+:
+:
+CreateSingleThreaded
 (
 env
 )

@@ -6787,6 +6787,14 @@ simulated_network_api
 /
 api
 /
+task_queue
+"
+"
+.
+.
+/
+api
+/
 video
 :
 video_frame

@@ -468,11 +468,6 @@ RTC_DCHECK
 task_queue_
 )
 ;
-RTC_DCHECK_RUN_ON
-(
-task_queue_
-)
-;
 }
 CallStats
 :

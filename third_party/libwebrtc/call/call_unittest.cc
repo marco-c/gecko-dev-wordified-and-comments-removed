@@ -599,6 +599,11 @@ MockAudioDeviceModule
 ;
 CallConfig
 config
+=
+CallConfig
+:
+:
+CreateSingleThreaded
 (
 CreateTestEnvironment
 (
@@ -3751,6 +3756,11 @@ MockAudioDeviceModule
 ;
 CallConfig
 config
+=
+CallConfig
+:
+:
+CreateSingleThreaded
 (
 env
 )

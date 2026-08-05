@@ -221,6 +221,9 @@ TimeDelta
 max_hold_back_window
 int
 max_hold_back_window_in_packets
+TaskQueueBase
+*
+task_queue
 )
 ;
 ~
