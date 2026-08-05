@@ -3094,7 +3094,7 @@ aDisplayMode
 ;
 const
 uint32_t
-kTrackingDelayMs
+kDelayMs
 {
 500
 }
@@ -3107,7 +3107,7 @@ getter_AddRefs
 timer
 )
 callback
-kTrackingDelayMs
+kDelayMs
 nsITimer
 :
 :
@@ -3501,7 +3501,7 @@ displayMode
 ;
 const
 uint32_t
-kRetryDelayMs
+kDelayMs
 {
 500
 }
@@ -3514,7 +3514,7 @@ getter_AddRefs
 timer
 )
 callback
-kRetryDelayMs
+kDelayMs
 nsITimer
 :
 :
