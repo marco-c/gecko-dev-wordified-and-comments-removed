@@ -14333,7 +14333,7 @@ regexp
 NativeObject
 :
 :
-getFixedSlotOffset
+getFixedSlotOffsetTyped
 (
 RegExpObject
 :
@@ -14850,7 +14850,7 @@ regexp
 NativeObject
 :
 :
-getFixedSlotOffset
+getFixedSlotOffsetTyped
 (
 RegExpObject
 :
@@ -17613,7 +17613,7 @@ regexp
 NativeObject
 :
 :
-getFixedSlotOffset
+getFixedSlotOffsetTyped
 (
 RegExpObject
 :
