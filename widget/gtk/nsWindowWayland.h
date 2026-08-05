@@ -239,11 +239,6 @@ ApplyEnterLeaveMutterWorkaround
 (
 )
 ;
-void
-OnUnmapNative
-(
-)
-;
 protected
 :
 virtual
