@@ -178,6 +178,12 @@ GetFilterList
 (
 )
 ;
+using
+nsBaseFilePicker
+:
+:
+IsPickerInputProtected
+;
 protected
 :
 virtual

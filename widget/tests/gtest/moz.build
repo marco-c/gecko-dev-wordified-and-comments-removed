@@ -57,6 +57,11 @@ UNIFIED_SOURCES
 =
 [
 "
+TestFilePickerInputProtection
+.
+cpp
+"
+"
 TestGfxInfo
 .
 cpp
