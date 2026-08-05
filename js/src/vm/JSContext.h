@@ -4308,15 +4308,6 @@ js
 :
 ContextData
 <
-uint32_t
->
-asyncResumeDepth
-;
-js
-:
-:
-ContextData
-<
 JS
 :
 :

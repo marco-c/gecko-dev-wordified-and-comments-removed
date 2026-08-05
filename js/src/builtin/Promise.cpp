@@ -31136,17 +31136,6 @@ done
 )
 )
 ;
-MOZ_ASSERT
-(
-cx
--
->
-asyncResumeDepth
-<
-=
-1
-)
-;
 #
 endif
 if

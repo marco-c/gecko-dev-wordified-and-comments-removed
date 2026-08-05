@@ -492,12 +492,6 @@ return
 true
 ;
 }
-AutoAsyncResumeDepth
-autoDepth
-(
-cx
-)
-;
 Rooted
 <
 PromiseObject
