@@ -223,6 +223,16 @@ Zero
 (
 )
 ;
+DataRate
+received_rate
+=
+DataRate
+:
+:
+Zero
+(
+)
+;
 DataSize
 ref_window
 =

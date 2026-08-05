@@ -217,6 +217,17 @@ IsReceived
 {
 parsed
 .
+received
++
+=
+packet
+.
+sent_packet
+.
+size
+;
+parsed
+.
 num_received_packets
 +
 +
