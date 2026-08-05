@@ -2753,6 +2753,14 @@ self
 processor
 )
 ;
+if
+!
+sibling_invalidations
+.
+is_empty
+(
+)
+{
 invalidated_child
 |
 =
@@ -2766,6 +2774,7 @@ invalidations_for_descendants
 sibling_invalidations
 )
 ;
+}
 invalidated_child
 |
 =
