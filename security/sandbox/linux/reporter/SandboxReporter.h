@@ -25,7 +25,7 @@ include
 "
 mozilla
 /
-StaticPtr
+Mutex
 .
 h
 "
@@ -34,7 +34,7 @@ include
 "
 mozilla
 /
-Mutex
+StaticPtr
 .
 h
 "

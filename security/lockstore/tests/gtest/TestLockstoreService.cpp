@@ -11,6 +11,13 @@ set
 #
 include
 "
+LockstoreService
+.
+h
+"
+#
+include
+"
 gtest
 /
 gtest
@@ -34,13 +41,6 @@ mozilla
 gtest
 /
 MozAssertions
-.
-h
-"
-#
-include
-"
-LockstoreService
 .
 h
 "

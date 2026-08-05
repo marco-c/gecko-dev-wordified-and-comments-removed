@@ -15,6 +15,11 @@ h
 #
 include
 <
+fstream
+>
+#
+include
+<
 string
 >
 #
@@ -26,11 +31,6 @@ thread
 include
 <
 vector
->
-#
-include
-<
-fstream
 >
 #
 ifdef

@@ -12,6 +12,13 @@ vector
 #
 include
 "
+SignedCertificateTimestamp
+.
+h
+"
+#
+include
+"
 mozpkix
 /
 Input
@@ -24,13 +31,6 @@ include
 mozpkix
 /
 Result
-.
-h
-"
-#
-include
-"
-SignedCertificateTimestamp
 .
 h
 "

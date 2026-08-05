@@ -100,7 +100,7 @@ include
 "
 mozilla
 /
-Atomics
+Assertions
 .
 h
 "
@@ -109,7 +109,7 @@ include
 "
 mozilla
 /
-Assertions
+Atomics
 .
 h
 "

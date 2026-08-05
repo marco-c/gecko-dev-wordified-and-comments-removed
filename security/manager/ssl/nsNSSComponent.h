@@ -7,13 +7,6 @@ _nsNSSComponent_h_
 #
 include
 "
-nsINSSComponent
-.
-h
-"
-#
-include
-"
 EnterpriseRoots
 .
 h
@@ -63,6 +56,13 @@ h
 include
 "
 nsCOMPtr
+.
+h
+"
+#
+include
+"
+nsINSSComponent
 .
 h
 "

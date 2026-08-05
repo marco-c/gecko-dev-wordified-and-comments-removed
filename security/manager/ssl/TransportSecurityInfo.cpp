@@ -72,6 +72,13 @@ h
 #
 include
 "
+nsIX509Cert
+.
+h
+"
+#
+include
+"
 nsNSSCertHelper
 .
 h
@@ -108,13 +115,6 @@ h
 include
 "
 nsXULAppAPI
-.
-h
-"
-#
-include
-"
-nsIX509Cert
 .
 h
 "

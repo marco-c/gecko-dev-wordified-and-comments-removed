@@ -9,7 +9,7 @@ include
 "
 mozilla
 /
-PSandboxTestingParent
+Monitor
 .
 h
 "
@@ -18,7 +18,7 @@ include
 "
 mozilla
 /
-Monitor
+PSandboxTestingParent
 .
 h
 "

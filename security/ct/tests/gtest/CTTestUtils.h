@@ -7,6 +7,13 @@ CTTestUtils_h
 #
 include
 "
+SignedCertificateTimestamp
+.
+h
+"
+#
+include
+"
 mozpkix
 /
 Input
@@ -26,13 +33,6 @@ h
 include
 "
 seccomon
-.
-h
-"
-#
-include
-"
-SignedCertificateTimestamp
 .
 h
 "

@@ -52,7 +52,7 @@ mozilla
 /
 psm
 /
-PVerifySSLServerCertParent
+PVerifySSLServerCertChild
 .
 h
 "
@@ -63,7 +63,7 @@ mozilla
 /
 psm
 /
-PVerifySSLServerCertChild
+PVerifySSLServerCertParent
 .
 h
 "

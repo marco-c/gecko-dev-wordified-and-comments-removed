@@ -1,5 +1,12 @@
 #
 include
+"
+PKCS11Slot
+.
+h
+"
+#
+include
 <
 string
 .
@@ -8,7 +15,7 @@ h
 #
 include
 "
-PKCS11Slot
+PKCS11Token
 .
 h
 "
@@ -23,13 +30,6 @@ h
 include
 "
 nsNSSCertHelper
-.
-h
-"
-#
-include
-"
-PKCS11Token
 .
 h
 "

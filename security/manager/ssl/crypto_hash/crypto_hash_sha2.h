@@ -7,14 +7,14 @@ crypto_hash_sha2_h
 #
 include
 <
-stdint
+stddef
 .
 h
 >
 #
 include
 <
-stddef
+stdint
 .
 h
 >

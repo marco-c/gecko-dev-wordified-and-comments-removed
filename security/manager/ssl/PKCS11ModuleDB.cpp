@@ -147,14 +147,14 @@ XP_MACOSX
 #
 include
 "
-nsMacUtilsImpl
+nsIFile
 .
 h
 "
 #
 include
 "
-nsIFile
+nsMacUtilsImpl
 .
 h
 "

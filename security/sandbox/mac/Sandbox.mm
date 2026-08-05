@@ -136,9 +136,7 @@ include
 "
 mozilla
 /
-ipc
-/
-UtilityProcessSandboxing
+SandboxSettings
 .
 h
 "
@@ -147,7 +145,9 @@ include
 "
 mozilla
 /
-SandboxSettings
+ipc
+/
+UtilityProcessSandboxing
 .
 h
 "

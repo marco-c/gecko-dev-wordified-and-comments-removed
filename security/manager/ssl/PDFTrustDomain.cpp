@@ -8,6 +8,13 @@ h
 #
 include
 "
+NSSCertDBTrustDomain
+.
+h
+"
+#
+include
+"
 cert_storage
 /
 src
@@ -31,13 +38,6 @@ include
 mozpkix
 /
 pkixutil
-.
-h
-"
-#
-include
-"
-NSSCertDBTrustDomain
 .
 h
 "

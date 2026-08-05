@@ -7,6 +7,13 @@ nsPKCS12Blob_h
 #
 include
 "
+ScopedNSSTypes
+.
+h
+"
+#
+include
+"
 mozilla
 /
 RefPtr
@@ -61,13 +68,6 @@ h
 include
 "
 prerror
-.
-h
-"
-#
-include
-"
-ScopedNSSTypes
 .
 h
 "

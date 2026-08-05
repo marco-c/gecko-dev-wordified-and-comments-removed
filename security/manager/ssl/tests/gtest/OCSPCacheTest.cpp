@@ -60,13 +60,6 @@ h
 #
 include
 "
-nss
-.
-h
-"
-#
-include
-"
 mozpkix
 /
 pkixtypes
@@ -81,6 +74,13 @@ mozpkix
 test
 /
 pkixtestutil
+.
+h
+"
+#
+include
+"
+nss
 .
 h
 "

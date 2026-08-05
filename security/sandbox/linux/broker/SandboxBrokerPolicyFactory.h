@@ -6,6 +6,11 @@ define
 mozilla_SandboxBrokerPolicyFactory_h
 #
 include
+<
+mutex
+>
+#
+include
 "
 mozilla
 /
@@ -13,11 +18,6 @@ SandboxBroker
 .
 h
 "
-#
-include
-<
-mutex
->
 namespace
 mozilla
 {

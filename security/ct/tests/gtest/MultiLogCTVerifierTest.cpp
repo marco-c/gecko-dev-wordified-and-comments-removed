@@ -1,12 +1,5 @@
 #
 include
-"
-MultiLogCTVerifier
-.
-h
-"
-#
-include
 <
 stdint
 .
@@ -37,6 +30,13 @@ h
 include
 "
 CTTestUtils
+.
+h
+"
+#
+include
+"
+MultiLogCTVerifier
 .
 h
 "
