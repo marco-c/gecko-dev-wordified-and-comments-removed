@@ -1088,10 +1088,6 @@ padding
 paddingValues
 )
 .
-imePadding
-(
-)
-.
 fillMaxSize
 (
 )
@@ -1140,6 +1136,10 @@ layout
 size
 .
 containerMaxWidth
+)
+.
+imePadding
+(
 )
 horizontalAlignment
 =
