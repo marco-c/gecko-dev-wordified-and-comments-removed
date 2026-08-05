@@ -402,11 +402,6 @@ AsyncDisposableStack
 js
 "
 "
-AsyncFunction
-.
-js
-"
-"
 AsyncIteration
 .
 js

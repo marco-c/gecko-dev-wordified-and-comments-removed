@@ -1981,6 +1981,11 @@ nvals
 +
 nformal
 +
+ResumeFrameArgs
+:
+:
+NumSlots
++
 script
 -
 >
@@ -2059,6 +2064,11 @@ SetValueRangeToUndefined
 (
 argv
 nformal
++
+ResumeFrameArgs
+:
+:
+NumSlots
 )
 ;
 InterpreterFrame
@@ -2074,6 +2084,11 @@ InterpreterFrame
 argv
 +
 nformal
++
+ResumeFrameArgs
+:
+:
+NumSlots
 )
 ;
 fp

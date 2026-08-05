@@ -543,9 +543,6 @@ readGeckoInterpProfilingStack
 )
 [
 "
-AsyncFunctionNext
-"
-"
 testAsync
 "
 ]
@@ -582,9 +579,6 @@ stacks
 1
 ]
 [
-"
-AsyncFunctionNext
-"
 "
 asyncFun
 "
