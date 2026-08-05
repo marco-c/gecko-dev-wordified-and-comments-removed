@@ -673,6 +673,11 @@ engine
 components
 .
 store
+isInPrivateBrowsingMode
+=
+{
+false
+}
 onNewTabOverride
 =
 {
@@ -680,6 +685,7 @@ _
 engineSession
 url
 selected
+isPrivate
 -
 >
 components
@@ -695,6 +701,9 @@ selected
 engineSession
 =
 engineSession
+private
+=
+isPrivate
 )
 }
 onCloseTabOverride

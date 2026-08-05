@@ -1332,6 +1332,7 @@ mozilla
 .
 org
 "
+false
 )
 captureMiddleware
 .
@@ -1457,6 +1458,7 @@ _
 _
 _
 _
+_
 -
 >
 onNewTabCalled
@@ -1498,6 +1500,7 @@ mozilla
 .
 org
 "
+false
 )
 assertTrue
 (
@@ -1579,6 +1582,7 @@ _
 _
 _
 selected
+_
 -
 >
 capturedSelected
@@ -1640,6 +1644,7 @@ mozilla
 .
 org
 "
+false
 )
 delegateCaptor
 .
@@ -1659,6 +1664,7 @@ mozilla
 .
 org
 "
+false
 )
 assertEquals
 (
@@ -1808,6 +1814,7 @@ mozilla
 .
 org
 "
+false
 )
 captureMiddleware
 .
