@@ -29124,10 +29124,8 @@ ungroup_tab_group_confirmation_dialog_dont_ask_again
 "
 >
 Peidio
-a
 gofyn
 eto
-.
 <
 /
 string
@@ -29195,7 +29193,7 @@ name
 ungroup_tab_group_confirmation_dialog_cancel
 "
 >
-Diddymu
+Na
 <
 /
 string
@@ -53930,8 +53928,13 @@ i
 '
 r
 lleoliad
-a
-argymhellir
+sy
+\
+'
+n
+cael
+ei
+argymell
 .
 <
 /
@@ -53967,7 +53970,7 @@ name
 ip_protection_locations_title
 "
 >
-Dewiswch
+Dewis
 Lleoliad
 VPN
 <
@@ -54002,7 +54005,7 @@ name
 ip_protection_locations_navigate_back_button_content_description
 "
 >
-Symud
+Mynd
 n
 l
 <
