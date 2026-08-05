@@ -5,8 +5,8 @@ ipdl
 .
 ast
 import
-Visitor
 ASYNC
+Visitor
 class
 SyncMessageChecker
 (

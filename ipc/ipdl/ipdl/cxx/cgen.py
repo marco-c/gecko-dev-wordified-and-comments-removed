@@ -13,10 +13,10 @@ cxx
 .
 ast
 import
+DestructorDecl
 MethodSpec
 TypeArray
 Visitor
-DestructorDecl
 class
 CxxCodeGen
 (
@@ -1578,20 +1578,15 @@ elif
 md
 .
 methodspec
-=
-=
+in
+(
 MethodSpec
 .
 VIRTUAL
-or
-md
-.
-methodspec
-=
-=
 MethodSpec
 .
 PURE
+)
 :
             
 self

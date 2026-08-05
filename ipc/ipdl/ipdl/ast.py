@@ -1267,18 +1267,15 @@ is
 None
 or
 kind
-=
-=
+in
+{
 "
 class
 "
-or
-kind
-=
-=
 "
 struct
 "
+}
         
 self
 .
