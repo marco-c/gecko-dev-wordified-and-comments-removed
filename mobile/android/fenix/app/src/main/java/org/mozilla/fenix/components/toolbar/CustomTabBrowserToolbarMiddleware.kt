@@ -2936,9 +2936,8 @@ proxyActiveShown
 onClick
 =
 onClick
-)
-.
-also
+onAnimationStarted
+=
 {
 ipProtectionStore
 .
@@ -2949,6 +2948,7 @@ IPProtectionAction
 ProxyActiveShown
 )
 }
+)
 }
 else
 {
