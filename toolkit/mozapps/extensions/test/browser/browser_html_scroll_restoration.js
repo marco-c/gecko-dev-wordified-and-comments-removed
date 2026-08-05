@@ -483,9 +483,11 @@ message
 -
 bar
 -
-background
+icon
 -
-color
+close
+-
+url
 "
 )
 )
