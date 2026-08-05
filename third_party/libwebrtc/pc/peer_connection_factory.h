@@ -575,7 +575,7 @@ unique_ptr
 <
 Call
 >
-CreateCall_w
+CreateCall_s
 (
 const
 Environment
@@ -669,7 +669,7 @@ Metronome
 decode_metronome_
 RTC_GUARDED_BY
 (
-worker_thread
+signaling_thread
 (
 )
 )
@@ -684,7 +684,7 @@ Metronome
 encode_metronome_
 RTC_GUARDED_BY
 (
-worker_thread
+signaling_thread
 (
 )
 )

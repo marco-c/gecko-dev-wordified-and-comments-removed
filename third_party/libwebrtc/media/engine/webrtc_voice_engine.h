@@ -930,15 +930,12 @@ RTC_GUARDED_BY
 worker_thread_checker_
 )
 ;
+const
 scoped_refptr
 <
 AudioState
 >
 audio_state_
-RTC_GUARDED_BY
-(
-worker_thread_checker_
-)
 ;
 const
 std
