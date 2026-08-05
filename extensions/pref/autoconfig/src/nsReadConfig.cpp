@@ -1270,6 +1270,12 @@ defined
 (
 MOZ_WIDGET_GTK
 )
+&
+&
+defined
+(
+MOZ_SYSTEM_PREFERENCES
+)
 bool
 exists
 ;
@@ -1395,6 +1401,12 @@ if
 defined
 (
 MOZ_WIDGET_GTK
+)
+&
+&
+defined
+(
+MOZ_SYSTEM_PREFERENCES
 )
 }
 #
