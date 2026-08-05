@@ -281,6 +281,11 @@ get
 }
 private
 :
+void
+EnsureScreenCapturer
+(
+)
+;
 DesktopCaptureOptions
 options_
 ;
