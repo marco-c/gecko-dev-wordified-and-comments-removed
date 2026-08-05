@@ -46,6 +46,13 @@ IsDecodingSlow
 )
 const
 ;
+static
+constexpr
+uint32_t
+kMaxLateDecodedFrames
+=
+15
+;
 private
 :
 uint32_t
@@ -62,12 +69,6 @@ double
 mAverageFrameDuration
 =
 0
-;
-const
-uint32_t
-mMaxLateDecodedFrames
-=
-15
 ;
 uint32_t
 mDecodedFramesLate
