@@ -201,6 +201,11 @@ git
 log
 -
 -
+no
+-
+merges
+-
+-
 max
 -
 count
@@ -255,6 +260,11 @@ LAST_PATCHSTACK_UPDATE_COMMIT
 =
 hg
 log
+-
+-
+no
+-
+merges
 -
 r
 :
