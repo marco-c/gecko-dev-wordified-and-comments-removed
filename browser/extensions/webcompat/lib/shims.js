@@ -26,7 +26,7 @@ browser
 .
 appConstants
 .
-getReleaseBranch
+getEffectiveUpdateChannel
 (
 )
 ;
