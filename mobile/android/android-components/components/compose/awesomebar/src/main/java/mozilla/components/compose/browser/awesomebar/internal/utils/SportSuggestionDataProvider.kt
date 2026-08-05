@@ -87,7 +87,7 @@ mozilla
 .
 components
 .
-concept
+feature
 .
 awesomebar
 .
@@ -99,7 +99,7 @@ mozilla
 .
 components
 .
-concept
+feature
 .
 awesomebar
 .
@@ -111,7 +111,7 @@ mozilla
 .
 components
 .
-concept
+feature
 .
 awesomebar
 .
@@ -123,7 +123,7 @@ mozilla
 .
 components
 .
-concept
+feature
 .
 awesomebar
 .
@@ -135,7 +135,7 @@ mozilla
 .
 components
 .
-concept
+feature
 .
 awesomebar
 .
@@ -147,7 +147,7 @@ mozilla
 .
 components
 .
-concept
+feature
 .
 awesomebar
 .

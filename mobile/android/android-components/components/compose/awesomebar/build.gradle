@@ -164,6 +164,18 @@ project
 :
 components
 :
+feature
+-
+awesomebar
+"
+)
+implementation
+project
+(
+"
+:
+components
+:
 support
 -
 base
@@ -246,8 +258,6 @@ libs
 androidx
 .
 core
-.
-ktx
 implementation
 libs
 .

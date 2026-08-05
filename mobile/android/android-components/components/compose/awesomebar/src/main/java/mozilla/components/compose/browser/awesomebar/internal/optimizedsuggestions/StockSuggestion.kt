@@ -455,11 +455,11 @@ mozilla
 .
 components
 .
-concept
+feature
 .
 awesomebar
 .
-AwesomeBar
+optimizedsuggestions
 .
 ChangePercent
 import

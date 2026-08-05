@@ -105,17 +105,19 @@ mozilla
 .
 components
 .
-concept
+feature
 .
 awesomebar
 .
-AwesomeBar
+optimizedsuggestions
+.
+SportItem
 import
 mozilla
 .
 components
 .
-concept
+feature
 .
 awesomebar
 .
@@ -127,7 +129,7 @@ mozilla
 .
 components
 .
-concept
+feature
 .
 awesomebar
 .
@@ -139,7 +141,7 @@ mozilla
 .
 components
 .
-concept
+feature
 .
 awesomebar
 .
@@ -151,7 +153,7 @@ mozilla
 .
 components
 .
-concept
+feature
 .
 awesomebar
 .
@@ -621,8 +623,6 @@ onSuggestionClicked
 suggestion
 .
 onSuggestionClicked
-!
-!
 .
 invoke
 (
@@ -2162,8 +2162,6 @@ runTest
 val
 team
 =
-AwesomeBar
-.
 SportItem
 .
 Team
@@ -2240,8 +2238,6 @@ runTest
 val
 team
 =
-AwesomeBar
-.
 SportItem
 .
 Team
@@ -2505,8 +2501,6 @@ for
 creating
 sample
 [
-AwesomeBar
-.
 SportItem
 ]
 objects
@@ -2586,8 +2580,6 @@ past
 "
 homeTeam
 :
-AwesomeBar
-.
 SportItem
 .
 Team
@@ -2595,8 +2587,6 @@ Team
 sampleHomeTeam
 awayTeam
 :
-AwesomeBar
-.
 SportItem
 .
 Team
@@ -2604,8 +2594,6 @@ Team
 sampleAwayTeam
 )
 =
-AwesomeBar
-.
 SportItem
 (
 query
@@ -2654,8 +2642,6 @@ private
 val
 sampleHomeTeam
 =
-AwesomeBar
-.
 SportItem
 .
 Team
@@ -2699,8 +2685,6 @@ private
 val
 sampleAwayTeam
 =
-AwesomeBar
-.
 SportItem
 .
 Team

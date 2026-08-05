@@ -87,7 +87,7 @@ mozilla
 .
 components
 .
-concept
+feature
 .
 awesomebar
 .

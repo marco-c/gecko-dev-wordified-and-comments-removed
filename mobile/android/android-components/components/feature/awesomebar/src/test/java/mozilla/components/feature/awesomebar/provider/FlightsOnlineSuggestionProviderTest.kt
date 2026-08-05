@@ -105,17 +105,19 @@ mozilla
 .
 components
 .
-concept
+feature
 .
 awesomebar
 .
-AwesomeBar
+optimizedsuggestions
+.
+FlightItem
 import
 mozilla
 .
 components
 .
-concept
+feature
 .
 awesomebar
 .
@@ -575,8 +577,6 @@ onSuggestionClicked
 suggestion
 .
 onSuggestionClicked
-!
-!
 .
 invoke
 (
@@ -1172,8 +1172,6 @@ available
 val
 airport
 =
-AwesomeBar
-.
 FlightItem
 .
 Airport
@@ -1193,8 +1191,6 @@ Angeles
 val
 timing
 =
-AwesomeBar
-.
 FlightItem
 .
 Timing
@@ -1315,8 +1311,6 @@ available
 val
 airport
 =
-AwesomeBar
-.
 FlightItem
 .
 Airport
@@ -1336,8 +1330,6 @@ York
 val
 timing
 =
-AwesomeBar
-.
 FlightItem
 .
 Timing
@@ -1444,8 +1436,6 @@ format
 val
 airport
 =
-AwesomeBar
-.
 FlightItem
 .
 Airport
@@ -1465,8 +1455,6 @@ Angeles
 val
 timing
 =
-AwesomeBar
-.
 FlightItem
 .
 Timing
@@ -1559,8 +1547,6 @@ zone
 val
 departureAirport
 =
-AwesomeBar
-.
 FlightItem
 .
 Airport
@@ -1579,8 +1565,6 @@ Nashville
 val
 departureTiming
 =
-AwesomeBar
-.
 FlightItem
 .
 Timing
@@ -1609,8 +1593,6 @@ null
 val
 arrivalAirport
 =
-AwesomeBar
-.
 FlightItem
 .
 Airport
@@ -1629,8 +1611,6 @@ Philadelphia
 val
 arrivalTiming
 =
-AwesomeBar
-.
 FlightItem
 .
 Timing
@@ -1761,8 +1741,6 @@ locale
 val
 airport
 =
-AwesomeBar
-.
 FlightItem
 .
 Airport
@@ -1781,8 +1759,6 @@ Paris
 val
 timing
 =
-AwesomeBar
-.
 FlightItem
 .
 Timing
@@ -1886,8 +1862,6 @@ for
 creating
 sample
 [
-AwesomeBar
-.
 FlightItem
 ]
 objects
@@ -1909,8 +1883,6 @@ AA123
 "
 destination
 :
-AwesomeBar
-.
 FlightItem
 .
 Airport
@@ -1918,8 +1890,6 @@ Airport
 sampleDestination
 origin
 :
-AwesomeBar
-.
 FlightItem
 .
 Airport
@@ -1927,8 +1897,6 @@ Airport
 sampleOrigin
 departure
 :
-AwesomeBar
-.
 FlightItem
 .
 Timing
@@ -1936,8 +1904,6 @@ Timing
 sampleDeparture
 arrival
 :
-AwesomeBar
-.
 FlightItem
 .
 Timing
@@ -1988,8 +1954,6 @@ AAL123
 "
 airline
 :
-AwesomeBar
-.
 FlightItem
 .
 Airline
@@ -1997,8 +1961,6 @@ Airline
 sampleAirline
 )
 =
-AwesomeBar
-.
 FlightItem
 (
 flightNumber
@@ -2039,8 +2001,6 @@ private
 val
 sampleDestination
 =
-AwesomeBar
-.
 FlightItem
 .
 Airport
@@ -2061,8 +2021,6 @@ private
 val
 sampleOrigin
 =
-AwesomeBar
-.
 FlightItem
 .
 Airport
@@ -2083,8 +2041,6 @@ private
 val
 sampleDeparture
 =
-AwesomeBar
-.
 FlightItem
 .
 Timing
@@ -2128,8 +2084,6 @@ private
 val
 sampleArrival
 =
-AwesomeBar
-.
 FlightItem
 .
 Timing
@@ -2173,8 +2127,6 @@ private
 val
 sampleAirline
 =
-AwesomeBar
-.
 FlightItem
 .
 Airline
