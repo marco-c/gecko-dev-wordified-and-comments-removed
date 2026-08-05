@@ -3962,7 +3962,7 @@ components
 .
 core
 .
-contileTopSitesUpdater
+macTopSitesUpdater
 .
 startPeriodicWork
 (
@@ -5614,7 +5614,7 @@ components
 .
 core
 .
-contileTopSitesUpdater
+macTopSitesUpdater
 .
 stopPeriodicWork
 (

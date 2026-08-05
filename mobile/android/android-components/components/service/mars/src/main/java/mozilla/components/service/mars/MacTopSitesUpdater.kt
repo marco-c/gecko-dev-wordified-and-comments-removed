@@ -64,8 +64,6 @@ components
 service
 .
 mars
-.
-contile
 import
 android
 .
@@ -164,7 +162,12 @@ to
 schedule
 updates
 of
-Contile
+Mozilla
+Ads
+Client
+(
+MAC
+)
 top
 sites
 .
@@ -222,7 +225,7 @@ happen
 *
 /
 class
-ContileTopSitesUpdater
+MacTopSitesUpdater
 (
 private
 val
@@ -256,7 +259,7 @@ logger
 Logger
 (
 "
-ContileTopSitesUpdater
+MacTopSitesUpdater
 "
 )
 /
@@ -276,8 +279,7 @@ update
 the
 list
 of
-*
-Contile
+MAC
 top
 sites
 .
@@ -288,7 +290,7 @@ startPeriodicWork
 (
 )
 {
-ContileTopSitesUseCases
+MacTopSitesUseCases
 .
 initialize
 (
@@ -321,7 +323,7 @@ periodic
 work
 to
 update
-Contile
+MAC
 top
 sites
 "
@@ -341,7 +343,7 @@ update
 the
 list
 of
-Contile
+MAC
 top
 sites
 .
@@ -352,7 +354,7 @@ stopPeriodicWork
 (
 )
 {
-ContileTopSitesUseCases
+MacTopSitesUseCases
 .
 destroy
 (
@@ -378,7 +380,7 @@ periodic
 work
 to
 update
-Contile
+MAC
 top
 sites
 "
@@ -393,7 +395,7 @@ createPeriodicWorkRequest
 =
 PeriodicWorkRequestBuilder
 <
-ContileTopSitesUpdaterWorker
+MacTopSitesUpdaterWorker
 >
 (
 repeatInterval
@@ -468,7 +470,7 @@ components
 .
 service
 .
-contile
+mars
 .
 periodicWork
 "

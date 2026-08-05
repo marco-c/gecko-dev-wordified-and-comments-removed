@@ -64,8 +64,6 @@ components
 service
 .
 mars
-.
-contile
 import
 android
 .
@@ -122,7 +120,7 @@ CoroutineWorker
 ]
 to
 perform
-Contile
+MAC
 top
 site
 updates
@@ -131,7 +129,7 @@ updates
 /
 internal
 class
-ContileTopSitesUpdaterWorker
+MacTopSitesUpdaterWorker
 (
 context
 :
@@ -154,7 +152,7 @@ logger
 Logger
 (
 "
-ContileTopSitesUpdaterWorker
+MacTopSitesUpdaterWorker
 "
 )
 Suppress
@@ -181,11 +179,11 @@ IO
 {
 try
 {
-ContileTopSitesUseCases
+MacTopSitesUseCases
 (
 )
 .
-refreshContileTopSites
+refreshMacTopSites
 .
 invoke
 (
@@ -211,7 +209,7 @@ error
 Failed
 to
 refresh
-Contile
+MAC
 top
 sites
 "

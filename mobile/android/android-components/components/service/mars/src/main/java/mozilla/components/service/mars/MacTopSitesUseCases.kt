@@ -64,8 +64,6 @@ components
 service
 .
 mars
-.
-contile
 import
 androidx
 .
@@ -94,7 +92,7 @@ cases
 related
 to
 the
-Contlie
+MAC
 top
 sites
 feature
@@ -103,14 +101,14 @@ feature
 /
 internal
 class
-ContileTopSitesUseCases
+MacTopSitesUseCases
 {
 /
 *
 *
 *
 Refresh
-Contile
+MAC
 top
 sites
 use
@@ -119,7 +117,7 @@ case
 *
 /
 class
-RefreshContileTopSitesUseCase
+RefreshMacTopSitesUseCase
 internal
 constructor
 (
@@ -131,7 +129,7 @@ constructor
 *
 Refreshes
 the
-Contile
+MAC
 top
 sites
 .
@@ -144,7 +142,7 @@ invoke
 (
 )
 {
-requireContileTopSitesProvider
+requireMacTopSitesProvider
 (
 )
 .
@@ -259,7 +257,7 @@ initialized
 /
 internal
 fun
-requireContileTopSitesProvider
+requireMacTopSitesProvider
 (
 )
 :
@@ -287,13 +285,13 @@ TopSitesProvider
 }
 }
 val
-refreshContileTopSites
+refreshMacTopSites
 :
-RefreshContileTopSitesUseCase
+RefreshMacTopSitesUseCase
 by
 lazy
 {
-RefreshContileTopSitesUseCase
+RefreshMacTopSitesUseCase
 (
 )
 }
