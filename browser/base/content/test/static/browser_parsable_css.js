@@ -944,7 +944,7 @@ propName
 -
 browser
 -
-stack
+container
 -
 z
 -
@@ -952,7 +952,7 @@ index
 -
 devtools
 -
-splitter
+toolbox
 "
 isFromDevTools
 :
@@ -966,15 +966,15 @@ propName
 -
 browser
 -
-stack
+container
 -
 z
 -
 index
 -
-rdm
+devtools
 -
-toolbar
+splitter
 "
 isFromDevTools
 :
