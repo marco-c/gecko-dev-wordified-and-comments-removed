@@ -5833,6 +5833,26 @@ power
 "
 in
 try_name
+and
+"
+youtube
+-
+playback
+"
+in
+try_name
+:
+                    
+return
+False
+                
+if
+"
+-
+power
+"
+in
+try_name
 :
                     
 return
