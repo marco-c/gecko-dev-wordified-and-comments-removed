@@ -223,12 +223,6 @@ GDBusConnection
 aDBusConnectionSystem
 )
 ;
-static
-bool
-IsNotificationDaemonRunning
-(
-)
-;
 #
 endif
 static
@@ -364,11 +358,6 @@ RefPtr
 GCancellable
 >
 mDBusGetCancellableSystem
-;
-guint
-mNotificationDaemonWatchId
-=
-0
 ;
 #
 endif
