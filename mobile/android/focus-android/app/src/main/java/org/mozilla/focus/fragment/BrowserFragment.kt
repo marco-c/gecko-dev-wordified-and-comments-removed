@@ -4882,6 +4882,7 @@ sessionUseCases
 .
 exitFullscreen
 (
+tabId
 )
 }
 override
