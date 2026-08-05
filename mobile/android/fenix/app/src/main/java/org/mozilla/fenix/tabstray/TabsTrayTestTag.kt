@@ -509,6 +509,15 @@ bottomSheet
 "
 const
 val
+BOTTOM_SHEET_ADD_TAB_BUTTON
+=
+"
+TAB_GROUP_BOTTOM_SHEET_ROOT
+.
+addTab
+"
+const
+val
 BOTTOM_SHEET_SHARE_BUTTON
 =
 "
