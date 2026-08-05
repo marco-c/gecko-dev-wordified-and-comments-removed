@@ -270,6 +270,7 @@ static
 bool
 IsForbiddenAddress
 (
+const
 nr_transport_addr
 *
 addr
@@ -1362,7 +1363,7 @@ addr
 nsACString
 *
 host
-int32_t
+uint16_t
 *
 port
 )
