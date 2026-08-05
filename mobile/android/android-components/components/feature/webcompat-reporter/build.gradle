@@ -125,8 +125,6 @@ libs
 androidx
 .
 core
-.
-ktx
 implementation
 libs
 .
@@ -161,6 +159,10 @@ androidx
 test
 .
 junit
+testImplementation
+libs
+.
+json
 testImplementation
 libs
 .
