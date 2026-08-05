@@ -3034,6 +3034,9 @@ webTransportId
 bool
 hasIPHintAddress
 ;
+bool
+http3Only
+;
 nsCString
 echConfig
 ;
