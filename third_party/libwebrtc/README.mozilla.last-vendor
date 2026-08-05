@@ -72,15 +72,15 @@ mozpatches
 on
 2026
 -
-06
+07
 -
-30T20
+07T04
 :
-25
+10
 :
-32
+55
 .
-575869
+077799
 +
 00
 :
@@ -91,4 +91,4 @@ base
 of
 lastest
 vendoring
-53ca0d6ec7
+3661efd9f0
