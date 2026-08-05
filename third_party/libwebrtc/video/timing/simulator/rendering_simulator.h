@@ -213,6 +213,7 @@ VCMTiming
 >
 (
 Environment
+TimeDelta
 )
 >
 ;
@@ -242,6 +243,8 @@ video_timing_factory
 (
 Environment
 env
+TimeDelta
+render_delay
 )
 {
 return
@@ -264,6 +267,7 @@ env
 field_trials
 (
 )
+render_delay
 )
 ;
 }

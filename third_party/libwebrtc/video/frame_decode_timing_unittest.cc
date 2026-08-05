@@ -307,6 +307,12 @@ timing_
 &
 clock_
 field_trials_
+TimeDelta
+:
+:
+Zero
+(
+)
 )
 frame_decode_scheduler_
 (
@@ -317,18 +323,6 @@ timing_
 field_trials_
 )
 {
-timing_
-.
-set_render_delay
-(
-TimeDelta
-:
-:
-Zero
-(
-)
-)
-;
 timing_
 .
 OnCompleteTemporalUnit
@@ -826,6 +820,7 @@ timing
 &
 clock
 field_trials
+kRenderDelay
 )
 ;
 timing
@@ -1071,6 +1066,7 @@ timing
 &
 clock
 field_trials
+kRenderDelay
 )
 ;
 FrameDecodeTiming
@@ -1313,6 +1309,7 @@ timing
 &
 clock
 field_trials
+kRenderDelay
 )
 ;
 FrameDecodeTiming
@@ -1507,6 +1504,7 @@ timing
 &
 clock
 field_trials
+kRenderDelay
 )
 ;
 FrameDecodeTiming
@@ -1661,12 +1659,6 @@ timing
 &
 clock
 field_trials
-)
-;
-timing
-.
-set_render_delay
-(
 kRenderDelay
 )
 ;

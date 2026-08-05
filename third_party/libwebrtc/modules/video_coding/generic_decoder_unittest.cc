@@ -561,6 +561,13 @@ GetClock
 (
 )
 field_trials_
+TimeDelta
+:
+:
+Millis
+(
+10
+)
 )
 decoder_
 (

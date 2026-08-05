@@ -263,6 +263,8 @@ const
 FieldTrialsView
 &
 field_trials
+TimeDelta
+render_delay
 )
 ;
 virtual
@@ -276,13 +278,6 @@ default
 void
 Reset
 (
-)
-;
-void
-set_render_delay
-(
-TimeDelta
-render_delay
 )
 ;
 void

@@ -1264,6 +1264,10 @@ config
 video_timing_factory
 (
 env
+RenderingSimulator
+:
+:
+kRenderDelay
 )
 &
 collector_

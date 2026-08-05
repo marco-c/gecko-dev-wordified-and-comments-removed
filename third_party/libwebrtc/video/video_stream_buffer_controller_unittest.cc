@@ -787,6 +787,13 @@ timing_
 (
 clock_
 field_trials_
+TimeDelta
+:
+:
+Millis
+(
+10
+)
 )
 buffer_
 (
