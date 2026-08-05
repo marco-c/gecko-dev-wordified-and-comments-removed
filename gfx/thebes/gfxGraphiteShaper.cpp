@@ -1620,6 +1620,11 @@ return
 NS_ERROR_ILLEGAL_VALUE
 ;
 }
+uint32_t
+minBaseChar
+=
+0
+;
 for
 (
 uint32_t
@@ -1848,6 +1853,12 @@ val
 <
 aLength
 &
+&
+val
+>
+=
+minBaseChar
+&
 failedVerify
 )
 ;
@@ -1860,6 +1871,12 @@ return
 NS_ERROR_ILLEGAL_VALUE
 ;
 }
+minBaseChar
+=
+offs
++
+1
+;
 auto
 one_glyph
 =
