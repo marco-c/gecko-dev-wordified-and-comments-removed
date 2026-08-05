@@ -1380,9 +1380,9 @@ ShowAlertWithCleanup
 nsIAlertNotification
 *
 aAlert
-nsIObserver
+nsIAlertCallbacks
 *
-aAlertListener
+aAlertCallbacks
 )
 {
 nsCOMPtr
@@ -1447,10 +1447,10 @@ MOZ_TRY
 alertService
 -
 >
-ShowAlert
+ShowAlertWithCallbacks
 (
 aAlert
-aAlertListener
+aAlertCallbacks
 )
 )
 ;
