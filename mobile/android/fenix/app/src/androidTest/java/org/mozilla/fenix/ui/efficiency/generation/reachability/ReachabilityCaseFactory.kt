@@ -9,7 +9,7 @@ ui
 .
 efficiency
 .
-navigation
+generation
 .
 reachability
 import
@@ -67,7 +67,7 @@ planning
 .
 toDisplayLabel
 object
-NavigationCaseFactory
+ReachabilityCaseFactory
 {
 private
 const
@@ -75,7 +75,7 @@ val
 TAG
 =
 "
-NavigationCaseFactory
+ReachabilityCaseFactory
 "
 fun
 buildReachabilityCases
@@ -87,7 +87,7 @@ String
 :
 List
 <
-NavigationCase
+ReachabilityCase
 >
 {
 val
@@ -108,7 +108,7 @@ map
 generated
 -
 >
-NavigationCase
+ReachabilityCase
 (
 label
 =
@@ -179,7 +179,7 @@ Int
 :
 List
 <
-NavigationCase
+ReachabilityCase
 >
 {
 val

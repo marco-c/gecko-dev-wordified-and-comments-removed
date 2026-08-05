@@ -9,7 +9,7 @@ ui
 .
 efficiency
 .
-navigation
+generation
 .
 reachability
 import
@@ -29,7 +29,7 @@ planning
 .
 ShardUtils
 object
-NavigationShardData
+ReachabilityShardData
 {
 fun
 loadShard
@@ -71,7 +71,7 @@ runStateOverride
 runStateOverride
 buildForShard
 =
-NavigationCaseFactory
+ReachabilityCaseFactory
 :
 :
 buildReachabilityCasesForShard
