@@ -44,13 +44,6 @@ html
 ]
 [
 "
-test_alerts_callbacks
-.
-html
-"
-]
-[
-"
 test_alerts_noobserve
 .
 html

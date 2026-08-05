@@ -119,9 +119,9 @@ aAumid
 nsIAlertNotification
 *
 aAlertNotification
-nsIAlertCallbacks
+nsIObserver
 *
-aAlertCallbacks
+aAlertListener
 const
 nsAString
 &
@@ -209,9 +209,9 @@ mAlertNotification
 (
 aAlertNotification
 )
-mAlertCallbacks
+mAlertListener
 (
-aAlertCallbacks
+aAlertListener
 )
 mName
 (
@@ -268,7 +268,7 @@ aIsSilent
 mSentFinished
 (
 !
-aAlertCallbacks
+aAlertListener
 )
 mImagePlacement
 (
@@ -570,9 +570,9 @@ mAlertNotification
 ;
 nsCOMPtr
 <
-nsIAlertCallbacks
+nsIObserver
 >
-mAlertCallbacks
+mAlertListener
 ;
 nsString
 mName
