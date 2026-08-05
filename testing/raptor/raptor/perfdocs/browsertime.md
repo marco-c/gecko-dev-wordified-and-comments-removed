@@ -3335,6 +3335,16 @@ Samply
 |
 macOS
 |
+|
+Speedometer
+3
+|
+Firefox
+|
+Perf
+|
+Linux
+|
 To
 configure
 a
