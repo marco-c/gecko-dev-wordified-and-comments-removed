@@ -6640,8 +6640,6 @@ ClipMode
 Clip
 radius
 inset
-:
-_
 }
 =
 >
@@ -6674,6 +6672,8 @@ clip_instance
 clip_rect
 &
 radius
+&
+inset
 )
 {
 Some
@@ -8297,9 +8297,8 @@ RoundedRectangle
 {
 ref
 radius
+ref
 inset
-:
-_
 mode
 }
 =
@@ -8327,6 +8326,8 @@ extract_inner_rect_safe
 clip_rect
 &
 clamped
+&
+inset
 )
 ;
 (
