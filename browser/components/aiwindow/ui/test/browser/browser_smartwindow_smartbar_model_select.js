@@ -114,6 +114,16 @@ featureGate
 "
 false
 ]
+[
+"
+browser
+.
+smartwindow
+.
+mistralRelease
+"
+false
+]
 ]
 }
 )

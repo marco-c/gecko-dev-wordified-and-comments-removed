@@ -16235,7 +16235,7 @@ smartwindow
 .
 mistralRelease
 "
-false
+true
 )
 ;
 pref

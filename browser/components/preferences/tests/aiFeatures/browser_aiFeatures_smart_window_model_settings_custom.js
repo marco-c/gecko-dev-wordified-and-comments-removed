@@ -90,6 +90,16 @@ browser
 .
 smartwindow
 .
+mistralRelease
+"
+false
+]
+[
+"
+browser
+.
+smartwindow
+.
 tos
 .
 consentTime
