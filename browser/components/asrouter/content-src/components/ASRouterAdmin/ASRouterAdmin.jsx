@@ -3240,6 +3240,9 @@ feature_callout
 "
 pb_newtab
 "
+"
+sidebar_chatbot_promo
+"
 ]
 .
 includes

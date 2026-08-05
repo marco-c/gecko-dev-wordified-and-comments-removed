@@ -618,6 +618,11 @@ message
 menu
 -
 message
+sidebar
+-
+chatbot
+-
+promo
 #
 #
 Detailed

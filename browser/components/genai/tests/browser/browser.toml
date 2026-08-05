@@ -447,6 +447,13 @@ standalone
 ]
 [
 "
+browser_chat_promo
+.
+js
+"
+]
+[
+"
 browser_chat_prompt
 .
 js
