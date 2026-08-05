@@ -1385,6 +1385,9 @@ TabHeaderIconTouchTargetSize
 includeCloseOption
 =
 true
+includeUngroupOption
+=
+true
 onDeleteTabGroupClick
 =
 onDeleteTabGroupClick
@@ -1394,6 +1397,10 @@ onEditTabGroupClick
 onCloseTabGroupClick
 =
 onCloseTabGroupClick
+onUngroupTabGroupClick
+=
+{
+}
 )
 }
 }

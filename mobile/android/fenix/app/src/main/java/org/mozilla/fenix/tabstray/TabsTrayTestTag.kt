@@ -615,6 +615,15 @@ closeGroup
 "
 const
 val
+UNGROUP_TAB_GROUP
+=
+"
+TAB_GROUP_THREE_DOT_BUTTON
+.
+ungroup
+"
+const
+val
 DELETE_TAB_GROUP
 =
 "

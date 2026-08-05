@@ -6137,6 +6137,9 @@ TabGroupMenuButton
 includeCloseOption
 =
 true
+includeUngroupOption
+=
+true
 onDeleteTabGroupClick
 =
 {
@@ -6160,6 +6163,10 @@ onCloseTabGroupClick
 (
 tab
 )
+}
+onUngroupTabGroupClick
+=
+{
 }
 )
 }
@@ -8258,6 +8265,9 @@ TabGroupMenuButton
 includeCloseOption
 =
 true
+includeUngroupOption
+=
+true
 onDeleteTabGroupClick
 =
 {
@@ -8281,6 +8291,10 @@ onCloseTabGroupClick
 (
 tab
 )
+}
+onUngroupTabGroupClick
+=
+{
 }
 )
 }
