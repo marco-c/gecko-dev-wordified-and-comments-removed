@@ -387,6 +387,13 @@ js
 ]
 [
 "
+browser_aiwindow_group_tabs_button
+.
+js
+"
+]
+[
+"
 browser_aiwindow_grouped_chips
 .
 js
