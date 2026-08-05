@@ -450,6 +450,13 @@ js
 ]
 [
 "
+browser_aiwindow_monitor_create
+.
+js
+"
+]
+[
+"
 browser_aiwindow_new_chat_button
 .
 js
@@ -1071,6 +1078,13 @@ js
 [
 "
 browser_smartwindow_tab_switching_starters
+.
+js
+"
+]
+[
+"
+browser_smartwindow_tasks_actors
 .
 js
 "
