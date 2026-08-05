@@ -9980,6 +9980,14 @@ dom_speculation_rules_enabled
 )
 )
 ;
+mDocument
+-
+>
+SetUseCounter
+(
+eUseCounter_custom_SpeculationRulesScriptTag
+)
+;
 nsAutoString
 source
 ;

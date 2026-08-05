@@ -176,6 +176,9 @@ ReferrerPolicy
 "
 FfiPrefetchCandidate
 "
+"
+SpeculationRulesUsage
+"
 ]
 item_types
 =

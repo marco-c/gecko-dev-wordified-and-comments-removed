@@ -289,6 +289,15 @@ SpeculationRuleSet
 aRuleSet
 )
 {
+aRuleSet
+-
+>
+SetUseCounters
+(
+*
+mDocument
+)
+;
 mRuleSetsFromScript
 .
 InsertOrUpdate
