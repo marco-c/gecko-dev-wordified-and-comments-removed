@@ -85,13 +85,6 @@ html
 ]
 [
 "
-test_editcontext_ime_notifications
-.
-html
-"
-]
-[
-"
 test_editcontext_query_characters
 .
 html
