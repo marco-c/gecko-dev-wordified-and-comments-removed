@@ -5940,6 +5940,7 @@ mForce
 mTiltX
 mTiltY
 mTwist
+mAngle
 )
 ;
 template
