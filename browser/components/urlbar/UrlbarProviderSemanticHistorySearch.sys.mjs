@@ -1232,7 +1232,7 @@ userContextId
 =
 lazy
 .
-UrlbarProviderOpenTabs
+UrlbarShared
 .
 getUserContextIdForOpenPagesTable
 (

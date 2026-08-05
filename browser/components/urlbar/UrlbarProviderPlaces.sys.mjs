@@ -1423,7 +1423,7 @@ switchtab
 &
 lazy
 .
-UrlbarProviderOpenTabs
+UrlbarShared
 .
 isNonPrivateUserContextId
 (
@@ -9753,7 +9753,7 @@ userContextId
 =
 lazy
 .
-UrlbarProviderOpenTabs
+UrlbarShared
 .
 getUserContextIdForOpenPagesTable
 (
@@ -9896,7 +9896,7 @@ userContextId
 :
 lazy
 .
-UrlbarProviderOpenTabs
+UrlbarShared
 .
 getUserContextIdForOpenPagesTable
 (

@@ -16734,9 +16734,7 @@ url
 )
 true
 loadOpts
-lazy
-.
-UrlbarProviderOpenTabs
+UrlbarShared
 .
 isNonPrivateUserContextId
 (
