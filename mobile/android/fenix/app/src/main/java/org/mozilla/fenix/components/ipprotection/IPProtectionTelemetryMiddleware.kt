@@ -439,9 +439,6 @@ AccountStatus
 Uninitialized
 AccountStatus
 .
-NoAccount
-AccountStatus
-.
 WarmingUp
 AccountStatus
 .
@@ -554,9 +551,6 @@ null
 AccountStatus
 .
 Uninitialized
-AccountStatus
-.
-NoAccount
 AccountStatus
 .
 WarmingUp

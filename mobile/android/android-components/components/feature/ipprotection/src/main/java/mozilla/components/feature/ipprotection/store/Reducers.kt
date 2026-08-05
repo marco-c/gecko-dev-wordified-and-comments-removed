@@ -1448,9 +1448,6 @@ AccountStatus
 WarmingUp
 AccountStatus
 .
-NoAccount
-AccountStatus
-.
 NeedsAuthentication
 AccountStatus
 .
