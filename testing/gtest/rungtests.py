@@ -888,10 +888,9 @@ cwd
 env
 )
             
-result
+results
 =
-all
-(
+[
                 
 run_test_process
 (
@@ -919,6 +918,13 @@ suite_filters
 suites
 )
             
+]
+            
+result
+=
+all
+(
+results
 )
         
 if
