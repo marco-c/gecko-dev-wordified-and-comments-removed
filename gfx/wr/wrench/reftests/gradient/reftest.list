@@ -1583,6 +1583,10 @@ clip
 ref
 .
 yaml
+scale
+(
+*
+)
 fuzzy
 (
 2
