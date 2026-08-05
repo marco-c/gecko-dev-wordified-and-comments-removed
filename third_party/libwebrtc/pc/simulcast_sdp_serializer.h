@@ -7,6 +7,11 @@ PC_SIMULCAST_SDP_SERIALIZER_H_
 #
 include
 <
+cstddef
+>
+#
+include
+<
 string
 >
 #
@@ -61,6 +66,13 @@ h
 namespace
 webrtc
 {
+inline
+constexpr
+size_t
+kMaxSimulcastRids
+=
+16
+;
 class
 SimulcastSdpSerializer
 {
