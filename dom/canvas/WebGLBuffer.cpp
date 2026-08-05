@@ -1288,8 +1288,6 @@ rangeBegin
 range
 .
 byteOffset
-*
-indexByteSize
 ;
 const
 auto
