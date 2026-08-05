@@ -2397,7 +2397,8 @@ animation
 SetTimelineNoUpdate
 (
 timeline
-nullptr
+{
+}
 mozilla
 :
 :
