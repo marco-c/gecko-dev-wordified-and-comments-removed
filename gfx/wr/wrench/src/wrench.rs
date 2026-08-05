@@ -1300,6 +1300,9 @@ bool
 no_batch
 :
 bool
+color_target_init
+:
+bool
 precache_shaders
 :
 bool
@@ -1379,6 +1382,17 @@ DebugFlags
 :
 MISSING_SNAPSHOT_PINK
 true
+)
+;
+debug_flags
+.
+set
+(
+DebugFlags
+:
+:
+COLOR_TARGET_INIT
+color_target_init
 )
 ;
 let
