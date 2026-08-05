@@ -157,6 +157,11 @@ prefer
 -
 software
 '
+outputPixelFormat
+:
+'
+I420P10
+'
 }
 '
 ?
@@ -221,6 +226,11 @@ hardwareAcceleration
 prefer
 -
 software
+'
+outputPixelFormat
+:
+'
+I444P10
 '
 }
 '
