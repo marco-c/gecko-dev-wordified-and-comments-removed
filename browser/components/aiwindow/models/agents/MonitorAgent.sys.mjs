@@ -596,6 +596,11 @@ monitor
 )
 )
 ;
+return
+monitor
+.
+id
+;
 }
 async
 updateMonitor

@@ -193,7 +193,7 @@ agent
 -
 sony
 "
-productName
+monitorName
 :
 "
 Nike
@@ -573,7 +573,7 @@ agent
 .
 .
 AGENT
-productName
+monitorName
 :
 "
 "
