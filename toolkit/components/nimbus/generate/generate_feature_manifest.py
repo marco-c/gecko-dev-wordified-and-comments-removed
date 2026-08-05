@@ -114,6 +114,10 @@ newtab
 "
     
 "
+opaqueResponseBlocking
+"
+    
+"
 pocketNewtab
 "
     
