@@ -1239,4 +1239,12 @@ cairo
 /
 src
 "
+"
+/
+third_party
+/
+xsimd
+/
+include
+"
 ]
