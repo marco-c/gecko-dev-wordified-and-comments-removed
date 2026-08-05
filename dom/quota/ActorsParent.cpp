@@ -15699,6 +15699,7 @@ timestamp
 maintenanceDate
 accessed
 persisted
+dirty
 ]
 =
 WithOriginInfo
@@ -15757,6 +15758,17 @@ LockedPersisted
 (
 )
 ;
+const
+bool
+dirty
+=
+originInfo
+-
+>
+LockedDirty
+(
+)
+;
 originInfo
 -
 >
@@ -15774,6 +15786,7 @@ timestamp
 maintenanceDate
 accessed
 persisted
+dirty
 )
 ;
 }
@@ -15789,6 +15802,7 @@ timestamp
 maintenanceDate
 accessed
 persisted
+dirty
 }
 ClientUsageArray
 (
@@ -27700,6 +27714,7 @@ ToDays
 )
 false
 true
+false
 }
 ClientUsageArray
 (
@@ -28582,6 +28597,7 @@ timestamp
 ToDays
 (
 )
+false
 false
 false
 }
@@ -44812,6 +44828,7 @@ ToDays
 (
 )
 true
+false
 false
 }
 ClientUsageArray
