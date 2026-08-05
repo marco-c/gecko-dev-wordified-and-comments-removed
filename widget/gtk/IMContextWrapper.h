@@ -1577,11 +1577,9 @@ OnCommitCompositionNative
 (
 GtkIMContext
 *
-aContext
 const
 gchar
 *
-aString
 )
 ;
 void
