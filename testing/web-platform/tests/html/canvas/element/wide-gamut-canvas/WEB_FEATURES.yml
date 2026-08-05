@@ -1,8 +1,12 @@
-features
+rules
 :
 -
-name
+"
+*
+*
+"
 :
+[
 canvas
 -
 2d
@@ -10,9 +14,4 @@ canvas
 color
 -
 management
-files
-:
-"
-*
-*
-"
+]

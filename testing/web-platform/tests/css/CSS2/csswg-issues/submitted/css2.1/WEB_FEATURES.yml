@@ -1,12 +1,4 @@
-features
-:
--
-name
-:
-width
--
-height
-files
+rules
 :
 -
 anonymous
@@ -16,3 +8,9 @@ boxes
 001
 .
 xht
+:
+[
+width
+-
+height
+]

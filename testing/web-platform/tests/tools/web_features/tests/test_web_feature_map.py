@@ -231,11 +231,13 @@ Mock
     
 feature_entry
 .
-name
+feature_ids
 =
-"
+[
+'
 grid
-"
+'
+]
     
 mapper
 .
@@ -391,119 +393,27 @@ mapper
 .
 _process_non_recursive_feature
 (
-feature_name
-feature_files
-result
-)
-    
-assert
-result
-.
-to_dict
-(
-)
-=
-=
-{
-        
-"
-feature1
-"
-:
 [
-            
-"
-/
-root
-/
-blob
--
-range
-.
-any
-.
-html
-"
-            
-"
-/
-root
-/
-blob
--
-range
-.
-any
-.
-worker
-.
-html
-"
-        
-]
-    
-}
-def
-test_process_non_recursive_feature_negation
-(
-)
-:
-    
 feature_name
-=
-"
-feature1
-"
-    
-feature_files
-=
-[
-        
-FeatureFile
-(
-"
-*
-range
-*
-"
-)
-        
-FeatureFile
-(
-"
-!
-blob
--
-range
-.
-any
-.
-*
-"
-)
-    
 ]
-    
-mapper
-=
-WebFeatureToTestsDirMapper
-(
-TEST_FILES
-None
-)
-    
+feature_files
+[
+0
+]
 result
-=
-WebFeaturesMap
-(
 )
     
 mapper
 .
 _process_non_recursive_feature
 (
+[
 feature_name
+]
 feature_files
+[
+1
+]
 result
 )
     
@@ -527,7 +437,7 @@ feature1
 /
 root
 /
-foo
+blob
 -
 range
 .
@@ -540,7 +450,7 @@ html
 /
 root
 /
-foo
+blob
 -
 range
 .
@@ -578,9 +488,11 @@ result
 .
 add
 (
+[
 "
 avif
 "
+]
 [
         
 Mock
@@ -860,13 +772,11 @@ grid
 def
 create_feature_entry
 (
-name
+feature_ids
+file
 recursive
 =
 False
-files
-=
-None
 )
 :
     
@@ -886,15 +796,15 @@ recursive
     
 rv
 .
-name
+feature_ids
 =
-name
+feature_ids
     
 rv
 .
-files
+file
 =
-files
+file
     
 return
 rv
@@ -956,9 +866,12 @@ feature_entry1
 =
 create_feature_entry
 (
+[
 "
 feature1
 "
+]
+None
 True
 )
     
@@ -966,12 +879,11 @@ feature_entry2
 =
 create_feature_entry
 (
+[
 "
 feature2
 "
-files
-=
-[
+]
 FeatureFile
 (
 "
@@ -980,7 +892,6 @@ test_file1
 py
 "
 )
-]
 )
     
 mock_web_feature_file
@@ -988,7 +899,7 @@ mock_web_feature_file
 Mock
 (
         
-features
+rules
 =
 [
             
@@ -1045,10 +956,9 @@ _process_non_recursive_feature
 assert_called_once_with
 (
         
-"
-feature2
-"
-[
+feature_entry2
+.
+feature_ids
 FeatureFile
 (
 "
@@ -1057,7 +967,6 @@ test_file1
 py
 "
 )
-]
 result
     
 )

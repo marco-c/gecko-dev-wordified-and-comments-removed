@@ -1,8 +1,12 @@
-features
+rules
 :
 -
-name
+"
+*
+*
+"
 :
+[
 document
 -
 picture
@@ -10,9 +14,4 @@ picture
 in
 -
 picture
-files
-:
-"
-*
-*
-"
+]

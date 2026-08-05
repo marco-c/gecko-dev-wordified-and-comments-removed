@@ -1,12 +1,4 @@
-features
-:
--
-name
-:
-background
--
-color
-files
+rules
 :
 -
 background
@@ -14,3 +6,9 @@ background
 color
 -
 *
+:
+[
+background
+-
+color
+]

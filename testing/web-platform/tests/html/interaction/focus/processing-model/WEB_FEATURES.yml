@@ -1,10 +1,4 @@
-features
-:
--
-name
-:
-fieldset
-files
+rules
 :
 -
 legend
@@ -12,7 +6,15 @@ legend
 focusable
 .
 html
+:
+[
+fieldset
+]
 -
 legend
 .
 html
+:
+[
+fieldset
+]

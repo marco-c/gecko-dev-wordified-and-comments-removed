@@ -1,12 +1,4 @@
-features
-:
--
-name
-:
-width
--
-height
-files
+rules
 :
 -
 height
@@ -14,3 +6,9 @@ height
 *
 .
 xht
+:
+[
+width
+-
+height
+]

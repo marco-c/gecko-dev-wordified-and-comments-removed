@@ -1,12 +1,4 @@
-features
-:
--
-name
-:
-box
--
-sizing
-files
+rules
 :
 -
 box
@@ -18,3 +10,9 @@ no
 interpolation
 .
 html
+:
+[
+box
+-
+sizing
+]

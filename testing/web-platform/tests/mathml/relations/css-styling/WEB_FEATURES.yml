@@ -1,12 +1,10 @@
-features
-:
--
-name
-:
-clip
-files
+rules
 :
 -
 clip
 .
 html
+:
+[
+clip
+]

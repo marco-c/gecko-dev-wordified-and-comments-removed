@@ -1,12 +1,10 @@
-features
-:
--
-name
-:
-audio
-files
+rules
 :
 -
 audio
 -
 *
+:
+[
+audio
+]

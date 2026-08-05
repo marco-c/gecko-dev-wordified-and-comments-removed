@@ -1,12 +1,10 @@
-features
-:
--
-name
-:
-source
-files
+rules
 :
 -
 currentSrc
 .
 html
+:
+[
+source
+]

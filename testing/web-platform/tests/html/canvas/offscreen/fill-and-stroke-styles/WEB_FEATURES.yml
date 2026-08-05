@@ -1,12 +1,4 @@
-features
-:
--
-name
-:
-canvas
--
-createconicgradient
-files
+rules
 :
 -
 2d
@@ -16,3 +8,9 @@ gradient
 conic
 .
 *
+:
+[
+canvas
+-
+createconicgradient
+]

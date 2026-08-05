@@ -1,8 +1,12 @@
-features
+rules
 :
 -
-name
+comp_name_
+*
+content
+*
 :
+[
 alt
 -
 text
@@ -10,10 +14,4 @@ text
 generated
 -
 content
-files
-:
--
-comp_name_
-*
-content
-*
+]

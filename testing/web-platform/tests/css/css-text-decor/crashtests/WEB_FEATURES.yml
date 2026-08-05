@@ -1,12 +1,4 @@
-features
-:
--
-name
-:
-text
--
-decoration
-files
+rules
 :
 -
 "
@@ -17,3 +9,9 @@ decoration
 -
 *
 "
+:
+[
+text
+-
+decoration
+]

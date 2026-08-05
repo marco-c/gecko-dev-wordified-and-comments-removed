@@ -1,12 +1,10 @@
-features
-:
--
-name
-:
-transforms2d
-files
+rules
 :
 -
 "
 *
 "
+:
+[
+transforms2d
+]

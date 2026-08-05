@@ -1,14 +1,4 @@
-features
-:
--
-name
-:
-clip
--
-path
--
-boxes
-files
+rules
 :
 -
 clip
@@ -22,3 +12,11 @@ geometry
 box
 .
 html
+:
+[
+clip
+-
+path
+-
+boxes
+]

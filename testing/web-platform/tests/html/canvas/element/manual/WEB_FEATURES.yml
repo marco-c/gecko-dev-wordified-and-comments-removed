@@ -1,10 +1,4 @@
-features
-:
--
-name
-:
-canvas
-files
+rules
 :
 -
 unclosed
@@ -12,3 +6,7 @@ unclosed
 canvas
 -
 *
+:
+[
+canvas
+]

@@ -1,0 +1,15 @@
+rules
+:
+-
+"
+*
+*
+"
+:
+[
+periodic
+-
+background
+-
+sync
+]

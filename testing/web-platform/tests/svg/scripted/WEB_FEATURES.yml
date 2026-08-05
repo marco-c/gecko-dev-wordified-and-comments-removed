@@ -1,12 +1,4 @@
-features
-:
--
-name
-:
-fetch
--
-priority
-files
+rules
 :
 -
 attr
@@ -18,3 +10,9 @@ fetchpriority
 optional
 .
 html
+:
+[
+fetch
+-
+priority
+]

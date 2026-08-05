@@ -1,10 +1,4 @@
-features
-:
--
-name
-:
-hashchange
-files
+rules
 :
 -
 cross
@@ -20,3 +14,7 @@ document
 traversal
 .
 html
+:
+[
+hashchange
+]

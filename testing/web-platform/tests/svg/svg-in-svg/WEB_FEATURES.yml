@@ -1,12 +1,4 @@
-features
-:
--
-name
-:
-svg
--
-filters
-files
+rules
 :
 -
 svg
@@ -24,3 +16,9 @@ reference
 crash
 .
 html
+:
+[
+svg
+-
+filters
+]

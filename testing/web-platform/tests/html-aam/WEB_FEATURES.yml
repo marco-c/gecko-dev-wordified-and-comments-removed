@@ -1,10 +1,4 @@
-features
-:
--
-name
-:
-figure
-files
+rules
 :
 -
 figure
@@ -18,3 +12,7 @@ figcaption
 tentative
 .
 html
+:
+[
+figure
+]

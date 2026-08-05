@@ -1,12 +1,4 @@
-features
-:
--
-name
-:
-color
--
-contrast
-files
+rules
 :
 -
 consume
@@ -18,3 +10,9 @@ contrast
 crash
 .
 html
+:
+[
+color
+-
+contrast
+]

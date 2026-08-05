@@ -1,10 +1,4 @@
-features
-:
--
-name
-:
-contain
-files
+rules
 :
 -
 contain
@@ -16,6 +10,10 @@ crash
 001
 .
 html
+:
+[
+contain
+]
 -
 contain
 -
@@ -26,6 +24,10 @@ crash
 004
 .
 html
+:
+[
+contain
+]
 -
 flex
 -
@@ -42,3 +44,7 @@ with
 contain
 .
 html
+:
+[
+contain
+]

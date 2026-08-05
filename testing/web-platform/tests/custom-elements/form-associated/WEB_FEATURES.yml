@@ -1,8 +1,12 @@
-features
+rules
 :
 -
-name
+"
+*
+*
+"
 :
+[
 form
 -
 associated
@@ -10,9 +14,4 @@ associated
 custom
 -
 elements
-files
-:
-"
-*
-*
-"
+]

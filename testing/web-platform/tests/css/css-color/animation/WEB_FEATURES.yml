@@ -1,10 +1,4 @@
-features
-:
--
-name
-:
-opacity
-files
+rules
 :
 -
 opacity
@@ -12,3 +6,7 @@ opacity
 interpolation
 .
 html
+:
+[
+opacity
+]

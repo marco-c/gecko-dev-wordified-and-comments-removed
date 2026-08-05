@@ -1,12 +1,4 @@
-features
-:
--
-name
-:
-paint
--
-order
-files
+rules
 :
 -
 paint
@@ -14,3 +6,9 @@ paint
 order
 -
 *
+:
+[
+paint
+-
+order
+]

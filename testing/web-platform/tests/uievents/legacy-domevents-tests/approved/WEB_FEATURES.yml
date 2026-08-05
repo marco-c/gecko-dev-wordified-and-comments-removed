@@ -1,12 +1,4 @@
-features
-:
--
-name
-:
-mouse
--
-events
-files
+rules
 :
 -
 dispatchEvent
@@ -16,3 +8,9 @@ click
 checkbox
 .
 html
+:
+[
+mouse
+-
+events
+]

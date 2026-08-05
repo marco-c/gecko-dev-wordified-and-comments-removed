@@ -1,12 +1,10 @@
-features
-:
--
-name
-:
-autofocus
-files
+rules
 :
 -
 autofocus
 .
 html
+:
+[
+autofocus
+]

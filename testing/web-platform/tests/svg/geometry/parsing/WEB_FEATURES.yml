@@ -1,12 +1,4 @@
-features
-:
--
-name
-:
-width
--
-height
-files
+rules
 :
 -
 sizing
@@ -16,3 +8,9 @@ properties
 computed
 .
 svg
+:
+[
+width
+-
+height
+]

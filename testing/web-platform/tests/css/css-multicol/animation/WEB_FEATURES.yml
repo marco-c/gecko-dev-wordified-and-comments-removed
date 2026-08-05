@@ -1,12 +1,4 @@
-features
-:
--
-name
-:
-column
--
-fill
-files
+rules
 :
 -
 discrete
@@ -16,3 +8,9 @@ no
 interpolation
 .
 html
+:
+[
+column
+-
+fill
+]

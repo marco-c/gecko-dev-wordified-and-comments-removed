@@ -1,12 +1,4 @@
-features
-:
--
-name
-:
-column
--
-fill
-files
+rules
 :
 -
 table
@@ -18,3 +10,9 @@ multicol
 nested
 -
 *
+:
+[
+column
+-
+fill
+]

@@ -1,10 +1,4 @@
-features
-:
--
-name
-:
-source
-files
+rules
 :
 -
 resource
@@ -16,6 +10,10 @@ source
 *
 .
 html
+:
+[
+source
+]
 -
 resource
 -
@@ -24,6 +22,10 @@ selection
 currentSrc
 .
 html
+:
+[
+source
+]
 -
 resource
 -
@@ -36,3 +38,7 @@ remove
 *
 .
 html
+:
+[
+source
+]

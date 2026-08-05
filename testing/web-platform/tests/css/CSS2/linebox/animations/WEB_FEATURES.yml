@@ -1,12 +1,4 @@
-features
-:
--
-name
-:
-line
--
-height
-files
+rules
 :
 -
 line
@@ -16,3 +8,9 @@ height
 interpolation
 .
 html
+:
+[
+line
+-
+height
+]

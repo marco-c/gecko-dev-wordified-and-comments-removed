@@ -1,12 +1,4 @@
-features
-:
--
-name
-:
-line
--
-break
-files
+rules
 :
 -
 css
@@ -18,3 +10,9 @@ line
 break
 -
 *
+:
+[
+line
+-
+break
+]

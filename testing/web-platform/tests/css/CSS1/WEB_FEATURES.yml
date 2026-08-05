@@ -1,12 +1,4 @@
-features
-:
--
-name
-:
-list
--
-style
-files
+rules
 :
 -
 list
@@ -20,3 +12,9 @@ whitespace
 001
 .
 xml
+:
+[
+list
+-
+style
+]

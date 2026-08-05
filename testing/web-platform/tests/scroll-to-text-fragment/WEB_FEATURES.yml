@@ -1,8 +1,12 @@
-features
+rules
 :
 -
-name
+"
+*
+*
+"
 :
+[
 scroll
 -
 to
@@ -10,9 +14,4 @@ to
 text
 -
 fragment
-files
-:
-"
-*
-*
-"
+]

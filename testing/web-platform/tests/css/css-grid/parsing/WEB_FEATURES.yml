@@ -1,10 +1,4 @@
-features
-:
--
-name
-:
-masonry
-files
+rules
 :
 -
 grid
@@ -22,6 +16,10 @@ valid
 tentative
 .
 html
+:
+[
+masonry
+]
 -
 grid
 -
@@ -41,3 +39,7 @@ computed
 tentative
 .
 html
+:
+[
+masonry
+]

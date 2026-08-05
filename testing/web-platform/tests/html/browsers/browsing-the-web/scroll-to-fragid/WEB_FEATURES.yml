@@ -1,10 +1,4 @@
-features
-:
--
-name
-:
-target
-files
+rules
 :
 -
 target
@@ -16,3 +10,7 @@ after
 reinsertion
 .
 html
+:
+[
+target
+]

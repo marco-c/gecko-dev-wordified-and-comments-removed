@@ -1,12 +1,4 @@
-features
-:
--
-name
-:
-mask
--
-type
-files
+rules
 :
 -
 mask
@@ -14,3 +6,9 @@ mask
 type
 -
 *
+:
+[
+mask
+-
+type
+]

@@ -1,10 +1,4 @@
-features
-:
--
-name
-:
-beforeunload
-files
+rules
 :
 -
 "
@@ -12,3 +6,7 @@ files
 beforeunload
 *
 "
+:
+[
+beforeunload
+]

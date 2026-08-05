@@ -1,9 +1,5 @@
-features
+rules
 :
--
-name
-:
-masks
 #
 To
 match
@@ -44,8 +40,6 @@ positioned
 -
 masks
 .
-files
-:
 -
 mask
 -
@@ -56,3 +50,7 @@ subproperties
 reset
 .
 html
+:
+[
+masks
+]

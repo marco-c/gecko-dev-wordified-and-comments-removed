@@ -1,10 +1,4 @@
-features
-:
--
-name
-:
-dataset
-files
+rules
 :
 -
 domstringmap
@@ -16,3 +10,7 @@ property
 names
 .
 html
+:
+[
+dataset
+]

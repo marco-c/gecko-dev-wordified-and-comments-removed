@@ -1,10 +1,4 @@
-features
-:
--
-name
-:
-backdrop
-files
+rules
 :
 -
 backdrop
@@ -14,3 +8,7 @@ list
 item
 .
 html
+:
+[
+backdrop
+]

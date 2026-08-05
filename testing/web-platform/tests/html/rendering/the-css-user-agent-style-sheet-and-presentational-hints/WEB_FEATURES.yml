@@ -1,12 +1,4 @@
-features
-:
--
-name
-:
-image
--
-maps
-files
+rules
 :
 -
 mouse
@@ -16,3 +8,9 @@ cursor
 imagemap
 .
 html
+:
+[
+image
+-
+maps
+]

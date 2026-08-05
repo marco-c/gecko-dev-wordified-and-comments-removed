@@ -1,12 +1,4 @@
-features
-:
--
-name
-:
-text
--
-transform
-files
+rules
 :
 -
 writing
@@ -20,3 +12,9 @@ transform
 001
 .
 html
+:
+[
+text
+-
+transform
+]

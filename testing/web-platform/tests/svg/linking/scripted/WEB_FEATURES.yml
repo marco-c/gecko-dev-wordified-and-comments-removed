@@ -1,13 +1,6 @@
-features
+rules
 :
 -
-name
-:
-download
-files
-:
--
-'
 a
 -
 download
@@ -15,4 +8,7 @@ download
 click
 .
 svg
-'
+:
+[
+download
+]

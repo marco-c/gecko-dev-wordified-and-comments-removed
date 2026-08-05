@@ -1,11 +1,9 @@
-features
-:
--
-name
-:
-location
-files
+rules
 :
 -
 manual_
 *
+:
+[
+location
+]

@@ -1,10 +1,4 @@
-features
-:
--
-name
-:
-streams
-files
+rules
 :
 #
 Top
@@ -22,3 +16,7 @@ mapping
 "
 *
 "
+:
+[
+streams
+]

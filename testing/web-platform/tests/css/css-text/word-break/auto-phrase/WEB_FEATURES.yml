@@ -1,8 +1,12 @@
-features
+rules
 :
 -
-name
+"
+*
+*
+"
 :
+[
 word
 -
 break
@@ -10,9 +14,4 @@ break
 auto
 -
 phrase
-files
-:
-"
-*
-*
-"
+]

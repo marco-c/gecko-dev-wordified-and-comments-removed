@@ -1,12 +1,4 @@
-features
-:
--
-name
-:
-list
--
-style
-files
+rules
 :
 -
 list
@@ -14,3 +6,9 @@ list
 style
 -
 *
+:
+[
+list
+-
+style
+]

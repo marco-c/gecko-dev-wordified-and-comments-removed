@@ -1,12 +1,10 @@
-features
-:
--
-name
-:
-backdrop
-files
+rules
 :
 -
 backdrop
 -
 *
+:
+[
+backdrop
+]

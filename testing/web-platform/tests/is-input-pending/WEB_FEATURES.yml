@@ -1,0 +1,15 @@
+rules
+:
+-
+"
+*
+*
+"
+:
+[
+is
+-
+input
+-
+pending
+]

@@ -1,12 +1,10 @@
-features
-:
--
-name
-:
-file
-files
+rules
 :
 -
 "
 *
 "
+:
+[
+file
+]

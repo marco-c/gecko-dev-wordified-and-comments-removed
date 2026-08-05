@@ -1,8 +1,12 @@
-features
+rules
 :
 -
-name
+"
+*
+*
+"
 :
+[
 request
 -
 video
@@ -10,9 +14,4 @@ video
 frame
 -
 callback
-files
-:
-"
-*
-*
-"
+]

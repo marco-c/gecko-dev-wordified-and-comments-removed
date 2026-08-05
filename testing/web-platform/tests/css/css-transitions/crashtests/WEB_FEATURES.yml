@@ -1,12 +1,10 @@
-features
-:
--
-name
-:
-transitions
-files
+rules
 :
 -
 "
 *
 "
+:
+[
+transitions
+]

@@ -1,12 +1,4 @@
-features
-:
--
-name
-:
-canvas
--
-roundrect
-files
+rules
 :
 -
 2d
@@ -16,3 +8,9 @@ path
 roundrect
 .
 *
+:
+[
+canvas
+-
+roundrect
+]

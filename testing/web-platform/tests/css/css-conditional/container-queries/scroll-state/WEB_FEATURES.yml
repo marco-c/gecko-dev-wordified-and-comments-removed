@@ -1,8 +1,12 @@
-features
+rules
 :
 -
-name
+"
+*
+*
+"
 :
+[
 container
 -
 scroll
@@ -10,9 +14,4 @@ scroll
 state
 -
 queries
-files
-:
-"
-*
-*
-"
+]

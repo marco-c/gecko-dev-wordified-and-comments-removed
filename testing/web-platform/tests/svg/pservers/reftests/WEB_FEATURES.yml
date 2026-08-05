@@ -1,12 +1,4 @@
-features
-:
--
-name
-:
-opacity
--
-svg
-files
+rules
 :
 -
 pattern
@@ -16,3 +8,9 @@ opacity
 01
 .
 svg
+:
+[
+opacity
+-
+svg
+]

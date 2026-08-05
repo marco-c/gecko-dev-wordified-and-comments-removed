@@ -1,10 +1,4 @@
-features
-:
--
-name
-:
-autofocus
-files
+rules
 :
 -
 update
@@ -18,3 +12,7 @@ resize
 autofocus
 .
 html
+:
+[
+autofocus
+]

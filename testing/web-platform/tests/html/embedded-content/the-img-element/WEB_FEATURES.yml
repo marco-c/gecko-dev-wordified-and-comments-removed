@@ -1,12 +1,4 @@
-features
-:
--
-name
-:
-fetch
--
-priority
-files
+rules
 :
 -
 attr
@@ -16,3 +8,9 @@ img
 fetchpriority
 .
 html
+:
+[
+fetch
+-
+priority
+]

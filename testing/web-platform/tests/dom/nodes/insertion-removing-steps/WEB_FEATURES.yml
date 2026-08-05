@@ -1,12 +1,4 @@
-features
-:
--
-name
-:
-focus
--
-events
-files
+rules
 :
 -
 blur
@@ -16,3 +8,9 @@ event
 window
 .
 js
+:
+[
+focus
+-
+events
+]

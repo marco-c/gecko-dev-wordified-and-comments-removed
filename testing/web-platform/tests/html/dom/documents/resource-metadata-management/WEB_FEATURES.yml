@@ -1,10 +1,4 @@
-features
-:
--
-name
-:
-cookies
-files
+rules
 :
 -
 document
@@ -12,3 +6,7 @@ document
 cookie
 .
 html
+:
+[
+cookies
+]

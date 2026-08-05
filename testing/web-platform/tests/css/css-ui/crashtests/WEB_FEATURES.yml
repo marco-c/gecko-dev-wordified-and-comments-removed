@@ -1,12 +1,4 @@
-features
-:
--
-name
-:
-text
--
-overflow
-files
+rules
 :
 -
 text
@@ -20,3 +12,9 @@ multiline
 crash
 .
 html
+:
+[
+text
+-
+overflow
+]

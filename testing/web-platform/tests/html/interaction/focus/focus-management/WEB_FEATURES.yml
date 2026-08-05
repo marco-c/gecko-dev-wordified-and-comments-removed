@@ -1,12 +1,4 @@
-features
-:
--
-name
-:
-focus
--
-events
-files
+rules
 :
 -
 focus
@@ -14,3 +6,9 @@ focus
 events
 .
 html
+:
+[
+focus
+-
+events
+]

@@ -1,14 +1,4 @@
-features
-:
--
-name
-:
-view
--
-transition
--
-class
-files
+rules
 :
 -
 view
@@ -18,3 +8,11 @@ transition
 class
 -
 *
+:
+[
+view
+-
+transition
+-
+class
+]

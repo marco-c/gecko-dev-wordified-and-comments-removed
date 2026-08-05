@@ -1,10 +1,4 @@
-features
-:
--
-name
-:
-hashchange
-files
+rules
 :
 -
 navigate
@@ -20,3 +14,7 @@ then
 fragment
 .
 html
+:
+[
+hashchange
+]

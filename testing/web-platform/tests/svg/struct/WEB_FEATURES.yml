@@ -1,12 +1,10 @@
-features
-:
--
-name
-:
-svg
-files
+rules
 :
 -
 "
 *
 "
+:
+[
+svg
+]

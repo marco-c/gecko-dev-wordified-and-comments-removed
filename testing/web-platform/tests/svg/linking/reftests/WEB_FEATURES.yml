@@ -1,12 +1,4 @@
-features
-:
--
-name
-:
-svg
--
-filters
-files
+rules
 :
 -
 href
@@ -16,3 +8,9 @@ filter
 element
 .
 html
+:
+[
+svg
+-
+filters
+]

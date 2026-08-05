@@ -1,8 +1,12 @@
-features
+rules
 :
 -
-name
+"
+*
+*
+"
 :
+[
 cross
 -
 document
@@ -10,9 +14,4 @@ document
 view
 -
 transitions
-files
-:
-"
-*
-*
-"
+]

@@ -1,12 +1,4 @@
-features
-:
--
-name
-:
-line
--
-height
-files
+rules
 :
 -
 too
@@ -20,3 +12,9 @@ height
 crash
 .
 html
+:
+[
+line
+-
+height
+]

@@ -1,12 +1,4 @@
-features
-:
--
-name
-:
-scroll
--
-behavior
-files
+rules
 :
 -
 scroll
@@ -14,3 +6,9 @@ scroll
 behavior
 -
 *
+:
+[
+scroll
+-
+behavior
+]

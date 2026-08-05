@@ -1,12 +1,4 @@
-features
-:
--
-name
-:
-js
--
-modules
-files
+rules
 :
 -
 script
@@ -18,6 +10,12 @@ module
 tentative
 .
 html
+:
+[
+js
+-
+modules
+]
 -
 script
 -
@@ -28,3 +26,9 @@ nomodule
 tentative
 .
 html
+:
+[
+js
+-
+modules
+]

@@ -1,12 +1,4 @@
-features
-:
--
-name
-:
-touch
--
-action
-files
+rules
 :
 -
 "
@@ -16,3 +8,9 @@ touch
 action
 *
 "
+:
+[
+touch
+-
+action
+]

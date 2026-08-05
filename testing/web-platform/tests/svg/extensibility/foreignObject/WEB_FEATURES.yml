@@ -1,12 +1,4 @@
-features
-:
--
-name
-:
-svg
--
-filters
-files
+rules
 :
 -
 filter
@@ -14,6 +6,12 @@ filter
 repaint
 .
 html
+:
+[
+svg
+-
+filters
+]
 -
 foreign
 -
@@ -28,3 +26,9 @@ reference
 crash
 .
 html
+:
+[
+svg
+-
+filters
+]

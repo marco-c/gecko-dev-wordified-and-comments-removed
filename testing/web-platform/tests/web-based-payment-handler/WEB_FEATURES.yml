@@ -1,8 +1,12 @@
-features
+rules
 :
 -
-name
+"
+*
+*
+"
 :
+[
 web
 -
 based
@@ -10,9 +14,4 @@ based
 payment
 -
 handler
-files
-:
-"
-*
-*
-"
+]
