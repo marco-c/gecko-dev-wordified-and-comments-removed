@@ -1206,6 +1206,11 @@ Normal
 &
 &
 (
+settings
+.
+enableHomepageTrendingRecentSearch
+|
+|
 toolbarState
 .
 editState

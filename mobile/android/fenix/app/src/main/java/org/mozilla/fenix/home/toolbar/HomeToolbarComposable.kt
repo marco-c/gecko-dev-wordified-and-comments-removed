@@ -1279,7 +1279,18 @@ shouldUseEdgeToEdgeColors
 hasWallpaperBackground
 &
 &
+if
 (
+settings
+.
+enableHomepageTrendingRecentSearch
+)
+{
+!
+isSearching
+}
+else
+{
 !
 isSearching
 |
@@ -1295,7 +1306,7 @@ isEmpty
 !
 queryWasPrefilled
 )
-)
+}
 )
 )
 {
