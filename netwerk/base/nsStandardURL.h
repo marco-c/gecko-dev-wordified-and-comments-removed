@@ -1098,6 +1098,12 @@ nsIObjectInputStream
 stream
 )
 ;
+bool
+CheckSegmentInvariants
+(
+)
+const
+;
 private
 :
 nsresult
