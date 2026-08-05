@@ -1,0 +1,6 @@
+self
+.
+compressionDictionaryScriptLoaded
+=
+true
+;
