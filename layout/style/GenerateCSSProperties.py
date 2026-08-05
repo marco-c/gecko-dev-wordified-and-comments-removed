@@ -2186,24 +2186,10 @@ enumerate
 (
 raw_properties
 .
-longhands
-+
-raw_properties
-.
-shorthands
-)
-        
-if
-p
-.
-type
+all_properties_and_aliases
 (
 )
-!
-=
-"
-alias
-"
+)
     
 ]
     
@@ -2220,11 +2206,9 @@ const
 nsCSSProps
 :
 :
-"
-"
 kIDLNameTable
 [
-eCSSProperty_COUNT
+eCSSProperty_COUNT_with_aliases
 ]
 =
 {
@@ -2375,12 +2359,9 @@ int32_t
 nsCSSProps
 :
 :
-"
-        
-"
 kIDLNameSortPositionTable
 [
-eCSSProperty_COUNT
+eCSSProperty_COUNT_with_aliases
 ]
 =
 {
@@ -2439,8 +2420,6 @@ nsCSSProps
 :
 :
 PropertyPref
-"
-"
 nsCSSProps
 :
 :
@@ -2803,7 +2782,6 @@ write
 '
 static_assert
 (
-eCSSProperty_
 {
 }
 =
@@ -2822,13 +2800,17 @@ n
 .
 format
 (
+                
 p
 .
-ident
+noncustomcsspropertyid
+(
+)
 p
 .
 index
 msg
+            
 )
         
 )
@@ -3745,6 +3727,15 @@ moz
 box
 -
 collapse
+"
+        
+"
+-
+moz
+-
+image
+-
+decoding
 "
         
 "

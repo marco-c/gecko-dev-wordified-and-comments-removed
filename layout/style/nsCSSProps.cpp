@@ -597,7 +597,7 @@ MOZ_ASSERT
 (
 res
 <
-eCSSProperty_COUNT
+eCSSProperty_COUNT_with_aliases
 )
 ;
 if
@@ -615,7 +615,10 @@ eCSSProperty_UNKNOWN
 ;
 }
 return
+Servo_Property_ResolveAlias
+(
 res
+)
 ;
 }
 template
