@@ -2419,6 +2419,15 @@ mFeatureSettings
 )
 |
 |
+(
+StaticPrefs
+:
+:
+layout_css_font_variations_enabled
+(
+)
+&
+&
 !
 setDesc
 (
@@ -2429,6 +2438,7 @@ FontVariationSettings
 aDescriptors
 .
 mVariationSettings
+)
 )
 |
 |
