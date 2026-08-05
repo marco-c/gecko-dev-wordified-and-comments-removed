@@ -156,6 +156,13 @@ js
 ]
 [
 "
+browser_bouncetracking_parent_initiated_load
+.
+js
+"
+]
+[
+"
 browser_bouncetracking_popup
 .
 js

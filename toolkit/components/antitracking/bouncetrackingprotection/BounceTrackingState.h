@@ -16,6 +16,15 @@ include
 "
 mozilla
 /
+Maybe
+.
+h
+"
+#
+include
+"
+mozilla
+/
 RefPtr
 .
 h
@@ -210,6 +219,8 @@ aTriggeringPrincipal
 const
 bool
 aHasValidUserGestureActivation
+uint64_t
+aLoadId
 )
 ;
 static
@@ -334,6 +345,12 @@ RefPtr
 BounceTrackingRecord
 >
 mBounceTrackingRecord
+;
+Maybe
+<
+uint64_t
+>
+mLastStartedLoadId
 ;
 RefPtr
 <
