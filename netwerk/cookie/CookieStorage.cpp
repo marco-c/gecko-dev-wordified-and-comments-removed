@@ -2131,9 +2131,6 @@ Cookie
 ;
 if
 (
-cookie
-&
-&
 !
 aFromHttp
 &
