@@ -694,7 +694,6 @@ type
 :
 "
 icon
-ghost
 "
 iconsrc
 :
