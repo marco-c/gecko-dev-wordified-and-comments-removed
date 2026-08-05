@@ -339,6 +339,11 @@ MaybeUpdateWritableState
 (
 )
 ;
+void
+MaybeUpdateSrtpOverhead
+(
+)
+;
 private
 :
 void
@@ -514,6 +519,15 @@ bool
 writable_
 =
 false
+;
+std
+:
+:
+optional
+<
+int
+>
+srtp_overhead_
 ;
 int
 decryption_failure_count_

@@ -1366,6 +1366,24 @@ FieldTrial
 '
 WebRTC
 -
+UpdateNetworkRouteOnSrtpActivation
+'
+               
+461532446
+               
+date
+(
+2026
+12
+30
+)
+)
+    
+FieldTrial
+(
+'
+WebRTC
+-
 UseAbsCapTimeForG2gMetric
 '
                
