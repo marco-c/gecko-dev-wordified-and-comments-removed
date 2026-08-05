@@ -111,13 +111,13 @@ mozilla
 .
 components
 .
-service
+feature
 .
-mars
+top
 .
-contile
+sites
 .
-ContileTopSitesProvider
+TopSitesProvider
 import
 mozilla
 .
@@ -266,7 +266,7 @@ runTest
 val
 provider
 :
-ContileTopSitesProvider
+TopSitesProvider
 =
 mock
 (
@@ -356,7 +356,7 @@ runTest
 val
 provider
 :
-ContileTopSitesProvider
+TopSitesProvider
 =
 mock
 (
