@@ -93,9 +93,9 @@ InitAlert
 nsIAlertNotification
 *
 aAlert
-nsIObserver
+nsIAlertCallbacks
 *
-aAlertListener
+aAlertCallbacks
 )
 ;
 nsresult
@@ -339,12 +339,9 @@ mAlertText
 ;
 nsCOMPtr
 <
-nsIObserver
+nsIAlertCallbacks
 >
-mAlertListener
-;
-nsString
-mAlertCookie
+mAlertCallbacks
 ;
 nsString
 mAlertName
