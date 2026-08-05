@@ -2368,7 +2368,13 @@ aOrdinal
 ;
 aResult
 =
+std
+:
+:
+move
+(
 allText
+)
 ;
 return
 true
