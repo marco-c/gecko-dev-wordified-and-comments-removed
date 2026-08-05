@@ -447,6 +447,12 @@ bool
 regexp_optimization
 ;
 bool
+regexp_masked_dispatch
+;
+bool
+regexp_simd_in_rc
+;
+bool
 regexp_peephole_optimization
 ;
 bool
