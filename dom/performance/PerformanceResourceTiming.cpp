@@ -391,6 +391,13 @@ SizeOfExcludingThisIfUnshared
 aMallocSizeOf
 )
 +
+mDeliveryType
+.
+SizeOfExcludingThisIfUnshared
+(
+aMallocSizeOf
+)
++
 mTimingData
 -
 >
