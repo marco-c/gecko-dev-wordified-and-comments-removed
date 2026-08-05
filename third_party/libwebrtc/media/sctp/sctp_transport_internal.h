@@ -264,6 +264,15 @@ bytes
 =
 0
 ;
+virtual
+size_t
+EarlyReceivedPacketCountForTesting
+(
+)
+const
+=
+0
+;
 }
 ;
 }

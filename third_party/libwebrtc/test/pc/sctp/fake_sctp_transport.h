@@ -401,6 +401,17 @@ bytes
 override
 {
 }
+size_t
+EarlyReceivedPacketCountForTesting
+(
+)
+const
+override
+{
+return
+0
+;
+}
 int
 local_port
 (

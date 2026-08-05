@@ -489,6 +489,17 @@ bytes
 override
 {
 }
+size_t
+EarlyReceivedPacketCountForTesting
+(
+)
+const
+override
+{
+return
+0
+;
+}
 void
 SendSignalAssociationChangeCommunicationUp
 (
