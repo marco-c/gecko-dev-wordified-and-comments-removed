@@ -113,11 +113,15 @@ content
 %
 content
 /
+usercontext
+/
 contentaccessible
 =
 yes
 content
 /
+usercontext
+/
 briefcase
 .
 svg
@@ -129,6 +133,8 @@ briefcase
 svg
 )
 content
+/
+usercontext
 /
 cart
 .
@@ -142,6 +148,8 @@ svg
 )
 content
 /
+usercontext
+/
 circle
 .
 svg
@@ -153,6 +161,8 @@ circle
 svg
 )
 content
+/
+usercontext
 /
 dollar
 .
@@ -166,6 +176,8 @@ svg
 )
 content
 /
+usercontext
+/
 fence
 .
 svg
@@ -177,6 +189,8 @@ fence
 svg
 )
 content
+/
+usercontext
 /
 fingerprint
 .
@@ -190,6 +204,8 @@ svg
 )
 content
 /
+usercontext
+/
 gift
 .
 svg
@@ -201,6 +217,8 @@ gift
 svg
 )
 content
+/
+usercontext
 /
 vacation
 .
@@ -214,6 +232,8 @@ svg
 )
 content
 /
+usercontext
+/
 food
 .
 svg
@@ -225,6 +245,8 @@ food
 svg
 )
 content
+/
+usercontext
 /
 fruit
 .
@@ -238,6 +260,8 @@ svg
 )
 content
 /
+usercontext
+/
 pet
 .
 svg
@@ -250,6 +274,8 @@ svg
 )
 content
 /
+usercontext
+/
 tree
 .
 svg
@@ -261,6 +287,8 @@ tree
 svg
 )
 content
+/
+usercontext
 /
 chill
 .

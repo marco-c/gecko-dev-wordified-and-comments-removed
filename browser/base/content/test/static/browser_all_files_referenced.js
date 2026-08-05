@@ -704,10 +704,6 @@ resource
 :
 /
 /
-usercontext
--
-content
-/
 builtin
 -
 themes
@@ -717,10 +713,6 @@ themes
 resource
 :
 /
-/
-usercontext
--
-content
 /
 extra
 -
