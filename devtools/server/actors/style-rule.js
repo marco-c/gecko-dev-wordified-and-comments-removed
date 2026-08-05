@@ -1706,9 +1706,6 @@ canSetRuleText
 this
 .
 canSetRuleText
-hasGetCssExplainersData
-:
-true
 }
 }
 ;
