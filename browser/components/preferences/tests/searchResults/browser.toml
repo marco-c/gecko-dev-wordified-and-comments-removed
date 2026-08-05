@@ -39,6 +39,13 @@ os_integration
 "
 [
 "
+browser_search_history_restoration
+.
+js
+"
+]
+[
+"
 browser_search_no_results_change_category
 .
 js
