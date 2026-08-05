@@ -99,6 +99,16 @@ markdown
 .
 parser
 .
+CancellationToken
+import
+org
+.
+intellij
+.
+markdown
+.
+parser
+.
 MarkdownParser
 /
 *
@@ -122,8 +132,7 @@ Parser
 *
 *
 Parses
-a
-string
+text
 into
 a
 [
@@ -135,7 +144,7 @@ RichDocument
 param
 source
 the
-string
+text
 to
 parse
 .
@@ -153,7 +162,7 @@ parse
 (
 source
 :
-String
+CharSequence
 )
 :
 RichDocument
@@ -170,6 +179,11 @@ parser
 MarkdownParser
 (
 flavour
+cancellationToken
+=
+CancellationToken
+.
+NonCancellable
 )
 val
 blocks

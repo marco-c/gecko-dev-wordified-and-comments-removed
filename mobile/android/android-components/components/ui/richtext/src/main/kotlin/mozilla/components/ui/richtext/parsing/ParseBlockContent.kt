@@ -149,7 +149,7 @@ toBlocks
 (
 source
 :
-String
+CharSequence
 )
 :
 List
@@ -257,7 +257,7 @@ createListBlock
 (
 source
 :
-String
+CharSequence
 )
 :
 List
@@ -331,7 +331,7 @@ createBlockQuote
 (
 source
 :
-String
+CharSequence
 )
 :
 List
@@ -370,7 +370,7 @@ createParagraphBlock
 (
 source
 :
-String
+CharSequence
 )
 :
 List
@@ -413,7 +413,7 @@ createHeadingBlock
 (
 source
 :
-String
+CharSequence
 )
 :
 List

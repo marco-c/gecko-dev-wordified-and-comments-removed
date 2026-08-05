@@ -112,7 +112,7 @@ toInlineContent
 (
 source
 :
-String
+CharSequence
 )
 :
 List
@@ -362,7 +362,7 @@ extractCodeSpanText
 (
 source
 :
-String
+CharSequence
 )
 :
 String
