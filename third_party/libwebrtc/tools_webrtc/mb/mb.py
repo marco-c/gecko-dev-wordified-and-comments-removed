@@ -356,9 +356,6 @@ in
 '
 console_test_launcher
 '
-'
-windowed_test_launcher
-'
                              
 '
 non_parallel_console_test_launcher
@@ -455,19 +452,15 @@ or
 is_fuchsia
 or
 test_type
-=
-=
-'
-raw
-'
-                
-or
-test_type
-=
-=
+in
+(
 '
 generated_script
 '
+'
+raw
+'
+)
 )
 :
             
@@ -674,23 +667,21 @@ py
 '
 )
             
-use_x11
-=
-is_linux
-            
-xvfb
-=
-use_x11
-and
-test_type
-=
-=
-'
-windowed_test_launcher
-'
-            
 if
-xvfb
+is_linux
+and
+isolate_map
+[
+target
+]
+.
+get
+(
+'
+use_xvfb
+'
+False
+)
 :
                 
 cmdline

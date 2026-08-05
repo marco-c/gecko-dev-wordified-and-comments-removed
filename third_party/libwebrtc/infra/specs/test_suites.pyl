@@ -698,6 +698,12 @@ webrtc_nonparallel_tests
 :
 {
 }
+'
+xvfb_capture_tests
+'
+:
+{
+}
 #
 keep
 -

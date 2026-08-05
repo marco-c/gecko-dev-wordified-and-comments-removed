@@ -3067,6 +3067,17 @@ suppressed_configs
 set_defaults
 (
 "
+rtc_cc_test
+"
+)
+{
+configs
+=
+rtc_add_configs
+}
+set_defaults
+(
+"
 rtc_library
 "
 )
@@ -8511,9 +8522,6 @@ invoker
 *
 "
 [
-"
-configs
-"
 "
 public_configs
 "
