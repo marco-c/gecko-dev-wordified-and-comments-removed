@@ -390,6 +390,17 @@ NS_ERROR_NOT_AVAILABLE
 ;
 async
 {
+#
+[
+cfg
+(
+feature
+=
+"
+enable_tests
+"
+)
+]
 if
 xpcom
 :

@@ -343,6 +343,17 @@ null
 )
 }
 ;
+#
+[
+cfg
+(
+feature
+=
+"
+enable_tests
+"
+)
+]
 if
 xpcom
 :

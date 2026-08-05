@@ -3467,6 +3467,15 @@ dep
 shell_windows
 "
 ]
+enable_tests
+=
+[
+"
+shell_windows
+/
+enable_tests
+"
+]
 [
 lib
 ]
