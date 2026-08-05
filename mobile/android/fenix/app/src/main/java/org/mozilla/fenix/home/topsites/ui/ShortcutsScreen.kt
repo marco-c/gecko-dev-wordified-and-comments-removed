@@ -617,8 +617,7 @@ mozac_ic_back_24
 )
 contentDescription
 =
-"
-"
+null
 )
 }
 }
