@@ -4003,6 +4003,12 @@ get
 &
 codec_lookup_helper_
 nullptr
+AudioOptions
+(
+)
+VideoOptions
+(
+)
 )
 )
 ;
