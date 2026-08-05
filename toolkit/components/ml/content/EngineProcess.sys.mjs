@@ -183,6 +183,11 @@ onnx
 "
 onnx
 "
+wllama
+:
+"
+wllama
+"
 onnxNative
 :
 "
@@ -196,6 +201,13 @@ llamaCpp
 llama
 .
 cpp
+"
+bestLlama
+:
+"
+best
+-
+llama
 "
 bestOnnx
 :
@@ -248,6 +260,9 @@ WASM_BACKENDS
 BACKENDS
 .
 onnx
+BACKENDS
+.
+wllama
 ]
 ;
 /

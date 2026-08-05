@@ -543,6 +543,10 @@ fetches
 fetch
 :
 -
+wllama
+.
+wasm
+-
 smollm2
 -
 360
@@ -565,9 +569,7 @@ ML
 Summarizer
 Model
 Using
-llama
-.
-cpp
+Wllama
 treeherder
 :
 symbol
@@ -704,6 +706,10 @@ fetches
 :
 fetch
 :
+-
+wllama
+.
+wasm
 -
 smollm2
 -

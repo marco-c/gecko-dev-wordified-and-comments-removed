@@ -1541,7 +1541,7 @@ taskName
 "
 real
 -
-llama
+wllama
 -
 text
 -
@@ -1557,9 +1557,7 @@ preview
 backend
 :
 "
-llama
-.
-cpp
+wllama
 "
 modelId
 :
@@ -1984,7 +1982,7 @@ taskName
 "
 real
 -
-llama
+wllama
 -
 text
 -
@@ -2000,9 +1998,7 @@ preview
 backend
 :
 "
-llama
-.
-cpp
+wllama
 "
 modelId
 :
@@ -2335,7 +2331,7 @@ taskName
 "
 real
 -
-llama
+wllama
 -
 text
 -
@@ -2351,9 +2347,7 @@ preview
 backend
 :
 "
-llama
-.
-cpp
+wllama
 "
 modelId
 :
