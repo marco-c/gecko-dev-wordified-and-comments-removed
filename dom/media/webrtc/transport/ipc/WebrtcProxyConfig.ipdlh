@@ -92,9 +92,6 @@ WebrtcProxyConfig
 TabId
 tabId
 ;
-nsCString
-alpn
-;
 LoadInfoArgs
 loadInfoArgs
 ;

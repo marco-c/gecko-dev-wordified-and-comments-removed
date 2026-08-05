@@ -25729,17 +25729,6 @@ return
 nullptr
 ;
 }
-nsCString
-alpn
-=
-"
-webrtc
-c
--
-webrtc
-"
-_ns
-;
 auto
 *
 browserChild
@@ -25920,7 +25909,6 @@ net
 WebrtcProxyConfig
 (
 id
-alpn
 loadInfoArgs
 mForceProxy
 )
