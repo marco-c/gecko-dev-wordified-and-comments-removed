@@ -1151,6 +1151,13 @@ js
 ]
 [
 "
+browser_playbackRate
+.
+js
+"
+]
+[
+"
 browser_playerControls
 .
 js
