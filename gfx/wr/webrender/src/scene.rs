@@ -8,7 +8,6 @@ ColorF
 DynamicProperties
 Epoch
 FontRenderMode
-IdNamespace
 }
 ;
 use
@@ -972,10 +971,6 @@ pub
 display_list
 :
 BuiltDisplayList
-pub
-namespace
-:
-IdNamespace
 }
 #
 [
@@ -1112,9 +1107,6 @@ PipelineId
 epoch
 :
 Epoch
-namespace
-:
-IdNamespace
 display_list
 :
 BuiltDisplayList
@@ -1126,7 +1118,6 @@ new_pipeline
 ScenePipeline
 {
 display_list
-namespace
 }
 ;
 self

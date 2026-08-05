@@ -1807,11 +1807,6 @@ txn
 set_display_list
 (
 epoch
-api
-.
-get_namespace_id
-(
-)
 builder
 .
 end
@@ -2692,11 +2687,6 @@ set_display_list
 self
 .
 epoch
-api
-.
-get_namespace_id
-(
-)
 builder
 .
 end

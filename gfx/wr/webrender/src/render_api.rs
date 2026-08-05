@@ -1406,9 +1406,6 @@ self
 epoch
 :
 Epoch
-namespace
-:
-IdNamespace
 (
 pipeline_id
 mut
@@ -1447,7 +1444,6 @@ SetDisplayList
 display_list
 epoch
 pipeline_id
-namespace
 }
 )
 ;
@@ -3286,9 +3282,6 @@ Epoch
 pipeline_id
 :
 PipelineId
-namespace
-:
-IdNamespace
 }
 RenderOffscreen
 (

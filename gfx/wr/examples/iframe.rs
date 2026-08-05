@@ -261,11 +261,6 @@ Epoch
 (
 0
 )
-api
-.
-get_namespace_id
-(
-)
 sub_builder
 .
 end
