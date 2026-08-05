@@ -13,7 +13,6 @@ from
 .
 .
 import
-get_document_focus
 get_visibility_state
 pytest
 .
@@ -38,6 +37,7 @@ def
 test_background_default_false
 (
 bidi_session
+get_document_focus
 type_hint
 )
 :
@@ -76,7 +76,6 @@ assert
 await
 get_document_focus
 (
-bidi_session
 new_context
 )
 is
@@ -139,6 +138,7 @@ test_background
 (
 bidi_session
 top_context
+get_document_focus
 type_hint
 background
 )
@@ -201,7 +201,6 @@ assert
 await
 get_document_focus
 (
-bidi_session
 new_context
 )
 !
@@ -267,6 +266,7 @@ test_create_in_parallel
 bidi_session
 top_context
 wait_for_future_safe
+get_document_focus
 type_hint
 background
 )
@@ -362,7 +362,6 @@ assert
 await
 get_document_focus
 (
-bidi_session
 top_context
 )
         
@@ -374,7 +373,6 @@ context_1_focus
 await
 get_document_focus
 (
-bidi_session
 context_1
 )
             
@@ -383,7 +381,6 @@ context_2_focus
 await
 get_document_focus
 (
-bidi_session
 context_2
 )
             

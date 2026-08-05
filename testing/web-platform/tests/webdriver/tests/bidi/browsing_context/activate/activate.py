@@ -50,6 +50,7 @@ test_switch_between_contexts
 (
 bidi_session
 top_context
+get_document_focus
 type_hint
 )
 :
@@ -99,6 +100,7 @@ assert_document_status
 (
 bidi_session
 top_context
+get_document_focus
 visible
 =
 True
@@ -112,6 +114,7 @@ assert_document_status
 (
 bidi_session
 new_context
+get_document_focus
 visible
 =
 is_window
@@ -142,6 +145,7 @@ assert_document_status
 (
 bidi_session
 top_context
+get_document_focus
 visible
 =
 is_window
@@ -155,6 +159,7 @@ assert_document_status
 (
 bidi_session
 new_context
+get_document_focus
 visible
 =
 True
@@ -335,6 +340,7 @@ test_multiple_activation
 bidi_session
 inline
 new_tab
+get_document_focus
 )
 :
     
@@ -399,6 +405,7 @@ assert_document_status
 (
 bidi_session
 new_tab
+get_document_focus
 visible
 =
 True
@@ -440,6 +447,7 @@ assert_document_status
 (
 bidi_session
 new_tab
+get_document_focus
 visible
 =
 True
@@ -481,6 +489,7 @@ assert_document_status
 (
 bidi_session
 new_tab
+get_document_focus
 visible
 =
 True

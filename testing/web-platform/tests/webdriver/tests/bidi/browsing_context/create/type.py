@@ -51,11 +51,19 @@ async
 def
 test_type
 (
+    
 bidi_session
+    
 wait_for_event
+    
 wait_for_future_safe
+    
 subscribe_events
+    
 top_context
+    
+get_document_focus
+    
 type_hint
 )
 :
@@ -109,6 +117,7 @@ assert_document_status
 (
 bidi_session
 top_context
+get_document_focus
 visible
 =
 True
@@ -174,6 +183,7 @@ assert_document_status
 (
 bidi_session
 new_context
+get_document_focus
 visible
 =
 True
@@ -187,6 +197,7 @@ assert_document_status
 (
 bidi_session
 top_context
+get_document_focus
 visible
 =
 is_window
