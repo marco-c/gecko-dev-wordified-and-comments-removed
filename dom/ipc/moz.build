@@ -493,6 +493,11 @@ WindowGlobalChild
 h
 "
 "
+WindowGlobalMessageUtils
+.
+h
+"
+"
 WindowGlobalParent
 .
 h
