@@ -53,6 +53,17 @@ h
 #
 include
 "
+api
+/
+environment
+/
+force_test_environment
+.
+h
+"
+#
+include
+"
 rtc_base
 /
 system
@@ -280,6 +291,9 @@ vector
 char
 >
 event_log_contents_
+;
+AutoBypassTestEnvironmentCheck
+bypass_
 ;
 }
 ;

@@ -255,6 +255,15 @@ include
 "
 test
 /
+create_test_field_trials
+.
+h
+"
+#
+include
+"
+test
+/
 gmock
 .
 h
@@ -382,6 +391,9 @@ env_
 (
 CreateEnvironment
 (
+CreateTestFieldTrialsPtr
+(
+)
 &
 fake_clock_
 std

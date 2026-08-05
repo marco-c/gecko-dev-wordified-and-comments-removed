@@ -454,7 +454,7 @@ audio_codec_mocks
 /
 test
 :
-create_test_field_trials
+create_test_environment
 "
 "
 .
@@ -466,14 +466,6 @@ create_test_field_trials
 test
 :
 test_support
-"
-"
-.
-.
-/
-environment
-:
-environment_factory
 "
 ]
 }
