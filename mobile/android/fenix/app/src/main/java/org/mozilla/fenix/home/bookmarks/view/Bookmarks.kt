@@ -652,6 +652,12 @@ BookmarksMenuItem
 backgroundColor
 :
 Color
+=
+MaterialTheme
+.
+colorScheme
+.
+surfaceBright
 onBookmarkClick
 :
 (

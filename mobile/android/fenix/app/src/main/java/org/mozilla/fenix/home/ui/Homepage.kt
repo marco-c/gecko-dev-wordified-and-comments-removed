@@ -275,16 +275,6 @@ compose
 .
 ui
 .
-graphics
-.
-Color
-import
-androidx
-.
-compose
-.
-ui
-.
 input
 .
 pointer
@@ -2146,9 +2136,6 @@ BookmarksSection
 bookmarks
 =
 bookmarks
-cardBackgroundColor
-=
-cardBackgroundColor
 interactor
 =
 interactor
@@ -2164,9 +2151,6 @@ RecentlyVisitedSection
 recentVisits
 =
 recentlyVisited
-cardBackgroundColor
-=
-cardBackgroundColor
 interactor
 =
 interactor
@@ -3051,9 +3035,6 @@ List
 <
 Bookmark
 >
-cardBackgroundColor
-:
-Color
 interactor
 :
 BookmarksInteractor
@@ -3138,6 +3119,8 @@ height
 dp
 )
 )
+WallpaperTheme
+{
 Bookmarks
 (
 bookmarks
@@ -3167,9 +3150,6 @@ interactor
 onBookmarkRemoved
 )
 )
-backgroundColor
-=
-cardBackgroundColor
 onBookmarkClick
 =
 interactor
@@ -3177,6 +3157,7 @@ interactor
 :
 onBookmarkClicked
 )
+}
 }
 Composable
 private
@@ -3189,9 +3170,6 @@ List
 <
 RecentlyVisitedItem
 >
-cardBackgroundColor
-:
-Color
 interactor
 :
 RecentVisitsInteractor
@@ -3265,6 +3243,8 @@ height
 dp
 )
 )
+WallpaperTheme
+{
 RecentlyVisited
 (
 recentVisits
@@ -3325,9 +3305,6 @@ url
 }
 )
 )
-backgroundColor
-=
-cardBackgroundColor
 onRecentVisitClick
 =
 {
@@ -3404,6 +3381,7 @@ recentlyVisitedItem
 }
 }
 )
+}
 }
 Composable
 private
