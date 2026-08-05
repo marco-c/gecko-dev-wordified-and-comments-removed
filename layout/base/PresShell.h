@@ -1481,7 +1481,7 @@ aStartFrame
 ;
 ScrollContainerFrame
 *
-GetScrollContainerFrameForKeyboardScroll
+FindScrollContainerFrameForKeyboardScrollOrHandoff
 (
 nsIFrame
 *
