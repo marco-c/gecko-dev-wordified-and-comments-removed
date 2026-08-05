@@ -115,7 +115,7 @@ code
 const
 REFERRAL_CODE_LENGTH
 =
-10
+16
 ;
 /
 /
