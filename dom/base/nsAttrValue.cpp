@@ -5941,7 +5941,7 @@ end
 ;
 }
 return
-FindInReadable
+AsciiCaseInsensitiveFindInReadable
 (
 aSearchValue
 nsDependentString
@@ -5949,7 +5949,6 @@ nsDependentString
 aAttrValue
 aAttrLen
 )
-nsASCIICaseInsensitiveStringComparator
 )
 ;
 }

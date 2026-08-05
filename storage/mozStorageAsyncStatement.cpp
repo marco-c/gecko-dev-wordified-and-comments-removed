@@ -436,11 +436,6 @@ this
 #
 ifdef
 DEBUG
-auto
-c
-=
-nsCaseInsensitiveCStringComparator
-;
 nsACString
 :
 :
@@ -471,7 +466,7 @@ while
 (
 :
 :
-FindInReadable
+CaseInsensitiveFindInReadable
 (
 "
 LIKE
@@ -479,7 +474,6 @@ LIKE
 _ns
 start
 e
-c
 )
 )
 {
@@ -505,7 +499,7 @@ if
 (
 :
 :
-FindInReadable
+CaseInsensitiveFindInReadable
 (
 "
 LIKE
@@ -514,13 +508,12 @@ LIKE
 _ns
 s1
 end
-c
 )
 |
 |
 :
 :
-FindInReadable
+CaseInsensitiveFindInReadable
 (
 "
 LIKE
@@ -529,13 +522,12 @@ LIKE
 _ns
 s2
 end
-c
 )
 |
 |
 :
 :
-FindInReadable
+CaseInsensitiveFindInReadable
 (
 "
 LIKE
@@ -543,7 +535,6 @@ LIKE
 _ns
 s3
 end
-c
 )
 )
 )
