@@ -140,6 +140,7 @@ Template
 {
 layout
 showLabels
+showNativeThemeOption
 }
 )
 =
@@ -159,6 +160,12 @@ showLabels
 =
 {
 showLabels
+}
+.
+showNativeThemeOption
+=
+{
+showNativeThemeOption
 }
 >
 <
@@ -191,6 +198,9 @@ layout
 full
 "
 showLabels
+:
+true
+showNativeThemeOption
 :
 true
 }
