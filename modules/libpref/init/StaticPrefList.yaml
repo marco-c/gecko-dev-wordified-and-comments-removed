@@ -53797,9 +53797,6 @@ OpenGL
 -
 -
 -
-#
-ifdef
-XP_MACOSX
 -
 name
 :
@@ -53819,8 +53816,6 @@ true
 mirror
 :
 always
-#
-endif
 #
 ifdef
 XP_WIN
