@@ -14316,6 +14316,14 @@ BytecodeLocation
 loc
 )
 {
+MOZ_ASSERT
+(
+!
+inlineCallInfo
+(
+)
+)
+;
 MDefinition
 *
 val

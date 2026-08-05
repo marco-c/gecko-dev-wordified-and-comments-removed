@@ -13216,6 +13216,9 @@ true
 generate_lir
 :
 true
+lir_temps
+:
+1
 -
 name
 :

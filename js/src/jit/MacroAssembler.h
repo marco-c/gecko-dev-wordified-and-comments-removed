@@ -2310,6 +2310,17 @@ false
 ;
 inline
 void
+branchIfNotActivationEntryFrame
+(
+Register
+scratch
+Label
+*
+notEntryFrame
+)
+;
+inline
+void
 loadNumActualArgs
 (
 Register
