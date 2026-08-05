@@ -932,6 +932,13 @@ js
 ]
 [
 "
+test_searchEngineStore
+.
+js
+"
+]
+[
+"
 test_search_engine_restyle
 .
 js

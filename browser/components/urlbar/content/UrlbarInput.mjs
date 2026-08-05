@@ -3397,6 +3397,14 @@ val
 )
 ;
 }
+this
+.
+controller
+.
+maybeInitEngineStore
+(
+)
+;
 /
 /
 The

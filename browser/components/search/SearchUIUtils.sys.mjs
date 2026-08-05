@@ -810,6 +810,11 @@ true
 }
 )
 ;
+if
+(
+win
+)
+{
 let
 buttons
 =
@@ -934,6 +939,7 @@ PRIORITY_SYSTEM
 buttons
 )
 ;
+}
 /
 /
 _updatePlaceholderFromDefaultEngine
