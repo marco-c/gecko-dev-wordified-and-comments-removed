@@ -73,7 +73,7 @@ glob
 *
 memory
 /
-*
+index
 #
 #
 General
