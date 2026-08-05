@@ -527,7 +527,7 @@ type
 =
 "
 icon
-ghost
+primary
 "
 >
 <

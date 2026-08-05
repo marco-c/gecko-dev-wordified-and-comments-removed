@@ -737,10 +737,12 @@ macosx
 "
 ?
 originalEvent
+?
 .
 metaKey
 :
 originalEvent
+?
 .
 ctrlKey
 ;
