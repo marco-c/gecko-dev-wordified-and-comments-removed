@@ -473,6 +473,14 @@ padding
 ;
 if
 (
+!
+aReflowInput
+.
+mFlags
+.
+mIsInFragmentainerMeasuringReflow
+&
+&
 frame
 -
 >
