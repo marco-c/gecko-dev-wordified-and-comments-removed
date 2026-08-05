@@ -501,6 +501,13 @@ show_ms_settings_link
 "
 services
 .
+settings
+.
+base_attachments_url
+"
+"
+services
+.
 sync
 .
 clients
