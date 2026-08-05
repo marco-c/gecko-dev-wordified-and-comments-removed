@@ -200,7 +200,10 @@ Register
 TransmissionOffset
 >
 (
+RtpHeaderExtensionId
+(
 1
+)
 )
 ;
 extensions
@@ -210,7 +213,10 @@ Register
 AbsoluteSendTime
 >
 (
+RtpHeaderExtensionId
+(
 2
+)
 )
 ;
 extensions
@@ -220,7 +226,10 @@ Register
 TransportSequenceNumber
 >
 (
+RtpHeaderExtensionId
+(
 3
+)
 )
 ;
 extensions
@@ -230,7 +239,10 @@ Register
 TransportSequenceNumberV2
 >
 (
+RtpHeaderExtensionId
+(
 4
+)
 )
 ;
 RtpPacketReceived

@@ -321,9 +321,12 @@ extensions
 .
 RegisterByType
 (
+RtpHeaderExtensionId
+(
 local_id
 +
 +
+)
 extension_type
 )
 ;

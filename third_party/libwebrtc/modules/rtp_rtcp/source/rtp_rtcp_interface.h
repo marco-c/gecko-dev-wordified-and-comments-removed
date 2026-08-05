@@ -664,9 +664,12 @@ id
 =
 0
 ;
-ABSL_DEPRECATE_AND_INLINE
-(
-)
+[
+[
+deprecated
+]
+]
+ABSL_REFACTOR_INLINE
 void
 RegisterRtpHeaderExtension
 (
