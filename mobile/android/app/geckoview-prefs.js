@@ -1636,6 +1636,18 @@ false
 pref
 (
 "
+geckoview
+.
+autocomplete
+.
+selection_dismiss_delay_ms
+"
+150
+)
+;
+pref
+(
+"
 intl
 .
 locale
@@ -2406,7 +2418,7 @@ ipProtection
 .
 enabled
 "
-false
+true
 )
 ;
 pref
