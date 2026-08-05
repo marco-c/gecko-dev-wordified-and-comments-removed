@@ -437,6 +437,9 @@ WebGLIpdl
 h
 "
 ;
+[
+MoveOnly
+]
 using
 mozilla
 :
