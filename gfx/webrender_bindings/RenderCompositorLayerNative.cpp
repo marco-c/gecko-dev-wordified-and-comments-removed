@@ -2717,7 +2717,7 @@ sync
 egl
 -
 >
-fCreateSync
+fCreateSyncKHR
 (
 LOCAL_EGL_SYNC_METAL_COMMANDS_SCHEDULED_ANGLE
 nullptr

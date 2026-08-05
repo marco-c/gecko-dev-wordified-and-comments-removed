@@ -585,7 +585,7 @@ mSync
 egl
 -
 >
-fCreateSync
+fCreateSyncKHR
 (
 LOCAL_EGL_SYNC_FENCE
 nullptr
