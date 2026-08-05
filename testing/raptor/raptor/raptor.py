@@ -540,6 +540,12 @@ args
 .
 etw_profile
             
+samply_profile
+=
+args
+.
+samply_profile
+            
 symbols_path
 =
 args
@@ -1038,10 +1044,25 @@ archive_raptor_artifacts
 is_profiling_job
 )
     
-if
+profiling
+=
+any
+(
+[
 args
 .
 gecko_profile
+args
+.
+simpleperf
+args
+.
+samply_profile
+]
+)
+    
+if
+profiling
 and
 args
 .
