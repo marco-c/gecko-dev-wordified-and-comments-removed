@@ -2797,6 +2797,10 @@ pub
 dest_task_id
 :
 RenderTaskId
+pub
+dest_to_src_raster
+:
+ScaleOffset
 }
 #
 [
