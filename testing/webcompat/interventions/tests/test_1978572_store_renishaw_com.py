@@ -74,13 +74,8 @@ button
 LEFT_SLIDER_CSS
 =
 "
-details
-.
-bg
--
-primary
 #
-undefined
+BallDiameter
 -
 min
 "

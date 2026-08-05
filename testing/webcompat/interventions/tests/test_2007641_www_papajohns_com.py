@@ -164,11 +164,14 @@ checkout
 GOOD_CSS
 =
 "
-input
 [
 name
 =
-policyCheck
+'
+contactInfo
+.
+firstName
+'
 ]
 "
 BAD_TEXT

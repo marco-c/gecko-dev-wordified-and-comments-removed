@@ -31,7 +31,8 @@ panacea
 HERO_TEXT
 =
 "
-Feedback
+PONS
+Pur
 "
 UNSUPPORTED_TEXT
 =

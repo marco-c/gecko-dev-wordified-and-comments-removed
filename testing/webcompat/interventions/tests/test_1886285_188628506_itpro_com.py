@@ -60,6 +60,14 @@ none
 "
 )
     
+await
+client
+.
+stall
+(
+4
+)
+    
 client
 .
 test_future_plc_trending_scrollbar
@@ -112,6 +120,14 @@ wait
 "
 none
 "
+)
+    
+await
+client
+.
+stall
+(
+4
 )
     
 client

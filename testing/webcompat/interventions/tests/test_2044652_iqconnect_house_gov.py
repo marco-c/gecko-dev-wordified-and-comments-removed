@@ -145,6 +145,14 @@ navigate
 URL
 )
     
+await
+client
+.
+stall
+(
+3
+)
+    
 btn
 =
 client

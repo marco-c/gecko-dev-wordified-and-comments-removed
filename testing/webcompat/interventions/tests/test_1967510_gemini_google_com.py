@@ -337,6 +337,7 @@ trim
 =
 =
 =
+(
 arguments
 [
 1
@@ -345,6 +346,11 @@ arguments
 "
 hello
 "
+)
+.
+trim
+(
+)
       
 "
 "
