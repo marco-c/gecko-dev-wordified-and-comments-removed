@@ -1180,6 +1180,13 @@ sys
 .
 mjs
 "
+"
+SerialDeviceSharingHelper
+.
+sys
+.
+mjs
+"
 ]
 if
 CONFIG
