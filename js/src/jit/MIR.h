@@ -5313,6 +5313,17 @@ Index
 Name
 )
 \
+static
+constexpr
+size_t
+Name
+#
+#
+Operand
+=
+Index
+;
+\
 MDefinition
 *
 Name
