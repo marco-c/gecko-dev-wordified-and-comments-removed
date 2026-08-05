@@ -512,6 +512,15 @@ aGroupId
 override
 ;
 void
+GetNegotiatedProtocol
+(
+nsACString
+&
+aProtocol
+)
+override
+;
+void
 OnOutgoingDatagramOutCome
 (
 uint64_t

@@ -518,6 +518,13 @@ uint32_t
 aCongestionControl
 nsTArray
 <
+nsString
+>
+&
+&
+aProtocols
+nsTArray
+<
 WebTransportHash
 >
 &
