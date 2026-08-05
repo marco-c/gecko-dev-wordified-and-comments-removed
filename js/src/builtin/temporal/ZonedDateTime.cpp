@@ -2298,7 +2298,7 @@ epochNanoseconds
 object
 -
 >
-initFixedSlot
+initFixedSlotTyped
 (
 ZonedDateTimeObject
 :
@@ -2315,7 +2315,7 @@ seconds
 object
 -
 >
-initFixedSlot
+initFixedSlotTyped
 (
 ZonedDateTimeObject
 :
@@ -2332,7 +2332,7 @@ nanoseconds
 object
 -
 >
-initFixedSlot
+initFixedSlotTyped
 (
 ZonedDateTimeObject
 :
@@ -2348,7 +2348,7 @@ toSlotValue
 object
 -
 >
-initFixedSlot
+initFixedSlotTyped
 (
 ZonedDateTimeObject
 :
@@ -2427,7 +2427,7 @@ nullptr
 object
 -
 >
-initFixedSlot
+initFixedSlotTyped
 (
 ZonedDateTimeObject
 :
@@ -2444,7 +2444,7 @@ seconds
 object
 -
 >
-initFixedSlot
+initFixedSlotTyped
 (
 ZonedDateTimeObject
 :
@@ -2461,7 +2461,7 @@ nanoseconds
 object
 -
 >
-initFixedSlot
+initFixedSlotTyped
 (
 ZonedDateTimeObject
 :
@@ -2477,7 +2477,7 @@ toSlotValue
 object
 -
 >
-initFixedSlot
+initFixedSlotTyped
 (
 ZonedDateTimeObject
 :
@@ -11041,11 +11041,21 @@ return
 false
 ;
 }
-MOZ_ASSERT
+thisNs
+=
+std
+:
+:
+min
 (
 thisNs
-<
 endNs
+-
+EpochDuration
+{
+0
+1
+}
 )
 ;
 auto

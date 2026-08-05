@@ -1356,7 +1356,7 @@ time
 object
 -
 >
-initFixedSlot
+initFixedSlotTyped
 (
 PlainTimeObject
 :
@@ -1446,7 +1446,7 @@ time
 object
 -
 >
-initFixedSlot
+initFixedSlotTyped
 (
 PlainTimeObject
 :

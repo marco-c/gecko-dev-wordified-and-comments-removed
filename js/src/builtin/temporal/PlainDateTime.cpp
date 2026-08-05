@@ -771,7 +771,7 @@ time
 object
 -
 >
-initFixedSlot
+initFixedSlotTyped
 (
 PlainDateTimeObject
 :
@@ -788,7 +788,7 @@ value
 object
 -
 >
-initFixedSlot
+initFixedSlotTyped
 (
 PlainDateTimeObject
 :
@@ -814,7 +814,7 @@ value
 object
 -
 >
-initFixedSlot
+initFixedSlotTyped
 (
 PlainDateTimeObject
 :
@@ -935,7 +935,7 @@ time
 object
 -
 >
-initFixedSlot
+initFixedSlotTyped
 (
 PlainDateTimeObject
 :
@@ -952,7 +952,7 @@ value
 object
 -
 >
-initFixedSlot
+initFixedSlotTyped
 (
 PlainDateTimeObject
 :
@@ -978,7 +978,7 @@ value
 object
 -
 >
-initFixedSlot
+initFixedSlotTyped
 (
 PlainDateTimeObject
 :
