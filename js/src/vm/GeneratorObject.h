@@ -228,7 +228,7 @@ argsObject
 )
 ;
 static
-bool
+void
 resume
 (
 JSContext
@@ -245,7 +245,7 @@ AbstractGeneratorObject
 genObj
 HandleValue
 arg
-HandleValue
+GeneratorResumeKind
 resumeKind
 )
 ;
