@@ -2860,6 +2860,13 @@ Bug
 ]
 [
 "
+browser_uidensity_auto_touch
+.
+js
+"
+]
+[
+"
 browser_unified_extensions_reset
 .
 js
