@@ -643,6 +643,11 @@ nsString
 outTitle
 )
 ;
+bool
+ShortcutUrlHasWebScheme
+(
+)
+;
 nsresult
 BuildPlatformHTML
 (
