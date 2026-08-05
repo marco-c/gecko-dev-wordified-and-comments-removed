@@ -2213,9 +2213,6 @@ PocketSection
 state
 =
 pocketState
-cardBackgroundColor
-=
-cardBackgroundColor
 interactor
 =
 interactor
