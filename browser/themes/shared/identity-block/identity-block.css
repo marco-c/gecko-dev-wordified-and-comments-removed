@@ -2688,6 +2688,7 @@ fill
 fill
 -
 opacity
+stroke
 ;
 /
 *
@@ -2780,6 +2781,19 @@ box
 text
 -
 color
+)
+;
+stroke
+:
+var
+(
+-
+-
+icon
+-
+color
+-
+critical
 )
 ;
 }
