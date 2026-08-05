@@ -3966,6 +3966,16 @@ browser
 .
 download
 .
+focusPanelOnOpen
+"
+:
+False
+        
+"
+browser
+.
+download
+.
 panel
 .
 shown
