@@ -6809,7 +6809,7 @@ uint64_t
 AvailGroups
 (
 uint64_t
-totalAvailItems
+totalAvailItemBytes
 uint64_t
 firstItemOffset
 uint32_t
