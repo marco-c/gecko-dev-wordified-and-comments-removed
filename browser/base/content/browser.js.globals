@@ -123,9 +123,6 @@ OpenSearchManager
 CreateContainerTabMenu
 "
 "
-gContainerCreation
-"
-"
 FillHistoryMenu
 "
 "
