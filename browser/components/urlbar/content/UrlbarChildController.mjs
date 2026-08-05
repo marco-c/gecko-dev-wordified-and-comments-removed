@@ -4704,8 +4704,6 @@ _disableCanonization
 )
 &
 &
-lazy
-.
 UrlbarPrefs
 .
 get
@@ -5016,8 +5014,6 @@ sapName
 searchbar
 "
 ?
-lazy
-.
 UrlbarPrefs
 .
 get
@@ -5031,8 +5027,6 @@ openintab
 "
 )
 :
-lazy
-.
 UrlbarPrefs
 .
 get
