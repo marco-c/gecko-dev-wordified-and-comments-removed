@@ -7107,7 +7107,7 @@ redirectParentChannel
 {
 FinishReplacementChannelSetup
 (
-NS_ERROR_FAILURE
+NS_ERROR_DOCUMENT_LOAD_LISTENER_NO_PARENT_CHANNEL
 )
 ;
 return
@@ -7300,7 +7300,7 @@ redirectChannel
 {
 aResult
 =
-NS_ERROR_FAILURE
+NS_ERROR_DOCUMENT_LOAD_LISTENER_NO_PARENT_CHANNEL
 ;
 }
 registrar

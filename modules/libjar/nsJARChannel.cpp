@@ -3785,6 +3785,17 @@ return
 }
 if
 (
+aStatus
+=
+=
+NS_ERROR_DOCUMENT_LOAD_LISTENER_NO_PARENT_CHANNEL
+)
+{
+return
+;
+}
+if
+(
 RefPtr
 <
 mozilla
