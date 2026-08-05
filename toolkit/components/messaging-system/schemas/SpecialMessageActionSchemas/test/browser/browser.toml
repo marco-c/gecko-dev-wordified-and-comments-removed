@@ -159,6 +159,13 @@ js
 ]
 [
 "
+browser_sma_get_referral_code
+.
+js
+"
+]
+[
+"
 browser_sma_handle_multiaction
 .
 js
