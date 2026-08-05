@@ -6719,6 +6719,11 @@ themeFg
 =
 theme
 .
+icon_attention_color
+|
+|
+theme
+.
 toolbar_text
 |
 |
@@ -6731,12 +6736,12 @@ themeBg
 =
 theme
 .
-toolbarColor
+accentcolor
 |
 |
 theme
 .
-accentcolor
+toolbarColor
 ;
 if
 (

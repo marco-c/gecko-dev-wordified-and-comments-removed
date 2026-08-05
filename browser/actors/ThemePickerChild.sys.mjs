@@ -296,6 +296,12 @@ CustomEvent
 (
 eventName
 {
+bubbles
+:
+true
+composed
+:
+true
 detail
 :
 Cu
