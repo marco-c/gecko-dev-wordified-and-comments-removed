@@ -1017,6 +1017,13 @@ frame
 isUnwoundJitExit
 (
 )
+|
+|
+frame
+.
+isBaselineInterpreterEntry
+(
+)
 )
 {
 return
