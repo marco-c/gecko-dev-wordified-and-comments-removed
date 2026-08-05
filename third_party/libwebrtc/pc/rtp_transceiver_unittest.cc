@@ -4665,10 +4665,6 @@ RtpHeaderExtensionCapability
 "
 uri1
 "
-RtpHeaderExtensionId
-(
-1
-)
 RtpTransceiverDirection
 :
 :
@@ -4679,10 +4675,6 @@ RtpHeaderExtensionCapability
 "
 uri2
 "
-RtpHeaderExtensionId
-(
-2
-)
 RtpTransceiverDirection
 :
 :
@@ -4694,10 +4686,6 @@ RtpExtension
 :
 :
 kMidUri
-RtpHeaderExtensionId
-(
-3
-)
 RtpTransceiverDirection
 :
 :
@@ -4709,10 +4697,6 @@ RtpExtension
 :
 :
 kVideoRotationUri
-RtpHeaderExtensionId
-(
-4
-)
 RtpTransceiverDirection
 :
 :
@@ -6672,10 +6656,6 @@ RtpExtension
 :
 :
 kDependencyDescriptorUri
-RtpHeaderExtensionId
-(
-1
-)
 RtpTransceiverDirection
 :
 :
@@ -6686,10 +6666,6 @@ RtpExtension
 :
 :
 kVideoLayersAllocationUri
-RtpHeaderExtensionId
-(
-2
-)
 RtpTransceiverDirection
 :
 :
