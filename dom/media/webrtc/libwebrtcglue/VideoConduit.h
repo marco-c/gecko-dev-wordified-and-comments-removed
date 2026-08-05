@@ -702,6 +702,16 @@ Maybe
 <
 Ssrc
 >
+GetAssociatedRemoteRtxSSRC
+(
+)
+const
+override
+;
+Maybe
+<
+Ssrc
+>
 GetRemoteSSRC
 (
 )
