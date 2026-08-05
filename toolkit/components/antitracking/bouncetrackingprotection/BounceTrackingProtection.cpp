@@ -4443,6 +4443,13 @@ RejectValue
 (
 )
 ;
+self
+-
+>
+mPurgeInProgress
+=
+false
+;
 resultPromise
 -
 >
@@ -4584,6 +4591,13 @@ rv
 )
 )
 {
+self
+-
+>
+mPurgeInProgress
+=
+false
+;
 resultPromise
 -
 >
