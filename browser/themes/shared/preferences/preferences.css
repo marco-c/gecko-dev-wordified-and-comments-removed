@@ -9904,6 +9904,9 @@ icon
 -
 padding
 :
+round
+(
+up
 var
 (
 -
@@ -9911,6 +9914,10 @@ var
 space
 -
 small
+)
+0
+.
+5px
 )
 ;
 -
