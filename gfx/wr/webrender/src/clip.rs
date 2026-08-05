@@ -2397,6 +2397,9 @@ SpatialNodeIndex
 clip_rect
 :
 LayoutRect
+snap_outset
+:
+Au
 )
 {
 self
@@ -2418,11 +2421,6 @@ into
 (
 )
 snap_outset
-:
-Au
-(
-0
-)
 }
 )
 ;

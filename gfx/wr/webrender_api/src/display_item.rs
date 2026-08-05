@@ -1014,6 +1014,10 @@ pub
 clip
 :
 ComplexClipRegion
+pub
+snap_outset
+:
+f32
 }
 #
 [
