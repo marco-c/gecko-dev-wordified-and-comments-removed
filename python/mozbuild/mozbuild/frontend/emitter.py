@@ -140,6 +140,8 @@ LocalizedFiles
     
 LocalizedPreprocessedFiles
     
+MacOSBundle
+    
 MozSrcFiles
     
 ObjdirFiles
@@ -10665,6 +10667,28 @@ JsShellArchive
 (
 context
 jsshell_files
+)
+        
+for
+bundle
+in
+context
+.
+get
+(
+"
+MACOS_BUNDLES
+"
+[
+]
+)
+:
+            
+yield
+MacOSBundle
+(
+context
+bundle
 )
         
 rust_tests
