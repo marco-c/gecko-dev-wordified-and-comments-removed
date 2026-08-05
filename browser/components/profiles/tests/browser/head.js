@@ -506,13 +506,6 @@ null
 )
 ;
 await
-SelectableProfileService
-.
-uninit
-(
-)
-;
-await
 ProfilesDatastoreService
 .
 resetProfileService
@@ -522,6 +515,13 @@ null
 ;
 await
 ProfilesDatastoreService
+.
+uninit
+(
+)
+;
+await
+SelectableProfileService
 .
 uninit
 (
