@@ -149,6 +149,21 @@ enableOptimizedPartialRendering
 true
 )
 ;
+#
+ifdef
+NIGHTLY_BUILD
+pref
+(
+"
+pdfjs
+.
+enableSignatureVerification
+"
+true
+)
+;
+#
+else
 pref
 (
 "
@@ -159,3 +174,5 @@ enableSignatureVerification
 false
 )
 ;
+#
+endif
