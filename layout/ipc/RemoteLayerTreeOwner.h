@@ -230,6 +230,8 @@ base
 :
 ProcessId
 mTabProcessId
+=
+0
 ;
 LayersId
 mLayersId

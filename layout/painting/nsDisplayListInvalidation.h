@@ -525,6 +525,8 @@ mFrameOffsetToReferenceFrame
 ;
 bool
 mHandleOpacity
+=
+false
 ;
 }
 ;

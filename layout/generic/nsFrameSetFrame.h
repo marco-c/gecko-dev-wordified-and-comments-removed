@@ -619,7 +619,7 @@ nsIntPoint
 *
 aCellIndex
 =
-0
+nullptr
 )
 ;
 bool
@@ -745,9 +745,13 @@ mParentBorderWidth
 ;
 int32_t
 mPrevNeighborOrigSize
+=
+0
 ;
 int32_t
 mNextNeighborOrigSize
+=
+0
 ;
 int32_t
 mMinDrag
