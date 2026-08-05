@@ -1450,6 +1450,14 @@ lock
 )
 ;
 void
+mergeChunkStatsToRuntime
+(
+BufferChunk
+*
+chunk
+)
+;
+void
 abortMajorSweeping
 (
 const
@@ -1849,6 +1857,9 @@ SmallBufferRegion
 region
 SweepKind
 sweepKind
+size_t
+*
+usedBytesOut
 )
 ;
 void
