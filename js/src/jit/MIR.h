@@ -30324,6 +30324,12 @@ INSTRUCTION_HEADER
 BinaryCache
 )
 TRIVIAL_NEW_WRAPPERS
+JSOp
+jsop
+(
+)
+const
+;
 }
 ;
 class
