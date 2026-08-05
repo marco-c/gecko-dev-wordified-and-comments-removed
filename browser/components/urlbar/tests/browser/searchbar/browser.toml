@@ -93,13 +93,6 @@ js
 ]
 [
 "
-browser_searchbar_addEngineBadge
-.
-js
-"
-]
-[
-"
 browser_searchbar_context
 .
 js
