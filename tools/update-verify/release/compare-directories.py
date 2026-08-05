@@ -508,6 +508,9 @@ release
 "
 esr
 "
+"
+nightly
+"
 ]
         
 "
