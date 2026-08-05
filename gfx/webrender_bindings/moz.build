@@ -314,6 +314,11 @@ webrender
 =
 [
 "
+MetalDeviceManager
+.
+h
+"
+"
 RenderCompositorNative
 .
 h
@@ -328,6 +333,11 @@ UNIFIED_SOURCES
 +
 =
 [
+"
+MetalDeviceManager
+.
+mm
+"
 "
 RenderCompositorNative
 .
