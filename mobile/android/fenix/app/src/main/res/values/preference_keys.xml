@@ -7568,7 +7568,7 @@ string
 name
 =
 "
-pref_key_universal_edge_to_edge_wallpaper
+pref_key_enable_universal_edge_to_edge_wallpapers
 "
 translatable
 =
@@ -7576,7 +7576,7 @@ translatable
 false
 "
 >
-pref_key_universal_edge_to_edge_wallpaper
+pref_key_enable_universal_edge_to_edge_wallpapers
 <
 /
 string

@@ -923,6 +923,7 @@ remember
 (
 this
 context
+tint
 )
 {
 AppCompatResources
@@ -1043,6 +1044,7 @@ return
 remember
 (
 this
+tint
 )
 {
 when
@@ -1145,6 +1147,7 @@ remember
 (
 this
 context
+tint
 )
 {
 when

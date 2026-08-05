@@ -1130,7 +1130,7 @@ R
 .
 string
 .
-pref_key_universal_edge_to_edge_wallpaper
+pref_key_enable_universal_edge_to_edge_wallpapers
 )
 .
 apply
@@ -1139,7 +1139,7 @@ isChecked
 =
 settings
 .
-universalEdgeToEdgeWallpaper
+enableUniversalEdgeToEdgeWallpapers
 onPreferenceChangeListener
 =
 SharedPreferenceUpdater
