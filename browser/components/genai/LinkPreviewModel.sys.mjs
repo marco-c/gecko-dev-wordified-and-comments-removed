@@ -2633,11 +2633,6 @@ featureId
 this
 .
 id
-kvCacheDtype
-:
-"
-q8_0
-"
 modelFile
 :
 "
@@ -2684,12 +2679,6 @@ modelRevision
 "
 main
 "
-numBatch
-:
-numContext
-numContext
-numUbatch
-:
 numContext
 taskName
 :
