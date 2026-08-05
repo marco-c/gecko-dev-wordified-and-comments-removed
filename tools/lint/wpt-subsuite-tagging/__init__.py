@@ -1,7 +1,11 @@
 import
-os
-import
 re
+import
+mozpack
+.
+path
+as
+mozpath
 from
 mozlint
 import
@@ -240,9 +244,7 @@ tags
 =
 _get_ini_tags
 (
-os
-.
-path
+mozpath
 .
 join
 (
@@ -259,16 +261,6 @@ ini
 parts
 =
 rel_path
-.
-replace
-(
-os
-.
-sep
-"
-/
-"
-)
 .
 split
 (
@@ -294,9 +286,7 @@ tags
 =
 _get_ini_tags
 (
-os
-.
-path
+mozpath
 .
 join
 (
@@ -338,12 +328,17 @@ results
     
 root
 =
+mozpath
+.
+normsep
+(
 lintargs
 [
 "
 root
 "
 ]
+)
     
 for
 path
@@ -352,7 +347,12 @@ expand_exclusions
 (
 paths
 config
+lintargs
+[
+"
 root
+"
+]
 )
 :
         
@@ -365,9 +365,7 @@ _TESTS_META_PAIRS
             
 abs_tests_root
 =
-os
-.
-path
+mozpath
 .
 join
 (
@@ -383,9 +381,9 @@ startswith
 (
 abs_tests_root
 +
-os
-.
-sep
+"
+/
+"
 )
 :
                 
@@ -393,15 +391,16 @@ continue
             
 rel_path
 =
-os
-.
 path
-.
-relpath
+[
+len
 (
-path
 abs_tests_root
 )
++
+1
+:
+]
             
 url_dir
 =
@@ -412,16 +411,6 @@ url_dir
 join
 (
 rel_path
-.
-replace
-(
-os
-.
-sep
-"
-/
-"
-)
 .
 split
 (
@@ -472,9 +461,7 @@ tags
 _effective_tags
 (
 rel_path
-os
-.
-path
+mozpath
 .
 join
 (
