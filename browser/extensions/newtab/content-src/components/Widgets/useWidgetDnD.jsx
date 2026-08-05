@@ -330,6 +330,11 @@ draggedId
 mouse
 .
 draggedId
+previewOrder
+:
+mouse
+.
+previewOrder
 previewOrderMap
 handleDragStart
 :
