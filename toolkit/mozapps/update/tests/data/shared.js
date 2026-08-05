@@ -1132,7 +1132,7 @@ Services
 .
 scriptloader
 .
-loadSubScriptWithOptions
+loadSubScript
 (
 DATA_URI_SPEC
 +
@@ -1141,14 +1141,7 @@ sharedUpdateXML
 .
 js
 "
-{
-target
-:
 this
-allowUnsafeURL
-:
-true
-}
 )
 ;
 const

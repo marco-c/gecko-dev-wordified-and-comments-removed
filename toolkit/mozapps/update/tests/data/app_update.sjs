@@ -172,14 +172,10 @@ Services
 .
 scriptloader
 .
-loadSubScriptWithOptions
+loadSubScript
 (
 scriptSpec
-{
-allowUnsafeURL
-:
-true
-}
+this
 )
 ;
 }

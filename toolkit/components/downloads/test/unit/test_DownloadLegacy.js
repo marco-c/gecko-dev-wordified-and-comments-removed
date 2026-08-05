@@ -24,7 +24,7 @@ Services
 .
 scriptloader
 .
-loadSubScriptWithOptions
+loadSubScript
 (
 NetUtil
 .
@@ -34,11 +34,6 @@ scriptFile
 )
 .
 spec
-{
-allowUnsafeURL
-:
-true
-}
 )
 ;
 add_task
