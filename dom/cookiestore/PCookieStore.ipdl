@@ -63,9 +63,6 @@ PBackground
 include
 PBackgroundSharedTypes
 ;
-include
-NeckoChannelParams
-;
 using
 mozilla
 :
@@ -130,12 +127,14 @@ mozilla
 namespace
 dom
 {
-union
-MaybeCookieStruct
+struct
+CookieStoreGetItem
 {
-CookieStruct
+nsCString
+name
 ;
-void_t
+nsCString
+value
 ;
 }
 ;
@@ -212,7 +211,7 @@ onlyFirstMatch
 )
 returns
 (
-CookieStruct
+CookieStoreGetItem
 [
 ]
 data
