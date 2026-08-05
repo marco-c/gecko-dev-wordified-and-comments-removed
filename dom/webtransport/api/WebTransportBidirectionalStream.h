@@ -178,11 +178,11 @@ ipc
 DataPipeSender
 *
 aSender
+Maybe
+<
 int64_t
+>
 aSendOrder
-WebTransportSendGroup
-*
-aSendGroup
 ErrorResult
 &
 aRv

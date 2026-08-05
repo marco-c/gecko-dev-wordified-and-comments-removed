@@ -439,8 +439,6 @@ sendDatagram
 (
 rawData
 1
-0
-0
 )
 ;
 let
@@ -561,8 +559,6 @@ sendDatagram
 (
 rawData
 2
-0
-0
 )
 ;
 pOutcome

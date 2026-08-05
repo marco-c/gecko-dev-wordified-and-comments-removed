@@ -805,10 +805,6 @@ bool
 aRequireUnreliable
 uint32_t
 aCongestionControl
-nsString
-[
-]
-aProtocols
 WebTransportHash
 [
 ]

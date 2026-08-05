@@ -6562,17 +6562,7 @@ WebTransportDatagramDuplexStream
 webidl
 "
 "
-WebTransportDatagramsWritable
-.
-webidl
-"
-"
 WebTransportError
-.
-webidl
-"
-"
-WebTransportSendGroup
 .
 webidl
 "
