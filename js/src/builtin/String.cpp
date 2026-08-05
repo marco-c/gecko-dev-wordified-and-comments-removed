@@ -2499,7 +2499,7 @@ unbox
 )
 )
 ;
-int32_t
+uint32_t
 slot
 =
 id
@@ -2510,9 +2510,6 @@ toInt
 ;
 if
 (
-(
-size_t
-)
 slot
 <
 str
@@ -2538,10 +2535,7 @@ getUnitStringForElement
 (
 cx
 str
-size_t
-(
 slot
-)
 )
 ;
 if
