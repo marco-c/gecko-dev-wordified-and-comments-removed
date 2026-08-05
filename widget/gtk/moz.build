@@ -536,11 +536,6 @@ nsDragServiceGtk
 cpp
 "
 "
-nsDragSessionSource
-.
-cpp
-"
-"
 nsFilePicker
 .
 cpp
