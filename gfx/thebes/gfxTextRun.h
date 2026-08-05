@@ -2555,6 +2555,7 @@ details
 GetDetailedGlyphs
 (
 aIndex
+glyphCount
 )
 ;
 nscoord

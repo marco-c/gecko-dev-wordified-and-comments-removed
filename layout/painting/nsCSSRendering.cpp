@@ -19372,10 +19372,8 @@ count
 0
 )
 {
-gfxTextRun
-:
-:
-DetailedGlyph
+const
+auto
 *
 detailGlyph
 =
@@ -19385,6 +19383,7 @@ aTextRun
 GetDetailedGlyphs
 (
 currIndex
+count
 )
 ;
 for

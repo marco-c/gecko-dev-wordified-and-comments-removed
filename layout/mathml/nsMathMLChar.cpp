@@ -1788,6 +1788,7 @@ textRun
 GetDetailedGlyphs
 (
 0
+1
 )
 -
 >
