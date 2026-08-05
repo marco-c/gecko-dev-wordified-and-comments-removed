@@ -424,6 +424,9 @@ api
 BlobTilePool
 )
 {
+tracy_rs
+:
+:
 profile_scope
 !
 (
@@ -1695,6 +1698,9 @@ self
 {
 loop
 {
+tracy_rs
+:
+:
 tracy_begin_frame
 !
 (
@@ -2540,6 +2546,9 @@ poke
 )
 ;
 }
+tracy_rs
+:
+:
 tracy_end_frame
 !
 (
@@ -3296,6 +3305,9 @@ Box
 BuiltTransaction
 >
 {
+tracy_rs
+:
+:
 profile_scope
 !
 (
