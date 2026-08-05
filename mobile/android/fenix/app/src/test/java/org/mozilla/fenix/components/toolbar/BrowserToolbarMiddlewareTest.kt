@@ -1724,6 +1724,20 @@ toolbar
 .
 BrowserToolbarTestTags
 .
+SITE_INFO_INSECURE_CONNECTION
+import
+org
+.
+mozilla
+.
+fenix
+.
+components
+.
+toolbar
+.
+BrowserToolbarTestTags
+.
 SITE_INFO_LOCAL_FILE
 import
 org
@@ -1752,7 +1766,7 @@ toolbar
 .
 BrowserToolbarTestTags
 .
-SITE_INFO_UNKNOWN
+SITE_INFO_TRACKING_PROTECTION_OFF
 import
 org
 .
@@ -1766,7 +1780,7 @@ toolbar
 .
 BrowserToolbarTestTags
 .
-SITE_INFO_UNSECURE
+SITE_INFO_UNKNOWN
 import
 org
 .
@@ -13450,7 +13464,7 @@ StartPageActions
 SiteInfoClicked
 testTag
 =
-SITE_INFO_UNSECURE
+SITE_INFO_INSECURE_CONNECTION
 )
 val
 toolbarStore
@@ -13666,7 +13680,7 @@ StartPageActions
 SiteInfoClicked
 testTag
 =
-SITE_INFO_UNSECURE
+SITE_INFO_INSECURE_CONNECTION
 )
 val
 toolbarStore
@@ -13841,7 +13855,7 @@ iconsR
 .
 drawable
 .
-mozac_ic_shield_slash_24
+mozac_ic_shield_cross_24
 contentDescription
 =
 toolbarR
@@ -13856,7 +13870,7 @@ StartPageActions
 SiteInfoClicked
 testTag
 =
-SITE_INFO_UNSECURE
+SITE_INFO_TRACKING_PROTECTION_OFF
 )
 val
 toolbarStore
@@ -14108,7 +14122,7 @@ iconsR
 .
 drawable
 .
-mozac_ic_shield_slash_24
+mozac_ic_shield_cross_24
 contentDescription
 =
 toolbarR
@@ -14123,7 +14137,7 @@ StartPageActions
 SiteInfoClicked
 testTag
 =
-SITE_INFO_UNSECURE
+SITE_INFO_TRACKING_PROTECTION_OFF
 )
 val
 toolbarStore
@@ -14724,7 +14738,7 @@ iconResId
 )
 assertEquals
 (
-SITE_INFO_UNSECURE
+SITE_INFO_INSECURE_CONNECTION
 siteInfo
 .
 testTag
@@ -15638,7 +15652,7 @@ StartPageActions
 SiteInfoClicked
 testTag
 =
-SITE_INFO_UNSECURE
+SITE_INFO_INSECURE_CONNECTION
 )
 var
 toolbarPageActions

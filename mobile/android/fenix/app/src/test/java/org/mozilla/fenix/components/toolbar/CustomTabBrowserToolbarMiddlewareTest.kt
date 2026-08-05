@@ -2996,7 +2996,7 @@ iconsR
 .
 drawable
 .
-mozac_ic_shield_slash_24
+mozac_ic_shield_cross_24
 contentDescription
 =
 toolbarR
@@ -3149,7 +3149,7 @@ iconsR
 .
 drawable
 .
-mozac_ic_shield_slash_24
+mozac_ic_shield_cross_24
 contentDescription
 =
 toolbarR
@@ -3375,7 +3375,7 @@ iconsR
 .
 drawable
 .
-mozac_ic_shield_slash_24
+mozac_ic_shield_cross_24
 contentDescription
 =
 toolbarR
