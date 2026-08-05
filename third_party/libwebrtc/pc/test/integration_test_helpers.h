@@ -3547,11 +3547,13 @@ public
 MockIceTransport
 (
 const
-std
-:
-:
-string
+Environment
 &
+env
+absl
+:
+:
+string_view
 name
 int
 component
@@ -3567,6 +3569,7 @@ make_unique
 FakeIceTransportInternal
 >
 (
+env
 name
 component
 nullptr
@@ -3656,6 +3659,11 @@ make_ref_counted
 MockIceTransport
 >
 (
+init
+.
+env
+(
+)
 transport_name
 component
 )

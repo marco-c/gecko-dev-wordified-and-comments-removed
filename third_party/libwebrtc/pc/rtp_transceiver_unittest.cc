@@ -2115,6 +2115,9 @@ make_unique
 FakeDtlsTransport
 >
 (
+env
+(
+)
 "
 test_transport
 "
@@ -7420,6 +7423,9 @@ make_unique
 FakeDtlsTransport
 >
 (
+env
+(
+)
 "
 test_transport
 "
@@ -7790,6 +7796,9 @@ make_unique
 FakeDtlsTransport
 >
 (
+env
+(
+)
 "
 test_transport
 "
@@ -8271,6 +8280,9 @@ make_unique
 FakeDtlsTransport
 >
 (
+env
+(
+)
 "
 test_transport
 "

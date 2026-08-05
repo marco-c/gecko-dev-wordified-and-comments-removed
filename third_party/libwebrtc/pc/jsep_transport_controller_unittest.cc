@@ -759,6 +759,11 @@ make_unique
 FakeIceTransportInternal
 >
 (
+init
+.
+env
+(
+)
 transport_name
 component
 )
