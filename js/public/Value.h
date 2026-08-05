@@ -200,6 +200,9 @@ uint8_t
 Double
 =
 JSVAL_TYPE_DOUBLE
+Private
+=
+JSVAL_TYPE_DOUBLE
 Int32
 =
 JSVAL_TYPE_INT32
