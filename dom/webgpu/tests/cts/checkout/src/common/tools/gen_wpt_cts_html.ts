@@ -1744,11 +1744,6 @@ the
 test
 function
 faster
-and
-regenerate
-the
-listing_meta
-entry
 -
 Reduce
 the

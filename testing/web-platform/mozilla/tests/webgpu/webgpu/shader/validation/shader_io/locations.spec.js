@@ -490,6 +490,15 @@ sampler
 '
 sampler_comparison
 '
+'
+buffer
+'
+'
+buffer
+<
+16
+>
+'
 ]
 )
 ;
