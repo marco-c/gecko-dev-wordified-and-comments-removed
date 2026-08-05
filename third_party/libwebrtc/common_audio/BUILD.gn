@@ -2171,14 +2171,5 @@ base
 core_headers
 "
 ]
-if
-(
-is_android
-)
-{
-shard_timeout
-=
-900
-}
 }
 }

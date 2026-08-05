@@ -312,15 +312,6 @@ modules_tests_data
 ]
 if
 (
-is_android
-)
-{
-shard_timeout
-=
-900
-}
-if
-(
 is_ios
 )
 {
@@ -524,9 +515,6 @@ android
 libjingle_peerconnection_java
 "
 ]
-shard_timeout
-=
-900
 }
 if
 (

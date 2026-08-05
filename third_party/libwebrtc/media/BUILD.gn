@@ -8241,15 +8241,6 @@ data
 rtc_media_unittests_resources
 if
 (
-is_android
-)
-{
-shard_timeout
-=
-900
-}
-if
-(
 is_ios
 )
 {

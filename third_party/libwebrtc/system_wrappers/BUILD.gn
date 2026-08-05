@@ -598,14 +598,5 @@ strings
 string_view
 "
 ]
-if
-(
-is_android
-)
-{
-shard_timeout
-=
-900
-}
 }
 }

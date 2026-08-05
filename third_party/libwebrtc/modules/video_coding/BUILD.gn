@@ -7885,9 +7885,6 @@ android
 hwcodecs_java
 "
 ]
-shard_timeout
-=
-900
 }
 data
 =
