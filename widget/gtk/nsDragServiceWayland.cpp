@@ -467,6 +467,9 @@ aDataOffer
 >
 SetDragStatus
 (
+action
+&
+&
 mCanDrop
 action
 )
