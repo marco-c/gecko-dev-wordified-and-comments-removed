@@ -1058,6 +1058,13 @@ js
 ]
 [
 "
+browser_smartwindow_get_page_content_timeout
+.
+js
+"
+]
+[
+"
 browser_smartwindow_history_commands
 .
 js
