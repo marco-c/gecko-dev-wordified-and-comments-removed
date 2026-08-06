@@ -1837,12 +1837,12 @@ mIsPDF
 SurfaceFormat
 :
 :
-InvertedCMYK
+CMYK
 :
 SurfaceFormat
 :
 :
-CMYK
+InvertedCMYK
 ;
 }
 Maybe

@@ -675,6 +675,7 @@ aK
 ;
 if
 (
+!
 aInverted
 )
 {
@@ -6315,7 +6316,7 @@ SwizzleRowCmyk
 {
 const
 uint8_t
-in_cmyk
+in_inverted_cmyk
 [
 10
 *
@@ -6375,7 +6376,7 @@ out
 ;
 const
 uint8_t
-check_bgrx
+check_inverted_bgrx
 [
 10
 *
@@ -6427,7 +6428,7 @@ check_bgrx
 ;
 const
 uint8_t
-check_inverted_bgrx
+check_bgrx
 [
 10
 *
@@ -6512,7 +6513,7 @@ func
 {
 func
 (
-in_cmyk
+in_inverted_cmyk
 out
 10
 )
@@ -6574,7 +6575,7 @@ func
 {
 func
 (
-in_cmyk
+in_inverted_cmyk
 out
 10
 )
