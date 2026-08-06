@@ -102,6 +102,13 @@ sys
 .
 mjs
 "
+"
+SharingUtils
+.
+sys
+.
+mjs
+"
 ]
 TESTING_JS_MODULES
 +

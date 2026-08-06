@@ -369,7 +369,7 @@ browser
 /
 content
 /
-contentsharing
+sharing
 /
 contentSharingModal
 .
@@ -425,7 +425,7 @@ browser
 /
 content
 /
-contentsharing
+sharing
 /
 contentsharing
 .

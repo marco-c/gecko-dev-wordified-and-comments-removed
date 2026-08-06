@@ -123,7 +123,7 @@ browser
 /
 components
 /
-contentsharing
+sharing
 /
 ContentSharingUtils
 .
@@ -2200,7 +2200,7 @@ browser
 /
 content
 /
-contentsharing
+sharing
 /
 content
 -
@@ -2296,7 +2296,7 @@ browser
 /
 content
 /
-contentsharing
+sharing
 /
 content
 -
@@ -2363,7 +2363,7 @@ browser
 /
 content
 /
-contentsharing
+sharing
 /
 content
 -

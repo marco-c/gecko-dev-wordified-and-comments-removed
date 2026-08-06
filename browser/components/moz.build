@@ -236,9 +236,6 @@ backup
 contentanalysis
 "
 "
-contentsharing
-"
-"
 contextualidentity
 "
 "
@@ -336,6 +333,9 @@ search
 "
 "
 sessionstore
+"
+"
+sharing
 "
 "
 shell

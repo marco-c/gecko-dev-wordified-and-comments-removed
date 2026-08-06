@@ -174,7 +174,7 @@ browser
 /
 components
 /
-contentsharing
+sharing
 /
 ContentSharingUtils
 .

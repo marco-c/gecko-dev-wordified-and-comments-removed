@@ -18,7 +18,7 @@ browser
 /
 components
 /
-contentsharing
+sharing
 /
 ContentSharingUtils
 .
@@ -40,7 +40,7 @@ browser
 /
 components
 /
-contentsharing
+sharing
 /
 ContentSharingUtils
 .
@@ -62,7 +62,7 @@ browser
 /
 components
 /
-contentsharing
+sharing
 /
 ContentSharingUtils
 .
@@ -84,7 +84,7 @@ browser
 /
 components
 /
-contentsharing
+sharing
 /
 ContentSharingUtils
 .

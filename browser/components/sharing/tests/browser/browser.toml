@@ -55,6 +55,13 @@ js
 ]
 [
 "
+browser_testReuseAuthCompleteTab
+.
+js
+"
+]
+[
+"
 browser_testServerErrors
 .
 js
