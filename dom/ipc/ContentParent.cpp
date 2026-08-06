@@ -28660,11 +28660,6 @@ nsIWebBrowserChrome
 :
 :
 CHROME_NON_PRIVATE_WINDOW
-|
-nsIWebBrowserChrome
-:
-:
-CHROME_PRIVATE_LIFETIME
 ;
 if
 (
