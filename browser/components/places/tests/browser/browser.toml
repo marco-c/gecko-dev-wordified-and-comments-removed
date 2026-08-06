@@ -496,6 +496,13 @@ js
 ]
 [
 "
+browser_bookmark_open_all_in_tabs
+.
+js
+"
+]
+[
+"
 browser_bookmark_popup
 .
 js
