@@ -4196,6 +4196,21 @@ locales
     
 )
     
+background_task_clsid
+=
+next
+(
+        
+get_appconstants_sys_mjs_values
+(
+unpack_finder
+"
+MOZ_BACKGROUNDTASK_CLSID
+"
+)
+    
+)
+    
 defines
 =
 {
@@ -4296,6 +4311,28 @@ b5b2
 b047
 -
 03c7a52f81c8
+"
+        
+"
+MOZ_BACKGROUNDTASK_CLSID
+"
+:
+background_task_clsid
+        
+"
+MOZ_MSIXCOMSERVER_APPID
+"
+:
+"
+c9be1ae0
+-
+6994
+-
+4aff
+-
+85d3
+-
+d772d5c7a406
 "
     
 }
