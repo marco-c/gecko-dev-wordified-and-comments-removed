@@ -1150,6 +1150,15 @@ isRope
 (
 flags
 )
+|
+|
+StringFlags
+:
+:
+isBeingFlattened
+(
+flags
+)
 )
 {
 shouldMark
