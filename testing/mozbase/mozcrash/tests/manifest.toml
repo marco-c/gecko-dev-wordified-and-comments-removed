@@ -15,6 +15,13 @@ py
 ]
 [
 "
+test_crash_signature_override
+.
+py
+"
+]
+[
+"
 test_java_exception
 .
 py
