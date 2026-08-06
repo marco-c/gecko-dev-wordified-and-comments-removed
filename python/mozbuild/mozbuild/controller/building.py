@@ -10406,6 +10406,42 @@ is
 None
 :
                 
+client_mk_env
+=
+dict
+(
+append_env
+or
+{
+}
+)
+                
+sccache_basedirs
+=
+config
+.
+substs
+.
+get
+(
+"
+SCCACHE_BASEDIRS
+"
+)
+                
+if
+sccache_basedirs
+:
+                    
+client_mk_env
+[
+"
+SCCACHE_BASEDIRS
+"
+]
+=
+sccache_basedirs
+                
 status
 =
 self
@@ -10443,7 +10479,7 @@ keep_going
                     
 append_env
 =
-append_env
+client_mk_env
                 
 )
             
