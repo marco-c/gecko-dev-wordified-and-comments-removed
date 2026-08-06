@@ -29533,7 +29533,6 @@ OpenWindowWithRemoteTab
 (
 thisBrowserHost
 features
-aModifiers
 aCalledFromJS
 aParent
 .
