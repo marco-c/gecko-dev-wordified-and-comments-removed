@@ -1256,6 +1256,7 @@ SniffingBehavior
 {
 WithSideEffects
 NoSideEffects
+NoSideEffectsListPropertyNames
 }
 ;
 bool

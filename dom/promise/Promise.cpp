@@ -4295,7 +4295,7 @@ JS
 ErrorReportBuilder
 :
 :
-NoSideEffects
+NoSideEffectsListPropertyNames
 )
 )
 {
