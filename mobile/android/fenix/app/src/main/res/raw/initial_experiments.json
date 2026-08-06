@@ -6508,7 +6508,7 @@ fun
 isEnrollmentPaused
 "
 :
-false
+true
 "
 isRollout
 "
