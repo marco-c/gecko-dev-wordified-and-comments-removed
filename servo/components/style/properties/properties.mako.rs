@@ -5843,6 +5843,14 @@ self
 enabled_for_all_content
 (
 )
+&
+&
+!
+self
+.
+allows_disabled_subproperties
+(
+)
 iter
 :
 MAP

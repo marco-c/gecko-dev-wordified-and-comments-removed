@@ -856,7 +856,7 @@ get_box
 if
 box_style
 .
-clone__webkit_line_clamp
+clone_line_clamp
 (
 )
 .
