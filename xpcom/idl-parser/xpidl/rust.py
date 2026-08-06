@@ -719,12 +719,8 @@ strip
         
 return
 "
-:
-:
-libc
-:
-:
-c_void
+(
+)
 "
     
 return
