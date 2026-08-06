@@ -3123,9 +3123,8 @@ messageSeq
 Toggle
 the
 "
-Group
-my
-tabs
+Organize
+Tabs
 "
 panel
 anchored

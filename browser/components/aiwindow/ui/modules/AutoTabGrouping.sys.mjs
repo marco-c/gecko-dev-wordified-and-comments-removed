@@ -538,9 +538,8 @@ the
 Smart
 Window
 "
-Group
-my
-tabs
+Organize
+Tabs
 "
 feature
 .
@@ -1163,9 +1162,8 @@ state
 Toggle
 the
 "
-Group
-my
-tabs
+Organize
+Tabs
 "
 panel
 from

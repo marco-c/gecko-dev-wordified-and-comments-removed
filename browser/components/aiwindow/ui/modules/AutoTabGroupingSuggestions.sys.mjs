@@ -414,9 +414,8 @@ the
 Smart
 Window
 "
-Group
-my
-tabs
+Organize
+Tabs
 "
 feature
 :

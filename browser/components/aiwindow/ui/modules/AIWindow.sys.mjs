@@ -2444,9 +2444,8 @@ that
 opens
 the
 "
-Group
-my
-tabs
+Organize
+Tabs
 "
 panel
 .
