@@ -35,6 +35,7 @@ local
 :
 true
 #
+#
 General
 Notes
 -
@@ -140,6 +141,7 @@ component
 basis
 .
 #
+#
 Enabling
 a
 New
@@ -201,6 +203,7 @@ as
 discussed
 below
 .
+#
 #
 #
 Options
@@ -551,6 +554,7 @@ guide
 .
 #
 #
+#
 Where
 to
 Add
@@ -721,11 +725,13 @@ id
 1596191
 )
 #
+#
 Adding
 a
 New
 ESLint
 Plugin
+#
 #
 #
 License
@@ -843,6 +849,7 @@ the
 license
 checks
 .
+#
 #
 #
 Adding

@@ -1,7 +1,3 @@
-(
-firststartup
-)
-=
 #
 FirstStartup
 FirstStartup

@@ -1,7 +1,3 @@
-(
-mozinfo
-)
-=
 #
 mozinfo
 mozinfo

@@ -1,7 +1,3 @@
-(
-region
-)
-=
 #
 Region
 Firefox

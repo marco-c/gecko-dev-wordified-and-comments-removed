@@ -1,7 +1,3 @@
-(
-webidl
-)
-=
 #
 WebIDL
 WebIDL

@@ -35,6 +35,7 @@ local
 :
 true
 #
+#
 General
 Notes
 -
@@ -72,6 +73,7 @@ desktop
 theme
 )
 .
+#
 #
 Enabling
 a
@@ -134,6 +136,7 @@ as
 discussed
 below
 .
+#
 #
 #
 Options
@@ -482,6 +485,7 @@ as
 a
 guide
 .
+#
 #
 #
 Where
