@@ -1603,15 +1603,6 @@ props
 .
 mayHaveWeather
 }
-mayHaveWebNotifications
-=
-{
-this
-.
-props
-.
-mayHaveWebNotifications
-}
 mayHaveWidgets
 =
 {
