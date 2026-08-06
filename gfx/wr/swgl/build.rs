@@ -480,7 +480,7 @@ SWGL
 n
 #
 define
-__VERSION__
+__SWGL_GLSL_VERSION__
 150
 \
 n
