@@ -879,13 +879,6 @@ sizes
 ]
 [
 "
-browser_popup_resize_clamp
-.
-js
-"
-]
-[
-"
 browser_popup_resize_instant
 .
 js
