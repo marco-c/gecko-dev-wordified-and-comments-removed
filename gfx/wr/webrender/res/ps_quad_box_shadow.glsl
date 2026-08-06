@@ -1838,6 +1838,12 @@ r_bl
 )
 elem_bounds
 elem_shape
+vec4
+(
+0
+.
+0
+)
 )
 ;
 }

@@ -1480,6 +1480,12 @@ vClipCenter_Radius_BR
 vClipCenter_Radius_BL
 vTransformBounds
 vClipShape
+vec4
+(
+0
+.
+0
+)
 )
 ;
 }
