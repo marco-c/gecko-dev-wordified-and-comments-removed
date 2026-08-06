@@ -4330,6 +4330,8 @@ places
 .
 semanticHistory
 .
+smartwindow
+.
 distanceThreshold
 "
 "
@@ -4356,6 +4358,8 @@ clearUserPref
 places
 .
 semanticHistory
+.
+smartwindow
 .
 distanceThreshold
 "
