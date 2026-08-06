@@ -447,10 +447,6 @@ popup
 APZHitResultFlags
 .
 VISIBLE
-|
-APZHitResultFlags
-.
-APZ_AWARE_LISTENERS
 SpecialPowers
 .
 DOMWindowUtils
