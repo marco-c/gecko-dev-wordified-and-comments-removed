@@ -1712,6 +1712,15 @@ styleSheetActors
 await
 dispatch
 (
+checkNewSources
+(
+styleSheets
+)
+)
+;
+await
+dispatch
+(
 loadSourceMapsForSourceActors
 (
 styleSheetActors
