@@ -1148,9 +1148,10 @@ RasterSpace
 Screen
 |
 |
+!
 transform
 .
-has_2d_plane_perspective
+is_2d_on_z_plane
 (
 )
 |
