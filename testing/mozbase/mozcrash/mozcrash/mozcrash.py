@@ -523,19 +523,19 @@ quiet
         
 print
 (
+f
 "
 mozcrash
 checking
-%
-s
+{
+dump_directory
+}
 for
 minidumps
 .
 .
 .
 "
-%
-dump_directory
 )
     
 crash_info
@@ -678,18 +678,18 @@ stackwalk_output
 .
 append
 (
+f
 "
 Mozilla
 crash
 reason
 :
-%
-s
-"
-%
+{
 info
 .
 reason
+}
+"
 )
             
 if
@@ -1753,18 +1753,18 @@ logger
 .
 info
 (
+f
 "
 Downloading
 symbols
 from
 :
-%
-s
-"
-%
+{
 self
 .
 symbols_path
+}
+"
 )
             
 data
@@ -2018,31 +2018,28 @@ logger
 warning
 (
                     
+f
 "
 Found
-%
-d
-dump
-files
--
--
-limited
-to
-%
-d
-!
-"
-                    
-%
-(
+{
 len
 (
 self
 .
 _dump_files
 )
+}
+dump
+files
+-
+-
+limited
+to
+{
 max_dumps
-)
+}
+!
+"
                 
 )
                 
@@ -2816,21 +2813,25 @@ errors
 append
 (
                 
+f
 "
 MINIDUMP_STACKWALK
 binary
 not
 found
 :
-%
-s
+{
+self
 .
-Use
-mach
-bootstrap
+stackwalk_binary
+}
+.
 "
                 
 "
+Use
+mach
+bootstrap
 -
 -
 no
@@ -2840,16 +2841,14 @@ system
 changes
 to
 install
+"
+                
+"
 minidump
 -
 stackwalk
 .
 "
-                
-%
-self
-.
-stackwalk_binary
             
 )
         
@@ -3319,12 +3318,12 @@ continue
                 
 signature
 =
+f
 "
-%
-s
-"
-%
+{
 func
+}
+"
                 
 if
 not
@@ -4867,17 +4866,17 @@ log
 .
 error
 (
+f
 "
 minidumpwriter
 exited
 with
 status
 :
-%
-d
-"
-%
+{
 status
+}
+"
 )
             
 return
@@ -4953,6 +4952,7 @@ log
 .
 warning
 (
+f
 "
 unable
 to
@@ -4960,17 +4960,14 @@ get
 handle
 for
 pid
-%
-d
-:
-%
-d
-"
-%
-(
+{
 pid
+}
+:
+{
 err
-)
+}
+"
 )
             
 return
@@ -5068,6 +5065,7 @@ log
 .
 warning
 (
+f
 "
 unable
 to
@@ -5076,17 +5074,14 @@ minidump
 file
 for
 pid
-%
-d
-:
-%
-d
-"
-%
-(
+{
 pid
+}
+:
+{
 err
-)
+}
+"
 )
             
 CloseHandle
@@ -5109,6 +5104,7 @@ log
 .
 warning
 (
+f
 "
 unable
 to
@@ -5117,17 +5113,14 @@ minidump
 file
 for
 pid
-%
-d
-:
-%
-d
-"
-%
-(
+{
 pid
+}
+:
+{
 err
-)
+}
+"
 )
         
 CloseHandle
@@ -5991,6 +5984,7 @@ logger
 .
 info
 (
+f
 "
 Removed
 pending
@@ -5998,12 +5992,11 @@ crash
 reports
 at
 '
-%
-s
+{
+location
+}
 '
 "
-%
-location
 )
         
 except
