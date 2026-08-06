@@ -78,14 +78,16 @@ NOTE
 importing
 recommended
 -
+extensions
+-
 footer
 webcomponent
 because
 it
 is
+/
+/
 used
-/
-/
 in
 this
 webcomponent
@@ -112,6 +114,8 @@ import
 .
 /
 recommended
+-
+extensions
 -
 footer
 .
@@ -217,6 +221,8 @@ is
 =
 "
 recommended
+-
+extensions
 -
 footer
 "
