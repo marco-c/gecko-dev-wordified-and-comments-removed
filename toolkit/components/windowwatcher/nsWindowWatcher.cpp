@@ -8447,16 +8447,6 @@ CHROME_OPENAS_CHROME
 ;
 }
 }
-else
-{
-chromeFlags
-=
-nsIWebBrowserChrome
-:
-:
-CHROME_WINDOW_BORDERS
-;
-}
 bool
 presenceFlag
 =
