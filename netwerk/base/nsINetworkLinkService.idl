@@ -468,6 +468,16 @@ NRPT_DETECTED
 <
 2
 ;
+const
+unsigned
+long
+PRIVATE_DNS_DETECTED
+=
+1
+<
+<
+3
+;
 /
 *
 *

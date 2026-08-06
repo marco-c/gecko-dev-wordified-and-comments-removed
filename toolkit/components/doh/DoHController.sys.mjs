@@ -3198,6 +3198,9 @@ proxy
 "
 nrpt
 "
+"
+privateDns
+"
 ]
 .
 includes
