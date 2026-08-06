@@ -876,6 +876,13 @@ js
 ]
 [
 "
+browser_vertical_tabs_fitts
+.
+js
+"
+]
+[
+"
 browser_vertical_tabs_stacking_context
 .
 js
