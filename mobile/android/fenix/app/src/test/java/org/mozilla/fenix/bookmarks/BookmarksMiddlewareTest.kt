@@ -217,14 +217,6 @@ junit
 .
 Assert
 .
-assertNotNull
-import
-org
-.
-junit
-.
-Assert
-.
 assertNull
 import
 org
@@ -300,6 +292,12 @@ kotlin
 test
 .
 assertEquals
+import
+kotlin
+.
+test
+.
+assertNotNull
 import
 kotlin
 .
