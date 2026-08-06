@@ -11072,6 +11072,10 @@ isSameDocument
 &
 &
 !
+aIsSimulated
+&
+&
+!
 Object
 .
 getOwnPropertyDescriptor
