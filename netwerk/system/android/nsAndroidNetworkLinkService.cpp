@@ -64,6 +64,17 @@ include
 "
 mozilla
 /
+java
+/
+GeckoNetworkManagerWrappers
+.
+h
+"
+#
+include
+"
+mozilla
+/
 jni
 /
 Utils
@@ -884,7 +895,7 @@ if
 java
 :
 :
-GeckoAppShell
+GeckoNetworkManager
 :
 :
 IsPrivateDnsActive
