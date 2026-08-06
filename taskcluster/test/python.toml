@@ -67,3 +67,10 @@ test_new_config
 py
 "
 ]
+[
+"
+test_verify_dependencies
+.
+py
+"
+]
