@@ -58,6 +58,11 @@ SOURCES
 =
 [
 "
+AndroidNetworkBlockedReason
+.
+cpp
+"
+"
 nsAndroidNetworkLinkService
 .
 cpp
