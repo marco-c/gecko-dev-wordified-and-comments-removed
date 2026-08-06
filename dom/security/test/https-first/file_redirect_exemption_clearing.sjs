@@ -32,6 +32,8 @@ zero
 eslint
 -
 disable
+microsoft
+/
 sdl
 /
 no
