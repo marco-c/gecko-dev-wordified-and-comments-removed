@@ -2043,6 +2043,13 @@ js
 ]
 [
 "
+browser_history_sync_promo
+.
+js
+"
+]
+[
+"
 browser_insert_before_moved_node
 .
 js
