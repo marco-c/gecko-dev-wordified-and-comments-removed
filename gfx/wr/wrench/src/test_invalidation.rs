@@ -505,6 +505,9 @@ mut
 WindowWrapper
 rx
 :
+&
+'
+a
 Receiver
 <
 NotifierEvent
@@ -594,6 +597,9 @@ mut
 WindowWrapper
 rx
 :
+&
+'
+a
 Receiver
 <
 NotifierEvent
