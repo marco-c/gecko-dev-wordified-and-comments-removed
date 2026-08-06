@@ -440,6 +440,13 @@ https_first_disabled
 true
 [
 "
+browser_UsageTelemetry_idleDaily
+.
+js
+"
+]
+[
+"
 browser_UsageTelemetry_interaction
 .
 js
