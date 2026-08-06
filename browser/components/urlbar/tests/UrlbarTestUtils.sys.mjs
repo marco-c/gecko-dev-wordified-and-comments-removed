@@ -9601,8 +9601,6 @@ eslint
 disable
 -
 line
-microsoft
-/
 sdl
 /
 no

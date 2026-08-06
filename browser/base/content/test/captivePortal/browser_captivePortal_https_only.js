@@ -290,7 +290,6 @@ button
 "
 )
 ;
-await
 EventUtils
 .
 synthesizeMouseAtCenter

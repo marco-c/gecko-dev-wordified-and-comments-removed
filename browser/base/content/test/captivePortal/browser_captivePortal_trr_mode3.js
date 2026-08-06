@@ -690,7 +690,6 @@ button
 "
 )
 ;
-await
 EventUtils
 .
 synthesizeMouseAtCenter
@@ -834,7 +833,6 @@ openPortalLoginPageButton
 "
 )
 ;
-await
 EventUtils
 .
 synthesizeMouseAtCenter

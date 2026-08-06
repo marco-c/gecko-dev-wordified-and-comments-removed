@@ -8,8 +8,6 @@ strict
 eslint
 -
 disable
-microsoft
-/
 sdl
 /
 no

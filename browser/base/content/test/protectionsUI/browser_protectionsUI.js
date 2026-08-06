@@ -149,20 +149,6 @@ false
 ]
 [
 "
-browser
-.
-contentblocking
-.
-report
-.
-proxy
-.
-enabled
-"
-false
-]
-[
-"
 privacy
 .
 trackingprotection
@@ -269,7 +255,6 @@ toggle
 "
 )
 ;
-await
 EventUtils
 .
 synthesizeMouseAtCenter
@@ -1270,7 +1255,6 @@ desc
 "
 )
 ;
-await
 EventUtils
 .
 synthesizeMouseAtCenter
@@ -1621,7 +1605,6 @@ desc
 "
 )
 ;
-await
 EventUtils
 .
 synthesizeMouseAtCenter

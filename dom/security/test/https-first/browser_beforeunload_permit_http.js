@@ -704,7 +704,7 @@ interaction
 "
 )
 ;
-BrowserCommands
+gBrowser
 .
 reloadWithFlags
 (

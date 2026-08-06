@@ -434,8 +434,6 @@ eslint
 disable
 -
 line
-microsoft
-/
 sdl
 /
 no
@@ -511,8 +509,6 @@ eslint
 disable
 -
 line
-microsoft
-/
 sdl
 /
 no

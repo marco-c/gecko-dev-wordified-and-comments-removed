@@ -997,8 +997,6 @@ e
 .
 g
 .
-microsoft
-/
 sdl
 /
 no
