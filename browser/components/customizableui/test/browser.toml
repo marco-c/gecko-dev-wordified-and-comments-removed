@@ -1833,13 +1833,6 @@ js
 ]
 [
 "
-browser_bookmarks_sync_promo
-.
-js
-"
-]
-[
-"
 browser_bookmarks_toolbar_collapsed_restore_default
 .
 js
@@ -2044,13 +2037,6 @@ true
 [
 "
 browser_history_restore_session
-.
-js
-"
-]
-[
-"
-browser_history_sync_promo
 .
 js
 "
