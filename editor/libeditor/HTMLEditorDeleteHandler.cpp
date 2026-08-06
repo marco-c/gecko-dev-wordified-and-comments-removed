@@ -10724,6 +10724,16 @@ return
 caretPointOrError
 ;
 }
+aHTMLEditor
+.
+TopLevelEditSubActionDataRef
+(
+)
+.
+mDidDeleteNonCollapsedRange
+=
+true
+;
 if
 (
 !
