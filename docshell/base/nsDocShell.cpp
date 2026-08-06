@@ -16698,6 +16698,9 @@ break
 case
 NS_ERROR_NET_RESET
 :
+case
+NS_ERROR_OS_LOCAL_NETWORK_ACCESS_DENIED
+:
 error
 =
 "
@@ -27995,6 +27998,12 @@ aStatus
 =
 =
 NS_ERROR_NET_TIMEOUT_EXTERNAL
+|
+|
+aStatus
+=
+=
+NS_ERROR_OS_LOCAL_NETWORK_ACCESS_DENIED
 |
 |
 aStatus

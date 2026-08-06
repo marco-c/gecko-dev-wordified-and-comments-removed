@@ -547,6 +547,16 @@ WindowContext
 cpp
 "
 ]
+TEST_DIRS
++
+=
+[
+"
+test
+/
+gtest
+"
+]
 include
 (
 "
