@@ -538,10 +538,12 @@ withSidebarTree
 "
 bookmarks
 "
+async
 function
 (
 )
 {
+await
 assertBookmarks
 (
 "
@@ -551,6 +553,7 @@ com
 "
 )
 ;
+await
 assertBookmarks
 (
 "
