@@ -186,11 +186,9 @@ var
 -
 theme
 -
-text
+error
 -
 color
--
-error
 )
 ;
 background
@@ -202,8 +200,6 @@ var
 -
 -
 theme
--
-toolbar
 -
 error
 -
