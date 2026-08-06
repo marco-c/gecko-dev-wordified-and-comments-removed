@@ -313,3 +313,7 @@ patch
 12_unused
 .
 patch
+-
+13_high_surrogate_mask
+.
+patch
