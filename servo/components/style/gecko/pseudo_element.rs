@@ -49,10 +49,7 @@ crate
 selector_parser
 :
 :
-{
 PseudoElementCascadeType
-SelectorImpl
-}
 ;
 use
 crate
@@ -1282,11 +1279,6 @@ PseudoElementTrait
 for
 PseudoElement
 {
-type
-Impl
-=
-SelectorImpl
-;
 #
 [
 inline
@@ -2781,7 +2773,6 @@ from_slice
 (
 &
 name
-false
 )
 .
 ok_or
@@ -2834,7 +2825,6 @@ from_slice
 (
 &
 name
-false
 )
 .
 ok_or
