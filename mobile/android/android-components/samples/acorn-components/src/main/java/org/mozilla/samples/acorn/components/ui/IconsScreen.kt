@@ -347,7 +347,7 @@ ui
 .
 platform
 .
-LocalContext
+LocalResources
 import
 androidx
 .
@@ -511,9 +511,9 @@ rememberCoroutineScope
 (
 )
 val
-context
+resources
 =
-LocalContext
+LocalResources
 .
 current
 Scaffold
@@ -703,8 +703,6 @@ resId
 val
 name
 =
-context
-.
 resources
 .
 getResourceEntryName

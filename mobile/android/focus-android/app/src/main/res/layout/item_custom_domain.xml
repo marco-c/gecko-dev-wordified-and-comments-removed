@@ -365,6 +365,13 @@ attr
 /
 listPreferredItemPaddingStart
 "
+tools
+:
+ignore
+=
+"
+RtlSymmetry
+"
 /
 >
 <
@@ -404,6 +411,13 @@ android
 attr
 /
 listPreferredItemPaddingStart
+"
+tools
+:
+ignore
+=
+"
+RtlSymmetry
 "
 /
 >

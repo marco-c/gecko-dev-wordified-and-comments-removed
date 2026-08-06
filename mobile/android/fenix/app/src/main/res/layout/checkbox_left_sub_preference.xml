@@ -206,6 +206,13 @@ dimen
 /
 custom_checkbox_alignment_margin
 "
+tools
+:
+ignore
+=
+"
+RtlSymmetry
+"
 >
 <
 LinearLayout
