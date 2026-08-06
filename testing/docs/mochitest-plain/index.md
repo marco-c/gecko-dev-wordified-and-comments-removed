@@ -2427,3 +2427,14 @@ prefs
 .
 .
 .
+{
+toctree
+}
+:
+hidden
+:
+:
+maxdepth
+:
+1
+faq

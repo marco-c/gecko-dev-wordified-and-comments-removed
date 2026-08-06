@@ -184,6 +184,12 @@ bidi
 Extensions
 .
 md
+marionette
+/
+index
+messagehandler
+/
+index
 #
 #
 Architecture
@@ -308,6 +314,9 @@ messagehandler
 :
 messagehandler
 /
+index
+.
+md
 [
 testing
 /

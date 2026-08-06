@@ -393,3 +393,13 @@ md
 necko_lingo
 .
 md
+dns
+/
+trr
+-
+skip
+-
+reasons
+webtransport
+/
+webtransportsessionproxy

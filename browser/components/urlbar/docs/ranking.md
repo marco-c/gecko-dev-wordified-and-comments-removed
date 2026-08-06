@@ -2378,3 +2378,16 @@ experimentation
 more
 complicated
 .
+{
+toctree
+}
+:
+hidden
+:
+:
+maxdepth
+:
+1
+ranking
+-
+legacy

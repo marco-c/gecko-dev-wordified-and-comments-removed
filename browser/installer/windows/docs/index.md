@@ -296,3 +296,4 @@ FullInstaller
 MSI
 MSIX
 Helper
+NSISPlugins

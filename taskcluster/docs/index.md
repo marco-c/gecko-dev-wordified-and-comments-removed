@@ -531,6 +531,16 @@ promotion
 versioncontrol
 config
 reference
+platforms
+using
+-
+the
+-
+mozilla
+-
+source
+-
+server
 [
 continuous
 integration

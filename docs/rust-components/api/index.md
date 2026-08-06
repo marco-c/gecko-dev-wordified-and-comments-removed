@@ -72,3 +72,16 @@ index
 .
 html
 )
+{
+toctree
+}
+:
+hidden
+:
+:
+maxdepth
+:
+1
+js
+/
+index

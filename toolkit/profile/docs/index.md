@@ -1570,3 +1570,14 @@ manage
 Selectable
 Profiles
 .
+{
+toctree
+}
+:
+hidden
+:
+:
+maxdepth
+:
+1
+changes

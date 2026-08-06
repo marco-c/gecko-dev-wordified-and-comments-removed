@@ -202,3 +202,6 @@ maxdepth
 :
 1
 flatpak
+chrome
+-
+registration

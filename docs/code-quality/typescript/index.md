@@ -904,3 +904,15 @@ firefox
 main
 development
 .
+{
+toctree
+}
+:
+hidden
+:
+:
+maxdepth
+:
+1
+bestPractices
+updatingTypes

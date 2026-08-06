@@ -277,3 +277,8 @@ index
 internals
 /
 index
+obsolete
+/
+collection
+/
+index

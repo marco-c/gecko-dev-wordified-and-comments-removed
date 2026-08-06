@@ -738,3 +738,14 @@ any
 test
 failures
 .
+{
+toctree
+}
+:
+hidden
+:
+:
+maxdepth
+:
+1
+schedule

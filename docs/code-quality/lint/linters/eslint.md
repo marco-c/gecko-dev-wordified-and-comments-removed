@@ -1710,6 +1710,11 @@ plugin
 spidermonkey
 -
 js
+eslint
+/
+enabling
+-
+rules
 [
 difficult
 for
