@@ -46,6 +46,9 @@ system
 -
 packages
 sphinx
+myst
+-
+parser
 \
 &
 &

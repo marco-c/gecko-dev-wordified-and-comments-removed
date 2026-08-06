@@ -394,5 +394,15 @@ SSLCertificateCompressionAlgorithm
 alg
 )
 ;
+SECStatus
+SSLInt_SetEnableEchXtnCompression
+(
+PRFileDesc
+*
+fd
+PRBool
+enabled
+)
+;
 #
 endif

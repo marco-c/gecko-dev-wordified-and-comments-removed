@@ -985,6 +985,10 @@ int
 maxConfigSize
 =
 100
+bool
+compress_xtns
+=
+true
 )
 ;
 protected
