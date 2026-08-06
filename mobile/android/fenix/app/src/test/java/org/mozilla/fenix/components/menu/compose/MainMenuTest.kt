@@ -233,7 +233,7 @@ createComposeRule
 )
 private
 val
-changeWallpaperLabel
+customizeHomepageLabel
 :
 String
 get
@@ -248,7 +248,7 @@ R
 .
 string
 .
-browser_menu_change_wallpaper
+browser_menu_customize_homepage
 )
 Test
 fun
@@ -260,8 +260,8 @@ is
 Home
 THEN
 the
-change
-wallpaper
+customize
+homepage
 menu
 item
 is
@@ -281,7 +281,7 @@ composeTestRule
 .
 onNodeWithText
 (
-changeWallpaperLabel
+customizeHomepageLabel
 useUnmergedTree
 =
 true
@@ -301,8 +301,8 @@ is
 Browser
 THEN
 the
-change
-wallpaper
+customize
+homepage
 menu
 item
 is
@@ -323,7 +323,7 @@ composeTestRule
 .
 onNodeWithText
 (
-changeWallpaperLabel
+customizeHomepageLabel
 useUnmergedTree
 =
 true
@@ -450,7 +450,7 @@ onSettingsButtonClick
 =
 {
 }
-onWallpaperButtonClick
+onCustomizeHomepageButtonClick
 =
 {
 }

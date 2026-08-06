@@ -1880,7 +1880,7 @@ WHEN
 navigating
 to
 the
-wallpaper
+homepage
 settings
 THEN
 record
@@ -1917,7 +1917,7 @@ MenuAction
 .
 Navigate
 .
-Wallpaper
+CustomizeHomepage
 )
 assertTelemetryRecorded
 (
@@ -1927,7 +1927,7 @@ browserMenuAction
 item
 =
 "
-change_wallpaper
+customize_homepage
 "
 )
 }

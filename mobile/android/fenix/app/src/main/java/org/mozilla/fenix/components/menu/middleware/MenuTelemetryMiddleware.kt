@@ -314,7 +314,7 @@ MenuAction
 .
 Navigate
 .
-Wallpaper
+CustomizeHomepage
 -
 >
 Events
@@ -330,7 +330,7 @@ BrowserMenuActionExtra
 item
 =
 "
-change_wallpaper
+customize_homepage
 "
 )
 )

@@ -109,16 +109,6 @@ ui
 .
 test
 .
-assert
-import
-androidx
-.
-compose
-.
-ui
-.
-test
-.
 assertIsDisplayed
 import
 androidx
@@ -4268,8 +4258,8 @@ that
 the
 \
 "
-Change
-wallpaper
+Customize
+homepage
 \
 "
 button
@@ -4279,7 +4269,7 @@ exists
 )
 composeTestRule
 .
-changeWallpaperButton
+customizeHomepageButton
 (
 )
 .
@@ -4299,8 +4289,8 @@ that
 the
 \
 "
-Change
-wallpaper
+Customize
+homepage
 \
 "
 button
@@ -11156,7 +11146,7 @@ private
 fun
 ComposeTestRule
 .
-changeWallpaperButton
+customizeHomepageButton
 (
 )
 =
@@ -11168,6 +11158,6 @@ R
 .
 string
 .
-browser_menu_change_wallpaper
+browser_menu_customize_homepage
 )
 )

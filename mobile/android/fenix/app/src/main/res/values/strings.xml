@@ -16266,7 +16266,8 @@ item
 that
 opens
 the
-wallpaper
+customize
+homepage
 settings
 screen
 .
@@ -16278,11 +16279,11 @@ string
 name
 =
 "
-browser_menu_change_wallpaper
+browser_menu_customize_homepage
 "
 >
-Change
-wallpaper
+Customize
+homepage
 <
 /
 string

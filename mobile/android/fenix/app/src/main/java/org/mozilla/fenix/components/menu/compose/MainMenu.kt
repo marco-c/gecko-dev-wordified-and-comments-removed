@@ -1087,7 +1087,7 @@ button
 .
 *
 param
-onWallpaperButtonClick
+onCustomizeHomepageButtonClick
 Invoked
 when
 the
@@ -1095,8 +1095,8 @@ user
 clicks
 on
 the
-change
-wallpaper
+customize
+homepage
 button
 .
 *
@@ -1523,7 +1523,7 @@ onSettingsButtonClick
 -
 >
 Unit
-onWallpaperButtonClick
+onCustomizeHomepageButtonClick
 :
 (
 )
@@ -2214,7 +2214,7 @@ R
 .
 string
 .
-browser_menu_change_wallpaper
+browser_menu_customize_homepage
 )
 beforeIconPainter
 =
@@ -2226,11 +2226,11 @@ iconsR
 .
 drawable
 .
-mozac_ic_wallpaper_24
+mozac_ic_home_24
 )
 onClick
 =
-onWallpaperButtonClick
+onCustomizeHomepageButtonClick
 )
 }
 MenuItem
@@ -3972,7 +3972,7 @@ onSettingsButtonClick
 =
 {
 }
-onWallpaperButtonClick
+onCustomizeHomepageButtonClick
 =
 {
 }
@@ -4216,7 +4216,7 @@ onSettingsButtonClick
 =
 {
 }
-onWallpaperButtonClick
+onCustomizeHomepageButtonClick
 =
 {
 }

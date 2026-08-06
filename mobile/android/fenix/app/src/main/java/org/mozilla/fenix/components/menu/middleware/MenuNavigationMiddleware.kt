@@ -1038,7 +1038,7 @@ MenuAction
 .
 Navigate
 .
-Wallpaper
+CustomizeHomepage
 -
 >
 navController
@@ -1052,7 +1052,7 @@ id
 menuDialogFragment
 MenuDialogFragmentDirections
 .
-actionGlobalWallpaperSettingsFragment
+actionGlobalHomeSettingsFragment
 (
 )
 )

@@ -1304,14 +1304,14 @@ when
 navigating
 to
 the
-wallpaper
+homepage
 settings
 .
 *
 /
 data
 object
-Wallpaper
+CustomizeHomepage
 :
 Navigate
 (

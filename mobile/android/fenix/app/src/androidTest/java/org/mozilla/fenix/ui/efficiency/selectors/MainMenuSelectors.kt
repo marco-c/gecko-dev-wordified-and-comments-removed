@@ -1183,7 +1183,7 @@ requiresScroll
 )
 )
 val
-CHANGE_WALLPAPER_BUTTON
+CUSTOMIZE_HOMEPAGE_BUTTON
 =
 Selector
 (
@@ -1200,13 +1200,13 @@ R
 .
 string
 .
-browser_menu_change_wallpaper
+browser_menu_customize_homepage
 )
 description
 =
 "
-Change
-wallpaper
+Customize
+homepage
 Settings
 button
 "
@@ -1647,7 +1647,7 @@ DESKTOP_SITE_BUTTON
 DESKTOP_SITE_ON
 DESKTOP_SITE_OFF
 MORE_BUTTON
-CHANGE_WALLPAPER_BUTTON
+CUSTOMIZE_HOMEPAGE_BUTTON
 SAVE_TO_COLLECTIONS_BUTTON
 ADD_TO_SHORTCUTS_BUTTON
 TRANSLATE_BUTTON

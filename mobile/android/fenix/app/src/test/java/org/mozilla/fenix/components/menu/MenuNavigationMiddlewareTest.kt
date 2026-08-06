@@ -1173,14 +1173,15 @@ fun
 WHEN
 navigate
 to
-wallpaper
+customize
+homepage
 action
 is
 dispatched
 THEN
 navigate
 to
-wallpaper
+homepage
 settings
 (
 )
@@ -1202,7 +1203,7 @@ MenuAction
 .
 Navigate
 .
-Wallpaper
+CustomizeHomepage
 )
 testScheduler
 .
@@ -1217,7 +1218,7 @@ navigate
 (
 MenuDialogFragmentDirections
 .
-actionGlobalWallpaperSettingsFragment
+actionGlobalHomeSettingsFragment
 (
 )
 null

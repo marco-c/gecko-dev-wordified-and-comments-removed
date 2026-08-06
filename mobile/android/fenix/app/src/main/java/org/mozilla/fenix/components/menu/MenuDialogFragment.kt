@@ -3495,7 +3495,7 @@ Navigate
 Settings
 )
 }
-onWallpaperButtonClick
+onCustomizeHomepageButtonClick
 =
 {
 menuStore
@@ -3506,7 +3506,7 @@ MenuAction
 .
 Navigate
 .
-Wallpaper
+CustomizeHomepage
 )
 }
 onBookmarkPageMenuClick
