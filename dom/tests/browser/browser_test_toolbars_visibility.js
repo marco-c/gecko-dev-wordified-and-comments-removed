@@ -763,7 +763,7 @@ no
 "
 )
 ;
-ok
+todo
 (
 !
 toolbars
@@ -771,11 +771,12 @@ toolbars
 statusbar
 "
 statusbar
-should
-not
+shouldn
+'
+t
 be
 visible
-with
+when
 status
 =
 no

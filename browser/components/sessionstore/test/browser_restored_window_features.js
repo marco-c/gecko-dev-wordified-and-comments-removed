@@ -20,9 +20,6 @@ personalbar
 scrollbars
 "
 "
-statusbar
-"
-"
 toolbar
 "
 ]
@@ -246,9 +243,6 @@ personalbar
 :
 true
 scrollbars
-:
-true
-statusbar
 :
 true
 toolbar

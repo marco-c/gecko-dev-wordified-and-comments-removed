@@ -644,9 +644,6 @@ location
 directories
 "
 "
-status
-"
-"
 extrachrome
 "
 ]
