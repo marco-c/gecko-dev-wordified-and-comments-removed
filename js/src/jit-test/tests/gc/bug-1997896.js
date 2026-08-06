@@ -382,7 +382,7 @@ g1
 i
 )
 '
-gray
+black
 '
 )
 ;
