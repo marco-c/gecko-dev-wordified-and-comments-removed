@@ -1347,6 +1347,10 @@ prop
 /
 /
 TODO
+(
+Bug
+2059562
+)
 :
 Agree
 with
@@ -1431,6 +1435,13 @@ MOZ_APP_NAME
 "
 thunderbird
 "
+&
+&
+addonId
+!
+=
+=
+DEFAULT_THEME_ID
 ?
 extension
 -
