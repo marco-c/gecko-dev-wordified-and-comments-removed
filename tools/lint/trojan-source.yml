@@ -399,6 +399,11 @@ payload
 mozcheck
 :
 lint
+setup
+:
+mozcheck
+:
+setup
 check
 :
 trojan
