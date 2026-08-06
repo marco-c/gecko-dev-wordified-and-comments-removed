@@ -2312,15 +2312,6 @@ checkDefaultBrowser
 "
 browser
 .
-shell
-.
-customIcon
-.
-id
-"
-"
-browser
-.
 backup
 .
 enabled_on
