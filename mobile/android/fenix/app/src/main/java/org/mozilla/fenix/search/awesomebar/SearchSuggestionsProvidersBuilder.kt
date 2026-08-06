@@ -739,6 +739,14 @@ suggestionIconProvider
 getSearchWithIconBitmap
 (
 )
+val
+trendingSearchBitmap
+=
+suggestionIconProvider
+.
+getTrendingSearchIconBitmap
+(
+)
 defaultSearchSuggestionProvider
 =
 SearchSuggestionProvider
@@ -820,7 +828,7 @@ searchUseCase
 searchUseCase
 icon
 =
-searchBitmap
+trendingSearchBitmap
 )
 defaultSearchActionProvider
 =
