@@ -98,6 +98,10 @@ PlatformDisabledState
 void
 MaybeStartForceEnabled
 (
+bool
+aAsync
+=
+false
 )
 ;
 #
