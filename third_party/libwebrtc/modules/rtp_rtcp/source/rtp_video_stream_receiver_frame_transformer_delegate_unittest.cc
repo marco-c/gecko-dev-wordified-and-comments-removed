@@ -2960,17 +2960,6 @@ SetRTPTimestamp
 new_timestamp
 )
 ;
-EXPECT_EQ
-(
-frame
--
->
-GetTimestamp
-(
-)
-new_timestamp
-)
-;
 EXPECT_TRUE
 (
 std

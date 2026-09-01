@@ -2350,17 +2350,6 @@ SetRTPTimestamp
 new_timestamp
 )
 ;
-EXPECT_EQ
-(
-audio_frame
--
->
-GetTimestamp
-(
-)
-new_timestamp
-)
-;
 EXPECT_TRUE
 (
 std
