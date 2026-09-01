@@ -63,7 +63,6 @@ monitorAgeMs
 trimAndFilterWatchUrls
 urlListsEqual
 TOTAL_NUM_MONITORS
-MONITOR_ERROR_CODES
 MONITOR_PROMPT_VERSION
 MONITOR_AGENTS_CHANGED_TOPIC
 }
@@ -1898,9 +1897,6 @@ monitor
 .
 dispose
 (
-MONITOR_ERROR_CODES
-.
-CANCELED
 )
 ;
 gMonitors

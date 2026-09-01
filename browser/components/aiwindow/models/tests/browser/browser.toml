@@ -102,13 +102,6 @@ js
 ]
 [
 "
-browser_monitor_errors
-.
-js
-"
-]
-[
-"
 browser_monitor_store
 .
 js
