@@ -939,6 +939,13 @@ AwaitingEnrollment
 handler
 ?
 .
+notifyAccountStatus
+(
+true
+)
+handler
+?
+.
 enroll
 {
 enrollInfo
