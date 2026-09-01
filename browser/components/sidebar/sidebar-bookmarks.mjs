@@ -3678,6 +3678,15 @@ tab
 "
 {
 userContextId
+eventDetail
+:
+{
+containerSource
+:
+"
+sidebar_bookmarks_context_menu
+"
+}
 }
 )
 ;
