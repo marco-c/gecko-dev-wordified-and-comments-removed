@@ -918,6 +918,13 @@ Bug
 ]
 [
 "
+browser_permission_prompt_focus
+.
+js
+"
+]
+[
+"
 browser_permission_prompt_userScripts
 .
 js

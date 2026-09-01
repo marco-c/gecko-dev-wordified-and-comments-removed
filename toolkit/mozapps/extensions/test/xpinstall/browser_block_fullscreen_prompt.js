@@ -457,6 +457,14 @@ prompt
 "
 )
 ;
+gBrowser
+.
+selectedBrowser
+.
+focus
+(
+)
+;
 await
 changeFullscreen
 (
