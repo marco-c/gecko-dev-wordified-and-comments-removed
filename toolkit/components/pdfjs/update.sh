@@ -5,8 +5,10 @@ bin
 /
 bash
 set
+-
+e
 +
-vex
+vx
 if
 [
 #
@@ -161,9 +163,15 @@ fetch
 origin
 git
 checkout
+-
+f
 "
 1
 "
+git
+clean
+-
+fd
 npm
 install
 -
