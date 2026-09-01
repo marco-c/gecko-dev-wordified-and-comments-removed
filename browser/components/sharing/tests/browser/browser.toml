@@ -156,6 +156,13 @@ js
 ]
 [
 "
+browser_testSharePanelQRCode
+.
+js
+"
+]
+[
+"
 browser_testSharePanelScreenshot
 .
 js
