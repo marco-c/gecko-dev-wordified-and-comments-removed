@@ -666,7 +666,7 @@ timeline
 timeline
 -
 >
-IsInactiveTimeline
+IsUnresolvedTimeline
 (
 )
 )
@@ -1659,12 +1659,6 @@ CascadeLevel
 Animations
 ;
 }
-bool
-CanThrottle
-(
-)
-const
-;
 void
 WillComposeStyle
 (
@@ -2365,7 +2359,7 @@ IsMonotonicallyIncreasing
 mTimeline
 -
 >
-IsInactiveTimeline
+IsUnresolvedTimeline
 (
 )
 ;

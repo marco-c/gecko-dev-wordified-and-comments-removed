@@ -1586,6 +1586,11 @@ mHasBackgroundColorCurrentColor
 :
 1
 ;
+bool
+mDisplay
+:
+1
+;
 CumulativeChanges
 (
 )
@@ -1607,6 +1612,10 @@ mOverflow
 false
 )
 mHasBackgroundColorCurrentColor
+(
+false
+)
+mDisplay
 (
 false
 )
