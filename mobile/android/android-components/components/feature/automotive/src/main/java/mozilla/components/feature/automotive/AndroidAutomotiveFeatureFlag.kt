@@ -57,11 +57,11 @@ MPL
 *
 /
 package
-org
-.
 mozilla
 .
-fenix
+components
+.
+feature
 .
 automotive
 import
