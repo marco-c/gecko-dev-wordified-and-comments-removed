@@ -15824,6 +15824,11 @@ evaluation
 :
 corruption_detection_eval_unittests
 "
+"
+config
+:
+video_config_tests
+"
 ]
 }
 }
