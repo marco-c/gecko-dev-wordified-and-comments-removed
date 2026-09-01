@@ -10745,7 +10745,9 @@ event
 that
 triggered
 the
-action
+actibrowser_aiwindow_smartbar_command_palette
+.
+json
 .
 *
 param
