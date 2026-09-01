@@ -2910,11 +2910,15 @@ Cc
 contractId
 ]
 .
-createInstance
+getService
 (
 Ci
 .
-nsIWebSocketChannel
+nsIWebSocketProtocolHandler
+)
+.
+newWebSocketChannel
+(
 )
 ;
 socket

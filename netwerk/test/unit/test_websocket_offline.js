@@ -131,11 +131,15 @@ ws
 "
 ]
 .
-createInstance
+getService
 (
 Ci
 .
-nsIWebSocketChannel
+nsIWebSocketProtocolHandler
+)
+.
+newWebSocketChannel
+(
 )
 ;
 chan

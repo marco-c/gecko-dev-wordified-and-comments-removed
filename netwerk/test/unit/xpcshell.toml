@@ -16580,6 +16580,13 @@ js
 ]
 [
 "
+test_websocket_protocol_handler
+.
+js
+"
+]
+[
+"
 test_websocket_proxy
 .
 js

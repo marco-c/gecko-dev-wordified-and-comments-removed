@@ -23,13 +23,6 @@ h
 #
 include
 "
-nsIProtocolHandler
-.
-h
-"
-#
-include
-"
 nsIThread
 .
 h
@@ -88,8 +81,6 @@ BaseWebSocketChannel
 public
 nsIWebSocketChannel
 public
-nsIProtocolHandler
-public
 nsIThreadRetargetableRequest
 {
 public
@@ -98,7 +89,6 @@ BaseWebSocketChannel
 (
 )
 ;
-NS_DECL_NSIPROTOCOLHANDLER
 NS_DECL_NSITHREADRETARGETABLEREQUEST
 NS_IMETHOD
 QueryInterface
