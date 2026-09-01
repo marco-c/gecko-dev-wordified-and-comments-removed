@@ -1122,8 +1122,8 @@ const
 nsACString
 &
 aName
-bool
-aSupportsTailDispatch
+TailDispatchPolicy
+aTailDispatchPolicy
 )
 {
 using
@@ -1165,7 +1165,7 @@ aTarget
 "
 WebrtcTaskQueue
 "
-aSupportsTailDispatch
+aTailDispatchPolicy
 )
 ;
 auto
@@ -1254,8 +1254,8 @@ const
 nsLiteralCString
 &
 aName
-bool
-aSupportsTailDispatch
+TailDispatchPolicy
+aTailDispatchPolicy
 )
 {
 using
@@ -1288,7 +1288,7 @@ StaticString
 (
 aName
 )
-aSupportsTailDispatch
+aTailDispatchPolicy
 )
 ;
 auto
@@ -1388,12 +1388,6 @@ aPriority
 const
 override
 {
-constexpr
-bool
-supportTailDispatch
-=
-false
-;
 return
 CreateWebrtcTaskQueue
 (
@@ -1417,7 +1411,10 @@ size
 (
 )
 )
-supportTailDispatch
+TailDispatchPolicy
+:
+:
+NoTailDispatch
 )
 ;
 }
