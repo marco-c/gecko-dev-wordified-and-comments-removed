@@ -281,9 +281,10 @@ Assert
 .
 ok
 (
-BrowserTestUtils
+!
+UrlbarTestUtils
 .
-isHidden
+isSeparatorVisible
 (
 details
 .
