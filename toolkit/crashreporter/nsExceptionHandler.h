@@ -566,16 +566,6 @@ nsACString
 data
 )
 ;
-nsresult
-RecordPlatformAnnotations
-(
-)
-;
-nsresult
-RecordXPCOMPlatformAnnotations
-(
-)
-;
 class
 MOZ_RAII
 AutoRecordAnnotation
