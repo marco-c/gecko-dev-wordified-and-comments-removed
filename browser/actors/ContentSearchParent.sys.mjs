@@ -942,8 +942,9 @@ initialized
 )
 {
 return
-new
 Promise
+.
+resolve
 (
 )
 ;
