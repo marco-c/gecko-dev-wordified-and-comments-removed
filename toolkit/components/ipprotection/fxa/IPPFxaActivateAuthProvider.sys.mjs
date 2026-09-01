@@ -743,8 +743,12 @@ return
 error
 :
 error
+?
 .
 message
+?
+?
+error
 }
 ;
 }
@@ -1026,7 +1030,7 @@ error
 message
 ?
 ?
-null
+error
 }
 ;
 }
