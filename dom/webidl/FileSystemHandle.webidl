@@ -122,6 +122,9 @@ filesystemhandle
 /
 [
 NewObject
+UseCounter
+=
+PerOverload
 ]
 Promise
 <
@@ -135,6 +138,9 @@ name
 ;
 [
 NewObject
+UseCounter
+=
+PerOverload
 ]
 Promise
 <
@@ -148,6 +154,9 @@ parent
 ;
 [
 NewObject
+UseCounter
+=
+PerOverload
 ]
 Promise
 <

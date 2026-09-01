@@ -353,6 +353,13 @@ entryName
 aName
 ;
 }
+private
+:
+void
+SetMoveFileHandleUseCounter
+(
+)
+;
 protected
 :
 virtual
