@@ -3190,6 +3190,14 @@ aConnection
 )
 ;
 nsresult
+UpgradeStorageFrom2_3To2_4
+(
+mozIStorageConnection
+*
+aConnection
+)
+;
+nsresult
 MaybeCreateOrUpgradeStorage
 (
 mozIStorageConnection
