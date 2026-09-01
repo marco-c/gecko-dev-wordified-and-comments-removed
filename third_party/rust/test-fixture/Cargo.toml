@@ -296,6 +296,11 @@ allow_attributes_without_reason
 "
 allow
 "
+assert_is_empty
+=
+"
+allow
+"
 cargo_common_metadata
 =
 "
