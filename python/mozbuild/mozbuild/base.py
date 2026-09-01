@@ -6246,14 +6246,31 @@ handler
 None
 )
         
-if
+use_text_log
+=
+is_running_under_coding_agent
+(
+)
+        
+interactive
+=
+bool
+(
 fileno
+)
 and
 os
 .
 isatty
 (
 fileno
+)
+        
+if
+(
+use_text_log
+or
+interactive
 )
 and
 not
@@ -6287,12 +6304,6 @@ self
 _ensure_state_subdir_exists
 (
 subdir
-)
-            
-use_text_log
-=
-is_running_under_coding_agent
-(
 )
             
 suffix
