@@ -137,16 +137,6 @@ stops
 min_alpha
 )
 }
-pub
-use
-api
-:
-:
-prim_geometry
-:
-:
-apply_gradient_local_clip
-;
 #
 [
 test
