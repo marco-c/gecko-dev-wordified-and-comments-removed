@@ -681,6 +681,9 @@ GlobalDirections
 .
 SettingsAIControls
 "
+privacy_report
+"
+"
 protections_dashboard
 "
 -
