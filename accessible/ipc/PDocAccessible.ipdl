@@ -58,7 +58,7 @@ MPL
 /
 include
 protocol
-PBrowser
+PWindowGlobal
 ;
 include
 DocAccessibleTypes
@@ -377,7 +377,7 @@ protocol
 PDocAccessible
 {
 manager
-PBrowser
+PWindowGlobal
 ;
 parent
 :
