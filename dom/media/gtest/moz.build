@@ -542,6 +542,11 @@ TestWebMWriter
 cpp
 "
 "
+TestYUVBufferGenerator
+.
+cpp
+"
+"
 YUVBufferGenerator
 .
 cpp
