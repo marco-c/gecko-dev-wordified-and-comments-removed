@@ -1555,6 +1555,11 @@ toolbar
 -
 additional
 "
+type
+=
+"
+muted
+"
 iconsrc
 =
 "
