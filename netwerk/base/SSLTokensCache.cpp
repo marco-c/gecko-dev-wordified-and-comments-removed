@@ -993,6 +993,13 @@ buf
 ;
 }
 static
+constexpr
+int
+kRecordCompressionQuality
+=
+1
+;
+static
 nsTArray
 <
 uint8_t
@@ -1082,7 +1089,7 @@ if
 !
 BrotliEncoderCompress
 (
-5
+kRecordCompressionQuality
 BROTLI_DEFAULT_WINDOW
 BROTLI_MODE_GENERIC
 aPayload
