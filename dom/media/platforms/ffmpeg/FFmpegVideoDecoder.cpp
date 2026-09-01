@@ -2354,7 +2354,7 @@ hw_frames_parameters
 )
 ;
 return
-AV_PIX_FMT_VULKAN
+AV_PIX_FMT_NONE
 ;
 }
 AVBufferRef
@@ -2422,7 +2422,7 @@ failed
 )
 ;
 return
-AV_PIX_FMT_VULKAN
+AV_PIX_FMT_NONE
 ;
 }
 AVHWFramesContext
