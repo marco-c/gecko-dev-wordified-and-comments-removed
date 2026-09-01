@@ -157,6 +157,10 @@ IPCSerialPortFilter
 [
 ]
 filters
+nsString
+[
+]
+allowedBluetoothServiceClassIds
 bool
 autoselect
 )
@@ -176,6 +180,17 @@ childEndpoint
 Test
 -
 only
+.
+An
+empty
+bluetoothServiceClassId
+means
+"
+no
+bluetooth
+UUID
+"
+.
 async
 SimulateDeviceConnection
 (
@@ -187,6 +202,8 @@ uint16_t
 vendorId
 uint16_t
 productId
+nsString
+bluetoothServiceClassId
 )
 returns
 (

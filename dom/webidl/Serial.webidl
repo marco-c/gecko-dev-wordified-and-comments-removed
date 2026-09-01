@@ -223,6 +223,12 @@ short
 productId
 =
 0
+optional
+DOMString
+bluetoothServiceClassId
+=
+"
+"
 )
 ;
 [
