@@ -386,6 +386,15 @@ name
         
 yield
 job
+VENDOR_VERIFY_TASKS_FILE
+=
+"
+vendor
+-
+verify
+.
+yml
+"
 VENDOR_VERIFY_WRAPPER
 =
 "
@@ -452,6 +461,21 @@ VENDOR_VERIFY_WRAPPER
     
 VENDOR_VERIFY_EXPECTED_FAIL
 ]
+VENDOR_VERIFY_TOOL_PATH
+=
+"
+MOZ_FETCHES_DIR
+/
+rustc
+/
+bin
+:
+MOZ_FETCHES_DIR
+/
+node
+/
+bin
+"
 def
 vendor_verify_triggers
 (
@@ -732,6 +756,27 @@ in
 jobs
 :
         
+if
+job
+.
+get
+(
+"
+task
+-
+from
+"
+)
+!
+=
+VENDOR_VERIFY_TASKS_FILE
+:
+            
+yield
+job
+            
+continue
+        
 members
 =
 sorted
@@ -765,6 +810,19 @@ command
 ]
 =
 (
+                
+f
+'
+PATH
+=
+"
+{
+VENDOR_VERIFY_TOOL_PATH
+}
+:
+PATH
+"
+'
                 
 f
 "
@@ -845,6 +903,19 @@ VENDOR_VERIFY_SHARED_WHEN
 )
             
 }
+        
+else
+:
+            
+job
+.
+pop
+(
+"
+fetches
+"
+None
+)
         
 yield
 job
