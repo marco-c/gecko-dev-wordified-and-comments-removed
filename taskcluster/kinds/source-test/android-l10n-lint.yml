@@ -75,11 +75,6 @@ l10n
 '
 run
 :
-clone
--
-with
-:
-hg
 using
 :
 run
@@ -226,11 +221,6 @@ components
 "
 run
 :
-clone
--
-with
-:
-hg
 cwd
 :
 '
@@ -285,11 +275,6 @@ android
 "
 run
 :
-clone
--
-with
-:
-hg
 cwd
 :
 '
@@ -342,11 +327,6 @@ fenix
 "
 run
 :
-clone
--
-with
-:
-hg
 cwd
 :
 '
