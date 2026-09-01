@@ -89,7 +89,7 @@ mjs
 *
 import
 {
-UrlbarInput
+UrlbarInputBase
 }
 from
 "
@@ -108,7 +108,7 @@ urlbar
 /
 content
 /
-UrlbarInput
+UrlbarInputBase
 .
 mjs
 "
@@ -1020,7 +1020,7 @@ type
 {
 NodeListOf
 <
-UrlbarInput
+UrlbarInputBase
 >
 }
 *
@@ -1033,8 +1033,7 @@ document
 querySelectorAll
 (
 "
-moz
--
+.
 urlbar
 "
 )
