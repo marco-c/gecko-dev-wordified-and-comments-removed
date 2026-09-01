@@ -3179,6 +3179,10 @@ Truncate
 (
 )
 ;
+mCnameIsHTTPSAlias
+=
+false
+;
 aTypeResult
 =
 mozilla
@@ -4542,6 +4546,10 @@ aCname
 parsed
 .
 mSvcDomainName
+;
+mCnameIsHTTPSAlias
+=
+true
 ;
 aTypeResult
 =
