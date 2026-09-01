@@ -2388,10 +2388,14 @@ RelativeTo
 aFrame
 RelativeTo
 aAncestor
-uint32_t
+mozilla
+:
+:
+TransformMatrixFlags
 aFlags
 =
-0
+{
+}
 nsIFrame
 *
 *
