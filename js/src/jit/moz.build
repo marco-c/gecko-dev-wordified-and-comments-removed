@@ -279,6 +279,11 @@ FoldTests
 cpp
 "
 "
+GeneratorResumeAnalysis
+.
+cpp
+"
+"
 GraphSpewer
 .
 cpp
