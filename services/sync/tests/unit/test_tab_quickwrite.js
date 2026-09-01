@@ -897,11 +897,11 @@ id
 remoteRecord
 )
 ;
+await
 engine
 .
-setLastSync
+resetLastSync
 (
-0
 )
 ;
 await
