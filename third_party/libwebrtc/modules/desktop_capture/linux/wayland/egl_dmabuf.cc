@@ -2082,7 +2082,13 @@ device_id
 )
 render_node_
 (
+std
+:
+:
+move
+(
 render_node
+)
 )
 {
 }

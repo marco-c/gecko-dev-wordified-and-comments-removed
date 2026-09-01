@@ -232,7 +232,13 @@ wrapped
 )
 output_directory_
 (
+std
+:
+:
+move
+(
 output_directory
+)
 )
 origin_time_micros_
 (

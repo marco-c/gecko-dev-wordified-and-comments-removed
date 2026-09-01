@@ -1351,6 +1351,7 @@ id
 (
 const
 Codec
+&
 codec
 )
 {
@@ -2077,12 +2078,12 @@ max_message_size_
 max_message_size
 ;
 }
+const
 std
 :
 :
 optional
 <
-const
 std
 :
 :
@@ -2091,6 +2092,7 @@ vector
 uint8_t
 >
 >
+&
 sctp_init
 (
 )
@@ -2108,7 +2110,6 @@ std
 :
 optional
 <
-const
 std
 :
 :
@@ -2122,7 +2123,13 @@ sctp_init
 {
 sctp_init_
 =
+std
+:
+:
+move
+(
 sctp_init
+)
 ;
 }
 private
