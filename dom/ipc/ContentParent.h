@@ -2565,6 +2565,17 @@ aOptions
 }
 )
 ;
+nsIDOMProcessParent
+*
+ProcessParent
+(
+)
+override
+{
+return
+this
+;
+}
 void
 OnCompositorDeviceReset
 (
