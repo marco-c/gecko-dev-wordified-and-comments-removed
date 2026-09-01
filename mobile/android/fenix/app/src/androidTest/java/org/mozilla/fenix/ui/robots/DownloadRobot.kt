@@ -610,9 +610,6 @@ verifyDownloadPrompt
 composeTestRule
 :
 ComposeTestRule
-fileName
-:
-String
 )
 {
 Log
@@ -1561,7 +1558,6 @@ downloadFile
 verifyDownloadPrompt
 (
 composeTestRule
-downloadFile
 )
 }
 .

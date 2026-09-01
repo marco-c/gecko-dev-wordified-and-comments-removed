@@ -917,7 +917,6 @@ downloadFile
 verifyDownloadPrompt
 (
 composeTestRule
-downloadFile
 )
 }
 .

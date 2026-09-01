@@ -1459,7 +1459,10 @@ Implementation
 Suppress
 (
 "
-Unused_Parameter
+UnusedParameter
+"
+"
+FunctionOnlyReturningConstant
 "
 )
 fun

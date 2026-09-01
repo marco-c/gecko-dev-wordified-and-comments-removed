@@ -553,9 +553,6 @@ acceptPermissionToInstallAddon
 verifyAddonInstallCompletedPrompt
 (
 addonName
-composeTestRule
-.
-activityRule
 )
 closeAddonInstallCompletePrompt
 (
@@ -623,9 +620,6 @@ composeTestRule
 installAddon
 (
 addonName
-composeTestRule
-.
-activityRule
 )
 closeAddonInstallCompletePrompt
 (
@@ -831,9 +825,6 @@ composeTestRule
 installAddon
 (
 uBlockAddon
-composeTestRule
-.
-activityRule
 )
 closeAddonInstallCompletePrompt
 (
@@ -843,9 +834,6 @@ closeAddonInstallCompletePrompt
 installAddon
 (
 darkReaderAddon
-composeTestRule
-.
-activityRule
 )
 clickInstallAddon
 (
@@ -861,9 +849,6 @@ acceptPermissionToInstallAddon
 verifyAddonInstallCompletedPrompt
 (
 darkReaderAddon
-composeTestRule
-.
-activityRule
 )
 closeAddonInstallCompletePrompt
 (
@@ -1023,9 +1008,6 @@ composeTestRule
 installAddonInPrivateMode
 (
 addonName
-composeTestRule
-.
-activityRule
 )
 closeAddonInstallCompletePrompt
 (
@@ -1147,9 +1129,6 @@ composeTestRule
 installAddon
 (
 addonName
-composeTestRule
-.
-activityRule
 )
 closeAddonInstallCompletePrompt
 (

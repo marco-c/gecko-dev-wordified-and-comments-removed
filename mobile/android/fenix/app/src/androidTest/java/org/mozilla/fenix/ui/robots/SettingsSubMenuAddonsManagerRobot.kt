@@ -529,16 +529,6 @@ fenix
 .
 helpers
 .
-HomeActivityIntentTestRule
-import
-org
-.
-mozilla
-.
-fenix
-.
-helpers
-.
 MatcherHelper
 .
 assertUIObjectExists
@@ -1255,9 +1245,6 @@ verifyAddonInstallCompletedPrompt
 addonName
 :
 String
-activityTestRule
-:
-HomeActivityIntentTestRule
 )
 {
 /
@@ -2181,9 +2168,6 @@ installAddon
 addonName
 :
 String
-activityTestRule
-:
-HomeActivityIntentTestRule
 )
 {
 homeScreen
@@ -2216,7 +2200,6 @@ acceptPermissionToInstallAddon
 verifyAddonInstallCompletedPrompt
 (
 addonName
-activityTestRule
 )
 }
 }
@@ -2226,9 +2209,6 @@ installAddonInPrivateMode
 addonName
 :
 String
-activityTestRule
-:
-HomeActivityIntentTestRule
 )
 {
 homeScreen
@@ -2264,7 +2244,6 @@ acceptPermissionToInstallAddon
 verifyAddonInstallCompletedPrompt
 (
 addonName
-activityTestRule
 )
 }
 }

@@ -430,9 +430,6 @@ HomeActivityTestRule
 .
 withDefaultSettingsOverrides
 (
-useNewCrashReporterFlow
-=
-true
 )
 )
 {

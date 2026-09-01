@@ -546,6 +546,12 @@ tests
 .
 *
 /
+Suppress
+(
+"
+UnusedParameter
+"
+)
 fun
 setPrivateBrowsing
 (

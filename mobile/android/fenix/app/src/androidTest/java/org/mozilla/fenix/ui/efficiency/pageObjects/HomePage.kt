@@ -559,6 +559,12 @@ tests
 .
 *
 /
+Suppress
+(
+"
+UnusedParameter
+"
+)
 fun
 visitWebsite
 (

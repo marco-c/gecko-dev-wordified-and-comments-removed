@@ -1822,9 +1822,6 @@ acceptPermissionToInstallAddon
 verifyAddonInstallCompletedPrompt
 (
 recommendedExtensionTitle
-composeTestRule
-.
-activityRule
 )
 closeAddonInstallCompletePrompt
 (
@@ -2018,9 +2015,6 @@ acceptPermissionToInstallAddon
 verifyAddonInstallCompletedPrompt
 (
 recommendedExtensionTitle
-composeTestRule
-.
-activityRule
 )
 closeAddonInstallCompletePrompt
 (
@@ -2806,14 +2800,6 @@ clickSaveAsPDFButton
 verifyDownloadPrompt
 (
 composeTestRule
-testPage
-.
-title
-+
-"
-.
-pdf
-"
 )
 }
 .
@@ -3629,9 +3615,6 @@ acceptPermissionToInstallAddon
 verifyAddonInstallCompletedPrompt
 (
 recommendedExtensionTitle
-composeTestRule
-.
-activityRule
 )
 closeAddonInstallCompletePrompt
 (
@@ -4879,9 +4862,6 @@ acceptPermissionToInstallAddon
 verifyAddonInstallCompletedPrompt
 (
 recommendedExtensionTitle
-composeTestRule
-.
-activityRule
 )
 closeAddonInstallCompletePrompt
 (

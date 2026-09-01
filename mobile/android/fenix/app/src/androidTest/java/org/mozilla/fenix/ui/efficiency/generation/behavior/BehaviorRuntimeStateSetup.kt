@@ -148,6 +148,12 @@ helpers
 object
 BehaviorRuntimeStateSetup
 {
+Suppress
+(
+"
+UnusedParameter
+"
+)
 fun
 apply
 (

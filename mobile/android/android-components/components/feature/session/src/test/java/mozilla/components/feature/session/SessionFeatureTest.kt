@@ -75,12 +75,6 @@ kotlinx
 .
 coroutines
 .
-CoroutineScope
-import
-kotlinx
-.
-coroutines
-.
 test
 .
 StandardTestDispatcher
@@ -375,9 +369,6 @@ store
 =
 prepareStore
 (
-scope
-=
-this
 )
 val
 actualView
@@ -502,9 +493,6 @@ store
 =
 prepareStore
 (
-scope
-=
-this
 )
 val
 actualView
@@ -635,9 +623,6 @@ store
 =
 prepareStore
 (
-scope
-=
-this
 )
 val
 actualView
@@ -768,9 +753,6 @@ store
 =
 prepareStore
 (
-scope
-=
-this
 )
 val
 actualView
@@ -965,7 +947,6 @@ store
 prepareStore
 (
 captureActionsMiddleware
-this
 )
 val
 actualView
@@ -1088,9 +1069,6 @@ store
 =
 prepareStore
 (
-scope
-=
-this
 )
 val
 actualView
@@ -1270,9 +1248,6 @@ store
 =
 prepareStore
 (
-scope
-=
-this
 )
 val
 actualView
@@ -1423,9 +1398,6 @@ store
 =
 prepareStore
 (
-scope
-=
-this
 )
 val
 actualView
@@ -1598,9 +1570,6 @@ store
 =
 prepareStore
 (
-scope
-=
-this
 )
 val
 actualView
@@ -2335,9 +2304,6 @@ store
 =
 prepareStore
 (
-scope
-=
-this
 )
 val
 actualView
@@ -2499,7 +2465,6 @@ store
 prepareStore
 (
 middleware
-this
 )
 val
 actualView
@@ -2673,9 +2638,6 @@ store
 =
 prepareStore
 (
-scope
-=
-this
 )
 val
 actualView
@@ -2837,9 +2799,6 @@ store
 =
 prepareStore
 (
-scope
-=
-this
 )
 val
 actualView
@@ -2993,9 +2952,6 @@ store
 =
 prepareStore
 (
-scope
-=
-this
 )
 val
 actualView
@@ -3205,7 +3161,6 @@ store
 prepareStore
 (
 captureActionsMiddleware
-this
 )
 val
 actualView
@@ -3361,9 +3316,6 @@ BrowserAction
 ?
 =
 null
-scope
-:
-CoroutineScope
 )
 :
 BrowserStore

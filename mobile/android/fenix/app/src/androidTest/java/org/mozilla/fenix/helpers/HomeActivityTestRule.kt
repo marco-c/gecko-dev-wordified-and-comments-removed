@@ -944,11 +944,6 @@ skipOnboarding
 Boolean
 =
 true
-useNewCrashReporterFlow
-:
-Boolean
-=
-false
 )
 =
 HomeActivityTestRule

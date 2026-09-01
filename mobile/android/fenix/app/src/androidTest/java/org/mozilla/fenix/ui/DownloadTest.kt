@@ -2554,7 +2554,6 @@ composeTestRule
 verifyDownloadPrompt
 (
 composeTestRule
-downloadFile
 )
 }
 .
