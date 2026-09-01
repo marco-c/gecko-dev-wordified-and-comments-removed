@@ -3766,9 +3766,6 @@ false
 redirectInitialized
 :
 false
-needTracing
-:
-false
 hasRedirects
 :
 false
@@ -4252,8 +4249,7 @@ blockingAllowed
 )
 )
 ;
-this
-.
+let
 needTracing
 =
 this
@@ -4288,8 +4284,6 @@ haveBlocking
 let
 needExamine
 =
-this
-.
 needTracing
 |
 |
