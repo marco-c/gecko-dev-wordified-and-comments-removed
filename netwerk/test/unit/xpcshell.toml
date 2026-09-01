@@ -12806,6 +12806,13 @@ js
 ]
 [
 "
+test_no_vary_search_revalidation
+.
+js
+"
+]
+[
+"
 test_no_vary_search_telemetry
 .
 js
