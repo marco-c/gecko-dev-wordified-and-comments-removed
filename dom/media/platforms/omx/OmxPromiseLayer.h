@@ -75,8 +75,6 @@ virtual
 OmxPromiseLayer
 (
 )
-=
-default
 ;
 public
 :
