@@ -833,7 +833,6 @@ mFamilyName
 aName
 ;
 }
-virtual
 nsCString
 RealFaceName
 (
