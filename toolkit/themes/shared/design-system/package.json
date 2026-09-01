@@ -115,7 +115,7 @@ css
 write
 "
 "
-fetch
+import
 -
 figma
 -
@@ -126,7 +126,7 @@ nova
 node
 src
 /
-fetch
+import
 -
 figma
 -
