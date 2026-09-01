@@ -6301,10 +6301,6 @@ RelativeTo
 {
 aAncestorFrame
 }
-nullptr
-nullptr
-false
-nullptr
 )
 ;
 nsRect
