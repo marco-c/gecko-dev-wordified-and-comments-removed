@@ -2713,7 +2713,6 @@ mStrips
 area
 +
 =
-int64_t
 (
 strip
 .

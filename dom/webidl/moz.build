@@ -5327,11 +5327,6 @@ Performance
 webidl
 "
 "
-PerformanceContainerTiming
-.
-webidl
-"
-"
 PerformanceEntry
 .
 webidl

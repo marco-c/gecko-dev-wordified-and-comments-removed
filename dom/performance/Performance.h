@@ -543,15 +543,6 @@ TimeStamp
 )
 const
 ;
-DOMHighResTimeStamp
-GetReducedTimePrecisionDOMHighRes
-(
-const
-TimeStamp
-&
-aTimeStamp
-)
-;
 virtual
 uint64_t
 GetRandomTimelineSeed
