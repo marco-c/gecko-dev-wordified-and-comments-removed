@@ -6315,12 +6315,7 @@ searches
 |
 context
 .
-sapName
-=
-=
-"
-searchbar
-"
+isSearchbarSAP
 )
 &
 &

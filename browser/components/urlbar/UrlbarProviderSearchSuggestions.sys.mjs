@@ -1209,7 +1209,7 @@ queryContext
 /
 /
 In
-the
+a
 search
 bar
 browser
@@ -1242,14 +1242,10 @@ shown
 regardless
 .
 (
+!
 queryContext
 .
-sapName
-!
-=
-"
-searchbar
-"
+isSearchbarSAP
 &
 &
 (
