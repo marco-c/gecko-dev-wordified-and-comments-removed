@@ -359,6 +359,9 @@ Module
 ProcessSelector
 mProcessSelector
 ;
+bool
+mIsSerializable
+;
 const
 nsID
 &

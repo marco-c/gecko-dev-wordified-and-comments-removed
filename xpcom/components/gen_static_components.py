@@ -1509,6 +1509,20 @@ False
         
 self
 .
+serializable
+=
+data
+.
+get
+(
+"
+serializable
+"
+False
+)
+        
+self
+.
 protocol_config
 =
 data
@@ -1971,6 +1985,20 @@ self
 .
 processes
 )
+}
+          
+{
+"
+true
+"
+if
+self
+.
+serializable
+else
+"
+false
+"
 }
         
 }
