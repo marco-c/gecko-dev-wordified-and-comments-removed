@@ -2944,6 +2944,10 @@ AIWindow
 launchWindow
 (
 browser
+false
+"
+bedrock
+"
 )
 .
 then
