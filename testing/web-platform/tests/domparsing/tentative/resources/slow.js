@@ -1,0 +1,11 @@
+window
+.
+events
+.
+push
+(
+'
+slow
+'
+)
+;
