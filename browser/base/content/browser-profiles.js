@@ -726,7 +726,7 @@ currentProfile
 .
 getAvatarURL
 (
-24
+16
 )
 )
 ;
@@ -1196,7 +1196,7 @@ profile
 .
 getAvatarURL
 (
-24
+16
 )
 ;
 btn
@@ -1611,7 +1611,7 @@ profile
 .
 getAvatarURL
 (
-24
+16
 )
 )
 ;
@@ -1847,7 +1847,7 @@ profile
 .
 getAvatarURL
 (
-24
+16
 )
 )
 ;
