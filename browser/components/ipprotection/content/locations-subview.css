@@ -275,6 +275,8 @@ start
 not
 (
 [
+aria
+-
 disabled
 ]
 )
@@ -427,7 +429,7 @@ inset
 [
 aria
 -
-checked
+selected
 =
 "
 true
