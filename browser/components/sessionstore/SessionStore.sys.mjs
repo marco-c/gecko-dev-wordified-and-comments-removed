@@ -612,16 +612,6 @@ Ci
 .
 nsIWebBrowserChrome
 .
-CHROME_LOCATIONBAR
-"
-location
-"
-]
-[
-Ci
-.
-nsIWebBrowserChrome
-.
 CHROME_PERSONAL_TOOLBAR
 "
 personalbar

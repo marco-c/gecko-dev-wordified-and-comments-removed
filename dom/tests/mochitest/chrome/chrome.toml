@@ -157,6 +157,11 @@ window_focus_docnav
 xhtml
 "
 "
+window_frameset
+.
+xhtml
+"
+"
 !
 /
 dom
