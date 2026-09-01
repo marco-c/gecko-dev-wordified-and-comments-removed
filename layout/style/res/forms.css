@@ -2574,8 +2574,13 @@ text
 ;
 }
 select
->
 option
+:
+not
+(
+optgroup
+option
+)
 {
 padding
 -
@@ -2706,7 +2711,6 @@ important
 ;
 }
 optgroup
->
 option
 {
 padding
