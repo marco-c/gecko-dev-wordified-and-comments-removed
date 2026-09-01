@@ -1885,6 +1885,14 @@ panel
 -
 list
 "
+click
+-
+on
+-
+mouseup
+=
+"
+"
 >
 <
 div
