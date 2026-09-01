@@ -768,6 +768,10 @@ SyncStatusObserver
 >
 {
 fun
+initialize
+(
+)
+fun
 isSyncActive
 (
 )
@@ -1457,6 +1461,11 @@ toLong
 dispatcherUpdated
 (
 dispatcher
+)
+dispatcher
+.
+initialize
+(
 )
 return
 dispatcher

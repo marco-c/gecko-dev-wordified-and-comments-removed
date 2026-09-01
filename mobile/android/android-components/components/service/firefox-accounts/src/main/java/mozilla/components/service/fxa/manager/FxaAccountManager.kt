@@ -4823,7 +4823,14 @@ return
 WorkManagerSyncManager
 (
 context
+=
+context
+syncConfig
+=
 config
+coroutineContext
+=
+coroutineContext
 )
 }
 internal

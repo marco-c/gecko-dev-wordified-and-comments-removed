@@ -322,6 +322,16 @@ libs
 .
 androidx
 .
+arch
+.
+core
+.
+testing
+testImplementation
+libs
+.
+androidx
+.
 test
 .
 junit
