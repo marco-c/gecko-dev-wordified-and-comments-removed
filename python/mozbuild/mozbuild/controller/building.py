@@ -8721,6 +8721,10 @@ None
 allow_subdirectory_build
 =
 False
+        
+no_completion_messages
+=
+False
     
 )
 :
@@ -8795,6 +8799,8 @@ mach_context
 append_env
             
 allow_subdirectory_build
+            
+no_completion_messages
         
 )
         
@@ -8874,6 +8880,10 @@ append_env
 None
         
 allow_subdirectory_build
+=
+False
+        
+no_completion_messages
 =
 False
     
@@ -11243,6 +11253,9 @@ ValueError
 pass
         
 if
+not
+no_completion_messages
+and
 monitor
 .
 elapsed
@@ -11273,12 +11286,19 @@ status
 :
             
 if
+(
+                
+not
+no_completion_messages
+                
+and
 what
+                
 and
 any
 (
 [
-                
+                    
 target
 for
 target
@@ -11296,8 +11316,10 @@ faster
 binaries
 "
 )
-            
+                
 ]
+)
+            
 )
 :
                 
@@ -11349,6 +11371,33 @@ instead
             
 return
 status
+        
+if
+not
+no_completion_messages
+:
+            
+self
+.
+_print_build_completion_messages
+(
+monitor
+what
+using_sccache
+)
+        
+return
+status
+    
+def
+_print_build_completion_messages
+(
+self
+monitor
+what
+using_sccache
+)
+:
         
 if
 monitor
@@ -11693,9 +11742,6 @@ Exception
 :
                 
 pass
-        
-return
-status
     
 def
 configure
