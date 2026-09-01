@@ -5363,7 +5363,7 @@ MaxNumberOfChannels
 self
 -
 >
-Dispatch
+DispatchToMainThread
 (
 NS_NewRunnableFunction
 (
@@ -10943,7 +10943,7 @@ void
 MediaTrackGraphImpl
 :
 :
-Dispatch
+DispatchToMainThread
 (
 already_AddRefed
 <
@@ -13735,7 +13735,7 @@ GraphImpl
 )
 -
 >
-Dispatch
+DispatchToMainThread
 (
 runnable
 .
@@ -14045,7 +14045,7 @@ GraphImpl
 )
 -
 >
-Dispatch
+DispatchToMainThread
 (
 runnable
 .
@@ -20442,7 +20442,7 @@ OnFallback
 )
 )
 {
-Dispatch
+DispatchToMainThread
 (
 NS_NewRunnableFunction
 (
