@@ -611,6 +611,7 @@ false
 }
 class
 gfxUserFontData
+final
 {
 public
 :
@@ -680,6 +681,12 @@ MallocSizeOf
 aMallocSizeOf
 )
 const
+;
+RefPtr
+<
+FontData
+>
+mFontData
 ;
 nsTArray
 <
@@ -3090,6 +3097,13 @@ uint32_t
 aMetaOrigLen
 uint8_t
 aCompression
+RefPtr
+<
+FontData
+>
+&
+&
+aFontData
 )
 ;
 virtual
@@ -3182,12 +3196,6 @@ RefPtr
 gfxFontSrcPrincipal
 >
 mPrincipal
-;
-RefPtr
-<
-FontData
->
-mFontData
 ;
 }
 ;
