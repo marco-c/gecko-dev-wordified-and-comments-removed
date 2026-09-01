@@ -919,6 +919,7 @@ appropriately
 .
 *
 /
+readonly
 attribute
 unsigned
 long
