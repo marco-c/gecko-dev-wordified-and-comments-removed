@@ -5809,6 +5809,16 @@ u32
 >
 f32
 {
+if
+off_au
+=
+=
+0
+{
+return
+v
+;
+}
 self
 .
 from_au
