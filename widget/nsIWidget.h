@@ -4431,7 +4431,6 @@ AsyncDragMetrics
 aDragMetrics
 )
 ;
-virtual
 bool
 StartAsyncAutoscroll
 (
@@ -4445,7 +4444,6 @@ ScrollableLayerGuid
 aGuid
 )
 ;
-virtual
 void
 StopAsyncAutoscroll
 (
