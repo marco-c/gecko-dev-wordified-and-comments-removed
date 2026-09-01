@@ -4692,6 +4692,17 @@ IsValid
 |
 !
 aNode
+|
+|
+aNode
+-
+>
+GetBackendType
+(
+)
+!
+=
+FILTER_BACKEND_SOFTWARE
 )
 {
 gfxCriticalNote
