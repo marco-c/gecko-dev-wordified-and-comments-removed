@@ -198,7 +198,7 @@ minVersion
 :
 localMajorVersion
 -
-2
+3
 +
 "
 .
