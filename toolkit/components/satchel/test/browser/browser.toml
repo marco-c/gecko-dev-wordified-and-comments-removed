@@ -36,6 +36,13 @@ js
 ]
 [
 "
+browser_autocomplete_color_scheme
+.
+js
+"
+]
+[
+"
 browser_close_tab
 .
 js
