@@ -64,8 +64,9 @@ preLockChecks
 (
 )
 ;
-impl_
-.
+MutexImpl
+:
+:
 lock
 (
 )
@@ -93,8 +94,9 @@ preLockChecks
 if
 (
 !
-impl_
-.
+MutexImpl
+:
+:
 tryLock
 (
 )
@@ -278,8 +280,9 @@ preUnlockChecks
 (
 )
 ;
-impl_
-.
+MutexImpl
+:
+:
 unlock
 (
 )
