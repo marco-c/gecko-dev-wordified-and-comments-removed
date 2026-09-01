@@ -6350,6 +6350,17 @@ mLatestTextureHost
 ;
 }
 else
+if
+(
+it
+!
+=
+mRemoteTextureHostWrapperHolders
+.
+end
+(
+)
+)
 {
 MOZ_ASSERT
 (
