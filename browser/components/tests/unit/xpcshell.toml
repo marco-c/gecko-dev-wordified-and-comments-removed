@@ -162,6 +162,13 @@ js
 ]
 [
 "
+test_distribution_bookmarks_first
+.
+js
+"
+]
+[
+"
 test_distribution_cachedexistence
 .
 js
@@ -184,6 +191,13 @@ js
 [
 "
 test_distribution_observer
+.
+js
+"
+]
+[
+"
+test_profileDataUpgrade_cookieBannerData
 .
 js
 "
