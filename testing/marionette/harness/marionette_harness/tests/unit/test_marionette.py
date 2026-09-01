@@ -6,8 +6,6 @@ import
 sys
 import
 time
-import
-unittest
 from
 marionette_driver
 import
@@ -379,26 +377,6 @@ file
 removed
 "
         
-)
-    
-unittest
-.
-skipIf
-(
-sys
-.
-platform
-.
-startswith
-(
-"
-win
-"
-)
-"
-Bug
-2055174
-"
 )
     
 run_if_manage_instance
