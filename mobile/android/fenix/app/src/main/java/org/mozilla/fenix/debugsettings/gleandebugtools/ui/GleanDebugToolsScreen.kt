@@ -171,6 +171,14 @@ compose
 .
 material3
 .
+HorizontalDivider
+import
+androidx
+.
+compose
+.
+material3
+.
 MaterialTheme
 import
 androidx
@@ -1003,6 +1011,9 @@ onOpenDebugView
 true
 )
 }
+HorizontalDivider
+(
+)
 GleanDebugButton
 (
 text
@@ -1023,6 +1034,9 @@ onCopyDebugViewLink
 true
 )
 }
+HorizontalDivider
+(
+)
 }
 GleanDebugButton
 (
@@ -1043,6 +1057,9 @@ onOpenDebugView
 false
 )
 }
+HorizontalDivider
+(
+)
 GleanDebugButton
 (
 text
