@@ -56,6 +56,27 @@ MPL
 .
 *
 /
+/
+*
+eslint
+prefer
+-
+const
+:
+[
+"
+error
+"
+{
+destructuring
+:
+"
+all
+"
+}
+]
+*
+/
 import
 {
 XPCOMUtils
@@ -635,7 +656,7 @@ log
 =
 >
 {
-let
+const
 {
 ConsoleAPI
 }
@@ -1301,7 +1322,7 @@ of
 features
 )
 {
-let
+const
 item
 =
 param
@@ -1321,14 +1342,14 @@ item
 continue
 ;
 }
-let
+const
 value
 =
 item
 .
 Value
 ;
-let
+const
 locked
 =
 item
@@ -1425,7 +1446,7 @@ function
 subject
 )
 {
-let
+const
 channel
 =
 subject
@@ -1681,7 +1702,7 @@ earliestPinMinorVersion
 =
 0
 ;
-let
+const
 pinParts
 =
 param
@@ -2714,7 +2735,7 @@ param
 {
 for
 (
-let
+const
 info
 of
 param
@@ -3370,7 +3391,7 @@ dirs
 [
 ]
 ;
-let
+const
 platform
 =
 AppConstants
@@ -3554,7 +3575,7 @@ nsIFile
 ;
 for
 (
-let
+const
 certfilename
 of
 param
@@ -3606,7 +3627,7 @@ e
 {
 for
 (
-let
+const
 dir
 of
 dirs
@@ -3701,7 +3722,7 @@ certfilename
 continue
 ;
 }
-let
+const
 reader
 =
 new
@@ -3750,14 +3771,14 @@ path
 return
 ;
 }
-let
+const
 certFile
 =
 reader
 .
 result
 ;
-let
+const
 certFileArray
 =
 [
@@ -4277,7 +4298,7 @@ max_connections
 "
 )
 ;
-let
+const
 resultPrefs
 =
 [
@@ -4301,7 +4322,7 @@ timeout_result
 ;
 for
 (
-let
+const
 pref
 of
 resultPrefs
@@ -4459,7 +4480,7 @@ pref
 ;
 }
 }
-let
+const
 boolPrefs
 =
 [
@@ -4491,7 +4512,7 @@ bypass_for_same_tab_operations
 ;
 for
 (
-let
+const
 pref
 of
 boolPrefs
@@ -4557,7 +4578,7 @@ pref
 ;
 }
 }
-let
+const
 interceptionPointPrefs
 =
 [
@@ -4614,7 +4635,7 @@ param
 {
 for
 (
-let
+const
 pref
 of
 interceptionPointPrefs
@@ -4701,7 +4722,7 @@ else
 {
 for
 (
-let
+const
 pref
 of
 interceptionPointPrefs
@@ -4731,7 +4752,7 @@ enabled
 ;
 }
 }
-let
+const
 plainTextOnlyPrefs
 =
 [
@@ -4764,7 +4785,7 @@ param
 {
 for
 (
-let
+const
 pref
 of
 plainTextOnlyPrefs
@@ -4888,7 +4909,7 @@ else
 {
 for
 (
-let
+const
 pref
 of
 plainTextOnlyPrefs
@@ -4927,7 +4948,7 @@ in
 param
 )
 {
-let
+const
 enabled
 =
 !
@@ -4952,7 +4973,7 @@ enabled
 enabled
 )
 ;
-let
+const
 ca
 =
 Cc
@@ -5273,7 +5294,7 @@ AllowSession
 {
 for
 (
-let
+const
 origin
 of
 param
@@ -5392,7 +5413,7 @@ hosts
 {
 for
 (
-let
+const
 blocked
 of
 param
@@ -5462,7 +5483,7 @@ Behavior
 option
 takes
 precendence
-let
+const
 defaultPref
 =
 Services
@@ -5525,7 +5546,7 @@ in
 param
 )
 {
-let
+const
 behaviors
 =
 {
@@ -6216,7 +6237,7 @@ manager
 param
 )
 {
-let
+const
 policies
 =
 Services
@@ -6362,7 +6383,7 @@ false
 =
 >
 {
-let
+const
 pdfMIMEInfo
 =
 lazy
@@ -6401,7 +6422,7 @@ pdfMIMEInfo
 return
 ;
 }
-let
+const
 pdfMIMEInfo
 =
 lazy
@@ -6445,7 +6466,7 @@ manager
 param
 )
 {
-let
+const
 cipherPrefs
 =
 {
@@ -6635,7 +6656,7 @@ aes_256_gcm_sha384
 ;
 for
 (
-let
+const
 cipher
 in
 param
@@ -7815,7 +7836,7 @@ visibility
 =
 >
 {
-let
+const
 visibilityPref
 =
 "
@@ -8452,7 +8473,7 @@ Category
 true
 )
 ;
-let
+const
 {
 ContentBlockingPrefs
 }
@@ -9168,7 +9189,7 @@ extensionsInstall
 "
 )
 ;
-let
+const
 addons
 =
 await
@@ -9185,7 +9206,7 @@ Uninstall
 ;
 for
 (
-let
+const
 addon
 of
 addons
@@ -9294,7 +9315,7 @@ uninstallingPromise
 ;
 for
 (
-let
+const
 location
 of
 param
@@ -9338,7 +9359,7 @@ support
 old
 API
 )
-let
+const
 xpiFile
 =
 new
@@ -9405,7 +9426,7 @@ param
 {
 for
 (
-let
+const
 ID
 of
 param
@@ -9533,7 +9554,7 @@ manager
 param
 )
 {
-let
+const
 extensionSettings
 =
 param
@@ -9658,7 +9679,7 @@ extensionSettings
 ]
 )
 {
-let
+const
 restrictedDomains
 =
 Services
@@ -9718,7 +9739,7 @@ join
 ;
 }
 }
-let
+const
 addons
 =
 new
@@ -9728,7 +9749,7 @@ Map
 ;
 for
 (
-let
+const
 a
 of
 await
@@ -9752,7 +9773,7 @@ a
 )
 ;
 }
-let
+const
 allowedExtensions
 =
 [
@@ -9760,7 +9781,7 @@ allowedExtensions
 ;
 for
 (
-let
+const
 extensionID
 in
 extensionSettings
@@ -9992,7 +10013,7 @@ t
 have
 uninstall
 .
-let
+const
 addon
 =
 await
@@ -10073,7 +10094,7 @@ uninstalled
 }
 }
 }
-let
+const
 allowedTypes
 =
 extensionSettings
@@ -10096,7 +10117,7 @@ allowedTypes
 {
 for
 (
-let
+const
 addon
 of
 addons
@@ -10235,7 +10256,7 @@ t
 have
 uninstall
 .
-let
+const
 addonToUninstall
 =
 await
@@ -10354,7 +10375,7 @@ isUsableAddon
 .
 for
 (
-let
+const
 addon
 of
 addons
@@ -10393,7 +10414,7 @@ SCOPE_PROFILE
 continue
 ;
 }
-let
+const
 blockedPerms
 =
 Services
@@ -10427,7 +10448,7 @@ continue
 }
 try
 {
-let
+const
 granted
 =
 await
@@ -10442,7 +10463,7 @@ addon
 id
 )
 ;
-let
+const
 toRemove
 =
 granted
@@ -10469,7 +10490,7 @@ toRemove
 length
 )
 {
-let
+const
 extension
 =
 WebExtensionPolicy
@@ -11241,7 +11262,7 @@ widgets
 .
 for
 (
-let
+const
 id
 of
 param
@@ -11450,7 +11471,7 @@ manager
 param
 )
 {
-let
+const
 policies
 =
 Services
@@ -11747,7 +11768,7 @@ param
 {
 for
 (
-let
+const
 mimeType
 in
 param
@@ -11755,7 +11776,7 @@ param
 mimeTypes
 )
 {
-let
+const
 mimeInfo
 =
 param
@@ -11765,7 +11786,7 @@ mimeTypes
 mimeType
 ]
 ;
-let
+const
 realMIMEInfo
 =
 lazy
@@ -11800,7 +11821,7 @@ param
 {
 for
 (
-let
+const
 extension
 in
 param
@@ -11808,7 +11829,7 @@ param
 extensions
 )
 {
-let
+const
 mimeInfo
 =
 param
@@ -11820,7 +11841,7 @@ extension
 ;
 try
 {
-let
+const
 realMIMEInfo
 =
 lazy
@@ -11878,7 +11899,7 @@ param
 {
 for
 (
-let
+const
 scheme
 in
 param
@@ -11886,7 +11907,7 @@ param
 schemes
 )
 {
-let
+const
 handlerInfo
 =
 param
@@ -11896,7 +11917,7 @@ schemes
 scheme
 ]
 ;
-let
+const
 realHandlerInfo
 =
 lazy
@@ -12847,7 +12868,7 @@ the
 policy
 pref
 .
-let
+const
 policyNames
 =
 Services
@@ -13087,7 +13108,7 @@ true
 if
 not
 specified
-let
+const
 blockTrackers
 =
 "
@@ -13102,7 +13123,7 @@ BlockTrackers
 :
 true
 ;
-let
+const
 enablePrompting
 =
 "
@@ -13189,7 +13210,7 @@ SkipDomains
 )
 )
 {
-let
+const
 skipDomainsValue
 =
 param
@@ -13435,7 +13456,7 @@ manager
 param
 )
 {
-let
+const
 policies
 =
 Services
@@ -13499,7 +13520,7 @@ manager
 param
 )
 {
-let
+const
 url
 =
 param
@@ -13550,7 +13571,7 @@ manager
 param
 )
 {
-let
+const
 url
 =
 param
@@ -14459,7 +14480,7 @@ manager
 param
 )
 {
-let
+const
 allowedPrefixes
 =
 [
@@ -14926,7 +14947,7 @@ disallowed_regions
 ;
 for
 (
-let
+const
 preference
 in
 param
@@ -15186,7 +15207,7 @@ update
 the
 value
 .
-let
+const
 prefWasLocked
 =
 Services
@@ -15215,7 +15236,7 @@ preference
 }
 try
 {
-let
+const
 prefType
 =
 param
@@ -15812,7 +15833,7 @@ notificationPeriodHours
 =
 24
 ;
-let
+const
 restartTimeOfDay
 =
 {
@@ -17247,7 +17268,7 @@ function
 {
 for
 (
-let
+const
 engineName
 of
 param
@@ -17255,7 +17276,7 @@ param
 Remove
 )
 {
-let
+const
 engine
 =
 lazy
@@ -17705,7 +17726,7 @@ manager
 param
 )
 {
-let
+const
 pkcs11db
 =
 Cc
@@ -17770,7 +17791,7 @@ Delete
 {
 for
 (
-let
+const
 deviceName
 of
 param
@@ -17858,7 +17879,7 @@ return
 }
 for
 (
-let
+const
 deviceName
 in
 securityDevices
@@ -17871,7 +17892,7 @@ false
 ;
 for
 (
-let
+const
 module
 of
 await
@@ -18074,7 +18095,7 @@ if
 param
 )
 {
-let
+const
 homeButtonPlacement
 =
 lazy
@@ -18096,7 +18117,7 @@ if
 homeButtonPlacement
 )
 {
-let
+const
 placement
 =
 lazy
@@ -18312,7 +18333,7 @@ make
 a
 site
 .
-let
+const
 site
 =
 Services
@@ -18398,7 +18419,7 @@ the
 patterns
 for
 (
-let
+const
 param
 of
 params
@@ -18406,7 +18427,7 @@ params
 {
 for
 (
-let
+const
 patterns
 of
 [
@@ -18479,7 +18500,7 @@ featuresForPolicies
 policies
 )
 {
-let
+const
 features
 =
 {
@@ -18533,7 +18554,7 @@ manager
 params
 )
 {
-let
+const
 sitePolicies
 =
 [
@@ -18541,13 +18562,13 @@ sitePolicies
 ;
 for
 (
-let
+const
 policies
 of
 params
 )
 {
-let
+const
 matches
 =
 policies
@@ -18558,7 +18579,7 @@ Match
 [
 ]
 ;
-let
+const
 exceptions
 =
 policies
@@ -18605,7 +18626,7 @@ includes
 continue
 ;
 }
-let
+const
 exceptionPatterns
 =
 exceptions
@@ -19068,7 +19089,7 @@ manager
 param
 )
 {
-let
+const
 policies
 =
 Services
