@@ -86,6 +86,15 @@ return
 false
 ;
 }
+getAddonsByTypes
+(
+)
+{
+return
+[
+]
+;
+}
 get
 name
 (

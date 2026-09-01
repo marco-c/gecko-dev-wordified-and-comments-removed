@@ -73,6 +73,15 @@ this
 donePromise
 ;
 }
+getAddonsByTypes
+(
+)
+{
+return
+[
+]
+;
+}
 }
 ;
 mockProvider

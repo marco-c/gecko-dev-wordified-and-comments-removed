@@ -650,9 +650,11 @@ string
 /
 obsolete
 use
-environment
-.
+the
 addons
+Glean
+ping
+instead
 }
 processes
 :

@@ -109,6 +109,15 @@ null
 )
 ;
 }
+getAddonsByTypes
+(
+)
+{
+return
+[
+]
+;
+}
 get
 name
 (

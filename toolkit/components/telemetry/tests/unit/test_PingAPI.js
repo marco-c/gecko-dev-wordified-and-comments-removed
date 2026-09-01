@@ -301,6 +301,10 @@ do_get_profile
 true
 )
 ;
+fakeIntlReady
+(
+)
+;
 await
 setEmptyPrefWatchlist
 (
