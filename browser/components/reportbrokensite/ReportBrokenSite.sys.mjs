@@ -5266,7 +5266,7 @@ sendReportAsGleanPing
 (
 gBrowser
 .
-_selectedBrowser
+selectedBrowser
 state
 )
 ;
