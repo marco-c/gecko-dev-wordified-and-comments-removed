@@ -275,6 +275,7 @@ nsICSSLoaderObserver
 )
 NS_DECL_NSITIMERCALLBACK
 NS_DECL_NSINAMED
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 NS_IMETHOD
 StyleSheetLoaded
 (
@@ -320,6 +321,7 @@ WillBuildModelImpl
 void
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 DidBuildModelImpl
 (
@@ -405,6 +407,7 @@ nsIChannel
 aChannel
 )
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 nsresult
 ProcessLinkFromHeader
 (
@@ -422,6 +425,7 @@ uint64_t
 aEarlyHintPreloaderId
 )
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 virtual
 nsresult
 ProcessStyleLinkFromHeader

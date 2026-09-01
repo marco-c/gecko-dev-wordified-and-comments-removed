@@ -3225,10 +3225,17 @@ eNo
 }
 if
 (
+const
+RefPtr
+<
+ScriptLoader
+>
+scriptLoader
+=
 mScriptLoader
 )
 {
-mScriptLoader
+scriptLoader
 -
 >
 ParsingComplete
@@ -3236,7 +3243,7 @@ ParsingComplete
 false
 )
 ;
-mScriptLoader
+scriptLoader
 -
 >
 DeferCheckpointReached

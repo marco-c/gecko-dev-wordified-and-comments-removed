@@ -2793,8 +2793,11 @@ IsEmpty
 return
 ;
 }
+const
+RefPtr
+<
 Element
-*
+>
 treeToWatch
 =
 mOriginal
@@ -2890,8 +2893,11 @@ data
 return
 ;
 }
+const
+nsCOMPtr
+<
 nsIReferrerInfo
-*
+>
 referrer
 =
 OwnerDoc

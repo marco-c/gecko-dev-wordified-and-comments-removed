@@ -137,8 +137,11 @@ _ns
 break
 ;
 }
+const
+nsCOMPtr
+<
 nsINode
-*
+>
 target
 =
 mTarget

@@ -686,6 +686,7 @@ StyleImageRendering
 aImageRendering
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 FinishStaticClone
 (
@@ -1068,6 +1069,7 @@ ForceLayoutIfNecessary
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 SwapWithOtherLoader
 (

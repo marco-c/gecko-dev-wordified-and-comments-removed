@@ -679,6 +679,7 @@ aObserver
 )
 ;
 }
+MOZ_CAN_RUN_SCRIPT
 bool
 ProcessScriptElement
 (
@@ -931,6 +932,7 @@ size_t
 aLengthOut
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 OnStreamComplete
 (
@@ -961,6 +963,7 @@ HasPendingDynamicImports
 )
 const
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 ProcessPendingRequests
 (
@@ -975,6 +978,7 @@ BeginDeferringScripts
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 ParsingComplete
 (
@@ -982,6 +986,7 @@ bool
 aTerminated
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 DeferCheckpointReached
 (
@@ -1044,6 +1049,7 @@ uint64_t
 aEarlyHintPreloaderId
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 ProcessOffThreadRequest
 (
@@ -1136,6 +1142,7 @@ override
 ;
 private
 :
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 ~
 ScriptLoader
 (
@@ -1272,6 +1279,7 @@ ScriptLoadRequest
 aParserBlockingRequest
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 ContinueParserAsync
 (
@@ -1280,6 +1288,7 @@ ScriptLoadRequest
 aParserBlockingRequest
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 bool
 ProcessExternalScript
 (
@@ -1299,6 +1308,7 @@ nsIContent
 aScriptContent
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 bool
 ProcessInlineScript
 (
@@ -1457,6 +1467,7 @@ nsAutoString
 aCharsetForPreload
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 OnDelayedReady
 (
@@ -1573,6 +1584,7 @@ ScriptLoadRequest
 aRequest
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 HandleLoadError
 (
@@ -1583,6 +1595,7 @@ nsresult
 aResult
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 HandleLoadErrorAndProcessPendingRequests
 (
@@ -1768,6 +1781,7 @@ CompileOrDecodeTask
 aCompileOrDecodeTask
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 ProcessRequest
 (
@@ -1776,6 +1790,7 @@ ScriptLoadRequest
 aRequest
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 CompileOffThreadOrProcessRequest
 (
@@ -1784,6 +1799,7 @@ ScriptLoadRequest
 aRequest
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 FireScriptAvailable
 (

@@ -7555,6 +7555,9 @@ RefPtr
 this
 }
 ]
+(
+)
+MOZ_CAN_RUN_SCRIPT_BOUNDARY_LAMBDA
 {
 self
 -
@@ -7659,6 +7662,9 @@ RefPtr
 this
 }
 ]
+(
+)
+MOZ_CAN_RUN_SCRIPT_BOUNDARY_LAMBDA
 {
 if
 (

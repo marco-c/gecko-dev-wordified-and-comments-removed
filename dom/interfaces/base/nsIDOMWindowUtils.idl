@@ -8406,6 +8406,9 @@ document
 .
 *
 /
+[
+can_run_script
+]
 void
 remoteFrameFullscreenChanged
 (
@@ -8451,6 +8454,9 @@ side
 .
 *
 /
+[
+can_run_script
+]
 void
 remoteFrameFullscreenReverted
 (

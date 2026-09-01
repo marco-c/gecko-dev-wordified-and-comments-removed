@@ -1128,6 +1128,7 @@ RemoveFromBFCacheSync
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 virtual
 nsresult
 FireDelayedDOMEvents
@@ -1623,6 +1624,7 @@ aCallerType
 =
 0
 ;
+MOZ_CAN_RUN_SCRIPT
 virtual
 nsresult
 Close
@@ -2579,6 +2581,7 @@ aNewWindowPrincipal
 =
 0
 ;
+MOZ_CAN_RUN_SCRIPT
 virtual
 nsresult
 FireDelayedDOMEvents
@@ -2624,6 +2627,7 @@ GetBrowsingContextGroup
 )
 const
 ;
+MOZ_CAN_RUN_SCRIPT
 virtual
 nsresult
 SetNewDocument
@@ -2700,6 +2704,7 @@ CanClose
 =
 0
 ;
+MOZ_CAN_RUN_SCRIPT
 virtual
 void
 ForceClose
@@ -2708,6 +2713,7 @@ ForceClose
 =
 0
 ;
+MOZ_CAN_RUN_SCRIPT
 virtual
 nsresult
 SetFullscreenInternal
@@ -2720,6 +2726,7 @@ aIsFullscreen
 =
 0
 ;
+MOZ_CAN_RUN_SCRIPT
 virtual
 void
 FullscreenWillChange
@@ -2730,6 +2737,7 @@ aIsFullscreen
 =
 0
 ;
+MOZ_CAN_RUN_SCRIPT
 virtual
 void
 FinishFullscreenChange
@@ -2862,6 +2870,7 @@ return
 mWindowID
 ;
 }
+MOZ_CAN_RUN_SCRIPT
 virtual
 bool
 DispatchCustomEvent
@@ -3161,6 +3170,7 @@ GetFullScreen
 =
 0
 ;
+MOZ_CAN_RUN_SCRIPT
 virtual
 nsresult
 SetFullScreen
@@ -3187,6 +3197,7 @@ aCallerType
 =
 0
 ;
+MOZ_CAN_RUN_SCRIPT
 virtual
 nsresult
 Close

@@ -605,6 +605,7 @@ SetPagedMode
 bool
 aPagedMode
 )
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 {
 nsCOMPtr
 <

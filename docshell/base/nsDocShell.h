@@ -1862,6 +1862,7 @@ aActor
 nullptr
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 CreateDocumentViewer
 (
@@ -1909,6 +1910,7 @@ GetLoadURIDelegate
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 SetupNewViewer
 (
@@ -2786,6 +2788,7 @@ RefreshURIToQueue
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 Embed
 (

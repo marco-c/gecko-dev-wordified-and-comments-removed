@@ -9685,6 +9685,7 @@ null
 )
 ;
 }
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 NS_IMETHOD
 Run
 (
@@ -9710,6 +9711,8 @@ NS_OK
 }
 private
 :
+MOZ_KNOWN_LIVE
+const
 nsCOMPtr
 <
 nsIDocumentViewerPrint

@@ -6465,6 +6465,7 @@ Document
 *
 aDocument
 )
+MOZ_CAN_RUN_SCRIPT
 {
 nsCOMPtr
 <
@@ -6713,8 +6714,11 @@ Length
 )
 ;
 }
+const
+RefPtr
+<
 Document
-*
+>
 doc
 =
 GetDocument

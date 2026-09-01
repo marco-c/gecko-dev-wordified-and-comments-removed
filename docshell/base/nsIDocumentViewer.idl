@@ -289,6 +289,7 @@ nsISupports
 {
 [
 noscript
+can_run_script
 ]
 void
 init
@@ -917,6 +918,7 @@ document
 [
 noscript
 nostdcall
+can_run_script
 ]
 void
 setDocument
@@ -1071,6 +1073,9 @@ docshell
 .
 *
 /
+[
+can_run_script
+]
 void
 open
 (
@@ -1140,6 +1145,9 @@ layout
 .
 *
 /
+[
+can_run_script
+]
 void
 setPageModeForTesting
 (
@@ -1342,6 +1350,7 @@ null
 .
 [
 noscript
+can_run_script
 ]
 void
 setDocumentInternal

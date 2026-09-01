@@ -400,6 +400,7 @@ return
 mContentURLData
 ;
 }
+MOZ_CAN_RUN_SCRIPT
 void
 UpdateShadowTree
 (
@@ -592,6 +593,7 @@ nsAtom
 aName
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 LookupHref
 (

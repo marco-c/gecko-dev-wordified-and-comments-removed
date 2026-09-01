@@ -773,6 +773,7 @@ int32_t
 aAvailHeight
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 FinishFullscreenChange
 (
@@ -840,6 +841,7 @@ int32_t
 aSpecHeight
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 bool
 UpdateWindowStateFromMiscXULAttributes
 (

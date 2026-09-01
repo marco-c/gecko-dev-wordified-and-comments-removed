@@ -345,6 +345,7 @@ window
 nsresult
 aSuccess
 )
+MOZ_CAN_RUN_SCRIPT_BOUNDARY_LAMBDA
 {
 MOZ_ASSERT
 (

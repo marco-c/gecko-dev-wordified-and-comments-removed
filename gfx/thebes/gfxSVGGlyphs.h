@@ -129,6 +129,7 @@ Element
 ;
 public
 :
+MOZ_CAN_RUN_SCRIPT
 gfxSVGGlyphsDocument
 (
 const
@@ -150,6 +151,7 @@ uint32_t
 aGlyphId
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 ~
 gfxSVGGlyphsDocument
 (
@@ -185,6 +187,7 @@ uint32_t
 aBufLen
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 SetupPresentation
 (

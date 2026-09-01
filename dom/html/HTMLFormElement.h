@@ -891,6 +891,7 @@ Reset
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 bool
 CheckValidity
 (
@@ -1125,6 +1126,7 @@ bool
 aCancelSubmit
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 bool
 CheckFormValidity
 (

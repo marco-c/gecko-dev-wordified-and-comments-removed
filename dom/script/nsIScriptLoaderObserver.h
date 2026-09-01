@@ -59,6 +59,7 @@ NS_INLINE_DECL_STATIC_IID
 NS_ISCRIPTLOADEROBSERVER_IID
 )
 JS_HAZ_CAN_RUN_SCRIPT
+MOZ_CAN_RUN_SCRIPT
 NS_IMETHOD
 ScriptAvailable
 (
@@ -100,9 +101,11 @@ aIsInline
 define
 NS_DECL_NSISCRIPTLOADEROBSERVER
 \
+MOZ_CAN_RUN_SCRIPT
 NS_IMETHOD
 ScriptAvailable
 (
+\
 nsresult
 aResult
 nsIScriptElement
@@ -114,7 +117,6 @@ aIsInlineClassicScript
 nsIURI
 *
 aURI
-\
 uint32_t
 aLineNo
 )

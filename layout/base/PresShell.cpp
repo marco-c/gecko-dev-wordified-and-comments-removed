@@ -21400,7 +21400,16 @@ isSafeToFlush
 return
 ;
 }
+const
+RefPtr
+<
+Document
+>
+doc
+=
 mDocument
+;
+doc
 -
 >
 FlushExternalResources
@@ -21408,7 +21417,7 @@ FlushExternalResources
 flushType
 )
 ;
-mDocument
+doc
 -
 >
 FlushPendingNotifications
@@ -21419,7 +21428,7 @@ FlushType
 ContentAndNotify
 )
 ;
-mDocument
+doc
 -
 >
 UpdateSVGUseElementShadowTrees
@@ -21465,7 +21474,7 @@ UpdateStylistIfNeeded
 (
 )
 ;
-mDocument
+doc
 -
 >
 FlushUserFontSet
@@ -21495,7 +21504,7 @@ FlushFontPaletteValues
 ;
 if
 (
-mDocument
+doc
 -
 >
 HasAnimationController
@@ -21503,7 +21512,7 @@ HasAnimationController
 )
 )
 {
-mDocument
+doc
 -
 >
 GetAnimationController
@@ -21565,7 +21574,7 @@ auto
 *
 window
 =
-mDocument
+doc
 -
 >
 GetInnerWindow

@@ -156,6 +156,7 @@ override
 =
 0
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 nsresult
 BindToTree
 (
@@ -196,6 +197,7 @@ aResult
 )
 override
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 void
 AfterSetAttr
 (
@@ -491,6 +493,7 @@ this
 }
 protected
 :
+MOZ_CAN_RUN_SCRIPT
 void
 UpdateHrefTarget
 (

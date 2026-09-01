@@ -4442,6 +4442,7 @@ WidgetEvent
 aEvent
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 static
 nsresult
 DispatchTrustedEvent
@@ -4485,6 +4486,7 @@ SystemGroupOnly
 eNo
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 static
 nsresult
 DispatchTrustedEvent
@@ -4543,13 +4545,11 @@ template
 class
 WidgetEventType
 >
+MOZ_CAN_RUN_SCRIPT
 static
 nsresult
 DispatchTrustedEvent
 (
-Document
-*
-aDoc
 mozilla
 :
 :
@@ -4602,7 +4602,6 @@ mClass
 return
 DispatchEvent
 (
-aDoc
 aTarget
 event
 aEventMessage
@@ -4665,6 +4664,7 @@ aEventStatus
 nullptr
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 static
 nsresult
 DispatchUntrustedEvent
@@ -4699,13 +4699,11 @@ template
 class
 WidgetEventType
 >
+MOZ_CAN_RUN_SCRIPT
 static
 nsresult
 DispatchUntrustedEvent
 (
-Document
-*
-aDoc
 mozilla
 :
 :
@@ -4758,7 +4756,6 @@ mClass
 return
 DispatchEvent
 (
-aDoc
 aTarget
 event
 aEventMessage
@@ -4822,6 +4819,7 @@ CallerType
 aCallerType
 )
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 static
 nsresult
 DispatchEventOnlyToChrome
@@ -4858,6 +4856,7 @@ aDefaultAction
 nullptr
 )
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 static
 nsresult
 DispatchEventOnlyToChrome
@@ -8008,6 +8007,7 @@ VoidFunction
 aCallback
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 static
 void
 FirePageShowEventForFrameLoaderSwap
@@ -8032,6 +8032,7 @@ aOnlySystemGroup
 false
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 static
 void
 FirePageHideEventForFrameLoaderSwap
@@ -9358,7 +9359,7 @@ bool
 aAllowWrapping
 )
 ;
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
+MOZ_CAN_RUN_SCRIPT
 static
 nsresult
 DispatchEvent
@@ -9402,14 +9403,11 @@ SystemGroupOnly
 eNo
 )
 ;
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
+MOZ_CAN_RUN_SCRIPT
 static
 nsresult
 DispatchEvent
 (
-Document
-*
-aDoc
 mozilla
 :
 :

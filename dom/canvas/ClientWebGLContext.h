@@ -3705,6 +3705,7 @@ const
 ;
 private
 :
+MOZ_CAN_RUN_SCRIPT
 bool
 DispatchEvent
 (
@@ -3714,12 +3715,14 @@ nsAString
 )
 const
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 Event_webglcontextlost
 (
 )
 const
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 Event_webglcontextrestored
 (
@@ -12633,6 +12636,7 @@ typename
 .
 DestArgs
 >
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 void
 Run_WithDestArgTypes
 (

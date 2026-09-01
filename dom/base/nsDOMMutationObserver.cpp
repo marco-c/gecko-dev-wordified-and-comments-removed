@@ -5158,7 +5158,10 @@ signal
 signalList
 )
 {
+MOZ_KnownLive
+(
 signal
+)
 -
 >
 FireSlotChangeEvent

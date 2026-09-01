@@ -268,12 +268,6 @@ DispatchTrustedEvent
 WidgetEvent
 >
 (
-node
--
->
-OwnerDoc
-(
-)
 mTarget
 mEventMessage
 mCanBubble

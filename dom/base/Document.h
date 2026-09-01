@@ -1737,6 +1737,7 @@ ExternalResourceMap
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 Document
 *
 RequestResource
@@ -2138,6 +2139,7 @@ undef
 DECL_SHIM
 }
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 AddExternalResource
 (
@@ -5446,6 +5448,7 @@ get
 )
 ;
 }
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 virtual
 void
 SetScriptGlobalObject
@@ -5787,6 +5790,7 @@ FullscreenRequest
 &
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 RequestFullscreen
 (
@@ -5815,6 +5819,7 @@ bool
 aApplyFullscreenDirectly
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 RequestFullscreenInParentProcess
 (
@@ -6039,6 +6044,7 @@ GetLastDialogPointerdownTarget
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 RemoteFrameFullscreenChanged
 (
@@ -6049,11 +6055,13 @@ bool
 aFullscreenKeyboardLockEnabled
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 RemoteFrameFullscreenReverted
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 RestorePreviousFullscreenState
 (
@@ -6410,6 +6418,7 @@ WorkerDocumentListener
 aListener
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 UpdateSVGUseElementShadowTrees
 (
@@ -7101,6 +7110,7 @@ Destroy
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 CloseAnyAssociatedDocumentPiPWindows
 (
@@ -7153,6 +7163,7 @@ UnblockDOMContentLoaded
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 virtual
 void
 OnPageShow
@@ -7168,6 +7179,7 @@ aOnlySystemGroup
 false
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 OnPageHide
 (
@@ -7787,6 +7799,7 @@ mHasDisplayDocument
 aDisplayDocument
 ;
 }
+MOZ_CAN_RUN_SCRIPT
 Document
 *
 RequestExternalResource
@@ -8401,6 +8414,7 @@ return
 mIsStaticDocument
 ;
 }
+MOZ_CAN_RUN_SCRIPT
 already_AddRefed
 <
 Document
@@ -9435,6 +9449,7 @@ No
 Yes
 }
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 UpdateVisibilityState
 (
@@ -10994,6 +11009,7 @@ GetUnretargetedFullscreenElement
 )
 ;
 }
+MOZ_CAN_RUN_SCRIPT
 already_AddRefed
 <
 Promise
@@ -13447,6 +13463,7 @@ GetWindowContextForPageUseCounters
 )
 const
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 DoUpdateSVGUseElementShadowTrees
 (

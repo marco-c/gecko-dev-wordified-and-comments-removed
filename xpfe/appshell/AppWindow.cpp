@@ -5829,7 +5829,10 @@ From
 ourWindow
 )
 ;
+MOZ_KnownLive
+(
 piWindow
+)
 -
 >
 SetFullScreen
@@ -12458,6 +12461,7 @@ aInFullscreen
 ]
 (
 )
+MOZ_CAN_RUN_SCRIPT_BOUNDARY_LAMBDA
 {
 if
 (

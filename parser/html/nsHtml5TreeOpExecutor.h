@@ -297,6 +297,12 @@ nsHtml5TreeOpExecutor
 (
 )
 ;
+static
+void
+InitializeStatics
+(
+)
+;
 protected
 :
 virtual
@@ -319,6 +325,7 @@ WillBuildModel
 )
 override
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 NS_IMETHOD
 DidBuildModel
 (
@@ -645,6 +652,7 @@ mRunFlushLoopOnStack
 }
 #
 endif
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 void
 RunScript
 (

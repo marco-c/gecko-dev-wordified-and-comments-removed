@@ -491,6 +491,7 @@ nsIRequest
 *
 aRequest
 )
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 {
 if
 (
@@ -510,7 +511,16 @@ OnStartRequest
 "
 )
 ;
+const
+RefPtr
+<
+HTMLTrackElement
+>
+element
+=
 mElement
+;
+element
 -
 >
 DispatchTestEvent

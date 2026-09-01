@@ -673,6 +673,7 @@ printed
 /
 [
 noscript
+can_run_script
 ]
 void
 print
@@ -752,6 +753,7 @@ window
 /
 [
 noscript
+can_run_script
 ]
 void
 printPreview

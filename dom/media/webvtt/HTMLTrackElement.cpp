@@ -2446,8 +2446,11 @@ nsAString
 aName
 )
 {
+const
+RefPtr
+<
 Document
-*
+>
 doc
 =
 OwnerDoc

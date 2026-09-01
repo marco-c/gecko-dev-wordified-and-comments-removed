@@ -7719,11 +7719,14 @@ cvElmt
 >
 CheckValidity
 (
+MOZ_KnownLive
+(
 *
 sortedControls
 [
 i
 ]
+)
 &
 defaultAction
 )

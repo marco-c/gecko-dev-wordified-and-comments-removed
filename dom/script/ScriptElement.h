@@ -72,7 +72,7 @@ aFromParser
 )
 {
 }
-virtual
+MOZ_CAN_RUN_SCRIPT
 nsresult
 FireErrorEvent
 (
@@ -99,7 +99,7 @@ HasExternalScriptContent
 =
 0
 ;
-virtual
+MOZ_CAN_RUN_SCRIPT
 bool
 MaybeProcessScript
 (
@@ -111,7 +111,6 @@ aParser
 )
 override
 ;
-virtual
 MOZ_CAN_RUN_SCRIPT
 nsresult
 GetTrustedTypesCompliantInlineScriptText
@@ -131,6 +130,7 @@ MutationEffectOnScript
 aMutationEffectOnScript
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 bool
 MaybeProcessScript
 (

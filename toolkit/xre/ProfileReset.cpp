@@ -749,7 +749,10 @@ From
 progressWindow
 )
 ;
+MOZ_KnownLive
+(
 piWindow
+)
 -
 >
 Close

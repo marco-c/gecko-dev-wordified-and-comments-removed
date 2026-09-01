@@ -59,6 +59,7 @@ resetProfileProgress
 xhtml
 "
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 ProfileResetCleanup
 (

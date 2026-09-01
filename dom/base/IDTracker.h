@@ -84,6 +84,7 @@ return
 mElement
 ;
 }
+MOZ_CAN_RUN_SCRIPT
 void
 ResetToURIWithFragmentID
 (
@@ -102,6 +103,7 @@ aReferenceImage
 false
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 ResetToLocalFragmentID
 (
@@ -158,6 +160,7 @@ aCB
 ;
 protected
 :
+MOZ_CAN_RUN_SCRIPT
 void
 ResetToExternalResource
 (

@@ -1168,6 +1168,7 @@ IsFrozen
 const
 override
 ;
+MOZ_CAN_RUN_SCRIPT
 virtual
 nsresult
 FireDelayedDOMEvents
@@ -1192,7 +1193,7 @@ bool
 aIsBeingDiscarded
 )
 ;
-virtual
+MOZ_CAN_RUN_SCRIPT
 nsresult
 SetNewDocument
 (
@@ -1276,14 +1277,14 @@ CanClose
 )
 override
 ;
-virtual
+MOZ_CAN_RUN_SCRIPT
 void
 ForceClose
 (
 )
 override
 ;
-virtual
+MOZ_CAN_RUN_SCRIPT
 bool
 DispatchCustomEvent
 (
@@ -1303,6 +1304,7 @@ friend
 class
 FullscreenTransitionTask
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 SetFullscreenInternal
 (
@@ -1313,6 +1315,7 @@ aIsFullscreen
 )
 final
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 FullscreenWillChange
 (
@@ -1321,6 +1324,7 @@ aIsFullscreen
 )
 final
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 FinishFullscreenChange
 (
@@ -2138,6 +2142,7 @@ nsAString
 aStatus
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 CloseOuter
 (
@@ -2145,6 +2150,7 @@ bool
 aTrustedCaller
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 Close
 (
@@ -2915,6 +2921,7 @@ GetFullScreen
 )
 override
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 SetFullscreenOuter
 (
@@ -2928,6 +2935,7 @@ ErrorResult
 aError
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 SetFullScreen
 (
@@ -4174,6 +4182,7 @@ final
 ;
 protected
 :
+MOZ_CAN_RUN_SCRIPT
 nsresult
 ProcessWidgetFullscreenRequest
 (

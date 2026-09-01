@@ -515,6 +515,8 @@ aComposed
 ;
 public
 :
+MOZ_KNOWN_LIVE
+const
 nsCOMPtr
 <
 dom

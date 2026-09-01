@@ -1463,6 +1463,7 @@ bool
 )
 final
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 FireChangeEventIfNeeded
 (
@@ -3573,6 +3574,7 @@ eAllowDispatchingEvents
 eDisallowDispatchingEvents
 }
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 StopNumberControlSpinnerSpin
 (
@@ -5587,6 +5589,7 @@ aFilePicker
 )
 ;
 NS_DECL_ISUPPORTS
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 NS_IMETHOD
 Done
 (
@@ -5594,18 +5597,20 @@ nsIFilePicker
 :
 :
 ResultCode
-aResult
 )
 override
 ;
 private
 :
+MOZ_KNOWN_LIVE
+const
 nsCOMPtr
 <
 nsIFilePicker
 >
 mFilePicker
 ;
+MOZ_KNOWN_LIVE
 const
 RefPtr
 <

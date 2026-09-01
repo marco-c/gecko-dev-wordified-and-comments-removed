@@ -102,6 +102,7 @@ DecrementDestroyBlockedCount
 =
 0
 ;
+MOZ_CAN_RUN_SCRIPT
 virtual
 void
 OnDonePrinting
@@ -172,6 +173,7 @@ DecrementDestroyBlockedCount
 override
 ;
 \
+MOZ_CAN_RUN_SCRIPT
 void
 OnDonePrinting
 (

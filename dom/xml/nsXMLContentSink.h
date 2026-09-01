@@ -197,6 +197,7 @@ WillBuildModel
 )
 override
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 NS_IMETHOD
 DidBuildModel
 (
@@ -320,6 +321,7 @@ return
 mPrettyPrintHasSpecialRoot
 ;
 }
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 nsresult
 OnDocumentCreated
 (
@@ -344,6 +346,7 @@ aResultDocument
 )
 override
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 nsresult
 OnTransformDone
 (
@@ -548,6 +551,7 @@ FromParser
 aFromParser
 )
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 virtual
 nsresult
 CloseElement
@@ -640,6 +644,7 @@ FlushTags
 ;
 }
 }
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 virtual
 nsresult
 ProcessStyleLinkFromHeader

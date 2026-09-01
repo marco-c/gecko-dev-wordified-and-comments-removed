@@ -1658,6 +1658,7 @@ NoteDOMContentLoaded
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 virtual
 nsresult
 FireDelayedDOMEvents
@@ -1973,6 +1974,7 @@ GetScrollContainerFrame
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 Observe
 (
@@ -3089,6 +3091,7 @@ ErrorResult
 aError
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 Close
 (
@@ -3108,6 +3111,7 @@ ErrorResult
 aError
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 Close
 (
@@ -5120,6 +5124,7 @@ GetFullScreen
 )
 override
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 SetFullScreen
 (
@@ -6528,6 +6533,7 @@ IsPrivateBrowsing
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 FireOfflineStatusEventIfChanged
 (

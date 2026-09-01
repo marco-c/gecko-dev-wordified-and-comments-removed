@@ -443,6 +443,7 @@ nsString
 aEventName
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 DispatchTrustedEvent
 (
@@ -452,6 +453,7 @@ nsAString
 aName
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 DispatchTestEvent
 (

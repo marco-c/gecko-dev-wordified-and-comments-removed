@@ -953,6 +953,7 @@ endDocument
 nsresult
 aResult
 )
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 {
 TX_ENSURE_CURRENTNODE
 ;
@@ -1054,8 +1055,11 @@ READYSTATE_INTERACTIVE
 ;
 if
 (
+const
+RefPtr
+<
 ScriptLoader
-*
+>
 loader
 =
 mDocument
@@ -1100,6 +1104,7 @@ txMozillaXMLOutput
 endElement
 (
 )
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 {
 TX_ENSURE_CURRENTNODE
 ;
@@ -4410,11 +4415,14 @@ mDocument
 {
 if
 (
+const
+RefPtr
+<
 dom
 :
 :
 ScriptLoader
-*
+>
 scriptLoader
 =
 mDocument

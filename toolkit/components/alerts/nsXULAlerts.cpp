@@ -1829,6 +1829,7 @@ aAlertName
 bool
 aContextClosed
 )
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 {
 mozIDOMWindowProxy
 *

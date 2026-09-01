@@ -16315,8 +16315,11 @@ GetDocument
 {
 if
 (
+const
+nsCOMPtr
+<
 nsPIDOMWindowOuter
-*
+>
 win
 =
 doc
@@ -18794,10 +18797,12 @@ targetWindow
 >
 mInDtor
 )
+{
 kungFuDeathGrip
 =
 targetWindow
 ;
+}
 targetWindow
 -
 >
@@ -18836,7 +18841,10 @@ retValue
 ;
 if
 (
+MOZ_KnownLive
+(
 targetWindow
+)
 -
 >
 ProcessMessage

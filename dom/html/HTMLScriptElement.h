@@ -210,7 +210,7 @@ GetReferrerPolicy
 )
 override
 ;
-virtual
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 nsresult
 BindToTree
 (
@@ -219,6 +219,15 @@ BindContext
 nsINode
 &
 aParent
+)
+override
+;
+virtual
+void
+UnbindFromTree
+(
+UnbindContext
+&
 )
 override
 ;
