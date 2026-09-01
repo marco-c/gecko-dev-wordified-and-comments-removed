@@ -3930,8 +3930,6 @@ locations
 contains
 (
 Recommended
-(
-)
 )
 )
 }
@@ -3971,8 +3969,6 @@ buildIPProtectionState
 assertEquals
 (
 Recommended
-(
-)
 initialState
 .
 locationState
@@ -4060,8 +4056,6 @@ Active
 assertEquals
 (
 Recommended
-(
-)
 initialState
 .
 locationState
@@ -4158,8 +4152,6 @@ Idle
 assertEquals
 (
 Recommended
-(
-)
 initialState
 .
 locationState

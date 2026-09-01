@@ -1491,8 +1491,6 @@ SAMPLE_LOCATIONS
 listOf
 (
 Recommended
-(
-)
 Country
 (
 countryCode

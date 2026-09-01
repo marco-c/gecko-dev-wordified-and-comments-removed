@@ -631,8 +631,6 @@ locations
 listOf
 (
 Recommended
-(
-)
 )
 +
 action

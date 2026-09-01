@@ -658,8 +658,6 @@ selectedLocation
 Location
 =
 Recommended
-(
-)
 val
 locations
 :
@@ -671,8 +669,6 @@ Location
 listOf
 (
 Recommended
-(
-)
 )
 )
 /
@@ -739,10 +735,11 @@ automatically
 .
 *
 /
-data
-class
+object
 Recommended
-(
+:
+Location
+{
 override
 val
 countryCode
@@ -751,9 +748,7 @@ String
 ?
 =
 null
-)
-:
-Location
+}
 /
 *
 *
