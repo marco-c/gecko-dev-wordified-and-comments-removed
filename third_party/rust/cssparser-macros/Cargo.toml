@@ -227,10 +227,8 @@ macro
 true
 [
 dependencies
-.
-quote
 ]
-version
+quote
 =
 "
 1
@@ -247,7 +245,11 @@ syn
 version
 =
 "
+>
+=
 2
+<
+4
 "
 features
 =
