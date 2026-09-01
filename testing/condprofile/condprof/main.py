@@ -16,6 +16,8 @@ import
 os
 import
 sys
+import
+traceback
 if
 __name__
 =
@@ -526,6 +528,25 @@ device_name
 except
 Exception
 :
+        
+print
+(
+f
+"
+Failed
+to
+run
+condprof
+:
+{
+traceback
+.
+format_exc
+(
+)
+}
+"
+)
         
 sys
 .
