@@ -478,7 +478,6 @@ MFShutdown
 ;
 constinit
 static
-inline
 UniquePtr
 <
 MediaFoundationInitializer
