@@ -4582,7 +4582,6 @@ telemetryId
 :
 this
 .
-#
 telemetryId
 }
 ]

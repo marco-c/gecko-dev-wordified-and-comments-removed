@@ -425,6 +425,13 @@ js
 ]
 [
 "
+test_getSubmission_partnerCode
+.
+js
+"
+]
+[
+"
 test_hideOneOffButton
 .
 js
