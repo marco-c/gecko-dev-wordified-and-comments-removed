@@ -219,7 +219,6 @@ TextDirective
 :
 from_parts
 (
-&
 self
 .
 prefix
@@ -227,7 +226,6 @@ prefix
 to_string
 (
 )
-&
 self
 .
 start
@@ -235,7 +233,6 @@ start
 to_string
 (
 )
-&
 self
 .
 end
@@ -243,7 +240,6 @@ end
 to_string
 (
 )
-&
 self
 .
 suffix
@@ -397,10 +393,16 @@ iter
 .
 map
 (
+|
+text_directive
+|
 TextDirective
 :
 :
 from_rust_type
+(
+text_directive
+)
 )
 )
 ;
@@ -455,10 +457,14 @@ iter
 .
 filter_map
 (
-TextDirective
-:
-:
+|
+fragment
+|
+fragment
+.
 to_rust_type
+(
+)
 )
 )
 ;
