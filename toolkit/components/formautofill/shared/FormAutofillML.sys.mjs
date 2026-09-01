@@ -547,6 +547,9 @@ best
 -
 onnx
 "
+numThreads
+:
+2
 }
 ;
 /
@@ -607,6 +610,9 @@ best
 -
 onnx
 "
+numThreads
+:
+2
 }
 ;
 export
