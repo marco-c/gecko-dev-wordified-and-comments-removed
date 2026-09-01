@@ -3398,7 +3398,7 @@ hb_blob_t
 gfxFontconfigFontEntry
 :
 :
-GetFontTable
+GetFontTableInternal
 (
 uint32_t
 aTableTag
@@ -3451,7 +3451,7 @@ return
 gfxFontEntry
 :
 :
-GetFontTable
+GetFontTableInternal
 (
 aTableTag
 )

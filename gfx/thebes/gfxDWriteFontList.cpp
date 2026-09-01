@@ -2437,7 +2437,7 @@ hb_blob_t
 gfxDWriteFontEntry
 :
 :
-GetFontTable
+GetFontTableInternal
 (
 uint32_t
 aTag
@@ -2453,7 +2453,7 @@ return
 gfxFontEntry
 :
 :
-GetFontTable
+GetFontTableInternal
 (
 aTag
 )

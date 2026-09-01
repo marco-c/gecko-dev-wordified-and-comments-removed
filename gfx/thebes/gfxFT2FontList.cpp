@@ -3067,7 +3067,7 @@ hb_blob_t
 FT2FontEntry
 :
 :
-GetFontTable
+GetFontTableInternal
 (
 uint32_t
 aTableTag
@@ -3181,7 +3181,7 @@ return
 gfxFontEntry
 :
 :
-GetFontTable
+GetFontTableInternal
 (
 aTableTag
 )

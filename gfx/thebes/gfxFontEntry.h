@@ -1517,7 +1517,6 @@ LazyFlag
 Yes
 ;
 }
-virtual
 hb_blob_t
 *
 GetFontTable
@@ -2923,6 +2922,15 @@ f
 )
 ;
 }
+virtual
+hb_blob_t
+*
+GetFontTableInternal
+(
+uint32_t
+aTag
+)
+;
 virtual
 nsresult
 CopyFontTable
