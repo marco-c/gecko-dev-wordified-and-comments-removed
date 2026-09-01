@@ -330,3 +330,17 @@ ACTION_SUMMARIZE_CLICKED
 "
 summarize
 "
+const
+val
+ACTION_SHORTCUT_LONG_CLICKED
+=
+"
+shortcut_long_press
+"
+const
+val
+ACTION_EDIT_SHORTCUT_CLICKED
+=
+"
+shortcut_edit_clicked
+"
