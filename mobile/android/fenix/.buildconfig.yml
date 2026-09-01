@@ -277,12 +277,6 @@ components
 :
 feature
 -
-automotive
--
-components
-:
-feature
--
 awesomebar
 -
 components
