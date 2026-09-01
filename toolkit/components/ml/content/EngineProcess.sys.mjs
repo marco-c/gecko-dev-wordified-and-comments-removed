@@ -2058,6 +2058,17 @@ smart
 openai
 "
 }
+aitab
+:
+{
+engineId
+:
+"
+aitab
+-
+engine
+"
+}
 }
 ;
 /
