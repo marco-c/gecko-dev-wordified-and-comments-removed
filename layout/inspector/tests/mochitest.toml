@@ -22,6 +22,17 @@ layout
 .
 css
 .
+attr
+.
+enabled
+=
+true
+"
+"
+layout
+.
+css
+.
 basic
 -
 shape
