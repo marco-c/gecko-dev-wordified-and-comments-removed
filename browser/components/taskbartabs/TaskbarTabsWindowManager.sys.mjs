@@ -103,7 +103,6 @@ kTaskbarTabsWindowFeatures
 =
 "
 titlebar
-close
 toolbar
 location
 personalbar

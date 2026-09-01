@@ -116,12 +116,6 @@ Maximize
 <
 <
 6
-Close
-=
-1
-<
-<
-7
 Default
 =
 -

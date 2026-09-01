@@ -593,16 +593,6 @@ Ci
 .
 nsIWebBrowserChrome
 .
-CHROME_WINDOW_CLOSE
-"
-close
-"
-]
-[
-Ci
-.
-nsIWebBrowserChrome
-.
 CHROME_TOOLBAR
 "
 toolbar
