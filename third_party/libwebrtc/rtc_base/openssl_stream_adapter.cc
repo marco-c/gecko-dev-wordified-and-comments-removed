@@ -257,15 +257,6 @@ include
 "
 rtc_base
 /
-openssl_adapter
-.
-h
-"
-#
-include
-"
-rtc_base
-/
 openssl_digest
 .
 h
@@ -5776,7 +5767,7 @@ nullptr
 SSL_CTX_set_info_callback
 (
 ctx
-OpenSSLAdapter
+openssl
 :
 :
 SSLInfoCallback
