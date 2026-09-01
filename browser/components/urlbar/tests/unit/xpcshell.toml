@@ -177,6 +177,13 @@ js
 ]
 [
 "
+test_UrlbarShared_stripUnsafeProtocolOnPaste
+.
+js
+"
+]
+[
+"
 test_UrlbarTelemetryUtils_wireSerialization
 .
 js

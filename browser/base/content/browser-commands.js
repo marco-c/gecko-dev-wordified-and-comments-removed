@@ -1100,7 +1100,7 @@ readFromClipboard
 ;
 clipboard
 =
-UrlbarUtils
+UrlbarShared
 .
 stripUnsafeProtocolOnPaste
 (
