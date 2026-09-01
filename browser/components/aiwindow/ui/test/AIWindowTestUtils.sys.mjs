@@ -295,7 +295,7 @@ mjs
 ;
 import
 {
-EmbeddingsGenerator
+embeddingsGeneratorFactory
 }
 from
 "
@@ -2384,7 +2384,7 @@ constructor
 const
 embeddingsGenerator
 =
-EmbeddingsGenerator
+embeddingsGeneratorFactory
 .
 forGeneral
 (

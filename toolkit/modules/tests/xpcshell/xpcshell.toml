@@ -804,6 +804,13 @@ js
 ]
 [
 "
+test_RegionLocaleMap
+.
+js
+"
+]
+[
+"
 test_Region_geocoding
 .
 js

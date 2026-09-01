@@ -199,7 +199,7 @@ mjs
 ;
 import
 {
-EmbeddingsGenerator
+embeddingsGeneratorFactory
 }
 from
 "
@@ -5020,7 +5020,7 @@ this
 .
 embeddingsGenerator
 =
-EmbeddingsGenerator
+embeddingsGeneratorFactory
 .
 forGeneral
 (

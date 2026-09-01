@@ -166,7 +166,7 @@ sys
 .
 mjs
 "
-EmbeddingsGenerator
+embeddingsGeneratorFactory
 :
 "
 chrome
@@ -490,7 +490,7 @@ embeddingsGenerator
 =
 lazy
 .
-EmbeddingsGenerator
+embeddingsGeneratorFactory
 .
 forGeneral
 (
