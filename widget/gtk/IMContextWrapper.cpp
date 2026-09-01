@@ -3998,6 +3998,13 @@ null
 "
 )
 ;
+mGraphemeClusterFallbackToKeyEvent
+.
+SetIsVoid
+(
+true
+)
+;
 if
 (
 mPendingKeyEvents
@@ -5293,13 +5300,6 @@ mKeyboardEventWasDispatched
 true
 ;
 }
-mGraphemeClusterFallbackToKeyEvent
-.
-SetIsVoid
-(
-true
-)
-;
 mHandlingKeyEvent
 =
 aEvent
