@@ -98,6 +98,7 @@ true
 }
 )
 ;
+await
 UrlClassifierTestUtils
 .
 addTestTrackers
@@ -871,13 +872,6 @@ org
 ]
 ]
 }
-)
-;
-await
-UrlClassifierTestUtils
-.
-addTestTrackers
-(
 )
 ;
 let
