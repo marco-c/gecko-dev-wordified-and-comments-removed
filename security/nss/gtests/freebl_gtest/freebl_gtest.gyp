@@ -343,11 +343,6 @@ cmac_unittests
 cc
 '
 '
-dh_unittest
-.
-cc
-'
-'
 ecl_unittest
 .
 cc

@@ -99,17 +99,7 @@ sources
 :
 [
 '
-p12creat
-.
-c
-'
-'
 p12d
-.
-c
-'
-'
-p12dec
 .
 c
 '

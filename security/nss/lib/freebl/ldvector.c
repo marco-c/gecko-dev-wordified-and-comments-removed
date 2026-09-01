@@ -92,7 +92,10 @@ DSA_SignDigest
 DSA_VerifyDigest
 DSA_NewKeyFromSeed
 DSA_SignDigestWithSeed
-DH_GenParam
+(
+F_DH_GenParam
+)
+FREEBL_Deprecated
 DH_NewKey
 DH_Derive
 KEA_Derive

@@ -101,16 +101,8 @@ cc
 ghash_unittest
 .
 cc
-#
-kyber_unittest
-.
-cc
 CPPSRCS
 =
-\
-dh_unittest
-.
-cc
 \
 ecl_unittest
 .
@@ -121,6 +113,10 @@ rsa_unittest
 cc
 \
 cmac_unittests
+.
+cc
+\
+kyber_unittest
 .
 cc
 \
