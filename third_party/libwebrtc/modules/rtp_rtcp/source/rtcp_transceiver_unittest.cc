@@ -457,9 +457,6 @@ IsCurrent
 )
 )
 ;
-return
-true
-;
 }
 )
 )
@@ -571,9 +568,6 @@ IsCurrent
 (
 )
 )
-;
-return
-true
 ;
 }
 )
@@ -1467,9 +1461,6 @@ IsCurrent
 (
 )
 )
-;
-return
-true
 ;
 }
 )
