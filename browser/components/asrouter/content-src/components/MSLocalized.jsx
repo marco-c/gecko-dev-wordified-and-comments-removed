@@ -135,6 +135,9 @@ width
 height
 "
 "
+border
+"
+"
 borderBlockStart
 "
 "
@@ -166,6 +169,9 @@ minHeight
 "
 "
 minWidth
+"
+"
+maxWidth
 "
 ]
 ;

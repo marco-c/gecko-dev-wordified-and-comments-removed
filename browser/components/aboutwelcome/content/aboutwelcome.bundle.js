@@ -6333,6 +6333,9 @@ width
 height
 "
 "
+border
+"
+"
 borderBlockStart
 "
 "
@@ -6364,6 +6367,9 @@ minHeight
 "
 "
 minWidth
+"
+"
+maxWidth
 "
 ]
 ;
@@ -11167,6 +11173,9 @@ paddingBlockStart
 "
 "
 paddingBlockEnd
+"
+"
+width
 "
 ]
 ;

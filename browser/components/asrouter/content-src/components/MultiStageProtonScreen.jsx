@@ -4686,6 +4686,9 @@ paddingBlockStart
 "
 paddingBlockEnd
 "
+"
+width
+"
 ]
 ;
 const
