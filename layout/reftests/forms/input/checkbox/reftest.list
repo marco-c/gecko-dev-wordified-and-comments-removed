@@ -212,7 +212,7 @@ fuzzy
 2
 0
 -
-6
+12
 )
 =
 =
@@ -245,7 +245,7 @@ fuzzy
 2
 0
 -
-6
+12
 )
 =
 =
@@ -265,6 +265,12 @@ clamp
 ref
 .
 html
+#
+Rounded
+corner
+anti
+-
+aliasing
 !
 =
 checkbox
