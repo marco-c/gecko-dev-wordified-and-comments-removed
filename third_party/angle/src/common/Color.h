@@ -5,14 +5,6 @@ COMMON_COLOR_H_
 define
 COMMON_COLOR_H_
 #
-ifdef
-UNSAFE_BUFFERS_BUILD
-#
-pragma
-allow_unsafe_buffers
-#
-endif
-#
 include
 <
 cstdint
@@ -22,6 +14,15 @@ include
 <
 cstring
 >
+#
+include
+"
+common
+/
+unsafe_buffers
+.
+h
+"
 #
 include
 "
@@ -94,6 +95,8 @@ data
 )
 {
 return
+ANGLE_UNSAFE_TODO
+(
 Color
 (
 data
@@ -113,6 +116,7 @@ data
 3
 ]
 )
+)
 ;
 }
 void
@@ -131,6 +135,9 @@ data
 =
 red
 ;
+ANGLE_UNSAFE_TODO
+(
+{
 data
 [
 1
@@ -152,6 +159,8 @@ data
 =
 alpha
 ;
+}
+)
 }
 T
 red

@@ -5,14 +5,6 @@ LIBANGLE_RENDERER_METAL_COMMANDENBUFFERMTL_H_
 define
 LIBANGLE_RENDERER_METAL_COMMANDENBUFFERMTL_H_
 #
-ifdef
-UNSAFE_BUFFERS_BUILD
-#
-pragma
-allow_unsafe_buffers
-#
-endif
-#
 import
 <
 Metal
@@ -75,6 +67,15 @@ include
 common
 /
 angleutils
+.
+h
+"
+#
+include
+"
+common
+/
+unsafe_buffers
 .
 h
 "
@@ -1365,6 +1366,8 @@ uint8_t
 val
 )
 ;
+ANGLE_UNSAFE_TODO
+(
 mBuffer
 .
 insert
@@ -1380,6 +1383,7 @@ ptr
 sizeof
 (
 T
+)
 )
 )
 ;
@@ -1401,6 +1405,8 @@ size_t
 len
 )
 {
+ANGLE_UNSAFE_TODO
+(
 mBuffer
 .
 insert
@@ -1414,6 +1420,7 @@ bytes
 bytes
 +
 len
+)
 )
 ;
 return
@@ -1465,6 +1472,8 @@ uint8_t
 re
 )
 ;
+ANGLE_UNSAFE_TODO
+(
 std
 :
 :
@@ -1490,6 +1499,7 @@ sizeof
 T
 )
 ptr
+)
 )
 ;
 return
@@ -1564,6 +1574,8 @@ mReadPtr
 bytes
 ;
 return
+ANGLE_UNSAFE_TODO
+(
 mBuffer
 .
 data
@@ -1571,6 +1583,7 @@ data
 )
 +
 cur
+)
 ;
 }
 inline
@@ -1680,7 +1693,7 @@ std
 :
 array
 <
-uint32_t
+size_t
 kMaxShaderBuffers
 >
 bufferOffsets
@@ -2005,7 +2018,7 @@ const
 BufferRef
 &
 buffer
-uint32_t
+size_t
 offset
 uint32_t
 index
@@ -2164,7 +2177,7 @@ const
 BufferRef
 &
 buffer
-uint32_t
+size_t
 offset
 uint32_t
 index
@@ -2328,7 +2341,7 @@ const
 BufferRef
 &
 buffer
-uint32_t
+size_t
 offset
 uint32_t
 index
@@ -2347,7 +2360,7 @@ const
 BufferRef
 &
 buffer
-uint32_t
+size_t
 offset
 uint32_t
 index
@@ -2576,7 +2589,7 @@ size_t
 bufferOffset
 uint32_t
 instances
-uint32_t
+int32_t
 baseVertex
 uint32_t
 baseInstance
@@ -2876,7 +2889,7 @@ id
 MTLBuffer
 >
 mtlBuffer
-uint32_t
+size_t
 offset
 uint32_t
 index
@@ -3244,7 +3257,7 @@ const
 BufferRef
 &
 buffer
-uint32_t
+size_t
 offset
 uint32_t
 index
@@ -3258,7 +3271,7 @@ const
 BufferRef
 &
 buffer
-uint32_t
+size_t
 offset
 uint32_t
 index

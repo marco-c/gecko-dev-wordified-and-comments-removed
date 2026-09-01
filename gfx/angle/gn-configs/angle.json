@@ -88,11 +88,6 @@ angle_build_vulkan_system_info
 :
 false
 "
-angle_enable_d3d9
-"
-:
-false
-"
 angle_enable_d3d11
 "
 :
@@ -199,11 +194,6 @@ win
 "
 :
 {
-"
-angle_enable_d3d9
-"
-:
-true
 "
 angle_enable_d3d11
 "

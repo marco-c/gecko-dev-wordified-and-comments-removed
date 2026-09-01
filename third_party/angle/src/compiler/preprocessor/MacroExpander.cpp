@@ -1990,8 +1990,6 @@ PreprocessorSettings
 nestedSettings
 (
 mSettings
-.
-shaderSpec
 )
 ;
 nestedSettings

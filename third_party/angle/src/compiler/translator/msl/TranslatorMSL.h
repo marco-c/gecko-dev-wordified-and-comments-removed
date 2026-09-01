@@ -58,9 +58,6 @@ class
 DriverUniformMetal
 ;
 class
-SpecConst
-;
-class
 TOutputMSL
 ;
 class
@@ -940,9 +937,6 @@ compileOptions
 PerformanceDiagnostics
 *
 perfDiagnostics
-SpecConst
-*
-specConst
 DriverUniformMetal
 *
 driverUniforms

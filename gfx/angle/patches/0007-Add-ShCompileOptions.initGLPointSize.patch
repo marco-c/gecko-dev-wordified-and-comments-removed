@@ -1,5 +1,5 @@
 From
-e43d053219a0e60fb0744a2df3ecef41d244e385
+74dc5c8e9fd8a525772bb58762f78fcc7ca5674b
 Mon
 Sep
 17
@@ -76,8 +76,7 @@ Compiler
 .
 cpp
 |
-13
-+
+12
 +
 +
 +
@@ -93,7 +92,7 @@ cpp
 2
 files
 changed
-18
+17
 insertions
 (
 +
@@ -121,10 +120,10 @@ ShaderLang
 .
 h
 index
-65ad2076c5
+f663f88
 .
 .
-200eaac2c5
+701f409
 100644
 -
 -
@@ -151,10 +150,10 @@ ShaderLang
 .
 h
 -
-224
+221
 6
 +
-224
+221
 11
 struct
 ShCompileOptions
@@ -310,10 +309,10 @@ Compiler
 .
 cpp
 index
-96350cbe2e
+450d2a8
 .
 .
-9ba125a178
+6d57bbc
 100644
 -
 -
@@ -344,11 +343,11 @@ Compiler
 .
 cpp
 -
-1195
+1089
 6
 +
-1195
-19
+1089
+18
 bool
 TCompiler
 :
@@ -408,7 +407,6 @@ empty
 )
 &
 &
-+
 !
 InitializeVariables
 (
@@ -481,6 +479,6 @@ on
 -
 2
 .
-54
+43
 .
 0

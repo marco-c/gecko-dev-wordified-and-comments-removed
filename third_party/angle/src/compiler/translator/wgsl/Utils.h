@@ -68,6 +68,8 @@ const
 Object
 &
 namedObject
+char
+userSymbolPrefix
 )
 {
 WriteNameOf
@@ -83,6 +85,7 @@ namedObject
 name
 (
 )
+userSymbolPrefix
 )
 ;
 }
@@ -103,6 +106,8 @@ const
 ImmutableString
 &
 name
+char
+userSymbolPrefix
 )
 ;
 enum
@@ -138,6 +143,10 @@ StringStreamType
 &
 output
 const
+ShBuiltInResources
+&
+resources
+const
 TType
 &
 type
@@ -158,6 +167,10 @@ WriteWgslType
 StringStreamType
 &
 output
+const
+ShBuiltInResources
+&
+resources
 const
 TType
 &

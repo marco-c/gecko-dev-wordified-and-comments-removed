@@ -168,7 +168,7 @@ EGL_FALSE
 ;
 Sync
 *
-sync
+syncObject
 =
 display
 -
@@ -181,7 +181,7 @@ syncID
 ANGLE_EGL_TRY_RETURN
 (
 thread
-sync
+syncObject
 -
 >
 clientWait
@@ -196,11 +196,7 @@ syncStatus
 "
 eglClientWaitSyncKHR
 "
-GetSyncIfValid
-(
-display
-syncID
-)
+syncObject
 EGL_FALSE
 )
 ;
@@ -227,8 +223,7 @@ handleErrorStatus
 =
 [
 thread
-display
-syncID
+syncObject
 ]
 (
 void
@@ -278,11 +273,7 @@ EGL_BAD_ALLOC
 "
 eglClientWaitSyncKHR
 "
-GetSyncIfValid
-(
-display
-syncID
-)
+syncObject
 )
 ;
 }

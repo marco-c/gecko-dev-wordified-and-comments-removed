@@ -11,6 +11,11 @@ deque
 >
 #
 include
+<
+vector
+>
+#
+include
 "
 common
 /
@@ -44,6 +49,10 @@ HandleAllocator
 (
 GLuint
 maximumHandleValue
+GLuint
+minimumReleasedToKeep
+=
+0
 )
 ;
 ~
@@ -96,6 +105,10 @@ private
 const
 GLuint
 mMaxValue
+;
+const
+GLuint
+mMinimumReleasedToKeep
 ;
 struct
 HandleRange

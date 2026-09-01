@@ -1,12 +1,4 @@
 #
-ifdef
-UNSAFE_BUFFERS_BUILD
-#
-pragma
-allow_unsafe_libc_calls
-#
-endif
-#
 include
 "
 libANGLE
@@ -68,6 +60,15 @@ h
 #
 include
 "
+common
+/
+unsafe_buffers
+.
+h
+"
+#
+include
+"
 libANGLE
 /
 renderer
@@ -122,6 +123,8 @@ rhs
 )
 {
 return
+ANGLE_UNSAFE_TODO
+(
 memcmp
 (
 &
@@ -131,6 +134,7 @@ rhs
 sizeof
 (
 lhs
+)
 )
 )
 =
@@ -156,6 +160,8 @@ rhs
 )
 {
 return
+ANGLE_UNSAFE_TODO
+(
 memcmp
 (
 &
@@ -165,6 +171,7 @@ rhs
 sizeof
 (
 lhs
+)
 )
 )
 =
@@ -935,7 +942,7 @@ MTLBuffer
 (
 )
 ;
-uint32_t
+size_t
 offset
 =
 stream
@@ -943,7 +950,7 @@ stream
 >
 fetch
 <
-uint32_t
+size_t
 >
 (
 )
@@ -994,7 +1001,7 @@ IntermediateCommandStream
 stream
 )
 {
-uint32_t
+size_t
 offset
 =
 stream
@@ -1002,7 +1009,7 @@ stream
 >
 fetch
 <
-uint32_t
+size_t
 >
 (
 )
@@ -1287,7 +1294,7 @@ MTLBuffer
 (
 )
 ;
-uint32_t
+size_t
 offset
 =
 stream
@@ -1295,7 +1302,7 @@ stream
 >
 fetch
 <
-uint32_t
+size_t
 >
 (
 )
@@ -1346,7 +1353,7 @@ IntermediateCommandStream
 stream
 )
 {
-uint32_t
+size_t
 offset
 =
 stream
@@ -1354,7 +1361,7 @@ stream
 >
 fetch
 <
-uint32_t
+size_t
 >
 (
 )
@@ -2189,7 +2196,7 @@ uint32_t
 (
 )
 ;
-uint32_t
+int32_t
 baseVertex
 =
 stream
@@ -2197,7 +2204,7 @@ stream
 >
 fetch
 <
-uint32_t
+int32_t
 >
 (
 )
@@ -6172,7 +6179,7 @@ nil
 }
 for
 (
-uint32_t
+size_t
 &
 offset
 :
@@ -8978,7 +8985,7 @@ const
 BufferRef
 &
 buffer
-uint32_t
+size_t
 offset
 uint32_t
 index
@@ -9052,7 +9059,7 @@ const
 BufferRef
 &
 buffer
-uint32_t
+size_t
 offset
 uint32_t
 index
@@ -9127,7 +9134,7 @@ id
 MTLBuffer
 >
 mtlBuffer
-uint32_t
+size_t
 offset
 uint32_t
 index
@@ -10282,7 +10289,7 @@ size_t
 bufferOffset
 uint32_t
 instances
-uint32_t
+int32_t
 baseVertex
 uint32_t
 baseInstance
@@ -12252,7 +12259,7 @@ const
 BufferRef
 &
 buffer
-uint32_t
+size_t
 offset
 uint32_t
 index
@@ -12323,7 +12330,7 @@ const
 BufferRef
 &
 buffer
-uint32_t
+size_t
 offset
 uint32_t
 index

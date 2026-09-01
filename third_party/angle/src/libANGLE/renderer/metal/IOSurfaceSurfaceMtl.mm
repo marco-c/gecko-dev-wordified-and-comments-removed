@@ -725,9 +725,9 @@ const
 gl
 :
 :
-ImageIndex
+OwnImageIndex
 &
-imageIndex
+ownImageIndex
 GLsizei
 samples
 FramebufferAttachmentRenderTarget
@@ -752,7 +752,7 @@ getAttachmentRenderTarget
 (
 context
 binding
-imageIndex
+ownImageIndex
 samples
 rtOut
 )

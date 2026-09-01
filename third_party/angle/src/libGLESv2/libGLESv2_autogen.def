@@ -595,8 +595,6 @@ glVertexAttribDivisorANGLE
 GL_ANGLE_logic_op
 glLogicOpANGLE
 ;
-GL_ANGLE_lossy_etc_decode
-;
 GL_ANGLE_memory_object_flags
 glTexStorageMemFlags2DANGLE
 glTexStorageMemFlags2DMultisampleANGLE
@@ -714,10 +712,6 @@ GL_ANGLE_stencil_texturing
 GL_ANGLE_texture_compression_dxt3
 ;
 GL_ANGLE_texture_compression_dxt5
-;
-GL_ANGLE_texture_external_update
-glInvalidateTextureANGLE
-glTexImage2DExternalANGLE
 ;
 GL_ANGLE_texture_multisample
 glGetMultisamplefvANGLE
@@ -1049,6 +1043,8 @@ GL_EXT_texture_format_BGRA8888
 ;
 GL_EXT_texture_format_sRGB_override
 ;
+GL_EXT_texture_lod_bias
+;
 GL_EXT_texture_mirror_clamp_to_edge
 ;
 GL_EXT_texture_norm16
@@ -1360,6 +1356,8 @@ glShadingRateQCOM
 ;
 GL_QCOM_texture_foveated
 glTextureFoveationParametersQCOM
+;
+GL_QCOM_texture_lod_bias
 ;
 GL_QCOM_tiled_rendering
 glEndTilingQCOM

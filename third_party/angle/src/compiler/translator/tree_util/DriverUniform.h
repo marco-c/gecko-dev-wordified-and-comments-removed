@@ -206,14 +206,14 @@ const
 ;
 TIntermTyped
 *
-getDither
+getSwapXY
 (
 )
 const
 ;
 TIntermTyped
 *
-getSwapXY
+getBaseInstance
 (
 )
 const

@@ -1,11 +1,12 @@
 #
-ifdef
-UNSAFE_BUFFERS_BUILD
-#
-pragma
-allow_unsafe_libc_calls
-#
-endif
+include
+"
+common
+/
+unsafe_buffers
+.
+h
+"
 #
 include
 "
@@ -143,6 +144,8 @@ size
 ;
 if
 (
+ANGLE_UNSAFE_TODO
+(
 !
 strrchr
 (
@@ -154,6 +157,7 @@ data
 '
 /
 '
+)
 )
 )
 {

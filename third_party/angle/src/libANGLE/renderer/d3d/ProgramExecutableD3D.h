@@ -1619,9 +1619,6 @@ mUsesPointSize
 bool
 usesPointSpriteEmulation
 (
-RendererD3D
-*
-renderer
 )
 const
 ;
@@ -1648,9 +1645,6 @@ const
 bool
 usesGeometryShaderForPointSpriteEmulation
 (
-RendererD3D
-*
-renderer
 )
 const
 ;
@@ -2172,9 +2166,6 @@ outUsedRange
 void
 gatherTransformFeedbackVaryings
 (
-RendererD3D
-*
-renderer
 const
 gl
 :

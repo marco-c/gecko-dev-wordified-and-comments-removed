@@ -1,12 +1,4 @@
 #
-ifdef
-UNSAFE_BUFFERS_BUILD
-#
-pragma
-allow_unsafe_buffers
-#
-endif
-#
 include
 "
 compiler
@@ -14,6 +6,15 @@ compiler
 preprocessor
 /
 Input
+.
+h
+"
+#
+include
+"
+common
+/
+unsafe_buffers
 .
 h
 "
@@ -126,10 +127,13 @@ len
 =
 length
 ?
+ANGLE_UNSAFE_TODO
+(
 length
 [
 i
 ]
+)
 :
 -
 1
@@ -147,10 +151,13 @@ std
 :
 strlen
 (
+ANGLE_UNSAFE_TODO
+(
 mString
 [
 i
 ]
+)
 )
 :
 len
@@ -231,6 +238,8 @@ nullptr
 ;
 }
 return
+ANGLE_UNSAFE_TODO
+(
 mString
 [
 mReadLoc
@@ -241,6 +250,7 @@ sIndex
 mReadLoc
 .
 cIndex
+)
 ;
 }
 size_t
@@ -283,6 +293,8 @@ char
 *
 c
 =
+ANGLE_UNSAFE_TODO
+(
 mString
 [
 mReadLoc
@@ -293,6 +305,7 @@ sIndex
 mReadLoc
 .
 cIndex
+)
 ;
 if
 (
@@ -517,6 +530,8 @@ if
 (
 *
 (
+ANGLE_UNSAFE_TODO
+(
 mString
 [
 mReadLoc
@@ -529,6 +544,7 @@ mReadLoc
 cIndex
 +
 i
+)
 )
 =
 =
@@ -550,6 +566,8 @@ size
 ;
 }
 }
+ANGLE_UNSAFE_TODO
+(
 std
 :
 :
@@ -569,6 +587,7 @@ mReadLoc
 .
 cIndex
 size
+)
 )
 ;
 nRead

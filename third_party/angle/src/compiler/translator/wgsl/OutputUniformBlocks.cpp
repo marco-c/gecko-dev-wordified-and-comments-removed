@@ -633,6 +633,10 @@ TInfoSinkBase
 &
 output
 const
+ShBuiltInResources
+&
+resources
+const
 WGSLGenerationMetadataForUniforms
 &
 wgslGenerationMetadataForUniforms
@@ -644,6 +648,8 @@ generate16AlignedWrapperStruct
 [
 &
 output
+&
+resources
 ]
 (
 const
@@ -696,6 +702,7 @@ kWrappedStructFieldName
 WriteWgslType
 (
 output
+resources
 type
 {
 WgslAddressSpace
@@ -881,6 +888,7 @@ wrappedArr
 WriteWgslType
 (
 output
+resources
 type
 {
 WgslAddressSpace
@@ -902,6 +910,7 @@ output
 WriteWgslType
 (
 output
+resources
 type
 {
 WgslAddressSpace
@@ -934,6 +943,7 @@ retVal
 WriteWgslType
 (
 output
+resources
 type
 {
 WgslAddressSpace
@@ -1147,6 +1157,7 @@ mangledMatrix
 WriteWgslType
 (
 output
+resources
 type
 {
 WgslAddressSpace
@@ -1168,6 +1179,7 @@ output
 WriteWgslType
 (
 output
+resources
 type
 {
 WgslAddressSpace
@@ -1200,6 +1212,7 @@ retVal
 WriteWgslType
 (
 output
+resources
 type
 {
 WgslAddressSpace
@@ -1301,6 +1314,7 @@ toArrayBaseType
 WriteWgslType
 (
 output
+resources
 baseType
 {
 WgslAddressSpace

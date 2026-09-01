@@ -520,7 +520,6 @@ const
 ImmutableString
 &
 name
-const
 TSymbolTable
 &
 symbolTable
@@ -718,6 +717,14 @@ type
 TIntermTyped
 *
 scalar
+)
+;
+void
+MoveDeclarationsBeforeFunctions
+(
+TIntermBlock
+*
+root
 )
 ;
 }

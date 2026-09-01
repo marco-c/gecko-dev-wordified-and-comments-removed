@@ -1,12 +1,4 @@
 #
-ifdef
-UNSAFE_BUFFERS_BUILD
-#
-pragma
-allow_unsafe_libc_calls
-#
-endif
-#
 include
 "
 libANGLE
@@ -21,6 +13,15 @@ include
 common
 /
 BinaryStream
+.
+h
+"
+#
+include
+"
+common
+/
+unsafe_buffers
 .
 h
 "
@@ -94,6 +95,8 @@ size
 1
 )
 ;
+ANGLE_UNSAFE_TODO
+(
 memset
 (
 this
@@ -102,6 +105,7 @@ sizeof
 (
 *
 this
+)
 )
 )
 ;
@@ -567,6 +571,8 @@ BufferVariable
 (
 )
 {
+ANGLE_UNSAFE_TODO
+(
 memset
 (
 &
@@ -575,6 +581,7 @@ pod
 sizeof
 (
 pod
+)
 )
 )
 ;
@@ -648,6 +655,8 @@ name
 name
 )
 {
+ANGLE_UNSAFE_TODO
+(
 memset
 (
 &
@@ -656,6 +665,7 @@ pod
 sizeof
 (
 pod
+)
 )
 )
 ;
@@ -736,6 +746,8 @@ AtomicCounterBuffer
 (
 )
 {
+ANGLE_UNSAFE_TODO
+(
 memset
 (
 &
@@ -744,6 +756,7 @@ pod
 sizeof
 (
 pod
+)
 )
 )
 ;
@@ -859,6 +872,8 @@ InterfaceBlock
 (
 )
 {
+ANGLE_UNSAFE_TODO
+(
 memset
 (
 &
@@ -867,6 +882,7 @@ pod
 sizeof
 (
 pod
+)
 )
 )
 ;
@@ -913,6 +929,8 @@ mappedName
 mappedName
 )
 {
+ANGLE_UNSAFE_TODO
+(
 memset
 (
 &
@@ -921,6 +939,7 @@ pod
 sizeof
 (
 pod
+)
 )
 )
 ;

@@ -37,7 +37,7 @@ std
 array
 <
 uint8_t
-77
+76
 >
 kElementComponents
 =
@@ -118,7 +118,6 @@ kElementComponents
 3
 4
 1
-1
 }
 ;
 ASSERT
@@ -135,7 +134,7 @@ index
 .
 value
 <
-77
+76
 )
 ;
 return
@@ -155,7 +154,7 @@ std
 array
 <
 UniformTypeInfo
-77
+76
 >
 kUniformInfoTable
 ;

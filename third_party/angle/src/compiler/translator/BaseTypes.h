@@ -150,10 +150,9 @@ EbtISamplerCubeArray
 EbtUSampler2DRect
 EbtUSamplerBuffer
 EbtUSamplerCubeArray
-EbtSamplerVideoWEBGL
 EbtGuardSamplerEnd
 =
-EbtSamplerVideoWEBGL
+EbtUSamplerCubeArray
 EbtGuardImageBegin
 EbtImage2D
 =
@@ -721,9 +720,6 @@ EbtSamplerCubeArray
 case
 EbtSamplerCubeArrayShadow
 :
-case
-EbtSamplerVideoWEBGL
-:
 return
 false
 ;
@@ -1095,9 +1091,6 @@ EbtISampler2DMS
 case
 EbtUSampler2DMS
 :
-case
-EbtSamplerVideoWEBGL
-:
 return
 true
 ;
@@ -1298,9 +1291,6 @@ EbtUSamplerBuffer
 case
 EbtUSamplerCubeArray
 :
-case
-EbtSamplerVideoWEBGL
-:
 return
 false
 ;
@@ -1434,9 +1424,6 @@ EbtUSamplerBuffer
 :
 case
 EbtUSamplerCubeArray
-:
-case
-EbtSamplerVideoWEBGL
 :
 return
 false
@@ -1572,9 +1559,6 @@ EbtUSampler2DRect
 case
 EbtUSamplerBuffer
 :
-case
-EbtSamplerVideoWEBGL
-:
 return
 false
 ;
@@ -1666,9 +1650,6 @@ EbtISampler2DMS
 :
 case
 EbtUSampler2DMS
-:
-case
-EbtSamplerVideoWEBGL
 :
 case
 EbtSampler3D
@@ -1877,9 +1858,6 @@ EbtUSamplerBuffer
 :
 case
 EbtUSamplerCubeArray
-:
-case
-EbtSamplerVideoWEBGL
 :
 return
 false

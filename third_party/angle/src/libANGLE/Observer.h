@@ -116,7 +116,8 @@ IMPLEMENTATION_MAX_COMBINED_SHADER_UNIFORM_BUFFERS
 1
 StorageReleased
 TextureIDDeleted
-InitializationComplete
+ObjectReallocated
+TextureLayerCountIncreased
 FoveatedRenderingStateChanged
 }
 ;

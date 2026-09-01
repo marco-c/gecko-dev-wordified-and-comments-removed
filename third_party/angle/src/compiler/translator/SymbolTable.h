@@ -921,6 +921,12 @@ gl_SecondaryFragDataEXT
 )
 const
 ;
+bool
+isSecondaryFragDataUsed
+(
+)
+const
+;
 void
 markStaticUse
 (

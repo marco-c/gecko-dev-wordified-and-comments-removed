@@ -1,11 +1,12 @@
 #
-ifdef
-UNSAFE_BUFFERS_BUILD
-#
-pragma
-allow_unsafe_buffers
-#
-endif
+include
+"
+common
+/
+unsafe_buffers
+.
+h
+"
 #
 include
 "
@@ -330,10 +331,13 @@ i
 +
 )
 {
+ANGLE_UNSAFE_TODO
+(
 data
 [
 i
 ]
+)
 =
 ConvertFloatToFixed
 (
@@ -600,6 +604,8 @@ GLfloat
 coords
 )
 {
+ANGLE_UNSAFE_TODO
+(
 mGLES1Renderer
 -
 >
@@ -631,6 +637,7 @@ coords
 [
 4
 ]
+)
 )
 ;
 }
@@ -713,6 +720,8 @@ GLint
 coords
 )
 {
+ANGLE_UNSAFE_TODO
+(
 mGLES1Renderer
 -
 >
@@ -773,6 +782,7 @@ coords
 [
 4
 ]
+)
 )
 )
 ;
@@ -856,6 +866,8 @@ GLshort
 coords
 )
 {
+ANGLE_UNSAFE_TODO
+(
 mGLES1Renderer
 -
 >
@@ -916,6 +928,7 @@ coords
 [
 4
 ]
+)
 )
 )
 ;
@@ -984,6 +997,8 @@ GLfixed
 coords
 )
 {
+ANGLE_UNSAFE_TODO
+(
 mGLES1Renderer
 -
 >
@@ -1029,6 +1044,7 @@ coords
 [
 4
 ]
+)
 )
 )
 ;

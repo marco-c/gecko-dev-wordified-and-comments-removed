@@ -180,6 +180,14 @@ True
 DEFINES
 [
 "
+EGL_NO_X11
+"
+]
+=
+True
+DEFINES
+[
+"
 LIBANGLE_IMPLEMENTATION
 "
 ]

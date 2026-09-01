@@ -910,14 +910,6 @@ switch
 hr
 )
 {
-#
-ifdef
-ANGLE_ENABLE_D3D9
-case
-D3DERR_OUTOFVIDEOMEMORY
-:
-#
-endif
 case
 E_OUTOFMEMORY
 :

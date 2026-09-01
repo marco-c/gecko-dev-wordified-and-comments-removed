@@ -995,6 +995,17 @@ contains
 (
 EGL_CONFIG_ID
 )
+&
+&
+attributeMap
+.
+get
+(
+EGL_CONFIG_ID
+)
+!
+=
+EGL_DONT_CARE
 )
 {
 result

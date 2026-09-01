@@ -5,14 +5,6 @@ COMMON_POOLALLOC_H_
 define
 COMMON_POOLALLOC_H_
 #
-ifdef
-UNSAFE_BUFFERS_BUILD
-#
-pragma
-allow_unsafe_buffers
-#
-endif
-#
 if
 !
 defined
@@ -31,6 +23,15 @@ stdint
 .
 h
 >
+#
+include
+"
+common
+/
+unsafe_buffers
+.
+h
+"
 #
 include
 "
@@ -190,6 +191,8 @@ uint8_t
 *
 memory
 =
+ANGLE_UNSAFE_TODO
+(
 reinterpret_cast
 <
 uint8_t
@@ -200,6 +203,7 @@ mInUseList
 )
 +
 mCurrentPageOffset
+)
 ;
 mCurrentPageOffset
 +

@@ -1180,10 +1180,6 @@ rx
 GLImplFactory
 *
 factory
-const
-Context
-*
-context
 SyncID
 *
 outSync

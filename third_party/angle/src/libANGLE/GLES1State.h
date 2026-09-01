@@ -558,6 +558,13 @@ pointSpriteCoordReplace
 =
 false
 ;
+GLfloat
+lodBias
+=
+0
+.
+0f
+;
 auto
 tie
 (
@@ -589,6 +596,7 @@ color
 rgbScale
 alphaScale
 pointSpriteCoordReplace
+lodBias
 )
 ;
 }

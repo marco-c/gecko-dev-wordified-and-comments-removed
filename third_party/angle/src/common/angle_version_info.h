@@ -22,6 +22,13 @@ GetANGLEVersionString
 const
 char
 *
+GetANGLEEGLVersionString
+(
+)
+;
+const
+char
+*
 GetANGLECommitHash
 (
 )

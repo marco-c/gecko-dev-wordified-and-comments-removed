@@ -706,14 +706,6 @@ return
 atomic_uint
 "
 ;
-case
-EbtSamplerVideoWEBGL
-:
-return
-"
-samplerVideoWEBGL
-"
-;
 default
 :
 UNREACHABLE

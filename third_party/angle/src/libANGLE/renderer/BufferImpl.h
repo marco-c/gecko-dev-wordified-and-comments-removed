@@ -198,6 +198,11 @@ bufferStorage
 BufferFeedback
 *
 feedback
+gl
+:
+:
+ZeroFillRequired
+zeroFillRequired
 )
 ;
 virtual
@@ -233,6 +238,11 @@ usage
 BufferFeedback
 *
 feedback
+gl
+:
+:
+ZeroFillRequired
+zeroFillRequired
 )
 =
 0

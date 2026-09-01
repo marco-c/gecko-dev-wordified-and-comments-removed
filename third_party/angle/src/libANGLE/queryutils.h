@@ -535,8 +535,8 @@ const
 Framebuffer
 *
 framebuffer
-GLenum
-pname
+FramebufferParameter
+pnamePacked
 GLint
 *
 params
@@ -830,8 +830,8 @@ context
 Framebuffer
 *
 framebuffer
-GLenum
-pname
+FramebufferParameter
+pnamePacked
 GLint
 param
 )

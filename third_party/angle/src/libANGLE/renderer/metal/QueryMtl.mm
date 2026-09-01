@@ -1,12 +1,4 @@
 #
-ifdef
-UNSAFE_BUFFERS_BUILD
-#
-pragma
-allow_unsafe_buffers
-#
-endif
-#
 include
 "
 libANGLE
@@ -16,6 +8,15 @@ renderer
 metal
 /
 QueryMtl
+.
+h
+"
+#
+include
+"
+common
+/
+unsafe_buffers
 .
 h
 "
@@ -649,6 +650,8 @@ data
 uint64_t
 queryResult
 ;
+ANGLE_UNSAFE_TODO
+(
 memcpy
 (
 &
@@ -657,6 +660,7 @@ visibilityResultBytes
 sizeof
 (
 queryResult
+)
 )
 )
 ;

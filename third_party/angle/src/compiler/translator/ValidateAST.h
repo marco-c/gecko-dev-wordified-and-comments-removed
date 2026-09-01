@@ -49,11 +49,6 @@ validateVariableReferences
 true
 ;
 bool
-validateSpecConstReferences
-=
-false
-;
-bool
 validateOps
 =
 true
@@ -115,6 +110,11 @@ true
 ;
 bool
 validateNoStatementsAfterBranch
+=
+true
+;
+bool
+validateNoCaseAtEndOfSwitchBlock
 =
 true
 ;

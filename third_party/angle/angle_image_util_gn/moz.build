@@ -156,6 +156,14 @@ ANGLE_SKIP_DXGI_1_2_CHECK
 ]
 =
 True
+DEFINES
+[
+"
+EGL_NO_X11
+"
+]
+=
+True
 LOCAL_INCLUDES
 +
 =

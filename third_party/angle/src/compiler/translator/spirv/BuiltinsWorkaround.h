@@ -31,6 +31,9 @@ h
 namespace
 sh
 {
+class
+DriverUniform
+;
 [
 [
 nodiscard
@@ -45,6 +48,10 @@ compiler
 TIntermBlock
 *
 root
+const
+DriverUniform
+*
+driverUniforms
 TSymbolTable
 *
 symbolTable

@@ -499,6 +499,12 @@ kTextureToBufferBlittingAlignment
 256
 ;
 constexpr
+size_t
+kConstantBufferOffsetAlignment
+=
+32
+;
+constexpr
 uint32_t
 kMaxGLSamplerBindings
 =

@@ -1,12 +1,4 @@
 #
-ifdef
-UNSAFE_BUFFERS_BUILD
-#
-pragma
-allow_unsafe_buffers
-#
-endif
-#
 include
 "
 libANGLE
@@ -25,6 +17,15 @@ include
 common
 /
 debug
+.
+h
+"
+#
+include
+"
+common
+/
+unsafe_buffers
 .
 h
 "
@@ -1129,6 +1130,8 @@ tightlyPacked
 0
 ;
 return
+ANGLE_UNSAFE_TODO
+(
 mVertexFormatTables
 [
 tableIdx
@@ -1142,6 +1145,7 @@ size_t
 angleFormatId
 )
 ]
+)
 ;
 }
 void
@@ -1385,6 +1389,7 @@ channels
 =
 0
 )
+{
 mNativePixelFormatCapsTable
 [
 id
@@ -1400,6 +1405,7 @@ channels
 1U
 )
 ;
+}
 }
 void
 FormatTable

@@ -193,6 +193,15 @@ third_party
 /
 dawn
 "
+angle_partition_alloc_dir
+=
+"
+/
+/
+third_party
+/
+partition_alloc
+"
 #
 Embedder
 override

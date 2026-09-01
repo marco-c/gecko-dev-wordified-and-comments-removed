@@ -185,8 +185,14 @@ integerDotProductAccelerationProperties4x8BitPacked
 ExternalMemoryHandleBitset
 externalMemoryHandleSupport
 ;
+ExternalMemoryHandleBitset
+externalMemoryLinearImagesHandleSupport
+;
 ExternalMemoryHandleFixedVector
 externalMemoryHandleSupportList
+;
+ExternalMemoryHandleFixedVector
+externalMemoryLinearImagesHandleSupportList
 ;
 SupportedDepthOrderTypes
 supportedDepthOrderTypes

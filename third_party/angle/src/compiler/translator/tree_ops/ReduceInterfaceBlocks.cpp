@@ -310,6 +310,12 @@ symbolType
 )
 )
 ;
+structure
+.
+setImplementingInterfaceBlock
+(
+)
+;
 auto
 &
 structVar

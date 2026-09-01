@@ -80,8 +80,6 @@ level
 GLenum
 internalformat
 bool
-isCompressed
-bool
 isSubImage
 GLint
 xoffset
@@ -101,12 +99,13 @@ GLenum
 format
 GLenum
 type
-GLsizei
-imageSize
 const
 void
 *
 pixels
+GLuint
+*
+outImageSize
 )
 ;
 bool

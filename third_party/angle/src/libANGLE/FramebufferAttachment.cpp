@@ -1587,7 +1587,10 @@ getAttachmentRenderTarget
 (
 context
 binding
+OwnImageIndex
+(
 imageIndex
+)
 samples
 rtOut
 )
@@ -1690,7 +1693,10 @@ initializeContents
 (
 context
 binding
+OwnImageIndex
+(
 fullMipIndex
+)
 )
 ;
 }
@@ -1706,7 +1712,10 @@ initializeContents
 (
 context
 binding
+OwnImageIndex
+(
 imageIndex
+)
 )
 ;
 }

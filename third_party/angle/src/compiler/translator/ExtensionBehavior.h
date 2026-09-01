@@ -43,6 +43,7 @@ EXT_draw_buffers
 EXT_frag_depth
 EXT_fragment_shading_rate
 EXT_fragment_shading_rate_primitive
+EXT_geometry_point_size
 EXT_geometry_shader
 EXT_gpu_shader5
 EXT_primitive_bounding_box
@@ -53,6 +54,7 @@ EXT_shader_io_blocks
 EXT_shader_non_constant_global_initializers
 EXT_shader_texture_lod
 EXT_shadow_samplers
+EXT_tessellation_point_size
 EXT_tessellation_shader
 EXT_texture_buffer
 EXT_texture_cube_map_array
@@ -65,6 +67,7 @@ NV_fragment_shader_interlock
 NV_shader_noperspective_interpolation
 OES_EGL_image_external
 OES_EGL_image_external_essl3
+OES_geometry_point_size
 OES_geometry_shader
 OES_gpu_shader5
 OES_primitive_bounding_box
@@ -73,6 +76,7 @@ OES_shader_image_atomic
 OES_shader_io_blocks
 OES_shader_multisample_interpolation
 OES_standard_derivatives
+OES_tessellation_point_size
 OES_tessellation_shader
 OES_texture_3D
 OES_texture_buffer
@@ -80,7 +84,6 @@ OES_texture_cube_map_array
 OES_texture_storage_multisample_2d_array
 OVR_multiview
 OVR_multiview2
-WEBGL_video_texture
 }
 ;
 enum

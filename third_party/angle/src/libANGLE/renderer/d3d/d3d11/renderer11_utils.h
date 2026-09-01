@@ -5,14 +5,6 @@ LIBANGLE_RENDERER_D3D_D3D11_RENDERER11_UTILS_H_
 define
 LIBANGLE_RENDERER_D3D_D3D11_RENDERER11_UTILS_H_
 #
-ifdef
-UNSAFE_BUFFERS_BUILD
-#
-pragma
-allow_unsafe_buffers
-#
-endif
-#
 include
 <
 array
@@ -27,6 +19,15 @@ include
 <
 vector
 >
+#
+include
+"
+common
+/
+unsafe_buffers
+.
+h
+"
 #
 include
 "
@@ -1230,6 +1231,8 @@ result
 )
 )
 {
+ANGLE_UNSAFE_TODO
+(
 memcpy
 (
 mappedResource
@@ -1240,6 +1243,7 @@ value
 sizeof
 (
 T
+)
 )
 )
 ;

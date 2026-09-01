@@ -92,6 +92,8 @@ const
 ShCompileOptions
 &
 compileOptions
+bool
+removeInvariant
 )
 ;
 ShShaderOutput
@@ -106,6 +108,15 @@ mOutput
 }
 ImmutableString
 hashName
+(
+const
+TSymbol
+*
+symbol
+)
+;
+ImmutableString
+hashBlockName
 (
 const
 TSymbol
@@ -642,6 +653,9 @@ mHashFunction
 char
 mUserVariablePrefix
 ;
+char
+mUserBlockPrefix
+;
 NameMap
 &
 mNameMap
@@ -661,6 +675,9 @@ mOutput
 ;
 bool
 mAlwaysSpecifyFragOutLocation
+;
+bool
+mRemoveInvariant
 ;
 const
 ShCompileOptions

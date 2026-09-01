@@ -78,7 +78,7 @@ const
 gl
 :
 :
-ImageIndex
+OwnImageIndex
 &
 imageIndex
 GLsizei
@@ -109,7 +109,7 @@ const
 gl
 :
 :
-ImageIndex
+OwnImageIndex
 &
 imageIndex
 )
@@ -139,7 +139,7 @@ const
 gl
 :
 :
-ImageIndex
+OwnImageIndex
 &
 imageIndex
 GLsizei
@@ -187,7 +187,7 @@ const
 gl
 :
 :
-ImageIndex
+OwnImageIndex
 &
 imageIndex
 )

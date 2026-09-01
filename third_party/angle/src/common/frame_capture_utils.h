@@ -323,6 +323,17 @@ arrayClientPointerIndex
 -
 1
 ;
+int
+arrayClientPointerMergedIndex
+=
+-
+1
+;
+int
+arrayClientPointerOffset
+=
+0
+;
 size_t
 readBufferSizeBytes
 =
