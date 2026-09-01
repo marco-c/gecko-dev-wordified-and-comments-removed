@@ -408,7 +408,9 @@ standard
 type
 )
 the
-older
+text
+/
+jsonl
 /
 /
 application
@@ -420,11 +422,12 @@ application
 x
 -
 ndjson
+alternate
 spellings
+/
+/
 or
 a
-/
-/
 .
 jsonl
 file
@@ -437,6 +440,8 @@ or
 without
 any
 )
+/
+/
 content
 type
 .
@@ -445,6 +450,14 @@ isJsonlines
 =
 /
 ^
+(
+?
+:
+text
+\
+/
+jsonl
+|
 application
 \
 /
@@ -458,6 +471,7 @@ jsonlines
 x
 -
 ndjson
+)
 )
 /
 .

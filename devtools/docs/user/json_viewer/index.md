@@ -76,6 +76,9 @@ as
 application
 /
 jsonl
+text
+/
+jsonl
 application
 /
 jsonlines

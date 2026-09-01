@@ -815,6 +815,11 @@ application
 ?
 json
 |
+text
+\
+/
+jsonl
+|
 application
 \
 /
@@ -892,6 +897,11 @@ application
 )
 ?
 json
+|
+text
+\
+/
+jsonl
 |
 application
 \
