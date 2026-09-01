@@ -274,6 +274,12 @@ UDISPCTX_CAPITALIZATION_FOR_STANDALONE
 status
 )
 ;
+closeNumberFormatter
+.
+forget
+(
+)
+;
 if
 (
 U_FAILURE
@@ -292,12 +298,6 @@ status
 )
 ;
 }
-closeNumberFormatter
-.
-forget
-(
-)
-;
 UniquePtr
 <
 RelativeTimeFormat
