@@ -641,6 +641,9 @@ defined
 (
 __wasi__
 )
+(
+void
+)
 mValue
 .
 load
