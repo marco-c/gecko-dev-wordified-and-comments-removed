@@ -2915,6 +2915,8 @@ aSrcIndex
 const
 uint8_t
 *
+&
+&
 aFontData
 uint32_t
 aLength
@@ -2933,6 +2935,8 @@ aSrcIndex
 const
 uint8_t
 *
+&
+&
 aFontData
 uint32_t
 aLength
@@ -2946,6 +2950,8 @@ aSrcIndex
 const
 uint8_t
 *
+&
+&
 aFontData
 uint32_t
 aLength
@@ -2962,6 +2968,8 @@ aSrcIndex
 const
 uint8_t
 *
+&
+&
 aFontData
 uint32_t
 aLength
@@ -2980,6 +2988,8 @@ aSrcIndex
 const
 uint8_t
 *
+&
+&
 aOriginalFontData
 uint32_t
 aOriginalLength
@@ -2988,6 +2998,8 @@ aFontType
 const
 uint8_t
 *
+&
+&
 aSanitizedFontData
 uint32_t
 aSanitizedLength
@@ -3013,6 +3025,8 @@ aSrcIndex
 const
 uint8_t
 *
+&
+&
 aOriginalFontData
 uint32_t
 aOriginalLength
@@ -3021,6 +3035,8 @@ aFontType
 const
 uint8_t
 *
+&
+&
 aSanitizedFontData
 uint32_t
 aSanitizedLength
@@ -3157,6 +3173,12 @@ RefPtr
 gfxFontSrcPrincipal
 >
 mPrincipal
+;
+RefPtr
+<
+FontData
+>
+mFontData
 ;
 }
 ;

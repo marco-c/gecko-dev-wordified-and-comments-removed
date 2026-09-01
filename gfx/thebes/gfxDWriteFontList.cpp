@@ -5007,12 +5007,9 @@ WidthRange
 aWidthForEntry
 SlantStyleRange
 aStyleForEntry
-const
-uint8_t
+FontData
 *
 aFontData
-uint32_t
-aLength
 )
 {
 RefPtr
@@ -5036,7 +5033,6 @@ gfxDWriteFontFileLoader
 CreateCustomFontFile
 (
 aFontData
-aLength
 getter_AddRefs
 (
 fontFile
@@ -5045,15 +5041,6 @@ getter_AddRefs
 (
 fontFileStream
 )
-)
-;
-free
-(
-(
-void
-*
-)
-aFontData
 )
 ;
 NS_ASSERTION
