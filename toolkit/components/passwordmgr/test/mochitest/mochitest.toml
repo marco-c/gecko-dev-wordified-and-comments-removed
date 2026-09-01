@@ -1528,6 +1528,15 @@ html
 "
 test_autofill_username
 -
+only_aria_label
+.
+html
+"
+]
+[
+"
+test_autofill_username
+-
 only_threshold
 .
 html
