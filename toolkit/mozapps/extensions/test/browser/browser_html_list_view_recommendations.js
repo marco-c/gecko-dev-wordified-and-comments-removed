@@ -1269,6 +1269,17 @@ popupId
 }
 )
 ;
+await
+BrowserTestUtils
+.
+waitForPopupEvent
+(
+panel
+"
+shown
+"
+)
+;
 panel
 .
 firstElementChild
