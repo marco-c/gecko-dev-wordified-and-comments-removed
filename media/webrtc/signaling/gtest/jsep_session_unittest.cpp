@@ -518,15 +518,13 @@ Init
 )
 )
 ;
-std
-:
-:
-vector
+AutoTArray
 <
 UniquePtr
 <
 JsepCodecDescription
 >
+16
 >
 preferredCodecs
 ;
