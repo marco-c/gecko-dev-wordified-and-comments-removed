@@ -134,3 +134,10 @@ browser_searchModeSwitcher
 js
 "
 ]
+[
+"
+browser_viewBounds
+.
+js
+"
+]
