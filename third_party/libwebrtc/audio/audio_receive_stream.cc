@@ -1017,7 +1017,7 @@ receiver_controller
 RTC_DCHECK_RUN_ON
 (
 &
-packet_sequence_checker_
+worker_thread_checker_
 )
 ;
 RTC_DCHECK
@@ -1055,7 +1055,7 @@ UnregisterFromTransport
 RTC_DCHECK_RUN_ON
 (
 &
-packet_sequence_checker_
+worker_thread_checker_
 )
 ;
 rtp_stream_receiver_
@@ -2577,7 +2577,7 @@ sync_group
 RTC_DCHECK_RUN_ON
 (
 &
-packet_sequence_checker_
+worker_thread_checker_
 )
 ;
 config_
@@ -2610,7 +2610,7 @@ const
 RTC_DCHECK_RUN_ON
 (
 &
-packet_sequence_checker_
+worker_thread_checker_
 )
 ;
 return

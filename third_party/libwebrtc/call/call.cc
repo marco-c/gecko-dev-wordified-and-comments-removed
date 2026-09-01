@@ -4771,9 +4771,12 @@ audio_receiver_controller_
 ;
 ConfigureSync
 (
-config
-.
+receive_stream
+-
+>
 sync_group
+(
+)
 )
 ;
 UpdateAggregateNetworkState

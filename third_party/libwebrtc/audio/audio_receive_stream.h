@@ -778,16 +778,6 @@ RTC_NO_UNIQUE_ADDRESS
 SequenceChecker
 worker_thread_checker_
 ;
-RTC_NO_UNIQUE_ADDRESS
-SequenceChecker
-packet_sequence_checker_
-{
-SequenceChecker
-:
-:
-kDetached
-}
-;
 webrtc
 :
 :
@@ -839,7 +829,7 @@ RtpStreamReceiverInterface
 rtp_stream_receiver_
 RTC_GUARDED_BY
 (
-packet_sequence_checker_
+worker_thread_checker_
 )
 ;
 }
