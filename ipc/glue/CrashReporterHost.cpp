@@ -532,7 +532,13 @@ Annotation
 CrashEventID
 ]
 =
+std
+:
+:
+move
+(
 uuidString
+)
 ;
 }
 char
