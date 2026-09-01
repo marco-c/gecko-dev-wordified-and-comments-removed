@@ -85,16 +85,6 @@ androidx
 .
 test
 .
-espresso
-.
-Espresso
-.
-closeSoftKeyboard
-import
-androidx
-.
-test
-.
 uiautomator
 .
 By
@@ -519,7 +509,7 @@ can
 cover
 it
 .
-closeSoftKeyboard
+dismissSoftKeyboard
 (
 )
 mozClick
