@@ -33,13 +33,6 @@ android
 ]
 [
 "
-test_AITabStore
-.
-js
-"
-]
-[
-"
 test_AutoTabGrouping
 .
 js
