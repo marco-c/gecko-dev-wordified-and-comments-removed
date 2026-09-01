@@ -635,6 +635,13 @@ js
 ]
 [
 "
+browser_aiwindow_monitor_button
+.
+js
+"
+]
+[
+"
 browser_aiwindow_monitor_create
 .
 js
