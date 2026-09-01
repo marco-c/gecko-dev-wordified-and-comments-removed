@@ -4428,6 +4428,7 @@ DocumentOrShadowRoot
 GetCustomElementRegistry
 (
 )
+const
 {
 if
 (
@@ -4474,6 +4475,7 @@ registry
 ;
 }
 }
+const
 Document
 *
 doc
@@ -4527,6 +4529,7 @@ IsShadowRoot
 )
 )
 ;
+const
 ShadowRoot
 *
 root

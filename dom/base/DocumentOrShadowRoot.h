@@ -784,6 +784,7 @@ CustomElementRegistry
 GetCustomElementRegistry
 (
 )
+const
 ;
 protected
 :

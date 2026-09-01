@@ -1185,6 +1185,7 @@ CustomElementRegistry
 GetCustomElementRegistry
 (
 )
+const
 ;
 void
 GetEventTargetParent
