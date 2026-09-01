@@ -185,6 +185,16 @@ aSelection
 )
 )
 ;
+if
+(
+!
+acc
+)
+{
+return
+nullptr
+;
+}
 Accessible
 *
 selectedItem
