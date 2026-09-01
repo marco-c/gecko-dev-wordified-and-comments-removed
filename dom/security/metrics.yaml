@@ -2865,6 +2865,9 @@ com
 expires
 :
 never
+telemetry_mirror
+:
+HTTPS_ONLY_MODE_UPGRADE_TIME_MS
 https_only_mode_upgrade_type
 :
 type
@@ -3062,6 +3065,9 @@ com
 expires
 :
 never
+telemetry_mirror
+:
+HTTPS_ONLY_MODE_UPGRADE_TYPE
 mixed_content
 :
 page_load
