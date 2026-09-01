@@ -133,14 +133,6 @@ FullScreenWindowDetector
 =
 delete
 ;
-void
-SetHeuristicForFindingEditor
-(
-bool
-use_heuristic
-)
-{
-}
 DesktopCapturer
 :
 :
