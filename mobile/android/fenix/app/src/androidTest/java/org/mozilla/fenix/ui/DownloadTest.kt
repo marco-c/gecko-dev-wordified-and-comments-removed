@@ -1218,7 +1218,7 @@ openThreeDotMenu
 .
 clickDownloadsButton
 {
-verifyEmptyDownloadsList
+verifyEmptyDownloadsListAfterCancel
 (
 )
 }
