@@ -19,6 +19,12 @@ make_ref_counted
 h
 "
 #
+if
+defined
+(
+WEBRTC_USE_X11
+)
+#
 include
 "
 modules
@@ -33,6 +39,8 @@ shared_x_display
 .
 h
 "
+#
+endif
 #
 if
 defined
