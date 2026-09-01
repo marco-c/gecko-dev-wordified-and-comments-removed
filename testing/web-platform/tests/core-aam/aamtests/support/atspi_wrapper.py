@@ -908,12 +908,6 @@ test_url
                             
 return
 tab
-                        
-else
-:
-                            
-return
-None
                 
 continue
             
