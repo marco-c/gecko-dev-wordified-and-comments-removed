@@ -162,6 +162,10 @@ isReaderable
 :
 boolean
 ;
+isGated
+:
+boolean
+;
 }
 ;
 export
