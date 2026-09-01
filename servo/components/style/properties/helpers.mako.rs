@@ -5097,6 +5097,13 @@ v
 }
 )
 }
+%
+if
+not
+shorthand
+.
+derive_serialize
+:
 impl
 <
 '
@@ -5160,6 +5167,8 @@ dest
 )
 }
 }
+%
+endif
 <
 /
 %
