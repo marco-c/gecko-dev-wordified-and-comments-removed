@@ -1169,7 +1169,12 @@ GlobalRefCountExport
 (
 )
 ;
-void
+[
+[
+nodiscard
+]
+]
+bool
 ReleaseDMABuf
 (
 )
@@ -1235,7 +1240,7 @@ DMABufDeviceLock
 aDeviceLock
 )
 ;
-void
+bool
 CloseFileDescriptors
 (
 )
