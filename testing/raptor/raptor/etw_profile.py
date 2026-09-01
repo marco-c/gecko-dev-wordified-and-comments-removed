@@ -124,6 +124,23 @@ googleapis
 com
 "
 )
+MICROSOFT_SYMBOL_SERVER
+=
+"
+https
+:
+/
+/
+msdl
+.
+microsoft
+.
+com
+/
+download
+/
+symbols
+"
 class
 ETWProfile
 (
@@ -1462,6 +1479,18 @@ mozilla
 org
 /
 "
+            
+"
+-
+-
+windows
+-
+symbol
+-
+server
+"
+            
+MICROSOFT_SYMBOL_SERVER
         
 ]
         
