@@ -1056,6 +1056,7 @@ checkForLaunchOnLogin
 {
 if
 (
+!
 lazy
 .
 LaunchOnLogin
