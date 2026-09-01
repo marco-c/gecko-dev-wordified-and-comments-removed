@@ -2257,7 +2257,6 @@ ListString
 typename
 ItemString
 >
-static
 bool
 StringListContains
 (
