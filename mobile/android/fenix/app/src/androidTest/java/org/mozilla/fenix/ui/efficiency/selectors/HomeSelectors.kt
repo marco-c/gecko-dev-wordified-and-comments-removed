@@ -646,15 +646,6 @@ privateBrowsingHomeScreen
 Suppress
 (
 "
-ktlint
-:
-standard
-:
-function
--
-naming
-"
-"
 FunctionName
 "
 )

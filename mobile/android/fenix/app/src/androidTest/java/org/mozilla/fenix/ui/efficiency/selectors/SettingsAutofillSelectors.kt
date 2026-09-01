@@ -782,15 +782,6 @@ deleteAddress
 Suppress
 (
 "
-ktlint
-:
-standard
-:
-function
--
-naming
-"
-"
 FunctionName
 "
 )

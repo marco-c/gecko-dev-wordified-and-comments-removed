@@ -72,7 +72,7 @@ q
 \
 checkstyle
 \
-ktlint
+ktfmtCheck
 \
 pmd
 \

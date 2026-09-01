@@ -297,15 +297,6 @@ engineName
 Suppress
 (
 "
-ktlint
-:
-standard
-:
-function
--
-naming
-"
-"
 FunctionName
 "
 )

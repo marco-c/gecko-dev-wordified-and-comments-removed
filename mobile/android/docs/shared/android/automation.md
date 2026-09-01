@@ -371,7 +371,7 @@ detekt
 )
 *
 [
-ktlint
+ktfmt
 ]
 (
 https
@@ -382,9 +382,9 @@ github
 .
 com
 /
-shyiko
+Kotlin
 /
-ktlint
+ktfmt
 )
 For
 projects

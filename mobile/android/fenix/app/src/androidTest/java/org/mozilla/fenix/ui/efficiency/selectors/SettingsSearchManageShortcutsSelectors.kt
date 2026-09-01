@@ -224,15 +224,6 @@ node
 Suppress
 (
 "
-ktlint
-:
-standard
-:
-function
--
-naming
-"
-"
 FunctionName
 "
 )

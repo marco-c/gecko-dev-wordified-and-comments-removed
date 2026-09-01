@@ -286,15 +286,6 @@ requiredForPage
 Suppress
 (
 "
-ktlint
-:
-standard
-:
-function
--
-naming
-"
-"
 FunctionName
 "
 )

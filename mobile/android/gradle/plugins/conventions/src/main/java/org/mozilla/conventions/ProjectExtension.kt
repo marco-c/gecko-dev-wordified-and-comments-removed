@@ -103,13 +103,6 @@ Property
 Boolean
 >
 val
-ktlintSourcePaths
-:
-ListProperty
-<
-String
->
-val
 ktfmtSourcePaths
 :
 ListProperty

@@ -196,10 +196,6 @@ jsshell
 .
 yml
 -
-ktlint
-.
-yml
--
 mozlint
 .
 yml

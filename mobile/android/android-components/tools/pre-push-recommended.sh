@@ -135,7 +135,7 @@ gradlew
 -
 q
 \
-ktlint
+ktfmtCheck
 \
 detekt
 \

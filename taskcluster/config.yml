@@ -2886,14 +2886,6 @@ detekt
 linter
 '
 '
-ktlint
-'
-:
-'
-ktlint
-linter
-'
-'
 lint
 '
 :
