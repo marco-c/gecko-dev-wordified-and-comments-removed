@@ -898,7 +898,7 @@ Assert
 .
 deepEqual
 (
-UrlbarUtils
+UrlbarShared
 .
 getTokenMatches
 (
@@ -1253,7 +1253,7 @@ Assert
 .
 deepEqual
 (
-UrlbarUtils
+UrlbarShared
 .
 getTokenMatches
 (
@@ -1394,7 +1394,7 @@ Assert
 .
 deepEqual
 (
-UrlbarUtils
+UrlbarShared
 .
 getTokenMatches
 (
@@ -1500,7 +1500,7 @@ Assert
 .
 deepEqual
 (
-UrlbarUtils
+UrlbarShared
 .
 getTokenMatches
 (
@@ -1540,7 +1540,7 @@ Assert
 .
 deepEqual
 (
-UrlbarUtils
+UrlbarShared
 .
 getTokenMatches
 (

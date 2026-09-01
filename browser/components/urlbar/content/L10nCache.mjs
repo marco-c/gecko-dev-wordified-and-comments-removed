@@ -1918,7 +1918,7 @@ highlights
 as
 returned
 by
-UrlbarUtils
+UrlbarShared
 .
 getTokenMatches
 (

@@ -2539,9 +2539,7 @@ map
 subval
 =
 >
-lazy
-.
-UrlbarUtils
+UrlbarShared
 .
 getTokenMatches
 (
@@ -2553,9 +2551,7 @@ highlightType
 )
 )
 :
-lazy
-.
-UrlbarUtils
+UrlbarShared
 .
 getTokenMatches
 (
