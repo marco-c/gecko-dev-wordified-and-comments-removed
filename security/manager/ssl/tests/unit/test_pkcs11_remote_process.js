@@ -627,6 +627,13 @@ throw
 )
 ;
 await
+testToken
+.
+reset
+(
+)
+;
+await
 moduleDB
 .
 deleteModule
