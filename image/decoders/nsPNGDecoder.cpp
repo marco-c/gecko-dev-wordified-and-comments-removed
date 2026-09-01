@@ -4875,6 +4875,16 @@ type
 )
 "
 )
+|
+|
+strstr
+(
+error_msg
+"
+CRC
+error
+"
+)
 )
 {
 decoder
