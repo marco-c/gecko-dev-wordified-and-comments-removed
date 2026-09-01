@@ -5002,6 +5002,15 @@ topWc
 IsDiscarded
 (
 )
+&
+&
+!
+topWc
+-
+>
+GetSHEntryHasUserInteraction
+(
+)
 )
 {
 MOZ_ALWAYS_SUCCEEDS
