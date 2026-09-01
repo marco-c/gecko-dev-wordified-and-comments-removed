@@ -2028,7 +2028,7 @@ UrlbarShared
 .
 RESULT_SOURCE
 .
-BOOKMARK
+BOOKMARKS
 }
 )
 }
