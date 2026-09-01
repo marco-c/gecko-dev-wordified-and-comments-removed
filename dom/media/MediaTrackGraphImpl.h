@@ -1174,7 +1174,7 @@ NS_IsMainThread
 )
 &
 &
-LifecycleStateRef
+LifecycleState
 (
 )
 >
@@ -2263,10 +2263,8 @@ MOZ_GUARDED_BY
 mMonitor
 )
 ;
-const
 LifecycleState
-&
-LifecycleStateRef
+LifecycleState
 (
 )
 const
