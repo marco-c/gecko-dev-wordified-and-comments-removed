@@ -8908,6 +8908,7 @@ event
 ;
 }
 else
+{
 if
 (
 state
@@ -8936,6 +8937,14 @@ else
 this
 .
 openFxAEmailFirstPageFromFxaMenu
+(
+anchor
+)
+;
+}
+CustomizableUI
+.
+hidePanelForNode
 (
 anchor
 )
