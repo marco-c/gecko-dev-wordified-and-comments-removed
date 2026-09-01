@@ -1452,6 +1452,16 @@ All
 SameContainingBlockOnly
 }
 ;
+enum
+class
+ApplyTransform
+:
+bool
+{
+No
+Yes
+}
+;
 static
 CombinedFragments
 GetCombinedFragmentRects
@@ -1466,6 +1476,8 @@ nsIFrame
 aContainingBlock
 UnionFragments
 aUnionFragments
+ApplyTransform
+aApplyTransform
 )
 ;
 static
