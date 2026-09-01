@@ -351,15 +351,6 @@ GetOrCreateAccService
 ;
 }
 else
-if
-(
-PlatformDisabledState
-(
-)
-!
-=
-ePlatformIsForceEnabled
-)
 {
 MaybeShutdownAccService
 (

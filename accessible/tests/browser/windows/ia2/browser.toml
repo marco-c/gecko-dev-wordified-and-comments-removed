@@ -130,13 +130,6 @@ js
 ]
 [
 "
-browser_forceEnabled
-.
-js
-"
-]
-[
-"
 browser_groupPosition
 .
 js
