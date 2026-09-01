@@ -36157,7 +36157,13 @@ originInfo
 LockedUsage
 (
 )
+static_cast
+<
+uint64_t
+>
+(
 mTemporaryStorageLimit
+)
 )
 ;
 }
@@ -37995,7 +38001,7 @@ temporaryStorageLimit
 mTemporaryStorageLimit
 doomedUsage
 =
-uint64_t
+int64_t
 {
 0
 }

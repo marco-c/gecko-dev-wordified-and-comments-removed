@@ -927,7 +927,7 @@ if
 sizeToBeFreed
 )
 {
-uint64_t
+int64_t
 usage
 =
 quotaManager

@@ -4474,10 +4474,10 @@ BoolPromise
 >
 mInitializeAllTemporaryOriginsPromiseHolder
 ;
-uint64_t
+int64_t
 mTemporaryStorageLimit
 ;
-uint64_t
+int64_t
 mTemporaryStorageUsage
 ;
 int64_t
