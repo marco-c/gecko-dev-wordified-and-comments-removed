@@ -87,8 +87,6 @@ gre
 /
 modules
 /
-launchonlogin
-/
 WindowsLaunchOnLogin
 .
 sys

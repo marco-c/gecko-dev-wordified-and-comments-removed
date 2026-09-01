@@ -867,7 +867,7 @@ sys
 .
 mjs
 "
-LaunchOnLogin
+WindowsLaunchOnLogin
 :
 "
 resource
@@ -878,7 +878,7 @@ gre
 /
 modules
 /
-LaunchOnLogin
+WindowsLaunchOnLogin
 .
 sys
 .
@@ -6773,9 +6773,9 @@ CONFIRM_LAUNCH_ON_LOGIN
 await
 lazy
 .
-LaunchOnLogin
+WindowsLaunchOnLogin
 .
-enable
+createLaunchOnLogin
 (
 )
 ;
@@ -6789,9 +6789,9 @@ REMOVE_LAUNCH_ON_LOGIN
 await
 lazy
 .
-LaunchOnLogin
+WindowsLaunchOnLogin
 .
-disable
+removeLaunchOnLogin
 (
 )
 ;

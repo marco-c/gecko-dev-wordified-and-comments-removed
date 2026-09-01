@@ -419,9 +419,6 @@ DIRS
 =
 [
 "
-defaultlaunchonlogin
-"
-"
 touchbar
 "
 ]
@@ -443,7 +440,7 @@ DIRS
 =
 [
 "
-defaultlaunchonlogin
+defaultwindowslaunchonlogin
 "
 "
 installerprefs
