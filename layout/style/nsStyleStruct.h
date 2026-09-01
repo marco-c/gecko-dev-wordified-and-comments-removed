@@ -971,9 +971,10 @@ operator
 const
 Layer
 &
-aOther
 )
 const
+=
+default
 ;
 }
 ;
@@ -6933,9 +6934,10 @@ operator
 const
 StyleTransition
 &
-aOther
 )
 const
+=
+default
 ;
 private
 :
@@ -7165,9 +7167,10 @@ operator
 const
 StyleAnimation
 &
-aOther
 )
 const
+=
+default
 ;
 private
 :
