@@ -215,6 +215,7 @@ end
 )
 {
 }
+HB_AAT_TRANSITION_INLINE
 void
 transition
 (
@@ -973,6 +974,7 @@ substitutionTables
 )
 {
 }
+HB_AAT_TRANSITION_INLINE
 void
 transition
 (
@@ -2141,6 +2143,7 @@ match_length
 )
 {
 }
+HB_AAT_TRANSITION_INLINE
 void
 transition
 (
@@ -3540,6 +3543,7 @@ insertionAction
 )
 {
 }
+HB_AAT_TRANSITION_INLINE
 void
 transition
 (

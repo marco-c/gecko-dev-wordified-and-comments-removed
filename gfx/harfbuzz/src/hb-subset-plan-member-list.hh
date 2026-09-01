@@ -78,6 +78,14 @@ glyph_map_gsub
 )
 HB_SUBSET_PLAN_MEMBER
 (
+hb_vector_t
+<
+hb_codepoint_t
+>
+glyph_map_gsub_flat
+)
+HB_SUBSET_PLAN_MEMBER
+(
 hb_set_t
 _glyphset
 )

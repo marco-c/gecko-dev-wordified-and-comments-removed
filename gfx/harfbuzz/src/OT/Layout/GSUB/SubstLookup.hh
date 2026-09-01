@@ -1143,7 +1143,7 @@ hb_depend_context_t
 c
 unsigned
 lookup_index
-hb_set_t
+hb_bit_page_t
 *
 covered_seq_indices
 unsigned
@@ -1165,7 +1165,7 @@ hb_depend_context_t
 c
 unsigned
 lookup_index
-hb_set_t
+hb_bit_page_t
 *
 covered_seq_indices
 unsigned

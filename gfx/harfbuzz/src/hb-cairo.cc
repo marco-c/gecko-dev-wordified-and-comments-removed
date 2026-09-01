@@ -2182,6 +2182,11 @@ font_matrix
 hb_font_set_scale
 (
 font
+hb_clamp_to
+<
+int32_t
+>
+(
 round
 (
 font_matrix
@@ -2190,6 +2195,12 @@ xx
 *
 scale_factor
 )
+)
+hb_clamp_to
+<
+int32_t
+>
+(
 round
 (
 font_matrix
@@ -2197,6 +2208,7 @@ font_matrix
 yy
 *
 scale_factor
+)
 )
 )
 ;
@@ -2305,10 +2317,10 @@ extents
 >
 descent
 =
+-
 (
 double
 )
--
 hb_extents
 .
 descender
@@ -3341,7 +3353,7 @@ y_scale_factor
 0
 .
 ;
-hb_position_t
+double
 hx
 =
 0
@@ -3401,7 +3413,9 @@ x
 x
 +
 (
-+
+(
+double
+)
 hb_position
 -
 >
@@ -3426,6 +3440,9 @@ y
 +
 (
 -
+(
+double
+)
 hb_position
 -
 >
@@ -3445,9 +3462,8 @@ hb_position
 x_advance
 ;
 hy
-+
-=
 -
+=
 hb_position
 -
 >
