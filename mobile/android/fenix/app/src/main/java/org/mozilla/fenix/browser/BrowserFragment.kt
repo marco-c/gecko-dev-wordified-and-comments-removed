@@ -1200,7 +1200,7 @@ requireComponents
 .
 core
 .
-summarizationSettings
+summarizationSettingsBinding
 eligibilityChecker
 =
 requireComponents
@@ -1643,7 +1643,7 @@ requireComponents
 .
 core
 .
-summarizationSettings
+summarizationSettingsBinding
 .
 isGestureEnabled
 .
@@ -1712,7 +1712,7 @@ requireComponents
 .
 core
 .
-summarizationSettings
+summarizationSettingsBinding
 .
 shakeSensitivity
 .

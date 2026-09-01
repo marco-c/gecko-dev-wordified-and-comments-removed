@@ -3913,7 +3913,7 @@ components
 .
 core
 .
-summarizationSettings
+summarizationSettingsBinding
 translationsAIControllableFeatureRegistrar
 ipProtectionPrompter
 )

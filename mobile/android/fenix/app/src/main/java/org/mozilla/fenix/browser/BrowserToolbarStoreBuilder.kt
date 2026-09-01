@@ -835,7 +835,7 @@ components
 .
 core
 .
-summarizationSettings
+summarizationSettingsBinding
 eligibilityChecker
 =
 components
