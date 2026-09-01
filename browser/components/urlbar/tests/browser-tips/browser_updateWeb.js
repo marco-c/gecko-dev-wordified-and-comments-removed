@@ -115,9 +115,9 @@ SEARCH_STRINGS
 UPDATE
 tip
 :
-UrlbarProviderInterventions
+UrlbarShared
 .
-TIP_TYPE
+INTERVENTION_TIP_TYPE
 .
 UPDATE_WEB
 title

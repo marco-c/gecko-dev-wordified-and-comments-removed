@@ -2277,9 +2277,9 @@ expectedTip
 )
 {
 case
-UrlbarProviderSearchTips
+UrlbarShared
 .
-TIP_TYPE
+SEARCH_TIP_TYPE
 .
 ONBOARD
 :
@@ -2309,9 +2309,9 @@ bar
 break
 ;
 case
-UrlbarProviderSearchTips
+UrlbarShared
 .
-TIP_TYPE
+SEARCH_TIP_TYPE
 .
 REDIRECT
 :
@@ -2991,9 +2991,9 @@ urlbar
 tipShownCount
 .
 {
-UrlbarProviderSearchTips
+UrlbarShared
 .
-TIP_TYPE
+SEARCH_TIP_TYPE
 .
 ONBOARD
 }
@@ -3012,9 +3012,9 @@ urlbar
 tipShownCount
 .
 {
-UrlbarProviderSearchTips
+UrlbarShared
 .
-TIP_TYPE
+SEARCH_TIP_TYPE
 .
 REDIRECT
 }
