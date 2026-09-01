@@ -1132,7 +1132,7 @@ npm
 run
 testmc
 :
-build
+jest
 -
 -
 prefix

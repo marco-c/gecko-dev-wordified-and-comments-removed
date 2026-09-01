@@ -222,13 +222,6 @@ lint
 =
 >
 lint
-build
-:
-=
->
-bundle
-:
-webpack
 jest
 :
 jest
