@@ -93,7 +93,7 @@ color
 -
 scheme
 -
-simulation
+emulation
 -
 light
 -
@@ -116,7 +116,7 @@ color
 -
 scheme
 -
-simulation
+emulation
 -
 dark
 -
@@ -164,7 +164,7 @@ that
 the
 color
 scheme
-simulation
+emulation
 buttons
 exist
 "
@@ -191,7 +191,7 @@ color
 -
 scheme
 -
-simulation
+emulation
 -
 light
 "
@@ -212,7 +212,7 @@ color
 -
 scheme
 -
-simulation
+emulation
 -
 dark
 "
@@ -233,7 +233,7 @@ color
 -
 scheme
 -
-simulation
+emulation
 -
 none
 "
@@ -247,7 +247,7 @@ The
 light
 color
 scheme
-simulation
+emulation
 radio
 button
 exists
@@ -262,7 +262,7 @@ The
 dark
 color
 scheme
-simulation
+emulation
 radio
 button
 exists
@@ -275,7 +275,7 @@ noEmulationRadioButton
 "
 The
 no
-simulation
+emulation
 radio
 button
 exists
@@ -535,7 +535,7 @@ oppositeScheme
 }
 button
 to
-simulate
+emulate
 the
 opposite
 color
@@ -652,7 +652,7 @@ iframeHasOppositeSchemeStyling
 )
 "
 The
-simulation
+emulation
 is
 also
 applied
@@ -795,7 +795,7 @@ button
 again
 to
 disable
-simulation
+emulation
 )
 ;
 buttonToReset
@@ -899,7 +899,7 @@ ok
 true
 "
 The
-simulation
+emulation
 stopped
 on
 the
@@ -919,7 +919,7 @@ reloading
 keeps
 the
 selected
-simulation
+emulation
 "
 )
 ;
@@ -999,7 +999,7 @@ color
 scheme
 is
 still
-simulated
+emulated
 after
 reloading
 the
@@ -1077,7 +1077,7 @@ ok
 (
 true
 "
-Simulation
+Emulation
 is
 still
 applied
@@ -1199,7 +1199,7 @@ oppositeScheme
 radio
 button
 to
-simulate
+emulate
 the
 opposite
 color
@@ -1315,7 +1315,7 @@ emulation
 radio
 button
 to
-simulate
+emulate
 the
 opposite
 color
@@ -1491,7 +1491,7 @@ defaultPrefersDark
 "
 Color
 scheme
-simulation
+emulation
 is
 disabled
 after
@@ -1568,7 +1568,7 @@ color
 -
 scheme
 -
-simulation
+emulation
 -
 light
 -
@@ -1591,7 +1591,7 @@ color
 -
 scheme
 -
-simulation
+emulation
 -
 dark
 -
@@ -1614,7 +1614,7 @@ color
 -
 scheme
 -
-simulation
+emulation
 -
 light
 "
@@ -1635,7 +1635,7 @@ color
 -
 scheme
 -
-simulation
+emulation
 -
 dark
 "
@@ -1656,7 +1656,7 @@ color
 -
 scheme
 -
-simulation
+emulation
 -
 none
 "

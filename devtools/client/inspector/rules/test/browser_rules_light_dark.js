@@ -462,7 +462,7 @@ info
 Enable
 light
 mode
-simulation
+emulation
 if
 needed
 "
@@ -548,7 +548,7 @@ color
 -
 scheme
 -
-simulation
+emulation
 -
 light
 "
@@ -603,7 +603,7 @@ info
 Trigger
 dark
 mode
-simulation
+emulation
 "
 )
 ;
@@ -635,7 +635,7 @@ color
 -
 scheme
 -
-simulation
+emulation
 -
 dark
 -

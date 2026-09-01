@@ -5,8 +5,8 @@ strict
 ;
 const
 {
-SET_COLOR_SCHEME_SIMULATION
-SET_PRINT_SIMULATION_ENABLED
+SET_COLOR_SCHEME_EMULATION
+SET_PRINT_EMULATION_ENABLED
 SET_REDUCED_MOTION_EMULATION
 }
 =
@@ -37,10 +37,10 @@ const
 INITIAL_EMULATION_STATE
 =
 {
-colorSchemeSimulation
+colorSchemeEmulation
 :
 null
-printSimulationEnabled
+printEmulationEnabled
 :
 false
 reducedMotionEmulation
@@ -65,7 +65,7 @@ type
 )
 {
 case
-SET_COLOR_SCHEME_SIMULATION
+SET_COLOR_SCHEME_EMULATION
 :
 return
 {
@@ -73,7 +73,7 @@ return
 .
 .
 state
-colorSchemeSimulation
+colorSchemeEmulation
 :
 action
 .
@@ -81,7 +81,7 @@ colorScheme
 }
 ;
 case
-SET_PRINT_SIMULATION_ENABLED
+SET_PRINT_EMULATION_ENABLED
 :
 return
 {
@@ -89,11 +89,11 @@ return
 .
 .
 state
-printSimulationEnabled
+printEmulationEnabled
 :
 action
 .
-enabled
+printEmulationEnabled
 }
 ;
 case
@@ -109,7 +109,7 @@ reducedMotionEmulation
 :
 action
 .
-reducedMotion
+enabled
 }
 ;
 default

@@ -2926,7 +2926,7 @@ light
 -
 mode
 -
-simulation
+emulation
 .
 svg
 (
@@ -2942,7 +2942,7 @@ light
 -
 mode
 -
-simulation
+emulation
 .
 svg
 )
@@ -2958,7 +2958,7 @@ dark
 -
 mode
 -
-simulation
+emulation
 .
 svg
 (
@@ -2974,7 +2974,7 @@ dark
 -
 mode
 -
-simulation
+emulation
 .
 svg
 )

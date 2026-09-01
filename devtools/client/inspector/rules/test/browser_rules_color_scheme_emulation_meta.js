@@ -96,7 +96,7 @@ color
 -
 scheme
 -
-simulation
+emulation
 -
 light
 -
@@ -119,7 +119,7 @@ color
 -
 scheme
 -
-simulation
+emulation
 -
 dark
 -

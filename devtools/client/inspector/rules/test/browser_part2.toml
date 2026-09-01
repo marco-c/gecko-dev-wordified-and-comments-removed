@@ -104,7 +104,7 @@ doc_prefers_reduced_motion_emulation
 html
 "
 "
-doc_print_media_simulation
+doc_print_media_emulation
 .
 html
 "
@@ -1405,7 +1405,7 @@ js
 ]
 [
 "
-browser_rules_print_media_simulation
+browser_rules_print_media_emulation
 .
 js
 "

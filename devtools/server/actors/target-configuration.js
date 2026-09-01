@@ -817,7 +817,7 @@ colorSchemeSimulation
 :
 this
 .
-_setColorSchemeSimulation
+_setColorSchemeEmulation
 (
 value
 )
@@ -900,7 +900,7 @@ printSimulationEnabled
 :
 this
 .
-_setPrintSimulationEnabled
+_setPrintEmulationEnabled
 (
 value
 )
@@ -1072,7 +1072,7 @@ false
 ;
 this
 .
-_setPrintSimulationEnabled
+_setPrintEmulationEnabled
 (
 false
 )
@@ -1103,12 +1103,12 @@ if
 (
 this
 .
-_resetColorSchemeSimulationOnDestroy
+_resetColorSchemeEmulationOnDestroy
 )
 {
 this
 .
-_setColorSchemeSimulation
+_setColorSchemeEmulation
 (
 null
 )
@@ -1248,7 +1248,7 @@ enabled
 ;
 }
 }
-_setPrintSimulationEnabled
+_setPrintEmulationEnabled
 (
 enabled
 )
@@ -1287,7 +1287,7 @@ value
 ;
 }
 }
-_setColorSchemeSimulation
+_setColorSchemeEmulation
 (
 override
 )
@@ -1324,7 +1324,7 @@ value
 ;
 this
 .
-_resetColorSchemeSimulationOnDestroy
+_resetColorSchemeEmulationOnDestroy
 =
 true
 ;

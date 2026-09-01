@@ -68,7 +68,7 @@ openRuleView
 is
 (
 await
-isSimulationEnabled
+isEmulationEnabled
 (
 defaultPrefersDark
 )
@@ -76,7 +76,7 @@ false
 "
 color
 scheme
-simulation
+emulation
 is
 disabled
 "
@@ -101,7 +101,7 @@ darkButton
 noneButton
 }
 =
-getColorSchemeSimulationButtons
+getColorSchemeEmulationButtons
 (
 inspector
 )
@@ -123,7 +123,7 @@ The
 opposite
 color
 scheme
-simulation
+emulation
 button
 exists
 "
@@ -166,7 +166,7 @@ click
 )
 ;
 await
-waitForSimulationEnabled
+waitForEmulationEnabled
 (
 defaultPrefersDark
 )
@@ -174,7 +174,7 @@ defaultPrefersDark
 is
 (
 await
-isSimulationEnabled
+isEmulationEnabled
 (
 defaultPrefersDark
 )
@@ -182,7 +182,7 @@ true
 "
 color
 scheme
-simulation
+emulation
 is
 enabled
 "
@@ -200,7 +200,7 @@ and
 disable
 the
 color
-simulation
+emulation
 "
 )
 ;
@@ -222,7 +222,7 @@ noneButton
 noneButtonAfterNavigation
 }
 =
-getColorSchemeSimulationButtons
+getColorSchemeEmulationButtons
 (
 inspector
 )
@@ -234,7 +234,7 @@ click
 )
 ;
 await
-waitForSimulationDisabled
+waitForEmulationDisabled
 (
 defaultPrefersDark
 )
@@ -242,7 +242,7 @@ defaultPrefersDark
 is
 (
 await
-isSimulationEnabled
+isEmulationEnabled
 (
 defaultPrefersDark
 )
@@ -250,7 +250,7 @@ false
 "
 color
 scheme
-simulation
+emulation
 is
 disabled
 "
@@ -267,7 +267,7 @@ and
 check
 that
 the
-simulation
+emulation
 is
 still
 disabled
@@ -299,7 +299,7 @@ waitForDevToolsReload
 is
 (
 await
-isSimulationEnabled
+isEmulationEnabled
 (
 defaultPrefersDark
 )
@@ -307,7 +307,7 @@ false
 "
 color
 scheme
-simulation
+emulation
 is
 disabled
 "
@@ -359,7 +359,7 @@ openRuleView
 is
 (
 await
-isSimulationEnabled
+isEmulationEnabled
 (
 defaultPrefersDark
 )
@@ -367,7 +367,7 @@ false
 "
 color
 scheme
-simulation
+emulation
 is
 disabled
 "
@@ -379,7 +379,7 @@ lightButton
 darkButton
 }
 =
-getColorSchemeSimulationButtons
+getColorSchemeEmulationButtons
 (
 inspector
 )
@@ -401,7 +401,7 @@ The
 opposite
 color
 scheme
-simulation
+emulation
 button
 exists
 "
@@ -433,7 +433,7 @@ click
 )
 ;
 await
-waitForSimulationEnabled
+waitForEmulationEnabled
 (
 defaultPrefersDark
 )
@@ -441,7 +441,7 @@ defaultPrefersDark
 is
 (
 await
-isSimulationEnabled
+isEmulationEnabled
 (
 defaultPrefersDark
 )
@@ -449,7 +449,7 @@ true
 "
 color
 scheme
-simulation
+emulation
 is
 enabled
 "
@@ -546,7 +546,7 @@ DevTools
 to
 disable
 the
-simulation
+emulation
 "
 )
 ;
@@ -558,7 +558,7 @@ destroy
 )
 ;
 await
-waitForSimulationDisabled
+waitForEmulationDisabled
 (
 defaultPrefersDark
 )
@@ -566,7 +566,7 @@ defaultPrefersDark
 is
 (
 await
-isSimulationEnabled
+isEmulationEnabled
 (
 defaultPrefersDark
 )
@@ -574,7 +574,7 @@ false
 "
 color
 scheme
-simulation
+emulation
 is
 disabled
 "
@@ -591,7 +591,7 @@ and
 check
 that
 the
-simulation
+emulation
 is
 still
 disabled
@@ -625,7 +625,7 @@ awaitPageShow
 is
 (
 await
-isSimulationEnabled
+isEmulationEnabled
 (
 defaultPrefersDark
 )
@@ -633,7 +633,7 @@ false
 "
 color
 scheme
-simulation
+emulation
 is
 disabled
 "
@@ -643,7 +643,7 @@ disabled
 )
 ;
 function
-getColorSchemeSimulationButtons
+getColorSchemeEmulationButtons
 (
 inspector
 )
@@ -669,7 +669,7 @@ color
 -
 scheme
 -
-simulation
+emulation
 -
 light
 "
@@ -686,7 +686,7 @@ color
 -
 scheme
 -
-simulation
+emulation
 -
 dark
 "
@@ -703,7 +703,7 @@ color
 -
 scheme
 -
-simulation
+emulation
 -
 none
 "
@@ -713,7 +713,7 @@ none
 }
 async
 function
-isSimulationEnabled
+isEmulationEnabled
 (
 defaultPrefersDark
 )
@@ -733,7 +733,7 @@ defaultPrefersDark
 }
 async
 function
-waitForSimulationEnabled
+waitForEmulationEnabled
 (
 defaultPrefersDark
 )
@@ -761,7 +761,7 @@ defaultPrefersDark
 }
 async
 function
-waitForSimulationDisabled
+waitForEmulationDisabled
 (
 defaultPrefersDark
 )
