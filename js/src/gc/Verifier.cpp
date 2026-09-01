@@ -2060,6 +2060,10 @@ resetDeferredWeakMaps
 (
 )
 ;
+setGrayBitsInvalid
+(
+)
+;
 for
 (
 AllZonesIter
