@@ -15963,7 +15963,7 @@ media_hardware_video_encoding_enabled_AtStartup
 )
 )
 {
-featureDec
+featureEnc
 .
 UserDisable
 (
@@ -16004,7 +16004,7 @@ media_wmf_dxva_d3d11_enabled
 )
 )
 {
-featureDec
+featureEnc
 .
 UserDisable
 (
