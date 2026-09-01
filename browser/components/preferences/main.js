@@ -3605,6 +3605,9 @@ config
 promiseConnectAccountURI
 (
 "
+sync
+"
+"
 dev
 -
 edition

@@ -5380,14 +5380,12 @@ config
 promiseConnectAccountURI
 (
 "
+relay
+"
+"
 relay_integration
 "
 {
-service
-:
-"
-relay
-"
 utm_source
 :
 "

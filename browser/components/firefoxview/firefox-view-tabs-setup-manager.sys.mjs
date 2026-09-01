@@ -3634,6 +3634,9 @@ config
 promiseConnectAccountURI
 (
 "
+sync
+"
+"
 fx
 -
 view

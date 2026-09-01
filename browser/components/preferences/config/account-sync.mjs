@@ -1544,6 +1544,9 @@ config
 .
 promiseConnectAccountURI
 (
+"
+sync
+"
 this
 .
 getEntryPoint
@@ -1634,6 +1637,9 @@ config
 .
 promiseConnectAccountURI
 (
+"
+sync
+"
 this
 .
 getEntryPoint
@@ -1722,6 +1728,9 @@ config
 .
 promiseConnectAccountURI
 (
+"
+sync
+"
 entrypoint
 )
 ;
@@ -4029,6 +4038,9 @@ config
 .
 promiseConnectDeviceURI
 (
+"
+sync
+"
 SyncHelpers
 .
 getEntryPoint
