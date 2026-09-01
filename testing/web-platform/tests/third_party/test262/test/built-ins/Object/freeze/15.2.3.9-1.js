@@ -1,0 +1,13 @@
+assert
+.
+sameValue
+(
+Object
+.
+freeze
+(
+0
+)
+0
+)
+;

@@ -1,0 +1,13 @@
+assert
+.
+sameValue
+(
+Object
+.
+isFrozen
+(
+0
+)
+true
+)
+;

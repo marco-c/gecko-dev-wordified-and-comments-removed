@@ -1,0 +1,14 @@
+verifyPrimordialCallableProperty
+(
+ArrayBuffer
+.
+prototype
+"
+sliceToImmutable
+"
+"
+sliceToImmutable
+"
+2
+)
+;

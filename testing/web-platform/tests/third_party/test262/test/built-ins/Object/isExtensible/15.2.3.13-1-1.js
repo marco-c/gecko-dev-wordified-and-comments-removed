@@ -1,0 +1,13 @@
+assert
+.
+sameValue
+(
+Object
+.
+isExtensible
+(
+undefined
+)
+false
+)
+;

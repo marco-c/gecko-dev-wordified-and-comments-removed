@@ -1,0 +1,15 @@
+assert
+.
+sameValue
+(
+typeof
+Iterator
+.
+prototype
+.
+includes
+'
+function
+'
+)
+;

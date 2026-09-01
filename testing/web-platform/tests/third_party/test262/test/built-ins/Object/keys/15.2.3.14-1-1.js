@@ -1,0 +1,14 @@
+assert
+.
+compareArray
+(
+Object
+.
+keys
+(
+0
+)
+[
+]
+)
+;
