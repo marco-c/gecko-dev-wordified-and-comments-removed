@@ -631,6 +631,13 @@ js
 ]
 [
 "
+browser_pdfjs_printtopdf
+.
+js
+"
+]
+[
+"
 browser_pdfjs_properties
 .
 js

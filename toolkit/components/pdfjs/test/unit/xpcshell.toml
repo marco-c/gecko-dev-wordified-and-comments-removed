@@ -3,6 +3,13 @@ DEFAULT
 ]
 [
 "
+test_print_to_pdf_guard
+.
+js
+"
+]
+[
+"
 test_signature_bridge
 .
 js
