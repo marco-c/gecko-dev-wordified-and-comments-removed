@@ -249,7 +249,7 @@ dirsvc
 get
 (
 "
-Desk
+ProfD
 "
 Ci
 .
