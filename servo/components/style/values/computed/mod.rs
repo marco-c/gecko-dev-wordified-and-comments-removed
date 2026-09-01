@@ -645,9 +645,9 @@ font
 {
 FontSize
 FontSizeAdjust
-FontStretch
 FontSynthesis
 FontSynthesisStyle
+FontWidth
 LineHeight
 }
 ;
@@ -958,6 +958,7 @@ position
 :
 :
 {
+FlexWrap
 GridAutoFlow
 GridTemplateAreas
 MasonryAutoFlow

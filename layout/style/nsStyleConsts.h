@@ -315,17 +315,6 @@ ColumnReverse
 ;
 enum
 class
-StyleFlexWrap
-:
-uint8_t
-{
-Nowrap
-Wrap
-WrapReverse
-}
-;
-enum
-class
 StyleGridTrackBreadth
 :
 uint8_t
