@@ -1968,6 +1968,14 @@ CanAnimateOnCompositor
 "
       
 "
+SCROLL_LINKED_EFFECTIVE
+"
+:
+"
+ScrollLinkedEffective
+"
+      
+"
 AFFECTS_LAYOUT
 "
 :
