@@ -1492,11 +1492,9 @@ prim_data
 .
 common
 &
-prim_data
+prim_instance
 .
-common
-.
-prim_rect
+unsnapped_pattern_rect
 &
 prim_info
 .
@@ -1800,11 +1798,9 @@ into_fast_transform
 let
 pattern_rect
 =
-prim_data
+prim_instance
 .
-common
-.
-prim_rect
+unsnapped_pattern_rect
 ;
 let
 surface

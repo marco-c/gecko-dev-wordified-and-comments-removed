@@ -1313,7 +1313,7 @@ LineDecorationTemplate
 >
 (
 )
-44
+28
 "
 LineDecorationTemplate
 size
@@ -1335,7 +1335,7 @@ LineDecorationKey
 >
 (
 )
-32
+16
 "
 LineDecorationKey
 size
