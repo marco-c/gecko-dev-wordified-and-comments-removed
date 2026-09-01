@@ -2235,6 +2235,8 @@ fe2
 {
 STGMEDIUM
 stm
+{
+}
 ;
 if
 (
@@ -2365,6 +2367,8 @@ TYMED_HGLOBAL
 ;
 STGMEDIUM
 stm
+{
+}
 ;
 if
 (

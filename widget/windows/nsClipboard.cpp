@@ -4155,6 +4155,8 @@ fe
 ;
 STGMEDIUM
 stm
+{
+}
 ;
 HRESULT
 hres
