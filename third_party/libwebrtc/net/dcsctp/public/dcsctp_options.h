@@ -301,6 +301,11 @@ None
 (
 )
 ;
+bool
+enable_handover_with_outstanding_data
+=
+false
+;
 }
 ;
 }
