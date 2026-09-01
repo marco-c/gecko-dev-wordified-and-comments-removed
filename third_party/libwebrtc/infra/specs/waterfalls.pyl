@@ -977,7 +977,7 @@ isolated_scripts
 '
 :
 '
-desktop_tests
+mac_tests
 '
 }
 }
@@ -1025,7 +1025,7 @@ isolated_scripts
 '
 :
 '
-desktop_tests
+mac_tests
 '
 }
 }
@@ -1068,7 +1068,7 @@ isolated_scripts
 '
 :
 '
-desktop_tests
+mac_tests
 '
 }
 }
@@ -1119,7 +1119,7 @@ isolated_scripts
 '
 :
 '
-desktop_tests
+mac_tests
 '
 }
 }
@@ -1248,7 +1248,7 @@ isolated_scripts
 '
 :
 '
-desktop_tests
+win_tests
 '
 }
 }
@@ -1296,7 +1296,7 @@ isolated_scripts
 '
 :
 '
-desktop_tests
+win_tests
 '
 }
 }
@@ -1347,7 +1347,7 @@ isolated_scripts
 '
 :
 '
-desktop_tests
+win_tests
 '
 }
 }
@@ -1398,7 +1398,7 @@ isolated_scripts
 '
 :
 '
-desktop_tests
+win_tests
 '
 }
 }
@@ -2361,7 +2361,7 @@ isolated_scripts
 '
 :
 '
-linux_desktop_tests_tryserver
+linux_tests_tryserver
 '
 }
 }
@@ -2563,7 +2563,7 @@ isolated_scripts
 '
 :
 '
-linux_desktop_tests_tryserver
+linux_tests_tryserver
 '
 }
 }
@@ -2855,7 +2855,7 @@ isolated_scripts
 '
 :
 '
-desktop_tests
+mac_tests
 '
 }
 }
@@ -2914,7 +2914,7 @@ isolated_scripts
 '
 :
 '
-desktop_tests
+mac_tests
 '
 }
 }
@@ -2963,7 +2963,7 @@ isolated_scripts
 '
 :
 '
-desktop_tests
+mac_tests
 '
 }
 }
@@ -3005,7 +3005,7 @@ isolated_scripts
 '
 :
 '
-desktop_tests_tryserver
+mac_tests_tryserver
 '
 }
 }
@@ -3054,7 +3054,7 @@ isolated_scripts
 '
 :
 '
-desktop_tests
+mac_tests
 '
 }
 }
@@ -3101,7 +3101,7 @@ isolated_scripts
 '
 :
 '
-desktop_tests
+win_tests
 '
 }
 }
@@ -3148,7 +3148,7 @@ isolated_scripts
 '
 :
 '
-desktop_tests_tryserver
+win_tests_tryserver
 '
 }
 }
@@ -3195,7 +3195,7 @@ isolated_scripts
 '
 :
 '
-desktop_tests
+win_tests
 '
 }
 }
@@ -3266,7 +3266,7 @@ isolated_scripts
 '
 :
 '
-desktop_tests
+win_tests
 '
 }
 }
@@ -3313,7 +3313,7 @@ isolated_scripts
 '
 :
 '
-desktop_tests
+win_tests
 '
 }
 }
@@ -3360,7 +3360,7 @@ isolated_scripts
 '
 :
 '
-desktop_tests
+win_tests
 '
 }
 }
@@ -3407,7 +3407,7 @@ isolated_scripts
 '
 :
 '
-desktop_tests_tryserver
+win_tests_tryserver
 '
 }
 }
