@@ -2694,12 +2694,6 @@ aBaseDomain
 aRequireHostMatch
 )
 ;
-FixPath
-(
-mCookieData
-mHostURI
-)
-;
 if
 (
 aOn3pcbException
@@ -2832,6 +2826,12 @@ eOK
 return
 ;
 }
+FixPath
+(
+mCookieData
+mHostURI
+)
+;
 }
 void
 CookieParser
