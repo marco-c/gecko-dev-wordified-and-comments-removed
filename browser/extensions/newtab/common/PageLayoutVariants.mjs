@@ -486,6 +486,7 @@ keys
 SIDE_BY_SIDE_CLASSES
 )
 ;
+export
 const
 PREF_PAGE_LAYOUT_VARIANT
 =
