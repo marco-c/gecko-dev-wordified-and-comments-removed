@@ -23,13 +23,6 @@ thread
 #
 include
 "
-nsXULAppAPI
-.
-h
-"
-#
-include
-"
 COLRFonts
 .
 h
@@ -184,6 +177,13 @@ include
 mozilla
 /
 StaticPrefs_layout
+.
+h
+"
+#
+include
+"
+nsXULAppAPI
 .
 h
 "
