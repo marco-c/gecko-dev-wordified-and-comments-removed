@@ -22,9 +22,6 @@ namespace
 mozilla
 {
 class
-AudioSegment
-;
-class
 MediaTrackGraph
 ;
 class
@@ -209,17 +206,6 @@ DirectMediaTrackListener
 )
 =
 default
-;
-void
-MirrorAndDisableSegment
-(
-AudioSegment
-&
-aFrom
-AudioSegment
-&
-aTo
-)
 ;
 void
 MirrorAndDisableSegment
