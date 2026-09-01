@@ -47276,6 +47276,9 @@ firefox
 head_git_rev
 :
 f203b58537974fdb928da8d886385308ee602aaa
+head_git_ref
+:
+main
 head_ref
 :
 74e716b47b22a78bd3a9e8c9b1631a31d079dff4
