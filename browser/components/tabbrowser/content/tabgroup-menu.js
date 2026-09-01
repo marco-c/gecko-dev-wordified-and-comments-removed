@@ -1613,11 +1613,6 @@ group
 editor
 -
 panel
-panel
--
-no
--
-padding
 "
 orient
 =
