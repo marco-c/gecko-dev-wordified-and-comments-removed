@@ -172,8 +172,9 @@ MediaSegment
 &
 aMedia
 )
-{
-}
+=
+0
+;
 enum
 class
 InstallationResult
