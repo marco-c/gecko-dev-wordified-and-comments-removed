@@ -2797,9 +2797,6 @@ sub_properties
 perspective
 "
 ]
-derive_serialize
-=
-true
 flags
 =
 "
@@ -2837,9 +2834,6 @@ sub_properties
 transform
 "
 ]
-derive_serialize
-=
-true
 flags
 =
 "
