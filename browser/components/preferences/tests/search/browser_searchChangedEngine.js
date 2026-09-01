@@ -250,7 +250,7 @@ ok
 (
 row
 .
-iconSrc
+__iconSrc
 .
 includes
 (
@@ -418,7 +418,7 @@ ok
 (
 updatedRow
 .
-iconSrc
+__iconSrc
 .
 includes
 (
