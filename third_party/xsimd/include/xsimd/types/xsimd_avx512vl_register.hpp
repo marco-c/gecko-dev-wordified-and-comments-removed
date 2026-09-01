@@ -13,6 +13,15 @@ xsimd_avx512cd_register
 .
 hpp
 "
+#
+include
+"
+.
+/
+xsimd_fma3_avx2_128_register
+.
+hpp
+"
 namespace
 xsimd
 {
@@ -66,7 +75,10 @@ avx512vl
 struct
 avx512vl_128
 :
+fma3
+<
 avx2_128
+>
 {
 static
 constexpr

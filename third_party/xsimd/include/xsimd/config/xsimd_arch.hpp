@@ -743,8 +743,8 @@ avx512dq
 avx512vl
 avx512cd
 avx512f
-avxvnni
 avx512vl_256
+avxvnni
 fma3
 <
 avx2

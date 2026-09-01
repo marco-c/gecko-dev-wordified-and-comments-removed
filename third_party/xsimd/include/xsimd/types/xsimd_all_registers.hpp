@@ -138,6 +138,15 @@ include
 "
 .
 /
+xsimd_fma3_avx2_128_register
+.
+hpp
+"
+#
+include
+"
+.
+/
 xsimd_fma3_avx2_register
 .
 hpp
