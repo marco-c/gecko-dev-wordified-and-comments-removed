@@ -608,6 +608,13 @@ about_newtab
 "
 newtab
 "
+newtab_searchbar
+:
+"
+newtab
+-
+searchbar
+"
 searchbar
 :
 "
@@ -1941,6 +1948,11 @@ urlbar
 :
 case
 "
+newtab_searchbar
+"
+:
+case
+"
 searchbar
 "
 :
@@ -2145,6 +2157,10 @@ visited
 *
 param
 {
+"
+newtab_searchbar
+"
+|
 "
 searchbar
 "

@@ -1136,6 +1136,13 @@ css
 ]
 [
 "
+browser_search_telemetry_sap_newtab_searchbar
+.
+js
+"
+]
+[
+"
 browser_search_telemetry_searchbar
 .
 js
