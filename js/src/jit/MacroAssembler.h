@@ -18597,7 +18597,6 @@ mem
 DEFINED_ON
 (
 x64
-loong64
 )
 ;
 void
@@ -18621,6 +18620,7 @@ DEFINED_ON
 arm
 arm64
 mips64
+loong64
 riscv64
 )
 ;
@@ -18641,7 +18641,6 @@ mem
 DEFINED_ON
 (
 x64
-loong64
 )
 ;
 void
@@ -18665,6 +18664,7 @@ DEFINED_ON
 arm
 arm64
 mips64
+loong64
 riscv64
 )
 ;
