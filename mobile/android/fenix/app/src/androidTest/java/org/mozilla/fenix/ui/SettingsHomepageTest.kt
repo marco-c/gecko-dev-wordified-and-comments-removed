@@ -749,7 +749,7 @@ tests
 .
 SettingsHomepageTest
 #
-jumpBackInOptionTest
+continueOptionTest
 "
 ]
 bug
@@ -766,7 +766,7 @@ since
 SmokeTest
 Test
 fun
-jumpBackInOptionTest
+continueOptionTest
 (
 )
 {
@@ -797,7 +797,7 @@ url
 .
 goToHomescreen
 {
-verifyJumpBackInSectionIsDisplayed
+verifyContinueSectionIsDisplayed
 (
 )
 }
@@ -812,7 +812,7 @@ clickSettingsButton
 .
 openHomepageSubMenu
 {
-clickJumpBackInButton
+clickContinueButton
 (
 )
 }
@@ -826,7 +826,7 @@ goBack
 composeTestRule
 )
 {
-verifyJumpBackInSectionIsNotDisplayed
+verifyContinueSectionIsNotDisplayed
 (
 )
 }

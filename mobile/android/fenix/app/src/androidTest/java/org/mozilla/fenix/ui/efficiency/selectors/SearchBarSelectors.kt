@@ -996,9 +996,7 @@ in
 the
 homepage
 "
-Jump
-back
-in
+Continue
 "
 row
 /

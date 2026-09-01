@@ -157,7 +157,7 @@ selectors
 .
 HomeSelectors
 .
-JUMP_BACK_IN_SECTION
+CONTINUE_SECTION
 import
 org
 .
@@ -219,7 +219,7 @@ selectors
 .
 SettingsHomepageSelectors
 .
-JUMP_BACK_IN_BUTTON
+CONTINUE_BUTTON
 import
 org
 .
@@ -327,7 +327,7 @@ view
 SmokeTest
 Test
 fun
-jumpBackInOptionTest
+continueOptionTest
 (
 )
 {
@@ -365,7 +365,7 @@ navigateToPage
 mozVerifyElementsByGroup
 (
 "
-jumpBackIn
+continue
 "
 )
 on
@@ -378,7 +378,7 @@ navigateToPage
 .
 mozClick
 (
-JUMP_BACK_IN_BUTTON
+CONTINUE_BUTTON
 )
 on
 .
@@ -390,7 +390,7 @@ navigateToPage
 .
 mozVerifyElementAbsent
 (
-JUMP_BACK_IN_SECTION
+CONTINUE_SECTION
 )
 }
 /

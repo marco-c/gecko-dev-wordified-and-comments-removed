@@ -165,9 +165,7 @@ Boolean
 Whether
 the
 "
-Jump
-back
-in
+Continue
 "
 homescreen
 section
@@ -186,8 +184,8 @@ on
 this
 device
 and
-*
 on
+*
 other
 synced
 devices

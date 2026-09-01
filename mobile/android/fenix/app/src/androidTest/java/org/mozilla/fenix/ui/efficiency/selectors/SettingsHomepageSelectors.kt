@@ -219,7 +219,7 @@ requiredForPage
 )
 )
 val
-JUMP_BACK_IN_BUTTON
+CONTINUE_BUTTON
 =
 Selector
 (
@@ -231,17 +231,13 @@ UIAUTOMATOR_WITH_TEXT
 value
 =
 "
-Jump
-back
-in
+Continue
 "
 description
 =
 "
 the
-Jump
-Back
-In
+Continue
 button
 "
 groups
@@ -412,7 +408,7 @@ listOf
 SETTINGS_HOMEPAGE_TITLE
 SHOW_TOP_SITES_TOGGLE
 SHORTCUTS_BUTTON
-JUMP_BACK_IN_BUTTON
+CONTINUE_BUTTON
 RECENT_BOOKMARKS_BUTTON
 RECENTLY_VISITED_BUTTON
 POCKET_BUTTON
