@@ -159,6 +159,8 @@ nsresult
 >
 Create
 (
+bool
+aEnableLargeWindow
 )
 ;
 private
@@ -177,6 +179,8 @@ nodiscard
 nsresult
 Init
 (
+bool
+aEnableLargeWindow
 )
 ;
 bool
