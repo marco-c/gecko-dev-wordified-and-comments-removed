@@ -13455,6 +13455,10 @@ if
 mSrcAttrStream
 )
 {
+mCORSMode
+=
+CORS_NONE
+;
 SetupSrcMediaStreamPlayback
 (
 mSrcAttrStream
@@ -29618,6 +29622,14 @@ been
 ended
 already
 "
+)
+;
+MOZ_ASSERT
+(
+mCORSMode
+=
+=
+CORS_NONE
 )
 ;
 mLoadingSrc
