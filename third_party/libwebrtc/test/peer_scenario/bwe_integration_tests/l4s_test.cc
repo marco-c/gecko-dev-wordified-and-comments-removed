@@ -5830,7 +5830,7 @@ delay_ms
 .
 packet_queue_length
 (
-8
+20
 )
 .
 Build
@@ -6594,7 +6594,7 @@ TimeDelta
 :
 Seconds
 (
-10
+15
 )
 )
 ;
