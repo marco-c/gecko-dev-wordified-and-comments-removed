@@ -135,15 +135,6 @@ brand
 .
 ftl
 "
-"
-toolkit
-/
-branding
-/
-brandings
-.
-ftl
-"
 ]
 true
 )
