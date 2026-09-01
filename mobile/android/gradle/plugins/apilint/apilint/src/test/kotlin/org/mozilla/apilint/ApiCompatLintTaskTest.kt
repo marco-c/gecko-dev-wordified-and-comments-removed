@@ -138,11 +138,11 @@ tasks
 read
 the
 map
-*
 back
 so
 the
 two
+*
 paths
 have
 to

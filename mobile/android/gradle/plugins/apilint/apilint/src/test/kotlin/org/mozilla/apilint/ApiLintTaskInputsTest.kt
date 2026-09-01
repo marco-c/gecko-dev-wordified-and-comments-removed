@@ -144,13 +144,13 @@ knows
 a
 configuration
 change
-*
 should
 re
 -
 run
 them
 if
+*
 they
 are
 declared
