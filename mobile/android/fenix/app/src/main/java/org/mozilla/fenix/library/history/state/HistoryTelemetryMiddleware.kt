@@ -314,7 +314,7 @@ item
 .
 historyTimeGroup
 .
-toString
+toIsoDateString
 (
 )
 isPrivate
