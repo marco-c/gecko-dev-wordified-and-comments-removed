@@ -9166,6 +9166,10 @@ mMayHaveAnimationObservers
 (
 false
 )
+mMayHaveContainerTimingAttributes
+(
+false
+)
 mHasCSPDeliveredThroughHeader
 (
 false

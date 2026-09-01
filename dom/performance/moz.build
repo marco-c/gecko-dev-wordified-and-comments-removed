@@ -104,6 +104,11 @@ Performance
 h
 "
 "
+PerformanceContainerTiming
+.
+h
+"
+"
 PerformanceEntry
 .
 h
@@ -215,6 +220,11 @@ cpp
 "
 "
 Performance
+.
+cpp
+"
+"
+PerformanceContainerTiming
 .
 cpp
 "
