@@ -527,6 +527,12 @@ pos
 }
 if
 (
+pos
+=
+=
+end
+|
+|
 *
 pos
 !
