@@ -44310,6 +44310,12 @@ case
 KnownClass
 :
 :
+Date
+:
+case
+KnownClass
+:
+:
 ArrayIterator
 :
 case
