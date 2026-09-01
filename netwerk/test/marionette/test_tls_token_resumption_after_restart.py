@@ -18,6 +18,25 @@ from
 marionette_harness
 import
 MarionetteTestCase
+sys
+.
+path
+.
+append
+(
+os
+.
+path
+.
+dirname
+(
+__file__
+)
+)
+from
+ssl_tokens_cache_mixin
+import
+SSLTokensCacheMixin
 HOST
 =
 "
@@ -402,6 +421,7 @@ False
 class
 TLSTokenResumptionTestCase
 (
+SSLTokensCacheMixin
 MarionetteTestCase
 )
 :
@@ -838,7 +858,7 @@ profile_path
 "
 ssl_tokens_cache
 .
-bin
+sqlite
 "
         
 self
@@ -1611,23 +1631,29 @@ _BASE_PREFS
         
 self
 .
-assertTrue
+assertGreaterEqual
 (
             
 self
 .
-cache_file
-.
-exists
+wait_for_cache_rows
 (
+self
+.
+cache_file
+1
 )
+            
+1
             
 "
 ssl_tokens_cache
 .
-bin
+sqlite
 must
-exist
+contain
+a
+row
 after
 shutdown
 "
@@ -1916,7 +1942,7 @@ exists
 "
 ssl_tokens_cache
 .
-bin
+sqlite
 must
 NOT
 exist

@@ -885,10 +885,13 @@ ipc
 IPCResult
 RecvLoadSSLTokensCache
 (
-ByteBuf
+nsTArray
+<
+SSLTokensCacheRecordInfo
+>
 &
 &
-aBuf
+aRecords
 )
 ;
 mozilla

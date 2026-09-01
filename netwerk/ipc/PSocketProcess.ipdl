@@ -1398,8 +1398,10 @@ startup
 async
 LoadSSLTokensCache
 (
-ByteBuf
-aBuf
+SSLTokensCacheRecordInfo
+[
+]
+aRecords
 )
 ;
 /
@@ -1427,8 +1429,10 @@ FlushSSLTokensCache
 )
 returns
 (
-ByteBuf
-buf
+SSLTokensCacheRecordInfo
+[
+]
+records
 )
 ;
 /

@@ -51,6 +51,13 @@ rust
 -
 dom
 /
+base
+/
+speculationrules
+/
+-
+dom
+/
 fs
 /
 parent
@@ -317,13 +324,6 @@ base
 rust
 -
 helper
-/
--
-netwerk
-/
-base
-/
-ssl_tokens_cache
 /
 -
 netwerk

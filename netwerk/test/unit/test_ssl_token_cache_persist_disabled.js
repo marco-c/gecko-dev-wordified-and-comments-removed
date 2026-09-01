@@ -102,7 +102,7 @@ path
 "
 ssl_tokens_cache
 .
-bin
+sqlite
 "
 )
 ;
@@ -457,7 +457,7 @@ gCacheFile
 "
 ssl_tokens_cache
 .
-bin
+sqlite
 must
 NOT
 be
