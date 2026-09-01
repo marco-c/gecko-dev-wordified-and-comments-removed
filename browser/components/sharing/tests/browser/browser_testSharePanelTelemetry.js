@@ -159,11 +159,11 @@ visible
 AppConstants
 .
 platform
-=
+!
 =
 =
 "
-win
+linux
 "
 }
 {
