@@ -22665,13 +22665,13 @@ frames_received
 =
 stats
 .
-frame_counts
+received_frame_counts
 .
 key_frames
 +
 stats
 .
-frame_counts
+received_frame_counts
 .
 delta_frames
 ;
@@ -22697,7 +22697,7 @@ key_frames_decoded
 =
 stats
 .
-frame_counts
+decoded_frame_counts
 .
 key_frames
 ;

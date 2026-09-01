@@ -474,9 +474,6 @@ bool
 >
 power_efficient_decoder
 ;
-FrameCounts
-frame_counts
-;
 int
 decode_ms
 =
@@ -563,6 +560,9 @@ frames_decoded
 =
 0
 ;
+FrameCounts
+decoded_frame_counts
+;
 uint64_t
 packets_discarded
 =
@@ -587,6 +587,9 @@ TimeDelta
 Zero
 (
 )
+;
+FrameCounts
+received_frame_counts
 ;
 TimeDelta
 total_assembly_time
