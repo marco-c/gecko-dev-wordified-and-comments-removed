@@ -360,7 +360,7 @@ offset
 )
 ;
 }
-FaultingCodeOffset
+FaultingCodeRange
 doBaseIndex
 (
 const
@@ -4759,7 +4759,7 @@ scratch
 )
 ;
 }
-FaultingCodeOffset
+FaultingCodeRange
 loadPtr
 (
 const
@@ -4785,7 +4785,7 @@ address
 )
 ;
 }
-FaultingCodeOffset
+FaultingCodeRange
 loadPtr
 (
 const
@@ -4997,7 +4997,7 @@ Register
 dest
 )
 ;
-FaultingCodeOffset
+FaultingCodeRange
 store8
 (
 Register
@@ -5112,7 +5112,7 @@ address
 )
 ;
 }
-FaultingCodeOffset
+FaultingCodeRange
 store8
 (
 Register
@@ -5245,7 +5245,7 @@ STRB_w
 )
 ;
 }
-FaultingCodeOffset
+FaultingCodeRange
 store16
 (
 Register
@@ -5360,7 +5360,7 @@ address
 )
 ;
 }
-FaultingCodeOffset
+FaultingCodeRange
 store16
 (
 Register
@@ -5520,7 +5520,7 @@ dest
 )
 ;
 }
-FaultingCodeOffset
+FaultingCodeRange
 storePtr
 (
 ImmWord
@@ -5613,6 +5613,31 @@ Address
 address
 )
 {
+if
+(
+imm
+.
+value
+=
+=
+nullptr
+)
+{
+Str
+(
+vixl
+:
+:
+xzr
+toMemOperand
+(
+address
+)
+)
+;
+return
+;
+}
 vixl
 :
 :
@@ -5724,7 +5749,7 @@ address
 )
 ;
 }
-FaultingCodeOffset
+FaultingCodeRange
 storePtr
 (
 Register
@@ -5750,7 +5775,7 @@ address
 )
 ;
 }
-FaultingCodeOffset
+FaultingCodeRange
 storePtr
 (
 ImmWord
@@ -5931,7 +5956,7 @@ STR_x
 )
 ;
 }
-FaultingCodeOffset
+FaultingCodeRange
 storePtr
 (
 Register
@@ -6154,7 +6179,7 @@ address
 )
 ;
 }
-FaultingCodeOffset
+FaultingCodeRange
 store32
 (
 Register
@@ -6283,7 +6308,7 @@ STR_w
 )
 ;
 }
-FaultingCodeOffset
+FaultingCodeRange
 store32
 (
 Register
@@ -6337,7 +6362,7 @@ dest
 )
 ;
 }
-FaultingCodeOffset
+FaultingCodeRange
 store64
 (
 Register64
@@ -6356,7 +6381,7 @@ address
 )
 ;
 }
-FaultingCodeOffset
+FaultingCodeRange
 store64
 (
 Register64
@@ -7442,7 +7467,7 @@ rhs
 )
 ;
 }
-FaultingCodeOffset
+FaultingCodeRange
 loadDouble
 (
 const
@@ -7468,7 +7493,7 @@ src
 )
 ;
 }
-FaultingCodeOffset
+FaultingCodeRange
 loadDouble
 (
 const
@@ -7620,7 +7645,7 @@ offset
 )
 ;
 }
-FaultingCodeOffset
+FaultingCodeRange
 loadFloat32
 (
 const
@@ -7646,7 +7671,7 @@ addr
 )
 ;
 }
-FaultingCodeOffset
+FaultingCodeRange
 loadFloat32
 (
 const
@@ -7801,7 +7826,7 @@ offset
 ;
 }
 }
-FaultingCodeOffset
+FaultingCodeRange
 loadFloat16
 (
 const
@@ -7828,7 +7853,7 @@ addr
 )
 ;
 }
-FaultingCodeOffset
+FaultingCodeRange
 loadFloat16
 (
 const
@@ -8200,7 +8225,7 @@ cmpTag
 )
 ;
 }
-FaultingCodeOffset
+FaultingCodeRange
 load32
 (
 const
@@ -8226,7 +8251,7 @@ address
 )
 ;
 }
-FaultingCodeOffset
+FaultingCodeRange
 load32
 (
 const
@@ -8336,7 +8361,7 @@ dest
 )
 ;
 }
-FaultingCodeOffset
+FaultingCodeRange
 load64
 (
 const
@@ -8357,7 +8382,7 @@ reg
 )
 ;
 }
-FaultingCodeOffset
+FaultingCodeRange
 load64
 (
 const
@@ -8401,7 +8426,7 @@ dest
 )
 ;
 }
-FaultingCodeOffset
+FaultingCodeRange
 load8SignExtend
 (
 const
@@ -8427,7 +8452,7 @@ address
 )
 ;
 }
-FaultingCodeOffset
+FaultingCodeRange
 load8SignExtend
 (
 const
@@ -8454,7 +8479,7 @@ LDRSB_w
 )
 ;
 }
-FaultingCodeOffset
+FaultingCodeRange
 load8ZeroExtend
 (
 const
@@ -8480,7 +8505,7 @@ address
 )
 ;
 }
-FaultingCodeOffset
+FaultingCodeRange
 load8ZeroExtend
 (
 const
@@ -8507,7 +8532,7 @@ LDRB_w
 )
 ;
 }
-FaultingCodeOffset
+FaultingCodeRange
 load16SignExtend
 (
 const
@@ -8533,7 +8558,7 @@ address
 )
 ;
 }
-FaultingCodeOffset
+FaultingCodeRange
 load16SignExtend
 (
 const
@@ -8583,7 +8608,7 @@ dest
 )
 ;
 }
-FaultingCodeOffset
+FaultingCodeRange
 load16ZeroExtend
 (
 const
@@ -8609,7 +8634,7 @@ address
 )
 ;
 }
-FaultingCodeOffset
+FaultingCodeRange
 load16ZeroExtend
 (
 const
