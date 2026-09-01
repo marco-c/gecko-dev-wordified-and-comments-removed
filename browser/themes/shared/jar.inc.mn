@@ -1510,8 +1510,6 @@ classic
 browser
 /
 urlbar
--
-searchbar
 .
 css
 (
@@ -1521,8 +1519,6 @@ css
 shared
 /
 urlbar
--
-searchbar
 .
 css
 )

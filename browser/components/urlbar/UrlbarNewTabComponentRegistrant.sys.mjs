@@ -323,6 +323,11 @@ urlbar
 attributes
 :
 {
+class
+:
+"
+urlbar
+"
 pageproxystate
 :
 "
