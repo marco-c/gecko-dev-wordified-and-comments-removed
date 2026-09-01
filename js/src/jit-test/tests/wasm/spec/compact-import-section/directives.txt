@@ -105,11 +105,3 @@ if
 wasmCompactImportsEnabled
 (
 )
-;
-test
--
-also
-=
--
-P
-wasm_compact_imports
