@@ -724,12 +724,6 @@ ICScript
 *
 icScript_
 ;
-gc
-:
-:
-AutoMarkingLock
-lock_
-;
 }
 ;
 bool
