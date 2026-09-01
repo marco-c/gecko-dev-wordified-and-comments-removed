@@ -8937,6 +8937,10 @@ proto
 (
 cx
 )
+associatedWindow
+(
+cx
+)
 sameZoneAs
 (
 cx
@@ -9010,6 +9014,12 @@ JS
 :
 RootedObject
 proto
+;
+JS
+:
+:
+RootedObject
+associatedWindow
 ;
 mozilla
 :

@@ -1528,6 +1528,13 @@ js
 ]
 [
 "
+test_sandbox_associated_window
+.
+js
+"
+]
+[
+"
 test_sandbox_atob
 .
 js
