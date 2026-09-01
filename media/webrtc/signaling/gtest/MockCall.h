@@ -1699,15 +1699,6 @@ override
 {
 }
 void
-OnAudioTransportOverheadChanged
-(
-int
-transport_overhead_per_packet
-)
-override
-{
-}
-void
 OnUpdateSyncGroup
 (
 webrtc
