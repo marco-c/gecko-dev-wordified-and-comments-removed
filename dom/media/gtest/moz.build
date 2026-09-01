@@ -94,6 +94,15 @@ libwebrtc_overrides
 "
 !
 /
+media
+/
+libsoundtouch
+/
+src
+"
+"
+!
+/
 xpcom
 /
 components
