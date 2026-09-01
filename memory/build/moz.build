@@ -109,14 +109,6 @@ MOZ_MEMORY_IMPL
 ]
 =
 True
-DEFINES
-[
-"
-NON_RANDOM_ARENA_IDS
-"
-]
-=
-True
 if
 CONFIG
 [
