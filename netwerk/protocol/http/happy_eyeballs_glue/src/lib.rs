@@ -856,9 +856,6 @@ NetAddr
 is_trr
 :
 bool
-stale
-:
-bool
 )
 -
 >
@@ -941,7 +938,6 @@ process_dns_response_a
 id
 addrs
 is_trr
-stale
 )
 }
 #
@@ -974,9 +970,6 @@ ThinVec
 NetAddr
 >
 is_trr
-:
-bool
-stale
 :
 bool
 )
@@ -1061,7 +1054,6 @@ process_dns_response_aaaa
 id
 addrs
 is_trr
-stale
 )
 }
 #
@@ -1094,9 +1086,6 @@ ThinVec
 ServiceInfo
 >
 is_trr
-:
-bool
-stale
 :
 bool
 )
@@ -1181,7 +1170,6 @@ process_dns_response_https
 id
 service_infos
 is_trr
-stale
 )
 }
 #
@@ -1613,9 +1601,6 @@ NetAddr
 is_trr
 :
 bool
-stale
-:
-bool
 )
 -
 >
@@ -1770,7 +1755,6 @@ dns_response
 id
 &
 addrs
-stale
 )
 ;
 self
@@ -1820,6 +1804,8 @@ DnsResult
 id
 result
 stale
+:
+false
 }
 ;
 self
@@ -1856,9 +1842,6 @@ ThinVec
 NetAddr
 >
 is_trr
-:
-bool
-stale
 :
 bool
 )
@@ -2041,7 +2024,6 @@ dns_response
 id
 &
 addrs
-stale
 )
 ;
 self
@@ -2091,6 +2073,8 @@ DnsResult
 id
 result
 stale
+:
+false
 }
 ;
 self
@@ -2127,9 +2111,6 @@ ThinVec
 ServiceInfo
 >
 is_trr
-:
-bool
-stale
 :
 bool
 )
@@ -2614,7 +2595,6 @@ dns_response_https
 id
 &
 infos
-stale
 )
 ;
 self
@@ -2660,6 +2640,8 @@ DnsResult
 id
 result
 stale
+:
+false
 }
 ;
 self
@@ -3008,6 +2990,26 @@ allow_stale
 =
 >
 {
+debug_assert
+!
+(
+allow_stale
+"
+optimistic
+DNS
+is
+not
+wired
+up
+on
+the
+C
++
++
+side
+"
+)
+;
 self
 .
 profiler
@@ -3016,7 +3018,6 @@ dns_query_started
 (
 id
 record_type
-allow_stale
 )
 ;
 self
@@ -3073,7 +3074,6 @@ record_type
 into
 (
 )
-allow_stale
 }
 ;
 }
@@ -4183,9 +4183,6 @@ u64
 record_type
 :
 DnsRecordType
-allow_stale
-:
-bool
 }
 Timer
 {
