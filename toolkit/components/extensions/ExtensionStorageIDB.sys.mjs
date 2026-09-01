@@ -3336,6 +3336,9 @@ KNOWN_CORRUPTED_ERROR_NAMES
 "
 UnknownError
 "
+"
+NotReadableError
+"
 ]
 ;
 const

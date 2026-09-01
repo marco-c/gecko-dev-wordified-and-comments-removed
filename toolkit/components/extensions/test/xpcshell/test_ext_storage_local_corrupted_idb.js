@@ -2407,7 +2407,7 @@ reason
 "
 RejectedClear
 :
-UnknownError
+NotReadableError
 "
 is_addon_active
 :
@@ -2425,7 +2425,7 @@ event
 recorded
 when
 the
-UnknownError
+NotReadableError
 is
 being
 hit
