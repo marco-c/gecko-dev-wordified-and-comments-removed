@@ -1693,13 +1693,13 @@ Reason
 :
 :
 ScrollToDelayPhase
+&
+&
+currValue
 )
 {
 MOZ_ASSERT
 (
-currValue
-&
-&
 currValue
 =
 =
