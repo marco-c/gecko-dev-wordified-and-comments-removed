@@ -91,7 +91,7 @@ button
 {
 visibility
 :
-hidden
+collapse
 ;
 :
 host
@@ -149,6 +149,11 @@ attention
 display
 :
 flex
+;
+contain
+:
+size
+layout
 ;
 }
 :
@@ -1708,10 +1713,6 @@ secondary
 -
 button
 {
-display
-:
-inline
-;
 visibility
 :
 hidden
