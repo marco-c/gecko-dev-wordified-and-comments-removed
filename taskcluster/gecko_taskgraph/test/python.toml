@@ -71,6 +71,13 @@ py
 ]
 [
 "
+test_transforms_build
+.
+py
+"
+]
+[
+"
 test_transforms_build_schedules
 .
 py
