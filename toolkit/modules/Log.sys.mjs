@@ -292,6 +292,15 @@ ALL
 1
 }
 }
+/
+*
+*
+returns
+{
+LoggerRepository
+}
+*
+/
 get
 repository
 (
@@ -2923,8 +2932,10 @@ object
 .
 *
 *
-return
+returns
+{
 Logger
+}
 *
 /
 getLogger
