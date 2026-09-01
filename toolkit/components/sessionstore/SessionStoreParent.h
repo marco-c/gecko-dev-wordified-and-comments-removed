@@ -317,6 +317,14 @@ SessionStoreParent
 =
 default
 ;
+bool
+IsAllowedUpdateTarget
+(
+CanonicalBrowsingContext
+*
+aBrowsingContext
+)
+;
 already_AddRefed
 <
 SessionStoreParent
