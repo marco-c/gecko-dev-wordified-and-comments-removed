@@ -192,6 +192,10 @@ deps
 [
 "
 :
+generated_jni_java
+"
+"
+:
 resources
 "
 "
@@ -245,6 +249,15 @@ third_party
 androidx
 :
 androidx_legacy_legacy_support_v4_java
+"
+"
+/
+/
+third_party
+/
+jni_zero
+:
+jni_zero_java
 "
 ]
 shared_libraries
