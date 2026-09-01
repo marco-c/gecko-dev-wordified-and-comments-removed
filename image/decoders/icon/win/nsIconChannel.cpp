@@ -2870,8 +2870,9 @@ nsIconChannel
 nsIconChannel
 (
 )
-{
-}
+=
+default
+;
 nsIconChannel
 :
 :
