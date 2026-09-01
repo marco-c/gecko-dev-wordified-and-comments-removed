@@ -102,6 +102,8 @@ in
 IGeckoEditableChild
 child
 long
+contentId
+long
 tabId
 )
 ;

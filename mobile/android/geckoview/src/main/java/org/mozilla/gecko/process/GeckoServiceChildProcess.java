@@ -225,6 +225,9 @@ IGeckoEditableChild
 child
 final
 long
+contentId
+final
+long
 tabId
 )
 {
@@ -235,6 +238,7 @@ sProcessManager
 getEditableParent
 (
 child
+contentId
 tabId
 )
 ;
