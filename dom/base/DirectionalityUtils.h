@@ -120,7 +120,7 @@ true
 )
 ;
 void
-SlotAssignedNodeAdded
+SlotAssignedNodeAddedForDir
 (
 dom
 :
@@ -134,7 +134,7 @@ aAssignedNode
 )
 ;
 void
-SlotAssignedNodeRemoved
+SlotAssignedNodeRemovedForDir
 (
 dom
 :
