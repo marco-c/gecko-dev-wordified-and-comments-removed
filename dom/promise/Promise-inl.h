@@ -267,6 +267,7 @@ mPromise
 }
 ;
 namespace
+promise_detail
 {
 template
 <
@@ -1397,6 +1398,9 @@ aJSArgs
 using
 HandlerType
 =
+promise_detail
+:
+:
 NativeThenHandler
 <
 ResolveCallback
@@ -2100,6 +2104,9 @@ value
 ErrorResult
 &
 aRv
+promise_detail
+:
+:
 StorageType
 <
 Args
@@ -2158,6 +2165,9 @@ value
 ErrorResult
 &
 aRv
+promise_detail
+:
+:
 StorageType
 <
 Args
@@ -2195,6 +2205,9 @@ nullptr
 AppendNativeHandler
 (
 new
+promise_detail
+:
+:
 NativeThenHandler
 <
 decltype

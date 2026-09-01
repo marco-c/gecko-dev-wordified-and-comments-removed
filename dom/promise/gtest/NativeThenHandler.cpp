@@ -507,6 +507,9 @@ nullptr
 using
 HandlerType
 =
+promise_detail
+:
+:
 NativeThenHandler
 <
 decltype
@@ -739,6 +742,9 @@ cx
 using
 HandlerType
 =
+promise_detail
+:
+:
 NativeThenHandler
 <
 decltype
@@ -1033,6 +1039,9 @@ IgnoreErrors
 using
 HandlerType
 =
+promise_detail
+:
+:
 NativeThenHandler
 <
 decltype
