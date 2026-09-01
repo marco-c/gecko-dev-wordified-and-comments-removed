@@ -180,6 +180,13 @@ CK_C_INITIALIZE_ARGS_PTR
 "
 )
 .
+allowlist_type
+(
+"
+CK_TRUST
+"
+)
+.
 allowlist_var
 (
 "
