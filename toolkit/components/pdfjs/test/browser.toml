@@ -474,6 +474,13 @@ js
 ]
 [
 "
+browser_pdfjs_no_browsing_context
+.
+js
+"
+]
+[
+"
 browser_pdfjs_nonpdf_filename
 .
 js
