@@ -5643,6 +5643,9 @@ false
 userContextId
 =
 undefined
+eventDetail
+=
+undefined
 }
 =
 {
@@ -5868,6 +5871,7 @@ private
 :
 aPrivate
 userContextId
+eventDetail
 resolveOnContentBrowserCreated
 }
 )
@@ -9278,6 +9282,11 @@ null
 createContainerTabMenu
 (
 event
+source
+=
+"
+places_context_menu
+"
 )
 {
 let
@@ -9299,6 +9308,9 @@ event
 isContextMenu
 :
 true
+containerSource
+:
+source
 }
 )
 ;
@@ -9306,6 +9318,11 @@ true
 openInContainerTab
 (
 event
+source
+=
+"
+places_context_menu
+"
 )
 {
 PlacesUIUtils
@@ -9362,6 +9379,15 @@ bookmarks
 "
 )
 ;
+let
+eventDetail
+=
+{
+containerSource
+:
+source
+}
+;
 if
 (
 isManaged
@@ -9386,6 +9412,7 @@ tab
 "
 {
 userContextId
+eventDetail
 }
 )
 ;
@@ -9429,6 +9456,7 @@ documentGlobal
 top
 {
 userContextId
+eventDetail
 }
 )
 ;
