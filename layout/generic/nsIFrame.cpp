@@ -48514,8 +48514,6 @@ GetExtremeCaretPosition
 (
 bool
 aStart
-uint32_t
-aFlags
 )
 {
 CaretPosition
@@ -48529,7 +48527,7 @@ DrillDownToSelectionFrame
 this
 !
 aStart
-aFlags
+0
 )
 ;
 FrameContentRange

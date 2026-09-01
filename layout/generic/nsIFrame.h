@@ -11777,8 +11777,6 @@ GetExtremeCaretPosition
 (
 bool
 aStart
-uint32_t
-aFlags
 )
 ;
 virtual

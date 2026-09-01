@@ -20611,17 +20611,6 @@ mFrameSelection
 return
 ;
 }
-MOZ_ASSERT
-(
-!
-mFrameSelection
--
->
-IsIndependentSelection
-(
-)
-)
-;
 if
 (
 !

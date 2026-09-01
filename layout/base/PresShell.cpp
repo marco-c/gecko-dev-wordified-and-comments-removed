@@ -11623,10 +11623,6 @@ GetExtremeCaretPosition
 (
 !
 aForward
-nsIFrame
-:
-:
-IGNORE_NATIVE_ANONYMOUS_SUBTREE
 )
 )
 ;
