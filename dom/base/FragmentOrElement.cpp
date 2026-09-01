@@ -10281,7 +10281,7 @@ nsContentUtils
 :
 GetCustomElementRegistry
 (
-this
+target
 )
 ;
 if

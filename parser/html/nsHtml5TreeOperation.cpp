@@ -3313,6 +3313,17 @@ customElementRegistry
 isNothing
 (
 )
+&
+&
+document
+=
+=
+aBuilder
+-
+>
+GetDocument
+(
+)
 )
 {
 customElementRegistry
