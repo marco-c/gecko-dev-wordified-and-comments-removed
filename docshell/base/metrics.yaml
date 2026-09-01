@@ -426,11 +426,6 @@ com
 expires
 :
 never
-telemetry_mirror
-:
-h
-#
-BFCACHE_COMBO
 page_restored
 :
 type

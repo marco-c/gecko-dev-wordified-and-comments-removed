@@ -11033,11 +11033,6 @@ com
 expires
 :
 never
-telemetry_mirror
-:
-h
-#
-ORB_BLOCK_REASON
 block_initiator
 :
 type
@@ -11173,11 +11168,6 @@ com
 expires
 :
 never
-telemetry_mirror
-:
-h
-#
-ORB_BLOCK_INITIATOR
 spdy
 :
 parallel_streams
