@@ -125,6 +125,11 @@ nsITRRSkipReason
 :
 TRR_UNSET
 ;
+bool
+mStale
+=
+false
+;
 void
 Fill
 (

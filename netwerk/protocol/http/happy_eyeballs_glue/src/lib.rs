@@ -856,6 +856,9 @@ NetAddr
 is_trr
 :
 bool
+stale
+:
+bool
 )
 -
 >
@@ -938,6 +941,7 @@ process_dns_response_a
 id
 addrs
 is_trr
+stale
 )
 }
 #
@@ -970,6 +974,9 @@ ThinVec
 NetAddr
 >
 is_trr
+:
+bool
+stale
 :
 bool
 )
@@ -1054,6 +1061,7 @@ process_dns_response_aaaa
 id
 addrs
 is_trr
+stale
 )
 }
 #
@@ -1086,6 +1094,9 @@ ThinVec
 ServiceInfo
 >
 is_trr
+:
+bool
+stale
 :
 bool
 )
@@ -1170,6 +1181,7 @@ process_dns_response_https
 id
 service_infos
 is_trr
+stale
 )
 }
 #
@@ -1601,6 +1613,9 @@ NetAddr
 is_trr
 :
 bool
+stale
+:
+bool
 )
 -
 >
@@ -1803,6 +1818,7 @@ DnsResult
 {
 id
 result
+stale
 }
 ;
 self
@@ -1839,6 +1855,9 @@ ThinVec
 NetAddr
 >
 is_trr
+:
+bool
+stale
 :
 bool
 )
@@ -2069,6 +2088,7 @@ DnsResult
 {
 id
 result
+stale
 }
 ;
 self
@@ -2105,6 +2125,9 @@ ThinVec
 ServiceInfo
 >
 is_trr
+:
+bool
+stale
 :
 bool
 )
@@ -2633,6 +2656,7 @@ DnsResult
 {
 id
 result
+stale
 }
 ;
 self
@@ -2975,6 +2999,7 @@ SendDnsQuery
 id
 hostname
 record_type
+allow_stale
 }
 )
 =
@@ -3044,6 +3069,7 @@ record_type
 into
 (
 )
+allow_stale
 }
 ;
 }
@@ -4153,6 +4179,9 @@ u64
 record_type
 :
 DnsRecordType
+allow_stale
+:
+bool
 }
 Timer
 {
