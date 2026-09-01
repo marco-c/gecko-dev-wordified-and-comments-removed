@@ -41,10 +41,6 @@ console
 :
 nsIConsoleService
 ;
-cookieBanners
-:
-nsICookieBannerService
-;
 cookies
 :
 nsICookieManager
