@@ -769,12 +769,12 @@ j
 +
 )
 {
-gfxFontVariationValue
+gfxFontVariation
 value
 ;
 value
 .
-mAxis
+mTag
 =
 aMMVar
 -

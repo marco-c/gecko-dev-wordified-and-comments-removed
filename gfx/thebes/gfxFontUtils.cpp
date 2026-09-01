@@ -8271,7 +8271,7 @@ axisCount
 j
 )
 {
-gfxFontVariationValue
+gfxFontVariation
 value
 =
 {

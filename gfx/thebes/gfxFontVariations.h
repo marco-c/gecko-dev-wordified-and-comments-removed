@@ -60,17 +60,6 @@ mDefaultValue
 }
 ;
 struct
-gfxFontVariationValue
-{
-uint32_t
-mAxis
-;
-float
-mValue
-;
-}
-;
-struct
 gfxFontVariationInstance
 {
 nsCString
@@ -78,7 +67,7 @@ mName
 ;
 CopyableTArray
 <
-gfxFontVariationValue
+gfxFontVariation
 >
 mValues
 ;
