@@ -141,6 +141,12 @@ defined
 (
 ADDRESS_SANITIZER
 )
+and
+!
+defined
+(
+WEBRTC_WIN
+)
 void
 HeapUseAfterFree
 (
