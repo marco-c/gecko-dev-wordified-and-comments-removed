@@ -19282,6 +19282,16 @@ Get
 obj
 )
 ;
+if
+(
+!
+p
+)
+{
+return
+false
+;
+}
 JS
 :
 :
