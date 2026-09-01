@@ -1506,6 +1506,39 @@ certs
 "
         
 }
+        
+{
+            
+"
+source
+"
+:
+buildconfig
+.
+topobjdir
+            
+"
+base
+"
+:
+"
+_tests
+/
+testing
+"
+            
+"
+pattern
+"
+:
+"
+devtools_compat
+/
+*
+*
+"
+        
+}
     
 ]
     
