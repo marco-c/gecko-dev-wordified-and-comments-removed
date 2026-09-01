@@ -2856,6 +2856,13 @@ html
 ]
 [
 "
+test_plaintext_mail_in_design_mode
+.
+html
+"
+]
+[
+"
 test_remove_during_composition
 .
 html
