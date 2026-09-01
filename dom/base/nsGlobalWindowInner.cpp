@@ -17690,8 +17690,6 @@ nsGlobalWindowInner
 :
 GetInnerWidth
 (
-CallerType
-aCallerType
 ErrorResult
 &
 aError
@@ -17701,7 +17699,6 @@ FORWARD_TO_OUTER_OR_THROW
 (
 GetInnerWidthOuter
 (
-aCallerType
 aError
 )
 aError
@@ -17715,8 +17712,6 @@ nsGlobalWindowInner
 :
 GetInnerWidth
 (
-CallerType
-aCallerType
 double
 *
 aWidth
@@ -17730,7 +17725,6 @@ aWidth
 =
 GetInnerWidth
 (
-aCallerType
 rv
 )
 ;
@@ -17748,8 +17742,6 @@ nsGlobalWindowInner
 :
 GetInnerHeight
 (
-CallerType
-aCallerType
 ErrorResult
 &
 aError
@@ -17759,7 +17751,6 @@ FORWARD_TO_OUTER_OR_THROW
 (
 GetInnerHeightOuter
 (
-aCallerType
 aError
 )
 aError
@@ -17773,8 +17764,6 @@ nsGlobalWindowInner
 :
 GetInnerHeight
 (
-CallerType
-aCallerType
 double
 *
 aHeight
@@ -17788,7 +17777,6 @@ aHeight
 =
 GetInnerHeight
 (
-aCallerType
 rv
 )
 ;
