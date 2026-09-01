@@ -24895,7 +24895,9 @@ vroundsd_irr
 RoundingMode
 mode
 XMMRegisterID
-src
+src1
+XMMRegisterID
+src0
 XMMRegisterID
 dst
 )
@@ -24909,8 +24911,8 @@ VEX_PD
 OP3_ROUNDSD_VsdWsd
 ESCAPE_3A
 mode
-src
-invalid_xmm
+src1
+src0
 dst
 )
 ;
@@ -24921,7 +24923,9 @@ vroundss_irr
 RoundingMode
 mode
 XMMRegisterID
-src
+src1
+XMMRegisterID
+src0
 XMMRegisterID
 dst
 )
@@ -24935,8 +24939,8 @@ VEX_PD
 OP3_ROUNDSS_VsdWsd
 ESCAPE_3A
 mode
-src
-invalid_xmm
+src1
+src0
 dst
 )
 ;
