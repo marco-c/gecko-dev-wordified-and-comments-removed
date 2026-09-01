@@ -93,10 +93,3 @@ test_RecipeRunner
 js
 "
 ]
-[
-"
-test_addon_unenroll
-.
-js
-"
-]
