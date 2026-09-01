@@ -190,6 +190,16 @@ blocks
 gif
 "
 "
+avif_420_film_grain
+.
+avif
+"
+"
+avif_444_film_grain
+.
+avif
+"
+"
 blend
 .
 avif
