@@ -9079,16 +9079,9 @@ moz
 -
 fieldset
 "
-controlAttrs
-:
-{
-"
-.
 headingLevel
-"
 :
 3
-}
 items
 :
 [

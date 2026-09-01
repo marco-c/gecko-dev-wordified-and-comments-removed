@@ -5499,13 +5499,9 @@ moz
 -
 fieldset
 "
-controlAttrs
-:
-{
 headingLevel
 :
 2
-}
 items
 :
 [
