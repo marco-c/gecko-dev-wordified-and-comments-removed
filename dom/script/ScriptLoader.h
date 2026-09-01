@@ -1762,7 +1762,7 @@ JS
 CompileOptions
 &
 aOptions
-StencilCompileOrDecodeTask
+CompileOrDecodeTask
 *
 *
 aCompileOrDecodeTask
