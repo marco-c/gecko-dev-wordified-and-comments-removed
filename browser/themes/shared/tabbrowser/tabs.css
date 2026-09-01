@@ -13285,6 +13285,16 @@ drag
 ;
 &
 [
+hidden
+]
+{
+display
+:
+none
+;
+}
+&
+[
 hasactivetab
 ]
 {
