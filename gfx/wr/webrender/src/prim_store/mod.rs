@@ -1644,7 +1644,7 @@ clip_leaf_id
 :
 ClipLeafId
 pub
-unsnapped_prim_rect
+unsnapped_pattern_rect
 :
 LayoutRect
 }
@@ -1705,7 +1705,7 @@ PrimitiveKind
 clip_leaf_id
 :
 ClipLeafId
-unsnapped_prim_rect
+unsnapped_pattern_rect
 :
 LayoutRect
 )
@@ -1717,7 +1717,7 @@ PrimitiveInstance
 {
 kind
 clip_leaf_id
-unsnapped_prim_rect
+unsnapped_pattern_rect
 }
 }
 pub
@@ -1814,6 +1814,11 @@ SubpixelDirection
 :
 :
 None
+|
+SubpixelDirection
+:
+:
+Mixed
 =
 >
 SnapRounding
