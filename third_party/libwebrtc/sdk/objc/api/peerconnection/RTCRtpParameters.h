@@ -86,7 +86,6 @@ property
 (
 nonatomic
 readonly
-copy
 )
 RTC_OBJC_TYPE
 (
@@ -99,7 +98,6 @@ property
 (
 nonatomic
 readonly
-copy
 )
 NSArray
 <

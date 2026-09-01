@@ -186,7 +186,6 @@ property
 (
 nonatomic
 readonly
-copy
 )
 NSArray
 <
@@ -203,7 +202,6 @@ property
 (
 nonatomic
 readonly
-copy
 )
 NSArray
 <
