@@ -446,6 +446,7 @@ decoder
 "
 _ns
 )
+false
 )
 ;
 NS_IMPL_CYCLE_COLLECTION_UNLINK
@@ -653,6 +654,7 @@ decoder
 "
 _ns
 )
+false
 )
 ;
 }
@@ -5682,6 +5684,8 @@ const
 MediaResult
 &
 aResult
+bool
+aCancelReadRequest
 )
 {
 if
@@ -5770,7 +5774,7 @@ mReadRequest
 >
 Destroy
 (
-true
+aCancelReadRequest
 )
 ;
 mReadRequest
