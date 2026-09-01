@@ -477,6 +477,11 @@ aDirty
 mViewportCacheDirty
 =
 aDirty
+&
+&
+IPCDoc
+(
+)
 ;
 }
 enum
