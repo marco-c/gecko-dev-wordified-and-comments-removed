@@ -616,7 +616,7 @@ type
 "
 :
 "
-integer
+number
 "
                 
 "
