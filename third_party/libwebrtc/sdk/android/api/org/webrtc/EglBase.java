@@ -1250,6 +1250,15 @@ detachCurrent
 (
 )
 ;
+default
+void
+setDetachSurfaceOnRelease
+(
+boolean
+detach
+)
+{
+}
 void
 swapBuffers
 (
