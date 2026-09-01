@@ -24058,7 +24058,7 @@ preferences_tab_groups_feature
 >
 Galluogi
 Grwpiau
-Tab
+Tabiau
 <
 /
 string
@@ -28502,8 +28502,7 @@ name
 custom_accessibility_action_reorder_tab_right
 "
 >
-Symudwch
-y
+Symud
 tab
 i
 \
@@ -51493,6 +51492,9 @@ ip_protection_toolbar_pill_description_off
 "
 >
 Mae
+\
+'
+r
 VPN
 i
 ffwrdd
@@ -81598,7 +81600,10 @@ name
 pdf_tools_sign_content_description
 "
 >
-Arwyddwch
+Arwyddo
+\
+'
+r
 PDF
 <
 /
