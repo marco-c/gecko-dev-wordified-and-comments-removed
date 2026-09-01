@@ -547,11 +547,14 @@ GetBrowserDOMWindow
 (
 )
 ;
+already_AddRefed
+<
 WindowGlobalParent
-*
+>
 GetEmbedderWindowGlobal
 (
 )
+const
 ;
 CanonicalBrowsingContext
 *
