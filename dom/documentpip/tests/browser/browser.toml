@@ -64,10 +64,12 @@ x86_64
 '
 &
 &
-opt
-&
-&
-nova
+display
+=
+=
+'
+wayland
+'
 "
 #
 Bug
