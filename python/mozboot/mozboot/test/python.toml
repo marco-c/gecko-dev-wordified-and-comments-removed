@@ -8,6 +8,13 @@ mozbuild
 "
 [
 "
+test_bootstrap
+.
+py
+"
+]
+[
+"
 test_mozconfig
 .
 py
