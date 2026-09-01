@@ -404,7 +404,13 @@ LayoutParams
 WRAP_CONTENT
 animationStyle
 =
-0
+android
+.
+R
+.
+style
+.
+Animation_Dialog
 binding
 .
 root
