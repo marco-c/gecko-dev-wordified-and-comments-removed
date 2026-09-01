@@ -4245,6 +4245,13 @@ js
 ]
 [
 "
+test_dns_stale_zero_ttl
+.
+js
+"
+]
+[
+"
 test_dns_stress
 .
 js

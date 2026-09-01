@@ -835,6 +835,11 @@ negative
 false
 ;
 bool
+mFromStaleCache
+=
+false
+;
+bool
 mDoomed
 =
 false
