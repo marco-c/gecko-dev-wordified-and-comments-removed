@@ -3635,7 +3635,7 @@ else
 element
 -
 >
-SetKeepCustomElementRegistryNull
+SetNullCustomElementRegistry
 (
 )
 ;

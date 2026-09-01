@@ -2655,7 +2655,7 @@ element
 element
 -
 >
-SetKeepCustomElementRegistryNull
+SetNullCustomElementRegistry
 (
 )
 ;

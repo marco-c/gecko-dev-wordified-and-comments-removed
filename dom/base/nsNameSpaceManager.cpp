@@ -1489,7 +1489,7 @@ aResult
 )
 -
 >
-SetKeepCustomElementRegistryNull
+SetNullCustomElementRegistry
 (
 )
 ;

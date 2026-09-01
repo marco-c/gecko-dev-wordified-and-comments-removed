@@ -3569,7 +3569,7 @@ void
 Element
 :
 :
-SetKeepCustomElementRegistryNull
+SetNullCustomElementRegistry
 (
 )
 {

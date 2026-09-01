@@ -21716,7 +21716,7 @@ Null
 cloneElem
 -
 >
-SetKeepCustomElementRegistryNull
+SetNullCustomElementRegistry
 (
 )
 ;
@@ -21740,7 +21740,7 @@ HasScopedCustomElementRegistry
 cloneElem
 -
 >
-SetKeepCustomElementRegistryNull
+SetNullCustomElementRegistry
 (
 )
 ;

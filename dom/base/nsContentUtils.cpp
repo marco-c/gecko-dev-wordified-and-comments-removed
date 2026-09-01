@@ -62915,7 +62915,7 @@ aResult
 )
 -
 >
-SetKeepCustomElementRegistryNull
+SetNullCustomElementRegistry
 (
 )
 ;
@@ -63469,7 +63469,7 @@ aResult
 )
 -
 >
-SetKeepCustomElementRegistryNull
+SetNullCustomElementRegistry
 (
 )
 ;
