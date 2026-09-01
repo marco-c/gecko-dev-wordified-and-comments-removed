@@ -151,6 +151,12 @@ ClearOverscroll
 const
 ;
 void
+ClearScrolledByHandedOffGesture
+(
+)
+const
+;
+void
 SnapBackOverscrolledApzc
 (
 const
@@ -368,6 +374,12 @@ aScrollSource
 )
 {
 }
+bool
+IsScrolledByHandedOffGesture
+(
+)
+const
+;
 const
 OverscrollHandoffChain
 &
