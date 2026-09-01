@@ -149,6 +149,13 @@ js
 ]
 [
 "
+browser_testSharePanelButtonVisibility
+.
+js
+"
+]
+[
+"
 browser_testSharePanelCopyLink
 .
 js
