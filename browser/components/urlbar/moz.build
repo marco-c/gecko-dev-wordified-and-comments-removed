@@ -639,6 +639,15 @@ TESTING_JS_MODULES
 "
 tests
 /
+NewtabSearchbarContentTestUtils
+.
+sys
+.
+mjs
+"
+"
+tests
+/
 quicksuggest
 /
 GeolocationTestUtils
