@@ -433,6 +433,15 @@ FCC0
 public
 :
 void
+ma_move
+(
+Register
+dest
+Register
+src
+)
+;
+void
 ma_li
 (
 Register
