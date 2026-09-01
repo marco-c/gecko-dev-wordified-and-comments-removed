@@ -830,9 +830,7 @@ catch
 e
 )
 {
-this
-.
-_log
+log
 .
 error
 (
