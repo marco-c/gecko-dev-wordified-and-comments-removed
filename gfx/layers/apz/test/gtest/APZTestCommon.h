@@ -2498,6 +2498,14 @@ Test
 {
 public
 :
+using
+ViewID
+=
+ScrollableLayerGuid
+:
+:
+ViewID
+;
 static
 constexpr
 auto

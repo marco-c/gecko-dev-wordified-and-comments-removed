@@ -1767,9 +1767,6 @@ ApzcOf
 root
 )
 ;
-ScrollableLayerGuid
-:
-:
 ViewID
 scrollId
 =
@@ -2096,9 +2093,6 @@ ApzcOf
 root
 )
 ;
-ScrollableLayerGuid
-:
-:
 ViewID
 scrollId
 =
@@ -2538,9 +2532,6 @@ None
 )
 )
 ;
-ScrollableLayerGuid
-:
-:
 ViewID
 subframeScrollId
 =

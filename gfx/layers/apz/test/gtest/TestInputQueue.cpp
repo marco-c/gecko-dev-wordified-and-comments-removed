@@ -225,14 +225,6 @@ APZCTreeManagerTester
 HorizontalDeltaInterferesWithVerticalScrolling
 )
 {
-using
-ViewID
-=
-ScrollableLayerGuid
-:
-:
-ViewID
-;
 ViewID
 rootScrollId
 =

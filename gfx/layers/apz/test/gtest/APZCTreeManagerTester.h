@@ -454,9 +454,6 @@ get
 void
 QueueMockHitResult
 (
-ScrollableLayerGuid
-:
-:
 ViewID
 aScrollId
 gfx
@@ -569,9 +566,6 @@ static
 ScrollMetadata
 BuildScrollMetadata
 (
-ScrollableLayerGuid
-:
-:
 ViewID
 aScrollId
 const
@@ -833,9 +827,6 @@ SetScrollableFrameMetrics
 WebRenderLayerScrollData
 *
 aLayer
-ScrollableLayerGuid
-:
-:
 ViewID
 aScrollId
 CSSRect

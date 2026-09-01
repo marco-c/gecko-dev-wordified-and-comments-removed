@@ -329,9 +329,6 @@ counter
 void
 UpdateOverscrollBehavior
 (
-ScrollableLayerGuid
-:
-:
 ViewID
 aScrollId
 OverscrollBehavior

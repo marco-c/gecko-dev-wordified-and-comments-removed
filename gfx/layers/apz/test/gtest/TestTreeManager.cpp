@@ -2305,9 +2305,6 @@ LayersId
 mcc
 )
 ;
-ScrollableLayerGuid
-:
-:
 ViewID
 scrollId
 =
