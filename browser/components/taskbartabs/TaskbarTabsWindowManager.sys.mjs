@@ -114,7 +114,6 @@ menubar
 no
 resizable
 minimizable
-scrollbars
 "
 ;
 let

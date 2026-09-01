@@ -17,9 +17,6 @@ menubar
 personalbar
 "
 "
-scrollbars
-"
-"
 toolbar
 "
 ]
@@ -242,9 +239,6 @@ true
 personalbar
 :
 true
-scrollbars
-:
-true
 toolbar
 :
 true
@@ -285,9 +279,6 @@ barprops
 locationbar
 :
 true
-scrollbars
-:
-true
 }
 chromeFlags
 :
@@ -324,9 +315,6 @@ barprops
 :
 {
 locationbar
-:
-true
-scrollbars
 :
 true
 }
@@ -372,9 +360,6 @@ barprops
 :
 {
 locationbar
-:
-true
-scrollbars
 :
 true
 }

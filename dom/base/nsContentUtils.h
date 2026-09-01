@@ -8137,17 +8137,6 @@ aUri
 )
 ;
 static
-void
-SetScrollbarsVisibility
-(
-nsIDocShell
-*
-aDocShell
-bool
-aVisible
-)
-;
-static
 nsIDocShell
 *
 GetDocShellForEventTarget

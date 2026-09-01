@@ -4615,7 +4615,6 @@ no
 extrachrome
 menubar
 resizable
-scrollbars
 status
 "
 +

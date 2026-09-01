@@ -988,7 +988,6 @@ menubar
 no
 resizable
 minimizable
-scrollbars
 "
                         
 args

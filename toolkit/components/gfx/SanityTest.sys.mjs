@@ -2247,9 +2247,6 @@ chrome
 titlebar
 =
 0
-scrollbars
-=
-0
 dialog
 =
 1
