@@ -68,6 +68,13 @@ js
 ]
 [
 "
+test_ChatStoreToolResults
+.
+js
+"
+]
+[
+"
 test_ChatSwitchModel
 .
 js
@@ -76,6 +83,13 @@ js
 [
 "
 test_FeedbackModal
+.
+js
+"
+]
+[
+"
+test_MonitorUIUtils
 .
 js
 "
