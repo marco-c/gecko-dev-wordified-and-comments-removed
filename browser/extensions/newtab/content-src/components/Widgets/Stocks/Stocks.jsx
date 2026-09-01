@@ -1324,6 +1324,8 @@ stocks
 menu
 -
 search
+-
+stocks
 "
 onClick
 =
