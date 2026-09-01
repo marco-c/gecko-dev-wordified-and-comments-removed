@@ -1736,6 +1736,7 @@ viewport
 [
 Replaceable
 Throws
+NeedsCallerType
 ]
 readonly
 attribute
@@ -1745,6 +1746,7 @@ innerWidth
 [
 Replaceable
 Throws
+NeedsCallerType
 ]
 readonly
 attribute
