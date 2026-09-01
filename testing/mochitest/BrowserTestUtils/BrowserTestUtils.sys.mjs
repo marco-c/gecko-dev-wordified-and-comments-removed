@@ -3300,7 +3300,7 @@ tab
 {
 tabbrowser
 .
-_insertBrowser
+insertBrowser
 (
 tab
 )
@@ -7777,7 +7777,7 @@ win
 .
 gBrowser
 .
-_insertBrowser
+insertBrowser
 (
 win
 .

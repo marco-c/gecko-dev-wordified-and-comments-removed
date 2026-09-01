@@ -307,7 +307,7 @@ onSSTabRestoring
 ;
 gBrowser
 .
-_insertBrowser
+insertBrowser
 (
 tab
 )

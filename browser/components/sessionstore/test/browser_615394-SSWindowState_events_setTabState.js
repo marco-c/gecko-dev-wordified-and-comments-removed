@@ -297,7 +297,7 @@ true
 ;
 gBrowser
 .
-_insertBrowser
+insertBrowser
 (
 tab
 )
