@@ -1940,10 +1940,6 @@ RTC_GUARDED_BY
 worker_queue_
 )
 ;
-const
-bool
-default_limits_allowed_
-;
 QpParser
 qp_parser_
 ;

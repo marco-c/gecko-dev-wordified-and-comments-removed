@@ -2574,8 +2574,6 @@ const
 VideoEncoderConfig
 &
 encoder_config
-bool
-default_limits_allowed
 )
 {
 bool
@@ -2650,10 +2648,6 @@ min_bitrate_bps
 }
 if
 (
-!
-default_limits_allowed
-|
-|
 !
 are_all_bitrate_limits_zero
 |
@@ -4372,24 +4366,6 @@ get
 (
 )
 nullptr
-)
-default_limits_allowed_
-(
-!
-env_
-.
-field_trials
-(
-)
-.
-IsEnabled
-(
-"
-WebRTC
--
-DefaultBitrateLimitsKillSwitch
-"
-)
 )
 qp_parsing_allowed_
 (
@@ -7024,7 +7000,6 @@ GetEncoderInfo
 (
 )
 encoder_config_
-default_limits_allowed_
 )
 encoder_config_
 .
@@ -7136,7 +7111,6 @@ GetEncoderInfo
 (
 )
 encoder_config_
-default_limits_allowed_
 )
 encoder_config_
 &
@@ -9043,7 +9017,6 @@ GetEncoderInfo
 (
 )
 encoder_config_
-default_limits_allowed_
 )
 encoder_config_
 .
@@ -14206,7 +14179,6 @@ GetEncoderInfo
 (
 )
 encoder_config_
-default_limits_allowed_
 )
 .
 GetEncoderBitrateLimitsForResolution
