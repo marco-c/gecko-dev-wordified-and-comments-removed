@@ -178,6 +178,11 @@ untrustedContentHint
 =
 false
 ;
+boolean
+consequentialHint
+=
+false
+;
 }
 ;
 callback
