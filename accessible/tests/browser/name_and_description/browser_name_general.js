@@ -1211,9 +1211,6 @@ true
 topLevel
 :
 true
-chrome
-:
-true
 }
 )
 ;

@@ -703,9 +703,6 @@ outerButton
 ;
 }
 {
-chrome
-:
-true
 topLevel
 :
 true

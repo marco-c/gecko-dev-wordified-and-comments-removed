@@ -2176,9 +2176,6 @@ EXT_STATE_STALE
 topLevel
 :
 true
-chrome
-:
-true
 }
 )
 ;
