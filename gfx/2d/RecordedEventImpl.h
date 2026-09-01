@@ -8461,7 +8461,7 @@ public
 RecordedAccessibleId
 (
 uint64_t
-aBrowsingContextId
+aInnerWindowId
 uint64_t
 aAccId
 )
@@ -8470,9 +8470,9 @@ RecordedEventDerived
 (
 ACCESSIBLEID
 )
-mBrowsingContextId
+mInnerWindowId
 (
-aBrowsingContextId
+aInnerWindowId
 )
 mAccId
 (
@@ -8540,7 +8540,7 @@ class
 RecordedEvent
 ;
 uint64_t
-mBrowsingContextId
+mInnerWindowId
 =
 0
 ;
@@ -9816,7 +9816,6 @@ template
 class
 S
 >
-static
 void
 ReadDrawOptions
 (
@@ -9900,7 +9899,6 @@ template
 class
 S
 >
-static
 void
 ReadDrawSurfaceOptions
 (
@@ -24355,7 +24353,7 @@ dt
 >
 AccessibleId
 (
-mBrowsingContextId
+mInnerWindowId
 mAccId
 )
 ;
@@ -24383,7 +24381,7 @@ const
 WriteElement
 (
 aStream
-mBrowsingContextId
+mInnerWindowId
 )
 ;
 WriteElement
@@ -24416,7 +24414,7 @@ ACCESSIBLEID
 ReadElement
 (
 aStream
-mBrowsingContextId
+mInnerWindowId
 )
 ;
 ReadElement
@@ -24451,7 +24449,7 @@ AccessibleId
 "
 <
 <
-mBrowsingContextId
+mInnerWindowId
 <
 <
 "

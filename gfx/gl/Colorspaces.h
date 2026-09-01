@@ -6146,7 +6146,6 @@ In
 class
 Out
 >
-static
 void
 InvertLut
 (
