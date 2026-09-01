@@ -288,7 +288,13 @@ uint32_t
 >
 prev_csrcs
 =
+std
+:
+:
+move
+(
 last_received_csrcs_
+)
 ;
 last_received_csrcs_
 .

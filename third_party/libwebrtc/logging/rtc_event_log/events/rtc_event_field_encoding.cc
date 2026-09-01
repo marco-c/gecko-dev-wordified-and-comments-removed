@@ -279,6 +279,7 @@ std
 string
 EncodeOptionalValuePositions
 (
+const
 std
 :
 :
@@ -286,6 +287,7 @@ vector
 <
 bool
 >
+&
 positions
 )
 {

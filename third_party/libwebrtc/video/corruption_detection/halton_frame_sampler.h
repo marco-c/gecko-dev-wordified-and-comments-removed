@@ -17,6 +17,11 @@ optional
 #
 include
 <
+span
+>
+#
+include
+<
 vector
 >
 #
@@ -264,8 +269,9 @@ frame
 std
 :
 :
-vector
+span
 <
+const
 HaltonFrameSampler
 :
 :
@@ -302,8 +308,9 @@ i420_frame_buffer
 std
 :
 :
-vector
+span
 <
+const
 HaltonFrameSampler
 :
 :
