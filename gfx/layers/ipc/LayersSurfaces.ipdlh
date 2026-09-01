@@ -869,9 +869,6 @@ semaphoreFd
 bool
 semaphoreFdIsSyncFd
 ;
-HDRMetadata
-hdrMetadata
-;
 }
 ;
 [
