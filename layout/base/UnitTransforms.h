@@ -1371,7 +1371,6 @@ TargetUnits
 typename
 SourceUnits
 >
-static
 gfx
 :
 :
@@ -1420,7 +1419,6 @@ TargetUnits
 typename
 SourceUnits
 >
-static
 gfx
 :
 :
@@ -1480,7 +1478,6 @@ TargetUnits
 typename
 SourceUnits
 >
-static
 gfx
 :
 :
@@ -1529,7 +1526,6 @@ TargetUnits
 typename
 SourceUnits
 >
-static
 gfx
 :
 :
@@ -1589,7 +1585,6 @@ TargetUnits
 typename
 SourceUnits
 >
-static
 gfx
 :
 :
@@ -1652,7 +1647,6 @@ TargetUnits
 typename
 SourceUnits
 >
-static
 gfx
 :
 :
@@ -1740,7 +1734,6 @@ TargetUnits
 typename
 SourceUnits
 >
-static
 Maybe
 <
 gfx
@@ -1826,7 +1819,6 @@ TargetUnits
 typename
 SourceUnits
 >
-static
 Maybe
 <
 gfx
@@ -1926,7 +1918,6 @@ TargetUnits
 typename
 SourceUnits
 >
-static
 Maybe
 <
 gfx
@@ -2018,7 +2009,6 @@ TargetUnits
 typename
 SourceUnits
 >
-static
 Maybe
 <
 gfx
@@ -2113,7 +2103,6 @@ TargetUnits
 typename
 SourceUnits
 >
-static
 Maybe
 <
 gfx
