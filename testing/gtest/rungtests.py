@@ -1347,6 +1347,17 @@ env
 env
 [
 "
+PYTHON
+"
+]
+=
+sys
+.
+executable
+        
+env
+[
+"
 PERFHERDER_ALERTING_ENABLED
 "
 ]
