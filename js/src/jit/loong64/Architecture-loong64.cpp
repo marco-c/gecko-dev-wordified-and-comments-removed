@@ -707,14 +707,6 @@ defined
 (
 JS_SIMULATOR_LOONG64
 )
-extensions
-+
-=
-LOONG64Extension
-:
-:
-LamBh
-;
 #
 elif
 defined
