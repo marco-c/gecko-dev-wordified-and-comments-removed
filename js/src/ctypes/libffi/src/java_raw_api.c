@@ -108,6 +108,9 @@ break
 case
 FFI_TYPE_STRUCT
 :
+case
+FFI_TYPE_VECTOR
+:
 abort
 (
 )
