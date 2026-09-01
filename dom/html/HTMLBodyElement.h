@@ -13,11 +13,8 @@ h
 "
 namespace
 mozilla
-{
-class
-EditorBase
-;
-namespace
+:
+:
 dom
 {
 class
@@ -573,15 +570,6 @@ aAttribute
 const
 override
 ;
-already_AddRefed
-<
-EditorBase
->
-GetAssociatedEditor
-(
-)
-override
-;
 nsresult
 Clone
 (
@@ -661,7 +649,6 @@ MappedDeclarationsBuilder
 ;
 }
 ;
-}
 }
 #
 endif
