@@ -88,7 +88,7 @@ s
 "
 ]
 "
-origins
+hosts
 "
 :
 [
@@ -232,7 +232,7 @@ qualifier
 "
 ]
 "
-origins
+hosts
 "
 :
 [
@@ -541,7 +541,7 @@ pp
 "
 ]
 "
-origins
+hosts
 "
 :
 [
@@ -622,7 +622,7 @@ id
 "
 ]
 "
-origins
+hosts
 "
 :
 [
@@ -689,7 +689,7 @@ organic_search_click
 "
 ]
 "
-origins
+hosts
 "
 :
 [
@@ -717,7 +717,7 @@ reflink
 "
 ]
 "
-origins
+hosts
 "
 :
 [
@@ -745,7 +745,7 @@ source
 "
 ]
 "
-origins
+hosts
 "
 :
 [
@@ -771,7 +771,7 @@ sh
 "
 ]
 "
-origins
+hosts
 "
 :
 [
@@ -805,7 +805,7 @@ srnd
 "
 ]
 "
-origins
+hosts
 "
 :
 [
@@ -869,7 +869,7 @@ q
 "
 ]
 "
-origins
+hosts
 "
 :
 [
@@ -921,7 +921,7 @@ xtor
 "
 ]
 "
-origins
+hosts
 "
 :
 [
@@ -949,7 +949,7 @@ ref
 "
 ]
 "
-origins
+hosts
 "
 :
 [
@@ -1011,7 +1011,7 @@ ref_
 "
 ]
 "
-origins
+hosts
 "
 :
 [
@@ -1046,7 +1046,7 @@ int_source
 "
 ]
 "
-origins
+hosts
 "
 :
 [
@@ -1085,7 +1085,7 @@ partnerID
 "
 ]
 "
-origins
+hosts
 "
 :
 [
@@ -1117,7 +1117,7 @@ mibextid
 "
 ]
 "
-origins
+hosts
 "
 :
 [
@@ -1178,7 +1178,7 @@ pos
 "
 ]
 "
-origins
+hosts
 "
 :
 [
@@ -1255,7 +1255,7 @@ ei
 "
 ]
 "
-origins
+hosts
 "
 :
 [
@@ -1344,7 +1344,7 @@ id
 "
 ]
 "
-origins
+hosts
 "
 :
 [
@@ -1398,7 +1398,7 @@ share_id
 "
 ]
 "
-origins
+hosts
 "
 :
 [
@@ -1426,7 +1426,7 @@ mbid
 "
 ]
 "
-origins
+hosts
 "
 :
 [
@@ -1494,7 +1494,7 @@ clid
 "
 ]
 "
-origins
+hosts
 "
 :
 [
@@ -1553,7 +1553,7 @@ hash
 "
 ]
 "
-origins
+hosts
 "
 :
 [
@@ -1614,7 +1614,7 @@ lid
 "
 ]
 "
-origins
+hosts
 "
 :
 [
@@ -1717,7 +1717,7 @@ gs_lcrp
 "
 ]
 "
-origins
+hosts
 "
 :
 [
@@ -3239,7 +3239,7 @@ sp
 "
 ]
 "
-origins
+hosts
 "
 :
 [
@@ -3270,7 +3270,7 @@ tt_medium
 "
 ]
 "
-origins
+hosts
 "
 :
 [
@@ -3305,7 +3305,7 @@ ftag
 "
 ]
 "
-origins
+hosts
 "
 :
 [
@@ -3333,7 +3333,7 @@ smid
 "
 ]
 "
-origins
+hosts
 "
 :
 [
@@ -3364,7 +3364,7 @@ email_source
 "
 ]
 "
-origins
+hosts
 "
 :
 [
@@ -3396,7 +3396,7 @@ trackingId
 "
 ]
 "
-origins
+hosts
 "
 :
 [
@@ -3443,7 +3443,7 @@ mbid
 "
 ]
 "
-origins
+hosts
 "
 :
 [
@@ -3486,7 +3486,7 @@ intl
 "
 ]
 "
-origins
+hosts
 "
 :
 [

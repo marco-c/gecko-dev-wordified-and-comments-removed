@@ -116,7 +116,7 @@ sequence
 <
 UTF8String
 >
-origins
+hosts
 =
 [
 ]

@@ -142,7 +142,7 @@ u
 {
 \
 "
-origins
+hosts
 \
 "
 :

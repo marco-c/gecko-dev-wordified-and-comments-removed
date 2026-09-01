@@ -195,7 +195,7 @@ ref_url
 "
 ]
 "
-origins
+hosts
 "
 :
 [
@@ -236,7 +236,7 @@ ig_rid
 "
 ]
 "
-origins
+hosts
 "
 :
 [
@@ -377,7 +377,7 @@ store_ref
 "
 ]
 "
-origins
+hosts
 "
 :
 [
@@ -674,7 +674,7 @@ share
 "
 ]
 "
-origins
+hosts
 "
 :
 [
@@ -705,7 +705,7 @@ xptdk
 "
 ]
 "
-origins
+hosts
 "
 :
 [
@@ -793,7 +793,7 @@ extParam
 "
 ]
 "
-origins
+hosts
 "
 :
 [
@@ -821,7 +821,7 @@ si
 "
 ]
 "
-origins
+hosts
 "
 :
 [
@@ -858,7 +858,7 @@ searchId
 "
 ]
 "
-origins
+hosts
 "
 :
 [
@@ -899,7 +899,7 @@ __tn__
 "
 ]
 "
-origins
+hosts
 "
 :
 [
@@ -927,7 +927,7 @@ wprov
 "
 ]
 "
-origins
+hosts
 "
 :
 [
@@ -1004,7 +1004,7 @@ live_from
 "
 ]
 "
-origins
+hosts
 "
 :
 [
@@ -1052,7 +1052,7 @@ hmb_campaign
 "
 ]
 "
-origins
+hosts
 "
 :
 [
@@ -1080,7 +1080,7 @@ rcm
 "
 ]
 "
-origins
+hosts
 "
 :
 [

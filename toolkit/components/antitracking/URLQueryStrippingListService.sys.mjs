@@ -518,7 +518,7 @@ queryParams
 /
 Ensure
 empty
-origins
+hosts
 in
 global
 rules
@@ -530,7 +530,7 @@ mainList
 key
 ]
 .
-origins
+hosts
 ?
 ?
 =
@@ -542,7 +542,7 @@ additionalList
 key
 ]
 .
-origins
+hosts
 ?
 ?
 =
@@ -554,7 +554,7 @@ mainList
 key
 ]
 .
-origins
+hosts
 .
 push
 (
@@ -566,7 +566,7 @@ additionalList
 key
 ]
 .
-origins
+hosts
 )
 ;
 mainList
@@ -673,7 +673,7 @@ toLowerCase
 ;
 /
 /
-Origins
+Hosts
 can
 be
 missing
@@ -696,7 +696,7 @@ mainList
 key
 ]
 .
-origins
+hosts
 =
 (
 mainList
@@ -704,7 +704,7 @@ mainList
 key
 ]
 .
-origins
+hosts
 ?
 ?
 [
@@ -713,10 +713,10 @@ origins
 .
 map
 (
-origin
+host
 =
 >
-origin
+host
 .
 toLowerCase
 (
@@ -759,13 +759,13 @@ toLowerCase
 /
 Removes
 duplicate
-origins
+hosts
 mainList
 [
 key
 ]
 .
-origins
+hosts
 =
 [
 .
@@ -779,7 +779,7 @@ mainList
 key
 ]
 .
-origins
+hosts
 )
 ]
 ;
