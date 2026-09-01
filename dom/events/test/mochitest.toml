@@ -2642,6 +2642,13 @@ html
 ]
 [
 "
+test_dispatch_click_in_dirty_frame_in_subdoc
+.
+html
+"
+]
+[
+"
 test_dnd_with_modifiers
 .
 html
