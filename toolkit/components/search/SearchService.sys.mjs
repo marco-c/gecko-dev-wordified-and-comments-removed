@@ -3463,7 +3463,7 @@ engine
 )
 {
 let
-identifer
+identifier
 =
 engine
 .
@@ -3489,7 +3489,7 @@ if
 (
 !
 (
-identifer
+identifier
 in
 seenEngines
 )
@@ -3497,7 +3497,7 @@ seenEngines
 {
 seenEngines
 [
-identifer
+identifier
 ]
 =
 1
@@ -3521,7 +3521,7 @@ value
 =
 seenEngines
 [
-identifer
+identifier
 ]
 ;
 if
@@ -3546,7 +3546,7 @@ ENGINES_SEEN_FOR_PROMPT
 {
 seenEngines
 [
-identifer
+identifier
 ]
 =
 DONT_SHOW_PROMPT
