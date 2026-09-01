@@ -1442,6 +1442,16 @@ mRect
 ;
 }
 ;
+enum
+class
+UnionFragments
+:
+bool
+{
+All
+SameContainingBlockOnly
+}
+;
 static
 CombinedFragments
 GetCombinedFragmentRects
@@ -1454,8 +1464,8 @@ const
 nsIFrame
 *
 aContainingBlock
-=
-nullptr
+UnionFragments
+aUnionFragments
 )
 ;
 static
