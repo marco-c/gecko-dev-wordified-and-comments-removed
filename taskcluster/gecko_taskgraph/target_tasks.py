@@ -5336,36 +5336,6 @@ motionmark
 return
 False
                 
-if
-"
-jetstream2
-"
-in
-try_name
-:
-                    
-if
-"
-m
--
-car
-"
-in
-try_name
-and
-"
-1500
-"
-in
-platform
-:
-                        
-return
-False
-                    
-return
-True
-                
 return
 True
         
@@ -5426,17 +5396,6 @@ try_name
                     
 return
 False
-                
-if
-"
-jetstream2
-"
-in
-try_name
-:
-                    
-return
-True
                 
 if
 "
@@ -6029,23 +5988,6 @@ try_name
 :
                     
 if
-"
-jetstream2
-"
-in
-try_name
-and
-"
-safari
-"
-in
-try_name
-:
-                        
-return
-False
-                    
-if
 (
                         
 "
@@ -6333,17 +6275,6 @@ try_name
                     
 return
 False
-                
-if
-"
-jetstream2
-"
-in
-try_name
-:
-                    
-return
-True
                 
 if
 "

@@ -3334,12 +3334,6 @@ browsertime
 -
 benchmark
 -
-jetstream2
--
-browsertime
--
-benchmark
--
 jetstream3
 -
 browsertime
