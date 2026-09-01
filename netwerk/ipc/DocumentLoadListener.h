@@ -1628,11 +1628,6 @@ mIsLoadingJSURI
 =
 false
 ;
-bool
-mSwitchedContainer
-=
-false
-;
 uint64_t
 mRedirectChannelId
 =
