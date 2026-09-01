@@ -423,10 +423,10 @@ gBrowser
 .
 selectedTab
 .
-_tPos
+index
 tab4
 .
-_tPos
+index
 "
 Tab4
 should

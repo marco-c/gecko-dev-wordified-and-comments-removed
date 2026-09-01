@@ -813,12 +813,12 @@ is
 (
 newTab
 .
-_tPos
+index
 -
 1
 loadingTab
 .
-_tPos
+index
 "
 pdf
 .

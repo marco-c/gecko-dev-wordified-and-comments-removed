@@ -212,7 +212,7 @@ tabs
 i
 ]
 .
-_tPos
+index
 i
 "
 Tab
@@ -344,7 +344,7 @@ is
 (
 tab0
 .
-_tPos
+index
 0
 "
 Tab0
@@ -363,10 +363,10 @@ is
 (
 tab1
 .
-_tPos
+index
 tab3
 .
-_tPos
+index
 -
 1
 "
@@ -391,10 +391,10 @@ is
 (
 tab5
 .
-_tPos
+index
 tab3
 .
-_tPos
+index
 +
 1
 "
@@ -419,7 +419,7 @@ is
 (
 tab3
 .
-_tPos
+index
 4
 "
 Dragged
@@ -437,7 +437,7 @@ is
 (
 tab4
 .
-_tPos
+index
 2
 "
 Drag

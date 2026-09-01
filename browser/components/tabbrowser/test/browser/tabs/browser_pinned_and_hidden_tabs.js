@@ -138,7 +138,7 @@ equal
 (
 pinnedTab
 .
-_tPos
+index
 0
 "
 Pinned

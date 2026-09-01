@@ -147,7 +147,7 @@ is
 (
 newTab1
 .
-_tPos
+index
 initialTabsLength
 "
 newTab1
@@ -161,7 +161,7 @@ is
 (
 newTab2
 .
-_tPos
+index
 initialTabsLength
 +
 1
@@ -177,7 +177,7 @@ is
 (
 newTab3
 .
-_tPos
+index
 initialTabsLength
 +
 2
@@ -219,7 +219,7 @@ is
 (
 newTab2
 .
-_tPos
+index
 initialTabsLength
 "
 newTab2
@@ -234,7 +234,7 @@ is
 (
 newTab1
 .
-_tPos
+index
 initialTabsLength
 +
 1
@@ -251,7 +251,7 @@ is
 (
 newTab3
 .
-_tPos
+index
 initialTabsLength
 +
 2
@@ -293,7 +293,7 @@ is
 (
 newTab2
 .
-_tPos
+index
 initialTabsLength
 "
 newTab2
@@ -307,7 +307,7 @@ is
 (
 newTab1
 .
-_tPos
+index
 initialTabsLength
 +
 1
@@ -323,7 +323,7 @@ is
 (
 newTab3
 .
-_tPos
+index
 initialTabsLength
 +
 3

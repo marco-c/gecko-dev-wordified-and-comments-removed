@@ -323,10 +323,10 @@ is
 (
 newTab
 .
-_tPos
+index
 currentTab
 .
-_tPos
+index
 +
 1
 "

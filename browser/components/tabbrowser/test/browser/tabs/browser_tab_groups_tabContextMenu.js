@@ -2344,10 +2344,10 @@ greater
 (
 pinnedTab
 .
-_tPos
+index
 pinnedUngroupedTab
 .
-_tPos
+index
 "
 pinned
 tab

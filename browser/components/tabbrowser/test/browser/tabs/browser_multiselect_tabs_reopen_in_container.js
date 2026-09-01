@@ -632,7 +632,7 @@ is
 (
 containerTab1
 .
-_tPos
+index
 2
 "
 containerTab1

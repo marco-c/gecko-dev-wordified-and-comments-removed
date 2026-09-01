@@ -77,7 +77,7 @@ is
 (
 tab1
 .
-_tPos
+index
 1
 "
 First
@@ -89,7 +89,7 @@ is
 (
 tab2
 .
-_tPos
+index
 2
 "
 Second
@@ -101,7 +101,7 @@ is
 (
 tab3
 .
-_tPos
+index
 3
 "
 Third
@@ -212,7 +212,7 @@ is
 (
 tab1
 .
-_tPos
+index
 1
 "
 First
@@ -224,7 +224,7 @@ is
 (
 tab2
 .
-_tPos
+index
 2
 "
 Second
@@ -236,7 +236,7 @@ is
 (
 newTab
 .
-_tPos
+index
 3
 "
 Third
@@ -248,7 +248,7 @@ is
 (
 tab3
 .
-_tPos
+index
 4
 "
 Fourth

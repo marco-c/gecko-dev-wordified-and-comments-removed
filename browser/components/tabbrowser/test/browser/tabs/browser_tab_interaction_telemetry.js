@@ -2029,7 +2029,7 @@ startPos
 =
 tab1
 .
-_tPos
+index
 ;
 Assert
 .
@@ -2091,7 +2091,7 @@ greater
 (
 tab1
 .
-_tPos
+index
 startPos
 "
 Tab
@@ -2193,7 +2193,7 @@ greater
 (
 tab
 .
-_tPos
+index
 0
 "
 Tab
@@ -2253,7 +2253,7 @@ equal
 (
 tab
 .
-_tPos
+index
 0
 "
 Tab
@@ -3574,10 +3574,10 @@ less
 (
 tab1
 .
-_tPos
+index
 tab2
 .
-_tPos
+index
 "
 tab1
 starts
@@ -3639,10 +3639,10 @@ greater
 (
 tab1
 .
-_tPos
+index
 tab2
 .
-_tPos
+index
 "
 tab1
 moved

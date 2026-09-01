@@ -1856,7 +1856,7 @@ oldPosition
 =
 tab
 .
-_tPos
+index
 ;
 let
 newWindow

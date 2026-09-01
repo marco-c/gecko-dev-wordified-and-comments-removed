@@ -472,7 +472,7 @@ originalPos
 =
 tabToGroup
 .
-_tPos
+index
 ;
 gBrowser
 .
@@ -500,7 +500,7 @@ equal
 (
 tabToGroup
 .
-_tPos
+index
 originalPos
 "
 tab
@@ -3407,7 +3407,7 @@ equal
 (
 groupedTab1
 .
-_tPos
+index
 2
 "
 grouped
@@ -3426,7 +3426,7 @@ equal
 (
 groupedTab2
 .
-_tPos
+index
 3
 "
 grouped
@@ -3515,7 +3515,7 @@ equal
 (
 groupedTab1
 .
-_tPos
+index
 2
 "
 tab
@@ -3537,7 +3537,7 @@ equal
 (
 groupedTab2
 .
-_tPos
+index
 3
 "
 tab
@@ -5116,7 +5116,7 @@ equal
 (
 tab1
 .
-_tPos
+index
 0
 "
 tab
@@ -5135,7 +5135,7 @@ equal
 (
 tab2
 .
-_tPos
+index
 1
 "
 tab
@@ -5250,7 +5250,7 @@ equal
 (
 tab1
 .
-_tPos
+index
 0
 "
 tab
@@ -5273,7 +5273,7 @@ equal
 (
 tab2
 .
-_tPos
+index
 1
 "
 tab
@@ -5373,7 +5373,7 @@ equal
 (
 tab1
 .
-_tPos
+index
 0
 "
 tab
@@ -5398,7 +5398,7 @@ equal
 (
 tab2
 .
-_tPos
+index
 1
 "
 tab
@@ -5598,7 +5598,7 @@ selectTabAtIndex
 (
 tab3
 .
-_tPos
+index
 )
 ;
 Assert
@@ -5653,7 +5653,7 @@ tabs
 1
 ]
 .
-_tPos
+index
 )
 ;
 Assert
@@ -5750,7 +5750,7 @@ selectTabAtIndex
 (
 tab3
 .
-_tPos
+index
 )
 ;
 Assert
@@ -7046,7 +7046,7 @@ equal
 (
 adoptedTab
 .
-_tPos
+index
 1
 "
 tab
@@ -7450,7 +7450,7 @@ equal
 (
 tab1
 .
-_tPos
+index
 2
 "
 Tab
@@ -7529,7 +7529,7 @@ equal
 (
 tab2
 .
-_tPos
+index
 4
 "
 Tab
@@ -7615,7 +7615,7 @@ equal
 (
 tab3
 .
-_tPos
+index
 5
 "
 Tab

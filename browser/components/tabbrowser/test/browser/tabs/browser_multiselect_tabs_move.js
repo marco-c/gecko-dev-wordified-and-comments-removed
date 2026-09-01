@@ -1111,7 +1111,7 @@ tabs
 0
 ]
 .
-_tPos
+index
 0
 "
 Collapsed
@@ -1128,7 +1128,7 @@ is
 (
 tab
 .
-_tPos
+index
 1
 "
 Selected
@@ -1229,7 +1229,7 @@ is
 (
 tab
 .
-_tPos
+index
 0
 "
 Selected
@@ -1251,7 +1251,7 @@ tabs
 0
 ]
 .
-_tPos
+index
 1
 "
 Collapsed
