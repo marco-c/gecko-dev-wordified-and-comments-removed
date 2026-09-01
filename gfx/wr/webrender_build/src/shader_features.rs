@@ -392,6 +392,13 @@ FAST_PATH
 to_string
 (
 )
+"
+SUPERELLIPSE
+"
+.
+to_string
+(
+)
 ]
 )
 ;
