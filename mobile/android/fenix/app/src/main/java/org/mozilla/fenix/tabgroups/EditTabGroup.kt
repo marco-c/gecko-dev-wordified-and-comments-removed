@@ -1225,7 +1225,7 @@ MaterialTheme
 .
 colorScheme
 .
-surfaceContainerHigh
+surfaceBright
 modifier
 =
 Modifier
@@ -1387,7 +1387,7 @@ MaterialTheme
 .
 colorScheme
 .
-surfaceContainerHigh
+surfaceBright
 modifier
 =
 Modifier
@@ -1785,7 +1785,7 @@ MaterialTheme
 .
 colorScheme
 .
-surfaceContainerHigh
+surfaceBright
 shape
 =
 CircleShape
