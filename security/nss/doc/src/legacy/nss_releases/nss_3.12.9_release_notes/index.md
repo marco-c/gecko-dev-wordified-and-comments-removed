@@ -15,14 +15,8 @@ functions
 =
 #
 #
-[
 Removed
 functions
-]
-(
-#
-removed_functions
-)
 :
 :
 :

@@ -70,17 +70,11 @@ note
 =
 #
 #
-[
 NSS
 Technical
 Note
 :
 6
-]
-(
-#
-nss_technical_note_6
-)
 :
 :
 :

@@ -51,7 +51,6 @@ nss
 =
 #
 #
-[
 NSS
 Sample
 Code
@@ -59,11 +58,6 @@ Code
 :
 Initializing
 NSS
-]
-(
-#
-nss_sample_code_2_initializing_nss
-)
 :
 :
 :
@@ -93,15 +87,9 @@ handling
 #
 #
 #
-[
 Sample
 Code
 1
-]
-(
-#
-sample_code_1
-)
 :
 :
 :

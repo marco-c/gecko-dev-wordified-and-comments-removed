@@ -59,7 +59,6 @@ format
 =
 #
 #
-[
 NSS
 Sample
 Code
@@ -77,11 +76,6 @@ key
 in
 DER
 format
-]
-(
-#
-nss_sample_code_5_pki_encryption_with_a_raw_public_private_key_in_der_format
-)
 :
 :
 :

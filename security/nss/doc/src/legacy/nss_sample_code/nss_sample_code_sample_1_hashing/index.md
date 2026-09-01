@@ -47,7 +47,6 @@ file
 =
 #
 #
-[
 NSS
 Sample
 Code
@@ -57,12 +56,6 @@ Hashing
 a
 file
 .
-]
-(
-#
-nss_sample_code_1_hashing_a_file
-.
-)
 :
 :
 :
@@ -107,15 +100,9 @@ APIs
 #
 #
 #
-[
 Sample
 Code
 1
-]
-(
-#
-sample_code_1
-)
 :
 :
 :

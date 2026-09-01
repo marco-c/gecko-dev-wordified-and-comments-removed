@@ -49,7 +49,6 @@ servers
 =
 #
 #
-[
 NSS
 Sample
 Code
@@ -62,12 +61,6 @@ Transport
 Between
 Servers
 .
-]
-(
-#
-nss_sample_code_1_key_generation_and_transport_between_servers
-.
-)
 :
 :
 :
@@ -244,14 +237,8 @@ future
 #
 #
 #
-[
 Sample
 Code
-]
-(
-#
-sample_code
-)
 :
 :
 :

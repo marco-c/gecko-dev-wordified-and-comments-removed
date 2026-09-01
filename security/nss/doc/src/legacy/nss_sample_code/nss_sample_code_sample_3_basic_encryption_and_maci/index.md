@@ -58,7 +58,6 @@ macing
 =
 #
 #
-[
 NSS
 Sample
 Code
@@ -68,11 +67,6 @@ Basic
 Encryption
 and
 MACing
-]
-(
-#
-nss_sample_code_3_basic_encryption_and_macing
-)
 :
 :
 :
@@ -105,15 +99,9 @@ code
 #
 #
 #
-[
 Sample
 Code
 3
-]
-(
-#
-sample_code_3
-)
 :
 :
 :

@@ -91,7 +91,13 @@ html
 {
 ref
 }
-mozilla_projects_nss_reference
+mozilla
+-
+projects
+-
+nss
+-
+reference
 -
 [
 SECKEY_GetDefaultKeyDB

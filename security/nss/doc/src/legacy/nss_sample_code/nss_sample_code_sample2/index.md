@@ -41,7 +41,6 @@ encryption
 =
 #
 #
-[
 NSS
 Sample
 Code
@@ -49,11 +48,6 @@ Code
 :
 Symmetric
 Encryption
-]
-(
-#
-nss_sample_code_2_symmetric_encryption
-)
 :
 :
 :

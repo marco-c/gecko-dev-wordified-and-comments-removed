@@ -74,7 +74,6 @@ csr
 =
 #
 #
-[
 NSS
 Sample
 Code
@@ -94,12 +93,6 @@ PKCS
 11
 CSR
 .
-]
-(
-#
-nss_sample_code_6_encryptiondecryption_and_mac_and_output_public_as_a_pkcs_11_csr
-.
-)
 :
 :
 :

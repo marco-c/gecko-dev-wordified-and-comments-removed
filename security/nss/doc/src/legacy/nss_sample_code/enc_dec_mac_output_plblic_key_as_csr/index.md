@@ -67,7 +67,6 @@ csr
 =
 #
 #
-[
 NSS
 Sample
 Code
@@ -85,12 +84,6 @@ as
 a
 CSR
 .
-]
-(
-#
-nss_sample_code_5_encryptiondecryption_and_mac_and_output_public_as_a_csr
-.
-)
 :
 :
 :

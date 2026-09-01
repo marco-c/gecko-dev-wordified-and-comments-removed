@@ -47,7 +47,6 @@ database
 =
 #
 #
-[
 NSS
 sample
 code
@@ -58,12 +57,6 @@ the
 NSS
 database
 .
-]
-(
-#
-nss_sample_code_2_initialize_the_nss_database
-.
-)
 :
 :
 :

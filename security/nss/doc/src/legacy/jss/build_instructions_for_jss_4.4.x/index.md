@@ -52,7 +52,6 @@ x
 =
 #
 #
-[
 Build
 Instructions
 for
@@ -62,15 +61,6 @@ JSS
 4
 .
 x
-]
-(
-#
-build_instructions_for_jss_4
-.
-4
-.
-x
-)
 :
 :
 :

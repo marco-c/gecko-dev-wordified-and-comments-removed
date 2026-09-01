@@ -15,13 +15,7 @@ HTTP
 delegation
 #
 #
-[
 Background
-]
-(
-#
-background
-)
 :
 :
 :
@@ -37,7 +31,11 @@ version
 {
 ref
 }
-mozilla_projects_nss
+mozilla
+-
+projects
+-
+nss
 connects
 directly
 over

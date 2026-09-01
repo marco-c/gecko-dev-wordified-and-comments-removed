@@ -28,7 +28,6 @@ Decrypt_MAC_Using
 Token
 #
 #
-[
 NSS
 Sample
 Code
@@ -43,12 +42,6 @@ Using
 Token
 Object
 .
-]
-(
-#
-nss_sample_code_3_encryptiondecryption_and_mac_using_token_object
-.
-)
 :
 :
 :

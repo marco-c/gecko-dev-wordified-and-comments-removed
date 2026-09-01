@@ -45,7 +45,6 @@ notes
 =
 #
 #
-[
 NSS
 3
 .
@@ -54,15 +53,6 @@ NSS
 6
 release
 notes
-]
-(
-#
-nss_3
-.
-12
-.
-6_release_notes
-)
 :
 :
 :

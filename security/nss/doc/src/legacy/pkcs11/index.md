@@ -40,7 +40,15 @@ PKCS11_Implement
 {
 ref
 }
-mozilla_projects_nss_pkcs11_faq
+mozilla
+-
+projects
+-
+nss
+-
+pkcs11
+-
+faq
 -
 [
 Using

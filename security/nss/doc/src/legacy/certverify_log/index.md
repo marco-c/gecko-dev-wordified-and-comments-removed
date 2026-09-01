@@ -16,13 +16,7 @@ CERTVerify
 Log
 #
 #
-[
 CERTVerifyLog
-]
-(
-#
-certverifylog
-)
 :
 :
 :

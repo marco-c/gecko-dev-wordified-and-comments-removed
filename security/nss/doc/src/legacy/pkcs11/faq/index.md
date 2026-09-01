@@ -23,14 +23,8 @@ faq
 =
 #
 #
-[
 PKCS11
 FAQ
-]
-(
-#
-pkcs11_faq
-)
 :
 :
 :

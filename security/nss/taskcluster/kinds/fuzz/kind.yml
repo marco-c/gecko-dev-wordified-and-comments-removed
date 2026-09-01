@@ -59,6 +59,12 @@ MPL
 transforms
 :
 -
+nss_taskgraph
+.
+transforms
+.
+fuzz
+-
 taskgraph
 .
 transforms
@@ -70,6 +76,8 @@ dependencies
 :
 -
 build
+-
+cryptofuzz
 task
 -
 defaults
@@ -1040,7 +1048,7 @@ dependencies
 :
 build
 :
-build
+cryptofuzz
 -
 linux
 -
@@ -1083,6 +1091,9 @@ treeherder
 symbol
 :
 Cryptofuzz
+(
+R
+)
 platform
 :
 linux
@@ -2207,7 +2218,7 @@ dependencies
 :
 build
 :
-build
+cryptofuzz
 -
 linux
 -
@@ -2250,6 +2261,9 @@ treeherder
 symbol
 :
 Cryptofuzz
+(
+R
+)
 platform
 :
 linux

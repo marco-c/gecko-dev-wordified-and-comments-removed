@@ -52,7 +52,6 @@ session
 =
 #
 #
-[
 NSS
 Sample
 Code
@@ -67,12 +66,6 @@ Keys
 Using
 Session
 .
-]
-(
-#
-nss_sample_code_4_encryptiondecryption_and_mac_keys_using_session
-.
-)
 :
 :
 :

@@ -386,6 +386,9 @@ Cipher
 :
 Cipher
 tests
+Cryptofuzz
+:
+Cryptofuzz
 DBM
 :
 Legacy

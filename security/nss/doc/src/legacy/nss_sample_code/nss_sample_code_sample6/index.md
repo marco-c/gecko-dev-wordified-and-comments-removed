@@ -49,7 +49,6 @@ database
 =
 #
 #
-[
 NSS
 Sample
 Code
@@ -61,11 +60,6 @@ Keys
 in
 NSS
 database
-]
-(
-#
-nss_sample_code_6_persistent_symmetric_keys_in_nss_database
-)
 :
 :
 :

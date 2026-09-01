@@ -35,7 +35,6 @@ hashing
 =
 #
 #
-[
 NSS
 sample
 code
@@ -43,12 +42,6 @@ code
 :
 hashing
 .
-]
-(
-#
-nss_sample_code_1_hashing
-.
-)
 :
 :
 :
