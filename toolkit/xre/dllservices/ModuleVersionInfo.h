@@ -180,16 +180,9 @@ VersionNumber
 aOther
 )
 const
-{
-return
-mVersion64
 =
-=
-aOther
-.
-mVersion64
+default
 ;
-}
 nsCString
 ToString
 (

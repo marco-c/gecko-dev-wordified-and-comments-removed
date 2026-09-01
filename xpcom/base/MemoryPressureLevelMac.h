@@ -91,16 +91,9 @@ MacMemoryPressureLevel
 aRhs
 )
 const
-{
-return
-mValue
 =
-=
-aRhs
-.
-mValue
+default
 ;
-}
 bool
 operator
 <
