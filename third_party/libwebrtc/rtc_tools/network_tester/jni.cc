@@ -265,3 +265,7 @@ UnwrapCurrentThread
 ;
 }
 }
+DEFINE_JNI
+(
+NetworkTester
+)

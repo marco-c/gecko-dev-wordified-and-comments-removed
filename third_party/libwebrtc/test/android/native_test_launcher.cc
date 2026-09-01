@@ -519,3 +519,7 @@ i
 }
 }
 }
+DEFINE_JNI
+(
+NativeTestWebrtc
+)
