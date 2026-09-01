@@ -553,7 +553,7 @@ supports_user_action_state
 =
 False
         
-disabled_domains_pref
+enabled_domains_pref
 =
 None
         
@@ -651,9 +651,9 @@ supports_user_action_state
         
 self
 .
-disabled_domains_pref
+enabled_domains_pref
 =
-disabled_domains_pref
+enabled_domains_pref
 class
 PseudoElementData
 :
