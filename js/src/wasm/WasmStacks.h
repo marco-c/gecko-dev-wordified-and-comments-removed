@@ -1726,6 +1726,11 @@ arenaCapacity_
 =
 0
 ;
+size_t
+maxArenas_
+=
+0
+;
 ContStackArenaVector
 arenas_
 ;
