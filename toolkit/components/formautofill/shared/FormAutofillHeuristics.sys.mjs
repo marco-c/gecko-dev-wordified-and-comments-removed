@@ -6283,9 +6283,9 @@ text
 "
 )
 {
-this
+words
 .
-tokenizeWords
+push
 (
 "
 *
@@ -6293,7 +6293,6 @@ tokenizeWords
 "
 +
 elementType
-words
 )
 ;
 }
