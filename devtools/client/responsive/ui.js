@@ -4173,7 +4173,7 @@ event
 {
 this
 .
-rdmFrame
+browserContainerEl
 .
 classList
 .
