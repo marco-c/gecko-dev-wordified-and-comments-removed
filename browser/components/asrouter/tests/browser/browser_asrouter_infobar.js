@@ -32,7 +32,7 @@ mjs
 ;
 const
 {
-PanelTestProvider
+CFRMessageProvider
 }
 =
 ChromeUtils
@@ -49,7 +49,7 @@ modules
 /
 asrouter
 /
-PanelTestProvider
+CFRMessageProvider
 .
 sys
 .
@@ -338,7 +338,7 @@ message
 =
 (
 await
-PanelTestProvider
+CFRMessageProvider
 .
 getMessages
 (
@@ -698,7 +698,7 @@ message
 .
 (
 await
-PanelTestProvider
+CFRMessageProvider
 .
 getMessages
 (
@@ -1005,7 +1005,7 @@ message
 =
 (
 await
-PanelTestProvider
+CFRMessageProvider
 .
 getMessages
 (
@@ -1247,7 +1247,7 @@ message
 =
 (
 await
-PanelTestProvider
+CFRMessageProvider
 .
 getMessages
 (
@@ -1387,7 +1387,7 @@ baseMessage
 =
 (
 await
-PanelTestProvider
+CFRMessageProvider
 .
 getMessages
 (
@@ -2665,7 +2665,7 @@ baseMessage
 =
 (
 await
-PanelTestProvider
+CFRMessageProvider
 .
 getMessages
 (
@@ -2991,7 +2991,7 @@ baseMessage
 =
 (
 await
-PanelTestProvider
+CFRMessageProvider
 .
 getMessages
 (
@@ -4065,7 +4065,7 @@ message
 =
 (
 await
-PanelTestProvider
+CFRMessageProvider
 .
 getMessages
 (
@@ -6245,7 +6245,7 @@ message
 =
 (
 await
-PanelTestProvider
+CFRMessageProvider
 .
 getMessages
 (
@@ -6498,7 +6498,7 @@ message
 =
 (
 await
-PanelTestProvider
+CFRMessageProvider
 .
 getMessages
 (
@@ -6779,7 +6779,7 @@ message
 =
 (
 await
-PanelTestProvider
+CFRMessageProvider
 .
 getMessages
 (

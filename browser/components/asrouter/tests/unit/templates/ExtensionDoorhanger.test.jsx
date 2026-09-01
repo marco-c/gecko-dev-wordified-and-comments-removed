@@ -65,7 +65,9 @@ src
 /
 templates
 /
-InfoBar
+CFR
+/
+templates
 /
 InfoBar
 .
