@@ -168,6 +168,10 @@ nsi
 .
 in
 \
+desktop_launcher_helpers
+.
+nsh
+\
 (
 NULL
 )
