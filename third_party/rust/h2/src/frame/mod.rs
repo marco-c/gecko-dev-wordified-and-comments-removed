@@ -812,6 +812,7 @@ InvalidPayloadLength
 InvalidPayloadAckSettings
 InvalidStreamId
 MalformedMessage
+HeaderListWayTooLarge
 InvalidDependencyId
 Hpack
 (

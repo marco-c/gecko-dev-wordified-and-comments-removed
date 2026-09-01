@@ -1990,10 +1990,6 @@ settings
 builder
 .
 settings
-.
-clone
-(
-)
 }
 )
 ;
