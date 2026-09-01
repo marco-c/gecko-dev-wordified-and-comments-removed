@@ -1725,6 +1725,10 @@ pub
 references
 :
 References
+pub
+explicitly_attr_tainted
+:
+bool
 }
 trivial_to_computed_value
 !
@@ -4542,6 +4546,9 @@ Default
 default
 (
 )
+explicitly_attr_tainted
+:
+false
 }
 }
 pub
@@ -4586,6 +4593,9 @@ References
 default
 (
 )
+explicitly_attr_tainted
+:
+false
 }
 }
 fn
@@ -4994,6 +5004,9 @@ clone
 first_token_type
 last_token_type
 references
+explicitly_attr_tainted
+:
+false
 }
 )
 }
@@ -5021,6 +5034,10 @@ ReferenceFlags
 :
 ATTR
 )
+|
+self
+.
+explicitly_attr_tainted
 }
 fn
 integer
@@ -5323,6 +5340,9 @@ Default
 default
 (
 )
+explicitly_attr_tainted
+:
+false
 }
 }
 pub
