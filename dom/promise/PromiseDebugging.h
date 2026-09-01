@@ -233,6 +233,8 @@ Handle
 JSObject
 *
 >
+uint64_t
+aPromiseID
 )
 ;
 static
@@ -247,6 +249,8 @@ Handle
 JSObject
 *
 >
+uint64_t
+aPromiseID
 )
 ;
 static
