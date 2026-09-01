@@ -5902,6 +5902,10 @@ Call
 CreateAudioReceiveStream
 (
 mRecvStreamConfig
+.
+Copy
+(
+)
 )
 ;
 mRecvStream
