@@ -420,7 +420,6 @@ pingId
 value
 (
 )
-pingName
 )
 ;
 }

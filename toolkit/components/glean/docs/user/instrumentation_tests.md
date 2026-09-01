@@ -753,7 +753,7 @@ ping
 submitted
 in
 the
-Rust
+compiled
 code
 .
 When
