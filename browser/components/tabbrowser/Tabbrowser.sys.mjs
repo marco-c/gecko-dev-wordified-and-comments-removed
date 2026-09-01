@@ -26107,7 +26107,7 @@ number
 }
 selectTab
 see
-SessionStoreInternal
+SessionStore
 .
 restoreTabs
 {
