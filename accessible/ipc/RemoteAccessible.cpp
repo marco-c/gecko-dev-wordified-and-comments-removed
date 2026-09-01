@@ -881,13 +881,12 @@ OuterDocOfRemoteBrowser
 const
 {
 auto
-*
 tab
 =
 mDoc
 -
 >
-GetBrowserParent
+Manager
 (
 )
 ;
@@ -12380,7 +12379,7 @@ bp
 mDoc
 -
 >
-GetBrowserParent
+Manager
 (
 )
 ;

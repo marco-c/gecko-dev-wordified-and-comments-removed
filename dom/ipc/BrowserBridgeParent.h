@@ -399,6 +399,9 @@ ipc
 IPCResult
 RecvSetEmbedderAccessible
 (
+PDocAccessibleParent
+*
+aDoc
 uint64_t
 aID
 )
@@ -429,6 +432,15 @@ mBrowserParent
 #
 ifdef
 ACCESSIBILITY
+RefPtr
+<
+a11y
+:
+:
+DocAccessibleParent
+>
+mEmbedderAccessibleDoc
+;
 uint64_t
 mEmbedderAccessibleID
 =

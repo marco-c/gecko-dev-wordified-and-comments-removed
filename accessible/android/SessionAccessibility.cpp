@@ -192,17 +192,6 @@ include
 "
 mozilla
 /
-dom
-/
-WindowGlobalParent
-.
-h
-"
-#
-include
-"
-mozilla
-/
 jni
 /
 GeckoBundleUtils
@@ -2334,7 +2323,7 @@ Document
 )
 -
 >
-GetBrowserParent
+Manager
 (
 )
 ;
