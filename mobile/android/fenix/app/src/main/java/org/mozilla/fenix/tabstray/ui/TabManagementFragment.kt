@@ -1365,7 +1365,6 @@ getSnackbarTimeout
 /
 *
 *
-*
 The
 fullscreen
 fragment
@@ -3650,6 +3649,11 @@ homepageAsNewTabEnabled
 settings
 .
 enableHomepageAsNewTab
+tabGroupsEnabled
+=
+settings
+.
+tabGroupsEnabled
 )
 )
 ?
@@ -4045,7 +4049,6 @@ handling
 .
 Separate
 from
-*
 onTabClick
 (
 )
@@ -4057,6 +4060,7 @@ may
 play
 prior
 to
+*
 handling
 the
 user
@@ -5520,7 +5524,6 @@ false
 /
 *
 *
-*
 This
 can
 only
@@ -5773,7 +5776,6 @@ TabsTrayItem
 .
 Tab
 ]
-*
 The
 TabsTray
 transition
@@ -5783,9 +5785,9 @@ be
 performed
 if
 enabled
+*
 in
 settings
-*
 if
 the
 selected
@@ -5797,7 +5799,6 @@ current
 active
 tab
 page
-*
 and
 the
 current
@@ -5805,6 +5806,7 @@ TabsTray
 mode
 is
 the
+*
 default
 (
 normal
@@ -5911,7 +5913,6 @@ tab
 is
 private
 or
-*
 the
 selected
 page
@@ -5920,6 +5921,7 @@ normal
 and
 the
 tab
+*
 is
 normal
 .
@@ -6085,7 +6087,6 @@ the
 feature
 is
 available
-*
 applicable
 and
 relevant
@@ -6093,6 +6094,7 @@ to
 the
 current
 user
+*
 context
 .
 *
@@ -6167,7 +6169,6 @@ TAB_GROUP_SHARE_DOT_SIZE_PX
 }
 }
 /
-*
 *
 *
 Resolves
