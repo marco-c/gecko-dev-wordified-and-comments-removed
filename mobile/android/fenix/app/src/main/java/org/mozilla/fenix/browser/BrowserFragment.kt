@@ -1866,7 +1866,8 @@ controlsView
 binding
 .
 readerViewControlsBar
-)
+onReaderViewStatusChange
+=
 {
 available
 active
@@ -1886,6 +1887,7 @@ active
 )
 )
 }
+)
 }
 owner
 =
