@@ -4334,6 +4334,13 @@ Bug
 ]
 [
 "
+browser_tab_splitview_findbar
+.
+js
+"
+]
+[
+"
 browser_tab_splitview_footer
 .
 js

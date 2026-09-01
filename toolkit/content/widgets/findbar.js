@@ -1972,6 +1972,11 @@ close
 )
 ;
 }
+connectedMoveCallback
+(
+)
+{
+}
 set
 findMode
 (
