@@ -4113,6 +4113,13 @@ ignore
 :
 true
 }
+viewTemplate
+:
+{
+optional
+:
+true
+}
 .
 .
 .

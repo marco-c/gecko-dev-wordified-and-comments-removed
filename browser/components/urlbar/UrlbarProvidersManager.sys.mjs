@@ -6439,6 +6439,8 @@ DYNAMIC
 {
 result
 .
+payload
+.
 viewTemplate
 =
 provider
