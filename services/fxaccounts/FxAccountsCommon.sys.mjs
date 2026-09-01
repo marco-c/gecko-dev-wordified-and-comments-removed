@@ -631,16 +631,6 @@ collection_changed
 ;
 export
 let
-ON_VERIFY_LOGIN_NOTIFICATION
-=
-"
-fxaccounts
-:
-verify_login
-"
-;
-export
-let
 ON_COMMAND_RECEIVED_NOTIFICATION
 =
 "

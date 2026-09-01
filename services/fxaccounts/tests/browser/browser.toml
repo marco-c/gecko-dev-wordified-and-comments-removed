@@ -28,13 +28,6 @@ js
 ]
 [
 "
-browser_verify_login
-.
-js
-"
-]
-[
-"
 browser_verify_remotetabs_notif
 .
 js
