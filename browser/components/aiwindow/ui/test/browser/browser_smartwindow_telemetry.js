@@ -1941,6 +1941,13 @@ mjs
 "
 )
 ;
+await
+ChatStore
+.
+destroyDatabase
+(
+)
+;
 Services
 .
 fog
