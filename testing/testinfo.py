@@ -4636,6 +4636,34 @@ trunk
 =
 True
         
+elif
+os
+.
+environ
+.
+get
+(
+"
+GECKO_HEAD_REF
+"
+"
+"
+)
+=
+=
+"
+refs
+/
+heads
+/
+main
+"
+:
+            
+trunk
+=
+True
+        
 else
 :
             
