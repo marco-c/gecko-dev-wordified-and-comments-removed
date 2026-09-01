@@ -34636,7 +34636,7 @@ branch32
 Assembler
 :
 :
-NotEqual
+Equal
 scratch1
 Imm32
 (
@@ -34645,7 +34645,7 @@ int32_t
 GeneratorResumeKind
 :
 :
-Next
+Throw
 )
 )
 &

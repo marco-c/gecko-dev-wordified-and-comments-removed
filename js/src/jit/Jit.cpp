@@ -1165,12 +1165,12 @@ asGeneratorResume
 resumeKind
 (
 )
-!
+=
 =
 GeneratorResumeKind
 :
 :
-Next
+Throw
 &
 &
 jitScript
