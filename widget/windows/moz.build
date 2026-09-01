@@ -1129,6 +1129,9 @@ OS_LIBS
 ktmw32
 "
 "
+pathcch
+"
+"
 rpcrt4
 "
 "
