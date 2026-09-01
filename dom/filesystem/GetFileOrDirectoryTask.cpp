@@ -455,7 +455,9 @@ FileSystemResponseValue
 TFileSystemFileResponse
 :
 {
+const
 FileSystemFileResponse
+&
 r
 =
 aValue
@@ -539,7 +541,9 @@ FileSystemResponseValue
 TFileSystemDirectoryResponse
 :
 {
+const
 FileSystemDirectoryResponse
+&
 r
 =
 aValue

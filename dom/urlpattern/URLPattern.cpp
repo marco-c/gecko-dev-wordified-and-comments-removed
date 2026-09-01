@@ -1165,7 +1165,9 @@ Next
 )
 )
 {
+const
 MaybeString
+&
 s
 =
 iter
