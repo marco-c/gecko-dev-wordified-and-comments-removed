@@ -184,7 +184,7 @@ BRANCH
 main
 TEST_SET
 :
-nightly
+ci
 WORKFLOW_ID
 :
 main
