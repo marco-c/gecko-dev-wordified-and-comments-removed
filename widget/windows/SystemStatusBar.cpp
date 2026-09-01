@@ -415,6 +415,10 @@ StatusBarEntry
 (
 )
 {
+Destroy
+(
+)
+;
 if
 (
 !
@@ -424,10 +428,6 @@ mInitted
 return
 ;
 }
-Destroy
-(
-)
-;
 :
 :
 Shell_NotifyIconW
