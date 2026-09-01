@@ -322,9 +322,12 @@ tests
 declare
 BaseTest
 (
+LaunchConfig
+(
 skipOnboarding
 =
 false
+)
 )
 .
 The
@@ -510,9 +513,7 @@ the
 target
 or
 a
-*
-successful
-*
+_successful_
 route
 will
 still

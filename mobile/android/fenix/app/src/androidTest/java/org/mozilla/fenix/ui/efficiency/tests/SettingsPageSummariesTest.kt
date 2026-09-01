@@ -131,9 +131,6 @@ SettingsPageSummariesTest
 :
 BaseTest
 (
-shakeToSummarizeFeatureFlagEnabled
-=
-true
 )
 {
 /

@@ -187,11 +187,13 @@ the
 test
 class
 as
+*
 BaseTest
+(
+LaunchConfig
 (
 skipOnboarding
 =
-*
 false
 )
 .
@@ -208,13 +210,13 @@ because
 the
 flow
 is
+*
 already
 on
 screen
 at
 launch
 ;
-*
 navigateToPage
 (
 )
@@ -229,6 +231,7 @@ group
 the
 Terms
 of
+*
 Use
 card
 title

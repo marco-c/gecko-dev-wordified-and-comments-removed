@@ -142,9 +142,12 @@ enabled
 *
 BaseTest
 (
+LaunchConfig
+(
 skipOnboarding
 =
 false
+)
 )
 )
 .

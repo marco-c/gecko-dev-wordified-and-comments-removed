@@ -26,9 +26,7 @@ its
 state
 without
 knowing
-*
-how
-*
+_how_
 .
 It
 extends
@@ -383,9 +381,12 @@ launch
 when
 BaseTest
 (
+LaunchConfig
+(
 skipOnboarding
 =
 false
+)
 )
 ;
 no

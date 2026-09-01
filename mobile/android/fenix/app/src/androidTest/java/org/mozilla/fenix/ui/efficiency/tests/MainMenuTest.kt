@@ -503,9 +503,6 @@ MainMenuTest
 :
 BaseTest
 (
-isPageLoadTranslationsPromptEnabled
-=
-false
 )
 {
 private
