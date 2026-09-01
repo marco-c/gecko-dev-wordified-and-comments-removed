@@ -4799,6 +4799,11 @@ requireComponents
 useCases
 .
 shareUseCases
+clipboardHandler
+=
+requireComponents
+.
+clipboardHandler
 )
 )
 )
