@@ -52,6 +52,14 @@ gfx
 IntSize
 &
 aSize
+uint8_t
+aLuma
+=
+0x10
+uint8_t
+aChroma
+=
+0x80
 )
 ;
 mozilla
