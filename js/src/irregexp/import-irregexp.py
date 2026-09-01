@@ -23,14 +23,6 @@ need_shim
 [
         
 "
-property
--
-sequences
-.
-h
-"
-        
-"
 regexp
 -
 ast
