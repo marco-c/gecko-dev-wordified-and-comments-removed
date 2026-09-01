@@ -90,6 +90,9 @@ mozilla
 class
 DataChannel
 ;
+class
+PeerConnectionImpl
+;
 namespace
 dom
 {
@@ -139,6 +142,9 @@ nsACString
 aProtocol
 bool
 aNegotiated
+PeerConnectionImpl
+*
+aPc
 already_AddRefed
 <
 DataChannel
@@ -683,6 +689,12 @@ RefPtr
 RTCDataChannel
 >
 mSelfRef
+;
+RefPtr
+<
+PeerConnectionImpl
+>
+mPeerConnection
 ;
 RefPtr
 <
