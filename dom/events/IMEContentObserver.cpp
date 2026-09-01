@@ -4092,6 +4092,17 @@ aEvent
 -
 >
 mLength
+&
+&
+mSelectionData
+.
+mReversed
+=
+=
+aEvent
+-
+>
+mReversed
 )
 {
 if

@@ -11304,6 +11304,9 @@ aReverse
 aWindow
 =
 window
+aFlags
+=
+0
 )
 {
 const
@@ -11351,11 +11354,15 @@ resolve
 const
 flags
 =
+aFlags
+|
+(
 aReverse
 ?
 SELECTION_SET_FLAG_REVERSE
 :
 0
+)
 ;
 return
 utils
