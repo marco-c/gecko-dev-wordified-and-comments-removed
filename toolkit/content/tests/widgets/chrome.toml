@@ -772,13 +772,6 @@ html
 ]
 [
 "
-test_panel_list_contextmenu
-.
-html
-"
-]
-[
-"
 test_panel_list_in_xul_panel
 .
 html
