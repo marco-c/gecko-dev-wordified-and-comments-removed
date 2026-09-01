@@ -472,7 +472,7 @@ Register
 rs
 )
 ;
-FaultingCodeOffset
+FaultingCodeRange
 ma_load
 (
 Register
@@ -553,7 +553,7 @@ LoadStoreExtension
 extension
 )
 ;
-FaultingCodeOffset
+FaultingCodeRange
 ma_store
 (
 Register
@@ -941,7 +941,7 @@ float
 value
 )
 ;
-FaultingCodeOffset
+FaultingCodeRange
 ma_sd
 (
 FloatRegister
@@ -950,7 +950,7 @@ BaseIndex
 address
 )
 ;
-FaultingCodeOffset
+FaultingCodeRange
 ma_ss
 (
 FloatRegister
@@ -959,7 +959,7 @@ BaseIndex
 address
 )
 ;
-FaultingCodeOffset
+FaultingCodeRange
 ma_ld
 (
 FloatRegister
@@ -970,7 +970,7 @@ BaseIndex
 src
 )
 ;
-FaultingCodeOffset
+FaultingCodeRange
 ma_ls
 (
 FloatRegister
@@ -1201,7 +1201,7 @@ bool
 isMax
 )
 ;
-FaultingCodeOffset
+FaultingCodeRange
 loadDouble
 (
 const
@@ -1212,7 +1212,7 @@ FloatRegister
 dest
 )
 ;
-FaultingCodeOffset
+FaultingCodeRange
 loadDouble
 (
 const
@@ -1223,7 +1223,7 @@ FloatRegister
 dest
 )
 ;
-FaultingCodeOffset
+FaultingCodeRange
 loadFloat32
 (
 const
@@ -1234,7 +1234,7 @@ FloatRegister
 dest
 )
 ;
-FaultingCodeOffset
+FaultingCodeRange
 loadFloat32
 (
 const
@@ -1245,7 +1245,7 @@ FloatRegister
 dest
 )
 ;
-FaultingCodeOffset
+FaultingCodeRange
 loadFloat16
 (
 const
@@ -1269,7 +1269,7 @@ target
 )
 ;
 }
-FaultingCodeOffset
+FaultingCodeRange
 loadFloat16
 (
 const
