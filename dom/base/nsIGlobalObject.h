@@ -587,7 +587,6 @@ return
 nullptr
 ;
 }
-virtual
 void
 SetWebTaskSchedulingState
 (
@@ -601,9 +600,7 @@ WebTaskSchedulingState
 *
 aState
 )
-{
-}
-virtual
+;
 mozilla
 :
 :
@@ -618,7 +615,7 @@ GetWebTaskSchedulingState
 const
 {
 return
-nullptr
+mWebTaskSchedulingState
 ;
 }
 virtual
@@ -1471,6 +1468,18 @@ dom
 Function
 >
 mByteLengthQueuingStrategySizeFunction
+;
+RefPtr
+<
+mozilla
+:
+:
+dom
+:
+:
+WebTaskSchedulingState
+>
+mWebTaskSchedulingState
 ;
 }
 ;
