@@ -151,6 +151,14 @@ ProducerReleaseImpl
 override
 ;
 virtual
+void
+ProducerReadReleaseImpl
+(
+)
+override
+{
+}
+virtual
 bool
 NeedsIndirectReads
 (
