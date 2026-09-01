@@ -221,7 +221,7 @@ snackbarState
 is
 IPProtectionSnackbarAction
 .
-ConnectionError
+ShowSnackbar
 -
 >
 state
@@ -232,7 +232,7 @@ snackbarState
 =
 SnackbarState
 .
-IPProtectionConnectionError
+IPProtectionShowSnackbar
 (
 action
 .
