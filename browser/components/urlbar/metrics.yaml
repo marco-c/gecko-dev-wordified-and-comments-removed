@@ -209,6 +209,7 @@ urlbar
 handoff
 urlbar_newtab
 urlbar_addonpage
+newtab_searchbar
 and
 searchbar
 .
@@ -1382,6 +1383,7 @@ urlbar
 handoff
 urlbar_newtab
 urlbar_addonpage
+newtab_searchbar
 and
 searchbar
 .
@@ -2322,6 +2324,7 @@ urlbar
 handoff
 urlbar_newtab
 urlbar_addonpage
+newtab_searchbar
 and
 searchbar
 .
@@ -3079,6 +3082,7 @@ urlbar
 handoff
 urlbar_newtab
 urlbar_addonpage
+newtab_searchbar
 and
 searchbar
 .
@@ -4707,6 +4711,7 @@ urlbar
 handoff
 urlbar_newtab
 urlbar_addonpage
+newtab_searchbar
 and
 searchbar
 .
@@ -4979,6 +4984,7 @@ urlbar
 handoff
 urlbar_newtab
 urlbar_addonpage
+newtab_searchbar
 and
 searchbar
 .
