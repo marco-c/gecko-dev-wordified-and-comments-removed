@@ -117,6 +117,14 @@ build
 "
                 
 "
+static
+-
+analysis
+-
+autotest
+"
+                
+"
 valgrind
 -
 test
