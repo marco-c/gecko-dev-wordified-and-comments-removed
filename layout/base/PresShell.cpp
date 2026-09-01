@@ -6251,13 +6251,6 @@ Revoke
 ;
 ClearApproximatelyVisibleFramesList
 (
-Some
-(
-OnNonvisible
-:
-:
-DiscardImages
-)
 )
 ;
 if
