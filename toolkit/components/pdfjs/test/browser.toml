@@ -726,6 +726,11 @@ file_pdf_download_link
 .
 html
 "
+"
+file_pdfjs_form
+.
+pdf
+"
 ]
 [
 "
