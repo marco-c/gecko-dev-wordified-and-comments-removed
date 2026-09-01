@@ -835,7 +835,9 @@ on
 projects
 :
 [
-trunk
+autoland
+-
+only
 ]
 flank
 -
@@ -1640,7 +1642,9 @@ on
 projects
 :
 [
-trunk
+autoland
+-
+only
 ]
 flank
 -
