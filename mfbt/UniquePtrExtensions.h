@@ -781,9 +781,16 @@ FileHandleHelper
 aOther
 )
 const
+{
+return
+mHandle
 =
-default
+=
+aOther
+.
+mHandle
 ;
+}
 private
 :
 FileHandleType
