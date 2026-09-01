@@ -97,9 +97,9 @@ mjs
 "
 ;
 import
-{
-getPlatform
-}
+*
+as
+UrlbarContentUtils
 from
 "
 chrome
@@ -1748,6 +1748,8 @@ deferred
 let
 isMacNavigation
 =
+UrlbarContentUtils
+.
 getPlatform
 (
 )
@@ -2411,6 +2413,8 @@ false
 let
 isMacDownNavigation
 =
+UrlbarContentUtils
+.
 getPlatform
 (
 )

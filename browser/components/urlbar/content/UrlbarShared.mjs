@@ -117,7 +117,9 @@ module
 *
 /
 import
-UrlbarContentURIUtils
+*
+as
+UrlbarContentUtils
 from
 "
 chrome
@@ -130,7 +132,7 @@ content
 /
 urlbar
 /
-UrlbarContentURIUtils
+UrlbarContentUtils
 .
 mjs
 "
@@ -5190,7 +5192,7 @@ MAX_TEXT_LENGTH
 ?
 uri
 :
-UrlbarContentURIUtils
+UrlbarContentUtils
 .
 unEscapeURIForUI
 (
@@ -5383,7 +5385,7 @@ href
 let
 displayString
 =
-UrlbarContentURIUtils
+UrlbarContentUtils
 .
 getDisplaySpec
 (
@@ -6288,7 +6290,7 @@ an
 input
 from
 *
-controller
+UrlbarContentUtils
 .
 getFixupPrimitives
 (
