@@ -201,6 +201,10 @@ video_header
 (
 video_header
 )
+rtp_packet_info
+(
+rtp_packet
+)
 {
 RTC_DCHECK_EQ
 (
