@@ -80,6 +80,10 @@ public
 :
 NS_DECL_ISUPPORTS
 NS_DECL_NSIALERTNOTIFICATION
+AlertNotification
+(
+)
+;
 protected
 :
 virtual
@@ -96,6 +100,9 @@ nsresult
 InitId
 (
 )
+;
+uint64_t
+mCountId
 ;
 nsString
 mId
