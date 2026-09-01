@@ -4391,6 +4391,14 @@ bool
 override
 {
 }
+void
+SetReceiveNonSenderRttEnabled
+(
+bool
+)
+override
+{
+}
 bool
 HasSource
 (

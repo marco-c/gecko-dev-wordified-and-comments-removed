@@ -4721,6 +4721,16 @@ sp
 =
 0
 ;
+virtual
+void
+SetReceiveNonSenderRttEnabled
+(
+bool
+enabled
+)
+=
+0
+;
 }
 ;
 }
