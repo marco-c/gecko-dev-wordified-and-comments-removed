@@ -1440,15 +1440,10 @@ RemoteWorkerControllerChild
 >
 mgr
 =
-mozilla
-:
-:
-ipc
-:
-:
-ActorCast
+static_cast
 <
 RemoteWorkerControllerChild
+*
 >
 (
 Manager

@@ -111,12 +111,6 @@ gmp
 ChildImpl
 =
 "
-mozilla
-:
-:
-gmp
-:
-:
 GMPVideoDecoderChild
 "
 ParentImpl

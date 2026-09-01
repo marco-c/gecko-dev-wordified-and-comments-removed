@@ -272,12 +272,6 @@ IndexKeyCursorResponse
 ChildImpl
 =
 "
-mozilla
-:
-:
-dom
-:
-:
 indexedDB
 :
 :

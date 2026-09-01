@@ -583,15 +583,10 @@ ContentParent
 *
 contentParent
 =
-mozilla
-:
-:
-ipc
-:
-:
-ActorCast
+static_cast
 <
 ContentParent
+*
 >
 (
 Manager

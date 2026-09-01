@@ -86,17 +86,11 @@ ManualDealloc
 ChildImpl
 =
 "
-mozilla
-:
-:
 RemoteSpellcheckEngineChild
 "
 ParentImpl
 =
 "
-mozilla
-:
-:
 RemoteSpellcheckEngineParent
 "
 ]

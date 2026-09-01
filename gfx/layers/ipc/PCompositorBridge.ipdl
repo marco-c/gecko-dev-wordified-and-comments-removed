@@ -800,12 +800,6 @@ PLayerTransaction
 ParentImpl
 =
 "
-mozilla
-:
-:
-layers
-:
-:
 CompositorBridgeParentBase
 "
 ]

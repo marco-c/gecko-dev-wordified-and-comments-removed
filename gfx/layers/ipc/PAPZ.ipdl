@@ -453,12 +453,6 @@ it
 ParentImpl
 =
 "
-mozilla
-:
-:
-layers
-:
-:
 RemoteContentController
 "
 ]

@@ -119,15 +119,10 @@ RemoteWorkerChild
 *
 actor
 =
-mozilla
-:
-:
-ipc
-:
-:
-ActorCast
+static_cast
 <
 RemoteWorkerChild
+*
 >
 (
 aActor

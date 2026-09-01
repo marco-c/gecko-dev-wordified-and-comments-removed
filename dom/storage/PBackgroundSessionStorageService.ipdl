@@ -70,12 +70,6 @@ dom
 ChildImpl
 =
 "
-mozilla
-:
-:
-dom
-:
-:
 SessionStorageService
 "
 ]

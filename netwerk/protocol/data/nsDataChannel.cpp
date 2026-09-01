@@ -756,13 +756,7 @@ ContentChild
 *
 cc
 =
-mozilla
-:
-:
-ipc
-:
-:
-ActorCast
+static_cast
 <
 mozilla
 :
@@ -771,6 +765,7 @@ dom
 :
 :
 ContentChild
+*
 >
 (
 gNeckoChild

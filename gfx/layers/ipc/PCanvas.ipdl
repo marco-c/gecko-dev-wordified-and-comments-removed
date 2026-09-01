@@ -246,12 +246,6 @@ drawing
 ParentImpl
 =
 "
-mozilla
-:
-:
-layers
-:
-:
 CanvasTranslator
 "
 ]

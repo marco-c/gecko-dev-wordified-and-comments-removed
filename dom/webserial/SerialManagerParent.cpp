@@ -2063,15 +2063,10 @@ MakeRefPtr
 SerialPermissionRequest
 >
 (
-mozilla
-:
-:
-ipc
-:
-:
-ActorCast
+static_cast
 <
 WindowGlobalParent
+*
 >
 (
 Manager

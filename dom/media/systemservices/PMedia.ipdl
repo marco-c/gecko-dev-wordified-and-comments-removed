@@ -85,12 +85,6 @@ ManualDealloc
 ChildImpl
 =
 "
-mozilla
-:
-:
-media
-:
-:
 Child
 "
 ParentImpl

@@ -3540,15 +3540,10 @@ nullptr
 ;
 }
 return
-mozilla
-:
-:
-ipc
-:
-:
-ActorCast
+static_cast
 <
 RemoteMediaManagerChild
+*
 >
 (
 mChild
