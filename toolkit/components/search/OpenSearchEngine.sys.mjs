@@ -897,6 +897,9 @@ getSubmission
 this
 .
 queryCharset
+"
+default
+"
 )
 .
 uri
