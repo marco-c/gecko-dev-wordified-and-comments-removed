@@ -46,6 +46,8 @@ SpanningCellSorter
 SpanningCellSorter
 (
 )
+=
+default
 ;
 struct
 Item

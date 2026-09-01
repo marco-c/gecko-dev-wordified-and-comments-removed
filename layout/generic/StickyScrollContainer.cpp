@@ -71,16 +71,6 @@ aScrollContainerFrame
 {
 }
 StickyScrollContainer
-:
-:
-~
-StickyScrollContainer
-(
-)
-=
-default
-;
-StickyScrollContainer
 *
 StickyScrollContainer
 :

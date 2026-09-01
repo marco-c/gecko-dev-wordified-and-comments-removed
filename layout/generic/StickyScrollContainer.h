@@ -167,6 +167,8 @@ nsPoint
 StickyScrollContainer
 (
 )
+=
+default
 ;
 const
 DepthOrderedFrameList
