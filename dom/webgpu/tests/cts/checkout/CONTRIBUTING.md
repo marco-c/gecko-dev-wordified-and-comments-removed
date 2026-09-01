@@ -111,7 +111,7 @@ txt
 *
 *
 Contributions
-will
+may
 also
 be
 exported
