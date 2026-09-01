@@ -3,6 +3,9 @@
 update
 "
 ping
+(
+obsolete
+)
 This
 opt
 -
