@@ -283,7 +283,7 @@ callsFake
 (
 (
 {
-url
+loadRequest
 where
 }
 )
@@ -299,7 +299,7 @@ restore
 resolve
 (
 [
-url
+loadRequest
 where
 ]
 )
@@ -645,7 +645,7 @@ callsFake
 (
 (
 {
-url
+loadRequest
 where
 }
 )
@@ -665,7 +665,7 @@ restore
 resolve
 (
 [
-url
+loadRequest
 where
 ]
 )
@@ -737,6 +737,10 @@ promise
 [
 0
 ]
+.
+urlLoad
+.
+url
 )
 ;
 Assert
