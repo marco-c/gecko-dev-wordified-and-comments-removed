@@ -214,6 +214,13 @@ js
 ]
 [
 "
+browser_testSharePanelTelemetry
+.
+js
+"
+]
+[
+"
 browser_testSharePanelWindowsShare
 .
 js
