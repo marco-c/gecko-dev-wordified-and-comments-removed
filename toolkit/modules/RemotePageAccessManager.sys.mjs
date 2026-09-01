@@ -843,6 +843,11 @@ SearchCTA
 :
 Search
 "
+"
+SearchCTA
+:
+SearchAborted
+"
 ]
 RPMCheckAlternateHostAvailable
 :
