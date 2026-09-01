@@ -119,18 +119,6 @@ plugins
 .
 ksp
 )
-alias
-(
-libs
-.
-plugins
-.
-python
-.
-envs
-.
-plugin
-)
 }
 android
 {
@@ -457,8 +445,6 @@ libs
 androidx
 .
 core
-.
-ktx
 implementation
 libs
 .

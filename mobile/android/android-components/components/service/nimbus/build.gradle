@@ -101,18 +101,6 @@ dependency
 .
 analysis
 )
-alias
-(
-libs
-.
-plugins
-.
-python
-.
-envs
-.
-plugin
-)
 id
 '
 org
@@ -338,8 +326,6 @@ libs
 androidx
 .
 core
-.
-ktx
 implementation
 libs
 .
