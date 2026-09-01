@@ -536,10 +536,12 @@ Object
 freeze
 (
 {
-OK
+KEYWORDS_FOUND
 :
 "
-ok
+keywords
+-
+found
 "
 NO_PATH
 :
@@ -1543,7 +1545,7 @@ reason
 :
 SEARCH_CTA_REASONS
 .
-OK
+KEYWORDS_FOUND
 }
 ;
 }

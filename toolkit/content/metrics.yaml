@@ -2925,9 +2925,7 @@ paired
 with
 search_cta_action
 .
-"
-ok
-"
+keywords_found
 is
 a
 keyword
@@ -3047,7 +3045,7 @@ content
 labels
 :
 -
-ok
+keywords_found
 -
 no_path
 -
