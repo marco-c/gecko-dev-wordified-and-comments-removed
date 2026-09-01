@@ -2824,6 +2824,10 @@ return
 IsFollowedByCompositionEnd
 (
 mOriginalMessage
+?
+mOriginalMessage
+:
+mMessage
 )
 ;
 }
@@ -3709,11 +3713,6 @@ eNormal
 ;
 bool
 mRelativeToInsertionPoint
-=
-false
-;
-bool
-mIsFirstCharFallbackRect
 =
 false
 ;

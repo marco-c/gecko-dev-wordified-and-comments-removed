@@ -257,6 +257,13 @@ html
 ]
 [
 "
+test_blur_in_compositionend
+.
+html
+"
+]
+[
+"
 test_bug46555
 .
 html
