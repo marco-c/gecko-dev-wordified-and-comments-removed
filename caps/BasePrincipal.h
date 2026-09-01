@@ -671,15 +671,6 @@ flags
 override
 ;
 NS_IMETHOD
-GetIsAddonPrincipal
-(
-bool
-*
-aResult
-)
-override
-;
-NS_IMETHOD
 GetIsAddonOrExpandedAddonPrincipal
 (
 bool

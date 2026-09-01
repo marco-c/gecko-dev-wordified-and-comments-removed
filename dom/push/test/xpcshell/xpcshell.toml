@@ -400,7 +400,14 @@ js
 ]
 [
 "
-test_service
+test_service_child
+.
+js
+"
+]
+[
+"
+test_service_parent
 .
 js
 "
