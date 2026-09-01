@@ -8591,6 +8591,28 @@ WIN32_CONSOLE_EXE_LDFLAGS
 ]
                 
 )
+                
+if
+"
+WINCONSOLE
+"
+in
+context
+:
+                    
+context
+[
+"
+DEFINES
+"
+]
+[
+"
+MOZ_WINCONSOLE
+"
+]
+=
+True
             
 else
 :
