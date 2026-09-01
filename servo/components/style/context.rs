@@ -2837,6 +2837,10 @@ StyleBloom
 E
 >
 pub
+current_dom_depth
+:
+usize
+pub
 tasks
 :
 SequentialTaskList
@@ -2906,6 +2910,9 @@ StyleBloom
 new
 (
 )
+current_dom_depth
+:
+0
 tasks
 :
 SequentialTaskList
