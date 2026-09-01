@@ -717,7 +717,7 @@ location
 "
 about
 :
-newtab
+blocked
 "
 ;
 }
