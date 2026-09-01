@@ -3563,7 +3563,7 @@ rust
 minidump
 0
 .
-25
+27
 .
 0
 source
@@ -3599,7 +3599,7 @@ minidump
 /
 revision
 :
-4bc0e1bb3a19f22d5b7c4057112197ac5f6ea2d9
+4adf5555b2ab844f23c52982fc202357ff882695
 fix
 -
 stacks
