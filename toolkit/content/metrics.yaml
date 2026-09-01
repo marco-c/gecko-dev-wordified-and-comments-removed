@@ -1055,6 +1055,9 @@ end
 type
 :
 boolean
+telemetry_mirror
+:
+SecurityUiCerterror_Load_Aboutcerterror
 click_advanced_button
 :
 type
