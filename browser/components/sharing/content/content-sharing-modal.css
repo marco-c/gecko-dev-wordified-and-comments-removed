@@ -307,9 +307,11 @@ var
 (
 -
 -
-dimension
+size
 -
-400
+layout
+-
+large
 )
 ;
 display
