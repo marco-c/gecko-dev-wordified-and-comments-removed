@@ -679,6 +679,11 @@ textbox
 -
 contextmenu
 "
+showservicesmenu
+=
+"
+true
+"
 >
 <
 menuitem
