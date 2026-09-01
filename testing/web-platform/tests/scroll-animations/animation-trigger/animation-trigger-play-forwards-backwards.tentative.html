@@ -437,6 +437,7 @@ scroller
 const
 reset
 =
+async
 (
 target
 )
@@ -473,11 +474,12 @@ currentTime
 =
 0
 ;
+return
+setScrollTop
+(
 scroller
-.
-scrollTop
-=
 0
+)
 ;
 }
 promise_test
@@ -501,6 +503,7 @@ target_forwards
 "
 )
 ;
+await
 reset
 (
 target
@@ -802,6 +805,7 @@ target_backwards
 "
 )
 ;
+await
 reset
 (
 target

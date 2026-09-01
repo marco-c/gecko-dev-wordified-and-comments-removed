@@ -750,11 +750,13 @@ window
 .
 requestAnimationFrame
 (
+async
 (
 )
 =
 >
 {
+await
 callback
 (
 )
