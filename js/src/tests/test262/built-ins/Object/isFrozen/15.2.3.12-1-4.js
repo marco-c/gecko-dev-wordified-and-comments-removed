@@ -1,3 +1,7 @@
+assert
+.
+sameValue
+(
 Object
 .
 isFrozen
@@ -5,6 +9,8 @@ isFrozen
 "
 abc
 "
+)
+true
 )
 ;
 reportCompare

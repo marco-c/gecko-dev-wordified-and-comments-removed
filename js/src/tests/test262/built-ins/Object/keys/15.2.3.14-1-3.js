@@ -1,3 +1,7 @@
+assert
+.
+compareArray
+(
 Object
 .
 keys
@@ -5,6 +9,18 @@ keys
 '
 abc
 '
+)
+[
+"
+0
+"
+"
+1
+"
+"
+2
+"
+]
 )
 ;
 reportCompare

@@ -1,8 +1,15 @@
+assert
+.
+compareArray
+(
 Object
 .
 keys
 (
 true
+)
+[
+]
 )
 ;
 reportCompare

@@ -1,7 +1,13 @@
+assert
+.
+sameValue
+(
 Object
 .
 isFrozen
 (
+true
+)
 true
 )
 ;

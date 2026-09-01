@@ -1,8 +1,14 @@
+assert
+.
+sameValue
+(
 Object
 .
 isExtensible
 (
 null
+)
+false
 )
 ;
 reportCompare

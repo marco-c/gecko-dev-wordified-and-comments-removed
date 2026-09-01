@@ -1,3 +1,7 @@
+assert
+.
+sameValue
+(
 Object
 .
 isExtensible
@@ -5,6 +9,8 @@ isExtensible
 "
 abc
 "
+)
+false
 )
 ;
 reportCompare
