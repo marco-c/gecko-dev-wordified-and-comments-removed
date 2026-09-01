@@ -549,6 +549,17 @@ ColorSwatch
 "
 Violet
 Desaturated
+90A40
+"
+NovaColors
+.
+VioletDesaturated90A40
+)
+ColorSwatch
+(
+"
+Violet
+Desaturated
 90A50
 "
 NovaColors

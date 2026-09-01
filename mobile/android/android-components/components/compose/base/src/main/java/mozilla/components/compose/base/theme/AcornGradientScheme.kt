@@ -790,7 +790,7 @@ ColorStop
 4f
 NovaColors
 .
-VioletDesaturated90A50
+VioletDesaturated90A40
 )
 ColorStop
 (
@@ -844,14 +844,14 @@ ColorStop
 4f
 NovaColors
 .
-VioletDesaturated90
+VioletDesaturated80
 )
 ColorStop
 (
 1f
 NovaColors
 .
-VioletDesaturated90
+VioletDesaturated80
 )
 )
 )
