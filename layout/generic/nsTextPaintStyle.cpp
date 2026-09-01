@@ -1770,7 +1770,7 @@ NS_GET_B
 (
 textColor
 )
-127
+178
 )
 ;
 }
