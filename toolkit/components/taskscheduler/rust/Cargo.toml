@@ -39,13 +39,6 @@ log
 .
 4
 "
-mozbuild
-=
-"
-0
-.
-1
-"
 nserror
 =
 {

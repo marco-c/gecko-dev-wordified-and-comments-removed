@@ -64,7 +64,7 @@ msixcomserver
 .
 dll
 EXPORTS
-DllGetActivationFactory
+DllGetClassObject
 PRIVATE
 DllCanUnloadNow
 PRIVATE

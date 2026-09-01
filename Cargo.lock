@@ -2753,9 +2753,6 @@ dependencies
 log
 "
 "
-mozbuild
-"
-"
 mozilla
 -
 central
@@ -28406,11 +28403,6 @@ dependencies
 =
 [
 "
-futures
--
-executor
-"
-"
 mozbuild
 "
 "
@@ -28429,11 +28421,6 @@ windows
 windows
 -
 core
-"
-"
-windows
--
-future
 "
 ]
 [
