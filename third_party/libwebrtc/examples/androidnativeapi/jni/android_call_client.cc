@@ -2018,3 +2018,7 @@ AndroidCallClient
 ;
 }
 }
+DEFINE_JNI
+(
+CallClient
+)

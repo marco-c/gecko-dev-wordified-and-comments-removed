@@ -3745,3 +3745,7 @@ j_voip_client
 ;
 }
 }
+DEFINE_JNI
+(
+VoipClient
+)
