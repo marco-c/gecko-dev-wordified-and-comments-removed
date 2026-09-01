@@ -201,6 +201,9 @@ const
 nsAString
 &
 aTitle
+nsIURI
+*
+aNavigate
 )
 ;
 static
@@ -234,6 +237,12 @@ mAction
 ;
 nsString
 mTitle
+;
+nsCOMPtr
+<
+nsIURI
+>
+mNavigate
 ;
 }
 ;
