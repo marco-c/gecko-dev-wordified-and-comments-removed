@@ -1203,11 +1203,6 @@ v7a
 }
 run
 :
-clone
--
-with
-:
-hg
 actions
 :
 [
@@ -1459,11 +1454,6 @@ v7a
 }
 run
 :
-clone
--
-with
-:
-hg
 actions
 :
 [
@@ -1650,11 +1640,6 @@ v7a
 }
 run
 :
-clone
--
-with
-:
-hg
 actions
 :
 [

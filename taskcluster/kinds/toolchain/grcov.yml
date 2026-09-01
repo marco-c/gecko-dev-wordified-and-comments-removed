@@ -145,11 +145,6 @@ grcov
 )
 run
 :
-clone
--
-with
-:
-hg
 arguments
 :
 [
@@ -208,11 +203,6 @@ grcov
 )
 run
 :
-clone
--
-with
-:
-hg
 arguments
 :
 [
@@ -269,11 +259,6 @@ grcov
 )
 run
 :
-clone
--
-with
-:
-hg
 arguments
 :
 [

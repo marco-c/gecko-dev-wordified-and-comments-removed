@@ -389,11 +389,6 @@ all
 opt
 run
 :
-clone
--
-with
-:
-hg
 pre
 -
 commands
@@ -537,11 +532,6 @@ for
 Fenix
 run
 :
-clone
--
-with
-:
-hg
 pre
 -
 commands

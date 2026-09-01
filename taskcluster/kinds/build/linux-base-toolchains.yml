@@ -241,11 +241,6 @@ FORCE_GCC
 '
 run
 :
-clone
--
-with
-:
-hg
 using
 :
 mozharness
@@ -453,11 +448,6 @@ FORCE_GCC
 '
 run
 :
-clone
--
-with
-:
-hg
 using
 :
 mozharness
@@ -690,11 +680,6 @@ DISABLE_CLANG_PLUGIN
 '
 run
 :
-clone
--
-with
-:
-hg
 using
 :
 mozharness
@@ -903,11 +888,6 @@ DISABLE_CLANG_PLUGIN
 '
 run
 :
-clone
--
-with
-:
-hg
 using
 :
 mozharness

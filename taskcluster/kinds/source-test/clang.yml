@@ -273,11 +273,6 @@ tidy
 )
 run
 :
-clone
--
-with
-:
-hg
 cwd
 :
 '
@@ -440,11 +435,6 @@ external
 )
 run
 :
-clone
--
-with
-:
-hg
 cwd
 :
 '
@@ -690,11 +680,6 @@ tidy
 '
 run
 :
-clone
--
-with
-:
-hg
 cwd
 :
 '

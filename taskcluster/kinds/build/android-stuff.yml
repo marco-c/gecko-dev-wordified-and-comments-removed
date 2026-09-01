@@ -301,11 +301,6 @@ time
 7200
 run
 :
-clone
--
-with
-:
-hg
 using
 :
 mozharness

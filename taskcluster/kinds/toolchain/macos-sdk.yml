@@ -199,11 +199,6 @@ sdk13
 )
 run
 :
-clone
--
-with
-:
-hg
 arguments
 :
 -
@@ -302,11 +297,6 @@ sdk26
 )
 run
 :
-clone
--
-with
-:
-hg
 arguments
 :
 -
@@ -470,11 +460,6 @@ toolchain
 false
 run
 :
-clone
--
-with
-:
-hg
 script
 :
 private_local_toolchain
@@ -638,11 +623,6 @@ toolchain
 false
 run
 :
-clone
--
-with
-:
-hg
 script
 :
 private_local_toolchain

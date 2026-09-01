@@ -343,11 +343,6 @@ gecko
 :
 run
 :
-clone
--
-with
-:
-hg
 gradlew
 :
 -
@@ -387,11 +382,6 @@ system
 :
 run
 :
-clone
--
-with
-:
-hg
 gradlew
 :
 [

@@ -314,11 +314,6 @@ PERFHERDER_EXTRA_OPTIONS
 plain
 run
 :
-clone
--
-with
-:
-hg
 actions
 :
 [
@@ -470,11 +465,6 @@ PERFHERDER_EXTRA_OPTIONS
 plain
 run
 :
-clone
--
-with
-:
-hg
 actions
 :
 [
@@ -625,11 +615,6 @@ PERFHERDER_EXTRA_OPTIONS
 rusttests
 run
 :
-clone
--
-with
-:
-hg
 actions
 :
 [
@@ -768,11 +753,6 @@ PERFHERDER_EXTRA_OPTIONS
 rusttests
 run
 :
-clone
--
-with
-:
-hg
 actions
 :
 [

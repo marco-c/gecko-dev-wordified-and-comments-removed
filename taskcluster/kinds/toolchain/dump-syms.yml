@@ -147,11 +147,6 @@ dump_syms
 )
 run
 :
-clone
--
-with
-:
-hg
 arguments
 :
 [
@@ -267,11 +262,6 @@ docker
 amd
 run
 :
-clone
--
-with
-:
-hg
 arguments
 :
 [
@@ -323,11 +313,6 @@ dump_syms
 )
 run
 :
-clone
--
-with
-:
-hg
 arguments
 :
 [
@@ -377,11 +362,6 @@ dump_syms
 )
 run
 :
-clone
--
-with
-:
-hg
 arguments
 :
 [

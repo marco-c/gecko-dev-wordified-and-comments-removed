@@ -128,11 +128,6 @@ tools
 )
 run
 :
-clone
--
-with
-:
-hg
 script
 :
 build

@@ -232,11 +232,6 @@ tb
 rust
 run
 :
-clone
--
-with
-:
-hg
 command
 :
 '

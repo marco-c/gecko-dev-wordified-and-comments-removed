@@ -271,11 +271,6 @@ fenix
 "
 run
 :
-clone
--
-with
-:
-hg
 gradle
 -
 package

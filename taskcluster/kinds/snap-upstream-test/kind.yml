@@ -308,11 +308,6 @@ wayland
 snap
 run
 :
-clone
--
-with
-:
-hg
 command
 :
 >
@@ -407,11 +402,6 @@ wayland
 snap
 run
 :
-clone
--
-with
-:
-hg
 command
 :
 >
@@ -505,11 +495,6 @@ wayland
 snap
 run
 :
-clone
--
-with
-:
-hg
 command
 :
 >
@@ -604,11 +589,6 @@ wayland
 snap
 run
 :
-clone
--
-with
-:
-hg
 command
 :
 >

@@ -133,11 +133,6 @@ size
 )
 run
 :
-clone
--
-with
-:
-hg
 arguments
 :
 [
@@ -208,11 +203,6 @@ size
 )
 run
 :
-clone
--
-with
-:
-hg
 arguments
 :
 [

@@ -141,11 +141,6 @@ cbx
 )
 run
 :
-clone
--
-with
-:
-hg
 arguments
 :
 [

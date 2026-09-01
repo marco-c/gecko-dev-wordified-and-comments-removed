@@ -152,11 +152,6 @@ hostutils
 manifest
 run
 :
-clone
--
-with
-:
-hg
 resources
 :
 -

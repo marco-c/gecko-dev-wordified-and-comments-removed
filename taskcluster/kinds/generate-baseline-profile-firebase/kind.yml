@@ -1088,11 +1088,6 @@ extract
 false
 run
 :
-clone
--
-with
-:
-hg
 secrets
 :
 -

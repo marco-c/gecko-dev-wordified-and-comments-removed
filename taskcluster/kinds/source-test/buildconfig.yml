@@ -328,11 +328,6 @@ yml
 "
 run
 :
-clone
--
-with
-:
-hg
 command
 :
 '
@@ -465,11 +460,6 @@ yml
 "
 run
 :
-clone
--
-with
-:
-hg
 command
 :
 '
@@ -596,11 +586,6 @@ yml
 "
 run
 :
-clone
--
-with
-:
-hg
 command
 :
 '

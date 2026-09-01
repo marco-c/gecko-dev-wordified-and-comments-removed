@@ -539,11 +539,6 @@ manifest
 "
 run
 :
-clone
--
-with
-:
-hg
 actions
 :
 [

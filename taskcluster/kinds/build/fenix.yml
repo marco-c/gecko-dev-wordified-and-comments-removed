@@ -420,11 +420,6 @@ type
 file
 run
 :
-clone
--
-with
-:
-hg
 custom
 -
 build

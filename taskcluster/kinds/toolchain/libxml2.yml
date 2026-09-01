@@ -142,11 +142,6 @@ libxml2
 )
 run
 :
-clone
--
-with
-:
-hg
 arguments
 :
 [
@@ -186,11 +181,6 @@ libxml2
 )
 run
 :
-clone
--
-with
-:
-hg
 arguments
 :
 [
@@ -230,11 +220,6 @@ libxml2
 )
 run
 :
-clone
--
-with
-:
-hg
 arguments
 :
 [
@@ -279,11 +264,6 @@ libxml2
 )
 run
 :
-clone
--
-with
-:
-hg
 arguments
 :
 [

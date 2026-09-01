@@ -400,11 +400,6 @@ bouncer
 check
 run
 :
-clone
--
-with
-:
-hg
 config
 :
 by
@@ -481,11 +476,6 @@ bouncer
 check
 run
 :
-clone
--
-with
-:
-hg
 config
 :
 -

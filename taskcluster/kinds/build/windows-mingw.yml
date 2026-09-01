@@ -197,11 +197,6 @@ MOZ_AUTOMATION_PACKAGE_TESTS
 "
 run
 :
-clone
--
-with
-:
-hg
 config
 :
 -
@@ -403,11 +398,6 @@ MOZ_AUTOMATION_PACKAGE_TESTS
 "
 run
 :
-clone
--
-with
-:
-hg
 config
 :
 -
@@ -611,11 +601,6 @@ MOZ_AUTOMATION_PACKAGE_TESTS
 "
 run
 :
-clone
--
-with
-:
-hg
 config
 :
 -
@@ -817,11 +802,6 @@ MOZ_AUTOMATION_PACKAGE_TESTS
 "
 run
 :
-clone
--
-with
-:
-hg
 config
 :
 -

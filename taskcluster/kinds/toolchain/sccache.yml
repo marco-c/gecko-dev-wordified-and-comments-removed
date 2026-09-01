@@ -158,11 +158,6 @@ sccache
 )
 run
 :
-clone
--
-with
-:
-hg
 arguments
 :
 -
@@ -229,11 +224,6 @@ sccache
 )
 run
 :
-clone
--
-with
-:
-hg
 arguments
 :
 -
@@ -297,11 +287,6 @@ time
 1800
 run
 :
-clone
--
-with
-:
-hg
 arguments
 :
 -
@@ -382,11 +367,6 @@ CARGO_FEATURE_PREFER_INTRINSICS
 '
 run
 :
-clone
--
-with
-:
-hg
 arguments
 :
 -
