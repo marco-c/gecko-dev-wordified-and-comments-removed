@@ -2170,6 +2170,7 @@ Float32Array
 }
 *
 /
+export
 function
 extractVectorFromTensor
 (
