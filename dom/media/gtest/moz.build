@@ -638,6 +638,11 @@ TestGMPCrossOrigin
 cpp
 "
 "
+TestGMPPluginScan
+.
+cpp
+"
+"
 TestGMPRemoveAndDelete
 .
 cpp
