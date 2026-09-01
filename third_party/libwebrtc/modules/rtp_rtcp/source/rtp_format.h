@@ -160,8 +160,8 @@ int
 >
 SplitAboutEqually
 (
-int
-payload_len
+size_t
+payload_size
 const
 PayloadSizeLimits
 &
