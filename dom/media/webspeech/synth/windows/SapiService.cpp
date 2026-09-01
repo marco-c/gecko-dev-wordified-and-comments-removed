@@ -232,8 +232,9 @@ private
 SapiCallback
 (
 )
-{
-}
+=
+default
+;
 float
 GetTimeDurationFromStart
 (
@@ -867,8 +868,9 @@ SapiService
 SapiService
 (
 )
-{
-}
+=
+default
+;
 bool
 SapiService
 :

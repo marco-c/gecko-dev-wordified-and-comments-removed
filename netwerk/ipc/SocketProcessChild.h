@@ -176,7 +176,7 @@ IPCResult
 RecvInit
 (
 const
-SocketPorcessInitAttributes
+SocketProcessInitAttributes
 &
 aAttributes
 )

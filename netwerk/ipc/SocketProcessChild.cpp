@@ -1402,7 +1402,7 @@ SocketProcessChild
 RecvInit
 (
 const
-SocketPorcessInitAttributes
+SocketProcessInitAttributes
 &
 aAttributes
 )

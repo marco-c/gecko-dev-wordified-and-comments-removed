@@ -622,7 +622,7 @@ info
 }
 ;
 struct
-SocketPorcessInitAttributes
+SocketProcessInitAttributes
 {
 bool
 mOffline
@@ -1019,7 +1019,7 @@ child
 async
 Init
 (
-SocketPorcessInitAttributes
+SocketProcessInitAttributes
 aAttributes
 )
 ;
