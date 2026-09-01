@@ -628,11 +628,11 @@ true
 >
 Pair
 (
-R
+iconsR
 .
 drawable
 .
-mozac_ui_infinite_tabcounter_box
+mozac_ic_infinite_tabs_24
 TabCounterTestTags
 .
 TAB_COUNTER_INFINITY_ICON
@@ -642,11 +642,11 @@ false
 >
 Pair
 (
-R
+iconsR
 .
 drawable
 .
-mozac_ui_tabcounter_box
+mozac_ic_tab_24
 TabCounterTestTags
 .
 TAB_COUNTER_ICON
