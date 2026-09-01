@@ -586,16 +586,7 @@ head_git_rev
                 
 head_ref
 =
-config
-.
-params
-.
-get
-(
-"
-head_git_ref
-"
-)
+None
                 
 type
 =

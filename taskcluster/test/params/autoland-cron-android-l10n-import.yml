@@ -320,9 +320,6 @@ firefox
 head_git_rev
 :
 b55a8f9566f4ecfdba1440257c81684833598b4b
-head_git_ref
-:
-autoland
 head_ref
 :
 940df9f637e9e936b14e2618013bdb60c6698c9c

@@ -394,9 +394,6 @@ firefox
 head_git_rev
 :
 40f2f8fddda522544b91b7d57f9ee80d8db1fbeb
-head_git_ref
-:
-beta
 head_ref
 :
 9d0d2ada249fc5e3c685b695ffb7187c4e3704f3

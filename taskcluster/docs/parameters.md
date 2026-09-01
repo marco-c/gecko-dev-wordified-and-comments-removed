@@ -345,16 +345,6 @@ a
 Mercurial
 repository
 .
-head_git_ref
-:
-Optionally
-the
-git
-ref
-associated
-with
-head_git_rev
-.
 base_ref
 :
 Reference
