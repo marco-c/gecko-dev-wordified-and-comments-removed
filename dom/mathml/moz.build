@@ -81,6 +81,11 @@ dom
 =
 [
 "
+MathMLAnchorElement
+.
+h
+"
+"
 MathMLElement
 .
 h
@@ -90,6 +95,11 @@ UNIFIED_SOURCES
 +
 =
 [
+"
+MathMLAnchorElement
+.
+cpp
+"
 "
 MathMLElement
 .

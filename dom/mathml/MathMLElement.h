@@ -58,7 +58,6 @@ nsStyledElement
 ;
 class
 MathMLElement
-final
 :
 public
 MathMLElementBase

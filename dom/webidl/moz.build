@@ -4892,6 +4892,11 @@ LoginStatus
 webidl
 "
 "
+MathMLAnchorElement
+.
+webidl
+"
+"
 MathMLElement
 .
 webidl
