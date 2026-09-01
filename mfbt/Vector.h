@@ -141,7 +141,6 @@ template
 size_t
 EltSize
 >
-static
 bool
 CapacityHasExcessSpace
 (
