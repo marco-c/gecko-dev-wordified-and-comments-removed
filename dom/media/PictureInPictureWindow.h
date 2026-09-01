@@ -134,6 +134,15 @@ return
 mOpened
 ;
 }
+gfx
+:
+:
+IntSize
+VideoSizeForRFP
+(
+)
+const
+;
 WeakPtr
 <
 HTMLVideoElement
