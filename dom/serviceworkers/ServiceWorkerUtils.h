@@ -226,6 +226,14 @@ ErrorResult
 aRv
 )
 ;
+bool
+IsServiceWorkersDisabledByPolicy
+(
+nsIURI
+*
+aURI
+)
+;
 void
 ServiceWorkerScopeAndScriptAreValid
 (
