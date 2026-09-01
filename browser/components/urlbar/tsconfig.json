@@ -65,6 +65,15 @@ mjs
 "
 tests
 /
+NewtabSearchbarTestUtils
+.
+sys
+.
+mjs
+"
+"
+tests
+/
 UrlbarTestUtils
 .
 sys

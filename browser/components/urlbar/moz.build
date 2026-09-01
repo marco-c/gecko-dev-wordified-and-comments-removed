@@ -648,6 +648,15 @@ mjs
 "
 tests
 /
+NewtabSearchbarTestUtils
+.
+sys
+.
+mjs
+"
+"
+tests
+/
 quicksuggest
 /
 GeolocationTestUtils
