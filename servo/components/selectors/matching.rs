@@ -1902,6 +1902,7 @@ inline
 always
 )
 ]
+pub
 fn
 matches_complex_selector
 <
@@ -1965,6 +1966,15 @@ context
 is_nested
 (
 )
+&
+&
+rightmost
+=
+=
+SubjectOrPseudoElement
+:
+:
+Yes
 {
 match
 *
@@ -3235,6 +3245,7 @@ Copy
 PartialEq
 )
 ]
+pub
 enum
 SubjectOrPseudoElement
 {

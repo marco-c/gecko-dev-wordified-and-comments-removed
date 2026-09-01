@@ -260,6 +260,21 @@ ENABLED_BY_PREF
 )
         
 if
+self
+.
+argument
+:
+            
+flags
+.
+append
+(
+"
+HAS_ARGUMENT
+"
+)
+        
+if
 isinstance
 (
 self
