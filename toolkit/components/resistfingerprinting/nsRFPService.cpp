@@ -14928,6 +14928,12 @@ EXEMPTED_DOMAINS_PREF_NAME
 sExemptedDomainsLowercase
 )
 ;
+ToLowerCase
+(
+*
+sExemptedDomainsLowercase
+)
+;
 Preferences
 :
 :
@@ -14951,6 +14957,12 @@ Preferences
 GetCString
 (
 EXEMPTED_DOMAINS_PREF_NAME
+*
+sExemptedDomainsLowercase
+)
+;
+ToLowerCase
+(
 *
 sExemptedDomainsLowercase
 )
