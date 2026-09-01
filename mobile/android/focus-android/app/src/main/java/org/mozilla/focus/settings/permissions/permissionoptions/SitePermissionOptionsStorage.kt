@@ -159,7 +159,6 @@ SitePermissionOption
 /
 *
 *
-*
 Storage
 for
 site
@@ -181,7 +180,6 @@ Context
 /
 *
 *
-*
 Return
 the
 label
@@ -192,7 +190,6 @@ Option
 selected
 that
 will
-*
 appear
 in
 Site
@@ -248,7 +245,6 @@ phone_feature_blocked_by_android
 /
 *
 *
-*
 Checks
 if
 the
@@ -292,7 +288,6 @@ asIterable
 /
 *
 *
-*
 Returns
 the
 localized
@@ -327,7 +322,6 @@ labelRes
 )
 }
 /
-*
 *
 *
 Return
@@ -488,7 +482,6 @@ BlockAudioVideo
 /
 *
 *
-*
 Return
 the
 default
@@ -596,7 +589,6 @@ BlockAudioOnly
 /
 *
 *
-*
 Return
 the
 user
@@ -616,7 +608,6 @@ user
 doesn
 '
 t
-*
 select
 one
 *
@@ -754,7 +745,6 @@ sitePermission
 }
 }
 /
-*
 *
 *
 Returns
@@ -1064,7 +1054,6 @@ ALLOWED
 /
 *
 *
-*
 Returns
 the
 [
@@ -1237,7 +1226,6 @@ BLOCKED
 }
 }
 /
-*
 *
 *
 Checks

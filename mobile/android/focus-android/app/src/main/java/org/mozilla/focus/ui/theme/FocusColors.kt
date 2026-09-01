@@ -98,7 +98,6 @@ Material
 color
 theme
 .
-*
 Colors
 here
 should
@@ -107,6 +106,7 @@ added
 with
 consideration
 only
+*
 when
 an
 existing

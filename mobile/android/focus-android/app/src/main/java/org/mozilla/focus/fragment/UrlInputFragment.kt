@@ -564,7 +564,6 @@ crash
 in
 Focus
 .
-*
 This
 can
 be
@@ -590,7 +589,6 @@ Exception
 (
 )
 /
-*
 *
 *
 Fragment
@@ -707,7 +705,6 @@ provided
 tabId
 ]
 .
-*
 This
 is
 used
@@ -720,6 +717,7 @@ UrlInputFragment
 ]
 for
 an
+*
 existing
 tab
 session
@@ -1857,13 +1855,13 @@ dismiss
 the
 fragment
 .
-*
 Otherwise
 it
 will
 allow
 the
 default
+*
 back
 button
 behavior

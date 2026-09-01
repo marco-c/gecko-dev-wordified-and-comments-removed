@@ -69,7 +69,6 @@ home
 /
 *
 *
-*
 Represents
 the
 items
@@ -88,7 +87,6 @@ HomeMenuItem
 /
 *
 *
-*
 Menu
 item
 for
@@ -105,7 +103,6 @@ HomeMenuItem
 (
 )
 /
-*
 *
 *
 Menu

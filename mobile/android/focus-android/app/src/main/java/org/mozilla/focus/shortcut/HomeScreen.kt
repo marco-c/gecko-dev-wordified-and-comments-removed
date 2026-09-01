@@ -133,6 +133,12 @@ net
 .
 toUri
 import
+java
+.
+util
+.
+UUID
+import
 kotlinx
 .
 coroutines
@@ -198,14 +204,7 @@ focus
 state
 .
 AppAction
-import
-java
-.
-util
-.
-UUID
 /
-*
 *
 *
 Helper
@@ -248,7 +247,6 @@ REQUEST_DESKTOP
 request_desktop
 "
 /
-*
 *
 *
 Checks
@@ -345,7 +343,6 @@ isPinningSupported
 }
 }
 /
-*
 *
 *
 Create
@@ -454,13 +451,13 @@ add
 the
 shortcut
 manually
-*
 or
 let
 the
 system
 place
 it
+*
 automatically
 .
 *
@@ -629,7 +626,6 @@ return
 shortcutIntent
 }
 /
-*
 *
 *
 Generates

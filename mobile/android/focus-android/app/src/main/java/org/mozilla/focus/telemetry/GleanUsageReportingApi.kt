@@ -67,7 +67,6 @@ telemetry
 /
 *
 *
-*
 Defines
 the
 possible
@@ -86,7 +85,6 @@ interface
 GleanUsageReportingApi
 {
 /
-*
 *
 *
 This
@@ -127,6 +125,7 @@ is
 sent
 .
 *
+*
 param
 usageReason
 the
@@ -164,6 +163,7 @@ is
 sent
 .
 *
+*
 param
 durationMillis
 the
@@ -187,7 +187,6 @@ Long
 /
 *
 *
-*
 Send
 the
 ping
@@ -201,7 +200,6 @@ submitPing
 (
 )
 /
-*
 *
 *
 This
@@ -229,7 +227,6 @@ enabled
 Boolean
 )
 /
-*
 *
 *
 Allows

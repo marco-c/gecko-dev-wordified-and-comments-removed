@@ -180,11 +180,11 @@ of
 domains
 but
 operates
-*
 in
 a
 selection
 mode
+*
 allowing
 the
 user
@@ -201,12 +201,12 @@ CustomDomains
 ]
 storage
 .
-*
 It
 inflates
 a
 specific
 menu
+*
 containing
 a
 removal

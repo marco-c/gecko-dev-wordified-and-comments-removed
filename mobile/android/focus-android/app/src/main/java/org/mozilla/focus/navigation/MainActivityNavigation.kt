@@ -296,7 +296,6 @@ switching
 between
 different
 fragments
-*
 (
 e
 .
@@ -305,6 +304,7 @@ g
 home
 screen
 browser
+*
 settings
 onboarding
 )
@@ -314,7 +314,6 @@ the
 FragmentManager
 ]
 .
-*
 By
 encapsulating
 navigation
@@ -468,7 +467,6 @@ Any
 AppNavigation
 {
 /
-*
 *
 *
 Home
@@ -648,7 +646,6 @@ showStartBrowsingCfr
 /
 *
 *
-*
 Show
 browser
 for
@@ -764,7 +761,6 @@ URL
 of
 the
 tab
-*
 associated
 with
 the
@@ -788,7 +784,6 @@ this
 tab
 this
 function
-*
 does
 nothing
 .
@@ -895,7 +890,6 @@ FRAGMENT_TAG
 /
 *
 *
-*
 Show
 onBoarding
 .
@@ -972,7 +966,6 @@ the
 onboarding
 process
 .
-*
 This
 function
 replaces
@@ -980,6 +973,7 @@ the
 current
 fragment
 with
+*
 [
 OnboardingSecondFragment
 ]
@@ -1005,7 +999,6 @@ FRAGMENT_TAG
 )
 }
 /
-*
 *
 *
 Show
@@ -1077,11 +1070,11 @@ with
 success
 he
 should
-*
 be
 redirected
 to
 a
+*
 certain
 screen
 .
@@ -1204,11 +1197,11 @@ page
 ]
 parameter
 .
-*
 It
 then
 replaces
 the
+*
 current
 fragment
 with
@@ -1218,7 +1211,6 @@ settings
 fragment
 ensuring
 that
-*
 the
 same
 fragment
@@ -1299,7 +1291,6 @@ permission
 options
 screen
 .
-*
 This
 function
 displays
@@ -1310,6 +1301,7 @@ allows
 users
 to
 configure
+*
 specific
 permissions
 for
@@ -1330,10 +1322,10 @@ information
 about
 the
 site
-*
 and
 its
 current
+*
 permissions
 .
 *
@@ -1396,7 +1388,6 @@ the
 currently
 displayed
 fragment
-*
 with
 a
 new
@@ -1404,6 +1395,7 @@ one
 .
 It
 prevents
+*
 redundant
 transactions
 by
@@ -1413,7 +1405,6 @@ a
 fragment
 with
 the
-*
 same
 tag
 is
@@ -1483,7 +1474,6 @@ be
 committed
 even
 after
-*
 the
 activity
 '
@@ -1508,9 +1498,9 @@ the
 [
 FragmentTransaction
 ]
-*
 such
 as
+*
 setting
 custom
 animations
@@ -1630,7 +1620,6 @@ tag
 /
 *
 *
-*
 A
 reified
 version
@@ -1726,11 +1715,11 @@ by
 providing
 a
 centralized
-*
 place
 to
 configure
 default
+*
 behaviors
 such
 as
@@ -1740,7 +1729,6 @@ reordering
 It
 uses
 the
-*
 commit
 extension
 function
@@ -1751,10 +1739,10 @@ fragment
 .
 app
 for
+*
 safer
 and
 more
-*
 concise
 transaction
 management
@@ -1774,13 +1762,13 @@ the
 activity
 '
 s
-*
 state
 has
 been
 saved
 .
 Setting
+*
 this
 to
 true
@@ -1790,7 +1778,6 @@ crashes
 but
 may
 result
-*
 in
 the
 loss
@@ -1802,6 +1789,7 @@ if
 the
 activity
 is
+*
 restored
 .
 Defaults
@@ -1821,11 +1809,11 @@ FragmentTransaction
 receiver
 containing
 the
-*
 specific
 operations
 for
 this
+*
 transaction
 (
 e

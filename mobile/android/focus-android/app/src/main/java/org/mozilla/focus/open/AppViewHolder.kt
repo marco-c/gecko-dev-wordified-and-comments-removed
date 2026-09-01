@@ -119,7 +119,6 @@ OnAppSelectedListener
 /
 *
 *
-*
 View
 holder
 for
@@ -185,7 +184,6 @@ id
 icon
 )
 /
-*
 *
 *
 Binds

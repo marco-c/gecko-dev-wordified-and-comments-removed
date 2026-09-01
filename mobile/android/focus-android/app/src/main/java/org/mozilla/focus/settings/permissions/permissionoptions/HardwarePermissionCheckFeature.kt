@@ -102,10 +102,10 @@ when
 the
 site
 permission
-*
 options
 screen
 is
+*
 started
 .
 *

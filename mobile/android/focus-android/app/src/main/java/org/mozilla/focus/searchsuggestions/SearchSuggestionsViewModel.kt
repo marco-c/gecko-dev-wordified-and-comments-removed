@@ -151,7 +151,6 @@ SearchSuggestions
 /
 *
 *
-*
 Represents
 the
 state
@@ -166,7 +165,6 @@ class
 State
 {
 /
-*
 *
 *
 Search
@@ -190,7 +188,6 @@ State
 (
 )
 /
-*
 *
 *
 The
@@ -222,7 +219,6 @@ State
 /
 *
 *
-*
 Ready
 to
 fetch
@@ -241,7 +237,6 @@ State
 )
 }
 /
-*
 *
 *
 ViewModel
@@ -480,7 +475,6 @@ defaultSearchEngineName
 /
 *
 *
-*
 Clears
 the
 currently
@@ -503,7 +497,6 @@ null
 )
 }
 /
-*
 *
 *
 Sets
@@ -547,7 +540,6 @@ NoExtras
 /
 *
 *
-*
 Clears
 the
 current
@@ -569,7 +561,6 @@ null
 )
 }
 /
-*
 *
 *
 Sets
@@ -597,7 +588,6 @@ value
 query
 }
 /
-*
 *
 *
 Enables
@@ -633,7 +623,6 @@ value
 /
 *
 *
-*
 Disables
 search
 suggestions
@@ -655,7 +644,6 @@ updateState
 )
 }
 /
-*
 *
 *
 Dismisses
@@ -683,7 +671,6 @@ updateState
 )
 }
 /
-*
 *
 *
 Refreshes

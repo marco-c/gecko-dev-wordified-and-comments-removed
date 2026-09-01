@@ -112,7 +112,6 @@ of
 the
 toolbar
 menu
-*
 including
 its
 items
@@ -153,7 +152,6 @@ that
 can
 be
 included
-*
 in
 the
 Focus
@@ -189,7 +187,6 @@ actions
 that
 can
 be
-*
 present
 in
 the
@@ -453,7 +450,6 @@ when
 Focus
 is
 used
-*
 as
 a
 custom

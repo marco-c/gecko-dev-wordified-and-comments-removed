@@ -95,7 +95,6 @@ showToolbar
 /
 *
 *
-*
 Displays
 the
 list

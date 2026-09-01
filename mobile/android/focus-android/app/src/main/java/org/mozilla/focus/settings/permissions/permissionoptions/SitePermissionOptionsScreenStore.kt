@@ -123,7 +123,6 @@ SitePermissionOption
 /
 *
 *
-*
 Store
 for
 the
@@ -183,7 +182,6 @@ InitSitePermissionOptions
 /
 *
 *
-*
 State
 for
 the
@@ -235,7 +233,6 @@ State
 /
 *
 *
-*
 Actions
 for
 the
@@ -255,7 +252,6 @@ Action
 /
 *
 *
-*
 Action
 to
 initialize
@@ -273,7 +269,6 @@ SitePermissionOptionsScreenAction
 (
 )
 /
-*
 *
 *
 Action
@@ -303,7 +298,6 @@ SitePermissionOptionsScreenAction
 /
 *
 *
-*
 Action
 to
 update
@@ -328,7 +322,6 @@ SitePermissionOptionsScreenAction
 (
 )
 /
-*
 *
 *
 Action
@@ -388,8 +381,8 @@ an
 [
 SitePermissionOptionsScreenAction
 ]
-*
 and
+*
 returns
 a
 new
@@ -414,9 +407,9 @@ options
 such
 as
 selecting
-*
 an
 option
+*
 updating
 the
 list
@@ -448,8 +441,8 @@ given
 [
 SitePermissionOptionsScreenAction
 ]
-*
 to
+*
 produce
 a
 new

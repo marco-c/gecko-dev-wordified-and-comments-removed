@@ -105,7 +105,6 @@ settings
 /
 *
 *
-*
 Helper
 class
 for
@@ -146,7 +145,6 @@ context
 /
 *
 *
-*
 Returns
 true
 if
@@ -170,7 +168,6 @@ shouldShowSearchSuggestions
 (
 )
 /
-*
 *
 *
 Returns
@@ -203,7 +200,6 @@ userHasToggledSearchSuggestions
 /
 *
 *
-*
 Returns
 true
 if
@@ -233,7 +229,6 @@ userHasDismissedNoSuggestionsMessage
 (
 )
 /
-*
 *
 *
 Enables
@@ -281,7 +276,6 @@ true
 /
 *
 *
-*
 Disables
 search
 suggestions
@@ -325,7 +319,6 @@ false
 }
 }
 /
-*
 *
 *
 Marks

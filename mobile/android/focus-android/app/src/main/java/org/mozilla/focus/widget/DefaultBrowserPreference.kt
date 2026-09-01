@@ -177,7 +177,6 @@ tryAsActivity
 /
 *
 *
-*
 A
 custom
 preference
@@ -307,7 +306,6 @@ update
 )
 }
 /
-*
 *
 *
 Updates

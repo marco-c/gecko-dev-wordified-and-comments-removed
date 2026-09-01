@@ -113,7 +113,6 @@ open
 /
 *
 *
-*
 View
 holder
 for
@@ -173,7 +172,6 @@ this
 )
 }
 /
-*
 *
 *
 Binds

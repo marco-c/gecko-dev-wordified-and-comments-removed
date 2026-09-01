@@ -86,17 +86,16 @@ locale
 switching
 operations
 without
-*
 hitting
 StrictMode
 errors
 or
 adding
+*
 boilerplate
 to
 common
 activity
-*
 subclasses
 .
 *
@@ -129,7 +128,6 @@ not
 the
 entire
 language
-*
 tag
 .
 But
@@ -140,6 +138,7 @@ s
 getLanguage
 method
 is
+*
 wrong
 .
 *
@@ -153,7 +152,6 @@ the
 first
 part
 of
-*
 [
 Locales
 .
@@ -262,7 +260,6 @@ Java
 [
 Locale
 ]
-*
 stringifies
 as
 "
@@ -278,7 +275,6 @@ the
 Java
 7
 method
-*
 Locale
 #
 toLanguageTag
@@ -345,7 +341,6 @@ country
 }
 }
 /
-*
 *
 *
 Parses

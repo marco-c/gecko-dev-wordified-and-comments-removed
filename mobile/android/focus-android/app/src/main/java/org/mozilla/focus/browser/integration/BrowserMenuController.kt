@@ -240,7 +240,6 @@ Screen
 /
 *
 *
-*
 Data
 class
 holding
@@ -483,7 +482,6 @@ currentTabId
 /
 *
 *
-*
 Defines
 constant
 string
@@ -625,10 +623,10 @@ and
 then
 performs
 the
-*
 corresponding
 action
 based
+*
 on
 the
 type
@@ -939,7 +937,6 @@ sites
 shortcuts
 )
 .
-*
 This
 function
 is
@@ -948,12 +945,12 @@ in
 a
 coroutine
 to
+*
 perform
 the
 operation
 asynchronously
 .
-*
 It
 retrieves
 the
@@ -969,9 +966,9 @@ find
 a
 matching
 top
+*
 site
 .
-*
 If
 a
 match
@@ -1086,10 +1083,10 @@ title
 is
 unavailable
 )
-*
 and
 URL
 to
+*
 add
 it
 as
@@ -1100,7 +1097,6 @@ using
 the
 topSitesUseCases
 .
-*
 This
 operation
 is
@@ -1108,6 +1104,7 @@ performed
 asynchronously
 within
 a
+*
 coroutine
 .
 *
@@ -1183,10 +1180,10 @@ or
 a
 custom
 tab
-*
 and
 calls
 the
+*
 appropriate
 telemetry
 recording
@@ -1283,9 +1280,9 @@ and
 records
 it
 .
-*
 The
 telemetry
+*
 data
 helps
 in
@@ -1640,9 +1637,9 @@ action
 and
 records
 it
-*
 using
 the
+*
 CustomTabsToolbar
 telemetry
 service
@@ -1653,11 +1650,11 @@ in
 tracking
 user
 engagement
-*
 with
 different
 features
 available
+*
 in
 the
 custom

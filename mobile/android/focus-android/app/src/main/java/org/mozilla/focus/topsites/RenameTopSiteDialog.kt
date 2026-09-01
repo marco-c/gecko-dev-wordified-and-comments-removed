@@ -204,7 +204,6 @@ the
 rename
 operation
 .
-*
 The
 new
 name
@@ -227,13 +226,13 @@ dismissed
 either
 by
 pressing
-*
 the
 cancel
 button
 or
 by
 tapping
+*
 outside
 the
 dialog

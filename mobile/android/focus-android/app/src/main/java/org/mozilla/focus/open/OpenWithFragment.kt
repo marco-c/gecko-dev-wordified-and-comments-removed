@@ -305,7 +305,6 @@ OnAppSelectedListener
 /
 *
 *
-*
 [
 AppCompatDialogFragment
 ]
@@ -885,7 +884,6 @@ ARGUMENT_STORE
 store
 "
 /
-*
 *
 *
 Creates

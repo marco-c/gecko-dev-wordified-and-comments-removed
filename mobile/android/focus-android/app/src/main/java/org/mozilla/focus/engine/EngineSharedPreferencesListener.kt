@@ -117,7 +117,6 @@ components
 /
 *
 *
-*
 SharedPreference
 listener
 that
@@ -468,7 +467,6 @@ reload
 /
 *
 *
-*
 Source
 of
 the
@@ -501,7 +499,6 @@ Panel
 )
 }
 /
-*
 *
 *
 The

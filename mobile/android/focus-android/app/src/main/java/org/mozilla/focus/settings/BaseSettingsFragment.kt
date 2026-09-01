@@ -149,7 +149,6 @@ PreferenceFragmentCompat
 /
 *
 *
-*
 Base
 class
 for

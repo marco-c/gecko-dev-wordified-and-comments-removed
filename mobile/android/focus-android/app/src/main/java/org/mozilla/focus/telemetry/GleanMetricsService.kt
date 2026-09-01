@@ -648,7 +648,6 @@ telemetry
 is
 enabled
 .
-*
 Currently
 according
 to
@@ -657,6 +656,7 @@ lean
 data
 policy
 general
+*
 telemetry
 is
 disabled
@@ -704,11 +704,11 @@ enabled
 by
 default
 .
-*
 This
 matches
 whether
 general
+*
 telemetry
 was
 enabled
@@ -719,7 +719,6 @@ switch
 being
 removed
 .
-*
 Currently
 according
 to
@@ -727,6 +726,7 @@ our
 lean
 data
 policy
+*
 general
 telemetry
 is

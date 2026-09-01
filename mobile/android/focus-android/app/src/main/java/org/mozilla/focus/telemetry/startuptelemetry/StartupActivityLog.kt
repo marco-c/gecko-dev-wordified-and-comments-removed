@@ -186,10 +186,10 @@ as
 [
 Application
 ]
-*
 foreground
 and
 background
+*
 events
 .
 See
@@ -206,7 +206,6 @@ is
 expected
 to
 be
-*
 registered
 in
 [
@@ -216,6 +215,7 @@ onCreate
 ]
 by
 calling
+*
 [
 registerInAppOnCreate
 ]
@@ -239,10 +239,10 @@ application
 is
 stopped
 .
-*
 This
 is
 acceptable
+*
 from
 the
 current
@@ -257,7 +257,6 @@ more
 than
 the
 current
-*
 start
 up
 .
@@ -286,7 +285,6 @@ LogEntry
 =
 _log
 /
-*
 *
 *
 Registers
@@ -338,7 +336,6 @@ StartupLogActivityLifecycleCallbacks
 /
 *
 *
-*
 Returns
 the
 app
@@ -372,7 +369,6 @@ StartupLogActivityLifecycleCallbacks
 )
 )
 /
-*
 *
 *
 Logs
@@ -548,7 +544,6 @@ toString
 /
 *
 *
-*
 [
 DefaultLifecycleObserver
 ]
@@ -632,7 +627,6 @@ AppStopped
 }
 }
 /
-*
 *
 *
 [
@@ -745,7 +739,6 @@ java
 /
 *
 *
-*
 A
 log
 entry
@@ -768,7 +761,6 @@ LogEntry
 /
 *
 *
-*
 Represents
 an
 application
@@ -787,7 +779,6 @@ LogEntry
 /
 *
 *
-*
 Represents
 an
 application
@@ -804,7 +795,6 @@ LogEntry
 (
 )
 /
-*
 *
 *
 Represents
@@ -836,7 +826,6 @@ LogEntry
 /
 *
 *
-*
 Represents
 an
 activity
@@ -864,7 +853,6 @@ LogEntry
 (
 )
 /
-*
 *
 *
 Represents

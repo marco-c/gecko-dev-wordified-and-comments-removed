@@ -83,7 +83,6 @@ SitePermissionOption
 /
 *
 *
-*
 Data
 class
 representing

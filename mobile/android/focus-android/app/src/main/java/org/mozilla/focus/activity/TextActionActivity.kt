@@ -137,7 +137,6 @@ components
 /
 *
 *
-*
 Activity
 for
 receiving

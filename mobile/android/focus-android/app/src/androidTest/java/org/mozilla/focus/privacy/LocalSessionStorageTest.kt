@@ -77,6 +77,12 @@ junit4
 .
 AndroidJUnit4ClassRunner
 import
+java
+.
+io
+.
+IOException
+import
 org
 .
 junit
@@ -172,14 +178,7 @@ focus
 testAnnotations
 .
 SmokeTest
-import
-java
-.
-io
-.
-IOException
 /
-*
 *
 *
 Make

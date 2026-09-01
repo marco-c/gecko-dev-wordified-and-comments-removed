@@ -103,6 +103,12 @@ preference
 .
 PreferenceManager
 import
+java
+.
+util
+.
+UUID
+import
 mozilla
 .
 components
@@ -134,12 +140,6 @@ mozilla
 focus
 .
 R
-import
-java
-.
-util
-.
-UUID
 /
 *
 *
@@ -154,6 +154,7 @@ usage
 reporting
 ping
 .
+*
 *
 param
 lifecycleOwner
@@ -177,7 +178,6 @@ be
 provided
 to
 control
-*
 the
 start
 /
@@ -186,6 +186,7 @@ sending
 events
 for
 the
+*
 usage
 reporting
 ping
@@ -289,7 +290,6 @@ GleanUsageReportingMetricsService
 /
 *
 *
-*
 Start
 recording
 usage
@@ -331,7 +331,6 @@ gleanUsageReportingLifecycleObserver
 )
 }
 /
-*
 *
 *
 Stop
@@ -448,7 +447,6 @@ clear
 /
 *
 *
-*
 An
 abstraction
 to
@@ -467,7 +465,6 @@ interface
 GleanProfileId
 {
 /
-*
 *
 *
 Create
@@ -491,7 +488,6 @@ UUID
 /
 *
 *
-*
 Set
 the
 given
@@ -512,7 +508,6 @@ UUID
 /
 *
 *
-*
 Unset
 the
 current
@@ -529,7 +524,6 @@ unset
 )
 }
 /
-*
 *
 *
 Represents
@@ -567,7 +561,6 @@ off
 profile
 reporting
 .
-*
 There
 is
 no
@@ -580,9 +573,9 @@ unset
 )
 method
 in
+*
 Glean
 .
-*
 So
 to
 unset
@@ -679,7 +672,6 @@ CANARY_VALUE
 /
 *
 *
-*
 An
 abstraction
 to
@@ -704,7 +696,6 @@ GleanProfileIdStore
 /
 *
 *
-*
 Property
 allowing
 access
@@ -726,7 +717,6 @@ String
 /
 *
 *
-*
 Remove
 the
 stored
@@ -741,7 +731,6 @@ clear
 )
 }
 /
-*
 *
 *
 The

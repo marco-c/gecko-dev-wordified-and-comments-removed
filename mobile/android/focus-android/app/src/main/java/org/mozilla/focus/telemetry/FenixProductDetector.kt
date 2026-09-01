@@ -101,7 +101,6 @@ packageManagerCompatHelper
 /
 *
 *
-*
 Utility
 for
 detecting
@@ -122,7 +121,6 @@ object
 FenixProductDetector
 {
 /
-*
 *
 *
 Known
@@ -177,7 +175,6 @@ firefox_beta
 )
 }
 /
-*
 *
 *
 Returns
@@ -249,7 +246,6 @@ return
 fenixVersions
 }
 /
-*
 *
 *
 Checks

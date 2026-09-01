@@ -149,7 +149,6 @@ BrowserFragment
 /
 *
 *
-*
 Base
 [
 LocaleAwareAppCompatActivity

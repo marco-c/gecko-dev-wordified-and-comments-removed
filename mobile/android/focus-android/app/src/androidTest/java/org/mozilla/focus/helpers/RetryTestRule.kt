@@ -81,6 +81,12 @@ uiautomator
 .
 UiObjectNotFoundException
 import
+java
+.
+lang
+.
+AssertionError
+import
 org
 .
 junit
@@ -106,12 +112,6 @@ runners
 model
 .
 Statement
-import
-java
-.
-lang
-.
-AssertionError
 class
 RetryTestRule
 (

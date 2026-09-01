@@ -150,12 +150,12 @@ PreferenceFragmentCompat
 ]
 and
 is
-*
 a
 regular
 [
 Fragment
 ]
+*
 instead
 .
 *

@@ -109,7 +109,6 @@ tryAsActivity
 /
 *
 *
-*
 A
 search
 engine
@@ -374,7 +373,6 @@ invalidateOptionsMenu
 }
 }
 /
-*
 *
 *
 Returns

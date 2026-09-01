@@ -97,6 +97,12 @@ accessibility
 .
 AccessibilityManager
 import
+java
+.
+text
+.
+DateFormat
+import
 mozilla
 .
 components
@@ -144,14 +150,7 @@ gecko
 util
 .
 HardwareUtils
-import
-java
-.
-text
-.
-DateFormat
 /
-*
 *
 *
 Get
@@ -180,7 +179,6 @@ FocusApplication
 /
 *
 *
-*
 Get
 the
 components
@@ -204,7 +202,6 @@ application
 .
 components
 /
-*
 *
 *
 Get
@@ -232,7 +229,6 @@ components
 .
 settings
 /
-*
 *
 *
 System
@@ -263,7 +259,6 @@ ACCESSIBILITY_SERVICE
 as
 AccessibilityManager
 /
-*
 *
 *
 Get
@@ -313,7 +308,6 @@ installTime
 /
 *
 *
-*
 Checks
 if
 the
@@ -341,7 +335,6 @@ isTablet
 this
 )
 /
-*
 *
 *
 Casts
@@ -410,12 +403,12 @@ VoiceOver
 )
 is
 enabled
-*
 or
 if
 any
 accessibility
 service
+*
 is
 running
 that

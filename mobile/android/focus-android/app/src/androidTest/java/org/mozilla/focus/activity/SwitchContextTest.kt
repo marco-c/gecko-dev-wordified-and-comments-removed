@@ -111,6 +111,12 @@ uiautomator
 .
 Until
 import
+kotlin
+.
+test
+.
+assertNotNull
+import
 org
 .
 junit
@@ -262,12 +268,6 @@ focus
 testAnnotations
 .
 SmokeTest
-import
-kotlin
-.
-test
-.
-assertNotNull
 /
 /
 This

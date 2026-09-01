@@ -97,7 +97,6 @@ Snackbar
 /
 *
 *
-*
 Utility
 class
 for
@@ -124,7 +123,6 @@ MENU_ITEM_ALPHA_DISABLED
 =
 130
 /
-*
 *
 *
 Create
@@ -210,7 +208,6 @@ a
 [
 MenuItem
 ]
-*
 If
 the
 menu
@@ -227,6 +224,7 @@ the
 menu
 icon
 is
+*
 semi
 -
 transparent

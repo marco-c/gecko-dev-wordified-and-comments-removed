@@ -91,6 +91,12 @@ preference
 .
 SwitchPreference
 import
+kotlin
+.
+system
+.
+exitProcess
+import
 org
 .
 mozilla
@@ -168,14 +174,7 @@ focus
 settings
 .
 BaseSettingsFragment
-import
-kotlin
-.
-system
-.
-exitProcess
 /
-*
 *
 *
 Settings

@@ -199,7 +199,6 @@ AppStore
 /
 *
 *
-*
 Controller
 for
 the
@@ -214,7 +213,6 @@ OnboardingController
 /
 *
 *
-*
 Finishes
 the
 onboarding
@@ -227,7 +225,6 @@ handleFinishOnBoarding
 (
 )
 /
-*
 *
 *
 Handles
@@ -246,7 +243,6 @@ handleGetStartedButtonClicked
 (
 )
 /
-*
 *
 *
 Handles
@@ -275,7 +271,6 @@ Intent
 /
 *
 *
-*
 Handles
 the
 [
@@ -298,7 +293,6 @@ ActivityResult
 )
 }
 /
-*
 *
 *
 Default

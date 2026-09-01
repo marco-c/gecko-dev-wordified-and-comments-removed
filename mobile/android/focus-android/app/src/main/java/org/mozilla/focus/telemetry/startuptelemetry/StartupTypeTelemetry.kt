@@ -272,7 +272,6 @@ Fenix
 /
 Glossary
 )
-*
 for
 specific
 definitions
@@ -299,10 +298,10 @@ the
 lifecycle
 of
 an
-*
 Activity
 .
 Call
+*
 [
 attachOnMainActivityOnCreate
 ]
@@ -328,6 +327,7 @@ hardcoded
 to
 MainActivity
 .
+*
 *
 param
 startupStateProvider
@@ -675,9 +675,9 @@ will
 be
 recorded
 .
-*
 Defaults
 to
+*
 [
 Dispatchers
 .
@@ -815,7 +815,6 @@ owner
 lifecycleScope
 }
 /
-*
 *
 *
 Lifecycle

@@ -205,7 +205,6 @@ SupportUtils
 /
 *
 *
-*
 The
 first
 fragment
@@ -475,7 +474,6 @@ onGetStartedButtonClicked
 }
 }
 /
-*
 *
 *
 Companion

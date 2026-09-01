@@ -183,7 +183,6 @@ a
 [
 SessionNotificationService
 ]
-*
 depending
 on
 whether
@@ -209,7 +208,6 @@ the
 BrowserStore
 ]
 .
-*
 When
 a
 private
@@ -219,11 +217,11 @@ opened
 it
 starts
 the
+*
 [
 SessionNotificationService
 ]
 .
-*
 When
 all
 private

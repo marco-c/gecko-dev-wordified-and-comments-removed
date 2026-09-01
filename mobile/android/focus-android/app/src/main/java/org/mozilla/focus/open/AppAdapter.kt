@@ -123,7 +123,6 @@ OpenWithFragment
 ]
 dialog
 .
-*
 This
 will
 display
@@ -133,13 +132,13 @@ and
 an
 item
 that
+*
 can
 be
 used
 for
 installing
 Firefox
-*
 if
 it
 is
@@ -188,7 +187,6 @@ by
 ActivityInfo
 ]
 .
-*
 This
 can
 be
@@ -198,6 +196,7 @@ no
 store
 app
 is
+*
 available
 .
 *
@@ -232,7 +231,6 @@ ViewHolder
 )
 {
 /
-*
 *
 *
 Class
@@ -279,7 +277,6 @@ toString
 (
 )
 /
-*
 *
 *
 Retrieve
@@ -337,7 +334,6 @@ name
 /
 *
 *
-*
 Interface
 for
 setting
@@ -356,7 +352,6 @@ interface
 OnAppSelectedListener
 {
 /
-*
 *
 *
 Action
@@ -541,7 +536,6 @@ viewType
 )
 }
 /
-*
 *
 *
 Sets

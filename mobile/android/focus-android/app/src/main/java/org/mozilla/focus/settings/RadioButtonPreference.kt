@@ -173,6 +173,14 @@ preference
 .
 PreferenceViewHolder
 import
+androidx
+.
+preference
+.
+R
+as
+preferenceR
+import
 mozilla
 .
 components
@@ -210,16 +218,7 @@ mozilla
 focus
 .
 R
-import
-androidx
-.
-preference
-.
-R
-as
-preferenceR
 /
-*
 *
 *
 Interface
@@ -238,7 +237,6 @@ interface
 GroupableRadioButton
 {
 /
-*
 *
 *
 Updates
@@ -260,7 +258,6 @@ isChecked
 Boolean
 )
 /
-*
 *
 *
 Adds
@@ -290,7 +287,6 @@ GroupableRadioButton
 /
 *
 *
-*
 Connect
 all
 the
@@ -300,7 +296,6 @@ buttons
 into
 a
 group
-*
 so
 that
 when
@@ -382,7 +377,6 @@ i
 /
 *
 *
-*
 Unchecks
 all
 radio
@@ -418,7 +412,6 @@ false
 }
 }
 /
-*
 *
 *
 A
@@ -657,7 +650,6 @@ radioButton
 )
 }
 /
-*
 *
 *
 Sets
@@ -1068,9 +1060,9 @@ t
 work
 via
 xml
-*
 as
 a
+*
 result
 we
 have
@@ -1084,6 +1076,7 @@ info
 about
 this
 issue
+*
 https
 :
 /

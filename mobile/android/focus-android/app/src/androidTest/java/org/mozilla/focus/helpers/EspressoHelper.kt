@@ -191,7 +191,6 @@ R
 /
 *
 *
-*
 Some
 convenient
 methods

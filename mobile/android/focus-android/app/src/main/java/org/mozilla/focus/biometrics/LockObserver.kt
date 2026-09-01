@@ -212,13 +212,13 @@ background
 or
 is
 paused
-*
 based
 on
 biometric
 settings
 and
 screen
+*
 contents
 .
 *
@@ -319,7 +319,6 @@ recordTabCount
 )
 }
 /
-*
 *
 *
 Records

@@ -89,7 +89,6 @@ R
 /
 *
 *
-*
 Triggers
 the
 "
@@ -141,7 +140,6 @@ null
 /
 *
 *
-*
 Reset
 the
 [
@@ -161,7 +159,6 @@ secretSettingsClicks
 0
 }
 /
-*
 *
 *
 Increments

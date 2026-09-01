@@ -103,7 +103,6 @@ BrowserStore
 /
 *
 *
-*
 Returns
 the
 default

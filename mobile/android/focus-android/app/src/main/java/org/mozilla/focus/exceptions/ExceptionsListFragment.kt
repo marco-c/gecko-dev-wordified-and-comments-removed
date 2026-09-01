@@ -193,6 +193,12 @@ widget
 .
 RecyclerView
 import
+java
+.
+util
+.
+Collections
+import
 kotlinx
 .
 coroutines
@@ -320,12 +326,6 @@ focus
 utils
 .
 ViewUtils
-import
-java
-.
-util
-.
-Collections
 private
 const
 val
@@ -344,7 +344,6 @@ String
 >
 String
 /
-*
 *
 *
 Fragment
@@ -385,7 +384,6 @@ _binding
 !
 !
 /
-*
 *
 *
 ItemTouchHelper
@@ -585,11 +583,11 @@ mode
 the
 list
 can
-*
 be
 reordered
 by
 the
+*
 user
 .
 *
@@ -1068,7 +1066,6 @@ false
 /
 *
 *
-*
 Adapter
 implementation
 for
@@ -1120,7 +1117,6 @@ mutableListOf
 (
 )
 /
-*
 *
 *
 Refreshes
@@ -1340,7 +1336,6 @@ null
 /
 *
 *
-*
 Returns
 the
 list
@@ -1363,7 +1358,6 @@ TrackingProtectionException
 =
 selectedExceptions
 /
-*
 *
 *
 Moves
@@ -1446,7 +1440,6 @@ list
 }
 }
 /
-*
 *
 *
 ViewHolder

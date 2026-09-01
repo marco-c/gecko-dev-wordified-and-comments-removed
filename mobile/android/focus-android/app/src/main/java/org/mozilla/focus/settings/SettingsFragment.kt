@@ -113,7 +113,6 @@ main
 settings
 screen
 .
-*
 It
 uses
 Jetpack
@@ -149,9 +148,9 @@ g
 Search
 "
 )
-*
 this
 fragment
+*
 dispatches
 an
 [

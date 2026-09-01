@@ -186,7 +186,6 @@ AppState
 and
 triggers
 navigation
-*
 actions
 based
 on
@@ -214,7 +213,6 @@ the
 Screen
 ]
 changes
-*
 it
 calls
 the
@@ -222,12 +220,12 @@ appropriate
 method
 on
 the
+*
 provided
 [
 AppNavigation
 ]
 implementation
-*
 to
 navigate
 the
@@ -536,7 +534,6 @@ within
 the
 application
 .
-*
 Each
 method
 corresponds
@@ -545,6 +542,7 @@ a
 specific
 screen
 or
+*
 navigation
 flow
 .
@@ -554,7 +552,6 @@ interface
 AppNavigation
 {
 /
-*
 *
 *
 Navigates
@@ -651,7 +648,6 @@ String
 /
 *
 *
-*
 Navigates
 to
 the
@@ -741,7 +737,6 @@ SitePermission
 /
 *
 *
-*
 Navigates
 to
 the
@@ -794,7 +789,6 @@ Bundle
 null
 )
 /
-*
 *
 *
 Navigates

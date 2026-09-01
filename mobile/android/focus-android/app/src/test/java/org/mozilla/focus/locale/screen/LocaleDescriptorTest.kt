@@ -9,6 +9,12 @@ locale
 .
 screen
 import
+java
+.
+util
+.
+Locale
+import
 org
 .
 junit
@@ -38,12 +44,6 @@ mockito
 Mockito
 .
 when
-import
-java
-.
-util
-.
-Locale
 class
 LocaleDescriptorTest
 {

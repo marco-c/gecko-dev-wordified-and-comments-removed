@@ -103,7 +103,6 @@ R
 /
 *
 *
-*
 Storage
 for
 onboarding
@@ -134,7 +133,6 @@ the
 onBoarding
 flow
 .
-*
 If
 the
 user

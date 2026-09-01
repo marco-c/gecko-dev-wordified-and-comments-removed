@@ -149,7 +149,6 @@ SupportUtils
 /
 *
 *
-*
 This
 activity
 receives

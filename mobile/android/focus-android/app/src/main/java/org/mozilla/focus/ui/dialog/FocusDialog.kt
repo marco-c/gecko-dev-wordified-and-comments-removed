@@ -289,7 +289,6 @@ the
 dialog
 is
 dismissed
-*
 (
 e
 .
@@ -302,6 +301,7 @@ or
 pressing
 the
 back
+*
 button
 )
 .
@@ -673,7 +673,6 @@ true
 /
 *
 *
-*
 Reusable
 composable
 for
@@ -720,7 +719,6 @@ dialogTitle
 /
 *
 *
-*
 Reusable
 composable
 for
@@ -765,7 +763,6 @@ dialogInput
 )
 }
 /
-*
 *
 *
 Reusable
@@ -870,7 +867,6 @@ labelLarge
 }
 }
 /
-*
 *
 *
 Reusable

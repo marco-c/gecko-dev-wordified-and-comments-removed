@@ -195,7 +195,6 @@ components
 /
 *
 *
-*
 Abstract
 base
 class
@@ -343,7 +342,6 @@ defaultButton
 CompoundButton
 )
 /
-*
 *
 *
 Updates

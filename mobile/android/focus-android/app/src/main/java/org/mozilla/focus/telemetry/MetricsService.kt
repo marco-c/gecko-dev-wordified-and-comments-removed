@@ -73,7 +73,6 @@ Context
 /
 *
 *
-*
 A
 service
 for
@@ -93,7 +92,6 @@ interface
 MetricsService
 {
 /
-*
 *
 *
 Perform

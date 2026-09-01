@@ -123,7 +123,6 @@ settings
 /
 *
 *
-*
 Autocomplete
 preference
 that
@@ -197,7 +196,6 @@ updateSummary
 )
 }
 /
-*
 *
 *
 Updates

@@ -146,10 +146,10 @@ the
 lifecycle
 of
 an
-*
 Activity
 .
 Call
+*
 [
 attachOnActivityOnCreate
 ]
@@ -172,7 +172,6 @@ StartupPathProvider
 /
 *
 *
-*
 Possible
 paths
 why
@@ -190,7 +189,6 @@ StartupPath
 MAIN
 VIEW
 /
-*
 *
 *
 The
@@ -288,13 +286,13 @@ value
 will
 be
 set
-*
 after
 an
 [
 Intent
 ]
 is
+*
 received
 that
 causes
@@ -323,7 +321,6 @@ wasResumedSinceStartedState
 =
 false
 /
-*
 *
 *
 Attaches
@@ -581,13 +578,13 @@ i
 .
 e
 .
-*
 [
 Activity
 .
 onCreate
 ]
 and
+*
 [
 Activity
 .
@@ -750,7 +747,6 @@ intent
 /
 *
 *
-*
 Returns
 the
 lifecycle
@@ -775,7 +771,6 @@ StartupPathLifecycleObserver
 (
 )
 /
-*
 *
 *
 [

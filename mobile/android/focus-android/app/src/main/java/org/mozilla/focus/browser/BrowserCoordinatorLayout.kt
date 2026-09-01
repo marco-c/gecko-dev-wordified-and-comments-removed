@@ -127,7 +127,6 @@ updatePadding
 /
 *
 *
-*
 A
 [
 CoordinatorLayout

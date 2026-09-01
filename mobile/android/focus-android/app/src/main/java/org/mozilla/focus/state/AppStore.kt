@@ -77,7 +77,6 @@ Store
 /
 *
 *
-*
 A
 [
 Store

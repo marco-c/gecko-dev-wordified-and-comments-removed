@@ -91,7 +91,6 @@ ActivityResultLauncher
 /
 *
 *
-*
 Interactor
 for
 the
@@ -106,7 +105,6 @@ OnboardingInteractor
 /
 *
 *
-*
 Finishes
 the
 onboarding
@@ -119,7 +117,6 @@ onFinishOnBoarding
 (
 )
 /
-*
 *
 *
 Handles
@@ -138,7 +135,6 @@ onGetStartedButtonClicked
 (
 )
 /
-*
 *
 *
 Handles
@@ -167,7 +163,6 @@ Intent
 /
 *
 *
-*
 Handles
 the
 [
@@ -190,7 +185,6 @@ ActivityResult
 )
 }
 /
-*
 *
 *
 Default

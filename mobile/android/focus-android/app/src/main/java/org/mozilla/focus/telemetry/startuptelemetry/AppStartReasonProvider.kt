@@ -169,7 +169,6 @@ StartReason
 ]
 for
 options
-*
 and
 [
 reason
@@ -193,10 +192,10 @@ main
 thread
 Runnable
 scheduling
-*
 that
 could
 potentially
+*
 change
 between
 OEMs
@@ -215,7 +214,6 @@ it
 *
 *
 This
-*
 implementation
 was
 tested
@@ -223,6 +221,7 @@ on
 the
 Moto
 G5
+*
 Android
 8
 .
@@ -242,7 +241,6 @@ class
 AppStartReasonProvider
 {
 /
-*
 *
 *
 Possible
@@ -324,10 +322,10 @@ not
 an
 Activity
 :
-*
 this
 may
 include
+*
 Services
 BroadcastReceivers
 and
@@ -337,13 +335,13 @@ It
 may
 be
 possible
-*
 to
 distinguish
 between
 these
 but
 it
+*
 hasn
 '
 t
@@ -378,12 +376,12 @@ not
 be
 set
 immediately
-*
 but
 is
 expected
 to
 be
+*
 available
 by
 the
@@ -411,7 +409,6 @@ set
 /
 *
 *
-*
 Registers
 the
 handlers
@@ -427,7 +424,6 @@ to
 be
 called
 from
-*
 [
 Application
 .

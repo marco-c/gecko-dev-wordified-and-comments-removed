@@ -127,7 +127,6 @@ s
 language
 settings
 .
-*
 It
 provides
 access
@@ -135,13 +134,13 @@ to
 the
 list
 of
+*
 available
 languages
 the
 currently
 selected
 language
-*
 and
 methods
 for
@@ -153,6 +152,7 @@ s
 language
 choice
 in
+*
 SharedPreferences
 .
 *
@@ -263,7 +263,6 @@ BUNDLED_LOCALES
 ]
 sorted
 alphabetically
-*
 by
 their
 native
@@ -426,12 +425,12 @@ language
 has
 been
 explicitly
-*
 selected
 this
 will
 default
 to
+*
 the
 "
 System
@@ -451,7 +450,6 @@ using
 the
 pref_key_locale
 .
-*
 If
 the
 stored
@@ -460,13 +458,13 @@ tag
 doesn
 '
 t
+*
 match
 any
 available
 language
 it
 also
-*
 falls
 back
 to

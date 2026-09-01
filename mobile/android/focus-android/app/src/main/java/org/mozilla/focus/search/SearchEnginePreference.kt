@@ -121,7 +121,6 @@ components
 /
 *
 *
-*
 Preference
 for
 setting

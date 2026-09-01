@@ -119,11 +119,11 @@ to
 3
 segments
 of
-*
 the
 original
 host
 .
+*
 The
 original
 host
@@ -144,7 +144,6 @@ String
 *
 Examples
 :
-*
 mail
 .
 google
@@ -155,7 +154,6 @@ com
 google
 .
 com
-*
 www
 .
 tomshardware
@@ -455,12 +453,12 @@ path
 .
 If
 the
-*
 Uri
 does
 not
 have
 a
+*
 path
 an
 empty
@@ -473,7 +471,6 @@ returned
 *
 Example
 :
-*
 /
 foo
 /

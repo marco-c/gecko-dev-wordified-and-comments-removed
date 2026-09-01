@@ -105,7 +105,6 @@ AndroidSettings
 /
 *
 *
-*
 A
 collection
 of
@@ -129,7 +128,6 @@ EXTRA_IS_PERFORMANCE_TEST
 performancetest
 "
 /
-*
 *
 *
 Processes
@@ -193,11 +191,11 @@ another
 application
 tries
 to
-*
 leverage
 this
 intent
 to
+*
 trigger
 a
 code
@@ -211,7 +209,6 @@ t
 be
 used
 unless
-*
 it
 is
 for
@@ -221,6 +218,7 @@ metrics
 .
 These
 checks
+*
 aren
 '
 t
@@ -233,7 +231,6 @@ users
 won
 '
 t
-*
 have
 ADB
 on

@@ -147,7 +147,6 @@ SnackbarDelegate
 /
 *
 *
-*
 Utility
 for
 providing
@@ -178,7 +177,6 @@ the
 browser
 is
 currently
-*
 in
 a
 Custom
@@ -186,6 +184,7 @@ Tab
 or
 a
 standard
+*
 browser
 session
 .
@@ -271,11 +270,11 @@ SnackbarDelegate
 responsible
 for
 showing
-*
 SnackBars
 (
 defaults
 to
+*
 [
 DefaultSnackbarDelegate
 ]

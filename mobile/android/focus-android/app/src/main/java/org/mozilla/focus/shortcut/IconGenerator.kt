@@ -173,7 +173,6 @@ generateAdaptiveLauncherIcon
 /
 *
 *
-*
 Utility
 for
 generating
@@ -203,7 +202,6 @@ DEFAULT_ICON_CHAR
 ?
 '
 /
-*
 *
 *
 See
@@ -262,7 +260,6 @@ icon
 will
 be
 drawn
-*
 on
 top
 of
@@ -273,6 +270,7 @@ icon
 shape
 that
 we
+*
 provide
 .
 *

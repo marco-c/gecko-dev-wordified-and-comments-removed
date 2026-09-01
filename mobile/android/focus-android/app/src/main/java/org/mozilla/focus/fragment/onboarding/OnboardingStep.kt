@@ -77,7 +77,6 @@ R
 /
 *
 *
-*
 Represents
 the
 steps

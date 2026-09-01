@@ -354,12 +354,6 @@ setShowStartBrowsingCfrEnabled
 (
 false
 )
-featureSettingsHelper
-.
-setCookieBannerReductionEnabled
-(
-false
-)
 }
 After
 fun

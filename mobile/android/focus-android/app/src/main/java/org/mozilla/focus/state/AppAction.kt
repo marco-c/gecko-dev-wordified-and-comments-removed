@@ -109,7 +109,6 @@ SitePermission
 /
 *
 *
-*
 An
 [
 Action
@@ -134,7 +133,6 @@ Action
 /
 *
 *
-*
 The
 selected
 tab
@@ -157,7 +155,6 @@ AppAction
 (
 )
 /
-*
 *
 *
 Action
@@ -193,7 +190,6 @@ AppAction
 /
 *
 *
-*
 All
 tabs
 have
@@ -209,7 +205,6 @@ AppAction
 (
 )
 /
-*
 *
 *
 The
@@ -246,7 +241,6 @@ AppAction
 /
 *
 *
-*
 Hide
 the
 tabs
@@ -261,7 +255,6 @@ AppAction
 (
 )
 /
-*
 *
 *
 The
@@ -291,7 +284,6 @@ AppAction
 /
 *
 *
-*
 The
 app
 should
@@ -319,7 +311,6 @@ AppAction
 /
 *
 *
-*
 The
 app
 should
@@ -343,7 +334,6 @@ AppAction
 (
 )
 /
-*
 *
 *
 Action
@@ -382,7 +372,6 @@ AppAction
 /
 *
 *
-*
 Show
 the
 content
@@ -400,7 +389,6 @@ AppAction
 (
 )
 /
-*
 *
 *
 Action
@@ -436,7 +424,6 @@ AppAction
 /
 *
 *
-*
 Action
 for
 navigating
@@ -469,7 +456,6 @@ AppAction
 /
 *
 *
-*
 Forces
 showing
 the
@@ -496,7 +482,6 @@ AppAction
 /
 *
 *
-*
 Forces
 showing
 the
@@ -513,7 +498,6 @@ AppAction
 (
 )
 /
-*
 *
 *
 Opens
@@ -553,7 +537,6 @@ AppAction
 /
 *
 *
-*
 The
 list
 of
@@ -584,7 +567,6 @@ AppAction
 /
 *
 *
-*
 Site
 permissions
 autoplay
@@ -608,7 +590,6 @@ AppAction
 (
 )
 /
-*
 *
 *
 State
@@ -636,7 +617,6 @@ AppAction
 /
 *
 *
-*
 State
 of
 erase
@@ -660,7 +640,6 @@ AppAction
 (
 )
 /
-*
 *
 *
 State
@@ -693,7 +672,6 @@ AppAction
 /
 *
 *
-*
 State
 of
 Snackbar
@@ -721,7 +699,6 @@ AppAction
 /
 *
 *
-*
 State
 of
 start
@@ -745,34 +722,6 @@ AppAction
 (
 )
 /
-*
-*
-*
-State
-of
-start
-Cookie
-Banner
-CFR
-has
-changed
-*
-/
-data
-class
-ShowCookieBannerCfrChange
-(
-val
-value
-:
-Boolean
-)
-:
-AppAction
-(
-)
-/
-*
 *
 *
 State

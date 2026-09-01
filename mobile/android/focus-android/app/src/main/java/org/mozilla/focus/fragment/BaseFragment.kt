@@ -145,7 +145,6 @@ Screen
 /
 *
 *
-*
 Base
 [
 Fragment
@@ -208,7 +207,6 @@ Locked
 )
 }
 /
-*
 *
 *
 Cancels

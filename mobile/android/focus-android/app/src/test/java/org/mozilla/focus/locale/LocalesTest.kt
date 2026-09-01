@@ -65,6 +65,12 @@ focus
 .
 locale
 import
+java
+.
+util
+.
+Locale
+import
 org
 .
 junit
@@ -102,12 +108,6 @@ locale
 Locales
 .
 getLanguageTag
-import
-java
-.
-util
-.
-Locale
 class
 LocalesTest
 {

@@ -187,12 +187,12 @@ user
 to
 switch
 between
-*
 close
 or
 create
 new
 browser
+*
 sessions
 .
 *

@@ -247,9 +247,9 @@ some
 parameters
 and
 inputs
-*
 since
 an
+*
 application
 object
 gets
@@ -324,7 +324,6 @@ initializeWebExtensionSupport
 Unit
 }
 /
-*
 *
 *
 Empty

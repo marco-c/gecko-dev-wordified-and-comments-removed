@@ -141,9 +141,9 @@ one
 activity
 in
 the
-*
 STARTED
 state
+*
 (
 meaning
 some
@@ -155,7 +155,6 @@ is
 visible
 )
 .
-*
 Based
 on
 this
@@ -168,6 +167,7 @@ be
 removed
 if
 the
+*
 app
 is
 not
@@ -188,7 +188,6 @@ Context
 DefaultActivityLifecycleCallbacks
 {
 /
-*
 *
 *
 Activities
@@ -365,10 +364,10 @@ all
 tasks
 .
 After
-*
 that
 the
 app
+*
 won
 '
 t
@@ -420,7 +419,6 @@ in
 the
 background
 .
-*
 The
 application
 is
@@ -429,6 +427,7 @@ in
 the
 background
 if
+*
 there
 are
 no

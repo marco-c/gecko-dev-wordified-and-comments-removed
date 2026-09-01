@@ -165,7 +165,6 @@ opens
 a
 new
 tab
-*
 with
 a
 specified
@@ -187,11 +186,11 @@ to
 be
 opened
 .
-*
 Optionally
 subclasses
 can
 override
+*
 [
 getDescription
 ]
@@ -201,7 +200,6 @@ a
 custom
 description
 text
-*
 that
 appears
 above
@@ -444,7 +442,6 @@ a
 custom
 description
 .
-*
 If
 this
 method
@@ -453,6 +450,7 @@ null
 or
 is
 not
+*
 overridden
 no
 description
@@ -508,13 +506,13 @@ link
 is
 clicked
 .
-*
 This
 method
 must
 be
 implemented
 by
+*
 subclasses
 .
 *

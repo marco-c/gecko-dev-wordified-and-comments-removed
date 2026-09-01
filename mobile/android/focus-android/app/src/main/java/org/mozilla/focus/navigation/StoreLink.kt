@@ -206,7 +206,6 @@ BrowserStore
 and
 dispatches
 corresponding
-*
 actions
 to
 the
@@ -214,6 +213,7 @@ the
 AppStore
 ]
 to
+*
 ensure
 the
 application
@@ -222,7 +222,6 @@ remains
 synchronized
 with
 the
-*
 browser
 state
 .
@@ -321,7 +320,6 @@ selected
 tab
 ID
 .
-*
 If
 it
 changes
@@ -337,6 +335,7 @@ SelectionChanged
 ]
 action
 is
+*
 dispatched
 .
 *
@@ -349,7 +348,6 @@ of
 private
 tabs
 .
-*
 If
 the
 list

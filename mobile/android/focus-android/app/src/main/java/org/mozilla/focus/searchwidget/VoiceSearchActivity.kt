@@ -71,6 +71,12 @@ content
 .
 Intent
 import
+java
+.
+util
+.
+Locale
+import
 mozilla
 .
 components
@@ -134,14 +140,7 @@ focus
 activity
 .
 IntentReceiverActivity
-import
-java
-.
-util
-.
-Locale
 /
-*
 *
 *
 Activity

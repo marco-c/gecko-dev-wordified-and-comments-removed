@@ -83,6 +83,12 @@ os
 .
 Bundle
 import
+kotlin
+.
+test
+.
+assertNotNull
+import
 mozilla
 .
 components
@@ -366,12 +372,6 @@ robolectric
 annotation
 .
 Implements
-import
-kotlin
-.
-test
-.
-assertNotNull
 RunWith
 (
 RobolectricTestRunner
@@ -1426,7 +1426,6 @@ screen
 }
 }
 /
-*
 *
 *
 Shadow

@@ -65,6 +65,12 @@ focus
 .
 telemetry
 import
+kotlin
+.
+test
+.
+assertNotNull
+import
 org
 .
 junit
@@ -154,12 +160,6 @@ telemetry
 fake
 .
 FakeLifecycleOwner
-import
-kotlin
-.
-test
-.
-assertNotNull
 internal
 class
 GleanUsageReportingMetricsServiceTest

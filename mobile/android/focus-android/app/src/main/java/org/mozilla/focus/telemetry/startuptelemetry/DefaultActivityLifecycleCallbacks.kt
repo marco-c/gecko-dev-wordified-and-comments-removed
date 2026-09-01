@@ -116,11 +116,11 @@ ComponentCallbacks2
 ]
 where
 each
-*
 method
 has
 a
 default
+*
 implementation
 that
 does
@@ -132,7 +132,6 @@ classes
 that
 extend
 this
-*
 interface
 to
 have
@@ -140,6 +139,7 @@ more
 concise
 definitions
 if
+*
 they
 don
 '
@@ -152,7 +152,6 @@ this
 is
 in
 the
-*
 spirit
 of
 other
@@ -161,6 +160,7 @@ Default
 classes
 such
 as
+*
 [
 androidx
 .

@@ -77,6 +77,12 @@ junit4
 .
 AndroidJUnit4ClassRunner
 import
+java
+.
+io
+.
+IOException
+import
 org
 .
 junit
@@ -162,14 +168,7 @@ helpers
 TestAssetHelper
 .
 getStorageTestAsset
-import
-java
-.
-io
-.
-IOException
 /
-*
 *
 *
 Test

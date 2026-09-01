@@ -207,7 +207,6 @@ DefaultBrowserPreference
 /
 *
 *
-*
 Settings
 fragment
 for

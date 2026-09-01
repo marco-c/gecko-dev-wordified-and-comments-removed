@@ -107,7 +107,6 @@ MainActivity
 /
 *
 *
-*
 Get
 the
 components
@@ -199,6 +198,7 @@ preference
 key
 .
 *
+*
 param
 preferenceId
 Resource
@@ -241,7 +241,6 @@ if
 the
 parent
 activity
-*
 can
 be
 casted
@@ -250,6 +249,7 @@ to
 AppCompatActivity
 ]
 and
+*
 [
 MainActivity
 ]
@@ -298,7 +298,6 @@ show
 )
 }
 /
-*
 *
 *
 Hides

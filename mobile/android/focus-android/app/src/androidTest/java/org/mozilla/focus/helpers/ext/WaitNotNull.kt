@@ -83,6 +83,12 @@ uiautomator
 .
 UiDevice
 import
+kotlin
+.
+test
+.
+assertNotNull
+import
 org
 .
 mozilla
@@ -92,12 +98,6 @@ focus
 helpers
 .
 TestHelper
-import
-kotlin
-.
-test
-.
-assertNotNull
 /
 *
 *

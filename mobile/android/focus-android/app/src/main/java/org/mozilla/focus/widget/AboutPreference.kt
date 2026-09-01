@@ -93,7 +93,6 @@ R
 /
 *
 *
-*
 Custom
 preference
 used

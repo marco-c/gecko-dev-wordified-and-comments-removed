@@ -145,13 +145,13 @@ the
 application
 '
 s
-*
 resources
 and
 applies
 it
 as
 the
+*
 background
 of
 the
@@ -223,7 +223,6 @@ and
 ends
 at
 the
-*
 bottom
 -
 left
@@ -234,6 +233,7 @@ x
 0
 y
 =
+*
 infinity
 )
 .
@@ -243,7 +243,6 @@ that
 the
 gradient
 covers
-*
 the
 entire
 composable

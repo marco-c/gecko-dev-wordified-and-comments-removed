@@ -183,7 +183,6 @@ isAccessibilityEnabled
 /
 *
 *
-*
 A
 custom
 [
@@ -248,7 +247,6 @@ setPadding
 /
 *
 *
-*
 Sets
 the
 text
@@ -280,7 +278,6 @@ text
 text
 }
 /
-*
 *
 *
 Sets
@@ -378,7 +375,6 @@ seconds
 in
 ms
 /
-*
 *
 *
 Display

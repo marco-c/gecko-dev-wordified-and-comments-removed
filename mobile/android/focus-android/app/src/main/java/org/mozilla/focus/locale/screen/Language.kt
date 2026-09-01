@@ -131,7 +131,6 @@ to
 the
 current
 selected
-*
 Language
 *
 /

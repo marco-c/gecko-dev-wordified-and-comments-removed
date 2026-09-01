@@ -275,7 +275,6 @@ showAsFixed
 /
 *
 *
-*
 Integration
 for
 the
@@ -568,11 +567,11 @@ such
 as
 swiping
 from
-*
 the
 top
 of
 the
+*
 screen
 .
 These
@@ -587,12 +586,12 @@ content
 may
 have
 some
-*
 degree
 of
 transparency
 and
 will
+*
 automatically
 hide
 after
@@ -616,7 +615,6 @@ enterImmersiveMode
 )
 }
 /
-*
 *
 *
 Show

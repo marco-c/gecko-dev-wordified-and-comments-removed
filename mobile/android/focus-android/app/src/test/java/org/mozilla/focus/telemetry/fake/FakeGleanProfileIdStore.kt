@@ -82,7 +82,6 @@ GleanUsageReportingMetricsService
 /
 *
 *
-*
 Allows
 tests
 to
@@ -93,7 +92,6 @@ version
 of
 a
 GleanProfileIdStore
-*
 and
 make
 assertions

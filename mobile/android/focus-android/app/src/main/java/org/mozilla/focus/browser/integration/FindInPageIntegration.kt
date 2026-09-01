@@ -167,7 +167,6 @@ UserInteractionHandler
 /
 *
 *
-*
 Integration
 for
 the
@@ -259,7 +258,6 @@ onBackPressed
 /
 *
 *
-*
 Shows
 the
 "
@@ -318,7 +316,6 @@ sessionState
 )
 }
 /
-*
 *
 *
 Hides

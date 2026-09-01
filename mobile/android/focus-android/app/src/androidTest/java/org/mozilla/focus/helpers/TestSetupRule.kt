@@ -120,11 +120,11 @@ test
 environment
 setup
 :
-*
 clipboard
 access
 prevention
 and
+*
 status
 bar
 collapse

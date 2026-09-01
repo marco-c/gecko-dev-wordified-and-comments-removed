@@ -231,7 +231,6 @@ CustomTabsToolbar
 /
 *
 *
-*
 Processes
 all
 [
@@ -248,7 +247,6 @@ which
 the
 appropriate
 telemetry
-*
 will
 be
 collected
@@ -259,7 +257,6 @@ object
 FactsProcessor
 {
 /
-*
 *
 *
 Initializes
@@ -532,7 +529,6 @@ Unit
 }
 }
 /
-*
 *
 *
 Extracts

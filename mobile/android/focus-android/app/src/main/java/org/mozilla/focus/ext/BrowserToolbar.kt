@@ -176,11 +176,11 @@ calling
 enableDynamicBehavior
 ]
 .
-*
 Useful
 in
 situations
 like
+*
 entering
 fullscreen
 .
@@ -202,7 +202,6 @@ s
 dynamic
 behavior
 .
-*
 Will
 now
 go
@@ -210,6 +209,7 @@ through
 a
 bit
 of
+*
 cleanup
 to
 ensure
@@ -296,7 +296,6 @@ the
 dynamic
 behavior
 .
-*
 Useful
 after
 [
@@ -305,6 +304,7 @@ disableDynamicBehavior
 for
 situations
 like
+*
 exiting
 fullscreen
 .

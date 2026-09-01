@@ -187,7 +187,6 @@ SmokeTest
 /
 *
 *
-*
 Verifies
 main
 menu

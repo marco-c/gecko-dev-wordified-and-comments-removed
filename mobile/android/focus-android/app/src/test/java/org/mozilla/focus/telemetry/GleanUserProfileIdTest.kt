@@ -65,6 +65,12 @@ focus
 .
 telemetry
 import
+java
+.
+util
+.
+UUID
+import
 junit
 .
 framework
@@ -146,12 +152,6 @@ telemetry
 fake
 .
 FakeLifecycleOwner
-import
-java
-.
-util
-.
-UUID
 internal
 class
 GleanUserProfileIdTest

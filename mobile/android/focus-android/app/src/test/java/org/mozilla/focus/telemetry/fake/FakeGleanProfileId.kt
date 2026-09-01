@@ -70,6 +70,12 @@ telemetry
 .
 fake
 import
+java
+.
+util
+.
+UUID
+import
 org
 .
 mozilla
@@ -79,14 +85,7 @@ focus
 telemetry
 .
 GleanUsageReportingMetricsService
-import
-java
-.
-util
-.
-UUID
 /
-*
 *
 *
 Allows
@@ -99,7 +98,6 @@ version
 of
 a
 GleanProfileId
-*
 and
 make
 assertions

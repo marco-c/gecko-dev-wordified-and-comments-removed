@@ -67,7 +67,6 @@ web
 /
 *
 *
-*
 Configuration
 constants
 for

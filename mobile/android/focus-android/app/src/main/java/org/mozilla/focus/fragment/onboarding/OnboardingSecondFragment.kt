@@ -223,7 +223,6 @@ FocusTheme
 /
 *
 *
-*
 The
 second
 fragment
@@ -523,7 +522,6 @@ onFinishOnBoarding
 }
 }
 /
-*
 *
 *
 Companion

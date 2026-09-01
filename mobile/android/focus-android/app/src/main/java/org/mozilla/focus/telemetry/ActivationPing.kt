@@ -175,11 +175,11 @@ exactly
 once
 during
 the
-*
 lifetime
 of
 the
 application
+*
 installation
 .
 It
@@ -188,7 +188,6 @@ the
 sent
 state
 using
-*
 [
 SharedPreferences
 ]
@@ -198,6 +197,7 @@ duplicate
 transmissions
 on
 subsequent
+*
 app
 launches
 .
@@ -258,7 +258,6 @@ activation
 ping
 was
 already
-*
 triggered
 by
 the
@@ -276,7 +275,6 @@ that
 Fenix
 triggered
 the
-*
 ping
 and
 then
@@ -287,8 +285,8 @@ to
 Glean
 .
 We
-*
 have
+*
 no
 way
 to
@@ -358,7 +356,6 @@ by
 the
 application
 .
-*
 This
 ensures
 the
@@ -369,9 +366,9 @@ triggered
 again
 at
 the
+*
 next
 app
-*
 start
 .
 *
@@ -406,7 +403,6 @@ true
 /
 *
 *
-*
 Fills
 the
 metrics
@@ -418,7 +414,6 @@ activation
 '
 ping
 .
-*
 This
 is
 a
@@ -495,7 +490,6 @@ t
 sent
 already
 .
-*
 Then
 mark
 it
@@ -507,10 +501,10 @@ doesn
 t
 get
 triggered
+*
 next
 time
 Fenix
-*
 starts
 .
 *

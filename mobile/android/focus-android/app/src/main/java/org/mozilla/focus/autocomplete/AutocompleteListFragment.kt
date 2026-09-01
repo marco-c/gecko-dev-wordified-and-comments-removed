@@ -187,6 +187,12 @@ widget
 .
 RecyclerView
 import
+java
+.
+util
+.
+Collections
+import
 mozilla
 .
 components
@@ -284,12 +290,6 @@ focus
 utils
 .
 ViewUtils
-import
-java
-.
-util
-.
-Collections
 typealias
 DomainFormatter
 =
@@ -300,7 +300,6 @@ String
 >
 String
 /
-*
 *
 *
 Fragment
@@ -346,7 +345,6 @@ _binding
 !
 !
 /
-*
 *
 *
 ItemTouchHelper
@@ -629,11 +627,11 @@ mode
 the
 list
 can
-*
 be
 reordered
 by
 the
+*
 user
 .
 *
@@ -976,7 +974,6 @@ else
 false
 }
 /
-*
 *
 *
 Adapter
@@ -1349,7 +1346,6 @@ add
 /
 *
 *
-*
 ViewHolder
 implementation
 for
@@ -1613,7 +1609,6 @@ setBackgroundColor
 }
 }
 /
-*
 *
 *
 ViewHolder

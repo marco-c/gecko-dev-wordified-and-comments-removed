@@ -139,13 +139,13 @@ LanguageScreenState
 )
 and
 actions
-*
 (
 [
 LanguageScreenAction
 ]
 )
 related
+*
 to
 the
 language
@@ -156,7 +156,6 @@ It
 manages
 the
 list
-*
 of
 available
 languages
@@ -180,12 +179,12 @@ InitLanguages
 ]
 .
 This
-*
 action
 is
 intended
 to
 be
+*
 intercepted
 by
 a
@@ -198,7 +197,6 @@ the
 loading
 of
 language
-*
 data
 from
 a
@@ -233,11 +231,11 @@ and
 perform
 side
 effects
-*
 such
 as
 fetching
 the
+*
 language
 list
 .
@@ -346,7 +344,6 @@ State
 /
 *
 *
-*
 Action
 to
 dispatch
@@ -369,7 +366,6 @@ LanguageScreenAction
 Action
 {
 /
-*
 *
 *
 An
@@ -456,7 +452,6 @@ languages
 and
 the
 currently
-*
 selected
 language
 .

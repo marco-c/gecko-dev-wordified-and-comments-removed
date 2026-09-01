@@ -82,12 +82,12 @@ language
 selection
 screen
 .
-*
 This
 class
 is
 responsible
 for
+*
 handling
 user
 interactions
@@ -158,11 +158,11 @@ it
 does
 nothing
 .
-*
 Otherwise
 it
 dispatches
 an
+*
 action
 to
 the

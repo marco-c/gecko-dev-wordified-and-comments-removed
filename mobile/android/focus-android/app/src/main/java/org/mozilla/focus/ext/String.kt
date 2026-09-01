@@ -91,6 +91,12 @@ net
 .
 toUri
 import
+kotlin
+.
+text
+.
+append
+import
 mozilla
 .
 components
@@ -116,12 +122,6 @@ ktx
 util
 .
 URLStringUtils
-import
-kotlin
-.
-text
-.
-append
 /
 /
 Extension
@@ -397,7 +397,6 @@ toString
 /
 *
 *
-*
 Tries
 to
 parse
@@ -466,7 +465,6 @@ uppercase
 :
 this
 /
-*
 *
 *
 Tries

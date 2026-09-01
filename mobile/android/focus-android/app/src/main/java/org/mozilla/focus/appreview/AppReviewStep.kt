@@ -67,7 +67,6 @@ appreview
 /
 *
 *
-*
 Represents
 the
 current

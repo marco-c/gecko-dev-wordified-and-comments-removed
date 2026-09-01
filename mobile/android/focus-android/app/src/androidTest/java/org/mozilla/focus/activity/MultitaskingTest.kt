@@ -305,7 +305,6 @@ SmokeTest
 /
 *
 *
-*
 Open
 multiple
 sessions

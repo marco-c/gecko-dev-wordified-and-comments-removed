@@ -117,7 +117,6 @@ components
 /
 *
 *
-*
 Shortcut
 activity
 that

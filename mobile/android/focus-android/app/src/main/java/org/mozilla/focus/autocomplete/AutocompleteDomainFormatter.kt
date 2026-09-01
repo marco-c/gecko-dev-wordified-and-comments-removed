@@ -67,7 +67,6 @@ autocomplete
 /
 *
 *
-*
 Utility
 for
 formatting
@@ -119,7 +118,6 @@ www
 "
 )
 /
-*
 *
 *
 Formats

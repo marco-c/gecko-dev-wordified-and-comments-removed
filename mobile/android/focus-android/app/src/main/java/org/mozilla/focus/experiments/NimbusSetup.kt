@@ -246,11 +246,11 @@ nimbus_initial_fetch
 for
 the
 ideal
-*
 timeout
 .
 We
 should
+*
 NOT
 change
 this
@@ -270,7 +270,6 @@ TIME_OUT_LOADING_EXPERIMENT_FROM_DISK_MS
 =
 200L
 /
-*
 *
 *
 Create
@@ -810,7 +809,6 @@ fetchExperiments
 /
 *
 *
-*
 Returns
 the
 app
@@ -878,11 +876,11 @@ to
 filter
 out
 the
-*
 non
 -
 reportable
 ones
+*
 if
 we
 know

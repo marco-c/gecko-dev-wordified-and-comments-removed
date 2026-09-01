@@ -201,7 +201,6 @@ SearchUtils
 /
 *
 *
-*
 Handles
 all
 actions
@@ -330,7 +329,6 @@ no
 specified
 destination
 .
-*
 This
 can
 show
