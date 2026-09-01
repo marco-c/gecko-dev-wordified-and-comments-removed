@@ -180,7 +180,8 @@ hidden
 "
 )
 ;
-updateTabContextMenu
+await
+openTabContextMenu
 (
 tab2
 )
@@ -229,10 +230,12 @@ tabLoaded
 tab2
 )
 ;
-menuItemReloadSelectedTabs
+await
+BrowserTestUtils
 .
-click
+activateMenuItem
 (
+menuItemReloadSelectedTabs
 )
 ;
 await
