@@ -54488,6 +54488,9 @@ this
 pinTab
 (
 tab
+{
+metricsContext
+:
 this
 .
 TabMetrics
@@ -54496,6 +54499,7 @@ decomposedContext
 (
 metricsContext
 )
+}
 )
 ;
 }
