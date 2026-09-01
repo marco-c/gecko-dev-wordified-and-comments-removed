@@ -91102,13 +91102,10 @@ nsIAsyncShutdownService
 >
 svc
 =
-components
+services
 :
 :
-AsyncShutdown
-:
-:
-Service
+GetAsyncShutdownService
 (
 )
 ;
