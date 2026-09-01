@@ -3794,10 +3794,7 @@ PLATFORM_ENCODER
 WebCodecs
 encoding
 "
-TailDispatchPolicy
-:
-:
-NoTailDispatch
+false
 )
 ;
 }

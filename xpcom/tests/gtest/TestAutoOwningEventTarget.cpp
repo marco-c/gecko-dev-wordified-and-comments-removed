@@ -321,10 +321,7 @@ forget
 "
 TestTaskQueue
 "
-TailDispatchPolicy
-:
-:
-NoTailDispatch
+false
 )
 ;
 nsAutoOwningEventTarget
