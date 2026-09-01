@@ -137,14 +137,6 @@ using
 testing
 :
 :
-InvokeWithoutArgs
-;
-using
-:
-:
-testing
-:
-:
 Return
 ;
 namespace
@@ -383,8 +375,6 @@ Times
 .
 WillOnce
 (
-InvokeWithoutArgs
-(
 [
 this
 ]
@@ -396,7 +386,6 @@ Quit
 )
 ;
 }
-)
 )
 ;
 call_stats_
@@ -490,8 +479,6 @@ Times
 .
 WillOnce
 (
-InvokeWithoutArgs
-(
 [
 this
 ]
@@ -512,11 +499,8 @@ ms
 ;
 }
 )
-)
 .
 WillRepeatedly
-(
-InvokeWithoutArgs
 (
 [
 this
@@ -545,7 +529,6 @@ ms
 ;
 }
 )
-)
 ;
 static
 constexpr
@@ -572,8 +555,6 @@ Times
 .
 WillOnce
 (
-InvokeWithoutArgs
-(
 [
 this
 ]
@@ -585,7 +566,6 @@ Quit
 )
 ;
 }
-)
 )
 ;
 call_stats_
@@ -703,8 +683,6 @@ AnyNumber
 .
 WillOnce
 (
-InvokeWithoutArgs
-(
 [
 this
 ]
@@ -716,7 +694,6 @@ Quit
 )
 ;
 }
-)
 )
 .
 WillRepeatedly
@@ -764,8 +741,6 @@ AnyNumber
 .
 WillOnce
 (
-InvokeWithoutArgs
-(
 [
 this
 ]
@@ -777,7 +752,6 @@ Quit
 )
 ;
 }
-)
 )
 .
 WillRepeatedly
@@ -923,8 +897,6 @@ Times
 .
 WillOnce
 (
-InvokeWithoutArgs
-(
 [
 this
 ]
@@ -942,7 +914,6 @@ kHighRtt
 )
 ;
 }
-)
 )
 ;
 static
@@ -970,8 +941,6 @@ Times
 .
 WillOnce
 (
-InvokeWithoutArgs
-(
 [
 this
 ]
@@ -989,7 +958,6 @@ kLowRtt
 )
 ;
 }
-)
 )
 ;
 static
@@ -1017,8 +985,6 @@ Times
 .
 WillOnce
 (
-InvokeWithoutArgs
-(
 [
 this
 ]
@@ -1031,7 +997,6 @@ AdvanceTimeMilliseconds
 )
 ;
 }
-)
 )
 ;
 static
@@ -1059,8 +1024,6 @@ Times
 .
 WillOnce
 (
-InvokeWithoutArgs
-(
 [
 this
 ]
@@ -1072,7 +1035,6 @@ Quit
 )
 ;
 }
-)
 )
 ;
 AsyncSimulateRttUpdate
@@ -1161,8 +1123,6 @@ Times
 .
 WillOnce
 (
-InvokeWithoutArgs
-(
 [
 this
 ]
@@ -1184,7 +1144,6 @@ kRttHigh
 ;
 }
 )
-)
 ;
 EXPECT_CALL
 (
@@ -1204,8 +1163,6 @@ AnyNumber
 )
 .
 WillOnce
-(
-InvokeWithoutArgs
 (
 [
 this
@@ -1247,7 +1204,6 @@ kRttHigh
 ;
 }
 )
-)
 .
 WillRepeatedly
 (
@@ -1275,8 +1231,6 @@ AnyNumber
 .
 WillOnce
 (
-InvokeWithoutArgs
-(
 [
 this
 ]
@@ -1298,7 +1252,6 @@ Quit
 )
 ;
 }
-)
 )
 .
 WillRepeatedly
@@ -1403,8 +1356,6 @@ AnyNumber
 .
 WillRepeatedly
 (
-InvokeWithoutArgs
-(
 [
 this
 ]
@@ -1416,7 +1367,6 @@ Quit
 )
 ;
 }
-)
 )
 ;
 AsyncSimulateRttUpdate
