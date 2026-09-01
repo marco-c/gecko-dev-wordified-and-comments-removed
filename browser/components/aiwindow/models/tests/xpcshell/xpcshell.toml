@@ -241,13 +241,6 @@ js
 ]
 [
 "
-test_Tools_WorldCup
-.
-js
-"
-]
-[
-"
 test_Utils
 .
 js

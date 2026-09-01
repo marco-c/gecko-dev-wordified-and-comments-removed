@@ -280,13 +280,6 @@ sys
 .
 mjs
 "
-"
-WCSMerinoClient
-.
-sys
-.
-mjs
-"
 ]
 XPCSHELL_TESTS_MANIFESTS
 +
