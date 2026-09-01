@@ -354,6 +354,11 @@ TestCacheEntryWriterHang
 cpp
 "
 "
+TestDiagnosticRWLock
+.
+cpp
+"
+"
 TestHappyEyeballsConnectionAttempt
 .
 cpp
