@@ -232,7 +232,7 @@ MOZILLA_PKIX_ERROR_NOT_YET_VALID_CERTIFICATE
 "
 errorIsOverridable
 :
-false
+true
 channelStatus
 :
 0
@@ -391,6 +391,16 @@ errorConfig
 netErrorCard
 .
 getErrorConfig
+(
+)
+;
+netErrorCard
+.
+hideExceptionButton
+=
+netErrorCard
+.
+shouldHideExceptionButton
 (
 )
 ;

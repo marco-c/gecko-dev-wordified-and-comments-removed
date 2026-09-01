@@ -227,6 +227,12 @@ info
 ;
 netErrorCard
 .
+resolvedErrorId
+=
+errorCode
+;
+netErrorCard
+.
 errorConfig
 =
 netErrorCard
@@ -356,13 +362,7 @@ netErrorCard
 .
 getNSSErrorWhyDangerousL10nId
 (
-netErrorCard
-.
-whyDangerous
-.
-dataset
-.
-l10nId
+errorCode
 )
 ;
 Assert
