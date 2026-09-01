@@ -1681,6 +1681,9 @@ SessionStorage
 (
 context
 engine
+applicationScope
+=
+this
 )
 val
 state
@@ -5198,6 +5201,9 @@ SessionStorage
 (
 context
 engine
+applicationScope
+=
+this
 )
 val
 state
@@ -7572,6 +7578,9 @@ SessionStorage
 (
 context
 engine
+applicationScope
+=
+this
 )
 val
 state
@@ -8402,6 +8411,9 @@ SessionStorage
 (
 context
 engine
+applicationScope
+=
+this
 )
 val
 state
@@ -9162,6 +9174,9 @@ SessionStorage
 (
 context
 engine
+applicationScope
+=
+this
 )
 val
 state

@@ -117,6 +117,12 @@ kotlinx
 .
 coroutines
 .
+CoroutineScope
+import
+kotlinx
+.
+coroutines
+.
 MainScope
 import
 kotlinx
@@ -773,6 +779,11 @@ AutofillCreditCardsAddressesStorage
 strictMode
 :
 StrictModeManager
+private
+val
+applicationScope
+:
+CoroutineScope
 )
 {
 /
@@ -1569,6 +1580,11 @@ FxaPushSupportFeature
 context
 accountManager
 autoPushFeature
+applicationScope
+=
+applicationScope
+crashReporter
+=
 crashReporter
 )
 .

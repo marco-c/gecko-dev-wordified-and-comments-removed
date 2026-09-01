@@ -318,8 +318,6 @@ libs
 androidx
 .
 core
-.
-ktx
 implementation
 libs
 .
@@ -454,6 +452,14 @@ androidx
 test
 .
 runner
+androidTestImplementation
+libs
+.
+kotlinx
+.
+coroutines
+.
+test
 androidTestRuntimeOnly
 libs
 .

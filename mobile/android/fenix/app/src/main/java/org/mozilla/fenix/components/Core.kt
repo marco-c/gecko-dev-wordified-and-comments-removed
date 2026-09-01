@@ -2530,6 +2530,11 @@ by
 lazyMonitored
 {
 FileUploadsDirCleaner
+(
+scope
+=
+applicationScope
+)
 {
 context
 .
@@ -2555,6 +2560,7 @@ trackingProtectionPolicyFactory
 createTrackingProtectionPolicy
 (
 )
+applicationScope
 )
 }
 val
@@ -2583,6 +2589,7 @@ SessionStorage
 context
 engine
 crashReporter
+applicationScope
 )
 }
 private
@@ -2837,6 +2844,9 @@ RegionMiddleware
 (
 context
 locationService
+applicationScope
+=
+applicationScope
 )
 SearchMiddleware
 (

@@ -373,7 +373,7 @@ coroutineContext
 CoroutineContext
 }
 object
-GlobalScope
+Scope
 :
 CoroutineScope
 {
@@ -515,7 +515,7 @@ kotlinx
 .
 coroutines
 .
-GlobalScope
+Scope
 Composable
 fun
 MyScreen
@@ -528,7 +528,7 @@ hostState
 SnackbarHostState
 (
 )
-GlobalScope
+Scope
 .
 launch
 {
@@ -589,7 +589,7 @@ kotlinx
 .
 coroutines
 .
-GlobalScope
+Scope
 Composable
 fun
 MySubclassScreen
@@ -602,7 +602,7 @@ hostStateSubclass
 MySnackbarHostStateSubclass
 (
 )
-GlobalScope
+Scope
 .
 launch
 {

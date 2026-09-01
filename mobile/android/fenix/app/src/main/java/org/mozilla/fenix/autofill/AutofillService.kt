@@ -128,4 +128,14 @@ components
 .
 autofillConfiguration
 }
+override
+val
+applicationScope
+by
+lazy
+{
+components
+.
+applicationScope
+}
 }

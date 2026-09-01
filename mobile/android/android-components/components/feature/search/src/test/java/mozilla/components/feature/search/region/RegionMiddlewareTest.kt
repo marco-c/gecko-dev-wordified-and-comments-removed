@@ -361,6 +361,9 @@ RefreshSearchEngines
 )
 =
 runTest
+(
+testDispatcher
+)
 {
 val
 middleware
@@ -372,6 +375,7 @@ FakeContext
 )
 locationService
 testDispatcher
+this
 )
 middleware
 .
@@ -550,6 +554,9 @@ updated
 )
 =
 runTest
+(
+testDispatcher
+)
 {
 val
 captureActionsMiddleware
@@ -571,6 +578,7 @@ FakeContext
 )
 locationService
 testDispatcher
+this
 )
 val
 regionManager
@@ -878,6 +886,9 @@ updated
 )
 =
 runTest
+(
+testDispatcher
+)
 {
 val
 captureActionsMiddleware
@@ -899,6 +910,7 @@ FakeContext
 )
 locationService
 testDispatcher
+this
 )
 val
 regionManager

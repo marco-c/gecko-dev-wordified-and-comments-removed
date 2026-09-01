@@ -694,6 +694,8 @@ error
 occurs
 (
 )
+=
+runTest
 {
 val
 observer
@@ -708,6 +710,7 @@ testScope
 account
 verifier
 crashReporter
+this
 )
 whenSubscribeError
 (
@@ -741,6 +744,8 @@ is
 false
 (
 )
+=
+runTest
 {
 val
 observer
@@ -755,6 +760,7 @@ testScope
 account
 verifier
 crashReporter
+this
 )
 verifyNoInteractions
 (
@@ -854,6 +860,8 @@ registration
 renewal
 (
 )
+=
+runTest
 {
 val
 observer
@@ -868,6 +876,7 @@ testScope
 account
 verifier
 crashReporter
+this
 )
 when
 (
@@ -1205,9 +1214,9 @@ verifier
 crashReporter
 =
 crashReporter
-uiContext
+applicationScope
 =
-coroutineContext
+this
 )
 }
 }

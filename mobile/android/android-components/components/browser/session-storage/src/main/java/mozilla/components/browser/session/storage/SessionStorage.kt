@@ -131,6 +131,12 @@ concurrent
 .
 TimeUnit
 import
+kotlinx
+.
+coroutines
+.
+CoroutineScope
+import
 mozilla
 .
 components
@@ -345,6 +351,11 @@ CrashReporting
 ?
 =
 null
+private
+val
+applicationScope
+:
+CoroutineScope
 )
 :
 AutoSave
@@ -898,6 +909,7 @@ toMillis
 (
 interval
 )
+applicationScope
 )
 }
 }

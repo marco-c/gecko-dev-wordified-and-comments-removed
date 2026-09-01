@@ -1298,6 +1298,9 @@ by
 lazy
 {
 FileUploadsDirCleaner
+(
+applicationScope
+)
 {
 context
 .
@@ -1648,6 +1651,9 @@ RegionMiddleware
 (
 context
 locationService
+applicationScope
+=
+applicationScope
 )
 SearchMiddleware
 (

@@ -1355,6 +1355,7 @@ core
 .
 lazyAutofillStorage
 strictMode
+applicationScope
 )
 }
 val
@@ -1555,6 +1556,7 @@ webAppManifestStorage
 core
 .
 engine
+applicationScope
 )
 }
 val
@@ -2826,13 +2828,7 @@ default
 (
 scope
 =
-kotlinx
-.
-coroutines
-.
-MainScope
-(
-)
+applicationScope
 context
 =
 context

@@ -103,6 +103,14 @@ app
 .
 ApplicationProvider
 import
+kotlinx
+.
+coroutines
+.
+test
+.
+runTest
+import
 mozilla
 .
 components
@@ -321,6 +329,8 @@ fun
 unsafeUrisWillNotBeSelected
 (
 )
+=
+runTest
 {
 val
 promptContainer
@@ -335,6 +345,9 @@ val
 fileUploadsDirCleaner
 =
 FileUploadsDirCleaner
+(
+this
+)
 {
 context
 .
@@ -465,6 +478,8 @@ fun
 safeUrisWillBeSelected
 (
 )
+=
+runTest
 {
 val
 promptContainer
@@ -479,6 +494,9 @@ val
 fileUploadsDirCleaner
 =
 FileUploadsDirCleaner
+(
+this
+)
 {
 context
 .
@@ -613,6 +631,8 @@ fun
 unsafeUriWillNotBeSelected
 (
 )
+=
+runTest
 {
 val
 promptContainer
@@ -627,6 +647,9 @@ val
 fileUploadsDirCleaner
 =
 FileUploadsDirCleaner
+(
+this
+)
 {
 context
 .
@@ -741,6 +764,8 @@ fun
 safeUriWillBeSelected
 (
 )
+=
+runTest
 {
 val
 promptContainer
@@ -755,6 +780,9 @@ val
 fileUploadsDirCleaner
 =
 FileUploadsDirCleaner
+(
+this
+)
 {
 context
 .

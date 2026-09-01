@@ -351,6 +351,13 @@ newTabSearch
 isPrivate
 =
 true
+applicationScope
+=
+context
+.
+components
+.
+applicationScope
 )
 private
 val

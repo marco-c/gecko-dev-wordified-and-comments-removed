@@ -107,6 +107,14 @@ coroutines
 .
 runBlocking
 import
+kotlinx
+.
+coroutines
+.
+test
+.
+TestScope
+import
 mozilla
 .
 components
@@ -324,6 +332,9 @@ context
 mockAutofill
 mockLogin
 mockPolicy
+TestScope
+(
+)
 )
 assertNotNull
 (

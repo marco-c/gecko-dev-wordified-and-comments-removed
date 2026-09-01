@@ -115,6 +115,14 @@ coroutines
 .
 runBlocking
 import
+kotlinx
+.
+coroutines
+.
+test
+.
+runTest
+import
 mozilla
 .
 components
@@ -296,7 +304,7 @@ engine
 createEngine
 (
 )
-run
+runTest
 {
 /
 /
@@ -918,6 +926,9 @@ SessionStorage
 (
 context
 engine
+applicationScope
+=
+this
 )
 storage
 .
@@ -928,7 +939,7 @@ store
 state
 )
 }
-run
+runTest
 {
 /
 /
@@ -1117,6 +1128,9 @@ SessionStorage
 (
 context
 engine
+applicationScope
+=
+this
 )
 val
 newStore

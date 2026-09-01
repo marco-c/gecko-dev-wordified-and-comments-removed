@@ -286,7 +286,7 @@ mock
 "
 test
 "
-coroutineContext
+this
 )
 when
 (
@@ -375,7 +375,7 @@ mock
 "
 test
 "
-coroutineContext
+this
 )
 observer
 .
@@ -459,7 +459,7 @@ mock
 "
 fake
 "
-coroutineContext
+this
 )
 observer
 .
@@ -520,7 +520,7 @@ pushFeature
 "
 test
 "
-coroutineContext
+this
 )
 whenSubscribe
 (
@@ -652,7 +652,7 @@ pushFeature
 "
 test
 "
-coroutineContext
+this
 )
 whenSubscribe
 (
@@ -719,7 +719,7 @@ mock
 "
 fake
 "
-coroutineContext
+this
 )
 when
 (

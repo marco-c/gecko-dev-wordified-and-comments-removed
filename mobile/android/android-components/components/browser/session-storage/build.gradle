@@ -174,8 +174,6 @@ libs
 androidx
 .
 core
-.
-ktx
 implementation
 libs
 .
@@ -392,6 +390,14 @@ libs
 leakcanary
 .
 instrumentation
+androidTestImplementation
+libs
+.
+kotlinx
+.
+coroutines
+.
+test
 androidTestImplementation
 libs
 .

@@ -118,6 +118,12 @@ content
 .
 Context
 import
+kotlinx
+.
+coroutines
+.
+CoroutineScope
+import
 mozilla
 .
 components
@@ -345,6 +351,11 @@ val
 engine
 :
 Engine
+private
+val
+applicationScope
+:
+CoroutineScope
 )
 {
 /
@@ -379,6 +390,9 @@ false
 engine
 =
 engine
+applicationScope
+=
+applicationScope
 )
 }
 /
@@ -416,6 +430,9 @@ true
 engine
 =
 engine
+applicationScope
+=
+applicationScope
 )
 }
 val

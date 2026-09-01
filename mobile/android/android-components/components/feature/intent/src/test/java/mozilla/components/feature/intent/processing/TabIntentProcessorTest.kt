@@ -712,6 +712,9 @@ store
 searchUseCases
 .
 newTabSearch
+applicationScope
+=
+scope
 )
 val
 intent
@@ -1146,6 +1149,9 @@ store
 searchUseCases
 .
 newTabSearch
+applicationScope
+=
+scope
 )
 val
 intent
@@ -1449,6 +1455,9 @@ store
 searchUseCases
 .
 newTabSearch
+applicationScope
+=
+scope
 )
 val
 intent
@@ -1726,6 +1735,9 @@ store
 searchUseCases
 .
 newTabSearch
+applicationScope
+=
+scope
 )
 val
 intent
@@ -2344,6 +2356,9 @@ store
 searchUseCases
 .
 newTabSearch
+applicationScope
+=
+scope
 )
 val
 searchTerms
@@ -2515,6 +2530,9 @@ store
 searchUseCases
 .
 newTabSearch
+applicationScope
+=
+scope
 )
 val
 intent
@@ -2593,6 +2611,9 @@ store
 searchUseCases
 .
 newTabSearch
+applicationScope
+=
+scope
 )
 val
 intent
@@ -2668,6 +2689,9 @@ store
 searchUseCases
 .
 newTabSearch
+applicationScope
+=
+scope
 )
 val
 intent
@@ -2930,6 +2954,9 @@ store
 searchUseCases
 .
 newTabSearch
+applicationScope
+=
+scope
 )
 val
 searchTerms
@@ -3100,6 +3127,9 @@ store
 searchUseCases
 .
 newTabSearch
+applicationScope
+=
+scope
 )
 val
 intent
@@ -3175,6 +3205,9 @@ store
 searchUseCases
 .
 newTabSearch
+applicationScope
+=
+scope
 )
 val
 intent
@@ -3437,6 +3470,9 @@ store
 searchUseCases
 .
 newTabSearch
+applicationScope
+=
+scope
 )
 val
 searchTerms
@@ -3613,6 +3649,9 @@ store
 searchUseCases
 .
 newTabSearch
+applicationScope
+=
+scope
 )
 val
 intent
@@ -3683,6 +3722,9 @@ store
 searchUseCases
 .
 newTabSearch
+applicationScope
+=
+scope
 )
 val
 intent
@@ -3777,6 +3819,9 @@ store
 searchUseCases
 .
 newTabSearch
+applicationScope
+=
+scope
 )
 val
 intent
@@ -3873,6 +3918,9 @@ store
 searchUseCases
 .
 newTabSearch
+applicationScope
+=
+scope
 )
 val
 intent
@@ -4003,6 +4051,9 @@ store
 searchUseCases
 .
 newTabSearch
+applicationScope
+=
+scope
 )
 val
 intent
@@ -4154,6 +4205,9 @@ store
 searchUseCases
 .
 newTabSearch
+applicationScope
+=
+scope
 )
 val
 intent
@@ -4291,6 +4345,9 @@ store
 searchUseCases
 .
 newTabSearch
+applicationScope
+=
+scope
 )
 val
 intent
@@ -4445,6 +4502,9 @@ newTabSearch
 engine
 =
 engine
+applicationScope
+=
+scope
 )
 val
 result
@@ -4528,6 +4588,9 @@ newTabSearch
 engine
 =
 engine
+applicationScope
+=
+scope
 )
 val
 result
@@ -4628,6 +4691,9 @@ newTabSearch
 engine
 =
 engine
+applicationScope
+=
+scope
 )
 val
 result
@@ -4728,6 +4794,9 @@ newTabSearch
 engine
 =
 engine
+applicationScope
+=
+scope
 )
 val
 result
@@ -4820,6 +4889,9 @@ newTabSearch
 engine
 =
 engine
+applicationScope
+=
+scope
 )
 val
 result
@@ -4874,6 +4946,9 @@ newTabSearch
 engine
 =
 null
+applicationScope
+=
+scope
 )
 val
 result
@@ -4956,6 +5031,9 @@ newTabSearch
 engine
 =
 engine
+applicationScope
+=
+scope
 )
 val
 result
@@ -5036,6 +5114,9 @@ newTabSearch
 engine
 =
 engine
+applicationScope
+=
+scope
 )
 val
 result

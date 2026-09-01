@@ -93,6 +93,14 @@ test
 .
 assertNotNull
 import
+kotlinx
+.
+coroutines
+.
+test
+.
+runTest
+import
 mozilla
 .
 components
@@ -323,6 +331,8 @@ saved
 state
 (
 )
+=
+runTest
 {
 /
 /
@@ -459,6 +469,9 @@ SessionStorage
 (
 testContext
 engine
+applicationScope
+=
+this
 )
 val
 persisted
@@ -553,6 +566,8 @@ browser
 state
 (
 )
+=
+runTest
 {
 /
 /
@@ -722,6 +737,9 @@ SessionStorage
 (
 testContext
 engine
+applicationScope
+=
+this
 )
 val
 persisted
@@ -856,6 +874,8 @@ browser
 state
 (
 )
+=
+runTest
 {
 /
 /
@@ -966,6 +986,9 @@ SessionStorage
 (
 context
 engine
+applicationScope
+=
+this
 )
 )
 doReturn
@@ -1119,6 +1142,8 @@ empty
 state
 (
 )
+=
+runTest
 {
 val
 engine
@@ -1135,6 +1160,9 @@ SessionStorage
 (
 testContext
 engine
+applicationScope
+=
+this
 )
 )
 storage
@@ -1173,6 +1201,8 @@ after
 clearing
 (
 )
+=
+runTest
 {
 val
 engine
@@ -1252,6 +1282,9 @@ SessionStorage
 (
 testContext
 engine
+applicationScope
+=
+this
 )
 val
 persisted
@@ -1378,6 +1411,8 @@ fun
 deserializeVersion2BrowsingSessionLegacyOrgJson
 (
 )
+=
+runTest
 {
 /
 /
@@ -4002,6 +4037,9 @@ SessionStorage
 (
 testContext
 engine
+applicationScope
+=
+this
 )
 val
 browsingSession
@@ -4268,6 +4306,8 @@ fun
 deserializeVersion2BrowsingSessionJsonWriter
 (
 )
+=
+runTest
 {
 /
 /
@@ -5631,6 +5671,9 @@ SessionStorage
 (
 testContext
 engine
+applicationScope
+=
+this
 )
 val
 browsingSession
@@ -5901,6 +5944,8 @@ session
 properties
 (
 )
+=
+runTest
 {
 val
 firstTab
@@ -6070,6 +6115,9 @@ SessionStorage
 (
 testContext
 engine
+applicationScope
+=
+this
 )
 val
 persisted
@@ -6268,6 +6316,8 @@ not
 exist
 (
 )
+=
+runTest
 {
 val
 state
@@ -6340,6 +6390,9 @@ SessionStorage
 (
 testContext
 engine
+applicationScope
+=
+this
 )
 val
 persisted
@@ -6485,6 +6538,8 @@ save
 tab
 (
 )
+=
+runTest
 {
 val
 state
@@ -6549,6 +6604,9 @@ SessionStorage
 (
 testContext
 engine
+applicationScope
+=
+this
 )
 val
 persisted

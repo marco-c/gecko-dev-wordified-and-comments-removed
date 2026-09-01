@@ -99,7 +99,7 @@ kotlinx
 .
 coroutines
 .
-CoroutineScope
+CoroutineDispatcher
 import
 kotlinx
 .
@@ -186,9 +186,9 @@ context
 Context
 private
 val
-coroutineScope
+dispatcher
 :
-CoroutineScope
+CoroutineDispatcher
 )
 :
 ScopeProperty
@@ -204,9 +204,7 @@ PushScope
 =
 withContext
 (
-coroutineScope
-.
-coroutineContext
+dispatcher
 )
 {
 val
