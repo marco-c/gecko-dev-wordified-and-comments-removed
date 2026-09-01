@@ -2078,7 +2078,7 @@ initial_yield
 NULL
 4
 1
-3
+2
 JOF_RESUMEINDEX
 )
 \
@@ -2114,7 +2114,7 @@ yield
 NULL
 4
 2
-3
+2
 JOF_RESUMEINDEX
 )
 \
@@ -2162,7 +2162,7 @@ await
 NULL
 4
 2
-3
+2
 JOF_RESUMEINDEX
 )
 \

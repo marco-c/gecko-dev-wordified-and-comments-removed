@@ -32672,7 +32672,7 @@ frame
 .
 incStackDepth
 (
-2
+1
 )
 ;
 return
@@ -34035,13 +34035,6 @@ masm
 pushValue
 (
 argValue
-)
-;
-masm
-.
-pushValue
-(
-argGen
 )
 ;
 masm

@@ -16260,14 +16260,6 @@ ResumeValueSlot
 )
 )
 ;
-current
--
->
-push
-(
-genObj
-)
-;
 #
 ifdef
 DEBUG
