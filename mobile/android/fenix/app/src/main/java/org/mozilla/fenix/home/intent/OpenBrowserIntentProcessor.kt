@@ -147,10 +147,10 @@ HomeActivity
 OPEN_TO_BROWSER
 ]
 flag
-*
 when
 the
 browser
+*
 should
 be
 opened

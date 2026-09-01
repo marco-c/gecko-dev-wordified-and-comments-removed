@@ -227,7 +227,6 @@ FirefoxTheme
 /
 *
 *
-*
 Fragment
 host
 for

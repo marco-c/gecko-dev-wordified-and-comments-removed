@@ -140,8 +140,8 @@ is
 attached
 to
 .
-*
 Default
+*
 implementations
 will
 use
@@ -174,11 +174,11 @@ will
 be
 recorded
 even
-*
 in
 release
 builds
 .
+*
 It
 will
 not
@@ -194,7 +194,6 @@ may
 still
 be
 extractable
-*
 by
 external
 tools
@@ -202,6 +201,7 @@ tools
 Use
 caution
 when
+*
 enabling
 this
 .

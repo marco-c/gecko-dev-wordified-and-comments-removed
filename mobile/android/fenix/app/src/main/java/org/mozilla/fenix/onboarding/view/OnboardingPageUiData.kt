@@ -85,7 +85,6 @@ OnboardingCardData
 /
 *
 *
-*
 Model
 containing
 the
@@ -262,7 +261,6 @@ marketing_data
 /
 *
 *
-*
 Returns
 the
 sequence
@@ -332,13 +330,12 @@ string
 of
 page
 names
-*
 separated
 by
 an
+*
 underscore
 .
-*
 e
 .
 g

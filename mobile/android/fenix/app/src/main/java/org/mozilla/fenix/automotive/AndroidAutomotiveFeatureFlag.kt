@@ -84,7 +84,6 @@ feature
 is
 present
 .
-*
 Note
 :
 Android
@@ -95,6 +94,7 @@ the
 same
 as
 Android
+*
 Auto
 .
 *

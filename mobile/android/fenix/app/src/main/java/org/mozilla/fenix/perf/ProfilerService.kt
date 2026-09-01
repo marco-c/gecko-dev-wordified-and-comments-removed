@@ -267,10 +267,10 @@ Firefox
 Android
 app
 .
-*
 Now
 uses
 NotificationsDelegate
+*
 to
 handle
 permission
@@ -293,13 +293,13 @@ is
 active
 and
 provides
-*
 a
 way
 for
 users
 to
 stop
+*
 profiling
 through
 the
@@ -309,7 +309,6 @@ The
 service
 handles
 starting
-*
 and
 stopping
 profiling
@@ -317,11 +316,11 @@ operations
 based
 on
 intents
+*
 with
 the
 NotificationsDelegate
 managing
-*
 all
 permission
 -
@@ -352,11 +351,11 @@ for
 the
 ProfilerService
 .
-*
 This
 object
 defines
 the
+*
 intent
 actions
 that
@@ -368,7 +367,6 @@ the
 service
 to
 control
-*
 profiling
 operations
 .
@@ -607,7 +605,6 @@ START_NOT_STICKY
 /
 *
 *
-*
 Request
 permission
 for
@@ -668,7 +665,6 @@ false
 }
 }
 /
-*
 *
 *
 Creates
@@ -943,11 +939,11 @@ sure
 it
 does
 not
-*
 initialize
 during
 startup
 .
+*
 So
 it
 has
@@ -1049,7 +1045,6 @@ ProfilerProvider
 }
 }
 /
-*
 *
 *
 Since

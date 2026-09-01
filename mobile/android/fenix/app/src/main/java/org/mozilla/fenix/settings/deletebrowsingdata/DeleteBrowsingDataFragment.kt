@@ -289,7 +289,6 @@ Settings
 /
 *
 *
-*
 Settings
 screen
 allowing

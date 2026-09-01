@@ -71,6 +71,12 @@ content
 .
 Context
 import
+kotlin
+.
+collections
+.
+get
+import
 mozilla
 .
 appservices
@@ -118,12 +124,6 @@ mozilla
 fenix
 .
 R
-import
-kotlin
-.
-collections
-.
-get
 fun
 rootTitles
 (
@@ -418,11 +418,11 @@ the
 user
 -
 friendly
-*
 translated
 version
 of
 its
+*
 title
 .
 *
@@ -681,7 +681,6 @@ orEmpty
 /
 *
 *
-*
 Whether
 the
 [
@@ -724,7 +723,6 @@ guid
 /
 *
 *
-*
 Converts
 a
 List
@@ -748,7 +746,6 @@ for
 sharing
 one
 or
-*
 more
 bookmarks
 *

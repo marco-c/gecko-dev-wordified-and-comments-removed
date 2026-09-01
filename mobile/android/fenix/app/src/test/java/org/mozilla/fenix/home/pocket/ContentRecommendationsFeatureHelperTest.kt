@@ -79,6 +79,12 @@ runners
 .
 AndroidJUnit4
 import
+java
+.
+util
+.
+Locale
+import
 mozilla
 .
 components
@@ -142,12 +148,6 @@ junit
 runner
 .
 RunWith
-import
-java
-.
-util
-.
-Locale
 RunWith
 (
 AndroidJUnit4

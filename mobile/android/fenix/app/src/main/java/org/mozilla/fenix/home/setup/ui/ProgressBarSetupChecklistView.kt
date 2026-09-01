@@ -357,7 +357,6 @@ numberOfTasks
 /
 *
 *
-*
 The
 gray
 background
@@ -415,7 +414,6 @@ alpha
 }
 }
 /
-*
 *
 *
 The
@@ -579,7 +577,6 @@ gradient
 }
 }
 /
-*
 *
 *
 The

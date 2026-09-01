@@ -103,7 +103,6 @@ FrameLayout
 /
 *
 *
-*
 Interface
 that
 allows
@@ -144,12 +143,12 @@ gesture
 .
 The
 listener
-*
 should
 return
 true
 if
 it
+*
 wants
 to
 handle
@@ -162,7 +161,6 @@ the
 listener
 returns
 false
-*
 it
 will
 not
@@ -171,6 +169,7 @@ any
 callbacks
 for
 future
+*
 events
 that
 the
@@ -367,10 +366,10 @@ intercept
 a
 swipe
 event
-*
 is
 the
 only
+*
 listener
 that
 will
@@ -414,7 +413,6 @@ defStyleAttr
 )
 {
 /
-*
 *
 *
 Controls

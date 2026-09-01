@@ -85,7 +85,6 @@ WindowManager
 /
 *
 *
-*
 Checks
 if
 activity

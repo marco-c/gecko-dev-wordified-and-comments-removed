@@ -127,7 +127,6 @@ CustomReviewPrompt
 /
 *
 *
-*
 [
 Store
 ]
@@ -199,7 +198,6 @@ CustomReviewPromptNavigationEvent
 /
 *
 *
-*
 Available
 steps
 the
@@ -221,7 +219,6 @@ State
 /
 *
 *
-*
 Initial
 state
 with
@@ -238,7 +235,6 @@ experience
 /
 PrePrompt
 /
-*
 *
 *
 Positive
@@ -259,7 +255,6 @@ Rate
 /
 *
 *
-*
 Negative
 state
 with
@@ -274,7 +269,6 @@ feedback
 Feedback
 }
 /
-*
 *
 *
 [
@@ -304,7 +298,6 @@ Action
 /
 *
 *
-*
 Dispatched
 when
 the
@@ -328,7 +321,6 @@ CustomReviewPromptAction
 (
 )
 /
-*
 *
 *
 Dispatched
@@ -356,7 +348,6 @@ CustomReviewPromptAction
 /
 *
 *
-*
 Dispatched
 when
 the
@@ -380,7 +371,6 @@ CustomReviewPromptAction
 /
 *
 *
-*
 Dispatched
 when
 the
@@ -400,7 +390,6 @@ CustomReviewPromptAction
 (
 )
 /
-*
 *
 *
 Dispatched
@@ -425,7 +414,6 @@ CustomReviewPromptAction
 (
 )
 /
-*
 *
 *
 Dispatched

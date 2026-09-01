@@ -95,7 +95,6 @@ R
 /
 *
 *
-*
 Represents
 the
 favicon
@@ -150,12 +149,12 @@ the
 favicon
 will
 be
-*
 fetched
 using
 the
 top
 site
+*
 URL
 .
 *

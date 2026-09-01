@@ -77,6 +77,12 @@ mockk
 .
 mockk
 import
+java
+.
+util
+.
+UUID
+import
 mozilla
 .
 components
@@ -162,12 +168,6 @@ components
 search
 .
 TABS_SEARCH_ENGINE_ID
-import
-java
-.
-util
-.
-UUID
 class
 SearchEngineTest
 {

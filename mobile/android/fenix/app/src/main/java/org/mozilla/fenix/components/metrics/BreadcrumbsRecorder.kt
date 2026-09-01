@@ -153,11 +153,11 @@ telemetry
 is
 enabled
 .
-*
 It
 will
 automatically
 be
+*
 removed
 when
 the
@@ -231,7 +231,6 @@ this
 )
 }
 /
-*
 *
 *
 When

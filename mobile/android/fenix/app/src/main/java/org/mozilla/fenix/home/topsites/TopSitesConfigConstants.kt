@@ -69,7 +69,6 @@ topsites
 /
 *
 *
-*
 Constants
 used
 for
@@ -116,12 +115,12 @@ sites
 .
 TopSitesProvider
 ]
-*
 when
 the
 number
 of
 default
+*
 and
 pinned
 sites
@@ -140,7 +139,6 @@ TOP_SITES_PROVIDER_MAX_THRESHOLD
 =
 8
 /
-*
 *
 *
 Number
@@ -176,7 +174,6 @@ TOP_SITES_PROVIDER_LIMIT
 /
 *
 *
-*
 The
 maximum
 number
@@ -195,7 +192,6 @@ TOP_SITES_MAX_COUNT
 =
 16
 /
-*
 *
 *
 Sponsored
@@ -217,7 +213,6 @@ AMAZON_SPONSORED_TITLE
 Amazon
 "
 /
-*
 *
 *
 Sponsored
@@ -242,7 +237,6 @@ Amazon
 com
 "
 /
-*
 *
 *
 Sponsored

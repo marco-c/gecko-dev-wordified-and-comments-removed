@@ -77,7 +77,6 @@ Action
 /
 *
 *
-*
 Actions
 related
 to
@@ -95,7 +94,6 @@ AppIconAction
 :
 Action
 /
-*
 *
 *
 User
@@ -203,7 +201,6 @@ UserAction
 /
 *
 *
-*
 The
 user
 has
@@ -227,7 +224,6 @@ Dismissed
 UserAction
 }
 /
-*
 *
 *
 System
@@ -262,11 +258,11 @@ button
 (
 back
 gesture
-*
 tap
 outside
 of
 the
+*
 dialog
 area
 etc
@@ -431,7 +427,6 @@ AppIcon
 :
 SystemAction
 /
-*
 *
 *
 The

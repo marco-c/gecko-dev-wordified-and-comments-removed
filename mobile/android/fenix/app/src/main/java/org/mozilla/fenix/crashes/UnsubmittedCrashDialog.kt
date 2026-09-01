@@ -481,7 +481,6 @@ FirefoxTheme
 /
 *
 *
-*
 Callback
 for
 dispatching
@@ -504,7 +503,6 @@ CrashActionDispatcher
 /
 *
 *
-*
 Dispatches
 the
 received
@@ -522,7 +520,6 @@ CrashAction
 )
 }
 /
-*
 *
 *
 Dialog
@@ -773,7 +770,6 @@ dialog
 tag
 "
 /
-*
 *
 *
 Creates

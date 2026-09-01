@@ -130,10 +130,10 @@ referral
 utm_content
 is
 exactly
-*
 fxrefer
 followed
 by
+*
 the
 code
 .
@@ -145,7 +145,6 @@ preamble
 survives
 the
 single
-*
 URL
 -
 decode
@@ -155,13 +154,13 @@ Store
 applies
 to
 its
+*
 referrer
 query
 parameter
 unchanged
 whatever
 the
-*
 link
 '
 s
@@ -175,6 +174,7 @@ parseInstallReferrer
 does
 no
 further
+*
 decoding
 .
 *
@@ -194,13 +194,13 @@ links
 The
 match
 is
-*
 case
 -
 sensitive
 so
 a
 link
+*
 varying
 the
 case
@@ -214,7 +214,6 @@ recognized
 and
 the
 code
-*
 it
 carries
 will
@@ -222,6 +221,7 @@ reach
 client_info
 .
 attribution
+*
 and
 the
 Nimbus
@@ -231,7 +231,6 @@ it
 lives
 for
 the
-*
 lifespan
 of
 the
@@ -244,6 +243,7 @@ silent
 so
 correctness
 rests
+*
 on
 link
 construction
@@ -264,11 +264,11 @@ merely
 begins
 with
 fxrefer
-*
 is
 treated
 as
 a
+*
 referral
 and
 dropped
@@ -324,7 +324,6 @@ it
 on
 the
 dedicated
-*
 referrals
 ping
 .
@@ -350,10 +349,10 @@ of
 install
 telemetry
 .
-*
 Everything
 here
 exists
+*
 to
 keep
 it
@@ -366,7 +365,6 @@ client_info
 .
 attribution
 the
-*
 play
 -
 store
@@ -378,6 +376,7 @@ the
 Nimbus
 context
 .
+*
 See
 bug
 2062793
@@ -386,7 +385,6 @@ bug
 2055255
 for
 the
-*
 desktop
 equivalent
 this
@@ -432,10 +430,10 @@ expected
 to
 be
 16
-*
 characters
 but
 neither
+*
 platform
 checks
 so
@@ -591,12 +589,12 @@ carrying
 utm_content
 parameter
 removed
-*
 entirely
 so
 that
 a
 referral
+*
 install
 is
 indistinguishable
@@ -605,7 +603,6 @@ one
 that
 carried
 no
-*
 utm_content
 at
 all
@@ -615,13 +612,13 @@ matches
 the
 blanking
 of
+*
 [
 UTMParams
 .
 content
 ]
 in
-*
 InstallReferrerWorker
 .
 handleSuccess
@@ -649,7 +646,6 @@ when
 it
 carries
 no
-*
 referral
 code
 .
@@ -664,7 +660,6 @@ not
 just
 the
 one
-*
 [
 UTMParams
 .
@@ -675,6 +670,7 @@ have
 selected
 .
 That
+*
 parser
 keeps
 the
@@ -682,7 +678,6 @@ last
 value
 for
 a
-*
 repeated
 key
 so
@@ -693,10 +688,10 @@ repeating
 utm_content
 could
 otherwise
+*
 leave
 a
 code
-*
 behind
 in
 the

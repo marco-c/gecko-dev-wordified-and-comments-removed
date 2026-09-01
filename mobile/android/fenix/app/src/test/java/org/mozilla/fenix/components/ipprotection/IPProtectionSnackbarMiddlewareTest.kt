@@ -311,6 +311,8 @@ dispatch
 IPProtectionAction
 .
 ToggleFailed
+(
+)
 )
 captureMiddleware
 .
@@ -466,6 +468,8 @@ dispatch
 IPProtectionAction
 .
 ToggleFailed
+(
+)
 )
 captureMiddleware
 .

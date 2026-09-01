@@ -279,6 +279,12 @@ unit
 .
 dp
 import
+kotlin
+.
+math
+.
+roundToInt
+import
 mozilla
 .
 components
@@ -400,12 +406,6 @@ fenix
 wallpapers
 .
 WallpaperTheme
-import
-kotlin
-.
-math
-.
-roundToInt
 private
 val
 defaultCardContentPadding

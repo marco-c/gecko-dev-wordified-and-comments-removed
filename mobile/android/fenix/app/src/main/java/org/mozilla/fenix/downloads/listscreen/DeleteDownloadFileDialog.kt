@@ -193,7 +193,6 @@ they
 want
 to
 delete
-*
 selected
 downloads
 .
@@ -201,6 +200,7 @@ It
 provides
 options
 to
+*
 confirm
 or
 cancel

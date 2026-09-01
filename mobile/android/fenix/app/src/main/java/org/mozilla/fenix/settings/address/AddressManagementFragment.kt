@@ -337,7 +337,6 @@ FirefoxTheme
 /
 *
 *
-*
 Displays
 a
 list
@@ -580,7 +579,6 @@ storage
 and
 updates
 the
-*
 [
 AutofillFragmentStore
 ]
@@ -588,6 +586,7 @@ with
 the
 list
 of
+*
 addresses
 .
 *

@@ -8121,6 +8121,12 @@ null
 userSelectedSearchEngineName
 =
 null
+userSelectedPrivateSearchEngineId
+=
+null
+userSelectedPrivateSearchEngineName
+=
+null
 regionDefaultSearchEngineId
 =
 "

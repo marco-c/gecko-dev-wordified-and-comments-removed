@@ -211,7 +211,6 @@ State
 /
 *
 *
-*
 [
 Action
 ]
@@ -233,7 +232,6 @@ Action
 /
 *
 *
-*
 Dispatched
 when
 the
@@ -251,7 +249,6 @@ CfrToolsAction
 (
 )
 /
-*
 *
 *
 Toggle
@@ -278,7 +275,6 @@ CfrToolsAction
 /
 *
 *
-*
 Toggle
 whether
 the
@@ -299,7 +295,6 @@ CfrToolsAction
 (
 )
 /
-*
 *
 *
 Toggle
@@ -323,7 +318,6 @@ CfrToolsAction
 (
 )
 /
-*
 *
 *
 Toggle
@@ -350,7 +344,6 @@ CfrToolsAction
 /
 *
 *
-*
 Reset
 lastCfrShownTimeInMillis
 to
@@ -366,7 +359,6 @@ CfrToolsAction
 (
 )
 /
-*
 *
 *
 [
@@ -423,7 +415,6 @@ show
 the
 tab
 auto
-*
 close
 banner
 CFR
@@ -479,7 +470,6 @@ to
 show
 the
 inactive
-*
 tabs
 CFR
 .
@@ -536,7 +526,6 @@ show
 the
 open
 in
-*
 app
 CFR
 .
@@ -609,7 +598,6 @@ CfrToolsAction
 LoadCfrPreference
 }
 /
-*
 *
 *
 Reducer
@@ -795,7 +783,6 @@ newValue
 /
 *
 *
-*
 A
 [
 Store
@@ -816,7 +803,6 @@ reduces
 CfrToolsAction
 ]
 s
-*
 dispatched
 to
 the

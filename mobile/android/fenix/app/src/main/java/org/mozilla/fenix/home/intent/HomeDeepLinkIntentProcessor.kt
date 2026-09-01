@@ -259,7 +259,9 @@ fenix
 .
 utils
 .
-maybeShowAddSearchWidgetPrompt
+Settings
+as
+AppSettings
 import
 org
 .
@@ -269,9 +271,7 @@ fenix
 .
 utils
 .
-Settings
-as
-AppSettings
+maybeShowAddSearchWidgetPrompt
 /
 /
 Intent
@@ -294,7 +294,6 @@ EXTRA_TAB_TRAY_ANIMATION
 EXTRA_TAB_TRAY_ANIMATION
 "
 /
-*
 *
 *
 Deep
@@ -701,7 +700,6 @@ navDirections
 }
 }
 /
-*
 *
 *
 Handle

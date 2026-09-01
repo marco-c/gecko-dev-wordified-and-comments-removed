@@ -82,12 +82,12 @@ feature
 that
 need
 to
-*
 be
 reported
 even
 after
 the
+*
 feature
 leaves
 scope

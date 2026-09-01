@@ -69,7 +69,6 @@ store
 /
 *
 *
-*
 The
 '
 surface
@@ -83,7 +82,6 @@ sheet
 was
 displayed
 on
-*
 e
 .
 g

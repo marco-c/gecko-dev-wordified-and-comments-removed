@@ -268,7 +268,6 @@ RecentlyClosedController
 /
 *
 *
-*
 [
 TabState
 ]
@@ -290,7 +289,6 @@ tab
 TabState
 )
 /
-*
 *
 *
 [
@@ -899,11 +897,11 @@ TabsUseCases
 .
 restore
 ]
-*
 and
 deleted
 from
 the
+*
 storage
 .
 The
@@ -934,13 +932,13 @@ opened
 in
 the
 current
-*
 browsing
 mode
 using
 [
 handleOpen
 ]
+*
 and
 it
 is
@@ -950,7 +948,6 @@ from
 the
 storage
 .
-*
 The
 new
 tab

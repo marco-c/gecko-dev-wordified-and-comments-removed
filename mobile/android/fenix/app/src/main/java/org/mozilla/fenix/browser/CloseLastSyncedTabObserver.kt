@@ -125,7 +125,6 @@ navigates
 back
 to
 the
-*
 home
 screen
 when
@@ -137,8 +136,8 @@ closed
 so
 that
 the
-user
 *
+user
 doesn
 '
 t

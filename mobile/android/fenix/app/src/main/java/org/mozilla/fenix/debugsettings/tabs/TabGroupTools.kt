@@ -1000,10 +1000,10 @@ testing
 tab
 groups
 .
-*
 This
 initializes
 the
+*
 state
 by
 generating
@@ -1016,7 +1016,6 @@ a
 real
 -
 world
-*
 tab
 tray
 :
@@ -1028,6 +1027,7 @@ ungrouped
 tabs
 4
 more
+*
 tab
 groups
 and
@@ -1036,7 +1036,6 @@ more
 ungrouped
 tabs
 .
-*
 Each
 group
 contains

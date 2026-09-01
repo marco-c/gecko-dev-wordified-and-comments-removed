@@ -160,11 +160,11 @@ options
 within
 a
 single
-*
 preference
 item
 .
 This
+*
 preference
 stores
 a
@@ -179,7 +179,6 @@ SharedPreferences
 ]
 based
 on
-*
 which
 radio
 button
@@ -289,7 +288,6 @@ Unit
 =
 null
 /
-*
 *
 *
 Registers

@@ -335,7 +335,6 @@ SearchWidgetProvider
 /
 *
 *
-*
 Fragment
 that
 displays

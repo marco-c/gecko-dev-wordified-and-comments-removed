@@ -230,7 +230,6 @@ shown
 in
 the
 AwesomeBar
-*
 while
 showing
 to
@@ -241,6 +240,7 @@ allowing
 to
 undo
 the
+*
 operation
 .
 *
@@ -284,7 +284,6 @@ results
 are
 displayed
 .
-*
 Updated
 for
 soft

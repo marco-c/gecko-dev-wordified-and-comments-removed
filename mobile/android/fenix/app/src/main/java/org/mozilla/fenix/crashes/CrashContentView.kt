@@ -162,7 +162,6 @@ overlay
 an
 EngineView
 .
-*
 This
 will
 allow
@@ -171,12 +170,12 @@ to
 close
 or
 restore
+*
 the
 current
 tab
 while
 optionally
-*
 send
 all
 reports
@@ -296,7 +295,6 @@ visibility
 VISIBLE
 }
 /
-*
 *
 *
 Remove
@@ -459,7 +457,6 @@ a
 predefined
 amount
 .
-*
 This
 amount
 is

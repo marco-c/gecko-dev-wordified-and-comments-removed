@@ -93,7 +93,6 @@ BookmarksImporterError
 /
 *
 *
-*
 Represents
 errors
 that
@@ -181,10 +180,10 @@ BookmarksImporterError
 .
 FileParseError
 ]
-*
 whose
 cause
 is
+*
 [
 mozilla
 .
@@ -235,10 +234,10 @@ BookmarksImporterError
 .
 FileParseError
 ]
-*
 whose
 cause
 is
+*
 [
 mozilla
 .
@@ -289,10 +288,10 @@ BookmarksImporterError
 .
 FileParseError
 ]
-*
 whose
 cause
 is
+*
 [
 mozilla
 .
@@ -351,7 +350,6 @@ BOOKMARKS_SAVE_ERROR
 3001
 )
 /
-*
 *
 *
 An

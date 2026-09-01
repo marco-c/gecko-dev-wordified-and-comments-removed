@@ -95,6 +95,12 @@ widget
 .
 RecyclerView
 import
+java
+.
+util
+.
+Locale
+import
 org
 .
 mozilla
@@ -102,12 +108,6 @@ mozilla
 fenix
 .
 R
-import
-java
-.
-util
-.
-Locale
 class
 LocaleAdapter
 (

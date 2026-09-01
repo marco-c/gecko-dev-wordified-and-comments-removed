@@ -319,7 +319,6 @@ version
 .
 When
 incremented
-*
 users
 who
 were
@@ -329,6 +328,7 @@ will
 be
 show
 the
+*
 onboarding
 again
 .
@@ -342,7 +342,6 @@ CURRENT_ONBOARDING_VERSION
 =
 1
 /
-*
 *
 *
 Name
@@ -365,7 +364,6 @@ fenix
 onboarding
 "
 /
-*
 *
 *
 Key

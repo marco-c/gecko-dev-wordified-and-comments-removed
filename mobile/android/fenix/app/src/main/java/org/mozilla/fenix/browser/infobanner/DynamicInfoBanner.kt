@@ -114,7 +114,6 @@ top
 BrowserToolbar
 ]
 .
-*
 Only
 to
 be
@@ -124,6 +123,7 @@ with
 BrowserToolbar
 ]
 s
+*
 placed
 at
 the

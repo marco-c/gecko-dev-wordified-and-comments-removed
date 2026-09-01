@@ -128,11 +128,11 @@ stopping
 the
 profiler
 .
-*
 This
 activity
 is
 launched
+*
 the
 profiling
 notification
@@ -164,13 +164,13 @@ PendingIntent
 from
 the
 profiling
-*
 notification
 and
 should
 not
 be
 started
+*
 directly
 by
 application

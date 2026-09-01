@@ -95,7 +95,6 @@ AddressManagementController
 /
 *
 *
-*
 Interface
 for
 the
@@ -127,7 +126,6 @@ Called
 when
 a
 user
-*
 taps
 on
 an
@@ -158,7 +156,6 @@ Address
 /
 *
 *
-*
 Navigates
 to
 the
@@ -174,7 +171,6 @@ Called
 when
 a
 user
-*
 taps
 on
 '
@@ -217,7 +213,6 @@ will
 be
 delegated
 for
-*
 all
 user
 interactions

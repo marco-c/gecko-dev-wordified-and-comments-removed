@@ -209,7 +209,6 @@ DohSettingsScreen
 /
 *
 *
-*
 Nav
 host
 of
@@ -781,7 +780,6 @@ titleResId
 )
 }
 /
-*
 *
 *
 Destination

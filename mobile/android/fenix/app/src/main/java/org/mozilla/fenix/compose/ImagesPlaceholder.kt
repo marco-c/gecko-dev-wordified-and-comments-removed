@@ -243,7 +243,6 @@ used
 during
 loading
 .
-*
 By
 default
 set
@@ -252,6 +251,7 @@ to
 DefaultImagePlaceholder
 ]
 in
+*
 [
 org
 .
@@ -317,7 +317,6 @@ if
 loading
 failed
 .
-*
 By
 default
 set
@@ -326,6 +325,7 @@ to
 DefaultImagePlaceholder
 ]
 in
+*
 [
 org
 .
@@ -408,9 +408,9 @@ this
 image
 represents
 .
-*
 Defaults
 to
+*
 [
 null
 ]
@@ -429,7 +429,6 @@ to
 be
 read
 by
-*
 accessibility
 services
 .

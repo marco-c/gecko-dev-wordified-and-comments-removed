@@ -131,7 +131,6 @@ OnboardingScreen
 /
 *
 *
-*
 Receiver
 required
 to
@@ -141,7 +140,6 @@ from
 Launcher
 when
 prompted
-*
 to
 add
 search
@@ -162,7 +160,6 @@ companion
 object
 {
 /
-*
 *
 *
 Prepare
@@ -254,7 +251,6 @@ of
 Add
 Search
 Widget
-*
 card
 from
 [
@@ -314,7 +310,6 @@ _isPinned
 /
 *
 *
-*
 Update
 state
 when
@@ -324,7 +319,6 @@ add
 search
 widget
 card
-*
 and
 the
 widget

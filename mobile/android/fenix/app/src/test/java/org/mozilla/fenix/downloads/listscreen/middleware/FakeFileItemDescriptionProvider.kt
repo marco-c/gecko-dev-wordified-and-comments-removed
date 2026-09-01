@@ -88,6 +88,7 @@ FakeFileItemDescriptionProvider
 FileItemDescriptionProvider
 {
 override
+suspend
 fun
 getDescription
 (

@@ -191,6 +191,10 @@ fenix
 .
 tabstray
 .
+redux
+.
+state
+.
 Page
 import
 org
@@ -215,7 +219,6 @@ utils
 .
 Settings
 /
-*
 *
 *
 An
@@ -243,7 +246,6 @@ RecentSyncedTabController
 /
 *
 *
-*
 see
 [
 RecentSyncedTabInteractor
@@ -260,7 +262,6 @@ tab
 RecentSyncedTab
 )
 /
-*
 *
 *
 see

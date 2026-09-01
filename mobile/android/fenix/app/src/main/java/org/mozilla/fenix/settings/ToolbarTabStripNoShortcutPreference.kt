@@ -263,7 +263,6 @@ isBrowsingInNormalMode
 /
 *
 *
-*
 Optional
 callback
 for

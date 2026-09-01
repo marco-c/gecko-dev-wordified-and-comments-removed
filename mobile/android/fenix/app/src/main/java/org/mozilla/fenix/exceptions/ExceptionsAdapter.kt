@@ -177,11 +177,11 @@ logins
 or
 tracking
 protection
-*
 along
 with
 controls
 to
+*
 remove
 the
 exception
@@ -231,7 +231,6 @@ diffCallback
 /
 *
 *
-*
 Change
 the
 list
@@ -241,7 +240,6 @@ that
 are
 displayed
 .
-*
 Header
 and
 footer
@@ -306,7 +304,6 @@ adapterItems
 /
 *
 *
-*
 Layout
 to
 use
@@ -326,7 +323,6 @@ deleteButtonLayoutId
 :
 Int
 /
-*
 *
 *
 String
@@ -349,7 +345,6 @@ headerDescriptionResource
 :
 Int
 /
-*
 *
 *
 Converts
@@ -573,7 +568,6 @@ url
 /
 *
 *
-*
 Internal
 items
 for
@@ -612,7 +606,6 @@ in
 ExceptionsAdapter
 ]
 .
-*
 [
 T
 ]
@@ -625,6 +618,7 @@ value
 as
 in
 the
+*
 [
 ExceptionsAdapter
 ]

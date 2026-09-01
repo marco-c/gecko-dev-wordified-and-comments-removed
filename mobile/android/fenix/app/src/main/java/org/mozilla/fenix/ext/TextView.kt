@@ -89,7 +89,6 @@ toSpannable
 /
 *
 *
-*
 Adds
 an
 underline

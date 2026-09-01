@@ -79,7 +79,6 @@ Message
 /
 *
 *
-*
 Controls
 all
 the
@@ -96,7 +95,6 @@ interface
 MessageController
 {
 /
-*
 *
 *
 Indicates
@@ -121,7 +119,6 @@ message
 Message
 )
 /
-*
 *
 *
 Indicates

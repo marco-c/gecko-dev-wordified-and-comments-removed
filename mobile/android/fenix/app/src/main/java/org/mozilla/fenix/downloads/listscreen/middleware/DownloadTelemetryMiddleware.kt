@@ -139,7 +139,6 @@ DownloadUIState
 /
 *
 *
-*
 A
 [
 Middleware
@@ -158,7 +157,6 @@ are
 dispatch
 to
 the
-*
 [
 DownloadUIStore
 ]

@@ -230,11 +230,11 @@ on
 whether
 a
 debug
-*
 view
 tag
 is
 provided
+*
 and
 whether
 it
@@ -294,7 +294,6 @@ DEBUG_VIEW_TAG_MAX_LENGTH
 /
 *
 *
-*
 [
 Action
 ]
@@ -316,7 +315,6 @@ Action
 /
 *
 *
-*
 Toggle
 whether
 to
@@ -335,7 +333,6 @@ GleanDebugToolsAction
 (
 )
 /
-*
 *
 *
 Change
@@ -366,7 +363,6 @@ GleanDebugToolsAction
 /
 *
 *
-*
 Change
 the
 type
@@ -395,7 +391,6 @@ GleanDebugToolsAction
 (
 )
 /
-*
 *
 *
 Send
@@ -501,7 +496,6 @@ GleanDebugToolsAction
 )
 }
 /
-*
 *
 *
 Reducer
@@ -631,11 +625,11 @@ Debug
 Tools
 and
 reduces
-*
 [
 GleanDebugToolsAction
 ]
 s
+*
 dispatched
 to
 the

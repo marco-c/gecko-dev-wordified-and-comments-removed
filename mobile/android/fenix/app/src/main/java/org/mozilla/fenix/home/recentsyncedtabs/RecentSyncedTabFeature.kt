@@ -73,6 +73,14 @@ content
 .
 Context
 import
+java
+.
+util
+.
+concurrent
+.
+TimeUnit
+import
 kotlinx
 .
 coroutines
@@ -334,14 +342,6 @@ components
 appstate
 .
 AppAction
-import
-java
-.
-util
-.
-concurrent
-.
-TimeUnit
 /
 *
 *
@@ -1321,7 +1321,6 @@ object
 /
 *
 *
-*
 The
 number
 of
@@ -1339,7 +1338,6 @@ display
 for
 a
 synced
-*
 tab
 .
 *
@@ -1350,7 +1348,6 @@ DAYS_HISTORY_FOR_PREVIEW_IMAGE
 =
 3L
 /
-*
 *
 *
 Number
@@ -1379,7 +1376,6 @@ MAX_RECENT_SYNCED_TABS
 /
 *
 *
-*
 The
 state
 of
@@ -1395,7 +1391,6 @@ class
 RecentSyncedTabState
 {
 /
-*
 *
 *
 There
@@ -1421,7 +1416,6 @@ RecentSyncedTabState
 /
 *
 *
-*
 A
 user
 is
@@ -1441,7 +1435,6 @@ RecentSyncedTabState
 (
 )
 /
-*
 *
 *
 A

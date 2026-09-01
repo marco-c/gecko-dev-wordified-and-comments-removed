@@ -69,7 +69,6 @@ appstate
 /
 *
 *
-*
 State
 related
 to
@@ -84,7 +83,6 @@ class
 VoiceSearchState
 (
 /
-*
 *
 *
 Whether
@@ -108,7 +106,6 @@ Boolean
 =
 false
 /
-*
 *
 *
 The

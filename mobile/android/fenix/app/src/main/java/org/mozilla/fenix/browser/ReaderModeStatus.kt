@@ -126,7 +126,6 @@ Boolean
 /
 *
 *
-*
 Static
 configuration
 and
@@ -142,7 +141,6 @@ companion
 object
 {
 /
-*
 *
 *
 [

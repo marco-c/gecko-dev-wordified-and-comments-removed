@@ -593,7 +593,6 @@ will
 be
 shown
 .
-*
 Might
 serve
 as
@@ -603,6 +602,7 @@ for
 the
 callbacks
 for
+*
 when
 the
 user

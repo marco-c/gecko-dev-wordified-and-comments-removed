@@ -117,9 +117,9 @@ tests
 This
 bypasses
 standard
-*
 process
 initialization
+*
 of
 native
 code
@@ -133,7 +133,6 @@ as
 well
 mocking
 components
-*
 which
 is
 the
@@ -141,6 +140,7 @@ primary
 service
 repository
 for
+*
 our
 Kotlin
 code
@@ -151,7 +151,6 @@ Fenix
 Unit
 tests
 should
-*
 avoid
 relying
 global
@@ -181,11 +180,11 @@ code
 your
 packages
 must
-*
 include
 binaries
 for
 host
+*
 platform
 .
 For
@@ -199,7 +198,6 @@ native
 forUnitTests
 ]
 package
-*
 is
 used
 for
@@ -213,6 +211,7 @@ don
 t
 provide
 this
+*
 in
 the
 default

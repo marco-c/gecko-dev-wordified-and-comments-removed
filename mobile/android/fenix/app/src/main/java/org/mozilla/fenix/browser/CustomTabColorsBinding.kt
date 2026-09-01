@@ -178,10 +178,10 @@ updating
 with
 which
 to
-*
 update
 the
 system
+*
 navigation
 bar
 '
@@ -234,9 +234,9 @@ updates
 will
 occur
 .
-*
 Defaults
 to
+*
 [
 Dispatchers
 .

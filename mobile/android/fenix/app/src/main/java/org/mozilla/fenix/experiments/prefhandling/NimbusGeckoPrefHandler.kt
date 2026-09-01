@@ -631,7 +631,6 @@ null
 /
 *
 *
-*
 Called
 when
 ready
@@ -749,7 +748,6 @@ preferences
 for
 Nimbus
 .
-*
 This
 is
 part
@@ -758,6 +756,7 @@ the
 Nimbus
 Gecko
 pref
+*
 enrollment
 flow
 .
@@ -1219,9 +1218,9 @@ Nimbus
 experiments
 for
 the
-*
 preferences
 that
+*
 failed
 to
 set
@@ -1370,6 +1369,7 @@ preferences
 state
 .
 *
+*
 return
 The
 map
@@ -1426,7 +1426,6 @@ pref
 unenrollment
 flow
 .
-*
 The
 goal
 is
@@ -1439,6 +1438,7 @@ a
 known
 value
 before
+*
 the
 experiment
 occurred
@@ -2129,12 +2129,12 @@ errors
 registers
 observation
 and
-*
 does
 the
 Nimbus
 callback
 of
+*
 registerPreviousGeckoPrefStates
 to
 set
@@ -2142,10 +2142,10 @@ the
 original
 values
 on
-*
 the
 database
 .
+*
 *
 param
 setters
@@ -2479,10 +2479,10 @@ creates
 a
 list
 of
-*
 successful
 sets
 .
+*
 *
 param
 preferencesSettingSuccess
@@ -2499,7 +2499,6 @@ and
 if
 it
 set
-*
 as
 expected
 by
@@ -2516,7 +2515,6 @@ Gecko
 preference
 states
 .
-*
 *
 return
 A

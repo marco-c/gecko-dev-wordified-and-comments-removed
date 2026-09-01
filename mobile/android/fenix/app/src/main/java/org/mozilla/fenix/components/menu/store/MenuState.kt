@@ -269,7 +269,6 @@ for
 the
 currently
 visited
-*
 page
 .
 *
@@ -344,11 +343,11 @@ reporter
 is
 not
 accessible
-*
 from
 about
 and
 content
+*
 URLs
 .
 *
@@ -659,7 +658,6 @@ of
 WebExtensionMenuItem
 ]
 s
-*
 to
 be
 shown
@@ -742,7 +740,6 @@ null
 /
 *
 *
-*
 Get
 the
 number
@@ -802,7 +799,6 @@ else
 }
 }
 /
-*
 *
 *
 All
@@ -1332,7 +1328,6 @@ Unit
 /
 *
 *
-*
 Represents
 the
 display
@@ -1353,7 +1348,6 @@ IPProtectionMenuStatus
 /
 *
 *
-*
 IP
 protection
 is
@@ -1363,7 +1357,6 @@ inactive
 /
 Disabled
 /
-*
 *
 *
 IP
@@ -1381,7 +1374,6 @@ Activating
 /
 *
 *
-*
 IP
 protection
 is
@@ -1391,7 +1383,6 @@ active
 /
 Enabled
 /
-*
 *
 *
 IP
@@ -1410,7 +1401,6 @@ DataLimitReached
 /
 *
 *
-*
 IP
 protection
 has
@@ -1420,7 +1410,6 @@ errored
 /
 ConnectionError
 /
-*
 *
 *
 User

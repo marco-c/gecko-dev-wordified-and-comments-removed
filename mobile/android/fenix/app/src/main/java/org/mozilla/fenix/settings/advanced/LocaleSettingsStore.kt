@@ -73,6 +73,12 @@ content
 .
 Context
 import
+java
+.
+util
+.
+Locale
+import
 mozilla
 .
 components
@@ -112,12 +118,6 @@ support
 locale
 .
 LocaleManager
-import
-java
-.
-util
-.
-Locale
 class
 LocaleSettingsStore
 (
@@ -148,6 +148,7 @@ the
 language
 selection
 page
+*
 *
 property
 localeList
@@ -239,7 +240,6 @@ context
 /
 *
 *
-*
 Actions
 to
 dispatch
@@ -307,6 +307,7 @@ performed
 on
 it
 .
+*
 *
 param
 state

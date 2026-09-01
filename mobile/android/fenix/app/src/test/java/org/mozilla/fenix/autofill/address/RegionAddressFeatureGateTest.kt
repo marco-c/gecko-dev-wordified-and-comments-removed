@@ -67,6 +67,12 @@ autofill
 .
 address
 import
+java
+.
+util
+.
+Locale
+import
 org
 .
 junit
@@ -124,12 +130,6 @@ debugsettings
 addresses
 .
 FakeAddressesDebugRegionRepository
-import
-java
-.
-util
-.
-Locale
 class
 RegionAddressFeatureGateTest
 {

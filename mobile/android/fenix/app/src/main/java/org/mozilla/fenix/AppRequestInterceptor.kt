@@ -103,6 +103,14 @@ navigation
 .
 NavController
 import
+java
+.
+lang
+.
+ref
+.
+WeakReference
+import
 mozilla
 .
 components
@@ -222,14 +230,6 @@ fenix
 ext
 .
 isOnline
-import
-java
-.
-lang
-.
-ref
-.
-WeakReference
 class
 AppRequestInterceptor
 (
@@ -584,11 +584,11 @@ the
 ERROR_PAGE_ACTION_SCHEME
 ]
 sentinel
-*
 scheme
 to
 hand
 archive
+*
 actions
 back
 to
@@ -602,7 +602,6 @@ for
 the
 failed
 page
-*
 with
 the
 user
@@ -612,6 +611,7 @@ default
 search
 engine
 or
+*
 opening
 a
 located
@@ -620,7 +620,6 @@ copy
 .
 Returns
 null
-*
 for
 any
 other
@@ -972,7 +971,6 @@ true
 /
 *
 *
-*
 Where
 possible
 this
@@ -987,7 +985,6 @@ by
 including
 information
 not
-*
 available
 to
 AC
@@ -1083,14 +1080,11 @@ errorType
 /
 *
 *
-*
 Checks
 for
 network
 availability
 .
-*
-*
 *
 /
 VisibleForTesting
@@ -1144,6 +1138,9 @@ ERROR_NET_TIMEOUT
 ErrorType
 .
 ERROR_CONNECTION_REFUSED
+ErrorType
+.
+ERROR_LOCAL_NETWORK_ACCESS_DENIED
 ErrorType
 .
 ERROR_UNKNOWN_SOCKET_TYPE

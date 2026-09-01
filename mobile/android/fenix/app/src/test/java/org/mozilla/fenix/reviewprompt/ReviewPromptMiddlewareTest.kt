@@ -65,6 +65,12 @@ fenix
 .
 reviewprompt
 import
+kotlin
+.
+test
+.
+assertIs
+import
 mozilla
 .
 components
@@ -198,12 +204,6 @@ ReviewPromptState
 Eligible
 .
 Type
-import
-kotlin
-.
-test
-.
-assertIs
 class
 ReviewPromptMiddlewareTest
 {

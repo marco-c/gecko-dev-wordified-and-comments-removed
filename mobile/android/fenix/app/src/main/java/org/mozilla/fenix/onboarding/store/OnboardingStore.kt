@@ -159,7 +159,6 @@ State
 /
 *
 *
-*
 [
 Action
 ]
@@ -181,7 +180,6 @@ Action
 /
 *
 *
-*
 Triggered
 when
 the
@@ -197,7 +195,6 @@ Init
 :
 OnboardingAction
 /
-*
 *
 *
 [
@@ -218,7 +215,6 @@ OnboardingToolbarAction
 OnboardingAction
 {
 /
-*
 *
 *
 Updates
@@ -273,10 +269,10 @@ reduces
 OnboardingAction
 ]
 s
-*
 dispatched
 to
 the
+*
 store
 .
 *

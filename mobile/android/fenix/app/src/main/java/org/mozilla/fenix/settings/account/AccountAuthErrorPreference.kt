@@ -105,6 +105,12 @@ preference
 .
 PreferenceViewHolder
 import
+kotlin
+.
+properties
+.
+Delegates
+import
 org
 .
 mozilla
@@ -112,12 +118,6 @@ mozilla
 fenix
 .
 R
-import
-kotlin
-.
-properties
-.
-Delegates
 class
 AccountAuthErrorPreference
 JvmOverloads

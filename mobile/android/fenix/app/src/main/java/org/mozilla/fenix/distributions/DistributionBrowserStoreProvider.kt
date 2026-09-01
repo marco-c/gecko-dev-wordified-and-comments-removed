@@ -124,7 +124,6 @@ app
 install
 was
 involved
-*
 with
 .
 *
@@ -133,7 +132,6 @@ interface
 DistributionBrowserStoreProvider
 {
 /
-*
 *
 *
 return
@@ -181,7 +179,6 @@ String
 )
 }
 /
-*
 *
 *
 Default

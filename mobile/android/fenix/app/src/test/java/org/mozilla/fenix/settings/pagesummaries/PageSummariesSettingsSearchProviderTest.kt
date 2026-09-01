@@ -79,6 +79,12 @@ runners
 .
 AndroidJUnit4
 import
+kotlin
+.
+test
+.
+assertEquals
+import
 mozilla
 .
 components
@@ -122,12 +128,6 @@ settings
 summarize
 .
 FakeSummarizationFeatureConfiguration
-import
-kotlin
-.
-test
-.
-assertEquals
 RunWith
 (
 AndroidJUnit4

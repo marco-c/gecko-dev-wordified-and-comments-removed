@@ -67,7 +67,6 @@ iconpicker
 /
 *
 *
-*
 Function
 for
 reducing

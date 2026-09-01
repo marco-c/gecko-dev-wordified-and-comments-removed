@@ -296,12 +296,12 @@ private
 mode
 we
 defer
-*
 to
 the
 theme
 -
 aware
+*
 [
 MaterialTheme
 ]

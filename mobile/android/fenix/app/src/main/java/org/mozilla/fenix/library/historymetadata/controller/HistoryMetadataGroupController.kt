@@ -175,6 +175,18 @@ mozilla
 .
 fenix
 .
+GleanMetrics
+.
+History
+as
+GleanHistory
+import
+org
+.
+mozilla
+.
+fenix
+.
 R
 import
 org
@@ -340,18 +352,6 @@ fenix
 utils
 .
 Settings
-import
-org
-.
-mozilla
-.
-fenix
-.
-GleanMetrics
-.
-History
-as
-GleanHistory
 /
 *
 *
@@ -371,7 +371,6 @@ group
 in
 the
 History
-*
 metadata
 group
 screen
@@ -601,7 +600,6 @@ Metadata
 /
 *
 *
-*
 Deletes
 the
 given
@@ -630,7 +628,6 @@ Metadata
 /
 *
 *
-*
 Displays
 a
 [
@@ -645,7 +642,6 @@ handleDeleteAll
 (
 )
 /
-*
 *
 *
 Deletes
@@ -664,7 +660,6 @@ handleDeleteAllConfirmed
 )
 }
 /
-*
 *
 *
 The

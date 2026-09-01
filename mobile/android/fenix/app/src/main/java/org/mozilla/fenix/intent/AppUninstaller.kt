@@ -130,7 +130,6 @@ the
 current
 application
 .
-*
 If
 the
 action
@@ -141,6 +140,7 @@ back
 to
 displaying
 a
+*
 Toast
 .
 *

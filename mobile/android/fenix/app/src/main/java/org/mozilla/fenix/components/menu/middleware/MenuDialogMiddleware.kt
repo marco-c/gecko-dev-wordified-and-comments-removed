@@ -556,7 +556,6 @@ MenuState
 for
 the
 menu
-*
 dialog
 .
 *
@@ -615,7 +614,6 @@ the
 [
 SharedPreferences
 ]
-*
 properties
 .
 *
@@ -664,7 +662,6 @@ the
 BookmarksStorage
 ]
 used
-*
 to
 query
 matching
@@ -681,7 +678,6 @@ the
 PinnedSiteStorage
 ]
 used
-*
 to
 query
 matching
@@ -716,7 +712,6 @@ AddBookmarksUseCase
 for
 adding
 the
-*
 selected
 tab
 as
@@ -735,12 +730,12 @@ AddPinnedSiteUseCase
 for
 adding
 the
-*
 selected
 tab
 as
 a
 pinned
+*
 shortcut
 .
 *
@@ -755,11 +750,11 @@ RemoveTopSiteUseCase
 for
 removing
 the
-*
 selected
 tab
 from
 pinned
+*
 shortcuts
 .
 *
@@ -773,11 +768,11 @@ RequestDesktopSiteUseCase
 ]
 for
 toggling
-*
 desktop
 mode
 for
 the
+*
 current
 session
 .
@@ -794,7 +789,6 @@ for
 moving
 a
 private
-*
 tab
 to
 a
@@ -816,9 +810,9 @@ popup
 when
 trying
 to
-*
 add
 a
+*
 shortcut
 after
 the
@@ -882,11 +876,11 @@ a
 custom
 menu
 item
-*
 with
 the
 url
 of
+*
 the
 custom
 tab

@@ -147,7 +147,6 @@ FirefoxTheme
 /
 *
 *
-*
 Dialog
 displaying
 the
@@ -184,7 +183,6 @@ Bundle
 /
 *
 *
-*
 A
 callback
 to
@@ -213,7 +211,6 @@ Unit
 {
 }
 /
-*
 *
 *
 A
@@ -412,7 +409,6 @@ companion
 object
 {
 /
-*
 *
 *
 A

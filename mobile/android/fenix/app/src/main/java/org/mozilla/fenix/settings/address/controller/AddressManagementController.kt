@@ -139,10 +139,10 @@ the
 view
 manipulation
 of
-*
 the
 address
 manager
+*
 triggered
 by
 the
@@ -154,7 +154,6 @@ interface
 AddressManagementController
 {
 /
-*
 *
 *
 see
@@ -173,7 +172,6 @@ address
 Address
 )
 /
-*
 *
 *
 see

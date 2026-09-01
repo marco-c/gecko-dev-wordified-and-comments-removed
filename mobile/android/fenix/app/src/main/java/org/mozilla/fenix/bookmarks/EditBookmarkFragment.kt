@@ -265,7 +265,6 @@ FirefoxTheme
 /
 *
 *
-*
 Menu
 to
 edit

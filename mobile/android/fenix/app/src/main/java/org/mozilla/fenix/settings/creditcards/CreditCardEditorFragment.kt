@@ -311,7 +311,6 @@ FirefoxTheme
 /
 *
 *
-*
 Display
 a
 credit
@@ -507,7 +506,6 @@ then
 reauthenticate
 if
 the
-*
 fragment
 is
 paused
@@ -515,6 +513,7 @@ and
 the
 user
 is
+*
 not
 navigating
 to

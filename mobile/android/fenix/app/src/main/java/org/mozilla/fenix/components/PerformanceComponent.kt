@@ -207,7 +207,6 @@ FIVE_SECONDS_MILLIS
 /
 *
 *
-*
 Component
 group
 for
@@ -242,7 +241,6 @@ ColdStartupDurationTelemetry
 }
 }
 /
-*
 *
 *
 A
@@ -379,7 +377,6 @@ ready
 }
 }
 /
-*
 *
 *
 A

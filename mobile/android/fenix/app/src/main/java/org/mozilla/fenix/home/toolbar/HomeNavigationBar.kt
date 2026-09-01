@@ -253,11 +253,11 @@ provides
 enhanced
 customization
 and
-*
 lifecycle
 -
 aware
 integration
+*
 for
 use
 within

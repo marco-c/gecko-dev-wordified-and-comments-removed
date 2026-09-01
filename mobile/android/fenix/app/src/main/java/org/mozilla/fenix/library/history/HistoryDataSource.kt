@@ -128,13 +128,13 @@ data
 source
 for
 the
-*
 Flow
 <
 PagingData
 >
 that
 provides
+*
 HistoryAdapter
 with
 items

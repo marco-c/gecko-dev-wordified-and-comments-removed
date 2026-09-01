@@ -153,7 +153,6 @@ tryGetHostFromUrl
 /
 *
 *
-*
 Class
 representing
 a
@@ -441,7 +440,6 @@ in
 case
 this
 tab
-*
 was
 opened
 from
@@ -648,7 +646,6 @@ History
 /
 *
 *
-*
 Extension
 function
 for
@@ -737,7 +734,6 @@ key
 /
 *
 *
-*
 The
 [
 Store
@@ -792,7 +788,6 @@ historyStateReducer
 middleware
 )
 /
-*
 *
 *
 Actions
@@ -935,7 +930,6 @@ HistoryFragmentAction
 /
 *
 *
-*
 The
 user
 has
@@ -968,7 +962,6 @@ HistoryFragmentAction
 (
 )
 /
-*
 *
 *
 The
@@ -1006,7 +999,6 @@ HistoryFragmentAction
 /
 *
 *
-*
 A
 back
 press
@@ -1024,7 +1016,6 @@ HistoryFragmentAction
 (
 )
 /
-*
 *
 *
 Updates
@@ -1086,9 +1077,9 @@ components
 .
 AppStore
 ]
-*
 to
 the
+*
 [
 HistoryFragmentStore
 ]
@@ -1223,7 +1214,6 @@ the
 process
 of
 being
-*
 deleted
 .
 *
@@ -1360,7 +1350,6 @@ false
 }
 }
 /
-*
 *
 *
 The

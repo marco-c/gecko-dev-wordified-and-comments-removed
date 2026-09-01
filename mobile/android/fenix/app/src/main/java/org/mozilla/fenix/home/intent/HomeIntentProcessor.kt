@@ -91,7 +91,6 @@ Settings
 /
 *
 *
-*
 Processor
 for
 Android
@@ -163,7 +162,6 @@ settings
 Application
 settings
 .
-*
 *
 return
 True

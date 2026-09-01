@@ -288,8 +288,8 @@ the
 [
 BrowserStore
 ]
-*
 and
+*
 [
 Settings
 ]
@@ -315,10 +315,10 @@ of
 the
 lambda
 which
-*
 holds
 an
 implicit
+*
 reference
 to
 the

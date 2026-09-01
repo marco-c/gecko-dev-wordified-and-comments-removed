@@ -307,7 +307,6 @@ Settings
 /
 *
 *
-*
 State
 object
 that
@@ -323,7 +322,6 @@ class
 HomepageState
 {
 /
-*
 *
 *
 Data
@@ -343,7 +341,6 @@ headerState
 :
 HeaderState
 /
-*
 *
 *
 Flag
@@ -367,7 +364,6 @@ firstFrameDrawn
 :
 Boolean
 /
-*
 *
 *
 Whether
@@ -589,9 +585,9 @@ when
 the
 recent
 history
-*
 section
 is
+*
 hidden
 .
 *
@@ -949,10 +945,10 @@ only
 the
 shortcuts
 and
-*
 stories
 are
 visible
+*
 (
 but
 both
@@ -971,7 +967,6 @@ purpose
 of
 adding
 a
-*
 weighted
 spacer
 in
@@ -979,6 +974,7 @@ between
 so
 the
 stories
+*
 are
 anchored
 to
@@ -1712,7 +1708,6 @@ Normal
 /
 *
 *
-*
 A
 simple
 wrapper
@@ -1753,10 +1748,10 @@ The
 header
 '
 s
-*
 colors
 are
 derived
+*
 from
 the
 wallpaper
@@ -1771,7 +1766,6 @@ so
 no
 colors
 are
-*
 held
 here
 .
@@ -1785,7 +1779,6 @@ HeaderState
 (
 )
 /
-*
 *
 *
 Represents
@@ -1866,7 +1859,6 @@ Experimental
 (
 )
 /
-*
 *
 *
 Represents
@@ -1958,7 +1950,6 @@ false
 /
 *
 *
-*
 Whether
 the
 middle
@@ -1996,7 +1987,6 @@ searchBarVisible
 /
 *
 *
-*
 Represents
 the
 state
@@ -2020,7 +2010,6 @@ RecentSyncedTabSectionState
 /
 *
 *
-*
 The
 section
 is
@@ -2037,7 +2026,6 @@ RecentSyncedTabSectionState
 (
 )
 /
-*
 *
 *
 The
@@ -2110,7 +2098,6 @@ RecentSyncedTabSectionState
 )
 }
 /
-*
 *
 *
 Builds
@@ -2224,11 +2211,11 @@ active
 and
 the
 user
-*
 does
 not
 have
 their
+*
 toolbar
 set
 to
@@ -2245,7 +2232,6 @@ in
 landscape
 mode
 .
-*
 This
 is
 in
@@ -2255,6 +2241,7 @@ logic
 in
 the
 view
+*
 layer
 which
 hides
@@ -2265,7 +2252,6 @@ bar
 when
 the
 users
-*
 scrolls
 down
 .
@@ -2277,13 +2263,13 @@ the
 middle
 search
 bar
+*
 being
 enabled
 in
 settings
 since
 the
-*
 toolbar
 address
 bar

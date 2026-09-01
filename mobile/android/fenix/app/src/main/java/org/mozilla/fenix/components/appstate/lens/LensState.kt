@@ -138,7 +138,6 @@ an
 already
 -
 known
-*
 image
 URL
 (
@@ -148,6 +147,7 @@ g
 .
 from
 the
+*
 image
 context
 menu

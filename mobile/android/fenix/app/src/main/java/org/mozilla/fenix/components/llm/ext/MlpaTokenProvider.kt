@@ -157,11 +157,11 @@ from
 .
 Tagged
 as
-*
 [
 AuthenticationRequired
 ]
 so
+*
 consumers
 can
 prompt
@@ -220,12 +220,12 @@ obtained
 .
 Tagged
 as
-*
 an
 [
 AuthFailure
 ]
 so
+*
 consumers
 surface
 it
@@ -420,7 +420,6 @@ so
 callers
 pass
 them
-*
 most
 -
 preferred
@@ -428,6 +427,7 @@ first
 .
 If
 every
+*
 provider
 fails
 the
@@ -438,7 +438,6 @@ chosen
 by
 category
 via
-*
 [
 mostActionableFailure
 ]
@@ -447,6 +446,7 @@ than
 by
 position
 so
+*
 reordering
 or
 adding
@@ -455,7 +455,6 @@ provider
 can
 '
 t
-*
 silently
 change
 which
@@ -653,6 +652,7 @@ last
 /
 *
 *
+*
 Implementation
 of
 [
@@ -667,6 +667,7 @@ fxa
 access
 token
 .
+*
 *
 param
 tokenProvider

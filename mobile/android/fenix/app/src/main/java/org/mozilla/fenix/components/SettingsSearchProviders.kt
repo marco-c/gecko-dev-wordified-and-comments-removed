@@ -184,11 +184,11 @@ cannot
 reach
 :
 Compose
-*
 screens
 with
 no
 backing
+*
 preference
 file
 and
@@ -202,13 +202,13 @@ the
 parser
 does
 not
-*
 emit
 (
 an
 empty
 PreferenceCategory
 whose
+*
 contents
 are
 built
@@ -239,12 +239,12 @@ the
 settings
 indexer
 from
-*
 [
 Components
 ]
 and
 is
+*
 exercised
 by
 SettingsSearchProviderRegistrationTest
@@ -253,7 +253,6 @@ that
 a
 screen
 losing
-*
 its
 provider
 fails
@@ -261,6 +260,7 @@ a
 test
 rather
 than
+*
 silently
 disappearing
 from

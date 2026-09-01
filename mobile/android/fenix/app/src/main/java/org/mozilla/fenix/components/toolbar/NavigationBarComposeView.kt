@@ -126,10 +126,10 @@ the
 interface
 only
 so
-*
 [
 EngineViewClippingBehavior
 ]
+*
 tracks
 its
 translation

@@ -89,12 +89,6 @@ io
 .
 mockk
 .
-every
-import
-io
-.
-mockk
-.
 mockk
 import
 io

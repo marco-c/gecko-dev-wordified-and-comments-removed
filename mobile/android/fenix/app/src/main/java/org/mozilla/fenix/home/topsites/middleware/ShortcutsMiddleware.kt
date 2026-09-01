@@ -338,10 +338,10 @@ the
 [
 ShortcutsState
 ]
-*
 for
 the
 shortcuts
+*
 screen
 .
 *
@@ -426,9 +426,9 @@ coroutines
 The
 consumer
 is
-*
 responsible
 for
+*
 providing
 a
 scope
@@ -441,11 +441,11 @@ consuming
 component
 is
 destroyed
-*
 to
 avoid
 leaking
 the
+*
 [
 ShortcutsStore
 ]

@@ -334,10 +334,10 @@ device
 credential
 authentication
 .
-*
 It
 observes
 the
+*
 authentication
 state
 from

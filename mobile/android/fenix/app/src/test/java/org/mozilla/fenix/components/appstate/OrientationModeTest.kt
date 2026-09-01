@@ -75,6 +75,12 @@ res
 .
 Configuration
 import
+java
+.
+security
+.
+InvalidParameterException
+import
 org
 .
 junit
@@ -96,12 +102,6 @@ org
 junit
 .
 Test
-import
-java
-.
-security
-.
-InvalidParameterException
 class
 OrientationModeTest
 {

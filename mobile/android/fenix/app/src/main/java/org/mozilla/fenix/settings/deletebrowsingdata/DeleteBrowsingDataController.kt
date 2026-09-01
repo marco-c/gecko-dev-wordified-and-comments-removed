@@ -67,6 +67,12 @@ settings
 .
 deletebrowsingdata
 import
+kotlin
+.
+coroutines
+.
+CoroutineContext
+import
 kotlinx
 .
 coroutines
@@ -252,14 +258,7 @@ fenix
 utils
 .
 Settings
-import
-kotlin
-.
-coroutines
-.
-CoroutineContext
 /
-*
 *
 *
 A
@@ -284,7 +283,6 @@ DeleteBrowsingDataController
 /
 *
 *
-*
 Deletes
 all
 open
@@ -298,7 +296,6 @@ deleteTabs
 (
 )
 /
-*
 *
 *
 Deletes
@@ -319,7 +316,6 @@ deleteBrowsingHistory
 (
 )
 /
-*
 *
 *
 Deletes
@@ -348,7 +344,6 @@ deleteCookiesAndSiteData
 /
 *
 *
-*
 Deletes
 cached
 files
@@ -359,7 +354,6 @@ startup
 caches
 and
 cached
-*
 translation
 models
 .
@@ -371,7 +365,6 @@ deleteCachedFiles
 (
 )
 /
-*
 *
 *
 Deletes
@@ -399,7 +392,6 @@ the
 downloads
 list
 .
-*
 Note
 :
 This
@@ -413,8 +405,8 @@ app
 '
 s
 download
-list
 *
+list
 it
 does
 not
@@ -515,12 +507,12 @@ caller
 s
 perspective
 .
-*
 If
 no
 data
 types
 are
+*
 selected
 for
 deletion
@@ -543,7 +535,6 @@ executed
 after
 all
 selected
-*
 data
 has
 been
@@ -551,6 +542,7 @@ deleted
 .
 This
 is
+*
 typically
 used
 to
@@ -601,13 +593,13 @@ browser
 engine
 use
 cases
-*
 and
 storage
 layers
 to
 perform
 the
+*
 deletion
 of
 specific
@@ -839,7 +831,6 @@ browser
 level
 state
 stores
-*
 required
 by
 the
@@ -1005,6 +996,17 @@ RecentlyClosedAction
 .
 RemoveAllClosedTabAction
 )
+withContext
+(
+coroutineContext
+)
+{
+engine
+.
+clearTrackingProtectionData
+(
+)
+}
 }
 override
 suspend
@@ -1349,11 +1351,11 @@ all
 possible
 DeleteBrowsingDataOnQuitType
 values
-*
 and
 checks
 the
 corresponding
+*
 setting
 to
 see

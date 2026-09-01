@@ -155,11 +155,11 @@ it
 it
 always
 positioned
-*
 such
 that
 it
 will
+*
 be
 shown
 on
@@ -203,7 +203,6 @@ on
 the
 screen
 .
-*
 Depending
 on
 it
@@ -215,6 +214,7 @@ top
 /
 bottom
 )
+*
 the
 snackbar
 will

@@ -358,9 +358,9 @@ session
 until
 the
 user
-*
 decides
 to
+*
 either
 send
 or
@@ -524,7 +524,6 @@ height
 Sample
 usage
 :
-*
 *
 kotlin
 *
@@ -738,7 +737,6 @@ the
 [
 CrashContentView
 ]
-*
 which
 will
 be

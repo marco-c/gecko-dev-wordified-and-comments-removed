@@ -95,7 +95,6 @@ AppState
 /
 *
 *
-*
 A
 [
 AppAction
@@ -117,7 +116,6 @@ object
 LensReducer
 {
 /
-*
 *
 *
 Reduces

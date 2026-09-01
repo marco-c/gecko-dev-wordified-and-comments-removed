@@ -139,6 +139,12 @@ mockk
 .
 verify
 import
+kotlin
+.
+test
+.
+assertNotNull
+import
 kotlinx
 .
 coroutines
@@ -288,12 +294,6 @@ fenix
 helpers
 .
 MockkRetryTestRule
-import
-kotlin
-.
-test
-.
-assertNotNull
 class
 WebPushEngineIntegrationTest
 {

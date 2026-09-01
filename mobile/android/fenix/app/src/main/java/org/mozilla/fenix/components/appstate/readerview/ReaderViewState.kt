@@ -71,7 +71,6 @@ readerview
 /
 *
 *
-*
 The
 state
 of
@@ -88,7 +87,6 @@ class
 ReaderViewState
 {
 /
-*
 *
 *
 Reader
@@ -108,7 +106,6 @@ ReaderViewState
 /
 *
 *
-*
 Dismiss
 reader
 view
@@ -123,7 +120,6 @@ ReaderViewState
 (
 )
 /
-*
 *
 *
 Reader
@@ -149,7 +145,6 @@ ReaderViewState
 (
 )
 /
-*
 *
 *
 No

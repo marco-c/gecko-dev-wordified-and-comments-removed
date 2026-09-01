@@ -142,12 +142,12 @@ settings
 UI
 .
 Features
-*
 not
 listed
 here
 sort
 to
+*
 the
 end
 and
@@ -160,7 +160,6 @@ order
 Position
 in
 this
-*
 list
 IS
 the
@@ -168,6 +167,7 @@ rank
 adding
 removing
 or
+*
 reordering
 an
 entry
@@ -250,12 +250,12 @@ sort
 is
 stable
 :
-*
 features
 sharing
 the
 same
 rank
+*
 (
 including
 all
@@ -267,7 +267,6 @@ end
 )
 keep
 their
-*
 original
 relative
 order

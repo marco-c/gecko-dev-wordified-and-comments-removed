@@ -133,7 +133,6 @@ US
 /
 *
 *
-*
 Represents
 the
 state
@@ -149,7 +148,6 @@ class
 DialogState
 {
 /
-*
 *
 *
 Waiting
@@ -169,7 +167,6 @@ DialogState
 /
 *
 *
-*
 Currently
 being
 presented
@@ -185,7 +182,6 @@ DialogState
 )
 }
 /
-*
 *
 *
 Represents
@@ -208,7 +204,6 @@ AddressStructureState
 /
 *
 *
-*
 Provides
 convenient
 access
@@ -226,7 +221,6 @@ structure
 :
 AddressStructure
 /
-*
 *
 *
 The
@@ -248,7 +242,6 @@ AddressStructureState
 )
 {
 /
-*
 *
 *
 Provides
@@ -282,7 +275,6 @@ listOf
 )
 }
 /
-*
 *
 *
 Represents
@@ -415,7 +407,6 @@ State
 /
 *
 *
-*
 Static
 functions
 for
@@ -448,7 +439,6 @@ with
 the
 values
 from
-*
 [
 Address
 ]

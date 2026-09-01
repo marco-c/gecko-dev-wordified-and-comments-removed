@@ -167,6 +167,18 @@ manager
 .
 FxaAccountManager
 import
+mozilla
+.
+components
+.
+ui
+.
+icons
+.
+R
+as
+iconsR
+import
 org
 .
 mozilla
@@ -194,18 +206,6 @@ fenix
 settings
 .
 requirePreference
-import
-mozilla
-.
-components
-.
-ui
-.
-icons
-.
-R
-as
-iconsR
 class
 AccountUiView
 (
@@ -318,7 +318,6 @@ current
 account
 state
 .
-*
 Possible
 conditions
 are
@@ -330,6 +329,7 @@ problems
 logged
 -
 out
+*
 and
 logged
 -
@@ -588,7 +588,6 @@ false
 /
 *
 *
-*
 Cancel
 any
 running
@@ -613,7 +612,6 @@ cancel
 )
 }
 /
-*
 *
 *
 Returns
@@ -645,7 +643,6 @@ drawable
 mozac_ic_avatar_circle_24
 )
 /
-*
 *
 *
 Gets

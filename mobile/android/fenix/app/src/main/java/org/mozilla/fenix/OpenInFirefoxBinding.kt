@@ -256,10 +256,10 @@ custom
 tab
 or
 null
-*
 if
 the
 selected
+*
 session
 should
 be
@@ -334,9 +334,9 @@ updates
 will
 occur
 .
-*
 Defaults
 to
+*
 [
 Dispatchers
 .

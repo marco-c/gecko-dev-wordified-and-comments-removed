@@ -94,7 +94,6 @@ shown
 and
 their
 respective
-*
 position
 .
 *

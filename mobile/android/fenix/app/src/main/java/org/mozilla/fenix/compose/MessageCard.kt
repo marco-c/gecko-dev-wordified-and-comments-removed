@@ -686,10 +686,10 @@ is
 blank
 or
 null
-*
 the
 title
 will
+*
 not
 be
 shown
@@ -715,8 +715,8 @@ is
 blank
 or
 null
-*
 the
+*
 button
 won
 '
@@ -773,7 +773,6 @@ BannerColors
 )
 {
 /
-*
 *
 *
 Companion

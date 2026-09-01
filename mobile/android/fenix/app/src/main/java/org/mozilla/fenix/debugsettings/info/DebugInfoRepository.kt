@@ -89,6 +89,14 @@ mozilla
 .
 components
 .
+Build
+as
+ComponentsBuild
+import
+mozilla
+.
+components
+.
 service
 .
 nimbus
@@ -113,14 +121,6 @@ utils
 .
 Settings
 import
-mozilla
-.
-components
-.
-Build
-as
-ComponentsBuild
-import
 org
 .
 mozilla
@@ -131,7 +131,6 @@ BuildConfig
 as
 GeckoViewBuildConfig
 /
-*
 *
 *
 An
@@ -151,7 +150,6 @@ interface
 DebugInfoRepository
 {
 /
-*
 *
 *
 Builds
@@ -399,7 +397,6 @@ localeTag
 }
 }
 /
-*
 *
 *
 [
@@ -893,6 +890,8 @@ the
 user
 or
 by
+/
+/
 code
 .
 val

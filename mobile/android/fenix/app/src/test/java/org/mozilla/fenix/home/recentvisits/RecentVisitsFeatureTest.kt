@@ -103,6 +103,12 @@ mockk
 .
 spyk
 import
+kotlin
+.
+random
+.
+Random
+import
 kotlinx
 .
 coroutines
@@ -342,12 +348,6 @@ fenix
 utils
 .
 Settings
-import
-kotlin
-.
-random
-.
-Random
 class
 RecentVisitsFeatureTest
 {
@@ -4172,9 +4172,9 @@ count
 different
 elements
 .
-*
 The
 elements
+*
 will
 have
 different
@@ -4186,13 +4186,13 @@ an
 increasing
 updatedAt
 property
-*
 based
 on
 their
 index
 in
 the
+*
 returned
 list
 .
@@ -4360,9 +4360,9 @@ count
 different
 elements
 .
-*
 The
 elements
+*
 will
 have
 different
@@ -4373,7 +4373,6 @@ an
 increasing
 updatedAt
 property
-*
 based
 on
 their
@@ -4544,7 +4543,6 @@ count
 different
 elements
 .
-*
 Each
 element
 will
@@ -4553,6 +4551,7 @@ unique
 value
 for
 all
+*
 properties
 based
 on

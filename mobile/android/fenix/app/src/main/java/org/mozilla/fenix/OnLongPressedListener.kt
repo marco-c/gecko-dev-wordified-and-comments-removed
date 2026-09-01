@@ -65,7 +65,6 @@ fenix
 /
 *
 *
-*
 Interface
 for
 features
@@ -123,7 +122,6 @@ Android
 due
 to
 system
-*
 limitations
 .
 *

@@ -243,11 +243,11 @@ when
 to
 add
 a
-*
 toolbar
 notification
 for
 the
+*
 "
 Summarize
 "

@@ -67,7 +67,6 @@ selection
 /
 *
 *
-*
 Contains
 the
 selection

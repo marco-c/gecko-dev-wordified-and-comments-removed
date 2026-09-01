@@ -223,7 +223,6 @@ the
 [
 AppStore
 ]
-*
 to
 show
 a
@@ -232,6 +231,7 @@ in
 the
 main
 menu
+*
 when
 an
 external
@@ -308,9 +308,9 @@ updates
 will
 occur
 .
-*
 Defaults
 to
+*
 [
 Dispatchers
 .

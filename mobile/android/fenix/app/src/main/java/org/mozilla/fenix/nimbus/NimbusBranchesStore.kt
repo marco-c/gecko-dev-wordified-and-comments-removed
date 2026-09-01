@@ -107,7 +107,6 @@ Branch
 /
 *
 *
-*
 The
 [
 Store
@@ -252,9 +251,9 @@ the
 [
 NimbusBranchesState
 ]
-*
 through
 the
+*
 [
 nimbusBranchesFragmentStateReducer
 ]
@@ -377,7 +376,6 @@ NimbusBranchesAction
 /
 *
 *
-*
 Opts
 out
 of
@@ -413,7 +411,6 @@ provided
 action
 ]
 to
-*
 be
 performed
 .

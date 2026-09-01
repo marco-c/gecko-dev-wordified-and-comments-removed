@@ -409,11 +409,11 @@ a
 third
 -
 party
-*
 application
 to
 handle
 a
+*
 download
 .
 *
@@ -445,7 +445,6 @@ objects
 representing
 the
 available
-*
 applications
 to
 choose
@@ -466,7 +465,6 @@ the
 user
 selects
 an
-*
 application
 .
 *
@@ -484,7 +482,6 @@ the
 dialog
 is
 dismissed
-*
 for
 any
 reason

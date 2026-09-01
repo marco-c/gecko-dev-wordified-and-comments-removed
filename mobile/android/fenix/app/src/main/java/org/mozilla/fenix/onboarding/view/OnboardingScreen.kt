@@ -621,7 +621,6 @@ isLargeScreenSize
 /
 *
 *
-*
 The
 small
 device
@@ -760,7 +759,6 @@ on
 notification
 page
 is
-*
 clicked
 .
 *
@@ -897,10 +895,10 @@ continue
 button
 on
 the
-*
 marketing
 data
 opt
+*
 out
 screen
 .
@@ -918,11 +916,11 @@ skip
 button
 on
 the
-*
 marketing
 data
 opt
 out
+*
 screen
 .
 *
@@ -1630,12 +1628,12 @@ pageIndex
 ]
 when
 it
-*
 still
 points
 at
 an
 existing
+*
 page
 otherwise
 falling
@@ -1664,7 +1662,6 @@ is
 built
 from
 runtime
-*
 conditions
 (
 e
@@ -1672,6 +1669,7 @@ e
 g
 .
 whether
+*
 Firefox
 is
 already
@@ -1684,7 +1682,6 @@ can
 also
 change
 with
-*
 experiment
 rollouts
 so
@@ -1692,6 +1689,7 @@ between
 launches
 it
 can
+*
 grow
 shrink
 or
@@ -1699,7 +1697,6 @@ be
 reordered
 potentially
 leaving
-*
 the
 saved
 index
@@ -1713,13 +1710,13 @@ current
 page
 list
 .
+*
 Bounding
 it
 to
 the
 last
 available
-*
 page
 both
 prevents
@@ -1737,6 +1734,7 @@ close
 as
 possible
 to
+*
 where
 the
 user

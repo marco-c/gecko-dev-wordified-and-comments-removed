@@ -175,7 +175,6 @@ Settings
 /
 *
 *
-*
 An
 interface
 that
@@ -197,7 +196,6 @@ PrivateBrowsingController
 /
 *
 *
-*
 see
 [
 PrivateBrowsingInteractor
@@ -211,7 +209,6 @@ handleLearnMoreClicked
 (
 )
 /
-*
 *
 *
 see
@@ -231,7 +228,6 @@ BrowsingMode
 )
 }
 /
-*
 *
 *
 The

@@ -85,7 +85,6 @@ Snackbar
 ]
 instances
 .
-*
 This
 interface
 can
@@ -96,8 +95,8 @@ customize
 the
 creation
 of
-Snackbars
 *
+Snackbars
 for
 example
 to
@@ -111,7 +110,6 @@ to
 add
 custom
 logic
-*
 during
 Snackbar
 creation
@@ -185,7 +183,6 @@ SnackbarState
 Snackbar
 }
 /
-*
 *
 *
 Default

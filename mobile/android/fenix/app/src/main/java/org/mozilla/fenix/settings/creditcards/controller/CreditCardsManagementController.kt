@@ -139,10 +139,10 @@ the
 view
 manipulation
 of
-*
 the
 credit
 cards
+*
 manager
 triggered
 by
@@ -155,7 +155,6 @@ interface
 CreditCardsManagementController
 {
 /
-*
 *
 *
 see
@@ -176,7 +175,6 @@ CreditCard
 /
 *
 *
-*
 see
 [
 CreditCardsManagementInteractor
@@ -191,7 +189,6 @@ handleAddCreditCardClicked
 )
 }
 /
-*
 *
 *
 The

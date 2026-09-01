@@ -610,17 +610,16 @@ role
 -
 request
 Activity
-*
 is
 in
 progress
 and
+*
 isContinuousOnboardingDialogShowing
 (
 )
 tracks
 the
-*
 follow
 -
 up
@@ -631,9 +630,9 @@ afterward
 .
 Together
 they
+*
 prevent
 the
-*
 DAY_2
 /
 DAY_3
@@ -648,7 +647,6 @@ start
 (
 )
 is
-*
 invoked
 multiple
 times
@@ -1331,9 +1329,9 @@ result
 code
 and
 device
-*
 capabilities
 this
+*
 may
 show
 the
@@ -1346,7 +1344,6 @@ or
 mark
 the
 stage
-*
 as
 completed
 .
@@ -2019,11 +2016,11 @@ a
 Fragment
 ]
 .
-*
 Upon
 destruction
 of
 the
+*
 fragment
 '
 s
@@ -2035,7 +2032,6 @@ be
 unregistered
 and
 all
-*
 references
 cleared
 .

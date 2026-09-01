@@ -89,7 +89,6 @@ FenixBookmarkImporterError
 /
 *
 *
-*
 Actions
 relating
 to
@@ -709,7 +708,6 @@ BookmarksAction
 /
 *
 *
-*
 Actions
 specific
 to
@@ -764,7 +762,6 @@ AddFolderAction
 )
 }
 /
-*
 *
 *
 Actions

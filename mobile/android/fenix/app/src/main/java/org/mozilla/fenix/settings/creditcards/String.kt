@@ -117,7 +117,6 @@ from
 a
 string
 .
-*
 Used
 to
 strip
@@ -130,6 +129,7 @@ input
 of
 spaces
 and
+*
 separators
 .
 *
@@ -156,7 +156,6 @@ isDigit
 }
 }
 /
-*
 *
 *
 Returns
@@ -213,10 +212,10 @@ it
 has
 a
 matching
-*
 credit
 card
 issuer
+*
 network
 passes
 the
@@ -273,7 +272,6 @@ creditCardNumber
 )
 }
 /
-*
 *
 *
 Implementation

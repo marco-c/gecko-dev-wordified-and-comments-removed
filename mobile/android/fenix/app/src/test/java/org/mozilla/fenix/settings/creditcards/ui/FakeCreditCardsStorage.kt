@@ -161,7 +161,6 @@ UpdatableCreditCardFields
 /
 *
 *
-*
 Fake
 implementation
 of
@@ -213,7 +212,6 @@ CreditCardsAddressesStorage
 /
 *
 *
-*
 Plain
 card
 number
@@ -227,7 +225,6 @@ String
 "
 "
 /
-*
 *
 *
 Encrypted

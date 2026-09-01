@@ -69,6 +69,12 @@ menu
 .
 fake
 import
+java
+.
+util
+.
+UUID
+import
 mozilla
 .
 components
@@ -120,12 +126,6 @@ storage
 bookmarks
 .
 InsertableBookmarkTreeRoot
-import
-java
-.
-util
-.
-UUID
 class
 FakeBookmarksStorage
 (

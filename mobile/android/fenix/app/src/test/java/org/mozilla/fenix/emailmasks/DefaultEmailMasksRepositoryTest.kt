@@ -7,16 +7,6 @@ fenix
 .
 emailmasks
 import
-androidx
-.
-test
-.
-core
-.
-app
-.
-ApplicationProvider
-import
 mozilla
 .
 components

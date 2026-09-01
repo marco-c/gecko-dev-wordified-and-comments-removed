@@ -139,7 +139,6 @@ encrypted_data
 /
 *
 *
-*
 A
 tool
 for
@@ -162,7 +161,6 @@ interface
 DistributionProviderChecker
 {
 /
-*
 *
 *
 Looks

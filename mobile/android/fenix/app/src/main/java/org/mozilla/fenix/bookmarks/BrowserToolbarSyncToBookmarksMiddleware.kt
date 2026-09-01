@@ -161,12 +161,12 @@ bookmarks
 searches
 being
 ended
-*
 when
 the
 toolbar
 exits
 search
+*
 mode
 .
 *

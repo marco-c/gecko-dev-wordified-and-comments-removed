@@ -249,7 +249,6 @@ showToolbar
 /
 *
 *
-*
 Settings
 screen
 allowing

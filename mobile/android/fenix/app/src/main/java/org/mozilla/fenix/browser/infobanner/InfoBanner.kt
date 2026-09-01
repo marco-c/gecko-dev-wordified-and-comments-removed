@@ -138,12 +138,12 @@ an
 optional
 action
 .
-*
 The
 container
 can
 be
 a
+*
 placeholder
 layout
 inserted

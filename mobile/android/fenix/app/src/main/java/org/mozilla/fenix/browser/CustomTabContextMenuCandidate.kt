@@ -144,7 +144,6 @@ CustomTabContextMenuCandidate
 /
 *
 *
-*
 Returns
 the
 default
@@ -160,7 +159,6 @@ tabs
 external
 apps
 .
-*
 *
 /
 fun

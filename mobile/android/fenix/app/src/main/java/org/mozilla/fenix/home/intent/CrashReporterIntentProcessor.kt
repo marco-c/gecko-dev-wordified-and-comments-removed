@@ -151,7 +151,6 @@ Settings
 /
 *
 *
-*
 Process
 the
 [
@@ -168,7 +167,6 @@ app
 is
 informed
 about
-*
 recoverable
 native
 crashes

@@ -1395,7 +1395,6 @@ showKeyboard
 /
 *
 *
-*
 Call
 this
 function

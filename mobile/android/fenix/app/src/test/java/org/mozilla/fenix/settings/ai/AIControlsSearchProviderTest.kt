@@ -85,6 +85,12 @@ mockk
 .
 every
 import
+kotlin
+.
+test
+.
+assertEquals
+import
 mozilla
 .
 components
@@ -152,12 +158,6 @@ fenix
 ext
 .
 components
-import
-kotlin
-.
-test
-.
-assertEquals
 RunWith
 (
 AndroidJUnit4

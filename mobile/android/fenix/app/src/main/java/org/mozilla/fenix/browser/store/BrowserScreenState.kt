@@ -256,12 +256,12 @@ thin
 line
 separating
 the
-*
 system
 navigation
 bar
 from
 the
+*
 application
 '
 s
@@ -301,10 +301,10 @@ to
 have
 enough
 contrast
-*
 to
 be
 easily
+*
 readable
 .
 Typically

@@ -125,7 +125,6 @@ AppState
 /
 *
 *
-*
 State
 object
 encapsulating
@@ -246,7 +245,6 @@ CollectionsState
 (
 )
 /
-*
 *
 *
 State

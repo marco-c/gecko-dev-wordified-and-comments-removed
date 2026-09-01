@@ -171,7 +171,6 @@ registry
 /
 *
 *
-*
 Registers
 a
 [
@@ -202,7 +201,6 @@ observer
 /
 *
 *
-*
 Simulates
 the
 onCreate
@@ -227,7 +225,6 @@ Event
 ON_CREATE
 )
 /
-*
 *
 *
 Simulates
@@ -257,7 +254,6 @@ ON_START
 /
 *
 *
-*
 Simulates
 the
 on
@@ -283,7 +279,6 @@ Event
 ON_RESUME
 )
 /
-*
 *
 *
 Simulates
@@ -313,7 +308,6 @@ ON_PAUSE
 /
 *
 *
-*
 Simulates
 the
 on
@@ -339,7 +333,6 @@ Event
 ON_STOP
 )
 /
-*
 *
 *
 Simulates

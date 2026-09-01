@@ -142,7 +142,6 @@ triggered
 the
 search
 .
-*
 May
 be
 null
@@ -153,6 +152,7 @@ not
 started
 from
 a
+*
 browser
 tab
 .
@@ -196,7 +196,6 @@ Source
 /
 *
 *
-*
 Static
 configuration
 of
@@ -210,7 +209,6 @@ companion
 object
 {
 /
-*
 *
 *
 Empty

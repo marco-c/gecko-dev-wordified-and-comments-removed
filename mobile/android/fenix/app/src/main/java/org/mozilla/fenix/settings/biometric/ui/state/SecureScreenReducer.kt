@@ -144,11 +144,11 @@ SecureScreenState
 ]
 and
 a
-*
 [
 SecureScreenAction
 ]
 and
+*
 returns
 a
 new
@@ -161,7 +161,6 @@ handling
 of
 specific
 action
-*
 types
 to
 corresponding
@@ -189,7 +188,6 @@ to
 be
 processed
 .
-*
 *
 return
 The

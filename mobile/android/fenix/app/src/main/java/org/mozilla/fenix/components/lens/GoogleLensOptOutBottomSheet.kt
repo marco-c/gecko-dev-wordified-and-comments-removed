@@ -381,11 +381,11 @@ started
 so
 the
 user
-*
 can
 leave
 without
 any
+*
 camera
 or
 permission
@@ -409,9 +409,9 @@ the
 slide
 -
 in
-*
 animation
 and
+*
 drag
 -
 to
@@ -429,12 +429,12 @@ surrounding
 FirefoxTheme
 ]
 so
-*
 the
 sheet
 follows
 the
 same
+*
 light
 /
 dark

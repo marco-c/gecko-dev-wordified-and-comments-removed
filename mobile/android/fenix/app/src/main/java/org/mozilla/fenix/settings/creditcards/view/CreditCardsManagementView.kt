@@ -137,7 +137,6 @@ CreditCardsManagementInteractor
 /
 *
 *
-*
 Shows
 a
 list
@@ -206,7 +205,6 @@ onAddCreditCardClick
 }
 }
 /
-*
 *
 *
 Updates

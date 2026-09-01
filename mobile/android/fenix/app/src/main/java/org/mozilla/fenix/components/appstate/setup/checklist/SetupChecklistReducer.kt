@@ -99,7 +99,6 @@ AppState
 /
 *
 *
-*
 Helper
 object
 which

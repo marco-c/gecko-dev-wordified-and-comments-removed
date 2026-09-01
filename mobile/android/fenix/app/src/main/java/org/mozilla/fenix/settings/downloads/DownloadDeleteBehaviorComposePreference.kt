@@ -364,10 +364,10 @@ the
 user
 '
 s
-*
 preferred
 download
 deletion
+*
 behavior
 .
 *

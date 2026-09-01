@@ -162,12 +162,12 @@ a
 specific
 format
 .
-*
 We
 look
 for
 the
 following
+*
 format
 :
 *
@@ -211,10 +211,10 @@ Fact
 API
 for
 this
-*
 purpose
 rather
 than
+*
 calling
 [
 Profiler
@@ -230,7 +230,6 @@ trade
 offs
 .
 Its
-*
 downsides
 are
 that
@@ -238,6 +237,7 @@ it
 is
 less
 explicit
+*
 and
 tooling
 does
@@ -251,7 +251,6 @@ it
 However
 we
 felt
-*
 it
 was
 worthwhile
@@ -281,10 +280,10 @@ to
 iterate
 quickly
 .
-*
 Adding
 dependencies
 on
+*
 the
 Profiler
 and
@@ -318,7 +317,6 @@ e
 .
 g
 .
-*
 GeckoSession
 .
 loadUrl
@@ -327,6 +325,7 @@ but
 it
 '
 s
+*
 not
 always
 easy
@@ -344,12 +343,12 @@ previous
 example
 passing
 a
-*
 Profiler
 reference
 to
 GeckoEngineSession
 is
+*
 difficult
 because
 GES
@@ -378,12 +377,12 @@ markers
 will
 become
 more
-*
 difficult
 if
 we
 have
 to
+*
 understand
 the
 threading
@@ -412,7 +411,6 @@ to
 add
 Profiler
 markers
-*
 for
 local
 debugging
@@ -438,10 +436,10 @@ a
 long
 term
 Profiler
-*
 marker
 we
 should
+*
 consider
 instrumenting
 it

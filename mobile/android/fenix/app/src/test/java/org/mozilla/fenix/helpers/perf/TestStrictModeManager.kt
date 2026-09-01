@@ -111,11 +111,11 @@ of
 [
 allowViolation
 ]
-*
 so
 we
 provide
 a
+*
 test
 implementation
 .

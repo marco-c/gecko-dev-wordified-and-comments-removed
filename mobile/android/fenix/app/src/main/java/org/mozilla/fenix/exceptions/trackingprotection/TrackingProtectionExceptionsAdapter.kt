@@ -122,7 +122,6 @@ exempted
 from
 Tracking
 Protection
-*
 along
 with
 controls

@@ -65,6 +65,12 @@ fenix
 .
 distributions
 import
+kotlin
+.
+collections
+.
+listOf
+import
 kotlinx
 .
 coroutines
@@ -196,12 +202,6 @@ robolectric
 shadows
 .
 ShadowBuild
-import
-kotlin
-.
-collections
-.
-listOf
 RunWith
 (
 RobolectricTestRunner

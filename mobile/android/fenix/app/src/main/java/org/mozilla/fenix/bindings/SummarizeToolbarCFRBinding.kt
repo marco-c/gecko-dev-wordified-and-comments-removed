@@ -302,9 +302,9 @@ Shake
 to
 Summarize
 "
-*
 Contextual
 Feature
+*
 Recommendation
 (
 CFR
@@ -318,7 +318,6 @@ page
 content
 is
 eligible
-*
 for
 summarization
 for
@@ -349,7 +348,6 @@ to
 ensure
 that
 we
-*
 don
 '
 t
@@ -357,6 +355,7 @@ show
 it
 in
 a
+*
 custom
 tab
 .
@@ -760,7 +759,6 @@ CfrExposure
 /
 *
 *
-*
 Filters
 the
 flow
@@ -888,7 +886,6 @@ getOrNull
 false
 }
 /
-*
 *
 *
 Dismiss

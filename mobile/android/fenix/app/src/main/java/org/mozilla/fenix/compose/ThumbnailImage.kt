@@ -515,7 +515,6 @@ describe
 what
 this
 image
-*
 represents
 .
 *
@@ -1088,7 +1087,6 @@ describe
 what
 this
 content
-*
 represents
 .
 *
@@ -1258,7 +1256,6 @@ FallbackIconSize
 /
 *
 *
-*
 State
 wrapper
 for
@@ -1284,7 +1281,6 @@ hasLoaded
 Boolean
 )
 /
-*
 *
 *
 This

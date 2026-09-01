@@ -99,7 +99,6 @@ components
 /
 *
 *
-*
 Activity
 responsible
 for

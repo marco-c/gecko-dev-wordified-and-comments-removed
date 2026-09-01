@@ -171,7 +171,6 @@ DESKTOP_BROWSING_KEY
 /
 *
 *
-*
 Cache
 for
 accessing
@@ -190,7 +189,6 @@ interface
 DesktopModeRepository
 {
 /
-*
 *
 *
 Whether

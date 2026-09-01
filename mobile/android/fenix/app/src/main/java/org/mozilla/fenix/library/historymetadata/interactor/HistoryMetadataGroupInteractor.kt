@@ -107,7 +107,6 @@ SelectionInteractor
 /
 *
 *
-*
 Interface
 for
 history
@@ -200,7 +199,6 @@ user
 clicks
 on
 the
-*
 "
 Delete
 "
@@ -211,6 +209,7 @@ the
 "
 x
 "
+*
 button
 associated
 with
@@ -250,7 +249,6 @@ Metadata
 /
 *
 *
-*
 Called
 when
 a
@@ -272,7 +270,6 @@ onDeleteAll
 (
 )
 /
-*
 *
 *
 Called
@@ -317,7 +314,6 @@ user
 clicks
 on
 the
-*
 "
 Share
 "
@@ -354,7 +350,6 @@ Metadata
 )
 }
 /
-*
 *
 *
 The

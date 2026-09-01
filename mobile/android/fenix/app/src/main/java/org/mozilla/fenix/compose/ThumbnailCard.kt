@@ -303,11 +303,11 @@ url
 ]
 the
 favicon
-*
 will
 be
 displayed
 until
+*
 the
 thumbnail
 is
@@ -371,7 +371,6 @@ used
 by
 accessibility
 services
-*
 to
 describe
 what

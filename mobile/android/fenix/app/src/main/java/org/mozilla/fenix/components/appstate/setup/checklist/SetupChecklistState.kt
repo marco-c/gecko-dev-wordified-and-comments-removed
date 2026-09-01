@@ -179,13 +179,13 @@ to
 the
 user
 .
-*
 This
 is
 a
 temporary
 state
 to
+*
 remove
 the
 setup
@@ -196,7 +196,6 @@ having
 to
 update
 the
-*
 entire
 AppState
 .
@@ -205,6 +204,7 @@ is
 handled
 by
 the
+*
 preference
 once
 the
@@ -269,7 +269,6 @@ getTaskProgress
 :
 State
 /
-*
 *
 *
 Returns
@@ -338,7 +337,6 @@ firefox
 }
 }
 /
-*
 *
 *
 Returns

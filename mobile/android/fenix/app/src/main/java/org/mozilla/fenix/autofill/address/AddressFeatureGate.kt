@@ -67,6 +67,12 @@ autofill
 .
 address
 import
+java
+.
+util
+.
+Locale
+import
 org
 .
 mozilla
@@ -78,14 +84,7 @@ debugsettings
 addresses
 .
 AddressesDebugRegionRepository
-import
-java
-.
-util
-.
-Locale
 /
-*
 *
 *
 An
@@ -108,7 +107,6 @@ interface
 AddressFeatureGate
 {
 /
-*
 *
 *
 return
@@ -154,9 +152,9 @@ and
 any
 enabled
 regions
-*
 within
 a
+*
 [
 AddressesDebugRegionRepository
 ]

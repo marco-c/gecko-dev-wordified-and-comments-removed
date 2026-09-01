@@ -86,7 +86,6 @@ single
 activity
 architecture
 .
-*
 All
 fragments
 will
@@ -94,6 +93,7 @@ be
 displayed
 inside
 this
+*
 activity
 .
 *
@@ -115,7 +115,6 @@ it
 if
 necessary
 .
-*
 Everyone
 should
 call

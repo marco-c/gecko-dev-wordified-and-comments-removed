@@ -123,7 +123,6 @@ Store
 /
 *
 *
-*
 The
 [
 Store
@@ -184,7 +183,6 @@ middlewares
 /
 *
 *
-*
 Actions
 to
 dispatch
@@ -234,6 +232,7 @@ the
 Exceptions
 Screen
 *
+*
 property
 items
 List
@@ -262,7 +261,6 @@ emptyList
 :
 State
 /
-*
 *
 *
 The

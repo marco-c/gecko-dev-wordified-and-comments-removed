@@ -79,6 +79,12 @@ runners
 .
 AndroidJUnit4
 import
+kotlin
+.
+test
+.
+assertEquals
+import
 mozilla
 .
 components
@@ -104,12 +110,6 @@ junit
 runner
 .
 RunWith
-import
-kotlin
-.
-test
-.
-assertEquals
 RunWith
 (
 AndroidJUnit4

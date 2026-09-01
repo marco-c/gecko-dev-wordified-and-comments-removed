@@ -157,7 +157,6 @@ given
 directions
 ]
 .
-*
 If
 the
 id
@@ -168,6 +167,7 @@ match
 the
 current
 destination
+*
 an
 error
 is
@@ -324,7 +324,6 @@ directions
 /
 *
 *
-*
 Navigates
 using
 the
@@ -336,7 +335,6 @@ and
 submit
 a
 Breadcrumb
-*
 when
 an
 [
@@ -431,7 +429,6 @@ e
 /
 *
 *
-*
 Checks
 if
 the
@@ -504,11 +501,11 @@ casting
 to
 HomeActivity
 .
-*
 Fragments
 can
 call
 :
+*
 findNavController
 (
 )

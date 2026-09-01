@@ -545,6 +545,18 @@ modifier
 .
 thenConditional
 import
+mozilla
+.
+components
+.
+ui
+.
+icons
+.
+R
+as
+iconsR
+import
 org
 .
 mozilla
@@ -610,18 +622,6 @@ fenix
 utils
 .
 DURATION_MS_MAIN_MENU_ITEM
-import
-mozilla
-.
-components
-.
-ui
-.
-icons
-.
-R
-as
-iconsR
 private
 val
 MENU_ITEM_HEIGHT_WITHOUT_DESC
@@ -783,7 +783,6 @@ added
 after
 the
 label
-*
 and
 description
 .
@@ -840,7 +839,6 @@ the
 [
 IconButton
 ]
-*
 at
 the
 end
@@ -903,11 +901,11 @@ IconButton
 ]
 will
 be
-*
 displayed
 if
 this
 is
+*
 provided
 .
 Otherwise
@@ -1417,7 +1415,6 @@ list
 item
 will
 not
-*
 be
 clickable
 .
@@ -1625,7 +1622,6 @@ list
 item
 will
 not
-*
 be
 clickable
 .
@@ -2405,7 +2401,6 @@ content
 /
 *
 *
-*
 Enum
 containing
 all
@@ -2426,7 +2421,6 @@ MenuItemState
 /
 *
 *
-*
 The
 menu
 item
@@ -2437,7 +2431,6 @@ enabled
 /
 ENABLED
 /
-*
 *
 *
 The
@@ -2454,7 +2447,6 @@ clickable
 /
 DISABLED
 /
-*
 *
 *
 The
@@ -2479,7 +2471,6 @@ ACTIVE
 /
 *
 *
-*
 The
 menu
 item
@@ -2500,7 +2491,6 @@ destructive
 /
 WARNING
 /
-*
 *
 *
 The

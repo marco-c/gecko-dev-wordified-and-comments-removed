@@ -520,7 +520,6 @@ LifecycleAwareFeature
 /
 *
 *
-*
 Removes
 the
 sessions
@@ -891,7 +890,6 @@ the
 tab
 removal
 is
-*
 undone
 .
 *

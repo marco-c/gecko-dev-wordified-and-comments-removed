@@ -105,7 +105,6 @@ SearchStarted
 /
 *
 *
-*
 An
 interface
 that
@@ -127,7 +126,6 @@ ToolbarController
 /
 *
 *
-*
 see
 [
 ToolbarInteractor
@@ -142,7 +140,6 @@ handleNavigateSearch
 )
 }
 /
-*
 *
 *
 The

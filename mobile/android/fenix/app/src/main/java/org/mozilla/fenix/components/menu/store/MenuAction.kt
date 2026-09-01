@@ -121,7 +121,6 @@ MenuAccessPoint
 /
 *
 *
-*
 Actions
 to
 dispatch
@@ -161,7 +160,6 @@ store
 is
 initialized
 and
-*
 ready
 to
 use
@@ -170,11 +168,11 @@ This
 action
 is
 dispatched
+*
 automatically
 before
 any
 other
-*
 action
 is
 processed
@@ -187,8 +185,8 @@ to
 trigger
 initialization
 logic
-*
 in
+*
 middlewares
 .
 *
@@ -201,7 +199,6 @@ MenuAction
 (
 )
 /
-*
 *
 *
 [
@@ -226,7 +223,6 @@ MenuAction
 (
 )
 /
-*
 *
 *
 [
@@ -297,7 +293,6 @@ MenuAction
 /
 *
 *
-*
 [
 MenuAction
 ]
@@ -322,7 +317,6 @@ MenuAction
 (
 )
 /
-*
 *
 *
 [
@@ -396,7 +390,6 @@ MenuAction
 /
 *
 *
-*
 [
 MenuAction
 ]
@@ -420,7 +413,6 @@ MenuAction
 (
 )
 /
-*
 *
 *
 [
@@ -451,7 +443,6 @@ MenuAction
 /
 *
 *
-*
 [
 MenuAction
 ]
@@ -480,7 +471,6 @@ MenuAction
 /
 *
 *
-*
 [
 MenuAction
 ]
@@ -506,7 +496,6 @@ MenuAction
 (
 )
 /
-*
 *
 *
 [
@@ -538,7 +527,6 @@ MenuAction
 /
 *
 *
-*
 [
 MenuAction
 ]
@@ -563,7 +551,6 @@ MenuAction
 (
 )
 /
-*
 *
 *
 [
@@ -660,7 +647,6 @@ of
 [
 WebExtensionMenuItem
 ]
-*
 to
 be
 shown
@@ -715,7 +701,6 @@ enabled
 Addon
 ]
 s
-*
 to
 be
 shown
@@ -981,7 +966,6 @@ MenuAction
 /
 *
 *
-*
 [
 MenuAction
 ]
@@ -1009,7 +993,6 @@ MenuAction
 (
 )
 /
-*
 *
 *
 [
@@ -1041,7 +1024,6 @@ MenuAction
 /
 *
 *
-*
 [
 MenuAction
 ]
@@ -1062,7 +1044,6 @@ MenuAction
 (
 )
 /
-*
 *
 *
 [
@@ -1180,7 +1161,6 @@ MenuAction
 /
 *
 *
-*
 [
 MenuAction
 ]
@@ -1270,7 +1250,6 @@ Navigate
 /
 *
 *
-*
 [
 Navigate
 ]
@@ -1292,7 +1271,6 @@ Navigate
 (
 )
 /
-*
 *
 *
 [
@@ -1319,7 +1297,6 @@ Navigate
 /
 *
 *
-*
 [
 Navigate
 ]
@@ -1340,7 +1317,6 @@ Navigate
 (
 )
 /
-*
 *
 *
 [
@@ -1365,7 +1341,6 @@ Navigate
 /
 *
 *
-*
 [
 Navigate
 ]
@@ -1388,7 +1363,6 @@ Navigate
 /
 *
 *
-*
 [
 Navigate
 ]
@@ -1409,7 +1383,6 @@ Navigate
 (
 )
 /
-*
 *
 *
 [
@@ -1435,7 +1408,6 @@ Navigate
 (
 )
 /
-*
 *
 *
 [
@@ -1512,7 +1484,6 @@ Navigate
 /
 *
 *
-*
 [
 Navigate
 ]
@@ -1534,7 +1505,6 @@ Navigate
 (
 )
 /
-*
 *
 *
 [
@@ -1561,7 +1531,6 @@ Navigate
 /
 *
 *
-*
 [
 Navigate
 ]
@@ -1584,7 +1553,6 @@ Navigate
 (
 )
 /
-*
 *
 *
 [
@@ -1704,7 +1672,6 @@ Navigate
 /
 *
 *
-*
 [
 Navigate
 ]
@@ -1730,7 +1697,6 @@ Navigate
 (
 )
 /
-*
 *
 *
 [
@@ -1895,7 +1861,6 @@ Navigate
 /
 *
 *
-*
 [
 Navigate
 ]
@@ -1919,7 +1884,6 @@ Navigate
 (
 )
 /
-*
 *
 *
 [

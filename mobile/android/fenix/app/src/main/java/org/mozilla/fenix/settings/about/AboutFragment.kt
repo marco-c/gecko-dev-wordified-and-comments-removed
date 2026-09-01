@@ -373,7 +373,6 @@ GeckoViewBuildConfig
 /
 *
 *
-*
 Displays
 the
 logo
@@ -640,10 +639,10 @@ on
 the
 view
 .
-*
 It
 uses
 a
+*
 [
 SecretDebugMenuTrigger
 ]
@@ -745,20 +744,19 @@ menu
 is
 attached
 .
-*
 This
 is
 used
 to
 add
 the
+*
 [
 SecretDebugMenuTrigger
 ]
 as
 an
 observer
-*
 allowing
 it
 to
@@ -767,7 +765,6 @@ to
 lifecycle
 events
 .
-*
 *
 see
 SecretDebugMenuTrigger
@@ -855,7 +852,6 @@ secretDebugMenuTrigger
 /
 *
 *
-*
 Handles
 a
 click
@@ -912,7 +908,6 @@ LENGTH_SHORT
 )
 }
 /
-*
 *
 *
 Handles
@@ -1585,7 +1580,6 @@ license
 /
 *
 *
-*
 Helper
 functions
 for
@@ -1655,7 +1649,6 @@ LENGTH_LONG
 ]
 .
 *
-*
 see
 Toast
 *
@@ -1675,7 +1668,6 @@ Int
 )
 }
 /
-*
 *
 *
 Default
@@ -1832,7 +1824,6 @@ show
 )
 }
 /
-*
 *
 *
 Cancels

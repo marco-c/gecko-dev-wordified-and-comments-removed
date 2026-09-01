@@ -109,7 +109,6 @@ Settings
 /
 *
 *
-*
 Opens
 the
 "
@@ -124,7 +123,6 @@ user
 taps
 on
 a
-*
 "
 synced
 tabs

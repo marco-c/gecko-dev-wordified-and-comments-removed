@@ -95,7 +95,6 @@ SessionControlInteractor
 /
 *
 *
-*
 Interface
 for
 bookmark
@@ -136,7 +135,6 @@ bookmark
 on
 the
 home
-*
 screen
 .
 *
@@ -181,7 +179,6 @@ all
 "
 button
 for
-*
 bookmarks
 on
 the
@@ -218,11 +215,11 @@ the
 "
 Remove
 "
-*
 button
 for
 a
 bookmark
+*
 on
 the
 home

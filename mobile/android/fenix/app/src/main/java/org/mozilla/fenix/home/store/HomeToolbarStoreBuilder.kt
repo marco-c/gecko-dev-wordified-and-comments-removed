@@ -263,7 +263,6 @@ TranslationsEnabledSettings
 /
 *
 *
-*
 Delegate
 for
 building

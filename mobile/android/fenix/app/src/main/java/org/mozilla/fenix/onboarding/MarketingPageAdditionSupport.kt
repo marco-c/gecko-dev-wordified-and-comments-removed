@@ -83,6 +83,12 @@ lifecycle
 .
 lifecycleScope
 import
+kotlin
+.
+coroutines
+.
+CoroutineContext
+import
 kotlinx
 .
 coroutines
@@ -200,12 +206,6 @@ fenix
 utils
 .
 Settings
-import
-kotlin
-.
-coroutines
-.
-CoroutineContext
 /
 *
 *

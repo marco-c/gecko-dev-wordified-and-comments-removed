@@ -386,10 +386,10 @@ if
 found
 fetches
 the
-*
 corresponding
 addon
 download
+*
 URL
 from
 AMO

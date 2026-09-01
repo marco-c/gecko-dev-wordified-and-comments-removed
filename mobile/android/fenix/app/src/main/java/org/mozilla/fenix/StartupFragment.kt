@@ -105,7 +105,6 @@ destination
 in
 our
 navigation
-*
 graph
 .
 It
@@ -116,11 +115,11 @@ and
 is
 fast
 to
+*
 create
 compared
 to
 our
-*
 [
 HomeFragment
 ]
@@ -147,7 +146,6 @@ a
 decision
 which
 fragment
-*
 to
 navigate
 to
@@ -157,11 +155,11 @@ sure
 we
 only
 render
+*
 the
 [
 HomeFragment
 ]
-*
 as
 needed
 .

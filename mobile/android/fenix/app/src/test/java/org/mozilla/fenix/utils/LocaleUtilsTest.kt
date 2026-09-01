@@ -65,6 +65,12 @@ fenix
 .
 utils
 import
+java
+.
+util
+.
+Locale
+import
 org
 .
 junit
@@ -92,12 +98,6 @@ org
 robolectric
 .
 RobolectricTestRunner
-import
-java
-.
-util
-.
-Locale
 RunWith
 (
 RobolectricTestRunner

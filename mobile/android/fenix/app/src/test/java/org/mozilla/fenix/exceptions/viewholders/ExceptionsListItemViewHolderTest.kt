@@ -129,6 +129,12 @@ mockk
 .
 verify
 import
+kotlin
+.
+test
+.
+assertNotNull
+import
 mozilla
 .
 components
@@ -196,12 +202,6 @@ fenix
 helpers
 .
 MockkRetryTestRule
-import
-kotlin
-.
-test
-.
-assertNotNull
 class
 ExceptionsListItemViewHolderTest
 {

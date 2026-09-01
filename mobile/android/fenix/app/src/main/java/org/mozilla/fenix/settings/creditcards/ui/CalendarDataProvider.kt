@@ -89,7 +89,6 @@ Locale
 /
 *
 *
-*
 Provider
 for
 calendar
@@ -437,7 +436,6 @@ toString
 /
 *
 *
-*
 Number
 of
 months
@@ -459,7 +457,6 @@ NUMBER_OF_MONTHS
 =
 11
 /
-*
 *
 *
 Number

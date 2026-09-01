@@ -176,7 +176,6 @@ in
 settings
 ]
 .
-*
 The
 blocklist
 is
@@ -188,8 +187,8 @@ hashed
 URLs
 which
 are
-stripped
 *
+stripped
 of
 protocols
 and
@@ -229,7 +228,6 @@ Settings
 /
 *
 *
-*
 Add
 an
 URL
@@ -244,7 +242,6 @@ be
 stripped
 and
 hashed
-*
 so
 no
 pre
@@ -284,7 +281,6 @@ updatedBlocklist
 /
 *
 *
-*
 Filter
 a
 list
@@ -301,7 +297,6 @@ class
 to
 be
 contextually
-*
 in
 a
 scope
@@ -364,7 +359,6 @@ false
 /
 *
 *
-*
 Filter
 a
 list
@@ -381,7 +375,6 @@ class
 to
 be
 contextually
-*
 in
 a
 scope
@@ -441,7 +434,6 @@ url
 }
 }
 /
-*
 *
 *
 Filter
@@ -526,12 +518,12 @@ list
 of
 recently
 synced
-*
 tabs
 by
 the
 blocklist
 .
+*
 If
 the
 filtered
@@ -544,7 +536,6 @@ change
 the
 state
 to
-*
 [
 RecentSyncedTabState
 .
@@ -631,7 +622,6 @@ this
 /
 *
 *
-*
 Filter
 a
 list
@@ -646,7 +636,6 @@ if
 the
 state
 is
-*
 [
 RecentSyncedTabState
 .
@@ -731,7 +720,6 @@ this
 /
 *
 *
-*
 Filter
 a
 list
@@ -749,7 +737,6 @@ class
 to
 be
 contextually
-*
 in
 a
 scope
@@ -805,7 +792,6 @@ url
 }
 }
 /
-*
 *
 *
 Filter

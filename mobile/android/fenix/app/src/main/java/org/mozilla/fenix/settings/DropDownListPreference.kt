@@ -187,7 +187,6 @@ E
 .
 g
 .
-*
 entryValues
 =
 =
@@ -200,7 +199,6 @@ private
 normal
 "
 )
-*
 entries
 =
 =

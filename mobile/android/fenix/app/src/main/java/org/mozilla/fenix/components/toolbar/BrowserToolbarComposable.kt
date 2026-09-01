@@ -617,7 +617,6 @@ View
 ]
 and
 its
-*
 scrolling
 behaviour
 .
@@ -757,10 +756,10 @@ content
 to
 be
 displayed
-*
 together
 with
 this
+*
 toolbar
 .
 *
@@ -1761,11 +1760,11 @@ a
 screen
 reader
 enabled
-*
 the
 toolbar
 will
 be
+*
 placed
 at
 the

@@ -165,7 +165,6 @@ resolving
 its
 title
 and
-*
 description
 resource
 names
@@ -212,7 +211,6 @@ for
 that
 resource
 name
-*
 then
 the
 raw
@@ -220,6 +218,7 @@ resource
 name
 will
 be
+*
 set
 as
 the
@@ -234,12 +233,12 @@ identification
 purposes
 )
 .
-*
 For
 example
 if
 Nimbus
 delivers
+*
 firefox_labs_unknown_lab
 and
 no
@@ -249,7 +248,6 @@ by
 that
 name
 exists
-*
 the
 [
 LabsItem
@@ -261,6 +259,7 @@ is
 rendered
 as
 the
+*
 literal
 text
 firefox_labs_unknown_lab
@@ -287,10 +286,10 @@ the
 [
 LabsItem
 ]
-*
 is
 returned
 as
+*
 null
 and
 will

@@ -156,11 +156,11 @@ prevent
 rapid
 successive
 toggles
-*
 from
 calling
 the
 onValueChange
+*
 function
 .
 *

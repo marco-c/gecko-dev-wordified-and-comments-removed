@@ -235,7 +235,6 @@ GeckoPrefHandlerExt
 /
 *
 *
-*
 Helper
 method
 to
@@ -265,7 +264,6 @@ geckoPref
 .
 pref
 /
-*
 *
 *
 Helper
@@ -382,10 +380,10 @@ and
 obtain
 the
 instance
-*
 with
 the
 provided
+*
 preference
 string
 name
@@ -469,6 +467,7 @@ string
 values
 .
 *
+*
 throws
 JSONException
 *
@@ -527,6 +526,7 @@ settable
 Gecko
 preference
 .
+*
 *
 param
 originalGeckoPref
@@ -796,10 +796,10 @@ settable
 Gecko
 preference
 for
-*
 enrollment
 values
 .
+*
 *
 param
 geckoPrefState
@@ -1107,7 +1107,6 @@ Nimbus
 set
 them
 during
-*
 enrollment
 *
 param
@@ -1131,10 +1130,10 @@ BrowserPrefType
 as
 the
 value
-*
 to
 determine
 what
+*
 kind
 of
 setter
@@ -1271,7 +1270,6 @@ used
 to
 set
 the
-*
 Gecko
 preference
 values
@@ -1310,10 +1308,10 @@ BrowserPrefType
 as
 the
 value
-*
 to
 determine
 what
+*
 kind
 of
 setter

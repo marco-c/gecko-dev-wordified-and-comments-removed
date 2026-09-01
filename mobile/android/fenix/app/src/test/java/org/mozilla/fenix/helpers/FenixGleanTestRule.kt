@@ -159,7 +159,6 @@ SDK
 between
 tests
 and
-*
 initializing
 all
 the
@@ -171,7 +170,6 @@ dependencies
 Example
 usage
 :
-*
 *
 *
 /
@@ -255,7 +253,6 @@ TestWatcher
 )
 {
 /
-*
 *
 *
 Invoked
@@ -489,6 +486,8 @@ versionName
 "
 buildDate
 =
+/
+/
 Calendar
 .
 getInstance

@@ -79,6 +79,12 @@ TestCase
 .
 assertTrue
 import
+kotlin
+.
+test
+.
+assertEquals
+import
 org
 .
 junit
@@ -140,12 +146,6 @@ fenix
 theme
 .
 Theme
-import
-kotlin
-.
-test
-.
-assertEquals
 RunWith
 (
 AndroidJUnit4

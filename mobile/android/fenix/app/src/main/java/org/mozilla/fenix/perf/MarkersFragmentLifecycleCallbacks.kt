@@ -148,7 +148,6 @@ are
 called
 by
 the
-*
 super
 method
 (
@@ -156,6 +155,7 @@ e
 .
 g
 .
+*
 [
 Fragment
 .
@@ -170,7 +170,6 @@ during
 the
 execution
 of
-*
 our
 implementation
 (
@@ -178,6 +177,7 @@ e
 .
 g
 .
+*
 [
 org
 .
@@ -196,7 +196,6 @@ rather
 than
 at
 the
-*
 beginning
 or
 end

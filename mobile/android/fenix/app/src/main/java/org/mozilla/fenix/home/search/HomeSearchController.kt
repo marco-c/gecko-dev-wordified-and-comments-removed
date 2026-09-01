@@ -95,7 +95,6 @@ SearchEnded
 /
 *
 *
-*
 Delegate
 for
 handling
@@ -114,7 +113,6 @@ interface
 HomeSearchController
 {
 /
-*
 *
 *
 Handle

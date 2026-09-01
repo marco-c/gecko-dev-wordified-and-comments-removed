@@ -65,6 +65,12 @@ fenix
 .
 bookmarks
 import
+kotlin
+.
+collections
+.
+listOf
+import
 mozilla
 .
 appservices
@@ -110,12 +116,6 @@ org
 junit
 .
 Test
-import
-kotlin
-.
-collections
-.
-listOf
 class
 BookmarksReducerTest
 {

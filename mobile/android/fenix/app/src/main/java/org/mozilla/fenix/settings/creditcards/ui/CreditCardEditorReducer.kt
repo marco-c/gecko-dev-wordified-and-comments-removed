@@ -112,7 +112,6 @@ be
 handled
 .
 *
-*
 return
 The
 new

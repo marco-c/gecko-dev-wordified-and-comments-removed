@@ -461,7 +461,6 @@ WallpaperState
 /
 *
 *
-*
 Interface
 for
 tab
@@ -528,7 +527,6 @@ AppState
 /
 *
 *
-*
 Interface
 for
 collection
@@ -570,12 +568,12 @@ to
 the
 given
 tab
-*
 collection
 .
 Called
 when
 a
+*
 user
 taps
 on
@@ -679,7 +677,6 @@ the
 Open
 tabs
 "
-*
 collection
 menu
 item
@@ -726,12 +723,12 @@ swipes
 to
 remove
 a
-*
 tab
 or
 clicks
 on
 the
+*
 tab
 close
 button
@@ -794,7 +791,6 @@ clicks
 on
 the
 Collection
-*
 Share
 button
 .
@@ -839,11 +835,11 @@ user
 taps
 on
 the
-*
 "
 Delete
 collection
 "
+*
 collection
 menu
 item
@@ -887,11 +883,11 @@ collection
 Called
 when
 a
-*
 user
 taps
 on
 the
+*
 "
 Rename
 collection
@@ -940,7 +936,6 @@ user
 clicks
 on
 a
-*
 [
 CollectionViewHolder
 ]
@@ -990,7 +985,6 @@ Boolean
 /
 *
 *
-*
 Opens
 the
 collection
@@ -1006,7 +1000,6 @@ interface
 MessageCardInteractor
 {
 /
-*
 *
 *
 Called
@@ -1032,7 +1025,6 @@ Message
 /
 *
 *
-*
 Called
 when
 close
@@ -1055,7 +1047,6 @@ Message
 )
 }
 /
-*
 *
 *
 Interface
@@ -1088,11 +1079,11 @@ conditions
 are
 met
 .
-*
 Returns
 true
 if
 the
+*
 call
 has
 been
@@ -1135,7 +1126,6 @@ Boolean
 /
 *
 *
-*
 Interface
 for
 setup
@@ -1150,7 +1140,6 @@ interface
 SetupChecklistInteractor
 {
 /
-*
 *
 *
 Gets
@@ -1176,7 +1165,6 @@ ChecklistItem
 /
 *
 *
-*
 Invoked
 when
 the
@@ -1193,7 +1181,6 @@ onRemoveChecklistButtonClicked
 )
 }
 /
-*
 *
 *
 Interface
@@ -1214,7 +1201,6 @@ TrackingProtectionInteractor
 /
 *
 *
-*
 Invoked
 when
 the
@@ -1231,7 +1217,6 @@ onPrivacyReportTapped
 (
 )
 /
-*
 *
 *
 Invoked
@@ -1251,7 +1236,6 @@ onLongfoxEntryPointClicked
 (
 )
 /
-*
 *
 *
 Invoked
@@ -1285,16 +1269,15 @@ implementations
 for
 the
 CollectionInteractor
-*
 OnboardingInteractor
+*
 TopSiteInteractor
 TabSessionInteractor
 ToolbarInteractor
-*
 ExperimentCardInteractor
 RecentTabInteractor
-RecentBookmarksInteractor
 *
+RecentBookmarksInteractor
 and
 others
 .

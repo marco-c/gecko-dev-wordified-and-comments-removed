@@ -286,6 +286,16 @@ Snackbar
 .
 *
 property
+withDismissAction
+Whether
+to
+display
+a
+dismiss
+button
+.
+*
+property
 onDismiss
 Invoked
 when
@@ -331,6 +341,12 @@ Action
 =
 defaultAction
 val
+withDismissAction
+:
+Boolean
+=
+false
+val
 onDismiss
 :
 (
@@ -343,7 +359,6 @@ defaultOnDismiss
 )
 {
 /
-*
 *
 *
 A
@@ -365,7 +380,6 @@ interface
 Duration
 {
 /
-*
 *
 *
 A
@@ -443,7 +457,6 @@ Duration
 /
 *
 *
-*
 Get
 the
 display
@@ -489,7 +502,6 @@ duration
 durationMs
 }
 /
-*
 *
 *
 Convert
@@ -560,7 +572,6 @@ Short
 }
 }
 /
-*
 *
 *
 The
@@ -650,7 +661,6 @@ Ellipsis
 /
 *
 *
-*
 Converts
 this
 [
@@ -697,6 +707,9 @@ action
 ?
 .
 label
+withDismissAction
+=
+withDismissAction
 duration
 =
 toSnackbarDuration
@@ -720,7 +733,6 @@ onClick
 }
 }
 /
-*
 *
 *
 Helper

@@ -130,6 +130,13 @@ ChoiceAction
 )
 data
 object
+ScrolledToItem
+:
+ChoiceAction
+(
+)
+data
+object
 MeasurementDataClicked
 :
 ChoiceAction

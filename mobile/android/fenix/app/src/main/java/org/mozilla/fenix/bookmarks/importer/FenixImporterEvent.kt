@@ -107,8 +107,8 @@ bookmarks
 .
 ImportBookmarksDialogFragment
 ]
-*
 to
+*
 [
 org
 .
@@ -130,9 +130,9 @@ simplified
 result
 object
 that
-*
 is
 easily
+*
 serializable
 and
 deserializable

@@ -259,7 +259,6 @@ HOMEPAGE_WORDMARK_TEXT
 /
 *
 *
-*
 Semantic
 property
 for

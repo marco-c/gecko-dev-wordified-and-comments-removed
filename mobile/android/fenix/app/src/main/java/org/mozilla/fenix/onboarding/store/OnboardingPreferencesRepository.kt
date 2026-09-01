@@ -169,7 +169,6 @@ registerOnSharedPreferenceChangeListener
 /
 *
 *
-*
 Cache
 for
 accessing
@@ -186,7 +185,6 @@ interface
 OnboardingPreferencesRepository
 {
 /
-*
 *
 *
 Enum
@@ -235,7 +233,6 @@ pref_key_toolbar_bottom
 /
 *
 *
-*
 An
 update
 to
@@ -264,7 +261,6 @@ true
 /
 *
 *
-*
 A
 [
 Flow
@@ -287,7 +283,6 @@ OnboardingPreferenceUpdate
 /
 *
 *
-*
 Initializes
 the
 repository
@@ -306,7 +301,6 @@ init
 (
 )
 /
-*
 *
 *
 Update

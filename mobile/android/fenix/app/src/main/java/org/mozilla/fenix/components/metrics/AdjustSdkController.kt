@@ -118,11 +118,11 @@ AdjustMetricsService
 ]
 can
 be
-*
 unit
 -
 tested
 without
+*
 mocking
 statics
 .
@@ -132,7 +132,6 @@ interface
 AdjustSdkController
 {
 /
-*
 *
 *
 Initializes
@@ -166,7 +165,6 @@ AdjustConfig
 /
 *
 *
-*
 Enables
 the
 Adjust
@@ -183,7 +181,6 @@ enable
 (
 )
 /
-*
 *
 *
 Tracks
@@ -203,7 +200,6 @@ event
 AdjustEvent
 )
 /
-*
 *
 *
 Requests
@@ -237,7 +233,6 @@ Context
 )
 }
 /
-*
 *
 *
 [

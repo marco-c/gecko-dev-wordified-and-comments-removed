@@ -121,10 +121,10 @@ screens
 displaying
 sensitive
 information
-*
 by
 not
 allowing
+*
 taking
 screenshots
 of

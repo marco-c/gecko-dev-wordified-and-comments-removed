@@ -195,7 +195,6 @@ null
 /
 *
 *
-*
 Static
 configuration
 and
@@ -211,7 +210,6 @@ companion
 object
 {
 /
-*
 *
 *
 [

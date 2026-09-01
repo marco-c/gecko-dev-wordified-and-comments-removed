@@ -69,6 +69,12 @@ redux
 .
 reducer
 import
+kotlin
+.
+test
+.
+assertEquals
+import
 org
 .
 junit
@@ -270,12 +276,6 @@ tabstray
 syncedtabs
 .
 getFakeSyncedTabList
-import
-kotlin
-.
-test
-.
-assertEquals
 class
 TabsTrayStoreReducerTest
 {

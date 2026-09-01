@@ -75,7 +75,6 @@ IOException
 /
 *
 *
-*
 Thrown
 to
 indicate
@@ -87,7 +86,6 @@ doesn
 t
 have
 permission
-*
 to
 access
 a

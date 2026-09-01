@@ -171,11 +171,11 @@ to
 automatically
 delete
 when
-*
 choosing
 the
 Quit
 options
+*
 in
 the
 main

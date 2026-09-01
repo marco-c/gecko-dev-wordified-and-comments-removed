@@ -97,6 +97,12 @@ mockk
 .
 verify
 import
+java
+.
+io
+.
+IOException
+import
 kotlinx
 .
 coroutines
@@ -188,12 +194,6 @@ org
 junit
 .
 Test
-import
-java
-.
-io
-.
-IOException
 class
 MARSUseCasesTest
 {

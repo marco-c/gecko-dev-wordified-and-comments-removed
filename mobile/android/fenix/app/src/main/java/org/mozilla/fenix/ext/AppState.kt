@@ -198,7 +198,6 @@ recommendations
 to
 show
 .
-*
 This
 is
 an
@@ -211,6 +210,7 @@ that
 fewer
 than
 this
+*
 stories
 may
 actually
@@ -227,7 +227,6 @@ TOTAL_CONTENT_RECOMMENDATIONS_TO_SHOW_COUNT
 =
 30
 /
-*
 *
 *
 The
@@ -262,7 +261,6 @@ stories
 to
 show
 .
-*
 This
 is
 an
@@ -274,6 +272,7 @@ account
 that
 fewer
 than
+*
 this
 stories
 may
@@ -390,9 +389,9 @@ the
 pocket
 stories
 categories
-*
 selections
 impressions
+*
 and
 numbers
 of
@@ -571,7 +570,6 @@ content
 recommendations
 and
 sponsored
-*
 stories
 state
 .
@@ -592,7 +590,6 @@ recommendations
 and
 sponsored
 stories
-*
 to
 display
 .
@@ -669,13 +666,13 @@ to
 display
 a
 number
-*
 of
 [
 PocketStory
 ]
 s
 specified
+*
 by
 [
 TOTAL_CONTENT_RECOMMENDATIONS_TO_SHOW_COUNT
@@ -684,11 +681,11 @@ with
 a
 number
 of
-*
 sponsored
 content
 specified
 by
+*
 [
 SPONSORED_STORIES_TO_SHOW_COUNT
 ]
@@ -732,7 +729,6 @@ both
 recommendations
 ]
 and
-*
 [
 sponsoredStories
 ]
@@ -882,7 +878,6 @@ to
 be
 displayed
 .
-*
 This
 impacts
 the
@@ -890,6 +885,7 @@ results
 by
 guaranteeing
 an
+*
 even
 spread
 of
@@ -902,7 +898,6 @@ that
 stories
 count
 .
-*
 *
 return
 a
@@ -1323,13 +1318,13 @@ based
 on
 user
 preference
-*
 and
 the
 availability
 of
 local
 or
+*
 Synced
 tabs
 .
@@ -1371,7 +1366,6 @@ showRecentTabsFeature
 hasTab
 }
 /
-*
 *
 *
 Determines

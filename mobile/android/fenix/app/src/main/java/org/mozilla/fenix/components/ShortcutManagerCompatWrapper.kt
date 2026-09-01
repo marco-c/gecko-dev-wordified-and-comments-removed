@@ -118,7 +118,6 @@ static
 methods
 of
 ShortcutManagerCompat
-*
 allowing
 for
 easier
@@ -126,6 +125,7 @@ mocking
 and
 verification
 in
+*
 unit
 tests
 .
@@ -246,7 +246,6 @@ sent
 false
 otherwise
 .
-*
 Note
 that
 this
@@ -254,6 +253,7 @@ does
 not
 guarantee
 the
+*
 shortcut
 will
 be
@@ -382,7 +382,6 @@ String
 )
 }
 /
-*
 *
 *
 A

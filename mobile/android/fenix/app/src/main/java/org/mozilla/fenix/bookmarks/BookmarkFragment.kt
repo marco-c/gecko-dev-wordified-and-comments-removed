@@ -461,7 +461,6 @@ FirefoxTheme
 /
 *
 *
-*
 The
 screen
 that

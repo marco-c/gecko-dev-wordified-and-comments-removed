@@ -67,7 +67,6 @@ messaging
 /
 *
 *
-*
 The
 identity
 of
@@ -82,7 +81,6 @@ object
 FenixMessageSurfaceId
 {
 /
-*
 *
 *
 A
@@ -108,7 +106,6 @@ notification
 /
 *
 *
-*
 A
 banner
 in
@@ -125,7 +122,6 @@ HOMESCREEN
 homescreen
 "
 /
-*
 *
 *
 A
@@ -148,7 +144,6 @@ SURVEY
 survey
 "
 /
-*
 *
 *
 A

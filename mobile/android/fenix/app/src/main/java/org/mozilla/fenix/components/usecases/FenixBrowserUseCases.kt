@@ -450,7 +450,6 @@ in
 case
 this
 tab
-*
 was
 opened
 from
@@ -1018,7 +1017,6 @@ tabId
 )
 }
 /
-*
 *
 *
 Loads

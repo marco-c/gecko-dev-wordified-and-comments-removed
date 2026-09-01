@@ -117,6 +117,12 @@ mockk
 .
 verify
 import
+java
+.
+util
+.
+Locale
+import
 mozilla
 .
 components
@@ -196,12 +202,6 @@ org
 robolectric
 .
 RobolectricTestRunner
-import
-java
-.
-util
-.
-Locale
 RunWith
 (
 RobolectricTestRunner
@@ -481,6 +481,8 @@ could
 differ
 and
 this
+/
+/
 test
 will
 fail

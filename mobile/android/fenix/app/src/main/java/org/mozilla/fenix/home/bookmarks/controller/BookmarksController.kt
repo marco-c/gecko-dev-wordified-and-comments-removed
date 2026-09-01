@@ -231,7 +231,6 @@ Settings
 /
 *
 *
-*
 An
 interface
 that
@@ -244,7 +243,6 @@ the
 bookmarks
 on
 the
-*
 Home
 screen
 .
@@ -254,7 +252,6 @@ interface
 BookmarksController
 {
 /
-*
 *
 *
 see
@@ -275,7 +272,6 @@ Bookmark
 /
 *
 *
-*
 see
 [
 BookmarksInteractor
@@ -289,7 +285,6 @@ handleShowAllBookmarksClicked
 (
 )
 /
-*
 *
 *
 see
@@ -309,7 +304,6 @@ Bookmark
 )
 }
 /
-*
 *
 *
 The

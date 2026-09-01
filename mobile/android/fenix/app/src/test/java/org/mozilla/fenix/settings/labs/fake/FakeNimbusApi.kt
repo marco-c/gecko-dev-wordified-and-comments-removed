@@ -166,10 +166,10 @@ Firefox
 Labs
 enroll
 and
-*
 unenroll
 flows
 in
+*
 tests
 .
 It
@@ -186,7 +186,6 @@ unenroll
 the
 observers
 it
-*
 was
 asked
 to
@@ -194,6 +193,7 @@ register
 /
 unregister
 and
+*
 returns
 the
 statuses

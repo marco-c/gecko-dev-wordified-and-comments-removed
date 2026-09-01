@@ -411,12 +411,12 @@ allowing
 access
 to
 various
-*
 other
 application
 features
 that
 this
+*
 integrates
 with
 .
@@ -521,7 +521,6 @@ NavController
 /
 *
 *
-*
 Wraps
 a
 SearchEngine
@@ -552,7 +551,6 @@ SearchEngine
 /
 *
 *
-*
 No
 search
 engine
@@ -575,7 +573,6 @@ SearchEngine
 null
 }
 /
-*
 *
 *
 Search
@@ -602,13 +599,11 @@ SearchEngineSource
 /
 *
 *
-*
 Search
 engine
 for
 quick
 search
-*
 This
 is
 for
@@ -642,7 +637,6 @@ SearchEngineSource
 /
 *
 *
-*
 Search
 engine
 for
@@ -666,7 +660,6 @@ SearchEngineSource
 /
 *
 *
-*
 Search
 engine
 for
@@ -688,7 +681,6 @@ SearchEngineSource
 (
 )
 /
-*
 *
 *
 Search
@@ -773,9 +765,9 @@ this
 fragment
 is
 shown
-*
 for
 an
+*
 already
 existing
 tab
@@ -862,9 +854,9 @@ be
 oriented
 at
 the
-*
 bottom
 of
+*
 the
 screen
 .
@@ -908,11 +900,11 @@ show
 search
 suggestions
 from
-*
 the
 search
 engine
 in
+*
 the
 AwesomeBar
 .
@@ -961,9 +953,9 @@ previously
 used
 search
 terms
-*
 with
 the
+*
 currently
 selected
 search
@@ -981,9 +973,9 @@ history
 suggestions
 for
 only
-*
 the
 current
+*
 search
 engine
 .
@@ -1013,9 +1005,9 @@ bookmarks
 suggestions
 for
 only
-*
 the
 current
+*
 search
 engine
 .
@@ -1047,8 +1039,8 @@ tabs
 suggestions
 for
 only
-*
 the
+*
 current
 search
 engine
@@ -1082,9 +1074,9 @@ tabs
 suggestions
 for
 only
-*
 the
 current
+*
 search
 engine
 .
@@ -1151,8 +1143,8 @@ suggestions
 for
 web
 content
-*
 in
+*
 the
 AwesomeBar
 .
@@ -1185,7 +1177,6 @@ search
 suggestion
 stock
 cards
-*
 in
 the
 AwesomeBar
@@ -1204,9 +1195,9 @@ search
 suggestion
 sports
 cards
-*
 in
 the
+*
 AwesomeBar
 .
 *
@@ -1223,9 +1214,9 @@ search
 suggestion
 flight
 cards
-*
 in
 the
+*
 AwesomeBar
 .
 *
@@ -1478,7 +1469,6 @@ State
 /
 *
 *
-*
 Static
 functionality
 of
@@ -1492,7 +1482,6 @@ companion
 object
 {
 /
-*
 *
 *
 Default
@@ -1627,7 +1616,6 @@ false
 }
 }
 /
-*
 *
 *
 Creates
@@ -1989,7 +1977,6 @@ searchAccessPoint
 /
 *
 *
-*
 Actions
 to
 dispatch
@@ -2012,7 +1999,6 @@ SearchFragmentAction
 Action
 {
 /
-*
 *
 *
 Automated
@@ -2068,12 +2054,12 @@ for
 the
 new
 search
-*
 or
 null
 if
 the
 default
+*
 search
 engine
 should
@@ -2240,7 +2226,6 @@ SearchFragmentAction
 /
 *
 *
-*
 Action
 to
 enable
@@ -2267,7 +2252,6 @@ SearchFragmentAction
 /
 *
 *
-*
 All
 actions
 through
@@ -2288,7 +2272,6 @@ SearchFragmentAction
 (
 )
 /
-*
 *
 *
 Action
@@ -2325,7 +2308,6 @@ SearchEnginesSelectedActions
 /
 *
 *
-*
 Action
 when
 shortcut
@@ -2360,7 +2342,6 @@ SearchEnginesSelectedActions
 /
 *
 *
-*
 Action
 when
 history
@@ -2385,7 +2366,6 @@ SearchEnginesSelectedActions
 (
 )
 /
-*
 *
 *
 Action
@@ -2414,7 +2394,6 @@ SearchEnginesSelectedActions
 /
 *
 *
-*
 Action
 when
 tabs
@@ -2439,7 +2418,6 @@ SearchEnginesSelectedActions
 (
 )
 /
-*
 *
 *
 Action
@@ -2472,7 +2450,6 @@ SearchFragmentAction
 /
 *
 *
-*
 Action
 when
 query
@@ -2497,7 +2474,6 @@ SearchFragmentAction
 /
 *
 *
-*
 Action
 when
 updating
@@ -2520,7 +2496,6 @@ SearchFragmentAction
 (
 )
 /
-*
 *
 *
 Updates
@@ -2558,7 +2533,6 @@ SearchFragmentAction
 /
 *
 *
-*
 Action
 indicating
 a
@@ -2584,7 +2558,6 @@ SearchFragmentAction
 (
 )
 /
-*
 *
 *
 Action
@@ -2618,7 +2591,6 @@ SearchFragmentAction
 /
 *
 *
-*
 Action
 indicating
 a
@@ -2648,7 +2620,6 @@ SearchFragmentAction
 (
 )
 /
-*
 *
 *
 Action
@@ -2681,7 +2652,6 @@ SearchFragmentAction
 /
 *
 *
-*
 Action
 indicating
 the
@@ -2705,7 +2675,6 @@ SearchFragmentAction
 )
 }
 /
-*
 *
 *
 The
@@ -3703,7 +3672,6 @@ showing
 search
 suggestions
 .
-*
 *
 return
 true

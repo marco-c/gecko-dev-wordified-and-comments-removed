@@ -340,7 +340,6 @@ observing
 TranslationsState
 ]
 changes
-*
 from
 the
 [
@@ -351,6 +350,7 @@ updating
 the
 translations
 action
+*
 button
 .
 *
@@ -426,13 +426,13 @@ when
 [
 TranslationDialogBottomSheet
 ]
-*
 should
 be
 automatically
 shown
 to
 the
+*
 user
 .
 *
@@ -452,9 +452,9 @@ updates
 will
 occur
 .
-*
 Defaults
 to
+*
 [
 Dispatchers
 .

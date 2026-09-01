@@ -932,12 +932,12 @@ and
 [
 BrowserToolbarStore
 ]
-*
 that
 will
 show
 search
 suggestions
+*
 whenever
 the
 users

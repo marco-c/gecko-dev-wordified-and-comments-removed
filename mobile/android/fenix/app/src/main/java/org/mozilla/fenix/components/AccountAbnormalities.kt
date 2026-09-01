@@ -169,7 +169,6 @@ StrictModeManager
 /
 *
 *
-*
 Miscellaneous
 FxA
 -
@@ -191,7 +190,6 @@ Exception
 /
 *
 *
-*
 Indicates
 an
 overlapping
@@ -209,7 +207,6 @@ AbnormalFxaEvent
 (
 )
 /
-*
 *
 *
 Indicates
@@ -256,10 +253,10 @@ triggered
 this
 exception
 is
-*
 logged
 when
 a
+*
 sign
 -
 out
@@ -281,7 +278,6 @@ AbnormalFxaEvent
 (
 )
 /
-*
 *
 *
 Indicates
@@ -386,7 +382,6 @@ mode
 settings
 for
 the
-*
 application
 .
 *
@@ -686,7 +681,6 @@ MissingExpectedAccountAfterStartup
 }
 }
 /
-*
 *
 *
 Keeps

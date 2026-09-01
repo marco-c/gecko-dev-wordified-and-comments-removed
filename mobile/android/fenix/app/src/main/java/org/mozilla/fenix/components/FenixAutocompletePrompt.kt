@@ -199,7 +199,6 @@ AutocompletePrompt
 on
 initialization
 .
-*
 With
 Bug
 1947519
@@ -207,6 +206,7 @@ we
 need
 to
 have
+*
 the
 ability
 to
@@ -219,7 +219,6 @@ we
 need
 it
 .
-*
 This
 class
 allows
@@ -228,6 +227,7 @@ to
 pass
 a
 concrete
+*
 [
 AutocompletePrompt
 ]
@@ -236,7 +236,6 @@ the
 PromptFeature
 and
 lazily
-*
 initialize
 the
 view
@@ -563,7 +562,6 @@ AutofillSelectBarBehavior
 to
 place
 the
-*
 autofill
 view
 at

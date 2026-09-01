@@ -111,7 +111,6 @@ that
 can
 be
 configured
-*
 to
 be
 deleted
@@ -119,6 +118,7 @@ automatically
 when
 the
 user
+*
 quits
 the
 application
@@ -138,7 +138,6 @@ key
 which
 is
 used
-*
 to
 store
 the
@@ -148,6 +147,7 @@ s
 choice
 for
 that
+*
 data
 type
 .

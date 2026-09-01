@@ -81,7 +81,6 @@ Action
 /
 *
 *
-*
 Actions
 to
 dispatch
@@ -106,7 +105,6 @@ Action
 /
 *
 *
-*
 [
 DownloadUIAction
 ]
@@ -125,7 +123,6 @@ DownloadUIAction
 /
 *
 *
-*
 [
 DownloadUIAction
 ]
@@ -142,7 +139,6 @@ ExitEditMode
 :
 DownloadUIAction
 /
-*
 *
 *
 [
@@ -172,7 +168,6 @@ DownloadUIAction
 /
 *
 *
-*
 [
 DownloadUIAction
 ]
@@ -193,7 +188,6 @@ AddAllItemsForRemoval
 :
 DownloadUIAction
 /
-*
 *
 *
 [
@@ -243,6 +237,7 @@ pending
 deletion
 set
 .
+*
 *
 property
 items
@@ -300,7 +295,6 @@ DownloadUIAction
 /
 *
 *
-*
 [
 DownloadUIAction
 ]
@@ -325,7 +319,6 @@ UndoPendingDeletion
 :
 DownloadUIAction
 /
-*
 *
 *
 [
@@ -365,7 +358,6 @@ DownloadUIAction
 /
 *
 *
-*
 [
 DownloadUIAction
 ]
@@ -385,7 +377,6 @@ FileItemDeletedSuccessfully
 :
 DownloadUIAction
 /
-*
 *
 *
 [
@@ -420,7 +411,6 @@ DownloadUIAction
 /
 *
 *
-*
 [
 DownloadUIAction
 ]
@@ -447,7 +437,6 @@ ContentTypeFilter
 :
 DownloadUIAction
 /
-*
 *
 *
 [
@@ -477,7 +466,6 @@ String
 :
 DownloadUIAction
 /
-*
 *
 *
 [
@@ -519,7 +507,6 @@ DownloadUIAction
 /
 *
 *
-*
 [
 DownloadUIAction
 ]
@@ -547,7 +534,6 @@ FileItem
 :
 DownloadUIAction
 /
-*
 *
 *
 [
@@ -584,7 +570,6 @@ DownloadUIAction
 /
 *
 *
-*
 [
 DownloadUIAction
 ]
@@ -606,7 +591,6 @@ RenameFileDismissed
 :
 DownloadUIAction
 /
-*
 *
 *
 [
@@ -636,7 +620,6 @@ String
 :
 DownloadUIAction
 /
-*
 *
 *
 [
@@ -673,7 +656,6 @@ DownloadUIAction
 /
 *
 *
-*
 [
 DownloadUIAction
 ]
@@ -700,7 +682,6 @@ CloseChangeFileExtensionDialog
 :
 DownloadUIAction
 /
-*
 *
 *
 [
@@ -733,7 +714,6 @@ DownloadUIAction
 /
 *
 *
-*
 [
 DownloadUIAction
 ]
@@ -759,7 +739,6 @@ RenameFileFailureDismissed
 :
 DownloadUIAction
 /
-*
 *
 *
 [
@@ -788,7 +767,6 @@ DownloadUIAction
 /
 *
 *
-*
 [
 DownloadUIAction
 ]
@@ -808,7 +786,6 @@ DownloadUIAction
 /
 *
 *
-*
 [
 DownloadUIAction
 ]
@@ -826,7 +803,6 @@ SearchBarDismissRequest
 :
 DownloadUIAction
 /
-*
 *
 *
 [
@@ -852,7 +828,6 @@ String
 :
 DownloadUIAction
 /
-*
 *
 *
 [
@@ -881,7 +856,6 @@ DownloadUIAction
 /
 *
 *
-*
 [
 DownloadUIAction
 ]
@@ -908,7 +882,6 @@ DownloadUIAction
 /
 *
 *
-*
 [
 DownloadUIAction
 ]
@@ -930,7 +903,6 @@ DownloadUIAction
 /
 *
 *
-*
 [
 DownloadUIAction
 ]
@@ -949,7 +921,6 @@ NavigationIconClicked
 :
 DownloadUIAction
 /
-*
 *
 *
 [
@@ -986,7 +957,6 @@ DownloadUIAction
 /
 *
 *
-*
 [
 DownloadUIAction
 ]
@@ -1018,7 +988,6 @@ DownloadUIAction
 /
 *
 *
-*
 [
 DownloadUIAction
 ]
@@ -1043,7 +1012,6 @@ String
 :
 DownloadUIAction
 /
-*
 *
 *
 [
@@ -1079,7 +1047,6 @@ DownloadUIAction
 /
 *
 *
-*
 [
 DownloadUIAction
 ]
@@ -1103,7 +1070,6 @@ DismissDeleteDialog
 :
 DownloadUIAction
 /
-*
 *
 *
 [
@@ -1137,7 +1103,6 @@ DownloadUIAction
 /
 *
 *
-*
 [
 DownloadUIAction
 ]
@@ -1168,7 +1133,6 @@ FileItem
 DownloadUIAction
 }
 /
-*
 *
 *
 User
@@ -1281,7 +1245,6 @@ RenameFileError
 /
 *
 *
-*
 The
 proposed
 file
@@ -1305,7 +1268,6 @@ InvalidFileName
 :
 RenameFileError
 /
-*
 *
 *
 The

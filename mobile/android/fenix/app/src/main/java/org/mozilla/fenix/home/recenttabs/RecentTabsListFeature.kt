@@ -185,7 +185,6 @@ asRecentTabs
 /
 *
 *
-*
 View
 -
 bound
@@ -202,7 +201,6 @@ AppStore
 ]
 when
 the
-*
 [
 BrowserStore
 ]

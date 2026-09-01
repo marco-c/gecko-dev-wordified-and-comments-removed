@@ -280,11 +280,11 @@ buffer
 s
 aspect
 ratio
-*
 using
 the
 ratio
 from
+*
 [
 displayAspectRatio
 ]
@@ -308,10 +308,10 @@ for
 TextureView
 '
 s
-*
 default
 behaviour
 of
+*
 stretching
 the
 buffer
@@ -340,11 +340,11 @@ scale
 drops
 out
 :
-*
 the
 matrix
 reduces
 to
+*
 identity
 when
 upright
@@ -357,7 +357,6 @@ alone
 in
 landscape
 .
-*
 Before
 then
 the
@@ -365,6 +364,7 @@ matrix
 letterboxes
 the
 preview
+*
 as
 a
 temporary
@@ -373,7 +373,6 @@ fallback
 Any
 uncovered
 area
-*
 shows
 the
 black
@@ -401,11 +400,11 @@ always
 agree
 on
 which
-*
 axis
 of
 the
 camera
+*
 buffer
 is
 the
@@ -438,7 +437,6 @@ buffer
 displayed
 in
 a
-*
 [
 viewWidth
 ]
@@ -446,6 +444,7 @@ x
 [
 viewHeight
 ]
+*
 TextureView
 at
 the
@@ -459,7 +458,6 @@ where
 swapped
 ]
 is
-*
 the
 [
 areDimensionsSwapped
@@ -467,6 +465,7 @@ areDimensionsSwapped
 result
 for
 that
+*
 rotation
 .
 *
@@ -939,11 +938,11 @@ orientation
 when
 the
 two
-*
 disagree
 about
 which
 axis
+*
 is
 the
 long
@@ -998,8 +997,8 @@ each
 other
 which
 happens
-*
 when
+*
 [
 displayRotation
 ]
@@ -1095,10 +1094,10 @@ at
 the
 maximum
 preview
-*
 dimensions
 the
 camera
+*
 pipeline
 supports
 .
@@ -1112,7 +1111,6 @@ areDimensionsSwapped
 ]
 result
 for
-*
 the
 current
 rotation
@@ -1216,8 +1214,8 @@ where
 swapped
 ]
 is
-*
 the
+*
 [
 areDimensionsSwapped
 ]

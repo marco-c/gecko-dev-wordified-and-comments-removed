@@ -121,7 +121,6 @@ Settings
 /
 *
 *
-*
 Using
 Firefox
 as

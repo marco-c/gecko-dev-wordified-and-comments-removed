@@ -201,7 +201,6 @@ showToolbar
 /
 *
 *
-*
 Displays
 a
 list
@@ -213,7 +212,6 @@ exempted
 from
 saving
 logins
-*
 along
 with
 controls

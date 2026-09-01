@@ -259,7 +259,6 @@ FirefoxTheme
 /
 *
 *
-*
 Optional
 [
 Addon
@@ -320,7 +319,6 @@ emptyList
 )
 )
 /
-*
 *
 *
 A

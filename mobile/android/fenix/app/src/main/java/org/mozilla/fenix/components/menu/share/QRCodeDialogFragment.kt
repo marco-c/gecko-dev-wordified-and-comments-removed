@@ -349,7 +349,6 @@ FirefoxTheme
 /
 *
 *
-*
 A
 DialogFragment
 that
@@ -528,6 +527,7 @@ QR
 code
 URI
 .
+*
 *
 param
 qrCodeUri

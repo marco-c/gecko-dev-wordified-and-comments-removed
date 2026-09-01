@@ -94,11 +94,11 @@ of
 the
 screen
 .
-*
 This
 enum
 represents
 the
+*
 posible
 positions
 .
@@ -115,7 +115,6 @@ to
 the
 position
 .
-*
 Used
 to
 position
@@ -124,6 +123,7 @@ elements
 such
 as
 a
+*
 CFR
 tooltip
 .

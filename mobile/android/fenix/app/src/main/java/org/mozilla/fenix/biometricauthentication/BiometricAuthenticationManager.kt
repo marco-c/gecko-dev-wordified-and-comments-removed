@@ -67,7 +67,6 @@ biometricauthentication
 /
 *
 *
-*
 A
 single
 source
@@ -108,12 +107,12 @@ need
 of
 displaying
 the
-*
 biometric
 authentication
 prompt
 and
 the
+*
 authentication
 status
 *
@@ -138,7 +137,6 @@ AuthenticationStatus
 NOT_AUTHENTICATED
 )
 /
-*
 *
 *
 Enum

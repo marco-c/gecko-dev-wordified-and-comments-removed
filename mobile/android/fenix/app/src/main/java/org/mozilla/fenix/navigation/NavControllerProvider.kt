@@ -122,12 +122,12 @@ concrete
 implementation
 of
 the
-*
 [
 getNavController
 ]
 function
 to
+*
 return
 the
 appropriate
@@ -170,10 +170,10 @@ within
 a
 fragment
 .
-*
 It
 assumes
 the
+*
 NavController
 is
 attached
@@ -271,8 +271,8 @@ It
 serves
 as
 a
-*
 straightforward
+*
 provider
 in
 cases
@@ -287,7 +287,6 @@ retrieving
 the
 NavController
 .
-*
 *
 /
 class

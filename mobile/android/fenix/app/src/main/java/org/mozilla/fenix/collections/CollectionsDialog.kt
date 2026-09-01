@@ -270,10 +270,10 @@ delegate
 when
 confirmed
 .
-*
 If
 the
 selected
+*
 collection
 was
 newly
@@ -305,7 +305,6 @@ Boolean
 >
 Unit
 /
-*
 *
 *
 A
@@ -449,7 +448,6 @@ onNegativeButtonClick
 OnNegativeButtonClick
 )
 /
-*
 *
 *
 Create

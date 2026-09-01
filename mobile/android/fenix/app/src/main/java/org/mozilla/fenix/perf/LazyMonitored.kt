@@ -89,7 +89,6 @@ performance
 monitoring
 .
 This
-*
 wrapper
 could
 be
@@ -98,13 +97,13 @@ in
 the
 future
 to
+*
 add
 more
 monitoring
 .
 Even
 though
-*
 this
 method
 is
@@ -120,8 +119,8 @@ adding
 this
 wrapper
 to
-*
 every
+*
 component
 is
 non

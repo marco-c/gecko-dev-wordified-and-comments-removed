@@ -137,7 +137,6 @@ Settings
 /
 *
 *
-*
 Handles
 the
 logic
@@ -192,7 +191,6 @@ protection
 should
 be
 enabled
-*
 in
 normal
 browsing
@@ -200,6 +198,7 @@ mode
 defaults
 to
 the
+*
 current
 preference
 value
@@ -215,7 +214,6 @@ protection
 should
 be
 enabled
-*
 in
 private
 browsing
@@ -223,6 +221,7 @@ mode
 default
 to
 the
+*
 current
 preference
 value

@@ -85,7 +85,6 @@ LongFoxFeatureApi
 /
 *
 *
-*
 Controller
 for
 launching
@@ -116,7 +115,6 @@ Boolean
 )
 {
 /
-*
 *
 *
 When
@@ -151,7 +149,6 @@ context
 )
 }
 /
-*
 *
 *
 When

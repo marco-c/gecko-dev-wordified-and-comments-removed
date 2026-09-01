@@ -121,7 +121,6 @@ TopSiteController
 /
 *
 *
-*
 Interface
 for
 top
@@ -161,12 +160,12 @@ the
 Open
 in
 private
-*
 tab
 "
 top
 site
 menu
+*
 item
 .
 *
@@ -398,7 +397,6 @@ Int
 /
 *
 *
-*
 Navigates
 to
 the
@@ -417,7 +415,6 @@ Settings
 "
 top
 site
-*
 menu
 item
 .
@@ -445,7 +442,6 @@ user
 clicks
 on
 the
-*
 "
 Our
 sponsors
@@ -454,6 +450,7 @@ your
 privacy
 "
 top
+*
 site
 menu
 item
@@ -487,7 +484,6 @@ clicks
 on
 a
 top
-*
 site
 .
 *
@@ -534,10 +530,10 @@ all
 "
 button
 for
-*
 shortcuts
 on
 the
+*
 homepage
 .
 *
@@ -547,7 +543,6 @@ onShowAllTopSitesClicked
 (
 )
 /
-*
 *
 *
 Sends
@@ -662,7 +657,6 @@ AddShortcutEntryPoint
 )
 }
 /
-*
 *
 *
 Default

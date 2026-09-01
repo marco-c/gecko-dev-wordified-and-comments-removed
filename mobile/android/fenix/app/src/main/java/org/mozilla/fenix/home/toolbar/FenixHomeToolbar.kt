@@ -77,7 +77,6 @@ Composable
 /
 *
 *
-*
 Home
 screen
 toolbar
@@ -88,7 +87,6 @@ interface
 FenixHomeToolbar
 {
 /
-*
 *
 *
 Renders
@@ -126,7 +124,6 @@ and
 the
 address
 bar
-*
 should
 be
 invisible

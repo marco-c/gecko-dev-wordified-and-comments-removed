@@ -707,12 +707,12 @@ current
 state
 of
 whether
-*
 the
 browser
 is
 in
 private
+*
 mode
 or
 not
@@ -788,10 +788,10 @@ content
 to
 be
 displayed
-*
 together
 with
 this
+*
 toolbar
 .
 *
@@ -1883,7 +1883,6 @@ null
 /
 *
 *
-*
 Static
 configuration
 and
@@ -1960,9 +1959,9 @@ to
 start
 search
 .
-*
 Defaults
 to
+*
 null
 .
 *

@@ -365,10 +365,10 @@ and
 DropdownMenu
 ]
 .
-*
 When
 long
 pressed
+*
 the
 [
 DropdownMenu

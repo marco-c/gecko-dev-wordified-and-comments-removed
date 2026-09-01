@@ -215,7 +215,6 @@ Settings
 /
 *
 *
-*
 Class
 to
 test

@@ -73,6 +73,12 @@ content
 .
 Context
 import
+java
+.
+util
+.
+Locale
+import
 mozilla
 .
 components
@@ -166,12 +172,6 @@ robolectric
 annotation
 .
 Config
-import
-java
-.
-util
-.
-Locale
 RunWith
 (
 RobolectricTestRunner

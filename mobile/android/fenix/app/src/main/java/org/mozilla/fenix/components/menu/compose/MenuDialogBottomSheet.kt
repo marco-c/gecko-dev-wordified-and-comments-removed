@@ -278,7 +278,6 @@ or
 UI
 automation
 requests
-*
 dismissal
 of
 the

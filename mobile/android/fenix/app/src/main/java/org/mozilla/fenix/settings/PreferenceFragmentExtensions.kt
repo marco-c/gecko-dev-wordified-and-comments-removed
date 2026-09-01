@@ -174,7 +174,6 @@ an
 EditTextPreference
 ]
 .
-*
 This
 provides
 a
@@ -182,6 +181,7 @@ consistent
 look
 and
 feel
+*
 for
 text
 input

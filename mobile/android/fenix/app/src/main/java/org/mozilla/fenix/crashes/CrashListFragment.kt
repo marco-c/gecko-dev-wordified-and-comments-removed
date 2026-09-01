@@ -123,7 +123,6 @@ components
 /
 *
 *
-*
 Fragment
 showing
 the

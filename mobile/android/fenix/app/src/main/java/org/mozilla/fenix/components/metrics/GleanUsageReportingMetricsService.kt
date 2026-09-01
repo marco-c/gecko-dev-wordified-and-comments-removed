@@ -75,6 +75,14 @@ Context
 import
 androidx
 .
+core
+.
+content
+.
+edit
+import
+androidx
+.
 lifecycle
 .
 LifecycleEventObserver
@@ -96,6 +104,12 @@ androidx
 preference
 .
 PreferenceManager
+import
+java
+.
+util
+.
+UUID
 import
 mozilla
 .
@@ -138,12 +152,6 @@ fenix
 ext
 .
 getPreferenceKey
-import
-java
-.
-util
-.
-UUID
 /
 *
 *
@@ -158,6 +166,7 @@ usage
 reporting
 ping
 .
+*
 *
 param
 lifecycleOwner
@@ -181,7 +190,6 @@ be
 provided
 to
 control
-*
 the
 start
 /
@@ -190,6 +198,7 @@ sending
 events
 for
 the
+*
 usage
 reporting
 ping
@@ -469,7 +478,6 @@ clear
 /
 *
 *
-*
 An
 abstraction
 to
@@ -488,7 +496,6 @@ interface
 GleanProfileId
 {
 /
-*
 *
 *
 Create
@@ -512,7 +519,6 @@ UUID
 /
 *
 *
-*
 Set
 the
 given
@@ -533,7 +539,6 @@ UUID
 /
 *
 *
-*
 Unset
 the
 current
@@ -550,7 +555,6 @@ unset
 )
 }
 /
-*
 *
 *
 Represents
@@ -586,7 +590,6 @@ to
 remove
 a
 value
-*
 so
 we
 have
@@ -596,7 +599,6 @@ this
 canary
 value
 .
-*
 (
 would
 also
@@ -604,6 +606,7 @@ allow
 us
 to
 notice
+*
 if
 we
 ever
@@ -696,7 +699,6 @@ CANARY_VALUE
 /
 *
 *
-*
 An
 abstraction
 to
@@ -721,7 +723,6 @@ GleanProfileIdStore
 /
 *
 *
-*
 Property
 allowing
 access
@@ -743,7 +744,6 @@ String
 /
 *
 *
-*
 Remove
 the
 stored
@@ -758,7 +758,6 @@ clear
 )
 }
 /
-*
 *
 *
 The
@@ -834,18 +833,13 @@ value
 defaultSharedPreferences
 .
 edit
-(
-)
-.
+{
 putString
 (
 preferenceKey
 value
 )
-.
-apply
-(
-)
+}
 }
 override
 fun
@@ -856,16 +850,11 @@ clear
 defaultSharedPreferences
 .
 edit
-(
-)
-.
+{
 remove
 (
 preferenceKey
 )
-.
-apply
-(
-)
+}
 }
 }

@@ -115,7 +115,6 @@ MOZ_APP_VERSION
 /
 *
 *
-*
 Includes
 the
 current

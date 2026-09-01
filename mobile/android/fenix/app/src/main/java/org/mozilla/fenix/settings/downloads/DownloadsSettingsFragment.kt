@@ -213,7 +213,6 @@ scrollToPreferenceWithHighlight
 /
 *
 *
-*
 A
 [
 androidx
@@ -302,11 +301,11 @@ picker
 takes
 persistable
 permission
-*
 and
 updates
 the
 relevant
+*
 setting
 .
 *

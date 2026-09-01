@@ -113,7 +113,6 @@ Store
 /
 *
 *
-*
 The
 [
 Store
@@ -164,10 +163,10 @@ the
 RecentlyClosedFragmentStore
 to
 modify
-*
 RecentlyClosedFragmentState
 through
 the
+*
 reducer
 .
 *
@@ -289,7 +288,6 @@ TabState
 :
 State
 /
-*
 *
 *
 The

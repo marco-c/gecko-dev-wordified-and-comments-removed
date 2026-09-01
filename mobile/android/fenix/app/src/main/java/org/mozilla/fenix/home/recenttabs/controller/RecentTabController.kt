@@ -185,7 +185,6 @@ RecentTabInteractor
 /
 *
 *
-*
 An
 interface
 that
@@ -210,7 +209,6 @@ RecentTabController
 /
 *
 *
-*
 see
 [
 RecentTabInteractor
@@ -229,7 +227,6 @@ String
 /
 *
 *
-*
 see
 [
 RecentTabInteractor
@@ -243,7 +240,6 @@ handleRecentTabShowAllClicked
 (
 )
 /
-*
 *
 *
 see

@@ -83,7 +83,6 @@ BrowsingMode
 /
 *
 *
-*
 Interface
 for
 private
@@ -120,11 +119,11 @@ user
 clicks
 on
 the
-*
 "
 Common
 myths
 about
+*
 private
 browsing
 "
@@ -140,7 +139,6 @@ onLearnMoreClicked
 (
 )
 /
-*
 *
 *
 Called

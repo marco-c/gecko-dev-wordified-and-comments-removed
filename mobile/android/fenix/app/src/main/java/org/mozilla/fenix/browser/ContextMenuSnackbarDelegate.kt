@@ -152,12 +152,12 @@ default
 snackbar
 behavior
 for
-*
 showing
 a
 snackbar
 from
 a
+*
 context
 menu
 item
@@ -198,6 +198,9 @@ StringRes
 action
 :
 Int
+withDismissAction
+:
+Boolean
 listener
 :
 (
@@ -267,6 +270,9 @@ else
 >
 null
 }
+withDismissAction
+=
+withDismissAction
 listener
 =
 listener
@@ -299,6 +305,9 @@ action
 :
 String
 ?
+withDismissAction
+:
+Boolean
 listener
 :
 (
@@ -406,6 +415,9 @@ Duration
 Preset
 .
 Short
+withDismissAction
+=
+withDismissAction
 action
 =
 snackbarAction

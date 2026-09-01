@@ -72,6 +72,12 @@ metrics
 .
 fake
 import
+java
+.
+util
+.
+UUID
+import
 org
 .
 mozilla
@@ -83,12 +89,6 @@ components
 metrics
 .
 GleanProfileId
-import
-java
-.
-util
-.
-UUID
 class
 FakeGleanProfileId
 :

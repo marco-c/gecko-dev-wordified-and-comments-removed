@@ -427,9 +427,9 @@ updates
 will
 occur
 .
-*
 Defaults
 to
+*
 [
 Dispatchers
 .

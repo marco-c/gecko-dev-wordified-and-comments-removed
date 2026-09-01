@@ -163,6 +163,12 @@ mockk
 .
 verifyOrder
 import
+kotlin
+.
+test
+.
+assertNotNull
+import
 kotlinx
 .
 coroutines
@@ -440,12 +446,6 @@ fenix
 utils
 .
 Settings
-import
-kotlin
-.
-test
-.
-assertNotNull
 OptIn
 (
 ExperimentalCoroutinesApi

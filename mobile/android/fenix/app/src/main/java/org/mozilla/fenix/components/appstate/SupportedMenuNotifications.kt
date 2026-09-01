@@ -69,7 +69,6 @@ appstate
 /
 *
 *
-*
 Represents
 the
 different
@@ -93,7 +92,6 @@ SupportedMenuNotifications
 /
 *
 *
-*
 Represents
 a
 notification
@@ -101,7 +99,6 @@ related
 to
 downloads
 .
-*
 This
 is
 used
@@ -131,7 +128,6 @@ open
 in
 app
 .
-*
 This
 is
 used
@@ -145,6 +141,7 @@ opened
 in
 an
 external
+*
 app
 .
 *
@@ -174,12 +171,12 @@ hamburger
 menu
 )
 .
-*
 The
 menu
 button
 is
 highlighted
+*
 after
 onboarding
 when

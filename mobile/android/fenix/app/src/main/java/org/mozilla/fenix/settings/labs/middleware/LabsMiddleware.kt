@@ -297,7 +297,6 @@ LabsState
 ]
 for
 the
-*
 Firefox
 Labs
 screen
@@ -334,7 +333,6 @@ the
 [
 SharedPreferences
 ]
-*
 properties
 .
 *
@@ -1005,7 +1003,6 @@ raw
 Nimbus
 status
 via
-*
 [
 LabsAction
 .
@@ -1013,6 +1010,7 @@ ToggleCompleted
 ]
 and
 maps
+*
 the
 outcome
 to
@@ -1022,13 +1020,11 @@ screen
 should
 handle
 the
-*
 response
 .
 *
 *
 return
-*
 [
 EnrollmentResult
 .
@@ -1039,7 +1035,6 @@ enrollment
 proceeded
 as
 expected
-*
 [
 EnrollmentResult
 .
@@ -1047,6 +1042,7 @@ Failed
 ]
 -
 enrollment
+*
 failed
 due
 to
@@ -1054,7 +1050,6 @@ any
 reason
 refetch
 states
-*
 [
 EnrollmentResult
 .
@@ -1067,6 +1062,7 @@ no
 longer
 exists
 remove
+*
 item
 from
 list
@@ -1355,11 +1351,11 @@ Labs
 active
 )
 or
-*
 null
 if
 the
 fetch
+*
 threw
 .
 *
@@ -1495,10 +1491,10 @@ Labs
 that
 became
 unavailable
-*
 are
 deactivated
 in
+*
 place
 rather
 than
@@ -1610,12 +1606,12 @@ latest
 ones
 so
 that
-*
 Labs
 no
 longer
 on
 offer
+*
 are
 deactivated
 in
@@ -1644,7 +1640,6 @@ from
 Nimbus
 .
 *
-*
 return
 A
 list
@@ -1662,11 +1657,11 @@ its
 latest
 state
 or
-*
 is
 deactivated
 if
 it
+*
 is
 no
 longer

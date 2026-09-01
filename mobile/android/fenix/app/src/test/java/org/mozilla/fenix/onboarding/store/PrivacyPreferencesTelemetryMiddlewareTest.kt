@@ -85,6 +85,12 @@ mockk
 .
 mockk
 import
+kotlin
+.
+test
+.
+assertNotNull
+import
 mozilla
 .
 components
@@ -166,12 +172,6 @@ fenix
 GleanMetrics
 .
 Onboarding
-import
-kotlin
-.
-test
-.
-assertNotNull
 RunWith
 (
 AndroidJUnit4

@@ -135,9 +135,9 @@ preference
 keys
 for
 every
-*
 switch
 preference
+*
 declared
 in
 the

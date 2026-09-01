@@ -67,7 +67,6 @@ selection
 /
 *
 *
-*
 Interactor
 for
 items
@@ -105,6 +104,7 @@ open
 it
 .
 *
+*
 param
 item
 the
@@ -138,7 +138,6 @@ selection
 mode
 is
 started
-*
 or
 when
 selection
@@ -147,11 +146,13 @@ has
 already
 started
 an
+*
 an
 item
 is
 tapped
 .
+*
 *
 param
 item
@@ -190,6 +191,7 @@ longer
 be
 selected
 .
+*
 *
 param
 item

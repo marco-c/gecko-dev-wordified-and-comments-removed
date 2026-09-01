@@ -213,7 +213,6 @@ strip
 background
 .
 Use
-*
 [
 SolidColor
 ]
@@ -221,6 +220,7 @@ with
 a
 transparent
 color
+*
 to
 let
 edge
@@ -231,7 +231,6 @@ edge
 wallpapers
 show
 through
-*
 or
 a
 gradient
@@ -584,7 +583,6 @@ default
 }
 }
 /
-*
 *
 *
 Returns

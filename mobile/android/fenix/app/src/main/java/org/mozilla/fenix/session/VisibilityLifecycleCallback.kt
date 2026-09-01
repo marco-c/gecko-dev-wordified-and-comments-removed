@@ -141,9 +141,9 @@ one
 activity
 in
 the
-*
 STARTED
 state
+*
 (
 meaning
 some
@@ -155,7 +155,6 @@ is
 visible
 )
 .
-*
 Based
 on
 this
@@ -168,6 +167,7 @@ be
 removed
 if
 the
+*
 app
 is
 not
@@ -197,7 +197,6 @@ Application
 ActivityLifecycleCallbacks
 {
 /
-*
 *
 *
 Activities
@@ -244,10 +243,10 @@ in
 the
 background
 .
-*
 The
 application
 is
+*
 considered
 to
 be
@@ -263,9 +262,9 @@ least
 Activity
 in
 the
-*
 started
 state
+*
 *
 return
 True
@@ -282,7 +281,6 @@ removes
 all
 AppTasks
 )
-*
 false
 otherwise
 *
@@ -429,7 +427,6 @@ Activity
 /
 *
 *
-*
 For
 private
 tabs
@@ -438,7 +435,6 @@ the
 tracking
 protection
 exception
-*
 to
 the
 default
@@ -527,10 +523,10 @@ all
 tasks
 .
 After
-*
 that
 the
 app
+*
 won
 '
 t
@@ -561,8 +557,8 @@ removes
 all
 tasks
 )
-*
 false
+*
 otherwise
 .
 *

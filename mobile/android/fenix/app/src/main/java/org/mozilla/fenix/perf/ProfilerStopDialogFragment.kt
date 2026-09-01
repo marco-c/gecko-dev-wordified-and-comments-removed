@@ -258,13 +258,13 @@ the
 [
 ProfilerViewModel
 ]
-*
 to
 manage
 the
 state
 of
 the
+*
 profiler
 .
 *

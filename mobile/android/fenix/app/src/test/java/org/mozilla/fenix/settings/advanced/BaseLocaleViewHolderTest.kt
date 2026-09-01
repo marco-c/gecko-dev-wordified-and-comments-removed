@@ -91,6 +91,12 @@ mockk
 .
 mockk
 import
+java
+.
+util
+.
+Locale
+import
 org
 .
 junit
@@ -118,12 +124,6 @@ org
 junit
 .
 Test
-import
-java
-.
-util
-.
-Locale
 class
 BaseLocaleViewHolderTest
 {

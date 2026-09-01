@@ -77,7 +77,6 @@ Settings
 /
 *
 *
-*
 Interface
 for
 retrieving
@@ -202,13 +201,13 @@ true
 This
 is
 required
-*
 for
 skipping
 the
 marketing
 data
 sharing
+*
 consent
 screen
 before
@@ -237,13 +236,13 @@ retrieves
 the
 distribution
 ID
-*
 from
 the
 provided
 [
 Settings
 ]
+*
 instance
 .
 *

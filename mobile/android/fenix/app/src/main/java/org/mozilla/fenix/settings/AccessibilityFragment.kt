@@ -175,8 +175,8 @@ Android
 device
 settings
 .
-*
 When
+*
 turned
 off
 the

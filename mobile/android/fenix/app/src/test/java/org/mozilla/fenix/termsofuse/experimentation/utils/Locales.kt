@@ -81,7 +81,6 @@ Locale
 /
 *
 *
-*
 Test
 duplicate
 of
@@ -220,7 +219,6 @@ it
 localeCode
 }
 /
-*
 *
 *
 Test

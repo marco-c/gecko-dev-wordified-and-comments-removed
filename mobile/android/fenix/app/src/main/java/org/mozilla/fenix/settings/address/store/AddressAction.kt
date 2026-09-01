@@ -93,7 +93,6 @@ Action
 /
 *
 *
-*
 Actions
 used
 within
@@ -110,7 +109,6 @@ AddressAction
 :
 Action
 /
-*
 *
 *
 Actions
@@ -131,7 +129,6 @@ AddressAction
 /
 *
 *
-*
 Name
 field
 has
@@ -156,7 +153,6 @@ FormChange
 /
 *
 *
-*
 Organization
 field
 has
@@ -179,7 +175,6 @@ FormChange
 (
 )
 /
-*
 *
 *
 Street
@@ -204,7 +199,6 @@ FormChange
 (
 )
 /
-*
 *
 *
 Sub
@@ -240,7 +234,6 @@ FormChange
 /
 *
 *
-*
 City
 field
 has
@@ -262,7 +255,6 @@ FormChange
 (
 )
 /
-*
 *
 *
 Address
@@ -298,7 +290,6 @@ FormChange
 /
 *
 *
-*
 Postal
 code
 field
@@ -321,7 +312,6 @@ FormChange
 (
 )
 /
-*
 *
 *
 Country
@@ -347,7 +337,6 @@ FormChange
 /
 *
 *
-*
 Telephone
 field
 has
@@ -371,7 +360,6 @@ FormChange
 /
 *
 *
-*
 Email
 field
 has
@@ -396,7 +384,6 @@ FormChange
 /
 *
 *
-*
 Actions
 dispatched
 when
@@ -417,7 +404,6 @@ AddressAction
 /
 *
 *
-*
 Delete
 button
 was
@@ -433,7 +419,6 @@ DeleteDialogAction
 (
 )
 /
-*
 *
 *
 Cancel
@@ -454,7 +439,6 @@ DeleteDialogAction
 /
 *
 *
-*
 The
 Address
 View
@@ -468,7 +452,6 @@ ViewAppeared
 :
 AddressAction
 /
-*
 *
 *
 Back
@@ -486,7 +469,6 @@ AddressAction
 /
 *
 *
-*
 Cancel
 button
 was
@@ -500,7 +482,6 @@ CancelTapped
 :
 AddressAction
 /
-*
 *
 *
 Save
@@ -518,7 +499,6 @@ AddressAction
 /
 *
 *
-*
 Delete
 button
 was
@@ -532,7 +512,6 @@ DeleteTapped
 :
 AddressAction
 /
-*
 *
 *
 The

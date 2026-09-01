@@ -220,10 +220,10 @@ the
 user
 to
 enable
-*
 telemetry
 and
 experimentation
+*
 if
 they
 are

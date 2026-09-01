@@ -73,6 +73,12 @@ annotation
 .
 VisibleForTesting
 import
+kotlin
+.
+math
+.
+max
+import
 kotlinx
 .
 coroutines
@@ -274,12 +280,6 @@ Settings
 Companion
 .
 searchGroupMinimumSites
-import
-kotlin
-.
-math
-.
-max
 VisibleForTesting
 internal
 const
@@ -327,12 +327,12 @@ and
 HistoryMetadata
 ]
 items
-*
 which
 will
 be
 mapped
 to
+*
 [
 RecentlyVisitedItem
 ]
@@ -344,7 +344,6 @@ to
 [
 AppStore
 ]
-*
 to
 be
 displayed
@@ -408,11 +407,11 @@ related
 to
 querying
 history
-*
 and
 then
 for
 dispatching
+*
 updates
 .
 *
@@ -619,8 +618,8 @@ and
 history
 groups
 .
-*
 If
+*
 more
 items
 then
@@ -660,7 +659,6 @@ Can
 be
 empty
 .
-*
 *
 return
 [
@@ -942,8 +940,8 @@ to
 the
 most
 recently
-*
 updated
+*
 record
 .
 *
@@ -981,7 +979,6 @@ all
 highlights
 ]
 .
-*
 *
 return
 The
@@ -1135,7 +1132,6 @@ a
 particular
 search
 .
-*
 Automatically
 dedupes
 identical
@@ -1146,6 +1142,7 @@ each
 url
 '
 s
+*
 view
 time
 to
@@ -1164,7 +1161,6 @@ of
 history
 visits
 .
-*
 *
 return
 List
@@ -1403,13 +1399,13 @@ to
 be
 returned
 .
-*
 Items
 will
 be
 sorted
 by
 their
+*
 last
 accessed
 date
@@ -1551,7 +1547,6 @@ cancel
 /
 *
 *
-*
 Filter
 out
 highlights
@@ -1635,7 +1630,6 @@ Long
 /
 *
 *
-*
 Temporary
 wrapper
 over
@@ -1675,7 +1669,6 @@ RecentlyVisitedItemInternal
 (
 )
 /
-*
 *
 *
 Temporary

@@ -93,7 +93,6 @@ LabsItem
 /
 *
 *
-*
 Actions
 to
 dispatch
@@ -137,11 +136,11 @@ ready
 to
 use
 .
-*
 This
 action
 is
 dispatched
+*
 automatically
 before
 any
@@ -150,7 +149,6 @@ action
 is
 processed
 .
-*
 Its
 main
 purpose
@@ -160,6 +158,7 @@ trigger
 initialization
 logic
 in
+*
 middlewares
 .
 *
@@ -190,11 +189,11 @@ from
 Nimbus
 reconciling
 them
-*
 with
 what
 is
 on
+*
 screen
 .
 Unlike
@@ -268,7 +267,6 @@ LabsAction
 (
 )
 /
-*
 *
 *
 [
@@ -355,11 +353,11 @@ when
 Nimbus
 reports
 the
-*
 Lab
 is
 no
 longer
+*
 available
 .
 *
@@ -450,7 +448,6 @@ exception
 "
 if
 the
-*
 Nimbus
 call
 threw
@@ -479,7 +476,6 @@ LabsAction
 (
 )
 /
-*
 *
 *
 [
@@ -552,7 +548,6 @@ enrolled
 when
 defaults
 were
-*
 restored
 .
 *
@@ -578,7 +573,6 @@ LabsAction
 (
 )
 /
-*
 *
 *
 [
@@ -618,11 +612,11 @@ a
 [
 LabsItem
 ]
-*
 that
 requires
 an
 application
+*
 restart
 .
 *
@@ -656,7 +650,6 @@ LabsAction
 /
 *
 *
-*
 [
 LabsAction
 ]
@@ -675,7 +668,6 @@ LabsItem
 s
 to
 their
-*
 default
 disabled
 state
@@ -690,7 +682,6 @@ LabsAction
 (
 )
 /
-*
 *
 *
 [

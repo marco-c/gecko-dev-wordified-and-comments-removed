@@ -79,7 +79,6 @@ Action
 /
 *
 *
-*
 Marker
 interface
 for
@@ -96,7 +95,6 @@ EmailMasksAction
 :
 Action
 /
-*
 *
 *
 User
@@ -121,7 +119,6 @@ EmailMasksAction
 /
 *
 *
-*
 User
 enabled
 the
@@ -138,7 +135,6 @@ EmailMasksUserAction
 /
 *
 *
-*
 User
 disabled
 the
@@ -153,7 +149,6 @@ SuggestEmailMasksDisabled
 :
 EmailMasksUserAction
 /
-*
 *
 *
 User
@@ -173,7 +168,6 @@ EmailMasksUserAction
 /
 *
 *
-*
 User
 clicked
 "
@@ -189,7 +183,6 @@ LearnMoreClicked
 EmailMasksUserAction
 }
 /
-*
 *
 *
 System
@@ -214,7 +207,6 @@ EmailMasksAction
 /
 *
 *
-*
 The
 manage
 page
@@ -230,7 +222,6 @@ ManageTabOpened
 :
 EmailMasksSystemAction
 /
-*
 *
 *
 The

@@ -151,7 +151,6 @@ handleCameraPermissionsNeeded
 /
 *
 *
-*
 Controller
 for
 handling
@@ -211,11 +210,11 @@ app
 settings
 .
 This
-*
 intent
 only
 exists
 in
+*
 M
 and
 above
@@ -231,7 +230,6 @@ routes
 to
 a
 SUMO
-*
 help
 page
 to
@@ -272,7 +270,6 @@ show
 )
 }
 /
-*
 *
 *
 Builds

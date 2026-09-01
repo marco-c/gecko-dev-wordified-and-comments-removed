@@ -196,7 +196,6 @@ a
 history
 entry
 .
-*
 Contrast
 this
 with
@@ -214,8 +213,8 @@ an
 assigned
 position
 for
-pagination
 *
+pagination
 and
 display
 purposes
@@ -420,7 +419,6 @@ key
 /
 *
 *
-*
 An
 Interface
 for
@@ -498,7 +496,6 @@ HistoryDB
 /
 *
 *
-*
 param
 historyStorage
 An
@@ -513,7 +510,6 @@ read
 write
 methods
 for
-*
 history
 data
 .
@@ -532,7 +528,6 @@ PlacesHistoryStorage
 PagedHistoryProvider
 {
 /
-*
 *
 *
 Types
@@ -597,11 +592,11 @@ fetching
 only
 redirecting
 visits
-*
 from
 the
 store
 so
+*
 that
 we
 can
@@ -820,7 +815,6 @@ numberOfItems
 )
 }
 /
-*
 *
 *
 Removes

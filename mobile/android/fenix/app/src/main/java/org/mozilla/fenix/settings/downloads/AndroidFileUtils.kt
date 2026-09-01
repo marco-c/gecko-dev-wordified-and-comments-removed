@@ -81,7 +81,6 @@ File
 /
 *
 *
-*
 An
 interface
 for
@@ -104,7 +103,6 @@ AndroidFileUtils
 /
 *
 *
-*
 Returns
 the
 primary
@@ -121,7 +119,6 @@ externalStorageDirectory
 :
 File
 /
-*
 *
 *
 Returns
@@ -141,7 +138,6 @@ externalStoragePublicDownloadsDirectory
 :
 File
 /
-*
 *
 *
 Checks
@@ -166,7 +162,6 @@ Uri
 :
 Boolean
 /
-*
 *
 *
 Extracts
@@ -304,7 +299,6 @@ Uri
 :
 Boolean
 /
-*
 *
 *
 Resolves

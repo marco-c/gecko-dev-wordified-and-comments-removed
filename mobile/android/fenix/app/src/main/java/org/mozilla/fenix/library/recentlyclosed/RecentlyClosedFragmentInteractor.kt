@@ -83,14 +83,12 @@ TabState
 /
 *
 *
-*
 Interactor
 for
 the
 recently
 closed
 screen
-*
 Provides
 implementations
 for

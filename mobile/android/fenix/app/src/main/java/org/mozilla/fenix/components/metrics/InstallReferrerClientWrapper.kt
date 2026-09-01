@@ -79,7 +79,6 @@ InstallReferrerStateListener
 /
 *
 *
-*
 Wrapper
 interface
 for
@@ -94,7 +93,6 @@ interface
 InstallReferrerClientWrapper
 {
 /
-*
 *
 *
 Starts
@@ -116,7 +114,6 @@ InstallReferrerStateListener
 /
 *
 *
-*
 Get
 the
 install
@@ -136,7 +133,6 @@ getInstallReferrer
 String
 ?
 /
-*
 *
 *
 Close

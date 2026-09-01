@@ -190,10 +190,10 @@ sync
 auth
 check
 must
-*
 recognize
 the
 running
+*
 build
 whichever
 flavor

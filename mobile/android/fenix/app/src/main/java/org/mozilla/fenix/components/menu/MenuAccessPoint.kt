@@ -81,7 +81,6 @@ FenixFxAEntryPoint
 /
 *
 *
-*
 The
 origin
 access
@@ -105,7 +104,6 @@ MenuAccessPoint
 /
 *
 *
-*
 Menu
 was
 accessed
@@ -117,7 +115,6 @@ browser
 /
 Browser
 /
-*
 *
 *
 Menu
@@ -142,7 +139,6 @@ External
 /
 *
 *
-*
 Menu
 was
 accessed
@@ -156,7 +152,6 @@ screen
 Home
 }
 /
-*
 *
 *
 Menu
@@ -173,7 +168,6 @@ MainMenu
 CustomTabMenu
 }
 /
-*
 *
 *
 Returns

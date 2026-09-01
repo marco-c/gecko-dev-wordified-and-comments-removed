@@ -525,7 +525,6 @@ MOZ_UPDATE_CHANNEL
 /
 *
 *
-*
 Component
 group
 for

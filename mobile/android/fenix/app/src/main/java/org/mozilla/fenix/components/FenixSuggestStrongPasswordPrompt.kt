@@ -173,7 +173,6 @@ PasswordPromptView
 on
 initialization
 .
-*
 With
 Bug
 1947519
@@ -181,6 +180,7 @@ we
 need
 to
 have
+*
 the
 ability
 to
@@ -193,7 +193,6 @@ we
 need
 it
 .
-*
 This
 class
 allows
@@ -202,6 +201,7 @@ to
 pass
 a
 concrete
+*
 [
 PasswordPromptView
 ]
@@ -210,7 +210,6 @@ the
 PromptFeature
 and
 lazily
-*
 initialize
 the
 view
@@ -276,7 +275,6 @@ prompt
 is
 dismissed
 .
-*
 *
 see
 [

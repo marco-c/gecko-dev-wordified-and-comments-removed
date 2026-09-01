@@ -105,7 +105,6 @@ R
 /
 *
 *
-*
 Get
 custom
 Glean
@@ -169,7 +168,6 @@ GLEAN_CUSTOM_URL
 }
 }
 /
-*
 *
 *
 Applies

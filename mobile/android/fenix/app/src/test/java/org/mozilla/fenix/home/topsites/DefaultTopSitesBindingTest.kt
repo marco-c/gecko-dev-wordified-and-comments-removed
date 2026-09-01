@@ -99,6 +99,12 @@ mockk
 .
 verify
 import
+java
+.
+io
+.
+ByteArrayInputStream
+import
 kotlinx
 .
 coroutines
@@ -224,12 +230,6 @@ fenix
 utils
 .
 Settings
-import
-java
-.
-io
-.
-ByteArrayInputStream
 class
 DefaultTopSitesBindingTest
 {

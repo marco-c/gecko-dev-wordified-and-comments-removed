@@ -445,7 +445,6 @@ should
 observe
 AppStore
 for
-*
 QR
 scan
 results
@@ -454,6 +453,7 @@ update
 their
 own
 state
+*
 accordingly
 .
 *
@@ -1017,7 +1017,6 @@ QrScannerDismissed
 /
 *
 *
-*
 Static
 binding
 for
@@ -1045,7 +1044,6 @@ with
 Fragment
 ]
 .
-*
 Upon
 destruction
 of
@@ -1054,6 +1052,7 @@ fragment
 '
 s
 view
+*
 the
 binding
 will
@@ -1061,7 +1060,6 @@ be
 unregistered
 and
 all
-*
 references
 cleared
 .

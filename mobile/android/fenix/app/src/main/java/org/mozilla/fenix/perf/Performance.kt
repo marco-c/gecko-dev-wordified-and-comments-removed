@@ -95,6 +95,14 @@ os
 .
 Build
 import
+android
+.
+provider
+.
+Settings
+as
+AndroidSettings
+import
 androidx
 .
 core
@@ -156,16 +164,7 @@ fenix
 onboarding
 .
 FenixOnboarding
-import
-android
-.
-provider
-.
-Settings
-as
-AndroidSettings
 /
-*
 *
 *
 A
@@ -223,12 +222,12 @@ but
 keeps
 the
 TP
-*
 on
 )
 and
 removes
 the
+*
 onboarding
 screen
 .
@@ -293,11 +292,11 @@ in
 case
 another
 application
-*
 tries
 to
 leverage
 this
+*
 intent
 to
 trigger
@@ -313,7 +312,6 @@ t
 be
 used
 unless
-*
 it
 is
 for
@@ -322,6 +320,7 @@ visual
 metrics
 .
 These
+*
 checks
 aren
 '
@@ -337,7 +336,6 @@ won
 '
 t
 have
-*
 ADB
 on
 and
@@ -348,6 +346,7 @@ same
 time
 when
 running
+*
 Firefox
 .
 *
@@ -516,6 +515,7 @@ false
 /
 *
 *
+*
 Returns
 whether
 Fenix
@@ -526,7 +526,6 @@ an
 Android
 emulator
 rather
-*
 than
 a
 physical
@@ -535,6 +534,7 @@ device
 Regular
 charging
 checks
+*
 don
 '
 t
@@ -642,7 +642,6 @@ for
 /
 *
 *
-*
 Bypasses
 the
 onboarding
@@ -670,7 +669,6 @@ finish
 )
 }
 /
-*
 *
 *
 Disables
@@ -707,7 +705,6 @@ isOverrideTPPopupsForPerformanceTest
 true
 }
 /
-*
 *
 *
 Disables

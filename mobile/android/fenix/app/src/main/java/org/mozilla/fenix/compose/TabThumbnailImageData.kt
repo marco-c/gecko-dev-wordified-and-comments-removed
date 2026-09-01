@@ -116,7 +116,6 @@ the
 necessary
 data
 from
-*
 [
 TabSessionState
 ]
@@ -130,6 +129,7 @@ thumbnail
 so
 the
 entire
+*
 [
 TabSessionState
 ]
@@ -215,7 +215,6 @@ of
 TabSessionState
 ]
 containing
-*
 only
 the
 necessary
@@ -226,6 +225,7 @@ a
 tab
 '
 s
+*
 thumbnail
 image
 data

@@ -202,7 +202,6 @@ State
 /
 *
 *
-*
 The
 state
 of
@@ -218,7 +217,6 @@ class
 AppIconSnackbarState
 {
 /
-*
 *
 *
 There
@@ -299,7 +297,6 @@ AppIconSnackbarState
 /
 *
 *
-*
 The
 state
 of
@@ -317,7 +314,6 @@ AppIconWarningDialog
 /
 *
 *
-*
 No
 dialog
 to
@@ -333,7 +329,6 @@ AppIconWarningDialog
 (
 )
 /
-*
 *
 *
 The

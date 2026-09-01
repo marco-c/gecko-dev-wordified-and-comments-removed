@@ -238,7 +238,6 @@ OnThreadViolationListener
 ]
 that
 recreates
-*
 [
 StrictMode
 .
@@ -250,13 +249,13 @@ penaltyDeath
 ]
 but
 will
+*
 ignore
 some
 violations
 .
 For
 example
-*
 sometimes
 OEMs
 will
@@ -271,9 +270,9 @@ can
 ignore
 them
 here
+*
 instead
 of
-*
 cluttering
 up
 our
@@ -303,12 +302,12 @@ implement
 workarounds
 if
 the
-*
 violations
 we
 want
 to
 ignore
+*
 affect
 older
 devices

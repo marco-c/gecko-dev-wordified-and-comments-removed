@@ -132,7 +132,6 @@ that
 causes
 intermittent
 failures
-*
 of
 tests
 with
@@ -141,12 +140,12 @@ lambdas
 .
 This
 rule
+*
 will
 call
 unmockAll
 and
 retry
-*
 running
 the
 failing
@@ -162,7 +161,6 @@ reached
 *
 See
 :
-*
 https
 :
 /
@@ -178,7 +176,6 @@ mockk
 issues
 /
 598
-*
 https
 :
 /

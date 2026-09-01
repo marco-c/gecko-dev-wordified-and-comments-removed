@@ -85,7 +85,6 @@ R
 /
 *
 *
-*
 Returns
 the
 icon

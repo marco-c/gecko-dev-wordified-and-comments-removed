@@ -579,11 +579,11 @@ preferences
 related
 to
 telemetry
-*
 crash
 reporting
 usage
 data
+*
 and
 participation
 in
@@ -606,7 +606,6 @@ the
 [
 DataChoicesState
 ]
-*
 *
 /
 Composable
@@ -1463,7 +1462,6 @@ is
 clicked
 .
 *
-*
 /
 Composable
 private
@@ -1703,7 +1701,6 @@ with
 a
 title
 summary
-*
 and
 an
 optional
@@ -1711,6 +1708,7 @@ optional
 Learn
 More
 "
+*
 link
 .
 *
@@ -2004,7 +2002,6 @@ enrolled
 in
 studies
 .
-*
 Affects
 the
 summary
@@ -2012,6 +2009,7 @@ text
 shown
 in
 the
+*
 section
 .
 *
@@ -2030,10 +2028,10 @@ section
 is
 visually
 disabled
-*
 and
 does
 not
+*
 respond
 to
 clicks
@@ -2438,7 +2436,6 @@ false
 }
 }
 /
-*
 *
 *
 Provides

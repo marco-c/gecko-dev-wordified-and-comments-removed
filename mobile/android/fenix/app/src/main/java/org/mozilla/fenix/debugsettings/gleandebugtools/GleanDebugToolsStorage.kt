@@ -111,7 +111,6 @@ Settings
 /
 *
 *
-*
 A
 storage
 used
@@ -127,7 +126,6 @@ interface
 GleanDebugToolsStorage
 {
 /
-*
 *
 *
 Toggle
@@ -191,7 +189,6 @@ debugViewTag
 String
 )
 /
-*
 *
 *
 Clear
@@ -325,7 +322,6 @@ gleanDebugViewTag
 /
 *
 *
-*
 see
 [
 DefaultGleanDebugToolsStorage
@@ -337,7 +333,6 @@ companion
 object
 {
 /
-*
 *
 *
 Intent
@@ -365,7 +360,6 @@ PERSIST_DEBUG_VIEW_TAG_EXTRA
 persistDebugViewTag
 "
 /
-*
 *
 *
 Get
@@ -421,10 +415,10 @@ a
 restart
 but
 only
-*
 when
 the
 caller
+*
 opts
 in
 with
@@ -466,11 +460,11 @@ without
 a
 tag
 )
-*
 leaves
 any
 persisted
 tag
+*
 as
 -
 is
@@ -620,11 +614,11 @@ a
 restart
 since
 Glean
-*
 only
 keeps
 its
 debug
+*
 view
 tag
 in

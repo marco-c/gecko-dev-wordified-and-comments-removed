@@ -140,10 +140,10 @@ to
 download
 management
 .
-*
 It
 intercepts
 specific
+*
 [
 DownloadUIAction
 ]
@@ -152,7 +152,6 @@ and
 translates
 them
 into
-*
 broadcasts
 that
 are
@@ -175,11 +174,11 @@ broadcasts
 allowing
 for
 easier
-*
 testing
 and
 potentially
 different
+*
 broadcast
 mechanisms
 .

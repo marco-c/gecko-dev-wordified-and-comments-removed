@@ -95,7 +95,6 @@ Item
 /
 *
 *
-*
 Opens
 the
 current
@@ -121,7 +120,6 @@ Item
 (
 )
 /
-*
 *
 *
 Opens
@@ -236,7 +234,6 @@ Item
 /
 *
 *
-*
 Prints
 the
 currently
@@ -327,7 +324,6 @@ Item
 /
 *
 *
-*
 Opens
 the
 Web
@@ -344,7 +340,6 @@ Item
 (
 )
 /
-*
 *
 *
 The

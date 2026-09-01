@@ -195,7 +195,6 @@ showToolbar
 /
 *
 *
-*
 Displays
 a
 list
@@ -207,7 +206,6 @@ exempted
 from
 Tracking
 Protection
-*
 along
 with
 controls

@@ -568,10 +568,10 @@ t
 work
 via
 xml
-*
 as
 a
 result
+*
 we
 have
 to
@@ -678,12 +678,12 @@ user
 (
 but
 before
-*
 the
 internal
 state
 has
 been
+*
 updated
 )
 .
@@ -697,7 +697,6 @@ to
 be
 specified
 .
-*
 If
 the
 new
@@ -710,6 +709,7 @@ the
 preference
 type
 the
+*
 listener
 isn
 '
@@ -799,6 +799,7 @@ does
 not
 exist
 .
+*
 *
 param
 preferenceId

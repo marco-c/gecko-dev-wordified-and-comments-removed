@@ -73,7 +73,6 @@ SystemClock
 /
 *
 *
-*
 A
 class
 to
@@ -83,7 +82,6 @@ application
 initialization
 time
 .
-*
 Time
 is
 stores

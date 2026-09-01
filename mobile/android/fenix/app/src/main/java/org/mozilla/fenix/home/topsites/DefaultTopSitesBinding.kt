@@ -283,7 +283,6 @@ are
 included
 in
 the
-*
 application
 .
 *
@@ -390,7 +389,6 @@ I
 /
 O
 operations
-*
 specifically
 reading
 and
@@ -398,6 +396,7 @@ parsing
 the
 initial
 shortcuts
+*
 JSON
 .
 *

@@ -105,6 +105,12 @@ mockk
 .
 verify
 import
+kotlin
+.
+test
+.
+assertIs
+import
 mozilla
 .
 components
@@ -336,12 +342,6 @@ org
 robolectric
 .
 RobolectricTestRunner
-import
-kotlin
-.
-test
-.
-assertIs
 RunWith
 (
 RobolectricTestRunner

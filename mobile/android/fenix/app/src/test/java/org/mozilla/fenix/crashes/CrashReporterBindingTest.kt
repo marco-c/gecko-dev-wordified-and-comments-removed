@@ -65,6 +65,12 @@ fenix
 .
 crashes
 import
+kotlin
+.
+test
+.
+assertNotNull
+import
 kotlinx
 .
 coroutines
@@ -136,12 +142,6 @@ components
 appstate
 .
 AppAction
-import
-kotlin
-.
-test
-.
-assertNotNull
 class
 CrashReporterBindingTest
 {

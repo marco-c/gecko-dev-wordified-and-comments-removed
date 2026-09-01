@@ -402,7 +402,6 @@ aspect
 ratio
 scaling
 to
-*
 be
 used
 on

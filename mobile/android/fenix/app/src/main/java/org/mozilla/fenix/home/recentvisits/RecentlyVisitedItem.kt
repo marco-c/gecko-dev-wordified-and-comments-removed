@@ -93,7 +93,6 @@ RecentHistoryGroup
 /
 *
 *
-*
 History
 items
 as

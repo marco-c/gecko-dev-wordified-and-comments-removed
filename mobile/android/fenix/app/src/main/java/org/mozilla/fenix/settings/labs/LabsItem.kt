@@ -93,13 +93,13 @@ item
 .
 Used
 as
-*
 the
 stable
 identifier
 for
 telemetry
 and
+*
 enrollment
 .
 *
@@ -148,7 +148,6 @@ item
 requires
 an
 application
-*
 restart
 for
 the
@@ -186,10 +185,10 @@ becomes
 unavailable
 when
 another
-*
 enabled
 Labs
 item
+*
 already
 controls
 the
@@ -203,7 +202,6 @@ being
 offered
 after
 the
-*
 initial
 fetch
 .

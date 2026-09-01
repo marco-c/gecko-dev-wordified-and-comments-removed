@@ -95,7 +95,6 @@ AbstractFirebasePushService
 /
 *
 *
-*
 A
 singleton
 instance
@@ -109,7 +108,6 @@ between
 FCM
 and
 the
-*
 [
 AutoPushFeature
 ]

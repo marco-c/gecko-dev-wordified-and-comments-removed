@@ -445,7 +445,6 @@ menu
 Allows
 sharing
 of
-*
 one
 or
 more
@@ -514,11 +513,11 @@ saved
 -
 folder
 cache
-*
 atomically
 with
 respect
 to
+*
 caller
 cancellation
 .
@@ -538,11 +537,11 @@ reported
 even
 if
 the
-*
 feature
 goes
 out
 of
+*
 scope
 .
 *
@@ -563,10 +562,10 @@ by
 the
 bookmarks
 import
-*
 dialog
 .
 The
+*
 middleware
 subscribes
 on
@@ -584,9 +583,9 @@ ImportAction
 .
 ImportFailed
 ]
-*
 when
 a
+*
 [
 FenixImporterEvent
 .
@@ -2901,7 +2900,6 @@ it
 /
 *
 *
-*
 Load
 a
 guid
@@ -3052,6 +3050,8 @@ that
 could
 also
 be
+/
+/
 selected
 shouldOpen
 -

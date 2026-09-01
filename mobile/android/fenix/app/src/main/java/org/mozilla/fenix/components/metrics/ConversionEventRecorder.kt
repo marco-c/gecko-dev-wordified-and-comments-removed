@@ -121,11 +121,11 @@ can
 record
 an
 event
-*
 and
 submit
 the
 ping
+*
 independently
 .
 *
@@ -134,7 +134,6 @@ interface
 ConversionEventRecorder
 {
 /
-*
 *
 *
 Records
@@ -166,13 +165,13 @@ Glean
 -
 generated
 metrics
-*
 and
 submits
 the
 adjust
 -
 attribution
+*
 ping
 .
 *

@@ -65,7 +65,6 @@ fenix
 /
 *
 *
-*
 A
 single
 source
@@ -95,7 +94,6 @@ custom
 extension
 collection
 feature
-*
 This
 feature
 does
@@ -110,10 +108,10 @@ It
 requires
 the
 AMO
+*
 collection
 override
 to
-*
 be
 enabled
 which
@@ -123,7 +121,6 @@ the
 Secret
 Settings
 .
-*
 *
 /
 val
@@ -142,7 +139,6 @@ channel
 .
 isBeta
 /
-*
 *
 *
 Pull
@@ -165,7 +161,6 @@ have
 the
 page
 to
-*
 reload
 .
 *
@@ -176,7 +171,6 @@ PULL_TO_REFRESH_ENABLED
 =
 true
 /
-*
 *
 *
 Allows
@@ -214,10 +208,10 @@ true
 if
 you
 need
-*
 to
 access
 the
+*
 Onboarding
 feature
 for
@@ -246,7 +240,6 @@ channel
 .
 isDebug
 /
-*
 *
 *
 Enables

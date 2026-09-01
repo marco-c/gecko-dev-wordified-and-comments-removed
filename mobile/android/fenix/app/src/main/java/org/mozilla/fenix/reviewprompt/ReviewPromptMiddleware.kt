@@ -375,7 +375,6 @@ sub
 -
 criteria
 .
-*
 Only
 one
 of
@@ -386,6 +385,7 @@ be
 true
 (
 in
+*
 addition
 to
 the
@@ -871,7 +871,6 @@ error
 /
 *
 *
-*
 Send
 telemetry
 for
@@ -939,7 +938,6 @@ the
 last
 4
 months
-*
 to
 avoid
 hitting
@@ -957,7 +955,6 @@ quota
 Implementation
 note
 :
-*
 A
 month
 is
@@ -981,9 +978,9 @@ doesn
 t
 change
 the
+*
 semantics
 .
-*
 Because
 of
 how
@@ -1003,8 +1000,8 @@ month
 off
 so
 using
-weeks
 *
+weeks
 gives
 us
 better

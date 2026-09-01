@@ -241,11 +241,11 @@ AppStore
 and
 toggling
 the
-*
 reader
 view
 feature
 and
+*
 controls
 .
 *
@@ -279,10 +279,10 @@ for
 toggling
 the
 reader
-*
 view
 feature
 and
+*
 controls
 .
 *
@@ -302,9 +302,9 @@ updates
 will
 occur
 .
-*
 Defaults
 to
+*
 [
 Dispatchers
 .

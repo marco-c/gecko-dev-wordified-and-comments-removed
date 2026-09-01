@@ -165,7 +165,6 @@ Fenix
 /
 Glossary
 )
-*
 for
 specific
 definitions
@@ -214,9 +213,9 @@ Fenix
 /
 Glossary
 )
-*
 for
 specific
+*
 definitions
 .
 *
@@ -226,7 +225,6 @@ class
 StartupPath
 {
 /
-*
 *
 *
 The
@@ -240,7 +238,6 @@ app
 /
 MAIN
 /
-*
 *
 *
 The
@@ -259,7 +256,6 @@ app
 /
 VIEW
 /
-*
 *
 *
 The
@@ -340,7 +336,6 @@ NOT_SET
 /
 *
 *
-*
 The
 determined
 StartupPath
@@ -355,7 +350,6 @@ startupPathForActivity
 :
 StartupPath
 /
-*
 *
 *
 Function
@@ -384,7 +378,6 @@ Intent
 ?
 )
 /
-*
 *
 *
 Function
@@ -456,7 +449,6 @@ Fenix
 /
 Glossary
 )
-*
 for
 specific
 definitions
@@ -483,10 +475,10 @@ the
 lifecycle
 of
 an
-*
 Activity
 .
 Call
+*
 [
 attachOnActivityOnCreate
 ]
@@ -529,13 +521,13 @@ value
 will
 be
 set
-*
 after
 an
 [
 Intent
 ]
 is
+*
 received
 that
 causes
@@ -821,13 +813,13 @@ i
 .
 e
 .
-*
 [
 Activity
 .
 onCreate
 ]
 and
+*
 [
 Activity
 .

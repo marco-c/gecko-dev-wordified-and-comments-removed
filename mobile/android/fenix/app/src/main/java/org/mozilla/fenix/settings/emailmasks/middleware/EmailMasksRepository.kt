@@ -81,7 +81,6 @@ Settings
 /
 *
 *
-*
 The
 repository
 for
@@ -129,7 +128,6 @@ isSuggestionEnabled
 :
 Boolean
 /
-*
 *
 *
 Updates
@@ -195,7 +193,6 @@ Boolean
 /
 *
 *
-*
 Dismisses
 the
 Email
@@ -224,7 +221,6 @@ dismissCfr
 )
 }
 /
-*
 *
 *
 The

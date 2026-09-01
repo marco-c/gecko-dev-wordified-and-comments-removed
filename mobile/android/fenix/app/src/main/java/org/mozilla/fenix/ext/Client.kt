@@ -77,6 +77,12 @@ graphics
 .
 BitmapFactory
 import
+java
+.
+io
+.
+IOException
+import
 kotlinx
 .
 coroutines
@@ -108,12 +114,6 @@ concept
 fetch
 .
 Request
-import
-java
-.
-io
-.
-IOException
 /
 *
 *

@@ -391,7 +391,6 @@ DefaultBiometricUtils
 /
 *
 *
-*
 An
 interface
 to
@@ -416,7 +415,6 @@ interface
 PrivateBrowsingLockStorage
 {
 /
-*
 *
 *
 Returns
@@ -511,13 +509,13 @@ preference
 listeners
 very
 aggressively
-*
 so
 this
 method
 should
 be
 invoked
+*
 each
 time
 the
@@ -708,12 +706,12 @@ browsing
 mode
 behind
 authentication
-*
 when
 certain
 conditions
 are
 met
+*
 (
 e
 .
@@ -1340,6 +1338,8 @@ unless
 it
 s
 private
+/
+/
 mode
 .
 launch
@@ -1666,7 +1666,6 @@ AppStore
 /
 *
 *
-*
 Use
 case
 to
@@ -1728,10 +1727,10 @@ e
 g
 .
 fingerprint
-*
 face
 unlock
 or
+*
 PIN
 entry
 )
@@ -1747,11 +1746,11 @@ updates
 the
 app
 state
-*
 to
 reflect
 that
 private
+*
 browsing
 tabs
 are
@@ -1979,11 +1978,11 @@ access
 to
 private
 mode
-*
 using
 the
 pin
 pattern
+*
 or
 password
 verification
@@ -1995,7 +1994,6 @@ used
 in
 combination
 with
-*
 [
 verifyUser
 ]
@@ -2005,6 +2003,7 @@ the
 user
 when
 private
+*
 browsing
 mode
 is
@@ -2136,10 +2135,10 @@ pin
 pattern
 or
 password
-*
 verification
 .
 Upon
+*
 success
 records
 the

@@ -101,6 +101,12 @@ mockk
 .
 verify
 import
+kotlin
+.
+test
+.
+assertNotNull
+import
 org
 .
 junit
@@ -194,12 +200,6 @@ fenix
 wallpapers
 .
 Wallpaper
-import
-kotlin
-.
-test
-.
-assertNotNull
 class
 HomeFragmentTest
 {

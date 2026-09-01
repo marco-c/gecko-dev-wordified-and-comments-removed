@@ -112,7 +112,6 @@ OTHER
 /
 *
 *
-*
 The
 destination
 activity
@@ -161,7 +160,6 @@ java
 name
 }
 /
-*
 *
 *
 Should
@@ -215,7 +213,6 @@ false
 }
 }
 /
-*
 *
 *
 Classifies

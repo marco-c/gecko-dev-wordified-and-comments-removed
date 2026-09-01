@@ -169,7 +169,6 @@ HistoryMetadataGroupInteractor
 /
 *
 *
-*
 Shows
 a
 list
@@ -302,7 +301,6 @@ false
 /
 *
 *
-*
 Updates
 the
 display
@@ -315,7 +313,6 @@ based
 on
 the
 given
-*
 [
 HistoryMetadataGroupFragmentState
 ]

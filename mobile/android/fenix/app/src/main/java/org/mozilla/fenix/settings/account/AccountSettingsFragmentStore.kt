@@ -99,7 +99,6 @@ Store
 /
 *
 *
-*
 The
 [
 Store
@@ -178,7 +177,6 @@ LastSyncTime
 /
 *
 *
-*
 The
 state
 for
@@ -211,7 +209,6 @@ String
 :
 State
 /
-*
 *
 *
 Actions
@@ -276,7 +273,6 @@ AccountSettingsFragmentAction
 )
 }
 /
-*
 *
 *
 The

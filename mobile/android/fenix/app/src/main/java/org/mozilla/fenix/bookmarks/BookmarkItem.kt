@@ -129,7 +129,6 @@ Bookmark
 /
 *
 *
-*
 Items
 that
 can
@@ -238,7 +237,6 @@ to
 its
 parent
 .
-*
 Note
 :
 this
@@ -246,6 +244,7 @@ should
 be
 preserved
 across
+*
 Sync
 as
 users
@@ -258,7 +257,6 @@ bookmarks
 on
 desktop
 .
-*
 When
 null
 it
@@ -368,7 +366,6 @@ to
 its
 parent
 .
-*
 Note
 :
 this
@@ -376,6 +373,7 @@ should
 be
 preserved
 across
+*
 Sync
 as
 users
@@ -388,7 +386,6 @@ bookmarks
 on
 desktop
 .
-*
 When
 null
 it

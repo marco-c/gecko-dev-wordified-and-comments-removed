@@ -169,7 +169,6 @@ Settings
 /
 *
 *
-*
 Cache
 for
 accessing
@@ -186,7 +185,6 @@ interface
 CfrPreferencesRepository
 {
 /
-*
 *
 *
 An
@@ -245,7 +243,6 @@ pref_key_should_show_open_in_app_banner
 /
 *
 *
-*
 An
 update
 to
@@ -272,7 +269,6 @@ Boolean
 /
 *
 *
-*
 A
 [
 Flow
@@ -295,7 +291,6 @@ CfrPreferenceUpdate
 /
 *
 *
-*
 Initializes
 the
 repository
@@ -314,7 +309,6 @@ init
 (
 )
 /
-*
 *
 *
 Update
@@ -340,7 +334,6 @@ preferenceUpdate
 CfrPreferenceUpdate
 )
 /
-*
 *
 *
 Reset

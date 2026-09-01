@@ -306,7 +306,6 @@ State
 /
 *
 *
-*
 Represents
 the
 protection
@@ -548,7 +547,6 @@ Provider
 /
 *
 *
-*
 Represents
 the
 validation
@@ -569,7 +567,6 @@ CustomProviderErrorState
 /
 *
 *
-*
 The
 URL
 is
@@ -581,7 +578,6 @@ HTTPS
 /
 NonHttps
 /
-*
 *
 *
 The
@@ -599,7 +595,6 @@ correctly
 /
 Invalid
 /
-*
 *
 *
 The

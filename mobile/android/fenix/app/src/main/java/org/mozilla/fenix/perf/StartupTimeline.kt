@@ -141,9 +141,9 @@ startup
 performance
 .
 The
-*
 responsibilities
 of
+*
 this
 class
 are
@@ -158,7 +158,6 @@ based
 on
 the
 methods
-*
 called
 and
 to
@@ -166,6 +165,7 @@ delegate
 calls
 to
 its
+*
 dependencies
 which
 handle
@@ -173,7 +173,6 @@ other
 functionality
 related
 to
-*
 understanding
 startup
 .
@@ -229,10 +228,10 @@ minimize
 overhead
 the
 class
-*
 dependencies
 are
 lazily
+*
 initialized
 .
 *
@@ -360,11 +359,11 @@ home
 activity
 has
 finished
-*
 creating
 .
 This
 advances
+*
 the
 startup
 state
@@ -413,7 +412,6 @@ activity
 )
 }
 /
-*
 *
 *
 Instruments

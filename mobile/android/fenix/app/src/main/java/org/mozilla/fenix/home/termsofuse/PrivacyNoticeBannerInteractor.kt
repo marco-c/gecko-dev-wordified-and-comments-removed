@@ -69,7 +69,6 @@ termsofuse
 /
 *
 *
-*
 Interface
 for
 interactions
@@ -85,7 +84,6 @@ interface
 PrivacyNoticeBannerInteractor
 {
 /
-*
 *
 *
 Called
@@ -104,7 +102,6 @@ onPrivacyNoticeBannerCloseClicked
 (
 )
 /
-*
 *
 *
 Called
@@ -126,7 +123,6 @@ onPrivacyNoticeBannerPrivacyNoticeClicked
 /
 *
 *
-*
 Called
 when
 the
@@ -146,7 +142,6 @@ onPrivacyNoticeBannerLearnMoreClicked
 /
 *
 *
-*
 Called
 when
 the
@@ -162,7 +157,6 @@ onPrivacyNoticeBannerDisplayed
 )
 }
 /
-*
 *
 *
 NoOp

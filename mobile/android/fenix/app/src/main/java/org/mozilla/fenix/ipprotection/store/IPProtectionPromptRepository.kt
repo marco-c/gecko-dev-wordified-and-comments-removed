@@ -93,7 +93,6 @@ ONE_WEEK_MS
 /
 *
 *
-*
 Repository
 for
 preferences
@@ -134,7 +133,6 @@ time
 in
 milliseconds
 .
-*
 *
 return
 true
@@ -213,11 +211,11 @@ bottom
 sheet
 prompt
 .
-*
 This
 is
 used
 when
+*
 determining
 if
 we
@@ -233,7 +231,6 @@ t
 want
 to
 recreate
-*
 it
 if
 it
@@ -286,10 +283,10 @@ user
 does
 not
 see
-*
 the
 bottom
 sheet
+*
 again
 .
 This
@@ -301,7 +298,6 @@ the
 user
 once
 and
-*
 if
 they
 dismiss
@@ -322,6 +318,7 @@ now
 or
 "
 Get
+*
 started
 "
 )
@@ -386,8 +383,8 @@ they
 should
 not
 see
-*
 the
+*
 onboarding
 card
 again
@@ -399,7 +396,6 @@ hasAlreadyUsedIPProtection
 :
 Boolean
 /
-*
 *
 *
 Indicates

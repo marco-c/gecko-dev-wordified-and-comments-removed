@@ -170,11 +170,11 @@ AppStore
 ]
 and
 displaying
-*
 the
 find
 in
 page
+*
 feature
 .
 *
@@ -225,9 +225,9 @@ updates
 will
 occur
 .
-*
 Defaults
 to
+*
 [
 Dispatchers
 .

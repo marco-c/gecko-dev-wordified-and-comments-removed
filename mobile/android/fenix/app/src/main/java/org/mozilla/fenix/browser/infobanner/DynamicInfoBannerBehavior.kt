@@ -127,11 +127,11 @@ placing
 [
 InfoBanner
 ]
-*
 below
 the
 BrowserToolbar
 with
+*
 which
 is
 has
@@ -159,11 +159,11 @@ BrowserToolbar
 ]
 in
 sync
-*
 so
 that
 the
 banner
+*
 will
 be
 shown

@@ -75,6 +75,12 @@ format
 .
 DateUtils
 import
+java
+.
+util
+.
+Calendar
+import
 org
 .
 junit
@@ -88,12 +94,6 @@ org
 junit
 .
 Test
-import
-java
-.
-util
-.
-Calendar
 class
 HistoryItemTimeGroupTest
 {

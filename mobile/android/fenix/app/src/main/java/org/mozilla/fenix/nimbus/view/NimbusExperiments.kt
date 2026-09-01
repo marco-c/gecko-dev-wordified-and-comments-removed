@@ -378,7 +378,6 @@ text
 /
 *
 *
-*
 Item
 types
 for

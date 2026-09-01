@@ -110,10 +110,10 @@ reduces
 DebugDrawerAction
 ]
 s
-*
 dispatched
 to
 the
+*
 store
 .
 *

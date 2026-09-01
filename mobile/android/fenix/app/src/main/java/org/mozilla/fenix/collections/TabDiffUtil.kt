@@ -75,7 +75,6 @@ DiffUtil
 /
 *
 *
-*
 Diff
 callback
 for
@@ -145,7 +144,6 @@ Callback
 /
 *
 *
-*
 Checks
 if
 the
@@ -196,7 +194,6 @@ newItemPosition
 .
 sessionId
 /
-*
 *
 *
 Checks
@@ -277,7 +274,6 @@ sameSelectedState
 isSameHideCheckboxes
 }
 /
-*
 *
 *
 Returns

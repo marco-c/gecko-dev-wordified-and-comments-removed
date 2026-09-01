@@ -67,6 +67,12 @@ components
 .
 metrics
 import
+java
+.
+util
+.
+UUID
+import
 junit
 .
 framework
@@ -158,12 +164,6 @@ metrics
 fake
 .
 FakeLifecycleOwner
-import
-java
-.
-util
-.
-UUID
 internal
 class
 GleanUserProfileIdTest

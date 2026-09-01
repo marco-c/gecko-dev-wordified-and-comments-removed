@@ -1616,7 +1616,6 @@ the
 [
 icon
 ]
-*
 is
 null
 .

@@ -273,8 +273,8 @@ fragment
 active
 together
 )
-*
 we
+*
 could
 have
 granular
@@ -315,8 +315,8 @@ dismisses
 the
 menu
 -
-*
 if
+*
 the
 menu
 consumed

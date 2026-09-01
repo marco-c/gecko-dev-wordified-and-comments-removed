@@ -183,7 +183,6 @@ PocketRecommendedStoriesSelectedCategory
 /
 *
 *
-*
 A
 [
 ContentRecommendationsAction
@@ -196,7 +195,6 @@ content
 recommendations
 state
 in
-*
 [
 AppState
 ]
@@ -208,7 +206,6 @@ object
 ContentRecommendationsReducer
 {
 /
-*
 *
 *
 Reduces

@@ -405,7 +405,6 @@ TranslationsEnabledSettings
 /
 *
 *
-*
 Delegate
 for
 building

@@ -244,10 +244,10 @@ showing
 a
 default
 placeholder
-*
 while
 that
 image
+*
 is
 downloaded
 or
@@ -305,11 +305,11 @@ in
 private
 browsing
 mode
-*
 private
 requests
 will
 not
+*
 cache
 anything
 on
@@ -358,8 +358,8 @@ this
 image
 represents
 .
-*
 This
+*
 should
 always
 be
@@ -376,9 +376,9 @@ and
 does
 not
 represent
-*
 a
 meaningful
+*
 action
 that
 a
@@ -402,12 +402,12 @@ Painter
 in
 the
 given
-*
 bounds
 defined
 by
 the
 width
+*
 and
 height
 .
@@ -427,11 +427,11 @@ scaling
 to
 be
 used
-*
 if
 the
 bounds
 are
+*
 a
 different
 size
@@ -457,7 +457,6 @@ is
 still
 loading
 .
-*
 By
 default
 set
@@ -466,6 +465,7 @@ a
 solid
 color
 in
+*
 [
 DefaultImagePlaceholder
 ]
@@ -481,7 +481,6 @@ image
 fails
 loading
 .
-*
 By
 default
 set
@@ -490,6 +489,7 @@ a
 solid
 color
 in
+*
 [
 DefaultImagePlaceholder
 ]

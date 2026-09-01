@@ -95,7 +95,6 @@ are
 to
 be
 shown
-*
 if
 user
 hasn
@@ -131,12 +130,12 @@ for
 recommended
 stories
 .
-*
 Avoids
 multiple
 stories
 mappings
 for
+*
 each
 time
 we

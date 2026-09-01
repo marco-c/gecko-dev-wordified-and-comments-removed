@@ -167,8 +167,8 @@ homepage
 tab
 with
 the
-*
 provided
+*
 [
 homepageTitle
 ]

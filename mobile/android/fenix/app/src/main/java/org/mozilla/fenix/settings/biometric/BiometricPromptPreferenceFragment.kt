@@ -175,7 +175,6 @@ requirePreference
 /
 *
 *
-*
 Helper
 for
 creating
@@ -188,7 +187,6 @@ BiometricPromptFeature
 .
 Currently
 used
-*
 for
 logins
 and
@@ -252,7 +250,6 @@ navigateOnSuccess
 /
 *
 *
-*
 Gets
 the
 string
@@ -267,7 +264,6 @@ requestAuthentication
 ]
 prompting
 to
-*
 unlock
 the
 device
@@ -282,7 +278,6 @@ unlockMessage
 :
 String
 /
-*
 *
 *
 Navigate
@@ -322,10 +317,10 @@ secured
 .
 This
 is
-*
 only
 used
 when
+*
 BiometricPrompt
 is
 unavailable
@@ -444,11 +439,11 @@ on
 the
 result
 .
-*
 This
 is
 only
 used
+*
 when
 BiometricPrompt
 is

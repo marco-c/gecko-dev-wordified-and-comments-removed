@@ -87,6 +87,12 @@ graphics
 .
 toArgb
 import
+kotlin
+.
+test
+.
+assertNotNull
+import
 kotlinx
 .
 coroutines
@@ -316,12 +322,6 @@ menu
 store
 .
 copyWithExtensionMenuState
-import
-kotlin
-.
-test
-.
-assertNotNull
 class
 MenuStoreTest
 {

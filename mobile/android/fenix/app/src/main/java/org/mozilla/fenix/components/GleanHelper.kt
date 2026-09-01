@@ -235,7 +235,6 @@ for
 glean
 initialization
 .
-*
 [
 logger
 ]
@@ -244,11 +243,11 @@ logger
 to
 send
 logs
+*
 about
 initializing
 Glean
 .
-*
 [
 isTelemetryUploadEnabled
 ]
@@ -262,10 +261,10 @@ to
 be
 uploaded
 .
-*
 [
 client
 ]
+*
 an
 instance
 of

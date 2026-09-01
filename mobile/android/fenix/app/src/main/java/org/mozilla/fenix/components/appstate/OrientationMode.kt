@@ -83,7 +83,6 @@ InvalidParameterException
 /
 *
 *
-*
 Enum
 that
 represents
@@ -108,7 +107,6 @@ companion
 object
 {
 /
-*
 *
 *
 Convert

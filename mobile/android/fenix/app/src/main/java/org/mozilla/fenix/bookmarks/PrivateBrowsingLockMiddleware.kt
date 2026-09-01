@@ -133,10 +133,10 @@ it
 the
 middleware
 intercepts
-*
 private
 mode
 related
+*
 actions
 and
 requires

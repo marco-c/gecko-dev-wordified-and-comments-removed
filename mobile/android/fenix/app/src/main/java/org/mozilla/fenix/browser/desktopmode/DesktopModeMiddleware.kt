@@ -220,7 +220,6 @@ desktop
 mode
 preference
 .
-*
 feature
 is
 enabled

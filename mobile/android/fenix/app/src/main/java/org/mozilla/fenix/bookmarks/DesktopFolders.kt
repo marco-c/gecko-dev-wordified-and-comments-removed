@@ -71,6 +71,12 @@ content
 .
 Context
 import
+kotlin
+.
+collections
+.
+get
+import
 mozilla
 .
 appservices
@@ -106,12 +112,6 @@ fenix
 ext
 .
 components
-import
-kotlin
-.
-collections
-.
-get
 class
 DesktopFolders
 (
@@ -139,7 +139,6 @@ core
 .
 bookmarksStorage
 /
-*
 *
 *
 Map
@@ -371,7 +370,6 @@ node
 /
 *
 *
-*
 Return
 the
 total
@@ -575,8 +573,8 @@ to
 friendly
 titles
 .
-*
 This
+*
 provides
 a
 recognizable

@@ -106,13 +106,13 @@ credit
 card
 editor
 screen
-*
 such
 as
 saving
 a
 credit
 card
+*
 or
 handling
 back
@@ -127,7 +127,6 @@ CreditCardEditorAction
 Action
 {
 /
-*
 *
 *
 A
@@ -185,13 +184,13 @@ the
 editor
 .
 When
-*
 this
 property
 is
 null
 a
 new
+*
 credit
 card
 will
@@ -256,7 +255,6 @@ Initialization
 /
 *
 *
-*
 An
 action
 that
@@ -279,7 +277,6 @@ NavigateBack
 :
 CreditCardEditorAction
 /
-*
 *
 *
 An
@@ -309,7 +306,6 @@ CreditCardEditorAction
 /
 *
 *
-*
 An
 action
 triggered
@@ -336,7 +332,6 @@ CreditCardEditorAction
 /
 *
 *
-*
 An
 action
 triggered
@@ -361,7 +356,6 @@ CreditCardEditorAction
 /
 *
 *
-*
 A
 group
 of
@@ -382,7 +376,6 @@ DeleteDialogAction
 CreditCardEditorAction
 {
 /
-*
 *
 *
 An
@@ -410,7 +403,6 @@ DeleteDialogAction
 /
 *
 *
-*
 An
 action
 that
@@ -435,7 +427,6 @@ Confirm
 DeleteDialogAction
 }
 /
-*
 *
 *
 A
@@ -481,6 +472,7 @@ the
 user
 .
 *
+*
 property
 cardNumber
 The
@@ -518,6 +510,7 @@ card
 is
 changed
 .
+*
 *
 property
 nameOnCard
@@ -558,6 +551,7 @@ is
 selected
 .
 *
+*
 property
 index
 The
@@ -596,6 +590,7 @@ card
 is
 selected
 .
+*
 *
 property
 index

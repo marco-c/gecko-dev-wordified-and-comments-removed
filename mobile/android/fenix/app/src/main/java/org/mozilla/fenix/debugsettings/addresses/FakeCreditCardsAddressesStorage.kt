@@ -67,6 +67,12 @@ debugsettings
 .
 addresses
 import
+java
+.
+util
+.
+UUID
+import
 mozilla
 .
 components
@@ -146,14 +152,7 @@ concept
 storage
 .
 UpdatableCreditCardFields
-import
-java
-.
-util
-.
-UUID
 /
-*
 *
 *
 Some

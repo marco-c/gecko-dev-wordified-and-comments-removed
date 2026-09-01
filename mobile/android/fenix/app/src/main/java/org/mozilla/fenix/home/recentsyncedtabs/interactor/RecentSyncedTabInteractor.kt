@@ -83,7 +83,6 @@ RecentSyncedTab
 /
 *
 *
-*
 Interface
 for
 recent
@@ -147,7 +146,6 @@ RecentSyncedTab
 /
 *
 *
-*
 Opens
 the
 tabs
@@ -169,7 +167,6 @@ the
 See
 all
 synced
-*
 tabs
 "
 button
@@ -199,7 +196,6 @@ and
 removes
 the
 tab
-*
 from
 the
 recent

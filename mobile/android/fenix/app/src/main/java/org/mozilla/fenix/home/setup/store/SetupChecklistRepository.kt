@@ -155,7 +155,6 @@ Settings
 /
 *
 *
-*
 The
 repository
 for
@@ -170,7 +169,6 @@ interface
 SetupChecklistRepository
 {
 /
-*
 *
 *
 An
@@ -243,7 +241,6 @@ Boolean
 /
 *
 *
-*
 A
 [
 Flow
@@ -264,7 +261,6 @@ Flow
 SetupChecklistPreferenceUpdate
 >
 /
-*
 *
 *
 Initializes

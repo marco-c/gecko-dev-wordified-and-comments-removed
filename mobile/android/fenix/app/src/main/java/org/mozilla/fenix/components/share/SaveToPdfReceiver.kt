@@ -111,7 +111,6 @@ components
 /
 *
 *
-*
 A
 BroadcastReceiver
 to

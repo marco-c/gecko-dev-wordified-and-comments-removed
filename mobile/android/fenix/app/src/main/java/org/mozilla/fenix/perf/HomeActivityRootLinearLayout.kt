@@ -153,11 +153,11 @@ to
 be
 used
 on
-*
 the
 root
 view
 of
+*
 [
 HomeActivity
 ]

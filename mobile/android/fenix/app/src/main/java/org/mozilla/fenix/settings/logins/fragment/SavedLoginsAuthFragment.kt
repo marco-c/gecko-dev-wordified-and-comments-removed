@@ -271,7 +271,6 @@ requirePreference
 /
 *
 *
-*
 Settings
 screen
 allowing

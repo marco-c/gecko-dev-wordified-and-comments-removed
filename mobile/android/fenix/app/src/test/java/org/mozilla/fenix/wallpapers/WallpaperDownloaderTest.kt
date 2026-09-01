@@ -77,6 +77,12 @@ mockk
 .
 mockk
 import
+java
+.
+io
+.
+File
+import
 kotlinx
 .
 coroutines
@@ -180,12 +186,6 @@ mozilla
 fenix
 .
 BuildConfig
-import
-java
-.
-io
-.
-File
 class
 WallpaperDownloaderTest
 {

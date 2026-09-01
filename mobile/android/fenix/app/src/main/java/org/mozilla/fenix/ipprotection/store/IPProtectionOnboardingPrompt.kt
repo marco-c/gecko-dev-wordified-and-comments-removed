@@ -194,12 +194,12 @@ the
 user
 first
 becomes
-*
 eligible
 and
 meets
 our
 required
+*
 heuristic
 provided
 by
@@ -224,11 +224,11 @@ still
 allowed
 to
 appear
-*
 (
 feature
 flag
 install
+*
 age
 prior
 dismissals

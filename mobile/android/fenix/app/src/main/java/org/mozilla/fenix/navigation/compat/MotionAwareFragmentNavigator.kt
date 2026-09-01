@@ -129,11 +129,11 @@ when
 the
 user
 has
-*
 enabled
 reduced
 -
 motion
+*
 accessibility
 settings
 on
@@ -152,7 +152,6 @@ Global
 TRANSITION_ANIMATION_SCALE
 ]
 or
-*
 [
 Settings
 .
@@ -164,6 +163,7 @@ is
 set
 to
 0
+*
 all
 enter
 /
@@ -172,7 +172,6 @@ exit
 popEnter
 /
 popExit
-*
 animations
 are
 removed
@@ -387,12 +386,12 @@ system
 accessibility
 settings
 .
-*
 Returns
 true
 when
 either
 the
+*
 transition
 or
 animator

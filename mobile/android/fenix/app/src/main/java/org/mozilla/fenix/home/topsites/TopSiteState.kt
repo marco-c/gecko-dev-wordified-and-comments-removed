@@ -169,11 +169,11 @@ When
 expanded
 it
 is
-*
 shown
 after
 the
 last
+*
 shortcut
 matching
 the
@@ -187,7 +187,6 @@ is
 only
 shown
 if
-*
 it
 fits
 within
@@ -223,11 +222,11 @@ that
 opens
 the
 shortcuts
-*
 library
 .
 Hidden
 while
+*
 the
 expand
 /
@@ -306,10 +305,10 @@ or
 null
 when
 the
-*
 top
 sites
 section
+*
 should
 be
 hidden

@@ -830,10 +830,10 @@ that
 their
 Home
 screen
-*
 shortcuts
 will
 be
+*
 removed
 when
 changing
@@ -1522,7 +1522,6 @@ onSurfaceVariant
 }
 }
 /
-*
 *
 *
 Renders

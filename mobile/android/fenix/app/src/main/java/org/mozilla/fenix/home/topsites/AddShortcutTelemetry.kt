@@ -117,7 +117,6 @@ String
 /
 *
 *
-*
 The
 shortcut
 was
@@ -143,7 +142,6 @@ popular
 /
 *
 *
-*
 The
 shortcut
 was
@@ -162,7 +160,6 @@ manual
 "
 )
 /
-*
 *
 *
 A
@@ -243,7 +240,6 @@ String
 /
 *
 *
-*
 The
 flow
 was
@@ -261,7 +257,6 @@ homepage
 "
 )
 /
-*
 *
 *
 The
@@ -282,7 +277,6 @@ page_menu
 "
 )
 /
-*
 *
 *
 The

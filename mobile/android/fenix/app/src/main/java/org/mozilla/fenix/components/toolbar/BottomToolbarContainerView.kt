@@ -462,7 +462,6 @@ toolbarContainerView
 /
 *
 *
-*
 Updates
 the
 Composable
@@ -501,7 +500,6 @@ content
 /
 *
 *
-*
 A
 container
 view
@@ -515,7 +513,6 @@ possibly
 a
 toolbar
 .
-*
 Facilitates
 hide
 -

@@ -83,6 +83,18 @@ annotation
 .
 StringRes
 import
+mozilla
+.
+components
+.
+ui
+.
+icons
+.
+R
+as
+iconsR
+import
 org
 .
 mozilla
@@ -110,18 +122,6 @@ fenix
 utils
 .
 Settings
-import
-mozilla
-.
-components
-.
-ui
-.
-icons
-.
-R
-as
-iconsR
 /
 *
 *
@@ -269,7 +269,6 @@ title
 )
 {
 /
-*
 *
 *
 A
@@ -494,7 +493,6 @@ Int
 /
 *
 *
-*
 Returns
 true
 if
@@ -519,7 +517,6 @@ totalTasks
 completedTasks
 }
 /
-*
 *
 *
 Calculates
@@ -605,7 +602,6 @@ isCompleted
 /
 *
 *
-*
 Returns
 true
 if
@@ -636,7 +632,6 @@ ChecklistItem
 Group
 }
 /
-*
 *
 *
 Gets

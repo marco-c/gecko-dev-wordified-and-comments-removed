@@ -124,11 +124,11 @@ by
 the
 hosting
 fragment
-*
 when
 an
 action
 results
+*
 in
 navigation
 .
@@ -233,7 +233,7 @@ emit
 (
 CustomReviewPromptNavigationEvent
 .
-OpenNewTab
+OpenInNewTab
 (
 SupportUtils
 .
@@ -288,7 +288,6 @@ action
 /
 *
 *
-*
 Events
 to
 emit
@@ -311,7 +310,6 @@ CustomReviewPromptNavigationEvent
 /
 *
 *
-*
 Dismiss
 the
 custom
@@ -330,7 +328,6 @@ CustomReviewPromptNavigationEvent
 (
 )
 /
-*
 *
 *
 Call
@@ -359,10 +356,8 @@ CustomReviewPromptNavigationEvent
 /
 *
 *
-*
 Open
-the
-given
+a
 [
 url
 ]
@@ -375,7 +370,7 @@ tab
 /
 data
 class
-OpenNewTab
+OpenInNewTab
 (
 val
 url

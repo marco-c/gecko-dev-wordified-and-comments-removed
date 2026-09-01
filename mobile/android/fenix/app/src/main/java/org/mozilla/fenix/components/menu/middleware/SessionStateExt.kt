@@ -167,7 +167,6 @@ url
 when
 necessary
 .
-*
 For
 [
 CustomTabSessionState

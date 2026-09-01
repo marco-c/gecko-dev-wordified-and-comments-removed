@@ -96,7 +96,6 @@ AccountSettingsUserActions
 /
 *
 *
-*
 Called
 whenever
 the
@@ -187,7 +186,6 @@ Unit
 :
 Boolean
 /
-*
 *
 *
 Called

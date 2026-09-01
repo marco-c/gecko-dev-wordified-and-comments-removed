@@ -154,12 +154,12 @@ in
 the
 fling
 direction
-*
 to
 fully
 show
 the
 next
+*
 item
 .
 *

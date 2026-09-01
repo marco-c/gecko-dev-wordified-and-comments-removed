@@ -65,6 +65,14 @@ fenix
 .
 ext
 import
+java
+.
+util
+.
+concurrent
+.
+TimeUnit
+import
 mozilla
 .
 components
@@ -182,16 +190,7 @@ utils
 Stories
 .
 hasUrlOfInternallyOpenedStory
-import
-java
-.
-util
-.
-concurrent
-.
-TimeUnit
 /
-*
 *
 *
 The
@@ -218,7 +217,6 @@ DEFAULT_ACTIVE_DAYS
 =
 14L
 /
-*
 *
 *
 The
@@ -350,7 +348,6 @@ last
 accessed
 normal
 tab
-*
 if
 there
 is
@@ -363,6 +360,7 @@ selected
 tab
 is
 a
+*
 private
 one
 .
@@ -405,7 +403,6 @@ on
 maxActiveTime
 ]
 .
-*
 The
 user
 may
@@ -417,6 +414,7 @@ so
 for
 user
 interactions
+*
 consider
 using
 the
@@ -424,7 +422,6 @@ the
 actualInactiveTabs
 ]
 method
-*
 or
 an
 in
@@ -476,7 +473,6 @@ on
 maxActiveTime
 ]
 .
-*
 The
 result
 will
@@ -489,6 +485,7 @@ the
 user
 disabled
 the
+*
 feature
 .
 *
@@ -543,7 +540,6 @@ get
 back
 to
 or
-*
 if
 the
 current
@@ -556,6 +552,7 @@ from
 application
 '
 s
+*
 homescreen
 that
 we

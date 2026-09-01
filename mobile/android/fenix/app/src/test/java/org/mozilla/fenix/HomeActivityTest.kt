@@ -119,6 +119,12 @@ mockk
 .
 verify
 import
+kotlin
+.
+test
+.
+assertNotNull
+import
 mozilla
 .
 components
@@ -390,12 +396,6 @@ robolectric
 annotation
 .
 Config
-import
-kotlin
-.
-test
-.
-assertNotNull
 RunWith
 (
 RobolectricTestRunner

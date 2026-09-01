@@ -157,10 +157,10 @@ is
 processed
 by
 that
-*
 store
 .
 The
+*
 standard
 message
 format
@@ -178,7 +178,6 @@ action
 name
 as
 a
-*
 detail
 message
 .

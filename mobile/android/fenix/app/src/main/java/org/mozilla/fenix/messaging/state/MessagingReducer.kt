@@ -197,7 +197,6 @@ toMicrosurveyUIData
 /
 *
 *
-*
 Reducer
 for
 [
@@ -429,10 +428,10 @@ it
 is
 already
 the
-*
 current
 microsurvey
 so
+*
 its
 identity
 stays
@@ -443,7 +442,6 @@ evaluations
 of
 the
 same
-*
 survey
 (
 e

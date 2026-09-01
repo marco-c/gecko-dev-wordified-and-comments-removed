@@ -181,7 +181,6 @@ SelectedPocketStoriesCategorySerializer
 /
 *
 *
-*
 [
 DataStore
 ]
@@ -231,7 +230,6 @@ an
 IOException
 is
 thrown
-*
 [
 onError
 ]
@@ -271,11 +269,11 @@ contains
 all
 the
 preferences
-*
 currently
 in
 DataStore
 .
+*
 Changes
 to
 this
@@ -285,7 +283,6 @@ will
 be
 persisted
 once
-*
 transform
 completes
 .

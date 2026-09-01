@@ -188,7 +188,6 @@ that
 strongly
 depend
 on
-*
 push
 messaging
 (
@@ -196,6 +195,7 @@ e
 .
 g
 .
+*
 WebPush
 SendTab
 )

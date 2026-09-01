@@ -73,7 +73,6 @@ state
 /
 *
 *
-*
 Represents
 the
 various
@@ -96,7 +95,6 @@ class
 BiometricAuthenticationState
 {
 /
-*
 *
 *
 The
@@ -145,11 +143,11 @@ has
 not
 yet
 initiated
-*
 the
 authentication
 process
 .
+*
 This
 is
 typically
@@ -170,7 +168,6 @@ BiometricAuthenticationState
 (
 )
 /
-*
 *
 *
 The
@@ -195,7 +192,6 @@ BiometricAuthenticationState
 (
 )
 /
-*
 *
 *
 The
@@ -223,7 +219,6 @@ BiometricAuthenticationState
 /
 *
 *
-*
 The
 authentication
 attempt
@@ -239,7 +234,6 @@ BiometricAuthenticationState
 (
 )
 /
-*
 *
 *
 true
@@ -266,7 +260,6 @@ this
 is
 Authorized
 /
-*
 *
 *
 true

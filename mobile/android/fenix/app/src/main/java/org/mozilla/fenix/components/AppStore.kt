@@ -143,7 +143,6 @@ reduces
 AppAction
 ]
 s
-*
 dispatched
 to
 the

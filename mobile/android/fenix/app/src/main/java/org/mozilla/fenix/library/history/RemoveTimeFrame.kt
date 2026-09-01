@@ -100,11 +100,11 @@ frame
 Is
 used
 by
-*
 [
 HistoryFragment
 ]
 to
+*
 provide
 timestamps
 for
@@ -145,10 +145,10 @@ is
 calculated
 at
 the
-*
 moment
 of
 execution
+*
 which
 is
 different

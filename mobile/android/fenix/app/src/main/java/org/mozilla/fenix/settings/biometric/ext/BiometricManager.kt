@@ -129,7 +129,6 @@ DEVICE_CREDENTIAL
 /
 *
 *
-*
 Checks
 for
 hardware
@@ -176,7 +175,6 @@ status
 BIOMETRIC_ERROR_HW_UNAVAILABLE
 }
 /
-*
 *
 *
 Checks
@@ -229,7 +227,6 @@ BIOMETRIC_ERROR_HW_UNAVAILABLE
 /
 *
 *
-*
 Checks
 if
 the
@@ -270,7 +267,6 @@ status
 BIOMETRIC_SUCCESS
 }
 /
-*
 *
 *
 Checks

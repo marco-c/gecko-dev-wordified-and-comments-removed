@@ -103,6 +103,14 @@ work
 .
 WorkerParameters
 import
+java
+.
+util
+.
+concurrent
+.
+TimeUnit
+import
 mozilla
 .
 components
@@ -124,16 +132,7 @@ fenix
 ext
 .
 components
-import
-java
-.
-util
-.
-concurrent
-.
-TimeUnit
 /
-*
 *
 *
 Worker
@@ -263,7 +262,6 @@ work
 /
 *
 *
-*
 Schedules
 the
 Activated
@@ -372,7 +370,6 @@ DAY_MILLIS
 *
 7
 /
-*
 *
 *
 Returns

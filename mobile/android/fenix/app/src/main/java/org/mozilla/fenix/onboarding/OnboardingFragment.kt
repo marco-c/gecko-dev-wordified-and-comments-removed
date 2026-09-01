@@ -687,7 +687,6 @@ maybeShowAddSearchWidgetPrompt
 /
 *
 *
-*
 Fragment
 displaying
 the

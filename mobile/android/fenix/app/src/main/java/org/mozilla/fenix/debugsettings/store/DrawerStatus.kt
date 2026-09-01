@@ -69,7 +69,6 @@ store
 /
 *
 *
-*
 Possible
 values
 of
@@ -90,7 +89,6 @@ DrawerStatus
 /
 *
 *
-*
 The
 state
 of
@@ -105,7 +103,6 @@ closed
 /
 Closed
 /
-*
 *
 *
 The

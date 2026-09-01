@@ -102,8 +102,8 @@ the
 secure
 screen
 .
-*
 These
+*
 actions
 are
 dispatched
@@ -124,7 +124,6 @@ SecureScreenAction
 Action
 {
 /
-*
 *
 *
 Represents
@@ -201,7 +200,6 @@ LifecycleAction
 /
 *
 *
-*
 Represents
 actions
 related
@@ -274,7 +272,6 @@ Failed
 AuthenticationFlowAction
 }
 /
-*
 *
 *
 Represents

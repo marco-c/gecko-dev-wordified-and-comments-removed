@@ -137,7 +137,6 @@ components
 /
 *
 *
-*
 Processes
 incoming
 intents

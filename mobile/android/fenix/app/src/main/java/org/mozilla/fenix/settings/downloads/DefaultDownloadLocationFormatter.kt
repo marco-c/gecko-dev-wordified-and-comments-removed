@@ -157,11 +157,11 @@ for
 the
 UI
 .
-*
 It
 handles
 several
 storage
+*
 scenarios
 :
 *
@@ -193,7 +193,6 @@ emulated
 /
 Download
 )
-*
 using
 the
 ~
@@ -203,6 +202,7 @@ e
 .
 g
 .
+*
 ~
 /
 Download
@@ -229,13 +229,13 @@ Framework
 URIs
 for
 local
-*
 storage
 and
 SD
 cards
 into
 clean
+*
 readable
 paths
 .
@@ -309,12 +309,12 @@ Nextcloud
 when
 a
 specific
-*
 folder
 name
 is
 unavailable
 or
+*
 non
 -
 descriptive
@@ -335,7 +335,6 @@ s
 file
 system
 and
-*
 content
 provider
 APIs

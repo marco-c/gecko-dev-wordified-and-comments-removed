@@ -1377,7 +1377,6 @@ CONVERSION_EVENT_10
 /
 *
 *
-*
 Records
 a
 glean
@@ -1561,7 +1560,6 @@ CONVERSION_EVENT_10
 }
 }
 /
-*
 *
 *
 Sets

@@ -247,7 +247,6 @@ lazyMonitored
 /
 *
 *
-*
 Component
 group
 for
@@ -311,10 +310,10 @@ access
 to
 feature
 configuration
-*
 should
 be
 mediated
+*
 through
 a
 FML
@@ -355,7 +354,6 @@ geckoPrefHandler
 /
 *
 *
-*
 Bridge
 between
 Nimbus
@@ -368,7 +366,6 @@ unenrollment
 and
 observation
 of
-*
 Gecko
 pref
 experiments
@@ -425,7 +422,6 @@ recording
 events
 to
 drive
-*
 messaging
 experiments
 and
@@ -445,7 +441,6 @@ to
 write
 these
 events
-*
 themselves
 .
 *
@@ -460,7 +455,6 @@ should
 be
 done
 through
-*
 the
 JEXL
 helper
@@ -549,11 +543,11 @@ s
 destroy
 ]
 method
-*
 should
 be
 called
 after
+*
 finishing
 the
 set
@@ -626,7 +620,6 @@ needed
 to
 drive
 decisions
-*
 about
 messaging
 onboarding
@@ -678,11 +671,11 @@ click
 dismiss
 )
 messages
-*
 from
 the
 Nimbus
 Messaging
+*
 component
 .
 *

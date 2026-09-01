@@ -243,7 +243,6 @@ FirefoxTheme
 /
 *
 *
-*
 Fragment
 use
 for

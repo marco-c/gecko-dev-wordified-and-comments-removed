@@ -122,13 +122,13 @@ s
 y
 -
 translation
-*
 with
 the
 top
 toolbar
 .
 This
+*
 ensures
 that
 when
@@ -140,7 +140,6 @@ the
 navbar
 at
 the
-*
 bottom
 follows
 the

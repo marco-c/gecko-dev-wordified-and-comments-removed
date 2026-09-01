@@ -302,7 +302,6 @@ BrowserState
 .
 extensions
 ]
-*
 and
 [
 TabSessionState
@@ -399,9 +398,9 @@ updates
 will
 occur
 .
-*
 Defaults
 to
+*
 [
 Dispatchers
 .

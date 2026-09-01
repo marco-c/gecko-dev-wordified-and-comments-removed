@@ -131,12 +131,12 @@ the
 user
 was
 last
-*
 in
 the
 Web
 Compat
 Reporter
+*
 feature
 .
 *

@@ -65,6 +65,12 @@ fenix
 .
 summarization
 import
+kotlin
+.
+test
+.
+assertIs
+import
 mozilla
 .
 components
@@ -130,12 +136,6 @@ org
 junit
 .
 Test
-import
-kotlin
-.
-test
-.
-assertIs
 class
 ErrorCodeLookupTest
 {

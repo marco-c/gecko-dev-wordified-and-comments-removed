@@ -143,7 +143,6 @@ LabsState
 /
 *
 *
-*
 Middleware
 that
 records
@@ -160,7 +159,6 @@ dispatched
 to
 the
 Labs
-*
 store
 .
 *

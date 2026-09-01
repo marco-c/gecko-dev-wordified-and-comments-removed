@@ -126,11 +126,11 @@ to
 determine
 the
 url
-*
 when
 a
 permission
 prompt
+*
 offers
 a
 "

@@ -157,7 +157,7 @@ feature
 .
 ipprotection
 .
-EligibilityStatus
+IPProtectionEligibilityStorage
 import
 mozilla
 .
@@ -167,7 +167,11 @@ feature
 .
 ipprotection
 .
-IPProtectionEligibilityStorage
+store
+.
+state
+.
+EligibilityStatus
 import
 org
 .
@@ -316,10 +320,6 @@ search
 .
 region
 }
-.
-distinctUntilChanged
-(
-)
 secretEnabled
 )
 {

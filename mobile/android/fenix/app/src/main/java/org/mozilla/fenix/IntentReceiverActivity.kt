@@ -317,7 +317,6 @@ UninstallShortcutIntentProcessor
 /
 *
 *
-*
 Processes
 incoming
 intents

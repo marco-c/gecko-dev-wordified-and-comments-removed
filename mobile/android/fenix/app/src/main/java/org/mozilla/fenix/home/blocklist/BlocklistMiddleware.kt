@@ -144,10 +144,10 @@ to
 a
 blocklist
 .
-*
 Additionally
 it
 reacts
+*
 to
 state
 changes
@@ -175,10 +175,10 @@ interacting
 with
 the
 blocklist
-*
 stored
 in
 shared
+*
 preferences
 .
 *
@@ -202,7 +202,6 @@ AppAction
 /
 *
 *
-*
 Will
 filter
 "
@@ -220,7 +219,6 @@ Remove
 actions
 to
 update
-*
 the
 blocklist
 .

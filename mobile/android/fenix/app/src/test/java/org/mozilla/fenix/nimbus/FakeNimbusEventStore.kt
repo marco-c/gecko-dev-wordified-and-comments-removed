@@ -149,7 +149,6 @@ Cancel
 /
 *
 *
-*
 A
 [
 NimbusEventStore
@@ -198,7 +197,6 @@ PastEvent
 (
 )
 /
-*
 *
 *
 see
@@ -333,7 +331,6 @@ cancel
 /
 *
 *
-*
 Asserts
 that
 recorded
@@ -372,7 +369,6 @@ recordedEvents
 )
 }
 /
-*
 *
 *
 see
@@ -416,7 +412,6 @@ secondsAgo
 /
 *
 *
-*
 Asserts
 that
 there
@@ -443,7 +438,6 @@ isEmpty
 )
 }
 /
-*
 *
 *
 Records
@@ -506,7 +500,6 @@ secondsAgo
 /
 *
 *
-*
 Represents
 an
 event
@@ -532,7 +525,6 @@ secondsAgo
 Long
 )
 /
-*
 *
 *
 Like

@@ -99,7 +99,6 @@ RecentHistoryHighlight
 /
 *
 *
-*
 All
 possible
 user
@@ -118,7 +117,6 @@ interface
 RecentVisitsInteractor
 {
 /
-*
 *
 *
 Callback

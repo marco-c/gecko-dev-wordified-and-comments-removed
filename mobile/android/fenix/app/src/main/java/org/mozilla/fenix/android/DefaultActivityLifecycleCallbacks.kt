@@ -100,10 +100,10 @@ method
 has
 a
 default
-*
 implementation
 that
 does
+*
 nothing
 .
 This
@@ -115,7 +115,6 @@ this
 interface
 to
 have
-*
 more
 concise
 definitions
@@ -126,6 +125,7 @@ don
 t
 implement
 some
+*
 methods
 ;
 this
@@ -134,7 +134,6 @@ in
 the
 spirit
 of
-*
 other
 Default
 *

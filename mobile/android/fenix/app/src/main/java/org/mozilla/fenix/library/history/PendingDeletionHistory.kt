@@ -98,10 +98,10 @@ removal
 Undo
 snackbar
 delays
-*
 the
 actual
 removal
+*
 while
 this
 class
@@ -117,7 +117,6 @@ be
 hidden
 in
 the
-*
 UI
 .
 *
@@ -127,7 +126,6 @@ class
 PendingDeletionHistory
 {
 /
-*
 *
 *
 This
@@ -162,7 +160,6 @@ PendingDeletionHistory
 (
 )
 /
-*
 *
 *
 This
@@ -200,7 +197,6 @@ PendingDeletionHistory
 /
 *
 *
-*
 This
 class
 represents
@@ -235,7 +231,6 @@ PendingDeletionHistory
 )
 }
 /
-*
 *
 *
 Maps
@@ -338,7 +333,6 @@ historyMetadataKey
 }
 }
 /
-*
 *
 *
 Maps

@@ -270,7 +270,6 @@ isBrowsingInNormalMode
 /
 *
 *
-*
 Optional
 callback
 for

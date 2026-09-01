@@ -69,7 +69,6 @@ metrics
 /
 *
 *
-*
 Defines
 the
 possible
@@ -88,7 +87,6 @@ interface
 GleanUsageReportingApi
 {
 /
-*
 *
 *
 This
@@ -112,7 +110,6 @@ ACTIVE
 INACTIVE
 }
 /
-*
 *
 *
 This
@@ -157,6 +154,7 @@ is
 sent
 .
 *
+*
 param
 usageReason
 the
@@ -194,6 +192,7 @@ is
 sent
 .
 *
+*
 param
 durationMillis
 the
@@ -217,7 +216,6 @@ Long
 /
 *
 *
-*
 Send
 the
 ping
@@ -231,7 +229,6 @@ submitPing
 (
 )
 /
-*
 *
 *
 Allows

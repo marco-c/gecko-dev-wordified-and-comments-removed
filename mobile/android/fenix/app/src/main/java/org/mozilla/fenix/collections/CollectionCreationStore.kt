@@ -219,7 +219,6 @@ are
 shown
 to
 the
-*
 user
 .
 *
@@ -237,9 +236,9 @@ with
 four
 implementations
 each
-*
 replacing
 a
+*
 [
 SaveCollectionStep
 ]
@@ -253,13 +252,13 @@ null
 /
 emptyCollection
 default
-*
 values
 .
 Handle
 changes
 between
 these
+*
 state
 changes
 internally
@@ -268,7 +267,6 @@ and
 in
 the
 controller
-*
 instead
 of
 exposing
@@ -280,6 +278,7 @@ currently
 acts
 as
 a
+*
 setter
 .
 *

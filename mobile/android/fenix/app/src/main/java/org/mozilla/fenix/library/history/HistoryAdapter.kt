@@ -119,7 +119,6 @@ SelectionHolder
 /
 *
 *
-*
 Adapter
 for
 the
@@ -889,7 +888,6 @@ groupPendingDeletionCount
 )
 }
 /
-*
 *
 *
 param

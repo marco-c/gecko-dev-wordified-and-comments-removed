@@ -101,10 +101,10 @@ unset
 Seed
 it
 once
-*
 with
 the
 current
+*
 time
 so
 features
@@ -119,13 +119,13 @@ and
 the
 IP
 protection
-*
 prompt
 can
 be
 exercised
 in
 debug
+*
 builds
 .
 *

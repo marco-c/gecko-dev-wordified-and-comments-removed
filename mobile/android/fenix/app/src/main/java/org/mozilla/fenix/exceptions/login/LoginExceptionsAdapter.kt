@@ -107,7 +107,6 @@ ExceptionsAdapter
 /
 *
 *
-*
 Adapter
 for
 a
@@ -120,7 +119,6 @@ exempted
 from
 saving
 logins
-*
 along
 with
 controls

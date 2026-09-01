@@ -83,7 +83,6 @@ into
 human
 -
 readable
-*
 friendly
 strings
 for
@@ -120,7 +119,6 @@ human
 readable
 format
 .
-*
 Examples
 :
 *
@@ -147,7 +145,6 @@ becomes
 /
 T
 "
-*
 "
 /
 storage

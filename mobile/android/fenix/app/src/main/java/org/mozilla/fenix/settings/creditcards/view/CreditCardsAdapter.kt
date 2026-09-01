@@ -123,7 +123,6 @@ CreditCardsManagementInteractor
 /
 *
 *
-*
 Adapter
 for
 a

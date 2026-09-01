@@ -111,7 +111,6 @@ Store
 /
 *
 *
-*
 The
 [
 Store
@@ -151,7 +150,6 @@ initialState
 exceptionsStateReducer
 )
 /
-*
 *
 *
 Actions
@@ -203,6 +201,7 @@ the
 Exceptions
 Screen
 *
+*
 property
 items
 List
@@ -231,7 +230,6 @@ emptyList
 :
 State
 /
-*
 *
 *
 The

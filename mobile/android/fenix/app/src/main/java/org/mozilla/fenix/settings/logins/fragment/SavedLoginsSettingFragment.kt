@@ -179,7 +179,6 @@ addToRadioGroup
 /
 *
 *
-*
 Settings
 screen
 allowing

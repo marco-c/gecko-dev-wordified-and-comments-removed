@@ -69,7 +69,6 @@ search
 /
 *
 *
-*
 Homepage
 actions
 related
@@ -82,7 +81,6 @@ interface
 HomeSearchInteractor
 {
 /
-*
 *
 *
 Indicate

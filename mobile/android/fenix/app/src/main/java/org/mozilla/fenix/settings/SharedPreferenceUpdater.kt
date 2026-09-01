@@ -111,8 +111,8 @@ Preference
 is
 changed
 .
-*
 The
+*
 preference
 key
 is

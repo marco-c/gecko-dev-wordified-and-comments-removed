@@ -186,7 +186,6 @@ Message
 /
 *
 *
-*
 Companion
 object
 for
@@ -243,11 +242,11 @@ banner
 If
 the
 privacy
-*
 notice
 banner
 is
 visible
+*
 we
 should
 not

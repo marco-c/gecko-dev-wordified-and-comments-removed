@@ -127,6 +127,12 @@ mockk
 .
 verifyAll
 import
+java
+.
+util
+.
+Locale
+import
 mozilla
 .
 components
@@ -232,12 +238,6 @@ org
 robolectric
 .
 Robolectric
-import
-java
-.
-util
-.
-Locale
 RunWith
 (
 AndroidJUnit4

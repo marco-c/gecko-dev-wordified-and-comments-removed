@@ -89,7 +89,6 @@ LifecycleOwner
 /
 *
 *
-*
 Allows
 tests
 to
@@ -100,7 +99,6 @@ version
 of
 a
 LifecycleOwner
-*
 and
 make
 assertions

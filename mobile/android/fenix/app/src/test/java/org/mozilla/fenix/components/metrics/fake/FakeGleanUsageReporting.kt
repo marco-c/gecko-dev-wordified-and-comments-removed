@@ -86,7 +86,6 @@ GleanUsageReportingApi
 /
 *
 *
-*
 Allows
 tests
 to
@@ -97,7 +96,6 @@ version
 of
 a
 GleanUsageReportingApi
-*
 and
 make
 assertions

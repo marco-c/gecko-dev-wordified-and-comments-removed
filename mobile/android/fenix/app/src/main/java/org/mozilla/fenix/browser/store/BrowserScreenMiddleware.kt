@@ -407,7 +407,6 @@ CANCEL_PRIVATE_DOWNLOADS_DIALOG_FRAGMENT_TAG
 /
 *
 *
-*
 Creates
 and
 configures
@@ -484,7 +483,6 @@ CancelPrivateDownloadsOnPrivateTabsClosedAccepted
 )
 }
 /
-*
 *
 *
 Creates
@@ -570,7 +568,6 @@ toFloat
 )
 }
 /
-*
 *
 *
 Static

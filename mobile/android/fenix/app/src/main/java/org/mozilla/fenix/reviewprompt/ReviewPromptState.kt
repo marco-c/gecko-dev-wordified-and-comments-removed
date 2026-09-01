@@ -67,7 +67,6 @@ reviewprompt
 /
 *
 *
-*
 Results
 of
 the
@@ -83,7 +82,6 @@ interface
 ReviewPromptState
 {
 /
-*
 *
 *
 The
@@ -105,7 +103,6 @@ ReviewPromptState
 /
 *
 *
-*
 No
 triggers
 were
@@ -119,7 +116,6 @@ NotEligible
 :
 ReviewPromptState
 /
-*
 *
 *
 At
@@ -157,7 +153,6 @@ Type
 ReviewPromptState
 {
 /
-*
 *
 *
 Types

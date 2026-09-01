@@ -107,6 +107,12 @@ mockk
 .
 mockk
 import
+java
+.
+io
+.
+File
+import
 mozilla
 .
 components
@@ -178,12 +184,6 @@ org
 robolectric
 .
 RobolectricTestRunner
-import
-java
-.
-io
-.
-File
 RunWith
 (
 RobolectricTestRunner

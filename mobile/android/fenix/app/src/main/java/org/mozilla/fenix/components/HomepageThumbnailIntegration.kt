@@ -341,8 +341,8 @@ excluding
 the
 toolbar
 and
-*
 system
+*
 bar
 padding
 )
@@ -361,12 +361,12 @@ content
 only
 .
 Returns
-*
 null
 when
 the
 bounds
 are
+*
 unknown
 in
 which
@@ -570,10 +570,10 @@ the
 homepage
 content
 .
-*
 Returns
 the
 original
+*
 bitmap
 when
 [
@@ -746,10 +746,10 @@ we
 cannot
 use
 it
-*
 directly
 because
 those
+*
 functions
 are
 annotated
@@ -761,7 +761,6 @@ refactoring
 that
 can
 be
-*
 done
 in
 a

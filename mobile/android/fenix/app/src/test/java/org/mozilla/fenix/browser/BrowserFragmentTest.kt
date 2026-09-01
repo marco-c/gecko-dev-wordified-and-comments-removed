@@ -145,6 +145,12 @@ mockk
 .
 verify
 import
+kotlin
+.
+coroutines
+.
+ContinuationInterceptor
+import
 kotlinx
 .
 coroutines
@@ -386,12 +392,6 @@ org
 robolectric
 .
 RobolectricTestRunner
-import
-kotlin
-.
-coroutines
-.
-ContinuationInterceptor
 RunWith
 (
 RobolectricTestRunner

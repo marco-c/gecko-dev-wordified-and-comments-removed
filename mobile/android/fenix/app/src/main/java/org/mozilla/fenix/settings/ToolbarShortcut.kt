@@ -77,14 +77,6 @@ annotation
 .
 StringRes
 import
-org
-.
-mozilla
-.
-fenix
-.
-R
-import
 mozilla
 .
 components
@@ -108,6 +100,14 @@ icons
 R
 as
 iconsR
+import
+org
+.
+mozilla
+.
+fenix
+.
+R
 /
 *
 *
@@ -124,7 +124,6 @@ toolbar
 shortcut
 option
 .
-*
 These
 string
 values
@@ -133,6 +132,7 @@ stored
 in
 preferences
 and
+*
 also
 used
 to
@@ -207,7 +207,6 @@ companion
 object
 {
 /
-*
 *
 *
 Returns

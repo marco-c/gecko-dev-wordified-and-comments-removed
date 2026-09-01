@@ -163,7 +163,6 @@ FirefoxTheme
 /
 *
 *
-*
 Lets
 the
 user

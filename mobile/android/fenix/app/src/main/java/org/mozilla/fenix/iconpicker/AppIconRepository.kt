@@ -103,7 +103,6 @@ R
 /
 *
 *
-*
 An
 interface
 for
@@ -119,7 +118,6 @@ well
 as
 persisting
 the
-*
 selected
 one
 .
@@ -129,7 +127,6 @@ interface
 AppIconRepository
 {
 /
-*
 *
 *
 The
@@ -150,7 +147,6 @@ selectedAppIcon
 :
 AppIcon
 /
-*
 *
 *
 Icons
@@ -443,7 +439,6 @@ aliasSuffix
 /
 *
 *
-*
 A
 wrapper
 interface
@@ -486,7 +481,6 @@ registered
 and
 returns
 its
-*
 activity
 name
 .
@@ -525,7 +519,6 @@ String
 ?
 }
 /
-*
 *
 *
 A

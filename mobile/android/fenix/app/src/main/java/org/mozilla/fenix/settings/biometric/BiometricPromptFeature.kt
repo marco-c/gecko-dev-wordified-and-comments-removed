@@ -520,7 +520,6 @@ object
 /
 *
 *
-*
 Checks
 if
 the

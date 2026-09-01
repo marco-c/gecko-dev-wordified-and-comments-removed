@@ -86,8 +86,8 @@ be
 opened
 used
 for
-*
 telemetry
+*
 purposes
 .
 *

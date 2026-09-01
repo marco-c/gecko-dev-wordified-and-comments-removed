@@ -1427,9 +1427,9 @@ select
 folder
 screen
 .
-*
 Required
 since
+*
 there
 is
 always
@@ -1461,10 +1461,10 @@ folder
 select
 folder
 flow
-*
 this
 represents
 the
+*
 selection
 GUID
 for
@@ -1479,13 +1479,13 @@ added
 folder
 is
 being
-*
 placed
 .
 Optional
 since
 this
 screen
+*
 may
 never
 be

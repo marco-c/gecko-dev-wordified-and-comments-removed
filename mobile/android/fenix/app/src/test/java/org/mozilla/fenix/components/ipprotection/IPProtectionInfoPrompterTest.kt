@@ -76,6 +76,12 @@ components
 .
 ipprotection
 import
+kotlin
+.
+test
+.
+assertIs
+import
 kotlinx
 .
 coroutines
@@ -207,12 +213,6 @@ appstate
 snackbar
 .
 SnackbarState
-import
-kotlin
-.
-test
-.
-assertIs
 class
 IPProtectionInfoPrompterTest
 {

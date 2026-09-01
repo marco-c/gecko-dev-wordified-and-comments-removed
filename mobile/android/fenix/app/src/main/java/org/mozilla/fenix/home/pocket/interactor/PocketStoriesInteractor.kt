@@ -133,7 +133,6 @@ StoriesImpressionSource
 /
 *
 *
-*
 Contract
 for
 all
@@ -194,7 +193,6 @@ grid
 and
 index
 position
-*
 of
 the
 shown
@@ -350,7 +348,6 @@ grid
 and
 index
 position
-*
 of
 the
 clicked
@@ -391,7 +388,6 @@ StoriesImpressionSource
 /
 *
 *
-*
 Callback
 when
 an
@@ -419,7 +415,6 @@ onDiscoverMoreClicked
 /
 *
 *
-*
 Sends
 telemetry
 related
@@ -441,7 +436,6 @@ onDiscoverMoreScreenViewed
 )
 }
 /
-*
 *
 *
 Default

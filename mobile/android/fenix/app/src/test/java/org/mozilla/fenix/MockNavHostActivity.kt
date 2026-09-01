@@ -179,12 +179,12 @@ createAddedTestFragment
 ]
 that
 uses
-*
 a
 custom
 Fenix
 activity
 to
+*
 hold
 the
 fragment
@@ -228,7 +228,6 @@ the
 Activity
 .
 *
-*
 return
 The
 same
@@ -248,7 +247,6 @@ got
 added
 to
 the
-*
 Activity
 .
 *

@@ -97,7 +97,6 @@ getSystemDefault
 /
 *
 *
-*
 Utility
 singleton
 for
@@ -109,7 +108,6 @@ to
 content
 recommendations
 feature
-*
 flags
 .
 *
@@ -118,7 +116,6 @@ object
 ContentRecommendationsFeatureHelper
 {
 /
-*
 *
 *
 List
@@ -199,7 +196,6 @@ CH
 /
 *
 *
-*
 Show
 Pocket
 sponsored
@@ -248,10 +244,10 @@ supported
 locales
 for
 content
-*
 recommendations
 and
 false
+*
 otherwise
 .
 *

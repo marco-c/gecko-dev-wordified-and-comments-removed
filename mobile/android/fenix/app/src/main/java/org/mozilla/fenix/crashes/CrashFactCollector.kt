@@ -207,7 +207,6 @@ Facts
 /
 *
 *
-*
 Collects
 facts
 and
@@ -236,7 +235,6 @@ isInitialized
 =
 false
 /
-*
 *
 *
 Starts

@@ -420,7 +420,6 @@ email
 mask
 .
 *
-*
 return
 the
 newly

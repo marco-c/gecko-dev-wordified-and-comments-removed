@@ -133,6 +133,12 @@ lifecycle
 .
 viewModelScope
 import
+java
+.
+io
+.
+IOException
+import
 kotlinx
 .
 coroutines
@@ -230,14 +236,7 @@ mozilla
 gecko
 .
 GeckoJavaSampler
-import
-java
-.
-io
-.
-IOException
 /
-*
 *
 *
 Represents
@@ -360,7 +359,6 @@ ProfilerUiState
 /
 *
 *
-*
 A
 toast
 message
@@ -399,7 +397,6 @@ ProfilerUiState
 /
 *
 *
-*
 The
 profiling
 session
@@ -423,7 +420,6 @@ ProfilerUiState
 (
 )
 /
-*
 *
 *
 An
@@ -460,7 +456,6 @@ ProfilerUiState
 /
 *
 *
-*
 Determines
 whether
 the
@@ -495,7 +490,6 @@ Error
 }
 }
 /
-*
 *
 *
 Factory
@@ -615,13 +609,13 @@ and
 UI
 state
 .
-*
 Simplified
 to
 use
 ProfilerService
 with
 NotificationsDelegate
+*
 integration
 .
 *
@@ -944,11 +938,11 @@ make
 sure
 the
 profiler
-*
 is
 started
 when
 the
+*
 notification
 from
 the
@@ -1045,7 +1039,6 @@ collected
 profile
 data
 .
-*
 This
 is
 for
@@ -1058,6 +1051,7 @@ it
 should
 NOT
 create
+*
 files
 via
 ProfilerService
@@ -1209,7 +1203,6 @@ the
 collected
 data
 .
-*
 This
 is
 for
@@ -1222,6 +1215,7 @@ it
 should
 NOT
 create
+*
 files
 via
 ProfilerService
@@ -1503,7 +1497,6 @@ data
 }
 }
 /
-*
 *
 *
 Resets

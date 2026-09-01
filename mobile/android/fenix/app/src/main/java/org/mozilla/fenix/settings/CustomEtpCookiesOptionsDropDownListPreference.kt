@@ -108,10 +108,10 @@ cookie
 behavior
 options
 for
-*
 the
 custom
 Enhanced
+*
 Tracking
 Protection
 setting
@@ -127,7 +127,6 @@ string
 social
 ]
 and
-*
 [
 R
 .
@@ -140,6 +139,7 @@ are
 hidden
 unless
 the
+*
 user
 '
 s

@@ -89,7 +89,6 @@ SupportUtils
 /
 *
 *
-*
 Returns
 a
 sorted
@@ -106,7 +105,6 @@ top
 site
 always
 appearing
-*
 as
 the
 first

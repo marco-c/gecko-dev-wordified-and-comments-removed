@@ -373,6 +373,12 @@ unit
 .
 sp
 import
+kotlin
+.
+math
+.
+roundToInt
+import
 org
 .
 mozilla
@@ -410,12 +416,6 @@ fenix
 theme
 .
 Theme
-import
-kotlin
-.
-math
-.
-roundToInt
 private
 const
 val
@@ -1100,7 +1100,6 @@ fontSizeSliderValue
 /
 *
 *
-*
 Rounds
 the
 value
@@ -1142,7 +1141,6 @@ step
 +
 start
 /
-*
 *
 *
 Thumb

@@ -85,7 +85,6 @@ or
 picks
 an
 image
-*
 for
 upload
 to
@@ -95,6 +94,7 @@ Lens
 QR
 mode
 runs
+*
 continuous
 QR
 detection

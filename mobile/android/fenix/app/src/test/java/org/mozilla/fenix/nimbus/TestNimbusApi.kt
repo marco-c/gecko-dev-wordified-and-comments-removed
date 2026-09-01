@@ -74,12 +74,12 @@ class
 exists
 so
 that
-*
 we
 can
 easily
 create
 fake
+*
 implementations
 of
 [
@@ -92,7 +92,6 @@ having
 to
 override
 or
-*
 so
 many
 functions

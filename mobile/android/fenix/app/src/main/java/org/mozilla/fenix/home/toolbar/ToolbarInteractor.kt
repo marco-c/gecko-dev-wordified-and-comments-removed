@@ -69,7 +69,6 @@ toolbar
 /
 *
 *
-*
 Interface
 for
 toolbar
@@ -82,7 +81,6 @@ interface
 ToolbarInteractor
 {
 /
-*
 *
 *
 Navigates

@@ -91,7 +91,6 @@ FxAEntryPoint
 /
 *
 *
-*
 Fenix
 implementation
 of
@@ -116,7 +115,6 @@ FxAEntryPoint
 Parcelable
 {
 /
-*
 *
 *
 New
@@ -145,7 +143,6 @@ onboarding
 /
 *
 *
-*
 Manual
 sign
 in
@@ -168,7 +165,6 @@ in
 "
 )
 /
-*
 *
 *
 User
@@ -195,7 +191,6 @@ link
 /
 *
 *
-*
 Authenticating
 from
 the
@@ -214,7 +209,6 @@ toolbar
 "
 )
 /
-*
 *
 *
 Authenticating
@@ -240,7 +234,6 @@ menu
 /
 *
 *
-*
 Authenticating
 in
 the
@@ -252,7 +245,6 @@ attempting
 to
 get
 synced
-*
 bookmarks
 *
 /
@@ -265,7 +257,6 @@ view
 "
 )
 /
-*
 *
 *
 Authenticating
@@ -286,7 +277,6 @@ menu
 /
 *
 *
-*
 Authenticating
 from
 the
@@ -295,7 +285,6 @@ settings
 to
 enable
 synced
-*
 credit
 cards
 /
@@ -313,7 +302,6 @@ setting
 /
 *
 *
-*
 Authenticating
 from
 the
@@ -323,7 +311,6 @@ menu
 to
 enable
 synced
-*
 logins
 *
 /
@@ -336,7 +323,6 @@ logins
 "
 )
 /
-*
 *
 *
 Authenticating
@@ -361,7 +347,6 @@ menu
 /
 *
 *
-*
 Authenticating
 as
 a
@@ -378,7 +363,6 @@ interaction
 "
 )
 /
-*
 *
 *
 Authenticating
@@ -404,7 +388,6 @@ menu
 "
 )
 /
-*
 *
 *
 Accessing
@@ -436,7 +419,6 @@ view
 /
 *
 *
-*
 Authenticating
 with
 the
@@ -459,7 +441,6 @@ vpn_integration_android_onboarding
 "
 )
 /
-*
 *
 *
 Authenticating
@@ -485,7 +466,6 @@ vpn_integration_android_menu
 "
 )
 /
-*
 *
 *
 Authenticating
@@ -522,7 +502,6 @@ started
 from
 the
 protection
-*
 panel
 (
 typically
@@ -530,6 +509,7 @@ accessible
 from
 the
 toolbar
+*
 globe
 /
 shield
@@ -569,13 +549,13 @@ value
 We
 have
 this
-*
 "
 unknown
 "
 as
 a
 default
+*
 value
 in
 the
@@ -714,7 +694,6 @@ Creator
 createFromParcel
 ]
 .
-*
 We
 also
 introduce
@@ -724,6 +703,7 @@ FxAEntryPoint
 .
 Unknown
 ]
+*
 value
 to
 use
@@ -739,7 +719,6 @@ off
 chance
 that
 we
-*
 cannot
 safely
 serialize
@@ -748,6 +727,7 @@ enum
 value
 from
 the
+*
 navigation
 library
 ;

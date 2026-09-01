@@ -132,7 +132,6 @@ bottom
 toolbar
 container
 .
-*
 When
 the
 content
@@ -141,6 +140,7 @@ a
 tab
 is
 being
+*
 scrolled
 the
 toolbar

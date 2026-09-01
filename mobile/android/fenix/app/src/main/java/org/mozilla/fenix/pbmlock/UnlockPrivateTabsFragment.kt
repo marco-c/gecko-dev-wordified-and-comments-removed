@@ -329,7 +329,6 @@ FirefoxTheme
 /
 *
 *
-*
 Fragment
 used
 to
@@ -771,13 +770,13 @@ normal
 tabs
 page
 .
-*
 If
 they
 don
 '
 t
 have
+*
 regular
 opened
 tabs

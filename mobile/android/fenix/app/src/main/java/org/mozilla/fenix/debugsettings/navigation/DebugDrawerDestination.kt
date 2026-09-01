@@ -113,8 +113,8 @@ string
 can
 also
 contain
-*
 optional
+*
 parameters
 for
 arguments
@@ -147,11 +147,11 @@ destination
 should
 be
 automatically
-*
 displayed
 at
 the
 top
+*
 layer
 of
 the

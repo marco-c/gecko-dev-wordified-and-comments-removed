@@ -85,7 +85,6 @@ Action
 /
 *
 *
-*
 The
 Store
 is
@@ -100,7 +99,6 @@ Init
 :
 DohSettingsAction
 /
-*
 *
 *
 The
@@ -159,7 +157,6 @@ String
 :
 DohSettingsAction
 /
-*
 *
 *
 Actions
@@ -277,7 +274,6 @@ DohSettingsAction
 /
 *
 *
-*
 The
 user
 has
@@ -363,7 +359,6 @@ DohSettingsRootAction
 /
 *
 *
-*
 The
 user
 has
@@ -384,7 +379,6 @@ DohSettingsRootAction
 (
 )
 /
-*
 *
 *
 The
@@ -410,7 +404,6 @@ DohSettingsAction
 /
 *
 *
-*
 The
 user
 has
@@ -434,7 +427,6 @@ DohSettingsAction
 /
 *
 *
-*
 The
 user
 has
@@ -456,7 +448,6 @@ MaxInfoClicked
 :
 DohSettingsAction
 /
-*
 *
 *
 Actions
@@ -538,7 +529,6 @@ DohSettingsAction
 /
 *
 *
-*
 A
 non
 -
@@ -561,7 +551,6 @@ NonHttpsUrlDetected
 :
 DohSettingsAction
 /
-*
 *
 *
 An
@@ -639,7 +628,6 @@ DohSettingsAction
 /
 *
 *
-*
 The
 user
 has
@@ -655,7 +643,6 @@ DoH
 provider
 .
 *
-*
 /
 data
 object
@@ -665,7 +652,6 @@ DohSettingsAction
 }
 }
 /
-*
 *
 *
 Actions
@@ -725,7 +711,6 @@ DohSettingsAction
 /
 *
 *
-*
 The
 user
 has
@@ -743,7 +728,6 @@ RemoveAllClicked
 :
 DohSettingsAction
 /
-*
 *
 *
 The
@@ -843,7 +827,6 @@ String
 :
 DohSettingsAction
 /
-*
 *
 *
 An

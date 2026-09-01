@@ -2084,7 +2084,6 @@ BlockedInfoCard
 /
 *
 *
-*
 Provides
 [
 SettingsSearchItem
@@ -2137,10 +2136,10 @@ enhancements
 toggle
 when
 navigating
-*
 from
 a
 settings
+*
 search
 result
 .

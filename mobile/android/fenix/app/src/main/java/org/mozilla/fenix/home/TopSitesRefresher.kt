@@ -218,7 +218,6 @@ the
 app
 was
 started
-*
 for
 "
 app
@@ -226,6 +225,7 @@ link
 "
 (
 aka
+*
 [
 StartupPathProvider
 .
@@ -261,7 +261,6 @@ the
 refresh
 job
 .
-*
 Default
 value
 is
@@ -273,6 +272,7 @@ IO
 .
 It
 is
+*
 helpful
 to
 improve

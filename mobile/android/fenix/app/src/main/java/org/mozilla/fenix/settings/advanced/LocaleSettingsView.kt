@@ -93,6 +93,12 @@ widget
 .
 LinearLayoutManager
 import
+java
+.
+util
+.
+Locale
+import
 org
 .
 mozilla
@@ -110,12 +116,6 @@ fenix
 databinding
 .
 ComponentLocaleSettingsBinding
-import
-java
-.
-util
-.
-Locale
 interface
 LocaleSettingsViewInteractor
 {

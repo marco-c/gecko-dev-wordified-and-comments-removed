@@ -91,6 +91,14 @@ view
 .
 doOnPreDraw
 import
+java
+.
+util
+.
+concurrent
+.
+TimeUnit
+import
 mozilla
 .
 components
@@ -142,14 +150,6 @@ mozilla
 fenix
 .
 HomeActivity
-import
-java
-.
-util
-.
-concurrent
-.
-TimeUnit
 private
 val
 logger
@@ -195,7 +195,6 @@ to
 -
 implement
 and
-*
 simple
 -
 to
@@ -214,6 +213,7 @@ rather
 than
 being
 a
+*
 "
 perfect
 "
@@ -238,10 +238,10 @@ that
 are
 tricky
 to
-*
 implement
 correctly
 so
+*
 take
 the
 results
@@ -257,7 +257,6 @@ class
 ColdStartupDurationTelemetry
 {
 /
-*
 *
 *
 Potentially

@@ -448,11 +448,11 @@ the
 designs
 in
 figma
-*
 taking
 the
 top
 and
+*
 bottom
 padding
 to
@@ -495,10 +495,10 @@ the
 designs
 in
 figma
-*
 taking
 the
 horizontal
+*
 button
 paddings
 to
@@ -523,7 +523,6 @@ BUTTON_WIDTH
 /
 *
 *
-*
 Values
 used
 in
@@ -531,7 +530,6 @@ slide
 in
 animation
 .
-*
 These
 values
 were

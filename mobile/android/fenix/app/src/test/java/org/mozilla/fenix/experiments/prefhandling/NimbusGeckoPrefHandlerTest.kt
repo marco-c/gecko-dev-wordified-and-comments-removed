@@ -1312,9 +1312,7 @@ capturedReason
 )
 }
 returns
-emptyList
-(
-)
+Unit
 handler
 .
 setGeckoPrefsState
@@ -1632,9 +1630,7 @@ capturedReason
 )
 }
 returns
-emptyList
-(
-)
+Unit
 handler
 .
 setGeckoPrefsState

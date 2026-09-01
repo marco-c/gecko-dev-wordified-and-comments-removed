@@ -147,7 +147,6 @@ SelectionHolder
 /
 *
 *
-*
 Adapter
 for
 a
@@ -500,7 +499,6 @@ items
 /
 *
 *
-*
 param
 selectedHistoryItems
 is
@@ -538,7 +536,6 @@ selectedHistoryItems
 selectedHistoryItems
 }
 /
-*
 *
 *
 param

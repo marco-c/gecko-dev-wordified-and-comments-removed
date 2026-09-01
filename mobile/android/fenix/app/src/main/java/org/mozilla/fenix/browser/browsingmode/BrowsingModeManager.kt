@@ -117,7 +117,6 @@ Settings
 /
 *
 *
-*
 Enum
 that
 represents
@@ -139,7 +138,6 @@ Normal
 Private
 ;
 /
-*
 *
 *
 Returns
@@ -171,7 +169,6 @@ object
 /
 *
 *
-*
 Convert
 a
 boolean
@@ -181,7 +178,6 @@ a
 BrowsingMode
 ]
 .
-*
 True
 corresponds
 to
@@ -285,13 +281,13 @@ current
 [
 BrowsingMode
 ]
-*
 persists
 it
 to
 [
 Settings
 ]
+*
 and
 synchronizes
 it
@@ -422,7 +418,6 @@ intent
 )
 }
 /
-*
 *
 *
 Returns

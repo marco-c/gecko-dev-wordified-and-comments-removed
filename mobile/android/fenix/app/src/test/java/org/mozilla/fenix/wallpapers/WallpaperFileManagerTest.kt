@@ -77,6 +77,12 @@ mockk
 .
 mockk
 import
+java
+.
+io
+.
+File
+import
 kotlinx
 .
 coroutines
@@ -152,12 +158,6 @@ fenix
 utils
 .
 Settings
-import
-java
-.
-io
-.
-File
 class
 WallpaperFileManagerTest
 {

@@ -147,7 +147,6 @@ components
 /
 *
 *
-*
 A
 special
 custom
@@ -215,7 +214,6 @@ AccountObserver
 /
 *
 *
-*
 Navigate
 away
 from
@@ -263,6 +261,8 @@ authentication
 is
 complete
 for
+/
+/
 our
 /
 /
@@ -294,6 +294,8 @@ because
 our
 AuthCustomTabActivity
 extends
+/
+/
 from
 /
 /

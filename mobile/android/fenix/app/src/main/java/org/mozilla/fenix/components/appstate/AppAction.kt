@@ -497,7 +497,6 @@ Wallpaper
 /
 *
 *
-*
 [
 Action
 ]
@@ -589,13 +588,13 @@ AppState
 .
 wasNativeDefaultBrowserPromptShown
 ]
-*
 This
 will
 be
 true
 if
 the
+*
 prompt
 was
 shown
@@ -618,7 +617,6 @@ AppAction
 (
 )
 /
-*
 *
 *
 Updates
@@ -651,7 +649,6 @@ AppAction
 (
 )
 /
-*
 *
 *
 Updates
@@ -803,7 +800,6 @@ AppAction
 /
 *
 *
-*
 Action
 dispatched
 when
@@ -878,7 +874,6 @@ AppAction
 /
 *
 *
-*
 The
 orientation
 of
@@ -903,7 +898,6 @@ AppAction
 (
 )
 /
-*
 *
 *
 The
@@ -937,7 +931,6 @@ AppAction
 (
 )
 /
-*
 *
 *
 A
@@ -1010,7 +1003,6 @@ AppAction
 /
 *
 *
-*
 Adds
 a
 set
@@ -1051,7 +1043,6 @@ AppAction
 /
 *
 *
-*
 Removes
 a
 set
@@ -1090,7 +1081,6 @@ AppAction
 /
 *
 *
-*
 Action
 dispatched
 when
@@ -1112,7 +1102,6 @@ AppAction
 (
 )
 /
-*
 *
 *
 Updates
@@ -1145,7 +1134,6 @@ AppAction
 /
 *
 *
-*
 Add
 a
 [
@@ -1159,7 +1147,6 @@ blocklist
 and
 remove
 it
-*
 from
 the
 recent
@@ -1183,7 +1170,6 @@ AppAction
 (
 )
 /
-*
 *
 *
 Action
@@ -1252,7 +1238,6 @@ AppAction
 /
 *
 *
-*
 Action
 dispatched
 when
@@ -1275,7 +1260,6 @@ AppAction
 (
 )
 /
-*
 *
 *
 Action
@@ -1301,7 +1285,6 @@ AppAction
 (
 )
 /
-*
 *
 *
 Action
@@ -1366,6 +1349,30 @@ AppAction
 /
 *
 *
+Updates
+the
+visibility
+of
+the
+TabsTray
+.
+*
+/
+data
+class
+UpdateTabsTrayVisibility
+(
+val
+visible
+:
+Boolean
+)
+:
+AppAction
+(
+)
+/
+*
 *
 [
 Action
@@ -1392,7 +1399,6 @@ AppAction
 /
 *
 *
-*
 Restores
 the
 [
@@ -1412,7 +1418,6 @@ MessagingAction
 (
 )
 /
-*
 *
 *
 Evaluates
@@ -1442,7 +1447,6 @@ MessagingAction
 (
 )
 /
-*
 *
 *
 Updates
@@ -1476,7 +1480,6 @@ MessagingAction
 /
 *
 *
-*
 Updates
 [
 MessagingState
@@ -1506,7 +1509,6 @@ MessagingAction
 (
 )
 /
-*
 *
 *
 Updates
@@ -1543,7 +1545,6 @@ MessagingAction
 /
 *
 *
-*
 Indicates
 the
 given
@@ -1571,7 +1572,6 @@ MessagingAction
 /
 *
 *
-*
 Indicates
 the
 given
@@ -1597,7 +1597,6 @@ MessagingAction
 (
 )
 /
-*
 *
 *
 Sealed
@@ -1917,7 +1916,6 @@ MicrosurveyAction
 /
 *
 *
-*
 [
 Action
 ]
@@ -1941,7 +1939,6 @@ AppAction
 )
 {
 /
-*
 *
 *
 Indicates
@@ -1970,7 +1967,6 @@ WallpaperAction
 (
 )
 /
-*
 *
 *
 Indicates
@@ -2023,11 +2019,11 @@ is
 meant
 to
 be
-*
 used
 for
 full
 size
+*
 images
 not
 thumbnails
@@ -2079,7 +2075,6 @@ WallpaperAction
 /
 *
 *
-*
 [
 AppAction
 ]
@@ -2103,7 +2098,6 @@ AppAction
 /
 *
 *
-*
 The
 application
 has
@@ -2118,7 +2112,6 @@ AppLifecycleAction
 (
 )
 /
-*
 *
 *
 The
@@ -2140,7 +2133,6 @@ AppLifecycleAction
 /
 *
 *
-*
 The
 application
 has
@@ -2159,7 +2151,6 @@ AppLifecycleAction
 )
 }
 /
-*
 *
 *
 State
@@ -2187,7 +2178,6 @@ AppAction
 (
 )
 /
-*
 *
 *
 [
@@ -2231,10 +2221,10 @@ closed
 was
 private
 .
-*
 Null
 means
 the
+*
 state
 should
 reset
@@ -2263,7 +2253,6 @@ TabStripAction
 )
 }
 /
-*
 *
 *
 An
@@ -2301,7 +2290,6 @@ AppAction
 (
 )
 /
-*
 *
 *
 [
@@ -2367,7 +2355,6 @@ TranslationsAction
 )
 }
 /
-*
 *
 *
 [
@@ -2535,12 +2522,12 @@ result
 that
 must
 be
-*
 reported
 even
 if
 the
 bookmark
+*
 feature
 goes
 out
@@ -2574,7 +2561,6 @@ BookmarkAction
 )
 }
 /
-*
 *
 *
 [
@@ -2754,7 +2740,6 @@ LensAction
 /
 *
 *
-*
 [
 AppAction
 ]
@@ -2775,7 +2760,6 @@ AppAction
 )
 {
 /
-*
 *
 *
 [
@@ -2799,7 +2783,6 @@ QrScannerAction
 (
 )
 /
-*
 *
 *
 [
@@ -2826,7 +2809,6 @@ QrScannerAction
 /
 *
 *
-*
 [
 QrScannerAction
 ]
@@ -2848,7 +2830,6 @@ QrScannerAction
 (
 )
 /
-*
 *
 *
 [
@@ -2883,7 +2864,6 @@ QrScannerAction
 /
 *
 *
-*
 [
 QrScannerAction
 ]
@@ -2907,7 +2887,6 @@ QrScannerAction
 )
 }
 /
-*
 *
 *
 [
@@ -3049,7 +3028,6 @@ ShortcutAction
 /
 *
 *
-*
 [
 ShortcutAction
 ]
@@ -3073,7 +3051,6 @@ ShortcutAction
 (
 )
 /
-*
 *
 *
 [
@@ -3105,7 +3082,6 @@ ShortcutAction
 /
 *
 *
-*
 [
 AppAction
 ]
@@ -3129,7 +3105,6 @@ AppAction
 /
 *
 *
-*
 [
 ShareAction
 ]
@@ -3151,7 +3126,6 @@ ShareAction
 (
 )
 /
-*
 *
 *
 [
@@ -3314,7 +3288,6 @@ ShareAction
 /
 *
 *
-*
 [
 ShareAction
 ]
@@ -3341,7 +3314,6 @@ ShareAction
 /
 *
 *
-*
 [
 AppAction
 ]
@@ -3362,7 +3334,6 @@ AppAction
 )
 {
 /
-*
 *
 *
 [
@@ -3386,7 +3357,6 @@ SnackbarAction
 /
 *
 *
-*
 [
 SnackbarAction
 ]
@@ -3407,7 +3377,6 @@ SnackbarAction
 (
 )
 /
-*
 *
 *
 [
@@ -3503,7 +3472,6 @@ SnackbarAction
 /
 *
 *
-*
 [
 AppAction
 ]
@@ -3527,7 +3495,6 @@ AppAction
 )
 {
 /
-*
 *
 *
 [
@@ -3554,7 +3521,6 @@ FindInPageAction
 /
 *
 *
-*
 [
 FindInPageAction
 ]
@@ -3577,7 +3543,6 @@ FindInPageAction
 (
 )
 /
-*
 *
 *
 [
@@ -3605,7 +3570,6 @@ FindInPageAction
 /
 *
 *
-*
 [
 AppAction
 ]
@@ -3630,7 +3594,6 @@ AppAction
 /
 *
 *
-*
 [
 ReaderViewAction
 ]
@@ -3652,7 +3615,6 @@ ReaderViewAction
 (
 )
 /
-*
 *
 *
 [
@@ -3679,7 +3641,6 @@ ReaderViewAction
 /
 *
 *
-*
 [
 ReaderViewAction
 ]
@@ -3702,7 +3663,6 @@ ReaderViewAction
 /
 *
 *
-*
 [
 ReaderViewAction
 ]
@@ -3718,7 +3678,6 @@ readerViewState
 to
 its
 default
-*
 state
 .
 *
@@ -3732,7 +3691,6 @@ ReaderViewAction
 )
 }
 /
-*
 *
 *
 [
@@ -3801,7 +3759,6 @@ PrivateBrowsingLockAction
 )
 }
 /
-*
 *
 *
 [
@@ -3887,7 +3844,6 @@ clicks
 on
 a
 content
-*
 recommendation
 .
 *
@@ -3956,7 +3912,6 @@ ContentRecommendationsAction
 /
 *
 *
-*
 Indicates
 the
 given
@@ -3985,7 +3940,6 @@ ContentRecommendationsAction
 (
 )
 /
-*
 *
 *
 Indicates
@@ -4048,7 +4002,6 @@ the
 story
 shown
 and
-*
 their
 respective
 position
@@ -4087,7 +4040,6 @@ ContentRecommendationsAction
 (
 )
 /
-*
 *
 *
 Cleans
@@ -4161,7 +4113,6 @@ ContentRecommendationsAction
 /
 *
 *
-*
 Replaces
 the
 list
@@ -4191,7 +4142,6 @@ ContentRecommendationsAction
 (
 )
 /
-*
 *
 *
 Restores
@@ -4233,7 +4183,6 @@ ContentRecommendationsAction
 /
 *
 *
-*
 [
 AppAction
 ]
@@ -4256,7 +4205,6 @@ AppAction
 )
 {
 /
-*
 *
 *
 Dispatched
@@ -4287,7 +4235,6 @@ WebCompatAction
 /
 *
 *
-*
 Dispatched
 when
 the
@@ -4308,7 +4255,6 @@ WebCompatAction
 (
 )
 /
-*
 *
 *
 Dispatched
@@ -4332,7 +4278,6 @@ WebCompatAction
 )
 }
 /
-*
 *
 *
 [
@@ -4359,7 +4304,6 @@ AppAction
 /
 *
 *
-*
 When
 the
 setup
@@ -4380,7 +4324,6 @@ SetupChecklistAction
 /
 *
 *
-*
 When
 the
 setup
@@ -4398,7 +4341,6 @@ SetupChecklistAction
 (
 )
 /
-*
 *
 *
 When
@@ -4484,7 +4426,6 @@ SetupChecklistAction
 )
 }
 /
-*
 *
 *
 [
@@ -4676,7 +4617,6 @@ DownloadAction
 /
 *
 *
-*
 [
 AppAction
 ]
@@ -4706,7 +4646,6 @@ AppAction
 /
 *
 *
-*
 Dispatched
 to
 trigger
@@ -4725,7 +4664,6 @@ ReviewPromptAction
 (
 )
 /
-*
 *
 *
 Dispatched
@@ -4749,7 +4687,6 @@ ReviewPromptAction
 (
 )
 /
-*
 *
 *
 Dispatched
@@ -4777,7 +4714,6 @@ ReviewPromptAction
 /
 *
 *
-*
 Dispatched
 when
 a
@@ -4803,7 +4739,6 @@ ReviewPromptAction
 /
 *
 *
-*
 Dispatched
 after
 a
@@ -4823,7 +4758,6 @@ ReviewPromptAction
 )
 }
 /
-*
 *
 *
 [
@@ -4870,7 +4804,6 @@ triggered
 the
 search
 .
-*
 May
 be
 null
@@ -4881,6 +4814,7 @@ not
 started
 from
 a
+*
 browser
 tab
 .
@@ -4929,7 +4863,6 @@ SearchAction
 (
 )
 /
-*
 *
 *
 The
@@ -5040,12 +4973,12 @@ are
 used
 to
 manage
-*
 the
 display
 and
 removal
 of
+*
 notifications
 within
 the
@@ -5150,7 +5083,6 @@ MenuNotification
 )
 }
 /
-*
 *
 *
 [
@@ -5335,7 +5267,6 @@ BlockedTrackersAction
 )
 }
 /
-*
 *
 *
 [

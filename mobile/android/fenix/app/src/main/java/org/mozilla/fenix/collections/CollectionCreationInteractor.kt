@@ -185,13 +185,13 @@ This
 affects
 which
 tabs
-*
 have
 been
 '
 selected
 '
 to
+*
 be
 saved
 into
@@ -229,12 +229,12 @@ This
 affects
 which
 tabs
-*
 have
 been
 '
 selected
 '
+*
 to
 be
 saved
@@ -306,7 +306,6 @@ Tab
 /
 *
 *
-*
 Called
 when
 the
@@ -353,7 +352,6 @@ Tab
 )
 }
 /
-*
 *
 *
 Forwards

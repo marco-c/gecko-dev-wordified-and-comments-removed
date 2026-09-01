@@ -174,11 +174,11 @@ and
 Payment
 Methods
 "
-*
 settings
 .
 The
 provided
+*
 [
 syncPreference
 ]
@@ -190,7 +190,6 @@ to
 the
 different
 fragments
-*
 that
 manages
 the
@@ -199,12 +198,12 @@ account
 authentication
 .
 A
+*
 toggle
 will
 be
 also
 added
-*
 depending
 on
 the
@@ -344,10 +343,10 @@ is
 clicked
 with
 a
-*
 preference
 status
 of
+*
 "
 Reconnect
 "
@@ -541,7 +540,6 @@ updateSyncPreferenceNeedsLogin
 /
 *
 *
-*
 Shows
 a
 switch
@@ -634,7 +632,6 @@ true
 /
 *
 *
-*
 Display
 that
 the
@@ -682,7 +679,6 @@ false
 }
 }
 /
-*
 *
 *
 Displays

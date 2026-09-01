@@ -67,6 +67,12 @@ components
 .
 metrics
 import
+kotlin
+.
+test
+.
+assertNotNull
+import
 org
 .
 junit
@@ -166,12 +172,6 @@ metrics
 fake
 .
 FakeLifecycleOwner
-import
-kotlin
-.
-test
-.
-assertNotNull
 internal
 class
 GleanUsageReportingMetricsServiceTest

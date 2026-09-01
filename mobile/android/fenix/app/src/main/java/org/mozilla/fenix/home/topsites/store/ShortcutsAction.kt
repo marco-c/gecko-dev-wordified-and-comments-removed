@@ -105,7 +105,6 @@ AddShortcutSource
 /
 *
 *
-*
 Actions
 to
 dispatch
@@ -149,10 +148,10 @@ ready
 to
 use
 .
-*
 This
 action
 is
+*
 dispatched
 automatically
 before
@@ -162,7 +161,6 @@ action
 is
 processed
 .
-*
 Its
 main
 purpose
@@ -170,6 +168,7 @@ is
 to
 trigger
 initialization
+*
 logic
 in
 middlewares
@@ -332,7 +331,6 @@ ShortcutsAction
 /
 *
 *
-*
 [
 ShortcutsAction
 ]
@@ -360,7 +358,6 @@ ShortcutsAction
 /
 *
 *
-*
 [
 ShortcutsAction
 ]
@@ -385,7 +382,6 @@ ShortcutsAction
 (
 )
 /
-*
 *
 *
 [

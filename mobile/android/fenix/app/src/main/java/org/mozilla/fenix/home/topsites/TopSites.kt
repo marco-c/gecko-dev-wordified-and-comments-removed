@@ -589,6 +589,18 @@ sites
 .
 TopSite
 import
+mozilla
+.
+components
+.
+ui
+.
+icons
+.
+R
+as
+iconsR
+import
 org
 .
 mozilla
@@ -720,20 +732,7 @@ fenix
 wallpapers
 .
 WallpaperState
-import
-mozilla
-.
-components
-.
-ui
-.
-icons
-.
-R
-as
-iconsR
 /
-*
 *
 *
 The
@@ -1195,7 +1194,6 @@ in
 private
 tab
 "
-*
 menu
 item
 .
@@ -1264,7 +1262,6 @@ sponsors
 your
 privacy
 "
-*
 menu
 item
 .
@@ -2392,7 +2389,6 @@ in
 private
 tab
 "
-*
 menu
 item
 .
@@ -2461,7 +2457,6 @@ sponsors
 your
 privacy
 "
-*
 menu
 item
 .
@@ -2756,7 +2751,6 @@ dp
 /
 *
 *
-*
 Represents
 the
 colors
@@ -2789,7 +2783,6 @@ companion
 object
 {
 /
-*
 *
 *
 Builder
@@ -2854,7 +2847,6 @@ faviconCardBackgroundColor
 /
 *
 *
-*
 Builder
 function
 used
@@ -2868,7 +2860,6 @@ TopSiteColors
 ]
 given
 a
-*
 [
 WallpaperState
 ]
@@ -4108,7 +4099,6 @@ return
 result
 }
 /
-*
 *
 *
 Returns

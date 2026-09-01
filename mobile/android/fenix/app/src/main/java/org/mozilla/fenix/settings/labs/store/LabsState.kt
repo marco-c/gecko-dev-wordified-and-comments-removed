@@ -173,7 +173,6 @@ Closed
 /
 *
 *
-*
 Represents
 the
 dialog
@@ -239,7 +238,6 @@ DialogState
 /
 *
 *
-*
 The
 dialog
 for
@@ -262,7 +260,6 @@ RestoreDefaults
 :
 DialogState
 /
-*
 *
 *
 No

@@ -71,7 +71,6 @@ ui
 /
 *
 *
-*
 Function
 for
 reducing

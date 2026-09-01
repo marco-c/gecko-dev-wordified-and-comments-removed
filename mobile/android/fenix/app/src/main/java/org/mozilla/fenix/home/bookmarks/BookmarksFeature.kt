@@ -166,9 +166,9 @@ HomeFragment
 *
 *
 *
-View
+Lifecycle
 -
-bound
+aware
 feature
 that
 retrieves
@@ -181,7 +181,6 @@ BookmarkNode
 s
 and
 dispatches
-*
 updates
 to
 the

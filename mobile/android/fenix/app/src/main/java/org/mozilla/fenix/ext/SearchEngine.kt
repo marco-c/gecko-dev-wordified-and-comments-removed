@@ -210,7 +210,6 @@ startpage
 /
 *
 *
-*
 Whether
 or
 not
@@ -290,12 +289,12 @@ com
 nocodes
 etc
 .
-*
 so
 this
 matches
 on
 the
+*
 google
 prefix
 rather
@@ -333,7 +332,6 @@ google
 =
 true
 /
-*
 *
 *
 Whether
@@ -376,7 +374,6 @@ true
 =
 null
 /
-*
 *
 *
 Return

@@ -144,7 +144,6 @@ String
 /
 *
 *
-*
 Holds
 default
 QrScannerState

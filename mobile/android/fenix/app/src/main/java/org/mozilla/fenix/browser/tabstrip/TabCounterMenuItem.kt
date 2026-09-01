@@ -103,14 +103,6 @@ text
 .
 Text
 import
-org
-.
-mozilla
-.
-fenix
-.
-R
-import
 mozilla
 .
 components
@@ -122,8 +114,15 @@ icons
 R
 as
 iconsR
+import
+org
+.
+mozilla
+.
+fenix
+.
+R
 /
-*
 *
 *
 Model
@@ -403,7 +402,6 @@ onClick
 /
 *
 *
-*
 Model
 representing
 a
@@ -417,7 +415,6 @@ Divider
 :
 TabCounterMenuItem
 /
-*
 *
 *
 Maps

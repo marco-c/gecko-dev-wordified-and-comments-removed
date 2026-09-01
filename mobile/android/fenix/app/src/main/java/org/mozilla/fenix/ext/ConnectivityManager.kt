@@ -85,7 +85,6 @@ NetworkCapabilities
 /
 *
 *
-*
 Checks
 for
 availability

@@ -117,7 +117,6 @@ contentEquals
 /
 *
 *
-*
 Verify
 that
 an
@@ -154,7 +153,6 @@ value
 )
 )
 /
-*
 *
 *
 Verify
@@ -213,12 +211,12 @@ resolution
 filtering
 )
 .
-*
 Checks
 if
 their
 action
 data
+*
 type
 identity
 class
@@ -228,7 +226,6 @@ are
 the
 same
 .
-*
 Does
 not
 compare

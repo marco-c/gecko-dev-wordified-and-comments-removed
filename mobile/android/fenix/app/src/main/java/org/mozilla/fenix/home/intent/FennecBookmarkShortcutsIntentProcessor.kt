@@ -209,7 +209,6 @@ IntentProcessor
 /
 *
 *
-*
 Returns
 true
 if
@@ -250,7 +249,6 @@ ACTION_FENNEC_HOMESCREEN_SHORTCUT
 /
 *
 *
-*
 If
 this
 is
@@ -262,7 +260,6 @@ Fennec
 pinned
 website
 shortcut
-*
 prepare
 it
 for
@@ -376,7 +373,6 @@ companion
 object
 {
 /
-*
 *
 *
 Fennec

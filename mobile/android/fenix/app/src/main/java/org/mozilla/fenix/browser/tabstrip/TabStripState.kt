@@ -178,7 +178,6 @@ displayed
 in
 the
 tab
-*
 counter
 menu
 .
@@ -390,10 +389,10 @@ needed
 to
 render
 the
-*
 tabs
 strip
 .
+*
 [
 TabStripState
 .
@@ -410,13 +409,13 @@ s
 privacy
 state
 when
-*
 [
 isSelectDisabled
 ]
 is
 false
 .
+*
 Otherwise
 the
 private

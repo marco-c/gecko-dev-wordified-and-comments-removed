@@ -67,7 +67,6 @@ onboarding
 /
 *
 *
-*
 The
 reason
 the

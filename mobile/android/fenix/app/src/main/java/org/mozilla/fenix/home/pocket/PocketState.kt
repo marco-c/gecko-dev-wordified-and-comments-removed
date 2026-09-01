@@ -261,7 +261,6 @@ Color
 /
 *
 *
-*
 Companion
 object
 for

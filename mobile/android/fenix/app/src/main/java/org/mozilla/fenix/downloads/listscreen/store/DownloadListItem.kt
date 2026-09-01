@@ -97,7 +97,6 @@ R
 /
 *
 *
-*
 Sealed
 interface
 representing
@@ -286,7 +285,6 @@ DownloadListItem
 /
 *
 *
-*
 The
 icon
 resource
@@ -310,7 +308,6 @@ getIcon
 (
 )
 /
-*
 *
 *
 The
@@ -357,7 +354,6 @@ contentType
 )
 }
 /
-*
 *
 *
 Text
@@ -786,7 +782,6 @@ it
 /
 *
 *
-*
 see
 [
 ContentTypeFilter
@@ -808,7 +803,6 @@ All
 /
 *
 *
-*
 The
 download
 status
@@ -823,7 +817,6 @@ interface
 Status
 {
 /
-*
 *
 *
 Indicates
@@ -852,7 +845,6 @@ Initiated
 :
 Status
 /
-*
 *
 *
 Indicates
@@ -898,7 +890,6 @@ Float
 :
 Status
 /
-*
 *
 *
 Indicates
@@ -947,7 +938,6 @@ Status
 /
 *
 *
-*
 Indicates
 that
 the
@@ -988,10 +978,10 @@ moved
 to
 failed
 because
-*
 something
 unexpected
 has
+*
 happened
 .
 *
@@ -1002,7 +992,6 @@ Failed
 :
 Status
 /
-*
 *
 *
 Indicates
@@ -1061,7 +1050,6 @@ DownloadListItem
 /
 *
 *
-*
 Enum
 class
 representing
@@ -1091,7 +1079,6 @@ Int
 /
 *
 *
-*
 Represents
 a
 download
@@ -1112,7 +1099,6 @@ download_header_in_progress
 /
 *
 *
-*
 Represents
 the
 current
@@ -1128,7 +1114,6 @@ string
 download_time_period_today
 )
 /
-*
 *
 *
 Represents
@@ -1151,7 +1136,6 @@ download_time_period_yesterday
 /
 *
 *
-*
 Represents
 the
 last
@@ -1170,7 +1154,6 @@ download_time_period_last_7_days
 /
 *
 *
-*
 Represents
 the
 last
@@ -1187,7 +1170,6 @@ string
 download_time_period_last_30_days
 )
 /
-*
 *
 *
 Represents

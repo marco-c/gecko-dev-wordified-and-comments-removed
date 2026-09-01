@@ -131,7 +131,6 @@ OnboardingPageUiData
 /
 *
 *
-*
 An
 interface
 to
@@ -154,7 +153,6 @@ DefaultBrowserPromptStorage
 /
 *
 *
-*
 Indicates
 if
 the
@@ -175,7 +173,6 @@ Boolean
 /
 *
 *
-*
 Indicates
 if
 the
@@ -193,7 +190,6 @@ isDefaultBrowserPromptSupported
 :
 Boolean
 /
-*
 *
 *
 Indicates

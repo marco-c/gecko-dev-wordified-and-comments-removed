@@ -218,12 +218,12 @@ the
 app
 is
 in
-*
 foreground
 this
 will
 call
 for
+*
 a
 dialog
 to
@@ -236,7 +236,6 @@ take
 (
 retry
 enabling
-*
 process
 spawning
 or
@@ -473,9 +472,9 @@ disabled
 and
 also
 asking
-*
 whether
 they
+*
 would
 like
 to
@@ -491,10 +490,10 @@ user
 chooses
 to
 retry
-*
 enable
 the
 extensions
+*
 process
 spawning
 .

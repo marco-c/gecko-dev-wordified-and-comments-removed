@@ -213,7 +213,6 @@ with
 their
 voice
 .
-*
 Once
 the
 search
@@ -221,6 +220,7 @@ is
 complete
 then
 a
+*
 new
 search
 should

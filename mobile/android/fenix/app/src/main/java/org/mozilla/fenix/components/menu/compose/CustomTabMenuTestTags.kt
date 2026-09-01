@@ -71,7 +71,6 @@ compose
 /
 *
 *
-*
 Test
 tags
 for
@@ -87,7 +86,6 @@ object
 CustomTabMenuTestTags
 {
 /
-*
 *
 *
 Test
@@ -115,7 +113,6 @@ menu
 bookmark_page
 "
 /
-*
 *
 *
 Test

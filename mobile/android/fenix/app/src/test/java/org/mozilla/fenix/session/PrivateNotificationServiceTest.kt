@@ -95,6 +95,12 @@ mockk
 .
 verify
 import
+kotlin
+.
+test
+.
+assertNotNull
+import
 mozilla
 .
 components
@@ -276,12 +282,6 @@ android
 controller
 .
 ServiceController
-import
-kotlin
-.
-test
-.
-assertNotNull
 RunWith
 (
 RobolectricTestRunner

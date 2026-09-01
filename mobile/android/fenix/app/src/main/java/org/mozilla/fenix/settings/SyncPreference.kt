@@ -132,13 +132,12 @@ in
 order
 to
 implement
-*
 visibility
+*
 changes
 to
 it
 .
-*
 *
 /
 class
@@ -174,7 +173,6 @@ null
 /
 *
 *
-*
 Whether
 or
 not
@@ -186,7 +184,6 @@ widget
 is
 visible
 .
-*
 *
 /
 var
@@ -208,13 +205,11 @@ preference_sync
 /
 *
 *
-*
 Updates
 the
 switch
 state
 .
-*
 *
 /
 internal

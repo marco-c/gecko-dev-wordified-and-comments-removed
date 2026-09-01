@@ -527,7 +527,6 @@ are
 provided
 by
 feature
-*
 modules
 and
 can
@@ -654,7 +653,6 @@ StrictModeManager
 /
 *
 *
-*
 Use
 cases
 that
@@ -684,7 +682,6 @@ value
 /
 *
 *
-*
 Use
 cases
 that
@@ -709,7 +706,6 @@ value
 )
 }
 /
-*
 *
 *
 Use
@@ -741,7 +737,6 @@ loadUrl
 /
 *
 *
-*
 Use
 cases
 that
@@ -767,7 +762,6 @@ sessionUseCases
 )
 }
 /
-*
 *
 *
 Use
@@ -893,7 +887,6 @@ value
 /
 *
 *
-*
 Use
 cases
 that
@@ -919,7 +912,6 @@ value
 /
 *
 *
-*
 Use
 cases
 that
@@ -942,7 +934,6 @@ value
 )
 }
 /
-*
 *
 *
 Use
@@ -1180,7 +1171,6 @@ value
 /
 *
 *
-*
 Use
 cases
 for
@@ -1196,7 +1186,6 @@ the
 in
 -
 app
-*
 share
 fragment
 .

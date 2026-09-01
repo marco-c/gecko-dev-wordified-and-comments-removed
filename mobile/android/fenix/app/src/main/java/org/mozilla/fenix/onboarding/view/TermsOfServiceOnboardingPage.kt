@@ -1100,11 +1100,11 @@ end
 of
 the
 list
-*
 is
 reached
 .
 This
+*
 ensures
 the
 index

@@ -141,7 +141,6 @@ supportedSponsoredStoriesLocales
 /
 *
 *
-*
 Test
 for
 the

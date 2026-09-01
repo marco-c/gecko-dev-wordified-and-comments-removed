@@ -144,7 +144,6 @@ from
 Android
 -
 Components
-*
 which
 adds
 the
@@ -152,6 +151,7 @@ ability
 to
 navigate
 to
+*
 the
 browser
 before

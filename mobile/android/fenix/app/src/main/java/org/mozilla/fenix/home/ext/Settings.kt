@@ -127,11 +127,11 @@ opened
 in
 such
 a
-*
 way
 that
 the
 other
+*
 conditions
 are
 not

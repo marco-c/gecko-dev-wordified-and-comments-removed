@@ -225,7 +225,6 @@ configuring
 the
 container
 activity
-*
 as
 edge
 -
@@ -238,6 +237,7 @@ to
 match
 how
 the
+*
 new
 fragment
 navigated
@@ -544,10 +544,10 @@ in
 [
 supportFragmentManager
 ]
-*
 and
 configure
 the
+*
 parent
 activity
 with
@@ -565,12 +565,12 @@ the
 current
 fragment
 .
-*
 This
 only
 works
 on
 if
+*
 API33
 +
 .
@@ -594,9 +594,9 @@ the
 callbacks
 are
 registered
-*
 before
 the
+*
 content
 view
 and
@@ -614,11 +614,11 @@ to
 -
 edge
 strategy
-*
 is
 applied
 to
 every
+*
 fragment
 through
 [
@@ -639,7 +639,6 @@ for
 which
 to
 set
-*
 a
 different
 edge
@@ -647,6 +646,7 @@ edge
 to
 -
 edge
+*
 behavior
 .
 *
@@ -669,11 +669,11 @@ or
 not
 depending
 on
-*
 the
 current
 fragment
 being
+*
 shown
 .
 *

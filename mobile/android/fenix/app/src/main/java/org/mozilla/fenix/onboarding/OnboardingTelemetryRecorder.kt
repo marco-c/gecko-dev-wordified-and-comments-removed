@@ -145,7 +145,6 @@ Surface
 /
 *
 *
-*
 Abstraction
 responsible
 for
@@ -197,6 +196,7 @@ the
 onboarding
 ping
 .
+*
 *
 param
 sequenceId
@@ -344,7 +344,6 @@ submit
 /
 *
 *
-*
 Records
 "
 onboarding_started
@@ -398,6 +397,7 @@ OnboardingPageUiData
 Type
 ]
 .
+*
 *
 param
 sequenceId
@@ -792,6 +792,7 @@ click
 event
 .
 *
+*
 param
 sequenceId
 The
@@ -900,6 +901,7 @@ click
 event
 .
 *
+*
 param
 sequenceId
 The
@@ -1006,6 +1008,7 @@ permission
 click
 event
 .
+*
 *
 param
 sequenceId
@@ -1114,6 +1117,7 @@ click
 event
 .
 *
+*
 param
 sequenceId
 The
@@ -1201,6 +1205,7 @@ click
 event
 .
 *
+*
 param
 sequenceId
 The
@@ -1286,6 +1291,7 @@ in
 click
 event
 .
+*
 *
 param
 sequenceId
@@ -1417,6 +1423,7 @@ click
 event
 .
 *
+*
 param
 sequenceId
 The
@@ -1502,6 +1509,7 @@ permission
 click
 event
 .
+*
 *
 param
 sequenceId
@@ -1633,6 +1641,7 @@ click
 event
 .
 *
+*
 param
 sequenceId
 The
@@ -1728,7 +1737,6 @@ installSource
 /
 *
 *
-*
 Records
 when
 the
@@ -1772,7 +1780,6 @@ installSource
 /
 *
 *
-*
 Records
 when
 the
@@ -1812,7 +1819,6 @@ installSource
 )
 }
 /
-*
 *
 *
 Records
@@ -1855,7 +1861,6 @@ installSource
 )
 }
 /
-*
 *
 *
 Records
@@ -1973,6 +1978,7 @@ button
 click
 event
 *
+*
 param
 optIn
 If
@@ -2023,7 +2029,6 @@ installSource
 /
 *
 *
-*
 Records
 the
 marketing
@@ -2063,7 +2068,6 @@ installSource
 )
 }
 /
-*
 *
 *
 Records
@@ -2120,6 +2124,7 @@ toggle
 event
 .
 *
+*
 param
 optIn
 True
@@ -2170,7 +2175,6 @@ installSource
 )
 }
 /
-*
 *
 *
 Sends
@@ -2270,13 +2274,13 @@ onboarding
 flow
 .
 *
+*
 property
 telemetryId
 The
 telemetry
 identifier
 .
-*
 *
 see
 [

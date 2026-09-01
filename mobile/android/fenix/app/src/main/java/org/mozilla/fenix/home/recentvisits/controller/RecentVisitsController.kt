@@ -257,7 +257,6 @@ Settings
 /
 *
 *
-*
 All
 possible
 updates
@@ -282,7 +281,6 @@ interface
 RecentVisitsController
 {
 /
-*
 *
 *
 Callback
@@ -457,7 +455,6 @@ String
 /
 *
 *
-*
 The
 default
 implementation
@@ -522,7 +519,6 @@ CoroutineScope
 RecentVisitsController
 {
 /
-*
 *
 *
 Shows
@@ -798,7 +794,6 @@ if
 one
 exists
 or
-*
 create
 a
 new
@@ -807,6 +802,7 @@ in
 which
 to
 load
+*
 this
 item
 '

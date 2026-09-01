@@ -87,12 +87,6 @@ kotlinx
 .
 coroutines
 .
-MainScope
-import
-kotlinx
-.
-coroutines
-.
 test
 .
 StandardTestDispatcher

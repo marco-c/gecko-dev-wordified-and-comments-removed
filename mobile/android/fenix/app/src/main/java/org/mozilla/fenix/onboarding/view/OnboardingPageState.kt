@@ -274,7 +274,6 @@ false
 /
 *
 *
-*
 Model
 containing
 text
@@ -304,7 +303,6 @@ onClick
 Unit
 )
 /
-*
 *
 *
 Model
@@ -377,7 +375,6 @@ String
 /
 *
 *
-*
 Sets
 the
 toolbar
@@ -395,7 +392,6 @@ toolbar_top
 "
 )
 /
-*
 *
 *
 Sets
@@ -416,7 +412,6 @@ toolbar_bottom
 )
 }
 /
-*
 *
 *
 Model
@@ -494,7 +489,6 @@ String
 /
 *
 *
-*
 Model
 containing
 data
@@ -532,7 +526,6 @@ String
 /
 *
 *
-*
 Contains
 all
 the
@@ -553,7 +546,6 @@ interface
 OnboardingTermsOfServiceEventHandler
 {
 /
-*
 *
 *
 Invoked
@@ -580,7 +572,6 @@ Unit
 /
 *
 *
-*
 Invoked
 when
 the
@@ -604,7 +595,6 @@ Unit
 /
 *
 *
-*
 Invoked
 when
 the
@@ -624,7 +614,6 @@ onManagePrivacyPreferencesLinkClicked
 =
 Unit
 /
-*
 *
 *
 Invoked

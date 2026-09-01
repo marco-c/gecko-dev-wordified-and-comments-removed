@@ -73,7 +73,6 @@ EditText
 /
 *
 *
-*
 Places
 cursor
 at

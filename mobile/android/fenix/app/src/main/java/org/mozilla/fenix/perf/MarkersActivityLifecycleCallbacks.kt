@@ -132,7 +132,6 @@ are
 called
 by
 the
-*
 super
 method
 (
@@ -140,6 +139,7 @@ e
 .
 g
 .
+*
 [
 Activity
 .
@@ -154,7 +154,6 @@ during
 the
 execution
 of
-*
 our
 implementation
 (
@@ -162,6 +161,7 @@ e
 .
 g
 .
+*
 [
 org
 .
@@ -179,7 +179,6 @@ than
 at
 the
 beginning
-*
 or
 end
 of

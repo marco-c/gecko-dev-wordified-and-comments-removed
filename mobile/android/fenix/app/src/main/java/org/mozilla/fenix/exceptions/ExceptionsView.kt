@@ -117,7 +117,6 @@ ComponentExceptionsBinding
 /
 *
 *
-*
 View
 that
 contains
@@ -151,6 +150,13 @@ T
 )
 {
 VisibleForTesting
+(
+otherwise
+=
+VisibleForTesting
+.
+PROTECTED
+)
 internal
 val
 binding

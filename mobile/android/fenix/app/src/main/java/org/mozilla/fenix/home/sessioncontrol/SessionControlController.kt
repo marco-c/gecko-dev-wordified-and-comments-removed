@@ -91,6 +91,14 @@ navigation
 .
 NavDirections
 import
+java
+.
+lang
+.
+ref
+.
+WeakReference
+import
 kotlinx
 .
 coroutines
@@ -158,6 +166,20 @@ feature
 session
 .
 SessionUseCases
+import
+mozilla
+.
+components
+.
+feature
+.
+tab
+.
+collections
+.
+Tab
+as
+ComponentTab
 import
 mozilla
 .
@@ -456,28 +478,6 @@ fenix
 wallpapers
 .
 WallpaperState
-import
-java
-.
-lang
-.
-ref
-.
-WeakReference
-import
-mozilla
-.
-components
-.
-feature
-.
-tab
-.
-collections
-.
-Tab
-as
-ComponentTab
 /
 *
 *
@@ -498,7 +498,6 @@ of
 the
 Tabs
 triggered
-*
 by
 the
 Interactor
@@ -515,7 +514,6 @@ interface
 SessionControlController
 {
 /
-*
 *
 *
 see
@@ -536,7 +534,6 @@ TabCollection
 /
 *
 *
-*
 see
 [
 CollectionInteractor
@@ -555,7 +552,6 @@ ComponentTab
 /
 *
 *
-*
 see
 [
 CollectionInteractor
@@ -572,7 +568,6 @@ collection
 TabCollection
 )
 /
-*
 *
 *
 see
@@ -596,7 +591,6 @@ ComponentTab
 /
 *
 *
-*
 see
 [
 CollectionInteractor
@@ -613,7 +607,6 @@ collection
 TabCollection
 )
 /
-*
 *
 *
 see
@@ -634,7 +627,6 @@ TabCollection
 /
 *
 *
-*
 see
 [
 CollectionInteractor
@@ -651,7 +643,6 @@ collection
 TabCollection
 )
 /
-*
 *
 *
 see
@@ -675,7 +666,6 @@ Boolean
 /
 *
 *
-*
 see
 [
 CollectionInteractor
@@ -689,7 +679,6 @@ handleCreateCollection
 (
 )
 /
-*
 *
 *
 see
@@ -710,7 +699,6 @@ Message
 /
 *
 *
-*
 see
 [
 MessageCardInteractor
@@ -727,7 +715,6 @@ message
 Message
 )
 /
-*
 *
 *
 see
@@ -750,7 +737,6 @@ Boolean
 /
 *
 *
-*
 see
 [
 SessionControlInteractor
@@ -767,7 +753,6 @@ state
 AppState
 )
 /
-*
 *
 *
 see
@@ -788,7 +773,6 @@ ChecklistItem
 /
 *
 *
-*
 see
 [
 SetupChecklistInteractor
@@ -802,7 +786,6 @@ onRemoveChecklistButtonClicked
 (
 )
 /
-*
 *
 *
 Registers
@@ -833,7 +816,6 @@ SessionControlControllerCallback
 /
 *
 *
-*
 Unregisters
 the
 callback
@@ -854,7 +836,6 @@ unregisterCallback
 )
 }
 /
-*
 *
 *
 Interface
@@ -878,7 +859,6 @@ SessionControlControllerCallback
 /
 *
 *
-*
 Callback
 to
 register
@@ -898,7 +878,6 @@ registerCollectionStorageObserver
 /
 *
 *
-*
 Callback
 to
 remove
@@ -914,7 +893,6 @@ tabCollection
 TabCollection
 )
 /
-*
 *
 *
 Callback

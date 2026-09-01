@@ -194,13 +194,13 @@ the
 [
 SearchEngine
 ]
-*
 to
 update
 the
 top
 sites
 that
+*
 are
 displayed
 .
@@ -230,7 +230,6 @@ the
 top
 sites
 view
-*
 with
 the
 storage
@@ -250,11 +249,11 @@ observation
 and
 updates
 will
-*
 occur
 .
 Defaults
 to
+*
 [
 Dispatchers
 .

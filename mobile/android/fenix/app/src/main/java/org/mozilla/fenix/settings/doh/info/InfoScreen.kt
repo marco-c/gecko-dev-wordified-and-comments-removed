@@ -798,7 +798,6 @@ style
 /
 *
 *
-*
 Holds
 the
 resource
@@ -811,7 +810,6 @@ any
 string
 resource
 IDs
-*
 that
 you
 want

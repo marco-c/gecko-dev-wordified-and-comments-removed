@@ -1178,10 +1178,10 @@ running
 into
 the
 risk
-*
 of
 triggering
 the
+*
 more
 restrictive
 count

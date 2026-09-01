@@ -158,9 +158,9 @@ of
 [
 SearchSuggestionProvider
 ]
-*
 which
 is
+*
 intended
 to
 have
@@ -178,9 +178,9 @@ guarantees
 that
 the
 suggestions
-*
 will
 be
+*
 put
 at
 the

@@ -335,7 +335,6 @@ access
 CfrToolsState
 ]
 .
-*
 CFR
 toggles
 will

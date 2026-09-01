@@ -169,9 +169,9 @@ directly
 to
 search
 .
-*
 Tapping
 the
+*
 private
 browsing
 mode

@@ -113,6 +113,12 @@ mockk
 .
 verify
 import
+kotlin
+.
+test
+.
+assertNotNull
+import
 mozilla
 .
 components
@@ -168,12 +174,6 @@ fenix
 wifi
 .
 WifiConnectionMonitor
-import
-kotlin
-.
-test
-.
-assertNotNull
 RunWith
 (
 AndroidJUnit4

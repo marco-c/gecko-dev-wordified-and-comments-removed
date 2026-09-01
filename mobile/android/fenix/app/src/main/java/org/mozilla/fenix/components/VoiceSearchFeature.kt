@@ -301,7 +301,6 @@ should
 observe
 AppStore
 for
-*
 voice
 search
 results
@@ -309,6 +308,7 @@ and
 update
 their
 own
+*
 state
 accordingly
 .
@@ -537,7 +537,6 @@ null
 /
 *
 *
-*
 Handles
 the
 voice
@@ -617,7 +616,6 @@ searchTerms
 /
 *
 *
-*
 Static
 binding
 for
@@ -647,7 +645,6 @@ a
 Fragment
 ]
 .
-*
 Upon
 destruction
 of
@@ -655,6 +652,7 @@ the
 fragment
 '
 s
+*
 view
 the
 binding
@@ -663,7 +661,6 @@ be
 unregistered
 and
 all
-*
 references
 cleared
 .

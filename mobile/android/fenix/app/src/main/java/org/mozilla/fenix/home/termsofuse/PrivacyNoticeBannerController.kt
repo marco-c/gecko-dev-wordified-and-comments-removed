@@ -93,7 +93,6 @@ PrivacyNoticeBannerStore
 /
 *
 *
-*
 Interface
 for
 handling
@@ -112,7 +111,6 @@ PrivacyNoticeBannerController
 /
 *
 *
-*
 Called
 when
 the
@@ -129,7 +127,6 @@ onBannerCloseClicked
 (
 )
 /
-*
 *
 *
 Called
@@ -151,7 +148,6 @@ onBannerPrivacyNoticeClicked
 /
 *
 *
-*
 Called
 when
 the
@@ -171,7 +167,6 @@ onBannerLearnMoreClicked
 /
 *
 *
-*
 Called
 when
 the
@@ -187,7 +182,6 @@ onBannerDisplayed
 )
 }
 /
-*
 *
 *
 The

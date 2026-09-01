@@ -194,10 +194,10 @@ as
 [
 Application
 ]
-*
 foreground
 and
 background
+*
 events
 .
 See
@@ -214,7 +214,6 @@ is
 expected
 to
 be
-*
 registered
 in
 [
@@ -224,6 +223,7 @@ onCreate
 ]
 by
 calling
+*
 [
 registerInAppOnCreate
 ]
@@ -247,10 +247,10 @@ application
 is
 stopped
 .
-*
 This
 is
 acceptable
+*
 from
 the
 current
@@ -265,7 +265,6 @@ more
 than
 the
 current
-*
 start
 up
 .
@@ -674,7 +673,6 @@ java
 }
 }
 /
-*
 *
 *
 A

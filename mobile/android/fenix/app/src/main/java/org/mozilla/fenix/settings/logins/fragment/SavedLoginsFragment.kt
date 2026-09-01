@@ -373,7 +373,6 @@ FirefoxTheme
 /
 *
 *
-*
 Defines
 the
 fragment

@@ -116,7 +116,6 @@ sending
 broadcast
 messages
 .
-*
 This
 interface
 abstracts
@@ -129,7 +128,6 @@ allowing
 for
 different
 implementations
-*
 and
 facilitating
 testing
@@ -218,10 +216,10 @@ Android
 system
 '
 s
-*
 standard
 broadcast
 mechanism
+*
 (
 [
 Context
@@ -246,13 +244,13 @@ the
 broadcast
 and
 access
-*
 application
 -
 specific
 information
 like
 the
+*
 package
 name
 .

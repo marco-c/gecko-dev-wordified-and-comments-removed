@@ -2293,10 +2293,10 @@ TabStripState
 ]
 by
 comparing
-*
 their
 properties
 as
+*
 assertEquals
 does
 .
@@ -2307,7 +2307,6 @@ lambda
 references
 in
 the
-*
 [
 TabCounterMenuItem
 .
@@ -2318,6 +2317,7 @@ as
 asserting
 them
 is
+*
 not
 straightforward
 .

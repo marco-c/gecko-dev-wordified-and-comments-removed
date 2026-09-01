@@ -556,10 +556,10 @@ MenuAction
 s
 that
 are
-*
 dispatched
 to
 the
+*
 [
 MenuStore
 ]
@@ -582,7 +582,6 @@ menu
 state
 and
 access
-*
 the
 selected
 tab
@@ -608,7 +607,6 @@ provided
 [
 BrowserNavigationParams
 ]
-*
 in
 a
 new
@@ -716,12 +714,12 @@ webCompatReporterMoreInfoSender
 WebCompatReporterMoreInfoSender
 ]
 used
-*
 to
 send
 WebCompat
 info
 to
+*
 webcompat
 .
 com
@@ -1948,6 +1946,8 @@ it
 s
 a
 custom
+/
+/
 tab
 activeSessionId
 =
@@ -2265,6 +2265,8 @@ it
 s
 a
 custom
+/
+/
 tab
 activeSessionId
 =

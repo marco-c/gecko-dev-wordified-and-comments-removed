@@ -394,12 +394,12 @@ a
 version
 of
 this
-*
 that
 is
 relative
 to
 a
+*
 window
 *
 /
@@ -453,7 +453,6 @@ height
 )
 }
 /
-*
 *
 *
 Used

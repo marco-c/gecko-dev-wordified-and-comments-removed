@@ -124,10 +124,10 @@ StartupTimeline
 ]
 .
 Android
-*
 application
 startup
 is
+*
 complex
 so
 it
@@ -146,7 +146,6 @@ e
 .
 g
 .
-*
 with
 a
 state
@@ -155,6 +154,7 @@ which
 helps
 check
 our
+*
 assumptions
 .
 Unfortunately
@@ -162,7 +162,6 @@ because
 this
 state
 machine
-*
 is
 not
 used
@@ -173,12 +172,12 @@ to
 determine
 possible
 startup
+*
 scenarios
 this
 is
 duplicating
 the
-*
 startup
 logic
 and
@@ -194,10 +193,10 @@ devs
 won
 '
 t
+*
 know
 about
 this
-*
 class
 when
 they
@@ -239,12 +238,12 @@ never
 hold
 any
 state
-*
 and
 should
 be
 100
 %
+*
 unit
 tested
 to
@@ -276,9 +275,9 @@ states
 to
 help
 us
-*
 better
 understand
+*
 Android
 startup
 .
@@ -293,7 +292,6 @@ not
 correlated
 to
 the
-*
 cold
 /
 warm
@@ -303,6 +301,7 @@ states
 Google
 Play
 Vitals
+*
 uses
 .
 *
@@ -347,7 +346,6 @@ StartupState
 /
 *
 *
-*
 The
 final
 screen
@@ -371,7 +369,6 @@ UNKNOWN
 /
 *
 *
-*
 A
 list
 of
@@ -391,7 +388,6 @@ HOME
 INTENT_RECEIVER
 }
 /
-*
 *
 *
 Given

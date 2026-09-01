@@ -119,7 +119,6 @@ Store
 /
 *
 *
-*
 The
 [
 Store
@@ -222,7 +221,6 @@ being
 loaded
 from
 storage
-*
 otherwise
 false
 .
@@ -281,9 +279,9 @@ the
 [
 AutofillFragmentState
 ]
-*
 through
 the
+*
 [
 autofillFragmentStateReducer
 ]

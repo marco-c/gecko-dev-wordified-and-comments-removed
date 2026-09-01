@@ -75,6 +75,14 @@ navigation
 .
 NavController
 import
+java
+.
+lang
+.
+ref
+.
+WeakReference
+import
 kotlinx
 .
 coroutines
@@ -322,14 +330,6 @@ utils
 Stories
 .
 markAsOpenedFromStoriesScreen
-import
-java
-.
-lang
-.
-ref
-.
-WeakReference
 private
 const
 val
@@ -390,7 +390,6 @@ stories_screen
 )
 }
 /
-*
 *
 *
 Contract
@@ -460,7 +459,6 @@ grid
 and
 index
 position
-*
 of
 the
 shown
@@ -628,7 +626,6 @@ grid
 and
 index
 position
-*
 of
 the
 clicked
@@ -669,7 +666,6 @@ StoriesImpressionSource
 /
 *
 *
-*
 Callback
 for
 when
@@ -691,7 +687,6 @@ handleDiscoverMoreClicked
 (
 )
 /
-*
 *
 *
 see
@@ -799,7 +794,6 @@ content
 click
 and
 impression
-*
 recording
 .
 *

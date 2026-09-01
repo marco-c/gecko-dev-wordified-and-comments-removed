@@ -569,10 +569,10 @@ the
 homepage
 when
 the
-*
 toolbar
 is
 positioned
+*
 at
 the
 top
@@ -588,13 +588,13 @@ the
 navigation
 bar
 is
-*
 rendered
 by
 [
 HomeToolbarComposable
 ]
 instead
+*
 and
 this
 content

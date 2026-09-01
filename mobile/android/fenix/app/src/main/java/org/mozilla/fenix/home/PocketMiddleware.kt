@@ -303,7 +303,6 @@ Settings
 /
 *
 *
-*
 Interface
 describing
 Pocket
@@ -448,8 +447,8 @@ persisting
 details
 about
 the
-*
 currently
+*
 selected
 Pocket
 recommended
@@ -484,8 +483,8 @@ we
 '
 ve
 reached
-*
 visual
+*
 completeness
 .
 *
@@ -1112,11 +1111,11 @@ about
 previously
 selected
 categories
-*
 and
 emits
 a
 new
+*
 [
 AppAction
 .
@@ -1173,8 +1172,8 @@ about
 the
 previously
 selected
-*
 stories
+*
 categories
 .
 *

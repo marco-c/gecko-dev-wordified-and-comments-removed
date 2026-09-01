@@ -95,6 +95,12 @@ widget
 .
 RecyclerView
 import
+java
+.
+util
+.
+Locale
+import
 org
 .
 mozilla
@@ -122,12 +128,6 @@ fenix
 utils
 .
 LocaleUtils
-import
-java
-.
-util
-.
-Locale
 class
 LocaleViewHolder
 (
@@ -740,7 +740,6 @@ Locale
 /
 *
 *
-*
 Similar
 to
 Kotlin
@@ -789,7 +788,6 @@ substring
 )
 }
 /
-*
 *
 *
 Returns

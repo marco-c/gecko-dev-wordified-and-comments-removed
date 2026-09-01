@@ -115,10 +115,10 @@ onboarding
 without
 onboarding
 being
-*
 shown
 namely
 a
+*
 sandboxed
 custom
 tab
@@ -153,10 +153,10 @@ sync
 auth
 custom
 tab
-*
 component
 across
 build
+*
 flavors
 .
 *
@@ -210,10 +210,10 @@ removed
 when
 it
 becomes
-*
 the
 default
 in
+*
 https
 :
 /

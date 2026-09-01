@@ -165,6 +165,12 @@ TestCase
 .
 assertTrue
 import
+kotlin
+.
+test
+.
+assertNotNull
+import
 mozilla
 .
 components
@@ -374,12 +380,6 @@ fenix
 utils
 .
 Settings
-import
-kotlin
-.
-test
-.
-assertNotNull
 class
 BaseBrowserFragmentTest
 {

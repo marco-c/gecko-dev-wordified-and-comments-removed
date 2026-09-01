@@ -107,11 +107,11 @@ file
 cannot
 be
 opened
-*
 because
 no
 application
 is
+*
 available
 to
 handle

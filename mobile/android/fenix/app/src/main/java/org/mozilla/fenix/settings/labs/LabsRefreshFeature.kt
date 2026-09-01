@@ -157,11 +157,11 @@ Nimbus
 .
 It
 refreshes
-*
 [
 store
 ]
 whenever
+*
 Nimbus
 applies
 enrollment
@@ -176,7 +176,6 @@ unenroll
 forced
 by
 a
-*
 failed
 Gecko
 pref

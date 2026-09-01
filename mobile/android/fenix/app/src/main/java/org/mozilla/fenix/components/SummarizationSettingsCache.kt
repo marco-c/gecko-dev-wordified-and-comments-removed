@@ -163,11 +163,11 @@ s
 so
 the
 UI
-*
 can
 read
 the
 latest
+*
 value
 synchronously
 via
@@ -180,12 +180,12 @@ a
 placeholder
 while
 the
-*
 underlying
 DataStore
 flow
 loads
 .
+*
 Persistence
 still
 goes

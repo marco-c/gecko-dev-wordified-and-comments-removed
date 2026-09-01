@@ -109,7 +109,6 @@ Store
 /
 *
 *
-*
 [
 State
 ]
@@ -127,7 +126,6 @@ IPProtectionPromptState
 :
 State
 /
-*
 *
 *
 [
@@ -148,7 +146,6 @@ IPProtectionPromptAction
 Action
 {
 /
-*
 *
 *
 Triggered
@@ -351,7 +348,6 @@ back
 or
 tapping
 the
-*
 background
 scrim
 .
@@ -386,7 +382,6 @@ IPProtectionPromptAction
 /
 *
 *
-*
 Triggered
 when
 the
@@ -406,7 +401,6 @@ OnPromptDismissed
 IPProtectionPromptAction
 }
 /
-*
 *
 *
 A

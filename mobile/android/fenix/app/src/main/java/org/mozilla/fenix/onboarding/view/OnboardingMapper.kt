@@ -129,7 +129,6 @@ ToolbarType
 /
 *
 *
-*
 Returns
 a
 list
@@ -300,7 +299,6 @@ and
 returns
 its
 JEXL
-*
 evaluation
 as
 a
@@ -322,7 +320,6 @@ the
 Nimbus
 conditions
 .
-*
 *
 return
 True
@@ -994,7 +991,6 @@ is
 a
 param
 for
-*
 [
 OnboardingPage
 ]

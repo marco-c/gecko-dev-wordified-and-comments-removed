@@ -107,7 +107,6 @@ showToolbar
 /
 *
 *
-*
 Displays
 the
 licenses

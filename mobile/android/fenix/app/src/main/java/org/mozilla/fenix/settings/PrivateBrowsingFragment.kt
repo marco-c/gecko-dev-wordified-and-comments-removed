@@ -275,7 +275,6 @@ isDeviceLockCapable
 /
 *
 *
-*
 Lets
 the
 user

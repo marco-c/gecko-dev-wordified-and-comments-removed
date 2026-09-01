@@ -370,7 +370,6 @@ State
 /
 *
 *
-*
 The
 ungrouped
 list
@@ -422,10 +421,10 @@ This
 overrides
 the
 user
-*
 selected
 content
 type
+*
 filter
 to
 [
@@ -441,7 +440,6 @@ are
 no
 items
 that
-*
 matches
 the
 user
@@ -539,7 +537,6 @@ of
 the
 item
 .
-*
 The
 ungrouped
 list
@@ -547,6 +544,7 @@ of
 items
 to
 display
+*
 excluding
 any
 items
@@ -555,7 +553,6 @@ are
 pending
 deletion
 and
-*
 that
 match
 the
@@ -566,6 +563,7 @@ filter
 and
 the
 search
+*
 query
 .
 *
@@ -628,7 +626,6 @@ true
 /
 *
 *
-*
 The
 list
 of
@@ -687,7 +684,6 @@ createdTime
 fileItems
 }
 /
-*
 *
 *
 The
@@ -751,7 +747,6 @@ sorted
 (
 )
 /
-*
 *
 *
 The
@@ -921,7 +916,6 @@ Editing
 /
 *
 *
-*
 see
 [
 DownloadUIState
@@ -964,7 +958,6 @@ All
 /
 *
 *
-*
 The
 state
 of
@@ -986,7 +979,6 @@ ItemsState
 /
 *
 *
-*
 The
 state
 when
@@ -1005,7 +997,6 @@ NoItems
 :
 ItemsState
 /
-*
 *
 *
 The
@@ -1031,7 +1022,6 @@ NoSearchResults
 :
 ItemsState
 /
-*
 *
 *
 The
@@ -1063,7 +1053,6 @@ ItemsState
 /
 *
 *
-*
 The
 mode
 of
@@ -1090,7 +1079,6 @@ FileItem
 /
 *
 *
-*
 Normal
 mode
 for
@@ -1108,7 +1096,6 @@ Mode
 (
 )
 /
-*
 *
 *
 Editing
@@ -1146,7 +1133,6 @@ Mode
 /
 *
 *
-*
 The
 state
 of
@@ -1164,7 +1150,6 @@ SnackbarState
 /
 *
 *
-*
 No
 snackbar
 is
@@ -1179,7 +1164,6 @@ None
 :
 SnackbarState
 /
-*
 *
 *
 The
@@ -1213,7 +1197,6 @@ SnackbarState
 /
 *
 *
-*
 The
 state
 of
@@ -1232,7 +1215,6 @@ interface
 DialogState
 {
 /
-*
 *
 *
 No
@@ -1259,6 +1241,7 @@ dialog
 is
 visible
 .
+*
 *
 property
 items
@@ -1299,6 +1282,7 @@ dialog
 is
 visible
 .
+*
 *
 property
 items

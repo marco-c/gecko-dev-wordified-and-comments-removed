@@ -73,6 +73,12 @@ content
 .
 Context
 import
+java
+.
+util
+.
+Locale
+import
 mozilla
 .
 components
@@ -100,14 +106,7 @@ mozilla
 fenix
 .
 BuildConfig
-import
-java
-.
-util
-.
-Locale
 /
-*
 *
 *
 Returns
@@ -224,8 +223,8 @@ suitable
 one
 is
 found
-*
 return
+*
 default
 .
 *

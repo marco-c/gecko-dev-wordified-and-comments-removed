@@ -83,7 +83,6 @@ to
 indicate
 which
 fragment
-*
 the
 browser
 is
@@ -107,7 +106,6 @@ the
 navigation
 graph
 .
-*
 An
 ID
 of
@@ -115,6 +113,7 @@ of
 indicates
 a
 global
+*
 action
 with
 no

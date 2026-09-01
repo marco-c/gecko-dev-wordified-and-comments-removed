@@ -360,11 +360,11 @@ with
 all
 permission
 handling
-*
 now
 delegated
 to
 the
+*
 ProfilerService
 and
 NotificationsDelegate

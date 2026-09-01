@@ -162,7 +162,6 @@ State
 /
 *
 *
-*
 [
 Action
 ]
@@ -182,7 +181,6 @@ PrivacyPreferencesAction
 Action
 {
 /
-*
 *
 *
 Dispatched
@@ -302,7 +300,6 @@ PrivacyPreferencesAction
 /
 *
 *
-*
 [
 PrivacyPreferencesAction
 ]
@@ -329,7 +326,6 @@ PrivacyPreferencesAction
 (
 )
 /
-*
 *
 *
 [
@@ -359,7 +355,6 @@ PrivacyPreferencesAction
 )
 }
 /
-*
 *
 *
 Reducer

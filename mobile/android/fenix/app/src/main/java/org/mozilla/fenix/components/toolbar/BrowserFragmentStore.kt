@@ -175,7 +175,6 @@ browserStateReducer
 /
 *
 *
-*
 The
 state
 for
@@ -223,11 +222,11 @@ Action
 ]
 and
 then
-*
 delegates
 to
 the
 proper
+*
 child
 *
 /

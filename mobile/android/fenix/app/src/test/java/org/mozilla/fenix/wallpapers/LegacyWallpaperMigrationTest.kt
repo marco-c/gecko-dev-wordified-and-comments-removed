@@ -77,6 +77,12 @@ mockk
 .
 verify
 import
+java
+.
+io
+.
+File
+import
 kotlinx
 .
 coroutines
@@ -208,12 +214,6 @@ wallpapers
 Wallpaper
 .
 ImageFileState
-import
-java
-.
-io
-.
-File
 class
 LegacyWallpaperMigrationTest
 {

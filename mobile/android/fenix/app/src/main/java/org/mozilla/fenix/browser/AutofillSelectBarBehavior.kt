@@ -129,7 +129,6 @@ ToolbarPosition
 /
 *
 *
-*
 Custom
 [
 CoordinatorLayout
@@ -412,7 +411,6 @@ dependency
 /
 *
 *
-*
 Place
 the
 autofill
@@ -476,7 +474,6 @@ layoutParams
 params
 }
 /
-*
 *
 *
 Place

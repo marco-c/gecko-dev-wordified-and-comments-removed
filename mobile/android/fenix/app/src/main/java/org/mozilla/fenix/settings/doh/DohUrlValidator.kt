@@ -81,7 +81,6 @@ URISyntaxException
 /
 *
 *
-*
 An
 object
 for
@@ -134,7 +133,6 @@ as
 a
 string
 .
-*
 *
 throws
 UrlValidationException
@@ -561,7 +559,6 @@ url
 /
 *
 *
-*
 Represents
 the
 possible
@@ -583,7 +580,6 @@ RuntimeException
 )
 {
 /
-*
 *
 *
 Indicates
@@ -609,7 +605,6 @@ UrlValidationException
 (
 )
 /
-*
 *
 *
 Indicates

@@ -265,7 +265,6 @@ items
 /
 *
 *
-*
 Update
 the
 displayed

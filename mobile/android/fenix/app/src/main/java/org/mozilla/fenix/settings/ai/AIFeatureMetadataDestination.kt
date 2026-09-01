@@ -141,7 +141,6 @@ TranslationsAIControllableFeature
 /
 *
 *
-*
 Defines
 the
 types
@@ -170,7 +169,6 @@ label
 Int
 }
 /
-*
 *
 *
 A
@@ -206,7 +204,6 @@ AIFeatureMetadataDestination
 /
 *
 *
-*
 A
 navigation
 destination
@@ -239,7 +236,6 @@ Int
 :
 AIFeatureMetadataDestination
 /
-*
 *
 *
 Map
@@ -318,7 +314,6 @@ else
 null
 }
 /
-*
 *
 *
 Allows

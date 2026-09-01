@@ -65,6 +65,12 @@ fenix
 .
 addons
 import
+kotlin
+.
+system
+.
+exitProcess
+import
 kotlinx
 .
 coroutines
@@ -108,12 +114,6 @@ fenix
 components
 .
 AppStore
-import
-kotlin
-.
-system
-.
-exitProcess
 /
 *
 *
@@ -134,10 +134,10 @@ when
 the
 app
 is
-*
 in
 background
 the
+*
 app
 is
 killed
@@ -150,7 +150,6 @@ disabled
 and
 network
 requests
-*
 continuing
 .
 *
@@ -210,7 +209,6 @@ background
 and
 extensions
 process
-*
 is
 disabled
 .
@@ -304,11 +302,11 @@ instead
 the
 app
 will
-*
 be
 killed
 to
 prevent
+*
 leaking
 network
 data

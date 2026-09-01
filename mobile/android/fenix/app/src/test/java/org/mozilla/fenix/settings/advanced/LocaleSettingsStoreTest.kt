@@ -67,6 +67,12 @@ settings
 .
 advanced
 import
+java
+.
+util
+.
+Locale
+import
 kotlinx
 .
 coroutines
@@ -94,12 +100,6 @@ org
 junit
 .
 Test
-import
-java
-.
-util
-.
-Locale
 class
 LocaleSettingsStoreTest
 {

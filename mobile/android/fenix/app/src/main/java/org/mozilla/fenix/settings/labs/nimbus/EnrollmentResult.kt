@@ -95,7 +95,6 @@ FirefoxLabsUnenrollStatus
 /
 *
 *
-*
 The
 simplified
 outcome
@@ -131,7 +130,6 @@ Nimbus
 /
 Success
 /
-*
 *
 *
 The
@@ -171,7 +169,6 @@ malformed
 Invalid
 }
 /
-*
 *
 *
 Maps
@@ -254,7 +251,6 @@ EnrollmentResult
 Failed
 }
 /
-*
 *
 *
 Maps

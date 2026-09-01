@@ -125,6 +125,12 @@ navigation
 .
 NavController
 import
+kotlin
+.
+math
+.
+abs
+import
 mozilla
 .
 telemetry
@@ -282,12 +288,6 @@ redux
 state
 .
 Page
-import
-kotlin
-.
-math
-.
-abs
 private
 const
 val
@@ -313,7 +313,6 @@ gesture
 handler
 that
 will
-*
 show
 the
 tabs
@@ -321,6 +320,7 @@ tray
 for
 the
 appropriate
+*
 swip
 up
 /
@@ -697,7 +697,6 @@ true
 /
 *
 *
-*
 Check
 if
 a
@@ -794,7 +793,6 @@ currentSwipeYDistance
 )
 }
 /
-*
 *
 *
 Check
@@ -914,11 +912,11 @@ screen
 -
 edge
 region
-*
 the
 OS
 reserves
 for
+*
 the
 "
 swipe
@@ -936,14 +934,13 @@ when
 gesture
 -
 based
-*
 navigation
 is
 used
 .
-*
 A
 bottom
+*
 toolbar
 /
 navbar
@@ -954,7 +951,6 @@ so
 swipes
 originating
 there
-*
 must
 be
 ignored
@@ -963,6 +959,7 @@ avoid
 mistaking
 the
 system
+*
 gesture
 for
 a

@@ -82,11 +82,11 @@ by
 objects
 that
 want
-*
 to
 respond
 to
 user
+*
 interaction
 on
 the
@@ -105,7 +105,6 @@ T
 /
 *
 *
-*
 Called
 whenever
 all
@@ -120,7 +119,6 @@ onDeleteAll
 (
 )
 /
-*
 *
 *
 Called

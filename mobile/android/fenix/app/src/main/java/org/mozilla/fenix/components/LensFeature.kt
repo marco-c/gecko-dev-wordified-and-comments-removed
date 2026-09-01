@@ -137,6 +137,12 @@ app
 .
 Fragment
 import
+java
+.
+io
+.
+IOException
+import
 kotlinx
 .
 coroutines
@@ -296,12 +302,6 @@ fenix
 ext
 .
 components
-import
-java
-.
-io
-.
-IOException
 /
 *
 *
@@ -692,7 +692,6 @@ LensDismissed
 /
 *
 *
-*
 Handles
 the
 result
@@ -1011,7 +1010,6 @@ carries
 a
 QR
 scan
-*
 payload
 (
 from
@@ -1019,6 +1017,7 @@ the
 in
 -
 camera
+*
 QR
 mode
 )
@@ -1031,7 +1030,6 @@ forwards
 the
 result
 to
-*
 [
 qrScanFeature
 ]
@@ -1042,11 +1040,11 @@ it
 as
 an
 image
+*
 capture
 and
 delegates
 to
-*
 [
 handleImageResult
 ]
@@ -1112,7 +1110,6 @@ data
 }
 }
 /
-*
 *
 *
 Handles
@@ -1391,7 +1388,6 @@ unknown
 /
 *
 *
-*
 Registers
 [
 LensFeature
@@ -1402,7 +1398,6 @@ a
 Fragment
 ]
 .
-*
 Returns
 null
 if

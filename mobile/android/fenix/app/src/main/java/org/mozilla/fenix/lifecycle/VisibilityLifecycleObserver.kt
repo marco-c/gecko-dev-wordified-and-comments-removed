@@ -105,7 +105,6 @@ BiometricAuthenticationManager
 /
 *
 *
-*
 [
 LifecycleObserver
 ]

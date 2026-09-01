@@ -83,7 +83,6 @@ RecentTab
 /
 *
 *
-*
 Interface
 for
 recent
@@ -143,7 +142,6 @@ String
 /
 *
 *
-*
 Show
 the
 tabs
@@ -164,7 +162,6 @@ button
 besides
 the
 recent
-*
 tabs
 .
 *
@@ -195,10 +192,10 @@ the
 "
 Remove
 "
-*
 button
 for
 recently
+*
 saved
 bookmarks
 on

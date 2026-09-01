@@ -109,7 +109,6 @@ SummarizeDiscoveryEvent
 /
 *
 *
-*
 Fake
 [
 SummarizationFeatureDiscoveryConfiguration

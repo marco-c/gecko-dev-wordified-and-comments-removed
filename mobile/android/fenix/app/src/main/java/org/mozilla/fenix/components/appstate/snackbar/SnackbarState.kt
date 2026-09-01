@@ -318,7 +318,6 @@ SnackbarState
 /
 *
 *
-*
 Display
 a
 snackbar
@@ -338,7 +337,6 @@ SnackbarState
 (
 )
 /
-*
 *
 *
 Display
@@ -489,12 +487,12 @@ operation
 in
 the
 bookmarks
-*
 feature
 that
 must
 be
 reported
+*
 globally
 .
 *
@@ -560,7 +558,6 @@ SnackbarState
 /
 *
 *
-*
 Display
 a
 snackbar
@@ -585,7 +582,6 @@ SnackbarState
 /
 *
 *
-*
 Display
 a
 snackbar
@@ -606,7 +602,6 @@ SnackbarState
 (
 )
 /
-*
 *
 *
 Display
@@ -763,7 +758,6 @@ SnackbarState
 /
 *
 *
-*
 Display
 a
 snackbar
@@ -787,7 +781,6 @@ SnackbarState
 /
 *
 *
-*
 Display
 a
 snackbar
@@ -807,7 +800,6 @@ SnackbarState
 (
 )
 /
-*
 *
 *
 Display
@@ -833,7 +825,6 @@ SnackbarState
 (
 )
 /
-*
 *
 *
 Display
@@ -1130,11 +1121,11 @@ been
 reached
 offering
 an
-*
 action
 to
 navigate
 to
+*
 the
 VPN
 settings

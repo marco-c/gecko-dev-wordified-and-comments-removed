@@ -207,7 +207,6 @@ the
 HomeFragment
 ]
 if
-*
 the
 current
 session
@@ -215,6 +214,7 @@ session
 s
 url
 is
+*
 updated
 to
 [

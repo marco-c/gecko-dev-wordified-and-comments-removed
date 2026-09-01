@@ -67,7 +67,6 @@ helpers
 /
 *
 *
-*
 A
 collection
 of
@@ -106,13 +105,13 @@ the
 name
 of
 the
-*
 Exception
 or
 "
 Caused
 by
 "
+*
 lines
 causing
 the
@@ -125,10 +124,10 @@ stack
 trace
 lines
 below
-*
 it
 .
 See
+*
 src
 /
 test
@@ -242,6 +241,8 @@ E
 AndroidRuntime
 :
 at
+/
+/
 android
 .
 os

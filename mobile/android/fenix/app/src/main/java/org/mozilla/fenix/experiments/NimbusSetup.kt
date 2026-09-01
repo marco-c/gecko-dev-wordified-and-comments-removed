@@ -286,11 +286,11 @@ nimbus_initial_fetch
 for
 the
 ideal
-*
 timeout
 .
 We
 should
+*
 NOT
 change
 this
@@ -322,7 +322,6 @@ Nimbus
 "
 )
 /
-*
 *
 *
 Create
@@ -852,11 +851,11 @@ to
 filter
 out
 the
-*
 non
 -
 reportable
 ones
+*
 if
 we
 know
@@ -962,7 +961,6 @@ object
 defined
 in
 the
-*
 nimbus
 .
 fml

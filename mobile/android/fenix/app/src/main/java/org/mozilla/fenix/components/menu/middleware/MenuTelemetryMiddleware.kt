@@ -224,7 +224,6 @@ are
 dispatch
 to
 the
-*
 [
 MenuStore
 ]

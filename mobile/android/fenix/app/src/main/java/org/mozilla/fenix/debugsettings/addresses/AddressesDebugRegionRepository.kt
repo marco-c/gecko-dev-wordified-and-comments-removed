@@ -105,7 +105,6 @@ ADDRESSES_DEBUG_REGION
 /
 *
 *
-*
 List
 of
 regions
@@ -140,7 +139,6 @@ AU
 /
 *
 *
-*
 Type
 declaring
 methods
@@ -161,7 +159,6 @@ interface
 AddressesDebugRegionRepository
 {
 /
-*
 *
 *
 Get
@@ -185,7 +182,6 @@ DebugRegion
 /
 *
 *
-*
 Check
 whether
 a
@@ -206,7 +202,6 @@ DebugRegion
 :
 Boolean
 /
-*
 *
 *
 Set
@@ -250,10 +245,10 @@ mechanism
 This
 was
 chosen
-*
 for
 easy
 interop
+*
 with
 utils
 /
@@ -373,7 +368,6 @@ enabled
 /
 *
 *
-*
 An
 empty
 [
@@ -437,7 +431,6 @@ noop
 }
 }
 /
-*
 *
 *
 A

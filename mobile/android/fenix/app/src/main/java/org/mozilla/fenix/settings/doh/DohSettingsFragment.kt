@@ -201,7 +201,6 @@ FirefoxTheme
 /
 *
 *
-*
 Settings
 for
 DNS

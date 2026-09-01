@@ -106,11 +106,11 @@ is
 based
 on
 the
-*
 priorities
 defined
 by
 the
+*
 desktop
 code
 found

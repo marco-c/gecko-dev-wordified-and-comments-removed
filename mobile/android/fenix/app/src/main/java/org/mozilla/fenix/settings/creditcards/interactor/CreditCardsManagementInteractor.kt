@@ -115,7 +115,6 @@ CreditCardsManagementController
 /
 *
 *
-*
 Interface
 for
 the
@@ -150,12 +149,12 @@ Called
 when
 a
 user
-*
 taps
 on
 a
 credit
 card
+*
 item
 .
 *
@@ -182,7 +181,6 @@ CreditCard
 /
 *
 *
-*
 Navigates
 to
 the
@@ -200,7 +198,6 @@ Called
 when
 a
 user
-*
 taps
 on
 '
@@ -243,7 +240,6 @@ will
 be
 delegated
 for
-*
 all
 user
 interactions

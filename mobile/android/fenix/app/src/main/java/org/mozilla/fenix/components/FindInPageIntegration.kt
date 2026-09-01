@@ -301,10 +301,10 @@ to
 be
 better
 positioned
-*
 to
 suit
 the
+*
 find
 in
 page
@@ -336,11 +336,11 @@ an
 unobstructed
 browser
 page
-*
 in
 which
 to
 search
+*
 and
 present
 results
@@ -359,11 +359,11 @@ they
 should
 be
 displayed
-*
 after
 this
 feature
 is
+*
 dismissed
 .
 *
@@ -452,7 +452,6 @@ _isFeatureActive
 =
 false
 /
-*
 *
 *
 Check
@@ -562,7 +561,6 @@ _isFeatureActive
 false
 }
 /
-*
 *
 *
 Start

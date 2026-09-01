@@ -124,7 +124,6 @@ be
 shown
 to
 users
-*
 if
 it
 is
@@ -134,6 +133,7 @@ there
 is
 not
 message
+*
 that
 is
 eligible

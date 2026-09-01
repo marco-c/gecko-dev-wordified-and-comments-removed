@@ -125,12 +125,12 @@ DEBUG
 ]
 which
 indicates
-*
 if
 the
 debuggable
 flag
 is
+*
 set
 which
 can
@@ -141,7 +141,6 @@ on
 released
 channel
 builds
-*
 (
 e
 .

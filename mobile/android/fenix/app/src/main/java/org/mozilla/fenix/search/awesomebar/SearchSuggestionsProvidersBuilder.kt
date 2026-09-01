@@ -493,7 +493,6 @@ SearchEngineSource
 /
 *
 *
-*
 View
 that
 contains
@@ -1561,7 +1560,6 @@ history
 suggestions
 .
 *
-*
 return
 A
 [
@@ -1572,11 +1570,11 @@ or
 HistoryStorageSuggestionProvider
 ]
 depending
-*
 on
 if
 the
 history
+*
 metadata
 feature
 is
@@ -2093,7 +2091,6 @@ tab
 suggestions
 .
 *
-*
 return
 [
 SyncedTabsStorageSuggestionProvider
@@ -2203,7 +2200,6 @@ tab
 suggestions
 .
 *
-*
 return
 [
 SessionSuggestionProvider
@@ -2309,7 +2305,6 @@ bookmark
 suggestions
 .
 *
-*
 return
 [
 BookmarksStorageSuggestionProvider
@@ -2394,7 +2389,6 @@ shouldIncludeUri
 /
 *
 *
-*
 Returns
 a
 [
@@ -2444,7 +2438,6 @@ it
 )
 }
 /
-*
 *
 *
 Returns
@@ -2530,11 +2523,11 @@ to
 show
 history
 suggestions
-*
 for
 the
 current
 search
+*
 engine
 .
 *
@@ -2555,11 +2548,11 @@ to
 show
 bookmarks
 suggestions
-*
 for
 the
 current
 search
+*
 engine
 .
 *
@@ -2590,10 +2583,10 @@ show
 synced
 tabs
 suggestions
-*
 for
 the
 current
+*
 search
 engine
 .
@@ -2616,11 +2609,11 @@ to
 show
 session
 suggestions
-*
 for
 the
 current
 search
+*
 engine
 .
 *
@@ -2800,7 +2793,6 @@ SearchEngineSource
 /
 *
 *
-*
 Filters
 to
 limit
@@ -2836,11 +2828,11 @@ filter
 only
 includes
 suggestions
-*
 whose
 URLs
 have
 the
+*
 same
 host
 as
@@ -2864,7 +2856,6 @@ SearchResultFilter
 /
 *
 *
-*
 A
 filter
 that
@@ -2876,7 +2867,6 @@ URLs
 contain
 the
 given
-*
 [
 queryParameter
 ]
@@ -2914,11 +2904,11 @@ be
 included
 in
 the
-*
 suggestions
 returned
 from
 the
+*
 provider
 .
 *
@@ -2983,9 +2973,9 @@ be
 included
 in
 the
-*
 suggestions
 returned
+*
 from
 the
 provider
@@ -3035,7 +3025,6 @@ queryParameter
 }
 }
 /
-*
 *
 *
 Static

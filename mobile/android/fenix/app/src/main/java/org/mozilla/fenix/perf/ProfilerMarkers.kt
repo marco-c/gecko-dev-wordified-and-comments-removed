@@ -135,7 +135,6 @@ marker
 is
 less
 readable
-*
 (
 e
 .
@@ -145,6 +144,7 @@ multiple
 lines
 more
 advanced
+*
 logic
 )
 .
@@ -391,7 +391,6 @@ detailText
 }
 }
 /
-*
 *
 *
 A

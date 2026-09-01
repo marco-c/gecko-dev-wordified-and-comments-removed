@@ -219,7 +219,6 @@ String
 /
 *
 *
-*
 See
 [
 CollectionCreationInteractor
@@ -238,7 +237,6 @@ SaveCollectionStep
 /
 *
 *
-*
 See
 [
 CollectionCreationInteractor
@@ -254,7 +252,6 @@ selectAllTabs
 /
 *
 *
-*
 See
 [
 CollectionCreationInteractor
@@ -268,7 +265,6 @@ deselectAllTabs
 (
 )
 /
-*
 *
 *
 See
@@ -297,7 +293,6 @@ Tab
 >
 )
 /
-*
 *
 *
 See

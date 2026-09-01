@@ -258,10 +258,10 @@ providers
 that
 supply
 credentials
-*
 to
 the
 underlying
+*
 [
 IPProtectionFeature
 ]
@@ -288,7 +288,6 @@ GooglePlayIntegrityClient
 >
 )
 /
-*
 *
 *
 Provides

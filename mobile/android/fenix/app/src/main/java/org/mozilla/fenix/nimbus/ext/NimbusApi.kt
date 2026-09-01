@@ -174,9 +174,9 @@ based
 on
 enrollment
 for
-*
 rendering
 with
+*
 [
 org
 .
@@ -366,9 +366,9 @@ based
 on
 enrollment
 for
-*
 rendering
 with
+*
 [
 org
 .
@@ -383,7 +383,6 @@ view
 NimbusExperiments
 ]
 using
-*
 the
 [
 kotlinx

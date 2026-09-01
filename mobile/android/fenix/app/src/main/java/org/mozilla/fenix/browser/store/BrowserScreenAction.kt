@@ -99,7 +99,6 @@ ReaderModeStatus
 /
 *
 *
-*
 Actions
 related
 to
@@ -196,13 +195,13 @@ cancellation
 of
 private
 downloads
-*
 in
 the
 scenario
 of
 closing
 all
+*
 private
 tabs
 .

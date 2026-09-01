@@ -279,7 +279,6 @@ delegate
 /
 *
 *
-*
 Interface
 to
 be
@@ -298,7 +297,6 @@ interface
 Observer
 {
 /
-*
 *
 *
 A
@@ -330,7 +328,6 @@ Unit
 /
 *
 *
-*
 Tab
 (
 s
@@ -358,7 +355,6 @@ TabSessionState
 =
 Unit
 /
-*
 *
 *
 Collection

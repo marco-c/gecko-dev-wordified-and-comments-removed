@@ -269,7 +269,6 @@ Settings
 /
 *
 *
-*
 Displays
 an
 [
@@ -545,6 +544,16 @@ loading
 Boolean
 )
 {
+if
+(
+!
+settings
+.
+inAppMessagesEnabled
+)
+{
+return
+}
 if
 (
 loading

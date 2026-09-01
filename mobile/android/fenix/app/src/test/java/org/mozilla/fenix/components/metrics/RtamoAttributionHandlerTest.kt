@@ -103,6 +103,12 @@ mockk
 .
 verify
 import
+java
+.
+io
+.
+IOException
+import
 kotlinx
 .
 coroutines
@@ -240,12 +246,6 @@ org
 robolectric
 .
 RobolectricTestRunner
-import
-java
-.
-io
-.
-IOException
 private
 const
 val

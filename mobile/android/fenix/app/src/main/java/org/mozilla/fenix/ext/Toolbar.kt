@@ -137,7 +137,6 @@ forEach
 /
 *
 *
-*
 Adjust
 the
 colors

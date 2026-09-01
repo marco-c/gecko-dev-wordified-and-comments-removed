@@ -165,9 +165,9 @@ prints
 time
 to
 visual
-*
 completeness
 to
+*
 logcat
 .
 *
@@ -193,8 +193,8 @@ to
 FNPRMS
 our
 internal
-*
 startup
+*
 measurement
 system
 .
@@ -209,7 +209,6 @@ the
 Google
 Play
 Vitals
-*
 dashboards
 .
 *
@@ -244,7 +243,6 @@ isInstrumented
 =
 false
 /
-*
 *
 *
 Instruments
@@ -372,10 +370,10 @@ loaded
 with
 placeholders
 ;
-*
 the
 animation
 to
+*
 display
 top
 sites
@@ -388,7 +386,6 @@ as
 will
 the
 asynchronous
-*
 loading
 of
 the
@@ -397,6 +394,7 @@ top
 sites
 icons
 .
+*
 Our
 focus
 for
@@ -405,7 +403,6 @@ complete
 is
 usability
 .
-*
 There
 are
 no
@@ -419,6 +416,7 @@ so
 they
 are
 ignored
+*
 for
 this
 instrumentation

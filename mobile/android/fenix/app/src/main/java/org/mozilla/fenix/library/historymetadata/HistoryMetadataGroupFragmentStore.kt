@@ -160,7 +160,6 @@ HistoryMetadataGroupFragmentState
 ]
 and
 applying
-*
 [
 HistoryMetadataGroupFragmentAction
 ]
@@ -202,10 +201,10 @@ HistoryMetadataGroupFragmentStore
 to
 modify
 the
-*
 [
 HistoryMetadataGroupFragmentState
 ]
+*
 through
 the
 [
@@ -285,7 +284,6 @@ the
 [
 AppStore
 ]
-*
 to
 the
 [
@@ -293,6 +291,7 @@ HistoryMetadataGroupFragmentStore
 ]
 to
 be
+*
 hidden
 from
 the
@@ -344,7 +343,6 @@ HistoryMetadataGroupFragmentAction
 (
 )
 /
-*
 *
 *
 Updates
@@ -472,7 +470,6 @@ action
 ]
 to
 be
-*
 performed
 .
 *

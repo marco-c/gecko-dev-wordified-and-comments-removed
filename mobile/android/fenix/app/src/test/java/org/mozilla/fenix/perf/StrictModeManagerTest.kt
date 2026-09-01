@@ -864,7 +864,6 @@ runs
 +
 =
 1
-;
 StrictMode
 .
 allowThreadDiskReads
@@ -920,7 +919,6 @@ runs
 +
 =
 1
-;
 StrictMode
 .
 allowThreadDiskReads

@@ -273,7 +273,6 @@ provides
 enhanced
 customization
 and
-*
 lifecycle
 -
 aware
@@ -438,10 +437,10 @@ bar
 content
 and
 ensures
-*
 that
 the
 associated
+*
 view
 -
 based

@@ -69,7 +69,6 @@ appstate
 /
 *
 *
-*
 Actions
 related
 to
@@ -91,7 +90,6 @@ AppAction
 )
 {
 /
-*
 *
 *
 A
@@ -141,13 +139,13 @@ user
 s
 voice
 input
-*
 or
 null
 if
 the
 operation
 was
+*
 cancelled
 or
 failed
@@ -169,7 +167,6 @@ VoiceSearchAction
 (
 )
 /
-*
 *
 *
 Previous

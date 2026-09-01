@@ -73,7 +73,6 @@ ViewModel
 /
 *
 *
-*
 [
 ViewModel
 ]
@@ -118,12 +117,12 @@ or
 [
 ALL_PRIVATE_TABS
 ]
-*
 to
 queue
 the
 sessions
 to
+*
 delete
 once
 the
@@ -144,7 +143,6 @@ null
 /
 *
 *
-*
 Contains
 constants
 used
@@ -159,7 +157,6 @@ companion
 object
 {
 /
-*
 *
 *
 Session
@@ -189,7 +186,6 @@ ALL_NORMAL_TABS
 all_normal
 "
 /
-*
 *
 *
 Session

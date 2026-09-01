@@ -305,7 +305,6 @@ CreditCardsManagementView
 /
 *
 *
-*
 Displays
 a
 list
@@ -513,7 +512,6 @@ credit_cards_saved_cards
 /
 *
 *
-*
 When
 the
 fragment
@@ -600,7 +598,6 @@ storage
 and
 updates
 the
-*
 [
 AutofillFragmentStore
 ]
@@ -608,6 +605,7 @@ with
 the
 list
 of
+*
 credit
 cards
 .
