@@ -6441,12 +6441,16 @@ importESModule
 (
             
 "
-resource
+moz
+-
+src
 :
 /
 /
 /
-modules
+browser
+/
+components
 /
 sessionstore
 /
