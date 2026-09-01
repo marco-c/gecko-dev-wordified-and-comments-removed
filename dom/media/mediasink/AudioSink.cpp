@@ -2243,7 +2243,9 @@ ended
 else
 if
 (
-mStoppedForSeek
+IsIntentionallySilent
+(
+)
 )
 {
 SINK_LOG_V

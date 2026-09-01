@@ -3664,6 +3664,16 @@ Available
 0
 )
 {
+if
+(
+!
+mDataSource
+.
+IsIntentionallySilent
+(
+)
+)
+{
 TRACE_COMMENT
 (
 "
@@ -3702,6 +3712,7 @@ Available
 )
 )
 ;
+}
 writer
 .
 WriteZeros
