@@ -13344,6 +13344,16 @@ viewer
 )
 )
 ;
+if
+(
+!
+viewer
+)
+{
+return
+false
+;
+}
 bool
 isHidden
 ;
