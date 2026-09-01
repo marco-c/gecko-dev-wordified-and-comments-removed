@@ -976,12 +976,6 @@ arch
 '
 x86_64
 '
-&
-&
-debug
-&
-&
-nova
 "
 #
 Bug
