@@ -19416,6 +19416,11 @@ actionOrigin
 searchString
 forcePasswordGeneration
 hasBeenTypePassword
+inputType
+:
+input
+.
+type
 isProbablyANewPasswordField
 scenarioName
 inputMaxLength
