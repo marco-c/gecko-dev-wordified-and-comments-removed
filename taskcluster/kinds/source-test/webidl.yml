@@ -114,11 +114,6 @@ time
 1800
 run
 :
-clone
--
-with
-:
-hg
 using
 :
 mach
