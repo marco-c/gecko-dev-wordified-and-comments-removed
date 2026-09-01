@@ -137,6 +137,9 @@ remote_bitrate_estimator
 rtp_rtcp
 "
 "
+sframe
+"
+"
 utility
 "
 "
