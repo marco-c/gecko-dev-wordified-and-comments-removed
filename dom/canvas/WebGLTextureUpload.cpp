@@ -6265,6 +6265,10 @@ get
 (
 )
 ;
+Truncate
+(
+)
+;
 return
 ;
 }
