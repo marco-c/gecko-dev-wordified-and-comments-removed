@@ -1,5 +1,5 @@
 use
-fxhash
+rustc_hash
 :
 :
 FxHashMap
@@ -434,6 +434,7 @@ Lookup
 )
 ;
 match
+*
 entry
 {
 Entry

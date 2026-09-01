@@ -5016,7 +5016,6 @@ Component
 :
 Is
 (
-ref
 l
 )
 |
@@ -5025,7 +5024,6 @@ Component
 :
 Where
 (
-ref
 l
 )
 =
@@ -5130,7 +5128,6 @@ Component
 :
 Negation
 (
-ref
 l
 )
 =
