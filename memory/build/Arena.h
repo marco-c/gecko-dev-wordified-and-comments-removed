@@ -873,6 +873,8 @@ MOZ_GUARDED_BY
 (
 mLock
 )
+=
+false
 ;
 bool
 mMustDeleteAfterPurge
