@@ -698,6 +698,7 @@ ssrc_
 ssrc
 ;
 }
+const
 std
 :
 :
@@ -705,6 +706,7 @@ vector
 <
 uint32_t
 >
+&
 VideoFrameMetadata
 :
 :

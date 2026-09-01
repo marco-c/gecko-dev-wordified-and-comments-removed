@@ -666,10 +666,12 @@ flags_
 flags
 ;
 }
+const
 std
 :
 :
 string
+&
 content_name
 (
 )

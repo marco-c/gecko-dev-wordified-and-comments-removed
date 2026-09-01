@@ -248,6 +248,7 @@ EphemeralKeyExchangeCipherGroups
 (
 )
 ;
+const
 std
 :
 :
@@ -255,6 +256,7 @@ vector
 <
 uint16_t
 >
+&
 GetEnabled
 (
 )

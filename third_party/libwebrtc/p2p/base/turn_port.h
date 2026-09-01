@@ -824,6 +824,7 @@ turn_logging_id
 )
 ;
 virtual
+const
 std
 :
 :
@@ -834,12 +835,14 @@ std
 :
 string
 >
+&
 GetTlsAlpnProtocols
 (
 )
 const
 ;
 virtual
+const
 std
 :
 :
@@ -850,6 +853,7 @@ std
 :
 string
 >
+&
 GetTlsEllipticCurves
 (
 )

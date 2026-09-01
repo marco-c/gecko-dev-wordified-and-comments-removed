@@ -137,6 +137,7 @@ Get
 )
 ;
 }
+const
 std
 :
 :
@@ -147,6 +148,7 @@ VideoEncoder
 :
 ResolutionBitrateLimits
 >
+&
 resolution_bitrate_limits
 (
 )
