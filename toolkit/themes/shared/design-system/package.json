@@ -59,7 +59,7 @@ tokens
 -
 config
 .
-js
+mjs
 &
 &
 prettier
@@ -67,6 +67,7 @@ prettier
 /
 dist
 /
+'
 .
 .
 /
@@ -86,6 +87,8 @@ widgets
 *
 .
 css
+'
+'
 .
 .
 /
@@ -110,6 +113,7 @@ shared
 *
 .
 css
+'
 -
 -
 write
@@ -180,11 +184,11 @@ dictionary
 :
 "
 ^
-3
+5
 .
-9
+5
 .
-2
+1
 "
 }
 }
