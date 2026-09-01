@@ -243,10 +243,7 @@ self
 .
 syncing
 =
-not
-self
-.
-mobile
+False
         
 if
 self

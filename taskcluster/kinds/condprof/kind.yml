@@ -349,6 +349,11 @@ firefox
 exe
 -
 -
+force
+-
+new
+-
+-
 scenario
 {
 SCENARIO
@@ -530,6 +535,11 @@ firefox
 firefox
 -
 bin
+-
+-
+force
+-
+new
 -
 -
 scenario
@@ -740,6 +750,11 @@ MOZ_FETCHES_DIR
 target
 .
 dmg
+-
+-
+force
+-
+new
 -
 -
 scenario
