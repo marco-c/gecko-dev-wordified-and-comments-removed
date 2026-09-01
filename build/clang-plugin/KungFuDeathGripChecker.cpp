@@ -30,8 +30,6 @@ addMatcher
 (
 varDecl
 (
-allOf
-(
 hasType
 (
 isRefPtr
@@ -45,7 +43,6 @@ hasInitializer
 (
 anything
 (
-)
 )
 )
 unless
@@ -357,6 +354,9 @@ IgnoreTypes
 {
 "
 already_AddRefed
+"
+"
+GetServiceHelper
 "
 "
 nsGetServiceByCID
