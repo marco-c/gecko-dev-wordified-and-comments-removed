@@ -3559,7 +3559,6 @@ size
 (
 )
 >
-=
 stream_idx
 &
 &
