@@ -1781,6 +1781,7 @@ EventChainPostVisitor
 aVisitor
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 LegacyCanceledActivationBehavior
 (
@@ -2018,6 +2019,7 @@ aVisitor
 ;
 private
 :
+MOZ_KNOWN_LIVE
 const
 nsCOMPtr
 <

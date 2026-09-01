@@ -46,6 +46,12 @@ GeckoContentController
 {
 public
 :
+NS_INLINE_DECL_THREADSAFE_REFCOUNTING
+(
+ContentProcessController
+final
+)
+;
 explicit
 ContentProcessController
 (
@@ -153,6 +159,7 @@ aInputBlockId
 )
 override
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 NotifyMozMouseScrollEvent
 (
@@ -268,6 +275,14 @@ override
 ;
 private
 :
+virtual
+~
+ContentProcessController
+(
+)
+=
+default
+;
 RefPtr
 <
 dom

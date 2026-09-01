@@ -924,6 +924,15 @@ rv
 bool
 isPrettyPrinting
 ;
+const
+RefPtr
+<
+Document
+>
+doc
+=
+mDocument
+;
 rv
 =
 printer
@@ -931,7 +940,7 @@ printer
 >
 PrettyPrint
 (
-mDocument
+doc
 mXSLTIsDisabled
 &
 isPrettyPrinting

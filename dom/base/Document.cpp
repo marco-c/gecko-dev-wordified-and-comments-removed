@@ -47923,6 +47923,7 @@ BlockOnload
 ;
 }
 }
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 NS_IMETHOD
 Run
 (
@@ -79746,6 +79747,7 @@ return
 nullptr
 ;
 }
+MOZ_CAN_RUN_SCRIPT
 static
 inline
 void
@@ -79855,8 +79857,11 @@ FullscreenRequest
 aRequest
 )
 {
+const
+RefPtr
+<
 Element
-*
+>
 elem
 =
 aRequest
@@ -81120,8 +81125,11 @@ request
 requests
 )
 {
+const
+RefPtr
+<
 Document
-*
+>
 doc
 =
 request
@@ -81345,7 +81353,6 @@ AtEnd
 )
 ;
 }
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
 bool
 Document
 :
@@ -81359,8 +81366,11 @@ FullscreenRequest
 aRequest
 )
 {
+const
+RefPtr
+<
 Element
-*
+>
 elem
 =
 aRequest

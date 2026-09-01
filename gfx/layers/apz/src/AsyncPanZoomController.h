@@ -998,6 +998,7 @@ CSSRect
 aInitialScrollableRect
 )
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 nsEventStatus
 HandleInputEvent
 (
@@ -1342,6 +1343,7 @@ aThumbData
 )
 const
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 NotifyMozMouseScrollEvent
 (
@@ -1635,6 +1637,7 @@ PanGestureInput
 aEvent
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsEventStatus
 OnScrollWheel
 (

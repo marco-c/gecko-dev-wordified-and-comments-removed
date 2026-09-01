@@ -1501,6 +1501,7 @@ return
 rv
 ;
 }
+MOZ_CAN_RUN_SCRIPT
 void
 EndSubmitClick
 (
@@ -1588,6 +1589,9 @@ MakeScopeExit
 [
 &
 ]
+(
+)
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 {
 EndSubmitClick
 (

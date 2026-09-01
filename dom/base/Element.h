@@ -5674,6 +5674,7 @@ No
 Yes
 }
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 AttachAndSetUAShadowRoot
 (
@@ -5701,6 +5702,7 @@ aNotify
 true
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 NotifyUAWidgetSetupOrChange
 (
@@ -5716,6 +5718,7 @@ No
 Yes
 }
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 TeardownUAShadowRoot
 (

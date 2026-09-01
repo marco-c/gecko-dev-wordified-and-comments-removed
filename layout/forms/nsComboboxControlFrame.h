@@ -27,9 +27,6 @@ class
 PresShell
 ;
 class
-HTMLSelectEventListener
-;
-class
 ComboboxLabelFrame
 ;
 namespace
@@ -190,6 +187,7 @@ aPrevInFlow
 )
 final
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 void
 Destroy
 (
@@ -286,15 +284,6 @@ nscoord
 mDisplayISize
 =
 0
-;
-RefPtr
-<
-mozilla
-:
-:
-HTMLSelectEventListener
->
-mEventListener
 ;
 }
 ;

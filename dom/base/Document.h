@@ -4800,6 +4800,7 @@ RemoveMediaElementWithMSE
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 DoNotifyPossibleTitleChange
 (
@@ -5783,6 +5784,7 @@ eSame
 eErrorPromiseRejected
 }
 ;
+MOZ_CAN_RUN_SCRIPT
 ElementReadyCheckResult
 FullscreenElementReadyCheck
 (
@@ -5807,6 +5809,7 @@ false
 ;
 private
 :
+MOZ_CAN_RUN_SCRIPT
 void
 RequestFullscreenInContentProcess
 (
@@ -6144,6 +6147,7 @@ Document
 aDocument
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 static
 bool
 HandlePendingFullscreenRequests
@@ -12578,6 +12582,7 @@ GetPermissionDelegateHandler
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 NotifyFetchOrXHRSuccess
 (
@@ -13533,7 +13538,7 @@ MaybeActiveMediaComponents
 (
 )
 ;
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
+MOZ_CAN_RUN_SCRIPT
 bool
 ApplyFullscreen
 (

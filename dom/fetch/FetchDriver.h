@@ -198,6 +198,7 @@ NS_INLINE_DECL_THREADSAFE_REFCOUNTING
 FetchDriverObserver
 )
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 void
 OnResponseAvailable
 (
@@ -297,6 +298,7 @@ FetchDriverObserver
 =
 default
 ;
+MOZ_CAN_RUN_SCRIPT
 virtual
 void
 OnResponseAvailableInternal
@@ -785,6 +787,7 @@ aPreferredAlternativeDataType
 _ns
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 SafeRefPtr
 <
 InternalResponse
@@ -820,6 +823,7 @@ aStripAuthHeader
 )
 const
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 FinishOnStopRequest
 (

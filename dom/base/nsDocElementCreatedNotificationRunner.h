@@ -76,6 +76,7 @@ aDoc
 )
 {
 }
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 NS_IMETHOD
 Run
 (
@@ -94,6 +95,8 @@ return
 NS_OK
 ;
 }
+MOZ_KNOWN_LIVE
+const
 RefPtr
 <
 mozilla

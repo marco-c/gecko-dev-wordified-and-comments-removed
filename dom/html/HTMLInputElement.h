@@ -387,12 +387,16 @@ aFpCallback
 }
 NS_DECL_ISUPPORTS
 NS_DECL_NSICONTENTPREFCALLBACK2
+MOZ_KNOWN_LIVE
+const
 nsCOMPtr
 <
 nsIFilePicker
 >
 mFilePicker
 ;
+MOZ_KNOWN_LIVE
+const
 nsCOMPtr
 <
 nsIFilePickerShownCallback
@@ -726,6 +730,7 @@ aVisitor
 )
 override
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 LegacyCanceledActivationBehavior
 (
@@ -836,6 +841,7 @@ SnapToTickMarks
 No
 )
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 nsresult
 BindToTree
 (
@@ -847,6 +853,7 @@ aParent
 )
 override
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 void
 UnbindFromTree
 (
@@ -3442,6 +3449,7 @@ GetDateTimeBoxElement
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 OpenDateTimePicker
 (
@@ -3451,6 +3459,7 @@ DateTimeValue
 aInitialValue
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 CloseDateTimePicker
 (
@@ -3463,6 +3472,7 @@ bool
 aIsOpen
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 OpenColorPicker
 (
@@ -3767,6 +3777,7 @@ TextControlElement
 :
 IsSingleLineTextControl
 ;
+MOZ_CAN_RUN_SCRIPT
 ShadowRoot
 *
 CreateShadowTreeFromLayoutIfNeeded
@@ -4646,6 +4657,7 @@ EventTarget
 aOriginalTarget
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 MaybeInitPickers
 (
@@ -4669,6 +4681,7 @@ FILE_PICKER_FILE
 FILE_PICKER_DIRECTORY
 }
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 InitFilePicker
 (
@@ -4676,6 +4689,7 @@ FilePickerType
 aType
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 InitColorPicker
 (
@@ -5387,6 +5401,7 @@ FormControlType
 InputNumber
 ;
 }
+MOZ_CAN_RUN_SCRIPT
 void
 SetupShadowTree
 (

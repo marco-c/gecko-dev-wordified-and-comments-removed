@@ -9044,6 +9044,7 @@ doc
 ]
 (
 )
+MOZ_CAN_RUN_SCRIPT_BOUNDARY_LAMBDA
 {
 nsContentUtils
 :
@@ -9203,6 +9204,7 @@ doc
 ]
 (
 )
+MOZ_CAN_RUN_SCRIPT_BOUNDARY_LAMBDA
 {
 bool
 hasHadScriptObject

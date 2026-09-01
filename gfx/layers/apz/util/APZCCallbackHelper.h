@@ -52,11 +52,6 @@ nsRefreshObservers
 .
 h
 "
-#
-include
-<
-functional
->
 class
 nsIContent
 ;
@@ -419,6 +414,7 @@ uint64_t
 aInputBlockId
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 static
 void
 NotifyMozMouseScrollEvent

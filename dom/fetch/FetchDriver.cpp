@@ -1190,6 +1190,7 @@ aRequest
 nsresult
 aStatusCode
 )
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 {
 AssertIsOnMainThread
 (
@@ -5004,6 +5005,7 @@ nsIRequest
 *
 aRequest
 )
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 {
 FETCH_LOG
 (
@@ -7312,6 +7314,7 @@ aRequest
 nsresult
 aStatusCode
 )
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 {
 FETCH_LOG
 (

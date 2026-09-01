@@ -262,6 +262,7 @@ Element
 aDest
 )
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 void
 UnbindFromTree
 (
@@ -514,6 +515,7 @@ GetVideoPlaybackQuality
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 already_AddRefed
 <
 Promise
@@ -528,6 +530,7 @@ ErrorResult
 rv
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 StopCloningElementVisually
 (
@@ -952,6 +955,7 @@ MaybeBeginCloningVisually
 )
 override
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 EndCloningVisually
 (

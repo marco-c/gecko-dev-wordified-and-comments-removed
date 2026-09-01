@@ -1756,6 +1756,7 @@ aAttrs
 )
 override
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 void
 BlobStoreCompleted
 (
@@ -1770,6 +1771,7 @@ aResult
 )
 override
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 LocalFileToBlobCompleted
 (
@@ -1924,11 +1926,13 @@ InUploadPhase
 )
 const
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 OnBodyParseEnd
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 ChangeStateToDone
 (
@@ -1936,6 +1940,7 @@ bool
 aWasSync
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 ChangeStateToDoneInternal
 (
@@ -3082,6 +3087,7 @@ aXHR
 )
 {
 }
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 NS_IMETHOD
 Run
 (
@@ -3148,6 +3154,7 @@ nsIDOMEventListener
 public
 :
 NS_DECL_ISUPPORTS
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 NS_IMETHOD
 HandleEvent
 (

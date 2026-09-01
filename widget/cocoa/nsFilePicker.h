@@ -64,6 +64,7 @@ nsIFilePicker
 ResultCode
 ;
 NS_DECL_ISUPPORTS
+MOZ_CAN_RUN_SCRIPT
 NS_IMETHOD
 Open
 (

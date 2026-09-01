@@ -23757,8 +23757,8 @@ return
 }
 if
 (
-auto
-*
+const
+RefPtr
 input
 =
 HTMLInputElement

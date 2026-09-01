@@ -865,6 +865,7 @@ Element
 aSubmitter
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 Submit
 (
@@ -1069,6 +1070,7 @@ HandleDefaultSubmitRemoval
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 DoSubmit
 (
@@ -1091,6 +1093,7 @@ Event
 aEvent
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 SubmitSubmission
 (
@@ -1107,6 +1110,7 @@ DialogFormSubmission
 aFormSubmission
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 DispatchBeforeSubmitChromeOnlyEvent
 (
@@ -1207,6 +1211,7 @@ aName
 ;
 public
 :
+MOZ_CAN_RUN_SCRIPT
 void
 FlushPendingSubmission
 (
