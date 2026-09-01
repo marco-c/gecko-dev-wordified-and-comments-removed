@@ -93,6 +93,11 @@ attribute
 AString
 title
 ;
+readonly
+attribute
+ACString
+navigate
+;
 }
 ;
 [
@@ -149,6 +154,11 @@ readonly
 attribute
 ACString
 icon
+;
+readonly
+attribute
+ACString
+navigate
 ;
 readonly
 attribute
