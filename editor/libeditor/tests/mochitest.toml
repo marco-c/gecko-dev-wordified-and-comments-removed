@@ -2796,6 +2796,13 @@ html
 ]
 [
 "
+test_paste_command_data
+.
+html
+"
+]
+[
+"
 test_paste_no_formatting
 .
 html
