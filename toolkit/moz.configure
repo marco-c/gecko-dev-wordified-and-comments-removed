@@ -33158,7 +33158,9 @@ moz_debug
 |
 milestone
 .
-is_early_beta_or_earlier
+is_nightly
+|
+moz_dev_edition
 )
 set_define
 (
@@ -33172,7 +33174,9 @@ moz_debug
 |
 milestone
 .
-is_early_beta_or_earlier
+is_nightly
+|
+moz_dev_edition
 )
 #
 Desktop
