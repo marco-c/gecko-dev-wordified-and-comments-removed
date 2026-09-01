@@ -2186,6 +2186,8 @@ browser
 skin
 /
 translations
+-
+companion
 .
 svg
 "
