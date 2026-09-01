@@ -6,15 +6,6 @@ define
 mozilla_BinarySearch_h
 #
 include
-"
-mozilla
-/
-Assertions
-.
-h
-"
-#
-include
 <
 cstddef
 >
@@ -23,6 +14,15 @@ include
 <
 utility
 >
+#
+include
+"
+mozilla
+/
+Assertions
+.
+h
+"
 namespace
 mozilla
 {
@@ -93,7 +93,7 @@ low
 2
 ;
 const
-int
+auto
 result
 =
 aCompare
@@ -344,7 +344,7 @@ low
 2
 ;
 const
-int
+auto
 result
 =
 aCompare
@@ -446,7 +446,7 @@ low
 2
 ;
 const
-int
+auto
 result
 =
 aCompare
@@ -554,7 +554,7 @@ low
 2
 ;
 const
-int
+auto
 result
 =
 aCompare
