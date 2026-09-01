@@ -255,7 +255,11 @@ in
 {
 ref
 }
-NSPR_Naming_Conventions
+nspr
+-
+naming
+-
+conventions
 .
 in
 the

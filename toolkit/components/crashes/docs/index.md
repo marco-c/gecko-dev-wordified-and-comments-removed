@@ -1,9 +1,3 @@
-(
-crashes
--
-crashmanager
-)
-=
 #
 Crash
 Manager
@@ -165,7 +159,7 @@ glean
 /
 index
 .
-html
+md
 )
 .
 The

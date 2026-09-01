@@ -1505,7 +1505,11 @@ ref
 }
 above
 <
-run_make_schemas
+run
+-
+make
+-
+schemas
 >
 .
 #
