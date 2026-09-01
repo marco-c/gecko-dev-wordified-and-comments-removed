@@ -1,9 +1,3 @@
-using
-size_t
-=
-unsigned
-long
-;
 void
 *
 memcpy
@@ -15,7 +9,7 @@ const
 void
 *
 src
-size_t
+unsigned
 n
 )
 ;
