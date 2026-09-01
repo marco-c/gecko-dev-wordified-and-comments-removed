@@ -81,6 +81,12 @@ aWM
 aContentBoxSizeToBoxSizingAdjust
 ;
 return
+std
+:
+:
+max
+(
+0
 aRatioDependentAxis
 =
 =
@@ -139,6 +145,7 @@ boxSizingAdjust
 BSize
 (
 aWM
+)
 )
 ;
 }
