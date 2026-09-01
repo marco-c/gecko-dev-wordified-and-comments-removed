@@ -28618,7 +28618,7 @@ manage
 {
 this
 .
-window
+controller
 .
 openPreferences
 (
