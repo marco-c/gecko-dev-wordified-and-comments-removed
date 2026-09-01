@@ -57,16 +57,6 @@ PlusInfinity
 (
 )
 ;
-TimeDelta
-bwe_period
-=
-TimeDelta
-:
-:
-PlusInfinity
-(
-)
-;
 double
 cwnd_reduce_ratio
 =

@@ -338,10 +338,6 @@ last_rtt_ms_
 (
 0
 )
-last_probing_interval_ms_
-(
-0
-)
 protection_ratio_
 (
 0
@@ -404,16 +400,6 @@ ms
 (
 )
 ;
-last_probing_interval_ms_
-=
-update
-.
-bwe_period
-.
-ms
-(
-)
-;
 return
 update
 .
@@ -454,9 +440,6 @@ last_fraction_loss_
 ;
 int64_t
 last_rtt_ms_
-;
-int
-last_probing_interval_ms_
 ;
 double
 protection_ratio_
@@ -509,12 +492,6 @@ rate_usage_
 }
 ;
 constexpr
-int64_t
-kDefaultProbingIntervalMs
-=
-3000
-;
-constexpr
 double
 kDefaultBitratePriority
 =
@@ -531,8 +508,6 @@ uint8_t
 fraction_loss
 int64_t
 rtt_ms
-int64_t
-bwe_period_ms
 )
 {
 TargetTransferRate
@@ -598,20 +573,6 @@ Millis
 rtt_ms
 )
 ;
-msg
-.
-network_estimate
-.
-bwe_period
-=
-TimeDelta
-:
-:
-Millis
-(
-bwe_period_ms
-)
-;
 return
 msg
 ;
@@ -660,7 +621,6 @@ CreateTargetRateMessage
 300000u
 0
 0
-kDefaultProbingIntervalMs
 )
 )
 ;
@@ -821,7 +781,6 @@ CreateTargetRateMessage
 300000u
 0
 0
-kDefaultProbingIntervalMs
 )
 )
 ;
@@ -929,7 +888,6 @@ CreateTargetRateMessage
 100000
 0
 0
-0
 )
 )
 ;
@@ -957,7 +915,6 @@ OnNetworkEstimateChanged
 CreateTargetRateMessage
 (
 200000
-0
 0
 0
 )
@@ -989,7 +946,6 @@ CreateTargetRateMessage
 300000
 0
 0
-0
 )
 )
 ;
@@ -1019,7 +975,6 @@ CreateTargetRateMessage
 400000
 0
 0
-0
 )
 )
 ;
@@ -1047,7 +1002,6 @@ OnNetworkEstimateChanged
 CreateTargetRateMessage
 (
 800000
-0
 0
 0
 )
@@ -1145,7 +1099,6 @@ CreateTargetRateMessage
 200000
 0
 0
-kDefaultProbingIntervalMs
 )
 )
 ;
@@ -1172,7 +1125,6 @@ CreateTargetRateMessage
 4000000
 0
 0
-kDefaultProbingIntervalMs
 )
 )
 ;
@@ -1281,7 +1233,6 @@ CreateTargetRateMessage
 kMaxBitrateBps
 0
 0
-kDefaultProbingIntervalMs
 )
 )
 ;
@@ -1432,7 +1383,6 @@ CreateTargetRateMessage
 kObs2StartBitrateBps
 0
 50
-kDefaultProbingIntervalMs
 )
 )
 ;
@@ -1494,7 +1444,6 @@ CreateTargetRateMessage
 500000
 0
 50
-kDefaultProbingIntervalMs
 )
 )
 ;
@@ -1542,7 +1491,6 @@ CreateTargetRateMessage
 1500000
 0
 50
-kDefaultProbingIntervalMs
 )
 )
 ;
@@ -1572,7 +1520,6 @@ CreateTargetRateMessage
 0
 0
 50
-kDefaultProbingIntervalMs
 )
 )
 ;
@@ -1711,7 +1658,6 @@ CreateTargetRateMessage
 300000u
 0
 0
-kDefaultProbingIntervalMs
 )
 )
 ;
@@ -1868,7 +1814,6 @@ CreateTargetRateMessage
 150000
 0
 0
-kDefaultProbingIntervalMs
 )
 )
 ;
@@ -1890,7 +1835,6 @@ CreateTargetRateMessage
 10000
 0
 0
-kDefaultProbingIntervalMs
 )
 )
 ;
@@ -2052,7 +1996,6 @@ CreateTargetRateMessage
 690000
 0
 0
-kDefaultProbingIntervalMs
 )
 )
 ;
@@ -2113,7 +2056,6 @@ CreateTargetRateMessage
 300000
 0
 0
-kDefaultProbingIntervalMs
 )
 )
 ;
@@ -2151,7 +2093,6 @@ CreateTargetRateMessage
 500000
 0
 0
-kDefaultProbingIntervalMs
 )
 )
 ;
@@ -2189,7 +2130,6 @@ CreateTargetRateMessage
 10000
 0
 0
-kDefaultProbingIntervalMs
 )
 )
 ;
@@ -2227,7 +2167,6 @@ CreateTargetRateMessage
 0
 0
 0
-kDefaultProbingIntervalMs
 )
 )
 ;
@@ -2371,7 +2310,6 @@ CreateTargetRateMessage
 150000
 0
 0
-kDefaultProbingIntervalMs
 )
 )
 ;
@@ -2416,7 +2354,6 @@ CreateTargetRateMessage
 200000
 0
 fraction_loss
-kDefaultProbingIntervalMs
 )
 )
 ;
@@ -2472,7 +2409,6 @@ kMinStartBitrateBps
 1000
 0
 fraction_loss
-kDefaultProbingIntervalMs
 )
 )
 ;
@@ -2496,7 +2432,6 @@ kMinStartBitrateWithProtectionBps
 1000
 0
 fraction_loss
-kDefaultProbingIntervalMs
 )
 )
 ;
@@ -2532,7 +2467,6 @@ CreateTargetRateMessage
 kMinStartBitrateWithProtectionBps
 0
 fraction_loss
-kDefaultProbingIntervalMs
 )
 )
 ;
@@ -2565,7 +2499,6 @@ kMinStartBitrateWithProtectionBps
 1000
 0
 0
-kDefaultProbingIntervalMs
 )
 )
 ;
@@ -2589,7 +2522,6 @@ CreateTargetRateMessage
 kMinStartBitrateBps
 0
 0
-kDefaultProbingIntervalMs
 )
 )
 ;
@@ -2727,7 +2659,6 @@ CreateTargetRateMessage
 200000u
 0
 100
-kDefaultProbingIntervalMs
 )
 )
 ;
@@ -2764,7 +2695,6 @@ CreateTargetRateMessage
 200000u
 0
 100
-kDefaultProbingIntervalMs
 )
 )
 ;
@@ -2801,7 +2731,6 @@ CreateTargetRateMessage
 200000u
 0
 100
-kDefaultProbingIntervalMs
 )
 )
 ;
@@ -2897,7 +2826,6 @@ CreateTargetRateMessage
 300000
 0
 0
-kDefaultProbingIntervalMs
 )
 )
 ;
@@ -2927,7 +2855,6 @@ CreateTargetRateMessage
 330000
 0
 0
-kDefaultProbingIntervalMs
 )
 )
 ;
@@ -2957,7 +2884,6 @@ CreateTargetRateMessage
 100000
 0
 0
-kDefaultProbingIntervalMs
 )
 )
 ;
@@ -2987,7 +2913,6 @@ CreateTargetRateMessage
 99999
 0
 0
-kDefaultProbingIntervalMs
 )
 )
 ;
@@ -3017,7 +2942,6 @@ CreateTargetRateMessage
 119000
 0
 0
-kDefaultProbingIntervalMs
 )
 )
 ;
@@ -3047,7 +2971,6 @@ CreateTargetRateMessage
 120000
 0
 0
-kDefaultProbingIntervalMs
 )
 )
 ;
@@ -3077,7 +3000,6 @@ CreateTargetRateMessage
 429000
 0
 0
-kDefaultProbingIntervalMs
 )
 )
 ;
@@ -3107,7 +3029,6 @@ CreateTargetRateMessage
 430000
 0
 0
-kDefaultProbingIntervalMs
 )
 )
 ;
@@ -3279,7 +3200,6 @@ CreateTargetRateMessage
 1000
 0
 0
-kDefaultProbingIntervalMs
 )
 )
 ;
@@ -3391,7 +3311,6 @@ CreateTargetRateMessage
 0
 0
 0
-kDefaultProbingIntervalMs
 )
 )
 ;
@@ -3473,7 +3392,6 @@ CreateTargetRateMessage
 1500000
 0
 50
-kDefaultProbingIntervalMs
 )
 )
 ;
@@ -3572,7 +3490,6 @@ CreateTargetRateMessage
 36000
 0
 50
-kDefaultProbingIntervalMs
 )
 )
 ;
@@ -3602,7 +3519,6 @@ CreateTargetRateMessage
 35000
 0
 50
-kDefaultProbingIntervalMs
 )
 )
 ;
@@ -3632,7 +3548,6 @@ CreateTargetRateMessage
 5000
 0
 50
-kDefaultProbingIntervalMs
 )
 )
 ;
@@ -3662,7 +3577,6 @@ CreateTargetRateMessage
 36000
 0
 50
-kDefaultProbingIntervalMs
 )
 )
 ;
@@ -3692,7 +3606,6 @@ CreateTargetRateMessage
 55000
 0
 50
-kDefaultProbingIntervalMs
 )
 )
 ;
@@ -3722,7 +3635,6 @@ CreateTargetRateMessage
 56000
 0
 50
-kDefaultProbingIntervalMs
 )
 )
 ;
@@ -3752,7 +3664,6 @@ CreateTargetRateMessage
 56000
 0
 50
-kDefaultProbingIntervalMs
 )
 )
 ;
@@ -3834,7 +3745,6 @@ CreateTargetRateMessage
 30000
 0
 50
-kDefaultProbingIntervalMs
 )
 )
 ;
@@ -3856,7 +3766,6 @@ CreateTargetRateMessage
 20000
 0
 50
-kDefaultProbingIntervalMs
 )
 )
 ;
@@ -3878,7 +3787,6 @@ CreateTargetRateMessage
 30000
 0
 50
-kDefaultProbingIntervalMs
 )
 )
 ;
@@ -3900,7 +3808,6 @@ CreateTargetRateMessage
 49000
 0
 50
-kDefaultProbingIntervalMs
 )
 )
 ;
@@ -3922,7 +3829,6 @@ CreateTargetRateMessage
 50000
 0
 50
-kDefaultProbingIntervalMs
 )
 )
 ;
@@ -3944,7 +3850,6 @@ CreateTargetRateMessage
 30000
 0
 50
-kDefaultProbingIntervalMs
 )
 )
 ;
@@ -4009,7 +3914,6 @@ CreateTargetRateMessage
 300000
 0
 50
-kDefaultProbingIntervalMs
 )
 )
 ;
@@ -4031,7 +3935,6 @@ CreateTargetRateMessage
 200000
 0
 50
-kDefaultProbingIntervalMs
 )
 )
 ;
@@ -4053,7 +3956,6 @@ CreateTargetRateMessage
 300000
 0
 50
-kDefaultProbingIntervalMs
 )
 )
 ;
@@ -4075,7 +3977,6 @@ CreateTargetRateMessage
 329000
 0
 50
-kDefaultProbingIntervalMs
 )
 )
 ;
@@ -4097,7 +3998,6 @@ CreateTargetRateMessage
 330000
 0
 50
-kDefaultProbingIntervalMs
 )
 )
 ;
@@ -4119,7 +4019,6 @@ CreateTargetRateMessage
 300000
 0
 50
-kDefaultProbingIntervalMs
 )
 )
 ;
@@ -4129,71 +4028,6 @@ EXPECT_EQ
 observer
 .
 last_bitrate_bps_
-)
-;
-allocator_
--
->
-RemoveObserver
-(
-&
-observer
-)
-;
-}
-TEST_F
-(
-BitrateAllocatorTest
-PassProbingInterval
-)
-{
-TestBitrateObserver
-observer
-;
-AddObserver
-(
-&
-observer
-300000
-600000
-0
-false
-kDefaultBitratePriority
-)
-;
-EXPECT_EQ
-(
-300000
-allocator_
--
->
-GetStartBitrate
-(
-&
-observer
-)
-)
-;
-allocator_
--
->
-OnNetworkEstimateChanged
-(
-CreateTargetRateMessage
-(
-300000
-0
-50
-5000
-)
-)
-;
-EXPECT_EQ
-(
-5000
-observer
-.
-last_probing_interval_ms_
 )
 ;
 allocator_
@@ -4256,7 +4090,6 @@ CreateTargetRateMessage
 kNetworkBandwidthBps
 0
 0
-kDefaultProbingIntervalMs
 )
 )
 ;
@@ -4344,7 +4177,6 @@ CreateTargetRateMessage
 kNetworkBandwidthBps
 0
 0
-kDefaultProbingIntervalMs
 )
 )
 ;
@@ -4453,7 +4285,6 @@ CreateTargetRateMessage
 kNetworkBandwidthBps
 0
 0
-kDefaultProbingIntervalMs
 )
 )
 ;
@@ -4564,7 +4395,6 @@ CreateTargetRateMessage
 kNetworkBandwidthBps
 0
 0
-kDefaultProbingIntervalMs
 )
 )
 ;
@@ -4651,7 +4481,6 @@ CreateTargetRateMessage
 90
 0
 0
-kDefaultProbingIntervalMs
 )
 )
 ;
@@ -4794,7 +4623,6 @@ CreateTargetRateMessage
 kNetworkBandwidthBps
 0
 0
-kDefaultProbingIntervalMs
 )
 )
 ;
@@ -4994,7 +4822,6 @@ CreateTargetRateMessage
 kAvailableBitrate
 0
 0
-kDefaultProbingIntervalMs
 )
 )
 ;
@@ -5200,7 +5027,6 @@ CreateTargetRateMessage
 kAvailableBitrate
 0
 0
-kDefaultProbingIntervalMs
 )
 )
 ;
@@ -5356,7 +5182,6 @@ CreateTargetRateMessage
 110
 0
 0
-kDefaultProbingIntervalMs
 )
 )
 ;
@@ -5505,7 +5330,6 @@ CreateTargetRateMessage
 100
 0
 0
-kDefaultProbingIntervalMs
 )
 )
 ;
@@ -5622,7 +5446,6 @@ CreateTargetRateMessage
 100
 0
 0
-kDefaultProbingIntervalMs
 )
 )
 ;
@@ -5754,7 +5577,6 @@ CreateTargetRateMessage
 140
 0
 0
-kDefaultProbingIntervalMs
 )
 )
 ;
@@ -5902,7 +5724,6 @@ CreateTargetRateMessage
 100
 0
 0
-kDefaultProbingIntervalMs
 )
 )
 ;
@@ -6050,7 +5871,6 @@ CreateTargetRateMessage
 200
 0
 0
-kDefaultProbingIntervalMs
 )
 )
 ;
