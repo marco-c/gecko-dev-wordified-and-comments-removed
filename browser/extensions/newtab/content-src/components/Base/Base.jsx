@@ -6397,6 +6397,17 @@ system
 showWebNotifications
 "
 ]
+|
+|
+prefs
+.
+trainhopConfig
+?
+.
+webNotifications
+?
+.
+enabled
 ;
 const
 supportUrl
