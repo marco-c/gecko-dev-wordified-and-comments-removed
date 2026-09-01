@@ -414,10 +414,15 @@ aResponse
 )
 {
 return
-static_cast
+mozilla
+:
+:
+ipc
+:
+:
+ActorCast
 <
 TestShellParent
-*
 >
 (
 Manager

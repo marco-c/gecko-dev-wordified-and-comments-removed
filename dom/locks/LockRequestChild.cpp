@@ -638,10 +638,15 @@ CastedManager
 const
 {
 return
-static_cast
+mozilla
+:
+:
+ipc
+:
+:
+ActorCast
 <
 LockManagerChild
-*
 >
 (
 Manager
