@@ -222,7 +222,7 @@ thumb
 :
 /
 /
-thumbnail
+thumbnails
 /
 http
 %
@@ -298,7 +298,7 @@ thumb
 :
 /
 /
-thumbnail
+thumbnails
 /
 ?
 badStuff
