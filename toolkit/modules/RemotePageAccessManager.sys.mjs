@@ -685,7 +685,7 @@ promo
 dismissed
 "
 ]
-RPMOpenPDFFile
+RPMPickPDFFile
 :
 [
 "
