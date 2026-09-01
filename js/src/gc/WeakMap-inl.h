@@ -4801,7 +4801,13 @@ const
 bool
 ok
 =
-true
+gc
+:
+:
+CheckWeakMapMapMarking
+(
+this
+)
 ;
 for
 (
