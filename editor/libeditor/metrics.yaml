@@ -264,11 +264,6 @@ com
 expires
 :
 never
-telemetry_mirror
-:
-h
-#
-HTMLEDITORS_WITH_BEFOREINPUT_LISTENERS
 overridden_by_beforeinput_listeners
 :
 type
@@ -399,11 +394,6 @@ com
 expires
 :
 never
-telemetry_mirror
-:
-h
-#
-HTMLEDITORS_OVERRIDDEN_BY_BEFOREINPUT_LISTENERS
 with_mutation_observers_without_beforeinput_listeners
 :
 type
@@ -546,8 +536,3 @@ com
 expires
 :
 never
-telemetry_mirror
-:
-h
-#
-HTMLEDITORS_WITH_MUTATION_OBSERVERS_WITHOUT_BEFOREINPUT_LISTENERS

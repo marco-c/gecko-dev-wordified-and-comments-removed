@@ -6281,9 +6281,6 @@ org
 expires
 :
 never
-telemetry_mirror
-:
-GC_SLICE_DURING_IDLE
 xmlhttprequest_async_or_sync
 :
 type
@@ -6374,11 +6371,6 @@ com
 expires
 :
 never
-telemetry_mirror
-:
-h
-#
-XMLHTTPREQUEST_ASYNC_OR_SYNC
 storage_access_api_ui
 :
 type
