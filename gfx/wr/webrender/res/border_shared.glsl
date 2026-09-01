@@ -119,6 +119,8 @@ in
 vec4
 aClipParams2
 ;
+#
+endif
 struct
 BorderInstanceGpuData
 {
@@ -255,5 +257,3 @@ return
 data
 ;
 }
-#
-endif
