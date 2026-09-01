@@ -6903,7 +6903,7 @@ info
 common
 info
 .
-box_bounds
+bounds
 )
 ;
 self
@@ -6926,7 +6926,7 @@ info
 blur_radius
 info
 .
-spread_radius
+spread_amount
 info
 .
 border_radius
