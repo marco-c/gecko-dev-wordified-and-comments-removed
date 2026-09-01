@@ -246,6 +246,11 @@ inline
 value
 "
 :
+{
+"
+default
+"
+:
 "
 {
 space
@@ -253,11 +258,8 @@ space
 xsmall
 }
 "
-}
 "
 nova
--
-inline
 "
 :
 {
@@ -281,6 +283,8 @@ xxsmall
 }
 )
 "
+}
+}
 }
 }
 "
