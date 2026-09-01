@@ -522,6 +522,15 @@ mTotalSamplesPopped
 =
 0
 ;
+Atomic
+<
+bool
+>
+mStoppedForSeek
+{
+false
+}
+;
 const
 RefPtr
 <
