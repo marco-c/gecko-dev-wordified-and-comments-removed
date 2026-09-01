@@ -766,6 +766,7 @@ true
 void
 ThreadedPrefetch
 (
+const
 uint8_t
 *
 aStart

@@ -29,6 +29,7 @@ CanPrefetchMemory
 void
 PrefetchMemory
 (
+const
 uint8_t
 *
 aStart
