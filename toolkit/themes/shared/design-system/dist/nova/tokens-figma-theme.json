@@ -8367,7 +8367,7 @@ light
 :
 "
 {
-Primitives
+Theme
 toolbarbutton
 /
 background
@@ -8383,7 +8383,7 @@ dark
 :
 "
 {
-Primitives
+Theme
 toolbarbutton
 /
 background
@@ -8399,7 +8399,7 @@ forcedColors
 :
 "
 {
-Primitives
+Theme
 toolbarbutton
 /
 background
@@ -9895,7 +9895,7 @@ light
 :
 "
 {
-Primitives
+Theme
 toolbarbutton
 /
 background
@@ -9911,7 +9911,7 @@ dark
 :
 "
 {
-Primitives
+Theme
 toolbarbutton
 /
 background
@@ -9927,7 +9927,7 @@ forcedColors
 :
 "
 {
-Primitives
+Theme
 toolbarbutton
 /
 background
@@ -9955,7 +9955,7 @@ light
 :
 "
 {
-Primitives
+Theme
 toolbarbutton
 /
 background
@@ -9971,7 +9971,7 @@ dark
 :
 "
 {
-Primitives
+Theme
 toolbarbutton
 /
 background
@@ -9987,7 +9987,7 @@ forcedColors
 :
 "
 {
-Primitives
+Theme
 toolbarbutton
 /
 background
