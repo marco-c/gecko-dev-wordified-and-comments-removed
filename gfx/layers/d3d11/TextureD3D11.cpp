@@ -1210,15 +1210,6 @@ aFlags
 )
 {
 }
-DataTextureSourceD3D11
-:
-:
-~
-DataTextureSourceD3D11
-(
-)
-{
-}
 enum
 class
 SerializeWithMoz2D
@@ -10740,7 +10731,7 @@ ID3D11Device1
 "
 ;
 return
-0
+false
 ;
 }
 HRESULT

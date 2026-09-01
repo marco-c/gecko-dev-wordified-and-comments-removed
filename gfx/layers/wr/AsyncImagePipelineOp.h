@@ -245,6 +245,8 @@ aTransaction
 AsyncImagePipelineOps
 (
 )
+=
+default
 ;
 void
 HandleOps

@@ -642,8 +642,9 @@ result
 GPUAdapterReporter
 (
 )
-{
-}
+=
+default
+;
 public
 :
 NS_DECL_ISUPPORTS
@@ -1147,8 +1148,9 @@ nsIMemoryReporter
 D3DSharedTexturesReporter
 (
 )
-{
-}
+=
+default
+;
 public
 :
 NS_DECL_ISUPPORTS

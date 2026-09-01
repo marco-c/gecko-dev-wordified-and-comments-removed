@@ -99,6 +99,8 @@ protected
 FileHandleWrapper
 (
 )
+=
+default
 ;
 const
 mozilla

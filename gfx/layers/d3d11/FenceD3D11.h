@@ -228,6 +228,8 @@ virtual
 FenceD3D11
 (
 )
+=
+default
 ;
 uint64_t
 mFenceValue

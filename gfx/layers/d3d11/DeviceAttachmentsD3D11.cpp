@@ -79,15 +79,6 @@ false
 )
 {
 }
-DeviceAttachmentsD3D11
-:
-:
-~
-DeviceAttachmentsD3D11
-(
-)
-{
-}
 RefPtr
 <
 DeviceAttachmentsD3D11

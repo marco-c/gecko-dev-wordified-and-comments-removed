@@ -754,8 +754,9 @@ public
 gfxDWriteFontFileLoader
 (
 )
-{
-}
+=
+default
+;
 IFACEMETHOD
 (
 QueryInterface

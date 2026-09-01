@@ -103,6 +103,8 @@ virtual
 CompositorD3D11
 (
 )
+=
+default
 ;
 CompositorD3D11
 *

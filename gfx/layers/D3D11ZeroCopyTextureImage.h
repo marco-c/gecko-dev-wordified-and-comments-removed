@@ -513,6 +513,8 @@ virtual
 IMFSampleWrapper
 (
 )
+=
+default
 ;
 void
 ClearVideoSample

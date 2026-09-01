@@ -545,15 +545,6 @@ gfx_use_mutex_on_present_AtStartup
 )
 ;
 }
-CompositorD3D11
-:
-:
-~
-CompositorD3D11
-(
-)
-{
-}
 template
 <
 typename

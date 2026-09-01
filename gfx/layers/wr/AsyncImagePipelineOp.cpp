@@ -151,16 +151,6 @@ AsyncImagePipelineOp
 =
 default
 ;
-AsyncImagePipelineOps
-:
-:
-~
-AsyncImagePipelineOps
-(
-)
-=
-default
-;
 void
 AsyncImagePipelineOps
 :

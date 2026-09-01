@@ -1240,13 +1240,9 @@ public
 TextureSourceD3D11
 (
 )
-:
-mFormatOverride
-(
-DXGI_FORMAT_UNKNOWN
-)
-{
-}
+=
+default
+;
 virtual
 ~
 TextureSourceD3D11
@@ -1310,6 +1306,9 @@ mSRV
 ;
 DXGI_FORMAT
 mFormatOverride
+{
+DXGI_FORMAT_UNKNOWN
+}
 ;
 }
 ;
@@ -1388,6 +1387,8 @@ virtual
 DataTextureSourceD3D11
 (
 )
+=
+default
 ;
 const
 char

@@ -967,8 +967,9 @@ hr
 DWriteFontFallbackRenderer
 (
 )
-{
-}
+=
+default
+;
 bool
 IsValid
 (

@@ -294,6 +294,8 @@ device
 DeviceAttachmentsD3D11
 (
 )
+=
+default
 ;
 bool
 Initialize

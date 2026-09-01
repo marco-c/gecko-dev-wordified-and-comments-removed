@@ -90,8 +90,9 @@ public
 DWriteFontFileLoader
 (
 )
-{
-}
+=
+default
+;
 IFACEMETHOD
 (
 QueryInterface

@@ -7816,8 +7816,9 @@ DCSurface
 DCSurface
 (
 )
-{
-}
+=
+default
+;
 bool
 DCSurface
 :
@@ -12004,8 +12005,9 @@ DCSurfaceDCompositionTextureOverlay
 DCSurfaceDCompositionTextureOverlay
 (
 )
-{
-}
+=
+default
+;
 void
 DCSurfaceDCompositionTextureOverlay
 :
