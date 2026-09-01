@@ -133,15 +133,6 @@ add_website
 "
 const
 val
-TOP_SITES_PAGER_INDICATOR
-=
-"
-TOP_SITES
-.
-pager_indicator
-"
-const
-val
 EXPAND_TOGGLE
 =
 "

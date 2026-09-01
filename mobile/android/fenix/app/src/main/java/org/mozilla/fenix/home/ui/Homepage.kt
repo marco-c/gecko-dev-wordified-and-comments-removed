@@ -2447,13 +2447,6 @@ onTopSitesItemBound
 onAddShortcutClicked
 =
 onAddShortcutClicked
-isPager
-=
-components
-.
-settings
-.
-topSitesPager
 )
 }
 Composable
