@@ -42,6 +42,14 @@ page_timeout
 #
 7
 mins
+subtest_lower_is_better
+=
+false
+subtest_unit
+=
+"
+score
+"
 test_url
 =
 "
