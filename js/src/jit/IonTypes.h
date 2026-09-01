@@ -228,6 +228,7 @@ HoistBoundsCheck
 EagerTruncation
 UnboxFolding
 Inevitable
+UncompiledGeneratorResume
 DuringVMCall
 TooManyArguments
 Debugger
@@ -377,6 +378,17 @@ Inevitable
 return
 "
 Inevitable
+"
+;
+case
+BailoutKind
+:
+:
+UncompiledGeneratorResume
+:
+return
+"
+UncompiledGeneratorResume
 "
 ;
 case
