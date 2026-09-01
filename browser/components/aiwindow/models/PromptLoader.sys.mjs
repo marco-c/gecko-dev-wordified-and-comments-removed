@@ -60,7 +60,7 @@ MPL
 /
 import
 {
-getRemoteClient
+getRemoteRecords
 selectMainConfig
 renderPrompt
 checkMajorVersion
@@ -513,11 +513,7 @@ const
 records
 =
 await
-getRemoteClient
-(
-)
-.
-get
+getRemoteRecords
 (
 )
 ;
@@ -2810,11 +2806,7 @@ const
 allRecords
 =
 await
-getRemoteClient
-(
-)
-.
-get
+getRemoteRecords
 (
 )
 ;
