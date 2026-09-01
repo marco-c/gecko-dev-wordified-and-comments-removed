@@ -660,6 +660,11 @@ edit
 -
 city
 "
+dir
+=
+"
+auto
+"
 >
 {
 city

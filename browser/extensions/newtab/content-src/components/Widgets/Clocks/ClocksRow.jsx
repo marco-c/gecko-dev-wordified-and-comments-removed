@@ -563,6 +563,11 @@ clocks
 -
 city
 "
+dir
+=
+"
+auto
+"
 >
 {
 cityDisplay
@@ -579,6 +584,11 @@ className
 clocks
 -
 timezone
+"
+dir
+=
+"
+auto
 "
 >
 {
@@ -611,6 +621,11 @@ className
 {
 chipClassName
 }
+dir
+=
+"
+auto
+"
 >
 {
 clock
@@ -642,6 +657,11 @@ hidden
 =
 "
 true
+"
+dir
+=
+"
+auto
 "
 dateTime
 =
