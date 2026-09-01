@@ -686,6 +686,9 @@ Boolean
 numberOfTrackersBlocked
 :
 Int
+isPrivate
+:
+Boolean
 websitePermissions
 :
 List
@@ -864,6 +867,10 @@ if
 (
 !
 isLocalPdf
+&
+&
+!
+isPrivate
 )
 {
 MenuGroup
@@ -2244,6 +2251,9 @@ isGlobalTrackingProtectionEnabled
 =
 true
 isLocalPdf
+=
+false
+isPrivate
 =
 false
 showIPProtection
