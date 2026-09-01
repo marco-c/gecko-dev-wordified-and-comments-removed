@@ -166,13 +166,9 @@ public
 ProfilerMarkerChannelHook
 (
 )
-:
-mRefCnt
-(
-0
-)
-{
-}
+=
+default
+;
 STDMETHODIMP
 QueryInterface
 (
@@ -345,6 +341,9 @@ Atomic
 ULONG
 >
 mRefCnt
+{
+0
+}
 ;
 }
 ;
