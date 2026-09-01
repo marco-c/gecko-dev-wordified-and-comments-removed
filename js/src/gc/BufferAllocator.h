@@ -1572,12 +1572,16 @@ requestedBytes
 size_t
 sizeClass
 bool
+nurseryOwned
+bool
 inGC
 )
 ;
 bool
 allocNewSmallRegion
 (
+bool
+nurseryOwned
 bool
 inGC
 )
@@ -1658,6 +1662,8 @@ requestedBytes
 size_t
 sizeClass
 bool
+nurseryOwned
+bool
 inGC
 )
 ;
@@ -1676,6 +1682,8 @@ size_t
 sizeClass
 size_t
 maxSizeClass
+bool
+nurseryOwned
 Alloc
 &
 &
@@ -1709,6 +1717,8 @@ size_t
 sizeClass
 size_t
 maxSizeClass
+bool
+nurseryOwned
 GrowHeap
 &
 &
@@ -1722,6 +1732,8 @@ size_t
 sizeClass
 size_t
 maxSizeClass
+bool
+nurseryOwned
 )
 ;
 bool
@@ -1758,6 +1770,8 @@ size_t
 sizeClass
 size_t
 maxSizeClass
+bool
+nurseryOwned
 )
 ;
 void
@@ -1780,6 +1794,8 @@ allocMediumAligned
 size_t
 bytes
 bool
+nurseryOwned
+bool
 inGC
 )
 ;
@@ -1790,6 +1806,8 @@ retryAlignedAlloc
 size_t
 sizeClass
 bool
+nurseryOwned
+bool
 inGC
 )
 ;
@@ -1799,6 +1817,8 @@ alignedAlloc
 (
 size_t
 sizeClass
+bool
+nurseryOwned
 )
 ;
 void
@@ -1861,12 +1881,16 @@ stealOrAllocNewChunk
 size_t
 sizeClass
 bool
+nurseryOwned
+bool
 inGC
 )
 ;
 bool
 tryToStealQueuedChunk
 (
+bool
+nurseryOwned
 size_t
 sizeClass
 )
@@ -1874,6 +1898,8 @@ sizeClass
 bool
 allocNewChunk
 (
+bool
+nurseryOwned
 bool
 inGC
 )
