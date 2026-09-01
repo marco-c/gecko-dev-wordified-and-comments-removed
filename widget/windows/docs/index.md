@@ -22,6 +22,11 @@ shell
 set
 -
 default
+notification
+-
+server
+/
+index
 windows
 -
 pointing
