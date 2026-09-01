@@ -2878,7 +2878,7 @@ Visibility
 ApproximatelyVisible
 "
 Visible
-nsFrame
+nsIFrame
 is
 being
 destroyed
