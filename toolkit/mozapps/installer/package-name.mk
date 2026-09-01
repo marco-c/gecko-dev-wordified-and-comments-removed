@@ -234,17 +234,6 @@ xpi
 PKG_SRCPACK_BASENAME
 =
 source
-PKG_BUNDLE_BASENAME
-=
-(
-MOZ_PKG_APPNAME
-)
--
-(
-MOZ_PKG_VERSION
-)
-PKG_SRCPACK_PATH
-=
 #
 Symbol
 package
