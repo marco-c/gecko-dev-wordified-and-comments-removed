@@ -40064,6 +40064,7 @@ Byddwch
 yn
 eu
 gweld
+nhw
 yma
 .
 <
@@ -51928,8 +51929,13 @@ i
 '
 r
 lleoliad
-a
-argymhellir
+sy
+\
+'
+n
+cael
+ei
+argymell
 .
 <
 /
@@ -77679,8 +77685,10 @@ name
 pdf_tools_signature_close_content_description
 "
 >
-Caewch
-y
+Cau
+\
+'
+r
 panel
 llofnod
 PDF
@@ -77728,7 +77736,8 @@ pdf_tools_signature_placeholder
 "
 >
 Math
-llofnod
+o
+lofnod
 <
 /
 string

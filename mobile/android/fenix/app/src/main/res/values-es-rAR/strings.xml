@@ -39199,6 +39199,7 @@ rastreadores
 fueron
 bloqueados
 mientras
+se
 navegaba
 .
 <
@@ -39249,7 +39250,7 @@ name
 notification_privacy_report_body_has_trackers
 "
 >
-Seguir
+Segu
 navegando
 .
 %
@@ -39313,12 +39314,14 @@ s
 bloquea
 rastreadores
 mientras
+se
 navega
 .
 Los
+vas
+a
 ver
-s
-aqu
+ac
 .
 <
 /
