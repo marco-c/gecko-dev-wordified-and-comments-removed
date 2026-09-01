@@ -118,15 +118,6 @@ enabled
 =
 true
 "
-"
-dom
-.
-viewTransitions
-.
-enabled
-=
-true
-"
 ]
 support
 -

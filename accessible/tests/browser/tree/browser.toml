@@ -80,15 +80,6 @@ prefs
 =
 [
 "
-dom
-.
-viewTransitions
-.
-enabled
-=
-true
-"
-"
 layout
 .
 css
