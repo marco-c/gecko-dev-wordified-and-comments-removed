@@ -116,6 +116,16 @@ pref_set
 "
 extensions
 .
+telemetry
+.
+EnvironmentAddonBuilder
+"
+true
+]
+[
+"
+extensions
+.
 gleanPingAddons
 .
 updated
@@ -295,7 +305,7 @@ database
 await
 AMTelemetry
 .
-addonsBuilder
+telemetryAddonBuilder
 .
 _pendingTask
 ;

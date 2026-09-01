@@ -164,10 +164,6 @@ do_get_profile
 (
 )
 ;
-fakeIntlReady
-(
-)
-;
 await
 setEmptyPrefWatchlist
 (
