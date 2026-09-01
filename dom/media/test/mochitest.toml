@@ -6416,6 +6416,11 @@ redirect
 sjs
 "
 "
+redirect_media_error
+.
+sjs
+"
+"
 referer
 .
 sjs
@@ -8694,6 +8699,13 @@ https
 [
 "
 test_invalid_reject_play
+.
+html
+"
+]
+[
+"
+test_media_error_redirect_redaction
 .
 html
 "
