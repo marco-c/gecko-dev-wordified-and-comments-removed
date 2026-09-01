@@ -1,7 +1,6 @@
 #
 define
 MOZ_NON_TERMINATED_STRING
-\
 __attribute__
 (
 (

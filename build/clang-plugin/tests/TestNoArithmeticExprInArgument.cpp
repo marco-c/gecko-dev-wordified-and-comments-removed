@@ -1,7 +1,6 @@
 #
 define
 MOZ_NO_ARITHMETIC_EXPR_IN_ARGUMENT
-\
 __attribute__
 (
 (

@@ -1,7 +1,6 @@
 #
 define
 MOZ_NEEDS_NO_VTABLE_TYPE
-\
 __attribute__
 (
 (

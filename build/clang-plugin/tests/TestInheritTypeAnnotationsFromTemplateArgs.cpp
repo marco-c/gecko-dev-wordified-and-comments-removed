@@ -44,7 +44,6 @@ moz_non_memmovable
 #
 define
 MOZ_NEEDS_MEMMOVABLE_TYPE
-\
 __attribute__
 (
 (

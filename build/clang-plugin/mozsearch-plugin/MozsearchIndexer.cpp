@@ -262,14 +262,14 @@ h
 #
 include
 "
-MozsearchAction
+StringOperations
 .
 h
 "
 #
 include
 "
-StringOperations
+MozsearchAction
 .
 h
 "

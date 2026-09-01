@@ -15,7 +15,6 @@ moz_non_memmovable
 #
 define
 MOZ_NEEDS_MEMMOVABLE_TYPE
-\
 __attribute__
 (
 (
@@ -30,7 +29,6 @@ moz_needs_memmovable_type
 #
 define
 MOZ_NEEDS_MEMMOVABLE_MEMBERS
-\
 __attribute__
 (
 (

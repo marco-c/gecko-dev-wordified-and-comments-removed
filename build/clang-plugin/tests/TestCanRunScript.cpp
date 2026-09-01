@@ -3,7 +3,7 @@ include
 <
 mozilla
 /
-Maybe
+RefPtr
 .
 h
 >
@@ -12,7 +12,7 @@ include
 <
 mozilla
 /
-RefPtr
+Maybe
 .
 h
 >
@@ -33,7 +33,6 @@ moz_can_run_script
 #
 define
 MOZ_CAN_RUN_SCRIPT_BOUNDARY
-\
 __attribute__
 (
 (

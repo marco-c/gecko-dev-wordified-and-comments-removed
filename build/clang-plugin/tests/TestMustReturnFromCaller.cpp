@@ -11,7 +11,6 @@ utility
 #
 define
 MOZ_MUST_RETURN_FROM_CALLER_IF_THIS_IS_ARG
-\
 __attribute__
 (
 (
@@ -26,7 +25,6 @@ moz_must_return_from_caller_if_this_is_arg
 #
 define
 MOZ_MAY_CALL_AFTER_MUST_RETURN
-\
 __attribute__
 (
 (
