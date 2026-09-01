@@ -84,6 +84,10 @@ data_window
 private
 :
 const
+bool
+add_pacing_
+;
+const
 uint32_t
 min_pushback_target_bitrate_bps_
 ;
