@@ -672,16 +672,9 @@ ThreadSafeWeakPtr
 aOther
 )
 const
-{
-return
-mRef
 =
-=
-aOther
-.
-mRef
+default
 ;
-}
 bool
 operator
 =
