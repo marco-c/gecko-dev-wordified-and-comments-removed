@@ -197,6 +197,9 @@ blur
 fireInputEvent
 "
 "
+getPlaceholderL10n
+"
+"
 getResultCount
 "
 "

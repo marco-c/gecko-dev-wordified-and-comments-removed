@@ -446,12 +446,7 @@ if
 (
 queryContext
 .
-sapName
-!
-=
-"
-searchbar
-"
+navigationEnabled
 )
 {
 let

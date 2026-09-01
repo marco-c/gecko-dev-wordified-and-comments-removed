@@ -287,13 +287,6 @@ browser
 ftl
 "
 "
-browser
-/
-search
-.
-ftl
-"
-"
 preview
 /
 enUS
