@@ -2526,6 +2526,14 @@ Rust
 checks
 '
 '
+cairo
+'
+:
+'
+Cairo
+checks
+'
+'
 tests
 '
 :
