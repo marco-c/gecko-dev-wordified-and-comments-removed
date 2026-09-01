@@ -392,6 +392,10 @@ stencil
 nullptr
 colorTarget
 colorName
+ColorBackingOwnership
+:
+:
+Owned
 )
 ;
 }
@@ -428,6 +432,8 @@ colorTarget
 const
 GLuint
 colorName
+ColorBackingOwnership
+colorBackingOwnership
 )
 {
 return
@@ -458,6 +464,7 @@ stencil
 nullptr
 colorTarget
 colorName
+colorBackingOwnership
 )
 ;
 }
@@ -491,6 +498,8 @@ DepthAndStencilBuffer
 >
 &
 depthAndStencilBuffer
+ColorBackingOwnership
+colorBackingOwnership
 )
 {
 auto
@@ -531,6 +540,7 @@ samples
 depthAndStencilBuffer
 colorTarget
 colorName
+colorBackingOwnership
 )
 ;
 }
@@ -570,6 +580,8 @@ colorTarget
 const
 GLuint
 colorName
+ColorBackingOwnership
+colorBackingOwnership
 )
 {
 GLuint
@@ -796,6 +808,7 @@ samples
 depthAndStencilBuffer
 colorTarget
 colorName
+colorBackingOwnership
 )
 )
 ;
@@ -1057,6 +1070,8 @@ colorTarget
 const
 GLuint
 colorName
+ColorBackingOwnership
+colorBackingOwnership
 )
 :
 mWeakGL
@@ -1092,6 +1107,10 @@ depthAndStencilBuffer
 mColorName
 (
 colorName
+)
+mColorBackingOwnership
+(
+colorBackingOwnership
 )
 {
 MOZ_ASSERT
@@ -1146,6 +1165,17 @@ DeleteFramebuffer
 mFB
 )
 ;
+if
+(
+mColorBackingOwnership
+=
+=
+ColorBackingOwnership
+:
+:
+Owned
+)
+{
 DeleteByTarget
 (
 gl
@@ -1153,6 +1183,7 @@ mColorTarget
 mColorName
 )
 ;
+}
 }
 bool
 MozFramebuffer
