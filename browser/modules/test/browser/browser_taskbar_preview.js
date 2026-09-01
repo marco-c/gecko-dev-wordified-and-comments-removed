@@ -45,9 +45,9 @@ ex
 }
 is
 (
-!
-!
 Win7Features
+.
+available
 isWin7OrHigher
 "
 Win7Features
