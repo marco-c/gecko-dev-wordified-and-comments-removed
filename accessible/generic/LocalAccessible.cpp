@@ -7153,16 +7153,6 @@ uint64_t
 aOldState
 )
 {
-CssAltContent
-:
-:
-HandleAttributeChange
-(
-mContent
-aNameSpaceID
-aAttribute
-)
-;
 if
 (
 AttributeChangesState
