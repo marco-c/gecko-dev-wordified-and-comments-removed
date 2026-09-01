@@ -10238,7 +10238,7 @@ LIFECYCLE_WAITING_FOR_TRACK_DESTRUCTION
 ;
 if
 (
-LifecycleStateRef
+LifecycleState
 (
 )
 !
@@ -10277,7 +10277,7 @@ this
 )
 LifecycleState_str
 [
-LifecycleStateRef
+LifecycleState
 (
 )
 ]
@@ -10352,7 +10352,7 @@ mNextMainThreadGraphTime
 ;
 if
 (
-LifecycleStateRef
+LifecycleState
 (
 )
 =
@@ -10446,7 +10446,7 @@ forget
 }
 MOZ_DIAGNOSTIC_ASSERT
 (
-LifecycleStateRef
+LifecycleState
 (
 )
 <
@@ -10463,7 +10463,7 @@ IsEmpty
 ;
 if
 (
-LifecycleStateRef
+LifecycleState
 (
 )
 =
@@ -10567,7 +10567,7 @@ true
 }
 if
 (
-LifecycleStateRef
+LifecycleState
 (
 )
 =
@@ -10655,7 +10655,7 @@ forget
 }
 mGraphDriverRunning
 =
-LifecycleStateRef
+LifecycleState
 (
 )
 =
@@ -10723,7 +10723,7 @@ mCanRunMessagesSynchronously
 mGraphDriverRunning
 &
 &
-LifecycleStateRef
+LifecycleState
 (
 )
 >
@@ -21185,7 +21185,7 @@ GraphImpl
 )
 -
 >
-LifecycleStateRef
+LifecycleState
 (
 )
 =
@@ -24195,7 +24195,7 @@ IsEmpty
 )
 &
 &
-LifecycleStateRef
+LifecycleState
 (
 )
 >
@@ -24359,7 +24359,7 @@ if
 mGraphDriverRunning
 &
 &
-LifecycleStateRef
+LifecycleState
 (
 )
 >
@@ -24418,7 +24418,7 @@ IsEmpty
 )
 &
 &
-LifecycleStateRef
+LifecycleState
 (
 )
 >

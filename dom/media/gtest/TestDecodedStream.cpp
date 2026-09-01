@@ -1079,7 +1079,7 @@ ASSERT_EQ
 mGraph
 -
 >
-LifecycleStateRef
+LifecycleState
 (
 )
 MediaTrackGraphImpl
