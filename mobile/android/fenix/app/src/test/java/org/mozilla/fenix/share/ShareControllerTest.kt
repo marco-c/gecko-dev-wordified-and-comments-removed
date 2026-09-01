@@ -461,6 +461,9 @@ title
 "
 title0
 "
+private
+=
+false
 )
 ShareData
 (
@@ -474,6 +477,9 @@ title
 "
 title1
 "
+private
+=
+false
 )
 )
 /
@@ -744,7 +750,6 @@ testContext
 appStore
 shareSubject
 shareData
-false
 sendTabUseCases
 saveToPdfUseCase
 printUseCase
@@ -905,7 +910,6 @@ activityContext
 appStore
 shareSubject
 shareData
-false
 mockk
 (
 )
@@ -1328,7 +1332,6 @@ activityContext
 appStore
 shareSubject
 shareData
-false
 mockk
 (
 )
@@ -1578,7 +1581,6 @@ activityContext
 appStore
 shareSubject
 shareData
-false
 mockk
 (
 )
@@ -1833,9 +1835,6 @@ shareSubject
 shareData
 =
 shareData
-isPrivate
-=
-false
 sendTabUseCases
 =
 mockk
@@ -2084,9 +2083,6 @@ shareSubject
 shareData
 =
 shareData
-isPrivate
-=
-false
 sendTabUseCases
 =
 mockk
@@ -2249,9 +2245,6 @@ shareSubject
 shareData
 =
 shareData
-isPrivate
-=
-false
 sendTabUseCases
 =
 mockk
@@ -2358,9 +2351,6 @@ shareSubject
 shareData
 =
 shareData
-isPrivate
-=
-false
 sendTabUseCases
 =
 mockk
@@ -2523,9 +2513,6 @@ shareSubject
 shareData
 =
 shareData
-isPrivate
-=
-false
 sendTabUseCases
 =
 mockk
@@ -2624,9 +2611,6 @@ null
 shareData
 =
 shareData
-isPrivate
-=
-false
 sendTabUseCases
 =
 mockk
@@ -2725,6 +2709,9 @@ url0
 title
 =
 null
+private
+=
+false
 )
 ShareData
 (
@@ -2738,6 +2725,9 @@ title
 "
 title1
 "
+private
+=
+false
 )
 )
 val
@@ -2757,9 +2747,6 @@ null
 shareData
 =
 partialTitlesShareData
-isPrivate
-=
-false
 sendTabUseCases
 =
 mockk
@@ -2856,6 +2843,9 @@ url0
 title
 =
 null
+private
+=
+false
 )
 ShareData
 (
@@ -2867,6 +2857,9 @@ url1
 title
 =
 null
+private
+=
+false
 )
 )
 val
@@ -2886,9 +2879,6 @@ null
 shareData
 =
 noTitleShareData
-isPrivate
-=
-false
 sendTabUseCases
 =
 mockk
@@ -2988,6 +2978,9 @@ title
 =
 "
 "
+private
+=
+false
 )
 ShareData
 (
@@ -3000,6 +2993,9 @@ title
 =
 "
 "
+private
+=
+false
 )
 )
 val
@@ -3019,9 +3015,6 @@ null
 shareData
 =
 noTitleShareData
-isPrivate
-=
-false
 sendTabUseCases
 =
 mockk
@@ -3098,7 +3091,6 @@ testContext
 appStore
 shareSubject
 shareData
-false
 sendTabUseCases
 saveToPdfUseCase
 printUseCase
@@ -3331,7 +3323,6 @@ testContext
 appStore
 shareSubject
 shareData
-false
 sendTabUseCases
 saveToPdfUseCase
 printUseCase
@@ -3529,7 +3520,6 @@ testContext
 appStore
 shareSubject
 shareData
-false
 sendTabUseCases
 saveToPdfUseCase
 printUseCase
@@ -3653,7 +3643,6 @@ testContext
 appStore
 shareSubject
 shareData
-false
 sendTabUseCases
 saveToPdfUseCase
 printUseCase
@@ -3730,7 +3719,6 @@ testContext
 appStore
 shareSubject
 shareData
-false
 sendTabUseCases
 saveToPdfUseCase
 printUseCase
@@ -3820,7 +3808,6 @@ testContext
 appStore
 shareSubject
 shareData
-false
 sendTabUseCases
 saveToPdfUseCase
 printUseCase
@@ -3909,7 +3896,6 @@ testContext
 appStore
 shareSubject
 shareData
-false
 sendTabUseCases
 saveToPdfUseCase
 printUseCase
@@ -3983,6 +3969,9 @@ page
 .
 html
 "
+private
+=
+false
 )
 ShareData
 (
@@ -4013,6 +4002,9 @@ url
 =
 url0
 "
+private
+=
+false
 )
 ShareData
 (
@@ -4021,6 +4013,9 @@ url
 "
 url1
 "
+private
+=
+false
 )
 )
 val
@@ -4040,9 +4035,6 @@ shareSubject
 shareData
 =
 shareData
-isPrivate
-=
-false
 sendTabUseCases
 =
 sendTabUseCases
@@ -4144,7 +4136,6 @@ testContext
 appStore
 shareSubject
 shareData
-false
 sendTabUseCases
 saveToPdfUseCase
 printUseCase
@@ -4210,9 +4201,6 @@ null
 shareData
 =
 shareData
-isPrivate
-=
-false
 sendTabUseCases
 =
 sendTabUseCases
@@ -4289,7 +4277,6 @@ testContext
 appStore
 shareSubject
 shareData
-false
 sendTabUseCases
 saveToPdfUseCase
 printUseCase
@@ -4363,7 +4350,6 @@ testContext
 appStore
 shareSubject
 shareData
-false
 sendTabUseCases
 saveToPdfUseCase
 printUseCase
@@ -4449,6 +4435,9 @@ title
 "
 title0
 "
+private
+=
+false
 )
 ShareData
 (
@@ -4464,6 +4453,9 @@ Hello
 World
 !
 "
+private
+=
+false
 )
 )
 .
@@ -4495,6 +4487,44 @@ testDispatcher
 )
 {
 val
+privateShareData
+=
+listOf
+(
+ShareData
+(
+url
+=
+"
+url0
+"
+title
+=
+"
+title0
+"
+private
+=
+true
+)
+ShareData
+(
+url
+=
+"
+url1
+"
+title
+=
+"
+title1
+"
+private
+=
+true
+)
+)
+val
 privateController
 =
 DefaultShareController
@@ -4510,10 +4540,7 @@ shareSubject
 null
 shareData
 =
-shareData
-isPrivate
-=
-true
+privateShareData
 sendTabUseCases
 =
 sendTabUseCases
@@ -4602,7 +4629,7 @@ privateController
 {
 tabData
 =
-shareData
+privateShareData
 .
 toTabData
 (

@@ -1763,6 +1763,9 @@ title
 "
 Mozilla
 "
+private
+=
+false
 )
 ShareData
 (
@@ -1782,6 +1785,9 @@ title
 "
 Firefox
 "
+private
+=
+false
 )
 )
 launcher
@@ -1921,6 +1927,9 @@ title
 "
 Mozilla
 "
+private
+=
+false
 )
 ShareData
 (
@@ -1940,6 +1949,9 @@ title
 "
 Firefox
 "
+private
+=
+false
 )
 )
 launcher
@@ -2013,6 +2025,9 @@ title
 "
 Mozilla
 "
+private
+=
+false
 )
 )
 launcher
@@ -2106,6 +2121,9 @@ title
 "
 Mozilla
 "
+private
+=
+false
 )
 ShareData
 (
@@ -2118,6 +2136,9 @@ title
 No
 URL
 "
+private
+=
+false
 )
 )
 launcher
@@ -2272,6 +2293,9 @@ title
 "
 Mozilla
 "
+private
+=
+false
 )
 ShareData
 (
@@ -2291,6 +2315,9 @@ title
 "
 Firefox
 "
+private
+=
+false
 )
 )
 launcher
@@ -2403,6 +2430,9 @@ title
 "
 Mozilla
 "
+private
+=
+false
 )
 ShareData
 (
@@ -2422,6 +2452,9 @@ title
 "
 Firefox
 "
+private
+=
+false
 )
 )
 launcher

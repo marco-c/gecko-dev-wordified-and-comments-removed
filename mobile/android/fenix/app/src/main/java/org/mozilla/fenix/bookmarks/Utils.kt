@@ -761,6 +761,9 @@ Bookmark
 .
 asShareDataArray
 (
+private
+:
+Boolean
 )
 :
 Array
@@ -783,6 +786,9 @@ url
 it
 .
 url
+private
+=
+private
 )
 }
 .

@@ -4730,6 +4730,13 @@ selectedTab
 content
 .
 title
+private
+=
+selectedTab
+.
+content
+.
+private
 )
 )
 showPage

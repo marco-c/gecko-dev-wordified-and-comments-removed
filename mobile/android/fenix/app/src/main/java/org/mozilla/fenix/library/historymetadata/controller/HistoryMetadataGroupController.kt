@@ -1008,6 +1008,15 @@ title
 it
 .
 title
+private
+=
+appStore
+.
+state
+.
+mode
+.
+isPrivate
 )
 }
 shareUseCases

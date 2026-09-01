@@ -166,6 +166,10 @@ String
 ?
 =
 null
+val
+private
+:
+Boolean
 )
 :
 Parcelable

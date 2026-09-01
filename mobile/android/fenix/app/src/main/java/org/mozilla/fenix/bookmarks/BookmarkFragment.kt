@@ -1025,6 +1025,13 @@ bookmarks
 .
 asShareDataArray
 (
+appStore
+.
+state
+.
+mode
+.
+isPrivate
 )
 .
 toList
@@ -1099,6 +1106,13 @@ bookmarks
 .
 asShareDataArray
 (
+appStore
+.
+state
+.
+mode
+.
+isPrivate
 )
 )
 )

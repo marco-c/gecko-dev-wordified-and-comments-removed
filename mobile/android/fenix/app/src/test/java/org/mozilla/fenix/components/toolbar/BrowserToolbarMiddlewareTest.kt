@@ -9594,6 +9594,9 @@ currentTab
 content
 .
 title
+private
+=
+false
 )
 )
 showPage

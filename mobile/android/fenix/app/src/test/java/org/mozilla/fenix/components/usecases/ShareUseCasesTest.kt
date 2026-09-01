@@ -1401,6 +1401,9 @@ title
 "
 Mozilla
 "
+private
+=
+false
 )
 )
 assertNull
@@ -1557,6 +1560,9 @@ title
 "
 Mozilla
 "
+private
+=
+false
 )
 )
 val
@@ -1702,6 +1708,9 @@ mozilla
 .
 org
 "
+private
+=
+false
 )
 )
 source
@@ -1793,6 +1802,9 @@ mozilla
 .
 org
 "
+private
+=
+false
 )
 )
 source
