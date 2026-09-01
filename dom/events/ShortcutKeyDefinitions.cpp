@@ -1257,7 +1257,7 @@ shift
 "
 u
 "
-cmd_paste
+cmd_pasteNoFormatting
 "
 }
 #
@@ -1284,7 +1284,7 @@ shift
 "
 u
 "
-cmd_paste
+cmd_pasteNoFormatting
 "
 }
 #
@@ -2644,7 +2644,7 @@ shift
 "
 u
 "
-cmd_paste
+cmd_pasteNoFormatting
 "
 }
 #
@@ -2671,7 +2671,7 @@ shift
 "
 u
 "
-cmd_paste
+cmd_pasteNoFormatting
 "
 }
 #
