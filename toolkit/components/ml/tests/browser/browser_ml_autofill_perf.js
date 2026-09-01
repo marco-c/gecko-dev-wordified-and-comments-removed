@@ -160,7 +160,7 @@ join
 ;
 }
 const
-LEGACY_INPUTS
+SINGLE_MODEL_INPUTS
 =
 FIELD_TOKENS
 .
@@ -623,12 +623,14 @@ ML
 Autofill
 model
 (
-legacy
+default
 single
 -
 model
 and
-new
+opt
+-
+in
 two
 -
 engine
@@ -1095,7 +1097,7 @@ request
 args
 :
 [
-LEGACY_INPUTS
+SINGLE_MODEL_INPUTS
 ]
 options
 :
