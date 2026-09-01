@@ -749,7 +749,7 @@ false
 }
 ;
 await
-perfTest
+runMLPerfTest
 (
 {
 name
@@ -762,6 +762,15 @@ perfName
 options
 request
 trackPeakMemory
+backends
+:
+[
+"
+llama
+.
+cpp
+"
+]
 }
 )
 ;

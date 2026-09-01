@@ -245,7 +245,7 @@ true
 }
 ;
 await
-perfTest
+runMLPerfTest
 (
 {
 name

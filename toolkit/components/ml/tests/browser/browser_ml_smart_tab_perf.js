@@ -267,7 +267,7 @@ runOptions
 }
 ;
 await
-perfTest
+runMLPerfTest
 (
 {
 name
@@ -294,7 +294,7 @@ true
 )
 ;
 await
-perfTest
+runMLPerfTest
 (
 {
 name
@@ -662,7 +662,7 @@ runOptions
 }
 ;
 await
-perfTest
+runMLPerfTest
 (
 {
 name
