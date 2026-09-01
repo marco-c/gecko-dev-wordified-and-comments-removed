@@ -10975,6 +10975,8 @@ Direction
 :
 :
 kSendrecv
+nsLiteralCString
+(
 webrtc
 :
 :
@@ -10982,6 +10984,7 @@ RtpExtension
 :
 :
 kAudioLevelUri
+)
 }
 ;
 aRtpExtensions
@@ -11013,6 +11016,8 @@ Direction
 :
 :
 kRecvonly
+nsLiteralCString
+(
 webrtc
 :
 :
@@ -11020,6 +11025,7 @@ RtpExtension
 :
 :
 kCsrcAudioLevelsUri
+)
 }
 ;
 aRtpExtensions
@@ -11051,6 +11057,8 @@ Direction
 :
 :
 kSendrecv
+nsLiteralCString
+(
 webrtc
 :
 :
@@ -11058,6 +11066,7 @@ RtpExtension
 :
 :
 kMidUri
+)
 }
 ;
 aRtpExtensions
@@ -11089,6 +11098,8 @@ Direction
 :
 :
 kSendrecv
+nsLiteralCString
+(
 webrtc
 :
 :
@@ -11096,6 +11107,7 @@ RtpExtension
 :
 :
 kAbsSendTimeUri
+)
 }
 ;
 aRtpExtensions
@@ -11127,6 +11139,8 @@ Direction
 :
 :
 kSendrecv
+nsLiteralCString
+(
 webrtc
 :
 :
@@ -11134,6 +11148,7 @@ RtpExtension
 :
 :
 kTimestampOffsetUri
+)
 }
 ;
 aRtpExtensions
@@ -11165,6 +11180,8 @@ Direction
 :
 :
 kRecvonly
+nsLiteralCString
+(
 webrtc
 :
 :
@@ -11172,6 +11189,7 @@ RtpExtension
 :
 :
 kPlayoutDelayUri
+)
 }
 ;
 aRtpExtensions
@@ -11279,6 +11297,8 @@ Direction
 :
 :
 kSendrecv
+nsLiteralCString
+(
 webrtc
 :
 :
@@ -11286,6 +11306,7 @@ RtpExtension
 :
 :
 kTransportSequenceNumberUri
+)
 }
 ;
 aRtpExtensions
