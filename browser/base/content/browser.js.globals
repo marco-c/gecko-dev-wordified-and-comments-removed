@@ -27,10 +27,10 @@ gBrowserAllowScriptsToCloseInitialTabs
 gEditUIVisible
 "
 "
+gReduceMotionSetting
+"
+"
 gReduceMotionOverride
-"
-"
-gReduceMotionManager
 "
 "
 shouldSuppressPopupNotifications
