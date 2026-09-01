@@ -781,16 +781,9 @@ FileHandleHelper
 aOther
 )
 const
-{
-return
-mHandle
 =
-=
-aOther
-.
-mHandle
+default
 ;
-}
 private
 :
 FileHandleType
