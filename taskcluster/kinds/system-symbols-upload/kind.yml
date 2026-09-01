@@ -96,6 +96,8 @@ kind
 dependencies
 :
 -
+fetch
+-
 system
 -
 symbols
@@ -279,3 +281,13 @@ gecko
 symbol
 -
 upload
+fetches
+:
+fetch
+:
+-
+upload
+-
+symbols
+-
+linux64

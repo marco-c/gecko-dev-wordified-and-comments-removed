@@ -102,7 +102,7 @@ kind
 dependencies
 :
 -
-toolchain
+fetch
 task
 -
 defaults
@@ -321,3 +321,13 @@ gecko
 symbol
 -
 upload
+fetches
+:
+fetch
+:
+-
+upload
+-
+symbols
+-
+linux64
