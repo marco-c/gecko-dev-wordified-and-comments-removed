@@ -110,6 +110,13 @@ ListProperty
 String
 >
 val
+ktfmtSourcePaths
+:
+ListProperty
+<
+String
+>
+val
 detektSourcePaths
 :
 ListProperty

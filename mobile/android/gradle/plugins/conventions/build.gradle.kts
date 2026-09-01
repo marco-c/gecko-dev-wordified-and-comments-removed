@@ -388,6 +388,14 @@ gradle
 .
 plugin
 )
+implementation
+(
+libs
+.
+spotless
+.
+plugin
+)
 testImplementation
 (
 platform
