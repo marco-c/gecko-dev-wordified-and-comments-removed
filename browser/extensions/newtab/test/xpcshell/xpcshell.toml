@@ -211,6 +211,13 @@ js
 ]
 [
 "
+test_RecentSearchesFeed
+.
+js
+"
+]
+[
+"
 test_RemoteRenderer
 .
 js

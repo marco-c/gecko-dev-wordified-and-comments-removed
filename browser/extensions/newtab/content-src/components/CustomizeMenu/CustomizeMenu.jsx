@@ -1711,6 +1711,15 @@ props
 .
 mayHavePictureOfTheDayWidget
 }
+mayHaveRecentSearchesWidget
+=
+{
+this
+.
+props
+.
+mayHaveRecentSearchesWidget
+}
 dispatch
 =
 {

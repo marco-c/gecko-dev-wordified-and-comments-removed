@@ -1249,6 +1249,9 @@ pictureOfTheDay
 "
 stocks
 "
+"
+recentSearches
+"
 ]
 )
 ;
@@ -1310,6 +1313,9 @@ crossword
 "
 "
 stocks
+"
+"
+recentSearches
 "
 ]
 )
@@ -1375,6 +1381,9 @@ crossword
 "
 "
 stocks
+"
+"
+recentSearches
 "
 ]
 )
@@ -1502,6 +1511,9 @@ crossword
 "
 "
 stocks
+"
+"
+recentSearches
 "
 ]
 )
@@ -1644,6 +1656,9 @@ crossword
 "
 stocks
 "
+"
+recentSearches
+"
 ]
 )
 ;
@@ -1727,6 +1742,9 @@ crossword
 "
 "
 stocks
+"
+"
+recentSearches
 "
 ]
 )
@@ -1812,6 +1830,9 @@ crossword
 "
 "
 stocks
+"
+"
+recentSearches
 "
 ]
 )
