@@ -407,6 +407,17 @@ VISUALC_HAS_AVX2
 endif
 #
 if
+defined
+(
+LIBYUV_ENABLE_SME
+)
+#
+undef
+LIBYUV_DISABLE_SME
+#
+endif
+#
+if
 !
 defined
 (
@@ -437,7 +448,7 @@ __clang__
 __clang_major__
 >
 =
-19
+18
 )
 #
 define
