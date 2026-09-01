@@ -47,6 +47,11 @@ classname
 -
 3
 "
+tabIndex
+=
+{
+null
+}
 >
 <
 img
@@ -154,6 +159,11 @@ classname
 -
 1
 "
+tabIndex
+=
+{
+null
+}
 >
 <
 img
@@ -261,6 +271,11 @@ classname
 -
 2
 "
+tabIndex
+=
+{
+null
+}
 >
 <
 img
@@ -372,6 +387,11 @@ classname
 -
 1
 "
+tabIndex
+=
+{
+null
+}
 >
 <
 img
