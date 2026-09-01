@@ -12245,11 +12245,14 @@ is_dom_worker_thread
 ;
 func
 (
+unsafe
+{
 raw
 .
 read_unchecked
 (
 )
+}
 )
 }
 fn
