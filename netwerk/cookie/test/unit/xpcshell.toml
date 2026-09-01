@@ -97,6 +97,13 @@ js
 ]
 [
 "
+test_purge_expired_on_idle_daily
+.
+js
+"
+]
+[
+"
 test_schemeMap
 .
 js
