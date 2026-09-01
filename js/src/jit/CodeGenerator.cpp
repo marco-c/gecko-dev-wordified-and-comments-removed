@@ -24400,14 +24400,6 @@ graph
 poBegin
 (
 )
-|
-|
-lir
--
->
-isGenerator
-(
-)
 )
 {
 masm
