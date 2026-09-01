@@ -660,7 +660,7 @@ orig_basename
     
 test_artifact_patterns
 =
-{
+(
         
 (
 "
@@ -966,7 +966,7 @@ plugins
 )
 )
     
-}
+)
     
 _test_zip_archive_suffix
 =
@@ -5648,7 +5648,7 @@ _package_artifact_patterns
     
 test_artifact_patterns
 =
-{
+(
         
 (
 "
@@ -6024,7 +6024,7 @@ components
 )
 )
     
-}
+)
     
 def
 process_package_artifact
