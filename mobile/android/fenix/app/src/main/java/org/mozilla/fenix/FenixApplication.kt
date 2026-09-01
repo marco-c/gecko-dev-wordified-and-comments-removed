@@ -4357,11 +4357,11 @@ context
 =
 this
 FenixApplication
-settings
+collectionsMigrationRepository
 =
 components
 .
-settings
+collectionsMigrationRepository
 )
 }
 /

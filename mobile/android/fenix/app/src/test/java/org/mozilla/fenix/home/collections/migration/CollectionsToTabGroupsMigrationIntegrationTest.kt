@@ -485,9 +485,14 @@ restore
 tabGroupRepository
 =
 tabGroupRepository
+collectionsMigrationRepository
+=
+DefaultCollectionsMigrationRepository
+(
 settings
 =
 settings
+)
 engine
 =
 FakeEngine
