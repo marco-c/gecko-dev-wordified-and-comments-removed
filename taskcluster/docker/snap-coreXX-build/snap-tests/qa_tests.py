@@ -6105,6 +6105,8 @@ open_tab
 about
 :
 preferences
+#
+downloads
 "
 )
         
@@ -6133,8 +6135,18 @@ chooseFolder
         
 )
         
-if
-not
+try
+:
+            
+self
+.
+_wait
+.
+until
+(
+lambda
+d
+:
 download_folder
 .
 get_property
@@ -6143,6 +6155,10 @@ get_property
 value
 "
 )
+)
+        
+except
+TimeoutException
 :
             
 download_folder
