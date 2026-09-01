@@ -658,6 +658,16 @@ return
 mPlaybackRate
 ;
 }
+#
+ifdef
+ENABLE_TESTS
+uint32_t
+TimeStretcherSamplesForTesting
+(
+)
+;
+#
+endif
 protected
 :
 ~
