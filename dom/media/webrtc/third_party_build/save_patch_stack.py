@@ -77,9 +77,6 @@ repo_type
 detect_repo_type
 (
 )
-atexit
-.
-register
 def
 early_exit_handler
 (
@@ -993,6 +990,26 @@ no_pre_stack
 )
 :
     
+if
+repo_type
+=
+=
+RepoType
+.
+GIT
+:
+        
+verify_git_repo_configuration
+(
+)
+    
+atexit
+.
+register
+(
+early_exit_handler
+)
+    
 files_to_remove
 =
 os
@@ -1462,6 +1479,13 @@ stdout_lines
 run_shell
 (
 cmd
+)
+    
+atexit
+.
+unregister
+(
+early_exit_handler
 )
 def
 verify_git_repo_configuration
@@ -2108,17 +2132,11 @@ parse_args
 (
 )
     
-if
-repo_type
-=
-=
-RepoType
+atexit
 .
-GIT
-:
-        
-verify_git_repo_configuration
+register
 (
+early_exit_handler
 )
     
 if
@@ -2291,6 +2309,13 @@ sh
 False
 )
     
+atexit
+.
+unregister
+(
+early_exit_handler
+)
+    
 save_patch_stack
 (
         
@@ -2329,11 +2354,4 @@ args
 .
 no_pre_stack
     
-)
-    
-atexit
-.
-unregister
-(
-early_exit_handler
 )
