@@ -996,6 +996,7 @@ interface
 Document
 {
 [
+UseCounter
 Throws
 NeedsSubjectPrincipal
 =
@@ -5476,6 +5477,7 @@ interface
 Document
 {
 [
+UseCounter
 Throws
 Pref
 =

@@ -475,6 +475,7 @@ interface
 ShadowRoot
 {
 [
+UseCounter
 Throws
 Pref
 =
@@ -528,6 +529,7 @@ shadowroot
 -
 sethtmlunsafe
 [
+UseCounter
 NeedsSubjectPrincipal
 =
 NonSystem
