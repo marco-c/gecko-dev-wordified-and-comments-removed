@@ -1426,6 +1426,17 @@ Imm32
 imm
 )
 ;
+void
+ma_nor
+(
+Register
+rd
+Register
+rj
+Imm32
+imm
+)
+;
 FaultingCodeRange
 ma_load
 (
