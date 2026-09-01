@@ -44,17 +44,6 @@ h
 #
 include
 "
-media
-/
-base
-/
-video_common
-.
-h
-"
-#
-include
-"
 modules
 /
 video_capture
