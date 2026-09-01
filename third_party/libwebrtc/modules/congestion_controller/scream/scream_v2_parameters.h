@@ -267,6 +267,12 @@ FieldTrialParameter
 <
 double
 >
+pacing_rate_received_factor
+;
+FieldTrialParameter
+<
+double
+>
 feedback_hold_time_avg_g
 ;
 FieldTrialParameter

@@ -419,6 +419,15 @@ PacingFactor
 .
 1
 )
+pacing_rate_received_factor
+(
+"
+PacingRateReceivedFactor
+"
+0
+.
+8
+)
 feedback_hold_time_avg_g
 (
 "
@@ -542,6 +551,8 @@ allow_padding_after_last_congestion_time
 initial_probing_duration
 &
 pacing_factor
+&
+pacing_rate_received_factor
 &
 feedback_hold_time_avg_g
 &
