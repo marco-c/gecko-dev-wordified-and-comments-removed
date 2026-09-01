@@ -1485,7 +1485,6 @@ JSContext
 *
 cx
 HandleFunction
-HandleScript
 HandleObject
 HandleObject
 )

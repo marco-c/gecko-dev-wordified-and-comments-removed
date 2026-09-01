@@ -6367,8 +6367,6 @@ JSContext
 cx
 HandleFunction
 callee
-HandleScript
-script
 HandleObject
 environmentChain
 HandleObject
@@ -6407,7 +6405,6 @@ create
 (
 cx
 callee
-script
 environmentChain
 argsObj
 )
