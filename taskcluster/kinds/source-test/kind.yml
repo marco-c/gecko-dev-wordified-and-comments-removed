@@ -182,6 +182,12 @@ clang
 .
 yml
 -
+clang
+-
+tidy
+.
+yml
+-
 doc
 .
 yml
