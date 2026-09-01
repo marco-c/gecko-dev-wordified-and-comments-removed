@@ -263,6 +263,14 @@ nsAString
 aEndpointName
 )
 ;
+static
+void
+RemoveGlobalEndpoints
+(
+uintptr_t
+aGlobalKey
+)
+;
 private
 :
 ReportDeliver
