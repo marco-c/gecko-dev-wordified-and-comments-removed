@@ -194,16 +194,6 @@ action
 "
     
 "
-privacy
-.
-ui
-.
-fpp
-#
-click
-"
-    
-"
 slow_script_warning
 #
 shown

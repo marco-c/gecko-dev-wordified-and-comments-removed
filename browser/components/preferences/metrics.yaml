@@ -236,9 +236,6 @@ checkbox
 type
 :
 boolean
-telemetry_mirror
-:
-PrivacyUiFpp_Click_Checkbox
 menu
 :
 type
@@ -345,9 +342,6 @@ menulist
 type
 :
 string
-telemetry_mirror
-:
-PrivacyUiFpp_Click_Menu
 network
 .
 proxy
