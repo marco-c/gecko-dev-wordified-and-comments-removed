@@ -683,7 +683,10 @@ pool
 "
 TaskQueue
 "
-true
+TailDispatchPolicy
+:
+:
+ConsistentOrdering
 )
 ;
 auto

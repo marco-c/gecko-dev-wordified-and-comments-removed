@@ -60,6 +60,12 @@ mozilla
 class
 TaskQueue
 ;
+enum
+class
+TailDispatchPolicy
+:
+uint8_t
+;
 std
 :
 :
@@ -85,8 +91,8 @@ const
 nsACString
 &
 aName
-bool
-aSupportsTailDispatch
+TailDispatchPolicy
+aTailDispatchPolicy
 )
 ;
 RefPtr
@@ -104,8 +110,8 @@ const
 nsLiteralCString
 &
 aName
-bool
-aSupportsTailDispatch
+TailDispatchPolicy
+aTailDispatchPolicy
 )
 ;
 UniquePtr

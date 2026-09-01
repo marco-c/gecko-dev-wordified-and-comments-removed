@@ -306,7 +306,10 @@ MDSM
 :
 mTaskQueue
 "
-true
+TailDispatchPolicy
+:
+:
+ConsistentOrdering
 )
 )
 mReader

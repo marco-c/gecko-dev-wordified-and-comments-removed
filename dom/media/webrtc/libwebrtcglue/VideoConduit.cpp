@@ -2745,7 +2745,10 @@ WebrtcVideoConduit
 mFrameRecvThread
 "
 _ns
-true
+TailDispatchPolicy
+:
+:
+ConsistentOrdering
 )
 )
 mControl

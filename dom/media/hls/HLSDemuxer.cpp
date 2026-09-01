@@ -619,7 +619,10 @@ SUPERVISOR
 "
 HLSDemuxer
 "
-false
+TailDispatchPolicy
+:
+:
+NoTailDispatch
 )
 )
 {

@@ -8474,7 +8474,10 @@ mTaskDispatcher
 emplace
 (
 aGraph
-true
+aGraph
+-
+>
+mTailDispatchPolicy
 )
 ;
 mGraph
@@ -18057,7 +18060,10 @@ aPrimaryOutputDeviceID
 )
 AbstractThread
 (
-true
+TailDispatchPolicy
+:
+:
+TargetAtomicity
 )
 mWindowID
 (
