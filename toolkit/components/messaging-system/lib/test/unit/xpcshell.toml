@@ -22,3 +22,10 @@ test_MessagingSystemAllowlists
 js
 "
 ]
+[
+"
+test_MessagingSystemBlocklists
+.
+js
+"
+]
