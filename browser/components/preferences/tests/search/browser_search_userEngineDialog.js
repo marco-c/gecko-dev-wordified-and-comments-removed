@@ -4436,7 +4436,7 @@ row
 >
 row
 .
-__config
+config
 .
 controlAttrs
 .
