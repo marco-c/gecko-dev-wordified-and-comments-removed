@@ -952,12 +952,7 @@ mixins
 :
 [
 '
-mac_15_x64
-'
-'
-cores
--
-12
+mac_26_arm64
 '
 '
 resultdb
@@ -1000,12 +995,7 @@ mixins
 :
 [
 '
-mac_15_x64
-'
-'
-cores
--
-12
+mac_26_arm64
 '
 '
 resultdb
@@ -1048,7 +1038,7 @@ mixins
 :
 [
 '
-mac_15_x64
+mac_26_arm64
 '
 '
 resultdb
@@ -2830,7 +2820,7 @@ mixins
 :
 [
 '
-mac_15_x64
+mac_26_arm64
 '
 '
 resultdb
@@ -2838,11 +2828,6 @@ resultdb
 json
 -
 format
-'
-'
-cores
--
-12
 '
 ]
 '
@@ -2889,7 +2874,7 @@ mixins
 :
 [
 '
-mac_15_x64
+mac_26_arm64
 '
 '
 resultdb
@@ -2897,11 +2882,6 @@ resultdb
 json
 -
 format
-'
-'
-cores
--
-12
 '
 ]
 '
@@ -2985,7 +2965,7 @@ mixins
 :
 [
 '
-mac_15_x64
+mac_26_arm64
 '
 '
 resultdb
