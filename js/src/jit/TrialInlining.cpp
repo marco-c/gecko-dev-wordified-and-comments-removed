@@ -3709,7 +3709,6 @@ analysis
 .
 init
 (
-temp
 )
 )
 {
