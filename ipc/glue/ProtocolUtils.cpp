@@ -580,7 +580,9 @@ Tokenizer
 TOKEN_WORD
 )
 {
+const
 auto
+&
 filter
 =
 t
