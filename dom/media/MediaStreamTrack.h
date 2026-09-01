@@ -314,6 +314,11 @@ Destroy
 struct
 CloneResult
 {
+~
+CloneResult
+(
+)
+;
 RefPtr
 <
 MediaStreamTrackSource
