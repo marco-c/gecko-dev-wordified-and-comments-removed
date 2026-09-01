@@ -4792,6 +4792,13 @@ HomeActivity
 )
 .
 browsingModeManager
+shareUseCases
+=
+requireComponents
+.
+useCases
+.
+shareUseCases
 )
 )
 )
