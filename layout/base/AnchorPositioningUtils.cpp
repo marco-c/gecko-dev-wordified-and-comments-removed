@@ -6347,10 +6347,12 @@ return
 didLayoutPositionedItems
 ;
 }
-static
 const
 nsIFrame
 *
+AnchorPositioningUtils
+:
+:
 GetMatchingContainingBlock
 (
 const
