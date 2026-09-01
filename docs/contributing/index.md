@@ -1,3 +1,11 @@
+(
+working
+-
+on
+-
+firefox
+)
+=
 #
 Working
 on
@@ -143,9 +151,6 @@ artifact_builds
 build
 /
 building_mobile_firefox
-build
-/
-supported
 build
 /
 working_with_esr_115
