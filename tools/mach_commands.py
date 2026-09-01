@@ -1516,6 +1516,16 @@ PATH
 ]
 )
     
+from
+mozbuild
+.
+base
+import
+BuildEnvironmentNotFoundException
+    
+try
+:
+        
 firefox_bin
 =
 command_context
@@ -1527,6 +1537,15 @@ validate_exists
 False
 )
     
+except
+BuildEnvironmentNotFoundException
+:
+        
+pass
+    
+else
+:
+        
 if
 os
 .
@@ -1537,7 +1556,7 @@ exists
 firefox_bin
 )
 :
-        
+            
 os
 .
 environ
