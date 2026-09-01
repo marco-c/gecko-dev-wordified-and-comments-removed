@@ -723,7 +723,7 @@ const
 RTC_DCHECK_RUN_ON
 (
 &
-packet_sequence_checker_
+worker_sequence_checker_
 )
 ;
 return
@@ -1125,7 +1125,7 @@ now
 )
 RTC_RUN_ON
 (
-packet_sequence_checker_
+worker_sequence_checker_
 )
 ;
 void
@@ -1142,7 +1142,7 @@ keyframe_request_is_due
 )
 RTC_RUN_ON
 (
-packet_sequence_checker_
+worker_sequence_checker_
 )
 ;
 bool
@@ -1154,7 +1154,7 @@ timestamp
 const
 RTC_RUN_ON
 (
-packet_sequence_checker_
+worker_sequence_checker_
 )
 ;
 int
@@ -1200,10 +1200,6 @@ env_
 RTC_NO_UNIQUE_ADDRESS
 SequenceChecker
 worker_sequence_checker_
-;
-RTC_NO_UNIQUE_ADDRESS
-SequenceChecker
-packet_sequence_checker_
 ;
 RTC_NO_UNIQUE_ADDRESS
 SequenceChecker
@@ -1318,14 +1314,14 @@ TimeDelta
 max_wait_for_keyframe_
 RTC_GUARDED_BY
 (
-packet_sequence_checker_
+worker_sequence_checker_
 )
 ;
 TimeDelta
 max_wait_for_frame_
 RTC_GUARDED_BY
 (
-packet_sequence_checker_
+worker_sequence_checker_
 )
 ;
 const
@@ -1343,7 +1339,7 @@ RtpStreamReceiverControllerInterface
 receiver_controller_
 RTC_GUARDED_BY
 (
-packet_sequence_checker_
+worker_sequence_checker_
 )
 =
 nullptr
@@ -1358,7 +1354,7 @@ RtpStreamReceiverInterface
 media_receiver_
 RTC_GUARDED_BY
 (
-packet_sequence_checker_
+worker_sequence_checker_
 )
 ;
 std
@@ -1371,7 +1367,7 @@ RtxReceiveStream
 rtx_receive_stream_
 RTC_GUARDED_BY
 (
-packet_sequence_checker_
+worker_sequence_checker_
 )
 ;
 std
@@ -1384,7 +1380,7 @@ uint32_t
 updated_rtx_ssrc_
 RTC_GUARDED_BY
 (
-packet_sequence_checker_
+worker_sequence_checker_
 )
 ;
 std
@@ -1397,14 +1393,14 @@ RtpStreamReceiverInterface
 rtx_receiver_
 RTC_GUARDED_BY
 (
-packet_sequence_checker_
+worker_sequence_checker_
 )
 ;
 bool
 keyframe_required_
 RTC_GUARDED_BY
 (
-packet_sequence_checker_
+worker_sequence_checker_
 )
 =
 true
@@ -1428,7 +1424,7 @@ Timestamp
 last_keyframe_request_
 RTC_GUARDED_BY
 (
-packet_sequence_checker_
+worker_sequence_checker_
 )
 ;
 std
@@ -1505,7 +1501,7 @@ bool
 keyframe_generation_requested_
 RTC_GUARDED_BY
 (
-packet_sequence_checker_
+worker_sequence_checker_
 )
 =
 false
