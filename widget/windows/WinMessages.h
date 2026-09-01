@@ -6,14 +6,6 @@ define
 mozilla_widget_WinMessages_h_
 #
 define
-MOZ_WM_STARTA11Y
-(
-WM_APP
-+
-0x0302
-)
-#
-define
 MOZ_WM_MOUSE_RESERVED_UNUSED_0
 (
 WM_APP
