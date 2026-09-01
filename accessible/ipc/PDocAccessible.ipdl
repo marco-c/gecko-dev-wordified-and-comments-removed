@@ -370,9 +370,6 @@ EndOffset
 ;
 }
 ;
-[
-ManualDealloc
-]
 protocol
 PDocAccessible
 {

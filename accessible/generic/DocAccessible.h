@@ -2002,8 +2002,10 @@ PresShell
 *
 mPresShell
 ;
+RefPtr
+<
 DocAccessibleChild
-*
+>
 mIPCDoc
 ;
 nsTArray
