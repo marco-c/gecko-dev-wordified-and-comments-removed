@@ -1622,24 +1622,6 @@ FieldTrial
 '
 WebRTC
 -
-AddPacingToCongestionWindowPushback
-'
-               
-42220204
-               
-date
-(
-2024
-4
-1
-)
-)
-    
-FieldTrial
-(
-'
-WebRTC
--
 AdjustOpusBandwidth
 '
                
@@ -5206,7 +5188,7 @@ str
 \
     
 '
-8470357338d133964bb56ea554cc1e824b2651f3
+b41ff32cc255517f1ba5add2a601453c5fc9e7c3
 '
 REGISTERED_FIELD_TRIALS
 :
