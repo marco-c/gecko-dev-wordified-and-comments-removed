@@ -2537,6 +2537,7 @@ this
 replaceTrendingResultWithAcknowledgement
 (
 controller
+queryContext
 )
 ;
 break
@@ -4124,16 +4125,15 @@ off
 replaceTrendingResultWithAcknowledgement
 (
 controller
+queryContext
 )
 {
 let
 resultsToRemove
 =
-controller
+queryContext
 .
-view
-.
-visibleResults
+results
 .
 filter
 (

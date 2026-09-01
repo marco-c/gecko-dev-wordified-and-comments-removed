@@ -783,6 +783,11 @@ browser_trending_suggestions
 js
 "
 ]
+tags
+=
+"
+urlbar
+"
 support
 -
 files
