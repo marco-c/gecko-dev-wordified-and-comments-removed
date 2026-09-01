@@ -1307,8 +1307,6 @@ args
 addremove
 "
 ]
-+
-paths
         
 m
 =
@@ -1377,10 +1375,13 @@ args
         
 self
 .
-_run
+_run_batched
 (
 *
 args
+paths
+=
+paths
 )
     
 def
@@ -1420,12 +1421,13 @@ paths
         
 self
 .
-_run
+_run_batched
 (
 "
 forget
 "
-*
+paths
+=
 paths
 )
     

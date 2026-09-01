@@ -1641,19 +1641,15 @@ f
 "
 )
         
-cmd
-.
-extend
-(
-paths
-)
-        
 self
 .
-_run
+_run_batched
 (
 *
 cmd
+paths
+=
+paths
 )
     
 def
@@ -1693,12 +1689,13 @@ paths
         
 self
 .
-_run
+_run_batched
 (
 "
 reset
 "
-*
+paths
+=
 paths
 )
     
