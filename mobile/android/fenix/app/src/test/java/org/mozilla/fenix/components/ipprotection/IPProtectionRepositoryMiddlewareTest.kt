@@ -292,7 +292,7 @@ nonToggleAction
 =
 IPProtectionAction
 .
-ProxyActiveShown
+ProxyActivationShown
 var
 nextCalled
 =
