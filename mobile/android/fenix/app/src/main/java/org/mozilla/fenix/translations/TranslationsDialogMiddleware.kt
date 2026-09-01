@@ -87,7 +87,7 @@ state
 .
 selector
 .
-selectedTab
+findTabOrCustomTabOrSelectedTab
 import
 mozilla
 .
@@ -187,6 +187,14 @@ val
 settings
 :
 Settings
+private
+val
+sessionId
+:
+String
+?
+=
+null
 )
 :
 Middleware
@@ -229,13 +237,16 @@ TranslationsDialogAction
 )
 {
 val
-sessionId
+targetSessionId
 =
 browserStore
 .
 state
 .
-selectedTab
+findTabOrCustomTabOrSelectedTab
+(
+sessionId
+)
 ?
 .
 id
@@ -328,7 +339,7 @@ OperationRequestedAction
 (
 tabId
 =
-sessionId
+targetSessionId
 operation
 =
 TranslationOperation
@@ -355,7 +366,7 @@ FetchTranslationDownloadSizeAction
 (
 tabId
 =
-sessionId
+targetSessionId
 fromLanguage
 =
 action
@@ -386,7 +397,7 @@ OperationRequestedAction
 (
 tabId
 =
-sessionId
+targetSessionId
 operation
 =
 TranslationOperation
@@ -412,7 +423,7 @@ OperationRequestedAction
 (
 tabId
 =
-sessionId
+targetSessionId
 operation
 =
 TranslationOperation
@@ -464,7 +475,7 @@ TranslateAction
 (
 tabId
 =
-sessionId
+targetSessionId
 fromLanguage
 =
 fromLanguage
@@ -504,7 +515,7 @@ TranslationsAction
 .
 TranslateRestoreAction
 (
-sessionId
+targetSessionId
 )
 )
 }
@@ -588,7 +599,7 @@ UpdatePageSettingAction
 (
 tabId
 =
-sessionId
+targetSessionId
 operation
 =
 TranslationPageSettingOperation
@@ -617,7 +628,7 @@ UpdatePageSettingAction
 (
 tabId
 =
-sessionId
+targetSessionId
 operation
 =
 TranslationPageSettingOperation
@@ -646,7 +657,7 @@ UpdatePageSettingAction
 (
 tabId
 =
-sessionId
+targetSessionId
 operation
 =
 TranslationPageSettingOperation

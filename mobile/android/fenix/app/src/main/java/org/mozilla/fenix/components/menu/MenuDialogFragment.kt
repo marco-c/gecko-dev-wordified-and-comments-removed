@@ -4659,6 +4659,12 @@ web_extension_browser_action_clicked
 }
 )
 }
+translationInfo
+=
+translationInfo
+isReaderViewActive
+=
+isReaderViewActive
 )
 }
 }
