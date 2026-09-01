@@ -6606,6 +6606,17 @@ fxastatus
 not_configured
 "
 ]
+:
+not
+(
+[
+fxadisabled
+=
+"
+true
+"
+]
+)
 #
 appMenu
 -
