@@ -312,8 +312,6 @@ aFaceName
 FcPattern
 *
 aFontPattern
-bool
-aIgnoreFcCharmap
 )
 ;
 explicit
@@ -394,14 +392,6 @@ FontInfoData
 aFontInfoData
 =
 nullptr
-)
-override
-;
-bool
-TestCharacterMap
-(
-uint32_t
-aCh
 )
 override
 ;
@@ -602,9 +592,6 @@ FontTableCache
 *
 >
 mFontTableCache
-;
-bool
-mIgnoreFcCharmap
 ;
 enum
 class

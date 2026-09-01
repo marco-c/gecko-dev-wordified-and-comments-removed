@@ -3063,7 +3063,6 @@ uint32_t
 aUVSOffset
 )
 ;
-virtual
 bool
 TestCharacterMap
 (
