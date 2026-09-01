@@ -718,6 +718,7 @@ onPick
 _queryContext
 controller
 action
+_details
 )
 {
 let

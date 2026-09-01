@@ -866,6 +866,7 @@ onPick
 queryContext
 controller
 actionResult
+_details
 )
 {
 this
