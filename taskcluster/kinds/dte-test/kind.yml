@@ -231,7 +231,7 @@ repo
 type
 :
 [
-git
+hg
 ]
 run
 -
