@@ -3478,7 +3478,7 @@ prefs
 getBoolPref
 (
 SEARCH_THE_WEB_FAST_PREF
-false
+true
 )
 ?
 runFastSearch

@@ -16782,7 +16782,7 @@ smartwindow
 .
 searchTheWebFast
 "
-false
+true
 )
 ;
 pref
