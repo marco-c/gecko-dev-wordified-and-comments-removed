@@ -1036,6 +1036,11 @@ ReleaseFramesMediaCodec
 (
 )
 ;
+void
+ReleaseSurfaceMediaCodec
+(
+)
+;
 int32_t
 mTextureAlignment
 ;
