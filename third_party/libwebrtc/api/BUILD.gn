@@ -9400,6 +9400,11 @@ units_unittests
 "
 video
 :
+encoded_frame_unittest
+"
+"
+video
+:
 frame_buffer_unittest
 "
 "
