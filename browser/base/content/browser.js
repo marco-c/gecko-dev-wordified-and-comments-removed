@@ -20879,6 +20879,12 @@ nsISupportsWeakReference
 ]
 )
 ;
+window
+.
+TabDialogBox
+=
+TabDialogBox
+;
 var
 gDialogBox
 =
