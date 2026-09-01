@@ -2599,9 +2599,10 @@ GetRemoteType
 (
 this
 )
-=
-=
-INFERENCE_REMOTE_TYPE
+.
+IsInference
+(
+)
 )
 {
 options
@@ -3731,9 +3732,10 @@ parent
 GetRemoteType
 (
 )
-=
-=
-FILE_REMOTE_TYPE
+.
+IsFile
+(
+)
 ;
 }
 dom

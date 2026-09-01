@@ -690,9 +690,8 @@ GetPreference
 &
 pref
 GeckoProcessType_Utility
-"
-"
-_ns
+{
+}
 )
 ;
 for

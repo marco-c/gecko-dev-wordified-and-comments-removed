@@ -1447,7 +1447,16 @@ void_t
 (
 )
 agentClusterId
-DEFAULT_REMOTE_TYPE
+RemoteType
+(
+RemoteType
+:
+:
+Kind
+:
+:
+WebContent
+)
 loadInfo
 .
 mLanguageOverrideLocale

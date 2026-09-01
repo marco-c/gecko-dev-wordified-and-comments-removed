@@ -550,9 +550,8 @@ GetPreference
 &
 pref
 GeckoProcessType_RDD
-"
-"
-_ns
+{
+}
 )
 ;
 if

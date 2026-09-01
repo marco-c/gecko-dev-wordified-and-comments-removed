@@ -3156,9 +3156,8 @@ GetPreference
 &
 pref
 GeckoProcessType_Socket
-"
-"
-_ns
+{
+}
 )
 ;
 auto

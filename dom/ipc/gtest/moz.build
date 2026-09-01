@@ -67,6 +67,11 @@ ProcessIsolationTest
 .
 cpp
 "
+"
+RemoteTypeTest
+.
+cpp
+"
 ]
 include
 (

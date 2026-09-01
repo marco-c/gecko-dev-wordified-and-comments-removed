@@ -4613,7 +4613,16 @@ group
 >
 GetHostProcess
 (
-EXTENSION_REMOTE_TYPE
+RemoteType
+(
+RemoteType
+:
+:
+Kind
+:
+:
+Extension
+)
 )
 !
 =

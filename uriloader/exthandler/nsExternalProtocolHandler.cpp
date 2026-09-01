@@ -1807,7 +1807,13 @@ nsExtProtocolChannel
 :
 GetRemoteType
 (
-nsACString
+mozilla
+:
+:
+dom
+:
+:
+RemoteType
 &
 aRemoteType
 )

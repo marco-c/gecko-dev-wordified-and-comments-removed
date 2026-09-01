@@ -39,7 +39,7 @@ LoadedOriginSet
 LoadedOriginSet
 (
 const
-nsACString
+RemoteType
 &
 aRemoteType
 )
@@ -50,7 +50,7 @@ aRemoteType
 )
 {
 }
-nsCString
+RemoteType
 LoadedOriginSet
 :
 :
@@ -75,7 +75,7 @@ LoadedOriginSet
 SetRemoteType
 (
 const
-nsACString
+RemoteType
 &
 aRemoteType
 )
@@ -89,9 +89,10 @@ mMutex
 MOZ_ASSERT
 (
 mRemoteType
-=
-=
-PREALLOC_REMOTE_TYPE
+.
+IsPrealloc
+(
+)
 )
 ;
 mRemoteType
@@ -504,7 +505,7 @@ ValidatePrincipalOptions
 aOptions
 )
 {
-nsCString
+RemoteType
 remoteType
 =
 GetRemoteType

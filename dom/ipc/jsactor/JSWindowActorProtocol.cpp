@@ -1936,7 +1936,7 @@ nsIURI
 *
 aURI
 const
-nsACString
+RemoteType
 &
 aRemoteType
 ErrorResult
@@ -2063,7 +2063,7 @@ false
 if
 (
 !
-RemoteTypePrefixMatches
+RemoteTypeMatches
 (
 aRemoteType
 )
@@ -2098,9 +2098,10 @@ mName
 get
 (
 )
-PromiseFlatCString
-(
 aRemoteType
+.
+Stringify
+(
 )
 .
 get

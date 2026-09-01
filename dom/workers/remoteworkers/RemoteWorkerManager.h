@@ -141,11 +141,11 @@ bool
 MatchRemoteType
 (
 const
-nsACString
+RemoteType
 &
 processRemoteType
 const
-nsACString
+RemoteType
 &
 workerRemoteType
 )
@@ -153,7 +153,7 @@ workerRemoteType
 static
 Result
 <
-nsCString
+RemoteType
 nsresult
 >
 GetRemoteType
@@ -168,7 +168,7 @@ aPrincipal
 WorkerKind
 aWorkerKind
 const
-nsACString
+RemoteType
 &
 aCurrentRemoteType
 )
@@ -299,7 +299,7 @@ Callback
 &
 aCallback
 const
-nsACString
+RemoteType
 &
 aRemoteType
 Maybe

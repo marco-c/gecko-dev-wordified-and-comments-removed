@@ -158,7 +158,13 @@ nsIURI
 *
 aFinalURI
 const
-nsACString
+mozilla
+:
+:
+dom
+:
+:
+RemoteType
 &
 aRemoteType
 )

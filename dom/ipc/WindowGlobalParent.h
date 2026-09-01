@@ -1059,7 +1059,7 @@ mSecurityState
 ;
 }
 const
-nsACString
+RemoteType
 &
 GetRemoteType
 (

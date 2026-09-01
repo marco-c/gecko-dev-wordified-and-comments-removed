@@ -123,7 +123,7 @@ aActor
 )
 ;
 const
-nsACString
+RemoteType
 &
 GetRemoteType
 (
@@ -132,7 +132,12 @@ const
 override
 {
 return
-NOT_REMOTE_TYPE
+RemoteType
+:
+:
+NotRemote
+(
+)
 ;
 }
 ;

@@ -144,9 +144,10 @@ cc
 GetRemoteType
 (
 )
-=
-=
-FILE_REMOTE_TYPE
+.
+IsFile
+(
+)
 ;
 nsAutoCString
 extraSyscalls

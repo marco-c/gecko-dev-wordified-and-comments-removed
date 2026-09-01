@@ -34,9 +34,6 @@ WEB_REMOTE_TYPE
 E10SUtils
 .
 NOT_REMOTE
-"
-fakeRemoteType
-"
 ]
 ;
 var

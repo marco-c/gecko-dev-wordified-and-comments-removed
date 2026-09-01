@@ -518,9 +518,8 @@ prefSerializer
 SerializeToSharedMemory
 (
 GeckoProcessType_GMPlugin
-"
-"
-_ns
+{
+}
 )
 ;
 MonitorAutoLock

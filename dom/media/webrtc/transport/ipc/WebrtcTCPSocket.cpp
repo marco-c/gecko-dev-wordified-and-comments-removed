@@ -2134,7 +2134,15 @@ mProxyConfig
 loadInfoArgs
 (
 )
-NOT_REMOTE_TYPE
+dom
+:
+:
+RemoteType
+:
+:
+NotRemote
+(
+)
 getter_AddRefs
 (
 loadInfo

@@ -333,6 +333,9 @@ class
 BrowserChild
 ;
 class
+IPCTabContext
+;
+class
 TabContext
 ;
 enum
@@ -2167,10 +2170,10 @@ ipc
 :
 :
 IPCResult
-RecvRemoteType
+RecvSetRemoteType
 (
 const
-nsCString
+RemoteType
 &
 aRemoteType
 const
@@ -2185,7 +2188,7 @@ PreallocInit
 )
 ;
 const
-nsACString
+RemoteType
 &
 GetRemoteType
 (
@@ -5017,10 +5020,8 @@ mAppInfo
 bool
 mIsForBrowser
 ;
-nsCString
+RemoteType
 mRemoteType
-=
-NOT_REMOTE_TYPE
 ;
 bool
 mIsAlive
@@ -5186,7 +5187,7 @@ aContentChild
 )
 ;
 }
-nsCString
+RemoteType
 CurrentRemoteType
 (
 )

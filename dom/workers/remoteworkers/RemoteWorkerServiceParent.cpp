@@ -346,7 +346,7 @@ nullptr
 ;
 }
 }
-nsCString
+RemoteType
 RemoteWorkerServiceParent
 :
 :
@@ -370,7 +370,12 @@ GetRemoteType
 ;
 }
 return
-NOT_REMOTE_TYPE
+RemoteType
+:
+:
+NotRemote
+(
+)
 ;
 }
 }

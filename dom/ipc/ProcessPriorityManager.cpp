@@ -3504,9 +3504,10 @@ mContentParent
 GetRemoteType
 (
 )
-=
-=
-EXTENSION_REMOTE_TYPE
+.
+IsExtension
+(
+)
 |
 |
 mHoldsPlayingAudioWakeLock

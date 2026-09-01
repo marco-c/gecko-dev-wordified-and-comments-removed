@@ -219,7 +219,10 @@ GeckoViewContentChannelParent
 :
 GetRemoteType
 (
-nsACString
+dom
+:
+:
+RemoteType
 &
 aRemoteType
 )
@@ -699,7 +702,10 @@ return
 false
 ;
 }
-nsAutoCString
+dom
+:
+:
+RemoteType
 remoteType
 ;
 rv

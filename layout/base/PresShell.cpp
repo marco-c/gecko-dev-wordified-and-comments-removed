@@ -5781,8 +5781,6 @@ XRE_IsContentProcess
 )
 &
 &
-IsExtensionRemoteType
-(
 ContentChild
 :
 :
@@ -5794,6 +5792,9 @@ GetSingleton
 GetRemoteType
 (
 )
+.
+IsExtension
+(
 )
 )
 {

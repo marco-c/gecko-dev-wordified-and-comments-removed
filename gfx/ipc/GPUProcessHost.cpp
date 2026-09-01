@@ -351,9 +351,8 @@ mPrefSerializer
 SerializeToSharedMemory
 (
 GeckoProcessType_GPU
-"
-"
-_ns
+{
+}
 )
 )
 {

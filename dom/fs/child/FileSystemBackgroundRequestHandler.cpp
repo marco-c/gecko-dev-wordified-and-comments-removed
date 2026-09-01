@@ -348,9 +348,10 @@ if
 CurrentRemoteType
 (
 )
-=
-=
-INFERENCE_REMOTE_TYPE
+.
+IsInference
+(
+)
 )
 {
 options
@@ -359,7 +360,7 @@ options
 ValidatePrincipalOptions
 :
 :
-AllowSystem
+AllowSystemIfLoaded
 ;
 }
 if

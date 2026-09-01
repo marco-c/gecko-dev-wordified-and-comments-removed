@@ -1442,7 +1442,7 @@ cc
 )
 {
 const
-nsACString
+auto
 &
 remoteType
 =
@@ -1456,9 +1456,10 @@ GetRemoteType
 if
 (
 remoteType
-=
-=
-EXTENSION_REMOTE_TYPE
+.
+IsExtension
+(
+)
 )
 {
 processType
@@ -1475,9 +1476,10 @@ else
 if
 (
 remoteType
-=
-=
-INFERENCE_REMOTE_TYPE
+.
+IsInference
+(
+)
 )
 {
 processType

@@ -780,6 +780,11 @@ RemoteBrowser
 cpp
 "
 "
+RemoteType
+.
+cpp
+"
+"
 RemoteWebProgressRequest
 .
 cpp

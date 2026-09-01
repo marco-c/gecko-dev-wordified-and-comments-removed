@@ -7,7 +7,7 @@ const
 TEST_REMOTE_TYPE
 =
 "
-test
+inference
 "
 ;
 function

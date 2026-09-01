@@ -4099,7 +4099,7 @@ IPC_OK
 ;
 }
 const
-nsACString
+RemoteType
 &
 WindowGlobalParent
 :
@@ -4137,7 +4137,12 @@ GetRemoteType
 ;
 }
 return
-NOT_REMOTE_TYPE
+RemoteType
+:
+:
+NotRemote
+(
+)
 ;
 }
 void
@@ -4155,6 +4160,10 @@ const
 aRemoteType
 =
 GetRemoteType
+(
+)
+.
+Stringify
 (
 )
 ;
@@ -11352,8 +11361,6 @@ browserParent
 |
 |
 !
-IsWebRemoteType
-(
 browserParent
 -
 >
@@ -11365,6 +11372,9 @@ Manager
 GetRemoteType
 (
 )
+.
+IsWeb
+(
 )
 )
 {

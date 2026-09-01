@@ -1943,9 +1943,8 @@ GetPreference
 &
 pref
 GeckoProcessType_GMPlugin
-"
-"
-_ns
+{
+}
 )
 ;
 return

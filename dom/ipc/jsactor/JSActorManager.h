@@ -38,6 +38,17 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
+RemoteType
+.
+h
+"
+#
+include
+"
 nsRefPtrHashtable
 .
 h
@@ -130,7 +141,7 @@ aStack
 ;
 virtual
 const
-nsACString
+RemoteType
 &
 GetRemoteType
 (

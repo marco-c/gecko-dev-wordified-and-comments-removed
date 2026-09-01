@@ -69,7 +69,7 @@ explicit
 LoadedOriginSet
 (
 const
-nsACString
+RemoteType
 &
 aRemoteType
 )
@@ -86,7 +86,7 @@ Tentative
 Full
 }
 ;
-nsCString
+RemoteType
 GetRemoteType
 (
 )
@@ -95,7 +95,7 @@ void
 SetRemoteType
 (
 const
-nsACString
+RemoteType
 &
 aRemoteType
 )
@@ -213,7 +213,7 @@ LoadedOriginSet
 "
 }
 ;
-nsCString
+RemoteType
 mRemoteType
 MOZ_GUARDED_BY
 (

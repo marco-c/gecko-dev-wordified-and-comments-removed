@@ -114,7 +114,7 @@ return
 mProcess
 ;
 }
-nsCString
+RemoteType
 GetRemoteType
 (
 )

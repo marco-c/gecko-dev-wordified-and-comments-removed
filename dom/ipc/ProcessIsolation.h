@@ -120,23 +120,10 @@ highValueIsLoggedIn
 "
 _ns
 ;
-nsCString
-SharedWebRemoteType
-(
-const
-OriginAttributes
-&
-aAttrs
-bool
-aDisableJit
-=
-false
-)
-;
 struct
 NavigationIsolationOptions
 {
-nsCString
+RemoteType
 mRemoteType
 ;
 bool
@@ -187,7 +174,7 @@ nsIChannel
 *
 aChannel
 const
-nsACString
+RemoteType
 &
 aCurrentRemoteType
 bool
@@ -206,7 +193,7 @@ aChannelId
 const
 Maybe
 <
-nsCString
+RemoteType
 >
 &
 aRemoteTypeOverride
@@ -215,7 +202,7 @@ aRemoteTypeOverride
 struct
 WorkerIsolationOptions
 {
-nsCString
+RemoteType
 mRemoteType
 ;
 }
@@ -233,7 +220,7 @@ aPrincipal
 WorkerKind
 aWorkerKind
 const
-nsACString
+RemoteType
 &
 aCurrentRemoteType
 bool
@@ -242,7 +229,7 @@ aUseRemoteSubframes
 ;
 Result
 <
-nsCString
+RemoteType
 nsresult
 >
 PredictRemoteTypeForURI
@@ -255,7 +242,7 @@ OriginAttributes
 &
 aOriginAttributes
 const
-nsACString
+RemoteType
 &
 aPreferredRemoteType
 bool
@@ -310,7 +297,7 @@ nsIPrincipal
 *
 aPrincipal
 const
-nsACString
+RemoteType
 &
 aRemoteType
 const

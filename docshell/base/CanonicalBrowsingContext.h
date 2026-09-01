@@ -1750,7 +1750,7 @@ CanonicalBrowsingContext
 *
 aSource
 const
-nsACString
+RemoteType
 &
 aRemoteType
 embedding

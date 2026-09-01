@@ -1133,7 +1133,12 @@ aArgs
 loadInfo
 (
 )
-NOT_REMOTE_TYPE
+RemoteType
+:
+:
+NotRemote
+(
+)
 cspToInheritLoadingDocument
 getter_AddRefs
 (

@@ -313,9 +313,8 @@ mPrefSerializer
 SerializeToSharedMemory
 (
 GeckoProcessType_VR
-"
-"
-_ns
+{
+}
 )
 )
 {

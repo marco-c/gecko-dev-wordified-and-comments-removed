@@ -186,7 +186,7 @@ bool
 Matches
 (
 const
-nsACString
+RemoteType
 &
 aRemoteType
 ErrorResult

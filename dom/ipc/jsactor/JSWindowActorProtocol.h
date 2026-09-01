@@ -264,7 +264,7 @@ nsIURI
 *
 aURI
 const
-nsACString
+RemoteType
 &
 aRemoteType
 ErrorResult

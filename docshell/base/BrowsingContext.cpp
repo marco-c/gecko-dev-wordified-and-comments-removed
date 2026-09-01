@@ -9034,8 +9034,6 @@ XRE_IsContentProcess
 )
 &
 &
-StringBeginsWith
-(
 ContentChild
 :
 :
@@ -9047,7 +9045,9 @@ GetSingleton
 GetRemoteType
 (
 )
-WITH_COOP_COEP_REMOTE_TYPE_PREFIX
+.
+IsWebCoopCoep
+(
 )
 ;
 }

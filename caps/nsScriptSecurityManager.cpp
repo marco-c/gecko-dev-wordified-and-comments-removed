@@ -4843,9 +4843,10 @@ GetRemoteType
 if
 (
 remoteType
-=
-=
-PRIVILEGEDABOUT_REMOTE_TYPE
+.
+IsPrivilegedAbout
+(
+)
 )
 {
 return
