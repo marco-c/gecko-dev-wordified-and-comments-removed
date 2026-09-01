@@ -1,11 +1,5 @@
 AddonTestUtils
 .
-overrideCertDB
-(
-)
-;
-AddonTestUtils
-.
 usePrivilegedSignatures
 =
 id
