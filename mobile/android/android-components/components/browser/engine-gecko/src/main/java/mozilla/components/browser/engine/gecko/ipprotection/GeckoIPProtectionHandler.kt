@@ -898,11 +898,7 @@ completeExceptionally
 RuntimeException
 (
 "
-no
--
-gpi
--
-token
+no_gpi_token
 "
 )
 )
