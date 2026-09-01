@@ -3357,12 +3357,10 @@ chrome
 :
 /
 /
-browser
+global
 /
 skin
 /
-notification
--
 icons
 /
 local

@@ -308,12 +308,10 @@ chrome
 :
 /
 /
-browser
+global
 /
 skin
 /
-notification
--
 icons
 /
 local
@@ -957,13 +955,6 @@ warning
 reload
 -
 tabs
-:
-not
-(
-[
-hidden
-]
-)
 {
 display
 :
