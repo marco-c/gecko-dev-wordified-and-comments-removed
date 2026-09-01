@@ -1972,9 +1972,10 @@ if
 bce_
 -
 >
-allocateResumeIndexRange
+allocateTableSwitchResumeIndexRange
 (
 offsets
+top_
 &
 firstResumeIndex
 )
