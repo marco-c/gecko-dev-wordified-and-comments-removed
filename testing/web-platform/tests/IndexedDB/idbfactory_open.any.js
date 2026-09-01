@@ -1384,7 +1384,10 @@ does
 not
 -
 exist
+-
 '
++
+name
 ;
 async_test
 (
