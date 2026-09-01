@@ -51529,6 +51529,12 @@ defined
 (
 XP_WIN
 )
+|
+|
+defined
+(
+MOZ_WIDGET_GTK
+)
 value
 :
 true
