@@ -900,6 +900,11 @@ PContent
 .
 ipdl
 "
+"
+PWindowGlobal
+.
+ipdl
+"
 ]
 IPDL_SOURCES
 +
@@ -1012,11 +1017,6 @@ ipdl
 "
 "
 PVsync
-.
-ipdl
-"
-"
-PWindowGlobal
 .
 ipdl
 "
