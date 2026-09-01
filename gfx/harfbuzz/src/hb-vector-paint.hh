@@ -216,6 +216,11 @@ clip_path_counter
 =
 0
 ;
+int64_t
+work_left
+=
+HB_VECTOR_MAX_PAINT_WORK
+;
 hb_vector_path_sink_t
 clip_path_sink
 =

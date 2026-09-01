@@ -192,6 +192,10 @@ mutable
 signed
 depth_left
 ;
+mutable
+int64_t
+budget_left
+;
 hb_varc_scratch_t
 &
 scratch
@@ -513,6 +517,7 @@ hb_decycler_t
 }
 HB_MAX_GRAPH_EDGE_COUNT
 HB_MAX_NESTING_LEVEL
+HB_VARC_MAX_WORK
 scratch
 }
 ;
@@ -565,6 +570,7 @@ hb_decycler_t
 }
 HB_MAX_GRAPH_EDGE_COUNT
 HB_MAX_NESTING_LEVEL
+HB_VARC_MAX_WORK
 scratch
 }
 ;

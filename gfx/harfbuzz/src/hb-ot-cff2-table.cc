@@ -491,6 +491,9 @@ const
 int
 >
 coords
+int64_t
+*
+budget
 )
 const
 {
@@ -589,6 +592,7 @@ interp
 interpret
 (
 param
+budget
 )
 )
 )
@@ -1181,6 +1185,9 @@ const
 int
 >
 coords
+int64_t
+*
+budget
 )
 const
 {
@@ -1283,6 +1290,7 @@ interp
 interpret
 (
 param
+budget
 )
 )
 )

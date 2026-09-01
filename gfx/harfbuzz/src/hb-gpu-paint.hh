@@ -121,6 +121,11 @@ group_depth
 =
 0
 ;
+int64_t
+work_left
+=
+HB_GPU_PAINT_MAX_WORK
+;
 struct
 pending_clip_t
 {

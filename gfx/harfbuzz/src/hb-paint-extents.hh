@@ -60,6 +60,10 @@ clear
 (
 )
 ;
+work_left
+=
+HB_PAINT_EXTENTS_MAX_WORK
+;
 transforms
 .
 push
@@ -438,6 +442,11 @@ clip
 )
 ;
 }
+int64_t
+work_left
+=
+HB_PAINT_EXTENTS_MAX_WORK
+;
 protected
 :
 hb_vector_t
