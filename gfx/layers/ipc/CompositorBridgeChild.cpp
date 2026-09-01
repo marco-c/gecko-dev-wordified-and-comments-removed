@@ -1661,10 +1661,6 @@ const
 LayersId
 &
 id
-const
-LayersId
-&
-embedderId
 )
 {
 if
@@ -1684,7 +1680,6 @@ PCompositorBridgeChild
 SendAdoptChild
 (
 id
-embedderId
 )
 ;
 }

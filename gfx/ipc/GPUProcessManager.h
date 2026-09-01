@@ -593,8 +593,6 @@ base
 ProcessId
 aOtherPid
 LayersId
-aEmbedderLayersId
-LayersId
 *
 aOutLayersId
 CompositorOptions

@@ -1011,10 +1011,6 @@ const
 LayersId
 &
 child
-const
-LayersId
-&
-embedderId
 CompositorOptions
 *
 aOptions
@@ -1115,7 +1111,6 @@ mParent
 NotifyChildCreated
 (
 child
-embedderId
 )
 ;
 *
@@ -1170,10 +1165,6 @@ const
 LayersId
 &
 child
-const
-LayersId
-&
-embedderId
 const
 base
 :
