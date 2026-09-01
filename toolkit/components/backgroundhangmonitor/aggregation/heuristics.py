@@ -516,13 +516,14 @@ of
 (
 func_name
 lib_name
+inline_depth
 )
 tuples
 in
+    
 outer
 -
 first
-    
 (
 root
 -
@@ -538,9 +539,9 @@ would
 mark
 as
 hidden
+    
 are
 removed
-    
 entirely
 so
 the
@@ -552,9 +553,28 @@ same
 shape
 the
 frontend
-would
     
+would
 render
+.
+inline_depth
+rides
+along
+untouched
+:
+trimming
+decides
+which
+    
+frames
+survive
+not
+whether
+a
+surviving
+frame
+was
+inlined
 .
     
 Mirrors
@@ -616,6 +636,7 @@ True
 for
 func_name
 lib_name
+inline_depth
 in
 reversed
 (
@@ -740,11 +761,20 @@ i
             
 anchor_func
 anchor_lib
-_
 =
 frames
 [
 i
+]
+[
+0
+]
+frames
+[
+i
+]
+[
+1
 ]
             
 anchor_is_js
@@ -909,6 +939,7 @@ append
 func_name
 lib_name
 False
+inline_depth
 ]
 )
     
@@ -923,6 +954,10 @@ f
 f
 [
 1
+]
+f
+[
+3
 ]
 )
 for

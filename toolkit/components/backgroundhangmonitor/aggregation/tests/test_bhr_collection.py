@@ -3596,6 +3596,7 @@ xul
 .
 pdb
 "
+0
 )
         
 (
@@ -3607,6 +3608,7 @@ kernel32
 .
 pdb
 "
+0
 )
     
 ]
@@ -3749,6 +3751,7 @@ OuterFunc
 "
 xul
 "
+0
 )
         
 (
@@ -3760,6 +3763,7 @@ InlinedInner
 "
 xul
 "
+1
 )
         
 (
@@ -3771,6 +3775,7 @@ LeafFunc
 "
 xul
 "
+0
 )
     
 ]
@@ -3824,6 +3829,7 @@ xul
 .
 pdb
 "
+0
 )
     
 ]
@@ -3866,6 +3872,7 @@ unsymbolicated
 "
 unknown
 "
+0
 )
     
 ]
@@ -4079,6 +4086,7 @@ HandlerFunc
 "
 xul
 "
+0
 )
 (
 "
@@ -4087,6 +4095,7 @@ LeafFunc
 "
 xul
 "
+0
 )
 ]
     
@@ -4128,6 +4137,59 @@ annotations
 )
 )
 :
+    
+stack
+=
+[
+        
+f
+        
+if
+not
+(
+isinstance
+(
+f
+tuple
+)
+and
+len
+(
+f
+)
+=
+=
+2
+and
+isinstance
+(
+f
+[
+0
+]
+str
+)
+)
+        
+else
+(
+f
+[
+0
+]
+f
+[
+1
+]
+0
+)
+        
+for
+f
+in
+stack
+    
+]
     
 return
 (
@@ -4251,6 +4313,9 @@ value
 1
 .
 0
+(
+0
+)
 )
 def
 test_map_to_hang_data_drops_below_lower_bound
@@ -4333,6 +4398,7 @@ bhr_collection
 .
 merge_hang_data
 (
+        
 (
 100
 .
@@ -4340,6 +4406,10 @@ merge_hang_data
 1
 .
 0
+(
+0
+1
+)
 )
 (
 250
@@ -4348,7 +4418,12 @@ merge_hang_data
 2
 .
 0
+(
+1
+0
 )
+)
+    
 )
 =
 =
@@ -4359,6 +4434,10 @@ merge_hang_data
 3
 .
 0
+(
+1
+1
+)
 )
 def
 test_group_hangs_merges_identical_stacks
@@ -4804,6 +4883,7 @@ FooFunc
 "
 xul
 "
+0
 )
 (
 "
@@ -4812,6 +4892,7 @@ BarFunc
 "
 xul
 "
+0
 )
 )
     
