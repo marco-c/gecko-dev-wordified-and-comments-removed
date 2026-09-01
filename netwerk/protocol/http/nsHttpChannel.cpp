@@ -55068,6 +55068,10 @@ transaction
 "
 )
 ;
+mSecurityInfo
+=
+nullptr
+;
 StoreRequestObserversCalled
 (
 false

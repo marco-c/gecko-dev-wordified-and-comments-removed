@@ -13586,6 +13586,13 @@ socketprocess_networking
 ]
 [
 "
+test_proxy_auth_securityInfo
+.
+js
+"
+]
+[
+"
 test_proxy_cancel
 .
 js
