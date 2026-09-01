@@ -66,15 +66,7 @@ removeFromWatchlist
 }
 from
 "
-content
--
-src
-/
-components
-/
-Widgets
-/
-Stocks
+common
 /
 StocksWatchlist
 .
