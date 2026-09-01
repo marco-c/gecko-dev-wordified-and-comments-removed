@@ -468,9 +468,6 @@ com
 "
 )
 )
-tabPartition
-=
-null
 selectedTabId
 =
 "
@@ -565,10 +562,9 @@ listOf
 (
 tab
 )
-null
-"
-A
-"
+tab
+.
+id
 )
 adapter
 .
@@ -665,9 +661,6 @@ mock
 )
 tab
 )
-tabPartition
-=
-null
 selectedTabId
 =
 "
@@ -798,9 +791,6 @@ mock
 )
 tab
 )
-tabPartition
-=
-null
 selectedTabId
 =
 "
@@ -962,9 +952,6 @@ updateTabs
 emptyList
 (
 )
-tabPartition
-=
-null
 selectedTabId
 =
 null
@@ -1083,9 +1070,6 @@ mock
 (
 )
 )
-tabPartition
-=
-null
 selectedTabId
 =
 null
