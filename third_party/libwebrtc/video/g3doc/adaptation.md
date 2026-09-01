@@ -1333,9 +1333,9 @@ third_party
 /
 webrtc
 /
-media
+api
 /
-base
+video
 /
 adapted_video_track_source
 .

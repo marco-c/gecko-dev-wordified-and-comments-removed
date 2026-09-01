@@ -3584,6 +3584,13 @@ api
 /
 video
 :
+adapted_video_track_source
+"
+"
+api
+/
+video
+:
 builtin_video_bitrate_allocator_factory
 "
 "
