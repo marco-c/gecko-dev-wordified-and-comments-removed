@@ -35,7 +35,7 @@ set
 GOOGLETEST_VERSION
 1
 .
-16
+18
 .
 0
 )

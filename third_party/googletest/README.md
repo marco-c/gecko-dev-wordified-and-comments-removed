@@ -349,6 +349,7 @@ architecture
 for
 unit
 testing
+.
 *
 Test
 discovery
@@ -369,6 +370,7 @@ manually
 register
 your
 tests
+.
 *
 Rich
 set
@@ -396,6 +398,7 @@ to
 test
 your
 code
+.
 *
 User
 -
@@ -423,6 +426,7 @@ specific
 to
 your
 code
+.
 *
 Death
 tests
@@ -451,6 +455,7 @@ error
 -
 handling
 code
+.
 *
 Fatal
 and
@@ -488,6 +493,7 @@ if
 a
 failure
 occurs
+.
 *
 Value
 -
@@ -519,6 +525,7 @@ that
 take
 different
 inputs
+.
 *
 Type
 -
@@ -551,6 +558,7 @@ with
 different
 data
 types
+.
 *
 Various
 options
@@ -581,6 +589,7 @@ running
 tests
 in
 parallel
+.
 #
 #
 Supported
