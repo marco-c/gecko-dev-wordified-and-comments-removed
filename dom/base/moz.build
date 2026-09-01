@@ -1334,6 +1334,11 @@ ProcessMessageManager
 h
 "
 "
+ProfilerCounter
+.
+h
+"
+"
 RadioGroupContainer
 .
 h
@@ -2340,6 +2345,11 @@ cpp
 "
 "
 ProcessMessageManager
+.
+cpp
+"
+"
+ProfilerCounter
 .
 cpp
 "

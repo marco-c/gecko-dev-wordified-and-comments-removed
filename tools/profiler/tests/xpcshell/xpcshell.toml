@@ -1040,6 +1040,13 @@ standard
 ]
 [
 "
+test_profiler_counter
+.
+js
+"
+]
+[
+"
 test_responsiveness
 .
 js

@@ -528,6 +528,11 @@ PrecompiledScript
 webidl
 "
 "
+ProfilerCounter
+.
+webidl
+"
+"
 PromiseDebugging
 .
 webidl

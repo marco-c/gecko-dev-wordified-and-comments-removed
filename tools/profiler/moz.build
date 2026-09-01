@@ -1648,6 +1648,13 @@ UNIFIED_SOURCES
 "
 core
 /
+ChromeProfilerCounter
+.
+cpp
+"
+"
+core
+/
 MicroGeckoProfiler
 .
 cpp
@@ -1824,6 +1831,13 @@ mozilla
 +
 =
 [
+"
+public
+/
+ChromeProfilerCounter
+.
+h
+"
 "
 public
 /
