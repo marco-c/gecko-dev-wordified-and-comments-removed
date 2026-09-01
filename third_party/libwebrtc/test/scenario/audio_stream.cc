@@ -27,6 +27,11 @@ string
 #
 include
 <
+utility
+>
+#
+include
+<
 vector
 >
 #
@@ -1342,7 +1347,13 @@ call_
 >
 CreateAudioReceiveStream
 (
+std
+:
+:
+move
+(
 recv_config
+)
 )
 ;
 }

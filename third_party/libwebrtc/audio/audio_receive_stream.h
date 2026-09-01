@@ -346,7 +346,6 @@ NetEqFactory
 *
 absl_nullable
 neteq_factory
-const
 webrtc
 :
 :
@@ -354,7 +353,6 @@ AudioReceiveStreamInterface
 :
 :
 Config
-&
 config
 const
 scoped_refptr
@@ -374,7 +372,6 @@ const
 Environment
 &
 env
-const
 webrtc
 :
 :
@@ -382,7 +379,6 @@ AudioReceiveStreamInterface
 :
 :
 Config
-&
 config
 const
 scoped_refptr
@@ -759,6 +755,11 @@ const
 ;
 private
 :
+void
+Initialize
+(
+)
+;
 internal
 :
 :

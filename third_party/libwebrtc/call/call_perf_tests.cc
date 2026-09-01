@@ -2257,7 +2257,13 @@ receiver_call_
 >
 CreateAudioReceiveStream
 (
+std
+:
+:
+move
+(
 audio_recv_config
+)
 )
 ;
 CreateVideoStreams
@@ -2278,7 +2284,13 @@ receiver_call_
 >
 CreateAudioReceiveStream
 (
+std
+:
+:
+move
+(
 audio_recv_config
+)
 )
 ;
 }

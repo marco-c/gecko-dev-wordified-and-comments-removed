@@ -366,12 +366,10 @@ AudioReceiveStreamInterface
 *
 CreateAudioReceiveStream
 (
-const
 AudioReceiveStreamInterface
 :
 :
 Config
-&
 config
 )
 =

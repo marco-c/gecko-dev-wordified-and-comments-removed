@@ -4397,10 +4397,16 @@ receiver_call_
 >
 CreateAudioReceiveStream
 (
+std
+:
+:
+move
+(
 audio_receive_configs_
 [
 i
 ]
+)
 )
 )
 ;
