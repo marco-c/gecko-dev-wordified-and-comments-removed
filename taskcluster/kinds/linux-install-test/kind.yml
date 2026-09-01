@@ -96,6 +96,11 @@ fields
 description
 run
 :
+clone
+-
+with
+:
+hg
 using
 :
 run

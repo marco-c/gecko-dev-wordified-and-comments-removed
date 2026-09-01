@@ -224,6 +224,11 @@ maven
 zip
 run
 :
+clone
+-
+with
+:
+hg
 #
 TODO
 Generate

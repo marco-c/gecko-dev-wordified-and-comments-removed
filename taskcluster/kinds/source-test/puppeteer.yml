@@ -273,6 +273,11 @@ before
 the
 actual
 test
+clone
+-
+with
+:
+hg
 using
 :
 run

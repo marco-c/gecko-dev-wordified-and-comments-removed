@@ -1105,6 +1105,11 @@ time
 600
 run
 :
+clone
+-
+with
+:
+hg
 using
 :
 run

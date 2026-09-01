@@ -191,6 +191,11 @@ time
 1800
 run
 :
+clone
+-
+with
+:
+hg
 use
 -
 caches
@@ -384,6 +389,11 @@ all
 opt
 run
 :
+clone
+-
+with
+:
+hg
 pre
 -
 commands
@@ -527,6 +537,11 @@ for
 Fenix
 run
 :
+clone
+-
+with
+:
+hg
 pre
 -
 commands

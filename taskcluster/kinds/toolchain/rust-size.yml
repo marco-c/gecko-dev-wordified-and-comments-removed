@@ -91,6 +91,11 @@ time
 1800
 run
 :
+clone
+-
+with
+:
+hg
 script
 :
 build
@@ -128,6 +133,11 @@ size
 )
 run
 :
+clone
+-
+with
+:
+hg
 arguments
 :
 [
@@ -198,6 +208,11 @@ size
 )
 run
 :
+clone
+-
+with
+:
+hg
 arguments
 :
 [

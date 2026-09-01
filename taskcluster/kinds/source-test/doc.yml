@@ -329,6 +329,11 @@ trees
 json
 run
 :
+clone
+-
+with
+:
+hg
 using
 :
 run
@@ -746,6 +751,11 @@ issues
 json
 run
 :
+clone
+-
+with
+:
+hg
 using
 :
 run

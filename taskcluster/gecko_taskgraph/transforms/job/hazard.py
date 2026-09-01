@@ -116,7 +116,7 @@ git
 ]
 =
 "
-hg
+git
 "
     
 workdir

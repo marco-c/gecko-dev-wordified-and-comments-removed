@@ -128,6 +128,11 @@ scenarios
 settled
 run
 :
+clone
+-
+with
+:
+hg
 using
 :
 run
@@ -300,6 +305,11 @@ win64
 geckodriver
 run
 :
+clone
+-
+with
+:
+hg
 command
 :
 >
@@ -473,6 +483,11 @@ linux64
 geckodriver
 run
 :
+clone
+-
+with
+:
+hg
 command
 :
 >
@@ -680,6 +695,11 @@ macosx64
 geckodriver
 run
 :
+clone
+-
+with
+:
+hg
 command
 :
 >

@@ -241,6 +241,16 @@ mach
 "
             
 "
+clone
+-
+with
+"
+:
+"
+hg
+"
+            
+"
 sparse
 -
 profile

@@ -98,6 +98,11 @@ docker
 amd
 run
 :
+clone
+-
+with
+:
+hg
 script
 :
 build

@@ -312,6 +312,11 @@ tier
 1
 run
 :
+clone
+-
+with
+:
+hg
 using
 :
 run
@@ -1099,6 +1104,11 @@ extract
 false
 run
 :
+clone
+-
+with
+:
+hg
 secrets
 :
 -

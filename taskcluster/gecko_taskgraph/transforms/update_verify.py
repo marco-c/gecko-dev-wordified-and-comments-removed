@@ -494,6 +494,16 @@ task
 "
                 
 "
+clone
+-
+with
+"
+:
+"
+hg
+"
+                
+"
 checkout
 "
 :

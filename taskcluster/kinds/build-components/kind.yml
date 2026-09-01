@@ -516,6 +516,11 @@ default
 true
 run
 :
+clone
+-
+with
+:
+hg
 gradlew
 :
 by

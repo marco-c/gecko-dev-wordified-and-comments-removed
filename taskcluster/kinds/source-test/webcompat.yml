@@ -205,6 +205,11 @@ tier
 3
 run
 :
+clone
+-
+with
+:
+hg
 using
 :
 mach

@@ -82,6 +82,11 @@ hg
 ]
 run
 :
+clone
+-
+with
+:
+hg
 using
 :
 gradlew
@@ -245,6 +250,11 @@ components
 :
 run
 :
+clone
+-
+with
+:
+hg
 pre
 -
 gradlew
@@ -341,6 +351,11 @@ android
 "
 run
 :
+clone
+-
+with
+:
+hg
 pre
 -
 gradlew
@@ -424,6 +439,11 @@ fenix
 "
 run
 :
+clone
+-
+with
+:
+hg
 pre
 -
 gradlew

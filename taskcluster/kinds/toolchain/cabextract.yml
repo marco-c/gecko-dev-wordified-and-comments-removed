@@ -96,6 +96,11 @@ docker
 amd
 run
 :
+clone
+-
+with
+:
+hg
 script
 :
 build
@@ -136,6 +141,11 @@ cbx
 )
 run
 :
+clone
+-
+with
+:
+hg
 arguments
 :
 [

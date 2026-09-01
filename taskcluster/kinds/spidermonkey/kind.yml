@@ -163,6 +163,11 @@ b
 linux
 run
 :
+clone
+-
+with
+:
+hg
 using
 :
 spidermonkey

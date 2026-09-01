@@ -183,6 +183,11 @@ central
 ]
 run
 :
+clone
+-
+with
+:
+hg
 using
 :
 mozharness
@@ -327,6 +332,11 @@ analysis
 autotest
 run
 :
+clone
+-
+with
+:
+hg
 config
 :
 -
@@ -461,6 +471,11 @@ b
 win2022
 run
 :
+clone
+-
+with
+:
+hg
 config
 :
 -

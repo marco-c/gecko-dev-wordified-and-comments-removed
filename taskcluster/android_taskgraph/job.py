@@ -215,7 +215,7 @@ git
 ]
 =
 "
-hg
+git
 "
 class
 MachGradleSchema
@@ -299,7 +299,7 @@ git
 ]
 =
 "
-hg
+git
 "
 class
 RunCommandsSchema
@@ -407,7 +407,7 @@ git
 ]
 =
 "
-hg
+git
 "
 run_job_using
 (

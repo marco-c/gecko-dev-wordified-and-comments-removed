@@ -90,6 +90,11 @@ docker
 amd
 run
 :
+clone
+-
+with
+:
+hg
 using
 :
 toolchain
@@ -131,6 +136,11 @@ time
 1800
 run
 :
+clone
+-
+with
+:
+hg
 arguments
 :
 [
@@ -204,6 +214,11 @@ time
 1800
 run
 :
+clone
+-
+with
+:
+hg
 arguments
 :
 [

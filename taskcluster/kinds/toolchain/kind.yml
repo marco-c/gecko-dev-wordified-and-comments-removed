@@ -142,6 +142,11 @@ projects
 ]
 run
 :
+clone
+-
+with
+:
+hg
 using
 :
 toolchain

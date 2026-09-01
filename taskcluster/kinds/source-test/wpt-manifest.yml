@@ -142,6 +142,11 @@ rank
 build_date
 run
 :
+clone
+-
+with
+:
+hg
 using
 :
 run

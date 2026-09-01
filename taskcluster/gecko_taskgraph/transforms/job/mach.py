@@ -129,7 +129,7 @@ git
 ]
 =
 "
-hg
+git
 "
 defaults
 =

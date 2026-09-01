@@ -169,6 +169,13 @@ use
 python
 :
 default
+run
+:
+clone
+-
+with
+:
+hg
 fetches
 :
 fetch

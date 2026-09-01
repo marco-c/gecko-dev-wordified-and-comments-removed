@@ -216,6 +216,11 @@ tokens
 "
 run
 :
+clone
+-
+with
+:
+hg
 using
 :
 run

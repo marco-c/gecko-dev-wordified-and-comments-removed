@@ -158,6 +158,11 @@ linux64
 node
 run
 :
+clone
+-
+with
+:
+hg
 using
 :
 gradlew
@@ -226,6 +231,11 @@ fenix
 "
 run
 :
+clone
+-
+with
+:
+hg
 gradle
 -
 package

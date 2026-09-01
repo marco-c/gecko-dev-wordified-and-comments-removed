@@ -277,6 +277,11 @@ installer
 only
 run
 :
+clone
+-
+with
+:
+hg
 using
 :
 mach
@@ -310,6 +315,11 @@ macosx64
 shippable
 run
 :
+clone
+-
+with
+:
+hg
 using
 :
 run

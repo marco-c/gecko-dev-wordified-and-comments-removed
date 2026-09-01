@@ -227,6 +227,11 @@ type
 directory
 run
 :
+clone
+-
+with
+:
+hg
 using
 :
 run

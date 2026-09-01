@@ -302,7 +302,7 @@ git
 ]
 =
 "
-hg
+git
 "
 def
 test_packages_url

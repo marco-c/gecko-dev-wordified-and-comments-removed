@@ -206,6 +206,11 @@ type
 file
 run
 :
+clone
+-
+with
+:
+hg
 sparse
 -
 profile

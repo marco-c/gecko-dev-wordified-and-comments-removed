@@ -82,6 +82,11 @@ hg
 ]
 run
 :
+clone
+-
+with
+:
+hg
 mozconfig
 -
 variant
@@ -137,7 +142,7 @@ tier
 2
 symbol
 :
-A
+android
 (
 gv
 -
@@ -296,6 +301,11 @@ time
 7200
 run
 :
+clone
+-
+with
+:
+hg
 using
 :
 mozharness

@@ -96,6 +96,11 @@ time
 1800
 run
 :
+clone
+-
+with
+:
+hg
 resources
 :
 -
@@ -147,6 +152,11 @@ gn
 )
 run
 :
+clone
+-
+with
+:
+hg
 script
 :
 build
@@ -170,6 +180,11 @@ gn
 )
 run
 :
+clone
+-
+with
+:
+hg
 script
 :
 build
@@ -276,6 +291,11 @@ time
 3600
 run
 :
+clone
+-
+with
+:
+hg
 script
 :
 build

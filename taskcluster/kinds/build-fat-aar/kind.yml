@@ -714,6 +714,11 @@ type
 directory
 run
 :
+clone
+-
+with
+:
+hg
 using
 :
 mozharness
@@ -1198,6 +1203,11 @@ v7a
 }
 run
 :
+clone
+-
+with
+:
+hg
 actions
 :
 [
@@ -1449,6 +1459,11 @@ v7a
 }
 run
 :
+clone
+-
+with
+:
+hg
 actions
 :
 [
@@ -1637,6 +1652,11 @@ v7a
 }
 run
 :
+clone
+-
+with
+:
+hg
 actions
 :
 [

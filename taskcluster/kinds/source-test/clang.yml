@@ -139,6 +139,11 @@ tier
 2
 run
 :
+clone
+-
+with
+:
+hg
 using
 :
 run
@@ -268,6 +273,11 @@ tidy
 )
 run
 :
+clone
+-
+with
+:
+hg
 cwd
 :
 '
@@ -430,6 +440,11 @@ external
 )
 run
 :
+clone
+-
+with
+:
+hg
 cwd
 :
 '
@@ -675,6 +690,11 @@ tidy
 '
 run
 :
+clone
+-
+with
+:
+hg
 cwd
 :
 '

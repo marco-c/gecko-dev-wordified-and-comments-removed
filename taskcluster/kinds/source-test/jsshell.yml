@@ -216,6 +216,11 @@ hg
 ]
 run
 :
+clone
+-
+with
+:
+hg
 using
 :
 mach

@@ -113,6 +113,11 @@ nsis
 )
 run
 :
+clone
+-
+with
+:
+hg
 script
 :
 build
@@ -219,6 +224,11 @@ time
 1800
 run
 :
+clone
+-
+with
+:
+hg
 using
 :
 toolchain

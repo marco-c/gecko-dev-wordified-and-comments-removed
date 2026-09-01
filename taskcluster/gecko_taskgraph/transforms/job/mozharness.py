@@ -252,7 +252,7 @@ git
 ]
 =
 "
-hg
+git
 "
     
 use_simple_package

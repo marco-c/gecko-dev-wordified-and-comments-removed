@@ -187,6 +187,11 @@ proxy
 true
 run
 :
+clone
+-
+with
+:
+hg
 using
 :
 run
@@ -227,6 +232,11 @@ tb
 rust
 run
 :
+clone
+-
+with
+:
+hg
 command
 :
 '

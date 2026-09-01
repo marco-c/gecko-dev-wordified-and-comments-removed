@@ -128,7 +128,7 @@ git
 ]
 =
 "
-hg
+git
 "
     
 def

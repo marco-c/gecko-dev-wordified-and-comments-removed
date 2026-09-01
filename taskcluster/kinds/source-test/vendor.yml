@@ -173,6 +173,11 @@ lint
 opt
 run
 :
+clone
+-
+with
+:
+hg
 using
 :
 run
@@ -202,6 +207,11 @@ MACH_BUILD_PYTHON_NATIVE_PACKAGE_SOURCE
 system
 run
 :
+clone
+-
+with
+:
+hg
 cwd
 :
 '

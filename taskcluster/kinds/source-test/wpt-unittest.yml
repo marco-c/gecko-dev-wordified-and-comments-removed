@@ -136,6 +136,11 @@ wpt
 unittest
 run
 :
+clone
+-
+with
+:
+hg
 using
 :
 run

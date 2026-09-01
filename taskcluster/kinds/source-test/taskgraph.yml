@@ -213,6 +213,11 @@ hg
 ]
 run
 :
+clone
+-
+with
+:
+hg
 using
 :
 run

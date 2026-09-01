@@ -232,6 +232,11 @@ tps
 xpi
 run
 :
+clone
+-
+with
+:
+hg
 using
 :
 mach

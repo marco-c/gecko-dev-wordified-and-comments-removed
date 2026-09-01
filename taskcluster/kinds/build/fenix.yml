@@ -141,6 +141,11 @@ hg
 ]
 run
 :
+clone
+-
+with
+:
+hg
 using
 :
 mozharness
@@ -415,6 +420,11 @@ type
 file
 run
 :
+clone
+-
+with
+:
+hg
 custom
 -
 build

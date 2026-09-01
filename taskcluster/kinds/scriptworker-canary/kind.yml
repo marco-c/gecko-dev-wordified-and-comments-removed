@@ -164,6 +164,11 @@ worker
 workspace
 run
 :
+clone
+-
+with
+:
+hg
 sparse
 -
 profile

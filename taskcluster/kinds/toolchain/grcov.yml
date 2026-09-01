@@ -89,6 +89,11 @@ time
 1800
 run
 :
+clone
+-
+with
+:
+hg
 script
 :
 build
@@ -140,6 +145,11 @@ grcov
 )
 run
 :
+clone
+-
+with
+:
+hg
 arguments
 :
 [
@@ -198,6 +208,11 @@ grcov
 )
 run
 :
+clone
+-
+with
+:
+hg
 arguments
 :
 [
@@ -254,6 +269,11 @@ grcov
 )
 run
 :
+clone
+-
+with
+:
+hg
 arguments
 :
 [

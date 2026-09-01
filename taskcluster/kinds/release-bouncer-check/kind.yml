@@ -238,6 +238,11 @@ verify
 }
 run
 :
+clone
+-
+with
+:
+hg
 sparse
 -
 profile
@@ -395,6 +400,11 @@ bouncer
 check
 run
 :
+clone
+-
+with
+:
+hg
 config
 :
 by
@@ -471,6 +481,11 @@ bouncer
 check
 run
 :
+clone
+-
+with
+:
+hg
 config
 :
 -

@@ -288,6 +288,11 @@ valgrind
 json
 run
 :
+clone
+-
+with
+:
+hg
 using
 :
 mozharness
@@ -416,6 +421,12 @@ wasm32
 wasi
 -
 terser
+-
+newtab
+-
+node
+-
+modules
 optimization
 :
 skip

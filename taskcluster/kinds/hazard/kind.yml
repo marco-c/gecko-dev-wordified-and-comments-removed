@@ -225,6 +225,11 @@ H
 )
 run
 :
+clone
+-
+with
+:
+hg
 using
 :
 hazard
@@ -370,6 +375,11 @@ symbol
 H
 run
 :
+clone
+-
+with
+:
+hg
 using
 :
 hazard
@@ -465,6 +475,12 @@ sysroot
 wasm32
 -
 wasi
+-
+newtab
+-
+node
+-
+modules
 optimization
 :
 skip

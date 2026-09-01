@@ -85,6 +85,11 @@ target
 true
 run
 :
+clone
+-
+with
+:
+hg
 using
 :
 run
@@ -323,6 +328,11 @@ yml
 "
 run
 :
+clone
+-
+with
+:
+hg
 command
 :
 '
@@ -455,6 +465,11 @@ yml
 "
 run
 :
+clone
+-
+with
+:
+hg
 command
 :
 '
@@ -581,6 +596,11 @@ yml
 "
 run
 :
+clone
+-
+with
+:
+hg
 command
 :
 '

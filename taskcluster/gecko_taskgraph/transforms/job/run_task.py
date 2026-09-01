@@ -194,7 +194,7 @@ git
 ]
 =
 "
-hg
+git
 "
     
 comm_checkout
@@ -780,7 +780,7 @@ with
 "
 :
 "
-hg
+git
 "
 }
 load_yaml

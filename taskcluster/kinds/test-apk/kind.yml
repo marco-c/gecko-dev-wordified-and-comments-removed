@@ -217,6 +217,11 @@ maven
 zip
 run
 :
+clone
+-
+with
+:
+hg
 using
 :
 gradlew
@@ -278,6 +283,11 @@ focus
 debug
 run
 :
+clone
+-
+with
+:
+hg
 pre
 -
 gradlew
@@ -418,6 +428,11 @@ fenix
 debug
 run
 :
+clone
+-
+with
+:
+hg
 pre
 -
 gradlew

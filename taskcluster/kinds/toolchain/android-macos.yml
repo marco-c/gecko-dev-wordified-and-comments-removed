@@ -108,6 +108,11 @@ macos
 )
 run
 :
+clone
+-
+with
+:
+hg
 using
 :
 toolchain
@@ -195,6 +200,11 @@ macos
 )
 run
 :
+clone
+-
+with
+:
+hg
 using
 :
 toolchain
@@ -303,6 +313,11 @@ macos
 )
 run
 :
+clone
+-
+with
+:
+hg
 using
 :
 toolchain
@@ -448,6 +463,11 @@ macos
 )
 run
 :
+clone
+-
+with
+:
+hg
 using
 :
 toolchain

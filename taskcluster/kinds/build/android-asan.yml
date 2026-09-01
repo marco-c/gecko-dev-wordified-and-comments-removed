@@ -338,6 +338,11 @@ hg
 ]
 run
 :
+clone
+-
+with
+:
+hg
 using
 :
 mozharness
@@ -534,6 +539,11 @@ manifest
 "
 run
 :
+clone
+-
+with
+:
+hg
 actions
 :
 [

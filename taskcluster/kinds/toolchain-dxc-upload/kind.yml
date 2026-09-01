@@ -247,6 +247,11 @@ upload
 "
 run
 :
+clone
+-
+with
+:
+hg
 using
 :
 mach

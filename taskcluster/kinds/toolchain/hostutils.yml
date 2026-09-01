@@ -89,6 +89,11 @@ time
 1800
 run
 :
+clone
+-
+with
+:
+hg
 using
 :
 toolchain
@@ -147,6 +152,11 @@ hostutils
 manifest
 run
 :
+clone
+-
+with
+:
+hg
 resources
 :
 -

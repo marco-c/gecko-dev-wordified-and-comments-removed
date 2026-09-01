@@ -276,6 +276,11 @@ path
 artifacts
 run
 :
+clone
+-
+with
+:
+hg
 run
 -
 as

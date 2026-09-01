@@ -2077,6 +2077,16 @@ mozharness
 "
             
 "
+clone
+-
+with
+"
+:
+"
+hg
+"
+            
+"
 job
 -
 script

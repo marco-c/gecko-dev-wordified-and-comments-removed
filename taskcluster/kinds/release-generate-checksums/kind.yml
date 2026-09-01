@@ -307,6 +307,11 @@ type
 file
 run
 :
+clone
+-
+with
+:
+hg
 using
 :
 mozharness
@@ -410,6 +415,11 @@ build_type
 opt
 run
 :
+clone
+-
+with
+:
+hg
 extra
 -
 config
@@ -492,6 +502,11 @@ build_type
 opt
 run
 :
+clone
+-
+with
+:
+hg
 extra
 -
 config

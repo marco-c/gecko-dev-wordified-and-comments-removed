@@ -111,6 +111,11 @@ dxc
 src
 run
 :
+clone
+-
+with
+:
+hg
 script
 :
 build
@@ -184,6 +189,11 @@ dxc
 )
 run
 :
+clone
+-
+with
+:
+hg
 arguments
 :
 -
@@ -250,6 +260,11 @@ dxc
 )
 run
 :
+clone
+-
+with
+:
+hg
 arguments
 :
 -
