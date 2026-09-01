@@ -1643,6 +1643,17 @@ return
 false
 ;
 }
+return
+this
+.
+isEmptyIgnoringLoad
+;
+}
+get
+isEmptyIgnoringLoad
+(
+)
+{
 if
 (
 this
