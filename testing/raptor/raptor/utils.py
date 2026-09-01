@@ -196,6 +196,29 @@ false_vals
 "
 )
 def
+_is_number
+(
+value
+)
+:
+    
+return
+isinstance
+(
+value
+(
+int
+float
+)
+)
+and
+not
+isinstance
+(
+value
+bool
+)
+def
 flatten
 (
 data
@@ -396,6 +419,12 @@ result
 if
 not
 data
+and
+not
+_is_number
+(
+data
+)
 :
         
 return
@@ -533,10 +562,10 @@ y
 elif
 v
 or
+_is_number
+(
 v
-=
-=
-0
+)
 :
                 
 result
