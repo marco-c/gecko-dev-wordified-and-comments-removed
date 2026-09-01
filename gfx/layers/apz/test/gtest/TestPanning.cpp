@@ -101,6 +101,13 @@ uint32_t
 aBehavior
 )
 {
+apzc
+-
+>
+DisableDefaultTouchBehaviors
+(
+)
+;
 if
 (
 aShouldTriggerScroll
@@ -286,6 +293,13 @@ DoPanWithPreventDefaultTest
 (
 )
 {
+apzc
+-
+>
+DisableDefaultTouchBehaviors
+(
+)
+;
 MakeApzcWaitForMainThread
 (
 )

@@ -3007,6 +3007,13 @@ bool
 aWithTouchMove
 )
 {
+apzc
+-
+>
+DisableDefaultTouchBehaviors
+(
+)
+;
 SCOPED_GFX_PREF_INT
 (
 "
