@@ -316,6 +316,13 @@ ClearOnShutdown
 (
 &
 gJarHandler
+mozilla
+:
+:
+ShutdownPhase
+:
+:
+CCPostLastCycleCollection
 )
 ;
 }
