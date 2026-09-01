@@ -6961,15 +6961,6 @@ rv
 if
 (
 !
-loadInfo
--
->
-IsPrincipalToInheritTrusted
-(
-)
-&
-&
-!
 ValidatePrincipalCouldPotentiallyBeLoadedBy
 (
 loadInfo

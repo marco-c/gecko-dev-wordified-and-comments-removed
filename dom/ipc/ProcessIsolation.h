@@ -84,9 +84,6 @@ class
 CanonicalBrowsingContext
 ;
 class
-LoadedOriginSet
-;
-class
 WindowGlobalParent
 ;
 extern
@@ -304,7 +301,6 @@ AllowExpanded
 AllowSystemIfLoaded
 AllowNotLoadedOrigin
 AlwaysAllowSystem
-Internal_ValidatingPrecursor
 }
 ;
 bool
@@ -324,9 +320,15 @@ ValidatePrincipalOptions
 >
 &
 aOptions
-LoadedOriginSet
+FunctionRef
+<
+bool
+(
+nsIPrincipal
 *
-aLoadedOriginSet
+)
+>
+aIsPrincipalLoaded
 =
 nullptr
 )

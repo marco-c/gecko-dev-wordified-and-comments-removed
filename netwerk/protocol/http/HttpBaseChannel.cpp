@@ -20413,7 +20413,7 @@ redirectPrincipal
 newLoadInfo
 -
 >
-SetTrustedPrincipalToInherit
+SetPrincipalToInherit
 (
 nullPrincipalToInherit
 )
