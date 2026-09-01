@@ -10939,6 +10939,7 @@ gfx_color_management_display_profile
 ;
 const
 auto
+&
 fname
 =
 *

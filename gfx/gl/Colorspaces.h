@@ -5675,6 +5675,7 @@ return
 }
 const
 auto
+&
 head_end
 =
 *
