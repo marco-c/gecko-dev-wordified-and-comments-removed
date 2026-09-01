@@ -15855,9 +15855,8 @@ argumentsObject
 :
 constant
 (
-Int32Value
+NullValue
 (
-0
 )
 )
 ;
