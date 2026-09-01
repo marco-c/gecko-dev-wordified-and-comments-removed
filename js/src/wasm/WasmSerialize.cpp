@@ -5854,7 +5854,7 @@ wasm
 :
 :
 CompileArgs
-88
+80
 )
 ;
 MOZ_TRY

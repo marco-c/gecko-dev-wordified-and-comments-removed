@@ -224,15 +224,6 @@ DynamicImport
 ;
 }
 bool
-IsSourcePhaseRequest
-(
-JSContext
-*
-aCx
-)
-const
-;
-bool
 IsErrored
 (
 )
