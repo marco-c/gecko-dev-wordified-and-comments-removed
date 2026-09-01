@@ -72,6 +72,12 @@ OnTahoeOrLater
 ;
 static
 bool
+OnGoldenGateOrLater
+(
+)
+;
+static
+bool
 IsAtLeastVersion
 (
 int32_t
