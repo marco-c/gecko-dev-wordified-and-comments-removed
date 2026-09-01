@@ -205,6 +205,13 @@ Ok
 }
 }
 ;
+engine
+.
+sync_started
+(
+)
+?
+;
 if
 let
 Some
@@ -216,7 +223,7 @@ clients
 {
 engine
 .
-prepare_for_sync
+set_clients
 (
 &
 |

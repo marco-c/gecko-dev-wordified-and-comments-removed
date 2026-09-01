@@ -798,7 +798,7 @@ to_state_machine_err
 S
 :
 :
-AuthIssues
+Connected
 )
 ?
 ;

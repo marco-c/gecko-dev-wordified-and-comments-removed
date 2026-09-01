@@ -130,7 +130,7 @@ UniFFIScaffolding
 .
 callSync
 (
-226
+224
 /
 /
 uniffi_viaduct_fn_func_allow_android_emulator_loopback
@@ -172,7 +172,7 @@ UniFFIScaffolding
 .
 callSync
 (
-227
+225
 /
 /
 uniffi_viaduct_fn_func_clear_ohttp_channels
@@ -257,7 +257,7 @@ UniFFIScaffolding
 .
 callSync
 (
-228
+226
 /
 /
 uniffi_viaduct_fn_func_configure_default_ohttp_channels
@@ -352,7 +352,7 @@ UniFFIScaffolding
 .
 callSync
 (
-229
+227
 /
 /
 uniffi_viaduct_fn_func_configure_ohttp_channel
@@ -423,7 +423,7 @@ UniFFIScaffolding
 .
 callSync
 (
-230
+228
 /
 /
 uniffi_viaduct_fn_func_init_backend
@@ -480,7 +480,7 @@ UniFFIScaffolding
 .
 callSync
 (
-231
+229
 /
 /
 uniffi_viaduct_fn_func_list_ohttp_channels
@@ -687,7 +687,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-232
+230
 /
 /
 uniffi_viaduct_fn_func_send_ohttp_request
@@ -797,7 +797,7 @@ UniFFIScaffolding
 .
 callSync
 (
-233
+231
 /
 /
 uniffi_viaduct_fn_func_set_global_default_user_agent
@@ -6799,7 +6799,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-234
+232
 /
 /
 uniffi_viaduct_fn_method_backend_send_request
