@@ -24,6 +24,8 @@ preferences
 tests
 /
 head
+-
+common
 .
 js
 "
