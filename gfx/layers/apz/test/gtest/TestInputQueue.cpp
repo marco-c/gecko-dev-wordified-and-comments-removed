@@ -236,9 +236,6 @@ ViewID
 ViewID
 rootScrollId
 =
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 ;
 const

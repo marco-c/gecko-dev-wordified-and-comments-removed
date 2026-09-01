@@ -127,9 +127,6 @@ layerVisibleRect
 SetScrollableFrameMetrics
 (
 root
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 CSSRect
 (
@@ -222,9 +219,6 @@ layerVisibleRect
 SetScrollableFrameMetrics
 (
 root
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 CSSRect
 (
@@ -241,9 +235,6 @@ layers
 [
 1
 ]
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 +
 1
@@ -357,9 +348,6 @@ layers
 [
 aScrollId
 -
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 ]
 ;
@@ -1396,9 +1384,6 @@ actual
 ;
 UpdateOverscrollBehavior
 (
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 +
 1

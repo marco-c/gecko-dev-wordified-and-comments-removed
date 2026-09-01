@@ -256,9 +256,6 @@ layers
 [
 1
 ]
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 )
 ;
@@ -268,9 +265,6 @@ layers
 [
 2
 ]
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 )
 ;
@@ -280,9 +274,6 @@ layers
 [
 4
 ]
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 +
 1
@@ -294,9 +285,6 @@ layers
 [
 6
 ]
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 +
 1
@@ -308,9 +296,6 @@ layers
 [
 7
 ]
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 +
 2
@@ -322,9 +307,6 @@ layers
 [
 8
 ]
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 +
 1
@@ -336,9 +318,6 @@ layers
 [
 9
 ]
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 +
 3
@@ -396,9 +375,6 @@ layers
 [
 1
 ]
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 )
 ;

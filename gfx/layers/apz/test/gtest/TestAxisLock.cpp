@@ -291,9 +291,6 @@ layerVisibleRect
 SetScrollableFrameMetrics
 (
 root
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 CSSRect
 (
@@ -380,9 +377,6 @@ panX
 }
 QueueMockHitResult
 (
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 )
 ;
@@ -434,9 +428,6 @@ GetSampleTime
 ;
 QueueMockHitResult
 (
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 )
 ;
@@ -693,9 +684,6 @@ root
 ;
 QueueMockHitResult
 (
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 )
 ;
@@ -747,9 +735,6 @@ GetSampleTime
 ;
 QueueMockHitResult
 (
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 )
 ;
@@ -801,9 +786,6 @@ GetSampleTime
 ;
 QueueMockHitResult
 (
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 )
 ;
@@ -899,9 +881,6 @@ GetSampleTime
 ;
 QueueMockHitResult
 (
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 )
 ;
@@ -986,9 +965,6 @@ eVertical
 ;
 QueueMockHitResult
 (
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 )
 ;
@@ -1040,9 +1016,6 @@ GetSampleTime
 ;
 QueueMockHitResult
 (
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 )
 ;
@@ -1094,9 +1067,6 @@ GetSampleTime
 ;
 QueueMockHitResult
 (
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 )
 ;
@@ -1192,9 +1162,6 @@ x
 ;
 QueueMockHitResult
 (
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 )
 ;
@@ -1319,9 +1286,6 @@ root
 ;
 QueueMockHitResult
 (
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 )
 ;
@@ -1373,9 +1337,6 @@ GetSampleTime
 ;
 QueueMockHitResult
 (
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 )
 ;
@@ -1427,9 +1388,6 @@ GetSampleTime
 ;
 QueueMockHitResult
 (
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 )
 ;
@@ -1525,9 +1483,6 @@ GetSampleTime
 ;
 QueueMockHitResult
 (
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 )
 ;
@@ -1612,9 +1567,6 @@ eHorizontal
 ;
 QueueMockHitResult
 (
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 )
 ;
@@ -1666,9 +1618,6 @@ GetSampleTime
 ;
 QueueMockHitResult
 (
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 )
 ;
@@ -1720,9 +1669,6 @@ GetSampleTime
 ;
 QueueMockHitResult
 (
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 )
 ;
@@ -1850,9 +1796,6 @@ x
 ;
 QueueMockHitResult
 (
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 )
 ;
@@ -1918,9 +1861,6 @@ eForEventHandling
 ;
 QueueMockHitResult
 (
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 )
 ;
@@ -1972,9 +1912,6 @@ GetSampleTime
 ;
 QueueMockHitResult
 (
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 )
 ;
@@ -2070,9 +2007,6 @@ GetSampleTime
 ;
 QueueMockHitResult
 (
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 )
 ;
@@ -2236,9 +2170,6 @@ root
 ;
 QueueMockHitResult
 (
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 )
 ;
@@ -2350,9 +2281,6 @@ eHorizontal
 ;
 QueueMockHitResult
 (
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 )
 ;
@@ -2404,9 +2332,6 @@ GetSampleTime
 ;
 QueueMockHitResult
 (
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 )
 ;
@@ -2564,9 +2489,6 @@ root
 ;
 QueueMockHitResult
 (
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 )
 ;
@@ -2625,9 +2547,6 @@ AssertStateIsPanningLockedY
 ;
 QueueMockHitResult
 (
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 )
 ;
@@ -2678,9 +2597,6 @@ AssertStateIsPanningLockedX
 ;
 QueueMockHitResult
 (
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 )
 ;
@@ -2786,9 +2702,6 @@ root
 ;
 QueueMockHitResult
 (
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 )
 ;
@@ -2847,9 +2760,6 @@ AssertStateIsPanningLockedY
 ;
 QueueMockHitResult
 (
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 )
 ;
@@ -2900,9 +2810,6 @@ AssertStateIsPanning
 ;
 QueueMockHitResult
 (
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 )
 ;
@@ -2954,9 +2861,6 @@ AssertStateIsPanning
 ;
 QueueMockHitResult
 (
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 )
 ;
@@ -3074,9 +2978,6 @@ panX
 {
 QueueMockHitResult
 (
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 )
 ;
@@ -3128,9 +3029,6 @@ GetSampleTime
 ;
 QueueMockHitResult
 (
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 )
 ;
@@ -3194,9 +3092,6 @@ GetSampleTime
 ;
 QueueMockHitResult
 (
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 )
 ;
@@ -3462,9 +3357,6 @@ layerVisibleRect
 SetScrollableFrameMetrics
 (
 root
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 CSSRect
 (
@@ -3481,9 +3373,6 @@ layers
 [
 1
 ]
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 +
 1
@@ -3546,9 +3435,6 @@ layers
 ;
 QueueMockHitResult
 (
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 +
 1
@@ -3602,9 +3488,6 @@ GetSampleTime
 ;
 QueueMockHitResult
 (
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 +
 1
@@ -3658,9 +3541,6 @@ GetSampleTime
 ;
 QueueMockHitResult
 (
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 +
 1
@@ -3779,9 +3659,6 @@ x
 ;
 QueueMockHitResult
 (
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 +
 1
@@ -3835,9 +3712,6 @@ GetSampleTime
 ;
 QueueMockHitResult
 (
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 +
 1
@@ -3891,9 +3765,6 @@ GetSampleTime
 ;
 QueueMockHitResult
 (
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 +
 1
@@ -4042,9 +3913,6 @@ layerVisibleRect
 SetScrollableFrameMetrics
 (
 root
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 CSSRect
 (
@@ -4082,9 +3950,6 @@ root
 ;
 QueueMockHitResult
 (
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 )
 ;
@@ -4198,9 +4063,6 @@ layerVisibleRect
 SetScrollableFrameMetrics
 (
 root
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 CSSRect
 (
@@ -4238,9 +4100,6 @@ root
 ;
 QueueMockHitResult
 (
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 )
 ;
@@ -4521,9 +4380,6 @@ UpdateHitTestingTree
 ;
 QueueMockHitResult
 (
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 )
 ;
@@ -4959,9 +4815,6 @@ CSSPoint
 ;
 QueueMockHitResult
 (
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 )
 ;

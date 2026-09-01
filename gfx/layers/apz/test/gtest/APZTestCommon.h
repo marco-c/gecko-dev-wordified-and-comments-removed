@@ -2498,6 +2498,16 @@ Test
 {
 public
 :
+static
+constexpr
+auto
+START_SCROLL_ID
+=
+ScrollableLayerGuid
+:
+:
+START_SCROLL_ID
+;
 APZCTesterBase
 (
 )

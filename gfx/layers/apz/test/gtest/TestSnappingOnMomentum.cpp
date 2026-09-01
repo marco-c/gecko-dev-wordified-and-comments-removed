@@ -86,9 +86,6 @@ layerVisibleRect
 SetScrollableFrameMetrics
 (
 root
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 CSSRect
 (
@@ -301,9 +298,6 @@ Time
 ;
 QueueMockHitResult
 (
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 )
 ;
@@ -350,9 +344,6 @@ GetSampleTime
 ;
 QueueMockHitResult
 (
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 )
 ;
@@ -404,9 +395,6 @@ GetSampleTime
 ;
 QueueMockHitResult
 (
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 )
 ;
@@ -473,9 +461,6 @@ GetSampleTime
 ;
 QueueMockHitResult
 (
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 )
 ;
@@ -547,9 +532,6 @@ GetSampleTime
 ;
 QueueMockHitResult
 (
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 )
 ;
@@ -601,9 +583,6 @@ GetSampleTime
 ;
 QueueMockHitResult
 (
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 )
 ;
@@ -655,9 +634,6 @@ GetSampleTime
 ;
 QueueMockHitResult
 (
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 )
 ;

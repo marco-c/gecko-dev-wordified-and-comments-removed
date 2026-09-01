@@ -93,9 +93,6 @@ layers
 [
 0
 ]
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 CSSRect
 (
@@ -201,9 +198,6 @@ layers
 [
 0
 ]
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 )
 ;
@@ -213,9 +207,6 @@ layers
 [
 2
 ]
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 +
 1
@@ -227,9 +218,6 @@ layers
 [
 5
 ]
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 +
 1
@@ -241,9 +229,6 @@ layers
 [
 3
 ]
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 +
 2
@@ -255,9 +240,6 @@ layers
 [
 6
 ]
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 +
 3
@@ -317,9 +299,6 @@ layers
 [
 0
 ]
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 )
 ;
@@ -329,9 +308,6 @@ layers
 [
 1
 ]
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 +
 1
@@ -405,9 +381,6 @@ layers
 [
 1
 ]
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 )
 ;
@@ -417,9 +390,6 @@ layers
 [
 2
 ]
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 )
 ;
@@ -856,9 +826,6 @@ ScreenSize
 ;
 QueueMockHitResult
 (
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 +
 1
@@ -948,9 +915,6 @@ ScreenSize
 ;
 QueueMockHitResult
 (
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 +
 1
@@ -968,9 +932,6 @@ eIrregularArea
 ;
 QueueMockHitResult
 (
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 +
 1
@@ -1135,9 +1096,6 @@ ScreenSize
 ;
 QueueMockHitResult
 (
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 +
 1
@@ -1227,9 +1185,6 @@ ScreenSize
 ;
 QueueMockHitResult
 (
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 +
 1
@@ -1247,9 +1202,6 @@ eIrregularArea
 ;
 QueueMockHitResult
 (
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 +
 1
@@ -1401,9 +1353,6 @@ blockId
 ;
 QueueMockHitResult
 (
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 {
 CompositorHitTestFlags
@@ -2137,13 +2086,7 @@ ScrollTargets
 >
 (
 {
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 }
 )
@@ -2368,9 +2311,6 @@ ScrollableLayerGuid
 ViewID
 scrollId
 =
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 ;
 SetScrollableFrameMetrics

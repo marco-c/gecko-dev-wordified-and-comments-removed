@@ -103,9 +103,6 @@ layerVisibleRects
 SetScrollableFrameMetrics
 (
 root
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 )
 ;
@@ -115,9 +112,6 @@ layers
 [
 1
 ]
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 +
 1
@@ -129,9 +123,6 @@ layers
 [
 2
 ]
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 +
 2
@@ -229,9 +220,6 @@ layerVisibleRects
 SetScrollableFrameMetrics
 (
 root
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 )
 ;
@@ -357,9 +345,6 @@ layers
 [
 2
 ]
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 CSSRect
 (
@@ -376,9 +361,6 @@ layers
 [
 3
 ]
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 +
 1
@@ -747,9 +729,6 @@ FromMilliseconds
 ;
 QueueMockHitResult
 (
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 +
 1
@@ -786,9 +765,6 @@ left
 ;
 QueueMockHitResult
 (
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 +
 2
@@ -825,9 +801,6 @@ bottom
 ;
 QueueMockHitResult
 (
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 )
 ;
@@ -862,9 +835,6 @@ root
 ;
 QueueMockHitResult
 (
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 +
 2
@@ -936,9 +906,6 @@ again
 ;
 QueueMockHitResult
 (
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 +
 2
@@ -1062,9 +1029,6 @@ Times
 ;
 QueueMockHitResult
 (
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 )
 ;
@@ -1110,9 +1074,6 @@ layers
 ;
 QueueMockHitResult
 (
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 +
 1

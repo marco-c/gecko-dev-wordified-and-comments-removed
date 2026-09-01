@@ -85,9 +85,6 @@ layerVisibleRect
 SetScrollableFrameMetrics
 (
 root
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 CSSRect
 (
@@ -104,9 +101,6 @@ layers
 [
 1
 ]
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 +
 1
@@ -224,9 +218,6 @@ layerVisibleRect
 SetScrollableFrameMetrics
 (
 root
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 CSSRect
 (
@@ -243,9 +234,6 @@ layers
 [
 1
 ]
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 +
 2
@@ -266,9 +254,6 @@ layers
 [
 2
 ]
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 +
 1
@@ -398,9 +383,6 @@ layers
 [
 0
 ]
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 CSSRect
 (
@@ -417,9 +399,6 @@ layers
 [
 1
 ]
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 +
 1
@@ -438,9 +417,6 @@ layers
 [
 2
 ]
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 +
 2
@@ -459,9 +435,6 @@ layers
 [
 3
 ]
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 +
 3
@@ -480,9 +453,6 @@ layers
 [
 4
 ]
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 +
 4
@@ -610,9 +580,6 @@ layerVisibleRect
 SetScrollableFrameMetrics
 (
 root
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 CSSRect
 (
@@ -629,9 +596,6 @@ layers
 [
 1
 ]
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 +
 1
@@ -727,9 +691,6 @@ layerVisibleRect
 SetScrollableFrameMetrics
 (
 root
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 CSSRect
 (
@@ -746,9 +707,6 @@ layers
 [
 1
 ]
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 +
 1
@@ -844,9 +802,6 @@ layerVisibleRect
 SetScrollableFrameMetrics
 (
 root
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 CSSRect
 (
@@ -863,9 +818,6 @@ layers
 [
 1
 ]
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 +
 1
@@ -1075,9 +1027,6 @@ layerVisibleRect
 SetScrollableFrameMetrics
 (
 root
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 CSSRect
 (
@@ -1094,9 +1043,6 @@ layers
 [
 1
 ]
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 +
 1
@@ -1892,9 +1838,6 @@ layers
 ;
 QueueMockHitResult
 (
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 )
 ;
@@ -2112,9 +2055,6 @@ layers
 ;
 QueueMockHitResult
 (
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 +
 1
@@ -2475,9 +2415,6 @@ layers
 ;
 QueueMockHitResult
 (
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 +
 1
@@ -2532,9 +2469,6 @@ Time
 ;
 QueueMockHitResult
 (
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 +
 1
@@ -2623,9 +2557,6 @@ ScreenSize
 ;
 QueueMockHitResult
 (
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 +
 1
@@ -2633,9 +2564,6 @@ START_SCROLL_ID
 ;
 QueueMockHitResult
 (
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 +
 1
@@ -2801,9 +2729,6 @@ CreateScrollHandoffLayerTree1
 ;
 QueueMockHitResult
 (
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 +
 1
@@ -3452,9 +3377,6 @@ downwardDelta
 ;
 QueueMockHitResult
 (
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 +
 1
@@ -3523,9 +3445,6 @@ AdvanceByMillis
 ;
 QueueMockHitResult
 (
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 +
 1
@@ -3599,9 +3518,6 @@ AdvanceByMillis
 ;
 QueueMockHitResult
 (
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 +
 1
@@ -3720,9 +3636,6 @@ scrollableLocation
 ;
 QueueMockHitResult
 (
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 )
 ;
@@ -3800,9 +3713,6 @@ nullptr
 ;
 QueueMockHitResult
 (
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 +
 1
@@ -3836,9 +3746,6 @@ AdvanceByMillis
 ;
 QueueMockHitResult
 (
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 +
 1
@@ -4259,9 +4166,6 @@ AdvanceByMillis
 ;
 QueueMockHitResult
 (
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 +
 1

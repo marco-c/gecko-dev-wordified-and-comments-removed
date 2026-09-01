@@ -664,9 +664,6 @@ metrics
 .
 SetScrollId
 (
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 )
 ;
@@ -689,9 +686,6 @@ childMetrics
 .
 SetScrollId
 (
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 +
 1
@@ -2448,9 +2442,6 @@ metrics
 .
 SetScrollId
 (
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 )
 ;
@@ -2707,9 +2698,6 @@ metrics
 .
 SetScrollId
 (
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 )
 ;
@@ -4311,9 +4299,6 @@ metrics
 .
 SetScrollId
 (
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 )
 ;

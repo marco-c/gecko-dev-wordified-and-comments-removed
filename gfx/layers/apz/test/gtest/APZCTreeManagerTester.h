@@ -609,9 +609,6 @@ if
 aScrollId
 =
 =
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 )
 {
@@ -1159,9 +1156,6 @@ layers
 [
 0
 ]
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 CSSRect
 (

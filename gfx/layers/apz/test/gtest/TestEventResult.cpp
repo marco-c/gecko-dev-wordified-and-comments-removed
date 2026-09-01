@@ -275,9 +275,6 @@ layerVisibleRects
 SetScrollableFrameMetrics
 (
 root
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 CSSRect
 (
@@ -514,9 +511,6 @@ HandledByContent
 {
 QueueMockHitResult
 (
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 {
 CompositorHitTestFlags
@@ -595,9 +589,6 @@ Contain
 {
 QueueMockHitResult
 (
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 {
 CompositorHitTestFlags
@@ -678,9 +669,6 @@ None
 {
 QueueMockHitResult
 (
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 {
 CompositorHitTestFlags
@@ -761,9 +749,6 @@ None
 {
 QueueMockHitResult
 (
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 {
 CompositorHitTestFlags
@@ -842,9 +827,6 @@ Auto
 {
 QueueMockHitResult
 (
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 {
 CompositorHitTestFlags
@@ -944,9 +926,6 @@ HandledByContent
 {
 QueueMockHitResult
 (
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 {
 CompositorHitTestFlags
@@ -1022,9 +1001,6 @@ CSSPoint
 {
 QueueMockHitResult
 (
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 {
 CompositorHitTestFlags
@@ -1105,9 +1081,6 @@ CSSPoint
 {
 QueueMockHitResult
 (
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 {
 CompositorHitTestFlags
@@ -1183,9 +1156,6 @@ CSSPoint
 {
 QueueMockHitResult
 (
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 {
 CompositorHitTestFlags
@@ -1266,9 +1236,6 @@ CSSPoint
 {
 QueueMockHitResult
 (
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 {
 CompositorHitTestFlags
@@ -1913,9 +1880,6 @@ layerVisibleRects
 SetScrollableFrameMetrics
 (
 root
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 CSSRect
 (
@@ -1970,9 +1934,6 @@ UpdateHitTestingTree
 ;
 QueueMockHitResult
 (
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 )
 ;
@@ -2037,9 +1998,6 @@ EitherScrollDirection
 ;
 QueueMockHitResult
 (
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 {
 CompositorHitTestFlags
@@ -2213,9 +2171,6 @@ EitherScrollDirection
 ;
 QueueMockHitResult
 (
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 {
 CompositorHitTestFlags
@@ -2407,9 +2362,6 @@ UpdateHitTestingTree
 ;
 QueueMockHitResult
 (
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 {
 CompositorHitTestFlags
@@ -2567,9 +2519,6 @@ EitherScrollDirection
 ;
 QueueMockHitResult
 (
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 )
 ;
