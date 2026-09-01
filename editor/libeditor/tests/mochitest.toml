@@ -2018,6 +2018,13 @@ html
 ]
 [
 "
+test_dragdrop_img_with_data_url
+.
+html
+"
+]
+[
+"
 test_dragend_target
 .
 html
