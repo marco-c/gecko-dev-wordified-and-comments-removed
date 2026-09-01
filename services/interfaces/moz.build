@@ -120,6 +120,11 @@ XPIDL_SOURCES
 =
 [
 "
+mozIBridgedSyncEngine
+.
+idl
+"
+"
 mozIInterruptible
 .
 idl

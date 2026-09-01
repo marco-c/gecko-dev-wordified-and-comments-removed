@@ -8886,15 +8886,6 @@ base
 :
 {
 "
-aliases
-"
-:
-[
-"
-ecosia
-"
-]
-"
 classification
 "
 :
@@ -9054,7 +9045,7 @@ ecosia
 last_modified
 "
 :
-1783024776556
+1734364924960
 "
 recordType
 "
@@ -9066,7 +9057,7 @@ engine
 schema
 "
 :
-1782777609128
+1734220806364
 "
 variants
 "
@@ -16823,7 +16814,7 @@ startpage
 last_modified
 "
 :
-1778165854657
+1776702260347
 "
 recordType
 "
@@ -16835,7 +16826,7 @@ engine
 schema
 "
 :
-1778115248130
+1776701460565
 "
 variants
 "
@@ -16855,6 +16846,17 @@ experiment
 startpage
 "
 }
+"
+isNewUntil
+"
+:
+"
+2026
+-
+05
+-
+19
+"
 }
 ]
 }
@@ -38479,5 +38481,5 @@ schema
 timestamp
 "
 :
-1783024776556
+1776702260347
 }
