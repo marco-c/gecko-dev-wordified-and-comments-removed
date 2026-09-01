@@ -450,6 +450,13 @@ Bug
 ]
 [
 "
+browser_sidebar_animation
+.
+js
+"
+]
+[
+"
 browser_sidebar_collapsed_close_tab_button
 .
 js
