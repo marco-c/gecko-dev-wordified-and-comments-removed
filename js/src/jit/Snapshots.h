@@ -279,16 +279,9 @@ FloatRegisterBits
 other
 )
 const
-{
-return
-data
 =
-=
-other
-.
-data
+default
 ;
-}
 uint32_t
 code
 (
@@ -1893,6 +1886,9 @@ SystemAllocPolicy
 ;
 RValueAllocMap
 allocMap_
+{
+32
+}
 ;
 uint32_t
 allocWritten_
@@ -1907,6 +1903,8 @@ public
 SnapshotWriter
 (
 )
+=
+default
 ;
 SnapshotOffset
 startSnapshot

@@ -4386,16 +4386,9 @@ TaggedScriptThingIndex
 rhs
 )
 const
-{
-return
-data_
 =
-=
-rhs
-.
-data_
+default
 ;
-}
 }
 ;
 class
