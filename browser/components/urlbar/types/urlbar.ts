@@ -47,7 +47,7 @@ import
 /
 content
 /
-UrlbarInput
+UrlbarInputBase
 .
 mjs
 "

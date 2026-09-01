@@ -1722,7 +1722,7 @@ content
 /
 urlbar
 /
-UrlbarInput
+UrlbarInputBase
 .
 mjs
 "
@@ -1741,7 +1741,7 @@ content
 /
 urlbar
 /
-UrlbarInput
+UrlbarInputBase
 .
 mjs
 "

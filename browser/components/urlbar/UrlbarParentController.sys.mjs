@@ -228,7 +228,7 @@ urlbar
 /
 content
 /
-UrlbarInput
+UrlbarInputBase
 .
 mjs
 "
