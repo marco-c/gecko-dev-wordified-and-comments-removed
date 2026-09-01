@@ -3582,6 +3582,17 @@ weatherButtonContextMenu
 panel
 -
 list
+className
+=
+"
+panel
+-
+list
+-
+no
+-
+icons
+"
 id
 =
 "
