@@ -1521,7 +1521,9 @@ write_checksum
 !
 capabilities_
 .
-zero_checksum
+zero_checksum_enabled
+(
+)
 |
 |
 cookie_echo_chunk_
@@ -1652,7 +1654,9 @@ if
 (
 capabilities_
 .
-zero_checksum
+zero_checksum_enabled
+(
+)
 )
 {
 sb
@@ -1806,7 +1810,9 @@ zero_checksum
 =
 capabilities_
 .
-zero_checksum
+zero_checksum_enabled
+(
+)
 ;
 state
 .

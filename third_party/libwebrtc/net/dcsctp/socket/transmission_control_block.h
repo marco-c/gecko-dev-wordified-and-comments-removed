@@ -530,7 +530,9 @@ builder
 !
 capabilities_
 .
-zero_checksum
+zero_checksum_enabled
+(
+)
 )
 ;
 }
