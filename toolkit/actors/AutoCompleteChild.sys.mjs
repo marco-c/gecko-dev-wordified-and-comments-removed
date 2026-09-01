@@ -760,6 +760,16 @@ element
 direction
 ;
 let
+isDarkBackground
+=
+ChromeUtils
+.
+isDarkBackground
+(
+element
+)
+;
+let
 results
 =
 this
@@ -850,6 +860,7 @@ MaybeOpenPopup
 results
 rect
 dir
+isDarkBackground
 inputElementIdentifier
 formOrigin
 selectedIndex
