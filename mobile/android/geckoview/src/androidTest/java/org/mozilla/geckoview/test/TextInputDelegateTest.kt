@@ -4074,6 +4074,13 @@ GeckoSession
 }
 }
 )
+activity
+.
+view
+.
+clearFocus
+(
+)
 mainSession
 .
 evaluateJS
@@ -4093,13 +4100,6 @@ blur
 (
 )
 "
-)
-activity
-.
-view
-.
-clearFocus
-(
 )
 UiThreadUtils
 .
