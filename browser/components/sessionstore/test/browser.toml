@@ -1448,6 +1448,13 @@ https_first_disabled
 true
 [
 "
+browser_restore_respects_pending_minimize
+.
+js
+"
+]
+[
+"
 browser_restore_reversed_z_order
 .
 js
