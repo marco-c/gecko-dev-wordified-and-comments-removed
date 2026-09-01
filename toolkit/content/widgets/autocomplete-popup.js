@@ -957,6 +957,12 @@ selected
 =
 false
 ;
+prevSelectedItem
+.
+pointerselected
+=
+false
+;
 }
 if
 (
@@ -968,6 +974,12 @@ selectedItem
 selected
 =
 true
+;
+selectedItem
+.
+pointerselected
+=
+pointer
 ;
 }
 if
