@@ -185,6 +185,19 @@ test
 )
             
 if
+data
+.
+get
+(
+"
+quiet
+"
+)
+:
+                
+pass
+            
+elif
 test_name
 is
 None
