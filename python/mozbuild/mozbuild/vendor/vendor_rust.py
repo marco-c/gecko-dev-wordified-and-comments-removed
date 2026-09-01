@@ -5805,6 +5805,16 @@ load
 fh
 )
             
+checksum_data
+.
+pop
+(
+"
+comment
+"
+None
+)
+            
 for
 path
 in
