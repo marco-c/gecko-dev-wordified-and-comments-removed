@@ -11341,6 +11341,8 @@ ApplyLineClamp
 (
 nscoord
 aContentBlockEndEdge
+nscoord
+aCollapsingBEndMargin
 )
 {
 auto
@@ -11492,6 +11494,11 @@ f
 this
 )
 {
+edge
++
+=
+aCollapsingBEndMargin
+;
 break
 ;
 }
@@ -11903,6 +11910,7 @@ nonCarriedOutBDirMargin
 ApplyLineClamp
 (
 contentBSizeWithBStartBP
+0
 )
 ;
 finalSize
@@ -12127,6 +12135,13 @@ lineClampedContentBlockEndEdge
 ApplyLineClamp
 (
 blockEndEdgeOfChildren
+aState
+.
+mPrevBEndMargin
+.
+Get
+(
+)
 )
 ;
 const
