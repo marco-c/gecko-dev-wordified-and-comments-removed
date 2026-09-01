@@ -433,6 +433,11 @@ const
 textContent
 =
 innerWidth
+.
+toFixed
+(
+1
+)
 +
 "
 px
@@ -441,6 +446,11 @@ u00D7
 "
 +
 innerHeight
+.
+toFixed
+(
+1
+)
 +
 "
 px
