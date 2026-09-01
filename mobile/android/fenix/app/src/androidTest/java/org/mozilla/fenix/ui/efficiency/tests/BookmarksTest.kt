@@ -1370,7 +1370,7 @@ mozClick
 (
 BrowserPageSelectors
 .
-SNACKBAR_EDIT_BUTTON
+SNACKBAR_ACTION_BUTTON
 )
 on
 .
