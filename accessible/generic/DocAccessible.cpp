@@ -8551,7 +8551,6 @@ wgc
 SendPDocAccessibleConstructor
 (
 ipcDoc
-nullptr
 0
 IsPrintDoc
 (
@@ -16511,7 +16510,6 @@ wgc
 SendPDocAccessibleConstructor
 (
 ipcDoc
-mIPCDoc
 embedderAcc
 -
 >
