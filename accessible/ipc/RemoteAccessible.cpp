@@ -5170,7 +5170,9 @@ isSome
 )
 )
 {
+const
 nsRect
+&
 internalRect
 =
 *
