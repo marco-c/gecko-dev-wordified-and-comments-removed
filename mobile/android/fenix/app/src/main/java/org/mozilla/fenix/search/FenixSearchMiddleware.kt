@@ -1700,6 +1700,9 @@ store
 state
 )
 {
+currentTabData
+?
+.
 url
 !
 =
@@ -1764,6 +1767,9 @@ isNotBlank
 )
 &
 &
+currentTabData
+?
+.
 url
 !
 =

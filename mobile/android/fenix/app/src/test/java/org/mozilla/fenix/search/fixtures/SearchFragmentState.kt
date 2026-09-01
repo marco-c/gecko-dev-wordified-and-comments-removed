@@ -118,10 +118,9 @@ query
 =
 "
 "
-url
+currentTabData
 =
-"
-"
+null
 searchTerms
 =
 "
