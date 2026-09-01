@@ -7902,7 +7902,7 @@ param
 Values
 <
 typeof
-UrlbarShared
+this
 .
 HIGHLIGHT
 >
