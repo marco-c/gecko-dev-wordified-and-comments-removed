@@ -693,14 +693,6 @@ using
 testing
 :
 :
-InvokeWithoutArgs
-;
-using
-:
-:
-testing
-:
-:
 NiceMock
 ;
 using
@@ -4717,8 +4709,6 @@ AtLeast
 .
 WillRepeatedly
 (
-InvokeWithoutArgs
-(
 [
 &
 ]
@@ -4730,7 +4720,6 @@ Set
 )
 ;
 }
-)
 )
 ;
 PeerConnectionFactoryDependencies
