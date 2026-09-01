@@ -118,12 +118,11 @@ RegExpObject
 public
 NativeObject
 {
-static
-constexpr
-uint32_t
-LAST_INDEX_SLOT
-=
+JS_DEFINE_UNTYPED_SLOT
+(
 0
+LAST_INDEX_SLOT
+)
 ;
 JS_DEFINE_TYPED_SLOT
 (

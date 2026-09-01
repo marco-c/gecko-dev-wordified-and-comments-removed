@@ -53,12 +53,11 @@ String
 Undefined
 )
 ;
-static
-constexpr
-uint32_t
-VALUE_SLOT
-=
+JS_DEFINE_UNTYPED_SLOT
+(
 1
+VALUE_SLOT
+)
 ;
 static
 constexpr

@@ -2916,12 +2916,11 @@ PENDING_MODULES_COUNT_SLOT
 Int32
 )
 ;
-static
-constexpr
-uint32_t
-HOST_DEFINED_SLOT
-=
+JS_DEFINE_UNTYPED_SLOT
+(
 4
+HOST_DEFINED_SLOT
+)
 ;
 static
 constexpr
