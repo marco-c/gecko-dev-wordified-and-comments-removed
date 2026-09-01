@@ -379,7 +379,7 @@ string
 Path
 )
 ;
-int
+void
 ListFilesInDirRecursive
 (
 const
@@ -519,7 +519,7 @@ Size
 }
 }
 ;
-int
+void
 GetSizedFilesFromDir
 (
 const

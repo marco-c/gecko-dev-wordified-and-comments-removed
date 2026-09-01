@@ -1952,7 +1952,7 @@ PC
 }
 }
 }
-int
+void
 TracePC
 :
 :
@@ -1990,7 +1990,6 @@ auto
 "
 )
 return
-0
 ;
 for
 (
@@ -2180,7 +2179,6 @@ Start
 I
 ;
 return
-0
 ;
 }
 }
@@ -2223,8 +2221,10 @@ c_str
 )
 )
 ;
-return
+exit
+(
 1
+)
 ;
 }
 bool

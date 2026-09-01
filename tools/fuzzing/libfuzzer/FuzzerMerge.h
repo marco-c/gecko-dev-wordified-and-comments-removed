@@ -122,7 +122,7 @@ bool
 ParseCoverage
 )
 ;
-int
+void
 ParseOrExit
 (
 std
@@ -265,7 +265,7 @@ const
 ;
 }
 ;
-int
+void
 CrashResistantMerge
 (
 const
