@@ -2302,6 +2302,8 @@ panel
 connect
 -
 device
+-
+2
 "
 )
 ;
