@@ -2763,9 +2763,11 @@ array
 _tabLayerCache
 )
 inside
-tabbrowser
+Tabbrowser
 .
-js
+sys
+.
+mjs
 which
 we
 examine

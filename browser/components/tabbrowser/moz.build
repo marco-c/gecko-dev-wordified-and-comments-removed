@@ -243,6 +243,13 @@ sys
 mjs
 "
 "
+Tabbrowser
+.
+sys
+.
+mjs
+"
+"
 TabMetrics
 .
 sys
