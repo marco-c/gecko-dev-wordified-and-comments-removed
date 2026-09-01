@@ -9619,6 +9619,14 @@ test_support
 /
 api
 :
+bitrate_allocation
+"
+"
+.
+.
+/
+api
+:
 make_ref_counted
 "
 "

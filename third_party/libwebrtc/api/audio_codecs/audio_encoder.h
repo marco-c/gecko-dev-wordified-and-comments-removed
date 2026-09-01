@@ -547,6 +547,14 @@ int
 target_bps
 )
 ;
+ABSL_DEPRECATED
+(
+"
+Use
+OnReceivedUplinkAllocation
+instead
+"
+)
 virtual
 void
 OnReceivedUplinkBandwidth
