@@ -11497,12 +11497,6 @@ remove
 (
 )
 ;
-profilesSeparator
-.
-hidden
-=
-false
-;
 secureSyncHeader
 .
 hidden
