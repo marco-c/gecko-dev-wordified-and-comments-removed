@@ -142,7 +142,9 @@ Service
 that
 handles
 the
-submission
+WebCompat
+Info
+retrieval
 requests
 for
 the
