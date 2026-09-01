@@ -231,6 +231,9 @@ Set
 acknowledgeFeedback
 "
 "
+clearL10nCache
+"
+"
 clearTopSitesCache
 "
 "
