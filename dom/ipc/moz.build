@@ -338,6 +338,11 @@ JSValidatorUtils
 h
 "
 "
+LoadedOriginSet
+.
+h
+"
+"
 LoginDetectionService
 .
 h
@@ -680,6 +685,11 @@ JSValidatorUtils
 cpp
 "
 "
+LoadedOriginSet
+.
+cpp
+"
+"
 LoginDetectionService
 .
 cpp
@@ -890,6 +900,11 @@ PContent
 .
 ipdl
 "
+"
+PWindowGlobal
+.
+ipdl
+"
 ]
 IPDL_SOURCES
 +
@@ -1002,11 +1017,6 @@ ipdl
 "
 "
 PVsync
-.
-ipdl
-"
-"
-PWindowGlobal
 .
 ipdl
 "
