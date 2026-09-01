@@ -515,6 +515,7 @@ PageExtractionController
 ContentParams
 (
 true
+false
 )
 val
 pageContent

@@ -20969,6 +20969,7 @@ public
 ContentParams
 (
 boolean
+boolean
 )
 ;
 field
@@ -20976,6 +20977,12 @@ public
 final
 boolean
 removeBoilerplate
+;
+field
+public
+final
+boolean
+useSimpleText
 ;
 }
 public

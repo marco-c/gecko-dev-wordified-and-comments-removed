@@ -5126,6 +5126,9 @@ ContentParams
 options
 .
 removeBoilerplate
+options
+.
+useSimpleText
 )
 geckoSession
 .
