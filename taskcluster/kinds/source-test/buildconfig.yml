@@ -85,11 +85,6 @@ target
 true
 run
 :
-clone
--
-with
-:
-hg
 using
 :
 run
