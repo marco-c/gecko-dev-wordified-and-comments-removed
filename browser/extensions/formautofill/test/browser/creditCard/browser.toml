@@ -1034,6 +1034,13 @@ Bug
 ]
 [
 "
+browser_editCreditCardDialog_cvv
+.
+js
+"
+]
+[
+"
 browser_insecure_form
 .
 js
