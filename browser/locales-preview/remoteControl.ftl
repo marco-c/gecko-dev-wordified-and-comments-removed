@@ -374,14 +374,12 @@ panel
 -
 summary
 =
-Turn
-on
-remote
+Remote
 control
-to
-let
+allows
 AI
 assistants
+to
 connect
 to
 {
