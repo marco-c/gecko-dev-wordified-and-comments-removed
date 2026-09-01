@@ -132,8 +132,7 @@ CallerType
 ErrorResult
 &
 )
-{
-}
+;
 protected
 :
 virtual
