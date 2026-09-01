@@ -791,6 +791,7 @@ _bridge
 .
 apply
 (
+0
 )
 ;
 let
@@ -1219,6 +1220,7 @@ _bridge
 .
 apply
 (
+0
 )
 ;
 deepEqual

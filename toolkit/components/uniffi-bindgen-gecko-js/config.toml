@@ -1720,7 +1720,7 @@ AsyncWrapped
 "
 LoginsBridgedEngine
 .
-set_last_sync
+reset_last_sync
 "
 =
 "
