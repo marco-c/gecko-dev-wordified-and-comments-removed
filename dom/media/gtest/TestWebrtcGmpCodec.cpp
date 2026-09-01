@@ -313,6 +313,13 @@ TearDown
 override
 {
 mEncoder
+-
+>
+Shutdown
+(
+)
+;
+mEncoder
 =
 nullptr
 ;
