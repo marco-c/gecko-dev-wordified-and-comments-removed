@@ -149,6 +149,13 @@ js
 ]
 [
 "
+browser_testSharePanelScreenshot
+.
+js
+"
+]
+[
+"
 browser_testShareTabGroup
 .
 js
