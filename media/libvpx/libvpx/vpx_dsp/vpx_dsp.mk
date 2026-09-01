@@ -646,18 +646,6 @@ x86
 add_noise_sse2
 .
 asm
-DSP_SRCS
--
-(
-HAVE_SSE2
-)
-+
-=
-x86
-/
-deblock_sse2
-.
-asm
 endif
 DSP_SRCS
 -
@@ -668,7 +656,7 @@ HAVE_SSE2
 =
 x86
 /
-post_proc_sse2
+deblock_sse2
 .
 c
 DSP_SRCS

@@ -2328,6 +2328,13 @@ denoiser
 denoise_state
 )
 ;
+denoiser
+-
+>
+denoise_state
+=
+NULL
+;
 }
 void
 vp8_denoiser_denoise_mb

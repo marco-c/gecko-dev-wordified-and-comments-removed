@@ -806,6 +806,10 @@ c
 ]
 =
 (
+uint16_t
+)
+(
+(
 8
 +
 sum
@@ -818,6 +822,7 @@ c
 >
 >
 4
+)
 ;
 }
 s
@@ -1091,6 +1096,10 @@ r
 ]
 =
 (
+uint16_t
+)
+(
+(
 rv2
 [
 r
@@ -1108,6 +1117,7 @@ s
 >
 >
 4
+)
 ;
 }
 s
@@ -2551,6 +2561,16 @@ VP9D_DEBLOCK
 )
 )
 {
+const
+int
+limits_size
+=
+ALIGN_POWER_OF_TWO
+(
+unscaled_width
+4
+)
+;
 if
 (
 !
@@ -2569,7 +2589,7 @@ postproc_state
 .
 limits_size
 <
-unscaled_width
+limits_size
 )
 {
 if
@@ -2600,7 +2620,7 @@ limits
 =
 vpx_calloc
 (
-unscaled_width
+limits_size
 sizeof
 (
 *
@@ -2633,7 +2653,7 @@ postproc_state
 .
 limits_size
 =
-unscaled_width
+limits_size
 ;
 }
 }
