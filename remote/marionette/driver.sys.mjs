@@ -11383,10 +11383,10 @@ returns
 string
 }
 *
-Local
-tag
+Qualified
 name
 of
+the
 element
 .
 *
