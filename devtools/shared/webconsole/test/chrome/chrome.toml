@@ -45,6 +45,11 @@ sandboxed_iframe
 html
 "
 "
+sandboxed_iframe_inner
+.
+html
+"
+"
 console
 -
 test
