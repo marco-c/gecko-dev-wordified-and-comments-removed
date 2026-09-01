@@ -6115,6 +6115,12 @@ getPreviousRelevantMemories
 (
 messageCount
 )
+this
+.
+engine
+?
+.
+model
 )
 ;
 if
