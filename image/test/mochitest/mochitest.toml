@@ -348,6 +348,11 @@ results
 gif
 "
 "
+corrupt
+.
+jxl
+"
+"
 damon
 .
 jpg
@@ -386,6 +391,11 @@ frame
 padding
 .
 gif
+"
+"
+green
+.
+jxl
 "
 "
 green
@@ -1239,6 +1249,13 @@ http2
 "
 "
 http3
+"
+]
+[
+"
+test_jxl_telemetry
+.
+html
 "
 ]
 [
