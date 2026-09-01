@@ -281,6 +281,11 @@ file_bug717180
 html
 "
 "
+file_bug1758288
+.
+sjs
+"
+"
 file_img_picture_preload
 .
 html
@@ -1107,6 +1112,13 @@ html
 test_bug1646140
 -
 2
+.
+html
+"
+]
+[
+"
+test_bug1758288
 .
 html
 "
