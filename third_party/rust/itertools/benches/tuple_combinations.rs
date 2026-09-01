@@ -44,7 +44,7 @@ usize
 41
 ;
 fn
-tuple_comb_for1
+array_comb_for1
 (
 c
 :
@@ -58,7 +58,7 @@ c
 bench_function
 (
 "
-tuple
+array
 comb
 for1
 "
@@ -95,7 +95,7 @@ i
 ;
 }
 fn
-tuple_comb_for2
+array_comb_for2
 (
 c
 :
@@ -109,7 +109,7 @@ c
 bench_function
 (
 "
-tuple
+array
 comb
 for2
 "
@@ -161,7 +161,7 @@ j
 ;
 }
 fn
-tuple_comb_for3
+array_comb_for3
 (
 c
 :
@@ -175,7 +175,7 @@ c
 bench_function
 (
 "
-tuple
+array
 comb
 for3
 "
@@ -242,7 +242,7 @@ k
 ;
 }
 fn
-tuple_comb_for4
+array_comb_for4
 (
 c
 :
@@ -256,7 +256,7 @@ c
 bench_function
 (
 "
-tuple
+array
 comb
 for4
 "
@@ -338,7 +338,7 @@ l
 ;
 }
 fn
-tuple_comb_c1
+array_comb_c1
 (
 c
 :
@@ -352,7 +352,7 @@ c
 bench_function
 (
 "
-tuple
+array
 comb
 c1
 "
@@ -369,9 +369,9 @@ iter
 |
 {
 for
-(
+[
 i
-)
+]
 in
 (
 0
@@ -380,7 +380,7 @@ in
 N1
 )
 .
-tuple_combinations
+array_combinations
 (
 )
 {
@@ -397,7 +397,7 @@ i
 ;
 }
 fn
-tuple_comb_c2
+array_comb_c2
 (
 c
 :
@@ -411,7 +411,7 @@ c
 bench_function
 (
 "
-tuple
+array
 comb
 c2
 "
@@ -428,10 +428,10 @@ iter
 |
 {
 for
-(
+[
 i
 j
-)
+]
 in
 (
 0
@@ -440,7 +440,7 @@ in
 N2
 )
 .
-tuple_combinations
+array_combinations
 (
 )
 {
@@ -459,7 +459,7 @@ j
 ;
 }
 fn
-tuple_comb_c3
+array_comb_c3
 (
 c
 :
@@ -473,7 +473,7 @@ c
 bench_function
 (
 "
-tuple
+array
 comb
 c3
 "
@@ -490,11 +490,11 @@ iter
 |
 {
 for
-(
+[
 i
 j
 k
-)
+]
 in
 (
 0
@@ -503,7 +503,7 @@ in
 N3
 )
 .
-tuple_combinations
+array_combinations
 (
 )
 {
@@ -524,7 +524,7 @@ k
 ;
 }
 fn
-tuple_comb_c4
+array_comb_c4
 (
 c
 :
@@ -538,7 +538,7 @@ c
 bench_function
 (
 "
-tuple
+array
 comb
 c4
 "
@@ -555,12 +555,12 @@ iter
 |
 {
 for
-(
+[
 i
 j
 k
 l
-)
+]
 in
 (
 0
@@ -569,7 +569,7 @@ in
 N4
 )
 .
-tuple_combinations
+array_combinations
 (
 )
 {
@@ -595,14 +595,14 @@ criterion_group
 !
 (
 benches
-tuple_comb_for1
-tuple_comb_for2
-tuple_comb_for3
-tuple_comb_for4
-tuple_comb_c1
-tuple_comb_c2
-tuple_comb_c3
-tuple_comb_c4
+array_comb_for1
+array_comb_for2
+array_comb_for3
+array_comb_for4
+array_comb_c1
+array_comb_c2
+array_comb_c3
+array_comb_c4
 )
 ;
 criterion_main

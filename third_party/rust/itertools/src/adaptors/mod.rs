@@ -1476,6 +1476,11 @@ iter
 size_hint
 (
 )
+usize
+:
+:
+from
+(
 self
 .
 top
@@ -1483,8 +1488,7 @@ top
 is_some
 (
 )
-as
-usize
+)
 )
 }
 fn
@@ -1504,6 +1508,10 @@ count
 (
 )
 +
+usize
+:
+:
+from
 (
 self
 .
@@ -1512,8 +1520,6 @@ top
 is_some
 (
 )
-as
-usize
 )
 }
 fn
@@ -2553,6 +2559,8 @@ F
 >
 TakeWhileRef
 <
+'
+_
 I
 F
 >
@@ -3084,8 +3092,6 @@ where
 I
 :
 Iterator
-+
-Clone
 I
 :
 :

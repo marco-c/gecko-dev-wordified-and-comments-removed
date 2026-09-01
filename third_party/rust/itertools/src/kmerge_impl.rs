@@ -375,6 +375,11 @@ len
 child
 +
 =
+usize
+:
+:
+from
+(
 less_than
 (
 &
@@ -390,8 +395,7 @@ heap
 child
 ]
 )
-as
-usize
+)
 ;
 if
 !

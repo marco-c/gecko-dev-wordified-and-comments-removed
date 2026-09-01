@@ -68,9 +68,9 @@ format
 "
 powerset
 {
+n
 }
 "
-n
 )
 ;
 c
@@ -154,10 +154,10 @@ format
 "
 powerset
 {
+n
 }
 fold
 "
-n
 )
 ;
 c
