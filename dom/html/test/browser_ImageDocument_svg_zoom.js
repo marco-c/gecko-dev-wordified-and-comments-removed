@@ -146,8 +146,6 @@ height
 )
 content
 .
-wrappedJSObject
-.
 innerHeight
 "
 Should
