@@ -360,6 +360,17 @@ getBBox
 (
 )
 ;
+/
+/
+Inflate
+by
+a
+pixel
+to
+prevent
+antialiasing
+failures
+.
 rect
 .
 x
@@ -371,6 +382,8 @@ value
 bbox
 .
 x
+-
+1
 ;
 rect
 .
@@ -383,6 +396,8 @@ value
 bbox
 .
 y
+-
+1
 ;
 rect
 .
@@ -395,6 +410,8 @@ value
 bbox
 .
 width
++
+2
 ;
 rect
 .
@@ -407,6 +424,8 @@ value
 bbox
 .
 height
++
+2
 ;
 element
 .
