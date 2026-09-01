@@ -95,7 +95,6 @@ result
 getViewUpdate
 (
 _result
-_idsByName
 )
 {
 return

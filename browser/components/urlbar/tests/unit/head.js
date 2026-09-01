@@ -4120,6 +4120,13 @@ optional
 :
 true
 }
+viewUpdate
+:
+{
+optional
+:
+true
+}
 .
 .
 .
