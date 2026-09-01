@@ -97,11 +97,11 @@ visible
 AppConstants
 .
 platform
-!
+=
 =
 =
 "
-linux
+win
 "
 name
 :
