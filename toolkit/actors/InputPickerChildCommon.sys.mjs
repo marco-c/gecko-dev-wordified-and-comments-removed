@@ -797,14 +797,6 @@ getComputedDirection
 (
 inputElement
 )
-isDarkBackground
-:
-ChromeUtils
-.
-isDarkBackground
-(
-inputElement
-)
 type
 :
 inputElement

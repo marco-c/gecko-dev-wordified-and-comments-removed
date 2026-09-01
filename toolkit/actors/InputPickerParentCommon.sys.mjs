@@ -780,9 +780,6 @@ openPicker
 type
 rect
 detail
-aData
-.
-isDarkBackground
 )
 ;
 this
