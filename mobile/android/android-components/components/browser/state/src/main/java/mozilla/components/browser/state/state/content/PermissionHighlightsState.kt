@@ -71,12 +71,6 @@ content
 import
 android
 .
-annotation
-.
-SuppressLint
-import
-android
-.
 os
 .
 Parcelable
@@ -312,12 +306,6 @@ value
 .
 *
 /
-SuppressLint
-(
-"
-ParcelCreator
-"
-)
 Parcelize
 data
 class

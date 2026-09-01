@@ -69,12 +69,6 @@ dialog
 import
 android
 .
-annotation
-.
-SuppressLint
-import
-android
-.
 app
 .
 Dialog
@@ -588,12 +582,6 @@ to
 password
 )
 }
-SuppressLint
-(
-"
-InflateParams
-"
-)
 private
 fun
 addLayout

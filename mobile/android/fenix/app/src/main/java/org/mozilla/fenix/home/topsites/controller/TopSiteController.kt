@@ -71,12 +71,6 @@ controller
 import
 android
 .
-annotation
-.
-SuppressLint
-import
-android
-.
 app
 .
 Activity
@@ -1140,12 +1134,6 @@ private
 true
 )
 }
-SuppressLint
-(
-"
-InflateParams
-"
-)
 override
 fun
 handleEditTopSiteClicked

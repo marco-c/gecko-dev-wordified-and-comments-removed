@@ -69,12 +69,6 @@ handler
 import
 android
 .
-annotation
-.
-SuppressLint
-import
-android
-.
 app
 .
 assist
@@ -358,12 +352,6 @@ null
 .
 *
 /
-SuppressLint
-(
-"
-InlinedApi
-"
-)
 Suppress
 (
 "

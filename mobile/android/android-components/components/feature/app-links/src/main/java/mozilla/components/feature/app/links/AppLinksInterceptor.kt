@@ -69,12 +69,6 @@ links
 import
 android
 .
-annotation
-.
-SuppressLint
-import
-android
-.
 content
 .
 Context
@@ -1252,12 +1246,6 @@ SuppressWarnings
 (
 "
 ReturnCount
-"
-)
-SuppressLint
-(
-"
-MissingPermission
 "
 )
 VisibleForTesting

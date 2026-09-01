@@ -69,12 +69,6 @@ view
 import
 android
 .
-annotation
-.
-SuppressLint
-import
-android
-.
 content
 .
 Context
@@ -2647,12 +2641,6 @@ offset
 .
 *
 /
-SuppressLint
-(
-"
-ParcelCreator
-"
-)
 Parcelize
 VisibleForTesting
 internal

@@ -69,12 +69,6 @@ ui
 import
 android
 .
-annotation
-.
-SuppressLint
-import
-android
-.
 content
 .
 pm
@@ -176,12 +170,6 @@ download
 .
 *
 /
-SuppressLint
-(
-"
-ParcelCreator
-"
-)
 Parcelize
 data
 class

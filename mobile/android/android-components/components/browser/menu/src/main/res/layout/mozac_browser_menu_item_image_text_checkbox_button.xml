@@ -204,13 +204,6 @@ importantForAccessibility
 "
 no
 "
-tools
-:
-ignore
-=
-"
-UseCompoundDrawables
-"
 >
 <
 androidx

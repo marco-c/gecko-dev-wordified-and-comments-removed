@@ -69,12 +69,6 @@ dialog
 import
 android
 .
-annotation
-.
-SuppressLint
-import
-android
-.
 text
 .
 method
@@ -325,12 +319,6 @@ hasShownManyDialogs
 .
 *
 /
-SuppressLint
-(
-"
-InflateParams
-"
-)
 internal
 fun
 setCustomMessageView

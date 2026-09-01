@@ -167,13 +167,6 @@ background
 ?
 selectableItemBackground
 "
-tools
-:
-ignore
-=
-"
-Overdraw
-"
 >
 <
 ImageView

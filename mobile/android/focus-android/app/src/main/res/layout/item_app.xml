@@ -189,13 +189,6 @@ com
 /
 tools
 "
-tools
-:
-ignore
-=
-"
-Overdraw
-"
 android
 :
 orientation

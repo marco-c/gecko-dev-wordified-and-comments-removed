@@ -230,13 +230,6 @@ dimen
 /
 browser_fragment_toolbar_elevation
 "
-tools
-:
-ignore
-=
-"
-MozMultipleConstraintLayouts
-"
 /
 >
 <

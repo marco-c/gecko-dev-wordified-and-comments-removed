@@ -160,13 +160,6 @@ Item
 .
 Container
 "
-tools
-:
-ignore
-=
-"
-UnusedAttribute
-"
 android
 :
 foreground

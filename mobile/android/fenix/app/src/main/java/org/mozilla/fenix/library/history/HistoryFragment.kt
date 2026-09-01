@@ -69,12 +69,6 @@ history
 import
 android
 .
-annotation
-.
-SuppressLint
-import
-android
-.
 app
 .
 Dialog
@@ -4326,12 +4320,6 @@ DialogFragment
 (
 )
 {
-SuppressLint
-(
-"
-InflateParams
-"
-)
 override
 fun
 onCreateDialog

@@ -69,12 +69,6 @@ prompt
 import
 android
 .
-annotation
-.
-SuppressLint
-import
-android
-.
 os
 .
 Parcelable
@@ -146,12 +140,6 @@ request
 .
 *
 /
-SuppressLint
-(
-"
-ParcelCreator
-"
-)
 Parcelize
 data
 class

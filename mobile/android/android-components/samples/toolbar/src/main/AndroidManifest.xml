@@ -217,13 +217,6 @@ targetApi
 "
 s
 "
-tools
-:
-ignore
-=
-"
-DataExtractionRules
-"
 >
 <
 activity

@@ -10,13 +10,6 @@ media
 import
 android
 .
-annotation
-.
-SuppressLint
-;
-import
-android
-.
 media
 .
 MediaCodec
@@ -1420,12 +1413,6 @@ toString
 )
 ;
 }
-SuppressLint
-(
-"
-DiscouragedPrivateApi
-"
-)
 public
 static
 CryptoInfo

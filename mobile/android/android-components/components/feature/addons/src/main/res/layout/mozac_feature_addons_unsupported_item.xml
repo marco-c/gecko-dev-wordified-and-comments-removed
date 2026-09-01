@@ -204,13 +204,6 @@ Widgets
 .
 Favicon
 "
-tools
-:
-ignore
-=
-"
-RequiredSize
-"
 android
 :
 importantForAccessibility

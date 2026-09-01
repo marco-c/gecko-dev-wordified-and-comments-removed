@@ -69,12 +69,6 @@ dialog
 import
 android
 .
-annotation
-.
-SuppressLint
-import
-android
-.
 app
 .
 Dialog
@@ -593,12 +587,6 @@ to
 userSelectionEditText
 )
 }
-SuppressLint
-(
-"
-InflateParams
-"
-)
 private
 fun
 addLayout

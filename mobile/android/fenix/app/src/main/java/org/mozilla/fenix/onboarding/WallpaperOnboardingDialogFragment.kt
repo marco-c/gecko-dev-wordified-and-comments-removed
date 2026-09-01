@@ -67,12 +67,6 @@ onboarding
 import
 android
 .
-annotation
-.
-SuppressLint
-import
-android
-.
 app
 .
 Dialog
@@ -409,12 +403,6 @@ BottomSheetBehavior
 STATE_EXPANDED
 }
 }
-SuppressLint
-(
-"
-SourceLockedOrientationActivity
-"
-)
 override
 fun
 onCreate

@@ -67,12 +67,6 @@ digitalassetlinks
 import
 android
 .
-annotation
-.
-SuppressLint
-import
-android
-.
 content
 .
 pm
@@ -647,12 +641,6 @@ emptyArray
 return
 signatures
 }
-SuppressLint
-(
-"
-PackageManagerGetSignatures
-"
-)
 private
 fun
 PackageManagerCompatHelper

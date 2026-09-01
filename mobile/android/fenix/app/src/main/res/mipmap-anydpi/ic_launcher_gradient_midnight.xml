@@ -120,13 +120,6 @@ com
 /
 tools
 "
-tools
-:
-ignore
-=
-"
-UnusedResources
-"
 >
 <
 background

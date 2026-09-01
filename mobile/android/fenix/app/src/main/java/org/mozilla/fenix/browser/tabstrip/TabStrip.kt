@@ -69,12 +69,6 @@ tabstrip
 import
 android
 .
-annotation
-.
-SuppressLint
-import
-android
-.
 graphics
 .
 Bitmap
@@ -1667,12 +1661,6 @@ property
 of
 BoxWithConstraintsScope
 .
-SuppressLint
-(
-"
-UnusedBoxWithConstraintsScope
-"
-)
 Composable
 private
 fun

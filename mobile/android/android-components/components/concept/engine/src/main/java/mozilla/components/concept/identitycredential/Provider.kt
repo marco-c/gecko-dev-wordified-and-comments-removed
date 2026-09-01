@@ -67,12 +67,6 @@ identitycredential
 import
 android
 .
-annotation
-.
-SuppressLint
-import
-android
-.
 os
 .
 Parcelable
@@ -131,12 +125,6 @@ Provider
 .
 *
 /
-SuppressLint
-(
-"
-ParcelCreator
-"
-)
 Parcelize
 data
 class

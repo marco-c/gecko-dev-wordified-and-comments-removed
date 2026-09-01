@@ -8,13 +8,6 @@ geckoview
 import
 android
 .
-annotation
-.
-SuppressLint
-;
-import
-android
-.
 content
 .
 ContentResolver
@@ -98,12 +91,6 @@ DEFAULT_FONT_SCALE
 .
 0f
 ;
-SuppressLint
-(
-"
-StaticFieldLeak
-"
-)
 private
 static
 final

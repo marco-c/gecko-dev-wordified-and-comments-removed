@@ -69,12 +69,6 @@ wallpaper
 import
 android
 .
-annotation
-.
-SuppressLint
-import
-android
-.
 graphics
 .
 Bitmap
@@ -688,12 +682,6 @@ collection
 .
 *
 /
-SuppressLint
-(
-"
-UnusedMaterialScaffoldPaddingParameter
-"
-)
 Composable
 fun
 WallpaperSettings

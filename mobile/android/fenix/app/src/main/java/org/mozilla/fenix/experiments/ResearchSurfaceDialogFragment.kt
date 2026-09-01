@@ -67,12 +67,6 @@ experiments
 import
 android
 .
-annotation
-.
-SuppressLint
-import
-android
-.
 content
 .
 pm
@@ -249,12 +243,6 @@ Unit
 =
 {
 }
-SuppressLint
-(
-"
-SourceLockedOrientationActivity
-"
-)
 override
 fun
 onCreate

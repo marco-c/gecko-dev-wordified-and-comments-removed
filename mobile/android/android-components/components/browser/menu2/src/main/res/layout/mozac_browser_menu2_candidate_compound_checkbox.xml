@@ -211,14 +211,6 @@ gravity
 "
 center_vertical
 "
-tools
-:
-ignore
-=
-"
-DisableBaselineAlignment
-KeyboardInaccessibleWidget
-"
 >
 <
 androidx

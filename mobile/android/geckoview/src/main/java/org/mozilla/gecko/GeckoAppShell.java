@@ -6553,12 +6553,6 @@ AndroidSScreenCompat
 implements
 ScreenCompat
 {
-SuppressLint
-(
-"
-StaticFieldLeak
-"
-)
 private
 final
 SimpleArrayMap

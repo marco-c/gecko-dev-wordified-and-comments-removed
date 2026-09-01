@@ -189,13 +189,6 @@ gravity
 "
 center_vertical
 "
-tools
-:
-ignore
-=
-"
-UseCompoundDrawables
-"
 >
 <
 androidx

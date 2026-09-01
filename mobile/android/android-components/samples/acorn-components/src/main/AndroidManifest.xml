@@ -197,13 +197,6 @@ data_extraction_rules
 "
 tools
 :
-ignore
-=
-"
-DataExtractionRules
-"
-tools
-:
 targetApi
 =
 "

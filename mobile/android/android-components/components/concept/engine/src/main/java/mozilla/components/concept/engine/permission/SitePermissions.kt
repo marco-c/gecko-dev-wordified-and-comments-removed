@@ -69,12 +69,6 @@ permission
 import
 android
 .
-annotation
-.
-SuppressLint
-import
-android
-.
 os
 .
 Parcelable
@@ -127,12 +121,6 @@ state
 .
 *
 /
-SuppressLint
-(
-"
-ParcelCreator
-"
-)
 Parcelize
 data
 class

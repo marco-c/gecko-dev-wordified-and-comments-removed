@@ -67,12 +67,6 @@ addons
 import
 android
 .
-annotation
-.
-SuppressLint
-import
-android
-.
 content
 .
 Context
@@ -567,12 +561,6 @@ for
 testing
 *
 /
-SuppressLint
-(
-"
-InflateParams
-"
-)
 private
 fun
 presentDialog

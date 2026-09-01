@@ -298,13 +298,6 @@ autofillHints
 "
 username
 "
-tools
-:
-ignore
-=
-"
-UnusedAttribute
-"
 /
 >
 <
@@ -423,13 +416,6 @@ autofillHints
 =
 "
 password
-"
-tools
-:
-ignore
-=
-"
-UnusedAttribute
 "
 /
 >
