@@ -383,6 +383,13 @@ js
 ]
 [
 "
+browser_bookmarkStar_multipleBookmarks
+.
+js
+"
+]
+[
+"
 browser_bookmark_add_tags
 .
 js
@@ -960,6 +967,13 @@ js
 [
 "
 browser_library_commands
+.
+js
+"
+]
+[
+"
+browser_library_container_menu
 .
 js
 "
