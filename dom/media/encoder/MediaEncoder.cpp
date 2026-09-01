@@ -2249,8 +2249,6 @@ EncodedFrame
 >
 >
 aEncodedVideoQueue
-TrackRate
-aTrackRate
 const
 nsAString
 &
@@ -4183,7 +4181,6 @@ move
 (
 encodedVideoQueue
 )
-aTrackRate
 aMimeType
 aMaxMemory
 aTimeslice
