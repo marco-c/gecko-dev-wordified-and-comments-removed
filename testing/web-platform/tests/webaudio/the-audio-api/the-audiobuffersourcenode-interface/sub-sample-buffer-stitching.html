@@ -99,6 +99,7 @@ t
 /
 /
 Sub
+-
 sample
 stitching
 with
@@ -208,13 +209,14 @@ getChannelData
 1
 )
 ;
-assert_array_approximately_equals
+assert_array_equal_within_eps
 (
 actual
 expected
 errorThreshold
 Stitched
 sine
+-
 wave
 buffers
 at
@@ -259,6 +261,8 @@ dB
 )
 should
 be
+>
+=
 {
 snrThreshold
 }
@@ -285,6 +289,7 @@ t
 /
 /
 Sub
+-
 sample
 stitching
 with
@@ -394,13 +399,14 @@ getChannelData
 1
 )
 ;
-assert_array_approximately_equals
+assert_array_equal_within_eps
 (
 actual
 expected
 errorThreshold
 Stitched
 sine
+-
 wave
 buffers
 at
@@ -445,6 +451,8 @@ dB
 )
 should
 be
+>
+=
 {
 snrThreshold
 }
@@ -815,6 +823,7 @@ slice
 into
 the
 AudioBuffer
+'
 s
 first
 (

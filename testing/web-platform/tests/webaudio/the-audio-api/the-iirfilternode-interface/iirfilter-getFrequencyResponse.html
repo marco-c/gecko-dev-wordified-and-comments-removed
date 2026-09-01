@@ -585,7 +585,7 @@ were
 experimentally
 determined
 .
-assert_close_to_array
+assert_array_equal_within_eps
 (
 iirMag
 trueMag
@@ -596,6 +596,7 @@ trueMag
 6
 '
 1
+-
 pole
 IIR
 magnitude
@@ -613,7 +614,7 @@ response
 '
 )
 ;
-assert_close_to_array
+assert_array_equal_within_eps
 (
 iirPhase
 truePhase
@@ -624,6 +625,7 @@ truePhase
 7
 '
 1
+-
 pole
 IIR
 phase
@@ -644,6 +646,7 @@ response
 }
 '
 1
+-
 pole
 IIR
 getFrequencyResponse
@@ -845,7 +848,7 @@ were
 experimentally
 determined
 .
-assert_close_to_array
+assert_array_equal_within_eps
 (
 iirMag
 biquadMag
@@ -871,7 +874,7 @@ response
 '
 )
 ;
-assert_close_to_array
+assert_array_equal_within_eps
 (
 iirPhase
 biquadPhase
@@ -1124,7 +1127,9 @@ NaN
 }
 '
 Out
+-
 of
+-
 range
 frequency
 values
