@@ -7551,9 +7551,6 @@ this
 .
 onTabRemovedImpl
 (
-event
-.
-tab
 )
 ;
 break

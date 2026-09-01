@@ -82,6 +82,13 @@ browser
 /
 components
 /
+tabbrowser
+/
+-
+browser
+/
+components
+/
 urlbar
 /
 -
