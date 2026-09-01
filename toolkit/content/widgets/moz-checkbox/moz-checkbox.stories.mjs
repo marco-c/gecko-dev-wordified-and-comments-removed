@@ -348,6 +348,7 @@ description
 hasSlottedDescription
 accesskey
 supportPage
+title
 hasSlottedSupportLink
 nestedFields
 ellipsized
@@ -427,6 +428,17 @@ page
 ifDefined
 (
 supportPage
+)
+}
+title
+=
+{
+ifDefined
+(
+title
+|
+|
+null
 )
 }
 value
@@ -696,6 +708,10 @@ iconSrc
 "
 "
 description
+:
+"
+"
+title
 :
 "
 "

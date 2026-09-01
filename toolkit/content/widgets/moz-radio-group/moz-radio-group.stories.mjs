@@ -847,6 +847,7 @@ showAccesskeys
 accesskeys
 supportPage
 groupSupportPage
+title
 hasSlottedSupportLinks
 groupSlottedSupportLink
 nestedFields
@@ -1044,6 +1045,17 @@ ifDefined
 supportPage
 )
 }
+title
+=
+{
+ifDefined
+(
+title
+|
+|
+null
+)
+}
 class
 =
 {
@@ -1211,6 +1223,10 @@ supportPage
 "
 "
 groupSupportPage
+:
+"
+"
+title
 :
 "
 "

@@ -751,6 +751,7 @@ l10nId
 description
 supportPage
 accessKey
+title
 hasSlottedDescription
 useOtherOptions
 options
@@ -863,6 +864,17 @@ accesskey
 ifDefined
 (
 accessKey
+|
+|
+null
+)
+}
+title
+=
+{
+ifDefined
+(
+title
 |
 |
 null
@@ -1111,6 +1123,10 @@ supportPage
 "
 "
 accessKey
+:
+"
+"
+title
 :
 "
 "

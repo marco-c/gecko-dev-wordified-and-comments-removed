@@ -341,6 +341,7 @@ ariaLabel
 l10nId
 supportPage
 accessKey
+title
 iconSrc
 hasSlottedSupportLink
 nestedFields
@@ -415,6 +416,17 @@ accesskey
 ifDefined
 (
 accessKey
+)
+}
+title
+=
+{
+ifDefined
+(
+title
+|
+|
+null
 )
 }
 support
@@ -662,6 +674,10 @@ hasSupportLink
 :
 false
 accessKey
+:
+"
+"
+title
 :
 "
 "
