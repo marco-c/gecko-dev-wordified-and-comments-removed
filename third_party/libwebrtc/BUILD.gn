@@ -3380,9 +3380,6 @@ pc
 webrtc_sdp
 "
 "
-stats
-"
-"
 video
 "
 ]
@@ -3533,9 +3530,6 @@ rtc_pc
 pc
 :
 webrtc_sdp
-"
-"
-stats
 "
 ]
 }

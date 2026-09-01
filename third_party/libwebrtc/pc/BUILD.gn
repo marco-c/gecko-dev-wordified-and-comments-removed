@@ -7306,14 +7306,6 @@ rtc_base
 :
 checks
 "
-"
-.
-.
-/
-stats
-:
-rtc_stats
-"
 ]
 }
 rtc_library
