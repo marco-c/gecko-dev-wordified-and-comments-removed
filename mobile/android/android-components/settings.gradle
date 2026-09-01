@@ -258,17 +258,6 @@ mozconfig
 substs
 .
 MOZ_APPSERVICES_IN_TREE
-&
-&
-gradle
-.
-ext
-.
-mozconfig
-.
-substs
-.
-DOWNLOAD_ALL_GRADLE_DEPENDENCIES
 )
 {
 apply
