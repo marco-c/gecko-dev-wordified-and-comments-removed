@@ -1317,7 +1317,6 @@ MOZ_ASSERT
 (
 sBrowserParentCount
 <
-=
 INT32_MAX
 )
 ;
@@ -7196,7 +7195,7 @@ validationOptions
 ValidatePrincipalOptions
 :
 :
-AllowSystem
+AllowSystemIfLoaded
 ;
 }
 }
