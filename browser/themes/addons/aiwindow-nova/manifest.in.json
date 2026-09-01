@@ -222,6 +222,13 @@ additional_backgrounds_size
 cover
 "
 ]
+"
+backgrounds_area
+"
+:
+"
+top_toolbars
+"
 }
 "
 colors
@@ -798,6 +805,13 @@ additional_backgrounds_size
 cover
 "
 ]
+"
+backgrounds_area
+"
+:
+"
+top_toolbars
+"
 }
 "
 colors
