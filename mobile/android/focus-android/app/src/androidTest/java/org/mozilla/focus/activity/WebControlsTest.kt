@@ -508,7 +508,9 @@ waitingTime
 verifyPageURL
 (
 "
-DuckDuckGo
+example
+.
+com
 "
 )
 }
