@@ -21649,13 +21649,6 @@ if
 mFontStyleCache
 )
 {
-mFontGroupCache
-.
-reset
-(
-nullptr
-)
-;
 mFontStyleCache
 =
 MakeUnique
@@ -22742,13 +22735,6 @@ if
 mFontGroupCache
 )
 {
-mFontStyleCache
-.
-reset
-(
-nullptr
-)
-;
 mFontGroupCache
 =
 MakeUnique
