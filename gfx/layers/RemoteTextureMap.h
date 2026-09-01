@@ -587,6 +587,11 @@ return
 nullptr
 ;
 }
+void
+ClearTextureHost
+(
+)
+;
 }
 ;
 class
