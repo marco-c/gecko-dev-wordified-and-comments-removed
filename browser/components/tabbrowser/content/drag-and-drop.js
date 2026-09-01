@@ -242,9 +242,6 @@ if
 (
 !
 tab
-?
-.
-visible
 )
 {
 return
