@@ -9897,6 +9897,16 @@ SetPropertyAsACString
 (
 u
 "
+distroDesc
+"
+_ns
+desc
+)
+;
+SetPropertyAsACString
+(
+u
+"
 distroVersion
 "
 _ns
