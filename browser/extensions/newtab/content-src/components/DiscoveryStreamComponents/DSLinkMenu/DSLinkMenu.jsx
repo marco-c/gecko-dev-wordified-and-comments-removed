@@ -494,13 +494,6 @@ this
 props
 .
 tile_id
-recommendation_id
-:
-this
-.
-props
-.
-recommendation_id
 corpus_item_id
 :
 this

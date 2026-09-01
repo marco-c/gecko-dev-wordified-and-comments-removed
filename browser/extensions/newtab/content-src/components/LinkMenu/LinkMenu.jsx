@@ -420,7 +420,6 @@ event_source
 format
 is_section_followed
 received_rank
-recommendation_id
 recommended_at
 scheduled_corpus_item_id
 section_position
@@ -442,7 +441,6 @@ corpus_item_id
 event_source
 format
 received_rank
-recommendation_id
 recommended_at
 scheduled_corpus_item_id
 .

@@ -13198,9 +13198,6 @@ card_type
 "
 spoc
 "
-recommendation_id
-:
-undefined
 tile_id
 :
 448685088

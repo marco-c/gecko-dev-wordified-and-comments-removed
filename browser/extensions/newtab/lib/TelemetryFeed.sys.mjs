@@ -6672,7 +6672,6 @@ is_section_followed
 layout_name
 matches_selected_topic
 received_rank
-recommendation_id
 recommended_at
 scheduled_corpus_item_id
 section_position
@@ -6920,7 +6919,6 @@ recommended_at
 }
 :
 {
-recommendation_id
 }
 )
 }
@@ -12524,11 +12522,6 @@ recommended_at
 }
 :
 {
-recommendation_id
-:
-datum
-.
-recommendation_id
 }
 )
 }
@@ -13094,11 +13087,6 @@ recommended_at
 }
 :
 {
-recommendation_id
-:
-tile
-.
-recommendation_id
 }
 )
 }

@@ -696,11 +696,6 @@ shim
 {
 }
 )
-recommendation_id
-:
-link
-.
-recommendation_id
 corpus_item_id
 :
 link

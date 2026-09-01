@@ -616,11 +616,6 @@ card_type
 "
 organic
 "
-recommendation_id
-:
-headline
-.
-recommendation_id
 tile_id
 :
 headline
@@ -1195,11 +1190,6 @@ pos
 headline
 .
 pos
-recommendation_id
-:
-headline
-.
-recommendation_id
 corpus_item_id
 :
 headline

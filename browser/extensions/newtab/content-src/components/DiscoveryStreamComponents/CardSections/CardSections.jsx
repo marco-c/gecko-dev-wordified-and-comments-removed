@@ -3134,13 +3134,6 @@ rec
 .
 bookmarkGuid
 }
-recommendation_id
-=
-{
-rec
-.
-recommendation_id
-}
 corpus_item_id
 =
 {

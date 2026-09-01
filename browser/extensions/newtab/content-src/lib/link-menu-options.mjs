@@ -551,11 +551,6 @@ tile_id
 site
 .
 tile_id
-recommendation_id
-:
-site
-.
-recommendation_id
 scheduled_corpus_item_id
 :
 site
@@ -838,11 +833,6 @@ block_key
 {
 }
 )
-recommendation_id
-:
-site
-.
-recommendation_id
 scheduled_corpus_item_id
 :
 site

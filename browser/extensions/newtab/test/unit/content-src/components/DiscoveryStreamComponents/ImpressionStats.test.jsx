@@ -804,9 +804,6 @@ type
 "
 organic
 "
-recommendation_id
-:
-undefined
 scheduled_corpus_item_id
 :
 undefined
@@ -848,9 +845,6 @@ type
 "
 organic
 "
-recommendation_id
-:
-undefined
 scheduled_corpus_item_id
 :
 undefined
@@ -892,9 +886,6 @@ type
 "
 organic
 "
-recommendation_id
-:
-undefined
 scheduled_corpus_item_id
 :
 undefined
@@ -1437,9 +1428,6 @@ type
 "
 organic
 "
-recommendation_id
-:
-undefined
 scheduled_corpus_item_id
 :
 undefined
@@ -1481,9 +1469,6 @@ type
 "
 organic
 "
-recommendation_id
-:
-undefined
 scheduled_corpus_item_id
 :
 undefined
@@ -1525,9 +1510,6 @@ type
 "
 organic
 "
-recommendation_id
-:
-undefined
 scheduled_corpus_item_id
 :
 undefined
