@@ -458,7 +458,7 @@ state
 is
 SnackbarState
 .
-IPProtectionShowSnackbar
+IPProtectionConnectionError
 -
 >
 state
