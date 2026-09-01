@@ -1791,17 +1791,7 @@ timing_
 new
 VCMTiming
 (
-&
 env_
-.
-clock
-(
-)
-env_
-.
-field_trials
-(
-)
 TimeDelta
 :
 :
