@@ -4627,11 +4627,9 @@ run_scratch
 pattern_rect
 bounds
 :
-prim_info
+run_scratch
 .
-clip_chain
-.
-local_clip_rect
+snapped_clip_rect
 transform_id
 z
 :

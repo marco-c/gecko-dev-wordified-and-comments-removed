@@ -1944,6 +1944,11 @@ prim_data
 request_resources
 (
 pattern_rect
+prim_info
+.
+clip_chain
+.
+local_clip_rect
 &
 transform
 .
