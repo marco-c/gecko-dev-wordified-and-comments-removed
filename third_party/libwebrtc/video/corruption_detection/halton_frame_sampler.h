@@ -160,6 +160,15 @@ HaltonFrameSampler
 =
 default
 ;
+bool
+ShouldSampleFrame
+(
+bool
+is_key_frame
+uint32_t
+rtp_timestamp
+)
+;
 std
 :
 :
