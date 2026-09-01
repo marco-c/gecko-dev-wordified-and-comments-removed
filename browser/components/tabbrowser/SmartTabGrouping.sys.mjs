@@ -8034,10 +8034,15 @@ map
 a
 =
 >
+SmartTabGroupingManager
+.
+preprocessText
+(
 a
 [
 EMBED_TEXT_KEY
 ]
+)
 )
 )
 ;
