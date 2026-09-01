@@ -520,6 +520,13 @@ popDeleteTabGroupFlow
 is
 TabGroupAction
 .
+UngroupRequested
+-
+>
+state
+is
+TabGroupAction
+.
 UngroupConfirmationRequested
 -
 >

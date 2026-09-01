@@ -195,7 +195,6 @@ TabsTrayStore
 /
 *
 *
-*
 The
 default
 state
@@ -218,7 +217,6 @@ DEFAULT_SYNCED_TABS_EXPANDED_STATE
 =
 true
 /
-*
 *
 *
 Primary
@@ -1436,6 +1434,13 @@ action
 update
 .
 hasViewedTabGroupsPage
+skipUngroupConfirmation
+=
+action
+.
+update
+.
+skipUngroupConfirmation
 )
 )
 else
@@ -1732,7 +1737,6 @@ of
 the
 tabs
 .
-*
 If
 items
 are
@@ -1740,6 +1744,7 @@ identical
 in
 an
 existing
+*
 list
 their
 selection
@@ -1747,7 +1752,6 @@ state
 will
 be
 preserved
-*
 (
 pressing
 sync
@@ -1761,11 +1765,11 @@ will
 not
 reset
 your
+*
 expansion
 selections
 )
 .
-*
 If
 the
 tab
@@ -1782,6 +1786,7 @@ will
 be
 the
 default
+*
 value
 .
 *
@@ -2078,12 +2083,12 @@ expanded
 or
 collapsed
 .
-*
 The
 rest
 of
 the
 list
+*
 should
 be
 unchanged

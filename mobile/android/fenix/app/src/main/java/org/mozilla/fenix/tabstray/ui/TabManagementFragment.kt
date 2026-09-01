@@ -3195,7 +3195,7 @@ action
 =
 TabGroupAction
 .
-UngroupConfirmationRequested
+UngroupRequested
 (
 group
 =

@@ -191,7 +191,6 @@ with
 the
 set
 of
-*
 currently
 selected
 tabs
@@ -447,7 +446,6 @@ State
 /
 *
 *
-*
 Drops
 the
 last
@@ -507,7 +505,6 @@ backStack
 /
 *
 *
-*
 The
 current
 mode
@@ -526,7 +523,6 @@ interface
 Mode
 {
 /
-*
 *
 *
 A
@@ -561,7 +557,6 @@ TabsTrayItem
 Tab
 >
 /
-*
 *
 *
 A
@@ -647,7 +642,6 @@ item
 /
 *
 *
-*
 The
 default
 mode
@@ -697,7 +691,6 @@ emptySet
 /
 *
 *
-*
 The
 multi
 -
@@ -714,7 +707,6 @@ the
 set
 of
 currently
-*
 selected
 [
 TabsTrayItem
@@ -1381,8 +1373,8 @@ enabled
 which
 gates
 the
-*
 Tab
+*
 Groups
 create
 FAB
@@ -1577,6 +1569,18 @@ page
 .
 *
 property
+skipUngroupConfirmation
+Whether
+the
+ungroup
+confirmation
+dialog
+should
+be
+skipped
+.
+*
+property
 hasRecordedOnboardingImpression
 Whether
 an
@@ -1603,8 +1607,8 @@ animations
 .
 Cleared
 after
-*
 entrance
+*
 animations
 are
 played
@@ -1678,6 +1682,13 @@ Boolean
 false
 internal
 val
+skipUngroupConfirmation
+:
+Boolean
+=
+false
+internal
+val
 hasRecordedOnboardingImpression
 :
 Boolean
@@ -1702,7 +1713,6 @@ UNINITIALIZED
 /
 *
 *
-*
 State
 for
 the
@@ -1725,7 +1735,6 @@ EDIT_IN_PROGRESS
 COMPLETED
 }
 /
-*
 *
 *
 Whether
@@ -1753,7 +1762,6 @@ Page
 .
 SyncedTabs
 /
-*
 *
 *
 Whether
@@ -1997,7 +2005,6 @@ TAB_GROUP_ONBOARDING_IMPRESSION_LIMIT
 /
 *
 *
-*
 Whether
 to
 show
@@ -2042,7 +2049,6 @@ isNotEmpty
 (
 )
 /
-*
 *
 *
 Whether

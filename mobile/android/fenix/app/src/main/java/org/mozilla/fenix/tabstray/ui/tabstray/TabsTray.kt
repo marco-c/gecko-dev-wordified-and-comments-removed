@@ -2116,7 +2116,7 @@ onAction
 (
 TabGroupAction
 .
-UngroupConfirmationRequested
+UngroupRequested
 (
 group
 =

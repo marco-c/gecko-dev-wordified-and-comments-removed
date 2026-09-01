@@ -4251,6 +4251,9 @@ true
 hasViewedTabGroupsPage
 =
 true
+skipUngroupConfirmation
+=
+true
 )
 val
 result
@@ -4294,6 +4297,11 @@ hasViewedTabGroupsPage
 expectedState
 .
 hasViewedTabGroupsPage
+skipUngroupConfirmation
+=
+expectedState
+.
+skipUngroupConfirmation
 )
 )
 )
