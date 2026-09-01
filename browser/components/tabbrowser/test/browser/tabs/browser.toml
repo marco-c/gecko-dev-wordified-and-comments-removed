@@ -3005,6 +3005,13 @@ tabs
 "
 [
 "
+browser_swapBrowsers
+.
+js
+"
+]
+[
+"
 browser_switch_by_scrolling
 .
 js
