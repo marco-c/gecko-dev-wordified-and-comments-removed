@@ -3320,7 +3320,9 @@ trimmedSearchString
 let
 unescapedSearchString
 =
-UrlbarUtils
+lazy
+.
+UrlbarShared
 .
 unEscapeURIForUI
 (

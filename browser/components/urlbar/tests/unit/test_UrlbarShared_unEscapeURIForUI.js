@@ -181,7 +181,7 @@ description
 const
 result
 =
-UrlbarUtils
+UrlbarShared
 .
 unEscapeURIForUI
 (

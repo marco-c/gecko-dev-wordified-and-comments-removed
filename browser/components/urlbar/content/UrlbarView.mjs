@@ -21470,9 +21470,7 @@ url
 .
 textContent
 =
-lazy
-.
-UrlbarUtils
+UrlbarShared
 .
 prepareUrlForDisplay
 (

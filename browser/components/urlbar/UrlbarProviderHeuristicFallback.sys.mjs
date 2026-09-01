@@ -883,7 +883,9 @@ null
 let
 unescapedSearchString
 =
-UrlbarUtils
+lazy
+.
+UrlbarShared
 .
 unEscapeURIForUI
 (
@@ -1322,7 +1324,9 @@ toString
 let
 displayURL
 =
-UrlbarUtils
+lazy
+.
+UrlbarShared
 .
 prepareUrlForDisplay
 (

@@ -701,7 +701,9 @@ payload
 {
 title
 :
-UrlbarUtils
+lazy
+.
+UrlbarShared
 .
 prepareUrlForDisplay
 (

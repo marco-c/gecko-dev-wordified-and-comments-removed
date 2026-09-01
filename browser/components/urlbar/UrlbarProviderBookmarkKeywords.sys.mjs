@@ -532,7 +532,9 @@ else
 {
 title
 =
-UrlbarUtils
+lazy
+.
+UrlbarShared
 .
 prepareUrlForDisplay
 (

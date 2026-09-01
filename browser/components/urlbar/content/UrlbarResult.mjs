@@ -2039,7 +2039,7 @@ value
 will
 be
 from
-UrlbarUtils
+UrlbarShared
 .
 prepareUrlForDisplay
 (
@@ -2408,9 +2408,7 @@ isURL
 {
 value
 =
-lazy
-.
-UrlbarUtils
+UrlbarShared
 .
 prepareUrlForDisplay
 (
