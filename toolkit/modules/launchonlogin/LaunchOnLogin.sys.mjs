@@ -130,7 +130,7 @@ mjs
 UnsupportedLaunchOnLogin
 :
 "
-resouce
+resource
 :
 /
 /
