@@ -466,8 +466,10 @@ bc
 IsDiscarded
 (
 )
-&
-&
+)
+{
+if
+(
 !
 bc
 -
@@ -499,9 +501,6 @@ mAngle
 else
 if
 (
-bc
-&
-&
 !
 bc
 -
@@ -552,6 +551,7 @@ GetCurrentOrientationAngle
 )
 )
 ;
+}
 }
 return
 screenOrientation
