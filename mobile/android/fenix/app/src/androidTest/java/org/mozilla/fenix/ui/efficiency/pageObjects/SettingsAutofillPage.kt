@@ -167,6 +167,16 @@ androidx
 .
 test
 .
+espresso
+.
+Espresso
+.
+closeSoftKeyboard
+import
+androidx
+.
+test
+.
 platform
 .
 app
@@ -1442,7 +1452,7 @@ Long
 15_000L
 )
 {
-dismissSoftKeyboard
+closeSoftKeyboard
 (
 )
 waitForAppWindowToBeUpdated
