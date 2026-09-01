@@ -5074,6 +5074,27 @@ usageHoursByDate
 "
 uuid
 "
+"
+leafGroups
+"
+}
+    
+assert
+profile
+[
+"
+leafGroups
+"
+]
+=
+=
+{
+"
+Gecko
+"
+:
+[
+]
 }
     
 assert
