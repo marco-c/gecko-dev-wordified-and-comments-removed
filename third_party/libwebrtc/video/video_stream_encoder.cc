@@ -7719,6 +7719,7 @@ encoder_resolutions
 ]
 (
 )
+mutable
 {
 RTC_DCHECK_RUN_ON
 (
@@ -14431,6 +14432,7 @@ restrictions
 ]
 (
 )
+mutable
 {
 RTC_DCHECK_RUN_ON
 (
