@@ -4049,13 +4049,6 @@ html
 ]
 [
 "
-test_touchmove_once_per_target
-.
-html
-"
-]
-[
-"
 test_unbound_before_in_active_chain
 .
 html
