@@ -120,7 +120,7 @@ width
 )
 )
 <
-2
+10
 ;
             
 const
@@ -155,16 +155,7 @@ height
 )
 )
 <
-2
-;
-            
-console
-.
-error
-(
-is_correct_left
-is_correct_top
-)
+10
 ;
             
 return

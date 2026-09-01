@@ -30,8 +30,10 @@ siteCode
 VPN_TEXT
 =
 "
-403
-Forbidden
+you
+have
+been
+blocked
 "
 POPUP_CLOSE_CSS
 =

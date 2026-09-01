@@ -21,10 +21,8 @@ anda
 UNSUPPORTED_TEXT
 =
 "
-tidak
-support
-untuk
-akses
+Mozilla
+Firefox
 "
 pytest
 .
