@@ -3181,6 +3181,16 @@ a
 "
 "
 }
+{
+this
+.
+setting
+.
+controllingExtensionInfo
+.
+mayDisable
+?
+html
 <
 moz
 -
@@ -3223,6 +3233,10 @@ moz
 -
 button
 >
+:
+"
+"
+}
 <
 /
 moz

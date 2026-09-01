@@ -969,7 +969,16 @@ button
 .
 hidden
 =
-false
+!
+(
+addon
+.
+permissions
+&
+AddonManager
+.
+PERM_CAN_DISABLE
+)
 ;
 }
 elements

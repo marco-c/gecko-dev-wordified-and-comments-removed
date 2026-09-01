@@ -898,6 +898,9 @@ supportPage
 "
 preferences
 "
+mayDisable
+:
+true
 /
 /
 NOTE
