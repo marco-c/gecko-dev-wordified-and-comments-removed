@@ -272,9 +272,7 @@ third_party
 /
 libwebrtc
 /
-modules
-/
-video_coding
+video
 /
 timing
 /
