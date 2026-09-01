@@ -1198,6 +1198,8 @@ a
 T
 >
 {
+unsafe
+{
 let
 dest
 =
@@ -1257,6 +1259,7 @@ Ok
 (
 dest
 )
+}
 }
 pub
 unsafe
@@ -1328,12 +1331,15 @@ len
 )
 )
 ;
+unsafe
+{
 to_shmem_slice_ptr
 (
 src
 dest
 builder
 )
+}
 }
 impl
 <
