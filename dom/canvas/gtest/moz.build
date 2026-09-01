@@ -84,6 +84,11 @@ TestSanitizeRenderer
 .
 cpp
 "
+"
+TestWebGLTextureUploadInit
+.
+cpp
+"
 ]
 include
 (
