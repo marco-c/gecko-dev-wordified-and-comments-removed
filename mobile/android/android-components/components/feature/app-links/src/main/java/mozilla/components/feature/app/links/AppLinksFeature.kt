@@ -565,9 +565,9 @@ users
 are
 asked
 to
-*
 confirm
 their
+*
 intention
 before
 leaving
@@ -582,12 +582,12 @@ These
 include
 the
 Android
-*
 Intents
 custom
 schemes
 and
 support
+*
 for
 [
 Intent
@@ -674,10 +674,10 @@ RedirectDialogData
 .
 If
 this
-*
 is
 null
 then
+*
 [
 SimpleRedirectDialogFragment
 ]
@@ -707,9 +707,9 @@ Default
 to
 false
 because
-*
 of
 security
+*
 concerns
 .
 *
@@ -730,10 +730,10 @@ links
 that
 other
 apps
-*
 have
 registered
 to
+*
 open
 .
 *
@@ -824,7 +824,6 @@ in
 the
 prompt
 .
-*
 *
 /
 class
@@ -979,7 +978,6 @@ CoroutineScope
 =
 null
 /
-*
 *
 *
 Starts

@@ -151,6 +151,14 @@ view
 .
 WindowInsetsCompat
 import
+java
+.
+lang
+.
+ref
+.
+WeakReference
+import
 kotlinx
 .
 coroutines
@@ -206,16 +214,7 @@ android
 util
 .
 dpToPx
-import
-java
-.
-lang
-.
-ref
-.
-WeakReference
 /
-*
 *
 *
 Is
@@ -252,7 +251,6 @@ LAYOUT_DIRECTION_RTL
 /
 *
 *
-*
 Is
 the
 horizontal
@@ -285,7 +283,6 @@ View
 .
 LAYOUT_DIRECTION_LTR
 /
-*
 *
 *
 Tries
@@ -359,10 +356,10 @@ view
 attached
 to
 an
-*
 application
 -
 context
+*
 window
 such
 as
@@ -376,7 +373,6 @@ Window
 is
 reachable
 from
-*
 which
 to
 obtain
@@ -501,7 +497,6 @@ height
 /
 *
 *
-*
 Set
 a
 padding
@@ -592,10 +587,10 @@ this
 [
 View
 ]
-*
 gets
 detached
 this
+*
 [
 CoroutineScope
 ]
@@ -626,9 +621,9 @@ Dispatchers
 Main
 ]
 .
-*
 By
 default
+*
 coroutines
 dispatched
 on
@@ -668,10 +663,10 @@ the
 View
 ]
 never
-*
 gets
 attached
 this
+*
 may
 create
 a
@@ -756,7 +751,6 @@ return
 scope
 }
 /
-*
 *
 *
 Finds
@@ -868,7 +862,6 @@ the
 global
 layout
 state
-*
 or
 the
 visibility
@@ -877,6 +870,7 @@ views
 within
 the
 view
+*
 tree
 changes
 .
@@ -959,11 +953,11 @@ reducing
 verbosity
 when
 accessing
-*
 dimension
 values
 from
 a
+*
 [
 View
 ]

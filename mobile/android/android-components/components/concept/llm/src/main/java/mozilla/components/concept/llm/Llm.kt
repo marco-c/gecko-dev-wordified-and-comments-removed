@@ -166,13 +166,13 @@ g
 [
 RateLimited
 ]
-*
 [
 RequestTooLarge
 ]
 )
 to
 their
+*
 concrete
 exception
 types
@@ -183,7 +183,6 @@ type
 -
 check
 the
-*
 categories
 to
 drive
@@ -193,6 +192,7 @@ recovery
 behavior
 without
 depending
+*
 on
 any
 particular
@@ -259,7 +259,6 @@ retrying
 if
 the
 service
-*
 provided
 a
 hint
@@ -267,6 +266,7 @@ hint
 null
 if
 no
+*
 hint
 was
 given
@@ -322,11 +322,11 @@ in
 )
 before
 the
-*
 request
 can
 proceed
 .
+*
 Distinct
 from
 [
@@ -338,7 +338,6 @@ an
 already
 -
 authenticated
-*
 session
 whose
 authorization
@@ -405,7 +404,6 @@ statusCode
 Int
 }
 /
-*
 *
 *
 An
@@ -507,7 +505,6 @@ may
 subclass
 this
 to
-*
 attach
 additional
 context
@@ -515,6 +512,7 @@ context
 rate
 -
 limit
+*
 metadata
 HTTP
 status
@@ -523,7 +521,6 @@ etc
 )
 .
 Consumers
-*
 that
 need
 numeric
@@ -536,8 +533,8 @@ should
 maintain
 their
 own
-mapping
 *
+mapping
 from
 subtypes
 to
@@ -598,7 +595,6 @@ companion
 object
 {
 /
-*
 *
 *
 Create

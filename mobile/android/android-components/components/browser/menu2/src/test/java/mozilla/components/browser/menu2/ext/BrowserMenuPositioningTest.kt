@@ -105,6 +105,12 @@ runners
 .
 AndroidJUnit4
 import
+kotlin
+.
+math
+.
+roundToInt
+import
 mozilla
 .
 components
@@ -242,14 +248,7 @@ mockito
 Mockito
 .
 when
-import
-kotlin
-.
-math
-.
-roundToInt
 /
-*
 *
 *
 [
@@ -270,7 +269,6 @@ HALF_MENU_ITEM
 .
 5
 /
-*
 *
 *
 [

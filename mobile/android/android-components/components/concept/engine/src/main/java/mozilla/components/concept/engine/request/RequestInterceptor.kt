@@ -107,7 +107,6 @@ LoadUrlFlags
 /
 *
 *
-*
 Interface
 for
 classes
@@ -128,7 +127,6 @@ interface
 RequestInterceptor
 {
 /
-*
 *
 *
 An
@@ -304,7 +302,6 @@ InterceptionResponse
 /
 *
 *
-*
 Deny
 request
 without
@@ -323,7 +320,6 @@ InterceptionResponse
 /
 *
 *
-*
 An
 alternative
 response
@@ -332,7 +328,6 @@ an
 error
 request
 .
-*
 Used
 to
 load
@@ -372,7 +367,6 @@ page
 load
 to
 allow
-*
 providing
 custom
 behavior
@@ -502,7 +496,6 @@ object
 containing
 alternative
 content
-*
 or
 an
 alternative
@@ -511,12 +504,12 @@ URL
 Null
 if
 the
+*
 original
 request
 should
 continue
 to
-*
 be
 loaded
 .
@@ -609,7 +602,6 @@ engine
 related
 to
 the
-*
 type
 of
 error
@@ -639,7 +631,6 @@ to
 display
 for
 the
-*
 provided
 error
 type
@@ -680,7 +671,6 @@ RequestInterceptor
 should
 intercept
 load
-*
 requests
 initiated
 by
@@ -689,6 +679,7 @@ app
 (
 via
 direct
+*
 calls
 to
 [
@@ -698,7 +689,6 @@ loadUrl
 ]
 )
 .
-*
 All
 other
 requests
@@ -709,12 +699,12 @@ interacting
 with
 web
 content
-*
 (
 e
 .
 g
 .
+*
 following
 links
 )
@@ -736,7 +726,6 @@ requests
 should
 be
 intercepted
-*
 otherwise
 false
 .

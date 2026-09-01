@@ -87,6 +87,12 @@ room
 .
 PrimaryKey
 import
+java
+.
+util
+.
+Date
+import
 mozilla
 .
 components
@@ -234,14 +240,7 @@ UpdateAttemptEntity
 Companion
 .
 SUCCESSFULLY_UPDATED_DB
-import
-java
-.
-util
-.
-Date
 /
-*
 *
 *
 Internal

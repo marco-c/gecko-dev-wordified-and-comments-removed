@@ -102,11 +102,11 @@ t
 clash
 with
 other
-*
 file
 providers
 in
 other
+*
 components
 see
 https
@@ -142,11 +142,11 @@ xml
 /
 file_paths
 "
-*
 as
 other
 file
 providers
+*
 could
 be
 using
@@ -160,7 +160,6 @@ case
 unexpected
 behaviors
 .
-*
 As
 a
 convention
@@ -170,6 +169,7 @@ use
 unique
 names
 like
+*
 using
 the
 name
@@ -181,7 +181,6 @@ a
 prefix
 of
 the
-*
 name
 of
 the

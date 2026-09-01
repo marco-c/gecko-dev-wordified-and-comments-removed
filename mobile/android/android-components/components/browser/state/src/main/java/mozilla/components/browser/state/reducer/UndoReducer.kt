@@ -109,7 +109,6 @@ UndoReducer
 /
 *
 *
-*
 [
 UndoAction
 ]
@@ -126,7 +125,6 @@ to
 undo
 the
 removal
-*
 of
 tabs
 .

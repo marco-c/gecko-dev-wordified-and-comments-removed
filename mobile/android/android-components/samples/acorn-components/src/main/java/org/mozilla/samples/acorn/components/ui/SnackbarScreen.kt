@@ -345,7 +345,6 @@ iconsR
 /
 *
 *
-*
 Displays
 demos
 of

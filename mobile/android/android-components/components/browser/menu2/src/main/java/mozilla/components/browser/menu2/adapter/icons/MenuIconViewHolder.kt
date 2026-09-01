@@ -163,7 +163,6 @@ MenuIcon
 /
 *
 *
-*
 View
 holder
 with
@@ -283,7 +282,6 @@ T
 /
 *
 *
-*
 Inflates
 the
 layout
@@ -331,7 +329,6 @@ return
 view
 }
 /
-*
 *
 *
 Changes
@@ -383,7 +380,6 @@ parent
 /
 *
 *
-*
 Resets
 the
 layout
@@ -393,7 +389,6 @@ any
 child
 views
 .
-*
 Called
 when
 the

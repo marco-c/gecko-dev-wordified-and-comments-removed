@@ -100,10 +100,10 @@ the
 TabsTray
 ]
 .
-*
 Aggregate
 data
 type
+*
 keeping
 a
 reference

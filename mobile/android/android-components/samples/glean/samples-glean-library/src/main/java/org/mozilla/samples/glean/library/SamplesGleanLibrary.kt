@@ -89,7 +89,6 @@ Glean
 /
 *
 *
-*
 These
 are
 just
@@ -101,7 +100,6 @@ calling
 the
 Glean
 API
-*
 from
 a
 third
@@ -115,7 +113,6 @@ object
 SamplesGleanLibrary
 {
 /
-*
 *
 *
 Record
@@ -151,7 +148,6 @@ add
 )
 }
 /
-*
 *
 *
 Notate

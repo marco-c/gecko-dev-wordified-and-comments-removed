@@ -133,6 +133,12 @@ net
 .
 toUri
 import
+kotlin
+.
+coroutines
+.
+CoroutineContext
+import
 kotlinx
 .
 coroutines
@@ -348,12 +354,6 @@ support
 rustlog
 .
 RustLog
-import
-kotlin
-.
-coroutines
-.
-CoroutineContext
 open
 class
 MainActivity

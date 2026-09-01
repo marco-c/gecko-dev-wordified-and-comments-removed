@@ -223,7 +223,6 @@ KEY_PROVIDERS
 /
 *
 *
-*
 A
 Federated
 Credential
@@ -394,7 +393,6 @@ default
 /
 *
 *
-*
 Called
 when
 a
@@ -450,6 +448,7 @@ a
 SelectAccountDialogFragment
 ]
 *
+*
 param
 sessionId
 The
@@ -502,12 +501,12 @@ should
 automatically
 be
 dismissed
-*
 when
 a
 new
 page
 is
+*
 loaded
 .
 *

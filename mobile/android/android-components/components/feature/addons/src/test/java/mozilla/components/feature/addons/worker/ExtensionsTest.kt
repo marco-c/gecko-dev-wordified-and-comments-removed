@@ -67,6 +67,12 @@ addons
 .
 worker
 import
+java
+.
+io
+.
+IOException
+import
 junit
 .
 framework
@@ -106,12 +112,6 @@ org
 junit
 .
 Test
-import
-java
-.
-io
-.
-IOException
 class
 ExtensionsTest
 {

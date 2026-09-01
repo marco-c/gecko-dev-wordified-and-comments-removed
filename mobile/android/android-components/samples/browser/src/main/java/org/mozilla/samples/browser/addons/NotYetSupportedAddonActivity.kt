@@ -251,7 +251,6 @@ preview
 /
 *
 *
-*
 Activity
 for
 managing
@@ -339,7 +338,6 @@ commit
 )
 }
 /
-*
 *
 *
 Fragment
@@ -637,7 +635,6 @@ companion
 object
 {
 /
-*
 *
 *
 Create

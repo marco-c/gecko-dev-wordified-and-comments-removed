@@ -237,7 +237,6 @@ toSafeIntent
 /
 *
 *
-*
 Processor
 for
 intents
@@ -283,7 +282,6 @@ ManifestStorage
 IntentProcessor
 {
 /
-*
 *
 *
 Returns
@@ -363,11 +361,11 @@ when
 the
 user
 leaves
-*
 the
 scope
 defined
 in
+*
 the
 manifest
 .
@@ -502,7 +500,6 @@ false
 /
 *
 *
-*
 Returns
 an
 existing
@@ -571,7 +568,6 @@ startUrl
 id
 }
 /
-*
 *
 *
 Returns

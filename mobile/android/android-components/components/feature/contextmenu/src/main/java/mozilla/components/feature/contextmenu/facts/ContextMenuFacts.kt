@@ -125,7 +125,6 @@ collect
 /
 *
 *
-*
 Facts
 emitted
 for
@@ -141,7 +140,6 @@ class
 ContextMenuFacts
 {
 /
-*
 *
 *
 Items

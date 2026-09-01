@@ -99,10 +99,10 @@ used
 for
 determining
 the
-*
 best
 guess
 for
+*
 translating
 "
 from
@@ -136,10 +136,10 @@ used
 for
 determining
 the
-*
 best
 guess
 for
+*
 translating
 "
 to

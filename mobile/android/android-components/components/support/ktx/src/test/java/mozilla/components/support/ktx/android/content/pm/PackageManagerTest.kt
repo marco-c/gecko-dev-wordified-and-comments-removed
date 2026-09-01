@@ -262,7 +262,6 @@ context
 /
 *
 *
-*
 Verify
 that
 PackageManager

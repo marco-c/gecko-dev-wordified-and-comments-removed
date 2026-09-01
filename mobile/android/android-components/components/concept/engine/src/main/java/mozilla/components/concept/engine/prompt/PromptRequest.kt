@@ -79,6 +79,18 @@ net
 .
 Uri
 import
+java
+.
+security
+.
+Principal
+import
+java
+.
+util
+.
+UUID
+import
 mozilla
 .
 components
@@ -200,18 +212,6 @@ concept
 storage
 .
 LoginEntry
-import
-java
-.
-security
-.
-Principal
-import
-java
-.
-util
-.
-UUID
 /
 *
 *
@@ -272,7 +272,6 @@ a
 random
 UUID
 .
-*
 (
 This
 two
@@ -281,6 +280,7 @@ though
 present
 in
 all
+*
 subclasses
 are
 not
@@ -336,6 +336,7 @@ single
 choice
 prompt
 .
+*
 *
 property
 choices
@@ -417,6 +418,7 @@ multiple
 choice
 prompt
 .
+*
 *
 property
 choices
@@ -503,6 +505,7 @@ choice
 prompt
 .
 *
+*
 property
 choices
 All
@@ -582,6 +585,7 @@ an
 alert
 prompt
 .
+*
 *
 property
 title
@@ -701,7 +705,6 @@ the
 onbeforeunload
 prompt
 .
-*
 This
 prompt
 is
@@ -713,6 +716,7 @@ is
 leaving
 a
 website
+*
 and
 there
 is
@@ -722,11 +726,11 @@ to
 be
 saved
 .
-*
 For
 more
 information
 see
+*
 https
 :
 /
@@ -751,6 +755,7 @@ WindowEventHandlers
 /
 onbeforeunload
 .
+*
 *
 property
 title
@@ -864,6 +869,7 @@ certificate
 prompt
 .
 *
+*
 property
 host
 the
@@ -909,12 +915,12 @@ alias
 or
 null
 if
-*
 none
 was
 chosen
 )
 when
+*
 the
 user
 deals
@@ -972,6 +978,7 @@ credit
 card
 prompt
 .
+*
 *
 property
 creditCard
@@ -1067,6 +1074,7 @@ request
 prompts
 .
 *
+*
 property
 onDismiss
 callback
@@ -1125,6 +1133,7 @@ Provider
 ]
 prompt
 .
+*
 *
 property
 providers
@@ -1226,6 +1235,7 @@ Account
 ]
 prompt
 .
+*
 *
 property
 accounts
@@ -1344,6 +1354,7 @@ privacy
 policy
 prompt
 .
+*
 *
 property
 privacyPolicyUrl
@@ -1516,6 +1527,7 @@ card
 prompt
 .
 *
+*
 property
 creditCards
 a
@@ -1613,6 +1625,7 @@ save
 login
 prompt
 .
+*
 *
 property
 hint
@@ -1733,6 +1746,7 @@ select
 login
 prompt
 .
+*
 *
 property
 logins
@@ -1953,6 +1967,7 @@ address
 prompt
 .
 *
+*
 property
 address
 the
@@ -2051,6 +2066,7 @@ enter
 a
 message
 .
+*
 *
 property
 title
@@ -2202,6 +2218,7 @@ month
 and
 day
 .
+*
 *
 property
 title
@@ -2415,6 +2432,7 @@ multiple
 files
 .
 *
+*
 property
 mimeTypes
 a
@@ -2461,12 +2479,12 @@ capabilities
 should
 be
 used
-*
 such
 as
 the
 camera
 or
+*
 microphone
 .
 *
@@ -2583,7 +2601,6 @@ Dismissible
 /
 *
 *
-*
 deprecated
 Use
 the
@@ -2661,7 +2678,6 @@ object
 /
 *
 *
-*
 Default
 default
 directory
@@ -2697,7 +2713,6 @@ an
 authentication
 prompt
 .
-*
 For
 more
 related
@@ -2706,9 +2721,9 @@ take
 a
 look
 at
-*
 <
 a
+*
 href
 =
 "
@@ -2740,6 +2755,7 @@ docs
 /
 a
 >
+*
 *
 property
 uri
@@ -2827,13 +2843,13 @@ Level
 .
 NONE
 ]
-*
 [
 Level
 .
 SECURED
 ]
 and
+*
 [
 Level
 .
@@ -3030,6 +3046,7 @@ multiple
 files
 .
 *
+*
 property
 defaultColor
 true
@@ -3125,7 +3142,6 @@ pop
 pup
 prompt
 .
-*
 This
 occurs
 when
@@ -3134,9 +3150,9 @@ attempts
 to
 open
 a
+*
 new
 window
-*
 in
 a
 way
@@ -3269,7 +3285,6 @@ top
 level
 window
 .
-*
 This
 occurs
 when
@@ -3278,6 +3293,7 @@ third
 -
 party
 frame
+*
 attempts
 redirect
 the
@@ -3285,7 +3301,6 @@ top
 -
 level
 window
-*
 in
 a
 way
@@ -3414,9 +3429,9 @@ request
 for
 showing
 a
-*
 <
 a
+*
 href
 =
 "
@@ -3690,7 +3705,6 @@ to
 share
 data
 .
-*
 https
 :
 /
@@ -3705,6 +3719,7 @@ web
 -
 share
 /
+*
 *
 property
 data
@@ -3837,12 +3852,12 @@ a
 page
 needs
 resubmitting
-*
 POST
 data
 that
 has
 been
+*
 submitted
 already
 .

@@ -189,7 +189,6 @@ refresh
 throbber
 or
 not
-*
 use
 the
 [
@@ -1295,7 +1294,6 @@ secondDownEvent
 null
 }
 /
-*
 *
 *
 Wrapper

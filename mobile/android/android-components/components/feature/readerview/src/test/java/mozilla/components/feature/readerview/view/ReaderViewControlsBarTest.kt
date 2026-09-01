@@ -110,6 +110,8 @@ feature
 readerview
 .
 R
+as
+readerviewR
 import
 mozilla
 .
@@ -198,18 +200,6 @@ mockito
 Mockito
 .
 verify
-import
-mozilla
-.
-components
-.
-feature
-.
-readerview
-.
-R
-as
-readerviewR
 RunWith
 (
 AndroidJUnit4

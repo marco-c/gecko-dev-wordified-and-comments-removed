@@ -346,7 +346,6 @@ this
 /
 *
 *
-*
 A
 view
 holder
@@ -382,7 +381,6 @@ ViewHolder
 view
 )
 /
-*
 *
 *
 Allows

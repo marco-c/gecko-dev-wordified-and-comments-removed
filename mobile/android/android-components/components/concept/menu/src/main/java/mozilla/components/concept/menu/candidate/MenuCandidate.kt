@@ -69,7 +69,6 @@ candidate
 /
 *
 *
-*
 Menu
 option
 data
@@ -485,7 +484,6 @@ MenuCandidate
 /
 *
 *
-*
 Compound
 button
 types
@@ -573,7 +571,6 @@ items
 to
 display
 .
-*
 If
 null
 this

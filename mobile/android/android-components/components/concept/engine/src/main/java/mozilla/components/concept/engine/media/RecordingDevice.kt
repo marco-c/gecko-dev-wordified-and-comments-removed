@@ -138,7 +138,6 @@ Status
 /
 *
 *
-*
 Types
 of
 recording
@@ -154,7 +153,6 @@ CAMERA
 MICROPHONE
 }
 /
-*
 *
 *
 States

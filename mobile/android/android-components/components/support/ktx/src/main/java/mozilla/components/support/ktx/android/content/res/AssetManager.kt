@@ -121,7 +121,6 @@ This
 name
 can
 be
-*
 hierarchical
 .
 *

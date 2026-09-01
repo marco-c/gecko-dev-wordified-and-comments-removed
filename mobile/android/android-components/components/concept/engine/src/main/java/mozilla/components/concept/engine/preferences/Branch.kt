@@ -69,7 +69,6 @@ preferences
 /
 *
 *
-*
 Represents
 the
 preference
@@ -82,7 +81,6 @@ class
 Branch
 {
 /
-*
 *
 *
 The
@@ -127,9 +125,9 @@ preferences
 are
 a
 sensible
-*
 choice
 for
+*
 users
 or
 functionality

@@ -67,6 +67,12 @@ digitalassetlinks
 .
 ext
 import
+java
+.
+io
+.
+IOException
+import
 mozilla
 .
 components
@@ -110,12 +116,6 @@ Response
 Companion
 .
 SUCCESS
-import
-java
-.
-io
-.
-IOException
 internal
 fun
 Client

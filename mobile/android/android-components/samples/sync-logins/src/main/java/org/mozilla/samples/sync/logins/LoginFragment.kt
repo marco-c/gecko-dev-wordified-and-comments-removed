@@ -554,7 +554,6 @@ OnLoginCompleteListener
 /
 *
 *
-*
 A
 callback
 invoked

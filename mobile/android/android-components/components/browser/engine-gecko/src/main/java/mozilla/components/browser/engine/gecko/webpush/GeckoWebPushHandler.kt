@@ -91,7 +91,6 @@ GeckoRuntime
 /
 *
 *
-*
 Gecko
 -
 based
@@ -102,7 +101,6 @@ WebPushHandler
 ]
 wrapping
 the
-*
 controller
 object
 provided
@@ -125,7 +123,6 @@ GeckoRuntime
 WebPushHandler
 {
 /
-*
 *
 *
 See
@@ -159,7 +156,6 @@ message
 )
 }
 /
-*
 *
 *
 See

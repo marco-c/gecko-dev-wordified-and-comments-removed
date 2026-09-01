@@ -96,7 +96,6 @@ Share
 Target
 APIs
 .
-*
 https
 :
 /
@@ -111,6 +110,7 @@ web
 -
 share
 /
+*
 *
 property
 title

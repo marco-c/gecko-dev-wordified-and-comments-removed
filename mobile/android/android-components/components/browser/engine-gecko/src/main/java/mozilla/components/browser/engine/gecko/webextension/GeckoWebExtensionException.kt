@@ -248,10 +248,10 @@ on
 the
 extension
 like
-*
 (
 but
 not
+*
 exclusively
 )
 installing

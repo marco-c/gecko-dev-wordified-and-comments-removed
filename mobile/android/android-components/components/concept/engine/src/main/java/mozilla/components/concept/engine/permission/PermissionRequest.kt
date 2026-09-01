@@ -87,7 +87,6 @@ need
 access
 to
 protected
-*
 resources
 .
 Every
@@ -95,6 +94,7 @@ request
 must
 be
 handled
+*
 by
 either
 calling
@@ -112,7 +112,6 @@ interface
 PermissionRequest
 {
 /
-*
 *
 *
 The
@@ -136,7 +135,6 @@ String
 /
 *
 *
-*
 A
 unique
 identifier
@@ -151,7 +149,6 @@ id
 :
 String
 /
-*
 *
 *
 List
@@ -182,7 +179,6 @@ requested
 permissions
 if
 none
-*
 are
 provided
 .
@@ -225,7 +221,6 @@ provided
 predicate
 is
 true
-*
 for
 any
 of
@@ -295,7 +290,6 @@ false
 }
 }
 /
-*
 *
 *
 Rejects
@@ -369,10 +363,10 @@ been
 shown
 to
 the
-*
 user
 .
 Implementations
+*
 that
 surface
 a
@@ -386,7 +380,6 @@ once
 the
 prompt
 is
-*
 visible
 so
 that
@@ -395,6 +388,7 @@ engine
 can
 record
 the
+*
 prompt
 display
 state

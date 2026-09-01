@@ -75,7 +75,6 @@ X509Certificate
 /
 *
 *
-*
 Provides
 informational
 utility
@@ -105,7 +104,6 @@ component
 of
 the
 given
-*
 distinguished
 name
 .
@@ -113,12 +111,12 @@ If
 none
 is
 present
+*
 falls
 back
 to
 the
 organizational
-*
 unit
 and
 finally
@@ -133,9 +131,9 @@ name
 is
 null
 or
-*
 none
 of
+*
 these
 components
 are
@@ -165,7 +163,6 @@ name
 as
 a
 string
-*
 or
 null
 *
@@ -435,7 +432,6 @@ certificate
 s
 issuer
 organization
-*
 name
 .
 If
@@ -445,12 +441,12 @@ present
 falls
 back
 to
+*
 the
 organizational
 unit
 name
 and
-*
 finally
 the
 common
@@ -465,8 +461,8 @@ or
 none
 of
 these
-*
 components
+*
 are
 present
 returns
@@ -535,7 +531,6 @@ certificate
 s
 subject
 organization
-*
 name
 .
 If
@@ -545,12 +540,12 @@ present
 falls
 back
 to
+*
 the
 organizational
 unit
 name
 and
-*
 finally
 the
 common
@@ -565,8 +560,8 @@ or
 none
 of
 these
-*
 components
+*
 are
 present
 returns

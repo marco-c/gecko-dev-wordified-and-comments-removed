@@ -125,7 +125,6 @@ RECENT_APPS_TABLE
 /
 *
 *
-*
 Internal
 database
 for

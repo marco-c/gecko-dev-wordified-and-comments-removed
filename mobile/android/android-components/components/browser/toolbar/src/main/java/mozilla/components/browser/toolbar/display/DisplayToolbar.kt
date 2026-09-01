@@ -541,7 +541,6 @@ actions
 optional
 )
 :
-*
 A
 dynamic
 list
@@ -555,12 +554,12 @@ navigation
 on
 larger
 devices
-*
 (
 e
 .
 g
 .
+*
 back
 /
 forward
@@ -574,7 +573,6 @@ Indicators
 optional
 )
 :
-*
 Tracking
 protection
 indicator
@@ -593,9 +591,9 @@ show
 a
 doorhanger
 when
+*
 clicked
 .
-*
 Separator
 icon
 :
@@ -610,7 +608,6 @@ and
 below
 icons
 .
-*
 Site
 security
 indicator
@@ -620,6 +617,7 @@ e
 .
 g
 .
+*
 Lock
 icon
 )
@@ -631,7 +629,6 @@ doorhanger
 when
 clicked
 .
-*
 Empty
 indicator
 :
@@ -644,13 +641,13 @@ if
 the
 URL
 is
+*
 empty
 .
 *
 *
 URL
 :
-*
 Section
 that
 displays
@@ -670,7 +667,6 @@ actions
 optional
 )
 :
-*
 A
 dynamic
 list
@@ -698,7 +694,6 @@ actions
 optional
 )
 :
-*
 A
 list
 of
@@ -724,7 +719,6 @@ Menu
 optional
 )
 :
-*
 A
 button
 that
@@ -741,7 +735,6 @@ the
 browser
 -
 menu
-*
 component
 )
 *
@@ -751,7 +744,6 @@ Progress
 optional
 )
 :
-*
 A
 horizontal
 progress
@@ -802,7 +794,6 @@ View
 )
 {
 /
-*
 *
 *
 Enum
@@ -1007,10 +998,10 @@ integers
 which
 represent
 the
-*
 insecure
 and
 secure
+*
 colours
 respectively
 .
@@ -1148,10 +1139,10 @@ if
 tracking
 protection
 is
-*
 enabled
 and
 trackers
+*
 have
 been
 blocked
@@ -1168,10 +1159,10 @@ if
 tracking
 protection
 is
-*
 enabled
 and
 no
+*
 trackers
 have
 been
@@ -1190,10 +1181,10 @@ tracking
 protection
 is
 enabled
-*
 but
 the
 current
+*
 page
 is
 in
@@ -1218,7 +1209,6 @@ needs
 to
 be
 brought
-*
 to
 the
 user
@@ -1228,6 +1218,7 @@ attention
 .
 Like
 the
+*
 autoplay
 permission
 been
@@ -1262,7 +1253,6 @@ highlight
 Drawable
 )
 /
-*
 *
 *
 Gravity
@@ -1522,7 +1512,6 @@ mozac_browser_toolbar_permission_indicator
 /
 *
 *
-*
 Customizable
 colors
 in
@@ -1770,7 +1759,6 @@ highlight
 /
 *
 *
-*
 Customizable
 icons
 in
@@ -1890,7 +1878,6 @@ highlight
 /
 *
 *
-*
 Allows
 customization
 of
@@ -1916,7 +1903,6 @@ CharSequence
 =
 null
 /
-*
 *
 *
 Sets
@@ -2024,7 +2010,6 @@ resourceId
 }
 }
 /
-*
 *
 *
 Sets
@@ -2135,7 +2120,6 @@ resourceId
 /
 *
 *
-*
 Sets
 a
 lambda
@@ -2171,7 +2155,6 @@ onDismiss
 )
 }
 /
-*
 *
 *
 List
@@ -2235,7 +2218,6 @@ updateIndicatorVisibility
 /
 *
 *
-*
 Adds
 the
 security
@@ -2279,7 +2261,6 @@ SECURITY
 /
 *
 *
-*
 Removes
 the
 security
@@ -2318,7 +2299,6 @@ SECURITY
 }
 }
 /
-*
 *
 *
 Sets
@@ -2451,7 +2431,6 @@ goneEndMargin
 }
 }
 /
-*
 *
 *
 Whether
@@ -2612,9 +2591,9 @@ clicked
 Only
 if
 this
-*
 lambda
 returns
+*
 <
 code
 >
@@ -2632,7 +2611,6 @@ editing
 mode
 .
 Return
-*
 <
 code
 >
@@ -2646,6 +2624,7 @@ not
 switch
 to
 editing
+*
 mode
 and
 handle
@@ -2686,7 +2665,6 @@ onUrlClicked
 value
 }
 /
-*
 *
 *
 Sets
@@ -2735,7 +2713,6 @@ value
 /
 *
 *
-*
 Sets
 the
 size
@@ -2779,7 +2756,6 @@ titleTextSize
 value
 }
 /
-*
 *
 *
 Sets
@@ -2828,7 +2804,6 @@ textSize
 value
 }
 /
-*
 *
 *
 Sets
@@ -2901,10 +2876,10 @@ button
 is
 clicked
 .
-*
 The
 menu
 button
+*
 will
 only
 be
@@ -2971,11 +2946,11 @@ button
 is
 clicked
 .
-*
 The
 menu
 button
 will
+*
 only
 be
 visible
@@ -2988,7 +2963,6 @@ has
 been
 set
 .
-*
 If
 both
 a
@@ -3000,6 +2974,7 @@ controller
 are
 present
 only
+*
 the
 controller
 will
@@ -3036,7 +3011,6 @@ menuController
 value
 }
 /
-*
 *
 *
 Set
@@ -3365,7 +3339,6 @@ requestLayout
 /
 *
 *
-*
 Updates
 the
 title
@@ -3403,7 +3376,6 @@ title
 value
 }
 /
-*
 *
 *
 Updates
@@ -3475,7 +3447,6 @@ content
 is
 being
 displayed
-*
 sets
 the
 site
@@ -3483,6 +3454,7 @@ site
 s
 info
 as
+*
 secure
 if
 true
@@ -3699,7 +3671,6 @@ displayed
 Accessibility
 note
 :
-*
 ProgressBars
 can
 be
@@ -3727,9 +3698,9 @@ those
 events
 into
 percentage
-*
 announcements
 along
+*
 with
 a
 pitch
@@ -3745,7 +3716,6 @@ that
 feature
 here
 for
-*
 several
 reasons
 :
@@ -3769,12 +3739,12 @@ be
 a
 short
 process
-*
 and
 since
 we
 only
 update
+*
 the
 bar
 a
@@ -3787,7 +3757,6 @@ often
 never
 fire
 and
-*
 they
 don
 '
@@ -3800,6 +3769,7 @@ true
 sense
 of
 the
+*
 progress
 .
 *
@@ -3822,12 +3792,12 @@ This
 prevents
 the
 event
-*
 from
 being
 fired
 so
 the
+*
 user
 never
 gets
@@ -3853,7 +3823,6 @@ the
 user
 will
 hear
-*
 "
 Progress
 bar
@@ -3864,6 +3833,7 @@ bar
 For
 a
 common
+*
 feature
 like
 page
@@ -3891,12 +3861,12 @@ useful
 percentage
 utterance
 but
-*
 TalkBack
 will
 not
 play
 an
+*
 earcon
 if
 an
@@ -3924,11 +3894,11 @@ a
 loading
 "
 announcement
-*
 when
 the
 progress
 bar
+*
 first
 appears
 along
@@ -3939,7 +3909,6 @@ that
 have
 the
 same
-*
 pitch
 -
 change
@@ -3951,6 +3920,7 @@ although
 they
 are
 a
+*
 bit
 louder
 )
@@ -3960,7 +3930,6 @@ gives
 a
 concise
 and
-*
 consistent
 feedback
 to
@@ -3972,7 +3941,6 @@ can
 depend
 on
 .
-*
 *
 /
 internal
@@ -4203,10 +4171,10 @@ actions
 have
 changed
 and
-*
 should
 be
 updated
+*
 if
 needed
 .
@@ -4270,11 +4238,11 @@ of
 the
 URL
 bounding
-*
 box
 )
 in
 display
+*
 mode
 .
 *
@@ -4298,14 +4266,12 @@ moved
 to
 an
 overflow
-*
 menu
 .
 *
 *
 Related
 :
-*
 https
 :
 /
@@ -4371,12 +4337,12 @@ addBrowserAction
 If
 the
 provided
-*
 action
 was
 never
 added
 this
+*
 method
 has
 no
@@ -4433,12 +4399,12 @@ addBrowserAction
 If
 the
 provided
-*
 action
 was
 never
 added
 this
+*
 method
 has
 no
@@ -4500,7 +4466,6 @@ mode
 *
 Related
 :
-*
 https
 :
 /
@@ -4570,11 +4535,11 @@ area
 is
 usually
 used
-*
 on
 larger
 devices
 for
+*
 navigation
 actions
 like
@@ -4628,11 +4593,11 @@ addNavigationAction
 If
 the
 provided
-*
 action
 was
 never
 added
+*
 this
 method
 has
@@ -4673,7 +4638,6 @@ action
 /
 *
 *
-*
 Hides
 the
 menu
@@ -4699,7 +4663,6 @@ true
 )
 }
 /
-*
 *
 *
 Shows
@@ -4728,7 +4691,6 @@ false
 )
 }
 /
-*
 *
 *
 Sets
@@ -4781,7 +4743,6 @@ this
 }
 }
 /
-*
 *
 *
 Internal

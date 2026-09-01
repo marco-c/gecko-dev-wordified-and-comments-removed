@@ -111,7 +111,6 @@ list
 of
 CrashIDs
 coming
-*
 from
 Remote
 Settings
@@ -119,11 +118,11 @@ and
 in
 charge
 of
+*
 performing
 the
 correct
 AppStore
-*
 dispatch
 for
 proper
@@ -144,12 +143,12 @@ charge
 of
 performing
 the
-*
 heavy
 lifting
 of
 dispatching
 the
+*
 CrashIDs
 to
 the

@@ -225,11 +225,11 @@ requests
 .
 This
 allows
-*
 the
 Gecko
 runtime
 to
+*
 call
 the
 underlying
@@ -241,13 +241,13 @@ for
 fetching
 saving
 and
-*
 updating
 of
 autocomplete
 items
 in
 the
+*
 storage
 .
 *
@@ -261,10 +261,10 @@ of
 CreditCardsAddressesStorageDelegate
 ]
 .
-*
 Provides
 methods
 for
+*
 retrieving
 [
 CreditCard
@@ -285,7 +285,6 @@ of
 LoginStorageDelegate
 ]
 .
-*
 Provides
 read
 /
@@ -296,6 +295,7 @@ the
 [
 Login
 ]
+*
 storage
 .
 *

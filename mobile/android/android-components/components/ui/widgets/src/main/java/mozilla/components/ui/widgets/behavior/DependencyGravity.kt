@@ -69,7 +69,6 @@ behavior
 /
 *
 *
-*
 Where
 the
 dynamic
@@ -93,7 +92,6 @@ DependencyGravity
 /
 *
 *
-*
 The
 view
 is
@@ -113,7 +111,6 @@ Top
 :
 DependencyGravity
 /
-*
 *
 *
 The

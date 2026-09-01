@@ -249,9 +249,9 @@ EngineSession
 ]
 instance
 for
-*
 actions
 like
+*
 [
 EngineAction
 .
@@ -1246,13 +1246,13 @@ action
 If
 the
 tab
-*
 does
 not
 have
 an
 engine
 session
+*
 yet
 a
 new
@@ -1263,7 +1263,6 @@ created
 by
 dispatching
 a
-*
 [
 EngineAction
 .
@@ -1276,9 +1275,9 @@ provided
 action
 ]
 will
+*
 be
 dispatched
-*
 as
 a
 follow

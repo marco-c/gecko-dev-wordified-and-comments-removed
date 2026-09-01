@@ -506,11 +506,11 @@ unsent
 crashes
 being
 sent
-*
 in
 on
 nightly
 was
+*
 unexpectedly
 high
 .
@@ -525,7 +525,6 @@ when
 we
 turned
 the
-*
 feature
 on
 in
@@ -533,6 +532,7 @@ the
 Release
 channel
 we
+*
 decided
 to
 only
@@ -545,10 +545,8 @@ new
 as
 the
 feature
-*
 itself
 .
-*
 This
 timestamp
 is
@@ -558,6 +556,7 @@ Mon
 Aug
 18
 2026
+*
 00
 :
 00
@@ -575,7 +574,6 @@ START_OF_154_NIGHTLY_TIMESTAMP
 =
 1787070240000L
 /
-*
 *
 *
 *
@@ -613,7 +611,6 @@ install
 (
 )
 :
-*
 *
 Kotlin
 *
@@ -690,7 +687,6 @@ Disable
 crash
 reporting
 .
-*
 *
 param
 services
@@ -797,13 +793,13 @@ app
 confirmation
 UI
 before
-*
 sending
 a
 crash
 report
 .
 See
+*
 component
 README
 for
@@ -1188,7 +1184,6 @@ defined
 /
 *
 *
-*
 Install
 this
 [
@@ -1308,10 +1303,10 @@ Defaults
 to
 the
 start
-*
 of
 the
 Fenix
+*
 134
 cycle
 when
@@ -1368,7 +1363,6 @@ the
 crash
 reporter
 that
-*
 have
 not
 been
@@ -1390,10 +1384,10 @@ Defaults
 to
 the
 start
-*
 of
 the
 Fenix
+*
 134
 cycle
 when
@@ -1514,7 +1508,6 @@ toCrash
 /
 *
 *
-*
 Get
 a
 copy
@@ -1541,7 +1534,6 @@ copy
 )
 }
 /
-*
 *
 *
 Submit
@@ -1715,7 +1707,6 @@ then
 /
 *
 *
-*
 Submit
 a
 crash
@@ -1821,7 +1812,6 @@ then
 }
 }
 /
-*
 *
 *
 Submit
@@ -2012,7 +2002,6 @@ breadcrumb
 /
 *
 *
-*
 Set
 whether
 telemetry
@@ -2061,11 +2050,11 @@ persisted
 locally
 along
 with
-*
 relevant
 runtime
 tags
 and
+*
 this
 function
 will
@@ -2076,7 +2065,6 @@ send
 a
 report
 automatically
-*
 prompt
 the
 user
@@ -2086,6 +2074,7 @@ a
 report
 or
 do
+*
 nothing
 .
 *
@@ -3087,7 +3076,6 @@ Prompt
 /
 *
 *
-*
 Never
 prompt
 the
@@ -3105,7 +3093,6 @@ NEVER
 /
 *
 *
-*
 Only
 prompt
 the
@@ -3119,7 +3106,6 @@ crashes
 /
 ONLY_NATIVE_CRASH
 /
-*
 *
 *
 Always
@@ -3138,7 +3124,6 @@ reports
 ALWAYS
 }
 /
-*
 *
 *
 Configuration
@@ -3255,9 +3240,9 @@ requireInstance
 is
 accessed
 .
-*
 This
 allows
+*
 processes
 to
 register
@@ -3267,11 +3252,11 @@ setup
 without
 immediately
 initializing
-*
 the
 CrashReporter
 and
 its
+*
 dependencies
 .
 *
@@ -3292,11 +3277,11 @@ and
 is
 primarily
 for
-*
 cases
 where
 we
 access
+*
 the
 crash
 database
@@ -3435,7 +3420,6 @@ onCreate
 /
 *
 *
-*
 A
 base
 class
@@ -3469,7 +3453,6 @@ cause
 )
 {
 /
-*
 *
 *
 Stacktrace

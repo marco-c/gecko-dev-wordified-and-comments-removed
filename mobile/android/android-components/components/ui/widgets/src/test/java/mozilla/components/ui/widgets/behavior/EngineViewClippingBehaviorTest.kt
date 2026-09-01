@@ -117,6 +117,12 @@ runners
 .
 AndroidJUnit4
 import
+kotlin
+.
+math
+.
+roundToInt
+import
 mozilla
 .
 components
@@ -240,12 +246,6 @@ mockito
 Mockito
 .
 verify
-import
-kotlin
-.
-math
-.
-roundToInt
 RunWith
 (
 AndroidJUnit4

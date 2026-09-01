@@ -125,10 +125,10 @@ runs
 handleErrorBlock
 ]
 .
-*
 If
 that
 lambda
+*
 throws
 an
 FxA
@@ -416,11 +416,11 @@ via
 [
 default
 ]
-*
 block
 for
 use
 in
+*
 case
 of
 errors
@@ -492,7 +492,6 @@ it
 /
 *
 *
-*
 Helper
 method
 that
@@ -552,7 +551,6 @@ true
 )
 }
 /
-*
 *
 *
 Simplified
@@ -695,13 +693,13 @@ on
 eventual
 )
 success
-*
 or
 [
 Result
 .
 Failure
 ]
+*
 otherwise
 .
 *
@@ -857,10 +855,10 @@ case
 it
 fails
 .
-*
 Short
 -
 circuits
+*
 execution
 if
 [

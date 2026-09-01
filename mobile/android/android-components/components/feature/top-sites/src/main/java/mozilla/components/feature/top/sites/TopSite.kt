@@ -69,7 +69,6 @@ sites
 /
 *
 *
-*
 A
 top
 site

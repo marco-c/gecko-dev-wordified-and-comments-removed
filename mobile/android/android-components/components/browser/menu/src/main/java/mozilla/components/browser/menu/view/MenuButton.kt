@@ -512,9 +512,9 @@ getHighlight
 [
 setHighlight
 ]
-*
 calls
 when
+*
 [
 setHighlightStatus
 ]
@@ -559,10 +559,10 @@ highlightStatusTrigger
 This
 is
 to
-*
 avoid
 observing
 the
+*
 flow
 multiple
 times
@@ -585,7 +585,6 @@ MenuController
 Observer
 {
 /
-*
 *
 *
 Change
@@ -657,7 +656,6 @@ onDismiss
 /
 *
 *
-*
 Listener
 called
 when
@@ -693,7 +691,6 @@ Unit
 {
 }
 /
-*
 *
 *
 Listener
@@ -743,7 +740,6 @@ for
 the
 menu
 .
-*
 This
 is
 called
@@ -755,10 +751,10 @@ should
 be
 displayed
 .
-*
 This
 has
 no
+*
 effect
 when
 a
@@ -869,7 +865,6 @@ findViewTreeLifecycleOwner
 ]
 '
 s
-*
 lifecycle
 scope
 and
@@ -877,6 +872,7 @@ it
 is
 set
 in
+*
 [
 onAttachedToWindow
 ]
@@ -945,12 +941,12 @@ button
 is
 clicked
 .
-*
 If
 present
 [
 menuBuilder
 ]
+*
 will
 be
 ignored
@@ -1007,7 +1003,6 @@ this
 )
 }
 /
-*
 *
 *
 Sets
@@ -1204,7 +1199,6 @@ internalObserver
 /
 *
 *
-*
 Shows
 the
 menu
@@ -1351,7 +1345,6 @@ onShow
 /
 *
 *
-*
 Show
 the
 indicator
@@ -1383,7 +1376,6 @@ context
 )
 )
 /
-*
 *
 *
 Show
@@ -1496,7 +1488,6 @@ GONE
 /
 *
 *
-*
 Sets
 the
 tint
@@ -1530,7 +1521,6 @@ color
 /
 *
 *
-*
 Dismiss
 the
 menu
@@ -1560,7 +1550,6 @@ dismiss
 /
 *
 *
-*
 Invalidates
 the
 [
@@ -1586,7 +1575,6 @@ invalidate
 /
 *
 *
-*
 Check
 the
 current
@@ -1598,7 +1586,6 @@ exists
 for
 highlight
 effect
-*
 and
 apply
 it
@@ -1655,7 +1642,6 @@ set
 highlight
 status
 using
-*
 [
 highlightStatusTrigger
 ]
@@ -1679,8 +1665,8 @@ call
 [
 setHighlightStatus
 ]
-*
 multiple
+*
 times
 in
 quick
@@ -1847,13 +1833,13 @@ highlightView
 ]
 '
 s
-*
 or
 [
 notificationIconView
 ]
 '
 s
+*
 visibility
 to
 infer

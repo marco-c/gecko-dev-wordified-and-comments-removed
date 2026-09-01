@@ -200,11 +200,11 @@ value
 when
 invoked
 .
-*
 All
 active
 sessions
 are
+*
 automatically
 updated
 with
@@ -234,7 +234,6 @@ BrowserStore
 /
 *
 *
-*
 Updates
 the
 tracking
@@ -248,7 +247,6 @@ future
 [
 EngineSession
 ]
-*
 instances
 .
 *

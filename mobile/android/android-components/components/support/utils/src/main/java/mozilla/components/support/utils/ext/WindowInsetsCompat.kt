@@ -109,7 +109,6 @@ systemBars
 /
 *
 *
-*
 Returns
 the
 top
@@ -145,7 +144,6 @@ displayCutout
 .
 top
 /
-*
 *
 *
 Returns
@@ -185,7 +183,6 @@ right
 /
 *
 *
-*
 Returns
 the
 left
@@ -223,7 +220,6 @@ left
 /
 *
 *
-*
 Returns
 the
 bottom
@@ -259,7 +255,6 @@ displayCutout
 .
 bottom
 /
-*
 *
 *
 Returns

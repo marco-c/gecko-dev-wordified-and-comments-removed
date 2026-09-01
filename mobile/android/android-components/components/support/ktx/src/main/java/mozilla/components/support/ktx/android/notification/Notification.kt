@@ -120,6 +120,7 @@ channel
 exists
 .
 *
+*
 param
 context
 A
@@ -148,11 +149,11 @@ that
 gives
 you
 the
-*
 opportunity
 to
 apply
 any
+*
 setup
 on
 the
@@ -176,10 +177,10 @@ that
 gives
 you
 the
-*
 opportunity
 to
 perform
+*
 any
 operation
 on
@@ -291,7 +292,6 @@ channelDate
 id
 }
 /
-*
 *
 *
 Wraps

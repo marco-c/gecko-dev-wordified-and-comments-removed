@@ -411,7 +411,6 @@ LoadUrlUseCase
 /
 *
 *
-*
 Contains
 use
 cases
@@ -452,7 +451,6 @@ IO
 /
 *
 *
-*
 Contract
 for
 use
@@ -468,7 +466,6 @@ interface
 SelectTabUseCase
 {
 /
-*
 *
 *
 Select
@@ -506,7 +503,6 @@ BrowserStore
 SelectTabUseCase
 {
 /
-*
 *
 *
 Marks
@@ -548,7 +544,6 @@ tabId
 /
 *
 *
-*
 Contract
 for
 use
@@ -577,7 +572,6 @@ ID
 .
 This
 method
-*
 has
 no
 effect
@@ -653,7 +647,6 @@ ID
 .
 This
 method
-*
 has
 no
 effect
@@ -688,7 +681,6 @@ select
 the
 parent
 tab
-*
 of
 the
 removed
@@ -698,12 +690,12 @@ a
 parent
 exists
 .
+*
 Note
 that
 the
 default
 implementation
-*
 of
 this
 method
@@ -716,9 +708,9 @@ and
 never
 select
 a
+*
 parent
 .
-*
 This
 is
 a
@@ -730,10 +722,10 @@ additional
 API
 breakage
 for
-*
 subtypes
 other
 than
+*
 [
 DefaultRemoveTabUseCase
 ]
@@ -741,7 +733,6 @@ DefaultRemoveTabUseCase
 The
 default
 implementation
-*
 should
 be
 removed
@@ -803,7 +794,6 @@ excludedTabIds
 /
 *
 *
-*
 Default
 implementation
 of
@@ -841,7 +831,6 @@ ID
 .
 This
 method
-*
 has
 no
 effect
@@ -930,7 +919,6 @@ ID
 .
 This
 method
-*
 has
 no
 effect
@@ -965,7 +953,6 @@ select
 the
 parent
 tab
-*
 of
 the
 removed
@@ -1098,7 +1085,6 @@ URL
 this
 is
 the
-*
 original
 user
 input
@@ -1106,6 +1092,7 @@ before
 any
 fixups
 were
+*
 applied
 to
 it
@@ -1317,7 +1304,6 @@ it
 represents
 an
 active
-*
 search
 (
 result
@@ -1352,7 +1338,6 @@ in
 case
 this
 tab
-*
 was
 opened
 from
@@ -1408,7 +1393,6 @@ URL
 this
 is
 the
-*
 original
 user
 input
@@ -1416,6 +1400,7 @@ before
 any
 fixups
 were
+*
 applied
 to
 it
@@ -1744,7 +1729,6 @@ id
 /
 *
 *
-*
 Use
 case
 for
@@ -1779,6 +1763,7 @@ list
 of
 tabs
 .
+*
 *
 param
 ids
@@ -1867,6 +1852,7 @@ all
 tabs
 .
 *
+*
 param
 recoverable
 Indicates
@@ -1906,7 +1892,6 @@ recoverable
 /
 *
 *
-*
 Use
 case
 for
@@ -1935,7 +1920,6 @@ BrowserStore
 )
 {
 /
-*
 *
 *
 Removes
@@ -1969,7 +1953,6 @@ RemoveAllNormalTabsAction
 /
 *
 *
-*
 Use
 case
 for
@@ -1993,7 +1976,6 @@ BrowserStore
 )
 {
 /
-*
 *
 *
 Removes
@@ -2022,7 +2004,6 @@ RemoveAllPrivateTabsAction
 /
 *
 *
-*
 Use
 case
 for
@@ -2048,7 +2029,6 @@ BrowserStore
 )
 {
 /
-*
 *
 *
 Restores
@@ -2080,7 +2060,6 @@ RestoreRecoverableTabs
 }
 }
 /
-*
 *
 *
 Use
@@ -2392,12 +2371,12 @@ SessionStorage
 .
 Also
 dispatches
-*
 [
 RestoreCompleteAction
 ]
 on
 the
+*
 [
 BrowserStore
 ]
@@ -2432,13 +2411,13 @@ milliseconds
 after
 which
 inactive
-*
 tabs
 will
 be
 discarded
 and
 not
+*
 restored
 .
 Defaults
@@ -2447,7 +2426,6 @@ Long
 .
 MAX_VALUE
 meaning
-*
 all
 tabs
 will
@@ -2552,7 +2530,6 @@ RestoreCompleteAction
 /
 *
 *
-*
 Restores
 the
 given
@@ -2569,7 +2546,6 @@ if
 updateSelection
 ]
 is
-*
 true
 .
 *
@@ -2642,7 +2618,6 @@ id
 /
 *
 *
-*
 Use
 case
 for
@@ -2689,12 +2664,12 @@ HistoryMetadataKey
 ]
 or
 otherwise
-*
 creates
 a
 new
 tab
 with
+*
 the
 given
 [
@@ -2903,10 +2878,10 @@ of
 the
 url
 while
-*
 comparing
 with
 existing
+*
 tabs
 .
 *
@@ -3089,7 +3064,6 @@ id
 /
 *
 *
-*
 Use
 case
 for
@@ -3126,7 +3100,6 @@ including
 history
 )
 and
-*
 selects
 it
 if
@@ -3134,6 +3107,7 @@ if
 selectNewTab
 ]
 is
+*
 true
 .
 *
@@ -3331,7 +3305,6 @@ id
 /
 *
 *
-*
 Use
 case
 for
@@ -3417,12 +3390,12 @@ placed
 after
 the
 target
-*
 False
 for
 placing
 before
 the
+*
 target
 .
 Irrelevant
@@ -3436,7 +3409,6 @@ the
 tabs
 being
 moved
-*
 since
 then
 the
@@ -3445,6 +3417,7 @@ list
 is
 moved
 to
+*
 where
 the
 target
@@ -3455,7 +3428,6 @@ of
 the
 moved
 tabs
-*
 relative
 to
 each
@@ -3549,12 +3521,12 @@ next
 to
 .
 This
-*
 may
 be
 null
 and
 will
+*
 result
 in
 a
@@ -3664,12 +3636,12 @@ avoid
 the
 scenario
 where
-*
 private
 tabs
 are
 parented
 by
+*
 non
 -
 private
@@ -3683,7 +3655,6 @@ a
 move
 "
 operation
-*
 but
 instead
 more
@@ -3876,7 +3847,6 @@ id
 /
 *
 *
-*
 Use
 case
 for
@@ -3967,7 +3937,6 @@ group
 }
 }
 /
-*
 *
 *
 Use
@@ -4087,7 +4056,6 @@ group
 /
 *
 *
-*
 Use
 case
 for
@@ -4179,7 +4147,6 @@ group
 /
 *
 *
-*
 Use
 case
 for
@@ -4242,12 +4209,12 @@ the
 corresponding
 tab
 is
-*
 already
 in
 the
 group
 it
+*
 won
 '
 t
@@ -4334,7 +4301,6 @@ is
 already
 in
 the
-*
 group
 it
 won
@@ -4342,6 +4308,7 @@ won
 t
 be
 added
+*
 again
 .
 *
@@ -4385,7 +4352,6 @@ tabIds
 }
 }
 /
-*
 *
 *
 Use

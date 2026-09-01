@@ -95,8 +95,8 @@ that
 want
 to
 handle
-*
 the
+*
 [
 Activity
 .

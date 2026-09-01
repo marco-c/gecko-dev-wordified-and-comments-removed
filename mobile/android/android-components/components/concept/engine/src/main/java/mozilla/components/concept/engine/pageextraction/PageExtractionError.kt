@@ -124,7 +124,6 @@ extraction
 is
 null
 .
-*
 There
 should
 not
@@ -134,6 +133,7 @@ case
 where
 a
 null
+*
 result
 is
 received
@@ -214,10 +214,10 @@ we
 receive
 a
 result
-*
 but
 the
 expected
+*
 identifier
 is
 missing

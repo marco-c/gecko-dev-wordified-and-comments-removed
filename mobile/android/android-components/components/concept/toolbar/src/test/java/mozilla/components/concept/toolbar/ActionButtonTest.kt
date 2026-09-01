@@ -83,6 +83,12 @@ runners
 .
 AndroidJUnit4
 import
+kotlin
+.
+test
+.
+assertNotNull
+import
 mozilla
 .
 components
@@ -138,12 +144,6 @@ junit
 runner
 .
 RunWith
-import
-kotlin
-.
-test
-.
-assertNotNull
 RunWith
 (
 AndroidJUnit4

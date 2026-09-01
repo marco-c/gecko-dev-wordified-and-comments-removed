@@ -158,11 +158,11 @@ dependency
 up
 /
 down
-*
 depending
 on
 scroll
 data
+*
 exposed
 by
 [

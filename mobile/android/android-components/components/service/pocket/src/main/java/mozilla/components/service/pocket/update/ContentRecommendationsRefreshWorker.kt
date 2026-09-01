@@ -124,10 +124,10 @@ of
 the
 content
 recommendations
-*
 by
 fetching
 and
+*
 persisting
 the
 recommendations

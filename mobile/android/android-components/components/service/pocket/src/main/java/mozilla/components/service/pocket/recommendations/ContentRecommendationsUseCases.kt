@@ -167,11 +167,11 @@ context
 to
 limit
 the
-*
 possibility
 of
 even
 small
+*
 leaks
 .
 *
@@ -223,7 +223,6 @@ ContentRecommendationsRequestConfig
 /
 *
 *
-*
 Get
 the
 list
@@ -246,7 +245,6 @@ appContext
 )
 }
 /
-*
 *
 *
 Fetches
@@ -276,7 +274,6 @@ client
 )
 }
 /
-*
 *
 *
 Updates
@@ -341,11 +338,11 @@ context
 to
 limit
 the
-*
 possibility
 of
 even
 small
+*
 leaks
 .
 *
@@ -371,7 +368,6 @@ appContext
 )
 {
 /
-*
 *
 *
 Returns
@@ -444,11 +440,11 @@ context
 to
 limit
 the
-*
 possibility
 of
 even
 small
+*
 leaks
 .
 *
@@ -525,7 +521,6 @@ config
 /
 *
 *
-*
 Fetches
 content
 recommendations
@@ -540,7 +535,6 @@ and
 stores
 the
 items
-*
 in
 storage
 .
@@ -616,7 +610,6 @@ a
 list
 of
 content
-*
 recommendations
 .
 *
@@ -635,11 +628,11 @@ context
 to
 limit
 the
-*
 possibility
 of
 even
 small
+*
 leaks
 .
 *
@@ -682,7 +675,6 @@ the
 provided
 list
 of
-*
 [
 ContentRecommendation
 ]
@@ -703,7 +695,6 @@ that
 have
 an
 updated
-*
 impressions
 .
 *

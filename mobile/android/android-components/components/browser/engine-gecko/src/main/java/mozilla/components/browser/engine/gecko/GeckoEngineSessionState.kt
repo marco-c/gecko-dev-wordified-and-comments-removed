@@ -79,6 +79,12 @@ util
 .
 JsonWriter
 import
+java
+.
+io
+.
+IOException
+import
 mozilla
 .
 components
@@ -108,12 +114,6 @@ mozilla
 geckoview
 .
 GeckoSession
-import
-java
-.
-io
-.
-IOException
 private
 const
 val
@@ -225,7 +225,6 @@ null
 )
 }
 /
-*
 *
 *
 Creates

@@ -79,7 +79,6 @@ AwesomeBar
 /
 *
 *
-*
 [
 BrowserAction
 ]
@@ -104,7 +103,6 @@ BrowserAction
 )
 {
 /
-*
 *
 *
 Indicates
@@ -138,7 +136,6 @@ AwesomeBarAction
 (
 )
 /
-*
 *
 *
 Indicates
@@ -211,8 +208,8 @@ either
 clicking
 on
 a
-*
 suggestion
+*
 or
 entering
 a

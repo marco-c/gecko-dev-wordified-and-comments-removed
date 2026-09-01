@@ -414,7 +414,6 @@ for
 IO
 operations
 like
-*
 downloading
 and
 the
@@ -424,6 +423,7 @@ old
 cached
 files
 .
+*
 Defaults
 to
 IO

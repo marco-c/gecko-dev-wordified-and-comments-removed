@@ -121,7 +121,11 @@ mozilla
 .
 geckoview
 .
-GeckoResult
+Autocomplete
+.
+AddressStructure
+as
+GeckoAddressStructure
 import
 org
 .
@@ -129,13 +133,8 @@ mozilla
 .
 geckoview
 .
-Autocomplete
-.
-AddressStructure
-as
-GeckoAddressStructure
+GeckoResult
 /
-*
 *
 *
 Interface

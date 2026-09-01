@@ -113,7 +113,6 @@ RecentApp
 /
 *
 *
-*
 The
 activityName
 of
@@ -128,7 +127,6 @@ activityName
 :
 String
 /
-*
 *
 *
 The

@@ -416,7 +416,6 @@ of
 the
 popup
 .
-*
 [
 CFRPopupShape
 ]
@@ -436,6 +435,7 @@ dismiss
 X
 "
 )
+*
 button
 .
 *
@@ -505,12 +505,12 @@ the
 indicator
 arrow
 .
-*
 If
 there
 isn
 '
 t
+*
 enough
 space
 this
@@ -537,12 +537,12 @@ also
 if
 the
 dismissal
-*
 was
 explicit
 -
 by
 tapping
+*
 the
 "
 X
@@ -572,9 +572,9 @@ be
 used
 as
 maximum
-*
 width
 when
+*
 alignment
 is
 set

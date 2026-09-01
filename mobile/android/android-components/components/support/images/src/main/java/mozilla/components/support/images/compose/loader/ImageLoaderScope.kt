@@ -105,6 +105,14 @@ painter
 .
 Painter
 import
+java
+.
+util
+.
+concurrent
+.
+TimeUnit
+import
 mozilla
 .
 components
@@ -124,14 +132,6 @@ support
 images
 .
 DesiredSize
-import
-java
-.
-util
-.
-concurrent
-.
-TimeUnit
 /
 *
 *
@@ -170,7 +170,6 @@ ImageLoaderState
 >
 }
 /
-*
 *
 *
 Renders
@@ -235,7 +234,6 @@ painter
 /
 *
 *
-*
 Renders
 the
 inner
@@ -294,7 +292,6 @@ content
 }
 }
 /
-*
 *
 *
 Renders

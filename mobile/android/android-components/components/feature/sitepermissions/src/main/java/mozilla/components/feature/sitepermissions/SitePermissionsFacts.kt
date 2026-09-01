@@ -127,7 +127,6 @@ collect
 /
 *
 *
-*
 Facts
 emitted
 for
@@ -145,7 +144,6 @@ class
 SitePermissionsFacts
 {
 /
-*
 *
 *
 Specific

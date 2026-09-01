@@ -69,7 +69,6 @@ sites
 /
 *
 *
-*
 Contains
 use
 cases
@@ -91,7 +90,6 @@ TopSitesStorage
 )
 {
 /
-*
 *
 *
 Add
@@ -173,7 +171,6 @@ isDefault
 /
 *
 *
-*
 Remove
 a
 top
@@ -234,7 +231,6 @@ topSite
 )
 }
 /
-*
 *
 *
 Update

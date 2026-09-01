@@ -217,7 +217,6 @@ resolveAttribute
 /
 *
 *
-*
 Apply
 container
 styles
@@ -266,7 +265,6 @@ isEnabled
 }
 }
 /
-*
 *
 *
 Apply
@@ -342,7 +340,6 @@ textAlignment
 }
 }
 /
-*
 *
 *
 Set
@@ -456,7 +453,6 @@ it
 }
 }
 /
-*
 *
 *
 Build

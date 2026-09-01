@@ -249,7 +249,6 @@ additional_note
 /
 *
 *
-*
 [
 DialogFragment
 ]
@@ -674,7 +673,6 @@ object
 /
 *
 *
-*
 Create
 a
 new
@@ -779,7 +777,6 @@ fragment
 }
 }
 /
-*
 *
 *
 RecyclerView
@@ -901,7 +898,6 @@ position
 }
 }
 /
-*
 *
 *
 View

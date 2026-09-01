@@ -85,7 +85,6 @@ from
 a
 string
 .
-*
 Used
 to
 strip
@@ -98,6 +97,7 @@ input
 of
 spaces
 and
+*
 separators
 .
 *
@@ -161,7 +161,6 @@ by
 checking
 for
 malformed
-*
 percent
 -
 encoding
@@ -169,6 +168,7 @@ encoding
 If
 the
 string
+*
 contains
 a
 '
@@ -180,7 +180,6 @@ is
 not
 followed
 by
-*
 two
 valid
 hexadecimal
@@ -203,10 +202,10 @@ discount
 %
 "
 )
+*
 it
 is
 treated
-*
 as
 already
 decoded
@@ -231,7 +230,6 @@ percent
 -
 encoding
 ;
-*
 otherwise
 the
 original

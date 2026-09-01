@@ -249,7 +249,6 @@ this
 module
 so
 the
-*
 full
 set
 of
@@ -257,6 +256,7 @@ MLPA
 failure
 modes
 is
+*
 exhaustively
 known
 here
@@ -264,13 +264,13 @@ while
 remaining
 open
 to
-*
 categorisation
 against
 the
 concept
 -
 level
+*
 [
 mozilla
 .
@@ -282,7 +282,6 @@ llm
 .
 CloudFailure
 ]
-*
 categories
 .
 *
@@ -291,7 +290,6 @@ sealed
 interface
 MlpaError
 /
-*
 *
 *
 Thrown
@@ -1041,7 +1039,6 @@ object
 /
 *
 *
-*
 Preconfigured
 MLPA
 configuration
@@ -1081,9 +1078,7 @@ dev
 -
 mozilla
 .
-global
-.
-ssl
+freetls
 .
 fastly
 .
@@ -1091,7 +1086,6 @@ net
 "
 )
 /
-*
 *
 *
 Preconfigured
@@ -1132,9 +1126,7 @@ prod
 -
 mozilla
 .
-global
-.
-ssl
+freetls
 .
 fastly
 .
@@ -1369,7 +1361,6 @@ MlpaService
 AuthenticationService
 ChatService
 /
-*
 *
 *
 Service
@@ -1626,7 +1617,6 @@ Int
 )
 }
 /
-*
 *
 *
 Service
@@ -2044,7 +2034,6 @@ String
 /
 *
 *
-*
 Supported
 message
 roles
@@ -2057,7 +2046,6 @@ class
 Role
 {
 /
-*
 *
 *
 A
@@ -2078,7 +2066,6 @@ user
 )
 User
 /
-*
 *
 *
 A

@@ -136,11 +136,11 @@ out
 in
 pixels
 .
-*
 Extremely
 large
 images
 are
+*
 suspicious
 and
 should
@@ -164,11 +164,11 @@ being
 thrown
 out
 .
-*
 A
 lower
 scale
 factor
+*
 results
 in
 less

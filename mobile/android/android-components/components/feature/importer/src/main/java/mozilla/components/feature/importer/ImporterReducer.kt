@@ -139,7 +139,6 @@ SelectingFile
 /
 *
 *
-*
 Reduces
 the
 given

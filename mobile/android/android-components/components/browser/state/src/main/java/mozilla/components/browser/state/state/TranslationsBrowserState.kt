@@ -148,7 +148,6 @@ and
 should
 be
 shown
-*
 to
 the
 user
@@ -220,13 +219,13 @@ language
 code
 and
 its
-*
 [
 LanguageSetting
 ]
 to
 represent
 the
+*
 automatic
 language
 settings
@@ -257,7 +256,6 @@ the
 translations
 engine
 .
-*
 See
 [
 TranslationsState
@@ -265,6 +263,7 @@ TranslationsState
 translationError
 ]
 for
+*
 session
 level
 errors

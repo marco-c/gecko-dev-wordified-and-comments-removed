@@ -69,7 +69,6 @@ lexer
 /
 *
 *
-*
 Helper
 class
 for
@@ -120,7 +119,6 @@ Int
 /
 *
 *
-*
 Marks
 the
 current
@@ -141,7 +139,6 @@ mark
 position
 }
 /
-*
 *
 *
 Emits
@@ -177,7 +174,6 @@ position
 /
 *
 *
-*
 Move
 the
 current
@@ -206,7 +202,6 @@ position
 steps
 }
 /
-*
 *
 *
 Returns
@@ -295,7 +290,6 @@ true
 /
 *
 *
-*
 Returns
 the
 string
@@ -355,7 +349,6 @@ steps
 /
 *
 *
-*
 Returns
 the
 character
@@ -377,7 +370,6 @@ value
 position
 ]
 /
-*
 *
 *
 Returns
@@ -406,7 +398,6 @@ value
 .
 length
 /
-*
 *
 *
 Returns
@@ -451,7 +442,6 @@ position
 steps
 ]
 /
-*
 *
 *
 Returns

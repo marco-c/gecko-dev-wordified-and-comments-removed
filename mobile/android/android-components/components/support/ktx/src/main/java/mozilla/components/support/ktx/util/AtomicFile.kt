@@ -85,12 +85,6 @@ util
 .
 JsonWriter
 import
-org
-.
-json
-.
-JSONException
-import
 java
 .
 io
@@ -120,6 +114,12 @@ java
 io
 .
 Writer
+import
+org
+.
+json
+.
+JSONException
 /
 *
 *
@@ -139,6 +139,7 @@ its
 content
 .
 *
+*
 param
 block
 A
@@ -156,7 +157,6 @@ provides
 the
 content
 as
-*
 a
 [
 String
@@ -165,6 +165,7 @@ String
 It
 is
 expected
+*
 that
 this
 function
@@ -175,7 +176,6 @@ version
 of
 the
 content
-*
 of
 the
 file
@@ -276,6 +276,7 @@ was
 wrote
 .
 *
+*
 param
 block
 A
@@ -360,7 +361,6 @@ block
 for
 writing
 JSON
-*
 directly
 to
 the
@@ -433,7 +433,6 @@ flush
 /
 *
 *
-*
 Opens
 the
 [
@@ -455,7 +454,6 @@ for
 reading
 JSON
 from
-*
 the
 file
 .
@@ -557,7 +555,6 @@ block
 ]
 for
 writing
-*
 directly
 to
 the

@@ -100,11 +100,11 @@ suitable
 for
 displaying
 in
-*
 a
 save
 -
 confirmation
+*
 prompt
 .
 Empty

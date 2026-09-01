@@ -111,6 +111,12 @@ app
 .
 AppCompatActivity
 import
+kotlin
+.
+coroutines
+.
+CoroutineContext
+import
 kotlinx
 .
 coroutines
@@ -422,12 +428,6 @@ support
 rusthttp
 .
 RustHttpConfig
-import
-kotlin
-.
-coroutines
-.
-CoroutineContext
 const
 val
 CLIENT_ID

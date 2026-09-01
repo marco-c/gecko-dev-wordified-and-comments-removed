@@ -123,6 +123,12 @@ qrcode
 .
 QRCodeWriter
 import
+java
+.
+nio
+.
+ByteBuffer
+import
 mozilla
 .
 components
@@ -170,12 +176,6 @@ mockito
 Mockito
 .
 when
-import
-java
-.
-nio
-.
-ByteBuffer
 RunWith
 (
 AndroidJUnit4

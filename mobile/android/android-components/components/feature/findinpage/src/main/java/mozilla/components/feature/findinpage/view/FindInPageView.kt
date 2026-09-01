@@ -89,7 +89,6 @@ FindResultState
 /
 *
 *
-*
 An
 interface
 for
@@ -114,7 +113,6 @@ interface
 FindInPageView
 {
 /
-*
 *
 *
 Listener
@@ -194,7 +192,6 @@ Boolean
 /
 *
 *
-*
 Displays
 the
 given
@@ -216,7 +213,6 @@ result
 FindResultState
 )
 /
-*
 *
 *
 Requests
@@ -242,7 +238,6 @@ focus
 /
 *
 *
-*
 Clears
 the
 UI
@@ -255,7 +250,6 @@ clear
 (
 )
 /
-*
 *
 *
 Casts

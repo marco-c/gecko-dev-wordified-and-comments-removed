@@ -221,10 +221,10 @@ WebExtensionBrowserMenu
 ]
 to
 add
-*
 web
 extension
 browser
+*
 actions
 in
 a
@@ -239,7 +239,6 @@ no
 web
 extensions
 installed
-*
 and
 param
 showAddonsInMenu
@@ -247,6 +246,7 @@ is
 true
 the
 web
+*
 extension
 menu
 item
@@ -316,9 +316,9 @@ a
 [
 WebExtensionPlaceholderMenuItem
 ]
-*
 to
 specify
+*
 the
 place
 the
@@ -336,7 +336,6 @@ web
 extension
 sub
 menu
-*
 appear
 at
 the
@@ -345,6 +344,7 @@ top
 start
 )
 of
+*
 the
 menu
 false
@@ -359,7 +359,6 @@ of
 the
 menu
 .
-*
 Default
 to
 false
@@ -372,6 +371,7 @@ is
 also
 used
 to
+*
 decide
 the
 back
@@ -476,7 +476,6 @@ endOfMenuAlwaysVisible
 )
 {
 /
-*
 *
 *
 Builds
@@ -1013,7 +1012,6 @@ addonsMenuItem
 }
 }
 /
-*
 *
 *
 Allows

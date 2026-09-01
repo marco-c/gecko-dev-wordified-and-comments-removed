@@ -724,9 +724,9 @@ in
 length
 specifying
 for
-*
 the
 corresponding
+*
 image
 the
 dimensions
@@ -758,7 +758,6 @@ ordering
 Header
 format
 :
-*
 *
 *
 0
@@ -1014,7 +1013,6 @@ used
 for
 Favicons
 .
-*
 *
 *
 Icon
@@ -1479,11 +1477,11 @@ is
 used
 .
 Zero
-*
 if
 the
 payload
 is
+*
 a
 PNG
 or
@@ -1518,11 +1516,11 @@ than
 are
 to
 be
-*
 interpreted
 not
 as
 a
+*
 colour
 plane
 count
@@ -1538,7 +1536,6 @@ per
 pixel
 field
 .
-*
 (
 Apparently
 65535
@@ -1546,6 +1543,7 @@ was
 not
 deemed
 a
+*
 sufficiently
 large
 maximum

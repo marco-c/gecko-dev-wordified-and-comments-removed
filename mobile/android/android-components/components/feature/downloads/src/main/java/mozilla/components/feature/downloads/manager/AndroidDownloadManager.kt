@@ -199,6 +199,12 @@ util
 .
 set
 import
+java
+.
+io
+.
+File
+import
 mozilla
 .
 components
@@ -350,12 +356,6 @@ utils
 ext
 .
 registerReceiverCompat
-import
-java
-.
-io
-.
-File
 typealias
 SystemDownloadManager
 =
@@ -520,6 +520,7 @@ the
 AndroidDownloadManager
 ]
 .
+*
 *
 param
 download
@@ -755,7 +756,6 @@ toLong
 /
 *
 *
-*
 Remove
 all
 the
@@ -843,12 +843,12 @@ and
 removes
 the
 queued
-*
 download
 if
 it
 '
 s
+*
 complete
 .
 *

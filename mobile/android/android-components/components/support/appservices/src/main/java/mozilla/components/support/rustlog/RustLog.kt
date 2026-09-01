@@ -170,7 +170,6 @@ are
 forwarded
 to
 any
-*
 LogSinks
 attached
 to
@@ -193,7 +192,6 @@ ForwardOnLog
 )
 }
 /
-*
 *
 *
 Disable
@@ -234,7 +232,6 @@ Log
 ]
 .
 By
-*
 default
 the
 max
@@ -258,7 +255,6 @@ logLevel
 and
 a
 stricter
-*
 filter
 on
 Log
@@ -269,8 +265,8 @@ take
 precedence
 here
 )
-however
 *
+however
 setting
 the
 max
@@ -282,7 +278,6 @@ performance
 a
 great
 deal
-*
 as
 it
 allows
@@ -292,6 +287,7 @@ code
 to
 skip
 a
+*
 great
 deal
 of
@@ -309,7 +305,6 @@ allows
 enabling
 logs
 at
-*
 the
 trace
 level
@@ -321,6 +316,7 @@ if
 level
 is
 not
+*
 [
 Log
 .
@@ -329,7 +325,6 @@ Priority
 DEBUG
 ]
 .
-*
 These
 trace
 level
@@ -342,11 +337,11 @@ personal
 information
 of
 users
-*
 but
 can
 be
 very
+*
 helpful
 for
 tracking
@@ -382,7 +377,6 @@ Priority
 DEBUG
 ]
 allow
-*
 debug
 logs
 to

@@ -256,6 +256,7 @@ MenuCandidate
 objects
 .
 *
+*
 param
 visibleSide
 Sets
@@ -611,7 +612,6 @@ null
 /
 *
 *
-*
 Re
 -
 opens
@@ -624,7 +624,6 @@ given
 nested
 list
 .
-*
 No
 -
 op
@@ -758,7 +757,6 @@ nested
 /
 *
 *
-*
 Dismiss
 the
 menu
@@ -788,7 +786,6 @@ dismiss
 )
 }
 /
-*
 *
 *
 Changes
@@ -986,7 +983,6 @@ null
 )
 }
 /
-*
 *
 *
 Show

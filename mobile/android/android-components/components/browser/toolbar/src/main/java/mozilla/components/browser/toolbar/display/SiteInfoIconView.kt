@@ -117,7 +117,6 @@ SiteInfo
 /
 *
 *
-*
 Internal
 widget
 to
@@ -131,7 +130,6 @@ info
 relies
 on
 the
-*
 [
 SiteInfo
 ]

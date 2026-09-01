@@ -137,7 +137,6 @@ BrowserToolbarMenu
 /
 *
 *
-*
 Actions
 that
 can
@@ -252,9 +251,9 @@ to
 handle
 this
 button
-*
 being
 long
+*
 clicked
 .
 *
@@ -442,9 +441,9 @@ to
 handle
 this
 button
-*
 being
 long
+*
 clicked
 .
 *
@@ -519,7 +518,6 @@ Action
 /
 *
 *
-*
 An
 enum
 class
@@ -566,8 +564,8 @@ that
 upon
 pressed
 will
-*
 automatically
+*
 show
 a
 dropdown
@@ -582,7 +580,6 @@ menu
 ]
 configuration
 .
-*
 This
 wraps
 the
@@ -593,6 +590,7 @@ icon
 at
 the
 start
+*
 with
 a
 down
@@ -602,7 +600,6 @@ it
 '
 s
 end
-*
 to
 indicate
 that
@@ -717,7 +714,6 @@ Action
 /
 *
 *
-*
 The
 image
 to
@@ -799,7 +795,6 @@ Icon
 /
 *
 *
-*
 The
 [
 DrawableRes
@@ -831,7 +826,6 @@ Icon
 /
 *
 *
-*
 The
 text
 that
@@ -847,7 +841,6 @@ interface
 Text
 {
 /
-*
 *
 *
 The
@@ -876,7 +869,6 @@ String
 :
 Text
 /
-*
 *
 *
 The
@@ -912,7 +904,6 @@ Text
 /
 *
 *
-*
 The
 content
 description
@@ -926,7 +917,6 @@ interface
 ContentDescription
 {
 /
-*
 *
 *
 The
@@ -957,7 +947,6 @@ String
 :
 ContentDescription
 /
-*
 *
 *
 The
@@ -1011,7 +1000,6 @@ to
 the
 toolbar
 .
-*
 This
 shows
 the
@@ -1020,6 +1008,7 @@ provided
 count
 ]
 number
+*
 inside
 of
 a
@@ -1031,7 +1020,6 @@ than
 otherwise
 it
 will
-*
 show
 an
 infinity
@@ -1041,6 +1029,7 @@ of
 the
 same
 squircle
+*
 shape
 .
 *
@@ -1083,11 +1072,11 @@ a
 top
 right
 icon
-*
 signaling
 that
 the
 tabs
+*
 are
 private
 .
@@ -1119,9 +1108,9 @@ to
 handle
 this
 button
-*
 being
 long
+*
 clicked
 .
 *
@@ -1182,9 +1171,9 @@ textResId
 label
 then
 animates
-*
 away
 into
+*
 regular
 action
 button

@@ -219,7 +219,6 @@ to
 performSearch
 ]
 and
-*
 then
 consumes
 them
@@ -246,10 +245,10 @@ to
 a
 source
 of
-*
 SearchRequests
 .
 See
+*
 [
 mozilla
 .
@@ -265,7 +264,6 @@ SelectionActionDelegate
 ]
 for
 use
-*
 in
 generating
 SearchRequests

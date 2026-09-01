@@ -89,7 +89,6 @@ to
 Rust
 errors
 to
-*
 customize
 how
 the
@@ -107,7 +106,6 @@ if
 exceptions
 implement
 this
-*
 interface
 .
 If
@@ -117,6 +115,7 @@ should
 try
 to
 customize
+*
 their
 crash
 reports

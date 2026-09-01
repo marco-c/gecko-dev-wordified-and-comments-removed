@@ -103,7 +103,6 @@ components
 /
 *
 *
-*
 Activity
 responsible
 for

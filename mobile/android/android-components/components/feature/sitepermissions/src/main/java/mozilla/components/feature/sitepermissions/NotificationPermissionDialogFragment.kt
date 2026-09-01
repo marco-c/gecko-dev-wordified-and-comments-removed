@@ -192,7 +192,6 @@ access
 is
 required
 .
-*
 It
 is
 intended
@@ -200,6 +199,7 @@ to
 be
 shown
 when
+*
 the
 application
 has
@@ -211,7 +211,6 @@ level
 permission
 but
 also
-*
 needs
 the
 corresponding
@@ -385,7 +384,6 @@ dismiss
 /
 *
 *
-*
 Static
 functionality
 of
@@ -399,7 +397,6 @@ companion
 object
 {
 /
-*
 *
 *
 A

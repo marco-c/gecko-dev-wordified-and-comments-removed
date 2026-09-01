@@ -104,10 +104,10 @@ stays
 in
 the
 same
-*
 region
 for
 an
+*
 extended
 time
 .
@@ -130,13 +130,13 @@ frequently
 and
 may
 eventually
-*
 become
 the
 new
 "
 home
 "
+*
 region
 after
 some
@@ -162,7 +162,6 @@ companion
 object
 {
 /
-*
 *
 *
 The

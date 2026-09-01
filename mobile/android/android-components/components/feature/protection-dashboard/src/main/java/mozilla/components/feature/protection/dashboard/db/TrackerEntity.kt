@@ -95,7 +95,6 @@ column
 per
 category
 .
-*
 Used
 for
 time
@@ -105,6 +104,7 @@ queries
 (
 daily
 weekly
+*
 monthly
 yearly
 all
@@ -206,7 +206,6 @@ column
 per
 category
 .
-*
 Used
 for
 per
@@ -214,6 +213,7 @@ per
 site
 statistics
 and
+*
 "
 top
 blocked

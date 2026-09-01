@@ -377,7 +377,6 @@ placesHistory
 /
 *
 *
-*
 Implementation
 of
 the
@@ -475,10 +474,10 @@ to
 decouple
 this
 functionality
-*
 from
 the
 history
+*
 suggestions
 feature
 and
@@ -1275,9 +1274,9 @@ it
 will
 prevent
 deleted
-*
 history
 from
+*
 returning
 .
 *
@@ -1318,7 +1317,6 @@ deleteEverything
 /
 *
 *
-*
 Sync
 behaviour
 :
@@ -1335,7 +1333,6 @@ visits
 were
 the
 only
-*
 ones
 for
 a
@@ -1383,7 +1380,6 @@ since
 /
 *
 *
-*
 Sync
 behaviour
 :
@@ -1400,7 +1396,6 @@ visits
 were
 the
 only
-*
 ones
 for
 a
@@ -1450,7 +1445,6 @@ endTime
 }
 }
 /
-*
 *
 *
 Sync
@@ -1526,9 +1520,9 @@ for
 url
 ]
 .
-*
 Otherwise
 remote
+*
 devices
 are
 not
@@ -1593,10 +1587,10 @@ that
 prunes
 database
 entries
-*
 when
 it
 exceeds
+*
 [
 PlacesHistoryStorageWorker
 .

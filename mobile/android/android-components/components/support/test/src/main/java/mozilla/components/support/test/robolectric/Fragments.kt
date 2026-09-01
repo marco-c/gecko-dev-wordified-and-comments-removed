@@ -152,7 +152,6 @@ the
 Activity
 .
 *
-*
 return
 The
 same
@@ -172,7 +171,6 @@ got
 added
 to
 the
-*
 Activity
 .
 *
@@ -283,7 +281,6 @@ the
 Activity
 .
 *
-*
 return
 The
 same
@@ -303,7 +300,6 @@ got
 added
 to
 the
-*
 Activity
 .
 *

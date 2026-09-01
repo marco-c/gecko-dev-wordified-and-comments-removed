@@ -85,6 +85,14 @@ annotation
 .
 WorkerThread
 import
+java
+.
+util
+.
+concurrent
+.
+Executors
+import
 kotlinx
 .
 coroutines
@@ -234,14 +242,6 @@ android
 content
 .
 pixelSizeFor
-import
-java
-.
-util
-.
-concurrent
-.
-Executors
 private
 const
 val
@@ -285,7 +285,6 @@ isPrivate
 true
 )
 /
-*
 *
 *
 Thumbnail
@@ -386,7 +385,6 @@ context
 /
 *
 *
-*
 Clears
 all
 the
@@ -438,7 +436,6 @@ context
 /
 *
 *
-*
 Deletes
 the
 given
@@ -457,7 +454,6 @@ session
 ID
 or
 url
-*
 as
 its
 key
@@ -522,7 +518,6 @@ sessionIdOrUrl
 }
 }
 /
-*
 *
 *
 Asynchronously
@@ -718,7 +713,6 @@ null
 /
 *
 *
-*
 Stores
 the
 given
@@ -736,7 +730,6 @@ provided
 [
 ImageLoadRequest
 ]
-*
 as
 its
 key

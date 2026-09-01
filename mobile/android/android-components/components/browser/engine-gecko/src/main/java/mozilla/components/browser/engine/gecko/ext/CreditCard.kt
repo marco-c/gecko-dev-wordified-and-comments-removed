@@ -99,7 +99,6 @@ Autocomplete
 /
 *
 *
-*
 Converts
 a
 GeckoView
@@ -163,7 +162,6 @@ name
 "
 )
 /
-*
 *
 *
 Converts

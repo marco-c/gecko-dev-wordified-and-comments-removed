@@ -253,7 +253,6 @@ BrowserAction
 ]
 s
 to
-*
 [
 ReaderAction
 ]
@@ -270,10 +269,10 @@ is
 updated
 a
 new
+*
 "
 readerable
 "
-*
 check
 should
 be

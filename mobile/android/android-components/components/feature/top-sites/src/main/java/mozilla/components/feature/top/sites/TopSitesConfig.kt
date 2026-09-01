@@ -93,7 +93,6 @@ sites
 to
 display
 and
-*
 whether
 or
 not
@@ -102,6 +101,7 @@ include
 top
 frecent
 sites
+*
 in
 the
 top
@@ -135,11 +135,11 @@ that
 specifies
 which
 top
-*
 frecent
 sites
 should
 be
+*
 included
 .
 *
@@ -155,12 +155,12 @@ that
 specifies
 whether
 or
-*
 not
 to
 fetch
 top
 sites
+*
 from
 the
 [
@@ -261,10 +261,10 @@ of
 top
 sites
 are
-*
 below
 the
 maximum
+*
 threshold
 .
 *
@@ -358,8 +358,8 @@ sites
 with
 a
 frecency
-*
 score
+*
 above
 the
 given
@@ -374,7 +374,6 @@ top
 site
 results
 are
-*
 not
 included
 .

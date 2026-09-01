@@ -89,6 +89,12 @@ os
 .
 Parcelable
 import
+java
+.
+util
+.
+ArrayList
+import
 mozilla
 .
 components
@@ -126,12 +132,6 @@ utils
 ext
 .
 getParcelableExtraCompat
-import
-java
-.
-util
-.
-ArrayList
 /
 *
 *
@@ -152,7 +152,6 @@ crash
 :
 in
 defense
-*
 we
 wrap
 [
@@ -160,6 +159,7 @@ Intent
 ]
 and
 catch
+*
 the
 exceptions
 they
@@ -172,7 +172,6 @@ throw
 See
 bug
 1090385
-*
 for
 more
 .
@@ -466,7 +465,6 @@ with
 putExtra
 (
 )
-*
 or
 null
 if
@@ -476,6 +474,7 @@ value
 was
 found
 .
+*
 *
 param
 name
@@ -543,16 +542,17 @@ with
 putParcelableArrayListExtra
 (
 )
-*
 or
 null
 if
 no
 ArrayList
 value
+*
 was
 found
 .
+*
 *
 param
 name
@@ -733,7 +733,6 @@ default
 }
 }
 /
-*
 *
 *
 Returns

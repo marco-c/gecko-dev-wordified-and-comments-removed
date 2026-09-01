@@ -97,7 +97,6 @@ Choice
 /
 *
 *
-*
 Converts
 a
 GeckoView
@@ -170,6 +169,7 @@ to
 Choice
 array
 .
+*
 *
 return
 array

@@ -115,7 +115,6 @@ collect
 /
 *
 *
-*
 Facts
 emitted
 for
@@ -162,8 +161,8 @@ login
 .
 PasswordGeneratorDialogFragment
 ]
-*
 was
+*
 interacted
 with
 *

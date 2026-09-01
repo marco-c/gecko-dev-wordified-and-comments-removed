@@ -166,15 +166,14 @@ encrypts
 /
 decrypts
 prefs
-*
 using
 a
 key
+*
 managed
 by
 AndroidKeyStore
 .
-*
 If
 device
 is
@@ -245,10 +244,10 @@ is
 reset
 and
 the
-*
 experiment
 starts
 from
+*
 scratch
 .
 *
@@ -275,9 +274,9 @@ of
 failure
 )
 .
-*
 A
 special
+*
 "
 experiment
 "
@@ -483,7 +482,6 @@ MODE_PRIVATE
 )
 }
 /
-*
 *
 *
 Runs

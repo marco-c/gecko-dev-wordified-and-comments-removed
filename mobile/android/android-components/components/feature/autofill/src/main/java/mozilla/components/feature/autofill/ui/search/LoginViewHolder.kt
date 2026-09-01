@@ -125,7 +125,6 @@ usernamePresentationOrFallback
 /
 *
 *
-*
 ViewHolder
 for
 a

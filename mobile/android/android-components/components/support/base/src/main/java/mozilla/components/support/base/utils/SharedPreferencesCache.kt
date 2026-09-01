@@ -115,7 +115,6 @@ JSONObject
 /
 *
 *
-*
 An
 abstract
 wrapper
@@ -150,7 +149,6 @@ Context
 /
 *
 *
-*
 Logger
 used
 to
@@ -165,7 +163,6 @@ logger
 :
 Logger
 /
-*
 *
 *
 Name
@@ -194,7 +191,6 @@ String
 /
 *
 *
-*
 Name
 of
 the
@@ -208,7 +204,6 @@ cacheName
 :
 String
 /
-*
 *
 *
 A
@@ -238,7 +233,6 @@ JSONObject
 /
 *
 *
-*
 A
 conversion
 method
@@ -264,7 +258,6 @@ JSONObject
 :
 T
 /
-*
 *
 *
 param
@@ -406,7 +399,6 @@ s
 /
 *
 *
-*
 return
 Cached
 [
@@ -477,7 +469,6 @@ null
 }
 }
 /
-*
 *
 *
 Clear

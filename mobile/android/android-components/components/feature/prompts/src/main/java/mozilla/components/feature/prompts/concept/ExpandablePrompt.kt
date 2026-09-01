@@ -69,7 +69,6 @@ concept
 /
 *
 *
-*
 A
 prompt
 that
@@ -85,7 +84,6 @@ interface
 ExpandablePrompt
 {
 /
-*
 *
 *
 Listener
@@ -108,7 +106,6 @@ Listener
 /
 *
 *
-*
 Expand
 this
 prompt
@@ -122,7 +119,6 @@ expand
 /
 *
 *
-*
 Collapse
 this
 prompt
@@ -134,7 +130,6 @@ collapse
 (
 )
 /
-*
 *
 *
 Listener
@@ -155,7 +150,6 @@ Listener
 /
 *
 *
-*
 Informs
 when
 the
@@ -171,7 +165,6 @@ onExpanded
 (
 )
 /
-*
 *
 *
 Informs

@@ -69,7 +69,6 @@ concept
 /
 *
 *
-*
 A
 prompt
 for
@@ -89,7 +88,6 @@ ToggleablePrompt
 /
 *
 *
-*
 Listener
 for
 user
@@ -99,7 +97,6 @@ the
 prompt
 .
 *
-*
 /
 var
 passwordPromptListener
@@ -107,7 +104,6 @@ passwordPromptListener
 Listener
 ?
 /
-*
 *
 *
 Interface
@@ -130,7 +126,6 @@ interface
 Listener
 {
 /
-*
 *
 *
 Called

@@ -143,8 +143,8 @@ PageExtractionController
 .
 PageExtractionException
 ]
-*
 into
+*
 [
 PageExtractionError
 ]

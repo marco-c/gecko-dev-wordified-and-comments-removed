@@ -279,7 +279,6 @@ StocksSuggestionParser
 /
 *
 *
-*
 Minimum
 length
 of
@@ -324,7 +323,6 @@ suggestions
 API
 response
 .
-*
 Only
 the
 provider
@@ -334,6 +332,7 @@ highest
 score
 will
 be
+*
 returned
 ;
 the
@@ -514,7 +513,6 @@ API
 returned
 no
 results
-*
 the
 response
 could
@@ -522,6 +520,7 @@ not
 be
 parsed
 or
+*
 the
 request
 failed
@@ -570,11 +569,11 @@ are
 debounced
 and
 concurrent
-*
 requests
 for
 the
 same
+*
 query
 are
 deduplicated
@@ -587,7 +586,6 @@ The
 suggestion
 with
 the
-*
 highest
 score
 in
@@ -596,6 +594,7 @@ response
 is
 selected
 and
+*
 returned
 as
 a
@@ -627,10 +626,10 @@ used
 to
 launch
 network
-*
 requests
 independently
 of
+*
 any
 individual
 provider

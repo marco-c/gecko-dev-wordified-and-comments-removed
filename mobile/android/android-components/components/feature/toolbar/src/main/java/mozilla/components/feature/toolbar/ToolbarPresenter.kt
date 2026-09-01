@@ -247,11 +247,11 @@ update
 the
 toolbar
 whenever
-*
 the
 state
 of
 the
+*
 selected
 session
 .
@@ -323,7 +323,6 @@ CoroutineScope
 =
 null
 /
-*
 *
 *
 Start

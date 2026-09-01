@@ -245,6 +245,26 @@ work
 .
 WorkerParameters
 import
+java
+.
+util
+.
+Date
+import
+java
+.
+util
+.
+concurrent
+.
+TimeUnit
+import
+kotlin
+.
+coroutines
+.
+resume
+import
 kotlinx
 .
 coroutines
@@ -459,26 +479,6 @@ webextensions
 .
 WebExtensionSupport
 import
-java
-.
-util
-.
-Date
-import
-java
-.
-util
-.
-concurrent
-.
-TimeUnit
-import
-kotlin
-.
-coroutines
-.
-resume
-import
 mozilla
 .
 components
@@ -491,7 +491,6 @@ R
 as
 iconsR
 /
-*
 *
 *
 Contract
@@ -525,6 +524,7 @@ for
 new
 updates
 .
+*
 *
 param
 addonId
@@ -562,6 +562,7 @@ new
 updates
 .
 *
+*
 param
 addonId
 The
@@ -596,6 +597,7 @@ given
 addonId
 ]
 .
+*
 *
 param
 addonId
@@ -634,12 +636,12 @@ to
 update
 to
 a
-*
 new
 version
 .
 This
 requires
+*
 user
 interaction
 as
@@ -650,7 +652,6 @@ will
 not
 be
 installed
-*
 until
 the
 user
@@ -785,11 +786,11 @@ Built
 -
 in
 and
-*
 unsupported
 extensions
 will
 not
+*
 update
 automatically
 .
@@ -857,7 +858,6 @@ id
 /
 *
 *
-*
 Indicates
 the
 status
@@ -876,7 +876,6 @@ class
 Status
 {
 /
-*
 *
 *
 The
@@ -901,7 +900,6 @@ Status
 /
 *
 *
-*
 The
 addon
 was
@@ -918,7 +916,6 @@ Status
 (
 )
 /
-*
 *
 *
 The
@@ -954,6 +951,7 @@ trying
 to
 update
 .
+*
 *
 property
 message
@@ -995,7 +993,6 @@ Status
 )
 }
 /
-*
 *
 *
 Represents
@@ -1083,12 +1080,12 @@ to
 the
 user
 .
-*
 The
 update
 flow
 is
 then
+*
 paused
 until
 the
@@ -1227,7 +1224,6 @@ applicationContext
 /
 *
 *
-*
 See
 [
 AddonUpdater
@@ -1292,7 +1288,6 @@ addonId
 /
 *
 *
-*
 See
 [
 AddonUpdater
@@ -1346,7 +1341,6 @@ addonId
 }
 }
 /
-*
 *
 *
 See
@@ -1498,8 +1492,8 @@ notification
 This
 update
 will
-*
 be
+*
 cancelled
 (
 as
@@ -1519,8 +1513,8 @@ some
 information
 about
 the
-*
 pending
+*
 update
 .
 *
@@ -1577,9 +1571,9 @@ extensions
 '
 permissions
 we
-*
 invoke
 the
+*
 update
 flow
 again
@@ -1598,12 +1592,12 @@ user
 has
 already
 granted
-*
 them
 )
 .
 At
 this
+*
 point
 the
 update
@@ -2941,7 +2935,6 @@ update
 /
 *
 *
-*
 Identifies
 all
 the
@@ -2977,7 +2970,6 @@ addonUpdater
 periodicWork
 "
 /
-*
 *
 *
 Identifies
@@ -3032,7 +3024,6 @@ WIDE_MAX_LENGTH
 /
 *
 *
-*
 Handles
 notification
 actions
@@ -3043,7 +3034,6 @@ that
 require
 additional
 permissions
-*
 to
 be
 updated
@@ -3285,7 +3275,6 @@ addonId
 }
 }
 /
-*
 *
 *
 Stores
@@ -3645,7 +3634,6 @@ KEY_ALLOWED_SET_2
 /
 *
 *
-*
 A
 storage
 implementation
@@ -3715,6 +3703,7 @@ a
 parameter
 .
 *
+*
 param
 updateAttempt
 the
@@ -3777,6 +3766,7 @@ otherwise
 returns
 null
 .
+*
 *
 param
 addonId
@@ -3847,6 +3837,7 @@ a
 parameter
 .
 *
+*
 param
 addonId
 the
@@ -3891,7 +3882,6 @@ addonId
 }
 }
 /
-*
 *
 *
 A

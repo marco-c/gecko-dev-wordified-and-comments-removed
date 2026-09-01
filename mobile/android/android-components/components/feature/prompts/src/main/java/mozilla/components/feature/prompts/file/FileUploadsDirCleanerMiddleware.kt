@@ -145,7 +145,6 @@ Store
 /
 *
 *
-*
 [
 Middleware
 ]
@@ -162,7 +161,6 @@ site
 and
 clean
 up
-*
 temporary
 file
 uploads

@@ -67,7 +67,6 @@ digitalassetlinks
 /
 *
 *
-*
 Lists
 all
 statements
@@ -83,7 +82,6 @@ interface
 StatementListFetcher
 {
 /
-*
 *
 *
 Retrieves

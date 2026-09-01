@@ -121,7 +121,6 @@ ContentRecommendationsDatabase
 /
 *
 *
-*
 Internal
 DAO
 for
@@ -133,7 +132,6 @@ and
 [
 SponsoredContentImpressionEntity
 ]
-*
 instances
 .
 *
@@ -260,11 +258,11 @@ constraint
 failed
 "
 exceptions
-*
 if
 clients
 try
 to
+*
 insert
 new
 sponsored
@@ -275,7 +273,6 @@ existing
 anymore
 in
 the
-*
 database
 in
 cases
@@ -284,13 +281,13 @@ a
 different
 list
 of
+*
 sponsored
 contents
 were
 downloaded
 but
 the
-*
 client
 operates
 with
@@ -323,7 +320,6 @@ from
 Epoch
 for
 this
-*
 impression
 .
 *

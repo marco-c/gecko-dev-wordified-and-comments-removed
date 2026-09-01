@@ -69,6 +69,12 @@ test
 .
 rules
 import
+java
+.
+io
+.
+IOException
+import
 mockwebserver3
 .
 MockWebServer
@@ -80,12 +86,6 @@ junit
 rules
 .
 ExternalResource
-import
-java
-.
-io
-.
-IOException
 /
 *
 *
@@ -106,9 +106,9 @@ MockWebServer
 ]
 instance
 backed
-*
 by
 an
+*
 [
 AndroidAssetDispatcher
 ]

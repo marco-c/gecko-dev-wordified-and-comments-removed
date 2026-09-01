@@ -86,7 +86,6 @@ returns
 each
 pair
 to
-*
 the
 [
 block
@@ -97,7 +96,6 @@ function
 *
 Example
 :
-*
 *
 kotlin
 *

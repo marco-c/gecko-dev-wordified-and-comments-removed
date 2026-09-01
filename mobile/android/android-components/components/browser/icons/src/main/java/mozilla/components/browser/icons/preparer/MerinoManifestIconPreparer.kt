@@ -165,11 +165,11 @@ it
 can
 find
 a
-*
 match
 then
 it
 inserts
+*
 the
 icon
 URL

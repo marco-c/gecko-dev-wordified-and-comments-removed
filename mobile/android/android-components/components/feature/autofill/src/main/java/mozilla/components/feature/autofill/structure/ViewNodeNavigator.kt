@@ -105,6 +105,12 @@ autofill
 .
 AutofillId
 import
+java
+.
+util
+.
+Locale
+import
 mozilla
 .
 components
@@ -120,12 +126,6 @@ AutofillNodeNavigator
 Companion
 .
 editTextMask
-import
-java
-.
-util
-.
-Locale
 /
 *
 *

@@ -187,11 +187,11 @@ will
 consider
 a
 manifest
-*
 as
 unused
 .
 By
+*
 default
 this
 is
@@ -305,7 +305,6 @@ URL
 from
 disk
 .
-*
 If
 no
 manifest
@@ -382,7 +381,6 @@ URL
 from
 disk
 .
-*
 If
 no
 manifests
@@ -390,6 +388,7 @@ are
 found
 an
 empty
+*
 list
 is
 returned
@@ -850,7 +849,6 @@ contain
 share
 targets
 .
-*
 If
 no
 manifests
@@ -915,7 +913,6 @@ manifest
 /
 *
 *
-*
 Save
 a
 Web
@@ -962,7 +959,6 @@ entity
 )
 }
 /
-*
 *
 *
 Update
@@ -1137,7 +1133,6 @@ let
 /
 *
 *
-*
 Delete
 all
 manifests
@@ -1179,7 +1174,6 @@ startUrls
 /
 *
 *
-*
 Add
 WebAppManifest
 to
@@ -1205,7 +1199,6 @@ url
 manifest
 )
 /
-*
 *
 *
 Get

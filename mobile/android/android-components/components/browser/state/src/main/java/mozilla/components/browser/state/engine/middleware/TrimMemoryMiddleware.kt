@@ -222,7 +222,6 @@ MIN_ACTIVE_TABS
 /
 *
 *
-*
 [
 Middleware
 ]

@@ -109,10 +109,10 @@ the
 Action
 ]
 to
-*
 derive
 a
 new
+*
 [
 State
 ]
@@ -131,7 +131,6 @@ will
 describe
 how
 the
-*
 state
 changes
 .

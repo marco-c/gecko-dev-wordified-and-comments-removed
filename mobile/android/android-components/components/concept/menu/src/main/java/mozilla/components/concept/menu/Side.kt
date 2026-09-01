@@ -67,7 +67,6 @@ menu
 /
 *
 *
-*
 Indicates
 the
 starting
@@ -90,7 +89,6 @@ Side
 /
 *
 *
-*
 Starting
 side
 (
@@ -103,7 +101,6 @@ left
 /
 START
 /
-*
 *
 *
 Ending

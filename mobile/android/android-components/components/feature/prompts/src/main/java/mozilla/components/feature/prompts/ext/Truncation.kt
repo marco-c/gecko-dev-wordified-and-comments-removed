@@ -69,7 +69,6 @@ ext
 /
 *
 *
-*
 Handles
 text
 truncation
@@ -96,12 +95,12 @@ during
 text
 measurement
 .
-*
 Very
 long
 strings
 can
 cause
+*
 Android
 '
 s

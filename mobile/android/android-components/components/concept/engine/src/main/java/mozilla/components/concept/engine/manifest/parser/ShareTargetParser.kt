@@ -69,6 +69,12 @@ manifest
 .
 parser
 import
+java
+.
+util
+.
+Locale
+import
 mozilla
 .
 components
@@ -142,18 +148,11 @@ org
 json
 .
 JSONObject
-import
-java
-.
-util
-.
-Locale
 internal
 object
 ShareTargetParser
 {
 /
-*
 *
 *
 Parses
@@ -323,7 +322,6 @@ null
 }
 }
 /
-*
 *
 *
 Serializes
@@ -509,7 +507,6 @@ params
 /
 *
 *
-*
 Convert
 string
 to
@@ -585,7 +582,6 @@ null
 /
 *
 *
-*
 Convert
 string
 to
@@ -658,7 +654,6 @@ typeString
 }
 }
 /
-*
 *
 *
 Checks

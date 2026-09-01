@@ -81,7 +81,6 @@ SyncedDeviceTabs
 /
 *
 *
-*
 Provides
 tabs
 from
@@ -96,7 +95,6 @@ interface
 SyncedTabsProvider
 {
 /
-*
 *
 *
 A

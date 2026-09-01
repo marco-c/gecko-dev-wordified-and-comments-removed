@@ -83,7 +83,7 @@ androidx
 .
 compose
 .
-material
+material3
 .
 Text
 import
@@ -95,7 +95,6 @@ runtime
 .
 Composable
 /
-*
 *
 *
 Screen

@@ -129,7 +129,6 @@ the
 change
 on
 .
-*
 Setting
 on
 [
@@ -145,10 +144,10 @@ user
 s
 active
 preference
+*
 value
 .
 Selecting
-*
 [
 Branch
 .
@@ -167,9 +166,9 @@ no
 user
 preference
 is
-*
 stated
 then
+*
 in
 may
 become
@@ -203,7 +202,6 @@ Branch
 )
 {
 /
-*
 *
 *
 Public

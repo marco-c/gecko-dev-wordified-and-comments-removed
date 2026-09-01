@@ -111,6 +111,12 @@ runners
 .
 AndroidJUnit4
 import
+kotlin
+.
+coroutines
+.
+ContinuationInterceptor
+import
 kotlinx
 .
 coroutines
@@ -352,12 +358,6 @@ robolectric
 annotation
 .
 Config
-import
-kotlin
-.
-coroutines
-.
-ContinuationInterceptor
 RunWith
 (
 AndroidJUnit4

@@ -95,7 +95,6 @@ RoomDatabase
 /
 *
 *
-*
 Internal
 database
 for

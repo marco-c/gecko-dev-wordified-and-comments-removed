@@ -117,6 +117,12 @@ contract
 .
 ActivityResultContracts
 import
+java
+.
+io
+.
+File
+import
 mozilla
 .
 components
@@ -190,12 +196,6 @@ android
 net
 .
 toFileUri
-import
-java
-.
-io
-.
-File
 private
 const
 val
@@ -222,6 +222,7 @@ add
 on
 file
 .
+*
 *
 param
 context
@@ -286,6 +287,7 @@ add
 on
 file
 .
+*
 *
 returns
 a
@@ -365,6 +367,7 @@ file
 picker
 results
 .
+*
 *
 param
 resultCaller

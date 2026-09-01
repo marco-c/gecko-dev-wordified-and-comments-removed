@@ -67,6 +67,12 @@ summarize
 .
 content
 import
+kotlin
+.
+test
+.
+assertIs
+import
 kotlinx
 .
 coroutines
@@ -88,12 +94,6 @@ org
 junit
 .
 Test
-import
-kotlin
-.
-test
-.
-assertIs
 class
 ContentProviderTest
 {

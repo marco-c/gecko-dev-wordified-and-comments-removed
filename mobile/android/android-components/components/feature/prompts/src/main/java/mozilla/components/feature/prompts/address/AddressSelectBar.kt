@@ -279,7 +279,6 @@ hideKeyboard
 /
 *
 *
-*
 A
 customizable
 "

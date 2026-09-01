@@ -132,11 +132,11 @@ in
 the
 url
 .
-*
 Matching
 these
 codes
 will
+*
 report
 the
 SERP
@@ -151,7 +151,6 @@ which
 means
 the
 search
-*
 was
 performed
 organically
@@ -159,6 +158,7 @@ rather
 than
 through
 a
+*
 SAP
 .
 *
@@ -287,9 +287,9 @@ in
 the
 url
 .
-*
 Matching
 these
+*
 codes
 will
 report
@@ -307,13 +307,13 @@ has
 done
 a
 search
-*
 through
 the
 search
 engine
 '
 s
+*
 website
 rather
 than
@@ -581,7 +581,6 @@ the
 search
 engine
 .
-*
 Used
 to
 check
@@ -591,6 +590,7 @@ clicked
 link
 was
 for
+*
 an
 ad
 .

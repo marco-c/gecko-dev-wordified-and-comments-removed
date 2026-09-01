@@ -117,11 +117,11 @@ clear
 understanding
 of
 how
-*
 they
 may
 interact
 with
+*
 preexisting
 ways
 to
@@ -151,13 +151,13 @@ engine
 .
 Settings
 ]
-*
 should
 *
 not
 *
 be
 interacted
+*
 with
 using
 this
@@ -169,9 +169,9 @@ should
 always
 be
 well
-*
 defined
 as
+*
 [
 mozilla
 .
@@ -234,7 +234,6 @@ UNSUPPORTED_ERROR
 /
 *
 *
-*
 Method
 for
 unregistering
@@ -246,7 +245,6 @@ on
 the
 runtime
 .
-*
 *
 /
 fun
@@ -262,7 +260,6 @@ UnsupportedOperationException
 UNSUPPORTED_ERROR
 )
 /
-*
 *
 *
 Method
@@ -312,7 +309,6 @@ UNSUPPORTED_ERROR
 )
 )
 /
-*
 *
 *
 Method
@@ -365,7 +361,6 @@ UNSUPPORTED_ERROR
 /
 *
 *
-*
 Method
 for
 removing
@@ -413,7 +408,6 @@ UNSUPPORTED_ERROR
 )
 )
 /
-*
 *
 *
 Method
@@ -505,7 +499,6 @@ and
 information
 could
 be
-*
 obtained
 on
 it
@@ -601,7 +594,6 @@ and
 information
 could
 be
-*
 obtained
 on
 it
@@ -718,12 +710,12 @@ preference
 value
 .
 Selecting
-*
 [
 Branch
 .
 DEFAULT
 ]
+*
 will
 change
 the
@@ -737,7 +729,6 @@ no
 user
 preference
 is
-*
 stated
 then
 in
@@ -745,6 +736,7 @@ may
 become
 the
 active
+*
 preference
 value
 .
@@ -866,12 +858,12 @@ preference
 value
 .
 Selecting
-*
 [
 Branch
 .
 DEFAULT
 ]
+*
 will
 change
 the
@@ -885,7 +877,6 @@ no
 user
 preference
 is
-*
 stated
 then
 in
@@ -893,6 +884,7 @@ may
 become
 the
 active
+*
 preference
 value
 .
@@ -1014,12 +1006,12 @@ preference
 value
 .
 Selecting
-*
 [
 Branch
 .
 DEFAULT
 ]
+*
 will
 change
 the
@@ -1033,7 +1025,6 @@ no
 user
 preference
 is
-*
 stated
 then
 in
@@ -1041,6 +1032,7 @@ may
 become
 the
 active
+*
 preference
 value
 .
@@ -1214,7 +1206,6 @@ user
 preferences
 value
 .
-*
 This
 will
 in
@@ -1227,9 +1218,9 @@ the
 default
 value
 .
-*
 If
 no
+*
 default
 value
 exists

@@ -67,6 +67,12 @@ awesomebar
 .
 provider
 import
+java
+.
+util
+.
+Locale
+import
 kotlinx
 .
 coroutines
@@ -162,12 +168,6 @@ org
 junit
 .
 Test
-import
-java
-.
-util
-.
-Locale
 private
 const
 val

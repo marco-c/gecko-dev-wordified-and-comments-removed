@@ -115,7 +115,6 @@ Store
 /
 *
 *
-*
 Interface
 for
 [
@@ -172,12 +171,12 @@ and
 returns
 it
 .
-*
 Returns
 null
 if
 the
 tab
+*
 could
 not
 be
@@ -213,7 +212,6 @@ tabId
 )
 }
 /
-*
 *
 *
 Casts

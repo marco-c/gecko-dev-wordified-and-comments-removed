@@ -139,13 +139,13 @@ running
 sync
 periodically
 .
-*
 Periodic
 sync
 is
 disabled
 if
 this
+*
 is
 null
 .

@@ -207,7 +207,6 @@ SPONSORED_CONTENT_TABLE
 /
 *
 *
-*
 Internal
 database
 for

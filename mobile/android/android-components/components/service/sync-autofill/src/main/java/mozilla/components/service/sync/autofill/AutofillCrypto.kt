@@ -207,9 +207,9 @@ services
 autofill
 lib
 .
-*
 Used
 for
+*
 protecting
 credit
 card
@@ -230,7 +230,6 @@ the
 encryption
 key
 .
-*
 It
 also
 keeps
@@ -240,6 +239,7 @@ abnormal
 events
 such
 as
+*
 managed
 key
 going

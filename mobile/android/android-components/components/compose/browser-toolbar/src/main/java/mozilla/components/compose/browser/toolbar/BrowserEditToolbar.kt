@@ -581,7 +581,6 @@ to
 edit
 the
 current
-*
 URL
 (
 "
@@ -711,7 +710,6 @@ of
 the
 URL
 of
-*
 the
 edit
 toolbar
@@ -735,7 +733,6 @@ of
 the
 URL
 of
-*
 the
 edit
 toolbar
@@ -759,10 +756,10 @@ value
 comes
 as
 a
-*
 parameter
 of
 the
+*
 callback
 .
 *
@@ -781,10 +778,10 @@ and
 wants
 to
 initiate
-*
 loading
 the
 entered
+*
 URL
 .
 The

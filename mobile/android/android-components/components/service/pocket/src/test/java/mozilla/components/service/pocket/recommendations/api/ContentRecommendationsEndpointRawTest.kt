@@ -81,6 +81,12 @@ runners
 .
 AndroidJUnit4
 import
+java
+.
+io
+.
+IOException
+import
 mozilla
 .
 components
@@ -248,12 +254,6 @@ junit
 runner
 .
 RunWith
-import
-java
-.
-io
-.
-IOException
 RunWith
 (
 AndroidJUnit4

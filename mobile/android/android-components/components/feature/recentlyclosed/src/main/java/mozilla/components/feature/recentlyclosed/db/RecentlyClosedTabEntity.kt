@@ -101,7 +101,6 @@ TabState
 /
 *
 *
-*
 Internal
 entity
 representing
@@ -125,7 +124,6 @@ class
 RecentlyClosedTabEntity
 (
 /
-*
 *
 *
 Generated

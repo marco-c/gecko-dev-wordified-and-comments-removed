@@ -158,7 +158,6 @@ MAX_RECENTLY_KILLED_TABS
 /
 *
 *
-*
 [
 EngineAction
 ]
@@ -171,7 +170,6 @@ specific
 [
 EngineState
 ]
-*
 of
 a
 [
@@ -752,11 +750,11 @@ take
 care
 of
 calling
-*
 purgeHistory
 (
 )
 on
+*
 all
 EngineSession
 instances
@@ -769,7 +767,6 @@ not
 have
 an
 EngineSession
-*
 assigned
 (
 yet
@@ -777,6 +774,7 @@ yet
 instead
 we
 keep
+*
 track
 of
 the
@@ -787,7 +785,6 @@ when
 needed
 .
 Creating
-*
 an
 EngineSession
 for
@@ -796,6 +793,7 @@ tab
 just
 to
 call
+*
 purgeHistory
 (
 )
@@ -806,7 +804,6 @@ wasteful
 and
 may
 cause
-*
 problems
 if
 there
@@ -821,11 +818,11 @@ instead
 we
 just
 remove
+*
 the
 EngineSessionState
 from
 those
-*
 sessions
 .
 The
@@ -842,10 +839,10 @@ the
 assigned
 URL
 and
+*
 since
 they
 have
-*
 no
 state
 to

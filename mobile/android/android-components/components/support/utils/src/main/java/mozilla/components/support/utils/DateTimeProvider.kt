@@ -94,11 +94,11 @@ useful
 for
 separating
 the
-*
 implementation
 of
 getting
 date
+*
 and
 time
 from
@@ -112,7 +112,6 @@ it
 easier
 to
 test
-*
 the
 code
 that
@@ -127,7 +126,6 @@ interface
 DateTimeProvider
 {
 /
-*
 *
 *
 Get
@@ -147,7 +145,6 @@ LocalDate
 /
 *
 *
-*
 Get
 the
 current
@@ -163,7 +160,6 @@ currentZoneId
 :
 ZoneId
 /
-*
 *
 *
 Get
@@ -183,7 +179,6 @@ currentTimeMillis
 Long
 }
 /
-*
 *
 *
 The

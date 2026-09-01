@@ -189,10 +189,10 @@ fixed
 title
 /
 description
-*
 while
 the
 importer
+*
 is
 working
 and
@@ -222,11 +222,11 @@ importer
 state
 and
 only
-*
 composing
 it
 while
 the
+*
 import
 is
 in

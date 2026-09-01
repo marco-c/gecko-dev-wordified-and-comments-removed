@@ -73,7 +73,6 @@ Context
 /
 *
 *
-*
 Collection
 of
 methods
@@ -109,7 +108,6 @@ array
 .
 mozac_url_schemes_blocklist
 ]
-*
 from
 the
 front

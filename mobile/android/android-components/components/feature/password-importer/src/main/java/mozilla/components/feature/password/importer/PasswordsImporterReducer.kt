@@ -153,7 +153,6 @@ SelectingFile
 /
 *
 *
-*
 Reduces
 the
 given

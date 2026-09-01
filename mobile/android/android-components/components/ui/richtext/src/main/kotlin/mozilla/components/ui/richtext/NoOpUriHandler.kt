@@ -101,12 +101,12 @@ don
 '
 t
 handle
-*
 URIs
 unless
 a
 handler
 is
+*
 specified
 *
 /

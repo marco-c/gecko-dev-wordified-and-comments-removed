@@ -83,7 +83,6 @@ Relation
 /
 *
 *
-*
 Class
 representing
 a

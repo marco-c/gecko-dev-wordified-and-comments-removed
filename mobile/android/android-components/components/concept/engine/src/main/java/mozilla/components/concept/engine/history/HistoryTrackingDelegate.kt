@@ -99,10 +99,10 @@ for
 link
 highlighting
 )
-*
 and
 receiving
 history
+*
 updates
 from
 the
@@ -136,11 +136,11 @@ methods
 are
 tailored
 to
-*
 two
 types
 of
 engines
+*
 which
 we
 support
@@ -159,7 +159,6 @@ interface
 HistoryTrackingDelegate
 {
 /
-*
 *
 *
 A
@@ -196,7 +195,6 @@ PageVisit
 /
 *
 *
-*
 Title
 changed
 for
@@ -218,7 +216,6 @@ title
 String
 )
 /
-*
 *
 *
 Preview
@@ -243,7 +240,6 @@ previewImageUrl
 String
 )
 /
-*
 *
 *
 An
@@ -305,18 +301,17 @@ was
 visited
 within
 the
-*
 half
 -
 open
 time
+*
 window
 [
 afterEpochMillis
 beforeEpochMillis
 )
 in
-*
 milliseconds
 since
 the
@@ -344,7 +339,6 @@ Boolean
 =
 false
 /
-*
 *
 *
 An
@@ -392,11 +386,11 @@ by
 the
 delegate
 .
-*
 This
 helps
 avoid
 unnecessary
+*
 coroutine
 overhead
 for

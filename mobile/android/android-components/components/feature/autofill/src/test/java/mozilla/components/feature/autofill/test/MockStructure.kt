@@ -75,6 +75,12 @@ autofill
 .
 AutofillId
 import
+java
+.
+io
+.
+File
+import
 mozilla
 .
 components
@@ -110,12 +116,6 @@ autofill
 structure
 .
 RawStructure
-import
-java
-.
-io
-.
-File
 internal
 fun
 FillRequestHandlerTest

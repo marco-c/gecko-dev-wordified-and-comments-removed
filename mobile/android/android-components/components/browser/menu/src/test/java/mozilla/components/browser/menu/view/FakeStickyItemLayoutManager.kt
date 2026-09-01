@@ -89,7 +89,6 @@ RecyclerView
 /
 *
 *
-*
 A
 default
 implementation

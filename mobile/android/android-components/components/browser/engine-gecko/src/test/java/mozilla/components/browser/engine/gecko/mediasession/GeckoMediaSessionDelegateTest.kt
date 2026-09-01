@@ -81,6 +81,12 @@ runners
 .
 AndroidJUnit4
 import
+kotlin
+.
+test
+.
+assertNotNull
+import
 mozilla
 .
 components
@@ -186,12 +192,6 @@ mozilla
 geckoview
 .
 GeckoRuntime
-import
-kotlin
-.
-test
-.
-assertNotNull
 import
 org
 .

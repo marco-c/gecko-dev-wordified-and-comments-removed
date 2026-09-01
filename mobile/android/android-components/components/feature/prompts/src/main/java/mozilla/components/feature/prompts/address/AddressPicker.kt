@@ -202,10 +202,10 @@ the
 feature
 about
 actions
-*
 the
 user
 performed
+*
 in
 the
 address
@@ -238,7 +238,6 @@ which
 the
 select
 address
-*
 prompt
 will
 be
@@ -259,7 +258,6 @@ adresses
 "
 button
 from
-*
 select
 address
 prompt
@@ -424,7 +422,6 @@ SelectAddress
 ]
 or
 null
-*
 otherwise
 .
 *

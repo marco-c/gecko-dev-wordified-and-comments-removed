@@ -96,7 +96,6 @@ can
 be
 transformed
 to
-*
 be
 displayed
 in
@@ -128,7 +127,6 @@ is
 required
 for
 the
-*
 current
 page
 .
@@ -145,7 +143,6 @@ to
 the
 reader
 view
-*
 content
 script
 is
@@ -189,7 +186,6 @@ of
 the
 page
 currently
-*
 displayed
 in
 reader

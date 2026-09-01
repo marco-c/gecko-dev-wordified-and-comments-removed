@@ -109,7 +109,6 @@ DividerMenuCandidate
 /
 *
 *
-*
 View
 holder
 that

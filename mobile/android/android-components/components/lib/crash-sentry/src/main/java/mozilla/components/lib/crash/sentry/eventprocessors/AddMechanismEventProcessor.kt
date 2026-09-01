@@ -109,7 +109,6 @@ Mechanism
 /
 *
 *
-*
 A
 [
 EventProcessor
@@ -121,7 +120,6 @@ a
 [
 Machanism
 ]
-*
 to
 [
 SentryLevel

@@ -97,10 +97,10 @@ an
 intentional
 omission
 of
-*
 a
 word
 sentence
+*
 or
 whole
 section

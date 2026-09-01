@@ -89,7 +89,6 @@ Autocomplete
 /
 *
 *
-*
 Converts
 a
 GeckoView
@@ -158,7 +157,6 @@ email
 email
 )
 /
-*
 *
 *
 Converts

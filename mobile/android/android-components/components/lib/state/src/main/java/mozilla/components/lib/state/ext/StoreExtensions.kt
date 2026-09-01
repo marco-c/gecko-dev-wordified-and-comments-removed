@@ -239,9 +239,9 @@ Store
 .
 Subscription
 ]
-*
 will
 be
+*
 bound
 to
 the
@@ -265,8 +265,8 @@ the
 Observer
 ]
 will
-*
 be
+*
 unregistered
 automatically
 .
@@ -295,7 +295,6 @@ Lifecycle
 is
 in
 STARTED
-*
 state
 .
 *
@@ -426,9 +425,9 @@ Store
 .
 Subscription
 ]
-*
 will
 be
+*
 bound
 to
 the
@@ -452,7 +451,6 @@ Observer
 will
 be
 unregistered
-*
 automatically
 .
 *
@@ -475,10 +473,10 @@ a
 better
 option
 .
-*
 Only
 use
 this
+*
 implementation
 if
 you
@@ -496,7 +494,6 @@ if
 it
 can
 exist
-*
 outside
 of
 a
@@ -548,10 +545,10 @@ will
 NOT
 get
 automatically
-*
 registered
 again
 if
+*
 the
 same
 [
@@ -775,10 +772,10 @@ sequentially
 in
 order
 from
-*
 a
 single
 coroutine
+*
 (
 e
 .
@@ -811,10 +808,10 @@ and
 resume
 the
 store
-*
 subscription
 .
 When
+*
 the
 [
 Lifecycle
@@ -834,7 +831,6 @@ received
 .
 Once
 the
-*
 [
 Lifecycle
 ]
@@ -842,6 +838,7 @@ switches
 back
 to
 at
+*
 least
 STARTED
 state
@@ -854,7 +851,6 @@ State
 and
 further
 updates
-*
 will
 be
 received
@@ -1033,9 +1029,9 @@ to
 pause
 and
 resume
-*
 the
 store
+*
 subscription
 .
 When
@@ -1056,12 +1052,12 @@ will
 be
 received
 .
-*
 Once
 the
 [
 Lifecycle
 ]
+*
 switches
 back
 to
@@ -1077,7 +1073,6 @@ State
 ]
 and
 further
-*
 updates
 will
 be
@@ -1336,10 +1331,10 @@ a
 [
 Flow
 ]
-*
 for
 observing
 the
+*
 [
 Store
 ]
@@ -1383,9 +1378,9 @@ to
 pause
 and
 resume
-*
 the
 store
+*
 subscription
 .
 When
@@ -1406,12 +1401,12 @@ will
 be
 received
 .
-*
 Once
 the
 [
 Lifecycle
 ]
+*
 switches
 back
 to
@@ -1427,7 +1422,6 @@ State
 ]
 and
 further
-*
 updates
 will
 be
@@ -1542,7 +1536,6 @@ owner
 /
 *
 *
-*
 GenericLifecycleObserver
 implementation
 to
@@ -1654,7 +1647,6 @@ this
 }
 }
 /
-*
 *
 *
 View

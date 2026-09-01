@@ -200,11 +200,11 @@ the
 container
 page
 action
-*
 whenever
 the
 selected
 tab
+*
 changes
 .
 *

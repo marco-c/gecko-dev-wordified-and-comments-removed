@@ -111,6 +111,12 @@ testing
 .
 WorkManagerTestInitHelper
 import
+kotlin
+.
+test
+.
+assertNotNull
+import
 kotlinx
 .
 coroutines
@@ -204,12 +210,6 @@ junit
 runner
 .
 RunWith
-import
-kotlin
-.
-test
-.
-assertNotNull
 RunWith
 (
 AndroidJUnit4

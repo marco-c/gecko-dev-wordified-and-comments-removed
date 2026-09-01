@@ -81,7 +81,6 @@ MediaSession
 /
 *
 *
-*
 A
 controller
 that
@@ -101,7 +100,6 @@ interface
 AudioFocusController
 {
 /
-*
 *
 *
 Request

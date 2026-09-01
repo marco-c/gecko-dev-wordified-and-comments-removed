@@ -99,7 +99,6 @@ Autocomplete
 /
 *
 *
-*
 Converts
 a
 GeckoView
@@ -146,7 +145,6 @@ password
 password
 )
 /
-*
 *
 *
 Converts
@@ -216,7 +214,6 @@ build
 (
 )
 /
-*
 *
 *
 Converts

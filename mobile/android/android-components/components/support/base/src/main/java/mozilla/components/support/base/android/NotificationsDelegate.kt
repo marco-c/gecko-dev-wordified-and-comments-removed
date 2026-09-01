@@ -273,7 +273,6 @@ mutableMapOf
 /
 *
 *
-*
 Provides
 the
 context
@@ -348,7 +347,6 @@ activityResultLauncher
 /
 *
 *
-*
 Removes
 activity
 reference
@@ -383,7 +381,6 @@ activity
 /
 *
 *
-*
 Checks
 if
 the
@@ -396,8 +393,6 @@ granted
 .
 *
 /
-VisibleForTesting
-internal
 fun
 hasPostNotificationsPermission
 (
@@ -490,15 +485,14 @@ for
 handling
 permission
 acceptance
-*
 in
 addition
 to
 showing
 the
+*
 notification
 .
-*
 Note
 that
 it
@@ -666,6 +660,8 @@ app
 notifications
 ?
 See
+/
+/
 https
 :
 /

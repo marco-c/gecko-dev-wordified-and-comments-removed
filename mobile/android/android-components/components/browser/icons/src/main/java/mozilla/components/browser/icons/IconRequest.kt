@@ -188,11 +188,11 @@ resource
 being
 loaded
 or
-*
 loading
 can
 continue
 in
+*
 background
 .
 *
@@ -443,7 +443,6 @@ false
 /
 *
 *
-*
 An
 icon
 resource
@@ -576,7 +575,6 @@ behave
 like
 native
 desktop
-*
 applications
 .
 *
@@ -621,8 +619,8 @@ Facebook
 seems
 to
 use
-*
 OpenGraph
+*
 instead
 .
 However

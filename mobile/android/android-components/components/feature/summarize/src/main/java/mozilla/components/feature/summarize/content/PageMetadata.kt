@@ -69,7 +69,6 @@ content
 /
 *
 *
-*
 An
 interface
 to
@@ -87,7 +86,6 @@ interface
 PageMetadataExtractor
 {
 /
-*
 *
 *
 Retrieve
@@ -109,7 +107,6 @@ PageMetadata
 >
 }
 /
-*
 *
 *
 Page

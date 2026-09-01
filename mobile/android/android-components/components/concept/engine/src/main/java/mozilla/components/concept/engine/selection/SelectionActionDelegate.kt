@@ -69,7 +69,6 @@ selection
 /
 *
 *
-*
 Generic
 delegate
 for
@@ -121,11 +120,11 @@ context
 menu
 .
 This
-*
 array
 must
 include
 all
+*
 actions
 available
 or
@@ -188,12 +187,12 @@ id
 is
 currently
 available
-*
 which
 may
 be
 informed
 by
+*
 [
 selectedText
 ]

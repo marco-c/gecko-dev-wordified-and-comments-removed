@@ -231,8 +231,8 @@ the
 Response
 ]
 or
-*
 its
+*
 [
 Response
 .
@@ -259,7 +259,6 @@ Response
 ]
 object
 :
-*
 *
 Kotlin
 *

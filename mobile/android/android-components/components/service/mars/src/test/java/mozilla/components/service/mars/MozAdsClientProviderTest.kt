@@ -65,6 +65,12 @@ service
 .
 mars
 import
+kotlin
+.
+test
+.
+assertNotNull
+import
 mozilla
 .
 appservices
@@ -116,12 +122,6 @@ org
 robolectric
 .
 RobolectricTestRunner
-import
-kotlin
-.
-test
-.
-assertNotNull
 RunWith
 (
 RobolectricTestRunner

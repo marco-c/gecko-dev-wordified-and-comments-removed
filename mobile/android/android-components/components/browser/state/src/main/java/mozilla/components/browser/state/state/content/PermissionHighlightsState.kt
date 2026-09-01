@@ -94,7 +94,6 @@ about
 permissions
 that
 should
-*
 be
 brought
 to
@@ -115,7 +114,6 @@ permission
 has
 changed
 from
-*
 its
 default
 value
@@ -175,7 +173,6 @@ persistent
 storage
 permission
 has
-*
 changed
 from
 its
@@ -191,13 +188,13 @@ the
 media
 key
 systemAccess
-*
 permission
 has
 changed
 from
 its
 default
+*
 value
 .
 *
@@ -211,7 +208,6 @@ audible
 permission
 has
 changed
-*
 from
 its
 default
@@ -228,7 +224,6 @@ inaudible
 permission
 has
 changed
-*
 from
 its
 default
@@ -245,7 +240,6 @@ audible
 setting
 disabled
 some
-*
 web
 content
 from
@@ -261,11 +255,11 @@ autoplay
 inaudible
 setting
 disabled
-*
 some
 web
 content
 from
+*
 playing
 .
 *
@@ -280,10 +274,10 @@ access
 permission
 has
 changed
-*
 from
 its
 default
+*
 value
 .
 *
@@ -298,10 +292,10 @@ access
 permission
 has
 changed
-*
 from
 its
 default
+*
 value
 .
 *

@@ -230,10 +230,10 @@ that
 is
 used
 to
-*
 specify
 the
 full
+*
 import
 namespace
 for
@@ -244,12 +244,12 @@ the
 typography
 properties
 from
-*
 (
 e
 .
 g
 .
+*
 org
 .
 mozilla
@@ -362,7 +362,6 @@ default
 /
 *
 *
-*
 Report
 a
 code
@@ -425,7 +424,6 @@ importDirective
 /
 *
 *
-*
 Report
 a
 code
@@ -435,7 +433,6 @@ MaterialTheme
 .
 typography
 or
-*
 androidx
 .
 compose

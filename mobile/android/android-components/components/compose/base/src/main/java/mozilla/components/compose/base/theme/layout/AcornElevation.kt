@@ -237,7 +237,6 @@ AcornTheme
 /
 *
 *
-*
 A
 palette
 of
@@ -261,7 +260,6 @@ object
 AcornElevation
 {
 /
-*
 *
 *
 Use
@@ -291,7 +289,6 @@ dp
 /
 *
 *
-*
 Lowest
 resting
 level
@@ -311,7 +308,6 @@ Dp
 .
 dp
 /
-*
 *
 *
 Mid
@@ -337,7 +333,6 @@ dp
 /
 *
 *
-*
 Highest
 resting
 level
@@ -360,7 +355,6 @@ dp
 /
 *
 *
-*
 (
 not
 assigned
@@ -379,7 +373,6 @@ Dp
 .
 dp
 /
-*
 *
 *
 (

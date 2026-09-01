@@ -929,8 +929,8 @@ being
 long
 clicked
 .
-*
 To
+*
 ensure
 long
 clicks
@@ -1781,7 +1781,6 @@ hint
 }
 }
 /
-*
 *
 *
 Custom

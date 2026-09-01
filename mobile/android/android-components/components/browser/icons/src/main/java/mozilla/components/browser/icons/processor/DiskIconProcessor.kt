@@ -117,7 +117,6 @@ DesiredSize
 /
 *
 *
-*
 [
 IconProcessor
 ]
@@ -150,14 +149,12 @@ ProcessorDiskCache
 /
 *
 *
-*
 Saves
 icon
 resources
 to
 cache
 .
-*
 *
 /
 fun
@@ -173,14 +170,12 @@ IconRequest
 /
 *
 *
-*
 Saves
 icon
 bitmap
 to
 cache
 .
-*
 *
 /
 fun

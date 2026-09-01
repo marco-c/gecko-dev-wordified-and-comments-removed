@@ -107,6 +107,14 @@ work
 .
 WorkManager
 import
+java
+.
+util
+.
+concurrent
+.
+TimeUnit
+import
 mozilla
 .
 components
@@ -132,14 +140,6 @@ base
 worker
 .
 Frequency
-import
-java
-.
-util
-.
-concurrent
-.
-TimeUnit
 /
 *
 *
@@ -157,7 +157,6 @@ persist
 new
 Firefox
 Suggest
-*
 search
 suggestions
 .
@@ -246,7 +245,6 @@ if
 the
 task
 is
-*
 already
 scheduled
 .
@@ -291,7 +289,6 @@ createPeriodicIngestionWorkerRequest
 )
 }
 /
-*
 *
 *
 Cancels

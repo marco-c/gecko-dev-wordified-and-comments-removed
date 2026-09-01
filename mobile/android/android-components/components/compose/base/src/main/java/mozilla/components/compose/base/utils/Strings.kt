@@ -141,7 +141,6 @@ getSpans
 /
 *
 *
-*
 Method
 used
 to

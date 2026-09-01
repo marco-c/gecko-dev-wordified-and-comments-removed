@@ -270,7 +270,6 @@ calling
 [
 prepare
 ]
-*
 the
 state
 will
@@ -401,7 +400,6 @@ State
 Available
 )
 /
-*
 *
 *
 The
@@ -560,7 +558,6 @@ it
 }
 }
 /
-*
 *
 *
 Wraps

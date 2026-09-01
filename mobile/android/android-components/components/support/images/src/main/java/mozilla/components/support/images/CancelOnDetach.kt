@@ -79,7 +79,6 @@ Job
 /
 *
 *
-*
 Cancels
 the
 provided

@@ -99,7 +99,6 @@ ProfilerController
 /
 *
 *
-*
 Gecko
 -
 based
@@ -110,7 +109,6 @@ Profiler
 ]
 wrapping
 the
-*
 ProfilerController
 object
 provided
@@ -125,7 +123,6 @@ Profiler
 Profiler
 {
 /
-*
 *
 *
 See
@@ -155,7 +152,6 @@ isProfilerActive
 /
 *
 *
-*
 See
 [
 Profiler
@@ -184,7 +180,6 @@ getProfilerTime
 /
 *
 *
-*
 See
 [
 Profiler
@@ -228,7 +223,6 @@ text
 /
 *
 *
-*
 See
 [
 Profiler
@@ -267,7 +261,6 @@ text
 /
 *
 *
-*
 See
 [
 Profiler
@@ -301,7 +294,6 @@ startTime
 /
 *
 *
-*
 See
 [
 Profiler
@@ -333,7 +325,6 @@ text
 )
 }
 /
-*
 *
 *
 See

@@ -67,6 +67,12 @@ tabs
 .
 tabstray
 import
+kotlin
+.
+test
+.
+assertNotNull
+import
 kotlinx
 .
 coroutines
@@ -216,12 +222,6 @@ mockito
 Mockito
 .
 verifyNoMoreInteractions
-import
-kotlin
-.
-test
-.
-assertNotNull
 class
 TabsTrayPresenterTest
 {

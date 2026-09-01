@@ -175,6 +175,14 @@ view
 .
 isVisible
 import
+java
+.
+util
+.
+concurrent
+.
+Executors
+import
 kotlinx
 .
 coroutines
@@ -351,14 +359,6 @@ autocomplete
 .
 InlineAutocompleteEditText
 import
-java
-.
-util
-.
-concurrent
-.
-Executors
-import
 mozilla
 .
 components
@@ -407,7 +407,6 @@ mode
 *
 Structure
 :
-*
 +
 -
 -
@@ -491,12 +490,12 @@ Structure
 -
 -
 +
-*
 |
 icon
 |
 edit
 actions
+*
 start
 |
 url
@@ -626,7 +625,6 @@ front
 of
 the
 URL
-*
 (
 e
 .
@@ -664,7 +662,6 @@ components
 after
 the
 URL
-*
 (
 e
 .
@@ -1050,6 +1047,8 @@ listener
 may
 cause
 a
+/
+/
 focus
 /
 /
@@ -1149,7 +1148,6 @@ false
 }
 )
 /
-*
 *
 *
 Customizable
@@ -1295,7 +1293,6 @@ suggestionForeground
 /
 *
 *
-*
 Sets
 the
 background
@@ -1332,7 +1329,6 @@ background
 )
 }
 /
-*
 *
 *
 Sets
@@ -1389,7 +1385,6 @@ VISIBLE
 /
 *
 *
-*
 Sets
 a
 click
@@ -1426,7 +1421,6 @@ listener
 )
 }
 /
-*
 *
 *
 Sets
@@ -1479,7 +1473,6 @@ value
 /
 *
 *
-*
 Sets
 the
 size
@@ -1526,7 +1519,6 @@ textSize
 value
 }
 /
-*
 *
 *
 Sets
@@ -1576,7 +1568,6 @@ typeface
 value
 }
 /
-*
 *
 *
 Sets
@@ -1637,7 +1628,6 @@ hasFocus
 }
 }
 /
-*
 *
 *
 Focuses
@@ -1815,7 +1805,6 @@ listener
 /
 *
 *
-*
 Attempt
 to
 restart
@@ -1951,11 +1940,11 @@ value
 of
 url
 itself
-*
 and
 is
 only
 a
+*
 visual
 change
 *
@@ -2068,7 +2057,6 @@ toString
 /
 *
 *
-*
 Select
 the
 entire
@@ -2096,7 +2084,6 @@ selectAll
 )
 }
 /
-*
 *
 *
 Places
@@ -2135,7 +2122,6 @@ length
 )
 }
 /
-*
 *
 *
 Applies
@@ -2509,7 +2495,6 @@ text
 }
 }
 /
-*
 *
 *
 Internal

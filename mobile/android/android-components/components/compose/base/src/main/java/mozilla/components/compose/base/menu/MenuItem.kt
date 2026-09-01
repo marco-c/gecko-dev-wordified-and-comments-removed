@@ -122,11 +122,11 @@ different
 types
 of
 menu
-*
 items
 that
 can
 be
+*
 rendered
 in
 the
@@ -165,11 +165,11 @@ a
 fixed
 layout
 .
-*
 These
 are
 the
 ones
+*
 that
 are
 rendered
@@ -281,7 +281,6 @@ is
 clicked
 .
 *
-*
 /
 sealed
 class
@@ -333,7 +332,6 @@ MenuItem
 /
 *
 *
-*
 Type
 representing
 different
@@ -354,7 +352,6 @@ Level
 /
 *
 *
-*
 Default
 level
 of
@@ -364,7 +361,6 @@ importance
 /
 Default
 /
-*
 *
 *
 Critical
@@ -496,7 +492,6 @@ item
 is
 clicked
 .
-*
 *
 /
 data
@@ -1024,10 +1019,10 @@ This
 should
 be
 used
-*
 sparingly
 and
 only
+*
 for
 cases
 where
@@ -1043,7 +1038,6 @@ pre
 defined
 layout
 for
-*
 the
 menu
 item
@@ -1081,7 +1075,6 @@ Unit
 :
 MenuItem
 /
-*
 *
 *
 [

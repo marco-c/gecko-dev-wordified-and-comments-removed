@@ -100,10 +100,10 @@ with
 [
 AppLinksInterceptor
 ]
-*
 to
 show
 a
+*
 dialog
 before
 an
@@ -166,9 +166,9 @@ app
 .
 For
 instance
-*
 a
 valid
+*
 use
 case
 can
@@ -182,7 +182,6 @@ positive
 button
 is
 clicked
-*
 this
 callback
 must
@@ -205,10 +204,10 @@ or
 not
 when
 clicking
-*
 on
 the
 positive
+*
 button
 *
 /
@@ -240,7 +239,6 @@ dismisses
 the
 dialog
 .
-*
 For
 instance
 a
@@ -251,6 +249,7 @@ can
 be
 in
 confirmation
+*
 dialog
 after
 the
@@ -258,7 +257,6 @@ negative
 button
 is
 clicked
-*
 this
 callback
 must
@@ -298,10 +296,10 @@ taking
 an
 explicit
 action
-*
 for
 example
 by
+*
 tapping
 outside
 the

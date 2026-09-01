@@ -135,6 +135,12 @@ StandardIntegrityErrorCode
 .
 INTEGRITY_TOKEN_PROVIDER_INVALID
 import
+kotlin
+.
+test
+.
+assertIs
+import
 kotlinx
 .
 coroutines
@@ -252,12 +258,6 @@ mockito
 Mockito
 .
 when
-import
-kotlin
-.
-test
-.
-assertIs
 RunWith
 (
 AndroidJUnit4

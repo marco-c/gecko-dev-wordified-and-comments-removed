@@ -105,6 +105,12 @@ runners
 .
 AndroidJUnit4
 import
+kotlin
+.
+test
+.
+assertNotNull
+import
 kotlinx
 .
 coroutines
@@ -372,12 +378,6 @@ mockito
 Mockito
 .
 when
-import
-kotlin
-.
-test
-.
-assertNotNull
 RunWith
 (
 AndroidJUnit4

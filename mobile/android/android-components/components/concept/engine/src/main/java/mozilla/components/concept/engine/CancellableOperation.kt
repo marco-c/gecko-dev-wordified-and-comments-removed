@@ -79,7 +79,6 @@ Deferred
 /
 *
 *
-*
 Represents
 an
 async
@@ -108,12 +107,12 @@ does
 nothing
 (
 for
-*
 testing
 purposes
 or
 implementing
 default
+*
 methods
 .
 )

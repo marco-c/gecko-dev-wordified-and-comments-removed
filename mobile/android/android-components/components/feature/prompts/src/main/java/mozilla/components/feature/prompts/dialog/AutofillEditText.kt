@@ -111,9 +111,9 @@ add
 WebDomain
 information
 which
-*
 allows
 autofill
+*
 applications
 to
 detect

@@ -154,13 +154,13 @@ and
 impression
 callbacks
 .
-*
 The
 use
 cases
 performs
 a
 request
+*
 for
 the
 provided
@@ -187,7 +187,6 @@ of
 MozAdsClient
 ]
 for
-*
 making
 HTTP
 API

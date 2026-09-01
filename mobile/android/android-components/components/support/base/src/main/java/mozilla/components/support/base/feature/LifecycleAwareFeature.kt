@@ -81,7 +81,6 @@ LifecycleOwner
 /
 *
 *
-*
 An
 interface
 for
@@ -111,7 +110,6 @@ DefaultLifecycleObserver
 /
 *
 *
-*
 Method
 that
 is
@@ -128,7 +126,6 @@ start
 (
 )
 /
-*
 *
 *
 Method

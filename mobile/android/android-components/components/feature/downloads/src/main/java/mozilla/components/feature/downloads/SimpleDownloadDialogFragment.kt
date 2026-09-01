@@ -244,7 +244,6 @@ download
 is
 triggered
 .
-*
 Meant
 to
 be
@@ -252,6 +251,7 @@ used
 in
 collaboration
 with
+*
 [
 DownloadsFeature
 ]
@@ -276,9 +276,9 @@ provide
 a
 value
 .
-*
 It
 is
+*
 composed
 by
 a
@@ -296,13 +296,12 @@ positive
 button
 is
 clicked
-*
 the
 download
 is
+*
 triggered
 .
-*
 *
 /
 class
@@ -976,7 +975,6 @@ companion
 object
 {
 /
-*
 *
 *
 A

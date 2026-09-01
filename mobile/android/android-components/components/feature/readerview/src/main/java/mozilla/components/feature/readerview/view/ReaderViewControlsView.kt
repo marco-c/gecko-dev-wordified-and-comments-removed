@@ -99,7 +99,6 @@ FontType
 /
 *
 *
-*
 An
 interface
 for
@@ -134,7 +133,6 @@ Listener
 /
 *
 *
-*
 Sets
 the
 selected
@@ -151,7 +149,6 @@ font
 FontType
 )
 /
-*
 *
 *
 Sets
@@ -172,7 +169,6 @@ Int
 /
 *
 *
-*
 Sets
 the
 selected
@@ -189,7 +185,6 @@ scheme
 ColorScheme
 )
 /
-*
 *
 *
 Makes
@@ -210,7 +205,6 @@ showControls
 /
 *
 *
-*
 Makes
 the
 UI
@@ -224,7 +218,6 @@ hideControls
 (
 )
 /
-*
 *
 *
 Casts

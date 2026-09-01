@@ -179,7 +179,6 @@ UserInteractionHandler
 /
 *
 *
-*
 Feature
 implementation
 for
@@ -275,7 +274,6 @@ createDefaultObservation
 /
 *
 *
-*
 Returns
 true
 if
@@ -300,7 +298,6 @@ observation
 .
 inFullScreen
 /
-*
 *
 *
 Starts
@@ -569,7 +566,6 @@ false
 }
 }
 /
-*
 *
 *
 Simple

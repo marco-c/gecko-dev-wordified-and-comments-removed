@@ -131,7 +131,6 @@ collect
 /
 *
 *
-*
 Facts
 emitted
 for
@@ -147,7 +146,6 @@ class
 DownloadsFacts
 {
 /
-*
 *
 *
 Items

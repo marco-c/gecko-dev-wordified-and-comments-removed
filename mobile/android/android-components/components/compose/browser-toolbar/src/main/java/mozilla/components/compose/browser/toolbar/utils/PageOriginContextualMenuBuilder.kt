@@ -252,11 +252,11 @@ device
 s
 clipboard
 content
-*
 depending
 on
 what
 options
+*
 are
 allowed
 .
@@ -286,10 +286,10 @@ device
 s
 clipboard
 content
-*
 depending
 on
 what
+*
 options
 are
 allowed

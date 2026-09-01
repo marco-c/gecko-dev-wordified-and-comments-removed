@@ -123,8 +123,8 @@ Bundles
 This
 is
 primarily
-*
 experienced
+*
 when
 there
 '
@@ -144,12 +144,12 @@ can
 contain
 further
 bundles
-*
 and
 we
 need
 to
 handle
+*
 those
 defensively
 too
@@ -252,6 +252,7 @@ or
 null
 .
 *
+*
 param
 name
 the
@@ -268,7 +269,6 @@ of
 the
 object
 .
-*
 null
 is
 returned
@@ -282,12 +282,12 @@ type
 clazz
 no
 mapping
+*
 exists
 for
 that
 key
 name
-*
 or
 a
 value
@@ -427,7 +427,6 @@ default
 }
 }
 /
-*
 *
 *
 Returns

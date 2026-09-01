@@ -354,7 +354,6 @@ to
 Sync
 .
 *
-*
 /
 internal
 class

@@ -180,7 +180,6 @@ use
 this
 class
 to
-*
 reload
 a
 saved
@@ -198,7 +197,6 @@ requests
 should
 directly
 launch
-*
 the
 PWA
 *
@@ -391,7 +389,6 @@ to
 [
 startUrl
 ]
-*
 *
 return
 an

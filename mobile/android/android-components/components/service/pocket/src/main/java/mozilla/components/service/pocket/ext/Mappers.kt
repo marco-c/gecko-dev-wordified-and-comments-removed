@@ -215,7 +215,6 @@ Day
 /
 *
 *
-*
 Maps
 the
 sponsored
@@ -307,7 +306,6 @@ priority
 /
 *
 *
-*
 Maps
 the
 sponsored
@@ -381,7 +379,6 @@ ranking
 priority
 )
 /
-*
 *
 *
 Maps

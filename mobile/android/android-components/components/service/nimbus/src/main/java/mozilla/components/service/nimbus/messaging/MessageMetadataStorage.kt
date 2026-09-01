@@ -69,7 +69,6 @@ messaging
 /
 *
 *
-*
 A
 storage
 that
@@ -88,7 +87,6 @@ interface
 MessageMetadataStorage
 {
 /
-*
 *
 *
 Provide
@@ -134,6 +132,7 @@ the
 storage
 .
 *
+*
 return
 the
 added
@@ -160,7 +159,6 @@ Message
 .
 Metadata
 /
-*
 *
 *
 Given

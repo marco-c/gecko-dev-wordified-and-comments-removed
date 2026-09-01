@@ -524,10 +524,10 @@ the
 Nimbus
 library
 aside
-*
 from
 recording
 the
+*
 experiment
 in
 Glean

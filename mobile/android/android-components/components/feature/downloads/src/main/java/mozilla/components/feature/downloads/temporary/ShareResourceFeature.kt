@@ -335,9 +335,9 @@ other
 installed
 Android
 apps
-*
 with
 a
+*
 1
 second
 timeout
@@ -367,10 +367,10 @@ used
 only
 for
 images
-*
 PDFs
 or
 other
+*
 small
 files
 .
@@ -494,11 +494,11 @@ like
 the
 download
 operation
-*
 and
 cleanup
 of
 old
+*
 cached
 files
 .

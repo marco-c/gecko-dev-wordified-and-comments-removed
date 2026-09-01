@@ -131,7 +131,6 @@ DesiredSize
 /
 *
 *
-*
 [
 IconProcessor
 ]

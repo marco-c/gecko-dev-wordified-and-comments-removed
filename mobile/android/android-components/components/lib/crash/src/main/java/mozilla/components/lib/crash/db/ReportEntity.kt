@@ -109,7 +109,6 @@ CrashReporterService
 /
 *
 *
-*
 Datanase
 entry
 describing
@@ -141,7 +140,6 @@ class
 ReportEntity
 (
 /
-*
 *
 *
 Database
@@ -178,7 +176,6 @@ null
 /
 *
 *
-*
 UUID
 of
 the
@@ -202,7 +199,6 @@ crashUuid
 :
 String
 /
-*
 *
 *
 Id
@@ -237,7 +233,6 @@ serviceId
 :
 String
 /
-*
 *
 *
 The

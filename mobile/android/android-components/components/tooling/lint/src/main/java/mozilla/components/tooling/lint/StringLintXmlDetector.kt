@@ -209,7 +209,6 @@ ELEMENT_NODE
 /
 *
 *
-*
 Custom
 lint
 check
@@ -900,7 +899,6 @@ find
 a
 comment
 .
-*
 If
 it
 encounters
@@ -911,8 +909,8 @@ string
 element
 before
 a
-comment
 *
+comment
 it
 assumes
 no

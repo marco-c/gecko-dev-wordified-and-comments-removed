@@ -467,7 +467,6 @@ AcornTheme
 /
 *
 *
-*
 Base
 alpha
 value
@@ -476,7 +475,6 @@ the
 fading
 gradient
 .
-*
 Not
 being
 fully
@@ -504,7 +502,6 @@ FADE_EFFECT_LAYER_ALPHA
 /
 *
 *
-*
 Width
 of
 the
@@ -523,7 +520,6 @@ FADE_LENGTH_PX
 =
 20
 /
-*
 *
 *
 How
@@ -574,9 +570,9 @@ left
 to
 right
 .
-*
 See
 bug
+*
 1973915
 and
 related
@@ -601,7 +597,6 @@ LTR_MARK
 u200E
 "
 /
-*
 *
 *
 Character

@@ -138,7 +138,6 @@ commit
 *
 *
 *
-*
 This
 [
 AppCompatActivity
@@ -149,7 +148,6 @@ the
 QrFragment
 ]
 and
-*
 uses
 the
 [
@@ -161,9 +159,9 @@ app
 .
 FragmentResultListener
 ]
-*
 to
 send
+*
 results
 back
 to
@@ -492,7 +490,6 @@ CAMERA
 /
 *
 *
-*
 Companion
 object
 for
@@ -520,7 +517,6 @@ EXTRA_SCAN_RESULT_DATA
 qr_fragment_result_data
 "
 /
-*
 *
 *
 Creates

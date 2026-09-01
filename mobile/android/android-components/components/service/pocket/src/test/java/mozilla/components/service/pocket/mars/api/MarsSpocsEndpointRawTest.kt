@@ -81,6 +81,12 @@ runners
 .
 AndroidJUnit4
 import
+java
+.
+io
+.
+IOException
+import
 kotlinx
 .
 serialization
@@ -296,12 +302,6 @@ junit
 runner
 .
 RunWith
-import
-java
-.
-io
-.
-IOException
 RunWith
 (
 AndroidJUnit4

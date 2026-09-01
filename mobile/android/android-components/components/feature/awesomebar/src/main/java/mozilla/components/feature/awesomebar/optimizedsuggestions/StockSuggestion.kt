@@ -67,6 +67,12 @@ awesomebar
 .
 optimizedsuggestions
 import
+java
+.
+util
+.
+UUID
+import
 mozilla
 .
 components
@@ -126,12 +132,6 @@ awesomebar
 AwesomeBar
 .
 SuggestionProvider
-import
-java
-.
-util
-.
-UUID
 /
 *
 *
@@ -436,18 +436,17 @@ used
 as
 an
 intermediate
-*
 data
 representation
 before
 being
 mapped
 into
+*
 an
 AwesomeBar
 -
 specific
-*
 suggestion
 type
 (
@@ -573,7 +572,6 @@ String
 /
 *
 *
-*
 Represents
 the
 change
@@ -599,7 +597,6 @@ String
 /
 *
 *
-*
 Represents
 a
 positive
@@ -623,7 +620,6 @@ value
 /
 *
 *
-*
 Represents
 a
 negative
@@ -645,7 +641,6 @@ ChangePercent
 value
 )
 /
-*
 *
 *
 Represents

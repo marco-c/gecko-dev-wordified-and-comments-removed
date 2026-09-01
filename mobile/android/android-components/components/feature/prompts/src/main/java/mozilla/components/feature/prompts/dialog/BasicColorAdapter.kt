@@ -341,7 +341,6 @@ newItem
 /
 *
 *
-*
 RecyclerView
 adapter
 for
@@ -443,7 +442,6 @@ position
 }
 }
 /
-*
 *
 *
 View

@@ -233,7 +233,6 @@ RichDocument
 /
 *
 *
-*
 Test
 case
 for
@@ -2907,7 +2906,6 @@ two
 )
 )
 /
-*
 *
 *
 List

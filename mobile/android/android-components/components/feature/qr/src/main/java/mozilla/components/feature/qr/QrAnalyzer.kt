@@ -149,7 +149,6 @@ plug
 into
 a
 Camera2
-*
 YUV
 [
 android
@@ -174,7 +173,6 @@ by
 QrFragment
 ]
 .
-*
 Not
 thread
 -
@@ -186,6 +184,7 @@ analyze
 from
 a
 single
+*
 background
 thread
 .
@@ -227,7 +226,6 @@ decoding
 after
 a
 successful
-*
 detection
 .
 Call
@@ -236,6 +234,7 @@ entering
 QR
 mode
 or
+*
 recovering
 from
 a
@@ -273,7 +272,6 @@ on
 success
 or
 null
-*
 if
 no
 QR
@@ -283,12 +281,12 @@ or
 a
 previous
 call
+*
 already
 returned
 a
 result
 that
-*
 has
 not
 been
@@ -369,7 +367,6 @@ picker
 .
 Returns
 the
-*
 QR
 string
 on
@@ -377,6 +374,7 @@ success
 or
 null
 if
+*
 no
 QR
 is
@@ -400,9 +398,9 @@ Bitmap
 getPixels
 ]
 hardware
-*
 bitmaps
 from
+*
 [
 android
 .
@@ -416,7 +414,6 @@ configured
 with
 a
 software
-*
 allocator
 before
 being
@@ -441,7 +438,6 @@ in
 the
 streaming
 state
-*
 machine
 used
 by
@@ -450,6 +446,7 @@ analyze
 ]
 :
 the
+*
 [
 state
 ]
@@ -462,7 +459,6 @@ written
 here
 .
 The
-*
 shared
 [
 reader
@@ -474,6 +470,7 @@ each
 call
 but
 because
+*
 [
 QrAnalyzer
 ]
@@ -482,7 +479,6 @@ not
 thread
 -
 safe
-*
 callers
 feeding
 the

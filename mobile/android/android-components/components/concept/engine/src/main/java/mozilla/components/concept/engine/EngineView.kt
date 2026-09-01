@@ -131,7 +131,6 @@ SelectionActionDelegate
 /
 *
 *
-*
 View
 component
 that
@@ -145,7 +144,6 @@ interface
 EngineView
 {
 /
-*
 *
 *
 Convenience
@@ -176,7 +174,6 @@ this
 as
 View
 /
-*
 *
 *
 Render
@@ -291,7 +288,6 @@ release
 /
 *
 *
-*
 To
 be
 called
@@ -310,7 +306,6 @@ See
 [
 EngineView
 ]
-*
 implementations
 for
 details
@@ -324,7 +319,6 @@ onResume
 =
 Unit
 /
-*
 *
 *
 To
@@ -345,7 +339,6 @@ See
 [
 EngineView
 ]
-*
 implementations
 for
 details
@@ -359,7 +352,6 @@ onPause
 =
 Unit
 /
-*
 *
 *
 To
@@ -380,7 +372,6 @@ See
 [
 EngineView
 ]
-*
 implementations
 for
 details
@@ -394,7 +385,6 @@ onStart
 =
 Unit
 /
-*
 *
 *
 To
@@ -415,7 +405,6 @@ See
 [
 EngineView
 ]
-*
 implementations
 for
 details
@@ -429,7 +418,6 @@ onStop
 =
 Unit
 /
-*
 *
 *
 To
@@ -450,7 +438,6 @@ See
 [
 EngineView
 ]
-*
 implementations
 for
 details
@@ -464,7 +451,6 @@ onCreate
 =
 Unit
 /
-*
 *
 *
 To
@@ -485,7 +471,6 @@ See
 [
 EngineView
 ]
-*
 implementations
 for
 details
@@ -501,7 +486,6 @@ Unit
 /
 *
 *
-*
 Check
 if
 [
@@ -512,7 +496,6 @@ clear
 the
 selection
 .
-*
 true
 if
 can
@@ -531,7 +514,6 @@ Boolean
 =
 false
 /
-*
 *
 *
 Running
@@ -556,7 +538,6 @@ Float
 /
 *
 *
-*
 Running
 flow
 of
@@ -577,7 +558,6 @@ Float
 /
 *
 *
-*
 Check
 if
 [
@@ -589,7 +569,6 @@ scrolled
 vertically
 up
 .
-*
 true
 if
 can
@@ -610,7 +589,6 @@ true
 /
 *
 *
-*
 Check
 if
 [
@@ -622,7 +600,6 @@ scrolled
 vertically
 down
 .
-*
 true
 if
 can
@@ -641,7 +618,6 @@ Boolean
 =
 true
 /
-*
 *
 *
 return
@@ -707,7 +683,6 @@ INPUT_RESULT_UNHANDLED
 /
 *
 *
-*
 return
 [
 InputResultDetail
@@ -762,6 +737,7 @@ being
 rendered
 .
 *
+*
 param
 onFinish
 A
@@ -773,13 +749,13 @@ process
 of
 capturing
 a
-*
 thumbnail
 has
 finished
 .
 Important
 for
+*
 engine
 -
 gecko
@@ -790,7 +766,6 @@ not
 to
 reference
 the
-*
 context
 or
 view
@@ -838,7 +813,6 @@ Unit
 /
 *
 *
-*
 Clears
 the
 current
@@ -878,8 +852,8 @@ of
 the
 view
 .
-*
 Tells
+*
 the
 [
 EngineView
@@ -1001,11 +975,11 @@ view
 WindowInsets
 changes
 through
-*
 the
 listener
 set
 on
+*
 GeckoView
 *
 *
@@ -1054,6 +1028,7 @@ WindowInsets
 changed
 .
 *
+*
 param
 key
 The
@@ -1075,7 +1050,6 @@ key
 String
 )
 /
-*
 *
 *
 A
@@ -1176,7 +1150,6 @@ Int
 /
 *
 *
-*
 Last
 [
 android
@@ -1204,7 +1177,6 @@ INPUT_RESULT_UNHANDLED
 /
 *
 *
-*
 We
 handled
 the
@@ -1226,7 +1198,6 @@ INPUT_RESULT_HANDLED
 /
 *
 *
-*
 Webpage
 handled
 the
@@ -1239,7 +1210,6 @@ view
 MotionEvent
 ]
 .
-*
 (
 through
 it
@@ -1259,7 +1229,6 @@ INPUT_RESULT_HANDLED_CONTENT
 }
 }
 /
-*
 *
 *
 [

@@ -82,11 +82,11 @@ tabs
 command
 queue
 .
-*
 This
 object
 lets
 the
+*
 [
 SyncedTabsCommandsFlushWorker
 ]
@@ -122,7 +122,6 @@ a
 lazily
 -
 initialized
-*
 synced
 tabs
 command

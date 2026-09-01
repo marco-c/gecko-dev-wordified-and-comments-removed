@@ -472,7 +472,6 @@ Color
 /
 *
 *
-*
 see
 [
 RadioCheckmarkColors
@@ -484,7 +483,6 @@ companion
 object
 {
 /
-*
 *
 *
 The

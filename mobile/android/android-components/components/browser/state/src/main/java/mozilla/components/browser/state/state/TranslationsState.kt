@@ -172,7 +172,6 @@ translation
 engine
 for
 the
-*
 page
 .
 *
@@ -222,9 +221,9 @@ translation
 pair
 .
 The
-*
 translation
 engine
+*
 requires
 the
 pair
@@ -241,7 +240,6 @@ device
 to
 complete
 a
-*
 translation
 .
 *
@@ -271,9 +269,9 @@ acquiring
 resources
 translating
 or
-*
 restoring
 a
+*
 translation
 .
 *

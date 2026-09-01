@@ -69,7 +69,6 @@ translate
 /
 *
 *
-*
 The
 operation
 the
@@ -87,7 +86,6 @@ TranslationOperation
 /
 *
 *
-*
 The
 page
 should
@@ -98,7 +96,6 @@ translated
 /
 TRANSLATE
 /
-*
 *
 *
 A
@@ -128,11 +125,11 @@ fetch
 .
 This
 includes
-*
 the
 languages
 supported
 for
+*
 translating
 both
 "
@@ -149,7 +146,6 @@ BCP
 47
 language
 tag
-*
 and
 localized
 name
@@ -158,7 +154,6 @@ name
 /
 FETCH_SUPPORTED_LANGUAGES
 /
-*
 *
 *
 The
@@ -180,7 +175,6 @@ fetch
 /
 FETCH_LANGUAGE_MODELS
 /
-*
 *
 *
 The
@@ -206,7 +200,6 @@ translations
 offer
 setting
 .
-*
 Note
 :
 this
@@ -219,10 +212,10 @@ in
 FETCH_PAGE_SETTINGS
 ]
 but
+*
 intended
 for
 checking
-*
 fetching
 for
 global
@@ -256,17 +249,16 @@ or
 never
 translate
 for
-*
 all
 supported
 language
+*
 settings
 .
 *
 /
 FETCH_AUTOMATIC_LANGUAGE_SETTINGS
 /
-*
 *
 *
 The

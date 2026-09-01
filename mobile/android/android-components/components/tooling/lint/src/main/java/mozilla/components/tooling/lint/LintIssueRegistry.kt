@@ -109,7 +109,6 @@ Issue
 /
 *
 *
-*
 Registry
 which
 provides

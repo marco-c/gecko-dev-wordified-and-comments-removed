@@ -79,7 +79,6 @@ EngineSession
 /
 *
 *
-*
 Represents
 a
 request
@@ -97,7 +96,6 @@ interface
 WindowRequest
 {
 /
-*
 *
 *
 Describes
@@ -120,7 +118,6 @@ CLOSE
 /
 *
 *
-*
 The
 [
 Type
@@ -134,7 +131,6 @@ whether
 to
 open
 or
-*
 close
 a
 window
@@ -162,7 +158,6 @@ window
 .
 May
 be
-*
 empty
 if
 the
@@ -205,7 +200,6 @@ This
 is
 used
 to
-*
 attach
 state
 (
@@ -219,6 +213,7 @@ session
 or
 view
 )
+*
 to
 the
 engine
@@ -248,7 +243,6 @@ prepare
 :
 EngineSession
 /
-*
 *
 *
 Starts

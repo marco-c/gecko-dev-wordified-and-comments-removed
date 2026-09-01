@@ -103,7 +103,6 @@ FxaAccountManager
 /
 *
 *
-*
 Executes
 [
 block

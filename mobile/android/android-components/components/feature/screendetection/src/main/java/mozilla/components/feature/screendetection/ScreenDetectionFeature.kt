@@ -123,6 +123,14 @@ lifecycle
 .
 LifecycleOwner
 import
+java
+.
+util
+.
+function
+.
+Consumer
+import
 mozilla
 .
 components
@@ -136,16 +144,7 @@ log
 logger
 .
 Logger
-import
-java
-.
-util
-.
-function
-.
-Consumer
 /
-*
 *
 *
 Represents
@@ -167,7 +166,6 @@ DetectionMode
 /
 *
 *
-*
 Detects
 a
 screen
@@ -177,7 +175,6 @@ capture
 /
 SCREEN_CAPTURE
 /
-*
 *
 *
 Detects
@@ -194,7 +191,6 @@ SCREEN_RECORDING
 /
 *
 *
-*
 Detects
 both
 screenshots
@@ -209,7 +205,6 @@ ALL
 /
 *
 *
-*
 Default
 callback
 for
@@ -218,7 +213,6 @@ recording
 state
 changes
 .
-*
 Logs
 whether
 the
@@ -289,7 +283,6 @@ recorded
 /
 *
 *
-*
 Default
 callback
 for
@@ -297,7 +290,6 @@ screen
 capture
 events
 .
-*
 Logs
 when
 a
@@ -328,7 +320,6 @@ taken
 )
 }
 /
-*
 *
 *
 Helper

@@ -234,7 +234,6 @@ failure
 /
 *
 *
-*
 Companion
 object
 for
@@ -265,7 +264,6 @@ remotesettings
 /
 *
 *
-*
 Identifies
 all
 the
@@ -290,7 +288,6 @@ IDENTIFIER_PREFIX
 RemoteSettingsSyncWorker
 "
 /
-*
 *
 *
 Testing

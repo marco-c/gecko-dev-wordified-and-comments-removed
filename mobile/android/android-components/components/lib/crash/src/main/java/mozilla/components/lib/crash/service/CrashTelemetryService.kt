@@ -79,7 +79,6 @@ Crash
 /
 *
 *
-*
 Interface
 to
 be
@@ -102,7 +101,6 @@ CrashTelemetryService
 /
 *
 *
-*
 Set
 whether
 telemetry
@@ -123,7 +121,6 @@ Boolean
 /
 *
 *
-*
 Records
 telemetry
 for
@@ -148,7 +145,6 @@ UncaughtExceptionCrash
 /
 *
 *
-*
 Records
 telemetry
 for
@@ -171,7 +167,6 @@ Crash
 NativeCodeCrash
 )
 /
-*
 *
 *
 Records

@@ -79,7 +79,6 @@ Observable
 /
 *
 *
-*
 Generic
 interface
 for
@@ -141,7 +140,6 @@ Observer
 /
 *
 *
-*
 Interface
 to
 be
@@ -162,7 +160,6 @@ interface
 Observer
 {
 /
-*
 *
 *
 One
@@ -186,7 +183,6 @@ Unit
 /
 *
 *
-*
 A
 new
 tab
@@ -204,7 +200,6 @@ tab
 Tab
 )
 /
-*
 *
 *
 A
@@ -226,7 +221,6 @@ Tab
 /
 *
 *
-*
 Updates
 the
 list
@@ -243,7 +237,6 @@ tabs
 Tabs
 )
 /
-*
 *
 *
 Called

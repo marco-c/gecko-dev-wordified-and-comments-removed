@@ -144,12 +144,12 @@ this
 [
 Bundle
 ]
-*
 replacing
 any
 existing
 web
 app
+*
 manifest
 .
 *
@@ -209,7 +209,6 @@ this
 [
 Bundle
 ]
-*
 or
 null
 if
@@ -219,6 +218,7 @@ of
 the
 desired
 type
+*
 exists
 .
 *

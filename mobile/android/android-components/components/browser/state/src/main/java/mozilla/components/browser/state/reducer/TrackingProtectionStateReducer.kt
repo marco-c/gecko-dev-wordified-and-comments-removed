@@ -134,9 +134,9 @@ specific
 [
 TrackingProtectionState
 ]
-*
 of
 a
+*
 [
 SessionState
 ]

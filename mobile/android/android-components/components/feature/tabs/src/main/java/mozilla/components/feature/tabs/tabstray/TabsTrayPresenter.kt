@@ -219,11 +219,11 @@ the
 tabs
 tray
 whenever
-*
 the
 state
 of
 the
+*
 session
 manager
 changes

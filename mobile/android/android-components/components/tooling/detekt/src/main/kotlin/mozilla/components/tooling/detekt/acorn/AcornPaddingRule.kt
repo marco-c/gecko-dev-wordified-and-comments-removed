@@ -195,7 +195,6 @@ getParentOfType
 /
 *
 *
-*
 Verifies
 that
 padding
@@ -362,13 +361,13 @@ PaddingValues
 )
 but
 exclude
-*
 padding
 it
 recursively
 calls
 PaddingValues
 to
+*
 avoid
 duplicate
 reports

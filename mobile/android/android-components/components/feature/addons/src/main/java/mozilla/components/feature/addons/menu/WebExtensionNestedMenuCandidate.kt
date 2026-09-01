@@ -581,12 +581,12 @@ top
 start
 )
 of
-*
 the
 menu
 or
 if
 web
+*
 extensions
 should
 appear
@@ -616,12 +616,12 @@ item
 is
 selected
 .
-*
 Can
 be
 used
 to
 emit
+*
 telemetry
 .
 *

@@ -152,13 +152,13 @@ TabPartition
 .
 A
 partition
-*
 is
 used
 to
 store
 tab
 groups
+*
 for
 a
 specific
@@ -176,10 +176,10 @@ whether
 the
 translations
 engine
-*
 supports
 the
 device
+*
 architecture
 or
 null

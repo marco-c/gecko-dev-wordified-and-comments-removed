@@ -69,7 +69,6 @@ translate
 /
 *
 *
-*
 The
 current
 state
@@ -87,7 +86,6 @@ class
 ModelState
 {
 /
-*
 *
 *
 The
@@ -109,7 +107,6 @@ NOT_DOWNLOADED
 /
 *
 *
-*
 The
 device
 is
@@ -127,7 +124,6 @@ s
 /
 DOWNLOAD_IN_PROGRESS
 /
-*
 *
 *
 The
@@ -149,7 +145,6 @@ DELETION_IN_PROGRESS
 /
 *
 *
-*
 The
 language
 model
@@ -168,7 +163,6 @@ DOWNLOADED
 /
 *
 *
-*
 An
 error
 occurred
@@ -182,7 +176,6 @@ model
 /
 ERROR_DELETION
 /
-*
 *
 *
 An

@@ -88,7 +88,6 @@ error
 is
 encountered
 that
-*
 is
 not
 otherwise
@@ -96,13 +95,13 @@ covered
 by
 an
 existing
+*
 sub
 -
 class
 to
 GeneralSecurityException
 .
-*
 *
 /
 class

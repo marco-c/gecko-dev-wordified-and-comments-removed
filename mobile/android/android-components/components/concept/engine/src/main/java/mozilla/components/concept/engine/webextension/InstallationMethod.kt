@@ -69,7 +69,6 @@ webextension
 /
 *
 *
-*
 The
 method
 used
@@ -87,7 +86,6 @@ class
 InstallationMethod
 {
 /
-*
 *
 *
 Indicates
@@ -110,7 +108,6 @@ MANAGER
 /
 *
 *
-*
 Indicates
 the
 [
@@ -126,7 +123,6 @@ file
 /
 FROM_FILE
 /
-*
 *
 *
 Indicates
@@ -164,10 +160,10 @@ install
 the
 specific
 addon
-*
 from
 the
 Mozilla
+*
 addons
 webpage
 where

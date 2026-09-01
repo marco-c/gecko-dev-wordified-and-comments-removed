@@ -161,7 +161,6 @@ SamplesGleanLibrary
 /
 *
 *
-*
 Main
 Activity
 of
@@ -526,12 +525,12 @@ the
 Update
 Experiments
 "
-*
 button
 .
 This
 is
 not
+*
 relevant
 to
 the
@@ -631,7 +630,6 @@ configureButton
 /
 *
 *
-*
 Event
 to
 indicate
@@ -684,12 +682,12 @@ applied
 .
 Developers
 normally
-*
 shouldn
 '
 t
 care
 to
+*
 observe
 this
 and

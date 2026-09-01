@@ -371,7 +371,6 @@ Logger
 /
 *
 *
-*
 The
 tag
 used
@@ -525,12 +524,12 @@ added
 in
 the
 list
-*
 should
 be
 the
 same
 as
+*
 the
 links
 shown
@@ -629,9 +628,9 @@ description
 When
 provided
 overrides
-*
 the
 default
+*
 description
 that
 is
@@ -662,9 +661,9 @@ size
 should
 be
 applied
-*
 to
 improve
+*
 accessibility
 touch
 targets
@@ -1079,11 +1078,11 @@ link
 annotation
 for
 each
-*
 [
 LinkTextState
 ]
 whose
+*
 [
 LinkTextState
 .
@@ -1121,10 +1120,10 @@ fullText
 that
 does
 not
-*
 contain
 the
 expected
+*
 substring
 )
 is
@@ -1141,7 +1140,6 @@ a
 link
 with
 an
-*
 out
 of
 range
@@ -1150,6 +1148,7 @@ span
 which
 would
 otherwise
+*
 crash
 later
 in

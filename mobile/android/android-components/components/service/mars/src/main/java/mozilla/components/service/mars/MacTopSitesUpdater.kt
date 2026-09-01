@@ -107,6 +107,14 @@ work
 .
 WorkManager
 import
+java
+.
+util
+.
+concurrent
+.
+TimeUnit
+import
 mozilla
 .
 components
@@ -144,14 +152,6 @@ base
 worker
 .
 Frequency
-import
-java
-.
-util
-.
-concurrent
-.
-TimeUnit
 /
 *
 *
@@ -199,7 +199,6 @@ top
 sites
 tile
 from
-*
 the
 provider
 .
@@ -219,7 +218,6 @@ top
 site
 updates
 should
-*
 happen
 .
 *
@@ -263,7 +261,6 @@ MacTopSitesUpdater
 "
 )
 /
-*
 *
 *
 Starts
@@ -330,7 +327,6 @@ sites
 )
 }
 /
-*
 *
 *
 Stops

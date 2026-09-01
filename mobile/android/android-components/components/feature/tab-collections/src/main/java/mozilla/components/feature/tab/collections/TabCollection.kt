@@ -99,7 +99,6 @@ Engine
 /
 *
 *
-*
 A
 collection
 of
@@ -111,7 +110,6 @@ interface
 TabCollection
 {
 /
-*
 *
 *
 Unique
@@ -130,7 +128,6 @@ Long
 /
 *
 *
-*
 Title
 of
 this
@@ -144,7 +141,6 @@ title
 :
 String
 /
-*
 *
 *
 List
@@ -205,9 +201,9 @@ Otherwise
 a
 new
 ID
-*
 will
 be
+*
 generated
 .
 An
@@ -229,8 +225,8 @@ restored
 multiple
 times
 -
-*
 otherwise
+*
 breaking
 the
 promise
@@ -282,7 +278,6 @@ a
 matching
 list
 of
-*
 [
 RecoverableTab
 ]
@@ -308,9 +303,9 @@ Otherwise
 a
 new
 ID
-*
 will
 be
+*
 generated
 .
 An
@@ -332,8 +327,8 @@ restored
 multiple
 times
 -
-*
 otherwise
+*
 breaking
 the
 promise

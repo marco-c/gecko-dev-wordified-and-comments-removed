@@ -663,7 +663,6 @@ next
 /
 *
 *
-*
 Represents
 a
 [
@@ -682,7 +681,6 @@ state
 of
 the
 account
-*
 lifecycle
 .
 *
@@ -692,7 +690,6 @@ class
 AccountState
 {
 /
-*
 *
 *
 The
@@ -720,7 +717,6 @@ AccountState
 (
 )
 /
-*
 *
 *
 Account
@@ -780,7 +776,6 @@ AccountState
 /
 *
 *
-*
 Account
 needs
 to
@@ -809,7 +804,6 @@ AccountState
 (
 )
 /
-*
 *
 *
 No
@@ -1126,7 +1120,6 @@ which
 gets
 filtered
 by
-*
 Sentry
 .
 Use
@@ -1134,6 +1127,7 @@ Use
 ath
 "
 as
+*
 a
 hacky
 replacement
@@ -1430,7 +1424,6 @@ which
 gets
 filtered
 by
-*
 Sentry
 .
 Use
@@ -1438,6 +1431,7 @@ Use
 ath
 "
 as
+*
 a
 hacky
 replacement

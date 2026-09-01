@@ -97,7 +97,6 @@ Snackbar
 /
 *
 *
-*
 Delegate
 to
 display
@@ -209,6 +208,16 @@ action
 .
 *
 param
+withDismissAction
+Whether
+to
+display
+a
+dismiss
+button
+.
+*
+param
 listener
 callback
 to
@@ -256,6 +265,11 @@ action
 Int
 =
 0
+withDismissAction
+:
+Boolean
+=
+false
 listener
 :
 (
@@ -363,7 +377,6 @@ the
 optional
 action
 .
-*
 The
 [
 listener
@@ -380,6 +393,16 @@ button
 .
 *
 param
+withDismissAction
+Whether
+to
+display
+a
+dismiss
+button
+.
+*
+param
 listener
 callback
 to
@@ -391,7 +414,6 @@ action
 is
 clicked
 .
-*
 An
 [
 action
@@ -403,6 +425,7 @@ provided
 to
 show
 an
+*
 action
 button
 .
@@ -443,6 +466,11 @@ String
 ?
 =
 null
+withDismissAction
+:
+Boolean
+=
+false
 listener
 :
 (
@@ -461,7 +489,6 @@ null
 )
 }
 /
-*
 *
 *
 Default
@@ -513,6 +540,9 @@ action
 :
 String
 ?
+withDismissAction
+:
+Boolean
 listener
 :
 (
@@ -604,6 +634,9 @@ Boolean
 action
 :
 Int
+withDismissAction
+:
+Boolean
 listener
 :
 (

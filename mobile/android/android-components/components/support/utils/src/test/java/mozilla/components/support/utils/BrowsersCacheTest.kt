@@ -111,6 +111,12 @@ net
 .
 toUri
 import
+kotlin
+.
+test
+.
+assertNotNull
+import
 mozilla
 .
 components
@@ -158,12 +164,6 @@ robolectric
 Shadows
 .
 shadowOf
-import
-kotlin
-.
-test
-.
-assertNotNull
 Ignore
 (
 "

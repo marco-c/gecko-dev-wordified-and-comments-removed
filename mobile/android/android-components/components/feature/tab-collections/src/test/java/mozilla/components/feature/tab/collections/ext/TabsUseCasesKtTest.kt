@@ -69,6 +69,12 @@ collections
 .
 ext
 import
+java
+.
+io
+.
+File
+import
 mozilla
 .
 components
@@ -260,12 +266,6 @@ mockito
 ArgumentMatchers
 .
 anyBoolean
-import
-java
-.
-io
-.
-File
 class
 TabsUseCasesKtTest
 {

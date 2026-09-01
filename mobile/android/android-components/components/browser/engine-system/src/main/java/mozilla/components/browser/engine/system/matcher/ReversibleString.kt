@@ -84,7 +84,6 @@ string
 reversal
 .
 We
-*
 regularly
 need
 to
@@ -92,6 +91,7 @@ reverse
 strings
 .
 The
+*
 standard
 way
 of
@@ -99,7 +99,6 @@ doing
 this
 in
 Java
-*
 would
 be
 to
@@ -121,8 +120,8 @@ reverse
 )
 )
 .
-*
 This
+*
 seems
 wasteful
 when
@@ -134,7 +133,6 @@ Strings
 character
 by
 character
-*
 in
 which
 case
@@ -143,6 +141,7 @@ just
 transpose
 positions
 as
+*
 needed
 .
 *
@@ -231,7 +230,6 @@ String
 /
 *
 *
-*
 Returns
 the
 length
@@ -252,7 +250,6 @@ offsetEnd
 -
 offsetStart
 /
-*
 *
 *
 Reverses
@@ -467,7 +464,6 @@ companion
 object
 {
 /
-*
 *
 *
 Create

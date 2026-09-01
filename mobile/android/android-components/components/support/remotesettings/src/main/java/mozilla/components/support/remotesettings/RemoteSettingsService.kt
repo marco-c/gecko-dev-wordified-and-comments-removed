@@ -77,6 +77,12 @@ os
 .
 Build
 import
+java
+.
+util
+.
+Locale
+import
 mozilla
 .
 appservices
@@ -108,12 +114,6 @@ appservices
 remotesettings
 .
 RemoteSettingsServer
-import
-java
-.
-util
-.
-Locale
 import
 mozilla
 .
@@ -163,7 +163,6 @@ is
 where
 cached
 records
-*
 get
 stored
 .
@@ -390,7 +389,6 @@ country
 /
 *
 *
-*
 Data
 class
 representing
@@ -428,7 +426,6 @@ RemoteSettingsContext
 null
 )
 /
-*
 *
 *
 Convert

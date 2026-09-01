@@ -179,9 +179,9 @@ callback
 URLs
 for
 click
-*
 and
 impression
+*
 tracking
 .
 *

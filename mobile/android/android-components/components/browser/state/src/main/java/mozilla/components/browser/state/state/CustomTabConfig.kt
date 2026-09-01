@@ -409,7 +409,6 @@ CUSTOM_TAB
 /
 *
 *
-*
 Represents
 different
 contexts
@@ -432,7 +431,6 @@ ExternalAppType
 /
 *
 *
-*
 Custom
 tab
 is
@@ -449,7 +447,6 @@ toolbar
 /
 CUSTOM_TAB
 /
-*
 *
 *
 Custom
@@ -471,7 +468,6 @@ browser
 /
 PROGRESSIVE_WEB_APP
 /
-*
 *
 *
 Custom
@@ -512,9 +508,9 @@ to
 prevent
 users
 from
-*
 bypassing
 the
+*
 onboarding
 flow
 .

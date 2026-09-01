@@ -176,7 +176,6 @@ allocation
 on
 every
 sensor
-*
 event
 .
 *
@@ -225,7 +224,6 @@ index
 =
 0
 /
-*
 *
 *
 Returns

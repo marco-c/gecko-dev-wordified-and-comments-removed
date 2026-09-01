@@ -114,7 +114,6 @@ SNAP_ANIMATION_DURATION
 /
 *
 *
-*
 Helper
 class
 with
@@ -180,7 +179,6 @@ whatever
 state
 is
 closer
-*
 over
 a
 short
@@ -199,7 +197,6 @@ view
 View
 )
 /
-*
 *
 *
 Snap
@@ -232,7 +229,6 @@ View
 ?
 )
 /
-*
 *
 *
 Translate
@@ -279,10 +275,10 @@ that
 should
 be
 translated
-*
 cancelling
 any
 other
+*
 translation
 already
 in
@@ -302,7 +298,6 @@ distance
 Float
 )
 /
-*
 *
 *
 Translate
@@ -330,7 +325,6 @@ view
 View
 )
 /
-*
 *
 *
 Translate
@@ -365,7 +359,6 @@ distance
 Float
 )
 /
-*
 *
 *
 Translate
@@ -431,7 +424,6 @@ start
 /
 *
 *
-*
 Cancel
 any
 translation
@@ -456,7 +448,6 @@ cancel
 /
 *
 *
-*
 Helper
 class
 containing
@@ -471,7 +462,6 @@ on
 the
 Y
 axis
-*
 between
 0
 and
@@ -744,7 +734,6 @@ targetTranslationY
 /
 *
 *
-*
 Helper
 class
 containing
@@ -759,7 +748,6 @@ on
 the
 Y
 axis
-*
 between
 -
 [

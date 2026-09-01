@@ -173,12 +173,12 @@ UpdateThumbnailAction
 ]
 and
 storing
-*
 the
 thumbnail
 to
 the
 disk
+*
 cache
 .
 *

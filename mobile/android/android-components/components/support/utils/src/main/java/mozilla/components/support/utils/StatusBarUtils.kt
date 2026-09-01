@@ -102,7 +102,6 @@ statusBarSize
 /
 *
 *
-*
 Determine
 the
 height

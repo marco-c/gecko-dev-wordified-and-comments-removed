@@ -294,7 +294,6 @@ isCurrentlyActive
 /
 *
 *
-*
 Sets
 the
 alpha

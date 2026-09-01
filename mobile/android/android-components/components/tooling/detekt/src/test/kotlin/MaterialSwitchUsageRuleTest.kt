@@ -77,6 +77,12 @@ test
 .
 lint
 import
+kotlin
+.
+test
+.
+assertEquals
+import
 mozilla
 .
 components
@@ -94,12 +100,6 @@ org
 junit
 .
 Test
-import
-kotlin
-.
-test
-.
-assertEquals
 class
 MaterialSwitchUsageRuleTest
 {

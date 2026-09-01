@@ -134,7 +134,6 @@ URL
 .
 Anything
 that
-*
 contains
 a
 :
@@ -142,6 +141,7 @@ a
 /
 /
 or
+*
 .
 and
 has
@@ -157,11 +157,11 @@ If
 you
 need
 a
-*
 stricter
 check
 consider
 using
+*
 isURLLikeStrict
 (
 )
@@ -233,7 +233,6 @@ isURLLike
 string
 )
 /
-*
 *
 *
 Normalizes
@@ -1086,7 +1085,6 @@ by
 stripping
 it
 of
-*
 https
 /
 http
@@ -1094,6 +1092,7 @@ and
 /
 or
 WWW
+*
 prefixes
 and
 /
@@ -1220,7 +1219,6 @@ trimEnd
 /
 *
 *
-*
 Determines
 whether
 a
@@ -1276,7 +1274,6 @@ https
 )
 }
 /
-*
 *
 *
 Determine
@@ -1388,7 +1385,6 @@ isNetworkUrl
 containsToken
 }
 /
-*
 *
 *
 Determines

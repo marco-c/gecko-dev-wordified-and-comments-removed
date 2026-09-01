@@ -487,7 +487,6 @@ ad
 was
 clicked
 .
-*
 This
 will
 be
@@ -496,6 +495,7 @@ to
 determine
 the
 originating
+*
 search
 provider
 .
@@ -516,11 +516,11 @@ between
 location
 changes
 .
-*
 Clicking
 on
 a
 search
+*
 ad
 generates
 a
@@ -532,7 +532,6 @@ the
 originating
 search
 provider
-*
 to
 the
 ad
@@ -542,6 +541,7 @@ This
 is
 used
 to
+*
 determine
 if
 there
@@ -700,7 +700,6 @@ Search
 Engine
 Result
 Page
-*
 of
 one
 of
@@ -708,6 +707,7 @@ our
 search
 providers
 which
+*
 contains
 ads
 .
@@ -724,7 +724,6 @@ with
 adds
 "
 /
-*
 *
 *
 [

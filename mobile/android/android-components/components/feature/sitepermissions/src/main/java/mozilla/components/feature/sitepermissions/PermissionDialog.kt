@@ -227,7 +227,6 @@ a
 permission
 dialog
 .
-*
 Includes
 a
 [

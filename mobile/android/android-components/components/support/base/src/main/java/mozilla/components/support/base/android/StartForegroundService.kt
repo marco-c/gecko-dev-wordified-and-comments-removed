@@ -91,12 +91,12 @@ levels
 It
 will
 only
-*
 start
 the
 service
 if
 the
+*
 app
 is
 in
@@ -106,7 +106,6 @@ to
 prevent
 throwing
 the
-*
 ForegroundServiceStartNotAllowedException
 .
 *
@@ -170,10 +169,6 @@ PowerManagerInfoProvider
 *
 *
 *
-see
-StartForegroundService
-*
-*
 param
 func
 The
@@ -191,10 +186,10 @@ to
 follow
 the
 foreground
-*
 service
 restrictions
 for
+*
 sdk
 version
 >
@@ -210,6 +205,9 @@ will
 always
 run
 .
+*
+see
+StartForegroundService
 *
 /
 operator

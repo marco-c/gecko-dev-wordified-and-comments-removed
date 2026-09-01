@@ -724,7 +724,6 @@ Long
 /
 *
 *
-*
 The
 standard
 timeout
@@ -751,7 +750,6 @@ DEFAULT_SNACKBAR_TIMEOUT
 /
 *
 *
-*
 The
 standard
 timeout
@@ -775,7 +773,6 @@ DEFAULT_SNACKBAR_WITH_ACTION_TIMEOUT
 /
 *
 *
-*
 A
 longer
 timeout
@@ -797,7 +794,6 @@ SnackbarTimeout
 ACCESSIBLE_SNACKBAR_TIMEOUT
 )
 /
-*
 *
 *
 Display

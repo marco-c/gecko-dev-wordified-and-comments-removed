@@ -68,7 +68,6 @@ state
 *
 *
 *
-*
 Marks
 an
 [
@@ -89,7 +88,6 @@ delicate
 &
 mdash
 ;
-*
 they
 have
 limited
@@ -102,11 +100,11 @@ ve
 used
 with
 care
+*
 in
 general
 code
 .
-*
 Any
 use
 of
@@ -123,10 +121,10 @@ make
 sure
 it
 is
-*
 properly
 used
 and
+*
 is
 not
 used
@@ -138,7 +136,6 @@ or
 testing
 purposes
 .
-*
 Carefully
 read
 documentation
@@ -147,6 +144,7 @@ any
 declaration
 marked
 as
+*
 DelicateAction
 .
 *

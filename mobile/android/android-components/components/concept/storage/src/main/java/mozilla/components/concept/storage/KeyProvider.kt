@@ -67,7 +67,6 @@ storage
 /
 *
 *
-*
 Knows
 how
 to
@@ -137,12 +136,12 @@ if
 it
 was
 freshly
-*
 generated
 .
 In
 that
 case
+*
 a
 [
 KeyGenerationReason
@@ -153,18 +152,17 @@ allowing
 consumers
 to
 detect
-*
 potential
 key
 loss
 or
 corruption
 .
-*
 If
 [
 wasGenerated
 ]
+*
 is
 null
 that
@@ -201,7 +199,6 @@ null
 /
 *
 *
-*
 Describes
 why
 a
@@ -216,7 +213,6 @@ class
 KeyGenerationReason
 {
 /
-*
 *
 *
 A
@@ -240,7 +236,6 @@ KeyGenerationReason
 /
 *
 *
-*
 Something
 went
 wrong
@@ -261,7 +256,6 @@ KeyGenerationReason
 )
 {
 /
-*
 *
 *
 Previously
@@ -290,7 +284,6 @@ RecoveryNeeded
 /
 *
 *
-*
 Previously
 stored
 key
@@ -315,7 +308,6 @@ RecoveryNeeded
 (
 )
 /
-*
 *
 *
 Storage

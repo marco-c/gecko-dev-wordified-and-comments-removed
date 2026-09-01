@@ -426,7 +426,6 @@ renders
 useful
 data
 in
-*
 it
 to
 aid
@@ -508,7 +507,6 @@ renders
 useful
 data
 in
-*
 [
 IPProtectionState
 ]

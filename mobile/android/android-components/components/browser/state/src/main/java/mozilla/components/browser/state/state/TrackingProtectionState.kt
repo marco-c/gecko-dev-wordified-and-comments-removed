@@ -149,7 +149,6 @@ blocked
 for
 the
 currently
-*
 loaded
 site
 .
@@ -165,7 +164,6 @@ enabled
 or
 not
 for
-*
 this
 [
 SessionState

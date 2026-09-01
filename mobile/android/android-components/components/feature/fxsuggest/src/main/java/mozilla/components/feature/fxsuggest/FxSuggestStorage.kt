@@ -115,6 +115,16 @@ appservices
 .
 suggest
 .
+InternalException
+as
+UniffiInternalException
+import
+mozilla
+.
+appservices
+.
+suggest
+.
 SuggestApiException
 import
 mozilla
@@ -214,16 +224,6 @@ support
 rusterrors
 .
 reportRustError
-import
-mozilla
-.
-appservices
-.
-suggest
-.
-InternalException
-as
-UniffiInternalException
 /
 *
 *
@@ -261,7 +261,6 @@ from
 which
 to
 ingest
-*
 suggestions
 .
 *
@@ -646,10 +645,10 @@ database
 .
 This
 is
-*
 used
 to
 initialize
+*
 the
 database
 on
@@ -662,7 +661,6 @@ Firefox
 updates
 that
 change
-*
 the
 schema
 (
@@ -670,6 +668,7 @@ which
 often
 cause
 the
+*
 suggestions
 table
 to
@@ -704,7 +703,6 @@ true
 )
 }
 /
-*
 *
 *
 Interrupts
@@ -770,10 +768,10 @@ non
 fatal
 exceptions
 .
-*
 Returns
 either
 the
+*
 result
 of
 the
@@ -789,7 +787,6 @@ default
 value
 if
 the
-*
 [
 operation
 ]
@@ -931,7 +928,6 @@ companion
 object
 {
 /
-*
 *
 *
 The

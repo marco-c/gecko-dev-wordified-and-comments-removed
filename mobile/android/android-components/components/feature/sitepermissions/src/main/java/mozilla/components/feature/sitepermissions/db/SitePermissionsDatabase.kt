@@ -133,7 +133,6 @@ SitePermissions
 /
 *
 *
-*
 Internal
 database
 for
@@ -476,6 +475,8 @@ s
 just
 skip
 actually
+/
+/
 migrating
 /
 /

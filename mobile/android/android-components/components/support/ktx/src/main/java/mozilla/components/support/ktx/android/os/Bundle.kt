@@ -93,7 +93,6 @@ equal
 to
 one
 another
-*
 i
 .
 e
@@ -103,6 +102,7 @@ the
 same
 number
 of
+*
 the
 same
 elements

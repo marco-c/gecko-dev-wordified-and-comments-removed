@@ -147,7 +147,6 @@ timestamp
 expressed
 in
 seconds
-*
 (
 from
 System
@@ -156,6 +155,7 @@ currentTimeMillis
 /
 1000
 )
+*
 for
 when
 the
@@ -167,7 +167,6 @@ by
 url
 ]
 was
-*
 shown
 to
 the

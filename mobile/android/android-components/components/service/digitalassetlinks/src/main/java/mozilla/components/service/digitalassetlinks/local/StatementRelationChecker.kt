@@ -119,7 +119,6 @@ StatementListFetcher
 /
 *
 *
-*
 Checks
 if
 a
@@ -187,7 +186,6 @@ companion
 object
 {
 /
-*
 *
 *
 Check

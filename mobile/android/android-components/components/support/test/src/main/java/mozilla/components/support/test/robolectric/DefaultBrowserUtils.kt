@@ -155,7 +155,6 @@ html
 /
 *
 *
-*
 Helper
 methods
 related

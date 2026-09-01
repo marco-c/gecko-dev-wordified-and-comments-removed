@@ -449,7 +449,6 @@ ClearFlags
 /
 *
 *
-*
 A
 storage
 to
@@ -756,7 +755,6 @@ store
 them
 ourselves
 .
-*
 For
 this
 reason
@@ -764,6 +762,7 @@ we
 query
 both
 storage
+*
 (
 [
 geckoStorage
@@ -774,7 +773,6 @@ onDiskStorage
 ]
 )
 and
-*
 merge
 both
 results
@@ -1040,7 +1038,6 @@ provided
 [
 userSitePermissions
 ]
-*
 exists
 on
 the
@@ -1053,6 +1050,7 @@ it
 s
 provided
 as
+*
 a
 part
 of
@@ -1060,12 +1058,12 @@ the
 [
 permissionRequest
 ]
-*
 otherwise
 nothing
 is
 updated
 .
+*
 *
 param
 userSitePermissions
@@ -1105,13 +1103,13 @@ if
 they
 were
 updated
-*
 on
 the
 [
 geckoStorage
 ]
 otherwise
+*
 the
 same
 [
@@ -1682,18 +1680,19 @@ with
 the
 gecko
 permissions
-*
 and
 combined
 both
 into
 a
+*
 single
 a
 [
 SitePermissions
 ]
 .
+*
 *
 param
 onDiskPermissions

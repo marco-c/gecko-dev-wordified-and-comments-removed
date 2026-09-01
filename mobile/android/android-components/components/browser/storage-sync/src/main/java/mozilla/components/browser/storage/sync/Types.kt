@@ -349,7 +349,6 @@ point
 /
 *
 *
-*
 Conversion
 from
 a
@@ -417,7 +416,6 @@ FrecencyThresholdOption
 SKIP_ONE_TIME_PAGES
 }
 /
-*
 *
 *
 Conversion

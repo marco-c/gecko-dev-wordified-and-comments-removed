@@ -127,12 +127,12 @@ an
 engine
 session
 see
-*
 [
 EngineSession
 .
 saveState
 ]
+*
 and
 [
 EngineSession
@@ -157,12 +157,12 @@ engineSession
 .
 It
 is
-*
 used
 to
 observe
 engine
 events
+*
 and
 update
 the
@@ -174,7 +174,6 @@ become
 obsolete
 once
 the
-*
 migration
 to
 browser
@@ -184,13 +183,13 @@ complete
 as
 the
 engine
+*
 will
 then
 have
 direct
 access
 to
-*
 the
 store
 .
@@ -210,11 +209,11 @@ a
 concept
 -
 engine
-*
 implementation
 that
 uses
 a
+*
 multi
 -
 process
@@ -225,7 +224,6 @@ can
 crash
 without
 crashing
-*
 the
 whole
 app
@@ -235,6 +233,7 @@ crashed
 session
 may
 still
+*
 be
 operational
 (
@@ -243,7 +242,6 @@ the
 underlying
 engine
 implementation
-*
 has
 recovered
 its
@@ -253,6 +251,7 @@ process
 but
 further
 action
+*
 may
 be
 needed
@@ -261,7 +260,6 @@ restore
 the
 last
 state
-*
 before
 the
 session

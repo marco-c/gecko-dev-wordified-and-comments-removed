@@ -211,7 +211,6 @@ components
 /
 *
 *
-*
 An
 activity
 to
@@ -382,7 +381,6 @@ attrs
 )
 }
 /
-*
 *
 *
 A
@@ -689,7 +687,6 @@ companion
 object
 {
 /
-*
 *
 *
 Create

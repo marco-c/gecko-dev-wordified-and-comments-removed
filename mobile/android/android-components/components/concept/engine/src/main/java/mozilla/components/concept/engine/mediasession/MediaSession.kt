@@ -75,7 +75,6 @@ Bitmap
 /
 *
 *
-*
 Value
 type
 that
@@ -598,7 +597,6 @@ shl
 /
 *
 *
-*
 Returns
 true
 if
@@ -633,7 +631,6 @@ flag
 =
 0L
 /
-*
 *
 *
 Returns
@@ -716,7 +713,6 @@ hashCode
 /
 *
 *
-*
 A
 simplified
 media
@@ -731,7 +727,6 @@ class
 PlaybackState
 {
 /
-*
 *
 *
 Unknown
@@ -750,7 +745,6 @@ yet
 /
 UNKNOWN
 /
-*
 *
 *
 Playback
@@ -774,7 +768,6 @@ STOPPED
 /
 *
 *
-*
 This
 [
 MediaSession
@@ -786,7 +779,6 @@ paused
 /
 PAUSED
 /
-*
 *
 *
 This
@@ -819,7 +811,6 @@ used
 to
 pick
 the
-*
 matching
 platform
 audio
@@ -827,10 +818,10 @@ audio
 focus
 request
 .
+*
 Mirrors
 the
 AudioSessionType
-*
 WebIDL
 enum
 ;
@@ -885,7 +876,6 @@ platform
 routed
 to
 the
-*
 tab
 '
 s
@@ -896,10 +886,10 @@ interrupt
 a
 transient
 or
+*
 permanent
 focus
 loss
-*
 interrupts
 the
 tab
@@ -914,11 +904,11 @@ Web
 Audio
 and
 Web
-*
 Speech
 )
 and
 a
+*
 focus
 gain
 resumes
@@ -940,7 +930,6 @@ PERMANENT_LOSS
 /
 *
 *
-*
 Controller
 for
 controlling
@@ -958,7 +947,6 @@ Controller
 /
 *
 *
-*
 Pauses
 the
 media
@@ -970,7 +958,6 @@ pause
 (
 )
 /
-*
 *
 *
 Stop
@@ -987,7 +974,6 @@ stop
 (
 )
 /
-*
 *
 *
 Plays
@@ -1010,7 +996,6 @@ a
 specific
 time
 .
-*
 Prefer
 using
 fast
@@ -1022,13 +1007,13 @@ in
 a
 sequence
 .
-*
 Don
 '
 t
 use
 fast
 seeking
+*
 for
 the
 last
@@ -1079,7 +1064,6 @@ Boolean
 /
 *
 *
-*
 Seek
 forward
 by
@@ -1096,7 +1080,6 @@ seekForward
 (
 )
 /
-*
 *
 *
 Seek
@@ -1117,7 +1100,6 @@ seekBackward
 /
 *
 *
-*
 Select
 and
 play
@@ -1125,7 +1107,6 @@ the
 next
 track
 .
-*
 Move
 playback
 to
@@ -1147,7 +1128,6 @@ nextTrack
 /
 *
 *
-*
 Select
 and
 play
@@ -1155,7 +1135,6 @@ the
 previous
 track
 .
-*
 Move
 playback
 to
@@ -1175,7 +1154,6 @@ previousTrack
 (
 )
 /
-*
 *
 *
 Skip
@@ -1203,7 +1181,6 @@ should
 be
 muted
 .
-*
 Muting
 audio
 is
@@ -1264,7 +1241,6 @@ tab
 s
 Audio
 Session
-*
 interrupt
 suspending
 or
@@ -1273,11 +1249,11 @@ the
 tab
 '
 s
+*
 audible
 sources
 (
 media
-*
 elements
 Web
 Audio

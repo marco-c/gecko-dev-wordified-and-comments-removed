@@ -83,7 +83,6 @@ BrowserToolbar
 /
 *
 *
-*
 Test
 tags
 for
@@ -106,7 +105,6 @@ MINIMAL_ADDRESS_BAR
 MINIMAL_ADDRESS_BAR
 "
 /
-*
 *
 *
 Test
@@ -135,7 +133,6 @@ ADDRESSBAR_URL_BOX
 /
 *
 *
-*
 Test
 tag
 for
@@ -149,7 +146,6 @@ display
 "
 mode
 .
-*
 Webpage
 title
 is
@@ -172,7 +168,6 @@ ADDRESSBAR_TITLE
 ADDRESSBAR_TITLE
 "
 /
-*
 *
 *
 Test
@@ -203,7 +198,6 @@ ADDRESSBAR_URL
 /
 *
 *
-*
 Test
 tag
 for
@@ -225,7 +219,6 @@ ADDRESSBAR_PROGRESSBAR
 /
 *
 *
-*
 Test
 tag
 for
@@ -244,7 +237,6 @@ SEARCH_SELECTOR
 SEARCH_SELECTOR
 "
 /
-*
 *
 *
 Test
@@ -276,7 +268,6 @@ ADDRESSBAR_TABS_COUNTER
 /
 *
 *
-*
 Test
 tag
 for
@@ -289,7 +280,6 @@ edit
 "
 mode
 .
-*
 Useful
 for
 entering
@@ -314,7 +304,6 @@ ADDRESSBAR_SEARCH_BOX
 /
 *
 *
-*
 Test
 tag
 for
@@ -339,7 +328,6 @@ ADDRESSBAR_EDIT_MODE
 /
 *
 *
-*
 Test
 tag
 for
@@ -357,7 +345,6 @@ ADDRESSBAR_EDIT_MODE_HORIZONTAL_DIVIDER
 ADDRESSBAR_EDIT_MODE_HORIZONTAL_DIVIDER
 "
 /
-*
 *
 *
 Test

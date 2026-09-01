@@ -103,7 +103,6 @@ Source
 /
 *
 *
-*
 The
 state
 an
@@ -120,7 +119,6 @@ class
 IconLoaderState
 {
 /
-*
 *
 *
 The
@@ -164,7 +162,6 @@ is
 available
 through
 the
-*
 attached
 [
 painter

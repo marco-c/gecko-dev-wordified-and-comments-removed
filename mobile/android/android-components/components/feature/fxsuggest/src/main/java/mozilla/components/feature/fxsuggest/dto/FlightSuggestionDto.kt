@@ -81,7 +81,6 @@ Serializable
 /
 *
 *
-*
 Top
 -
 level
@@ -421,13 +420,13 @@ origin
 destination
 airport
 .
-*
 All
 values
 are
 derived
 in
 the
+*
 origin
 /
 destination
@@ -467,12 +466,12 @@ local
 airport
 time
 .
-*
 To
 be
 used
 when
 flight
+*
 departure
 /
 arrival
@@ -552,7 +551,6 @@ or
 ACA
 )
 .
-*
 This
 would
 be
@@ -600,7 +598,6 @@ null
 if
 unavailable
 .
-*
 Note
 :
 Currently
@@ -608,6 +605,7 @@ Merino
 is
 not
 returning
+*
 this
 value
 so
@@ -634,7 +632,6 @@ be
 null
 if
 unavailable
-*
 *
 /
 Serializable

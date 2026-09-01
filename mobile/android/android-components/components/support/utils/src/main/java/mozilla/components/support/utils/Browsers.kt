@@ -245,7 +245,6 @@ Uri
 /
 *
 *
-*
 Enum
 of
 known
@@ -830,7 +829,6 @@ browsers
 /
 *
 *
-*
 The
 [
 ActivityInfo
@@ -866,7 +864,6 @@ context
 uri
 )
 /
-*
 *
 *
 The
@@ -949,7 +946,6 @@ findFirefoxBrandedBrowser
 /
 *
 *
-*
 Is
 there
 a
@@ -972,7 +968,6 @@ firefoxBrandedBrowser
 =
 null
 /
-*
 *
 *
 Is
@@ -1080,7 +1075,6 @@ packageName
 /
 *
 *
-*
 List
 of
 [
@@ -1110,7 +1104,6 @@ toList
 (
 )
 /
-*
 *
 *
 Does
@@ -1191,7 +1184,6 @@ packageName
 packageName
 )
 /
-*
 *
 *
 Does
@@ -1312,7 +1304,6 @@ false
 /
 *
 *
-*
 Does
 this
 device
@@ -1345,7 +1336,6 @@ packageName
 )
 }
 /
-*
 *
 *
 Does
@@ -2049,12 +2039,12 @@ checking
 if
 *
 *
-*
 this
 *
 *
 is
 the
+*
 default
 .
 *
@@ -2290,7 +2280,6 @@ toUri
 /
 *
 *
-*
 Returns
 true
 is
@@ -2371,12 +2360,12 @@ checking
 if
 *
 *
-*
 this
 *
 *
 is
 the
+*
 default
 .
 *
@@ -2469,7 +2458,6 @@ context
 packageName
 }
 /
-*
 *
 *
 Collect
@@ -2571,6 +2559,7 @@ the
 installed
 browsers
 .
+*
 *
 return
 A
@@ -2783,6 +2772,7 @@ URL
 url
 ]
 .
+*
 *
 return
 A

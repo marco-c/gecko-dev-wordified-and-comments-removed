@@ -171,7 +171,6 @@ events
 and
 callbacks
 .
-*
 Call
 [
 install
@@ -179,6 +178,7 @@ install
 to
 actually
 start
+*
 observing
 them
 .

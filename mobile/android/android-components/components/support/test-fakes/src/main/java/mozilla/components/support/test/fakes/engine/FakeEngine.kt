@@ -219,10 +219,10 @@ should
 expect
 to
 restore
-*
 engine
 sessions
 from
+*
 actual
 engine
 session
@@ -240,13 +240,13 @@ GeckoView
 Otherwise
 this
 fake
-*
 will
 expect
 to
 always
 deal
 with
+*
 [
 FakeEngineSessionState
 ]

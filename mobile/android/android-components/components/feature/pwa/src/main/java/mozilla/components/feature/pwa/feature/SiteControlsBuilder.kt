@@ -165,7 +165,6 @@ SessionUseCases
 /
 *
 *
-*
 Callback
 for
 [
@@ -205,10 +204,10 @@ provided
 [
 builder
 ]
-*
 and
 additional
 actions
+*
 can
 be
 added
@@ -222,7 +221,6 @@ as
 [
 PendingIntent
 ]
-*
 that
 are
 filtered
@@ -232,6 +230,7 @@ getFilter
 ]
 and
 handled
+*
 in
 [
 onReceiveBroadcast
@@ -252,7 +251,6 @@ Notification
 Builder
 )
 /
-*
 *
 *
 Return
@@ -278,7 +276,6 @@ getFilter
 :
 IntentFilter
 /
-*
 *
 *
 Handle
@@ -308,7 +305,6 @@ intent
 Intent
 )
 /
-*
 *
 *
 Default
@@ -566,7 +562,6 @@ a
 Refresh
 button
 and
-*
 copies
 the
 URL

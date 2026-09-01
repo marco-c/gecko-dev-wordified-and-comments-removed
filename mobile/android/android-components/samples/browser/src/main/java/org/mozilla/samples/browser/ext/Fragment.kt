@@ -87,7 +87,6 @@ Components
 /
 *
 *
-*
 Get
 the
 components

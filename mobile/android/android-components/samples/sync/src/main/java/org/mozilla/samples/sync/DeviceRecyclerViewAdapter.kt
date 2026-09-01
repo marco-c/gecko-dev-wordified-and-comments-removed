@@ -172,8 +172,8 @@ a
 call
 to
 the
-*
 specified
+*
 [
 OnDeviceListInteractionListener
 ]

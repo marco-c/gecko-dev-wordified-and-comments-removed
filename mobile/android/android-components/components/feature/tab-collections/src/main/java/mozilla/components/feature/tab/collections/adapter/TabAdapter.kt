@@ -69,6 +69,12 @@ collections
 .
 adapter
 import
+java
+.
+io
+.
+File
+import
 mozilla
 .
 components
@@ -132,12 +138,6 @@ collections
 db
 .
 TabEntity
-import
-java
-.
-io
-.
-File
 internal
 class
 TabAdapter

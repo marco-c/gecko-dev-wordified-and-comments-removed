@@ -179,7 +179,6 @@ wrapper
 on
 top
 of
-*
 AcornTheme
 .
 *
@@ -202,11 +201,11 @@ that
 is
 used
 to
-*
 specify
 the
 full
 import
+*
 namespace
 to
 use
@@ -219,7 +218,6 @@ level
 theme
 wrapper
 when
-*
 constructing
 the
 reported
@@ -229,6 +227,7 @@ e
 .
 g
 .
+*
 org
 .
 mozilla
@@ -336,7 +335,6 @@ default
 "
 )
 /
-*
 *
 *
 Report

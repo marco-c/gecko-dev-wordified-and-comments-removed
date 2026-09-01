@@ -129,13 +129,13 @@ a
 preview
 for
 each
-*
 combination
 of
 [
 AcornWindowSize
 ]
 and
+*
 Light
 /
 Dark

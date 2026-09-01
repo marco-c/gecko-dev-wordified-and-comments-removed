@@ -95,7 +95,6 @@ content
 from
 the
 page
-*
 using
 reader
 mode

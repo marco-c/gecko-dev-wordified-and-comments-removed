@@ -327,7 +327,6 @@ empty
 string
 if
 no
-*
 search
 was
 executed
@@ -345,7 +344,6 @@ as
 [
 SecurityInfo
 ]
-*
 describing
 whether
 or
@@ -355,12 +353,12 @@ this
 session
 is
 for
+*
 a
 secure
 URL
 as
 well
-*
 as
 the
 host
@@ -599,11 +597,11 @@ was
 granted
 /
 denied
-*
 that
 should
 be
 brought
+*
 to
 the
 user
@@ -619,7 +617,6 @@ is
 not
 able
 to
-*
 play
 because
 the
@@ -680,7 +677,6 @@ refreshing
 was
 canceled
 .
-*
 True
 if
 a
@@ -689,6 +685,7 @@ refresh
 was
 cancelled
 by
+*
 the
 user
 defaults
@@ -701,7 +698,6 @@ this
 is
 not
 about
-*
 stopping
 an
 ongoing
@@ -712,6 +708,7 @@ useful
 in
 cases
 like
+*
 swipe
 -
 to
@@ -721,7 +718,6 @@ which
 allow
 users
 to
-*
 cancel
 or
 abort
@@ -750,7 +746,6 @@ microphone
 currently
 in
 use
-*
 by
 web
 content
@@ -1116,7 +1111,6 @@ false
 )
 {
 /
-*
 *
 *
 Use

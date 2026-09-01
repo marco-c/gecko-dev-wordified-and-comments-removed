@@ -81,7 +81,6 @@ EvaluatorException
 /
 *
 *
-*
 A
 JEXL
 value
@@ -151,7 +150,6 @@ toBoolean
 Boolean
 }
 /
-*
 *
 *
 JEXL
@@ -556,7 +554,6 @@ hashCode
 /
 *
 *
-*
 JEXL
 Double
 type
@@ -963,7 +960,6 @@ hashCode
 /
 *
 *
-*
 JEXL
 Boolean
 type
@@ -1292,7 +1288,6 @@ hashCode
 /
 *
 *
-*
 JEXL
 String
 type
@@ -1551,7 +1546,6 @@ hashCode
 /
 *
 *
-*
 JEXL
 Array
 type
@@ -1754,7 +1748,6 @@ hashCode
 )
 }
 /
-*
 *
 *
 JEXL
@@ -1977,7 +1970,6 @@ hashCode
 }
 }
 /
-*
 *
 *
 JEXL

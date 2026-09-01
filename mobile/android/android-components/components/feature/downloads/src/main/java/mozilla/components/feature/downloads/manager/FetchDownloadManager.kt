@@ -177,6 +177,12 @@ content
 .
 ContextCompat
 import
+kotlin
+.
+reflect
+.
+KClass
+import
 mozilla
 .
 components
@@ -302,12 +308,6 @@ utils
 ext
 .
 registerReceiverCompat
-import
-kotlin
-.
-reflect
-.
-KClass
 /
 *
 *
@@ -493,6 +493,7 @@ the
 AbstractFetchDownloadService
 ]
 .
+*
 *
 param
 download
@@ -700,7 +701,6 @@ registerBroadcastReceiver
 /
 *
 *
-*
 Remove
 all
 the
@@ -793,12 +793,12 @@ and
 removes
 the
 queued
-*
 download
 if
 it
 '
 s
+*
 complete
 .
 *

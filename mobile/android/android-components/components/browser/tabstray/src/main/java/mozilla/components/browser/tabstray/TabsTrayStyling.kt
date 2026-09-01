@@ -121,10 +121,10 @@ custom
 [
 TabViewHolder
 ]
-*
 is
 used
 with
+*
 [
 TabsAdapter
 .
@@ -135,7 +135,6 @@ styling
 can
 be
 applied
-*
 when
 [
 TabViewHolder

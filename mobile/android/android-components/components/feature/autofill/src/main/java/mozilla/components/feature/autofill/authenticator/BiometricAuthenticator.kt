@@ -139,7 +139,6 @@ DEVICE_CREDENTIAL
 /
 *
 *
-*
 [
 Authenticator
 ]
@@ -155,7 +154,6 @@ BiometricPrompt
 ]
 to
 authorize
-*
 the
 user
 .
@@ -271,7 +269,6 @@ object
 /
 *
 *
-*
 Returns
 true
 if
@@ -334,11 +331,11 @@ BiometricAuthenticator
 is
 not
 possible
-*
 yet
 but
 the
 user
+*
 can
 enroll
 and

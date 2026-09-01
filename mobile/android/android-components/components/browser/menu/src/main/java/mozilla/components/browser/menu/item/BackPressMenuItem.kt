@@ -232,7 +232,6 @@ textColorResource
 /
 *
 *
-*
 Binds
 the
 view
@@ -336,7 +335,6 @@ contentDescription
 contentDescription
 }
 /
-*
 *
 *
 Sets

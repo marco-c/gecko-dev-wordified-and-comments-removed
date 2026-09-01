@@ -145,7 +145,6 @@ ByteArrayOutputStream
 /
 *
 *
-*
 Transform
 bitmap
 into
@@ -236,7 +235,6 @@ four
 rounded
 corners
 ;
-*
 the
 receiver
 is
@@ -257,7 +255,6 @@ identical
 Bitmap
 and
 copying
-*
 all
 of
 the
@@ -266,6 +263,7 @@ Bitmap
 s
 pixels
 .
+*
 Consider
 these
 theoretically
@@ -396,7 +394,6 @@ return
 roundedBitmap
 }
 /
-*
 *
 *
 Returns

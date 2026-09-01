@@ -69,7 +69,6 @@ sites
 /
 *
 *
-*
 A
 contract
 that
@@ -113,7 +112,6 @@ provided
 from
 a
 previously
-*
 cached
 response
 .
@@ -146,7 +144,6 @@ List
 TopSite
 >
 /
-*
 *
 *
 Refreshes

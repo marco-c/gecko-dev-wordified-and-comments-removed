@@ -73,7 +73,6 @@ BuildConfig
 /
 *
 *
-*
 Information
 about
 the
@@ -88,7 +87,6 @@ object
 Build
 {
 /
-*
 *
 *
 The
@@ -183,7 +181,6 @@ BuildConfig
 .
 APPLICATION_SERVICES_VERSION
 /
-*
 *
 *
 The

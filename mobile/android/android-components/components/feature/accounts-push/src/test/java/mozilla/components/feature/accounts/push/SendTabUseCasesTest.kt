@@ -67,6 +67,12 @@ accounts
 .
 push
 import
+java
+.
+util
+.
+UUID
+import
 kotlinx
 .
 coroutines
@@ -246,12 +252,6 @@ mockito
 Mockito
 .
 when
-import
-java
-.
-util
-.
-UUID
 class
 SendTabUseCasesTest
 {

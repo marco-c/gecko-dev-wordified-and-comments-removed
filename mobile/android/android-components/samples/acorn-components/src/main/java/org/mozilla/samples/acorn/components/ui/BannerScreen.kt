@@ -287,7 +287,6 @@ iconsR
 /
 *
 *
-*
 Displays
 demos
 of

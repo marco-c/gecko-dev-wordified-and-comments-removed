@@ -117,7 +117,6 @@ StockItem
 /
 *
 *
-*
 Simple
 fake
 data
@@ -127,7 +126,6 @@ for
 unit
 tests
 .
-*
 Records
 calls
 and

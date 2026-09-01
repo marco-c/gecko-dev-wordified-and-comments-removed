@@ -265,7 +265,6 @@ KEY_ICON
 /
 *
 *
-*
 [
 A
 Federated
@@ -666,6 +665,7 @@ a
 PrivacyPolicyDialogFragment
 ]
 *
+*
 param
 sessionId
 to
@@ -701,12 +701,12 @@ should
 automatically
 be
 dismissed
-*
 when
 a
 new
 page
 is
+*
 loaded
 .
 *

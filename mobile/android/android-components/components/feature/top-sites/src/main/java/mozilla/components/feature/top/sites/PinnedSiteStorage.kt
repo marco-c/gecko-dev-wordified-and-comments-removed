@@ -137,7 +137,6 @@ toPinnedSite
 /
 *
 *
-*
 A
 storage
 implementation
@@ -264,11 +263,11 @@ pinned
 site
 .
 This
-*
 is
 used
 to
 identify
+*
 pinned
 sites
 that
@@ -387,11 +386,11 @@ pinned
 site
 .
 This
-*
 is
 used
 to
 identify
+*
 pinned
 sites
 that
@@ -457,7 +456,6 @@ entity
 )
 }
 /
-*
 *
 *
 Returns
@@ -638,7 +636,6 @@ pinnedSite
 )
 }
 /
-*
 *
 *
 Returns

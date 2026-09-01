@@ -97,7 +97,6 @@ Locale
 /
 *
 *
-*
 Contains
 functionality
 to
@@ -109,7 +108,6 @@ as
 part
 of
 this
-*
 module
 '
 s
@@ -137,7 +135,6 @@ locale
 plus
 the
 domains
-*
 in
 the
 '

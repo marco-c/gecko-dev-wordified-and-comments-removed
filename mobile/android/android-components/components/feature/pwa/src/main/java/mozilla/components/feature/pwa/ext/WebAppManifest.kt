@@ -232,6 +232,7 @@ least
 192x192
 .
 *
+*
 see
 [
 installableManifest
@@ -330,11 +331,11 @@ a
 resource
 ID
 .
-*
 Instead
 we
 use
 the
+*
 deprecated
 constructor
 .
@@ -367,7 +368,6 @@ themeColor
 0
 )
 /
-*
 *
 *
 Creates
@@ -514,8 +514,8 @@ Uri
 ]
 for
 use
-*
 with
+*
 [
 mozilla
 .
@@ -549,12 +549,12 @@ display
 minimal
 -
 ui
-*
 where
 the
 toolbar
 should
 always
+*
 be
 displayed
 .

@@ -79,6 +79,12 @@ annotation
 .
 VisibleForTesting
 import
+java
+.
+io
+.
+File
+import
 mozilla
 .
 components
@@ -92,12 +98,6 @@ log
 logger
 .
 Logger
-import
-java
-.
-io
-.
-File
 private
 const
 val
@@ -130,10 +130,10 @@ source
 target
 pair
 .
-*
 The
 migration
 will
+*
 be
 applied
 only
@@ -149,7 +149,6 @@ meaning
 that
 it
 is
-*
 intended
 to
 run
@@ -157,6 +156,7 @@ only
 once
 when
 user
+*
 updates
 from
 a
@@ -167,7 +167,6 @@ legacy
 cache
 directory
 to
-*
 a
 version
 using
@@ -175,12 +174,12 @@ the
 new
 directory
 .
-*
 Clearing
 cache
 won
 '
 t
+*
 trigger
 a
 new
@@ -195,7 +194,6 @@ if
 we
 have
 files
-*
 in
 the
 legacy
@@ -204,6 +202,7 @@ which
 need
 to
 be
+*
 migrated
 to
 the
@@ -211,6 +210,7 @@ new
 cache
 directory
 .
+*
 *
 param
 logger
@@ -310,6 +310,7 @@ been
 migrated
 yet
 .
+*
 *
 param
 context
@@ -712,7 +713,6 @@ String
 (
 )
 /
-*
 *
 *
 Resets

@@ -77,6 +77,12 @@ runners
 .
 AndroidJUnit4
 import
+java
+.
+security
+.
+Security
+import
 mozilla
 .
 components
@@ -132,12 +138,6 @@ robolectric
 annotation
 .
 Config
-import
-java
-.
-security
-.
-Security
 RunWith
 (
 AndroidJUnit4

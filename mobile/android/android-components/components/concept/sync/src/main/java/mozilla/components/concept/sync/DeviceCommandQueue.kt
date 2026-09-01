@@ -79,7 +79,6 @@ Observable
 /
 *
 *
-*
 A
 queue
 that
@@ -235,16 +234,15 @@ This
 is
 a
 marker
-*
 superinterface
 implemented
 by
+*
 [
 DeviceCommandOutgoing
 ]
 commands
 that
-*
 support
 queueing
 .

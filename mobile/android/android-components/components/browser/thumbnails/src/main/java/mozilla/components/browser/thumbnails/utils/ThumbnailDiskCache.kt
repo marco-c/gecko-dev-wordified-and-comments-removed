@@ -85,6 +85,12 @@ annotation
 .
 VisibleForTesting
 import
+java
+.
+io
+.
+File
+import
 mozilla
 .
 components
@@ -146,12 +152,6 @@ utils
 cache
 .
 DiskLruCacheStore
-import
-java
-.
-io
-.
-File
 private
 const
 val

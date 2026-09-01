@@ -75,7 +75,6 @@ VisibleForTesting
 /
 *
 *
-*
 Global
 API
 for
@@ -111,7 +110,6 @@ FactProcessor
 /
 *
 *
-*
 Registers
 a
 new
@@ -141,7 +139,6 @@ return
 this
 }
 /
-*
 *
 *
 Collects

@@ -97,7 +97,6 @@ DefaultDownloadFileUtils
 /
 *
 *
-*
 This
 class
 acts
@@ -116,7 +115,6 @@ the
 application
 '
 s
-*
 file
 utility
 logic
@@ -153,7 +151,6 @@ downloadLocation
 downloadLocation
 )
 /
-*
 *
 *
 Guess

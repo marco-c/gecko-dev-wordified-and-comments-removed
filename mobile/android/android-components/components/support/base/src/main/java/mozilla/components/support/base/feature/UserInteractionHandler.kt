@@ -89,13 +89,13 @@ want
 to
 handle
 user
-*
 interactions
 such
 as
 '
 back
 '
+*
 or
 '
 home
@@ -236,9 +236,9 @@ app
 that
 the
 user
-*
 is
 going
+*
 to
 leave
 the

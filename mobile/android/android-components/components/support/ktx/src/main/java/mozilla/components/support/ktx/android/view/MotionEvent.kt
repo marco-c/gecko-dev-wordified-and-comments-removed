@@ -95,9 +95,9 @@ it
 down
 correctly
 whether
-*
 an
 exception
+*
 is
 thrown
 or

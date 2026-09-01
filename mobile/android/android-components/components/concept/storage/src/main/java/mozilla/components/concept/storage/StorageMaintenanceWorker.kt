@@ -131,10 +131,10 @@ longer
 met
 during
 execution
-*
 cancellation
 tasks
 are
+*
 executed
 via
 [
@@ -216,7 +216,6 @@ failure
 /
 *
 *
-*
 Called
 when
 [
@@ -226,7 +225,6 @@ is
 being
 executed
 .
-*
 *
 /
 abstract
@@ -265,7 +263,6 @@ overriding
 the
 method
 .
-*
 *
 /
 abstract

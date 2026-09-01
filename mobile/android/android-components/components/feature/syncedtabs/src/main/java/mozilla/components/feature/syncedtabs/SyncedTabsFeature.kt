@@ -77,6 +77,12 @@ lifecycle
 .
 LifecycleOwner
 import
+kotlin
+.
+coroutines
+.
+CoroutineContext
+import
 kotlinx
 .
 coroutines
@@ -226,12 +232,6 @@ base
 feature
 .
 LifecycleAwareFeature
-import
-kotlin
-.
-coroutines
-.
-CoroutineContext
 /
 *
 *
@@ -252,10 +252,10 @@ synced
 device
 tabs
 for
-*
 the
 Firefox
 Sync
+*
 account
 .
 *

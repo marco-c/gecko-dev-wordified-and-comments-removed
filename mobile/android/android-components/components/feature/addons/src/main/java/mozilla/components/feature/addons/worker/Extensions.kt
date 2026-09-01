@@ -67,6 +67,12 @@ addons
 .
 worker
 import
+java
+.
+io
+.
+IOException
+import
 kotlinx
 .
 coroutines
@@ -84,14 +90,7 @@ engine
 webextension
 .
 WebExtensionException
-import
-java
-.
-io
-.
-IOException
 /
-*
 *
 *
 Indicates

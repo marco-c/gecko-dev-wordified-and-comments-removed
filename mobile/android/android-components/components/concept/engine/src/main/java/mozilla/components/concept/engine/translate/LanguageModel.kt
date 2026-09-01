@@ -100,7 +100,6 @@ is
 usually
 comprised
 of
-*
 an
 aggregation
 of
@@ -110,13 +109,13 @@ learning
 models
 on
 the
+*
 translations
 engine
 level
 .
 The
 engine
-*
 has
 already
 handled
@@ -147,7 +146,6 @@ of
 the
 language
 models
-*
 which
 can
 be
@@ -156,6 +154,7 @@ downloaded
 download
 processing
 or
+*
 downloaded
 .
 *
@@ -240,11 +239,11 @@ translate
 between
 two
 given
-*
 translation
 pairs
 .
 For
+*
 example
 de
 -
@@ -259,7 +258,6 @@ the
 translations
 engine
 .
-*
 To
 accomplish
 this
@@ -269,6 +267,7 @@ models
 de
 -
 >
+*
 en
 and
 en
@@ -281,7 +280,6 @@ used
 .
 English
 is
-*
 an
 intermediary
 or
@@ -317,7 +315,6 @@ need
 to
 begin
 syncing
-*
 on
 a
 given
@@ -381,11 +378,11 @@ change
 state
 as
 well
-*
 based
 on
 the
 given
+*
 information
 .
 *
@@ -575,9 +572,9 @@ by
 the
 engine
 or
-*
 otherwise
 not
+*
 needed
 .
 Will
@@ -849,7 +846,6 @@ an
 [
 ModelManagementOptions
 ]
-*
 operation
 .
 *
@@ -1240,11 +1236,11 @@ another
 is
 possible
 or
-*
 if
 it
 will
 result
+*
 in
 no
 operation
@@ -1297,9 +1293,9 @@ return
 false
 if
 the
-*
 engine
 is
+*
 expected
 to
 have

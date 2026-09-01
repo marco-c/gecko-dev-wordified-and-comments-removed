@@ -111,7 +111,6 @@ SupportSQLiteDatabase
 /
 *
 *
-*
 Internal
 database
 for

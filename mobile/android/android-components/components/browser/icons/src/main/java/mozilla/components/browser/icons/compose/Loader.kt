@@ -157,7 +157,6 @@ available
 to
 the
 inner
-*
 [
 IconLoaderScope
 ]
@@ -182,11 +181,11 @@ the
 icon
 is
 still
-*
 loading
 [
 Placeholder
 ]
+*
 will
 get
 rendered
@@ -215,11 +214,11 @@ the
 URL
 of
 the
-*
 website
 the
 icon
 is
+*
 *
 for
 *
@@ -249,7 +248,6 @@ e
 .
 g
 .
-*
 https
 :
 /
@@ -295,12 +293,12 @@ should
 be
 used
 to
-*
 download
 the
 icon
 (
 if
+*
 needed
 )
 .

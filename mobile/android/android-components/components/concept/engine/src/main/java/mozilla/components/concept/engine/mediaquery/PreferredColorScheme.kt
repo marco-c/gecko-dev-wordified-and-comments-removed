@@ -69,7 +69,6 @@ mediaquery
 /
 *
 *
-*
 A
 simple
 data
@@ -87,7 +86,6 @@ prefers
 a
 particular
 color
-*
 scheme
 .
 *

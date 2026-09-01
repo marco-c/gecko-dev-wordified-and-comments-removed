@@ -224,8 +224,8 @@ still
 allows
 to
 launch
-*
 an
+*
 activity
 from
 a

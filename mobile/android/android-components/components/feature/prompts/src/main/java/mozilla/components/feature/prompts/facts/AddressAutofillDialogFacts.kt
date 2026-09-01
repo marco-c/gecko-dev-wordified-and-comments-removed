@@ -115,7 +115,6 @@ collect
 /
 *
 *
-*
 Facts
 emitted
 for
@@ -135,7 +134,6 @@ class
 AddressAutofillDialogFacts
 {
 /
-*
 *
 *
 Specific

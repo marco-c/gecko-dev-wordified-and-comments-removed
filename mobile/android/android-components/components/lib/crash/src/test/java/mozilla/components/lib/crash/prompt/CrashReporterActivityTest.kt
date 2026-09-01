@@ -143,6 +143,12 @@ runners
 .
 AndroidJUnit4
 import
+kotlin
+.
+coroutines
+.
+CoroutineContext
+import
 kotlinx
 .
 coroutines
@@ -310,12 +316,6 @@ mockito
 MockitoAnnotations
 .
 openMocks
-import
-kotlin
-.
-coroutines
-.
-CoroutineContext
 RunWith
 (
 AndroidJUnit4
@@ -1162,7 +1162,6 @@ crash
 }
 }
 /
-*
 *
 *
 Launch

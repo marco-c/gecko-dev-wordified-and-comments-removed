@@ -131,7 +131,6 @@ pixelSizeFor
 /
 *
 *
-*
 [
 RecyclerView
 ]

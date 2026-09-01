@@ -184,13 +184,13 @@ a
 PageContentExtractor
 ]
 and
-*
 [
 PageMetadataExtractor
 ]
 or
 supply
 a
+*
 custom
 implementation
 .
@@ -201,7 +201,6 @@ interface
 ContentProvider
 {
 /
-*
 *
 *
 Returns
@@ -273,11 +272,11 @@ default
 PageMetadata
 ]
 .
-*
 Content
 failures
 are
 propagated
+*
 and
 cause
 the

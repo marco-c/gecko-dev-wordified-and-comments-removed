@@ -69,7 +69,6 @@ facts
 /
 *
 *
-*
 A
 [
 FactProcessor
@@ -90,7 +89,6 @@ interface
 FactProcessor
 {
 /
-*
 *
 *
 Passes
@@ -118,7 +116,6 @@ Fact
 )
 }
 /
-*
 *
 *
 Registers

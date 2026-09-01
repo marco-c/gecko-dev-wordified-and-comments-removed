@@ -99,6 +99,12 @@ runners
 .
 AndroidJUnit4
 import
+kotlin
+.
+test
+.
+assertNotNull
+import
 mozilla
 .
 components
@@ -200,12 +206,6 @@ org
 robolectric
 .
 Robolectric
-import
-kotlin
-.
-test
-.
-assertNotNull
 RunWith
 (
 AndroidJUnit4

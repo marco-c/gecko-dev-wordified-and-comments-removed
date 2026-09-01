@@ -145,7 +145,6 @@ TabGroupReducer
 /
 *
 *
-*
 [
 TabGroupAction
 ]
@@ -484,7 +483,6 @@ tabIds
 /
 *
 *
-*
 Adds
 the
 provided
@@ -601,7 +599,6 @@ updatedPartition
 /
 *
 *
-*
 Removes
 a
 tab
@@ -714,7 +711,6 @@ this
 /
 *
 *
-*
 Checks
 if
 a
@@ -772,7 +768,6 @@ exists
 and
 throws
 an
-*
 [
 IllegalArgumentException
 ]
@@ -832,7 +827,6 @@ exist
 }
 }
 /
-*
 *
 *
 Utility
@@ -898,7 +892,6 @@ update
 }
 }
 /
-*
 *
 *
 Updates
@@ -968,7 +961,6 @@ partition
 /
 *
 *
-*
 Updates
 the
 specified
@@ -1032,7 +1024,6 @@ it
 this
 }
 /
-*
 *
 *
 Updates

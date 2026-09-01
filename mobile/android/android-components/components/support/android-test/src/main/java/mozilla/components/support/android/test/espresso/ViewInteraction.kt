@@ -189,7 +189,6 @@ isSelectedFun
 /
 *
 *
-*
 Shorthand
 to
 [
@@ -224,7 +223,6 @@ click
 !
 !
 /
-*
 *
 *
 Asserts
@@ -274,7 +272,6 @@ hasFocus
 )
 }
 /
-*
 *
 *
 Asserts
@@ -327,7 +324,6 @@ isChecked
 /
 *
 *
-*
 Asserts
 the
 View
@@ -378,7 +374,6 @@ isDisplayed
 /
 *
 *
-*
 Asserts
 the
 View
@@ -427,7 +422,6 @@ isEnabled
 !
 }
 /
-*
 *
 *
 Asserts

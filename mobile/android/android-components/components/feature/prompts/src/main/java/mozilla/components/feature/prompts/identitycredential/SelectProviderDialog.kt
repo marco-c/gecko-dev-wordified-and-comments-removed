@@ -157,7 +157,7 @@ androidx
 .
 compose
 .
-material
+material3
 .
 MaterialTheme
 import
@@ -165,7 +165,7 @@ androidx
 .
 compose
 .
-material
+material3
 .
 Text
 import
@@ -350,6 +350,7 @@ selecting
 a
 provider
 .
+*
 *
 param
 providers
@@ -768,7 +769,7 @@ background
 (
 MaterialTheme
 .
-colors
+colorScheme
 .
 background
 )

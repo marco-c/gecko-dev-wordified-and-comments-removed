@@ -65,6 +65,12 @@ service
 .
 pocket
 import
+kotlin
+.
+reflect
+.
+KVisibility
+import
 mozilla
 .
 components
@@ -120,12 +126,6 @@ org
 junit
 .
 Test
-import
-kotlin
-.
-reflect
-.
-KVisibility
 class
 PocketStoriesConfigTest
 {

@@ -128,8 +128,8 @@ IconRequest
 Resource
 ]
 after
-*
 the
+*
 icon
 was
 loaded

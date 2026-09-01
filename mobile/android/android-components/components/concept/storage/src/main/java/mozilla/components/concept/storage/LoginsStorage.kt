@@ -73,7 +73,6 @@ Deferred
 /
 *
 *
-*
 Hint
 types
 that
@@ -182,7 +181,6 @@ EMAIL_MASK
 /
 *
 *
-*
 A
 login
 stored
@@ -196,7 +194,6 @@ class
 Login
 (
 /
-*
 *
 *
 The
@@ -216,7 +213,6 @@ String
 /
 *
 *
-*
 The
 username
 for
@@ -233,7 +229,6 @@ String
 /
 *
 *
-*
 The
 password
 for
@@ -248,7 +243,6 @@ password
 :
 String
 /
-*
 *
 *
 The
@@ -278,7 +272,6 @@ was
 submitted
 to
 .
-*
 This
 only
 applies
@@ -289,12 +282,12 @@ based
 login
 entries
 .
-*
 It
 '
 s
 derived
 from
+*
 the
 action
 attribute
@@ -327,7 +320,6 @@ was
 requested
 for
 .
-*
 This
 only
 applies
@@ -340,10 +332,10 @@ based
 login
 entries
 .
-*
 It
 '
 s
+*
 derived
 from
 the
@@ -356,7 +348,6 @@ in
 a
 HTTP
 401
-*
 response
 see
 RFC2617
@@ -373,7 +364,6 @@ String
 =
 null
 /
-*
 *
 *
 HTML
@@ -397,7 +387,6 @@ String
 /
 *
 *
-*
 HTML
 field
 associated
@@ -419,7 +408,6 @@ String
 /
 *
 *
-*
 Number
 of
 times
@@ -438,7 +426,6 @@ Long
 =
 0L
 /
-*
 *
 *
 Time
@@ -462,7 +449,6 @@ Long
 /
 *
 *
-*
 Time
 of
 last
@@ -483,7 +469,6 @@ Long
 =
 0L
 /
-*
 *
 *
 Time
@@ -523,7 +508,6 @@ the
 unix
 epoch
 .
-*
 This
 field
 is
@@ -533,6 +517,7 @@ Desktop
 when
 a
 user
+*
 discards
 the
 warning
@@ -572,11 +557,11 @@ LoginHint
 .
 GENERATED
 ]
-*
 tells
 a
 consumer
 that
+*
 the
 password
 was
@@ -595,7 +580,6 @@ NONE
 )
 {
 /
-*
 *
 *
 Converts
@@ -663,7 +647,6 @@ the
 data
 related
 to
-*
 the
 DB
 record
@@ -672,12 +655,12 @@ record
 LoginsStorage
 ]
 methods
+*
 that
 save
 data
 typically
 input
-*
 [
 LoginEntry
 ]
@@ -689,11 +672,11 @@ the
 storage
 backend
 handle
-*
 dupe
 -
 checking
 issues
+*
 like
 determining
 which
@@ -702,7 +685,6 @@ record
 should
 be
 updated
-*
 for
 a
 given
@@ -716,9 +698,9 @@ LoginEntry
 also
 represents
 the
+*
 login
 data
-*
 that
 '
 s
@@ -896,7 +878,6 @@ String
 /
 *
 *
-*
 An
 interface
 describing
@@ -918,7 +899,6 @@ StorageMaintenanceRegistry
 AutoCloseable
 {
 /
-*
 *
 *
 Clears
@@ -1178,7 +1158,6 @@ be
 update
 (
 if
-*
 any
 )
 .
@@ -1233,6 +1212,7 @@ into
 the
 database
 *
+*
 This
 will
 return
@@ -1245,7 +1225,6 @@ provided
 record
 is
 invalid
-*
 (
 missing
 password
@@ -1255,11 +1234,11 @@ doesn
 '
 t
 have
+*
 exactly
 one
 of
 formSubmitURL
-*
 and
 httpRealm
 )
@@ -1319,7 +1298,6 @@ returned
 list
 contains
 one
-*
 [
 Result
 ]
@@ -1330,6 +1308,7 @@ in
 the
 same
 order
+*
 as
 [
 entries
@@ -1337,7 +1316,6 @@ entries
 .
 A
 failed
-*
 [
 Result
 ]
@@ -1350,9 +1328,9 @@ invalid
 (
 missing
 password
-*
 origin
 or
+*
 doesn
 '
 t
@@ -1365,7 +1343,6 @@ and
 httpRealm
 )
 and
-*
 was
 not
 inserted
@@ -1460,7 +1437,6 @@ that
 exists
 in
 the
-*
 database
 or
 if
@@ -1468,11 +1444,11 @@ the
 provided
 record
 is
+*
 invalid
 (
 missing
 password
-*
 origin
 or
 doesn
@@ -1566,7 +1542,6 @@ invalid
 (
 missing
 password
-*
 origin
 or
 doesn
@@ -1576,6 +1551,7 @@ have
 exactly
 one
 of
+*
 formSubmitURL
 and
 httpRealm
@@ -1758,7 +1734,6 @@ calculates
 if
 saving
 it
-*
 would
 update
 an
@@ -1769,6 +1744,7 @@ Login
 or
 create
 a
+*
 new
 one
 .
@@ -1800,12 +1776,12 @@ s
 .
 This
 will
-*
 include
 whether
 it
 can
 be
+*
 created
 updated
 or
@@ -1845,11 +1821,11 @@ and
 a
 new
 entry
-*
 with
 its
 information
 can
+*
 be
 made
 .
@@ -1884,10 +1860,10 @@ Login
 can
 be
 used
-*
 to
 update
 its
+*
 information
 .
 *
@@ -1907,7 +1883,6 @@ Result
 )
 }
 /
-*
 *
 *
 *
@@ -1982,11 +1957,11 @@ to
 An
 instance
 of
-*
 this
 should
 be
 attached
+*
 to
 the
 Gecko
@@ -2003,7 +1978,6 @@ interface
 LoginStorageDelegate
 {
 /
-*
 *
 *
 Called
@@ -2083,7 +2057,6 @@ Login
 >
 >
 /
-*
 *
 *
 Called

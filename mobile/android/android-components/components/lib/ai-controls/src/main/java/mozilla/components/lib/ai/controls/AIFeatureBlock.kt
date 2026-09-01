@@ -110,12 +110,12 @@ and
 [
 storage
 ]
-*
 to
 block
 or
 unblock
 all
+*
 registered
 features
 .

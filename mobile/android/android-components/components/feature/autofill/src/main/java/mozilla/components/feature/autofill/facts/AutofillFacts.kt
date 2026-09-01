@@ -115,7 +115,6 @@ collect
 /
 *
 *
-*
 [
 Fact
 ]
@@ -134,7 +133,6 @@ class
 AutofillFacts
 {
 /
-*
 *
 *
 Items
@@ -192,7 +190,6 @@ autofill_login_password_detected
 "
 }
 /
-*
 *
 *
 Metadata

@@ -81,7 +81,6 @@ JSONObject
 /
 *
 *
-*
 A
 provider
 that
@@ -122,7 +121,6 @@ evaluated
 when
 the
 function
-*
 was
 called
 .

@@ -91,8 +91,8 @@ PushService
 ]
 provided
 .
-*
 Starting
+*
 Push
 in
 the
@@ -109,7 +109,6 @@ interface
 PushProcessor
 {
 /
-*
 *
 *
 Start
@@ -130,7 +129,6 @@ initialize
 /
 *
 *
-*
 Removes
 all
 push
@@ -146,7 +144,6 @@ shutdown
 (
 )
 /
-*
 *
 *
 A
@@ -178,7 +175,6 @@ has
 been
 received
 .
-*
 The
 message
 contains
@@ -188,18 +184,17 @@ as
 sent
 by
 the
-*
 Autopush
 server
 and
 it
+*
 will
 be
 read
 at
 a
 lower
-*
 abstraction
 layer
 .
@@ -219,7 +214,6 @@ String
 /
 *
 *
-*
 An
 error
 has
@@ -235,7 +229,6 @@ error
 PushError
 )
 /
-*
 *
 *
 Requests
@@ -277,7 +270,6 @@ into
 the
 application
 .
-*
 This
 needs
 to
@@ -288,6 +280,7 @@ the
 application
 '
 s
+*
 onCreate
 before
 a
@@ -372,7 +365,6 @@ onCreate
 /
 *
 *
-*
 Various
 error
 types
@@ -425,7 +417,6 @@ PushError
 message
 )
 /
-*
 *
 *
 property

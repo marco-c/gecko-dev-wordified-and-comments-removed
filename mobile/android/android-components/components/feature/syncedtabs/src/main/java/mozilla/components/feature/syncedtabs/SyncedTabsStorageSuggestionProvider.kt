@@ -79,6 +79,12 @@ annotation
 .
 VisibleForTesting
 import
+java
+.
+util
+.
+UUID
+import
 mozilla
 .
 components
@@ -178,12 +184,6 @@ syncedtabs
 storage
 .
 SyncedTabsStorage
-import
-java
-.
-util
-.
-UUID
 /
 *
 *
@@ -201,9 +201,9 @@ suggestions
 for
 remote
 tabs
-*
 based
 on
+*
 [
 SyncedTabsStorage
 ]
@@ -417,7 +417,6 @@ into
 /
 *
 *
-*
 Expects
 list
 of
@@ -607,7 +606,6 @@ emitSyncedTabSuggestionClickedFact
 }
 }
 /
-*
 *
 *
 AwesomeBar

@@ -265,6 +265,14 @@ androidx
 .
 appcompat
 .
+R
+as
+appcompatR
+import
+androidx
+.
+appcompat
+.
 widget
 .
 AppCompatEditText
@@ -324,14 +332,6 @@ support
 utils
 .
 SafeUrl
-import
-androidx
-.
-appcompat
-.
-R
-as
-appcompatR
 typealias
 OnCommitListener
 =
@@ -420,7 +420,6 @@ String
 /
 *
 *
-*
 Aids
 in
 testing
@@ -441,7 +440,6 @@ AutocompleteView
 /
 *
 *
-*
 Current
 text
 .
@@ -452,7 +450,6 @@ originalText
 :
 String
 /
-*
 *
 *
 Apply
@@ -475,7 +472,6 @@ InlineAutocompleteEditText
 AutocompleteResult
 )
 /
-*
 *
 *
 Notify
@@ -520,16 +516,15 @@ can
 be
 configured
 using
-*
 the
 custom
 autocompleteBackgroundColor
 attribute
+*
 e
 .
 g
 .
-*
 app
 :
 autocompleteBackgroundColor
@@ -555,7 +550,6 @@ to
 be
 attached
 to
-*
 provide
 autocomplete
 results
@@ -563,11 +557,11 @@ results
 It
 will
 be
+*
 invoked
 when
 the
 input
-*
 text
 changes
 .
@@ -583,10 +577,10 @@ component
 via
 its
 view
-*
 parameter
 )
 so
+*
 it
 can
 call
@@ -613,7 +607,6 @@ be
 attached
 which
 is
-*
 invoked
 when
 the
@@ -625,6 +618,7 @@ i
 .
 e
 .
+*
 is
 done
 editing
@@ -645,16 +639,15 @@ e
 .
 g
 .
-*
 [
 setOnSelectionChangedListener
 ]
 and
+*
 [
 setOnWindowsFocusChangeListener
 ]
 which
-*
 will
 be
 invoked
@@ -665,10 +658,10 @@ to
 onSelectionChanged
 ]
 and
+*
 [
 onWindowFocusChanged
 ]
-*
 respectively
 (
 see
@@ -676,11 +669,11 @@ also
 [
 setOnTextChangeListener
 ]
-*
 [
 setOnSelectionChangedListener
 ]
 and
+*
 [
 setOnWindowsFocusChangeListener
 ]
@@ -1041,7 +1034,6 @@ false
 /
 *
 *
-*
 Set
 of
 flags
@@ -1056,7 +1048,6 @@ AccessibilityEvent
 .
 TYPE_VIEW_TEXT_CHANGED
 ]
-*
 accessibility
 event
 .
@@ -1186,7 +1177,6 @@ toString
 /
 *
 *
-*
 The
 background
 color
@@ -1242,7 +1232,6 @@ color
 (
 )
 /
-*
 *
 *
 The
@@ -1914,6 +1903,7 @@ edit
 text
 .
 *
+*
 param
 text
 The
@@ -2000,6 +1990,7 @@ the
 current
 text
 .
+*
 *
 param
 text
@@ -2219,7 +2210,6 @@ so
 our
 text
 change
-*
 listener
 does
 not
@@ -2247,7 +2237,6 @@ true
 /
 *
 *
-*
 Mark
 the
 end
@@ -2270,7 +2259,6 @@ endBatchEdit
 )
 }
 /
-*
 *
 *
 Reset
@@ -2666,7 +2654,6 @@ updating
 the
 current
 autocomplete
-*
 text
 and
 selection
@@ -3463,7 +3450,6 @@ first
 when
 backspacing
 .
-*
 If
 there
 is
@@ -3471,6 +3457,7 @@ no
 autocomplete
 text
 both
+*
 removeAutocomplete
 (
 )
@@ -3478,7 +3465,6 @@ and
 commitAutocomplete
 (
 )
-*
 are
 no
 -
@@ -3494,9 +3480,9 @@ use
 them
 here
 without
+*
 checking
 explicitly
-*
 if
 we
 have
@@ -4348,11 +4334,11 @@ autocomplete
 text
 accordingly
 .
-*
 Using
 this
 class
 is
+*
 preferred
 when
 making
@@ -4363,7 +4349,6 @@ it
 will
 not
 interfere
-*
 with
 any
 composing
@@ -4374,6 +4359,7 @@ same
 time
 as
 custom
+*
 keyboards
 .
 *
@@ -4393,13 +4379,13 @@ current
 text
 with
 one
-*
 that
 has
 a
 text
 length
 equal
+*
 to
 the
 one
@@ -4408,7 +4394,6 @@ replaced
 minus
 1
 .
-*
 *
 /
 private
@@ -4419,7 +4404,6 @@ TextChangeListener
 TextWatcher
 {
 /
-*
 *
 *
 Holds
@@ -4438,7 +4422,6 @@ have
 been
 made
 .
-*
 *
 /
 private
@@ -4466,7 +4449,6 @@ in
 onTextChanged
 ]
 .
-*
 When
 using
 keyboards
@@ -4474,12 +4456,12 @@ that
 do
 not
 have
+*
 their
 own
 text
 correction
 enabled
-*
 and
 the
 user
@@ -4492,7 +4474,6 @@ will
 be
 0
 .
-*
 *
 /
 private

@@ -115,7 +115,6 @@ collect
 /
 *
 *
-*
 Facts
 emitted
 for
@@ -133,7 +132,6 @@ class
 SyncedTabsFacts
 {
 /
-*
 *
 *
 Specific

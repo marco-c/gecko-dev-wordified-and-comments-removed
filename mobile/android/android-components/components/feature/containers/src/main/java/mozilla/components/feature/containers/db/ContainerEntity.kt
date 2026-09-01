@@ -127,7 +127,6 @@ Icon
 /
 *
 *
-*
 Internal
 entity
 representing

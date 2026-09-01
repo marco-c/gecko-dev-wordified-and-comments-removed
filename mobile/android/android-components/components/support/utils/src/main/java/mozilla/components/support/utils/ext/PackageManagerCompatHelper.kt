@@ -146,10 +146,10 @@ safe
 access
 to
 common
-*
 package
 management
 operations
+*
 across
 Android
 versions
@@ -190,7 +190,6 @@ to
 resolve
 .
 *
-*
 return
 a
 list
@@ -206,11 +205,11 @@ for
 each
 matching
 activity
-*
 ordered
 from
 best
 to
+*
 worst
 .
 If
@@ -225,7 +224,6 @@ list
 is
 returned
 .
-*
 *
 see
 PackageManager
@@ -277,7 +275,6 @@ to
 resolve
 .
 *
-*
 return
 a
 [
@@ -294,11 +291,11 @@ was
 determined
 to
 be
-*
 the
 best
 action
 .
+*
 Returns
 null
 if
@@ -308,7 +305,6 @@ activity
 was
 found
 .
-*
 *
 see
 PackageManager
@@ -357,7 +353,6 @@ check
 for
 .
 *
-*
 return
 a
 [
@@ -370,7 +365,6 @@ about
 the
 package
 .
-*
 *
 throws
 PackageManager
@@ -402,7 +396,6 @@ implemented
 in
 subclass
 .
-*
 *
 see
 PackageManager
@@ -456,7 +449,6 @@ URI
 host
 .
 *
-*
 return
 An
 [
@@ -468,7 +460,6 @@ about
 the
 package
 .
-*
 *
 throws
 PackageManager
@@ -500,7 +491,6 @@ implemented
 in
 subclass
 .
-*
 *
 see
 PackageManager

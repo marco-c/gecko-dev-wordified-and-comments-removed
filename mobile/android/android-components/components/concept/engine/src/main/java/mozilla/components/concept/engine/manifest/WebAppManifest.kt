@@ -132,8 +132,8 @@ apps
 which
 are
 websites
-*
 that
+*
 can
 be
 installed
@@ -152,8 +152,8 @@ other
 capabilities
 like
 working
-*
 offline
+*
 and
 receiving
 push
@@ -180,7 +180,6 @@ docs
 Web
 /
 Manifest
-*
 https
 :
 /
@@ -363,8 +362,8 @@ value
 repeats
 what
 is
-*
 already
+*
 available
 in
 the
@@ -386,8 +385,8 @@ of
 a
 shortcut
 when
-*
 the
+*
 manifest
 is
 available
@@ -405,8 +404,8 @@ transition
 between
 launching
 the
-*
 web
+*
 application
 and
 loading
@@ -470,8 +469,8 @@ applications
 or
 to
 integrate
-the
 *
+the
 web
 application
 with
@@ -824,7 +823,6 @@ null
 /
 *
 *
-*
 Defines
 the
 developers
@@ -842,7 +840,6 @@ class
 DisplayMode
 {
 /
-*
 *
 *
 All
@@ -906,8 +903,8 @@ user
 agent
 will
 exclude
-*
 UI
+*
 elements
 for
 controlling
@@ -1195,8 +1192,8 @@ requirements
 differ
 from
 those
-*
 of
+*
 the
 application
 icon
@@ -1270,7 +1267,6 @@ MASKABLE
 /
 *
 *
-*
 The
 user
 agent
@@ -1297,7 +1293,6 @@ ANY
 }
 }
 /
-*
 *
 *
 Defines
@@ -1375,7 +1370,6 @@ TextDirection
 /
 *
 *
-*
 Left
 -
 to
@@ -1389,7 +1383,6 @@ LTR
 /
 LTR
 /
-*
 *
 *
 Right
@@ -1584,11 +1577,11 @@ verifying
 the
 application
 .
-*
 The
 syntax
 and
 semantics
+*
 of
 [
 type
@@ -1633,7 +1626,6 @@ receives
 share
 data
 .
-*
 If
 present
 a
@@ -1645,6 +1637,7 @@ created
 so
 that
 other
+*
 Android
 apps
 can
@@ -1916,7 +1909,6 @@ String
 /
 *
 *
-*
 Valid
 HTTP
 methods
@@ -1937,7 +1929,6 @@ GET
 POST
 }
 /
-*
 *
 *
 Valid

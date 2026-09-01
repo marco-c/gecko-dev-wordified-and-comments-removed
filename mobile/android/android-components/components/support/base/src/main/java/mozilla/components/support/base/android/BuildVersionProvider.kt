@@ -89,10 +89,10 @@ exposing
 the
 android
 framework
-*
 APIs
 directly
 making
+*
 it
 easier
 to
@@ -110,7 +110,6 @@ interface
 BuildVersionProvider
 {
 /
-*
 *
 *
 Returns
@@ -145,7 +144,6 @@ S
 }
 }
 /
-*
 *
 *
 see

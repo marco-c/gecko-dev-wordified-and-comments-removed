@@ -117,11 +117,11 @@ values
 without
 passing
 resource
-*
 or
 context
 to
 their
+*
 mappers
 making
 it
@@ -137,7 +137,6 @@ allowing
 the
 ability
 to
-*
 have
 string
 which
@@ -145,6 +144,7 @@ could
 be
 from
 another
+*
 source
 or
 could
@@ -156,7 +156,6 @@ feature
 specific
 way
 .
-*
 This
 is
 a
@@ -243,7 +242,6 @@ Int
 Text
 }
 /
-*
 *
 *
 Unpacks

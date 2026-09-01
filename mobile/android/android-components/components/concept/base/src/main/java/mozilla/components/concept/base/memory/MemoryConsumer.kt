@@ -91,7 +91,6 @@ support
 trimming
 in
 low
-*
 memory
 situations
 .
@@ -138,7 +137,6 @@ the
 level
 passed
 to
-*
 [
 ComponentCallbacks2
 .
@@ -161,13 +159,13 @@ of
 the
 amount
 of
-*
 trimming
 the
 application
 may
 like
 to
+*
 perform
 .
 See

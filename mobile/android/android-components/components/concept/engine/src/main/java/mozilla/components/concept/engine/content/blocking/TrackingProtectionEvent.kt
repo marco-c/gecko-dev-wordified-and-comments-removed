@@ -176,7 +176,6 @@ blocked
 trackers
 types
 .
-*
 To
 be
 kept
@@ -242,7 +241,6 @@ BlockedEventType
 /
 *
 *
-*
 Generic
 cookies
 .
@@ -254,7 +252,6 @@ OTHER_COOKIES_BLOCKED
 =
 0
 /
-*
 *
 *
 Generic
@@ -271,7 +268,6 @@ TRACKERS
 /
 *
 *
-*
 Generic
 tracking
 cookies
@@ -284,7 +280,6 @@ TRACKING_COOKIES
 =
 2
 /
-*
 *
 *
 Cryptocurrency
@@ -300,7 +295,6 @@ CRYPTOMINERS
 /
 *
 *
-*
 Fingerprinting
 trackers
 .
@@ -312,7 +306,6 @@ FINGERPRINTERS
 =
 4
 /
-*
 *
 *
 Social
@@ -334,7 +327,6 @@ SOCIAL
 =
 5
 /
-*
 *
 *
 Scripts
@@ -364,6 +356,7 @@ trackers
 [
 Bounce
 tracking
+*
 mitigations
 ]
 (

@@ -149,7 +149,6 @@ JSONObject
 /
 *
 *
-*
 Parse
 SERP
 Telemetry
@@ -215,7 +214,6 @@ makeClient
 collectionName
 )
 /
-*
 *
 *
 Provides
@@ -342,7 +340,6 @@ return
 providerList
 }
 /
-*
 *
 *
 Parses

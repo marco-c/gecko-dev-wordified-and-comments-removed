@@ -100,7 +100,6 @@ TranslationPageSettingOperation
 /
 *
 *
-*
 The
 system
 should
@@ -115,7 +114,6 @@ page
 /
 UPDATE_ALWAYS_OFFER_POPUP
 /
-*
 *
 *
 The
@@ -133,7 +131,6 @@ UPDATE_ALWAYS_TRANSLATE_LANGUAGE
 /
 *
 *
-*
 The
 page
 '
@@ -147,7 +144,6 @@ setting
 /
 UPDATE_NEVER_TRANSLATE_LANGUAGE
 /
-*
 *
 *
 The

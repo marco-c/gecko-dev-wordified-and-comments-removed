@@ -67,6 +67,12 @@ base
 .
 facts
 import
+kotlin
+.
+test
+.
+assertNotNull
+import
 mozilla
 .
 components
@@ -128,12 +134,6 @@ mockito
 Mockito
 .
 verify
-import
-kotlin
-.
-test
-.
-assertNotNull
 class
 FactTest
 {

@@ -67,7 +67,6 @@ test
 /
 *
 *
-*
 Fails
 the
 test

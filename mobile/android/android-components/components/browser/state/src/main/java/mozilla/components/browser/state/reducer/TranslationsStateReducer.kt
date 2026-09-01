@@ -241,7 +241,6 @@ TranslationsStateReducer
 /
 *
 *
-*
 Reducer
 for
 [

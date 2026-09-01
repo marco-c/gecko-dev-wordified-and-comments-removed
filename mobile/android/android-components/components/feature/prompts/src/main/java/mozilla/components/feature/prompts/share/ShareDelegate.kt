@@ -101,7 +101,6 @@ share
 /
 *
 *
-*
 Delegate
 to
 display
@@ -159,13 +158,13 @@ is
 dismissed
 and
 nothing
-*
 is
 selected
 or
 if
 it
 fails
+*
 to
 load
 .
@@ -211,7 +210,6 @@ Unit
 )
 }
 /
-*
 *
 *
 Default

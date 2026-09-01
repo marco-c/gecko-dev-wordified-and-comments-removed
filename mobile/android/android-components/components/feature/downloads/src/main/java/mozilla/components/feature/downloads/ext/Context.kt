@@ -107,7 +107,6 @@ and
 calls
 the
 correct
-*
 method
 depending
 on

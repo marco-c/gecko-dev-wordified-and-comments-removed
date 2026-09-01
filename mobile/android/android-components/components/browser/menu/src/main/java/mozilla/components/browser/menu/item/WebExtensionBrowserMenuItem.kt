@@ -343,11 +343,11 @@ offscreen
 downwards
 or
 upwards
-*
 depending
 on
 the
 menu
+*
 position
 )
 .
@@ -1022,7 +1022,6 @@ mozac_ic_extension_fill_24
 /
 *
 *
-*
 Sets
 the
 tint
@@ -1058,7 +1057,6 @@ it
 }
 }
 /
-*
 *
 *
 Sets

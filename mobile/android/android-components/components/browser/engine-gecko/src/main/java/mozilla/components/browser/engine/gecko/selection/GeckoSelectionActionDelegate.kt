@@ -199,11 +199,11 @@ and
 [
 context
 ]
-*
 is
 an
 instance
 of
+*
 [
 Activity
 ]

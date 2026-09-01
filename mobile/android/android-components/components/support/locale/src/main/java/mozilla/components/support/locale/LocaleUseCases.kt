@@ -65,6 +65,12 @@ support
 .
 locale
 import
+java
+.
+util
+.
+Locale
+import
 mozilla
 .
 components
@@ -102,14 +108,7 @@ state
 store
 .
 BrowserStore
-import
-java
-.
-util
-.
-Locale
 /
-*
 *
 *
 Contains
@@ -130,7 +129,6 @@ BrowserStore
 )
 {
 /
-*
 *
 *
 Updates
@@ -211,7 +209,6 @@ locale
 /
 *
 *
-*
 Use
 case
 for
@@ -234,7 +231,6 @@ BrowserStore
 )
 {
 /
-*
 *
 *
 Restores

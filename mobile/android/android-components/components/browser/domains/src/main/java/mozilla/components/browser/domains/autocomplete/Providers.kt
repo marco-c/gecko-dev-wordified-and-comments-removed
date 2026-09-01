@@ -73,6 +73,12 @@ content
 .
 Context
 import
+java
+.
+util
+.
+Locale
+import
 kotlinx
 .
 coroutines
@@ -168,12 +174,6 @@ concept
 toolbar
 .
 AutocompleteResult
-import
-java
-.
-util
-.
-Locale
 enum
 class
 DomainList
@@ -198,7 +198,6 @@ custom
 )
 }
 /
-*
 *
 *
 Provides
@@ -245,7 +244,6 @@ asLoader
 )
 )
 /
-*
 *
 *
 Provides
@@ -504,7 +502,6 @@ text
 and
 invokes
 the
-*
 provided
 callback
 passing
@@ -698,7 +695,6 @@ the
 search
 text
 might
-*
 be
 mixed
 case
@@ -706,12 +702,12 @@ case
 Our
 autocomplete
 EditText
+*
 code
 does
 more
 string
 comparison
-*
 which
 fails
 if
@@ -726,9 +722,9 @@ searchText
 (
 ie
 .
-*
 if
 casing
+*
 differs
 )
 .
@@ -741,7 +737,6 @@ just
 build
 a
 suggestion
-*
 that
 exactly
 matches
@@ -753,6 +748,7 @@ which
 is
 what
 this
+*
 method
 is
 for

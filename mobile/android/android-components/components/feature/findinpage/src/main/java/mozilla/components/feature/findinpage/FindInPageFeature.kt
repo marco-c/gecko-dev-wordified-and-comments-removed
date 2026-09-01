@@ -167,7 +167,6 @@ UserInteractionHandler
 /
 *
 *
-*
 Feature
 implementation
 that
@@ -304,10 +303,10 @@ FindInPageView
 ]
 will
 be
-*
 updated
 presenting
 the
+*
 current
 "
 Find
@@ -345,7 +344,6 @@ session
 )
 }
 /
-*
 *
 *
 Returns
@@ -415,11 +413,11 @@ FindInPageView
 ]
 will
 be
-*
 cleared
 and
 not
 be
+*
 updated
 to
 present

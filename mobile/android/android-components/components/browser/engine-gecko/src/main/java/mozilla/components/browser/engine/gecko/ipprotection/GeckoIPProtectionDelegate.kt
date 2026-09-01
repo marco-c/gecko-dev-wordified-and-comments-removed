@@ -194,9 +194,9 @@ the
 delegate
 calls
 .
-*
 If
 we
+*
 notify
 the
 delegate

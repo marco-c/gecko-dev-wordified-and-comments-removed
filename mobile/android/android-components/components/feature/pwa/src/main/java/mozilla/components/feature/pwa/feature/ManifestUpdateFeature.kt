@@ -367,7 +367,6 @@ null
 /
 *
 *
-*
 Updates
 the
 manifest
@@ -541,7 +540,6 @@ the
 existing
 manifest
 .
-*
 If
 it
 is
@@ -550,6 +548,7 @@ update
 the
 disk
 and
+*
 shortcut
 .
 Ignore
@@ -558,7 +557,6 @@ called
 with
 a
 null
-*
 manifest
 or
 a

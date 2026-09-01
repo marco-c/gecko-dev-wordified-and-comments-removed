@@ -99,7 +99,6 @@ Tab
 /
 *
 *
-*
 An
 interface
 for
@@ -131,7 +130,6 @@ Listener
 /
 *
 *
-*
 When
 tab
 syncing
@@ -149,7 +147,6 @@ Unit
 /
 *
 *
-*
 When
 tab
 syncing
@@ -165,7 +162,6 @@ stopLoading
 =
 Unit
 /
-*
 *
 *
 New
@@ -189,7 +185,6 @@ SyncedDeviceTabs
 >
 )
 /
-*
 *
 *
 An
@@ -220,7 +215,6 @@ error
 ErrorType
 )
 /
-*
 *
 *
 Casts
@@ -255,7 +249,6 @@ View
 /
 *
 *
-*
 An
 interface
 for
@@ -276,7 +269,6 @@ Listener
 /
 *
 *
-*
 Invoked
 when
 a
@@ -295,7 +287,6 @@ tab
 Tab
 )
 /
-*
 *
 *
 Invoked
@@ -319,7 +310,6 @@ onRefresh
 /
 *
 *
-*
 The
 various
 types
@@ -341,7 +331,6 @@ ErrorType
 /
 *
 *
-*
 Other
 devices
 found
@@ -354,11 +343,9 @@ to
 sync
 .
 *
-*
 /
 NO_TABS_AVAILABLE
 /
-*
 *
 *
 There
@@ -416,7 +403,6 @@ SYNC_ENGINE_UNAVAILABLE
 /
 *
 *
-*
 There
 is
 no
@@ -440,7 +426,6 @@ feature
 /
 SYNC_UNAVAILABLE
 /
-*
 *
 *
 The

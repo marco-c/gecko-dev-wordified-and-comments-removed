@@ -312,12 +312,12 @@ the
 local
 tabs
 state
-*
 with
 [
 RemoteTabsStorage
 ]
 and
+*
 then
 synchronize
 with
@@ -425,7 +425,6 @@ CoroutineScope
 =
 null
 /
-*
 *
 *
 Start
@@ -616,7 +615,6 @@ true
 /
 *
 *
-*
 Stop
 listening
 to
@@ -639,7 +637,6 @@ cancel
 )
 }
 /
-*
 *
 *
 See
@@ -741,7 +738,6 @@ lastUsed
 }
 }
 /
-*
 *
 *
 List

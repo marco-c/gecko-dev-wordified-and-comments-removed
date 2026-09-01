@@ -171,6 +171,12 @@ psi
 .
 PsiMethod
 import
+java
+.
+util
+.
+EnumSet
+import
 mozilla
 .
 components
@@ -206,12 +212,6 @@ jetbrains
 uast
 .
 UCallExpression
-import
-java
-.
-util
-.
-EnumSet
 /
 *
 *
@@ -252,10 +252,10 @@ to
 maintain
 tests
 .
-*
 Static
 mocking
 and
+*
 object
 mocking
 often
@@ -268,12 +268,12 @@ be
 improved
 for
 better
-*
 testability
 for
 example
 by
 using
+*
 dependency
 injection
 .
@@ -304,7 +304,6 @@ MockK
 mockkStatic
 unmockkStatic
 clearStaticMock
-*
 mockkObject
 unmockkObject
 clearObjectMock
@@ -333,7 +332,6 @@ suggesting
 refactoring
 the
 code
-*
 to
 avoid
 these
@@ -366,7 +364,6 @@ Detector
 UastScanner
 {
 /
-*
 *
 *
 Companion

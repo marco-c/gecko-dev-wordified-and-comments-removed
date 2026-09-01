@@ -186,7 +186,6 @@ RecyclerView
 Adapter
 ]
 s
-*
 that
 want
 to
@@ -198,6 +197,7 @@ a
 sticky
 header
 /
+*
 footer
 .
 *
@@ -253,7 +253,6 @@ Boolean
 /
 *
 *
-*
 Callback
 allowing
 any
@@ -278,7 +277,6 @@ View
 {
 }
 /
-*
 *
 *
 Callback
@@ -307,7 +305,6 @@ View
 }
 }
 /
-*
 *
 *
 Whether
@@ -363,7 +360,6 @@ s
 position
 that
 view
-*
 will
 become
 a
@@ -371,6 +367,7 @@ regular
 view
 and
 will
+*
 be
 scrolled
 down
@@ -395,7 +392,6 @@ s
 position
 that
 view
-*
 will
 be
 anchored
@@ -405,6 +401,7 @@ top
 of
 the
 list
+*
 always
 being
 shown
@@ -451,7 +448,6 @@ s
 position
 that
 view
-*
 will
 become
 a
@@ -460,6 +456,7 @@ view
 and
 will
 be
+*
 scrolled
 up
 as
@@ -483,7 +480,6 @@ s
 position
 that
 view
-*
 will
 be
 anchored
@@ -492,6 +488,7 @@ the
 bottom
 of
 the
+*
 list
 always
 being
@@ -550,13 +547,13 @@ from
 being
 scrolled
 off
-*
 to
 the
 top
 of
 the
 screen
+*
 or
 off
 to
@@ -724,14 +721,6 @@ scrollOffset
 *
 *
 *
-see
-[
-LinearLayoutManager
-.
-scrollToPositionWithOffset
-]
-*
-*
 param
 position
 list
@@ -778,8 +767,8 @@ to
 an
 updated
 position
-*
 ad
+*
 offset
 based
 on
@@ -799,6 +788,14 @@ setScrollState
 before
 and
 after
+*
+*
+see
+[
+LinearLayoutManager
+.
+scrollToPositionWithOffset
+]
 *
 /
 abstract
@@ -854,9 +851,9 @@ the
 sticky
 bottom
 item
-*
 is
 scrolled
+*
 past
 the
 list
@@ -887,11 +884,11 @@ position
 the
 header
 appropriately
-*
 depending
 on
 direction
 and
+*
 [
 android
 .
@@ -1797,13 +1794,13 @@ for
 [
 position
 ]
-*
 including
 measure
 layout
 and
 data
 binding
+*
 and
 assigns
 this
@@ -1920,7 +1917,6 @@ stickyItem
 /
 *
 *
-*
 Binds
 a
 new
@@ -2029,7 +2025,6 @@ INVALID_OFFSET
 /
 *
 *
-*
 Measures
 and
 lays
@@ -2095,8 +2090,8 @@ RecyclerView
 .
 RecycledViewPool
 ]
-*
 allowing
+*
 it
 to
 be
@@ -2214,7 +2209,6 @@ scrollOffset
 offset
 }
 /
-*
 *
 *
 Observer
@@ -2501,12 +2495,12 @@ show
 one
 specific
 item
-*
 as
 a
 fixed
 header
 /
+*
 footer
 in
 the
@@ -2622,7 +2616,6 @@ reverseLayout
 }
 }
 /
-*
 *
 *
 Save

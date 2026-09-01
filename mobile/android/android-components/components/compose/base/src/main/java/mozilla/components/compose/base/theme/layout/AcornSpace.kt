@@ -105,11 +105,11 @@ arrangement
 between
 visual
 elements
-*
 styled
 by
 the
 Acorn
+*
 Design
 System
 .
@@ -134,12 +134,12 @@ arrangement
 between
 visual
 elements
-*
 styled
 by
 the
 Acorn
 Design
+*
 System
 .
 *
@@ -231,12 +231,12 @@ arrangement
 between
 visual
 elements
-*
 styled
 by
 the
 Acorn
 Design
+*
 System
 .
 *
@@ -282,7 +282,6 @@ dynamic600
 :
 Dp
 /
-*
 *
 *
 [
@@ -380,7 +379,6 @@ Dp
 dp
 }
 /
-*
 *
 *
 [
@@ -484,7 +482,6 @@ Dp
 dp
 }
 /
-*
 *
 *
 [

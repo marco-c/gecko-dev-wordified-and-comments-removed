@@ -73,18 +73,6 @@ os
 .
 Parcelable
 import
-kotlinx
-.
-parcelize
-.
-Parcelize
-import
-org
-.
-json
-.
-JSONObject
-import
 java
 .
 text
@@ -108,8 +96,19 @@ java
 util
 .
 TimeZone
+import
+kotlinx
+.
+parcelize
+.
+Parcelize
+import
+org
+.
+json
+.
+JSONObject
 /
-*
 *
 *
 Represents
@@ -128,7 +127,6 @@ Breadcrumb
 /
 *
 *
-*
 Message
 of
 the
@@ -145,7 +143,6 @@ String
 "
 "
 /
-*
 *
 *
 Data
@@ -172,7 +169,6 @@ emptyMap
 /
 *
 *
-*
 Category
 of
 the
@@ -189,7 +185,6 @@ String
 "
 "
 /
-*
 *
 *
 Level
@@ -211,7 +206,6 @@ DEBUG
 /
 *
 *
-*
 Type
 of
 the
@@ -229,7 +223,6 @@ Type
 .
 DEFAULT
 /
-*
 *
 *
 Date
@@ -259,7 +252,6 @@ Breadcrumb
 /
 *
 *
-*
 Crash
 breadcrumb
 priority
@@ -280,7 +272,6 @@ String
 /
 *
 *
-*
 DEBUG
 level
 .
@@ -293,7 +284,6 @@ Debug
 "
 )
 /
-*
 *
 *
 INFO
@@ -310,7 +300,6 @@ Info
 /
 *
 *
-*
 WARNING
 level
 .
@@ -323,7 +312,6 @@ Warning
 "
 )
 /
-*
 *
 *
 ERROR
@@ -340,7 +328,6 @@ Error
 /
 *
 *
-*
 CRITICAL
 level
 .
@@ -354,7 +341,6 @@ Critical
 )
 }
 /
-*
 *
 *
 Crash
@@ -376,7 +362,6 @@ String
 /
 *
 *
-*
 DEFAULT
 type
 .
@@ -389,7 +374,6 @@ Default
 "
 )
 /
-*
 *
 *
 HTTP
@@ -406,7 +390,6 @@ Http
 /
 *
 *
-*
 NAVIGATION
 type
 .
@@ -419,7 +402,6 @@ Navigation
 "
 )
 /
-*
 *
 *
 USER

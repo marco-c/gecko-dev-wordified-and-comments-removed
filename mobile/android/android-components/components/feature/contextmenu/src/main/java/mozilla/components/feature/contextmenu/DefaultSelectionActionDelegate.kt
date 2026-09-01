@@ -226,7 +226,6 @@ selection
 context
 menus
 .
-*
 Also
 adds
 share
@@ -234,6 +233,7 @@ email
 and
 call
 actions
+*
 which
 are
 optionally
@@ -688,6 +688,7 @@ and
 sorts
 them
 .
+*
 *
 returns
 the

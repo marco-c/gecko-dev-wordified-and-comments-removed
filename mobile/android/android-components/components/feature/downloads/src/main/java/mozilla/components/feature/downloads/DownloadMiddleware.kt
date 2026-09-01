@@ -103,6 +103,12 @@ content
 .
 ContextCompat
 import
+kotlin
+.
+coroutines
+.
+CoroutineContext
+import
 kotlinx
 .
 coroutines
@@ -354,12 +360,6 @@ support
 utils
 .
 DownloadFileUtils
-import
-kotlin
-.
-coroutines
-.
-CoroutineContext
 /
 *
 *
@@ -378,12 +378,12 @@ download
 service
 .
 Its
-*
 purpose
 is
 to
 react
 to
+*
 global
 download
 state
@@ -400,7 +400,6 @@ BrowserState
 downloads
 ]
 )
-*
 and
 notify
 the

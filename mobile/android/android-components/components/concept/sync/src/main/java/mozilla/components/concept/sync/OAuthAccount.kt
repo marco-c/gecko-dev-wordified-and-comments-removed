@@ -73,7 +73,6 @@ Deferred
 /
 *
 *
-*
 User
 data
 provided
@@ -91,7 +90,6 @@ session
 token
 to
 the
-*
 application
 *
 /
@@ -144,12 +142,12 @@ and
 will
 be
 tracked
-*
 in
 server
 telemetry
 to
 allow
+*
 studying
 authentication
 entry
@@ -177,7 +175,6 @@ a
 new
 entry
 point
-*
 here
 .
 *
@@ -191,7 +188,6 @@ entryName
 String
 }
 /
-*
 *
 *
 Facilitates
@@ -262,7 +258,6 @@ a
 webchannel
 login
 .
-*
 browser
 layer
 .
@@ -271,6 +266,7 @@ The
 jsonPayload
 ]
 is
+*
 the
 data
 object
@@ -279,7 +275,6 @@ the
 fxaccounts
 :
 login
-*
 WebChannel
 command
 .
@@ -309,10 +304,10 @@ WebChannel
 fxaccounts
 :
 fxa_status
-*
 response
 embedding
 the
+*
 session
 token
 privately
@@ -325,7 +320,6 @@ from
 the
 cached
 profile
-*
 in
 internal
 state
@@ -334,6 +328,7 @@ Returns
 null
 if
 no
+*
 session
 token
 is
@@ -366,11 +361,11 @@ the
 existing
 cached
 state
-*
 or
 from
 the
 server
+*
 (
 requires
 the
@@ -475,13 +470,13 @@ its
 scope
 key
 and
-*
 expiration
 timestamp
 (
 in
 seconds
 )
+*
 since
 epoch
 when
@@ -532,13 +527,13 @@ representing
 all
 the
 applications
-*
 connected
 to
 the
 user
 '
 s
+*
 account
 .
 This
@@ -549,7 +544,6 @@ are
 registered
 as
 a
-*
 device
 as
 well
@@ -561,6 +555,7 @@ services
 that
 the
 user
+*
 has
 connected
 .
@@ -593,9 +588,9 @@ using
 an
 access
 token
-*
 issued
 by
+*
 [
 getAccessToken
 ]
@@ -626,12 +621,12 @@ token
 failed
 with
 an
-*
 authentication
 error
 .
 It
 will
+*
 re
 -
 build
@@ -664,8 +659,8 @@ relay
 to
 it
 .
-*
 See
+*
 https
 :
 /
@@ -716,13 +711,13 @@ need
 to
 go
 through
-*
 re
 -
 authentication
 .
 A
 null
+*
 result
 means
 we
@@ -1005,7 +1000,6 @@ current
 device
 record
 .
-*
 Use
 this
 when
@@ -1014,6 +1008,7 @@ record
 is
 no
 longer
+*
 relevant
 e
 .
@@ -1026,7 +1021,6 @@ out
 On
 success
 other
-*
 devices
 will
 no
@@ -1038,6 +1032,7 @@ device
 in
 their
 device
+*
 lists
 .
 *
@@ -1060,10 +1055,10 @@ operation
 is
 complete
 .
-*
 Failure
 indicates
 that
+*
 we
 may
 have
@@ -1078,7 +1073,6 @@ Nothing
 to
 do
 for
-*
 the
 consumer
 ;
@@ -1086,6 +1080,7 @@ device
 record
 will
 be
+*
 cleaned
 up
 eventually
@@ -1120,9 +1115,9 @@ string
 for
 persistence
 in
-*
 the
 Android
+*
 KeyStore
 /
 shared
@@ -1135,7 +1130,6 @@ can
 be
 restored
 using
-*
 [
 FirefoxAccount
 .
@@ -1165,7 +1159,6 @@ String
 /
 *
 *
-*
 Describes
 a
 delegate
@@ -1192,7 +1185,6 @@ interface
 StatePersistenceCallback
 {
 /
-*
 *
 *
 param
@@ -1229,7 +1221,6 @@ AuthType
 /
 *
 *
-*
 Account
 restored
 from
@@ -1247,7 +1238,6 @@ AuthType
 (
 )
 /
-*
 *
 *
 Account
@@ -1271,7 +1261,6 @@ AuthType
 /
 *
 *
-*
 Account
 created
 in
@@ -1291,7 +1280,6 @@ AuthType
 (
 )
 /
-*
 *
 *
 Account
@@ -1319,7 +1307,6 @@ AuthType
 (
 )
 /
-*
 *
 *
 Account
@@ -1356,7 +1343,6 @@ AuthType
 /
 *
 *
-*
 Account
 created
 via
@@ -1384,7 +1370,6 @@ AuthType
 /
 *
 *
-*
 Account
 created
 via
@@ -1410,7 +1395,6 @@ AuthType
 (
 )
 /
-*
 *
 *
 Existing
@@ -1446,13 +1430,13 @@ encountered
 during
 authorization
 .
-*
 Intermittent
 network
 problems
 are
 the
 most
+*
 common
 reason
 for
@@ -1466,7 +1450,6 @@ class
 AuthFlowError
 {
 /
-*
 *
 *
 Couldn
@@ -1489,7 +1472,6 @@ URL
 /
 FailedToBeginAuth
 /
-*
 *
 *
 Couldn
@@ -1528,7 +1510,6 @@ and
 major
 events
 .
-*
 (
 XXX
 -
@@ -1537,11 +1518,11 @@ there
 s
 some
 tension
+*
 between
 this
 and
 the
-*
 mozilla
 .
 components
@@ -1600,7 +1581,6 @@ OAuthAccount
 =
 Unit
 /
-*
 *
 *
 Account
@@ -1679,6 +1659,7 @@ now
 available
 .
 *
+*
 param
 profile
 A
@@ -1704,7 +1685,6 @@ Profile
 =
 Unit
 /
-*
 *
 *
 Account
@@ -1748,6 +1728,7 @@ or
 migration
 flow
 .
+*
 *
 param
 error
@@ -1931,7 +1912,6 @@ expiresAt
 Long
 )
 /
-*
 *
 *
 The

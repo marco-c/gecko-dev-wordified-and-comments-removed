@@ -141,7 +141,6 @@ ObserverRegistry
 /
 *
 *
-*
 Feature
 to
 observe
@@ -217,7 +216,6 @@ reports
 on
 changes
 via
-*
 [
 onPreferenceChange
 ]
@@ -463,7 +461,6 @@ unsuccessful
 deregistration
 .
 *
-*
 /
 fun
 unregisterPrefForObservation
@@ -513,12 +510,12 @@ of
 browser
 preferences
 for
-*
 observation
 that
 was
 registered
 via
+*
 [
 registerPrefForObservation
 ]
@@ -564,7 +561,6 @@ a
 unsuccessful
 deregistration
 .
-*
 *
 /
 fun
@@ -623,10 +619,10 @@ for
 observation
 changes
 and
-*
 the
 preference
 value
+*
 changed
 after
 registration
@@ -680,7 +676,6 @@ observedPreference
 /
 *
 *
-*
 Observer
 interface
 for
@@ -707,7 +702,6 @@ changing
 is
 available
 .
-*
 Register
 a
 preference
@@ -749,9 +743,9 @@ BrowserPrefObserverFeature
 .
 onPreferenceChange
 ]
-*
 for
 more
+*
 details
 .
 *

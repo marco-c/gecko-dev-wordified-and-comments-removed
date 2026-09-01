@@ -67,6 +67,12 @@ top
 .
 sites
 import
+kotlin
+.
+test
+.
+assertNotNull
+import
 kotlinx
 .
 coroutines
@@ -156,12 +162,6 @@ mockito
 Mockito
 .
 when
-import
-kotlin
-.
-test
-.
-assertNotNull
 class
 PinnedSitesStorageTest
 {

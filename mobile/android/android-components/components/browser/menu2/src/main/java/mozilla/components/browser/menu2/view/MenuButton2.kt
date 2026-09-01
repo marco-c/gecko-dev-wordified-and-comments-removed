@@ -327,7 +327,6 @@ ObserverRegistry
 /
 *
 *
-*
 Sets
 a
 [
@@ -409,7 +408,6 @@ MenuController
 Observer
 {
 /
-*
 *
 *
 Change
@@ -545,7 +543,6 @@ notification_dot
 /
 *
 *
-*
 Shows
 the
 menu
@@ -589,7 +586,6 @@ onShow
 }
 }
 /
-*
 *
 *
 Show
@@ -700,7 +696,6 @@ GONE
 }
 }
 /
-*
 *
 *
 Sets

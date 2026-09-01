@@ -81,16 +81,6 @@ mozilla
 .
 components
 .
-concept
-.
-storage
-.
-LoginsStorage
-import
-mozilla
-.
-components
-.
 support
 .
 test

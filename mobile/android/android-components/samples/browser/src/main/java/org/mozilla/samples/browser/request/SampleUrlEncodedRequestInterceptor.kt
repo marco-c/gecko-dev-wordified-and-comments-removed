@@ -157,7 +157,6 @@ components
 /
 *
 *
-*
 Example
 of
 a

@@ -177,12 +177,12 @@ warm
 up
 and
 token
-*
 retrieval
 into
 the
 IP
 protection
+*
 handler
 .
 *

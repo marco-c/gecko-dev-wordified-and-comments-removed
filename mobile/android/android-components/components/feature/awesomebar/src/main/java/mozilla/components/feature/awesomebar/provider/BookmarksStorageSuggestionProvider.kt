@@ -95,6 +95,12 @@ net
 .
 toUri
 import
+java
+.
+util
+.
+UUID
+import
 mozilla
 .
 components
@@ -188,14 +194,7 @@ feature
 session
 .
 SessionUseCases
-import
-java
-.
-util
-.
-UUID
 /
-*
 *
 *
 Return
@@ -217,7 +216,6 @@ BOOKMARKS_SUGGESTION_LIMIT
 =
 20
 /
-*
 *
 *
 Default
@@ -262,10 +260,10 @@ based
 on
 the
 bookmarks
-*
 stored
 in
 the
+*
 [
 BookmarksStorage
 ]
@@ -282,7 +280,6 @@ the
 BookmarksStorage
 ]
 used
-*
 to
 query
 matching
@@ -301,7 +298,6 @@ the
 url
 when
 the
-*
 user
 clicks
 on
@@ -321,7 +317,6 @@ to
 load
 fav
 icons
-*
 for
 bookmarked
 URLs
@@ -343,7 +338,6 @@ speculativeConnect
 ]
 for
 the
-*
 highest
 scored
 suggestion
@@ -801,7 +795,6 @@ take
 BOOKMARKS_SUGGESTION_LIMIT
 )
 /
-*
 *
 *
 Expects

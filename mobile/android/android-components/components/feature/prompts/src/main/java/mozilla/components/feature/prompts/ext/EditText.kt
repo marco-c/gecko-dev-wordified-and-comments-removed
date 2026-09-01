@@ -92,6 +92,7 @@ keyboard
 Done
 action
 *
+*
 param
 actionConsumed
 true

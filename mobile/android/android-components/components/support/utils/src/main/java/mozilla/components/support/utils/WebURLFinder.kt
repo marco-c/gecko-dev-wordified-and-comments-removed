@@ -122,7 +122,6 @@ Patterns
 .
 java
 .
-*
 We
 brought
 them
@@ -130,6 +129,7 @@ in
 to
 standardize
 URL
+*
 matching
 across
 Android
@@ -137,7 +137,6 @@ versions
 instead
 of
 relying
-*
 on
 Android
 version
@@ -150,10 +149,10 @@ that
 can
 vary
 across
+*
 Android
 versions
 .
-*
 The
 original
 code
@@ -331,7 +330,6 @@ URL
 .
 *
 *
-*
 "
 Best
 "
@@ -350,7 +348,6 @@ Web
 URL
 without
 a
-*
 scheme
 .
 *

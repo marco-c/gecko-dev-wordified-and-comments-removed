@@ -165,7 +165,6 @@ sp
 /
 *
 *
-*
 Default
 values
 for
@@ -180,7 +179,6 @@ object
 RichTextDefaults
 {
 /
-*
 *
 *
 Default

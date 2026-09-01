@@ -141,6 +141,12 @@ dialog
 .
 MaterialAlertDialogBuilder
 import
+java
+.
+util
+.
+Locale
+import
 mozilla
 .
 components
@@ -162,12 +168,6 @@ ui
 widgets
 .
 withCenterAlignedButtons
-import
-java
-.
-util
-.
-Locale
 /
 *
 *
@@ -202,7 +202,6 @@ oss
 -
 licenses
 library
-*
 which
 cannot
 be
@@ -212,6 +211,7 @@ OSS
 builds
 because
 it
+*
 is
 proprietary
 and
@@ -219,7 +219,6 @@ closed
 -
 source
 .
-*
 It
 uses
 Google
@@ -234,8 +233,8 @@ dependencies
 and
 their
 licenses
-*
 and
+*
 displays
 them
 to
@@ -315,7 +314,6 @@ metadata
 Int
 )
 /
-*
 *
 *
 Required
@@ -632,11 +630,11 @@ metadataLines
 ]
 holds
 one
-*
 entry
 per
 line
 formatted
+*
 "
 [
 start_offset
@@ -656,7 +654,6 @@ blob
 .
 Lines
 that
-*
 don
 '
 t
@@ -668,6 +665,7 @@ point
 out
 of
 bounds
+*
 are
 skipped
 rather

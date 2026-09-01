@@ -1252,10 +1252,10 @@ all
 the
 way
 to
-*
 the
 top
 is
+*
 returned
 .
 The
@@ -1275,13 +1275,13 @@ the
 root
 node
 .
-*
 If
 no
 match
 is
 found
 then
+*
 <
 code
 >

@@ -67,7 +67,6 @@ fetch
 /
 *
 *
-*
 A
 collection
 of
@@ -101,7 +100,6 @@ Header
 /
 *
 *
-*
 Returns
 the
 number
@@ -121,7 +119,6 @@ size
 :
 Int
 /
-*
 *
 *
 Gets
@@ -189,7 +186,6 @@ String
 /
 *
 *
-*
 Returns
 the
 list
@@ -220,7 +216,6 @@ String
 /
 *
 *
-*
 Sets
 the
 [
@@ -247,7 +242,6 @@ header
 Header
 )
 /
-*
 *
 *
 Returns
@@ -499,7 +493,6 @@ json
 /
 *
 *
-*
 Represents
 a
 [
@@ -554,7 +547,6 @@ empty
 }
 }
 /
-*
 *
 *
 A
@@ -641,7 +633,6 @@ toMutableList
 )
 )
 /
-*
 *
 *
 Gets
@@ -734,7 +725,6 @@ value
 /
 *
 *
-*
 Returns
 the
 list
@@ -796,7 +786,6 @@ value
 /
 *
 *
-*
 Sets
 the
 [
@@ -833,7 +822,6 @@ header
 /
 *
 *
-*
 Returns
 an
 iterator
@@ -866,7 +854,6 @@ iterator
 (
 )
 /
-*
 *
 *
 Returns
@@ -917,7 +904,6 @@ true
 /
 *
 *
-*
 Returns
 the
 number
@@ -945,7 +931,6 @@ headers
 .
 size
 /
-*
 *
 *
 Append
@@ -987,7 +972,6 @@ return
 this
 }
 /
-*
 *
 *
 Set

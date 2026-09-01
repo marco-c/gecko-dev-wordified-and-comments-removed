@@ -158,8 +158,8 @@ a
 layout
 resource
 to
-*
 satisfy
+*
 [
 BrowserMenuItem
 .
@@ -223,11 +223,11 @@ offscreen
 downwards
 or
 upwards
-*
 depending
 on
 the
 menu
+*
 position
 )
 .

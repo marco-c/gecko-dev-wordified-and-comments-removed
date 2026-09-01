@@ -743,7 +743,6 @@ Parser
 /
 *
 *
-*
 The
 corner
 ration
@@ -792,12 +791,12 @@ display
 long
 -
 press
-*
 reveal
 on
 the
 error
 icon
+*
 telemetry
 support
 )
@@ -809,9 +808,9 @@ has
 no
 knowledge
 of
-*
 which
 concrete
+*
 [
 mozilla
 .
@@ -830,7 +829,6 @@ exist
 ;
 the
 caller
-*
 (
 app
 layer
@@ -839,7 +837,6 @@ supplies
 that
 mapping
 .
-*
 *
 /
 Composable

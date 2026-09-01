@@ -124,10 +124,10 @@ of
 the
 sponsored
 contents
-*
 by
 fetching
 and
+*
 persisting
 in
 storage

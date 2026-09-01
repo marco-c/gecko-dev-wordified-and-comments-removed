@@ -189,7 +189,6 @@ JSONObject
 /
 *
 *
-*
 Parser
 for
 constructing
@@ -206,7 +205,6 @@ class
 WebAppManifestParser
 {
 /
-*
 *
 *
 A
@@ -349,11 +347,11 @@ JSONObject
 we
 work
 with
-*
 does
 not
 match
 what
+*
 was
 originally
 provided
@@ -433,8 +431,8 @@ short_name
 .
 .
 )
-*
 See
+*
 https
 :
 /
@@ -931,7 +929,6 @@ shareTarget
 }
 }
 /
-*
 *
 *
 Returns

@@ -199,10 +199,10 @@ be
 notified
 immediately
 .
-*
 If
 the
 push
+*
 components
 are
 not
@@ -212,7 +212,6 @@ feature
 can
 still
 function
-*
 while
 tabs
 would
@@ -223,6 +222,7 @@ when
 refreshing
 the
 device
+*
 state
 .
 *
@@ -264,12 +264,12 @@ the
 [
 ProcessLifecycleOwner
 ]
-*
 so
 that
 we
 can
 always
+*
 observe
 events
 throughout
@@ -288,7 +288,6 @@ observer
 should
 automatically
 be
-*
 paused
 /
 resumed

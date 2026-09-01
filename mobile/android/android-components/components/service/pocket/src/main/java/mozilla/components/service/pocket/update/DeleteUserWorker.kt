@@ -109,7 +109,6 @@ GlobalDependencyProvider
 /
 *
 *
-*
 An
 implementation
 of
@@ -125,7 +124,6 @@ user
 data
 for
 sponsored
-*
 contents
 .
 *

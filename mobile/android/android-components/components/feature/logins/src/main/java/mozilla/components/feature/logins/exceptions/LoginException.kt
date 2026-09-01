@@ -69,7 +69,6 @@ exceptions
 /
 *
 *
-*
 A
 login
 exception
@@ -80,7 +79,6 @@ interface
 LoginException
 {
 /
-*
 *
 *
 Unique
@@ -97,7 +95,6 @@ id
 :
 Long
 /
-*
 *
 *
 The

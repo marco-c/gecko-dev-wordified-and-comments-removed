@@ -179,7 +179,6 @@ platform
 accelerometer
 data
 and
-*
 platform
 -
 agnostic
@@ -189,6 +188,7 @@ It
 uses
 the
 Android
+*
 [
 SensorManager
 ]
@@ -196,7 +196,6 @@ to
 collect
 this
 data
-*
 and
 can
 be
@@ -209,9 +208,9 @@ to
 handle
 registering
 and
+*
 unregistering
 its
-*
 sensor
 management
 automatically
@@ -225,7 +224,6 @@ data
 into
 more
 friendly
-*
 types
 .
 *
@@ -580,9 +578,9 @@ acceleration
 i
 .
 e
-*
 actual
 linear
+*
 movements
 of
 the
@@ -614,10 +612,10 @@ the
 impact
 of
 gravity
-*
 and
 then
 subtract
+*
 it
 from
 the
@@ -632,6 +630,7 @@ in
 2
 steps
 :
+*
 *
 #
 #
@@ -667,11 +666,11 @@ data
 and
 since
 movements
-*
 of
 the
 phone
 are
+*
 somewhat
 sudden
 and
@@ -684,7 +683,6 @@ considered
 high
 -
 frequency
-*
 data
 .
 *
@@ -741,10 +739,10 @@ acceleration
 due
 to
 gravity
-*
 and
 since
 we
+*
 consider
 that
 a
@@ -758,7 +756,6 @@ not
 change
 frequently
 )
-*
 a
 low
 -
@@ -788,7 +785,6 @@ previously
 calculated
 value
 and
-*
 that
 '
 s
@@ -796,6 +792,7 @@ why
 we
 are
 writing
+*
 to
 the
 same
@@ -825,9 +822,9 @@ and
 this
 is
 based
-*
 off
 calculations
+*
 related
 to
 the
@@ -870,10 +867,10 @@ this
 acceleration
 was
 caused
-*
 by
 the
 acceleration
+*
 due
 to
 gravity

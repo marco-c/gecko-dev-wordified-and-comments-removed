@@ -751,7 +751,6 @@ toVisibilityState
 /
 *
 *
-*
 An
 effect
 for
@@ -771,7 +770,6 @@ onScroll
 at
 the
 beginning
-*
 of
 a
 scroll
@@ -1094,9 +1092,9 @@ called
 only
 once
 as
-*
 long
 as
+*
 [
 scrollInProgress
 ]
@@ -1161,7 +1159,6 @@ onScroll
 }
 }
 /
-*
 *
 *
 A
@@ -1246,8 +1243,8 @@ of
 the
 visible
 items
-*
 in
+*
 that
 list
 ordered

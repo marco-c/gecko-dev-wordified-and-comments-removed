@@ -69,7 +69,6 @@ translate
 /
 *
 *
-*
 The
 operations
 that
@@ -96,7 +95,6 @@ String
 /
 *
 *
-*
 Download
 the
 model
@@ -113,7 +111,6 @@ download
 "
 )
 /
-*
 *
 *
 Delete
@@ -133,7 +130,6 @@ delete
 )
 ;
 /
-*
 *
 *
 The

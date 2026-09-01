@@ -107,7 +107,6 @@ R
 /
 *
 *
-*
 RecyclerView
 adapter
 for

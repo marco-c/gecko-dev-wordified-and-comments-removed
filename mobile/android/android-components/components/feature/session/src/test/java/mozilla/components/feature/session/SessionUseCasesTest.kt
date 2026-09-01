@@ -65,6 +65,12 @@ feature
 .
 session
 import
+kotlin
+.
+test
+.
+assertNotNull
+import
 kotlinx
 .
 coroutines
@@ -322,12 +328,6 @@ org
 robolectric
 .
 RobolectricTestRunner
-import
-kotlin
-.
-test
-.
-assertNotNull
 RunWith
 (
 RobolectricTestRunner

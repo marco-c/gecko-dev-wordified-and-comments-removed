@@ -69,7 +69,6 @@ awesomebar
 /
 *
 *
-*
 The
 orientation
 of

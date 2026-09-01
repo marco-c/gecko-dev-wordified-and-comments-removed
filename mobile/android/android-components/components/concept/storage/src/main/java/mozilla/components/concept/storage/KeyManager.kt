@@ -65,6 +65,10 @@ concept
 .
 storage
 import
+kotlin
+.
+IllegalStateException
+import
 kotlinx
 .
 coroutines
@@ -80,12 +84,7 @@ coroutines
 sync
 .
 withLock
-import
-kotlin
-.
-IllegalStateException
 /
-*
 *
 *
 Knows
@@ -138,7 +137,6 @@ Mutex
 /
 *
 *
-*
 return
 Generated
 key
@@ -176,6 +174,7 @@ recovery
 is
 necessary
 .
+*
 *
 return
 Optional
@@ -234,6 +233,7 @@ managed
 key
 .
 *
+*
 return
 an
 optional
@@ -252,7 +252,6 @@ getStoredCanary
 String
 ?
 /
-*
 *
 *
 Returns
@@ -276,7 +275,6 @@ getStoredKey
 String
 ?
 /
-*
 *
 *
 Stores
@@ -319,7 +317,6 @@ to
 reason
 ]
 .
-*
 If
 this
 KeyManager
@@ -330,6 +327,7 @@ layer
 it
 should
 probably
+*
 remove
 the
 now
@@ -394,7 +392,6 @@ return
 managedKey
 }
 /
-*
 *
 *
 Access
@@ -706,7 +703,6 @@ IllegalStateException
 }
 }
 /
-*
 *
 *
 Access

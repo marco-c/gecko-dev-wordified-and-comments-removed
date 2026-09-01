@@ -67,7 +67,6 @@ integrity
 /
 *
 *
-*
 A
 value
 type
@@ -96,7 +95,6 @@ String
 /
 *
 *
-*
 Interface
 used
 to
@@ -111,7 +109,6 @@ interface
 IntegrityClient
 {
 /
-*
 *
 *
 Requests

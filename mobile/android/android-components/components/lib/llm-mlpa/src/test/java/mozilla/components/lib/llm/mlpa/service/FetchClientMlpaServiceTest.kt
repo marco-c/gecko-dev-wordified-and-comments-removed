@@ -69,6 +69,12 @@ mlpa
 .
 service
 import
+kotlin
+.
+test
+.
+assertIs
+import
 kotlinx
 .
 coroutines
@@ -246,12 +252,6 @@ org
 junit
 .
 Test
-import
-kotlin
-.
-test
-.
-assertIs
 class
 FetchClientMlpaServiceTest
 {

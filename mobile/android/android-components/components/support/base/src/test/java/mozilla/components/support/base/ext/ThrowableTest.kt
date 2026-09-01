@@ -79,6 +79,12 @@ runners
 .
 AndroidJUnit4
 import
+java
+.
+lang
+.
+RuntimeException
+import
 org
 .
 json
@@ -106,12 +112,6 @@ junit
 runner
 .
 RunWith
-import
-java
-.
-lang
-.
-RuntimeException
 RunWith
 (
 AndroidJUnit4

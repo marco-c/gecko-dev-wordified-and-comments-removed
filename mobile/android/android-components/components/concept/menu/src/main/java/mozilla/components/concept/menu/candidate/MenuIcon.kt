@@ -105,7 +105,6 @@ AppCompatResources
 /
 *
 *
-*
 Menu
 option
 data
@@ -564,7 +563,6 @@ MenuIcon
 (
 )
 /
-*
 *
 *
 Interface

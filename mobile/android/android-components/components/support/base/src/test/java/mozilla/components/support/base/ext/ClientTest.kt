@@ -67,6 +67,12 @@ base
 .
 ext
 import
+java
+.
+io
+.
+IOException
+import
 mozilla
 .
 components
@@ -188,12 +194,6 @@ mockito
 Mockito
 .
 verify
-import
-java
-.
-io
-.
-IOException
 private
 const
 val

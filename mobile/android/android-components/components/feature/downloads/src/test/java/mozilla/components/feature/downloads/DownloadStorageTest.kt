@@ -65,12 +65,6 @@ feature
 .
 downloads
 import
-android
-.
-os
-.
-Environment
-import
 androidx
 .
 test

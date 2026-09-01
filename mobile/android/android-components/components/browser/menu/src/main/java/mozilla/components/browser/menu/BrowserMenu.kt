@@ -293,7 +293,6 @@ pixelSizeFor
 /
 *
 *
-*
 A
 popup
 menu
@@ -1243,7 +1242,6 @@ companion
 object
 {
 /
-*
 *
 *
 Determines

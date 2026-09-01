@@ -362,7 +362,6 @@ be
 used
 to
 emit
-*
 [
 PressInteraction
 .
@@ -370,6 +369,7 @@ Press
 ]
 when
 this
+*
 clickable
 is
 pressed

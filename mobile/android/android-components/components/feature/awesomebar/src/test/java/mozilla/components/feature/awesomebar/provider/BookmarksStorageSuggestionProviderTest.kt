@@ -87,6 +87,12 @@ runners
 .
 AndroidJUnit4
 import
+java
+.
+util
+.
+UUID
+import
 kotlinx
 .
 coroutines
@@ -306,12 +312,6 @@ mockito
 Mockito
 .
 verify
-import
-java
-.
-util
-.
-UUID
 RunWith
 (
 AndroidJUnit4

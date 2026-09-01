@@ -79,6 +79,12 @@ net
 .
 Uri
 import
+java
+.
+io
+.
+InputStream
+import
 kotlinx
 .
 coroutines
@@ -176,12 +182,6 @@ storage
 bookmarks
 .
 InsertableBookmarkTreeRoot
-import
-java
-.
-io
-.
-InputStream
 /
 *
 *
@@ -304,7 +304,6 @@ inserter
 /
 *
 *
-*
 Opens
 an
 [
@@ -378,7 +377,6 @@ companion
 object
 {
 /
-*
 *
 *
 Creates

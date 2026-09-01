@@ -117,7 +117,6 @@ R
 /
 *
 *
-*
 [
 Authenticator
 ]

@@ -505,7 +505,6 @@ relay
 /
 *
 *
-*
 The
 main
 activity

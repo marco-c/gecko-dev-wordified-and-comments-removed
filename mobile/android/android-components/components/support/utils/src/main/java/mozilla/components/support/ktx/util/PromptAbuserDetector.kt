@@ -101,7 +101,6 @@ maxSuccessiveDialogMillisLimit
 Maximum
 time
 required
-*
 between
 dialogs
 in
@@ -110,6 +109,7 @@ before
 not
 showing
 more
+*
 dialog
 .
 *
@@ -161,7 +161,6 @@ set
 /
 *
 *
-*
 Updates
 internal
 state
@@ -184,7 +183,6 @@ shouldShowMoreDialogs
 true
 }
 /
-*
 *
 *
 Updates
@@ -229,7 +227,6 @@ Date
 /
 *
 *
-*
 Indicates
 whether
 or
@@ -256,7 +253,6 @@ shouldShowMoreDialogs
 checkBox
 }
 /
-*
 *
 *
 Indicates
@@ -437,7 +433,6 @@ Int
 =
 3000
 /
-*
 *
 *
 Only

@@ -65,6 +65,12 @@ feature
 .
 fxsuggest
 import
+java
+.
+util
+.
+UUID
+import
 mozilla
 .
 appservices
@@ -120,12 +126,6 @@ ktx
 kotlin
 .
 toBitmap
-import
-java
-.
-util
-.
-UUID
 private
 const
 val
@@ -304,7 +304,6 @@ AwesomeBar
 SuggestionProvider
 {
 /
-*
 *
 *
 [
@@ -836,7 +835,6 @@ it
 /
 *
 *
-*
 A
 default
 implementation
@@ -854,7 +852,6 @@ by
 FxSuggestSuggestionProvider
 ]
 .
-*
 *
 /
 private
@@ -973,8 +970,8 @@ telemetry
 when
 the
 user
-*
 interacts
+*
 with
 the
 suggestion

@@ -131,7 +131,6 @@ ToggleablePrompt
 /
 *
 *
-*
 A
 prompt
 bar

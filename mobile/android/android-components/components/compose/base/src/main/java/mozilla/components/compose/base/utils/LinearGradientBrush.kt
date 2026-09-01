@@ -171,10 +171,10 @@ containing
 the
 color
 stop
-*
 position
 in
 percentage
+*
 represented
 as
 a

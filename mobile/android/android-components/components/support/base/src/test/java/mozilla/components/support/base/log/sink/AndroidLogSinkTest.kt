@@ -81,6 +81,12 @@ runners
 .
 AndroidJUnit4
 import
+java
+.
+io
+.
+PrintWriter
+import
 mozilla
 .
 components
@@ -144,12 +150,6 @@ robolectric
 shadows
 .
 ShadowLog
-import
-java
-.
-io
-.
-PrintWriter
 RunWith
 (
 AndroidJUnit4

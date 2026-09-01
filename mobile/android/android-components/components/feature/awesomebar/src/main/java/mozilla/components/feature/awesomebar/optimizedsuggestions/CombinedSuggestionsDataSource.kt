@@ -97,12 +97,12 @@ for
 the
 same
 query
-*
 are
 coalesced
 into
 a
 single
+*
 network
 call
 .
@@ -112,7 +112,6 @@ interface
 CombinedSuggestionsDataSource
 {
 /
-*
 *
 *
 Fetch
@@ -141,7 +140,6 @@ StockItem
 /
 *
 *
-*
 Fetch
 sports
 suggestions
@@ -166,7 +164,6 @@ List
 SportItem
 >
 /
-*
 *
 *
 Fetch

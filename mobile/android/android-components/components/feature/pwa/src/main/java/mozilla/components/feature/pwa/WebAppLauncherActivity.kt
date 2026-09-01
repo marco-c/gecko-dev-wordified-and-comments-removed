@@ -210,12 +210,12 @@ is
 launched
 in
 the
-*
 browser
 or
 in
 a
 standalone
+*
 activity
 .
 *

@@ -71,6 +71,12 @@ content
 .
 Context
 import
+java
+.
+util
+.
+Locale
+import
 kotlinx
 .
 coroutines
@@ -94,12 +100,6 @@ kotlinx
 coroutines
 .
 launch
-import
-java
-.
-util
-.
-Locale
 /
 *
 *
@@ -114,7 +114,6 @@ on
 a
 provided
 list
-*
 of
 assets
 (
@@ -128,11 +127,11 @@ and
 or
 a
 custom
+*
 domain
 list
 managed
 by
-*
 [
 CustomDomains
 ]
@@ -258,7 +257,6 @@ search
 text
 as
 passed
-*
 to
 [
 autocomplete
@@ -266,6 +264,7 @@ autocomplete
 followed
 by
 the
+*
 completion
 text
 (
@@ -293,7 +292,6 @@ protocol
 )
 as
 provided
-*
 when
 the
 domain
@@ -305,6 +303,7 @@ e
 .
 g
 .
+*
 https
 :
 /
@@ -332,7 +331,6 @@ of
 available
 autocomplete
 domains
-*
 in
 this
 source
@@ -426,7 +424,6 @@ text
 and
 invokes
 the
-*
 provided
 callback
 passing
@@ -458,7 +455,6 @@ is
 found
 an
 empty
-*
 result
 object
 is
@@ -567,7 +563,6 @@ and
 /
 or
 custom
-*
 domains
 are
 loaded
@@ -592,7 +587,6 @@ domains
 provided
 by
 this
-*
 module
 should
 be
@@ -610,7 +604,6 @@ custom
 domains
 provided
 by
-*
 [
 CustomDomains
 ]
@@ -619,6 +612,7 @@ be
 used
 otherwise
 false
+*
 (
 default
 )
@@ -635,7 +629,6 @@ domains
 should
 be
 loaded
-*
 otherwise
 false
 .
@@ -643,6 +636,7 @@ This
 parameter
 is
 for
+*
 testing
 purposes
 only
@@ -911,7 +905,6 @@ the
 search
 text
 might
-*
 be
 mixed
 case
@@ -919,12 +912,12 @@ case
 Our
 autocomplete
 EditText
+*
 code
 does
 more
 string
 comparison
-*
 which
 fails
 if
@@ -939,9 +932,9 @@ searchText
 (
 ie
 .
-*
 if
 casing
+*
 differs
 )
 .
@@ -954,7 +947,6 @@ just
 build
 a
 suggestion
-*
 that
 exactly
 matches
@@ -966,6 +958,7 @@ which
 is
 what
 this
+*
 method
 is
 for

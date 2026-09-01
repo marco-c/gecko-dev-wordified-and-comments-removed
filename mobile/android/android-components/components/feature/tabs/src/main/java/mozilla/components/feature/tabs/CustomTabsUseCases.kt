@@ -183,7 +183,6 @@ SessionUseCases
 /
 *
 *
-*
 UseCases
 for
 custom
@@ -205,7 +204,6 @@ DefaultLoadUrlUseCase
 )
 {
 /
-*
 *
 *
 Use
@@ -237,7 +235,6 @@ DefaultLoadUrlUseCase
 )
 {
 /
-*
 *
 *
 Adds
@@ -354,7 +351,6 @@ id
 /
 *
 *
-*
 Use
 case
 for
@@ -385,7 +381,6 @@ DefaultLoadUrlUseCase
 )
 {
 /
-*
 *
 *
 Adds
@@ -482,7 +477,6 @@ id
 /
 *
 *
-*
 Use
 case
 for
@@ -504,7 +498,6 @@ BrowserStore
 )
 {
 /
-*
 *
 *
 Removes
@@ -573,7 +566,6 @@ false
 /
 *
 *
-*
 Use
 case
 for
@@ -615,7 +607,6 @@ customTabId
 to
 a
 regular
-*
 tab
 .
 This
@@ -625,6 +616,7 @@ no
 effect
 if
 the
+*
 custom
 tab
 does

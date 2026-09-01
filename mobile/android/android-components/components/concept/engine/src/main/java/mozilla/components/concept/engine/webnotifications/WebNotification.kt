@@ -164,9 +164,9 @@ in
 the
 notification
 .
-*
 Corresponds
 to
+*
 [
 android
 .
@@ -220,12 +220,12 @@ Engine
 which
 can
 be
-*
 sent
 across
 processes
 or
 persisted
+*
 and
 restored
 later
@@ -251,7 +251,6 @@ was
 triggered
 by
 a
-*
 web
 extension
 otherwise

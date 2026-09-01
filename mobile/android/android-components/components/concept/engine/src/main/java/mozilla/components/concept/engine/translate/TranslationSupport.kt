@@ -85,12 +85,12 @@ translated
 from
 .
 Usually
-*
 a
 given
 language
 will
 be
+*
 bi
 -
 directional
@@ -101,7 +101,6 @@ to
 and
 from
 )
-*
 but
 this
 is
@@ -115,6 +114,7 @@ support
 response
 is
 two
+*
 lists
 .
 *
@@ -196,13 +196,13 @@ to
 a
 single
 language
-*
 map
 for
 BCP
 47
 code
 to
+*
 [
 Language
 ]
@@ -228,13 +228,13 @@ the
 key
 and
 the
-*
 [
 Language
 ]
 object
 as
 the
+*
 value
 or
 null
@@ -340,7 +340,6 @@ language
 code
 .
 *
-*
 return
 The
 [
@@ -404,7 +403,6 @@ to
 a
 map
 using
-*
 [
 Language
 ]

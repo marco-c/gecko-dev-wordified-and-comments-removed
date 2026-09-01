@@ -127,7 +127,6 @@ collect
 /
 *
 *
-*
 Facts
 emitted
 for
@@ -144,7 +143,6 @@ class
 WebExtensionFacts
 {
 /
-*
 *
 *
 Items

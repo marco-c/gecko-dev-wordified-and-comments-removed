@@ -154,11 +154,11 @@ NimbusBranchesAdapterDelegate
 ]
 that
 provides
-*
 methods
 for
 handling
 the
+*
 Nimbus
 branch
 items

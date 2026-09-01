@@ -98,7 +98,6 @@ MediaSession
 *
 *
 *
-*
 An
 internal
 only
@@ -247,11 +246,11 @@ originating
 tab
 or
 an
-*
 empty
 string
 if
 no
+*
 search
 was
 executed

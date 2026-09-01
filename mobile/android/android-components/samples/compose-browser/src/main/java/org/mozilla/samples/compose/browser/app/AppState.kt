@@ -81,7 +81,6 @@ State
 /
 *
 *
-*
 Global
 state
 the

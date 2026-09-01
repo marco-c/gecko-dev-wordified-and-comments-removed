@@ -633,13 +633,13 @@ where
 the
 result
 array
-*
 of
 calling
 [
 transform
 ]
 contains
+*
 at
 least
 one
@@ -903,8 +903,8 @@ with
 each
 new
 emission
-*
 being
+*
 advanced
 by
 [
@@ -958,7 +958,6 @@ than
 [
 size
 ]
-*
 will
 also
 be
@@ -1039,7 +1038,6 @@ T
 size
 )
 /
-*
 *
 *
 Helper

@@ -208,10 +208,10 @@ the
 feature
 about
 actions
-*
 the
 user
 performed
+*
 in
 the
 credit
@@ -246,10 +246,10 @@ the
 select
 credit
 card
-*
 prompt
 will
 be
+*
 inflated
 .
 *
@@ -267,10 +267,10 @@ Manage
 credit
 cards
 "
-*
 from
 the
 select
+*
 credit
 card
 prompt
@@ -289,11 +289,11 @@ a
 credit
 card
 option
-*
 from
 the
 select
 credit
+*
 card
 prompt
 *
@@ -441,7 +441,6 @@ invoke
 /
 *
 *
-*
 Called
 on
 a
@@ -495,7 +494,6 @@ null
 }
 }
 /
-*
 *
 *
 Called
@@ -568,7 +566,6 @@ SelectCreditCard
 ]
 or
 null
-*
 otherwise
 .
 *

@@ -328,7 +328,6 @@ providerList
 /
 *
 *
-*
 Processes
 a
 message
@@ -477,7 +476,6 @@ it
 a
 new
 one
-*
 or
 continuing
 from

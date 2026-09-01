@@ -69,7 +69,6 @@ fission
 /
 *
 *
-*
 The
 web
 content
@@ -113,11 +112,11 @@ is
 similar
 to
 the
-*
 non
 -
 Fission
 behaviour
+*
 however
 remote
 subframes
@@ -129,13 +128,13 @@ for
 sites
 with
 special
-*
 isolation
 behaviour
 such
 as
 extension
 or
+*
 mozillaweb
 content
 processes
@@ -166,10 +165,10 @@ on
 site
 -
 origin
-*
 and
 will
 only
+*
 load
 in
 a
@@ -214,13 +213,13 @@ value
 A
 site
 is
-*
 considered
 "
 high
 value
 "
 if
+*
 it
 has
 been
@@ -232,7 +231,6 @@ permission
 by
 the
 permission
-*
 manager
 which
 is
@@ -241,6 +239,7 @@ in
 response
 to
 certain
+*
 actions
 .
 *
@@ -251,7 +250,6 @@ ISOLATE_HIGH_VALUE
 )
 ;
 /
-*
 *
 *
 Companion

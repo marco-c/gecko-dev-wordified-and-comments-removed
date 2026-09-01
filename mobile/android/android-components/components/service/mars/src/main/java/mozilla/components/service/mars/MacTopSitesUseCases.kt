@@ -85,7 +85,6 @@ TopSitesProvider
 /
 *
 *
-*
 Contains
 use
 cases
@@ -106,7 +105,6 @@ MacTopSitesUseCases
 /
 *
 *
-*
 Refresh
 MAC
 top
@@ -124,7 +122,6 @@ constructor
 )
 {
 /
-*
 *
 *
 Refreshes
@@ -170,7 +167,6 @@ null
 /
 *
 *
-*
 Initializes
 the
 [
@@ -185,7 +181,6 @@ sites
 tile
 from
 the
-*
 provider
 .
 *
@@ -206,7 +201,6 @@ provider
 provider
 }
 /
-*
 *
 *
 Unbinds
@@ -232,7 +226,6 @@ null
 /
 *
 *
-*
 Returns
 the
 [
@@ -247,7 +240,6 @@ the
 [
 provider
 ]
-*
 has
 not
 been

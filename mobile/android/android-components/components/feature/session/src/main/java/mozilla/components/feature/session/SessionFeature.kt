@@ -149,7 +149,6 @@ UserInteractionHandler
 /
 *
 *
-*
 Feature
 implementation
 for
@@ -223,7 +222,6 @@ tabId
 mainDispatcher
 )
 /
-*
 *
 *
 Start
@@ -465,7 +463,6 @@ false
 /
 *
 *
-*
 Stop
 feature
 :
@@ -510,10 +507,10 @@ explicitly
 started
 again
 )
-*
 and
 releases
 an
+*
 already
 rendering
 session

@@ -137,6 +137,12 @@ app
 .
 AppCompatActivity
 import
+java
+.
+util
+.
+Locale
+import
 mozilla
 .
 components
@@ -162,14 +168,7 @@ utils
 ext
 .
 getParcelableCompat
-import
-java
-.
-util
-.
-Locale
 /
-*
 *
 *
 Launches
@@ -198,7 +197,6 @@ AppCompatActivity
 /
 *
 *
-*
 Holds
 the
 intent
@@ -207,7 +205,6 @@ initially
 started
 this
 activity
-*
 so
 that
 it
@@ -387,7 +384,6 @@ finish
 /
 *
 *
-*
 Language
 locale
 for
@@ -404,7 +400,6 @@ getCurrentLocale
 :
 Locale
 /
-*
 *
 *
 Speech
@@ -440,6 +435,7 @@ with
 the
 spokenText
 .
+*
 *
 param
 spokenText
@@ -548,7 +544,6 @@ it
 }
 }
 /
-*
 *
 *
 Displays
@@ -665,7 +660,6 @@ set
 to
 true
 .
-*
 Returns
 false
 if
@@ -715,7 +709,6 @@ components
 previous_intent
 "
 /
-*
 *
 *
 In

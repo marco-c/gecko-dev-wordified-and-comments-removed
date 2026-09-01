@@ -154,10 +154,10 @@ delegates
 both
 the
 behavior
-*
 and
 the
 returned
+*
 value
 to
 a

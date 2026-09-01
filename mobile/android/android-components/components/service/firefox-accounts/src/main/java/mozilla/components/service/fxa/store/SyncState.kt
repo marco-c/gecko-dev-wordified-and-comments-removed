@@ -241,7 +241,6 @@ as
 NotInitialized
 ]
 .
-*
 Becomes
 [
 Started
@@ -253,7 +252,6 @@ of
 a
 Sync
 .
-*
 Becomes
 [
 Idle
@@ -276,7 +274,6 @@ encounters
 an
 error
 .
-*
 Becomes
 [
 LoggedOut

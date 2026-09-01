@@ -350,11 +350,11 @@ light
 navigation
 bar
 with
-*
 dark
 icons
 will
 be
+*
 used
 .
 *
@@ -407,11 +407,11 @@ light
 enough
 a
 light
-*
 navigation
 bar
 with
 dark
+*
 icons
 will
 be
@@ -467,7 +467,6 @@ navBarDividerColor
 )
 }
 /
-*
 *
 *
 Creates
@@ -529,7 +528,6 @@ status
 bar
 color
 .
-*
 Note
 that
 if
@@ -544,6 +542,7 @@ enabled
 the
 color
 will
+*
 be
 transparent
 and
@@ -620,7 +619,6 @@ navigation
 bar
 color
 .
-*
 Note
 that
 if
@@ -634,6 +632,7 @@ is
 enabled
 the
 color
+*
 will
 be
 transparent
@@ -713,7 +712,6 @@ bar
 divider
 color
 .
-*
 Note
 that
 if
@@ -726,6 +724,7 @@ behavior
 is
 enabled
 the
+*
 color
 will
 be
@@ -813,9 +812,9 @@ of
 the
 framework
 .
-*
 This
 results
+*
 in
 keeping
 the
@@ -831,10 +830,10 @@ separately
 control
 the
 behavior
-*
 for
 other
 dynamic
+*
 insets
 .
 *
@@ -855,12 +854,12 @@ is
 more
 reliable
 .
-*
 On
 older
 versions
 calling
 this
+*
 will
 result
 in
@@ -887,9 +886,9 @@ other
 listeners
 do
 not
-*
 consume
 them
+*
 as
 well
 .
@@ -1006,7 +1005,6 @@ s
 root
 view
 .
-*
 This
 will
 result
@@ -1017,6 +1015,7 @@ this
 Window
 ]
 as
+*
 edge
 -
 to
@@ -1254,8 +1253,8 @@ colors
 as
 window
 background
-*
 and
+*
 automatically
 set
 whether
@@ -1273,11 +1272,11 @@ or
 dark
 to
 ensure
-*
 best
 contrast
 over
 the
+*
 given
 backgrounds
 colors
@@ -1307,9 +1306,9 @@ passed
 in
 parameters
 .
-*
 Calling
 this
+*
 again
 with
 fewer

@@ -81,7 +81,6 @@ View
 /
 *
 *
-*
 Adds
 ripple
 effect

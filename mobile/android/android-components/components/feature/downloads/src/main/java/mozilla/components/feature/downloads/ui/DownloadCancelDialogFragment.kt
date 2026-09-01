@@ -237,7 +237,6 @@ getParcelableCompat
 /
 *
 *
-*
 The
 dialog
 warns
@@ -254,7 +253,6 @@ cancellation
 of
 active
 private
-*
 downloads
 .
 *
@@ -910,6 +908,7 @@ DownloadCancelDialogFragment
 ]
 .
 *
+*
 param
 downloadCount
 The
@@ -1113,7 +1112,6 @@ downloads
 cancellation
 dialog
 .
-*
 Note
 that
 for
@@ -1123,8 +1121,8 @@ positiveButtonRadius
 to
 be
 applied
-*
 specifying
+*
 [
 positiveButtonBackgroundColor
 ]
@@ -1183,7 +1181,6 @@ null
 :
 Parcelable
 /
-*
 *
 *
 The

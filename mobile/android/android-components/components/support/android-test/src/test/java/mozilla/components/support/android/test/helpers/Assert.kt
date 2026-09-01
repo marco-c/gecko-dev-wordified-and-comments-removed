@@ -110,9 +110,9 @@ do
 not
 define
 a
-*
 .
 equals
+*
 method
 :
 instead
@@ -132,10 +132,10 @@ they
 re
 equivalent
 .
-*
 This
 has
 some
+*
 gotchas
 e
 .

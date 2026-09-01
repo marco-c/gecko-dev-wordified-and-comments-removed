@@ -69,7 +69,6 @@ facts
 /
 *
 *
-*
 Suggestion
 card
 types

@@ -144,7 +144,6 @@ the
 user
 taps
 on
-*
 the
 message
 and
@@ -152,6 +151,7 @@ to
 get
 the
 action
+*
 for
 the
 message
@@ -197,7 +197,6 @@ NimbusMessagingControllerInterface
 /
 *
 *
-*
 Get
 all
 messages
@@ -212,7 +211,6 @@ any
 that
 have
 expired
-*
 dismissed
 or
 clicked
@@ -233,7 +231,6 @@ Message
 /
 *
 *
-*
 Selects
 the
 next
@@ -246,7 +243,6 @@ surface
 from
 the
 given
-*
 list
 of
 messages
@@ -270,7 +266,6 @@ Message
 Message
 ?
 /
-*
 *
 *
 A
@@ -299,7 +294,6 @@ MessageSurfaceId
 Message
 ?
 /
-*
 *
 *
 Records
@@ -357,7 +351,6 @@ records
 that
 the
 message
-*
 has
 been
 dismissed
@@ -401,13 +394,13 @@ associated
 with
 a
 message
-*
 has
 been
 completed
 by
 the
 user
+*
 providing
 the
 message
@@ -417,7 +410,6 @@ the
 user
 '
 s
-*
 response
 in
 the
@@ -648,7 +640,6 @@ does
 not
 record
 a
-*
 glean
 event
 .
@@ -657,6 +648,7 @@ should
 be
 done
 when
+*
 calling
 [
 getIntentForMessage
@@ -687,6 +679,7 @@ start
 a
 microsurvey
 .
+*
 *
 param
 id

@@ -284,10 +284,10 @@ invoked
 It
 will
 be
-*
 provided
 with
 two
+*
 arguments
 :
 *
@@ -372,9 +372,9 @@ accessible
 to
 the
 Jexl
-*
 expression
 when
+*
 evaluating
 it
 .
@@ -540,11 +540,11 @@ result
 Optionally
 a
 default
-*
 value
 can
 be
 provided
+*
 that
 will
 be
@@ -557,7 +557,6 @@ not
 return
 a
 boolean
-*
 result
 .
 *
@@ -648,7 +647,6 @@ e
 }
 }
 /
-*
 *
 *
 Generic

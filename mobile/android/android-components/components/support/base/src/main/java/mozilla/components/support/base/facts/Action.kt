@@ -69,7 +69,6 @@ facts
 /
 *
 *
-*
 A
 user
 or
@@ -92,7 +91,6 @@ class
 Action
 {
 /
-*
 *
 *
 The
@@ -170,7 +168,6 @@ TOGGLE
 /
 *
 *
-*
 The
 user
 has
@@ -200,7 +197,6 @@ COMMIT
 /
 *
 *
-*
 The
 user
 has
@@ -212,7 +208,6 @@ something
 /
 PLAY
 /
-*
 *
 *
 The
@@ -227,7 +222,6 @@ PAUSE
 /
 *
 *
-*
 The
 user
 has
@@ -238,7 +232,6 @@ something
 /
 STOP
 /
-*
 *
 *
 The
@@ -253,7 +246,6 @@ RESUME
 /
 *
 *
-*
 The
 user
 has
@@ -264,7 +256,6 @@ something
 /
 CONFIRM
 /
-*
 *
 *
 The
@@ -279,7 +270,6 @@ CANCEL
 /
 *
 *
-*
 The
 user
 has
@@ -290,7 +280,6 @@ something
 /
 TRY_AGAIN
 /
-*
 *
 *
 The
@@ -388,11 +377,11 @@ for
 diagnostic
 purposes
 .
-*
 For
 example
 for
 each
+*
 action
 the
 app
@@ -403,7 +392,6 @@ markers
 to
 better
 understand
-*
 the
 app
 visually
@@ -414,7 +402,6 @@ profiles
 /
 IMPLEMENTATION_DETAIL
 /
-*
 *
 *
 An
@@ -431,7 +418,6 @@ SYSTEM
 /
 *
 *
-*
 Something
 is
 getting
@@ -441,7 +427,6 @@ displayed
 /
 DISPLAY
 /
-*
 *
 *
 The
@@ -458,7 +443,6 @@ options
 /
 SELECT
 /
-*
 *
 *
 The
@@ -484,7 +468,6 @@ track
 /
 NEXT
 /
-*
 *
 *
 The

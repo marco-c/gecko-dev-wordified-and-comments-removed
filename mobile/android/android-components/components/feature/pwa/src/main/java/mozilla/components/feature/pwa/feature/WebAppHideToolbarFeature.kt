@@ -75,6 +75,12 @@ net
 .
 toUri
 import
+kotlin
+.
+properties
+.
+Delegates
+import
 kotlinx
 .
 coroutines
@@ -274,12 +280,6 @@ android
 net
 .
 isInScope
-import
-kotlin
-.
-properties
-.
-Delegates
 /
 *
 *
@@ -318,7 +318,6 @@ will
 be
 hidden
 .
-*
 Once
 the
 tab
@@ -327,6 +326,7 @@ with
 tabId
 ]
 navigates
+*
 to
 another
 scope
@@ -336,7 +336,6 @@ will
 be
 revealed
 .
-*
 The
 toolbar
 is
@@ -349,6 +348,7 @@ or
 picture
 in
 picture
+*
 mode
 .
 *
@@ -362,7 +362,6 @@ scopes
 are
 trusted
 .
-*
 As
 a
 result
@@ -438,7 +437,6 @@ the
 current
 PWA
 .
-*
 Null
 if
 this
@@ -448,6 +446,7 @@ not
 used
 in
 a
+*
 PWA
 context
 .
@@ -543,7 +542,6 @@ newValue
 )
 }
 /
-*
 *
 *
 Whether
@@ -796,7 +794,6 @@ external
 app
 session
 .
-*
 If
 the
 URL
@@ -807,6 +804,7 @@ same
 scope
 as
 the
+*
 [
 WebAppManifest
 ]
@@ -890,7 +888,6 @@ content
 pictureInPictureEnabled
 }
 /
-*
 *
 *
 Find

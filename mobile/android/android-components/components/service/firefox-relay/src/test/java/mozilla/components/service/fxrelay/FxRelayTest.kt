@@ -1535,7 +1535,6 @@ relayClientProvider
 callCount
 +
 +
-;
 FakeRelayClient
 (
 )
@@ -1605,7 +1604,6 @@ relayClientProvider
 callCount
 +
 +
-;
 FakeRelayClient
 (
 )

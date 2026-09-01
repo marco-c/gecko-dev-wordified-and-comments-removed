@@ -188,13 +188,13 @@ restored
 recovered
 )
 at
-*
 any
 time
 if
 it
 '
 s
+*
 combined
 with
 an
@@ -228,7 +228,6 @@ a
 TabSessionState
 ]
 when
-*
 getting
 closed
 .
@@ -276,9 +275,9 @@ e
 g
 .
 via
-*
 the
 context
+*
 menu
 )
 .
@@ -312,7 +311,6 @@ empty
 string
 if
 no
-*
 search
 was
 executed
@@ -630,7 +628,6 @@ TabState
 /
 *
 *
-*
 Creates
 a
 [
@@ -738,7 +735,6 @@ desktopMode
 )
 }
 /
-*
 *
 *
 Creates
@@ -853,7 +849,6 @@ desktopMode
 /
 *
 *
-*
 Creates
 a
 list
@@ -892,7 +887,6 @@ toTabSessionState
 )
 }
 /
-*
 *
 *
 Check

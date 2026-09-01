@@ -105,7 +105,6 @@ WindowRequest
 /
 *
 *
-*
 Gecko
 -
 based

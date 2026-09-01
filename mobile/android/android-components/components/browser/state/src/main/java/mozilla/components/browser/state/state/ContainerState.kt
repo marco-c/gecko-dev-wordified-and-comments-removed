@@ -168,7 +168,6 @@ Icon
 /
 *
 *
-*
 Enum
 of
 container
@@ -242,7 +241,6 @@ toolbar
 )
 }
 /
-*
 *
 *
 Enum
@@ -342,7 +340,3 @@ fence
 )
 }
 }
-typealias
-Container
-=
-ContainerState

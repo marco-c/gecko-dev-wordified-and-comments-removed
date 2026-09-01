@@ -80,6 +80,7 @@ browser
 history
 .
 *
+*
 property
 title
 The

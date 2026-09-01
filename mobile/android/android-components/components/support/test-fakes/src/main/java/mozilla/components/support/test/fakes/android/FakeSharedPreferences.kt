@@ -97,9 +97,9 @@ in
 unit
 tests
 and
-*
 faster
 than
+*
 launching
 all
 Robolectric

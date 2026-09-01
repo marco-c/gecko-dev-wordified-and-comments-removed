@@ -115,7 +115,7 @@ androidx
 .
 compose
 .
-material
+material3
 .
 MaterialTheme
 import
@@ -123,7 +123,7 @@ androidx
 .
 compose
 .
-material
+material3
 .
 Text
 import
@@ -273,6 +273,12 @@ unit
 .
 dp
 import
+kotlin
+.
+math
+.
+roundToInt
+import
 mozilla
 .
 components
@@ -300,14 +306,7 @@ CFRPopup
 IndicatorDirection
 .
 UP
-import
-kotlin
-.
-math
-.
-roundToInt
 /
-*
 *
 *
 How
@@ -411,7 +410,6 @@ popup
 s
 corners
 .
-*
 If
 [
 indicatorArrowStartOffset
@@ -423,6 +421,7 @@ the
 top
 -
 start
+*
 corner
 will
 not
@@ -1025,10 +1024,10 @@ the
 set
 height
 .
-*
 This
 method
 allows
+*
 knowing
 what
 the
@@ -1223,7 +1222,7 @@ color
 =
 MaterialTheme
 .
-colors
+colorScheme
 .
 onPrimary
 )
@@ -1386,7 +1385,7 @@ color
 =
 MaterialTheme
 .
-colors
+colorScheme
 .
 onPrimary
 )

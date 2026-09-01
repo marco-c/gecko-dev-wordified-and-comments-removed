@@ -145,7 +145,6 @@ UserInteractionHandler
 /
 *
 *
-*
 A
 feature
 that
@@ -224,7 +223,6 @@ by
 an
 ACTION_VIEW
 intent
-*
 or
 if
 it

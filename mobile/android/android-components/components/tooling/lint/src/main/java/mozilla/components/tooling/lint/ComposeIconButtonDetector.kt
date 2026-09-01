@@ -213,11 +213,11 @@ material3
 .
 IconButton
 "
-*
 and
 instead
 recommends
 using
+*
 "
 mozilla
 .

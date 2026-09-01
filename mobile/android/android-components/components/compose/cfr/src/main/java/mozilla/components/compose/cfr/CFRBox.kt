@@ -874,7 +874,6 @@ anchorSpacing
 /
 *
 *
-*
 Create
 and
 remember
@@ -962,9 +961,9 @@ a
 compose
 -
 view
-*
 interop
 for
+*
 example
 if
 your
@@ -1061,10 +1060,10 @@ is
 set
 to
 true
-*
 it
 allows
 the
+*
 tooltip
 to
 handle
@@ -1079,7 +1078,6 @@ will
 get
 dismissed
 on
-*
 back
 -
 pressed
@@ -1089,6 +1087,7 @@ you
 wish
 to
 handle
+*
 back
 -
 press
@@ -1104,7 +1103,6 @@ set
 [
 focusable
 ]
-*
 to
 false
 .
@@ -1266,9 +1264,9 @@ a
 compose
 -
 view
-*
 interop
 for
+*
 example
 if
 your
@@ -1900,7 +1898,6 @@ dismissButtonColor
 region
 Caret
 /
-*
 *
 *
 Modifier
@@ -2614,7 +2611,6 @@ tooltipWidth
 /
 *
 *
-*
 Shape
 that
 combines
@@ -2626,7 +2622,6 @@ with
 an
 indicator
 shape
-*
 transformed
 by
 [
@@ -2868,7 +2863,6 @@ combinedPath
 /
 *
 *
-*
 The
 [
 PopupPositionProvider
@@ -2895,7 +2889,6 @@ PopupPositionProvider
 /
 *
 *
-*
 The
 [
 IndicatorDirection
@@ -2910,7 +2903,6 @@ indicatorDirection
 :
 IndicatorDirection
 /
-*
 *
 *
 The
@@ -3454,7 +3446,6 @@ endregion
 /
 *
 *
-*
 The
 background
 painted
@@ -3471,7 +3462,6 @@ interface
 CFRBackground
 {
 /
-*
 *
 *
 One
@@ -3512,7 +3502,6 @@ Color
 :
 CFRBackground
 /
-*
 *
 *
 A
@@ -3621,7 +3610,6 @@ Color
 /
 *
 *
-*
 Default
 values
 for
@@ -3632,7 +3620,6 @@ object
 CFRDefaults
 {
 /
-*
 *
 *
 The
@@ -3673,7 +3660,6 @@ caretShape
 /
 *
 *
-*
 The
 shape
 of
@@ -3697,7 +3683,6 @@ shapes
 medium
 }
 /
-*
 *
 *
 Default

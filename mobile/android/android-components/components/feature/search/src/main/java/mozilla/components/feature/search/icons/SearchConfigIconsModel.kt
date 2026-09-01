@@ -69,7 +69,6 @@ icons
 /
 *
 *
-*
 Data
 class
 representing
@@ -112,7 +111,6 @@ filterExpression
 String
 )
 /
-*
 *
 *
 Data

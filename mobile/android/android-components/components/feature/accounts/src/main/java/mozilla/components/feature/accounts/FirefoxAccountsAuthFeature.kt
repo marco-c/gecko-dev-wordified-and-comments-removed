@@ -79,6 +79,12 @@ net
 .
 toUri
 import
+kotlin
+.
+coroutines
+.
+CoroutineContext
+import
 kotlinx
 .
 coroutines
@@ -160,12 +166,6 @@ service
 fxa
 .
 toAuthType
-import
-kotlin
-.
-coroutines
-.
-CoroutineContext
 /
 *
 *
@@ -184,10 +184,10 @@ tabs
 implementation
 facilitating
 an
-*
 authentication
 flow
 .
+*
 *
 property
 accountManager
@@ -226,9 +226,9 @@ execute
 network
 requests
 necessary
-*
 to
 initiate
+*
 authentication
 .
 Note
@@ -255,9 +255,9 @@ the
 authentication
 url
 .
-*
 Executed
 on
+*
 [
 coroutineContext
 ]
@@ -318,6 +318,7 @@ onBeginAuthentication
 if
 successful
 *
+*
 param
 context
 [
@@ -341,7 +342,6 @@ entrypoint
 that
 is
 launching
-*
 authentication
 *
 param
@@ -410,6 +410,7 @@ onBeginAuthentication
 if
 successful
 *
+*
 param
 context
 [
@@ -461,7 +462,6 @@ oAuth
 scopes
 being
 requested
-*
 authentication
 *
 /

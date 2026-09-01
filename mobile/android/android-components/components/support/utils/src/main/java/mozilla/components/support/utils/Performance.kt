@@ -102,7 +102,6 @@ time
 in
 milliseconds
 .
-*
 Uses
 [
 System
@@ -112,6 +111,7 @@ nanoTime
 for
 measurements
 since
+*
 it
 isn
 '

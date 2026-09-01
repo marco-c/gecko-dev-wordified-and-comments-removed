@@ -223,9 +223,9 @@ installing
 the
 addon
 .
-*
 Defaults
 to
+*
 [
 InstallationMethod
 .
@@ -286,9 +286,9 @@ a
 WebExtension
 ]
 before
-*
 the
 installation
+*
 succeeds
 .
 *
@@ -328,6 +328,7 @@ an
 installation
 failed
 .
+*
 *
 property
 extension
@@ -392,8 +393,8 @@ a
 WebExtension
 ]
 after
-*
 installation
+*
 succeeds
 .
 *
@@ -430,7 +431,6 @@ WebExtensionPromptRequest
 )
 {
 /
-*
 *
 *
 Value
@@ -479,6 +479,7 @@ required
 permissions
 prompt
 .
+*
 *
 property
 extension
@@ -612,6 +613,7 @@ permissions
 prompt
 .
 *
+*
 property
 extension
 The
@@ -744,13 +746,13 @@ post
 installation
 prompt
 .
-*
 Normally
 used
 to
 give
 users
 an
+*
 opportunity
 to
 enable
@@ -763,6 +765,7 @@ private
 browsing
 mode
 .
+*
 *
 property
 extension

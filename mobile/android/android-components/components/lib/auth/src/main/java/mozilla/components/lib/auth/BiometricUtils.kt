@@ -79,7 +79,6 @@ BiometricManager
 /
 *
 *
-*
 Utility
 class
 for
@@ -117,7 +116,6 @@ object
 BiometricUtils
 {
 /
-*
 *
 *
 Checks
@@ -162,7 +160,6 @@ manager
 )
 }
 /
-*
 *
 *
 Checks
@@ -222,7 +219,6 @@ BiometricManager
 BIOMETRIC_ERROR_HW_UNAVAILABLE
 }
 /
-*
 *
 *
 Checks

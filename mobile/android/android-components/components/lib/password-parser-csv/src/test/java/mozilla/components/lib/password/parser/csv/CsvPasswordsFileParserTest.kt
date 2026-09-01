@@ -69,6 +69,12 @@ parser
 .
 csv
 import
+kotlin
+.
+test
+.
+assertIs
+import
 kotlinx
 .
 coroutines
@@ -148,12 +154,6 @@ org
 junit
 .
 Test
-import
-kotlin
-.
-test
-.
-assertIs
 OptIn
 (
 ExperimentalCoroutinesApi

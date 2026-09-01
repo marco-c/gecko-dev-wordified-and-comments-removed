@@ -123,7 +123,6 @@ R
 /
 *
 *
-*
 An
 adapter
 for
@@ -332,7 +331,6 @@ onAppSelected
 /
 *
 *
-*
 View
 holder
 for
@@ -368,7 +366,6 @@ itemView
 )
 {
 /
-*
 *
 *
 Show

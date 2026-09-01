@@ -181,7 +181,6 @@ ContentAction
 .
 EnteredPdfViewer
 ]
-*
 with
 the
 result

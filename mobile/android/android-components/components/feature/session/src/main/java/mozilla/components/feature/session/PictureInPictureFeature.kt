@@ -225,10 +225,10 @@ required
 the
 AndroidX
 Fragment
-*
 doesn
 '
 t
+*
 support
 this
 .
@@ -467,7 +467,6 @@ false
 /
 *
 *
-*
 Enter
 Picture
 -
@@ -541,6 +540,7 @@ in
 picture
 mode
 .
+*
 *
 param
 isInPipMode

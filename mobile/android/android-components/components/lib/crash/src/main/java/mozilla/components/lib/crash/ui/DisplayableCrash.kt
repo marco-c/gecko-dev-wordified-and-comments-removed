@@ -115,6 +115,7 @@ UI
 layer
 .
 *
+*
 property
 uuid
 the
@@ -144,9 +145,9 @@ exception
 throwable
 )
 :
-*
 otherwise
 a
+*
 string
 describing
 the
@@ -226,6 +227,7 @@ crash
 reporting
 services
 .
+*
 *
 property
 serviceName

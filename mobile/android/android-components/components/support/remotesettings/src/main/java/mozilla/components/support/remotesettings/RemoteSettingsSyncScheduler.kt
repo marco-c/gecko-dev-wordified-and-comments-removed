@@ -113,6 +113,14 @@ work
 .
 WorkManager
 import
+java
+.
+util
+.
+concurrent
+.
+TimeUnit
+import
 mozilla
 .
 components
@@ -138,16 +146,7 @@ base
 worker
 .
 Frequency
-import
-java
-.
-util
-.
-concurrent
-.
-TimeUnit
 /
-*
 *
 *
 Defines
@@ -168,7 +167,6 @@ RemoteSettingsSyncScheduler
 /
 *
 *
-*
 Registers
 for
 periodic
@@ -185,7 +183,6 @@ registerForSync
 (
 )
 /
-*
 *
 *
 Unregisters
@@ -361,7 +358,6 @@ Settings
 )
 }
 /
-*
 *
 *
 Creates

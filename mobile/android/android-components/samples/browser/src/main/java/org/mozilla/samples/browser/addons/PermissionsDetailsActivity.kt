@@ -203,7 +203,6 @@ extensions
 /
 *
 *
-*
 An
 activity
 to

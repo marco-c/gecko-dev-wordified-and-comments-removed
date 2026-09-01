@@ -168,10 +168,10 @@ when
 only
 a
 select
-*
 few
 properties
 have
+*
 changed
 .
 *
@@ -229,7 +229,6 @@ selectedTabId
 )
 }
 /
-*
 *
 *
 Returns
@@ -320,7 +319,6 @@ selectedTabId
 )
 }
 /
-*
 *
 *
 Returns

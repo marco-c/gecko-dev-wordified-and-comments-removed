@@ -179,7 +179,6 @@ AwesomeBarColors
 /
 *
 *
-*
 Renders
 a
 header

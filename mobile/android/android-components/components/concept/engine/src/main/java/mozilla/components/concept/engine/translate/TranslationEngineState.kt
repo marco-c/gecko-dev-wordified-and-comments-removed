@@ -212,7 +212,6 @@ state
 and
 user
 preferred
-*
 languages
 .
 *

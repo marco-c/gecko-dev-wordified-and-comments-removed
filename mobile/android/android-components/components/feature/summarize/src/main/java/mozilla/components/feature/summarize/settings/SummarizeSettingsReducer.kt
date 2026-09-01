@@ -69,7 +69,6 @@ settings
 /
 *
 *
-*
 Reducer
 for
 [

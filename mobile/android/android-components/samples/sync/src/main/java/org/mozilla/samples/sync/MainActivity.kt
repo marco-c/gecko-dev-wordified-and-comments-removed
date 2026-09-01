@@ -594,10 +594,10 @@ how
 to
 use
 the
-*
 FxaAccountManager
 to
 authenticate
+*
 with
 a
 Firefox
@@ -607,7 +607,6 @@ how
 to
 use
 the
-*
 FxA
 sync
 components
@@ -619,9 +618,9 @@ data
 history
 bookmarks
 passwords
+*
 credit
 cards
-*
 and
 addresses
 )

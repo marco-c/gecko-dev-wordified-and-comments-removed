@@ -81,7 +81,6 @@ SessionState
 /
 *
 *
-*
 A
 delegate
 for
@@ -102,7 +101,6 @@ interface
 MediaSessionDelegate
 {
 /
-*
 *
 *
 Handle
@@ -126,7 +124,6 @@ sessionState
 SessionState
 )
 /
-*
 *
 *
 Handle
@@ -153,7 +150,6 @@ SessionState
 /
 *
 *
-*
 Handle
 media
 being
@@ -176,7 +172,6 @@ sessionState
 SessionState
 )
 /
-*
 *
 *
 Handle

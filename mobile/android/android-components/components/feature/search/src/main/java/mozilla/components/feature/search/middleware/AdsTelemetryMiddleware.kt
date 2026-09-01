@@ -202,11 +202,11 @@ when
 an
 ad
 shown
-*
 in
 search
 results
 is
+*
 clicked
 .
 *
@@ -470,7 +470,6 @@ action
 }
 }
 /
-*
 *
 *
 Utility

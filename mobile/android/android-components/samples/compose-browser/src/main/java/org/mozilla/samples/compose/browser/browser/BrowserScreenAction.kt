@@ -81,7 +81,6 @@ Action
 /
 *
 *
-*
 Actions
 for
 updating
@@ -105,7 +104,6 @@ Action
 /
 *
 *
-*
 Shows
 the
 list
@@ -127,7 +125,6 @@ BrowserScreenAction
 (
 )
 /
-*
 *
 *
 Hides

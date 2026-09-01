@@ -69,7 +69,6 @@ lexer
 /
 *
 *
-*
 A
 token
 emitted

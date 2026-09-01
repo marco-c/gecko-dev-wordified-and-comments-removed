@@ -109,7 +109,6 @@ JSONObject
 /
 *
 *
-*
 The
 Parser
 is
@@ -122,7 +121,6 @@ JSON
 Response
 and
 maps
-*
 it
 to
 a
@@ -148,7 +146,6 @@ List
 String
 >
 /
-*
 *
 *
 Builds
@@ -212,7 +209,6 @@ toList
 }
 }
 /
-*
 *
 *
 Builds
@@ -280,7 +276,6 @@ toList
 }
 }
 /
-*
 *
 *
 Builds
@@ -360,7 +355,6 @@ toList
 /
 *
 *
-*
 The
 available
 Parsers
@@ -402,7 +396,6 @@ buildQwantParser
 (
 )
 /
-*
 *
 *
 Selects

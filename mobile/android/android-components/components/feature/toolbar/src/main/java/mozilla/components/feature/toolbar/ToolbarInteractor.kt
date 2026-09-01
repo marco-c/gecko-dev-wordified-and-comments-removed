@@ -111,7 +111,6 @@ toNormalizedUrl
 /
 *
 *
-*
 Connects
 a
 toolbar
@@ -164,7 +163,6 @@ this
 interactor
 is
 listening
-*
 to
 relevant
 UI
@@ -172,11 +170,11 @@ changes
 and
 triggers
 the
+*
 corresponding
 use
 -
 cases
-*
 in
 response
 .

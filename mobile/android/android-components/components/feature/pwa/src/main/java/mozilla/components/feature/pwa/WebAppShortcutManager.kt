@@ -183,6 +183,12 @@ net
 .
 toUri
 import
+java
+.
+util
+.
+UUID
+import
 mozilla
 .
 components
@@ -432,12 +438,6 @@ images
 decoder
 .
 AndroidImageDecoder
-import
-java
-.
-util
-.
-UUID
 private
 val
 pwaIconMemoryCache
@@ -507,7 +507,6 @@ will
 be
 pinnable
 .
-*
 If
 false
 all
@@ -516,6 +515,7 @@ sites
 will
 be
 bookmark
+*
 shortcuts
 even
 if
@@ -618,6 +618,7 @@ the
 home
 screen
 .
+*
 *
 param
 context
@@ -784,7 +785,6 @@ intentSender
 /
 *
 *
-*
 Update
 existing
 PWA
@@ -868,10 +868,10 @@ from
 the
 session
 .
-*
 Consuming
 SHORTCUT_CATEGORY
 in
+*
 AndroidManifest
 is
 required
@@ -1099,7 +1099,6 @@ build
 )
 }
 /
-*
 *
 *
 Create
@@ -1374,7 +1373,6 @@ the
 given
 startUrl
 .
-*
 This
 method
 can
@@ -1389,6 +1387,7 @@ app
 was
 added
 to
+*
 the
 homescreen
 .
@@ -1557,9 +1556,9 @@ considered
 recently
 used
 .
-*
 Defaults
 to
+*
 [
 ManifestStorage
 .
@@ -1650,7 +1649,6 @@ manifest
 )
 }
 /
-*
 *
 *
 Possible

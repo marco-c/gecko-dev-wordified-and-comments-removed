@@ -77,7 +77,6 @@ X509Certificate
 /
 *
 *
-*
 Security
 status
 of
@@ -94,7 +93,6 @@ class
 SecurityInfo
 {
 /
-*
 *
 *
 Domain
@@ -121,7 +119,6 @@ String
 "
 "
 /
-*
 *
 *
 Name
@@ -152,7 +149,6 @@ String
 /
 *
 *
-*
 SSL
 certificate
 used
@@ -171,7 +167,6 @@ X509Certificate
 =
 null
 /
-*
 *
 *
 Whether
@@ -193,7 +188,6 @@ this
 is
 Secure
 /
-*
 *
 *
 Connection
@@ -241,7 +235,6 @@ SecurityInfo
 (
 )
 /
-*
 *
 *
 Connection
@@ -308,7 +301,6 @@ not
 yet
 known
 .
-*
 This
 is
 the
@@ -317,6 +309,7 @@ state
 transient
 until
 the
+*
 needed
 details
 are
@@ -359,7 +352,6 @@ to
 a
 URL
 with
-*
 a
 valid
 SSL
@@ -400,7 +392,6 @@ certificate
 in
 question
 .
-*
 *
 return
 an

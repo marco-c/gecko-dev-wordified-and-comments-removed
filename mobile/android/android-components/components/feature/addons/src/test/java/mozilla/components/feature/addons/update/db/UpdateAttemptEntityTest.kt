@@ -69,6 +69,12 @@ update
 .
 db
 import
+java
+.
+util
+.
+Date
+import
 mozilla
 .
 components
@@ -238,12 +244,6 @@ org
 junit
 .
 Test
-import
-java
-.
-util
-.
-Date
 class
 UpdateAttemptEntityTest
 {

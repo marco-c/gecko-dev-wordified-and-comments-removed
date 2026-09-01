@@ -83,7 +83,6 @@ TopSite
 /
 *
 *
-*
 Implemented
 by
 the
@@ -100,7 +99,6 @@ interface
 TopSitesView
 {
 /
-*
 *
 *
 Updates

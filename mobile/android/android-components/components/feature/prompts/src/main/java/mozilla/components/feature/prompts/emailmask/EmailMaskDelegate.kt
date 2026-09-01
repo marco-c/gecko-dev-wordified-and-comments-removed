@@ -81,7 +81,6 @@ EmailMaskPromptView
 /
 *
 *
-*
 Delegate
 to
 display
@@ -96,7 +95,6 @@ interface
 EmailMaskDelegate
 {
 /
-*
 *
 *
 The
@@ -129,7 +127,6 @@ null
 /
 *
 *
-*
 Whether
 to
 show
@@ -147,7 +144,6 @@ shouldShowEmailMaskCfr
 :
 Boolean
 /
-*
 *
 *
 Called

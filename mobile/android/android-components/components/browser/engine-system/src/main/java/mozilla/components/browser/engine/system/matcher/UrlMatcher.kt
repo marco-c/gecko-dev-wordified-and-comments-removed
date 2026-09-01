@@ -139,7 +139,6 @@ LinkedList
 /
 *
 *
-*
 Provides
 functionality
 to
@@ -152,7 +151,6 @@ safe
 lists
 and
 match
-*
 URLs
 against
 these
@@ -495,7 +493,6 @@ given
 resource
 URI
 .
-*
 Returns
 true
 if
@@ -506,10 +503,10 @@ page
 URI
 )
 is
+*
 allowed
 to
 access
-*
 the
 resource
 URI
@@ -559,9 +556,9 @@ matches
 and
 the
 second
-*
 indicates
 the
+*
 category
 of
 the
@@ -624,7 +621,6 @@ given
 resource
 URI
 .
-*
 Returns
 true
 if
@@ -635,10 +631,10 @@ page
 URI
 )
 is
+*
 allowed
 to
 access
-*
 the
 resource
 URI
@@ -688,9 +684,9 @@ matches
 and
 the
 second
-*
 indicates
 the
+*
 category
 of
 the
@@ -1006,11 +1002,6 @@ lists
 .
 *
 *
-deprecated
-Pass
-resources
-directly
-*
 param
 blocklistFile
 resource
@@ -1036,6 +1027,11 @@ containing
 the
 safe
 list
+*
+deprecated
+Pass
+resources
+directly
 *
 /
 fun
@@ -1312,6 +1308,7 @@ Web
 font
 .
 *
+*
 param
 uri
 the
@@ -1319,7 +1316,6 @@ URI
 to
 check
 .
-*
 *
 return
 true

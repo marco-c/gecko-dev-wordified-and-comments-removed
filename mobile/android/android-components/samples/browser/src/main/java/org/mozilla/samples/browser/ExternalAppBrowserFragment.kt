@@ -273,7 +273,6 @@ components
 /
 *
 *
-*
 Fragment
 used
 for
@@ -599,7 +598,6 @@ the
 base
 class
 first
-*
 before
 trying
 to
@@ -607,6 +605,7 @@ call
 the
 external
 app
+*
 [
 UserInteractionHandler
 ]

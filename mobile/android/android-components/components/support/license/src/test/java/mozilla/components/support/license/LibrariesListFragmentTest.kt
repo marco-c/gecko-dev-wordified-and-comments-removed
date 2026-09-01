@@ -65,12 +65,6 @@ support
 .
 license
 import
-org
-.
-junit
-.
-Test
-import
 kotlin
 .
 test
@@ -82,6 +76,12 @@ kotlin
 test
 .
 assertTrue
+import
+org
+.
+junit
+.
+Test
 class
 LibrariesListFragmentTest
 {

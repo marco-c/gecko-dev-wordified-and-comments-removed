@@ -153,6 +153,12 @@ unit
 .
 sp
 import
+kotlin
+.
+test
+.
+assertNotNull
+import
 org
 .
 junit
@@ -186,12 +192,6 @@ org
 robolectric
 .
 RobolectricTestRunner
-import
-kotlin
-.
-test
-.
-assertNotNull
 RunWith
 (
 RobolectricTestRunner

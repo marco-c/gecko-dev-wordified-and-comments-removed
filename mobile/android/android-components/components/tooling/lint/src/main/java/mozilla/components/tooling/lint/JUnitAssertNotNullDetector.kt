@@ -199,6 +199,12 @@ psi
 .
 PsiMethod
 import
+java
+.
+util
+.
+EnumSet
+import
 org
 .
 jetbrains
@@ -214,12 +220,6 @@ jetbrains
 uast
 .
 skipParenthesizedExprDown
-import
-java
-.
-util
-.
-EnumSet
 /
 *
 *
@@ -241,8 +241,8 @@ and
 suggests
 replacing
 them
-*
 with
+*
 kotlin
 .
 test

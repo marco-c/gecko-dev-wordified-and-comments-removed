@@ -127,6 +127,12 @@ annotation
 .
 VisibleForTesting
 import
+java
+.
+util
+.
+UUID
+import
 mozilla
 .
 components
@@ -400,12 +406,6 @@ GeckoSession
 PermissionDelegate
 .
 PERMISSION_STORAGE_ACCESS
-import
-java
-.
-util
-.
-UUID
 /
 *
 *
@@ -512,7 +512,6 @@ permission
 (
 will
 be
-*
 mapped
 to
 corresponding
@@ -1026,10 +1025,10 @@ permissions
 (
 will
 be
-*
 mapped
 to
 corresponding
+*
 [
 Permission
 ]
@@ -1326,7 +1325,6 @@ sources
 (
 will
 be
-*
 mapped
 to
 the
@@ -1348,7 +1346,6 @@ sources
 (
 will
 be
-*
 mapped
 to
 corresponding

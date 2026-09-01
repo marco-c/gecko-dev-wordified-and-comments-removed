@@ -93,7 +93,6 @@ AutofillConfiguration
 /
 *
 *
-*
 Shared
 interface
 to
@@ -111,7 +110,6 @@ Authenticator
 /
 *
 *
-*
 Shows
 an
 authentication
@@ -126,7 +124,6 @@ once
 authentication
 succeeded
 or
-*
 failed
 .
 *
@@ -142,7 +139,6 @@ callback
 Callback
 )
 /
-*
 *
 *
 For
@@ -168,7 +164,6 @@ resultCode
 Int
 )
 /
-*
 *
 *
 Callback
@@ -212,9 +207,9 @@ recognized
 indicating
 that
 the
-*
 user
 has
+*
 successfully
 authenticated
 .
@@ -248,10 +243,10 @@ but
 not
 recognized
 as
-*
 belonging
 to
 the
+*
 user
 .
 *
@@ -261,7 +256,6 @@ onAuthenticationFailed
 (
 )
 /
-*
 *
 *
 Called
@@ -286,7 +280,6 @@ onAuthenticationError
 }
 }
 /
-*
 *
 *
 Creates

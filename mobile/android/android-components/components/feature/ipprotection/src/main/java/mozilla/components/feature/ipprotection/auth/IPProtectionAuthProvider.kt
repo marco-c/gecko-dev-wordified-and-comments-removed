@@ -130,7 +130,6 @@ agnostic
 of
 optional
 handler
-*
 capabilities
 (
 such

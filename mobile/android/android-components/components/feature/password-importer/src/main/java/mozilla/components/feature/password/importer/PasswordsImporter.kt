@@ -140,10 +140,10 @@ in
 progress
 dialog
 and
-*
 completion
 via
 an
+*
 internal
 [
 PasswordsImporterStore
@@ -167,8 +167,8 @@ PasswordsImporterState
 .
 Finished
 ]
-*
 state
+*
 carrying
 the
 [

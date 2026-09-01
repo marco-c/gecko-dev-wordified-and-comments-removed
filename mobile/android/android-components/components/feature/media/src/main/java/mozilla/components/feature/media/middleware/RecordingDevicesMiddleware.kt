@@ -397,11 +397,11 @@ devices
 camera
 microphone
 )
-*
 are
 used
 by
 web
+*
 content
 .
 *

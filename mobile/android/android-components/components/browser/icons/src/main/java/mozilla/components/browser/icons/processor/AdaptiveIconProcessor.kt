@@ -109,6 +109,12 @@ graphics
 .
 createBitmap
 import
+kotlin
+.
+math
+.
+max
+import
 mozilla
 .
 components
@@ -138,14 +144,7 @@ support
 images
 .
 DesiredSize
-import
-kotlin
-.
-math
-.
-max
 /
-*
 *
 *
 [
@@ -165,7 +164,6 @@ AdaptiveIconProcessor
 IconProcessor
 {
 /
-*
 *
 *
 Creates

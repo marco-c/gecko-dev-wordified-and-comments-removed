@@ -67,7 +67,6 @@ search
 /
 *
 *
-*
 May
 be
 implemented
@@ -90,7 +89,6 @@ interface
 SearchAdapter
 {
 /
-*
 *
 *
 Called
@@ -121,7 +119,6 @@ text
 String
 )
 /
-*
 *
 *
 Called

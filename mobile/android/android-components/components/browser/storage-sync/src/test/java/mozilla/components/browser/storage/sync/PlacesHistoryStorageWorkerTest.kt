@@ -95,6 +95,12 @@ testing
 .
 TestListenableWorkerBuilder
 import
+kotlin
+.
+reflect
+.
+KVisibility
+import
 kotlinx
 .
 coroutines
@@ -174,12 +180,6 @@ mockito
 Mockito
 .
 when
-import
-kotlin
-.
-reflect
-.
-KVisibility
 RunWith
 (
 AndroidJUnit4

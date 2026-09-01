@@ -124,6 +124,19 @@ protection
 *
 *
 param
+countryCode
+ISO
+3166
+-
+1
+alpha
+-
+2
+country
+code
+.
+*
+param
 onResult
 Invoked
 once
@@ -137,12 +150,12 @@ null
 on
 success
 or
-*
 the
 [
 Throwable
 ]
 that
+*
 caused
 the
 failure
@@ -152,6 +165,10 @@ failure
 fun
 activate
 (
+countryCode
+:
+String
+?
 onResult
 :
 (
@@ -191,11 +208,11 @@ null
 on
 success
 or
-*
 the
 [
 Throwable
 ]
+*
 that
 caused
 the
@@ -239,10 +256,10 @@ callback
 is
 invoked
 once
-*
 the
 enrollment
 attempt
+*
 has
 completed
 with
@@ -267,11 +284,11 @@ user
 is
 now
 enrolled
-*
 and
 entitled
 and
 the
+*
 error
 string
 if
@@ -292,7 +309,6 @@ EnrollResult
 Unit
 )
 /
-*
 *
 *
 Request
@@ -320,7 +336,6 @@ Unit
 /
 *
 *
-*
 Requests
 an
 update
@@ -346,7 +361,6 @@ updateCountryList
 /
 *
 *
-*
 Initializes
 the
 proxy
@@ -360,7 +374,6 @@ init
 (
 )
 /
-*
 *
 *
 Uninitializes
@@ -395,7 +408,6 @@ IP
 protection
 service
 .
-*
 Pass
 null
 to
@@ -459,12 +471,12 @@ and
 token
 requests
 .
-*
 Pass
 null
 to
 clear
 the
+*
 provider
 .
 *
@@ -515,7 +527,6 @@ entitled
 to
 use
 the
-*
 proxy
 .
 *
@@ -553,7 +564,6 @@ null
 /
 *
 *
-*
 Notify
 account
 state
@@ -587,10 +597,10 @@ the
 engine
 needs
 to
-*
 authenticate
 with
 the
+*
 Guardian
 API
 .
@@ -616,7 +626,6 @@ via
 onComplete
 ]
 .
-*
 Pass
 null
 to
@@ -626,6 +635,7 @@ onComplete
 if
 the
 token
+*
 could
 not
 be
@@ -648,7 +658,6 @@ Unit
 )
 }
 /
-*
 *
 *
 Provides
@@ -675,7 +684,6 @@ GpiProvider
 /
 *
 *
-*
 Warms
 up
 the
@@ -693,7 +701,6 @@ on
 success
 false
 on
-*
 failure
 .
 *
@@ -727,7 +734,6 @@ via
 onComplete
 ]
 .
-*
 Pass
 null
 to
@@ -738,6 +744,7 @@ if
 the
 token
 could
+*
 not
 be
 obtained
@@ -759,7 +766,6 @@ Unit
 )
 }
 /
-*
 *
 *
 Holds

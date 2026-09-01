@@ -205,7 +205,6 @@ ifAnyChanged
 /
 *
 *
-*
 Presenter
 implementation
 for
@@ -278,7 +277,6 @@ String
 =
 null
 /
-*
 *
 *
 Start
@@ -388,7 +386,6 @@ tab
 }
 }
 /
-*
 *
 *
 Stop

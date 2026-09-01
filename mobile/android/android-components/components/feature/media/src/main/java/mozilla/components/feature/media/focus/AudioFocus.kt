@@ -164,7 +164,6 @@ audio
 focus
 *
 *
-*
 param
 audioManager
 The
@@ -194,12 +193,12 @@ loss
 state
 changes
 .
-*
 Called
 with
 true
 when
 a
+*
 transient
 loss
 begins
@@ -210,7 +209,6 @@ AudioManager
 AUDIOFOCUS_LOSS_TRANSIENT
 ]
 or
-*
 [
 AudioManager
 .
@@ -218,12 +216,12 @@ AUDIOFOCUS_REQUEST_DELAYED
 ]
 )
 and
+*
 with
 false
 when
 it
 ends
-*
 (
 [
 AudioManager
@@ -241,8 +239,8 @@ abandon
 ]
 )
 .
-*
 The
+*
 caller
 can
 use
@@ -256,11 +254,11 @@ service
 alive
 during
 transient
-*
 interruptions
 so
 that
 WIU
+*
 (
 While
 In
@@ -274,7 +272,6 @@ audio
 focus
 can
 be
-*
 reclaimed
 when
 focus

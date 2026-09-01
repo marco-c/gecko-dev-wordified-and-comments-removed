@@ -317,11 +317,11 @@ that
 launch
 an
 activity
-*
 on
 behalf
 of
 the
+*
 autofill
 service
 .

@@ -81,7 +81,6 @@ may
 be
 applied
 .
-*
 Usually
 this
 will
@@ -90,6 +89,7 @@ to
 a
 specific
 text
+*
 view
 .
 *
@@ -126,13 +126,13 @@ the
 result
 has
 been
-*
 applied
 .
 A
 result
 may
 be
+*
 discarded
 by
 implementations
@@ -141,7 +141,6 @@ it
 is
 stale
 or
-*
 the
 autocomplete
 request
@@ -169,7 +168,6 @@ Unit
 }
 )
 /
-*
 *
 *
 Autocompletion

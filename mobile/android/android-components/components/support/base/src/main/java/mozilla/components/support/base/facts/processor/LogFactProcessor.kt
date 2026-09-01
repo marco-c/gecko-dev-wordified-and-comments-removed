@@ -109,7 +109,6 @@ Logger
 /
 *
 *
-*
 A
 [
 FactProcessor

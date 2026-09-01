@@ -93,7 +93,6 @@ the
 URL
 that
 indicates
-*
 this
 might
 be
@@ -117,11 +116,11 @@ the
 URL
 that
 indicates
-*
 this
 might
 be
 a
+*
 follow
 -
 on

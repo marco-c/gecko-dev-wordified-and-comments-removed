@@ -232,7 +232,6 @@ be
 shown
 within
 a
-*
 [
 flightCapPeriod
 ]
@@ -252,11 +251,11 @@ in
 which
 at
 most
-*
 [
 flightCapCount
 ]
 sponsored
+*
 content
 can
 be

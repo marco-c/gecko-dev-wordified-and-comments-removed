@@ -641,11 +641,11 @@ three
 or
 more
 letters
-*
 must
 title
 -
 case
+*
 instead
 .
 *
@@ -684,11 +684,11 @@ e
 the
 kind
 of
-*
 acronym
 the
 Kotlin
 coding
+*
 convention
 says
 should

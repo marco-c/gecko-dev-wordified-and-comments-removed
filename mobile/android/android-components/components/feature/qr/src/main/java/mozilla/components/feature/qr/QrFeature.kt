@@ -217,7 +217,6 @@ FragmentManager
 used
 to
 start
-*
 the
 [
 QrFragment
@@ -237,7 +236,6 @@ the
 QR
 scan
 .
-*
 The
 callback
 will
@@ -246,6 +244,7 @@ be
 invoked
 on
 the
+*
 main
 thread
 .
@@ -257,7 +256,6 @@ callback
 invoked
 when
 permissions
-*
 need
 to
 be
@@ -268,12 +266,12 @@ QR
 scan
 can
 be
+*
 performed
 .
 Once
 the
 request
-*
 is
 completed
 [
@@ -286,9 +284,9 @@ invoked
 .
 This
 feature
-*
 will
 request
+*
 [
 android
 .
@@ -311,7 +309,6 @@ for
 an
 optional
 message
-*
 to
 be
 laid
@@ -547,12 +544,12 @@ this
 fragment
 is
 to
-*
 be
 placed
 in
 defaults
 to
+*
 [
 android
 .
@@ -563,7 +560,6 @@ id
 content
 ]
 .
-*
 *
 return
 true
@@ -577,7 +573,6 @@ false
 if
 permissions
 still
-*
 need
 to
 be
@@ -689,13 +684,13 @@ completed
 .
 If
 the
-*
 requested
 permissions
 were
 granted
 it
 will
+*
 open
 the
 QR
@@ -861,7 +856,6 @@ return
 false
 }
 /
-*
 *
 *
 Set

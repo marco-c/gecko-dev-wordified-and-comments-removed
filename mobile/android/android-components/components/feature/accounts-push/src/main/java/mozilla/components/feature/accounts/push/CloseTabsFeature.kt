@@ -161,7 +161,6 @@ device
 from
 other
 devices
-*
 in
 the
 [
@@ -199,7 +198,6 @@ that
 are
 open
 on
-*
 other
 devices
 from
@@ -240,7 +238,6 @@ observers
 .
 Defaults
 to
-*
 the
 [
 ProcessLifecycleOwner
@@ -257,7 +254,6 @@ observer
 should
 automatically
 be
-*
 paused
 /
 resumed
@@ -326,7 +322,6 @@ urls
 )
 }
 /
-*
 *
 *
 Begins

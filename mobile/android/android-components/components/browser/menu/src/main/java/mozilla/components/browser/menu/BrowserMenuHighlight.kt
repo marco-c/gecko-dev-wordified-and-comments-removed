@@ -166,10 +166,10 @@ item
 .
 BrowserMenuHighlightableItem
 ]
-*
 when
 it
 is
+*
 highlighted
 .
 *
@@ -190,7 +190,6 @@ canPropagate
 :
 Boolean
 /
-*
 *
 *
 Converts
@@ -228,7 +227,6 @@ a
 notification
 dot
 .
-*
 Used
 for
 highlighting
@@ -246,6 +244,7 @@ new
 or
 a
 recommended
+*
 feature
 .
 *
@@ -291,10 +290,10 @@ consider
 this
 highlight
 when
-*
 displaying
 their
 own
+*
 highlight
 .
 *
@@ -359,7 +358,6 @@ the
 menu
 item
 .
-*
 Used
 for
 errors
@@ -383,7 +381,6 @@ item
 background
 color
 .
-*
 Also
 used
 to
@@ -434,10 +431,10 @@ consider
 this
 highlight
 when
-*
 displaying
 their
 own
+*
 highlight
 .
 *
@@ -513,13 +510,13 @@ it
 is
 highlighted
 .
-*
 Replaced
 by
 [
 LowPriority
 ]
 and
+*
 [
 HighPriority
 ]
@@ -530,13 +527,13 @@ priority
 be
 specified
 .
-*
 This
 class
 only
 exists
 so
 that
+*
 [
 mozilla
 .
@@ -552,7 +549,6 @@ BrowserMenuHighlightableItem
 .
 Highlight
 ]
-*
 can
 subclass
 it
@@ -570,10 +566,10 @@ consider
 this
 highlight
 when
-*
 displaying
 their
 own
+*
 highlight
 .
 *
@@ -668,7 +664,6 @@ colorResource
 /
 *
 *
-*
 Indicates
 that
 a
@@ -684,7 +679,6 @@ interface
 HighlightableMenuItem
 {
 /
-*
 *
 *
 Highlight
@@ -707,7 +701,6 @@ highlight
 :
 BrowserMenuHighlight
 /
-*
 *
 *
 Whether

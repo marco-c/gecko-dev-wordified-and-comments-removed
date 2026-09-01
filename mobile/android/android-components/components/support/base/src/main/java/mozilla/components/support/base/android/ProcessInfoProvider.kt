@@ -89,10 +89,10 @@ exposing
 the
 android
 framework
-*
 APIs
 directly
 making
+*
 easier
 to
 test
@@ -109,7 +109,6 @@ interface
 ProcessInfoProvider
 {
 /
-*
 *
 *
 Returns
@@ -134,7 +133,6 @@ isForegroundImportance
 Boolean
 }
 /
-*
 *
 *
 see

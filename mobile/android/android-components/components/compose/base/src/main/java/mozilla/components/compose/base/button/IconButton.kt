@@ -503,7 +503,6 @@ onClick
 ]
 action
 .
-*
 Will
 be
 read
@@ -512,6 +511,7 @@ as
 Double
 tap
 to
+*
 [
 onClickLabel
 ]
@@ -532,12 +532,12 @@ events
 and
 appear
 enabled
-*
 for
 semantics
 purposes
 .
 true
+*
 by
 default
 .
@@ -553,13 +553,13 @@ MutableInteractionSource
 for
 observing
 and
-*
 emitting
 [
 Interaction
 ]
 s
 for
+*
 this
 button
 .
@@ -574,7 +574,6 @@ button
 '
 s
 appearance
-*
 or
 preview
 the
@@ -584,6 +583,7 @@ different
 states
 .
 Note
+*
 that
 if
 null
@@ -591,7 +591,6 @@ is
 provided
 interactions
 will
-*
 still
 happen
 internally

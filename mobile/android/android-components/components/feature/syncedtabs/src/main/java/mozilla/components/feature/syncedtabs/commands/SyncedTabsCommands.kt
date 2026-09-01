@@ -159,7 +159,6 @@ an
 [
 FxaAccountManager
 ]
-*
 for
 sending
 synced

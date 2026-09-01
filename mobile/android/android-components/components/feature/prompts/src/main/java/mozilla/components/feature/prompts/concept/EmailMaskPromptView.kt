@@ -69,7 +69,6 @@ concept
 /
 *
 *
-*
 A
 prompt
 for
@@ -88,7 +87,6 @@ ToggleablePrompt
 /
 *
 *
-*
 Listener
 for
 user
@@ -105,7 +103,6 @@ emailMaskPromptListener
 Listener
 ?
 /
-*
 *
 *
 Interface
@@ -129,7 +126,6 @@ Listener
 /
 *
 *
-*
 Whether
 to
 show
@@ -149,7 +145,6 @@ Boolean
 /
 *
 *
-*
 Called
 when
 the
@@ -166,7 +161,6 @@ onEmailMaskCfrDismissed
 (
 )
 /
-*
 *
 *
 Called

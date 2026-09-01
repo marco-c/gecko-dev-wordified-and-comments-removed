@@ -79,6 +79,12 @@ util
 .
 AtomicFile
 import
+java
+.
+io
+.
+File
+import
 mozilla
 .
 components
@@ -152,12 +158,6 @@ org
 json
 .
 JSONObject
-import
-java
-.
-io
-.
-File
 /
 *
 *
@@ -176,7 +176,6 @@ EngineSessionState
 ]
 as
 JSON
-*
 files
 onto
 disk

@@ -239,7 +239,6 @@ getParentOfType
 /
 *
 *
-*
 A
 custom
 lint

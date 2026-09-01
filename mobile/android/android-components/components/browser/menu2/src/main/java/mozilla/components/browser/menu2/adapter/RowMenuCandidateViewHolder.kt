@@ -115,7 +115,6 @@ RowMenuCandidate
 /
 *
 *
-*
 Displays
 a
 row

@@ -110,9 +110,9 @@ it
 is
 first
 accessed
-*
 after
 initial
+*
 creation
 or
 invalidation
@@ -126,7 +126,6 @@ is
 required
 every
 time
-*
 the
 cache
 is
@@ -152,10 +151,10 @@ left
 up
 to
 the
-*
 user
 to
 determine
+*
 appropriate
 policies
 for
@@ -169,7 +168,6 @@ cache
 If
 when
 the
-*
 cache
 is
 accessed
@@ -177,6 +175,7 @@ it
 is
 filled
 the
+*
 contents
 will
 be
@@ -187,7 +186,6 @@ mentioned
 above
 the
 cache
-*
 will
 be
 lazily
@@ -198,6 +196,7 @@ invalidation
 In
 other
 words
+*
 invalidation
 is
 O
@@ -251,11 +250,11 @@ information
 about
 all
 installed
-*
 browsers
 and
 return
 a
+*
 [
 Browsers
 ]
@@ -313,7 +312,6 @@ it
 }
 }
 /
-*
 *
 *
 Remove

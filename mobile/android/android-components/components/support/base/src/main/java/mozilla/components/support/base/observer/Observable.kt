@@ -96,10 +96,10 @@ so
 that
 classes
 that
-*
 want
 to
 be
+*
 observable
 can
 implement
@@ -113,7 +113,6 @@ delegation
 <
 code
 >
-*
 val
 registry
 =
@@ -141,6 +140,7 @@ registry
 .
 *
 }
+*
 *
 <
 /
@@ -212,7 +212,6 @@ of
 the
 provided
 LifecycleOwner
-*
 becomes
 DESTROYED
 .
@@ -249,7 +248,6 @@ observer
 should
 automatically
 be
-*
 paused
 /
 resumed
@@ -306,11 +304,11 @@ will
 be
 unregistered
 /
-*
 registered
 if
 the
 attached
+*
 state
 changes
 .
@@ -374,7 +372,6 @@ observer
 T
 )
 /
-*
 *
 *
 Unregisters
@@ -447,7 +444,6 @@ there
 is
 no
 observer
-*
 the
 notification
 is
@@ -455,12 +451,12 @@ queued
 and
 sent
 to
+*
 the
 first
 observer
 that
 is
-*
 registered
 .
 *
@@ -510,7 +506,6 @@ be
 sent
 to
 this
-*
 observer
 until
 [
@@ -550,7 +545,6 @@ Notifications
 sent
 since
 it
-*
 was
 last
 paused
@@ -564,10 +558,10 @@ pauseObserver
 are
 lost
 and
+*
 will
 not
 be
-*
 re
 -
 delivered
@@ -591,7 +585,6 @@ observer
 T
 )
 /
-*
 *
 *
 Returns
@@ -639,7 +632,6 @@ Boolean
 /
 *
 *
-*
 If
 the
 observable
@@ -672,19 +664,18 @@ migrate
 and
 deprecate
 existing
-*
 components
 individually
 .
 All
 components
+*
 implement
 [
 Observable
 ]
 by
 delegate
-*
 so
 this
 makes
@@ -698,9 +689,9 @@ to
 override
 all
 methods
-*
 in
 each
+*
 component
 separately
 .

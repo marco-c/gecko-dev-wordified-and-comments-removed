@@ -218,10 +218,10 @@ response
 of
 the
 sponsored
-*
 stories
 or
 a
+*
 [
 PocketResponse
 .

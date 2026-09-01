@@ -119,7 +119,6 @@ installableManifest
 /
 *
 *
-*
 These
 use
 cases
@@ -161,7 +160,6 @@ WebAppShortcutManager
 /
 *
 *
-*
 Checks
 if
 the
@@ -184,7 +182,6 @@ isRequestPinShortcutSupported
 applicationContext
 )
 /
-*
 *
 *
 Checks
@@ -256,7 +253,6 @@ Web
 App
 then
 the
-*
 manifest
 will
 be
@@ -267,11 +263,11 @@ web
 app
 will
 be
+*
 launched
 based
 on
 the
-*
 manifest
 values
 .
@@ -331,12 +327,12 @@ if
 the
 current
 session
-*
 is
 NOT
 a
 Progressive
 Web
+*
 App
 *
 /
@@ -413,7 +409,6 @@ the
 user
 has
 installed
-*
 or
 used
 the
@@ -423,6 +418,7 @@ in
 the
 past
 30
+*
 days
 .
 *
@@ -473,7 +469,6 @@ currentTimeMillis
 )
 {
 /
-*
 *
 *
 param

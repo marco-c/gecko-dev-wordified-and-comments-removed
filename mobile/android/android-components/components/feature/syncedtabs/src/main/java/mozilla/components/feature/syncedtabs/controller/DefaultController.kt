@@ -67,6 +67,12 @@ syncedtabs
 .
 controller
 import
+kotlin
+.
+coroutines
+.
+CoroutineContext
+import
 kotlinx
 .
 coroutines
@@ -182,12 +188,6 @@ fxa
 sync
 .
 SyncReason
-import
-kotlin
-.
-coroutines
-.
-CoroutineContext
 internal
 class
 DefaultController
@@ -232,7 +232,6 @@ CoroutineScope
 coroutineContext
 )
 /
-*
 *
 *
 See
@@ -359,7 +358,6 @@ stopLoading
 }
 }
 /
-*
 *
 *
 See

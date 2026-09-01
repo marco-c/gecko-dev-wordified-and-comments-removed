@@ -179,7 +179,6 @@ SPEECH_PROCESSING
 /
 *
 *
-*
 An
 abstract
 [
@@ -195,7 +194,6 @@ support
 a
 Search
 Widget
-*
 on
 the
 launcher
@@ -321,7 +319,6 @@ textSearchIntent
 /
 *
 *
-*
 Builds
 pending
 intent
@@ -349,7 +346,6 @@ Context
 :
 PendingIntent
 /
-*
 *
 *
 If
@@ -385,7 +381,6 @@ Boolean
 /
 *
 *
-*
 Activity
 that
 extends
@@ -405,7 +400,6 @@ out
 BaseVoiceSearchActivity
 >
 /
-*
 *
 *
 Config
@@ -428,7 +422,6 @@ config
 :
 SearchWidgetConfig
 /
-*
 *
 *
 Builds
@@ -996,7 +989,6 @@ REQUEST_CODE_VOICE
 /
 *
 *
-*
 It
 updates
 AppSearchWidgetProvider
@@ -1146,7 +1138,6 @@ EXTRA_SMALL_V1
 /
 *
 *
-*
 Get
 the
 layout
@@ -1248,7 +1239,6 @@ mozac_search_widget_extra_small_v1
 /
 *
 *
-*
 Get
 the
 text
@@ -1317,7 +1307,6 @@ null
 }
 }
 /
-*
 *
 *
 Client

@@ -119,10 +119,10 @@ been
 most
 recently
 reported
-*
 allowing
 us
 to
+*
 attach
 metadata
 from
@@ -142,11 +142,11 @@ This
 allows
 us
 to
-*
 for
 example
 add
 runtime
+*
 information
 from
 [

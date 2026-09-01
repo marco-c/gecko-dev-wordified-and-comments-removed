@@ -67,7 +67,6 @@ fxsuggest
 /
 *
 *
-*
 Provides
 global
 access
@@ -130,7 +129,6 @@ method
 should
 call
 this
-*
 method
 once
 .

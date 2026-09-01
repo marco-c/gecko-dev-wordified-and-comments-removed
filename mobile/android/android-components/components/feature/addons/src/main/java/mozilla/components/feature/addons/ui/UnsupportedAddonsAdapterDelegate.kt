@@ -87,10 +87,10 @@ add
 on
 in
 the
-*
 list
 of
 unsupported
+*
 add
 -
 on
@@ -102,7 +102,6 @@ interface
 UnsupportedAddonsAdapterDelegate
 {
 /
-*
 *
 *
 Callback

@@ -147,7 +147,6 @@ A
 /
 *
 *
-*
 Interface
 to
 provide
@@ -173,7 +172,6 @@ versionName
 :
 String
 /
-*
 *
 *
 Builders

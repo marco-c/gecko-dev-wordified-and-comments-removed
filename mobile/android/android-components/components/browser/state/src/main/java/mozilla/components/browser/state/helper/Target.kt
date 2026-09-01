@@ -211,11 +211,11 @@ e
 .
 g
 .
-*
 the
 selected
 tab
 a
+*
 specific
 pinned
 tab
@@ -230,7 +230,6 @@ helper
 methods
 make
 it
-*
 easier
 to
 lookup
@@ -240,6 +239,7 @@ state
 of
 the
 tab
+*
 or
 observe
 changes
@@ -272,10 +272,10 @@ matching
 SessionState
 ]
 if
-*
 available
 .
 Otherwise
+*
 returns
 null
 .
@@ -330,10 +330,10 @@ matching
 SessionState
 ]
 if
-*
 available
 .
 Otherwise
+*
 returns
 null
 .
@@ -404,10 +404,10 @@ function
 changes
 for
 this
-*
 state
 the
 returned
+*
 [
 State
 ]
@@ -443,10 +443,10 @@ disposes
 or
 the
 current
-*
 [
 LifecycleOwner
 ]
+*
 moves
 to
 the
@@ -487,7 +487,6 @@ that
 should
 get
 observed
-*
 for
 changes
 .
@@ -553,7 +552,6 @@ state
 )
 }
 /
-*
 *
 *
 Targets

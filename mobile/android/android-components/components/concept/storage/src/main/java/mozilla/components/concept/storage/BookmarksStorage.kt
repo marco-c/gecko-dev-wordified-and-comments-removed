@@ -79,7 +79,6 @@ BookmarkInserter
 /
 *
 *
-*
 An
 interface
 which
@@ -890,6 +889,7 @@ specified
 GUIDs
 .
 *
+*
 param
 guids
 The
@@ -917,10 +917,10 @@ in
 all
 specified
 folders
-*
 recursively
 .
 Empty
+*
 folders
 non
 -
@@ -935,13 +935,13 @@ will
 return
 zero
 .
-*
 The
 result
 is
 implementation
 dependant
 if
+*
 the
 trees
 overlap
@@ -1161,11 +1161,11 @@ used
 where
 you
 are
-*
 batching
 deletes
 or
 where
+*
 the
 deletes
 are
@@ -1191,13 +1191,13 @@ delete
 the
 items
 from
-*
 storage
 then
 re
 -
 fetch
 the
+*
 parent
 node
 .
@@ -1257,7 +1257,6 @@ guid
 /
 *
 *
-*
 Class
 for
 making
@@ -1294,7 +1293,6 @@ String
 ?
 )
 /
-*
 *
 *
 The

@@ -233,7 +233,6 @@ that
 updates
 to
 Sync
-*
 state
 can
 be
@@ -288,9 +287,9 @@ account
 manager
 observations
 .
-*
 Recommended
 that
+*
 this
 be
 an
@@ -410,13 +409,13 @@ itself
 as
 an
 observer
-*
 of
 the
 [
 FxaAccountManager
 ]
 and
+*
 begin
 dispatching
 [
@@ -635,9 +634,9 @@ observer
 to
 any
 constellations
-*
 received
 in
+*
 [
 AccountObserver
 .

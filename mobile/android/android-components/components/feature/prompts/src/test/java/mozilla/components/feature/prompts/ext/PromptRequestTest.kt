@@ -67,6 +67,12 @@ prompts
 .
 ext
 import
+kotlin
+.
+reflect
+.
+KClass
+import
 mozilla
 .
 components
@@ -212,12 +218,6 @@ org
 junit
 .
 Test
-import
-kotlin
-.
-reflect
-.
-KClass
 class
 PromptRequestTest
 {

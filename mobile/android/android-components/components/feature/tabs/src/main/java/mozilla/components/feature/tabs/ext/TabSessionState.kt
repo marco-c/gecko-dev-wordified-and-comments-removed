@@ -168,8 +168,8 @@ in
 this
 HTML
 document
-*
 irrespective
+*
 of
 it
 '

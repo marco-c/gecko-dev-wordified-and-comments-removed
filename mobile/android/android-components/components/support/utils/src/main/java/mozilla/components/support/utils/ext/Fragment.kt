@@ -93,7 +93,6 @@ Fragment
 /
 *
 *
-*
 Requests
 permissions
 and
@@ -199,11 +198,11 @@ reducing
 verbosity
 when
 accessing
-*
 dimension
 values
 from
 a
+*
 [
 Fragment
 ]

@@ -124,7 +124,6 @@ DrawableUtils
 /
 *
 *
-*
 Return
 a
 tinted
@@ -198,7 +197,6 @@ return
 wrapped
 }
 /
-*
 *
 *
 Return

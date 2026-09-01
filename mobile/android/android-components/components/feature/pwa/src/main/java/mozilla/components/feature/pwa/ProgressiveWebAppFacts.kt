@@ -113,7 +113,6 @@ collect
 /
 *
 *
-*
 Facts
 emitted
 for
@@ -129,7 +128,6 @@ class
 ProgressiveWebAppFacts
 {
 /
-*
 *
 *
 Items

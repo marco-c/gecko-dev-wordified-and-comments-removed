@@ -83,6 +83,26 @@ annotation
 .
 StringDef
 import
+java
+.
+io
+.
+Serializable
+import
+java
+.
+util
+.
+UUID
+import
+java
+.
+util
+.
+concurrent
+.
+TimeUnit
+import
 mozilla
 .
 components
@@ -136,26 +156,6 @@ org
 json
 .
 JSONArray
-import
-java
-.
-io
-.
-Serializable
-import
-java
-.
-util
-.
-UUID
-import
-java
-.
-util
-.
-concurrent
-.
-TimeUnit
 /
 /
 Intent
@@ -327,12 +327,12 @@ bundle
 does
 not
 carry
-*
 one
 .
 Declared
 at
 the
+*
 top
 level
 so
@@ -376,7 +376,6 @@ now
 /
 *
 *
-*
 Crash
 types
 that
@@ -395,7 +394,6 @@ Crash
 /
 *
 *
-*
 Unique
 ID
 identifying
@@ -410,7 +408,6 @@ uuid
 :
 String
 /
-*
 *
 *
 Runtime
@@ -441,7 +438,6 @@ String
 /
 *
 *
-*
 Breadcrumbs
 associated
 with
@@ -466,7 +462,6 @@ Breadcrumb
 /
 *
 *
-*
 Timestamp
 time
 of
@@ -482,7 +477,6 @@ timestamp
 :
 Long
 /
-*
 *
 *
 Convenience
@@ -522,7 +516,6 @@ A
 /
 *
 *
-*
 Convenience
 accessor
 to
@@ -556,7 +549,6 @@ release
 /
 *
 *
-*
 Convenience
 accessor
 to
@@ -588,7 +580,6 @@ GECKOVIEW_VERSION
 :
 versionName
 /
-*
 *
 *
 Convenience
@@ -628,7 +619,6 @@ A
 /
 *
 *
-*
 Convenience
 accessor
 to
@@ -664,7 +654,6 @@ N
 A
 "
 /
-*
 *
 *
 Convenience
@@ -704,7 +693,6 @@ A
 /
 *
 *
-*
 Convenience
 accessor
 to
@@ -740,7 +728,6 @@ N
 A
 "
 /
-*
 *
 *
 Convenience
@@ -780,7 +767,6 @@ A
 /
 *
 *
-*
 Convenience
 accessor
 to
@@ -816,7 +802,6 @@ N
 A
 "
 /
-*
 *
 *
 Convenience
@@ -856,7 +841,6 @@ A
 /
 *
 *
-*
 Convenience
 accessor
 to
@@ -892,7 +876,6 @@ N
 A
 "
 /
-*
 *
 *
 Convenience
@@ -938,7 +921,6 @@ it
 /
 *
 *
-*
 Convenience
 accessor
 to
@@ -974,7 +956,6 @@ toString
 (
 )
 /
-*
 *
 *
 Convenience
@@ -1019,7 +1000,6 @@ isFatal
 /
 *
 *
-*
 Convenience
 accessor
 to
@@ -1046,7 +1026,6 @@ this
 is
 NativeCodeCrash
 /
-*
 *
 *
 Convenience
@@ -1081,7 +1060,6 @@ minidumpPath
 /
 *
 *
-*
 Convenience
 accessor
 to
@@ -1111,7 +1089,6 @@ NativeCodeCrash
 .
 extrasPath
 /
-*
 *
 *
 Convenience
@@ -1146,7 +1123,6 @@ UncaughtExceptionCrash
 .
 throwable
 /
-*
 *
 *
 Convenience
@@ -1547,12 +1523,12 @@ the
 URI
 that
 was
-*
 loaded
 at
 the
 time
 of
+*
 the
 crash
 .
@@ -1826,11 +1802,11 @@ process
 was
 affected
 by
-*
 the
 crash
 .
 If
+*
 false
 only
 an
@@ -1844,7 +1820,6 @@ crashed
 and
 the
 application
-*
 may
 be
 able
@@ -1869,7 +1844,6 @@ companion
 object
 {
 /
-*
 *
 *
 Indicates
@@ -1912,11 +1886,11 @@ The
 application
 may
 be
-*
 able
 to
 recover
 from
+*
 this
 crash
 but
@@ -1955,9 +1929,9 @@ This
 should
 have
 been
-*
 recovered
 from
+*
 automatically
 and
 will
@@ -1981,7 +1955,6 @@ PROCESS_VISIBILITY_BACKGROUND_CHILD
 BACKGROUND_CHILD
 "
 /
-*
 *
 *
 Process
@@ -2170,7 +2143,6 @@ toBundle
 /
 *
 *
-*
 Returns
 a
 new
@@ -2330,7 +2302,6 @@ false
 /
 *
 *
-*
 Interface
 used
 when
@@ -2381,7 +2352,6 @@ String
 >
 }
 /
-*
 *
 *
 Namespace

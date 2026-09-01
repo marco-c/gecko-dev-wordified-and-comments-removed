@@ -354,7 +354,6 @@ MAX_VALUE
 /
 *
 *
-*
 A
 dialog
 that
@@ -375,7 +374,6 @@ AddonDialogFragment
 )
 {
 /
-*
 *
 *
 A
@@ -407,7 +405,6 @@ null
 /
 *
 *
-*
 A
 lambda
 called
@@ -433,7 +430,6 @@ Unit
 =
 null
 /
-*
 *
 *
 A
@@ -1432,6 +1428,7 @@ AddonInstallationDialogFragment
 ]
 .
 *
+*
 param
 addon
 The
@@ -1490,8 +1487,8 @@ link
 in
 the
 description
-*
 is
+*
 clicked
 .
 *

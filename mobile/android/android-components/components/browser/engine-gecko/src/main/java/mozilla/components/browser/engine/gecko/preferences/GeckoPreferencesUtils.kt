@@ -203,7 +203,6 @@ SetGeckoPreference
 /
 *
 *
-*
 Utility
 file
 for
@@ -223,7 +222,6 @@ GeckoPreferencesUtils
 /
 *
 *
-*
 Convenience
 method
 for
@@ -234,7 +232,6 @@ Components
 [
 Branch
 ]
-*
 into
 the
 corresponding
@@ -281,7 +278,6 @@ PREF_BRANCH_USER
 /
 *
 *
-*
 Convenience
 method
 for
@@ -290,7 +286,6 @@ a
 Gecko
 preference
 type
-*
 into
 the
 corresponding
@@ -351,7 +346,6 @@ INVALID
 /
 *
 *
-*
 Convenience
 method
 for
@@ -361,7 +355,6 @@ GeckoView
 [
 GeckoPreference
 ]
-*
 into
 an
 Android
@@ -448,13 +441,13 @@ Component
 SetBrowserPreference
 ]
 into
-*
 a
 GeckoView
 [
 SetGeckoPreference
 ]
 .
+*
 May
 throw
 under

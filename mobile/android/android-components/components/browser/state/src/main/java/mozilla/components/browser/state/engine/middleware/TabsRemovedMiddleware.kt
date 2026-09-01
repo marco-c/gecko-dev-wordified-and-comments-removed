@@ -233,7 +233,6 @@ Store
 /
 *
 *
-*
 [
 Middleware
 ]
@@ -249,7 +248,6 @@ instances
 whenever
 tabs
 get
-*
 removed
 .
 *

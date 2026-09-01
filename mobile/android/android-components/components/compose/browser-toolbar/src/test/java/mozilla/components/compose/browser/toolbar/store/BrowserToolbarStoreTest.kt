@@ -81,6 +81,12 @@ runners
 .
 AndroidJUnit4
 import
+kotlin
+.
+random
+.
+Random
+import
 mozilla
 .
 components
@@ -348,12 +354,6 @@ junit
 runner
 .
 RunWith
-import
-kotlin
-.
-random
-.
-Random
 RunWith
 (
 AndroidJUnit4

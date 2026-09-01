@@ -401,6 +401,12 @@ net
 .
 toUri
 import
+java
+.
+io
+.
+File
+import
 mozilla
 .
 components
@@ -464,12 +470,6 @@ utils
 ext
 .
 packageManagerCompatHelper
-import
-java
-.
-io
-.
-File
 /
 *
 *
@@ -494,13 +494,13 @@ tag
 '
 s
 versionName
-*
 attribute
 .
 E
 .
 g
 .
+*
 "
 2
 .
@@ -544,7 +544,6 @@ versionName
 /
 *
 *
-*
 Returns
 the
 name
@@ -585,7 +584,6 @@ toString
 (
 )
 /
-*
 *
 *
 Returns
@@ -664,10 +662,10 @@ permission
 have
 been
 granted
-*
 returns
 true
 otherwise
+*
 false
 .
 *
@@ -1285,7 +1283,6 @@ intent
 EXTRA_TEXT
 ]
 *
-*
 return
 true
 it
@@ -1397,7 +1394,6 @@ intent
 EXTRA_TEXT
 ]
 *
-*
 return
 true
 it
@@ -1495,7 +1491,6 @@ of
 the
 resource
 .
-*
 *
 return
 true
@@ -1595,7 +1590,6 @@ intent
 [
 EXTRA_TEXT
 ]
-*
 *
 return
 true
@@ -1837,8 +1831,8 @@ clipboard
 and
 maybe
 displays
-*
 confirmation
+*
 feedback
 .
 *
@@ -2157,6 +2151,7 @@ latter
 requires
 user
 permission
+*
 *
 param
 phoneNumber
@@ -2518,7 +2513,6 @@ null
 /
 *
 *
-*
 Returns
 true
 if
@@ -2700,6 +2694,7 @@ be
 executed
 .
 *
+*
 param
 [
 block
@@ -2745,7 +2740,6 @@ block
 /
 *
 *
-*
 Returns
 the
 color
@@ -2782,7 +2776,6 @@ attr
 )
 )
 /
-*
 *
 *
 Returns
@@ -2856,6 +2849,7 @@ given
 resource
 ID
 .
+*
 *
 param
 resId
@@ -3067,7 +3061,6 @@ isEdgeToEdgeOptOutEnabled
 /
 *
 *
-*
 Check
 if
 the
@@ -3133,11 +3126,11 @@ reducing
 verbosity
 when
 accessing
-*
 dimension
 values
 from
 a
+*
 [
 Context
 ]

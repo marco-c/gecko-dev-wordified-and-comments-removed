@@ -153,11 +153,11 @@ e
 .
 if
 a
-*
 private
 tab
 is
 selected
+*
 private
 tabs
 will
@@ -170,7 +170,6 @@ tabs
 If
 false
 all
-*
 tabs
 will
 be

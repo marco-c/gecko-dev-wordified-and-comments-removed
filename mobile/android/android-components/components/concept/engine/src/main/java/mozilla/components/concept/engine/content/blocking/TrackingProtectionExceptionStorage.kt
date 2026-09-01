@@ -81,7 +81,6 @@ EngineSession
 /
 *
 *
-*
 A
 contract
 that
@@ -115,6 +114,7 @@ tracking
 protection
 .
 *
+*
 param
 onResult
 A
@@ -131,11 +131,11 @@ list
 has
 been
 fetched
-*
 it
 provides
 a
 list
+*
 of
 all
 the
@@ -150,7 +150,6 @@ if
 there
 are
 none
-*
 domains
 in
 the
@@ -158,6 +157,7 @@ exception
 list
 an
 empty
+*
 list
 will
 be
@@ -196,6 +196,7 @@ exception
 list
 .
 *
+*
 param
 session
 The
@@ -224,7 +225,6 @@ persistent
 in
 private
 mode
-*
 defaults
 to
 false
@@ -258,6 +258,7 @@ exception
 list
 .
 *
+*
 param
 session
 The
@@ -296,6 +297,7 @@ the
 exception
 list
 .
+*
 *
 param
 exception
@@ -339,6 +341,7 @@ exception
 list
 .
 *
+*
 param
 session
 The
@@ -364,7 +367,6 @@ session
 ]
 is
 in
-*
 the
 exception
 list
@@ -374,6 +376,7 @@ it
 is
 in
 otherwise
+*
 false
 .
 *
@@ -406,6 +409,7 @@ exception
 list
 .
 *
+*
 param
 activeSessions
 A
@@ -417,7 +421,6 @@ sessions
 (
 including
 CustomTab
-*
 sessions
 )
 to

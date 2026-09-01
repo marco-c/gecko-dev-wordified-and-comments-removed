@@ -103,7 +103,6 @@ BrowserIcons
 /
 *
 *
-*
 The
 scope
 of
@@ -129,7 +128,6 @@ IconLoaderState
 >
 }
 /
-*
 *
 *
 Renders
@@ -193,7 +191,6 @@ state
 }
 }
 /
-*
 *
 *
 Renders

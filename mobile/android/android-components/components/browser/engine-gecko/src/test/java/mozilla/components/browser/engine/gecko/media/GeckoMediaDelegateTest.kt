@@ -81,6 +81,12 @@ runners
 .
 AndroidJUnit4
 import
+java
+.
+security
+.
+InvalidParameterException
+import
 junit
 .
 framework
@@ -194,12 +200,6 @@ mozilla
 geckoview
 .
 GeckoRuntime
-import
-java
-.
-security
-.
-InvalidParameterException
 import
 org
 .

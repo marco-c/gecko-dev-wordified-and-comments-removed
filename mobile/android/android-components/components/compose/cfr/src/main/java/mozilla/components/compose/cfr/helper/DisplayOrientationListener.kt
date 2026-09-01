@@ -115,7 +115,6 @@ the
 screen
 changes
 .
-*
 Since
 this
 is
@@ -130,6 +129,7 @@ it
 s
 important
 to
+*
 call
 [
 start
@@ -138,7 +138,6 @@ and
 [
 stop
 ]
-*
 at
 the
 appropriate
@@ -175,7 +174,6 @@ display
 rotation
 changes
 .
-*
 This
 will
 be
@@ -183,6 +181,7 @@ called
 when
 the
 display
+*
 changes
 to
 any
@@ -192,7 +191,6 @@ four
 main
 orientations
 :
-*
 [
 PORTRAIT
 LANDSCAPE
@@ -200,8 +198,8 @@ REVERSE_PORTRAIT
 REVERSE_LANDSCAPE
 ]
 .
-*
 No
+*
 updates
 will
 be
@@ -276,7 +274,6 @@ display
 orientation
 changes
 .
-*
 It
 '
 s
@@ -291,6 +288,7 @@ when
 done
 listening
 to
+*
 prevent
 leaking
 the
@@ -312,7 +310,6 @@ null
 )
 }
 /
-*
 *
 *
 Stop

@@ -173,6 +173,14 @@ widget
 .
 AppCompatImageView
 import
+java
+.
+lang
+.
+ref
+.
+WeakReference
+import
 mozilla
 .
 components
@@ -214,16 +222,7 @@ android
 view
 .
 setPadding
-import
-java
-.
-lang
-.
-ref
-.
-WeakReference
 /
-*
 *
 *
 Interface
@@ -254,7 +253,6 @@ ScrollableToolbar
 /
 *
 *
-*
 Sets
 /
 Gets
@@ -274,7 +272,6 @@ title
 :
 String
 /
-*
 *
 *
 Sets
@@ -343,7 +340,6 @@ Boolean
 /
 *
 *
-*
 Sets
 /
 Gets
@@ -367,7 +363,6 @@ SiteInfo
 /
 *
 *
-*
 Sets
 /
 Gets
@@ -388,7 +383,6 @@ highlight
 :
 Highlight
 /
-*
 *
 *
 Sets
@@ -450,7 +444,6 @@ searchTerms
 String
 )
 /
-*
 *
 *
 Displays
@@ -529,7 +522,6 @@ Boolean
 /
 *
 *
-*
 Should
 be
 called
@@ -574,7 +566,6 @@ e
 .
 is
 done
-*
 editing
 .
 *
@@ -598,8 +589,8 @@ mode
 .
 Otherwise
 it
-*
 remains
+*
 in
 "
 edit
@@ -683,7 +674,6 @@ Unit
 /
 *
 *
-*
 Attempt
 to
 restart
@@ -729,7 +719,6 @@ mode
 *
 Related
 :
-*
 https
 :
 /
@@ -783,11 +772,11 @@ If
 the
 the
 provided
-*
 actions
 was
 never
 added
+*
 this
 method
 has
@@ -833,11 +822,11 @@ If
 the
 the
 provided
-*
 actions
 was
 never
 added
+*
 this
 method
 has
@@ -883,10 +872,10 @@ If
 the
 the
 provided
-*
 actions
 was
 never
+*
 added
 this
 method
@@ -931,10 +920,10 @@ actions
 have
 changed
 and
-*
 should
 be
 updated
+*
 if
 needed
 .
@@ -969,7 +958,6 @@ mode
 *
 Related
 :
-*
 https
 :
 /
@@ -1005,7 +993,6 @@ Action
 /
 *
 *
-*
 Adds
 an
 action
@@ -1036,7 +1023,6 @@ Action
 /
 *
 *
-*
 Adds
 an
 action
@@ -1063,7 +1049,6 @@ action
 Action
 )
 /
-*
 *
 *
 Adds
@@ -1094,7 +1079,6 @@ Action
 /
 *
 *
-*
 Removes
 an
 action
@@ -1120,7 +1104,6 @@ Action
 /
 *
 *
-*
 Hides
 the
 menu
@@ -1138,7 +1121,6 @@ hideMenuButton
 /
 *
 *
-*
 Shows
 the
 menu
@@ -1154,7 +1136,6 @@ showMenuButton
 (
 )
 /
-*
 *
 *
 Sets
@@ -1175,7 +1156,6 @@ horizontalPadding
 Int
 )
 /
-*
 *
 *
 Casts
@@ -1202,7 +1182,6 @@ View
 /
 *
 *
-*
 Registers
 the
 given
@@ -1227,7 +1206,6 @@ listener
 OnEditListener
 )
 /
-*
 *
 *
 Switches
@@ -1273,11 +1251,11 @@ by
 the
 toolbar
 implementation
-*
 and
 focuses
 the
 URL
+*
 input
 field
 based
@@ -1320,7 +1298,6 @@ ALL
 /
 *
 *
-*
 Dismisses
 the
 display
@@ -1334,7 +1311,6 @@ dismissMenu
 (
 )
 /
-*
 *
 *
 Listener
@@ -1356,7 +1332,6 @@ OnEditListener
 /
 *
 *
-*
 Fired
 when
 the
@@ -1375,7 +1350,6 @@ onStartEditing
 =
 Unit
 /
-*
 *
 *
 Fired
@@ -1404,7 +1378,6 @@ true
 /
 *
 *
-*
 Fired
 when
 the
@@ -1424,7 +1397,6 @@ onStopEditing
 =
 Unit
 /
-*
 *
 *
 Fired
@@ -1453,7 +1425,6 @@ Unit
 /
 *
 *
-*
 Fired
 when
 user
@@ -1476,7 +1447,6 @@ onInputCleared
 Unit
 }
 /
-*
 *
 *
 Generic
@@ -1646,9 +1616,9 @@ The
 lesser
 the
 weight
-*
 the
 closer
+*
 it
 is
 to
@@ -1667,13 +1637,13 @@ is
 not
 cared
 for
-*
 and
 action
 will
 be
 appended
 at
+*
 the
 end
 .
@@ -2088,9 +2058,9 @@ button
 is
 pressed
 the
-*
 state
 changes
+*
 automatically
 .
 *
@@ -2195,9 +2165,9 @@ The
 lesser
 the
 weight
-*
 the
 closer
+*
 it
 is
 to
@@ -2216,13 +2186,13 @@ is
 not
 cared
 for
-*
 and
 action
 will
 be
 appended
 at
+*
 the
 end
 .
@@ -2621,7 +2591,6 @@ selected
 /
 *
 *
-*
 Returns
 the
 current
@@ -2866,10 +2835,10 @@ If
 no
 content
 description
-*
 is
 provided
 then
+*
 this
 view
 will
@@ -2879,7 +2848,6 @@ as
 not
 important
 for
-*
 accessibility
 .
 *
@@ -3015,7 +2983,6 @@ Unit
 /
 *
 *
-*
 An
 enum
 for
@@ -3042,7 +3009,6 @@ LOCAL_PDF
 /
 *
 *
-*
 Indicates
 which
 tracking
@@ -3059,7 +3025,6 @@ class
 SiteTrackingProtection
 {
 /
-*
 *
 *
 The
@@ -3083,7 +3048,6 @@ ON_NO_TRACKERS_BLOCKED
 /
 *
 *
-*
 The
 site
 has
@@ -3104,7 +3068,6 @@ ON_TRACKERS_BLOCKED
 /
 *
 *
-*
 Tracking
 protection
 has
@@ -3121,7 +3084,6 @@ OFF_FOR_A_SITE
 /
 *
 *
-*
 Tracking
 protection
 has
@@ -3136,7 +3098,6 @@ sites
 OFF_GLOBALLY
 }
 /
-*
 *
 *
 Indicates
@@ -3160,7 +3121,6 @@ Highlight
 /
 *
 *
-*
 The
 site
 has
@@ -3178,7 +3138,6 @@ PERMISSIONS_CHANGED
 /
 *
 *
-*
 The
 site
 does
@@ -3193,7 +3152,6 @@ indicator
 NONE
 }
 /
-*
 *
 *
 Indicates
@@ -3220,7 +3178,6 @@ CursorPlacement
 /
 *
 *
-*
 All
 of
 the
@@ -3237,7 +3194,6 @@ selected
 /
 ALL
 /
-*
 *
 *
 No

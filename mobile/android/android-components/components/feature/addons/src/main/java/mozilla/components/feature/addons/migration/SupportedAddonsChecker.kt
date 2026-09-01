@@ -127,6 +127,14 @@ work
 .
 WorkerParameters
 import
+java
+.
+util
+.
+concurrent
+.
+TimeUnit
+import
 kotlinx
 .
 coroutines
@@ -188,16 +196,7 @@ base
 worker
 .
 Frequency
-import
-java
-.
-util
-.
-concurrent
-.
-TimeUnit
 /
-*
 *
 *
 Contract
@@ -224,7 +223,6 @@ SupportedAddonsChecker
 /
 *
 *
-*
 Registers
 for
 periodic
@@ -243,7 +241,6 @@ registerForChecks
 (
 )
 /
-*
 *
 *
 Unregisters
@@ -285,6 +282,7 @@ scheduling
 checks
 .
 *
+*
 property
 applicationContext
 The
@@ -305,7 +303,6 @@ should
 be
 performed
 defaults
-*
 to
 once
 per
@@ -357,7 +354,6 @@ DefaultSupportedAddonsChecker
 /
 *
 *
-*
 See
 [
 SupportedAddonsChecker
@@ -406,7 +402,6 @@ ons
 )
 }
 /
-*
 *
 *
 See
@@ -549,7 +544,6 @@ periodicWork
 /
 *
 *
-*
 Identifies
 all
 the
@@ -581,7 +575,6 @@ periodicWork
 }
 }
 /
-*
 *
 *
 A

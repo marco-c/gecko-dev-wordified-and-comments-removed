@@ -161,7 +161,6 @@ DEFAULT_FONT_SCALE
 /
 *
 *
-*
 A
 palette
 defining
@@ -176,7 +175,6 @@ visual
 elements
 styled
 by
-*
 the
 Acorn
 Design
@@ -191,7 +189,6 @@ AcornSize
 /
 *
 *
-*
 A
 palette
 defining
@@ -204,7 +201,6 @@ visual
 elements
 styled
 by
-*
 the
 Acorn
 Design
@@ -319,7 +315,6 @@ dp
 /
 *
 *
-*
 A
 palette
 defining
@@ -332,7 +327,6 @@ visual
 elements
 styled
 by
-*
 the
 Acorn
 Design
@@ -396,7 +390,6 @@ dynamic1400
 :
 Dp
 /
-*
 *
 *
 [
@@ -521,7 +514,6 @@ Dp
 dp
 }
 /
-*
 *
 *
 [
@@ -654,7 +646,6 @@ dp
 /
 *
 *
-*
 The
 diameter
 for
@@ -674,7 +665,6 @@ get
 =
 dynamic300
 /
-*
 *
 *
 see
@@ -777,7 +767,6 @@ dp
 /
 *
 *
-*
 The
 max
 -
@@ -825,7 +814,6 @@ medium
 }
 }
 /
-*
 *
 *
 [

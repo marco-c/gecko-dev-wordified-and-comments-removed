@@ -87,7 +87,6 @@ file
 system
 operations
 .
-*
 This
 allows
 for
@@ -100,6 +99,7 @@ way
 to
 mock
 file
+*
 system
 interactions
 .
@@ -280,7 +280,6 @@ Long
 /
 *
 *
-*
 Default
 implementation
 of
@@ -313,7 +312,6 @@ not
 already
 exist
 .
-*
 It
 uses
 [
@@ -323,6 +321,7 @@ mkdirs
 ]
 which
 creates
+*
 parent
 directories
 if
@@ -356,11 +355,11 @@ necessary
 parent
 directories
 )
-*
 false
 if
 the
 directory
+*
 already
 existed
 .
@@ -424,12 +423,12 @@ by
 the
 path
 .
-*
 Uses
 [
 StatFs
 ]
 to
+*
 retrieve
 this
 information

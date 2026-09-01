@@ -89,7 +89,6 @@ that
 typically
 provides
 some
-*
 service
 or
 content
@@ -111,6 +110,7 @@ asset
 descriptor
 .
 *
+*
 property
 site
 URI
@@ -123,12 +123,10 @@ website
 .
 *
 sample
-*
 AssetDescriptor
 .
 Web
 (
-*
 site
 =
 "
@@ -148,7 +146,6 @@ optional
 port
 }
 "
-*
 )
 *
 /
@@ -176,6 +173,7 @@ asset
 descriptor
 .
 *
+*
 property
 packageName
 Package
@@ -197,12 +195,10 @@ string
 .
 *
 sample
-*
 AssetDescriptor
 .
 Android
 (
-*
 packageName
 =
 "
@@ -212,9 +208,9 @@ costingtons
 .
 app
 "
-*
 sha256CertFingerprint
 =
+*
 "
 A0
 :
@@ -246,7 +242,6 @@ CF
 :
 E5
 "
-*
 )
 *
 /

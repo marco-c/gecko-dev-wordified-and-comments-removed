@@ -65,6 +65,12 @@ feature
 .
 toolbar
 import
+kotlin
+.
+test
+.
+assertNotNull
+import
 kotlinx
 .
 coroutines
@@ -286,12 +292,6 @@ mockito
 Mockito
 .
 verify
-import
-kotlin
-.
-test
-.
-assertNotNull
 class
 ToolbarAutocompleteFeatureTest
 {
@@ -2961,7 +2961,6 @@ of
 AutocompleteProvider
 ]
 .
-*
 [
 getAutocompleteSuggestion
 ]

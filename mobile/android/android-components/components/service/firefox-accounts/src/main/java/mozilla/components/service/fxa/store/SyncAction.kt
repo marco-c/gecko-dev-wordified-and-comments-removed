@@ -101,7 +101,6 @@ AccountState
 /
 *
 *
-*
 Actions
 for
 updating
@@ -124,7 +123,6 @@ SyncAction
 Action
 {
 /
-*
 *
 *
 Update
@@ -156,7 +154,6 @@ SyncAction
 (
 )
 /
-*
 *
 *
 Update
@@ -191,7 +188,6 @@ SyncAction
 /
 *
 *
-*
 Update
 the
 [
@@ -221,7 +217,6 @@ SyncAction
 (
 )
 /
-*
 *
 *
 Update

@@ -153,7 +153,6 @@ ParsedStructure
 /
 *
 *
-*
 [
 FillResponseBuilder
 ]
@@ -167,7 +166,6 @@ FillResponse
 containing
 logins
 for
-*
 autofilling
 .
 *

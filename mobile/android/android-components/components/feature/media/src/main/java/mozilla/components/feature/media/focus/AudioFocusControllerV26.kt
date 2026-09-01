@@ -113,7 +113,6 @@ Logger
 /
 *
 *
-*
 [
 AudioFocusController
 ]
@@ -233,11 +232,11 @@ type
 so
 other
 apps
-*
 react
 appropriately
 .
 The
+*
 transient
 /
 transient
@@ -246,7 +245,6 @@ solo
 usage
 values
 are
-*
 best
 -
 fit

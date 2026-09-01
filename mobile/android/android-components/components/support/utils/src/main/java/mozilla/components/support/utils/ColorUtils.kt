@@ -91,6 +91,18 @@ ui
 .
 graphics
 .
+Color
+as
+ComposeColor
+import
+androidx
+.
+compose
+.
+ui
+.
+graphics
+.
 lerp
 import
 androidx
@@ -108,20 +120,7 @@ core
 graphics
 .
 toColorInt
-import
-androidx
-.
-compose
-.
-ui
-.
-graphics
-.
-Color
-as
-ComposeColor
 /
-*
 *
 *
 Default
@@ -170,7 +169,6 @@ object
 ColorUtils
 {
 /
-*
 *
 *
 Get
@@ -226,7 +224,6 @@ BLACK
 /
 *
 *
-*
 Get
 secondary
 color
@@ -279,7 +276,6 @@ SECONDARY_COLOR_BACKGROUND_BLEND_RATIO
 )
 }
 /
-*
 *
 *
 Get
@@ -344,7 +340,6 @@ toColorInt
 }
 }
 /
-*
 *
 *
 return
@@ -643,7 +638,6 @@ color
 should
 be
 .
-*
 A
 higher
 value
@@ -714,7 +708,6 @@ color
 should
 be
 .
-*
 A
 higher
 value

@@ -116,7 +116,6 @@ selected
 HistoryItem
 ]
 .
-*
 If
 this
 is
@@ -125,6 +124,7 @@ to
 lastIndex
 then
 there
+*
 are
 no
 pages
@@ -135,7 +135,6 @@ forward
 "
 to
 .
-*
 If
 this
 is

@@ -633,9 +633,9 @@ MenuItem
 CheckableItem
 ]
 .
-*
 If
 not
+*
 specified
 the
 best

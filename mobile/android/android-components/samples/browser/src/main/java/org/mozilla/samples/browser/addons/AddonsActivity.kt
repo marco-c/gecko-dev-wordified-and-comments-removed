@@ -93,7 +93,6 @@ R
 /
 *
 *
-*
 An
 activity
 to

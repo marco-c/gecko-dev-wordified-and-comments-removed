@@ -79,6 +79,20 @@ work
 .
 WorkInfo
 import
+java
+.
+io
+.
+Closeable
+import
+java
+.
+util
+.
+concurrent
+.
+TimeUnit
+import
 mozilla
 .
 components
@@ -168,22 +182,7 @@ base
 observer
 .
 ObserverRegistry
-import
-java
-.
-io
-.
-Closeable
-import
-java
-.
-util
-.
-concurrent
-.
-TimeUnit
 /
-*
 *
 *
 A
@@ -207,7 +206,6 @@ SyncReason
 /
 *
 *
-*
 Application
 is
 starting
@@ -227,7 +225,6 @@ SyncReason
 (
 )
 /
-*
 *
 *
 User
@@ -260,7 +257,6 @@ SyncReason
 /
 *
 *
-*
 User
 changed
 enabled
@@ -287,7 +283,6 @@ SyncReason
 /
 *
 *
-*
 Internal
 use
 only
@@ -308,7 +303,6 @@ SyncReason
 (
 )
 /
-*
 *
 *
 Internal
@@ -333,7 +327,6 @@ SyncReason
 /
 *
 *
-*
 An
 interface
 for
@@ -354,7 +347,6 @@ interface
 SyncStatusObserver
 {
 /
-*
 *
 *
 Gets
@@ -398,11 +390,11 @@ has
 been
 synchronized
 .
-*
 A
 set
 of
 enabled
+*
 [
 SyncEngine
 ]
@@ -416,7 +408,6 @@ are
 expected
 to
 query
-*
 [
 SyncEnginesStorage
 .
@@ -450,6 +441,7 @@ by
 status
 observers
 .
+*
 *
 param
 error
@@ -491,9 +483,9 @@ used
 if
 this
 store
-*
 has
 encrypted
+*
 contents
 .
 Lazy
@@ -548,10 +540,10 @@ ll
 be
 used
 for
-*
 crypto
 operations
 on
+*
 the
 storage
 .
@@ -599,9 +591,9 @@ will
 use
 this
 to
-*
 access
 configured
+*
 [
 SyncableStore
 ]
@@ -624,10 +616,10 @@ workers
 to
 access
 globally
-*
 available
 instances
 of
+*
 stores
 within
 an
@@ -669,6 +661,7 @@ SyncEngine
 ]
 enum
 .
+*
 *
 param
 storePair
@@ -749,7 +742,6 @@ syncEngine
 }
 }
 /
-*
 *
 *
 Internal
@@ -854,6 +846,7 @@ sync
 manager
 implementation
 .
+*
 *
 param
 syncConfig
@@ -1008,7 +1001,6 @@ PassThroughSyncStatusObserver
 syncStatusObserverRegistry
 )
 /
-*
 *
 *
 Indicates
@@ -1201,7 +1193,6 @@ enabled
 /
 *
 *
-*
 Enables
 synchronization
 with
@@ -1264,7 +1255,6 @@ syncDispatcher
 )
 }
 /
-*
 *
 *
 Disables

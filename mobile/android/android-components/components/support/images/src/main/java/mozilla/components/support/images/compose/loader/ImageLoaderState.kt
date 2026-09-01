@@ -83,7 +83,6 @@ BitmapPainter
 /
 *
 *
-*
 The
 state
 an
@@ -100,7 +99,6 @@ class
 ImageLoaderState
 {
 /
-*
 *
 *
 The
@@ -122,7 +120,6 @@ ImageLoaderState
 (
 )
 /
-*
 *
 *
 The
@@ -150,7 +147,6 @@ ImageLoaderState
 (
 )
 /
-*
 *
 *
 Loading

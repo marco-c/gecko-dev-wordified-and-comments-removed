@@ -100,6 +100,7 @@ foreground
 state
 .
 *
+*
 param
 removeNotification
 whether

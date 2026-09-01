@@ -112,7 +112,6 @@ of
 the
 preference
 .
-*
 This
 is
 the
@@ -123,6 +122,7 @@ or
 value
 to
 return
+*
 to
 .
 *
@@ -135,7 +135,6 @@ of
 the
 preference
 .
-*
 This
 is
 the
@@ -149,6 +148,7 @@ set
 instead
 of
 the
+*
 default
 value
 .
@@ -187,11 +187,9 @@ but
 has
 a
 more
-*
 limited
 subset
 .
-*
 *
 /
 data

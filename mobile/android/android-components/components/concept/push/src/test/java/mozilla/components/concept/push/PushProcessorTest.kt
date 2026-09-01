@@ -65,6 +65,12 @@ concept
 .
 push
 import
+kotlin
+.
+test
+.
+assertNotNull
+import
 mozilla
 .
 components
@@ -86,12 +92,6 @@ org
 junit
 .
 Test
-import
-kotlin
-.
-test
-.
-assertNotNull
 class
 PushProcessorTest
 {

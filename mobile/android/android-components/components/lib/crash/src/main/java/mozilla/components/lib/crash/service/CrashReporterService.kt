@@ -100,7 +100,6 @@ INFO
 /
 *
 *
-*
 Interface
 to
 be
@@ -121,7 +120,6 @@ CrashReporterService
 /
 *
 *
-*
 A
 unique
 ID
@@ -139,7 +137,6 @@ id
 :
 String
 /
-*
 *
 *
 A
@@ -167,7 +164,6 @@ name
 :
 String
 /
-*
 *
 *
 Returns
@@ -233,11 +229,11 @@ this
 crash
 reporter
 service
-*
 to
 find
 this
 reported
+*
 crash
 -
 or
@@ -297,11 +293,11 @@ this
 crash
 reporter
 service
-*
 to
 find
 this
 reported
+*
 crash
 -
 or
@@ -360,11 +356,11 @@ this
 crash
 reporter
 service
-*
 to
 find
 this
 reported
+*
 crash
 -
 or

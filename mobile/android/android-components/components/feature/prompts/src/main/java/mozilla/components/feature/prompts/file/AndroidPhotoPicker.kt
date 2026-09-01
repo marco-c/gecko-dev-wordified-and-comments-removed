@@ -226,13 +226,13 @@ single
 select
 mode
 .
-*
 Note
 that
 you
 must
 call
 singleMediaPicker
+*
 before
 the
 fragment
@@ -268,7 +268,6 @@ the
 [
 PromptFeature
 ]
-*
 that
 handles
 the
@@ -276,6 +275,7 @@ result
 of
 the
 photo
+*
 picker
 .
 *
@@ -374,13 +374,13 @@ multi
 select
 mode
 .
-*
 Note
 that
 you
 must
 call
 multipleMediaPicker
+*
 before
 the
 fragment
@@ -416,7 +416,6 @@ the
 [
 PromptFeature
 ]
-*
 that
 handles
 the
@@ -424,6 +423,7 @@ result
 of
 the
 photo
+*
 picker
 .
 *

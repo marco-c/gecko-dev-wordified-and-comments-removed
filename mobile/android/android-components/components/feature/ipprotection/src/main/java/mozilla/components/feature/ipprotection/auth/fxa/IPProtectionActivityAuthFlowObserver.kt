@@ -184,8 +184,8 @@ is
 complete
 for
 our
-*
 specific
+*
 scope
 but
 we
@@ -197,7 +197,6 @@ this
 capability
 today
 .
-*
 We
 '
 ve
@@ -210,13 +209,13 @@ FxaAccountStoreSync
 but
 because
 our
+*
 apps
 have
 a
 single
 activity
 model
-*
 those
 observes
 experience
@@ -229,8 +228,8 @@ immediately
 that
 resets
 the
-state
 *
+state
 machine
 .
 *

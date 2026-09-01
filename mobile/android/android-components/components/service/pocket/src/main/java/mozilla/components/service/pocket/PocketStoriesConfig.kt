@@ -65,6 +65,14 @@ service
 .
 pocket
 import
+java
+.
+util
+.
+concurrent
+.
+TimeUnit
+import
 mozilla
 .
 components
@@ -100,14 +108,6 @@ base
 worker
 .
 Frequency
-import
-java
-.
-util
-.
-concurrent
-.
-TimeUnit
 internal
 const
 val
@@ -218,8 +218,8 @@ to
 try
 and
 refresh
-*
 content
+*
 recommendations
 .
 Defaults
@@ -238,9 +238,9 @@ parameters
 used
 to
 fetch
-*
 the
 content
+*
 recommendations
 .
 *
@@ -254,7 +254,6 @@ parameters
 used
 to
 fetch
-*
 the
 sponsored
 contents
@@ -371,7 +370,6 @@ return
 for
 the
 content
-*
 recommendations
 .
 *

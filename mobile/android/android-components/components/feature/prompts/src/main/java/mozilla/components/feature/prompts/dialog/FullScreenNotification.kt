@@ -81,7 +81,6 @@ Toast
 /
 *
 *
-*
 UI
 to
 show
@@ -99,7 +98,6 @@ interface
 FullScreenNotification
 {
 /
-*
 *
 *
 Show
@@ -128,6 +126,7 @@ full
 screen
 notification
 message
+*
 *
 property
 activity

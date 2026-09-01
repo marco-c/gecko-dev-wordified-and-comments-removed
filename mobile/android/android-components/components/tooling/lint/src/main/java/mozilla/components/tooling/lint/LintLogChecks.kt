@@ -171,6 +171,12 @@ psi
 .
 PsiMethod
 import
+java
+.
+util
+.
+EnumSet
+import
 org
 .
 jetbrains
@@ -186,12 +192,6 @@ jetbrains
 uast
 .
 getContainingUClass
-import
-java
-.
-util
-.
-EnumSet
 internal
 const
 val
@@ -219,7 +219,6 @@ base
 component
 "
 /
-*
 *
 *
 Custom

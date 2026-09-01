@@ -166,8 +166,8 @@ code
 sub
 packages
 contains
-*
 logger
+*
 implementations
 that
 wrap
@@ -212,11 +212,11 @@ sinks
 .
 Log
 calls
-*
 with
 a
 lower
 log
+*
 level
 will
 be
@@ -281,7 +281,6 @@ mutableListOf
 )
 }
 /
-*
 *
 *
 Adds
@@ -363,11 +362,11 @@ usually
 identifies
 the
 class
-*
 where
 the
 log
 call
+*
 occurs
 .
 *
@@ -482,7 +481,6 @@ clear
 }
 }
 /
-*
 *
 *
 Priority

@@ -261,7 +261,6 @@ JSONObject
 /
 *
 *
-*
 Main
 configuration
 and
@@ -341,7 +340,6 @@ regex
 in
 url
 .
-*
 This
 may
 additionally
@@ -349,6 +347,7 @@ return
 null
 if
 the
+*
 provider
 list
 is
@@ -396,7 +395,6 @@ url
 )
 }
 /
-*
 *
 *
 Install
@@ -678,7 +676,6 @@ SearchTelemetryMessageHandler
 }
 }
 /
-*
 *
 *
 This

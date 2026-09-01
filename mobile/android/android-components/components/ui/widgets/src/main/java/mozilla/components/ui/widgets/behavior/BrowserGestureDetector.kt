@@ -97,6 +97,12 @@ annotation
 .
 VisibleForTesting
 import
+kotlin
+.
+math
+.
+abs
+import
 mozilla
 .
 components
@@ -108,12 +114,6 @@ base
 crash
 .
 CrashReporting
-import
-kotlin
-.
-math
-.
-abs
 /
 *
 *
@@ -128,7 +128,6 @@ by
 BrowserGestureDetector
 ]
 .
-*
 Instances
 of
 this
@@ -136,6 +135,7 @@ class
 are
 submitted
 via
+*
 [
 CrashReporting
 ]
@@ -145,7 +145,6 @@ wrapping
 helps
 easily
 identify
-*
 exceptions
 related
 to
@@ -469,12 +468,12 @@ to
 this
 method
 .
-*
 A
 complete
 and
 consistent
 event
+*
 stream
 involves
 all
@@ -483,7 +482,6 @@ from
 the
 initial
 ACTION_DOWN
-*
 to
 the
 final
@@ -743,7 +741,6 @@ are
 interested
 in
 .
-*
 The
 others
 will
@@ -772,7 +769,6 @@ gesture
 in
 progress
 .
-*
 The
 distance
 in
@@ -783,6 +779,7 @@ is
 also
 supplied
 for
+*
 convenience
 .
 *
@@ -831,13 +828,13 @@ the
 vertical
 axis
 .
-*
 The
 scroll
 distance
 is
 also
 supplied
+*
 for
 convenience
 .
@@ -877,13 +874,13 @@ the
 horizontal
 axis
 .
-*
 The
 scroll
 distance
 is
 also
 supplied
+*
 for
 convenience
 .
@@ -909,7 +906,6 @@ Unit
 /
 *
 *
-*
 Responds
 to
 the
@@ -921,7 +917,6 @@ new
 scale
 gesture
 .
-*
 Reported
 by
 new
@@ -962,7 +957,6 @@ gesture
 in
 progress
 .
-*
 The
 scaling
 factor
@@ -1011,7 +1005,6 @@ Unit
 /
 *
 *
-*
 Responds
 to
 the
@@ -1021,7 +1014,6 @@ a
 scale
 gesture
 .
-*
 Reported
 by
 existing

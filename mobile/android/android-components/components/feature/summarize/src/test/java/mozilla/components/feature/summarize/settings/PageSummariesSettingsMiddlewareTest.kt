@@ -67,6 +67,12 @@ summarize
 .
 settings
 import
+kotlin
+.
+test
+.
+assertEquals
+import
 kotlinx
 .
 coroutines
@@ -140,12 +146,6 @@ org
 junit
 .
 Test
-import
-kotlin
-.
-test
-.
-assertEquals
 OptIn
 (
 ExperimentalCoroutinesApi

@@ -132,11 +132,11 @@ The
 actual
 unlocking
 or
-*
 decrypting
 of
 the
 underlying
+*
 storage
 is
 done
@@ -178,8 +178,8 @@ options
 will
 be
 shown
-*
 without
+*
 authenticating
 again
 .
@@ -222,9 +222,9 @@ extending
 the
 time
 until
-*
 it
 will
+*
 automatically
 get
 locked
@@ -259,7 +259,6 @@ false
 }
 }
 /
-*
 *
 *
 Unlocks

@@ -161,7 +161,6 @@ LifecycleAwareFeature
 /
 *
 *
-*
 Helper
 class
 for
@@ -176,7 +175,6 @@ for
 reacting
 to
 state
-*
 changes
 .
 *
@@ -264,7 +262,6 @@ cancel
 )
 }
 /
-*
 *
 *
 A

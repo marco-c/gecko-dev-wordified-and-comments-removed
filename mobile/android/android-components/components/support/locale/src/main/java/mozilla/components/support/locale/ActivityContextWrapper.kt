@@ -127,11 +127,11 @@ might
 be
 the
 same
-*
 as
 baseContext
 if
 a
+*
 non
 -
 default
@@ -182,7 +182,6 @@ originalContext
 from
 a
 wrapped
-*
 Activity
 Context
 .
@@ -198,7 +197,6 @@ may
 be
 wrapped
 in
-*
 an
 [
 ActivityContextWrapper
@@ -217,7 +215,6 @@ otherwise
 null
 if
 one
-*
 doesn
 '
 t

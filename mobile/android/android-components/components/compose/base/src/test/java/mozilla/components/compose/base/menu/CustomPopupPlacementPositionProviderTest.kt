@@ -169,6 +169,12 @@ unit
 .
 dp
 import
+kotlin
+.
+math
+.
+roundToInt
+import
 org
 .
 junit
@@ -182,12 +188,6 @@ org
 junit
 .
 Test
-import
-kotlin
-.
-math
-.
-roundToInt
 class
 CustomPopupPlacementPositionProviderTest
 {

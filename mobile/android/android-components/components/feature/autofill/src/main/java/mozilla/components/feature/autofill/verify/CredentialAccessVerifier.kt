@@ -146,7 +146,6 @@ the
 login
 credentials
 for
-*
 a
 specific
 domain
@@ -168,10 +167,10 @@ domain
 to
 specify
 associated
-*
 apps
 and
 their
+*
 signatures
 .
 *
@@ -262,12 +261,12 @@ is
 allowed
 to
 receive
-*
 credentials
 for
 [
 domain
 ]
+*
 according
 to
 the
@@ -279,7 +278,6 @@ file
 .
 Returns
 false
-*
 otherwise
 .
 This
@@ -288,6 +286,7 @@ may
 also
 return
 false
+*
 if
 a
 verification
@@ -295,7 +294,6 @@ could
 not
 be
 performed
-*
 e
 .
 g

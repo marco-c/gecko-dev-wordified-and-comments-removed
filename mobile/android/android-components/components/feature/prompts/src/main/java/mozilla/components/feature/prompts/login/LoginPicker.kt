@@ -219,9 +219,9 @@ for
 a
 site
 after
-*
 receiving
 a
+*
 [
 PromptRequest
 .
@@ -238,13 +238,13 @@ field
 and
 we
 have
-*
 matching
 logins
 .
 It
 allows
 the
+*
 user
 to
 select
@@ -258,7 +258,6 @@ would
 like
 to
 fill
-*
 or
 select
 an
@@ -318,7 +317,6 @@ logins
 "
 from
 the
-*
 select
 login
 prompt

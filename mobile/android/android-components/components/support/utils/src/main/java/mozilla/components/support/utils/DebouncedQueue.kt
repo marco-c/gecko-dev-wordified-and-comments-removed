@@ -114,10 +114,10 @@ the
 most
 recent
 function
-*
 submitted
 within
 a
+*
 set
 interval
 is
@@ -211,9 +211,9 @@ during
 the
 delay
 period
-*
 the
 previous
+*
 function
 is
 cancelled

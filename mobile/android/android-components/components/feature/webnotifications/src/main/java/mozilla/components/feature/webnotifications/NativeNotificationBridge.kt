@@ -224,7 +224,6 @@ onclick
 /
 *
 *
-*
 Create
 a
 system
@@ -506,7 +505,6 @@ build
 )
 }
 /
-*
 *
 *
 Load

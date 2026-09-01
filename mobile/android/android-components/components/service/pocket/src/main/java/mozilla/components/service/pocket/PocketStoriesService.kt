@@ -295,7 +295,6 @@ the
 list
 of
 content
-*
 recommendations
 .
 *
@@ -319,10 +318,10 @@ paired
 in
 a
 similar
-*
 way
 with
 the
+*
 [
 stopPeriodicContentRecommendationsRefresh
 ]
@@ -343,10 +342,10 @@ recommendations
 in
 the
 background
-*
 and
 making
 them
+*
 available
 when
 the
@@ -380,7 +379,6 @@ context
 )
 }
 /
-*
 *
 *
 Stops
@@ -418,7 +416,6 @@ reset
 )
 }
 /
-*
 *
 *
 Returns
@@ -492,7 +489,6 @@ s
 with
 updated
 impressions
-*
 to
 persist
 in
@@ -537,7 +533,6 @@ the
 list
 of
 sponsored
-*
 contents
 .
 *
@@ -561,10 +556,10 @@ paired
 in
 a
 similar
-*
 way
 with
 the
+*
 [
 stopPeriodicSponsoredContentsRefresh
 ]
@@ -585,11 +580,11 @@ contents
 in
 the
 background
-*
 and
 making
 them
 available
+*
 when
 the
 [
@@ -622,7 +617,6 @@ context
 )
 }
 /
-*
 *
 *
 Stops
@@ -660,7 +654,6 @@ reset
 )
 }
 /
-*
 *
 *
 Returns
@@ -714,7 +707,6 @@ list
 of
 sponsored
 content
-*
 URLs
 .
 *
@@ -767,7 +759,6 @@ for
 sponsored
 content
 .
-*
 This
 returns
 immediately
@@ -777,6 +768,7 @@ handle
 the
 profile
 deletion
+*
 in
 background
 .

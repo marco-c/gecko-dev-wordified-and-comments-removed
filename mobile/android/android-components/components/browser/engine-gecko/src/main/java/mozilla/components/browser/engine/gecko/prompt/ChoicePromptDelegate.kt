@@ -155,7 +155,6 @@ used
 to
 update
 a
-*
 prompt
 request
 when
@@ -176,7 +175,6 @@ notify
 the
 engine
 observer
-*
 with
 the
 onPromptUpdate
@@ -297,6 +295,7 @@ updated
 [
 PromptRequest
 ]
+*
 *
 param
 updatedPrompt

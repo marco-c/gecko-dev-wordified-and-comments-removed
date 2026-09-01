@@ -158,11 +158,11 @@ PromptRequest
 .
 SelectLoginPrompt
 ]
-*
 when
 a
 user
 clicks
+*
 into
 a
 login
@@ -181,13 +181,13 @@ The
 user
 can
 receive
-*
 a
 suggestion
 for
 a
 strong
 password
+*
 that
 can
 be

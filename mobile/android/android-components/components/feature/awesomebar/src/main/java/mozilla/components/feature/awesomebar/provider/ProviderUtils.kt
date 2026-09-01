@@ -196,12 +196,12 @@ timezone
 so
 the
 returned
-*
 local
 date
 /
 time
 matches
+*
 the
 airport
 '
@@ -218,7 +218,6 @@ re
 projected
 onto
 the
-*
 device
 '
 s

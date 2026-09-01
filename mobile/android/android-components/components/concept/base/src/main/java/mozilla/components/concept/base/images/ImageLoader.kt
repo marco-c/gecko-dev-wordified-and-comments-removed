@@ -89,7 +89,6 @@ MainThread
 /
 *
 *
-*
 A
 loader
 that
@@ -130,7 +129,6 @@ the
 ImageView
 ]
 .
-*
 If
 the
 view
@@ -139,6 +137,7 @@ detached
 from
 the
 window
+*
 before
 loading
 is

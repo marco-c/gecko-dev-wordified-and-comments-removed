@@ -95,11 +95,11 @@ against
 a
 total
 width
-*
 returned
 in
 float
 value
+*
 (
 0f
 -

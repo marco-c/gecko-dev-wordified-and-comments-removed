@@ -133,7 +133,6 @@ Json
 ignoreUnknownKeys
 =
 true
-;
 encodeDefaults
 =
 true

@@ -575,11 +575,11 @@ text
 ]
 label
 then
-*
 animates
 away
 automatically
 :
+*
 after
 [
 ANIMATION_DELAY_MILLIS
@@ -591,7 +591,6 @@ pill
 fade
 out
 while
-*
 the
 pill
 shrinks
@@ -602,6 +601,7 @@ causing
 the
 parent
 to
+*
 reflow
 its
 children
@@ -1317,7 +1317,6 @@ a
 circle
 used
 to
-*
 occlude
 the
 base

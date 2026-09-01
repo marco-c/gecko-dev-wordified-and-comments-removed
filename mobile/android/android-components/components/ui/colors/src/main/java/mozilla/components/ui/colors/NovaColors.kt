@@ -77,7 +77,6 @@ Color
 /
 *
 *
-*
 Colors
 from
 the

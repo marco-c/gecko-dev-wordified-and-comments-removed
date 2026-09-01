@@ -155,7 +155,6 @@ isKeyboardVisible
 /
 *
 *
-*
 Detects
 if
 the
@@ -308,7 +307,6 @@ return
 keyboardState
 }
 /
-*
 *
 *
 Represents

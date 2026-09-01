@@ -191,7 +191,6 @@ TEXT_ALIGNMENT_INHERIT
 /
 *
 *
-*
 Enum
 for
 [
@@ -224,7 +223,6 @@ annotation
 class
 TypefaceStyle
 /
-*
 *
 *
 Enum

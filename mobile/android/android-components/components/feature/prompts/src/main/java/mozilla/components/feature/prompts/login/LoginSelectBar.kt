@@ -133,6 +133,18 @@ mozilla
 .
 components
 .
+compose
+.
+base
+.
+theme
+.
+AcornTheme
+import
+mozilla
+.
+components
+.
 concept
 .
 storage
@@ -187,7 +199,6 @@ concept
 .
 ToggleablePrompt
 /
-*
 *
 *
 A
@@ -314,6 +325,8 @@ Content
 (
 )
 {
+AcornTheme
+{
 LoginPicker
 (
 logins
@@ -378,6 +391,7 @@ loginPickerColors
 =
 loginPickerColors
 )
+}
 }
 override
 fun

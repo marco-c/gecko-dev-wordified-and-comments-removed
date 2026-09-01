@@ -67,7 +67,6 @@ domains
 /
 *
 *
-*
 Class
 intended
 for

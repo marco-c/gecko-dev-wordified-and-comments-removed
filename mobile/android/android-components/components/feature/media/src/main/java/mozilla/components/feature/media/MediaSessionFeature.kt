@@ -260,9 +260,9 @@ controls
 showing
 a
 notification
-*
 reflecting
 the
+*
 media
 states
 .
@@ -454,7 +454,6 @@ null
 /
 *
 *
-*
 Starts
 the
 feature
@@ -518,7 +517,6 @@ state
 }
 }
 /
-*
 *
 *
 Stops

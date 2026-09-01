@@ -161,6 +161,12 @@ NotificationManagerCompat
 .
 IMPORTANCE_LOW
 import
+java
+.
+util
+.
+Locale
+import
 kotlinx
 .
 coroutines
@@ -342,12 +348,6 @@ utils
 ext
 .
 stopForegroundCompat
-import
-java
-.
-util
-.
-Locale
 /
 *
 *
@@ -383,7 +383,6 @@ outside
 of
 the
 app
-*
 (
 example
 :
@@ -408,7 +407,6 @@ allowing
 the
 browser
 to
-*
 keep
 private
 tabs
@@ -501,7 +499,6 @@ NotificationsDelegate
 /
 *
 *
-*
 Customizes
 the
 private
@@ -520,7 +517,6 @@ buildNotification
 (
 )
 /
-*
 *
 *
 Customize
@@ -544,7 +540,6 @@ notifyLocaleChanged
 (
 )
 /
-*
 *
 *
 Erases
@@ -582,7 +577,6 @@ RemoveAllPrivateTabsAction
 /
 *
 *
-*
 Retrieves
 the
 notification
@@ -612,7 +606,6 @@ NOTIFICATION_TAG
 )
 }
 /
-*
 *
 *
 Retrieves
@@ -659,7 +652,6 @@ false
 )
 }
 /
-*
 *
 *
 Re
@@ -731,7 +723,6 @@ private
 browsing
 notification
 and
-*
 add
 a
 listener
@@ -1323,7 +1314,6 @@ that
 will
 get
 ignored
-*
 when
 they
 are
@@ -1335,11 +1325,11 @@ that
 gets
 passed
 to
+*
 onTaskRemoved
 (
 )
 .
-*
 *
 /
 abstract
@@ -1370,7 +1360,6 @@ that
 will
 get
 ignored
-*
 when
 they
 are
@@ -1378,6 +1367,7 @@ in
 the
 root
 intent
+*
 that
 gets
 passed
@@ -1386,7 +1376,6 @@ onTaskRemoved
 (
 )
 .
-*
 *
 /
 abstract

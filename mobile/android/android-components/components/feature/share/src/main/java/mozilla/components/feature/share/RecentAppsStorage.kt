@@ -115,7 +115,6 @@ RecentAppsDatabase
 /
 *
 *
-*
 Class
 used
 for
@@ -181,11 +180,11 @@ a
 decay
 to
 all
-*
 other
 apps
 in
 the
+*
 database
 .
 This
@@ -200,7 +199,6 @@ and
 appear
 in
 the
-*
 most
 recent
 section
@@ -209,6 +207,7 @@ faster
 We
 do
 not
+*
 need
 to
 handle
@@ -220,7 +219,6 @@ s
 not
 reasonably
 expected
-*
 to
 reach
 Double
@@ -259,6 +257,7 @@ the
 recent
 apps
 list
+*
 *
 param
 activityName
@@ -303,6 +302,7 @@ the
 most
 recent
 apps
+*
 *
 param
 limit
@@ -358,12 +358,12 @@ database
 we
 add
 them
-*
 with
 a
 0
 count
 so
+*
 they
 can
 be

@@ -133,13 +133,13 @@ Remote
 Settings
 records
 .
-*
 Converts
 raw
 records
 into
 structured
 model
+*
 objects
 .
 *

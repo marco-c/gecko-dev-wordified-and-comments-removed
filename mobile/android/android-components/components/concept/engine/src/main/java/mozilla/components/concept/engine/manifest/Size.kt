@@ -88,7 +88,6 @@ for
 an
 image
 .
-*
 Corresponds
 to
 values
@@ -136,7 +135,6 @@ Int
 /
 *
 *
-*
 Gets
 the
 longest
@@ -160,7 +158,6 @@ width
 height
 )
 /
-*
 *
 *
 Gets
@@ -215,7 +212,6 @@ object
 /
 *
 *
-*
 Represents
 the
 "
@@ -240,7 +236,6 @@ MAX_VALUE
 /
 *
 *
-*
 Parses
 a
 value
@@ -255,7 +250,6 @@ attribute
 etc
 )
 .
-*
 Returns
 null
 if

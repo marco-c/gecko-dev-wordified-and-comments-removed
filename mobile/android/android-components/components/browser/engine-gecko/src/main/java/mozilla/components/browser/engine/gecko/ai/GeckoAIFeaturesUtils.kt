@@ -153,7 +153,6 @@ ExperimentalGeckoViewApi
 /
 *
 *
-*
 Utility
 object
 for
@@ -194,10 +193,10 @@ AIFeaturesException
 ]
 to
 the
-*
 Android
 Components
 defined
+*
 error
 type
 of
@@ -218,8 +217,8 @@ occurred
 Ordinarily
 should
 be
-*
 an
+*
 [
 AIFeaturesController
 .

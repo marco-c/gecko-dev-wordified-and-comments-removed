@@ -76,11 +76,11 @@ to
 change
 or
 else
-*
 inherently
 more
 dangerous
 or
+*
 unstable
 .
 *
@@ -92,7 +92,6 @@ This
 annotation
 covers
 :
-*
 *
 <
 ul

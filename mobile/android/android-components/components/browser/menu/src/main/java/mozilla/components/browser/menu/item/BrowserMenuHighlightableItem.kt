@@ -240,12 +240,12 @@ state
 which
 sets
 the
-*
 background
 of
 the
 menu
 item
+*
 and
 a
 second
@@ -363,11 +363,11 @@ offscreen
 downwards
 or
 upwards
-*
 depending
 on
 the
 menu
+*
 position
 )
 .
@@ -1226,9 +1226,9 @@ it
 is
 highlighted
 .
-*
 Replaced
 by
+*
 [
 BrowserMenuHighlight
 ]

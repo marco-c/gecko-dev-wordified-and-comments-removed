@@ -105,7 +105,6 @@ KProperty
 /
 *
 *
-*
 Represents
 a
 class
@@ -767,7 +766,6 @@ boolean
 shared
 preference
 .
-*
 Optionally
 this
 will
@@ -775,6 +773,7 @@ persist
 the
 default
 value
+*
 if
 one
 is
@@ -868,7 +867,6 @@ boolean
 shared
 preference
 .
-*
 Optionally
 this
 will
@@ -876,6 +874,7 @@ persist
 the
 default
 value
+*
 if
 one
 is
@@ -1513,7 +1512,6 @@ string
 shared
 preference
 .
-*
 Optionally
 this
 will
@@ -1521,6 +1519,7 @@ persist
 the
 default
 value
+*
 if
 one
 is
@@ -1616,7 +1615,6 @@ string
 shared
 preference
 .
-*
 Optionally
 this
 will
@@ -1624,6 +1622,7 @@ persist
 the
 default
 value
+*
 if
 one
 is

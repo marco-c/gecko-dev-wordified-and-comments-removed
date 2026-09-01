@@ -103,7 +103,6 @@ integration
 :
 *
 *
-*
 class
 MyFragment
 :
@@ -212,7 +211,6 @@ by
 the
 feature
 before
-*
 it
 can
 complete
@@ -221,13 +219,13 @@ task
 .
 Once
 the
+*
 request
 is
 completed
 [
 onPermissionsResult
 ]
-*
 needs
 to
 be
@@ -253,7 +251,6 @@ request
 was
 completed
 .
-*
 The
 feature
 should
@@ -263,6 +260,7 @@ this
 and
 complete
 its
+*
 task
 .
 *

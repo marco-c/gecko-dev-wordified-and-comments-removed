@@ -79,6 +79,12 @@ annotation
 .
 VisibleForTesting
 import
+java
+.
+lang
+.
+RuntimeException
+import
 mozilla
 .
 components
@@ -92,12 +98,6 @@ log
 logger
 .
 Logger
-import
-java
-.
-lang
-.
-RuntimeException
 private
 val
 logger
@@ -109,7 +109,6 @@ Clock
 "
 )
 /
-*
 *
 *
 A
@@ -129,7 +128,6 @@ Allows
 mocking
 the
 underlying
-*
 behavior
 in
 tests
@@ -149,7 +147,6 @@ createDefaultDelegate
 (
 )
 /
-*
 *
 *
 Returns
@@ -179,7 +176,6 @@ elapsedRealtime
 /
 *
 *
-*
 Interface
 for
 actual
@@ -199,7 +195,6 @@ interface
 Delegate
 {
 /
-*
 *
 *
 Returns

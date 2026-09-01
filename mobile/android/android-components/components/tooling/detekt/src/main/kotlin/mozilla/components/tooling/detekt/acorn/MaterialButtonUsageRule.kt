@@ -225,10 +225,10 @@ instead
 recommends
 using
 the
-*
 appropriate
 button
 from
+*
 mozilla
 .
 components
@@ -242,7 +242,6 @@ which
 aligns
 with
 the
-*
 Acorn
 Design
 System
@@ -266,12 +265,12 @@ available
 buttons
 in
 the
-*
 Acorn
 Design
 System
 should
 suppress
+*
 the
 rule
 .
@@ -353,7 +352,6 @@ Debt
 FIVE_MINS
 )
 /
-*
 *
 *
 Report
@@ -438,7 +436,6 @@ material3
 Button
 is
 referenced
-*
 outside
 the
 imports

@@ -147,7 +147,7 @@ androidx
 .
 compose
 .
-material
+material3
 .
 MaterialTheme
 import
@@ -155,7 +155,7 @@ androidx
 .
 compose
 .
-material
+material3
 .
 Text
 import
@@ -326,7 +326,6 @@ before
 the
 item
 .
-*
 *
 /
 Composable
@@ -516,7 +515,7 @@ background
 (
 MaterialTheme
 .
-colors
+colorScheme
 .
 background
 )

@@ -306,11 +306,11 @@ apps
 .
 The
 user
-*
 is
 asked
 to
 confirm
+*
 her
 intention
 before
@@ -323,12 +323,12 @@ include
 the
 Android
 Intents
-*
 custom
 schemes
 and
 support
 for
+*
 [
 Intent
 .
@@ -360,10 +360,10 @@ the
 user
 is
 prompted
-*
 to
 search
 the
+*
 installed
 market
 place
@@ -387,7 +387,6 @@ redirected
 to
 the
 external
-*
 application
 .
 *
@@ -442,10 +441,10 @@ to
 be
 landed
 without
-*
 adjoining
 UI
 .
+*
 The
 UI
 will
@@ -471,8 +470,8 @@ components
 issues
 /
 2974
-*
 and
+*
 https
 :
 /
@@ -555,9 +554,9 @@ Default
 to
 false
 because
-*
 of
 security
+*
 concerns
 .
 *
@@ -578,10 +577,10 @@ links
 that
 other
 apps
-*
 have
 registered
 to
+*
 open
 .
 *
@@ -602,10 +601,10 @@ in
 third
 -
 party
-*
 apps
 if
 available
+*
 without
 prompt
 .
@@ -1993,7 +1992,6 @@ to
 inspect
 .
 *
-*
 return
 true
 if
@@ -2118,7 +2116,6 @@ package
 name
 .
 *
-*
 return
 true
 if
@@ -2184,7 +2181,6 @@ that
 launched
 the
 current
-*
 external
 session
 .
@@ -2222,7 +2218,6 @@ s
 package
 name
 .
-*
 *
 return
 true

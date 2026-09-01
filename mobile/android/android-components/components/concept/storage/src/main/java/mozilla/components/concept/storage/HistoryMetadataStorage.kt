@@ -79,7 +79,6 @@ Parcelize
 /
 *
 *
-*
 The
 possible
 document
@@ -102,7 +101,6 @@ Media
 /
 *
 *
-*
 Represents
 the
 different
@@ -119,7 +117,6 @@ class
 HistoryMetadataObservation
 {
 /
-*
 *
 *
 A
@@ -149,7 +146,6 @@ HistoryMetadataObservation
 (
 )
 /
-*
 *
 *
 A
@@ -197,10 +193,10 @@ record
 .
 Note
 that
-*
 when
 recording
 observations
+*
 the
 same
 set
@@ -216,7 +212,6 @@ new
 record
 to
 be
-*
 created
 depending
 on
@@ -227,6 +222,7 @@ bouncing
 logic
 of
 the
+*
 underlying
 storage
 i
@@ -235,7 +231,6 @@ e
 .
 recording
 history
-*
 metadata
 observations
 with
@@ -248,6 +243,7 @@ be
 combined
 into
 a
+*
 single
 record
 .
@@ -272,7 +268,6 @@ if
 this
 record
 was
-*
 created
 as
 part
@@ -295,7 +290,6 @@ parent
 /
 referrer
 if
-*
 this
 record
 was
@@ -361,10 +355,10 @@ visit
 such
 as
 metadata
-*
 about
 the
 page
+*
 itself
 as
 well
@@ -518,12 +512,12 @@ URL
 of
 interest
 .
-*
 The
 highlights
 are
 produced
 via
+*
 [
 HistoryMetadataStorage
 .
@@ -654,17 +648,16 @@ ranking
 HistoryHighlight
 ]
 .
-*
 An
 input
 to
+*
 [
 HistoryMetadataStorage
 .
 getHistoryHighlights
 ]
 .
-*
 For
 example
 (
@@ -682,11 +675,11 @@ weights
 Equal
 weights
 represent
+*
 equal
 importance
 of
 these
-*
 factors
 during
 ranking
@@ -738,7 +731,6 @@ frequency
 Double
 )
 /
-*
 *
 *
 An
@@ -867,11 +859,11 @@ updatedAt
 ]
 DESC
 .
-*
 Empty
 if
 nothing
 is
+*
 found
 .
 *
@@ -948,11 +940,11 @@ updatedAt
 ]
 DESC
 .
-*
 Empty
 if
 nothing
 is
+*
 found
 .
 *
@@ -1044,11 +1036,11 @@ updatedAt
 ]
 DESC
 .
-*
 Empty
 if
 nothing
 is
+*
 found
 .
 *
@@ -1134,7 +1126,6 @@ score
 ]
 DESC
 .
-*
 Empty
 if
 nothing
@@ -1176,8 +1167,8 @@ record
 identified
 by
 the
-*
 provided
+*
 [
 HistoryMetadataKey
 ]
@@ -1263,7 +1254,6 @@ Long
 /
 *
 *
-*
 Deletes
 metadata
 records
@@ -1284,7 +1274,6 @@ key
 HistoryMetadataKey
 )
 /
-*
 *
 *
 Deletes
@@ -1311,7 +1300,6 @@ searchTerm
 String
 )
 /
-*
 *
 *
 Deletes

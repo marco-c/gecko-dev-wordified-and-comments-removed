@@ -253,11 +253,11 @@ and
 IPProtectionEligibilityStorage
 ]
 and
-*
 forwards
 it
 to
 the
+*
 [
 IPProtectionStore
 ]
@@ -281,9 +281,9 @@ to
 multiple
 data
 sources
-*
 in
 combination
+*
 so
 forwarding
 them
@@ -303,12 +303,10 @@ source
 of
 -
 truth
-*
 for
 the
 feature
 .
-*
 *
 /
 class
@@ -361,7 +359,6 @@ lazyAccountManager
 )
 }
 /
-*
 *
 *
 Initialize

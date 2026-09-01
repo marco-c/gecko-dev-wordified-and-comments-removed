@@ -455,6 +455,12 @@ unit
 .
 dp
 import
+kotlin
+.
+math
+.
+roundToInt
+import
 mozilla
 .
 components
@@ -594,12 +600,6 @@ awesomebar
 optimizedsuggestions
 .
 FlightSuggestionStatus
-import
-kotlin
-.
-math
-.
-roundToInt
 import
 mozilla
 .

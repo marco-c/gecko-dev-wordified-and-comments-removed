@@ -67,7 +67,6 @@ remotesettings
 /
 *
 *
-*
 Provides
 global
 access
@@ -129,10 +128,10 @@ for
 Remote
 Settings
 .
-*
 This
 method
 should
+*
 be
 called
 in
@@ -145,13 +144,13 @@ onCreate
 method
 and
 before
-*
 [
 RemoteSettingsService
 .
 remoteSettingsService
 ]
 in
+*
 order
 to
 run
@@ -162,7 +161,6 @@ the
 app
 is
 not
-*
 running
 .
 *
@@ -230,7 +228,6 @@ onRemoteCollectionsUpdated
 /
 *
 *
-*
 Provides
 the
 [
@@ -275,7 +272,6 @@ Settings
 }
 }
 /
-*
 *
 *
 Provides

@@ -87,7 +87,6 @@ events
 related
 to
 web
-*
 notifications
 e
 .
@@ -98,6 +97,7 @@ notification
 is
 to
 be
+*
 shown
 or
 is

@@ -100,7 +100,6 @@ value
 and
 last
 value
-*
 when
 [
 bind
@@ -110,6 +109,7 @@ called
 .
 Use
 this
+*
 information
 to
 diff
@@ -182,7 +182,6 @@ Previously
 set
 value
 .
-*
 If
 this
 is

@@ -481,7 +481,6 @@ lightAcornGradientScheme
 /
 *
 *
-*
 Provides
 access
 to
@@ -575,7 +574,6 @@ of
 [
 localWindowSize
 ]
-*
 [
 localLayout
 ]
@@ -583,6 +581,7 @@ localLayout
 localAcornColors
 ]
 and
+*
 [
 localAcornGradients
 ]
@@ -740,11 +739,11 @@ at
 the
 root
 of
-*
 your
 application
 .
 To
+*
 access
 the
 active

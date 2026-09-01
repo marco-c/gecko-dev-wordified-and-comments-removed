@@ -129,7 +129,6 @@ collect
 /
 *
 *
-*
 Facts
 emitted
 for
@@ -146,7 +145,6 @@ class
 ProtectionDashboardFacts
 {
 /
-*
 *
 *
 Items
@@ -198,11 +196,11 @@ tapped
 category
 ]
 is
-*
 carried
 in
 the
 fact
+*
 value
 so
 the

@@ -147,7 +147,6 @@ GeckoResult
 /
 *
 *
-*
 Default
 Nimbus
 [
@@ -402,10 +401,10 @@ a
 given
 experiment
 .
-*
 Note
 :
 See
+*
 [
 onRecordExposureEvent
 ]

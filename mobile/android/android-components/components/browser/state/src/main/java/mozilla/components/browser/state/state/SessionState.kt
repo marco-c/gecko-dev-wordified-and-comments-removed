@@ -71,18 +71,6 @@ mozilla
 .
 components
 .
-concept
-.
-engine
-.
-EngineSession
-.
-CookieBannerHandlingStatus
-import
-mozilla
-.
-components
-.
 support
 .
 utils
@@ -177,19 +165,6 @@ session
 .
 *
 property
-cookieBanner
-Indicates
-the
-state
-of
-cookie
-banner
-for
-this
-session
-.
-*
-property
 engineState
 the
 [
@@ -211,7 +186,6 @@ and
 web
 extension
 states
-*
 specific
 to
 this
@@ -247,9 +221,9 @@ context
 ID
 specifies
 the
-*
 contextual
 identity
+*
 to
 use
 for
@@ -314,7 +288,6 @@ is
 the
 original
 user
-*
 input
 before
 any
@@ -322,6 +295,7 @@ fixups
 were
 applied
 to
+*
 it
 .
 *
@@ -345,10 +319,6 @@ val
 translationsState
 :
 TranslationsState
-val
-cookieBanner
-:
-CookieBannerHandlingStatus
 val
 engineState
 :
@@ -385,7 +355,6 @@ originalInput
 String
 ?
 /
-*
 *
 *
 Copy
@@ -463,13 +432,6 @@ String
 this
 .
 contextId
-cookieBanner
-:
-CookieBannerHandlingStatus
-=
-this
-.
-cookieBanner
 )
 :
 SessionState
@@ -492,6 +454,7 @@ it
 was
 created
 .
+*
 *
 param
 id
@@ -542,12 +505,12 @@ its
 component
 properties
 .
-*
 Intended
 use
 is
 for
 restoring
+*
 persisted
 state
 .
@@ -707,7 +670,6 @@ None
 /
 *
 *
-*
 Describes
 sessions
 of
@@ -748,7 +710,6 @@ id
 /
 *
 *
-*
 Created
 to
 handle
@@ -781,7 +742,6 @@ caller
 /
 *
 *
-*
 Created
 to
 handle
@@ -809,7 +769,6 @@ External
 caller
 )
 /
-*
 *
 *
 Created
@@ -843,7 +802,6 @@ caller
 /
 *
 *
-*
 Created
 to
 handle
@@ -875,7 +833,6 @@ caller
 )
 }
 /
-*
 *
 *
 Describes
@@ -912,7 +869,6 @@ id
 /
 *
 *
-*
 User
 interacted
 with
@@ -930,7 +886,6 @@ Internal
 5
 )
 /
-*
 *
 *
 User
@@ -951,7 +906,6 @@ Internal
 /
 *
 *
-*
 User
 opened
 a
@@ -968,7 +922,6 @@ Internal
 7
 )
 /
-*
 *
 *
 Default
@@ -990,7 +943,6 @@ Internal
 /
 *
 *
-*
 Default
 value
 and
@@ -1008,7 +960,6 @@ Internal
 9
 )
 /
-*
 *
 *
 User
@@ -1029,7 +980,6 @@ Internal
 10
 )
 /
-*
 *
 *
 Created
@@ -1055,7 +1005,6 @@ Internal
 }
 }
 /
-*
 *
 *
 Describes
@@ -1122,7 +1071,6 @@ object
 /
 *
 *
-*
 Maps
 an
 int
@@ -1187,6 +1135,7 @@ external
 package
 .
 *
+*
 param
 packageId
 An
@@ -1223,7 +1172,6 @@ category
 PackageCategory
 )
 /
-*
 *
 *
 Produces

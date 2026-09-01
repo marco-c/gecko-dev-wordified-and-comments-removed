@@ -97,10 +97,10 @@ request
 If
 false
 then
-*
 the
 translation
 will
+*
 not
 complete
 and

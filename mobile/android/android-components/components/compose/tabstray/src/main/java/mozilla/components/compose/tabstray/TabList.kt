@@ -107,7 +107,7 @@ androidx
 .
 compose
 .
-material
+material3
 .
 MaterialTheme
 import
@@ -332,11 +332,6 @@ TabList
 tabs
 .
 value
-?
-:
-emptyList
-(
-)
 modifier
 selectedTabId
 .
@@ -468,7 +463,7 @@ background
 (
 MaterialTheme
 .
-colors
+colorScheme
 .
 surface
 )

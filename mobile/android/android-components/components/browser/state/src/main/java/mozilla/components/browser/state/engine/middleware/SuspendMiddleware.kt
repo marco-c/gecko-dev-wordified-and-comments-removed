@@ -215,12 +215,12 @@ EngineSessionState
 ]
 attach
 that
-*
 to
 [
 EngineState
 ]
 and
+*
 then
 clear
 the
@@ -236,7 +236,6 @@ The
 next
 time
 we
-*
 need
 an
 [
@@ -247,6 +246,7 @@ this
 tab
 we
 will
+*
 create
 a
 new
@@ -255,7 +255,6 @@ and
 restore
 the
 attached
-*
 [
 EngineSessionState
 ]

@@ -187,7 +187,6 @@ pixelSizeFor
 /
 *
 *
-*
 View
 displaying
 the
@@ -603,7 +602,6 @@ handler
 /
 *
 *
-*
 Scrolls
 the
 URL
@@ -826,7 +824,6 @@ scrollToShowRegistrableDomain
 /
 *
 *
-*
 Sets
 the
 colour
@@ -871,7 +868,6 @@ value
 )
 }
 /
-*
 *
 *
 Sets
@@ -920,7 +916,6 @@ value
 /
 *
 *
-*
 Sets
 the
 colour
@@ -960,7 +955,6 @@ value
 )
 }
 /
-*
 *
 *
 Sets
@@ -1008,7 +1002,6 @@ value
 /
 *
 *
-*
 Sets
 the
 size
@@ -1048,7 +1041,6 @@ textSize
 value
 }
 /
-*
 *
 *
 Sets
@@ -1093,7 +1085,6 @@ textSize
 value
 }
 /
-*
 *
 *
 Sets

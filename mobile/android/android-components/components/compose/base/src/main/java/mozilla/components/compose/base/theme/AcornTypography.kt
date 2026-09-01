@@ -587,11 +587,11 @@ disables
 trimming
 so
 that
-*
 extra
 padding
 above
 and
+*
 below
 text
 is

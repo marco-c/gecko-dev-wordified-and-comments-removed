@@ -267,7 +267,6 @@ components
 /
 *
 *
-*
 Activity
 that
 holds
@@ -304,7 +303,6 @@ openPopup
 )
 }
 /
-*
 *
 *
 Returns

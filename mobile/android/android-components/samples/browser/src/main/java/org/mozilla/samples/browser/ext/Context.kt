@@ -95,7 +95,6 @@ SampleApplication
 /
 *
 *
-*
 Get
 the
 SampleApplication
@@ -120,7 +119,6 @@ applicationContext
 as
 SampleApplication
 /
-*
 *
 *
 Get

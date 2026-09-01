@@ -109,7 +109,7 @@ state
 .
 state
 .
-Container
+ContainerState
 import
 mozilla
 .
@@ -177,7 +177,6 @@ toContainerEntity
 /
 *
 *
-*
 A
 storage
 implementation
@@ -239,12 +238,11 @@ containerDao
 /
 *
 *
-*
 Adds
 a
 new
 [
-Container
+ContainerState
 ]
 .
 *
@@ -292,7 +290,6 @@ icon
 /
 *
 *
-*
 Returns
 a
 [
@@ -303,7 +300,7 @@ of
 all
 the
 [
-Container
+ContainerState
 ]
 instances
 .
@@ -319,7 +316,7 @@ Flow
 <
 List
 <
-Container
+ContainerState
 >
 >
 {
@@ -353,12 +350,11 @@ toContainer
 /
 *
 *
-*
 Returns
 all
 saved
 [
-Container
+ContainerState
 ]
 instances
 as
@@ -381,7 +377,7 @@ DataSource
 Factory
 <
 Int
-Container
+ContainerState
 >
 =
 containerDao
@@ -404,12 +400,11 @@ toContainer
 /
 *
 *
-*
 Removes
 the
 given
 [
-Container
+ContainerState
 ]
 .
 *
@@ -421,7 +416,7 @@ removeContainer
 (
 container
 :
-Container
+ContainerState
 )
 {
 containerDao

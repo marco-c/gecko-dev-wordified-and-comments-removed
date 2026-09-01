@@ -82,7 +82,6 @@ onEnterAnimationComplete
 to
 other
 classes
-*
 (
 e
 .
@@ -93,6 +92,7 @@ fragments
 that
 want
 to
+*
 participate
 in
 handling
@@ -104,7 +104,6 @@ interface
 OnEnterAnimationCompleteListener
 {
 /
-*
 *
 *
 Called

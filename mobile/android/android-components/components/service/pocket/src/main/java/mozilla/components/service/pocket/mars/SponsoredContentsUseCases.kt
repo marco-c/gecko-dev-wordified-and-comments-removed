@@ -187,11 +187,11 @@ context
 to
 limit
 the
-*
 possibility
 of
 even
 small
+*
 leaks
 .
 *
@@ -243,7 +243,6 @@ MarsSpocsRequestConfig
 /
 *
 *
-*
 Fetches
 the
 latest
@@ -276,7 +275,6 @@ config
 /
 *
 *
-*
 Get
 the
 list
@@ -298,7 +296,6 @@ appContext
 )
 }
 /
-*
 *
 *
 Records
@@ -327,7 +324,6 @@ appContext
 )
 }
 /
-*
 *
 *
 Deletes
@@ -385,11 +381,11 @@ context
 to
 limit
 the
-*
 possibility
 of
 even
 small
+*
 leaks
 .
 *
@@ -482,7 +478,6 @@ stores
 the
 items
 in
-*
 storage
 .
 *
@@ -580,11 +575,11 @@ context
 to
 limit
 the
-*
 possibility
 of
 even
 small
+*
 leaks
 .
 *
@@ -610,7 +605,6 @@ appContext
 )
 {
 /
-*
 *
 *
 Returns
@@ -677,11 +671,11 @@ context
 to
 limit
 the
-*
 possibility
 of
 even
 small
+*
 leaks
 .
 *
@@ -722,7 +716,6 @@ list
 of
 sponsored
 content
-*
 URLs
 .
 *
@@ -806,11 +799,11 @@ context
 to
 limit
 the
-*
 possibility
 of
 even
 small
+*
 leaks
 .
 *

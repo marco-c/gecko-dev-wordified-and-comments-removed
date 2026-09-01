@@ -91,6 +91,12 @@ annotation
 .
 VisibleForTesting
 import
+java
+.
+io
+.
+File
+import
 mozilla
 .
 components
@@ -232,12 +238,6 @@ org
 json
 .
 JSONException
-import
-java
-.
-io
-.
-File
 private
 const
 val
@@ -313,7 +313,6 @@ RESOURCES_DIR_NAME
 resources
 "
 /
-*
 *
 *
 Caching

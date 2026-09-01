@@ -165,7 +165,6 @@ MIN_TEXT_SIZE
 /
 *
 *
-*
 A
 customizable
 ReaderView
@@ -369,9 +368,9 @@ contents
 and
 not
 just
-*
 the
 text
+*
 size
 .
 *
@@ -557,7 +556,6 @@ selected
 /
 *
 *
-*
 Updates
 visibility
 to
@@ -592,7 +590,6 @@ requestFocus
 )
 }
 /
-*
 *
 *
 Updates

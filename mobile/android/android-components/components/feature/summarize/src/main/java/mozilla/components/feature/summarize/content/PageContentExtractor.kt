@@ -69,7 +69,6 @@ content
 /
 *
 *
-*
 An
 interface
 to
@@ -89,7 +88,6 @@ interface
 PageContentExtractor
 {
 /
-*
 *
 *
 Retrieve
@@ -113,7 +111,6 @@ Result
 String
 >
 /
-*
 *
 *
 Options

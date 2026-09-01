@@ -123,7 +123,6 @@ to
 the
 end
 of
-*
 and
 below
 the
@@ -133,6 +132,7 @@ Use
 null
 if
 you
+*
 do
 not
 want
@@ -140,7 +140,6 @@ a
 Drawable
 there
 .
-*
 The
 Drawables
 must
@@ -166,7 +165,6 @@ Drawables
 previously
 set
 using
-*
 [
 TextView
 .
@@ -174,6 +172,7 @@ setCompoundDrawables
 ]
 or
 related
+*
 methods
 .
 *
@@ -221,7 +220,6 @@ bottom
 *
 *
 *
-*
 Sets
 the
 [
@@ -243,7 +241,6 @@ to
 the
 end
 of
-*
 and
 below
 the
@@ -253,6 +250,7 @@ Use
 null
 if
 you
+*
 do
 not
 want
@@ -260,7 +258,6 @@ a
 Drawable
 there
 .
-*
 The
 Drawables
 '
@@ -285,7 +282,6 @@ Drawables
 previously
 set
 using
-*
 [
 TextView
 .
@@ -293,6 +289,7 @@ setCompoundDrawables
 ]
 or
 related
+*
 methods
 .
 *

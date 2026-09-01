@@ -455,7 +455,6 @@ CATEGORY_LABEL_WIDTH
 /
 *
 *
-*
 Displays
 a
 catalog

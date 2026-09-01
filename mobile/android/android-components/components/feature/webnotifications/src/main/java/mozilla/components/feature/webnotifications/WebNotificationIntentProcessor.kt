@@ -113,7 +113,6 @@ getParcelableCompat
 /
 *
 *
-*
 Intent
 processor
 that
@@ -161,11 +160,11 @@ a
 web
 notification
 .
-*
 If
 such
 information
 is
+*
 available
 this
 will

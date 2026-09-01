@@ -69,7 +69,6 @@ translate
 /
 *
 *
-*
 The
 level
 or
@@ -92,7 +91,6 @@ String
 )
 {
 /
-*
 *
 *
 Complete
@@ -122,7 +120,6 @@ on
 cache
 elements
 .
-*
 (
 Elements
 that
@@ -135,6 +132,7 @@ downloaded
 language
 package
 or
+*
 [
 LanguageModel
 ]
@@ -149,7 +147,6 @@ cache
 "
 )
 /
-*
 *
 *
 Complete
@@ -168,7 +165,6 @@ all
 )
 ;
 /
-*
 *
 *
 The

@@ -123,7 +123,6 @@ Exception
 /
 *
 *
-*
 Dao
 for
 saving
@@ -141,7 +140,6 @@ interface
 CrashDao
 {
 /
-*
 *
 *
 Inserts
@@ -166,7 +164,6 @@ Long
 /
 *
 *
-*
 Inserts
 a
 report
@@ -187,7 +184,6 @@ ReportEntity
 :
 Long
 /
-*
 *
 *
 Returns
@@ -226,7 +222,6 @@ CrashWithReports
 >
 >
 /
-*
 *
 *
 Returns
@@ -294,7 +289,6 @@ List
 CrashEntity
 >
 /
-*
 *
 *
 Returns
@@ -366,7 +360,6 @@ CrashEntity
 /
 *
 *
-*
 Returns
 saved
 crashes
@@ -433,7 +426,6 @@ Int
 /
 *
 *
-*
 Delete
 table
 .
@@ -487,12 +479,12 @@ database
 .
 In
 the
-*
 case
 of
 an
 error
 we
+*
 will
 just
 ignore
@@ -612,12 +604,12 @@ database
 .
 In
 the
-*
 case
 of
 an
 error
 we
+*
 will
 just
 ignore

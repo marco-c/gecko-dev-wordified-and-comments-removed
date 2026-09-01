@@ -105,7 +105,6 @@ HighlightableMenuItem
 /
 *
 *
-*
 Get
 the
 highlight
@@ -222,7 +221,6 @@ ClassicHighlight
 }
 }
 /
-*
 *
 *
 Converts

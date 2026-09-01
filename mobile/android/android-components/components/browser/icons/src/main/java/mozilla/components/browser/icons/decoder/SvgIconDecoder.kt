@@ -188,6 +188,7 @@ is
 largely
 borrowed
 from
+*
 [
 coil
 -
@@ -234,9 +235,9 @@ SvgDecoder
 .
 kt
 )
-*
 with
 some
+*
 fixed
 options
 .

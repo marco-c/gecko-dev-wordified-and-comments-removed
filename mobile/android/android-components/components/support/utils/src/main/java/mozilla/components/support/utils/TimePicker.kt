@@ -67,7 +67,6 @@ utils
 /
 *
 *
-*
 Contains
 methods
 used
@@ -111,7 +110,6 @@ display
 the
 milliseconds
 picker
-*
 based
 on
 the
@@ -164,7 +162,6 @@ display
 the
 seconds
 picker
-*
 based
 on
 the

@@ -117,7 +117,6 @@ StickyItemsAdapter
 /
 *
 *
-*
 Adapter
 implementation
 used

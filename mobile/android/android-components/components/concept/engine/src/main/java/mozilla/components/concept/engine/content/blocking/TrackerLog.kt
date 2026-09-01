@@ -93,6 +93,7 @@ content
 tracker
 .
 *
+*
 property
 url
 The
@@ -139,12 +140,12 @@ the
 [
 blockedCategories
 ]
-*
 has
 been
 partially
 unblocked
 by
+*
 the
 SmartBlock
 feature

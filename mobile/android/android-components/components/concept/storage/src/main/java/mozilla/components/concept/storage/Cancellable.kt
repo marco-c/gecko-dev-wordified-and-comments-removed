@@ -67,7 +67,6 @@ storage
 /
 *
 *
-*
 Storage
 that
 allows
@@ -85,7 +84,6 @@ interface
 Cancellable
 {
 /
-*
 *
 *
 Cleans
@@ -113,7 +111,6 @@ op
 /
 *
 *
-*
 Cleans
 up
 all
@@ -135,7 +132,6 @@ no
 op
 }
 /
-*
 *
 *
 Cleans
@@ -174,7 +170,6 @@ a
 new
 query
 .
-*
 This
 is
 useful
@@ -184,12 +179,12 @@ same
 storage
 is
 shared
+*
 between
 multiple
 functionalities
 and
 will
-*
 allow
 preventing
 overlapped

@@ -217,7 +217,6 @@ SnackbarScreen
 /
 *
 *
-*
 Activity
 demonstrating
 the

@@ -101,10 +101,10 @@ without
 exposing
 the
 android
-*
 framework
 APIs
 directly
+*
 making
 it
 easier
@@ -123,7 +123,6 @@ interface
 PowerManagerInfoProvider
 {
 /
-*
 *
 *
 Returns
@@ -149,7 +148,6 @@ isIgnoringBatteryOptimizations
 Boolean
 }
 /
-*
 *
 *
 see

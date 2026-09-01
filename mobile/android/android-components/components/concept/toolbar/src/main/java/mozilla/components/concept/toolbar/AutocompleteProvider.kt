@@ -76,7 +76,6 @@ for
 the
 toolbar
 .
-*
 More
 such
 objects
@@ -88,6 +87,7 @@ the
 same
 toolbar
 with
+*
 each
 getting
 results
@@ -96,7 +96,6 @@ a
 different
 source
 .
-*
 If
 more
 providers
@@ -108,12 +107,12 @@ autocompletePriority
 ]
 property
 allows
+*
 to
 easily
 set
 an
 order
-*
 for
 the
 results
@@ -167,7 +166,6 @@ to
 be
 autocompleted
 .
-*
 *
 return
 Optional

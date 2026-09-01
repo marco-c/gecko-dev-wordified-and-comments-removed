@@ -67,7 +67,6 @@ sync
 /
 *
 *
-*
 Allows
 monitoring
 events
@@ -116,7 +115,6 @@ DeviceCommandIncoming
 /
 *
 *
-*
 Privacy
 mode
 for
@@ -154,7 +152,6 @@ tab
 Normal
 }
 /
-*
 *
 *
 Incoming
@@ -329,7 +326,6 @@ AccountEvent
 /
 *
 *
-*
 Incoming
 device
 commands
@@ -429,7 +425,6 @@ DeviceCommandIncoming
 /
 *
 *
-*
 Outgoing
 device
 commands
@@ -522,7 +517,6 @@ Type
 RemoteTabs
 }
 /
-*
 *
 *
 Information

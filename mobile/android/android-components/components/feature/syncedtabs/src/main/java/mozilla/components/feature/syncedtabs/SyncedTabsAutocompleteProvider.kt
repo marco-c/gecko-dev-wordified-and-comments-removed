@@ -184,10 +184,10 @@ queried
 for
 autocomplete
 suggestions
-*
 in
 relation
 ot
+*
 others
 .
 *

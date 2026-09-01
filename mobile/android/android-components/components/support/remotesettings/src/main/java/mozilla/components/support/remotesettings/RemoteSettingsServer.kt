@@ -67,7 +67,6 @@ remotesettings
 /
 *
 *
-*
 Enum
 class
 representing
@@ -90,7 +89,6 @@ RemoteSettingsServer
 /
 *
 *
-*
 Object
 representing
 Production
@@ -106,7 +104,6 @@ RemoteSettingsServer
 /
 *
 *
-*
 Object
 representing
 Stage
@@ -120,7 +117,6 @@ RemoteSettingsServer
 (
 )
 /
-*
 *
 *
 Object
@@ -139,7 +135,6 @@ RemoteSettingsServer
 (
 )
 /
-*
 *
 *
 Object
@@ -163,7 +158,6 @@ RemoteSettingsServer
 )
 }
 /
-*
 *
 *
 Convert

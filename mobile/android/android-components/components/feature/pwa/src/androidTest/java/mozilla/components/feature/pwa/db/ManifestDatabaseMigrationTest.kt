@@ -93,6 +93,12 @@ app
 .
 InstrumentationRegistry
 import
+java
+.
+io
+.
+IOException
+import
 org
 .
 junit
@@ -128,12 +134,6 @@ org
 junit
 .
 Test
-import
-java
-.
-io
-.
-IOException
 class
 ManifestDatabaseMigrationTest
 {

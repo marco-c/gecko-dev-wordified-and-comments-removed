@@ -157,7 +157,6 @@ ContentRecommendationsDatabase
 /
 *
 *
-*
 A
 storage
 wrapper
@@ -249,7 +248,6 @@ in
 the
 content
 recommendation
-*
 storage
 .
 *
@@ -299,13 +297,13 @@ the
 provided
 list
 of
-*
 [
 ContentRecommendation
 ]
 s
 that
 are
+*
 persisted
 in
 storage
@@ -369,11 +367,11 @@ to
 storage
 updating
 and
-*
 replacing
 the
 content
 recommendations
+*
 in
 storage
 .

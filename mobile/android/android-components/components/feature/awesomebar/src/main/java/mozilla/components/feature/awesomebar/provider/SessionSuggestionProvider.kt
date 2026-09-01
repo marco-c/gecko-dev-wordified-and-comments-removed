@@ -95,6 +95,12 @@ net
 .
 toUri
 import
+java
+.
+util
+.
+UUID
+import
 mozilla
 .
 components
@@ -182,12 +188,6 @@ feature
 tabs
 .
 TabsUseCases
-import
-java
-.
-util
-.
-UUID
 /
 *
 *

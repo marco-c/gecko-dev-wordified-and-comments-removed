@@ -707,7 +707,6 @@ removeAllTabs
 /
 *
 *
-*
 Interface
 for
 a
@@ -727,7 +726,6 @@ interface
 Storage
 {
 /
-*
 *
 *
 Returns
@@ -764,7 +762,6 @@ TabState
 /
 *
 *
-*
 Removes
 the
 given
@@ -784,7 +781,6 @@ recentlyClosedTab
 TabState
 )
 /
-*
 *
 *
 Removes
@@ -825,9 +821,9 @@ storage
 to
 keep
 only
-*
 the
 newest
+*
 [
 maxTabs
 ]

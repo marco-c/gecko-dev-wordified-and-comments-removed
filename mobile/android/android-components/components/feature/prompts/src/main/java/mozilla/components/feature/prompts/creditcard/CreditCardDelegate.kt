@@ -91,7 +91,6 @@ AutocompletePrompt
 /
 *
 *
-*
 Delegate
 for
 credit
@@ -121,7 +120,6 @@ CreditCardPicker
 to
 display
 a
-*
 a
 prompt
 with
@@ -131,6 +129,7 @@ of
 credit
 cards
 available
+*
 for
 autocomplete
 .
@@ -152,7 +151,6 @@ null
 /
 *
 *
-*
 Callback
 invoked
 when
@@ -164,7 +162,6 @@ Manage
 credit
 cards
 "
-*
 from
 the
 select
@@ -191,7 +188,6 @@ get
 /
 *
 *
-*
 Callback
 invoked
 when
@@ -202,7 +198,6 @@ a
 credit
 card
 option
-*
 from
 the
 select

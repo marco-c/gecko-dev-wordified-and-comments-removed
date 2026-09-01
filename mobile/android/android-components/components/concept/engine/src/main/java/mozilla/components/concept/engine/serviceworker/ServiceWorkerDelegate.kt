@@ -79,7 +79,6 @@ EngineSession
 /
 *
 *
-*
 Application
 delegate
 for
@@ -112,7 +111,6 @@ provided
 engineSession
 ]
 .
-*
 Implementations
 should
 not
@@ -120,6 +118,7 @@ try
 to
 load
 any
+*
 url
 this
 will
@@ -129,7 +128,6 @@ by
 the
 service
 worker
-*
 through
 the
 [
@@ -157,7 +155,6 @@ a
 specific
 url
 .
-*
 *
 return
 *

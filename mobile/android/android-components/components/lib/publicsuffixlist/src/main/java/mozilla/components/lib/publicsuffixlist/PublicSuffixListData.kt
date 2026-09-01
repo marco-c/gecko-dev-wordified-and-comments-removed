@@ -65,6 +65,12 @@ lib
 .
 publicsuffixlist
 import
+java
+.
+net
+.
+IDN
+import
 mozilla
 .
 components
@@ -76,14 +82,7 @@ publicsuffixlist
 ext
 .
 binarySearch
-import
-java
-.
-net
-.
-IDN
 /
-*
 *
 *
 Class
@@ -644,7 +643,6 @@ wildcardRuleLabels
 /
 *
 *
-*
 Returns
 an
 exact
@@ -752,7 +750,6 @@ return
 null
 }
 /
-*
 *
 *
 Returns

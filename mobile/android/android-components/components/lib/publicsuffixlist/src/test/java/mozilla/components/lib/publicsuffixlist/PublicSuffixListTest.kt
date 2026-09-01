@@ -872,7 +872,6 @@ await
 /
 *
 *
-*
 Short
 set
 of
@@ -880,7 +879,6 @@ test
 data
 from
 :
-*
 https
 :
 /
@@ -1014,6 +1012,8 @@ assertEquals
 (
 "
 "
+/
+/
 publicSuffixList
 .
 getPublicSuffixPlusOne

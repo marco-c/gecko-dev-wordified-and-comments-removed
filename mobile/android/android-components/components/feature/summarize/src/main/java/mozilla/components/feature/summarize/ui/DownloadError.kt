@@ -281,7 +281,7 @@ feature
 .
 summarize
 .
-R
+DownloadErrorAction
 import
 mozilla
 .
@@ -291,9 +291,7 @@ feature
 .
 summarize
 .
-SummarizationAction
-.
-DownloadErrorAction
+R
 Composable
 internal
 fun

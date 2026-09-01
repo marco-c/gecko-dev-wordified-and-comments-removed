@@ -143,7 +143,6 @@ Merino
 suggest
 endpoint
 .
-*
 This
 interface
 allows
@@ -151,6 +150,7 @@ for
 swapping
 out
 the
+*
 underlying
 implementation
 for
@@ -238,12 +238,12 @@ Services
 [
 SuggestClient
 ]
-*
 to
 fetch
 suggestions
 .
 This
+*
 client
 configures
 the
@@ -252,7 +252,6 @@ channel
 and
 handles
 potential
-*
 [
 MerinoSuggestApiException
 ]

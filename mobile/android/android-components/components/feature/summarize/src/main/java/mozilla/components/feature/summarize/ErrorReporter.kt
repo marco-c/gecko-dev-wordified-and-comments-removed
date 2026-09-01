@@ -67,7 +67,6 @@ summarize
 /
 *
 *
-*
 Interface
 for
 reporting
@@ -81,7 +80,6 @@ interface
 ErrorReporter
 {
 /
-*
 *
 *
 Reports

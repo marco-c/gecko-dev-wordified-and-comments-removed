@@ -75,6 +75,12 @@ annotation
 .
 VisibleForTesting
 import
+java
+.
+security
+.
+InvalidParameterException
+import
 mozilla
 .
 components
@@ -107,12 +113,6 @@ geckoview
 .
 GeckoSession
 import
-java
-.
-security
-.
-InvalidParameterException
-import
 org
 .
 mozilla
@@ -127,7 +127,6 @@ RecordingDevice
 as
 GeckoRecordingDevice
 /
-*
 *
 *
 Gecko

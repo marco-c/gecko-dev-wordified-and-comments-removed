@@ -611,11 +611,11 @@ since
 trackingSinceDate
 ]
 .
-*
 The
 footer
 is
 hidden
+*
 when
 this
 is
@@ -657,7 +657,6 @@ stats
 card
 content
 .
-*
 Allows
 pushing
 the
@@ -665,11 +664,11 @@ content
 down
 while
 leaving
+*
 room
 for
 an
 overlay
-*
 (
 e
 .
@@ -2545,7 +2544,6 @@ alpha
 )
 }
 /
-*
 *
 *
 The

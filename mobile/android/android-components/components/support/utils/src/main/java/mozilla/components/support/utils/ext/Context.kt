@@ -304,7 +304,6 @@ packageManager
 /
 *
 *
-*
 Open
 OS
 settings
@@ -419,6 +418,7 @@ service
 from
 .
 *
+*
 param
 broadcastReceiver
 The
@@ -450,7 +450,6 @@ RECEIVER_EXPORTED
 if
 the
 receiver
-*
 should
 be
 able
@@ -458,10 +457,10 @@ to
 receiver
 broadcasts
 from
+*
 other
 applications
 or
-*
 [
 ContextCompat
 .
@@ -473,10 +472,10 @@ receiver
 should
 be
 able
-*
 to
 receive
 broadcasts
+*
 only
 from
 the
@@ -487,7 +486,6 @@ within
 the
 app
 .
-*
 *
 return
 The
@@ -500,7 +498,6 @@ matches
 [
 filter
 ]
-*
 or
 null
 if
@@ -573,7 +570,6 @@ filter
 }
 }
 /
-*
 *
 *
 return

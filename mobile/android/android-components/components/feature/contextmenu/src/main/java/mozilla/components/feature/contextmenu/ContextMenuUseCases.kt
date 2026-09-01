@@ -199,7 +199,6 @@ BrowserStore
 /
 *
 *
-*
 Consumes
 the
 [
@@ -290,12 +289,12 @@ browser
 -
 session
 to
-*
 browser
 -
 state
 we
 should
+*
 revisits
 this
 and
@@ -335,7 +334,6 @@ download
 /
 *
 *
-*
 Usecase
 allowing
 adding
@@ -367,7 +365,6 @@ BrowserStore
 )
 {
 /
-*
 *
 *
 Adds
@@ -420,7 +417,6 @@ internetResource
 /
 *
 *
-*
 Use
 case
 allowing
@@ -453,7 +449,6 @@ BrowserStore
 )
 {
 /
-*
 *
 *
 Adds

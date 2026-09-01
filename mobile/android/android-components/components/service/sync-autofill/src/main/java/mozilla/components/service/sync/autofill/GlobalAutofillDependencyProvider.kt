@@ -95,7 +95,6 @@ LoginsStorage
 /
 *
 *
-*
 Provides
 global
 access
@@ -108,7 +107,6 @@ autofill
 storage
 operations
 .
-*
 *
 /
 object
@@ -143,11 +141,11 @@ via
 AutofillStorageWorker
 ]
 .
-*
 This
 method
 should
 be
+*
 called
 in
 client
@@ -171,14 +169,13 @@ run
 the
 worker
 while
-*
 the
 app
+*
 is
 not
 running
 .
-*
 *
 /
 fun
@@ -201,7 +198,6 @@ autofillStorage
 /
 *
 *
-*
 Provides
 [
 LoginsStorage
@@ -213,7 +209,6 @@ for
 [
 AutofillStorageWorker
 ]
-*
 to
 run
 maintenance
@@ -221,7 +216,6 @@ on
 the
 storage
 .
-*
 *
 /
 internal

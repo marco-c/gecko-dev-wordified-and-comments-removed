@@ -75,7 +75,6 @@ DataSource
 /
 *
 *
-*
 Represents
 a
 storage
@@ -104,6 +103,7 @@ as
 a
 parameter
 .
+*
 *
 param
 sitePermissions
@@ -178,6 +178,7 @@ navigates
 away
 .
 *
+*
 param
 request
 The
@@ -203,7 +204,6 @@ null
 =
 Unit
 /
-*
 *
 *
 Clears
@@ -239,6 +239,7 @@ as
 a
 parameter
 .
+*
 *
 param
 sitePermissions
@@ -290,6 +291,7 @@ the
 origin
 ]
 .
+*
 *
 param
 origin
@@ -357,6 +359,7 @@ a
 parameter
 .
 *
+*
 param
 sitePermissions
 the
@@ -399,7 +402,6 @@ Boolean
 /
 *
 *
-*
 Deletes
 all
 sitePermissions
@@ -413,7 +415,6 @@ removeAll
 (
 )
 /
-*
 *
 *
 Returns

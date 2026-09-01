@@ -149,12 +149,12 @@ determine
 if
 a
 given
-*
 [
 CreditCard
 ]
 can
 be
+*
 persisted
 and
 returns

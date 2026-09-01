@@ -89,7 +89,6 @@ ReaderViewControlsView
 /
 *
 *
-*
 Presenter
 implementation
 that
@@ -122,7 +121,6 @@ ReaderViewConfig
 )
 {
 /
-*
 *
 *
 Sets
@@ -179,7 +177,6 @@ showControls
 /
 *
 *
-*
 Checks
 whether
 or
@@ -209,7 +206,6 @@ asView
 isVisible
 }
 /
-*
 *
 *
 Hides

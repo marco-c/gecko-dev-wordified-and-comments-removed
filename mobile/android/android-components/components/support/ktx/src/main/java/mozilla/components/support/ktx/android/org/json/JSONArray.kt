@@ -293,12 +293,12 @@ given
 transform
 ]
 function
-*
 to
 each
 element
 in
 the
+*
 original
 collection
 as
@@ -312,7 +312,6 @@ If
 [
 getFromArray
 ]
-*
 or
 [
 transform
@@ -323,6 +322,7 @@ a
 JSONException
 ]
 these
+*
 elements
 will
 also

@@ -115,7 +115,6 @@ collect
 /
 *
 *
-*
 Facts
 emitted
 for
@@ -136,7 +135,6 @@ class
 CreditCardAutofillDialogFacts
 {
 /
-*
 *
 *
 Specific

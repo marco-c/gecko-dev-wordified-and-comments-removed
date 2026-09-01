@@ -65,6 +65,12 @@ support
 .
 locale
 import
+java
+.
+util
+.
+Locale
+import
 mozilla
 .
 components
@@ -150,12 +156,6 @@ org
 junit
 .
 Test
-import
-java
-.
-util
-.
-Locale
 class
 LocaleUseCasesTest
 {

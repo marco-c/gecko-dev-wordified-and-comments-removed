@@ -119,7 +119,6 @@ Locale
 /
 *
 *
-*
 Returns
 the
 primary
@@ -166,12 +165,12 @@ resource
 [
 id
 ]
-*
 substituting
 format
 arguments
 with
 additional
+*
 styling
 spans
 .
@@ -229,7 +228,6 @@ used
 for
 substitution
 .
-*
 The
 first
 element
@@ -239,6 +237,7 @@ pair
 is
 the
 text
+*
 to
 insert
 similar
@@ -249,7 +248,6 @@ String
 format
 ]
 .
-*
 The
 second
 element
@@ -266,6 +264,7 @@ used
 to
 style
 the
+*
 inserted
 string
 .
@@ -354,7 +353,6 @@ builder
 /
 *
 *
-*
 [
 Appendable
 ]
@@ -364,7 +362,6 @@ wraps
 [
 SpannableStringBuilder
 ]
-*
 and
 inserts
 spans
@@ -401,7 +398,6 @@ Any
 Appendable
 {
 /
-*
 *
 *
 Map
@@ -600,7 +596,6 @@ corresponding
 span
 value
 .
-*
 If
 [
 csq
@@ -611,6 +606,7 @@ found
 the
 map
 is
+*
 searched
 manually
 by
@@ -619,7 +615,6 @@ values
 to
 strings
 .
-*
 If
 no
 match
@@ -633,6 +628,7 @@ is
 appended
 with
 no
+*
 corresponding
 span
 .

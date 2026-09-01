@@ -73,6 +73,12 @@ net
 .
 toUri
 import
+java
+.
+lang
+.
+Exception
+import
 mozilla
 .
 components
@@ -174,12 +180,6 @@ log
 logger
 .
 Logger
-import
-java
-.
-lang
-.
-Exception
 /
 *
 *
@@ -232,7 +232,6 @@ Engine
 )
 {
 /
-*
 *
 *
 Use
@@ -298,11 +297,12 @@ not
 get
 applied
 any
-*
 tracking
 protection
+*
 policy
 .
+*
 *
 param
 tabId
@@ -333,9 +333,9 @@ persistent
 in
 private
 mode
-*
 defaults
 to
+*
 false
 .
 *
@@ -402,7 +402,6 @@ persistInPrivateMode
 /
 *
 *
-*
 Use
 case
 for
@@ -460,6 +459,7 @@ the
 exception
 list
 .
+*
 *
 param
 tabId
@@ -545,6 +545,7 @@ the
 exception
 list
 .
+*
 *
 param
 exception
@@ -671,7 +672,6 @@ false
 /
 *
 *
-*
 Use
 case
 for
@@ -703,7 +703,6 @@ Engine
 )
 {
 /
-*
 *
 *
 Removes
@@ -774,7 +773,6 @@ onRemove
 /
 *
 *
-*
 Use
 case
 for
@@ -823,6 +821,7 @@ exception
 list
 .
 *
+*
 param
 tabId
 The
@@ -846,7 +845,6 @@ given
 tab
 is
 on
-*
 the
 exception
 list
@@ -856,6 +854,7 @@ it
 is
 in
 otherwise
+*
 false
 .
 *
@@ -915,7 +914,6 @@ onResult
 /
 *
 *
-*
 Use
 case
 for
@@ -957,6 +955,7 @@ tracking
 protection
 .
 *
+*
 param
 onResult
 A
@@ -973,10 +972,10 @@ list
 has
 been
 fetched
-*
 it
 provides
 a
+*
 list
 of
 [
@@ -993,9 +992,9 @@ there
 are
 none
 domains
-*
 on
 the
+*
 exception
 list
 an
@@ -1035,7 +1034,6 @@ onResult
 }
 }
 /
-*
 *
 *
 Use
@@ -1206,7 +1204,6 @@ onError
 /
 *
 *
-*
 Use
 case
 for
@@ -1292,8 +1289,8 @@ been
 blocked
 in
 the
-*
 given
+*
 [
 dateFrom
 ]
@@ -1367,7 +1364,6 @@ onError
 }
 }
 /
-*
 *
 *
 Use
@@ -1485,7 +1481,6 @@ onError
 /
 *
 *
-*
 Use
 case
 for
@@ -1547,9 +1542,9 @@ the
 earliest
 hour
 )
-*
 from
 which
+*
 we
 have
 recorded

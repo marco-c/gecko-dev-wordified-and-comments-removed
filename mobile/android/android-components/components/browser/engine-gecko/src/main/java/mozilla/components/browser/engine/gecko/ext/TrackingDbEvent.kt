@@ -117,7 +117,6 @@ ContentBlockingController
 TrackingDbEvent
 ]
 to
-*
 an
 Android
 Components
@@ -136,7 +135,6 @@ ContentBlockingController
 TrackingDbEvent
 ]
 details
-*
 are
 not
 supported

@@ -89,7 +89,6 @@ WindowInsetsCompat
 /
 *
 *
-*
 A
 place
 to
@@ -140,10 +139,10 @@ it
 is
 possible
 to
-*
 switch
 navigation
 mode
+*
 between
 gesture
 nav
@@ -153,7 +152,6 @@ and
 button
 navigation
 .
-*
 The
 system
 gesture
@@ -168,10 +166,10 @@ at
 the
 left
 edge
+*
 of
 the
 screen
-*
 for
 the
 back
@@ -190,8 +188,8 @@ most
 reliable
 way
 of
-*
 detecting
+*
 gesture
 navigation
 use
@@ -202,6 +200,7 @@ use
 See
 also
 :
+*
 [
 Gesture
 Navigation

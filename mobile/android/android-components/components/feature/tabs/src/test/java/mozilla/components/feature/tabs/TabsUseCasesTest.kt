@@ -65,6 +65,12 @@ feature
 .
 tabs
 import
+kotlin
+.
+test
+.
+assertNotNull
+import
 kotlinx
 .
 coroutines
@@ -508,12 +514,6 @@ mockito
 Mockito
 .
 verify
-import
-kotlin
-.
-test
-.
-assertNotNull
 const
 val
 DAY_IN_MS

@@ -115,7 +115,6 @@ RemoteSettingsService
 /
 *
 *
-*
 Repository
 for
 fetching
@@ -124,7 +123,6 @@ from
 Remote
 Settings
 .
-*
 *
 /
 class
@@ -135,7 +133,6 @@ constructor
 )
 {
 /
-*
 *
 *
 Companion

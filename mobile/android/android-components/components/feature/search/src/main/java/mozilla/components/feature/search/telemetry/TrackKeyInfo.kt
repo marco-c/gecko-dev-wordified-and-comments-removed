@@ -121,7 +121,6 @@ organic
 sap
 "
 or
-*
 "
 sap
 -

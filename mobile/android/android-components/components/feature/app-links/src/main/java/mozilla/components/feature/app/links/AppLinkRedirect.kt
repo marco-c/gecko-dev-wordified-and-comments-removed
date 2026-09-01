@@ -75,7 +75,6 @@ Intent
 /
 *
 *
-*
 Data
 class
 for
@@ -121,7 +120,6 @@ Intent
 /
 *
 *
-*
 If
 there
 is
@@ -144,7 +142,6 @@ appIntent
 =
 null
 /
-*
 *
 *
 If
@@ -172,7 +169,6 @@ fallbackUrl
 =
 null
 /
-*
 *
 *
 If
@@ -203,7 +199,6 @@ marketplaceIntent
 =
 null
 /
-*
 *
 *
 If
@@ -242,7 +237,6 @@ hasMarketplaceIntent
 (
 )
 /
-*
 *
 *
 Is

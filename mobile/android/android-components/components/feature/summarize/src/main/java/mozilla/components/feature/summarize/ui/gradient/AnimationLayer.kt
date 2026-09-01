@@ -77,6 +77,14 @@ BlurMaskFilter
 import
 android
 .
+graphics
+.
+Paint
+as
+AndroidPaint
+import
+android
+.
 os
 .
 Build
@@ -492,14 +500,6 @@ kotlin
 math
 .
 sin
-import
-android
-.
-graphics
-.
-Paint
-as
-AndroidPaint
 private
 object
 GradientDefaults
@@ -675,7 +675,6 @@ progress
 Float
 )
 /
-*
 *
 *
 Modifier
@@ -909,7 +908,6 @@ widthDp
 }
 }
 /
-*
 *
 *
 Composable

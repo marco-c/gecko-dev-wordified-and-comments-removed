@@ -115,7 +115,6 @@ ClassAcronymCasingRule
 /
 *
 *
-*
 Set
 of
 custom

@@ -213,7 +213,6 @@ nested
 sub
 menu
 .
-*
 It
 handles
 back
@@ -221,6 +220,7 @@ pressing
 if
 the
 sub
+*
 menu
 contains
 a
@@ -329,11 +329,11 @@ offscreen
 downwards
 or
 upwards
-*
 depending
 on
 the
 menu
+*
 position
 )
 .
@@ -355,9 +355,9 @@ menu
 is
 always
 visible
-*
 otherwise
 the
+*
 top
 of
 the

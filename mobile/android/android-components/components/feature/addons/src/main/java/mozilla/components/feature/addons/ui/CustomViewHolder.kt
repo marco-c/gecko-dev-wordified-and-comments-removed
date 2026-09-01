@@ -101,7 +101,6 @@ RecyclerView
 /
 *
 *
-*
 A
 base
 view
@@ -126,7 +125,6 @@ view
 )
 {
 /
-*
 *
 *
 A
@@ -160,7 +158,6 @@ CustomViewHolder
 view
 )
 /
-*
 *
 *
 A
@@ -197,7 +194,6 @@ CustomViewHolder
 view
 )
 /
-*
 *
 *
 A
@@ -277,7 +273,6 @@ view
 /
 *
 *
-*
 A
 view
 holder
@@ -312,7 +307,6 @@ CustomViewHolder
 view
 )
 /
-*
 *
 *
 A

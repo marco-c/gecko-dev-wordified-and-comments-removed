@@ -149,7 +149,6 @@ AIFeatureState
 /
 *
 *
-*
 Creates
 the
 implementation
@@ -208,11 +207,11 @@ unique
 feature
 IDs
 and
-*
 initializes
 feature
 states
 based
+*
 on
 the
 block

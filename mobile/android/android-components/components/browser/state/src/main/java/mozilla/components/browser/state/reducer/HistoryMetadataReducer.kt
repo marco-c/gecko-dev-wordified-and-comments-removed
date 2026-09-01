@@ -119,7 +119,6 @@ HistoryMetadataReducer
 /
 *
 *
-*
 [
 HistoryMetadataAction
 ]

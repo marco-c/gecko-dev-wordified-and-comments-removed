@@ -229,9 +229,9 @@ implementation
 to
 display
 a
-*
 <
 a
+*
 href
 =
 "
@@ -427,7 +427,6 @@ KEY_LABEL_INPUT
 )
 }
 /
-*
 *
 *
 Tells
@@ -707,7 +706,6 @@ view
 /
 *
 *
-*
 Truncates
 text
 to
@@ -845,6 +843,7 @@ a
 TextPromptDialogFragment
 ]
 *
+*
 param
 sessionId
 to
@@ -880,12 +879,12 @@ should
 automatically
 be
 dismissed
-*
 when
 a
 new
 page
 is
+*
 loaded
 .
 *
@@ -916,7 +915,6 @@ has
 shown
 many
 dialogs
-*
 in
 a
 short
@@ -925,6 +923,7 @@ of
 time
 if
 is
+*
 true
 a
 checkbox
@@ -937,7 +936,6 @@ dialog
 for
 the
 user
-*
 to
 choose
 if
@@ -948,6 +946,7 @@ this
 [
 sessionId
 ]
+*
 continuing
 showing
 dialogs

@@ -87,6 +87,12 @@ runners
 .
 AndroidJUnit4
 import
+kotlin
+.
+math
+.
+roundToInt
+import
 org
 .
 junit
@@ -108,12 +114,6 @@ junit
 runner
 .
 RunWith
-import
-kotlin
-.
-math
-.
-roundToInt
 RunWith
 (
 AndroidJUnit4

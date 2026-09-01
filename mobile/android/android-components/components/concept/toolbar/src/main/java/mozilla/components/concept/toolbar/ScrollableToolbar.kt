@@ -67,7 +67,6 @@ toolbar
 /
 *
 *
-*
 Interface
 to
 be
@@ -139,7 +138,6 @@ enableScrolling
 /
 *
 *
-*
 Completely
 disable
 scrolling
@@ -148,7 +146,6 @@ the
 dynamic
 toolbar
 .
-*
 Use
 [
 enableScrolling
@@ -167,7 +164,6 @@ disableScrolling
 /
 *
 *
-*
 Force
 the
 toolbar
@@ -181,7 +177,6 @@ expand
 (
 )
 /
-*
 *
 *
 Force

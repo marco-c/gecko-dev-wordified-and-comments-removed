@@ -99,6 +99,12 @@ runners
 .
 AndroidJUnit4
 import
+java
+.
+util
+.
+UUID
+import
 kotlinx
 .
 coroutines
@@ -184,12 +190,6 @@ junit
 runner
 .
 RunWith
-import
-java
-.
-util
-.
-UUID
 RunWith
 (
 AndroidJUnit4

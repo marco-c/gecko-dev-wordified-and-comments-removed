@@ -91,10 +91,10 @@ automatically
 be
 offered
 .
-*
 When
 true
 the
+*
 engine
 will
 offer
@@ -108,7 +108,6 @@ detected
 translatable
 page
 language
-*
 is
 different
 from
@@ -116,6 +115,7 @@ the
 user
 '
 s
+*
 preferred
 languages
 .
@@ -132,8 +132,8 @@ page
 language
 should
 be
-*
 automatically
+*
 translated
 or
 not
@@ -148,7 +148,6 @@ be
 translated
 by
 the
-*
 translations
 engine
 .
@@ -166,11 +165,11 @@ language
 should
 offer
 a
-*
 translation
 or
 not
 .
+*
 When
 true
 the
@@ -197,10 +196,10 @@ translated
 or
 not
 .
-*
 When
 true
 the
+*
 engine
 will
 not

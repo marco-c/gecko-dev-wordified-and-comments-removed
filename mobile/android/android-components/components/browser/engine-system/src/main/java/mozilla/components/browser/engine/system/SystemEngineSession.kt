@@ -129,6 +129,12 @@ annotation
 .
 VisibleForTesting
 import
+kotlin
+.
+reflect
+.
+KProperty
+import
 kotlinx
 .
 coroutines
@@ -240,12 +246,6 @@ org
 json
 .
 JSONObject
-import
-kotlin
-.
-reflect
-.
-KProperty
 internal
 val
 xRequestHeader
@@ -335,7 +335,6 @@ to
 "
 )
 /
-*
 *
 *
 WebView
@@ -522,7 +521,6 @@ initSettings
 /
 *
 *
-*
 See
 [
 EngineSession
@@ -540,7 +538,6 @@ ignored
 in
 this
 engine
-*
 implementation
 .
 *
@@ -626,7 +623,6 @@ headers
 /
 *
 *
-*
 See
 [
 EngineSession
@@ -710,7 +706,6 @@ engine
 /
 *
 *
-*
 See
 [
 EngineSession
@@ -741,6 +736,7 @@ EngineSession
 .
 reload
 ]
+*
 *
 param
 flags
@@ -768,7 +764,6 @@ reload
 )
 }
 /
-*
 *
 *
 See
@@ -813,7 +808,6 @@ onNavigateBack
 /
 *
 *
-*
 See
 [
 EngineSession
@@ -854,7 +848,6 @@ onNavigateForward
 }
 }
 /
-*
 *
 *
 See
@@ -900,7 +893,6 @@ onGotoHistoryIndex
 }
 }
 /
-*
 *
 *
 See
@@ -980,7 +972,6 @@ engine
 )
 }
 /
-*
 *
 *
 See
@@ -1113,7 +1104,6 @@ false
 /
 *
 *
-*
 See
 [
 EngineSession
@@ -1195,7 +1185,6 @@ destroy
 )
 }
 /
-*
 *
 *
 See
@@ -1383,7 +1372,6 @@ e
 /
 *
 *
-*
 See
 [
 EngineSession
@@ -1418,7 +1406,6 @@ text
 /
 *
 *
-*
 See
 [
 EngineSession
@@ -1446,7 +1433,6 @@ forward
 /
 *
 *
-*
 See
 [
 EngineSession
@@ -1468,7 +1454,6 @@ clearMatches
 )
 }
 /
-*
 *
 *
 Clears
@@ -1494,7 +1479,6 @@ clearHistory
 )
 }
 /
-*
 *
 *
 See
@@ -2327,7 +2311,6 @@ toggleDesktopMode
 *
 Precondition
 :
-*
 If
 settings
 .
@@ -2341,8 +2324,8 @@ useWideViewPort
 is
 always
 on
-*
 If
+*
 settings
 .
 useWideViewPort
@@ -2428,7 +2411,6 @@ reload
 /
 *
 *
-*
 Checks
 for
 if
@@ -2479,7 +2461,6 @@ engine
 )
 }
 /
-*
 *
 *
 See
@@ -2553,7 +2534,6 @@ engine
 /
 *
 *
-*
 See
 [
 EngineSession
@@ -2604,7 +2584,6 @@ engine
 /
 *
 *
-*
 See
 [
 EngineSession
@@ -2653,7 +2632,6 @@ engine
 )
 }
 /
-*
 *
 *
 See
@@ -2709,7 +2687,6 @@ engine
 /
 *
 *
-*
 See
 [
 EngineSession
@@ -2752,7 +2729,6 @@ engine
 /
 *
 *
-*
 See
 [
 EngineSession
@@ -2784,7 +2760,6 @@ engine
 )
 }
 /
-*
 *
 *
 See
@@ -2841,7 +2816,6 @@ engine
 /
 *
 *
-*
 See
 [
 EngineSession
@@ -2894,46 +2868,7 @@ engine
 "
 )
 }
-override
-fun
-hasCookieBannerRuleForSession
-(
-onResult
-:
-(
-Boolean
-)
--
->
-Unit
-onException
-:
-(
-Throwable
-)
--
->
-Unit
-)
-{
-throw
-UnsupportedOperationException
-(
-"
-Cookie
-Banner
-handling
-is
-not
-available
-in
-this
-engine
-"
-)
-}
 /
-*
 *
 *
 See
@@ -2958,7 +2893,6 @@ onCustomViewHidden
 )
 }
 /
-*
 *
 *
 See
@@ -3103,10 +3037,10 @@ This
 is
 needed
 as
-*
 almost
 everything
 is
+*
 implemented
 by
 WebView
@@ -3120,7 +3054,6 @@ no
 actual
 concept
 of
-*
 a
 session
 when

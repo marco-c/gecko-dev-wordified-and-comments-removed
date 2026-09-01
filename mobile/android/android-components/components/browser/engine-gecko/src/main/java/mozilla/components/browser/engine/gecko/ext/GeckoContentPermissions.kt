@@ -136,10 +136,10 @@ and
 it
 is
 excluded
-*
 from
 the
 tracking
+*
 protection
 policies
 .
@@ -183,12 +183,12 @@ given
 GeckoEngineSession
 ]
 .
-*
 This
 is
 available
 after
 every
+*
 onLocationChange
 call
 .

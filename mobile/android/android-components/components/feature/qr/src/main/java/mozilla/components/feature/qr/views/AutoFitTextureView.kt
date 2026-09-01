@@ -218,7 +218,6 @@ VisibleForTesting
 /
 *
 *
-*
 A
 [
 TextureView
@@ -318,10 +317,10 @@ based
 on
 the
 ratio
-*
 calculated
 from
 the
+*
 parameters
 .
 Note
@@ -336,7 +335,6 @@ don
 t
 matter
 that
-*
 is
 calling
 setAspectRatio
@@ -345,6 +343,7 @@ setAspectRatio
 3
 )
 and
+*
 setAspectRatio
 (
 4

@@ -91,7 +91,6 @@ AutocompletePrompt
 /
 *
 *
-*
 Delegate
 to
 display
@@ -108,7 +107,6 @@ interface
 LoginDelegate
 {
 /
-*
 *
 *
 The
@@ -148,7 +146,6 @@ null
 /
 *
 *
-*
 Callback
 invoked
 when
@@ -159,7 +156,6 @@ selects
 Manage
 logins
 "
-*
 from
 the
 select

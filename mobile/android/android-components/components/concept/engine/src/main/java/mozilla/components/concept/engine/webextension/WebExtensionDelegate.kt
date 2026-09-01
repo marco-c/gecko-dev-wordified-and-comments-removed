@@ -91,7 +91,6 @@ events
 related
 to
 web
-*
 extensions
 e
 .
@@ -101,13 +100,13 @@ an
 extension
 was
 installed
+*
 or
 an
 extension
 wants
 to
 open
-*
 a
 new
 tab
@@ -375,7 +374,6 @@ mode
 New
 tabs
 opened
-*
 by
 extensions
 may
@@ -384,6 +382,7 @@ this
 state
 if
 not
+*
 specified
 otherwise
 .
@@ -413,7 +412,6 @@ a
 new
 tab
 via
-*
 browser
 .
 tabs
@@ -427,13 +425,13 @@ browser
 tabs
 .
 update
+*
 and
 browser
 .
 tabs
 .
 remove
-*
 can
 only
 be
@@ -443,8 +441,8 @@ session
 -
 specific
 handlers
-*
 see
+*
 [
 WebExtension
 .
@@ -523,12 +521,12 @@ enabled
 for
 the
 new
-*
 tab
 .
 Must
 match
 the
+*
 engineSession
 .
 privateMode
@@ -577,7 +575,6 @@ for
 session
 -
 specific
-*
 overrides
 of
 [
@@ -585,6 +582,7 @@ Action
 ]
 s
 and
+*
 other
 action
 -
@@ -599,7 +597,6 @@ opening
 a
 popup
 )
-*
 see
 [
 WebExtension
@@ -664,7 +661,6 @@ for
 session
 -
 specific
-*
 overrides
 of
 [
@@ -672,6 +668,7 @@ Action
 ]
 s
 and
+*
 other
 action
 -
@@ -686,7 +683,6 @@ opening
 a
 popup
 )
-*
 see
 [
 WebExtension
@@ -803,13 +799,13 @@ for
 the
 popup
 .
-*
 Must
 match
 the
 engineSession
 .
 privateMode
+*
 flag
 .
 *
@@ -828,7 +824,6 @@ null
 if
 no
 popup
-*
 was
 displayed
 .
@@ -1100,11 +1095,11 @@ be
 null
 when
 the
-*
 extension
 couldn
 '
 t
+*
 be
 downloaded
 or
@@ -1162,12 +1157,12 @@ to
 update
 to
 a
-*
 new
 version
 .
 This
 requires
+*
 user
 interaction
 as
@@ -1178,7 +1173,6 @@ will
 not
 be
 installed
-*
 until
 the
 user
@@ -1317,9 +1311,9 @@ user
 interaction
 since
 the
-*
 user
 needs
+*
 to
 grant
 or
@@ -1440,7 +1434,6 @@ updated
 in
 the
 engine
-*
 (
 the
 web
@@ -1449,6 +1442,7 @@ runtime
 )
 .
 This
+*
 happens
 as
 a
@@ -1460,7 +1454,6 @@ tools
 e
 .
 g
-*
 web
 -
 ext
@@ -1475,9 +1468,9 @@ not
 happen
 in
 the
+*
 regular
 flow
-*
 of
 installing
 /
@@ -1513,12 +1506,12 @@ This
 can
 occur
 because
-*
 it
 has
 been
 killed
 or
+*
 crashed
 too
 many

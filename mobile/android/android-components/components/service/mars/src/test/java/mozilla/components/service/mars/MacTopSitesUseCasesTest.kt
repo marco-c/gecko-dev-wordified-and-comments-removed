@@ -65,6 +65,12 @@ service
 .
 mars
 import
+java
+.
+io
+.
+IOException
+import
 kotlinx
 .
 coroutines
@@ -136,12 +142,6 @@ mockito
 Mockito
 .
 verify
-import
-java
-.
-io
-.
-IOException
 class
 MacTopSitesUseCasesTest
 {

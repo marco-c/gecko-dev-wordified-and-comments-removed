@@ -145,7 +145,6 @@ BLOCKED
 /
 *
 *
-*
 Indicate
 how
 site
@@ -260,7 +259,6 @@ NO_DECISION
 /
 *
 *
-*
 Autoplay
 requests
 will
@@ -304,7 +302,6 @@ Action
 BLOCKED
 }
 /
-*
 *
 *
 Convert
@@ -551,7 +548,6 @@ ASK_TO_ALLOW
 }
 }
 /
-*
 *
 *
 Converts

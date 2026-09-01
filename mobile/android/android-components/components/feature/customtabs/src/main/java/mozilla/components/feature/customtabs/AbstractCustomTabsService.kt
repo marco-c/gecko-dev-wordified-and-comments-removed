@@ -262,7 +262,6 @@ MAX_SPECULATIVE_URLS
 /
 *
 *
-*
 [
 Service
 ]
@@ -431,7 +430,6 @@ return
 false
 }
 /
-*
 *
 *
 Saves

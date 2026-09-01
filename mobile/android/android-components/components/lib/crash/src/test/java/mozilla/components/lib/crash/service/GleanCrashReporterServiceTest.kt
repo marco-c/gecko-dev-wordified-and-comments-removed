@@ -103,6 +103,12 @@ testing
 .
 WorkManagerTestInitHelper
 import
+java
+.
+io
+.
+File
+import
 mozilla
 .
 components
@@ -210,12 +216,6 @@ mockito
 Mockito
 .
 spy
-import
-java
-.
-io
-.
-File
 RunWith
 (
 AndroidJUnit4

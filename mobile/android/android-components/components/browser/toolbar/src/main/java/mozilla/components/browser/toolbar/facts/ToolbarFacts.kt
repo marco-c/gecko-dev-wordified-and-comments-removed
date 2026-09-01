@@ -125,7 +125,6 @@ InlineAutocompleteEditText
 /
 *
 *
-*
 Facts
 emitted
 for
@@ -141,7 +140,6 @@ class
 ToolbarFacts
 {
 /
-*
 *
 *
 Items

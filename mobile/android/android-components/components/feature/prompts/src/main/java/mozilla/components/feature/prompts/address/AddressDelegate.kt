@@ -91,7 +91,6 @@ AutocompletePrompt
 /
 *
 *
-*
 Delegate
 for
 address
@@ -117,7 +116,6 @@ AddressPicker
 to
 display
 a
-*
 a
 prompt
 with
@@ -127,6 +125,7 @@ of
 address
 options
 available
+*
 for
 autocomplete
 .
@@ -143,7 +142,6 @@ Address
 /
 *
 *
-*
 Callback
 invoked
 when
@@ -155,7 +153,6 @@ Manage
 addresses
 "
 from
-*
 select
 address
 prompt
@@ -172,7 +169,6 @@ onManageAddresses
 Unit
 }
 /
-*
 *
 *
 Default

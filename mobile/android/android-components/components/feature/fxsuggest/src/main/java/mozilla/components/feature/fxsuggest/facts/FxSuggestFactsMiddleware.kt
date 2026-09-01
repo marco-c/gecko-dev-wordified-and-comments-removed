@@ -229,8 +229,8 @@ for
 any
 Firefox
 Suggest
-*
 search
+*
 suggestions
 that
 are
@@ -246,7 +246,6 @@ the
 AwesomeBar
 ]
 .
-*
 If
 the
 user
@@ -254,6 +253,7 @@ taps
 on
 one
 of
+*
 those
 visible
 Firefox
@@ -316,10 +316,10 @@ a
 suggestion
 )
 or
-*
 true
 if
 the
+*
 user
 dismissed
 the

@@ -138,13 +138,13 @@ number
 is
 returned
 .
-*
 If
 [
 other
 ]
 is
 more
+*
 important
 a
 positive
@@ -152,7 +152,6 @@ number
 is
 returned
 .
-*
 If
 the
 two
@@ -165,8 +164,8 @@ importance
 is
 returned
 .
-*
 Importance
+*
 represents
 which
 icon

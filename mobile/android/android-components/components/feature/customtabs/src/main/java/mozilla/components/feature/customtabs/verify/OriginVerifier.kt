@@ -232,11 +232,11 @@ the
 package
 name
 .
-*
 It
 caches
 any
 origin
+*
 that
 has
 been
@@ -245,7 +245,6 @@ during
 the
 current
 application
-*
 lifecycle
 and
 reuses
@@ -255,6 +254,7 @@ making
 any
 new
 network
+*
 requests
 .
 *
@@ -325,11 +325,11 @@ This
 will
 end
 up
-*
 making
 a
 network
 request
+*
 for
 non
 -

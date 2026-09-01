@@ -140,10 +140,10 @@ backgrounds
 on
 the
 toolbar
-*
 by
 setting
 a
+*
 background
 to
 transparent

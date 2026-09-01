@@ -227,11 +227,11 @@ protection
 relies
 on
 the
-*
 [
 SiteTrackingProtection
 ]
 state
+*
 of
 each
 page

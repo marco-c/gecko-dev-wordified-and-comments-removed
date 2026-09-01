@@ -211,7 +211,6 @@ annotation
 /
 *
 *
-*
 Custom
 lint
 check
@@ -287,9 +286,9 @@ handler
 that
 checks
 for
-*
 invalid
 import
+*
 statements
 related
 to
@@ -313,11 +312,11 @@ not
 *
 from
 the
-*
 androidx
 .
 annotation
 package
+*
 (
 androidx
 .
@@ -326,7 +325,6 @@ annotation
 VisibleForTesting
 )
 .
-*
 If
 it
 finds
@@ -340,10 +338,10 @@ lint
 issue
 suggesting
 the
+*
 use
 of
 the
-*
 androidx
 version
 .
@@ -364,8 +362,8 @@ visitor
 framework
 and
 process
-*
 UImportStatement
+*
 nodes
 .
 *
@@ -510,7 +508,6 @@ trimIndent
 }
 }
 /
-*
 *
 *
 Define

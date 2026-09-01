@@ -154,7 +154,6 @@ KEY_ICON
 /
 *
 *
-*
 A
 generic
 [
@@ -278,7 +277,6 @@ addon
 }
 }
 /
-*
 *
 *
 Styling

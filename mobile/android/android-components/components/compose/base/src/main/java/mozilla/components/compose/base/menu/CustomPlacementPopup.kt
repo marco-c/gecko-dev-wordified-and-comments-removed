@@ -465,7 +465,6 @@ FULLY_HIDDEN_POPUP_ANIMATION_RATIO
 /
 *
 *
-*
 Layout
 scope
 for
@@ -565,7 +564,6 @@ popup
 s
 position
 .
-*
 This
 is
 not
@@ -576,6 +574,7 @@ on
 [
 horizontalAlignment
 ]
+*
 or
 [
 verticalAlignment
@@ -1331,10 +1330,10 @@ menu
 allowing
 to
 specify
-*
 an
 alignment
 bias
+*
 and
 taking
 into
@@ -1371,12 +1370,12 @@ popup
 s
 content
 .
-*
 The
 popup
 might
 not
 always
+*
 respect
 this
 if
@@ -1402,13 +1401,13 @@ popup
 s
 content
 .
-*
 The
 popup
 might
 not
 always
 respect
+*
 this
 if
 it
@@ -1467,9 +1466,9 @@ is
 found
 through
 which
-*
 the
 integrator
+*
 will
 be
 informed
@@ -1669,7 +1668,6 @@ popup
 s
 content
 .
-*
 The
 result
 might
@@ -1677,6 +1675,7 @@ not
 always
 respect
 this
+*
 if
 it
 cannot
@@ -2095,7 +2094,6 @@ popup
 s
 content
 .
-*
 The
 result
 might
@@ -2103,6 +2101,7 @@ not
 always
 respect
 this
+*
 if
 it
 cannot

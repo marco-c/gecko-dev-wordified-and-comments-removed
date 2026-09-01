@@ -91,7 +91,6 @@ ContentRecommendationsUseCases
 /
 *
 *
-*
 Provides
 global
 access
@@ -115,7 +114,6 @@ object
 ContentRecommendations
 {
 /
-*
 *
 *
 Possible
@@ -154,7 +152,6 @@ when
 communicating
 with
 the
-*
 Merino
 server
 .
@@ -169,11 +166,11 @@ containing
 all
 possible
 actions
-*
 regarding
 the
 list
 of
+*
 content
 recommendations
 .
@@ -197,7 +194,6 @@ useCases
 /
 *
 *
-*
 Convenience
 method
 for
@@ -208,7 +204,6 @@ resources
 held
 for
 communicating
-*
 with
 the
 Merino
@@ -234,7 +229,6 @@ object
 SponsoredContents
 {
 /
-*
 *
 *
 Use
@@ -271,7 +265,6 @@ when
 communicating
 with
 the
-*
 sponsored
 content
 provider
@@ -288,7 +281,6 @@ all
 possible
 actions
 regarding
-*
 sponsored
 content
 .
@@ -323,7 +315,6 @@ resources
 held
 for
 communicating
-*
 with
 the
 sponsored

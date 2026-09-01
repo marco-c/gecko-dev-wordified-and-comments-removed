@@ -97,6 +97,14 @@ runtime
 .
 mutableStateOf
 import
+java
+.
+util
+.
+concurrent
+.
+Executors
+import
 kotlinx
 .
 coroutines
@@ -202,14 +210,6 @@ support
 utils
 .
 ThreadUtils
-import
-java
-.
-util
-.
-concurrent
-.
-Executors
 /
 *
 *
@@ -230,10 +230,10 @@ to
 observe
 the
 current
-*
 list
 of
 suggestions
+*
 from
 a
 composable
@@ -312,7 +312,6 @@ Job
 =
 null
 /
-*
 *
 *
 The
@@ -486,7 +485,6 @@ profilerStartTime
 }
 }
 /
-*
 *
 *
 Fetches
@@ -794,7 +792,6 @@ profilerStartTime
 )
 }
 /
-*
 *
 *
 Updates

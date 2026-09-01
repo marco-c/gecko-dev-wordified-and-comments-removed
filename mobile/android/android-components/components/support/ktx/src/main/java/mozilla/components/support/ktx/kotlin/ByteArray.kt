@@ -79,6 +79,12 @@ graphics
 .
 BitmapFactory
 import
+java
+.
+security
+.
+MessageDigest
+import
 mozilla
 .
 components
@@ -92,14 +98,7 @@ log
 logger
 .
 Logger
-import
-java
-.
-security
-.
-MessageDigest
 /
-*
 *
 *
 Checks
@@ -374,7 +373,6 @@ this
 /
 *
 *
-*
 return
 A
 SHA
@@ -411,7 +409,6 @@ this
 )
 }
 /
-*
 *
 *
 return

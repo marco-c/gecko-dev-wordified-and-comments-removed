@@ -1185,10 +1185,10 @@ the
 tab
 counter
 )
-*
 can
 be
 tinted
+*
 independently
 of
 the
@@ -1205,7 +1205,6 @@ null
 color
 ]
 leaves
-*
 the
 ambient
 color

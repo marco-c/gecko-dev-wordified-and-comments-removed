@@ -128,7 +128,6 @@ blob
 /
 *
 *
-*
 Custom
 span
 to
@@ -170,13 +169,13 @@ or
 the
 full
 host
-*
 within
 a
 URL
 string
 and
 mark
+*
 these
 with
 [
@@ -208,7 +207,6 @@ URL
 host
 .
 *
-*
 return
 The
 same
@@ -226,9 +224,9 @@ with
 [
 RegistrableDomainSpan
 ]
-*
 if
 this
+*
 could
 be
 identified
@@ -468,7 +466,6 @@ URL
 host
 .
 *
-*
 return
 A
 Pair
@@ -484,7 +481,6 @@ domain
 within
 the
 host
-*
 or
 null
 if
@@ -493,6 +489,7 @@ host
 is
 an
 IP
+*
 address
 or
 no

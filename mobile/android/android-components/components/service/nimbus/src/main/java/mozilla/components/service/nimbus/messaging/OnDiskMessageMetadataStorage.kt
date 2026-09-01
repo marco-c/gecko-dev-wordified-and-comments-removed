@@ -85,6 +85,12 @@ annotation
 .
 VisibleForTesting
 import
+java
+.
+io
+.
+File
+import
 mozilla
 .
 components
@@ -120,12 +126,6 @@ org
 json
 .
 JSONObject
-import
-java
-.
-io
-.
-File
 internal
 const
 val
@@ -137,7 +137,6 @@ nimbus_messages_metadata
 json
 "
 /
-*
 *
 *
 A

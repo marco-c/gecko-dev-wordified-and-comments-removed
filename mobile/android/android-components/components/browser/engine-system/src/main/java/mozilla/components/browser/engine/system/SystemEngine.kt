@@ -103,6 +103,12 @@ annotation
 .
 VisibleForTesting
 import
+java
+.
+lang
+.
+IllegalStateException
+import
 mozilla
 .
 components
@@ -216,14 +222,7 @@ org
 json
 .
 JSONObject
-import
-java
-.
-lang
-.
-IllegalStateException
 /
-*
 *
 *
 WebView
@@ -268,7 +267,6 @@ context
 /
 *
 *
-*
 Creates
 a
 new
@@ -303,7 +301,6 @@ attrs
 )
 }
 /
-*
 *
 *
 Creates
@@ -468,7 +465,6 @@ Unit
 /
 *
 *
-*
 See
 [
 Engine
@@ -487,7 +483,6 @@ Profiler
 =
 null
 /
-*
 *
 *
 See
@@ -695,7 +690,6 @@ reader
 )
 }
 /
-*
 *
 *
 See

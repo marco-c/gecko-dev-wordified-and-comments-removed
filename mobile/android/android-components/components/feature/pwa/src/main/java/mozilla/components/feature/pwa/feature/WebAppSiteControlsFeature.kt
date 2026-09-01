@@ -322,6 +322,7 @@ web
 apps
 .
 *
+*
 param
 sessionId
 ID
@@ -488,7 +489,6 @@ null
 /
 *
 *
-*
 Starts
 loading
 the
@@ -571,12 +571,12 @@ buildNotification
 that
 will
 be
-*
 shown
 as
 long
 as
 the
+*
 lifecycle
 is
 in
@@ -589,13 +589,13 @@ class
 as
 a
 broadcast
-*
 receiver
 to
 receive
 events
 from
 the
+*
 notification
 and
 call
@@ -708,7 +708,6 @@ RECEIVER_NOT_EXPORTED
 /
 *
 *
-*
 Cancels
 the
 site
@@ -753,7 +752,6 @@ NOTIFICATION_ID
 /
 *
 *
-*
 Cancels
 the
 [
@@ -783,7 +781,6 @@ cancel
 )
 }
 /
-*
 *
 *
 Responds
@@ -839,7 +836,6 @@ intent
 }
 }
 /
-*
 *
 *
 Build

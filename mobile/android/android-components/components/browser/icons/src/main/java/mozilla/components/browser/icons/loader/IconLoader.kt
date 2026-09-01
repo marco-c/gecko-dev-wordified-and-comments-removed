@@ -101,7 +101,6 @@ IconRequest
 /
 *
 *
-*
 A
 loader
 that
@@ -123,7 +122,6 @@ interface
 IconLoader
 {
 /
-*
 *
 *
 Tries

@@ -248,17 +248,14 @@ this
 x
 =
 x
-;
 this
 .
 y
 =
 y
-;
 pressure
 =
 1f
-;
 size
 =
 1f
@@ -294,7 +291,6 @@ x
 previousEvent
 .
 x
-;
 this
 .
 y
@@ -302,11 +298,9 @@ y
 previousEvent
 .
 y
-;
 pressure
 =
 1f
-;
 size
 =
 1f
@@ -348,7 +342,6 @@ this
 id
 =
 id
-;
 this
 .
 toolType

@@ -117,7 +117,6 @@ GeckoRuntime
 /
 *
 *
-*
 Helper
 factory
 for
@@ -166,10 +165,10 @@ and
 defaultSettings
 ]
 .
-*
 Creates
 a
 private
+*
 session
 if
 [
@@ -296,7 +295,6 @@ defaultSettings
 /
 *
 *
-*
 Clears
 the
 internal
@@ -343,13 +341,13 @@ EngineSession
 if
 it
 uses
-*
 the
 same
 [
 contextId
 ]
 .
+*
 Returns
 null
 if
@@ -360,7 +358,6 @@ EngineSession
 ]
 for
 that
-*
 configuration
 is
 available
@@ -456,10 +453,10 @@ registering
 and
 unregistering
 an
-*
 observer
 for
 handling
+*
 content
 process
 crashes
@@ -492,7 +489,6 @@ SpeculativeSessionObserver
 )
 {
 /
-*
 *
 *
 Checks
@@ -576,10 +572,10 @@ GeckoEngineSession
 ]
 and
 further
-*
 crash
 handling
 is
+*
 left
 to
 the
@@ -622,8 +618,8 @@ After
 calling
 this
 method
-*
 his
+*
 [
 SpeculativeEngineSession
 ]
@@ -737,10 +733,10 @@ SpeculativeSessionFactory
 ]
 if
 an
-*
 [
 GeckoEngineSession
 ]
+*
 can
 no
 longer

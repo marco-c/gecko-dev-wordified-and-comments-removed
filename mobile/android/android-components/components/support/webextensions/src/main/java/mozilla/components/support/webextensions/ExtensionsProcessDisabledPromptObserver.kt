@@ -152,11 +152,11 @@ has
 been
 disabled
 and
-*
 the
 user
 should
 be
+*
 prompted
 .
 This
@@ -196,11 +196,11 @@ be
 able
 to
 react
-*
 to
 state
 changes
 when
+*
 the
 app
 is
@@ -213,7 +213,6 @@ in
 the
 background
 .
-*
 Please
 note
 to
@@ -225,13 +224,13 @@ to
 Activity
 or
 its
+*
 context
 in
 an
 observer
 where
 this
-*
 is
 false
 .
@@ -255,9 +254,9 @@ will
 be
 collected
 .
-*
 Defaults
 to
+*
 [
 Dispatchers
 .
@@ -274,7 +273,6 @@ when
 the
 application
 should
-*
 open
 a
 prompt

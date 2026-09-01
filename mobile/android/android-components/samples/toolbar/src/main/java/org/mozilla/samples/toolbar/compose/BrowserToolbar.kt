@@ -208,10 +208,10 @@ mode
 displays
 the
 current
-*
 URL
 and
 controls
+*
 for
 navigation
 .
@@ -229,10 +229,10 @@ Those
 two
 modes
 are
-*
 implemented
 by
 the
+*
 [
 BrowserDisplayToolbar
 ]
@@ -276,7 +276,6 @@ the
 URL
 and
 wants
-*
 to
 commit
 the

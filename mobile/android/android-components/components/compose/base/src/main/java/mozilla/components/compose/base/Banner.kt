@@ -449,12 +449,12 @@ including
 an
 optional
 title
-*
 and
 optional
 positive
 /
 negative
+*
 action
 buttons
 .
@@ -473,13 +473,13 @@ the
 banner
 content
 consists
-*
 only
 of
 strings
 rather
 than
 full
+*
 composable
 slots
 .
@@ -488,7 +488,6 @@ provides
 a
 lightweight
 API
-*
 for
 common
 notification
@@ -514,7 +513,6 @@ omitted
 only
 the
 message
-*
 is
 displayed
 .
@@ -522,13 +520,13 @@ Action
 buttons
 are
 shown
+*
 only
 if
 their
 corresponding
 text
 values
-*
 (
 and
 optionally
@@ -584,7 +582,6 @@ Use
 this
 for
 short
-*
 attention
 -
 grabbing
@@ -602,13 +599,13 @@ the
 banner
 including
 background
-*
 and
 content
 color
 .
 Defaults
 to
+*
 [
 BannerColors
 .
@@ -649,7 +646,6 @@ positive
 confirm
 action
 button
-*
 (
 e
 .
@@ -663,6 +659,7 @@ Allow
 If
 null
 the
+*
 button
 is
 not
@@ -679,7 +676,6 @@ negative
 cancel
 action
 button
-*
 (
 e
 .
@@ -692,6 +688,7 @@ Cancel
 If
 null
 the
+*
 button
 is
 not
@@ -732,7 +729,6 @@ banner
 s
 close
 button
-*
 is
 clicked
 .
@@ -889,11 +885,11 @@ buttons
 with
 a
 flexible
-*
 composable
 slot
 for
 the
+*
 message
 area
 .
@@ -916,11 +912,11 @@ based
 title
 and
 button
-*
 labels
 but
 need
 additional
+*
 flexibility
 for
 the
@@ -930,7 +926,6 @@ as
 rendering
 annotated
 text
-*
 inline
 styles
 clickable
@@ -938,6 +933,7 @@ spans
 or
 other
 custom
+*
 composables
 .
 *
@@ -958,12 +954,12 @@ only
 the
 message
 content
-*
 is
 displayed
 .
 Each
 action
+*
 button
 appears
 only
@@ -975,7 +971,6 @@ and
 optionally
 its
 click
-*
 handler
 )
 is
@@ -1010,7 +1005,6 @@ Use
 this
 for
 short
-*
 high
 -
 level
@@ -1030,7 +1024,6 @@ main
 message
 content
 .
-*
 Allows
 rich
 text
@@ -1038,11 +1031,11 @@ annotated
 strings
 or
 any
+*
 custom
 layout
 needed
 .
-*
 If
 null
 only
@@ -1070,12 +1063,12 @@ banner
 including
 background
 and
-*
 content
 color
 .
 Defaults
 to
+*
 [
 BannerColors
 .
@@ -1116,7 +1109,6 @@ positive
 confirm
 action
 button
-*
 (
 e
 .
@@ -1130,6 +1122,7 @@ The
 button
 is
 only
+*
 shown
 if
 this
@@ -1150,7 +1143,6 @@ negative
 cancel
 action
 button
-*
 (
 e
 .
@@ -1164,6 +1156,7 @@ The
 button
 is
 only
+*
 shown
 if
 this
@@ -1586,10 +1579,10 @@ used
 for
 inline
 notifications
-*
 warnings
 promotions
 or
+*
 informational
 messages
 .
@@ -1600,7 +1593,6 @@ title
 message
 actions
 )
-*
 is
 optional
 and
@@ -1640,7 +1632,6 @@ of
 the
 banner
 .
-*
 Use
 this
 for
@@ -1650,6 +1641,7 @@ text
 such
 as
 a
+*
 heading
 .
 *
@@ -1662,7 +1654,6 @@ below
 the
 title
 .
-*
 Intended
 for
 descriptive
@@ -1685,7 +1676,6 @@ of
 the
 banner
 .
-*
 Commonly
 used
 for
@@ -1696,6 +1686,7 @@ e
 g
 .
 Learn
+*
 More
 Retry
 Dismiss
@@ -1729,13 +1720,13 @@ banner
 such
 as
 background
-*
 and
 content
 color
 .
 Defaults
 to
+*
 [
 BannerColors
 .
@@ -2356,7 +2347,6 @@ companion
 object
 {
 /
-*
 *
 *
 Builder

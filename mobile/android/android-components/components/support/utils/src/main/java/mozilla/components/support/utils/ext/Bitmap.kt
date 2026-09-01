@@ -117,7 +117,6 @@ Bitmap
 to
 .
 *
-*
 return
 the
 scaled

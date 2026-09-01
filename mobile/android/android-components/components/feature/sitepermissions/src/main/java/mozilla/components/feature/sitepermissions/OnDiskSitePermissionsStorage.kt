@@ -437,7 +437,6 @@ toSitePermissionsEntity
 /
 *
 *
-*
 A
 storage
 implementation
@@ -521,6 +520,7 @@ as
 a
 parameter
 .
+*
 *
 param
 sitePermissions
@@ -614,6 +614,7 @@ as
 a
 parameter
 .
+*
 *
 param
 sitePermissions
@@ -709,6 +710,7 @@ the
 origin
 ]
 .
+*
 *
 param
 origin
@@ -935,6 +937,7 @@ Permission
 ]
 .
 *
+*
 return
 a
 map
@@ -1120,6 +1123,7 @@ a
 parameter
 .
 *
+*
 param
 sitePermissions
 the
@@ -1186,7 +1190,6 @@ toSitePermissionsEntity
 /
 *
 *
-*
 Deletes
 all
 sitePermissions
@@ -1232,7 +1235,6 @@ deleteAllSitePermissions
 )
 }
 /
-*
 *
 *
 Returns

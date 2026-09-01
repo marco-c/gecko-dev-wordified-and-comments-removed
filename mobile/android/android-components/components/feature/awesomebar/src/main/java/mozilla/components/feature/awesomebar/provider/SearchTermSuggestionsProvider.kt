@@ -79,6 +79,12 @@ annotation
 .
 IntRange
 import
+java
+.
+util
+.
+UUID
+import
 kotlinx
 .
 coroutines
@@ -180,14 +186,7 @@ search
 ext
 .
 buildSearchUrl
-import
-java
-.
-util
-.
-UUID
 /
-*
 *
 *
 Return
@@ -231,10 +230,10 @@ which
 should
 be
 placed
-*
 below
 the
 ones
+*
 from
 this
 provider
@@ -252,7 +251,6 @@ Int
 =
 1000
 /
-*
 *
 *
 Error
@@ -304,11 +302,11 @@ searches
 done
 with
 the
-*
 specified
 [
 searchEngine
 ]
+*
 allowing
 to
 easily
@@ -335,7 +333,6 @@ the
 PlacesHistoryStorage
 ]
 used
-*
 to
 query
 matching
@@ -390,9 +387,9 @@ of
 returned
 suggestions
 .
-*
 Defaults
 to
+*
 2
 .
 *
@@ -410,7 +407,6 @@ the
 suggestions
 header
 .
-*
 Defaults
 to
 null
@@ -418,6 +414,7 @@ in
 which
 case
 the
+*
 [
 searchEngine
 ]
@@ -445,7 +442,6 @@ speculativeConnect
 ]
 for
 the
-*
 highest
 scored
 suggestion

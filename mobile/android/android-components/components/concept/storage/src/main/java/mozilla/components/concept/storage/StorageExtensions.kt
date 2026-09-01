@@ -106,10 +106,10 @@ on
 [
 PeriodicWorkRequestBuilder
 ]
-*
 with
 a
 given
+*
 [
 StorageMaintenanceWorker
 ]
@@ -170,7 +170,6 @@ return
 PeriodicWorkRequest
 ]
 .
-*
 *
 /
 inline
@@ -275,12 +274,12 @@ block
 ]
 .
 *
+*
 return
 [
 Constraints
 ]
 .
-*
 *
 /
 fun

@@ -149,7 +149,6 @@ a
 confirm
 dialog
 .
-*
 The
 user
 has
@@ -157,10 +156,10 @@ two
 possible
 options
 allow
+*
 the
 request
 or
-*
 deny
 it
 (
@@ -177,10 +176,10 @@ button
 is
 pressed
 the
-*
 feature
 .
 onConfirm
+*
 function
 will
 be

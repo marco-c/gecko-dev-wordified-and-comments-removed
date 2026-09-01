@@ -143,7 +143,6 @@ the
 chooser
 .
 *
-*
 return
 a
 new

@@ -115,7 +115,6 @@ Logger
 /
 *
 *
-*
 Use
 cases
 for
@@ -142,7 +141,6 @@ AutofillUseCases
 /
 *
 *
-*
 Returns
 true
 if
@@ -159,7 +157,6 @@ false
 in
 the
 case
-*
 of
 an
 exception
@@ -200,7 +197,6 @@ getOrDefault
 false
 )
 /
-*
 *
 *
 Returns
@@ -314,7 +310,6 @@ false
 /
 *
 *
-*
 Opens
 the
 system
@@ -375,7 +370,6 @@ intent
 )
 }
 /
-*
 *
 *
 Disables

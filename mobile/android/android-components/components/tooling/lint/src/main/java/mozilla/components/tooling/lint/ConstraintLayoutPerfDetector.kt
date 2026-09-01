@@ -306,12 +306,12 @@ update
 /
 2020
 .
-*
 In
 the
 future
 we
 could
+*
 generate
 this
 list
@@ -321,7 +321,6 @@ prevent
 transcription
 errors
 and
-*
 errors
 from
 refactors
@@ -1028,12 +1027,12 @@ are
 detected
 in
 the
-*
 same
 file
 .
 This
 is
+*
 distinct
 from
 [
@@ -1046,7 +1045,6 @@ handles
 custom
 views
 .
-*
 We
 don
 '
@@ -1056,6 +1054,7 @@ to
 combine
 them
 because
+*
 solving
 a
 custom
@@ -1064,7 +1063,6 @@ ConstraintLayout
 problem
 rarely
 has
-*
 a
 clear
 cut
@@ -1080,6 +1078,7 @@ fail
 the
 build
 on
+*
 checks
 that
 aren
@@ -1172,11 +1171,11 @@ as
 custom
 views
 are
-*
 detected
 in
 the
 same
+*
 file
 .
 See
@@ -1300,11 +1299,11 @@ at
 runtime
 but
 added
-*
 from
 a
 different
 file
+*
 (
 e
 .
@@ -1346,12 +1345,12 @@ t
 know
 about
 them
-*
 (
 though
 we
 could
 generate
+*
 this
 information
 and
@@ -1853,7 +1852,6 @@ tagName
 /
 *
 *
-*
 Takes
 paragraphs
 wrapped
@@ -1869,7 +1867,6 @@ line
 preserving
 white
 space
-*
 between
 paragraphs
 .

@@ -141,7 +141,6 @@ each
 API
 function
 .
-*
 This
 is
 not
@@ -150,6 +149,7 @@ of
 all
 available
 public
+*
 APIs
 .
 *
@@ -158,7 +158,6 @@ interface
 PackageManagerWrapper
 {
 /
-*
 *
 *
 see
@@ -188,7 +187,6 @@ List
 ResolveInfo
 >
 /
-*
 *
 *
 see
@@ -218,7 +216,6 @@ ResolveInfo
 /
 *
 *
-*
 see
 [
 PackageManager
@@ -244,7 +241,6 @@ ResolveInfoFlags
 ResolveInfo
 ?
 /
-*
 *
 *
 see
@@ -300,11 +296,9 @@ getPackageInfo
 is
 not
 implemented
-*
 in
 subclass
 .
-*
 *
 see
 [
@@ -349,7 +343,6 @@ not
 installed
 .
 *
-*
 see
 [
 PackageManager
@@ -401,12 +394,10 @@ getApplicationInfo
 ]
 is
 not
-*
 implemented
 in
 subclass
 .
-*
 *
 see
 [
@@ -448,13 +439,11 @@ given
 name
 cannot
 be
-*
 found
 on
 the
 system
 .
-*
 *
 see
 [
@@ -501,7 +490,6 @@ the
 data
 returned
 .
-*
 *
 return
 A

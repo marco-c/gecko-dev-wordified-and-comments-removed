@@ -67,6 +67,18 @@ state
 .
 selector
 import
+java
+.
+net
+.
+URI
+import
+java
+.
+net
+.
+URISyntaxException
+import
 mozilla
 .
 components
@@ -138,18 +150,6 @@ log
 logger
 .
 Logger
-import
-java
-.
-net
-.
-URI
-import
-java
-.
-net
-.
-URISyntaxException
 /
 /
 Extension
@@ -219,7 +219,6 @@ id
 /
 *
 *
-*
 The
 currently
 selected
@@ -282,7 +281,6 @@ matching
 tab
 could
 be
-*
 found
 .
 *
@@ -371,7 +369,6 @@ matching
 tab
 could
 be
-*
 found
 .
 *
@@ -461,7 +458,6 @@ matching
 tab
 could
 be
-*
 found
 .
 *
@@ -552,7 +548,6 @@ matching
 tab
 could
 be
-*
 found
 .
 *
@@ -644,7 +639,6 @@ Returns
 null
 if
 no
-*
 matching
 tab
 could
@@ -716,7 +710,6 @@ tabId
 /
 *
 *
-*
 Finds
 and
 returns
@@ -782,12 +775,12 @@ given
 EngineSession
 ]
 .
-*
 Returns
 null
 if
 no
 matching
+*
 tab
 could
 be
@@ -883,9 +876,9 @@ null
 .
 Returns
 null
-*
 if
 no
+*
 matching
 tab
 could
@@ -1007,9 +1000,9 @@ null
 .
 Returns
 null
-*
 if
 no
+*
 matching
 tab
 could
@@ -1227,11 +1220,11 @@ of
 the
 url
 .
-*
 Returns
 null
 if
 no
+*
 matching
 tab
 could
@@ -1339,6 +1332,7 @@ requested
 type
 .
 *
+*
 param
 private
 If
@@ -1350,7 +1344,6 @@ will
 be
 returned
 .
-*
 If
 false
 all
@@ -1395,7 +1388,6 @@ private
 /
 *
 *
-*
 List
 of
 private
@@ -1423,7 +1415,6 @@ private
 true
 )
 /
-*
 *
 *
 List
@@ -1458,7 +1449,6 @@ private
 false
 )
 /
-*
 *
 *
 List
@@ -1511,7 +1501,6 @@ identifier
 the
 string
 after
-*
 the
 #
 in
@@ -1519,6 +1508,7 @@ a
 url
 (
 eg
+*
 http
 :
 /
@@ -1714,7 +1704,6 @@ s
 the
 last
 character
-*
 otherwise
 the
 original

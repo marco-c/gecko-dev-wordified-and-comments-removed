@@ -157,8 +157,8 @@ ActivityDelegate
 to
 adds
 support
-*
 for
+*
 [
 WebAuthn
 ]

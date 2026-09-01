@@ -316,10 +316,10 @@ leave
 the
 trail
 of
-*
 indicators
 to
 show
+*
 progress
 instead
 of
@@ -381,10 +381,10 @@ color
 of
 previous
 page
-*
 indicators
 in
 case
+*
 [
 leaveTrail
 ]
@@ -419,7 +419,6 @@ to
 show
 progress
 .
-*
 This
 defaults
 to
@@ -427,6 +426,7 @@ false
 and
 just
 shows
+*
 the
 current
 one

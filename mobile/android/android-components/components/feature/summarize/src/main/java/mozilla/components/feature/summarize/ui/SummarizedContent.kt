@@ -197,9 +197,11 @@ components
 .
 ui
 .
-richtext
+icons
 .
-RichText
+R
+as
+iconsR
 import
 mozilla
 .
@@ -207,11 +209,9 @@ components
 .
 ui
 .
-icons
+richtext
 .
-R
-as
-iconsR
+RichText
 Composable
 internal
 fun

@@ -195,7 +195,6 @@ DOMAINS_CONTRACTED_SUBLIST_SIZE
 /
 *
 *
-*
 Classes
 of
 items
@@ -226,6 +225,7 @@ a
 list
 item
 .
+*
 *
 param
 permissionText
@@ -269,6 +269,7 @@ a
 checkbox
 .
 *
+*
 param
 permissionText
 -
@@ -307,6 +308,7 @@ domain
 that
 is
 required
+*
 *
 param
 domain
@@ -348,6 +350,7 @@ of
 domain
 items
 *
+*
 param
 isShowAction
 -
@@ -363,7 +366,6 @@ hiding
 the
 full
 list
-*
 of
 domains
 *
@@ -391,6 +393,7 @@ to
 be
 displayed
 .
+*
 *
 param
 warningText
@@ -420,7 +423,6 @@ RequiredPermissionsListItem
 )
 }
 /
-*
 *
 *
 [
@@ -902,7 +904,6 @@ toList
 /
 *
 *
-*
 ViewHolder
 for
 displaying
@@ -944,7 +945,6 @@ permission_required_item
 /
 *
 *
-*
 bind
 [
 RequiredPermissionsListItem
@@ -976,7 +976,6 @@ permissionText
 }
 }
 /
-*
 *
 *
 ViewHolder
@@ -1018,7 +1017,6 @@ id
 permission_opt_in_item
 )
 /
-*
 *
 *
 bind
@@ -1075,7 +1073,6 @@ isChecked
 /
 *
 *
-*
 ViewHolder
 for
 displaying
@@ -1117,7 +1114,6 @@ permission_domain_item
 /
 *
 *
-*
 bind
 [
 RequiredPermissionsListItem
@@ -1151,7 +1147,6 @@ domain
 /
 *
 *
-*
 ViewHolder
 for
 displaying
@@ -1167,7 +1162,6 @@ or
 hide
 the
 full
-*
 list
 of
 domains
@@ -1215,6 +1209,7 @@ ShowHideDomainAction
 data
 to
 view
+*
 *
 param
 callback
@@ -1307,7 +1302,6 @@ invoke
 /
 *
 *
-*
 ViewHolder
 for
 displaying
@@ -1379,7 +1373,6 @@ id
 add_on_messagebar_warning_learn_more_link
 )
 /
-*
 *
 *
 bind
@@ -1858,10 +1851,10 @@ domains
 ]
 or
 contracted
-*
 and
 only
 show
+*
 [
 DOMAINS_CONTRACTED_SUBLIST_SIZE
 ]
@@ -1891,7 +1884,6 @@ toList
 )
 }
 /
-*
 *
 *
 Function
@@ -1941,7 +1933,6 @@ change
 if
 a
 user
-*
 expands
 or
 shrinks
@@ -1987,11 +1978,11 @@ and
 domains
 ]
 which
-*
 can
 be
 expanded
 or
+*
 contracted
 by
 a

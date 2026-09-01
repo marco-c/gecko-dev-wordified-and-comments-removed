@@ -69,7 +69,6 @@ concept
 /
 *
 *
-*
 A
 prompt
 that
@@ -88,7 +87,6 @@ interface
 ToggleablePrompt
 {
 /
-*
 *
 *
 Listener
@@ -122,7 +120,6 @@ _
 /
 *
 *
-*
 Whether
 the
 prompt
@@ -139,7 +136,6 @@ Boolean
 /
 *
 *
-*
 Shows
 this
 prompt
@@ -153,7 +149,6 @@ showPrompt
 /
 *
 *
-*
 Hide
 this
 prompt
@@ -165,7 +160,6 @@ hidePrompt
 (
 )
 /
-*
 *
 *
 Listener
@@ -186,7 +180,6 @@ Listener
 /
 *
 *
-*
 Informs
 when
 the
@@ -205,7 +198,6 @@ onShown
 (
 )
 /
-*
 *
 *
 Informs

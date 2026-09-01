@@ -103,7 +103,6 @@ ArrayList
 /
 *
 *
-*
 Stores
 safe
 -
@@ -503,7 +502,6 @@ next
 /
 *
 *
-*
 Check
 if
 this
@@ -587,7 +585,6 @@ about
 )
 }
 /
-*
 *
 *
 Check
@@ -863,7 +860,6 @@ safelist
 /
 *
 *
-*
 A
 [
 Trie
@@ -953,7 +949,6 @@ provided
 string
 and
 stores
-*
 the
 provide
 safelist
@@ -1036,7 +1031,6 @@ provided
 string
 and
 stores
-*
 the
 provide
 safelist
@@ -1132,7 +1126,6 @@ companion
 object
 {
 /
-*
 *
 *
 Creates

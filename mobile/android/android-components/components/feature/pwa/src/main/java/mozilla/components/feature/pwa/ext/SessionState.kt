@@ -121,7 +121,6 @@ installable
 web
 app
 .
-*
 If
 so
 return
@@ -131,6 +130,7 @@ app
 manifest
 .
 Otherwise
+*
 return
 null
 .

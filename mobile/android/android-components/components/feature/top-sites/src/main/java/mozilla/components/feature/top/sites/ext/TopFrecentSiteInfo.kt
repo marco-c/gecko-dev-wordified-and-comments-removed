@@ -105,7 +105,6 @@ tryGetHostFromUrl
 /
 *
 *
-*
 Returns
 a
 [

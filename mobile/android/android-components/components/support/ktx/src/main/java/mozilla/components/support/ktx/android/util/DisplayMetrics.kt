@@ -89,7 +89,6 @@ roundToInt
 /
 *
 *
-*
 Converts
 a
 value
@@ -132,7 +131,6 @@ toFloat
 displayMetrics
 )
 /
-*
 *
 *
 Converts
@@ -257,7 +255,6 @@ displayMetrics
 /
 *
 *
-*
 An
 interface
 for
@@ -271,7 +268,6 @@ dp
 to
 pixels
 .
-*
 *
 /
 interface

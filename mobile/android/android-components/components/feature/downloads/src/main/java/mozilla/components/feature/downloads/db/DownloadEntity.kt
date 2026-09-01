@@ -101,7 +101,6 @@ DownloadState
 /
 *
 *
-*
 Internal
 entity
 representing
@@ -320,7 +319,6 @@ values
 from
 the
 db
-*
 as
 the
 string
@@ -331,6 +329,7 @@ long
 that
 it
 could
+*
 break
 the
 maximum
@@ -339,7 +338,6 @@ size
 for
 a
 cursor
-*
 causing
 SQLiteBIobTooBigException
 when
@@ -347,6 +345,7 @@ restoring
 downloads
 from
 the
+*
 DB
 .
 *

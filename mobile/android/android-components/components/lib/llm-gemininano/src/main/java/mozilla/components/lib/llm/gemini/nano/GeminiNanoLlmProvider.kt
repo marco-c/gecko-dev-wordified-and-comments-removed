@@ -315,7 +315,6 @@ GenerativeModel
 .
 Defaults
 to
-*
 [
 Generation
 .
@@ -325,6 +324,7 @@ getClient
 The
 model
 is
+*
 instantiated
 lazily
 on
@@ -389,7 +389,6 @@ Idle
 /
 *
 *
-*
 A
 [
 StateFlow
@@ -442,7 +441,6 @@ feature
 on
 the
 device
-*
 and
 updates
 [
@@ -567,7 +565,6 @@ it
 is
 in
 the
-*
 [
 State
 .
@@ -590,12 +587,12 @@ ReadyToDownload
 ]
 this
 method
-*
 returns
 immediately
 without
 performing
 any
+*
 work
 .
 *
@@ -612,7 +609,6 @@ until
 the
 download
 flow
-*
 completes
 or
 fails

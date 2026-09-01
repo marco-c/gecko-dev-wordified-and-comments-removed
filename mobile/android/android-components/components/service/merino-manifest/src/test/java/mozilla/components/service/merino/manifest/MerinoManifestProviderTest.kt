@@ -95,6 +95,12 @@ runners
 .
 AndroidJUnit4
 import
+kotlin
+.
+test
+.
+assertNotNull
+import
 mozilla
 .
 components
@@ -174,12 +180,6 @@ mockito
 Mockito
 .
 doReturn
-import
-kotlin
-.
-test
-.
-assertNotNull
 private
 val
 TEST_JSON

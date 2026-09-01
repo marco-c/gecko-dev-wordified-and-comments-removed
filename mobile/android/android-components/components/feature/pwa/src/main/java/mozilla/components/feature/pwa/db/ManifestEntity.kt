@@ -99,7 +99,6 @@ WebAppManifest
 /
 *
 *
-*
 Internal
 entity
 representing

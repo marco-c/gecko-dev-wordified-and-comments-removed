@@ -194,9 +194,9 @@ be
 persisted
 and
 return
-*
 information
 about
+*
 why
 it
 can
@@ -271,10 +271,10 @@ Login
 or
 queries
 underlying
-*
 storage
 for
 potential
+*
 dupes
 list
 of

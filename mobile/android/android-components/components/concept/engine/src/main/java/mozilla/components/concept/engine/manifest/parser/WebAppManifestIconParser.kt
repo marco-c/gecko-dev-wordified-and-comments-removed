@@ -69,6 +69,12 @@ manifest
 .
 parser
 import
+java
+.
+util
+.
+Locale
+import
 mozilla
 .
 components
@@ -152,12 +158,6 @@ org
 json
 .
 JSONObject
-import
-java
-.
-util
-.
-Locale
 private
 val
 whitespace
@@ -173,7 +173,6 @@ toRegex
 (
 )
 /
-*
 *
 *
 Parses

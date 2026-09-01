@@ -139,7 +139,6 @@ Observer
 /
 *
 *
-*
 Sets
 a
 [
@@ -169,7 +168,6 @@ MenuController
 /
 *
 *
-*
 Show
 the
 indicator
@@ -190,7 +188,6 @@ MenuEffect
 ?
 )
 /
-*
 *
 *
 Sets
@@ -217,7 +214,6 @@ Int
 /
 *
 *
-*
 Observer
 for
 the
@@ -230,7 +226,6 @@ interface
 Observer
 {
 /
-*
 *
 *
 Listener
@@ -250,7 +245,6 @@ onShow
 =
 Unit
 /
-*
 *
 *
 Listener

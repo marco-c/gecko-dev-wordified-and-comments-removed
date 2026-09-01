@@ -73,6 +73,12 @@ room
 .
 InvalidationTracker
 import
+java
+.
+util
+.
+Date
+import
 mozilla
 .
 components
@@ -178,12 +184,6 @@ mockito
 Mockito
 .
 verify
-import
-java
-.
-util
-.
-Date
 class
 UpdateAttemptStorageTest
 {

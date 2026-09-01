@@ -81,7 +81,6 @@ IntentSender
 /
 *
 *
-*
 Notifies
 applications
 or

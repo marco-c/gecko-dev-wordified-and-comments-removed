@@ -399,7 +399,6 @@ the
 image
 is
 saved
-*
 so
 we
 track
@@ -493,7 +492,6 @@ callback
 invoked
 when
 permissions
-*
 need
 to
 be
@@ -507,6 +505,7 @@ e
 g
 .
 a
+*
 file
 picker
 )
@@ -514,7 +513,6 @@ can
 be
 displayed
 .
-*
 Once
 the
 request
@@ -588,7 +586,6 @@ FilePicker
 "
 )
 /
-*
 *
 *
 Cache
@@ -1294,7 +1291,6 @@ prompt
 requests
 handled
 by
-*
 other
 apps
 like
@@ -1556,12 +1552,12 @@ completed
 It
 will
 then
-*
 either
 process
 or
 dismiss
 the
+*
 prompt
 request
 .
@@ -1680,12 +1676,12 @@ to
 notify
 the
 feature
-*
 that
 all
 the
 required
 permissions
+*
 have
 been
 granted
@@ -1695,7 +1691,6 @@ pending
 [
 PromptRequest
 ]
-*
 can
 be
 performed
@@ -1710,7 +1705,6 @@ has
 not
 been
 granted
-*
 [
 onNeedToRequestPermissions
 ]
@@ -1759,11 +1753,11 @@ the
 feature
 that
 one
-*
 or
 more
 required
 permissions
+*
 have
 been
 denied

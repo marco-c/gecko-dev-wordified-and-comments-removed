@@ -161,7 +161,6 @@ mozac_support_base_shared_ids_helper
 /
 *
 *
-*
 Helper
 for
 component
@@ -192,7 +191,6 @@ ID_LIFETIME
 ID_OFFSET
 )
 /
-*
 *
 *
 Get
@@ -229,7 +227,6 @@ context
 tag
 )
 /
-*
 *
 *
 Get

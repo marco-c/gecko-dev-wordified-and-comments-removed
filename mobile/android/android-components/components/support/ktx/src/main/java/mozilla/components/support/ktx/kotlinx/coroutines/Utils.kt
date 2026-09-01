@@ -96,7 +96,6 @@ launch
 *
 *
 *
-*
 Returns
 a
 function
@@ -115,10 +114,10 @@ the
 [
 skipTimeInMs
 ]
-*
 passes
 then
 the
+*
 latest
 value
 passed
@@ -136,7 +135,6 @@ before
 [
 skipTimeInMs
 ]
-*
 passes
 will
 be
@@ -146,6 +144,7 @@ All
 calls
 to
 the
+*
 returned
 function
 must

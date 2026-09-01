@@ -67,7 +67,6 @@ sync
 /
 *
 *
-*
 Results
 of
 running
@@ -89,7 +88,6 @@ SyncStatus
 /
 *
 *
-*
 Sync
 succeeded
 successfully
@@ -103,7 +101,6 @@ SyncStatus
 (
 )
 /
-*
 *
 *
 Sync
@@ -131,7 +128,6 @@ SyncStatus
 /
 *
 *
-*
 Describes
 a
 "
@@ -150,7 +146,6 @@ interface
 SyncableStore
 {
 /
-*
 *
 *
 Registers

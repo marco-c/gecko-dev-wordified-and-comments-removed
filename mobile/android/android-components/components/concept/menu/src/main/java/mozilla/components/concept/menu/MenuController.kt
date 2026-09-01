@@ -103,7 +103,6 @@ Observable
 /
 *
 *
-*
 Controls
 a
 popup
@@ -168,7 +167,6 @@ when
 the
 device
 orientation
-*
 is
 changed
 .
@@ -197,7 +195,6 @@ PopupWindow
 /
 *
 *
-*
 Dismiss
 the
 menu
@@ -215,7 +212,6 @@ dismiss
 (
 )
 /
-*
 *
 *
 Changes
@@ -240,7 +236,6 @@ MenuCandidate
 /
 *
 *
-*
 Observer
 for
 the
@@ -253,7 +248,6 @@ interface
 Observer
 {
 /
-*
 *
 *
 Called
@@ -279,7 +273,6 @@ MenuCandidate
 =
 Unit
 /
-*
 *
 *
 Called

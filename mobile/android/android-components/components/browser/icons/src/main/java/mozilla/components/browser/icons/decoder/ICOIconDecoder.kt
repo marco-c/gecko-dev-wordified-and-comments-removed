@@ -187,11 +187,11 @@ or
 PNG
 format
 .
-*
 A
 mixture
 of
 image
+*
 types
 may
 not

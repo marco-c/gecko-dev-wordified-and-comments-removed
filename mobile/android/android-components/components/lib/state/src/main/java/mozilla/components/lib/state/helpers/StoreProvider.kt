@@ -304,8 +304,8 @@ example
 in
 cases
 like
-*
 the
+*
 ViewLifecycleOwner
 from
 a
@@ -320,11 +320,11 @@ to
 another
 fragment
 but
-*
 then
 a
 new
 one
+*
 created
 when
 the
@@ -392,7 +392,6 @@ this
 StoreProvider
 ]
 .
-*
 This
 is
 needed
@@ -404,6 +403,7 @@ access
 and
 persist
 the
+*
 latest
 [
 State
@@ -525,7 +525,6 @@ it
 was
 already
 build
-*
 in
 the
 current
@@ -533,6 +532,7 @@ scope
 (
 usually
 a
+*
 fragment
 or
 an
@@ -558,11 +558,11 @@ again
 after
 activity
 recreations
-*
 even
 if
 it
 has
+*
 it
 '
 s
@@ -627,13 +627,13 @@ in
 the
 current
 scope
-*
 (
 usually
 a
 fragment
 or
 an
+*
 activity
 )
 .
@@ -660,12 +660,12 @@ the
 scope
 is
 alive
-*
 (
 e
 .
 g
 .
+*
 if
 it
 is
@@ -704,10 +704,10 @@ Store
 of
 this
 type
-*
 was
 not
 already
+*
 built
 and
 persisted
@@ -716,7 +716,6 @@ the
 current
 scope
 .
-*
 This
 will
 receive
@@ -729,6 +728,7 @@ available
 )
 of
 the
+*
 previously
 built
 [
@@ -738,7 +738,6 @@ of
 the
 same
 type
-*
 allowing
 to
 build
@@ -753,6 +752,7 @@ that
 will
 now
 be
+*
 persisted
 .
 *
@@ -863,7 +863,6 @@ and
 initialState
 ]
 .
-*
 If
 this
 provider
@@ -871,6 +870,7 @@ already
 built
 this
 store
+*
 type
 then
 the
@@ -1107,7 +1107,6 @@ object
 /
 *
 *
-*
 Get
 a
 [
@@ -1206,8 +1205,8 @@ this
 [
 Fragment
 ]
-*
 surviving
+*
 configuration
 changes
 and
@@ -1218,7 +1217,6 @@ this
 [
 Fragment
 ]
-*
 is
 removed
 from
@@ -1226,6 +1224,7 @@ the
 backstack
 or
 until
+*
 process
 death
 .
@@ -1265,9 +1264,9 @@ state
 if
 available
 )
-*
 of
 the
+*
 previously
 built
 [
@@ -1287,7 +1286,6 @@ new
 Store
 ]
 instance
-*
 to
 persist
 .
@@ -1313,11 +1311,11 @@ Fragment
 onAttach
 (
 )
-*
 and
 the
 result
 be
+*
 used
 i
 .
@@ -1341,12 +1339,12 @@ Fragment
 onCreateView
 (
 )
-*
 with
 access
 prior
 to
 that
+*
 resulting
 in
 IllegalStateException
@@ -1440,11 +1438,11 @@ this
 [
 AppCompatActivity
 ]
-*
 is
 finished
 or
 until
+*
 process
 death
 .
@@ -1484,9 +1482,9 @@ state
 if
 available
 )
-*
 of
 the
+*
 previously
 built
 [
@@ -1506,7 +1504,6 @@ new
 Store
 ]
 instance
-*
 to
 persist
 .
@@ -1532,10 +1529,10 @@ Fragment
 onAttach
 (
 )
-*
 with
 access
 prior
+*
 to
 that
 resulting
@@ -1619,8 +1616,8 @@ this
 [
 AppCompatActivity
 ]
-*
 surviving
+*
 configuration
 changes
 and
@@ -1631,12 +1628,12 @@ this
 [
 AppCompatActivity
 ]
-*
 is
 finished
 or
 until
 process
+*
 death
 .
 *
@@ -1675,9 +1672,9 @@ state
 if
 available
 )
-*
 of
 the
+*
 previously
 built
 [
@@ -1697,7 +1694,6 @@ new
 Store
 ]
 instance
-*
 to
 persist
 .
@@ -1716,13 +1712,13 @@ attached
 to
 the
 Application
-*
 with
 access
 prior
 to
 that
 will
+*
 result
 in
 IllegalStateException
@@ -1798,11 +1794,11 @@ long
 as
 this
 the
-*
 [
 Fragment
 ]
 or
+*
 [
 AppCompatActivity
 ]
@@ -1815,9 +1811,9 @@ shown
 surviving
 configuration
 changes
-*
 and
 activity
+*
 recreations
 until
 this
@@ -1833,9 +1829,9 @@ is
 removed
 from
 the
-*
 backstack
 the
+*
 [
 AppCompatActivity
 ]
@@ -1911,9 +1907,9 @@ state
 if
 available
 )
-*
 of
 the
+*
 previously
 built
 [
@@ -1933,7 +1929,6 @@ new
 Store
 ]
 instance
-*
 to
 persist
 .
@@ -2047,9 +2042,9 @@ this
 [
 NavBackStackEntry
 ]
-*
 which
 may
+*
 represent
 a
 single
@@ -2063,9 +2058,9 @@ allowing
 the
 store
 to
-*
 survive
 configuration
+*
 changes
 and
 activity
@@ -2075,7 +2070,6 @@ this
 [
 NavBackStackEntry
 ]
-*
 is
 removed
 from
@@ -2083,6 +2077,7 @@ the
 navigation
 backstack
 or
+*
 until
 process
 death
@@ -2123,9 +2118,9 @@ state
 if
 available
 )
-*
 of
 the
+*
 previously
 built
 [
@@ -2145,7 +2140,6 @@ new
 Store
 ]
 instance
-*
 to
 persist
 .
@@ -2215,7 +2209,6 @@ with
 the
 provided
 parameters
-*
 that
 will
 have
@@ -2225,6 +2218,7 @@ s
 state
 persisted
 between
+*
 Activity
 recreations
 .
@@ -2290,9 +2284,9 @@ state
 if
 available
 )
-*
 of
 the
+*
 previously
 built
 [
@@ -2312,7 +2306,6 @@ new
 Store
 ]
 instance
-*
 to
 persist
 .

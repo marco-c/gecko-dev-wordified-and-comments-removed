@@ -81,7 +81,6 @@ without
 causing
 performance
 degradation
-*
 e
 .
 g
@@ -93,10 +92,10 @@ a
 bookmarklet
 or
 a
+*
 data
 URI
 .
-*
 https
 :
 /

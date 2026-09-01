@@ -85,6 +85,12 @@ runners
 .
 AndroidJUnit4
 import
+java
+.
+io
+.
+ByteArrayOutputStream
+import
 mozilla
 .
 components
@@ -154,12 +160,6 @@ mozilla
 geckoview
 .
 GeckoSession
-import
-java
-.
-io
-.
-ByteArrayOutputStream
 RunWith
 (
 AndroidJUnit4

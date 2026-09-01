@@ -233,9 +233,9 @@ implementation
 to
 display
 a
-*
 <
 a
+*
 href
 =
 "
@@ -267,10 +267,10 @@ authentication
 /
 a
 >
-*
 dialog
 with
 native
+*
 dialogs
 .
 *
@@ -484,7 +484,6 @@ withCenterAlignedButtons
 )
 }
 /
-*
 *
 *
 Truncates
@@ -937,6 +936,7 @@ a
 AuthenticationDialogFragment
 ]
 *
+*
 param
 sessionId
 the
@@ -980,12 +980,12 @@ should
 automatically
 be
 dismissed
-*
 when
 a
 new
 page
 is
+*
 loaded
 .
 *

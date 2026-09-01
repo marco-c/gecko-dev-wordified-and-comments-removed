@@ -115,7 +115,6 @@ collect
 /
 *
 *
-*
 Facts
 emitted
 for
@@ -131,7 +130,6 @@ class
 FindInPageFacts
 {
 /
-*
 *
 *
 Items

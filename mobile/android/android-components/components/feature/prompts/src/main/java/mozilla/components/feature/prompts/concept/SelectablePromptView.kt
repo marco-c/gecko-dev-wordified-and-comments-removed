@@ -69,7 +69,6 @@ concept
 /
 *
 *
-*
 A
 prompt
 that
@@ -97,7 +96,6 @@ T
 /
 *
 *
-*
 Listener
 for
 user
@@ -117,7 +115,6 @@ T
 >
 ?
 /
-*
 *
 *
 Interface
@@ -176,7 +173,6 @@ option
 T
 )
 /
-*
 *
 *
 Called

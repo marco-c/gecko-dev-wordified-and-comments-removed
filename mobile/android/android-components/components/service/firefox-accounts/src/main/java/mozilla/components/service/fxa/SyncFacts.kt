@@ -113,7 +113,6 @@ collect
 /
 *
 *
-*
 Facts
 emitted
 for
@@ -130,7 +129,6 @@ class
 SyncFacts
 {
 /
-*
 *
 *
 Specific

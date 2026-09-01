@@ -111,6 +111,12 @@ rules
 .
 ActivityScenarioRule
 import
+kotlin
+.
+test
+.
+assertNotNull
+import
 org
 .
 junit
@@ -130,12 +136,6 @@ org
 junit
 .
 Test
-import
-kotlin
-.
-test
-.
-assertNotNull
 import
 org
 .

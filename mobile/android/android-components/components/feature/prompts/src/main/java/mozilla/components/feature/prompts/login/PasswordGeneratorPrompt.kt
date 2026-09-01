@@ -163,7 +163,7 @@ androidx
 .
 compose
 .
-material
+material3
 .
 Icon
 import
@@ -171,7 +171,7 @@ androidx
 .
 compose
 .
-material
+material3
 .
 MaterialTheme
 import
@@ -179,7 +179,7 @@ androidx
 .
 compose
 .
-material
+material3
 .
 Text
 import
@@ -688,7 +688,7 @@ MaterialTheme
 .
 typography
 .
-subtitle2
+titleSmall
 )
 }
 }
@@ -716,14 +716,14 @@ primaryText
 =
 MaterialTheme
 .
-colors
+colorScheme
 .
 primary
 headerText
 =
 MaterialTheme
 .
-colors
+colorScheme
 .
 onBackground
 )

@@ -133,11 +133,11 @@ in
 main
 menu
 .
-*
 The
 id
 of
 the
+*
 web
 extension
 to

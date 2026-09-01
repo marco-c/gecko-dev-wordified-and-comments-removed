@@ -264,8 +264,8 @@ manually
 or
 obtained
 from
-*
 a
+*
 different
 source
 .
@@ -283,7 +283,6 @@ Response
 /
 *
 *
-*
 The
 request
 interceptor
@@ -295,7 +294,6 @@ interface
 Chain
 {
 /
-*
 *
 *
 The
@@ -318,7 +316,6 @@ request
 :
 Request
 /
-*
 *
 *
 Proceed
@@ -346,7 +343,6 @@ Response
 }
 }
 /
-*
 *
 *
 Creates
@@ -416,8 +412,8 @@ interceptor
 chain
 before
 executing
-*
 the
+*
 request
 .
 *

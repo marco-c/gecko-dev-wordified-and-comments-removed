@@ -75,6 +75,12 @@ content
 .
 ComponentCallbacks2
 import
+kotlin
+.
+test
+.
+assertNotNull
+import
 kotlinx
 .
 coroutines
@@ -252,12 +258,6 @@ mockito
 Mockito
 .
 verify
-import
-kotlin
-.
-test
-.
-assertNotNull
 class
 TrimMemoryMiddlewareTest
 {

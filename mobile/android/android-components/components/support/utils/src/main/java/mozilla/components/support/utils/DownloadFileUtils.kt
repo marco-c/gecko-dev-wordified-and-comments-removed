@@ -96,7 +96,6 @@ such
 as
 opening
 files
-*
 creating
 intents
 and
@@ -104,6 +103,7 @@ resolving
 content
 types
 and
+*
 URIs
 .
 *
@@ -112,7 +112,6 @@ interface
 DownloadFileUtils
 {
 /
-*
 *
 *
 The
@@ -162,12 +161,12 @@ URLUtil
 .
 guessFileName
 ]
-*
 which
 unfortunately
 does
 not
 implement
+*
 RFC
 5987
 .
@@ -517,16 +516,15 @@ shared
 with
 other
 applications
-*
 converting
 file
 URIs
 to
 content
 URIs
+*
 via
 FileProvider
-*
 and
 Storage
 Access
@@ -763,10 +761,10 @@ overwriting
 existing
 files
 .
-*
 This
 function
 handles
+*
 both
 standard
 file
@@ -921,10 +919,10 @@ g
 .
 file
 not
-*
 found
 permission
 denied
+*
 or
 an
 error
@@ -962,7 +960,6 @@ within
 a
 directory
 .
-*
 This
 method
 handles
@@ -974,6 +971,7 @@ and
 Storage
 Access
 Framework
+*
 (
 SAF
 )

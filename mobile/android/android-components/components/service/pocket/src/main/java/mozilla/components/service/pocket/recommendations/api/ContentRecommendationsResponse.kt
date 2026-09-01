@@ -331,10 +331,10 @@ This
 is
 provided
 to
-*
 include
 in
 telemetry
+*
 payloads
 .
 *

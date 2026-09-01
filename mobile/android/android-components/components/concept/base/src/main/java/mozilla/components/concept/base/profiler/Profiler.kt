@@ -104,11 +104,11 @@ without
 a
 duration
 )
-*
 you
 can
 directly
 use
+*
 engine
 .
 profiler
@@ -122,7 +122,6 @@ name
 "
 )
 .
-*
 Or
 if
 you
@@ -172,7 +171,6 @@ and
 end
 time
 )
-*
 you
 can
 use
@@ -181,6 +179,7 @@ like
 this
 it
 will
+*
 automatically
 get
 the
@@ -433,13 +432,13 @@ get
 more
 information
 to
-*
 add
 inside
 the
 marker
 but
 you
+*
 think
 it
 '
@@ -453,7 +452,6 @@ heavy
 and
 useless
 )
-*
 when
 profiler
 is
@@ -547,7 +545,6 @@ the
 add
 markers
 .
-*
 It
 '
 s
@@ -558,12 +555,12 @@ it
 s
 computationally
 heavy
+*
 to
 get
 startTime
 or
 the
-*
 additional
 text
 for
@@ -576,10 +573,10 @@ can
 be
 wrapped
 with
-*
 isProfilerActive
 if
 check
+*
 to
 reduce
 the
@@ -631,7 +628,6 @@ the
 marker
 events
 .
-*
 can
 be
 used
@@ -643,7 +639,6 @@ this
 <
 code
 >
-*
 val
 startTime
 =
@@ -655,7 +650,6 @@ profiler
 getProfilerTime
 (
 )
-*
 .
 .
 .
@@ -681,7 +675,6 @@ name
 "
 startTime
 )
-*
 <
 /
 code
@@ -727,7 +720,6 @@ the
 given
 arguments
 .
-*
 It
 can
 be
@@ -736,6 +728,7 @@ for
 either
 adding
 a
+*
 point
 -
 in
@@ -747,7 +740,6 @@ a
 duration
 marker
 .
-*
 No
 -
 op
@@ -863,7 +855,6 @@ the
 given
 arguments
 .
-*
 End
 time
 will
@@ -872,6 +863,7 @@ added
 automatically
 with
 the
+*
 current
 profiler
 time
@@ -881,7 +873,6 @@ function
 is
 called
 .
-*
 No
 -
 op
@@ -891,12 +882,12 @@ is
 not
 active
 .
-*
 This
 is
 an
 overload
 of
+*
 [
 Profiler
 .
@@ -986,7 +977,6 @@ the
 given
 arguments
 .
-*
 End
 time
 will
@@ -995,6 +985,7 @@ added
 automatically
 with
 the
+*
 current
 profiler
 time
@@ -1004,7 +995,6 @@ function
 is
 called
 .
-*
 No
 -
 op
@@ -1014,12 +1004,12 @@ is
 not
 active
 .
-*
 This
 is
 an
 overload
 of
+*
 [
 Profiler
 .
@@ -1091,7 +1081,6 @@ the
 given
 arguments
 .
-*
 Time
 will
 be
@@ -1099,6 +1088,7 @@ added
 automatically
 with
 the
+*
 current
 profiler
 time
@@ -1108,7 +1098,6 @@ function
 is
 called
 .
-*
 No
 -
 op
@@ -1118,12 +1107,12 @@ is
 not
 active
 .
-*
 This
 is
 an
 overload
 of
+*
 [
 Profiler
 .
@@ -1187,7 +1176,6 @@ the
 given
 arguments
 .
-*
 Time
 will
 be
@@ -1195,6 +1183,7 @@ added
 automatically
 with
 the
+*
 current
 profiler
 time
@@ -1204,7 +1193,6 @@ function
 is
 called
 .
-*
 No
 -
 op
@@ -1214,12 +1202,12 @@ is
 not
 active
 .
-*
 This
 is
 an
 overload
 of
+*
 [
 Profiler
 .
@@ -1270,10 +1258,10 @@ embedders
 which
 want
 to
-*
 control
 the
 profiler
+*
 from
 the
 embedding
@@ -1288,7 +1276,6 @@ an
 easier
 access
 point
-*
 to
 profiling
 as
@@ -1296,6 +1283,7 @@ an
 alternative
 to
 the
+*
 traditional
 way
 of
@@ -1304,7 +1292,6 @@ a
 desktop
 Firefox
 instance
-*
 connected
 via
 USB
@@ -1331,10 +1318,10 @@ thread
 names
 filters
 .
-*
 Each
 filter
 is
+*
 used
 as
 a
@@ -1421,9 +1408,9 @@ byte
 [
 ]
 buffer
-*
 containing
 a
+*
 gzip
 -
 compressed

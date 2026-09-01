@@ -159,7 +159,6 @@ ContentRecommendationsDatabase
 /
 *
 *
-*
 A
 storage
 wrapper
@@ -321,7 +320,6 @@ emptyList
 /
 *
 *
-*
 Deletes
 all
 the
@@ -364,13 +362,13 @@ any
 sponsored
 contents
 that
-*
 are
 no
 longer
 part
 of
 the
+*
 new
 response
 and

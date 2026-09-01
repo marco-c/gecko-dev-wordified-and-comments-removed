@@ -79,6 +79,12 @@ annotation
 .
 VisibleForTesting
 import
+kotlin
+.
+coroutines
+.
+resume
+import
 kotlinx
 .
 coroutines
@@ -204,12 +210,6 @@ support
 utils
 .
 segmentAwareDomainMatch
-import
-kotlin
-.
-coroutines
-.
-resume
 VisibleForTesting
 internal
 const
@@ -220,7 +220,6 @@ BOOKMARKS_AUTOCOMPLETE_SOURCE_NAME
 placesBookmarks
 "
 /
-*
 *
 *
 How
@@ -251,7 +250,6 @@ BOOKMARKS_AUTOCOMPLETE_QUERY_LIMIT
 =
 20
 /
-*
 *
 *
 Implementation
@@ -1420,6 +1418,7 @@ specified
 GUIDs
 .
 *
+*
 param
 guids
 The
@@ -1447,10 +1446,10 @@ in
 all
 specified
 folders
-*
 recursively
 .
 Empty
+*
 folders
 non
 -
@@ -1465,13 +1464,13 @@ will
 return
 zero
 .
-*
 The
 result
 is
 implementation
 dependant
 if
+*
 the
 trees
 overlap

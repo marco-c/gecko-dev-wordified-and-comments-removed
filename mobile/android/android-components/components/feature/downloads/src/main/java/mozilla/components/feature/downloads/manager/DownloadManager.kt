@@ -155,6 +155,7 @@ DownloadManager
 ]
 .
 *
+*
 param
 download
 metadata
@@ -220,6 +221,7 @@ given
 download
 .
 *
+*
 param
 downloadId
 the
@@ -239,7 +241,6 @@ downloadId
 String
 )
 /
-*
 *
 *
 Registers

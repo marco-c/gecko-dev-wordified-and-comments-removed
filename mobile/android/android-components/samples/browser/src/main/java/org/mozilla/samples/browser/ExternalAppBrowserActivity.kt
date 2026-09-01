@@ -102,12 +102,12 @@ within
 an
 external
 app
-*
 such
 as
 custom
 tabs
 and
+*
 progressive
 web
 apps

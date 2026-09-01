@@ -115,7 +115,6 @@ MenuCandidate
 /
 *
 *
-*
 Interface
 to
 be
@@ -157,11 +156,11 @@ menu
 .
 Returns
 false
-*
 if
 this
 item
 should
+*
 be
 hidden
 .
@@ -193,12 +192,12 @@ this
 menu
 item
 .
-*
 For
 example
 a
 simple
 item
+*
 will
 have
 1
@@ -209,7 +208,6 @@ have
 and
 a
 composite
-*
 item
 like
 a
@@ -307,7 +305,6 @@ false
 /
 *
 *
-*
 Returns
 the
 layout
@@ -326,7 +323,6 @@ menu
 item
 of
 this
-*
 type
 .
 *
@@ -338,7 +334,6 @@ getLayoutResource
 :
 Int
 /
-*
 *
 *
 Called
@@ -373,7 +368,6 @@ View
 /
 *
 *
-*
 Called
 by
 the
@@ -404,7 +398,6 @@ View
 =
 Unit
 /
-*
 *
 *
 Converts

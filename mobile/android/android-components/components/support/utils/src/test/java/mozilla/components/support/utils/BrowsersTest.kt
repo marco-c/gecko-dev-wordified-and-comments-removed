@@ -115,6 +115,12 @@ runners
 .
 AndroidJUnit4
 import
+kotlin
+.
+test
+.
+assertNotNull
+import
 mozilla
 .
 components
@@ -214,12 +220,6 @@ robolectric
 annotation
 .
 Config
-import
-kotlin
-.
-test
-.
-assertNotNull
 Suppress
 (
 "

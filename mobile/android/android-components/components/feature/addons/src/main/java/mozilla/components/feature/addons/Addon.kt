@@ -111,6 +111,30 @@ net
 .
 toUri
 import
+java
+.
+text
+.
+ParseException
+import
+java
+.
+text
+.
+SimpleDateFormat
+import
+java
+.
+util
+.
+Locale
+import
+java
+.
+util
+.
+TimeZone
+import
 kotlinx
 .
 parcelize
@@ -154,30 +178,6 @@ log
 logger
 .
 Logger
-import
-java
-.
-text
-.
-ParseException
-import
-java
-.
-text
-.
-SimpleDateFormat
-import
-java
-.
-util
-.
-Locale
-import
-java
-.
-util
-.
-TimeZone
 typealias
 GeckoIncognito
 =
@@ -206,7 +206,6 @@ the
 AMO
 store
 :
-*
 https
 :
 /
@@ -348,12 +347,12 @@ add
 -
 on
 name
-*
 where
 the
 key
 is
 the
+*
 language
 and
 the
@@ -379,9 +378,9 @@ add
 -
 on
 description
-*
 where
 the
+*
 key
 is
 the
@@ -410,12 +409,12 @@ add
 -
 on
 name
-*
 where
 the
 key
 is
 the
+*
 language
 and
 the
@@ -531,13 +530,13 @@ on
 .
 Null
 if
-*
 the
 [
 Addon
 ]
 is
 not
+*
 installed
 .
 *
@@ -807,7 +806,6 @@ SPANNING
 Parcelable
 {
 /
-*
 *
 *
 Returns
@@ -1094,13 +1092,13 @@ permissions
 ]
 list
 .
-*
 Holds
 the
 state
 of
 the
 installed
+*
 web
 extension
 of
@@ -1146,7 +1144,6 @@ web
 content
 or
 not
-*
 defaults
 to
 false
@@ -1168,7 +1165,6 @@ browser
 or
 not
 defaults
-*
 to
 true
 .
@@ -1194,7 +1190,6 @@ the
 page
 displaying
 the
-*
 options
 page
 (
@@ -1204,6 +1199,7 @@ the
 extension
 '
 s
+*
 manifest
 )
 .
@@ -1221,10 +1217,10 @@ to
 run
 in
 private
-*
 browsing
 pages
 false
+*
 otherwise
 .
 *
@@ -1301,7 +1297,6 @@ Parcelable
 /
 *
 *
-*
 Enum
 containing
 all
@@ -1323,7 +1318,6 @@ DisabledReason
 /
 *
 *
-*
 The
 [
 Addon
@@ -1339,7 +1333,6 @@ unsupported
 /
 UNSUPPORTED
 /
-*
 *
 *
 The
@@ -1360,7 +1353,6 @@ BLOCKLISTED
 /
 *
 *
-*
 The
 [
 Addon
@@ -1375,7 +1367,6 @@ user
 /
 USER_REQUESTED
 /
-*
 *
 *
 The
@@ -1396,7 +1387,6 @@ signed
 /
 NOT_CORRECTLY_SIGNED
 /
-*
 *
 *
 The
@@ -1422,7 +1412,6 @@ INCOMPATIBLE
 /
 *
 *
-*
 The
 [
 Addon
@@ -1441,7 +1430,6 @@ blocked
 SOFT_BLOCKED
 }
 /
-*
 *
 *
 Incognito
@@ -1468,7 +1456,6 @@ Incognito
 /
 *
 *
-*
 The
 [
 Addon
@@ -1492,7 +1479,6 @@ SPANNING
 /
 *
 *
-*
 The
 [
 Addon
@@ -1512,7 +1498,6 @@ windows
 /
 SPLIT
 /
-*
 *
 *
 Private
@@ -1551,6 +1536,7 @@ permissions
 ]
 list
 .
+*
 *
 param
 context
@@ -1595,6 +1581,7 @@ the
 optional
 permissions
 .
+*
 *
 param
 context
@@ -1643,6 +1630,7 @@ data
 collection
 permissions
 .
+*
 *
 param
 context
@@ -1693,6 +1681,7 @@ collection
 permissions
 .
 *
+*
 param
 context
 Context
@@ -1724,7 +1713,6 @@ context
 /
 *
 *
-*
 Returns
 whether
 or
@@ -1749,7 +1737,6 @@ installedState
 =
 null
 /
-*
 *
 *
 Returns
@@ -1779,7 +1766,6 @@ enabled
 =
 true
 /
-*
 *
 *
 Returns
@@ -1830,7 +1816,6 @@ because
 it
 is
 not
-*
 supported
 .
 This
@@ -1838,6 +1823,7 @@ is
 based
 on
 the
+*
 installed
 extension
 state
@@ -1846,7 +1832,6 @@ the
 engine
 .
 An
-*
 addon
 can
 be
@@ -1907,7 +1892,6 @@ it
 is
 part
 of
-*
 the
 blocklist
 .
@@ -1915,6 +1899,7 @@ This
 is
 based
 on
+*
 the
 installed
 extension
@@ -1961,12 +1946,12 @@ we
 re
 cheking
 the
-*
 disabled
 reason
 the
 user
 still
+*
 has
 the
 opportunity
@@ -1996,7 +1981,6 @@ DisabledReason
 .
 SOFT_BLOCKED
 /
-*
 *
 *
 Returns
@@ -2035,7 +2019,6 @@ NOT_CORRECTLY_SIGNED
 /
 *
 *
-*
 Returns
 whether
 this
@@ -2051,7 +2034,6 @@ isn
 '
 t
 compatible
-*
 with
 the
 application
@@ -2074,7 +2056,6 @@ DisabledReason
 .
 INCOMPATIBLE
 /
-*
 *
 *
 Returns
@@ -2123,7 +2104,6 @@ only
 translations
 (
 description
-*
 name
 summary
 )
@@ -2132,10 +2112,10 @@ the
 provided
 locales
 .
+*
 All
 other
 translations
-*
 except
 the
 [
@@ -2248,7 +2228,6 @@ companion
 object
 {
 /
-*
 *
 *
 A
@@ -2522,7 +2501,6 @@ string
 mozac_feature_addons_permissions_web_navigation_description
 )
 /
-*
 *
 *
 A
@@ -2823,11 +2801,11 @@ ids
 This
 should
 be
-*
 kept
 in
 sync
 with
+*
 DATA_COLLECTION_PERMISSIONS
 in
 ExtensionPermissionMessages
@@ -2978,11 +2956,11 @@ ids
 This
 should
 be
-*
 kept
 in
 sync
 with
+*
 DATA_COLLECTION_PERMISSIONS
 in
 ExtensionPermissionMessages
@@ -3136,6 +3114,7 @@ per
 each
 item
 .
+*
 *
 param
 permissions
@@ -3378,6 +3357,7 @@ localized
 strings
 .
 *
+*
 param
 permissions
 The
@@ -3455,6 +3435,7 @@ of
 LocalizedPermission
 ]
 .
+*
 *
 param
 permissions
@@ -3582,8 +3563,8 @@ UI
 .
 The
 localized
-*
 string
+*
 expects
 a
 unique
@@ -3601,7 +3582,6 @@ names
 For
 example
 :
-*
 *
 *
 The
@@ -3663,8 +3643,8 @@ AND
 "
 type
 and
-*
 the
+*
 "
 NARROW
 "
@@ -3689,7 +3669,6 @@ is
 configured
 with
 the
-*
 "
 AND
 "
@@ -3698,6 +3677,7 @@ type
 good
 )
 and
+*
 the
 "
 WIDE
@@ -3718,7 +3698,6 @@ and
 z
 for
 the
-*
 same
 list
 of
@@ -3727,6 +3706,7 @@ permissions
 It
 '
 s
+*
 still
 better
 to
@@ -4656,11 +4636,11 @@ Z
 '
 "
 .
-*
 [
 Metadata
 ]
 uses
+*
 "
 yyyy
 -
@@ -4687,12 +4667,12 @@ in
 simplified
 8601
 format
-*
 while
 [
 Addon
 ]
 uses
+*
 "
 yyyy
 -
@@ -5472,7 +5452,6 @@ this
 /
 *
 *
-*
 Check
 if
 a
@@ -5674,7 +5653,6 @@ Classify
 host
 permissions
 .
-*
 This
 is
 a
@@ -5741,7 +5719,6 @@ https
 ws
 wss
 .
-*
 *
 return
 [
@@ -6190,7 +6167,6 @@ mozac_feature_addons_permissions_one_site_description
 }
 }
 /
-*
 *
 *
 The

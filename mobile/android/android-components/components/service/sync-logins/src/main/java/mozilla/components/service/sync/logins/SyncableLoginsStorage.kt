@@ -325,7 +325,6 @@ logins_undecryptable_cleaned
 /
 *
 *
-*
 The
 telemetry
 ping
@@ -373,7 +372,6 @@ for
 operations
 which
 are
-*
 not
 expected
 to
@@ -383,6 +381,7 @@ in
 a
 meaningful
 way
+*
 by
 the
 application
@@ -400,7 +399,6 @@ failure
 to
 generate
 secure
-*
 random
 numbers
 etc
@@ -409,13 +407,13 @@ are
 all
 examples
 of
+*
 things
 which
 will
 result
 in
 a
-*
 concrete
 LoginsApiException
 .
@@ -434,7 +432,6 @@ LoginsApiException
 /
 *
 *
-*
 This
 is
 thrown
@@ -449,7 +446,6 @@ a
 record
 whose
 GUID
-*
 does
 not
 exist
@@ -486,7 +482,6 @@ record
 so
 that
 it
-*
 is
 no
 longer
@@ -498,6 +493,7 @@ invalid
 is
 defined
 as
+*
 such
 :
 *
@@ -570,7 +566,6 @@ LoginsApiException
 .
 InvalidRecord
 /
-*
 *
 *
 Error
@@ -903,7 +898,6 @@ await
 /
 *
 *
-*
 "
 Warms
 up
@@ -983,7 +977,6 @@ locked
 and
 on
 unexpected
-*
 errors
 (
 IO
@@ -1039,7 +1032,6 @@ locked
 and
 on
 unexpected
-*
 errors
 (
 IO
@@ -1101,7 +1093,6 @@ locked
 and
 on
 unexpected
-*
 errors
 (
 IO
@@ -1181,7 +1172,6 @@ locked
 and
 on
 unexpected
-*
 errors
 (
 IO
@@ -1245,7 +1235,6 @@ locked
 and
 on
 unexpected
-*
 errors
 (
 IO
@@ -1312,6 +1301,7 @@ the
 database
 .
 *
+*
 throws
 [
 LoginsApiException
@@ -1324,7 +1314,6 @@ locked
 and
 on
 unexpected
-*
 errors
 (
 IO
@@ -1406,7 +1395,6 @@ locked
 and
 on
 unexpected
-*
 errors
 (
 IO
@@ -1506,7 +1494,6 @@ locked
 and
 on
 unexpected
-*
 errors
 (
 IO
@@ -1638,7 +1625,6 @@ locked
 and
 on
 unexpected
-*
 errors
 (
 IO
@@ -1749,7 +1735,6 @@ locked
 and
 on
 unexpected
-*
 errors
 (
 IO
@@ -1866,7 +1851,6 @@ registerWithSyncManager
 }
 }
 /
-*
 *
 *
 throws
@@ -2120,12 +2104,12 @@ prevent
 us
 from
 decrypting
-*
 existing
 logins
 we
 run
 a
+*
 cleanup
 to
 purge
@@ -2137,7 +2121,6 @@ only
 need
 to
 do
-*
 this
 once
 for
@@ -2148,8 +2131,8 @@ and
 if
 ever
 user
-needs
 *
+needs
 new
 keys
 the
@@ -2162,6 +2145,7 @@ do
 this
 for
 us
+*
 *
 throws
 [
@@ -2273,7 +2257,6 @@ cleanedPref
 }
 }
 /
-*
 *
 *
 Enqueues

@@ -89,6 +89,12 @@ runners
 .
 AndroidJUnit4
 import
+kotlin
+.
+coroutines
+.
+CoroutineContext
+import
 kotlinx
 .
 coroutines
@@ -496,12 +502,6 @@ mockito
 Mockito
 .
 when
-import
-kotlin
-.
-coroutines
-.
-CoroutineContext
 internal
 class
 TestableStorageWrapper

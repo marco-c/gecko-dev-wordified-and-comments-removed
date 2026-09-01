@@ -75,7 +75,6 @@ VisibleForTesting
 /
 *
 *
-*
 Provides
 global
 access
@@ -88,7 +87,6 @@ places
 storage
 operations
 .
-*
 *
 /
 object
@@ -120,10 +118,10 @@ via
 PlacesHistoryStorageWorker
 ]
 .
-*
 This
 method
 should
+*
 be
 called
 in
@@ -148,14 +146,12 @@ run
 the
 worker
 while
-*
 the
 app
 is
 not
 running
 .
-*
 *
 /
 fun
@@ -187,7 +183,6 @@ for
 [
 PlacesHistoryStorageWorker
 ]
-*
 to
 run
 maintenance
@@ -195,7 +190,6 @@ on
 the
 storage
 .
-*
 *
 /
 internal

@@ -157,7 +157,6 @@ point
 /
 *
 *
-*
 Conversion
 from
 a
@@ -256,7 +255,6 @@ email
 )
 }
 /
-*
 *
 *
 Conversion
@@ -368,7 +366,6 @@ cardType
 )
 }
 /
-*
 *
 *
 Conversion
@@ -485,7 +482,6 @@ timesUsed
 )
 }
 /
-*
 *
 *
 Conversion

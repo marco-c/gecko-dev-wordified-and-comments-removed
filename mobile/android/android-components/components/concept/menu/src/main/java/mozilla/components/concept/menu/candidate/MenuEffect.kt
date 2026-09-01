@@ -75,7 +75,6 @@ ColorInt
 /
 *
 *
-*
 Describes
 an
 effect
@@ -83,7 +82,6 @@ for
 the
 menu
 .
-*
 Effects
 can
 also
@@ -115,7 +113,6 @@ and
 its
 container
 .
-*
 Effects
 can
 also
@@ -139,7 +136,6 @@ MenuEffect
 /
 *
 *
-*
 Describes
 an
 effect
@@ -148,7 +144,6 @@ a
 menu
 icon
 .
-*
 Effects
 can
 also
@@ -178,7 +173,6 @@ a
 notification
 dot
 .
-*
 Used
 for
 highlighting
@@ -196,6 +190,7 @@ new
 or
 a
 recommended
+*
 feature
 .
 *
@@ -245,7 +240,6 @@ the
 menu
 item
 .
-*
 Used
 for
 errors
@@ -269,7 +263,6 @@ item
 background
 color
 .
-*
 Also
 used
 to

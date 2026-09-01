@@ -135,9 +135,9 @@ Result
 .
 NoResult
 ]
-*
 and
 then
+*
 continue
 to
 actually
@@ -152,12 +152,12 @@ calling
 [
 loadCallback
 ]
-*
 with
 the
 actual
 result
 and
+*
 details
 about
 the
@@ -191,13 +191,13 @@ in
 the
 background
 .
-*
 Defaults
 to
 a
 new
 scope
 using
+*
 [
 Dispatchers
 .
@@ -211,7 +211,6 @@ to
 block
 their
 threads
-*
 while
 waiting
 for

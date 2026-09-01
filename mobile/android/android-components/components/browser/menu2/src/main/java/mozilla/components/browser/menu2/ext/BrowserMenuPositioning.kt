@@ -109,6 +109,12 @@ widget
 .
 RecyclerView
 import
+kotlin
+.
+math
+.
+roundToInt
+import
 mozilla
 .
 components
@@ -152,12 +158,6 @@ android
 view
 .
 isRTL
-import
-kotlin
-.
-math
-.
-roundToInt
 const
 val
 HALF_MENU_ITEM
@@ -966,7 +966,6 @@ without
 scrolling
 )
 within
-*
 the
 available
 height
@@ -987,12 +986,12 @@ display
 all
 menu
 items
-*
 (
 without
 scrolling
 )
 else
+*
 calculate
 the
 maximum
@@ -1002,7 +1001,6 @@ height
 for
 a
 scrollable
-*
 view
 with
 a
@@ -1498,7 +1496,6 @@ containerPadding
 /
 *
 *
-*
 Data
 needed
 for
@@ -1512,7 +1509,6 @@ class
 MenuPositioningData
 (
 /
-*
 *
 *
 Android
@@ -1534,7 +1530,6 @@ View
 /
 *
 *
-*
 [
 WindowManager
 #
@@ -1565,7 +1560,6 @@ Int
 /
 *
 *
-*
 [
 WindowManager
 #
@@ -1594,7 +1588,6 @@ Int
 =
 0
 /
-*
 *
 *
 [
@@ -1618,7 +1611,6 @@ Int
 =
 0
 /
-*
 *
 *
 [

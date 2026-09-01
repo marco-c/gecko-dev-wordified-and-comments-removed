@@ -119,7 +119,6 @@ LocalInspectionMode
 /
 *
 *
-*
 Indicates
 whether
 the
@@ -183,11 +182,11 @@ short
 circuit
 or
 avoid
-*
 code
 paths
 that
 are
+*
 hazardous
 to
 previews

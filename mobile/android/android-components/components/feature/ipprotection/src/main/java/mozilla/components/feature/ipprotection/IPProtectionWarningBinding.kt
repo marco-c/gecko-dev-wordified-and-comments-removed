@@ -175,11 +175,11 @@ the
 service
 can
 not
-*
 recover
 from
 .
 The
+*
 service
 blocks
 the
@@ -193,7 +193,6 @@ proxy
 so
 that
 the
-*
 user
 data
 is
@@ -203,6 +202,7 @@ leaked
 When
 such
 error
+*
 happens
 we
 present
@@ -212,7 +212,6 @@ with
 options
 to
 disable
-*
 the
 proxy
 and
@@ -224,6 +223,7 @@ close
 their
 tabs
 first
+*
 and
 then
 disabling
@@ -259,11 +259,11 @@ observation
 and
 updates
 will
-*
 occur
 .
 Defaults
 to
+*
 [
 Dispatchers
 .

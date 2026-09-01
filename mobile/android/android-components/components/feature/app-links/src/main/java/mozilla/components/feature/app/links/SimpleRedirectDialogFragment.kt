@@ -216,9 +216,9 @@ the
 opening
 of
 a
-*
 third
 party
+*
 app
 .
 *
@@ -681,7 +681,6 @@ companion
 object
 {
 /
-*
 *
 *
 A

@@ -274,12 +274,12 @@ given
 [
 GeckoSession
 ]
-*
 and
 exposing
 this
 data
 through
+*
 [
 scrollYPosition
 ]
@@ -356,7 +356,6 @@ MutableStateFlow
 /
 *
 *
-*
 Running
 flow
 of
@@ -385,7 +384,6 @@ asStateFlow
 /
 *
 *
-*
 Running
 flow
 of
@@ -410,7 +408,6 @@ asStateFlow
 (
 )
 /
-*
 *
 *
 Start
@@ -461,7 +458,6 @@ value
 geckoSession
 }
 /
-*
 *
 *
 Stops

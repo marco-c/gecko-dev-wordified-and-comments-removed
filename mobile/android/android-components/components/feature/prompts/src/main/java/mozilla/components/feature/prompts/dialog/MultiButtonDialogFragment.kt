@@ -151,7 +151,6 @@ display
 a
 confirm
 dialog
-*
 it
 can
 have
@@ -159,6 +158,7 @@ up
 to
 three
 buttons
+*
 they
 could
 be

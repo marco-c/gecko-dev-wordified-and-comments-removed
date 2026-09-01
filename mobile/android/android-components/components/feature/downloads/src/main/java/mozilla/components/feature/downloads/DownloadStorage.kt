@@ -139,7 +139,6 @@ toDownloadEntity
 /
 *
 *
-*
 A
 storage
 implementation
@@ -193,7 +192,6 @@ downloadDao
 /
 *
 *
-*
 Adds
 a
 new
@@ -226,7 +224,6 @@ toDownloadEntity
 /
 *
 *
-*
 Returns
 a
 [
@@ -284,7 +281,6 @@ toDownloadState
 }
 }
 /
-*
 *
 *
 Returns
@@ -333,7 +329,6 @@ toDownloadState
 }
 }
 /
-*
 *
 *
 Returns
@@ -386,7 +381,6 @@ toDownloadState
 /
 *
 *
-*
 Removes
 the
 given
@@ -419,7 +413,6 @@ toDownloadEntity
 /
 *
 *
-*
 Update
 the
 given
@@ -450,7 +443,6 @@ toDownloadEntity
 )
 }
 /
-*
 *
 *
 Removes
@@ -496,17 +488,16 @@ same
 be
 aware
 this
-*
 only
 takes
 into
+*
 considerations
 fields
 that
 are
 being
 stored
-*
 not
 all
 the

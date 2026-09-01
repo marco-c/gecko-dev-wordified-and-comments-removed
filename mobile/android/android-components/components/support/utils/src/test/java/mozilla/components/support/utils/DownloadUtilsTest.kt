@@ -660,6 +660,8 @@ keep
 what
 is
 before
+/
+/
 the
 first
 dot

@@ -199,7 +199,6 @@ TranslationOptions
 /
 *
 *
-*
 Contains
 use
 cases
@@ -255,7 +254,6 @@ this
 /
 *
 *
-*
 Contract
 for
 use
@@ -272,7 +270,6 @@ interface
 LoadUrlUseCase
 {
 /
-*
 *
 *
 Loads
@@ -360,7 +357,6 @@ selected
 session
 .
 If
-*
 there
 '
 s
@@ -370,11 +366,11 @@ session
 a
 new
 session
+*
 will
 be
 created
 using
-*
 [
 onNoTab
 ]
@@ -434,7 +430,6 @@ URL
 this
 is
 the
-*
 original
 user
 input
@@ -442,6 +437,7 @@ before
 any
 fixups
 were
+*
 applied
 to
 it
@@ -504,13 +500,13 @@ session
 If
 no
 session
-*
 is
 provided
 the
 currently
 selected
 session
+*
 will
 be
 used
@@ -519,7 +515,6 @@ If
 there
 '
 s
-*
 no
 selected
 session
@@ -605,7 +600,6 @@ URL
 this
 is
 the
-*
 original
 user
 input
@@ -613,6 +607,7 @@ before
 any
 fixups
 were
+*
 applied
 to
 it
@@ -821,10 +816,10 @@ session
 (
 or
 the
-*
 currently
 selected
 session
+*
 if
 none
 is
@@ -926,7 +921,6 @@ session
 or
 the
 currently
-*
 selected
 session
 if
@@ -1287,7 +1281,6 @@ userInteraction
 /
 *
 *
-*
 Use
 case
 to
@@ -1337,12 +1330,12 @@ the
 given
 session
 .
-*
 Invalid
 index
 values
 will
 be
+*
 ignored
 .
 *
@@ -1376,7 +1369,6 @@ is
 being
 accessed
 defaulting
-*
 to
 the
 selected
@@ -1440,7 +1432,6 @@ BrowserStore
 )
 {
 /
-*
 *
 *
 Requests
@@ -1516,7 +1507,6 @@ BrowserStore
 /
 *
 *
-*
 Exits
 fullscreen
 mode
@@ -1569,7 +1559,6 @@ tabId
 /
 *
 *
-*
 Tries
 to
 recover
@@ -1598,7 +1587,6 @@ BrowserStore
 )
 {
 /
-*
 *
 *
 Tries
@@ -1660,7 +1648,6 @@ tabIds
 /
 *
 *
-*
 Tries
 to
 recover
@@ -1707,7 +1694,6 @@ tabId
 /
 *
 *
-*
 UseCase
 for
 purging
@@ -1740,7 +1726,6 @@ BrowserStore
 )
 {
 /
-*
 *
 *
 Purges
@@ -1795,17 +1780,16 @@ tab
 .
 This
 timestamp
-*
 is
 updated
 automatically
 by
+*
 our
 EngineViewPresenter
 and
 LastAccessMiddleware
 but
-*
 there
 are
 app
@@ -1818,6 +1802,7 @@ can
 '
 t
 happen
+*
 automatically
 e
 .
@@ -1825,7 +1810,6 @@ g
 .
 the
 app
-*
 being
 resumed
 to
@@ -1875,9 +1859,9 @@ the
 future
 so
 applications
-*
 can
 differentiate
+*
 viewing
 from
 tab
@@ -1938,12 +1922,12 @@ ID
 Note
 that
 this
-*
 method
 has
 no
 effect
 in
+*
 case
 the
 tab
@@ -2047,7 +2031,6 @@ lastAccess
 /
 *
 *
-*
 A
 use
 case
@@ -2116,10 +2099,10 @@ has
 been
 created
 and
-*
 loaded
 however
 this
+*
 does
 not
 guarantee
@@ -2130,7 +2113,6 @@ will
 be
 correctly
 painted
-*
 into
 the
 PDF
@@ -2140,6 +2122,7 @@ a
 session
 is
 required
+*
 to
 have
 been
@@ -2149,7 +2132,6 @@ the
 screen
 (
 by
-*
 being
 the
 selected
@@ -2179,9 +2161,9 @@ EngineAction
 .
 SaveToPdfExceptionAction
 ]
-*
 or
 your
+*
 application
 will
 crash
@@ -2190,7 +2172,6 @@ an
 error
 happens
 when
-*
 requesting
 a
 page
@@ -2242,7 +2223,6 @@ tabId
 }
 }
 /
-*
 *
 *
 A
@@ -2307,10 +2287,10 @@ makes
 a
 PDF
 prior
-*
 to
 sending
 the
+*
 print
 request
 on
@@ -2325,12 +2305,12 @@ means
 the
 session
 should
-*
 have
 been
 painted
 first
 to
+*
 successfully
 make
 a
@@ -2352,9 +2332,9 @@ EngineAction
 .
 PrintContentExceptionAction
 ]
-*
 to
 handle
+*
 print
 errors
 .
@@ -2368,11 +2348,11 @@ is
 only
 necessary
 for
-*
 telemetry
 or
 if
 any
+*
 extra
 actions
 need
@@ -2380,7 +2360,6 @@ to
 be
 completed
 .
-*
 *
 /
 operator
@@ -2423,7 +2402,6 @@ tabId
 }
 }
 /
-*
 *
 *
 A
@@ -2488,7 +2466,6 @@ the
 screen
 (
 by
-*
 being
 the
 selected
@@ -2496,6 +2473,7 @@ tab
 )
 for
 a
+*
 translation
 to
 occur
@@ -2615,7 +2593,6 @@ options
 /
 *
 *
-*
 A
 use
 case
@@ -2663,13 +2640,13 @@ content
 of
 the
 current
-*
 [
 tabId
 ]
 back
 to
 the
+*
 original
 .
 *

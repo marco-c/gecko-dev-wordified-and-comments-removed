@@ -369,7 +369,6 @@ if
 the
 dismissal
 was
-*
 explicit
 (
 e
@@ -379,6 +378,7 @@ g
 clicked
 via
 the
+*
 "
 X
 "
@@ -435,10 +435,10 @@ if
 the
 CFR
 needs
-*
 to
 be
 dismissed
+*
 after
 the
 action
@@ -715,8 +715,8 @@ current
 implementation
 of
 CFRs
-*
 via
+*
 [
 CFRPopupFullscreenLayout
 ]

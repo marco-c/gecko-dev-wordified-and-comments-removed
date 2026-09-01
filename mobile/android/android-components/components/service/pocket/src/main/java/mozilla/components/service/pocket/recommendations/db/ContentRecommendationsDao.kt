@@ -131,7 +131,6 @@ CONTENT_RECOMMENDATIONS_TABLE
 /
 *
 *
-*
 Internal
 DAO
 for
@@ -245,13 +244,13 @@ database
 with
 the
 provided
-*
 [
 recommendations
 ]
 .
 This
 will
+*
 remove
 any
 existing
@@ -260,7 +259,6 @@ that
 are
 no
 longer
-*
 part
 of
 the
@@ -270,11 +268,11 @@ recommendations
 ]
 updating
 the
+*
 metadata
 in
 existing
 recommendations
-*
 that
 are
 still

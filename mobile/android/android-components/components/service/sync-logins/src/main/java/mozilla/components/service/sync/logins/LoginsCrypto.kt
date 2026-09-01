@@ -185,10 +185,10 @@ services
 logins
 lib
 .
-*
 Used
 for
 protecting
+*
 usernames
 /
 passwords
@@ -208,7 +208,6 @@ the
 encryption
 key
 .
-*
 It
 also
 keeps
@@ -218,6 +217,7 @@ abnormal
 events
 such
 as
+*
 managed
 key
 going

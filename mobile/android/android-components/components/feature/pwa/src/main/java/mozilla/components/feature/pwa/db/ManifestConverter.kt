@@ -99,7 +99,6 @@ WebAppManifestParser
 /
 *
 *
-*
 Converts
 a
 web

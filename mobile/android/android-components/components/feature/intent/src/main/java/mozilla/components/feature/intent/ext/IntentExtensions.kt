@@ -128,7 +128,6 @@ with
 [
 putSessionId
 ]
-*
 or
 null
 if
@@ -186,7 +185,6 @@ with
 [
 putSessionId
 ]
-*
 or
 null
 if
@@ -243,7 +241,6 @@ data
 value
 .
 *
-*
 return
 Returns
 the
@@ -254,13 +251,11 @@ for
 chaining
 multiple
 calls
-*
 into
 a
 single
 statement
 .
-*
 *
 see
 [

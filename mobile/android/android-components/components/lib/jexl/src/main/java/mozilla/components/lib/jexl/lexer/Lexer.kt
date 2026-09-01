@@ -141,9 +141,9 @@ and
 label
 each
 but
-*
 to
 do
+*
 only
 the
 most
@@ -166,8 +166,8 @@ it
 '
 s
 unable
-*
 to
+*
 identify
 the
 utility
@@ -187,8 +187,8 @@ being
 in
 a
 sensible
-*
 configuration
+*
 should
 be
 left
@@ -255,7 +255,6 @@ Type
 COLON
 )
 /
-*
 *
 *
 Splits

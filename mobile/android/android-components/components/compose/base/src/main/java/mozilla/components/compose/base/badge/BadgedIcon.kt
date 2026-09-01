@@ -447,7 +447,6 @@ iconsR
 /
 *
 *
-*
 Class
 representing
 a
@@ -456,12 +455,10 @@ Badge
 ]
 size
 .
-*
 BADGE_SIZE_SMALL
 is
 8x8dp
 .
-*
 BADGE_SIZE_LARGE
 is
 16x16dp
@@ -489,7 +486,6 @@ BadgeSize
 /
 *
 *
-*
 Small
 badge
 size
@@ -503,7 +499,6 @@ BADGE_SIZE_SMALL
 =
 0
 /
-*
 *
 *
 Large
@@ -523,7 +518,6 @@ BADGE_SIZE_LARGE
 =
 1
 /
-*
 *
 *
 Test
@@ -606,7 +600,6 @@ MINIMUM_ICON_SIZE
 Badged
 icon
 .
-*
 The
 badge
 may
@@ -654,7 +647,6 @@ badge
 will
 be
 shown
-*
 if
 highlighted
 is
@@ -1040,7 +1032,6 @@ if
 max
 count
 has
-*
 been
 exceeded
 .
@@ -1104,7 +1095,6 @@ inside
 the
 badge
 .
-*
 Content
 is
 only
@@ -1116,6 +1106,7 @@ large
 BadgeSize
 ]
 .
+*
 *
 param
 size
@@ -1288,10 +1279,10 @@ not
 work
 for
 our
-*
 purposes
 because
 the
+*
 Mozilla
 badge
 sizing
@@ -1315,11 +1306,11 @@ highlighted
 .
 The
 badge
-*
 is
 only
 drawn
 if
+*
 the
 icon
 is
@@ -1748,7 +1739,6 @@ Locales
 that
 represent
 different
-*
 numeric
 systems
 .
@@ -1758,11 +1748,11 @@ is
 useful
 in
 other
+*
 contexts
 it
 may
 be
-*
 extracted
 from
 the

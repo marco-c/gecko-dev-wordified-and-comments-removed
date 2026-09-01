@@ -89,6 +89,12 @@ runners
 .
 AndroidJUnit4
 import
+kotlin
+.
+test
+.
+assertIs
+import
 mozilla
 .
 components
@@ -180,12 +186,6 @@ mozilla
 geckoview
 .
 AllowOrDeny
-import
-kotlin
-.
-test
-.
-assertIs
 RunWith
 (
 AndroidJUnit4

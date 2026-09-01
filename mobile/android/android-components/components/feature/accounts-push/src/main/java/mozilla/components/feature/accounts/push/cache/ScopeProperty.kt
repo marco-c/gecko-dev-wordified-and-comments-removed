@@ -81,7 +81,6 @@ PushScope
 /
 *
 *
-*
 A
 [
 ScopeProperty
@@ -101,7 +100,6 @@ interface
 ScopeProperty
 {
 /
-*
 *
 *
 Returns

@@ -205,7 +205,6 @@ tryGetHostFromUrl
 /
 *
 *
-*
 An
 abstract
 ViewHolder
@@ -252,6 +251,7 @@ the
 Tab
 .
 *
+*
 param
 tab
 the
@@ -290,7 +290,6 @@ of
 the
 TabsTray
 .
-*
 /
 /
 TODO
@@ -331,7 +330,6 @@ the
 current
 tab
 .
-*
 Allows
 for
 overriding
@@ -343,6 +341,7 @@ add
 or
 remove
 the
+*
 '
 selected
 tab
@@ -421,7 +420,6 @@ implemented
 }
 }
 /
-*
 *
 *
 The
@@ -555,7 +553,6 @@ TabsTrayStyling
 =
 null
 /
-*
 *
 *
 Displays

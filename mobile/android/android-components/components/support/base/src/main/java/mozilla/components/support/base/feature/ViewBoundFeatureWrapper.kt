@@ -133,8 +133,8 @@ This
 wrapper
 is
 helpful
-*
 when
+*
 the
 lifetime
 of
@@ -339,7 +339,6 @@ memory
 Example
 integration
 :
-*
 *
 *
 class
@@ -564,7 +563,6 @@ false
 /
 *
 *
-*
 Convenient
 constructor
 for
@@ -630,8 +628,8 @@ LifecycleObserver
 ]
 as
 well
-*
 as
+*
 the
 [
 View
@@ -686,8 +684,8 @@ wrapper
 will
 clear
 all
-*
 internal
+*
 references
 .
 *
@@ -774,7 +772,6 @@ it
 /
 *
 *
-*
 Returns
 the
 wrapped
@@ -809,7 +806,6 @@ T
 =
 feature
 /
-*
 *
 *
 Runs
@@ -856,7 +852,6 @@ block
 )
 }
 /
-*
 *
 *
 Stops
@@ -968,11 +963,11 @@ onBackPressed
 on
 a
 wrapped
-*
 [
 LifecycleAwareFeature
 ]
 that
+*
 implements
 [
 UserInteractionHandler
@@ -981,7 +976,6 @@ UserInteractionHandler
 Returns
 false
 if
-*
 the
 [
 LifecycleAwareFeature
@@ -1061,10 +1055,10 @@ onForwardPressed
 on
 a
 wrapped
-*
 [
 LifecycleAwareFeature
 ]
+*
 that
 implements
 [
@@ -1074,7 +1068,6 @@ UserInteractionHandler
 Returns
 false
 if
-*
 the
 [
 LifecycleAwareFeature
@@ -1154,10 +1147,10 @@ onActivityResult
 on
 a
 wrapped
-*
 [
 LifecycleAwareFeature
 ]
+*
 that
 implements
 [
@@ -1167,7 +1160,6 @@ ActivityResultHandler
 Returns
 false
 if
-*
 the
 [
 LifecycleAwareFeature
@@ -1386,8 +1378,8 @@ ViewBoundFeatureWrapper
 ]
 .
 Additionally
-*
 this
+*
 implementation
 will
 call

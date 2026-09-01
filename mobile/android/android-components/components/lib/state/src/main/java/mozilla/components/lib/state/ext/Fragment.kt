@@ -218,7 +218,6 @@ in
 order
 inside
 a
-*
 [
 Fragment
 ]
@@ -227,6 +226,7 @@ The
 [
 block
 ]
+*
 function
 will
 get
@@ -261,10 +261,10 @@ the
 Fragment
 ]
 gets
-*
 detached
 .
 The
+*
 fragment
 '
 s
@@ -281,7 +281,6 @@ resume
 pause
 observing
 the
-*
 [
 Store
 ]
@@ -740,11 +739,11 @@ reactive
 [
 Flow
 ]
-*
 specifically
 designed
 for
 use
+*
 within
 a
 [
@@ -756,7 +755,6 @@ function
 ensures
 that
 state
-*
 observation
 and
 processing
@@ -767,6 +765,7 @@ aware
 with
 respect
 to
+*
 the
 Fragment
 '
@@ -799,12 +798,12 @@ e
 g
 .
 in
-*
 onViewCreated
 (
 )
 or
 later
+*
 methods
 like
 onStart
@@ -819,7 +818,6 @@ Fragment
 '
 s
 view
-*
 to
 be
 non
@@ -859,12 +857,12 @@ activity
 of
 the
 base
-*
 subscription
 to
 the
 store
 .
+*
 Defaults
 to
 this
@@ -885,7 +883,6 @@ prepared
 lifecycle
 -
 aware
-*
 and
 filtered
 [
@@ -895,6 +892,7 @@ of
 states
 .
 You
+*
 are
 responsible
 for
@@ -904,7 +902,6 @@ this
 [
 Flow
 ]
-*
 within
 the
 block

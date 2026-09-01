@@ -107,11 +107,11 @@ For
 example
 :
 Google
-*
 gemini
 nano
 needs
 to
+*
 be
 downloaded
 before
@@ -134,7 +134,6 @@ models
 from
 different
 environments
-*
 (
 e
 .
@@ -177,7 +176,6 @@ LlmProvider
 .
 Used
 for
-*
 telemetry
 and
 logging
@@ -306,7 +304,6 @@ null
 /
 *
 *
-*
 Metadata
 about
 this
@@ -348,7 +345,6 @@ tracking
 availability
 and
 readiness
-*
 of
 the
 remote
@@ -357,6 +353,7 @@ and
 exposing
 that
 state
+*
 via
 [
 state
@@ -370,7 +367,6 @@ CloudLlmProvider
 LlmProvider
 {
 /
-*
 *
 *
 Represents
@@ -392,7 +388,6 @@ State
 /
 *
 *
-*
 Indicates
 that
 the
@@ -403,7 +398,6 @@ reachable
 and
 the
 model
-*
 can
 potentially
 be
@@ -508,7 +502,6 @@ State
 /
 *
 *
-*
 The
 current
 state
@@ -567,7 +560,6 @@ for
 handling
 model
 availability
-*
 download
 lifecycle
 and
@@ -582,7 +574,6 @@ LocalLlmProvider
 LlmProvider
 {
 /
-*
 *
 *
 Represents
@@ -604,7 +595,6 @@ State
 /
 *
 *
-*
 Indicates
 that
 the
@@ -616,7 +606,6 @@ no
 model
 is
 currently
-*
 being
 downloaded
 or
@@ -631,7 +620,6 @@ State
 /
 *
 *
-*
 Indicates
 that
 the
@@ -640,7 +628,6 @@ model
 cannot
 be
 used
-*
 (
 e
 .
@@ -659,7 +646,6 @@ Unavailable
 :
 State
 /
-*
 *
 *
 Indicates
@@ -737,7 +723,6 @@ State
 /
 *
 *
-*
 Indicates
 that
 the
@@ -803,7 +788,6 @@ State
 /
 *
 *
-*
 The
 current
 state
@@ -845,7 +829,6 @@ this
 method
 should
 return
-*
 immediately
 without
 side
@@ -876,7 +859,6 @@ LlmProvider
 from
 a
 list
-*
 of
 available
 providers

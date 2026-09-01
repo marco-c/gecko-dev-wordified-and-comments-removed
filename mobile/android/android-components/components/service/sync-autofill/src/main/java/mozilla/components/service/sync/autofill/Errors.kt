@@ -69,7 +69,6 @@ autofill
 /
 *
 *
-*
 Unrecoverable
 errors
 related
@@ -78,7 +77,6 @@ to
 AutofillCreditCardsAddressesStorage
 ]
 .
-*
 Do
 not
 catch
@@ -105,7 +103,6 @@ reason
 )
 {
 /
-*
 *
 *
 Thrown
@@ -137,7 +134,6 @@ AutofillStorageException
 /
 *
 *
-*
 Unrecoverable
 errors
 related
@@ -146,7 +142,6 @@ to
 AutofillCrypto
 ]
 .
-*
 Do
 not
 catch
@@ -173,7 +168,6 @@ cause
 )
 {
 /
-*
 *
 *
 Thrown

@@ -85,6 +85,12 @@ view
 .
 View
 import
+java
+.
+util
+.
+UUID
+import
 mozilla
 .
 components
@@ -98,12 +104,6 @@ AwesomeBar
 Suggestion
 .
 Flag
-import
-java
-.
-util
-.
-UUID
 /
 *
 *
@@ -179,7 +179,6 @@ AwesomeBar
 /
 *
 *
-*
 Adds
 the
 following
@@ -213,7 +212,6 @@ SuggestionProvider
 /
 *
 *
-*
 Removes
 the
 following
@@ -233,7 +231,6 @@ SuggestionProvider
 /
 *
 *
-*
 Removes
 all
 [
@@ -247,7 +244,6 @@ removeAllProviders
 (
 )
 /
-*
 *
 *
 Returns
@@ -275,7 +271,6 @@ SuggestionProvider
 :
 Boolean
 /
-*
 *
 *
 Fired
@@ -348,7 +343,6 @@ String
 /
 *
 *
-*
 Fired
 when
 the
@@ -371,7 +365,6 @@ onInputCancelled
 =
 Unit
 /
-*
 *
 *
 Casts
@@ -443,7 +436,6 @@ Unit
 /
 *
 *
-*
 Adds
 a
 lambda
@@ -478,7 +470,6 @@ Unit
 /
 *
 *
-*
 Update
 what
 search
@@ -500,7 +491,6 @@ GroupedSuggestion
 >
 )
 /
-*
 *
 *
 Add
@@ -535,7 +525,6 @@ GroupedSuggestion
 Unit
 )
 /
-*
 *
 *
 Information
@@ -639,12 +628,12 @@ id
 in
 which
 the
-*
 [
 Suggestion
 ]
 should
 be
+*
 shown
 .
 *
@@ -665,7 +654,6 @@ String
 /
 *
 *
-*
 Interface
 to
 be
@@ -680,7 +668,6 @@ interface
 SuggestionItem
 {
 /
-*
 *
 *
 The
@@ -699,7 +686,6 @@ SuggestionProvider
 /
 *
 *
-*
 A
 unique
 ID
@@ -714,7 +700,6 @@ id
 :
 String
 /
-*
 *
 *
 A
@@ -737,7 +722,6 @@ score
 :
 Int
 /
-*
 *
 *
 A
@@ -768,7 +752,6 @@ Unit
 )
 ?
 /
-*
 *
 *
 A
@@ -940,7 +923,6 @@ by
 the
 user
 .
-*
 If
 so
 an
@@ -948,6 +930,7 @@ appropriate
 icon
 will
 be
+*
 shown
 to
 the
@@ -1374,8 +1357,8 @@ decide
 how
 to
 display
-*
 a
+*
 specific
 [
 Suggestion
@@ -1459,8 +1442,8 @@ id
 )
 needs
 its
-*
 view
+*
 to
 be
 updated
@@ -1607,7 +1590,6 @@ String
 /
 *
 *
-*
 A
 header
 title
@@ -1616,7 +1598,6 @@ grouping
 the
 suggestions
 .
-*
 *
 /
 fun
@@ -1631,7 +1612,6 @@ null
 /
 *
 *
-*
 Display
 the
 header
@@ -1641,7 +1621,6 @@ grouping
 the
 suggestions
 .
-*
 *
 /
 fun
@@ -1693,8 +1672,8 @@ be
 displayed
 before
 the
-*
 user
+*
 has
 entered
 /
@@ -1890,7 +1869,6 @@ List
 SuggestionItem
 >
 /
-*
 *
 *
 Fired
@@ -2137,10 +2115,10 @@ order
 of
 this
 group
-*
 in
 the
 AwesomeBar
+*
 suggestions
 .
 Group
@@ -2173,7 +2151,6 @@ rendered
 by
 an
 AwesomeBar
-*
 implementation
 .
 *

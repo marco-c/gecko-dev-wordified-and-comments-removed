@@ -187,7 +187,6 @@ ACPerf
 /
 *
 *
-*
 A
 clipboard
 utility
@@ -249,13 +248,13 @@ this
 is
 a
 sensitive
-*
 API
 as
 from
 Android
 12
 and
+*
 above
 accessing
 it
@@ -266,7 +265,6 @@ notification
 letting
 the
 user
-*
 know
 the
 app
@@ -275,6 +273,7 @@ accessed
 the
 clipboard
 make
+*
 sure
 when
 you
@@ -284,7 +283,6 @@ API
 that
 users
 are
-*
 completely
 aware
 that
@@ -294,10 +292,10 @@ accessing
 the
 clipboard
 .
-*
 See
 for
 more
+*
 details
 https
 :
@@ -425,12 +423,12 @@ this
 is
 a
 sensitive
-*
 API
 as
 from
 Android
 12
+*
 and
 above
 accessing
@@ -442,7 +440,6 @@ notification
 letting
 the
 user
-*
 know
 the
 app
@@ -450,6 +447,7 @@ has
 accessed
 the
 clipboard
+*
 make
 sure
 when
@@ -460,7 +458,6 @@ API
 that
 users
 are
-*
 completely
 aware
 that
@@ -470,9 +467,9 @@ accessing
 the
 clipboard
 .
-*
 See
 for
+*
 more
 details
 https
@@ -493,7 +490,6 @@ issues
 /
 22271
 .
-*
 *
 /
 var
@@ -582,11 +578,11 @@ this
 is
 a
 sensitive
-*
 API
 as
 from
 Android
+*
 12
 and
 above
@@ -599,7 +595,6 @@ notification
 letting
 the
 user
-*
 know
 the
 app
@@ -607,6 +602,7 @@ has
 accessed
 the
 clipboard
+*
 make
 sure
 when
@@ -617,7 +613,6 @@ API
 that
 users
 are
-*
 completely
 aware
 that
@@ -627,9 +622,9 @@ accessing
 the
 clipboard
 .
-*
 See
 for
+*
 more
 details
 https
@@ -706,7 +701,6 @@ data
 contains
 text
 .
-*
 We
 cannot
 rely
@@ -716,6 +710,7 @@ isPrimaryClipEmpty
 )
 since
 it
+*
 triggers
 a
 clipboard
@@ -952,7 +947,6 @@ any
 clip
 data
 .
-*
 Reads
 the
 clip
@@ -965,12 +959,12 @@ a
 sensitive
 API
 as
+*
 from
 Android
 12
 and
 above
-*
 accessing
 it
 will
@@ -985,9 +979,9 @@ the
 app
 has
 accessed
+*
 the
 clipboard
-*
 make
 sure
 when
@@ -1005,9 +999,9 @@ we
 are
 accessing
 the
+*
 clipboard
 .
-*
 See
 https
 :
@@ -1064,6 +1058,7 @@ Android
 clipboard
 .
 *
+*
 return
 a
 string
@@ -1076,7 +1071,6 @@ on
 the
 clipboard
 if
-*
 the
 clipboard
 currently
@@ -1084,6 +1078,7 @@ has
 an
 item
 or
+*
 null
 if
 it
@@ -1112,9 +1107,9 @@ content
 is
 too
 large
-*
 or
 various
+*
 exceptions
 for
 certain

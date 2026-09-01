@@ -258,7 +258,6 @@ SHORTCUT
 /
 *
 *
-*
 Feature
 implementation
 for
@@ -328,7 +327,6 @@ CustomTabsIntent
 that
 creates
 a
-*
 new
 custom
 tab
@@ -337,6 +335,7 @@ the
 same
 styling
 and
+*
 layout
 *
 /
@@ -549,7 +548,6 @@ intent
 /
 *
 *
-*
 Starts
 observing
 the
@@ -753,7 +751,6 @@ sessionId
 }
 }
 /
-*
 *
 *
 Stops

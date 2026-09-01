@@ -596,10 +596,10 @@ out
 of
 range
 link
-*
 annotation
 used
 to
+*
 crash
 -
 so
@@ -614,7 +614,6 @@ exception
 rather
 than
 a
-*
 failed
 assertion
 .

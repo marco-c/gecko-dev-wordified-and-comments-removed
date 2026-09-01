@@ -67,6 +67,12 @@ jexl
 .
 grammar
 import
+kotlin
+.
+math
+.
+floor
+import
 mozilla
 .
 components
@@ -162,12 +168,6 @@ jexl
 value
 .
 JexlValue
-import
-kotlin
-.
-math
-.
-floor
 /
 *
 *

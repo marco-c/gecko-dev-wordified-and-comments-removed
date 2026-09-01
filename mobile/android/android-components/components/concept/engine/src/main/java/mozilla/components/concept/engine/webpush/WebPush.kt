@@ -188,7 +188,6 @@ ByteArray
 /
 *
 *
-*
 Invoked
 when
 a
@@ -284,7 +283,6 @@ for
 this
 subscription
 .
-*
 This
 is
 the
@@ -296,6 +294,7 @@ service
 which
 implements
 the
+*
 Web
 Push
 protocol
@@ -357,9 +356,9 @@ for
 use
 in
 encrypting
-*
 and
 authenticating
+*
 messages
 sent
 to

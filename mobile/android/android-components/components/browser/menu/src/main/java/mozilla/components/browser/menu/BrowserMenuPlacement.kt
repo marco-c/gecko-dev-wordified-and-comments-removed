@@ -73,7 +73,6 @@ View
 /
 *
 *
-*
 Configuration
 of
 where
@@ -98,7 +97,6 @@ BrowserMenuPlacement
 /
 *
 *
-*
 Android
 View
 that
@@ -117,7 +115,6 @@ anchor
 :
 View
 /
-*
 *
 *
 Menu
@@ -142,7 +139,6 @@ Int
 /
 *
 *
-*
 Menu
 placed
 below
@@ -160,7 +156,6 @@ class
 AnchoredToTop
 {
 /
-*
 *
 *
 The
@@ -205,7 +200,6 @@ BrowserMenuPlacement
 (
 )
 /
-*
 *
 *
 The
@@ -254,7 +248,6 @@ BrowserMenuPlacement
 /
 *
 *
-*
 Menu
 placed
 above
@@ -272,7 +265,6 @@ class
 AnchoredToBottom
 {
 /
-*
 *
 *
 The
@@ -317,7 +309,6 @@ BrowserMenuPlacement
 (
 )
 /
-*
 *
 *
 The

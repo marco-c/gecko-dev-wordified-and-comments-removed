@@ -143,7 +143,6 @@ Purpose
 /
 *
 *
-*
 Creates
 an
 [
@@ -212,7 +211,6 @@ color
 backgroundColor
 )
 /
-*
 *
 *
 Creates

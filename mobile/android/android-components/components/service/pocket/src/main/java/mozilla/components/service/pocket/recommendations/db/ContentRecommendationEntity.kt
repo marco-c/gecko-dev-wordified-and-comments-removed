@@ -218,10 +218,10 @@ This
 is
 provided
 to
-*
 include
 in
 telemetry
+*
 payloads
 .
 *
@@ -340,7 +340,6 @@ metadata
 for
 allowing
 quick
-*
 updates
 .
 *

@@ -244,7 +244,6 @@ by
 RecentlyClosedTabsStorage
 ]
 .
-*
 Instances
 of
 this
@@ -252,6 +251,7 @@ class
 are
 submitted
 via
+*
 [
 CrashReporting
 ]
@@ -261,7 +261,6 @@ wrapping
 helps
 easily
 identify
-*
 exceptions
 related
 to
@@ -285,7 +284,6 @@ Throwable
 e
 )
 /
-*
 *
 *
 A
@@ -364,7 +362,6 @@ context
 )
 }
 /
-*
 *
 *
 Returns
@@ -518,7 +515,6 @@ asTabState
 /
 *
 *
-*
 Removes
 the
 given
@@ -568,7 +564,6 @@ entity
 )
 }
 /
-*
 *
 *
 Removes
@@ -697,7 +692,6 @@ e
 }
 }
 /
-*
 *
 *
 return

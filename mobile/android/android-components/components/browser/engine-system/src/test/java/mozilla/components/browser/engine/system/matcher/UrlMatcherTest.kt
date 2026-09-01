@@ -89,6 +89,12 @@ runners
 .
 AndroidJUnit4
 import
+java
+.
+io
+.
+StringReader
+import
 mozilla
 .
 components
@@ -250,12 +256,6 @@ mockito
 Mockito
 .
 verify
-import
-java
-.
-io
-.
-StringReader
 RunWith
 (
 AndroidJUnit4
@@ -789,13 +789,13 @@ test
 this
 by
 creating
-*
 4
 categories
 each
 with
 only
 one
+*
 domain
 .
 We
@@ -806,7 +806,6 @@ all
 permutations
 of
 categories
-*
 and
 test
 that
@@ -816,6 +815,7 @@ expected
 domains
 are
 actually
+*
 blocked
 .
 *

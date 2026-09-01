@@ -79,7 +79,6 @@ Permission
 /
 *
 *
-*
 Provider
 to
 get
@@ -112,6 +111,7 @@ given
 permission
 .
 *
+*
 param
 permission
 the
@@ -124,7 +124,6 @@ more
 link
 for
 .
-*
 *
 return
 the
@@ -142,7 +141,6 @@ the
 permission
 is
 not
-*
 supported
 .
 *

@@ -86,10 +86,10 @@ an
 extension
 point
 between
-*
 dispatching
 an
 action
+*
 and
 the
 moment
@@ -119,13 +119,13 @@ Action
 ]
 dispatch
 additional
-*
 [
 Action
 ]
 s
 or
 perform
+*
 side
 -
 effects
@@ -159,13 +159,13 @@ in
 order
 .
 Every
-*
 [
 Middleware
 ]
 can
 decide
 to
+*
 continue
 the
 chain
@@ -180,7 +180,6 @@ chain
 (
 by
 not
-*
 invoking
 next
 )
@@ -192,6 +191,7 @@ Middleware
 has
 no
 knowledge
+*
 of
 what
 comes

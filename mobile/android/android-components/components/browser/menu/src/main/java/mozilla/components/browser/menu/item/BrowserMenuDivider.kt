@@ -135,7 +135,6 @@ DividerMenuCandidate
 /
 *
 *
-*
 A
 browser
 menu

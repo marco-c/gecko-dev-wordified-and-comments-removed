@@ -79,7 +79,6 @@ FileSizeFormatter
 /
 *
 *
-*
 A
 fake
 file

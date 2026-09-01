@@ -85,7 +85,6 @@ Messaging
 SDKs
 to
 allow
-*
 the
 [
 PushProcessor
@@ -93,6 +92,7 @@ PushProcessor
 to
 manage
 their
+*
 lifecycle
 .
 *
@@ -101,7 +101,6 @@ interface
 PushService
 {
 /
-*
 *
 *
 Starts
@@ -121,7 +120,6 @@ Context
 /
 *
 *
-*
 Stops
 the
 push
@@ -134,7 +132,6 @@ stop
 (
 )
 /
-*
 *
 *
 Tells
@@ -154,7 +151,6 @@ deleteToken
 (
 )
 /
-*
 *
 *
 If
@@ -182,7 +178,6 @@ companion
 object
 {
 /
-*
 *
 *
 Message

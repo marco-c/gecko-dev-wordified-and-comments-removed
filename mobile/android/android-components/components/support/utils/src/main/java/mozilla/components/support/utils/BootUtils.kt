@@ -85,7 +85,6 @@ File
 /
 *
 *
-*
 Provides
 access
 to
@@ -98,7 +97,6 @@ interface
 BootUtils
 {
 /
-*
 *
 *
 Gets
@@ -131,7 +129,6 @@ companion
 object
 {
 /
-*
 *
 *
 return
@@ -178,7 +175,6 @@ context
 }
 }
 /
-*
 *
 *
 Implementation

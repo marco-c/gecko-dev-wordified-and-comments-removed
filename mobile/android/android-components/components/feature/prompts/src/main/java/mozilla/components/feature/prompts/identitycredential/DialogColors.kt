@@ -71,15 +71,7 @@ androidx
 .
 compose
 .
-material
-.
-ContentAlpha
-import
-androidx
-.
-compose
-.
-material
+material3
 .
 MaterialTheme
 import
@@ -101,7 +93,6 @@ graphics
 .
 Color
 /
-*
 *
 *
 Represents
@@ -148,7 +139,6 @@ colors
 used
 in
 an
-*
 IdentityCredential
 dialog
 .
@@ -191,7 +181,7 @@ Color
 =
 MaterialTheme
 .
-colors
+colorScheme
 .
 onBackground
 description
@@ -200,7 +190,7 @@ Color
 =
 MaterialTheme
 .
-colors
+colorScheme
 .
 onBackground
 .
@@ -208,9 +198,9 @@ copy
 (
 alpha
 =
-ContentAlpha
+0
 .
-medium
+74f
 )
 )
 =
@@ -220,7 +210,6 @@ title
 description
 )
 /
-*
 *
 *
 Creates
@@ -251,7 +240,6 @@ default
 /
 *
 *
-*
 An
 [
 DialogColorsProvider
@@ -270,7 +258,6 @@ interface
 DialogColorsProvider
 {
 /
-*
 *
 *
 Provides

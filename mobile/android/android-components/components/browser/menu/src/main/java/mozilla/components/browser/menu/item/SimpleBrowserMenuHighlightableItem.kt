@@ -211,7 +211,6 @@ state
 which
 sets
 the
-*
 background
 of
 the
@@ -296,11 +295,11 @@ offscreen
 downwards
 or
 upwards
-*
 depending
 on
 the
 menu
+*
 position
 )
 .

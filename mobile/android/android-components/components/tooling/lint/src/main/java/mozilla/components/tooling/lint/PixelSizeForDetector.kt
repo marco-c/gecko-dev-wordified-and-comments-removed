@@ -214,12 +214,12 @@ replacing
 it
 with
 the
-*
 pixelSizeFor
 (
 )
 extension
 on
+*
 Context
 View
 or

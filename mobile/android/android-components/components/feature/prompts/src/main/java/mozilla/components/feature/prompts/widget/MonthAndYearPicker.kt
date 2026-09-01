@@ -91,6 +91,12 @@ annotation
 .
 VisibleForTesting
 import
+java
+.
+util
+.
+Calendar
+import
 mozilla
 .
 components
@@ -136,14 +142,7 @@ prompts
 ext
 .
 year
-import
-java
-.
-util
-.
-Calendar
 /
-*
 *
 *
 UI

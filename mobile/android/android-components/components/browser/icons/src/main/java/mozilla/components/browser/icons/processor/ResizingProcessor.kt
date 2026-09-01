@@ -93,6 +93,12 @@ graphics
 .
 scale
 import
+kotlin
+.
+math
+.
+roundToInt
+import
 mozilla
 .
 components
@@ -122,14 +128,7 @@ support
 images
 .
 DesiredSize
-import
-kotlin
-.
-math
-.
-roundToInt
 /
-*
 *
 *
 [
@@ -401,7 +400,6 @@ it
 }
 }
 /
-*
 *
 *
 Create

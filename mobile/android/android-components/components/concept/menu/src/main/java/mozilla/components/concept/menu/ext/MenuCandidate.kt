@@ -246,7 +246,6 @@ null
 /
 *
 *
-*
 Find
 the
 effects
@@ -255,7 +254,6 @@ by
 the
 menu
 .
-*
 Disabled
 and
 invisible
@@ -457,7 +455,6 @@ emptySequence
 /
 *
 *
-*
 Find
 a
 [
@@ -515,7 +512,6 @@ id
 id
 }
 /
-*
 *
 *
 Select

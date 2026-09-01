@@ -200,10 +200,10 @@ hasn
 t
 been
 any
-*
 entitlement
 checks
 yet
+*
 false
 otherwise
 .

@@ -67,7 +67,6 @@ digitalassetlinks
 /
 *
 *
-*
 Verifies
 that
 a
@@ -99,7 +98,6 @@ exists
 between
 the
 specified
-*
 [
 source
 ]
@@ -109,6 +107,7 @@ target
 ]
 assets
 .
+*
 The
 relationship
 must

@@ -383,6 +383,18 @@ unit
 .
 IntSize
 import
+kotlin
+.
+math
+.
+max
+import
+kotlin
+.
+math
+.
+min
+import
 kotlinx
 .
 coroutines
@@ -400,18 +412,6 @@ base
 utils
 .
 toFraction
-import
-kotlin
-.
-math
-.
-max
-import
-kotlin
-.
-math
-.
-min
 /
 *
 *
@@ -601,7 +601,6 @@ prevent
 rapid
 successive
 clicks
-*
 from
 calling
 the
@@ -762,7 +761,6 @@ to
 return
 .
 *
-*
 return
 the
 appropriate
@@ -835,8 +833,8 @@ then
 be
 pushed
 downwards
-*
 when
+*
 other
 elements
 appear
@@ -853,10 +851,10 @@ with
 multiple
 such
 events
-*
 being
 possible
 without
+*
 the
 user
 actually
@@ -898,7 +896,6 @@ on
 the
 screen
 .
-*
 This
 checks
 whether
@@ -907,6 +904,7 @@ composable
 has
 at
 least
+*
 [
 threshold
 ]
@@ -919,12 +917,10 @@ total
 area
 drawn
 inside
-*
 the
 screen
 bounds
 .
-*
 Does
 not
 account
@@ -933,6 +929,7 @@ other
 Views
 /
 Windows
+*
 covering
 it
 .
@@ -1281,7 +1278,6 @@ coordinates
 /
 *
 *
-*
 Return
 whether
 this
@@ -1300,7 +1296,6 @@ total
 area
 drawn
 inside
-*
 the
 screen
 bounds
@@ -1441,7 +1436,6 @@ intersection
 area
 .
 *
-*
 return
 A
 0
@@ -1564,7 +1558,6 @@ composableArea
 )
 }
 /
-*
 *
 *
 Default
@@ -1821,7 +1814,6 @@ shimmer
 animation
 cycle
 .
-*
 Defaults
 to
 1000
@@ -1864,7 +1856,6 @@ Color
 White
 ]
 .
-*
 *
 return
 A
@@ -1972,7 +1963,6 @@ color
 }
 }
 /
-*
 *
 *
 Describes

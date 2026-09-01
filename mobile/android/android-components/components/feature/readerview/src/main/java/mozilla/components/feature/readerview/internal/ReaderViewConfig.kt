@@ -253,7 +253,6 @@ in
 shared
 prefs
 .
-*
 All
 values
 are
@@ -262,6 +261,7 @@ lazily
 and
 cached
 .
+*
 *
 param
 context
@@ -290,7 +290,6 @@ method
 will
 be
 invoked
-*
 with
 a
 JSON
@@ -299,6 +298,7 @@ which
 should
 be
 sent
+*
 to
 the
 content
@@ -306,7 +306,6 @@ script
 so
 the
 new
-*
 config
 can
 be

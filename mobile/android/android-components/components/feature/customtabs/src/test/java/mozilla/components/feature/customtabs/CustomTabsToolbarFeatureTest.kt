@@ -161,6 +161,12 @@ runners
 .
 AndroidJUnit4
 import
+kotlin
+.
+test
+.
+assertIs
+import
 kotlinx
 .
 coroutines
@@ -7315,7 +7321,10 @@ items
 .
 size
 )
-assertTrue
+assertIs
+<
+SimpleBrowserMenuItem
+>
 (
 menuBuilder
 .
@@ -7323,8 +7332,6 @@ items
 [
 1
 ]
-is
-SimpleBrowserMenuItem
 )
 }
 Test
@@ -7492,7 +7499,10 @@ items
 .
 size
 )
-assertTrue
+assertIs
+<
+SimpleBrowserMenuItem
+>
 (
 menuBuilder
 .
@@ -7500,8 +7510,6 @@ items
 [
 2
 ]
-is
-SimpleBrowserMenuItem
 )
 }
 Test
@@ -7670,7 +7678,10 @@ items
 .
 size
 )
-assertTrue
+assertIs
+<
+SimpleBrowserMenuItem
+>
 (
 menuBuilder
 .
@@ -7678,8 +7689,6 @@ items
 [
 0
 ]
-is
-SimpleBrowserMenuItem
 )
 }
 Test

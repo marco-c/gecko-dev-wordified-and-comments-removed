@@ -309,7 +309,6 @@ GeckoNativeWebExtensionAction
 /
 *
 *
-*
 Gecko
 -
 based
@@ -322,7 +321,6 @@ wrapping
 the
 native
 web
-*
 extension
 object
 provided
@@ -393,7 +391,6 @@ and
 the
 session
 it
-*
 was
 opened
 for
@@ -402,9 +399,9 @@ Ports
 connected
 from
 background
+*
 scripts
 will
-*
 have
 a
 null
@@ -429,7 +426,6 @@ EngineSession
 null
 )
 /
-*
 *
 *
 See
@@ -692,7 +688,6 @@ name
 )
 }
 /
-*
 *
 *
 See
@@ -974,7 +969,6 @@ name
 )
 }
 /
-*
 *
 *
 See
@@ -1027,7 +1021,6 @@ null
 /
 *
 *
-*
 See
 [
 WebExtension
@@ -1064,7 +1057,6 @@ session
 ]
 }
 /
-*
 *
 *
 See
@@ -1123,7 +1115,6 @@ portId
 }
 }
 /
-*
 *
 *
 See
@@ -1341,7 +1332,6 @@ actionDelegate
 /
 *
 *
-*
 See
 [
 WebExtension
@@ -1495,7 +1485,6 @@ actionDelegate
 /
 *
 *
-*
 See
 [
 WebExtension
@@ -1540,7 +1529,6 @@ nativeExtension
 null
 }
 /
-*
 *
 *
 See
@@ -1709,7 +1697,6 @@ tabDelegate
 tabDelegate
 }
 /
-*
 *
 *
 See
@@ -1888,7 +1875,6 @@ tabDelegate
 /
 *
 *
-*
 See
 [
 WebExtension
@@ -1933,7 +1919,6 @@ nativeExtension
 null
 }
 /
-*
 *
 *
 See
@@ -2315,7 +2300,6 @@ null
 /
 *
 *
-*
 Companion
 object
 for
@@ -2342,7 +2326,6 @@ DATA_COLLECTION_PERMISSIONS
 }
 }
 /
-*
 *
 *
 Gecko

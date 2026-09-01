@@ -103,6 +103,12 @@ annotation
 .
 VisibleForTesting
 import
+java
+.
+util
+.
+Calendar
+import
 mozilla
 .
 components
@@ -280,14 +286,7 @@ utils
 TimePicker
 .
 shouldShowMillisecondsPicker
-import
-java
-.
-util
-.
-Calendar
 /
-*
 *
 *
 UI

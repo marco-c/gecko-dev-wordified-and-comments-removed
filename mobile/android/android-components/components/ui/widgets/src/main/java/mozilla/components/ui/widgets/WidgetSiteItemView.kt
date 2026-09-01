@@ -176,7 +176,6 @@ a
 list
 of
 websites
-*
 such
 as
 in
@@ -185,6 +184,7 @@ history
 site
 exceptions
 or
+*
 collections
 .
 *
@@ -298,7 +298,6 @@ secondary_button
 )
 }
 /
-*
 *
 *
 ImageView
@@ -428,7 +427,6 @@ caption
 null
 }
 /
-*
 *
 *
 Add
@@ -647,7 +645,6 @@ onClickListener
 onClickListener
 )
 /
-*
 *
 *
 Removes

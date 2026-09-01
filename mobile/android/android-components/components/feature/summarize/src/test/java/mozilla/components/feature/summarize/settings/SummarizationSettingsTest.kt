@@ -67,6 +67,12 @@ summarize
 .
 settings
 import
+kotlin
+.
+test
+.
+assertNull
+import
 kotlinx
 .
 coroutines
@@ -118,12 +124,6 @@ org
 junit
 .
 Test
-import
-kotlin
-.
-test
-.
-assertNull
 class
 SummarizationSettingsTest
 {

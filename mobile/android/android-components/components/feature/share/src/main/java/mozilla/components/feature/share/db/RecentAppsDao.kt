@@ -200,6 +200,7 @@ recent
 app
 .
 *
+*
 param
 activityName
 -
@@ -260,6 +261,7 @@ exponential
 decay
 )
 .
+*
 *
 param
 exceptActivity

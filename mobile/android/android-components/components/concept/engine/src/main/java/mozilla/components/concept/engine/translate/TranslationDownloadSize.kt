@@ -85,7 +85,6 @@ required
 for
 a
 given
-*
 translation
 to
 /
@@ -109,12 +108,12 @@ to
 /
 from
 pair
-*
 first
 the
 necessary
 ML
 models
+*
 must
 be
 downloaded
@@ -122,7 +121,6 @@ to
 the
 device
 .
-*
 This
 class
 represents
@@ -136,8 +134,8 @@ models
 necessary
 to
 translate
-the
 *
+the
 given
 to
 /
@@ -195,10 +193,10 @@ means
 the
 value
 has
-*
 yet
 to
 be
+*
 received
 or
 an

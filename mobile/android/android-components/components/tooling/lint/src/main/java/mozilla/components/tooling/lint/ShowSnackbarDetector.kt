@@ -226,9 +226,9 @@ the
 custom
 displaySnackbar
 function
-*
 provided
 in
+*
 mozilla
 .
 components
@@ -243,12 +243,12 @@ The
 custom
 function
 includes
-*
 additional
 accessibility
 handling
 that
 might
+*
 be
 missed
 when
@@ -256,7 +256,6 @@ using
 the
 Material
 3
-*
 function
 directly
 .
@@ -279,11 +278,11 @@ receiver
 of
 the
 call
-*
 is
 an
 instance
 of
+*
 androidx
 .
 compose
@@ -295,7 +294,6 @@ or
 its
 subclasses
 .
-*
 If
 such
 a
@@ -306,6 +304,7 @@ it
 reports
 an
 error
+*
 guiding
 the
 developer
@@ -453,13 +452,13 @@ the
 lint
 rule
 .
-*
 The
 rule
 flags
 direct
 usage
 of
+*
 SnackbarHostState
 .
 showSnackbar
@@ -471,9 +470,9 @@ showSnackbar
 and
 suggests
 using
-*
 displaySnackbar
 from
+*
 mozilla
 .
 components

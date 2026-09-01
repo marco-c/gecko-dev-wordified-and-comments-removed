@@ -103,7 +103,6 @@ Color
 /
 *
 *
-*
 Contains
 the
 default
@@ -119,7 +118,6 @@ object
 FloatingActionButtonDefaults
 {
 /
-*
 *
 *
 Returns
@@ -167,7 +165,6 @@ contentColor
 contentColor
 )
 /
-*
 *
 *
 Returns

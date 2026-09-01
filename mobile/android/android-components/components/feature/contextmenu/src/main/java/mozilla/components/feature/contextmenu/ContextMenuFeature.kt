@@ -313,13 +313,13 @@ context
 menu
 based
 on
-*
 the
 [
 HitResult
 ]
 in
 its
+*
 ContentState
 .
 Once
@@ -333,7 +333,6 @@ the
 user
 selects
 an
-*
 item
 from
 the
@@ -341,6 +340,7 @@ context
 menu
 the
 related
+*
 [
 HitResult
 ]
@@ -424,8 +424,8 @@ show
 up
 in
 the
-context
 *
+context
 menu
 .
 If
@@ -443,12 +443,12 @@ feature
 will
 invoke
 the
+*
 [
 ContextMenuCandidate
 .
 action
 ]
-*
 method
 of
 the
@@ -648,7 +648,6 @@ null
 /
 *
 *
-*
 Start
 observing
 the
@@ -749,7 +748,6 @@ hideContextMenu
 }
 }
 /
-*
 *
 *
 Stop

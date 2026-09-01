@@ -97,7 +97,6 @@ Observable
 /
 *
 *
-*
 Represents
 a
 result
@@ -123,7 +122,6 @@ ServiceResult
 /
 *
 *
-*
 All
 good
 .
@@ -138,7 +136,6 @@ ServiceResult
 /
 *
 *
-*
 Auth
 error
 .
@@ -151,7 +148,6 @@ ServiceResult
 (
 )
 /
-*
 *
 *
 Error
@@ -171,7 +167,6 @@ ServiceResult
 )
 }
 /
-*
 *
 *
 Describes
@@ -218,6 +213,7 @@ on
 authType
 ]
 .
+*
 *
 param
 authType
@@ -285,6 +281,7 @@ never
 queried
 .
 *
+*
 return
 [
 ConstellationState
@@ -324,13 +321,13 @@ via
 DeviceConstellationObserver
 ]
 .
-*
 Use
 this
 to
 be
 notified
 of
+*
 changes
 to
 the
@@ -367,6 +364,7 @@ the
 current
 device
 .
+*
 *
 param
 name
@@ -423,6 +421,7 @@ current
 device
 .
 *
+*
 param
 subscription
 A
@@ -462,6 +461,7 @@ a
 specified
 device
 .
+*
 *
 param
 targetDeviceId
@@ -525,6 +525,7 @@ of
 band
 mechanism
 .
+*
 *
 param
 payload
@@ -603,13 +604,13 @@ DeviceCommandIncoming
 ]
 commands
 .
-*
 In
 case
 of
 new
 commands
 registered
+*
 [
 AccountEventsObserver
 ]
@@ -637,7 +638,6 @@ pollForCommands
 Boolean
 }
 /
-*
 *
 *
 Describes
@@ -707,7 +707,6 @@ Device
 /
 *
 *
-*
 Allows
 monitoring
 constellation
@@ -727,7 +726,6 @@ ConstellationState
 )
 }
 /
-*
 *
 *
 Describes
@@ -755,7 +753,6 @@ VR
 UNKNOWN
 }
 /
-*
 *
 *
 Describes
@@ -816,10 +813,10 @@ created
 during
 authentication
 .
-*
 This
 can
 be
+*
 changed
 later
 via
@@ -849,8 +846,8 @@ on
 other
 devices
 .
-*
 This
+*
 cannot
 be
 changed
@@ -923,7 +920,6 @@ false
 /
 *
 *
-*
 Capabilities
 that
 a
@@ -943,7 +939,6 @@ SEND_TAB
 CLOSE_TABS
 }
 /
-*
 *
 *
 Describes

@@ -217,7 +217,6 @@ Never
 /
 *
 *
-*
 Companion
 object
 for
@@ -235,7 +234,6 @@ companion
 object
 {
 /
-*
 *
 *
 Convert
@@ -287,7 +285,6 @@ Ask
 }
 }
 /
-*
 *
 *
 An
@@ -394,7 +391,6 @@ TimeInMillis
 /
 *
 *
-*
 Gets
 the
 stored
@@ -412,7 +408,6 @@ getDeferredUntil
 TimeInMillis
 ?
 /
-*
 *
 *
 Stores
@@ -434,7 +429,6 @@ TimeInMillis
 /
 *
 *
-*
 Records
 that
 the
@@ -449,7 +443,6 @@ remote
 settings
 crash
 pull
-*
 anymore
 *
 /
@@ -481,12 +474,12 @@ the
 event
 of
 one
-*
 having
 been
 submitted
 by
 a
+*
 user
 .
 *
@@ -519,12 +512,12 @@ they
 are
 successfully
 submitted
-*
 by
 a
 user
 .
 This
+*
 will
 return
 the
@@ -552,7 +545,6 @@ getCrashPullDeferUntil
 TimeInMillis
 ?
 /
-*
 *
 *
 Gets
@@ -584,7 +576,6 @@ getReportOption
 :
 CrashReportOption
 /
-*
 *
 *
 Stores

@@ -69,7 +69,6 @@ webpush
 /
 *
 *
-*
 Notifies
 applications
 or
@@ -90,7 +89,6 @@ interface
 WebPushDelegate
 {
 /
-*
 *
 *
 Requests
@@ -125,7 +123,6 @@ Unit
 =
 Unit
 /
-*
 *
 *
 Create

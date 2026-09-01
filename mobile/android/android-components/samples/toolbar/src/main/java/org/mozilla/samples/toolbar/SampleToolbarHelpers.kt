@@ -533,7 +533,6 @@ toolbar_label
 /
 *
 *
-*
 A
 custom
 view

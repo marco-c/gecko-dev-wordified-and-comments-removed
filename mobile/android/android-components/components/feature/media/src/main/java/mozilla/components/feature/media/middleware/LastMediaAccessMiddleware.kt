@@ -179,8 +179,8 @@ starts
 playing
 media
 or
-*
 the
+*
 [
 MediaSession
 ]
@@ -198,7 +198,6 @@ or
 starts
 playing
 media
-*
 in
 another
 tab

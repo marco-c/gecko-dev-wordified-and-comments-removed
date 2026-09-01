@@ -165,7 +165,6 @@ streamJSON
 /
 *
 *
-*
 Writes
 a
 [
@@ -184,7 +183,6 @@ be
 restored
 later
 using
-*
 [
 BrowserStateReader
 ]
@@ -195,7 +193,6 @@ class
 BrowserStateWriter
 {
 /
-*
 *
 *
 Writes
@@ -235,7 +232,6 @@ state
 )
 }
 /
-*
 *
 *
 Writes
@@ -278,7 +274,6 @@ tab
 }
 }
 /
-*
 *
 *
 Writes
@@ -421,7 +416,6 @@ endObject
 )
 }
 /
-*
 *
 *
 Writes
@@ -865,7 +859,6 @@ endObject
 /
 *
 *
-*
 Writes
 a
 [
@@ -935,7 +928,6 @@ endObject
 )
 }
 /
-*
 *
 *
 Writes
@@ -1019,7 +1011,6 @@ endObject
 )
 }
 /
-*
 *
 *
 Writes

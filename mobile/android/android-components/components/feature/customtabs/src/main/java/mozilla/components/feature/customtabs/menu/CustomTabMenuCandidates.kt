@@ -134,7 +134,6 @@ menu
 is
 opened
 .
-*
 These
 items
 are
@@ -144,10 +143,10 @@ the
 app
 that
 creates
+*
 the
 custom
 tab
-*
 and
 should
 be

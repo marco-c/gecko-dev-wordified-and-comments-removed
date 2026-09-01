@@ -101,7 +101,6 @@ FxaAccountManager
 /
 *
 *
-*
 Exposes
 the
 subset
@@ -194,7 +193,6 @@ s
 not
 disconnected
 .
-*
 Returned
 [
 OAuthAccount
@@ -203,6 +201,7 @@ may
 need
 to
 be
+*
 re
 -
 authenticated
@@ -228,7 +227,6 @@ OAuthAccount
 /
 *
 *
-*
 Get
 the
 [
@@ -252,7 +250,6 @@ OAuthAccount
 ?
 }
 /
-*
 *
 *
 Wraps

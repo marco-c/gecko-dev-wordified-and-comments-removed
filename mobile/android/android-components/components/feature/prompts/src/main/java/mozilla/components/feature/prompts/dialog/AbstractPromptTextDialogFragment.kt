@@ -165,7 +165,6 @@ KEY_USER_CHECK_BOX
 /
 *
 *
-*
 An
 abstract
 alert
@@ -195,7 +194,6 @@ PromptDialogFragment
 )
 {
 /
-*
 *
 *
 Tells
@@ -236,7 +234,6 @@ KEY_MANY_ALERTS
 /
 *
 *
-*
 Stores
 the
 user
@@ -246,7 +243,6 @@ decision
 from
 the
 checkbox
-*
 for
 preventing
 this
@@ -309,10 +305,10 @@ and
 attach
 the
 corresponding
-*
 events
 for
 handling
+*
 [
 hasShownManyDialogs
 ]
@@ -413,7 +409,6 @@ during
 text
 measurement
 .
-*
 Long
 strings
 can
@@ -424,6 +419,7 @@ s
 native
 text
 layout
+*
 engine
 to
 timeout

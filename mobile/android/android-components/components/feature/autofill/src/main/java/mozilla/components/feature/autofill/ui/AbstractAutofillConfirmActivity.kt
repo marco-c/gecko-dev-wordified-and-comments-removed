@@ -284,10 +284,10 @@ app
 .
 It
 is
-*
 shown
 in
 situations
+*
 where
 the
 authenticity
@@ -299,7 +299,6 @@ not
 be
 confirmed
 automatically
-*
 with
 "
 Digital
@@ -511,7 +510,6 @@ confirm_fragment
 /
 *
 *
-*
 Confirms
 the
 autofill
@@ -600,7 +598,6 @@ finish
 )
 }
 /
-*
 *
 *
 Cancels

@@ -194,10 +194,10 @@ provides
 callbacks
 for
 handling
-*
 any
 interactions
 with
+*
 the
 unsupported
 add
@@ -594,7 +594,6 @@ removeButton
 )
 }
 /
-*
 *
 *
 A

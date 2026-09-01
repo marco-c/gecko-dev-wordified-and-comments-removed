@@ -79,7 +79,6 @@ FxAEntryPoint
 /
 *
 *
-*
 An
 implementation
 of

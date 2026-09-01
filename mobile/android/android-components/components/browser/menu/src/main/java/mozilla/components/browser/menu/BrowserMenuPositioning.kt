@@ -105,7 +105,6 @@ VisibleForTesting
 /
 *
 *
-*
 All
 data
 needed
@@ -121,7 +120,6 @@ class
 MenuPositioningData
 (
 /
-*
 *
 *
 Where
@@ -154,7 +152,6 @@ null
 /
 *
 *
-*
 The
 orientation
 asked
@@ -182,7 +179,6 @@ Orientation
 .
 DOWN
 /
-*
 *
 *
 Whether
@@ -216,7 +212,6 @@ false
 /
 *
 *
-*
 Whether
 the
 menu
@@ -246,7 +241,6 @@ Boolean
 =
 false
 /
-*
 *
 *
 Distance
@@ -280,7 +274,6 @@ Int
 /
 *
 *
-*
 Distance
 between
 [
@@ -310,7 +303,6 @@ Int
 =
 0
 /
-*
 *
 *
 [
@@ -423,7 +415,6 @@ should
 be
 positioned
 .
-*
 *
 return
 new
@@ -614,10 +605,10 @@ in
 currentData
 ]
 .
-*
 Should
 be
 called
+*
 only
 once
 per
@@ -652,7 +643,6 @@ should
 be
 positioned
 .
-*
 *
 return
 new

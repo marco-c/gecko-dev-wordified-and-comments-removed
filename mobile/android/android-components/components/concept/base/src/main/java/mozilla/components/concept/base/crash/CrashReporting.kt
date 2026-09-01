@@ -75,7 +75,6 @@ Job
 /
 *
 *
-*
 A
 crash
 reporter
@@ -95,7 +94,6 @@ interface
 CrashReporting
 {
 /
-*
 *
 *
 Submit
@@ -120,7 +118,6 @@ Throwable
 :
 Job
 /
-*
 *
 *
 Add

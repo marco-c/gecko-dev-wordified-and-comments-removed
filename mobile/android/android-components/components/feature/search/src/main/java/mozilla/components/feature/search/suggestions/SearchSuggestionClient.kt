@@ -67,6 +67,12 @@ search
 .
 suggestions
 import
+java
+.
+io
+.
+IOException
+import
 mozilla
 .
 components
@@ -146,14 +152,7 @@ org
 json
 .
 JSONException
-import
-java
-.
-io
-.
-IOException
 /
-*
 *
 *
 Async
@@ -183,7 +182,6 @@ String
 String
 ?
 /
-*
 *
 *
 Provides
@@ -299,7 +297,6 @@ fetcher
 /
 *
 *
-*
 Exception
 types
 for
@@ -344,7 +341,6 @@ response
 "
 )
 /
-*
 *
 *
 Gets

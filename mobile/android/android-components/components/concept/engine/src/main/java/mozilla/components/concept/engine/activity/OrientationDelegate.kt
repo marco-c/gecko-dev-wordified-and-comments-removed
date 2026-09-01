@@ -77,7 +77,6 @@ ActivityInfo
 /
 *
 *
-*
 Notifies
 applications
 or
@@ -97,7 +96,6 @@ OrientationDelegate
 /
 *
 *
-*
 The
 result
 of
@@ -115,7 +113,6 @@ LockResult
 /
 *
 *
-*
 The
 orientation
 lock
@@ -129,7 +126,6 @@ SUCCESS
 /
 *
 *
-*
 The
 orientation
 lock
@@ -141,7 +137,6 @@ rejected
 /
 REJECTED
 /
-*
 *
 *
 The
@@ -187,7 +182,6 @@ should
 be
 set
 .
-*
 Values
 can
 be
@@ -195,6 +189,7 @@ any
 of
 screen
 orientation
+*
 values
 defined
 in
@@ -202,7 +197,6 @@ in
 ActivityInfo
 ]
 .
-*
 *
 return
 The
@@ -249,9 +243,9 @@ before
 onOrientationLock
 ]
 .
-*
 Implementers
 should
+*
 usually
 set
 [

@@ -67,6 +67,12 @@ state
 .
 reducer
 import
+kotlin
+.
+math
+.
+max
+import
 mozilla
 .
 components
@@ -152,18 +158,11 @@ state
 recover
 .
 toTabSessionStates
-import
-kotlin
-.
-math
-.
-max
 internal
 object
 TabListReducer
 {
 /
-*
 *
 *
 [
@@ -1420,6 +1419,8 @@ selected
 .
 Otherwise
 we
+/
+/
 may
 /
 /
@@ -1767,11 +1768,11 @@ parent
 is
 being
 removed
-*
 and
 if
 so
 will
+*
 recursively
 check
 the
@@ -1866,7 +1867,6 @@ parentId
 }
 }
 /
-*
 *
 *
 Find
@@ -2118,7 +2118,6 @@ null
 /
 *
 *
-*
 Find
 a
 tab
@@ -2270,7 +2269,6 @@ exist
 and
 throws
 an
-*
 [
 IllegalArgumentException
 ]
@@ -2351,7 +2349,6 @@ exists
 /
 *
 *
-*
 Removes
 references
 to
@@ -2424,7 +2421,6 @@ removedTabIds
 )
 }
 /
-*
 *
 *
 Removes

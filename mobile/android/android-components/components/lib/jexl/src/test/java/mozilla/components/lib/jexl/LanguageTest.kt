@@ -65,6 +65,12 @@ lib
 .
 jexl
 import
+kotlin
+.
+reflect
+.
+KClass
+import
 org
 .
 junit
@@ -86,12 +92,6 @@ org
 junit
 .
 Test
-import
-kotlin
-.
-reflect
-.
-KClass
 /
 *
 *

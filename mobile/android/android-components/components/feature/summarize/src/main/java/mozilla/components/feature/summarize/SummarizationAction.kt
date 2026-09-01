@@ -121,7 +121,6 @@ RichDocument
 /
 *
 *
-*
 Actions
 for
 the
@@ -323,7 +322,6 @@ that
 blocked
 preparation
 carried
-*
 through
 for
 telemetry
@@ -373,7 +371,6 @@ LlmProviderAction
 /
 *
 *
-*
 There
 was
 a
@@ -400,7 +397,6 @@ Throwable
 :
 SummarizationAction
 /
-*
 *
 *
 We
@@ -431,7 +427,6 @@ SummarizationAction
 /
 *
 *
-*
 The
 Summarization
 has
@@ -446,7 +441,6 @@ SummarizationCompleted
 :
 SummarizationAction
 /
-*
 *
 *
 We
@@ -472,7 +466,6 @@ RichDocument
 :
 SummarizationAction
 /
-*
 *
 *
 Page
@@ -504,7 +497,6 @@ Content
 :
 SummarizationAction
 /
-*
 *
 *
 Actions
@@ -602,7 +594,6 @@ CancelClicked
 OnDeviceSummarizationShakeConsentAction
 }
 /
-*
 *
 *
 Actions
@@ -793,7 +784,6 @@ SignInSummarizationContentAction
 /
 *
 *
-*
 Actions
 for
 the
@@ -880,7 +870,6 @@ DownloadConsentAction
 /
 *
 *
-*
 Actions
 for
 the
@@ -928,7 +917,6 @@ CancelClicked
 DownloadInProgressAction
 }
 /
-*
 *
 *
 Actions
@@ -1015,7 +1003,6 @@ CancelClicked
 DownloadErrorAction
 }
 /
-*
 *
 *
 Actions

@@ -224,7 +224,6 @@ pre
 declared
 relationships
 between
-*
 two
 assets
 which
@@ -232,12 +231,12 @@ can
 be
 either
 web
+*
 domains
 or
 native
 applications
 .
-*
 This
 class
 checks
@@ -252,6 +251,7 @@ assets
 via
 the
 online
+*
 API
 .
 *
@@ -468,10 +468,10 @@ directional
 )
 relationship
 exists
-*
 between
 the
 specified
+*
 source
 and
 target

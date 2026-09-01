@@ -121,7 +121,6 @@ TabSessionState
 /
 *
 *
-*
 Whether
 this
 custom
@@ -157,7 +156,6 @@ externalAppType
 =
 PROGRESSIVE_WEB_APP
 /
-*
 *
 *
 Whether

@@ -341,12 +341,12 @@ session
 Returns
 null
 if
-*
 no
 tab
 has
 a
 media
+*
 session
 attached
 .

@@ -151,9 +151,9 @@ menu
 is
 always
 visible
-*
 otherwise
 the
+*
 top
 of
 the
@@ -195,11 +195,11 @@ offscreen
 downwards
 or
 upwards
-*
 depending
 on
 the
 menu
+*
 position
 )
 .
@@ -240,7 +240,6 @@ BrowserMenuItem
 /
 *
 *
-*
 Listener
 called
 when
@@ -264,7 +263,6 @@ Unit
 {
 }
 /
-*
 *
 *
 Listener

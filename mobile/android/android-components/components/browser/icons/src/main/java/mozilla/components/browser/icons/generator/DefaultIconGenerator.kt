@@ -155,6 +155,12 @@ graphics
 .
 createBitmap
 import
+kotlin
+.
+math
+.
+abs
+import
 mozilla
 .
 components
@@ -208,12 +214,6 @@ ktx
 kotlin
 .
 getRepresentativeSnippet
-import
-kotlin
-.
-math
-.
-abs
 /
 *
 *
@@ -603,10 +603,10 @@ the
 same
 host
 will
-*
 return
 the
 same
+*
 color
 .
 *

@@ -67,6 +67,12 @@ jexl
 .
 ext
 import
+java
+.
+lang
+.
+UnsupportedOperationException
+import
 mozilla
 .
 components
@@ -140,12 +146,6 @@ org
 junit
 .
 Test
-import
-java
-.
-lang
-.
-UnsupportedOperationException
 class
 JexlExtensionsTest
 {

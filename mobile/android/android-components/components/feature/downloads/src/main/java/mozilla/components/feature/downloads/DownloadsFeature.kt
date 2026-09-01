@@ -503,7 +503,6 @@ packageManagerCompatHelper
 /
 *
 *
-*
 The
 name
 of
@@ -526,7 +525,6 @@ value
 String
 )
 /
-*
 *
 *
 Represents
@@ -569,7 +567,6 @@ the
 same
 ETag
 .
-*
 The
 value
 will
@@ -613,7 +610,6 @@ number
 of
 bytes
 .
-*
 The
 value
 will
@@ -623,6 +619,7 @@ if
 the
 size
 is
+*
 unknown
 .
 *
@@ -638,7 +635,6 @@ value
 Long
 )
 /
-*
 *
 *
 The
@@ -671,7 +667,6 @@ DownloaderApp
 >
 )
 /
-*
 *
 *
 Callback
@@ -711,7 +706,6 @@ Unit
 /
 *
 *
-*
 Callback
 for
 when
@@ -746,7 +740,6 @@ Unit
 /
 *
 *
-*
 Callback
 for
 when
@@ -777,7 +770,6 @@ value
 Unit
 )
 /
-*
 *
 *
 Callback
@@ -819,7 +811,6 @@ functionality
 for
 the
 selected
-*
 session
 .
 The
@@ -828,11 +819,11 @@ will
 subscribe
 to
 the
+*
 selected
 session
 and
 listen
-*
 for
 downloads
 .
@@ -855,7 +846,6 @@ callback
 invoked
 when
 permissions
-*
 need
 to
 be
@@ -864,13 +854,13 @@ before
 a
 download
 can
+*
 be
 performed
 .
 Once
 the
 request
-*
 is
 completed
 [
@@ -907,7 +897,6 @@ DownloadManager
 ]
 which
 is
-*
 responsible
 for
 performing
@@ -964,7 +953,6 @@ FragmentManager
 If
 a
 fragment
-*
 manager
 is
 provided
@@ -972,6 +960,7 @@ a
 dialog
 will
 be
+*
 shown
 before
 every
@@ -1009,10 +998,10 @@ the
 custom
 first
 party
-*
 download
 dialog
 should
+*
 be
 dismissed
 .
@@ -1029,10 +1018,10 @@ to
 third
 party
 apps
-*
 if
 there
 are
+*
 multiple
 apps
 a
@@ -1054,10 +1043,10 @@ dialog
 for
 a
 download
-*
 that
 will
 be
+*
 processed
 by
 the
@@ -1077,10 +1066,10 @@ dialog
 for
 a
 download
-*
 that
 can
 be
+*
 processed
 by
 multiple
@@ -1376,7 +1365,6 @@ null
 /
 *
 *
-*
 Starts
 observing
 downloads
@@ -1392,7 +1380,6 @@ the
 [
 DownloadManager
 ]
-*
 to
 be
 processed
@@ -1654,7 +1641,6 @@ updatedDownloadState
 /
 *
 *
-*
 Calls
 the
 tryAgain
@@ -1689,7 +1675,6 @@ id
 )
 }
 /
-*
 *
 *
 Stops
@@ -1727,7 +1712,6 @@ unregisterListeners
 )
 }
 /
-*
 *
 *
 Notifies
@@ -2263,13 +2247,13 @@ completed
 It
 will
 then
-*
 either
 trigger
 or
 clear
 the
 pending
+*
 download
 .
 *
@@ -3080,7 +3064,6 @@ download
 /
 *
 *
-*
 Find
 all
 apps
@@ -3393,7 +3376,6 @@ CATEGORY_BROWSABLE
 }
 }
 /
-*
 *
 *
 Styling

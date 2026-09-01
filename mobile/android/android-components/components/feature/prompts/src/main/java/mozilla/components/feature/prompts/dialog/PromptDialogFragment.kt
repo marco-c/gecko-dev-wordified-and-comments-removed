@@ -165,7 +165,6 @@ KEY_SHOULD_DISMISS_ON_LOAD
 /
 *
 *
-*
 An
 abstract
 representation
@@ -177,7 +176,6 @@ of
 prompt
 dialogs
 .
-*
 for
 handling
 [
@@ -244,7 +242,6 @@ KEY_PROMPT_UID
 !
 }
 /
-*
 *
 *
 Whether
@@ -333,7 +330,6 @@ Prompter
 /
 *
 *
-*
 Validates
 whether
 or
@@ -395,7 +391,6 @@ LoginValidationDelegate
 /
 *
 *
-*
 Stores
 whether
 a
@@ -437,9 +432,9 @@ by
 [
 promptRequestUID
 ]
-*
 from
 the
+*
 session
 indicated
 by
@@ -537,8 +532,8 @@ the
 PromptRequest
 ]
 indicated
-*
 by
+*
 [
 promptRequestUID
 ]
@@ -631,10 +626,10 @@ from
 the
 dialog
 .
-*
 This
 consumes
 the
+*
 [
 PromptFeature
 ]

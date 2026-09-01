@@ -179,10 +179,10 @@ order
 scoped
 to
 the
-*
 lifetime
 of
 the
+*
 [
 View
 ]
@@ -223,8 +223,8 @@ gets
 detached
 .
 The
-*
 provided
+*
 [
 LifecycleOwner
 ]

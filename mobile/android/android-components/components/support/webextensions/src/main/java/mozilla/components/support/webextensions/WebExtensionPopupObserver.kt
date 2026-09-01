@@ -199,7 +199,6 @@ application
 should
 open
 a
-*
 popup
 .
 This
@@ -208,13 +207,13 @@ a
 lambda
 accepting
 the
+*
 [
 WebExtensionState
 ]
 of
 the
 extension
-*
 that
 wants
 to

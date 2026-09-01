@@ -318,6 +318,12 @@ assertUrlEncodingIsValid
 (
 ErrorType
 .
+ERROR_LOCAL_NETWORK_ACCESS_DENIED
+)
+assertUrlEncodingIsValid
+(
+ErrorType
+.
 ERROR_UNKNOWN_SOCKET_TYPE
 )
 assertUrlEncodingIsValid

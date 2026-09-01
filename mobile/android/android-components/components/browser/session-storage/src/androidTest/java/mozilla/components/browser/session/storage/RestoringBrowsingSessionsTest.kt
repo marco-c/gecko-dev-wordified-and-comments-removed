@@ -83,6 +83,12 @@ app
 .
 ApplicationProvider
 import
+kotlin
+.
+test
+.
+assertNotNull
+import
 kotlinx
 .
 coroutines
@@ -156,12 +162,6 @@ org
 junit
 .
 Test
-import
-kotlin
-.
-test
-.
-assertNotNull
 /
 *
 *
@@ -184,11 +184,11 @@ If
 a
 test
 case
-*
 breaks
 then
 this
 is
+*
 a
 strong
 indication
@@ -202,7 +202,6 @@ a
 non
 backwards
 compatible
-*
 way
 and
 that
@@ -231,10 +230,10 @@ Nightly
 Breaking
 changes
 in
-*
 GeckoView
 may
 also
+*
 cause
 session
 restore
@@ -249,7 +248,6 @@ way
 .
 Such
 breakages
-*
 need
 to
 be
@@ -257,6 +255,7 @@ reported
 to
 the
 GeckoView
+*
 team
 to
 be
@@ -294,12 +293,10 @@ getApplicationContext
 /
 *
 *
-*
 App
 :
 Sample
 Browser
-*
 Version
 :
 2020
@@ -307,7 +304,6 @@ Version
 12
 -
 16
-*
 GeckoView
 :
 84
@@ -1918,7 +1914,6 @@ engineSessionState
 /
 *
 *
-*
 App
 :
 Firefox
@@ -1927,7 +1922,6 @@ Android
 (
 Fenix
 )
-*
 Version
 :
 80
@@ -5706,7 +5700,6 @@ state
 /
 *
 *
-*
 App
 :
 Firefox
@@ -5715,7 +5708,6 @@ Android
 (
 Fenix
 )
-*
 Version
 :
 83
@@ -7856,7 +7848,6 @@ state
 /
 *
 *
-*
 App
 :
 Firefox
@@ -7865,7 +7856,6 @@ Android
 (
 Fenix
 )
-*
 Version
 :
 master
@@ -8613,7 +8603,6 @@ state
 /
 *
 *
-*
 App
 :
 Firefox
@@ -8622,7 +8611,6 @@ Android
 (
 Fenix
 )
-*
 Version
 :
 master

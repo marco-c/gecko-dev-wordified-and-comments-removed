@@ -135,6 +135,12 @@ runners
 .
 AndroidJUnit4
 import
+java
+.
+util
+.
+Locale
+import
 mozilla
 .
 components
@@ -190,12 +196,6 @@ mockito
 Mockito
 .
 spy
-import
-java
-.
-util
-.
-Locale
 RunWith
 (
 AndroidJUnit4

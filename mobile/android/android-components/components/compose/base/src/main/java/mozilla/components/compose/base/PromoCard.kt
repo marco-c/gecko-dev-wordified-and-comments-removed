@@ -474,9 +474,9 @@ the
 illustration
 ]
 .
-*
 Defaults
 to
+*
 [
 Alignment
 .
@@ -496,7 +496,6 @@ card
 .
 Defaults
 to
-*
 [
 PromoCardColors
 .
@@ -515,7 +514,6 @@ close
 button
 .
 Ignored
-*
 when
 [
 onDismiss
@@ -539,7 +537,6 @@ When
 null
 the
 close
-*
 button
 is
 not
@@ -780,7 +777,6 @@ title
 message
 actions
 and
-*
 illustration
 .
 *
@@ -889,9 +885,9 @@ the
 illustration
 ]
 .
-*
 Defaults
 to
+*
 [
 Alignment
 .
@@ -929,7 +925,6 @@ close
 button
 .
 Ignored
-*
 when
 [
 onDismiss
@@ -953,7 +948,6 @@ When
 null
 the
 close
-*
 button
 is
 not
@@ -1520,7 +1514,6 @@ companion
 object
 {
 /
-*
 *
 *
 Builder

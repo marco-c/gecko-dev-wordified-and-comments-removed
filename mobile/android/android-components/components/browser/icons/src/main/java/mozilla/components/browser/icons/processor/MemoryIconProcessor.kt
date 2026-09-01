@@ -117,7 +117,6 @@ DesiredSize
 /
 *
 *
-*
 An
 [
 IconProcessor

@@ -81,7 +81,6 @@ PasswordPromptView
 /
 *
 *
-*
 Delegate
 to
 display
@@ -97,7 +96,6 @@ interface
 SuggestStrongPasswordDelegate
 {
 /
-*
 *
 *
 The

@@ -181,7 +181,6 @@ Logger
 /
 *
 *
-*
 An
 instance
 of
@@ -200,7 +199,6 @@ Gemini
 Nano
 to
 handle
-*
 inference
 .
 *

@@ -177,7 +177,6 @@ user
 settings
 related
 to
-*
 the
 summarization
 feature
@@ -210,11 +209,11 @@ in
 -
 memory
 implementation
-*
 suitable
 for
 testing
 or
+*
 previews
 .
 *
@@ -242,7 +241,6 @@ for
 whether
 the
 summarization
-*
 feature
 is
 enabled
@@ -289,10 +287,10 @@ never
 been
 set
 -
-*
 either
 by
 the
+*
 user
 or
 by
@@ -356,7 +354,6 @@ Boolean
 /
 *
 *
-*
 return
 A
 [
@@ -374,7 +371,6 @@ whether
 the
 shake
 gesture
-*
 is
 enabled
 .
@@ -433,7 +429,6 @@ newValue
 Boolean
 )
 /
-*
 *
 *
 return
@@ -511,7 +506,6 @@ Boolean
 /
 *
 *
-*
 Increments
 the
 count
@@ -534,7 +528,6 @@ incrementShakeConsentRejectedCount
 (
 )
 /
-*
 *
 *
 return
@@ -627,20 +620,19 @@ sessions
 and
 is
 intended
-*
 for
 use
 in
 tests
 Compose
 previews
+*
 or
 other
 scenarios
 where
 a
 lightweight
-*
 non
 -
 persistent
@@ -661,7 +653,6 @@ shake
 consent
 setting
 .
-*
 Defaults
 to
 false

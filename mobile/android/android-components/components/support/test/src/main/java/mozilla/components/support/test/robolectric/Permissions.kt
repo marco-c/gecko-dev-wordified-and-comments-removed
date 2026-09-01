@@ -102,7 +102,6 @@ for
 working
 with
 permission
-*
 just
 pass
 one
@@ -116,6 +115,7 @@ to
 be
 granted
 .
+*
 *
 param
 permissions

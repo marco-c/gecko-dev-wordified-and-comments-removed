@@ -73,6 +73,12 @@ graphics
 .
 Bitmap
 import
+java
+.
+util
+.
+UUID
+import
 mozilla
 .
 components
@@ -132,12 +138,6 @@ awesomebar
 AwesomeBar
 .
 SuggestionProvider
-import
-java
-.
-util
-.
-UUID
 /
 *
 *
@@ -420,7 +420,6 @@ SuggestionItem
 /
 *
 *
-*
 Represents
 the
 sports
@@ -444,7 +443,6 @@ SCHEDULED
 NONE
 }
 /
-*
 *
 *
 Represents
@@ -475,7 +473,6 @@ MISC
 /
 *
 *
-*
 Represents
 the
 sports
@@ -493,7 +490,6 @@ class
 SportSuggestionDate
 {
 /
-*
 *
 *
 Represents
@@ -536,7 +532,6 @@ SportSuggestionDate
 /
 *
 *
-*
 Represents
 today
 '
@@ -552,7 +547,6 @@ SportSuggestionDate
 (
 )
 /
-*
 *
 *
 Represents
@@ -640,7 +634,6 @@ Bitmap
 /
 *
 *
-*
 Represents
 the
 various
@@ -660,7 +653,6 @@ class
 SportSuggestionStatus
 {
 /
-*
 *
 *
 Represents
@@ -688,7 +680,6 @@ SportSuggestionStatus
 /
 *
 *
-*
 Represents
 the
 game
@@ -712,7 +703,6 @@ SportSuggestionStatus
 /
 *
 *
-*
 Represents
 the
 game
@@ -734,7 +724,6 @@ SportSuggestionStatus
 (
 )
 /
-*
 *
 *
 Represents
@@ -761,7 +750,6 @@ SportSuggestionStatus
 /
 *
 *
-*
 Represents
 the
 game
@@ -783,7 +771,6 @@ SportSuggestionStatus
 (
 )
 /
-*
 *
 *
 Represents
@@ -809,7 +796,6 @@ SportSuggestionStatus
 /
 *
 *
-*
 Represents
 the
 game
@@ -830,7 +816,6 @@ SportSuggestionStatus
 (
 )
 /
-*
 *
 *
 Represents
@@ -856,7 +841,6 @@ SportSuggestionStatus
 /
 *
 *
-*
 Represents
 the
 game
@@ -880,7 +864,6 @@ SportSuggestionStatus
 /
 *
 *
-*
 Represents
 the
 game
@@ -902,7 +885,6 @@ SportSuggestionStatus
 )
 }
 /
-*
 *
 *
 Represents
@@ -976,18 +958,17 @@ used
 as
 an
 intermediate
-*
 data
 representation
 before
 being
 mapped
 into
+*
 an
 AwesomeBar
 -
 specific
-*
 suggestion
 type
 (
@@ -1151,7 +1132,6 @@ String
 )
 {
 /
-*
 *
 *
 Represents

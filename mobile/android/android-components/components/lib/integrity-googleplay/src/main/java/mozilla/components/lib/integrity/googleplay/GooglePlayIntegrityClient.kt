@@ -202,7 +202,6 @@ indirection
 and
 easier
 testing
-*
 when
 creating
 integrity
@@ -216,7 +215,6 @@ interface
 IntegrityManagerProvider
 {
 /
-*
 *
 *
 Creates
@@ -250,7 +248,6 @@ IntegrityManagerProvider
 ]
 backed
 by
-*
 [
 IntegrityManagerFactory
 ]
@@ -268,7 +265,6 @@ used
 to
 initialize
 the
-*
 integrity
 manager
 .
@@ -324,7 +320,6 @@ requesting
 and
 returning
 an
-*
 [
 IntegrityToken
 ]
@@ -361,7 +356,6 @@ a
 unique
 hash
 for
-*
 the
 request
 .
@@ -391,7 +385,6 @@ IntegrityToken
 on
 success
 or
-*
 a
 failure
 if
@@ -401,6 +394,7 @@ request
 could
 not
 be
+*
 completed
 .
 *
@@ -420,7 +414,6 @@ IntegrityToken
 >
 }
 /
-*
 *
 *
 Factory
@@ -465,7 +458,6 @@ success
 or
 a
 failure
-*
 if
 the
 provider
@@ -541,7 +533,6 @@ working
 [
 TokenProvider
 ]
-*
 when
 [
 projectNumber
@@ -552,6 +543,7 @@ non
 null
 or
 a
+*
 failing
 one
 otherwise
@@ -615,10 +607,10 @@ request
 used
 for
 telemetry
-*
 attribution
 in
 the
+*
 integrity
 .
 token_request
@@ -695,7 +687,6 @@ generation
 strategy
 to
 be
-*
 customized
 or
 mocked
@@ -703,9 +694,9 @@ making
 it
 suitable
 for
+*
 dependency
 injection
-*
 and
 testing
 .
@@ -736,7 +727,6 @@ that
 is
 sufficiently
 unique
-*
 for
 the
 lifetime
@@ -857,11 +847,11 @@ used
 to
 measure
 warmup
-*
 duration
 .
 Defaults
 to
+*
 [
 System
 .
@@ -1048,7 +1038,6 @@ and
 will
 only
 attempt
-*
 provider
 creation
 once
@@ -1056,6 +1045,7 @@ unless
 the
 provider
 is
+*
 refreshed
 .
 *
@@ -1153,7 +1143,6 @@ creation
 fails
 the
 error
-*
 is
 returned
 via
@@ -1164,11 +1153,11 @@ Result
 When
 a
 token
+*
 expiration
 is
 detected
 the
-*
 provider
 is
 refreshed
@@ -1195,7 +1184,6 @@ on
 success
 or
 a
-*
 failure
 if
 the
@@ -1247,7 +1235,6 @@ request
 it
 issues
 with
-*
 [
 consumer
 ]
@@ -1255,13 +1242,13 @@ for
 telemetry
 attribution
 .
+*
 The
 returned
 view
 delegates
 to
 this
-*
 client
 and
 shares
@@ -1275,8 +1262,8 @@ consumers
 share
 the
 same
-*
 Phase
+*
 1
 warmup
 .
@@ -1432,7 +1419,6 @@ create
 }
 }
 /
-*
 *
 *
 Thrown

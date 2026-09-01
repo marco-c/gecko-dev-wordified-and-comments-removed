@@ -69,7 +69,6 @@ concept
 /
 *
 *
-*
 A
 prompt
 for

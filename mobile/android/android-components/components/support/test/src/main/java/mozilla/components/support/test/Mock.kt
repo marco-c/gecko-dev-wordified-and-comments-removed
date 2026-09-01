@@ -95,7 +95,6 @@ creating
 mocks
 of
 classes
-*
 using
 generics
 .
@@ -118,7 +117,6 @@ init
 Instead
 of
 :
-*
 <
 code
 >
@@ -154,7 +152,6 @@ can
 just
 use
 :
-*
 <
 code
 >
@@ -229,7 +226,6 @@ this
 )
 }
 /
-*
 *
 *
 Equivalent
@@ -422,8 +418,8 @@ and
 need
 to
 be
-created
 *
+created
 through
 [
 MotionEvent

@@ -106,7 +106,6 @@ currentTimeMillis
 behind
 a
 lambda
-*
 that
 can
 it
@@ -114,6 +113,7 @@ can
 invoke
 .
 In
+*
 a
 test
 this

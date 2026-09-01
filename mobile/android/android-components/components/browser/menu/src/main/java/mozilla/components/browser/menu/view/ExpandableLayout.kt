@@ -284,7 +284,6 @@ context
 /
 *
 *
-*
 The
 wrapped
 view
@@ -306,7 +305,6 @@ wrappedView
 :
 ViewGroup
 /
-*
 *
 *
 Listener
@@ -342,7 +340,6 @@ null
 /
 *
 *
-*
 Index
 of
 the
@@ -373,7 +370,6 @@ Int
 .
 MAX_VALUE
 /
-*
 *
 *
 Index
@@ -411,7 +407,6 @@ view
 when
 collapsed
 .
-*
 Calculated
 once
 based
@@ -423,9 +418,9 @@ the
 "
 isCollapsingMenuLimit
 "
+*
 BrowserMenuItem
 .
-*
 Capped
 by
 [
@@ -452,7 +447,6 @@ view
 when
 expanded
 .
-*
 Calculated
 once
 based
@@ -461,9 +455,9 @@ measuredHeighWithMargins
 (
 )
 .
-*
 Capped
 by
+*
 [
 parentHeight
 ]
@@ -478,7 +472,6 @@ Int
 =
 NOT_CALCULATED_DEFAULT_HEIGHT
 /
-*
 *
 *
 Available
@@ -512,7 +505,6 @@ view
 is
 collapsed
 .
-*
 If
 true
 :
@@ -548,13 +540,13 @@ view
 will
 be
 intercepted
-*
 and
 [
 blankTouchListener
 ]
 will
 be
+*
 called
 .
 *
@@ -595,7 +587,6 @@ view
 is
 expanding
 .
-*
 If
 true
 :
@@ -636,7 +627,6 @@ user
 is
 scrolling
 .
-*
 (
 If
 this
@@ -645,6 +635,7 @@ be
 bigger
 than
 that
+*
 of
 a
 child
@@ -692,7 +683,6 @@ ACTION_DOWN
 ]
 event
 .
-*
 Used
 to
 calculate
@@ -702,6 +692,7 @@ scrolled
 to
 know
 when
+*
 the
 view
 should
@@ -1703,7 +1694,6 @@ this
 [
 event
 ]
-*
 it
 can
 be
@@ -1712,6 +1702,7 @@ that
 the
 user
 is
+*
 currently
 scrolling
 up
@@ -2416,9 +2407,9 @@ the
 adapter
 position
 and
-*
 the
 RecyclerView
+*
 position
 for
 the
@@ -2427,7 +2418,6 @@ item
 may
 differ
 .
-*
 This
 method
 helps
@@ -2452,12 +2442,12 @@ in
 the
 adapter
 or
-*
 [
 RecyclerView
 .
 NO_POSITION
 ]
+*
 if
 there
 is
@@ -2536,7 +2526,6 @@ NOT_CALCULATED_Y_TOUCH_COORD
 =
 0f
 /
-*
 *
 *
 Duration

@@ -85,6 +85,12 @@ os
 .
 SystemClock
 import
+java
+.
+util
+.
+Locale
+import
 mozilla
 .
 components
@@ -442,18 +448,6 @@ concept
 engine
 .
 EngineSession
-import
-mozilla
-.
-components
-.
-concept
-.
-engine
-.
-EngineSession
-.
-CookieBannerHandlingStatus
 import
 mozilla
 .
@@ -794,14 +788,7 @@ base
 android
 .
 Clock
-import
-java
-.
-util
-.
-Locale
 /
-*
 *
 *
 [
@@ -837,7 +824,6 @@ store
 is
 initialized
 and
-*
 ready
 to
 use
@@ -846,11 +832,11 @@ This
 action
 is
 dispatched
+*
 automatically
 before
 any
 other
-*
 action
 is
 processed
@@ -863,8 +849,8 @@ to
 trigger
 initialization
 logic
-*
 in
+*
 middlewares
 .
 The
@@ -888,7 +874,6 @@ BrowserAction
 (
 )
 /
-*
 *
 *
 [
@@ -915,7 +900,6 @@ BrowserAction
 /
 *
 *
-*
 [
 BrowserAction
 ]
@@ -938,7 +922,6 @@ BrowserAction
 )
 {
 /
-*
 *
 *
 [
@@ -975,7 +958,6 @@ ExtensionsProcessAction
 /
 *
 *
-*
 [
 BrowserAction
 ]
@@ -1004,7 +986,6 @@ ExtensionsProcessAction
 /
 *
 *
-*
 [
 BrowserAction
 ]
@@ -1031,7 +1012,6 @@ ExtensionsProcessAction
 )
 }
 /
-*
 *
 *
 [
@@ -1074,10 +1054,10 @@ the
 system
 is
 in
-*
 a
 low
 memory
+*
 condition
 .
 *
@@ -1099,10 +1079,10 @@ of
 trimming
 the
 application
-*
 may
 like
 to
+*
 perform
 .
 See
@@ -1129,7 +1109,6 @@ SystemAction
 )
 }
 /
-*
 *
 *
 [
@@ -1203,7 +1182,6 @@ LocaleAction
 /
 *
 *
-*
 Restores
 the
 [
@@ -1225,7 +1203,6 @@ LocaleAction
 )
 }
 /
-*
 *
 *
 [
@@ -1351,7 +1328,6 @@ RecentlyClosedAction
 /
 *
 *
-*
 Removes
 all
 [
@@ -1376,7 +1352,6 @@ RecentlyClosedAction
 (
 )
 /
-*
 *
 *
 Prunes
@@ -1417,7 +1392,6 @@ RecentlyClosedAction
 /
 *
 *
-*
 Updates
 [
 BrowserState
@@ -1454,7 +1428,6 @@ RecentlyClosedAction
 )
 }
 /
-*
 *
 *
 [
@@ -1551,7 +1524,6 @@ TabListAction
 /
 *
 *
-*
 Adds
 multiple
 [
@@ -1643,12 +1615,12 @@ placed
 after
 the
 target
-*
 False
 for
 placing
 before
 the
+*
 target
 .
 Irrelevant
@@ -1662,7 +1634,6 @@ the
 tabs
 being
 moved
-*
 since
 then
 the
@@ -1672,6 +1643,7 @@ is
 moved
 to
 where
+*
 the
 target
 was
@@ -1681,7 +1653,6 @@ of
 the
 moved
 tabs
-*
 relative
 to
 each
@@ -1805,7 +1776,6 @@ parent
 tab
 should
 be
-*
 selected
 if
 one
@@ -2056,7 +2026,6 @@ TabListAction
 /
 *
 *
-*
 Indicates
 what
 location
@@ -2066,7 +2035,6 @@ should
 be
 restored
 at
-*
 *
 /
 enum
@@ -2092,6 +2060,7 @@ TabSessionState
 ]
 s
 .
+*
 *
 property
 recoverable
@@ -2123,7 +2092,6 @@ TabListAction
 /
 *
 *
-*
 Removes
 all
 private
@@ -2141,7 +2109,6 @@ TabListAction
 (
 )
 /
-*
 *
 *
 Removes
@@ -2164,7 +2131,6 @@ TabListAction
 )
 }
 /
-*
 *
 *
 [
@@ -2212,7 +2178,6 @@ If
 the
 corresponding
 partition
-*
 doesn
 '
 t
@@ -2220,6 +2185,7 @@ exist
 it
 will
 be
+*
 created
 .
 *
@@ -2283,7 +2249,6 @@ Empty
 partitions
 will
 be
-*
 be
 removed
 i
@@ -2295,13 +2260,13 @@ the
 last
 group
 in
+*
 a
 partition
 is
 removed
 the
 partition
-*
 is
 removed
 as
@@ -2384,13 +2349,13 @@ to
 If
 the
 corresponding
-*
 partition
 doesn
 '
 t
 exist
 it
+*
 will
 be
 created
@@ -2423,7 +2388,6 @@ the
 corresponding
 tab
 is
-*
 already
 in
 the
@@ -2432,6 +2396,7 @@ it
 won
 '
 t
+*
 be
 added
 again
@@ -2492,13 +2457,13 @@ to
 If
 the
 corresponding
-*
 partition
 doesn
 '
 t
 exist
 it
+*
 will
 be
 created
@@ -2533,7 +2498,6 @@ is
 already
 in
 the
-*
 group
 it
 won
@@ -2541,6 +2505,7 @@ won
 t
 be
 added
+*
 again
 .
 *
@@ -2728,7 +2693,6 @@ TabGroupAction
 /
 *
 *
-*
 [
 BrowserAction
 ]
@@ -2754,7 +2718,6 @@ BrowserAction
 )
 {
 /
-*
 *
 *
 Adds
@@ -2805,7 +2768,6 @@ UndoAction
 /
 *
 *
-*
 Clears
 the
 tabs
@@ -2838,7 +2800,6 @@ UndoAction
 /
 *
 *
-*
 Restores
 the
 tabs
@@ -2857,7 +2818,6 @@ UndoAction
 )
 }
 /
-*
 *
 *
 [
@@ -3086,9 +3046,9 @@ started
 playing
 media
 .
-*
 Defaults
 to
+*
 [
 System
 .
@@ -3169,7 +3129,6 @@ LastAccessAction
 )
 }
 /
-*
 *
 *
 [
@@ -3286,7 +3245,6 @@ CustomTabListAction
 /
 *
 *
-*
 Converts
 an
 existing
@@ -3318,7 +3276,6 @@ CustomTabListAction
 (
 )
 /
-*
 *
 *
 Removes
@@ -3379,7 +3336,6 @@ BrowserAction
 /
 *
 *
-*
 Removes
 the
 icon
@@ -3411,7 +3367,6 @@ ContentAction
 (
 )
 /
-*
 *
 *
 Updates
@@ -3457,7 +3412,6 @@ ContentAction
 /
 *
 *
-*
 Updates
 the
 progress
@@ -3495,7 +3449,6 @@ ContentAction
 /
 *
 *
-*
 Updates
 permissions
 highlights
@@ -3522,7 +3475,6 @@ ContentAction
 )
 {
 /
-*
 *
 *
 Updates
@@ -3563,7 +3515,6 @@ UpdatePermissionHighlightsStateAction
 /
 *
 *
-*
 Updates
 the
 cameraChanged
@@ -3600,7 +3551,6 @@ UpdatePermissionHighlightsStateAction
 (
 )
 /
-*
 *
 *
 Updates
@@ -3641,7 +3591,6 @@ UpdatePermissionHighlightsStateAction
 /
 *
 *
-*
 Updates
 the
 microphoneChanged
@@ -3678,7 +3627,6 @@ UpdatePermissionHighlightsStateAction
 (
 )
 /
-*
 *
 *
 Updates
@@ -3729,7 +3677,6 @@ the
 [
 PermissionHighlightsState
 ]
-*
 with
 the
 given
@@ -3770,7 +3717,6 @@ localDeviceAccessChanged
 property
 with
 the
-*
 given
 [
 tabId
@@ -3797,7 +3743,6 @@ local
 device
 access
 permission
-*
 has
 changed
 *
@@ -3833,7 +3778,6 @@ localNetworkAccessChanged
 property
 with
 the
-*
 given
 [
 tabId
@@ -3860,7 +3804,6 @@ local
 network
 access
 permission
-*
 has
 changed
 *
@@ -3885,7 +3828,6 @@ UpdatePermissionHighlightsStateAction
 /
 *
 *
-*
 Updates
 the
 autoPlayAudibleChanged
@@ -3895,7 +3837,6 @@ the
 [
 PermissionHighlightsState
 ]
-*
 with
 the
 given
@@ -3923,7 +3864,6 @@ UpdatePermissionHighlightsStateAction
 (
 )
 /
-*
 *
 *
 Updates
@@ -3964,7 +3904,6 @@ UpdatePermissionHighlightsStateAction
 /
 *
 *
-*
 Updates
 the
 autoPlayAudibleBlocking
@@ -4001,7 +3940,6 @@ UpdatePermissionHighlightsStateAction
 (
 )
 /
-*
 *
 *
 Updates
@@ -4042,7 +3980,6 @@ UpdatePermissionHighlightsStateAction
 /
 *
 *
-*
 Updates
 permissions
 highlights
@@ -4057,7 +3994,6 @@ given
 [
 tabId
 ]
-*
 to
 its
 default
@@ -4080,7 +4016,6 @@ UpdatePermissionHighlightsStateAction
 )
 }
 /
-*
 *
 *
 Updates
@@ -4118,7 +4053,6 @@ ContentAction
 (
 )
 /
-*
 *
 *
 Updates
@@ -4160,7 +4094,6 @@ ContentAction
 /
 *
 *
-*
 Updates
 the
 loading
@@ -4199,7 +4132,6 @@ ContentAction
 /
 *
 *
-*
 Updates
 the
 refreshCanceled
@@ -4236,7 +4168,6 @@ ContentAction
 (
 )
 /
-*
 *
 *
 Updates
@@ -4294,9 +4225,9 @@ the
 ContentState
 ]
 with
-*
 the
 given
+*
 [
 sessionId
 ]
@@ -4328,7 +4259,6 @@ ContentAction
 (
 )
 /
-*
 *
 *
 Updates
@@ -4368,7 +4298,6 @@ ContentAction
 (
 )
 /
-*
 *
 *
 Updates
@@ -4412,7 +4341,6 @@ ContentAction
 /
 *
 *
-*
 Updates
 the
 thumbnail
@@ -4448,7 +4376,6 @@ ContentAction
 (
 )
 /
-*
 *
 *
 Updates
@@ -4505,7 +4432,6 @@ ContentState
 .
 download
 ]
-*
 and
 removes
 the
@@ -4514,6 +4440,7 @@ DownloadState
 ]
 of
 the
+*
 [
 ContentState
 ]
@@ -4544,7 +4471,6 @@ ContentAction
 (
 )
 /
-*
 *
 *
 Removes
@@ -4586,7 +4512,6 @@ ContentAction
 /
 *
 *
-*
 Updates
 the
 [
@@ -4626,7 +4551,6 @@ ContentAction
 /
 *
 *
-*
 Removes
 the
 [
@@ -4660,7 +4584,6 @@ ContentAction
 (
 )
 /
-*
 *
 *
 Updates
@@ -4702,7 +4625,6 @@ ContentAction
 /
 *
 *
-*
 Removes
 the
 [
@@ -4740,7 +4662,6 @@ ContentAction
 (
 )
 /
-*
 *
 *
 Replaces
@@ -4788,7 +4709,6 @@ ContentAction
 /
 *
 *
-*
 Adds
 a
 [
@@ -4828,7 +4748,6 @@ ContentAction
 /
 *
 *
-*
 Removes
 all
 [
@@ -4863,7 +4782,6 @@ ContentAction
 (
 )
 /
-*
 *
 *
 Updates
@@ -4905,7 +4823,6 @@ ContentAction
 /
 *
 *
-*
 Removes
 the
 [
@@ -4939,7 +4856,6 @@ ContentAction
 (
 )
 /
-*
 *
 *
 Updates
@@ -4981,7 +4897,6 @@ ContentAction
 /
 *
 *
-*
 Removes
 the
 [
@@ -5017,7 +4932,6 @@ ContentAction
 /
 *
 *
-*
 Updates
 [
 fullScreenEnabled
@@ -5049,7 +4963,6 @@ ContentAction
 (
 )
 /
-*
 *
 *
 Updates
@@ -5114,6 +5027,7 @@ value
 of
 defined
 in
+*
 https
 :
 /
@@ -5155,7 +5069,6 @@ ContentAction
 (
 )
 /
-*
 *
 *
 Updates
@@ -5291,7 +5204,6 @@ ContentAction
 /
 *
 *
-*
 Updates
 the
 [
@@ -5331,7 +5243,6 @@ ContentAction
 /
 *
 *
-*
 Removes
 the
 [
@@ -5365,7 +5276,6 @@ ContentAction
 (
 )
 /
-*
 *
 *
 Updates
@@ -5415,7 +5325,6 @@ ContentAction
 /
 *
 *
-*
 Updates
 the
 [
@@ -5455,7 +5364,6 @@ ContentAction
 /
 *
 *
-*
 Adds
 a
 new
@@ -5469,7 +5377,6 @@ ContentState
 ]
 list
 .
-*
 *
 /
 data
@@ -5492,7 +5399,6 @@ ContentAction
 /
 *
 *
-*
 Deletes
 a
 content
@@ -5505,7 +5411,6 @@ ContentState
 ]
 list
 .
-*
 *
 /
 data
@@ -5528,7 +5433,6 @@ ContentAction
 /
 *
 *
-*
 Removes
 all
 content
@@ -5541,7 +5445,6 @@ ContentState
 ]
 list
 .
-*
 *
 /
 data
@@ -5560,7 +5463,6 @@ ContentAction
 /
 *
 *
-*
 Adds
 a
 new
@@ -5574,7 +5476,6 @@ ContentState
 ]
 list
 .
-*
 *
 /
 data
@@ -5597,7 +5498,6 @@ ContentAction
 /
 *
 *
-*
 Deletes
 an
 app
@@ -5610,7 +5510,6 @@ ContentState
 ]
 list
 .
-*
 *
 /
 data
@@ -5633,7 +5532,6 @@ ContentAction
 /
 *
 *
-*
 Removes
 all
 app
@@ -5646,7 +5544,6 @@ ContentState
 ]
 list
 .
-*
 *
 /
 data
@@ -5663,7 +5560,6 @@ ContentAction
 (
 )
 /
-*
 *
 *
 Sets
@@ -5709,7 +5605,6 @@ ContentAction
 /
 *
 *
-*
 Updates
 the
 [
@@ -5753,7 +5648,6 @@ ContentAction
 /
 *
 *
-*
 Updates
 the
 [
@@ -5793,7 +5687,6 @@ ContentAction
 /
 *
 *
-*
 Removes
 the
 [
@@ -5827,7 +5720,6 @@ ContentAction
 (
 )
 /
-*
 *
 *
 Updates
@@ -5888,7 +5780,6 @@ priority
 based
 on
 any
-*
 existing
 form
 data
@@ -5921,7 +5812,6 @@ ContentAction
 /
 *
 *
-*
 Lowers
 priority
 of
@@ -5952,7 +5842,6 @@ ContentAction
 (
 )
 /
-*
 *
 *
 Indicates
@@ -5992,7 +5881,6 @@ ContentAction
 /
 *
 *
-*
 Inform
 that
 the
@@ -6022,7 +5910,6 @@ ContentAction
 (
 )
 /
-*
 *
 *
 Inform
@@ -6055,7 +5942,6 @@ ContentAction
 )
 }
 /
-*
 *
 *
 [
@@ -6095,12 +5981,12 @@ global
 translations
 engine
 state
-*
 be
 fetched
 from
 the
 translations
+*
 engine
 and
 set
@@ -6138,7 +6024,6 @@ translate
 the
 page
 on
-*
 the
 given
 [
@@ -6216,10 +6101,10 @@ of
 the
 ability
 to
-*
 translate
 on
 the
+*
 given
 [
 tabId
@@ -6338,7 +6223,6 @@ to
 be
 confused
 with
-*
 the
 browser
 engine
@@ -6346,6 +6230,7 @@ state
 of
 the
 translations
+*
 component
 .
 *
@@ -6377,7 +6262,6 @@ translation
 engine
 for
 the
-*
 page
 .
 *
@@ -6583,7 +6467,6 @@ Will
 use
 the
 specified
-*
 [
 fromLanguage
 ]
@@ -6591,6 +6474,7 @@ and
 [
 toLanguage
 ]
+*
 to
 query
 the
@@ -6716,11 +6600,11 @@ to
 /
 from
 translations
-*
 pair
 and
 a
 download
+*
 size
 .
 *
@@ -6762,11 +6646,11 @@ or
 restoring
 the
 page
-*
 or
 acquiring
 a
 necessary
+*
 resource
 .
 *
@@ -6839,7 +6723,6 @@ page
 or
 acquire
 a
-*
 necessary
 resource
 .
@@ -6998,11 +6881,11 @@ to
 May
 be
 null
-*
 to
 complete
 the
 operation
+*
 on
 the
 current
@@ -7017,7 +6900,6 @@ for
 the
 operation
 )
-*
 or
 when
 no
@@ -7026,6 +6908,7 @@ is
 associated
 with
 the
+*
 request
 .
 *
@@ -7116,7 +6999,6 @@ translations
 or
 not
 on
-*
 [
 BrowserState
 .
@@ -7167,7 +7049,6 @@ translations
 engine
 on
 the
-*
 [
 BrowserState
 .
@@ -7373,11 +7254,11 @@ and
 ensures
 the
 final
-*
 state
 on
 the
 given
+*
 [
 tabId
 ]
@@ -7470,7 +7351,6 @@ the
 global
 store
 .
-*
 The
 translations
 offer
@@ -7480,6 +7360,7 @@ when
 to
 offer
 a
+*
 translation
 on
 a
@@ -7544,10 +7425,10 @@ and
 ensures
 the
 final
-*
 state
 on
 the
+*
 global
 store
 remains
@@ -7637,7 +7518,6 @@ language
 code
 and
 its
-*
 [
 LanguageSetting
 ]
@@ -7678,11 +7558,11 @@ engine
 and
 ensures
 the
-*
 final
 state
 on
 the
+*
 global
 store
 remains
@@ -7912,10 +7792,10 @@ engine
 has
 available
 .
-*
 Has
 options
 for
+*
 downloading
 and
 deleting
@@ -7990,7 +7870,6 @@ BrowserAction
 /
 *
 *
-*
 Updates
 the
 [
@@ -8022,7 +7901,6 @@ TrackingProtectionAction
 /
 *
 *
-*
 Updates
 the
 [
@@ -8052,7 +7930,6 @@ TrackingProtectionAction
 (
 )
 /
-*
 *
 *
 Adds
@@ -8091,7 +7968,6 @@ TrackingProtectionAction
 /
 *
 *
-*
 Adds
 a
 [
@@ -8126,7 +8002,6 @@ TrackingProtectionAction
 (
 )
 /
-*
 *
 *
 Clears
@@ -8171,92 +8046,12 @@ implementations
 related
 to
 updating
-the
-[
-SessionState
-.
-cookieBanner
-]
-of
-a
-single
-[
-SessionState
-]
-inside
-*
-[
-BrowserState
-]
-.
-*
-/
-sealed
-class
-CookieBannerAction
-:
-BrowserAction
-(
-)
-{
-/
-*
-*
-*
-Updates
-the
-[
-SessionState
-.
-cookieBanner
-]
-state
-or
-a
-a
-single
-[
-SessionState
-]
-.
-*
-/
-data
-class
-UpdateStatusAction
-(
-val
-tabId
-:
-String
-val
-status
-:
-CookieBannerHandlingStatus
-)
-:
-CookieBannerAction
-(
-)
-}
-/
-*
-*
-*
-[
-BrowserAction
-]
-implementations
-related
-to
-updating
 [
 BrowserState
 .
 extensions
 ]
 and
-*
 [
 TabSessionState
 .
@@ -8274,7 +8069,6 @@ BrowserAction
 )
 {
 /
-*
 *
 *
 Updates
@@ -8311,7 +8105,6 @@ WebExtensionAction
 /
 *
 *
-*
 Updates
 [
 BrowserState
@@ -8341,7 +8134,6 @@ WebExtensionAction
 (
 )
 /
-*
 *
 *
 Removes
@@ -8381,8 +8173,8 @@ BrowserState
 .
 extensions
 ]
-*
 and
+*
 [
 TabSessionState
 .
@@ -8407,7 +8199,6 @@ WebExtensionAction
 /
 *
 *
-*
 Removes
 state
 of
@@ -8419,7 +8210,6 @@ BrowserState
 .
 extensions
 ]
-*
 and
 [
 TabSessionState
@@ -8436,7 +8226,6 @@ WebExtensionAction
 (
 )
 /
-*
 *
 *
 Updates
@@ -8470,7 +8259,6 @@ WebExtensionAction
 /
 *
 *
-*
 Updates
 the
 [
@@ -8500,7 +8288,6 @@ WebExtensionAction
 (
 )
 /
-*
 *
 *
 Updates
@@ -8533,7 +8320,6 @@ WebExtensionAction
 (
 )
 /
-*
 *
 *
 Updates
@@ -8569,7 +8355,6 @@ WebExtensionAction
 /
 *
 *
-*
 Updates
 a
 page
@@ -8601,7 +8386,6 @@ WebExtensionAction
 (
 )
 /
-*
 *
 *
 Keeps
@@ -8665,13 +8449,13 @@ via
 WebExtensionState
 ]
 .
-*
 And
 keeps
 track
 of
 the
 last
+*
 instance
 used
 to
@@ -8681,16 +8465,15 @@ extension
 options
 page
 .
-*
 optionsPageInstanceId
 keeps
 repeated
 requests
 distinguishable
+*
 when
 the
 observer
-*
 misses
 the
 cleared
@@ -8724,7 +8507,6 @@ WebExtensionAction
 (
 )
 /
-*
 *
 *
 Clears
@@ -8877,13 +8659,13 @@ active
 for
 web
 extensions
-*
 e
 .
 g
 .
 to
 support
+*
 tabs
 .
 query
@@ -8952,7 +8734,6 @@ BrowserAction
 /
 *
 *
-*
 Creates
 an
 [
@@ -9006,7 +8787,6 @@ EngineAction
 )
 ActionWithTab
 /
-*
 *
 *
 Loads
@@ -9100,7 +8880,6 @@ shortcutted
 and
 a
 direct
-*
 load
 on
 the
@@ -9155,7 +8934,6 @@ EngineAction
 )
 ActionWithTab
 /
-*
 *
 *
 Loads
@@ -9216,7 +8994,6 @@ ActionWithTab
 /
 *
 *
-*
 Reloads
 the
 tab
@@ -9261,7 +9038,6 @@ ActionWithTab
 /
 *
 *
-*
 Navigates
 back
 in
@@ -9300,7 +9076,6 @@ ActionWithTab
 /
 *
 *
-*
 Navigates
 forward
 in
@@ -9337,7 +9112,6 @@ EngineAction
 )
 ActionWithTab
 /
-*
 *
 *
 Navigates
@@ -9382,7 +9156,6 @@ ActionWithTab
 /
 *
 *
-*
 Enables
 /
 disables
@@ -9422,7 +9195,6 @@ ActionWithTab
 /
 *
 *
-*
 Exits
 fullscreen
 mode
@@ -9456,7 +9228,6 @@ ActionWithTab
 /
 *
 *
-*
 Indicates
 the
 given
@@ -9488,7 +9259,6 @@ EngineAction
 )
 ActionWithTab
 /
-*
 *
 *
 Indicates
@@ -9538,7 +9308,6 @@ the
 page
 content
 .
-*
 [
 isPrint
 ]
@@ -9550,6 +9319,7 @@ in
 response
 to
 a
+*
 print
 (
 true
@@ -9589,7 +9359,6 @@ ActionWithTab
 /
 *
 *
-*
 Navigates
 back
 in
@@ -9620,7 +9389,6 @@ EngineAction
 )
 ActionWithTab
 /
-*
 *
 *
 Indicates
@@ -9656,7 +9424,6 @@ EngineAction
 )
 ActionWithTab
 /
-*
 *
 *
 Indicates
@@ -9698,7 +9465,6 @@ EngineAction
 )
 ActionWithTab
 /
-*
 *
 *
 Clears
@@ -9806,9 +9572,9 @@ happened
 (
 By
 default
-*
 set
 to
+*
 [
 SystemClock
 .
@@ -9859,7 +9625,6 @@ EngineAction
 )
 ActionWithTab
 /
-*
 *
 *
 Suspends
@@ -9917,10 +9682,10 @@ killed
 (
 The
 matching
-*
 content
 process
 was
+*
 killed
 )
 .
@@ -9942,7 +9707,6 @@ EngineAction
 )
 ActionWithTab
 /
-*
 *
 *
 Detaches
@@ -9979,7 +9743,6 @@ EngineAction
 )
 ActionWithTab
 /
-*
 *
 *
 Updates
@@ -10024,7 +9787,6 @@ ActionWithTab
 /
 *
 *
-*
 Updates
 the
 [
@@ -10062,7 +9824,6 @@ EngineAction
 )
 ActionWithTab
 /
-*
 *
 *
 Updates
@@ -10108,7 +9869,6 @@ ActionWithTab
 /
 *
 *
-*
 Purges
 the
 back
@@ -10131,7 +9891,6 @@ EngineAction
 (
 )
 /
-*
 *
 *
 Flushes
@@ -10170,7 +9929,6 @@ ActionWithTab
 /
 *
 *
-*
 [
 BrowserAction
 ]
@@ -10191,7 +9949,6 @@ BrowserAction
 )
 {
 /
-*
 *
 *
 Updates
@@ -10227,7 +9984,6 @@ CrashAction
 (
 )
 /
-*
 *
 *
 Updates
@@ -10303,7 +10059,6 @@ BrowserAction
 /
 *
 *
-*
 Updates
 the
 [
@@ -10333,7 +10088,6 @@ ReaderAction
 (
 )
 /
-*
 *
 *
 Updates
@@ -10367,7 +10121,6 @@ ReaderAction
 /
 *
 *
-*
 Updates
 the
 [
@@ -10397,7 +10150,6 @@ ReaderAction
 (
 )
 /
-*
 *
 *
 Updates
@@ -10431,7 +10183,6 @@ ReaderAction
 /
 *
 *
-*
 Updates
 the
 [
@@ -10460,7 +10211,6 @@ ReaderAction
 (
 )
 /
-*
 *
 *
 Updates
@@ -10493,7 +10243,6 @@ ReaderAction
 /
 *
 *
-*
 Updates
 the
 [
@@ -10524,7 +10273,6 @@ ReaderAction
 /
 *
 *
-*
 Clears
 the
 [
@@ -10552,7 +10300,6 @@ ReaderAction
 /
 *
 *
-*
 [
 BrowserAction
 ]
@@ -10576,7 +10323,6 @@ BrowserAction
 )
 {
 /
-*
 *
 *
 Activates
@@ -10617,7 +10363,6 @@ MediaSessionAction
 /
 *
 *
-*
 Activates
 [
 MediaSession
@@ -10648,7 +10393,6 @@ MediaSessionAction
 (
 )
 /
-*
 *
 *
 Updates
@@ -10692,7 +10436,6 @@ MediaSessionAction
 /
 *
 *
-*
 Updates
 the
 [
@@ -10732,7 +10475,6 @@ MediaSessionAction
 (
 )
 /
-*
 *
 *
 Updates
@@ -10776,7 +10518,6 @@ MediaSessionAction
 /
 *
 *
-*
 Updates
 the
 [
@@ -10818,7 +10559,6 @@ MediaSessionAction
 /
 *
 *
-*
 Updates
 the
 [
@@ -10854,7 +10594,6 @@ MediaSessionAction
 (
 )
 /
-*
 *
 *
 Updates
@@ -10907,7 +10646,6 @@ MediaSessionAction
 /
 *
 *
-*
 Updates
 the
 [
@@ -10950,7 +10688,6 @@ MediaSessionAction
 /
 *
 *
-*
 [
 BrowserAction
 ]
@@ -10974,7 +10711,6 @@ BrowserAction
 )
 {
 /
-*
 *
 *
 Updates
@@ -11028,6 +10764,7 @@ downloadId
 ]
 .
 *
+*
 param
 downloadId
 The
@@ -11054,11 +10791,11 @@ If
 false
 only
 removes
-*
 from
 history
 .
 If
+*
 null
 falls
 back
@@ -11093,7 +10830,6 @@ DownloadAction
 /
 *
 *
-*
 Updates
 the
 [
@@ -11113,7 +10849,6 @@ DownloadAction
 (
 )
 /
-*
 *
 *
 Updates
@@ -11144,7 +10879,6 @@ DownloadAction
 (
 )
 /
-*
 *
 *
 Mark
@@ -11182,7 +10916,6 @@ DownloadAction
 /
 *
 *
-*
 Restores
 the
 [
@@ -11204,7 +10937,6 @@ DownloadAction
 (
 )
 /
-*
 *
 *
 Restores
@@ -11251,7 +10983,6 @@ storage
 that
 no
 longer
-*
 exist
 on
 disk
@@ -11273,12 +11004,12 @@ removing
 entries
 for
 files
-*
 that
 have
 been
 deleted
 or
+*
 moved
 from
 their
@@ -11332,7 +11063,6 @@ BrowserAction
 /
 *
 *
-*
 Starts
 the
 sharing
@@ -11374,7 +11104,6 @@ is
 considered
 completed
 .
-*
 File
 was
 successfully
@@ -11386,13 +11115,13 @@ apps
 user
 may
 have
+*
 aborted
 the
 process
 or
 the
 operation
-*
 may
 have
 failed
@@ -11406,6 +11135,7 @@ share
 request
 is
 considered
+*
 completed
 .
 *
@@ -11425,7 +11155,6 @@ ShareResourceAction
 )
 }
 /
-*
 *
 *
 [
@@ -11456,7 +11185,6 @@ BrowserAction
 )
 {
 /
-*
 *
 *
 Starts
@@ -11500,7 +11228,6 @@ is
 considered
 completed
 .
-*
 File
 was
 successfully
@@ -11512,10 +11239,10 @@ have
 aborted
 the
 process
+*
 or
 the
 operation
-*
 may
 have
 failed
@@ -11550,7 +11277,6 @@ CopyInternetResourceAction
 /
 *
 *
-*
 [
 BrowserAction
 ]
@@ -11574,7 +11300,6 @@ BrowserAction
 )
 {
 /
-*
 *
 *
 Updates
@@ -11608,7 +11333,6 @@ ContainerAction
 (
 )
 /
-*
 *
 *
 Updates
@@ -11648,7 +11372,6 @@ ContainerAction
 /
 *
 *
-*
 Removes
 all
 state
@@ -11682,7 +11405,6 @@ ContainerAction
 /
 *
 *
-*
 [
 BrowserAction
 ]
@@ -11707,7 +11429,6 @@ BrowserAction
 )
 {
 /
-*
 *
 *
 Associates
@@ -11748,7 +11469,6 @@ HistoryMetadataAction
 /
 *
 *
-*
 Removes
 [
 searchTerm
@@ -11784,7 +11504,6 @@ HistoryMetadataAction
 /
 *
 *
-*
 [
 BrowserAction
 ]
@@ -11810,7 +11529,6 @@ BrowserAction
 )
 {
 /
-*
 *
 *
 Refreshes
@@ -11844,7 +11562,6 @@ the
 user
 )
 .
-*
 distribution
 is
 a
@@ -11858,6 +11575,7 @@ set
 of
 default
 search
+*
 engines
 if
 available
@@ -11884,7 +11602,6 @@ SearchAction
 (
 )
 /
-*
 *
 *
 Application
@@ -11915,7 +11632,6 @@ SearchAction
 (
 )
 /
-*
 *
 *
 Sets
@@ -12022,7 +11738,6 @@ SearchAction
 /
 *
 *
-*
 Indicates
 that
 a
@@ -12054,7 +11769,6 @@ SearchAction
 (
 )
 /
-*
 *
 *
 Updates
@@ -12089,7 +11803,6 @@ SearchAction
 (
 )
 /
-*
 *
 *
 Updates
@@ -12229,7 +11942,6 @@ fall
 back
 to
 the
-*
 normal
 default
 search
@@ -12261,11 +11973,11 @@ SearchState
 regionSearchEngines
 ]
 again
-*
 and
 removes
 it
 from
+*
 [
 SearchState
 .
@@ -12385,9 +12097,9 @@ additionalSearchEngines
 and
 adds
 it
-*
 back
 to
+*
 [
 SearchState
 .
@@ -12410,7 +12122,6 @@ SearchAction
 (
 )
 /
-*
 *
 *
 Updates
@@ -12449,7 +12160,6 @@ SearchAction
 /
 *
 *
-*
 Restores
 hidden
 engines
@@ -12476,7 +12186,6 @@ SearchAction
 )
 }
 /
-*
 *
 *
 [
@@ -12522,10 +12231,10 @@ debugging
 These
 actions
 should
-*
 be
 carefully
 considered
+*
 before
 being
 used
@@ -12551,11 +12260,11 @@ consumers
 to
 attention
 that
-*
 this
 is
 a
 delicate
+*
 action
 .
 *
@@ -12639,7 +12348,6 @@ DebugAction
 /
 *
 *
-*
 [
 BrowserAction
 ]
@@ -12663,7 +12371,6 @@ BrowserAction
 /
 *
 *
-*
 The
 application
 has
@@ -12681,7 +12388,6 @@ AppLifecycleAction
 (
 )
 /
-*
 *
 *
 The
@@ -12702,7 +12408,6 @@ AppLifecycleAction
 )
 }
 /
-*
 *
 *
 [
@@ -12734,7 +12439,6 @@ BrowserAction
 /
 *
 *
-*
 Toggles
 the
 global
@@ -12754,7 +12458,6 @@ DefaultDesktopModeAction
 (
 )
 /
-*
 *
 *
 Updates
@@ -12785,7 +12488,6 @@ DefaultDesktopModeAction
 /
 *
 *
-*
 [
 BrowserAction
 ]
@@ -12811,7 +12513,6 @@ BrowserAction
 /
 *
 *
-*
 Indicates
 that
 a
@@ -12832,7 +12533,6 @@ SystemPermissionRequestAction
 (
 )
 /
-*
 *
 *
 Indicates

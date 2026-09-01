@@ -318,7 +318,6 @@ return
 /
 *
 *
-*
 Create
 instances
 of
@@ -409,10 +408,10 @@ a
 web
 domain
 "
-*
 for
 web
 content
+*
 the
 third
 -
@@ -435,11 +434,11 @@ package
 name
 of
 the
-*
 application
 transformed
 into
 a
+*
 domain
 .
 In
@@ -454,7 +453,6 @@ be
 used
 to
 turn
-*
 the
 domain
 into
@@ -469,6 +467,7 @@ suffix
 +
 1
 )
+*
 before
 returning
 .

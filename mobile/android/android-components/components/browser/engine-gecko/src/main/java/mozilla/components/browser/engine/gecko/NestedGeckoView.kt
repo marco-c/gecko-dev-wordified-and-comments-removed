@@ -177,7 +177,6 @@ of
 the
 NestedScrollView
 implementation
-*
 which
 can
 be
@@ -204,7 +203,6 @@ NestedScrollView
 Based
 on
 :
-*
 https
 :
 /
@@ -268,7 +266,6 @@ gestureCanReachParent
 =
 true
 /
-*
 *
 *
 Represents

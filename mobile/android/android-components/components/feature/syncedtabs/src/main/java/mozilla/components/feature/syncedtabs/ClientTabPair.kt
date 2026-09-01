@@ -89,7 +89,6 @@ DeviceType
 /
 *
 *
-*
 Mapping
 of
 a

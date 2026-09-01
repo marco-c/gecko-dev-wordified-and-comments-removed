@@ -131,12 +131,12 @@ of
 the
 screen
 or
-*
 immediately
 at
 the
 bottom
 .
+*
 This
 affects
 how
@@ -225,7 +225,6 @@ whatever
 state
 is
 closer
-*
 over
 a
 short
@@ -252,7 +251,6 @@ view
 )
 }
 /
-*
 *
 *
 Snap
@@ -294,7 +292,6 @@ view
 /
 *
 *
-*
 Translate
 the
 [
@@ -333,7 +330,6 @@ view
 )
 }
 /
-*
 *
 *
 Translate
@@ -392,10 +388,10 @@ that
 should
 be
 translated
-*
 cancelling
 any
 other
+*
 translation
 already
 in
@@ -423,7 +419,6 @@ distance
 )
 }
 /
-*
 *
 *
 Translate
@@ -466,7 +461,6 @@ distance
 )
 }
 /
-*
 *
 *
 Cancel

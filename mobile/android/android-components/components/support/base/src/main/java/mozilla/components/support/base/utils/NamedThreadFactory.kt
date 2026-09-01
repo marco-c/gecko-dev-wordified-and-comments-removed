@@ -116,10 +116,10 @@ thread
 deferring
 further
 thread
-*
 creation
 details
 to
+*
 [
 Executors
 .

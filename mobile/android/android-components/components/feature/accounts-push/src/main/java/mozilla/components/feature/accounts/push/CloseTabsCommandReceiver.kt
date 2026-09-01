@@ -161,7 +161,6 @@ other
 devices
 in
 the
-*
 [
 DeviceConstellation
 ]
@@ -220,7 +219,6 @@ DeviceCommandIncoming
 TabsClosed
 ]
 command
-*
 received
 from
 another

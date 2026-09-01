@@ -175,7 +175,6 @@ filterChanged
 /
 *
 *
-*
 Feature
 implementation
 for
@@ -227,7 +226,6 @@ null
 /
 *
 *
-*
 Starts
 observing
 the
@@ -238,7 +236,6 @@ listen
 for
 window
 requests
-*
 and
 opens
 /
@@ -454,7 +451,6 @@ tabId
 )
 }
 /
-*
 *
 *
 Stops

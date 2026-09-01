@@ -67,7 +67,6 @@ auth
 /
 *
 *
-*
 Callbacks
 for
 BiometricPrompt
@@ -95,7 +94,6 @@ face
 etc
 .
 )
-*
 is
 presented
 but
@@ -133,13 +131,13 @@ etc
 )
 is
 recognized
-*
 indicating
 that
 the
 user
 has
 successfully
+*
 authenticated
 .
 *
@@ -165,6 +163,7 @@ authentication
 has
 stopped
 .
+*
 *
 param
 errorText

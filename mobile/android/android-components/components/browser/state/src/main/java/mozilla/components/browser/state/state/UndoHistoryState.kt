@@ -116,13 +116,13 @@ This
 is
 so
 far
-*
 "
 good
 enough
 "
 since
 we
+*
 also
 only
 show
@@ -160,8 +160,8 @@ can
 be
 used
 to
-*
 avoid
+*
 removing
 /
 restoring

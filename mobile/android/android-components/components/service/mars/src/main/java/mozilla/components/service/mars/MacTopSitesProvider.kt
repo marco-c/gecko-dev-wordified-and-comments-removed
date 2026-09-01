@@ -198,10 +198,10 @@ of
 MozAdsClient
 ]
 for
-*
 making
 HTTP
 API
+*
 calls
 .
 *

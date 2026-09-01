@@ -87,6 +87,12 @@ net
 .
 toUri
 import
+java
+.
+util
+.
+UUID
+import
 mozilla
 .
 components
@@ -204,14 +210,7 @@ android
 net
 .
 sameHostWithoutMobileSubdomainAs
-import
-java
-.
-util
-.
-UUID
 /
-*
 *
 *
 Return
@@ -229,7 +228,6 @@ DEFAULT_METADATA_SUGGESTION_LIMIT
 =
 5
 /
-*
 *
 *
 Default
@@ -288,7 +286,6 @@ the
 HistoryStorage
 ]
 used
-*
 to
 query
 matching
@@ -308,7 +305,6 @@ the
 url
 when
 the
-*
 user
 clicks
 on
@@ -328,7 +324,6 @@ to
 load
 fav
 icons
-*
 for
 [
 HistoryMetadata
@@ -352,7 +347,6 @@ speculativeConnect
 ]
 for
 the
-*
 highest
 scored
 suggestion
@@ -371,9 +365,9 @@ number
 of
 returned
 suggestions
-*
 defaults
 to
+*
 [
 DEFAULT_METADATA_SUGGESTION_LIMIT
 ]

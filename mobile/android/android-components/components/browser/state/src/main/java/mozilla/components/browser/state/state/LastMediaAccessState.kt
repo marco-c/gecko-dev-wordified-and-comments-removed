@@ -95,7 +95,6 @@ media
 started
 playing
 .
-*
 This
 is
 not
@@ -107,12 +106,12 @@ media
 but
 of
 the
+*
 page
 when
 media
 started
 .
-*
 Defaults
 to
 "
@@ -130,18 +129,17 @@ t
 started
 playing
 .
-*
 This
 value
 is
 only
+*
 updated
 when
 media
 starts
 playing
 .
-*
 Can
 be
 used
@@ -159,10 +157,10 @@ user
 is
 still
 on
+*
 the
 same
 website
-*
 on
 which
 media
@@ -176,7 +174,6 @@ in
 another
 tab
 .
-*
 *
 property
 lastMediaAccess
@@ -192,7 +189,6 @@ current
 web
 document
 .
-*
 Defaults
 to
 [
@@ -200,13 +196,13 @@ to
 ]
 if
 media
+*
 hasn
 '
 t
 started
 playing
 .
-*
 This
 value
 is
@@ -217,7 +213,6 @@ media
 starts
 playing
 .
-*
 *
 property
 mediaSessionActive
@@ -232,7 +227,6 @@ is
 still
 active
 .
-*
 Can
 be
 used
@@ -240,6 +234,7 @@ as
 a
 backup
 to
+*
 [
 lastMediaUrl
 ]
@@ -251,7 +246,6 @@ media
 to
 continue
 playing
-*
 even
 when
 the
@@ -261,6 +255,7 @@ another
 page
 (
 with
+*
 another
 URL
 )

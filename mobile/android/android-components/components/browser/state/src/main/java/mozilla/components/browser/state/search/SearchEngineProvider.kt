@@ -103,7 +103,6 @@ default
 search
 engine
 .
-*
 This
 can
 be
@@ -116,9 +115,9 @@ of
 the
 default
 search
+*
 engine
 .
-*
 *
 /
 interface
@@ -149,7 +148,6 @@ the
 default
 search
 engine
-*
 or
 null
 if
@@ -157,6 +155,7 @@ no
 default
 search
 engine
+*
 is
 set
 or
@@ -190,7 +189,6 @@ based
 on
 the
 current
-*
 state
 of
 the

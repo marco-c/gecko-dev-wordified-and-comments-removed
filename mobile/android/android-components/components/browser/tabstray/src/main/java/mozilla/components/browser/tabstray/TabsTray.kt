@@ -91,7 +91,6 @@ TabSessionState
 /
 *
 *
-*
 An
 interface
 to
@@ -107,7 +106,6 @@ interface
 TabsTray
 {
 /
-*
 *
 *
 Interface
@@ -138,7 +136,6 @@ Delegate
 /
 *
 *
-*
 A
 new
 tab
@@ -164,7 +161,6 @@ null
 /
 *
 *
-*
 A
 tab
 has
@@ -188,7 +184,6 @@ null
 )
 }
 /
-*
 *
 *
 Called

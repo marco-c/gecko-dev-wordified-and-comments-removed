@@ -226,7 +226,6 @@ thumbnails
 of
 homepage
 .
-*
 The
 feature
 will
@@ -235,10 +234,10 @@ a
 screenshot
 when
 the
+*
 page
 finishes
 loading
-*
 and
 will
 add
@@ -269,13 +268,13 @@ be
 not
 taken
 .
-*
 Ideally
 this
 should
 be
 used
 in
+*
 conjunction
 with
 SessionManager
@@ -283,7 +282,6 @@ SessionManager
 onLowMemory
 to
 allow
-*
 free
 up
 some

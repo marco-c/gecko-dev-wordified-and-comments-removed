@@ -245,12 +245,12 @@ browser
 '
 s
 state
-*
 ensuring
 that
 the
 refresh
 animation
+*
 is
 synchronized
 with
@@ -258,7 +258,6 @@ the
 actual
 loading
 state
-*
 of
 the
 session
@@ -427,7 +426,6 @@ this
 )
 }
 /
-*
 *
 *
 Start
@@ -621,7 +619,6 @@ to
 scroll
 up
 .
-*
 If
 the
 child
@@ -629,6 +626,7 @@ view
 cannot
 scroll
 up
+*
 and
 the
 scroll
@@ -639,7 +637,6 @@ handled
 by
 the
 webpage
-*
 it
 means
 we
@@ -651,6 +648,7 @@ pull
 down
 to
 refresh
+*
 functionality
 .
 *
@@ -697,7 +695,6 @@ else
 true
 }
 /
-*
 *
 *
 Called

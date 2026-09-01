@@ -94,14 +94,12 @@ of
 non
 -
 null
-*
 values
 .
 *
 *
 Example
 :
-*
 (
 Object
 Object
@@ -117,7 +115,6 @@ Pair
 Object
 Object
 >
-*
 (
 null
 Object
@@ -129,9 +126,9 @@ toNullablePair
 =
 =
 null
-*
 (
 Object
+*
 null
 )
 .

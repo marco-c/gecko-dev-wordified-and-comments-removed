@@ -126,7 +126,6 @@ restriction
 given
 to
 the
-*
 [
 View
 .
@@ -134,6 +133,7 @@ MeasureSpec
 ]
 given
 in
+*
 the
 parameter
 .

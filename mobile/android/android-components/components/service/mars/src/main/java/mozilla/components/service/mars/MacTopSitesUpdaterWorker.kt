@@ -111,7 +111,6 @@ Logger
 /
 *
 *
-*
 An
 implementation
 of

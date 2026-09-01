@@ -123,7 +123,6 @@ GeckoWebPushSubscription
 /
 *
 *
-*
 A
 wrapper
 for
@@ -156,7 +155,6 @@ WebPushDelegate
 GeckoViewWebPushDelegate
 {
 /
-*
 *
 *
 See
@@ -220,7 +218,6 @@ return
 result
 }
 /
-*
 *
 *
 See
@@ -289,7 +286,6 @@ return
 result
 }
 /
-*
 *
 *
 See
@@ -375,7 +371,6 @@ result
 }
 }
 /
-*
 *
 *
 A

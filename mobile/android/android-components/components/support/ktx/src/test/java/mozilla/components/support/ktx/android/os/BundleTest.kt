@@ -87,6 +87,12 @@ runners
 .
 AndroidJUnit4
 import
+java
+.
+util
+.
+Date
+import
 mozilla
 .
 components
@@ -128,12 +134,6 @@ junit
 runner
 .
 RunWith
-import
-java
-.
-util
-.
-Date
 RunWith
 (
 AndroidJUnit4

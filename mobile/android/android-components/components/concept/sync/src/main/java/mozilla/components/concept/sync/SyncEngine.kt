@@ -100,9 +100,9 @@ strings
 Forward
 -
 compatibility
-*
 with
 new
+*
 engines
 is
 one
@@ -125,13 +125,13 @@ may
 appear
 that
 we
-*
 do
 not
 know
 about
 .
 At
+*
 the
 public
 API
@@ -148,13 +148,13 @@ to
 allow
 for
 more
-*
 robust
 integrations
 .
 We
 do
 not
+*
 expose
 "
 unknown
@@ -168,7 +168,6 @@ but
 do
 handle
 them
-*
 internally
 (
 by
@@ -177,6 +176,7 @@ their
 enabled
 /
 disabled
+*
 status
 )
 .
@@ -198,6 +198,7 @@ e
 .
 g
 .
+*
 https
 :
 /
@@ -297,7 +298,6 @@ issues
 /
 *
 *
-*
 A
 history
 engine
@@ -316,7 +316,6 @@ history
 /
 *
 *
-*
 A
 bookmarks
 engine
@@ -333,7 +332,6 @@ bookmarks
 "
 )
 /
-*
 *
 *
 A
@@ -358,7 +356,6 @@ passwords
 /
 *
 *
-*
 A
 remote
 tabs
@@ -376,7 +373,6 @@ tabs
 "
 )
 /
-*
 *
 *
 A
@@ -398,7 +394,6 @@ creditcards
 /
 *
 *
-*
 An
 addresses
 engine
@@ -415,7 +410,6 @@ addresses
 "
 )
 /
-*
 *
 *
 An
@@ -471,10 +465,10 @@ don
 t
 fully
 support
-*
 this
 data
 type
+*
 right
 now
 .

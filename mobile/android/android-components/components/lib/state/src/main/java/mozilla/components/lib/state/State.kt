@@ -67,7 +67,6 @@ state
 /
 *
 *
-*
 Generic
 interface
 for

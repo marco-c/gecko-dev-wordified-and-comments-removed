@@ -221,6 +221,12 @@ preview
 .
 Preview
 import
+kotlin
+.
+math
+.
+ceil
+import
 mozilla
 .
 components
@@ -245,12 +251,6 @@ theme
 .
 AcornTheme
 import
-kotlin
-.
-math
-.
-ceil
-import
 mozilla
 .
 components
@@ -272,7 +272,6 @@ duration
 in
 milliseconds
 .
-*
 If
 it
 is
@@ -353,10 +352,10 @@ becomes
 false
 the
 rotation
-*
 smoothly
 animates
 to
+*
 the
 nearest
 180

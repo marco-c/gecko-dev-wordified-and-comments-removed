@@ -115,8 +115,8 @@ s
 state
 changes
 .
-*
 Reducers
+*
 will
 commonly
 consist

@@ -143,7 +143,6 @@ Unknown
 /
 *
 *
-*
 Metadata
 defining
 an
@@ -156,7 +155,6 @@ interface
 AIFeatureMetadata
 {
 /
-*
 *
 *
 A
@@ -181,7 +179,6 @@ value
 String
 )
 /
-*
 *
 *
 Human
@@ -225,7 +222,6 @@ Description
 /
 *
 *
-*
 Describes
 the
 state
@@ -240,7 +236,6 @@ the
 possible
 states
 as
-*
 [
 Enabled
 ]
@@ -259,7 +254,6 @@ class
 AIFeatureState
 {
 /
-*
 *
 *
 Describes
@@ -282,7 +276,6 @@ AIFeatureState
 (
 )
 /
-*
 *
 *
 Describes
@@ -325,13 +318,13 @@ enabled
 or
 disabled
 .
-*
 This
 state
 is
 likely
 to
 occur
+*
 if
 we
 check
@@ -342,7 +335,6 @@ state
 before
 the
 underlying
-*
 AI
 feature
 is
@@ -377,12 +369,12 @@ for
 a
 specific
 feature
-*
 to
 be
 turned
 on
 we
+*
 need
 to
 know
@@ -397,7 +389,6 @@ or
 if
 the
 user
-*
 has
 simply
 never
@@ -405,6 +396,7 @@ interacted
 with
 the
 AI
+*
 controls
 and
 that
@@ -425,7 +417,6 @@ AIFeatureState
 )
 }
 /
-*
 *
 *
 A
@@ -457,7 +448,6 @@ AIFeatureState
 /
 *
 *
-*
 Enables
 or
 disables
@@ -478,7 +468,6 @@ companion
 object
 {
 /
-*
 *
 *
 Creates

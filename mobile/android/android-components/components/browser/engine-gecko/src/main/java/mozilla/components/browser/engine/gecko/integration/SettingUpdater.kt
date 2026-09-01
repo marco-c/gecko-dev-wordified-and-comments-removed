@@ -78,7 +78,6 @@ T
 /
 *
 *
-*
 Toggle
 the
 automatic
@@ -130,7 +129,6 @@ value
 /
 *
 *
-*
 The
 setter
 for
@@ -164,7 +162,6 @@ findValue
 /
 *
 *
-*
 Register
 for
 updates
@@ -188,7 +185,6 @@ registerForUpdates
 /
 *
 *
-*
 Unregister
 for
 updates
@@ -205,7 +201,6 @@ unregisterForUpdates
 (
 )
 /
-*
 *
 *
 Find

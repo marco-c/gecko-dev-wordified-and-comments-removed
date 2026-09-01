@@ -67,6 +67,12 @@ search
 .
 trendingsearches
 import
+java
+.
+io
+.
+IOException
+import
 mozilla
 .
 components
@@ -134,14 +140,7 @@ org
 json
 .
 JSONException
-import
-java
-.
-io
-.
-IOException
 /
-*
 *
 *
 Async
@@ -171,7 +170,6 @@ String
 String
 ?
 /
-*
 *
 *
 Provides
@@ -219,7 +217,6 @@ null
 /
 *
 *
-*
 Exception
 types
 for
@@ -251,7 +248,6 @@ searches
 "
 )
 /
-*
 *
 *
 Exception
@@ -286,7 +282,6 @@ response
 "
 )
 /
-*
 *
 *
 Returns
@@ -443,7 +438,6 @@ emptyList
 /
 *
 *
-*
 Sets
 the
 search
@@ -472,7 +466,6 @@ searchEngine
 searchEngine
 }
 /
-*
 *
 *
 Returns

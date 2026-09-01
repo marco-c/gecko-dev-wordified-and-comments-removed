@@ -91,6 +91,12 @@ runners
 .
 AndroidJUnit4
 import
+kotlin
+.
+coroutines
+.
+ContinuationInterceptor
+import
 kotlinx
 .
 coroutines
@@ -194,12 +200,6 @@ mockito
 Mockito
 .
 doNothing
-import
-kotlin
-.
-coroutines
-.
-ContinuationInterceptor
 RunWith
 (
 AndroidJUnit4

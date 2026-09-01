@@ -99,6 +99,12 @@ testing
 .
 TestListenableWorkerBuilder
 import
+java
+.
+io
+.
+IOException
+import
 kotlinx
 .
 coroutines
@@ -194,12 +200,6 @@ mockito
 Mockito
 .
 spy
-import
-java
-.
-io
-.
-IOException
 RunWith
 (
 AndroidJUnit4

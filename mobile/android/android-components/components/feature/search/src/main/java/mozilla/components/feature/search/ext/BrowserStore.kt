@@ -147,9 +147,9 @@ disk
 (
 when
 using
-*
 RegionMiddleware
 and
+*
 SearchMiddleware
 )
 and
@@ -162,7 +162,6 @@ the
 default
 search
 engine
-*
 (
 or
 null

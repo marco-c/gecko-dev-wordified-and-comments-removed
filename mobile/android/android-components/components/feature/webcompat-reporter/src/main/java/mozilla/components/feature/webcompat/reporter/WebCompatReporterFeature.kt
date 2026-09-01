@@ -141,7 +141,6 @@ JSONObject
 /
 *
 *
-*
 A
 feature
 that
@@ -159,7 +158,6 @@ Web
 Compatibility
 team
 for
-*
 further
 diagnosis
 .
@@ -358,7 +356,6 @@ reports
 .
 Defaults
 to
-*
 "
 android
 -

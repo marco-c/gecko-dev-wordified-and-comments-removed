@@ -134,11 +134,11 @@ longer
 met
 during
 execution
-*
 active
 write
 operations
 on
+*
 [
 PlacesStorage
 ]

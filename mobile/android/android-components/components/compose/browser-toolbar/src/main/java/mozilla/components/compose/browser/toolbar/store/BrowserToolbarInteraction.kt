@@ -141,7 +141,6 @@ Action
 /
 *
 *
-*
 All
 possible
 ways
@@ -161,7 +160,6 @@ interface
 BrowserToolbarInteraction
 {
 /
-*
 *
 *
 [
@@ -236,7 +234,6 @@ a
 BrowserToolbarEvent
 ]
 with
-*
 showing
 a
 [
@@ -244,6 +241,7 @@ BrowserToolbarMenu
 ]
 for
 the
+*
 same
 user
 interaction
@@ -285,7 +283,6 @@ menu
 menu
 )
 /
-*
 *
 *
 Possible
@@ -334,7 +331,6 @@ start
 /
 end
 areas
-*
 of
 the
 address
@@ -349,7 +345,6 @@ AddressBar
 Source
 {
 /
-*
 *
 *
 The
@@ -372,7 +367,6 @@ AddressBar
 /
 *
 *
-*
 The
 user
 interacted
@@ -393,7 +387,6 @@ AddressBar
 /
 *
 *
-*
 The
 user
 interacted
@@ -412,7 +405,6 @@ PageEnd
 :
 AddressBar
 /
-*
 *
 *
 The
@@ -436,7 +428,6 @@ AddressBar
 /
 *
 *
-*
 The
 user
 interacted
@@ -454,7 +445,6 @@ NavigationBar
 :
 Source
 /
-*
 *
 *
 Default
@@ -481,7 +471,6 @@ Source
 /
 *
 *
-*
 Popup
 menu
 to
@@ -505,7 +494,6 @@ BrowserToolbarMenu
 BrowserToolbarInteraction
 {
 /
-*
 *
 *
 List
@@ -547,11 +535,11 @@ BrowserToolbarMenu
 to
 be
 shown
-*
 for
 the
 same
 user
+*
 interaction
 .
 *
@@ -598,7 +586,6 @@ BrowserToolbarMenu
 BrowserToolbarInteraction
 }
 /
-*
 *
 *
 Items
@@ -713,7 +700,6 @@ BrowserToolbarMenuItem
 /
 *
 *
-*
 The
 image
 to
@@ -797,7 +783,6 @@ Icon
 /
 *
 *
-*
 The
 [
 DrawableRes
@@ -830,7 +815,6 @@ Icon
 /
 *
 *
-*
 The
 text
 that
@@ -847,7 +831,6 @@ interface
 Text
 {
 /
-*
 *
 *
 The
@@ -877,7 +860,6 @@ String
 :
 Text
 /
-*
 *
 *
 The
@@ -914,7 +896,6 @@ Text
 /
 *
 *
-*
 The
 content
 description
@@ -928,7 +909,6 @@ interface
 ContentDescription
 {
 /
-*
 *
 *
 The
@@ -960,7 +940,6 @@ String
 :
 ContentDescription
 /
-*
 *
 *
 The
@@ -997,7 +976,6 @@ ContentDescription
 }
 }
 /
-*
 *
 *
 Divider

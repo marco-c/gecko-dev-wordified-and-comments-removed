@@ -184,7 +184,6 @@ false
 /
 *
 *
-*
 The
 source
 of
@@ -202,7 +201,6 @@ Source
 /
 *
 *
-*
 This
 icon
 was
@@ -214,7 +212,6 @@ GENERATOR
 /
 *
 *
-*
 This
 icon
 was
@@ -224,7 +221,6 @@ downloaded
 /
 DOWNLOAD
 /
-*
 *
 *
 This
@@ -239,7 +235,6 @@ document
 /
 INLINE
 /
-*
 *
 *
 This
@@ -257,7 +252,6 @@ cache
 /
 MEMORY
 /
-*
 *
 *
 This

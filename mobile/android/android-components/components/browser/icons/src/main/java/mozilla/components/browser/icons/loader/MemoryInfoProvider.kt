@@ -103,10 +103,10 @@ without
 exposing
 the
 android
-*
 framework
 APIs
 directly
+*
 making
 it
 easier
@@ -127,7 +127,6 @@ MemoryInfoProvider
 /
 *
 *
-*
 Returns
 the
 device
@@ -145,7 +144,6 @@ getAvailMem
 Long
 }
 /
-*
 *
 *
 This

@@ -167,11 +167,11 @@ RuntimeAIFeatures
 ]
 to
 allow
-*
 the
 implementation
 to
 be
+*
 swapped
 out
 in
@@ -206,7 +206,6 @@ the
 static
 methods
 of
-*
 [
 AIFeaturesController
 .

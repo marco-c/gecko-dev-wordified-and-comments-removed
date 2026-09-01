@@ -121,7 +121,6 @@ tryGetHostFromUrl
 /
 *
 *
-*
 Implementation
 of
 the
@@ -387,7 +386,6 @@ uri
 )
 }
 /
-*
 *
 *
 Whether

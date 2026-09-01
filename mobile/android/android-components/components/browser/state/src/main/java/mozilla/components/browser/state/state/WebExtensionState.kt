@@ -141,7 +141,6 @@ for
 locating
 the
 extension
-*
 within
 the
 APK
@@ -150,6 +149,7 @@ e
 .
 g
 .
+*
 resource
 :
 /
@@ -201,11 +201,11 @@ allowed
 in
 private
 browsing
-*
 mode
 .
 Defaults
 to
+*
 false
 .
 *
@@ -225,7 +225,6 @@ in
 packaged
 with
 the
-*
 APK
 file
 )
@@ -233,6 +232,7 @@ or
 coming
 from
 an
+*
 external
 source
 .
@@ -267,7 +267,6 @@ of
 the
 session
 displaying
-*
 the
 browser
 action
@@ -406,9 +405,9 @@ This
 makes
 repeated
 requests
-*
 distinguishable
 when
+*
 observers
 miss
 the

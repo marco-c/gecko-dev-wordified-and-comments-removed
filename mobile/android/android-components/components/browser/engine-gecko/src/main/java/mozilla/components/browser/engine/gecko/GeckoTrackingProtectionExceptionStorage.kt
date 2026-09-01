@@ -229,7 +229,6 @@ VALUE_DENY
 /
 *
 *
-*
 A
 [
 TrackingProtectionExceptionStorage

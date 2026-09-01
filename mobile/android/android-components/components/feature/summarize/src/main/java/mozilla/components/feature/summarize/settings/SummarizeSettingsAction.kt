@@ -89,7 +89,6 @@ Action
 /
 *
 *
-*
 Actions
 for
 the
@@ -105,7 +104,6 @@ SummarizeSettingsAction
 :
 Action
 /
-*
 *
 *
 The
@@ -125,7 +123,6 @@ ViewAppeared
 :
 SummarizeSettingsAction
 /
-*
 *
 *
 The
@@ -160,7 +157,6 @@ SummarizeSettingsAction
 /
 *
 *
-*
 The
 shake
 sensitivity
@@ -183,7 +179,6 @@ SummarizeSettingsAction
 /
 *
 *
-*
 The
 user
 toggled
@@ -200,7 +195,6 @@ SummarizePagesPreferenceToggled
 :
 SummarizeSettingsAction
 /
-*
 *
 *
 The
@@ -220,7 +214,6 @@ ShakeToSummarizePreferenceToggled
 :
 SummarizeSettingsAction
 /
-*
 *
 *
 The

@@ -261,7 +261,7 @@ feature
 .
 summarize
 .
-R
+DownloadInProgressAction
 import
 mozilla
 .
@@ -271,9 +271,7 @@ feature
 .
 summarize
 .
-SummarizationAction
-.
-DownloadInProgressAction
+R
 import
 mozilla
 .
@@ -285,7 +283,6 @@ summarize
 .
 SummarizationState
 /
-*
 *
 *
 Composable

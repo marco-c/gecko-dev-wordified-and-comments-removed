@@ -191,7 +191,6 @@ BindingContext
 /
 *
 *
-*
 Detekt
 processor
 to

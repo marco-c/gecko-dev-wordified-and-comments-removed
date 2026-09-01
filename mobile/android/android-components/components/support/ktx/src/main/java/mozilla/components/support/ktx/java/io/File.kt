@@ -101,8 +101,8 @@ is
 not
 pointing
 to
-*
 a
+*
 directory
 .
 *

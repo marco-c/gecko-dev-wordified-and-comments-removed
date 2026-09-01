@@ -67,6 +67,12 @@ search
 .
 region
 import
+kotlin
+.
+test
+.
+assertNotNull
+import
 kotlinx
 .
 coroutines
@@ -146,12 +152,6 @@ org
 junit
 .
 Test
-import
-kotlin
-.
-test
-.
-assertNotNull
 class
 RegionManagerTest
 {

@@ -239,7 +239,6 @@ ifAnyChanged
 /
 *
 *
-*
 Web
 extension
 toolbar
@@ -253,7 +252,6 @@ the
 state
 of
 web
-*
 extensions
 changes
 .
@@ -397,7 +395,6 @@ state
 )
 }
 /
-*
 *
 *
 Starts

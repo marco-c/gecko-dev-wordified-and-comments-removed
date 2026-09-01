@@ -91,6 +91,14 @@ content
 .
 edit
 import
+java
+.
+lang
+.
+ref
+.
+WeakReference
+import
 mozilla
 .
 appservices
@@ -188,14 +196,6 @@ base
 observer
 .
 ObserverRegistry
-import
-java
-.
-lang
-.
-ref
-.
-WeakReference
 const
 val
 FXA_STATE_PREFS_KEY
@@ -211,7 +211,6 @@ FXA_STATE_KEY
 fxaState
 "
 /
-*
 *
 *
 Represents
@@ -317,9 +316,9 @@ s
 no
 account
 )
-*
 registering
 necessary
+*
 watchers
 .
 *
@@ -584,7 +583,6 @@ accountEventsIntegration
 /
 *
 *
-*
 Exists
 strictly
 for
@@ -638,7 +636,6 @@ events
 processing
 layer
 .
-*
 E
 .
 g
@@ -649,12 +646,12 @@ grow
 events
 such
 as
+*
 "
 please
 logout
 "
 .
-*
 For
 now
 we
@@ -782,10 +779,10 @@ will
 happen
 upon
 initialization
-*
 unless
 disabled
 via
+*
 [
 migrateFromSecureStorage
 ]
@@ -978,7 +975,6 @@ e
 /
 *
 *
-*
 throws
 FxaException
 if
@@ -1162,7 +1158,6 @@ MODE_PRIVATE
 /
 *
 *
-*
 A
 base
 class
@@ -1195,7 +1190,6 @@ message
 )
 {
 /
-*
 *
 *
 Account
@@ -1271,9 +1265,9 @@ levels
 +
 )
 .
-*
 On
 older
+*
 API
 versions
 account
@@ -1294,10 +1288,10 @@ will
 happen
 upon
 initialization
-*
 unless
 disabled
 via
+*
 [
 migrateFromPlaintextStorage
 ]
@@ -1505,7 +1499,6 @@ clear
 }
 }
 /
-*
 *
 *
 throws

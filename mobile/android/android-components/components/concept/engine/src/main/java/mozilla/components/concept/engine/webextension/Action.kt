@@ -272,9 +272,9 @@ tab
 specific
 overrides
 .
-*
 If
 the
+*
 override
 is
 null
@@ -306,7 +306,6 @@ that
 only
 the
 provided
-*
 (
 non
 -
@@ -314,6 +313,7 @@ null
 )
 properties
 of
+*
 the
 override
 will
@@ -324,7 +324,6 @@ other
 properties
 will
 remain
-*
 unchanged
 .
 An
@@ -335,13 +334,13 @@ a
 tab
 -
 specific
+*
 action
 and
 only
 include
 the
 properties
-*
 it
 wants
 to

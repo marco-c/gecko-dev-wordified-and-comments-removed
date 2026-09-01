@@ -225,10 +225,10 @@ when
 provided
 can
 be
-*
 used
 instead
 of
+*
 performing
 a
 manual

@@ -117,7 +117,6 @@ collect
 /
 *
 *
-*
 Facts
 emitted
 for
@@ -133,7 +132,6 @@ class
 TopSitesFacts
 {
 /
-*
 *
 *
 Items

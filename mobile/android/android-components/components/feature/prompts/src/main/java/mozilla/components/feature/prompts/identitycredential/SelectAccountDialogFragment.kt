@@ -253,7 +253,6 @@ KEY_PROVIDER
 /
 *
 *
-*
 A
 Federated
 Credential
@@ -451,7 +450,6 @@ onAccountChange
 /
 *
 *
-*
 Called
 when
 a
@@ -506,6 +504,7 @@ a
 [
 SelectAccountDialogFragment
 ]
+*
 *
 param
 sessionId
@@ -572,12 +571,12 @@ should
 automatically
 be
 dismissed
-*
 when
 a
 new
 page
 is
+*
 loaded
 .
 *

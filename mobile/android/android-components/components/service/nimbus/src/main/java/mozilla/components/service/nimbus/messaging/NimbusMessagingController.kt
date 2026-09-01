@@ -103,7 +103,9 @@ nimbus
 .
 GleanMetrics
 .
-Microsurvey
+Messaging
+as
+GleanMessaging
 import
 mozilla
 .
@@ -115,9 +117,7 @@ nimbus
 .
 GleanMetrics
 .
-Messaging
-as
-GleanMessaging
+Microsurvey
 /
 *
 *
@@ -388,7 +388,6 @@ does
 not
 record
 a
-*
 glean
 event
 .
@@ -397,6 +396,7 @@ should
 be
 done
 via
+*
 [
 processMessageActionToUri
 ]
@@ -586,7 +586,6 @@ examined
 for
 string
 substitutions
-*
 and
 any
 uuid
@@ -596,6 +595,7 @@ be
 recorded
 in
 the
+*
 Glean
 event
 .
@@ -618,13 +618,13 @@ Glean
 event
 while
 it
-*
 creates
 a
 URI
 string
 for
 the
+*
 message
 action
 .

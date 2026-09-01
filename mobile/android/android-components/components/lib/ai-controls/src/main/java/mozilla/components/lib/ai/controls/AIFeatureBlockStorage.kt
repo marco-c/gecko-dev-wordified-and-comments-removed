@@ -135,7 +135,6 @@ map
 /
 *
 *
-*
 A
 storage
 API
@@ -166,7 +165,6 @@ Boolean
 /
 *
 *
-*
 Update
 the
 blocked
@@ -190,7 +188,6 @@ companion
 object
 {
 /
-*
 *
 *
 Creates
@@ -278,7 +275,6 @@ isBlocked
 }
 }
 /
-*
 *
 *
 The

@@ -233,7 +233,6 @@ components
 /
 *
 *
-*
 An
 activity
 to
@@ -414,7 +413,6 @@ attrs
 /
 *
 *
-*
 A
 fragment
 to
@@ -591,7 +589,6 @@ companion
 object
 {
 /
-*
 *
 *
 Create

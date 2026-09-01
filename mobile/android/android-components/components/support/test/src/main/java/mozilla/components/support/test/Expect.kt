@@ -67,7 +67,6 @@ test
 /
 *
 *
-*
 Expects
 [
 block

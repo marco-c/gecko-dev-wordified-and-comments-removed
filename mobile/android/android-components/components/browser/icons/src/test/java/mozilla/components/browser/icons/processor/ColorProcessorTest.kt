@@ -79,6 +79,12 @@ graphics
 .
 Color
 import
+kotlin
+.
+test
+.
+assertNotNull
+import
 mozilla
 .
 components
@@ -164,12 +170,6 @@ mockito
 Mockito
 .
 spy
-import
-kotlin
-.
-test
-.
-assertNotNull
 class
 ColorProcessorTest
 {

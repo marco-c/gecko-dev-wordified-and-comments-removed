@@ -114,10 +114,10 @@ with
 [
 DownloadsFeature
 ]
-*
 to
 show
 a
+*
 dialog
 before
 a
@@ -125,7 +125,6 @@ download
 is
 triggered
 .
-*
 If
 [
 SimpleDownloadDialogFragment
@@ -139,13 +138,13 @@ your
 use
 case
 you
+*
 should
 inherit
 for
 this
 class
 .
-*
 Be
 mindful
 to
@@ -194,11 +193,11 @@ download
 .
 For
 instance
-*
 a
 valid
 use
 case
+*
 can
 be
 in
@@ -210,7 +209,6 @@ positive
 button
 is
 clicked
-*
 this
 callback
 must
@@ -242,7 +240,6 @@ Unit
 {
 }
 /
-*
 *
 *
 Add
@@ -319,7 +316,6 @@ object
 /
 *
 *
-*
 Key
 for
 finding
@@ -342,7 +338,6 @@ KEY_FILE_NAME
 /
 *
 *
-*
 Key
 for
 finding
@@ -363,7 +358,6 @@ KEY_CONTENT_LENGTH
 KEY_CONTENT_LENGTH
 "
 /
-*
 *
 *
 Key

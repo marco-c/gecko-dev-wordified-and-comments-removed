@@ -87,6 +87,12 @@ net
 .
 toUri
 import
+java
+.
+util
+.
+UUID
+import
 kotlinx
 .
 coroutines
@@ -168,14 +174,7 @@ feature
 session
 .
 SessionUseCases
-import
-java
-.
-util
-.
-UUID
 /
-*
 *
 *
 Return
@@ -193,7 +192,6 @@ DEFAULT_COMBINED_SUGGESTION_LIMIT
 =
 5
 /
-*
 *
 *
 Default
@@ -235,16 +233,15 @@ that
 combines
 suggestions
 from
-*
 [
 HistoryMetadataSuggestionProvider
 ]
+*
 and
 [
 HistoryStorageSuggestionProvider
 ]
 .
-*
 It
 will
 return
@@ -266,7 +263,6 @@ up
 to
 the
 provided
-*
 [
 maxNumberOfSuggestions
 ]
@@ -283,7 +279,6 @@ the
 HistoryStorage
 ]
 used
-*
 to
 query
 matching
@@ -301,7 +296,6 @@ the
 HistoryStorage
 ]
 used
-*
 to
 query
 matching
@@ -321,7 +315,6 @@ the
 url
 when
 the
-*
 user
 clicks
 on
@@ -341,7 +334,6 @@ to
 load
 fav
 icons
-*
 for
 [
 HistoryMetadata
@@ -365,7 +357,6 @@ speculativeConnect
 ]
 for
 the
-*
 highest
 scored
 suggestion
@@ -384,9 +375,9 @@ number
 of
 returned
 suggestions
-*
 defaults
 to
+*
 [
 DEFAULT_COMBINED_SUGGESTION_LIMIT
 ]
@@ -790,7 +781,6 @@ combinedSuggestions
 /
 *
 *
-*
 Set
 maximum
 number
@@ -824,7 +814,6 @@ maxNumber
 /
 *
 *
-*
 Get
 the
 maximum
@@ -846,7 +835,6 @@ getMaxNumberOfSuggestions
 =
 maxNumberOfSuggestions
 /
-*
 *
 *
 Reset

@@ -119,7 +119,6 @@ R
 /
 *
 *
-*
 Adapter
 for
 showing

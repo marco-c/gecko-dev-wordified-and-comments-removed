@@ -209,7 +209,6 @@ onNextGlobalLayout
 /
 *
 *
-*
 A
 popup
 menu
@@ -305,7 +304,6 @@ RecyclerView
 /
 *
 *
-*
 Called
 when
 the
@@ -331,7 +329,6 @@ Unit
 {
 }
 /
-*
 *
 *
 Called
@@ -406,7 +403,6 @@ menuAdapter
 /
 *
 *
-*
 Changes
 the
 contents
@@ -435,7 +431,6 @@ submitList
 list
 )
 /
-*
 *
 *
 Displays
@@ -471,7 +466,6 @@ Side
 END
 }
 /
-*
 *
 *
 Sets

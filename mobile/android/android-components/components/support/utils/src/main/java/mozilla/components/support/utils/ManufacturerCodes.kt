@@ -91,12 +91,12 @@ from
 a
 specific
 manufacturer
-*
 using
 the
 value
 returned
 by
+*
 [
 android
 .
@@ -304,7 +304,6 @@ true
 /
 *
 *
-*
 Interface
 for
 checking
@@ -320,7 +319,6 @@ interface
 ManufacturerChecker
 {
 /
-*
 *
 *
 Returns
@@ -344,7 +342,6 @@ Boolean
 /
 *
 *
-*
 Returns
 true
 if
@@ -364,7 +361,6 @@ isSamsung
 :
 Boolean
 /
-*
 *
 *
 Returns
@@ -388,7 +384,6 @@ Boolean
 /
 *
 *
-*
 Returns
 true
 if
@@ -410,7 +405,6 @@ Boolean
 /
 *
 *
-*
 Returns
 true
 if
@@ -430,7 +424,6 @@ isLG
 :
 Boolean
 /
-*
 *
 *
 Returns
@@ -467,12 +460,12 @@ that
 delegates
 manufacturer
 checks
-*
 to
 the
 [
 ManufacturerCodes
 ]
+*
 object
 which
 in

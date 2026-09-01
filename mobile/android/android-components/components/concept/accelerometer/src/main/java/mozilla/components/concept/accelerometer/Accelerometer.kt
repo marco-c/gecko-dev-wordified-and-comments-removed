@@ -75,7 +75,6 @@ Flow
 /
 *
 *
-*
 An
 accelerometer
 for
@@ -92,7 +91,6 @@ interface
 Accelerometer
 {
 /
-*
 *
 *
 The
@@ -112,7 +110,6 @@ Flow
 Sample
 >
 /
-*
 *
 *
 A

@@ -140,7 +140,6 @@ list
 of
 Items
 .
-*
 Activities
 containing
 this
@@ -279,7 +278,6 @@ context
 /
 *
 *
-*
 Updates
 the
 list
@@ -320,7 +318,6 @@ activities
 that
 contain
 this
-*
 fragment
 to
 allow
@@ -328,11 +325,11 @@ an
 interaction
 in
 this
+*
 fragment
 to
 be
 communicated
-*
 to
 the
 activity
@@ -343,10 +340,8 @@ fragments
 contained
 in
 that
-*
 activity
 .
-*
 *
 *
 See

@@ -79,7 +79,6 @@ VisibleForTesting
 /
 *
 *
-*
 Don
 '
 t
@@ -218,7 +217,6 @@ INPUT_HANDLED_CONTENT
 =
 2
 /
-*
 *
 *
 The
@@ -370,7 +368,6 @@ SCROLL_DIRECTIONS_LEFT
 shl
 3
 /
-*
 *
 *
 The
@@ -547,7 +544,6 @@ current
 MotionEvent
 ]
 .
-*
 Possible
 values
 :
@@ -555,6 +551,7 @@ values
 [
 INPUT_HANDLING_UNKNOWN
 ]
+*
 [
 INPUT_UNHANDLED
 ]
@@ -566,7 +563,6 @@ INPUT_HANDLED_CONTENT
 ]
 ]
 .
-*
 *
 param
 scrollDirections
@@ -583,12 +579,12 @@ be
 scrolled
 to
 .
-*
 This
 is
 the
 same
 as
+*
 GeckoView
 '
 s
@@ -605,7 +601,6 @@ ScrollableDirections
 ]
 .
 *
-*
 param
 overscrollDirections
 Bitwise
@@ -621,12 +616,12 @@ be
 overscrolled
 to
 .
-*
 This
 is
 the
 same
 as
+*
 GeckoView
 '
 s
@@ -1075,7 +1070,6 @@ newValidOverscrollDirections
 /
 *
 *
-*
 The
 [
 EngineView
@@ -1105,7 +1099,6 @@ inputResult
 =
 INPUT_HANDLING_UNKNOWN
 /
-*
 *
 *
 The
@@ -1155,12 +1148,12 @@ s
 own
 touch
 listeners
-*
 and
 consumed
 it
 without
 the
+*
 [
 EngineView
 ]
@@ -1217,12 +1210,12 @@ bigger
 than
 the
 screen
-*
 or
 when
 the
 content
 has
+*
 no
 scrollable
 element
@@ -1239,7 +1232,6 @@ inputResult
 =
 INPUT_UNHANDLED
 /
-*
 *
 *
 Whether
@@ -1284,7 +1276,6 @@ SCROLL_DIRECTIONS_LEFT
 /
 *
 *
-*
 Whether
 the
 height
@@ -1327,7 +1318,6 @@ SCROLL_DIRECTIONS_TOP
 /
 *
 *
-*
 Whether
 the
 width
@@ -1368,7 +1358,6 @@ SCROLL_DIRECTIONS_RIGHT
 =
 0
 /
-*
 *
 *
 Whether
@@ -1439,7 +1428,6 @@ the
 left
 most
 part
-*
 and
 the
 touch
@@ -1449,6 +1437,7 @@ not
 handled
 by
 the
+*
 webpage
 .
 *
@@ -1513,7 +1502,6 @@ the
 top
 most
 part
-*
 and
 the
 touch
@@ -1523,6 +1511,7 @@ not
 handled
 by
 the
+*
 webpage
 .
 *
@@ -1587,7 +1576,6 @@ the
 right
 most
 part
-*
 and
 the
 touch
@@ -1597,6 +1585,7 @@ not
 handled
 by
 the
+*
 webpage
 .
 *
@@ -1661,7 +1650,6 @@ the
 bottom
 most
 part
-*
 and
 the
 touch
@@ -1671,6 +1659,7 @@ not
 handled
 by
 the
+*
 webpage
 .
 *
@@ -2008,11 +1997,11 @@ enabling
 pull
 to
 refresh
-*
 in
 the
 cases
 in
+*
 which
 this
 class
@@ -2030,9 +2019,9 @@ helps
 more
 to
 have
-*
 overscroll
 vertically
+*
 allowed
 and
 then
@@ -2047,12 +2036,12 @@ this
 class
 is
 updated
-*
 rather
 than
 start
 with
 a
+*
 disabled
 overscroll
 functionality

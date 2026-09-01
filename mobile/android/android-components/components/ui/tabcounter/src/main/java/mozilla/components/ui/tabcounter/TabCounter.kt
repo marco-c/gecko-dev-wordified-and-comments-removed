@@ -437,11 +437,11 @@ components
 .
 ui
 .
-tabcounter
+icons
 .
-TabCounterTestTags
-.
-NORMAL_TABS_COUNTER
+R
+as
+iconsR
 import
 mozilla
 .
@@ -449,11 +449,11 @@ components
 .
 ui
 .
-icons
+tabcounter
 .
-R
-as
-iconsR
+TabCounterTestTags
+.
+NORMAL_TABS_COUNTER
 private
 const
 val
@@ -504,7 +504,6 @@ LocalContentColor
 provided
 by
 CompositionLocalProvider
-*
 to
 set
 the
@@ -1064,7 +1063,6 @@ Center
 }
 }
 /
-*
 *
 *
 Test

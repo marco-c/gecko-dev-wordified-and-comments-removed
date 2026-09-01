@@ -169,7 +169,6 @@ flowScoped
 /
 *
 *
-*
 Presenter
 that
 will
@@ -183,7 +182,6 @@ update
 the
 view
 whenever
-*
 a
 find
 result

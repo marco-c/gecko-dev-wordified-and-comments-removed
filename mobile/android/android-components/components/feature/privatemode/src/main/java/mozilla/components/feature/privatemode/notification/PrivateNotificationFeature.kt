@@ -79,6 +79,12 @@ content
 .
 Intent
 import
+kotlin
+.
+reflect
+.
+KClass
+import
 kotlinx
 .
 coroutines
@@ -166,12 +172,6 @@ base
 feature
 .
 LifecycleAwareFeature
-import
-kotlin
-.
-reflect
-.
-KClass
 /
 *
 *

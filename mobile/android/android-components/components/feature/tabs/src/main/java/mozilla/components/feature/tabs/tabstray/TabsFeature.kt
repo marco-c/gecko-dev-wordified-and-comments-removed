@@ -191,7 +191,6 @@ the
 initial
 presenting
 of
-*
 tabs
 .
 *
@@ -341,12 +340,12 @@ should
 be
 displayed
 in
-*
 the
 tabs
 tray
 .
 Uses
+*
 the
 [
 defaultTabsFilter

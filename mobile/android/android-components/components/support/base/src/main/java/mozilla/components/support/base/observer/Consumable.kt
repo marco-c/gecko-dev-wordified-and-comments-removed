@@ -172,7 +172,6 @@ onConsume
 /
 *
 *
-*
 Invokes
 the
 given
@@ -245,7 +244,6 @@ false
 /
 *
 *
-*
 Invokes
 the
 given
@@ -263,7 +261,6 @@ at
 least
 one
 lambda
-*
 returns
 true
 .
@@ -345,7 +342,6 @@ false
 /
 *
 *
-*
 Returns
 whether
 the
@@ -366,7 +362,6 @@ value
 =
 null
 /
-*
 *
 *
 Returns
@@ -444,7 +439,6 @@ object
 /
 *
 *
-*
 Creates
 a
 new
@@ -492,7 +486,6 @@ onConsume
 /
 *
 *
-*
 Creates
 a
 new
@@ -537,7 +530,6 @@ it
 /
 *
 *
-*
 Returns
 an
 empty
@@ -576,7 +568,6 @@ null
 /
 *
 *
-*
 A
 generic
 wrapper
@@ -592,7 +583,6 @@ consumed
 .
 Values
 will
-*
 be
 consumed
 first
@@ -640,13 +630,13 @@ and
 marks
 the
 value
-*
 as
 consumed
 if
 the
 lambda
 returns
+*
 true
 .
 *
@@ -733,7 +723,6 @@ and
 marks
 the
 values
-*
 as
 consumed
 if
@@ -836,7 +825,6 @@ value
 and
 marks
 the
-*
 value
 as
 consumed
@@ -844,6 +832,7 @@ if
 at
 least
 one
+*
 lambda
 returns
 true
@@ -935,7 +924,6 @@ value
 and
 marks
 the
-*
 values
 as
 consumed
@@ -943,6 +931,7 @@ if
 at
 least
 one
+*
 lambda
 returns
 true
@@ -1213,7 +1202,6 @@ isConsumed
 /
 *
 *
-*
 Returns
 true
 if
@@ -1250,7 +1238,6 @@ isEmpty
 (
 )
 /
-*
 *
 *
 Returns

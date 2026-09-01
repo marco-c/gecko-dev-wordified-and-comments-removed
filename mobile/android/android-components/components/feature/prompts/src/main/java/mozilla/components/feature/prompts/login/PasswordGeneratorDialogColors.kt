@@ -117,10 +117,10 @@ colors
 used
 in
 an
-*
 Password
 Generator
 bottom
+*
 sheet
 dialog
 .
@@ -250,7 +250,6 @@ object
 /
 *
 *
-*
 see
 [
 PasswordGeneratorDialogColors
@@ -357,7 +356,6 @@ boxBorder
 /
 *
 *
-*
 Creates
 a
 provider
@@ -386,7 +384,6 @@ default
 /
 *
 *
-*
 An
 [
 PasswordGeneratorDialogColorsProvider
@@ -405,7 +402,6 @@ interface
 PasswordGeneratorDialogColorsProvider
 {
 /
-*
 *
 *
 Provides

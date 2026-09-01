@@ -67,7 +67,6 @@ storage
 /
 *
 *
-*
 An
 interface
 which
@@ -98,6 +97,7 @@ to
 a
 page
 .
+*
 *
 param
 uri
@@ -146,6 +146,7 @@ a
 page
 .
 *
+*
 param
 uri
 of
@@ -188,7 +189,6 @@ observation
 PageObservation
 )
 /
-*
 *
 *
 return
@@ -240,6 +240,7 @@ was
 visited
 .
 *
+*
 param
 uris
 a
@@ -268,7 +269,6 @@ visited
 status
 of
 each
-*
 corresponding
 page
 URI
@@ -307,6 +307,7 @@ all
 visited
 pages
 .
+*
 *
 return
 A
@@ -347,6 +348,7 @@ given
 time
 range
 .
+*
 *
 param
 start
@@ -455,12 +457,12 @@ visits
 in
 descending
 order
-*
 with
 respect
 to
 their
 visit
+*
 timestamps
 .
 In
@@ -472,7 +474,6 @@ their
 row
 id
 will
-*
 be
 used
 .
@@ -492,12 +493,12 @@ in
 the
 database
 change
-*
 while
 you
 are
 paging
 through
+*
 records
 .
 *
@@ -583,10 +584,10 @@ number
 of
 items
 and
-*
 frecency
 threshold
 sorted
+*
 by
 most
 to
@@ -621,7 +622,6 @@ visited
 sites
 based
 on
-*
 their
 frecency
 score
@@ -669,6 +669,7 @@ the
 query
 ]
 .
+*
 *
 param
 query
@@ -718,7 +719,6 @@ SearchResult
 /
 *
 *
-*
 Remove
 all
 locally
@@ -750,6 +750,7 @@ since
 to
 now
 .
+*
 *
 param
 since
@@ -788,6 +789,7 @@ to
 endTime
 ]
 .
+*
 *
 param
 startTime
@@ -833,6 +835,7 @@ url
 ]
 .
 *
+*
 param
 url
 A
@@ -869,6 +872,7 @@ given
 url
 ]
 .
+*
 *
 param
 url
@@ -950,7 +954,6 @@ redirecting
 to
 another
 page
-*
 what
 kind
 of
@@ -959,6 +962,7 @@ is
 it
 ?
 See
+*
 [
 RedirectSource
 ]
@@ -985,7 +989,6 @@ RedirectSource
 null
 )
 /
-*
 *
 *
 A
@@ -1157,7 +1160,6 @@ String
 ?
 )
 /
-*
 *
 *
 Frecency
@@ -1346,7 +1348,6 @@ Boolean
 /
 *
 *
-*
 Visit
 type
 constants
@@ -1494,11 +1495,11 @@ is
 used
 to
 rank
-*
 this
 [
 SearchResult
 ]
+*
 against
 others
 .

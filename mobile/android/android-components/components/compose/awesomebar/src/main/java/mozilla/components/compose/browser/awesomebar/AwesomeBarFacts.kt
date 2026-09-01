@@ -115,7 +115,6 @@ collect
 /
 *
 *
-*
 Facts
 emitted
 for
@@ -132,7 +131,6 @@ object
 AwesomeBarFacts
 {
 /
-*
 *
 *
 Specific
@@ -155,7 +153,6 @@ provider_duration
 "
 }
 /
-*
 *
 *
 Keys

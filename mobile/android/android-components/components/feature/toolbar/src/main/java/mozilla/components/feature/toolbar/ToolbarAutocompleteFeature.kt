@@ -71,6 +71,12 @@ annotation
 .
 VisibleForTesting
 import
+java
+.
+util
+.
+SortedSet
+import
 kotlinx
 .
 coroutines
@@ -106,12 +112,6 @@ concept
 toolbar
 .
 Toolbar
-import
-java
-.
-util
-.
-SortedSet
 /
 *
 *
@@ -158,7 +158,6 @@ Engine
 ]
 to
 issue
-*
 [
 Engine
 .
@@ -168,6 +167,7 @@ calls
 on
 successful
 URL
+*
 autocompletion
 .
 *
@@ -182,12 +182,12 @@ that
 returns
 true
 if
-*
 autocomplete
 is
 shown
 .
 Otherwise
+*
 autocomplete
 is
 not
@@ -359,7 +359,6 @@ for
 autocompletion
 results
 .
-*
 Changes
 will
 take
@@ -369,6 +368,7 @@ next
 time
 user
 changes
+*
 their
 input
 .
@@ -382,7 +382,6 @@ of
 autocomplete
 providers
 .
-*
 The
 list
 can
@@ -394,6 +393,7 @@ case
 autocompletion
 will
 be
+*
 disabled
 until
 there
@@ -413,11 +413,11 @@ update
 the
 autocompletion
 suggestion
-*
 based
 on
 the
 new
+*
 providers
 .
 *
@@ -490,7 +490,6 @@ the
 current
 list
 .
-*
 If
 this
 exact
@@ -498,6 +497,7 @@ instance
 already
 exists
 it
+*
 will
 not
 be
@@ -514,14 +514,13 @@ update
 the
 autocompletion
 suggestion
-*
 based
 on
 the
 new
+*
 providers
 .
-*
 *
 return
 true
@@ -606,7 +605,6 @@ the
 current
 list
 .
-*
 If
 it
 isn
@@ -615,6 +613,7 @@ t
 set
 already
 calling
+*
 this
 method
 will
@@ -632,14 +631,13 @@ update
 the
 autocompletion
 suggestion
-*
 based
 on
 the
 new
+*
 providers
 .
-*
 *
 return
 true

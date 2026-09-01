@@ -526,7 +526,6 @@ is
 being
 generated
 .
-*
 Displays
 a
 Firefox
@@ -537,6 +536,7 @@ loading
 text
 over
 the
+*
 animated
 gradient
 background

@@ -131,6 +131,12 @@ StandardIntegrityManager
 .
 StandardIntegrityTokenRequest
 import
+kotlin
+.
+coroutines
+.
+resume
+import
 kotlinx
 .
 coroutines
@@ -170,12 +176,6 @@ integrity
 googleplay
 .
 TokenProvider
-import
-kotlin
-.
-coroutines
-.
-resume
 private
 val
 StandardIntegrityTokenProvider

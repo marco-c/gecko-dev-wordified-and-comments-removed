@@ -600,7 +600,6 @@ match
 /
 *
 *
-*
 Search
 for
 a
@@ -684,7 +683,6 @@ return
 index
 }
 /
-*
 *
 *
 Search

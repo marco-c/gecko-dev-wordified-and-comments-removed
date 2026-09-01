@@ -377,6 +377,12 @@ unit
 .
 dp
 import
+kotlin
+.
+math
+.
+roundToInt
+import
 mozilla
 .
 components
@@ -408,12 +414,6 @@ lib
 shake
 .
 ShakeSensitivity
-import
-kotlin
-.
-math
-.
-roundToInt
 private
 const
 val
@@ -470,7 +470,6 @@ slider
 has
 three
 stops
-*
 mapped
 to
 [
@@ -478,6 +477,7 @@ ShakeSensitivity
 .
 Low
 ]
+*
 [
 ShakeSensitivity
 .

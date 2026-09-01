@@ -71,7 +71,6 @@ blocking
 /
 *
 *
-*
 Represents
 a
 site
@@ -91,7 +90,6 @@ interface
 TrackingProtectionException
 {
 /
-*
 *
 *
 The

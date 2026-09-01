@@ -169,7 +169,6 @@ for
 locating
 the
 extension
-*
 within
 the
 APK
@@ -178,6 +177,7 @@ e
 .
 g
 .
+*
 resource
 :
 /
@@ -203,7 +203,6 @@ actions
 are
 handled
 when
-*
 received
 from
 the
@@ -245,18 +244,17 @@ from
 background
 scripts
 .
-*
 Messages
 received
 before
 a
 listener
 is
+*
 registered
 are
 queued
 and
-*
 dispatched
 after
 the
@@ -268,10 +266,10 @@ registered
 An
 extension
 can
-*
 only
 send
 messages
+*
 if
 it
 has
@@ -282,7 +280,6 @@ geckoViewAddons
 permission
 (
 only
-*
 available
 to
 built
@@ -311,7 +308,6 @@ can
 either
 be
 the
-*
 name
 of
 an
@@ -319,12 +315,12 @@ application
 web
 extension
 or
+*
 a
 specific
 feature
 in
 case
-*
 the
 web
 extension
@@ -341,9 +337,9 @@ only
 be
 one
 handler
-*
 with
 this
+*
 name
 per
 extension
@@ -356,7 +352,6 @@ to
 be
 used
 in
-*
 JavaScript
 when
 calling
@@ -365,8 +360,8 @@ browser
 runtime
 .
 connectNative
-or
 *
+or
 browser
 .
 runtime
@@ -378,7 +373,6 @@ that
 name
 must
 match
-*
 /
 ^
 \
@@ -406,7 +400,6 @@ be
 notified
 of
 messaging
-*
 events
 e
 .
@@ -418,6 +411,7 @@ was
 connected
 or
 a
+*
 message
 received
 .
@@ -450,19 +444,18 @@ from
 content
 scripts
 or
-*
 extension
 pages
 .
 Messages
 received
 before
+*
 a
 listener
 is
 registered
 are
-*
 queued
 and
 dispatched
@@ -475,9 +468,9 @@ registered
 .
 A
 content
-*
 script
 can
+*
 only
 send
 messages
@@ -489,7 +482,6 @@ the
 geckoViewAddons
 "
 and
-*
 "
 nativeMessagingFromContent
 "
@@ -497,12 +489,12 @@ permissions
 (
 only
 available
+*
 to
 built
 -
 in
 or
-*
 privileged
 extensions
 )
@@ -514,9 +506,9 @@ sent
 from
 extension
 pages
-*
 without
 the
+*
 "
 nativeMessagingFromContent
 "
@@ -535,20 +527,19 @@ untrusted
 web
 content
 processes
-*
 extension
 pages
 in
 a
 more
 privileged
+*
 extension
 process
 (
 the
 same
 as
-*
 background
 scripts
 handled
@@ -589,7 +580,6 @@ can
 either
 be
 the
-*
 name
 of
 an
@@ -597,12 +587,12 @@ application
 web
 extension
 or
+*
 a
 specific
 feature
 in
 case
-*
 the
 web
 extension
@@ -619,9 +609,9 @@ only
 be
 one
 handler
-*
 with
 this
+*
 name
 per
 extension
@@ -634,19 +624,18 @@ name
 has
 to
 be
-*
 used
 in
 JavaScript
 when
 calling
+*
 browser
 .
 runtime
 .
 connectNative
 or
-*
 browser
 .
 runtime
@@ -686,7 +675,6 @@ be
 notified
 of
 messaging
-*
 events
 e
 .
@@ -698,6 +686,7 @@ was
 connected
 or
 a
+*
 message
 received
 .
@@ -733,7 +722,6 @@ handler
 for
 the
 provided
-*
 session
 and
 "
@@ -813,7 +801,6 @@ and
 for
 the
 provided
-*
 [
 EngineSession
 ]
@@ -848,7 +835,6 @@ port
 is
 from
 a
-*
 background
 script
 .
@@ -902,7 +888,6 @@ EngineSession
 This
 method
 has
-*
 no
 effect
 if
@@ -913,6 +898,7 @@ no
 connected
 port
 with
+*
 the
 given
 name
@@ -928,11 +914,11 @@ provided
 to
 connectNative
 see
-*
 [
 registerContentMessageHandler
 ]
 and
+*
 [
 registerBackgroundMessageHandler
 ]
@@ -949,7 +935,6 @@ which
 ports
 should
 disconnected
-*
 null
 if
 port
@@ -992,7 +977,6 @@ extension
 The
 handler
 will
-*
 be
 invoked
 whenever
@@ -1000,12 +984,12 @@ browser
 and
 page
 action
+*
 defaults
 change
 .
 To
 listen
-*
 for
 session
 -
@@ -1014,8 +998,8 @@ overrides
 see
 registerActionHandler
 (
-*
 EngineSession
+*
 ActionHandler
 )
 .
@@ -1034,7 +1018,6 @@ when
 a
 browser
 or
-*
 page
 action
 is
@@ -1068,19 +1051,18 @@ EngineSession
 .
 The
 handler
-*
 will
 be
 invoked
 whenever
 browser
 and
+*
 page
 action
 overrides
 are
 received
-*
 for
 the
 provided
@@ -1113,7 +1095,6 @@ be
 invoked
 when
 a
-*
 session
 -
 specific
@@ -1122,6 +1103,7 @@ or
 page
 action
 is
+*
 received
 .
 *
@@ -1152,7 +1134,6 @@ handler
 for
 the
 provided
-*
 session
 .
 *
@@ -1209,7 +1190,6 @@ extension
 This
 handler
 will
-*
 be
 invoked
 whenever
@@ -1218,6 +1198,7 @@ web
 extension
 wants
 to
+*
 open
 a
 new
@@ -1225,7 +1206,6 @@ tab
 .
 To
 listen
-*
 for
 session
 -
@@ -1264,7 +1244,6 @@ when
 the
 web
 extension
-*
 wants
 to
 open
@@ -1286,7 +1265,6 @@ any
 tabs
 opened
 by
-*
 a
 web
 extension
@@ -1323,7 +1301,6 @@ EngineSession
 .
 The
 handler
-*
 will
 be
 invoked
@@ -1331,6 +1308,7 @@ whenever
 an
 existing
 tab
+*
 should
 be
 closed
@@ -1352,7 +1330,6 @@ when
 the
 web
 extension
-*
 wants
 to
 update
@@ -1390,7 +1367,6 @@ handler
 for
 the
 provided
-*
 session
 .
 *
@@ -1456,7 +1432,6 @@ extension
 isn
 '
 t
-*
 installed
 and
 there
@@ -1494,7 +1469,6 @@ in
 packaged
 with
 the
-*
 APK
 file
 )
@@ -1530,7 +1504,6 @@ resource
 /
 *
 *
-*
 Checks
 whether
 or
@@ -1550,7 +1523,6 @@ isEnabled
 :
 Boolean
 /
-*
 *
 *
 Checks
@@ -1641,12 +1613,12 @@ will
 be
 the
 closest
-*
 available
 icon
 to
 the
 provided
+*
 size
 .
 *
@@ -1690,7 +1662,6 @@ be
 addressed
 in
 :
-*
 https
 :
 /
@@ -1757,7 +1728,6 @@ be
 updated
 for
 a
-*
 specific
 session
 or
@@ -1766,6 +1736,7 @@ if
 this
 is
 to
+*
 set
 a
 new
@@ -1843,7 +1814,6 @@ be
 updated
 for
 a
-*
 specific
 session
 or
@@ -1852,6 +1822,7 @@ if
 this
 is
 to
+*
 set
 a
 new
@@ -1938,7 +1909,6 @@ for
 displaying
 the
 popup
-*
 or
 null
 if
@@ -1982,7 +1952,6 @@ content
 scripts
 (
 and
-*
 extension
 pages
 )
@@ -2011,7 +1980,6 @@ extension
 can
 only
 send
-*
 messages
 if
 their
@@ -2020,11 +1988,11 @@ manifest
 json
 contains
 the
+*
 "
 geckoViewAddons
 "
 permission
-*
 and
 in
 case
@@ -2037,8 +2005,8 @@ nativeMessagingFromContent
 "
 permission
 .
-*
 These
+*
 permissions
 are
 only
@@ -2070,7 +2038,6 @@ wraps
 )
 for
 more
-*
 information
 on
 usage
@@ -2078,6 +2045,7 @@ of
 the
 extension
 API
+*
 and
 its
 requirements
@@ -2126,7 +2094,6 @@ level
 components
 )
 because
-*
 how
 ports
 are
@@ -2137,11 +2104,11 @@ there
 are
 and
 how
+*
 messages
 map
 to
 it
-*
 is
 feature
 -
@@ -2156,12 +2123,12 @@ the
 web
 extension
 .
-*
 Therefore
 it
 makes
 most
 sense
+*
 to
 let
 the
@@ -2170,7 +2137,6 @@ extensions
 higher
 -
 level
-*
 features
 )
 deal
@@ -2202,7 +2168,6 @@ a
 result
 of
 a
-*
 browser
 .
 runtime
@@ -2248,7 +2213,6 @@ the
 corresponding
 session
 was
-*
 destroyed
 .
 *
@@ -2297,7 +2261,6 @@ be
 a
 primitive
 type
-*
 or
 a
 org
@@ -2346,7 +2309,6 @@ a
 result
 of
 a
-*
 browser
 .
 runtime
@@ -2368,7 +2330,6 @@ be
 a
 primitive
 type
-*
 or
 a
 org
@@ -2390,12 +2351,12 @@ if
 from
 a
 content
-*
 script
 or
 extension
 page
 otherwise
+*
 null
 .
 *
@@ -2411,7 +2372,6 @@ message
 either
 a
 primitive
-*
 type
 or
 a
@@ -2423,6 +2383,7 @@ JSONObject
 null
 if
 no
+*
 response
 should
 be
@@ -2448,7 +2409,6 @@ Any
 Unit
 }
 /
-*
 *
 *
 A
@@ -2490,7 +2450,6 @@ mode
 New
 tabs
 opened
-*
 by
 extensions
 may
@@ -2499,6 +2458,7 @@ this
 state
 if
 not
+*
 specified
 otherwise
 .
@@ -2528,7 +2488,6 @@ a
 new
 tab
 via
-*
 browser
 .
 tabs
@@ -2606,12 +2565,12 @@ enabled
 for
 the
 new
-*
 tab
 .
 Must
 match
 the
+*
 engineSession
 .
 privateMode
@@ -2655,7 +2614,6 @@ update
 a
 tab
 via
-*
 browser
 .
 tabs
@@ -2775,7 +2733,6 @@ close
 a
 tab
 via
-*
 browser
 .
 tabs
@@ -2965,7 +2922,6 @@ JSONObject
 /
 *
 *
-*
 Returns
 the
 name
@@ -2983,7 +2939,6 @@ name
 :
 String
 /
-*
 *
 *
 Returns
@@ -3006,7 +2961,6 @@ String
 /
 *
 *
-*
 Disconnects
 this
 port
@@ -3020,7 +2974,6 @@ disconnect
 )
 }
 /
-*
 *
 *
 Provides
@@ -3040,11 +2993,9 @@ Metadata
 /
 *
 *
-*
 Version
 string
 :
-*
 https
 :
 /
@@ -3179,7 +3130,6 @@ List
 String
 >
 /
-*
 *
 *
 Required
@@ -3401,7 +3351,6 @@ String
 /
 *
 *
-*
 Optional
 data
 collection
@@ -3417,7 +3366,6 @@ List
 String
 >
 /
-*
 *
 *
 Optional
@@ -3446,7 +3394,6 @@ of
 the
 extension
 :
-*
 https
 :
 /
@@ -3673,11 +3620,9 @@ String
 /
 *
 *
-*
 Options
 page
 :
-*
 https
 :
 /
@@ -3773,7 +3718,6 @@ Boolean
 /
 *
 *
-*
 Describes
 the
 reason
@@ -3796,7 +3740,6 @@ DisabledFlags
 /
 *
 *
-*
 Base
 URL
 for
@@ -3813,7 +3756,6 @@ determine
 if
 a
 page
-*
 is
 from
 /
@@ -3831,7 +3773,6 @@ String
 /
 *
 *
-*
 The
 full
 description
@@ -3847,7 +3788,6 @@ fullDescription
 String
 ?
 /
-*
 *
 *
 The
@@ -3882,7 +3822,6 @@ was
 most
 recently
 updated
-*
 (
 simplified
 ISO
@@ -3900,7 +3839,6 @@ String
 /
 *
 *
-*
 The
 average
 rating
@@ -3915,7 +3853,6 @@ averageRating
 :
 Float
 /
-*
 *
 *
 The
@@ -3936,7 +3873,6 @@ reviewUrl
 String
 ?
 /
-*
 *
 *
 The
@@ -4068,7 +4004,6 @@ using
 a
 debug
 tool
-*
 such
 as
 web
@@ -4079,6 +4014,7 @@ won
 '
 t
 be
+*
 retained
 when
 the
@@ -4094,7 +4030,6 @@ Boolean
 =
 false
 /
-*
 *
 *
 The
@@ -4168,7 +4103,6 @@ Incognito
 /
 *
 *
-*
 Provides
 additional
 information
@@ -4197,7 +4131,6 @@ Int
 /
 *
 *
-*
 The
 extension
 is
@@ -4217,7 +4150,6 @@ USER
 /
 *
 *
-*
 The
 extension
 is
@@ -4228,7 +4160,6 @@ by
 the
 application
 based
-*
 on
 available
 support
@@ -4245,7 +4176,6 @@ shl
 /
 *
 *
-*
 Holds
 all
 the
@@ -4255,7 +4185,6 @@ the
 user
 has
 submitted
-*
 as
 part
 of
@@ -4291,7 +4220,6 @@ Boolean
 false
 )
 /
-*
 *
 *
 Flags
@@ -4458,7 +4386,6 @@ flag
 /
 *
 *
-*
 Incognito
 values
 that
@@ -4479,7 +4406,6 @@ class
 Incognito
 {
 /
-*
 *
 *
 The
@@ -4503,7 +4429,6 @@ SPANNING
 /
 *
 *
-*
 The
 extension
 will
@@ -4521,7 +4446,6 @@ windows
 /
 SPLIT
 /
-*
 *
 *
 Private
@@ -4542,7 +4466,6 @@ companion
 object
 {
 /
-*
 *
 *
 Safely
@@ -4599,7 +4522,6 @@ SPANNING
 /
 *
 *
-*
 Returns
 whether
 or
@@ -4648,7 +4570,6 @@ APP_SUPPORT
 true
 }
 /
-*
 *
 *
 Returns
@@ -4702,7 +4623,6 @@ true
 /
 *
 *
-*
 Returns
 whether
 the
@@ -4747,7 +4667,6 @@ SOFT_BLOCKLIST
 true
 }
 /
-*
 *
 *
 Returns
@@ -4799,7 +4718,6 @@ SIGNATURE
 true
 }
 /
-*
 *
 *
 Returns
@@ -4872,12 +4790,12 @@ on
 the
 extension
 like
-*
 (
 but
 not
 exclusively
 )
+*
 installing
 /
 uninstalling
@@ -4908,7 +4826,6 @@ Exception
 throwable
 )
 /
-*
 *
 *
 An
@@ -4964,7 +4881,6 @@ throwable
 /
 *
 *
-*
 The
 extension
 install
@@ -4999,7 +4915,6 @@ throwable
 throwable
 )
 /
-*
 *
 *
 The
@@ -5056,7 +4971,6 @@ throwable
 /
 *
 *
-*
 The
 extension
 install
@@ -5066,7 +4980,6 @@ because
 the
 downloaded
 file
-*
 seems
 to
 be
@@ -5095,7 +5008,6 @@ extensionName
 null
 )
 /
-*
 *
 *
 The
@@ -5136,7 +5048,6 @@ null
 /
 *
 *
-*
 The
 extension
 install
@@ -5172,7 +5083,6 @@ throwable
 throwable
 )
 /
-*
 *
 *
 The
@@ -5212,7 +5122,6 @@ throwable
 /
 *
 *
-*
 The
 extension
 install
@@ -5247,7 +5156,6 @@ throwable
 throwable
 )
 /
-*
 *
 *
 The
@@ -5289,7 +5197,6 @@ throwable
 /
 *
 *
-*
 The
 extension
 can
@@ -5325,7 +5232,6 @@ throwable
 throwable
 )
 /
-*
 *
 *
 The

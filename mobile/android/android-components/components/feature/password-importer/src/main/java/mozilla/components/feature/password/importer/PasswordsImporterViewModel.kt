@@ -119,10 +119,10 @@ that
 its
 state
 and
-*
 side
 -
 effects
+*
 survive
 configuration
 changes

@@ -703,7 +703,6 @@ swatch
 /
 *
 *
-*
 Displays
 the
 Nova

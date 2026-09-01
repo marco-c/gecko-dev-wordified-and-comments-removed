@@ -145,7 +145,6 @@ UserInteractionHandler
 /
 *
 *
-*
 A
 function
 representing
@@ -154,7 +153,6 @@ search
 use
 case
 accepting
-*
 the
 search
 terms
@@ -173,7 +171,6 @@ String
 >
 Unit
 /
-*
 *
 *
 Feature
@@ -272,7 +269,6 @@ customTabId
 /
 *
 *
-*
 Start
 feature
 :
@@ -350,7 +346,6 @@ onBackPressed
 (
 )
 /
-*
 *
 *
 Stop
@@ -519,7 +514,6 @@ ColoredUrl
 /
 *
 *
-*
 Options
 for
 how
@@ -536,7 +530,6 @@ class
 RenderStyle
 {
 /
-*
 *
 *
 Display
@@ -564,7 +557,6 @@ RenderStyle
 (
 )
 /
-*
 *
 *
 Display
@@ -611,9 +603,9 @@ of
 the
 URL
 .
-*
 Colors
 the
+*
 entire
 hostname
 if
@@ -629,7 +621,6 @@ an
 IP
 address
 .
-*
 Leaves
 non
 http
@@ -637,6 +628,7 @@ http
 s
 )
 URLs
+*
 uncolored
 .
 *
@@ -648,7 +640,6 @@ RenderStyle
 (
 )
 /
-*
 *
 *
 Display

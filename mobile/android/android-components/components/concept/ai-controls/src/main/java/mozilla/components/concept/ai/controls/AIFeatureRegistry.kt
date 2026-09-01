@@ -69,7 +69,6 @@ controls
 /
 *
 *
-*
 A
 registry
 for
@@ -93,7 +92,6 @@ AIFeatureRegistry
 /
 *
 *
-*
 Registers
 [
 feature
@@ -112,7 +110,6 @@ feature
 AIControllableFeature
 )
 /
-*
 *
 *
 Returns
@@ -138,7 +135,6 @@ companion
 object
 {
 /
-*
 *
 *
 Creates
@@ -185,7 +181,7 @@ features
 =
 LinkedHashMap
 <
-AIControllableFeature
+AIFeatureMetadata
 .
 FeatureId
 AIControllableFeature

@@ -71,18 +71,6 @@ net
 .
 Uri
 import
-mozilla
-.
-components
-.
-concept
-.
-fetch
-.
-Request
-.
-CookiePolicy
-import
 java
 .
 io
@@ -114,6 +102,18 @@ util
 concurrent
 .
 TimeUnit
+import
+mozilla
+.
+components
+.
+concept
+.
+fetch
+.
+Request
+.
+CookiePolicy
 /
 *
 *
@@ -255,8 +255,8 @@ zero
 is
 interpreted
 as
-an
 *
+an
 infinite
 timeout
 .
@@ -303,8 +303,8 @@ is
 interpreted
 as
 an
-infinite
 *
+infinite
 timeout
 .
 *
@@ -354,13 +354,13 @@ not
 cookies
 should
 be
-*
 sent
 with
 the
 request
 defaults
 to
+*
 [
 CookiePolicy
 .
@@ -378,7 +378,6 @@ or
 a
 network
 request
-*
 should
 be
 forced
@@ -387,6 +386,7 @@ to
 true
 (
 use
+*
 caches
 )
 .
@@ -407,11 +407,11 @@ defaults
 to
 false
 .
-*
 The
 feature
 is
 not
+*
 support
 in
 all
@@ -441,9 +441,9 @@ defaults
 to
 false
 .
-*
 Currently
 only
+*
 GeckoViewFetchClient
 supports
 it
@@ -578,6 +578,7 @@ for
 Backward
 compatibility
 .
+*
 *
 property
 referrerUrl
@@ -810,7 +811,6 @@ object
 /
 *
 *
-*
 Create
 a
 [
@@ -844,7 +844,6 @@ byteInputStream
 )
 )
 /
-*
 *
 *
 Create
@@ -930,9 +929,9 @@ value2
 .
 .
 "
-*
 and
 values
+*
 are
 percent
 -
@@ -950,7 +949,6 @@ body
 will
 contain
 the
-*
 empty
 string
 .
@@ -1131,7 +1129,6 @@ stream
 /
 *
 *
-*
 Closes
 this
 body
@@ -1194,7 +1191,6 @@ of
 request
 semantics
 ;
-*
 it
 indicates
 the
@@ -1202,12 +1198,12 @@ purpose
 for
 which
 the
+*
 client
 has
 made
 this
 request
-*
 and
 what
 is
@@ -1261,7 +1257,6 @@ Redirect
 /
 *
 *
-*
 Automatically
 follow
 redirects
@@ -1270,7 +1265,6 @@ redirects
 /
 FOLLOW
 /
-*
 *
 *
 Do
@@ -1295,7 +1289,6 @@ CookiePolicy
 /
 *
 *
-*
 Include
 cookies
 when
@@ -1307,7 +1300,6 @@ request
 /
 INCLUDE
 /
-*
 *
 *
 Do
@@ -1324,7 +1316,6 @@ OMIT
 }
 }
 /
-*
 *
 *
 Checks
@@ -1358,7 +1349,6 @@ data
 "
 )
 /
-*
 *
 *
 Checks

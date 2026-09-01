@@ -198,7 +198,6 @@ application
 should
 open
 an
-*
 options
 page
 .
@@ -206,6 +205,7 @@ This
 is
 a
 lambda
+*
 accepting
 the
 [
@@ -214,7 +214,6 @@ ActiveOptionsPage
 of
 the
 extension
-*
 that
 wants
 to

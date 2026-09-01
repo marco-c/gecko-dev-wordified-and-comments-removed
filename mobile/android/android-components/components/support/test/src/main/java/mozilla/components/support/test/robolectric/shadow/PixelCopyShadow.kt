@@ -117,7 +117,6 @@ Implements
 /
 *
 *
-*
 Shadow
 for
 [

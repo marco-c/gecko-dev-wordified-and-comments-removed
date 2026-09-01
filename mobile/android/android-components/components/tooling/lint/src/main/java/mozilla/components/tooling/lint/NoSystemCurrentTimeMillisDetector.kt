@@ -339,11 +339,11 @@ that
 is
 not
 declared
-*
 inside
 a
 class
 or
+*
 object
 OR
 as
@@ -387,7 +387,9 @@ currentTimeMillis
 )
 *
 *
+*
 or
+*
 *
 *
 fun
@@ -887,9 +889,9 @@ satisfies
 the
 rule
 see
-*
 isInjectableDefaultParameter
 )
+*
 but
 DateTimeProvider
 is
@@ -897,7 +899,6 @@ the
 convention
 already
 used
-*
 elsewhere
 in
 the
@@ -909,6 +910,7 @@ as
 one
 example
 rather
+*
 than
 force
 it

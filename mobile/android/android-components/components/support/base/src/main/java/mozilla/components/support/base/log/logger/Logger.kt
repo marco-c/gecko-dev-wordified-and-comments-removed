@@ -146,7 +146,6 @@ null
 /
 *
 *
-*
 Send
 a
 DEBUG
@@ -190,7 +189,6 @@ throwable
 )
 }
 /
-*
 *
 *
 Send
@@ -238,7 +236,6 @@ throwable
 /
 *
 *
-*
 Send
 a
 WARN
@@ -282,7 +279,6 @@ throwable
 )
 }
 /
-*
 *
 *
 Send
@@ -348,10 +344,10 @@ log
 message
 before
 and
-*
 after
 executing
 the
+*
 block
 .
 *
@@ -360,16 +356,13 @@ Example
 log
 message
 :
-*
 doSomething
 (
 )
-*
 [
 .
 .
 ]
-*
 doSomething
 (
 )
@@ -452,7 +445,6 @@ Logger
 /
 *
 *
-*
 Send
 a
 DEBUG
@@ -483,7 +475,6 @@ message
 throwable
 )
 /
-*
 *
 *
 Send
@@ -518,7 +509,6 @@ throwable
 /
 *
 *
-*
 Send
 a
 WARN
@@ -549,7 +539,6 @@ message
 throwable
 )
 /
-*
 *
 *
 Send
@@ -602,9 +591,9 @@ log
 message
 before
 and
-*
 after
 executing
+*
 the
 block
 .
@@ -614,16 +603,13 @@ Example
 log
 message
 :
-*
 doSomething
 (
 )
-*
 [
 .
 .
 ]
-*
 doSomething
 (
 )

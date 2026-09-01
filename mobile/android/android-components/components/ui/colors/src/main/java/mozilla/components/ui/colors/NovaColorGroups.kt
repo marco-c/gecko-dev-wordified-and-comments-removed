@@ -181,7 +181,6 @@ ColorSwatch
 /
 *
 *
-*
 The
 full
 Nova

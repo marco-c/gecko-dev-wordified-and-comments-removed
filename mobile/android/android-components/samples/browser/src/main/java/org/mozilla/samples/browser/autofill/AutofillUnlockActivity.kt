@@ -119,9 +119,9 @@ to
 verify
 with
 a
-*
 fingerprint
 or
+*
 alternative
 device
 unlocking

@@ -218,7 +218,6 @@ like
 :
 *
 *
-*
 CollectionProcessor
 .
 withFactCollection

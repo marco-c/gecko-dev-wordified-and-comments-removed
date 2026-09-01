@@ -163,6 +163,12 @@ view
 .
 isVisible
 import
+java
+.
+text
+.
+NumberFormat
+import
 mozilla
 .
 components
@@ -198,12 +204,6 @@ tabcounter
 databinding
 .
 MozacUiTabcounterLayoutBinding
-import
-java
-.
-text
-.
-NumberFormat
 class
 TabCounterView
 JvmOverloads
@@ -375,7 +375,6 @@ createAnimatorSet
 /
 *
 *
-*
 Sets
 the
 colors
@@ -441,6 +440,7 @@ tab
 counter
 .
 *
+*
 param
 isPrivate
 [
@@ -453,7 +453,6 @@ whether
 to
 set
 the
-*
 private
 or
 normal

@@ -67,6 +67,12 @@ awesomebar
 .
 optimizedsuggestions
 import
+java
+.
+util
+.
+UUID
+import
 mozilla
 .
 components
@@ -126,12 +132,6 @@ awesomebar
 AwesomeBar
 .
 SuggestionProvider
-import
-java
-.
-util
-.
-UUID
 /
 *
 *
@@ -463,7 +463,6 @@ String
 /
 *
 *
-*
 Represents
 the
 flight
@@ -515,18 +514,17 @@ used
 as
 an
 intermediate
-*
 data
 representation
 before
 being
 mapped
 into
+*
 an
 AwesomeBar
 -
 specific
-*
 suggestion
 type
 (
@@ -732,7 +730,6 @@ Airline
 /
 *
 *
-*
 Represents
 an
 airport
@@ -784,7 +781,6 @@ local
 airport
 time
 .
-*
 Estimated
 time
 is
@@ -795,6 +791,7 @@ flight
 is
 delayed
 .
+*
 Otherwise
 scheduled
 time
@@ -818,7 +815,6 @@ String
 ?
 )
 /
-*
 *
 *
 Represents

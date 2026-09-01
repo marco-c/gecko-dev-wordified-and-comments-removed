@@ -194,7 +194,6 @@ Java
 [
 Locale
 ]
-*
 "
 es_ES
 "
@@ -204,9 +203,9 @@ the
 default
 locale
 .
-*
 If
 the
+*
 locale
 can
 '
@@ -222,7 +221,6 @@ is
 "
 und
 "
-*
 to
 indicate
 "

@@ -115,7 +115,6 @@ collect
 /
 *
 *
-*
 Facts
 emitted
 for
@@ -132,7 +131,6 @@ class
 BrowserMenuFacts
 {
 /
-*
 *
 *
 Items

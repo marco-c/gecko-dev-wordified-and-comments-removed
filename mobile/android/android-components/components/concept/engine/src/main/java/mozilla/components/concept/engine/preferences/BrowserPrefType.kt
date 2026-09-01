@@ -69,7 +69,6 @@ preferences
 /
 *
 *
-*
 Represents
 the
 officially
@@ -84,7 +83,6 @@ class
 BrowserPrefType
 {
 /
-*
 *
 *
 Something
@@ -103,7 +101,6 @@ returned
 /
 INVALID
 /
-*
 *
 *
 String
@@ -130,7 +127,6 @@ STRING
 /
 *
 *
-*
 Integer
 defined
 preference
@@ -140,7 +136,6 @@ type
 /
 INT
 /
-*
 *
 *
 Boolean

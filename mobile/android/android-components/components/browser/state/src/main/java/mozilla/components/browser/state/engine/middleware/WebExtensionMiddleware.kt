@@ -201,10 +201,10 @@ EngineSession
 markActiveForWebExtensions
 ]
 on
-*
 [
 EngineSession
 ]
+*
 instances
 .
 *

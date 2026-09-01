@@ -207,7 +207,6 @@ publicsuffix
 .
 org
 /
-*
 https
 :
 /
@@ -262,7 +261,6 @@ context
 )
 }
 /
-*
 *
 *
 Prefetch
@@ -514,12 +512,12 @@ domain
 Returns
 null
 if
-*
 [
 domain
 ]
 is
 a
+*
 public
 suffix
 itself

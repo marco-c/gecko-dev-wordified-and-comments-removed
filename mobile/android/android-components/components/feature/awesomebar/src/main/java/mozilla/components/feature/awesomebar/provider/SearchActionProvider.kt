@@ -174,11 +174,11 @@ suggestion
 that
 mirrors
 the
-*
 entered
 text
 and
 invokes
+*
 a
 search
 with

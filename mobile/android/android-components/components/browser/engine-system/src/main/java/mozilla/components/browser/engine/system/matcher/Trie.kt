@@ -77,7 +77,6 @@ SparseArray
 /
 *
 *
-*
 Simple
 implementation
 of
@@ -716,7 +715,6 @@ companion
 object
 {
 /
-*
 *
 *
 Creates

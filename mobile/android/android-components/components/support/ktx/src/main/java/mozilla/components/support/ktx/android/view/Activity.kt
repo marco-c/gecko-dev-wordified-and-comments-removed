@@ -187,9 +187,9 @@ and
 navigation
 buttons
 hidden
-*
 expanding
 itself
+*
 into
 the
 notch
@@ -218,10 +218,10 @@ View
 .
 OnApplyWindowInsetsListener
 ]
-*
 to
 restore
 immersive
+*
 mode
 if
 interactions
@@ -234,7 +234,6 @@ the
 keyboard
 or
 dialogs
-*
 got
 the
 activity
@@ -242,6 +241,7 @@ out
 of
 immersive
 mode
+*
 without
 [
 exitImmersiveMode
@@ -434,13 +434,13 @@ the
 immersive
 experience
 .
-*
 For
 devices
 running
 API
 28
 +
+*
 this
 function
 also
@@ -450,7 +450,6 @@ application
 '
 s
 use
-*
 of
 the
 notch
@@ -477,7 +476,6 @@ object
 for
 controlling
 the
-*
 window
 insets
 .
@@ -718,7 +716,6 @@ e
 /
 *
 *
-*
 For
 devices
 running
@@ -786,7 +783,6 @@ LAYOUT_IN_DISPLAY_CUTOUT_MODE_SHORT_EDGES
 }
 }
 /
-*
 *
 *
 For

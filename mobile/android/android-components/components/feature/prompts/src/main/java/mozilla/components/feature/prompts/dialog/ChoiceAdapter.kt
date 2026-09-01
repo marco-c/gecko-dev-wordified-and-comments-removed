@@ -129,7 +129,6 @@ R
 /
 *
 *
-*
 RecyclerView
 adapter
 for
@@ -565,7 +564,6 @@ type
 /
 *
 *
-*
 View
 holder
 for
@@ -673,7 +671,6 @@ false
 }
 }
 /
-*
 *
 *
 View
@@ -810,7 +807,6 @@ false
 /
 *
 *
-*
 View
 holder
 for
@@ -908,7 +904,6 @@ false
 /
 *
 *
-*
 View
 holder
 for
@@ -936,7 +931,6 @@ ViewHolder
 itemView
 )
 /
-*
 *
 *
 View

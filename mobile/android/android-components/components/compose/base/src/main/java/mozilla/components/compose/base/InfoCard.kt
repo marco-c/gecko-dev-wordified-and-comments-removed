@@ -567,12 +567,12 @@ container
 and
 content
 colors
-*
 for
 this
 card
 .
 Defaults
+*
 to
 the
 palette
@@ -892,7 +892,6 @@ Underline
 /
 *
 *
-*
 The
 possible
 types
@@ -909,7 +908,6 @@ class
 InfoType
 {
 /
-*
 *
 *
 Stylizes
@@ -933,7 +931,6 @@ Warning
 /
 *
 *
-*
 Stylizes
 the
 card
@@ -951,7 +948,6 @@ Error
 /
 *
 *
-*
 Stylizes
 the
 card
@@ -966,7 +962,6 @@ tones
 /
 Info
 /
-*
 *
 *
 Stylizes
@@ -1090,7 +1085,6 @@ Color
 /
 *
 *
-*
 Default
 values
 used
@@ -1107,7 +1101,6 @@ InfoCardDefaults
 /
 *
 *
-*
 Creates
 the
 [
@@ -1122,7 +1115,6 @@ and
 content
 colors
 for
-*
 the
 given
 [

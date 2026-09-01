@@ -147,8 +147,8 @@ specific
 WebExtensionState
 ]
 in
-*
 both
+*
 [
 SessionState
 .

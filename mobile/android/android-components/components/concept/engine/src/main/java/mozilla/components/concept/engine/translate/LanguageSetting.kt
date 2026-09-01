@@ -122,10 +122,10 @@ to
 be
 translated
 and
-*
 automatically
 translate
 on
+*
 page
 load
 .
@@ -157,11 +157,11 @@ This
 is
 the
 default
-*
 setting
 .
 Note
 this
+*
 means
 the
 language
@@ -180,7 +180,6 @@ offer
 "
 )
 /
-*
 *
 *
 The
@@ -325,12 +324,12 @@ like
 to
 determine
 the
-*
 boolean
 value
 for
 .
 For
+*
 example
 if
 trying
@@ -341,7 +340,6 @@ boolean
 '
 isAlways
 '
-*
 [
 categoryToSetFor
 ]
@@ -353,7 +351,6 @@ LanguageSetting
 ALWAYS
 ]
 .
-*
 *
 return
 A
@@ -371,10 +368,10 @@ null
 if
 not
 enough
-*
 information
 is
 present
+*
 to
 make
 a

@@ -93,7 +93,6 @@ Logger
 /
 *
 *
-*
 Feature
 to
 enable
@@ -156,7 +155,6 @@ webcompat
 /
 "
 /
-*
 *
 *
 Installs

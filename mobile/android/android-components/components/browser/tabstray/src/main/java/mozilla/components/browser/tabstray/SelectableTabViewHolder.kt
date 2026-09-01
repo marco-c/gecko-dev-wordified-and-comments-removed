@@ -73,7 +73,6 @@ View
 /
 *
 *
-*
 A
 contract
 for
@@ -102,7 +101,6 @@ view
 )
 {
 /
-*
 *
 *
 Indicates

@@ -81,7 +81,6 @@ PermissionRequest
 /
 *
 *
-*
 returns
 true
 if
@@ -97,7 +96,6 @@ this
 list
 otherwise
 false
-*
 *
 /
 fun
@@ -141,7 +139,6 @@ permissions
 }
 }
 /
-*
 *
 *
 Merge

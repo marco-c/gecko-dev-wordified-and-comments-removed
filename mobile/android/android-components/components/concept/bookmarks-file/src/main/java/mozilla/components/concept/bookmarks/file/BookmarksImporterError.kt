@@ -69,7 +69,6 @@ file
 /
 *
 *
-*
 Types
 of
 errors
@@ -102,7 +101,6 @@ RuntimeException
 /
 *
 *
-*
 An
 error
 occurred
@@ -131,7 +129,6 @@ cause
 cause
 )
 /
-*
 *
 *
 An
@@ -163,7 +160,6 @@ cause
 /
 *
 *
-*
 An
 error
 occurred
@@ -191,7 +187,6 @@ BookmarksImporterError
 cause
 )
 /
-*
 *
 *
 An

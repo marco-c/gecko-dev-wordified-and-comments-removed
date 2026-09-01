@@ -79,7 +79,6 @@ preference
 observer
 delegate
 .
-*
 This
 delegate
 reports
@@ -87,6 +86,7 @@ events
 related
 to
 browser
+*
 preferences
 changes
 .

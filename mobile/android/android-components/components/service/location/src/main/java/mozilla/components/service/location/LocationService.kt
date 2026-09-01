@@ -67,7 +67,6 @@ location
 /
 *
 *
-*
 Interface
 describing
 a
@@ -87,7 +86,6 @@ interface
 LocationService
 {
 /
-*
 *
 *
 Determines
@@ -116,7 +114,6 @@ true
 Region
 ?
 /
-*
 *
 *
 Get
@@ -171,11 +168,11 @@ for
 the
 most
 part
-*
 compatible
 with
 the
 ISO
+*
 3166
 standard
 .
@@ -190,7 +187,6 @@ Region
 class
 refers
 to
-*
 country
 no
 claim
@@ -198,6 +194,7 @@ about
 the
 political
 status
+*
 of
 any
 region
@@ -250,7 +247,6 @@ companion
 object
 {
 /
-*
 *
 *
 Creates
@@ -335,10 +331,10 @@ dummy
 implementations
 is
 that
-*
 code
 may
 stop
+*
 retrying
 fetching
 a
@@ -351,13 +347,13 @@ returned
 from
 the
 service
-*
 instead
 of
 null
 which
 indicates
 a
+*
 failure
 .
 *

@@ -143,6 +143,14 @@ unit
 .
 dp
 import
+java
+.
+lang
+.
+ref
+.
+WeakReference
+import
 mozilla
 .
 components
@@ -166,16 +174,7 @@ cfr
 CFRPopup
 .
 PopupAlignment
-import
-java
-.
-lang
-.
-ref
-.
-WeakReference
 /
-*
 *
 *
 The
@@ -194,7 +193,6 @@ interface
 CFRPopupBackground
 {
 /
-*
 *
 *
 One
@@ -235,7 +233,6 @@ Int
 :
 CFRPopupBackground
 /
-*
 *
 *
 A
@@ -300,9 +297,9 @@ be
 used
 as
 maximum
-*
 width
 when
+*
 alignment
 is
 set
@@ -355,11 +352,11 @@ and
 the
 anchor
 .
-*
 This
 only
 applies
 if
+*
 [
 overlapAnchor
 ]
@@ -396,11 +393,11 @@ the
 back
 button
 .
-*
 If
 true
 pressing
 the
+*
 back
 button
 will
@@ -423,7 +420,6 @@ by
 clicking
 outside
 the
-*
 popup
 '
 s
@@ -431,6 +427,7 @@ bounds
 .
 If
 true
+*
 clicking
 outside
 the
@@ -496,6 +493,7 @@ or
 above
 it
 *
+*
 property
 indicatorDirection
 The
@@ -520,12 +518,12 @@ the
 indicator
 arrow
 .
-*
 If
 there
 isn
 '
 t
+*
 enough
 space
 this
@@ -538,7 +536,6 @@ to
 0
 such
 that
-*
 the
 indicator
 arrow
@@ -547,6 +544,7 @@ be
 pointing
 to
 the
+*
 middle
 of
 the
@@ -714,7 +712,6 @@ serve
 as
 lifecycle
 owner
-*
 for
 this
 popup
@@ -750,12 +747,12 @@ also
 if
 the
 dismissal
-*
 was
 explicit
 -
 by
 tapping
+*
 the
 "
 X
@@ -949,13 +946,13 @@ of
 anchor
 ]
 .
-*
 This
 popup
 will
 be
 dismissed
 when
+*
 the
 user
 clicks
@@ -971,7 +968,6 @@ on
 other
 user
 actions
-*
 with
 such
 behavior
@@ -1166,14 +1162,12 @@ this
 /
 *
 *
-*
 Immediately
 dismiss
 this
 CFR
 popup
 .
-*
 The
 [
 onDismiss
@@ -1219,7 +1213,6 @@ a
 CFR
 popup
 .
-*
 The
 direction
 is
@@ -1229,6 +1222,7 @@ relation
 with
 the
 popup
+*
 body
 containing
 the
@@ -1244,7 +1238,6 @@ UP
 DOWN
 }
 /
-*
 *
 *
 Possible
@@ -1284,7 +1277,6 @@ by
 the
 anchor
 .
-*
 Recommended
 to
 be
@@ -1292,6 +1284,7 @@ used
 when
 the
 anchor
+*
 is
 wider
 than
@@ -1302,7 +1295,6 @@ popup
 /
 BODY_TO_ANCHOR_CENTER
 /
-*
 *
 *
 The
@@ -1322,7 +1314,6 @@ start
 /
 BODY_TO_ANCHOR_START
 /
-*
 *
 *
 The
@@ -1384,8 +1375,8 @@ that
 this
 will
 allow
-*
 to
+*
 indicate
 exactly
 which
@@ -1421,16 +1412,15 @@ CFRPopupProperties
 .
 popupWidth
 ]
-*
 it
 will
 be
+*
 centred
 in
 the
 screen
 .
-*
 If
 the
 popup
@@ -1468,7 +1458,6 @@ object
 /
 *
 *
-*
 Default
 width
 for
@@ -1491,7 +1480,6 @@ Fixed
 horizontal
 padding
 .
-*
 Allows
 the
 close
@@ -1507,8 +1495,8 @@ end
 and
 intercept
 touches
-to
 *
+to
 a
 bit
 outside
@@ -1525,11 +1513,11 @@ of
 48dp
 size
 while
-*
 also
 offer
 a
 bit
+*
 more
 space
 to
@@ -1556,7 +1544,6 @@ arrow
 should
 be
 .
-*
 This
 will
 also
@@ -1571,6 +1558,7 @@ s
 base
 which
 is
+*
 double
 the
 height
@@ -1585,7 +1573,6 @@ DEFAULT_INDICATOR_HEIGHT
 =
 7
 /
-*
 *
 *
 Maximum
@@ -1609,7 +1596,6 @@ DEFAULT_INDICATOR_START_OFFSET
 /
 *
 *
-*
 Corner
 radius
 for
@@ -1626,7 +1612,6 @@ DEFAULT_CORNER_RADIUS
 =
 12
 /
-*
 *
 *
 Vertical
@@ -1666,10 +1651,10 @@ the
 popup
 when
 alignment
-*
 is
 set
 to
+*
 [
 PopupAlignment
 .

@@ -160,7 +160,6 @@ setting
 for
 selecting
 an
-*
 autofill
 service
 .
@@ -300,7 +299,6 @@ context
 /
 *
 *
-*
 Updates
 the
 preference
@@ -322,7 +320,6 @@ user
 '
 s
 autofill
-*
 service
 .
 *

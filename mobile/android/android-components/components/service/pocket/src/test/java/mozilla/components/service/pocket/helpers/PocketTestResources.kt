@@ -251,7 +251,6 @@ pocket
 /
 *
 *
-*
 Accessors
 to
 resources

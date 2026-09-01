@@ -84,6 +84,7 @@ a
 detail
 .
 *
+*
 property
 kindAndDetail
 Kind
@@ -126,13 +127,13 @@ for
 the
 source
 .
-*
 For
 App
 -
 >
 Web
 transitions
+*
 requests
 the
 app
@@ -146,7 +147,6 @@ be
 used
 as
 origin
-*
 for
 the
 client
@@ -170,7 +170,6 @@ use_as_origin
 "
 )
 /
-*
 *
 *
 Requests
@@ -198,7 +197,6 @@ handle_all_urls
 "
 )
 /
-*
 *
 *
 Grants

@@ -127,8 +127,8 @@ is
 always
 visible
 otherwise
-*
 the
+*
 top
 of
 the
@@ -171,7 +171,6 @@ false
 )
 {
 /
-*
 *
 *
 Builds

@@ -179,12 +179,12 @@ web
 content
 of
 the
-*
 [
 target
 ]
 from
 the
+*
 [
 store
 ]

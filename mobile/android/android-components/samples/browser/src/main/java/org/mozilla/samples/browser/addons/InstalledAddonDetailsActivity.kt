@@ -203,7 +203,6 @@ components
 /
 *
 *
-*
 An
 activity
 to

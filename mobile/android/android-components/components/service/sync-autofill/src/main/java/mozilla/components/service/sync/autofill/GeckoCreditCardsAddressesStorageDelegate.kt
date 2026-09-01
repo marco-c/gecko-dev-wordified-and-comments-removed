@@ -285,11 +285,11 @@ if
 a
 credit
 card
-*
 can
 be
 saved
 in
+*
 [
 storage
 ]

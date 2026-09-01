@@ -149,7 +149,6 @@ R
 /
 *
 *
-*
 A
 tooltip
 shown
@@ -161,7 +160,6 @@ an
 anchor
 view
 .
-*
 There
 can
 be
@@ -735,6 +733,7 @@ the
 view
 .
 *
+*
 param
 view
 view
@@ -825,7 +824,6 @@ tooltipText
 }
 }
 /
-*
 *
 *
 A

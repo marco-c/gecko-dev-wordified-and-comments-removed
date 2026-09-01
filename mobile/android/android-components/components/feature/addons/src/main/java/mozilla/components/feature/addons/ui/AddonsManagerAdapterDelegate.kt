@@ -79,7 +79,6 @@ Addon
 /
 *
 *
-*
 Provides
 methods
 for
@@ -104,7 +103,6 @@ AddonsManagerAdapterDelegate
 /
 *
 *
-*
 Defines
 the
 different
@@ -123,7 +121,6 @@ class
 LearnMoreLinks
 {
 /
-*
 *
 *
 The
@@ -149,7 +146,6 @@ user
 /
 BLOCKLISTED_ADDON
 /
-*
 *
 *
 The
@@ -297,7 +293,6 @@ Unit
 /
 *
 *
-*
 Handler
 to
 determine
@@ -333,7 +328,6 @@ false
 /
 *
 *
-*
 Handler
 for
 when
@@ -358,7 +352,6 @@ onFindMoreAddonsButtonClicked
 =
 Unit
 /
-*
 *
 *
 Handler

@@ -101,7 +101,6 @@ State
 /
 *
 *
-*
 Value
 type
 that
@@ -110,7 +109,6 @@ the
 custom
 tabs
 state
-*
 accessible
 from
 both
@@ -155,7 +153,6 @@ a
 single
 custom
 tab
-*
 accessible
 from
 both
@@ -185,13 +182,13 @@ tab
 .
 CustomTabConfig
 ]
-*
 not
 replace
 it
 .
 It
 only
+*
 contains
 data
 that
@@ -347,7 +344,6 @@ Int
 /
 *
 *
-*
 Different
 states
 of
@@ -398,11 +394,11 @@ is
 being
 verified
 .
-*
 We
 only
 show
 the
+*
 toolbar
 when
 the
@@ -423,7 +419,6 @@ PENDING
 /
 *
 *
-*
 Indicates
 that
 verification
@@ -439,7 +434,6 @@ verified
 /
 SUCCESS
 /
-*
 *
 *
 Indicates

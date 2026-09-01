@@ -126,12 +126,12 @@ related
 operations
 during
 downloads
-*
 by
 providing
 lambdas
 for
 its
+*
 primary
 functions
 .

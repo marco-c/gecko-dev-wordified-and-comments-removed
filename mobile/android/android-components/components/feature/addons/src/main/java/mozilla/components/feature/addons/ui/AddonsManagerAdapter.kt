@@ -422,13 +422,13 @@ to
 the
 state
 of
-*
 an
 add
 -
 on
 such
 as
+*
 recommended
 unsupported
 or
@@ -440,7 +440,6 @@ it
 will
 perform
 actions
-*
 such
 as
 installing
@@ -582,10 +581,10 @@ in
 multiple
 headers
 like
-*
 enabled
 recommended
 and
+*
 unsupported
 this
 help
@@ -596,7 +595,6 @@ source
 of
 the
 items
-*
 displayed
 in
 the
@@ -2621,7 +2619,6 @@ HeaderSection
 /
 *
 *
-*
 Allows
 to
 customize
@@ -2929,6 +2926,7 @@ addon
 ]
 .
 *
+*
 property
 addon
 The
@@ -2997,8 +2995,8 @@ provided
 addons
 ]
 .
-*
 Be
+*
 aware
 that
 updating
@@ -3016,11 +3014,11 @@ addons
 ]
 will
 replace
-*
 the
 current
 list
 but
+*
 only
 the
 add
@@ -3037,7 +3035,6 @@ in
 the
 UI
 .
-*
 If
 you
 provide
@@ -3047,9 +3044,11 @@ it
 will
 replace
 the
+*
 current
 list
 .
+*
 *
 property
 addons

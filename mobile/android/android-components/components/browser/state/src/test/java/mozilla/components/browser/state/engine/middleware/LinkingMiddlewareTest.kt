@@ -69,6 +69,12 @@ engine
 .
 middleware
 import
+kotlin
+.
+test
+.
+assertNotNull
+import
 kotlinx
 .
 coroutines
@@ -260,12 +266,6 @@ mockito
 Mockito
 .
 verify
-import
-kotlin
-.
-test
-.
-assertNotNull
 OptIn
 (
 ExperimentalCoroutinesApi

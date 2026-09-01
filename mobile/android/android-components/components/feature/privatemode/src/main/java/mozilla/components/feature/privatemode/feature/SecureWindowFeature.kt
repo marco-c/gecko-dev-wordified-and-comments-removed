@@ -237,12 +237,12 @@ calling
 stop
 ]
 .
-*
 Can
 be
 overriden
 to
 customize
+*
 when
 the
 secure

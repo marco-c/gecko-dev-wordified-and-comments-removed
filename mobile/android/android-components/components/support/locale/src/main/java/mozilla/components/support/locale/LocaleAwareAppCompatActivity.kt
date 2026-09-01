@@ -113,7 +113,6 @@ AppCompatActivity
 /
 *
 *
-*
 Base
 activity
 for

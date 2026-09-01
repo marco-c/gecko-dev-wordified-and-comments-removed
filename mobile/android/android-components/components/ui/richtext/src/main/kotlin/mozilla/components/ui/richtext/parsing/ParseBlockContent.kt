@@ -123,7 +123,6 @@ ASTNode
 /
 *
 *
-*
 Converts
 an
 [
@@ -630,11 +629,11 @@ of
 space
 >
 text
-*
 (
 7
 distinct
 )
+*
 objects
 so
 we

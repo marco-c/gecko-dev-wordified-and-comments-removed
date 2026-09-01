@@ -92,7 +92,6 @@ e
 .
 a
 tab
-*
 can
 be
 in
@@ -101,6 +100,7 @@ partitions
 at
 the
 same
+*
 time
 .
 *
@@ -118,13 +118,13 @@ This
 should
 uniquely
 identify
-*
 the
 feature
 responsible
 for
 managing
 those
+*
 groups
 .
 *
@@ -141,7 +141,6 @@ partition
 A
 partition
 can
-*
 have
 one
 or
@@ -150,13 +149,13 @@ groups
 depending
 on
 use
+*
 case
 .
 Empty
 partitions
 will
 be
-*
 removed
 by
 the
@@ -288,7 +287,6 @@ null
 if
 no
 match
-*
 was
 found
 .
@@ -297,6 +295,7 @@ that
 we
 allow
 multiple
+*
 groups
 with
 the
@@ -304,7 +303,6 @@ same
 name
 in
 a
-*
 partition
 but
 disambiguation
@@ -348,7 +346,6 @@ true
 )
 }
 /
-*
 *
 *
 Returns

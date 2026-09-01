@@ -65,6 +65,12 @@ service
 .
 fxa
 import
+kotlin
+.
+test
+.
+assertIs
+import
 kotlinx
 .
 coroutines
@@ -196,12 +202,6 @@ mockito
 Mockito
 .
 verifyNoInteractions
-import
-kotlin
-.
-test
-.
-assertIs
 class
 UtilsKtTest
 {

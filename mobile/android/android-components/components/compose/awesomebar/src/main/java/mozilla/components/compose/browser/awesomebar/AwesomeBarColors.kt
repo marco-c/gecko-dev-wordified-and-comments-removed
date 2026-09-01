@@ -79,7 +79,6 @@ Color
 /
 *
 *
-*
 Represents
 the
 colors

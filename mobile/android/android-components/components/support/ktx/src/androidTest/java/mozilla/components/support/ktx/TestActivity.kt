@@ -73,7 +73,6 @@ Activity
 /
 *
 *
-*
 Empty
 activity
 only

@@ -254,7 +254,6 @@ null
 /
 *
 *
-*
 Starts
 listening
 for
@@ -393,7 +392,6 @@ enableScrolling
 }
 }
 /
-*
 *
 *
 Stop

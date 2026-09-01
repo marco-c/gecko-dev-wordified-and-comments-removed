@@ -201,6 +201,12 @@ psi
 .
 PsiTypes
 import
+java
+.
+util
+.
+EnumSet
+import
 org
 .
 jetbrains
@@ -234,12 +240,6 @@ jetbrains
 uast
 .
 skipParenthesizedExprDown
-import
-java
-.
-util
-.
-EnumSet
 /
 *
 *
@@ -257,7 +257,6 @@ suggests
 replacing
 them
 with
-*
 assertIs
 <
 SomeType
@@ -266,6 +265,7 @@ SomeType
 x
 )
 from
+*
 kotlin
 .
 test
@@ -274,7 +274,6 @@ provides
 smart
 casts
 and
-*
 more
 informative
 failure

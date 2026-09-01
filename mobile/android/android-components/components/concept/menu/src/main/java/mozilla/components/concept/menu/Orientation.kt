@@ -73,7 +73,6 @@ Gravity
 /
 *
 *
-*
 Indicates
 the
 preferred
@@ -92,7 +91,6 @@ Orientation
 /
 *
 *
-*
 Position
 the
 menu
@@ -104,7 +102,6 @@ toolbar
 /
 UP
 /
-*
 *
 *
 Position
@@ -137,7 +134,6 @@ Gravity
 ]
 value
 .
-*
 Meant
 to
 be
@@ -147,6 +143,7 @@ a
 CoordinatorLayout
 '
 s
+*
 gravity
 .
 *

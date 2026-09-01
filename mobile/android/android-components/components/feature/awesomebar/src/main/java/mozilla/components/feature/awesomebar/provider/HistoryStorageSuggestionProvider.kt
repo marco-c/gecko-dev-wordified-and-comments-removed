@@ -87,6 +87,12 @@ net
 .
 toUri
 import
+java
+.
+util
+.
+UUID
+import
 mozilla
 .
 components
@@ -168,14 +174,7 @@ feature
 session
 .
 SessionUseCases
-import
-java
-.
-util
-.
-UUID
 /
-*
 *
 *
 Return
@@ -193,7 +192,6 @@ DEFAULT_HISTORY_SUGGESTION_LIMIT
 =
 20
 /
-*
 *
 *
 Default
@@ -238,10 +236,10 @@ based
 on
 the
 browsing
-*
 history
 stored
 in
+*
 the
 [
 HistoryStorage
@@ -259,7 +257,6 @@ the
 HistoryStorage
 ]
 used
-*
 to
 query
 matching
@@ -279,7 +276,6 @@ the
 url
 when
 the
-*
 user
 clicks
 on
@@ -299,7 +295,6 @@ to
 load
 fav
 icons
-*
 for
 history
 URLs
@@ -321,7 +316,6 @@ speculativeConnect
 ]
 for
 the
-*
 highest
 scored
 suggestion
@@ -340,9 +334,9 @@ number
 of
 returned
 suggestions
-*
 defaults
 to
+*
 [
 DEFAULT_HISTORY_SUGGESTION_LIMIT
 ]
@@ -598,7 +592,6 @@ showEditSuggestion
 /
 *
 *
-*
 Set
 maximum
 number
@@ -632,7 +625,6 @@ maxNumber
 /
 *
 *
-*
 Get
 the
 maximum
@@ -654,7 +646,6 @@ getMaxNumberOfSuggestions
 =
 maxNumberOfSuggestions
 /
-*
 *
 *
 Reset

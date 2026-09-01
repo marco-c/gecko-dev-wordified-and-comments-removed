@@ -241,7 +241,6 @@ extras
 /
 *
 *
-*
 Reference
 to
 the
@@ -249,7 +248,6 @@ the
 MenuController
 ]
 .
-*
 If
 present
 [
@@ -294,14 +292,12 @@ shouldBeVisible
 /
 *
 *
-*
 Legacy
 [
 BrowserMenuBuilder
 ]
 reference
 .
-*
 Used
 to
 build
@@ -355,7 +351,6 @@ updated
 if
 needed
 .
-*
 This
 should
 only
@@ -369,8 +364,8 @@ menuBuilder
 is
 set
 .
-*
 To
+*
 update
 items
 in
@@ -526,7 +521,6 @@ dismissMenu
 }
 }
 /
-*
 *
 *
 Sets
