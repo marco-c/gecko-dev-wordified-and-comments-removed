@@ -363,7 +363,7 @@ sys
 .
 mjs
 "
-WindowsLaunchOnLogin
+LaunchOnLogin
 :
 "
 resource
@@ -374,7 +374,7 @@ gre
 /
 modules
 /
-WindowsLaunchOnLogin
+LaunchOnLogin
 .
 sys
 .
@@ -7161,17 +7161,6 @@ if
 (
 !
 param
-|
-|
-AppConstants
-.
-platform
-!
-=
-=
-"
-win
-"
 )
 {
 return
@@ -7206,9 +7195,9 @@ false
 ;
 lazy
 .
-WindowsLaunchOnLogin
+LaunchOnLogin
 .
-removeLaunchOnLogin
+disable
 (
 )
 ;
