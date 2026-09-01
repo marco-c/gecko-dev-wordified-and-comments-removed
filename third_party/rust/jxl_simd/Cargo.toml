@@ -294,14 +294,7 @@ rs
 "
 [
 dependencies
-.
-rustversion
 ]
-version
-=
-"
-1
-"
 [
 dev
 -
