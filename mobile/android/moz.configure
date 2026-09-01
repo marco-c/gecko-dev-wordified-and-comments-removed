@@ -254,9 +254,6 @@ and
 isolated
 processes
 "
-default
-=
-False
 )
 isIsolatedAppZygoteProcessEnabled
 =
@@ -315,9 +312,6 @@ isolatedProcess
 =
 true
 "
-default
-=
-False
 )
 isIsolatedProcessEnabled
 =

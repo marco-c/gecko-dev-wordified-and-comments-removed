@@ -633,9 +633,6 @@ env
 "
 MOZ_USE_LEGACY_L10N
 "
-default
-=
-True
 help
 =
 "
@@ -662,7 +659,7 @@ when
 "
 -
 -
-disable
+enable
 -
 legacy
 -
@@ -1251,7 +1248,7 @@ when
 "
 -
 -
-disable
+enable
 -
 unified
 -

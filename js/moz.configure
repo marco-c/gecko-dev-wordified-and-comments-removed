@@ -899,9 +899,6 @@ enable
 -
 decorators
 "
-default
-=
-False
 help
 =
 "
@@ -1020,9 +1017,6 @@ baseline
 -
 interp
 "
-default
-=
-False
 help
 =
 "
@@ -1112,9 +1106,6 @@ interp
 -
 force
 "
-default
-=
-False
 help
 =
 "
@@ -1212,9 +1203,6 @@ aot
 -
 ics
 "
-default
-=
-False
 help
 =
 "
@@ -1307,9 +1295,6 @@ ics
 -
 force
 "
-default
-=
-False
 help
 =
 "
@@ -1417,9 +1402,6 @@ ics
 -
 enforce
 "
-default
-=
-False
 help
 =
 "
@@ -4834,9 +4816,6 @@ no
 -
 experimental
 "
-default
-=
-False
 help
 =
 "
@@ -6686,9 +6665,6 @@ branch
 -
 hinting
 "
-default
-=
-True
 help
 =
 "
@@ -7098,9 +7074,6 @@ concurrent
 -
 marking
 "
-default
-=
-False
 help
 =
 "
@@ -8689,9 +8662,6 @@ resizable
 -
 arraybuffer
 "
-default
-=
-True
 help
 =
 "
