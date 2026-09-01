@@ -310,6 +310,11 @@ R
 id
 .
 onboardingFragment
+R
+.
+id
+.
+unlockPrivateTabsFragment
 /
 /
 Closing
