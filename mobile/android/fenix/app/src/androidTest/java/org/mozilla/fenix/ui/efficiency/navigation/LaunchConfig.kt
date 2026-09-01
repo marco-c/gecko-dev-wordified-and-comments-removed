@@ -172,6 +172,12 @@ shouldUseExpandedToolbar
 Boolean
 =
 false
+val
+isTabStripEnabled
+:
+Boolean
+=
+false
 /
 /
 Disabled
@@ -209,10 +215,4 @@ view
 breaking
 navigation
 .
-val
-isPWAsPromptEnabled
-:
-Boolean
-=
-false
 )
