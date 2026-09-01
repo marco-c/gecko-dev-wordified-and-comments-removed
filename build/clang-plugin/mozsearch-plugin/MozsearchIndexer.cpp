@@ -13992,6 +13992,16 @@ getAsTemplateDecl
 ;
 if
 (
+!
+Td
+)
+{
+return
+true
+;
+}
+if
+(
 ClassTemplateDecl
 *
 D
