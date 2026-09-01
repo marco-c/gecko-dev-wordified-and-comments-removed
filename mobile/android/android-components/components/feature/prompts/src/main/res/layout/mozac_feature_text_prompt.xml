@@ -288,13 +288,6 @@ layout_height
 "
 wrap_content
 "
-tools
-:
-ignore
-=
-"
-Autofill
-"
 android
 :
 inputType

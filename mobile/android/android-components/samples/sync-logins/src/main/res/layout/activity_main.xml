@@ -231,13 +231,6 @@ logins
 .
 MainActivity
 "
-tools
-:
-ignore
-=
-"
-UselessParent
-"
 >
 <
 ListView

@@ -340,13 +340,6 @@ visibility
 "
 gone
 "
-tools
-:
-ignore
-=
-"
-ContentDescription
-"
 android
 :
 layout_marginTop

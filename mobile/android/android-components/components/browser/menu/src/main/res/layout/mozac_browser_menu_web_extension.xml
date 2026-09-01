@@ -348,13 +348,6 @@ false
 "
 tools
 :
-ignore
-=
-"
-RtlCompat
-"
-tools
-:
 text
 =
 "

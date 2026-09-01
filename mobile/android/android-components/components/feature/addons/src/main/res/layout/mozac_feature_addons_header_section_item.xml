@@ -167,13 +167,6 @@ orientation
 "
 vertical
 "
-tools
-:
-ignore
-=
-"
-RtlSymmetry
-"
 >
 <
 LinearLayout
@@ -382,6 +375,13 @@ paddingStart
 =
 "
 36dp
+"
+tools
+:
+ignore
+=
+"
+RtlSymmetry
 "
 /
 >
