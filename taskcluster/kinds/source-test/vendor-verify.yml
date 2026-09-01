@@ -621,6 +621,16 @@ data
 members
 :
 -
+mozglue
+/
+misc
+/
+decimal
+/
+moz
+.
+yaml
+-
 parser
 /
 expat
