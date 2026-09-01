@@ -392,6 +392,13 @@ window
 )
 ;
 }
+parent
+.
+manage
+(
+this
+)
+;
 }
 destroy
 (
