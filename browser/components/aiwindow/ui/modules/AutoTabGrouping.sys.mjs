@@ -289,6 +289,19 @@ timeoutMs
 )
 ;
 const
+BUTTON_ITEM_ID
+=
+"
+smartwindow
+-
+group
+-
+tabs
+-
+button
+"
+;
+const
 BUTTON_ID
 =
 "
@@ -299,6 +312,8 @@ group
 tabs
 -
 button
+-
+inner
 "
 ;
 const
@@ -1363,6 +1378,16 @@ win
 document
 ;
 const
+anchor
+=
+doc
+.
+getElementById
+(
+BUTTON_ITEM_ID
+)
+;
+const
 button
 =
 doc
@@ -1387,7 +1412,7 @@ mainPopupSet
 if
 (
 !
-button
+anchor
 |
 |
 !
@@ -1523,7 +1548,7 @@ target
 )
 |
 |
-button
+anchor
 .
 contains
 (
@@ -1632,6 +1657,7 @@ popupshown
 >
 {
 button
+?
 .
 setAttribute
 (
@@ -1696,6 +1722,7 @@ popuphidden
 >
 {
 button
+?
 .
 setAttribute
 (
@@ -1799,6 +1826,7 @@ _restoreFocus
 )
 {
 button
+?
 .
 focus
 (
@@ -1817,7 +1845,7 @@ panel
 .
 openPopup
 (
-button
+anchor
 "
 after_end
 "
