@@ -35694,6 +35694,10 @@ aOtherTab
 _soundPlayingAttrRemovalTimer
 )
 {
+aOtherTab
+.
+documentGlobal
+.
 clearTimeout
 (
 aOtherTab
