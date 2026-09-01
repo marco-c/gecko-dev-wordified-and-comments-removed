@@ -777,19 +777,11 @@ date
     
 assert
 "
-moz
--
-fx
--
-data
--
-shared
--
-prod
+mozdata
 .
-firefox_desktop_stable
+firefox_desktop
 .
-hang_report_v1
+hang_report
 "
 in
 sql
