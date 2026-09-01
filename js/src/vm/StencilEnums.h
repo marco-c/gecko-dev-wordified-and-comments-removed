@@ -25,7 +25,6 @@ Finally
 ForIn
 Destructuring
 ForOf
-ForOfIterClose
 Loop
 }
 ;

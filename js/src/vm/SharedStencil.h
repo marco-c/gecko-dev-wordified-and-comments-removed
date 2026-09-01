@@ -395,12 +395,6 @@ case
 TryNoteKind
 :
 :
-ForOfIterClose
-:
-case
-TryNoteKind
-:
-:
 Destructuring
 :
 return
