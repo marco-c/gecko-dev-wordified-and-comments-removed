@@ -44,3 +44,10 @@ test_cached_favicon
 xhtml
 "
 ]
+[
+"
+test_page_icon
+.
+xhtml
+"
+]
