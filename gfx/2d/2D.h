@@ -6021,7 +6021,6 @@ return
 nullptr
 ;
 }
-virtual
 bool
 TryToReplaySurface
 (
@@ -6037,11 +6036,7 @@ Rect
 &
 aSource
 )
-{
-return
-false
 ;
-}
 virtual
 void
 DrawDependentSurface
