@@ -1574,12 +1574,16 @@ hidden
 =
 =
 hidden
+{
+msg
+:
 Element
 hidden
 should
 be
 {
 hidden
+}
 }
 )
 ;

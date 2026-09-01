@@ -503,6 +503,9 @@ ariaValueNow
 "
 ;
 }
+{
+msg
+:
 Should
 change
 to
@@ -518,6 +521,7 @@ SPINNER_HOUR
 )
 .
 ariaValueNow
+}
 }
 )
 ;
@@ -707,6 +711,9 @@ ariaValueNow
 "
 ;
 }
+{
+msg
+:
 Should
 change
 to
@@ -722,6 +729,7 @@ SPINNER_MIN
 )
 .
 ariaValueNow
+}
 }
 )
 ;
@@ -916,6 +924,9 @@ ariaValueNow
 "
 ;
 }
+{
+msg
+:
 Should
 change
 to
@@ -931,6 +942,7 @@ SPINNER_TIME
 )
 .
 ariaValueNow
+}
 }
 )
 ;
@@ -963,6 +975,9 @@ ariaValueNow
 "
 ;
 }
+{
+msg
+:
 Hour
 should
 change
@@ -979,6 +994,7 @@ SPINNER_HOUR
 )
 .
 ariaValueNow
+}
 }
 )
 ;

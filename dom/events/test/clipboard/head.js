@@ -573,6 +573,9 @@ disabled
 pasteButton
 .
 disabled
+{
+msg
+:
 "
 Wait
 for
@@ -580,6 +583,7 @@ paste
 button
 enabled
 "
+}
 )
 ;
 return

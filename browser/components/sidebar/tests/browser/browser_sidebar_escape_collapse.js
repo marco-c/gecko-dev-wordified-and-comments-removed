@@ -219,6 +219,9 @@ absolute
 )
 ;
 }
+{
+msg
+:
 "
 The
 sidebar
@@ -229,6 +232,7 @@ on
 mouse
 over
 "
+}
 )
 ;
 info
@@ -319,6 +323,9 @@ launcherExpanded
 )
 ;
 }
+{
+msg
+:
 "
 The
 sidebar
@@ -328,6 +335,7 @@ collapsed
 after
 Escape
 "
+}
 )
 ;
 ok

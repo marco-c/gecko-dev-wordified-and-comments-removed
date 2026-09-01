@@ -389,6 +389,9 @@ prevMonth
 )
 ;
 }
+{
+msg
+:
 Should
 change
 to
@@ -405,6 +408,7 @@ MONTH_YEAR
 )
 .
 textContent
+}
 }
 )
 ;
@@ -706,6 +710,9 @@ textContent
 "
 ;
 }
+{
+msg
+:
 Should
 change
 to
@@ -722,6 +729,7 @@ DAY_SELECTED
 )
 .
 textContent
+}
 }
 )
 ;

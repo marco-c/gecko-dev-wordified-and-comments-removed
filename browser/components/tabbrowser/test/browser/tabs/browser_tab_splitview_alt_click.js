@@ -178,6 +178,9 @@ splitview
 tab2
 .
 splitview
+{
+msg
+:
 "
 Both
 tabs
@@ -187,6 +190,7 @@ a
 split
 view
 "
+}
 )
 ;
 Assert

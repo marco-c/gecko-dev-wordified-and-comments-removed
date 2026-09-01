@@ -533,6 +533,9 @@ inputValue
 )
 ;
 }
+{
+msg
+:
 Should
 change
 to
@@ -549,6 +552,7 @@ MONTH_YEAR
 )
 .
 textContent
+}
 }
 )
 ;
@@ -723,6 +727,9 @@ nextYear
 )
 ;
 }
+{
+msg
+:
 Should
 change
 to
@@ -739,6 +746,7 @@ MONTH_YEAR
 )
 .
 textContent
+}
 }
 )
 ;

@@ -396,6 +396,9 @@ hidden
 moveTabToNewSplitViewItem
 .
 disabled
+{
+msg
+:
 "
 moveTabToNewSplitViewItem
 is
@@ -404,6 +407,7 @@ and
 not
 disabled
 "
+}
 )
 ;
 Assert
@@ -675,6 +679,9 @@ length
 =
 =
 3
+{
+msg
+:
 "
 Tabs
 are
@@ -685,6 +692,7 @@ open
 tabs
 list
 "
+}
 )
 ;
 Assert
@@ -1071,6 +1079,9 @@ hidden
 moveTabToNewSplitViewItem
 .
 disabled
+{
+msg
+:
 "
 moveTabToNewSplitViewItem
 is
@@ -1079,6 +1090,7 @@ and
 not
 disabled
 "
+}
 )
 ;
 Assert
@@ -1208,11 +1220,15 @@ true
 unsplitTabItem
 .
 hidden
+{
+msg
+:
 "
 unsplitTabItem
 is
 visible
 "
+}
 )
 ;
 Assert
@@ -1505,6 +1521,9 @@ hidden
 moveTabToNewSplitViewItem
 .
 disabled
+{
+msg
+:
 "
 moveTabToNewSplitViewItem
 is
@@ -1513,6 +1532,7 @@ and
 not
 disabled
 "
+}
 )
 ;
 Assert
@@ -1784,6 +1804,9 @@ length
 =
 =
 3
+{
+msg
+:
 "
 Tabs
 are
@@ -1794,6 +1817,7 @@ open
 tabs
 list
 "
+}
 )
 ;
 Assert
@@ -2184,6 +2208,9 @@ hidden
 moveTabToNewSplitViewItem
 .
 disabled
+{
+msg
+:
 "
 moveTabToNewSplitViewItem
 is
@@ -2192,6 +2219,7 @@ and
 not
 disabled
 "
+}
 )
 ;
 info
@@ -2463,6 +2491,9 @@ sidebarTabList
 rowEls
 .
 length
+{
+msg
+:
 "
 Tabs
 are
@@ -2473,6 +2504,7 @@ open
 tabs
 list
 "
+}
 )
 ;
 let
@@ -2821,6 +2853,9 @@ hidden
 unloadTabItem
 .
 disabled
+{
+msg
+:
 "
 unloadTabItem
 is
@@ -2829,6 +2864,7 @@ and
 not
 disabled
 "
+}
 )
 ;
 Assert
@@ -2896,12 +2932,16 @@ hasAttribute
 discarded
 "
 )
+{
+msg
+:
 "
 tab1
 has
 been
 unloaded
 "
+}
 )
 ;
 info
@@ -2951,6 +2991,9 @@ hidden
 moveTabToNewSplitViewItem
 .
 disabled
+{
+msg
+:
 "
 moveTabToNewSplitViewItem
 is
@@ -2959,6 +3002,7 @@ and
 not
 disabled
 "
+}
 )
 ;
 Assert
@@ -3198,6 +3242,9 @@ hidden
 moveTabToNewSplitViewItem
 .
 disabled
+{
+msg
+:
 "
 moveTabToNewSplitViewItem
 is
@@ -3206,6 +3253,7 @@ and
 not
 disabled
 "
+}
 )
 ;
 info
@@ -5290,6 +5338,9 @@ hidden
 moveTabToNewSplitViewItem
 .
 disabled
+{
+msg
+:
 "
 moveTabToNewSplitViewItem
 is
@@ -5298,6 +5349,7 @@ and
 not
 disabled
 "
+}
 )
 ;
 info
