@@ -462,6 +462,11 @@ collect
 packageName
 =
 TARGET_PACKAGE
+maxIterations
+=
+baselineProfileMaxIterations
+(
+)
 )
 {
 launchIntentJourney

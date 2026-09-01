@@ -481,6 +481,11 @@ collect
 packageName
 =
 TARGET_PACKAGE
+maxIterations
+=
+baselineProfileMaxIterations
+(
+)
 )
 {
 device

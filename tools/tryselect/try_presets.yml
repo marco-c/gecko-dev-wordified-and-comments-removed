@@ -513,6 +513,8 @@ profile
 firebase
 -
 fenix
+-
+simulation
 "
 android
 -
@@ -735,6 +737,8 @@ profile
 firebase
 -
 fenix
+-
+simulation
 "
 android
 -
@@ -1107,6 +1111,8 @@ profile
 firebase
 -
 fenix
+-
+simulation
 "
 #
 GeckoView
