@@ -158,17 +158,6 @@ resistfingerprinting
 index
 components
 /
-url
--
-classifier
-/
-url
--
-classifier
-/
-index
-components
-/
 extensions
 /
 webextensions
