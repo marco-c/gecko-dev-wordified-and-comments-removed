@@ -811,7 +811,9 @@ runCatching
 {
 TestLogging
 .
-reporter
+installed
+(
+)
 .
 record
 (
