@@ -1881,6 +1881,16 @@ mRtxIsAllowed
 aRtxIsAllowed
 ;
 }
+virtual
+void
+SetAlwaysNegotiateDataChannels
+(
+bool
+aAlwaysNegotiateDataChannels
+)
+=
+0
+;
 protected
 :
 friend
