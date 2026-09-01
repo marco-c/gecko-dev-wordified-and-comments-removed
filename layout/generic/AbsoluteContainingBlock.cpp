@@ -10691,7 +10691,6 @@ finalizing
 fits
 &
 &
-(
 tryOrder
 =
 =
@@ -10699,13 +10698,6 @@ StylePositionTryOrder
 :
 :
 Normal
-|
-|
-currentFallbackIndex
-=
-=
-firstTryIndex
-)
 )
 )
 {
