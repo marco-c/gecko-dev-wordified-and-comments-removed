@@ -64,6 +64,12 @@ MOZ_NO_SMART_CARDS
 PKCS11_MODULE
 #
 endif
+#
+ifndef
+ANDROID
+HW_INFERENCE
+#
+endif
 COUNT
 }
 ;
