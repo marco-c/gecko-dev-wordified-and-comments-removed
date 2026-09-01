@@ -18,6 +18,15 @@ include
 "
 mozilla
 /
+DoublyLinkedList
+.
+h
+"
+#
+include
+"
+mozilla
+/
 JSEventHandler
 .
 h
@@ -598,6 +607,11 @@ final
 :
 public
 EventListenerManagerBase
+public
+DoublyLinkedListElement
+<
+EventListenerManager
+>
 {
 ~
 EventListenerManager
