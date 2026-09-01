@@ -238,6 +238,12 @@ vendor
 .
 yml
 -
+vendor
+-
+verify
+.
+yml
+-
 webidl
 .
 yml

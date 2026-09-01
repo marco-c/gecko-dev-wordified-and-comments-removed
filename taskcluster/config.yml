@@ -2526,11 +2526,11 @@ Rust
 checks
 '
 '
-cairo
+vendor
 '
 :
 '
-Cairo
+Vendoring
 checks
 '
 '
