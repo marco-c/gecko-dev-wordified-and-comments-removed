@@ -415,6 +415,9 @@ item
 preferenceFileInformation
 .
 xmlResourceId
+?
+:
+0
 )
 .
 build
