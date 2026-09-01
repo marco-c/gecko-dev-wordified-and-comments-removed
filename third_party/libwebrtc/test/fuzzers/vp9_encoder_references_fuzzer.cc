@@ -565,7 +565,7 @@ constexpr
 size_t
 kMaxFrameHistorySize
 =
-32
+256
 ;
 struct
 LayerFrame
