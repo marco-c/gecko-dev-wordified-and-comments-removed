@@ -2348,6 +2348,15 @@ dataset
 .
 usercontextid
 )
+eventDetail
+:
+{
+containerSource
+:
+"
+synced_tabs_context_menu
+"
+}
 }
 )
 ;
