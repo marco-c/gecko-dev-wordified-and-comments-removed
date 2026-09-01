@@ -497,9 +497,13 @@ mWindow
 ;
 EventRegistrationToken
 mButtonPressedToken
+{
+}
 ;
 EventRegistrationToken
 mSeekRegistrationToken
+{
+}
 ;
 }
 ;
