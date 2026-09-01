@@ -117,7 +117,7 @@ kotlinx
 .
 coroutines
 .
-DelicateCoroutinesApi
+CoroutineScope
 import
 kotlinx
 .
@@ -129,7 +129,7 @@ kotlinx
 .
 coroutines
 .
-GlobalScope
+SupervisorJob
 import
 kotlinx
 .
@@ -356,6 +356,18 @@ var
 crashReporter
 :
 CrashReporter
+private
+val
+applicationScope
+:
+CoroutineScope
+=
+CoroutineScope
+(
+SupervisorJob
+(
+)
+)
 override
 fun
 onCreate
@@ -548,14 +560,6 @@ crash
 CRASH
 "
 }
-}
-OptIn
-(
-DelicateCoroutinesApi
-:
-:
-class
-)
 private
 fun
 createDummyCrashService
@@ -578,6 +582,8 @@ a
 dummy
 service
 .
+/
+/
 In
 a
 real
@@ -589,8 +595,6 @@ an
 instance
 of
 SentryCrashService
-/
-/
 or
 SocorroCrashService
 .
@@ -656,7 +660,7 @@ UncaughtExceptionCrash
 String
 ?
 {
-GlobalScope
+applicationScope
 .
 launch
 (
@@ -707,7 +711,7 @@ NativeCodeCrash
 String
 ?
 {
-GlobalScope
+applicationScope
 .
 launch
 (
@@ -761,7 +765,7 @@ Breadcrumb
 String
 ?
 {
-GlobalScope
+applicationScope
 .
 launch
 (
@@ -909,6 +913,7 @@ PendingIntent
 .
 FLAG_IMMUTABLE
 )
+}
 }
 val
 Context

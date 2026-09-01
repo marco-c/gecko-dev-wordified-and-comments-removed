@@ -137,12 +137,6 @@ kotlinx
 .
 coroutines
 .
-MainScope
-import
-kotlinx
-.
-coroutines
-.
 SupervisorJob
 import
 kotlinx
@@ -1173,7 +1167,6 @@ sample_browser_global_privacy_control
 "
 }
 /
-*
 *
 *
 A
@@ -2255,9 +2248,7 @@ homescreen
 "
 )
 {
-MainScope
-(
-)
+applicationScope
 .
 launch
 {
