@@ -17,6 +17,13 @@ py
 ]
 [
 "
+test_client_metrics
+.
+py
+"
+]
+[
+"
 test_heuristics
 .
 py
