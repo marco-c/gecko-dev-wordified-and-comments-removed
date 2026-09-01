@@ -2582,13 +2582,6 @@ summarizationFeatureConfiguration
 core
 .
 summarizeFeatureSettings
-isFirefoxLabsEnabled
-=
-{
-settings
-.
-enableFirefoxLabs
-}
 )
 )
 }

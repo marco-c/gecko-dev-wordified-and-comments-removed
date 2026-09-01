@@ -628,11 +628,6 @@ isFeatureAvailable
 =
 true
 }
-isFirefoxLabsEnabled
-=
-{
-true
-}
 )
 /
 *
