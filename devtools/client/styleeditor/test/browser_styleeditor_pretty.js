@@ -157,6 +157,7 @@ tabsize
 const
 {
 panel
+tab
 ui
 }
 =
@@ -655,6 +656,12 @@ disabled
 "
 )
 ;
+await
+closeTabAndToolbox
+(
+tab
+)
+;
 }
 )
 ;
@@ -668,8 +675,9 @@ testSystemStylesheet
 {
 const
 {
-ui
 panel
+tab
+ui
 }
 =
 await
@@ -861,6 +869,12 @@ expected
 title
 attribute
 "
+)
+;
+await
+closeTabAndToolbox
+(
+tab
 )
 ;
 }
