@@ -29627,9 +29627,9 @@ icu_segmenter
 itertools
 0
 .
-14
+15
 .
-999
+0
 "
 "
 lazy_static
@@ -48623,7 +48623,7 @@ version
 .
 3
 .
-13
+14
 "
 source
 =
@@ -48651,7 +48651,7 @@ index
 checksum
 =
 "
-a87d58624aae43577604ea137de9dcaf92793eccc4d816efad482001c2e055ca
+6c7eaa5d898cfa76ceef23aa94f954457fdc6acf5c3602d413e8873ff50dff32
 "
 dependencies
 =
