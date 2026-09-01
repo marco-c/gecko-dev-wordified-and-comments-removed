@@ -133,11 +133,15 @@ kTrackedUrisInitialSize
 BaseHistory
 (
 )
+=
+default
 ;
 ~
 BaseHistory
 (
 )
+=
+default
 ;
 using
 ObserverArray
@@ -248,6 +252,9 @@ nsURIHashKey
 ObservingLinks
 >
 mTrackedURIs
+{
+kTrackedUrisInitialSize
+}
 ;
 private
 :
