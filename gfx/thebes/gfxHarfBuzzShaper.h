@@ -651,6 +651,10 @@ void
 InitializeVertical
 (
 )
+MOZ_REQUIRES
+(
+mMutex
+)
 ;
 bool
 LoadHmtxTable

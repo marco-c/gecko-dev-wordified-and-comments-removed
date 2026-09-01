@@ -2549,7 +2549,7 @@ GetUnicodeRangeMap
 const
 {
 return
-GetCharacterMap
+GetCharacterMapRaw
 (
 )
 ;
@@ -2594,6 +2594,15 @@ forget
 .
 take
 (
+)
+;
+mozilla
+:
+:
+AutoWriteLock
+lock
+(
+mLock
 )
 ;
 if
