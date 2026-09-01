@@ -258,6 +258,12 @@ D
 CheckHeapBeforeMinorGC
 26
 )
+\
+D
+(
+ConcurrentMarkingDelays
+27
+)
 enum
 class
 ZealMode
