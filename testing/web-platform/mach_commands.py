@@ -817,6 +817,17 @@ gmp_path
 =
 os
 .
+environ
+.
+get
+(
+"
+MOZ_GMP_PATH
+"
+)
+or
+os
+.
 pathsep
 .
 join
