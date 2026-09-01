@@ -3705,6 +3705,7 @@ HasCrc32
 (
 )
 )
+{
 return
 absl
 :
@@ -3715,6 +3716,9 @@ k
 salt
 )
 ;
+}
+else
+{
 uintptr_t
 salt_int
 =
@@ -3742,6 +3746,7 @@ salt_int
 )
 )
 ;
+}
 }
 template
 <
@@ -5973,6 +5978,7 @@ internal
 InternalMetadataOffset
 (
 )
+nullptr
 other
 )
 {
@@ -6007,6 +6013,9 @@ internal
 :
 InternalMetadataOffset
 offset
+Arena
+*
+arena
 const
 Map
 &
@@ -6016,6 +6025,7 @@ other
 Map
 (
 offset
+arena
 other
 )
 {
@@ -6214,6 +6224,9 @@ internal
 :
 InternalMetadataOffset
 offset
+Arena
+*
+arena
 const
 Map
 &
@@ -6232,8 +6245,6 @@ StaticValidityCheck
 CopyFromImpl
 (
 arena
-(
-)
 other
 )
 ;

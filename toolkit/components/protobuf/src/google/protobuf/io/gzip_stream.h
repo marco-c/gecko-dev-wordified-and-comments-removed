@@ -134,7 +134,6 @@ ZlibErrorMessage
 const
 ;
 PROTOBUF_FUTURE_ADD_EARLY_NODISCARD
-inline
 int
 ZlibErrorCode
 (
@@ -340,7 +339,6 @@ ZlibErrorMessage
 const
 ;
 PROTOBUF_FUTURE_ADD_EARLY_NODISCARD
-inline
 int
 ZlibErrorCode
 (

@@ -68,7 +68,7 @@ the
 protobuf
 library
 is
-35
+36
 .
 0
 .
@@ -217,7 +217,7 @@ vendor
 (
 for
 example
-v35
+v36
 .
 0
 )
@@ -319,7 +319,7 @@ moz
 yaml
 -
 r
-v35
+v36
 .
 0
 -
@@ -355,7 +355,7 @@ only
 Where
 -
 r
-v35
+v36
 .
 0
 specifies

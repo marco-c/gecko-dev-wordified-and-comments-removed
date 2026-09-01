@@ -97,7 +97,6 @@ ErrorCollector
 {
 public
 :
-inline
 ErrorCollector
 (
 )

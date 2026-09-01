@@ -3654,6 +3654,12 @@ enabled
 &
 &
 stream_
+!
+=
+nullptr
+&
+&
+stream_
 -
 >
 AllowsAliasing

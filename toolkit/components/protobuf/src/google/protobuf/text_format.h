@@ -453,6 +453,17 @@ BaseTextGenerator
 )
 ;
 virtual
+bool
+failed
+(
+)
+const
+{
+return
+false
+;
+}
+virtual
 void
 Indent
 (
