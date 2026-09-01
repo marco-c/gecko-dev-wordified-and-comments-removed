@@ -331,7 +331,7 @@ logger
 :
 Logger
 =
-Performance
+PerformanceLogger
 .
 logger
 private
