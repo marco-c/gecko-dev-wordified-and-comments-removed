@@ -140,6 +140,15 @@ TOP_SITES
 .
 pager_indicator
 "
+const
+val
+EXPAND_TOGGLE
+=
+"
+TOP_SITES
+.
+expand_toggle
+"
 /
 /
 Contextual
