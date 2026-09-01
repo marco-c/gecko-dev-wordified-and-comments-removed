@@ -72,11 +72,9 @@ allow
 keywords
 )
 {
-.
-css
--
-111nrmg
--
+[
+class
+=
 button
 -
 standard
@@ -90,6 +88,7 @@ UserContent
 styles
 -
 root
+]
 .
 toggle
 .
