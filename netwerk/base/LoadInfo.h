@@ -2143,6 +2143,11 @@ LoadTainting
 :
 Basic
 ;
+bool
+mTrustedPrincipalToInherit
+=
+false
+;
 #
 define
 DEFINE_FIELD

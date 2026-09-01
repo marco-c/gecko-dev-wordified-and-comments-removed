@@ -6961,6 +6961,15 @@ rv
 if
 (
 !
+loadInfo
+-
+>
+IsPrincipalToInheritTrusted
+(
+)
+&
+&
+!
 ValidatePrincipalCouldPotentiallyBeLoadedBy
 (
 loadInfo
@@ -6975,6 +6984,10 @@ ValidatePrincipalOptions
 :
 :
 AllowNullPtr
+ValidatePrincipalOptions
+:
+:
+AllowNotLoadedOrigin
 }
 )
 )
