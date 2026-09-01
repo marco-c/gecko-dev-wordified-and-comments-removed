@@ -1425,11 +1425,8 @@ aPreEffectsOverflowRect
 ;
 }
 return
+*
 overflowRect
-.
-value
-(
-)
 -
 (
 aFrame
@@ -2373,10 +2370,6 @@ if
 aParams
 .
 maskRect
-.
-isSome
-(
-)
 &
 &
 maskSurfaceRect

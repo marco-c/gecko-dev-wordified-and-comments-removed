@@ -2512,11 +2512,8 @@ lengthElement
 GetRadialGradientWithLength
 (
 aIndex
+!
 aDefaultValue
-.
-isNothing
-(
-)
 ?
 static_cast
 <
@@ -2538,10 +2535,6 @@ nullptr
 MOZ_ASSERT
 (
 aDefaultValue
-.
-isSome
-(
-)
 |
 |
 lengthElement
@@ -2569,11 +2562,8 @@ aIndex
 ]
 )
 :
+*
 aDefaultValue
-.
-value
-(
-)
 ;
 }
 dom

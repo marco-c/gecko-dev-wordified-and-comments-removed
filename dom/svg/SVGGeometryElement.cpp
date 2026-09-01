@@ -491,11 +491,8 @@ hasCtxDependentLength
 )
 {
 return
+*
 hasCtxDependentLength
-.
-value
-(
-)
 ;
 }
 LengthAttributesInfo
