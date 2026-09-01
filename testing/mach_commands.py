@@ -7671,8 +7671,6 @@ True
 )
     
 if
-(
-        
 os
 .
 environ
@@ -7687,7 +7685,7 @@ GECKO_HEAD_REPOSITORY
 )
 in
 [
-            
+        
 "
 https
 :
@@ -7703,7 +7701,7 @@ mozilla
 -
 central
 "
-            
+        
 "
 https
 :
@@ -7717,33 +7715,8 @@ org
 /
 try
 "
-        
-]
-        
-or
-os
-.
-environ
-.
-get
-(
-"
-GECKO_HEAD_REF
-"
-"
-"
-)
-=
-=
-"
-refs
-/
-heads
-/
-main
-"
     
-)
+]
 :
         
 runcounts

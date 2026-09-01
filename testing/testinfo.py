@@ -4584,8 +4584,6 @@ trunk
 False
         
 if
-(
-            
 os
 .
 environ
@@ -4600,7 +4598,7 @@ GECKO_HEAD_REPOSITORY
 )
 in
 [
-                
+            
 "
 https
 :
@@ -4616,7 +4614,7 @@ mozilla
 -
 central
 "
-                
+            
 "
 https
 :
@@ -4630,10 +4628,15 @@ org
 /
 try
 "
-            
+        
 ]
+:
             
-or
+trunk
+=
+True
+        
+elif
 os
 .
 environ
@@ -4655,8 +4658,6 @@ heads
 /
 main
 "
-        
-)
 :
             
 trunk
