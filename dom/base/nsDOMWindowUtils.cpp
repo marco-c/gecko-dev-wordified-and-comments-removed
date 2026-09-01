@@ -12548,6 +12548,16 @@ aAdditionalFlags
 SELECTION_SET_FLAG_REVERSE
 )
 ;
+selectionEvent
+.
+mExpandToClusterBoundary
+=
+(
+aAdditionalFlags
+&
+SELECTION_EXPAND_TO_CLUSTER_BOUNDARY
+)
+;
 widget
 -
 >

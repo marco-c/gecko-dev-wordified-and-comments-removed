@@ -50,6 +50,13 @@ html
 ]
 [
 "
+test_editcontext_characterboundsupdate_focus
+.
+html
+"
+]
+[
+"
 test_editcontext_characterboundsupdate_range
 .
 html
@@ -139,6 +146,13 @@ files
 [
 "
 file_editcontext_resist_fingerprinting
+.
+html
+"
+]
+[
+"
+test_editcontext_set_selection
 .
 html
 "
