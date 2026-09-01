@@ -44,15 +44,3 @@ test_cached_favicon
 xhtml
 "
 ]
-skip
--
-if
-=
-[
-"
-nova
-"
-#
-Bug
-2055050
-]
