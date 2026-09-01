@@ -960,7 +960,10 @@ mChecker
 endif
 if
 (
-IsEmpty
+!
+mEntryStore
+.
+IsAllocated
 (
 )
 )
@@ -2185,7 +2188,10 @@ mChecker
 endif
 if
 (
-IsEmpty
+!
+mEntryStore
+.
+IsAllocated
 (
 )
 )
