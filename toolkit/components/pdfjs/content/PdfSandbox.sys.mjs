@@ -263,6 +263,9 @@ sandbox
 sameZoneAs
 :
 window
+associatedWindow
+:
+window
 wantXrays
 :
 true
