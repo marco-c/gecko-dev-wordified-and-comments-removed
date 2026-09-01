@@ -594,7 +594,6 @@ providers
 "
 claude
 chatgpt
-copilot
 gemini
 lechat
 "
