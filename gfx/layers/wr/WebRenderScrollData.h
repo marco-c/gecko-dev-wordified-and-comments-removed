@@ -973,7 +973,7 @@ WebRenderScrollData
 default
 ;
 bool
-Validate
+ValidateShape
 (
 )
 const
