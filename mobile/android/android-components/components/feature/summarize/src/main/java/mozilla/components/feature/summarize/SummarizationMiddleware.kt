@@ -619,6 +619,8 @@ SummarizationRequested
 is
 SummarizeSettingsActionWrapper
 is
+SummaryFeedbackProvided
+is
 ViewDismissed
 -
 >
