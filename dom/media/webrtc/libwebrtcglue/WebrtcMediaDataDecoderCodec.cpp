@@ -179,16 +179,8 @@ webrtc
 VideoCodecType
 :
 :
-kVideoCodecAV1
+kVideoCodecGeneric
 :
-return
-StaticPrefs
-:
-:
-media_navigator_mediadatadecoder_av1_enabled
-(
-)
-;
 case
 webrtc
 :
@@ -196,7 +188,7 @@ webrtc
 VideoCodecType
 :
 :
-kVideoCodecGeneric
+kVideoCodecAV1
 :
 case
 webrtc
