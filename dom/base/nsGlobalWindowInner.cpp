@@ -24536,10 +24536,7 @@ nsContentUtils
 :
 DispatchTrustedEvent
 (
-MOZ_KnownLive
-(
-mDoc
-)
+this
 this
 name
 CanBubble

@@ -7195,9 +7195,6 @@ nsContentUtils
 :
 DispatchTrustedEvent
 (
-OwnerDoc
-(
-)
 this
 u
 "
@@ -8870,9 +8867,6 @@ nsContentUtils
 :
 DispatchChromeEvent
 (
-OwnerDoc
-(
-)
 this
 eventName
 CanBubble

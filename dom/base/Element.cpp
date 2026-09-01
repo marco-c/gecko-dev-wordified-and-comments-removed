@@ -9032,15 +9032,6 @@ Element
 (
 this
 )
-doc
-=
-RefPtr
-<
-Document
->
-(
-doc
-)
 ]
 (
 )
@@ -9051,7 +9042,6 @@ nsContentUtils
 :
 DispatchChromeEvent
 (
-doc
 self
 u
 "

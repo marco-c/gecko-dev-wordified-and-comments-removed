@@ -2034,12 +2034,6 @@ nsContentUtils
 :
 DispatchTrustedEvent
 (
-MOZ_KnownLive
-(
-OwnerDoc
-(
-)
-)
 this
 u
 "

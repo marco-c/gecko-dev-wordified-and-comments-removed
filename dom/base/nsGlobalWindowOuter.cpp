@@ -17569,10 +17569,7 @@ nsContentUtils
 :
 DispatchEventOnlyToChrome
 (
-MOZ_KnownLive
-(
-mDoc
-)
+this
 this
 aEventName
 CanBubble
@@ -17595,10 +17592,7 @@ nsContentUtils
 :
 DispatchTrustedEvent
 (
-MOZ_KnownLive
-(
-mDoc
-)
+this
 this
 aEventName
 CanBubble

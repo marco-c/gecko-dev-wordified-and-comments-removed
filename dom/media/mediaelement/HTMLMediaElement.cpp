@@ -35481,9 +35481,6 @@ nsContentUtils
 :
 DispatchTrustedEvent
 (
-OwnerDoc
-(
-)
 this
 aName
 CanBubble

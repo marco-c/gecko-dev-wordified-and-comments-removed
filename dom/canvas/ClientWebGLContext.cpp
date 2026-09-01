@@ -1396,15 +1396,6 @@ nsContentUtils
 :
 DispatchTrustedEvent
 (
-MOZ_KnownLive
-(
-mCanvasElement
--
->
-OwnerDoc
-(
-)
-)
 canvasElement
 eventName
 kCanBubble
