@@ -2221,6 +2221,9 @@ nsresult
 type
 :
 quantity
+telemetry_mirror
+:
+SecurityUiTlserror_Load_Abouttlserror
 security
 .
 ui
