@@ -101,6 +101,15 @@ f32
 process
 }
 ;
+const
+AU_PER_DEV_PX
+:
+f32
+=
+60
+.
+0
+;
 struct
 DirectCompositeInterface
 {
@@ -2378,6 +2387,7 @@ root_builder
 .
 begin
 (
+AU_PER_DEV_PX
 )
 ;
 build_display_list
@@ -2399,6 +2409,11 @@ txn
 set_display_list
 (
 current_epoch
+api
+.
+get_namespace_id
+(
+)
 root_builder
 .
 end
@@ -2522,6 +2537,7 @@ root_builder
 .
 begin
 (
+AU_PER_DEV_PX
 )
 ;
 build_display_list
@@ -2541,6 +2557,11 @@ txn
 set_display_list
 (
 current_epoch
+api
+.
+get_namespace_id
+(
+)
 root_builder
 .
 end
