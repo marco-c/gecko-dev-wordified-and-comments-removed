@@ -23591,12 +23591,6 @@ MozTabbrowserTab
 }
 tabs
 *
-param
-{
-boolean
-}
-isActive
-*
 /
 showSplitViewPanels
 (
@@ -23928,7 +23922,6 @@ string
 }
 [
 label
-=
 ]
 *
 param
@@ -24038,7 +24031,7 @@ object
 [
 ]
 }
-tabs
+tabsAndSplitViews
 *
 The
 set
