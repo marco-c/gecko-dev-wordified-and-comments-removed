@@ -1007,7 +1007,7 @@ Range
 GlyphKey
 >
 pub
-local_rect
+pattern_rect
 :
 LayoutRect
 pub
@@ -1546,7 +1546,7 @@ request_resources
 (
 &
 self
-local_rect
+pattern_rect
 :
 LayoutRect
 transform
@@ -1617,7 +1617,7 @@ has_bitmap_strikes
 !
 transform
 .
-is_2d_scale_translation
+is_simple_2d_translation
 (
 )
 &
@@ -1779,7 +1779,7 @@ transform
 .
 transform_point2d
 (
-local_rect
+pattern_rect
 .
 min
 )
@@ -1853,7 +1853,7 @@ src
 let
 pos
 =
-local_rect
+pattern_rect
 .
 min
 +
@@ -1976,7 +1976,7 @@ transform
 .
 transform_point2d
 (
-local_rect
+pattern_rect
 .
 min
 +
@@ -2094,7 +2094,7 @@ TextRunScratch
 {
 used_font
 glyph_keys_range
-local_rect
+pattern_rect
 gpu_address
 raster_scale
 local_raster
