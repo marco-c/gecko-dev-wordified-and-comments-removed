@@ -1904,6 +1904,8 @@ preXulSkeletonUI
 true
 )
 ;
+#
+endif
 pref
 (
 "
@@ -1960,8 +1962,6 @@ alreadyApplied
 false
 )
 ;
-#
-endif
 pref
 (
 "
