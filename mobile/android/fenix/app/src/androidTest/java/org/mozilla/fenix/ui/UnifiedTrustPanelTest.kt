@@ -326,9 +326,6 @@ AndroidComposeTestRuleV2
 (
 HomeActivityIntentTestRule
 (
-isPWAsPromptEnabled
-=
-false
 )
 )
 {
@@ -419,6 +416,9 @@ UnifiedTrustPanelTest
 verifySecurePageConnectionFromQuickSettingsWithNoTrackersTest
 "
 ]
+bug
+=
+2057420
 since
 =
 "
@@ -614,6 +614,9 @@ UnifiedTrustPanelTest
 verifyInsecurePageConnectionFromQuickSettingsWithTrackersTest
 "
 ]
+bug
+=
+2057420
 since
 =
 "
@@ -1809,6 +1812,9 @@ UnifiedTrustPanelTest
 verifyInsecurePageConnectionFromQuickSettingsWithNoTrackersInCustomTabsTest
 "
 ]
+bug
+=
+2057413
 since
 =
 "
@@ -1993,6 +1999,9 @@ UnifiedTrustPanelTest
 verifyClearCookiesAndSiteDataFromQuickSettingsInCustomTabsTest
 "
 ]
+bug
+=
+2057421
 since
 =
 "

@@ -188,9 +188,6 @@ AndroidComposeTestRuleV2
 (
 HomeActivityTestRule
 (
-isPWAsPromptEnabled
-=
-false
 )
 )
 {

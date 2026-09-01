@@ -461,9 +461,6 @@ AndroidComposeTestRuleV2
 (
 HomeActivityIntentTestRule
 (
-isPWAsPromptEnabled
-=
-false
 isDeleteSitePermissionsEnabled
 =
 true
