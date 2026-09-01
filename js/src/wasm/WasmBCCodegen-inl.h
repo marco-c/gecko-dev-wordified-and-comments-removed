@@ -972,12 +972,13 @@ propagateOOM
 (
 createStackMap
 (
-"
-BaseCompiler
+mozilla
 :
 :
-trap
-"
+Some
+(
+t
+)
 HasDebugFrameWithLiveRefs
 :
 :

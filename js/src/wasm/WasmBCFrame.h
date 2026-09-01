@@ -5227,10 +5227,11 @@ nodiscard
 bool
 createStackMap
 (
-const
-char
-*
-who
+Maybe
+<
+Trap
+>
+reason
 const
 ExitStubMapVector
 &

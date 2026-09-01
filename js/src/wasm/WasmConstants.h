@@ -329,6 +329,13 @@ ThrowReported
 Limit
 }
 ;
+bool
+TrapMightResume
+(
+Trap
+t
+)
+;
 #
 ifdef
 JS_JITSPEW
