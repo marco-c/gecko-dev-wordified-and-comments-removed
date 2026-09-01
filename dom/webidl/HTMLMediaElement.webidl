@@ -558,6 +558,9 @@ HTMLMediaElement
 Func
 =
 "
+MediaUtils
+:
+:
 HasDebuggerOrTabsPrivilege
 "
 ]
@@ -571,6 +574,9 @@ mozMediaSourceObject
 Func
 =
 "
+MediaUtils
+:
+:
 HasDebuggerOrTabsPrivilege
 "
 NewObject
@@ -587,6 +593,9 @@ mozRequestDebugInfo
 Func
 =
 "
+MediaUtils
+:
+:
 HasDebuggerOrTabsPrivilege
 "
 NewObject
@@ -601,6 +610,9 @@ mozEnableDebugLog
 Func
 =
 "
+MediaUtils
+:
+:
 HasDebuggerOrTabsPrivilege
 "
 NewObject

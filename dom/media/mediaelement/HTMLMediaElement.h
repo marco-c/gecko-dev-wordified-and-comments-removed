@@ -4851,17 +4851,6 @@ mEffectiveVolumeChangeEvent
 ;
 }
 ;
-bool
-HasDebuggerOrTabsPrivilege
-(
-JSContext
-*
-aCx
-JSObject
-*
-aObj
-)
-;
 }
 inline
 nsISupports

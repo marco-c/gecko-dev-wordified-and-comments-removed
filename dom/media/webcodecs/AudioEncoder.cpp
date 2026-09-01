@@ -281,6 +281,7 @@ DOMEventTargetHelper
 mErrorCallback
 mOutputCallback
 mPendingFlushPromises
+mPendingDebugInfoPromises
 )
 NS_IMPL_ADDREF_INHERITED
 (

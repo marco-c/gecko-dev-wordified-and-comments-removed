@@ -1118,6 +1118,11 @@ MediaTrackListener
 h
 "
 "
+MediaUtils
+.
+h
+"
+"
 MemoryBlockCache
 .
 h
@@ -1714,6 +1719,11 @@ cpp
 "
 "
 MediaTrackListener
+.
+cpp
+"
+"
+MediaUtils
 .
 cpp
 "

@@ -1089,3 +1089,14 @@ decoder
 ;
 }
 ;
+dictionary
+EncoderDebugInfo
+{
+DOMString
+encoderName
+=
+"
+"
+;
+}
+;
