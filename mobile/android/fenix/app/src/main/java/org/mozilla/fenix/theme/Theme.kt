@@ -57,13 +57,11 @@ MPL
 *
 /
 package
+org
+.
 mozilla
 .
-components
-.
-compose
-.
-base
+fenix
 .
 theme
 /
