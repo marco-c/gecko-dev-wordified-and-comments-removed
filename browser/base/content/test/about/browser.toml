@@ -888,6 +888,13 @@ js
 ]
 [
 "
+browser_aboutNetError_searchCTA_telemetry
+.
+js
+"
+]
+[
+"
 browser_aboutNetError_server_error
 .
 js
