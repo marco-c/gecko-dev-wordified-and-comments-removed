@@ -212,6 +212,7 @@ NativeMessaging
 Settings
 Location
 OpenUri
+Notification
 }
 ;
 bool
