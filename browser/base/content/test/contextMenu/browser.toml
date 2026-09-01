@@ -283,9 +283,6 @@ arch
 '
 aarch64
 '
-&
-&
-opt
 "
 #
 Bug
@@ -526,6 +523,13 @@ Bug
 [
 "
 browser_contextmenu_chrome_images
+.
+js
+"
+]
+[
+"
+browser_contextmenu_color_scheme
 .
 js
 "
