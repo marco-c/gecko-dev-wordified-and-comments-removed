@@ -884,6 +884,7 @@ Tenured
 =
 0
 Nursery
+RebuildFreeLists
 }
 ;
 MainThreadOrGCTaskData
@@ -1983,6 +1984,14 @@ sweepKind
 size_t
 *
 usedBytesOut
+)
+;
+void
+rebuildFreeLists
+(
+BufferChunk
+*
+chunk
 )
 ;
 void
