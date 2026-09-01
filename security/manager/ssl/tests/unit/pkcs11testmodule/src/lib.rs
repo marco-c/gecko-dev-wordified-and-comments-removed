@@ -41,6 +41,7 @@ rsclientcerts
 {
 declare_pkcs11_find_functions
 declare_pkcs11_informational_functions
+declare_pkcs11_pin_functions
 declare_pkcs11_session_functions
 declare_pkcs11_sign_functions
 declare_unsupported_pkcs11_functions
@@ -221,7 +222,13 @@ TOKEN_LABELS_BYTES
 [
 0
 ]
+CKF_TOKEN_PRESENT
+|
 CKF_REMOVABLE_DEVICE
+CKF_USER_PIN_INITIALIZED
+|
+CKF_LOGIN_REQUIRED
+|
 CKF_TOKEN_INITIALIZED
 Vec
 :
@@ -569,6 +576,11 @@ declare_pkcs11_find_functions
 )
 ;
 declare_pkcs11_sign_functions
+!
+(
+)
+;
+declare_pkcs11_pin_functions
 !
 (
 )

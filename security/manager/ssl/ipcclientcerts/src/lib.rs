@@ -41,6 +41,7 @@ rsclientcerts
 {
 declare_pkcs11_find_functions
 declare_pkcs11_informational_functions
+declare_pkcs11_pin_functions
 declare_pkcs11_session_functions
 declare_pkcs11_sign_functions
 declare_unsupported_pkcs11_functions
@@ -350,6 +351,11 @@ declare_pkcs11_find_functions
 )
 ;
 declare_pkcs11_sign_functions
+!
+(
+)
+;
+declare_pkcs11_pin_functions
 !
 (
 )
