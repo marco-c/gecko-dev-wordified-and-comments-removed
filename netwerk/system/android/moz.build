@@ -58,6 +58,11 @@ SOURCES
 =
 [
 "
+AndroidLocalNetworkPermission
+.
+cpp
+"
+"
 AndroidNetworkBlockedReason
 .
 cpp
