@@ -2934,7 +2934,7 @@ prefFlips
 =
 excluded
 .
-setPrefs
+prefFlips
 source
 =
 excluded
