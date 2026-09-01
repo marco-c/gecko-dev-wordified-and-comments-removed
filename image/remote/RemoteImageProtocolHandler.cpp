@@ -1576,7 +1576,7 @@ SetViewportSize
 (
 Some
 (
-CSSIntSize
+CSSSize
 (
 size
 .

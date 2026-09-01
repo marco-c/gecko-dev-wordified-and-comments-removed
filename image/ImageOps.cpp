@@ -212,7 +212,7 @@ aClip
 const
 Maybe
 <
-nsSize
+CSSSize
 >
 &
 aSVGViewportSize
@@ -257,7 +257,7 @@ aClip
 const
 Maybe
 <
-nsSize
+CSSSize
 >
 &
 aSVGViewportSize

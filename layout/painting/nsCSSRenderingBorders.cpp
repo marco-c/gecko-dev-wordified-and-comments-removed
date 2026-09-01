@@ -15514,7 +15514,7 @@ ComputeIntrinsicSize
 ;
 Maybe
 <
-nsSize
+CSSSize
 >
 svgViewportSize
 =
@@ -15530,7 +15530,13 @@ Nothing
 :
 Some
 (
+CSSSize
+:
+:
+FromAppUnits
+(
 mImageSize
+)
 )
 ;
 bool

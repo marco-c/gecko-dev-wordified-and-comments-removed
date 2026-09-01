@@ -311,7 +311,7 @@ aClip
 const
 Maybe
 <
-nsSize
+CSSSize
 >
 &
 aSVGViewportSize
@@ -414,7 +414,7 @@ mShouldClip
 ;
 Maybe
 <
-nsIntSize
+CSSSize
 >
 mSVGViewportSize
 ;

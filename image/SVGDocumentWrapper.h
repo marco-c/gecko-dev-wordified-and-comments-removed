@@ -7,6 +7,13 @@ mozilla_image_SVGDocumentWrapper_h
 #
 include
 "
+Units
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h
@@ -161,7 +168,7 @@ void
 UpdateViewportBounds
 (
 const
-nsIntSize
+CSSSize
 &
 aViewportSize
 )

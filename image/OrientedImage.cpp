@@ -1404,7 +1404,7 @@ SwapsWidthAndHeight
 )
 )
 {
-CSSIntSize
+CSSSize
 newViewport
 (
 oldViewport

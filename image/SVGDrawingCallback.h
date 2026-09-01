@@ -7,6 +7,13 @@ mozilla_image_SVGDrawingCallback_h
 #
 include
 "
+Units
+.
+h
+"
+#
+include
+"
 gfxDrawable
 .
 h
@@ -57,10 +64,7 @@ SVGDocumentWrapper
 *
 aSVGDocumentWrapper
 const
-gfx
-:
-:
-IntSize
+CSSSize
 &
 aViewportSize
 const
@@ -113,10 +117,7 @@ SVGDocumentWrapper
 mSVGDocumentWrapper
 ;
 const
-gfx
-:
-:
-IntSize
+CSSSize
 mViewportSize
 ;
 const

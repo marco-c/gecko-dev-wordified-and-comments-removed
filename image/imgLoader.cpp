@@ -2877,7 +2877,7 @@ GetViewportSize
 )
 {
 const
-CSSIntSize
+CSSSize
 &
 size
 =
@@ -2904,7 +2904,7 @@ viewport
 ;
 surfacePathPrefix
 .
-AppendInt
+AppendFloat
 (
 size
 .
@@ -2922,7 +2922,7 @@ x
 ;
 surfacePathPrefix
 .
-AppendInt
+AppendFloat
 (
 size
 .
