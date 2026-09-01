@@ -756,6 +756,13 @@ js
 ]
 [
 "
+browser_supersededQueryNotifications
+.
+js
+"
+]
+[
+"
 browser_suppressFocusBorder
 .
 js
