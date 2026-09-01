@@ -272,6 +272,7 @@ LayoutParams
 FLAG_KEEP_SCREEN_ON
 )
 )
+{
 window
 .
 clearFlags
@@ -282,6 +283,7 @@ LayoutParams
 .
 FLAG_KEEP_SCREEN_ON
 )
+}
 /
 /
 Make

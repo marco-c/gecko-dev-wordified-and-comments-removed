@@ -211,27 +211,25 @@ FakeSummarizationSettingsBinding
 private
 class
 FakeSummarizationSettingsBinding
-(
-)
 :
 SummarizationSettingsBinding
 {
 val
-_isFeatureEnabled
+isFeatureEnabledFlow
 =
 MutableStateFlow
 (
 false
 )
 val
-_isGestureEnabled
+isGestureEnabledFlow
 =
 MutableStateFlow
 (
 false
 )
 val
-_shakeSensitivity
+shakeSensitivityFlow
 =
 MutableStateFlow
 (
@@ -248,7 +246,7 @@ StateFlow
 Boolean
 >
 =
-_isFeatureEnabled
+isFeatureEnabledFlow
 override
 val
 isGestureEnabled
@@ -258,7 +256,7 @@ StateFlow
 Boolean
 >
 =
-_isGestureEnabled
+isGestureEnabledFlow
 override
 val
 shakeSensitivity
@@ -268,7 +266,7 @@ StateFlow
 ShakeSensitivity
 >
 =
-_shakeSensitivity
+shakeSensitivityFlow
 }
 Before
 fun
@@ -340,7 +338,7 @@ shakeToSummarizeFeatureFlagEnabled
 true
 settingsBinding
 .
-_isFeatureEnabled
+isFeatureEnabledFlow
 .
 value
 =
@@ -418,7 +416,7 @@ not
 enabled
 settingsBinding
 .
-_isFeatureEnabled
+isFeatureEnabledFlow
 .
 value
 =
@@ -493,7 +491,7 @@ left
 enabled
 settingsBinding
 .
-_isFeatureEnabled
+isFeatureEnabledFlow
 .
 value
 =
@@ -542,7 +540,7 @@ shakeToSummarizeFeatureFlagEnabled
 true
 settingsBinding
 .
-_isFeatureEnabled
+isFeatureEnabledFlow
 .
 value
 =
@@ -618,7 +616,7 @@ shakeToSummarizeFeatureFlagEnabled
 true
 settingsBinding
 .
-_isFeatureEnabled
+isFeatureEnabledFlow
 .
 value
 =
@@ -708,7 +706,7 @@ not
 enabled
 settingsBinding
 .
-_isFeatureEnabled
+isFeatureEnabledFlow
 .
 value
 =
@@ -775,7 +773,7 @@ somehow
 enabled
 settingsBinding
 .
-_isFeatureEnabled
+isFeatureEnabledFlow
 .
 value
 =
@@ -843,7 +841,7 @@ somehow
 enabled
 settingsBinding
 .
-_isFeatureEnabled
+isFeatureEnabledFlow
 .
 value
 =
@@ -909,7 +907,7 @@ NOT
 enabled
 settingsBinding
 .
-_isFeatureEnabled
+isFeatureEnabledFlow
 .
 value
 =
@@ -970,7 +968,7 @@ shakeToSummarizeFeatureFlagEnabled
 true
 settingsBinding
 .
-_isFeatureEnabled
+isFeatureEnabledFlow
 .
 value
 =
@@ -1032,7 +1030,7 @@ shakeToSummarizeFeatureFlagEnabled
 true
 settingsBinding
 .
-_isFeatureEnabled
+isFeatureEnabledFlow
 .
 value
 =
@@ -1114,7 +1112,7 @@ shakeToSummarizeFeatureFlagEnabled
 true
 settingsBinding
 .
-_isFeatureEnabled
+isFeatureEnabledFlow
 .
 value
 =
@@ -1216,7 +1214,7 @@ shakeToSummarizeFeatureFlagEnabled
 true
 settingsBinding
 .
-_isFeatureEnabled
+isFeatureEnabledFlow
 .
 value
 =
@@ -1319,7 +1317,7 @@ shakeToSummarizeFeatureFlagEnabled
 true
 settingsBinding
 .
-_isFeatureEnabled
+isFeatureEnabledFlow
 .
 value
 =
@@ -1418,7 +1416,7 @@ shakeToSummarizeFeatureFlagEnabled
 true
 settingsBinding
 .
-_isFeatureEnabled
+isFeatureEnabledFlow
 .
 value
 =
@@ -1505,7 +1503,7 @@ is
 enabled
 settingsBinding
 .
-_isFeatureEnabled
+isFeatureEnabledFlow
 .
 value
 =
@@ -1576,7 +1574,7 @@ NOT
 enabled
 settingsBinding
 .
-_isFeatureEnabled
+isFeatureEnabledFlow
 .
 value
 =
@@ -1634,7 +1632,7 @@ shakeToSummarizeFeatureFlagEnabled
 true
 settingsBinding
 .
-_isFeatureEnabled
+isFeatureEnabledFlow
 .
 value
 =
@@ -1713,7 +1711,7 @@ shakeToSummarizeFeatureFlagEnabled
 true
 settingsBinding
 .
-_isFeatureEnabled
+isFeatureEnabledFlow
 .
 value
 =

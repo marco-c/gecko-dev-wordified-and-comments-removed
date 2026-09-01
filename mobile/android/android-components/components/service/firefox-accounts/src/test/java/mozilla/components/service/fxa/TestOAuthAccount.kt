@@ -149,8 +149,6 @@ tests
 abstract
 class
 TestOAuthAccount
-(
-)
 :
 OAuthAccount
 {

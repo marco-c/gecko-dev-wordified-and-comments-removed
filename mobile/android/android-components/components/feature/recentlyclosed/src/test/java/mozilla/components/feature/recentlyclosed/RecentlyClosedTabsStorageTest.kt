@@ -295,8 +295,6 @@ CrashReporting
 private
 class
 TestEngineSessionStateStorage
-(
-)
 :
 EngineSessionStateStorage
 {

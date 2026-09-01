@@ -288,8 +288,6 @@ robolectric
 RobolectricTestRunner
 class
 TestGleanBrokenSiteReportSender
-(
-)
 :
 GleanBrokenSiteReportSender
 {

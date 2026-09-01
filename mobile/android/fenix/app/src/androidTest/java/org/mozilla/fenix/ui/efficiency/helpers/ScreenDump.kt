@@ -2421,8 +2421,9 @@ pure
 layout
 wrappers
 .
-if
-(
+val
+hasActionableHandle
+=
 id
 !
 =
@@ -2445,6 +2446,9 @@ desc
 !
 =
 null
+if
+(
+hasActionableHandle
 )
 {
 val

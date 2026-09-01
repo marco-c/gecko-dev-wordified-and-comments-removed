@@ -2725,8 +2725,6 @@ updatedShortcuts
 private
 class
 TestCrashReporter
-(
-)
 :
 CrashReporting
 {

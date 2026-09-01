@@ -1165,12 +1165,14 @@ isVisible
 companion
 object
 {
+const
 val
 LISTEN_TO_PAGE_ENABLED
 :
 Boolean
 =
 true
+const
 val
 LISTEN_TO_PAGE_DISABLED
 :

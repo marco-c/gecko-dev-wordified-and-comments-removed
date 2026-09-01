@@ -108,12 +108,6 @@ purposes
 object
 TestAssetHelper
 {
-Suppress
-(
-"
-MagicNumber
-"
-)
 val
 waitingTime
 :
@@ -256,12 +250,6 @@ details
 .
 *
 /
-Suppress
-(
-"
-MagicNumber
-"
-)
 val
 MockWebServer
 .

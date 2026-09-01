@@ -2347,8 +2347,6 @@ window
 }
 class
 Transition
-(
-)
 {
 fun
 clickClosePrivateTabsNotification

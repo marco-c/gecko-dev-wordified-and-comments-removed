@@ -2193,7 +2193,7 @@ RuntimeException
 {
 Log
 .
-i
+e
 (
 TAG
 "
@@ -2205,11 +2205,7 @@ executing
 fallback
 methods
 "
-)
 e
-.
-printStackTrace
-(
 )
 }
 }

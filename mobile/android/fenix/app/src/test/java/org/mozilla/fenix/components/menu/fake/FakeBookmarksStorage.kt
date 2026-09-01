@@ -128,8 +128,6 @@ bookmarks
 InsertableBookmarkTreeRoot
 class
 FakeBookmarksStorage
-(
-)
 :
 BookmarksStorage
 {

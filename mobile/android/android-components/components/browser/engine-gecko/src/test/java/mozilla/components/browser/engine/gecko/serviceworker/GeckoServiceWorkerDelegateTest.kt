@@ -159,8 +159,6 @@ class
 )
 class
 GeckoServiceWorkerDelegateTest
-(
-)
 {
 Test
 fun
