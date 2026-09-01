@@ -44,6 +44,14 @@ NeuralResidualEchoEstimator
 {
 }
 virtual
+bool
+IsInitialized
+(
+)
+=
+0
+;
+virtual
 void
 Estimate
 (
