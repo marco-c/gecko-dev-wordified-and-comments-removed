@@ -34,6 +34,9 @@ hidden
 nss_3_127
 .
 md
+nss_3_126_1
+.
+md
 nss_3_126
 .
 md
@@ -380,9 +383,7 @@ mozilla_projects_nss_nss_3_127_release_notes
 NSS
 3
 .
-112
-.
-5
+125
 (
 ESR
 )

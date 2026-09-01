@@ -254,6 +254,11 @@ ssl_misc_unittest
 cc
 '
 '
+ssl_reconfig_unittest
+.
+cc
+'
+'
 ssl_option_unittest
 .
 cc
@@ -350,6 +355,11 @@ cc
 '
 '
 tls_hkdf_unittest
+.
+cc
+'
+'
+tls_mldsa_unittest
 .
 cc
 '

@@ -7601,6 +7601,9 @@ SECSuccess
 PRUint16
 minVersion
 ;
+PRUint16
+maxVersion
+;
 if
 (
 ss
@@ -7611,6 +7614,13 @@ sec
 isServer
 )
 {
+maxVersion
+=
+ss
+-
+>
+version
+;
 minVersion
 =
 ss
@@ -7621,6 +7631,15 @@ version
 }
 else
 {
+maxVersion
+=
+ss
+-
+>
+vrange
+.
+max
+;
 minVersion
 =
 ss
@@ -7637,6 +7656,7 @@ rv
 ssl3_EncodeSigAlgs
 (
 ss
+maxVersion
 minVersion
 PR_TRUE
 ss

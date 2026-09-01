@@ -5126,6 +5126,14 @@ SECItem
 signature
 )
 ;
+void
+MLDSA_DestroyContext
+(
+MLDSAContext
+*
+ctx
+)
+;
 SECStatus
 EC_DecompressPublicKey
 (

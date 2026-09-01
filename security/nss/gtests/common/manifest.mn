@@ -99,6 +99,9 @@ CPPSRCS
 gtests
 .
 cc
+json_reader
+.
+cc
 endif
 INCLUDES
 +
@@ -136,7 +139,10 @@ CORE_DEPTH
 cpputil
 REQUIRES
 =
+nspr
+nss
 gtest
+cpputil
 EXTRA_LIBS
 =
 (
