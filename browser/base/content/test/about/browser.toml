@@ -451,6 +451,13 @@ js
 ]
 [
 "
+browser_aboutNetError_searchCTA_frame
+.
+js
+"
+]
+[
+"
 browser_aboutNetError_searchCTA_pbm
 .
 js
