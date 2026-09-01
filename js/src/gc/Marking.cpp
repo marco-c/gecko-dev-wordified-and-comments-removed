@@ -5425,6 +5425,18 @@ isRope
 )
 )
 {
+#
+ifdef
+JS_GC_CONCURRENT_MARKING
+cell
+-
+>
+markBlackAtomic
+(
+)
+;
+#
+else
 cell
 -
 >
@@ -5432,6 +5444,8 @@ markBlack
 (
 )
 ;
+#
+endif
 return
 ;
 }
