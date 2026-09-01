@@ -95,6 +95,11 @@ PlatformDisabledState
 (
 )
 ;
+void
+MaybeStartForceEnabled
+(
+)
+;
 #
 ifdef
 MOZ_ACCESSIBILITY_ATK
