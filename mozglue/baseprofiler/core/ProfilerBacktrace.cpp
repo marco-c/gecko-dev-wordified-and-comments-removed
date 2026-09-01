@@ -346,16 +346,6 @@ ProfileChunkedBuffer
 ;
 }
 }
-ProfilerBacktrace
-:
-:
-~
-ProfilerBacktrace
-(
-)
-=
-default
-;
 BaseProfilerThreadId
 ProfilerBacktrace
 :
