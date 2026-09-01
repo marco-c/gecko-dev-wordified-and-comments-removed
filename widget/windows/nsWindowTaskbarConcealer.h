@@ -60,6 +60,15 @@ false
 ;
 static
 void
+OnWindowShown
+(
+nsWindow
+*
+aWin
+)
+;
+static
+void
 OnFullscreenChanged
 (
 nsWindow
