@@ -184,6 +184,11 @@ test_smartwindow_promo
 mjs
 "
 "
+test_smartformfill_telemetry
+.
+html
+"
+"
 test_smartwindow_prompts_page
 .
 html
@@ -1429,6 +1434,13 @@ js
 [
 "
 browser_smartwindow_smartformfill_metadata_lifecycle
+.
+js
+"
+]
+[
+"
+browser_smartwindow_smartformfill_telemetry
 .
 js
 "
