@@ -445,6 +445,14 @@ socket_address
 .
 h
 "
+"
++
+rtc_base
+/
+ssl_fingerprint
+.
+h
+"
 ]
 "
 create_peerconnection_factory
