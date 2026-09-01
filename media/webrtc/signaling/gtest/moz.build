@@ -402,6 +402,11 @@ MockCall
 cpp
 "
 "
+peer_connection_unittest
+.
+cpp
+"
+"
 sdp_unittests
 .
 cpp
