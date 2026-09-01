@@ -5937,6 +5937,12 @@ surfaceLock
 yuvColorSpace
 transferFunction
 hdrMetadata
+parentSurface
+-
+>
+GetGdkWindow
+(
+)
 )
 ;
 }
