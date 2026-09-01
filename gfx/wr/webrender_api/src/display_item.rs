@@ -2948,6 +2948,10 @@ pub
 tile_spacing
 :
 LayoutSize
+pub
+transformed_aa_edges
+:
+EdgeMask
 }
 #
 [

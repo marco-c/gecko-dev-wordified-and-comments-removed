@@ -640,13 +640,3 @@ bool
 true
 }
 }
-pub
-use
-api
-:
-:
-prim_geometry
-:
-:
-optimize_radial_gradient
-;
