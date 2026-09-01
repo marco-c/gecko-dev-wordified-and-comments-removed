@@ -462,13 +462,15 @@ context
 components
 .
 clipboardHandler
-useCases
+fenixBrowserUseCases
 =
 context
 .
 components
 .
 useCases
+.
+fenixBrowserUseCases
 navController
 =
 navController
