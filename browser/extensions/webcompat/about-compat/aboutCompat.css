@@ -678,9 +678,7 @@ columns
 :
 1fr
 1fr
-6
-.
-5em
+auto
 ;
 column
 -
@@ -810,9 +808,7 @@ template
 columns
 :
 1fr
-6
-.
-5em
+auto
 ;
 }
 article
