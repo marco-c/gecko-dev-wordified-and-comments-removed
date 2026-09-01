@@ -14,6 +14,8 @@ job
 import
 datetime
 import
+gzip
+import
 json
 import
 os
@@ -1031,6 +1033,8 @@ work
 hangs_timeseries_main_state
 .
 json
+.
+gz
 "
 )
 )
@@ -1197,13 +1201,20 @@ work
 hangs_timeseries_main_state
 .
 json
+.
+gz
 "
 )
     
 with
+gzip
+.
 open
 (
 state_path
+"
+rt
+"
 encoding
 =
 "
@@ -1826,7 +1837,7 @@ client_ids
 "
 "
 "
-Sparse
+Serialized
 HLL
 sketch
 over
