@@ -673,11 +673,16 @@ NoExtras
 loadWallpaperResource
 =
 {
+wallpaper
+size
+-
+>
 wallpaperUseCases
 .
 loadThumbnail
 (
-it
+wallpaper
+size
 )
 }
 onSelectWallpaper

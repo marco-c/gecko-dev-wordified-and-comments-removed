@@ -303,7 +303,6 @@ Wallpaper
 /
 *
 *
-*
 Settings
 screen
 allowing
@@ -457,11 +456,16 @@ currentWallpaper
 loadWallpaperResource
 =
 {
+wallpaper
+size
+-
+>
 wallpaperUseCases
 .
 loadThumbnail
 (
-it
+wallpaper
+size
 )
 }
 onSelectWallpaper
