@@ -131,10 +131,10 @@ BUILD
 .
 gn
 index
-ad6a50e71f
+78d739e72e
 .
 .
-1b2c86623d
+ae43bfa74e
 100644
 -
 -
@@ -191,7 +191,7 @@ videocapture_objc
 +
 if
 (
-rtc_enable_protobuf
+rtc_include_internal_audio_device
 )
 {
 deps
@@ -199,9 +199,11 @@ deps
 =
 [
 "
-logging
+api
+/
+audio
 :
-rtc_event_log_proto
+create_audio_device_module
 "
 ]
 }
