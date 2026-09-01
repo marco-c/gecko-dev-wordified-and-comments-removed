@@ -542,7 +542,7 @@ aElement
 )
 ;
 static
-void
+Rect
 RectilinearGetStrokeBounds
 (
 const
@@ -559,9 +559,6 @@ Matrix
 aToNonScalingStrokeSpace
 float
 aStrokeWidth
-Rect
-*
-aBounds
 )
 ;
 static

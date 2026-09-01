@@ -151,12 +151,12 @@ HasValidDimensions
 const
 override
 ;
-bool
+Maybe
+<
+Rect
+>
 GetGeometryBounds
 (
-Rect
-*
-aBounds
 const
 StrokeOptions
 &

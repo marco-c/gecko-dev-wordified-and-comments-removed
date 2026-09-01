@@ -390,12 +390,12 @@ aMarks
 )
 ;
 virtual
-bool
+Maybe
+<
+Rect
+>
 GetGeometryBounds
 (
-Rect
-*
-aBounds
 const
 StrokeOptions
 &
@@ -413,7 +413,9 @@ nullptr
 )
 {
 return
-false
+Nothing
+(
+)
 ;
 }
 class
