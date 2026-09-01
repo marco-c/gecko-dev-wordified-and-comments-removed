@@ -1284,11 +1284,6 @@ zipTree
 .
 matching
 {
-patterns
--
->
-patterns
-.
 include
 (
 unzipSpec
@@ -1303,16 +1298,9 @@ get
 .
 visit
 {
-details
-:
-FileVisitDetails
--
->
 if
 (
 !
-details
-.
 isDirectory
 )
 {
@@ -1333,8 +1321,6 @@ parentFile
 mkdirs
 (
 )
-details
-.
 copyTo
 (
 binaryFile
@@ -1350,8 +1336,6 @@ visitedFilePaths
 .
 add
 (
-details
-.
 relativePath
 .
 toString

@@ -455,13 +455,6 @@ execOperations
 .
 exec
 {
-spec
--
->
-spec
-.
-apply
-{
 val
 projDir
 =
@@ -635,10 +628,9 @@ args
 "
 )
 }
-}
 configureFmlCommand
 (
-spec
+this
 )
 }
 }
