@@ -6379,7 +6379,11 @@ firefox_esr
 version_added
 "
 :
-false
+"
+153
+.
+1
+"
 }
 "
 firefox_enterprise
