@@ -278,7 +278,7 @@ brief
 {
 sparkleCount
 :
-12
+5
 sparkleStaggerMs
 :
 65
@@ -288,7 +288,7 @@ major
 {
 sparkleCount
 :
-24
+12
 sparkleStaggerMs
 :
 60

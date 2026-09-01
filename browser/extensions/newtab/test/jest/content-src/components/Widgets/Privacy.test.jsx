@@ -4676,7 +4676,7 @@ sparkle
 .
 toHaveLength
 (
-24
+12
 )
 ;
 }
@@ -4786,7 +4786,7 @@ sparkle
 .
 toHaveLength
 (
-24
+12
 )
 ;
 expect
@@ -4906,7 +4906,7 @@ sparkle
 .
 toHaveLength
 (
-24
+12
 )
 ;
 expect
@@ -6485,7 +6485,7 @@ container
 .
 toBe
 (
-24
+12
 )
 ;
 expect
@@ -6581,7 +6581,7 @@ container
 .
 toBe
 (
-12
+5
 )
 ;
 expect
@@ -6673,7 +6673,7 @@ container
 .
 toBe
 (
-12
+5
 )
 ;
 }
