@@ -159,6 +159,49 @@ mobile
 fenix
 "
 ]
+SPEEDOMETER_3_HARNESS_TEST_NAMES
+=
+(
+"
+speedometer3
+"
+"
+speedometer
+-
+experimental
+"
+)
+def
+uses_speedometer_3_harness
+(
+test
+)
+:
+    
+return
+any
+(
+        
+name
+in
+test
+.
+get
+(
+"
+test
+-
+name
+"
+"
+"
+)
+for
+name
+in
+SPEEDOMETER_3_HARNESS_TEST_NAMES
+    
+)
 class
 RaptorSchema
 (
@@ -1833,17 +1876,22 @@ raise
 Exception
 (
                 
+f
 "
 Treeherder
 symbol
-%
-s
+{
+subtest_symbol
+}
 is
 larger
 than
 10
 char
 !
+"
+                
+"
 Please
 use
 a
@@ -1851,9 +1899,6 @@ different
 symbol
 .
 "
-                
-%
-subtest_symbol
             
 )
         
@@ -2982,10 +3027,16 @@ windows
 in
 test_platform
 and
-any
 (
             
-t
+uses_speedometer_3_harness
+(
+test
+)
+or
+"
+tp6
+"
 in
 test
 [
@@ -2995,17 +3046,6 @@ test
 name
 "
 ]
-for
-t
-in
-(
-"
-speedometer3
-"
-"
-tp6
-"
-)
         
 )
 :
@@ -5259,21 +5299,9 @@ space
 )
         
 if
-"
-speedometer3
-"
-in
-test
-.
-get
+uses_speedometer_3_harness
 (
-"
 test
--
-name
-"
-"
-"
 )
 :
             
@@ -5453,23 +5481,9 @@ platform
 "
 )
 and
-"
-speedometer3
-"
-in
-test
-.
-get
+uses_speedometer_3_harness
 (
-            
-"
 test
--
-name
-"
-"
-"
-        
 )
 :
             
@@ -5636,21 +5650,9 @@ options
 )
         
 if
-"
-speedometer3
-"
-in
-test
-.
-get
+uses_speedometer_3_harness
 (
-"
 test
--
-name
-"
-"
-"
 )
 :
             
@@ -5919,21 +5921,9 @@ tests
 if
 (
             
-"
-speedometer3
-"
-in
-test
-.
-get
+uses_speedometer_3_harness
 (
-"
 test
--
-name
-"
-"
-"
 )
             
 and
@@ -6136,21 +6126,9 @@ options
 )
         
 if
-"
-speedometer3
-"
-in
-test
-.
-get
+uses_speedometer_3_harness
 (
-"
 test
--
-name
-"
-"
-"
 )
 :
             
@@ -6342,21 +6320,9 @@ tests
 if
 (
             
-"
-speedometer3
-"
-in
-test
-.
-get
+uses_speedometer_3_harness
 (
-"
 test
--
-name
-"
-"
-"
 )
             
 and

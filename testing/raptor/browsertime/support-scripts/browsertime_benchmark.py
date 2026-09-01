@@ -2128,11 +2128,17 @@ vals
         
 if
 testname
-=
-=
+in
+(
 "
 speedometer3
 "
+"
+speedometer
+-
+experimental
+"
+)
 :
             
 score
@@ -2168,14 +2174,16 @@ None
 raise
 Exception
 (
+f
 "
 Unable
 to
 find
 score
 for
-Speedometer
-3
+{
+testname
+}
 "
 )
             
