@@ -4406,6 +4406,13 @@ inst
 ;
 private
 :
+static
+constexpr
+size_t
+kMaxInterfaceCount
+=
+UINT16_MAX
+;
 uint16_t
 mInterfaceCount
 ;

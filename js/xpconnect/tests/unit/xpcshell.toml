@@ -856,6 +856,13 @@ js
 ]
 [
 "
+test_classinfo_too_many_interfaces
+.
+js
+"
+]
+[
+"
 test_compileScript
 .
 js
