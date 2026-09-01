@@ -85,15 +85,3 @@ mochitest
 toml
 "
 ]
-BROWSER_CHROME_MANIFESTS
-+
-=
-[
-"
-mochitest
-/
-browser
-.
-toml
-"
-]

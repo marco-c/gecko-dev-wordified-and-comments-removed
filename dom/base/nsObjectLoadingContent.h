@@ -640,11 +640,6 @@ CloseChannel
 )
 ;
 bool
-ShouldBlockContent
-(
-)
-;
-bool
 PreferFallback
 (
 bool
@@ -793,11 +788,6 @@ mChannelLoaded
 ;
 bool
 mNetworkCreated
-:
-1
-;
-bool
-mContentBlockingEnabled
 :
 1
 ;

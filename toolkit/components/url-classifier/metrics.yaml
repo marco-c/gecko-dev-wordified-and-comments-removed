@@ -3784,12 +3784,6 @@ track
 -
 digest256
 -
-mozplugin
--
-block
--
-digest256
--
 ads
 -
 track
@@ -4074,12 +4068,6 @@ digest256
 content
 -
 track
--
-digest256
--
-mozplugin
--
-block
 -
 digest256
 -
