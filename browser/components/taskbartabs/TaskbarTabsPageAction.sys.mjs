@@ -982,6 +982,11 @@ http
 "
 https
 "
+"
+moz
+-
+extension
+"
 ]
 .
 includes
