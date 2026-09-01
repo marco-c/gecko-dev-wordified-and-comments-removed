@@ -25764,7 +25764,7 @@ true
 *
 param
 {
-MozSplitViewWrapper
+MozTabSplitViewWrapper
 }
 container
 *
@@ -25808,7 +25808,7 @@ selectTab
 *
 returns
 {
-MozSplitViewWrapper
+MozTabSplitViewWrapper
 }
 *
 /
@@ -40050,7 +40050,7 @@ prompt
 *
 param
 {
-nsURI
+nsIURI
 [
 ]
 }
@@ -40066,7 +40066,10 @@ remove
 *
 returns
 {
+Promise
+<
 number
+>
 }
 The
 count
@@ -48012,7 +48015,7 @@ aSplitViewWrapper
 *
 param
 {
-int
+number
 }
 [
 insertAtIndex
@@ -48395,7 +48398,7 @@ aTab
 *
 param
 {
-MozSplitViewWrapper
+MozTabSplitViewWrapper
 }
 aSplitView
 *
