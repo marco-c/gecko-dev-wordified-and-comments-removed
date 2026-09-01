@@ -1680,7 +1680,7 @@ cached
 =
 AutoTabGroupingSuggestions
 .
-_tabInfo
+toTabInfo
 (
 makeTab
 (
@@ -1779,7 +1779,7 @@ equal
 (
 AutoTabGroupingSuggestions
 .
-_tabInfo
+toTabInfo
 (
 makeTab
 (
@@ -1842,7 +1842,7 @@ equal
 (
 AutoTabGroupingSuggestions
 .
-_tabInfo
+toTabInfo
 (
 makeTab
 (
@@ -1894,7 +1894,7 @@ equal
 (
 AutoTabGroupingSuggestions
 .
-_tabInfo
+toTabInfo
 (
 makeTab
 (
@@ -1943,7 +1943,7 @@ equal
 (
 AutoTabGroupingSuggestions
 .
-_tabInfo
+toTabInfo
 (
 makeTab
 (
