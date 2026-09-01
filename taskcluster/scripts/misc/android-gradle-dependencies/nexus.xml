@@ -423,7 +423,7 @@ itemMaxAge
 <
 autoBlockActive
 >
-true
+false
 <
 /
 autoBlockActive
@@ -660,7 +660,7 @@ itemMaxAge
 <
 autoBlockActive
 >
-true
+false
 <
 /
 autoBlockActive
@@ -910,7 +910,7 @@ itemMaxAge
 <
 autoBlockActive
 >
-true
+false
 <
 /
 autoBlockActive
@@ -1140,6 +1140,14 @@ RELEASE
 <
 /
 repositoryPolicy
+>
+<
+autoBlockActive
+>
+false
+<
+/
+autoBlockActive
 >
 <
 /
