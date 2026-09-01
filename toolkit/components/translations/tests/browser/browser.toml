@@ -310,6 +310,13 @@ js
 ]
 [
 "
+browser_about_translations_engine_destroy
+.
+js
+"
+]
+[
+"
 browser_about_translations_flip_lexical_shortlist
 .
 js
