@@ -276,6 +276,17 @@ mozilla
 /
 dom
 /
+DirectionalityUtils
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 Directory
 .
 h

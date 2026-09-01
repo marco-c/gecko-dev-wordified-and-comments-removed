@@ -648,6 +648,11 @@ CORSMode
 h
 "
 "
+Directionality
+.
+h
+"
+"
 FlushType
 .
 h

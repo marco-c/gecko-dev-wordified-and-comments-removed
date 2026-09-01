@@ -77,6 +77,17 @@ mozilla
 /
 dom
 /
+DirectionalityUtils
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 Document
 .
 h
