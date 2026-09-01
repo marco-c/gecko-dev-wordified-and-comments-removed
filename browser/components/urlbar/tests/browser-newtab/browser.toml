@@ -84,6 +84,13 @@ debug
 ]
 [
 "
+browser_pickResult
+.
+js
+"
+]
+[
+"
 browser_resultIcon
 .
 js
