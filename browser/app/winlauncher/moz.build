@@ -146,6 +146,9 @@ ole32
 rpcrt4
 "
 "
+runtimeobject
+"
+"
 shlwapi
 "
 "
