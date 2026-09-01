@@ -1517,7 +1517,7 @@ nullptr
 virtual
 SVGAnimatedPathSegList
 *
-GetAnimPathSegList
+GetAnimatedPathSegList
 (
 )
 {

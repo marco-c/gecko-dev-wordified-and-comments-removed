@@ -176,7 +176,7 @@ override
 ;
 SVGAnimatedPathSegList
 *
-GetAnimPathSegList
+GetAnimatedPathSegList
 (
 )
 override

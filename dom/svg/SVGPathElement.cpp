@@ -232,7 +232,7 @@ if
 mSVGElement
 -
 >
-GetAnimPathSegList
+GetAnimatedPathSegList
 (
 )
 -
