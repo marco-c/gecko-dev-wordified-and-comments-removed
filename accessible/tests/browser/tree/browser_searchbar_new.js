@@ -181,7 +181,7 @@ children
 {
 role
 :
-ROLE_EDITCOMBOBOX
+ROLE_PUSHBUTTON
 }
 {
 role
@@ -281,7 +281,7 @@ children
 {
 role
 :
-ROLE_EDITCOMBOBOX
+ROLE_PUSHBUTTON
 }
 {
 role

@@ -1615,7 +1615,7 @@ tabindex
 role
 =
 "
-combobox
+presentation
 "
 >
 <
