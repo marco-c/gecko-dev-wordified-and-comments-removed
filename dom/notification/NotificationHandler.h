@@ -21,7 +21,7 @@ h
 #
 include
 "
-nsStringFwd
+nsReadableUtils
 .
 h
 "
@@ -73,6 +73,14 @@ OpenWindowFor
 nsIPrincipal
 *
 aPrincipal
+const
+nsCString
+&
+aURL
+=
+EmptyCString
+(
+)
 )
 ;
 class
