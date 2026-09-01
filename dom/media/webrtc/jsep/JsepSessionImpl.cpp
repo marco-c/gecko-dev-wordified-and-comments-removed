@@ -492,7 +492,7 @@ mSupportedCodecs
 {
 mSupportedCodecs
 .
-emplace_back
+EmplaceBack
 (
 codec
 -
@@ -13191,10 +13191,7 @@ JsepSessionImpl
 SetDefaultCodecs
 (
 const
-std
-:
-:
-vector
+nsTArray
 <
 UniquePtr
 <
@@ -13207,7 +13204,7 @@ aPreferredCodecs
 {
 mSupportedCodecs
 .
-clear
+Clear
 (
 )
 ;
@@ -13223,7 +13220,7 @@ aPreferredCodecs
 {
 mSupportedCodecs
 .
-emplace_back
+EmplaceBack
 (
 codec
 -

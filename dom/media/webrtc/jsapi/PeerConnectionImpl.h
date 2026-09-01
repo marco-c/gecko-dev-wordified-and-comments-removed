@@ -2820,10 +2820,7 @@ static
 void
 GetDefaultVideoCodecs
 (
-std
-:
-:
-vector
+nsTArray
 <
 UniquePtr
 <
@@ -2841,10 +2838,7 @@ static
 void
 GetDefaultAudioCodecs
 (
-std
-:
-:
-vector
+nsTArray
 <
 UniquePtr
 <
@@ -2901,10 +2895,7 @@ static
 void
 SetupPreferredCodecs
 (
-std
-:
-:
-vector
+nsTArray
 <
 UniquePtr
 <
