@@ -27,7 +27,7 @@ EcKey
 }
 ;
 use
-nss
+nss_as
 :
 :
 {
@@ -1056,7 +1056,7 @@ Engine
 }
 ;
 use
-nss
+nss_as
 :
 :
 ensure_initialized
@@ -2227,7 +2227,6 @@ is_err
 )
 ;
 let
-mut
 invalid_pub_key
 =
 [
@@ -2260,13 +2259,6 @@ is_err
 (
 )
 )
-;
-invalid_pub_key
-[
-0
-]
-=
-0x04
 ;
 let
 mut

@@ -1,3 +1,11 @@
+#
+!
+[
+allow
+(
+const_evaluatable_unchecked
+)
+]
 use
 std
 :
