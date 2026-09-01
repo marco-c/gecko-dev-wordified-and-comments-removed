@@ -828,13 +828,6 @@ timeStamp
 event
 .
 timeStamp
-|
-|
-ChromeUtils
-.
-now
-(
-)
 interactionType
 :
 interactionType
