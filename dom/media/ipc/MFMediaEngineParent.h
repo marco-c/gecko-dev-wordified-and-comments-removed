@@ -164,8 +164,10 @@ TrackInfo
 TrackType
 ;
 static
+already_AddRefed
+<
 MFMediaEngineParent
-*
+>
 GetMediaEngineById
 (
 uint64_t
@@ -326,6 +328,14 @@ IPCResult
 RecvShutdown
 (
 )
+;
+void
+ActorDestroy
+(
+ActorDestroyReason
+aWhy
+)
+override
 ;
 private
 :
