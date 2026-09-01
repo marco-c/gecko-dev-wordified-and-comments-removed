@@ -105,6 +105,11 @@ TestDanglingOnTemporary
 cpp
 "
 "
+TestDefaultEqual
+.
+cpp
+"
+"
 TestEnumSerializer
 .
 cpp
