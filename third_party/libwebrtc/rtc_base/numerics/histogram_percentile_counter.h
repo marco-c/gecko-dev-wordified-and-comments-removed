@@ -69,15 +69,6 @@ size_t
 count
 )
 ;
-void
-Add
-(
-const
-HistogramPercentileCounter
-&
-other
-)
-;
 std
 :
 :

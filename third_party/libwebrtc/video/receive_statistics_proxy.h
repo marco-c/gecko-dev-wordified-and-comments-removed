@@ -648,15 +648,6 @@ ContentSpecificStats
 (
 )
 ;
-void
-Add
-(
-const
-ContentSpecificStats
-&
-other
-)
-;
 SampleCounter
 e2e_delay_counter
 ;
