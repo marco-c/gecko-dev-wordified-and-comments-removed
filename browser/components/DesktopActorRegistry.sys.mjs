@@ -1815,6 +1815,17 @@ wantUntrusted
 :
 true
 }
+"
+SmartWindowTasks
+:
+RequestOpenUrl
+"
+:
+{
+wantUntrusted
+:
+true
+}
 }
 }
 allFrames

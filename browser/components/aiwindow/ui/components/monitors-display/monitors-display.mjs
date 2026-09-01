@@ -416,6 +416,15 @@ watchUrls
 |
 [
 ]
+watchUrlTitles
+:
+monitor
+.
+watchUrlTitles
+|
+|
+{
+}
 condition
 :
 monitor
