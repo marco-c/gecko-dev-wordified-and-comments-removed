@@ -7433,6 +7433,7 @@ click
 e
 =
 >
+{
 this
 .
 openPrefsFromFxaMenu
@@ -7444,6 +7445,17 @@ e
 .
 currentTarget
 )
+;
+CustomizableUI
+.
+hidePanelForNode
+(
+e
+.
+currentTarget
+)
+;
+}
 )
 ;
 PanelMultiView
