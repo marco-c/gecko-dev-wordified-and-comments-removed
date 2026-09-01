@@ -10071,7 +10071,7 @@ oobTrapStackMap
 if
 (
 !
-createAbortingOutOfLineTrapStackMap
+createDebugOnlyStackMapForNonResumingTrap
 (
 &
 oobTrapStackMap
@@ -10275,7 +10275,7 @@ nullTrapStackMap
 if
 (
 !
-createAbortingOutOfLineTrapStackMap
+createDebugOnlyStackMapForNonResumingTrap
 (
 &
 nullTrapStackMap
@@ -42978,7 +42978,7 @@ trapStackMap
 if
 (
 !
-createAbortingOutOfLineTrapStackMap
+createDebugOnlyStackMapForNonResumingTrap
 (
 &
 trapStackMap
