@@ -73,6 +73,7 @@ GenericContainIntrinsicSize
 GenericLineClamp
 GenericOverflowClipMargin
 GenericPerspective
+GenericScrollbarInset
 }
 ;
 use
@@ -174,6 +175,15 @@ type
 OverflowClipMargin
 =
 GenericOverflowClipMargin
+<
+NonNegativeLength
+>
+;
+pub
+type
+ScrollbarInset
+=
+GenericScrollbarInset
 <
 NonNegativeLength
 >
