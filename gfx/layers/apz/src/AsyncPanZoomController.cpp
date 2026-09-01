@@ -25357,8 +25357,6 @@ c_str
 ;
 if
 (
-!
-(
 Metrics
 (
 )
@@ -25366,12 +25364,12 @@ Metrics
 GetScrollGeneration
 (
 )
-<
+>
+=
 scrollUpdate
 .
 GetGeneration
 (
-)
 )
 )
 {
