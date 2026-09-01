@@ -4511,7 +4511,7 @@ js
 wasm
 :
 :
-InstanceVector
+InstanceSet
 >
 wasmInstances
 ;

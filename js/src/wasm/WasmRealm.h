@@ -38,7 +38,7 @@ JSRuntime
 *
 runtime_
 ;
-InstanceVector
+InstanceSet
 instances_
 ;
 public
@@ -79,7 +79,7 @@ instance
 )
 ;
 const
-InstanceVector
+InstanceSet
 &
 instances
 (
@@ -90,6 +90,11 @@ return
 instances_
 ;
 }
+void
+traceWeakInstances
+(
+)
+;
 void
 ensureProfilingLabels
 (
