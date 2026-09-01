@@ -291,8 +291,8 @@ nr_ice_component
 comp
 )
 ;
-int
-nr_ice_component_select_pair
+void
+nr_ice_component_maybe_select_pair
 (
 nr_ice_peer_ctx
 *

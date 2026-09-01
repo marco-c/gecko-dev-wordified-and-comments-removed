@@ -112,6 +112,14 @@ pctxp
 )
 ;
 int
+nr_ice_peer_ctx_aggressive_nomination
+(
+nr_ice_peer_ctx
+*
+pctx
+)
+;
+int
 nr_ice_peer_ctx_parse_stream_attributes
 (
 nr_ice_peer_ctx
