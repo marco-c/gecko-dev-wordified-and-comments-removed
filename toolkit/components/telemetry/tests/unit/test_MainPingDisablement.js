@@ -100,6 +100,10 @@ initializeFOG
 (
 )
 ;
+fakeIntlReady
+(
+)
+;
 await
 setEmptyPrefWatchlist
 (

@@ -145,6 +145,10 @@ do_get_profile
 (
 )
 ;
+fakeIntlReady
+(
+)
+;
 await
 createFakeAppDir
 (
