@@ -154,26 +154,6 @@ FieldTrial
 '
 WebRTC
 -
-AV1
--
-OverridePriorityBitrate
-'
-               
-42226119
-               
-date
-(
-2024
-4
-1
-)
-)
-    
-FieldTrial
-(
-'
-WebRTC
--
 Aec3BufferingMaxAllowedExcessRenderBlocksOverride
 '
                
