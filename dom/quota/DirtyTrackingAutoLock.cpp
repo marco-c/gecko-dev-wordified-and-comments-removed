@@ -227,6 +227,13 @@ mDirty
 =
 true
 ;
+PauseLock
+pausedLock
+(
+*
+this
+)
+;
 auto
 *
 quotaManager
@@ -246,7 +253,7 @@ quotaManager
 quotaManager
 -
 >
-AssertCurrentThreadOwnsQuotaMutex
+AssertNotCurrentThreadOwnsQuotaMutex
 (
 )
 ;
