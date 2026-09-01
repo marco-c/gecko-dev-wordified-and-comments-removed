@@ -2304,6 +2304,11 @@ ExifResolutionTestCase
 (
 )
 ;
+ImageTestCase
+ExifOrientationDownscaleJPGTestCase
+(
+)
+;
 RefPtr
 <
 Image
