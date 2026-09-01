@@ -83,16 +83,9 @@ AtomType
 aType
 )
 const
-{
-return
-mType
 =
-=
-aType
-.
-mType
+default
 ;
-}
 bool
 operator
 !
