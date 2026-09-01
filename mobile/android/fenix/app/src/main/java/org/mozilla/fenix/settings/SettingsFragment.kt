@@ -1765,6 +1765,11 @@ null
 customTabSessionId
 =
 null
+applicationScope
+=
+components
+.
+applicationScope
 )
 owner
 =

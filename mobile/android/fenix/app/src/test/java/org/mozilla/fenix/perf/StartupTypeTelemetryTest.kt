@@ -137,6 +137,14 @@ coroutines
 .
 test
 .
+TestScope
+import
+kotlinx
+.
+coroutines
+.
+test
+.
 runTest
 import
 mozilla
@@ -357,6 +365,14 @@ StandardTestDispatcher
 (
 )
 private
+val
+testScope
+=
+TestScope
+(
+testDispatcher
+)
+private
 lateinit
 var
 telemetry
@@ -404,6 +420,7 @@ StartupTypeTelemetry
 (
 stateProvider
 pathProvider
+testScope
 )
 )
 callbacks
@@ -547,6 +564,8 @@ telemetry
 .
 record
 (
+dispatcher
+=
 testDispatcher
 )
 testDispatcher
@@ -708,6 +727,8 @@ telemetry
 .
 record
 (
+dispatcher
+=
 testDispatcher
 )
 testDispatcher
@@ -767,9 +788,6 @@ telemetry
 .
 record
 (
-any
-(
-)
 )
 }
 }
@@ -832,9 +850,6 @@ telemetry
 .
 record
 (
-any
-(
-)
 )
 }
 callbacks
@@ -864,9 +879,6 @@ telemetry
 .
 record
 (
-any
-(
-)
 )
 }
 /
@@ -943,9 +955,6 @@ telemetry
 .
 record
 (
-any
-(
-)
 )
 }
 callbacks
@@ -991,9 +1000,6 @@ telemetry
 .
 record
 (
-any
-(
-)
 )
 }
 /

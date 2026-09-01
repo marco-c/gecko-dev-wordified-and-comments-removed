@@ -7740,6 +7740,11 @@ accountManager
 customTabSessionId
 =
 null
+applicationScope
+=
+requireComponents
+.
+applicationScope
 viewHasFocus
 =
 {

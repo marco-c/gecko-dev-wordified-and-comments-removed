@@ -709,6 +709,11 @@ accountManager
 customTabSessionId
 =
 null
+applicationScope
+=
+requireComponents
+.
+applicationScope
 )
 owner
 =

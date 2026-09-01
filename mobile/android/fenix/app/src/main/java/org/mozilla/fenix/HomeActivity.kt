@@ -4099,6 +4099,9 @@ components
 .
 startupStateProvider
 startupPathProvider
+components
+.
+applicationScope
 )
 .
 apply

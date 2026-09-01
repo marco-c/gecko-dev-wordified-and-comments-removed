@@ -183,6 +183,12 @@ kotlinx
 .
 coroutines
 .
+CoroutineScope
+import
+kotlinx
+.
+coroutines
+.
 test
 .
 StandardTestDispatcher
@@ -1062,6 +1068,9 @@ buildSnackbarBinding
 browserStore
 =
 browserStore
+scope
+=
+this
 )
 binding
 .
@@ -1232,6 +1241,9 @@ buildSnackbarBinding
 browserStore
 =
 browserStore
+scope
+=
+this
 )
 binding
 .
@@ -1310,6 +1322,9 @@ binding
 =
 buildSnackbarBinding
 (
+scope
+=
+this
 )
 binding
 .
@@ -1391,6 +1406,9 @@ binding
 =
 buildSnackbarBinding
 (
+scope
+=
+this
 )
 binding
 .
@@ -1497,6 +1515,9 @@ binding
 =
 buildSnackbarBinding
 (
+scope
+=
+this
 )
 binding
 .
@@ -1679,6 +1700,9 @@ binding
 =
 buildSnackbarBinding
 (
+scope
+=
+this
 )
 binding
 .
@@ -1846,6 +1870,9 @@ binding
 =
 buildSnackbarBinding
 (
+scope
+=
+this
 )
 binding
 .
@@ -1948,6 +1975,9 @@ binding
 =
 buildSnackbarBinding
 (
+scope
+=
+this
 )
 binding
 .
@@ -2048,6 +2078,9 @@ binding
 =
 buildSnackbarBinding
 (
+scope
+=
+this
 )
 binding
 .
@@ -2141,6 +2174,9 @@ binding
 =
 buildSnackbarBinding
 (
+scope
+=
+this
 )
 binding
 .
@@ -2219,6 +2255,9 @@ binding
 =
 buildSnackbarBinding
 (
+scope
+=
+this
 )
 binding
 .
@@ -2303,6 +2342,9 @@ binding
 =
 buildSnackbarBinding
 (
+scope
+=
+this
 )
 binding
 .
@@ -2401,6 +2443,9 @@ binding
 =
 buildSnackbarBinding
 (
+scope
+=
+this
 )
 binding
 .
@@ -2513,6 +2558,9 @@ binding
 =
 buildSnackbarBinding
 (
+scope
+=
+this
 )
 binding
 .
@@ -2616,6 +2664,9 @@ binding
 =
 buildSnackbarBinding
 (
+scope
+=
+this
 )
 binding
 .
@@ -2834,6 +2885,9 @@ buildSnackbarBinding
 sendTabUseCases
 =
 sendTabUseCases
+scope
+=
+this
 )
 binding
 .
@@ -3088,6 +3142,9 @@ buildSnackbarBinding
 sendTabUseCases
 =
 sendTabUseCases
+scope
+=
+this
 )
 binding
 .
@@ -3273,6 +3330,9 @@ binding
 =
 buildSnackbarBinding
 (
+scope
+=
+this
 )
 binding
 .
@@ -3383,6 +3443,9 @@ binding
 =
 buildSnackbarBinding
 (
+scope
+=
+this
 )
 binding
 .
@@ -3548,6 +3611,9 @@ binding
 =
 buildSnackbarBinding
 (
+scope
+=
+this
 )
 binding
 .
@@ -3734,6 +3800,9 @@ binding
 =
 buildSnackbarBinding
 (
+scope
+=
+this
 )
 binding
 .
@@ -3969,6 +4038,9 @@ binding
 =
 buildSnackbarBinding
 (
+scope
+=
+this
 )
 binding
 .
@@ -4134,6 +4206,9 @@ binding
 =
 buildSnackbarBinding
 (
+scope
+=
+this
 )
 binding
 .
@@ -4332,6 +4407,9 @@ id
 "
 )
 )
+scope
+=
+this
 )
 binding
 .
@@ -4532,6 +4610,9 @@ binding
 =
 buildSnackbarBinding
 (
+scope
+=
+this
 )
 binding
 .
@@ -4732,6 +4813,9 @@ DownloadFileUtils
 FakeDownloadFileUtils
 (
 )
+scope
+:
+CoroutineScope
 )
 =
 SnackbarBinding
@@ -4769,6 +4853,9 @@ testDispatcher
 mainDispatcher
 =
 testDispatcher
+applicationScope
+=
+scope
 )
 private
 fun

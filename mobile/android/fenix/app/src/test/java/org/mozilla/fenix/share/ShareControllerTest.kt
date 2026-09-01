@@ -757,11 +757,10 @@ sentFromFirefoxManager
 navController
 recentAppStorage
 this
+this
 testDispatcher
-testDispatcher
-FenixFxAEntryPoint
-.
-ShareMenu
+dismiss
+=
 dismiss
 )
 controller
@@ -925,7 +924,7 @@ mockk
 )
 recentAppStorage
 this
-testDispatcher
+this
 testDispatcher
 FenixFxAEntryPoint
 .
@@ -1347,7 +1346,7 @@ mockk
 )
 recentAppStorage
 this
-testDispatcher
+this
 testDispatcher
 FenixFxAEntryPoint
 .
@@ -1596,7 +1595,7 @@ mockk
 )
 recentAppStorage
 this
-testDispatcher
+this
 testDispatcher
 FenixFxAEntryPoint
 .
@@ -1864,6 +1863,9 @@ recentAppStorage
 viewLifecycleScope
 =
 this
+applicationScope
+=
+this
 ioDispatcher
 =
 testDispatcher
@@ -2112,6 +2114,9 @@ recentAppStorage
 viewLifecycleScope
 =
 this
+applicationScope
+=
+this
 ioDispatcher
 =
 testDispatcher
@@ -2272,6 +2277,9 @@ recentAppStorage
 viewLifecycleScope
 =
 this
+applicationScope
+=
+this
 ioDispatcher
 =
 testDispatcher
@@ -2376,6 +2384,9 @@ recentAppsStorage
 =
 recentAppStorage
 viewLifecycleScope
+=
+this
+applicationScope
 =
 this
 ioDispatcher
@@ -2542,6 +2553,9 @@ recentAppStorage
 viewLifecycleScope
 =
 this
+applicationScope
+=
+this
 ioDispatcher
 =
 testDispatcher
@@ -2638,6 +2652,9 @@ recentAppsStorage
 =
 recentAppStorage
 viewLifecycleScope
+=
+this
+applicationScope
 =
 this
 ioDispatcher
@@ -2776,6 +2793,9 @@ recentAppStorage
 viewLifecycleScope
 =
 this
+applicationScope
+=
+this
 ioDispatcher
 =
 testDispatcher
@@ -2906,6 +2926,9 @@ recentAppsStorage
 =
 recentAppStorage
 viewLifecycleScope
+=
+this
+applicationScope
 =
 this
 ioDispatcher
@@ -3044,6 +3067,9 @@ recentAppStorage
 viewLifecycleScope
 =
 this
+applicationScope
+=
+this
 ioDispatcher
 =
 testDispatcher
@@ -3098,7 +3124,7 @@ sentFromFirefoxManager
 navController
 recentAppStorage
 this
-testDispatcher
+this
 testDispatcher
 FenixFxAEntryPoint
 .
@@ -3330,7 +3356,7 @@ sentFromFirefoxManager
 navController
 recentAppStorage
 this
-testDispatcher
+this
 testDispatcher
 FenixFxAEntryPoint
 .
@@ -3527,7 +3553,7 @@ sentFromFirefoxManager
 navController
 recentAppStorage
 this
-testDispatcher
+this
 testDispatcher
 FenixFxAEntryPoint
 .
@@ -3650,7 +3676,7 @@ sentFromFirefoxManager
 navController
 recentAppStorage
 this
-testDispatcher
+this
 testDispatcher
 FenixFxAEntryPoint
 .
@@ -3726,7 +3752,7 @@ sentFromFirefoxManager
 navController
 recentAppStorage
 this
-testDispatcher
+this
 testDispatcher
 FenixFxAEntryPoint
 .
@@ -3815,7 +3841,7 @@ sentFromFirefoxManager
 navController
 recentAppStorage
 this
-testDispatcher
+this
 testDispatcher
 FenixFxAEntryPoint
 .
@@ -3903,7 +3929,7 @@ sentFromFirefoxManager
 navController
 recentAppStorage
 this
-testDispatcher
+this
 testDispatcher
 FenixFxAEntryPoint
 .
@@ -4060,6 +4086,9 @@ recentAppStorage
 viewLifecycleScope
 =
 this
+applicationScope
+=
+this
 ioDispatcher
 =
 testDispatcher
@@ -4143,7 +4172,7 @@ sentFromFirefoxManager
 navController
 recentAppStorage
 this
-testDispatcher
+this
 testDispatcher
 FenixFxAEntryPoint
 .
@@ -4224,6 +4253,9 @@ recentAppsStorage
 =
 recentAppStorage
 viewLifecycleScope
+=
+this
+applicationScope
 =
 this
 ioDispatcher

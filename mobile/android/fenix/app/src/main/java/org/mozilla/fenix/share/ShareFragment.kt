@@ -738,7 +738,13 @@ viewLifecycleScope
 viewLifecycleOwner
 .
 lifecycleScope
-)
+applicationScope
+=
+requireComponents
+.
+applicationScope
+dismiss
+=
 {
 result
 -
@@ -788,6 +794,7 @@ dismiss
 (
 )
 }
+)
 )
 binding
 .

@@ -4454,6 +4454,13 @@ accountManager
 customTabSessionId
 =
 customTabSessionId
+applicationScope
+=
+context
+.
+components
+.
+applicationScope
 viewHasFocus
 =
 {

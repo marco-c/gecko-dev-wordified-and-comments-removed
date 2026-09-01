@@ -502,6 +502,11 @@ session
 ?
 .
 id
+applicationScope
+=
+requireComponents
+.
+applicationScope
 )
 owner
 =

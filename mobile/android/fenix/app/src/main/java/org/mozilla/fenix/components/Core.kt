@@ -1692,6 +1692,17 @@ StrictModeManager
 visualCompletenessQueue
 :
 RunWhenReadyQueue
+Suppress
+(
+"
+UnusedPrivateProperty
+"
+)
+private
+val
+applicationScope
+:
+CoroutineScope
 )
 {
 /
