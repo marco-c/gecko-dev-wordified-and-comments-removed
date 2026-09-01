@@ -706,6 +706,17 @@ xhtml
 ]
 [
 "
+test_stroked
+-
+bbox
+-
+caching
+.
+xhtml
+"
+]
+[
+"
 test_style_sheet
 .
 html
