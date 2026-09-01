@@ -1768,13 +1768,16 @@ Active
 {
 PendingActivationRequest
 .
-Switch
+Activate
 (
 action
 .
 location
 .
 countryCode
+isLocationSwitch
+=
+true
 )
 }
 else
