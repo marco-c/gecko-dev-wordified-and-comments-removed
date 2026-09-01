@@ -164,6 +164,11 @@ TestTable
 cpp
 "
 "
+TestUrlClassifierPrefixSetReporter
+.
+cpp
+"
+"
 TestUrlClassifierTableUpdateV4
 .
 cpp
