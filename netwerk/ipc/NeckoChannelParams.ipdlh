@@ -1476,9 +1476,6 @@ RedirectHistoryEntryInfo
 ]
 redirectChain
 ;
-bool
-hasInjectedCookieForCookieBannerHandling
-;
 SchemelessInputType
 schemelessInput
 ;
@@ -1733,6 +1730,9 @@ overriddenFingerprintingSettings
 ;
 bool
 isMetaRefresh
+;
+bool
+activatedFromNavigationalPrefetch
 ;
 CrossOriginEmbedderPolicy
 loadingEmbedderPolicy
