@@ -5486,6 +5486,11 @@ sweepRealmGlobals
 )
 ;
 void
+sweepWasmInstances
+(
+)
+;
+void
 sweepEmbeddingWeakPointers
 (
 JS
@@ -6668,6 +6673,12 @@ MainThreadData
 bool
 >
 hadShutdownGC
+;
+MainThreadData
+<
+bool
+>
+foundUnexpectedGrayCells
 ;
 #
 endif
