@@ -11050,6 +11050,13 @@ cc
 "
 numerics
 /
+safe_conversions_unittest
+.
+cc
+"
+"
+numerics
+/
 safe_minmax_unittest
 .
 cc
@@ -11319,6 +11326,10 @@ rtc_numerics
 "
 :
 safe_compare
+"
+"
+:
+safe_conversions
 "
 "
 :
