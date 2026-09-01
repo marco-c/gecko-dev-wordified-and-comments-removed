@@ -382,16 +382,12 @@ lazy
 SessionStore
 :
 "
-moz
--
-src
+resource
 :
 /
 /
 /
-browser
-/
-components
+modules
 /
 sessionstore
 /
@@ -795,16 +791,12 @@ importESModule
 (
                 
 "
-moz
--
-src
+resource
 :
 /
 /
 /
-browser
-/
-components
+modules
 /
 sessionstore
 /
