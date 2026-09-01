@@ -630,6 +630,13 @@ isTabStripEnabled
 Boolean
 =
 false
+private
+val
+shakeToSummarizeFeatureFlagEnabled
+:
+Boolean
+=
+true
 )
 {
 /
@@ -675,6 +682,9 @@ shouldUseExpandedToolbar
 isTabStripEnabled
 =
 isTabStripEnabled
+shakeToSummarizeFeatureFlagEnabled
+=
+shakeToSummarizeFeatureFlagEnabled
 )
 /
 *
@@ -971,6 +981,11 @@ isTabStripEnabled
 cfg
 .
 isTabStripEnabled
+shakeToSummarizeFeatureFlagEnabled
+=
+cfg
+.
+shakeToSummarizeFeatureFlagEnabled
 )
 )
 {
