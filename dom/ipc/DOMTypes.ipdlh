@@ -1755,10 +1755,6 @@ name
 nsString
 title
 ;
-nullable
-nsIURI
-navigate
-;
 }
 ;
 /
@@ -1835,10 +1831,6 @@ tag
 nullable
 nsIURI
 icon
-;
-nullable
-nsIURI
-navigate
 ;
 bool
 requireInteraction
