@@ -2621,11 +2621,6 @@ from
 -
 anchor
 click
--
-on
--
-mouseup
-click
 =
 {
 this

@@ -1615,7 +1615,7 @@ tabindex
 role
 =
 "
-presentation
+combobox
 "
 >
 <
@@ -1846,14 +1846,6 @@ switcher
 panel
 -
 list
-"
-click
--
-on
--
-mouseup
-=
-"
 "
 >
 <
