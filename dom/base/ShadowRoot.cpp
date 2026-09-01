@@ -5399,6 +5399,16 @@ this
 aRegistry
 )
 ;
+aRegistry
+-
+>
+AddToScopedDocumentSet
+(
+OwnerDoc
+(
+)
+)
+;
 }
 else
 {

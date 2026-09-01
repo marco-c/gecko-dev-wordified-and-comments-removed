@@ -3531,6 +3531,16 @@ this
 aCustomElementRegistry
 )
 ;
+aCustomElementRegistry
+-
+>
+AddToScopedDocumentSet
+(
+OwnerDoc
+(
+)
+)
+;
 }
 else
 {

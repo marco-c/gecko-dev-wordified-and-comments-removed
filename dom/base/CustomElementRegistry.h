@@ -152,6 +152,9 @@ class
 DocGroup
 ;
 class
+Document
+;
+class
 Promise
 ;
 enum
@@ -1375,6 +1378,14 @@ nsINode
 )
 ;
 void
+AddToScopedDocumentSet
+(
+Document
+*
+aDoc
+)
+;
+void
 TraceDefinitions
 (
 JSTracer
@@ -1547,6 +1558,12 @@ mIsCustomDefinitionRunning
 ;
 bool
 mIsScoped
+;
+nsTArray
+<
+nsWeakPtr
+>
+mScopedDocumentSet
 ;
 private
 :
