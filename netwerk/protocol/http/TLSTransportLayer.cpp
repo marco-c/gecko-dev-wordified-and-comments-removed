@@ -2787,7 +2787,7 @@ this
 (
 void
 )
-NS_DispatchToCurrentThread
+DispatchToCurrent
 (
 NS_NewRunnableFunction
 (

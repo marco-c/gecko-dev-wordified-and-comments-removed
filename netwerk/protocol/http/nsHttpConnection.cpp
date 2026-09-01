@@ -8048,7 +8048,7 @@ mForceSendTimer
 =
 nullptr
 ;
-NS_DispatchToCurrentThread
+DispatchToCurrent
 (
 new
 HttpConnectionForceIO
@@ -8179,7 +8179,7 @@ thread
 )
 ;
 return
-NS_DispatchToCurrentThread
+DispatchToCurrent
 (
 new
 HttpConnectionForceIO

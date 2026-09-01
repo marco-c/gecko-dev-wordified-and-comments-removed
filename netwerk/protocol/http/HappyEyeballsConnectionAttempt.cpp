@@ -4422,7 +4422,7 @@ requestInfo
 return
 ;
 }
-NS_DispatchToCurrentThread
+DispatchToCurrent
 (
 NS_NewRunnableFunction
 (

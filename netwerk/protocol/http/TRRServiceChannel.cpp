@@ -167,6 +167,13 @@ h
 #
 include
 "
+nsSocketTransportService2
+.
+h
+"
+#
+include
+"
 nsThreadUtils
 .
 h

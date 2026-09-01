@@ -5081,7 +5081,7 @@ funcPtr
 ;
 rv
 =
-NS_DispatchToCurrentThread
+DispatchToCurrent
 (
 event
 )

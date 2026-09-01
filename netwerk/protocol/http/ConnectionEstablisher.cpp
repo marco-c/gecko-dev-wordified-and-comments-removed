@@ -1199,7 +1199,7 @@ nsresult
 aResult
 )
 {
-NS_DispatchToCurrentThread
+DispatchToCurrent
 (
 NS_NewRunnableFunction
 (
