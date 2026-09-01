@@ -900,6 +900,13 @@ bool
 false
 )
 \
+_
+(
+CanUseVulkanHardwareVideoDecoding
+bool
+false
+)
+\
 /
 *
 Add
