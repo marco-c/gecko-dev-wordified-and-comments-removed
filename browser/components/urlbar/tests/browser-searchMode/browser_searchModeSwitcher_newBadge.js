@@ -527,9 +527,6 @@ engine
 -
 name
 "
-is_default
-:
-true
 search_url
 :
 "
