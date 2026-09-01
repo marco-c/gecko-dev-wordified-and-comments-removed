@@ -333,6 +333,12 @@ yml
 -
 rust
 -
+analyzer
+.
+yml
+-
+rust
+-
 size
 .
 yml

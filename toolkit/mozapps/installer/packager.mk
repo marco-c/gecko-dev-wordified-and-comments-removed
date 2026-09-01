@@ -956,7 +956,9 @@ rustc
 MOZ_FETCHES_DIR
 )
 /
-rustc
+rust
+-
+analyzer
 /
 bin
 /
