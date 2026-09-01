@@ -5525,9 +5525,6 @@ used
 type
 :
 string
-telemetry_mirror
-:
-Installation_FirstSeen_Full
 first_seen_stub
 :
 type
@@ -5605,9 +5602,6 @@ extra_keys
 :
 *
 installation_first_seen_extra
-telemetry_mirror
-:
-Installation_FirstSeen_Stub
 first_seen_msix
 :
 type
@@ -5685,9 +5679,6 @@ extra_keys
 :
 *
 installation_first_seen_extra
-telemetry_mirror
-:
-Installation_FirstSeen_Msix
 partner_link
 :
 click_newtab

@@ -13322,14 +13322,6 @@ data
 Record
 the
 event
-(
-mirrored
-to
-legacy
-telemetry
-using
-GIFFT
-)
 if
 (
 installer_type

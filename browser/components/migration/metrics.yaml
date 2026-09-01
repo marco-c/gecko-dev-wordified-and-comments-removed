@@ -3559,9 +3559,6 @@ com
 expires
 :
 never
-telemetry_mirror
-:
-MIGRATION_UNINSTALLER_PROFILE_REFRESH
 discovered_migrators
 :
 type
