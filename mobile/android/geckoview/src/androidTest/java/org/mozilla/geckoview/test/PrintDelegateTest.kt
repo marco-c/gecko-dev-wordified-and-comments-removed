@@ -150,6 +150,12 @@ app
 .
 InstrumentationRegistry
 import
+kotlin
+.
+math
+.
+roundToInt
+import
 org
 .
 hamcrest
@@ -309,12 +315,6 @@ rule
 GeckoSessionTestRule
 .
 NullDelegate
-import
-kotlin
-.
-math
-.
-roundToInt
 RunWith
 (
 AndroidJUnit4

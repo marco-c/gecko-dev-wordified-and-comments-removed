@@ -80,6 +80,12 @@ app
 .
 InstrumentationRegistry
 import
+java
+.
+util
+.
+UUID
+import
 org
 .
 hamcrest
@@ -297,12 +303,6 @@ test
 util
 .
 TestServer
-import
-java
-.
-util
-.
-UUID
 RunWith
 (
 AndroidJUnit4

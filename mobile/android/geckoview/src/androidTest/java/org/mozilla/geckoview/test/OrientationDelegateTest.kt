@@ -675,6 +675,8 @@ portrait
 lock
 to
 landscape
+/
+/
 instead
 .
 if
@@ -1462,6 +1464,8 @@ portrait
 lock
 to
 landscape
+/
+/
 instead
 .
 if

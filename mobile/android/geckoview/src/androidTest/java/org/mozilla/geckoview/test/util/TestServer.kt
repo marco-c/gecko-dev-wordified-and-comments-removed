@@ -95,12 +95,6 @@ util
 .
 TaggedList
 import
-org
-.
-json
-.
-JSONObject
-import
 java
 .
 io
@@ -136,6 +130,12 @@ java
 util
 .
 Vector
+import
+org
+.
+json
+.
+JSONObject
 class
 TestServer
 JvmOverloads

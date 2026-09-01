@@ -56,6 +56,12 @@ filters
 .
 MediumTest
 import
+java
+.
+lang
+.
+RuntimeException
+import
 org
 .
 hamcrest
@@ -147,12 +153,6 @@ rule
 GeckoSessionTestRule
 .
 AssertCalled
-import
-java
-.
-lang
-.
-RuntimeException
 RunWith
 (
 AndroidJUnit4

@@ -23,12 +23,6 @@ android
 .
 os
 .
-Build
-import
-android
-.
-os
-.
 Bundle
 import
 android
@@ -747,10 +741,10 @@ based
 on
 some
 criteria
-*
 to
 manage
 process
+*
 priority
 .
 *

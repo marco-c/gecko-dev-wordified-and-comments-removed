@@ -80,7 +80,6 @@ RunWith
 /
 *
 *
-*
 This
 pref
 references
@@ -114,7 +113,6 @@ blocking
 /
 *
 *
-*
 This
 pref
 references
@@ -146,7 +144,6 @@ lna
 block_trackers
 "
 /
-*
 *
 *
 This

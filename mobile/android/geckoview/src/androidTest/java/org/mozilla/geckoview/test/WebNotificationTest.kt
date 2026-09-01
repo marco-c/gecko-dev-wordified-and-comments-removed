@@ -33,6 +33,12 @@ filters
 .
 MediumTest
 import
+kotlin
+.
+test
+.
+assertNotNull
+import
 org
 .
 hamcrest
@@ -146,12 +152,6 @@ test
 rule
 .
 GeckoSessionTestRule
-import
-kotlin
-.
-test
-.
-assertNotNull
 const
 val
 VERY_LONG_IMAGE_URL

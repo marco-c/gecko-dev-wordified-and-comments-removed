@@ -417,7 +417,6 @@ up
 a
 session
 for
-*
 each
 test
 and
@@ -425,13 +424,13 @@ to
 ensure
 it
 can
+*
 properly
 wait
 for
 and
 assert
 delegate
-*
 callbacks
 .
 *

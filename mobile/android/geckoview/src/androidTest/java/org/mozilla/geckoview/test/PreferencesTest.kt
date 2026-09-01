@@ -136,16 +136,6 @@ org
 .
 mozilla
 .
-gecko
-.
-util
-.
-ThreadUtils
-import
-org
-.
-mozilla
-.
 geckoview
 .
 ExperimentalGeckoViewApi
@@ -268,7 +258,6 @@ BaseSessionTest
 /
 *
 *
-*
 Checking
 if
 delegate
@@ -346,7 +335,6 @@ preferencesObserverDelegate
 )
 }
 /
-*
 *
 *
 Basic
@@ -544,7 +532,6 @@ timesCalled
 )
 }
 /
-*
 *
 *
 Basic
@@ -745,7 +732,6 @@ timesCalled
 )
 }
 /
-*
 *
 *
 Basic
@@ -968,7 +954,6 @@ timesCalled
 /
 *
 *
-*
 Basic
 observer
 delegate
@@ -1164,7 +1149,6 @@ timesCalled
 )
 }
 /
-*
 *
 *
 Checking
@@ -1630,7 +1614,6 @@ timesCalled
 /
 *
 *
-*
 Checking
 singular
 deregistration
@@ -1812,7 +1795,6 @@ timesCalled
 )
 }
 /
-*
 *
 *
 Tests
@@ -2039,7 +2021,6 @@ hasUserChangedValue
 /
 *
 *
-*
 If
 a
 pref
@@ -2192,7 +2173,6 @@ timesCalled
 /
 *
 *
-*
 The
 pref
 is
@@ -2277,7 +2257,6 @@ timesCalled
 )
 }
 /
-*
 *
 *
 Checks
@@ -2928,7 +2907,6 @@ type
 )
 }
 /
-*
 *
 *
 Checks
@@ -3588,7 +3566,6 @@ type
 )
 }
 /
-*
 *
 *
 Checks
@@ -4281,7 +4258,6 @@ type
 /
 *
 *
-*
 Checks
 if
 setting
@@ -4334,6 +4310,8 @@ to
 prevent
 test
 harness
+/
+/
 interference
 /
 /
@@ -4692,7 +4670,6 @@ unknownExpected
 /
 *
 *
-*
 Checks
 if
 setting
@@ -4745,6 +4722,8 @@ to
 prevent
 test
 harness
+/
+/
 interference
 /
 /
@@ -5476,7 +5455,6 @@ boolUserPost
 /
 *
 *
-*
 Checks
 setting
 using
@@ -5684,7 +5662,6 @@ value
 /
 *
 *
-*
 Basic
 test
 of
@@ -5869,7 +5846,6 @@ type
 )
 }
 /
-*
 *
 *
 Basic
@@ -6329,7 +6305,6 @@ String
 /
 *
 *
-*
 Basic
 test
 of
@@ -6719,7 +6694,6 @@ Boolean
 )
 }
 /
-*
 *
 *
 These

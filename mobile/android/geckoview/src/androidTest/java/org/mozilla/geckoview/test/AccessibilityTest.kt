@@ -198,6 +198,12 @@ app
 .
 InstrumentationRegistry
 import
+java
+.
+util
+.
+Locale
+import
 org
 .
 hamcrest
@@ -381,12 +387,6 @@ rule
 GeckoSessionTestRule
 .
 WithDisplay
-import
-java
-.
-util
-.
-Locale
 const
 val
 DISPLAY_WIDTH
@@ -556,6 +556,8 @@ Rewritten
 in
 Kotlin
 from
+/
+/
 https
 :
 /

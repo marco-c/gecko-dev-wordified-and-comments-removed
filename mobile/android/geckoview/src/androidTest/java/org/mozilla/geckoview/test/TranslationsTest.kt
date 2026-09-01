@@ -378,18 +378,6 @@ TranslationsController
 .
 TranslationsException
 .
-ERROR_MODEL_COULD_NOT_DELETE
-import
-org
-.
-mozilla
-.
-geckoview
-.
-TranslationsController
-.
-TranslationsException
-.
 ERROR_MODEL_COULD_NOT_DOWNLOAD
 import
 org
@@ -6383,6 +6371,8 @@ it
 deserializes
 to
 different
+/
+/
 Java
 names
 .

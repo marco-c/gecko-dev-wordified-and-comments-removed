@@ -176,7 +176,6 @@ uiAutomation
 /
 *
 *
-*
 Structure
 to
 hold
@@ -1226,7 +1225,7 @@ key
 contains
 (
 "
-isolatedTabWithZygote
+zygoteTab
 "
 )
 )
