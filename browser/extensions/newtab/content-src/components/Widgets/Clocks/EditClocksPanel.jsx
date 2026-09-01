@@ -69,7 +69,7 @@ react
 ;
 import
 {
-getCityFromTimeZone
+getClockCityDisplay
 }
 from
 "
@@ -84,6 +84,7 @@ EditClocksPanel
 (
 {
 clockZones
+curatedNames
 canAddClock
 onShowAddClock
 onEditClock
@@ -523,16 +524,10 @@ i
 const
 city
 =
-clock
-.
-city
-|
-|
-getCityFromTimeZone
+getClockCityDisplay
 (
 clock
-.
-timeZone
+curatedNames
 )
 ;
 return
