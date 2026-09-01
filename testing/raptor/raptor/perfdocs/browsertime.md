@@ -3291,6 +3291,11 @@ Samply
 (
 macOS
 )
+-
+perf
+(
+Linux
+)
 To
 use
 native
