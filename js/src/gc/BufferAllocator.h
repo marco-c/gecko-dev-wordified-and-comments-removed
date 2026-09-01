@@ -813,13 +813,13 @@ MainThreadOrGCTaskData
 <
 BufferChunkList
 >
-mixedChunks
+currentMixedChunks
 ;
 MainThreadOrGCTaskData
 <
 BufferChunkList
 >
-tenuredChunks
+currentTenuredChunks
 ;
 MainThreadOrGCTaskData
 <
