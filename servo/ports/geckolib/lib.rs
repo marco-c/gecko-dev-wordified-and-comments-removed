@@ -49,7 +49,10 @@ stylesheet_loader
 ;
 #
 [
+unsafe
+(
 no_mangle
+)
 ]
 pub
 extern
