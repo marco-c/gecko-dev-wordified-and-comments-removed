@@ -3244,7 +3244,7 @@ bool
 FT2FontEntry
 :
 :
-HasVariations
+HasVariationsInternal
 (
 )
 {
@@ -3352,7 +3352,7 @@ void
 FT2FontEntry
 :
 :
-GetVariationAxes
+GetVariationAxesInternal
 (
 nsTArray
 <
@@ -3399,7 +3399,7 @@ void
 FT2FontEntry
 :
 :
-GetVariationInstances
+GetVariationInstancesInternal
 (
 nsTArray
 <

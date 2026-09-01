@@ -5727,7 +5727,7 @@ bool
 gfxFontconfigFontEntry
 :
 :
-HasVariations
+HasVariationsInternal
 (
 )
 {
@@ -5987,7 +5987,7 @@ void
 gfxFontconfigFontEntry
 :
 :
-GetVariationAxes
+GetVariationAxesInternal
 (
 nsTArray
 <
@@ -6024,7 +6024,7 @@ void
 gfxFontconfigFontEntry
 :
 :
-GetVariationInstances
+GetVariationInstancesInternal
 (
 nsTArray
 <
