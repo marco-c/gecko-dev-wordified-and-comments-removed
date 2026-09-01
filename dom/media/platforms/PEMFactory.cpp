@@ -386,7 +386,7 @@ if
 StaticPrefs
 :
 :
-media_use_remote_encoder_video
+media_use_remote_encoder_video_platform
 (
 )
 )
@@ -576,7 +576,7 @@ if
 StaticPrefs
 :
 :
-media_use_remote_encoder_video
+media_use_remote_encoder_video_platform
 (
 )
 &
@@ -619,7 +619,7 @@ if
 StaticPrefs
 :
 :
-media_use_remote_encoder_video
+media_use_remote_encoder_video_platform
 (
 )
 &
@@ -661,7 +661,7 @@ if
 StaticPrefs
 :
 :
-media_use_remote_encoder_audio
+media_use_remote_encoder_audio_software
 (
 )
 &
@@ -699,7 +699,7 @@ if
 StaticPrefs
 :
 :
-media_use_remote_encoder_audio
+media_use_remote_encoder_audio_software
 (
 )
 &
@@ -717,7 +717,15 @@ media_utility_process_enabled
 StaticPrefs
 :
 :
-media_use_remote_encoder_video
+media_use_remote_encoder_video_software
+(
+)
+|
+|
+StaticPrefs
+:
+:
+media_use_remote_encoder_video_platform
 (
 )
 )
@@ -777,7 +785,7 @@ if
 StaticPrefs
 :
 :
-media_use_remote_encoder_audio
+media_use_remote_encoder_audio_software
 (
 )
 &
@@ -815,7 +823,7 @@ if
 StaticPrefs
 :
 :
-media_use_remote_encoder_audio
+media_use_remote_encoder_audio_software
 (
 )
 &
@@ -833,7 +841,15 @@ media_utility_process_enabled
 StaticPrefs
 :
 :
-media_use_remote_encoder_video
+media_use_remote_encoder_video_software
+(
+)
+|
+|
+StaticPrefs
+:
+:
+media_use_remote_encoder_video_platform
 (
 )
 )
@@ -909,7 +925,7 @@ if
 StaticPrefs
 :
 :
-media_use_remote_encoder_audio
+media_use_remote_encoder_audio_software
 (
 )
 &
@@ -955,7 +971,7 @@ if
 StaticPrefs
 :
 :
-media_use_remote_encoder_audio
+media_use_remote_encoder_audio_software
 (
 )
 &
@@ -1035,7 +1051,7 @@ if
 StaticPrefs
 :
 :
-media_use_remote_encoder_video
+media_use_remote_encoder_video_platform
 (
 )
 &
@@ -1089,7 +1105,7 @@ if
 StaticPrefs
 :
 :
-media_use_remote_encoder_video
+media_use_remote_encoder_video_platform
 (
 )
 |
@@ -1097,7 +1113,15 @@ media_use_remote_encoder_video
 StaticPrefs
 :
 :
-media_use_remote_encoder_audio
+media_use_remote_encoder_video_software
+(
+)
+|
+|
+StaticPrefs
+:
+:
+media_use_remote_encoder_audio_software
 (
 )
 )
@@ -1151,7 +1175,7 @@ if
 StaticPrefs
 :
 :
-media_use_remote_encoder_audio
+media_use_remote_encoder_audio_software
 (
 )
 &
@@ -1283,7 +1307,7 @@ if
 StaticPrefs
 :
 :
-media_use_remote_encoder_video
+media_use_remote_encoder_video_platform
 (
 )
 )
@@ -1363,7 +1387,7 @@ if
 StaticPrefs
 :
 :
-media_use_remote_encoder_audio
+media_use_remote_encoder_audio_software
 (
 )
 &
@@ -1384,7 +1408,7 @@ if
 StaticPrefs
 :
 :
-media_use_remote_encoder_audio
+media_use_remote_encoder_audio_software
 (
 )
 |
@@ -1393,7 +1417,7 @@ media_use_remote_encoder_audio
 StaticPrefs
 :
 :
-media_use_remote_encoder_video
+media_use_remote_encoder_video_software
 (
 )
 )
@@ -1446,7 +1470,7 @@ if
 StaticPrefs
 :
 :
-media_use_remote_encoder_audio
+media_use_remote_encoder_audio_software
 (
 )
 &
@@ -1475,7 +1499,7 @@ if
 StaticPrefs
 :
 :
-media_use_remote_encoder_audio
+media_use_remote_encoder_audio_software
 (
 )
 |
@@ -1484,7 +1508,7 @@ media_use_remote_encoder_audio
 StaticPrefs
 :
 :
-media_use_remote_encoder_video
+media_use_remote_encoder_video_software
 (
 )
 )
