@@ -66,6 +66,13 @@ js
 ]
 [
 "
+browser_popup_tracker
+.
+js
+"
+]
+[
+"
 browser_realtime_lookup
 .
 js
