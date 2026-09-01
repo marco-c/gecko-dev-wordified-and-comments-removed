@@ -32364,6 +32364,11 @@ event
 isContextMenu
 :
 true
+containerSource
+:
+"
+urlbar_result_context_menu
+"
 }
 )
 ;
