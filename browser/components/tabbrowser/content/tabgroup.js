@@ -192,6 +192,10 @@ wasCreatedByAdoption
 =
 false
 ;
+collapsedByDrag
+=
+false
+;
 #
 observerRemoved
 =

@@ -73,6 +73,13 @@ js
 ]
 [
 "
+browser_drag_tab_group_expand_on_drop
+.
+js
+"
+]
+[
+"
 browser_drag_tab_group_overflow
 .
 js
