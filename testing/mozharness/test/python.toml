@@ -78,6 +78,13 @@ py
 ]
 [
 "
+test_mozilla_per_test_base
+.
+py
+"
+]
+[
+"
 test_mozilla_structured
 .
 py

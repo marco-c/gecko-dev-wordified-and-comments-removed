@@ -9970,6 +9970,18 @@ final_env
                         
 )
                     
+self
+.
+append_test_summary
+(
+dirs
+[
+"
+abs_blob_upload_dir
+"
+]
+)
+                    
 if
 self
 .
