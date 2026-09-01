@@ -4869,6 +4869,9 @@ Referrals
 openReferralsTab
 (
 window
+"
+preferences
+"
 )
 ;
 }

@@ -828,6 +828,9 @@ Referrals
 openReferralsTab
 (
 window
+"
+about_dialog
+"
 )
 ;
 }

@@ -19835,6 +19835,9 @@ Referrals
 openReferralsTab
 (
 window
+"
+accounts_menu
+"
 )
 ;
 PanelUI

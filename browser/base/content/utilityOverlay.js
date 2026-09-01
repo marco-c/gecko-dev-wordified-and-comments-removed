@@ -2006,6 +2006,9 @@ Referrals
 openReferralsTab
 (
 window
+"
+help_menu
+"
 )
 ;
 }
