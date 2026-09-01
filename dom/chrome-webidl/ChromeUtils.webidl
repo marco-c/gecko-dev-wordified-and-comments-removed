@@ -6714,6 +6714,9 @@ windowsFileDialog
 "
 pkcs11Module
 "
+"
+hwInference
+"
 }
 ;
 dictionary
