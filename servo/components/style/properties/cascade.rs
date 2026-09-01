@@ -4416,7 +4416,7 @@ MathDepth
 |
 FontWeight
 |
-FontStretch
+FontWidth
 |
 FontStyle
 |
@@ -5837,7 +5837,7 @@ USES_VIEWPORT_UNITS
 ComputedValueFlags
 :
 :
-USES_FONT_RELATIVE_UNITS
+USES_FONT_OR_WM_RELATIVE_UNITS
 |
 ComputedValueFlags
 :
