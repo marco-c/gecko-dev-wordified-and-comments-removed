@@ -4018,10 +4018,11 @@ break
 }
 if
 (
+!
 aMarks
 -
 >
-Length
+IsEmpty
 (
 )
 )

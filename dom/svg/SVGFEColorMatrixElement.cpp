@@ -527,9 +527,10 @@ type
 ;
 if
 (
+!
 values
 .
-Length
+IsEmpty
 (
 )
 )
