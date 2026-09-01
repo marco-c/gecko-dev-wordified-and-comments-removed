@@ -3501,6 +3501,11 @@ fromExternal
 params
 .
 fromExternal
+eventDetail
+:
+params
+.
+eventDetail
 globalHistoryOptions
 schemelessInput
 :
