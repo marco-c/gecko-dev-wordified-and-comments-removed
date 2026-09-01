@@ -33232,11 +33232,11 @@ parameters
 are
 listed
 in
-utilityOverlay
+UrlbarChildController
 .
-js
+mjs
 #
-openUILinkIn
+loadURL
 .
 *
 *
