@@ -773,7 +773,7 @@ RETURN_IF_FAIL
 js
 :
 :
-Mutex
+MutexBase
 :
 :
 Init
