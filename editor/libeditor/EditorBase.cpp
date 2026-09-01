@@ -1885,8 +1885,10 @@ if
 mEditActionData
 )
 {
+RefPtr
+<
 Selection
-*
+>
 selection
 =
 aSelectionController

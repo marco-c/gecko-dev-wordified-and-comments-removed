@@ -3545,7 +3545,7 @@ mHasFocus
 {
 if
 (
-auto
+RefPtr
 focusedElement
 =
 GetFocusedElement
@@ -39134,9 +39134,11 @@ ancestorLimiter
 return
 ;
 }
-Element
-*
 const
+RefPtr
+<
+Element
+>
 editingHost
 =
 ComputeEditingHost

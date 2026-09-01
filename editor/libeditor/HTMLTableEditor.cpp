@@ -3832,8 +3832,10 @@ cellIndexes
 mColumn
 ;
 }
+RefPtr
+<
 Element
-*
+>
 previousCellElement
 =
 aPointToInsert
