@@ -292,9 +292,6 @@ desktop
 launcher
 /
 index
-tabunloader
-/
-index
 app
 /
 pbproxy
