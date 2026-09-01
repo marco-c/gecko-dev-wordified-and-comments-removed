@@ -953,17 +953,6 @@ js
 "
 browser_dbg
 -
-telemetry
--
-stylesheets
-.
-js
-"
-]
-[
-"
-browser_dbg
--
 toggling
 -
 tools
