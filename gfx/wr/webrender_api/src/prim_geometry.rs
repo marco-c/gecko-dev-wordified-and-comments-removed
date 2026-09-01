@@ -196,13 +196,9 @@ y
 }
 pub
 fn
-process_repeat_size
+resolve_tile_size
 (
-snapped_rect
-:
-&
-LayoutRect
-unsnapped_rect
+prim_rect
 :
 &
 LayoutRect
@@ -236,7 +232,7 @@ width
 approx_eq_eps
 (
 &
-unsnapped_rect
+prim_rect
 .
 width
 (
@@ -245,7 +241,7 @@ width
 EPSILON
 )
 {
-snapped_rect
+prim_rect
 .
 width
 (
@@ -265,7 +261,7 @@ height
 approx_eq_eps
 (
 &
-unsnapped_rect
+prim_rect
 .
 height
 (
@@ -274,7 +270,7 @@ height
 EPSILON
 )
 {
-snapped_rect
+prim_rect
 .
 height
 (

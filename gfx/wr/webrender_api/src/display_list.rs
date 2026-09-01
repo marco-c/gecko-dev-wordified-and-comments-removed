@@ -216,7 +216,7 @@ prim_geometry
 apply_gradient_local_clip
 optimize_linear_gradient
 optimize_radial_gradient
-process_repeat_size
+resolve_tile_size
 simplify_repeated_primitive
 }
 ;
@@ -9509,10 +9509,8 @@ let
 mut
 tile_size
 =
-process_repeat_size
+resolve_tile_size
 (
-&
-bounds
 &
 bounds
 tile_size
@@ -9705,10 +9703,8 @@ let
 mut
 tile_size
 =
-process_repeat_size
+resolve_tile_size
 (
-&
-prim_rect
 &
 prim_rect
 tile_size
@@ -10028,10 +10024,8 @@ offset
 let
 tile_size
 =
-process_repeat_size
+resolve_tile_size
 (
-&
-bounds
 &
 bounds
 tile_size
