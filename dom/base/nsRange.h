@@ -1889,6 +1889,16 @@ DocumentFragment
 aFragment
 ElementHandler
 aElementHandler
+const
+mozilla
+:
+:
+Maybe
+<
+AllowRangeCrossShadowBoundary
+>
+&
+aAllowCrossShadowBoundary
 ErrorResult
 &
 aRv
