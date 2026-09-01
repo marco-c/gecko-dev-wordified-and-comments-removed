@@ -368,13 +368,6 @@ contextMenuItems
 5
 ]
 .
-querySelector
-(
-"
-button
-"
-)
-.
 click
 (
 )
@@ -570,13 +563,6 @@ contextMenuItems
 [
 0
 ]
-.
-querySelector
-(
-"
-button
-"
-)
 .
 click
 (
