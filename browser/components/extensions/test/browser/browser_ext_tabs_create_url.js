@@ -472,10 +472,8 @@ is
 (
 active
 .
-tagName
+localName
 "
-html
-:
 input
 "
 "
