@@ -1066,8 +1066,6 @@ android
 gradle
 -
 dependencies
--
-lite
 android
 -
 arm
@@ -1460,8 +1458,6 @@ android
 gradle
 -
 dependencies
--
-lite
 android
 -
 aarch64
@@ -1746,8 +1742,6 @@ android
 gradle
 -
 dependencies
--
-lite
 android
 -
 aarch64
@@ -2438,8 +2432,6 @@ android
 gradle
 -
 dependencies
--
-lite
 android
 -
 x86_64
@@ -2737,8 +2729,6 @@ android
 gradle
 -
 dependencies
--
-lite
 android
 -
 x86_64
@@ -3442,8 +3432,6 @@ android
 gradle
 -
 dependencies
--
-lite
 android
 -
 x86_64
