@@ -2078,9 +2078,15 @@ SharedArrayRawBufferLength
 <
 <
 28
+GeneratorResumeState
+=
+1
+<
+<
+29
 Last
 =
-SharedArrayRawBufferLength
+GeneratorResumeState
 Any
 =
 Last
@@ -2092,7 +2098,7 @@ Last
 )
 NumCategories
 =
-29
+30
 Store_
 =
 1
