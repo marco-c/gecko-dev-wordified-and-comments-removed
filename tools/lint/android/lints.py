@@ -975,6 +975,10 @@ lintDebug
 "
 ]
         
+disable_android_components_tasks
+=
+True
+        
 *
 *
 lintargs
@@ -1109,6 +1113,10 @@ lint
 "
 ]
         
+disable_android_components_tasks
+=
+True
+        
 *
 *
 lintargs
@@ -1117,14 +1125,24 @@ lintargs
 def
 report_gradlew
 (
+    
 config
+    
 fix
+    
 subdir
+    
 project_name
+    
 lint_tasks
 =
 [
 ]
+    
+disable_android_components_tasks
+=
+False
+    
 *
 *
 lintargs
@@ -1212,6 +1230,23 @@ extra_args
 )
 or
 [
+]
+    
+if
+disable_android_components_tasks
+:
+        
+extra_args
+=
+extra_args
++
+[
+"
+-
+PdisableAndroidComponentsTasks
+=
+true
+"
 ]
     
 ret
