@@ -139,6 +139,11 @@ ModuleUtils
 .
 h
 "
+"
+Services
+.
+h
+"
 ]
 XPCOM_MANIFESTS
 +
@@ -256,6 +261,11 @@ cpp
 "
 "
 nsComponentManagerUtils
+.
+cpp
+"
+"
+Services
 .
 cpp
 "
