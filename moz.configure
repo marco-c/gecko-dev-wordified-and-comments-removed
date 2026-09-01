@@ -622,7 +622,7 @@ option
 "
 -
 -
-disable
+enable
 -
 legacy
 -
@@ -636,7 +636,7 @@ MOZ_USE_LEGACY_L10N
 help
 =
 "
-Disable
+Enable
 the
 legacy
 (
