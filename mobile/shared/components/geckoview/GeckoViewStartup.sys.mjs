@@ -3279,7 +3279,7 @@ service
 "
 ]
 .
-createInstance
+getService
 (
 Ci
 .

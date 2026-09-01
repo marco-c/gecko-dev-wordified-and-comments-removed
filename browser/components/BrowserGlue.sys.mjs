@@ -8035,7 +8035,7 @@ service
 "
 ]
 .
-createInstance
+getService
 (
 Ci
 .
@@ -10347,7 +10347,7 @@ number
 const
 APP_DATA_VERSION
 =
-178
+179
 ;
 const
 PREF

@@ -2479,7 +2479,7 @@ provider
 "
 ]
 .
-createInstance
+getService
 (
 Ci
 .

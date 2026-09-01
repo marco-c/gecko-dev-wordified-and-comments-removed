@@ -255,7 +255,7 @@ geolocation
 "
 ]
 .
-createInstance
+getService
 (
 Ci
 .

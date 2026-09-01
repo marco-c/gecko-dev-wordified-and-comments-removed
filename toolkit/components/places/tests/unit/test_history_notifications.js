@@ -161,7 +161,7 @@ service
 "
 ]
 .
-createInstance
+getService
 (
 Ci
 .

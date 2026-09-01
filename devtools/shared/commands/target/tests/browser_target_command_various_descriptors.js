@@ -1215,7 +1215,7 @@ workerdebuggermanager
 "
 ]
 .
-createInstance
+getService
 (
 Ci
 .
