@@ -331,11 +331,6 @@ Http3StreamType
 :
 :
 Http
-|
-Http3StreamType
-:
-:
-Push
 )
 )
 ;

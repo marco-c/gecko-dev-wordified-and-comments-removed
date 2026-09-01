@@ -498,13 +498,6 @@ shared
 .
 max_blocked_streams
 )
-.
-max_concurrent_push_streams
-(
-args
-.
-max_concurrent_push_streams
-)
 )
 ;
 let
