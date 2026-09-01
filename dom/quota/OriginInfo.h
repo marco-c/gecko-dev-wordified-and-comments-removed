@@ -545,7 +545,7 @@ defined
 (
 DEBUG
 )
-void
+bool
 CheckIfUsageIsConsistent
 (
 const
