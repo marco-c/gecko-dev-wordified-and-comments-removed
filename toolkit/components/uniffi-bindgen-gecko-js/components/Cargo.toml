@@ -215,6 +215,9 @@ ignore_form_action_origin_validation_errors
 "
 perform_additional_origin_fixups
 "
+"
+fixup_invalid_guids
+"
 ]
 }
 init_rust_components
