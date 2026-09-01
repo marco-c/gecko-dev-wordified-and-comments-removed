@@ -865,6 +865,13 @@ js
 ]
 [
 "
+test_URLKeywordAnalyzer
+.
+js
+"
+]
+[
+"
 test_UpdateUtils_updatechannel
 .
 js
