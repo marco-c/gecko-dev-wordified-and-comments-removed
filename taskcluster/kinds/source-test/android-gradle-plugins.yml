@@ -164,11 +164,6 @@ nimbus
 fml
 run
 :
-clone
--
-with
-:
-hg
 using
 :
 mach
@@ -194,11 +189,6 @@ apilint
 )
 run
 :
-clone
--
-with
-:
-hg
 gradle
 -
 project
@@ -310,11 +300,6 @@ deps
 )
 run
 :
-clone
--
-with
-:
-hg
 gradle
 -
 project
