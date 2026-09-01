@@ -74,10 +74,6 @@ nss
 CPPSRCS
 =
 \
-cryptohi_mldsa_unittest
-.
-cc
-\
 cryptohi_unittest
 .
 cc
@@ -122,9 +118,7 @@ cpputil
 REQUIRES
 =
 nspr
-nss
 gtest
-cpputil
 PROGRAM
 =
 cryptohi_gtest

@@ -120,10 +120,6 @@ kyber_unittest
 .
 cc
 \
-mldsa_unittest
-.
-cc
-\
 (
 NULL
 )

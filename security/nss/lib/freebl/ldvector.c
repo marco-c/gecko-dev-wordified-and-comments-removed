@@ -468,7 +468,6 @@ MLDSA_VerifyInit
 MLDSA_VerifyUpdate
 MLDSA_VerifyFinal
 EC_DecompressPublicKey
-MLDSA_DestroyContext
 }
 ;
 const

@@ -109,15 +109,6 @@ sources
 :
 [
 '
-<
-(
-DEPTH
-)
-/
-gtests
-/
-common
-/
 json_reader
 .
 cc
@@ -259,11 +250,6 @@ cc
 '
 '
 pk11_keygen
-.
-cc
-'
-'
-pk11_mldsa_unittest
 .
 cc
 '

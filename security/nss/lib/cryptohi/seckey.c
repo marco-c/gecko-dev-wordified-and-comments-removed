@@ -2720,9 +2720,6 @@ return
 params_ml_kem512
 ;
 case
-CKP_NSS_ML_KEM_768
-:
-case
 CKP_ML_KEM_768
 :
 return
@@ -2816,9 +2813,6 @@ CKP_ML_KEM_512
 return
 SEC_OID_ML_KEM_512
 ;
-case
-CKP_NSS_ML_KEM_768
-:
 case
 CKP_ML_KEM_768
 :

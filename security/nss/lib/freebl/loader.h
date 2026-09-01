@@ -15,7 +15,7 @@ h
 #
 define
 FREEBL_VERSION
-0x0333
+0x0332
 struct
 FREEBLVectorStr
 {
@@ -5846,17 +5846,6 @@ params
 SECItem
 *
 publicUncompressed
-)
-;
-void
-(
-*
-p_MLDSA_DestroyContext
-)
-(
-MLDSAContext
-*
-ctx
 )
 ;
 }

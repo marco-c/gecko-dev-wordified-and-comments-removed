@@ -56,10 +56,6 @@ PORT_NewArena
 PORT_NewArena_stub
 #
 define
-PORT_Realloc
-PORT_Realloc_stub
-#
-define
 PORT_SafeZero
 PORT_SafeZero_stub
 #

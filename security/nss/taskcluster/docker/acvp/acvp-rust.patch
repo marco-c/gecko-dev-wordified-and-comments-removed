@@ -225,9 +225,6 @@ wrap
 -
 nodepend_c_lib
 "
-"
-pqcwrap
-"
 ]
 .
 into_iter

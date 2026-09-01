@@ -86,6 +86,10 @@ CPPSRCS
 DSA_UNIT_TESTS
 }
 \
+json_reader
+.
+cc
+\
 pk11_aes_gcm_unittest
 .
 cc
@@ -183,10 +187,6 @@ pk11_key_unittest
 cc
 \
 pk11_keygen
-.
-cc
-\
-pk11_mldsa_unittest
 .
 cc
 \

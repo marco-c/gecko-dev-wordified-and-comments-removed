@@ -85,14 +85,6 @@ freebl
 /
 verified
 "
-    
-"
-lib
-/
-freebl
-/
-libcrux
-"
 }
 def
 find_compile_commands
