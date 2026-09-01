@@ -667,7 +667,7 @@ aDeviceID
 )
 ;
 void
-Dispatch
+DispatchToMainThread
 (
 already_AddRefed
 <
