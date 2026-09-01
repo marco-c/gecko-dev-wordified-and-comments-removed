@@ -99,7 +99,7 @@ nimbus
 .
 syncdatastore
 .
-foo
+testFeature
 "
 _ns
 ;
@@ -163,7 +163,7 @@ NimbusFeatures
 RecordExposureEvent
 (
 "
-foo
+testFeature
 "
 _ns
 )
