@@ -6750,7 +6750,7 @@ shortcuts
 menu
 *
 *
-param
+property
 name
 of
 type
@@ -6765,7 +6765,7 @@ search
 engine
 .
 *
-param
+property
 checkboxIndex
 of
 type
@@ -6782,7 +6782,7 @@ search
 engine
 .
 *
-param
+property
 isChecked
 of
 type

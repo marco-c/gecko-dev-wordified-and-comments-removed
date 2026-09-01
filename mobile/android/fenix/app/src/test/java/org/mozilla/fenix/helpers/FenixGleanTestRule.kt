@@ -202,13 +202,13 @@ getApplicationContext
 *
 *
 *
-param
+property
 context
 the
 application
 context
 *
-param
+property
 configToUse
 an
 optional
