@@ -20132,6 +20132,7 @@ controller
 .
 discardResults
 (
+queryContext
 )
 ;
 return

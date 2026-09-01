@@ -16225,6 +16225,7 @@ controller
 .
 discardResults
 (
+queryContext
 )
 ;
 return

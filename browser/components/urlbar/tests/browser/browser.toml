@@ -350,6 +350,13 @@ js
 ]
 [
 "
+browser_discardedQueryNotifications
+.
+js
+"
+]
+[
+"
 browser_display_selectedAction_Extensions
 .
 js
