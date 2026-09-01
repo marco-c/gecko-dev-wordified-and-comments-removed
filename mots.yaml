@@ -120,13 +120,13 @@ updated_at
 -
 08
 -
-17T23
+24T17
 :
-28
+24
 :
-06
+24
 .
-179017
+592118
 +
 00
 :
@@ -4909,6 +4909,7 @@ dev
 accessibility
 url
 :
+<
 https
 :
 /
@@ -4924,6 +4925,7 @@ docs
 Web
 /
 Accessibility
+>
 components
 :
 -
@@ -5237,6 +5239,7 @@ dev
 platform
 url
 :
+<
 https
 :
 /
@@ -5252,6 +5255,7 @@ Platform
 GFX
 /
 APZ
+>
 components
 :
 -
@@ -5347,6 +5351,7 @@ release
 engineering
 url
 :
+<
 https
 :
 /
@@ -5358,6 +5363,7 @@ mozilla
 org
 /
 ReleaseEngineering
+>
 components
 :
 -
@@ -6846,6 +6852,7 @@ Sean
 Feng
 url
 :
+<
 http
 :
 /
@@ -6861,6 +6868,7 @@ en
 docs
 /
 DOM
+>
 components
 :
 -
@@ -6981,6 +6989,7 @@ dev
 platform
 url
 :
+<
 http
 :
 /
@@ -6996,6 +7005,7 @@ en
 docs
 /
 DOM
+>
 components
 :
 -
@@ -7072,6 +7082,7 @@ meta
 :
 url
 :
+<
 http
 :
 /
@@ -7087,6 +7098,7 @@ en
 docs
 /
 DOM
+>
 group
 :
 dev
@@ -7224,6 +7236,7 @@ dev
 platform
 url
 :
+<
 http
 :
 /
@@ -7239,6 +7252,7 @@ en
 docs
 /
 DOM
+>
 components
 :
 -
@@ -7348,6 +7362,7 @@ Source
 Documentation
 url
 :
+<
 https
 :
 /
@@ -7362,6 +7377,7 @@ mozilla
 .
 org
 /
+>
 -
 name
 :
@@ -7452,6 +7468,7 @@ dev
 platform
 url
 :
+<
 https
 :
 /
@@ -7470,6 +7487,7 @@ tools
 /
 profiler
 /
+>
 components
 :
 -
@@ -7616,6 +7634,7 @@ Jonathan
 Almeida
 url
 :
+<
 https
 :
 /
@@ -7629,6 +7648,7 @@ org
 Mobile
 /
 GeckoView
+>
 components
 :
 -
@@ -7724,6 +7744,7 @@ dev
 accessibility
 url
 :
+<
 https
 :
 /
@@ -7747,6 +7768,7 @@ firefox
 tasks
 -
 quickly
+>
 components
 :
 -
@@ -7890,6 +7912,7 @@ dev
 platform
 url
 :
+<
 https
 :
 /
@@ -7903,6 +7926,8 @@ org
 Platform
 /
 GFX
+>
+<
 https
 :
 /
@@ -7916,6 +7941,7 @@ org
 Gecko
 :
 Layers
+>
 https
 :
 /
@@ -8149,6 +8175,7 @@ dev
 platform
 url
 :
+<
 http
 :
 /
@@ -8159,6 +8186,7 @@ validator
 .
 nu
 /
+>
 components
 :
 -
@@ -8398,6 +8426,7 @@ dev
 platform
 url
 :
+<
 https
 :
 /
@@ -8415,6 +8444,7 @@ Web
 API
 /
 IndexedDB_API
+>
 components
 :
 -
@@ -8690,6 +8720,7 @@ Till
 Schneidereit
 url
 :
+<
 https
 :
 /
@@ -8698,6 +8729,7 @@ spidermonkey
 .
 dev
 /
+>
 components
 :
 -
@@ -8949,6 +8981,7 @@ dev
 platform
 url
 :
+<
 https
 :
 /
@@ -8964,6 +8997,7 @@ Gecko
 Overview
 #
 Layout
+>
 components
 :
 -
@@ -9201,6 +9235,7 @@ Blake
 Kaplan
 url
 :
+<
 http
 :
 /
@@ -9218,6 +9253,7 @@ doc
 parser
 .
 html
+>
 components
 :
 -
@@ -9682,6 +9718,7 @@ tech
 mathml
 url
 :
+<
 https
 :
 /
@@ -9697,6 +9734,7 @@ docs
 Web
 /
 MathML
+>
 components
 :
 -
@@ -10223,6 +10261,7 @@ dev
 platform
 url
 :
+<
 https
 :
 /
@@ -10238,6 +10277,7 @@ Platform
 GFX
 /
 Moz2D
+>
 components
 :
 -
@@ -10858,6 +10898,7 @@ Various
 url
 :
 '
+<
 https
 :
 /
@@ -10873,6 +10914,7 @@ Firefox
 firefox
 -
 dev
+>
 #
 nodejs
 on
@@ -11144,6 +11186,7 @@ dev
 platform
 url
 :
+<
 https
 :
 /
@@ -11157,6 +11200,7 @@ mozilla
 pdf
 .
 js
+>
 components
 :
 -
@@ -11324,6 +11368,7 @@ Benjamin
 Smedberg
 url
 :
+<
 https
 :
 /
@@ -11335,6 +11380,7 @@ mozilla
 org
 /
 Plugins
+>
 components
 :
 -
@@ -11497,6 +11543,7 @@ dev
 platform
 url
 :
+<
 https
 :
 /
@@ -11508,6 +11555,7 @@ mozilla
 org
 /
 Private_Browsing
+>
 components
 :
 -
@@ -11583,6 +11631,7 @@ tech
 dom
 url
 :
+<
 http
 :
 /
@@ -11602,6 +11651,7 @@ components
 index
 .
 html
+>
 components
 :
 -
@@ -11817,6 +11867,7 @@ dev
 platform
 url
 :
+<
 https
 :
 /
@@ -11830,6 +11881,7 @@ org
 Security
 /
 Sandbox
+>
 components
 :
 -
@@ -11895,6 +11947,7 @@ dev
 platform
 url
 :
+<
 https
 :
 /
@@ -11908,6 +11961,7 @@ org
 Security
 /
 Sandbox
+>
 components
 :
 -
@@ -11991,6 +12045,7 @@ dev
 platform
 url
 :
+<
 https
 :
 /
@@ -12004,6 +12059,7 @@ org
 Security
 /
 Sandbox
+>
 components
 :
 -
@@ -12523,6 +12579,7 @@ dev
 platform
 url
 :
+<
 https
 :
 /
@@ -12542,6 +12599,7 @@ storage
 index
 .
 html
+>
 components
 :
 -
@@ -12636,6 +12694,7 @@ dev
 platform
 url
 :
+<
 https
 :
 /
@@ -12651,6 +12710,7 @@ Gecko
 Overview
 #
 Style_System
+>
 components
 :
 -
@@ -12846,6 +12906,7 @@ tech
 svg
 url
 :
+<
 https
 :
 /
@@ -12861,6 +12922,7 @@ docs
 Web
 /
 SVG
+>
 components
 :
 -
@@ -12937,6 +12999,7 @@ dev
 platform
 url
 :
+<
 https
 :
 /
@@ -12966,6 +13029,7 @@ User
 Agent
 /
 Firefox
+>
 components
 :
 -
@@ -13146,6 +13210,7 @@ dev
 platform
 url
 :
+<
 https
 :
 /
@@ -13157,6 +13222,7 @@ mozilla
 org
 /
 Web_Audio_API
+>
 components
 :
 -
@@ -13357,6 +13423,7 @@ dev
 platform
 url
 :
+<
 https
 :
 /
@@ -13376,6 +13443,7 @@ API
 Web_Workers_API
 /
 Using_web_workers
+>
 components
 :
 -
@@ -13588,6 +13656,7 @@ dev
 platform
 url
 :
+<
 https
 :
 /
@@ -13603,6 +13672,7 @@ Platform
 GFX
 /
 WebGPU
+>
 components
 :
 -
@@ -13734,6 +13804,7 @@ dev
 media
 url
 :
+<
 https
 :
 /
@@ -13747,6 +13818,7 @@ org
 Media
 /
 webrtc
+>
 components
 :
 -
@@ -13838,6 +13910,7 @@ dev
 platform
 url
 :
+<
 https
 :
 /
@@ -13846,6 +13919,7 @@ mozvr
 .
 com
 /
+>
 components
 :
 -
@@ -13951,6 +14025,7 @@ dev
 media
 url
 :
+<
 https
 :
 /
@@ -13964,6 +14039,7 @@ org
 Media
 /
 webrtc
+>
 components
 :
 -
@@ -14058,6 +14134,7 @@ dev
 media
 url
 :
+<
 https
 :
 /
@@ -14071,6 +14148,7 @@ org
 Media
 /
 webrtc
+>
 components
 :
 -
@@ -14266,6 +14344,7 @@ dev
 platform
 url
 :
+<
 http
 :
 /
@@ -14280,6 +14359,7 @@ ports
 /
 gtk
 /
+>
 review_group
 :
 gtk
@@ -16116,6 +16196,7 @@ nimbus
 reviewers
 url
 :
+<
 https
 :
 /
@@ -16124,6 +16205,7 @@ experimenter
 .
 info
 /
+>
 owners
 :
 -
@@ -16354,6 +16436,7 @@ IP
 Protection
 url
 :
+<
 https
 :
 /
@@ -16372,6 +16455,7 @@ toolkit
 /
 ipprotection
 /
+>
 review_group
 :
 ip
@@ -16563,6 +16647,7 @@ Firefox
 Tours
 url
 :
+<
 https
 :
 /
@@ -16585,6 +16670,7 @@ asrouter
 /
 docs
 /
+>
 review_group
 :
 omc
@@ -16902,6 +16988,7 @@ tgiles
 sfoster
 url
 :
+<
 https
 :
 /
@@ -16915,6 +17002,7 @@ org
 Toolkit
 :
 Password_Manager
+>
 components
 :
 -
@@ -17906,6 +17994,7 @@ n
 Albeza
 url
 :
+<
 http
 :
 /
@@ -17916,6 +18005,7 @@ dev
 .
 tools
 /
+>
 components
 :
 -
@@ -18657,6 +18747,7 @@ Remote
 Protocol
 url
 :
+<
 https
 :
 /
@@ -18673,6 +18764,7 @@ org
 /
 remote
 /
+>
 owners
 :
 -
@@ -19108,6 +19200,7 @@ Ryan
 Kelly
 url
 :
+<
 https
 :
 /
@@ -19123,6 +19216,7 @@ Services
 Process
 /
 Code_Review
+>
 components
 :
 -
@@ -20462,6 +20556,7 @@ meta
 :
 url
 :
+<
 https
 :
 /
@@ -20475,6 +20570,7 @@ org
 Compatibility
 /
 System_Addon
+>
 group
 :
 compatibility
@@ -20672,6 +20768,7 @@ dev
 platform
 url
 :
+<
 https
 :
 /
@@ -20687,6 +20784,8 @@ firefox
 translations
 -
 training
+>
+<
 https
 :
 /
@@ -20702,6 +20801,7 @@ firefox
 translations
 -
 models
+>
 https
 :
 /
@@ -20850,6 +20950,7 @@ group
 sheriffs
 url
 :
+<
 https
 :
 /
@@ -20861,6 +20962,7 @@ mozilla
 org
 /
 Sheriffing
+>
 owner_emeritus
 :
 -
@@ -20971,6 +21073,7 @@ meta
 :
 url
 :
+<
 https
 :
 /
@@ -20984,6 +21087,8 @@ mozilla
 services
 /
 shavar
+>
+<
 https
 :
 /
@@ -20995,6 +21100,7 @@ mozilla
 org
 /
 Phishing_Protection
+>
 https
 :
 /
@@ -21044,7 +21150,7 @@ hashes
 :
 config
 :
-701d07b6d9f52f457a4ddad1d510f55a6e7b9b5c
+2dcf52c120a3a737243179cae7c67cfa4666ff21
 export
 :
-2956c8932a453f43812fb99c8deeffb7f2c01fb7
+290ce29a3a82b29d1d28d8327f05698c55db1334
