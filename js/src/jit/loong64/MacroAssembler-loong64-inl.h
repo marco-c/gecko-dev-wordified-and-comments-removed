@@ -5431,7 +5431,7 @@ Acquire
 (
 )
 ;
-as_or
+ma_move
 (
 output
 .
@@ -5439,7 +5439,6 @@ reg
 input
 .
 reg
-zero
 )
 ;
 as_srai_d
@@ -5685,11 +5684,10 @@ Register
 tmp
 )
 {
-as_or
+ma_move
 (
 output
 input
-zero
 )
 ;
 as_srai_w
