@@ -339,6 +339,14 @@ callback
 )
 ;
 void
+UnsubscribeReceivingState
+(
+void
+*
+tag
+)
+;
+void
 NotifyReceivingState
 (
 PacketTransportInternal
