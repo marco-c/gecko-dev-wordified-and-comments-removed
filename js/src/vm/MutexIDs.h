@@ -98,6 +98,7 @@ WasmInitBuiltinThunks
 451
 )
 \
+\
 _
 (
 StringsCache
@@ -274,7 +275,7 @@ GeckoProfilerScriptSources
 \
 _
 (
-GCLightLock
+GCMarkingLock
 500
 )
 \
@@ -324,6 +325,12 @@ ShellTelemetry
 _
 (
 ShellUseCounters
+600
+)
+\
+_
+(
+GCLightLock
 600
 )
 namespace
