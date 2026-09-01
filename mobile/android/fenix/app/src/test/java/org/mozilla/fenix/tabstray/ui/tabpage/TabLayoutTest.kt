@@ -1982,6 +1982,13 @@ _
 -
 >
 }
+onUngroupTabGroupClick
+=
+{
+_
+-
+>
+}
 onTabGroupOnboardingDismiss
 =
 {
@@ -2216,6 +2223,13 @@ _
 >
 }
 onShareTabGroupClick
+=
+{
+_
+-
+>
+}
+onUngroupTabGroupClick
 =
 {
 _

@@ -1039,6 +1039,10 @@ onDeleteTabGroupClick
 =
 {
 }
+onUngroupTabGroupClick
+=
+{
+}
 onTabGroupOnboardingDismiss
 =
 {
