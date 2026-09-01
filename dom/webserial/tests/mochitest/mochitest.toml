@@ -148,6 +148,13 @@ html
 ]
 [
 "
+test_serial_bluetooth_allowlist
+.
+html
+"
+]
+[
+"
 test_serial_buffer_size
 .
 html
