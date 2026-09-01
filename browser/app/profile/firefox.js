@@ -5763,7 +5763,7 @@ smart
 .
 agglomerativeThresholdInt
 "
-850
+825
 )
 ;
 pref
@@ -16311,7 +16311,7 @@ autoTabGrouping
 .
 maxGroups
 "
-5
+3
 )
 ;
 pref
