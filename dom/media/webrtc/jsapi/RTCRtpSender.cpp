@@ -12549,9 +12549,15 @@ emplace_back
 extmap
 .
 extensionname
+webrtc
+:
+:
+RtpHeaderExtensionId
+(
 extmap
 .
 entry
+)
 )
 ;
 }
