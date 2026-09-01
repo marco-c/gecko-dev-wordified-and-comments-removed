@@ -69,6 +69,9 @@ maxdepth
 :
 1
 gbrowser
+progress
+-
+listeners
 async
 -
 tab
