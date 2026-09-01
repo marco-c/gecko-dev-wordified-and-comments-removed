@@ -316,6 +316,10 @@ ClearOnShutdown
 (
 &
 gJarHandler
+ShutdownPhase
+:
+:
+CCPostLastCycleCollection
 )
 ;
 }
