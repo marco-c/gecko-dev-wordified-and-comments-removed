@@ -2012,6 +2012,11 @@ mInitEndOffset
 mClusterOffset
 <
 0
+&
+&
+mLastInitStartOffset
+<
+mInitEndOffset
 )
 {
 mInitEndOffset
