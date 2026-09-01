@@ -2139,8 +2139,6 @@ engine
 query
 alias
 controller
-.
-browserWindow
 )
 ;
 if
@@ -2566,7 +2564,7 @@ queryContext
 engine
 searchString
 alias
-win
+controller
 )
 {
 if
@@ -3554,7 +3552,7 @@ icon
 UrlbarProviderSearchSuggestions
 .
 RICH_ICON_SIZE
-win
+controller
 )
 helpUrl
 :

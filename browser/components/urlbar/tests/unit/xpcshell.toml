@@ -254,6 +254,13 @@ js
 ]
 [
 "
+test_UrlbarUtils_getRemoteIconUrl
+.
+js
+"
+]
+[
+"
 test_UrlbarUtils_getShortcutOrURIAndPostData
 .
 js

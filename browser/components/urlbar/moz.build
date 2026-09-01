@@ -777,6 +777,17 @@ tests
 /
 browser
 -
+newtab
+/
+browser
+.
+toml
+"
+"
+tests
+/
+browser
+-
 quickactions
 /
 browser
