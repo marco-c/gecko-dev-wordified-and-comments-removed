@@ -84,6 +84,7 @@ ContinuousOnboardingStage
 {
 DAY_2
 DAY_3
+DAY_5
 DAY_7
 NONE
 }

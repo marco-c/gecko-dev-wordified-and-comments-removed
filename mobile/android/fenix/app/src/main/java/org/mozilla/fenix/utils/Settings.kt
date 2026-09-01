@@ -157,6 +157,28 @@ preference
 .
 PreferenceManager
 import
+java
+.
+io
+.
+File
+import
+java
+.
+security
+.
+InvalidParameterException
+import
+java
+.
+util
+.
+concurrent
+.
+TimeUnit
+.
+MILLISECONDS
+import
 mozilla
 .
 components
@@ -772,28 +794,6 @@ fenix
 wallpapers
 .
 Wallpaper
-import
-java
-.
-io
-.
-File
-import
-java
-.
-security
-.
-InvalidParameterException
-import
-java
-.
-util
-.
-concurrent
-.
-TimeUnit
-.
-MILLISECONDS
 private
 const
 val
@@ -1301,7 +1301,6 @@ AutoplayAction
 /
 *
 *
-*
 DoH
 setting
 is
@@ -1327,7 +1326,6 @@ DOH_SETTINGS_DEFAULT
 =
 0
 /
-*
 *
 *
 DoH
@@ -1357,7 +1355,6 @@ DOH_SETTINGS_INCREASED
 /
 *
 *
-*
 DoH
 setting
 is
@@ -1385,7 +1382,6 @@ DOH_SETTINGS_MAX
 /
 *
 *
-*
 DoH
 is
 disabled
@@ -1406,7 +1402,6 @@ DOH_SETTINGS_OFF
 =
 5
 /
-*
 *
 *
 Bug
@@ -1491,7 +1486,6 @@ MODE_PRIVATE
 /
 *
 *
-*
 Indicates
 if
 the
@@ -1537,7 +1531,6 @@ true
 /
 *
 *
-*
 Indicates
 if
 the
@@ -1580,7 +1573,6 @@ true
 }
 )
 /
-*
 *
 *
 Indicates
@@ -1641,7 +1633,6 @@ true
 /
 *
 *
-*
 Indicates
 what
 simple
@@ -1687,7 +1678,6 @@ persistDefaultIfNotExists
 true
 )
 /
-*
 *
 *
 Indicates
@@ -1754,11 +1744,11 @@ the
 tab
 strip
 is
-*
 enabled
 .
 The
 tab
+*
 strip
 provides
 its
@@ -1776,7 +1766,6 @@ separate
 option
 set
 that
-*
 excludes
 it
 .
@@ -1837,11 +1826,11 @@ the
 tab
 -
 strip
-*
 specific
 key
 when
 the
+*
 tab
 strip
 is
@@ -1871,7 +1860,6 @@ toolbarTabStripShortcutKey
 else
 toolbarSimpleShortcutKey
 /
-*
 *
 *
 Indicates
@@ -1937,7 +1925,6 @@ appContext
 /
 *
 *
-*
 Indicates
 whether
 or
@@ -1990,7 +1977,6 @@ true
 /
 *
 *
-*
 Indicates
 whether
 or
@@ -2039,7 +2025,6 @@ SYNCED_TABS
 =
 true
 /
-*
 *
 *
 Indicates
@@ -2091,7 +2076,6 @@ true
 /
 *
 *
-*
 Whether
 the
 Collections
@@ -2136,7 +2120,6 @@ hideCollectionsUi
 /
 *
 *
-*
 Indicates
 whether
 or
@@ -2173,7 +2156,6 @@ value
 .
 enabled
 /
-*
 *
 *
 Indicates
@@ -2224,7 +2206,6 @@ true
 /
 *
 *
-*
 Indicates
 whether
 or
@@ -2272,7 +2253,6 @@ true
 }
 )
 /
-*
 *
 *
 Indicates
@@ -2338,7 +2318,6 @@ sectionsEnabled
 /
 *
 *
-*
 Indicates
 if
 the
@@ -2363,7 +2342,6 @@ get
 !
 enableHomepageSearchBar
 /
-*
 *
 *
 Indicates
@@ -2391,7 +2369,6 @@ enableHomepageSearchBar
 /
 *
 *
-*
 Indicates
 if
 the
@@ -2416,7 +2393,6 @@ get
 !
 enableHomepageSearchBar
 /
-*
 *
 *
 Indicates
@@ -2486,7 +2462,6 @@ tracking
 displaying
 review
 prompt
-*
 to
 recording
 it
@@ -2495,6 +2470,7 @@ an
 event
 in
 Nimbus
+*
 which
 let
 '
@@ -2503,7 +2479,6 @@ us
 check
 if
 later
-*
 with
 a
 JEXL
@@ -2637,7 +2612,6 @@ MILLISECONDS
 }
 }
 /
-*
 *
 *
 Indicates
@@ -2906,8 +2880,8 @@ is
 persisted
 .
 Only
-*
 captured
+*
 from
 a
 tag
@@ -3235,11 +3209,11 @@ profile
 A
 referral
 code
-*
 must
 only
 ever
 be
+*
 reported
 once
 .
@@ -3414,7 +3388,6 @@ the
 current
 wallpaper
 .
-*
 The
 value
 will
@@ -3424,6 +3397,7 @@ if
 the
 color
 is
+*
 unavailable
 .
 *
@@ -3470,11 +3444,11 @@ the
 user
 '
 s
-*
 theme
 is
 set
 to
+*
 Light
 .
 *
@@ -3521,11 +3495,11 @@ the
 user
 '
 s
-*
 theme
 is
 set
 to
+*
 Dark
 .
 *
@@ -3550,7 +3524,6 @@ default
 0
 )
 /
-*
 *
 *
 Indicates
@@ -3589,7 +3562,6 @@ true
 /
 *
 *
-*
 Indicates
 if
 the
@@ -3626,7 +3598,6 @@ default
 true
 )
 /
-*
 *
 *
 Indicates
@@ -4047,7 +4018,6 @@ true
 /
 *
 *
-*
 The
 date
 the
@@ -4150,7 +4120,6 @@ default
 /
 *
 *
-*
 The
 version
 of
@@ -4196,7 +4165,6 @@ else
 }
 )
 /
-*
 *
 *
 Returns
@@ -4246,7 +4214,6 @@ enabled
 }
 )
 /
-*
 *
 *
 Returns
@@ -4302,7 +4269,6 @@ enableDragToDismiss
 }
 )
 /
-*
 *
 *
 The
@@ -4413,7 +4379,6 @@ maxDisplayCount
 /
 *
 *
-*
 The
 total
 number
@@ -4471,13 +4436,13 @@ to
 the
 user
 .
-*
 A
 value
 of
 0L
 indicates
 that
+*
 the
 prompt
 has
@@ -4527,7 +4492,6 @@ them
 to
 accept
 .
-*
 They
 can
 select
@@ -4537,6 +4501,7 @@ now
 "
 to
 postpone
+*
 accepting
 .
 *
@@ -4604,10 +4569,10 @@ the
 default
 value
 to
-*
 [
 isTelemetryEnabled
 ]
+*
 because
 this
 setting
@@ -4621,7 +4586,6 @@ we
 want
 to
 make
-*
 sure
 that
 users
@@ -4630,6 +4594,7 @@ upgrade
 and
 had
 telemetry
+*
 disabled
 don
 '
@@ -4637,7 +4602,6 @@ t
 start
 sending
 the
-*
 daily
 usage
 ping
@@ -4705,13 +4669,13 @@ so
 that
 we
 know
-*
 if
 we
 should
 re
 -
 enable
+*
 experimentation
 if
 the
@@ -4761,18 +4725,17 @@ remote
 improvements
 )
 .
-*
 Rollouts
 are
 completely
 decoupled
 from
+*
 telemetry
 and
 experiments
 so
 users
-*
 can
 receive
 feature
@@ -4783,6 +4746,7 @@ their
 telemetry
 or
 experiment
+*
 settings
 .
 *
@@ -4838,11 +4802,11 @@ prompt
 was
 requested
 .
-*
 Used
 to
 calculate
 the
+*
 response
 time
 and
@@ -4853,7 +4817,6 @@ prompt
 was
 automatically
 suppressed
-*
 by
 the
 system
@@ -4870,6 +4833,7 @@ t
 ask
 again
 "
+*
 is
 active
 )
@@ -5009,7 +4973,6 @@ field
 |
 isDebugMenuPersistentlyRevealed
 /
-*
 *
 *
 Preference
@@ -5421,13 +5384,13 @@ the
 [
 BrowserFragment
 ]
-*
 This
 is
 useful
 to
 determine
 if
+*
 the
 user
 has
@@ -5438,7 +5401,6 @@ the
 [
 HomeFragment
 ]
-*
 or
 it
 should
@@ -5469,9 +5431,9 @@ never
 had
 any
 interaction
-*
 with
 the
+*
 [
 BrowserFragment
 ]
@@ -5497,7 +5459,6 @@ default
 0L
 )
 /
-*
 *
 *
 Records
@@ -5548,7 +5509,6 @@ the
 [
 HomeFragment
 ]
-*
 This
 is
 useful
@@ -5556,6 +5516,7 @@ to
 determine
 if
 the
+*
 user
 has
 to
@@ -5565,7 +5526,6 @@ the
 [
 HomeFragment
 ]
-*
 or
 it
 should
@@ -5596,7 +5556,6 @@ never
 had
 any
 interaction
-*
 with
 the
 [
@@ -5624,7 +5583,6 @@ default
 0L
 )
 /
-*
 *
 *
 Records
@@ -5680,7 +5638,6 @@ defaultOption
 /
 *
 *
-*
 Indicates
 if
 the
@@ -5696,7 +5653,6 @@ the
 home
 screen
 after
-*
 four
 hours
 of
@@ -5731,7 +5687,6 @@ HOMEPAGE_FOUR_HOURS
 }
 )
 /
-*
 *
 *
 Indicates
@@ -5799,7 +5754,6 @@ home
 screen
 and
 have
-*
 their
 last
 tab
@@ -5834,7 +5788,6 @@ LAST_TAB
 }
 )
 /
-*
 *
 *
 Indicates
@@ -5897,7 +5850,6 @@ isNightlyOrDebug
 }
 )
 /
-*
 *
 *
 Indicates
@@ -5986,10 +5938,10 @@ we
 are
 blocking
 or
-*
 allowing
 requests
 that
+*
 originate
 from
 remote
@@ -5999,7 +5951,6 @@ either
 localhost
 addresses
 or
-*
 local
 network
 addresses
@@ -6049,7 +6000,6 @@ isNightlyOrDebug
 /
 *
 *
-*
 Indicates
 whether
 isolated
@@ -6096,7 +6046,6 @@ enabled
 }
 )
 /
-*
 *
 *
 Indicates
@@ -6149,7 +6098,6 @@ appZygotePreloading
 }
 )
 /
-*
 *
 *
 Indicates
@@ -6230,7 +6178,6 @@ false
 /
 *
 *
-*
 Indicates
 if
 the
@@ -6264,7 +6211,6 @@ default
 true
 )
 /
-*
 *
 *
 Indicates
@@ -6301,7 +6247,6 @@ default
 true
 )
 /
-*
 *
 *
 Indicates
@@ -6347,7 +6292,6 @@ true
 /
 *
 *
-*
 Indicates
 if
 the
@@ -6361,7 +6305,6 @@ the
 Remote
 Settings
 crash
-*
 pull
 UI
 .
@@ -6641,7 +6584,6 @@ false
 /
 *
 *
-*
 Get
 the
 display
@@ -6757,7 +6699,6 @@ preferences_open_links_in_apps_never
 }
 }
 /
-*
 *
 *
 Get
@@ -7024,8 +6965,8 @@ as
 a
 variable
 using
-*
 booleanPreference
+*
 like
 other
 members
@@ -7042,7 +6983,6 @@ it
 so
 it
 will
-*
 be
 initialized
 once
@@ -7050,6 +6990,7 @@ Settings
 .
 kt
 is
+*
 first
 called
 which
@@ -7061,7 +7002,6 @@ isDefaultBrowserBlocking
 (
 )
 .
-*
 This
 will
 lead
@@ -7069,6 +7009,7 @@ to
 a
 performance
 regression
+*
 since
 that
 function
@@ -7140,7 +7081,6 @@ wasDefaultBrowserOnLastResume
 /
 *
 *
-*
 This
 function
 is
@@ -7162,7 +7102,6 @@ timing
 taken
 on
 a
-*
 G5
 +
 )
@@ -8028,12 +7967,12 @@ taken
 when
 a
 user
-*
 initiates
 a
 deletion
 for
 a
+*
 download
 entry
 in
@@ -8044,7 +7983,6 @@ The
 preference
 is
 stored
-*
 as
 an
 integer
@@ -8056,6 +7994,7 @@ or
 updated
 via
 the
+*
 deleteDownloadBehavior
 setting
 .
@@ -8086,7 +8025,6 @@ Int
 /
 *
 *
-*
 Deletes
 the
 file
@@ -8104,7 +8042,6 @@ DELETE_FROM_DEVICE
 0
 )
 /
-*
 *
 *
 Only
@@ -8132,7 +8069,6 @@ REMOVE_FROM_HISTORY
 1
 )
 /
-*
 *
 *
 Prompts
@@ -8426,7 +8362,6 @@ gestures
 if
 any
 can
-*
 then
 it
 is
@@ -8434,6 +8369,7 @@ is
 likely
 *
 a
+*
 switch
 service
 is
@@ -8672,7 +8608,6 @@ quit
 "
 feature
 .
-*
 It
 writes
 the
@@ -8681,6 +8616,7 @@ user
 s
 choice
 to
+*
 SharedPreferences
 for
 the
@@ -8688,7 +8624,6 @@ given
 data
 type
 .
-*
 The
 value
 is
@@ -8791,12 +8726,12 @@ data
 on
 quit
 "
-*
 feature
 is
 active
 in
 any
+*
 capacity
 .
 It
@@ -8806,7 +8741,6 @@ all
 possible
 data
 types
-*
 and
 returns
 true
@@ -8819,6 +8753,7 @@ them
 is
 set
 for
+*
 deletion
 .
 *
@@ -8838,12 +8773,12 @@ to
 display
 a
 general
-*
 indicator
 that
 the
 feature
 is
+*
 enabled
 without
 needing
@@ -9083,7 +9018,6 @@ false
 /
 *
 *
-*
 Indicates
 if
 the
@@ -9119,7 +9053,6 @@ default
 true
 )
 /
-*
 *
 *
 Indicates
@@ -9267,7 +9200,6 @@ true
 /
 *
 *
-*
 Indicates
 if
 the
@@ -9320,7 +9252,6 @@ be
 visible
 based
 on
-*
 if
 the
 user
@@ -9328,10 +9259,10 @@ has
 dismissed
 it
 before
+*
 [
 hasInactiveTabsAutoCloseDialogBeenDismissed
 ]
-*
 if
 the
 minimum
@@ -9387,7 +9318,6 @@ INACTIVE_TAB_MINIMUM_TO_SHOW_AUTO_CLOSE_DIALOG
 closeTabsAfterOneMonth
 }
 /
-*
 *
 *
 Returns
@@ -9464,13 +9394,13 @@ settings
 AUTOPLAY_AUDIBLE
 ]
 and
-*
 [
 AUTOPLAY_INAUDIBLE
 ]
 .
 The
 user
+*
 selection
 cannot
 be
@@ -9480,7 +9410,6 @@ the
 combination
 of
 these
-*
 settings
 because
 while
@@ -9488,12 +9417,12 @@ on
 [
 AUTOPLAY_ALLOW_ON_WIFI
 ]
+*
 they
 will
 be
 indistinguishable
 from
-*
 either
 [
 AUTOPLAY_ALLOW_ALL
@@ -9508,10 +9437,10 @@ of
 this
 we
 are
+*
 forced
 to
 save
-*
 the
 user
 selected
@@ -9566,13 +9495,13 @@ settings
 AUTOPLAY_AUDIBLE
 ]
 and
-*
 [
 AUTOPLAY_INAUDIBLE
 ]
 .
 The
 user
+*
 selection
 cannot
 be
@@ -9582,7 +9511,6 @@ the
 combination
 of
 these
-*
 settings
 because
 while
@@ -9590,12 +9518,12 @@ on
 [
 AUTOPLAY_ALLOW_ON_WIFI
 ]
+*
 they
 will
 be
 indistinguishable
 from
-*
 either
 [
 AUTOPLAY_ALLOW_ALL
@@ -9610,10 +9538,10 @@ of
 this
 we
 are
+*
 forced
 to
 save
-*
 the
 user
 selected
@@ -9672,7 +9600,6 @@ toAutoplayAction
 (
 )
 /
-*
 *
 *
 Sets
@@ -9943,7 +9870,6 @@ true
 /
 *
 *
-*
 Tracks
 whether
 we
@@ -10001,12 +9927,12 @@ false
 denotes
 already
 checked
-*
 and
 [
 true
 ]
 denotes
+*
 needing
 to
 check
@@ -10095,11 +10021,11 @@ int
 to
 boolean
 without
-*
 changing
 the
 pref
 key
+*
 now
 we
 have
@@ -10113,7 +10039,6 @@ the
 previous
 type
 int
-*
 to
 the
 new
@@ -10123,11 +10048,11 @@ boolean
 The
 migration
 will
+*
 only
 happens
 if
 pref_key_search_widget_installed
-*
 is
 detected
 .
@@ -10209,7 +10134,6 @@ false
 /
 *
 *
-*
 Indicates
 if
 the
@@ -10261,9 +10185,9 @@ application
 after
 the
 legacy
-*
 Pocket
 feature
+*
 was
 removed
 .
@@ -10294,7 +10218,6 @@ true
 }
 }
 /
-*
 *
 *
 Indicates
@@ -10340,11 +10263,11 @@ left
 behind
 on
 existing
-*
 application
 after
 the
 legacy
+*
 cookie
 banner
 feature
@@ -10433,7 +10356,6 @@ default
 true
 )
 /
-*
 *
 *
 Check
@@ -10538,7 +10460,6 @@ false
 }
 }
 /
-*
 *
 *
 Check
@@ -10945,7 +10866,6 @@ pref_key_desktop_bookmarks_size
 /
 *
 *
-*
 Storing
 number
 of
@@ -10990,7 +10910,6 @@ ons
 for
 telemetry
 purposes
-*
 Addons
 are
 separated
@@ -11001,6 +10920,7 @@ e
 .
 g
 .
+*
 "
 addon1
 addon2
@@ -11048,7 +10968,6 @@ will
 be
 hidden
 .
-*
 The
 value
 is
@@ -11058,6 +10977,7 @@ with
 one
 of
 the
+*
 following
 forms
 :
@@ -11158,7 +11078,6 @@ adM
 /
 *
 *
-*
 Storing
 number
 of
@@ -11189,7 +11108,6 @@ pref_key_enabled_addons_count
 0
 )
 /
-*
 *
 *
 Storing
@@ -11528,7 +11446,6 @@ true
 /
 *
 *
-*
 Address
 Sync
 feature
@@ -11600,7 +11517,6 @@ appContext
 )
 )
 /
-*
 *
 *
 Returns
@@ -11728,7 +11644,6 @@ doesDeviceHaveHinge
 /
 *
 *
-*
 Show
 the
 Addresses
@@ -11842,14 +11757,13 @@ save
 and
 autofill
 cards
-*
 should
 be
 enabled
+*
 or
 not
 .
-*
 If
 set
 to
@@ -11920,18 +11834,17 @@ Addresses
 settings
 for
 whether
-*
 save
 and
 autofill
 addresses
 should
 be
+*
 enabled
 or
 not
 .
-*
 If
 set
 to
@@ -11992,7 +11905,6 @@ true
 /
 *
 *
-*
 Indicates
 if
 the
@@ -12026,7 +11938,6 @@ default
 true
 )
 /
-*
 *
 *
 Blocklist
@@ -12119,10 +12030,10 @@ Profile
 generator
 back
 into
-*
 onboarding
 .
 In
+*
 benchmark
 builds
 onboarding
@@ -12136,12 +12047,12 @@ don
 '
 t
 spend
-*
 emulator
 time
 dismissing
 it
 ;
+*
 ignored
 in
 every
@@ -12233,11 +12144,11 @@ shown
 every
 time
 HomeActivity
-*
 is
 created
 .
 When
+*
 true
 onboarding
 is
@@ -12251,12 +12162,12 @@ false
 onboarding
 is
 only
-*
 shown
 based
 on
 the
 default
+*
 conditions
 .
 *
@@ -12303,7 +12214,6 @@ false
 /
 *
 *
-*
 Indicates
 if
 the
@@ -12321,7 +12231,6 @@ FeatureFlags
 .
 onboardingFeatureEnabled
 /
-*
 *
 *
 The
@@ -12354,7 +12263,6 @@ default
 0
 )
 /
-*
 *
 *
 The
@@ -12395,7 +12303,6 @@ default
 /
 *
 *
-*
 Records
 the
 current
@@ -12424,7 +12331,6 @@ currentTimeMillis
 )
 }
 /
-*
 *
 *
 Indicates
@@ -12474,7 +12380,6 @@ enabled
 /
 *
 *
-*
 The
 completion
 timestamp
@@ -12511,7 +12416,6 @@ default
 1L
 )
 /
-*
 *
 *
 The
@@ -12552,6 +12456,43 @@ default
 /
 *
 *
+The
+completion
+timestamp
+of
+the
+fifth
+day
+of
+continuous
+onboarding
+.
+*
+/
+var
+fifthDayOnboardingCompletedTimestamp
+by
+longPreference
+(
+key
+=
+appContext
+.
+getPreferenceKey
+(
+R
+.
+string
+.
+pref_key_continuous_onboarding_day_five_completed_timestamp
+)
+default
+=
+-
+1L
+)
+/
+*
 *
 The
 completion
@@ -12589,7 +12530,6 @@ default
 1L
 )
 /
-*
 *
 *
 Indicates
@@ -12662,7 +12602,6 @@ atBottomWhileEnteringText
 /
 *
 *
-*
 Indicates
 whether
 or
@@ -12710,7 +12649,6 @@ enabled
 }
 )
 /
-*
 *
 *
 Get
@@ -13020,7 +12958,6 @@ default
 /
 *
 *
-*
 Indicates
 if
 the
@@ -13061,7 +12998,6 @@ default
 false
 )
 /
-*
 *
 *
 Indicates
@@ -13111,7 +13047,6 @@ enabled
 }
 )
 /
-*
 *
 *
 Whether
@@ -13165,7 +13100,6 @@ enabled
 /
 *
 *
-*
 Indicates
 if
 the
@@ -13199,7 +13133,6 @@ default
 false
 )
 /
-*
 *
 *
 Indicates
@@ -13252,7 +13185,6 @@ enabled
 /
 *
 *
-*
 Indicates
 if
 Firefox
@@ -13286,7 +13218,6 @@ FeatureFlags
 FIREFOX_LABS
 )
 /
-*
 *
 *
 Indicates
@@ -13323,7 +13254,6 @@ default
 false
 )
 /
-*
 *
 *
 Indicates
@@ -13372,7 +13302,6 @@ enabled
 /
 *
 *
-*
 Indicates
 if
 more
@@ -13419,7 +13348,6 @@ enabled
 /
 *
 *
-*
 Indicates
 if
 Merino
@@ -13463,7 +13391,6 @@ enabled
 }
 )
 /
-*
 *
 *
 Indicates
@@ -13513,7 +13440,6 @@ enabled
 /
 *
 *
-*
 Indicates
 if
 the
@@ -13553,7 +13479,6 @@ true
 /
 *
 *
-*
 Adjust
 Activated
 User
@@ -13582,7 +13507,6 @@ default
 false
 )
 /
-*
 *
 *
 Font
@@ -13614,7 +13538,6 @@ default
 0
 )
 /
-*
 *
 *
 Indicates
@@ -13673,11 +13596,11 @@ search
 settings
 UI
 .
-*
 Should
 be
 removed
 once
+*
 we
 expect
 the
@@ -13688,7 +13611,6 @@ users
 to
 migrate
 .
-*
 Tracking
 :
 https
@@ -13732,7 +13654,6 @@ default
 false
 )
 /
-*
 *
 *
 Indicates
@@ -13791,7 +13712,6 @@ FX_SUGGEST
 /
 *
 *
-*
 Indicates
 if
 boosting
@@ -13824,7 +13744,6 @@ value
 .
 boostAmpWiki
 /
-*
 *
 *
 Indicates
@@ -13875,11 +13794,11 @@ in
 the
 awesomebar
 .
-*
 The
 default
 value
 is
+*
 computed
 lazily
 and
@@ -13946,12 +13865,12 @@ web
 content
 in
 the
-*
 awesomebar
 .
 The
 default
 value
+*
 is
 computed
 lazily
@@ -13961,7 +13880,6 @@ on
 whether
 Firefox
 Suggest
-*
 is
 enabled
 .
@@ -14016,7 +13934,6 @@ warned
 of
 a
 translations
-*
 model
 download
 while
@@ -14026,6 +13943,7 @@ saver
 mode
 and
 using
+*
 mobile
 data
 .
@@ -14051,7 +13969,6 @@ default
 false
 )
 /
-*
 *
 *
 Indicates
@@ -14125,13 +14042,13 @@ so
 turning
 suggestions
 off
-*
 does
 not
 hide
 the
 feature
 from
+*
 Settings
 .
 This
@@ -14165,7 +14082,6 @@ default
 true
 )
 /
-*
 *
 *
 Indicates
@@ -14202,7 +14118,6 @@ default
 true
 )
 /
-*
 *
 *
 Indicates
@@ -14269,11 +14184,11 @@ Resources
 matching
 the
 display
-*
 the
 UI
 is
 currently
+*
 rendered
 on
 .
@@ -14374,7 +14289,6 @@ dimen
 /
 *
 *
-*
 Indicates
 if
 the
@@ -14421,7 +14335,6 @@ enabled
 /
 *
 *
-*
 Nimbus
 controlled
 feature
@@ -14436,7 +14349,6 @@ Summarize
 feature
 should
 be
-*
 enabled
 *
 /
@@ -14495,7 +14407,6 @@ default
 true
 )
 /
-*
 *
 *
 Feature
@@ -14641,7 +14552,6 @@ false
 /
 *
 *
-*
 Indicates
 if
 the
@@ -14712,10 +14622,10 @@ user
 does
 not
 see
-*
 the
 bottom
 sheet
+*
 again
 .
 This
@@ -14727,7 +14637,6 @@ the
 user
 once
 and
-*
 if
 they
 dismiss
@@ -14748,6 +14657,7 @@ now
 or
 "
 Get
+*
 started
 "
 )
@@ -14783,7 +14693,6 @@ default
 false
 )
 /
-*
 *
 *
 Indicates
@@ -14950,7 +14859,6 @@ has
 been
 shown
 .
-*
 Used
 to
 control
@@ -14959,6 +14867,7 @@ highlight
 badge
 visibility
 for
+*
 feature
 discovery
 .
@@ -15003,7 +14912,6 @@ more
 menu
 item
 .
-*
 Used
 to
 control
@@ -15011,6 +14919,7 @@ highlight
 /
 badge
 visibility
+*
 for
 feature
 discovery
@@ -15057,13 +14966,13 @@ menu
 entry
 point
 .
-*
 Used
 to
 control
 highlight
 /
 badge
+*
 visibility
 for
 feature
@@ -15093,7 +15002,6 @@ maxCount
 1
 )
 /
-*
 *
 *
 Tracks
@@ -15135,7 +15043,6 @@ false
 /
 *
 *
-*
 Indicates
 if
 a
@@ -15169,7 +15076,6 @@ default
 false
 )
 /
-*
 *
 *
 Last
@@ -15211,7 +15117,6 @@ default
 /
 *
 *
-*
 Records
 the
 current
@@ -15243,7 +15148,6 @@ currentTimeMillis
 )
 }
 /
-*
 *
 *
 Number
@@ -15286,7 +15190,6 @@ default
 /
 *
 *
-*
 Indicates
 if
 the
@@ -15324,7 +15227,6 @@ false
 /
 *
 *
-*
 Number
 of
 app
@@ -15359,7 +15261,6 @@ default
 0
 )
 /
-*
 *
 *
 Feature
@@ -15421,12 +15322,12 @@ is
 shown
 on
 eligible
-*
 error
 pages
 .
 Off
 by
+*
 default
 ;
 the
@@ -15464,7 +15365,6 @@ default
 false
 )
 /
-*
 *
 *
 Indicates
@@ -15631,13 +15531,13 @@ prompt
 has
 been
 shown
-*
 records
 the
 current
 time
 as
 the
+*
 last
 time
 the
@@ -15646,7 +15546,6 @@ was
 shown
 and
 resets
-*
 the
 counter
 for
@@ -15696,10 +15595,10 @@ deny
 submitted
 a
 crash
-*
 during
 which
 we
+*
 avoid
 showing
 the
@@ -15746,11 +15645,11 @@ date
 for
 fetching
 crashes
-*
 from
 the
 database
 .
+*
 Crashes
 that
 occurred
@@ -15761,13 +15660,13 @@ are
 ignored
 ensuring
 the
-*
 unsubmitted
 crash
 dialog
 is
 not
 displayed
+*
 for
 older
 crashes
@@ -15796,7 +15695,6 @@ default
 /
 *
 *
-*
 Do
 not
 show
@@ -15807,7 +15705,6 @@ before
 this
 date
 .
-*
 cf
 browser
 .
@@ -15906,7 +15803,6 @@ default
 /
 *
 *
-*
 Indicates
 whether
 or
@@ -15944,7 +15840,6 @@ default
 false
 )
 /
-*
 *
 *
 Indicates
@@ -16077,7 +15972,6 @@ by
 the
 user
 .
-*
 Defaults
 to
 an
@@ -16087,6 +15981,7 @@ if
 no
 provider
 is
+*
 set
 .
 *
@@ -16126,7 +16021,6 @@ default
 DoH
 provider
 .
-*
 Bug
 1946867
 -
@@ -16135,6 +16029,7 @@ Currently
 hardcoded
 "
 to
+*
 "
 https
 :
@@ -16178,7 +16073,6 @@ CLOUDFLARE_URI
 /
 *
 *
-*
 Stores
 a
 set
@@ -16219,7 +16113,6 @@ emptySet
 )
 )
 /
-*
 *
 *
 Retrieves
@@ -16291,7 +16184,6 @@ DEFAULT
 /
 *
 *
-*
 Updates
 trrMode
 by
@@ -16355,7 +16247,6 @@ DOH_SETTINGS_OFF
 /
 *
 *
-*
 Indicates
 if
 the
@@ -16394,7 +16285,6 @@ default
 false
 )
 /
-*
 *
 *
 Indicates
@@ -16436,7 +16326,6 @@ false
 /
 *
 *
-*
 Indicates
 if
 the
@@ -16473,7 +16362,6 @@ default
 false
 )
 /
-*
 *
 *
 Indicates
@@ -16517,7 +16405,6 @@ false
 /
 *
 *
-*
 Indicates
 if
 this
@@ -16550,7 +16437,6 @@ default
 false
 )
 /
-*
 *
 *
 Indicates
@@ -16597,7 +16483,6 @@ enabled
 }
 )
 /
-*
 *
 *
 Indicates
@@ -16659,7 +16544,6 @@ appContext
 /
 *
 *
-*
 Distribution
 ID
 that
@@ -16700,7 +16584,6 @@ default
 /
 *
 *
-*
 Whether
 the
 Tab
@@ -16738,7 +16621,6 @@ openingAnimationEnabled
 }
 )
 /
-*
 *
 *
 Whether
@@ -16808,7 +16690,6 @@ since
 the
 news
 button
-*
 animation
 was
 last
@@ -16838,7 +16719,6 @@ default
 0
 )
 /
-*
 *
 *
 The
@@ -16876,7 +16756,6 @@ default
 0L
 )
 /
-*
 *
 *
 Increments
@@ -16928,11 +16807,11 @@ animation
 is
 shown
 every
-*
 5
 foreground
 visits
 and
+*
 at
 most
 once
@@ -16989,9 +16868,9 @@ the
 last
 shown
 timestamp
-*
 and
 resetting
+*
 [
 newsButtonForegroundCount
 ]
@@ -17013,7 +16892,6 @@ newsButtonForegroundCount
 0
 }
 /
-*
 *
 *
 Whether
@@ -17052,7 +16930,6 @@ tabGroupsEnabled
 }
 )
 /
-*
 *
 *
 Whether
@@ -17095,7 +16972,6 @@ tabGroupsDragAndDropEnabled
 }
 )
 /
-*
 *
 *
 Control
@@ -17143,7 +17019,6 @@ tabGroupsLiveReorderEnabled
 /
 *
 *
-*
 Whether
 onboarding
 is
@@ -17182,7 +17057,6 @@ tabGroupsOnboardingEnabled
 }
 )
 /
-*
 *
 *
 Whether
@@ -17280,8 +17154,8 @@ Lens
 integration
 is
 active
-*
 when
+*
 [
 googleLensIntegrationEnabled
 ]
@@ -17296,7 +17170,6 @@ QR
 scanner
 is
 used
-*
 and
 the
 "
@@ -17305,6 +17178,7 @@ with
 Google
 Lens
 "
+*
 image
 context
 menu
@@ -17354,7 +17228,6 @@ bottom
 sheet
 by
 tapping
-*
 "
 Try
 it
@@ -17364,6 +17237,7 @@ now
 Set
 only
 on
+*
 that
 action
 so
@@ -17402,7 +17276,6 @@ default
 false
 )
 /
-*
 *
 *
 Whether
@@ -17457,7 +17330,6 @@ enabled
 }
 )
 /
-*
 *
 *
 Whether
@@ -17521,12 +17393,12 @@ from
 background
 )
 .
-*
 Used
 to
 gate
 the
 longfox
+*
 peek
 animation
 .
@@ -17571,9 +17443,9 @@ on
 the
 homepage
 .
-*
 Capped
 at
+*
 [
 LONGFOX_PEEK_ANIMATION_MAX_SHOWS
 ]
@@ -17627,13 +17499,13 @@ armed
 for
 the
 current
-*
 app
 foreground
 :
 feature
 enabled
 not
+*
 yet
 reached
 the
@@ -17674,7 +17546,6 @@ LONGFOX_PEEK_ANIMATION_LAUNCH_INTERVAL
 =
 0
 /
-*
 *
 *
 Indicates
@@ -17759,7 +17630,6 @@ path
 /
 *
 *
-*
 Whether
 WebCompat
 Reporter
@@ -17817,13 +17687,13 @@ feature
 is
 enabled
 .
-*
 It
 checks
 if
 the
 feature
 is
+*
 activated
 via
 the
@@ -17874,7 +17744,6 @@ enabled
 /
 *
 *
-*
 Indicates
 if
 the
@@ -17921,7 +17790,6 @@ enabled
 /
 *
 *
-*
 Indicates
 if
 Homepage
@@ -17965,7 +17833,6 @@ enabled
 }
 )
 /
-*
 *
 *
 Indicates
@@ -18017,7 +17884,6 @@ enabled
 }
 )
 /
-*
 *
 *
 Indicates
