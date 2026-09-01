@@ -998,7 +998,6 @@ CharT
 typename
 ListT
 >
-static
 bool
 MatchesAnyOf
 (
