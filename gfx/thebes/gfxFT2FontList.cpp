@@ -2805,7 +2805,7 @@ bool
 FT2FontEntry
 :
 :
-HasFontTable
+HasFontTableInternal
 (
 uint32_t
 aTableTag
