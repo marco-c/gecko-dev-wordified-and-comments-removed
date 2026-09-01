@@ -297,16 +297,12 @@ UniquePtr
 AVIFParser
 >
 mParser
-=
-nullptr
 ;
 UniquePtr
 <
 AVIFDecoderInterface
 >
 mDecoder
-=
-nullptr
 ;
 bool
 mIsAnimated
