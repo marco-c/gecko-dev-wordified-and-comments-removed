@@ -731,10 +731,10 @@ allow_pipewire
 )
 &
 &
-DesktopCapturer
+BaseCapturerPipeWire
 :
 :
-IsRunningUnderWayland
+IsSupported
 (
 )
 )
