@@ -2328,12 +2328,12 @@ _doc
 .
 forceNonNativeTheme
 =
-!
-!
-builtinThemeConfig
-?
+theme
 .
-nonNative
+id
+!
+=
+DEFAULT_THEME_ID
 ;
 let
 root

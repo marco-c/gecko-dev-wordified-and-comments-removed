@@ -257,9 +257,6 @@ light
 inApp
 :
 true
-nonNative
-:
-true
 }
 ]
 [
@@ -298,9 +295,6 @@ dark
 /
 "
 inApp
-:
-true
-nonNative
 :
 true
 }
