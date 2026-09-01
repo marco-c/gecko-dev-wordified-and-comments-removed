@@ -181,6 +181,8 @@ rawEndpoint
 :
 ContentRecommendationEndpointRaw
 )
+:
+ContentRecommendationsProvider
 {
 /
 *
@@ -232,6 +234,7 @@ error
 *
 /
 WorkerThread
+override
 fun
 getContentRecommendations
 (

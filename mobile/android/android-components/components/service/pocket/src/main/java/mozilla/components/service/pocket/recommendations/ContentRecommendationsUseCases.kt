@@ -133,6 +133,20 @@ service
 .
 pocket
 .
+recommendations
+.
+api
+.
+ContentRecommendationsProvider
+import
+mozilla
+.
+components
+.
+service
+.
+pocket
+.
 stories
 .
 api
@@ -552,7 +566,7 @@ Boolean
 val
 response
 =
-getContentRecommendationsEndpoint
+getContentRecommendationsProvider
 (
 client
 config
@@ -749,7 +763,7 @@ context
 VisibleForTesting
 internal
 fun
-getContentRecommendationsEndpoint
+getContentRecommendationsProvider
 (
 client
 :
@@ -758,6 +772,8 @@ config
 :
 ContentRecommendationsRequestConfig
 )
+:
+ContentRecommendationsProvider
 =
 ContentRecommendationsEndpoint
 .

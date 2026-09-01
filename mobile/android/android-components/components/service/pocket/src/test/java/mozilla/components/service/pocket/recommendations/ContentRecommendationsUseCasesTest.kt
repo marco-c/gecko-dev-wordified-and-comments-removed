@@ -143,7 +143,7 @@ recommendations
 .
 api
 .
-ContentRecommendationsEndpoint
+ContentRecommendationsProvider
 import
 mozilla
 .
@@ -317,9 +317,9 @@ mock
 )
 private
 val
-endPoint
+provider
 :
-ContentRecommendationsEndpoint
+ContentRecommendationsProvider
 =
 mock
 (
@@ -332,7 +332,7 @@ setup
 {
 doReturn
 (
-endPoint
+provider
 )
 .
 when
@@ -340,7 +340,7 @@ when
 useCases
 )
 .
-getContentRecommendationsEndpoint
+getContentRecommendationsProvider
 (
 any
 (
@@ -482,7 +482,7 @@ response
 .
 when
 (
-endPoint
+provider
 )
 .
 getContentRecommendations
@@ -502,7 +502,7 @@ result
 )
 verify
 (
-endPoint
+provider
 )
 .
 getContentRecommendations
@@ -572,7 +572,7 @@ response
 .
 when
 (
-endPoint
+provider
 )
 .
 getContentRecommendations
@@ -592,7 +592,7 @@ result
 )
 verify
 (
-endPoint
+provider
 )
 .
 getContentRecommendations
