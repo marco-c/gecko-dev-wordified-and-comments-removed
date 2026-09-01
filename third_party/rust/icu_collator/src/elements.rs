@@ -11190,6 +11190,10 @@ drain_from_upcoming
 =
 0
 ;
+looked_ahead
+=
+0
+;
 self
 .
 collect_combining
