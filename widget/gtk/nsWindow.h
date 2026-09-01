@@ -975,12 +975,6 @@ Destroy
 )
 override
 ;
-float
-GetDPI
-(
-)
-override
-;
 double
 GetDefaultScaleInternal
 (
@@ -2720,6 +2714,14 @@ ConfigureToplevelWindow
 virtual
 void
 ConfigureToplevelWindowNative
+(
+)
+{
+}
+;
+virtual
+void
+OnMapNative
 (
 )
 {

@@ -720,12 +720,6 @@ nsIWidget
 )
 override
 ;
-float
-GetDPI
-(
-)
-override
-;
 double
 GetDefaultScaleInternal
 (
