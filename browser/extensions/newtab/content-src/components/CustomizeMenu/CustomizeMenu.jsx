@@ -1105,7 +1105,7 @@ end
 type
 =
 "
-default
+primary
 "
 >
 <

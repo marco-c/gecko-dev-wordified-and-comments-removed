@@ -8112,7 +8112,7 @@ button
 type
 =
 "
-icon
+primary
 "
 className
 =

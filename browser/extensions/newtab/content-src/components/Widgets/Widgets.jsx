@@ -3664,6 +3664,11 @@ maximized
 "
 }
 }
+size
+=
+"
+small
+"
 data
 -
 l10n
