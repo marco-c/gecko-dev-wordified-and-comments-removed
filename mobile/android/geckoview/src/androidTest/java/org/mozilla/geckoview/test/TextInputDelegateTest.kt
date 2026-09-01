@@ -4155,6 +4155,8 @@ ExtractedTextRequest
 )
 0
 )
+!
+!
 .
 text
 .
@@ -4331,6 +4333,8 @@ ExtractedTextRequest
 )
 0
 )
+!
+!
 assertThat
 (
 message
@@ -4451,6 +4455,8 @@ ExtractedTextRequest
 )
 0
 )
+!
+!
 assertText
 (
 message
