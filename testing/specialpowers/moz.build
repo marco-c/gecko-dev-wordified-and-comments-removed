@@ -156,15 +156,6 @@ mjs
 "
 content
 /
-MockPermissionPrompt
-.
-sys
-.
-mjs
-"
-"
-content
-/
 MockPromptCollection
 .
 sys
