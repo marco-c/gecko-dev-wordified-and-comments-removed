@@ -6391,7 +6391,7 @@ referrals
 -
 section
 -
-header
+header2
 "
 headingLevel
 :
@@ -6427,7 +6427,7 @@ l10nId
 "
 referrals
 -
-link
+link2
 "
 }
 ]

@@ -223,7 +223,7 @@ menu
 -
 application
 -
-referrals
+referrals2
 =
 .
 label
@@ -233,7 +233,7 @@ Share
 -
 brand
 -
-shorter
+product
 -
 name
 }
@@ -2316,7 +2316,7 @@ the
 browser
 menu
 -
-referrals
+referrals2
 =
 .
 label
@@ -2326,7 +2326,7 @@ Share
 -
 brand
 -
-shorter
+product
 -
 name
 }

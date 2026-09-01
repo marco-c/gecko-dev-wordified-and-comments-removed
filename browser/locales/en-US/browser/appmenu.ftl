@@ -2885,7 +2885,7 @@ the
 browser
 appmenu
 -
-referrals
+referrals2
 =
 .
 label
@@ -2895,7 +2895,7 @@ Share
 -
 brand
 -
-shorter
+product
 -
 name
 }
@@ -3844,14 +3844,14 @@ share
 -
 firefox
 -
-title
+title2
 =
 Share
 {
 -
 brand
 -
-short
+product
 -
 name
 }

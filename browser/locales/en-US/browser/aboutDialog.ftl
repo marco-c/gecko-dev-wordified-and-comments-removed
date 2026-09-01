@@ -991,7 +991,7 @@ label
 >
 helpus
 -
-referrals
+referrals2
 =
 Want
 to
@@ -1032,12 +1032,12 @@ helpus
 shareFirefoxLink
 "
 >
-Share
+share
 {
 -
 brand
 -
-short
+product
 -
 name
 }

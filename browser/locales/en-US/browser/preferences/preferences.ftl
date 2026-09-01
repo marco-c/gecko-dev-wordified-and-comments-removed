@@ -21837,7 +21837,7 @@ referrals
 -
 section
 -
-header
+header2
 =
 .
 label
@@ -21847,7 +21847,7 @@ Share
 -
 brand
 -
-short
+product
 -
 name
 }
@@ -21896,7 +21896,7 @@ the
 browser
 referrals
 -
-link
+link2
 =
 .
 label
@@ -21906,7 +21906,7 @@ Share
 -
 brand
 -
-short
+product
 -
 name
 }
