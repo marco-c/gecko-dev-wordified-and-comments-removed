@@ -1845,9 +1845,7 @@ this
 .
 input
 .
-editor
-.
-composing
+isComposing
 )
 {
 return

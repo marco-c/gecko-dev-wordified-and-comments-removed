@@ -13207,11 +13207,12 @@ value
 else
 if
 (
-Blob
+UrlbarShared
 .
 isInstance
 (
 value
+Blob
 )
 &
 &

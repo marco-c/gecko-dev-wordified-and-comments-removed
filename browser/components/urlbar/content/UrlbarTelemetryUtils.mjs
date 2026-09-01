@@ -607,11 +607,12 @@ dismiss
 }
 if
 (
-MouseEvent
+UrlbarShared
 .
 isInstance
 (
 event
+MouseEvent
 )
 )
 {
