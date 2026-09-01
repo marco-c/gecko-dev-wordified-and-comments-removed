@@ -479,7 +479,6 @@ MutableTabGroup
 /
 *
 *
-*
 Value
 class
 representing
@@ -588,7 +587,6 @@ second
 tabGroupAssignments
 }
 /
-*
 *
 *
 Value
@@ -1340,6 +1338,29 @@ store
 is
 TabGroupAction
 .
+UngroupConfirmed
+-
+>
+scope
+.
+launch
+{
+tabGroupRepository
+.
+ungroupTabGroup
+(
+tabGroupId
+=
+action
+.
+group
+.
+id
+)
+}
+is
+TabGroupAction
+.
 DragAndDropInitiated
 -
 >
@@ -1497,7 +1518,6 @@ a
 group
 destination
 .
-*
 When
 a
 [
@@ -1507,6 +1527,7 @@ TabGroup
 ]
 is
 the
+*
 destination
 of
 a
@@ -1519,7 +1540,6 @@ will
 either
 be
 placed
-*
 (
 1
 )
@@ -1530,7 +1550,6 @@ tab
 in
 the
 group
-*
 OR
 *
 (
@@ -1580,7 +1599,6 @@ and
 the
 relevant
 Action
-*
 *
 /
 private
@@ -1672,13 +1690,13 @@ the
 MoveTabsUseCase
 ]
 .
-*
 If
 the
 destination
 is
 a
 tab
+*
 group
 the
 correct
@@ -1694,16 +1712,15 @@ the
 first
 or
 last
-*
 tab
 id
 in
 a
 group
 .
-*
 If
 both
+*
 source
 and
 destination
@@ -2196,6 +2213,7 @@ target
 types
 .
 *
+*
 param
 action
 :
@@ -2662,7 +2680,6 @@ items
 second
 }
 /
-*
 *
 *
 Performs
@@ -4741,7 +4758,6 @@ null
 /
 *
 *
-*
 Fetches
 a
 list
@@ -4756,7 +4772,6 @@ with
 groupId
 ]
 .
-*
 Returns
 an
 empty
@@ -4818,7 +4833,6 @@ emptyList
 (
 )
 /
-*
 *
 *
 Fetches
@@ -4884,7 +4898,6 @@ lastOrNull
 .
 id
 /
-*
 *
 *
 Fetches

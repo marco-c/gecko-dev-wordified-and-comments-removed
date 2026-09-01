@@ -1498,6 +1498,17 @@ String
 override
 suspend
 fun
+ungroupTabGroup
+(
+tabGroupId
+:
+String
+)
+{
+}
+override
+suspend
+fun
 addTabGroupAssignment
 (
 tabId

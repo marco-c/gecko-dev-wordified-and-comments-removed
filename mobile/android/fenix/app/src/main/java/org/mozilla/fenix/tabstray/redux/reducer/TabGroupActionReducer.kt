@@ -1286,6 +1286,11 @@ filterNot
 it
 is
 UngroupTabGroupConfirmationDialog
+|
+|
+it
+is
+ExpandedTabGroup
 }
 private
 fun

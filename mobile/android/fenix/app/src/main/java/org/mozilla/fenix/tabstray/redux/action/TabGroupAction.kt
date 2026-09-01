@@ -711,6 +711,7 @@ Boolean
 :
 TabGroupAction
 TabManagerUiStateStorageAction
+TabsStorageAction
 /
 *
 *
