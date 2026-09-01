@@ -7877,6 +7877,11 @@ GetHistoryID
 )
 )
 ;
+if
+(
+oldActiveEntry
+)
+{
 mActiveEntry
 -
 >
@@ -7885,6 +7890,7 @@ AdoptBFCacheEntry
 oldActiveEntry
 )
 ;
+}
 if
 (
 aUpdatedCacheKey
