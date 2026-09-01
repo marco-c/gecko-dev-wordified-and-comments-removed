@@ -335,6 +335,10 @@ LocationReset
 is
 IPProtectionAction
 .
+LocationSwitchFailed
+is
+IPProtectionAction
+.
 ProxyActivationShown
 is
 IPProtectionAction
