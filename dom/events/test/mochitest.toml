@@ -3587,13 +3587,6 @@ Bug
 ]
 [
 "
-test_hover_mouseleave
-.
-html
-"
-]
-[
-"
 test_legacy_event
 .
 html
