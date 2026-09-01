@@ -4962,7 +4962,9 @@ browser
 /
 skin
 /
-trending
+lightning
+-
+bolt
 .
 svg
 "

@@ -1434,6 +1434,8 @@ browser
 /
 skin
 /
+open
+-
 tabs
 .
 svg

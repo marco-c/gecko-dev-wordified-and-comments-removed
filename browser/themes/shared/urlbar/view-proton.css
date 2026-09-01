@@ -7324,13 +7324,11 @@ chrome
 /
 browser
 /
-content
+skin
 /
-firefoxview
-/
-view
+open
 -
-opentabs
+tabs
 .
 svg
 "
@@ -16747,7 +16745,9 @@ browser
 /
 skin
 /
-quickactions
+lightning
+-
+bolt
 .
 svg
 "

@@ -2646,6 +2646,8 @@ browser
 /
 skin
 /
+open
+-
 tabs
 .
 svg
@@ -2750,7 +2752,9 @@ browser
 /
 skin
 /
-quickactions
+lightning
+-
+bolt
 .
 svg
 "
