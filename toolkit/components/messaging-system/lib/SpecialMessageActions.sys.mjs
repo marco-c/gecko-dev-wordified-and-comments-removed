@@ -3034,15 +3034,6 @@ page
 "
 browser
 .
-startup
-.
-windowsLaunchOnLogin
-.
-disableLaunchOnLoginPrompt
-"
-"
-browser
-.
 privateWindowSeparation
 .
 enabled
