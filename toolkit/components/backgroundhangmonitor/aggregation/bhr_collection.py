@@ -227,7 +227,7 @@ mozdata
 .
 firefox_desktop
 .
-hang_report
+hang_report_redacted
 "
 _MAX_SAMPLE_SLICES
 =
