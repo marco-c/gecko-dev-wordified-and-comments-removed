@@ -194,6 +194,14 @@ windows
 ]
 [
 "
+nsIWinBackgroundTaskRegistrar
+"
+"
+windows
+"
+]
+[
+"
 nsIWinTaskbar
 "
 "
