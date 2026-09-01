@@ -60,7 +60,7 @@ export
 const
 MAX_STOCKS_WATCHLIST
 =
-50
+10
 ;
 export
 function
