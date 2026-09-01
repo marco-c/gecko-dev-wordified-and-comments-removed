@@ -5298,6 +5298,11 @@ isReaderable
 metadata
 .
 isReaderable
+isGated
+=
+metadata
+.
+isGated
 )
 )
 GeckoResult

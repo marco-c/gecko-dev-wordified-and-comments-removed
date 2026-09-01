@@ -308,6 +308,11 @@ isReaderable
 result
 .
 isReaderable
+isGated
+:
+result
+.
+isGated
 }
 )
 ;

@@ -21071,7 +21071,14 @@ int
 NonNull
 String
 boolean
+boolean
 )
+;
+field
+public
+final
+boolean
+isGated
 ;
 field
 public

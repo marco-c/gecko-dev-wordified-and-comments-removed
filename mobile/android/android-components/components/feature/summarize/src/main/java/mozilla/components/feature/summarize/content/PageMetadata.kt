@@ -154,6 +154,12 @@ Boolean
 =
 false
 val
+isGated
+:
+Boolean
+=
+false
+val
 pageTitle
 :
 String
