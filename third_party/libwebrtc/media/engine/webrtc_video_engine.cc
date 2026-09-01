@@ -21265,6 +21265,14 @@ rtp
 raw_payload_types
 )
 {
+stream_
+-
+>
+SetRawPayloadTypes
+(
+raw_payload_types
+)
+;
 raw_payload_types
 .
 swap
@@ -21275,10 +21283,6 @@ rtp
 .
 raw_payload_types
 )
-;
-recreate_needed
-=
-true
 ;
 }
 if
