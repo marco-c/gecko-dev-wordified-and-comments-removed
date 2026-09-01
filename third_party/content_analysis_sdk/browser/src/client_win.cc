@@ -58,7 +58,7 @@ const
 DWORD
 kBufferSize
 =
-4096
+65536
 ;
 constexpr
 LONGLONG
@@ -1708,11 +1708,6 @@ hPipe_
 INVALID_HANDLE_VALUE
 )
 {
-FlushFileBuffers
-(
-hPipe_
-)
-;
 CloseHandle
 (
 hPipe_
