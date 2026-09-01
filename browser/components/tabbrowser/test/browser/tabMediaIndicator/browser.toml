@@ -191,6 +191,13 @@ js
 ]
 [
 "
+browser_sound_indicator_tab_move
+.
+js
+"
+]
+[
+"
 browser_webAudio_hideSoundPlayingIcon
 .
 js
