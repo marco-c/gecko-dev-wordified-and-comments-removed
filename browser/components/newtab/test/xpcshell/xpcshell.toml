@@ -177,6 +177,13 @@ js
 ]
 [
 "
+test_AboutNewTabResourceMapping_entitledVersion
+.
+js
+"
+]
+[
+"
 test_AboutNewTabResourceMapping_langpackShadow
 .
 js
