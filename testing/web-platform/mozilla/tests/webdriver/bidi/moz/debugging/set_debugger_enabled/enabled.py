@@ -447,6 +447,8 @@ subscribe_events
     
 wait_for_event
     
+wait_for_future_safe
+    
 set_breakpoint
 )
 :
@@ -577,7 +579,10 @@ False
 )
     
 await
+wait_for_future_safe
+(
 on_paused
+)
     
 on_resumed
 =
@@ -601,7 +606,10 @@ None
 )
     
 await
+wait_for_future_safe
+(
 on_resumed
+)
     
 result
 =

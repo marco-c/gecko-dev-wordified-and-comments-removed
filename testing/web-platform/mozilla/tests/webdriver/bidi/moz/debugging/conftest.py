@@ -68,6 +68,7 @@ assert_pause_and_resume
 (
 bidi_session
 wait_for_event
+wait_for_future_safe
 )
 :
     
@@ -129,7 +130,10 @@ False
 paused_event
 =
 await
+wait_for_future_safe
+(
 on_paused
+)
         
 assert
 paused_event
@@ -187,7 +191,10 @@ context
 resumed_event
 =
 await
+wait_for_future_safe
+(
 on_resumed
+)
         
 assert
 resumed_event

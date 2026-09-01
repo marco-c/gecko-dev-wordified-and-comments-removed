@@ -42,6 +42,8 @@ subscribe_events
     
 wait_for_event
     
+wait_for_future_safe
+    
 set_breakpoint
 )
 :
@@ -217,7 +219,10 @@ False
 paused_event1
 =
 await
+wait_for_future_safe
+(
 on_paused
+)
     
 assert
 paused_event1
@@ -315,7 +320,10 @@ context
 paused_event2
 =
 await
+wait_for_future_safe
+(
 on_paused2
+)
     
 assert
 paused_event2
@@ -412,6 +420,8 @@ inline
 subscribe_events
     
 wait_for_event
+    
+wait_for_future_safe
     
 set_breakpoint
 )
@@ -576,7 +586,10 @@ False
 paused_event
 =
 await
+wait_for_future_safe
+(
 on_paused
+)
     
 assert
 paused_event
