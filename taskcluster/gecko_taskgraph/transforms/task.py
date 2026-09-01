@@ -17177,6 +17177,17 @@ job_expiry_from_now
 =
 cap
 cap_from_now
+            
+job
+[
+"
+expires
+-
+after
+"
+]
+=
+job_expiry
         
 artifact_expires
 =
