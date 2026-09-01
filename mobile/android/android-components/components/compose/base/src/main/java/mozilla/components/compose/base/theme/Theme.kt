@@ -89,5 +89,6 @@ Theme
 {
 Light
 Dark
+Oled
 Private
 }
