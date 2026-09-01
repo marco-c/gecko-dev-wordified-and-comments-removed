@@ -254,9 +254,6 @@ one
             
 )
         
-finally
-:
-            
 return
 skiplist
     
@@ -410,9 +407,6 @@ mozilla
 "
 )
         
-finally
-:
-            
 return
 checks
     
@@ -585,9 +579,6 @@ high
 }
 )
         
-finally
-:
-            
 return
 checks_with_data
     
@@ -804,9 +795,6 @@ checks_config
 =
 None
         
-finally
-:
-            
 return
 checks_config
     
