@@ -1070,6 +1070,13 @@ base_prim_features
 finish
 (
 )
+"
+SUPERELLIPSE
+"
+.
+to_string
+(
+)
 ]
 )
 ;
