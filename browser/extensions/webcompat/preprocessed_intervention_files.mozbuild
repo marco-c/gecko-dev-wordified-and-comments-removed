@@ -1622,17 +1622,6 @@ com
 js
 "
 "
-bug2008115
--
-pge
-.
-com
--
-hide_browser_notice
-.
-css
-"
-"
 bug2009187
 -
 deadpixeltest
