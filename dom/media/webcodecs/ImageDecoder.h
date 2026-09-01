@@ -457,6 +457,10 @@ const
 MediaResult
 &
 aResult
+bool
+aCancelReadRequest
+=
+true
 )
 ;
 void
