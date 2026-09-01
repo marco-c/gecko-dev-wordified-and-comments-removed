@@ -110,9 +110,8 @@ jar
 mn
 "
 ]
-EXTRA_JS_MODULES
-.
-sessionstore
+MOZ_SRC_FILES
++
 =
 [
 "
