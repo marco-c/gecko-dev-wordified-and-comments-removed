@@ -280,6 +280,7 @@ AudioEncoder
 DOMEventTargetHelper
 mErrorCallback
 mOutputCallback
+mPendingFlushPromises
 )
 NS_IMPL_ADDREF_INHERITED
 (
