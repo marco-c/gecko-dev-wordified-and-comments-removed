@@ -2289,6 +2289,16 @@ NULL
 *
 aNumItems
 =
+nsClipboard
+:
+:
+IsValidDropFilesData
+(
+stm
+.
+hGlobal
+)
+?
 :
 :
 DragQueryFileW
@@ -2298,6 +2308,8 @@ hdrop
 nullptr
 0
 )
+:
+0
 ;
 :
 :

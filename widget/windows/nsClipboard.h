@@ -65,6 +65,8 @@ virtual
 nsClipboard
 (
 )
+=
+default
 ;
 public
 :
@@ -253,6 +255,14 @@ HGLOBAL
 aHGlobal
 uint64_t
 aItemCount
+)
+;
+static
+bool
+IsValidDropFilesData
+(
+HGLOBAL
+aHGlobal
 )
 ;
 static
