@@ -217,11 +217,6 @@ mIsPurging
 =
 false
 ;
-bool
-mDying
-=
-false
-;
 arena_chunk_map_t
 mPageMap
 [
