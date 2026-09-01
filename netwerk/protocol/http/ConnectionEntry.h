@@ -37,6 +37,13 @@ h
 #
 include
 "
+nsHttpConnectionInfo
+.
+h
+"
+#
+include
+"
 nsTHashSet
 .
 h
@@ -533,7 +540,7 @@ false
 ;
 nsTArray
 <
-HashNumber
+CoalescingKey
 >
 mCoalescingKeys
 ;
@@ -858,7 +865,7 @@ GetServerCertHashes
 )
 ;
 const
-HashNumber
+CoalescingKey
 &
 OriginFrameHashKey
 (
@@ -963,7 +970,7 @@ ConnectionEntry
 ;
 Maybe
 <
-HashNumber
+CoalescingKey
 >
 mOriginFrameHashKey
 ;

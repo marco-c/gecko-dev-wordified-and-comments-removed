@@ -6251,7 +6251,11 @@ mCoalescingKeys
 .
 AppendElement
 (
+CoalescingKey
+{
 hash
+newKey
+}
 )
 ;
 }
@@ -6606,7 +6610,7 @@ mServerCertHashes
 ;
 }
 const
-HashNumber
+CoalescingKey
 &
 ConnectionEntry
 :
