@@ -956,7 +956,6 @@ SelectNewFilepickerPath
 {
 let
 {
-path
 iconURL
 }
 =
@@ -1236,7 +1235,6 @@ this
 .
 getBackupFileInfo
 (
-path
 )
 ;
 }
@@ -1359,17 +1357,11 @@ backupFileToRestore
 }
 getBackupFileInfo
 (
-pathToFile
-=
-null
 )
 {
 let
 backupFile
 =
-pathToFile
-|
-|
 this
 .
 backupServiceState
@@ -1422,11 +1414,6 @@ true
 composed
 :
 true
-detail
-:
-{
-backupFile
-}
 }
 )
 )
@@ -2047,13 +2034,6 @@ backup
 filepicker
 -
 label
-"
-class
-=
-"
-heading
--
-medium
 "
 for
 =
@@ -3367,7 +3347,7 @@ headerTemplate
 return
 html
 <
-h1
+h2
 id
 =
 "
@@ -3384,7 +3364,7 @@ class
 "
 heading
 -
-large
+medium
 "
 data
 -
@@ -3404,7 +3384,7 @@ header
 >
 <
 /
-h1
+h2
 >
 ;
 }
