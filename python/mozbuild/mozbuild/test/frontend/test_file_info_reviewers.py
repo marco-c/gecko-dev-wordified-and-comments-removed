@@ -1,60 +1,25 @@
 import
 unittest
 from
-mach
-.
-registrar
-import
-Registrar
-from
 mozunit
 import
 main
-for
-_cat
-in
-(
-"
-build
--
-dev
-"
-)
-:
-    
-if
-_cat
-not
-in
-Registrar
-.
-categories
-:
-        
-Registrar
-.
-register_category
-(
-_cat
-_cat
-_cat
-)
 from
 mozbuild
 .
 frontend
 .
-mach_commands
+reviewers
 import
 (
     
-_herald_reviewers_for_files
+herald_reviewers_for_files
     
-_mots_groups_for_files
+mots_groups_for_files
     
-_mots_modules_for_files
+mots_modules_for_files
     
-_parse_reviewers_from_subjects
+parse_reviewers_from_subjects
 )
 def
 _rule
@@ -215,7 +180,7 @@ relpaths
 :
     
 return
-_herald_reviewers_for_files
+herald_reviewers_for_files
 (
 rules
 relpaths
@@ -873,7 +838,7 @@ reviewers
 groups
 individuals
 =
-_herald_reviewers_for_files
+herald_reviewers_for_files
 (
 rules
 [
@@ -1361,7 +1326,7 @@ machine_name
 for
 m
 in
-_mots_modules_for_files
+mots_modules_for_files
 (
 config
 paths
@@ -1488,7 +1453,7 @@ self
 assertEqual
 (
             
-_mots_modules_for_files
+mots_modules_for_files
 (
 config
 [
@@ -1552,7 +1517,7 @@ self
 .
 assertEqual
 (
-_mots_modules_for_files
+mots_modules_for_files
 (
 config
 [
@@ -1600,7 +1565,7 @@ self
 .
 assertEqual
 (
-_mots_modules_for_files
+mots_modules_for_files
 (
 config
 [
@@ -1708,7 +1673,7 @@ reviewers
         
 modules
 =
-_mots_modules_for_files
+mots_modules_for_files
 (
             
 config
@@ -1895,7 +1860,7 @@ self
 assertEqual
 (
             
-_mots_modules_for_files
+mots_modules_for_files
 (
 config
 [
@@ -2035,7 +2000,7 @@ self
 assertEqual
 (
             
-_mots_groups_for_files
+mots_groups_for_files
 (
 config
 [
@@ -2177,7 +2142,7 @@ paths
 for
 m
 in
-_mots_modules_for_files
+mots_modules_for_files
 (
 config
 [
@@ -2204,7 +2169,7 @@ self
 assertEqual
 (
             
-_mots_groups_for_files
+mots_groups_for_files
 (
 config
 [
@@ -2345,7 +2310,7 @@ self
 assertEqual
 (
             
-_mots_groups_for_files
+mots_groups_for_files
 (
 config
 [
@@ -2445,7 +2410,7 @@ media
         
 modules
 =
-_mots_modules_for_files
+mots_modules_for_files
 (
             
 config
@@ -2676,7 +2641,7 @@ self
 assertEqual
 (
             
-_mots_groups_for_files
+mots_groups_for_files
 (
 config
 [
@@ -2790,9 +2755,8 @@ self
 assertEqual
 (
             
-_mots_groups_for_files
+mots_groups_for_files
 (
-                
 config
 [
 "
@@ -2814,7 +2778,6 @@ Fetch
 h
 "
 ]
-            
 )
             
 {
@@ -2885,7 +2848,7 @@ self
 .
 assertEqual
 (
-_mots_groups_for_files
+mots_groups_for_files
 (
 config
 [
@@ -2956,7 +2919,7 @@ foo
 individuals
 groups
 =
-_parse_reviewers_from_subjects
+parse_reviewers_from_subjects
 (
 subjects
 )
@@ -3009,7 +2972,7 @@ self
 individuals
 groups
 =
-_parse_reviewers_from_subjects
+parse_reviewers_from_subjects
 (
 [
             
@@ -3088,7 +3051,7 @@ self
 individuals
 groups
 =
-_parse_reviewers_from_subjects
+parse_reviewers_from_subjects
 (
 [
 "
@@ -3131,7 +3094,7 @@ self
 individuals
 groups
 =
-_parse_reviewers_from_subjects
+parse_reviewers_from_subjects
 (
 [
             
@@ -3207,7 +3170,7 @@ ccc
 individuals
 _
 =
-_parse_reviewers_from_subjects
+parse_reviewers_from_subjects
 (
 subjects
 )
