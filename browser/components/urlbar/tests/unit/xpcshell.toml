@@ -58,6 +58,13 @@ js
 ]
 [
 "
+test_UrlbarNewTabComponentRegistrant
+.
+js
+"
+]
+[
+"
 test_UrlbarParentController_integration
 .
 js

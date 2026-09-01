@@ -149,6 +149,13 @@ sys
 mjs
 "
 "
+UrlbarNewTabComponentRegistrant
+.
+sys
+.
+mjs
+"
+"
 UrlbarParentController
 .
 sys
