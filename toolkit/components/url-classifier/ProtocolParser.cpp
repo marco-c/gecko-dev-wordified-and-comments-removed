@@ -4202,7 +4202,9 @@ i
 +
 )
 {
+const
 auto
+&
 r
 =
 response
@@ -4986,7 +4988,9 @@ i
 +
 )
 {
+const
 auto
+&
 update
 =
 aUpdate
@@ -5156,7 +5160,9 @@ return
 NS_OK
 ;
 }
+const
 auto
+&
 rawHashes
 =
 aAddition
@@ -6379,10 +6385,12 @@ i
 +
 )
 {
+const
 v5
 :
 :
 HashList
+&
 hashList
 =
 response
@@ -6929,7 +6937,9 @@ rv
 ;
 }
 }
+const
 auto
+&
 minWaitDuration
 =
 aHashList
