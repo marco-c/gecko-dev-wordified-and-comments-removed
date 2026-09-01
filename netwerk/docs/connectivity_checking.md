@@ -183,9 +183,11 @@ http
 :
 /
 /
-detectportal
-.
 firefox
+-
+portal
+-
+detection
 .
 com
 /
@@ -215,9 +217,11 @@ http
 :
 /
 /
-detectportal
-.
 firefox
+-
+portal
+-
+detection
 .
 com
 /
