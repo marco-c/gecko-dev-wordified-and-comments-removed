@@ -1494,16 +1494,6 @@ Windows
 .
 FullTrustApplication
 "
-uap10
-:
-Parameters
-=
-"
--
-os
--
-autostart
-"
 >
 <
 uap5
