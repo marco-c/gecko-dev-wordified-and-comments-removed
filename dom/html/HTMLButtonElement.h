@@ -753,6 +753,12 @@ EnumTableEntry
 *
 ResolveAutoState
 (
+const
+nsINode
+*
+aParent
+=
+nullptr
 )
 const
 ;
