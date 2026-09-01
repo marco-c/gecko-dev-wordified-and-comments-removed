@@ -1518,6 +1518,7 @@ policySchema
 allowAdditionalProperties
 :
 true
+policyName
 }
 )
 ;
