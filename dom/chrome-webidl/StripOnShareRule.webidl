@@ -121,5 +121,14 @@ origins
 [
 ]
 ;
+sequence
+<
+UTF8String
+>
+schemelessSites
+=
+[
+]
+;
 }
 ;

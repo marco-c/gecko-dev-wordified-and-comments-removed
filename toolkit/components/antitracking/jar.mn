@@ -139,6 +139,13 @@ com
 .
 .
 ]
+schemelessSites
+:
+[
+site2
+.
+com
+]
 }
 domain2
 :

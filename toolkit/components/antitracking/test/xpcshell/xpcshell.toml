@@ -213,6 +213,13 @@ Bug
 ]
 [
 "
+test_strip_on_share_list
+.
+js
+"
+]
+[
+"
 test_tracking_db_service
 .
 js
