@@ -60,7 +60,7 @@ dom
 quota
 {
 bool
-ShouldReportUnderflow
+ShouldReportDiagnostic
 (
 const
 nsACString
@@ -80,7 +80,7 @@ uint32_t
 sCounters
 (
 "
-ShouldReportUnderflow
+ShouldReportDiagnostic
 :
 :
 sCounters

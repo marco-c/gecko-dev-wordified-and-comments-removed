@@ -71,7 +71,7 @@ EmptyCString
 )
 ;
 bool
-ShouldReportUnderflow
+ShouldReportDiagnostic
 (
 const
 nsACString
