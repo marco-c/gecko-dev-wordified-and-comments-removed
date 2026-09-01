@@ -243,12 +243,6 @@ GetNearMaxIncreaseRateBpsPerSecond
 )
 const
 ;
-TimeDelta
-GetExpectedBandwidthPeriod
-(
-)
-const
-;
 private
 :
 enum
