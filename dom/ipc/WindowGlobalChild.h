@@ -357,11 +357,6 @@ PDocAccessibleChild
 *
 AllocPDocAccessibleChild
 (
-a11y
-:
-:
-PDocAccessibleChild
-*
 const
 uint64_t
 &
