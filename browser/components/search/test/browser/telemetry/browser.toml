@@ -322,6 +322,11 @@ browser_search_telemetry_app_provided_and_overridden
 js
 "
 ]
+tags
+=
+"
+urlbar
+"
 [
 "
 browser_search_telemetry_categorization_experiment_info
@@ -1223,6 +1228,11 @@ browser_search_telemetry_searchform
 js
 "
 ]
+tags
+=
+"
+urlbar
+"
 [
 "
 browser_search_telemetry_shopping
@@ -1266,6 +1276,11 @@ browser_search_telemetry_sources
 js
 "
 ]
+tags
+=
+"
+urlbar
+"
 support
 -
 files
@@ -1404,6 +1419,11 @@ browser_search_telemetry_sources_navigation
 js
 "
 ]
+tags
+=
+"
+urlbar
+"
 support
 -
 files

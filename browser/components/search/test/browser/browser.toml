@@ -575,6 +575,11 @@ browser_remote_override
 js
 "
 ]
+tags
+=
+"
+urlbar
+"
 [
 "
 browser_rich_suggestions
@@ -582,6 +587,11 @@ browser_rich_suggestions
 js
 "
 ]
+tags
+=
+"
+urlbar
+"
 support
 -
 files
@@ -607,6 +617,11 @@ browser_searchRestrictToken_privateWindow
 js
 "
 ]
+tags
+=
+"
+urlbar
+"
 [
 "
 browser_search_annotation
@@ -628,6 +643,11 @@ browser_search_lastused_pref
 js
 "
 ]
+tags
+=
+"
+urlbar
+"
 [
 "
 browser_searchbar_addEngine

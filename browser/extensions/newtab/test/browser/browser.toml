@@ -764,6 +764,11 @@ browser_topsites_section
 js
 "
 ]
+tags
+=
+"
+urlbar
+"
 [
 "
 browser_topsites_sponsored
