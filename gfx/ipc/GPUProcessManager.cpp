@@ -6573,6 +6573,7 @@ CreateContentCompositorManager
 aOtherProcess
 aChildId
 compositorManagerNamespace
+compositorBridgeNamespace
 aOutCompositor
 )
 |
@@ -6662,6 +6663,8 @@ ContentParentId
 aChildId
 uint32_t
 aNamespace
+uint32_t
+aContentBridgeNamespace
 ipc
 :
 :
@@ -6792,6 +6795,7 @@ parentPipe
 )
 aChildId
 aNamespace
+aContentBridgeNamespace
 )
 ;
 }
@@ -6813,6 +6817,7 @@ parentPipe
 )
 aChildId
 aNamespace
+aContentBridgeNamespace
 false
 )
 )

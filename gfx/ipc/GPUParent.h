@@ -500,6 +500,8 @@ ContentParentId
 aChildId
 uint32_t
 aNamespace
+uint32_t
+aContentBridgeNamespace
 )
 ;
 mozilla

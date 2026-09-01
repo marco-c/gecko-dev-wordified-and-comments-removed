@@ -142,6 +142,8 @@ ContentParentId
 aContentId
 uint32_t
 aNamespace
+uint32_t
+aContentBridgeNamespace
 bool
 aIsRoot
 )
@@ -461,6 +463,8 @@ ContentParentId
 aContentId
 uint32_t
 aNamespace
+uint32_t
+aContentBridgeNamespace
 )
 ;
 virtual
@@ -520,6 +524,10 @@ mContentId
 const
 uint32_t
 mNamespace
+;
+const
+uint32_t
+mContentBridgeNamespace
 ;
 uint32_t
 mLastSharedSurfaceResourceId

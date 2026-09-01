@@ -2574,6 +2574,7 @@ ContentParentId
 (
 )
 aNamespace
+0
 true
 )
 ;
@@ -3523,6 +3524,8 @@ ContentParentId
 aChildId
 uint32_t
 aNamespace
+uint32_t
+aContentBridgeNamespace
 )
 {
 CompositorManagerParent
@@ -3539,6 +3542,7 @@ aEndpoint
 )
 aChildId
 aNamespace
+aContentBridgeNamespace
 false
 )
 ;
