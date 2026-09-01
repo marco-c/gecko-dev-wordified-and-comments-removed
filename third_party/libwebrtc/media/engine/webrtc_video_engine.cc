@@ -22697,9 +22697,7 @@ key_frames_decoded
 =
 stats
 .
-decoded_frame_counts
-.
-key_frames
+key_frames_decoded
 ;
 info
 .
