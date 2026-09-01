@@ -3581,9 +3581,6 @@ org
 expires
 :
 never
-telemetry_mirror
-:
-COOKIE_BEHAVIOR
 tracking_protection_enabled
 :
 type
