@@ -1352,6 +1352,16 @@ lock
 )
 ;
 }
+LayersId
+GetRootLayersId
+(
+)
+const
+{
+return
+mRootLayersId
+;
+}
 private
 :
 using
