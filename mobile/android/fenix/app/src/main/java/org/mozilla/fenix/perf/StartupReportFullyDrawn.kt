@@ -560,7 +560,7 @@ activity
 .
 reportFullyDrawnSafe
 (
-Performance
+PerformanceLogger
 .
 logger
 )
@@ -579,7 +579,7 @@ activity
 .
 reportFullyDrawnSafe
 (
-Performance
+PerformanceLogger
 .
 logger
 )

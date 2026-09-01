@@ -217,7 +217,7 @@ private
 val
 logger
 =
-Performance
+PerformanceLogger
 .
 logger
 private
