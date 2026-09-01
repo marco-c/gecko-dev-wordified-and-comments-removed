@@ -109,6 +109,9 @@ Relaxed
 >
 hasPendingFreeArenaIndexes
 ;
+AtomRefLock
+atomRefLock
+;
 public
 :
 mozilla
@@ -260,6 +263,10 @@ zone
 T
 *
 thing
+const
+AutoMarkingLock
+&
+lock
 )
 ;
 public

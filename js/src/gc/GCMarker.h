@@ -3237,7 +3237,7 @@ AutoMarkingLock
 JSTracer
 *
 trc
-MarkingLock
+LightLock
 &
 markingLock
 )
