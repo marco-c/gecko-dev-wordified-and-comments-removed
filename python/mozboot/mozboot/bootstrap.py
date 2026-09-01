@@ -3243,10 +3243,6 @@ str
 (
 checkout_root
 )
-str
-(
-state_dir
-)
 )
         
 self

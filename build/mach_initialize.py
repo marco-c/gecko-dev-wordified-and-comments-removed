@@ -1879,19 +1879,13 @@ is_employee
 =
 resolve_is_employee
 (
-            
 Path
 (
 topsrcdir
 )
-Path
-(
-state_dir
-)
 driver
 .
 settings
-        
 )
         
 fleet_running
