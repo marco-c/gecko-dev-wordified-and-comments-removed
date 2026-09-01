@@ -10902,6 +10902,8 @@ isProcessingCues
 =
 true
 ;
+try
+{
 processCuesInternal
 (
 window
@@ -10910,12 +10912,16 @@ overlay
 controls
 )
 ;
+}
+finally
+{
 this
 .
 isProcessingCues
 =
 false
 ;
+}
 }
 ;
 WebVTT

@@ -310,6 +310,13 @@ html
 ]
 [
 "
+test_webvtt_process_cues_exception
+.
+html
+"
+]
+[
+"
 test_webvtt_resistfingerprinting
 .
 html
