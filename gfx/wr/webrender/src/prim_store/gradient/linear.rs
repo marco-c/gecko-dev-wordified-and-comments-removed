@@ -431,16 +431,6 @@ common
 }
 }
 pub
-use
-api
-:
-:
-prim_geometry
-:
-:
-optimize_linear_gradient
-;
-pub
 fn
 linear_gradient_decomposes
 (
