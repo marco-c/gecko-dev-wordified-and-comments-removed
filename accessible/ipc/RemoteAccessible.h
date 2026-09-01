@@ -1546,11 +1546,9 @@ int32_t
 aOffset
 )
 ;
-RefPtr
-<
 const
 AccAttributes
->
+*
 GetCachedTextAttributes
 (
 )
