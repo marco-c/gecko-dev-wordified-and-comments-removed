@@ -150,11 +150,14 @@ sys
 mjs
 "
 "
-resource
+moz
+-
+src
 :
 /
 /
-gre
+/
+toolkit
 /
 actors
 /

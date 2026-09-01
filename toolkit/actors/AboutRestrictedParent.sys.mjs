@@ -62,11 +62,14 @@ EscapablePageParent
 }
 from
 "
-resource
+moz
+-
+src
 :
 /
 /
-gre
+/
+toolkit
 /
 actors
 /

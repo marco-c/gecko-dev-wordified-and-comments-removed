@@ -3829,11 +3829,14 @@ ChromeUtils
 importESModule
 (
 "
-resource
+moz
+-
+src
 :
 /
 /
-gre
+/
+toolkit
 /
 actors
 /

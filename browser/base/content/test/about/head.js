@@ -24,11 +24,14 @@ mjs
 NetErrorParent
 :
 "
-resource
+moz
+-
+src
 :
 /
 /
-gre
+/
+toolkit
 /
 actors
 /

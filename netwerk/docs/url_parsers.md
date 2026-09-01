@@ -928,11 +928,14 @@ map
 URLs
 such
 as
-resource
+moz
+-
+src
 :
 /
 /
-gre
+/
+toolkit
 /
 actors
 /

@@ -71,11 +71,14 @@ lazy
 ViewSourcePageChild
 :
 "
-resource
+moz
+-
+src
 :
 /
 /
-gre
+/
+toolkit
 /
 actors
 /

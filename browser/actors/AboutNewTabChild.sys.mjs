@@ -125,11 +125,14 @@ RemotePageChild
 }
 from
 "
-resource
+moz
+-
+src
 :
 /
 /
-gre
+/
+toolkit
 /
 actors
 /
