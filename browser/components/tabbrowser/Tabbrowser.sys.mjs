@@ -3596,7 +3596,6 @@ open
 )
 |
 |
-(
 this
 .
 documentGlobal
@@ -3604,13 +3603,6 @@ documentGlobal
 gNavToolbox
 .
 collapsed
-&
-&
-!
-this
-.
-_allowTabChange
-)
 )
 {
 return
