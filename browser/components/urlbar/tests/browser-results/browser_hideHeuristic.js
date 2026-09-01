@@ -2147,7 +2147,7 @@ Assert
 .
 equal
 (
-UrlbarUtils
+UrlbarShared
 .
 getResultGroup
 (

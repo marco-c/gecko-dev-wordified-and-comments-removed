@@ -3405,6 +3405,7 @@ engagement
 &
 &
 lazy
+?
 .
 UrlbarUtils
 .
@@ -4053,9 +4054,7 @@ map
 r
 =
 >
-lazy
-.
-UrlbarUtils
+UrlbarShared
 .
 searchEngagementTelemetryGroup
 (
@@ -4103,9 +4102,7 @@ map
 r
 =
 >
-lazy
-.
-UrlbarUtils
+UrlbarShared
 .
 searchEngagementTelemetryAction
 (
@@ -4165,9 +4162,7 @@ action
 let
 actionKey
 =
-lazy
-.
-UrlbarUtils
+UrlbarShared
 .
 searchEngagementTelemetryAction
 (

@@ -1121,7 +1121,9 @@ i
 let
 group
 =
-UrlbarUtils
+lazy
+.
+UrlbarShared
 .
 getResultGroup
 (
@@ -1490,7 +1492,9 @@ map
 let
 group
 =
-UrlbarUtils
+lazy
+.
+UrlbarShared
 .
 getResultGroup
 (
