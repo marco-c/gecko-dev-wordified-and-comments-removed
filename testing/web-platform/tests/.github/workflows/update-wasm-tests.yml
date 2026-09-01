@@ -138,6 +138,13 @@ js_of_ocaml
 js_of_ocaml
 -
 ppx
+stdint
+.
+0
+.
+7
+.
+2
 -
 name
 :
