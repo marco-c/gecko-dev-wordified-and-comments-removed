@@ -35510,6 +35510,7 @@ here
 if
 (
 lazy
+?
 .
 ExtensionSearchHandler
 .
@@ -35691,6 +35692,17 @@ _isKeyDownWithMetaAndLeft
 =
 false
 ;
+if
+(
+typeof
+ChromeUtils
+!
+=
+"
+undefined
+"
+)
+{
 Services
 .
 obs
@@ -35705,6 +35717,7 @@ blur
 "
 )
 ;
+}
 }
 _on_click
 (
