@@ -311,6 +311,9 @@ otherCurve
 ]
 .
 publicKey
+length
+:
+256
 }
 {
 name

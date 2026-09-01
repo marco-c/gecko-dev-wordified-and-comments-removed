@@ -540,6 +540,9 @@ test
 .
 key
 privateKey
+test
+.
+length
 )
 )
 ;
