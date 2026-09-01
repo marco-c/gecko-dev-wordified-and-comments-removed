@@ -659,6 +659,13 @@ js
 ]
 [
 "
+updateManagerXMLReader
+.
+js
+"
+]
+[
+"
 updateSyncManager
 .
 js
