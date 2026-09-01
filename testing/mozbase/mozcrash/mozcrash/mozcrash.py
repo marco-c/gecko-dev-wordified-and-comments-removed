@@ -1599,6 +1599,12 @@ keep
 =
 keep
         
+self
+.
+use_debug_symbols
+=
+False
+        
 if
 dump_save_path
 is
@@ -1748,6 +1754,12 @@ stackwalk_binary
 self
 .
 brief_output
+=
+True
+                
+self
+.
+use_debug_symbols
 =
 True
         
@@ -2637,6 +2649,27 @@ append
 -
 -
 brief
+"
+)
+            
+if
+self
+.
+use_debug_symbols
+:
+                
+command
+.
+append
+(
+"
+-
+-
+use
+-
+local
+-
+debuginfo
 "
 )
             
