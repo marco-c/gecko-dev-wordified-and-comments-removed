@@ -5860,6 +5860,9 @@ get_JSURIParams
 (
 )
 ;
+if
+(
+!
 mozilla
 :
 :
@@ -5877,7 +5880,12 @@ simpleParams
 (
 )
 )
+)
+{
+return
+false
 ;
+}
 if
 (
 jsParams
