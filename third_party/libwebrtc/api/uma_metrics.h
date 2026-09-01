@@ -369,6 +369,9 @@ kMsidTrack
 kIceOptionsRemoved
 =
 38
+kRejected
+=
+39
 kRtpHeaderExtensionRemoved
 =
 40
