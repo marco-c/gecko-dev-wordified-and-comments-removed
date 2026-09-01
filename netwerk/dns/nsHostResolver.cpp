@@ -805,6 +805,12 @@ defined
 (
 XP_MACOSX
 )
+|
+|
+defined
+(
+XP_FREEBSD
+)
 sNativeHTTPSSupported
 =
 true
