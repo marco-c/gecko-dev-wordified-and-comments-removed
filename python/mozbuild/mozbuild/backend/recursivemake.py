@@ -10572,7 +10572,7 @@ lib_name
 if
 libdef
 .
-no_expand_lib
+build_static_lib_archive
 :
             
 backend_file
@@ -10580,10 +10580,12 @@ backend_file
 write
 (
 "
-NO_EXPAND_LIBS
+LIBRARY
 :
 =
-1
+(
+REAL_LIBRARY
+)
 \
 n
 "
@@ -10592,7 +10594,7 @@ n
 if
 libdef
 .
-no_expand_lib
+build_static_lib_archive
 and
 libdef
 .
@@ -11274,7 +11276,7 @@ SandboxedWasmLibrary
 and
 obj
 .
-no_expand_lib
+build_static_lib_archive
         
 )
 :
@@ -11684,6 +11686,8 @@ lib
 )
         
 if
+(
+            
 not
 isinstance
 (
@@ -11693,10 +11697,13 @@ StaticLibrary
 HostLibrary
 )
 )
+            
 or
 obj
 .
-no_expand_lib
+build_static_lib_archive
+        
+)
 :
             
 build_target
