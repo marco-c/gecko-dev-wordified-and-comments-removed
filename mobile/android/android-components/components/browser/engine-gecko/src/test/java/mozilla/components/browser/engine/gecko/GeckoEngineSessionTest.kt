@@ -11136,13 +11136,8 @@ TrackingProtectionPolicy
 strict
 (
 )
-for
+repeat
 (
-x
-in
-1
-.
-.
 5
 )
 {
@@ -24490,8 +24485,6 @@ geckoSessionProvider
 )
 class
 MockGeckoPrintException
-(
-)
 :
 GeckoPrintException
 (

@@ -3581,17 +3581,6 @@ TabHandler
 >
 (
 )
-val
-selectTabActionCaptor
-=
-argumentCaptor
-<
-TabListAction
-.
-SelectTabAction
->
-(
-)
 verify
 (
 ext

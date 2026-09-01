@@ -496,14 +496,6 @@ spaces
 )
 {
 val
-versionName
-=
-"
-test
-version
-name
-"
-val
 service
 =
 MozillaSocorroService

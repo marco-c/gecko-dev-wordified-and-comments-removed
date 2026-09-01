@@ -382,13 +382,8 @@ newFixedThreadPool
 (
 12
 )
-for
+repeat
 (
-i
-in
-1
-.
-.
 100
 )
 {

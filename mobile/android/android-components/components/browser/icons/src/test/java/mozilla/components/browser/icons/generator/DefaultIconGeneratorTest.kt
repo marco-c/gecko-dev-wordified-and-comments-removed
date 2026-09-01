@@ -220,14 +220,9 @@ Color
 does
 not
 change
-for
+repeat
 (
-i
-in
-0
-.
-.
-99
+100
 )
 {
 assertEquals

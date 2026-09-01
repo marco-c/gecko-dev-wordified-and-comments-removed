@@ -4240,17 +4240,6 @@ ActionHandler
 >
 (
 )
-val
-actionCaptor
-=
-argumentCaptor
-<
-WebExtensionAction
-.
-UpdateWebExtensionAction
->
-(
-)
 /
 /
 Verifying

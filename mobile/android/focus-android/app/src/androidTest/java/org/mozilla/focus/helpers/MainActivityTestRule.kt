@@ -222,13 +222,6 @@ showFirstRun
 Boolean
 private
 val
-showNewOnboarding
-:
-Boolean
-=
-true
-private
-val
 showStartBrowsingCfrVisibility
 :
 Boolean

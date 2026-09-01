@@ -433,12 +433,6 @@ currentDate
 .
 month
 val
-currentYear
-=
-currentDate
-.
-year
-val
 htmlControlsPage
 =
 mockWebServer

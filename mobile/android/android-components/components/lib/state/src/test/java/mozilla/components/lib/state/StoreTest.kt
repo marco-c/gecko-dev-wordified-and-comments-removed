@@ -1463,14 +1463,9 @@ Job
 >
 (
 )
-for
+repeat
 (
-i
-in
-0
-.
-.
-10_000
+10_001
 )
 {
 storeJobs

@@ -294,9 +294,6 @@ SampleBuffer
 (
 1
 )
-val
-original
-=
 buffer
 .
 request
