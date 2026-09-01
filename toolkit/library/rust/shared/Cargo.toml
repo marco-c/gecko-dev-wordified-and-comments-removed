@@ -453,15 +453,6 @@ rev
 optional
 =
 true
-features
-=
-[
-"
-vpio
--
-forcelist
-"
-]
 }
 cubeb
 -
