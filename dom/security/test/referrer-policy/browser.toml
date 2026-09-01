@@ -33,13 +33,6 @@ slow
 ]
 [
 "
-browser_referrer_telemetry
-.
-js
-"
-]
-[
-"
 browser_session_history
 .
 js
