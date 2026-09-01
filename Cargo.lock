@@ -21150,9 +21150,6 @@ dependencies
 =
 [
 "
-byteorder
-"
-"
 env_logger
 "
 "
@@ -31988,9 +31985,6 @@ dependencies
 android_logger
 "
 "
-byteorder
-"
-"
 core
 -
 foundation
@@ -37351,9 +37345,6 @@ version
 dependencies
 =
 [
-"
-byteorder
-"
 "
 digest
 "
