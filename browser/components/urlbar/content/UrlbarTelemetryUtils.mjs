@@ -1896,9 +1896,7 @@ queryContext
 let
 resultType
 =
-lazy
-.
-UrlbarUtils
+UrlbarShared
 .
 searchEngagementTelemetryType
 (
@@ -4064,9 +4062,7 @@ map
 r
 =
 >
-lazy
-.
-UrlbarUtils
+UrlbarShared
 .
 searchEngagementTelemetryType
 (
@@ -4128,9 +4124,7 @@ engagement
 let
 selected_result
 =
-lazy
-.
-UrlbarUtils
+UrlbarShared
 .
 searchEngagementTelemetryType
 (
@@ -4421,9 +4415,7 @@ engagement
 {
 selected_result
 =
-lazy
-.
-UrlbarUtils
+UrlbarShared
 .
 searchEngagementTelemetryType
 (
@@ -4495,9 +4487,7 @@ bounce
 let
 selected_result
 =
-lazy
-.
-UrlbarUtils
+UrlbarShared
 .
 searchEngagementTelemetryType
 (

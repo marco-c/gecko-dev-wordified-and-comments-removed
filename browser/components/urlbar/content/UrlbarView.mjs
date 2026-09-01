@@ -18128,9 +18128,7 @@ setAttribute
 "
 type
 "
-lazy
-.
-UrlbarUtils
+UrlbarShared
 .
 searchEngagementTelemetryType
 (
@@ -21188,9 +21186,7 @@ setAttribute
 "
 type
 "
-lazy
-.
-UrlbarUtils
+UrlbarShared
 .
 searchEngagementTelemetryType
 (
