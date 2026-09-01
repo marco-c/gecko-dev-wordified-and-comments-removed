@@ -48494,12 +48494,6 @@ defined
 (
 MOZ_WIDGET_GTK
 )
-&
-&
-defined
-(
-MOZ_AARCH64
-)
 value
 :
 true
