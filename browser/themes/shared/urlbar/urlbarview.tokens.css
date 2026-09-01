@@ -66,6 +66,8 @@ file
 directly
 instead
 modify
+moz
+-
 urlbarview
 .
 tokens
@@ -719,6 +721,14 @@ lwtheme
 )
 :
 host
+(
+.
+anonymous
+-
+content
+-
+host
+)
 {
 layer
 tokens

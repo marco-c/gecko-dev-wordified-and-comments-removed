@@ -229,7 +229,8 @@ that
 s
 intended
 for
-elements
+\
+nelements
 with
 a
 background
@@ -242,7 +243,8 @@ slight
 offset
 here
 while
-not
+\
+nnot
 overlapping
 adjacent
 text
