@@ -4599,7 +4599,10 @@ result
 .
 payload
 .
-userContextId
+userContext
+?
+.
+id
 ;
 let
 actions

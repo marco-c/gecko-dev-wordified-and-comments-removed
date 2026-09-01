@@ -2620,11 +2620,16 @@ icon
 info
 .
 icon
-userContextId
+userContext
 :
+UrlbarUtils
+.
+getUserContextData
+(
 info
 .
 userContextId
+)
 lastVisit
 :
 info

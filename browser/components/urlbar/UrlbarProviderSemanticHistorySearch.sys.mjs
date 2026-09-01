@@ -1358,9 +1358,14 @@ res
 .
 url
 )
-userContextId
+userContext
 :
+UrlbarUtils
+.
+getUserContextData
+(
 tabUserContextId
+)
 tabGroup
 :
 tabGroupId

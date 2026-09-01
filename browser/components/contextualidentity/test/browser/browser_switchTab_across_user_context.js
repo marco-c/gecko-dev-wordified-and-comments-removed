@@ -297,7 +297,9 @@ result
 .
 payload
 .
-userContextId
+userContext
+.
+id
 =
 =
 contextIdTabA
@@ -382,7 +384,9 @@ result
 .
 payload
 .
-userContextId
+userContext
+.
+id
 =
 =
 contextIdTabB

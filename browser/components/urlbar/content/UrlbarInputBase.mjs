@@ -12766,7 +12766,10 @@ result
 .
 payload
 .
-userContextId
+userContext
+?
+.
+id
 tabGroup
 :
 result

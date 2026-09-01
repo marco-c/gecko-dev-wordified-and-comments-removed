@@ -1096,7 +1096,14 @@ getIconForUrl
 (
 url
 )
+userContext
+:
+UrlbarUtils
+.
+getUserContextData
+(
 userContextId
+)
 lastVisit
 action
 :

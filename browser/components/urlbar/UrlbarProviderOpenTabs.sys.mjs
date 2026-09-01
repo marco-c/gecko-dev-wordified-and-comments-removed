@@ -90,6 +90,7 @@ tabs
 import
 {
 UrlbarProvider
+UrlbarUtils
 }
 from
 "
@@ -2029,8 +2030,12 @@ getResultByName
 url
 "
 )
-userContextId
+userContext
 :
+UrlbarUtils
+.
+getUserContextData
+(
 row
 .
 getResultByName
@@ -2038,6 +2043,7 @@ getResultByName
 "
 userContextId
 "
+)
 )
 tabGroup
 :

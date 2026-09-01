@@ -100,6 +100,7 @@ mjs
 import
 {
 UrlbarProvider
+UrlbarUtils
 }
 from
 "
@@ -1611,9 +1612,14 @@ continue
 }
 payload
 .
-userContextId
+userContext
 =
+UrlbarUtils
+.
+getUserContextData
+(
 userContextId
+)
 ;
 let
 result

@@ -1675,7 +1675,9 @@ result
 .
 payload
 .
-userContextId
+userContext
+.
+id
 userContextId
 "
 Check
