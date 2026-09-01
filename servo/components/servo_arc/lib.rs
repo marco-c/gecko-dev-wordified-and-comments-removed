@@ -1176,6 +1176,8 @@ Self
 let
 ptr
 =
+unsafe
+{
 (
 ptr
 as
@@ -1195,11 +1197,14 @@ T
 (
 )
 )
+}
 ;
 Arc
 {
 p
 :
+unsafe
+{
 ptr
 :
 :
@@ -1217,6 +1222,7 @@ ArcInner
 T
 >
 )
+}
 phantom
 :
 PhantomData
@@ -1244,6 +1250,8 @@ Self
 let
 arc
 =
+unsafe
+{
 Self
 :
 :
@@ -1251,6 +1259,7 @@ from_raw
 (
 ptr
 )
+}
 ;
 mem
 :
@@ -1375,6 +1384,8 @@ size
 data
 }
 ;
+unsafe
+{
 ptr
 :
 :
@@ -1384,10 +1395,13 @@ ptr
 x
 )
 ;
+}
 Arc
 {
 p
 :
+unsafe
+{
 ptr
 :
 :
@@ -1398,6 +1412,7 @@ new_unchecked
 (
 ptr
 )
+}
 phantom
 :
 PhantomData
@@ -1662,6 +1677,8 @@ ptr
 (
 )
 ;
+unsafe
+{
 let
 layout
 =
@@ -1731,6 +1748,7 @@ _
 layout
 )
 ;
+}
 }
 #
 [
@@ -1827,6 +1845,7 @@ gecko_refcount_logging
 "
 )
 ]
+unsafe
 extern
 "
 C
@@ -5211,6 +5230,8 @@ ArcUnion
 {
 p
 :
+unsafe
+{
 ptr
 :
 :
@@ -5221,6 +5242,7 @@ new_unchecked
 (
 ptr
 )
+}
 phantom_a
 :
 PhantomData
