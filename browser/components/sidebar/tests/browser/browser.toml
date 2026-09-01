@@ -478,6 +478,13 @@ js
 ]
 [
 "
+browser_sidebar_focus_ring
+.
+js
+"
+]
+[
+"
 browser_sidebar_macmenu
 .
 js
