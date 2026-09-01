@@ -21367,6 +21367,15 @@ WidgetCompositionEvent
 aCompositionEndEvent
 )
 {
+MOZ_ASSERT
+(
+aCompositionEndEvent
+.
+CausesDOMCompositionEndEvent
+(
+)
+)
+;
 MOZ_LOG
 (
 gTextInputLog

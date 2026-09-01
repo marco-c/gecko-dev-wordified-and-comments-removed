@@ -2856,6 +2856,13 @@ html
 ]
 [
 "
+test_remove_during_composition
+.
+html
+"
+]
+[
+"
 test_replace_text
 .
 html
