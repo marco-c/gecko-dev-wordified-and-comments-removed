@@ -786,6 +786,14 @@ mYUVColorSpace
 ;
 mData
 .
+mHDRMetadata
+=
+aData
+.
+mHDRMetadata
+;
+mData
+.
 mColorDepth
 =
 aData

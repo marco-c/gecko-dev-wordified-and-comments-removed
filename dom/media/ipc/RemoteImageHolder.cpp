@@ -812,6 +812,16 @@ yUVColorSpace
 ;
 pData
 .
+mHDRMetadata
+=
+descriptor
+.
+hdrMetadata
+(
+)
+;
+pData
+.
 mColorRange
 =
 descriptor
