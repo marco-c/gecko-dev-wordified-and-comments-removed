@@ -110,6 +110,12 @@ NeedsOtherPid
 ChildImpl
 =
 "
+mozilla
+:
+:
+gmp
+:
+:
 GMPContentChild
 "
 ParentImpl

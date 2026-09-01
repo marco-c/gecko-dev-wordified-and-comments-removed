@@ -91,6 +91,12 @@ gmp
 ChildImpl
 =
 "
+mozilla
+:
+:
+gmp
+:
+:
 GMPStorageChild
 "
 ParentImpl

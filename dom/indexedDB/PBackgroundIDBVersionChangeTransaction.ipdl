@@ -101,6 +101,12 @@ indexedDB
 ChildImpl
 =
 "
+mozilla
+:
+:
+dom
+:
+:
 indexedDB
 :
 :

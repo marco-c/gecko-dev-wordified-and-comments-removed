@@ -85,6 +85,12 @@ virtual
 ParentImpl
 =
 "
+mozilla
+:
+:
+ipc
+:
+:
 TestShellCommandParent
 "
 ]
