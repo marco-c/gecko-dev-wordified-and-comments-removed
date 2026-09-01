@@ -323,6 +323,10 @@ CheckAccount
 is
 IPProtectionAction
 .
+CheckLocations
+is
+IPProtectionAction
+.
 EligibilityChanged
 is
 IPProtectionAction
@@ -336,6 +340,10 @@ is
 IPProtectionAction
 .
 LocationSwitchFailed
+is
+IPProtectionAction
+.
+LocationUpdateFailed
 is
 IPProtectionAction
 .
