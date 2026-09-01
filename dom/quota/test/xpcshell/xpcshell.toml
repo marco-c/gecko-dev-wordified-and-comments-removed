@@ -304,13 +304,6 @@ js
 ]
 [
 "
-test_cacheSchemaMismatch
-.
-js
-"
-]
-[
-"
 test_clearStoragesForClient
 .
 js
