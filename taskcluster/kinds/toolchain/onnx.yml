@@ -260,6 +260,10 @@ arguments
 "
 Windows
 "
+-
+"
+x64
+"
 toolchain
 -
 artifact
