@@ -5138,6 +5138,7 @@ STATE_RECEIVEONLY
 for
 (
 auto
+&
 kv
 :
 connections
