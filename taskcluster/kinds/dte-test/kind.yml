@@ -155,6 +155,15 @@ task
 -
 defaults
 :
+from
+-
+deps
+:
+copy
+-
+attributes
+:
+true
 worker
 -
 type
