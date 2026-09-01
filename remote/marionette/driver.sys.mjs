@@ -16450,6 +16450,8 @@ navigateTo
 (
 browsingContext
 targetURL
+.
+URI
 )
 {
 loadEventExpected
