@@ -694,6 +694,16 @@ radius
 0
 )
 ;
+overflow
+-
+clip
+-
+margin
+:
+border
+-
+box
+;
 &
 :
 not

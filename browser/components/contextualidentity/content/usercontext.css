@@ -2441,6 +2441,16 @@ radius
 circle
 )
 ;
+overflow
+-
+clip
+-
+margin
+:
+border
+-
+box
+;
 background
 -
 color
