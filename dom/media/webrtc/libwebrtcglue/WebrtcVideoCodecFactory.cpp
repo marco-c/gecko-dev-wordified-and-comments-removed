@@ -592,6 +592,10 @@ mPCHandle
 mTrackingId
 )
 ;
+if
+(
+gmpDecoder
+)
 {
 MutexAutoLock
 lock
@@ -1220,6 +1224,10 @@ aFormat
 mPCHandle
 )
 ;
+if
+(
+gmpEncoder
+)
 {
 MutexAutoLock
 lock
