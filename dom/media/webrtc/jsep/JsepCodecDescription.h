@@ -122,6 +122,15 @@ const
 ;
 virtual
 bool
+HardwareH264Enabled
+(
+)
+const
+=
+0
+;
+virtual
+bool
 SoftwareH264Enabled
 (
 )
