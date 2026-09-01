@@ -207,6 +207,14 @@ nsIContent
 aContent
 )
 {
+nsINode
+:
+:
+ForgetObserverChainIfCached
+(
+aContent
+)
+;
 mozilla
 :
 :
