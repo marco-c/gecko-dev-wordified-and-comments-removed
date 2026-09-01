@@ -4491,6 +4491,15 @@ if
 spa_buffer
 -
 >
+n_datas
+=
+=
+0
+|
+|
+spa_buffer
+-
+>
 datas
 [
 0
