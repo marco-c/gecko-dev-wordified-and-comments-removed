@@ -3801,6 +3801,16 @@ nodiscard
 ]
 ]
 bool
+emitCheckAwaitResumeKind
+(
+)
+;
+[
+[
+nodiscard
+]
+]
+bool
 emitExpressionStatement
 (
 UnaryNode
