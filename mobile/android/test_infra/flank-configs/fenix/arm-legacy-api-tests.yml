@@ -150,7 +150,7 @@ ui
 .
 MainMenuTest
 #
-navigateBackAndForwardTest
+verifyTheMainMenuForwardButtonTest
 -
 class
 org
@@ -200,9 +200,9 @@ fenix
 .
 ui
 .
-MainMenuTest
+NavigationToolbarTest
 #
-openNewTabTest
+verifyTheNewTabButtonTest
 -
 class
 org
