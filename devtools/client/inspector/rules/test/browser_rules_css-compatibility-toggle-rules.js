@@ -548,6 +548,11 @@ function
 )
 {
 await
+setMockCompatibilityDataset
+(
+)
+;
+await
 addTab
 (
 "

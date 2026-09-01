@@ -337,6 +337,11 @@ function
 )
 {
 await
+setMockCompatibilityDataset
+(
+)
+;
+await
 pushPref
 (
 "

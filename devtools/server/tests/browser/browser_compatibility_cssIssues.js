@@ -439,6 +439,11 @@ function
 (
 )
 {
+await
+setMockCompatibilityDataset
+(
+)
+;
 const
 {
 inspector
