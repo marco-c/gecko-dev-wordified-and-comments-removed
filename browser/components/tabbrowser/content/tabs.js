@@ -4805,9 +4805,16 @@ child
 )
 |
 |
+(
 isSplitViewWrapper
 (
 child
+)
+&
+&
+child
+.
+visible
 )
 )
 )
