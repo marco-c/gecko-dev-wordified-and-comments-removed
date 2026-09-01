@@ -7449,7 +7449,7 @@ null
 }
 gBrowser
 .
-_insertBrowser
+insertBrowser
 (
 aTab
 )

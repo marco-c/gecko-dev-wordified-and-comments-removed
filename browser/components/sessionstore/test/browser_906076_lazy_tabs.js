@@ -496,7 +496,7 @@ lazy
 ;
 gBrowser
 .
-_insertBrowser
+insertBrowser
 (
 gBrowser
 .
@@ -654,7 +654,7 @@ newWindow
 .
 gBrowser
 .
-_insertBrowser
+insertBrowser
 (
 newWindow
 .

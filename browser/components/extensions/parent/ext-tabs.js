@@ -4717,7 +4717,7 @@ true
 ;
 tabbrowser
 .
-_insertBrowser
+insertBrowser
 (
 nativeTab
 )
