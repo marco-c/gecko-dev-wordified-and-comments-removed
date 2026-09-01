@@ -1148,6 +1148,10 @@ nsIFrame
 *
 aPositioned
 const
+nsIFrame
+*
+aAbsoluteContainingBlock
+const
 ScopedNameRef
 &
 aAnchorName
