@@ -5496,7 +5496,7 @@ onLayersReady
 {
 tab
 .
-_tPos
+index
 }
 {
 browser
@@ -5704,7 +5704,7 @@ onLayersCleared
 {
 tab
 .
-_tPos
+index
 }
 )
 )
@@ -5801,7 +5801,7 @@ onRemotenessChange
 {
 tab
 .
-_tPos
+index
 }
 {
 tab
@@ -8104,7 +8104,7 @@ tab
 return
 tab
 .
-_tPos
+index
 +
 "
 (

@@ -4779,7 +4779,7 @@ permanentKey
 ;
 tab
 .
-_tPos
+_index
 =
 0
 ;
@@ -15504,7 +15504,7 @@ this
 .
 selectedTab
 .
-_tPos
+index
 +
 1
 ;
@@ -15565,7 +15565,7 @@ targetTabIndex
 =
 targetTab
 .
-_tPos
+index
 ;
 }
 else
@@ -15785,7 +15785,7 @@ targetTabIndex
 =
 firstTabAdded
 .
-_tPos
+index
 ;
 }
 }
@@ -20085,7 +20085,7 @@ tabIndex
 :
 tab
 .
-_tPos
+index
 +
 1
 userContextId
@@ -20242,13 +20242,13 @@ at
 1
 )
 .
-_tPos
+index
 +
 1
 :
 adjacentTab
 .
-_tPos
+index
 +
 1
 ;
@@ -23069,7 +23069,7 @@ tabs
 return
 element
 .
-_tPos
+index
 ;
 }
 /
@@ -25677,7 +25677,7 @@ tabs
 0
 ]
 .
-_tPos
+index
 +
 splitview
 .
@@ -25732,7 +25732,7 @@ tabIndex
 =
 adoptedTab
 .
-_tPos
+index
 +
 1
 ;
@@ -26031,7 +26031,7 @@ tabIndex
 =
 adoptedTab
 .
-_tPos
+index
 +
 1
 ;
@@ -39491,7 +39491,7 @@ and
 fix
 up
 the
-_tPos
+_index
 properties
 immediately
 .
@@ -39502,7 +39502,7 @@ i
 =
 aTab
 .
-_tPos
+index
 ;
 i
 <
@@ -39524,7 +39524,7 @@ tabs
 i
 ]
 .
-_tPos
+_index
 =
 i
 ;
@@ -45976,7 +45976,7 @@ tabs
 i
 ]
 .
-_tPos
+_index
 =
 i
 ;
@@ -46480,7 +46480,7 @@ element
 &
 element
 .
-_tPos
+index
 =
 =
 tabIndex
@@ -46661,7 +46661,7 @@ tabIndex
 >
 element
 .
-_tPos
+index
 ;
 }
 else
@@ -46697,7 +46697,7 @@ tabsInElement
 0
 ]
 .
-_tPos
+index
 ;
 if
 (
@@ -48630,7 +48630,7 @@ tabIndex
 :
 tab
 .
-_tPos
+index
 }
 ;
 if
@@ -49323,7 +49323,7 @@ tabs
 0
 ]
 .
-_tPos
+index
 >
 previousTabStates
 [
@@ -52078,11 +52078,11 @@ b
 >
 a
 .
-_tPos
+index
 >
 b
 .
-_tPos
+index
 )
 ;
 }

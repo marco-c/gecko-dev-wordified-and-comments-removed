@@ -1058,6 +1058,17 @@ level
 )
 ;
 }
+get
+index
+(
+)
+{
+return
+this
+.
+_index
+;
+}
 #
 elementIndex
 ;

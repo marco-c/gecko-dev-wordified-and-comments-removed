@@ -3045,7 +3045,7 @@ at
 1
 )
 .
-_tPos
+index
 +
 1
 }
@@ -3120,7 +3120,7 @@ at
 1
 )
 .
-_tPos
+index
 +
 1
 selectTab
