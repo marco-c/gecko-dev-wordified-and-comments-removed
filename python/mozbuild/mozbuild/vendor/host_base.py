@@ -281,19 +281,30 @@ as
 temp_repo_clone
 :
             
-starting_directory
+repo_clone
 =
-os
+"
+/
+"
 .
-getcwd
+join
 (
-)
-            
-os
-.
-chdir
-(
+[
 temp_repo_clone
+self
+.
+manifest
+[
+"
+origin
+"
+]
+[
+"
+name
+"
+]
+]
 )
             
 subprocess
@@ -346,6 +357,10 @@ name
                 
 ]
                 
+cwd
+=
+temp_repo_clone
+                
 capture_output
 =
 True
@@ -358,35 +373,6 @@ check
 =
 True
             
-)
-            
-os
-.
-chdir
-(
-"
-/
-"
-.
-join
-(
-[
-temp_repo_clone
-self
-.
-manifest
-[
-"
-origin
-"
-]
-[
-"
-name
-"
-]
-]
-)
 )
             
 revision_arg
@@ -450,6 +436,10 @@ creatordate
                     
 +
 revision_arg
+                    
+cwd
+=
+repo_clone
                     
 capture_output
 =
@@ -562,6 +552,10 @@ tag
                 
 ]
                 
+cwd
+=
+repo_clone
+                
 capture_output
 =
 True
@@ -585,13 +579,6 @@ splitlines
 -
 1
 ]
-            
-os
-.
-chdir
-(
-starting_directory
-)
             
 return
 tag
