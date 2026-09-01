@@ -3444,9 +3444,6 @@ never
 unit
 :
 unknown
-telemetry_mirror
-:
-DATASANITIZATION_SESSION_PERMISSION_EXCEPTIONS
 startup
 :
 is_cold
