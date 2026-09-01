@@ -73,12 +73,6 @@ Ratio
 {
 fn
 parse
-<
-'
-i
-'
-t
->
 (
 context
 :
@@ -89,12 +83,6 @@ input
 &
 mut
 Parser
-<
-'
-i
-'
-t
->
 )
 -
 >
@@ -102,10 +90,6 @@ Result
 <
 Self
 ParseError
-<
-'
-i
->
 >
 {
 let

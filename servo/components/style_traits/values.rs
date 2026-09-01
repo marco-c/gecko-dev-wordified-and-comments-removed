@@ -20,7 +20,6 @@ cssparser
 serialize_string
 ParseError
 Parser
-Token
 UnicodeRange
 }
 ;
@@ -1332,8 +1331,6 @@ T
 >
 ParseError
 <
-'
-i
 E
 >
 >
@@ -1364,8 +1361,6 @@ Result
 T
 ParseError
 <
-'
-i
 E
 >
 >
@@ -1427,8 +1422,6 @@ T
 >
 ParseError
 <
-'
-i
 E
 >
 >
@@ -1459,8 +1452,6 @@ Result
 T
 ParseError
 <
-'
-i
 E
 >
 >
@@ -1530,8 +1521,6 @@ T
 >
 ParseError
 <
-'
-i
 E
 >
 >
@@ -1562,8 +1551,6 @@ Result
 T
 ParseError
 <
-'
-i
 E
 >
 >
@@ -1689,8 +1676,6 @@ T
 >
 ParseError
 <
-'
-i
 E
 >
 >
@@ -1721,8 +1706,6 @@ Result
 T
 ParseError
 <
-'
-i
 E
 >
 >
@@ -1752,15 +1735,6 @@ loop
 input
 .
 skip_whitespace
-(
-)
-;
-let
-comma_location
-=
-input
-.
-current_source_location
 (
 )
 ;
@@ -1822,14 +1796,11 @@ comma
 return
 Err
 (
-comma_location
-.
-new_unexpected_token_error
+ParseError
+:
+:
+unexpected_token
 (
-Token
-:
-:
-Comma
 )
 )
 ;

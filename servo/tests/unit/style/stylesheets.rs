@@ -2765,7 +2765,7 @@ assert_messages_contain
 [
 (
 8
-18
+9
 "
 Unsupported
 property
@@ -2781,7 +2781,7 @@ invalid
 )
 (
 9
-27
+9
 "
 Unsupported
 property
@@ -2796,7 +2796,7 @@ image
 )
 (
 10
-17
+9
 "
 Unsupported
 property
@@ -2812,7 +2812,7 @@ true
 )
 (
 12
-28
+11
 "
 Invalid
 media
@@ -2821,7 +2821,7 @@ rule
 )
 (
 13
-30
+18
 "
 Unsupported
 font
@@ -2833,7 +2833,7 @@ declaration
 )
 (
 14
-19
+5
 "
 Invalid
 rule
@@ -2846,7 +2846,7 @@ style
 )
 (
 15
-25
+5
 "
 Invalid
 rule
@@ -2861,7 +2861,7 @@ values
 )
 (
 16
-13
+5
 "
 Invalid
 rule
@@ -2873,7 +2873,7 @@ invalid
 )
 (
 17
-29
+21
 "
 Invalid
 rule
@@ -2885,7 +2885,7 @@ invalid
 )
 (
 18
-34
+5
 "
 Invalid
 rule
@@ -2896,7 +2896,7 @@ supports
 )
 (
 19
-26
+22
 "
 Invalid
 keyframe
@@ -2910,7 +2910,7 @@ invalid
 )
 (
 19
-52
+43
 "
 Unsupported
 keyframe
@@ -2929,7 +2929,7 @@ invalid
 )
 (
 20
-29
+17
 "
 Unsupported
 viewport
@@ -3106,7 +3106,7 @@ assert_messages_contain
 [
 (
 4
-31
+9
 "
 Unsupported
 property

@@ -69,10 +69,6 @@ Result
 <
 T
 ParseError
-<
-'
-static
->
 >
 where
 F
@@ -102,10 +98,6 @@ Result
 <
 T
 ParseError
-<
-'
-static
->
 >
 {
 let
@@ -163,10 +155,6 @@ Result
 <
 T
 ParseError
-<
-'
-i
->
 >
 where
 F
@@ -191,10 +179,6 @@ Result
 <
 T
 ParseError
-<
-'
-i
->
 >
 {
 let

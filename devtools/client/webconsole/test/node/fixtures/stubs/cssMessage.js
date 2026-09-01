@@ -185,7 +185,7 @@ lineNumber
 columnNumber
 "
 :
-27
+5
 "
 category
 "
@@ -281,6 +281,10 @@ for
 padding
 -
 top
+:
+invalid
+value
+;
 .
 Declaration
 dropped
@@ -304,6 +308,10 @@ for
 padding
 -
 top
+:
+invalid
+value
+;
 .
 Declaration
 dropped
@@ -356,7 +364,7 @@ lineNumber
 columnNumber
 "
 :
-18
+5
 "
 category
 "

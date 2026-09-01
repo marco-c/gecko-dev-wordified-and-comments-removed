@@ -554,11 +554,15 @@ pageError
 errorMessage
 :
 /
-Expected
+Error
+in
+parsing
+value
+for
 color
-but
-found
+:
 bloup
+;
 /
 sourceName
 :
@@ -605,6 +609,8 @@ parsing
 value
 for
 width
+:
+red
 /
 sourceName
 :
@@ -641,6 +647,8 @@ parsing
 value
 for
 height
+:
+blue
 /
 sourceName
 :

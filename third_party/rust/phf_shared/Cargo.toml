@@ -100,7 +100,7 @@ package
 edition
 =
 "
-2021
+2024
 "
 rust
 -
@@ -109,7 +109,7 @@ version
 "
 1
 .
-66
+85
 "
 name
 =
@@ -121,9 +121,9 @@ version
 "
 0
 .
-13
+14
 .
-1
+0
 "
 authors
 =
@@ -222,6 +222,10 @@ default
 std
 "
 ]
+ptrhash
+=
+[
+]
 std
 =
 [
@@ -243,9 +247,6 @@ lib
 .
 rs
 "
-test
-=
-false
 [
 dependencies
 .
@@ -290,9 +291,9 @@ version
 "
 2
 .
-4
+8
 .
-0
+1
 "
 optional
 =

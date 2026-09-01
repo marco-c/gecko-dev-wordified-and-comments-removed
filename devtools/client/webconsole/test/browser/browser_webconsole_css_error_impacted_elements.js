@@ -340,6 +340,9 @@ parsing
 value
 for
 cursor
+:
+unknownCursor
+;
 "
 "
 .
@@ -714,6 +717,9 @@ parsing
 value
 for
 color
+:
+blouge
+;
 "
 "
 .

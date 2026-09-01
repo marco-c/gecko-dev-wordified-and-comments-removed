@@ -324,8 +324,7 @@ crate
 :
 :
 BasicParseError
-40
-48
+1
 )
 ;
 size_of_test
@@ -340,7 +339,6 @@ ParseError
 (
 )
 >
-40
-48
+1
 )
 ;
