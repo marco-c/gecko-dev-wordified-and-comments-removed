@@ -532,6 +532,13 @@ py
 ]
 [
 "
+test_path_performance
+.
+py
+"
+]
+[
+"
 test_preprocessor
 .
 py
