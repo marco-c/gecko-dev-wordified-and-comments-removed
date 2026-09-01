@@ -202,7 +202,7 @@ fenix
 .
 experimentintegration
 -
-package
+notPackage
 org
 .
 mozilla
@@ -213,7 +213,7 @@ ui
 .
 efficiency
 .
-tests
+devtools
 -
 package
 org
@@ -226,7 +226,7 @@ ui
 .
 efficiency
 .
-devtools
+tests
 -
 package
 org
