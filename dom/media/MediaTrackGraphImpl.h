@@ -12,13 +12,6 @@ atomic
 #
 include
 "
-AsyncLogger
-.
-h
-"
-#
-include
-"
 AudioMixer
 .
 h
@@ -90,7 +83,7 @@ h
 #
 include
 "
-nsClassHashtable
+nsIDirectTaskDispatcher
 .
 h
 "
@@ -332,6 +325,8 @@ MediaTrackGraph
 public
 GraphInterface
 public
+nsIDirectTaskDispatcher
+public
 nsIMemoryReporter
 public
 nsIObserver
@@ -361,6 +356,7 @@ MediaTrack
 ControlMessageWrapper
 ;
 NS_DECL_THREADSAFE_ISUPPORTS
+NS_DECL_NSIDIRECTTASKDISPATCHER
 NS_DECL_NSIMEMORYREPORTER
 NS_DECL_NSIOBSERVER
 NS_DECL_NSITHREADOBSERVER
@@ -2072,6 +2068,15 @@ MOZ_GUARDED_BY
 (
 mMonitor
 )
+;
+nsTArray
+<
+nsCOMPtr
+<
+nsIRunnable
+>
+>
+mDirectMessages
 ;
 nsTArray
 <
