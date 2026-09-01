@@ -16632,7 +16632,7 @@ agent
 .
 enabled
 "
-false
+true
 )
 ;
 pref
