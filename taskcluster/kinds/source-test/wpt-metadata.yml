@@ -138,11 +138,6 @@ metadata
 summary
 run
 :
-clone
--
-with
-:
-hg
 using
 :
 mach
