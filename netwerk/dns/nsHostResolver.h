@@ -57,7 +57,7 @@ include
 "
 mozilla
 /
-RWLock
+Mutex
 .
 h
 "
@@ -1361,10 +1361,7 @@ METHOD_NETWORK_SHARED
 }
 ;
 mutable
-mozilla
-:
-:
-RWLock
+Mutex
 mDBLock
 {
 "
