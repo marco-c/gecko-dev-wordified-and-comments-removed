@@ -354,9 +354,6 @@ com
 expires
 :
 never
-telemetry_mirror
-:
-UPDATE_BITSHRESULT
 send_in_pings
 :
 -
@@ -509,9 +506,6 @@ com
 expires
 :
 never
-telemetry_mirror
-:
-UPDATE_MOVE_RESULT
 send_in_pings
 :
 -
@@ -641,9 +635,6 @@ com
 expires
 :
 never
-telemetry_mirror
-:
-UPDATE_NO_WINDOW_AUTO_RESTARTS
 send_in_pings
 :
 -
@@ -808,9 +799,6 @@ com
 expires
 :
 never
-telemetry_mirror
-:
-UPDATE_SUPPRESS_PROMPTS
 send_in_pings
 :
 -
@@ -957,9 +945,6 @@ net
 expires
 :
 never
-telemetry_mirror
-:
-UPDATE_VERSION_PIN
 send_in_pings
 :
 -

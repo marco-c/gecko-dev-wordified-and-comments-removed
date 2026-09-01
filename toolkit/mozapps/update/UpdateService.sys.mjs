@@ -22866,7 +22866,7 @@ NIGHTLY_BUILD
 {
 /
 /
-Scalar
+Metric
 ID
 :
 update
@@ -34229,7 +34229,7 @@ AppUpdatePin
 ;
 /
 /
-Scalar
+Metric
 ID
 :
 update
