@@ -3318,7 +3318,6 @@ on
 projects
 :
 [
-autoland
 mozilla
 -
 central
@@ -3541,7 +3540,6 @@ on
 projects
 :
 [
-autoland
 mozilla
 -
 central
@@ -3853,7 +3851,6 @@ on
 projects
 :
 [
-autoland
 mozilla
 -
 central
@@ -4043,7 +4040,6 @@ on
 projects
 :
 [
-autoland
 mozilla
 -
 central
@@ -4773,7 +4769,6 @@ on
 projects
 :
 [
-autoland
 mozilla
 -
 central
@@ -5509,7 +5504,6 @@ on
 projects
 :
 [
-autoland
 mozilla
 -
 central
@@ -5782,7 +5776,6 @@ on
 projects
 :
 [
-autoland
 mozilla
 -
 central
