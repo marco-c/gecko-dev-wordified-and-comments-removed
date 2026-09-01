@@ -84,6 +84,13 @@ debug
 ]
 [
 "
+browser_escape
+.
+js
+"
+]
+[
+"
 browser_pickResult
 .
 js
