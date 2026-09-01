@@ -60505,6 +60505,13 @@ FinalizeLCPEntriesForText
 (
 )
 ;
+perf
+-
+>
+FinalizeContainerTimingEntries
+(
+)
+;
 }
 }
 }
