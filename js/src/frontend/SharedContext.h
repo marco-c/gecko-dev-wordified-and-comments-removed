@@ -213,6 +213,7 @@ ForOfLoop
 DoLoop
 WhileLoop
 Class
+Destructuring
 Spread
 YieldStar
 }
