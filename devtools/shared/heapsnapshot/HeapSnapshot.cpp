@@ -1851,7 +1851,9 @@ has_data
 return
 false
 ;
+const
 auto
+&
 data
 =
 frame
