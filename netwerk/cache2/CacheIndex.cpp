@@ -9551,7 +9551,7 @@ mRWBufPos
 CacheCrypto
 :
 :
-IsActive
+IsEnabled
 (
 )
 ?
@@ -12281,7 +12281,7 @@ nowEncrypted
 CacheCrypto
 :
 :
-IsActive
+IsEnabled
 (
 )
 ;
