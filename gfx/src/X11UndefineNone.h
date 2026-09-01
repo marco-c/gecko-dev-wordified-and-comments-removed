@@ -89,3 +89,15 @@ X11DestroyAll
 0
 #
 endif
+#
+ifdef
+Success
+#
+undef
+Success
+#
+define
+X11Success
+0
+#
+endif

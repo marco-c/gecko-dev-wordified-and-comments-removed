@@ -2413,7 +2413,7 @@ if
 result
 !
 =
-Success
+X11Success
 |
 |
 bytes_after_return
@@ -2533,7 +2533,7 @@ if
 result
 !
 =
-Success
+X11Success
 |
 |
 bytes_after_return
@@ -2988,7 +2988,7 @@ property
 )
 =
 =
-Success
+X11Success
 &
 &
 property

@@ -2840,7 +2840,7 @@ retProperty
 )
 !
 =
-Success
+X11Success
 )
 {
 return
@@ -3152,7 +3152,7 @@ retProperty
 )
 !
 =
-Success
+X11Success
 )
 {
 return
