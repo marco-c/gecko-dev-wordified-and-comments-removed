@@ -239,6 +239,13 @@ https_first_disabled
 true
 [
 "
+browser_engineStoreQueryGate
+.
+js
+"
+]
+[
+"
 browser_engine_used_on_search_mode
 .
 js

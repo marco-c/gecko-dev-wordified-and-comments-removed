@@ -217,6 +217,14 @@ BROWSER_CHROME_URL
 }
 )
 ;
+childController
+.
+engineStore
+.
+initialized
+=
+false
+;
 return
 childController
 .
