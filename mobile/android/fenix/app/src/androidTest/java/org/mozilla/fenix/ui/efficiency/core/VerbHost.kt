@@ -119,8 +119,6 @@ from
 its
 host
 .
-*
-*
 BasePage
 supplies
 these
@@ -132,6 +130,7 @@ knows
 nothing
 about
 pages
+*
 navigation
 or
 Compose
@@ -140,14 +139,11 @@ which
 is
 what
 lets
-*
 the
-whole
-verb
-vocabulary
+verbs
 live
 outside
-BasePage
+it
 .
 *
 /
