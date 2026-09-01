@@ -40,7 +40,6 @@ key_types
 {
 BorderRadiusAu
 ConicGradientParams
-EdgeMask
 GradientStopKey
 NinePatchDescriptor
 NormalBorderAu
@@ -60,7 +59,6 @@ units
 :
 :
 {
-DeviceIntRect
 LayoutSideOffsetsAu
 TileOffset
 }
@@ -257,13 +255,6 @@ pub
 alpha_type
 :
 AlphaType
-pub
-sub_rect
-:
-Option
-<
-DeviceIntRect
->
 }
 #
 [
@@ -509,10 +500,6 @@ Box
 NinePatchDescriptor
 >
 >
-pub
-edge_aa_mask
-:
-EdgeMask
 }
 #
 [

@@ -6342,12 +6342,6 @@ info
 .
 tile_spacing
 None
-EdgeMask
-:
-:
-all
-(
-)
 )
 {
 self
@@ -10866,12 +10860,6 @@ new
 nine_patch
 )
 )
-EdgeMask
-:
-:
-all
-(
-)
 )
 {
 Some
@@ -11152,9 +11140,6 @@ Box
 NinePatchDescriptor
 >
 >
-edge_aa_mask
-:
-EdgeMask
 )
 -
 >
@@ -11322,7 +11307,6 @@ into
 stops
 reverse_stops
 nine_patch
-edge_aa_mask
 }
 )
 }
