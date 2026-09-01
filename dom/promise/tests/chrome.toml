@@ -3,13 +3,6 @@ DEFAULT
 ]
 [
 "
-test_on_new_promise
-.
-html
-"
-]
-[
-"
 test_promise_argument_xrays
 .
 html
