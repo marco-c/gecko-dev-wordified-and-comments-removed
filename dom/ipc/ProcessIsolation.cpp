@@ -1024,6 +1024,8 @@ bool
 aIsSubframe
 bool
 aForChannelCreationURI
+bool
+aIsWorker
 )
 {
 MOZ_ASSERT
@@ -1373,6 +1375,7 @@ IsolationBehaviorForURI
 inner
 aIsSubframe
 aForChannelCreationURI
+aIsWorker
 )
 ;
 }
@@ -1629,6 +1632,12 @@ PrivilegedMozilla
 }
 }
 }
+if
+(
+!
+aIsWorker
+)
+{
 nsCOMPtr
 <
 nsIScriptSecurityManager
@@ -1672,6 +1681,7 @@ IsolationBehavior
 :
 File
 ;
+}
 }
 return
 IsolationBehavior
@@ -3040,6 +3050,7 @@ IsolationBehaviorForURI
 aChannelCreationURI
 aParentWindow
 true
+false
 )
 ;
 MOZ_LOG
@@ -3551,6 +3562,7 @@ IsolationBehaviorForURI
 (
 principalURI
 aParentWindow
+false
 false
 )
 ;
@@ -5033,6 +5045,7 @@ IsolationBehaviorForURI
 uri
 false
 false
+true
 )
 ;
 }
@@ -6022,6 +6035,7 @@ IsolationBehaviorForURI
 aURI
 false
 true
+false
 )
 ;
 MOZ_LOG
@@ -6080,6 +6094,7 @@ IsolationBehaviorForURI
 uri
 false
 true
+false
 )
 ;
 MOZ_LOG
@@ -6319,6 +6334,7 @@ behavior
 IsolationBehaviorForURI
 (
 principalURI
+false
 false
 false
 )
@@ -7518,6 +7534,7 @@ IsolationBehaviorForURI
 aboutURI
 false
 true
+false
 )
 )
 {
