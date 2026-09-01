@@ -304,6 +304,13 @@ js
 ]
 [
 "
+browser_test_srcdoc_in_parent_process
+.
+js
+"
+]
+[
+"
 browser_test_toplevel_data_navigations
 .
 js
