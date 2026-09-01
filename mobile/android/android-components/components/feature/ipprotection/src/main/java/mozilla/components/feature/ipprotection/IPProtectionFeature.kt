@@ -1038,9 +1038,7 @@ registerAndInit
 =
 withContext
 (
-Dispatchers
-.
-Main
+mainDispatcher
 )
 {
 handler
@@ -1314,9 +1312,7 @@ uninit
 =
 withContext
 (
-Dispatchers
-.
-Main
+mainDispatcher
 )
 {
 handler
@@ -1335,9 +1331,7 @@ observeToggle
 =
 withContext
 (
-Dispatchers
-.
-Main
+mainDispatcher
 )
 {
 /

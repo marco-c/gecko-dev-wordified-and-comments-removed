@@ -365,6 +365,13 @@ proxyStatus
 ProxyStatus
 =
 Uninitialized
+eligibilityStatus
+:
+EligibilityStatus
+=
+EligibilityStatus
+.
+Unknown
 )
 :
 IPProtectionState
@@ -384,5 +391,8 @@ serviceStatus
 proxyStatus
 =
 proxyStatus
+eligibilityStatus
+=
+eligibilityStatus
 )
 }
