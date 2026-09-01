@@ -380,6 +380,13 @@ tabs
 "
 [
 "
+browser_opentabs_hover_preview
+.
+js
+"
+]
+[
+"
 browser_opentabs_sidebar
 .
 js
