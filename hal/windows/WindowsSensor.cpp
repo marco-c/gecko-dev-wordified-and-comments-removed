@@ -69,13 +69,9 @@ public
 SensorEvent
 (
 )
-:
-mCount
-(
-0
-)
-{
-}
+=
+default
+;
 STDMETHODIMP_
 (
 ULONG
@@ -408,6 +404,9 @@ private
 :
 ULONG
 mCount
+{
+0
+}
 ;
 }
 ;
