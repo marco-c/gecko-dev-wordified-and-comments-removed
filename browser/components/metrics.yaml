@@ -5320,9 +5320,6 @@ never
 unit
 :
 unknown
-telemetry_mirror
-:
-SECURITY_GLOBAL_PRIVACY_CONTROL_ENABLED
 primary
 .
 password

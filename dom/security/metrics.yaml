@@ -3419,9 +3419,6 @@ com
 expires
 :
 never
-telemetry_mirror
-:
-MIXED_CONTENT_HSTS
 security
 .
 ui
