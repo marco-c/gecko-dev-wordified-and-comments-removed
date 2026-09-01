@@ -653,16 +653,6 @@ preferences
 ;
 virtual
 void
-OnTransportOverheadChanged
-(
-size_t
-transport_overhead_per_packet
-)
-=
-0
-;
-virtual
-void
 AccountForAudioPacketsInPacedSender
 (
 bool

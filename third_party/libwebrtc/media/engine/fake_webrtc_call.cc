@@ -3965,16 +3965,6 @@ void
 FakeCall
 :
 :
-OnAudioTransportOverheadChanged
-(
-int
-)
-{
-}
-void
-FakeCall
-:
-:
 OnUpdateSyncGroup
 (
 AudioReceiveStreamInterface

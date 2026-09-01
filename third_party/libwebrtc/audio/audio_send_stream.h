@@ -645,13 +645,6 @@ GetUsedRate
 const
 override
 ;
-void
-SetTransportOverhead
-(
-int
-transport_overhead_per_packet_bytes
-)
-;
 RtpState
 GetRtpState
 (

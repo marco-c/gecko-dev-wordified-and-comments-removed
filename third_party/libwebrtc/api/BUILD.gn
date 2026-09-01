@@ -5551,6 +5551,11 @@ data_rate
 "
 units
 :
+data_size
+"
+"
+units
+:
 time_delta
 "
 ]

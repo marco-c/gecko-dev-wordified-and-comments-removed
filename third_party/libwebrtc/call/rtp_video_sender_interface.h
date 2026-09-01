@@ -239,16 +239,6 @@ framerate
 0
 ;
 virtual
-void
-OnTransportOverheadChanged
-(
-size_t
-transport_overhead_bytes_per_packet
-)
-=
-0
-;
-virtual
 uint32_t
 GetPayloadBitrateBps
 (

@@ -550,16 +550,6 @@ state
 ;
 virtual
 void
-OnAudioTransportOverheadChanged
-(
-int
-transport_overhead_per_packet
-)
-=
-0
-;
-virtual
-void
 OnUpdateSyncGroup
 (
 AudioReceiveStreamInterface

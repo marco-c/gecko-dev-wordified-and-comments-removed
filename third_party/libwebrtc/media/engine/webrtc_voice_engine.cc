@@ -9589,16 +9589,6 @@ RTC_DCHECK_RUN_ON
 network_thread_checker_
 )
 ;
-call_
--
->
-OnAudioTransportOverheadChanged
-(
-network_route
-.
-packet_overhead
-)
-;
 worker_thread_
 -
 >
