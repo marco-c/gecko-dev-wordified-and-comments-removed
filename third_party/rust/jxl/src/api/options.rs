@@ -1,11 +1,3 @@
-pub
-enum
-JxlProgressiveMode
-{
-Eager
-Pass
-FullFrame
-}
 #
 [
 non_exhaustive
@@ -37,10 +29,6 @@ pub
 skip_preview
 :
 bool
-pub
-progressive_mode
-:
-JxlProgressiveMode
 pub
 sample_limit
 :
@@ -91,12 +79,6 @@ true
 desired_intensity_target
 :
 None
-progressive_mode
-:
-JxlProgressiveMode
-:
-:
-Pass
 sample_limit
 :
 None

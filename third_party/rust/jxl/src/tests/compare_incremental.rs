@@ -230,6 +230,7 @@ Some
 mut
 flush_callback
 )
+None
 )
 .
 unwrap

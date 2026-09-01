@@ -9,7 +9,6 @@ api
 {
 Endianness
 JxlDataFormat
-JxlOutputBuffer
 }
 error
 :
@@ -22,10 +21,16 @@ Orientation
 render
 :
 :
+{
+buffer_splitter
+:
+:
+OutputChannelRef
 save
 :
 :
 SaveStage
+}
 }
 ;
 use
@@ -76,7 +81,7 @@ mut
 [
 Option
 <
-JxlOutputBuffer
+OutputChannelRef
 >
 ]
 group_size

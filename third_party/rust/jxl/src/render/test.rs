@@ -866,7 +866,6 @@ false
 ;
 }
 let
-mut
 pipeline
 =
 pipeline
@@ -1014,7 +1013,6 @@ collect
 )
 ;
 let
-mut
 buffer_splitter
 =
 BufferSplitter
@@ -1098,13 +1096,17 @@ log_group_size
 )
 ?
 &
-mut
 buffer_splitter
 )
 ?
 ;
 }
 }
+drop
+(
+buffer_splitter
+)
+;
 Ok
 (
 outputs

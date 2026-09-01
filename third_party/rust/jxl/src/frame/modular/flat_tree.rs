@@ -126,7 +126,6 @@ clippy
 :
 :
 too_many_arguments
-unsafe_code
 )
 ]
 pub

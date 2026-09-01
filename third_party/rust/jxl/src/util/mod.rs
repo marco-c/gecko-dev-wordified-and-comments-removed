@@ -1,7 +1,4 @@
 mod
-atomic_refcell
-;
-mod
 bits
 ;
 mod
@@ -30,6 +27,9 @@ mod
 ndarray
 ;
 mod
+per_thread_storage
+;
+mod
 rational_poly
 ;
 mod
@@ -40,6 +40,10 @@ smallvec
 ;
 pub
 mod
+sync
+;
+pub
+mod
 tracing_wrappers
 ;
 mod
@@ -47,13 +51,6 @@ vec_helpers
 ;
 mod
 xorshift128plus
-;
-pub
-use
-atomic_refcell
-:
-:
-*
 ;
 pub
 use
@@ -117,6 +114,13 @@ crate
 )
 use
 ndarray
+:
+:
+*
+;
+pub
+use
+per_thread_storage
 :
 :
 *

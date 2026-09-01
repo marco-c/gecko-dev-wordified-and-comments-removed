@@ -1,5 +1,8 @@
 use
-std
+crate
+:
+:
+util
 :
 :
 sync
@@ -460,7 +463,10 @@ mod
 test
 {
 use
-std
+crate
+:
+:
+util
 :
 :
 sync

@@ -1877,7 +1877,6 @@ origin
 )
 &
 None
-&
 None
 &
 mut
@@ -2062,7 +2061,6 @@ origin
 )
 &
 None
-&
 None
 &
 mut

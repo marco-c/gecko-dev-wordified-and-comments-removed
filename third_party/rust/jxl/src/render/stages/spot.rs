@@ -5,7 +5,10 @@ crate
 render
 :
 :
+{
+ErasedLocalState
 RenderPipelineInPlaceStage
+}
 ;
 pub
 struct
@@ -199,14 +202,7 @@ Option
 <
 &
 mut
-dyn
-std
-:
-:
-any
-:
-:
-Any
+ErasedLocalState
 >
 )
 {

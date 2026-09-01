@@ -152,6 +152,20 @@ simple_pipeline
 SimpleRenderPipeline
 ;
 pub
+(
+crate
+)
+type
+ErasedLocalState
+=
+dyn
+Any
++
+Send
++
+Sync
+;
+pub
 enum
 StageSpecialCase
 {
@@ -187,6 +201,10 @@ fmt
 :
 :
 Display
++
+Send
++
+Sync
 {
 type
 Type
@@ -227,8 +245,7 @@ Option
 <
 &
 mut
-dyn
-Any
+ErasedLocalState
 >
 )
 ;
@@ -237,9 +254,6 @@ init_local_state
 (
 &
 self
-_thread_index
-:
-usize
 )
 -
 >
@@ -249,8 +263,7 @@ Option
 <
 Box
 <
-dyn
-Any
+ErasedLocalState
 >
 >
 >
@@ -302,6 +315,10 @@ fmt
 :
 :
 Display
++
+Send
++
+Sync
 {
 type
 InputT
@@ -370,8 +387,7 @@ Option
 <
 &
 mut
-dyn
-Any
+ErasedLocalState
 >
 )
 ;
@@ -380,9 +396,6 @@ init_local_state
 (
 &
 self
-_thread_index
-:
-usize
 )
 -
 >
@@ -392,8 +405,7 @@ Option
 <
 Box
 <
-dyn
-Any
+ErasedLocalState
 >
 >
 >
@@ -476,7 +488,6 @@ ImageDataType
 >
 (
 &
-mut
 self
 channel
 :
@@ -501,7 +512,6 @@ ImageDataType
 >
 (
 &
-mut
 self
 channel
 :
@@ -521,7 +531,6 @@ T
 buffer_splitter
 :
 &
-mut
 BufferSplitter
 )
 -
@@ -565,7 +574,6 @@ self
 buffer_splitter
 :
 &
-mut
 BufferSplitter
 )
 -

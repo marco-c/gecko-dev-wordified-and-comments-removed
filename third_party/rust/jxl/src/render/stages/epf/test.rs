@@ -1,11 +1,17 @@
 use
-std
+crate
+:
+:
+util
 :
 :
 sync
 :
 :
+{
 Arc
+RwLock
+}
 ;
 use
 rand
@@ -45,10 +51,6 @@ image
 :
 :
 Image
-util
-:
-:
-AtomicRefCell
 }
 ;
 #
@@ -123,7 +125,7 @@ Arc
 :
 new
 (
-AtomicRefCell
+RwLock
 :
 :
 new
@@ -256,7 +258,7 @@ Arc
 :
 new
 (
-AtomicRefCell
+RwLock
 :
 :
 new
@@ -389,7 +391,7 @@ Arc
 :
 new
 (
-AtomicRefCell
+RwLock
 :
 :
 new
