@@ -23737,7 +23737,7 @@ name
 preferences_privacy_report
 "
 >
-Sekretessrapport
+Integritetsrapport
 <
 /
 string
@@ -23774,7 +23774,7 @@ preferences_privacy_report_title
 "
 >
 Aktivera
-sekretessrapport
+integritetsrapport
 <
 /
 string
@@ -57350,7 +57350,8 @@ homepage_shortcuts_show_less
 "
 >
 Visa
-mindre
+f
+rre
 <
 /
 string
