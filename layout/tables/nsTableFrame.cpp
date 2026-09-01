@@ -36027,7 +36027,7 @@ aCtx
 )
 override
 ;
-bool
+WebRenderCommandsResult
 CreateWebRenderCommands
 (
 wr
@@ -36172,7 +36172,7 @@ pt
 )
 ;
 }
-bool
+WebRenderCommandsResult
 nsDisplayTableBorderCollapse
 :
 :
@@ -36237,7 +36237,9 @@ ToReferenceFrame
 )
 ;
 return
-true
+Ok
+(
+)
 ;
 }
 }

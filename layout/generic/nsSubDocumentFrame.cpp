@@ -6198,7 +6198,7 @@ destRect
 )
 ;
 }
-bool
+WebRenderCommandsResult
 nsDisplayRemote
 :
 :
@@ -6253,7 +6253,9 @@ IsValid
 )
 {
 return
-true
+Ok
+(
+)
 ;
 }
 auto
@@ -6444,7 +6446,9 @@ true
 )
 ;
 return
-true
+Ok
+(
+)
 ;
 }
 bool

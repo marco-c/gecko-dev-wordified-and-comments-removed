@@ -1852,7 +1852,7 @@ aCtx
 )
 override
 ;
-bool
+WebRenderCommandsResult
 CreateWebRenderCommands
 (
 mozilla
@@ -2093,7 +2093,7 @@ color
 )
 ;
 }
-bool
+WebRenderCommandsResult
 nsDisplaySelectionOverlay
 :
 :
@@ -2201,7 +2201,9 @@ mColor
 )
 ;
 return
-true
+Ok
+(
+)
 ;
 }
 void

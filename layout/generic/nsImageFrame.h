@@ -1653,7 +1653,7 @@ aSnap
 const
 final
 ;
-bool
+WebRenderCommandsResult
 CreateWebRenderCommands
 (
 mozilla

@@ -160,6 +160,15 @@ include
 "
 mozilla
 /
+ResultVariant
+.
+h
+"
+#
+include
+"
+mozilla
+/
 TimeStamp
 .
 h
@@ -431,6 +440,17 @@ undef
 DISPLAY_LIST_ARENA_OBJECT
 COUNT
 }
+;
+using
+WebRenderCommandsResult
+=
+Result
+<
+Ok
+const
+char
+*
+>
 ;
 extern
 LazyLogModule
@@ -8281,7 +8301,7 @@ Painted
 #
 endif
 virtual
-bool
+WebRenderCommandsResult
 CreateWebRenderCommands
 (
 wr
@@ -8312,7 +8332,17 @@ aDisplayListBuilder
 )
 {
 return
-false
+Err
+(
+"
+item
+type
+has
+no
+WebRender
+implementation
+"
+)
 ;
 }
 virtual
@@ -11921,7 +11951,7 @@ aBuilder
 )
 ;
 }
-bool
+WebRenderCommandsResult
 CreateWebRenderCommands
 (
 wr
@@ -12919,7 +12949,7 @@ aCtx
 )
 override
 ;
-bool
+WebRenderCommandsResult
 CreateWebRenderCommands
 (
 wr
@@ -13016,7 +13046,7 @@ aSnap
 const
 override
 ;
-bool
+WebRenderCommandsResult
 CreateWebRenderCommands
 (
 wr
@@ -13836,7 +13866,7 @@ mIsCheckerboardBackground
 true
 ;
 }
-bool
+WebRenderCommandsResult
 CreateWebRenderCommands
 (
 wr
@@ -14129,7 +14159,7 @@ GetBounds
 ;
 }
 }
-bool
+WebRenderCommandsResult
 CreateWebRenderCommands
 (
 wr
@@ -14378,7 +14408,7 @@ aAutoBuildingDisplayList
 nullptr
 )
 ;
-bool
+WebRenderCommandsResult
 CreateWebRenderCommands
 (
 wr
@@ -15014,7 +15044,7 @@ aBuilder
 const
 override
 ;
-bool
+WebRenderCommandsResult
 CreateWebRenderCommands
 (
 wr
@@ -15474,7 +15504,7 @@ aClip
 )
 override
 ;
-bool
+WebRenderCommandsResult
 CreateWebRenderCommands
 (
 wr
@@ -16172,7 +16202,7 @@ CanBuildWebRenderDisplayItems
 )
 const
 ;
-bool
+WebRenderCommandsResult
 CreateWebRenderCommands
 (
 wr
@@ -16400,7 +16430,7 @@ nsRect
 aBorderRect
 )
 ;
-bool
+WebRenderCommandsResult
 CreateWebRenderCommands
 (
 wr
@@ -16475,7 +16505,7 @@ Outline
 "
 TYPE_OUTLINE
 )
-bool
+WebRenderCommandsResult
 CreateWebRenderCommands
 (
 wr
@@ -16737,7 +16767,7 @@ CompositorHitTestInfo
 "
 TYPE_COMPOSITOR_HITTEST_INFO
 )
-bool
+WebRenderCommandsResult
 CreateWebRenderCommands
 (
 wr
@@ -17601,7 +17631,7 @@ return
 nullptr
 ;
 }
-bool
+WebRenderCommandsResult
 CreateWebRenderCommands
 (
 wr
@@ -17644,7 +17674,7 @@ true
 )
 ;
 }
-bool
+WebRenderCommandsResult
 CreateWebRenderCommandsNewClipListOption
 (
 wr
@@ -18417,7 +18447,7 @@ CanUseAsyncAnimations
 )
 override
 ;
-bool
+WebRenderCommandsResult
 CreateWebRenderCommands
 (
 wr
@@ -18649,7 +18679,7 @@ const
 override
 {
 }
-bool
+WebRenderCommandsResult
 CreateWebRenderCommands
 (
 wr
@@ -19041,7 +19071,7 @@ aCtx
 )
 override
 ;
-bool
+WebRenderCommandsResult
 CreateWebRenderCommands
 (
 wr
@@ -19532,7 +19562,7 @@ OwnLayer
 "
 TYPE_OWN_LAYER
 )
-bool
+WebRenderCommandsResult
 CreateWebRenderCommands
 (
 wr
@@ -19575,7 +19605,7 @@ false
 )
 ;
 }
-bool
+WebRenderCommandsResult
 CreateWebRenderCommands
 (
 wr
@@ -20075,7 +20105,7 @@ AppUnitsPerDevPixel
 )
 ;
 }
-bool
+WebRenderCommandsResult
 CreateWebRenderCommands
 (
 wr
@@ -20366,7 +20396,7 @@ AppUnitsPerDevPixel
 )
 ;
 }
-bool
+WebRenderCommandsResult
 CreateWebRenderCommands
 (
 wr
@@ -20555,7 +20585,7 @@ AppUnitsPerDevPixel
 )
 ;
 }
-bool
+WebRenderCommandsResult
 CreateWebRenderCommands
 (
 wr
@@ -20942,7 +20972,7 @@ aLayerData
 )
 override
 ;
-bool
+WebRenderCommandsResult
 CreateWebRenderCommands
 (
 wr
@@ -21667,7 +21697,7 @@ return
 mDestRects
 ;
 }
-bool
+WebRenderCommandsResult
 CreateWebRenderCommands
 (
 wr
@@ -21821,7 +21851,7 @@ BackdropFilter
 "
 TYPE_BACKDROP_FILTER
 )
-bool
+WebRenderCommandsResult
 CreateWebRenderCommands
 (
 wr
@@ -22180,7 +22210,7 @@ aContext
 aPaintChildren
 )
 ;
-bool
+WebRenderCommandsResult
 CreateWebRenderCommands
 (
 wr
@@ -22584,7 +22614,7 @@ Polygon
 aPolygon
 )
 ;
-bool
+WebRenderCommandsResult
 CreateWebRenderCommands
 (
 wr
@@ -23797,7 +23827,7 @@ aSnap
 const
 override
 ;
-bool
+WebRenderCommandsResult
 CreateWebRenderCommands
 (
 wr
@@ -24071,7 +24101,7 @@ mFrame
 ;
 }
 }
-bool
+WebRenderCommandsResult
 CreateWebRenderCommands
 (
 wr
@@ -24404,7 +24434,7 @@ aBuilder
 )
 override
 ;
-bool
+WebRenderCommandsResult
 CreateWebRenderCommands
 (
 wr
@@ -24515,7 +24545,7 @@ AppUnitsPerDevPixel
 )
 ;
 }
-bool
+WebRenderCommandsResult
 CreateWebRenderCommands
 (
 wr

@@ -943,7 +943,7 @@ aCtx
 )
 override
 ;
-bool
+WebRenderCommandsResult
 CreateWebRenderCommands
 (
 mozilla
