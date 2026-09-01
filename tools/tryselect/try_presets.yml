@@ -402,6 +402,9 @@ fenix
 selector
 :
 fuzzy
+full
+:
+true
 description
 :
 >
@@ -523,6 +526,9 @@ frontend
 selector
 :
 fuzzy
+full
+:
+true
 description
 :
 >
@@ -546,6 +552,15 @@ query
 build
 -
 components
+!
+nightly
+-
+!
+beta
+-
+!
+release
+-
 "
 -
 "
