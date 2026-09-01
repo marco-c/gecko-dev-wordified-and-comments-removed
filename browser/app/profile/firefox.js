@@ -1904,6 +1904,11 @@ preXulSkeletonUI
 true
 )
 ;
+#
+endif
+#
+ifndef
+XP_LINUX
 pref
 (
 "
