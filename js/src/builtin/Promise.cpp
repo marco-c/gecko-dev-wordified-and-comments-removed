@@ -955,9 +955,6 @@ SlotsCount
 )
 }
 ;
-#
-ifdef
-NIGHTLY_BUILD
 class
 PromiseCombinatorKeyedDataHolder
 :
@@ -1105,8 +1102,6 @@ SlotsCount
 )
 }
 ;
-#
-endif
 struct
 MOZ_STACK_CLASS
 PromiseCombinatorElements
@@ -1735,9 +1730,6 @@ return
 dataHolder
 ;
 }
-#
-ifdef
-NIGHTLY_BUILD
 PromiseCombinatorKeyedDataHolder
 *
 PromiseCombinatorKeyedDataHolder
@@ -1908,8 +1900,6 @@ return
 dataHolder
 ;
 }
-#
-endif
 namespace
 {
 mozilla
@@ -14156,9 +14146,6 @@ all
 )
 ;
 }
-#
-ifdef
-NIGHTLY_BUILD
 template
 <
 typename
@@ -14577,8 +14564,6 @@ allSettledKeyed
 )
 ;
 }
-#
-endif
 [
 [
 nodiscard
@@ -19480,9 +19465,6 @@ stack
 )
 ;
 }
-#
-ifdef
-NIGHTLY_BUILD
 [
 [
 nodiscard
@@ -21400,8 +21382,6 @@ processAllSettledRejectValue
 )
 ;
 }
-#
-endif
 [
 [
 nodiscard
@@ -32934,9 +32914,6 @@ Promise_static_allSettled
 1
 0
 )
-#
-ifdef
-NIGHTLY_BUILD
 JS_FN
 (
 "
@@ -32955,8 +32932,6 @@ Promise_static_allSettledKeyed
 1
 0
 )
-#
-endif
 JS_FN
 (
 "
