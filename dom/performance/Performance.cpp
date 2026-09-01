@@ -3411,8 +3411,12 @@ MaybeOpenMarkerFile
 (
 )
 {
-if
-(
+static
+const
+bool
+sMarkerFileEnabled
+=
+!
 !
 getenv
 (
@@ -3420,6 +3424,11 @@ getenv
 MOZ_USE_PERFORMANCE_MARKER_FILE
 "
 )
+;
+if
+(
+!
+sMarkerFileEnabled
 )
 {
 return
