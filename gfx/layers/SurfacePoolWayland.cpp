@@ -1903,13 +1903,6 @@ aSize
 LOCAL_GL_TEXTURE_2D
 aTexture
 buffer
-MozFramebuffer
-:
-:
-ColorBackingOwnership
-:
-:
-Borrowed
 )
 ;
 }
@@ -1932,13 +1925,6 @@ aNeedsDepthBuffer
 aNeedsDepthBuffer
 LOCAL_GL_TEXTURE_2D
 aTexture
-MozFramebuffer
-:
-:
-ColorBackingOwnership
-:
-:
-Borrowed
 )
 ;
 if
