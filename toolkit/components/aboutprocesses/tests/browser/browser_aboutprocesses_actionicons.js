@@ -467,6 +467,12 @@ profiler
 IsActive
 (
 )
+&
+&
+!
+AppConstants
+.
+TSAN
 )
 {
 let
