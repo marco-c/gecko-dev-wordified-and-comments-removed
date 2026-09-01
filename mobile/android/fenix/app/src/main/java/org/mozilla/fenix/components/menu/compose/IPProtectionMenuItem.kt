@@ -1277,7 +1277,7 @@ R
 .
 string
 .
-ip_protection_menu_auth_required
+ip_protection_menu_try_vpn_cta
 )
 }
 private
