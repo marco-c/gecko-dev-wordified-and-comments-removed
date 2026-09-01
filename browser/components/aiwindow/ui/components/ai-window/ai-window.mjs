@@ -12772,6 +12772,9 @@ memory
 .
 id
 }
+isResumeActivity
+:
+true
 properties
 :
 {
