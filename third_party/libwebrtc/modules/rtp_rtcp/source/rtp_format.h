@@ -34,6 +34,17 @@ vector
 #
 include
 "
+absl
+/
+base
+/
+nullability
+.
+h
+"
+#
+include
+"
 modules
 /
 rtp_rtcp
@@ -94,6 +105,7 @@ kAV1
 }
 ;
 static
+absl_nonnull
 std
 :
 :
