@@ -289,19 +289,6 @@ timeoutMs
 )
 ;
 const
-BUTTON_ITEM_ID
-=
-"
-smartwindow
--
-group
--
-tabs
--
-button
-"
-;
-const
 BUTTON_ID
 =
 "
@@ -312,8 +299,6 @@ group
 tabs
 -
 button
--
-inner
 "
 ;
 const
@@ -1378,16 +1363,6 @@ win
 document
 ;
 const
-anchor
-=
-doc
-.
-getElementById
-(
-BUTTON_ITEM_ID
-)
-;
-const
 button
 =
 doc
@@ -1412,7 +1387,7 @@ mainPopupSet
 if
 (
 !
-anchor
+button
 |
 |
 !
@@ -1548,7 +1523,7 @@ target
 )
 |
 |
-anchor
+button
 .
 contains
 (
@@ -1657,7 +1632,6 @@ popupshown
 >
 {
 button
-?
 .
 setAttribute
 (
@@ -1722,7 +1696,6 @@ popuphidden
 >
 {
 button
-?
 .
 setAttribute
 (
@@ -1826,7 +1799,6 @@ _restoreFocus
 )
 {
 button
-?
 .
 focus
 (
@@ -1845,7 +1817,7 @@ panel
 .
 openPopup
 (
-anchor
+button
 "
 after_end
 "
