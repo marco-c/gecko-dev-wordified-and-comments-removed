@@ -880,13 +880,6 @@ menu_newUserContextPopup
 createUserContextMenu
 (
 event
-{
-containerSource
-:
-"
-file_menu
-"
-}
 )
 ;
 break

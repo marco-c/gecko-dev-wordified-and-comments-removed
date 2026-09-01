@@ -9918,15 +9918,6 @@ usercontextid
 "
 )
 )
-eventDetail
-:
-{
-containerSource
-:
-"
-content_context_menu
-"
-}
 .
 .
 .
@@ -17939,11 +17930,6 @@ this
 contentData
 .
 userContextId
-containerSource
-:
-"
-content_context_menu
-"
 }
 ;
 return

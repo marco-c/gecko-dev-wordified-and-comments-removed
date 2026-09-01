@@ -133,13 +133,6 @@ js
 ]
 [
 "
-browser_containers_telemetry
-.
-js
-"
-]
-[
-"
 browser_privacy_allowListPreference
 .
 js
