@@ -601,6 +601,8 @@ is
 ReceivedParsedDocument
 SettingsBackClicked
 SettingsClicked
+is
+SettingsLoaded
 ShakeConsentRequested
 SignInSummarizationContentAction
 .
@@ -614,6 +616,8 @@ SignInClicked
 SummarizationCompleted
 is
 SummarizationRequested
+is
+SummarizeSettingsActionWrapper
 is
 ViewDismissed
 -

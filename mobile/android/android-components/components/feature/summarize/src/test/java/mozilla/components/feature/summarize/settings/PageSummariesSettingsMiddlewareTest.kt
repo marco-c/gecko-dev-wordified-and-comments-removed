@@ -936,7 +936,9 @@ middleware
 =
 listOf
 (
-this
+asMiddleware
+(
+)
 )
 )
 }
