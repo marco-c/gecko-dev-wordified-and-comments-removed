@@ -8680,7 +8680,6 @@ typename
 .
 ActualArgTypes
 >
-static
 RefPtr
 <
 PromiseType
@@ -8963,7 +8962,6 @@ int
 =
 0
 >
-static
 RefPtr
 <
 PromiseType
@@ -9140,7 +9138,6 @@ int
 =
 0
 >
-static
 RefPtr
 <
 PromiseType
@@ -9498,7 +9495,6 @@ template
 typename
 Function
 >
-static
 auto
 InvokeAsync
 (
