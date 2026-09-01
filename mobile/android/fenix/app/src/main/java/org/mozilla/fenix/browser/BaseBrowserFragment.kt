@@ -4067,6 +4067,16 @@ true
 )
 }
 val
+isListenToPageEnabled
+=
+context
+.
+components
+.
+settings
+.
+listenToPageFeatureFlagEnabled
+val
 readerMenuController
 =
 DefaultReaderModeController
@@ -4084,6 +4094,9 @@ state
 mode
 .
 isPrivate
+isListenToPageEnabled
+=
+isListenToPageEnabled
 onReaderModeChanged
 =
 {

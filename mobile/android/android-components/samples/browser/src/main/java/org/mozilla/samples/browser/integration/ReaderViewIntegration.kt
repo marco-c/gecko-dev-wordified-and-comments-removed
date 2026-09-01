@@ -418,6 +418,9 @@ feature
 .
 showControls
 (
+isListenEnabled
+=
+false
 )
 }
 }

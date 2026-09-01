@@ -182,6 +182,10 @@ ReaderViewControlsPresenter
 view
 config
 )
+val
+isListenToPageFlagEnabled
+=
+false
 whenever
 (
 config
@@ -223,6 +227,7 @@ presenter
 .
 show
 (
+isListenToPageFlagEnabled
 )
 verify
 (
@@ -231,6 +236,7 @@ view
 .
 tryInflate
 (
+isListenToPageFlagEnabled
 )
 verify
 (

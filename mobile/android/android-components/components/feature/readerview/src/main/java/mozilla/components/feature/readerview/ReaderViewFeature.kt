@@ -1165,12 +1165,16 @@ controls
 fun
 showControls
 (
+isListenEnabled
+:
+Boolean
 )
 {
 controlsPresenter
 .
 show
 (
+isListenEnabled
 )
 }
 /
