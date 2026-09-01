@@ -3091,10 +3091,6 @@ charmap
 )
 ;
 }
-mHasCmapTable
-=
-true
-;
 }
 else
 {
@@ -3105,10 +3101,6 @@ gfxCharacterMap
 (
 0
 )
-;
-mHasCmapTable
-=
-false
 ;
 }
 if
