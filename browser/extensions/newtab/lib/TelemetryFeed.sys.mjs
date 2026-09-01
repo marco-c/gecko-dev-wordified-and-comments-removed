@@ -5784,9 +5784,6 @@ newtab_visit_id
 session
 .
 session_id
-is_sponsored
-:
-false
 position
 :
 action
@@ -5820,9 +5817,6 @@ newtab_visit_id
 session
 .
 session_id
-is_sponsored
-:
-false
 position
 :
 action
@@ -5856,9 +5850,6 @@ newtab_visit_id
 session
 .
 session_id
-is_sponsored
-:
-false
 position
 :
 action
@@ -5892,9 +5883,6 @@ newtab_visit_id
 session
 .
 session_id
-is_sponsored
-:
-false
 position
 :
 action
