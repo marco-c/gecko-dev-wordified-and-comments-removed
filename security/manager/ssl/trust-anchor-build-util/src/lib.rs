@@ -92,7 +92,7 @@ u16
 pub
 subject_len
 :
-u8
+u16
 }
 impl
 PartialOrd
@@ -258,7 +258,7 @@ length
 hopefully
 fits
 in
-u8
+u16
 "
 )
 ;

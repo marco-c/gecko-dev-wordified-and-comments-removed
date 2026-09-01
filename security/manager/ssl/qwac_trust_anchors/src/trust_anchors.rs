@@ -17,7 +17,7 @@ subject
 :
 (
 u16
-u8
+u16
 )
 }
 impl
