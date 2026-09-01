@@ -260,7 +260,6 @@ TOOL
 }
 )
 ;
-export
 const
 ROLE_LABEL
 =
