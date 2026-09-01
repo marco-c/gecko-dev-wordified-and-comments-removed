@@ -237,6 +237,14 @@ work
 organizing
 your
 tabs
+#
+Creates
+every
+suggested
+group
+at
+once
+.
 smartwindow
 -
 group
@@ -248,6 +256,7 @@ create
 all
 =
 Create
+All
 Groups
 smartwindow
 -

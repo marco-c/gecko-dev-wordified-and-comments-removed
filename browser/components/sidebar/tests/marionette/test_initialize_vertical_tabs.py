@@ -811,6 +811,16 @@ button
 "
                 
 "
+smartwindow
+-
+group
+-
+tabs
+-
+button
+"
+                
+"
 ai
 -
 window
