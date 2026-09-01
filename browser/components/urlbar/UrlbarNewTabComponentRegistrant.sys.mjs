@@ -295,6 +295,15 @@ search
 .
 ftl
 "
+"
+preview
+/
+enUS
+-
+searchFeatures
+.
+ftl
+"
 ]
 componentURL
 :
@@ -332,6 +341,11 @@ pageproxystate
 :
 "
 invalid
+"
+popover
+:
+"
+manual
 "
 "
 sap
