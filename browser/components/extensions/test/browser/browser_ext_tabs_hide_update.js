@@ -487,6 +487,11 @@ extension
 "
 )
 ;
+await
+dismissTabHideDoorhanger
+(
+)
+;
 let
 extdata
 =
@@ -720,6 +725,11 @@ hidden
 by
 extension
 "
+)
+;
+await
+dismissTabHideDoorhanger
+(
 )
 ;
 await

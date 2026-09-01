@@ -4074,9 +4074,14 @@ hidden
 "
 )
 ;
-menu
-.
-hidePopup
+await
+closeChromeContextMenu
+(
+UNIFIED_CONTEXT_MENU
+)
+;
+await
+closeExtensionsPanel
 (
 )
 ;
