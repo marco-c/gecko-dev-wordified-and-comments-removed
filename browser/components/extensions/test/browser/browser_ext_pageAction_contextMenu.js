@@ -444,7 +444,9 @@ shown
 "
 )
 ;
-await
+let
+clicked
+=
 clickPageAction
 (
 extension
@@ -459,6 +461,9 @@ openContextMenuInPopup
 (
 extension
 )
+;
+await
+clicked
 ;
 let
 item
@@ -558,7 +563,9 @@ shown
 "
 )
 ;
-await
+let
+clicked
+=
 clickPageAction
 (
 extension
@@ -577,6 +584,9 @@ extension
 text
 "
 )
+;
+await
+clicked
 ;
 let
 item
@@ -759,7 +769,9 @@ shown
 "
 )
 ;
-await
+let
+clicked
+=
 clickPageAction
 (
 extension
@@ -778,6 +790,9 @@ extension
 testimg
 "
 )
+;
+await
+clicked
 ;
 let
 item
