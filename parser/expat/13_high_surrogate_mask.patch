@@ -6,16 +6,12 @@ a
 /
 expat
 /
-expat
-/
 lib
 /
 xmltok
 .
 c
 b
-/
-expat
 /
 expat
 /
@@ -31,8 +27,6 @@ a
 /
 expat
 /
-expat
-/
 lib
 /
 xmltok
@@ -42,8 +36,6 @@ c
 +
 +
 b
-/
-expat
 /
 expat
 /
