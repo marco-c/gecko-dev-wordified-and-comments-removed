@@ -1348,6 +1348,11 @@ failure
 "
 "
         
+from
+mozversioncontrol
+import
+StaleWorkspaceError
+        
 sentry
 =
 NoopErrorReporter
@@ -1540,6 +1545,49 @@ return
 1
         
 except
+StaleWorkspaceError
+as
+e
+:
+            
+print
+(
+str
+(
+e
+)
+file
+=
+stderr
+)
+            
+print
+(
+                
+"
+\
+nmach
+cannot
+proceed
+until
+the
+jj
+workspace
+is
+updated
+.
+"
+                
+file
+=
+stderr
+            
+)
+            
+return
+1
+        
+except
 Exception
 :
             
@@ -1655,6 +1703,11 @@ self
 argv
 )
 :
+        
+from
+mozversioncontrol
+import
+StaleWorkspaceError
         
 if
 self
@@ -2266,13 +2319,13 @@ command_args
 )
         
 except
+(
 KeyboardInterrupt
-as
-ki
+StaleWorkspaceError
+)
 :
             
 raise
-ki
         
 except
 FailedCommandError

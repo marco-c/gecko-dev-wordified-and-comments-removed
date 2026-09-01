@@ -1135,12 +1135,19 @@ topsrcdir
         
 except
 (
+            
 mozversioncontrol
 .
 InvalidRepoPath
+            
 mozversioncontrol
 .
 MissingVCSTool
+            
+mozversioncontrol
+.
+StaleWorkspaceError
+        
 )
 :
             
