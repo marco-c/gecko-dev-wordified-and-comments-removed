@@ -8984,7 +8984,7 @@ SheetInfo
 &
 aInfo
 const
-nsAString
+nsACString
 &
 aBuffer
 nsICSSLoaderObserver
@@ -9592,12 +9592,6 @@ data
 }
 else
 {
-NS_ConvertUTF16toUTF8
-utf8
-(
-aBuffer
-)
-;
 RefPtr
 <
 SheetLoadDataHolder
@@ -9627,7 +9621,7 @@ completed
 =
 ParseSheet
 (
-utf8
+aBuffer
 holder
 AllowAsyncParse
 :
