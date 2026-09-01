@@ -243,7 +243,7 @@ CrossShadowBoundaryRange
 )
 NS_INTERFACE_MAP_END_INHERITING
 (
-CrossShadowBoundaryRange
+StaticRange
 )
 NS_IMPL_CYCLE_COLLECTION_CLASS
 (
