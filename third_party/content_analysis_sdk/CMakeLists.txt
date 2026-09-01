@@ -1245,12 +1245,6 @@ handler
 .
 h
 )
-target_compile_features
-(
-agent
-PRIVATE
-cxx_std_17
-)
 target_include_directories
 (
 agent
