@@ -57,6 +57,9 @@ MPL
 *
 /
 interface
+nsIDOMProcessParent
+;
+interface
 nsIEventTarget
 ;
 interface
@@ -3519,6 +3522,17 @@ readonly
 attribute
 boolean
 isInProcess
+;
+/
+/
+Returns
+the
+corresponding
+nsIDOMProcessParent
+readonly
+attribute
+nsIDOMProcessParent
+processParent
 ;
 }
 ;
