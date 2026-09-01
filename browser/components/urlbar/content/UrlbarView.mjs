@@ -14413,11 +14413,9 @@ titleSeparator
 ;
 if
 (
-Services
+UrlbarPrefs
 .
-prefs
-.
-getBoolPref
+get
 (
 "
 browser
@@ -14426,7 +14424,6 @@ nova
 .
 enabled
 "
-false
 )
 )
 {
@@ -26122,11 +26119,9 @@ tab
 if
 (
 !
-Services
+UrlbarPrefs
 .
-prefs
-.
-getBoolPref
+get
 (
 "
 browser
@@ -26135,7 +26130,6 @@ nova
 .
 enabled
 "
-false
 )
 )
 {
