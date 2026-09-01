@@ -12,9 +12,12 @@ import
 mozinfo
 import
 os
+import
+sys
 def
 main
 (
+argv
 )
 :
     
@@ -70,22 +73,6 @@ help
 Output
 text
 file
-"
-)
-    
-parser
-.
-add_argument
-(
-"
-pkg_platform
-"
-help
-=
-"
-Package
-platform
-identifier
 "
 )
     
@@ -164,7 +151,19 @@ parser
 .
 parse_args
 (
+argv
 )
+    
+pkg_platform
+=
+buildconfig
+.
+substs
+[
+"
+MOZ_PKG_PLATFORM
+"
+]
     
 mozinfo
 .
@@ -360,8 +359,6 @@ MOZ_SOURCE_CHANGESET
 moz_pkg_platform
 "
 :
-args
-.
 pkg_platform
         
 }
@@ -602,8 +599,6 @@ target
 platform
 "
 :
-args
-.
 pkg_platform
                 
 "
@@ -863,6 +858,18 @@ __main__
 "
 :
     
+sys
+.
+exit
+(
 main
 (
+sys
+.
+argv
+[
+1
+:
+]
+)
 )
