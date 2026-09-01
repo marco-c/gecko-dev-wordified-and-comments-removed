@@ -3470,7 +3470,6 @@ profile
 avatar
 -
 selector
-hidden
 value
 =
 {
