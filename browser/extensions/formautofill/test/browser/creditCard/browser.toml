@@ -280,6 +280,13 @@ js
 ]
 [
 "
+browser_creditCard_cvv
+.
+js
+"
+]
+[
+"
 browser_creditCard_decryption_failure
 .
 js
@@ -855,13 +862,7 @@ arch
 '
 x86_64
 '
-&
-&
-nova
 "
-#
-Bug
-2057870
 "
 os
 =
