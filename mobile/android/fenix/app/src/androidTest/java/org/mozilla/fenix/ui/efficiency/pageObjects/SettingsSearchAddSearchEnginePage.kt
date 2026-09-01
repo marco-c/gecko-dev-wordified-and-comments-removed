@@ -410,8 +410,8 @@ by
 res
 id
 ;
-*
 setting
+*
 UiObject2
 .
 text
@@ -422,10 +422,10 @@ legacy
 SettingsSubMenuSearchRobot
 .
 typeCustomEngineDetails
-*
 and
 fires
 the
+*
 TextWatcher
 that
 enables

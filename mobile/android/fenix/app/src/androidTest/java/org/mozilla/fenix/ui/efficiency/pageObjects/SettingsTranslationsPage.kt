@@ -262,6 +262,14 @@ SETTINGS_BUTTON
 )
 NavigationStep
 .
+Swipe
+(
+SettingsSelectors
+.
+TRANSLATIONS_BUTTON
+)
+NavigationStep
+.
 Click
 (
 SettingsSelectors

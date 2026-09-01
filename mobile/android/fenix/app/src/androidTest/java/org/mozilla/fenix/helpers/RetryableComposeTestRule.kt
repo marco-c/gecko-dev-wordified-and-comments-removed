@@ -184,10 +184,10 @@ Statement
 evaluate
 ]
 calls
-*
 because
 their
 internal
+*
 [
 TestScope
 ]
@@ -199,7 +199,6 @@ transitions
 to
 a
 terminal
-*
 state
 upon
 completion
@@ -222,12 +221,12 @@ composeRuleFactory
 ]
 to
 instantiate
-*
 a
 fresh
 [
 AndroidComposeTestRule
 ]
+*
 and
 a
 new
@@ -238,7 +237,6 @@ for
 every
 retry
 attempt
-*
 triggered
 by
 an
@@ -266,10 +264,10 @@ the
 call
 site
 so
-*
 callers
 typically
 write
+*
 RetryableComposeTestRule
 {
 AndroidComposeTestRuleV2
@@ -284,7 +282,6 @@ AndroidComposeTestRuleV2
 .
 }
 }
-*
 without
 spelling
 them
@@ -318,12 +315,12 @@ Rule
 .
 order
 ]
-*
 value
 so
 the
 retry
 rule
+*
 wraps
 this
 one
@@ -338,7 +335,6 @@ evaluate
 on
 each
 attempt
-*
 (
 lower
 [
@@ -356,6 +352,7 @@ order
 =
 outermost
 in
+*
 JUnit
 )
 .
@@ -363,7 +360,6 @@ Without
 that
 ordering
 retries
-*
 re
 -
 run
@@ -381,9 +377,9 @@ reusing
 the
 same
 inner
+*
 rule
 :
-*
 *
 *
 get
@@ -504,7 +500,6 @@ the
 compose
 rule
 .
-*
 Use
 this
 inside
@@ -512,6 +507,7 @@ your
 test
 methods
 :
+*
 composeTestRule
 .
 onNodeWithText

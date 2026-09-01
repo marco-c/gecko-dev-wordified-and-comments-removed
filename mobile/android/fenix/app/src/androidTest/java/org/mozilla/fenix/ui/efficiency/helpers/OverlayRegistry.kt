@@ -87,10 +87,10 @@ app
 in
 a
 separate
-*
 window
 and
 silently
+*
 block
 interaction
 (
@@ -108,7 +108,6 @@ found
 even
 though
 the
-*
 target
 is
 on
@@ -137,11 +136,11 @@ system
 prompts
 IME
 tutorials
-*
 etc
 .
 The
 harness
+*
 owns
 handling
 them
@@ -158,13 +157,13 @@ implement
 the
 dismissal
 .
-*
 BasePage
 consults
 this
 registry
 on
 a
+*
 locate
 miss
 (
@@ -176,7 +175,6 @@ dismissKnownOverlaysIfPresent
 ]
 )
 and
-*
 if
 it
 dismisses
@@ -209,8 +207,8 @@ it
 and
 one
 or
-*
 more
+*
 [
 BlockingOverlay
 .
@@ -227,11 +225,11 @@ the
 overlay
 stops
 being
-*
 detected
 .
 Keep
 them
+*
 UIAutomator
 -
 based
@@ -268,10 +266,10 @@ have
 actually
 hit
 .
-*
 It
 has
 never
+*
 run
 with
 several
@@ -284,13 +282,13 @@ are
 unresolved
 settle
 them
-*
 before
 growing
 [
 known
 ]
 much
+*
 beyond
 a
 single
@@ -315,10 +313,10 @@ another
 ;
 the
 current
-*
 single
 pass
 over
+*
 [
 known
 ]
@@ -354,7 +352,6 @@ the
 failure
 path
 of
-*
 every
 moz
 *
@@ -380,11 +377,11 @@ than
 let
 the
 caller
-*
 re
 -
 probe
 and
+*
 report
 a
 generic
@@ -444,12 +441,12 @@ separate
 window
 when
 a
-*
 (
 web
 or
 native
 )
+*
 text
 field
 is
@@ -464,7 +461,6 @@ enabled
 It
 covers
 the
-*
 page
 and
 suppresses
@@ -473,6 +469,7 @@ e
 g
 .
 the
+*
 address
 -
 autofill
@@ -486,7 +483,6 @@ res
 -
 id
 closeButton
-*
 whose
 text
 /
@@ -498,6 +494,7 @@ Cancel
 "
 (
 its
+*
 button2
 is
 "
@@ -512,7 +509,6 @@ we
 match
 on
 the
-*
 "
 Cancel
 "
@@ -523,6 +519,7 @@ stable
 across
 the
 obfuscated
+*
 system
 res
 -
@@ -625,10 +622,10 @@ prompt
 shown
 on
 a
-*
 repeat
 visit
 to
+*
 an
 installable
 site
@@ -640,7 +637,6 @@ xml
 )
 and
 the
-*
 explicit
 menu
 "
@@ -648,6 +644,7 @@ Add
 app
 to
 home
+*
 screen
 "
 dialog
@@ -661,7 +658,6 @@ Both
 expose
 the
 same
-*
 res
 -
 ids
@@ -671,6 +667,7 @@ add_button
 cancel_button
 )
 so
+*
 one
 entry
 covers
@@ -682,7 +679,6 @@ prompt
 pops
 over
 the
-*
 page
 uninvited
 and
@@ -691,6 +687,7 @@ the
 engine
 view
 breaking
+*
 navigation
 in
 tests
@@ -699,7 +696,6 @@ never
 asked
 to
 install
-*
 anything
 (
 hit
@@ -711,6 +707,7 @@ it
 is
 dismissed
 here
+*
 rather
 than
 suppressed
@@ -719,7 +716,6 @@ per
 test
 with
 a
-*
 launch
 flag
 .
@@ -735,6 +731,7 @@ effect
 free
 (
 it
+*
 does
 NOT
 pin
@@ -743,7 +740,6 @@ shortcut
 )
 ;
 never
-*
 dismiss
 via
 add_button
@@ -760,9 +756,9 @@ e
 .
 g
 .
+*
 installPWAFromTheMainMenuTest
 )
-*
 locates
 its
 control
@@ -776,6 +772,7 @@ fires
 on
 a
 locate
+*
 miss
 never
 engages
@@ -881,10 +878,10 @@ setting
 routes
 to
 an
-*
 external
 app
 is
+*
 tapped
 (
 e
@@ -907,10 +904,10 @@ link
 or
 an
 incidental
-*
 redirect
 )
 while
+*
 openLinksInExternalApp
 =
 ASK
@@ -946,10 +943,10 @@ keeps
 the
 browser
 on
-*
 the
 current
 page
+*
 (
 the
 "
@@ -967,12 +964,12 @@ A
 test
 that
 legitimately
-*
 expects
 this
 prompt
 locates
 it
+*
 directly
 and
 never
@@ -983,7 +980,6 @@ dismissal
 only
 runs
 on
-*
 a
 locate
 MISS
@@ -994,6 +990,7 @@ ambush
 a
 test
 that
+*
 is
 interacting
 with
@@ -1100,9 +1097,9 @@ specific
 action
 requests
 to
-*
 become
 the
+*
 system
 -
 level
@@ -1121,9 +1118,9 @@ that
 appears
 in
 a
-*
 separate
 window
+*
 blocking
 interaction
 with

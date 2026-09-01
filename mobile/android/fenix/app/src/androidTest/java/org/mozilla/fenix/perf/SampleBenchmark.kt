@@ -176,16 +176,15 @@ how
 to
 write
 a
-*
 real
 benchmark
+*
 including
 testing
 UI
 code
 .
 See
-*
 https
 :
 /
@@ -209,8 +208,8 @@ to
 benchmark
 for
 when
-jetpack
 *
+jetpack
 microbenchmark
 is
 a

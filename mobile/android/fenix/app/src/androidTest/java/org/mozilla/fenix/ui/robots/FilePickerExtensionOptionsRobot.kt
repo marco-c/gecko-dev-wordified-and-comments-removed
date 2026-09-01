@@ -164,7 +164,6 @@ page
 rendered
 in
 the
-*
 internal
 settings
 fragment
@@ -423,7 +422,6 @@ selected
 }
 }
 /
-*
 *
 *
 Enters

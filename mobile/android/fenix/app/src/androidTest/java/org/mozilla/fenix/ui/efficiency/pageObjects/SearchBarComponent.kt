@@ -756,8 +756,8 @@ whitespace
 normalized
 )
 .
-*
 Ports
+*
 SearchRobot
 .
 verifyTypedToolbarText
@@ -771,11 +771,11 @@ Text
 and
 an
 EditableText
-*
 semantics
 property
 and
 the
+*
 check
 collapses
 runs
@@ -785,7 +785,6 @@ so
 for
 example
 the
-*
 leading
 /
 trailing
@@ -797,6 +796,7 @@ all
 "
 copies
 compare
+*
 equal
 .
 *

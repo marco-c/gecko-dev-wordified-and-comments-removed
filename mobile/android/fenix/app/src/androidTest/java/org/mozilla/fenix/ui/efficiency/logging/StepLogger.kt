@@ -71,7 +71,6 @@ logging
 /
 *
 *
-*
 Enumeration
 of
 final
@@ -229,7 +228,6 @@ only
 emit
 events
 through
-*
 a
 [
 StepLogger
@@ -241,6 +239,7 @@ e
 .
 g
 .
+*
 [
 CombinedLogger
 ]
@@ -248,7 +247,6 @@ CombinedLogger
 then
 route
 these
-*
 events
 to
 one
@@ -535,13 +533,13 @@ step
 ensuring
 traceability
 between
-*
 step
 log
 entries
 and
 stored
 image
+*
 artifacts
 .
 *

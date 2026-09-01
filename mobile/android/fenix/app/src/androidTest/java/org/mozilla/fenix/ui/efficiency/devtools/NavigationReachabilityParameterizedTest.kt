@@ -163,7 +163,6 @@ via
 navigateToPage
 (
 )
-*
 from
 a
 fresh
@@ -249,10 +248,10 @@ a
 helper
 that
 reflects
-*
 over
 PageContext
 and
+*
 prints
 Case
 (
@@ -1215,6 +1214,8 @@ SettingsEnhancedTrackingProtectionPage
 property
 =
 settingsEnhancedTrackingProtection
+/
+/
 paths
 =
 1
@@ -1252,6 +1253,8 @@ Reachability
 pageName
 =
 SettingsEnhancedTrackingProtectionExceptionsPage
+/
+/
 property
 =
 settingsEnhancedTrackingProtectionExceptions

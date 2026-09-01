@@ -416,11 +416,11 @@ titles
 summaries
 present
 both
-*
 switch
 toggles
 in
 the
+*
 expected
 checked
 state
@@ -435,7 +435,6 @@ enabled
 or
 not
 .
-*
 The
 toggle
 checks
@@ -444,6 +443,7 @@ on
 Espresso
 '
 s
+*
 hasCousin
 (
 Switch
@@ -454,7 +454,6 @@ each
 toggle
 is
 a
-*
 SwitchPreferenceCompat
 whose
 Switch
@@ -464,6 +463,7 @@ cousin
 of
 the
 title
+*
 text
 not
 the

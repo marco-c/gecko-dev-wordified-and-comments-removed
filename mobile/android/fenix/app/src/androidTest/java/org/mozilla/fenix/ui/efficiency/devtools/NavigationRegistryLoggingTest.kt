@@ -97,6 +97,12 @@ app
 .
 InstrumentationRegistry
 import
+java
+.
+io
+.
+File
+import
 org
 .
 junit
@@ -138,12 +144,6 @@ efficiency
 navigation
 .
 NavigationRegistry
-import
-java
-.
-io
-.
-File
 RunWith
 (
 AndroidJUnit4

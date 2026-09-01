@@ -60,7 +60,6 @@ FxNimbusHelper
 /
 *
 *
-*
 Disable
 the
 translations
@@ -133,7 +132,6 @@ prompt
 )
 }
 /
-*
 *
 *
 Enable
@@ -210,7 +208,6 @@ prompt
 /
 *
 *
-*
 Disable
 the
 IP
@@ -277,7 +274,6 @@ feature
 )
 }
 /
-*
 *
 *
 Enable

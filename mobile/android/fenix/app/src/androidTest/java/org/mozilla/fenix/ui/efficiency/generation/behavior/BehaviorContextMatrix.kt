@@ -95,7 +95,6 @@ is
 being
 checked
 ?
-*
 Context
 answers
 :
@@ -110,6 +109,7 @@ account
 browser
 -
 mode
+*
 should
 it
 run

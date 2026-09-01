@@ -204,14 +204,12 @@ axis
 *
 Example
 :
-*
 key
 =
 BrowserMode
 value
 =
 Default
-*
 key
 =
 BrowserMode
@@ -284,7 +282,6 @@ is
 runnable
 today
 .
-*
 It
 is
 both
@@ -296,6 +293,7 @@ source
 of
 explanations
 when
+*
 generated
 cases
 are

@@ -208,7 +208,6 @@ a
 single
 logging
 model
-*
 we
 should
 refactor
@@ -216,6 +215,7 @@ so
 there
 '
 s
+*
 only
 one
 "
@@ -243,7 +243,6 @@ page
 /
 component
 tests
-*
 and
 multiple
 output

@@ -412,8 +412,8 @@ be
 reached
 by
 its
-*
 UIAutomator
+*
 sibling
 index
 relative
@@ -446,11 +446,11 @@ e
 .
 g
 .
-*
 Reddit
 =
 10
 YouTube
+*
 =
 13
 )

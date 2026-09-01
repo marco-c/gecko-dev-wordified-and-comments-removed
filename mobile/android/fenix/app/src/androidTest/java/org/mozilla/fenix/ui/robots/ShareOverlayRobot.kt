@@ -1625,12 +1625,12 @@ sheet
 to
 dismiss
 .
-*
 Callers
 must
 follow
 up
 with
+*
 [
 assertNativeAppOpens
 ]
@@ -1639,7 +1639,6 @@ verify
 the
 target
 app
-*
 foregrounded
 -
 -
@@ -1650,6 +1649,7 @@ does
 not
 verify
 the
+*
 launch
 itself
 .

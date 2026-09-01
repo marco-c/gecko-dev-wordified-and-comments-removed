@@ -111,13 +111,13 @@ anywhere
 so
 a
 future
-*
 consumer
 (
 a
 debug
 UI
 an
+*
 export
 etc
 .
@@ -127,7 +127,6 @@ reuse
 the
 same
 computation
-*
 [
 logInteractionCaseBoilerplate
 ]

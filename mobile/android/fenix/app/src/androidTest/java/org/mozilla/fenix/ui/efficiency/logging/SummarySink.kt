@@ -140,7 +140,6 @@ both
 to
 logcat
 and
-*
 to
 the
 on
@@ -151,6 +150,7 @@ file
 The
 format
 is
+*
 intentionally
 simple
 and
@@ -235,7 +235,6 @@ avoid
 interleaving
 lines
 from
-*
 concurrent
 steps
 in

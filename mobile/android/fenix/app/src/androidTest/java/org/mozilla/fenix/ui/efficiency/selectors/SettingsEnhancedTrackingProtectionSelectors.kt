@@ -189,7 +189,10 @@ groups
 listOf
 (
 "
-requiredForPage
+ETPSection
+"
+"
+requiresScroll
 "
 )
 )

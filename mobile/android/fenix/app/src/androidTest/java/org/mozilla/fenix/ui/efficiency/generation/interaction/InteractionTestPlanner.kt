@@ -13,6 +13,12 @@ generation
 .
 interaction
 import
+kotlin
+.
+text
+.
+contains
+import
 org
 .
 mozilla
@@ -82,12 +88,6 @@ efficiency
 navigation
 .
 NavigationRegistry
-import
-kotlin
-.
-text
-.
-contains
 object
 InteractionTestPlanner
 {

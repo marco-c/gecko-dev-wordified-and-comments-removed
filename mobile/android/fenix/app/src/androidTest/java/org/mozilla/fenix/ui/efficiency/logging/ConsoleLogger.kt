@@ -131,9 +131,9 @@ especially
 poor
 when
 debugging
-*
 complex
 automation
+*
 harnesses
 and
 dynamic
@@ -161,13 +161,13 @@ at
 each
 layer
 :
-*
 STEP
 -
 >
 high
 -
 level
+*
 intent
 (
 e
@@ -178,7 +178,6 @@ navigate
 to
 BookmarksPage
 )
-*
 CMD
 -
 >
@@ -195,11 +194,11 @@ click
 menu
 item
 )
-*
 LOC
 -
 >
 element
+*
 lookup
 /
 verification
@@ -257,10 +256,10 @@ and
 indentation
 depth
 .
-*
 These
 are
 readable
+*
 on
 their
 own
@@ -295,8 +294,8 @@ applied
 by
 the
 effpretty
-*
 renderer
+*
 (
 ui
 /
@@ -317,11 +316,11 @@ palette
 .
 Keeping
 the
-*
 emitted
 stream
 plain
 means
+*
 the
 raw
 logcat
@@ -332,7 +331,6 @@ one
 downloaded
 from
 Firebase
-*
 stays
 clean
 and
@@ -341,6 +339,7 @@ machine
 parseable
 and
 there
+*
 is
 a
 single
@@ -351,7 +350,6 @@ many
 front
 -
 ends
-*
 (
 the
 effpretty
@@ -366,6 +364,7 @@ later
 )
 can
 render
+*
 however
 they
 like
@@ -398,11 +397,11 @@ System
 out
 tag
 which
-*
 is
 a
 junk
 drawer
+*
 any
 app
 /
@@ -419,7 +418,6 @@ be
 noisy
 )
 .
-*
 Filter
 with
 a
@@ -427,6 +425,7 @@ clean
 allow
 list
 of
+*
 dedicated
 tags
 (
@@ -569,12 +568,12 @@ lives
 in
 effpretty
 .
-*
 That
 makes
 it
 easy
 to
+*
 change
 the
 output
@@ -737,7 +736,6 @@ decide
 to
 surface
 them
-*
 (
 e
 .
@@ -745,6 +743,7 @@ g
 .
 COMPOSE_BY_TAG
 vs
+*
 ESPRESSO_BY_ID
 resource
 -
@@ -808,11 +807,11 @@ error
 )
 not
 a
-*
 repeat
 of
 the
 start
+*
 message
 the
 start

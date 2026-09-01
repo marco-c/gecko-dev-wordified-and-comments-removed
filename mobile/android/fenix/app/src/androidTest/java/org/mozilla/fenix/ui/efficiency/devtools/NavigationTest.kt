@@ -163,7 +163,6 @@ via
 navigateToPage
 (
 )
-*
 from
 a
 fresh
@@ -249,10 +248,10 @@ a
 helper
 that
 reflects
-*
 over
 PageContext
 and
+*
 prints
 Case
 (

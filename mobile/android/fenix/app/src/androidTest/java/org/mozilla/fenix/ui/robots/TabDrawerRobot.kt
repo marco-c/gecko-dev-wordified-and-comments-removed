@@ -87,16 +87,6 @@ compose
 .
 ui
 .
-semantics
-.
-SemanticsActions
-import
-androidx
-.
-compose
-.
-ui
-.
 test
 .
 ExperimentalTestApi
@@ -331,16 +321,6 @@ ui
 .
 test
 .
-performSemanticsAction
-import
-androidx
-.
-compose
-.
-ui
-.
-test
-.
 performTextInput
 import
 androidx
@@ -495,18 +475,6 @@ helpers
 .
 TestAssetHelper
 .
-waitingTimeLong
-import
-org
-.
-mozilla
-.
-fenix
-.
-helpers
-.
-TestAssetHelper
-.
 waitingTimeShort
 import
 org
@@ -520,16 +488,6 @@ helpers
 TestHelper
 .
 mDevice
-import
-org
-.
-mozilla
-.
-fenix
-.
-tabstray
-.
-DefaultTabManagementFeatureHelper
 import
 org
 .
@@ -578,7 +536,6 @@ composeTestRule
 )
 }
 /
-*
 *
 *
 Implementation
@@ -2298,7 +2255,6 @@ exists
 /
 *
 *
-*
 Verifies
 a
 tab
@@ -2365,7 +2321,6 @@ exists
 )
 }
 /
-*
 *
 *
 Verifies
@@ -2541,7 +2496,6 @@ exist
 /
 *
 *
-*
 Closes
 a
 tab
@@ -2702,7 +2656,6 @@ button
 /
 *
 *
-*
 Swipes
 a
 tab
@@ -2874,7 +2827,6 @@ returned
 /
 *
 *
-*
 Swipes
 a
 tab
@@ -3044,7 +2996,6 @@ returned
 )
 }
 /
-*
 *
 *
 Creates
@@ -3253,7 +3204,6 @@ collectionName
 }
 }
 /
-*
 *
 *
 Selects
@@ -3584,7 +3534,6 @@ button
 /
 *
 *
-*
 Performs
 a
 long
@@ -3665,7 +3614,6 @@ title
 /
 *
 *
-*
 Verifies
 the
 multi
@@ -3738,7 +3686,6 @@ selected
 )
 }
 /
-*
 *
 *
 Closes
@@ -5720,7 +5667,6 @@ composeTestRule
 /
 *
 *
-*
 Opens
 a
 transition
@@ -5770,7 +5716,6 @@ composeTestRule
 )
 }
 /
-*
 *
 *
 Clicks
@@ -5875,7 +5820,6 @@ composeTestRule
 /
 *
 *
-*
 Obtains
 the
 root
@@ -5901,7 +5845,6 @@ TABS_TRAY
 /
 *
 *
-*
 Obtains
 the
 Tabs
@@ -5925,7 +5868,6 @@ TabsTrayTestTag
 FAB
 )
 /
-*
 *
 *
 Obtains
@@ -5959,7 +5901,6 @@ NORMAL_TABS_PAGE_BUTTON
 /
 *
 *
-*
 Obtains
 the
 private
@@ -5989,7 +5930,6 @@ TabsTrayTestTag
 PRIVATE_TABS_PAGE_BUTTON
 )
 /
-*
 *
 *
 Obtains
@@ -6023,7 +5963,6 @@ TAB_GROUPS_PAGE_BUTTON
 /
 *
 *
-*
 Obtains
 the
 synced
@@ -6055,7 +5994,6 @@ SYNCED_TABS_PAGE_BUTTON
 /
 *
 *
-*
 Obtains
 the
 normal
@@ -6083,7 +6021,6 @@ TabsTrayTestTag
 NORMAL_TABS_LIST
 )
 /
-*
 *
 *
 Obtains
@@ -6118,7 +6055,6 @@ true
 /
 *
 *
-*
 Obtains
 the
 private
@@ -6144,7 +6080,6 @@ PRIVATE_TABS_LIST
 /
 *
 *
-*
 Obtains
 the
 synced
@@ -6168,7 +6103,6 @@ TabsTrayTestTag
 SYNCED_TABS_LIST
 )
 /
-*
 *
 *
 Obtains
@@ -6197,7 +6131,6 @@ UNAUTHENTICATED_SYNCED_TABS_PAGE
 /
 *
 *
-*
 Obtains
 the
 empty
@@ -6224,7 +6157,6 @@ EMPTY_NORMAL_TABS_LIST
 /
 *
 *
-*
 Obtains
 the
 empty
@@ -6249,7 +6181,6 @@ TabsTrayTestTag
 EMPTY_PRIVATE_TABS_LIST
 )
 /
-*
 *
 *
 Obtains
@@ -6300,7 +6231,6 @@ onFirst
 (
 )
 /
-*
 *
 *
 Obtains
@@ -6357,7 +6287,6 @@ onFirst
 /
 *
 *
-*
 Obtains
 an
 open
@@ -6392,7 +6321,6 @@ TabsTrayTestTag
 TAB_ITEM_CLOSE
 )
 /
-*
 *
 *
 Obtains
@@ -6430,7 +6358,6 @@ TAB_ITEM_THUMBNAIL
 /
 *
 *
-*
 Obtains
 the
 three
@@ -6459,7 +6386,6 @@ TabsTrayTestTag
 THREE_DOT_BUTTON
 )
 /
-*
 *
 *
 Obtains
@@ -6491,7 +6417,6 @@ ACCOUNT_SETTINGS
 /
 *
 *
-*
 Obtains
 the
 dropdown
@@ -6519,7 +6444,6 @@ TabsTrayTestTag
 CLOSE_ALL_TABS
 )
 /
-*
 *
 *
 Obtains
@@ -6552,7 +6476,6 @@ RECENTLY_CLOSED_TABS
 /
 *
 *
-*
 Obtains
 the
 dropdown
@@ -6579,7 +6502,6 @@ TabsTrayTestTag
 SELECT_TABS
 )
 /
-*
 *
 *
 Obtains
@@ -6611,7 +6533,6 @@ TAB_SETTINGS
 /
 *
 *
-*
 Obtains
 the
 dropdown
@@ -6640,7 +6561,6 @@ SHARE_BUTTON
 /
 *
 *
-*
 Obtains
 the
 normal
@@ -6664,7 +6584,6 @@ TabCounterTestTags
 NORMAL_TABS_COUNTER
 )
 /
-*
 *
 *
 Obtains
@@ -6692,7 +6611,6 @@ TabsTrayTestTag
 COLLECTIONS_BUTTON
 )
 /
-*
 *
 *
 Obtains
@@ -6723,7 +6641,6 @@ SELECTION_COUNTER
 /
 *
 *
-*
 Obtains
 the
 Tabs
@@ -6748,7 +6665,6 @@ TabsTrayTestTag
 BANNER_HANDLE
 )
 /
-*
 *
 *
 Obtains
@@ -6785,7 +6701,6 @@ onNodeWithContentDescription
 action
 )
 /
-*
 *
 *
 Obtains

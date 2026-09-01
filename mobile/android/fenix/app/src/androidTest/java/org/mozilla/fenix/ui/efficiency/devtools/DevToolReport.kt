@@ -120,13 +120,13 @@ computing
 lines
 ]
 never
-*
 calls
 Log
 .
 i
 /
 println
+*
 directly
 the
 same
@@ -141,7 +141,6 @@ consumer
 later
 (
 an
-*
 in
 -
 app
@@ -153,6 +152,7 @@ export
 etc
 .
 )
+*
 without
 changing
 the
@@ -189,12 +189,12 @@ data
 -
 building
 /
-*
 report
 -
 formatting
 /
 emitting
+*
 responsibilities
 apart
 in
@@ -321,11 +321,11 @@ per
 item
 separator
 "
-*
 shape
 shared
 by
 every
+*
 boilerplate
 -
 printing
@@ -339,7 +339,6 @@ and
 Behavior
 '
 s
-*
 case
 -
 boilerplate
@@ -347,6 +346,7 @@ generators
 all
 follow
 this
+*
 exact
 shape
 )

@@ -127,7 +127,6 @@ their
 dimensions
 config
 and
-*
 pixel
 data
 are
@@ -136,6 +135,7 @@ same
 (
 within
 the
+*
 provided
 delta
 )
@@ -146,7 +146,6 @@ the
 same
 metrics
 that
-*
 [
 Bitmap
 .

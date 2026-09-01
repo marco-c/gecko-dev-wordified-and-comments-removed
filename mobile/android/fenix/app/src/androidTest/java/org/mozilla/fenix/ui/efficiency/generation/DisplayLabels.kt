@@ -92,7 +92,6 @@ into
 its
 display
 label
-*
 (
 e
 .
@@ -104,6 +103,7 @@ BookmarksPage
 )
 used
 for
+*
 case
 labels
 and
@@ -132,13 +132,12 @@ previously
 copy
 -
 pasted
-*
 identically
 into
+*
 ReachabilityCaseFactory
 PairCaseFactory
 NavigationTestPlanner
-*
 and
 InteractionTestPlanner
 .

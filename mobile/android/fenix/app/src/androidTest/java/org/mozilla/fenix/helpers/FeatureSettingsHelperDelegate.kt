@@ -211,7 +211,6 @@ Settings
 /
 *
 *
-*
 Helper
 for
 querying
@@ -251,7 +250,6 @@ the
 tests
 start
 .
-*
 These
 will
 be
@@ -392,7 +390,6 @@ settings
 enableHomepageTrendingRecentSearch
 )
 /
-*
 *
 *
 The

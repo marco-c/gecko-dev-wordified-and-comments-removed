@@ -421,7 +421,6 @@ STEP_SIZE
 /
 *
 *
-*
 Implementation
 of
 Robot

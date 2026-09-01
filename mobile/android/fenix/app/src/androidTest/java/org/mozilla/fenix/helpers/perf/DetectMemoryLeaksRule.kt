@@ -195,10 +195,10 @@ to
 a
 test
 class
-*
 runs
 memory
 leak
+*
 checks
 in
 all
@@ -230,7 +230,6 @@ the
 order
 of
 applying
-*
 the
 [
 DetectMemoryLeaksRule
@@ -238,6 +237,7 @@ DetectMemoryLeaksRule
 is
 important
 .
+*
 The
 [
 ActivityScenarioRule
@@ -247,7 +247,6 @@ the
 activity
 at
 the
-*
 end
 of
 each
@@ -261,6 +260,7 @@ memory
 leaks
 in
 the
+*
 activity
 this
 test
@@ -268,7 +268,6 @@ rule
 has
 to
 be
-*
 applied
 after
 the
@@ -283,8 +282,8 @@ detect
 leaks
 after
 the
-activity
 *
+activity
 has
 been
 destroyed
@@ -292,6 +291,7 @@ destroyed
 *
 *
 See
+*
 [
 https
 :
@@ -349,7 +349,6 @@ more
 Sample
 usage
 :
-*
 *
 kotlin
 *
@@ -467,9 +466,9 @@ the
 test
 class
 .
-*
 When
 provided
+*
 [
 ComposeTestRule
 .
@@ -483,12 +482,12 @@ test
 completes
 to
 drain
-*
 pending
 Compose
 coroutines
 before
 the
+*
 heap
 dump
 preventing
@@ -498,7 +497,6 @@ positive
 leak
 reports
 .
-*
 The
 rule
 must
@@ -507,6 +505,7 @@ declared
 at
 a
 lower
+*
 [
 order
 ]
@@ -523,7 +522,6 @@ value
 than
 this
 rule
-*
 (
 i
 .
@@ -548,13 +546,13 @@ for
 composeTestRule
 ]
 1
+*
 for
 this
 rule
 )
 so
 that
-*
 Compose
 is
 still
@@ -1053,7 +1051,6 @@ annotated
 with
 SkipLeaks
 AND
-*
 "
 detect
 -
@@ -1162,7 +1159,6 @@ object
 /
 *
 *
-*
 Key
 identifying
 the
@@ -1174,7 +1170,6 @@ to
 enable
 or
 disable
-*
 memory
 leak
 detection

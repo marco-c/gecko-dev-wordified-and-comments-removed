@@ -7165,10 +7165,10 @@ present
 in
 the
 accessibility
-*
 window
 hierarchy
 or
+*
 throws
 if
 it
@@ -7403,12 +7403,12 @@ gone
 from
 the
 window
-*
 hierarchy
 .
 On
 slow
 emulators
+*
 (
 e
 .
@@ -7428,7 +7428,6 @@ take
 s
 ;
 polling
-*
 here
 prevents
 the
@@ -7437,6 +7436,7 @@ animation
 from
 dismissing
 a
+*
 dropdown
 popup
 that

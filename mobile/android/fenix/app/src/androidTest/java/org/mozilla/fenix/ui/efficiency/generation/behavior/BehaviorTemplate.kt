@@ -109,11 +109,11 @@ feature
 entity
 pair
 with
-*
 matching
 capabilities
 and
 selector
+*
 templates
 .
 *

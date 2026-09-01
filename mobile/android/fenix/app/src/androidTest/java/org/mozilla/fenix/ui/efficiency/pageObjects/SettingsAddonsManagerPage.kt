@@ -427,8 +427,8 @@ install
 completed
 prompt
 .
-*
 When
+*
 [
 allowInPrivateBrowsing
 ]
@@ -445,10 +445,10 @@ checkbox
 is
 ticked
 before
-*
 confirming
 .
 Assumes
+*
 the
 add
 -
@@ -464,9 +464,9 @@ the
 legacy
 installAddon
 /
-*
 installAddonInPrivateMode
 +
+*
 closeAddonInstallCompletePrompt
 flow
 .
@@ -658,10 +658,10 @@ the
 add
 -
 ons
-*
 manager
 list
 .
+*
 Mirrors
 the
 legacy
@@ -736,13 +736,13 @@ and
 returns
 to
 the
-*
 add
 -
 ons
 manager
 list
 .
+*
 Mirrors
 the
 legacy
@@ -750,7 +750,6 @@ openDetailedMenuForAddon
 +
 disableExtension
 +
-*
 waitUntilSnackbarGone
 +
 goBack

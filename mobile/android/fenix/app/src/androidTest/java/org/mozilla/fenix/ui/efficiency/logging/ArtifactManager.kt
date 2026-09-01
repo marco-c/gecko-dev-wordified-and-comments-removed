@@ -113,7 +113,6 @@ this
 to
 know
 *
-*
 where
 *
 to
@@ -123,6 +122,7 @@ files
 The
 directory
 is
+*
 initialized
 by
 [
@@ -130,7 +130,6 @@ LoggerFactory
 .
 create
 ]
-*
 and
 remains
 valid
@@ -285,7 +284,6 @@ File
 =
 null
 /
-*
 *
 *
 Sets

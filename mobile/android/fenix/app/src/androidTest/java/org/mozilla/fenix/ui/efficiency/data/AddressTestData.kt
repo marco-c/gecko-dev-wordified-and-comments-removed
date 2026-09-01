@@ -105,10 +105,10 @@ AddressAutofillTest
 FirstAddressAutofillDetails
 )
 are
-*
 object
 s
 of
+*
 var
 s
 so
@@ -126,7 +126,6 @@ test
 fills
 in
 .
-*
 Use
 [
 copy
@@ -134,6 +133,7 @@ copy
 for
 a
 variation
+*
 instead
 .
 *
@@ -196,9 +196,9 @@ should
 take
 their
 values
-*
 from
 here
+*
 rather
 than
 inlining
@@ -217,12 +217,12 @@ changed
 in
 one
 place
-*
 the
 same
 values
 are
 typed
+*
 into
 the
 settings
@@ -236,13 +236,13 @@ and
 asserted
 in
 the
-*
 autofilled
 web
 field
 and
 those
 three
+*
 uses
 must
 agree

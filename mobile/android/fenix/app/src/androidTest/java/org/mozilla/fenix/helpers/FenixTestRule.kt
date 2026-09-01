@@ -164,10 +164,10 @@ Fenix
 test
 prerequisites
 :
-*
 notification
 permission
 grant
+*
 environment
 setup
 and

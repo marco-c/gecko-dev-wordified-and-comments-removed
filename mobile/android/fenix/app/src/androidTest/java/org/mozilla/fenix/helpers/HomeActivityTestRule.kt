@@ -676,7 +676,6 @@ isHomepageTrendingRecentSearchEnabled
 /
 *
 *
-*
 Update
 settings
 after
@@ -895,10 +894,10 @@ default
 will
 disable
 specific
-*
 app
 features
 that
+*
 would
 otherwise
 negatively
@@ -1057,11 +1056,11 @@ HomeActivity
 .
 This
 adds
-*
 functionality
 for
 using
 the
+*
 Espresso
 -
 intents
@@ -1505,7 +1504,6 @@ Intent
 /
 *
 *
-*
 Update
 settings
 after
@@ -1767,14 +1765,13 @@ account
 for
 any
 changes
-*
 done
 while
+*
 running
 the
 tests
 .
-*
 Useful
 in
 the
@@ -1789,8 +1786,8 @@ would
 otherwise
 set
 the
-initial
 *
+initial
 settings
 and
 override
@@ -1932,9 +1929,9 @@ default
 will
 disable
 specific
-*
 app
 features
+*
 that
 would
 otherwise

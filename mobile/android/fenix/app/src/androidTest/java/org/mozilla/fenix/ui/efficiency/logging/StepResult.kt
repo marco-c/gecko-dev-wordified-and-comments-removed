@@ -102,7 +102,6 @@ current
 tier
 after
 logging
-*
 and
 (
 usually
@@ -111,6 +110,7 @@ capturing
 a
 screenshot
 .
+*
 [
 Ok
 ]
@@ -118,7 +118,6 @@ indicates
 the
 step
 completed
-*
 successfully
 and
 the
@@ -187,7 +186,6 @@ logs
 )
 .
 The
-*
 [
 cause
 ]
@@ -196,6 +194,7 @@ present
 is
 captured
 into
+*
 the
 JSON
 details

@@ -269,7 +269,6 @@ click
 /
 *
 *
-*
 Implementation
 of
 Robot

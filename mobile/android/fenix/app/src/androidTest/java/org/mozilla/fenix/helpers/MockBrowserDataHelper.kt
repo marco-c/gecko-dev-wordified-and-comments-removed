@@ -360,7 +360,6 @@ item
 to
 add
 .
-*
 BookmarkRoot
 .
 Mobile
@@ -372,6 +371,7 @@ root
 id
 for
 mobile
+*
 bookmarks
 .
 *
@@ -499,7 +499,6 @@ folder
 to
 add
 .
-*
 BookmarkRoot
 .
 Mobile
@@ -511,6 +510,7 @@ root
 id
 for
 mobile
+*
 bookmarks
 .
 *
@@ -813,7 +813,6 @@ url
 /
 *
 *
-*
 Triggers
 a
 search
@@ -827,7 +826,6 @@ a
 new
 tab
 .
-*
 *
 /
 fun

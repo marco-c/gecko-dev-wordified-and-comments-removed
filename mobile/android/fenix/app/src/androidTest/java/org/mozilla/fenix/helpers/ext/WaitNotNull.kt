@@ -89,6 +89,12 @@ uiautomator
 .
 UiDevice
 import
+kotlin
+.
+test
+.
+assertNotNull
+import
 org
 .
 mozilla
@@ -110,12 +116,6 @@ fenix
 helpers
 .
 TestAssetHelper
-import
-kotlin
-.
-test
-.
-assertNotNull
 /
 *
 *

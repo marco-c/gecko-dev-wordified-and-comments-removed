@@ -88,10 +88,10 @@ HomeActivityIntentTestRule
 flags
 on
 BaseTest
-*
 with
 the
 same
+*
 defaults
 so
 LaunchConfig
@@ -110,7 +110,6 @@ a
 non
 -
 default
-*
 value
 on
 a
@@ -118,6 +117,7 @@ page
 '
 s
 AppEntry
+*
 edge
 when
 the

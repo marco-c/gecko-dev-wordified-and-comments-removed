@@ -281,7 +281,6 @@ isChecked
 /
 *
 *
-*
 Implementation
 of
 Robot

@@ -327,6 +327,12 @@ uiautomator
 .
 Until
 import
+kotlin
+.
+test
+.
+assertNotNull
+import
 mozilla
 .
 components
@@ -522,12 +528,6 @@ helpers
 ext
 .
 waitNotNull
-import
-kotlin
-.
-test
-.
-assertNotNull
 object
 TestHelper
 {
@@ -1545,7 +1545,6 @@ page
 navigation
 or
 compose
-*
 animation
 )
 and
@@ -1553,6 +1552,7 @@ the
 bottom
 sheet
 does
+*
 not
 appear
 drain
@@ -1560,7 +1560,6 @@ pending
 idle
 work
 and
-*
 re
 -
 issue
@@ -2506,7 +2505,6 @@ test
 .
 performScrollToNode
 ]
-*
 for
 lazy
 -
@@ -2514,6 +2512,7 @@ list
 items
 :
 scrolling
+*
 establishes
 the
 node
@@ -2524,7 +2523,6 @@ in
 the
 semantics
 tree
-*
 but
 layout
 completion
@@ -2536,12 +2534,12 @@ lag
 behind
 on
 slow
+*
 Firebase
 shards
 .
 A
 plain
-*
 [
 waitForIdle
 ]
@@ -2573,7 +2571,6 @@ waitUntilAtLeastOneExists
 ]
 is
 a
-*
 no
 -
 op
@@ -2581,6 +2578,7 @@ once
 existence
 has
 been
+*
 established
 .
 *

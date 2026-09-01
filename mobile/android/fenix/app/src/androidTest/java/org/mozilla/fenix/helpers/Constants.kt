@@ -426,6 +426,8 @@ recommended
 list
 and
 the
+/
+/
 install
 confirmation
 prompt
@@ -452,6 +454,8 @@ new
 tab
 that
 is
+/
+/
 opened
 after
 installation
@@ -494,6 +498,8 @@ displays
 "
 No
 extensions
+/
+/
 enabled
 "
 /

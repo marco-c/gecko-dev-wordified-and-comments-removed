@@ -209,12 +209,12 @@ more
 common
 exceptions
 .
-*
 The
 Rule
 doesn
 '
 t
+*
 clear
 the
 app
@@ -230,7 +230,6 @@ some
 cleanup
 here
 .
-*
 The
 Before
 and
@@ -238,11 +237,11 @@ After
 methods
 are
 not
+*
 called
 between
 retries
 .
-*
 *
 /
 class
@@ -779,7 +778,6 @@ the
 test
 case
 .
-*
 Used
 for
 display
@@ -806,7 +804,6 @@ Throwable
 to
 throw
 .
-*
 It
 '
 s
@@ -814,6 +811,7 @@ evaluated
 during
 the
 test
+*
 execution
 .
 *
@@ -886,13 +884,13 @@ the
 '
 name
 '
-*
 instead
 of
 a
 default
 data
 class
+*
 string
 or
 lambda

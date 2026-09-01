@@ -164,7 +164,6 @@ and
 logged
 to
 Logcat
-*
 so
 logging
 can
@@ -172,6 +171,7 @@ never
 crash
 a
 test
+*
 or
 mask
 the
@@ -192,7 +192,6 @@ used
 by
 factories
 so
-*
 calling
 code
 does
@@ -201,6 +200,7 @@ care
 about
 concrete
 sinks
+*
 or
 file
 layout
@@ -243,12 +243,12 @@ logging
 a
 WARN
 .
-*
 This
 ensures
 logging
 never
 interferes
+*
 with
 test
 execution
@@ -1038,7 +1038,6 @@ stackTraceToString
 /
 *
 *
-*
 Attaches
 a
 screenshot
@@ -1048,7 +1047,6 @@ both
 sinks
 so
 consumers
-*
 (
 humans
 +
@@ -1296,13 +1294,13 @@ back
 to
 internal
 storage
-*
 and
 finally
 to
 an
 internal
 fallback
+*
 directory
 if
 needed
@@ -1311,7 +1309,6 @@ If
 sink
 setup
 fails
-*
 a
 *
 *
@@ -1346,11 +1343,11 @@ name
 sanitized
 )
 .
-*
 Defaults
 to
 current
 epoch
+*
 millis
 for
 uniqueness
@@ -1367,7 +1364,6 @@ to
 instrumentation
 target
 context
-*
 via
 [
 InstrumentationRegistry

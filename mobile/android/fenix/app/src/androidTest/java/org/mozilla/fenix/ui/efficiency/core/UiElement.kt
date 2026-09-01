@@ -192,9 +192,9 @@ one
 of
 these
 the
-*
 interaction
 verbs
+*
 (
 mozClick
 later
@@ -209,10 +209,10 @@ this
 interface
 and
 never
-*
 switch
 on
 Compose
+*
 (
 SemanticsNodeInteraction
 )
@@ -223,7 +223,6 @@ ViewInteraction
 )
 vs
 UiAutomator
-*
 (
 UiObject
 /
@@ -233,6 +232,7 @@ types
 themselves
 .
 That
+*
 keeps
 the
 per
@@ -246,7 +246,6 @@ place
 here
 )
 and
-*
 the
 verbs
 thin
@@ -259,6 +258,7 @@ longClick
 enterText
 )
 as
+*
 verbs
 migrate
 onto

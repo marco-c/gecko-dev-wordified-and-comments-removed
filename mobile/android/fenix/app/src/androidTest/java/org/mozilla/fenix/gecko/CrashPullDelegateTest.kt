@@ -77,6 +77,12 @@ mockk
 .
 mockk
 import
+kotlin
+.
+test
+.
+assertNotNull
+import
 kotlinx
 .
 coroutines
@@ -152,12 +158,6 @@ fenix
 helpers
 .
 TestHelper
-import
-kotlin
-.
-test
-.
-assertNotNull
 class
 CrashPullDelegateTest
 {

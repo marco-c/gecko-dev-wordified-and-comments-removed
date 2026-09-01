@@ -99,7 +99,6 @@ need
 one
 or
 two
-*
 dynamic
 values
 such
@@ -107,6 +106,7 @@ as
 a
 folder
 name
+*
 bookmark
 title
 URL

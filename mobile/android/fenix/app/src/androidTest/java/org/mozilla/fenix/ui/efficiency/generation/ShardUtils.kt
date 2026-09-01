@@ -13,7 +13,6 @@ generation
 /
 *
 *
-*
 Utilities
 for
 deterministically
@@ -204,13 +203,13 @@ entrypoints
 :
 resolves
 the
-*
 run
 -
 state
 override
 (
 falling
+*
 back
 to
 the
@@ -220,7 +219,6 @@ property
 then
 blank
 )
-*
 delegates
 to
 [
@@ -232,13 +230,13 @@ that
 domain
 '
 s
+*
 shard
 and
 wraps
 each
 case
 for
-*
 JUnit
 '
 s
@@ -270,13 +268,12 @@ copy
 -
 pasted
 logic
-*
 in
+*
 ReachabilityShardData
 PairShardData
 InteractionShardData
 and
-*
 BehaviorShardData
 .
 Domain
@@ -288,6 +285,7 @@ e
 .
 g
 .
+*
 Pairs
 '
 graph
@@ -296,7 +294,6 @@ bootstrap
 stays
 in
 the
-*
 caller
 '
 s
@@ -311,6 +308,7 @@ forced
 into
 this
 shared
+*
 shell
 .
 *

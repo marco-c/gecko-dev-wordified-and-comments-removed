@@ -119,6 +119,12 @@ TestCase
 .
 assertEquals
 import
+kotlin
+.
+test
+.
+assertIs
+import
 mozilla
 .
 components
@@ -258,12 +264,6 @@ listscreen
 store
 .
 TimeCategory
-import
-kotlin
-.
-test
-.
-assertIs
 RunWith
 (
 AndroidJUnit4

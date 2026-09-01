@@ -115,16 +115,6 @@ ui
 .
 test
 .
-onChildAt
-import
-androidx
-.
-compose
-.
-ui
-.
-test
-.
 onNodeWithContentDescription
 import
 androidx

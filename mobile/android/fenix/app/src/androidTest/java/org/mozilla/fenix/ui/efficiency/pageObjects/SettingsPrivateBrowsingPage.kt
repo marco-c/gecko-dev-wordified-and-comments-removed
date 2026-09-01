@@ -335,7 +335,6 @@ illustrate
 how
 the
 SettingsPrivateBrowsingTest
-*
 (
 and
 the
@@ -344,6 +343,7 @@ Factory
 pattern
 )
 would
+*
 toggle
 Private
 Browsing
@@ -351,7 +351,6 @@ in
 a
 real
 page
-*
 object
 .
 It
@@ -369,8 +368,8 @@ code
 and
 should
 be
-replaced
 *
+replaced
 with
 the
 actual
@@ -391,13 +390,13 @@ to
 ensure
 this
 placeholder
-*
 is
 never
 used
 in
 production
 or
+*
 non
 -
 demo

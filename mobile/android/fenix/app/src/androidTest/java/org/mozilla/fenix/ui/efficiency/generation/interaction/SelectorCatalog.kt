@@ -224,12 +224,10 @@ lowercase
 /
 *
 *
-*
 TEMP
 :
 name
 inference
-*
 Replace
 this
 later

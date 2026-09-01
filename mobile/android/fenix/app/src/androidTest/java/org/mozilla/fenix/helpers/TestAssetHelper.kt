@@ -79,10 +79,6 @@ net
 .
 toUri
 import
-mockwebserver3
-.
-MockWebServer
-import
 java
 .
 util
@@ -90,8 +86,11 @@ util
 concurrent
 .
 TimeUnit
+import
+mockwebserver3
+.
+MockWebServer
 /
-*
 *
 *
 Helper
@@ -208,13 +207,13 @@ generic
 ]
 .
 html
-*
 Returns
 a
 list
 of
 TestAsset
 which
+*
 can
 be
 used
@@ -223,7 +222,6 @@ navigate
 to
 each
 and
-*
 assert
 that
 the
@@ -252,7 +250,6 @@ generic1
 html
 ]
 for
-*
 content
 implementation
 details

@@ -176,13 +176,13 @@ pause
 the
 media
 content
-*
 Note
 :
 this
 test
 only
 verifies
+*
 media
 notifications
 not

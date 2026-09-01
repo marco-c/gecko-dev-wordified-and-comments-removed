@@ -153,6 +153,10 @@ uiautomator
 .
 Until
 import
+kotlin
+.
+AssertionError
+import
 org
 .
 mozilla
@@ -338,10 +342,6 @@ helpers
 TestHelper
 .
 packageName
-import
-kotlin
-.
-AssertionError
 class
 NotificationRobot
 {
@@ -1375,6 +1375,8 @@ existence
 ;
 otherwise
 scroll
+/
+/
 again
 while
 (
@@ -2180,6 +2182,8 @@ in
 to
 view
 an
+/
+/
 properly
 verify
 it

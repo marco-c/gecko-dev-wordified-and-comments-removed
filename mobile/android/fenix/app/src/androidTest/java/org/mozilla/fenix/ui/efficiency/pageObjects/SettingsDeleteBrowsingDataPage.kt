@@ -567,9 +567,9 @@ are
 native
 MaterialCheckBoxes
 that
-*
 inflate
 unchecked
+*
 and
 get
 their
@@ -586,13 +586,13 @@ binds
 ;
 the
 bottom
-*
 "
 Delete
 browsing
 data
 "
 arrival
+*
 anchor
 can
 be
@@ -606,7 +606,6 @@ single
 -
 shot
 read
-*
 races
 the
 bind
@@ -621,6 +620,7 @@ on
 Firebase
 )
 .
+*
 Retrying
 the
 (
@@ -631,7 +631,6 @@ shot
 BasePage
 assertion
 keeps
-*
 the
 wait
 local
@@ -643,6 +642,7 @@ of
 changing
 the
 shared
+*
 verb
 .
 Returns
@@ -651,7 +651,6 @@ soon
 as
 the
 state
-*
 matches
 ;
 a

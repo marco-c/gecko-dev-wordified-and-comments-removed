@@ -145,12 +145,6 @@ org
 .
 junit
 .
-Ignore
-import
-org
-.
-junit
-.
 Rule
 import
 org
@@ -231,7 +225,6 @@ the
 fields
 are
 complete
-*
 and
 a
 simple
@@ -240,6 +233,7 @@ if
 they
 are
 localized
+*
 (
 don
 '
@@ -345,7 +339,6 @@ internally
 consistent
 with
 the
-*
 rest
 of
 the
@@ -357,8 +350,8 @@ is
 done
 in
 the
-NimbusMessagingStorage
 *
+NimbusMessagingStorage
 class
 .
 *
@@ -536,7 +529,6 @@ d
 )
 }
 /
-*
 *
 *
 Check

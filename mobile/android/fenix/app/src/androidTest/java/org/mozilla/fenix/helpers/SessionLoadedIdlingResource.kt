@@ -138,11 +138,11 @@ not
 loading
 anymore
 .
-*
 Only
 after
 loading
 has
+*
 completed
 further
 actions

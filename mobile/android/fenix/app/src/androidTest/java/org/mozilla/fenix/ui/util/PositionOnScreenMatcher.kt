@@ -570,7 +570,6 @@ to
 10
 .
 *
-*
 throws
 AssertionFailedError
 if

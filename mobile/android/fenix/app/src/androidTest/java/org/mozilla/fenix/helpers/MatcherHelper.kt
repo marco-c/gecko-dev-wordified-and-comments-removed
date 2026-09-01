@@ -153,7 +153,6 @@ mDevice
 /
 *
 *
-*
 Helper
 for
 querying

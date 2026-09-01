@@ -69,12 +69,6 @@ efficiency
 .
 logging
 import
-org
-.
-json
-.
-JSONObject
-import
 java
 .
 io
@@ -86,6 +80,12 @@ java
 util
 .
 Date
+import
+org
+.
+json
+.
+JSONObject
 /
 *
 *
@@ -123,7 +123,6 @@ JSON
 object
 per
 line
-*
 injecting
 a
 millisecond
@@ -209,13 +208,13 @@ failure
 is
 caught
 and
-*
 logged
 to
 Logcat
 never
 propagated
 to
+*
 the
 caller
 ensuring
@@ -271,7 +270,6 @@ writes
 from
 parallel
 tests
-*
 within
 the
 same
@@ -279,6 +277,7 @@ process
 (
 AndroidX
 can
+*
 run
 multiple
 tests

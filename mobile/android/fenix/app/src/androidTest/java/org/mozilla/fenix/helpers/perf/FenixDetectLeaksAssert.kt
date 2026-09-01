@@ -95,6 +95,12 @@ app
 .
 InstrumentationRegistry
 import
+java
+.
+io
+.
+File
+import
 leakcanary
 .
 AndroidDetectLeaksAssert
@@ -122,12 +128,6 @@ import
 shark
 .
 HeapAnalysisSuccess
-import
-java
-.
-io
-.
-File
 /
 *
 *
@@ -146,8 +146,8 @@ default
 [
 AndroidDetectLeaksAssert
 ]
-*
 implementation
+*
 and
 provides
 a
@@ -161,7 +161,6 @@ to
 an
 output
 file
-*
 specified
 by
 the
@@ -276,12 +275,12 @@ then
 the
 test
 is
-*
 failed
 and
 a
 leak
 trace
+*
 is
 written
 to
@@ -298,8 +297,8 @@ directory
 ]
 param
 within
-*
 the
+*
 /
 sdcard
 /
@@ -415,7 +414,6 @@ to
 a
 file
 output
-*
 specified
 by
 [
@@ -425,6 +423,7 @@ filename
 directory
 ]
 and
+*
 then
 calls
 the
@@ -451,10 +450,10 @@ the
 location
 that
 is
-*
 specified
 by
 the
+*
 additionalTestOutputDir
 argument
 of
@@ -691,8 +690,8 @@ does
 not
 provide
 an
-*
 additionalTestOutputDir
+*
 argument
 the
 fallback
@@ -719,6 +718,7 @@ library
 *
 Source
 :
+*
 [
 cs
 .

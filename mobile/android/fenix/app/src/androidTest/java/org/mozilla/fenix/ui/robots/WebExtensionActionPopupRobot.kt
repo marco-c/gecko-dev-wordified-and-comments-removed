@@ -147,7 +147,6 @@ packageName
 /
 *
 *
-*
 Robot
 for
 interacting
@@ -287,7 +286,6 @@ expectedText
 }
 }
 /
-*
 *
 *
 Enters

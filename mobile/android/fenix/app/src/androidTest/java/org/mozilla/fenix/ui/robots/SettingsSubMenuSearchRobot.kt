@@ -175,6 +175,14 @@ performClick
 import
 androidx
 .
+preference
+.
+R
+as
+preferenceR
+import
+androidx
+.
 recyclerview
 .
 widget
@@ -732,16 +740,7 @@ fenix
 helpers
 .
 isEnabled
-import
-androidx
-.
-preference
-.
-R
-as
-preferenceR
 /
-*
 *
 *
 Implementation
@@ -1910,7 +1909,6 @@ addSearchEngineButton
 )
 }
 /
-*
 *
 *
 Method
@@ -6750,6 +6748,7 @@ search
 shortcuts
 '
 menu
+*
 *
 param
 name

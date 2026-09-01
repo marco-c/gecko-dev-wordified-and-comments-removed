@@ -97,7 +97,6 @@ components
 /
 *
 *
-*
 Helper
 for
 querying
@@ -121,7 +120,6 @@ FeatureSettingsHelper
 /
 *
 *
-*
 Whether
 the
 Pocket
@@ -139,7 +137,6 @@ isPocketEnabled
 :
 Boolean
 /
-*
 *
 *
 Whether
@@ -179,7 +176,6 @@ enabled
 or
 not
 .
-*
 It
 shows
 the
@@ -190,6 +186,7 @@ on
 this
 device
 and
+*
 on
 other
 synced
@@ -218,7 +215,6 @@ enabled
 or
 not
 .
-*
 It
 can
 show
@@ -228,6 +224,7 @@ to
 history
 highlights
 and
+*
 history
 groups
 .
@@ -238,7 +235,6 @@ isRecentlyVisitedFeatureEnabled
 :
 Boolean
 /
-*
 *
 *
 Whether
@@ -281,6 +277,7 @@ Protection
 policy
 .
 *
+*
 see
 ETPPolicy
 *
@@ -290,7 +287,6 @@ etpPolicy
 :
 ETPPolicy
 /
-*
 *
 *
 Enable
@@ -308,7 +304,6 @@ isOpenInAppBannerEnabled
 :
 Boolean
 /
-*
 *
 *
 Enable
@@ -330,7 +325,6 @@ Action
 /
 *
 *
-*
 Enable
 or
 disable
@@ -346,7 +340,6 @@ isMicrosurveyEnabled
 :
 Boolean
 /
-*
 *
 *
 Enable
@@ -365,7 +358,6 @@ Boolean
 /
 *
 *
-*
 Enable
 or
 disable
@@ -380,7 +372,6 @@ onboardingFeatureEnabled
 :
 Boolean
 /
-*
 *
 *
 Enable
@@ -400,7 +391,6 @@ Boolean
 /
 *
 *
-*
 Accept
 or
 not
@@ -416,7 +406,6 @@ isTermsOfServiceAccepted
 :
 Boolean
 /
-*
 *
 *
 Enable
@@ -475,7 +464,6 @@ OpenLinksInApp
 /
 *
 *
-*
 Enable
 or
 disable
@@ -494,7 +482,6 @@ tabManagerOpeningAnimationEnabled
 :
 Boolean
 /
-*
 *
 *
 Indicates
@@ -520,7 +507,6 @@ Boolean
 /
 *
 *
-*
 Enable
 or
 disable
@@ -540,7 +526,6 @@ Boolean
 /
 *
 *
-*
 Enable
 or
 disable
@@ -555,7 +540,6 @@ shouldUseExpandedToolbar
 :
 Boolean
 /
-*
 *
 *
 Enable
@@ -583,7 +567,6 @@ Boolean
 /
 *
 *
-*
 Whether
 the
 Native
@@ -600,7 +583,6 @@ nativeShareSheetEnabled
 :
 Boolean
 /
-*
 *
 *
 Whether
@@ -628,7 +610,6 @@ Boolean
 /
 *
 *
-*
 Whether
 trending
 and
@@ -648,7 +629,6 @@ isHomepageTrendingRecentSearchEnabled
 :
 Boolean
 /
-*
 *
 *
 Enable
@@ -698,7 +678,6 @@ disablePageLoadTranslationsPrompt
 }
 }
 /
-*
 *
 *
 Enable
@@ -767,7 +746,6 @@ settings
 }
 }
 /
-*
 *
 *
 All

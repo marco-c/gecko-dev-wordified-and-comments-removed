@@ -115,7 +115,6 @@ map
 to
 a
 meaningful
-*
 user
 action
 /
@@ -124,6 +123,7 @@ step
 not
 to
 every
+*
 individual
 primitive
 command

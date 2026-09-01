@@ -126,9 +126,9 @@ online
 or
 offline
 .
-*
 The
 networkConnected
+*
 parameter
 sets
 the
@@ -136,7 +136,6 @@ expected
 connection
 status
 .
-*
 Only
 after
 connecting
@@ -147,6 +146,7 @@ completed
 further
 actions
 will
+*
 be
 performed
 .

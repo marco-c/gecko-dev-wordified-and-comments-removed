@@ -127,10 +127,10 @@ pipeline
 (
 StepLogger
 )
-*
 so
 we
 can
+*
 retain
 artifacts
 like
@@ -205,10 +205,10 @@ dynamically
 generated
 by
 factories
-*
 CI
 config
 or
+*
 reflection
 -
 based
@@ -332,7 +332,6 @@ reliable
 way
 to
 *
-*
 see
 *
 what
@@ -340,6 +339,7 @@ actually
 ran
 .
 The
+*
 log
 stream
 becomes
@@ -545,7 +545,6 @@ BookmarksPage
 "
 )
 .
-*
 CMD
 :
 custom
@@ -560,6 +559,7 @@ g
 "
 click
 menu
+*
 item
 "
 "
@@ -569,7 +569,6 @@ loads
 "
 )
 .
-*
 LOC
 :
 element
@@ -664,7 +663,6 @@ per
 device
 tier
 .
-*
 e
 .
 g
@@ -673,6 +671,7 @@ g
 DslowLocMs
 =
 400
+*
 -
 DslowCmdMs
 =
@@ -753,9 +752,9 @@ end
 )
 and
 includes
-*
 uninstrumented
 work
+*
 (
 setup
 /

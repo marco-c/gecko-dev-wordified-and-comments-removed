@@ -113,10 +113,10 @@ a
 reporter
 through
 every
-*
 page
 object
 constructor
+*
 quickly
 becomes
 noisy
@@ -236,7 +236,6 @@ this
 with
 dependency
 injection
-*
 (
 or
 a
@@ -246,6 +245,7 @@ test
 context
 object
 )
+*
 without
 changing
 test

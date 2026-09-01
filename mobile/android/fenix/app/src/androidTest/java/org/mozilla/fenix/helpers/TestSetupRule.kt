@@ -306,11 +306,11 @@ test
 environment
 setup
 and
-*
 teardown
 :
 device
 orientation
+*
 storage
 cleanup
 notification
@@ -318,7 +318,6 @@ dismissal
 and
 browser
 state
-*
 initialization
 .
 *
@@ -346,6 +345,7 @@ rules
 .
 MockWebServerRule
 ]
+*
 and
 a
 [

@@ -187,11 +187,11 @@ the
 test
 class
 as
-*
 BaseTest
 (
 skipOnboarding
 =
+*
 false
 )
 .
@@ -206,7 +206,6 @@ no
 steps
 because
 the
-*
 flow
 is
 already
@@ -215,6 +214,7 @@ screen
 at
 launch
 ;
+*
 navigateToPage
 (
 )
@@ -223,7 +223,6 @@ arrival
 via
 the
 requiredForPage
-*
 selector
 group
 (

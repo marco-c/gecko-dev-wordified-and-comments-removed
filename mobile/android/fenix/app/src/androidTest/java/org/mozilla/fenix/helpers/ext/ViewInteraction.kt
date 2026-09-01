@@ -281,11 +281,11 @@ location
 in
 the
 View
-*
 rather
 than
 the
 default
+*
 middle
 of
 the
@@ -312,12 +312,12 @@ s
 x
 y
 middle
-*
 and
 we
 need
 to
 simulate
+*
 the
 touch
 in
