@@ -2970,7 +2970,6 @@ element
 -
 sethtmlunsafe
 [
-UseCounter
 NeedsSubjectPrincipal
 =
 NonSystem
