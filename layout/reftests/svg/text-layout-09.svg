@@ -365,7 +365,8 @@ getBBox
 Inflate
 by
 a
-pixel
+couple
+pixels
 to
 prevent
 antialiasing
@@ -383,7 +384,7 @@ bbox
 .
 x
 -
-1
+2
 ;
 rect
 .
@@ -397,7 +398,7 @@ bbox
 .
 y
 -
-1
+2
 ;
 rect
 .
@@ -411,7 +412,7 @@ bbox
 .
 width
 +
-2
+4
 ;
 rect
 .
@@ -425,7 +426,7 @@ bbox
 .
 height
 +
-2
+4
 ;
 element
 .
