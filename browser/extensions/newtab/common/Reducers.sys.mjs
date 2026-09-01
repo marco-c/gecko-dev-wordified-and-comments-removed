@@ -532,6 +532,10 @@ featureConfig
 :
 {
 }
+lockedPrefs
+:
+[
+]
 }
 }
 Dialog
