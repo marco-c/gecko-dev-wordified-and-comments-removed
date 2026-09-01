@@ -2742,6 +2742,12 @@ _initDeviceList
 (
 )
 ;
+gSync
+.
+refreshFxaDevices
+(
+)
+;
 }
 observe
 (
@@ -13994,6 +14000,12 @@ devicesPopup
 appendChild
 (
 fragment
+)
+;
+this
+.
+refreshFxaDevices
+(
 )
 ;
 }
