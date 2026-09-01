@@ -3167,6 +3167,12 @@ lock
 release
 (
 )
+        
+self
+.
+done
+=
+True
     
 def
 reportTimeoutResult
