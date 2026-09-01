@@ -550,7 +550,7 @@ PC
 )
 ;
 }
-void
+int
 SetFocusFunction
 (
 const

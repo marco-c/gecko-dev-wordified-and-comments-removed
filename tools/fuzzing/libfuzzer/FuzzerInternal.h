@@ -124,7 +124,7 @@ Fuzzer
 =
 delete
 ;
-void
+int
 Loop
 (
 std
@@ -138,7 +138,7 @@ SizedFile
 CorporaFiles
 )
 ;
-void
+int
 ReadAndExecuteSeedCorpora
 (
 std
@@ -289,6 +289,18 @@ StaticGracefulExitCallback
 (
 )
 ;
+static
+void
+GracefullyExit
+(
+)
+;
+static
+bool
+isGracefulExitRequested
+(
+)
+;
 bool
 ExecuteCallback
 (
@@ -352,7 +364,7 @@ string
 Corpora
 )
 ;
-void
+int
 CrashResistantMergeInternalStep
 (
 const
@@ -442,7 +454,7 @@ Size
 )
 ;
 static
-void
+bool
 MaybeExitGracefully
 (
 )
@@ -492,7 +504,7 @@ InterruptCallback
 (
 )
 ;
-void
+bool
 MutateAndTestOne
 (
 )
