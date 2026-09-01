@@ -2483,6 +2483,13 @@ aPosInSet
 const
 override
 ;
+nsIFrame
+*
+FindNearestAccessibleAncestorFrame
+(
+)
+const
+;
 nsCOMPtr
 <
 nsIContent
@@ -2666,12 +2673,6 @@ AccGroupInfo
 ;
 private
 :
-nsIFrame
-*
-FindNearestAccessibleAncestorFrame
-(
-)
-;
 LocalAccessible
 *
 GetCommandForDetailsRelation

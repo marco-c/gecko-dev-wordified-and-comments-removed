@@ -37,8 +37,9 @@ browser
 docAcc
 )
 {
-testStates
-(
+const
+acc
+=
 findAccessibleChildByID
 (
 docAcc
@@ -46,8 +47,12 @@ docAcc
 a
 "
 )
+;
+testStates
+(
+acc
 STATE_FOCUSABLE
-0
+EXT_STATE_SELECTABLE_TEXT
 )
 ;
 let
@@ -118,7 +123,7 @@ a
 "
 )
 0
-0
+EXT_STATE_SELECTABLE_TEXT
 STATE_FOCUSABLE
 )
 ;
@@ -180,7 +185,7 @@ a
 "
 )
 STATE_FOCUSABLE
-0
+EXT_STATE_SELECTABLE_TEXT
 )
 ;
 }

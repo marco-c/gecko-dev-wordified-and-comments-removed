@@ -3097,6 +3097,7 @@ LocalAccessible
 FindNearestAccessibleAncestorFrame
 (
 )
+const
 {
 nsIFrame
 *
@@ -3108,6 +3109,9 @@ GetFrame
 ;
 if
 (
+frame
+&
+&
 frame
 -
 >
@@ -3211,18 +3215,9 @@ LocalParent
 )
 ;
 }
-MOZ_ASSERT_UNREACHABLE
-(
-"
-No
-ancestor
-with
+return
 frame
 ?
-"
-)
-;
-return
 nsLayoutUtils
 :
 :
@@ -3230,6 +3225,8 @@ GetContainingBlockForClientRect
 (
 frame
 )
+:
+nullptr
 ;
 }
 nsRect
