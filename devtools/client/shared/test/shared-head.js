@@ -826,6 +826,7 @@ js
 const
 {
 CommandsFactory
+createLocalClientForTests
 }
 =
 require
