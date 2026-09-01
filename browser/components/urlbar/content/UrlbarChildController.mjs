@@ -1670,7 +1670,6 @@ element
 onSelection
 (
 result
-element
 )
 {
 return
@@ -1682,7 +1681,6 @@ parentController
 onSelection
 (
 result
-element
 )
 ;
 }
