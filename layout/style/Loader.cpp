@@ -8177,10 +8177,7 @@ aStatus
 )
 )
 {
-nsContentUtils
-:
-:
-AddScriptRunner
+NS_DispatchToMainThread
 (
 NS_NewRunnableFunction
 (
