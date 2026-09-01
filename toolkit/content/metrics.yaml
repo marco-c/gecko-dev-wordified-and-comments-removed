@@ -1316,9 +1316,6 @@ key
 type
 :
 boolean
-telemetry_mirror
-:
-SecurityUiCerterror_Click_AdvancedButton
 click_exception_button
 :
 type
@@ -1412,9 +1409,6 @@ extra_keys
 :
 *
 security_ui_certerror_click_extra
-telemetry_mirror
-:
-SecurityUiCerterror_Click_ExceptionButton
 click_return_button_top
 :
 type
@@ -1508,9 +1502,6 @@ extra_keys
 :
 *
 security_ui_certerror_click_extra
-telemetry_mirror
-:
-SecurityUiCerterror_Click_ReturnButtonTop
 click_return_button_adv
 :
 type
@@ -1604,9 +1595,6 @@ extra_keys
 :
 *
 security_ui_certerror_click_extra
-telemetry_mirror
-:
-SecurityUiCerterror_Click_ReturnButtonAdv
 click_learn_more_link
 :
 type
@@ -1700,9 +1688,6 @@ extra_keys
 :
 *
 security_ui_certerror_click_extra
-telemetry_mirror
-:
-SecurityUiCerterror_Click_LearnMoreLink
 click_auto_report_cb
 :
 type
@@ -1796,9 +1781,6 @@ extra_keys
 :
 *
 security_ui_certerror_click_extra
-telemetry_mirror
-:
-SecurityUiCerterror_Click_AutoReportCb
 click_error_code_link
 :
 type
@@ -1892,9 +1874,6 @@ extra_keys
 :
 *
 security_ui_certerror_click_extra
-telemetry_mirror
-:
-SecurityUiCerterror_Click_ErrorCodeLink
 click_clipboard_button_top
 :
 type
@@ -1988,9 +1967,6 @@ extra_keys
 :
 *
 security_ui_certerror_click_extra
-telemetry_mirror
-:
-SecurityUiCerterror_Click_ClipboardButtonTop
 click_clipboard_button_bot
 :
 type
@@ -2084,9 +2060,6 @@ extra_keys
 :
 *
 security_ui_certerror_click_extra
-telemetry_mirror
-:
-SecurityUiCerterror_Click_ClipboardButtonBot
 security
 .
 ui
