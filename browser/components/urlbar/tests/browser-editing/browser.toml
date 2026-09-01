@@ -313,6 +313,13 @@ js
 ]
 [
 "
+browser_undo_history
+.
+js
+"
+]
+[
+"
 browser_urlbar_contextmenu
 .
 js
