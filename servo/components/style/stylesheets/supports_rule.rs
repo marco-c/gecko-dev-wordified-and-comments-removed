@@ -443,10 +443,6 @@ source_location
 self
 .
 source_location
-.
-clone
-(
-)
 }
 }
 }
@@ -633,13 +629,11 @@ in_parens
 )
 Ok
 (
-&
 Token
 :
 :
 Ident
 (
-ref
 ident
 )
 )
@@ -2127,7 +2121,6 @@ dest
 .
 write_str
 (
-&
 s
 )
 }
@@ -2661,7 +2654,6 @@ parse_into
 mut
 declarations
 id
-&
 context
 input
 )

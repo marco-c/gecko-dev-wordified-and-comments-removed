@@ -2,6 +2,15 @@ use
 crate
 :
 :
+derives
+:
+:
+*
+;
+use
+crate
+:
+:
 values
 :
 :
@@ -359,7 +368,6 @@ prev
 x
 )
 ;
-return
 slope
 *
 (
@@ -373,7 +381,6 @@ x
 asymptote
 .
 y
-;
 }
 pub
 fn

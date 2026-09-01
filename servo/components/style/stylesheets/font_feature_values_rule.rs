@@ -461,8 +461,6 @@ thin_vec
 self
 .
 0
-as
-u32
 ]
 }
 }
@@ -686,8 +684,6 @@ thin_vec
 self
 .
 0
-as
-u32
 ]
 ;
 if
@@ -706,8 +702,6 @@ result
 push
 (
 second
-as
-u32
 )
 ;
 }
@@ -851,12 +845,9 @@ break
 if
 vec
 .
-len
+is_empty
 (
 )
-=
-=
-0
 {
 return
 Err
@@ -1231,8 +1222,6 @@ value
 ;
 update_or_push
 (
-&
-mut
 self
 .
 declarations
@@ -1536,8 +1525,6 @@ Self
 {
 FontFeatureValuesRule
 {
-family_names
-:
 family_names
 (
 ident

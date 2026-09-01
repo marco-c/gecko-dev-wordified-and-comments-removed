@@ -1548,7 +1548,6 @@ PageSelector
 ]
 {
 &
-*
 self
 .
 0
@@ -1950,7 +1949,6 @@ rules
 .
 read_with
 (
-&
 guard
 )
 ;
@@ -1982,7 +1980,6 @@ block
 .
 read_with
 (
-&
 guard
 )
 .
@@ -2016,10 +2013,6 @@ source_location
 self
 .
 source_location
-.
-clone
-(
-)
 }
 }
 }

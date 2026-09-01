@@ -2,6 +2,15 @@ use
 crate
 :
 :
+derives
+:
+:
+*
+;
+use
+crate
+:
+:
 properties
 :
 :
@@ -258,10 +267,6 @@ source_location
 self
 .
 source_location
-.
-clone
-(
-)
 }
 }
 }

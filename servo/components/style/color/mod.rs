@@ -3165,11 +3165,8 @@ color_space
 color_space
 {
 return
+*
 self
-.
-clone
-(
-)
 ;
 }
 macro_rules

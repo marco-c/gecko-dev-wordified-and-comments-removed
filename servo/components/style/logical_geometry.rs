@@ -2850,10 +2850,6 @@ T
 LogicalSize
 {
 inline
-:
-inline
-block
-:
 block
 debug_writing_mode
 :
@@ -3667,10 +3663,6 @@ T
 LogicalPoint
 {
 i
-:
-i
-b
-:
 b
 debug_writing_mode
 :
@@ -3907,7 +3899,6 @@ b
 }
 }
 else
-{
 if
 mode
 .
@@ -3928,7 +3919,6 @@ width
 self
 .
 i
-}
 }
 }
 #
@@ -5351,7 +5341,6 @@ clone
 }
 }
 else
-{
 if
 mode
 .
@@ -5376,7 +5365,6 @@ inline_start
 clone
 (
 )
-}
 }
 }
 #
@@ -5437,7 +5425,6 @@ right
 }
 }
 else
-{
 if
 mode
 .
@@ -5458,7 +5445,6 @@ self
 inline_start
 =
 right
-}
 }
 }
 #
@@ -5659,7 +5645,6 @@ clone
 }
 }
 else
-{
 if
 mode
 .
@@ -5684,7 +5669,6 @@ inline_end
 clone
 (
 )
-}
 }
 }
 #
@@ -5745,7 +5729,6 @@ left
 }
 }
 else
-{
 if
 mode
 .
@@ -5766,7 +5749,6 @@ self
 inline_end
 =
 left
-}
 }
 }
 #
@@ -6925,10 +6907,6 @@ mode
 LogicalRect
 {
 start
-:
-start
-size
-:
 size
 debug_writing_mode
 :

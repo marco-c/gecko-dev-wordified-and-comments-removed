@@ -501,7 +501,6 @@ String
 from_utf8_lossy
 (
 &
-*
 string
 )
 .
@@ -615,7 +614,6 @@ snapshot_helpers
 get_id
 (
 &
-*
 self
 .
 mAttrs
@@ -649,7 +647,6 @@ snapshot_helpers
 find_attr
 (
 &
-*
 self
 .
 mAttrs
@@ -717,7 +714,6 @@ snapshot_helpers
 imported_part
 (
 &
-*
 self
 .
 mAttrs

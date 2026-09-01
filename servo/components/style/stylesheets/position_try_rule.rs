@@ -11,6 +11,15 @@ use
 crate
 :
 :
+derives
+:
+:
+*
+;
+use
+crate
+:
+:
 properties
 :
 :
@@ -224,7 +233,6 @@ block
 .
 read_with
 (
-&
 guard
 )
 .
@@ -238,10 +246,6 @@ source_location
 self
 .
 source_location
-.
-clone
-(
-)
 }
 }
 }

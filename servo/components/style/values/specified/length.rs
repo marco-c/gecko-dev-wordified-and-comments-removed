@@ -4455,7 +4455,6 @@ device
 .
 calc_line_height
 (
-&
 context
 .
 default_style
@@ -4937,7 +4936,6 @@ device
 .
 calc_line_height
 (
-&
 context
 .
 default_style
@@ -7041,7 +7039,6 @@ calc
 _
 =
 >
-return
 Err
 (
 ParseError
@@ -8216,7 +8213,6 @@ value
 =
 >
 {
-return
 NoCalcLength
 :
 :
@@ -8248,7 +8244,6 @@ unexpected_token
 (
 )
 )
-;
 }
 Token
 :
@@ -8272,7 +8267,6 @@ unit_value
 =
 >
 {
-return
 Ok
 (
 LengthPercentage
@@ -8289,7 +8283,6 @@ unit_value
 )
 )
 )
-;
 }
 Token
 :
@@ -8449,7 +8442,6 @@ calc
 _
 =
 >
-return
 Err
 (
 ParseError

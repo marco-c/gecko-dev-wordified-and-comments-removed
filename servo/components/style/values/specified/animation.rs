@@ -339,7 +339,6 @@ PropertyId
 :
 parse_ignoring_rule_type
 (
-&
 ident
 context
 )

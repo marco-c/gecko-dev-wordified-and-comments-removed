@@ -397,8 +397,6 @@ new
 None
 )
 snapshot_map
-:
-snapshot_map
 }
 }
 pub
@@ -1811,9 +1809,8 @@ id_attr
 (
 )
 .
-map_or
+is_some_and
 (
-false
 |
 atom
 |
@@ -1821,7 +1818,6 @@ case_sensitivity
 .
 eq_atom
 (
-&
 atom
 id
 )

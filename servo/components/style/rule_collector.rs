@@ -864,7 +864,6 @@ cascade_data
 .
 normal_rules
 (
-&
 collector
 .
 pseudo_elements
@@ -1222,19 +1221,14 @@ self
 .
 element
 part_rules
-&
-mut
 self
 .
 rules
-&
-mut
 self
 .
 context
 cascade_level
 cascade_data
-&
 self
 .
 stylist
@@ -1331,19 +1325,14 @@ self
 .
 element
 rule_hash_target
-&
-mut
 self
 .
 rules
-&
-mut
 self
 .
 context
 cascade_level
 cascade_data
-&
 self
 .
 stylist
@@ -1565,7 +1554,6 @@ data
 .
 slotted_rules
 (
-&
 self
 .
 pseudo_elements
@@ -1731,7 +1719,6 @@ cascade_data
 .
 normal_rules
 (
-&
 collector
 .
 pseudo_elements
@@ -1773,7 +1760,6 @@ cascade_data
 .
 part_rules
 (
-&
 collector
 .
 pseudo_elements
@@ -1919,7 +1905,6 @@ cascade_data
 .
 featureless_host_rules
 (
-&
 collector
 .
 pseudo_elements
@@ -2226,7 +2211,6 @@ cascade_data
 .
 part_rules
 (
-&
 self
 .
 pseudo_elements

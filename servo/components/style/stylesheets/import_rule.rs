@@ -890,16 +890,10 @@ input
 .
 map
 (
-|
-name
-|
 ImportLayer
 :
 :
 Named
-(
-name
-)
 )
 }
 )
@@ -1093,10 +1087,6 @@ source_location
 self
 .
 source_location
-.
-clone
-(
-)
 }
 }
 }

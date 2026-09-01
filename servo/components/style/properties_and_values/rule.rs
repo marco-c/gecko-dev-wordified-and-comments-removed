@@ -235,7 +235,6 @@ descriptors
 }
 ;
 let
-mut
 iter
 =
 RuleBodyParser
@@ -261,18 +260,10 @@ inherits_err
 =
 None
 ;
-while
-let
-Some
-(
+for
 declaration
-)
-=
+in
 iter
-.
-next
-(
-)
 {
 if
 !
@@ -1422,7 +1413,6 @@ namespaces
 .
 prefixes
 )
-&
 context
 .
 url_data
@@ -1529,9 +1519,8 @@ as_ref
 (
 )
 .
-map_or
+is_none_or
 (
-true
 |
 s
 |

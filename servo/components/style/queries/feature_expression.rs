@@ -1049,7 +1049,6 @@ Self
 Empty
 =
 >
-return
 !
 context_value
 .
@@ -1763,13 +1762,7 @@ input
 .
 map
 (
-|
-op
-|
 Some
-(
-op
-)
 )
 }
 #
@@ -3962,7 +3955,6 @@ dest
 write_str
 (
 &
-*
 serializer
 (
 value
@@ -4801,9 +4793,8 @@ mut
 AttrReferenceSet
 )
 {
-match
-self
-{
+if
+let
 Self
 :
 :
@@ -4812,18 +4803,14 @@ Function
 f
 )
 =
->
+self
+{
 f
 .
 collect_attribute_references
 (
 references
 )
-_
-=
->
-{
-}
 }
 }
 }
@@ -5727,7 +5714,6 @@ custom_properties
 :
 substitute
 (
-&
 value
 &
 sub_funcs
@@ -6145,7 +6131,6 @@ v1
 .
 partial_cmp
 (
-&
 v2
 )
 (
@@ -6170,7 +6155,6 @@ v1
 .
 partial_cmp
 (
-&
 v2
 )
 (
@@ -6230,7 +6214,6 @@ v1
 .
 partial_cmp
 (
-&
 v2
 )
 (
@@ -6255,7 +6238,6 @@ v1
 .
 partial_cmp
 (
-&
 v2
 )
 (
@@ -6280,7 +6262,6 @@ v1
 .
 partial_cmp
 (
-&
 v2
 )
 (
@@ -6362,7 +6343,6 @@ zero
 .
 partial_cmp
 (
-&
 v2
 )
 }

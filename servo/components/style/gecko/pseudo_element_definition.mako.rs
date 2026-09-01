@@ -1042,7 +1042,6 @@ args
 )
 =
 >
-&
 args
 %
 endif

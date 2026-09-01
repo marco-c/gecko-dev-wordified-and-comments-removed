@@ -1862,7 +1862,6 @@ NumericType
 :
 from_unit_unchecked
 (
-*
 unit
 )
 value
@@ -1926,7 +1925,6 @@ parse_unit_value
 value
 .
 value
-&
 value_unit
 )
 ?

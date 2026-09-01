@@ -1341,7 +1341,6 @@ true
 }
 }
 else
-{
 if
 pdb
 .
@@ -1384,7 +1383,6 @@ clone_arc
 cascade_priority
 )
 ;
-}
 }
 }
 let
@@ -2032,7 +2030,7 @@ self
 .
 current
 .
-map
+inspect
 (
 |
 node
@@ -2048,7 +2046,6 @@ parent
 (
 )
 ;
-node
 }
 )
 }

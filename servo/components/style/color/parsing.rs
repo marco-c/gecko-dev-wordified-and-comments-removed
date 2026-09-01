@@ -2856,10 +2856,6 @@ ColorFunction
 Alpha
 (
 origin_color
-.
-into
-(
-)
 alpha
 )
 )

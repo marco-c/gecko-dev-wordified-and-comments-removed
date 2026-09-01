@@ -434,7 +434,6 @@ css
 &
 url_data
 origin
-&
 shared_lock
 stylesheet_loader
 error_reporter
@@ -463,7 +462,6 @@ CssRules
 new
 (
 rules
-&
 shared_lock
 )
 origin
@@ -2195,7 +2193,6 @@ if
 let
 Some
 (
-ref
 rule
 )
 =

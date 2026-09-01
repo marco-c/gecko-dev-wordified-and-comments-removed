@@ -1497,8 +1497,6 @@ value
 self
 .
 0
-as
-f32
 unit
 :
 CssString

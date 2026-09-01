@@ -4442,7 +4442,6 @@ ComputedColor
 :
 resolve_contrast_color
 (
-&
 abs
 )
 )
@@ -4623,11 +4622,8 @@ Self
 :
 from_absolute_color
 (
+*
 color
-.
-clone
-(
-)
 )
 ComputedColor
 :
@@ -4969,10 +4965,6 @@ from_absolute_color
 (
 *
 computed
-)
-.
-into
-(
 )
 )
 }

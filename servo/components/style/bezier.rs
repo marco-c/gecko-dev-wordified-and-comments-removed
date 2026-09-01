@@ -390,10 +390,6 @@ cx
 -
 bx
 bx
-:
-bx
-cx
-:
 cx
 ay
 :
@@ -405,10 +401,6 @@ cy
 -
 by
 by
-:
-by
-cy
-:
 cy
 }
 }

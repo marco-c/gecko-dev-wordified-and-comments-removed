@@ -2283,12 +2283,6 @@ with_default_level
 target_element
 )
 size
-:
-size
-.
-into
-(
-)
 fallback
 :
 fallback

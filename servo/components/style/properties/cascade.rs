@@ -745,7 +745,6 @@ origin
 .
 guard
 (
-&
 self
 .
 guards
@@ -1511,9 +1510,8 @@ is_none
 &
 element
 .
-map_or
+is_some_and
 (
-false
 |
 e
 |
@@ -1821,7 +1819,6 @@ unvisited_properties
 .
 contains_any
 (
-&
 visited_dependent_props
 )
 {
@@ -1948,7 +1945,6 @@ longhand_declarations
 &
 mut
 shorthand_cache
-&
 properties_to_apply
 &
 mut
@@ -2632,8 +2628,8 @@ display
 permit_backplate
 "
 )
-{
-if
+&
+&
 bkg
 .
 0
@@ -2670,7 +2666,6 @@ None
 {
 return
 ;
-}
 }
 }
 _
@@ -3843,7 +3838,6 @@ substitute_variables
 declaration
 .
 id
-&
 context
 .
 builder
@@ -4536,8 +4530,6 @@ is_empty
 for
 declaration
 in
-&
-*
 longhand_declarations
 {
 let
@@ -5315,7 +5307,6 @@ usize
 ]
 )
 (
-&
 declaration
 context
 )
@@ -5821,7 +5812,6 @@ cache
 find
 (
 guards
-&
 context
 )
 else
@@ -6882,10 +6872,8 @@ scale_between_0_and_1
 =
 parent_script_percent_scale_down
 .
-unwrap_or_else
+unwrap_or
 (
-|
-|
 c
 )
 ;
@@ -6894,10 +6882,8 @@ scale_between_0_and_2
 =
 parent_script_script_percent_scale_down
 .
-unwrap_or_else
+unwrap_or
 (
-|
-|
 c
 *
 c
@@ -7025,11 +7011,7 @@ e
 s
 *
 =
-(
 c
-as
-f32
-)
 .
 powi
 (
@@ -7832,7 +7814,6 @@ stylist
 .
 get_custom_property_registration
 (
-&
 name
 )
 ;
@@ -8051,7 +8032,6 @@ parsed_value
 .
 to_computed_value
 (
-&
 context
 )
 ;
@@ -8704,7 +8684,6 @@ substitution_functions
 get_var
 (
 registration
-&
 name
 )
 ;
@@ -10203,7 +10182,6 @@ if
 let
 Some
 (
-ref
 resolved
 )
 =
@@ -10992,7 +10970,6 @@ if
 let
 Some
 (
-ref
 v
 )
 =

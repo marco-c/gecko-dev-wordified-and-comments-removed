@@ -95,8 +95,6 @@ Self
 RecalcStyleOnly
 {
 shared
-:
-shared
 }
 }
 }

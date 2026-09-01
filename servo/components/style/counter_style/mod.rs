@@ -1353,7 +1353,6 @@ descriptors
 }
 ;
 let
-mut
 iter
 =
 RuleBodyParser
@@ -1367,18 +1366,10 @@ mut
 parser
 )
 ;
-while
-let
-Some
-(
+for
 declaration
-)
-=
+in
 iter
-.
-next
-(
-)
 {
 if
 let
@@ -1795,8 +1786,6 @@ Self
 {
 Self
 {
-name
-:
 name
 generation
 :
@@ -4129,8 +4118,6 @@ _
 match_ignore_ascii_case
 !
 {
-&
-*
 ident
 "
 auto

@@ -559,10 +559,6 @@ else
 self
 .
 scope
-.
-clone
-(
-)
 }
 }
 }
@@ -600,10 +596,6 @@ scope
 computed
 .
 scope
-.
-clone
-(
-)
 }
 }
 }

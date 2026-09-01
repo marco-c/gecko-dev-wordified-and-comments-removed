@@ -1761,7 +1761,6 @@ if
 let
 Some
 (
-ref
 rules
 )
 =
@@ -4713,7 +4712,6 @@ new
 parent_stylesheet_contents
 .
 origin
-&
 url_data
 None
 ParsingMode
@@ -4728,8 +4726,6 @@ Cow
 :
 Borrowed
 (
-&
-*
 namespaces
 )
 None
@@ -4843,9 +4839,6 @@ parser
 TopLevelRuleParser
 {
 context
-shared_lock
-:
-&
 shared_lock
 loader
 state

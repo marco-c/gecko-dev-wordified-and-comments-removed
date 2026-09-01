@@ -123,9 +123,6 @@ SystemTime
 ;
 use
 toml
-;
-use
-toml
 :
 :
 value
@@ -180,8 +177,6 @@ const
 STRUCTS_FILE
 :
 &
-'
-static
 str
 =
 "
@@ -230,7 +225,6 @@ unwrap
 ;
 update_last_modified
 (
-&
 path
 )
 ;
@@ -1020,7 +1014,6 @@ add_headers_recursively
 file
 &
 mut
-*
 added_paths
 )
 ;
@@ -1471,10 +1464,6 @@ rep
 into_owned
 (
 )
-.
-into
-(
-)
 ;
 }
 let
@@ -1720,7 +1709,6 @@ key
 '
 static
 str
-mut
 func
 :
 F
@@ -1764,15 +1752,7 @@ iter
 fold
 (
 b
-|
-b
-item
-|
 func
-(
-b
-item
-)
 )
 )
 }

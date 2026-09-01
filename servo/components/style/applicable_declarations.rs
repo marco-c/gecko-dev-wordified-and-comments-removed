@@ -845,10 +845,8 @@ self
 PROXIMITY_INFINITY
 )
 .
-then
+then_some
 (
-|
-|
 self
 .
 0

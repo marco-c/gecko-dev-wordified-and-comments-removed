@@ -677,7 +677,6 @@ Self
 :
 contrast_ratio
 (
-&
 bg_color
 &
 AbsoluteColor
@@ -691,7 +690,6 @@ Self
 :
 contrast_ratio
 (
-&
 bg_color
 &
 AbsoluteColor

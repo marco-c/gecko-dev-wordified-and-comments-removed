@@ -1635,7 +1635,6 @@ pub
 fn
 parse
 (
-mut
 input
 :
 &
@@ -1690,8 +1689,6 @@ ComputedPropertyValue
 :
 parse
 (
-&
-mut
 input
 namespaces
 url_data
@@ -1768,8 +1765,6 @@ parser
 .
 parse
 (
-&
-mut
 input
 url_data
 allow_computationally_dependent
@@ -2179,9 +2174,9 @@ DEFAULT
 }
 ;
 let
-ref
 context
 =
+&
 ParserContext
 :
 :

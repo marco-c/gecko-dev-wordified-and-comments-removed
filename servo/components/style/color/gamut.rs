@@ -240,10 +240,6 @@ mut
 current_oklch
 =
 origin_oklch
-.
-clone
-(
-)
 ;
 let
 mut
@@ -415,11 +411,8 @@ let
 mut
 result
 =
+*
 self
-.
-clone
-(
-)
 ;
 result
 .

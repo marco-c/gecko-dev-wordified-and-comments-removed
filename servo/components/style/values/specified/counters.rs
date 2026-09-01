@@ -432,13 +432,11 @@ next
 {
 Ok
 (
-&
 Token
 :
 :
 Ident
 (
-ref
 ident
 )
 )
@@ -463,13 +461,11 @@ false
 )
 Ok
 (
-&
 Token
 :
 :
 Function
 (
-ref
 name
 )
 )

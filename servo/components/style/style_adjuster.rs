@@ -3162,9 +3162,8 @@ RubyTextContainer
 if
 element
 .
-map_or
+is_none_or
 (
-true
 |
 e
 |
@@ -3476,9 +3475,8 @@ is_none
 &
 element
 .
-map_or
+is_some_and
 (
-false
 |
 e
 |
@@ -3813,13 +3811,11 @@ is_html_select_element
 =
 element
 .
-map_or
+is_some_and
 (
-false
 |
 e
 |
-{
 e
 .
 is_html_element
@@ -3843,7 +3839,6 @@ atom
 select
 "
 )
-}
 )
 ;
 if
@@ -3957,9 +3952,8 @@ style
 .
 pseudo
 .
-map_or
+is_some_and
 (
-false
 |
 p
 |

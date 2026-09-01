@@ -317,11 +317,8 @@ Accumulate
 return
 Ok
 (
+*
 self
-.
-clone
-(
-)
 )
 ;
 }

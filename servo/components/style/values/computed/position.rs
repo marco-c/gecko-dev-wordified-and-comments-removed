@@ -1117,11 +1117,8 @@ let
 mut
 computed
 =
+*
 self
-.
-clone
-(
-)
 ;
 let
 pair_type
@@ -1312,11 +1309,8 @@ Self
 >
 Self
 {
+*
 computed
-.
-clone
-(
-)
 }
 }
 pub

@@ -1843,7 +1843,6 @@ Identifiers
 )
 ;
 &
-*
 MOZ_BULLET
 }
 #
@@ -3376,7 +3375,6 @@ value
 .
 push_str
 (
-&
 ident
 )
 ;
@@ -3601,8 +3599,6 @@ enumerate
 )
 {
 match
-&
-*
 f
 {
 SingleFontFamily
@@ -3846,9 +3842,8 @@ next
 (
 )
 .
-map_or
+is_none_or
 (
-true
 |
 f
 |

@@ -475,13 +475,11 @@ as_ref
 (
 )
 .
-map_or
+is_some_and
 (
-false
 |
 p
 |
-{
 !
 p
 .
@@ -501,7 +499,6 @@ Some
 (
 uniform_value
 )
-}
 )
 }
 )

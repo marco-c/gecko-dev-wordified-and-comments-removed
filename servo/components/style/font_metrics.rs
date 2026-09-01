@@ -214,10 +214,8 @@ self
 .
 cap_height
 .
-unwrap_or_else
+unwrap_or
 (
-|
-|
 self
 .
 ascent
@@ -241,10 +239,8 @@ self
 .
 ic_width
 .
-unwrap_or_else
+unwrap_or
 (
-|
-|
 reference_font_size
 )
 }

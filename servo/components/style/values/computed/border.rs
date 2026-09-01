@@ -583,13 +583,11 @@ Result
 )
 >
 {
-return
 Err
 (
 (
 )
 )
-;
 }
 }
 pub
@@ -640,13 +638,11 @@ Result
 )
 >
 {
-return
 Err
 (
 (
 )
 )
-;
 }
 }
 pub

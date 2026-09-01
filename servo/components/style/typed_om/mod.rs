@@ -115,7 +115,10 @@ use
 numeric_type
 :
 :
+{
+NumericBaseType
 NumericType
+}
 ;
 #
 [
@@ -2036,15 +2039,11 @@ dest
 }
 impl
 <
-'
-a
 T
 >
 ToTyped
 for
 &
-'
-a
 T
 where
 T

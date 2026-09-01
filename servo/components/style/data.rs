@@ -689,8 +689,6 @@ const
 EMPTY_PSEUDO_ARRAY
 :
 &
-'
-static
 EagerPseudoArrayInner
 =
 &
@@ -1366,15 +1364,14 @@ pseudos
 as_array
 (
 )
-{
-if
-let
-Some
+.
+iter
 (
-pseudo_style
 )
-=
-pseudo_style
+.
+flatten
+(
+)
 {
 usage
 |
@@ -1386,7 +1383,6 @@ pseudo_style
 flags
 )
 ;
-}
 }
 usage
 }
@@ -1817,8 +1813,6 @@ Self
 :
 Target
 {
-&
-*
 self
 .
 v
@@ -2123,9 +2117,7 @@ return
 true
 ;
 }
-return
 false
-;
 }
 impl
 ElementData
@@ -2134,8 +2126,6 @@ pub
 fn
 invalidate_style_if_needed
 <
-'
-a
 E
 :
 TElement
@@ -2161,8 +2151,6 @@ StackLimitChecker
 selector_caches
 :
 &
-'
-a
 mut
 SelectorCaches
 )
@@ -2855,9 +2843,7 @@ CascadeOnly
 )
 ;
 }
-return
 None
-;
 }
 #
 [

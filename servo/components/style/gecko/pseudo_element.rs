@@ -2783,7 +2783,6 @@ name
 if
 is_css2_pseudo_element
 (
-&
 name
 )
 =
@@ -2814,7 +2813,6 @@ PseudoElement
 :
 from_slice
 (
-&
 name
 )
 .
@@ -2915,7 +2913,6 @@ Cssom
 _
 =
 >
-return
 Err
 (
 ParseError

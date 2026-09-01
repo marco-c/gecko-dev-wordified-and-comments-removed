@@ -315,14 +315,11 @@ as_ref
 true
 )
 .
-or_else
+map_err
 (
 |
 err
 |
-{
-Err
-(
 StyleParseError
 :
 :
@@ -336,8 +333,6 @@ PropertySyntaxField
 err
 )
 )
-)
-}
 )
 ;
 }
@@ -2155,7 +2150,6 @@ byte_index
 (
 )
 ;
-return
 Ok
 (
 ComponentName
@@ -2166,7 +2160,6 @@ Ident
 name
 )
 )
-;
 }
 fn
 parse_multiplier

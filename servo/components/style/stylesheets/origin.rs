@@ -1,4 +1,13 @@
 use
+crate
+:
+:
+derives
+:
+:
+*
+;
+use
 std
 :
 :
@@ -692,7 +701,6 @@ PerOriginIter
 {
 data
 :
-&
 self
 cur
 :
@@ -722,7 +730,6 @@ PerOriginIter
 {
 data
 :
-&
 self
 cur
 :
