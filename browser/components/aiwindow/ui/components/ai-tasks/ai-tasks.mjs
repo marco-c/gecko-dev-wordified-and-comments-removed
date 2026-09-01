@@ -4366,7 +4366,6 @@ l10n
 attrs
 =
 "
-placeholder
 label
 "
 input
@@ -4453,6 +4452,7 @@ attrs
 "
 placeholder
 label
+description
 "
 input
 =
@@ -4567,7 +4567,6 @@ attrs
 "
 placeholder
 label
-description
 "
 data
 -
