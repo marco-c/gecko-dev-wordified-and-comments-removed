@@ -34084,15 +34084,6 @@ INLINE_SIZE
 )
 |
 |
-GetLineClampMaxLines
-(
-disp
--
->
-mWebkitLineClamp
-)
-|
-|
 disp
 -
 >
