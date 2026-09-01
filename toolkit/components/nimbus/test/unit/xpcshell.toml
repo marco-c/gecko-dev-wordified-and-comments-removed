@@ -150,6 +150,13 @@ logging
 ]
 [
 "
+test_bug2054546
+.
+js
+"
+]
+[
+"
 test_Enrollments
 .
 js
@@ -296,6 +303,13 @@ js
 [
 "
 test_RemoteSettingsExperimentLoader
+.
+js
+"
+]
+[
+"
+test_RemoteSettingsExperimentLoader_timer
 .
 js
 "
