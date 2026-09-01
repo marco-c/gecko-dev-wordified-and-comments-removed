@@ -124,6 +124,12 @@ ManualDealloc
 ChildImpl
 =
 "
+mozilla
+:
+:
+dom
+:
+:
 indexedDB
 :
 :

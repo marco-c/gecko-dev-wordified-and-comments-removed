@@ -186,6 +186,12 @@ FileSystemErrorResponse
 ChildImpl
 =
 "
+mozilla
+:
+:
+dom
+:
+:
 FileSystemTaskChildBase
 "
 ]

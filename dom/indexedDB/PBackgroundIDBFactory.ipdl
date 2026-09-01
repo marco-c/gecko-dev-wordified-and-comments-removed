@@ -177,6 +177,12 @@ DatabaseMetadata
 ChildImpl
 =
 "
+mozilla
+:
+:
+dom
+:
+:
 indexedDB
 :
 :

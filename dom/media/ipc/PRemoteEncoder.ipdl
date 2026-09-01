@@ -312,11 +312,17 @@ sides
 ChildImpl
 =
 "
+mozilla
+:
+:
 RemoteMediaDataEncoderChild
 "
 ParentImpl
 =
 "
+mozilla
+:
+:
 RemoteMediaDataEncoderParent
 "
 ]

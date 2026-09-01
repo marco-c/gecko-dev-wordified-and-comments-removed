@@ -88,10 +88,15 @@ namespace
 gmp
 {
 [
-ManualDealloc
 ChildImpl
 =
 "
+mozilla
+:
+:
+gmp
+:
+:
 GMPStorageChild
 "
 ParentImpl
