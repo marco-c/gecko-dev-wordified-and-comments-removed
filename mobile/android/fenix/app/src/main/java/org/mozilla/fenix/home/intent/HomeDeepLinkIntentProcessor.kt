@@ -664,6 +664,14 @@ protections_dashboard
 GlobalDirections
 .
 ProtectionsDashboard
+"
+settings_ip_protection
+"
+-
+>
+GlobalDirections
+.
+SettingsIpProtection
 else
 -
 >
