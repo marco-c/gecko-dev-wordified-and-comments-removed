@@ -237,6 +237,11 @@ mozilla
 :
 hal
 {
+[
+[
+maybe_unused
+]
+]
 static
 bool
 sInitialized
