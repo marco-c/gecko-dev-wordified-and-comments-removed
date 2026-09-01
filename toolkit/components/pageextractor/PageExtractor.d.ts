@@ -45,6 +45,10 @@ sourceUrl
 :
 string
 ;
+useSimpleText
+:
+boolean
+;
 }
 >
 ;
