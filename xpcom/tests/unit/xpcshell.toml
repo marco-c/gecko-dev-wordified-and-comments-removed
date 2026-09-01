@@ -43,6 +43,13 @@ js
 ]
 [
 "
+test_binarystream_systemprincipal
+.
+js
+"
+]
+[
+"
 test_bug121341
 .
 js
@@ -195,6 +202,13 @@ android
 [
 "
 test_bug1434856
+.
+js
+"
+]
+[
+"
+test_create_single
 .
 js
 "

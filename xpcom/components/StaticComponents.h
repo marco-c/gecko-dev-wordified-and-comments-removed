@@ -362,6 +362,9 @@ mProcessSelector
 bool
 mIsSerializable
 ;
+bool
+mIsSingleton
+;
 const
 nsID
 &
@@ -477,6 +480,16 @@ aInst
 )
 const
 ;
+bool
+IsSingleton
+(
+)
+const
+{
+return
+mIsSingleton
+;
+}
 }
 ;
 struct

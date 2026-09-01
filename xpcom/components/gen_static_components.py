@@ -2000,6 +2000,20 @@ else
 false
 "
 }
+          
+{
+"
+true
+"
+if
+self
+.
+singleton
+else
+"
+false
+"
+}
         
 }
 }

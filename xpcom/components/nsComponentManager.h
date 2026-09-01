@@ -910,6 +910,16 @@ aInst
 )
 ;
 }
+bool
+IsSingleton
+(
+)
+const
+{
+return
+false
+;
+}
 const
 nsCID
 mCID
