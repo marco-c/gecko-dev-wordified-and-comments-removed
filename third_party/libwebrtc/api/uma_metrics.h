@@ -366,6 +366,9 @@ kMsidStream
 kMsidTrack
 =
 37
+kIceOptionsRemoved
+=
+38
 kRtpHeaderExtensionRemoved
 =
 40
