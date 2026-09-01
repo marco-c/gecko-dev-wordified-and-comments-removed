@@ -838,6 +838,11 @@ DisplayOfflineSupportPage
 "
 OpenTRRPreferences
 "
+"
+SearchCTA
+:
+Search
+"
 ]
 RPMCheckAlternateHostAvailable
 :
@@ -1055,6 +1060,11 @@ RPMSendQuery
 Browser
 :
 AddTRRExcludedDomain
+"
+"
+SearchCTA
+:
+GetInfo
 "
 ]
 RPMGetIntPref
