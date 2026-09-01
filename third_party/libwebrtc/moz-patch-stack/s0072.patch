@@ -152,10 +152,10 @@ shared_screencast_stream
 .
 cc
 index
-8b9da5835d
+a818ce37c1
 .
 .
-45e8db9542
+44daf1fe03
 100644
 -
 -
@@ -279,10 +279,10 @@ webrtc
 namespace
 {
 -
-428
+432
 7
 +
-435
+439
 7
 void
 SharedScreenCastStreamPrivate
