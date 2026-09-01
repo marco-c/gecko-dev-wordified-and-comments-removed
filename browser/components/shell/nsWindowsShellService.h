@@ -66,12 +66,16 @@ virtual
 nsWindowsShellService
 (
 )
+=
+default
 ;
 public
 :
 nsWindowsShellService
 (
 )
+=
+default
 ;
 NS_DECL_ISUPPORTS
 NS_DECL_NSISHELLSERVICE
