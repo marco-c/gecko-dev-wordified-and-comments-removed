@@ -546,6 +546,7 @@ nt
 :
 :
 AutoExclusiveLock
+lock
 {
 sLock
 }
