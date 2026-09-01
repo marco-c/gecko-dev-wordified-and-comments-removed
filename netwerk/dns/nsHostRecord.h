@@ -379,6 +379,14 @@ RESOLVE_PRIORITY_MEDIUM
 DNS_PRIORITY_HIGH
 }
 ;
+nsresult
+GetFromStaleCache
+(
+bool
+*
+aResult
+)
+;
 protected
 :
 friend
