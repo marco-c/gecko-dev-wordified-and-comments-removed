@@ -149,6 +149,13 @@ js
 ]
 [
 "
+browser_testSharePanelCopyLink
+.
+js
+"
+]
+[
+"
 browser_testSharePanelScreenshot
 .
 js
