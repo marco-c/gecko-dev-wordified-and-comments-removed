@@ -3363,14 +3363,12 @@ appmenuitem
 -
 vpn
 -
-description4
+description5
 =
 Get
 extra
 protection
 across
-apps
-and
 devices
 #
 Shown
@@ -3399,9 +3397,9 @@ title
 -
 signed
 -
-in
+in1
 =
-Open
+Download
 {
 -
 mozilla
