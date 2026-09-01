@@ -21614,6 +21614,13 @@ ReleaseChannel
 releaseChannel
 )
 ;
+CrashReporter
+:
+:
+RecordPlatformAnnotations
+(
+)
+;
 #
 ifdef
 XP_WIN
@@ -27090,6 +27097,13 @@ NS_ENSURE_SUCCESS
 (
 rv
 NS_ERROR_FAILURE
+)
+;
+CrashReporter
+:
+:
+RecordXPCOMPlatformAnnotations
+(
 )
 ;
 nsCOMPtr
