@@ -96,6 +96,11 @@ viewBox
 800
 20
 "
+preserveAspectRatio
+=
+"
+none
+"
 >
 <
 defs
