@@ -386,6 +386,11 @@ DisplayConfigWindows
 h
 "
 "
+FontData
+.
+h
+"
+"
 FontPaletteCache
 .
 h
