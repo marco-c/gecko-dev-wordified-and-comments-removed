@@ -5315,13 +5315,6 @@ currentCSSZoom
 1
 "
 "
-customElementRegistry
-:
-CustomElementRegistry
-{
-}
-"
-"
 dataset
 :
 DOMStringMap
@@ -6414,11 +6407,6 @@ cookie
 "
 "
 currentScript
-:
-null
-"
-"
-customElementRegistry
 :
 null
 "
