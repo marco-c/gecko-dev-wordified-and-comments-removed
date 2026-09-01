@@ -1084,13 +1084,6 @@ js
 ]
 [
 "
-browser_smartformfill_tab_selector
-.
-js
-"
-]
-[
-"
 browser_smartwindow_abort_on_tab_close
 .
 js
