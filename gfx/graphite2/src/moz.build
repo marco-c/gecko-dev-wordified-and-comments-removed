@@ -153,6 +153,15 @@ h
 '
 ]
 if
+not
+CONFIG
+[
+'
+MOZ_WASM_SANDBOXING_GRAPHITE
+'
+]
+:
+if
 CONFIG
 [
 '
