@@ -1,6 +1,9 @@
 #
 libaom
 symbols
+#
+ifndef
+MOZ_SYSTEM_AV1
 aom_codec_av1_cx
 aom_codec_av1_dx
 aom_codec_build_config
@@ -59,6 +62,8 @@ av1_set_active_map
 av1_set_internal_size
 av1_set_reference_enc
 av1_use_as_reference
+#
+endif
 #
 libogg
 symbols
