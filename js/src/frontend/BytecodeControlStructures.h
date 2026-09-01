@@ -890,6 +890,13 @@ emitReturn
 (
 BytecodeOffset
 setRvalOffset
+=
+BytecodeOffset
+:
+:
+invalidOffset
+(
+)
 )
 ;
 }
