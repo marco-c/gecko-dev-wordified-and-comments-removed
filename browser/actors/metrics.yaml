@@ -148,20 +148,6 @@ of
 fullscreen
 transition
 timeout
-This
-metric
-was
-generated
-to
-correspond
-to
-the
-Legacy
-Telemetry
-exponential
-histogram
-FULLSCREEN_CHANGE_MS
-.
 time_unit
 :
 millisecond
@@ -217,6 +203,3 @@ org
 expires
 :
 never
-telemetry_mirror
-:
-FULLSCREEN_CHANGE_MS
