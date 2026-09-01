@@ -952,7 +952,7 @@ mixins
 :
 [
 '
-mac_26_x64
+mac_15_x64
 '
 '
 cores
@@ -1000,7 +1000,7 @@ mixins
 :
 [
 '
-mac_26_x64
+mac_15_x64
 '
 '
 cores
@@ -1048,7 +1048,7 @@ mixins
 :
 [
 '
-mac_26_x64
+mac_15_x64
 '
 '
 resultdb
@@ -2830,7 +2830,7 @@ mixins
 :
 [
 '
-mac_26_x64
+mac_15_x64
 '
 '
 resultdb
@@ -2889,7 +2889,7 @@ mixins
 :
 [
 '
-mac_26_x64
+mac_15_x64
 '
 '
 resultdb
@@ -2985,7 +2985,7 @@ mixins
 :
 [
 '
-mac_26_x64
+mac_15_x64
 '
 '
 resultdb
