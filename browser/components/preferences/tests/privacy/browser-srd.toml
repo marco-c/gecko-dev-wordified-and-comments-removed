@@ -98,6 +98,13 @@ os_integration
 "
 [
 "
+browser_container_select
+.
+js
+"
+]
+[
+"
 browser_containers_name_input
 .
 js
@@ -106,6 +113,13 @@ js
 [
 "
 browser_containers_reorder
+.
+js
+"
+]
+[
+"
+browser_containers_site_associations
 .
 js
 "

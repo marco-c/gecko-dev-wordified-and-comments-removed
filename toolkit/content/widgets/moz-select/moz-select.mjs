@@ -63,6 +63,7 @@ html
 ref
 classMap
 ifDefined
+styleMap
 }
 from
 "
@@ -2709,10 +2710,14 @@ iconSrc
 style
 =
 {
+styleMap
+(
 option
 .
 iconSrc
 ?
+{
+"
 -
 -
 select
@@ -2722,6 +2727,7 @@ item
 icon
 -
 url
+"
 :
 url
 (
@@ -2731,9 +2737,11 @@ option
 iconSrc
 }
 )
+}
 :
-"
-"
+{
+}
+)
 }
 >
 {
