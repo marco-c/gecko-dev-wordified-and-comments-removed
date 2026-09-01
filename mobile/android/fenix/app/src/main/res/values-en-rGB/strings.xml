@@ -4014,7 +4014,7 @@ Sign
 back
 in
 to
-synchroise
+synchronise
 <
 /
 string
@@ -16825,7 +16825,7 @@ preferences_customize_extension_collection
 "
 >
 Custom
-Extension
+extension
 collection
 <
 /
@@ -37397,7 +37397,7 @@ create_collection_select_all
 "
 >
 Select
-All
+all
 <
 /
 string
@@ -37434,7 +37434,7 @@ create_collection_deselect_all
 "
 >
 Deselect
-All
+all
 <
 /
 string
@@ -40846,11 +40846,7 @@ data
 when
 you
 select
-\
-"
 Quit
-\
-"
 from
 the
 main
@@ -43411,7 +43407,7 @@ preference_enhanced_tracking_protection_custom_tracking_content
 "
 >
 Tracking
-Content
+content
 <
 /
 string
@@ -44754,7 +44750,7 @@ preference_doh_title
 "
 >
 DNS
-Over
+over
 HTTPS
 <
 /
@@ -47687,7 +47683,7 @@ preferences_passwords_saved_logins_description_empty_learn_more_link_2
 Learn
 more
 about
-Sync
+sync
 <
 /
 string
@@ -51879,7 +51875,7 @@ ip_protection_locations_title
 >
 Choose
 VPN
-Location
+location
 <
 /
 string
@@ -57297,23 +57293,15 @@ Web
 address
 must
 contain
-\
-"
 https
 :
 /
 /
-\
-"
 or
-\
-"
 http
 :
 /
 /
-\
-"
 <
 /
 string
@@ -57950,7 +57938,7 @@ homepage_shortcuts_add_website_title
 Enter
 a
 Web
-Site
+site
 URL
 <
 /
@@ -67003,7 +66991,7 @@ UnusedResources
 "
 >
 Very
-Satisfied
+satisfied
 <
 /
 string
@@ -67128,7 +67116,7 @@ UnusedResources
 "
 >
 Very
-Dissatisfied
+dissatisfied
 <
 /
 string
