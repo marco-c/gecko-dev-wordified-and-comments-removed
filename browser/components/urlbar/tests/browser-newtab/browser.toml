@@ -84,6 +84,13 @@ debug
 ]
 [
 "
+browser_blur
+.
+js
+"
+]
+[
+"
 browser_escape
 .
 js
