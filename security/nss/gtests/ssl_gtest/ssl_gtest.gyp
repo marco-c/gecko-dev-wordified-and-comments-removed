@@ -359,6 +359,11 @@ tls_hkdf_unittest
 cc
 '
 '
+tls_mldsa_unittest
+.
+cc
+'
+'
 tls_mlkem_unittest
 .
 cc

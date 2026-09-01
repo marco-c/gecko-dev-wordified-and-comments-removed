@@ -3820,9 +3820,6 @@ CKF_KEM
 }
 PR_TRUE
 }
-#
-ifdef
-NSS_ENABLE_ML_DSA
 {
 CKM_ML_DSA_KEY_PAIR_GEN
 {
@@ -3841,8 +3838,6 @@ CKF_SN_VR
 }
 PR_TRUE
 }
-#
-endif
 }
 ;
 static

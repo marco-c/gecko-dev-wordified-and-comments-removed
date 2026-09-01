@@ -135,10 +135,6 @@ rt
 -
 dev
 \
-clang
--
-format
-\
 cmake
 \
 libelf

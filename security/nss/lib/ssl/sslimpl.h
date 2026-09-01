@@ -1026,7 +1026,7 @@ MAX_DTLS_SRTP_CIPHER_SUITES
 #
 define
 MAX_SIGNATURE_SCHEMES
-18
+21
 #
 define
 MAX_SUPPORTED_CERTIFICATE_COMPRESSION_ALGS
@@ -5989,6 +5989,8 @@ sslSocket
 *
 ss
 PRUint16
+maxVersion
+PRUint16
 minVersion
 PRBool
 forCert
@@ -6026,6 +6028,8 @@ const
 sslSocket
 *
 ss
+PRUint16
+maxVersion
 PRUint16
 minVersion
 PRBool

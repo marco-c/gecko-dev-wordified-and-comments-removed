@@ -6716,6 +6716,12 @@ ss
 vrange
 .
 max
+ss
+-
+>
+vrange
+.
+max
 PR_TRUE
 PR_FALSE
 MAX_SIGNATURE_SCHEMES
