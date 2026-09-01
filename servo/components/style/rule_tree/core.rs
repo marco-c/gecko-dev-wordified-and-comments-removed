@@ -898,6 +898,8 @@ let
 mut
 node
 =
+unsafe
+{
 UnsafeBox
 :
 :
@@ -905,6 +907,7 @@ from_raw
 (
 head
 )
+}
 ;
 debug_assert
 !
@@ -973,6 +976,8 @@ Release
 =
 1
 {
+unsafe
+{
 RuleNode
 :
 :
@@ -992,6 +997,7 @@ mut
 node
 )
 ;
+}
 }
 }
 }
@@ -1094,6 +1100,7 @@ c_char
 c_void
 }
 ;
+unsafe
 extern
 "
 C
@@ -1619,6 +1626,8 @@ let
 mut
 this
 =
+unsafe
+{
 UnsafeBox
 :
 :
@@ -1626,6 +1635,7 @@ clone
 (
 this
 )
+}
 ;
 loop
 {
@@ -1882,6 +1892,8 @@ Acquire
 let
 parent
 =
+unsafe
+{
 UnsafeBox
 :
 :
@@ -1897,6 +1909,7 @@ parent
 take
 (
 )
+}
 ;
 log_drop
 (
@@ -1905,6 +1918,8 @@ log_drop
 this
 )
 ;
+unsafe
+{
 UnsafeBox
 :
 :
@@ -1914,6 +1929,7 @@ drop
 mut
 this
 )
+}
 ;
 if
 let
@@ -1926,6 +1942,8 @@ parent
 {
 this
 =
+unsafe
+{
 UnsafeBox
 :
 :
@@ -1936,6 +1954,7 @@ parent
 .
 p
 )
+}
 ;
 mem
 :
@@ -1993,6 +2012,8 @@ is_some
 (
 )
 {
+unsafe
+{
 RuleNode
 :
 :
@@ -2002,6 +2023,7 @@ pretend_to_be_on_free_list
 this
 )
 ;
+}
 }
 continue
 ;
@@ -2430,6 +2452,8 @@ self
 >
 WeakRuleNode
 {
+unsafe
+{
 WeakRuleNode
 {
 p
@@ -2444,6 +2468,7 @@ self
 .
 p
 )
+}
 }
 }
 pub
@@ -3540,6 +3565,8 @@ is_null
 {
 }
 }
+unsafe
+{
 StrongRuleNode
 :
 :
@@ -3556,6 +3583,7 @@ self
 p
 )
 )
+}
 }
 }
 impl

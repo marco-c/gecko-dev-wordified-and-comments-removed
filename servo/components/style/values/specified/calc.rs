@@ -3264,8 +3264,6 @@ Leaf
 :
 Length
 (
-ref
-mut
 l
 )
 =
@@ -3308,8 +3306,6 @@ Leaf
 :
 Resolution
 (
-ref
-mut
 r
 )
 =
@@ -3342,8 +3338,6 @@ Leaf
 :
 Time
 (
-ref
-mut
 t
 )
 =
@@ -3376,8 +3370,6 @@ Leaf
 :
 Angle
 (
-ref
-mut
 a
 )
 =

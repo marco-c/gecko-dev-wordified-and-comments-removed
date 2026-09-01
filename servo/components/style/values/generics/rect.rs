@@ -284,10 +284,6 @@ input
 ?
 ;
 let
-second
-=
-if
-let
 Ok
 (
 second
@@ -306,9 +302,6 @@ context
 i
 )
 )
-{
-second
-}
 else
 {
 return
@@ -341,10 +334,6 @@ first
 }
 ;
 let
-third
-=
-if
-let
 Ok
 (
 third
@@ -363,9 +352,6 @@ context
 i
 )
 )
-{
-third
-}
 else
 {
 return
@@ -394,10 +380,6 @@ second
 }
 ;
 let
-fourth
-=
-if
-let
 Ok
 (
 fourth
@@ -416,9 +398,6 @@ context
 i
 )
 )
-{
-fourth
-}
 else
 {
 return

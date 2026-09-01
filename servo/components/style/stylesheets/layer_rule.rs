@@ -552,7 +552,6 @@ Token
 :
 Ident
 (
-ref
 ident
 )
 =

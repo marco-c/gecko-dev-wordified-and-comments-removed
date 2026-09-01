@@ -146,7 +146,10 @@ ident
 {
 #
 [
+unsafe
+(
 no_mangle
+)
 ]
 pub
 unsafe
@@ -163,6 +166,8 @@ obj
 const
 ty
 )
+{
+unsafe
 {
 std
 :
@@ -182,9 +187,13 @@ obj
 )
 ;
 }
+}
 #
 [
+unsafe
+(
 no_mangle
+)
 ]
 pub
 unsafe
@@ -202,6 +211,8 @@ const
 ty
 )
 {
+unsafe
+{
 let
 _
 =
@@ -213,6 +224,7 @@ from_raw
 obj
 )
 ;
+}
 }
 }
 ;

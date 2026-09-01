@@ -108,6 +108,8 @@ T
 >
 Self
 {
+unsafe
+{
 Self
 {
 inner
@@ -127,6 +129,7 @@ ptr
 )
 }
 }
+}
 pub
 (
 super
@@ -144,6 +147,8 @@ Self
 >
 Self
 {
+unsafe
+{
 Self
 {
 inner
@@ -158,6 +163,7 @@ this
 .
 inner
 )
+}
 }
 }
 pub
@@ -201,6 +207,8 @@ mut
 Self
 )
 {
+unsafe
+{
 ManuallyDrop
 :
 :
@@ -212,6 +220,7 @@ this
 .
 inner
 )
+}
 }
 }
 impl

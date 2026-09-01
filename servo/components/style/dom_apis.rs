@@ -1887,7 +1887,6 @@ Component
 :
 AttributeInNoNamespace
 {
-ref
 local_name
 .
 .
@@ -1904,9 +1903,7 @@ Component
 :
 AttributeInNoNamespaceExists
 {
-ref
 local_name
-ref
 local_name_lower
 .
 .
@@ -1922,7 +1919,6 @@ Component
 :
 AttributeOther
 (
-ref
 attr
 )
 =
@@ -2012,7 +2008,6 @@ Component
 :
 ID
 (
-ref
 id
 )
 =
@@ -2023,11 +2018,8 @@ Component
 :
 AttributeInNoNamespace
 {
-ref
 operator
-ref
 local_name
-ref
 value
 .
 .

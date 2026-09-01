@@ -1132,7 +1132,6 @@ StyleQuery
 :
 GeneralEnclosed
 (
-ref
 s
 )
 =
@@ -4353,7 +4352,6 @@ Self
 :
 Feature
 (
-ref
 f
 )
 =

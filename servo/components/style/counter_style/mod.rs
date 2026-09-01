@@ -355,7 +355,6 @@ Name
 (
 CustomIdent
 (
-ref
 name
 )
 )
@@ -592,7 +591,6 @@ Token
 :
 QuotedString
 (
-ref
 string
 )
 if
@@ -634,7 +632,6 @@ Token
 :
 Ident
 (
-ref
 ident
 )
 =
@@ -691,7 +688,6 @@ Token
 :
 Function
 (
-ref
 name
 )
 if
@@ -2676,7 +2672,6 @@ System
 :
 Extends
 (
-ref
 other
 )
 =
@@ -3169,7 +3164,6 @@ CounterBound
 :
 Integer
 (
-ref
 s
 )
 CounterBound
@@ -3177,7 +3171,6 @@ CounterBound
 :
 Integer
 (
-ref
 e
 )
 )

@@ -2067,7 +2067,6 @@ Component
 :
 Is
 (
-ref
 list
 )
 |
@@ -2076,7 +2075,6 @@ Component
 :
 Where
 (
-ref
 list
 )
 =
@@ -2385,7 +2383,6 @@ Component
 :
 Is
 (
-ref
 list
 )
 |
@@ -2394,7 +2391,6 @@ Component
 :
 Where
 (
-ref
 list
 )
 |
@@ -2403,7 +2399,6 @@ Component
 :
 Negation
 (
-ref
 list
 )
 =

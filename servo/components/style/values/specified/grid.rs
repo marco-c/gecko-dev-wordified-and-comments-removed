@@ -1109,9 +1109,9 @@ push
 current_names
 )
 ;
+continue
+;
 }
-else
-{
 if
 values
 .
@@ -1144,7 +1144,6 @@ current_names
 ;
 break
 ;
-}
 }
 let
 repeat
@@ -1371,8 +1370,9 @@ track_size
 )
 )
 ;
+continue
+;
 }
-else
 if
 let
 Ok
@@ -1533,9 +1533,9 @@ repeat
 )
 )
 ;
+continue
+;
 }
-else
-{
 if
 values
 .
@@ -1579,7 +1579,6 @@ into
 ;
 break
 ;
-}
 }
 Ok
 (

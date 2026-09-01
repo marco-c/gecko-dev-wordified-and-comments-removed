@@ -5304,6 +5304,8 @@ is_logical
 )
 )
 ;
+unsafe
+{
 (
 CASCADE_PROPERTY
 [
@@ -5318,6 +5320,7 @@ declaration
 context
 )
 ;
+}
 }
 fn
 compute_visited_style_if_needed

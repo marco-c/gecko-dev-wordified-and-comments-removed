@@ -831,6 +831,8 @@ static_assert
 (
 )
 {
+unsafe
+{
 mem
 :
 :
@@ -855,6 +857,7 @@ mut
 _
 )
 ;
+}
 }
 mem
 :
@@ -1498,6 +1501,8 @@ static_assert
 (
 )
 {
+unsafe
+{
 mem
 :
 :
@@ -1522,6 +1527,7 @@ const
 _
 )
 ;
+}
 }
 unsafe
 {
@@ -4939,12 +4945,15 @@ change_hint
 debug_assert
 !
 (
+unsafe
+{
 bindings
 :
 :
 Gecko_IsMainThread
 (
 )
+}
 )
 ;
 debug_assert
@@ -5013,6 +5022,8 @@ return
 ;
 }
 ;
+unsafe
+{
 if
 restyle_hint
 .
@@ -5043,6 +5054,7 @@ self
 0
 )
 ;
+}
 }
 data
 .
@@ -6855,6 +6867,8 @@ static_assert
 (
 )
 {
+unsafe
+{
 mem
 :
 :
@@ -6879,6 +6893,7 @@ mut
 _
 )
 ;
+}
 }
 mem
 :
@@ -8000,12 +8015,15 @@ unset_dirty_descendants
 self
 )
 {
+unsafe
+{
 self
 .
 unset_flags
 (
 ELEMENT_HAS_DIRTY_DESCENDANTS_FOR_SERVO
 )
+}
 }
 #
 [
@@ -8055,12 +8073,15 @@ unset_animation_only_dirty_descendants
 self
 )
 {
+unsafe
+{
 self
 .
 unset_flags
 (
 ELEMENT_HAS_ANIMATION_ONLY_DIRTY_DESCENDANTS_FOR_SERVO
 )
+}
 }
 unsafe
 fn
@@ -8069,6 +8090,8 @@ clear_descendant_bits
 &
 self
 )
+{
+unsafe
 {
 self
 .
@@ -8080,6 +8103,7 @@ ELEMENT_HAS_ANIMATION_ONLY_DIRTY_DESCENDANTS_FOR_SERVO
 |
 NODE_DESCENDANTS_NEED_FRAMES
 )
+}
 }
 fn
 is_visited_link
@@ -8401,6 +8425,8 @@ get
 (
 )
 ;
+unsafe
+{
 self
 .
 unset_flags
@@ -8475,6 +8501,7 @@ null_mut
 )
 )
 ;
+}
 }
 }
 #

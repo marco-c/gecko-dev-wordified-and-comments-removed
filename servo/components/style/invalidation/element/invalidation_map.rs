@@ -11,6 +11,15 @@ use
 crate
 :
 :
+derives
+:
+:
+*
+;
+use
+crate
+:
+:
 selector_map
 :
 :
@@ -5359,7 +5368,6 @@ Component
 :
 LocalName
 (
-ref
 name
 )
 =

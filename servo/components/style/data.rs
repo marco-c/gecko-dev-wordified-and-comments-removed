@@ -1201,7 +1201,6 @@ if
 let
 Some
 (
-ref
 pseudo_style
 )
 =
@@ -1372,7 +1371,6 @@ if
 let
 Some
 (
-ref
 pseudo_style
 )
 =

@@ -181,7 +181,6 @@ Token
 :
 Ident
 (
-ref
 ident
 )
 if
@@ -209,7 +208,6 @@ Token
 :
 Ident
 (
-ref
 ident
 )
 if

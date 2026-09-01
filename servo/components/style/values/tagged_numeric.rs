@@ -456,6 +456,8 @@ is_boxed
 )
 )
 ;
+unsafe
+{
 #
 [
 cfg
@@ -526,6 +528,7 @@ as
 *
 mut
 _
+}
 }
 }
 pub

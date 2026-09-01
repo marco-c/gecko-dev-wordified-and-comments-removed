@@ -962,6 +962,8 @@ a
 mut
 Self
 {
+unsafe
+{
 &
 mut
 *
@@ -972,6 +974,7 @@ as
 mut
 WeakAtom
 )
+}
 }
 #
 [
@@ -2043,6 +2046,8 @@ is_null
 )
 )
 ;
+unsafe
+{
 if
 !
 WeakAtom
@@ -2079,6 +2084,7 @@ nsStaticAtom
 )
 }
 }
+}
 #
 [
 inline
@@ -2100,6 +2106,8 @@ NonZeroUsize
 let
 index
 =
+unsafe
+{
 ptr
 .
 offset_from
@@ -2116,6 +2124,7 @@ as
 const
 _
 )
+}
 ;
 debug_assert
 !
@@ -2156,6 +2165,8 @@ index
 "
 )
 ;
+unsafe
+{
 NonZeroUsize
 :
 :
@@ -2174,6 +2185,7 @@ usize
 |
 1
 )
+}
 }
 impl
 Atom
@@ -2241,6 +2253,8 @@ R
 let
 atom
 =
+unsafe
+{
 Atom
 (
 make_handle
@@ -2252,6 +2266,7 @@ mut
 nsAtom
 )
 )
+}
 ;
 let
 ret
@@ -2304,6 +2319,8 @@ STATIC_ATOM_COUNT
 ;
 Atom
 (
+unsafe
+{
 NonZeroUsize
 :
 :
@@ -2322,6 +2339,7 @@ usize
 |
 1
 )
+}
 )
 }
 #
@@ -2351,10 +2369,13 @@ atom
 =
 Atom
 (
+unsafe
+{
 make_handle
 (
 ptr
 )
+}
 )
 ;
 if
@@ -2365,10 +2386,13 @@ is_static
 (
 )
 {
+unsafe
+{
 Gecko_AddRefAtom
 (
 ptr
 )
+}
 ;
 }
 atom
@@ -2405,10 +2429,13 @@ is_null
 ;
 Atom
 (
+unsafe
+{
 make_handle
 (
 ptr
 )
+}
 )
 }
 #

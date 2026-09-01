@@ -2501,7 +2501,6 @@ ComponentName
 :
 Ident
 (
-ref
 name
 )
 =
