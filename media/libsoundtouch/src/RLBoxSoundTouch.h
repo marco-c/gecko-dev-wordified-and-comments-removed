@@ -288,6 +288,12 @@ aMaxSamples
 ;
 RLBOX_SOUNDTOUCH_API
 void
+clear
+(
+)
+;
+RLBOX_SOUNDTOUCH_API
+void
 flush
 (
 )
