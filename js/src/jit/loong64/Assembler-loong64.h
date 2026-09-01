@@ -5977,6 +5977,12 @@ size
 const
 ;
 size_t
+readableSize
+(
+)
+const
+;
+size_t
 jumpRelocationTableBytes
 (
 )
