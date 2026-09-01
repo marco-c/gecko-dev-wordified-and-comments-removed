@@ -418,6 +418,13 @@ py
 ]
 [
 "
+test_splitview_hidden
+.
+py
+"
+]
+[
+"
 test_splitview_restore
 .
 py
