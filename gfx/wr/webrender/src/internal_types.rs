@@ -169,15 +169,6 @@ use
 std
 :
 :
-{
-usize
-i32
-}
-;
-use
-std
-:
-:
 collections
 :
 :
@@ -1028,7 +1019,7 @@ draw_index
 :
 PrimitiveDrawIndex
 pub
-local_rect
+pattern_rect
 :
 LayoutRect
 }
@@ -1054,7 +1045,7 @@ PlaneSplitAnchor
 {
 spatial_node_index
 draw_index
-local_rect
+pattern_rect
 :
 LayoutRect
 :
@@ -1092,7 +1083,7 @@ PrimitiveDrawIndex
 :
 :
 INVALID
-local_rect
+pattern_rect
 :
 LayoutRect
 :

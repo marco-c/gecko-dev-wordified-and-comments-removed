@@ -17856,9 +17856,7 @@ unwrap_or
 u32
 :
 :
-max_value
-(
-)
+MAX
 )
 }
 #

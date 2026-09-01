@@ -2,10 +2,7 @@ use
 std
 :
 :
-{
 fmt
-u32
-}
 ;
 use
 std

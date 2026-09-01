@@ -546,9 +546,6 @@ let
 mut
 selected_index
 =
-std
-:
-:
 usize
 :
 :
@@ -728,9 +725,6 @@ Self
 Self
 {
 selected_index
-:
-std
-:
 :
 usize
 :

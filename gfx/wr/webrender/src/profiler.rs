@@ -134,12 +134,6 @@ use
 std
 :
 :
-f32
-;
-use
-std
-:
-:
 ops
 :
 :
@@ -10836,9 +10830,6 @@ clone
 )
 value
 :
-std
-:
-:
 f64
 :
 :
@@ -11381,9 +11372,6 @@ self
 .
 value
 =
-std
-:
-:
 f64
 :
 :
@@ -11459,9 +11447,6 @@ self
 .
 next_max
 =
-std
-:
-:
 f64
 :
 :

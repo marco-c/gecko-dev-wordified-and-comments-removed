@@ -47,12 +47,6 @@ use
 std
 :
 :
-isize
-;
-use
-std
-:
-:
 marker
 :
 :
@@ -595,9 +589,6 @@ assert
 start
 <
 =
-std
-:
-:
 isize
 :
 :

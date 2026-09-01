@@ -179,17 +179,6 @@ resource_cache
 ImageRequest
 ;
 use
-std
-:
-:
-{
-usize
-f32
-i32
-u32
-}
-;
-use
 crate
 :
 :

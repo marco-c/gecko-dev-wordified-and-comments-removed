@@ -38,12 +38,6 @@ io
 :
 Write
 ;
-use
-std
-:
-:
-u8
-;
 fn
 read_tls_vec
 <

@@ -282,9 +282,6 @@ MAX_TEXTURE_EXTENT
 :
 u32
 =
-std
-:
-:
 i16
 :
 :
