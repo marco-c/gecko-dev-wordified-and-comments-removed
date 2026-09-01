@@ -55928,14 +55928,6 @@ parentInner
 ;
 if
 (
-StaticPrefs
-:
-:
-privacy_partition_serviceWorkers
-(
-)
-&
-&
 parentInner
 )
 {
