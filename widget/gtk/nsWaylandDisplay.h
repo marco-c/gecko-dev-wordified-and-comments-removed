@@ -1253,6 +1253,11 @@ int
 aTF
 )
 ;
+bool
+IsSetMDCVSupported
+(
+)
+;
 ~
 nsWaylandDisplay
 (
