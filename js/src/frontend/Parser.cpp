@@ -7853,6 +7853,12 @@ BindingKind
 :
 Const
 :
+case
+BindingKind
+:
+:
+Using
+:
 if
 (
 allBindingsClosedOver

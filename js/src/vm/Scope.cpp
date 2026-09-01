@@ -666,6 +666,12 @@ case
 BindingKind
 :
 :
+Using
+:
+case
+BindingKind
+:
+:
 NamedLambdaCallee
 :
 break
