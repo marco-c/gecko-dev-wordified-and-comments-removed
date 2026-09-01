@@ -1076,6 +1076,7 @@ a
 (
 Box
 <
+dyn
 Fn
 (
 &
@@ -1159,6 +1160,7 @@ MethodSync
 (
 Box
 <
+dyn
 Fn
 (
 &

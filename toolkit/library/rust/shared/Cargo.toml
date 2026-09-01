@@ -571,7 +571,7 @@ audioipc
 rev
 =
 "
-88fe860
+d3c9825
 "
 optional
 =
@@ -600,7 +600,7 @@ audioipc
 rev
 =
 "
-88fe860
+d3c9825
 "
 optional
 =
@@ -1034,7 +1034,7 @@ version
 "
 0
 .
-35
+37
 "
 default
 -

@@ -112,9 +112,9 @@ version
 "
 0
 .
-35
+37
 .
-1
+0
 "
 authors
 =
@@ -196,7 +196,7 @@ github
 .
 com
 /
-padenot
+mozilla
 /
 audio_thread_priority
 "
@@ -424,9 +424,9 @@ version
 "
 0
 .
-6
+9
 .
-4
+12
 "
 optional
 =
