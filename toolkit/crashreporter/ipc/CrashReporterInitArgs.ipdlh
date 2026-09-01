@@ -56,6 +56,9 @@ MPL
 0
 /
 .
+[
+MoveOnly
+]
 using
 mozilla
 :
