@@ -2556,11 +2556,10 @@ value
 0
 )
 {
-as_ori
+ma_move
 (
 rd
 rj
-0
 )
 ;
 return
@@ -2682,11 +2681,10 @@ value
 0
 )
 {
-as_ori
+ma_move
 (
 rd
 rj
-0
 )
 ;
 return
