@@ -5648,6 +5648,11 @@ TextureFlags
 aFlags
 )
 {
+MOZ_ASSERT
+(
+mSurfaceAllocator
+)
+;
 mTextureHost
 =
 TextureHost
