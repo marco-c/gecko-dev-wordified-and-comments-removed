@@ -553,7 +553,6 @@ stride
 )
 {
 }
-;
 virtual
 int32_t
 GetStride
@@ -564,7 +563,6 @@ return
 0
 ;
 }
-;
 virtual
 void
 SetTrackingId
