@@ -132,6 +132,13 @@ string
 sprop_parameter_sets
 )
 ;
+void
+SetH264IdrOnlyKeyframesAllowed
+(
+bool
+allowed
+)
+;
 private
 :
 struct
@@ -355,9 +362,10 @@ Packet
 packet
 )
 ;
-const
 bool
 h264_idr_only_keyframes_allowed_
+=
+false
 ;
 std
 :
