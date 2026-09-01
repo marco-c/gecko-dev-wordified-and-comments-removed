@@ -2407,6 +2407,10 @@ searchbar
 type
 {
 "
+newtab_searchbar
+"
+|
+"
 searchbar
 "
 |
@@ -2974,6 +2978,10 @@ sapName
 *
 type
 {
+"
+newtab_searchbar
+"
+|
 "
 searchbar
 "

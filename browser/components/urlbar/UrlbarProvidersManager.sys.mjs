@@ -569,6 +569,9 @@ supportedSAPs
 :
 [
 "
+newtab_searchbar
+"
+"
 searchbar
 "
 "
@@ -607,6 +610,9 @@ mjs
 supportedSAPs
 :
 [
+"
+newtab_searchbar
+"
 "
 smartbar
 "
@@ -682,6 +688,9 @@ mjs
 supportedSAPs
 :
 [
+"
+newtab_searchbar
+"
 "
 searchbar
 "
@@ -800,6 +809,9 @@ supportedSAPs
 :
 [
 "
+newtab_searchbar
+"
+"
 searchbar
 "
 "
@@ -841,6 +853,9 @@ mjs
 supportedSAPs
 :
 [
+"
+newtab_searchbar
+"
 "
 smartbar
 "
@@ -1070,6 +1085,9 @@ supportedSAPs
 :
 [
 "
+newtab_searchbar
+"
+"
 smartbar
 "
 "
@@ -1144,6 +1162,9 @@ mjs
 supportedSAPs
 :
 [
+"
+newtab_searchbar
+"
 "
 searchbar
 "
@@ -1334,6 +1355,9 @@ supportedSAPs
 :
 [
 "
+newtab_searchbar
+"
+"
 searchbar
 "
 "
@@ -1451,6 +1475,9 @@ supportedSAPs
 :
 [
 "
+newtab_searchbar
+"
+"
 searchbar
 "
 "
@@ -1525,6 +1552,9 @@ mjs
 supportedSAPs
 :
 [
+"
+newtab_searchbar
+"
 "
 searchbar
 "

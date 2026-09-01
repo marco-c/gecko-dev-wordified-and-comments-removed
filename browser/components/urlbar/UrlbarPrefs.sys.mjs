@@ -9397,6 +9397,11 @@ case
 searchbar
 "
 :
+case
+"
+newtab_searchbar
+"
+:
 {
 /
 /
