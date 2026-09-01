@@ -7154,13 +7154,6 @@ pub
 color
 :
 ColorF
-pub
-sub_rect
-:
-Option
-<
-DeviceIntRect
->
 }
 #
 [
