@@ -2572,6 +2572,11 @@ title
 args
 .
 title
+url
+=
+args
+.
+url
 numberOfTrackersBlocked
 =
 numberOfTrackersBlocked
@@ -2647,6 +2652,11 @@ title
 args
 .
 title
+url
+=
+args
+.
+url
 detailedTrackerCategory
 =
 detailedTrackerCategory
