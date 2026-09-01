@@ -1548,6 +1548,10 @@ jit
 MacroAssembler
 &
 masm
+const
+FuncType
+&
+funcType
 Offsets
 *
 offsets
