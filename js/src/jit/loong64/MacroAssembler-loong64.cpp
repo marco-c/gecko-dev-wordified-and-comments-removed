@@ -34277,10 +34277,11 @@ wasmMarkCallAsSlow
 (
 )
 {
-mov
+as_ori
 (
 ra
 ra
+0
 )
 ;
 }
