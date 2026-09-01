@@ -50664,9 +50664,10 @@ timer
 .
 initWithCallback
 (
-function
 (
 )
+=
+>
 {
 if
 (
