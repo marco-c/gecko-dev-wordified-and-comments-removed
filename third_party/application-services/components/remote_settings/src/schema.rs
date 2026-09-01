@@ -1240,7 +1240,7 @@ mozilla
 .
 com
 /
-v1
+v2
 /
 buckets
 /
@@ -1325,7 +1325,7 @@ mozilla
 .
 com
 /
-v1
+v2
 /
 buckets
 /
@@ -1404,7 +1404,7 @@ mozilla
 .
 com
 /
-v1
+v2
 /
 buckets
 /

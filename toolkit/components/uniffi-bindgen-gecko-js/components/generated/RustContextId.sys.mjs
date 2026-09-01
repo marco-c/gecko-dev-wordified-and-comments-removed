@@ -724,7 +724,7 @@ UniFFIScaffolding
 .
 callSync
 (
-51
+71
 /
 /
 uniffi_context_id_fn_constructor_contextidcomponent_new
@@ -792,7 +792,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-52
+72
 /
 /
 uniffi_context_id_fn_method_contextidcomponent_force_rotation
@@ -872,7 +872,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-53
+73
 /
 /
 uniffi_context_id_fn_method_contextidcomponent_request
@@ -947,7 +947,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-54
+74
 /
 /
 uniffi_context_id_fn_method_contextidcomponent_unset_callback
@@ -1113,7 +1113,7 @@ dataStream
 .
 readPointer
 (
-6
+7
 )
 )
 ;
@@ -1129,7 +1129,7 @@ dataStream
 .
 writePointer
 (
-6
+7
 this
 .
 lower

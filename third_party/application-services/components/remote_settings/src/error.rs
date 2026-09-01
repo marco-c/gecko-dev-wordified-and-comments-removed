@@ -13,6 +13,7 @@ error_support
 :
 :
 {
+breadcrumb
 debug
 error
 info

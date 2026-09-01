@@ -5,6 +5,8 @@ name
 =
 "
 nss
+-
+as
 "
 version
 =
@@ -149,5 +151,18 @@ error
 support
 /
 backtrace
+"
+]
+mozbuild
+-
+rustlib
+=
+[
+"
+nss_sys
+/
+mozbuild
+-
+rustlib
 "
 ]

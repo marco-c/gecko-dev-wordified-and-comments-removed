@@ -16,6 +16,17 @@ rust_2018_idioms
 ]
 #
 [
+cfg
+(
+feature
+=
+"
+ohttp
+"
+)
+]
+#
+[
 allow
 (
 unused_extern_crates

@@ -18,7 +18,7 @@ apply
 from
 :
 "
-appServicesRootDir
+publishDir
 /
 publish
 .
@@ -99,4 +99,13 @@ ext
 .
 configurePublish
 (
+appServicesGroupId
+project
+.
+name
+project
+.
+ext
+.
+description
 )

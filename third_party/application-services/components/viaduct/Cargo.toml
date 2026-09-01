@@ -334,6 +334,9 @@ features
 bundled
 "
 ]
+optional
+=
+true
 }
 [
 features
@@ -354,5 +357,10 @@ bhttp
 dep
 :
 ohttp
+"
+"
+dep
+:
+rusqlite
 "
 ]

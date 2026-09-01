@@ -23,4 +23,11 @@ dyn
 Any
 )
 ;
+fn
+shutdown
+(
+&
+self
+)
+;
 }

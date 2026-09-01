@@ -24771,6 +24771,9 @@ places
 push
 "
 "
+rc_crypto
+"
+"
 relay
 "
 "
@@ -30212,6 +30215,13 @@ version
 .
 0
 "
+dependencies
+=
+[
+"
+mozbuild
+"
+]
 [
 [
 package

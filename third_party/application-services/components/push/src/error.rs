@@ -14,7 +14,6 @@ error_support
 :
 {
 debug
-error
 info
 warn
 }

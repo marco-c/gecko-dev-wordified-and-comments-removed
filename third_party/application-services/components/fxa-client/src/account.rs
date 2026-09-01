@@ -15,6 +15,13 @@ error_support
 :
 handle_error
 ;
+#
+[
+uniffi
+:
+:
+export
+]
 impl
 FirefoxAccount
 {

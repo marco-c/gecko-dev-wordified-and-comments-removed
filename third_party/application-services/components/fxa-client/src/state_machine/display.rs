@@ -77,7 +77,7 @@ Authenticating
 =
 >
 "
-Athenticating
+Authenticating
 "
 Self
 :
@@ -95,7 +95,7 @@ AuthIssues
 =
 >
 "
-AthIssues
+AuthIssues
 "
 }
 ;
@@ -170,7 +170,7 @@ BeginOAuthFlow
 =
 >
 "
-BeginOAthFlow
+BeginOAuthFlow
 "
 Self
 :
@@ -196,7 +196,7 @@ CompleteOAuthFlow
 =
 >
 "
-CompleteOAthFlow
+CompleteOAuthFlow
 "
 Self
 :
@@ -205,7 +205,7 @@ CancelOAuthFlow
 =
 >
 "
-CancelOAthFlow
+CancelOAuthFlow
 "
 Self
 :
