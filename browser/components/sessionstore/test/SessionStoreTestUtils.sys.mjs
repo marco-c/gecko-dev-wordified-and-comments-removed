@@ -590,7 +590,9 @@ that
 /
 /
 SessionStore
-.
+'
+s
+#
 restoreWindow
 (
 )

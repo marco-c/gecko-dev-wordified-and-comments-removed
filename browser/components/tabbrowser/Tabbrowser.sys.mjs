@@ -28864,7 +28864,9 @@ number
 selectTab
 see
 SessionStore
-.
+'
+s
+#
 restoreTabs
 {
 aSelectTab

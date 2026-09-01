@@ -2656,6 +2656,46 @@ nextWindowID
 ;
 /
 /
+the
+window
+to
+re
+-
+focus
+once
+windows
+have
+been
+restored
+#
+windowToFocus
+=
+null
+;
+/
+/
+the
+active
+window
+'
+s
+__SSi
+cached
+since
+it
+'
+s
+needed
+once
+that
+window
+is
+gone
+#
+activeWindowSSiCache
+;
+/
+/
 counter
 for
 creating
@@ -4024,6 +4064,7 @@ by
 SessionStartup
 *
 /
+#
 initSession
 (
 )
@@ -5449,6 +5490,7 @@ tabState
 {
 this
 .
+#
 saveClosedTabData
 (
 winData
@@ -6064,6 +6106,7 @@ new
 windows
 this
 .
+#
 onBeforeBrowserWindowShown
 (
 aSubject
@@ -6083,6 +6126,7 @@ closed
 windows
 this
 .
+#
 onClose
 (
 aSubject
@@ -6145,6 +6189,7 @@ syncShutdown
 ;
 this
 .
+#
 onQuitApplicationGranted
 (
 syncShutdown
@@ -6166,6 +6211,7 @@ granted
 :
 this
 .
+#
 onLastWindowCloseGranted
 (
 )
@@ -6181,6 +6227,7 @@ application
 :
 this
 .
+#
 onQuitApplication
 (
 aData
@@ -6205,6 +6252,7 @@ catch
 sanitization
 this
 .
+#
 onPurgeSessionHistory
 (
 )
@@ -6235,6 +6283,7 @@ domain
 :
 this
 .
+#
 onPurgeDomainData
 (
 aData
@@ -6263,6 +6312,7 @@ pref
 changes
 this
 .
+#
 onPrefChange
 (
 aData
@@ -6286,6 +6336,7 @@ daily
 :
 this
 .
+#
 onIdleDaily
 (
 )
@@ -6399,6 +6450,7 @@ permanentKey
 {
 this
 .
+#
 maybeRecreateSHistoryListener
 (
 permanentKey
@@ -6467,6 +6519,7 @@ updated
 :
 this
 .
+#
 onFinalTabStateUpdateComplete
 (
 aSubject
@@ -6483,6 +6536,7 @@ break
 ;
 }
 }
+#
 getOrCreateSHistoryListener
 (
 permanentKey
@@ -6533,6 +6587,7 @@ listener
 return
 this
 .
+#
 createSHistoryListener
 (
 permanentKey
@@ -6541,6 +6596,7 @@ false
 )
 ;
 }
+#
 maybeRecreateSHistoryListener
 (
 permanentKey
@@ -6586,6 +6642,7 @@ permanentKey
 ;
 this
 .
+#
 createSHistoryListener
 (
 permanentKey
@@ -6595,6 +6652,7 @@ true
 ;
 }
 }
+#
 createSHistoryListener
 (
 permanentKey
@@ -6835,6 +6893,7 @@ window
 ;
 SessionStore
 .
+#
 onTabStateUpdate
 (
 permanentKey
@@ -7265,6 +7324,7 @@ return
 listener
 ;
 }
+#
 onTabStateUpdate
 (
 permanentKey
@@ -7320,6 +7380,7 @@ update
 ;
 this
 .
+#
 saveStateDelayed
 (
 win
@@ -7439,6 +7500,7 @@ state
 ;
 }
 }
+#
 onFinalTabStateUpdateComplete
 (
 browser
@@ -7631,6 +7693,7 @@ now
 .
 this
 .
+#
 saveClosedTabData
 (
 winData
@@ -7694,6 +7757,7 @@ around
 .
 this
 .
+#
 removeClosedTabData
 (
 winData
@@ -7865,6 +7929,7 @@ if
 !
 this
 .
+#
 isCurrentEpoch
 (
 permanentKey
@@ -7892,6 +7957,7 @@ listener
 =
 this
 .
+#
 getOrCreateSHistoryListener
 (
 permanentKey
@@ -8008,6 +8074,7 @@ window
 ;
 this
 .
+#
 onTabStateUpdate
 (
 permanentKey
@@ -8095,6 +8162,7 @@ TabOpen
 :
 this
 .
+#
 onTabAdd
 (
 win
@@ -8111,6 +8179,7 @@ adoptedTab
 {
 this
 .
+#
 moveCustomTabValue
 (
 aEvent
@@ -8131,6 +8200,7 @@ TabBrowserInserted
 :
 this
 .
+#
 onTabBrowserInserted
 (
 win
@@ -8178,6 +8248,7 @@ adoptedBy
 {
 this
 .
+#
 moveCustomTabValue
 (
 target
@@ -8190,6 +8261,7 @@ adoptedBy
 ;
 this
 .
+#
 onMoveToNewWindow
 (
 target
@@ -8241,6 +8313,7 @@ tab
 .
 this
 .
+#
 onTabClose
 (
 win
@@ -8250,6 +8323,7 @@ target
 }
 this
 .
+#
 onTabRemove
 (
 win
@@ -8272,6 +8346,7 @@ TabSelect
 :
 this
 .
+#
 onTabSelect
 (
 win
@@ -8286,6 +8361,7 @@ TabShow
 :
 this
 .
+#
 onTabShow
 (
 win
@@ -8301,6 +8377,7 @@ TabHide
 :
 this
 .
+#
 onTabHide
 (
 win
@@ -8326,6 +8403,7 @@ SwapDocShells
 :
 this
 .
+#
 saveStateDelayed
 (
 win
@@ -8375,6 +8453,7 @@ SplitViewCreated
 :
 this
 .
+#
 saveStateDelayed
 (
 win
@@ -8400,6 +8479,7 @@ skipSessionStore
 {
 this
 .
+#
 onTabGroupRemoveRequested
 (
 win
@@ -8435,6 +8515,7 @@ tabs
 {
 this
 .
+#
 maybeRestoreTabContent
 (
 tab
@@ -8443,6 +8524,7 @@ tab
 }
 this
 .
+#
 saveStateDelayed
 (
 win
@@ -8479,6 +8561,7 @@ isTopFrame
 {
 this
 .
+#
 onBrowserCrashed
 (
 target
@@ -8524,6 +8607,7 @@ permanentKey
 {
 this
 .
+#
 resetEpoch
 (
 target
@@ -8693,6 +8777,7 @@ script
 /
 this
 .
+#
 onLoad
 (
 window
@@ -8720,6 +8805,7 @@ Window
 reference
 *
 /
+#
 onLoad
 (
 aWindow
@@ -9104,6 +9190,7 @@ i
 {
 this
 .
+#
 onTabBrowserInserted
 (
 aWindow
@@ -9259,6 +9346,7 @@ optional
 )
 *
 /
+#
 initializeWindow
 (
 aWindow
@@ -9606,6 +9694,7 @@ must
 be
 restored
 before
+#
 restoreWindow
 is
 called
@@ -9688,6 +9777,7 @@ overwrite
 ;
 this
 .
+#
 restoreWindows
 (
 aWindow
@@ -9936,6 +10026,7 @@ must
 be
 restored
 before
+#
 restoreWindow
 is
 called
@@ -9987,6 +10078,7 @@ length
 ;
 this
 .
+#
 restoreWindows
 (
 aWindow
@@ -10455,6 +10547,7 @@ state
 ;
 this
 .
+#
 restoreWindow
 (
 aWindow
@@ -10641,6 +10734,7 @@ true
 }
 this
 .
+#
 restoreWindows
 (
 aWindow
@@ -10739,6 +10833,7 @@ Window
 reference
 *
 /
+#
 onBeforeBrowserWindowShown
 (
 aWindow
@@ -10793,6 +10888,7 @@ window
 .
 this
 .
+#
 onLoad
 (
 aWindow
@@ -10857,6 +10953,7 @@ aWindow
 /
 Just
 call
+#
 initializeWindow
 (
 )
@@ -10895,6 +10992,7 @@ window
 ;
 this
 .
+#
 initializeWindow
 (
 aWindow
@@ -11090,6 +11188,7 @@ t
 call
 this
 .
+#
 onLoad
 since
 initialization
@@ -11137,6 +11236,7 @@ first
 and
 this
 .
+#
 onLoad
 /
 /
@@ -11197,6 +11297,7 @@ sessionInitialized
 {
 this
 .
+#
 initializeWindow
 (
 aWindow
@@ -11210,6 +11311,7 @@ initialState
 =
 this
 .
+#
 initSession
 (
 )
@@ -11252,6 +11354,7 @@ start
 ;
 this
 .
+#
 initializeWindow
 (
 aWindow
@@ -11357,6 +11460,7 @@ a
 Promise
 *
 /
+#
 onClose
 (
 aWindow
@@ -11578,21 +11682,25 @@ if
 (
 this
 .
+#
 windowToFocus
 &
 &
 this
 .
+#
 windowToFocus
 =
 =
 aWindow
 )
 {
-delete
 this
 .
+#
 windowToFocus
+=
+null
 ;
 }
 var
@@ -11990,6 +12098,7 @@ isLastWindow
 =
 this
 .
+#
 isLastRestorableWindow
 (
 )
@@ -12480,6 +12589,7 @@ isTaskbarTab
 {
 this
 .
+#
 maybeSaveClosedWindow
 (
 winData
@@ -12655,6 +12765,7 @@ isTaskbarTab
 {
 this
 .
+#
 maybeSaveClosedWindow
 (
 winData
@@ -12711,6 +12822,7 @@ information
 .
 this
 .
+#
 cleanUpWindow
 (
 aWindow
@@ -12730,6 +12842,7 @@ to
 disk
 this
 .
+#
 saveStateDelayed
 (
 )
@@ -12781,6 +12894,7 @@ else
 {
 this
 .
+#
 cleanUpWindow
 (
 aWindow
@@ -12811,6 +12925,7 @@ i
 {
 this
 .
+#
 onTabRemove
 (
 aWindow
@@ -12917,6 +13032,7 @@ it
 .
 *
 /
+#
 cleanUpWindow
 (
 aWindow
@@ -13144,6 +13260,7 @@ flush
 .
 *
 /
+#
 maybeSaveClosedWindow
 (
 winData
@@ -13794,6 +13911,7 @@ to
 *
 this
 .
+#
 maybeSaveClosedTab
 .
 Since
@@ -13827,6 +13945,7 @@ addSavedTabGroup
 and
 this
 .
+#
 maybeSaveClosedTab
 .
 *
@@ -14249,6 +14368,7 @@ application
 granted
 *
 /
+#
 onQuitApplicationGranted
 (
 syncShutdown
@@ -14633,6 +14753,7 @@ or
 /
 4
 .
+#
 flushAllWindowsAsync
 completes
 (
@@ -14700,6 +14821,7 @@ promises
 [
 this
 .
+#
 flushAllWindowsAsync
 (
 progress
@@ -14999,6 +15121,7 @@ defers
 [
 this
 .
+#
 looseTimer
 (
 waitTimeMaxMs
@@ -15163,6 +15286,7 @@ Wait
 until
 SessionStore
 .
+#
 flushAllWindowsAsync
 finishes
 .
@@ -15334,6 +15458,7 @@ Promise
 *
 /
 async
+#
 flushAllWindowsAsync
 (
 progress
@@ -15543,6 +15668,7 @@ tracking
 this
 window
 in
+#
 onClose
 which
 is
@@ -15635,6 +15761,7 @@ activeWindow
 {
 this
 .
+#
 activeWindowSSiCache
 =
 activeWindow
@@ -15677,6 +15804,7 @@ window
 close
 *
 /
+#
 onLastWindowCloseGranted
 (
 )
@@ -15757,6 +15885,7 @@ of
 quitting
 *
 /
+#
 onQuitApplication
 (
 aData
@@ -16139,6 +16268,7 @@ length
 {
 this
 .
+#
 removeClosedTabData
 (
 windowData
@@ -16221,6 +16351,7 @@ length
 {
 this
 .
+#
 removeClosedTabData
 (
 windowData
@@ -16259,6 +16390,7 @@ session
 history
 *
 /
+#
 onPurgeSessionHistory
 (
 )
@@ -16629,6 +16761,7 @@ data
 for
 *
 /
+#
 onPurgeDomainData
 (
 aDomain
@@ -17275,6 +17408,7 @@ preference
 changed
 *
 /
+#
 onPrefChange
 (
 aData
@@ -17595,6 +17729,7 @@ Window
 reference
 *
 /
+#
 onTabAdd
 (
 aWindow
@@ -17602,6 +17737,7 @@ aWindow
 {
 this
 .
+#
 saveStateDelayed
 (
 aWindow
@@ -17634,6 +17770,7 @@ Tab
 reference
 *
 /
+#
 onTabBrowserInserted
 (
 aWindow
@@ -17748,6 +17885,7 @@ aTab
 ;
 this
 .
+#
 restoreTab
 (
 aTab
@@ -17820,6 +17958,7 @@ existing
 tab
 *
 /
+#
 onTabRemove
 (
 aWindow
@@ -17829,6 +17968,7 @@ aNoNotification
 {
 this
 .
+#
 cleanUpRemovedBrowser
 (
 aTab
@@ -17842,6 +17982,7 @@ aNoNotification
 {
 this
 .
+#
 saveStateDelayed
 (
 aWindow
@@ -17881,6 +18022,7 @@ Tab
 reference
 *
 /
+#
 onTabClose
 (
 aWindow
@@ -17962,6 +18104,7 @@ undo
 .
 this
 .
+#
 maybeSaveClosedTab
 (
 aWindow
@@ -17970,6 +18113,7 @@ tabState
 )
 ;
 }
+#
 onTabGroupRemoveRequested
 (
 win
@@ -18271,6 +18415,7 @@ in
 *
 SessionStore
 .
+#
 maybeSaveClosedTab
 .
 This
@@ -18432,6 +18577,7 @@ updateTabGroupId
 }
 this
 .
+#
 maybeSaveClosedTab
 (
 win
@@ -18587,6 +18733,7 @@ reference
 .
 *
 /
+#
 onMoveToNewWindow
 (
 aFromBrowser
@@ -18782,6 +18929,7 @@ group
 .
 *
 /
+#
 maybeSaveClosedTab
 (
 aWindow
@@ -19062,6 +19210,7 @@ though
 )
 this
 .
+#
 saveClosedTabData
 (
 winData
@@ -19200,6 +19349,7 @@ return
 }
 this
 .
+#
 cleanUpRemovedBrowser
 (
 aTab
@@ -19750,6 +19900,7 @@ Browser
 reference
 *
 /
+#
 cleanUpRemovedBrowser
 (
 aTab
@@ -19877,6 +20028,7 @@ TAB_STATE_RESTORING
 {
 this
 .
+#
 restoreNextTab
 (
 )
@@ -20019,6 +20171,7 @@ save
 .
 *
 /
+#
 saveClosedTabData
 (
 winData
@@ -20424,6 +20577,7 @@ window
 .
 *
 /
+#
 removeClosedTabData
 (
 winData
@@ -20642,6 +20796,7 @@ Window
 reference
 *
 /
+#
 onTabSelect
 (
 aWindow
@@ -20687,6 +20842,7 @@ selectedTab
 ;
 this
 .
+#
 maybeRestoreTabContent
 (
 tab
@@ -20694,6 +20850,7 @@ tab
 ;
 }
 }
+#
 maybeRestoreTabContent
 (
 tab
@@ -20838,6 +20995,7 @@ browser
 {
 this
 .
+#
 enterCrashedState
 (
 browser
@@ -20848,6 +21006,7 @@ else
 {
 this
 .
+#
 restoreTabContent
 (
 tab
@@ -20856,6 +21015,7 @@ tab
 }
 }
 }
+#
 onTabShow
 (
 aWindow
@@ -20936,6 +21096,7 @@ visible
 )
 this
 .
+#
 restoreNextTab
 (
 )
@@ -20988,12 +21149,14 @@ now
 ?
 this
 .
+#
 saveStateDelayed
 (
 aWindow
 )
 ;
 }
+#
 onTabHide
 (
 aWindow
@@ -21087,6 +21250,7 @@ now
 ?
 this
 .
+#
 saveStateDelayed
 (
 aWindow
@@ -21147,6 +21311,7 @@ state
 .
 *
 /
+#
 onBrowserCrashed
 (
 aBrowser
@@ -21154,6 +21319,7 @@ aBrowser
 {
 this
 .
+#
 enterCrashedState
 (
 aBrowser
@@ -21252,6 +21418,7 @@ page
 .
 *
 /
+#
 enterCrashedState
 (
 browser
@@ -21403,6 +21570,7 @@ regular
 /
 save
 .
+#
 onIdleDaily
 (
 )
@@ -22140,6 +22308,7 @@ close
 ;
 this
 .
+#
 onClose
 (
 otherWin
@@ -22220,6 +22389,7 @@ must
 be
 restored
 before
+#
 restoreWindow
 is
 called
@@ -22273,6 +22443,7 @@ given
 state
 this
 .
+#
 restoreWindows
 (
 window
@@ -22445,6 +22616,7 @@ NS_ERROR_INVALID_ARG
 }
 this
 .
+#
 restoreWindows
 (
 aWindow
@@ -22610,6 +22782,7 @@ completed
 /
 by
 |
+#
 restoreTabs
 |
 .
@@ -22811,6 +22984,7 @@ _tPos
 ;
 this
 .
+#
 restoreTab
 (
 aTab
@@ -22951,6 +23125,7 @@ if
 (
 this
 .
+#
 getClosedWindowDataByClosedId
 (
 aClosedId
@@ -22987,6 +23162,7 @@ undefined
 }
 *
 /
+#
 getClosedWindowDataByClosedId
 (
 aClosedId
@@ -23773,6 +23949,7 @@ tab
 .
 this
 .
+#
 restoreTab
 (
 newTab
@@ -26866,6 +27043,7 @@ pos
 =
 this
 .
+#
 removeClosedTabData
 (
 sourceWinData
@@ -26974,6 +27152,7 @@ preferredRemoteType
 =
 this
 .
+#
 getPreferredRemoteType
 (
 url
@@ -27079,6 +27258,7 @@ tab
 content
 this
 .
+#
 restoreTab
 (
 tab
@@ -27335,6 +27515,7 @@ NS_ERROR_INVALID_ARG
 )
 ;
 }
+#
 getPreferredRemoteType
 (
 url
@@ -27413,6 +27594,7 @@ winData
 =
 this
 .
+#
 getWindowStateData
 (
 aSource
@@ -27435,6 +27617,7 @@ winData
 =
 this
 .
+#
 getWindowStateData
 (
 aSource
@@ -27461,6 +27644,7 @@ winData
 =
 this
 .
+#
 getClosedWindowDataByClosedId
 (
 aSource
@@ -27522,6 +27706,7 @@ winData
 =
 this
 .
+#
 getWindowStateData
 (
 win
@@ -27785,6 +27970,7 @@ the
 array
 this
 .
+#
 removeClosedTabData
 (
 winData
@@ -28008,6 +28194,7 @@ closedTabGroup
 =
 this
 .
+#
 getClosedTabGroup
 (
 aSource
@@ -28060,6 +28247,7 @@ length
 {
 this
 .
+#
 removeClosedTabData
 (
 winData
@@ -28217,6 +28405,7 @@ i
 {
 this
 .
+#
 removeClosedTabData
 (
 {
@@ -28820,6 +29009,7 @@ the
 array
 this
 .
+#
 removeClosedTabData
 (
 winData
@@ -29106,6 +29296,7 @@ _maybeDontRestoreTabs
 true
 ;
 }
+#
 isLastRestorableWindow
 (
 )
@@ -29367,6 +29558,7 @@ state
 ;
 this
 .
+#
 windowToFocus
 =
 window
@@ -29387,6 +29579,7 @@ win
 >
 this
 .
+#
 restoreWindows
 (
 win
@@ -29745,6 +29938,7 @@ aStringValue
 ;
 this
 .
+#
 saveStateDelayed
 (
 aWindow
@@ -29812,6 +30006,7 @@ aKey
 }
 this
 .
+#
 saveStateDelayed
 (
 aWindow
@@ -29938,6 +30133,7 @@ aStringValue
 ;
 this
 .
+#
 saveStateDelayed
 (
 aTab
@@ -29980,6 +30176,7 @@ aKey
 ;
 this
 .
+#
 saveStateDelayed
 (
 aTab
@@ -29989,6 +30186,7 @@ documentGlobal
 ;
 }
 }
+#
 moveCustomTabValue
 (
 aFromTab
@@ -30028,6 +30226,7 @@ aFromTab
 /
 /
 No
+#
 saveStateDelayed
 calls
 for
@@ -30040,9 +30239,11 @@ callers
 /
 /
 of
+#
 moveCustomTabValue
 already
 call
+#
 saveStateDelayed
 for
 both
@@ -30052,8 +30253,10 @@ windows
 as
 needed
 from
+#
 onTabAdd
 and
+#
 onTabRemove
 .
 }
@@ -30203,6 +30406,7 @@ aStringValue
 ;
 this
 .
+#
 saveStateDelayed
 (
 )
@@ -30225,6 +30429,7 @@ aKey
 ;
 this
 .
+#
 saveStateDelayed
 (
 )
@@ -30635,6 +30840,7 @@ cache
 .
 *
 /
+#
 updateTabLabelAndIcon
 (
 tab
@@ -31087,6 +31293,7 @@ reverse
 {
 this
 .
+#
 removeClosedTabData
 (
 windowState
@@ -31476,6 +31683,7 @@ must
 be
 restored
 before
+#
 restoreWindow
 is
 called
@@ -32048,6 +32256,7 @@ restoreWithoutRestart
 {
 this
 .
+#
 removeDuplicateClosedWindows
 (
 lastSessionState
@@ -32371,6 +32580,7 @@ browsing
 session
 *
 /
+#
 removeDuplicateClosedWindows
 (
 lastSessionState
@@ -32742,6 +32952,7 @@ aTab
 ;
 this
 .
+#
 restoreTab
 (
 aTab
@@ -34468,6 +34679,7 @@ activeWindow
 {
 this
 .
+#
 activeWindowSSiCache
 =
 activeWindow
@@ -34487,6 +34699,7 @@ indexOf
 (
 this
 .
+#
 activeWindowSSiCache
 )
 ;
@@ -34889,6 +35102,7 @@ store
 .
 *
 /
+#
 getWindowStateData
 (
 aWindow
@@ -36301,6 +36515,7 @@ as
 well
 *
 /
+#
 restoreWindow
 (
 aWindow
@@ -36333,6 +36548,7 @@ firstWindow
 ;
 this
 .
+#
 restoreSidebar
 (
 aWindow
@@ -36377,6 +36593,7 @@ __SSi
 {
 this
 .
+#
 onLoad
 (
 aWindow
@@ -36410,6 +36627,7 @@ we
 end
 up
 calling
+#
 restoreTabs
 /
 /
@@ -36589,6 +36807,7 @@ tabs
 See
 SessionStore
 .
+#
 restoreTabs
 for
 a
@@ -37711,6 +37930,7 @@ length
 {
 this
 .
+#
 restoreTabs
 (
 aWindow
@@ -37792,6 +38012,7 @@ been
 made
 *
 /
+#
 prepareConnectionToHost
 (
 tab
@@ -38055,6 +38276,7 @@ prepared
 =
 this
 .
+#
 prepareConnectionToHost
 (
 tab
@@ -38246,6 +38468,7 @@ push
 (
 this
 .
+#
 restoreWindowFeatures
 (
 window
@@ -38297,6 +38520,7 @@ window
 ;
 this
 .
+#
 restoreWindow
 (
 window
@@ -38464,6 +38688,7 @@ b
 ;
 this
 .
+#
 windowToFocus
 =
 windows
@@ -38573,6 +38798,7 @@ as
 well
 *
 /
+#
 restoreWindows
 (
 aWindow
@@ -38616,6 +38842,7 @@ __SSi
 {
 this
 .
+#
 onLoad
 (
 aWindow
@@ -39141,6 +39368,7 @@ changed
 .
 *
 /
+#
 restoreTabs
 (
 aWindow
@@ -39213,6 +39441,7 @@ taken
 care
 of
 by
+#
 restoreTab
 (
 )
@@ -39406,6 +39635,7 @@ selectedIndex
 {
 this
 .
+#
 restoreTab
 (
 tabbrowser
@@ -39452,6 +39682,7 @@ selectedIndex
 {
 this
 .
+#
 restoreTab
 (
 aTabs
@@ -39665,6 +39896,7 @@ a
 given
 tab
 .
+#
 restoreTab
 (
 tab
@@ -40531,6 +40763,7 @@ epoch
 =
 this
 .
+#
 startNextEpoch
 (
 browser
@@ -40571,6 +40804,7 @@ browsers
 as
 /
 /
+#
 restoreTab
 will
 get
@@ -40636,6 +40870,7 @@ willRestoreImmediately
 {
 this
 .
+#
 restoreTabContent
 (
 tab
@@ -40729,6 +40964,7 @@ prepared
 =
 this
 .
+#
 prepareConnectionToHost
 (
 tab
@@ -40757,6 +40993,7 @@ url
 }
 this
 .
+#
 restoreNextTab
 (
 )
@@ -40813,6 +41050,7 @@ document
 This
 must
 preceed
+#
 updateTabLabelAndIcon
 call
 for
@@ -41096,6 +41334,7 @@ processed
 .
 this
 .
+#
 updateTabLabelAndIcon
 (
 tab
@@ -41159,6 +41398,7 @@ during
 load
 *
 /
+#
 restoreTabContent
 (
 aTab
@@ -41264,6 +41504,7 @@ null
 ;
 this
 .
+#
 markTabAsRestoring
 (
 aTab
@@ -41380,6 +41621,7 @@ as
 restoring
 *
 /
+#
 markTabAsRestoring
 (
 aTab
@@ -41564,6 +41806,7 @@ to
 restore
 *
 /
+#
 restoreNextTab
 (
 )
@@ -41642,6 +41885,7 @@ tab
 {
 this
 .
+#
 restoreTabContent
 (
 tab
@@ -41681,6 +41925,7 @@ the
 window
 *
 /
+#
 restoreWindowFeatures
 (
 aWindow
@@ -42122,6 +42367,7 @@ return
 }
 this
 .
+#
 restoreDimensions
 (
 aWindow
@@ -42225,6 +42471,7 @@ and
 styles
 *
 /
+#
 restoreSidebar
 (
 aWindow
@@ -42339,6 +42586,7 @@ maximized
 )
 *
 /
+#
 restoreDimensions
 (
 aWindow
@@ -43239,11 +43487,13 @@ if
 (
 this
 .
+#
 windowToFocus
 )
 {
 this
 .
+#
 windowToFocus
 .
 focus
@@ -43341,6 +43591,7 @@ writing
 .
 *
 /
+#
 saveStateDelayed
 (
 aWindow
@@ -44120,6 +44371,7 @@ options
 *
 *
 Calls
+#
 onClose
 for
 windows
@@ -44196,6 +44448,7 @@ push
 (
 this
 .
+#
 onClose
 (
 window
@@ -47949,6 +48202,7 @@ _closedTabs
 ;
 this
 .
+#
 saveClosedTabData
 (
 window
@@ -48644,6 +48898,7 @@ restored
 ;
 this
 .
+#
 maybeOpenNewTabAfterRestore
 (
 )
@@ -48897,6 +49152,7 @@ activeIndex
 url
 ;
 }
+#
 maybeOpenNewTabAfterRestore
 (
 )
@@ -50789,6 +51045,7 @@ is
 normally
 done
 in
+#
 restoreTabContent
 but
 that
@@ -50924,6 +51181,7 @@ browser
 .
 *
 /
+#
 startNextEpoch
 (
 permanentKey
@@ -50934,6 +51192,7 @@ next
 =
 this
 .
+#
 getCurrentEpoch
 (
 permanentKey
@@ -50992,6 +51251,7 @@ tabs
 .
 *
 /
+#
 getCurrentEpoch
 (
 permanentKey
@@ -51096,6 +51356,7 @@ browser
 .
 *
 /
+#
 isCurrentEpoch
 (
 permanentKey
@@ -51105,6 +51366,7 @@ epoch
 return
 this
 .
+#
 getCurrentEpoch
 (
 permanentKey
@@ -51163,6 +51425,7 @@ epoch
 .
 *
 /
+#
 resetEpoch
 (
 permanentKey
@@ -51248,6 +51511,7 @@ return
 Promise
 *
 /
+#
 looseTimer
 (
 delay
@@ -52170,7 +52434,7 @@ onHistoryReload
 this
 .
 #
-restoreTabContent
+restoreTabContentForBrowser
 (
 browser
 )
@@ -52242,7 +52506,7 @@ permanentKey
 this
 .
 #
-restoreTabContent
+restoreTabContentForBrowser
 (
 browser
 )
@@ -52572,7 +52836,7 @@ restores
 *
 /
 #
-restoreTabContent
+restoreTabContentForBrowser
 (
 browser
 options
@@ -52760,7 +53024,7 @@ options
 this
 .
 #
-restoreTabContent
+restoreTabContentForBrowser
 (
 browser
 options
@@ -52850,6 +53114,7 @@ updated
 .
 this
 .
+#
 updateTabLabelAndIcon
 (
 tab
@@ -53243,6 +53508,7 @@ pending
 .
 this
 .
+#
 markTabAsRestoring
 (
 tab
@@ -53625,6 +53891,7 @@ tab
 ;
 SessionStore
 .
+#
 restoreNextTab
 (
 )
@@ -54456,6 +54723,7 @@ undefined
 }
 *
 /
+#
 getClosedTabGroup
 (
 source
@@ -54755,6 +55023,7 @@ tabGroupData
 =
 this
 .
+#
 getClosedTabGroup
 (
 source
@@ -55350,6 +55619,7 @@ closedWinData
 =
 this
 .
+#
 getClosedWindowDataByClosedId
 (
 tabGroupData
@@ -55492,6 +55762,7 @@ splitViews
 ;
 this
 .
+#
 restoreTabs
 (
 targetWindow
