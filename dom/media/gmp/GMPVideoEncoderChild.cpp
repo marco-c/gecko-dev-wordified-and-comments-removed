@@ -93,6 +93,10 @@ EncodingComplete
 (
 )
 ;
+RemovePluginObject
+(
+)
+;
 }
 }
 bool
@@ -156,6 +160,10 @@ encoder
 mVideoEncoder
 =
 aEncoder
+;
+AddPluginObject
+(
+)
 ;
 }
 void
