@@ -79,6 +79,15 @@ use
 crate
 :
 :
+key_types
+:
+:
+EdgeMask
+;
+use
+crate
+:
+:
 units
 :
 :
@@ -1223,6 +1232,10 @@ PropertyBinding
 <
 ColorF
 >
+pub
+transformed_aa_edges
+:
+EdgeMask
 }
 #
 [
