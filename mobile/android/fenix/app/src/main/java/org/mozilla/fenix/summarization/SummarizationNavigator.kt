@@ -565,6 +565,8 @@ BrowserFragmentDirections
 .
 actionBrowserFragmentToSummarizationFragment
 (
+fromShake
+=
 fromShakeGesture
 )
 )

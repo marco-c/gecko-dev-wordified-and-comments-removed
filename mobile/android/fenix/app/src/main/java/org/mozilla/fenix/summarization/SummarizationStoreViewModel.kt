@@ -123,7 +123,7 @@ state
 .
 state
 .
-TabSessionState
+SessionState
 import
 mozilla
 .
@@ -314,7 +314,7 @@ param
 currentTab
 The
 [
-TabSessionState
+SessionState
 ]
 whose
 page
@@ -401,7 +401,7 @@ SummarizationStoreViewModel
 (
 currentTab
 :
-TabSessionState
+SessionState
 ?
 initializedFromShake
 :
@@ -537,7 +537,7 @@ param
 currentTab
 The
 [
-TabSessionState
+SessionState
 ]
 whose
 page
@@ -618,7 +618,7 @@ factory
 (
 currentTab
 :
-TabSessionState
+SessionState
 ?
 initializedFromShake
 :
@@ -900,7 +900,7 @@ EngineSession
 /
 private
 fun
-TabSessionState
+SessionState
 ?
 .
 asPageLoadingFlow

@@ -229,7 +229,7 @@ state
 .
 selector
 .
-selectedTab
+findTabOrCustomTabOrSelectedTab
 import
 mozilla
 .
@@ -241,7 +241,7 @@ state
 .
 state
 .
-TabSessionState
+SessionState
 import
 mozilla
 .
@@ -578,7 +578,7 @@ private
 val
 currentTab
 :
-TabSessionState
+SessionState
 ?
 get
 (
@@ -588,7 +588,12 @@ browserStore
 .
 state
 .
-selectedTab
+findTabOrCustomTabOrSelectedTab
+(
+args
+.
+sessionId
+)
 private
 val
 isEngineAvailable

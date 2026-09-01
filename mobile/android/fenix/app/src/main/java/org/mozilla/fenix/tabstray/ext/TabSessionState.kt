@@ -77,6 +77,18 @@ state
 .
 state
 .
+SessionState
+import
+mozilla
+.
+components
+.
+browser
+.
+state
+.
+state
+.
 TabSessionState
 import
 mozilla
@@ -380,7 +392,7 @@ for
 displaying
 a
 [
-TabSessionState
+SessionState
 ]
 '
 s
@@ -398,7 +410,7 @@ available
 *
 /
 fun
-TabSessionState
+SessionState
 .
 toDisplayTitle
 (
