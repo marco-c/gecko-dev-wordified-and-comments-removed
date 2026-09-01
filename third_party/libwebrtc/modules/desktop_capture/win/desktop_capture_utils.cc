@@ -98,7 +98,7 @@ error_message
 return
 string_builder
 .
-str
+Release
 (
 )
 ;

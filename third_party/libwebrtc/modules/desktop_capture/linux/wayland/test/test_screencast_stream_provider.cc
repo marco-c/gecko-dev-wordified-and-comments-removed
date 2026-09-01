@@ -2394,7 +2394,7 @@ LS_INFO
 <
 sb
 .
-str
+Release
 (
 )
 ;
