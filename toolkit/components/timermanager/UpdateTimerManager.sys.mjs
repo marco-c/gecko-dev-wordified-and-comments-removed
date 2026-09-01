@@ -407,9 +407,6 @@ idl
 *
 /
 observe
-:
-function
-TM_observe
 (
 aSubject
 aTopic
@@ -810,9 +807,6 @@ fired
 *
 /
 notify
-:
-function
-TM_notify
 (
 timer
 )
@@ -2014,9 +2008,6 @@ idl
 *
 /
 registerTimer
-:
-function
-TM_registerTimer
 (
 id
 callback
@@ -2336,9 +2327,6 @@ interval
 ;
 }
 unregisterTimer
-:
-function
-TM_unregisterTimer
 (
 id
 )
