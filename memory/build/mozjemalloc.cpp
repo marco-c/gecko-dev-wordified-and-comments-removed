@@ -14978,11 +14978,9 @@ DefineGlobals
 ;
 #
 endif
-gRecycledSize
-=
-0
-;
-chunks_init
+gCache
+.
+Init
 (
 )
 ;
