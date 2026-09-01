@@ -46,6 +46,13 @@ js
 ]
 [
 "
+browser_browserGlue_fxa_client_info_ping
+.
+js
+"
+]
+[
+"
 browser_browserGlue_os_auth
 .
 js

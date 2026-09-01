@@ -209,6 +209,14 @@ send_in_pings
 fx
 -
 accounts
+-
+fx
+-
+accounts
+-
+client
+-
+info
 legacy_client_id
 :
 type
