@@ -1843,6 +1843,14 @@ lintConfig
 file
 (
 "
+.
+.
+/
+.
+.
+/
+shared
+-
 lint
 .
 xml
