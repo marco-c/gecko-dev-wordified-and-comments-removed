@@ -2327,12 +2327,6 @@ macosx1500
 aarch64
 -
 tests
--
-macosx1500
--
-64
--
-jittests
 macosx1500
 -
 aarch64
@@ -2539,12 +2533,6 @@ test
 -
 sets
 :
--
-macosx1500
--
-64
--
-jittests
 -
 macosx1500
 -

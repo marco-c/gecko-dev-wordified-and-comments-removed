@@ -2284,14 +2284,6 @@ macosx1500
 -
 64
 -
-jittests
-:
--
-jittest
-macosx1500
--
-64
--
 tests
 :
 -
@@ -2522,8 +2514,6 @@ marionette
 unittest
 -
 crashtest
--
-jittest
 -
 mochitest
 -
