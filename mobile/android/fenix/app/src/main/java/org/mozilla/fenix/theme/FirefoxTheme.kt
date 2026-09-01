@@ -155,6 +155,18 @@ base
 .
 theme
 .
+Theme
+import
+mozilla
+.
+components
+.
+compose
+.
+base
+.
+theme
+.
 acornDarkColorScheme
 import
 mozilla
@@ -527,7 +539,6 @@ content
 )
 }
 /
-*
 *
 *
 Provides
