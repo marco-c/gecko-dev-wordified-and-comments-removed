@@ -3301,6 +3301,11 @@ ATTR_CONTEXTMENU
 static
 nsHtml5AttributeName
 *
+ATTR_CUSTOMELEMENTREGISTRY
+;
+static
+nsHtml5AttributeName
+*
 ATTR_DEPTH
 ;
 static
