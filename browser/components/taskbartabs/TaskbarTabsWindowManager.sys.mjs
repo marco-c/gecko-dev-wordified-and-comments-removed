@@ -104,16 +104,7 @@ kTaskbarTabsWindowFeatures
 "
 titlebar
 toolbar
-location
-personalbar
-=
-no
-status
-menubar
-=
-no
 resizable
-minimizable
 "
 ;
 let

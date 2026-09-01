@@ -451,7 +451,7 @@ GetVisibleByFlag
 nsIWebBrowserChrome
 :
 :
-CHROME_MENUBAR
+CHROME_TOOLBAR
 aCallerType
 aRv
 )
@@ -619,7 +619,7 @@ GetVisibleByFlag
 nsIWebBrowserChrome
 :
 :
-CHROME_PERSONAL_TOOLBAR
+CHROME_TOOLBAR
 aCallerType
 aRv
 )

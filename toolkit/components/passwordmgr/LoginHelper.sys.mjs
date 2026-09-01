@@ -11374,10 +11374,12 @@ if
 (
 chromeDoc
 .
-getAttribute
+hasAttribute
 (
 "
-chromehidden
+popup
+-
+window
 "
 )
 &

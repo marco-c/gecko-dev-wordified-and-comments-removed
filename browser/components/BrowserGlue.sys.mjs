@@ -4612,16 +4612,8 @@ all
 dialog
 =
 no
-extrachrome
-menubar
 resizable
-status
-"
-+
-"
-location
 toolbar
-personalbar
 "
 ;
 /

@@ -2267,10 +2267,7 @@ profilemanager
 "
 "
 chrome
-extrachrome
-menubar
 resizable
-status
 toolbar
 centerscreen
 "

@@ -21216,9 +21216,6 @@ resizable
 =
 no
 titlebar
-toolbar
-=
-no
 dialog
 =
 no

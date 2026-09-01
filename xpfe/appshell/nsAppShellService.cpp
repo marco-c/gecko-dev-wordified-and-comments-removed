@@ -2173,11 +2173,6 @@ barMask
 nsIWebBrowserChrome
 :
 :
-CHROME_MENUBAR
-|
-nsIWebBrowserChrome
-:
-:
 CHROME_TOOLBAR
 |
 nsIWebBrowserChrome
