@@ -179,6 +179,13 @@ selectableItemBackgroundBorderless
 "
 tools
 :
+ignore
+=
+"
+Overdraw
+"
+tools
+:
 parentTag
 =
 "
