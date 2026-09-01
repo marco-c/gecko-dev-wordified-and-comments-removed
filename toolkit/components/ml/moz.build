@@ -271,6 +271,11 @@ nsIMLModelHub
 idl
 "
 "
+nsIMLModelResolver
+.
+idl
+"
+"
 nsIMLUtils
 .
 idl
