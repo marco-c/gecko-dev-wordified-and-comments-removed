@@ -661,8 +661,6 @@ happy_eyeballs
 :
 DnsRecordType
 aType
-bool
-aAllowStale
 )
 ;
 void
