@@ -392,13 +392,6 @@ FAST_PATH
 to_string
 (
 )
-"
-SUPERELLIPSE
-"
-.
-to_string
-(
-)
 ]
 )
 ;
@@ -1068,13 +1061,6 @@ vec
 base_prim_features
 .
 finish
-(
-)
-"
-SUPERELLIPSE
-"
-.
-to_string
 (
 )
 ]
