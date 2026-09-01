@@ -471,6 +471,10 @@ gfx
 UnscaledFontMac
 >
 mUnscaledFont
+MOZ_GUARDED_BY
+(
+mLock
+)
 ;
 }
 ;

@@ -467,6 +467,10 @@ gfx
 UnscaledFontFreeType
 >
 mUnscaledFont
+MOZ_GUARDED_BY
+(
+mLock
+)
 ;
 nsTHashSet
 <
