@@ -266,13 +266,6 @@ WindowDeactivated
 {
 }
 virtual
-void
-OSToolbarButtonPressed
-(
-)
-{
-}
-virtual
 bool
 RequestWindowClose
 (
