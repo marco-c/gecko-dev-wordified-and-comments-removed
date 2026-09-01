@@ -10295,6 +10295,12 @@ mFieldSizing
 mozilla
 :
 :
+NonNegativeLengthOrAuto
+mMozLineScrollAmount
+;
+mozilla
+:
+:
 StyleLength
 mMozWindowInputRegionMargin
 ;
