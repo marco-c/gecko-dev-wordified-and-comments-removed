@@ -276,9 +276,6 @@ CrashHelperClient
 connector
 :
 client_endpoint
-spawner_thread
-:
-None
 pid
 }
 )

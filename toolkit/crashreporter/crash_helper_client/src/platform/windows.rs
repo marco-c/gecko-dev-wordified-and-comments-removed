@@ -280,7 +280,7 @@ deconstruct
 )
 ;
 let
-spawner_thread
+_spawner_thread
 =
 std
 :
@@ -316,12 +316,6 @@ CrashHelperClient
 connector
 :
 client_endpoint
-spawner_thread
-:
-Some
-(
-spawner_thread
-)
 pid
 :
 0

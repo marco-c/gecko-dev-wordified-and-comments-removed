@@ -228,6 +228,7 @@ ProcessHandle
 listener
 :
 IPCListener
+mut
 connector
 :
 IPCConnector
@@ -292,6 +293,17 @@ get_process_handle
 (
 )
 }
+;
+connector
+.
+set_process
+(
+client_handle
+.
+clone
+(
+)
+)
 ;
 let
 crash_generator
