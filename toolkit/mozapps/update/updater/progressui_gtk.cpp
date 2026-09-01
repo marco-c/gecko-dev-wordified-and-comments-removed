@@ -79,10 +79,6 @@ gboolean
 sEnableUI
 ;
 static
-guint
-sTimerID
-;
-static
 GtkWidget
 *
 sWin
@@ -102,7 +98,7 @@ GdkPixbuf
 *
 sPixbuf
 ;
-MOZ_RUNINIT
+constinit
 StringTable
 sStrings
 ;
@@ -128,6 +124,9 @@ gtk_main_quit
 (
 )
 ;
+return
+G_SOURCE_REMOVE
+;
 }
 float
 progress
@@ -148,7 +147,7 @@ progress
 )
 ;
 return
-TRUE
+G_SOURCE_CONTINUE
 ;
 }
 static
@@ -509,8 +508,6 @@ TRUE
 0
 )
 ;
-sTimerID
-=
 g_timeout_add
 (
 TIMER_INTERVAL
