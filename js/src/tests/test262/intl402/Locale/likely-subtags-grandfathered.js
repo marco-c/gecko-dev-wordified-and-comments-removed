@@ -274,6 +274,9 @@ toString
 (
 )
 canonical
+"
+canonical
+"
 )
 ;
 assert
@@ -290,6 +293,10 @@ toString
 (
 )
 maximized
+"
+maximized
+once
+"
 )
 ;
 assert
@@ -310,6 +317,10 @@ toString
 (
 )
 maximized
+"
+maximized
+twice
+"
 )
 ;
 assert
@@ -326,6 +337,10 @@ toString
 (
 )
 minimized
+"
+minimized
+once
+"
 )
 ;
 assert
@@ -346,6 +361,10 @@ toString
 (
 )
 minimized
+"
+minimized
+twice
+"
 )
 ;
 assert
@@ -366,6 +385,11 @@ toString
 (
 )
 minimized
+"
+maximized
+then
+minimized
+"
 )
 ;
 assert
@@ -386,6 +410,11 @@ toString
 (
 )
 maximized
+"
+minimized
+then
+maximized
+"
 )
 ;
 }

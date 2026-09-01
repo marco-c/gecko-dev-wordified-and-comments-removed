@@ -38,6 +38,13 @@ typedArray
 )
 ;
 }
+null
+null
+[
+"
+immutable
+"
+]
 )
 ;
 reportCompare

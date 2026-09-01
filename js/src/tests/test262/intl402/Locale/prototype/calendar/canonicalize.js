@@ -44,7 +44,7 @@ islamicc
 '
 should
 be
-canonicalize
+canonicalized
 to
 '
 islamic
@@ -72,7 +72,7 @@ islamicc
 '
 should
 be
-canonicalize
+canonicalized
 to
 '
 islamic

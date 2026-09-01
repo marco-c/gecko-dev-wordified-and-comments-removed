@@ -244,6 +244,13 @@ Test262Error
 )
 ;
 }
+null
+null
+[
+"
+immutable
+"
+]
 )
 ;
 reportCompare
