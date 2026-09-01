@@ -27713,7 +27713,7 @@ IsInComposedDoc
 )
 )
 {
-NotifyUAWidgetSetupOrChange
+AddScriptRunnerToNotifyUAWidgetSetupOrChange
 (
 )
 ;
@@ -27786,7 +27786,7 @@ IsInComposedDoc
 )
 )
 {
-NotifyUAWidgetSetupOrChange
+AddScriptRunnerToNotifyUAWidgetSetupOrChange
 (
 )
 ;
@@ -27938,6 +27938,10 @@ IsInComposedDoc
 {
 AttachAndSetUAShadowRoot
 (
+NotifyUAWidget
+:
+:
+Yes
 )
 ;
 UpdatePreloadAction
@@ -27993,6 +27997,10 @@ IsInComposedDoc
 {
 TeardownUAShadowRoot
 (
+NotifyUAWidget
+:
+:
+Yes
 )
 ;
 }

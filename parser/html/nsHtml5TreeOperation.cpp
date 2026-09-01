@@ -79,6 +79,17 @@ mozilla
 /
 dom
 /
+Document
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 DocumentFragment
 .
 h
@@ -3140,6 +3151,10 @@ SetParserHadDuplicateAttributeError
 )
 ;
 }
+const
+nsAutoScriptBlocker
+scriptBlocker
+;
 bool
 isPendingMappedAttributeEvaluation
 =
@@ -3171,6 +3186,7 @@ ValueRef
 (
 )
 isPendingMappedAttributeEvaluation
+scriptBlocker
 )
 ;
 }

@@ -1643,6 +1643,11 @@ if
 !
 mGrabber
 )
+[
+[
+unlikely
+]
+]
 {
 NS_WARNING
 (

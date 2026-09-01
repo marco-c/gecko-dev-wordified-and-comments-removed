@@ -64,7 +64,6 @@ Element
 :
 Command
 ;
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
 explicit
 HTMLDetailsElement
 (
@@ -287,7 +286,6 @@ HTMLDetailsElement
 (
 )
 ;
-MOZ_CAN_RUN_SCRIPT
 void
 SetupShadowTree
 (

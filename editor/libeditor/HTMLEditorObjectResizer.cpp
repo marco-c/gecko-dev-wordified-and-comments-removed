@@ -371,6 +371,11 @@ if
 !
 resizer
 )
+[
+[
+unlikely
+]
+]
 {
 NS_WARNING
 (

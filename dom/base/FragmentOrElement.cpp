@@ -6969,6 +6969,9 @@ GetShadowRoot
 )
 )
 {
+nsAutoScriptBlocker
+scriptBlocker
+;
 shadowRoot
 -
 >

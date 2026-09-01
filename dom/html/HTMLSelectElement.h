@@ -887,7 +887,6 @@ OptionFlags
 aOptionsMask
 )
 ;
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
 nsresult
 BindToTree
 (
@@ -1283,7 +1282,6 @@ GetFirstButton
 )
 const
 ;
-MOZ_CAN_RUN_SCRIPT
 void
 SetupShadowTree
 (

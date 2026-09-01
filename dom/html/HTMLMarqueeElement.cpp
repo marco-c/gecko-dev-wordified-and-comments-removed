@@ -277,6 +277,10 @@ IsInComposedDoc
 {
 AttachAndSetUAShadowRoot
 (
+NotifyUAWidget
+:
+:
+Yes
 )
 ;
 }
