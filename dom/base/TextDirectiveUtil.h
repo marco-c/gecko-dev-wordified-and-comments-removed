@@ -446,6 +446,16 @@ uint32_t
 aWordEnd
 )
 ;
+static
+bool
+ContainsAtLeastTwoWords
+(
+const
+nsAString
+&
+aString
+)
+;
 template
 <
 TextScanDirection
