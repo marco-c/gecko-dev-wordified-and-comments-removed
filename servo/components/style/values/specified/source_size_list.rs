@@ -129,6 +129,7 @@ ParseError
 [
 derive
 (
+Clone
 Debug
 )
 ]
@@ -229,6 +230,7 @@ value
 [
 derive
 (
+Clone
 Debug
 )
 ]
