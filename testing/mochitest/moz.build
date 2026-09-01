@@ -278,6 +278,15 @@ tests
 /
 SimpleTest
 /
+ClickChecks
+.
+js
+"
+"
+tests
+/
+SimpleTest
+/
 DragChildContextBase
 .
 sys

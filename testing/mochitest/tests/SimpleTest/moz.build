@@ -88,6 +88,11 @@ ChromeTask
 js
 "
 "
+ClickChecks
+.
+js
+"
+"
 DragChildContextBase
 .
 sys
