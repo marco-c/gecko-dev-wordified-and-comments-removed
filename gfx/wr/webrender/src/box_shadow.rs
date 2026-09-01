@@ -117,15 +117,6 @@ use
 crate
 :
 :
-visibility
-:
-:
-PrimitiveDrawIndex
-;
-use
-crate
-:
-:
 pattern
 :
 :
@@ -860,9 +851,6 @@ SpatialNodeIndex
 device_pixel_scale
 :
 DevicePixelScale
-draw_index
-:
-PrimitiveDrawIndex
 cmd_buffer_targets
 :
 &
@@ -2153,7 +2141,6 @@ common_data
 .
 transformed_aa_edges
 }
-draw_index
 &
 None
 clip_chain

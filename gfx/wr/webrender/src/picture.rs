@@ -275,10 +275,7 @@ crate
 visibility
 :
 :
-{
 PrimitiveDrawHeader
-PrimitiveDrawIndex
-}
 ;
 use
 crate
@@ -10374,9 +10371,6 @@ raster_config
 :
 &
 RasterConfig
-draw_index
-:
-PrimitiveDrawIndex
 prim_spatial_node_index
 :
 SpatialNodeIndex
@@ -11412,7 +11406,6 @@ all
 (
 )
 }
-draw_index
 &
 None
 &
@@ -11668,7 +11661,6 @@ all
 (
 )
 }
-draw_index
 &
 None
 &

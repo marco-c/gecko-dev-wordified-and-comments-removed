@@ -82,15 +82,6 @@ use
 crate
 :
 :
-visibility
-:
-:
-PrimitiveDrawIndex
-;
-use
-crate
-:
-:
 scene_building
 :
 :
@@ -622,9 +613,6 @@ clip_chain
 :
 &
 ClipChainInstance
-draw_index
-:
-PrimitiveDrawIndex
 quad_transform
 :
 &
@@ -1040,7 +1028,6 @@ stretch_size
 image_data
 .
 tile_spacing
-draw_index
 &
 None
 clip_chain
@@ -1325,7 +1312,6 @@ rect
 aligned_aa_edges
 transformed_aa_edges
 }
-draw_index
 &
 None
 clip_chain

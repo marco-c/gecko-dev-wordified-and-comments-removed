@@ -316,10 +316,7 @@ crate
 visibility
 :
 :
-{
 compute_surface_visible_rect
-PrimitiveDrawIndex
-}
 ;
 pub
 type
@@ -924,9 +921,6 @@ desc
 :
 &
 QuadDescriptor
-draw_index
-:
-PrimitiveDrawIndex
 cache_key
 :
 &
@@ -1076,7 +1070,6 @@ strategy
 &
 pattern
 desc
-draw_index
 cache_key
 clip_chain
 transform
@@ -1109,9 +1102,6 @@ LayoutSize
 tile_spacing
 :
 LayoutSize
-draw_index
-:
-PrimitiveDrawIndex
 cache_key
 :
 &
@@ -1319,7 +1309,6 @@ strategy
 pattern
 &
 stretched_desc
-draw_index
 &
 cache_key
 clip_chain
@@ -1663,7 +1652,6 @@ strategy
 &
 repeat_pattern
 desc
-draw_index
 &
 None
 clip_chain
@@ -1855,7 +1843,6 @@ tile
 .
 edge_flags
 }
-draw_index
 &
 None
 clip_chain
@@ -1892,9 +1879,6 @@ QuadDescriptor
 stretch_size
 :
 LayoutSize
-draw_index
-:
-PrimitiveDrawIndex
 clip_chain
 :
 &
@@ -2314,7 +2298,6 @@ transformed_aa_edges
 &
 side
 }
-draw_index
 &
 None
 clip_chain
@@ -2346,9 +2329,6 @@ desc
 :
 &
 QuadDescriptor
-draw_index
-:
-PrimitiveDrawIndex
 cache_key
 :
 &
@@ -2704,7 +2684,6 @@ pattern
 texture_input
 .
 task_ids
-draw_index
 device_bounds
 main_prim_address
 transform_id
@@ -3006,7 +2985,6 @@ add_composite_prim
 pattern
 .
 blend_mode
-draw_index
 &
 clipped_surface_rect
 frame_state
@@ -3037,7 +3015,6 @@ Tiled
 {
 prepare_tiles
 (
-draw_index
 &
 local_bounds
 &
@@ -3071,7 +3048,6 @@ radius
 {
 prepare_nine_patch
 (
-draw_index
 &
 local_bounds
 &
@@ -3405,9 +3381,6 @@ frame_state
 fn
 prepare_nine_patch
 (
-draw_index
-:
-PrimitiveDrawIndex
 local_bounds
 :
 &
@@ -4139,7 +4112,6 @@ local_to_device
 inverse
 (
 )
-draw_index
 &
 device_bounds
 &
@@ -4175,7 +4147,6 @@ add_composite_prim
 pattern
 .
 blend_mode
-draw_index
 &
 device_bounds
 frame_state
@@ -4193,9 +4164,6 @@ quad_indirect_segments
 fn
 prepare_tiles
 (
-draw_index
-:
-PrimitiveDrawIndex
 local_bounds
 :
 &
@@ -5400,7 +5368,6 @@ local_to_device
 inverse
 (
 )
-draw_index
 &
 device_bounds
 &
@@ -5436,7 +5403,6 @@ add_composite_prim
 pattern
 .
 blend_mode
-draw_index
 device_bounds
 frame_state
 targets
@@ -6649,9 +6615,6 @@ Pattern
 pattern_transform
 :
 ScaleOffset
-draw_index
-:
-PrimitiveDrawIndex
 coverage_rect
 :
 &
@@ -6768,7 +6731,6 @@ pattern
 texture_input
 .
 task_ids
-draw_index
 *
 coverage_rect
 prim_address
@@ -6797,9 +6759,6 @@ add_composite_prim
 blend_mode
 :
 BlendMode
-draw_index
-:
-PrimitiveDrawIndex
 rect
 :
 &
@@ -6920,7 +6879,6 @@ INVALID
 ;
 3
 ]
-draw_index
 *
 rect
 composite_prim_address

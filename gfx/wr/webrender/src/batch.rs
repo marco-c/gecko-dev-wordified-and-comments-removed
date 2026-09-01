@@ -3999,9 +3999,6 @@ Quad
 {
 pattern
 pattern_input
-draw_index
-:
-_
 device_rect
 gpu_buffer_address
 quad_flags
