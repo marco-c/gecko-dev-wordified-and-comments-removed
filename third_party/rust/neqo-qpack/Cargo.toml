@@ -125,9 +125,9 @@ version
 "
 0
 .
-31
+30
 .
-0
+1
 "
 authors
 =
@@ -539,11 +539,6 @@ allow_attributes_without_reason
 =
 "
 warn
-"
-assert_is_empty
-=
-"
-allow
 "
 cfg_not_test
 =

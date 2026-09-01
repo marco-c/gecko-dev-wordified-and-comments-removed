@@ -1257,7 +1257,7 @@ from
 (
 conn_param
 .
-webtransport_enabled
+get_webtransport
 (
 )
 )
@@ -1301,7 +1301,7 @@ from
 (
 conn_param
 .
-connect_enabled
+get_connect
 (
 )
 )
@@ -1419,7 +1419,7 @@ get_max_blocked_streams
 if
 settings
 .
-webtransport_enabled
+get_webtransport
 (
 )
 {
@@ -1662,7 +1662,7 @@ self
 .
 settings
 .
-webtransport_enabled
+get_webtransport
 (
 )
 |
@@ -1742,7 +1742,7 @@ self
 .
 settings
 .
-connect_enabled
+get_connect
 (
 )
 |

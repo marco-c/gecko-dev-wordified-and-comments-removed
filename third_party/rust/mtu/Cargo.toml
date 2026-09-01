@@ -399,8 +399,6 @@ version
 0
 .
 2
-.
-2
 "
 default
 -
@@ -469,11 +467,6 @@ allow_attributes_without_reason
 =
 "
 warn
-"
-assert_is_empty
-=
-"
-allow
 "
 cfg_not_test
 =

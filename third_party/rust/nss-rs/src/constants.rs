@@ -432,15 +432,6 @@ ssl_grp_kem_xyber768d00
 TLS_GRP_KEM_MLKEM768X25519
 =
 ssl_grp_kem_mlkem768x25519
-TLS_GRP_KEM_SECP256R1MLKEM768
-=
-ssl_grp_kem_secp256r1mlkem768
-TLS_GRP_KEM_SECP384R1MLKEM1024
-=
-ssl_grp_kem_secp384r1mlkem1024
-TLS_GRP_KEM_MLKEM1024
-=
-ssl_grp_kem_mlkem1024
 }
 }
 remap_enum

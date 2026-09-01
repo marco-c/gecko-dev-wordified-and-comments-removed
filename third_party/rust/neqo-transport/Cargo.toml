@@ -125,9 +125,9 @@ version
 "
 0
 .
-31
+30
 .
-0
+1
 "
 authors
 =
@@ -1261,7 +1261,7 @@ version
 "
 0
 .
-14
+13
 "
 git
 =
@@ -1504,11 +1504,6 @@ allow_attributes_without_reason
 =
 "
 warn
-"
-assert_is_empty
-=
-"
-allow
 "
 cfg_not_test
 =

@@ -24,10 +24,16 @@ use
 std
 :
 :
+{
 hint
 :
 :
 black_box
+time
+:
+:
+Instant
+}
 ;
 use
 criterion
@@ -63,8 +69,6 @@ frame
 {
 Frame
 FrameEncoder
-as
-_
 FrameType
 }
 packet
@@ -480,10 +484,10 @@ name
 str
 pkt
 :
-&
-[
+Vec
+<
 u8
-]
+>
 )
 {
 let
@@ -504,7 +508,7 @@ len
 let
 now
 =
-test_fixture
+Instant
 :
 :
 now
@@ -529,7 +533,7 @@ iter_batched
 (
 pkt
 .
-to_vec
+clone
 (
 )
 CryptoStates
@@ -727,7 +731,6 @@ decode
 STREAM
 packet
 "
-&
 pkt
 )
 ;
@@ -799,7 +802,6 @@ decode
 ACK
 packet
 "
-&
 pkt
 )
 ;

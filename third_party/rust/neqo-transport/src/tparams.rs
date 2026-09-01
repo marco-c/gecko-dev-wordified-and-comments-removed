@@ -5895,12 +5895,6 @@ to_u64
 }
 ;
 use
-test_fixture
-:
-:
-fixture_init
-;
-use
 super
 :
 :
@@ -9917,10 +9911,6 @@ server_rejects_server_only_tparams
 (
 )
 {
-fixture_init
-(
-)
-;
 for
 tp
 in

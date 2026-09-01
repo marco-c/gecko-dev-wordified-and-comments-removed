@@ -441,6 +441,7 @@ group
 .
 bench_function
 (
+&
 format
 !
 (

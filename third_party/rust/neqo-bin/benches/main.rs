@@ -46,6 +46,10 @@ std
 :
 {
 env
+hint
+:
+:
+black_box
 net
 :
 :
@@ -527,12 +531,15 @@ client
 async
 move
 {
+black_box
+(
 client
 .
 await
 .
 unwrap
 (
+)
 )
 ;
 server_handle
