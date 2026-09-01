@@ -30,8 +30,6 @@ addMatcher
 (
 classTemplateSpecializationDecl
 (
-allOf
-(
 hasAnyTemplateArgument
 (
 refersToType
@@ -43,7 +41,6 @@ hasVTable
 )
 hasNeedsNoVTableTypeAttr
 (
-)
 )
 )
 .

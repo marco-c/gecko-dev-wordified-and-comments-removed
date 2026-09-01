@@ -47,8 +47,10 @@ define
 MOZ_CRASH
 (
 )
+\
 do
 {
+\
 }
 while
 (
@@ -103,7 +105,6 @@ while
 (
 0
 )
-\
 #
 define
 MOZ_ASSERT_HELPER2
@@ -140,7 +141,6 @@ while
 (
 0
 )
-\
 #
 define
 MOZ_RELEASE_ASSERT_GLUE

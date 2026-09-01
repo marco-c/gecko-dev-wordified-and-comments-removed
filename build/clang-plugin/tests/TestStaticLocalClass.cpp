@@ -1,6 +1,7 @@
 #
 define
 MOZ_STATIC_LOCAL_CLASS
+\
 __attribute__
 (
 (

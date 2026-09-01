@@ -1,6 +1,7 @@
 #
 define
 MOZ_NON_TEMPORARY_CLASS
+\
 __attribute__
 (
 (

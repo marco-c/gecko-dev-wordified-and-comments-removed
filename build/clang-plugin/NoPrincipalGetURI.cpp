@@ -30,8 +30,6 @@ addMatcher
 (
 cxxMemberCallExpr
 (
-allOf
-(
 callee
 (
 cxxMethodDecl
@@ -84,7 +82,6 @@ unless
 (
 isInWhiteListForPrincipalGetUri
 (
-)
 )
 )
 argumentCountIs

@@ -1,11 +1,6 @@
 #
 include
 <
-functional
->
-#
-include
-<
 mozilla
 /
 RefPtr

@@ -1,6 +1,7 @@
 #
 define
 MOZ_REQUIRED_BASE_METHOD
+\
 __attribute__
 (
 (

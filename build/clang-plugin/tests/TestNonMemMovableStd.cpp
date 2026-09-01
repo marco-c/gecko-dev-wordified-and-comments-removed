@@ -1,6 +1,7 @@
 #
 define
 MOZ_NEEDS_MEMMOVABLE_TYPE
+\
 __attribute__
 (
 (
@@ -464,7 +465,6 @@ string
 >
 not_good
 ;
-MOZ_RUNINIT
 static
 Mover
 <
@@ -525,7 +525,6 @@ has_trivial_move
 >
 trivial_move
 ;
-MOZ_RUNINIT
 static
 Mover
 <
@@ -628,7 +627,6 @@ has_trivial_move
 >
 pair_trivial_move
 ;
-MOZ_RUNINIT
 static
 Mover
 <
@@ -642,7 +640,6 @@ int
 >
 a_good_unique_ptr
 ;
-MOZ_RUNINIT
 static
 Mover
 <
@@ -659,7 +656,6 @@ string
 >
 another_good_unique_ptr
 ;
-MOZ_RUNINIT
 static
 Mover
 <

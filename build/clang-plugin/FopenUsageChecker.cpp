@@ -130,8 +130,6 @@ callee
 (
 functionDecl
 (
-allOf
-(
 isInSystemHeader
 (
 )
@@ -341,7 +339,6 @@ hasParamOfType
 "
 HANDLE
 "
-)
 )
 )
 )
