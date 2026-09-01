@@ -227,8 +227,8 @@ char
 suggestedVersion
 bool
 ownDevices
-bool
-gpu2
+AdapterMatch
+aAdapterMatch
 )
 :
 mOperatingSystem
@@ -283,9 +283,9 @@ mRuleId
 (
 ruleId
 )
-mGpu2
+mAdapterMatch
 (
-gpu2
+aAdapterMatch
 )
 {
 }

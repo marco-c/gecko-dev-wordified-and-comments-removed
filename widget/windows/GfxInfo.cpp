@@ -7352,12 +7352,16 @@ FEATURE_FAILURE_BUG_1203199_2
 "
 )
 ;
-APPEND_TO_DRIVER_BLOCKLIST_RANGE_GPU2
+APPEND_TO_DRIVER_BLOCKLIST_RANGE_ADAPTER
 (
 OperatingSystem
 :
 :
 Windows7
+AdapterMatch
+:
+:
+Secondary
 DeviceFamily
 :
 :

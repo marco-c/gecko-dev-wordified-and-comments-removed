@@ -1178,6 +1178,11 @@ CompositorWidget
 h
 "
 "
+GfxInfoAdapterMatchDefs
+.
+inc
+"
+"
 GfxInfoDeviceVendorDefs
 .
 inc
