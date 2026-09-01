@@ -1035,6 +1035,16 @@ fenix
 .
 settings
 .
+ToolbarShortcutSettingsSearchProvider
+import
+org
+.
+mozilla
+.
+fenix
+.
+settings
+.
 ai
 .
 AIControlsSearchProvider
@@ -2645,6 +2655,7 @@ settings
 enableFirefoxLabs
 }
 )
+ToolbarShortcutSettingsSearchProvider
 )
 )
 }
