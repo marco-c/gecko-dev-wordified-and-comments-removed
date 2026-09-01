@@ -2069,7 +2069,7 @@ off
 .
 Nightly
 W2
-Thursday
+Wednesday
 Merge
 Day
 Nightly
@@ -2651,6 +2651,10 @@ ref
 }
 Preferences
 <
+pocket
+-
+guide
+-
 preferences
 >
 .
@@ -4227,6 +4231,10 @@ phabricator
 )
 .
 (
+pocket
+-
+guide
+-
 preferences
 )
 =
