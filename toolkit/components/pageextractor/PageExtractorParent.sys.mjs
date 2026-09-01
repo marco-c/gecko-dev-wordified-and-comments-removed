@@ -736,7 +736,7 @@ currentWindowGlobal
 getActor
 (
 "
-Pdfjs
+PdfJs
 "
 )
 .

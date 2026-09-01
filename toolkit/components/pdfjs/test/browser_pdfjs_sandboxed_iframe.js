@@ -5,7 +5,7 @@ strict
 ;
 const
 {
-PdfjsParent
+PdfJsParent
 }
 =
 ChromeUtils
@@ -21,7 +21,7 @@ pdf
 .
 js
 /
-PdfjsParent
+PdfJsParent
 .
 sys
 .
@@ -917,7 +917,7 @@ sinon
 .
 spy
 (
-PdfjsParent
+PdfJsParent
 .
 prototype
 "
@@ -1210,7 +1210,7 @@ sinon
 .
 spy
 (
-PdfjsParent
+PdfJsParent
 .
 prototype
 "
@@ -1482,7 +1482,7 @@ sinon
 .
 spy
 (
-PdfjsParent
+PdfJsParent
 .
 prototype
 "
@@ -1725,7 +1725,7 @@ sinon
 .
 spy
 (
-PdfjsParent
+PdfJsParent
 .
 prototype
 "

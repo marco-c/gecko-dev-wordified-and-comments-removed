@@ -273,7 +273,7 @@ resultListener
 ;
 }
 function
-waitForPdfjsResult
+waitForPdfJSResult
 (
 findbar
 )
@@ -555,7 +555,7 @@ findbar
 "
 Mozilla
 "
-waitForPdfjsResult
+waitForPdfJSResult
 )
 ;
 is
@@ -733,7 +733,7 @@ doFind
 (
 findbar
 searchString
-waitForPdfjsResult
+waitForPdfJSResult
 )
 ;
 is
@@ -803,7 +803,7 @@ findbar
 "
 MozooOOX
 "
-waitForPdfjsResult
+waitForPdfJSResult
 )
 ;
 is
@@ -964,7 +964,7 @@ findbar
 "
 B2G
 "
-waitForPdfjsResult
+waitForPdfJSResult
 )
 ;
 is
@@ -992,7 +992,7 @@ await
 doFindNext
 (
 findbar
-waitForPdfjsResult
+waitForPdfJSResult
 )
 ;
 is
@@ -1042,7 +1042,7 @@ await
 doFindNext
 (
 findbar
-waitForPdfjsResult
+waitForPdfJSResult
 )
 ;
 is
@@ -1200,7 +1200,7 @@ findbar
 "
 Mozilla
 "
-waitForPdfjsResult
+waitForPdfJSResult
 )
 ;
 is

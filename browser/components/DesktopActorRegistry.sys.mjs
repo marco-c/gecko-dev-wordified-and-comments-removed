@@ -4144,7 +4144,7 @@ safeForUntrustedWebProcess
 :
 true
 }
-Pdfjs
+PdfJs
 :
 {
 parent
@@ -4161,7 +4161,7 @@ pdf
 .
 js
 /
-PdfjsParent
+PdfJsParent
 .
 sys
 .
@@ -4182,7 +4182,7 @@ pdf
 .
 js
 /
-PdfjsChild
+PdfJsChild
 .
 sys
 .

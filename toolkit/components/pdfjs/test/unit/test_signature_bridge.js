@@ -22,7 +22,7 @@ pdf
 .
 js
 /
-PdfjsParent
+PdfJsParent
 .
 sys
 .

@@ -169,7 +169,7 @@ false
 ;
 export
 class
-PdfjsContextMenu
+PdfJsContextMenu
 {
 #
 contextMenu
@@ -870,7 +870,7 @@ name
 aName
 }
 "
-Pdfjs
+PdfJs
 "
 )
 ;
@@ -924,7 +924,7 @@ toUpperCase
 )
 }
 "
-Pdfjs
+PdfJs
 "
 )
 ;

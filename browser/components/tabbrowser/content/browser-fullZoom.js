@@ -1285,7 +1285,7 @@ name
 {
 }
 "
-Pdfjs
+PdfJs
 "
 )
 ;

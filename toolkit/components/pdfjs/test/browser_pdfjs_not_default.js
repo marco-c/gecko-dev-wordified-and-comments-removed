@@ -56,7 +56,7 @@ path
 )
 ;
 await
-getPdfjsActor
+getPdfJsActor
 (
 )
 ;
@@ -85,7 +85,7 @@ true
 )
 ;
 function
-getPdfjsActor
+getPdfJsActor
 (
 )
 {
@@ -124,7 +124,7 @@ currentWindowGlobal
 getActor
 (
 "
-Pdfjs
+PdfJs
 "
 )
 ;

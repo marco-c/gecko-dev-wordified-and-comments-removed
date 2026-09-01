@@ -329,7 +329,7 @@ ifdef
 ANDROID
 content
 /
-GeckoViewPdfjsParent
+GeckoViewPdfJsParent
 .
 sys
 .
@@ -337,7 +337,7 @@ mjs
 (
 content
 /
-GeckoViewPdfjsParent
+GeckoViewPdfJsParent
 .
 sys
 .
@@ -345,7 +345,7 @@ mjs
 )
 content
 /
-GeckoViewPdfjsChild
+GeckoViewPdfJsChild
 .
 sys
 .
@@ -353,7 +353,7 @@ mjs
 (
 content
 /
-GeckoViewPdfjsChild
+GeckoViewPdfJsChild
 .
 sys
 .
@@ -461,7 +461,7 @@ mjs
 )
 content
 /
-PdfjsParent
+PdfJsParent
 .
 sys
 .
@@ -469,7 +469,7 @@ mjs
 (
 content
 /
-PdfjsParent
+PdfJsParent
 .
 sys
 .
@@ -477,7 +477,7 @@ mjs
 )
 content
 /
-PdfjsChild
+PdfJsChild
 .
 sys
 .
@@ -485,7 +485,7 @@ mjs
 (
 content
 /
-PdfjsChild
+PdfJsChild
 .
 sys
 .
@@ -493,7 +493,7 @@ mjs
 )
 content
 /
-PdfjsContextMenu
+PdfJsContextMenu
 .
 sys
 .
@@ -501,7 +501,7 @@ mjs
 (
 content
 /
-PdfjsContextMenu
+PdfJsContextMenu
 .
 sys
 .

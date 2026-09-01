@@ -992,7 +992,7 @@ null
 }
 export
 class
-PdfjsParent
+PdfJsParent
 extends
 JSWindowActorParent
 {
@@ -5021,7 +5021,7 @@ which
 arrive
 while
 the
-Pdfjs
+PdfJs
 document
 is
 in
@@ -5186,7 +5186,7 @@ type
 detail
 }
 "
-Pdfjs
+PdfJs
 "
 )
 ;

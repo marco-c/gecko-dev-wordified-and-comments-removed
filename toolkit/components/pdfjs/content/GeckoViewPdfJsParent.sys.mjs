@@ -339,7 +339,7 @@ detail
 null
 }
 "
-GeckoViewPdfjs
+GeckoViewPdfJs
 "
 )
 ;
@@ -392,7 +392,7 @@ this
 state
 }
 "
-GeckoViewPdfjs
+GeckoViewPdfJs
 "
 )
 ;
@@ -441,7 +441,7 @@ this
 state
 }
 "
-GeckoViewPdfjs
+GeckoViewPdfJs
 "
 )
 ;
@@ -1011,7 +1011,7 @@ save
 "
 }
 "
-GeckoViewPdfjs
+GeckoViewPdfJs
 "
 )
 ;
@@ -1215,7 +1215,7 @@ cleanup
 }
 export
 class
-GeckoViewPdfjsParent
+GeckoViewPdfJsParent
 extends
 GeckoViewActorParent
 {
@@ -1845,12 +1845,12 @@ debug
 warn
 }
 =
-GeckoViewPdfjsParent
+GeckoViewPdfJsParent
 .
 initLogging
 (
 "
-GeckoViewPdfjsParent
+GeckoViewPdfJsParent
 "
 )
 ;

@@ -1285,7 +1285,7 @@ pdfjs
 /
 content
 /
-PdfjsParent
+PdfJsParent
 .
 sys
 .

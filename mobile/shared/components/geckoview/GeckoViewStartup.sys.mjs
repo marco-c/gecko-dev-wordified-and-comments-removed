@@ -621,7 +621,7 @@ safeForUntrustedWebProcess
 :
 true
 }
-GeckoViewPdfjs
+GeckoViewPdfJs
 :
 {
 parent
@@ -638,7 +638,7 @@ pdf
 .
 js
 /
-GeckoViewPdfjsParent
+GeckoViewPdfJsParent
 .
 sys
 .
@@ -659,7 +659,7 @@ pdf
 .
 js
 /
-GeckoViewPdfjsChild
+GeckoViewPdfJsChild
 .
 sys
 .

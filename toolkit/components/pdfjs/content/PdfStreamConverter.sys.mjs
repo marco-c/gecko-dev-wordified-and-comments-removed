@@ -712,11 +712,11 @@ android
 "
 ?
 "
-GeckoViewPdfjs
+GeckoViewPdfJs
 "
 :
 "
-Pdfjs
+PdfJs
 "
 ;
 return

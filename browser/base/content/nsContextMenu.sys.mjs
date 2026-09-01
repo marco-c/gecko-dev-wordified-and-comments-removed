@@ -532,7 +532,7 @@ mjs
 ;
 import
 {
-PdfjsContextMenu
+PdfJsContextMenu
 }
 from
 "
@@ -544,7 +544,7 @@ pdf
 .
 js
 /
-PdfjsContextMenu
+PdfJsContextMenu
 .
 sys
 .
@@ -2180,7 +2180,7 @@ this
 pdfjsContextMenu
 =
 new
-PdfjsContextMenu
+PdfJsContextMenu
 (
 this
 context
