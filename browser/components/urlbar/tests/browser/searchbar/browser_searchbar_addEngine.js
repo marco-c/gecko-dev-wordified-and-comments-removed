@@ -230,12 +230,10 @@ activateItem
 (
 popup
 .
-querySelector
+parentNode
+.
+getMenuItem
 (
-'
-[
-anonid
-=
 "
 add
 -
@@ -243,8 +241,6 @@ engine
 -
 0
 "
-]
-'
 )
 )
 ;
