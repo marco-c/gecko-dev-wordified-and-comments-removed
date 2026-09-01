@@ -107,9 +107,6 @@ TryEmitter
 >
 tryCatch_
 ;
-uint32_t
-numYieldsAtBeginCodeNeedingIterClose_
-;
 SelfHostedIter
 selfHostedIter_
 ;
