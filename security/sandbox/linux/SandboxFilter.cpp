@@ -9193,6 +9193,9 @@ Allow
 )
 ;
 case
+__NR_sched_getaffinity
+:
+case
 __NR_sched_getparam
 :
 case
