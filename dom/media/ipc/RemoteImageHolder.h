@@ -233,12 +233,6 @@ aBufferRecycleBin
 nullptr
 )
 ;
-nsCString
-ToString
-(
-)
-const
-;
 private
 :
 already_AddRefed
