@@ -5507,6 +5507,10 @@ Prepare
 (
 )
 ;
+mTiming
+=
+aTiming
+;
 if
 (
 mIsDocumentLoad
@@ -5969,10 +5973,6 @@ aLoadState
 LoadType
 (
 )
-;
-mTiming
-=
-aTiming
 ;
 mSrcdocData
 =
