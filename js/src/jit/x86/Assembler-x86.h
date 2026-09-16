@@ -823,6 +823,13 @@ RegExpSearcherLastIndexReg
 =
 CallTempReg3
 ;
+static
+constexpr
+Register
+BailoutStubHandlerReg
+=
+CallTempReg0
+;
 #
 if
 defined

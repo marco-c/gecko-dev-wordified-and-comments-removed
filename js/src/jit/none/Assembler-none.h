@@ -479,6 +479,17 @@ invalid_reg
 static
 constexpr
 Register
+BailoutStubHandlerReg
+{
+Registers
+:
+:
+invalid_reg
+}
+;
+static
+constexpr
+Register
 JSReturnReg_Type
 {
 Registers

@@ -1400,6 +1400,13 @@ CallTempReg2
 static
 constexpr
 Register
+BailoutStubHandlerReg
+=
+CallTempReg0
+;
+static
+constexpr
+Register
 JSReturnReg_Type
 =
 a3

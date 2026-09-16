@@ -798,6 +798,13 @@ CallTempReg2
 ;
 static
 constexpr
+Register
+BailoutStubHandlerReg
+=
+CallTempReg0
+;
+static
+constexpr
 uint32_t
 CodeAlignment
 =

@@ -4213,7 +4213,12 @@ initBailoutReturnOffset
 kind
 masm
 .
-currentOffset
+call
+(
+BailoutStubHandlerReg
+)
+.
+offset
 (
 )
 )

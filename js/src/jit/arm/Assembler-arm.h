@@ -1317,6 +1317,13 @@ CallTempReg2
 ;
 static
 constexpr
+Register
+BailoutStubHandlerReg
+=
+CallTempReg0
+;
+static
+constexpr
 FloatRegister
 d0
 =
@@ -6355,6 +6362,12 @@ dest
 ;
 size_t
 size
+(
+)
+const
+;
+size_t
+readableSize
 (
 )
 const
