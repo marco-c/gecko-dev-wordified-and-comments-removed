@@ -331,6 +331,13 @@ mMutex
 =
 0
 ;
+virtual
+void
+CancelTask
+(
+)
+{
+}
 public
 :
 TaskResult
@@ -530,6 +537,12 @@ nsresult
 InitFrontendContext
 (
 )
+;
+void
+CancelTask
+(
+)
+override
 ;
 void
 DidRunTask
