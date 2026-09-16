@@ -8662,10 +8662,16 @@ reading
 .
             
 See
-:
+{
 ref
-:
-mozbuild_files_metadata_finalizing
+}
+mozbuild
+-
+files
+-
+metadata
+-
+finalizing
 for
 more
 info
@@ -10278,8 +10284,9 @@ in
         
 Example
 :
-:
-           
+        
+python
+        
 GENERATED_FILES
 +
 =
@@ -10300,7 +10307,7 @@ foo
 c
 '
 ]
-           
+        
 bar
 =
 GENERATED_FILES
@@ -10311,7 +10318,7 @@ bar
 c
 '
 ]
-           
+        
 bar
 .
 script
@@ -10321,7 +10328,7 @@ generate
 .
 py
 '
-           
+        
 bar
 .
 inputs
@@ -10335,7 +10342,7 @@ for
 bar
 '
 ]
-           
+        
 foo
 =
 GENERATED_FILES
@@ -10346,7 +10353,7 @@ foo
 c
 '
 ]
-           
+        
 foo
 .
 script
@@ -10356,7 +10363,7 @@ generate
 .
 py
 '
-           
+        
 foo
 .
 inputs
@@ -10370,6 +10377,7 @@ for
 foo
 '
 ]
+        
         
 This
 definition
@@ -10520,8 +10528,9 @@ can
 be
 specified
 :
-:
-          
+        
+python
+        
 GENERATED_FILES
 +
 =
@@ -10532,7 +10541,7 @@ bar
 c
 '
 ]
-          
+        
 bar
 =
 GENERATED_FILES
@@ -10543,7 +10552,7 @@ bar
 c
 '
 ]
-          
+        
 bar
 .
 script
@@ -10555,6 +10564,7 @@ py
 :
 make_bar
 '
+        
         
 The
 chosen
@@ -10895,8 +10905,9 @@ quotes
         
 Example
 :
-:
-           
+        
+python
+        
 DEFINES
 [
 '
@@ -10905,7 +10916,7 @@ NS_NO_XPCOM
 ]
 =
 True
-           
+        
 DEFINES
 [
 '
@@ -10914,7 +10925,7 @@ MOZ_EXTENSIONS_DB_SCHEMA
 ]
 =
 15
-           
+        
 DEFINES
 [
 '
@@ -10928,6 +10939,7 @@ DLL_SUFFIX
 so
 "
 '
+        
         
 This
 will
@@ -11305,8 +11317,9 @@ FINAL_TARGET_FILES
 like
 so
 :
-:
-           
+        
+python
+        
 FINAL_TARGET_FILES
 +
 =
@@ -11317,7 +11330,7 @@ foo
 png
 '
 ]
-           
+        
 FINAL_TARGET_FILES
 .
 images
@@ -11339,6 +11352,7 @@ bar
 svg
 '
 ]
+        
         
 "
 "
@@ -11626,15 +11640,16 @@ copied
         
 Example
 :
-:
-           
+        
+python
+        
 LOCALIZED_FILES
 .
 foo
 +
 =
 [
-             
+          
 '
 en
 -
@@ -11644,7 +11659,7 @@ foo
 .
 js
 '
-             
+          
 '
 en
 -
@@ -11656,8 +11671,9 @@ things
 .
 ini
 '
-           
+        
 ]
+        
         
 If
 this
@@ -13112,13 +13128,15 @@ moz
 .
 build
 :
-:
-           
+        
+python
+        
 LIBRARY_NAME
 =
 '
 xpcomsample
 '
+        
         
 would
 generate
@@ -14615,8 +14633,9 @@ EXPORTS
 like
 so
 :
-:
-           
+        
+python
+        
 EXPORTS
 +
 =
@@ -14627,7 +14646,7 @@ foo
 h
 '
 ]
-           
+        
 EXPORTS
 .
 mozilla
@@ -14642,6 +14661,7 @@ bar
 h
 '
 ]
+        
         
 Entries
 in
@@ -15060,10 +15080,12 @@ more
 info
         
 see
-:
+{
 ref
-:
-jar_manifests
+}
+jar
+-
+manifests
 .
         
 "
@@ -16690,7 +16712,7 @@ specify
 gyp
 processing
 :
-            
+        
 -
 input
 gives
@@ -16704,11 +16726,11 @@ configuration
 file
 for
 that
-              
+          
 object
 directory
 .
-            
+        
 -
 variables
 a
@@ -16719,13 +16741,13 @@ and
 values
 to
 pass
-              
+          
 to
 the
 gyp
 processor
 .
-            
+        
 -
 sandbox_vars
 a
@@ -16735,7 +16757,7 @@ variables
 and
 values
 to
-              
+          
 pass
 to
 the
@@ -16748,10 +16770,10 @@ those
 derived
 from
 gyp
-              
+          
 configuration
 .
-            
+        
 -
 no_chromium
 a
@@ -16763,14 +16785,14 @@ to
 True
 disables
 some
-              
+          
 special
 handling
 that
 emulates
 gyp_chromium
 .
-            
+        
 -
 no_unified
 a
@@ -16782,12 +16804,12 @@ to
 True
 disables
 source
-              
+          
 file
 unification
 entirely
 .
-            
+        
 -
 non_unified_sources
 a
@@ -16797,7 +16819,7 @@ sources
 files
 relative
 to
-              
+          
 the
 current
 moz
@@ -16810,10 +16832,10 @@ excluded
 from
 source
 file
-              
+          
 unification
 .
-            
+        
 -
 action_overrides
 a
@@ -16825,7 +16847,7 @@ values
 of
 the
 script
-              
+          
 attribute
 to
 use
@@ -16836,7 +16858,7 @@ the
 specified
 action
 .
-            
+        
 -
 install_static_libs
 a
@@ -16846,7 +16868,7 @@ gyp
 static_library
 target
 names
-              
+          
 whose
 output
 should
@@ -16860,14 +16882,14 @@ DIST
 lib
 .
 Equivalent
-              
+          
 to
 setting
 BUILD_STATIC_LIB_ARCHIVE
 =
 True
 and
-              
+          
 DIST_INSTALL
 =
 True
@@ -16877,7 +16899,7 @@ targets
 but
 selective
 rather
-              
+          
 than
 affecting
 every
@@ -16893,8 +16915,9 @@ use
 looks
 like
 :
-:
-            
+        
+python
+        
 GYP_DIRS
 +
 =
@@ -16906,7 +16929,7 @@ foo
 bar
 '
 ]
-            
+        
 GYP_DIRS
 [
 '
@@ -16923,7 +16946,7 @@ foo
 .
 gyp
 '
-            
+        
 GYP_DIRS
 [
 '
@@ -16934,7 +16957,7 @@ foo
 variables
 =
 {
-                
+            
 '
 foo
 '
@@ -16942,20 +16965,21 @@ foo
 '
 bar
 '
-                
+            
 (
 .
 .
 .
 )
-            
+        
 }
-            
+        
 (
 .
 .
 .
 )
+        
         
 "
 "
@@ -18580,8 +18604,9 @@ TEST_HARNESS_FILES
 like
 so
 :
-:
-           
+        
+python
+        
 TEST_HARNESS_FILES
 .
 foo
@@ -18594,6 +18619,7 @@ foo
 py
 '
 ]
+        
         
 Files
 from
@@ -18627,8 +18653,9 @@ a
 character
 respectively
 :
-:
-           
+        
+python
+        
 TEST_HARNESS_FILES
 .
 path
@@ -18650,6 +18677,7 @@ quux
 py
 '
 ]
+        
         
 "
 "
@@ -19238,22 +19266,12 @@ foo
 '
 .
         
+#
+#
+#
+#
 Example
 usage
-        
-^
-^
-^
-^
-^
-^
-^
-^
-^
-^
-^
-^
-^
         
 Include
 sibling
@@ -19263,10 +19281,10 @@ from
 the
 current
 directory
-.
 :
-:
-           
+        
+python
+        
 include
 (
 '
@@ -19275,6 +19293,7 @@ sibling
 build
 '
 )
+        
         
 Include
 foo
@@ -19289,8 +19308,9 @@ top
 source
 directory
 :
-:
-           
+        
+python
+        
 include
 (
 '
@@ -19302,6 +19322,7 @@ foo
 build
 '
 )
+        
         
 "
 "
@@ -19485,22 +19506,12 @@ this
 function
 .
         
+#
+#
+#
+#
 Example
 usage
-        
-^
-^
-^
-^
-^
-^
-^
-^
-^
-^
-^
-^
-^
         
 To
 make
@@ -19513,8 +19524,9 @@ the
 given
 extension
 :
-:
-          
+        
+python
+        
 XPI_NAME
 =
 '
@@ -19522,13 +19534,14 @@ cool
 -
 extension
 '
-          
+        
 export
 (
 '
 XPI_NAME
 '
 )
+        
         
 "
 "
@@ -19719,25 +19732,12 @@ global
 scope
 .
         
+#
+#
+#
+#
 Example
 template
-        
-^
-^
-^
-^
-^
-^
-^
-^
-^
-^
-^
-^
-^
-^
-^
-^
         
 The
 following
@@ -19771,21 +19771,22 @@ contain
 mozglue
 "
 :
-:
-           
+        
+python
+        
 template
-           
+        
 def
 Program
 (
 name
 )
 :
-               
+            
 PROGRAM
 =
 name
-               
+            
 USE_LIBS
 +
 =
@@ -19795,28 +19796,13 @@ mozglue
 '
 ]
         
+        
+#
+#
+#
+#
 Template
 invocation
-        
-^
-^
-^
-^
-^
-^
-^
-^
-^
-^
-^
-^
-^
-^
-^
-^
-^
-^
-^
         
 A
 template
@@ -19830,14 +19816,16 @@ a
 function
 call
 :
-:
-           
+        
+python
+        
 Program
 (
 '
 myprog
 '
 )
+        
         
 The
 result
@@ -19870,8 +19858,9 @@ invoking
 the
 template
 :
-:
-           
+        
+python
+        
 FINAL_TARGET
 =
 '
@@ -19879,7 +19868,7 @@ dist
 /
 other
 '
-           
+        
 USE_LIBS
 +
 =
@@ -19888,14 +19877,14 @@ USE_LIBS
 mylib
 '
 ]
-           
+        
 Program
 (
 '
 myprog
 '
 )
-           
+        
 USE_LIBS
 +
 =
@@ -19904,6 +19893,7 @@ USE_LIBS
 otherlib
 '
 ]
+        
         
 The
 above
@@ -20725,8 +20715,9 @@ RESOURCE_FILES
 like
 so
 :
-:
-           
+        
+python
+        
 RESOURCE_FILES
 +
 =
@@ -20737,7 +20728,7 @@ foo
 res
 '
 ]
-           
+        
 RESOURCE_FILES
 .
 fonts
@@ -20750,6 +20741,7 @@ bar
 res
 '
 ]
+        
         
 "
 "
