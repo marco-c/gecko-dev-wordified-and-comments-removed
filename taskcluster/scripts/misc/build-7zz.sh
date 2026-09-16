@@ -157,6 +157,12 @@ f
 cmpl_gcc
 .
 mak
+LDFLAGS_STATIC_2
+=
+"
+-
+static
+"
 popd
 fi
 mkdir
