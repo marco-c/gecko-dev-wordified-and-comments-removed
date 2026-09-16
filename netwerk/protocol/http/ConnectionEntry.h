@@ -789,6 +789,12 @@ TotalActiveConnections
 const
 ;
 bool
+HasUsableH3Connection
+(
+)
+const
+;
+bool
 HasActiveH3Connection
 (
 )

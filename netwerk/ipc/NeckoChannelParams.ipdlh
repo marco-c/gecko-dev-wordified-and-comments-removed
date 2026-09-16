@@ -3036,8 +3036,8 @@ isIPv4Disabled
 bool
 isIPv6Disabled
 ;
-bool
-isHttp3Disabled
+uint8_t
+http3Policy
 ;
 nsCString
 topWindowOrigin
@@ -3053,9 +3053,6 @@ webTransportId
 ;
 bool
 hasIPHintAddress
-;
-bool
-http3Only
 ;
 nsCString
 echConfig

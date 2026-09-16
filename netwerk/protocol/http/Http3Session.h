@@ -591,6 +591,14 @@ aIsTunnel
 false
 )
 ;
+void
+RekeyAfterHttp3OnlyHandOff
+(
+nsHttpConnectionInfo
+*
+aConnInfo
+)
+;
 bool
 IsConnected
 (

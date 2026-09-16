@@ -5741,9 +5741,12 @@ IsHttp3
 ci
 -
 >
-SetHttp3Only
+SetHttp3Policy
 (
-true
+Http3Policy
+:
+:
+Only
 )
 ;
 }
