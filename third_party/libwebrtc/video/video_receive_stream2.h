@@ -1199,6 +1199,15 @@ UpdateHistograms
 )
 ;
 void
+ConfigureCodecs
+(
+)
+RTC_RUN_ON
+(
+worker_sequence_checker_
+)
+;
+void
 CalculateCorruptionScore
 (
 const
