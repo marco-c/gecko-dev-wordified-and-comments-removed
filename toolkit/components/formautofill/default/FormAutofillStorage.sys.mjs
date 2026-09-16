@@ -2692,6 +2692,13 @@ getBoolPref
 ADDRESS_RUST_MIGRATION_TEST_PREF
 false
 )
+&
+&
+lazy
+.
+AddressStorageMigrator
+.
+dryRunPending
 ;
 if
 (
