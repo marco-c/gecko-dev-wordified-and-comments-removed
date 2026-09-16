@@ -1743,8 +1743,6 @@ ExtContentPolicyType
 aContentPolicyType
 )
 ;
-private
-:
 static
 bool
 IsNavigationContentPolicy
@@ -1753,6 +1751,8 @@ nsContentPolicyType
 aContentPolicyType
 )
 ;
+private
+:
 static
 bool
 IsWorkerContentPolicy
