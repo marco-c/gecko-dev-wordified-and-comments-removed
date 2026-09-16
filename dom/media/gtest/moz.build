@@ -482,6 +482,11 @@ TestSimpleMap
 cpp
 "
 "
+TestSpeechModelMapping
+.
+cpp
+"
+"
 TestTelemetryProbesReporter
 .
 cpp
@@ -649,11 +654,6 @@ cpp
 "
 "
 TestGMPRemoveAndDelete
-.
-cpp
-"
-"
-TestSpeechModelMapping
 .
 cpp
 "

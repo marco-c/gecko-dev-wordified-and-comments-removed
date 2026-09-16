@@ -2623,7 +2623,7 @@ id
 dom
 :
 :
-SpeechModelFor
+LanguagesToSpeechModelId
 )
 SRP
 -
@@ -3087,7 +3087,7 @@ id
 dom
 :
 :
-SpeechModelFor
+LanguagesToSpeechModelId
 for
 speech
 recognition
