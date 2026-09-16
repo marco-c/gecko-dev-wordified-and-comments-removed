@@ -461,6 +461,10 @@ pub
 prim_rect
 :
 RectKey
+pub
+local_clip_rect
+:
+RectKey
 }
 #
 [

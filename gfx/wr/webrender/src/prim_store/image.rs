@@ -2486,7 +2486,7 @@ ImageTemplate
 >
 (
 )
-68
+84
 "
 ImageTemplate
 size
@@ -2508,7 +2508,7 @@ ImageKey
 >
 (
 )
-56
+72
 "
 ImageKey
 size
@@ -2552,7 +2552,7 @@ YuvImageTemplate
 >
 (
 )
-88
+104
 "
 YuvImageTemplate
 size
@@ -2574,7 +2574,7 @@ YuvImageKey
 >
 (
 )
-52
+68
 "
 YuvImageKey
 size
