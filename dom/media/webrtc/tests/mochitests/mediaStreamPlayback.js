@@ -253,6 +253,16 @@ mediaElement
 play
 (
 )
+.
+catch
+(
+(
+)
+=
+>
+{
+}
+)
 ;
 }
 verifyPlaying

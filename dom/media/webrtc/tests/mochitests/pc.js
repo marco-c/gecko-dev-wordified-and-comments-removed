@@ -4325,6 +4325,16 @@ element
 play
 (
 )
+.
+catch
+(
+(
+)
+=
+>
+{
+}
+)
 ;
 }
 addSendStream
