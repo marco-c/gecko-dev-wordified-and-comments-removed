@@ -7086,11 +7086,6 @@ c
 import
 sys
 ;
-from
-collections
-import
-OrderedDict
-;
 "
                 
 "
@@ -7098,7 +7093,7 @@ print
 (
 list
 (
-OrderedDict
+dict
 .
 fromkeys
 (
