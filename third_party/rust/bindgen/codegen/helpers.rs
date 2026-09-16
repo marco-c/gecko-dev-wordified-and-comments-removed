@@ -621,9 +621,9 @@ format_ident
 "
 __BindgenOpaqueArray
 {
+align
 }
 "
-align
 )
 ;
 let
@@ -2130,6 +2130,8 @@ f64
 :
 :
 NAN
+as
+_
 }
 )
 ;
@@ -2158,6 +2160,8 @@ f64
 :
 :
 INFINITY
+as
+_
 }
 }
 else
@@ -2169,6 +2173,8 @@ f64
 :
 :
 NEG_INFINITY
+as
+_
 }
 }
 ;

@@ -583,9 +583,6 @@ kind
 )
 {
 CXCursor_ObjCClassRef
-=
->
-{
 if
 cursor
 .
@@ -595,6 +592,8 @@ kind
 =
 =
 CXCursor_ObjCCategoryDecl
+=
+>
 {
 interface
 .
@@ -619,7 +618,6 @@ spelling
 )
 )
 ;
-}
 }
 CXCursor_ObjCProtocolRef
 =

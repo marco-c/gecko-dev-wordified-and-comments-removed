@@ -314,6 +314,15 @@ OsStr
 >
 {
 let
+path
+=
+path
+.
+as_ref
+(
+)
+;
+let
 library
 =
 #
