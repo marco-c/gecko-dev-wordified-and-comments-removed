@@ -288,3 +288,15 @@ return
 false
 ;
 }
+bool
+TelemetryUserInteraction
+:
+:
+IsRecordingEnabled
+(
+)
+{
+return
+gTelemetryUserInteractionCanRecord
+;
+}

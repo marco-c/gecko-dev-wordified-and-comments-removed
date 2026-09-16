@@ -35,6 +35,11 @@ nsAString
 aName
 )
 ;
+bool
+IsRecordingEnabled
+(
+)
+;
 }
 #
 endif
