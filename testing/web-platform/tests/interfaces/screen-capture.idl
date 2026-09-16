@@ -183,6 +183,14 @@ exclude
 "
 }
 ;
+enum
+AudioSelectionPreferenceEnum
+{
+"
+preferred
+"
+}
+;
 dictionary
 DisplayMediaStreamOptions
 {
@@ -221,6 +229,9 @@ surfaceSwitching
 ;
 MonitorTypeSurfacesEnum
 monitorTypeSurfaces
+;
+AudioSelectionPreferenceEnum
+audioSelection
 ;
 }
 ;

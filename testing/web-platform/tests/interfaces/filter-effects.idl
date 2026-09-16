@@ -100,10 +100,6 @@ height
 ;
 }
 ;
-SVGFilterElement
-includes
-SVGURIReference
-;
 interface
 mixin
 SVGFilterPrimitiveStandardAttributes

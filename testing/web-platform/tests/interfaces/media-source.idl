@@ -484,10 +484,7 @@ onbufferedchange
 [
 Exposed
 =
-(
 Window
-DedicatedWorker
-)
 ]
 partial
 interface
@@ -504,10 +501,7 @@ sourceBuffer
 [
 Exposed
 =
-(
 Window
-DedicatedWorker
-)
 ]
 partial
 interface
@@ -524,10 +518,7 @@ sourceBuffer
 [
 Exposed
 =
-(
 Window
-DedicatedWorker
-)
 ]
 partial
 interface
