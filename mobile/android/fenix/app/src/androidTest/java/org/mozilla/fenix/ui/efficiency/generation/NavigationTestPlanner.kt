@@ -270,7 +270,7 @@ ReachabilityCase
 return
 PageCatalog
 .
-discoverPages
+discoverNavigablePages
 (
 )
 .
