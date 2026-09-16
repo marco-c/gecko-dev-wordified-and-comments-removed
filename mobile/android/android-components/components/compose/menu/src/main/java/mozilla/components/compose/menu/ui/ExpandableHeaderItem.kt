@@ -1107,7 +1107,6 @@ state
 MenuListItemBadge
 (
 badge
-state
 )
 ChevronBadge
 (

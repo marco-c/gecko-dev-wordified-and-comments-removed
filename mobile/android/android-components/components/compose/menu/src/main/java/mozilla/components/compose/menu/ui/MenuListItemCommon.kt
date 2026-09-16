@@ -349,9 +349,6 @@ badge
 :
 MenuItemBadge
 ?
-state
-:
-MenuItemState
 )
 {
 if
@@ -373,11 +370,11 @@ text
 value
 color
 =
-MaterialTheme
+badge
 .
-colorScheme
+state
 .
-onSurface
+contentColor
 style
 =
 AcornTheme
@@ -410,6 +407,8 @@ extraLarge
 .
 background
 (
+badge
+.
 state
 .
 badgeContainerColor

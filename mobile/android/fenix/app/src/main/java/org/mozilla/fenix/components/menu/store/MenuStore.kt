@@ -623,6 +623,13 @@ action
 .
 state
 )
+is
+MenuAction
+.
+IPProtectionToggle
+-
+>
+state
 }
 }
 VisibleForTesting
