@@ -2096,12 +2096,11 @@ Thursday
 Deadline
 for
 security
--
-approval
-requests
+bug
+uplifts
 Beta
 W2
-Wednesday
+Tuesday
 Release
 note
 submission
