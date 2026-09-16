@@ -1777,7 +1777,7 @@ Note
 over
 SR
 :
-Feature
+Permissions
 Policy
 AI
 Controls
@@ -4535,7 +4535,7 @@ Note
 over
 SR
 :
-Feature
+Permissions
 Policy
 AI
 Controls

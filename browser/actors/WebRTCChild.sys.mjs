@@ -2293,7 +2293,7 @@ should
 be
 delegated
 using
-Feature
+Permissions
 Policy
 and
 top

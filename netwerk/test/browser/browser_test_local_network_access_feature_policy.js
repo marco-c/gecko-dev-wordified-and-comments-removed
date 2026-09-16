@@ -67,7 +67,7 @@ Same
 origin
 iframe
 inherits
-Feature
+Permissions
 Policy
 from
 parent
@@ -355,7 +355,7 @@ should
 be
 blocked
 by
-Feature
+Permissions
 Policy
 "
 )
@@ -403,7 +403,7 @@ prompt
 should
 appear
 when
-Feature
+Permissions
 Policy
 blocks
 request
@@ -2044,7 +2044,7 @@ should
 be
 blocked
 by
-Feature
+Permissions
 Policy
 "
 )
@@ -2203,7 +2203,7 @@ prompt
 should
 appear
 -
-Feature
+Permissions
 Policy
 blocks
 it
@@ -2243,7 +2243,7 @@ Test
 Nested
 iframes
 respect
-Feature
+Permissions
 Policy
 (
 cross

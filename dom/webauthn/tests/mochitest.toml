@@ -474,7 +474,7 @@ of
 WebAuthn
 requires
 a
-feature
+permissions
 policy
 .
 ]
@@ -1126,7 +1126,7 @@ of
 WebAuthn
 requires
 a
-feature
+permissions
 policy
 .
 ]

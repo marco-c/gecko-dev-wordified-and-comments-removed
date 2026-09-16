@@ -77,7 +77,7 @@ io
 /
 webappsec
 -
-feature
+permissions
 -
 policy
 /

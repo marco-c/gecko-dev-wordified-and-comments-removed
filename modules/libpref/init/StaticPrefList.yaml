@@ -31070,8 +31070,9 @@ always
 This
 pref
 enables
-the
-featurePolicy
+Permissions
+-
+Policy
 header
 support
 .

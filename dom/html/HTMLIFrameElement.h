@@ -123,11 +123,8 @@ aResult
 )
 override
 ;
-NS_IMETHOD_
-(
 bool
-)
-IsAttributeMapped
+IsNoNamespaceAttrMapped
 (
 const
 nsAtom

@@ -10542,14 +10542,14 @@ cross
 -
 origin
 container
-feature
+permissions
 policy
 required
 to
 *
 initialize
 the
-feature
+permissions
 policy
 of
 a
