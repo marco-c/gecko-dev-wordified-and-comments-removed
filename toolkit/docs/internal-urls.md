@@ -1127,8 +1127,6 @@ chrome
 registration
 ]
 :
-.
-.
 /
 build
 /
@@ -1137,14 +1135,14 @@ buildsystem
 chrome
 -
 registration
+.
+md
 [
 resource
 -
 map
 ]
 :
-.
-.
 /
 build
 /
@@ -1153,6 +1151,8 @@ buildsystem
 chrome
 -
 registration
+.
+md
 #
 resource
 [
