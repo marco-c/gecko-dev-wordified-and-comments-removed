@@ -3325,13 +3325,6 @@ local
 toolchain
 :
 true
-worker
--
-type
-:
-b
--
-win2022
 treeherder
 :
 symbol
@@ -3425,13 +3418,6 @@ local
 toolchain
 :
 true
-worker
--
-type
-:
-b
--
-win2022
 treeherder
 :
 symbol
