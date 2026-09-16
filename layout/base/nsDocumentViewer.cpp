@@ -634,9 +634,6 @@ nsXULPopupManager
 h
 "
 #
-ifdef
-NS_PRINTING
-#
 include
 "
 nsDeviceContextSpecProxy
@@ -678,8 +675,6 @@ nsISimpleEnumerator
 .
 h
 "
-#
-endif
 #
 include
 "
@@ -881,9 +876,6 @@ mozilla
 LazyLogModule
 gPageCacheLog
 ;
-#
-ifdef
-NS_PRINTING
 mozilla
 :
 :
@@ -914,8 +906,6 @@ Debug
 _p1
 )
 ;
-#
-endif
 #
 define
 PRT_YESNO
@@ -1327,13 +1317,8 @@ public
 nsIDocumentViewerEdit
 public
 nsIDocumentViewerPrint
-#
-ifdef
-NS_PRINTING
 public
 nsIWebBrowserPrint
-#
-endif
 {
 friend
 class
@@ -1356,12 +1341,7 @@ nsDocumentViewer
 NS_DECL_ISUPPORTS
 NS_DECL_NSIDOCUMENTVIEWER
 NS_DECL_NSIDOCUMENTVIEWEREDIT
-#
-ifdef
-NS_PRINTING
 NS_DECL_NSIWEBBROWSERPRINT
-#
-endif
 NS_DECL_NSIDOCUMENTVIEWERPRINT
 protected
 :
@@ -1617,9 +1597,6 @@ mInPermitUnloadPrompt
 :
 1
 ;
-#
-ifdef
-NS_PRINTING
 unsigned
 mClosingWhilePrinting
 :
@@ -1636,8 +1613,6 @@ nsPrintJob
 >
 mPrintJob
 ;
-#
-endif
 int32_t
 mReloadEncodingSource
 ;
@@ -1753,9 +1728,6 @@ mDeferredWindowClose
 =
 false
 ;
-#
-ifdef
-NS_PRINTING
 mClosingWhilePrinting
 =
 false
@@ -1782,8 +1754,6 @@ Destroy
 )
 ;
 }
-#
-endif
 }
 bool
 nsDocumentViewer
@@ -1804,9 +1774,6 @@ return
 false
 ;
 }
-#
-ifdef
-NS_PRINTING
 if
 (
 mPrintJob
@@ -1816,8 +1783,6 @@ return
 false
 ;
 }
-#
-endif
 return
 true
 ;
@@ -1865,9 +1830,6 @@ mInPermitUnloadPrompt
 (
 false
 )
-#
-ifdef
-NS_PRINTING
 mClosingWhilePrinting
 (
 false
@@ -1876,8 +1838,6 @@ mCloseWindowAfterPrint
 (
 false
 )
-#
-endif
 mReloadEncodingSource
 (
 kCharsetUninitialized
@@ -1929,15 +1889,10 @@ NS_INTERFACE_MAP_ENTRY_AMBIGUOUS
 nsISupports
 nsIDocumentViewer
 )
-#
-ifdef
-NS_PRINTING
 NS_INTERFACE_MAP_ENTRY
 (
 nsIWebBrowserPrint
 )
-#
-endif
 NS_INTERFACE_MAP_END
 nsDocumentViewer
 :
@@ -1975,9 +1930,6 @@ Destroy
 )
 ;
 }
-#
-ifdef
-NS_PRINTING
 if
 (
 RefPtr
@@ -2000,8 +1952,6 @@ Destroy
 )
 ;
 }
-#
-endif
 MOZ_RELEASE_ASSERT
 (
 mDestroyBlockedCount
@@ -2423,9 +2373,6 @@ presshell
 "
 )
 ;
-#
-ifdef
-NS_PRINTING
 MOZ_ASSERT
 (
 !
@@ -2445,8 +2392,6 @@ job
 "
 )
 ;
-#
-endif
 nsCOMPtr
 <
 Document
@@ -2929,9 +2874,6 @@ Init
 mDeviceContext
 )
 ;
-#
-ifdef
-NS_PRINTING
 makeCX
 =
 !
@@ -2942,14 +2884,6 @@ GetIsPrintPreview
 &
 aNeedMakeCX
 ;
-#
-else
-makeCX
-=
-true
-;
-#
-endif
 }
 if
 (
@@ -3957,9 +3891,6 @@ GetWrapperPreserveColor
 nullptr
 )
 ;
-#
-ifdef
-NS_PRINTING
 if
 (
 window
@@ -4046,8 +3977,6 @@ DelayedCloseForPrinting
 ;
 }
 }
-#
-endif
 return
 NS_OK
 ;
@@ -5190,9 +5119,6 @@ return
 NS_OK
 ;
 }
-#
-ifdef
-NS_PRINTING
 if
 (
 mPrintJob
@@ -5208,8 +5134,6 @@ true
 ;
 }
 else
-#
-endif
 {
 mDocument
 -
@@ -5257,9 +5181,6 @@ return
 NS_OK
 ;
 }
-#
-ifdef
-NS_PRINTING
 if
 (
 mPrintJob
@@ -5277,8 +5198,6 @@ return
 NS_OK
 ;
 }
-#
-endif
 if
 (
 mBFCachePreventionObserver
@@ -5331,9 +5250,6 @@ Destroy
 )
 ;
 }
-#
-ifdef
-NS_PRINTING
 if
 (
 RefPtr
@@ -5391,8 +5307,6 @@ it
 )
 ;
 }
-#
-endif
 if
 (
 mPreviousViewer
@@ -9158,9 +9072,6 @@ return
 NS_OK
 ;
 }
-#
-ifdef
-NS_PRINTING
 NS_IMETHODIMP
 nsDocumentViewer
 :
@@ -10641,8 +10552,6 @@ NS_OK
 NS_ERROR_FAILURE
 ;
 }
-#
-endif
 bool
 nsDocumentViewer
 :
@@ -10652,9 +10561,6 @@ GetIsPrinting
 )
 const
 {
-#
-ifdef
-NS_PRINTING
 if
 (
 mPrintJob
@@ -10669,8 +10575,6 @@ GetIsPrinting
 )
 ;
 }
-#
-endif
 return
 false
 ;
@@ -10684,9 +10588,6 @@ GetIsPrintPreview
 )
 const
 {
-#
-ifdef
-NS_PRINTING
 return
 mPrintJob
 &
@@ -10698,13 +10599,6 @@ CreatedForPrintPreview
 (
 )
 ;
-#
-else
-return
-false
-;
-#
-endif
 }
 void
 nsDocumentViewer
@@ -10787,9 +10681,6 @@ OnDonePrinting
 (
 )
 {
-#
-ifdef
-NS_PRINTING
 RefPtr
 printJob
 =
@@ -10929,8 +10820,6 @@ mClosingWhilePrinting
 false
 ;
 }
-#
-endif
 }
 NS_IMETHODIMP
 nsDocumentViewer
@@ -10946,9 +10835,6 @@ RemotePrintJobChild
 aRemotePrintJob
 )
 {
-#
-ifdef
-NS_PRINTING
 {
 nsAutoScriptBlocker
 scriptBlocker
@@ -11099,8 +10985,6 @@ FlushType
 Layout
 )
 ;
-#
-endif
 return
 NS_OK
 ;

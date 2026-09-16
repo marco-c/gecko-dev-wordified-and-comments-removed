@@ -239,9 +239,6 @@ ServoStyleConsts
 h
 "
 #
-ifdef
-NS_PRINTING
-#
 include
 "
 nsIWebBrowserPrint
@@ -255,8 +252,6 @@ nsIDocumentViewer
 .
 h
 "
-#
-endif
 #
 include
 "
@@ -836,9 +831,6 @@ if
 mDocShell
 )
 {
-#
-ifdef
-NS_PRINTING
 if
 (
 aIID
@@ -932,8 +924,6 @@ return
 NS_OK
 ;
 }
-#
-endif
 return
 mDocShell
 -
