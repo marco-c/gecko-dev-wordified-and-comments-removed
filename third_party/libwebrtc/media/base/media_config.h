@@ -18,7 +18,7 @@ true
 bool
 stats_timestamp_with_environment_clock
 =
-false
+true
 ;
 struct
 Video
