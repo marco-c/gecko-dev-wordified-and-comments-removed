@@ -210,6 +210,13 @@ js
 ]
 [
 "
+browser_ml_engine_creation_interceptor
+.
+js
+"
+]
+[
+"
 browser_ml_engine_e2e
 .
 js
