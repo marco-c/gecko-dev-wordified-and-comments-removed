@@ -14,7 +14,7 @@ Vec
 }
 ;
 use
-parking_lot
+wgpu_sync
 :
 :
 Mutex
@@ -32,8 +32,17 @@ inner
 Mutex
 :
 :
+const_new
+(
+wgpu_sync
+:
+:
+RawMutex
+:
+:
 new
 (
+)
 Vec
 :
 :

@@ -2236,6 +2236,9 @@ TextureUses
 :
 COPY_DST
 }
+queue_family_ownership_transfer
+:
+None
 }
 ;
 let
@@ -2287,6 +2290,9 @@ TextureUses
 :
 RESOURCE
 }
+queue_family_ownership_transfer
+:
+None
 }
 ;
 let
@@ -4324,6 +4330,9 @@ TextureUses
 :
 COLOR_TARGET
 }
+queue_family_ownership_transfer
+:
+None
 }
 ;
 unsafe
@@ -4757,6 +4766,9 @@ TextureUses
 :
 PRESENT
 }
+queue_family_ownership_transfer
+:
+None
 }
 ;
 unsafe

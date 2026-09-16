@@ -1514,6 +1514,11 @@ range
 barrier
 .
 range
+queue_family_ownership_transfer
+:
+barrier
+.
+queue_family_ownership_transfer
 }
 )
 ;

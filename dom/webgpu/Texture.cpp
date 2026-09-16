@@ -290,7 +290,7 @@ aDesc
 ffi
 :
 :
-WGPUTextureViewDescriptor
+WGPUFfiTextureViewDescriptor
 desc
 =
 {
@@ -322,13 +322,6 @@ ffi
 :
 WGPUTextureFormat
 format
-=
-{
-ffi
-:
-:
-WGPUTextureFormat_Sentinel
-}
 ;
 if
 (
@@ -367,11 +360,6 @@ ffi
 :
 WGPUTextureViewDimension
 dimension
-=
-ffi
-:
-:
-WGPUTextureViewDimension_Sentinel
 ;
 if
 (

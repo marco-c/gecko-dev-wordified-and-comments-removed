@@ -381,14 +381,6 @@ Other
 ;
 return
 ;
-case
-ffi
-:
-:
-WGPUDeviceType_Sentinel
-:
-break
-;
 }
 MOZ_CRASH
 (
@@ -554,12 +546,6 @@ ffi
 :
 :
 WGPUBackend_BrowserWebGpu
-:
-case
-ffi
-:
-:
-WGPUBackend_Sentinel
 :
 break
 ;

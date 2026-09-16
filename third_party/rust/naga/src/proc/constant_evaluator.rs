@@ -19510,15 +19510,6 @@ Vector
 .
 .
 }
-|
-TypeInner
-:
-:
-Matrix
-{
-.
-.
-}
 =
 >
 (

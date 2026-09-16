@@ -22,15 +22,6 @@ h
 #
 include
 "
-ipc
-/
-WebGPUChild
-.
-h
-"
-#
-include
-"
 mozilla
 /
 dom

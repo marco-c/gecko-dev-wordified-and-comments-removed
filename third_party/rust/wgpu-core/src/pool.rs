@@ -32,10 +32,7 @@ HashMap
 }
 ;
 use
-once_cell
-:
-:
-sync
+wgpu_sync
 :
 :
 OnceCell

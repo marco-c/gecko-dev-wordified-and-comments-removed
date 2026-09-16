@@ -589,7 +589,7 @@ nullptr
 ffi
 :
 :
-WGPUBufferDescriptor
+WGPUFfiBufferDescriptor
 desc
 =
 {

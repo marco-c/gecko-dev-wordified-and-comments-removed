@@ -4576,6 +4576,9 @@ TextureUses
 :
 STORAGE_READ_WRITE
 }
+queue_family_ownership_transfer
+:
+None
 }
 ;
 cmd_encoder
@@ -4908,6 +4911,9 @@ TextureUses
 :
 COPY_DST
 }
+queue_family_ownership_transfer
+:
+None
 }
 ;
 let
@@ -5533,6 +5539,9 @@ TextureUses
 :
 PRESENT
 }
+queue_family_ownership_transfer
+:
+None
 }
 ;
 let
@@ -5586,6 +5595,9 @@ TextureUses
 :
 COPY_SRC
 }
+queue_family_ownership_transfer
+:
+None
 }
 ;
 let
@@ -5639,6 +5651,9 @@ TextureUses
 :
 STORAGE_READ_WRITE
 }
+queue_family_ownership_transfer
+:
+None
 }
 ;
 unsafe

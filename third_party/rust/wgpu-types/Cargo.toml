@@ -491,6 +491,18 @@ version
 [
 dependencies
 .
+macro_rules_attribute
+]
+version
+=
+"
+0
+.
+2
+"
+[
+dependencies
+.
 naga
 -
 types
@@ -703,7 +715,7 @@ version
 .
 3
 .
-100
+104
 "
 optional
 =
@@ -740,7 +752,7 @@ version
 .
 3
 .
-100
+104
 "
 features
 =

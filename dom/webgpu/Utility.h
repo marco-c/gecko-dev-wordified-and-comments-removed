@@ -252,7 +252,7 @@ const
 ffi
 :
 :
-WGPUTextureDescriptor
+WGPUFfiTextureDescriptor
 *
 Get
 (
@@ -282,7 +282,7 @@ mViewFormats
 ffi
 :
 :
-WGPUTextureDescriptor
+WGPUFfiTextureDescriptor
 mDesc
 =
 {

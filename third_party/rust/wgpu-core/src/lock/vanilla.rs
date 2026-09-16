@@ -30,7 +30,7 @@ Mutex
 T
 >
 (
-parking_lot
+wgpu_sync
 :
 :
 Mutex
@@ -48,7 +48,7 @@ a
 T
 >
 (
-parking_lot
+wgpu_sync
 :
 :
 MutexGuard
@@ -88,7 +88,7 @@ T
 {
 Mutex
 (
-parking_lot
+wgpu_sync
 :
 :
 Mutex
@@ -318,7 +318,7 @@ RwLock
 T
 >
 (
-parking_lot
+wgpu_sync
 :
 :
 RwLock
@@ -336,7 +336,7 @@ a
 T
 >
 (
-parking_lot
+wgpu_sync
 :
 :
 RwLockReadGuard
@@ -356,7 +356,7 @@ a
 T
 >
 (
-parking_lot
+wgpu_sync
 :
 :
 RwLockWriteGuard
@@ -396,7 +396,7 @@ T
 {
 RwLock
 (
-parking_lot
+wgpu_sync
 :
 :
 RwLock

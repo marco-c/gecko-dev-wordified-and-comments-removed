@@ -17,10 +17,7 @@ ptr
 }
 ;
 use
-once_cell
-:
-:
-sync
+wgpu_sync
 :
 :
 Lazy

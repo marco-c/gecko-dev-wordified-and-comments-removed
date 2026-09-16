@@ -122,12 +122,12 @@ MTLVertexStepFunction
 }
 ;
 use
-parking_lot
+wgpu_sync
 :
 :
 {
 Condvar
-Mutex
+CondvarMutex
 RwLock
 }
 ;
@@ -12125,7 +12125,7 @@ Arc
 new
 (
 (
-Mutex
+CondvarMutex
 :
 :
 new

@@ -26,7 +26,7 @@ ordered_float
 OrderedFloat
 ;
 use
-parking_lot
+wgpu_sync
 :
 :
 Mutex

@@ -39,7 +39,7 @@ std
 thread
 ;
 use
-parking_lot
+wgpu_sync
 :
 :
 Mutex

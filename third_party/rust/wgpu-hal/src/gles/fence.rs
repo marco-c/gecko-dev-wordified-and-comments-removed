@@ -26,7 +26,7 @@ atomic
 Ordering
 ;
 use
-parking_lot
+wgpu_sync
 :
 :
 RwLock
