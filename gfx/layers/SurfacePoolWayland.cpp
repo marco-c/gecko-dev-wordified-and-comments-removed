@@ -861,7 +861,6 @@ FromUnknownSize
 (
 aSize
 )
-aFormat
 )
 ;
 }
