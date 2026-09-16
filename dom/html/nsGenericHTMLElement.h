@@ -4196,7 +4196,7 @@ bool
 aNotify
 )
 {
-UpdateFieldSet
+FieldSetDisabledChanged
 (
 aNotify
 )
@@ -4323,6 +4323,12 @@ UpdateDisabledState
 bool
 aNotify
 )
+;
+bool
+IsDisabledByAncestorFieldSet
+(
+)
+const
 ;
 bool
 IsReadOnlyInternal
