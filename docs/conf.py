@@ -382,10 +382,6 @@ source_suffix
 [
 "
 .
-rst
-"
-"
-.
 md
 "
 ]

@@ -170,7 +170,7 @@ shell
 pandoc
 -
 t
-rst
+gfm
 https
 :
 /
@@ -203,7 +203,7 @@ performance_best_practices_for_firefox_fe_engineers
 >
 doc
 .
-rst
+md
 4
 .
 In
@@ -211,7 +211,7 @@ the
 new
 doc
 .
-rst
+md
 identify
 the
 images
@@ -228,7 +228,6 @@ img
 .
 Verify
 the
-rst
 syntax
 using
 [
@@ -238,7 +237,7 @@ mach
 lint
 -
 l
-rst
+md
 ]
 6
 )
@@ -276,7 +275,7 @@ g
 '
 doc
 .
-rst
+md
 [
 .
 /
@@ -284,16 +283,18 @@ mach
 lint
 -
 l
-rst
+md
 ]
 :
 /
-tools
+code
+-
+quality
 /
 lint
 /
 linters
 /
-rstlinter
+md
 .
-html
+md
