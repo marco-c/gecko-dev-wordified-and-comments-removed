@@ -35,6 +35,9 @@ transforms
 TransformSequence
 (
 )
+POLL_TIMEOUT_PADDING
+=
+600
 transforms
 .
 add
@@ -178,6 +181,31 @@ INPUT_KEY
 "
 :
 input_key
+            
+"
+POLL_TIMEOUT
+"
+:
+str
+(
+task
+[
+"
+worker
+"
+]
+[
+"
+max
+-
+run
+-
+time
+"
+]
+-
+POLL_TIMEOUT_PADDING
+)
         
 }
         
