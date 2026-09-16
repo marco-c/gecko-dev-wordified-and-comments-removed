@@ -588,6 +588,10 @@ hunspell
 /
 src
 /
+function2
+/
+fmt
+/
 gfx
 /
 angle
@@ -1890,3 +1894,8 @@ io
 crc32c
 .
 c
+rlbox
+/
+rlbox_sandbox
+.
+hpp
