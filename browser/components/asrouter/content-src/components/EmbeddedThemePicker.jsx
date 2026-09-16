@@ -68,6 +68,9 @@ const
 EmbeddedThemePicker
 =
 (
+{
+installSource
+}
 )
 =
 >
@@ -77,6 +80,11 @@ return
 theme
 -
 picker
+installsource
+=
+{
+installSource
+}
 >
 <
 /

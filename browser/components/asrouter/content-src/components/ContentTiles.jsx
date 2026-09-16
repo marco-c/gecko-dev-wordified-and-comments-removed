@@ -2349,6 +2349,16 @@ props
 .
 handleAction
 }
+installSource
+=
+{
+tile
+.
+data
+?
+.
+installSource
+}
 /
 >
 )
