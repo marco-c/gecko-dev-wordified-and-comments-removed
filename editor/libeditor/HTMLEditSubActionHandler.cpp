@@ -5698,6 +5698,7 @@ InsertTextTo
 :
 :
 ExistingTextNodeIfAvailable
+aPurpose
 )
 ;
 if
@@ -6853,6 +6854,7 @@ InsertTextTo
 :
 :
 ExistingTextNodeIfAvailable
+aPurpose
 )
 ;
 if
@@ -7050,6 +7052,7 @@ GetInsertTextTo
 inclusiveNextLinefeedOffset
 lineStartOffset
 )
+aPurpose
 )
 ;
 if
@@ -13389,6 +13392,10 @@ Offset
 )
 lengthToReplaceInFirstTextNode
 normalizedWhiteSpacesInFirstNode
+InsertTextFor
+:
+:
+NormalText
 )
 ;
 if
@@ -13836,6 +13843,10 @@ Offset
 (
 )
 normalizedWhiteSpacesInLastNode
+InsertTextFor
+:
+:
+NormalText
 )
 ;
 if
@@ -14765,6 +14776,10 @@ u
 "
 "
 _ns
+InsertTextFor
+:
+:
+NormalText
 )
 ;
 if
@@ -15026,6 +15041,10 @@ u
 "
 "
 _ns
+InsertTextFor
+:
+:
+NormalText
 )
 ;
 if
