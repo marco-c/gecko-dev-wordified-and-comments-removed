@@ -6895,7 +6895,7 @@ is
 (
 scrollBoxStyle
 .
-overflow
+overflowY
 "
 auto
 "
