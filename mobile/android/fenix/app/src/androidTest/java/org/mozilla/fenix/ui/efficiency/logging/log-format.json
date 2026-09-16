@@ -817,6 +817,8 @@ schemaVersion
 captureCost
 sensitivity
 completeness
+compatibility
+projection
 and
 values
 .
@@ -835,6 +837,17 @@ remains
 during
 consumer
 migration
+and
+contains
+only
+contributors
+whose
+values
+preserve
+its
+existing
+baseline
+semantics
 .
 "
 "

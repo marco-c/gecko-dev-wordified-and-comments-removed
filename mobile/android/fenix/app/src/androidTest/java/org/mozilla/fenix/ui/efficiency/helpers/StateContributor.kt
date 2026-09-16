@@ -109,6 +109,10 @@ val
 sensitivity
 :
 StateSensitivity
+val
+includeInCompatibilityState
+:
+Boolean
 fun
 capture
 (
@@ -141,6 +145,10 @@ val
 sensitivity
 :
 StateSensitivity
+val
+includeInCompatibilityState
+:
+Boolean
 val
 values
 :
@@ -190,6 +198,11 @@ to
 sensitivity
 .
 name
+"
+includeInCompatibilityState
+"
+to
+includeInCompatibilityState
 "
 complete
 "
