@@ -410,6 +410,9 @@ testing
 /
 geckodriver
 /
+index
+.
+md
 [
 marionette
 python
