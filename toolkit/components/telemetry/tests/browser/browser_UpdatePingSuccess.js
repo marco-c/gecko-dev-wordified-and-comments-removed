@@ -63,6 +63,14 @@ test_updatePing
 (
 )
 {
+Services
+.
+fog
+.
+testResetFOG
+(
+)
+;
 const
 TEST_VERSION
 =
