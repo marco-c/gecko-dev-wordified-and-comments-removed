@@ -957,6 +957,16 @@ py
 /
 tools
 /
+lint
+/
+spidermonkey
+/
+*
+*
++
+/
+tools
+/
 fuzzing
 /
 moz
