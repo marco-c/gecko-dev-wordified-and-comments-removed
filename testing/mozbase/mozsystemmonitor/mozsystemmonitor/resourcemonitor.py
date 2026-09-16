@@ -21,7 +21,6 @@ warnings
 from
 collections
 import
-OrderedDict
 namedtuple
 from
 contextlib
@@ -2895,9 +2894,8 @@ self
 .
 phases
 =
-OrderedDict
-(
-)
+{
+}
         
 self
 .
