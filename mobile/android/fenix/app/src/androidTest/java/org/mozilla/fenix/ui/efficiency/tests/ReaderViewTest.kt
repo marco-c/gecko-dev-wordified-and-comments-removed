@@ -305,9 +305,8 @@ appearance
 prefs
 persist
 across
-runs
-/
-retries
+test
+attempts
 ;
 reset
 them

@@ -240,17 +240,5 @@ pageObj
 navigateToPage
 (
 )
-/
-/
-Add
-optional
-page
--
-specific
-assertions
-later
-if
-needed
-.
 }
 }

@@ -1092,12 +1092,13 @@ search
 bar
 would
 let
-BFS
+the
+planner
 pick
 the
 equal
 -
-length
+cost
 "
 type
 a

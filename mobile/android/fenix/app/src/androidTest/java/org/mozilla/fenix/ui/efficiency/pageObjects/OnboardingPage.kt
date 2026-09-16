@@ -196,6 +196,7 @@ skipOnboarding
 =
 false
 )
+)
 .
 The
 AppEntry
@@ -209,8 +210,8 @@ steps
 because
 the
 flow
-is
 *
+is
 already
 on
 screen
