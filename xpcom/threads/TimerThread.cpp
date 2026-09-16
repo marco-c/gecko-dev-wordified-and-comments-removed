@@ -1365,6 +1365,13 @@ Name
 Timer
 "
 ;
+static
+constexpr
+bool
+ETWStoreName
+=
+true
+;
 using
 MS
 =
@@ -1813,6 +1820,13 @@ Name
 "
 AddRemoveTimer
 "
+;
+static
+constexpr
+bool
+ETWStoreName
+=
+true
 ;
 using
 MS
