@@ -148,7 +148,7 @@ _originalCID
 =
 SpecialPowers
 .
-swapFactoryRegistration
+registerFactory
 (
 null
 this
@@ -194,7 +194,7 @@ unregister
 }
 SpecialPowers
 .
-swapFactoryRegistration
+unregisterFactory
 (
 this
 .
