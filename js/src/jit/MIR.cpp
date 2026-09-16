@@ -17582,6 +17582,15 @@ Opcode
 :
 StoreTypedArrayElementHole
 :
+case
+MDefinition
+:
+:
+Opcode
+:
+:
+PostWriteElementBarrier
+:
 for
 (
 size_t
