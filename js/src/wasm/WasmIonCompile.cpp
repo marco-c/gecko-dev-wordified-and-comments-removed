@@ -25826,7 +25826,7 @@ MWasmBoundsCheck
 Target
 :
 :
-Other
+Array
 )
 ;
 if

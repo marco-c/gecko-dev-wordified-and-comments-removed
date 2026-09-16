@@ -3537,6 +3537,7 @@ Target
 {
 Memory
 Table
+Array
 Other
 }
 ;
@@ -3635,6 +3636,12 @@ UINT32_MAX
 ;
 MOZ_ASSERT_IF
 (
+target
+=
+=
+Array
+|
+|
 target
 =
 =
