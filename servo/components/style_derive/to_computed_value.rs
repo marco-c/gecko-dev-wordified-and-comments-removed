@@ -29,6 +29,16 @@ BindStyle
 BindingInfo
 }
 ;
+#
+[
+allow
+(
+clippy
+:
+:
+too_many_arguments
+)
+]
 pub
 fn
 derive_to_value
@@ -403,7 +413,6 @@ attrs
 =
 binding_attrs
 (
-&
 binding
 )
 ;
@@ -534,7 +543,6 @@ attrs
 =
 binding_attrs
 (
-&
 binding
 )
 ;
@@ -566,14 +574,12 @@ field_bound
 {
 add_field_bound
 (
-&
 binding
 )
 ;
 }
 call_to
 (
-&
 binding
 )
 }
@@ -595,7 +601,6 @@ binding
 |
 call_from
 (
-&
 binding
 )
 )
@@ -871,7 +876,6 @@ parse_field_attrs
 ComputedValueAttrs
 >
 (
-&
 binding
 .
 ast

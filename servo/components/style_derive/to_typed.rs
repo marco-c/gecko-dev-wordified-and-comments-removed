@@ -1388,7 +1388,6 @@ parse_field_attrs
 CssFieldAttrs
 >
 (
-&
 binding
 .
 ast
@@ -1409,7 +1408,6 @@ parse_field_attrs
 TypedFieldAttrs
 >
 (
-&
 binding
 .
 ast

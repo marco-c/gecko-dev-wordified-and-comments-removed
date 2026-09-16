@@ -38,9 +38,6 @@ DeriveInput
 WhereClause
 }
 ;
-use
-synstructure
-;
 pub
 fn
 derive
@@ -273,6 +270,14 @@ _
 >
 unsafe
 {
+use
+:
+:
+debug_unreachable
+:
+:
+debug_unreachable
+;
 debug_unreachable
 !
 (
@@ -424,7 +429,6 @@ synstructure
 :
 :
 VariantInfo
-mut
 where_clause
 :
 &
@@ -470,7 +474,6 @@ cg
 :
 ref_pattern
 (
-&
 variant
 "
 this
@@ -488,7 +491,6 @@ cg
 :
 ref_pattern
 (
-&
 variant
 "
 other
@@ -603,7 +605,6 @@ parse_field_attrs
 DistanceFieldAttrs
 >
 (
-&
 this
 .
 ast
@@ -633,8 +634,6 @@ cg
 :
 add_predicate
 (
-&
-mut
 where_clause
 parse_quote
 !
@@ -669,7 +668,6 @@ parse_field_attrs
 AnimationFieldAttrs
 >
 (
-&
 this
 .
 ast
@@ -761,7 +759,6 @@ quote
 sum
 }
 ;
-return
 quote
 !
 {
@@ -781,7 +778,6 @@ Ok
 sum
 )
 }
-;
 }
 #
 [

@@ -29,12 +29,6 @@ quote
 :
 TokenStreamExt
 ;
-use
-syn
-;
-use
-synstructure
-;
 pub
 fn
 derive
@@ -291,7 +285,6 @@ parse_field_attrs
 AnimationFieldAttrs
 >
 (
-&
 binding
 .
 ast

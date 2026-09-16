@@ -249,7 +249,6 @@ parse_variant_attrs
 CssVariantAttrs
 >
 (
-&
 v
 )
 ;
@@ -266,7 +265,6 @@ parse_variant_attrs
 ValueInfoVariantAttrs
 >
 (
-&
 v
 )
 ;
@@ -283,7 +281,6 @@ parse_variant_attrs
 ParseVariantAttrs
 >
 (
-&
 v
 )
 ;
