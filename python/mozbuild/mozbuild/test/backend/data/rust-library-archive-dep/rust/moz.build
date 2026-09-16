@@ -54,7 +54,7 @@ USE_LIBS
 =
 [
 "
-frob
+middle
 "
 ]
 RustLibrary

@@ -114,7 +114,6 @@ bin
 /
 bin
 :
-\
 /
 usr
 /
@@ -134,22 +133,6 @@ sbin
 :
 /
 sbin
-"
-        
-"
-LD_LIBRARY_PATH
-"
-:
-"
-%
-(
-abs_obj_dir
-)
-s
-/
-dist
-/
-bin
 "
         
 "

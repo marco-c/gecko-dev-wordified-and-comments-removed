@@ -66,6 +66,9 @@ DIRS
 archive
 "
 "
+middle
+"
+"
 rust
 "
 ]

@@ -23907,15 +23907,12 @@ base64
 kvstore
 "
 "
-nserror
+mozbuild
 "
 "
 nss
 -
 rs
-"
-"
-nsstring
 "
 "
 rusqlite
@@ -23941,9 +23938,6 @@ thiserror
 999
 .
 999
-"
-"
-xpcom
 "
 "
 zeroize
