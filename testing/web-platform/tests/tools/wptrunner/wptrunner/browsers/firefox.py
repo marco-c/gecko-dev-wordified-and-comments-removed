@@ -2167,10 +2167,9 @@ autostart
 )
           
 "
-remoteAsyncEvents
+remoteAsyncMouseEvents
 "
 :
-(
 bool_pref
 (
 "
@@ -2185,8 +2184,30 @@ mouse
 enabled
 "
 )
-or
-                                
+          
+"
+remoteAsyncTouchEvents
+"
+:
+bool_pref
+(
+"
+remote
+.
+events
+.
+async
+.
+touch
+.
+enabled
+"
+)
+          
+"
+remoteAsyncWheelEvents
+"
+:
 bool_pref
 (
 "
@@ -2200,7 +2221,6 @@ wheel
 .
 enabled
 "
-)
 )
           
 "
@@ -2400,7 +2420,15 @@ tsan
 "
             
 "
-remoteAsyncEvents
+remoteAsyncMouseEvents
+"
+            
+"
+remoteAsyncTouchEvents
+"
+            
+"
+remoteAsyncWheelEvents
 "
             
 "
