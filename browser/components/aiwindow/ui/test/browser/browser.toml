@@ -428,6 +428,13 @@ js
 ]
 [
 "
+browser_aitab_store_integration
+.
+js
+"
+]
+[
+"
 browser_aiwindow_account_auth
 .
 js
