@@ -777,6 +777,13 @@ js
 ]
 [
 "
+browser_aiwindow_monitor_button_panel
+.
+js
+"
+]
+[
+"
 browser_aiwindow_monitor_create
 .
 js
