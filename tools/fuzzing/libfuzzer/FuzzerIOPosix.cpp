@@ -277,7 +277,7 @@ Pos
 )
 ;
 }
-void
+int
 ListFilesInDirRecursive
 (
 const
@@ -330,6 +330,7 @@ Epoch
 E
 )
 return
+0
 ;
 DIR
 *
@@ -374,10 +375,8 @@ c_str
 )
 )
 ;
-exit
-(
+return
 1
-)
 ;
 }
 while
@@ -492,6 +491,10 @@ d_name
 .
 '
 )
+{
+int
+Res
+=
 ListFilesInDirRecursive
 (
 Path
@@ -500,6 +503,17 @@ V
 false
 )
 ;
+if
+(
+Res
+!
+=
+0
+)
+return
+Res
+;
+}
 }
 closedir
 (
@@ -517,6 +531,9 @@ TopDir
 Epoch
 =
 E
+;
+return
+0
 ;
 }
 void
