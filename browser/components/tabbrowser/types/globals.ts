@@ -85,3 +85,10 @@ TabStateData
 =
 any
 ;
+type
+BrowserStatusFilter
+=
+nsIWebProgress
+&
+nsIWebProgressListener
+;
