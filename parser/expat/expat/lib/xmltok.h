@@ -6,6 +6,13 @@ define
 XmlTok_INCLUDED
 1
 #
+include
+<
+stdint
+.
+h
+>
+#
 ifdef
 __cplusplus
 extern
@@ -467,10 +474,10 @@ typedef
 struct
 position
 {
-XML_Size
+uint64_t
 lineNumber
 ;
-XML_Size
+uint64_t
 columnNumber
 ;
 }
