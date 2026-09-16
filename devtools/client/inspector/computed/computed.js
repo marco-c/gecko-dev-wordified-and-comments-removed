@@ -8484,8 +8484,6 @@ this
 .
 inspector
 .
-styleChangeTracker
-.
 on
 (
 "
