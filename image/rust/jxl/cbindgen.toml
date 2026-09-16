@@ -139,6 +139,17 @@ cstdint
 cstddef
 "
 ]
+after_includes
+=
+"
+"
+"
+class
+nsIThreadPool
+;
+"
+"
+"
 [
 export
 ]
