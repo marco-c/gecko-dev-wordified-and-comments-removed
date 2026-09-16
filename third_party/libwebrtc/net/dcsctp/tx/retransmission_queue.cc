@@ -2891,6 +2891,9 @@ kRetransmissionQueueFastRecovery
 }
 if
 (
+block_on_outstanding_data
+&
+&
 outstanding_data_
 .
 has_data_to_be_retransmitted
