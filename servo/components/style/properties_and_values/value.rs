@@ -1046,16 +1046,6 @@ v
 other
 .
 v
-&
-&
-self
-.
-attr_tainted
-=
-=
-other
-.
-attr_tainted
 }
 }
 impl
