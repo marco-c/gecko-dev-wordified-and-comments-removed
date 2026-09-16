@@ -256,7 +256,7 @@ DMABufSurface
 :
 :
 SURFACE_RGBA
-GBM_FORMAT_ARGB8888
+0
 modifiers
 0
 fds

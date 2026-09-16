@@ -298,11 +298,6 @@ widget
 =
 [
 "
-BufferSurface
-.
-h
-"
-"
 CompositorWidgetChild
 .
 h
@@ -374,11 +369,6 @@ UNIFIED_SOURCES
 [
 "
 AsyncClipboardRequest
-.
-cpp
-"
-"
-BufferSurface
 .
 cpp
 "
@@ -642,11 +632,6 @@ cpp
 "
 "
 RetrievalContextWayland
-.
-cpp
-"
-"
-SHMBufSurface
 .
 cpp
 "
