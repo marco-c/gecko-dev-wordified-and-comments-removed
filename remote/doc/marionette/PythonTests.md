@@ -499,7 +499,7 @@ python
 /
 marionette_driver
 .
-rst
+md
 #
 #
 Registering

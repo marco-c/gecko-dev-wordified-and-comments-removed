@@ -487,7 +487,7 @@ python
 /
 marionette_driver
 .
-rst
+md
 [
 2
 ]
@@ -497,7 +497,7 @@ python
 /
 marionette_driver
 .
-rst
+md
 [
 3
 ]
