@@ -60,6 +60,13 @@ js
 ]
 [
 "
+browser_search_homepage_bookmark_dialog
+.
+js
+"
+]
+[
+"
 browser_search_no_results_change_category
 .
 js
