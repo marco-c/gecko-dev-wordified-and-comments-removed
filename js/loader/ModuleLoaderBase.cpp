@@ -7874,10 +7874,6 @@ Shutdown
 (
 )
 {
-CancelAndClearDynamicImports
-(
-)
-;
 for
 (
 const
@@ -7914,6 +7910,10 @@ false
 ;
 }
 }
+CancelAndClearDynamicImports
+(
+)
+;
 for
 (
 const
