@@ -51,9 +51,6 @@ const
 DEFAULT_PROPS
 =
 {
-exitEventFired
-:
-false
 onSubpanelToggle
 :
 jest

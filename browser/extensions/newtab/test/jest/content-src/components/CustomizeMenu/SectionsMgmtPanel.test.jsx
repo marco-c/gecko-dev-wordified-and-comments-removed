@@ -189,11 +189,6 @@ STATE_WITH_SECTIONS
 >
 <
 SectionsMgmtPanel
-exitEventFired
-=
-{
-false
-}
 pocketEnabled
 =
 {
@@ -279,11 +274,6 @@ STATE_WITH_SECTIONS
 >
 <
 SectionsMgmtPanel
-exitEventFired
-=
-{
-false
-}
 pocketEnabled
 =
 {
