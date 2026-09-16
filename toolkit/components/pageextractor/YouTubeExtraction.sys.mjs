@@ -225,7 +225,7 @@ enabled
 "
 default
 :
-false
+true
 }
 }
 )
