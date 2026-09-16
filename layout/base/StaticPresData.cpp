@@ -210,16 +210,6 @@ fantasy
 "
 "
 .
-fangsong
-.
-"
-"
-.
-kai
-.
-"
-"
-.
 system
 -
 ui
@@ -239,8 +229,6 @@ SansSerif
 Monospace
 Cursive
 Fantasy
-Fangsong
-Kai
 SystemUi
 COUNT
 }
@@ -353,10 +341,6 @@ mDefaultMonospaceFont
 mDefaultCursiveFont
 &
 mDefaultFantasyFont
-&
-mDefaultFangsongFont
-&
-mDefaultKaiFont
 &
 mDefaultSystemUiFont
 }
