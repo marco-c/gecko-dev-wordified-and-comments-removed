@@ -1033,14 +1033,6 @@ ShouldGetIdleToken
 )
 {
 return
-StaticPrefs
-:
-:
-idle_period_cross_process_scheduling
-(
-)
-&
-&
 dom
 :
 :
