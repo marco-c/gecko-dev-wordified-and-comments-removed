@@ -66,6 +66,15 @@ browser
 .
 toml
 "
+"
+tests
+/
+browser
+/
+perftest
+.
+toml
+"
 ]
 MOCHITEST_CHROME_MANIFESTS
 +
