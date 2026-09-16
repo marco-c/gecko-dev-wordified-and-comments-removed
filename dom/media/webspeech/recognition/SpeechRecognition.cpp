@@ -5765,7 +5765,7 @@ init
 .
 mBubbles
 =
-true
+false
 ;
 init
 .
@@ -6192,7 +6192,7 @@ u
 error
 "
 _ns
-true
+false
 false
 aErrorCode
 aMessage
@@ -6728,7 +6728,7 @@ init
 .
 mBubbles
 =
-true
+false
 ;
 init
 .

@@ -350,6 +350,13 @@ started
 ]
 [
 "
+test_event_bubbles
+.
+html
+"
+]
+[
+"
 test_fuzz_availability_install
 .
 html
