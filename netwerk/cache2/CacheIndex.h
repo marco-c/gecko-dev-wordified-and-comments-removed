@@ -5815,6 +5815,17 @@ sLock
 0
 }
 ;
+nsTArray
+<
+CacheIndexEntry
+*
+>
+mRWEntries
+MOZ_GUARDED_BY
+(
+sLock
+)
+;
 char
 *
 mRWBuf
