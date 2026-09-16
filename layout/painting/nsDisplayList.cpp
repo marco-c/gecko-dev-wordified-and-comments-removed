@@ -35820,6 +35820,10 @@ newTransformMatrix
 IsIdentity
 (
 )
+&
+&
+!
+mHasAssociatedPerspective
 )
 {
 transformForSC
