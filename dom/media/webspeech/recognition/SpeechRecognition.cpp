@@ -224,7 +224,7 @@ mozilla
 /
 dom
 /
-SpeechRecognitionError
+SpeechRecognitionErrorEvent
 .
 h
 "
@@ -3608,12 +3608,12 @@ thread
 ;
 RefPtr
 <
-SpeechRecognitionError
+SpeechRecognitionErrorEvent
 >
 srError
 =
 new
-SpeechRecognitionError
+SpeechRecognitionErrorEvent
 (
 nullptr
 nullptr

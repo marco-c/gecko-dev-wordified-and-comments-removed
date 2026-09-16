@@ -81,7 +81,7 @@ mozilla
 /
 dom
 /
-SpeechRecognitionErrorBinding
+SpeechRecognitionErrorEventBinding
 .
 h
 "
