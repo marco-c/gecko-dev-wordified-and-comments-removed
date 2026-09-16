@@ -150,9 +150,11 @@ backgroundsSize
 -
 tab
 -
-loading
+icon
 -
 fill
+-
+loading
 "
 {
 lwtProperty
