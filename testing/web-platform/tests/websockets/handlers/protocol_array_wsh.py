@@ -26,6 +26,10 @@ protocol
 '
 )
     
+if
+line
+:
+        
 request
 .
 ws_protocol
@@ -48,18 +52,19 @@ request
 )
 :
     
-while
-True
-:
-        
+message
+=
+request
+.
+ws_protocol
+or
+'
+'
+    
 msgutil
 .
 send_message
 (
 request
-request
-.
-ws_protocol
+message
 )
-        
-return
