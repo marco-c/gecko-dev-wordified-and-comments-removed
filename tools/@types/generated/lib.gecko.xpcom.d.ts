@@ -49127,6 +49127,9 @@ frameReceived
 aWebSocketSerialID
 :
 u32
+aHttpChannelId
+:
+u64
 aFrame
 :
 nsIWebSocketFrame
@@ -49139,6 +49142,9 @@ frameSent
 aWebSocketSerialID
 :
 u32
+aHttpChannelId
+:
+u64
 aFrame
 :
 nsIWebSocketFrame
