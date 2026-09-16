@@ -604,13 +604,6 @@ IPCResult
 RecvRoleChangedEvent
 (
 const
-a11y
-:
-:
-role
-&
-aRole
-const
 uint8_t
 &
 aRoleMapEntryIndex

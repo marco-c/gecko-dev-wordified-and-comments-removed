@@ -473,8 +473,6 @@ aType
 async
 RoleChangedEvent
 (
-role
-aRole
 uint8_t
 aRoleMapEntryIndex
 )
