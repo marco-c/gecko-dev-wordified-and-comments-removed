@@ -1961,6 +1961,12 @@ DOM_VK_RETURN
 return
 ;
 }
+event
+.
+preventDefault
+(
+)
+;
 break
 ;
 }
