@@ -100,7 +100,7 @@ create
 pull
 -
 request
-v6
+v8
 with
 :
 token
