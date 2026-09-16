@@ -318,9 +318,12 @@ fieldlist
 mermaid_width
 =
 "
-fit
--
-content
+min
+(
+100
+%
+45rem
+)
 "
 mermaid_height
 =
