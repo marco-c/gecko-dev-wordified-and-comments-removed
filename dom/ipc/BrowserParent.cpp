@@ -3367,14 +3367,6 @@ NS_NATIVE_WINDOW
 )
 ;
 }
-(
-void
-)
-SendUpdateNativeWindowHandle
-(
-newWindowHandle
-)
-;
 a11y
 :
 :
