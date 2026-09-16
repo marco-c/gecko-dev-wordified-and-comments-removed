@@ -181,6 +181,15 @@ tests
 /
 gtest
 /
+TestThreadShutdownAnnotations
+.
+cpp
+xpcom
+/
+tests
+/
+gtest
+/
 TestThreads
 .
 cpp
