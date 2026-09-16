@@ -1748,13 +1748,6 @@ confirm
 "
 )
 ;
-let
-promiseDataCleared
-=
-waitForPBMDataClear
-(
-)
-;
 promisePanelHidden
 =
 waitForConfirmPanelHidden
@@ -1785,6 +1778,9 @@ browsingContext
 ;
 await
 promisePanelHidden
+;
+await
+promiseCompletionToastShown
 ;
 assertTelemetry
 (
@@ -1869,9 +1865,6 @@ event
 "
 )
 ;
-await
-promiseCompletionToastShown
-;
 assertPanelVisibility
 (
 privateWin
@@ -1885,9 +1878,6 @@ privateWin
 SELECTOR_PANEL_COMPLETION_TOAST
 true
 )
-;
-await
-promiseDataCleared
 ;
 Assert
 .
@@ -1962,6 +1952,7 @@ ask
 "
 )
 ;
+let
 promiseDataCleared
 =
 waitForPBMDataClear
@@ -1988,9 +1979,11 @@ info
 Waiting
 for
 PBM
-session
+data
+clearing
 to
-end
+be
+triggered
 .
 "
 )
@@ -2002,9 +1995,10 @@ info
 (
 "
 Data
+clearing
 has
 been
-cleared
+triggered
 .
 "
 )
