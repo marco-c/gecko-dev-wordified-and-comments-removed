@@ -839,13 +839,11 @@ bool
 CanReceiveEarlyMedia
 (
 )
-const
 ;
 bool
 HasNegotiatedBundleOwner
 (
 )
-const
 ;
 std
 :
