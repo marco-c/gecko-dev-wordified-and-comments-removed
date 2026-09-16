@@ -161,6 +161,12 @@ Boolean
 =
 true
 val
+isBookmarksHomeFeatureEnabled
+:
+Boolean
+=
+true
+val
 isRecentlyVisitedFeatureEnabled
 :
 Boolean
@@ -337,6 +343,11 @@ isPocketEnabled
 "
 to
 isPocketEnabled
+"
+isBookmarksHomeFeatureEnabled
+"
+to
+isBookmarksHomeFeatureEnabled
 "
 isRecentlyVisitedFeatureEnabled
 "

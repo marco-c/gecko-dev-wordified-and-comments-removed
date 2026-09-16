@@ -1540,7 +1540,7 @@ settings
 showBookmarksHomeFeature
 }
 returns
-true
+false
 every
 {
 settings
@@ -1556,7 +1556,7 @@ settings
 historyMetadataUIFeature
 }
 returns
-true
+false
 every
 {
 settings

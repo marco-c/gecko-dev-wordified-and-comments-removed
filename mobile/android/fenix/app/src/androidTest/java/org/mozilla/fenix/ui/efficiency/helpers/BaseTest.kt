@@ -2023,6 +2023,11 @@ isPocketEnabled
 cfg
 .
 isPocketEnabled
+isBookmarksHomeFeatureEnabled
+=
+cfg
+.
+isBookmarksHomeFeatureEnabled
 isRecentlyVisitedFeatureEnabled
 =
 cfg

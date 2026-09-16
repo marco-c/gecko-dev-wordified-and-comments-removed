@@ -489,16 +489,6 @@ to
 false
 HomeScreenSection
 .
-RECENT_EXPLORATIONS
-to
-false
-HomeScreenSection
-.
-BOOKMARKS
-to
-false
-HomeScreenSection
-.
 TOP_SITES
 to
 false
