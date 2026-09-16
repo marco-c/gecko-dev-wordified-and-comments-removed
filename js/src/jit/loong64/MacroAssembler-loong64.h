@@ -1088,6 +1088,15 @@ l
 )
 ;
 void
+ma_jump36
+(
+int32_t
+offset
+Register
+scratch
+)
+;
+void
 ma_lid
 (
 FloatRegister
