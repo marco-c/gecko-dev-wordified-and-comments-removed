@@ -149,6 +149,7 @@ _get_protobuf_revision_from_moz_yaml
 return
 load_moz_yaml
 (
+        
 COMPONENT_DIR
 /
 "
@@ -162,13 +163,12 @@ False
 require_license_file
 =
 False
+    
 )
 [
-        
 "
 origin
 "
-    
 ]
 [
 "
@@ -209,9 +209,6 @@ revision
 )
 :
     
-import
-requests
-    
 from
 tempfile
 import
@@ -222,6 +219,9 @@ zipfile
 import
 ZipFile
 ZipInfo
+    
+import
+requests
     
 with
 TemporaryFile
