@@ -2303,16 +2303,6 @@ group
 )
 )
 }
-onCollectionsMigrationCardDismiss
-=
-{
-onAction
-(
-TabGroupAction
-.
-CollectionsMigrationCardDismissed
-)
-}
 )
 }
 }
