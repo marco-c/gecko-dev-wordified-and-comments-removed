@@ -765,7 +765,7 @@ true
 }
 pub
 fn
-have_shareable_tree_counting_functions
+have_shareable_element_dependent_functions
 <
 E
 >
@@ -853,6 +853,17 @@ parent_element
 candidate
 .
 parent_element
+(
+)
+{
+return
+false
+;
+}
+if
+styles
+.
+uses_element_scoped_random
 (
 )
 {

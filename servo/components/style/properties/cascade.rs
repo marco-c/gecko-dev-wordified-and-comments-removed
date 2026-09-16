@@ -5926,6 +5926,11 @@ ComputedValueFlags
 :
 :
 USES_VISITED_DEPENDENT_PROPERTIES
+|
+ComputedValueFlags
+:
+:
+USES_ELEMENT_SCOPED_RANDOM
 ;
 context
 .

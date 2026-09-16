@@ -3368,7 +3368,7 @@ if
 checks
 :
 :
-have_shareable_tree_counting_functions
+have_shareable_element_dependent_functions
 (
 target
 candidate
@@ -3380,8 +3380,9 @@ trace
 "
 Miss
 :
-Tree
-counting
+Element
+-
+dependent
 functions
 "
 )
@@ -3719,7 +3720,7 @@ if
 checks
 :
 :
-have_shareable_tree_counting_functions
+have_shareable_element_dependent_functions
 (
 &
 sharing_target
