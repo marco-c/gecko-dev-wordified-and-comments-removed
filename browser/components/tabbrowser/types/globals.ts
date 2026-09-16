@@ -71,16 +71,6 @@ TaskbarTab
 any
 ;
 type
-nsILoadInfo_SchemelessInputType
-=
-nsILoadInfo
-[
-"
-schemelessInput
-"
-]
-;
-type
 TabStateData
 =
 any

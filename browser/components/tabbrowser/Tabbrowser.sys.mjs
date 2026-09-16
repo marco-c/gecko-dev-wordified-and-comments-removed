@@ -22338,7 +22338,9 @@ load
 *
 param
 {
-nsILoadInfo_SchemelessInputType
+nsILoadInfo
+.
+SchemelessInputType
 }
 [
 options
@@ -29050,7 +29052,9 @@ load
 *
 param
 {
-nsILoadInfo_SchemelessInputType
+nsILoadInfo
+.
+SchemelessInputType
 }
 [
 options
