@@ -852,6 +852,13 @@ msixcomserver
 rust
 "
 "
+toolkit
+/
+mozapps
+/
+pushnotificationhelper
+"
+"
 services
 /
 application

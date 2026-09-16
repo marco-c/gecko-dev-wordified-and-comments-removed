@@ -200,6 +200,16 @@ msixcomserver
 rust
 "
 ]
+DIRS
++
+=
+[
+"
+mozapps
+/
+pushnotificationhelper
+"
+]
 if
 CONFIG
 [
