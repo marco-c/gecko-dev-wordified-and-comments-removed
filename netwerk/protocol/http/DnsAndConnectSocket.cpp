@@ -3835,6 +3835,9 @@ trans
 if
 (
 mTransaction
+&
+&
+mTransaction
 -
 >
 IsNullTransaction
