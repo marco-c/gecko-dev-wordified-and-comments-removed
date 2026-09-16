@@ -43,6 +43,13 @@ html
 ]
 [
 "
+test_editcontext_anonymous_content_flow
+.
+html
+"
+]
+[
+"
 test_editcontext_blur_in_textupdate
 .
 html
@@ -100,6 +107,13 @@ html
 [
 "
 test_editcontext_ime_notifications
+.
+html
+"
+]
+[
+"
+test_editcontext_ime_state
 .
 html
 "
