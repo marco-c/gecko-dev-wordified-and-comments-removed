@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_dom_SpeechGrammarList_h
+DOM_MEDIA_WEBSPEECH_RECOGNITION_SPEECHGRAMMARLIST_H_
 #
 define
-mozilla_dom_SpeechGrammarList_h
+DOM_MEDIA_WEBSPEECH_RECOGNITION_SPEECHGRAMMARLIST_H_
 #
 include
 "

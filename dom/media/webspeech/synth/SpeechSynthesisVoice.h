@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_dom_SpeechSynthesisVoice_h
+DOM_MEDIA_WEBSPEECH_SYNTH_SPEECHSYNTHESISVOICE_H_
 #
 define
-mozilla_dom_SpeechSynthesisVoice_h
+DOM_MEDIA_WEBSPEECH_SYNTH_SPEECHSYNTHESISVOICE_H_
 #
 include
 "

@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_dom_SapiService_h
+DOM_MEDIA_WEBSPEECH_SYNTH_WINDOWS_SAPISERVICE_H_
 #
 define
-mozilla_dom_SapiService_h
+DOM_MEDIA_WEBSPEECH_SYNTH_WINDOWS_SAPISERVICE_H_
 #
 include
 <

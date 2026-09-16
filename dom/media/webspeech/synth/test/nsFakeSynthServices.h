@@ -1,9 +1,9 @@
 #
 ifndef
-nsFakeSynthServices_h
+DOM_MEDIA_WEBSPEECH_SYNTH_TEST_NSFAKESYNTHSERVICES_H_
 #
 define
-nsFakeSynthServices_h
+DOM_MEDIA_WEBSPEECH_SYNTH_TEST_NSFAKESYNTHSERVICES_H_
 #
 include
 "

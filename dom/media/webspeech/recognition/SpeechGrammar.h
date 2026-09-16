@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_dom_SpeechGrammar_h
+DOM_MEDIA_WEBSPEECH_RECOGNITION_SPEECHGRAMMAR_H_
 #
 define
-mozilla_dom_SpeechGrammar_h
+DOM_MEDIA_WEBSPEECH_RECOGNITION_SPEECHGRAMMAR_H_
 #
 include
 "

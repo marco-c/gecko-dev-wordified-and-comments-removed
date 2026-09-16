@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_dom_nsSpeechTask_h
+DOM_MEDIA_WEBSPEECH_SYNTH_NSSPEECHTASK_H_
 #
 define
-mozilla_dom_nsSpeechTask_h
+DOM_MEDIA_WEBSPEECH_SYNTH_NSSPEECHTASK_H_
 #
 include
 "

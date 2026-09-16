@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_dom_nsSynthVoiceRegistry_h
+DOM_MEDIA_WEBSPEECH_SYNTH_NSSYNTHVOICEREGISTRY_H_
 #
 define
-mozilla_dom_nsSynthVoiceRegistry_h
+DOM_MEDIA_WEBSPEECH_SYNTH_NSSYNTHVOICEREGISTRY_H_
 #
 include
 "

@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_dom_SpeechSynthesis_h
+DOM_MEDIA_WEBSPEECH_SYNTH_SPEECHSYNTHESIS_H_
 #
 define
-mozilla_dom_SpeechSynthesis_h
+DOM_MEDIA_WEBSPEECH_SYNTH_SPEECHSYNTHESIS_H_
 #
 include
 "
@@ -202,6 +202,12 @@ void
 ForceEnd
 (
 )
+;
+void
+DisconnectFromOwner
+(
+)
+override
 ;
 IMPL_EVENT_HANDLER
 (

@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_dom_SpeechStreamListener_h
+DOM_MEDIA_WEBSPEECH_RECOGNITION_SPEECHTRACKLISTENER_H_
 #
 define
-mozilla_dom_SpeechStreamListener_h
+DOM_MEDIA_WEBSPEECH_RECOGNITION_SPEECHTRACKLISTENER_H_
 #
 include
 "

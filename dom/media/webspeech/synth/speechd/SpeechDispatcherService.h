@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_dom_SpeechDispatcherService_h
+DOM_MEDIA_WEBSPEECH_SYNTH_SPEECHD_SPEECHDISPATCHERSERVICE_H_
 #
 define
-mozilla_dom_SpeechDispatcherService_h
+DOM_MEDIA_WEBSPEECH_SYNTH_SPEECHD_SPEECHDISPATCHERSERVICE_H_
 #
 include
 "

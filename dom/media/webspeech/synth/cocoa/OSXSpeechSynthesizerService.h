@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_dom_OsxSpeechSynthesizerService_h
+DOM_MEDIA_WEBSPEECH_SYNTH_COCOA_OSXSPEECHSYNTHESIZERSERVICE_H_
 #
 define
-mozilla_dom_OsxSpeechSynthesizerService_h
+DOM_MEDIA_WEBSPEECH_SYNTH_COCOA_OSXSPEECHSYNTHESIZERSERVICE_H_
 #
 include
 "
