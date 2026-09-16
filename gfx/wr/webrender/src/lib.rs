@@ -606,7 +606,11 @@ crate
 device
 :
 :
+{
 Device
+GraphicsApi
+GraphicsApiInfo
+}
 ;
 pub
 use
@@ -633,8 +637,6 @@ renderer
 CpuProfile
 DebugFlags
 GpuProfile
-GraphicsApi
-GraphicsApiInfo
 PendingShadersToPrecache
 PipelineInfo
 Renderer
