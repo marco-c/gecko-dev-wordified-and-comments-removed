@@ -4792,7 +4792,7 @@ callback
 *
 returns
 {
-*
+any
 }
 *
 /
@@ -9031,7 +9031,7 @@ preprocessor
 *
 param
 {
-*
+any
 }
 value
 *
@@ -9043,7 +9043,7 @@ context
 *
 returns
 {
-*
+any
 }
 *
 /

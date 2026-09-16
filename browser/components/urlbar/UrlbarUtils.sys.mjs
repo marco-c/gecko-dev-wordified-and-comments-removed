@@ -11724,7 +11724,7 @@ call
 *
 param
 {
-*
+any
 }
 args
 The
@@ -11734,7 +11734,7 @@ arguments
 *
 returns
 {
-*
+any
 }
 The
 return
