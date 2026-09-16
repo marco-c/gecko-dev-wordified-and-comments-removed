@@ -426,6 +426,7 @@ updateTheme
 (
 {
 themeId
+layout
 }
 )
 {
@@ -438,6 +439,9 @@ updateThemeState
 (
 themeId
 true
+{
+layout
+}
 )
 ;
 return
