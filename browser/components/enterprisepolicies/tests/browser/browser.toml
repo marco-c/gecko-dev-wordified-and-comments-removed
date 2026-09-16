@@ -138,6 +138,13 @@ sjs
 ]
 [
 "
+browser_policies_about_policies
+.
+js
+"
+]
+[
+"
 browser_policies_getActivePolicies
 .
 js
