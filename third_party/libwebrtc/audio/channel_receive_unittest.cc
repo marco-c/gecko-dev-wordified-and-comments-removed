@@ -533,6 +533,7 @@ audio_decoder_factory_
 nullptr
 crypto_options
 nullptr
+nullptr
 &
 packet_router_
 )

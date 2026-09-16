@@ -948,6 +948,7 @@ AudioOptions
 CryptoOptions
 (
 )
+nullptr
 )
 ;
 video_media_receive_channel_
@@ -970,6 +971,7 @@ MediaConfig
 CryptoOptions
 (
 )
+nullptr
 )
 ;
 voice_media_send_channel_

@@ -687,6 +687,15 @@ config
 .
 frame_transformer
 )
+std
+:
+:
+move
+(
+config
+.
+on_first_packet
+)
 config
 .
 rtp

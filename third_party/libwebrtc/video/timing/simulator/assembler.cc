@@ -268,6 +268,7 @@ nack_periodic_processor_
 this
 nullptr
 nullptr
+nullptr
 )
 observer_
 (

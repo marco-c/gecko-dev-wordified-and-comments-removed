@@ -2157,6 +2157,7 @@ AudioOptions
 CryptoOptions
 (
 )
+nullptr
 )
 ;
 return
@@ -22264,6 +22265,7 @@ AudioOptions
 CryptoOptions
 (
 )
+nullptr
 )
 ;
 EXPECT_TRUE
@@ -22458,6 +22460,7 @@ AudioOptions
 CryptoOptions
 (
 )
+nullptr
 )
 ;
 EXPECT_TRUE
@@ -23245,6 +23248,7 @@ call
 get
 (
 )
+nullptr
 )
 ;
 AudioReceiverParameters

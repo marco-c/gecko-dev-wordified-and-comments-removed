@@ -4739,6 +4739,7 @@ GetMediaConfig
 CryptoOptions
 (
 )
+nullptr
 )
 ;
 EXPECT_TRUE
@@ -6521,6 +6522,7 @@ GetMediaConfig
 CryptoOptions
 (
 )
+nullptr
 )
 ;
 VideoReceiverParameters
@@ -6749,6 +6751,7 @@ GetMediaConfig
 CryptoOptions
 (
 )
+nullptr
 )
 ;
 FakeNetworkInterface
@@ -6831,6 +6834,7 @@ GetMediaConfig
 CryptoOptions
 (
 )
+nullptr
 )
 ;
 FakeNetworkInterface
@@ -6913,6 +6917,7 @@ GetMediaConfig
 CryptoOptions
 (
 )
+nullptr
 )
 ;
 FakeNetworkInterface
@@ -7028,6 +7033,7 @@ GetMediaConfig
 CryptoOptions
 (
 )
+nullptr
 )
 ;
 VideoReceiverParameters
@@ -10248,6 +10254,7 @@ GetMediaConfig
 CryptoOptions
 (
 )
+nullptr
 )
 ;
 VideoReceiverParameters
@@ -11104,6 +11111,7 @@ MediaConfig
 CryptoOptions
 (
 )
+nullptr
 )
 ;
 network_interface_
@@ -12206,6 +12214,7 @@ media_config
 CryptoOptions
 (
 )
+nullptr
 )
 ;
 send_channel_
@@ -18396,6 +18405,7 @@ GetMediaConfig
 CryptoOptions
 (
 )
+nullptr
 )
 ;
 send_channel_
@@ -23449,6 +23459,7 @@ media_config
 CryptoOptions
 (
 )
+nullptr
 )
 ;
 send_channel_
@@ -23541,6 +23552,7 @@ media_config
 CryptoOptions
 (
 )
+nullptr
 )
 ;
 send_channel_
@@ -27363,6 +27375,7 @@ media_config
 CryptoOptions
 (
 )
+nullptr
 )
 ;
 send_channel_
@@ -27686,6 +27699,7 @@ media_config
 CryptoOptions
 (
 )
+nullptr
 )
 ;
 send_channel_
@@ -27895,6 +27909,7 @@ media_config
 CryptoOptions
 (
 )
+nullptr
 )
 ;
 send_channel_
@@ -65649,6 +65664,7 @@ GetMediaConfig
 CryptoOptions
 (
 )
+nullptr
 )
 ;
 send_channel_

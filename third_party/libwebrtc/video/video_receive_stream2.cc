@@ -1758,6 +1758,15 @@ config_
 .
 frame_transformer
 )
+std
+:
+:
+move
+(
+config_
+.
+on_first_packet
+)
 )
 rtp_stream_sync_
 (

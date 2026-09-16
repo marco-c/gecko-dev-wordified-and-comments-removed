@@ -729,6 +729,10 @@ RTC_DCHECK_RUN_ON
 signaling_thread_checker_
 )
 ;
+ssrc_s_
+=
+ssrc
+;
 MediaSourceInterface
 :
 :
@@ -1814,6 +1818,10 @@ RTC_DCHECK
 (
 media_channel
 )
+;
+ssrc_s_
+=
+ssrc
 ;
 MediaSourceInterface
 :
