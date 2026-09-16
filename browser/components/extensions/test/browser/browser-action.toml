@@ -240,6 +240,13 @@ js
 ]
 [
 "
+browser_ext_browserAction_popup_confirm_dialog
+.
+js
+"
+]
+[
+"
 browser_ext_browserAction_popup_port
 .
 js
