@@ -1371,26 +1371,14 @@ unittest
 .
 skipIf
 (
-        
 not
 RUN_NON_ASCII_TESTS
-or
-sys
-.
-version_info
-[
-0
-]
-=
-=
-2
 "
 Skipping
 non
 ascii
 tests
 "
-    
 )
     
 def

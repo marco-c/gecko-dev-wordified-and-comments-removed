@@ -1821,25 +1821,6 @@ import
 shutil
     
 if
-(
-sys
-.
-version_info
-.
-major
-<
-3
-or
-sys
-.
-version_info
-.
-minor
-<
-8
-)
-or
-(
 os
 .
 name
@@ -1848,7 +1829,6 @@ name
 "
 nt
 "
-)
 :
         
 names

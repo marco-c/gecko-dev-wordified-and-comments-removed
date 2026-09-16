@@ -34,16 +34,6 @@ import
 subprocess
 import
 sys
-PY3
-=
-sys
-.
-version_info
-.
-major
-=
-=
-3
 TOPDIR
 =
 os
@@ -133,8 +123,6 @@ run_in_ci
             
 req_files
 =
-PY3
-and
 [
 "
 base
@@ -143,16 +131,6 @@ txt
 "
 "
 local
-.
-txt
-"
-]
-or
-[
-"
-local
--
-client
 .
 txt
 "
@@ -163,8 +141,6 @@ else
             
 req_files
 =
-PY3
-and
 [
 "
 base
@@ -173,16 +149,6 @@ txt
 "
 "
 ci
-.
-txt
-"
-]
-or
-[
-"
-ci
--
-client
 .
 txt
 "

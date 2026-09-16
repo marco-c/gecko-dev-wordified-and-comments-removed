@@ -769,15 +769,6 @@ creationflags
 }
             
 if
-sys
-.
-version_info
-.
-minor
->
-=
-6
-and
 universal_newlines
 :
                 
@@ -3608,7 +3599,7 @@ Exception
                         
 self
 .
-debug
+info
 (
                             
 "
@@ -3674,7 +3665,7 @@ is_alive
                             
 self
 .
-debug
+info
 (
                                 
 "
