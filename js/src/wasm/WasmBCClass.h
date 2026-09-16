@@ -2918,6 +2918,16 @@ nodiscard
 ]
 ]
 bool
+checkStackHeight
+(
+)
+;
+[
+[
+nodiscard
+]
+]
+bool
 createStackMap
 (
 Maybe
