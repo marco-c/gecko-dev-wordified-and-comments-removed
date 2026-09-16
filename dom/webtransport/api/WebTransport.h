@@ -850,6 +850,14 @@ ErrorResult
 aRv
 )
 ;
+void
+SendGetStatsRequest
+(
+Promise
+*
+aPromise
+)
+;
 nsCOMPtr
 <
 nsIGlobalObject

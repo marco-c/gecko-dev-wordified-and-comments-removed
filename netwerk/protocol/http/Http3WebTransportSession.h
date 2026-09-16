@@ -507,6 +507,12 @@ aKeyingMaterial
 )
 override
 ;
+void
+GetStats
+(
+)
+override
+;
 nsresult
 RegisterSendGroup
 (
