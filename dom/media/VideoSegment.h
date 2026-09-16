@@ -14,6 +14,13 @@ h
 #
 include
 "
+MediaInfo
+.
+h
+"
+#
+include
+"
 MediaSegment
 .
 h
@@ -510,6 +517,14 @@ layers
 ContainerRtpTimestamp
 mRtpTimestamp
 ;
+VideoRotation
+mRotation
+=
+VideoRotation
+:
+:
+kDegree_0
+;
 }
 ;
 class
@@ -581,6 +596,8 @@ delete
 VideoSegment
 (
 )
+=
+default
 ;
 void
 AppendFrame
@@ -705,6 +722,8 @@ int64_t
 aWebrtcCaptureTimeNtp
 int64_t
 aWebrtcReceiveTimeUs
+VideoRotation
+aRotation
 )
 ;
 void

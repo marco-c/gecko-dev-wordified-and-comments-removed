@@ -1179,6 +1179,8 @@ const
 nsIntSize
 &
 aSize
+VideoRotation
+aRotation
 )
 ;
 void
@@ -1193,6 +1195,13 @@ nsIntSize
 >
 &
 aNewIntrinsicSize
+const
+Maybe
+<
+VideoRotation
+>
+&
+aNewRotation
 ForceInvalidate
 aForceInvalidate
 )

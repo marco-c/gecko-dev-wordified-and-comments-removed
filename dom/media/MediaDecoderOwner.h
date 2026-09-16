@@ -439,6 +439,13 @@ nsIntSize
 >
 &
 aNewIntrinsicSize
+const
+Maybe
+<
+VideoRotation
+>
+&
+aNewRotation
 ForceInvalidate
 aForceInvalidate
 )

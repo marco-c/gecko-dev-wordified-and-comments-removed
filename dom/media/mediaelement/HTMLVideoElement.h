@@ -159,6 +159,13 @@ nsIntSize
 >
 &
 aNewIntrinsicSize
+const
+Maybe
+<
+VideoRotation
+>
+&
+aNewRotation
 ForceInvalidate
 aForceInvalidate
 )
@@ -196,11 +203,8 @@ aResult
 )
 override
 ;
-NS_IMETHOD_
-(
 bool
-)
-IsAttributeMapped
+IsNoNamespaceAttrMapped
 (
 const
 nsAtom
@@ -293,6 +297,8 @@ const
 nsIntSize
 &
 aSize
+VideoRotation
+aRotation
 )
 override
 ;
