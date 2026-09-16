@@ -1551,13 +1551,6 @@ xhtml
 ]
 [
 "
-test_menulist_scrollbar
-.
-xhtml
-"
-]
-[
-"
 test_mousescroll
 .
 xhtml
