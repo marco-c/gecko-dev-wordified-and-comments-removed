@@ -286,6 +286,10 @@ bzlink
 "
 etp_matrix
 "
+    
+"
+staging_paths
+"
 ]
 myst_enable_extensions
 =
