@@ -5932,6 +5932,11 @@ MODE_NIGHT_NO
 settings
 .
 shouldUseDarkTheme
+|
+|
+settings
+.
+shouldUseOledTheme
 -
 >
 {

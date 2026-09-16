@@ -1534,6 +1534,17 @@ isVisible
 settings
 .
 enableOledTheme
+radioDarkestTheme
+.
+onClickListener
+{
+setNewTheme
+(
+AppCompatDelegate
+.
+MODE_NIGHT_YES
+)
+}
 }
 private
 fun
