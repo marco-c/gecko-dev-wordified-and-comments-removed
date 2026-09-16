@@ -496,6 +496,17 @@ RecvUnblockUntrustedModulesThread
 ;
 #
 endif
+mozilla
+:
+:
+ipc
+:
+:
+IPCResult
+RecvShutdown
+(
+)
+;
 AsyncBlockers
 &
 AsyncShutdownService
