@@ -35569,12 +35569,6 @@ dependencies
 =
 [
 "
-clap
-"
-"
-fnv
-"
-"
 mozilla
 -
 central
@@ -35582,11 +35576,6 @@ central
 workspace
 -
 hack
-"
-"
-windows
--
-sys
 "
 ]
 [
