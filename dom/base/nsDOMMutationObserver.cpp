@@ -3763,7 +3763,7 @@ filters
 .
 AppendElement
 (
-NS_Atomize
+NS_AtomizeMainThread
 (
 filtersAsString
 [
