@@ -21,6 +21,10 @@ components
 asrouter
 /
 docs
+/
+index
+.
+md
 )
 .
 #
