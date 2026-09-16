@@ -272,6 +272,11 @@ TestAudioSinkWrapper
 cpp
 "
 "
+TestAudioStream
+.
+cpp
+"
+"
 TestAudioTrackEncoder
 .
 cpp
