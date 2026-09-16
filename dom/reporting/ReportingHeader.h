@@ -111,7 +111,7 @@ nsIURI
 >
 mUrl
 ;
-nsString
+nsCString
 mEndpointName
 ;
 uint32_t
@@ -133,7 +133,7 @@ nsIURI
 >
 aURL
 const
-nsAString
+nsACString
 &
 aEndpointName
 )
@@ -142,7 +142,7 @@ return
 Endpoint
 {
 aURL
-nsString
+nsCString
 {
 aEndpointName
 }
@@ -157,7 +157,7 @@ aEndpointName
 struct
 Group
 {
-nsString
+nsCString
 mName
 ;
 bool
@@ -216,7 +216,7 @@ function
 void
 (
 const
-nsAString
+nsACString
 &
 nsCOMPtr
 <
@@ -253,7 +253,7 @@ void
 GetEndpointForReport
 (
 const
-nsAString
+nsACString
 &
 aGroupName
 const
@@ -276,7 +276,7 @@ void
 GetEndpointForReport
 (
 const
-nsAString
+nsACString
 &
 aGroupName
 nsIPrincipal
@@ -292,7 +292,7 @@ void
 GetEndpointForReportIncludeSubdomains
 (
 const
-nsAString
+nsACString
 &
 aGroupName
 nsIPrincipal
@@ -310,7 +310,7 @@ void
 RemoveEndpoint
 (
 const
-nsAString
+nsACString
 &
 aGroupName
 const
@@ -418,7 +418,7 @@ nsIURI
 *
 aURI
 const
-nsAString
+nsACString
 &
 aName
 )
@@ -446,7 +446,7 @@ nsIURI
 *
 aURI
 const
-nsAString
+nsACString
 &
 aName
 )
@@ -462,7 +462,7 @@ nsIURI
 *
 aURI
 const
-nsAString
+nsACString
 &
 aName
 )
@@ -478,7 +478,7 @@ nsIURI
 *
 aURI
 const
-nsAString
+nsACString
 &
 aName
 const
@@ -554,7 +554,7 @@ Endpoint
 GetEndpointWithName
 (
 const
-nsAString
+nsACString
 &
 aEndpointName
 )
@@ -563,7 +563,7 @@ void
 RemoveEndpoint
 (
 const
-nsAString
+nsACString
 &
 aEndpointName
 )

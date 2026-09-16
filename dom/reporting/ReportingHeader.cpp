@@ -986,7 +986,7 @@ uri
 ]
 (
 const
-nsAString
+nsACString
 &
 aKey
 nsCOMPtr
@@ -1274,7 +1274,7 @@ uri
 ]
 (
 const
-nsAString
+nsACString
 &
 aKey
 nsCOMPtr
@@ -1333,7 +1333,7 @@ function
 void
 (
 const
-nsAString
+nsACString
 &
 nsCOMPtr
 <
@@ -1642,10 +1642,7 @@ itemsParsed
 ;
 aOnParsedItemCallback
 (
-NS_ConvertUTF8toUTF16
-(
 key
-)
 std
 :
 :
@@ -1946,7 +1943,7 @@ Value
 )
 )
 {
-nsAutoString
+nsAutoCString
 groupName
 ;
 if
@@ -2019,7 +2016,7 @@ MOZ_ASSERT
 groupStr
 )
 ;
-nsAutoJSString
+nsAutoJSCString
 string
 ;
 if
@@ -2669,7 +2666,7 @@ nsIURI
 *
 aURI
 const
-nsAString
+nsACString
 &
 aName
 )
@@ -2684,7 +2681,10 @@ params
 .
 AppendElement
 (
+NS_ConvertUTF8toUTF16
+(
 aName
+)
 )
 ;
 LogToConsoleInternal
@@ -2742,7 +2742,7 @@ nsIURI
 *
 aURI
 const
-nsAString
+nsACString
 &
 aName
 )
@@ -2757,7 +2757,10 @@ params
 .
 AppendElement
 (
+NS_ConvertUTF8toUTF16
+(
 aName
+)
 )
 ;
 LogToConsoleInternal
@@ -2784,7 +2787,7 @@ nsIURI
 *
 aURI
 const
-nsAString
+nsACString
 &
 aName
 )
@@ -2799,7 +2802,10 @@ params
 .
 AppendElement
 (
+NS_ConvertUTF8toUTF16
+(
 aName
+)
 )
 ;
 LogToConsoleInternal
@@ -2826,7 +2832,7 @@ nsIURI
 *
 aURI
 const
-nsAString
+nsACString
 &
 aName
 const
@@ -2852,7 +2858,10 @@ params
 .
 AppendElement
 (
+NS_ConvertUTF8toUTF16
+(
 aName
+)
 )
 ;
 LogToConsoleInternal
@@ -3068,7 +3077,7 @@ ReportingHeader
 GetEndpointForReport
 (
 const
-nsAString
+nsACString
 &
 aGroupName
 const
@@ -3136,7 +3145,7 @@ ReportingHeader
 GetEndpointForReport
 (
 const
-nsAString
+nsACString
 &
 aGroupName
 nsIPrincipal
@@ -3164,7 +3173,7 @@ ReportingHeader
 GetEndpointForReportIncludeSubdomains
 (
 const
-nsAString
+nsACString
 &
 aGroupName
 nsIPrincipal
@@ -3677,7 +3686,7 @@ ReportingHeader
 RemoveEndpoint
 (
 const
-nsAString
+nsACString
 &
 aGroupName
 const
@@ -4411,7 +4420,7 @@ EndpointsList
 GetEndpointWithName
 (
 const
-nsAString
+nsACString
 &
 aEndpointName
 )
@@ -4452,7 +4461,7 @@ EndpointsList
 RemoveEndpoint
 (
 const
-nsAString
+nsACString
 &
 aEndpointName
 )

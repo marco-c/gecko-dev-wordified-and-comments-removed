@@ -23552,7 +23552,10 @@ ReportingHeader
 :
 GetEndpointForReportIncludeSubdomains
 (
+NS_ConvertUTF16toUTF8
+(
 group
+)
 channelPrincipal
 true
 endpointURL
@@ -23580,7 +23583,6 @@ data
 .
 mType
 =
-u
 "
 network
 -
@@ -23592,10 +23594,7 @@ data
 .
 mGroupName
 =
-std
-:
-:
-move
+NS_ConvertUTF16toUTF8
 (
 group
 )
@@ -23604,10 +23603,7 @@ data
 .
 mURL
 =
-std
-:
-:
-move
+NS_ConvertUTF16toUTF8
 (
 url
 )
@@ -23686,7 +23682,10 @@ data
 .
 mUserAgent
 =
-NS_ConvertUTF8toUTF16
+std
+:
+:
+move
 (
 userAgent
 )

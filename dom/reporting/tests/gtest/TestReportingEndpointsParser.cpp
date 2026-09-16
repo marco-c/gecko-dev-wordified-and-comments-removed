@@ -137,7 +137,7 @@ endpoints
 ]
 (
 const
-nsAString
+nsACString
 &
 aKey
 nsCOMPtr
@@ -722,7 +722,7 @@ endpoints
 ]
 (
 const
-nsAString
+nsACString
 &
 aKey
 nsCOMPtr
