@@ -2306,6 +2306,13 @@ mozGetSelectorsByGroup
 (
 group
 )
+policy
+=
+WaitPolicy
+.
+Poll
+(
+)
 applyPreconditions
 =
 true
