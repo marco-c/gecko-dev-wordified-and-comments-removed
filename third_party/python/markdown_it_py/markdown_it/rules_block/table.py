@@ -51,6 +51,9 @@ r
 |
 "
 )
+MAX_AUTOCOMPLETED_CELLS
+=
+0x10000
 def
 getLine
 (
@@ -1057,6 +1060,10 @@ thead
 1
 )
     
+autocompleted_cells
+=
+0
+    
 nextLine
 =
 startLine
@@ -1201,6 +1208,24 @@ columns
 pop
 (
 )
+        
+autocompleted_cells
++
+=
+columnCount
+-
+len
+(
+columns
+)
+        
+if
+autocompleted_cells
+>
+MAX_AUTOCOMPLETED_CELLS
+:
+            
+break
         
 if
 nextLine

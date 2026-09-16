@@ -227,7 +227,7 @@ match
 =
 SCHEME_RE
 .
-match
+search
 (
 state
 .

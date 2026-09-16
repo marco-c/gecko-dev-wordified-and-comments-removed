@@ -7,27 +7,7 @@ StateInline
 "
     
 "
-text
-"
-    
-"
-fragments_join
-"
-    
-"
-link_pairs
-"
-    
-"
-linkify
-"
-    
-"
-escape
-"
-    
-"
-newline
+autolink
 "
     
 "
@@ -39,6 +19,22 @@ emphasis
 "
     
 "
+entity
+"
+    
+"
+escape
+"
+    
+"
+fragments_join
+"
+    
+"
+html_inline
+"
+    
+"
 image
 "
     
@@ -47,19 +43,23 @@ link
 "
     
 "
-autolink
+link_pairs
 "
     
 "
-entity
+linkify
 "
     
 "
-html_inline
+newline
 "
     
 "
 strikethrough
+"
+    
+"
+text
 "
 )
 from

@@ -1,11 +1,13 @@
 import
 codecs
-import
-re
 from
-typing
+collections
+.
+abc
 import
 Callable
+import
+re
 REGEX_SEPARATORS
 =
 re
