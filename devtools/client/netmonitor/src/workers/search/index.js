@@ -69,6 +69,17 @@ SEARCH_WORKER_URL
 )
 ;
 }
+getMatches
+=
+this
+.
+task
+(
+"
+getMatches
+"
+)
+;
 searchInResource
 =
 this

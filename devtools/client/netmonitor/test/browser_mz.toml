@@ -1986,6 +1986,17 @@ js
 ]
 [
 "
+browser_net_source
+-
+preview
+-
+search
+.
+js
+"
+]
+[
+"
 browser_net_speculation
 -
 rules

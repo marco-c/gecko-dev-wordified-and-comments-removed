@@ -64,6 +64,13 @@ firefox
 DevToolsModules
 (
 "
+build
+-
+query
+.
+js
+"
+"
 context
 -
 menu

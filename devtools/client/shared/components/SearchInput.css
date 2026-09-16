@@ -1077,6 +1077,10 @@ offset
 -
 2px
 ;
+border
+:
+none
+;
 }
 .
 search
@@ -1405,5 +1409,11 @@ inline
 end
 :
 3px
+;
+background
+-
+color
+:
+transparent
 ;
 }
