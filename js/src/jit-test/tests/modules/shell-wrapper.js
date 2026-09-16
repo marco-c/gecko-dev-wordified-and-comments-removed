@@ -117,7 +117,7 @@ a
 )
 )
 ;
-moduleLink
+moduleLoadAndLink
 (
 b
 )
@@ -168,7 +168,7 @@ New
 "
 )
 ;
-moduleLink
+moduleLoadAndLink
 (
 c
 )
@@ -223,7 +223,7 @@ f
 )
 )
 ;
-moduleLink
+moduleLoadAndLink
 (
 d
 )
@@ -1562,10 +1562,6 @@ starExportEntries
 importNameValueType
 '
 all
--
-but
--
-default
 '
 )
 ;
@@ -1721,7 +1717,7 @@ dfsAncestorIndex
 undefined
 )
 ;
-moduleLink
+moduleLoadAndLink
 (
 l
 )

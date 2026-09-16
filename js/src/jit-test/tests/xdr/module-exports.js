@@ -122,7 +122,7 @@ b
 m
 )
 ;
-moduleLink
+moduleLoadAndLink
 (
 b
 )
@@ -275,7 +275,7 @@ instantiateModuleStencilXDR
 stencil
 )
 ;
-moduleLink
+moduleLoadAndLink
 (
 d
 )
@@ -397,10 +397,6 @@ starExportEntries
 importNameValueType
 '
 all
--
-but
--
-default
 '
 )
 ;
@@ -434,7 +430,7 @@ instantiateModuleStencilXDR
 stencil
 )
 ;
-moduleLink
+moduleLoadAndLink
 (
 f
 )

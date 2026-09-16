@@ -10309,7 +10309,7 @@ importNameValueType
 ImportNameValueType
 :
 :
-AllButDefault
+All
 )
 {
 MOZ_ASSERT

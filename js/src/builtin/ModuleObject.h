@@ -330,7 +330,7 @@ uint8_t
 String
 Namespace
 Source
-AllButDefault
+All
 }
 ;
 class

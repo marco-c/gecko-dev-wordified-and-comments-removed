@@ -3241,7 +3241,7 @@ js
 ImportNameValueType
 :
 :
-AllButDefault
+All
 ;
 return
 entry
