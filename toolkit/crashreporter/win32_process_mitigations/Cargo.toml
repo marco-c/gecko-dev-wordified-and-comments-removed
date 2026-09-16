@@ -4,7 +4,7 @@ package
 name
 =
 "
-detect_win32k_conflicts
+win32_process_mitigations
 "
 version
 =
@@ -42,7 +42,7 @@ log
 thiserror
 =
 "
-1
+2
 "
 winapi
 =

@@ -862,13 +862,6 @@ h
 #
 include
 "
-detect_win32k_conflicts
-.
-h
-"
-#
-include
-"
 mozilla
 /
 PreXULSkeletonUI

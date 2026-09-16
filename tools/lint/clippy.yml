@@ -807,6 +807,13 @@ crashreporter
 /
 rust_minidump_writer_linux
 /
+-
+toolkit
+/
+crashreporter
+/
+win32_process_mitigations
+/
 #
 -
 toolkit
@@ -839,13 +846,6 @@ toolkit
 library
 /
 rust
-/
--
-toolkit
-/
-xre
-/
-detect_win32k_conflicts
 /
 -
 tools

@@ -3093,7 +3093,7 @@ optional
 =
 true
 }
-detect_win32k_conflicts
+win32_process_mitigations
 =
 {
 path
@@ -3108,9 +3108,9 @@ path
 .
 .
 /
-xre
+crashreporter
 /
-detect_win32k_conflicts
+win32_process_mitigations
 "
 }
 widget_windows
