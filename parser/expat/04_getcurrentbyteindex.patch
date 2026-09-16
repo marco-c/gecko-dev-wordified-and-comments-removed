@@ -45,10 +45,10 @@ xmlparse
 .
 c
 -
-2732
+2733
 7
 +
-2732
+2733
 13
 XML_GetCurrentByteIndex
 (
@@ -56,13 +56,6 @@ XML_Parser
 parser
 )
 {
-if
-(
-parser
--
->
-m_eventPtr
-)
 return
 (
 XML_Index
@@ -86,6 +79,7 @@ m_eventPtr
 )
 )
 ;
+}
 +
 /
 *
@@ -111,6 +105,9 @@ return
 else
 +
 return
+(
+XML_Index
+)
 parser
 -
 >
