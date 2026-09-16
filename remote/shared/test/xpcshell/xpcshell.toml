@@ -80,6 +80,13 @@ js
 ]
 [
 "
+test_RemoteError
+.
+js
+"
+]
+[
+"
 test_Stack
 .
 js
