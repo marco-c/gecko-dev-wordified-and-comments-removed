@@ -85,12 +85,8 @@ constructor
 (
 DOMString
 type
-optional
 SpeechRecognitionEventInit
 eventInitDict
-=
-{
-}
 )
 ;
 readonly
@@ -129,11 +125,9 @@ resultIndex
 =
 0
 ;
+required
 SpeechRecognitionResultList
-?
 results
-=
-null
 ;
 any
 interpretation
