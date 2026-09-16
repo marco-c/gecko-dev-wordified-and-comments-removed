@@ -2937,7 +2937,7 @@ give
 them
 at
 least
-3
+2
 weeks
 of
 "
@@ -2974,7 +2974,7 @@ be
 translated
 after
 that
-3
+2
 week
 window
 will
@@ -3034,7 +3034,7 @@ channel
 localizers
 have
 those
-3
+2
 weeks
 to
 complete
@@ -3562,7 +3562,7 @@ has
 not
 had
 its
-3
+2
 week
 opportunity
 on
@@ -3596,7 +3596,7 @@ channel
 for
 more
 than
-3
+2
 weeks
 and
 therefore
@@ -3854,7 +3854,7 @@ localized
 or
 had
 their
-3
+2
 week
 opportunity
 .
