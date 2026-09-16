@@ -186,14 +186,6 @@ SpeechSynthesisVoice
 cpp
 "
 ]
-if
-CONFIG
-[
-"
-MOZ_WEBSPEECH_TEST_BACKEND
-"
-]
-:
 UNIFIED_SOURCES
 +
 =
