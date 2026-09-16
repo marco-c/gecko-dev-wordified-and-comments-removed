@@ -2721,6 +2721,14 @@ bool
 aNotify
 )
 ;
+void
+NotifySpeculationRulesOfHover
+(
+nsIContent
+*
+aNewHover
+)
+;
 [
 [
 nodiscard
