@@ -6527,6 +6527,12 @@ ScrollHeight
 )
 ;
 MOZ_CAN_RUN_SCRIPT
+nsSize
+GetScrollSize
+(
+)
+;
+MOZ_CAN_RUN_SCRIPT
 void
 MozScrollSnap
 (
@@ -8361,6 +8367,8 @@ bool
 aDoReg
 )
 ;
+public
+:
 void
 IsElement
 (
@@ -8398,12 +8406,6 @@ const
 MOZ_CAN_RUN_SCRIPT
 nsRect
 GetClientAreaRect
-(
-)
-;
-MOZ_CAN_RUN_SCRIPT
-nsSize
-GetScrollSize
 (
 )
 ;
