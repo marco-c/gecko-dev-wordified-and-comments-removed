@@ -916,12 +916,11 @@ prefs
 }
 =
 {
-%
-call
+{
 prefs
 (
 )
-%
+}
 }
 let
 {

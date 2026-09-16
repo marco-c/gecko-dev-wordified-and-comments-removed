@@ -64,7 +64,7 @@ version
 "
 0
 .
-31
+32
 "
 features
 =
@@ -82,7 +82,7 @@ version
 "
 0
 .
-31
+32
 "
 }
 clap
@@ -116,7 +116,7 @@ cargo_metadata
 "
 0
 .
-19
+23
 "
 camino
 =

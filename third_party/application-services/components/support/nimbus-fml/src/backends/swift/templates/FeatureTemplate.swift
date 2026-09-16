@@ -41,8 +41,7 @@ class_name
 %
 }
 {
-%
-call
+{
 swift
 :
 :
@@ -50,7 +49,7 @@ render_class
 (
 inner
 )
-%
+}
 }
 {
 %
@@ -86,15 +85,14 @@ let
 prefs
 =
 {
-%
-call
+{
 swift
 :
 :
 prefs
 (
 )
-%
+}
 }
 else
 {

@@ -25,8 +25,7 @@ inner
 %
 }
 {
-%
-call
+{
 swift
 :
 :
@@ -35,7 +34,7 @@ render_class
 inner
 )
 -
-%
+}
 }
 {
 %

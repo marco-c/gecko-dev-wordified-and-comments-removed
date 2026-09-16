@@ -207,7 +207,7 @@ version
 "
 0
 .
-31
+32
 "
 features
 =
@@ -378,7 +378,7 @@ askama
 "
 0
 .
-14
+16
 "
 textwrap
 =
@@ -441,7 +441,7 @@ version
 "
 0
 .
-31
+32
 "
 optional
 =

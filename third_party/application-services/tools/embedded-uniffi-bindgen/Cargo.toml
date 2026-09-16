@@ -88,9 +88,13 @@ glob
 toml
 =
 "
+>
+=
 0
 .
-5
+9
+<
+2
 "
 clap
 =
@@ -142,7 +146,7 @@ version
 "
 0
 .
-31
+32
 "
 }
 uniffi_pipeline
@@ -153,7 +157,7 @@ version
 "
 0
 .
-31
+32
 "
 }
 mozilla

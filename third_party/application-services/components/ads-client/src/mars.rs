@@ -325,6 +325,10 @@ context_id
 self
 .
 environment
+.
+clone
+(
+)
 flags
 ohttp
 placements
@@ -611,6 +615,10 @@ PreflightRequest
 self
 .
 environment
+.
+clone
+(
+)
 .
 into_url
 (
@@ -1487,7 +1495,10 @@ max_size
 crate
 :
 :
-http_cache
+common
+:
+:
+bytesize
 :
 :
 ByteSize
@@ -1688,7 +1699,10 @@ max_size
 crate
 :
 :
-http_cache
+common
+:
+:
+bytesize
 :
 :
 ByteSize
@@ -1854,7 +1868,10 @@ max_size
 crate
 :
 :
-http_cache
+common
+:
+:
+bytesize
 :
 :
 ByteSize

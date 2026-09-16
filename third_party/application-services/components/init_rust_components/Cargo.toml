@@ -63,6 +63,8 @@ keydb
 [
 "
 nss
+-
+as
 /
 keydb
 "
@@ -92,10 +94,12 @@ version
 "
 0
 .
-31
+32
 "
 }
 nss
+-
+as
 =
 {
 path
