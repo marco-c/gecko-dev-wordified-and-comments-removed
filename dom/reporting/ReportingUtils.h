@@ -86,11 +86,11 @@ nsAtom
 *
 aType
 const
-nsAString
+nsACString
 &
 aGroupName
 const
-nsAString
+nsACString
 &
 aURL
 ReportBody

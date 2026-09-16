@@ -176,12 +176,13 @@ forget
 )
 ;
 }
-nsString
+NS_ConvertUTF16toUTF8
 reportGroup
-=
+(
 aParams
 .
 mGroup
+)
 ;
 nsPIDOMWindowInner
 *
@@ -301,12 +302,6 @@ forget
 )
 ;
 }
-NS_ConvertUTF8toUTF16
-docURIString
-(
-spec
-)
-;
 ReportingUtils
 :
 :
@@ -318,7 +313,7 @@ nsGkAtoms
 :
 test
 reportGroup
-docURIString
+spec
 reportBody
 )
 ;

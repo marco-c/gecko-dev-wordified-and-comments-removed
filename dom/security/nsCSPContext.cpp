@@ -5736,10 +5736,16 @@ nsGkAtoms
 :
 :
 cspViolation
+NS_ConvertUTF16toUTF8
+(
 reportGroup
+)
+NS_ConvertUTF16toUTF8
+(
 aViolationEventInit
 .
 mDocumentURI
+)
 body
 )
 ;
