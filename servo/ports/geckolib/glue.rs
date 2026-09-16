@@ -40398,9 +40398,6 @@ Option
 a
 ComputedValues
 >
-for_smil_animation
-:
-bool
 rule_cache_conditions
 :
 &
@@ -40465,7 +40462,6 @@ stylist
 style
 parent_style
 )
-for_smil_animation
 per_doc_data
 .
 stylist
@@ -40993,7 +40989,6 @@ data
 &
 style
 parent_style
-false
 &
 mut
 conditions
@@ -41795,7 +41790,6 @@ data
 &
 style
 parent_style
-true
 &
 mut
 conditions
@@ -42099,7 +42093,6 @@ create_context_for_animation
 data
 style
 parent_style
-false
 &
 mut
 conditions
@@ -62509,7 +62502,6 @@ data
 &
 style
 parent_style
-false
 &
 mut
 conditions
