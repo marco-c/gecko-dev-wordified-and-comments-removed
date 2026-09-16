@@ -239,9 +239,6 @@ await
 assertLineIsBreakable
 (
 dbg
-source
-.
-url
 14
 true
 )
@@ -605,9 +602,6 @@ await
 assertLineIsBreakable
 (
 dbg
-binarySource
-.
-url
 binaryLine
 true
 )
