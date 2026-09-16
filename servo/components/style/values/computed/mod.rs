@@ -1517,7 +1517,7 @@ quirks_mode
 :
 QuirksMode
 pub
-for_animation
+for_smil_animation
 :
 bool
 pub
@@ -1702,7 +1702,7 @@ in_container_query
 :
 false
 quirks_mode
-for_animation
+for_smil_animation
 :
 false
 container_info
@@ -1939,7 +1939,7 @@ in_container_query
 :
 true
 quirks_mode
-for_animation
+for_smil_animation
 :
 false
 container_info
@@ -2095,7 +2095,7 @@ quirks_mode
 container_info
 :
 None
-for_animation
+for_smil_animation
 :
 false
 for_non_inherited_property
@@ -2151,6 +2151,9 @@ StyleBuilder
 '
 a
 >
+for_smil_animation
+:
+bool
 quirks_mode
 :
 QuirksMode
@@ -2203,9 +2206,7 @@ quirks_mode
 container_info
 :
 None
-for_animation
-:
-true
+for_smil_animation
 for_non_inherited_property
 :
 false
@@ -2326,7 +2327,7 @@ quirks_mode
 container_info
 :
 None
-for_animation
+for_smil_animation
 :
 false
 for_non_inherited_property
