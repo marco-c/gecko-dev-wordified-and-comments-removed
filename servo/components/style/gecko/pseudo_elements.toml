@@ -570,6 +570,9 @@ customizable_select
 .
 enabled
 "
+is_flex_or_grid_item
+=
+true
 is_tree_abiding
 =
 true
