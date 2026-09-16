@@ -301,6 +301,11 @@ logins
 .
 db
 "
+"
+autofill
+.
+db
+"
 ]
 ;
 await
@@ -460,6 +465,11 @@ sqlite
 "
 "
 logins
+.
+db
+"
+"
+autofill
 .
 db
 "
@@ -838,6 +848,11 @@ sqlite
 "
 "
 logins
+.
+db
+"
+"
+autofill
 .
 db
 "
