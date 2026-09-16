@@ -1722,9 +1722,6 @@ isFromProcessingFrameAttributes
 bool
 isMediaRequest
 ;
-bool
-isFromObjectOrEmbed
-;
 CookieJarSettingsArgs
 cookieJarSettings
 ;

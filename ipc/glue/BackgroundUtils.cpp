@@ -3443,12 +3443,6 @@ aLoadInfo
 GetIsMediaRequest
 (
 )
-aLoadInfo
--
->
-GetIsFromObjectOrEmbed
-(
-)
 cookieJarSettingsArgs
 aLoadInfo
 -
