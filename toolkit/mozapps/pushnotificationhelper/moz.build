@@ -66,11 +66,11 @@ BUG_COMPONENT
 =
 (
 "
-Firefox
+Toolkit
 "
 "
-Launcher
-Process
+Push
+Service
 "
 )
 RUST_PROGRAMS
