@@ -386,9 +386,14 @@ style
 =
 {
 {
-max
+display
+:
+"
+inline
 -
-width
+block
+"
+maxWidth
 :
 "
 150px
