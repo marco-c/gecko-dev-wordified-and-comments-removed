@@ -35,6 +35,13 @@ js
 ]
 [
 "
+test_network_timings_restart
+.
+js
+"
+]
+[
+"
 test_security
 -
 info
