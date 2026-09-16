@@ -547,6 +547,10 @@ defined
 (
 XP_WIN
 )
+&
+&
+!
+MOZ_WINCONSOLE
 static
 bool
 gIsBackgroundTask
@@ -859,6 +863,10 @@ defined
 (
 XP_WIN
 )
+&
+&
+!
+MOZ_WINCONSOLE
 static
 bool
 HasFlag
@@ -1605,6 +1613,10 @@ defined
 (
 XP_WIN
 )
+&
+&
+!
+MOZ_WINCONSOLE
 gIsBackgroundTask
 =
 HasFlag
