@@ -791,11 +791,6 @@ nsIntervalSet
 h
 "
 "
-nsIStatefulFrame
-.
-h
-"
-"
 nsLineBox
 .
 h
