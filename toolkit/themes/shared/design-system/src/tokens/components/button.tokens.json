@@ -3831,11 +3831,6 @@ default
 inherit
 "
 "
-brand
-"
-:
-{
-"
 prefersContrast
 "
 :
@@ -3865,7 +3860,6 @@ color
 base
 }
 "
-}
 "
 nova
 "
