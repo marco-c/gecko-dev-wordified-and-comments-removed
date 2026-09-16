@@ -76,6 +76,10 @@ stubSearchCTASupportedEngine
 (
 )
 ;
+pinSearchCTADecisionDeadline
+(
+)
+;
 await
 SearchTestUtils
 .

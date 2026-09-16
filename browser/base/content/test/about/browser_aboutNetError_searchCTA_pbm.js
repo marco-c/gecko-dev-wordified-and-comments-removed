@@ -56,6 +56,10 @@ stubSearchCTASupportedEngine
 (
 )
 ;
+pinSearchCTADecisionDeadline
+(
+)
+;
 await
 SpecialPowers
 .
