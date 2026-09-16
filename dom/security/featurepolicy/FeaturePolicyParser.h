@@ -34,7 +34,7 @@ public
 :
 static
 bool
-ParseString
+ParsePolicyFromAttribute
 (
 const
 nsAString
