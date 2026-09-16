@@ -1561,7 +1561,7 @@ allOf
 (
 withId
 (
-R
+addonsR
 .
 id
 .
@@ -1742,7 +1742,7 @@ allOf
 (
 withId
 (
-R
+addonsR
 .
 id
 .
@@ -1898,7 +1898,7 @@ hasDescendant
 (
 withId
 (
-R
+addonsR
 .
 id
 .
@@ -1909,7 +1909,7 @@ hasDescendant
 (
 withId
 (
-R
+addonsR
 .
 id
 .
@@ -1922,7 +1922,7 @@ hasDescendant
 (
 withId
 (
-R
+addonsR
 .
 id
 .
@@ -2016,7 +2016,7 @@ allOf
 (
 withId
 (
-R
+addonsR
 .
 id
 .
