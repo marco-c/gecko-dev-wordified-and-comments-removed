@@ -745,6 +745,16 @@ received_rank
 link
 .
 received_rank
+variant_id
+:
+link
+.
+variant_id
+source_section_id
+:
+link
+.
+source_section_id
 topic
 :
 link
