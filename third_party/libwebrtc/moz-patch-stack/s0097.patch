@@ -121,10 +121,10 @@ libvpx_vp9_encoder
 .
 cc
 index
-1a3934c364
+5fe9f3db58
 .
 .
-8ba462948a
+82f6d77b3a
 100644
 -
 -
@@ -159,10 +159,10 @@ libvpx_vp9_encoder
 .
 cc
 -
-1354
+1353
 7
 +
-1354
+1353
 7
 int
 LibvpxVp9Encoder

@@ -140,10 +140,10 @@ libaom_av1_encoder
 .
 cc
 index
-f66ee6463a
+d92b797015
 .
 .
-fd61d744d6
+dda9a496bc
 100644
 -
 -
@@ -178,10 +178,10 @@ libaom_av1_encoder
 .
 cc
 -
-67
+66
 6
 +
-67
+66
 10
 #
 define

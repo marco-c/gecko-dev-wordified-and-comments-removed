@@ -122,10 +122,10 @@ libaom_av1_encoder
 .
 cc
 index
-bedcbf11e7
+ed4f9c4ffd
 .
 .
-f66ee6463a
+d92b797015
 100644
 -
 -
@@ -160,10 +160,10 @@ libaom_av1_encoder
 .
 cc
 -
-278
+274
 7
 +
-278
+274
 7
 LibaomAv1Encoder
 :
