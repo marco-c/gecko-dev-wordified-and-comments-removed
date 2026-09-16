@@ -451,6 +451,13 @@ file_bug1736248
 .
 html
 "
+"
+WatchedByDevToolsTestChild
+.
+sys
+.
+mjs
+"
 ]
 [
 "
@@ -2461,6 +2468,13 @@ files
 file_basic_multipart
 .
 sjs
+"
+]
+[
+"
+browser_watchedByDevTools
+.
+js
 "
 ]
 [
