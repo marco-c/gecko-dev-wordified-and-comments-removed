@@ -2077,7 +2077,7 @@ message_seq
 conversation
 .
 messageCount
-action_type
+action
 :
 actionType
 prompt_type
@@ -3908,7 +3908,7 @@ message_seq
 conversation
 .
 messageCount
-action_type
+action
 :
 "
 group_tabs
@@ -4023,7 +4023,7 @@ message_seq
 conversation
 .
 messageCount
-action_type
+action
 :
 "
 group_tabs
@@ -4417,7 +4417,7 @@ message_seq
 conversation
 .
 messageCount
-action_type
+action
 :
 "
 close_tabs
@@ -4587,7 +4587,7 @@ message_seq
 conversation
 .
 messageCount
-action_type
+action
 :
 "
 close_tabs
@@ -6199,7 +6199,7 @@ recordBrowserActionPrompt
 .
 .
 telemetryData
-action_type
+action
 :
 actionType
 prompt_type
