@@ -185,15 +185,6 @@ bug798068
 ref
 .
 xhtml
-pref
-(
-dom
-.
-xslt
-.
-enabled
-true
-)
 =
 =
 bug1389406
