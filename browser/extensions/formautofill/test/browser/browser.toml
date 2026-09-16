@@ -296,6 +296,13 @@ js
 ]
 [
 "
+browser_autocomplete_secondary_action
+.
+js
+"
+]
+[
+"
 browser_autofill_address_housenumber
 .
 js
@@ -857,6 +864,13 @@ js
 [
 "
 browser_ml_heuristics
+.
+js
+"
+]
+[
+"
+browser_ml_mldata_features
 .
 js
 "
