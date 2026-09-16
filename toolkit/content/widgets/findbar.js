@@ -235,6 +235,10 @@ findbar
 -
 textbox
 "
+preserveundohistory
+=
+"
+"
 /
 >
 <

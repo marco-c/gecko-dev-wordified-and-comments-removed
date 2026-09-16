@@ -350,6 +350,10 @@ minresultsforpopup
 "
 0
 "
+preserveundohistory
+=
+"
+"
 /
 >
 <

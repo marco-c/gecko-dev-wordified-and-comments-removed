@@ -2103,6 +2103,10 @@ inputmode
 "
 mozAwesomebar
 "
+preserveundohistory
+=
+"
+"
 data
 -
 l10n
