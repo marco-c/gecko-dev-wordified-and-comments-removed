@@ -96,7 +96,7 @@ mozilla
 /
 layers
 /
-CompositeProcessD3D11FencesHolderMap
+CompositeProcessFencesHolderMap
 .
 h
 "
@@ -1315,7 +1315,7 @@ auto
 *
 fencesHolderMap
 =
-CompositeProcessD3D11FencesHolderMap
+CompositeProcessFencesHolderMap
 :
 :
 Get
@@ -1465,10 +1465,13 @@ isSome
 fencesHolderMap
 )
 {
+auto
+fences
+=
 fencesHolderMap
 -
 >
-WaitAllFencesAndForget
+TakeAllFencesAndForget
 (
 textureData
 -
@@ -1478,6 +1481,14 @@ mFencesHolderId
 ref
 (
 )
+)
+;
+FenceD3D11
+:
+:
+WaitD3D11Fences
+(
+fences
 mDevice
 )
 ;

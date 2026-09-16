@@ -16,6 +16,13 @@ WMFDecoderModule
 h
 "
 #
+include
+"
+WMFEncoderModule
+.
+h
+"
+#
 endif
 #
 include
@@ -634,7 +641,7 @@ mozilla
 /
 layers
 /
-CompositeProcessD3D11FencesHolderMap
+CompositeProcessFencesHolderMap
 .
 h
 "
@@ -1213,7 +1220,7 @@ Init
 (
 )
 ;
-CompositeProcessD3D11FencesHolderMap
+CompositeProcessFencesHolderMap
 :
 :
 Init
@@ -3025,6 +3032,13 @@ Init
 (
 )
 ;
+WMFEncoderModule
+:
+:
+ClearCache
+(
+)
+;
 #
 endif
 if
@@ -4650,7 +4664,7 @@ Shutdown
 (
 )
 ;
-CompositeProcessD3D11FencesHolderMap
+CompositeProcessFencesHolderMap
 :
 :
 Shutdown
