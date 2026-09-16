@@ -394,6 +394,12 @@ Stop
 (
 )
 ;
+bool
+stopped
+(
+)
+const
+;
 void
 SetProtectionMode
 (
