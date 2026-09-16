@@ -333,7 +333,7 @@ continue
 }
 if
 (
-HTMLOptionElement
+HTMLSelectElement
 :
 :
 IsOptionListBoundary
