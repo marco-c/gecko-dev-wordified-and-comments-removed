@@ -249,6 +249,11 @@ NavigateTo
 DistributionTools
 DebugDrawerAction
 .
+NavigateTo
+.
+IPProtectionLocationTools
+DebugDrawerAction
+.
 OnBackPressed
 -
 >
