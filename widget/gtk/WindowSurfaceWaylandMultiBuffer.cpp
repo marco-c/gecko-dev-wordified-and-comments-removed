@@ -686,6 +686,11 @@ uint8_t
 mFrontBuffer
 -
 >
+GetShmPool
+(
+)
+-
+>
 GetImageData
 (
 )
