@@ -4542,9 +4542,9 @@ wr
 DeviceIntPoint
 *
 aOffset
-uint32_t
+uint64_t
 *
-aFboId
+aSurfaceHandle
 wr
 :
 :
@@ -4564,7 +4564,7 @@ Bind
 (
 aId
 aOffset
-aFboId
+aSurfaceHandle
 aDirtyRect
 aValidRect
 )

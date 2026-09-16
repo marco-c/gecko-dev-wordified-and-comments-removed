@@ -2912,11 +2912,11 @@ offset
 surface_info
 .
 origin
-external_fbo_id
+handle
 :
 surface_info
 .
-fbo_id
+handle
 dimensions
 :
 surface_size

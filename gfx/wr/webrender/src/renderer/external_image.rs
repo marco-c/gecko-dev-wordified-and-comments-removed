@@ -351,7 +351,13 @@ ExternalTexture
 :
 new
 (
+api
+:
+:
+ExternalTextureHandle
+(
 0
+)
 texture_target
 image
 .

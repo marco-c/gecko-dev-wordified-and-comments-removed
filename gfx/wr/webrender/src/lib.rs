@@ -550,6 +550,7 @@ composite
 {
 NativeSurfaceId
 NativeTileId
+NativeSurfaceHandle
 NativeSurfaceInfo
 PartialPresentCompositor
 }
