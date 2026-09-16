@@ -155,13 +155,6 @@ event_source
 "
 card
 "
-layout_name
-:
-"
-card
--
-layout
-"
 }
 ;
 let
@@ -177,6 +170,13 @@ section_position
 :
 "
 2
+"
+layout_name
+:
+"
+card
+-
+layout
 "
 position
 :

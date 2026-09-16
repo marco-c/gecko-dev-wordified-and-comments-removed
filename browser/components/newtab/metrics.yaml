@@ -14543,6 +14543,10 @@ followed
 type
 :
 boolean
+layout_name
+:
+*
+layout_name
 send_in_pings
 :
 -
@@ -14800,6 +14804,10 @@ followed
 type
 :
 boolean
+layout_name
+:
+*
+layout_name
 send_in_pings
 :
 -
