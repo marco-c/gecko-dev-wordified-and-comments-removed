@@ -43,11 +43,6 @@ lib
 rs
 "
 "
-screen_capture
-.
-rs
-"
-"
 renderer
 /
 init
