@@ -23,10 +23,6 @@ tempfile
 import
 uuid
 from
-collections
-import
-OrderedDict
-from
 io
 import
 BytesIO
@@ -7186,19 +7182,17 @@ self
 .
 _files
 =
-OrderedDict
-(
-(
+{
 f
 .
 filename
+:
 f
-)
 for
 f
 in
 reader
-)
+}
     
 def
 _find
@@ -7362,14 +7356,12 @@ self
 .
 _files
 =
-OrderedDict
-(
-(
+{
 f
 .
 name
+:
 f
-)
 for
 f
 in
@@ -7380,7 +7372,7 @@ f
 isfile
 (
 )
-)
+}
     
 def
 _find
@@ -8017,9 +8009,8 @@ self
 .
 _files
 =
-OrderedDict
-(
-)
+{
+}
         
 out
 =

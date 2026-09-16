@@ -12,7 +12,6 @@ from
 collections
 import
 Counter
-OrderedDict
 defaultdict
 from
 concurrent
@@ -633,9 +632,8 @@ self
 .
 _files
 =
-OrderedDict
-(
-)
+{
+}
         
 self
 .

@@ -117,7 +117,6 @@ types
 from
 collections
 import
-OrderedDict
 defaultdict
 from
 concurrent
@@ -8652,9 +8651,8 @@ subcontexts
         
 recurse_info
 =
-OrderedDict
-(
-)
+{
+}
         
 for
 d

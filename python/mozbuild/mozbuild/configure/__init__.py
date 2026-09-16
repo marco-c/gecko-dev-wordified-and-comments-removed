@@ -13,16 +13,14 @@ sys
 import
 types
 from
-collections
-import
-OrderedDict
-from
 contextlib
 import
 contextmanager
 from
 functools
 import
+cache
+cached_property
 wraps
 import
 mozpack
@@ -79,10 +77,6 @@ import
 ReadOnlyDict
     
 ReadOnlyNamespace
-    
-memoize
-    
-memoized_property
 )
 TRACE
 =
@@ -739,7 +733,7 @@ dependencies
         
 ]
     
-memoize
+cache
     
 def
 result
@@ -1236,7 +1230,7 @@ func
 flatten_deps
 )
     
-memoize
+cache
     
 def
 result
@@ -1591,6 +1585,12 @@ config
 "
 "
     
+__hash__
+=
+object
+.
+__hash__
+    
 BUILTINS
 =
 ReadOnlyDict
@@ -1886,9 +1886,8 @@ self
 .
 _depends
 =
-OrderedDict
-(
-)
+{
+}
         
 self
 .
@@ -1909,17 +1908,15 @@ self
 .
 _options
 =
-OrderedDict
-(
-)
+{
+}
         
 self
 .
 _raw_options
 =
-OrderedDict
-(
-)
+{
+}
         
 self
 .
@@ -1956,6 +1953,13 @@ _default_conditions
 =
 [
 ]
+        
+self
+.
+_resolved_options
+=
+{
+}
         
 self
 .
@@ -2673,7 +2677,7 @@ pop
     
 staticmethod
     
-memoize
+cache
     
 def
 get_compiled_source
@@ -3459,7 +3463,7 @@ obj
 assert
 False
     
-memoize
+cache
     
 def
 _value_for_depends
@@ -3498,7 +3502,7 @@ value
 return
 value
     
-memoize
+cache
     
 def
 _value_for_option
@@ -3775,25 +3779,15 @@ implied
 "
 :
             
-recursed_value
-=
-getattr
-(
+if
 self
-"
-__value_for_option
-"
-)
+.
+_resolved_options
 .
 get
 (
-(
 option
 )
-)
-            
-if
-recursed_value
 is
 not
 None
@@ -3961,6 +3955,15 @@ None
 option
 )
             
+self
+.
+_resolved_options
+[
+option
+]
+=
+None
+            
 return
 None
         
@@ -3981,6 +3984,15 @@ r
 option
 value
 )
+        
+self
+.
+_resolved_options
+[
+option
+]
+=
+value
         
 return
 value
@@ -6363,7 +6375,7 @@ attr
 return
 wrapped
     
-memoized_property
+cached_property
     
 def
 _wrapped_os
@@ -6456,7 +6468,7 @@ ReadOnlyNamespace
 wrapped_os
 )
     
-memoized_property
+cached_property
     
 def
 _wrapped_subprocess

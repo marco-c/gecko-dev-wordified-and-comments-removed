@@ -8,10 +8,6 @@ import
 sys
 from
 collections
-import
-OrderedDict
-from
-collections
 .
 abc
 import
@@ -2412,21 +2408,9 @@ acdefines
         
 all_defines
 =
-OrderedDict
-(
-)
-        
-for
+{
 k
-in
-global_defines
 :
-            
-all_defines
-[
-k
-]
-=
 config
 [
 "
@@ -2436,6 +2420,11 @@ defines
 [
 k
 ]
+for
+k
+in
+global_defines
+}
         
 defines
 [

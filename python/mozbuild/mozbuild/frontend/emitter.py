@@ -13,7 +13,6 @@ traceback
 from
 collections
 import
-OrderedDict
 defaultdict
 import
 mozinfo
@@ -312,7 +311,7 @@ self
 .
 _binaries
 =
-OrderedDict
+dict
 (
 )
         

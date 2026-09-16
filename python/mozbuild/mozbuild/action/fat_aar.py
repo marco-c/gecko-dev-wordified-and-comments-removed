@@ -41,7 +41,6 @@ time
 from
 collections
 import
-OrderedDict
 defaultdict
 from
 hashlib
@@ -1359,9 +1358,8 @@ class
     
 not_allowed
 =
-OrderedDict
-(
-)
+{
+}
     
 def
 format_diffs

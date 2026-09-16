@@ -22,7 +22,6 @@ from
 collections
 import
 Counter
-OrderedDict
 namedtuple
 from
 itertools
@@ -1152,17 +1151,15 @@ self
 .
 tiers
 =
-OrderedDict
-(
-)
+{
+}
         
 self
 .
 tier_status
 =
-OrderedDict
-(
-)
+{
+}
         
 self
 .

@@ -3,10 +3,6 @@ os
 import
 unittest
 from
-collections
-import
-OrderedDict
-from
 io
 import
 StringIO
@@ -99,75 +95,65 @@ MAGIC
         
 STRUCT
 =
-OrderedDict
-(
-[
+{
             
-(
 "
 foo
 "
+:
 "
 uint32
 "
-)
             
-(
 "
 bar
 "
+:
 "
 uint16
 "
-)
             
-(
 "
 qux
 "
+:
 "
 uint16
 "
-)
             
-(
 "
 length
 "
+:
 "
 uint16
 "
-)
             
-(
 "
 length2
 "
+:
 "
 uint16
 "
-)
             
-(
 "
 string
 "
+:
 "
 length
 "
-)
             
-(
 "
 string2
 "
+:
 "
 length2
 "
-)
         
-]
-)
+}
     
 def
 test_jar_struct

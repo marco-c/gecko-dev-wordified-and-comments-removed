@@ -1,10 +1,6 @@
 import
 re
 from
-collections
-import
-OrderedDict
-from
 packaging
 .
 version
@@ -1632,7 +1628,7 @@ other
 class
 Flags
 (
-OrderedDict
+dict
 )
 :
     
@@ -1806,7 +1802,7 @@ appversion
 "
 "
         
-OrderedDict
+dict
 .
 __init__
 (

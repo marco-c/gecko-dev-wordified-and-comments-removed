@@ -7,10 +7,6 @@ struct
 import
 subprocess
 from
-collections
-import
-OrderedDict
-from
 tempfile
 import
 mkstemp
@@ -938,7 +934,7 @@ implementation
         
 files1
 =
-OrderedDict
+dict
 (
 self
 .
@@ -952,7 +948,7 @@ path
         
 files2
 =
-OrderedDict
+dict
 (
 self
 .
