@@ -8957,9 +8957,6 @@ disable
 options
 :
 {
-autofocus
-:
-true
 persistWhileVisible
 :
 true
@@ -9284,9 +9281,6 @@ create
 options
 :
 {
-autofocus
-:
-true
 persistWhileVisible
 :
 true
