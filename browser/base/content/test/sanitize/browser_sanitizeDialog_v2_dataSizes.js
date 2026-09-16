@@ -765,6 +765,9 @@ resolverAssigned
 false
 ;
 let
+dataSizesReadyToLoadPromise
+;
+let
 dh
 =
 new
@@ -811,8 +814,9 @@ called
 "
 )
 ;
-let
 dataSizesReadyToLoadPromise
+?
+?
 =
 new
 Promise
@@ -1006,6 +1010,7 @@ gSanitizePromptDialog
 .
 dataSizesFinishedUpdatingPromise
 ;
+await
 validateDataSizes
 (
 this
