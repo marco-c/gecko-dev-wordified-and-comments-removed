@@ -265,6 +265,19 @@ lowerIsBetter
 "
 True
 )
+            
+"
+alertSeverity
+"
+:
+data
+.
+get
+(
+"
+alertSeverity
+"
+)
         
 }
     

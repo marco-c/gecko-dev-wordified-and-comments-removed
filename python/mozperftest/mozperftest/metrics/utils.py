@@ -94,6 +94,10 @@ shouldAlert
 "
 alertThreshold
 "
+    
+"
+alertSeverity
+"
 ]
 )
 KNOWN_SUITE_PROPS
