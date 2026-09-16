@@ -36663,6 +36663,15 @@ ContainingBlockContext
 :
 :
 Direct
+&
+&
+nsLayoutUtils
+:
+:
+IsFirstContinuationOrIBSplitSibling
+(
+f
+)
 )
 {
 const
