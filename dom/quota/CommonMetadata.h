@@ -106,7 +106,7 @@ const
 ClientUsageArray
 &
 aClientUsages
-uint64_t
+int64_t
 aUsage
 const
 nsACString
@@ -751,7 +751,7 @@ OriginStateMetadata
 ClientUsageArray
 mClientUsages
 ;
-uint64_t
+int64_t
 mOriginUsage
 ;
 uint32_t
@@ -773,7 +773,7 @@ const
 ClientUsageArray
 &
 aClientUsages
-uint64_t
+int64_t
 aUsage
 uint32_t
 aQuotaVersion

@@ -49,7 +49,7 @@ Array
 <
 Maybe
 <
-uint64_t
+int64_t
 >
 Client
 :
@@ -61,7 +61,7 @@ public
 :
 Maybe
 <
-uint64_t
+int64_t
 >
 &
 operator
@@ -114,7 +114,7 @@ aIndex
 const
 Maybe
 <
-uint64_t
+int64_t
 >
 &
 operator

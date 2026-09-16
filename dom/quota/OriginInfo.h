@@ -119,7 +119,7 @@ const
 ClientUsageArray
 &
 aClientUsages
-uint64_t
+int64_t
 aUsage
 int64_t
 aAccessTime
@@ -482,7 +482,7 @@ Client
 :
 Type
 aClientType
-uint64_t
+int64_t
 aDelta
 DirtyTrackingAutoLock
 &
@@ -500,7 +500,7 @@ Client
 :
 Type
 aClientType
-uint64_t
+int64_t
 aDelta
 DirtyTrackingAutoLock
 &
@@ -515,7 +515,7 @@ Client
 :
 Type
 aClientType
-uint64_t
+int64_t
 aDelta
 DirtyTrackingAutoLock
 &
@@ -625,7 +625,7 @@ aProofOfLock
 ClientUsageArray
 mClientUsages
 ;
-uint64_t
+int64_t
 mUsage
 ;
 TimeStamp
