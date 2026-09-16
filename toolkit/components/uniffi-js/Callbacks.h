@@ -339,8 +339,6 @@ mHandler
 PromiseHandler
 (
 )
-=
-default
 ;
 }
 ;

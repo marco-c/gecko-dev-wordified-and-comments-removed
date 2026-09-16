@@ -828,4 +828,17 @@ aRv
 )
 ;
 }
+AsyncCallbackMethodHandlerBase
+:
+:
+PromiseHandler
+:
+:
+~
+PromiseHandler
+(
+)
+=
+default
+;
 }
