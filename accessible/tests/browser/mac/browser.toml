@@ -56,6 +56,11 @@ doc_tree
 xhtml
 "
 "
+doc_xul_grid
+.
+xhtml
+"
+"
 !
 /
 accessible
@@ -626,6 +631,13 @@ js
 [
 "
 browser_webarea
+.
+js
+"
+]
+[
+"
+browser_xul_role_grid
 .
 js
 "
