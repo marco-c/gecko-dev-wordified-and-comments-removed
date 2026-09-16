@@ -6068,6 +6068,10 @@ max_corner_height
 max_inset_height
 )
 )
+.
+abs
+(
+)
 ;
 return
 QuadRenderStrategy
