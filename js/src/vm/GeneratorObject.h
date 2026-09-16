@@ -1229,6 +1229,15 @@ frame
 ;
 AbstractGeneratorObject
 *
+GetGeneratorObjectForModule
+(
+ModuleObject
+*
+module
+)
+;
+AbstractGeneratorObject
+*
 GetGeneratorObjectForEnvironment
 (
 JSContext
