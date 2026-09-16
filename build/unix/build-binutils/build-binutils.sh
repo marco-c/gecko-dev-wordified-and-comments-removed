@@ -764,6 +764,11 @@ disable
 nls
 -
 -
+without
+-
+zstd
+-
+-
 target
 =
 target
@@ -866,6 +871,11 @@ plugins
 disable
 -
 nls
+-
+-
+without
+-
+zstd
 -
 -
 enable

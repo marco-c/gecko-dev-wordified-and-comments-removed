@@ -141,6 +141,10 @@ libxml2
 -
 dev
 \
+libzstd
+-
+dev
+\
 lld
 -
 {
