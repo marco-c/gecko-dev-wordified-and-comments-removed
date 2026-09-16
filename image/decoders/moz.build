@@ -254,11 +254,6 @@ UNIFIED_SOURCES
 =
 [
 "
-JxlDecodePool
-.
-cpp
-"
-"
 nsJXLDecoder
 .
 cpp

@@ -865,15 +865,6 @@ bmp
 "
 "
 large
--
-jxl
--
-reference
-.
-webp
-"
-"
-large
 .
 avif
 "
