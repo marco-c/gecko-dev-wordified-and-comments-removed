@@ -2207,6 +2207,10 @@ class
 MOZ_STACK_CLASS
 AutoNewContentHandler
 ;
+class
+MOZ_STACK_CLASS
+AutoContentWillBeRemovedHandler
+;
 bool
 IsPointComparableToRange
 (
