@@ -314,7 +314,6 @@ test
 .
 *
 /
-Synchronized
 fun
 event
 (
@@ -328,15 +327,16 @@ Any
 >
 )
 {
-val
-event
-=
 envelope
 .
-enrich
+withEnrichedEvent
 (
 map
 )
+{
+event
+-
+>
 val
 line
 =
@@ -385,6 +385,7 @@ message
 "
 )
 return
+withEnrichedEvent
 }
 /
 /
@@ -547,6 +548,7 @@ message
 }
 "
 )
+}
 }
 }
 /
