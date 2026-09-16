@@ -164,15 +164,6 @@ layout_height
 "
 wrap_content
 "
-android
-:
-minHeight
-=
-"
-dimen
-/
-library_item_height
-"
 /
 >
 <
