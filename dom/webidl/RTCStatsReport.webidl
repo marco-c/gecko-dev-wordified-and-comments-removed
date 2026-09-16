@@ -842,6 +842,7 @@ DOMString
 transportId
 ;
 DOMString
+?
 address
 ;
 long

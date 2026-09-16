@@ -182,7 +182,7 @@ nsACString
 &
 aAttr
 bool
-aRemote
+aHidePrflx
 =
 false
 )

@@ -247,6 +247,7 @@ address
 nr_str_port_to_transport_addr
 (
 ip_str
+nullptr
 0
 proto
 &
@@ -2048,6 +2049,7 @@ nr_str_port_to_transport_addr
 .
 1
 "
+nullptr
 22
 IPPROTO_UDP
 &
@@ -2090,6 +2092,7 @@ nr_str_port_to_transport_addr
 .
 1
 "
+nullptr
 22
 IPPROTO_TCP
 &
@@ -2132,6 +2135,7 @@ nr_str_port_to_transport_addr
 .
 1
 "
+nullptr
 5349
 IPPROTO_UDP
 &
@@ -2174,6 +2178,7 @@ nr_str_port_to_transport_addr
 .
 1
 "
+nullptr
 5349
 IPPROTO_TCP
 &
@@ -2216,6 +2221,7 @@ nr_str_port_to_transport_addr
 .
 1
 "
+nullptr
 53
 IPPROTO_UDP
 &
@@ -2258,6 +2264,7 @@ nr_str_port_to_transport_addr
 .
 1
 "
+nullptr
 53
 IPPROTO_TCP
 &

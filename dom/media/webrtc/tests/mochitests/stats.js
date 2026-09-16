@@ -10278,6 +10278,18 @@ stat
 }
 )
 ;
+if
+(
+stat
+.
+candidateType
+!
+=
+"
+prflx
+"
+)
+{
 ok
 (
 stat
@@ -10298,7 +10310,6 @@ stat
 .
 address
 }
-+
 (
 {
 stat
@@ -10308,6 +10319,7 @@ kind
 )
 )
 ;
+}
 ok
 (
 stat

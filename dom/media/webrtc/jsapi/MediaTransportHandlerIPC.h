@@ -340,7 +340,7 @@ std
 :
 string
 &
-aObfuscatedAddress
+aResolvedAddress
 )
 override
 ;

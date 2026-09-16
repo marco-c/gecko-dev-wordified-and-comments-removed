@@ -4132,14 +4132,8 @@ PendingIceCandidate
 std
 :
 :
-vector
-<
-std
-:
-:
 string
->
-mTokenizedCandidate
+mCandidate
 ;
 std
 :

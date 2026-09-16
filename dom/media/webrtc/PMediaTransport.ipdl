@@ -701,7 +701,7 @@ candidate
 string
 ufrag
 string
-obfuscatedAddr
+resolvedAddress
 )
 ;
 async

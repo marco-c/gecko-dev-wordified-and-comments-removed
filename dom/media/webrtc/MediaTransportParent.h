@@ -365,7 +365,7 @@ ufrag
 const
 string
 &
-obfuscatedAddress
+resolvedAddress
 )
 ;
 mozilla
