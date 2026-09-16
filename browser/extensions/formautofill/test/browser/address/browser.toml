@@ -520,6 +520,13 @@ Bug
 ]
 [
 "
+browser_address_unsupported_country
+.
+js
+"
+]
+[
+"
 browser_autofill_whenhidden
 .
 js
