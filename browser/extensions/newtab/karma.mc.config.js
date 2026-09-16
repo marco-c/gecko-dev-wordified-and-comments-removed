@@ -2655,10 +2655,14 @@ lines
 76
 functions
 :
-86
+85
+.
+71
 branches
 :
-76
+75
+.
+68
 }
 "
 content

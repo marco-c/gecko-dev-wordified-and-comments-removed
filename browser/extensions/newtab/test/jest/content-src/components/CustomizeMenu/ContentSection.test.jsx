@@ -194,13 +194,6 @@ jest
 fn
 (
 )
-onSubpanelToggle
-:
-jest
-.
-fn
-(
-)
 toggleSectionsMgmtPanel
 :
 jest

@@ -2675,13 +2675,6 @@ stub
 showWidgetsManagementPanel
 :
 false
-onSubpanelToggle
-:
-sinon
-.
-stub
-(
-)
 }
 ;
 it

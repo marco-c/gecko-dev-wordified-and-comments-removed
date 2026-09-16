@@ -121,14 +121,6 @@ togglePanel
 >
 {
 }
-onSubpanelToggle
-:
-(
-)
-=
->
-{
-}
 }
 ;
 describe

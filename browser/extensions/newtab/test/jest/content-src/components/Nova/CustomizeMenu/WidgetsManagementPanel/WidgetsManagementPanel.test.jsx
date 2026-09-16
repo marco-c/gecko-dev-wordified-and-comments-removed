@@ -51,13 +51,6 @@ const
 DEFAULT_PROPS
 =
 {
-onSubpanelToggle
-:
-jest
-.
-fn
-(
-)
 togglePanel
 :
 jest

@@ -1147,7 +1147,6 @@ setPref
 mayHaveTopicSections
 weatherDisplay
 panelShowing
-onSubpanelToggle
 toggleSectionsMgmtPanel
 showSectionsMgmtPanel
 /
@@ -1403,11 +1402,6 @@ picker
 >
 <
 ThemesManagementPanel
-onSubpanelToggle
-=
-{
-onSubpanelToggle
-}
 togglePanel
 =
 {
@@ -1556,11 +1550,6 @@ closePanel
 =
 {
 closeWallpapersPanel
-}
-onSubpanelToggle
-=
-{
-onSubpanelToggle
 }
 /
 >
@@ -3477,11 +3466,6 @@ setPref
 {
 setPref
 }
-onSubpanelToggle
-=
-{
-onSubpanelToggle
-}
 togglePanel
 =
 {
@@ -3837,11 +3821,6 @@ pocketEnabled
 =
 {
 pocketEnabled
-}
-onSubpanelToggle
-=
-{
-onSubpanelToggle
 }
 togglePanel
 =
