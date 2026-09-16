@@ -5535,6 +5535,13 @@ mMutex
 )
 ;
 bool
+mRemoteDebuggerBindingDone
+MOZ_GUARDED_BY
+(
+mMutex
+)
+;
+bool
 mProcessDebuggerIPCHandshake
 MOZ_GUARDED_BY
 (
