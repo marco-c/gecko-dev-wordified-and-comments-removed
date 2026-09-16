@@ -76,6 +76,10 @@ mBaseAddr
 (
 nullptr
 )
+mSectionHandleUnavailable
+(
+false
+)
 mStatus
 (
 Status
@@ -159,6 +163,10 @@ aSectionName
 mBaseAddr
 (
 aBaseAddr
+)
+mSectionHandleUnavailable
+(
+false
 )
 mStatus
 (
@@ -500,6 +508,15 @@ const
 void
 *
 mBaseAddr
+;
+nt
+:
+:
+AutoHandle
+mSectionHandle
+;
+bool
+mSectionHandleUnavailable
 ;
 Vector
 <
