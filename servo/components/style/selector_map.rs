@@ -1073,8 +1073,8 @@ rule_hash_target
 id
 (
 )
-{
-if
+&
+&
 let
 Some
 (
@@ -1104,7 +1104,6 @@ cascade_level
 cascade_data
 stylist
 )
-}
 }
 rule_hash_target
 .
@@ -2264,8 +2263,8 @@ element
 id
 (
 )
-{
-if
+&
+&
 let
 Some
 (
@@ -2301,7 +2300,6 @@ entry
 return
 false
 ;
-}
 }
 }
 }
@@ -2704,8 +2702,8 @@ id
 )
 =
 additional_id
-{
-if
+&
+&
 let
 Some
 (
@@ -2741,7 +2739,6 @@ entry
 return
 false
 ;
-}
 }
 }
 }

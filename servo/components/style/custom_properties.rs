@@ -6060,8 +6060,8 @@ SubstitutionFunctionKind
 :
 :
 Attr
-{
-if
+&
+&
 let
 Some
 (
@@ -6069,8 +6069,8 @@ namespaces
 )
 =
 namespaces
-{
-if
+&
+&
 let
 Ok
 (
@@ -6158,8 +6158,6 @@ prev
 next
 ?
 ;
-}
-}
 }
 let
 name
@@ -7366,8 +7364,8 @@ initial_value
 registration
 .
 initial_value
-{
-if
+&
+&
 let
 Ok
 (
@@ -7409,7 +7407,6 @@ initial_value
 ;
 return
 ;
-}
 }
 }
 context

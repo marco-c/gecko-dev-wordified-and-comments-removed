@@ -919,8 +919,8 @@ alt_start
 is_none
 (
 )
-{
-if
+&
+&
 let
 Ok
 (
@@ -962,7 +962,6 @@ image
 ;
 continue
 ;
-}
 }
 let
 Ok

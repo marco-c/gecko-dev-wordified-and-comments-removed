@@ -3468,8 +3468,8 @@ ident
 is_empty
 (
 )
-{
-if
+&
+&
 let
 Ok
 (
@@ -3502,7 +3502,6 @@ ident
 continue
 ;
 }
-}
 if
 result
 .
@@ -3511,8 +3510,8 @@ try_tactic
 is_empty
 (
 )
-{
-if
+&
+&
 let
 Ok
 (
@@ -3544,7 +3543,6 @@ try_tactic
 ;
 continue
 ;
-}
 }
 break
 ;
@@ -9096,8 +9094,8 @@ current_area_index
 take
 (
 )
-{
-if
+&
+&
 self
 .
 areas
@@ -9119,7 +9117,6 @@ Err
 )
 )
 ;
-}
 }
 simplified_string
 .
@@ -9423,8 +9420,8 @@ index
 )
 =
 current_area_index
-{
-if
+&
+&
 self
 .
 areas
@@ -9466,7 +9463,6 @@ Err
 )
 )
 ;
-}
 }
 if
 self

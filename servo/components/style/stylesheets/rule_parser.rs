@@ -547,8 +547,8 @@ non_layer
 )
 =
 next_non_layer_statement_rule
-{
-if
+&
+&
 matches
 !
 (
@@ -579,7 +579,6 @@ State
 :
 EarlyLayers
 ;
-}
 }
 State
 :
@@ -1805,8 +1804,8 @@ rules
 enabled
 "
 )
-{
-if
+&
+&
 let
 Some
 (
@@ -1833,7 +1832,6 @@ rule_type
 )
 )
 ;
-}
 }
 /
 /

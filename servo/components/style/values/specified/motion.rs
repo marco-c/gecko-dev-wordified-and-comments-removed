@@ -734,8 +734,8 @@ url
 enabled
 "
 )
-{
-if
+&
+&
 let
 Ok
 (
@@ -771,7 +771,6 @@ url
 )
 )
 ;
-}
 }
 BasicShape
 :

@@ -5207,8 +5207,8 @@ cfg
 (
 debug_assertions
 )
-{
-if
+&
+&
 let
 Some
 (
@@ -5216,8 +5216,8 @@ e
 )
 =
 element
-{
-if
+&
+&
 let
 Some
 (
@@ -5266,8 +5266,6 @@ p
 "
 )
 ;
-}
-}
 }
 self
 .

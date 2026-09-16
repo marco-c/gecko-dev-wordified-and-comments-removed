@@ -722,8 +722,8 @@ e
 )
 =
 result
-{
-if
+&
+&
 context
 .
 error_reporting_enabled
@@ -759,7 +759,6 @@ start_location
 error
 )
 ;
-}
 }
 result
 }
@@ -4465,8 +4464,8 @@ media
 enabled
 "
 )
-{
-if
+&
+&
 let
 Ok
 (
@@ -4502,7 +4501,6 @@ custom
 )
 )
 ;
-}
 }
 if
 let
@@ -5041,9 +5039,6 @@ None
 attr_taint
 )
 ;
-let
-result
-=
 match
 Self
 :
@@ -5112,8 +5107,6 @@ KleeneValue
 :
 Unknown
 }
-;
-result
 }
 pub
 fn

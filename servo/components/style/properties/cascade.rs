@@ -906,8 +906,8 @@ decl
 id
 (
 )
-{
-if
+&
+&
 !
 id
 .
@@ -943,7 +943,6 @@ UA
 {
 continue
 ;
-}
 }
 }
 return
@@ -1315,8 +1314,8 @@ might_have_non_custom_or_attr_dependency
 id
 declaration
 )
-{
-if
+&
+&
 let
 Some
 (
@@ -1342,7 +1341,6 @@ declaration
 attribute_tracker
 )
 ;
-}
 }
 }
 }
@@ -2688,8 +2686,8 @@ declaration
 color_value
 (
 )
-{
-if
+&
+&
 color
 .
 honored_in_forced_colors_mode
@@ -2700,7 +2698,6 @@ false
 {
 return
 ;
-}
 }
 }
 }
@@ -4949,8 +4946,8 @@ contains
 (
 longhand_id
 )
-{
-if
+&
+&
 let
 Some
 (
@@ -4972,8 +4969,8 @@ get
 &
 longhand_id
 )
-{
-if
+&
+&
 !
 reverted_priority
 .
@@ -4986,8 +4983,6 @@ revert_kind
 {
 return
 ;
-}
-}
 }
 let
 mut
@@ -5317,6 +5312,20 @@ context
 ;
 }
 }
+#
+[
+allow
+(
+clippy
+:
+:
+needless_borrow
+clippy
+:
+:
+explicit_auto_deref
+)
+]
 fn
 compute_visited_style_if_needed
 <
@@ -7732,8 +7741,8 @@ get
 (
 name
 )
-{
-if
+&
+&
 !
 reverted_priority
 .
@@ -7746,7 +7755,6 @@ revert_kind
 {
 return
 ;
-}
 }
 if
 !
@@ -9919,8 +9927,8 @@ is_some
 if
 !
 present
-{
-if
+&
+&
 let
 Some
 (
@@ -9942,7 +9950,6 @@ fallback
 references
 )
 ;
-}
 }
 continue
 ;
@@ -10010,8 +10017,8 @@ name
 is_none
 (
 )
-{
-if
+&
+&
 let
 Ok
 (
@@ -10047,7 +10054,6 @@ name
 val
 )
 ;
-}
 }
 VarType
 :
@@ -10235,8 +10241,8 @@ true
 if
 !
 primary_valid
-{
-if
+&
+&
 let
 Some
 (
@@ -10258,7 +10264,6 @@ fallback
 references
 )
 ;
-}
 }
 }
 }

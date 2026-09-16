@@ -2218,8 +2218,8 @@ optimization_context
 as_ref
 (
 )
-{
-if
+&
+&
 context
 .
 can_be_ignored
@@ -2248,7 +2248,6 @@ leftmost_collapse_offset
 {
 continue
 ;
-}
 }
 let
 dependency
@@ -4876,8 +4875,8 @@ scope_kind
 )
 =
 invalidation_kind
-{
-if
+&
+&
 d
 .
 selector
@@ -4963,7 +4962,6 @@ slice
 }
 continue
 ;
-}
 }
 if
 matches

@@ -1783,9 +1783,6 @@ ID
 ref
 id
 )
-=
->
-{
 if
 invalidation
 .
@@ -1801,6 +1798,8 @@ is_id
 (
 )
 )
+=
+>
 {
 *
 invalidation
@@ -1816,7 +1815,6 @@ id
 )
 )
 ;
-}
 }
 _
 =

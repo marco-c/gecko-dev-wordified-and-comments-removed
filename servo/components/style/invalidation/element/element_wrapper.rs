@@ -934,8 +934,8 @@ self
 snapshot
 (
 )
-{
-if
+&
+&
 snapshot
 .
 has_other_pseudo_class_state
@@ -949,7 +949,6 @@ mIsTableBorderNonzero
 (
 )
 ;
-}
 }
 }
 #
@@ -982,8 +981,8 @@ self
 snapshot
 (
 )
-{
-if
+&
+&
 snapshot
 .
 has_other_pseudo_class_state
@@ -997,7 +996,6 @@ mIsSelectListBox
 (
 )
 ;
-}
 }
 }
 NonTSPseudoClass

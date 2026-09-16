@@ -3914,8 +3914,8 @@ iter
 next
 (
 )
-{
-if
+&
+&
 iter
 .
 next
@@ -3933,7 +3933,6 @@ Some
 f
 )
 ;
-}
 }
 None
 }

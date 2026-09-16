@@ -2345,8 +2345,8 @@ id
 )
 =
 removed_id
-{
-if
+&
+&
 let
 Some
 (
@@ -2378,7 +2378,6 @@ false
 ;
 }
 }
-}
 let
 added_id
 =
@@ -2394,8 +2393,8 @@ id
 )
 =
 added_id
-{
-if
+&
+&
 let
 Some
 (
@@ -2425,7 +2424,6 @@ dep
 false
 )
 ;
-}
 }
 }
 for
@@ -2957,8 +2955,8 @@ ScopeDependencyInvalidationKind
 :
 :
 ImplicitScope
-{
-if
+&
+&
 let
 Some
 (
@@ -3018,7 +3016,6 @@ invalidation
 }
 return
 ;
-}
 }
 if
 dependency

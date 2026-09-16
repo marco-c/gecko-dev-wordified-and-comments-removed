@@ -2190,8 +2190,8 @@ rules
 last
 (
 )
-{
-if
+&
+&
 !
 data
 .
@@ -2220,7 +2220,6 @@ pop
 ;
 continue
 ;
-}
 }
 let
 end

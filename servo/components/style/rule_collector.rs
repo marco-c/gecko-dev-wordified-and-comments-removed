@@ -840,8 +840,8 @@ collector
 is_element_backed_pseudo_element
 (
 )
-{
-if
+&
+&
 let
 Some
 (
@@ -869,7 +869,6 @@ collector
 element
 )
 ;
-}
 }
 if
 let
@@ -1989,8 +1988,8 @@ collector
 is_element_backed_pseudo_element
 (
 )
-{
-if
+&
+&
 let
 Some
 (
@@ -2018,7 +2017,6 @@ collector
 element
 )
 ;
-}
 }
 }
 )
@@ -2229,8 +2227,8 @@ cascade_data
 )
 =
 cascade_data
-{
-if
+&
+&
 let
 Some
 (
@@ -2326,7 +2324,6 @@ inc
 (
 )
 ;
-}
 }
 inner_shadow
 =

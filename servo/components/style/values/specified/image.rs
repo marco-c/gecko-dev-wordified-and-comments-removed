@@ -1315,8 +1315,8 @@ ParseImageFlags
 :
 FORBID_IMAGE_SET
 )
-{
-if
+&
+&
 let
 Ok
 (
@@ -1363,7 +1363,6 @@ is
 )
 )
 ;
-}
 }
 if
 flags
@@ -5183,8 +5182,8 @@ b_position
 a
 b
 )
-{
-if
+&
+&
 let
 (
 &
@@ -5235,7 +5234,6 @@ Ordering
 Equal
 )
 ;
-}
 }
 if
 reverse_stops
@@ -7106,8 +7104,8 @@ GradientCompatMode
 :
 :
 Modern
-{
-if
+&
+&
 let
 Ok
 (
@@ -7152,7 +7150,6 @@ length
 )
 )
 ;
-}
 }
 return
 Ok
@@ -7953,8 +7950,8 @@ input
 {
 if
 seen_stop
-{
-if
+&
+&
 let
 Ok
 (
@@ -8002,7 +7999,6 @@ Ok
 )
 )
 ;
-}
 }
 let
 stop

@@ -3498,8 +3498,8 @@ target
 shadow_root
 (
 )
-{
-if
+&
+&
 let
 Some
 (
@@ -3522,7 +3522,6 @@ host
 )
 )
 ;
-}
 }
 let
 mut
@@ -3568,8 +3567,8 @@ shadow
 style_data
 (
 )
-{
-if
+&
+&
 data
 .
 any_slotted_rule
@@ -3587,7 +3586,6 @@ host
 )
 ;
 }
-}
 current
 =
 slot
@@ -3603,8 +3601,8 @@ target
 has_part_attr
 (
 )
-{
-if
+&
+&
 let
 Some
 (
@@ -3655,8 +3653,8 @@ shadow
 style_data
 (
 )
-{
-if
+&
+&
 data
 .
 any_part_rule
@@ -3672,7 +3670,6 @@ host
 (
 )
 )
-}
 }
 if
 !
@@ -3700,7 +3697,6 @@ matches_user_and_content_rules
 ;
 break
 ;
-}
 }
 }
 }

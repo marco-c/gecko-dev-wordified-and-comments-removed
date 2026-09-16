@@ -4380,8 +4380,8 @@ other
 resolve
 (
 )
-{
-if
+&
+&
 let
 Some
 (
@@ -4437,7 +4437,6 @@ false
 return
 true
 ;
-}
 }
 }
 if
@@ -4452,8 +4451,8 @@ self
 resolve
 (
 )
-{
-if
+&
+&
 let
 Some
 (
@@ -4533,7 +4532,6 @@ other
 return
 true
 ;
-}
 }
 }
 false
@@ -12329,8 +12327,8 @@ leaf
 *
 *
 child
-{
-if
+&
+&
 let
 Some
 (
@@ -12380,7 +12378,6 @@ SimplificationResult
 Simplified
 ;
 }
-}
 SimplificationResult
 :
 :
@@ -12412,8 +12409,8 @@ leaf
 *
 *
 child
-{
-if
+&
+&
 let
 Some
 (
@@ -12463,7 +12460,6 @@ SimplificationResult
 Simplified
 ;
 }
-}
 SimplificationResult
 :
 :
@@ -12495,8 +12491,8 @@ leaf
 *
 *
 child
-{
-if
+&
+&
 let
 Some
 (
@@ -12546,7 +12542,6 @@ SimplificationResult
 Simplified
 ;
 }
-}
 SimplificationResult
 :
 :
@@ -12578,8 +12573,8 @@ leaf
 *
 *
 child
-{
-if
+&
+&
 let
 Some
 (
@@ -12629,7 +12624,6 @@ SimplificationResult
 Simplified
 ;
 }
-}
 SimplificationResult
 :
 :
@@ -12661,8 +12655,8 @@ leaf
 *
 *
 child
-{
-if
+&
+&
 let
 Some
 (
@@ -12712,7 +12706,6 @@ SimplificationResult
 Simplified
 ;
 }
-}
 SimplificationResult
 :
 :
@@ -12744,8 +12737,8 @@ leaf
 *
 *
 child
-{
-if
+&
+&
 let
 Some
 (
@@ -12794,7 +12787,6 @@ SimplificationResult
 :
 Simplified
 ;
-}
 }
 SimplificationResult
 :
@@ -12845,16 +12837,16 @@ a
 *
 b
 )
-{
-if
+&
+&
 la
 .
 is_same_unit_as
 (
 lb
 )
-{
-if
+&
+&
 let
 (
 Some
@@ -12918,8 +12910,6 @@ SimplificationResult
 Simplified
 ;
 }
-}
-}
 SimplificationResult
 :
 :
@@ -12969,8 +12959,8 @@ a
 *
 b
 )
-{
-if
+&
+&
 let
 (
 Some
@@ -13034,7 +13024,6 @@ SimplificationResult
 Simplified
 ;
 }
-}
 SimplificationResult
 :
 :
@@ -13066,8 +13055,8 @@ leaf
 *
 *
 child
-{
-if
+&
+&
 let
 Some
 (
@@ -13116,7 +13105,6 @@ SimplificationResult
 :
 Simplified
 ;
-}
 }
 SimplificationResult
 :
@@ -13276,8 +13264,8 @@ la
 *
 *
 a
-{
-if
+&
+&
 let
 Some
 (
@@ -13407,7 +13395,6 @@ Simplified
 ;
 }
 }
-}
 SimplificationResult
 :
 :
@@ -13439,8 +13426,8 @@ leaf
 *
 *
 child
-{
-if
+&
+&
 let
 Some
 (
@@ -13489,7 +13476,6 @@ SimplificationResult
 :
 Simplified
 ;
-}
 }
 SimplificationResult
 :
@@ -13895,8 +13881,8 @@ start
 *
 end
 )
-{
-if
+&
+&
 value
 .
 is_same_unit_as
@@ -13911,8 +13897,8 @@ is_same_unit_as
 (
 end
 )
-{
-if
+&
+&
 let
 (
 Some
@@ -13986,8 +13972,6 @@ SimplificationResult
 :
 Simplified
 ;
-}
-}
 }
 SimplificationResult
 :

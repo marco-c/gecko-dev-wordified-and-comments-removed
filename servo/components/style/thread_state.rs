@@ -253,8 +253,8 @@ state
 get
 (
 )
-{
-if
+&
+&
 initialize_to
 !
 =
@@ -277,7 +277,6 @@ as
 current_state
 )
 ;
-}
 }
 state
 .

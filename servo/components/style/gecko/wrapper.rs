@@ -5197,8 +5197,6 @@ self
 0
 )
 }
-as
-usize
 ;
 let
 mut
@@ -6098,8 +6096,8 @@ self
 implemented_pseudo_element
 (
 )
-{
-if
+&
+&
 !
 pseudo
 .
@@ -6114,7 +6112,6 @@ pseudo_element_originating_element
 (
 )
 ;
-}
 }
 self
 .
@@ -8542,8 +8539,8 @@ self
 implemented_pseudo_element
 (
 )
-{
-if
+&
+&
 pseudo
 .
 animations_stored_in_parent
@@ -8579,7 +8576,6 @@ ElementHasAnimations
 }
 )
 ;
-}
 }
 self
 .
@@ -10113,8 +10109,8 @@ state_flag
 ;
 if
 active
-{
-if
+&
+&
 let
 Some
 (
@@ -10141,7 +10137,6 @@ push
 hint
 )
 ;
-}
 }
 }
 if
@@ -11149,8 +11144,8 @@ parent_flags
 is_empty
 (
 )
-{
-if
+&
+&
 let
 Some
 (
@@ -11166,8 +11161,9 @@ as_node
 parent_node
 (
 )
-{
-if
+&
+&
+(
 p
 .
 is_element
@@ -11180,6 +11176,7 @@ p
 is_shadow_root
 (
 )
+)
 {
 p
 .
@@ -11191,8 +11188,6 @@ parent_flags
 )
 )
 ;
-}
-}
 }
 }
 fn

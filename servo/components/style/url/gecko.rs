@@ -490,8 +490,8 @@ counters
 context
 .
 use_counters
-{
-if
+&
+&
 !
 counters
 .
@@ -582,7 +582,6 @@ CustomUseCounter
 MaybeHasFullBaseUriDependency
 )
 ;
-}
 }
 }
 CssUrl

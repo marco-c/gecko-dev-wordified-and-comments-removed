@@ -3714,8 +3714,8 @@ length
 is_none
 (
 )
-{
-if
+&
+&
 let
 Ok
 (
@@ -3752,7 +3752,6 @@ len
 ;
 continue
 ;
-}
 }
 if
 cfg
