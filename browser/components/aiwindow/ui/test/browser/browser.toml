@@ -884,6 +884,13 @@ js
 ]
 [
 "
+browser_aiwindow_smartbar_tabgroups
+.
+js
+"
+]
+[
+"
 browser_aiwindow_smartbar_telemetry
 .
 js

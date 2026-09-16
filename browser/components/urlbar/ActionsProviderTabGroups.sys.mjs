@@ -277,6 +277,7 @@ queryContext
 {
 return
 (
+(
 queryContext
 .
 sapName
@@ -285,6 +286,17 @@ sapName
 "
 urlbar
 "
+|
+|
+queryContext
+.
+sapName
+=
+=
+"
+smartbar
+"
+)
 &
 &
 Services
@@ -945,12 +957,6 @@ groups
 svg
 "
 dataset
-:
-{
-.
-.
-.
-dataset
 style
 :
 {
@@ -1106,7 +1112,6 @@ color
 -
 hover
 )
-}
 }
 }
 )
