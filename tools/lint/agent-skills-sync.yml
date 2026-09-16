@@ -41,6 +41,10 @@ extensions
 :
 -
 md
+-
+py
+-
+sh
 support
 -
 files
