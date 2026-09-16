@@ -556,6 +556,14 @@ CONFIG
 NEON_FLAGS
 "
 ]
+if
+CONFIG
+[
+"
+NEON_I8MM_FLAGS
+"
+]
+:
 DEFINES
 [
 "
