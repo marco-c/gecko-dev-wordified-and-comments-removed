@@ -206,7 +206,7 @@ toolchain
 -
 sysroot
 -
-gcc10
+gcc11
 macosx64
 -
 gn
