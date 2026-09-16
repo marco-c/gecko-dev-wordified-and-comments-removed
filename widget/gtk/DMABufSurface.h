@@ -2031,6 +2031,16 @@ int
 aHeight
 int
 aDMABufSurfaceFlags
+const
+mozilla
+:
+:
+widget
+:
+:
+DRMFormat
+*
+aFormat
 )
 ;
 bool
