@@ -30,9 +30,6 @@ MPL
 0
 "
 [
-workspace
-]
-[
 dependencies
 ]
 reqwest
