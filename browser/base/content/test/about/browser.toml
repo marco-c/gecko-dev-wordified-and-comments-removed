@@ -45,13 +45,6 @@ js
 ]
 [
 "
-browser_aboutCertError_cca_telemetry
-.
-js
-"
-]
-[
-"
 browser_aboutCertError_clockSkew
 .
 js
