@@ -1265,6 +1265,11 @@ errorType
 review
 .
 errorType
+filledFieldCount
+:
+review
+.
+filledFieldCount
 fields
 :
 review

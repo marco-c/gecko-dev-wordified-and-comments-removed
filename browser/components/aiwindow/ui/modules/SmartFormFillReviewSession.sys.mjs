@@ -1067,6 +1067,9 @@ false
 cancelled
 :
 true
+filledFieldCount
+:
+0
 }
 ;
 }
@@ -1108,6 +1111,9 @@ true
 cancelled
 :
 false
+filledFieldCount
+:
+0
 }
 ;
 }
