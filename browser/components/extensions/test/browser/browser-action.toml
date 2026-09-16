@@ -114,6 +114,13 @@ png
 ]
 [
 "
+browser_ext_action_openPopup_tabPreview
+.
+js
+"
+]
+[
+"
 browser_ext_action_popup_allowed_urls
 .
 js
