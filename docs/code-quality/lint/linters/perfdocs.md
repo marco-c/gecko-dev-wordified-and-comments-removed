@@ -199,7 +199,7 @@ be
 an
 index
 .
-rst
+md
 file
 and
 it
@@ -801,7 +801,7 @@ then
 a
 metrics
 .
-rst
+md
 file
 is
 expected
@@ -835,7 +835,7 @@ added
 The
 metrics
 .
-rst
+md
 is
 renamed
 {
@@ -846,7 +846,7 @@ name
 -
 metrics
 .
-rst
+md
 in
 the
 generated
@@ -863,7 +863,7 @@ in
 the
 index
 .
-rst
+md
 file
 it
 should
