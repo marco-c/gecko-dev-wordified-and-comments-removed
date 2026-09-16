@@ -765,6 +765,14 @@ SetNodeIndexCache
 nodeIndexCache
 )
 ;
+finder
+-
+>
+SetSkipNativeAnonymousContent
+(
+true
+)
+;
 while
 (
 !

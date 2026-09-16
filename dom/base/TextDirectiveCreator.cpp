@@ -138,6 +138,14 @@ SetNodeIndexCache
 mNodeIndexCache
 )
 ;
+mFinder
+-
+>
+SetSkipNativeAnonymousContent
+(
+true
+)
+;
 }
 TextDirectiveCreator
 :
