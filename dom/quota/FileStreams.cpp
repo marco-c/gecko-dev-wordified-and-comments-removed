@@ -488,6 +488,14 @@ NS_ERROR_FILE_NO_DEVICE_SPACE
 ;
 }
 }
+QM_SCOPED_CONTEXT
+(
+"
+FileStreamWriteFailure
+"
+_ns
+)
+;
 QM_TRY
 (
 MOZ_TO_RESULT
