@@ -849,6 +849,16 @@ aAccessible
 ;
 static
 bool
+ShouldFireValueChangeForDescendantChanges
+(
+const
+LocalAccessible
+*
+aAccessible
+)
+;
+static
+bool
 IsValidDetailsTargetForAnchor
 (
 const
