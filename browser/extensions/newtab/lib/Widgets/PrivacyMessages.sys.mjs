@@ -1040,6 +1040,8 @@ newtab
 privacy
 -
 empty
+-
+state
 "
 category
 :
