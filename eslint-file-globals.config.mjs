@@ -1441,7 +1441,7 @@ content
 /
 tabs
 .
-js
+mjs
 "
 "
 browser

@@ -85,7 +85,7 @@ tabbrowser
 /
 tabs
 .
-js
+mjs
 "
 "
 handleEvent
@@ -101,7 +101,7 @@ tabbrowser
 /
 tabs
 .
-js
+mjs
 "
 "
 synthesizeMouseAtPoint
@@ -237,7 +237,7 @@ tabbrowser
 /
 tabs
 .
-js
+mjs
 "
 "
 handleEvent
@@ -253,7 +253,7 @@ tabbrowser
 /
 tabs
 .
-js
+mjs
 "
 "
 synthesizeMouseAtPoint

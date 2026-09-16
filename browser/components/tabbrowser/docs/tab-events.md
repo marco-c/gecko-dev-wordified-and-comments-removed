@@ -2514,7 +2514,7 @@ them
 and
 tabs
 .
-js
+mjs
 drives
 the
 hover
@@ -2530,7 +2530,7 @@ TabGroupAnimationComplete
 |
 tabs
 .
-js
+mjs
 and
 the
 drag
