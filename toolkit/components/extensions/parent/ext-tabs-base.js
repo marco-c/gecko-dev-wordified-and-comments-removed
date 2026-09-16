@@ -398,7 +398,9 @@ zoom
 "
 white
 "
+{
 resetScrollPosition
+}
 )
 ;
 let

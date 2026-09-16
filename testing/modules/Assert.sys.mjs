@@ -1385,7 +1385,7 @@ not
 *
 param
 {
-*
+any
 }
 actual
 *
@@ -1399,7 +1399,7 @@ assertion
 *
 param
 {
-*
+any
 }
 [
 expected
@@ -1768,7 +1768,7 @@ message_opt
 *
 param
 {
-*
+any
 }
 value
 *
@@ -1896,7 +1896,7 @@ message_opt
 *
 param
 {
-*
+any
 }
 actual
 *
@@ -1913,7 +1913,7 @@ expected
 *
 param
 {
-*
+any
 }
 expected
 *
@@ -2015,7 +2015,7 @@ message_opt
 *
 param
 {
-*
+any
 }
 actual
 *
@@ -2033,7 +2033,7 @@ expected
 *
 param
 {
-*
+any
 }
 expected
 *
@@ -2179,7 +2179,7 @@ test
 *
 param
 {
-*
+any
 }
 actual
 *
@@ -2199,7 +2199,7 @@ properties
 *
 param
 {
-*
+any
 }
 expected
 *
@@ -2296,7 +2296,7 @@ message_opt
 *
 param
 {
-*
+any
 }
 actual
 *
@@ -2318,7 +2318,7 @@ properties
 *
 param
 {
-*
+any
 }
 expected
 *
@@ -2417,7 +2417,7 @@ message_opt
 *
 param
 {
-*
+any
 }
 actual
 *
@@ -2435,7 +2435,7 @@ expected
 *
 param
 {
-*
+any
 }
 expected
 *
@@ -2536,7 +2536,7 @@ message_opt
 *
 param
 {
-*
+any
 }
 actual
 *
@@ -2555,7 +2555,7 @@ expected
 *
 param
 {
-*
+any
 }
 expected
 *

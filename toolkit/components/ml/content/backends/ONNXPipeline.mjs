@@ -4374,7 +4374,7 @@ options
 *
 param
 {
-*
+any
 }
 errorFactory
 -
@@ -5617,7 +5617,7 @@ initialization
 *
 param
 {
-*
+any
 }
 errorFactory
 -

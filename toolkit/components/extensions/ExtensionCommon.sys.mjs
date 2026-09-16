@@ -4993,7 +4993,7 @@ call
 *
 returns
 {
-*
+any
 }
 The
 return
@@ -5953,7 +5953,7 @@ function
 *
 returns
 {
-*
+any
 }
 The
 return
@@ -6171,7 +6171,7 @@ abstract
 *
 returns
 {
-*
+any
 }
 The
 value
@@ -7618,7 +7618,7 @@ find
 *
 returns
 {
-*
+any
 }
 *
 /
@@ -9275,7 +9275,7 @@ entry
 *
 returns
 {
-*
+any
 }
 *
 /
