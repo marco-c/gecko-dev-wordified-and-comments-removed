@@ -903,6 +903,9 @@ IPProtectionAction
 .
 ToggleFailed
 (
+ActivationOperation
+.
+Activate
 )
 )
 )
@@ -1103,6 +1106,9 @@ IPProtectionAction
 .
 ToggleFailed
 (
+ActivationOperation
+.
+Activate
 )
 )
 )
@@ -1191,6 +1197,9 @@ IPProtectionAction
 .
 ToggleFailed
 (
+ActivationOperation
+.
+Activate
 )
 )
 )
