@@ -121,6 +121,8 @@ nsCString
 transcript
 bool
 isFinal
+float
+confidence
 )
 ;
 async

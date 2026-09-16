@@ -441,6 +441,10 @@ const
 bool
 &
 aIsFinal
+const
+float
+&
+aConfidence
 )
 {
 LOG
@@ -461,6 +465,10 @@ final
 =
 {
 }
+conf
+=
+{
+}
 )
 "
 aTranscript
@@ -477,6 +485,7 @@ true
 "
 false
 "
+aConfidence
 )
 ;
 if
@@ -501,6 +510,7 @@ mResultCallback
 (
 aTranscript
 aIsFinal
+aConfidence
 )
 ;
 }

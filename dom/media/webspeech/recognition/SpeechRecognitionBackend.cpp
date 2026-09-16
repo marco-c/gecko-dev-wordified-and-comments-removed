@@ -2954,6 +2954,8 @@ nsCString
 aTranscript
 bool
 aIsFinal
+float
+aConfidence
 )
 {
 AssertOnIPCThread
@@ -2974,6 +2976,10 @@ final
 =
 {
 }
+confidence
+=
+{
+}
 )
 "
 aTranscript
@@ -2982,6 +2988,7 @@ get
 (
 )
 aIsFinal
+aConfidence
 )
 ;
 self
@@ -2991,6 +2998,7 @@ HandleRecognitionResult
 (
 aTranscript
 aIsFinal
+aConfidence
 )
 ;
 }
@@ -3472,6 +3480,8 @@ nsACString
 aTranscript
 bool
 aIsFinal
+float
+aConfidence
 )
 {
 AssertOnIPCThread
@@ -3490,6 +3500,10 @@ final
 =
 {
 }
+conf
+=
+{
+}
 )
 "
 nsCString
@@ -3501,6 +3515,7 @@ get
 (
 )
 aIsFinal
+aConfidence
 )
 ;
 DispatchToParentIfAlive
@@ -3519,6 +3534,7 @@ nsCString
 aTranscript
 )
 aIsFinal
+aConfidence
 ]
 (
 SpeechRecognition
@@ -3533,6 +3549,7 @@ HandleRecognitionResultFromBackend
 (
 transcript
 aIsFinal
+aConfidence
 )
 ;
 }
