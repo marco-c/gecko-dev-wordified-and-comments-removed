@@ -249,8 +249,8 @@ returns
 {
 Map
 <
-string
-TabGroupStateData
+TabGroupId
+ClosedTabGroupStateData
 >
 }
 *
@@ -1875,7 +1875,7 @@ selected
 *
 param
 {
-TabGroupStateData
+ClosedTabGroupStateData
 }
 aTabGroup
 *
@@ -2242,7 +2242,7 @@ selected
 *
 param
 {
-TabGroupStateData
+ClosedTabGroupStateData
 }
 aTabGroup
 *
@@ -2824,6 +2824,8 @@ tab
 *
 param
 {
+ClosedTabStateData
+|
 TabStateData
 }
 aClosedTab
@@ -2831,6 +2833,19 @@ aClosedTab
 the
 closed
 tab
+or
+the
+selected
+tab
+of
+the
+closed
+window
+when
+*
+aIsWindowsFragment
+is
+set
 *
 param
 {
