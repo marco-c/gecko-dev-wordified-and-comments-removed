@@ -1050,9 +1050,6 @@ JSProto_RelativeTimeFormat
 case
 JSProto_Segmenter
 :
-return
-false
-;
 case
 JSProto_Temporal
 :
@@ -1084,16 +1081,7 @@ case
 JSProto_ZonedDateTime
 :
 return
-!
-JS
-:
-:
-Prefs
-:
-:
-experimental_temporal
-(
-)
+false
 ;
 #
 endif
