@@ -239,7 +239,7 @@ wait_for_future_safe
 on_load
 )
     
-result
+nodes
 =
 await
 bidi_session
@@ -285,18 +285,13 @@ initial
 assert
 len
 (
-result
-[
-"
 nodes
-"
-]
 )
 =
 =
 0
     
-result
+nodes
 =
 await
 bidi_session
@@ -342,12 +337,7 @@ redirect
 assert
 len
 (
-result
-[
-"
 nodes
-"
-]
 )
 =
 =

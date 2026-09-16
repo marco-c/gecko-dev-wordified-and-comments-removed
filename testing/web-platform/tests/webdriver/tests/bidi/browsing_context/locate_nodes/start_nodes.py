@@ -1318,7 +1318,7 @@ True
     
 )
     
-result
+nodes
 =
 await
 bidi_session
@@ -1363,12 +1363,7 @@ context_nodes
 recursive_compare
 (
 expected
-result
-[
-"
 nodes
-"
-]
 )
 pytest
 .
@@ -1709,7 +1704,7 @@ value
 "
 ]
     
-result
+nodes
 =
 await
 bidi_session
@@ -1922,12 +1917,7 @@ nodeType
 recursive_compare
 (
 expected
-result
-[
-"
 nodes
-"
-]
 )
 pytest
 .
@@ -2126,7 +2116,7 @@ True
     
 )
     
-result
+nodes
 =
 await
 bidi_session
@@ -2259,12 +2249,7 @@ nodeType
 recursive_compare
 (
 expected
-result
-[
-"
 nodes
-"
-]
 )
 pytest
 .
@@ -2785,7 +2770,7 @@ True
     
 )
     
-result
+nodes
 =
 await
 bidi_session
@@ -2830,10 +2815,5 @@ context_node
 recursive_compare
 (
 expected
-result
-[
-"
 nodes
-"
-]
 )

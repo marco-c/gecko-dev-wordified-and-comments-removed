@@ -142,7 +142,7 @@ True
     
 )
     
-result
+nodes
 =
 await
 bidi_session
@@ -188,12 +188,7 @@ body
 assert
 len
 (
-result
-[
-"
 nodes
-"
-]
 )
 >
 0
@@ -246,7 +241,7 @@ True
     
 )
     
-result
+nodes
 =
 await
 bidi_session
@@ -289,12 +284,7 @@ body
 assert
 len
 (
-result
-[
-"
 nodes
-"
-]
 )
 >
 0

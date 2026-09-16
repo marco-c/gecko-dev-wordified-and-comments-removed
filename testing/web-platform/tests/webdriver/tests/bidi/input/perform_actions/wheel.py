@@ -910,11 +910,6 @@ get_element_origin
 (
 iframes
 [
-"
-nodes
-"
-]
-[
 0
 ]
 )
@@ -995,11 +990,6 @@ assert_scroll_position
 bidi_session
 new_tab
 scrollers
-[
-"
-nodes
-"
-]
 [
 0
 ]

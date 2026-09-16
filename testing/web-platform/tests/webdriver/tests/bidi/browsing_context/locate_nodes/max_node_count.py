@@ -1874,7 +1874,7 @@ complete
     
 )
     
-result
+nodes
 =
 await
 bidi_session
@@ -1917,12 +1917,7 @@ max_count
 recursive_compare
 (
 expected
-result
-[
-"
 nodes
-"
-]
 )
 async
 def
@@ -2127,7 +2122,7 @@ complete
     
 )
     
-result_context_nodes
+context_nodes
 =
 await
 bidi_session
@@ -2170,7 +2165,7 @@ node
     
 )
     
-result
+nodes
 =
 await
 bidi_session
@@ -2221,12 +2216,7 @@ start_nodes
 sharedId
 "
 :
-result_context_nodes
-[
-"
-nodes
-"
-]
+context_nodes
 [
 0
 ]
@@ -2242,12 +2232,7 @@ sharedId
 sharedId
 "
 :
-result_context_nodes
-[
-"
-nodes
-"
-]
+context_nodes
 [
 1
 ]
@@ -2265,12 +2250,7 @@ sharedId
 assert
 len
 (
-result
-[
-"
 nodes
-"
-]
 )
 =
 =

@@ -198,7 +198,7 @@ DOWNLOAD_WILL_BEGIN
 on_event
 )
     
-result
+nodes
 =
 await
 bidi_session
@@ -249,12 +249,7 @@ call_function
 arguments
 =
 [
-result
-[
-"
 nodes
-"
-]
 [
 0
 ]

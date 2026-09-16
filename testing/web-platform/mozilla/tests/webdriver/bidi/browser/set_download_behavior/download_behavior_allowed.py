@@ -142,7 +142,7 @@ wait_for_event
 DOWNLOAD_END
 )
     
-result
+nodes
 =
 await
 bidi_session
@@ -193,12 +193,7 @@ call_function
 arguments
 =
 [
-result
-[
-"
 nodes
-"
-]
 [
 0
 ]
@@ -313,12 +308,7 @@ call_function
 arguments
 =
 [
-result
-[
-"
 nodes
-"
-]
 [
 0
 ]
@@ -412,12 +402,7 @@ call_function
 arguments
 =
 [
-result
-[
-"
 nodes
-"
-]
 [
 0
 ]
@@ -651,7 +636,7 @@ wait_for_event
 DOWNLOAD_END
 )
     
-result
+nodes
 =
 await
 bidi_session
@@ -702,12 +687,7 @@ call_function
 arguments
 =
 [
-result
-[
-"
 nodes
-"
-]
 [
 0
 ]

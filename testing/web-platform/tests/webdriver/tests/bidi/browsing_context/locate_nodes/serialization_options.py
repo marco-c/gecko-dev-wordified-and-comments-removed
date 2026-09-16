@@ -89,7 +89,7 @@ complete
     
 )
     
-result
+nodes
 =
 await
 bidi_session
@@ -382,10 +382,5 @@ nodeType
 recursive_compare
 (
 expected
-result
-[
-"
 nodes
-"
-]
 )
