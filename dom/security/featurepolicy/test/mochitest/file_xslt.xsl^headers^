@@ -1,10 +1,10 @@
-Feature
+Permissions
 -
 Policy
 :
 storage
 -
 access
-'
-none
-'
+=
+(
+)
