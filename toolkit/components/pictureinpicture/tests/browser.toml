@@ -624,13 +624,6 @@ js
 ]
 [
 "
-browser_controlButtonClickFocus
-.
-js
-"
-]
-[
-"
 browser_controlsHover
 .
 js
