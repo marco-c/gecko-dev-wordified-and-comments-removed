@@ -127,6 +127,13 @@ js
 ]
 [
 "
+browser_inputmode
+.
+js
+"
+]
+[
+"
 browser_overflow
 .
 js
