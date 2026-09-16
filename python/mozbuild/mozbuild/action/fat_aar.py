@@ -412,7 +412,7 @@ FileCopier
     
 for
 arch
-zip_path_opt
+zip_path
 in
 zip_paths
 .
@@ -421,10 +421,13 @@ items
 )
 :
         
+if
+not
+zip_path
+:
+            
 zip_path
 =
-zip_path_opt
-or
 _download_zip
 (
 distdir

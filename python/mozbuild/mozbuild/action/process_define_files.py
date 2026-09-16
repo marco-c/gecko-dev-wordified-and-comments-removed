@@ -306,25 +306,22 @@ U
 )
         
 for
-raw_line
+l
 in
 input_file
 :
             
-line
-=
-raw_line
-            
-if
 m
-:
 =
 r
 .
 match
 (
-line
+l
 )
+            
+if
+m
 :
                 
 cmd
@@ -548,11 +545,9 @@ items
                         
 )
                         
-line
+l
 =
-(
-                            
-line
+l
 [
 :
 m
@@ -569,7 +564,7 @@ cmd
 +
 defines
 +
-line
+l
 [
 m
 .
@@ -581,8 +576,6 @@ name
 )
 :
 ]
-                        
-)
                     
 elif
 cmd
@@ -603,11 +596,11 @@ config
 defines
 :
                             
-line
+l
 =
 (
                                 
-line
+l
 [
 :
 m
@@ -632,7 +625,7 @@ name
 )
                                 
 +
-line
+l
 [
 m
 .
@@ -664,11 +657,11 @@ config
 defines
 :
                             
-line
+l
 =
 (
                                 
-line
+l
 [
 :
 m
@@ -687,7 +680,7 @@ define
 "
                                 
 +
-line
+l
 [
 m
 .
@@ -724,7 +717,7 @@ name
 )
                                 
 +
-line
+l
 [
 m
 .
@@ -742,17 +735,14 @@ name
 else
 :
                             
-line
+l
 =
-(
-                                
 "
 /
 *
 "
-                                
 +
-line
+l
 [
 :
 m
@@ -764,15 +754,13 @@ name
 "
 )
 ]
-                                
 +
 "
 *
 /
 "
-                                
 +
-line
+l
 [
 m
 .
@@ -784,14 +772,12 @@ name
 )
 :
 ]
-                            
-)
             
 output
 .
 write
 (
-line
+l
 )
     
 deps

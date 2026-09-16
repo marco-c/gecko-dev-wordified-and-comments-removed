@@ -100,14 +100,12 @@ pat
                 
 print
 (
-f
 '
 Adding
 to
 "
-{
-archive_basename
-}
+%
+s
 "
 :
 \
@@ -115,11 +113,15 @@ n
 \
 t
 "
-{
-p
-}
+%
+s
 "
 '
+%
+(
+archive_basename
+p
+)
 )
                 
 add_file

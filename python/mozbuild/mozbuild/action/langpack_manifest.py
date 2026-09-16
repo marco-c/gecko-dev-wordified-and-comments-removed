@@ -1604,16 +1604,16 @@ buildid
         
 print
 (
-f
 "
 Ignoring
 invalid
 MOZ_BUILD_DATE
 :
-{
-buildid
-}
+%
+s
 "
+%
+buildid
 file
 =
 sys
