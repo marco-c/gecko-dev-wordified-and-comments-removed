@@ -1988,6 +1988,14 @@ false
 showModal
 :
 mockShowModal
+querySelectorAll
+:
+(
+)
+=
+>
+[
+]
 }
 ;
 /
