@@ -205,6 +205,10 @@ boolean
 interimResults
 ;
 attribute
+boolean
+unspokenPunctuation
+;
+attribute
 unsigned
 long
 maxAlternatives
