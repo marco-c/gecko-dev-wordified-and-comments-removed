@@ -86,7 +86,7 @@ quick
 -
 start
 .
-html
+md
 )
 .
 This
@@ -666,7 +666,7 @@ native
 -
 debugging
 .
-html
+md
 )
 .
 Now
@@ -1061,7 +1061,7 @@ native
 -
 debugging
 .
-html
+md
 )
 .
 #
@@ -1122,11 +1122,15 @@ quick
 -
 start
 .
-html
+md
 #
 running
 -
 tests
+-
+and
+-
+linter
 -
 locally
 )
@@ -1190,7 +1194,7 @@ quick
 -
 start
 .
-html
+md
 #
 include
 -
@@ -1316,7 +1320,7 @@ native
 -
 debugging
 .
-html
+md
 )
 .
 #
@@ -1501,7 +1505,7 @@ to
 -
 fenix
 .
-html
+md
 )
 :
 Creating
