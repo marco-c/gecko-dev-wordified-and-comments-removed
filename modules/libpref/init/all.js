@@ -34004,7 +34004,7 @@ youtube
 .
 enabled
 "
-true
+false
 )
 ;
 pref
