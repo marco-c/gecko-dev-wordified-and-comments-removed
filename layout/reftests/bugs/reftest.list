@@ -7623,6 +7623,15 @@ html
 ref
 .
 html
+pref
+(
+dom
+.
+xslt
+.
+enabled
+true
+)
 =
 =
 322461
