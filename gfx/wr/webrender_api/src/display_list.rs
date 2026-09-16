@@ -9261,7 +9261,9 @@ ClipMode
 :
 ClipOut
 }
-spread_radius
+0
+.
+0
 )
 )
 ;
