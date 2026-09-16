@@ -114,10 +114,6 @@ getState
 (
 )
 location
-.
-source
-.
-id
 )
 ;
 if
