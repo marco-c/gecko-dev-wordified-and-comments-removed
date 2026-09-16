@@ -420,7 +420,6 @@ the
 value
 of
 all
-working
 members
 of
 the
@@ -431,6 +430,10 @@ into
 the
 output
 array
+including
+previously
+unusable
+addresses
 .
 *
 *
