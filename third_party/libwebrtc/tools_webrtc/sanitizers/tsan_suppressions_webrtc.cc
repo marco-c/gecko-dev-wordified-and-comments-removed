@@ -76,13 +76,6 @@ n
 "
 race
 :
-InitCpuFlags
-\
-n
-"
-"
-race
-:
 libpulsecommon
 *
 .
