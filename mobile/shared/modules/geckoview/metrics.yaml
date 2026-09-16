@@ -134,9 +134,6 @@ timing_distribution
 time_unit
 :
 millisecond
-telemetry_mirror
-:
-GV_PAGE_LOAD_PROGRESS_MS
 description
 :
 >
@@ -265,9 +262,6 @@ timing_distribution
 time_unit
 :
 millisecond
-telemetry_mirror
-:
-GV_PAGE_LOAD_MS
 description
 :
 >
