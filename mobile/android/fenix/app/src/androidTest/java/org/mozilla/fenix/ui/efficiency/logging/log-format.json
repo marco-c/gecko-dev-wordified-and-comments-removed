@@ -753,6 +753,8 @@ bookmarks
 logins
 addresses
 creditCards
+sitePermissions
+savedSessions
 topSites
 downloads
 )

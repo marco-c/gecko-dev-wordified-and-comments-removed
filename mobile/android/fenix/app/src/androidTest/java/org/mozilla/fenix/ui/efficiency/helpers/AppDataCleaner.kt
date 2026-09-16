@@ -520,6 +520,17 @@ permissionStorage
 deleteAllSitePermissions
 (
 )
+appContext
+.
+components
+.
+core
+.
+geckoSitePermissionsStorage
+.
+clearTemporaryPermissions
+(
+)
 }
 Step
 (
