@@ -772,7 +772,7 @@ DELETE_TAB_GROUP_DIALOG_DELETE_GROUP_BUTTON
 mozVerifyElementsByGroup
 (
 "
-emptyTabGroupsView
+emptyTabGroupsTabDrawerView
 "
 )
 }

@@ -599,7 +599,7 @@ Click
 (
 ToolbarSelectors
 .
-TOOLBAR_URL_BOX_UIAUTOMATOR
+TOOLBAR_URL_BOX_UIAUTOMATOR2
 )
 NavigationStep
 .

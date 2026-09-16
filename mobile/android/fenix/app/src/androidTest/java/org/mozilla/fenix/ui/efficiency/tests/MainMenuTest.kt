@@ -1077,7 +1077,7 @@ bookmarks
 mozVerifyElementsByGroup
 (
 "
-bookmarkEdit
+editBookmarksView
 "
 )
 .
