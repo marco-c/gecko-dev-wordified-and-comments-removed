@@ -1144,6 +1144,15 @@ tests
 you
 run
 locally
+ask
+the
+user
+if
+they
+would
+like
+you
+to
 use
 mach
 try
