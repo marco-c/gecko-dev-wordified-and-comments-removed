@@ -148,10 +148,6 @@ fetch
 :
 -
 nasm
--
-3
-.
-01
 toolchain
 :
 -
@@ -211,10 +207,6 @@ fetch
 :
 -
 nasm
--
-3
-.
-01
 toolchain
 :
 -
@@ -282,10 +274,6 @@ fetch
 :
 -
 nasm
--
-3
-.
-01
 toolchain
 :
 -
@@ -348,10 +336,6 @@ fetch
 :
 -
 nasm
--
-3
-.
-01
 toolchain
 :
 -
