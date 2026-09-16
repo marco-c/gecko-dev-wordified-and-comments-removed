@@ -1,6 +1,6 @@
 import
 {
-getSelectedSource
+getSelectedLocation
 getSelectedFrame
 getClosestBreakpointPosition
 getBreakpoint
@@ -111,9 +111,9 @@ column
 location
 ;
 const
-selectedSource
+selectedLocation
 =
-getSelectedSource
+getSelectedLocation
 (
 getState
 (
@@ -137,7 +137,7 @@ selectedFrame
 |
 |
 !
-selectedSource
+selectedLocation
 )
 {
 return
@@ -244,7 +244,14 @@ createLocation
 {
 source
 :
-selectedSource
+selectedLocation
+.
+source
+sourceActor
+:
+selectedLocation
+.
+sourceActor
 line
 :
 pauseLocation
