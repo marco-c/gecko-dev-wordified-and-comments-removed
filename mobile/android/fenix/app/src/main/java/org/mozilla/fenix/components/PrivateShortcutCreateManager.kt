@@ -452,11 +452,6 @@ in
 private
 browsing
 mode
-with
-the
-search
-bar
-focused
 .
 *
 *
@@ -597,11 +592,6 @@ in
 private
 browsing
 mode
-and
-opens
-the
-search
-bar
 .
 *
 *
@@ -822,11 +812,6 @@ in
 private
 browsing
 mode
-with
-the
-search
-bar
-focused
 .
 *
 *
