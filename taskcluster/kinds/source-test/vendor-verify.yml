@@ -1441,6 +1441,16 @@ yaml
 -
 third_party
 /
+parakeet
+.
+cpp
+/
+moz
+.
+yaml
+-
+third_party
+/
 perfetto
 /
 moz

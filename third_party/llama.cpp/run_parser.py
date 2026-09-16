@@ -198,7 +198,6 @@ MOZ_GGML_BACKENDS
 :
 "
 cpu
-metal
 "
     
 }
@@ -439,15 +438,6 @@ variables
 [
 "
 GGML_ACCELERATE
-"
-]
-=
-1
-          
-variables
-[
-"
-GGML_METAL
 "
 ]
 =
