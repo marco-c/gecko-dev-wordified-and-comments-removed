@@ -77,12 +77,6 @@ drawable
 .
 Drawable
 import
-android
-.
-view
-.
-SoundEffectConstants
-import
 androidx
 .
 annotation
@@ -817,14 +811,6 @@ SEARCH_SELECTOR
 .
 clickable
 {
-view
-.
-playSoundEffect
-(
-SoundEffectConstants
-.
-CLICK
-)
 showMenu
 =
 true
