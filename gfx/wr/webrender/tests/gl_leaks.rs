@@ -61,13 +61,6 @@ mod
 .
 rs
 "
-"
-renderer
-/
-shade
-.
-rs
-"
 ]
 ;
 const

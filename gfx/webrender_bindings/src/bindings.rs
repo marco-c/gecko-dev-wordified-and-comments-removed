@@ -22674,19 +22674,6 @@ dithering
 )
 ;
 let
-gl_type
-=
-device
-.
-gl
-(
-)
-.
-get_type
-(
-)
-;
-let
 mut
 shaders
 =
@@ -22699,7 +22686,6 @@ new
 &
 mut
 device
-gl_type
 &
 options
 )
