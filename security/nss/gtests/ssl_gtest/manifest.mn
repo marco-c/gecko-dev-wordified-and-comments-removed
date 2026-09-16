@@ -301,10 +301,6 @@ tls_subcerts_unittest
 cc
 \
 (
-XYBER_FILES
-)
-\
-(
 SSLKEYLOGFILE_FILES
 )
 \

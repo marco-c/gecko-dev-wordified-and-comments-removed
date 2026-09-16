@@ -75,6 +75,7 @@ params_ml_kem768_test_mode
 params_ml_kem1024
 params_ml_kem1024_test_mode
 params_ml_kem512
+params_ml_kem512_test_mode
 }
 KyberParams
 ;

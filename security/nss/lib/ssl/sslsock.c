@@ -617,13 +617,6 @@ ssl_kea_kem
 SEC_OID_ML_KEM_1024
 PR_TRUE
 }
-{
-ssl_grp_kem_xyber768d00
-256
-ssl_kea_ecdh_hybrid
-SEC_OID_XYBER768D00
-PR_FALSE
-}
 FFGROUP
 (
 2048

@@ -292,6 +292,8 @@ plContext
 {
 PKIX_Int32
 cmpResult
+=
+0
 ;
 PKIX_ENTER
 (

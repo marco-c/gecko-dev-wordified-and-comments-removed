@@ -231,14 +231,9 @@ the
 _avx2
 .
 *
+and
 intrinsics
 /
-and
-ML
--
-KEM
--
-512
 files
 are
 intentionally
@@ -381,6 +376,7 @@ KEM
 :
 libcrux_mlkem
 {
+512
 768
 1024
 }

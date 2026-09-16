@@ -1896,6 +1896,13 @@ c
 '
 libcrux
 /
+libcrux_mlkem512_portable
+.
+c
+'
+'
+libcrux
+/
 libcrux_mlkem768_portable
 .
 c
