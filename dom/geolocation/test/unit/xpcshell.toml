@@ -45,6 +45,13 @@ js
 ]
 [
 "
+test_geolocation_provider_url
+.
+js
+"
+]
+[
+"
 test_geolocation_reset_accuracy
 .
 js
