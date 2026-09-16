@@ -1647,6 +1647,17 @@ PREF_INT
 "
 browser
 .
+tabs
+.
+splitview
+.
+hasUsed
+"
+:
+PREF_BOOL
+"
+browser
+.
 toolbars
 .
 bookmarks
