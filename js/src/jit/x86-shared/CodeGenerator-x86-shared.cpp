@@ -12552,7 +12552,7 @@ isConstant
 {
 masm
 .
-atomicEffectOpJS
+atomicEffectOp
 (
 arrayType
 Synchronization
@@ -12578,7 +12578,7 @@ else
 {
 masm
 .
-atomicEffectOpJS
+atomicEffectOp
 (
 arrayType
 Synchronization

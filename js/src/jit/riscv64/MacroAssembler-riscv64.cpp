@@ -16530,7 +16530,7 @@ void
 MacroAssembler
 :
 :
-atomicEffectOpJS
+atomicEffectOp
 (
 Scalar
 :
@@ -16575,7 +16575,7 @@ void
 MacroAssembler
 :
 :
-atomicEffectOpJS
+atomicEffectOp
 (
 Scalar
 :
