@@ -494,7 +494,7 @@ get
 (
 )
 .
-isMagic
+isMagicNoReleaseCheck
 (
 JS_HASH_KEY_EMPTY
 )
