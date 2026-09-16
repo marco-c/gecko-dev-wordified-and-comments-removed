@@ -321,6 +321,15 @@ gfxFloat
 aConvFactor
 )
 ;
+void
+InitMetricsByGlyphMeasurement
+(
+CFDataRef
+aCmap
+gfxFloat
+aConvFactor
+)
+;
 CGFontRef
 mCGFont
 ;
