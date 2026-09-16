@@ -1926,6 +1926,8 @@ pictures
 pic_index
 .
 0
+as
+usize
 ]
 ;
 let
@@ -2008,6 +2010,8 @@ pictures
 pic_index
 .
 0
+as
+usize
 ]
 .
 clip_root
@@ -2060,6 +2064,8 @@ pictures
 pic_index
 .
 0
+as
+usize
 ]
 ;
 match
@@ -4641,6 +4647,8 @@ pictures
 pic_index
 .
 0
+as
+usize
 ]
 ;
 match
@@ -4995,6 +5003,8 @@ pictures
 pic_index
 .
 0
+as
+usize
 ]
 ;
 match

@@ -553,7 +553,7 @@ struct
 PictureIndex
 (
 pub
-usize
+u32
 )
 ;
 impl
@@ -567,8 +567,10 @@ PictureIndex
 =
 PictureIndex
 (
-!
-0
+u32
+:
+:
+MAX
 )
 ;
 }
@@ -3520,6 +3522,8 @@ pictures
 root
 .
 0
+as
+usize
 ]
 .
 print
@@ -3794,7 +3798,7 @@ PrimitiveInstance
 >
 (
 )
-32
+24
 "
 PrimitiveInstance
 size
@@ -3816,7 +3820,7 @@ PrimitiveKind
 >
 (
 )
-24
+16
 "
 PrimitiveKind
 size

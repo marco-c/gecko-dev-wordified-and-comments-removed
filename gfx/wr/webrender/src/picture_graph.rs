@@ -388,6 +388,8 @@ push
 PictureIndex
 (
 pic_index
+as
+u32
 )
 )
 ;
@@ -457,6 +459,8 @@ pic_info
 pic_index
 .
 0
+as
+usize
 ]
 .
 parent
@@ -479,6 +483,8 @@ pic_info
 parent
 .
 0
+as
+usize
 ]
 .
 surface_index
@@ -501,6 +507,8 @@ pic_info
 pic_index
 .
 0
+as
+usize
 ]
 ;
 match
@@ -509,6 +517,8 @@ pictures
 pic_index
 .
 0
+as
+usize
 ]
 .
 assign_surface
@@ -615,6 +625,8 @@ pic_info
 pic_index
 .
 0
+as
+usize
 ]
 .
 parent
@@ -629,6 +641,8 @@ pic_info
 pic_index
 .
 0
+as
+usize
 ]
 .
 surface_index
@@ -664,6 +678,8 @@ pic_info
 parent
 .
 0
+as
+usize
 ]
 .
 surface_index
@@ -679,6 +695,8 @@ pictures
 pic_index
 .
 0
+as
+usize
 ]
 .
 propagate_bounding_rect
@@ -743,6 +761,8 @@ pictures
 pic_index
 .
 0
+as
+usize
 ]
 ;
 let
@@ -755,6 +775,8 @@ pic_info
 pic_index
 .
 0
+as
+usize
 ]
 ;
 info

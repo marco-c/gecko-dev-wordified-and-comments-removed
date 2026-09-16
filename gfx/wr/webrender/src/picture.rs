@@ -2523,6 +2523,8 @@ pictures
 child_pic_index
 .
 0
+as
+usize
 ]
 .
 print
