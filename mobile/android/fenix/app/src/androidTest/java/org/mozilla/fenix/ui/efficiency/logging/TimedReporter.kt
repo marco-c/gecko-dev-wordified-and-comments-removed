@@ -1142,7 +1142,7 @@ facts
 mapOf
 (
 "
-type
+scopeType
 "
 to
 type
@@ -1341,7 +1341,7 @@ name
 mapOf
 (
 "
-type
+scopeType
 "
 to
 type
