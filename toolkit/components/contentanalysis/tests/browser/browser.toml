@@ -161,6 +161,13 @@ html
 ]
 [
 "
+browser_clipboard_paste_chat_shortcuts
+.
+js
+"
+]
+[
+"
 browser_clipboard_paste_file_content_analysis
 .
 js
