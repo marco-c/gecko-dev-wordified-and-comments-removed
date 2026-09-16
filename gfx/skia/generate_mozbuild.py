@@ -1851,7 +1851,7 @@ pdf
 '
 :
 '
-pdf
+common
 '
 }
   
@@ -1906,10 +1906,13 @@ sources
 [
 key
 ]
-=
+.
+update
+(
 parse_sources
 (
 output
+)
 )
   
 sources
@@ -2523,14 +2526,6 @@ set
     
 '
 none
-'
-:
-set
-(
-)
-    
-'
-pdf
 '
 :
 set
@@ -3334,36 +3329,6 @@ opt_allowlist
 skia_opt_flags
 '
 0
-)
-  
-f
-.
-write
-(
-"
-if
-CONFIG
-[
-'
-MOZ_ENABLE_SKIA_PDF
-'
-]
-:
-\
-n
-"
-)
-  
-write_sources
-(
-f
-sources
-[
-'
-pdf
-'
-]
-4
 )
   
 f

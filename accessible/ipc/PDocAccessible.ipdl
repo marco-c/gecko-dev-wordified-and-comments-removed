@@ -639,9 +639,6 @@ uint64_t
 aIDs
 )
 ;
-#
-ifdef
-MOZ_ENABLE_SKIA_PDF
 /
 *
 *
@@ -702,8 +699,6 @@ Printing
 (
 )
 ;
-#
-endif
 child
 :
 async

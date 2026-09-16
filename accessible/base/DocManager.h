@@ -335,9 +335,6 @@ const
 ;
 #
 endif
-#
-ifdef
-MOZ_ENABLE_SKIA_PDF
 static
 void
 NotifyOfPrintDocument
@@ -350,8 +347,6 @@ Document
 aDoc
 )
 ;
-#
-endif
 protected
 :
 DocManager

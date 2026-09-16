@@ -2309,9 +2309,6 @@ endif
 mirror
 :
 always
-#
-ifdef
-MOZ_ENABLE_SKIA_PDF
 -
 name
 :
@@ -2329,8 +2326,6 @@ IS_NIGHTLY_BUILD
 mirror
 :
 always
-#
-endif
 #
 Whether
 to
@@ -111023,9 +111018,6 @@ mirror
 :
 always
 #
-ifdef
-MOZ_ENABLE_SKIA_PDF
-#
 Whether
 we
 should
@@ -111096,8 +111088,6 @@ value
 mirror
 :
 always
-#
-endif
 #
 -
 -

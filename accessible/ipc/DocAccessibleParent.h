@@ -1299,9 +1299,6 @@ uint64_t
 aRequiredCacheDomains
 )
 ;
-#
-ifdef
-MOZ_ENABLE_SKIA_PDF
 mozilla
 :
 :
@@ -1313,8 +1310,6 @@ RecvPrinting
 (
 )
 ;
-#
-endif
 enum
 class
 AllowConstruction
