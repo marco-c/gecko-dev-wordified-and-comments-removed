@@ -38,6 +38,15 @@ include
 "
 api
 /
+peer_connection_tracer_interface
+.
+h
+"
+#
+include
+"
+api
+/
 scoped_refptr
 .
 h

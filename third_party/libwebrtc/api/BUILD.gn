@@ -2463,6 +2463,11 @@ peer_connection_interface
 .
 h
 "
+"
+peer_connection_tracer_interface
+.
+h
+"
 ]
 deps
 =

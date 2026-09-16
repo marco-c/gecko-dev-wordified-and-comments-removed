@@ -234,6 +234,14 @@ GetInternalPeerConnection
 (
 )
 ;
+const
+PeerConnection
+*
+GetInternalPeerConnection
+(
+)
+const
+;
 std
 :
 :

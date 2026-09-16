@@ -724,6 +724,9 @@ class
 MediaFactory
 ;
 class
+PeerConnectionTracerInterface
+;
+class
 StreamCollectionInterface
 :
 public
@@ -3501,6 +3504,15 @@ unique_ptr
 FieldTrialsView
 >
 trials
+;
+std
+:
+:
+unique_ptr
+<
+PeerConnectionTracerInterface
+>
+tracer
 ;
 }
 ;
