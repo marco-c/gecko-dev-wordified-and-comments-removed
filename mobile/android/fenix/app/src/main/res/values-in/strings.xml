@@ -1850,7 +1850,7 @@ tab_tray_close_tabs_banner_positive_button_text
 "
 >
 Lihat
-pengaturan
+pilihan
 <
 /
 string
@@ -3197,7 +3197,7 @@ name
 browser_menu_settings
 "
 >
-Setelan
+Pengaturan
 <
 /
 string
@@ -25528,8 +25528,6 @@ create_tab_group_name_label
 "
 >
 Nama
-grup
-tab
 <
 /
 string
