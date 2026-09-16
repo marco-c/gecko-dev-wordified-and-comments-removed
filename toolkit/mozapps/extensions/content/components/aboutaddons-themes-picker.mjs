@@ -1180,6 +1180,13 @@ isActive
 (
 themeId
 )
+{
+layout
+:
+"
+full
+"
+}
 )
 ;
 this
