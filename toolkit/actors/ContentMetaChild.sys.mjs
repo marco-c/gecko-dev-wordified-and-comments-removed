@@ -1162,7 +1162,6 @@ Meta
 SetPageInfo
 "
 {
-url
 description
 :
 entry
