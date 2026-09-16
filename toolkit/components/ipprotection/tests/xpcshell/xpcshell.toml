@@ -139,6 +139,13 @@ js
 ]
 [
 "
+test_IPPPermissionRuleProvider
+.
+js
+"
+]
+[
+"
 test_IPPProxyableRuleProvider
 .
 js
