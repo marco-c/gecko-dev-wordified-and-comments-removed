@@ -9983,9 +9983,6 @@ NS_FRAME_IS_NONDISPLAY
 "
 )
 ;
-this
--
->
 MarkSubtreeDirty
 (
 )
@@ -21424,7 +21421,7 @@ kid
 return
 ;
 }
-NS_ASSERTION
+MOZ_ASSERT
 (
 !
 kid
