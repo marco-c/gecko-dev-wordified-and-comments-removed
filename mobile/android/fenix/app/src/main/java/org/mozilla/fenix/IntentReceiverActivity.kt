@@ -1078,6 +1078,11 @@ modeDependentProcessors
 +
 NewTabShortcutIntentProcessor
 (
+components
+.
+settings
+.
+enableHomepageAsNewTab
 )
 +
 UninstallShortcutIntentProcessor
