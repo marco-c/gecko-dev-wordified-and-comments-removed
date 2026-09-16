@@ -753,11 +753,6 @@ key
 {
 key
 }
-type
-=
-"
-checkbox
-"
 checked
 =
 {
@@ -766,9 +761,6 @@ key
 =
 =
 selected
-|
-|
-undefined
 }
 onClick
 =
@@ -782,6 +774,11 @@ onSelect
 key
 )
 }
+type
+=
+"
+checkbox
+"
 {
 .
 .
