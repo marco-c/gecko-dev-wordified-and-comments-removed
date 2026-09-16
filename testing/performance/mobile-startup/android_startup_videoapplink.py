@@ -250,6 +250,21 @@ chiefs
 falcons
 "
 ]
+CROP_TOP
+CROP_BOTTOM
+CROP_LEFT
+CROP_RIGHT
+=
+(
+    
+100
+    
+440
+    
+0
+    
+20
+)
 SUPPORTED_DEVICES
 =
 {
@@ -1962,7 +1977,8 @@ cropped
 return
 frame
 [
-100
+                
+CROP_TOP
 :
 int
 (
@@ -1971,8 +1987,9 @@ self
 height
 )
 -
-150
-0
+CROP_BOTTOM
+                
+CROP_LEFT
 :
 int
 (
@@ -1981,7 +1998,8 @@ self
 width
 )
 -
-20
+CROP_RIGHT
+            
 ]
         
 return
@@ -3121,7 +3139,7 @@ cropped_image
 validated_image
 [
                 
-100
+CROP_TOP
 :
 int
 (
@@ -3130,8 +3148,9 @@ self
 height
 )
 -
-150
-0
+CROP_BOTTOM
+                
+CROP_LEFT
 :
 int
 (
@@ -3140,7 +3159,7 @@ self
 width
 )
 -
-20
+CROP_RIGHT
             
 ]
             
