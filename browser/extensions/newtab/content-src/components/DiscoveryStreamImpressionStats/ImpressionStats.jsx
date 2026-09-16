@@ -760,6 +760,11 @@ attribution
 link
 .
 attribution
+is_ad_eligible_position
+:
+link
+.
+is_ad_eligible_position
 .
 .
 .

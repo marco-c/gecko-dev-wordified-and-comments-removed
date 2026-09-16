@@ -4243,6 +4243,13 @@ format
 {
 }
 )
+is_ad_eligible_position
+:
+this
+.
+props
+.
+is_ad_eligible_position
 category
 :
 this

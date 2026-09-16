@@ -1299,6 +1299,13 @@ rec
 .
 format
 }
+is_ad_eligible_position
+=
+{
+rec
+.
+is_ad_eligible_position
+}
 alt_text
 =
 {

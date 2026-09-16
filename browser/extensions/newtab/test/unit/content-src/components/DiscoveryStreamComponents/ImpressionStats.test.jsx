@@ -825,6 +825,9 @@ undefined
 attribution
 :
 undefined
+is_ad_eligible_position
+:
+undefined
 format
 :
 "
@@ -866,6 +869,9 @@ undefined
 attribution
 :
 undefined
+is_ad_eligible_position
+:
+undefined
 format
 :
 "
@@ -905,6 +911,9 @@ features
 :
 undefined
 attribution
+:
+undefined
+is_ad_eligible_position
 :
 undefined
 format
@@ -1449,6 +1458,9 @@ undefined
 attribution
 :
 undefined
+is_ad_eligible_position
+:
+undefined
 format
 :
 "
@@ -1490,6 +1502,9 @@ undefined
 attribution
 :
 undefined
+is_ad_eligible_position
+:
+undefined
 format
 :
 "
@@ -1529,6 +1544,9 @@ features
 :
 undefined
 attribution
+:
+undefined
+is_ad_eligible_position
 :
 undefined
 format
