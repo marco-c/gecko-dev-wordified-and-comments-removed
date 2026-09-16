@@ -54779,6 +54779,8 @@ clear
 ;
 this
 .
+tabContainer
+.
 dispatchEvent
 (
 new
