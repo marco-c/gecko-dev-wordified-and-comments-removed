@@ -1100,7 +1100,9 @@ dir
 DEPTH
 )
 /
-browser
+(
+MOZ_BUILD_APP
+)
 /
 installer
 /
