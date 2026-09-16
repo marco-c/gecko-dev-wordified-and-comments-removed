@@ -1211,9 +1211,6 @@ TriggeringSandboxFlags
 uint64_t
 TriggeringWindowId
 ;
-bool
-TriggeringStorageAccess
-;
 ClassificationFlags
 TriggeringClassificationFlags
 ;
@@ -1775,6 +1772,10 @@ name
 nsString
 title
 ;
+nullable
+nsIURI
+navigate
+;
 }
 ;
 /
@@ -1851,6 +1852,10 @@ tag
 nullable
 nsIURI
 icon
+;
+nullable
+nsIURI
+navigate
 ;
 bool
 requireInteraction

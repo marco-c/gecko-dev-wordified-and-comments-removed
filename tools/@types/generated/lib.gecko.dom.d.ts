@@ -7004,11 +7004,6 @@ triggeringSandboxFlags
 :
 number
 ;
-triggeringStorageAccess
-?
-:
-boolean
-;
 triggeringWindowId
 ?
 :

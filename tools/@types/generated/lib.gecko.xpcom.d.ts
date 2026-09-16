@@ -37130,10 +37130,6 @@ triggeringWindowId
 :
 u64
 ;
-triggeringStorageAccess
-:
-boolean
-;
 triggeringFirstPartyClassificationFlags
 :
 u32
