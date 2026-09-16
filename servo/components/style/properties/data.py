@@ -7373,8 +7373,7 @@ webkit_text_properties
 )
 :
         
-props
-=
+return
 set
 (
             
@@ -7416,9 +7415,6 @@ color
 ]
         
 )
-        
-return
-props
     
 staticmethod
     
@@ -8364,6 +8360,48 @@ data
 font
 -
 synthesis
+"
+)
+        
+)
+    
+def
+highlight
+(
+data
+)
+:
+        
+return
+set
+(
+            
+[
+                
+"
+color
+"
+                
+"
+background
+-
+color
+"
+            
+]
+            
++
+PropertyRestrictions
+.
+spec
+(
+data
+"
+css
+-
+text
+-
+decor
 "
 )
         
