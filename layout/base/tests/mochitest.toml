@@ -1467,6 +1467,13 @@ android
 ]
 [
 "
+test_keyboard_scroll_from_fixed_pos
+.
+html
+"
+]
+[
+"
 test_keyboard_scroll_handoff
 .
 html
