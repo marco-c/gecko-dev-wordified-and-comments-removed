@@ -2826,13 +2826,6 @@ js
 ]
 [
 "
-test_ext_runtime_getVersion
-.
-js
-"
-]
-[
-"
 test_ext_runtime_id
 .
 js
