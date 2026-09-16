@@ -250,6 +250,13 @@ js
 ]
 [
 "
+browser_aria_grabbed
+.
+js
+"
+]
+[
+"
 browser_aria_haspopup
 .
 js

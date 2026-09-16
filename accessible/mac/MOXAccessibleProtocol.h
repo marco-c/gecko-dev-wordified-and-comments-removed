@@ -449,6 +449,14 @@ NSNumber
 *
 _Nullable
 )
+moxGrabbed
+;
+-
+(
+NSNumber
+*
+_Nullable
+)
 moxExpanded
 ;
 -
