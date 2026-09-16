@@ -24781,12 +24781,6 @@ InitLocalAddrs
 )
 ;
 }
-mQueuedIceCtxOperations
-.
-clear
-(
-)
-;
 nsCOMPtr
 <
 nsIRunnable
