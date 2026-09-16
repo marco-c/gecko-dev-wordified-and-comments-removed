@@ -5747,7 +5747,7 @@ linux64
 -
 python3
 .
-9
+10
 -
 pygobject
 -
@@ -5755,7 +5755,7 @@ linux64
 -
 python3
 .
-9
+10
 -
 pycairo
 web
