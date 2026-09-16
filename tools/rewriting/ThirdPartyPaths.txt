@@ -1719,6 +1719,16 @@ components
 /
 protobuf
 /
+src
+/
+toolkit
+/
+components
+/
+protobuf
+/
+third_party
+/
 toolkit
 /
 components
