@@ -200,9 +200,6 @@ generateQI
 "
 nsIObserver
 "
-"
-nsISimpleURIUnknownSchemesRemoteObserver
-"
 ]
 )
 ;
