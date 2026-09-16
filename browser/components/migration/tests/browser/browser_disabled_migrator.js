@@ -557,7 +557,7 @@ display
 -
 name
 -
-firefox
+self
 "
 ;
 }
