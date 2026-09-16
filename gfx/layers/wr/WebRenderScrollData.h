@@ -448,18 +448,6 @@ aReferentId
 )
 ;
 }
-void
-ClearReferentId
-(
-)
-{
-mReferentId
-=
-Nothing
-(
-)
-;
-}
 Maybe
 <
 LayersId
@@ -985,7 +973,7 @@ WebRenderScrollData
 default
 ;
 bool
-ValidateShape
+Validate
 (
 )
 const

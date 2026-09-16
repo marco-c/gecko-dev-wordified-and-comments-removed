@@ -8120,8 +8120,6 @@ base
 ProcessId
 aOtherPid
 LayersId
-aEmbedderLayersId
-LayersId
 *
 aOutLayersId
 CompositorOptions
@@ -8194,7 +8192,6 @@ aCompositorBridge
 SendMapAndNotifyChildCreated
 (
 layersId
-aEmbedderLayersId
 aOtherPid
 aOutCompositorOptions
 )
@@ -8207,7 +8204,6 @@ aCompositorBridge
 SendNotifyChildCreated
 (
 layersId
-aEmbedderLayersId
 aOutCompositorOptions
 )
 ;
