@@ -1,3 +1,15 @@
+defaults
+pref
+(
+dom
+.
+navigation
+.
+navigationRateLimit
+.
+count
+0
+)
 load
 68912
 -

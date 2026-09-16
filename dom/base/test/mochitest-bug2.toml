@@ -42,6 +42,17 @@ rewrite_youtube_embeds
 =
 true
 "
+"
+dom
+.
+navigation
+.
+navigationRateLimit
+.
+count
+=
+0
+"
 ]
 support
 -
