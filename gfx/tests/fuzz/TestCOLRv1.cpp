@@ -286,7 +286,7 @@ MakeUnique
 <
 nsTArray
 <
-sRGBColor
+hb_color_t
 >
 >
 (
