@@ -120,7 +120,7 @@ const
 val
 REMOVAL_TIMEOUT_MS
 =
-2_000L
+5_000L
 private
 const
 val
