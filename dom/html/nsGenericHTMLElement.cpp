@@ -10646,7 +10646,7 @@ HTMLFormElement
 *
 form
 =
-GetFormInternal
+GetFormIfRegistered
 (
 )
 ;
@@ -10963,7 +10963,7 @@ HTMLFormElement
 *
 form
 =
-GetFormInternal
+GetFormIfRegistered
 (
 )
 )
