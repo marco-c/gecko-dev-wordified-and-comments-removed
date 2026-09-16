@@ -7655,11 +7655,6 @@ struct
 "
 font
 "
-engine
-=
-"
-gecko
-"
 animation_type
 =
 "

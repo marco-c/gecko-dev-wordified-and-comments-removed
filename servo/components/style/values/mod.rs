@@ -3081,10 +3081,12 @@ derive
 Clone
 Debug
 Default
+Deserialize
 Eq
 Hash
 MallocSizeOf
 PartialEq
+Serialize
 SpecifiedValueInfo
 ToAnimatedValue
 ToComputedValue
