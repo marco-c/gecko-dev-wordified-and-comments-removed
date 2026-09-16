@@ -1,16 +1,10 @@
 use
-crate
-:
-:
 boolean
 :
 :
 boolean_t
 ;
 use
-crate
-:
-:
 mach_types
 :
 :

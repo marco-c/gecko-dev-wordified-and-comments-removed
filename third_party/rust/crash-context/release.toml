@@ -232,13 +232,11 @@ github
 .
 com
 /
-rust
--
-minidump
+EmbarkStudios
 /
-minidump
+crash
 -
-writer
+handling
 /
 compare
 /

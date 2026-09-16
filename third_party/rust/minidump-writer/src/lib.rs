@@ -43,9 +43,6 @@ FillMissingAuxvInfo
 ThreadName
 SuspendThreads
 CpuInfoFileOpen
-StackPointerMapping
-ThreadStackCopy
-CrashingThreadIpCopy
 }
 }
 pub
@@ -133,10 +130,4 @@ process_reader
 ;
 mod
 serializers
-;
-pub
-use
-:
-:
-crash_context
 ;
