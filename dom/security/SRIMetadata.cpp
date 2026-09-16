@@ -287,13 +287,6 @@ question
 1
 )
 {
-MOZ_ASSERT
-(
-question
->
-0
-)
-;
 if
 (
 static_cast

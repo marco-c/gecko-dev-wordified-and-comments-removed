@@ -217,6 +217,13 @@ html
 ]
 [
 "
+test_bug_1380146_incorrect_integrity
+.
+html
+"
+]
+[
+"
 test_bug_1364262
 .
 html
