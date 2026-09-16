@@ -328,6 +328,13 @@ py
 ]
 [
 "
+test_spidermonkey
+.
+py
+"
+]
+[
+"
 test_stylelint
 .
 py
