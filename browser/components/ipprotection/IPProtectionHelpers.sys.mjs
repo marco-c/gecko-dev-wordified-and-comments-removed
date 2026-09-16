@@ -147,7 +147,7 @@ defineESModuleGetters
 (
 lazy
 {
-IPPExceptionsManager
+IPPSiteRuleManager
 :
 "
 moz
@@ -163,7 +163,7 @@ components
 /
 ipprotection
 /
-IPPExceptionsManager
+IPPSiteRuleManager
 .
 sys
 .
@@ -553,7 +553,7 @@ uninit
 ;
 lazy
 .
-IPPExceptionsManager
+IPPSiteRuleManager
 .
 uninit
 (
@@ -617,7 +617,7 @@ init
 ;
 lazy
 .
-IPPExceptionsManager
+IPPSiteRuleManager
 .
 init
 (
@@ -667,7 +667,7 @@ uninit
 ;
 lazy
 .
-IPPExceptionsManager
+IPPSiteRuleManager
 .
 uninit
 (
