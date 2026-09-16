@@ -1685,11 +1685,9 @@ hover
 -
 tab
 -
-icon
+loading
 -
 fill
--
-loading
 "
 "
 -
