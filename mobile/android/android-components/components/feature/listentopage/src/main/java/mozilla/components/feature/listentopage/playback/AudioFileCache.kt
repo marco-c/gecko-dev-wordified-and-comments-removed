@@ -288,6 +288,8 @@ on
 /
 class
 DirectoryAudioFileCache
+internal
+constructor
 (
 directoryProvider
 :

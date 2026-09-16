@@ -193,6 +193,7 @@ silently
 .
 *
 /
+internal
 class
 ListenMediaSessionService
 :
