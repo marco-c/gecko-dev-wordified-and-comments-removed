@@ -20087,10 +20087,17 @@ GdkIsX11Display
 )
 {
 return
+mGdkWindow
+?
 gdk_x11_window_get_xid
 (
 mGdkWindow
 )
+:
+(
+Window
+)
+nullptr
 ;
 }
 #
