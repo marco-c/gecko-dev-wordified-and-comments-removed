@@ -1072,7 +1072,9 @@ if
 messages
 ?
 .
-length
+[
+0
+]
 )
 {
 console
