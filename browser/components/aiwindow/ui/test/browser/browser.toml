@@ -1368,6 +1368,13 @@ js
 ]
 [
 "
+browser_smartwindow_duplicate_chat_tabs
+.
+js
+"
+]
+[
+"
 browser_smartwindow_footer
 .
 js
