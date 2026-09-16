@@ -4531,7 +4531,10 @@ attrs
 as_ref
 (
 )
-?
+.
+unwrap
+(
+)
 .
 iter
 (
@@ -4660,12 +4663,9 @@ as_ref
 (
 )
 .
-is_some_and
+unwrap
 (
-|
-attrs
-|
-attrs
+)
 .
 iter
 (
@@ -4694,7 +4694,6 @@ name
 f
 (
 v
-)
 )
 )
 }
