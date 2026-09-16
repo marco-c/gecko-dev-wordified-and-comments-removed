@@ -291,6 +291,12 @@ code
 nsCString
 reason
 )
+returns
+(
+WebTransportStatsData
+?
+stats
+)
 ;
 async
 CreateUnidirectionalStream
@@ -687,6 +693,9 @@ uint32_t
 code
 nsCString
 reason
+WebTransportStatsData
+?
+stats
 )
 ;
 async

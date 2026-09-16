@@ -130,6 +130,13 @@ const
 nsACString
 &
 aReason
+const
+Maybe
+<
+WebTransportStatsData
+>
+&
+aStats
 )
 ;
 :

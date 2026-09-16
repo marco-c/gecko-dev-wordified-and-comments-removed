@@ -230,6 +230,10 @@ const
 nsACString
 &
 aReason
+CloseResolver
+&
+&
+aResolver
 )
 ;
 IPCResult
@@ -495,6 +499,10 @@ const
 nsACString
 &
 aReason
+const
+WebTransportStatsData
+&
+aStats
 )
 ;
 void
