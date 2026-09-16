@@ -3046,14 +3046,6 @@ const
 wr
 :
 :
-LayoutVector2D
-CurrentAccumulatedScrollOffset
-(
-)
-;
-wr
-:
-:
 WrSpatialId
 DefineScrollLayer
 (

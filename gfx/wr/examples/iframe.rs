@@ -329,9 +329,6 @@ false
 should_snap
 :
 false
-snap_origin
-:
-false
 paired_with_perspective
 :
 false

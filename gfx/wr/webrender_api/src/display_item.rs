@@ -3091,9 +3091,6 @@ bool
 should_snap
 :
 bool
-snap_origin
-:
-bool
 paired_with_perspective
 :
 bool
@@ -9707,9 +9704,6 @@ is_2d_scale_translation
 :
 false
 should_snap
-:
-false
-snap_origin
 :
 false
 paired_with_perspective
