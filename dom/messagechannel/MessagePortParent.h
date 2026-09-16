@@ -78,6 +78,11 @@ friend
 class
 PMessagePortParent
 ;
+NS_INLINE_DECL_REFCOUNTING
+(
+MessagePortParent
+override
+)
 public
 :
 explicit
@@ -87,11 +92,6 @@ const
 nsID
 &
 aUUID
-)
-;
-~
-MessagePortParent
-(
 )
 ;
 bool
@@ -177,6 +177,11 @@ aSequenceID
 ;
 private
 :
+~
+MessagePortParent
+(
+)
+;
 mozilla
 :
 :
