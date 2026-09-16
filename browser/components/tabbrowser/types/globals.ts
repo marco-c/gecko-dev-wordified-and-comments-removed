@@ -85,8 +85,3 @@ TabStateData
 =
 any
 ;
-type
-TabSplitViewStateData
-=
-any
-;
