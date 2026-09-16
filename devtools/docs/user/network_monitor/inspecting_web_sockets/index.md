@@ -724,6 +724,16 @@ protocols
 Plain
 JSON
 -
+JSON
+Lines
+(
+one
+JSON
+value
+per
+line
+)
+-
 Socket
 .
 IO
