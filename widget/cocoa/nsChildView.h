@@ -361,6 +361,9 @@ mIsUpdatingLayer
 BOOL
 mPerformedDrag
 ;
+BOOL
+mZoomStateAtLastSingleClick
+;
 nsIDragService
 *
 mDragService
