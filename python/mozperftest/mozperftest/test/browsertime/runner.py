@@ -1,6 +1,4 @@
 import
-collections
-import
 json
 import
 os
@@ -1540,18 +1538,11 @@ json
 .
 loads
 (
-                    
 f
 .
 read
 (
 )
-object_pairs_hook
-=
-collections
-.
-OrderedDict
-                
 )
             
 existing_body
