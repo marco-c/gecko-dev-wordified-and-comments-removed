@@ -12,6 +12,9 @@ linux
 :
 :
 process_inspection
+:
+:
+ProcessInspector
 mem_writer
 :
 :
@@ -42,6 +45,7 @@ descriptor_from_path
 process_inspector
 :
 &
+dyn
 ProcessInspector
 buffer
 :
@@ -85,6 +89,10 @@ process_inspector
 read_link
 (
 path
+.
+into
+(
+)
 )
 .
 ok
@@ -122,6 +130,10 @@ process_inspector
 stat_file
 (
 path
+.
+into
+(
+)
 )
 .
 ok
@@ -395,8 +407,11 @@ process_inspector
 .
 read_dir
 (
-&
 proc_fd_path
+.
+clone
+(
+)
 )
 .
 map_err
@@ -448,10 +463,13 @@ filename
 ;
 descriptor_from_path
 (
-&
 self
 .
 process_inspector
+.
+as_ref
+(
+)
 buffer
 &
 path

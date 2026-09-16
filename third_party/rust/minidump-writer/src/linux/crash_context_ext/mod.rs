@@ -1,6 +1,6 @@
 pub
 struct
-CrashContext
+CrashContextExt
 {
 pub
 inner
@@ -19,7 +19,7 @@ fmt
 :
 Debug
 for
-CrashContext
+CrashContextExt
 {
 fn
 fmt
@@ -57,7 +57,7 @@ f
 debug_struct
 (
 "
-CrashContext
+CrashContextExt
 "
 )
 .
@@ -105,6 +105,15 @@ finish_non_exhaustive
 )
 }
 }
+use
+crate
+:
+:
+minidump_cpu
+:
+:
+RawContextCPU
+;
 cfg_if
 :
 :

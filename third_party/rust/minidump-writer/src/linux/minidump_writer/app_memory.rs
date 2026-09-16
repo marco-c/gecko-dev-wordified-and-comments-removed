@@ -45,10 +45,13 @@ Self
 :
 copy_from_process
 (
-&
 self
 .
 process_inspector
+.
+as_ref
+(
+)
 app_memory
 .
 ptr

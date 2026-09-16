@@ -1,4 +1,7 @@
 use
+crate
+:
+:
 kern_return
 :
 :
@@ -53,6 +56,7 @@ denom
 :
 u32
 }
+unsafe
 extern
 "
 C

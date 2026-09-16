@@ -37,6 +37,11 @@ version
 }
 }
 "
+consolidate
+-
+commits
+=
+false
 pre
 -
 release
