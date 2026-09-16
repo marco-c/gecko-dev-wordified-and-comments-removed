@@ -241,10 +241,9 @@ TEST_WRONG_ACTION
 val
 result
 =
-StartSearchIntentProcessor
-{
-true
-}
+AssistIntentProcessor
+(
+)
 .
 process
 (

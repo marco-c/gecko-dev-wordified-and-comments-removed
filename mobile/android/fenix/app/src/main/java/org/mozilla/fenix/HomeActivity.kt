@@ -2714,6 +2714,19 @@ AssistIntentProcessor
 (
 )
 StartSearchIntentProcessor
+(
+fenixBrowserUseCases
+=
+components
+.
+useCases
+.
+fenixBrowserUseCases
+browsingModeManager
+=
+browsingModeManager
+userHasBeenOnboarded
+=
 {
 components
 .
@@ -2723,6 +2736,7 @@ userHasBeenOnboarded
 (
 )
 }
+)
 LensResultIntentProcessor
 (
 this
