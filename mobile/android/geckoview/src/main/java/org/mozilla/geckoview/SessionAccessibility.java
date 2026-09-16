@@ -3896,6 +3896,9 @@ language
 final
 int
 inputType
+final
+int
+liveRegion
 )
 {
 if
@@ -4101,6 +4104,13 @@ contentDescription
 )
 language
 )
+)
+;
+node
+.
+setLiveRegion
+(
+liveRegion
 )
 ;
 node
