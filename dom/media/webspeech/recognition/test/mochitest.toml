@@ -338,6 +338,13 @@ html
 ]
 [
 "
+test_install_on_start
+.
+html
+"
+]
+[
+"
 test_install_overlap
 .
 html
