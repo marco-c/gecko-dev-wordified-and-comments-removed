@@ -383,6 +383,13 @@ settings
 "
 [
 "
+test_WallpaperFileNames
+.
+js
+"
+]
+[
+"
 test_WeatherFeed
 .
 js
