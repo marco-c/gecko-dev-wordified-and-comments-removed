@@ -204,8 +204,6 @@ menu
 data
 .
 PresentationMode
-.
-Row
 import
 mozilla
 .
@@ -408,6 +406,8 @@ it
 presentationMode
 =
 =
+PresentationMode
+.
 Row
 )
 {
