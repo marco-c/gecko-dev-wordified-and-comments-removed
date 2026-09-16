@@ -1173,7 +1173,7 @@ R
 .
 string
 .
-ip_protection_title
+ip_protection_settings_title
 )
 Scaffold
 (
@@ -1489,7 +1489,7 @@ R
 .
 string
 .
-ip_protection_title
+ip_protection_settings_title
 )
 style
 =

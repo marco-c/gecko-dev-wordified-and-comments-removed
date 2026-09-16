@@ -48660,9 +48660,12 @@ string
 name
 =
 "
-ip_protection_title
+ip_protection_settings_title
 "
 >
+Built
+-
+in
 VPN
 <
 /
