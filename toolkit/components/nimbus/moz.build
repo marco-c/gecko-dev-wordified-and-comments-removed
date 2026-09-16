@@ -191,6 +191,17 @@ test
 /
 unit
 /
+shutdown
+/
+xpcshell
+.
+toml
+"
+"
+test
+/
+unit
+/
 xpcshell
 .
 toml

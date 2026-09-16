@@ -1473,6 +1473,16 @@ _readyDeferred
 .
 reject
 (
+new
+Error
+(
+"
+SharedDataMap
+:
+in
+shutdown
+"
+)
 )
 ;
 lazy
