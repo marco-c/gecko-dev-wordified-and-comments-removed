@@ -187,11 +187,8 @@ on
 .
 browserPage
 .
-mozVerifyElementsByGroup
+mozVerifyReadiness
 (
-"
-requiredForPage
-"
 )
 }
 }

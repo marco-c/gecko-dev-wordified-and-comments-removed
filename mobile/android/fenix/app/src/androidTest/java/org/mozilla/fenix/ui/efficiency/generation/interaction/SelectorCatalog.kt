@@ -241,7 +241,10 @@ selectorName
 =
 selector
 .
-name
+id
+?
+.
+value
 ?
 :
 inferName

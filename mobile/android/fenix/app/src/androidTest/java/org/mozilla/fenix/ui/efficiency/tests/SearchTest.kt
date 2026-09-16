@@ -866,11 +866,8 @@ on
 .
 searchBar
 .
-mozVerifyElementsByGroup
+mozVerifyReadiness
 (
-"
-requiredForPage
-"
 )
 }
 /
@@ -976,11 +973,8 @@ on
 .
 searchBar
 .
-mozVerifyElementsByGroup
+mozVerifyReadiness
 (
-"
-requiredForPage
-"
 )
 }
 /

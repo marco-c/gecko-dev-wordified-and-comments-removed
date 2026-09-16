@@ -220,12 +220,12 @@ interactionDescription
 }
 /
 /
-expectedGroup
+expectedResultOf
 =
 {
 case
 .
-expectedGroup
+expectedResultOf
 }
 /
 /

@@ -529,9 +529,11 @@ navigateToPage
 .
 mozVerifyElementsByGroup
 (
-"
-emptyDownloads
-"
+DownloadsSelectors
+.
+Group
+.
+EMPTY_DOWNLOADS
 )
 }
 /

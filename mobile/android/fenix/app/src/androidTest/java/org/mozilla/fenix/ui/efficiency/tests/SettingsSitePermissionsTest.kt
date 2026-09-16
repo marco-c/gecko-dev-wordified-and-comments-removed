@@ -459,9 +459,11 @@ settingsSiteSettingsAutoplay
 .
 mozVerifyElementsByGroup
 (
-"
-autoplayOptions
-"
+SettingsSiteSettingsAutoplaySelectors
+.
+Group
+.
+AUTOPLAY_OPTIONS
 )
 .
 mozVerifyElementIsNotChecked
