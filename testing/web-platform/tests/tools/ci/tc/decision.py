@@ -11,6 +11,10 @@ re
 import
 subprocess
 from
+collections
+import
+OrderedDict
+from
 typing
 import
 Any
@@ -281,8 +285,9 @@ event
     
 triggered
 =
-{
-}
+OrderedDict
+(
+)
     
 for
 name
@@ -1068,8 +1073,9 @@ Task
     
 scheduled
 =
-{
-}
+OrderedDict
+(
+)
     
 run_jobs
 =
@@ -2854,8 +2860,9 @@ TcTask
 ]
 ]
 =
-{
-}
+OrderedDict
+(
+)
     
 taskgroup_id
 =

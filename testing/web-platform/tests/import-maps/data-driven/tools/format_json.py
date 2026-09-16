@@ -1,4 +1,6 @@
 import
+collections
+import
 json
 import
 sys
@@ -68,6 +70,7 @@ json
 .
 load
 (
+                
 open
 (
 filename
@@ -76,6 +79,11 @@ u
 r
 '
 )
+object_pairs_hook
+=
+collections
+.
+OrderedDict
 )
             
 with

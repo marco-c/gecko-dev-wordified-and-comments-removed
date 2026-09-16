@@ -31,6 +31,10 @@ traceback
 import
 uuid
 from
+collections
+import
+OrderedDict
+from
 queue
 import
 Empty
@@ -4966,8 +4970,9 @@ self
 .
 raw_headers
 =
-{
-}
+OrderedDict
+(
+)
         
 for
 key
