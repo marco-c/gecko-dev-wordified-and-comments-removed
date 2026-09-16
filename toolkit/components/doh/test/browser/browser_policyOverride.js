@@ -168,8 +168,8 @@ true
 Pref
 set
 to
-suppress
-CFR
+skip
+heuristics
 .
 "
 )

@@ -72,13 +72,6 @@ js
 ]
 [
 "
-browser_doorhangerUserReject
-.
-js
-"
-]
-[
-"
 browser_platformDetection
 .
 js
@@ -157,6 +150,13 @@ js
 [
 "
 browser_userInterference
+.
+js
+"
+]
+[
+"
+browser_userOptOut
 .
 js
 "
