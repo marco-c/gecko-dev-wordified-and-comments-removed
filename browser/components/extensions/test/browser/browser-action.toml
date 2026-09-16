@@ -403,6 +403,13 @@ js
 ]
 [
 "
+browser_ext_pageAction_popup_anchor
+.
+js
+"
+]
+[
+"
 browser_ext_pageAction_popup_resize
 .
 js
