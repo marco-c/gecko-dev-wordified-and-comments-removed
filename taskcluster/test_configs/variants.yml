@@ -4616,9 +4616,9 @@ Agent
 expiration
 :
 "
-2026
+2027
 -
-10
+04
 -
 01
 "
@@ -5174,11 +5174,6 @@ mozinfo
 "
 urlbar_ipc
 "
-replace
-:
-tier
-:
-2
 merge
 :
 worker
