@@ -277,16 +277,6 @@ true
 )
 )
 {
-private
-val
-mockWebServer
-get
-(
-)
-=
-fenixTestRule
-.
-mockWebServer
 SmokeTest
 Test
 fun

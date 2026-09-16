@@ -357,16 +357,6 @@ BaseTest
 (
 )
 {
-private
-val
-mockWebServer
-get
-(
-)
-=
-fenixTestRule
-.
-mockWebServer
 /
 /
 Required

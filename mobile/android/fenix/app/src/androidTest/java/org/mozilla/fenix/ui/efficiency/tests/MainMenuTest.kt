@@ -547,16 +547,6 @@ BaseTest
 (
 )
 {
-private
-val
-mockWebServer
-get
-(
-)
-=
-fenixTestRule
-.
-mockWebServer
 Before
 fun
 disablePromptAbuserDetector

@@ -235,16 +235,6 @@ BaseTest
 (
 )
 {
-private
-val
-mockWebServer
-get
-(
-)
-=
-fenixTestRule
-.
-mockWebServer
 /
 /
 TestRail
