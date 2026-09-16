@@ -2524,6 +2524,7 @@ serviceType
 purpose
 extraHeaders
 engineId
+maxRetries
 }
 =
 this
@@ -2597,6 +2598,7 @@ fxAccountToken
 "
 apiKey
 "
+maxRetries
 defaultHeaders
 :
 {

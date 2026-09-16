@@ -1133,6 +1133,9 @@ purpose
 chat
 "
 extraHeaders
+maxRetries
+:
+0
 }
 )
 ;
