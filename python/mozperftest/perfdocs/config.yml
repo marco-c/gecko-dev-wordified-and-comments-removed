@@ -353,6 +353,14 @@ js
 :
 "
 "
+"
+browser_quicksuggest_ml_perf
+.
+js
+"
+:
+"
+"
 browser
 /
 components
