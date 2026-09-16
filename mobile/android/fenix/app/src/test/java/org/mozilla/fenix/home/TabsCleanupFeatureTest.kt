@@ -2216,7 +2216,7 @@ tabId
 "
 1
 "
-excludedTabIds
+excludedFallbackTabIds
 =
 setOf
 (
@@ -2357,7 +2357,7 @@ tabId
 "
 1
 "
-excludedTabIds
+excludedFallbackTabIds
 =
 emptySet
 (

@@ -3092,7 +3092,7 @@ TabListAction
 .
 RemoveTabAction
 (
-excludedTabIds
+excludedFallbackTabIds
 =
 setOf
 (
@@ -3275,7 +3275,7 @@ TabListAction
 .
 RemoveTabsAction
 (
-excludedTabIds
+excludedFallbackTabIds
 =
 setOf
 (

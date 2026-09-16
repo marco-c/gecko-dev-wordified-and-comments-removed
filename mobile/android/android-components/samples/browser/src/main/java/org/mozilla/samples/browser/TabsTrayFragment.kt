@@ -656,7 +656,7 @@ invoke
 tabId
 :
 String
-excludedTabIds
+excludedFallbackTabIds
 :
 Set
 <
@@ -669,7 +669,7 @@ actual
 invoke
 (
 tabId
-excludedTabIds
+excludedFallbackTabIds
 )
 showSnackbar
 (

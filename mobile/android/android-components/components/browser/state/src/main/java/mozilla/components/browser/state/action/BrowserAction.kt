@@ -1762,7 +1762,7 @@ true
 .
 *
 property
-excludedTabIds
+excludedFallbackTabIds
 a
 list
 of
@@ -1795,7 +1795,7 @@ Boolean
 =
 true
 val
-excludedTabIds
+excludedFallbackTabIds
 :
 Set
 <
@@ -1824,9 +1824,8 @@ with
 the
 given
 [
-tabId
+tabIds
 ]
-s
 from
 the
 list
@@ -1847,7 +1846,7 @@ remove
 .
 *
 property
-excludedTabIds
+excludedFallbackTabIds
 a
 list
 of
@@ -1877,7 +1876,7 @@ List
 String
 >
 val
-excludedTabIds
+excludedFallbackTabIds
 :
 Set
 <

@@ -4560,7 +4560,7 @@ it
 .
 id
 }
-excludedTabIds
+excludedFallbackTabIds
 =
 inactiveTabIds
 )

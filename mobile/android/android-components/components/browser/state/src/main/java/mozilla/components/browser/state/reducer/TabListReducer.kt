@@ -820,7 +820,7 @@ excludedTabIds
 =
 action
 .
-excludedTabIds
+excludedFallbackTabIds
 )
 }
 else
@@ -1034,7 +1034,7 @@ private
 previousIndex
 action
 .
-excludedTabIds
+excludedFallbackTabIds
 )
 }
 else
