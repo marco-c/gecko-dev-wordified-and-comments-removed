@@ -127,6 +127,15 @@ toolbox
 }
 )
 ;
+const
+appName
+=
+Services
+.
+appinfo
+.
+name
+;
 isnot
 (
 har
@@ -151,9 +160,7 @@ log
 creator
 .
 name
-"
-Firefox
-"
+appName
 "
 The
 creator
@@ -173,9 +180,7 @@ log
 browser
 .
 name
-"
-Firefox
-"
+appName
 "
 The
 browser
