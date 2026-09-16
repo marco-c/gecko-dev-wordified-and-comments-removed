@@ -1684,6 +1684,12 @@ RENDER_ATTACHMENT
 =
 0x10
 ;
+const
+GPUFlagsConstant
+TRANSIENT_ATTACHMENT
+=
+0x20
+;
 }
 ;
 [
