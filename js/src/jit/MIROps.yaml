@@ -4045,6 +4045,9 @@ none
 clone
 :
 true
+can_recover
+:
+true
 #
 Converts
 a
