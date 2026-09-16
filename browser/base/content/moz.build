@@ -145,6 +145,8 @@ Files
 "
 test
 /
+browser
+-
 alerts
 /
 *
@@ -169,6 +171,8 @@ Files
 "
 test
 /
+browser
+-
 captivePortal
 /
 *
@@ -264,6 +268,8 @@ Files
 "
 test
 /
+browser
+-
 historySwipeAnimation
 /
 *
@@ -289,6 +295,8 @@ Files
 "
 test
 /
+browser
+-
 keyboard
 /
 *
@@ -313,6 +321,8 @@ Files
 "
 test
 /
+browser
+-
 outOfProcess
 /
 *
@@ -336,6 +346,8 @@ Files
 "
 test
 /
+browser
+-
 pageActions
 *
 /
@@ -362,6 +374,8 @@ Files
 "
 test
 /
+browser
+-
 pageinfo
 /
 *
@@ -459,6 +473,8 @@ Files
 "
 test
 /
+browser
+-
 plugins
 /
 *
@@ -486,6 +502,8 @@ Files
 "
 test
 /
+browser
+-
 popupNotifications
 /
 *
@@ -536,6 +554,8 @@ Files
 "
 test
 /
+browser
+-
 referrer
 /
 *
@@ -561,6 +581,8 @@ Files
 "
 test
 /
+browser
+-
 sanitize
 /
 *
@@ -585,6 +607,8 @@ Files
 "
 test
 /
+browser
+-
 scroll
 -
 to
@@ -663,6 +687,8 @@ Files
 "
 test
 /
+browser
+-
 startup
 /
 *
@@ -732,6 +758,8 @@ Files
 "
 test
 /
+browser
+-
 tabdialogs
 /
 *
@@ -756,6 +784,8 @@ Files
 "
 test
 /
+browser
+-
 notificationbox
 /
 *
@@ -804,6 +834,8 @@ Files
 "
 test
 /
+browser
+-
 tabcrashed
 /
 *
@@ -828,6 +860,8 @@ Files
 "
 test
 /
+browser
+-
 touch
 /
 *
@@ -851,6 +885,8 @@ Files
 "
 test
 /
+browser
+-
 utilityOverlay
 /
 *
@@ -945,6 +981,8 @@ Files
 "
 test
 /
+browser
+-
 zoom
 /
 *
@@ -968,6 +1006,8 @@ Files
 "
 test
 /
+browser
+-
 caps
 /
 *

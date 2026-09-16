@@ -1609,6 +1609,8 @@ content
 /
 test
 /
+browser
+-
 fullscreen
 /
 open_and_focus_helper
@@ -1661,6 +1663,8 @@ content
 /
 test
 /
+browser
+-
 outOfProcess
 /
 file_base
@@ -1674,6 +1678,8 @@ content
 /
 test
 /
+browser
+-
 outOfProcess
 /
 file_frame2
@@ -1687,6 +1693,8 @@ content
 /
 test
 /
+browser
+-
 outOfProcess
 /
 file_innerframe
@@ -1700,6 +1708,8 @@ content
 /
 test
 /
+browser
+-
 pageinfo
 /
 svg_image
@@ -1739,6 +1749,8 @@ content
 /
 test
 /
+browser
+-
 plugins
 /
 plugin_bug797677
@@ -1752,6 +1764,8 @@ content
 /
 test
 /
+browser
+-
 sanitize
 /
 dummy_page
@@ -10616,13 +10630,13 @@ gZipOfflineChild
 html
 browser
 /
-base
-/
-content
-/
-test
+components
 /
 urlbar
+/
+tests
+/
+browser
 /
 file_blank_but_not_blank
 .
