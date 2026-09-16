@@ -97,6 +97,9 @@ rust
 -
 api
 "
+optional
+=
+true
 }
 log
 =
@@ -141,3 +144,15 @@ v4
 "
 ]
 }
+[
+features
+]
+profiler
+=
+[
+"
+gecko
+-
+profiler
+"
+]

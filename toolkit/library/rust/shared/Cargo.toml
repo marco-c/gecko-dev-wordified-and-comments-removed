@@ -1070,6 +1070,13 @@ transport
 /
 mdns_service
 "
+features
+=
+[
+"
+profiler
+"
+]
 optional
 =
 true
