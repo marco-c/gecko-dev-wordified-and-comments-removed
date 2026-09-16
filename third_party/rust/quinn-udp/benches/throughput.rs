@@ -524,7 +524,7 @@ WRITABLE
 {
 send_state
 .
-send
+try_send
 (
 (
 &

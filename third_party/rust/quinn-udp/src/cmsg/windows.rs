@@ -10,7 +10,6 @@ ffi
 c_int
 c_uchar
 }
-mem
 ptr
 }
 ;
@@ -111,9 +110,6 @@ as
 usize
 >
 =
-mem
-:
-:
 size_of
 :
 :
@@ -314,9 +310,6 @@ usize
 {
 cmsgdata_align
 (
-mem
-:
-:
 size_of
 :
 :
@@ -342,9 +335,6 @@ usize
 {
 cmsgdata_align
 (
-mem
-:
-:
 size_of
 :
 :
@@ -383,9 +373,6 @@ usize
 +
 cmsgdata_align
 (
-mem
-:
-:
 size_of
 :
 :
@@ -474,9 +461,6 @@ usize
 (
 length
 +
-mem
-:
-:
 align_of
 :
 :
@@ -494,9 +478,6 @@ CMSGHDR
 &
 !
 (
-mem
-:
-:
 align_of
 :
 :
@@ -526,9 +507,6 @@ usize
 (
 length
 +
-mem
-:
-:
 align_of
 :
 :
@@ -543,9 +521,6 @@ usize
 &
 !
 (
-mem
-:
-:
 align_of
 :
 :
