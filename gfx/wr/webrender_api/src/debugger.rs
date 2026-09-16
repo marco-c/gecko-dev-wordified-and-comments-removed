@@ -182,6 +182,13 @@ UpdateFrameLog
 (
 FrameLogMessage
 )
+ShaderCompileErrors
+(
+Vec
+<
+ShaderDiagnostic
+>
+)
 }
 #
 [
