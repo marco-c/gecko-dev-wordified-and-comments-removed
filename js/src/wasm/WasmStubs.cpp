@@ -16185,6 +16185,17 @@ fastCallOffset
 slowCallOffset
 )
 ;
+masm
+.
+freeStackTo
+(
+masm
+.
+framePushed
+(
+)
+)
+;
 if
 (
 !
