@@ -402,14 +402,6 @@ set
 "
 test
 .
-wait300msAfterTabSwitch
-"
-true
-]
-[
-"
-test
-.
 events
 .
 async

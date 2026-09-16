@@ -121,14 +121,6 @@ set
 [
 [
 "
-test
-.
-wait300msAfterTabSwitch
-"
-true
-]
-[
-"
 dom
 .
 forms
@@ -226,7 +218,6 @@ focus
 true
 )
 ;
-await
 EventUtils
 .
 synthesizeMouseAtCenter

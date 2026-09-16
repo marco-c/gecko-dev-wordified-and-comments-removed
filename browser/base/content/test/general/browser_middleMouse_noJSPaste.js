@@ -27,14 +27,6 @@ await
 pushPrefs
 (
 [
-"
-test
-.
-wait300msAfterTabSwitch
-"
-true
-]
-[
 middleMousePastePref
 true
 ]

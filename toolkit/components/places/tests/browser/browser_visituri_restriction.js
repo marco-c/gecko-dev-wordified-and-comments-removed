@@ -158,14 +158,6 @@ set
 [
 [
 "
-test
-.
-wait300msAfterTabSwitch
-"
-true
-]
-[
-"
 places
 .
 history
