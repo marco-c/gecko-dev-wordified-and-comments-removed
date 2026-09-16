@@ -210,6 +210,16 @@ PCookieStore
 ipdl
 "
 ]
+TEST_DIRS
++
+=
+[
+"
+test
+/
+gtest
+"
+]
 include
 (
 "
