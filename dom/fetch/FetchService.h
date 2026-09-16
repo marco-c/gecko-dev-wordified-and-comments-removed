@@ -740,12 +740,6 @@ IsLocalHostFetch
 )
 const
 ;
-bool
-IsServiceWorkerEligible
-(
-)
-const
-;
 void
 OnResponseEnd
 (
