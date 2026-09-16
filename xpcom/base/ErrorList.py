@@ -1,9 +1,5 @@
 import
 json
-from
-collections
-import
-OrderedDict
 class
 Mod
 :
@@ -84,9 +80,8 @@ active
 None
 modules
 =
-OrderedDict
-(
-)
+{
+}
 modules
 [
 "
@@ -680,9 +675,8 @@ code
 )
 errors
 =
-OrderedDict
-(
-)
+{
+}
 errors
 [
 "
