@@ -11789,6 +11789,9 @@ VisRect
 max_rect
 (
 )
+culling_rect_projection_failed
+:
+false
 map_local_to_picture
 :
 map_local_to_picture
@@ -11922,6 +11925,9 @@ VisRect
 max_rect
 (
 )
+culling_rect_projection_failed
+:
+false
 map_local_to_picture
 raster_spatial_node_index
 :
@@ -12417,6 +12423,9 @@ VisRect
 max_rect
 (
 )
+culling_rect_projection_failed
+:
+false
 }
 SurfaceInfo
 {
@@ -12568,6 +12577,9 @@ VisRect
 max_rect
 (
 )
+culling_rect_projection_failed
+:
+false
 }
 ]
 ;
@@ -13060,6 +13072,9 @@ VisRect
 max_rect
 (
 )
+culling_rect_projection_failed
+:
+false
 }
 SurfaceInfo
 {
@@ -13211,6 +13226,9 @@ VisRect
 max_rect
 (
 )
+culling_rect_projection_failed
+:
+false
 }
 ]
 ;

@@ -651,6 +651,10 @@ culling_rect
 :
 VisRect
 pub
+culling_rect_projection_failed
+:
+bool
+pub
 map_local_to_picture
 :
 SpaceMapper
@@ -849,6 +853,12 @@ spatial_tree
 )
 ;
 let
+mut
+culling_rect_projection_failed
+=
+false
+;
+let
 culling_rect
 =
 match
@@ -871,6 +881,10 @@ None
 =
 >
 {
+culling_rect_projection_failed
+=
+true
+;
 debug_assert_ne
 !
 (
@@ -1042,6 +1056,7 @@ identity
 (
 )
 culling_rect
+culling_rect_projection_failed
 }
 }
 pub
