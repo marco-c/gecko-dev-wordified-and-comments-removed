@@ -198,6 +198,16 @@ UnmapPlanes
 )
 override
 ;
+void
+SetReadFenceFd
+(
+UniqueFileHandle
+&
+&
+aFenceFd
+)
+override
+;
 gfx
 :
 :

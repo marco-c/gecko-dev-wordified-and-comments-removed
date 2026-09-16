@@ -98,6 +98,9 @@ class
 RenderCompositorD3D11SWGL
 ;
 class
+RenderTextureHost
+;
+class
 RenderCompositor
 {
 public
@@ -1083,6 +1086,16 @@ IsPaused
 return
 false
 ;
+}
+virtual
+void
+MaybeWaitingForPendingReadFence
+(
+RenderTextureHost
+*
+aTexture
+)
+{
 }
 protected
 :
