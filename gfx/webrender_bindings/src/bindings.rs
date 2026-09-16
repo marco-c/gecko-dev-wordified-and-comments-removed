@@ -4552,7 +4552,7 @@ default
 Tracing
 :
 :
-from_str
+from_static_str
 (
 "
 Webrender
@@ -4676,7 +4676,7 @@ default
 Tracing
 :
 :
-from_str
+from_static_str
 (
 "
 Webrender
@@ -4767,7 +4767,7 @@ default
 Tracing
 :
 :
-from_str
+from_static_str
 (
 "
 Webrender
