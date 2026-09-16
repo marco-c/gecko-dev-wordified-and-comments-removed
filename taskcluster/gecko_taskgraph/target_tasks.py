@@ -3429,6 +3429,20 @@ shippable
 False
 )
         
+ccov
+=
+task
+.
+attributes
+.
+get
+(
+"
+ccov
+"
+False
+)
+        
 if
 not
 build_platform
@@ -3460,6 +3474,9 @@ android
 and
 not
 shippable
+and
+not
+ccov
         
 )
 or
