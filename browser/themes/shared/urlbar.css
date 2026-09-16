@@ -333,7 +333,7 @@ border
 -
 width
 -
-breakout
+open
 :
 calc
 (
@@ -391,7 +391,7 @@ border
 -
 width
 -
-breakout
+open
 )
 1px
 )
@@ -422,7 +422,7 @@ background
 -
 overhang
 -
-breakout
+open
 :
 8px
 ;
@@ -615,7 +615,7 @@ background
 -
 overhang
 -
-breakout
+open
 :
 0px
 ;
@@ -637,7 +637,7 @@ background
 -
 overhang
 -
-breakout
+open
 :
 0px
 ;
@@ -1248,7 +1248,7 @@ conventions
 *
 -
 "
-breakout
+open
 "
 -
 when
@@ -1264,7 +1264,7 @@ focused
 *
 -
 "
-breakout
+open
 -
 focused
 "
@@ -1359,7 +1359,7 @@ background
 -
 border
 -
-breakout
+open
 :
 var
 (
@@ -1402,7 +1402,7 @@ border
 -
 width
 -
-breakout
+open
 )
 solid
 var
@@ -1504,7 +1504,7 @@ top
 -
 radius
 -
-breakout
+open
 :
 calc
 (
@@ -1544,7 +1544,7 @@ background
 -
 overhang
 -
-breakout
+open
 )
 )
 ;
@@ -1558,7 +1558,7 @@ box
 -
 shadow
 -
-breakout
+open
 :
 0
 0
@@ -1585,7 +1585,7 @@ box
 -
 shadow
 -
-breakout
+open
 -
 compact
 :
@@ -1651,7 +1651,7 @@ container
 -
 outline
 -
-breakout
+open
 :
 var
 (
@@ -1667,7 +1667,7 @@ border
 -
 width
 -
-breakout
+open
 )
 solid
 var
@@ -1693,7 +1693,7 @@ container
 -
 outline
 -
-breakout
+open
 -
 focused
 :
@@ -1711,7 +1711,7 @@ border
 -
 width
 -
-breakout
+open
 )
 solid
 var
@@ -1741,7 +1741,7 @@ outline
 -
 offset
 -
-breakout
+open
 :
 calc
 (
@@ -1762,7 +1762,7 @@ border
 -
 width
 -
-breakout
+open
 )
 )
 ;
@@ -1776,7 +1776,7 @@ block
 -
 start
 -
-breakout
+open
 :
 calc
 (
@@ -1883,7 +1883,7 @@ background
 -
 border
 -
-breakout
+open
 :
 var
 (
@@ -1942,7 +1942,7 @@ box
 -
 shadow
 -
-breakout
+open
 :
 0
 2px
@@ -1968,7 +1968,7 @@ box
 -
 shadow
 -
-breakout
+open
 -
 compact
 :
@@ -1984,7 +1984,7 @@ box
 -
 shadow
 -
-breakout
+open
 )
 ;
 /
@@ -2113,7 +2113,7 @@ container
 -
 outline
 -
-breakout
+open
 :
 none
 ;
@@ -2127,7 +2127,7 @@ container
 -
 outline
 -
-breakout
+open
 -
 focused
 :
@@ -2145,7 +2145,7 @@ outline
 -
 offset
 -
-breakout
+open
 :
 0px
 ;
@@ -2159,7 +2159,7 @@ block
 -
 start
 -
-breakout
+open
 :
 0px
 ;
@@ -2884,7 +2884,7 @@ block
 -
 start
 -
-breakout
+open
 )
 ;
 }
@@ -2981,7 +2981,7 @@ background
 -
 overhang
 -
-breakout
+open
 )
 )
 100vh
@@ -3564,7 +3564,7 @@ background
 -
 border
 -
-breakout
+open
 )
 ;
 box
@@ -3583,7 +3583,7 @@ box
 -
 shadow
 -
-breakout
+open
 )
 ;
 inset
@@ -3603,7 +3603,7 @@ background
 -
 overhang
 -
-breakout
+open
 )
 )
 ;
@@ -3629,7 +3629,7 @@ top
 -
 radius
 -
-breakout
+open
 )
 ;
 border
@@ -3654,7 +3654,7 @@ top
 -
 radius
 -
-breakout
+open
 )
 ;
 }
@@ -3699,7 +3699,7 @@ box
 -
 shadow
 -
-breakout
+open
 -
 compact
 )
@@ -3937,7 +3937,7 @@ container
 -
 outline
 -
-breakout
+open
 )
 ;
 outline
@@ -3958,7 +3958,7 @@ outline
 -
 offset
 -
-breakout
+open
 )
 ;
 }
@@ -4004,7 +4004,7 @@ container
 -
 outline
 -
-breakout
+open
 -
 focused
 )
@@ -4175,7 +4175,7 @@ border
 -
 width
 -
-breakout
+open
 )
 ;
 outline
@@ -4201,7 +4201,7 @@ border
 -
 width
 -
-breakout
+open
 )
 )
 ;
@@ -5728,9 +5728,7 @@ preference
 )
 {
 [
-breakout
--
-extend
+popover
 -
 animate
 ]
@@ -8791,7 +8789,7 @@ fixed
 Override
 the
 usual
-breakout
+popover
 animation
 so
 the

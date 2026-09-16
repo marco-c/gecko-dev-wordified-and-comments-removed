@@ -21196,7 +21196,7 @@ urlbar
 {
 urlbar
 .
-incrementBreakoutBlockerCount
+incrementPopoverBlockerCount
 (
 )
 ;
@@ -21383,7 +21383,7 @@ urlbar
 {
 urlbar
 .
-decrementBreakoutBlockerCount
+decrementPopoverBlockerCount
 (
 )
 ;

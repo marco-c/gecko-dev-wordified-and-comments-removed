@@ -4288,7 +4288,7 @@ this
 .
 input
 .
-updateLayoutExtend
+updatePopover
 (
 )
 ;
@@ -9362,7 +9362,7 @@ this
 .
 input
 .
-updateLayoutExtend
+updatePopover
 (
 )
 ;
