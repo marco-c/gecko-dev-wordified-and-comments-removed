@@ -198,7 +198,7 @@ aContainerFeaturePolicyInfo
 )
 ;
 void
-SetDeclaredPolicy
+SetDeclaredAttributePolicy
 (
 mozilla
 :

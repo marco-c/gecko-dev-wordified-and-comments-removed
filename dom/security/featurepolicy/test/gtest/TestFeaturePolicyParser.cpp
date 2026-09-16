@@ -149,7 +149,7 @@ ASSERT_TRUE
 FeaturePolicyParser
 :
 :
-ParseString
+ParsePolicyFromAttribute
 (
 aInput
 nullptr
