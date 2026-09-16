@@ -1346,6 +1346,14 @@ set_pixel_format
 mut
 self
 )
+-
+>
+Result
+<
+(
+)
+Error
+>
 {
 debug_assert
 !
@@ -1678,6 +1686,7 @@ set_pixel_format
 (
 pixel_format
 )
+?
 ;
 self
 .
@@ -1685,6 +1694,11 @@ pixel_format_set
 =
 true
 ;
+Ok
+(
+(
+)
+)
 }
 pub
 fn
@@ -2183,6 +2197,7 @@ self
 set_pixel_format
 (
 )
+?
 ;
 debug_assert
 !
