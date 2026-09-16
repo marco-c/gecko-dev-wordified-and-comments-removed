@@ -168,14 +168,6 @@ webrtc
 {
 namespace
 {
-using
-:
-:
-testing
-:
-:
-InvokeWithoutArgs
-;
 constexpr
 int
 kWidth
@@ -2501,8 +2493,6 @@ AdaptUp
 .
 WillOnce
 (
-InvokeWithoutArgs
-(
 [
 this
 &
@@ -2523,7 +2513,6 @@ Set
 )
 ;
 }
-)
 )
 ;
 queue
@@ -5143,8 +5132,6 @@ AdaptUp
 .
 WillOnce
 (
-InvokeWithoutArgs
-(
 [
 this
 &
@@ -5165,7 +5152,6 @@ Set
 )
 ;
 }
-)
 )
 ;
 queue
