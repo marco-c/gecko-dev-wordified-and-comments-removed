@@ -9,7 +9,7 @@ include
 "
 js
 /
-WasmFeatures
+TypeDecls
 .
 h
 "
@@ -18,7 +18,7 @@ include
 "
 js
 /
-TypeDecls
+WasmFeatures
 .
 h
 "
@@ -171,7 +171,7 @@ cx
 if
 defined
 (
-ENABLE_WASM_SIMD
+ENABLE_JIT_SIMD
 )
 &
 &

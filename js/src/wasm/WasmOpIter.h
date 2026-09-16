@@ -409,7 +409,7 @@ F64
 :
 #
 ifdef
-ENABLE_WASM_SIMD
+ENABLE_JIT_SIMD
 case
 ValType
 :
@@ -600,7 +600,7 @@ BrOnCast
 RefConversion
 #
 ifdef
-ENABLE_WASM_SIMD
+ENABLE_JIT_SIMD
 ExtractLane
 ReplaceLane
 LoadLane
@@ -4666,7 +4666,7 @@ operandValue
 ;
 #
 ifdef
-ENABLE_WASM_SIMD
+ENABLE_JIT_SIMD
 [
 [
 nodiscard
@@ -23747,7 +23747,7 @@ true
 }
 #
 ifdef
-ENABLE_WASM_SIMD
+ENABLE_JIT_SIMD
 template
 <
 typename

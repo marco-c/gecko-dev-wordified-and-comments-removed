@@ -36,7 +36,7 @@ wasm
 ;
 #
 ifdef
-ENABLE_WASM_SIMD
+ENABLE_JIT_SIMD
 #
 define
 WASM_SIMD_OP

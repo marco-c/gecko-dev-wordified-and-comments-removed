@@ -58,7 +58,7 @@ MemF32
 MemF64
 #
 ifdef
-ENABLE_WASM_SIMD
+ENABLE_JIT_SIMD
 MemV128
 #
 endif
@@ -69,7 +69,7 @@ LocalF32
 LocalF64
 #
 ifdef
-ENABLE_WASM_SIMD
+ENABLE_JIT_SIMD
 LocalV128
 #
 endif
@@ -80,7 +80,7 @@ RegisterF32
 RegisterF64
 #
 ifdef
-ENABLE_WASM_SIMD
+ENABLE_JIT_SIMD
 RegisterV128
 #
 endif
@@ -91,7 +91,7 @@ ConstF32
 ConstF64
 #
 ifdef
-ENABLE_WASM_SIMD
+ENABLE_JIT_SIMD
 ConstV128
 #
 endif
@@ -149,7 +149,7 @@ f64reg_
 ;
 #
 ifdef
-ENABLE_WASM_SIMD
+ENABLE_JIT_SIMD
 RegV128
 v128reg_
 ;
@@ -172,7 +172,7 @@ f64val_
 ;
 #
 ifdef
-ENABLE_WASM_SIMD
+ENABLE_JIT_SIMD
 V128
 v128val_
 ;
@@ -273,7 +273,7 @@ r
 }
 #
 ifdef
-ENABLE_WASM_SIMD
+ENABLE_JIT_SIMD
 explicit
 Stk
 (
@@ -383,7 +383,7 @@ v
 }
 #
 ifdef
-ENABLE_WASM_SIMD
+ENABLE_JIT_SIMD
 explicit
 Stk
 (
@@ -522,7 +522,7 @@ V128
 :
 #
 ifdef
-ENABLE_WASM_SIMD
+ENABLE_JIT_SIMD
 k
 =
 Stk
@@ -765,7 +765,7 @@ f64reg_
 }
 #
 ifdef
-ENABLE_WASM_SIMD
+ENABLE_JIT_SIMD
 RegV128
 v128reg
 (
@@ -888,7 +888,7 @@ f64val_
 }
 #
 ifdef
-ENABLE_WASM_SIMD
+ENABLE_JIT_SIMD
 void
 v128val
 (
@@ -1030,7 +1030,7 @@ break
 ;
 #
 ifdef
-ENABLE_WASM_SIMD
+ENABLE_JIT_SIMD
 case
 MemV128
 :
@@ -1125,7 +1125,7 @@ break
 ;
 #
 ifdef
-ENABLE_WASM_SIMD
+ENABLE_JIT_SIMD
 case
 LocalV128
 :
@@ -1220,7 +1220,7 @@ break
 ;
 #
 ifdef
-ENABLE_WASM_SIMD
+ENABLE_JIT_SIMD
 case
 RegisterV128
 :
@@ -1321,7 +1321,7 @@ break
 ;
 #
 ifdef
-ENABLE_WASM_SIMD
+ENABLE_JIT_SIMD
 case
 ConstV128
 :

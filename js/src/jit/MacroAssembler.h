@@ -1053,7 +1053,7 @@ reg
 endif
 #
 ifdef
-ENABLE_WASM_SIMD
+ENABLE_JIT_SIMD
 static
 bool
 MustMaskShiftCountSimd128

@@ -69,7 +69,7 @@ Some
 ;
 #
 ifdef
-ENABLE_WASM_SIMD
+ENABLE_JIT_SIMD
 static
 bool
 ByteMaskToWordMask
