@@ -197,6 +197,13 @@ td
 ]
 )
 ;
+const
+EXPAND_BUTTON_LABEL
+=
+"
+Expand
+"
+;
 class
 CustomFormatter
 extends
@@ -1036,6 +1043,13 @@ expanded
 props
 .
 open
+"
+aria
+-
+label
+"
+:
+EXPAND_BUTTON_LABEL
 className
 :
 collapse
