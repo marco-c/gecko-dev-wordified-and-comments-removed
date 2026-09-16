@@ -187,6 +187,13 @@ js
 ]
 [
 "
+browser_miscCustomProps
+.
+js
+"
+]
+[
+"
 browser_notificationEvent
 .
 js

@@ -74,6 +74,11 @@ mAccessibleActions
 =
 0
 ;
+PROPERTYID
+mIsWebContentRoot
+=
+0
+;
 }
 ;
 class
@@ -647,8 +652,6 @@ const
 template
 <
 class
-Derived
-class
 Interface
 >
 RefPtr
@@ -703,6 +706,12 @@ const
 ;
 long
 GetLiveSetting
+(
+)
+const
+;
+bool
+IsWebContentRoot
 (
 )
 const
