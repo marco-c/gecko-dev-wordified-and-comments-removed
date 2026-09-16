@@ -483,6 +483,13 @@ js
 ]
 [
 "
+browser_ml_perf_test_utils
+.
+js
+"
+]
+[
+"
 browser_ml_pipeline
 .
 js

@@ -58,6 +58,13 @@ TESTING_JS_MODULES
 =
 [
 "
+MLPerfTestUtils
+.
+sys
+.
+mjs
+"
+"
 MLTestUtils
 .
 sys
