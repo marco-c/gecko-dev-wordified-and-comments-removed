@@ -2910,6 +2910,8 @@ ool
 trapSiteDesc
 (
 )
+nullptr
+nullptr
 )
 ;
 }
@@ -2971,6 +2973,8 @@ ool
 trapSiteDesc
 (
 )
+nullptr
+nullptr
 )
 ;
 }
