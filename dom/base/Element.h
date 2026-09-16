@@ -167,6 +167,15 @@ include
 "
 mozilla
 /
+ScrollState
+.
+h
+"
+#
+include
+"
+mozilla
+/
 UniquePtr
 .
 h
