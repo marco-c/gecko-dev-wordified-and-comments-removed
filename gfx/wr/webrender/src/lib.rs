@@ -610,6 +610,7 @@ device
 :
 {
 Device
+DeviceOptions
 GraphicsApi
 GraphicsApiInfo
 }
