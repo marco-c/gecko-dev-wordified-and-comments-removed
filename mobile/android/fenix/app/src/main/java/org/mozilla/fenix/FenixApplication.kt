@@ -7995,6 +7995,14 @@ dark
 "
 settings
 .
+shouldUseOledTheme
+-
+>
+"
+oled
+"
+settings
+.
 shouldFollowDeviceTheme
 -
 >
