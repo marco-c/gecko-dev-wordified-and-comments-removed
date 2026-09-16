@@ -2132,8 +2132,10 @@ of
 the
 Day
 Crossword
-and
 Privacy
+and
+Recent
+Searches
 use
 this
 today
@@ -2855,6 +2857,11 @@ widgetsSettingsEnabledKey
 :
 "
 recentSearchesEnabled
+"
+trainhopNamespace
+:
+"
+widgetRecentSearches
 "
 /
 /
