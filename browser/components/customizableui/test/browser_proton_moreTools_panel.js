@@ -56,7 +56,13 @@ testDevToolsPanelInToolbar
 {
 DevToolsStartup
 .
-developerToggleCreated
+developerToggle
+=
+null
+;
+DevToolsStartup
+.
+developerToggleRegistered
 =
 false
 ;
@@ -78,6 +84,12 @@ await
 BrowserTestUtils
 .
 openNewBrowserWindow
+(
+)
+;
+DevToolsStartup
+.
+hookDeveloperToggle
 (
 )
 ;
