@@ -38,6 +38,13 @@ js
 ]
 [
 "
+browser_overflow
+.
+js
+"
+]
+[
+"
 browser_removedSelectedElement
 .
 js
