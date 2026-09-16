@@ -189,6 +189,14 @@ linux64
 clang
 -
 toolchain
+-
+sysroot
+-
+x86_64
+-
+linux
+-
+gnu
 #
 onnxruntime
 -
