@@ -22,14 +22,6 @@ t
 )
 ;
 await
-SiteCategory
-.
-register
-(
-t
-)
-;
-await
 SpecialPowers
 .
 pushPrefEnv
