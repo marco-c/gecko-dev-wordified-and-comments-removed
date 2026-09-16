@@ -8,6 +8,13 @@ h
 #
 include
 <
+gbm
+.
+h
+>
+#
+include
+<
 unistd
 .
 h
@@ -256,7 +263,7 @@ DMABufSurface
 :
 :
 SURFACE_RGBA
-0
+GBM_FORMAT_ARGB8888
 modifiers
 0
 fds
