@@ -456,6 +456,15 @@ define
 cpuflags_mmxext
 cpuflags_mmx2
 %
+if
+HAVE_X86_SSE2AVX
+%
+define
+FORCE_VEX_ENCODING
+1
+%
+endif
+%
 include
 "
 libavutil

@@ -122,13 +122,6 @@ h
 #
 include
 "
-jni
-.
-h
-"
-#
-include
-"
 mediacodec
 .
 h
@@ -4766,6 +4759,11 @@ s
 use_ndk_codec
 )
 ;
+if
+(
+format
+)
+{
 ff_AMediaFormat_setInt32
 (
 format
@@ -4788,6 +4786,7 @@ ff_AMediaFormat_delete
 format
 )
 ;
+}
 }
 }
 else

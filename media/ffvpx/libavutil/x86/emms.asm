@@ -426,7 +426,7 @@ text
 -
 ;
 void
-avpriv_emms_asm
+ff_emms_asm
 (
 void
 )
@@ -508,7 +508,7 @@ void
 -
 -
 -
-cvisible
+cglobal
 emms_asm
 0
 0
