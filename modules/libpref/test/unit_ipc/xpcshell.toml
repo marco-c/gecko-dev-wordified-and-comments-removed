@@ -42,6 +42,13 @@ js
 ]
 [
 "
+test_sanitized_type_flip
+.
+js
+"
+]
+[
+"
 test_sharedMap
 .
 js
