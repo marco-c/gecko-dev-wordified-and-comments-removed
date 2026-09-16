@@ -113,6 +113,17 @@ RPMSetDefaultPDFHandler
 ]
 )
 ;
+this
+.
+sendAsyncMessage
+(
+"
+AboutPDF
+:
+ObserveNotificationPref
+"
+)
+;
 }
 RPMCanSetDefaultPDFHandler
 (
