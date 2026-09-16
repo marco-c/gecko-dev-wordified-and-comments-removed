@@ -1586,6 +1586,7 @@ aIsPrivate
 aDownloadClassification
 aReferrerInfo
 aOpenDownloadsListOnStart
+aFilesFolder
 )
 {
 return
@@ -1605,6 +1606,7 @@ aIsPrivate
 aDownloadClassification
 aReferrerInfo
 aOpenDownloadsListOnStart
+aFilesFolder
 )
 ;
 }
@@ -1691,6 +1693,7 @@ aIsPrivate
 aDownloadClassification
 aReferrerInfo
 aOpenDownloadsListOnStart
+null
 userContextId
 browsingContextId
 aHandleInternally
@@ -1712,8 +1715,7 @@ isPrivate
 aDownloadClassification
 referrerInfo
 openDownloadsListOnStart
-=
-true
+filesFolder
 userContextId
 =
 0
@@ -1953,6 +1955,14 @@ aTempFile
 &
 &
 aTempFile
+.
+path
+filesFolderPath
+:
+filesFolder
+&
+&
+filesFolder
 .
 path
 }
