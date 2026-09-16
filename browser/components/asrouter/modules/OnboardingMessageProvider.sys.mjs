@@ -11031,6 +11031,11 @@ template
 "
 action_only
 "
+profileScope
+:
+"
+single
+"
 skip_in_tests
 :
 "
@@ -11114,6 +11119,9 @@ lifetime
 :
 1
 }
+priority
+:
+5
 }
 {
 /
@@ -11208,6 +11216,11 @@ template
 :
 "
 action_only
+"
+profileScope
+:
+"
+single
 "
 skip_in_tests
 :
@@ -11305,6 +11318,9 @@ lifetime
 :
 1
 }
+priority
+:
+5
 }
 {
 id
