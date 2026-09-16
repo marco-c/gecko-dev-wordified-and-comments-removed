@@ -938,11 +938,7 @@ actions
 upload
 -
 artifact
-v4
-.
-1
-.
-0
+v7
 with
 :
 name
@@ -1059,11 +1055,7 @@ actions
 upload
 -
 artifact
-v4
-.
-1
-.
-0
+v7
 with
 :
 name
@@ -1310,7 +1302,7 @@ upload
 artifact
 /
 merge
-v4
+v7
 with
 :
 name
