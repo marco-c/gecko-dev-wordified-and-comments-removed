@@ -2313,7 +2313,7 @@ Despite
 not
 actually
 being
-interuptible
+interruptible
 when
 laying
 out

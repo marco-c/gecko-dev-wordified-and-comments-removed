@@ -4106,9 +4106,11 @@ snapshot
 was
 made
 )
-_except
+*
+except
 sanitized
-prefs__
+prefs
+*
 and
 stores
 them

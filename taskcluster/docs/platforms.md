@@ -80,7 +80,7 @@ g
 TODO
 :
 %
-*
+-
 Leverage
 verify_docs
 -
@@ -104,7 +104,7 @@ id
 1636400
 >
 %
-*
+-
 Add
 a
 new

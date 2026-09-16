@@ -532,7 +532,7 @@ klarX86Debug
 *
 *
 '
-2
+5
 .
 Click
 on
@@ -559,7 +559,7 @@ Tests
 *
 *
 '
-3
+6
 .
 navigate
 the
@@ -607,7 +607,7 @@ focus
 activity
 *
 *
-4
+7
 .
 To
 run
@@ -640,7 +640,7 @@ the
 specific
 test
 .
-5
+8
 .
 select
 your

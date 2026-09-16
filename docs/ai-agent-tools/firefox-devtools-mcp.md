@@ -145,6 +145,7 @@ for
 Firefox
 development
 :
+<
 https
 :
 /
@@ -160,6 +161,7 @@ firefox
 devtools
 -
 mcp
+>
 #
 #
 #
