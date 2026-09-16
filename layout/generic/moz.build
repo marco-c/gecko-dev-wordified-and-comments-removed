@@ -970,6 +970,11 @@ LayoutMessageUtils
 h
 "
 "
+MozPrintCallbackRunner
+.
+h
+"
+"
 nsVideoFrame
 .
 h
@@ -1110,6 +1115,11 @@ cpp
 "
 "
 MiddleCroppingBlockFrame
+.
+cpp
+"
+"
+MozPrintCallbackRunner
 .
 cpp
 "
