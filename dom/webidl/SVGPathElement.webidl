@@ -140,6 +140,7 @@ type
 required
 sequence
 <
+unrestricted
 float
 >
 values

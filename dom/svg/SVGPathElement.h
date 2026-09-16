@@ -96,6 +96,12 @@ gfx
 :
 Path
 ;
+using
+Element
+:
+:
+UnsetAttr
+;
 protected
 :
 friend
@@ -170,11 +176,8 @@ override
 public
 :
 NS_DECL_ADDSIZEOFEXCLUDINGTHIS
-NS_IMETHOD_
-(
 bool
-)
-IsAttributeMapped
+IsNoNamespaceAttrMapped
 (
 const
 nsAtom
