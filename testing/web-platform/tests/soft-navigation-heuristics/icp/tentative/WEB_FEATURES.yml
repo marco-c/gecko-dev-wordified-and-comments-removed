@@ -1,0 +1,15 @@
+rules
+:
+-
+"
+*
+*
+"
+:
+[
+interaction
+-
+contentful
+-
+paint
+]
