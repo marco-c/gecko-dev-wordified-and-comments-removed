@@ -741,13 +741,11 @@ popoverOpen
 is
 whether
 the
-element
-itself
+view
 is
 in
 the
 top
-*
 layer
 .
 *
@@ -829,6 +827,8 @@ checkVisibility
 popoverOpen
 :
 bar
+.
+panel
 .
 matches
 (
