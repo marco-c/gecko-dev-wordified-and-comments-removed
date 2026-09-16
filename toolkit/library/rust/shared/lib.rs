@@ -142,6 +142,10 @@ dom_fragmentdirectives
 ;
 extern
 crate
+dom_push
+;
+extern
+crate
 dom_speculationrules
 ;
 extern
