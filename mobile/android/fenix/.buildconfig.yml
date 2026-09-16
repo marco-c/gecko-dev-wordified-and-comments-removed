@@ -115,6 +115,12 @@ cfr
 -
 components
 :
+compose
+-
+menu
+-
+components
+:
 concept
 -
 accelerometer
@@ -332,6 +338,12 @@ components
 feature
 -
 ipprotection
+-
+components
+:
+feature
+-
+listentopage
 -
 components
 :
