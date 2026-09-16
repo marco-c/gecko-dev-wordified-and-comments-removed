@@ -121,6 +121,13 @@ html
 ]
 [
 "
+test_content_label_no_center_cropping
+.
+html
+"
+]
+[
+"
 test_datalist_element
 .
 html
