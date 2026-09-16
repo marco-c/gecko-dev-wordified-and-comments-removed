@@ -6340,7 +6340,7 @@ bool
 nsGenericHTMLElement
 :
 :
-IsAttributeMapped
+IsNoNamespaceAttrMapped
 (
 const
 nsAtom
@@ -7513,7 +7513,7 @@ GetAtomValue
 (
 )
 ;
-nsAtomCString
+nsAutoAtomCString
 langStr
 (
 lang
@@ -7595,7 +7595,7 @@ canonical
 }
 aBuilder
 .
-SetIdentAtomValueIfUnset
+SetIdentAtomValue
 (
 eCSSProperty__x_lang
 lang
@@ -7698,6 +7698,11 @@ aBuilder
 )
 {
 MapLangAttributeInto
+(
+aBuilder
+)
+;
+MapXmlLangAttrInto
 (
 aBuilder
 )
