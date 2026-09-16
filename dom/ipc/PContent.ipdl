@@ -211,7 +211,7 @@ ifndef
 ANDROID
 include
 protocol
-PHWInferenceManager
+PSpeechRecognition
 ;
 #
 endif
@@ -6976,11 +6976,16 @@ fd
 ifndef
 ANDROID
 async
-RequestHWInferenceConnection
+AcquireHWInferenceProcess
+(
+)
+;
+async
+CreateSpeechRecognition
 (
 Endpoint
 <
-PHWInferenceManagerParent
+PSpeechRecognitionParent
 >
 endpoint
 )
@@ -6990,7 +6995,7 @@ endpoint
 One
 call
 per
-RequestHWInferenceConnection
+AcquireHWInferenceProcess
 .
 The
 process

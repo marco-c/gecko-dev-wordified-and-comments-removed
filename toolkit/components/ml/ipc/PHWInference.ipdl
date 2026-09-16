@@ -1,6 +1,6 @@
 include
 protocol
-PHWInferenceManager
+PSpeechRecognition
 ;
 using
 mozilla
@@ -127,11 +127,11 @@ result
 child
 :
 async
-NewContentHWInferenceManager
+NewContentSpeechRecognition
 (
 Endpoint
 <
-PHWInferenceManagerParent
+PSpeechRecognitionParent
 >
 endpoint
 ContentParentId

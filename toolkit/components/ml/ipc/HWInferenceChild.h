@@ -100,14 +100,14 @@ ipc
 :
 :
 IPCResult
-RecvNewContentHWInferenceManager
+RecvNewContentSpeechRecognition
 (
 Endpoint
 <
 hwinference
 :
 :
-PHWInferenceManagerParent
+PSpeechRecognitionParent
 >
 &
 &
