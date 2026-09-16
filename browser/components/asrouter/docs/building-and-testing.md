@@ -972,8 +972,6 @@ mochitests
 /
 testing
 /
-docs
-/
 browser
 -
 chrome
