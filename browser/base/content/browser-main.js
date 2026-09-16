@@ -423,7 +423,7 @@ tabbrowser
 /
 tabgroup
 .
-js
+mjs
 "
 this
 )
@@ -523,7 +523,7 @@ tabbrowser
 /
 tabsplitview
 .
-js
+mjs
 "
 this
 )
