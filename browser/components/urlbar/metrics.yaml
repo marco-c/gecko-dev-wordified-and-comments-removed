@@ -153,7 +153,7 @@ abandonment_type
 :
 description
 :
->
+|
 Records
 how
 the
@@ -233,7 +233,7 @@ sap
 :
 description
 :
->
+|
 sap
 is
 the
@@ -274,7 +274,7 @@ location
 :
 description
 :
->
+|
 Which
 input
 was
@@ -292,7 +292,7 @@ window_mode
 :
 description
 :
->
+|
 The
 window
 mode
@@ -309,7 +309,7 @@ interaction
 :
 description
 :
->
+|
 How
 the
 user
@@ -468,7 +468,7 @@ search_mode
 :
 description
 :
->
+|
 If
 the
 urlbar
@@ -549,7 +549,7 @@ search_engine_default_id
 :
 description
 :
->
+|
 The
 telemetry
 id
@@ -574,7 +574,7 @@ n_chars
 :
 description
 :
->
+|
 The
 length
 of
@@ -595,7 +595,7 @@ n_words
 :
 description
 :
->
+|
 The
 length
 of
@@ -644,7 +644,7 @@ n_results
 :
 description
 :
->
+|
 The
 number
 of
@@ -697,7 +697,7 @@ groups
 :
 description
 :
->
+|
 Comma
 separated
 list
@@ -795,7 +795,7 @@ results
 :
 description
 :
->
+|
 Comma
 separated
 list
@@ -905,7 +905,7 @@ actions
 :
 description
 :
->
+|
 Comma
 separated
 list
@@ -967,7 +967,7 @@ available_semantic_sources
 :
 description
 :
->
+|
 Comma
 separated
 list
@@ -1010,7 +1010,7 @@ chat_id
 chat_id
 description
 :
->
+|
 UUID
 for
 this
@@ -1041,7 +1041,7 @@ intent
 intent
 description
 :
->
+|
 What
 was
 the
@@ -1074,7 +1074,7 @@ model
 model
 description
 :
->
+|
 Model
 selected
 by
@@ -1407,7 +1407,7 @@ sap
 :
 description
 :
->
+|
 sap
 is
 the
@@ -1448,7 +1448,7 @@ location
 :
 description
 :
->
+|
 Which
 input
 was
@@ -1466,7 +1466,7 @@ window_mode
 :
 description
 :
->
+|
 The
 window
 mode
@@ -1483,7 +1483,7 @@ interaction
 :
 description
 :
->
+|
 How
 the
 user
@@ -1642,7 +1642,7 @@ search_mode
 :
 description
 :
->
+|
 If
 the
 urlbar
@@ -1723,7 +1723,7 @@ search_engine_default_id
 :
 description
 :
->
+|
 The
 telemetry
 id
@@ -1748,7 +1748,7 @@ n_chars
 :
 description
 :
->
+|
 The
 length
 of
@@ -1769,7 +1769,7 @@ n_words
 :
 description
 :
->
+|
 The
 length
 of
@@ -1818,7 +1818,7 @@ n_results
 :
 description
 :
->
+|
 The
 number
 of
@@ -1871,7 +1871,7 @@ selected_result
 :
 description
 :
->
+|
 The
 type
 of
@@ -1903,7 +1903,7 @@ selected_position
 :
 description
 :
->
+|
 The
 1
 -
@@ -1933,7 +1933,7 @@ provider
 :
 description
 :
->
+|
 The
 name
 of
@@ -2040,7 +2040,7 @@ engagement_type
 :
 description
 :
->
+|
 Records
 how
 the
@@ -2072,7 +2072,7 @@ results
 :
 description
 :
->
+|
 Comma
 separated
 list
@@ -2122,7 +2122,7 @@ view_time
 :
 description
 :
->
+|
 The
 number
 of
@@ -2141,7 +2141,7 @@ threshold
 :
 description
 :
->
+|
 The
 view
 time
@@ -2304,7 +2304,7 @@ type
 event
 description
 :
->
+|
 Recorded
 after
 a
@@ -2348,7 +2348,7 @@ sap
 :
 description
 :
->
+|
 sap
 is
 the
@@ -2389,7 +2389,7 @@ location
 :
 description
 :
->
+|
 Which
 input
 was
@@ -2407,7 +2407,7 @@ window_mode
 :
 description
 :
->
+|
 The
 window
 mode
@@ -2424,7 +2424,7 @@ interaction
 :
 description
 :
->
+|
 How
 the
 user
@@ -2583,7 +2583,7 @@ search_mode
 :
 description
 :
->
+|
 If
 the
 urlbar
@@ -2664,7 +2664,7 @@ search_engine_default_id
 :
 description
 :
->
+|
 The
 telemetry
 id
@@ -2689,7 +2689,7 @@ n_chars
 :
 description
 :
->
+|
 The
 length
 of
@@ -2710,7 +2710,7 @@ n_words
 :
 description
 :
->
+|
 The
 length
 of
@@ -2759,7 +2759,7 @@ n_results
 :
 description
 :
->
+|
 The
 number
 of
@@ -2812,7 +2812,7 @@ selected_result
 :
 description
 :
->
+|
 The
 type
 of
@@ -2863,7 +2863,7 @@ results
 :
 description
 :
->
+|
 Comma
 separated
 list
@@ -2913,7 +2913,7 @@ feature
 :
 description
 :
->
+|
 The
 specific
 feature
@@ -3106,7 +3106,7 @@ sap
 :
 description
 :
->
+|
 sap
 is
 the
@@ -3147,7 +3147,7 @@ location
 :
 description
 :
->
+|
 Which
 input
 was
@@ -3165,7 +3165,7 @@ window_mode
 :
 description
 :
->
+|
 The
 window
 mode
@@ -3182,7 +3182,7 @@ interaction
 :
 description
 :
->
+|
 How
 the
 user
@@ -3341,7 +3341,7 @@ search_mode
 :
 description
 :
->
+|
 If
 the
 urlbar
@@ -3422,7 +3422,7 @@ search_engine_default_id
 :
 description
 :
->
+|
 The
 telemetry
 id
@@ -3447,7 +3447,7 @@ n_chars
 :
 description
 :
->
+|
 The
 length
 of
@@ -3468,7 +3468,7 @@ n_words
 :
 description
 :
->
+|
 The
 length
 of
@@ -3517,7 +3517,7 @@ n_results
 :
 description
 :
->
+|
 The
 number
 of
@@ -3570,7 +3570,7 @@ selected_result
 :
 description
 :
->
+|
 The
 type
 of
@@ -3716,7 +3716,7 @@ selected_position
 :
 description
 :
->
+|
 The
 1
 -
@@ -3746,7 +3746,7 @@ provider
 :
 description
 :
->
+|
 The
 name
 of
@@ -3853,7 +3853,7 @@ engagement_type
 :
 description
 :
->
+|
 Records
 how
 the
@@ -3890,7 +3890,7 @@ modifiers
 :
 description
 :
->
+|
 Comma
 separated
 list
@@ -3998,7 +3998,7 @@ groups
 :
 description
 :
->
+|
 Comma
 separated
 list
@@ -4114,7 +4114,7 @@ results
 :
 description
 :
->
+|
 Comma
 separated
 list
@@ -4224,7 +4224,7 @@ actions
 :
 description
 :
->
+|
 Comma
 separated
 list
@@ -4286,7 +4286,7 @@ available_semantic_sources
 :
 description
 :
->
+|
 Comma
 separated
 list
@@ -4658,7 +4658,7 @@ type
 rate
 description
 :
->
+|
 A
 uint
 recording
@@ -4740,7 +4740,7 @@ type
 event
 description
 :
->
+|
 Recorded
 when
 client
@@ -4757,7 +4757,7 @@ results
 :
 description
 :
->
+|
 Comma
 separated
 list
@@ -4777,7 +4777,7 @@ terminal
 :
 description
 :
->
+|
 Comma
 separated
 list
@@ -4887,7 +4887,7 @@ type
 string
 description
 :
->
+|
 The
 search
 access
@@ -4998,7 +4998,7 @@ type
 event
 description
 :
->
+|
 When
 keyword
 exposures
@@ -5074,7 +5074,7 @@ type
 string
 description
 :
->
+|
 The
 type
 of
@@ -5090,7 +5090,7 @@ type
 string
 description
 :
->
+|
 The
 keyword
 that
@@ -5105,7 +5105,7 @@ type
 boolean
 description
 :
->
+|
 Whether
 the
 matched
@@ -5160,7 +5160,7 @@ type
 string
 description
 :
->
+|
 The
 search
 access
@@ -5301,7 +5301,7 @@ unit
 integer
 description
 :
->
+|
 Maximum
 results
 to
@@ -5416,7 +5416,7 @@ type
 boolean
 description
 :
->
+|
 Whether
 Suggest
 results
@@ -5535,7 +5535,7 @@ type
 boolean
 description
 :
->
+|
 Whether
 online
 Suggest
@@ -5683,7 +5683,7 @@ type
 boolean
 description
 :
->
+|
 This
 pref
 is
@@ -5851,7 +5851,7 @@ type
 boolean
 description
 :
->
+|
 Whether
 sponsored
 quick
@@ -5990,7 +5990,7 @@ type
 boolean
 description
 :
->
+|
 Whether
 topsite
 results
@@ -6104,7 +6104,7 @@ type
 counter
 description
 :
->
+|
 A
 uint
 recording
@@ -6202,7 +6202,7 @@ type
 timing_distribution
 description
 :
->
+|
 PLACES
 :
 Time
@@ -6302,7 +6302,7 @@ type
 timing_distribution
 description
 :
->
+|
 PLACES
 :
 Time
@@ -6418,7 +6418,7 @@ type
 string
 description
 :
->
+|
 The
 ping
 '
@@ -6529,7 +6529,7 @@ type
 string
 description
 :
->
+|
 Records
 the
 home
@@ -6643,7 +6643,7 @@ QuickSuggest
 position
 description
 :
->
+|
 The
 position
 (
@@ -6726,7 +6726,7 @@ type
 string
 description
 :
->
+|
 A
 stringified
 integer
@@ -6875,7 +6875,7 @@ type
 boolean
 description
 :
->
+|
 Whether
 suggested_index
 is
@@ -6967,7 +6967,7 @@ type
 string
 description
 :
->
+|
 The
 source
 of
@@ -7049,7 +7049,7 @@ type
 string
 description
 :
->
+|
 Whether
 this
 was
@@ -7141,7 +7141,7 @@ type
 string
 description
 :
->
+|
 A
 unique
 identifier
@@ -7227,7 +7227,7 @@ type
 boolean
 description
 :
->
+|
 Whether
 online
 Suggest
@@ -7342,7 +7342,7 @@ type
 string
 description
 :
->
+|
 The
 name
 of
@@ -7422,7 +7422,7 @@ type
 string
 description
 :
->
+|
 A
 request
 identifier
@@ -7528,7 +7528,7 @@ type
 boolean
 description
 :
->
+|
 Whether
 this
 quicksuggest
@@ -7610,7 +7610,7 @@ type
 url
 description
 :
->
+|
 The
 url
 to
@@ -7689,7 +7689,7 @@ type
 uuid
 description
 :
->
+|
 An
 identifier
 to
@@ -7849,7 +7849,7 @@ type
 string
 description
 :
->
+|
 The
 suggestion
 '
@@ -7938,7 +7938,7 @@ type
 string
 description
 :
->
+|
 The
 suggestion
 ID
@@ -8423,7 +8423,7 @@ type
 labeled_counter
 description
 :
->
+|
 Count
 the
 successful
@@ -8511,7 +8511,7 @@ type
 labeled_counter
 description
 :
->
+|
 For
 each
 successful
@@ -8644,7 +8644,7 @@ type
 counter
 description
 :
->
+|
 User
 has
 blocked
@@ -8721,7 +8721,7 @@ type
 counter
 description
 :
->
+|
 The
 count
 of
@@ -8845,7 +8845,7 @@ type
 counter
 description
 :
->
+|
 The
 count
 of
@@ -8972,7 +8972,7 @@ type
 labeled_counter
 description
 :
->
+|
 Counts
 how
 many
@@ -9107,7 +9107,7 @@ type
 labeled_counter
 description
 :
->
+|
 Counts
 how
 many
@@ -9245,7 +9245,7 @@ type
 labeled_counter
 description
 :
->
+|
 Counts
 how
 many
@@ -9387,7 +9387,7 @@ type
 labeled_counter
 description
 :
->
+|
 Counts
 how
 many
@@ -9492,7 +9492,7 @@ type
 counter
 description
 :
->
+|
 Counts
 how
 many
@@ -9569,7 +9569,7 @@ type
 labeled_counter
 description
 :
->
+|
 Counts
 how
 many
@@ -9685,7 +9685,7 @@ type
 rate
 description
 :
->
+|
 A
 rate
 recording
@@ -9891,7 +9891,7 @@ type
 labeled_counter
 description
 :
->
+|
 Counts
 how
 many
@@ -9991,7 +9991,7 @@ type
 labeled_counter
 description
 :
->
+|
 Counts
 how
 many
@@ -10108,7 +10108,7 @@ type
 labeled_timing_distribution
 description
 :
->
+|
 Time
 elapsed
 between
@@ -10266,7 +10266,7 @@ type
 labeled_timing_distribution
 description
 :
->
+|
 Duration
 from
 when
