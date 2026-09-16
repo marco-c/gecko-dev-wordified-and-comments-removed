@@ -82,6 +82,13 @@ browser
 /
 components
 /
+sessionstore
+/
+-
+browser
+/
+components
+/
 tabbrowser
 /
 -
