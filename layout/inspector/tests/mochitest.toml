@@ -504,6 +504,13 @@ html
 ]
 [
 "
+test_selectormatcheselement_part
+.
+html
+"
+]
+[
+"
 test_selectormatcheselement_scope
 .
 html
