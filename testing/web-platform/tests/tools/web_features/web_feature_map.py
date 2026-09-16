@@ -1,10 +1,6 @@
 import
 itertools
 from
-collections
-import
-OrderedDict
-from
 os
 .
 path
@@ -91,10 +87,10 @@ Initializes
 the
 WebFeaturesMap
 with
-an
-OrderedDict
-to
-maintain
+a
+dict
+that
+maintains
 feature
 order
 .
@@ -107,7 +103,7 @@ self
 .
 _feature_tests_map_
 :
-OrderedDict
+Dict
 [
 Union
 [
@@ -120,9 +116,8 @@ str
 ]
 ]
 =
-OrderedDict
-(
-)
+{
+}
         
 self
 .
