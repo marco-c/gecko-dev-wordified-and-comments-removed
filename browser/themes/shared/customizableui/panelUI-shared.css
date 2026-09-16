@@ -7082,6 +7082,14 @@ border
 radius
 )
 ;
+media
+not
+(
+forced
+-
+colors
+)
+{
 color
 :
 var
@@ -7099,6 +7107,7 @@ color
 vibrant
 )
 ;
+}
 /
 *
 stylelint
