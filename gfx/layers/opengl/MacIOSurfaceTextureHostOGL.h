@@ -54,9 +54,6 @@ namespace
 layers
 {
 class
-GpuFence
-;
-class
 MacIOSurfaceTextureHostOGL
 :
 public
@@ -351,13 +348,6 @@ RefPtr
 MacIOSurface
 >
 mSurface
-;
-const
-RefPtr
-<
-GpuFence
->
-mGpuFence
 ;
 protected
 :
