@@ -1805,6 +1805,7 @@ name
 tab_tray_inactive_auto_close_title
 "
 >
+-
 ?
 <
 /
@@ -9721,7 +9722,6 @@ BrandUsage
 "
 >
 Firefox
-s
 <
 /
 string
@@ -18959,7 +18959,6 @@ name
 preference_gestures_swipe_toolbar_switch_tabs_2
 "
 >
--
 <
 /
 string
@@ -33206,6 +33205,7 @@ name
 qr_code_download_success
 "
 >
+QR
 <
 /
 string
@@ -33235,6 +33235,7 @@ name
 qr_code_download_failure
 "
 >
+QR
 <
 /
 string
@@ -33610,8 +33611,6 @@ ignore
 BrandUsage
 "
 >
-\
-u0020
 Firefox
 <
 /
@@ -35347,6 +35346,7 @@ name
 preference_accessibility_auto_size_2
 "
 >
+-
 <
 /
 string
@@ -35820,10 +35820,7 @@ name
 preference_summary_delete_browsing_data_on_quit_2
 "
 >
-\
-"
-\
-"
+-
 <
 /
 string
@@ -43230,6 +43227,7 @@ name
 preferences_ip_protection_beta_badge_label
 "
 >
+BETA
 <
 /
 string
@@ -45295,7 +45293,7 @@ ignore
 UnusedResources
 "
 >
-VPN
+/
 <
 /
 string
@@ -51375,7 +51373,6 @@ name
 inactive_tabs_title
 "
 >
--
 <
 /
 string
@@ -51446,7 +51443,6 @@ name
 inactive_tabs_delete_all
 "
 >
--
 <
 /
 string
@@ -51475,10 +51471,6 @@ name
 inactive_tabs_expand_content_description
 "
 >
-\
-'
-\
-'
 <
 /
 string
@@ -51507,10 +51499,6 @@ name
 inactive_tabs_collapse_content_description
 "
 >
-\
-'
-\
-'
 <
 /
 string
@@ -51575,6 +51563,7 @@ ignore
 UnusedResources
 "
 >
+-
 ?
 <
 /
@@ -58607,8 +58596,7 @@ name
 debug_drawer_tab_tools_tab_quantity_non_digits_error
 "
 >
-(
-)
+0
 <
 /
 string
@@ -59274,6 +59262,7 @@ UnusedResources
 "
 >
 Firefox
+/
 <
 /
 string
@@ -59304,6 +59293,7 @@ ignore
 UnusedResources
 "
 >
+/
 <
 /
 string
@@ -60791,6 +60781,7 @@ name
 glean_debug_tools_title
 "
 >
+Glean
 <
 /
 string
@@ -61298,6 +61289,7 @@ name
 beta_feature
 "
 >
+BETA
 <
 /
 string
