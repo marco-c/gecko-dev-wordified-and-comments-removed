@@ -1124,6 +1124,13 @@ Bug
 ]
 [
 "
+test_select_list_items
+.
+html
+"
+]
+[
+"
 test_select_selectedOptions
 .
 html

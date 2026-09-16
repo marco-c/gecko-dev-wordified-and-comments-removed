@@ -406,6 +406,13 @@ js
 ]
 [
 "
+browser_selectpopup_option_list
+.
+js
+"
+]
+[
+"
 browser_selectpopup_searchfocus
 .
 js
