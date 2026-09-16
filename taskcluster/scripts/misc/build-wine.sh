@@ -63,6 +63,11 @@ win64
 -
 without
 -
+mingw
+-
+-
+without
+-
 x
 -
 -
@@ -104,6 +109,11 @@ wine64
 .
 /
 wine64
+-
+-
+without
+-
+mingw
 -
 -
 without
