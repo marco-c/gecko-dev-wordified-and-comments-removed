@@ -6140,7 +6140,7 @@ MainThreadLongTask
 static
 constexpr
 bool
-StoreName
+ETWStoreName
 =
 true
 ;

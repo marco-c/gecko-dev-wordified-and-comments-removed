@@ -86,7 +86,7 @@ sandboxsyscall
 static
 constexpr
 bool
-StoreName
+ETWStoreName
 =
 true
 ;

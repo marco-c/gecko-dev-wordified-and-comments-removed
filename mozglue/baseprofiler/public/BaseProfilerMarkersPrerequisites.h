@@ -5603,7 +5603,7 @@ false
 static
 constexpr
 bool
-StoreName
+ETWStoreName
 =
 false
 ;

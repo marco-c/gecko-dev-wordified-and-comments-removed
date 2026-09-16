@@ -517,7 +517,7 @@ nullptr
 static
 constexpr
 bool
-StoreName
+ETWStoreName
 =
 true
 ;
@@ -689,7 +689,7 @@ nullptr
 static
 constexpr
 bool
-StoreName
+ETWStoreName
 =
 true
 ;
@@ -868,7 +868,7 @@ nullptr
 static
 constexpr
 bool
-StoreName
+ETWStoreName
 =
 true
 ;
@@ -1017,7 +1017,7 @@ nullptr
 static
 constexpr
 bool
-StoreName
+ETWStoreName
 =
 true
 ;
