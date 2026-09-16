@@ -195,6 +195,13 @@ js
 ]
 [
 "
+test_MatchPatternPrefRule
+.
+js
+"
+]
+[
+"
 test_SiteRuleManager
 .
 js
