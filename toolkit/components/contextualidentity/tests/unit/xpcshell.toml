@@ -45,13 +45,6 @@ js
 ]
 [
 "
-test_policy
-.
-js
-"
-]
-[
-"
 test_siteAssociations
 .
 js
