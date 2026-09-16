@@ -530,6 +530,7 @@ nsICertOverrideService
 let
 cert
 =
+await
 getTestServerCertificate
 (
 )
@@ -660,8 +661,7 @@ is
 (
 identityMode
 "
-certErrorPage
-notSecureText
+unknownIdentity
 "
 "
 identity
