@@ -138,6 +138,7 @@ CascadeLevel
 CascadeOrigin
 RuleCascadeFlags
 StyleSource
+StyleSourceBorrow
 }
 ;
 #
@@ -2531,7 +2532,7 @@ root
 StrongRuleNode
 source
 :
-StyleSource
+StyleSourceBorrow
 cascade_priority
 :
 CascadePriority
@@ -2747,6 +2748,10 @@ clone
 (
 )
 source
+.
+to_owned
+(
+)
 cascade_priority
 )
 )

@@ -960,10 +960,14 @@ pub
 fn
 get_all_matching_rules
 <
+'
+a
 E
 >
 (
 &
+'
+a
 self
 element
 :
@@ -976,6 +980,10 @@ matching_rules_list
 &
 mut
 ApplicableDeclarationList
+<
+'
+a
+>
 matching_context
 :
 &
@@ -993,6 +1001,8 @@ CascadeLevel
 cascade_data
 :
 &
+'
+a
 CascadeData
 stylist
 :
@@ -1299,6 +1309,8 @@ crate
 fn
 get_matching_rules
 <
+'
+a
 E
 >
 (
@@ -1308,6 +1320,8 @@ E
 rules
 :
 &
+'
+a
 [
 Rule
 ]
@@ -1316,6 +1330,10 @@ matching_rules
 &
 mut
 ApplicableDeclarationList
+<
+'
+a
+>
 matching_context
 :
 &
@@ -1333,6 +1351,8 @@ CascadeLevel
 cascade_data
 :
 &
+'
+a
 CascadeData
 stylist
 :
