@@ -229,7 +229,7 @@ environment
 (
 MozAdsEnvironment
 .
-PROD
+Prod
 )
 .
 cacheConfig
