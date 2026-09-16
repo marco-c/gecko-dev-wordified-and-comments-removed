@@ -64,6 +64,10 @@ l10n_stage
 "
 "
 "
+from
+__future__
+import
+annotations
 import
 argparse
 import
@@ -677,9 +681,7 @@ L10nManifestContextData
 )
 -
 >
-"
 SrcDirs
-"
 :
         
 return
@@ -703,9 +705,7 @@ str
 )
 -
 >
-"
 SrcDirs
-"
 :
         
 "

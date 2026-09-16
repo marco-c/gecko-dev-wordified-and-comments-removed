@@ -90,6 +90,10 @@ l10n_merge
 "
 "
 "
+from
+__future__
+import
+annotations
 import
 argparse
 import

@@ -63,6 +63,10 @@ py
 "
 "
 from
+__future__
+import
+annotations
+from
 typing
 import
 Callable
@@ -76,9 +80,7 @@ children
 dict
 [
 str
-"
 Node
-"
 ]
     
 parents
@@ -88,9 +90,7 @@ dict
 str
 list
 [
-"
 Node
-"
 ]
 ]
     
@@ -447,9 +447,7 @@ remove_parent
 self
 parent_node
 :
-"
 Node
-"
 )
 :
         
@@ -504,16 +502,12 @@ copy_fork_node
 self
 fork_node
 :
-"
 Node
-"
 child_to_avoid
 :
 Optional
 [
-"
 Node
-"
 ]
 )
 :
@@ -690,9 +684,7 @@ is_replacement_for_prefix_end_node
 self
 old
 :
-"
 Node
-"
 )
 :
         
@@ -832,9 +824,7 @@ is_replacement_for_prefix_node
 self
 old
 :
-"
 Node
-"
 )
 :
         
