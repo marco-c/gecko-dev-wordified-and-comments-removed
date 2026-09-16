@@ -125,6 +125,12 @@ true
 gc_enabled
 :
 true
+max_memory64_bytes
+:
+1u128
+<
+<
+48
 .
 .
 Config
