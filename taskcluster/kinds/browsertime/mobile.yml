@@ -432,15 +432,11 @@ no
 ffwindowrecorder
 optimization
 :
-skip
+perf
 -
-unless
+cadence
 -
 android
--
-perftest
--
-backstop
 :
 null
 limit
