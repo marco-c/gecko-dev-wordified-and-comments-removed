@@ -1026,7 +1026,7 @@ const
 FILL_CONFIDENCE_THRESHOLD
 =
 "
-high
+medium
 "
 ;
 /
