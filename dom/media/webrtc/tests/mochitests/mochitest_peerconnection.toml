@@ -1309,6 +1309,13 @@ html
 ]
 [
 "
+test_peerConnection_earlyMediaReoffer
+.
+html
+"
+]
+[
+"
 test_peerConnection_encodingsNegotiation
 .
 html
