@@ -72,13 +72,6 @@ h
 #
 include
 "
-jni
-.
-h
-"
-#
-include
-"
 ffjni
 .
 h

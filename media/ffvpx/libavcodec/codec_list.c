@@ -1,3 +1,10 @@
+#
+include
+"
+config_components
+.
+h
+"
 static
 const
 FFCodec

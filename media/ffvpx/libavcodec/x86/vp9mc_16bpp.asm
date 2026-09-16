@@ -361,12 +361,8 @@ asm
 "
 SECTION_RODATA
 32
+cextern
 pd_64
-:
-times
-8
-dd
-64
 cextern
 pw_1023
 cextern

@@ -110,13 +110,6 @@ AVCodecContext
 avctx
 )
 {
-avctx
--
->
-frame_size
-=
-0
-;
 #
 if
 !

@@ -13714,6 +13714,7 @@ subtransform
 '
 s
 length
+vzeroupper
 .
 dim2
 :

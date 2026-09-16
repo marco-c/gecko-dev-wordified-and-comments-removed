@@ -1,6 +1,8 @@
 #
 include
 "
+libavcodec
+/
 bsf_internal
 .
 h

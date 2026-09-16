@@ -58,6 +58,9 @@ ps
 int
 frame_length_short
 ;
+int
+frame_length
+;
 }
 MPEG4AudioConfig
 ;

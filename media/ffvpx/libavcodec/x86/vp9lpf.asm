@@ -6205,12 +6205,10 @@ flat8in
 filter4
 (
 )
-mova
-m4
-m2
 paddsb
-m2
 m4
+m2
+m2
 ;
 2
 *

@@ -294,17 +294,6 @@ write_buffer_size
 }
 CodedBitstreamContext
 ;
-extern
-const
-enum
-AVCodecID
-CBS_FUNC
-(
-all_codec_ids
-)
-[
-]
-;
 int
 CBS_FUNC
 (

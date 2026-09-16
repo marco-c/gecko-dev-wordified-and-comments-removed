@@ -88,6 +88,11 @@ ff_dovi_rpu_bsf
 extern
 const
 FFBitStreamFilter
+ff_dovi_split_bsf
+;
+extern
+const
+FFBitStreamFilter
 ff_dts2pts_bsf
 ;
 extern

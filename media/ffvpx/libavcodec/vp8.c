@@ -10,6 +10,15 @@ include
 "
 libavutil
 /
+attributes
+.
+h
+"
+#
+include
+"
+libavutil
+/
 mem
 .
 h
@@ -11251,6 +11260,8 @@ return
 mode
 ;
 }
+av_fallthrough
+;
 case
 DIAG_DOWN_LEFT_PRED
 :
@@ -11289,6 +11300,8 @@ return
 mode
 ;
 }
+av_fallthrough
+;
 case
 HOR_UP_PRED
 :

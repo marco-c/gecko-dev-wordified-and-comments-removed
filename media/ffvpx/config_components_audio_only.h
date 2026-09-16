@@ -8361,4 +8361,8 @@ define
 CONFIG_IPNS_PROTOCOL
 0
 #
+define
+CONFIG_LIBLCEVC_DEC
+0
+#
 endif
