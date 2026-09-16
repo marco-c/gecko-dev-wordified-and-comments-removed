@@ -219,7 +219,9 @@ true
 content
 )
 ;
-todo_is
+Assert
+.
+equal
 (
 bar
 .
@@ -229,12 +231,11 @@ value
 "
 "
 "
-Undo
+undo
 removed
 the
 typed
 string
-.
 "
 )
 ;
