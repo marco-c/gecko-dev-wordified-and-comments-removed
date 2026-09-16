@@ -1231,7 +1231,7 @@ MOZ_ASSERT
 mInFlightWriteRequest
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 mWriteRequests

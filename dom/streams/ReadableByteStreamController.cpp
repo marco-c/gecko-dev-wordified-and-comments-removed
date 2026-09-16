@@ -2832,7 +2832,7 @@ AsBYOB
 (
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 reader
@@ -6183,7 +6183,7 @@ ErrorResult
 aRv
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 aController
@@ -6446,7 +6446,7 @@ MightThrowJSException
 (
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 aController

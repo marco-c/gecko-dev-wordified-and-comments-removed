@@ -289,7 +289,7 @@ ErrorResult
 aRv
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 aContainer
@@ -426,7 +426,7 @@ ErrorResult
 aRv
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 aContainer
