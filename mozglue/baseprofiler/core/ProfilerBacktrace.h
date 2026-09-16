@@ -7,6 +7,13 @@ PROFILER_BACKTRACE_H
 #
 include
 "
+ProfileBuffer
+.
+h
+"
+#
+include
+"
 mozilla
 /
 ProfileChunkedBuffer
@@ -36,9 +43,6 @@ TimeStamp
 namespace
 baseprofiler
 {
-class
-ProfileBuffer
-;
 class
 SpliceableJSONWriter
 ;
