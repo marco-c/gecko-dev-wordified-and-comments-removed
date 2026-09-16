@@ -319,9 +319,11 @@ negative
 stdDeviation
 (
 should
-not
 display
-anything
+as
+stdDeviation
+of
+zero
 )
 -
 -
