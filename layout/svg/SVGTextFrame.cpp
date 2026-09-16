@@ -22683,6 +22683,17 @@ AppUnitsToFloatCSSPixels
 rectInTextFrame
 )
 ;
+rectInFrameUserSpace
+.
+Scale
+(
+1
+.
+0
+/
+mFontSizeScaleFactor
+)
+;
 TextRenderedRun
 :
 :
