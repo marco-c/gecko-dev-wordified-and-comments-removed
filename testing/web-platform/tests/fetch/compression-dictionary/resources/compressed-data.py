@@ -65,6 +65,27 @@ plain
 )
 )
     
+headers
+.
+append
+(
+(
+b
+"
+Vary
+"
+b
+"
+available
+-
+dictionary
+accept
+-
+encoding
+"
+)
+)
+    
 if
 b
 '
