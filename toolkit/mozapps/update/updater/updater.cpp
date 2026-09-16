@@ -26147,12 +26147,6 @@ defined
 (
 TEST_UPDATER
 )
-&
-&
-defined
-(
-XP_WIN
-)
 zucchini
 :
 :

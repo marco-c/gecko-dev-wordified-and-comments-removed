@@ -19483,6 +19483,15 @@ relocatedFiles
 [
 ]
 ;
+if
+(
+toBeDeletedDir
+.
+exists
+(
+)
+)
+{
 let
 dirEntries
 =
@@ -19534,6 +19543,7 @@ push
 entry
 )
 ;
+}
 }
 }
 Assert
