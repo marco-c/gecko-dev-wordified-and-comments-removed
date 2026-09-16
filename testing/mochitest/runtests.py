@@ -5771,11 +5771,11 @@ c_int32
     
 KEEP_FORMAT
 =
-0x8000000
+0x0098F900
     
 SUSTAIN_FRAMERATE
 =
-0x8000001
+0x0098F901
     
 VIDIOC_S_CTRL
 =
@@ -6138,6 +6138,14 @@ num
 buffers
 =
 1
+"
+        
+"
+!
+"
+        
+"
+imagefreeze
 "
         
 "
