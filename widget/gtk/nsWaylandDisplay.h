@@ -1249,7 +1249,7 @@ aId
 bool
 IsTFSupported
 (
-int
+uint32_t
 aTF
 )
 ;
@@ -1260,6 +1260,18 @@ IsSetMDCVSupported
 ;
 bool
 IsSetLuminancesSupported
+(
+)
+;
+bool
+IsPrimariesSupported
+(
+uint32_t
+aPrimaries
+)
+;
+bool
+IsParametricSupported
 (
 )
 ;
