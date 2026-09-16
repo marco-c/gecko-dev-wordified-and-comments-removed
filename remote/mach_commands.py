@@ -18,10 +18,6 @@ import
 sys
 import
 tempfile
-from
-collections
-import
-OrderedDict
 import
 mozlog
 import
@@ -1589,9 +1585,8 @@ self
 .
 test_results
 =
-OrderedDict
-(
-)
+{
+}
         
 self
 .
