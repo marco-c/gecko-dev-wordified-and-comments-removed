@@ -5767,6 +5767,13 @@ feature
 -
 settings
 "
+"
+font
+-
+language
+-
+override
+"
 ]
 extra_gecko_sub_properties
 =
@@ -5784,13 +5791,6 @@ font
 variant
 -
 emoji
-"
-"
-font
--
-language
--
-override
 "
 ]
 spec
