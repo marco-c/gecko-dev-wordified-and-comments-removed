@@ -20180,6 +20180,12 @@ CaptureFrameState
 (
 rootFrame
 historyState
+{
+CaptureStateFlag
+:
+:
+ForSessionHistory
+}
 )
 ;
 return

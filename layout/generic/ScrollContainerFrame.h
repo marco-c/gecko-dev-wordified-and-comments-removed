@@ -2019,6 +2019,8 @@ PresState
 >
 SaveState
 (
+CaptureStateFlags
+aFlags
 )
 final
 ;

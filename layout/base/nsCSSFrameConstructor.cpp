@@ -35135,6 +35135,8 @@ CaptureFrameState
 (
 frame
 aHistoryState
+{
+}
 )
 ;
 }

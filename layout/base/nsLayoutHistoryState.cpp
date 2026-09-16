@@ -55,13 +55,9 @@ public
 nsLayoutHistoryState
 (
 )
-:
-mScrollPositionOnly
-(
-false
-)
-{
-}
+=
+default
+;
 NS_DECL_ISUPPORTS
 NS_DECL_NSILAYOUTHISTORYSTATE
 private
@@ -75,6 +71,8 @@ default
 ;
 bool
 mScrollPositionOnly
+=
+false
 ;
 nsTHashMap
 <
@@ -780,6 +778,8 @@ true
 false
 false
 false
+0
+0
 )
 ;
 }
