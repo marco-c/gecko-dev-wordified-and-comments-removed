@@ -5906,6 +5906,8 @@ browser
 search
 .
 separatePrivateDefault
+.
+enabled
 "
 "
 browser
@@ -5914,9 +5916,7 @@ search
 .
 separatePrivateDefault
 .
-ui
-.
-enabled
+featureGate
 "
 ]
 ;

@@ -1296,6 +1296,8 @@ browser
 search
 .
 separatePrivateDefault
+.
+enabled
 "
 separatePrivateDefault
 ]
@@ -1307,9 +1309,7 @@ search
 .
 separatePrivateDefault
 .
-ui
-.
-enabled
+featureGate
 "
 separatePrivateDefaultUiEnabled
 ]

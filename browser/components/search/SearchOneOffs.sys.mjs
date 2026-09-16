@@ -7791,9 +7791,7 @@ search
 .
 separatePrivateDefault
 .
-ui
-.
-enabled
+featureGate
 "
 false
 )
@@ -7811,6 +7809,8 @@ browser
 search
 .
 separatePrivateDefault
+.
+enabled
 "
 false
 )

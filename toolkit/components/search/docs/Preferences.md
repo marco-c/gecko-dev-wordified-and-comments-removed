@@ -236,9 +236,7 @@ search
 .
 separatePrivateDefault
 .
-ui
-.
-enabled
+featureGate
 (
 boolean
 default
@@ -268,6 +266,8 @@ browser
 search
 .
 separatePrivateDefault
+.
+enabled
 (
 boolean
 default

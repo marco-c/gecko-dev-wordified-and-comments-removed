@@ -227,6 +227,8 @@ browser
 search
 .
 separatePrivateDefault
+.
+enabled
 "
 true
 )
@@ -244,9 +246,7 @@ search
 .
 separatePrivateDefault
 .
-ui
-.
-enabled
+featureGate
 "
 true
 )
@@ -280,11 +280,11 @@ prefs
 .
 setCharPref
 (
-SearchUtils
-.
-BROWSER_SEARCH_PREF
-+
 "
+browser
+.
+search
+.
 region
 "
 "

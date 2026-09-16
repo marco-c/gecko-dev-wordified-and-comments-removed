@@ -163,9 +163,7 @@ search
 .
 separatePrivateDefault
 .
-ui
-.
-enabled
+featureGate
 "
 true
 ]
@@ -176,6 +174,8 @@ browser
 search
 .
 separatePrivateDefault
+.
+enabled
 "
 true
 ]

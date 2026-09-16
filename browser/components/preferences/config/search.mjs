@@ -507,6 +507,8 @@ browser
 search
 .
 separatePrivateDefault
+.
+enabled
 "
 type
 :
@@ -524,9 +526,7 @@ search
 .
 separatePrivateDefault
 .
-ui
-.
-enabled
+featureGate
 "
 type
 :
@@ -1827,9 +1827,7 @@ search
 .
 separatePrivateDefault
 .
-ui
-.
-enabled
+featureGate
 "
 }
 )
@@ -1852,6 +1850,8 @@ browser
 search
 .
 separatePrivateDefault
+.
+enabled
 "
 deps
 :

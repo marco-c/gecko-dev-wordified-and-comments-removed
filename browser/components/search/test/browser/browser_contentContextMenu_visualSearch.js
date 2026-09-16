@@ -1555,6 +1555,8 @@ browser
 search
 .
 separatePrivateDefault
+.
+enabled
 "
 true
 ]
@@ -1566,9 +1568,7 @@ search
 .
 separatePrivateDefault
 .
-ui
-.
-enabled
+featureGate
 "
 true
 ]

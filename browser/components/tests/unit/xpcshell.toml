@@ -218,6 +218,13 @@ js
 ]
 [
 "
+test_profileDataUpgrade_separatePrivateDefault
+.
+js
+"
+]
+[
+"
 test_profileDataUpgrade_smartwindow
 .
 js

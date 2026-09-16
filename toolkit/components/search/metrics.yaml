@@ -1965,6 +1965,8 @@ browser
 search
 .
 separatePrivateDefault
+.
+enabled
 and
 browser
 .
@@ -1972,9 +1974,7 @@ search
 .
 separatePrivateDefault
 .
-ui
-.
-enabled
+featureGate
 are
 set
 to
@@ -2944,6 +2944,8 @@ browser
 search
 .
 separatePrivateDefault
+.
+enabled
 and
 browser
 .
@@ -2951,9 +2953,7 @@ search
 .
 separatePrivateDefault
 .
-ui
-.
-enabled
+featureGate
 are
 set
 to
@@ -3245,6 +3245,8 @@ browser
 search
 .
 separatePrivateDefault
+.
+enabled
 and
 browser
 .
@@ -3252,9 +3254,7 @@ search
 .
 separatePrivateDefault
 .
-ui
-.
-enabled
+featureGate
 are
 set
 to
@@ -3488,6 +3488,8 @@ browser
 search
 .
 separatePrivateDefault
+.
+enabled
 and
 browser
 .
@@ -3495,9 +3497,7 @@ search
 .
 separatePrivateDefault
 .
-ui
-.
-enabled
+featureGate
 are
 set
 to

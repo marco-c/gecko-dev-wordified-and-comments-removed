@@ -260,9 +260,7 @@ search
 .
 separatePrivateDefault
 .
-ui
-.
-enabled
+featureGate
 "
 false
 ]
@@ -287,6 +285,8 @@ browser
 search
 .
 separatePrivateDefault
+.
+enabled
 "
 true
 ]
@@ -671,9 +671,7 @@ search
 .
 separatePrivateDefault
 .
-ui
-.
-enabled
+featureGate
 "
 false
 ]
@@ -701,9 +699,7 @@ search
 .
 separatePrivateDefault
 .
-ui
-.
-enabled
+featureGate
 "
 )
 ;

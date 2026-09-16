@@ -591,9 +591,7 @@ search
 .
 separatePrivateDefault
 .
-ui
-.
-enabled
+featureGate
 "
 privateOn
 )
@@ -610,6 +608,8 @@ browser
 search
 .
 separatePrivateDefault
+.
+enabled
 "
 privateOn
 )

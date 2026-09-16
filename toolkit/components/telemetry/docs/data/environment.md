@@ -3262,6 +3262,8 @@ browser
 search
 .
 separatePrivateDefault
+.
+enabled
 preference
 is
 set
