@@ -3129,16 +3129,11 @@ payload_type
 )
 ;
 void
-RecreateReceiveStream
-(
-)
-;
-void
 CreateReceiveStream
 (
 )
 ;
-bool
+void
 ReconfigureCodecs
 (
 const
