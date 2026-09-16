@@ -5953,6 +5953,16 @@ headline
 }
 )
 ;
+conversation
+.
+promptEmbeddedMemories
+=
+[
+resumeActivitySuggestion
+.
+memory
+]
+;
 const
 [
 {
