@@ -109,9 +109,6 @@ true
 logEventBreakpoints
 :
 true
-observeAsmJS
-:
-true
 observeWasm
 :
 true

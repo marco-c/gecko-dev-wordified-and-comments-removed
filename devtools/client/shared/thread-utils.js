@@ -313,9 +313,6 @@ event
 breakpoints
 "
 )
-observeAsmJS
-:
-true
 breakpoints
 :
 sanitizeBreakpoints
