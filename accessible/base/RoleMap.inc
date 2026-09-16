@@ -3356,7 +3356,7 @@ java
 SessionAccessibility
 :
 :
-CLASSNAME_BUTTON
+CLASSNAME_VIEW
 IsAccessibilityElementRule
 :
 :

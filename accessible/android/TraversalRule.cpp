@@ -1416,6 +1416,12 @@ roles
 :
 MATHML_MATH
 :
+case
+roles
+:
+:
+SUMMARY
+:
 return
 nsIAccessibleTraversalRule
 :
