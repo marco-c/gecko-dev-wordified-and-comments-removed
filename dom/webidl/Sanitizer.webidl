@@ -379,6 +379,9 @@ comments
 boolean
 dataAttributes
 ;
+boolean
+javascriptURLs
+;
 }
 ;
 [
@@ -527,6 +530,13 @@ allow
 ;
 boolean
 setDataAttributes
+(
+boolean
+allow
+)
+;
+boolean
+setJavascriptURLs
 (
 boolean
 allow

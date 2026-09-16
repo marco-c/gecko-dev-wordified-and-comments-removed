@@ -390,6 +390,13 @@ aAllow
 )
 ;
 bool
+SetJavascriptURLs
+(
+bool
+aAllow
+)
+;
+bool
 RemoveUnsafe
 (
 )
@@ -482,7 +489,7 @@ SanitizerConfig
 &
 aConfig
 bool
-aAllowCommentsPIsAndDataAttributes
+aPermissiveDefaults
 ErrorResult
 &
 aRv
@@ -510,7 +517,7 @@ SanitizerConfig
 &
 aConfig
 bool
-aAllowCommentsPIsAndDataAttributes
+aPermissiveDefaults
 ErrorResult
 &
 aRv
@@ -813,6 +820,11 @@ Maybe
 bool
 >
 mDataAttributes
+;
+bool
+mJavascriptURLs
+=
+false
 ;
 bool
 mIsDefaultConfig
