@@ -15913,7 +15913,7 @@ nullptr
 }
 static
 void
-FlushNonParticipantsIntoSeparatorTransform
+WrapSeparatorTransform
 (
 nsDisplayListBuilder
 *
@@ -15928,7 +15928,6 @@ nsDisplayList
 *
 aParticipants
 int
-&
 aIndex
 nsDisplayItem
 *
@@ -15961,8 +15960,6 @@ nsDisplayTransform
 aBuilder
 aFrame
 aIndex
-+
-+
 aNonParticipants
 aBuilder
 -
@@ -19436,7 +19433,7 @@ HasClip
 )
 )
 {
-FlushNonParticipantsIntoSeparatorTransform
+WrapSeparatorTransform
 (
 aBuilder
 this
@@ -19445,6 +19442,8 @@ nonparticipants
 &
 participants
 index
++
++
 &
 separator
 )
@@ -19471,7 +19470,7 @@ item
 )
 )
 {
-FlushNonParticipantsIntoSeparatorTransform
+WrapSeparatorTransform
 (
 aBuilder
 this
@@ -19480,6 +19479,8 @@ nonparticipants
 &
 participants
 index
++
++
 &
 separator
 )
@@ -19534,7 +19535,7 @@ item
 ;
 }
 }
-FlushNonParticipantsIntoSeparatorTransform
+WrapSeparatorTransform
 (
 aBuilder
 this
@@ -19543,6 +19544,8 @@ nonparticipants
 &
 participants
 index
++
++
 &
 separator
 )
