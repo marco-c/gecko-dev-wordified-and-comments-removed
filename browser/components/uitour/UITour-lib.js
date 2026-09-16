@@ -709,6 +709,7 @@ showNewTab
 =
 function
 (
+hash
 )
 {
 _sendEvent
@@ -716,6 +717,9 @@ _sendEvent
 "
 showNewTab
 "
+{
+hash
+}
 )
 ;
 }
