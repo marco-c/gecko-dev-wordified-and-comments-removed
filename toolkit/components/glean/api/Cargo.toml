@@ -358,3 +358,14 @@ gecko
 profiler
 "
 ]
+gecko_tests
+=
+[
+"
+glean
+/
+mozbuild
+-
+rustlib
+"
+]

@@ -535,6 +535,13 @@ tests
 mock
 =
 [
+"
+glean
+/
+mozbuild
+-
+rustlib
+"
 ]
 [
 build
