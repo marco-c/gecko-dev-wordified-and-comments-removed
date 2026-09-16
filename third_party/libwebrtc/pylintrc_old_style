@@ -301,6 +301,9 @@ messages
 reports
 =
 no
+score
+=
+no
 [
 VARIABLES
 ]
