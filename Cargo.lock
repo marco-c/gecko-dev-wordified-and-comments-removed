@@ -7646,6 +7646,9 @@ thiserror
 uuid
 "
 "
+win32_process_mitigations
+"
+"
 windows
 -
 sys
