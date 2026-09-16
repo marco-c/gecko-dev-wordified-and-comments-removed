@@ -4528,12 +4528,6 @@ FormControlType
 )
 ;
 NS_DECL_ISUPPORTS_INHERITED
-NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
-(
-nsGenericHTMLFormControlElement
-nsGenericHTMLFormElement
-)
-;
 NS_IMPL_FROMNODE_HELPER
 (
 nsGenericHTMLFormControlElement
@@ -4832,8 +4826,6 @@ nsAString
 aState
 )
 ;
-RefPtr
-<
 mozilla
 :
 :
@@ -4841,7 +4833,7 @@ dom
 :
 :
 HTMLFormElement
->
+*
 mForm
 ;
 mozilla

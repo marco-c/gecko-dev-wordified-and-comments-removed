@@ -1515,11 +1515,11 @@ ResponsiveImageSelector
 >
 mResponsiveSelector
 ;
-RefPtr
-<
 HTMLFormElement
->
+*
 mForm
+=
+nullptr
 ;
 private
 :
