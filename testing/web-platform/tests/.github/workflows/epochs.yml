@@ -138,7 +138,7 @@ actions
 upload
 -
 artifact
-v4
+v7
 with
 :
 name
