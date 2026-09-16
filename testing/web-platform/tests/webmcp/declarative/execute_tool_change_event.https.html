@@ -452,12 +452,8 @@ true
 }
 }
 let
-inputArgs
+inputObject
 =
-JSON
-.
-stringify
-(
 {
 text
 :
@@ -490,7 +486,6 @@ select
 opt2
 "
 }
-)
 ;
 await
 document
@@ -500,7 +495,7 @@ modelContext
 executeTool
 (
 tool
-inputArgs
+inputObject
 )
 ;
 assert_equals

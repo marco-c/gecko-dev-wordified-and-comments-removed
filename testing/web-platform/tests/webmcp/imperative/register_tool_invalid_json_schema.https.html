@@ -88,7 +88,6 @@ function
 test_register_tool_schema_error
 (
 inputSchema
-expectedError
 testName
 )
 {
@@ -133,16 +132,14 @@ execute
 }
 }
 )
+'
 Should
 throw
-{
-expectedError
-.
-name
-}
+TypeError
 for
 invalid
 schema
+'
 )
 ;
 }

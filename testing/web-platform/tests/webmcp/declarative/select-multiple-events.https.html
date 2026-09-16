@@ -288,12 +288,8 @@ changeEventCount
 )
 ;
 let
-inputArgs
+inputObject
 =
-JSON
-.
-stringify
-(
 {
 fruits
 :
@@ -306,7 +302,6 @@ banana
 '
 ]
 }
-)
 ;
 /
 /
@@ -323,7 +318,7 @@ modelContext
 executeTool
 (
 tool
-inputArgs
+inputObject
 )
 ;
 assert_true
@@ -395,7 +390,7 @@ modelContext
 executeTool
 (
 tool
-inputArgs
+inputObject
 )
 ;
 assert_equals
