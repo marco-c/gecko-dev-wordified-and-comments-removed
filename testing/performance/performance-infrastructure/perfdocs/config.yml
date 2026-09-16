@@ -69,6 +69,11 @@ static
 only
 :
 True
+hardware
+-
+docs
+:
+True
 suites
 :
 {
