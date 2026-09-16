@@ -200,19 +200,11 @@ properties
 }
 )
 ;
-function
+class
 Converter
-(
-)
-{
-}
-Converter
-.
-prototype
-=
 {
 QueryInterface
-:
+=
 ChromeUtils
 .
 generateQI
@@ -229,6 +221,7 @@ nsIRequestObserver
 "
 ]
 )
+;
 get
 wrappedJSObject
 (
@@ -774,7 +767,6 @@ data
 ;
 }
 }
-;
 function
 fixSave
 (
