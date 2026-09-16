@@ -147,10 +147,7 @@ smallvec
 SmallVec
 ;
 use
-std
-:
-:
-collections
+hashbrown
 :
 :
 HashMap

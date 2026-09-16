@@ -11,6 +11,12 @@ use
 crate
 :
 :
+FxHashMap
+;
+use
+crate
+:
+:
 {
 parser
 :
@@ -22,12 +28,6 @@ tree
 OpaqueElement
 SelectorImpl
 }
-;
-use
-fxhash
-:
-:
-FxHashMap
 ;
 #
 [

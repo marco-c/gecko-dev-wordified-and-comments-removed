@@ -98,7 +98,7 @@ color
 ColorSchemeFlags
 ;
 use
-rustc_hash
+crate
 :
 :
 FxHashMap

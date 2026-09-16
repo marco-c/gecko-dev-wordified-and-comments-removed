@@ -628,7 +628,7 @@ nsstring
 nsString
 ;
 use
-rustc_hash
+crate
 :
 :
 FxHashMap

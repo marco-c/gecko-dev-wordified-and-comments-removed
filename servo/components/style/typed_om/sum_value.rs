@@ -43,10 +43,7 @@ itertools
 Itertools
 ;
 use
-std
-:
-:
-collections
+hashbrown
 :
 :
 HashMap
@@ -109,13 +106,9 @@ other
 *
 result
 .
-entry
+entry_ref
 (
 unit
-.
-clone
-(
-)
 )
 .
 or_insert

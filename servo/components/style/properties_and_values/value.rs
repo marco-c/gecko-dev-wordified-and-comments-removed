@@ -123,6 +123,12 @@ use
 crate
 :
 :
+FxHashMap
+;
+use
+crate
+:
+:
 {
 Namespace
 Prefix
@@ -140,12 +146,6 @@ as
 CSSParser
 TokenSerializationType
 }
-;
-use
-rustc_hash
-:
-:
-FxHashMap
 ;
 use
 selectors

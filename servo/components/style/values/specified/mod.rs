@@ -162,6 +162,12 @@ use
 crate
 :
 :
+FxHashMap
+;
+use
+crate
+:
+:
 {
 Namespace
 Prefix
@@ -175,12 +181,6 @@ cssparser
 Parser
 Token
 }
-;
-use
-rustc_hash
-:
-:
-FxHashMap
 ;
 use
 style_traits

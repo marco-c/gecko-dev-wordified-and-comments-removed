@@ -164,6 +164,13 @@ add_assign
 "
 ]
 }
+hashbrown
+=
+"
+0
+.
+17
+"
 rustc
 -
 hash

@@ -1,5 +1,5 @@
 use
-rustc_hash
+crate
 :
 :
 FxHashMap

@@ -4500,13 +4500,9 @@ get_or_insert_default
 (
 )
 .
-entry
+entry_ref
 (
 name
-.
-clone
-(
-)
 )
 .
 or_default

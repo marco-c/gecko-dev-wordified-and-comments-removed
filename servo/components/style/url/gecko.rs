@@ -83,10 +83,7 @@ servo_arc
 Arc
 ;
 use
-std
-:
-:
-collections
+hashbrown
 :
 :
 HashMap

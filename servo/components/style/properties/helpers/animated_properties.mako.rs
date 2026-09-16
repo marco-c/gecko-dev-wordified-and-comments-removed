@@ -140,7 +140,7 @@ std
 mem
 ;
 use
-rustc_hash
+crate
 :
 :
 FxHashMap

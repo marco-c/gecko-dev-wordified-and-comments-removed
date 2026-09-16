@@ -26,10 +26,7 @@ alloc
 Layout
 ;
 use
-std
-:
-:
-collections
+hashbrown
 :
 :
 HashSet
