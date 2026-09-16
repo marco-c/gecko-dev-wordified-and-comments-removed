@@ -323,6 +323,11 @@ onListenClicked
 (
 )
 {
+view
+.
+hideControls
+(
+)
 onListenClicked
 .
 invoke

@@ -300,6 +300,14 @@ R
 .
 id
 .
+listenSheet
+)
+add
+(
+R
+.
+id
+.
 translationsBanner
 )
 add
