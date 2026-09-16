@@ -105,10 +105,8 @@ treeherder
 :
 symbol
 :
-TMW
+TWM
 (
-mingw32
--
 nsis
 )
 run
@@ -200,10 +198,8 @@ treeherder
 :
 symbol
 :
-TMW
+TWM
 (
-mingw
--
 fxc2
 -
 x86

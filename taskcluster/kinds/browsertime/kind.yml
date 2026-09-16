@@ -358,6 +358,8 @@ macos
 -
 macosx64
 -
+aarch64
+-
 jdk
 -
 repack

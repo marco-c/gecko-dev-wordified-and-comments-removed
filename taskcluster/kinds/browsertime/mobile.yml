@@ -540,6 +540,8 @@ macos
 -
 macosx64
 -
+aarch64
+-
 jdk
 -
 repack
@@ -627,6 +629,8 @@ arm64
 macos
 -
 macosx64
+-
+aarch64
 -
 jdk
 -

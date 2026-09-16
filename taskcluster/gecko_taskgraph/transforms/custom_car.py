@@ -32,9 +32,9 @@ car
 "
     
 "
-macosx
+macosx64
 -
-arm64
+aarch64
 -
 custom
 -
