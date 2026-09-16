@@ -759,7 +759,7 @@ R
 .
 drawable
 .
-ic_japan_onboarding_favicon
+ic_firefox
 )
 contentDescription
 =
