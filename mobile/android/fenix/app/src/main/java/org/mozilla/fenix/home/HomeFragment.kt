@@ -3428,6 +3428,13 @@ HomeNavigationBar
 toolbarStore
 =
 toolbarStore
+appStore
+=
+activity
+.
+components
+.
+appStore
 browsingModeManager
 =
 activity
