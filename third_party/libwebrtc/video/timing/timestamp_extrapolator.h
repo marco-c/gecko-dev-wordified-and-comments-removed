@@ -188,6 +188,11 @@ reset_full_cov_on_alarm
 "
 &
 reset_full_cov_on_alarm
+"
+p00
+"
+&
+p00
 )
 ;
 }
@@ -272,6 +277,13 @@ bool
 reset_full_cov_on_alarm
 =
 false
+;
+double
+p00
+=
+1
+.
+0
 ;
 }
 ;
