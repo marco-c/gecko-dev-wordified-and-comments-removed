@@ -6471,6 +6471,14 @@ automation
 py
 "
     
+lastTestSeen
+=
+None
+    
+lastTestFinished
+=
+False
+    
 def
 __init__
 (
@@ -20797,6 +20805,12 @@ test_name
             
 self
 .
+lastTestFinished
+=
+False
+            
+self
+.
 lastManifest
 =
 currentManifest
@@ -21675,20 +21689,21 @@ else
                 
 self
 .
-lastTestSeen
-=
+log
+.
+info
 (
-                    
-currentManifest
-or
 "
+runtests
+.
+py
+|
 Main
 app
 process
 exited
 normally
 "
-                
 )
             
 self
@@ -30983,6 +30998,14 @@ message
 test
 "
 ]
+                
+self
+.
+harness
+.
+lastTestFinished
+=
+False
             
 elif
 message
@@ -31004,23 +31027,20 @@ harness
 .
 lastTestSeen
 =
-"
-{
-}
-(
-finished
-)
-"
-.
-format
-(
 message
 [
 "
 test
 "
 ]
-)
+                
+self
+.
+harness
+.
+lastTestFinished
+=
+True
             
 return
 message
@@ -31229,17 +31249,11 @@ data
 )
                 
 if
-"
-(
-finished
-)
-"
-in
 self
 .
 harness
 .
-lastTestSeen
+lastTestFinished
 :
                     
 self
@@ -31356,17 +31370,11 @@ process
 )
                 
 if
-"
-(
-finished
-)
-"
-in
 self
 .
 harness
 .
-lastTestSeen
+lastTestFinished
 :
                     
 scope

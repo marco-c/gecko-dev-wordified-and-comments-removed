@@ -2537,15 +2537,11 @@ startTime
         
 lastTestSeen
 =
-currentManifest
+rpm
+.
+test_in_flight
 or
-"
-Main
-app
-process
-exited
-normally
-"
+currentManifest
         
 crashed
 =
@@ -2610,6 +2606,14 @@ todo
 return
 status
 lastTestSeen
+or
+"
+Main
+app
+process
+exited
+normally
+"
     
 def
 check_for_crashes

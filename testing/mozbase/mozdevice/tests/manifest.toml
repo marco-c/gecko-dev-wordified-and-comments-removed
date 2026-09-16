@@ -29,6 +29,13 @@ py
 ]
 [
 "
+test_remote_process_monitor
+.
+py
+"
+]
+[
+"
 test_socket_connection
 .
 py

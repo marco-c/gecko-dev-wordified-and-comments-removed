@@ -2113,15 +2113,11 @@ finish
         
 lastTestSeen
 =
-currentManifest
+self
+.
+lastTestSeen
 or
-"
-Main
-app
-process
-exited
-normally
-"
+currentManifest
         
 crashed
 =
@@ -2144,6 +2140,14 @@ status
 return
 status
 lastTestSeen
+or
+"
+Main
+app
+process
+exited
+normally
+"
     
 def
 check_for_crashes
