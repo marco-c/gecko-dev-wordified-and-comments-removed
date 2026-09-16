@@ -148,11 +148,7 @@ libfontconfig1
 -
 dev
 \
-libfreetype6
--
-dev
-\
-libgconf2
+libfreetype
 -
 dev
 \
