@@ -3447,7 +3447,7 @@ em
 -
 arm64
 -
-speedometer
+benchmark
 -
 tests
 :
@@ -3459,6 +3459,12 @@ benchmark
 speedometer3
 -
 mobile
+-
+browsertime
+-
+benchmark
+-
+jetstream3
 android
 -
 hw
