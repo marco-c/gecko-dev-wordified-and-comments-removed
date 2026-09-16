@@ -2894,14 +2894,6 @@ job
 transforms
 .
 add
-(
-linux_perf_platform_restrictions
-.
-restrict_perftest_to_1804
-)
-transforms
-.
-add
 def
 hide_cmd_exe_window_on_windows
 (
