@@ -169,6 +169,13 @@ report
 .
 show_mobile_app
 "
+"
+browser
+.
+privatebrowsing
+.
+introAnimationShown
+"
 ]
 )
 ;

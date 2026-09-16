@@ -145,13 +145,6 @@ js
 ]
 [
 "
-browser_privatebrowsing_about_cookie_banners_promo
-.
-js
-"
-]
-[
-"
 browser_privatebrowsing_about_default_pin_promo
 .
 js
@@ -334,6 +327,13 @@ builds
 [
 "
 browser_privatebrowsing_about_default_promo
+.
+js
+"
+]
+[
+"
+browser_privatebrowsing_about_kit_intro
 .
 js
 "
