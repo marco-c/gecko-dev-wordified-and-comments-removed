@@ -2815,6 +2815,11 @@ DEFAULT_TOP_COUNT
 per_day_top_n
 =
 DEFAULT_PER_DAY_TOP_N
+    
+refill_dates
+=
+(
+)
 )
 :
     
@@ -2887,6 +2892,57 @@ the
 published
     
 dict
+.
+    
+A
+day
+already
+summarized
+in
+state
+is
+normally
+left
+alone
+.
+refill_dates
+    
+recomputes
+the
+listed
+days
+from
+their
+artifacts
+instead
+which
+is
+how
+a
+    
+backfilled
+or
+re
+-
+run
+day
+reaches
+the
+roll
+-
+up
+:
+without
+it
+the
+state
+keeps
+    
+whatever
+the
+original
+run
+produced
 .
     
 "
@@ -3053,6 +3109,13 @@ date
 None
 )
     
+refill
+=
+set
+(
+refill_dates
+)
+    
 for
 date
 in
@@ -3060,9 +3123,16 @@ dates
 :
         
 if
+(
 date
 in
 days
+and
+date
+not
+in
+refill
+)
 or
 date
 not
@@ -3072,11 +3142,27 @@ artifacts
             
 continue
         
+verb
+=
+"
+Refilling
+"
+if
+date
+in
+days
+else
+"
+Filling
+"
+        
 print
 (
 f
 "
-Filling
+{
+verb
+}
 {
 date
 }
@@ -3146,6 +3232,17 @@ date
 ]
 =
 day_total_sketch
+        
+else
+:
+            
+total_sketches
+.
+pop
+(
+date
+None
+)
     
 state
 [
