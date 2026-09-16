@@ -188,9 +188,11 @@ tab_selected
 -
 tab
 -
-selected
+text
 -
-textcolor
+color
+-
+selected
 "
 {
 lwtProperty
