@@ -262,12 +262,6 @@ viewport
 nsPoint
 scrollState
 ;
-uint32_t
-scrollEventGeneration
-;
-uint32_t
-scrollEndEventGeneration
-;
 float
 resolution
 ;

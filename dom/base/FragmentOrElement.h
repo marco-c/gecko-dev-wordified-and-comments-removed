@@ -114,6 +114,9 @@ namespace
 mozilla
 {
 struct
+ScrollState
+;
+struct
 StyleLockedDeclarationBlock
 ;
 enum
@@ -630,6 +633,15 @@ UniquePtr
 RadioGroupContainer
 >
 mRadioGroupContainer
+;
+UniquePtr
+<
+mozilla
+:
+:
+ScrollState
+>
+mSavedScrollState
 ;
 Maybe
 <
