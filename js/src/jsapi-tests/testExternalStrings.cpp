@@ -140,6 +140,7 @@ isTwoBytes
 false
 ;
 explicit
+constexpr
 ExternalStringCallbacks
 (
 int
@@ -287,9 +288,8 @@ call
 }
 }
 ;
-MOZ_RUNINIT
 static
-const
+constexpr
 ExternalStringCallbacks
 callbacks1
 (
@@ -298,9 +298,8 @@ finalized1
 true
 )
 ;
-MOZ_RUNINIT
 static
-const
+constexpr
 ExternalStringCallbacks
 callbacks2
 (
@@ -309,9 +308,8 @@ finalized2
 true
 )
 ;
-MOZ_RUNINIT
 static
-const
+constexpr
 ExternalStringCallbacks
 callbacks3
 (
@@ -320,9 +318,8 @@ finalized3
 false
 )
 ;
-MOZ_RUNINIT
 static
-const
+constexpr
 ExternalStringCallbacks
 callbacks4
 (

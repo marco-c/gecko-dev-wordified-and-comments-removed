@@ -90,7 +90,7 @@ Text
 .
 h
 "
-MOZ_RUNINIT
+constinit
 static
 TestJSPrincipals
 system_principals
@@ -99,7 +99,7 @@ system_principals
 )
 ;
 static
-const
+constexpr
 JSClass
 global_class
 =
