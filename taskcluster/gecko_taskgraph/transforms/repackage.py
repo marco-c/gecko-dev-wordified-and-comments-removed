@@ -3453,8 +3453,6 @@ kind
 !
 =
 "
-shippable
--
 l10n
 -
 signing
@@ -3867,8 +3865,6 @@ kind
 !
 =
 "
-shippable
--
 l10n
 -
 signing

@@ -520,8 +520,6 @@ include
 build
 -
 signing
-shippable
--
 l10n
 -
 signing

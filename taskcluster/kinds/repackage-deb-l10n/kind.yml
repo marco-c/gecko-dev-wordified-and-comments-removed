@@ -114,8 +114,6 @@ kind
 dependencies
 :
 -
-shippable
--
 l10n
 -
 signing

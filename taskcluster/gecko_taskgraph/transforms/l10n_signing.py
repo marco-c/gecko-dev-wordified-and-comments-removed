@@ -131,6 +131,8 @@ get
 "
 l10n_chunk
 "
+"
+"
 )
 )
         
@@ -243,6 +245,34 @@ get
 "
 chunk_locales
 "
+)
+        
+locales
+=
+dep_job
+.
+attributes
+.
+get
+(
+"
+chunk_locales
+"
+)
+or
+dep_job
+.
+attributes
+.
+get
+(
+            
+"
+all_locales
+"
+[
+]
+        
 )
         
 locale_specifications
@@ -368,18 +398,7 @@ locale
 for
 locale
 in
-dep_job
-.
-attributes
-.
-get
-(
-"
-chunk_locales
-"
-[
-]
-)
+locales
                     
 for
 path_template

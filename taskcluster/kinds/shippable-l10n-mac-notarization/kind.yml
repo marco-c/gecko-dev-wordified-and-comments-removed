@@ -90,7 +90,7 @@ gecko_taskgraph
 .
 transforms
 .
-shippable_l10n_signing
+l10n_signing
 -
 gecko_taskgraph
 .

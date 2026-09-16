@@ -84,7 +84,7 @@ gecko_taskgraph
 .
 transforms
 .
-shippable_l10n_signing
+l10n_signing
 -
 gecko_taskgraph
 .
@@ -105,16 +105,8 @@ dependencies
 shippable
 -
 l10n
-only
 -
-for
--
-attributes
-:
--
-shippable
--
-nightly
+l10n
 not
 -
 for
@@ -160,8 +152,6 @@ hg
 ]
 tasks
 :
-shippable
--
 l10n
 -
 signing

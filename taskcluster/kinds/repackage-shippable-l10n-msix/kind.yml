@@ -155,8 +155,6 @@ from
 these
 .
 -
-shippable
--
 l10n
 -
 signing
@@ -170,8 +168,6 @@ kind
 -
 dependencies
 :
--
-shippable
 -
 l10n
 -

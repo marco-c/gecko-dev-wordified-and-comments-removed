@@ -120,8 +120,6 @@ repackage
 -
 l10n
 -
-shippable
--
 l10n
 -
 signing
@@ -271,8 +269,6 @@ l10n
 build
 -
 signing
-shippable
--
 l10n
 -
 signing
