@@ -1582,6 +1582,17 @@ profiling_command_flags
                 
 task
 .
+attributes
+[
+"
+task_duplicates
+"
+]
+=
+1
+                
+task
+.
 task
 [
 "

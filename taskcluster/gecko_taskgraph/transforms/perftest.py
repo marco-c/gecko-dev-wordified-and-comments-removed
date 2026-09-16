@@ -80,6 +80,17 @@ transforms
 TransformSequence
 (
 )
+PROFILING_TARGET_TASKS_METHODS
+=
+{
+"
+perftest
+-
+applink
+-
+profiling
+"
+}
 class
 PerftestDescriptionSchema
 (
@@ -1700,6 +1711,19 @@ with
 mach
 try
 fuzzy
+    
+or
+when
+a
+cron
+selects
+tasks
+through
+a
+profiling
+target
+tasks
+method
 .
     
 This
@@ -1733,6 +1757,8 @@ action
     
 gecko_profile
 =
+(
+        
 config
 .
 params
@@ -1754,6 +1780,22 @@ gecko
 profile
 "
 False
+)
+        
+or
+config
+.
+params
+.
+get
+(
+"
+target_tasks_method
+"
+)
+in
+PROFILING_TARGET_TASKS_METHODS
+    
 )
     
 simpleperf_compatible_tests
