@@ -787,6 +787,15 @@ getApplicationContext
 )
 )
 ;
+ThreadUtils
+.
+postToBackgroundThread
+(
+(
+)
+-
+>
+{
 GeckoAppShell
 .
 setIs24HourFormat
@@ -801,6 +810,9 @@ getApplicationContext
 (
 )
 )
+)
+;
+}
 )
 ;
 if
