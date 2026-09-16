@@ -60,6 +60,7 @@ interface
 nsISupports
 ;
 [
+SecureContext
 Pref
 =
 "

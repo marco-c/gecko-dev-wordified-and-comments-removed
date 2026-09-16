@@ -44,7 +44,7 @@ namespace
 dom
 {
 class
-SpeechRecognition
+SpeechRecognitionBackend
 ;
 class
 SpeechTrackListener
@@ -57,9 +57,9 @@ private
 explicit
 SpeechTrackListener
 (
-SpeechRecognition
+SpeechRecognitionBackend
 *
-aRecognition
+aBackend
 )
 ;
 public
@@ -71,9 +71,9 @@ SpeechTrackListener
 >
 Create
 (
-SpeechRecognition
+SpeechRecognitionBackend
 *
-aRecognition
+aBackend
 )
 ;
 ~
@@ -118,11 +118,11 @@ override
 ;
 private
 :
-nsMainThreadPtrHandle
+RefPtr
 <
-SpeechRecognition
+SpeechRecognitionBackend
 >
-mRecognition
+mBackend
 ;
 MozPromiseHolder
 <

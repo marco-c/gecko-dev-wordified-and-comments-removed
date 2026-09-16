@@ -242,7 +242,7 @@ IsFinal
 const
 {
 return
-true
+mIsFinal
 ;
 }
 }
