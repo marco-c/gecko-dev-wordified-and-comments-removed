@@ -130,7 +130,7 @@ WebAssembly
 Memory
 )
 ;
-assert_true
+assert_false
 (
 mod
 .
@@ -139,6 +139,17 @@ instanceof
 WebAssembly
 .
 Global
+)
+;
+assert_equals
+(
+typeof
+mod
+.
+glob
+"
+number
+"
 )
 ;
 assert_true
