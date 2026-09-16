@@ -13463,7 +13463,7 @@ ANDROID
 )
 value
 :
-false
+IS_NIGHTLY_BUILD
 #
 else
 value
