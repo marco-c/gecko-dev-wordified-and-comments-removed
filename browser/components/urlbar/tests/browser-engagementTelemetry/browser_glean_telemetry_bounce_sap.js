@@ -321,7 +321,7 @@ doSecondEngagementAndNavigateBack
 (
 win
 "
-urlbar
+urlbar_newtab
 "
 )
 assert
@@ -337,7 +337,7 @@ assertBounceTelemetry
 sap
 :
 "
-urlbar
+urlbar_newtab
 "
 }
 {
