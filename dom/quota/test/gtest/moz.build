@@ -156,6 +156,11 @@ TestEncryptedRandomAccessBlock
 cpp
 "
 "
+TestEncryptedRandomAccessStream
+.
+cpp
+"
+"
 TestEncryptedStream
 .
 cpp
@@ -177,6 +182,11 @@ cpp
 "
 "
 TestMozPromiseUtils
+.
+cpp
+"
+"
+TestNSSCipherStrategy
 .
 cpp
 "
