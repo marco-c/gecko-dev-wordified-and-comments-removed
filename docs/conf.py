@@ -330,6 +330,11 @@ mermaid_height
 "
 auto
 "
+mermaid_dark_theme
+=
+"
+default
+"
 mermaid_init_config
 =
 {
