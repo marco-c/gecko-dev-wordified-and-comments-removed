@@ -625,6 +625,12 @@ createSendGroup
 (
 )
 ;
+static
+readonly
+attribute
+boolean
+supportsReliableOnly
+;
 }
 ;
 enum
