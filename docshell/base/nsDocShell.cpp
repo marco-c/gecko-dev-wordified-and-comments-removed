@@ -48909,7 +48909,6 @@ Some
 scrollPos
 )
 aNewURI
-nullptr
 referrerInfo
 aDocument
 -
@@ -49002,7 +49001,6 @@ true
 Nothing
 (
 )
-aNewURI
 aNewURI
 referrerInfo
 aDocument
@@ -49429,9 +49427,6 @@ aPreviousScrollPos
 nsIURI
 *
 aURI
-nsIURI
-*
-aOriginalURI
 nsIReferrerInfo
 *
 aReferrerInfo
@@ -49612,14 +49607,6 @@ mContentTypeHint
 )
 ;
 }
-mActiveEntry
--
->
-SetOriginalURI
-(
-aOriginalURI
-)
-;
 mActiveEntry
 -
 >
