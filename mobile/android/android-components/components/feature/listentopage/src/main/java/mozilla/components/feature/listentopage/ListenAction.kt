@@ -218,16 +218,6 @@ page
 *
 *
 property
-text
-The
-article
-text
-as
-plain
-prose
-.
-*
-property
 languageTag
 language
 of
@@ -240,10 +230,6 @@ data
 class
 ContentReady
 (
-val
-text
-:
-String
 val
 languageTag
 :
