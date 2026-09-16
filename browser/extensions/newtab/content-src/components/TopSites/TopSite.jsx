@@ -2203,6 +2203,11 @@ attribution
 link
 .
 attribution
+is_ad_eligible_position
+:
+link
+.
+is_ad_eligible_position
 }
 }
 /
@@ -2317,6 +2322,15 @@ props
 link
 .
 weights
+is_ad_eligible_position
+:
+this
+.
+props
+.
+link
+.
+is_ad_eligible_position
 }
 }
 /

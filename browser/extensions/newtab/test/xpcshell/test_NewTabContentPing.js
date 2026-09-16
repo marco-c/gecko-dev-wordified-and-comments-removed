@@ -165,6 +165,11 @@ card_column
 "
 3
 "
+is_ad_eligible_position
+:
+"
+true
+"
 }
 ;
 let
