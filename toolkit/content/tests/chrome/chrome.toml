@@ -1540,13 +1540,6 @@ xhtml
 ]
 [
 "
-test_mozinputbox_dictionary
-.
-xhtml
-"
-]
-[
-"
 test_named_deck
 .
 html
