@@ -145,9 +145,7 @@ div
 .
 format
 (
-            
 direction
-        
 )
     
 )

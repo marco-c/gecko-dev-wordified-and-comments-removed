@@ -3896,28 +3896,26 @@ member
 .
 addExtendedAttributes
 (
-                    
 [
-                        
+                    
 IDLExtendedAttribute
 (
-                            
+                        
 self
 .
 _nonPartialInterfaceOrNamespace
 .
 location
-                            
+                        
 (
 "
 SecureContext
 "
 )
-                        
-)
                     
-]
+)
                 
+]
 )
         
 self
@@ -5333,9 +5331,6 @@ mixin
 member
 cannot
 include
-"
-                        
-"
 an
 inherited
 attribute
@@ -8108,11 +8103,7 @@ reflectedHTMLAttributesReturningFrozenArray
 totalMembersInSlots
 +
 =
-(
-                        
 1
-                    
-)
                 
 else
 :
@@ -9765,9 +9756,6 @@ be
 used
 on
 an
-"
-                            
-"
 identifierless
 operation
 "
@@ -11233,8 +11221,8 @@ method
 .
 addExtendedAttributes
 (
-                
 [
+                
 IDLExtendedAttribute
 (
 self
@@ -11246,8 +11234,8 @@ Throws
 "
 )
 )
-]
             
+]
 )
             
 method
@@ -13888,9 +13876,6 @@ attribute
 not
 allowed
 on
-"
-                    
-"
 dictionaries
 "
 %
@@ -17989,9 +17974,6 @@ ObservableArray
 type
 must
 not
-"
-                
-"
 be
 a
 sequence
@@ -18696,9 +18678,6 @@ nullable
 type
 and
 a
-"
-                        
-"
 dictionary
 type
 in
@@ -18793,9 +18772,6 @@ nullable
 type
 and
 a
-"
-                        
-"
 dictionary
 type
 in
@@ -24185,16 +24161,17 @@ self
 .
 withLegacyNullToEmptyString
 (
-                    
 [
+                    
 self
 .
 location
+                    
 attribute
 .
 location
-]
                 
+]
 )
             
 elif
@@ -28625,8 +28602,8 @@ method
 .
 addExtendedAttributes
 (
-                
 [
+                
 IDLExtendedAttribute
 (
 self
@@ -28638,8 +28615,8 @@ ChromeOnly
 "
 )
 )
-]
             
+]
 )
         
 if
@@ -28650,8 +28627,8 @@ method
 .
 addExtendedAttributes
 (
-                
 [
+                
 IDLExtendedAttribute
 (
 self
@@ -28663,8 +28640,8 @@ Pure
 "
 )
 )
-]
             
+]
 )
         
 if
@@ -28675,9 +28652,8 @@ method
 .
 addExtendedAttributes
 (
-                
 [
-                    
+                
 IDLExtendedAttribute
 (
 self
@@ -28692,7 +28668,7 @@ Everything
 "
 )
 )
-                    
+                
 IDLExtendedAttribute
 (
 self
@@ -28707,9 +28683,8 @@ Nothing
 "
 )
 )
-                
-]
             
+]
 )
         
 if
@@ -28720,8 +28695,8 @@ method
 .
 addExtendedAttributes
 (
-                
 [
+                
 IDLExtendedAttribute
 (
 self
@@ -28733,8 +28708,8 @@ NewObject
 "
 )
 )
-]
             
+]
 )
         
 if
@@ -28754,8 +28729,8 @@ method
 .
 addExtendedAttributes
 (
-                    
 [
+                    
 IDLExtendedAttribute
 (
 self
@@ -28770,8 +28745,8 @@ iterator
 "
 )
 )
-]
                 
+]
 )
             
 else
@@ -28781,8 +28756,8 @@ method
 .
 addExtendedAttributes
 (
-                    
 [
+                    
 IDLExtendedAttribute
 (
 self
@@ -28797,8 +28772,8 @@ asyncIterator
 "
 )
 )
-]
                 
+]
 )
         
 members
@@ -33869,9 +33844,6 @@ is
 not
 allowed
 on
-"
-                    
-"
 Promise
 -
 typed
@@ -34635,9 +34607,6 @@ s
 only
 allowed
 on
-"
-                    
-"
 readonly
 attributes
 "
@@ -35461,8 +35430,8 @@ method
 .
 addExtendedAttributes
 (
-                    
 [
+                    
 IDLExtendedAttribute
 (
 self
@@ -35472,8 +35441,8 @@ location
 key
 )
 )
-]
                 
+]
 )
             
 elif
@@ -36837,9 +36806,6 @@ LegacyTreatNonObjectAsNull
 is
 not
 supported
-"
-                        
-"
 on
 constructors
 "
@@ -38134,6 +38100,7 @@ or
 overload
 .
 returnType
+                    
 =
 =
 BuiltinTypes
@@ -41701,9 +41668,6 @@ of
 the
 default
 toJSON
-"
-                    
-"
 operation
 must
 be
@@ -42391,8 +42355,8 @@ self
 .
 addExtendedAttributes
 (
-            
 [
+            
 IDLExtendedAttribute
 (
 self
@@ -42404,8 +42368,8 @@ NewObject
 "
 )
 )
-]
         
+]
 )
 class
 IDLIncludesStatement
@@ -50155,23 +50119,18 @@ p
 )
             
 if
-(
-                
 not
 returnType
 .
 isDOMString
 (
 )
-                
 and
 not
 returnType
 .
 isUTF8String
 (
-)
-            
 )
 :
                 
@@ -55248,16 +55207,16 @@ itr_iface
 .
 addExtendedAttributes
 (
-                    
 [
+                    
 simpleExtendedAttr
 (
 "
 LegacyNoInterfaceObject
 "
 )
-]
                 
+]
 )
                 
 itr_iface

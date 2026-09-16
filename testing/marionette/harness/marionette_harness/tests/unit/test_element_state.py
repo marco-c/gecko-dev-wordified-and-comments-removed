@@ -479,9 +479,7 @@ html
 .
 format
 (
-                    
 doc
-                
 )
             
 )

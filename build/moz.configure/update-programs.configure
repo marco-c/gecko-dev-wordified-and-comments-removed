@@ -946,6 +946,7 @@ key
 requirements
 +
 =
+(
 f
 "
 <
@@ -966,6 +967,7 @@ relaxed
 string
 >
 "
+)
 return
 requirements
 set_config

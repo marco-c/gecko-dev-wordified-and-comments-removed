@@ -3067,6 +3067,7 @@ lambda
 c
 max_clang_version
 :
+(
 c
 .
 type
@@ -3091,6 +3092,7 @@ version
 <
 =
 max_clang_version
+)
 )
 is_clang
 =

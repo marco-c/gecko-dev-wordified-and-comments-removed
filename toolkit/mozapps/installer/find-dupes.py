@@ -89,7 +89,7 @@ path
 >
 normalize_osx_path
 (
-'
+"
 Nightly
 .
 app
@@ -99,7 +99,7 @@ foo
 bar
 /
 baz
-'
+"
 )
     
 '
@@ -664,10 +664,12 @@ allowed_dupes
 .
 is_allowed
 (
+                    
 normalize_path
 (
 p
 )
+                
 )
 :
                     

@@ -166,25 +166,24 @@ PRIORITARY_PROPERTIES
 =
 set
 (
-    
 [
-        
+    
 "
 writing
 -
 mode
 "
-        
+    
 "
 direction
 "
-        
+    
 "
 text
 -
 orientation
 "
-        
+    
 "
 -
 x
@@ -193,14 +192,14 @@ text
 -
 scale
 "
-        
+    
 "
 -
 x
 -
 lang
 "
-        
+    
 "
 -
 moz
@@ -213,19 +212,19 @@ size
 -
 ratio
 "
-        
+    
 "
 math
 -
 depth
 "
-        
+    
 "
 font
 -
 size
 "
-        
+    
 "
 font
 -
@@ -233,37 +232,37 @@ size
 -
 adjust
 "
-        
+    
 "
 font
 -
 weight
 "
-        
+    
 "
 font
 -
 width
 "
-        
+    
 "
 font
 -
 style
 "
-        
+    
 "
 font
 -
 family
 "
-        
+    
 "
 color
 -
 scheme
 "
-        
+    
 "
 forced
 -
@@ -271,17 +270,17 @@ color
 -
 adjust
 "
-        
+    
 "
 zoom
 "
-        
+    
 "
 line
 -
 height
 "
-        
+    
 "
 -
 moz
@@ -290,11 +289,10 @@ default
 -
 appearance
 "
-        
+    
 "
 appearance
 "
-    
 ]
 )
 PRIORITARY_PROPERTY_DEPENDENCIES
@@ -621,9 +619,8 @@ VISITED_DEPENDENT_PROPERTIES
 =
 set
 (
-    
 [
-        
+    
 "
 column
 -
@@ -631,7 +628,7 @@ rule
 -
 color
 "
-        
+    
 "
 text
 -
@@ -639,7 +636,7 @@ emphasis
 -
 color
 "
-        
+    
 "
 -
 webkit
@@ -650,7 +647,7 @@ fill
 -
 color
 "
-        
+    
 "
 -
 webkit
@@ -661,7 +658,7 @@ stroke
 -
 color
 "
-        
+    
 "
 text
 -
@@ -669,27 +666,27 @@ decoration
 -
 color
 "
-        
+    
 "
 fill
 "
-        
+    
 "
 stroke
 "
-        
+    
 "
 caret
 -
 color
 "
-        
+    
 "
 background
 -
 color
 "
-        
+    
 "
 border
 -
@@ -697,7 +694,7 @@ top
 -
 color
 "
-        
+    
 "
 border
 -
@@ -705,7 +702,7 @@ right
 -
 color
 "
-        
+    
 "
 border
 -
@@ -713,7 +710,7 @@ bottom
 -
 color
 "
-        
+    
 "
 border
 -
@@ -721,7 +718,7 @@ left
 -
 color
 "
-        
+    
 "
 border
 -
@@ -731,7 +728,7 @@ start
 -
 color
 "
-        
+    
 "
 border
 -
@@ -741,7 +738,7 @@ end
 -
 color
 "
-        
+    
 "
 border
 -
@@ -751,7 +748,7 @@ end
 -
 color
 "
-        
+    
 "
 border
 -
@@ -761,17 +758,16 @@ start
 -
 color
 "
-        
+    
 "
 outline
 -
 color
 "
-        
+    
 "
 color
 "
-    
 ]
 )
 STYLE_RULE
@@ -1238,9 +1234,9 @@ None
         
 separator
 =
-'
+"
 Comma
-'
+"
         
 animation_type
 =
@@ -1341,7 +1337,6 @@ self
 values
 =
 values
-;
         
 assert
 isinstance
@@ -1408,6 +1403,7 @@ Style
 +
 to_camel_case
 (
+                
 name
 .
 replace
@@ -1431,6 +1427,7 @@ webkit
 "
 "
 )
+            
 )
         
 self
@@ -1479,6 +1476,8 @@ self
 .
 gecko_inexhaustive
 =
+(
+            
 gecko_inexhaustive
 or
 self
@@ -1487,6 +1486,8 @@ gecko_constant_prefix
 is
 not
 None
+        
+)
     
 def
 values_for
@@ -2310,9 +2311,9 @@ None
         
 parse_method
 =
-'
+"
 parse
-'
+"
         
 spec
 =
@@ -4817,22 +4818,30 @@ object
 def
 __init__
 (
+        
 self
+        
 name
+        
 type
+        
 parser
 =
 None
+        
 gecko_pref
 =
 None
+        
 ignore_malloc_size_of
 =
 None
+        
 aliases
 =
 [
 ]
+    
 )
 :
         
@@ -5270,6 +5279,7 @@ toml
 .
 loads
 (
+            
 open
 (
 os
@@ -5297,6 +5307,7 @@ toml
 read
 (
 )
+        
 )
         
 for
@@ -5327,15 +5338,15 @@ struct
 del
 args
 [
-'
+"
 struct
-'
+"
 ]
             
 if
-'
+"
 keyword
-'
+"
 in
 args
 :
@@ -5346,15 +5357,15 @@ args
 .
 pop
 (
-'
+"
 keyword
-'
+"
 )
                 
 if
-'
+"
 values
-'
+"
 not
 in
 keyword_dict
@@ -5384,9 +5395,9 @@ keyword_dict
 .
 pop
 (
-'
+"
 values
-'
+"
 )
                 
 keyword
@@ -5418,9 +5429,9 @@ else
 :
                 
 if
-'
+"
 type
-'
+"
 not
 in
 args
@@ -5443,24 +5454,24 @@ type
                 
 args
 [
-'
+"
 predefined_type
-'
+"
 ]
 =
 args
 .
 pop
 (
-'
+"
 type
-'
+"
 )
                 
 if
-'
+"
 initial
-'
+"
 not
 in
 args
@@ -5470,15 +5481,16 @@ args
 .
 get
 (
-'
+"
 vector
-'
+"
 )
 :
                     
 raise
 TypeError
 (
+                        
 f
 "
 {
@@ -5498,22 +5510,23 @@ lack
 one
 )
 "
+                    
 )
                 
 args
 [
-'
+"
 initial_value
-'
+"
 ]
 =
 args
 .
 pop
 (
-'
+"
 initial
-'
+"
 None
 )
                 
@@ -5571,6 +5584,7 @@ props
 raise
 RuntimeError
 (
+                    
 f
 "
 Logical
@@ -5585,6 +5599,7 @@ logical
 physical
 properties
 "
+                
 )
         
 self
@@ -5683,6 +5698,7 @@ group
 in
 groupby
 (
+            
 sorted
 (
 self
@@ -5693,6 +5709,7 @@ key
 keyfunc
 )
 keyfunc
+        
 )
 :
             
@@ -5989,6 +6006,7 @@ toml
 .
 loads
 (
+            
 open
 (
 os
@@ -6016,6 +6034,7 @@ toml
 read
 (
 )
+        
 )
         
 for
@@ -6053,11 +6072,13 @@ self
 .
 _load_descriptors
 (
+            
 "
 font_face_descriptors
 .
 toml
 "
+        
 )
         
 self
@@ -6068,11 +6089,13 @@ self
 .
 _load_descriptors
 (
+            
 "
 counter_style_descriptors
 .
 toml
 "
+        
 )
         
 self
@@ -6098,11 +6121,13 @@ self
 .
 _load_descriptors
 (
+            
 "
 view_transition_descriptors
 .
 toml
 "
+        
 )
     
 def
@@ -6136,19 +6161,18 @@ p
 name
 in
 [
-'
+"
 direction
-'
-'
+"
+"
 unicode
 -
 bidi
-'
+"
 ]
 :
                 
 continue
-;
             
 if
 not
@@ -6170,7 +6194,6 @@ engine
 :
                 
 continue
-;
             
 if
 "
@@ -6186,7 +6209,6 @@ rule_types_allowed_names
 :
                 
 continue
-;
             
 if
 p
@@ -6481,6 +6503,7 @@ pref
 def
 declare_longhand
 (
+        
 self
 style_struct
 name
@@ -6493,6 +6516,7 @@ None
 *
 *
 kwargs
+    
 )
 :
         
@@ -6526,9 +6550,9 @@ kwargs
 .
 setdefault
 (
-'
+"
 aliases
-'
+"
 [
 ]
 )
@@ -6629,13 +6653,11 @@ logical_groups
 .
 setdefault
 (
-                
 longhand
 .
 logical_group
 [
 ]
-            
 )
 .
 append
@@ -6649,23 +6671,32 @@ longhand
 def
 declare_shorthand
 (
+        
 self
+        
 name
+        
 sub_properties
+        
 extra_gecko_sub_properties
 =
 None
+        
 extra_gecko_aliases
 =
 None
+        
 engine
 =
 None
+        
 *
 args
+        
 *
 *
 kwargs
+    
 )
 :
         
@@ -6712,9 +6743,9 @@ kwargs
 .
 setdefault
 (
-'
+"
 aliases
-'
+"
 [
 ]
 )
@@ -6865,21 +6896,28 @@ self
 :
         
 return
+(
+            
 self
 .
 longhands
+            
 +
 self
 .
 shorthands
+            
 +
 self
 .
 longhand_aliases
+            
 +
 self
 .
 shorthand_aliases
+        
+)
 def
 _add_logical_props
 (
@@ -7275,91 +7313,89 @@ props
 =
 set
 (
-            
 [
-                
+            
 "
 fill
 "
-                
+            
 "
 fill
 -
 opacity
 "
-                
+            
 "
 fill
 -
 rule
 "
-                
+            
 "
 paint
 -
 order
 "
-                
+            
 "
 stroke
 "
-                
+            
 "
 stroke
 -
 dasharray
 "
-                
+            
 "
 stroke
 -
 dashoffset
 "
-                
+            
 "
 stroke
 -
 linecap
 "
-                
+            
 "
 stroke
 -
 linejoin
 "
-                
+            
 "
 stroke
 -
 miterlimit
 "
-                
+            
 "
 stroke
 -
 opacity
 "
-                
+            
 "
 stroke
 -
 width
 "
-                
+            
 "
 text
 -
 rendering
 "
-                
+            
 "
 vector
 -
 effect
 "
-            
-]
         
+]
 )
         
 return
@@ -7376,9 +7412,8 @@ webkit_text_properties
 return
 set
 (
-            
 [
-                
+            
 "
 -
 webkit
@@ -7389,7 +7424,7 @@ stroke
 -
 width
 "
-                
+            
 "
 -
 webkit
@@ -7400,7 +7435,7 @@ fill
 -
 color
 "
-                
+            
 "
 -
 webkit
@@ -7411,9 +7446,8 @@ stroke
 -
 color
 "
-            
-]
         
+]
 )
     
 staticmethod

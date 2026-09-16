@@ -403,6 +403,7 @@ second_marionette
 =
 Marionette
 (
+            
 host
 =
 self
@@ -417,6 +418,7 @@ self
 marionette
 .
 port
+        
 )
         
 first_gecko_log
@@ -431,7 +433,10 @@ gecko_log
         
 gecko_log
 =
+(
+            
 first_gecko_log
+            
 if
 first_gecko_log
 =
@@ -439,6 +444,7 @@ first_gecko_log
 "
 -
 "
+            
 else
 os
 .
@@ -447,6 +453,8 @@ path
 dirname
 (
 first_gecko_log
+)
+        
 )
         
 second_marionette
@@ -459,6 +467,7 @@ create
 (
             
 None
+            
 host
 =
 second_marionette
@@ -482,6 +491,7 @@ bin
 gecko_log
 =
 gecko_log
+        
 )
         
 self
@@ -526,9 +536,11 @@ runner
 .
 wait
 (
+            
 second_marionette
 .
 DEFAULT_SHUTDOWN_TIMEOUT
+        
 )
         
 self

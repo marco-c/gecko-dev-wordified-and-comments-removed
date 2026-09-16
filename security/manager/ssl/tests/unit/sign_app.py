@@ -742,6 +742,7 @@ entry
 def
 getCert
 (
+    
 subject
 keyName
 issuerName
@@ -989,6 +990,7 @@ certSpecificationStream
 def
 coseAlgorithmToSignatureParams
 (
+    
 coseAlgorithm
 issuerName
 issuerKey

@@ -5626,9 +5626,8 @@ x509
 .
 Name
 (
-        
 [
-            
+        
 x509
 .
 NameAttribute
@@ -5640,7 +5639,7 @@ COUNTRY_NAME
 US
 "
 )
-            
+        
 x509
 .
 NameAttribute
@@ -5652,7 +5651,7 @@ STATE_OR_PROVINCE_NAME
 TX
 "
 )
-            
+        
 x509
 .
 NameAttribute
@@ -5664,7 +5663,7 @@ LOCALITY_NAME
 Dallas
 "
 )
-            
+        
 x509
 .
 NameAttribute
@@ -5678,7 +5677,7 @@ test
 iceserver
 "
 )
-            
+        
 x509
 .
 NameAttribute
@@ -5688,9 +5687,8 @@ NameOID
 COMMON_NAME
 name
 )
-        
-]
     
+]
 )
     
 cert
@@ -5698,6 +5696,7 @@ cert
 (
         
 x509
+        
 .
 CertificateBuilder
 (

@@ -671,9 +671,9 @@ find_element
 By
 .
 ID
-'
+"
 input
-'
+"
 )
         
 sel
@@ -744,10 +744,10 @@ tag_name
 in
 (
 "
-INPUT
+input
 "
 "
-TEXTAREA
+textarea
 "
 )
     
@@ -994,7 +994,6 @@ character
 .
 format
 (
-                
 offset
 "
 backward
@@ -1005,7 +1004,6 @@ else
 "
 forward
 "
-            
 )
         
 )

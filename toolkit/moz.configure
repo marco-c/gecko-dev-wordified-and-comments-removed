@@ -21141,6 +21141,7 @@ wasi_sysroot_flags
 lambda
 sysroot_flags
 :
+(
 [
 "
 -
@@ -21163,6 +21164,7 @@ clocks
 ]
 +
 sysroot_flags
+)
 )
 when
 =

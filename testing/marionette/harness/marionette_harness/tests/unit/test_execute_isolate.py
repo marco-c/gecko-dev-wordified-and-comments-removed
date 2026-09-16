@@ -181,9 +181,7 @@ resolve
 .
 format
 (
-                
 multiplier
-            
 )
         
 )
