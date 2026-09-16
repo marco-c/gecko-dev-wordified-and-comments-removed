@@ -223,11 +223,9 @@ on
 the
 browser
 .
-design
--
-tokens
-.
 nova
+.
+enabled
 pref
 in
 "
