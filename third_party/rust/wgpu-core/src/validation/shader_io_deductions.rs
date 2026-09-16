@@ -607,6 +607,11 @@ BuiltIn
 :
 :
 HitKind
+|
+BuiltIn
+:
+:
+HitBarycentrics
 =
 >
 return

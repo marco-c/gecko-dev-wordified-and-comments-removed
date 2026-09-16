@@ -129,6 +129,9 @@ mod
 cast_utils
 ;
 mod
+compilation_info
+;
+mod
 counters
 ;
 mod
@@ -240,6 +243,13 @@ binding
 pub
 use
 buffer
+:
+:
+*
+;
+pub
+use
+compilation_info
 :
 :
 *

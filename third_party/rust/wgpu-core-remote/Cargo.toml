@@ -389,6 +389,11 @@ wgpu
 -
 core
 "
+default
+-
+features
+=
+false
 [
 dependencies
 .
@@ -449,6 +454,11 @@ wgpu
 -
 hal
 "
+default
+-
+features
+=
+false
 [
 dependencies
 .

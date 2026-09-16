@@ -822,6 +822,11 @@ Bi
 :
 :
 HitKind
+|
+Bi
+:
+:
+HitBarycentrics
 =
 >
 {

@@ -328,6 +328,11 @@ wgpu
 -
 hal
 "
+default
+-
+features
+=
+true
 [
 lints
 .

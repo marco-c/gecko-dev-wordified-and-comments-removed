@@ -328,6 +328,13 @@ wgt
 :
 :
 ImageSubresourceRange
+pub
+swizzle
+:
+wgt
+:
+:
+TextureComponentSwizzle
 }
 #
 [

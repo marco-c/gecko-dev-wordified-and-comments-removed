@@ -5621,6 +5621,11 @@ range
 desc
 .
 range
+swizzle
+:
+desc
+.
+swizzle
 }
 }
 A

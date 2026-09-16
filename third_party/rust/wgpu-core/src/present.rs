@@ -1602,6 +1602,17 @@ ImageSubresourceRange
 default
 (
 )
+swizzle
+:
+wgt
+:
+:
+TextureComponentSwizzle
+:
+:
+default
+(
+)
 }
 ;
 let

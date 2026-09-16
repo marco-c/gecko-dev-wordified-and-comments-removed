@@ -1939,6 +1939,17 @@ ImageSubresourceRange
 default
 (
 )
+swizzle
+:
+wgpu_types
+:
+:
+TextureComponentSwizzle
+:
+:
+default
+(
+)
 }
 )
 .

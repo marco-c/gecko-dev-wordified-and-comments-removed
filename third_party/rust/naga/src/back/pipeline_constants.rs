@@ -4468,6 +4468,17 @@ Terminate
 >
 {
 }
+crate
+:
+:
+RayQueryFunction
+:
+:
+Begin
+=
+>
+{
+}
 }
 }
 Statement

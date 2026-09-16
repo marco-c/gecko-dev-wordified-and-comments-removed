@@ -3401,10 +3401,6 @@ get
 (
 )
 aBufferId
-mapData
--
->
-mIsMapped
 )
 ;
 mapData
@@ -5218,7 +5214,6 @@ req
 >
 mContext
 bufferId
-true
 )
 ;
 }
@@ -5705,7 +5700,6 @@ req
 -
 >
 mBufferId
-true
 )
 ;
 }
@@ -7436,10 +7430,6 @@ mContext
 get
 (
 )
-data
--
->
-mDeviceId
 bufferId
 0
 bufferSize

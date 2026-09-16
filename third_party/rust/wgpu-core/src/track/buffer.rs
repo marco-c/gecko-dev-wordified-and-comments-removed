@@ -61,7 +61,6 @@ track
 :
 :
 {
-invalid_resource_state
 skip_barrier
 ResourceMetadata
 ResourceMetadataProvider
@@ -98,7 +97,7 @@ self
 )
 -
 >
-u16
+u32
 {
 Self
 :
@@ -107,6 +106,10 @@ bits
 (
 &
 self
+)
+.
+into
+(
 )
 }
 fn
@@ -2812,9 +2815,10 @@ index
 strict_assert_eq
 !
 (
-invalid_resource_state
-(
 new_start_state
+.
+is_invalid
+(
 )
 false
 )
@@ -2822,9 +2826,10 @@ false
 strict_assert_eq
 !
 (
-invalid_resource_state
-(
 new_end_state
+.
+is_invalid
+(
 )
 false
 )
@@ -2976,9 +2981,10 @@ current_state
 new_state
 ;
 if
-invalid_resource_state
-(
 merged_state
+.
+is_invalid
+(
 )
 {
 return

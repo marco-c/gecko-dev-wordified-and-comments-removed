@@ -465,6 +465,7 @@ RayTCurrentMax
 ObjectToWorld
 WorldToObject
 HitKind
+HitBarycentrics
 }
 pub
 type
@@ -4800,6 +4801,7 @@ Expression
 }
 ConfirmIntersection
 Terminate
+Begin
 }
 #
 [

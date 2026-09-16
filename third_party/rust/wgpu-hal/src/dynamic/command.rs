@@ -4328,6 +4328,16 @@ clear_value
 self
 .
 clear_value
+depth_read_only
+:
+self
+.
+depth_read_only
+stencil_read_only
+:
+self
+.
+stencil_read_only
 }
 }
 }

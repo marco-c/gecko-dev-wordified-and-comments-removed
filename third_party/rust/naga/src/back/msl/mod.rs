@@ -3616,6 +3616,11 @@ Bi
 :
 :
 HitKind
+|
+Bi
+:
+:
+HitBarycentrics
 =
 >
 unreachable
