@@ -463,6 +463,11 @@ words_taken_
 =
 0
 ;
+size_t
+eou_closed_words_
+=
+0
+;
 float
 frame_sec_f_
 =
@@ -475,6 +480,10 @@ regroup_words
 (
 bool
 flush_all
+size_t
+eou_word_tokens
+=
+0
 )
 ;
 }
