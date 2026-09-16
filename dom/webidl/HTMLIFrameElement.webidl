@@ -467,7 +467,7 @@ dom
 .
 security
 .
-featurePolicy
+permissionsPolicy
 .
 webidl
 .

@@ -22449,7 +22449,7 @@ if
 StaticPrefs
 :
 :
-dom_security_featurePolicy_header_enabled
+dom_security_permissionsPolicy_header_enabled
 (
 )
 )

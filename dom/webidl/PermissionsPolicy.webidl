@@ -142,7 +142,7 @@ dom
 .
 reporting
 .
-featurePolicy
+permissionsPolicy
 .
 enabled
 "
