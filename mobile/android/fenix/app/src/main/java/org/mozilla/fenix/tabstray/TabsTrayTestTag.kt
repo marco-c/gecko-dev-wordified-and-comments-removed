@@ -381,6 +381,15 @@ thumbnail
 "
 const
 val
+TAB_ITEM_MEDIA_INDICATOR
+=
+"
+TAB_ITEM_ROOT
+.
+mediaIndicator
+"
+const
+val
 TAB_GROUP_ONBOARDING_ITEM
 =
 "
