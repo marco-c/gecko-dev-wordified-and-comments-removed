@@ -2189,6 +2189,12 @@ GetCallbackTrieStatsForTesting
 ;
 static
 void
+ReapCallbacksForTesting
+(
+)
+;
+static
+void
 HandleDirty
 (
 )
