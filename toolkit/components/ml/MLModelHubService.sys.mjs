@@ -1404,15 +1404,6 @@ hub
 service
 "
 sessionId
-telemetryData
-:
-{
-component
-:
-"
-MLModelHubService
-"
-}
 }
 )
 ;
