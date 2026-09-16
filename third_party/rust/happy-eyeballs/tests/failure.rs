@@ -27,6 +27,7 @@ happy_eyeballs
 {
 ConnectionAttemptHttpVersions
 Endpoint
+EndpointTarget
 FailureReason
 HappyEyeballs
 Id
@@ -558,8 +559,13 @@ endpoint
 :
 Endpoint
 {
-address
+target
 :
+EndpointTarget
+:
+:
+Address
+(
 SocketAddr
 :
 :
@@ -582,6 +588,7 @@ new
 )
 )
 PORT
+)
 )
 http_version
 :

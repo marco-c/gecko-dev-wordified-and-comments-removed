@@ -34,13 +34,13 @@ workflows
 sbom
 .
 yml
-c7f9db3409fff64a55f16ac0cacbc4cdd05ae435
+2152d1412122b04d838d6341aa3b4d6160b3de32
 #
-v1
+v2
 .
-1
+0
 .
-19
+5
 permissions
 :
 actions
