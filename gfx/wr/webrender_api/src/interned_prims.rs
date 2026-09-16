@@ -48,6 +48,7 @@ PrimKeyCommonData
 RadialGradientParams
 SizeKey
 StretchSizeKey
+SubRectKey
 VectorKey
 }
 ;
@@ -255,6 +256,13 @@ pub
 alpha_type
 :
 AlphaType
+pub
+sub_rect
+:
+Option
+<
+SubRectKey
+>
 }
 #
 [

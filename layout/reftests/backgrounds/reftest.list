@@ -3164,12 +3164,6 @@ fuzzy
 -
 49600
 )
-fails
--
-if
-(
-useDrawSnapshot
-)
 =
 =
 background
