@@ -842,6 +842,8 @@ media
 :
 TimeUnit
 aMediaTime
+VideoRotation
+aRotation
 )
 {
 VideoChunk
@@ -873,6 +875,13 @@ chunk
 mMediaTime
 =
 aMediaTime
+;
+chunk
+-
+>
+mRotation
+=
+aRotation
 ;
 VideoFrame
 frame

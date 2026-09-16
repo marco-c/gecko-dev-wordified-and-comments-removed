@@ -689,6 +689,13 @@ TimeUnit
 Invalid
 (
 )
+VideoRotation
+aRotation
+=
+VideoRotation
+:
+:
+kDegree_0
 )
 ;
 void

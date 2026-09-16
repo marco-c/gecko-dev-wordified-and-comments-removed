@@ -14,6 +14,13 @@ h
 #
 include
 "
+MediaInfo
+.
+h
+"
+#
+include
+"
 modules
 /
 video_capture
@@ -219,6 +226,11 @@ mozilla
 :
 TimeStamp
 aTime
+mozilla
+:
+:
+VideoRotation
+aRotation
 )
 ;
 const

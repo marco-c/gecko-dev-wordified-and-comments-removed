@@ -14,6 +14,13 @@ h
 #
 include
 "
+MediaInfo
+.
+h
+"
+#
+include
+"
 PerformanceRecorder
 .
 h
@@ -151,6 +158,7 @@ layers
 Image
 >
 TimeStamp
+VideoRotation
 >
 &
 GeneratedImageEvent
@@ -214,6 +222,7 @@ layers
 Image
 >
 TimeStamp
+VideoRotation
 >
 mGeneratedImageEvent
 ;
