@@ -4,12 +4,16 @@ import
 annotations
 import
 os
-import
-shutil
 from
-setuptools
+typing
+import
+ClassVar
+from
+.
+.
 import
 Command
+_shutil
 from
 distutils
 import
@@ -118,9 +122,12 @@ keep
     
 boolean_options
 :
+ClassVar
+[
 list
 [
 str
+]
 ]
 =
 [
@@ -156,6 +163,9 @@ finalize_options
 (
 self
 )
+-
+>
+None
 :
         
 if
@@ -322,6 +332,9 @@ run
 (
 self
 )
+-
+>
+None
 :
         
 self
@@ -463,13 +476,6 @@ f
 )
                 
 if
-not
-self
-.
-dry_run
-:
-                    
-if
 os
 .
 path
@@ -479,17 +485,17 @@ isdir
 f
 )
 :
-                        
-shutil
+                    
+_shutil
 .
 rmtree
 (
 f
 )
-                    
+                
 else
 :
-                        
+                    
 os
 .
 unlink

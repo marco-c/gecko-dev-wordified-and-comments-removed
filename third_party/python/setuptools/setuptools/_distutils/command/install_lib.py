@@ -23,6 +23,10 @@ modules
 "
 "
 "
+from
+__future__
+import
+annotations
 import
 importlib
 .
@@ -31,6 +35,11 @@ import
 os
 import
 sys
+from
+typing
+import
+Any
+ClassVar
 from
 .
 .
@@ -244,6 +253,14 @@ steps
 ]
     
 boolean_options
+:
+ClassVar
+[
+list
+[
+str
+]
+]
 =
 [
 '
@@ -260,6 +277,15 @@ build
 ]
     
 negative_opt
+:
+ClassVar
+[
+dict
+[
+str
+str
+]
+]
 =
 {
 '
@@ -321,6 +347,9 @@ finalize_options
 (
 self
 )
+-
+>
+None
 :
         
 self
@@ -479,6 +508,9 @@ run
 (
 self
 )
+-
+>
+None
 :
         
 self
@@ -522,6 +554,9 @@ build
 (
 self
 )
+-
+>
+None
 :
         
 if
@@ -574,6 +609,14 @@ install
 (
 self
 )
+-
+>
+list
+[
+str
+]
+|
+Any
 :
         
 if
@@ -645,6 +688,9 @@ byte_compile
 self
 files
 )
+-
+>
+None
 :
         
 if
@@ -714,12 +760,6 @@ force
 prefix
 =
 install_root
-                
-dry_run
-=
-self
-.
-dry_run
             
 )
         
@@ -757,12 +797,6 @@ verbose
 self
 .
 verbose
-                
-dry_run
-=
-self
-.
-dry_run
             
 )
     

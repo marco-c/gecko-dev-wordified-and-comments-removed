@@ -57,7 +57,9 @@ names
 import
 shutil
 from
-typing
+collections
+.
+abc
 import
 Sequence
 def

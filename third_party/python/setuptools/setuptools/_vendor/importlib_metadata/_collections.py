@@ -1,5 +1,7 @@
 import
 collections
+import
+typing
 class
 FreezableDefaultDict
 (
@@ -146,20 +148,19 @@ default_factory
 class
 Pair
 (
-collections
+typing
 .
-namedtuple
-(
-'
-Pair
-'
-'
-name
-value
-'
-)
+NamedTuple
 )
 :
+    
+name
+:
+str
+    
+value
+:
+str
     
 classmethod
     

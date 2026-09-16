@@ -1,10 +1,13 @@
+from
+__future__
+import
+annotations
 import
 abc
 from
 typing
 import
 TYPE_CHECKING
-Optional
 from
 pip
 .
@@ -32,11 +35,9 @@ pip
 .
 _internal
 .
-index
-.
-package_finder
+build_env
 import
-PackageFinder
+BuildEnvironmentInstaller
 class
 AbstractDistribution
 (
@@ -220,10 +221,9 @@ self
 )
 -
 >
-Optional
-[
 str
-]
+|
+None
 :
         
 "
@@ -305,11 +305,9 @@ prepare_distribution_metadata
         
 self
         
-finder
+build_env_installer
 :
-"
-PackageFinder
-"
+BuildEnvironmentInstaller
         
 build_isolation
 :

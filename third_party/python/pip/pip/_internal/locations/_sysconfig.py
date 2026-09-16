@@ -1,3 +1,7 @@
+from
+__future__
+import
+annotations
 import
 logging
 import
@@ -6,8 +10,6 @@ import
 sys
 import
 sysconfig
-import
-typing
 from
 pip
 .
@@ -732,23 +734,17 @@ False
     
 home
 :
-typing
-.
-Optional
-[
 str
-]
+|
+None
 =
 None
     
 root
 :
-typing
-.
-Optional
-[
 str
-]
+|
+None
 =
 None
     
@@ -760,12 +756,9 @@ False
     
 prefix
 :
-typing
-.
-Optional
-[
 str
-]
+|
+None
 =
 None
 )

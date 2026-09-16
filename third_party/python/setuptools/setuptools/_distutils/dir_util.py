@@ -158,6 +158,18 @@ self
                 
 return
             
+result
+=
+func
+(
+path
+*
+args
+*
+*
+kwargs
+)
+            
 self
 .
 add
@@ -170,15 +182,7 @@ absolute
 )
             
 return
-func
-(
-path
-*
-args
-*
-*
-kwargs
-)
+result
         
 return
 wrapper
@@ -207,10 +211,10 @@ mode
 verbose
 =
 True
-dry_run
-=
-False
 )
+-
+>
+None
 :
     
 "
@@ -300,15 +304,6 @@ directory
 created
 .
     
-Return
-the
-list
-of
-directories
-actually
-created
-.
-    
 "
 "
 "
@@ -336,42 +331,9 @@ s
 name
 )
     
-ancestry
-=
-itertools
-.
-chain
-(
-(
-name
-)
-name
-.
-parents
-)
-    
-missing
-=
-(
-path
-for
-path
-in
-ancestry
-if
-not
-path
-.
-is_dir
-(
-)
-)
-    
 try
 :
         
-dry_run
-or
 name
 .
 mkdir
@@ -417,16 +379,6 @@ args
 ]
 }
 "
-)
-    
-return
-list
-(
-map
-(
-str
-missing
-)
 )
 mkpath
 .
@@ -531,9 +483,6 @@ mode
 verbose
 =
 True
-dry_run
-=
-False
 )
 :
     
@@ -625,14 +574,11 @@ exist
 '
 mode
 '
+and
 '
 verbose
 '
-and
     
-'
-dry_run
-'
 flags
 are
 as
@@ -690,9 +636,6 @@ mode
 verbose
 =
 verbose
-dry_run
-=
-dry_run
 )
 def
 copy_tree
@@ -721,10 +664,6 @@ False
 verbose
 =
 True
-    
-dry_run
-=
-False
 )
 :
     
@@ -856,10 +795,6 @@ by
 '
 update
 '
-or
-'
-dry_run
-'
 :
 it
 is
@@ -978,9 +913,6 @@ copy_file
     
 if
 not
-dry_run
-and
-not
 os
 .
 path
@@ -1029,18 +961,6 @@ as
 e
 :
         
-if
-dry_run
-:
-            
-names
-=
-[
-]
-        
-else
-:
-            
 raise
 DistutilsFileError
 (
@@ -1064,11 +984,6 @@ strerror
 "
 )
     
-if
-not
-dry_run
-:
-        
 mkpath
 (
 dst
@@ -1101,10 +1016,6 @@ preserve_symlinks
 verbose
 =
 verbose
-        
-dry_run
-=
-dry_run
         
 preserve_mode
 =
@@ -1151,8 +1062,6 @@ dst
 preserve_symlinks
     
 verbose
-    
-dry_run
     
 preserve_mode
     
@@ -1246,11 +1155,6 @@ dst_name
 link_dest
 )
         
-if
-not
-dry_run
-:
-            
 os
 .
 symlink
@@ -1293,10 +1197,6 @@ update
 verbose
 =
 verbose
-            
-dry_run
-=
-dry_run
         
 )
     
@@ -1321,10 +1221,6 @@ update
 verbose
 =
 verbose
-            
-dry_run
-=
-dry_run
         
 )
         
@@ -1434,9 +1330,6 @@ directory
 verbose
 =
 True
-dry_run
-=
-False
 )
 :
     
@@ -1502,12 +1395,6 @@ it
 "
 directory
 )
-    
-if
-dry_run
-:
-        
-return
     
 cmdtuples
 =

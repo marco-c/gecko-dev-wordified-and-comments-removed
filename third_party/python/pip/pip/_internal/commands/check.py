@@ -5,10 +5,6 @@ optparse
 import
 Values
 from
-typing
-import
-List
-from
 pip
 .
 _internal
@@ -131,7 +127,7 @@ options
 Values
 args
 :
-List
+list
 [
 str
 ]

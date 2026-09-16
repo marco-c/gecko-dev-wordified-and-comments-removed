@@ -450,7 +450,11 @@ version
 )
                 
 |
-extra
+extras
+?
+                
+|
+dependency_groups
             
 )
 \
@@ -869,15 +873,13 @@ again
 "
         
 assert
-(
-            
 self
 .
 next_token
 is
 None
-        
-)
+(
+            
 f
 "
 Cannot
@@ -898,6 +900,8 @@ next_token
 r
 }
 "
+        
+)
         
 assert
 name

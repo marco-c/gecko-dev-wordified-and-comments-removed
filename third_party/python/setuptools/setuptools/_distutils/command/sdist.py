@@ -23,10 +23,20 @@ distribution
 "
 "
 "
+from
+__future__
+import
+annotations
 import
 os
 import
 sys
+from
+collections
+.
+abc
+import
+Callable
 from
 distutils
 import
@@ -47,6 +57,10 @@ from
 itertools
 import
 filterfalse
+from
+typing
+import
+ClassVar
 from
 .
 .
@@ -212,6 +226,9 @@ checking_metadata
 (
 self
 )
+-
+>
+bool
 :
         
 "
@@ -673,6 +690,14 @@ group
 ]
     
 boolean_options
+:
+ClassVar
+[
+list
+[
+str
+]
+]
 =
 [
         
@@ -713,6 +738,27 @@ check
 ]
     
 help_options
+:
+ClassVar
+[
+list
+[
+tuple
+[
+str
+str
+|
+None
+str
+Callable
+[
+[
+]
+object
+]
+]
+]
+]
 =
 [
         
@@ -735,8 +781,18 @@ show_formats
 ]
     
 negative_opt
+:
+ClassVar
+[
+dict
+[
+str
+str
+]
+]
 =
 {
+        
 '
 no
 -
@@ -748,6 +804,7 @@ use
 -
 defaults
 '
+        
 '
 no
 -
@@ -757,6 +814,7 @@ prune
 '
 prune
 '
+    
 }
     
 sub_commands
@@ -771,6 +829,17 @@ checking_metadata
 ]
     
 READMES
+:
+ClassVar
+[
+tuple
+[
+str
+.
+.
+.
+]
+]
 =
 (
 '
@@ -863,7 +932,7 @@ self
 .
 metadata_check
 =
-1
+True
         
 self
 .
@@ -882,6 +951,9 @@ finalize_options
 (
 self
 )
+-
+>
+None
 :
         
 if
@@ -979,6 +1051,9 @@ run
 (
 self
 )
+-
+>
+None
 :
         
 self
@@ -1031,6 +1106,9 @@ get_file_list
 (
 self
 )
+-
+>
+None
 :
         
 "
@@ -1261,6 +1339,9 @@ add_defaults
 (
 self
 )
+-
+>
+None
 :
         
 "
@@ -2051,6 +2132,9 @@ read_template
 (
 self
 )
+-
+>
+None
 :
         
 "
@@ -2202,27 +2286,27 @@ self
 warn
 (
                         
+f
 "
-%
-s
-line
-%
-d
-:
-%
-s
-"
-                        
-%
-(
+{
 template
 .
 filename
+}
+line
+{
+int
+(
 template
 .
 current_line
-msg
 )
+}
+:
+{
+msg
+}
+"
                     
 )
         
@@ -2240,6 +2324,9 @@ prune_file_list
 (
 self
 )
+-
+>
+None
 :
         
 "
@@ -2504,6 +2591,9 @@ write_manifest
 (
 self
 )
+-
+>
+None
 :
         
 "
@@ -2722,6 +2812,9 @@ read_manifest
 (
 self
 )
+-
+>
+None
 :
         
 "
@@ -2837,6 +2930,9 @@ self
 base_dir
 files
 )
+-
+>
+None
 :
         
 "
@@ -2938,11 +3034,6 @@ create_tree
 (
 base_dir
 files
-dry_run
-=
-self
-.
-dry_run
 )
         
 if
@@ -3111,6 +3202,9 @@ make_distribution
 (
 self
 )
+-
+>
+None
 :
         
 "
@@ -3362,11 +3456,6 @@ dir_util
 remove_tree
 (
 base_dir
-dry_run
-=
-self
-.
-dry_run
 )
     
 def
@@ -3416,7 +3505,12 @@ def
 is_comment
 (
 line
+:
+str
 )
+-
+>
+bool
 :
     
 return

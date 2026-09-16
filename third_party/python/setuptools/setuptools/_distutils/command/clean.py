@@ -26,6 +26,10 @@ _log
 import
 log
 from
+typing
+import
+ClassVar
+from
 .
 .
 core
@@ -222,6 +226,14 @@ products
 ]
     
 boolean_options
+:
+ClassVar
+[
+list
+[
+str
+]
+]
 =
 [
 '
@@ -368,11 +380,6 @@ remove_tree
 self
 .
 build_temp
-dry_run
-=
-self
-.
-dry_run
 )
         
 else
@@ -439,11 +446,6 @@ directory
 remove_tree
 (
 directory
-dry_run
-=
-self
-.
-dry_run
 )
                 
 else
@@ -472,16 +474,9 @@ it
 directory
 )
         
-if
-not
-self
-.
-dry_run
-:
-            
 try
 :
-                
+            
 os
 .
 rmdir
@@ -490,7 +485,7 @@ self
 .
 build_base
 )
-                
+            
 log
 .
 info
@@ -506,9 +501,9 @@ self
 .
 build_base
 )
-            
+        
 except
 OSError
 :
-                
+            
 pass

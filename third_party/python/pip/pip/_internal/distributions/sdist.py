@@ -1,13 +1,19 @@
+from
+__future__
+import
+annotations
 import
 logging
+from
+collections
+.
+abc
+import
+Iterable
 from
 typing
 import
 TYPE_CHECKING
-Iterable
-Optional
-Set
-Tuple
 from
 pip
 .
@@ -61,11 +67,9 @@ pip
 .
 _internal
 .
-index
-.
-package_finder
+build_env
 import
-PackageFinder
+BuildEnvironmentInstaller
 logger
 =
 logging
@@ -131,10 +135,9 @@ self
 )
 -
 >
-Optional
-[
 str
-]
+|
+None
 :
         
 "
@@ -193,11 +196,9 @@ prepare_distribution_metadata
         
 self
         
-finder
+build_env_installer
 :
-"
-PackageFinder
-"
+BuildEnvironmentInstaller
         
 build_isolation
 :
@@ -239,7 +240,7 @@ self
 .
 _prepare_build_backend
 (
-finder
+build_env_installer
 )
             
 self
@@ -254,7 +255,7 @@ self
 .
 _install_build_reqs
 (
-finder
+build_env_installer
 )
         
 should_check_deps
@@ -339,12 +340,12 @@ prepare_metadata
 def
 _prepare_build_backend
 (
+        
 self
-finder
+build_env_installer
 :
-"
-PackageFinder
-"
+BuildEnvironmentInstaller
+    
 )
 -
 >
@@ -373,6 +374,7 @@ build_env
 =
 BuildEnvironment
 (
+build_env_installer
 )
         
 self
@@ -384,7 +386,6 @@ build_env
 install_requirements
 (
             
-finder
 pyproject_requires
 "
 overlay
@@ -395,6 +396,11 @@ kind
 build
 dependencies
 "
+for_req
+=
+self
+.
+req
         
 )
         
@@ -647,12 +653,12 @@ get_requires_for_build_editable
 def
 _install_build_reqs
 (
+        
 self
-finder
+build_env_installer
 :
-"
-PackageFinder
-"
+BuildEnvironmentInstaller
+    
 )
 -
 >
@@ -743,7 +749,6 @@ build_env
 install_requirements
 (
             
-finder
 missing
 "
 normal
@@ -754,6 +759,11 @@ kind
 backend
 dependencies
 "
+for_req
+=
+self
+.
+req
         
 )
     
@@ -767,9 +777,9 @@ conflicting_with
 str
 conflicting_reqs
 :
-Set
+set
 [
-Tuple
+tuple
 [
 str
 str
@@ -874,7 +884,7 @@ _raise_missing_reqs
 self
 missing
 :
-Set
+set
 [
 str
 ]

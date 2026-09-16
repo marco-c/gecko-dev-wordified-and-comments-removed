@@ -8,8 +8,6 @@ from
 typing
 import
 Any
-Dict
-List
 from
 pip
 .
@@ -289,7 +287,7 @@ options
 Values
 args
 :
-List
+list
 [
 str
 ]
@@ -404,7 +402,7 @@ BaseDistribution
 )
 -
 >
-Dict
+dict
 [
 str
 Any
@@ -413,7 +411,7 @@ Any
         
 res
 :
-Dict
+dict
 [
 str
 Any

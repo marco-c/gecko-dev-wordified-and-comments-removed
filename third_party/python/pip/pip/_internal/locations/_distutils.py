@@ -13,6 +13,10 @@ etc
 "
 "
 "
+from
+__future__
+import
+annotations
 try
 :
     
@@ -73,13 +77,6 @@ sysconfig
 import
 get_python_lib
 from
-typing
-import
-Dict
-List
-Optional
-Union
-from
 pip
 .
 _internal
@@ -138,19 +135,17 @@ False
     
 home
 :
-Optional
-[
 str
-]
+|
+None
 =
 None
     
 root
 :
-Optional
-[
 str
-]
+|
+None
 =
 None
     
@@ -162,10 +157,9 @@ False
     
 prefix
 :
-Optional
-[
 str
-]
+|
+None
 =
 None
     
@@ -179,7 +173,7 @@ False
 )
 -
 >
-Dict
+dict
 [
 str
 str
@@ -209,16 +203,14 @@ Distribution
     
 dist_args
 :
-Dict
+dict
 [
 str
-Union
+str
+|
+list
 [
 str
-List
-[
-str
-]
 ]
 ]
 =
@@ -328,10 +320,9 @@ paths
     
 obj
 :
-Optional
-[
 DistutilsCommand
-]
+|
+None
 =
 None
     
@@ -464,7 +455,7 @@ finalize_options
     
 scheme
 :
-Dict
+dict
 [
 str
 str
@@ -674,19 +665,17 @@ False
     
 home
 :
-Optional
-[
 str
-]
+|
+None
 =
 None
     
 root
 :
-Optional
-[
 str
-]
+|
+None
 =
 None
     
@@ -698,10 +687,9 @@ False
     
 prefix
 :
-Optional
-[
 str
-]
+|
+None
 =
 None
 )

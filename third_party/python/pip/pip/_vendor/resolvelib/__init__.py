@@ -3,10 +3,6 @@ __all__
 [
     
 "
-__version__
-"
-    
-"
 AbstractProvider
 "
     
@@ -20,10 +16,6 @@ BaseReporter
     
 "
 InconsistentCandidate
-"
-    
-"
-Resolver
 "
     
 "
@@ -41,22 +33,29 @@ ResolutionImpossible
 "
 ResolutionTooDeep
 "
+    
+"
+Resolver
+"
+    
+"
+__version__
+"
 ]
 __version__
 =
 "
 1
 .
-0
+2
 .
-1
+0
 "
 from
 .
 providers
 import
 AbstractProvider
-AbstractResolver
 from
 .
 reporters
@@ -67,6 +66,8 @@ from
 resolvers
 import
 (
+    
+AbstractResolver
     
 InconsistentCandidate
     

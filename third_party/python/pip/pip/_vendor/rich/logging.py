@@ -794,7 +794,10 @@ None
         
 tracebacks_code_width
 :
+Optional
+[
 int
+]
 =
 88
         

@@ -1,3 +1,7 @@
+from
+__future__
+import
+annotations
 import
 contextlib
 import
@@ -10,11 +14,6 @@ from
 typing
 import
 TYPE_CHECKING
-Dict
-List
-Optional
-Set
-Tuple
 cast
 from
 pip
@@ -35,6 +34,7 @@ resolvelib
 import
 BaseReporter
 ResolutionImpossible
+ResolutionTooDeep
 from
 pip
 .
@@ -63,6 +63,14 @@ _internal
 cache
 import
 WheelCache
+from
+pip
+.
+_internal
+.
+exceptions
+import
+ResolutionTooDeepError
 from
 pip
 .
@@ -252,10 +260,9 @@ PackageFinder
         
 wheel_cache
 :
-Optional
-[
 WheelCache
-]
+|
+None
         
 make_install_req
 :
@@ -287,16 +294,15 @@ str
         
 py_version_info
 :
-Optional
-[
-Tuple
+tuple
 [
 int
 .
 .
 .
 ]
-]
+|
+None
 =
 None
     
@@ -379,10 +385,9 @@ self
 .
 _result
 :
-Optional
-[
 Result
-]
+|
+None
 =
 None
     
@@ -393,7 +398,7 @@ resolve
 self
 root_reqs
 :
-List
+list
 [
 InstallRequirement
 ]
@@ -468,6 +473,11 @@ environ
 reporter
 :
 BaseReporter
+[
+Requirement
+Candidate
+str
+]
 =
 PipDebuggingReporter
 (
@@ -564,6 +574,15 @@ raise
 error
 from
 e
+        
+except
+ResolutionTooDeep
+:
+            
+raise
+ResolutionTooDeepError
+from
+None
         
 req_set
 =
@@ -988,7 +1007,7 @@ RequirementSet
 )
 -
 >
-List
+list
 [
 InstallRequirement
 ]
@@ -1201,30 +1220,26 @@ get_topological_weights
     
 graph
 :
-"
 DirectedGraph
 [
-Optional
-[
 str
+|
+None
 ]
-]
-"
 requirement_keys
 :
-Set
+set
 [
 str
 ]
 )
 -
 >
-Dict
-[
-Optional
+dict
 [
 str
-]
+|
+None
 int
 ]
 :
@@ -1483,12 +1498,11 @@ requirement_keys
     
 path
 :
-Set
-[
-Optional
+set
 [
 str
-]
+|
+None
 ]
 =
 set
@@ -1497,13 +1511,15 @@ set
     
 weights
 :
-Dict
-[
-Optional
+dict
 [
 str
-]
+|
+None
+list
+[
 int
+]
 ]
 =
 {
@@ -1514,10 +1530,9 @@ visit
 (
 node
 :
-Optional
-[
 str
-]
+|
+None
 )
 -
 >
@@ -1528,6 +1543,29 @@ if
 node
 in
 path
+:
+            
+return
+        
+cur_weights
+=
+weights
+.
+get
+(
+node
+[
+]
+)
+        
+if
+len
+(
+cur_weights
+)
+>
+=
+5
 :
             
 return
@@ -1571,14 +1609,14 @@ requirement_keys
             
 return
         
-last_known_parent_count
-=
-weights
+cur_weights
 .
-get
+append
 (
-node
-0
+len
+(
+path
+)
 )
         
 weights
@@ -1586,14 +1624,7 @@ weights
 node
 ]
 =
-max
-(
-last_known_parent_count
-len
-(
-path
-)
-)
+cur_weights
     
 while
 True
@@ -1678,7 +1709,9 @@ weights
 leaf
 ]
 =
+[
 weight
+]
         
 for
 leaf
@@ -1720,14 +1753,32 @@ difference
 difference
     
 return
+{
+node
+:
+max
+(
+wgts
+)
+for
+(
+node
+wgts
+)
+in
 weights
+.
+items
+(
+)
+}
 def
 _req_set_item_sorter
 (
     
 item
 :
-Tuple
+tuple
 [
 str
 InstallRequirement
@@ -1735,18 +1786,17 @@ InstallRequirement
     
 weights
 :
-Dict
-[
-Optional
+dict
 [
 str
-]
+|
+None
 int
 ]
 )
 -
 >
-Tuple
+tuple
 [
 int
 str

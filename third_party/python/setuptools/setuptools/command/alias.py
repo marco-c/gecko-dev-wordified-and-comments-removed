@@ -202,6 +202,9 @@ finalize_options
 (
 self
 )
+-
+>
+None
 :
         
 option_base
@@ -256,6 +259,9 @@ run
 (
 self
 )
+-
+>
+None
 :
         
 aliases
@@ -388,17 +394,19 @@ else
                 
 print
 (
+f
 "
 No
 alias
 definition
 found
 for
-%
-r
-"
-%
+{
 alias
+!
+r
+}
+"
 )
                 
 return
@@ -451,9 +459,6 @@ alias
 command
 }
 }
-self
-.
-dry_run
 )
 def
 format_alias
@@ -537,16 +542,18 @@ else
         
 source
 =
+f
 '
 -
 -
 filename
 =
-%
-r
-'
-%
+{
 source
+!
+r
+}
+'
     
 return
 source

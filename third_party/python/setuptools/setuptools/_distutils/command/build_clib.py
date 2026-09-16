@@ -39,14 +39,35 @@ module
 "
 "
 "
+from
+__future__
+import
+annotations
 import
 os
+from
+collections
+.
+abc
+import
+Callable
 from
 distutils
 .
 _log
 import
 log
+from
+typing
+import
+ClassVar
+from
+.
+.
+ccompiler
+import
+new_compiler
+show_compilers
 from
 .
 .
@@ -65,22 +86,6 @@ from
 sysconfig
 import
 customize_compiler
-def
-show_compilers
-(
-)
-:
-    
-from
-.
-.
-ccompiler
-import
-show_compilers
-    
-show_compilers
-(
-)
 class
 build_clib
 (
@@ -105,6 +110,19 @@ extensions
 "
     
 user_options
+:
+ClassVar
+[
+list
+[
+tuple
+[
+str
+str
+str
+]
+]
+]
 =
 [
         
@@ -207,6 +225,14 @@ type
 ]
     
 boolean_options
+:
+ClassVar
+[
+list
+[
+str
+]
+]
 =
 [
 '
@@ -218,6 +244,27 @@ force
 ]
     
 help_options
+:
+ClassVar
+[
+list
+[
+tuple
+[
+str
+str
+|
+None
+str
+Callable
+[
+[
+]
+object
+]
+]
+]
+]
 =
 [
         
@@ -304,6 +351,9 @@ finalize_options
 (
 self
 )
+-
+>
+None
 :
         
 self
@@ -438,6 +488,9 @@ run
 (
 self
 )
+-
+>
+None
 :
         
 if
@@ -449,36 +502,22 @@ libraries
             
 return
         
-from
-.
-.
-ccompiler
-import
-new_compiler
-        
 self
 .
 compiler
 =
 new_compiler
 (
-            
 compiler
 =
 self
 .
 compiler
-dry_run
-=
-self
-.
-dry_run
 force
 =
 self
 .
 force
-        
 )
         
 customize_compiler
@@ -577,6 +616,9 @@ check_library_list
 self
 libraries
 )
+-
+>
+None
 :
         
 "
@@ -801,9 +843,6 @@ lib
 }
 '
 :
-"
-                    
-"
 may
 not
 contain
@@ -1008,6 +1047,9 @@ build_libraries
 self
 libraries
 )
+-
+>
+None
 :
         
 for

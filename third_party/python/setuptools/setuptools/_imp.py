@@ -141,16 +141,16 @@ None
 raise
 ImportError
 (
+f
 "
 Can
 '
 t
 find
-%
-s
-"
-%
+{
 module
+}
+"
 )
     
 if
@@ -452,16 +452,16 @@ spec
 raise
 ImportError
 (
+f
 "
 Can
 '
 t
 find
-%
-s
-"
-%
+{
 module
+}
+"
 )
     
 return
@@ -498,16 +498,16 @@ spec
 raise
 ImportError
 (
+f
 "
 Can
 '
 t
 find
-%
-s
-"
-%
+{
 module
+}
+"
 )
     
 return

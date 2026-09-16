@@ -20,6 +20,10 @@ command
 import
 contextlib
 from
+typing
+import
+ClassVar
+from
 .
 .
 core
@@ -224,6 +228,19 @@ package
 "
     
 user_options
+:
+ClassVar
+[
+list
+[
+tuple
+[
+str
+str
+str
+]
+]
+]
 =
 [
         
@@ -252,8 +269,6 @@ restructuredtext
 r
 '
             
-(
-                
 '
 Checks
 if
@@ -263,16 +278,11 @@ meta
 -
 data
 syntax
-'
-                
-'
 are
 reStructuredText
 -
 compliant
 '
-            
-)
         
 )
         
@@ -299,6 +309,14 @@ fails
 ]
     
 boolean_options
+:
+ClassVar
+[
+list
+[
+str
+]
+]
 =
 [
 '
@@ -900,7 +918,10 @@ document
 )
         
 except
+(
 AttributeError
+TypeError
+)
 as
 e
 :

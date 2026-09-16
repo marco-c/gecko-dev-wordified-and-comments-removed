@@ -42,6 +42,10 @@ etc
 "
 "
 "
+from
+__future__
+import
+annotations
 import
 logging
 from
@@ -56,9 +60,14 @@ from
 typing
 import
 Any
-List
-Optional
-Tuple
+from
+pip
+.
+_internal
+.
+build_env
+import
+SubprocessBuildEnvironmentInstaller
 from
 pip
 .
@@ -204,6 +213,16 @@ _internal
 .
 req
 .
+req_dependency_group
+import
+parse_dependency_groups
+from
+pip
+.
+_internal
+.
+req
+.
 req_file
 import
 parse_requirements
@@ -337,7 +356,7 @@ options
 Values
 args
 :
-List
+list
 [
 Any
 ]
@@ -345,10 +364,9 @@ Any
 )
 -
 >
-Optional
-[
 int
-]
+|
+None
 :
         
 assert
@@ -435,6 +453,19 @@ args
 *
 *
 kw
+)
+        
+self
+.
+cmd_opts
+.
+add_option
+(
+cmdoptions
+.
+dependency_groups
+(
+)
 )
         
 self
@@ -539,10 +570,9 @@ bool
         
 download_dir
 :
-Optional
-[
 str
-]
+|
+None
 =
 None
         
@@ -756,6 +786,13 @@ options
 .
 build_isolation
             
+build_isolation_installer
+=
+SubprocessBuildEnvironmentInstaller
+(
+finder
+)
+            
 check_build_deps
 =
 options
@@ -801,6 +838,12 @@ verbosity
 legacy_resolver
 =
 legacy_resolver
+            
+resume_retries
+=
+options
+.
+resume_retries
         
 )
     
@@ -826,10 +869,9 @@ Values
         
 wheel_cache
 :
-Optional
-[
 WheelCache
-]
+|
+None
 =
 None
         
@@ -871,25 +913,23 @@ only
         
 use_pep517
 :
-Optional
-[
 bool
-]
+|
+None
 =
 None
         
 py_version_info
 :
-Optional
-[
-Tuple
+tuple
 [
 int
 .
 .
 .
 ]
-]
+|
+None
 =
 None
     
@@ -1108,7 +1148,7 @@ self
         
 args
 :
-List
+list
 [
 str
 ]
@@ -1128,7 +1168,7 @@ PipSession
 )
 -
 >
-List
+list
 [
 InstallRequirement
 ]
@@ -1155,7 +1195,7 @@ requirements
         
 requirements
 :
-List
+list
 [
 InstallRequirement
 ]
@@ -1270,6 +1310,55 @@ None
             
 )
             
+requirements
+.
+append
+(
+req_to_add
+)
+        
+if
+options
+.
+dependency_groups
+:
+            
+for
+req
+in
+parse_dependency_groups
+(
+options
+.
+dependency_groups
+)
+:
+                
+req_to_add
+=
+install_req_from_req_string
+(
+                    
+req
+                    
+isolated
+=
+options
+.
+isolated_mode
+                    
+use_pep517
+=
+options
+.
+use_pep517
+                    
+user_supplied
+=
+True
+                
+)
+                
 requirements
 .
 append
@@ -1435,15 +1524,24 @@ True
 if
 not
 (
+            
 args
+            
 or
 options
 .
 editables
+            
 or
 options
 .
 requirements
+            
+or
+options
+.
+dependency_groups
+        
 )
 :
             
@@ -1644,19 +1742,17 @@ PipSession
         
 target_python
 :
-Optional
-[
 TargetPython
-]
+|
+None
 =
 None
         
 ignore_requires_python
 :
-Optional
-[
 bool
-]
+|
+None
 =
 None
     

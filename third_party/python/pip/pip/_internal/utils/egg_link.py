@@ -1,14 +1,13 @@
+from
+__future__
+import
+annotations
 import
 os
 import
 re
 import
 sys
-from
-typing
-import
-List
-Optional
 from
 pip
 .
@@ -54,7 +53,7 @@ str
 )
 -
 >
-List
+list
 [
 str
 ]
@@ -207,10 +206,9 @@ str
 )
 -
 >
-Optional
-[
 str
-]
+|
+None
 :
     
 "
@@ -297,10 +295,9 @@ str
 )
 -
 >
-Optional
-[
 str
-]
+|
+None
 :
     
 "
@@ -434,7 +431,7 @@ found
     
 sites
 :
-List
+list
 [
 str
 ]

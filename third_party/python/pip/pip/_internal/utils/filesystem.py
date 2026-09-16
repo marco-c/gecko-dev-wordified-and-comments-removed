@@ -1,3 +1,7 @@
+from
+__future__
+import
+annotations
 import
 fnmatch
 import
@@ -11,6 +15,12 @@ random
 import
 sys
 from
+collections
+.
+abc
+import
+Generator
+from
 contextlib
 import
 contextmanager
@@ -23,9 +33,6 @@ typing
 import
 Any
 BinaryIO
-Generator
-List
-Union
 cast
 from
 pip
@@ -630,7 +637,7 @@ str
 )
 -
 >
-List
+list
 [
 str
 ]
@@ -669,7 +676,7 @@ pattern
     
 result
 :
-List
+list
 [
 str
 ]
@@ -730,11 +737,9 @@ str
 )
 -
 >
-Union
-[
 int
+|
 float
-]
 :
     
 if
@@ -789,11 +794,9 @@ str
 )
 -
 >
-Union
-[
 int
+|
 float
-]
 :
     
 size

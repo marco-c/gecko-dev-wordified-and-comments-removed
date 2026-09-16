@@ -69,6 +69,9 @@ run
 (
 self
 )
+-
+>
+None
 :
         
 self
@@ -310,8 +313,8 @@ yield
 pkg_name
             
 pkg_name
-sep
-child
+_sep
+_child
 =
 pkg_name
 .
@@ -575,9 +578,11 @@ str
         
 assert
 preserve_mode
-and
+        
+assert
 preserve_times
-and
+        
+assert
 not
 preserve_symlinks
         

@@ -1,3 +1,7 @@
+from
+__future__
+import
+annotations
 import
 functools
 import
@@ -15,6 +19,12 @@ urllib
 .
 parse
 from
+collections
+.
+abc
+import
+Mapping
+from
 dataclasses
 import
 dataclass
@@ -27,19 +37,7 @@ TYPE_CHECKING
     
 Any
     
-Dict
-    
-List
-    
-Mapping
-    
 NamedTuple
-    
-Optional
-    
-Tuple
-    
-Union
 )
 from
 pip
@@ -326,12 +324,7 @@ classmethod
     
 functools
 .
-lru_cache
-(
-maxsize
-=
-None
-)
+cache
     
 def
 find_hash_url_fragment
@@ -343,12 +336,9 @@ str
 )
 -
 >
-Optional
-[
-"
 LinkHash
-"
-]
+|
+None
 :
         
 "
@@ -418,7 +408,7 @@ self
 )
 -
 >
-Dict
+dict
 [
 str
 str
@@ -487,10 +477,9 @@ is_hash_allowed
 self
 hashes
 :
-Optional
-[
 Hashes
-]
+|
+None
 )
 -
 >
@@ -570,14 +559,13 @@ distribution
     
 hashes
 :
-Optional
-[
-Dict
+dict
 [
 str
 str
 ]
-]
+|
+None
     
 def
 __post_init__
@@ -616,25 +604,23 @@ supported_hashes
 (
 hashes
 :
-Optional
-[
-Dict
+dict
 [
 str
 str
 ]
-]
+|
+None
 )
 -
 >
-Optional
-[
-Dict
+dict
 [
 str
 str
 ]
-]
+|
+None
 :
     
 if
@@ -789,7 +775,8 @@ characters
 "
 "
     
-return
+ret
+=
 urllib
 .
 request
@@ -805,6 +792,34 @@ url2pathname
 part
 )
 )
+    
+if
+ret
+.
+startswith
+(
+"
+/
+/
+/
+"
+)
+:
+        
+ret
+=
+ret
+.
+removeprefix
+(
+"
+/
+/
+"
+)
+    
+return
+ret
 _reserved_chars_re
 =
 re
@@ -1018,7 +1033,8 @@ is_local_path
 is_local_path
 )
     
-return
+ret
+=
 urllib
 .
 parse
@@ -1029,11 +1045,31 @@ result
 .
 _replace
 (
+scheme
+=
+"
+file
+"
 path
 =
 path
 )
 )
+    
+ret
+=
+result
+.
+scheme
++
+ret
+[
+4
+:
+]
+    
+return
+ret
 def
 _absolute_link_url
 (
@@ -1200,43 +1236,35 @@ str
         
 comes_from
 :
-Optional
-[
-Union
-[
 str
-"
+|
 IndexContent
-"
-]
-]
+|
+None
 =
 None
         
 requires_python
 :
-Optional
-[
 str
-]
+|
+None
 =
 None
         
 yanked_reason
 :
-Optional
-[
 str
-]
+|
+None
 =
 None
         
 metadata_file_data
 :
-Optional
-[
 MetadataFile
-]
+|
+None
 =
 None
         
@@ -1248,14 +1276,13 @@ True
         
 hashes
 :
-Optional
-[
 Mapping
 [
 str
 str
 ]
-]
+|
+None
 =
 None
     
@@ -1702,7 +1729,7 @@ cls
         
 file_data
 :
-Dict
+dict
 [
 str
 Any
@@ -1715,12 +1742,9 @@ str
 )
 -
 >
-Optional
-[
-"
 Link
-"
-]
+|
+None
 :
         
 "
@@ -1947,13 +1971,12 @@ cls
         
 anchor_attribs
 :
-Dict
+dict
 [
 str
-Optional
-[
 str
-]
+|
+None
 ]
         
 page_url
@@ -1967,12 +1990,9 @@ str
 )
 -
 >
-Optional
-[
-"
 Link
-"
-]
+|
+None
 :
         
 "
@@ -2272,12 +2292,9 @@ return
 f
 "
 {
-redact_auth_from_url
-(
 self
 .
-_url
-)
+redacted_url
 }
 (
 from
@@ -2296,15 +2313,9 @@ else
 :
             
 return
-redact_auth_from_url
-(
-str
-(
 self
 .
-_url
-)
-)
+redacted_url
     
 def
 __repr__
@@ -2430,6 +2441,26 @@ return
 self
 .
 _url
+    
+property
+    
+def
+redacted_url
+(
+self
+)
+-
+>
+str
+:
+        
+return
+redact_auth_from_url
+(
+self
+.
+url
+)
     
 property
     
@@ -2611,7 +2642,7 @@ self
 )
 -
 >
-Tuple
+tuple
 [
 str
 str
@@ -2782,10 +2813,9 @@ self
 )
 -
 >
-Optional
-[
 str
-]
+|
+None
 :
         
 match
@@ -2875,7 +2905,7 @@ gone_in
 "
 25
 .
-1
+3
 "
                 
 issue
@@ -2920,10 +2950,9 @@ self
 )
 -
 >
-Optional
-[
 str
-]
+|
+None
 :
         
 match
@@ -2962,12 +2991,9 @@ self
 )
 -
 >
-Optional
-[
-"
 Link
-"
-]
+|
+None
 :
         
 "
@@ -3086,10 +3112,9 @@ self
 )
 -
 >
-Optional
-[
 str
-]
+|
+None
 :
         
 return
@@ -3117,10 +3142,9 @@ self
 )
 -
 >
-Optional
-[
 str
-]
+|
+None
 :
         
 return
@@ -3323,10 +3347,9 @@ is_hash_allowed
 self
 hashes
 :
-Optional
-[
 Hashes
-]
+|
+None
 )
 -
 >
@@ -3707,10 +3730,10 @@ SplitResult
     
 query
 :
-Dict
+dict
 [
 str
-List
+list
 [
 str
 ]
@@ -3722,7 +3745,7 @@ str
     
 hashes
 :
-Dict
+dict
 [
 str
 str
@@ -3915,12 +3938,7 @@ hashes
 )
 functools
 .
-lru_cache
-(
-maxsize
-=
-None
-)
+cache
 def
 links_equivalent
 (
