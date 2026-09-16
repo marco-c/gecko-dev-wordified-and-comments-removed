@@ -18248,10 +18248,6 @@ aRequestingPrincipal
 ValidatePrincipalOptions
 :
 :
-AlwaysAllowSystem
-ValidatePrincipalOptions
-:
-:
 AllowExpanded
 }
 )
