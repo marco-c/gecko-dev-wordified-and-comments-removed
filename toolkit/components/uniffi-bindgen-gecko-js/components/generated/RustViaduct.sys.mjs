@@ -130,7 +130,7 @@ UniFFIScaffolding
 .
 callSync
 (
-231
+15
 /
 /
 uniffi_viaduct_fn_func_allow_android_emulator_loopback
@@ -172,7 +172,7 @@ UniFFIScaffolding
 .
 callSync
 (
-232
+16
 /
 /
 uniffi_viaduct_fn_func_clear_ohttp_channels
@@ -257,7 +257,7 @@ UniFFIScaffolding
 .
 callSync
 (
-233
+17
 /
 /
 uniffi_viaduct_fn_func_configure_default_ohttp_channels
@@ -352,7 +352,7 @@ UniFFIScaffolding
 .
 callSync
 (
-234
+18
 /
 /
 uniffi_viaduct_fn_func_configure_ohttp_channel
@@ -423,7 +423,7 @@ UniFFIScaffolding
 .
 callSync
 (
-235
+19
 /
 /
 uniffi_viaduct_fn_func_init_backend
@@ -480,7 +480,7 @@ UniFFIScaffolding
 .
 callSync
 (
-236
+20
 /
 /
 uniffi_viaduct_fn_func_list_ohttp_channels
@@ -687,7 +687,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-237
+21
 /
 /
 uniffi_viaduct_fn_func_send_ohttp_request
@@ -797,7 +797,7 @@ UniFFIScaffolding
 .
 callSync
 (
-238
+22
 /
 /
 uniffi_viaduct_fn_func_set_global_default_user_agent
@@ -6949,7 +6949,7 @@ the
 callback
 handler
 return
-uniffiCallbackHandlerViaductBackend
+uniffiCallbackHandlerBackend
 .
 takeCallbackObj
 (
@@ -7045,7 +7045,7 @@ subclass
 ;
 }
 return
-uniffiCallbackHandlerViaductBackend
+uniffiCallbackHandlerBackend
 .
 storeCallbackObj
 (
@@ -7138,7 +7138,7 @@ dataStream
 .
 readHandleOrPointer
 (
-26
+25
 )
 )
 }
@@ -7173,7 +7173,7 @@ dataStream
 .
 writePointer
 (
-26
+25
 this
 .
 lower
@@ -7210,7 +7210,7 @@ return
 }
 }
 const
-uniffiCallbackHandlerViaductBackend
+uniffiCallbackHandlerBackend
 =
 new
 UniFFICallbackHandler
@@ -7218,7 +7218,7 @@ UniFFICallbackHandler
 "
 Backend
 "
-8
+7
 [
 new
 UniFFICallbackMethodHandler
@@ -7285,9 +7285,9 @@ unit
 tests
 UnitTestObjs
 .
-uniffiCallbackHandlerViaductBackend
+uniffiCallbackHandlerBackend
 =
-uniffiCallbackHandlerViaductBackend
+uniffiCallbackHandlerBackend
 ;
 /
 /

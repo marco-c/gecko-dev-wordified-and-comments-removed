@@ -185,7 +185,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-81
+4
 /
 /
 uniffi_logins_fn_func_check_canary
@@ -303,7 +303,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-82
+5
 /
 /
 uniffi_logins_fn_func_create_canary
@@ -388,7 +388,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-83
+6
 /
 /
 uniffi_logins_fn_func_create_key
@@ -474,7 +474,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-84
+7
 /
 /
 uniffi_logins_fn_func_create_login_store_with_nss_keymanager
@@ -587,7 +587,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-85
+8
 /
 /
 uniffi_logins_fn_func_create_login_store_with_static_key_manager
@@ -676,7 +676,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-86
+9
 /
 /
 uniffi_logins_fn_func_create_managed_encdec
@@ -806,7 +806,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-87
+10
 /
 /
 uniffi_logins_fn_func_create_static_key_manager
@@ -10506,7 +10506,7 @@ UniFFIScaffolding
 .
 callSync
 (
-88
+100
 /
 /
 uniffi_logins_fn_method_encryptordecryptor_decrypt
@@ -10582,7 +10582,7 @@ UniFFIScaffolding
 .
 callSync
 (
-89
+101
 /
 /
 uniffi_logins_fn_method_encryptordecryptor_encrypt
@@ -10726,7 +10726,7 @@ the
 callback
 handler
 return
-uniffiCallbackHandlerLoginsEncryptorDecryptor
+uniffiCallbackHandlerEncryptorDecryptor
 .
 takeCallbackObj
 (
@@ -10822,7 +10822,7 @@ subclass
 ;
 }
 return
-uniffiCallbackHandlerLoginsEncryptorDecryptor
+uniffiCallbackHandlerEncryptorDecryptor
 .
 storeCallbackObj
 (
@@ -10915,7 +10915,7 @@ dataStream
 .
 readHandleOrPointer
 (
-9
+8
 )
 )
 }
@@ -10950,7 +10950,7 @@ dataStream
 .
 writePointer
 (
-9
+8
 this
 .
 lower
@@ -10987,7 +10987,7 @@ return
 }
 }
 const
-uniffiCallbackHandlerLoginsEncryptorDecryptor
+uniffiCallbackHandlerEncryptorDecryptor
 =
 new
 UniFFICallbackHandler
@@ -10995,7 +10995,7 @@ UniFFICallbackHandler
 "
 EncryptorDecryptor
 "
-4
+3
 [
 new
 UniFFICallbackMethodHandler
@@ -11105,9 +11105,9 @@ unit
 tests
 UnitTestObjs
 .
-uniffiCallbackHandlerLoginsEncryptorDecryptor
+uniffiCallbackHandlerEncryptorDecryptor
 =
-uniffiCallbackHandlerLoginsEncryptorDecryptor
+uniffiCallbackHandlerEncryptorDecryptor
 ;
 /
 *
@@ -11309,7 +11309,7 @@ UniFFIScaffolding
 .
 callSync
 (
-90
+102
 /
 /
 uniffi_logins_fn_method_keymanager_get_key
@@ -11447,7 +11447,7 @@ the
 callback
 handler
 return
-uniffiCallbackHandlerLoginsKeyManager
+uniffiCallbackHandlerKeyManager
 .
 takeCallbackObj
 (
@@ -11543,7 +11543,7 @@ subclass
 ;
 }
 return
-uniffiCallbackHandlerLoginsKeyManager
+uniffiCallbackHandlerKeyManager
 .
 storeCallbackObj
 (
@@ -11636,7 +11636,7 @@ dataStream
 .
 readHandleOrPointer
 (
-10
+9
 )
 )
 }
@@ -11671,7 +11671,7 @@ dataStream
 .
 writePointer
 (
-10
+9
 this
 .
 lower
@@ -11708,7 +11708,7 @@ return
 }
 }
 const
-uniffiCallbackHandlerLoginsKeyManager
+uniffiCallbackHandlerKeyManager
 =
 new
 UniFFICallbackHandler
@@ -11716,7 +11716,7 @@ UniFFICallbackHandler
 "
 KeyManager
 "
-5
+4
 [
 new
 UniFFICallbackMethodHandler
@@ -11781,9 +11781,9 @@ unit
 tests
 UnitTestObjs
 .
-uniffiCallbackHandlerLoginsKeyManager
+uniffiCallbackHandlerKeyManager
 =
-uniffiCallbackHandlerLoginsKeyManager
+uniffiCallbackHandlerKeyManager
 ;
 /
 /
@@ -13415,7 +13415,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-91
+140
 /
 /
 uniffi_logins_fn_method_loginsbridgedengine_apply
@@ -13497,7 +13497,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-92
+141
 /
 /
 uniffi_logins_fn_method_loginsbridgedengine_ensure_current_sync_id
@@ -13565,7 +13565,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-93
+142
 /
 /
 uniffi_logins_fn_method_loginsbridgedengine_last_sync
@@ -13618,7 +13618,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-94
+143
 /
 /
 uniffi_logins_fn_method_loginsbridgedengine_reset
@@ -13669,7 +13669,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-95
+144
 /
 /
 uniffi_logins_fn_method_loginsbridgedengine_reset_last_sync
@@ -13729,7 +13729,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-96
+145
 /
 /
 uniffi_logins_fn_method_loginsbridgedengine_reset_sync_id
@@ -13814,7 +13814,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-97
+146
 /
 /
 uniffi_logins_fn_method_loginsbridgedengine_set_uploaded
@@ -13895,7 +13895,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-98
+147
 /
 /
 uniffi_logins_fn_method_loginsbridgedengine_store_incoming
@@ -13952,7 +13952,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-99
+148
 /
 /
 uniffi_logins_fn_method_loginsbridgedengine_sync_finished
@@ -14013,7 +14013,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-100
+149
 /
 /
 uniffi_logins_fn_method_loginsbridgedengine_sync_id
@@ -14066,7 +14066,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-101
+150
 /
 /
 uniffi_logins_fn_method_loginsbridgedengine_sync_started
@@ -14117,7 +14117,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-102
+151
 /
 /
 uniffi_logins_fn_method_loginsbridgedengine_wipe
@@ -14283,7 +14283,7 @@ dataStream
 .
 readPointer
 (
-11
+10
 )
 )
 ;
@@ -14299,7 +14299,7 @@ dataStream
 .
 writePointer
 (
-11
+10
 this
 .
 lower
@@ -20804,7 +20804,7 @@ dataStream
 .
 readPointer
 (
-12
+11
 )
 )
 ;
@@ -20820,7 +20820,7 @@ dataStream
 .
 writePointer
 (
-12
+11
 this
 .
 lower
@@ -21035,7 +21035,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-140
+152
 /
 /
 uniffi_logins_fn_constructor_managedencryptordecryptor_new
@@ -21196,7 +21196,7 @@ dataStream
 .
 readPointer
 (
-13
+12
 )
 )
 ;
@@ -21212,7 +21212,7 @@ dataStream
 .
 writePointer
 (
-13
+12
 this
 .
 lower
@@ -22217,7 +22217,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-141
+153
 /
 /
 uniffi_logins_fn_constructor_nsskeymanager_new
@@ -22272,7 +22272,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-142
+154
 /
 /
 uniffi_logins_fn_method_nsskeymanager_into_dyn_key_manager
@@ -22433,7 +22433,7 @@ dataStream
 .
 readPointer
 (
-14
+13
 )
 )
 ;
@@ -22449,7 +22449,7 @@ dataStream
 .
 writePointer
 (
-14
+13
 this
 .
 lower
@@ -22807,7 +22807,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-143
+155
 /
 /
 uniffi_logins_fn_method_primarypasswordauthenticator_get_primary_password
@@ -22860,7 +22860,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-144
+156
 /
 /
 uniffi_logins_fn_method_primarypasswordauthenticator_on_authentication_success
@@ -22911,7 +22911,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-145
+157
 /
 /
 uniffi_logins_fn_method_primarypasswordauthenticator_on_authentication_failure
@@ -23047,7 +23047,7 @@ the
 callback
 handler
 return
-uniffiCallbackHandlerLoginsPrimaryPasswordAuthenticator
+uniffiCallbackHandlerPrimaryPasswordAuthenticator
 .
 takeCallbackObj
 (
@@ -23143,7 +23143,7 @@ subclass
 ;
 }
 return
-uniffiCallbackHandlerLoginsPrimaryPasswordAuthenticator
+uniffiCallbackHandlerPrimaryPasswordAuthenticator
 .
 storeCallbackObj
 (
@@ -23236,7 +23236,7 @@ dataStream
 .
 readHandleOrPointer
 (
-15
+14
 )
 )
 }
@@ -23271,7 +23271,7 @@ dataStream
 .
 writePointer
 (
-15
+14
 this
 .
 lower
@@ -23308,7 +23308,7 @@ return
 }
 }
 const
-uniffiCallbackHandlerLoginsPrimaryPasswordAuthenticator
+uniffiCallbackHandlerPrimaryPasswordAuthenticator
 =
 new
 UniFFICallbackHandler
@@ -23316,7 +23316,7 @@ UniFFICallbackHandler
 "
 PrimaryPasswordAuthenticator
 "
-6
+5
 [
 new
 UniFFICallbackMethodHandler
@@ -23463,9 +23463,9 @@ unit
 tests
 UnitTestObjs
 .
-uniffiCallbackHandlerLoginsPrimaryPasswordAuthenticator
+uniffiCallbackHandlerPrimaryPasswordAuthenticator
 =
-uniffiCallbackHandlerLoginsPrimaryPasswordAuthenticator
+uniffiCallbackHandlerPrimaryPasswordAuthenticator
 ;
 /
 *
@@ -23661,7 +23661,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-146
+158
 /
 /
 uniffi_logins_fn_constructor_statickeymanager_new
@@ -23822,7 +23822,7 @@ dataStream
 .
 readPointer
 (
-16
+15
 )
 )
 ;
@@ -23838,7 +23838,7 @@ dataStream
 .
 writePointer
 (
-16
+15
 this
 .
 lower

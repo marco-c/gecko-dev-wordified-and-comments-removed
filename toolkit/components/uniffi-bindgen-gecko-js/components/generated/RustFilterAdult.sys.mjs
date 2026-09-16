@@ -570,7 +570,7 @@ UniFFIScaffolding
 .
 callSync
 (
-78
+98
 /
 /
 uniffi_filter_adult_fn_constructor_filteradultcomponent_new
@@ -643,7 +643,7 @@ UniFFIScaffolding
 .
 callSync
 (
-79
+99
 /
 /
 uniffi_filter_adult_fn_method_filteradultcomponent_contains
@@ -817,7 +817,7 @@ dataStream
 .
 readPointer
 (
-8
+7
 )
 )
 ;
@@ -833,7 +833,7 @@ dataStream
 .
 writePointer
 (
-8
+7
 this
 .
 lower

@@ -157,7 +157,7 @@ UniFFIScaffolding
 .
 callSync
 (
-350
+342
 /
 /
 uniffi_uniffi_bindings_tests_collision_fn_func_invoke_collision_callback
@@ -271,7 +271,7 @@ subclass
 ;
 }
 return
-uniffiCallbackHandlerUniffiBindingsTestsCollisionTestCallbackInterface
+uniffiCallbackHandlerTestCallbackInterface
 .
 storeCallbackObj
 (
@@ -285,7 +285,7 @@ handleId
 )
 {
 return
-uniffiCallbackHandlerUniffiBindingsTestsCollisionTestCallbackInterface
+uniffiCallbackHandlerTestCallbackInterface
 .
 takeCallbackObj
 (
@@ -341,7 +341,7 @@ return
 }
 }
 const
-uniffiCallbackHandlerUniffiBindingsTestsCollisionTestCallbackInterface
+uniffiCallbackHandlerTestCallbackInterface
 =
 new
 UniFFICallbackHandler
@@ -349,7 +349,7 @@ UniFFICallbackHandler
 "
 TestCallbackInterface
 "
-13
+12
 [
 new
 UniFFICallbackMethodHandler
@@ -398,9 +398,9 @@ unit
 tests
 UnitTestObjs
 .
-uniffiCallbackHandlerUniffiBindingsTestsCollisionTestCallbackInterface
+uniffiCallbackHandlerTestCallbackInterface
 =
-uniffiCallbackHandlerUniffiBindingsTestsCollisionTestCallbackInterface
+uniffiCallbackHandlerTestCallbackInterface
 ;
 /
 /

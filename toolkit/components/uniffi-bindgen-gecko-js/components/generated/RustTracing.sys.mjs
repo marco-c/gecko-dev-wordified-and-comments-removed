@@ -154,7 +154,7 @@ UniFFIScaffolding
 .
 callSync
 (
-229
+13
 /
 /
 uniffi_tracing_support_fn_func_register_event_sink
@@ -220,7 +220,7 @@ UniFFIScaffolding
 .
 callSync
 (
-230
+14
 /
 /
 uniffi_tracing_support_fn_func_unregister_event_sink
@@ -3001,7 +3001,7 @@ subclass
 ;
 }
 return
-uniffiCallbackHandlerTracingEventSink
+uniffiCallbackHandlerEventSink
 .
 storeCallbackObj
 (
@@ -3015,7 +3015,7 @@ handleId
 )
 {
 return
-uniffiCallbackHandlerTracingEventSink
+uniffiCallbackHandlerEventSink
 .
 takeCallbackObj
 (
@@ -3071,7 +3071,7 @@ return
 }
 }
 const
-uniffiCallbackHandlerTracingEventSink
+uniffiCallbackHandlerEventSink
 =
 new
 UniFFICallbackHandler
@@ -3079,7 +3079,7 @@ UniFFICallbackHandler
 "
 EventSink
 "
-7
+6
 [
 new
 UniFFICallbackMethodHandler
@@ -3127,7 +3127,7 @@ unit
 tests
 UnitTestObjs
 .
-uniffiCallbackHandlerTracingEventSink
+uniffiCallbackHandlerEventSink
 =
-uniffiCallbackHandlerTracingEventSink
+uniffiCallbackHandlerEventSink
 ;

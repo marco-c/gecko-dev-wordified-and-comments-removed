@@ -193,7 +193,7 @@ UniFFIScaffolding
 .
 callSync
 (
-177
+12
 /
 /
 uniffi_suggest_fn_func_raw_suggestion_url_matches
@@ -3134,7 +3134,7 @@ H8
 *
 type
 {
-object
+Map
 }
 *
 /
@@ -4853,7 +4853,7 @@ map
 *
 type
 {
-object
+Map
 }
 *
 /
@@ -21962,7 +21962,7 @@ UniFFIScaffolding
 .
 callSync
 (
-178
+188
 /
 /
 uniffi_suggest_fn_constructor_suggeststore_new
@@ -22030,7 +22030,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-179
+189
 /
 /
 uniffi_suggest_fn_method_suggeststore_any_dismissed_suggestions
@@ -22089,7 +22089,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-180
+190
 /
 /
 uniffi_suggest_fn_method_suggeststore_clear
@@ -22142,7 +22142,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-181
+191
 /
 /
 uniffi_suggest_fn_method_suggeststore_clear_dismissed_suggestions
@@ -22257,7 +22257,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-182
+192
 /
 /
 uniffi_suggest_fn_method_suggeststore_dismiss_by_key
@@ -22344,7 +22344,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-183
+193
 /
 /
 uniffi_suggest_fn_method_suggeststore_dismiss_by_suggestion
@@ -22446,7 +22446,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-184
+194
 /
 /
 uniffi_suggest_fn_method_suggeststore_dismiss_suggestion
@@ -22547,7 +22547,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-185
+195
 /
 /
 uniffi_suggest_fn_method_suggeststore_fetch_geoname_alternates
@@ -22691,7 +22691,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-186
+196
 /
 /
 uniffi_suggest_fn_method_suggeststore_fetch_geonames
@@ -22776,7 +22776,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-187
+197
 /
 /
 uniffi_suggest_fn_method_suggeststore_fetch_global_config
@@ -22868,7 +22868,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-188
+198
 /
 /
 uniffi_suggest_fn_method_suggeststore_fetch_provider_config
@@ -22956,7 +22956,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-189
+199
 /
 /
 uniffi_suggest_fn_method_suggeststore_ingest
@@ -23076,7 +23076,7 @@ UniFFIScaffolding
 .
 callSync
 (
-190
+200
 /
 /
 uniffi_suggest_fn_method_suggeststore_interrupt
@@ -23205,7 +23205,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-191
+201
 /
 /
 uniffi_suggest_fn_method_suggeststore_is_dismissed_by_key
@@ -23336,7 +23336,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-192
+202
 /
 /
 uniffi_suggest_fn_method_suggeststore_is_dismissed_by_suggestion
@@ -23431,7 +23431,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-193
+203
 /
 /
 uniffi_suggest_fn_method_suggeststore_query
@@ -23518,7 +23518,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-194
+204
 /
 /
 uniffi_suggest_fn_method_suggeststore_query_with_metrics
@@ -23692,7 +23692,7 @@ dataStream
 .
 readPointer
 (
-21
+20
 )
 )
 ;
@@ -23708,7 +23708,7 @@ dataStream
 .
 writePointer
 (
-21
+20
 this
 .
 lower
@@ -24348,7 +24348,7 @@ UniFFIScaffolding
 .
 callSync
 (
-195
+205
 /
 /
 uniffi_suggest_fn_constructor_suggeststorebuilder_new
@@ -24391,7 +24391,7 @@ UniFFIScaffolding
 .
 callSync
 (
-196
+206
 /
 /
 uniffi_suggest_fn_method_suggeststorebuilder_build
@@ -24478,7 +24478,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-197
+207
 /
 /
 uniffi_suggest_fn_method_suggeststorebuilder_cache_path
@@ -24547,7 +24547,7 @@ UniFFIScaffolding
 .
 callSync
 (
-198
+208
 /
 /
 uniffi_suggest_fn_method_suggeststorebuilder_data_path
@@ -24693,7 +24693,7 @@ UniFFIScaffolding
 .
 callSync
 (
-199
+209
 /
 /
 uniffi_suggest_fn_method_suggeststorebuilder_load_extension
@@ -24768,7 +24768,7 @@ UniFFIScaffolding
 .
 callSync
 (
-200
+210
 /
 /
 uniffi_suggest_fn_method_suggeststorebuilder_remote_settings_bucket_name
@@ -24841,7 +24841,7 @@ UniFFIScaffolding
 .
 callSync
 (
-201
+211
 /
 /
 uniffi_suggest_fn_method_suggeststorebuilder_remote_settings_server
@@ -24910,7 +24910,7 @@ UniFFIScaffolding
 .
 callSync
 (
-202
+212
 /
 /
 uniffi_suggest_fn_method_suggeststorebuilder_remote_settings_service
@@ -25077,7 +25077,7 @@ dataStream
 .
 readPointer
 (
-22
+21
 )
 )
 ;
@@ -25093,7 +25093,7 @@ dataStream
 .
 writePointer
 (
-22
+21
 this
 .
 lower

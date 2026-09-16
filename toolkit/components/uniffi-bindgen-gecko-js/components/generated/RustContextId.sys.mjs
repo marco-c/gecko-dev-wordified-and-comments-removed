@@ -724,7 +724,7 @@ UniFFIScaffolding
 .
 callSync
 (
-74
+94
 /
 /
 uniffi_context_id_fn_constructor_contextidcomponent_new
@@ -792,7 +792,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-75
+95
 /
 /
 uniffi_context_id_fn_method_contextidcomponent_force_rotation
@@ -872,7 +872,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-76
+96
 /
 /
 uniffi_context_id_fn_method_contextidcomponent_request
@@ -947,7 +947,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-77
+97
 /
 /
 uniffi_context_id_fn_method_contextidcomponent_unset_callback
@@ -1113,7 +1113,7 @@ dataStream
 .
 readPointer
 (
-7
+6
 )
 )
 ;
@@ -1129,7 +1129,7 @@ dataStream
 .
 writePointer
 (
-7
+6
 this
 .
 lower
@@ -1276,7 +1276,7 @@ subclass
 ;
 }
 return
-uniffiCallbackHandlerContextIdContextIdCallback
+uniffiCallbackHandlerContextIdCallback
 .
 storeCallbackObj
 (
@@ -1290,7 +1290,7 @@ handleId
 )
 {
 return
-uniffiCallbackHandlerContextIdContextIdCallback
+uniffiCallbackHandlerContextIdCallback
 .
 takeCallbackObj
 (
@@ -1346,7 +1346,7 @@ return
 }
 }
 const
-uniffiCallbackHandlerContextIdContextIdCallback
+uniffiCallbackHandlerContextIdCallback
 =
 new
 UniFFICallbackHandler
@@ -1354,7 +1354,7 @@ UniFFICallbackHandler
 "
 ContextIdCallback
 "
-3
+2
 [
 new
 UniFFICallbackMethodHandler
@@ -1429,7 +1429,7 @@ unit
 tests
 UnitTestObjs
 .
-uniffiCallbackHandlerContextIdContextIdCallback
+uniffiCallbackHandlerContextIdCallback
 =
-uniffiCallbackHandlerContextIdContextIdCallback
+uniffiCallbackHandlerContextIdCallback
 ;

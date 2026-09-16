@@ -4842,7 +4842,7 @@ remoteTabs
 *
 type
 {
-object
+Map
 }
 *
 /
@@ -4858,7 +4858,7 @@ tabGroups
 *
 type
 {
-object
+Map
 }
 *
 /
@@ -5691,7 +5691,7 @@ tabs
 *
 type
 {
-object
+Map
 }
 *
 /
@@ -5707,7 +5707,7 @@ tabGroups
 *
 type
 {
-object
+Map
 }
 *
 /
@@ -8549,7 +8549,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-203
+213
 /
 /
 uniffi_tabs_fn_method_remotecommandstore_add_remote_command
@@ -8682,7 +8682,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-204
+214
 /
 /
 uniffi_tabs_fn_method_remotecommandstore_add_remote_command_at
@@ -8784,7 +8784,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-205
+215
 /
 /
 uniffi_tabs_fn_method_remotecommandstore_get_unsent_commands
@@ -8909,7 +8909,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-206
+216
 /
 /
 uniffi_tabs_fn_method_remotecommandstore_remove_remote_command
@@ -9002,7 +9002,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-207
+217
 /
 /
 uniffi_tabs_fn_method_remotecommandstore_set_pending_command_sent
@@ -9176,7 +9176,7 @@ dataStream
 .
 readPointer
 (
-23
+22
 )
 )
 ;
@@ -9192,7 +9192,7 @@ dataStream
 .
 writePointer
 (
-23
+22
 this
 .
 lower
@@ -9937,7 +9937,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-208
+218
 /
 /
 uniffi_tabs_fn_method_tabsbridgedengine_apply
@@ -10019,7 +10019,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-209
+219
 /
 /
 uniffi_tabs_fn_method_tabsbridgedengine_ensure_current_sync_id
@@ -10087,7 +10087,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-210
+220
 /
 /
 uniffi_tabs_fn_method_tabsbridgedengine_last_sync
@@ -10140,7 +10140,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-211
+221
 /
 /
 uniffi_tabs_fn_method_tabsbridgedengine_reset
@@ -10191,7 +10191,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-212
+222
 /
 /
 uniffi_tabs_fn_method_tabsbridgedengine_reset_last_sync
@@ -10251,7 +10251,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-213
+223
 /
 /
 uniffi_tabs_fn_method_tabsbridgedengine_reset_sync_id
@@ -10318,7 +10318,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-214
+224
 /
 /
 uniffi_tabs_fn_method_tabsbridgedengine_set_clients
@@ -10407,7 +10407,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-215
+225
 /
 /
 uniffi_tabs_fn_method_tabsbridgedengine_set_uploaded
@@ -10488,7 +10488,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-216
+226
 /
 /
 uniffi_tabs_fn_method_tabsbridgedengine_store_incoming
@@ -10545,7 +10545,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-217
+227
 /
 /
 uniffi_tabs_fn_method_tabsbridgedengine_sync_finished
@@ -10606,7 +10606,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-218
+228
 /
 /
 uniffi_tabs_fn_method_tabsbridgedengine_sync_id
@@ -10659,7 +10659,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-219
+229
 /
 /
 uniffi_tabs_fn_method_tabsbridgedengine_sync_started
@@ -10710,7 +10710,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-220
+230
 /
 /
 uniffi_tabs_fn_method_tabsbridgedengine_wipe
@@ -10876,7 +10876,7 @@ dataStream
 .
 readPointer
 (
-24
+23
 )
 )
 ;
@@ -10892,7 +10892,7 @@ dataStream
 .
 writePointer
 (
-24
+23
 this
 .
 lower
@@ -11578,7 +11578,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-221
+231
 /
 /
 uniffi_tabs_fn_constructor_tabsstore_new
@@ -11633,7 +11633,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-222
+232
 /
 /
 uniffi_tabs_fn_method_tabsstore_bridged_engine
@@ -11679,7 +11679,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-223
+233
 /
 /
 uniffi_tabs_fn_method_tabsstore_close_connection
@@ -11736,7 +11736,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-224
+234
 /
 /
 uniffi_tabs_fn_method_tabsstore_get_all
@@ -11791,7 +11791,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-225
+235
 /
 /
 uniffi_tabs_fn_method_tabsstore_new_remote_command_store
@@ -11837,7 +11837,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-226
+236
 /
 /
 uniffi_tabs_fn_method_tabsstore_register_with_sync_manager
@@ -11911,7 +11911,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-227
+237
 /
 /
 uniffi_tabs_fn_method_tabsstore_set_local_tabs
@@ -11990,7 +11990,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-228
+238
 /
 /
 uniffi_tabs_fn_method_tabsstore_set_local_tabs_info
@@ -12155,7 +12155,7 @@ dataStream
 .
 readPointer
 (
-25
+24
 )
 )
 ;
@@ -12171,7 +12171,7 @@ dataStream
 .
 writePointer
 (
-25
+24
 this
 .
 lower

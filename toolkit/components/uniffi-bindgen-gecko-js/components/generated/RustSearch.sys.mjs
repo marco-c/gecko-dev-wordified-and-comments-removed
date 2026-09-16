@@ -3478,7 +3478,7 @@ map
 type
 {
 ?
-object
+Map
 }
 *
 /
@@ -14885,7 +14885,7 @@ UniFFIScaffolding
 .
 callSync
 (
-171
+182
 /
 /
 uniffi_search_fn_constructor_searchengineselector_new
@@ -14962,7 +14962,7 @@ UniFFIScaffolding
 .
 callSync
 (
-172
+183
 /
 /
 uniffi_search_fn_method_searchengineselector_clear_search_config
@@ -15051,7 +15051,7 @@ UniFFIScaffolding
 .
 callSync
 (
-173
+184
 /
 /
 uniffi_search_fn_method_searchengineselector_filter_engine_configuration
@@ -15122,7 +15122,7 @@ UniFFIScaffolding
 .
 callSync
 (
-174
+185
 /
 /
 uniffi_search_fn_method_searchengineselector_set_config_overrides
@@ -15240,7 +15240,7 @@ UniFFIScaffolding
 .
 callSync
 (
-175
+186
 /
 /
 uniffi_search_fn_method_searchengineselector_set_search_config
@@ -15420,7 +15420,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-176
+187
 /
 /
 uniffi_search_fn_method_searchengineselector_use_remote_settings_server
@@ -15591,7 +15591,7 @@ dataStream
 .
 readPointer
 (
-20
+19
 )
 )
 ;
@@ -15607,7 +15607,7 @@ dataStream
 .
 writePointer
 (
-20
+19
 this
 .
 lower
