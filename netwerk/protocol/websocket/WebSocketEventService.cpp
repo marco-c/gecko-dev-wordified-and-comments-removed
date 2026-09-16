@@ -701,6 +701,8 @@ uint32_t
 aWebSocketSerialID
 uint64_t
 aInnerWindowID
+uint64_t
+aHttpChannelId
 bool
 aWasClean
 uint16_t
@@ -715,6 +717,10 @@ WebSocketBaseRunnable
 (
 aWebSocketSerialID
 aInnerWindowID
+)
+mHttpChannelId
+(
+aHttpChannelId
 )
 mWasClean
 (
@@ -754,6 +760,7 @@ aListener
 WebSocketClosed
 (
 mWebSocketSerialID
+mHttpChannelId
 mWasClean
 mCode
 mReason
@@ -772,6 +779,9 @@ failed
 )
 ;
 }
+uint64_t
+mHttpChannelId
+;
 bool
 mWasClean
 ;
@@ -1253,6 +1263,8 @@ uint32_t
 aWebSocketSerialID
 uint64_t
 aInnerWindowID
+uint64_t
+aHttpChannelId
 bool
 aWasClean
 uint16_t
@@ -1287,6 +1299,7 @@ WebSocketClosedRunnable
 (
 aWebSocketSerialID
 aInnerWindowID
+aHttpChannelId
 aWasClean
 aCode
 aReason
