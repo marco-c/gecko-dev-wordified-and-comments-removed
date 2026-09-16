@@ -115,7 +115,7 @@ output
 return
 ;
 }
-vpxor
+vxorps
 (
 scratch
 scratch
@@ -7265,7 +7265,7 @@ src
 dest
 )
 ;
-vpxor
+vxorps
 (
 Operand
 (
@@ -7607,7 +7607,7 @@ temp
 temp
 )
 ;
-vpxor
+vxorps
 (
 Operand
 (
@@ -7931,7 +7931,7 @@ src
 dest
 )
 ;
-vxorpd
+vxorps
 (
 temp
 temp

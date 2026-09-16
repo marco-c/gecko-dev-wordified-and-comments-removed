@@ -24,7 +24,7 @@ i8x16
 0
 0
 '
-pxor
+xorps
 %
 xmm0
 %
@@ -90,7 +90,7 @@ i16x8
 0
 0
 '
-pxor
+xorps
 %
 xmm0
 %
@@ -136,7 +136,7 @@ i32x4
 0
 0
 '
-pxor
+xorps
 %
 xmm0
 %
@@ -172,7 +172,7 @@ i64x2
 0
 0
 '
-pxor
+xorps
 %
 xmm0
 %
@@ -206,7 +206,7 @@ f32x4
 0
 0
 '
-pxor
+xorps
 %
 xmm0
 %
@@ -221,7 +221,7 @@ f64x2
 0
 0
 '
-pxor
+xorps
 %
 xmm0
 %

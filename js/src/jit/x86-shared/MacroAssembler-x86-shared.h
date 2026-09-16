@@ -2474,7 +2474,7 @@ FloatRegister
 reg
 )
 {
-vxorpd
+vxorps
 (
 reg
 reg
@@ -5665,7 +5665,7 @@ isZeroBits
 )
 )
 {
-vpxor
+vxorps
 (
 dest
 dest

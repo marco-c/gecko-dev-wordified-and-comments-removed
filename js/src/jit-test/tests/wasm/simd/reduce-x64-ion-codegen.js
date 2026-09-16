@@ -32,7 +32,7 @@ xor
 eax
 %
 eax
-pxor
+xorps
 %
 xmm15
 %
@@ -62,7 +62,7 @@ xor
 eax
 %
 eax
-pxor
+xorps
 %
 xmm15
 %
@@ -92,7 +92,7 @@ xor
 eax
 %
 eax
-pxor
+xorps
 %
 xmm15
 %
@@ -122,7 +122,7 @@ xor
 eax
 %
 eax
-pxor
+xorps
 %
 xmm15
 %

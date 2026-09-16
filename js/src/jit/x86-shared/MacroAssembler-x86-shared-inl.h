@@ -8886,7 +8886,7 @@ xtmp
 this
 )
 ;
-vpxor
+vxorps
 (
 xtmp
 xtmp
@@ -8947,7 +8947,7 @@ xtmp
 this
 )
 ;
-vpxor
+vxorps
 (
 xtmp
 xtmp
@@ -9008,7 +9008,7 @@ xtmp
 this
 )
 ;
-vpxor
+vxorps
 (
 xtmp
 xtmp
@@ -9069,7 +9069,7 @@ xtmp
 this
 )
 ;
-vpxor
+vxorps
 (
 xtmp
 xtmp
@@ -10218,7 +10218,7 @@ val
 case
 0
 :
-vpxor
+vxorps
 (
 Operand
 (
@@ -11421,7 +11421,7 @@ src
 scratch
 ;
 }
-vpxor
+vxorps
 (
 Operand
 (
@@ -11480,7 +11480,7 @@ src
 scratch
 ;
 }
-vpxor
+vxorps
 (
 Operand
 (
@@ -11539,7 +11539,7 @@ src
 scratch
 ;
 }
-vpxor
+vxorps
 (
 Operand
 (
@@ -11598,7 +11598,7 @@ src
 scratch
 ;
 }
-vpxor
+vxorps
 (
 Operand
 (
@@ -13869,7 +13869,7 @@ src
 dest
 )
 ;
-vpxor
+vxorps
 (
 Operand
 (
@@ -18145,7 +18145,7 @@ src
 dest
 )
 ;
-vpxor
+vxorps
 (
 scratch
 scratch

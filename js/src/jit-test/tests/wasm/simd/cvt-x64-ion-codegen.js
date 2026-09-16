@@ -49,7 +49,7 @@ f32x4
 .
 convert_i32x4_u
 '
-pxor
+xorps
 %
 xmm15
 %
