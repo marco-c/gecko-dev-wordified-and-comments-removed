@@ -227,6 +227,14 @@ build
 CARGOFLAGS
 }
 popd
+pushd
+wrshell
+cargo
+build
+{
+CARGOFLAGS
+}
+popd
 cargo
 test
 {
