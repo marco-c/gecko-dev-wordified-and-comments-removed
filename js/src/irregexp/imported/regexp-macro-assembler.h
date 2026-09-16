@@ -2118,6 +2118,8 @@ DirectHandle
 String
 >
 subject
+bool
+is_one_byte
 int
 *
 offsets_vector
@@ -2280,6 +2282,8 @@ const
 uint8_t
 *
 input_end
+bool
+is_one_byte
 int
 *
 output
