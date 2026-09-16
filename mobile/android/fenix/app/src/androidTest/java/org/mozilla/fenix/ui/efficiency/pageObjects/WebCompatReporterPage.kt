@@ -117,7 +117,7 @@ efficiency
 .
 navigation
 .
-NavigationOptions
+NavigationGraph
 import
 org
 .
@@ -131,7 +131,7 @@ efficiency
 .
 navigation
 .
-NavigationRegistry
+NavigationOptions
 import
 org
 .
@@ -212,7 +212,17 @@ pageName
 "
 WebCompatReporterPage
 "
-init
+internal
+override
+fun
+registerNavigation
+(
+builder
+:
+NavigationGraph
+.
+Builder
+)
 {
 /
 /
@@ -295,7 +305,7 @@ Report
 broken
 site
 .
-NavigationRegistry
+builder
 .
 register
 (

@@ -225,7 +225,7 @@ efficiency
 .
 navigation
 .
-NavigationOptions
+NavigationGraph
 import
 org
 .
@@ -239,7 +239,7 @@ efficiency
 .
 navigation
 .
-NavigationRegistry
+NavigationOptions
 import
 org
 .
@@ -306,9 +306,19 @@ pageName
 "
 TabDrawerPage
 "
-init
+internal
+override
+fun
+registerNavigation
+(
+builder
+:
+NavigationGraph
+.
+Builder
+)
 {
-NavigationRegistry
+builder
 .
 register
 (
@@ -401,7 +411,7 @@ no
 tag
 there
 .
-NavigationRegistry
+builder
 .
 register
 (
@@ -427,7 +437,7 @@ TAB_COUNTER_ANY_LAYOUT
 )
 )
 )
-NavigationRegistry
+builder
 .
 register
 (
@@ -456,7 +466,7 @@ NavigationFacts
 RETURN_SURFACE_HOME
 )
 )
-NavigationRegistry
+builder
 .
 register
 (

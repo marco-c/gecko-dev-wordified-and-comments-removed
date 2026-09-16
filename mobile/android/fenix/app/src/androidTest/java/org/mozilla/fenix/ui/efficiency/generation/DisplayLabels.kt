@@ -107,7 +107,8 @@ for
 case
 labels
 and
-NavigationRegistry
+navigation
+graph
 lookups
 .
 *

@@ -279,7 +279,7 @@ efficiency
 .
 navigation
 .
-NavigationOptions
+NavigationGraph
 import
 org
 .
@@ -293,7 +293,7 @@ efficiency
 .
 navigation
 .
-NavigationRegistry
+NavigationOptions
 import
 org
 .
@@ -374,7 +374,17 @@ pageName
 "
 ShareOverlayPage
 "
-init
+internal
+override
+fun
+registerNavigation
+(
+builder
+:
+NavigationGraph
+.
+Builder
+)
 {
 /
 /
@@ -488,7 +498,7 @@ the
 same
 way
 .
-NavigationRegistry
+builder
 .
 register
 (

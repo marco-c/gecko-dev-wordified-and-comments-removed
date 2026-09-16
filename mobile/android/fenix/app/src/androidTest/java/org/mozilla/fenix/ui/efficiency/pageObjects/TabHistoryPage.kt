@@ -129,7 +129,7 @@ efficiency
 .
 navigation
 .
-NavigationOptions
+NavigationGraph
 import
 org
 .
@@ -143,7 +143,7 @@ efficiency
 .
 navigation
 .
-NavigationRegistry
+NavigationOptions
 import
 org
 .
@@ -252,7 +252,17 @@ pageName
 "
 TabHistoryPage
 "
-init
+internal
+override
+fun
+registerNavigation
+(
+builder
+:
+NavigationGraph
+.
+Builder
+)
 {
 /
 /
@@ -328,7 +338,7 @@ opening
 the
 menu
 .
-NavigationRegistry
+builder
 .
 register
 (

@@ -137,7 +137,7 @@ efficiency
 .
 navigation
 .
-NavigationOptions
+NavigationGraph
 import
 org
 .
@@ -151,7 +151,7 @@ efficiency
 .
 navigation
 .
-NavigationRegistry
+NavigationOptions
 import
 org
 .
@@ -246,9 +246,19 @@ pageName
 "
 SettingsDeleteBrowsingDataPage
 "
-init
+internal
+override
+fun
+registerNavigation
+(
+builder
+:
+NavigationGraph
+.
+Builder
+)
 {
-NavigationRegistry
+builder
 .
 register
 (
@@ -335,7 +345,7 @@ straight
 from
 Home
 .
-NavigationRegistry
+builder
 .
 register
 (
@@ -414,7 +424,7 @@ exitMenu
 (
 )
 .
-NavigationRegistry
+builder
 .
 register
 (

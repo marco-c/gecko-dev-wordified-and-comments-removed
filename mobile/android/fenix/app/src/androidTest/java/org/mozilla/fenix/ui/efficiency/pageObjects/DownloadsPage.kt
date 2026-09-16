@@ -129,7 +129,7 @@ efficiency
 .
 navigation
 .
-NavigationOptions
+NavigationGraph
 import
 org
 .
@@ -143,7 +143,7 @@ efficiency
 .
 navigation
 .
-NavigationRegistry
+NavigationOptions
 import
 org
 .
@@ -238,9 +238,19 @@ pageName
 "
 DownloadsPage
 "
-init
+internal
+override
+fun
+registerNavigation
+(
+builder
+:
+NavigationGraph
+.
+Builder
+)
 {
-NavigationRegistry
+builder
 .
 register
 (
@@ -318,7 +328,7 @@ loaded
 page
 )
 .
-NavigationRegistry
+builder
 .
 register
 (
@@ -352,7 +362,7 @@ DOWNLOADS_BUTTON
 )
 )
 )
-NavigationRegistry
+builder
 .
 register
 (

@@ -189,7 +189,9 @@ the
 search
 term
 which
-NavigationRegistry
+the
+navigation
+graph
 cannot
 express
 and
@@ -199,8 +201,8 @@ title
 is
 that
 same
-term
 *
+term
 rather
 than
 "
@@ -222,8 +224,8 @@ Tests
 instantiate
 this
 page
-directly
 *
+directly
 as
 they
 do

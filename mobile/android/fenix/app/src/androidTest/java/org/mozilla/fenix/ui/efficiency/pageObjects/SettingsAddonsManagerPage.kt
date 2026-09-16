@@ -143,7 +143,7 @@ efficiency
 .
 navigation
 .
-NavigationOptions
+NavigationGraph
 import
 org
 .
@@ -157,7 +157,7 @@ efficiency
 .
 navigation
 .
-NavigationRegistry
+NavigationOptions
 import
 org
 .
@@ -252,9 +252,19 @@ pageName
 "
 SettingsAddonsManagerPage
 "
-init
+internal
+override
+fun
+registerNavigation
+(
+builder
+:
+NavigationGraph
+.
+Builder
+)
 {
-NavigationRegistry
+builder
 .
 register
 (
@@ -288,7 +298,7 @@ EXTENSIONS_BUTTON
 )
 )
 )
-NavigationRegistry
+builder
 .
 register
 (
@@ -322,7 +332,7 @@ MANAGE_EXTENSIONS_BUTTON
 )
 )
 )
-NavigationRegistry
+builder
 .
 register
 (
@@ -356,7 +366,7 @@ NavigationFacts
 RETURN_SURFACE_HOME
 )
 )
-NavigationRegistry
+builder
 .
 register
 (

@@ -253,7 +253,7 @@ efficiency
 .
 navigation
 .
-NavigationOptions
+NavigationGraph
 import
 org
 .
@@ -267,7 +267,7 @@ efficiency
 .
 navigation
 .
-NavigationRegistry
+NavigationOptions
 import
 org
 .
@@ -348,7 +348,17 @@ pageName
 "
 SearchBarComponent
 "
-init
+internal
+override
+fun
+registerNavigation
+(
+builder
+:
+NavigationGraph
+.
+Builder
+)
 {
 /
 /
@@ -360,7 +370,7 @@ to
 enter
 a
 URL
-NavigationRegistry
+builder
 .
 register
 (
@@ -412,7 +422,7 @@ GeckoView
 is
 active
 .
-NavigationRegistry
+builder
 .
 register
 (
@@ -472,7 +482,7 @@ out
 of
 it
 .
-NavigationRegistry
+builder
 .
 register
 (

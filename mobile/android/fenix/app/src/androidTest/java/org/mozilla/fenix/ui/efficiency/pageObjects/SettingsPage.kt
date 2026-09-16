@@ -401,7 +401,7 @@ efficiency
 .
 navigation
 .
-NavigationOptions
+NavigationGraph
 import
 org
 .
@@ -415,7 +415,7 @@ efficiency
 .
 navigation
 .
-NavigationRegistry
+NavigationOptions
 import
 org
 .
@@ -468,9 +468,19 @@ pageName
 "
 SettingsPage
 "
-init
+internal
+override
+fun
+registerNavigation
+(
+builder
+:
+NavigationGraph
+.
+Builder
+)
 {
-NavigationRegistry
+builder
 .
 register
 (
@@ -504,7 +514,7 @@ NavigationFacts
 RETURN_SURFACE_HOME
 )
 )
-NavigationRegistry
+builder
 .
 register
 (
@@ -538,7 +548,7 @@ NavigationFacts
 RETURN_SURFACE_BROWSER
 )
 )
-NavigationRegistry
+builder
 .
 register
 (
@@ -572,7 +582,7 @@ ACCESSIBILITY_BUTTON
 )
 )
 )
-NavigationRegistry
+builder
 .
 register
 (
@@ -598,7 +608,7 @@ AUTOFILL_BUTTON
 )
 )
 )
-NavigationRegistry
+builder
 .
 register
 (
@@ -649,7 +659,7 @@ PRIVATE_BROWSING_BUTTON
 )
 )
 )
-NavigationRegistry
+builder
 .
 register
 (
@@ -675,7 +685,7 @@ CUSTOMIZE_BUTTON
 )
 )
 )
-NavigationRegistry
+builder
 .
 register
 (
@@ -701,7 +711,7 @@ HOMEPAGE_BUTTON
 )
 )
 )
-NavigationRegistry
+builder
 .
 register
 (
@@ -727,7 +737,7 @@ PASSWORDS_BUTTON
 )
 )
 )
-NavigationRegistry
+builder
 .
 register
 (
@@ -753,7 +763,7 @@ SEARCH_BUTTON
 )
 )
 )
-NavigationRegistry
+builder
 .
 register
 (
@@ -779,7 +789,7 @@ TABS_BUTTON
 )
 )
 )
-NavigationRegistry
+builder
 .
 register
 (
@@ -834,7 +844,7 @@ PAGE_SUMMARIES_BUTTON
 )
 )
 )
-NavigationRegistry
+builder
 .
 register
 (
@@ -868,7 +878,7 @@ RATE_ON_GOOGLE_PLAY_BUTTON
 )
 )
 )
-NavigationRegistry
+builder
 .
 register
 (

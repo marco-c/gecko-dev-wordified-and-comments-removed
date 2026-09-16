@@ -123,7 +123,7 @@ efficiency
 .
 navigation
 .
-NavigationRegistry
+NavigationGraph
 import
 org
 .
@@ -260,6 +260,15 @@ secondPropertyName
 fun
 buildReachabilityCases
 (
+graph
+:
+NavigationGraph
+=
+NavigationGraphBootstrap
+.
+buildGraph
+(
+)
 )
 :
 List
@@ -293,7 +302,7 @@ pageRef
 getter
 launch
 =
-NavigationRegistry
+graph
 .
 launchConfigFor
 (
@@ -323,6 +332,15 @@ propertyName
 fun
 buildNavigationPairCases
 (
+graph
+:
+NavigationGraph
+=
+NavigationGraphBootstrap
+.
+buildGraph
+(
+)
 )
 :
 List
@@ -335,6 +353,7 @@ reachabilityCases
 =
 buildReachabilityCases
 (
+graph
 )
 val
 casesByPageName
@@ -403,7 +422,7 @@ continue
 val
 paths
 =
-NavigationRegistry
+graph
 .
 findAllPaths
 (

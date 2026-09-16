@@ -117,7 +117,7 @@ efficiency
 .
 navigation
 .
-NavigationRegistry
+NavigationGraph
 import
 org
 .
@@ -184,7 +184,17 @@ pageName
 "
 SettingsPrivateBrowsingPage
 "
-init
+internal
+override
+fun
+registerNavigation
+(
+builder
+:
+NavigationGraph
+.
+Builder
+)
 {
 /
 /
@@ -266,7 +276,7 @@ Settings
 Private
 browsing
 .
-NavigationRegistry
+builder
 .
 register
 (

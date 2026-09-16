@@ -159,7 +159,7 @@ efficiency
 .
 navigation
 .
-NavigationRegistry
+NavigationGraph
 import
 org
 .
@@ -282,9 +282,19 @@ pageName
 "
 SettingsSavedPasswordsPage
 "
-init
+internal
+override
+fun
+registerNavigation
+(
+builder
+:
+NavigationGraph
+.
+Builder
+)
 {
-NavigationRegistry
+builder
 .
 register
 (
@@ -352,7 +362,7 @@ timeout
 )
 )
 )
-NavigationRegistry
+builder
 .
 register
 (
@@ -406,7 +416,7 @@ timeout
 )
 )
 )
-NavigationRegistry
+builder
 .
 register
 (
@@ -451,7 +461,7 @@ timeout
 )
 )
 )
-NavigationRegistry
+builder
 .
 register
 (

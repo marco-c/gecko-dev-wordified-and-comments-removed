@@ -411,7 +411,7 @@ efficiency
 .
 navigation
 .
-NavigationOptions
+NavigationGraph
 import
 org
 .
@@ -425,7 +425,7 @@ efficiency
 .
 navigation
 .
-NavigationRegistry
+NavigationOptions
 import
 org
 .
@@ -534,9 +534,19 @@ pageName
 "
 BrowserPage
 "
-init
+internal
+override
+fun
+registerNavigation
+(
+builder
+:
+NavigationGraph
+.
+Builder
+)
 {
-NavigationRegistry
+builder
 .
 register
 (
@@ -593,7 +603,7 @@ GeckoView
 is
 active
 .
-NavigationRegistry
+builder
 .
 register
 (
@@ -633,7 +643,7 @@ TOOLBAR_IN_EDIT_MODE
 )
 )
 )
-NavigationRegistry
+builder
 .
 register
 (
@@ -682,7 +692,7 @@ GeckoView
 is
 active
 .
-NavigationRegistry
+builder
 .
 register
 (
@@ -711,7 +721,7 @@ NavigationStep
 PressBack
 )
 )
-NavigationRegistry
+builder
 .
 register
 (
