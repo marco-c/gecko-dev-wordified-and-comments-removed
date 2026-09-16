@@ -1465,15 +1465,7 @@ abortController
 signal
 featureId
 :
-"
-ml
--
-model
--
-hub
--
-service
-"
+taskName
 sessionId
 }
 )
