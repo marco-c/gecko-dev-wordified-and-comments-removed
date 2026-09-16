@@ -2,6 +2,15 @@ use
 crate
 :
 :
+derives
+:
+:
+*
+;
+use
+crate
+:
+:
 values
 :
 :
@@ -364,6 +373,10 @@ Iterator
 Item
 =
 Mapping
+<
+'
+_
+>
 >
 {
 let
@@ -931,6 +944,7 @@ totally
 invalid
 -
 mapping
+:
 "
 )
 ;
@@ -964,7 +978,7 @@ list
 "
 )
 ;
-assert
+assert_eq
 !
 (
 mappings
@@ -972,10 +986,7 @@ mappings
 next
 (
 )
-.
-is_none
-(
-)
+None
 "
 No
 more

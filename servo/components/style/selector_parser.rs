@@ -1459,7 +1459,7 @@ get
 PseudoElement
 :
 :
-MozRubyText
+Marker
 )
 None
 )
@@ -1472,7 +1472,7 @@ set
 PseudoElement
 :
 :
-MozRubyText
+Marker
 8
 )
 ;
@@ -1487,7 +1487,7 @@ get
 PseudoElement
 :
 :
-MozRubyText
+Marker
 )
 Some
 (
@@ -1510,7 +1510,7 @@ get_or_insert_with
 PseudoElement
 :
 :
-MozRubyText
+Marker
 |
 |
 {
@@ -1529,7 +1529,7 @@ set
 PseudoElement
 :
 :
-MozRubyText
+Marker
 9
 )
 ;
@@ -1544,7 +1544,7 @@ get
 PseudoElement
 :
 :
-MozRubyText
+Marker
 )
 Some
 (
@@ -1567,7 +1567,7 @@ get_or_insert_with
 PseudoElement
 :
 :
-FirstLine
+FirstLetter
 |
 |
 {
@@ -1589,7 +1589,7 @@ get
 PseudoElement
 :
 :
-FirstLine
+FirstLetter
 )
 Some
 (
@@ -1647,7 +1647,7 @@ set
 PseudoElement
 :
 :
-MozRubyText
+Marker
 8
 )
 ;
