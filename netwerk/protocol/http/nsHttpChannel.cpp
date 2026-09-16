@@ -29513,6 +29513,12 @@ else
 if
 (
 mSecurityInfo
+&
+&
+mSecurityInfo
+!
+=
+mCachedSecurityInfo
 )
 {
 mCacheEntry
