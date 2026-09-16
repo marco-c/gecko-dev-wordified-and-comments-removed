@@ -460,6 +460,13 @@ js
 ]
 [
 "
+browser_autocomplete_secondary_actions
+.
+js
+"
+]
+[
+"
 browser_autocomplete_primary_password
 .
 js
@@ -530,6 +537,13 @@ js
 https_first_disabled
 =
 true
+[
+"
+browser_autofill_primary_password
+.
+js
+"
+]
 [
 "
 browser_autofill_track_filled_logins
