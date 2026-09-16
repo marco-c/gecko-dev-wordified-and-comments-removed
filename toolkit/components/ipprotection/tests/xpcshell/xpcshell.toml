@@ -167,6 +167,13 @@ js
 ]
 [
 "
+test_IPPSiteRuleManager
+.
+js
+"
+]
+[
+"
 test_IPPStartupCache
 .
 js
