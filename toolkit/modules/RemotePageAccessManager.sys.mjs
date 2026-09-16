@@ -701,6 +701,15 @@ RPMPickPDFFile
 *
 "
 ]
+RPMSendQuery
+:
+[
+"
+AboutPDF
+:
+GoBack
+"
+]
 RPMSetDefaultPDFHandler
 :
 [
