@@ -100,6 +100,8 @@ enum_
 self_type
 .
 ffi_converter
+(
+)
 }
 }
 extends
@@ -593,6 +595,8 @@ field
 ty
 .
 ffi_converter
+(
+)
 }
 }
 .
@@ -699,6 +703,8 @@ enum_
 self_type
 .
 ffi_converter
+(
+)
 }
 }
 extends
@@ -842,6 +848,8 @@ field
 ty
 .
 ffi_converter
+(
+)
 }
 }
 .
@@ -1000,6 +1008,8 @@ field
 ty
 .
 ffi_converter
+(
+)
 }
 }
 .
@@ -1123,6 +1133,8 @@ field
 ty
 .
 ffi_converter
+(
+)
 }
 }
 .

@@ -19,6 +19,8 @@ map
 self_type
 .
 ffi_converter
+(
+)
 }
 }
 extends
@@ -73,6 +75,8 @@ map
 key
 .
 ffi_converter
+(
+)
 }
 }
 .
@@ -91,6 +95,8 @@ map
 value
 .
 ffi_converter
+(
+)
 }
 }
 .
@@ -146,6 +152,8 @@ map
 key
 .
 ffi_converter
+(
+)
 }
 }
 .
@@ -162,6 +170,8 @@ map
 value
 .
 ffi_converter
+(
+)
 }
 }
 .
@@ -212,6 +222,8 @@ map
 key
 .
 ffi_converter
+(
+)
 }
 }
 .
@@ -230,6 +242,8 @@ map
 value
 .
 ffi_converter
+(
+)
 }
 }
 .
@@ -269,6 +283,8 @@ map
 key
 .
 ffi_converter
+(
+)
 }
 }
 .
@@ -315,6 +331,8 @@ map
 value
 .
 ffi_converter
+(
+)
 }
 }
 .

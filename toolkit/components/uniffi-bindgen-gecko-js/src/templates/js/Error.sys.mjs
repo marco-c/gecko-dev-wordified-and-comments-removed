@@ -307,6 +307,8 @@ error
 self_type
 .
 ffi_converter
+(
+)
 }
 }
 extends
@@ -368,9 +370,13 @@ name
 (
 {
 {
-string_type_node
+builtin_types
+.
+string
 .
 ffi_converter
+(
+)
 }
 }
 .
@@ -414,6 +420,8 @@ field
 ty
 .
 ffi_converter
+(
+)
 }
 }
 .
@@ -547,6 +555,8 @@ field
 ty
 .
 ffi_converter
+(
+)
 }
 }
 .
@@ -659,6 +669,8 @@ field
 ty
 .
 ffi_converter
+(
+)
 }
 }
 .

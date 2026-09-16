@@ -76,7 +76,7 @@ version
 "
 0
 .
-14
+16
 "
 default
 -
@@ -87,7 +87,13 @@ features
 =
 [
 "
+alloc
+"
+"
 config
+"
+"
+derive
 "
 ]
 }
@@ -123,7 +129,7 @@ cargo_metadata
 "
 0
 .
-19
+23
 "
 extend
 =
@@ -209,9 +215,7 @@ serde
 toml
 =
 "
-0
-.
-5
+1
 "
 camino
 =

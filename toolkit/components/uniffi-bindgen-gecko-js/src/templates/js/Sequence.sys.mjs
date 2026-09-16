@@ -19,6 +19,8 @@ sequence
 self_type
 .
 ffi_converter
+(
+)
 }
 }
 extends
@@ -72,6 +74,8 @@ sequence
 inner
 .
 ffi_converter
+(
+)
 }
 }
 .
@@ -119,6 +123,8 @@ sequence
 inner
 .
 ffi_converter
+(
+)
 }
 }
 .
@@ -167,6 +173,8 @@ sequence
 inner
 .
 ffi_converter
+(
+)
 }
 }
 .
@@ -231,6 +239,8 @@ sequence
 inner
 .
 ffi_converter
+(
+)
 }
 }
 .

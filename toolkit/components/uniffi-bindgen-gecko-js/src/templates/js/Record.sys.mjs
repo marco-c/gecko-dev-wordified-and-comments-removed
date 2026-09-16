@@ -151,6 +151,8 @@ field
 ty
 .
 ffi_converter
+(
+)
 }
 }
 .
@@ -330,6 +332,8 @@ record
 self_type
 .
 ffi_converter
+(
+)
 }
 }
 extends
@@ -378,6 +382,8 @@ field
 ty
 .
 ffi_converter
+(
+)
 }
 }
 .
@@ -420,6 +426,8 @@ field
 ty
 .
 ffi_converter
+(
+)
 }
 }
 .
@@ -476,6 +484,8 @@ field
 ty
 .
 ffi_converter
+(
+)
 }
 }
 .
@@ -574,6 +584,8 @@ field
 ty
 .
 ffi_converter
+(
+)
 }
 }
 .

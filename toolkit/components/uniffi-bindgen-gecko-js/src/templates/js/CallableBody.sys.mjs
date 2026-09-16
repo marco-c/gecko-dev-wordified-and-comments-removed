@@ -24,6 +24,8 @@ arg
 ty
 .
 ffi_converter
+(
+)
 }
 }
 .
@@ -85,6 +87,8 @@ arg
 ty
 .
 ffi_converter
+(
+)
 }
 }
 .
@@ -165,7 +169,7 @@ CallableKind
 :
 Method
 {
-ffi_converter
+self_type
 .
 .
 }
@@ -177,7 +181,11 @@ kind
 }
 {
 {
+self_type
+.
 ffi_converter
+(
+)
 }
 }
 .
@@ -209,6 +217,8 @@ arg
 ty
 .
 ffi_converter
+(
+)
 }
 }
 .
@@ -240,8 +250,6 @@ match
 callable
 .
 return_type
-.
-ty
 %
 }
 {
@@ -258,7 +266,11 @@ return_type
 {
 return_type
 .
+ty
+.
 ffi_converter
+(
+)
 }
 }
 .
@@ -270,7 +282,11 @@ bind
 {
 return_type
 .
+ty
+.
 ffi_converter
+(
+)
 }
 }
 )
@@ -300,8 +316,6 @@ match
 callable
 .
 throws_type
-.
-ty
 %
 }
 {
@@ -318,7 +332,11 @@ err_type
 {
 err_type
 .
+ty
+.
 ffi_converter
+(
+)
 }
 }
 .
@@ -330,7 +348,11 @@ bind
 {
 err_type
 .
+ty
+.
 ffi_converter
+(
+)
 }
 }
 )

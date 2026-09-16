@@ -226,7 +226,7 @@ endif
 }
 {
 {
-cons
+callable
 .
 name
 }
@@ -349,7 +349,7 @@ endif
 }
 {
 {
-meth
+callable
 .
 name
 }
@@ -458,6 +458,8 @@ int
 self_type
 .
 ffi_converter
+(
+)
 }
 }
 extends
@@ -595,7 +597,7 @@ readPointer
 {
 int
 .
-object_id
+pointer_id
 }
 }
 )
@@ -617,7 +619,7 @@ writePointer
 {
 int
 .
-object_id
+pointer_id
 }
 }
 this
@@ -697,6 +699,8 @@ int
 self_type
 .
 ffi_converter
+(
+)
 }
 }
 extends
@@ -773,6 +777,8 @@ return
 vtable
 .
 js_handler_var
+(
+)
 }
 }
 .
@@ -891,6 +897,8 @@ return
 vtable
 .
 js_handler_var
+(
+)
 }
 }
 .
@@ -995,7 +1003,7 @@ readHandleOrPointer
 {
 int
 .
-object_id
+pointer_id
 }
 }
 )
@@ -1036,7 +1044,7 @@ writePointer
 {
 int
 .
-object_id
+pointer_id
 }
 }
 this

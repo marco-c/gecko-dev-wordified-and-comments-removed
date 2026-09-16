@@ -7,6 +7,8 @@ custom
 self_type
 .
 ffi_converter
+(
+)
 }
 }
 extends
@@ -43,6 +45,8 @@ custom
 builtin
 .
 ffi_converter
+(
+)
 }
 }
 .
@@ -72,6 +76,8 @@ custom
 builtin
 .
 ffi_converter
+(
+)
 }
 }
 .
@@ -125,6 +131,8 @@ custom
 builtin
 .
 ffi_converter
+(
+)
 }
 }
 .
@@ -147,6 +155,8 @@ custom
 builtin
 .
 ffi_converter
+(
+)
 }
 }
 .
@@ -200,6 +210,8 @@ custom
 builtin
 .
 ffi_converter
+(
+)
 }
 }
 .
@@ -222,6 +234,8 @@ custom
 builtin
 .
 ffi_converter
+(
+)
 }
 }
 .
@@ -254,6 +268,8 @@ custom
 builtin
 .
 ffi_converter
+(
+)
 }
 }
 .
@@ -338,6 +354,8 @@ custom
 builtin
 .
 ffi_converter
+(
+)
 }
 }
 .
@@ -360,6 +378,8 @@ custom
 builtin
 .
 ffi_converter
+(
+)
 }
 }
 .

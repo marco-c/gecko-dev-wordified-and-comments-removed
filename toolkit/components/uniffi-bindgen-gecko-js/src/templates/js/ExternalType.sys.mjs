@@ -7,6 +7,8 @@ external
 self_type
 .
 ffi_converter
+(
+)
 }
 }
 }
@@ -48,6 +50,8 @@ external
 self_type
 .
 ffi_converter
+(
+)
 }
 }
 }

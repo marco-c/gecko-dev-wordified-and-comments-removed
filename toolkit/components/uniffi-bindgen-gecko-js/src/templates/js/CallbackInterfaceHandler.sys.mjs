@@ -4,6 +4,8 @@ const
 vtable
 .
 js_handler_var
+(
+)
 }
 }
 =
@@ -73,6 +75,8 @@ arg
 ty
 .
 ffi_converter
+(
+)
 }
 }
 {
@@ -91,8 +95,6 @@ vtable_method
 callable
 .
 return_type
-.
-ty
 %
 }
 {
@@ -109,7 +111,11 @@ return_type
 {
 return_type
 .
+ty
+.
 ffi_converter
+(
+)
 }
 }
 .
@@ -121,7 +127,11 @@ bind
 {
 return_type
 .
+ty
+.
 ffi_converter
+(
+)
 }
 }
 )
@@ -153,8 +163,6 @@ vtable_method
 callable
 .
 throws_type
-.
-ty
 %
 }
 {
@@ -180,6 +188,8 @@ instanceof
 {
 {
 err_type
+.
+ty
 |
 class_name
 }
@@ -191,7 +201,11 @@ return
 {
 err_type
 .
+ty
+.
 ffi_converter
+(
+)
 }
 }
 .
@@ -260,6 +274,8 @@ UnitTestObjs
 vtable
 .
 js_handler_var
+(
+)
 }
 }
 =
@@ -268,6 +284,8 @@ js_handler_var
 vtable
 .
 js_handler_var
+(
+)
 }
 }
 ;

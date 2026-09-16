@@ -19,6 +19,8 @@ optional
 self_type
 .
 ffi_converter
+(
+)
 }
 }
 extends
@@ -53,6 +55,8 @@ optional
 inner
 .
 ffi_converter
+(
+)
 }
 }
 .
@@ -99,6 +103,8 @@ optional
 inner
 .
 ffi_converter
+(
+)
 }
 }
 .
@@ -169,6 +175,8 @@ optional
 inner
 .
 ffi_converter
+(
+)
 }
 }
 .
@@ -214,6 +222,8 @@ optional
 inner
 .
 ffi_converter
+(
+)
 }
 }
 .

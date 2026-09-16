@@ -42,6 +42,8 @@ cbi
 self_type
 .
 ffi_converter
+(
+)
 }
 }
 extends
@@ -101,6 +103,8 @@ cbi
 vtable
 .
 js_handler_var
+(
+)
 }
 }
 .
@@ -123,6 +127,8 @@ cbi
 vtable
 .
 js_handler_var
+(
+)
 }
 }
 .

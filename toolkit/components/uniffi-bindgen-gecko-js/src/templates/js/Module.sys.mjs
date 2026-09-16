@@ -1,3 +1,17 @@
+{
+%
+-
+let
+fixture
+=
+self
+.
+is_fixture
+(
+)
+-
+%
+}
 /
 /
 This
@@ -152,8 +166,6 @@ export
 {
 %
 if
-func
-.
 callable
 .
 is_js_async
@@ -168,7 +180,7 @@ endif
 function
 {
 {
-func
+callable
 .
 name
 }

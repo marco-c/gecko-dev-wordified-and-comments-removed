@@ -65,7 +65,7 @@ endif
 }
 {
 {
-meth
+callable
 .
 name
 }
@@ -107,7 +107,7 @@ Error
 "
 {
 {
-meth
+callable
 .
 name
 }
