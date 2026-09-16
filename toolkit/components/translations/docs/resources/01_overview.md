@@ -110,12 +110,12 @@ settings
 )
 -
 [
-Enabling
+Using
 Translations
 ]
 (
 #
-enabling
+using
 -
 translations
 )
