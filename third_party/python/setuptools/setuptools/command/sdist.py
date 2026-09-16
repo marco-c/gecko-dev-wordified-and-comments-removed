@@ -9,6 +9,12 @@ os
 import
 re
 from
+collections
+.
+abc
+import
+Iterator
+from
 itertools
 import
 chain
@@ -56,6 +62,9 @@ dirname
 '
 '
 )
+-
+>
+Iterator
 :
     
 "
@@ -167,9 +176,6 @@ tree
 around
 after
 creating
-"
-+
-"
 archive
 file
 (
@@ -316,17 +322,13 @@ READMES
 =
 tuple
 (
+f
 '
 README
 {
-0
+ext
 }
 '
-.
-format
-(
-ext
-)
 for
 ext
 in
@@ -338,6 +340,9 @@ run
 (
 self
 )
+-
+>
+None
 :
         
 self
@@ -472,6 +477,9 @@ initialize_options
 (
 self
 )
+-
+>
+None
 :
         
 orig
@@ -488,6 +496,9 @@ make_distribution
 (
 self
 )
+-
+>
+None
 :
         
 "
@@ -610,6 +621,9 @@ add_defaults
 (
 self
 )
+-
+>
+None
 :
         
 super
@@ -1017,6 +1031,9 @@ prune_file_list
 (
 self
 )
+-
+>
+None
 :
         
 super
@@ -1073,6 +1090,9 @@ check_readme
 (
 self
 )
+-
+>
+None
 :
         
 for
@@ -1135,6 +1155,9 @@ self
 base_dir
 files
 )
+-
+>
+None
 :
         
 orig
@@ -1285,6 +1308,9 @@ read_manifest
 (
 self
 )
+-
+>
+None
 :
         
 "
@@ -1363,7 +1389,7 @@ rb
 )
         
 for
-line
+bytes_line
 in
 manifest
 :
@@ -1373,7 +1399,7 @@ try
                 
 line
 =
-line
+bytes_line
 .
 decode
 (
@@ -1392,9 +1418,13 @@ log
 .
 warn
 (
+f
 "
-%
+{
+line
+!
 r
+}
 not
 UTF
 -
@@ -1404,8 +1434,6 @@ decodable
 -
 skipping
 "
-%
-line
 )
                 
 continue

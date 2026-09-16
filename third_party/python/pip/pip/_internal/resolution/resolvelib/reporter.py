@@ -1,4 +1,8 @@
 from
+__future__
+import
+annotations
+from
 collections
 import
 defaultdict
@@ -10,7 +14,6 @@ from
 typing
 import
 Any
-DefaultDict
 from
 pip
 .
@@ -37,6 +40,11 @@ class
 PipReporter
 (
 BaseReporter
+[
+Requirement
+Candidate
+str
+]
 )
 :
     
@@ -54,7 +62,7 @@ self
 .
 reject_count_by_package
 :
-DefaultDict
+defaultdict
 [
 str
 int
@@ -400,6 +408,11 @@ class
 PipDebuggingReporter
 (
 BaseReporter
+[
+Requirement
+Candidate
+str
+]
 )
 :
     
@@ -559,6 +572,7 @@ state
 def
 adding_requirement
 (
+        
 self
 requirement
 :
@@ -566,6 +580,9 @@ Requirement
 parent
 :
 Candidate
+|
+None
+    
 )
 -
 >

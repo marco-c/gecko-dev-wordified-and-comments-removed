@@ -131,6 +131,15 @@ log
 from
 .
 .
+ccompiler
+import
+CCompiler
+CompileError
+LinkError
+new_compiler
+from
+.
+.
 core
 import
 Command
@@ -585,14 +594,6 @@ one
 "
 "
         
-from
-.
-.
-ccompiler
-import
-CCompiler
-new_compiler
-        
 if
 not
 isinstance
@@ -610,21 +611,14 @@ compiler
 =
 new_compiler
 (
-                
 compiler
 =
 self
 .
 compiler
-dry_run
-=
-self
-.
-dry_run
 force
 =
 True
-            
 )
             
 customize_compiler
@@ -1233,13 +1227,6 @@ heck
 "
 "
         
-from
-.
-.
-ccompiler
-import
-CompileError
-        
 self
 .
 _check_compiler
@@ -1525,13 +1512,6 @@ otherwise
 "
 "
         
-from
-.
-.
-ccompiler
-import
-CompileError
-        
 self
 .
 _check_compiler
@@ -1659,14 +1639,6 @@ otherwise
 "
 "
 "
-        
-from
-.
-.
-ccompiler
-import
-CompileError
-LinkError
         
 self
 .
@@ -1800,14 +1772,6 @@ otherwise
 "
 "
 "
-        
-from
-.
-.
-ccompiler
-import
-CompileError
-LinkError
         
 self
 .

@@ -272,6 +272,8 @@ self
 :
         
 with
+(
+            
 mock
 .
 patch
@@ -291,12 +293,13 @@ wrong
 1
 )
 )
+            
 pytest
 .
 raises
 (
-            
 DistutilsFileError
+)
         
 )
 :
@@ -340,11 +343,12 @@ self
 :
         
 with
+(
+            
 mock
 .
 patch
 (
-            
 "
 os
 .
@@ -361,8 +365,8 @@ EXDEV
 wrong
 "
 )
-        
 )
+            
 mock
 .
 patch
@@ -382,12 +386,13 @@ wrong
 1
 )
 )
+            
 pytest
 .
 raises
 (
-            
 DistutilsFileError
+)
         
 )
 :

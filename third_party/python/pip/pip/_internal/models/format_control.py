@@ -1,9 +1,7 @@
 from
-typing
+__future__
 import
-FrozenSet
-Optional
-Set
+annotations
 from
 pip
 .
@@ -64,25 +62,23 @@ self
         
 no_binary
 :
-Optional
-[
-Set
+set
 [
 str
 ]
-]
+|
+None
 =
 None
         
 only_binary
 :
-Optional
-[
-Set
+set
 [
 str
 ]
-]
+|
+None
 =
 None
     
@@ -236,13 +232,13 @@ value
 str
 target
 :
-Set
+set
 [
 str
 ]
 other
 :
-Set
+set
 [
 str
 ]
@@ -418,7 +414,7 @@ str
 )
 -
 >
-FrozenSet
+frozenset
 [
 str
 ]

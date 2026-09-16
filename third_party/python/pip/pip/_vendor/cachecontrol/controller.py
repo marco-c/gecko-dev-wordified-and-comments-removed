@@ -25,6 +25,8 @@ import
 re
 import
 time
+import
+weakref
 from
 email
 .
@@ -2016,9 +2018,16 @@ request
 :
 PreparedRequest
         
-response
+response_or_ref
 :
 HTTPResponse
+|
+weakref
+.
+ReferenceType
+[
+HTTPResponse
+]
         
 body
 :
@@ -2066,6 +2075,37 @@ object
 "
 "
 "
+        
+if
+isinstance
+(
+response_or_ref
+weakref
+.
+ReferenceType
+)
+:
+            
+response
+=
+response_or_ref
+(
+)
+            
+if
+response
+is
+None
+:
+                
+return
+        
+else
+:
+            
+response
+=
+response_or_ref
         
 cacheable_status_codes
 =

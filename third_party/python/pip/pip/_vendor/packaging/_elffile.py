@@ -416,10 +416,6 @@ capacity
 }
 )
 or
-"
-                
-f
-"
 encoding
 (
 {

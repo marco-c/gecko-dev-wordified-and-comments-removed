@@ -1,9 +1,13 @@
 from
+collections
+.
+abc
+import
+Sequence
+from
 typing
 import
 Any
-Dict
-Sequence
 from
 pip
 .
@@ -63,7 +67,7 @@ InstallRequirement
 )
 -
 >
-Dict
+dict
 [
 str
 Any
@@ -180,7 +184,7 @@ self
 )
 -
 >
-Dict
+dict
 [
 str
 Any

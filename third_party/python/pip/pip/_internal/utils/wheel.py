@@ -27,10 +27,6 @@ parser
 import
 Parser
 from
-typing
-import
-Tuple
-from
 zipfile
 import
 BadZipFile
@@ -79,7 +75,7 @@ str
 )
 -
 >
-Tuple
+tuple
 [
 str
 Message
@@ -579,7 +575,7 @@ Message
 )
 -
 >
-Tuple
+tuple
 [
 int
 .
@@ -695,7 +691,7 @@ check_compatibility
 (
 version
 :
-Tuple
+tuple
 [
 int
 .

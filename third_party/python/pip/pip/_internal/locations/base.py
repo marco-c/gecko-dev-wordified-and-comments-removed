@@ -1,3 +1,7 @@
+from
+__future__
+import
+annotations
 import
 functools
 import
@@ -8,8 +12,6 @@ import
 sys
 import
 sysconfig
-import
-typing
 from
 pip
 .
@@ -455,12 +457,9 @@ try
     
 user_site
 :
-typing
-.
-Optional
-[
 str
-]
+|
+None
 =
 site
 .
@@ -478,12 +477,7 @@ site
 USER_SITE
 functools
 .
-lru_cache
-(
-maxsize
-=
-None
-)
+cache
 def
 is_osx_framework
 (

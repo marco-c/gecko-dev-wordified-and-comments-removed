@@ -5,7 +5,7 @@ unicodedata
 from
 configparser
 import
-ConfigParser
+RawConfigParser
 from
 .
 compat
@@ -368,7 +368,7 @@ _cfg_read_utf8_with_fallback
     
 cfg
 :
-ConfigParser
+RawConfigParser
 file
 :
 str
@@ -400,7 +400,7 @@ the
 :
 meth
 :
-ConfigParser
+RawConfigParser
 .
 read
 method
@@ -517,7 +517,7 @@ _DETAILS
 "
     
 Fallback
-behaviour
+behavior
 for
 UTF
 -

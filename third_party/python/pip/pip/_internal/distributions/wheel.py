@@ -1,8 +1,11 @@
 from
+__future__
+import
+annotations
+from
 typing
 import
 TYPE_CHECKING
-Optional
 from
 pip
 .
@@ -47,11 +50,9 @@ pip
 .
 _internal
 .
-index
-.
-package_finder
+build_env
 import
-PackageFinder
+BuildEnvironmentInstaller
 class
 WheelDistribution
 (
@@ -95,10 +96,9 @@ self
 )
 -
 >
-Optional
-[
 str
-]
+|
+None
 :
         
 return
@@ -209,11 +209,9 @@ prepare_distribution_metadata
         
 self
         
-finder
+build_env_installer
 :
-"
-PackageFinder
-"
+BuildEnvironmentInstaller
         
 build_isolation
 :

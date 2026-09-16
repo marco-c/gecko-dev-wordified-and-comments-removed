@@ -1,7 +1,8 @@
 from
-typing
+collections
+.
+abc
 import
-Dict
 Generator
 from
 pip
@@ -23,7 +24,7 @@ import
 NetworkConnectionError
 HEADERS
 :
-Dict
+dict
 [
 str
 str

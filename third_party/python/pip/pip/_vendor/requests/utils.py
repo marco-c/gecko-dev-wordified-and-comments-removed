@@ -116,6 +116,8 @@ getproxies
 getproxies_environment
     
 integer_types
+    
+is_urllib3_1
 )
 from
 .
@@ -578,6 +580,9 @@ current_position
 0
     
 if
+not
+is_urllib3_1
+and
 isinstance
 (
 o
@@ -988,9 +993,6 @@ in
 netrc_locations
 :
             
-try
-:
-                
 loc
 =
 os
@@ -1001,12 +1003,6 @@ expanduser
 (
 f
 )
-            
-except
-KeyError
-:
-                
-return
             
 if
 os
@@ -1040,45 +1036,11 @@ urlparse
 url
 )
         
-splitstr
-=
-b
-"
-:
-"
-        
-if
-isinstance
-(
-url
-str
-)
-:
-            
-splitstr
-=
-splitstr
-.
-decode
-(
-"
-ascii
-"
-)
-        
 host
 =
 ri
 .
-netloc
-.
-split
-(
-splitstr
-)
-[
-0
-]
+hostname
         
 try
 :

@@ -13,12 +13,22 @@ completion
 "
 "
 "
+from
+__future__
+import
+annotations
 import
 optparse
 import
 os
 import
 sys
+from
+collections
+.
+abc
+import
+Iterable
 from
 itertools
 import
@@ -27,9 +37,6 @@ from
 typing
 import
 Any
-Iterable
-List
-Optional
 from
 pip
 .
@@ -198,10 +205,9 @@ options
     
 subcommand_name
 :
-Optional
-[
 str
-]
+|
+None
 =
 None
     
@@ -616,6 +622,48 @@ print
 (
 opt_label
 )
+        
+if
+not
+any
+(
+name
+in
+cwords
+for
+name
+in
+subcommand
+.
+handler_map
+(
+)
+)
+:
+            
+for
+handler_name
+in
+subcommand
+.
+handler_map
+(
+)
+:
+                
+if
+handler_name
+.
+startswith
+(
+current
+)
+:
+                    
+print
+(
+handler_name
+)
     
 else
 :
@@ -754,7 +802,7 @@ get_path_completion_type
     
 cwords
 :
-List
+list
 [
 str
 ]
@@ -770,10 +818,9 @@ Any
 )
 -
 >
-Optional
-[
 str
-]
+|
+None
 :
     
 "

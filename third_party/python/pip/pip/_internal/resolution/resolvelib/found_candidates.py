@@ -80,8 +80,10 @@ something
 "
 "
 "
+from
+__future__
 import
-functools
+annotations
 import
 logging
 from
@@ -89,17 +91,14 @@ collections
 .
 abc
 import
+Iterator
 Sequence
 from
 typing
 import
-TYPE_CHECKING
 Any
 Callable
-Iterator
 Optional
-Set
-Tuple
 from
 pip
 .
@@ -133,7 +132,7 @@ __name__
 )
 IndexCandidateInfo
 =
-Tuple
+tuple
 [
 _BaseVersion
 Callable
@@ -146,22 +145,6 @@ Candidate
 ]
 ]
 ]
-if
-TYPE_CHECKING
-:
-    
-SequenceCandidate
-=
-Sequence
-[
-Candidate
-]
-else
-:
-    
-SequenceCandidate
-=
-Sequence
 def
 _iter_built
 (
@@ -218,7 +201,7 @@ ordering
     
 versions_found
 :
-Set
+set
 [
 _BaseVersion
 ]
@@ -432,7 +415,7 @@ installed
     
 versions_found
 :
-Set
+set
 [
 _BaseVersion
 ]
@@ -590,7 +573,7 @@ newer
     
 versions_found
 :
-Set
+set
 [
 _BaseVersion
 ]
@@ -673,7 +656,10 @@ installed
 class
 FoundCandidates
 (
-SequenceCandidate
+Sequence
+[
+Candidate
+]
 )
 :
     
@@ -765,10 +751,9 @@ IndexCandidateInfo
         
 installed
 :
-Optional
-[
 Candidate
-]
+|
+None
         
 prefers_installed
 :
@@ -776,7 +761,7 @@ bool
         
 incompatible_ids
 :
-Set
+set
 [
 int
 ]
@@ -807,6 +792,16 @@ self
 _incompatible_ids
 =
 incompatible_ids
+        
+self
+.
+_bool
+:
+bool
+|
+None
+=
+None
     
 def
 __getitem__
@@ -938,15 +933,6 @@ this
 "
 )
     
-functools
-.
-lru_cache
-(
-maxsize
-=
-1
-)
-    
 def
 __bool__
 (
@@ -960,6 +946,20 @@ bool
 if
 self
 .
+_bool
+is
+not
+None
+:
+            
+return
+self
+.
+_bool
+        
+if
+self
+.
 _prefers_installed
 and
 self
@@ -967,11 +967,25 @@ self
 _installed
 :
             
+self
+.
+_bool
+=
+True
+            
 return
 True
         
-return
+self
+.
+_bool
+=
 any
 (
 self
 )
+        
+return
+self
+.
+_bool

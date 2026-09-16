@@ -5,10 +5,6 @@ optparse
 import
 Values
 from
-typing
-import
-List
-from
 pip
 .
 _vendor
@@ -397,7 +393,7 @@ options
 Values
 args
 :
-List
+list
 [
 str
 ]

@@ -52,14 +52,35 @@ from
 typing
 import
 TYPE_CHECKING
+TypedDict
+overload
 from
 more_itertools
 import
 unique_everseen
+from
+.
+_path
+import
+StrPath
+from
+.
+compat
+import
+py310
 import
 distutils
 .
 errors
+if
+TYPE_CHECKING
+:
+    
+from
+typing_extensions
+import
+LiteralString
+NotRequired
 if
 not
 TYPE_CHECKING
@@ -179,7 +200,12 @@ __init__
 (
 self
 arch
+:
+str
 )
+-
+>
+None
 :
         
 self
@@ -209,6 +235,9 @@ target_cpu
 (
 self
 )
+-
+>
+str
 :
         
 "
@@ -264,6 +293,9 @@ target_is_x86
 (
 self
 )
+-
+>
+bool
 :
         
 "
@@ -318,6 +350,9 @@ current_is_x86
 (
 self
 )
+-
+>
+bool
 :
         
 "
@@ -378,6 +413,9 @@ x64
 =
 False
 )
+-
+>
+str
 :
         
 "
@@ -515,16 +553,15 @@ x64
 )
             
 else
-r
+rf
 '
 \
-%
-s
-'
-%
+{
 self
 .
 current_cpu
+}
+'
         
 )
     
@@ -539,6 +576,9 @@ x64
 =
 False
 )
+-
+>
+str
 :
         
 r
@@ -677,16 +717,15 @@ x64
 )
             
 else
-r
+rf
 '
 \
-%
-s
-'
-%
+{
 self
 .
 target_cpu
+}
+'
         
 )
     
@@ -698,6 +737,9 @@ forcex86
 =
 False
 )
+-
+>
+str
 :
         
 r
@@ -818,14 +860,15 @@ replace
 \
 \
 '
+f
 '
 \
 \
-%
-s_
-'
-%
+{
 current
+}
+_
+'
 )
         
 )
@@ -899,7 +942,12 @@ __init__
 (
 self
 platform_info
+:
+PlatformInfo
 )
+-
+>
+None
 :
         
 self
@@ -915,6 +963,9 @@ visualstudio
 (
 self
 )
+-
+>
+LiteralString
 :
         
 "
@@ -959,6 +1010,9 @@ sxs
 (
 self
 )
+-
+>
+LiteralString
 :
         
 "
@@ -1013,6 +1067,9 @@ vc
 (
 self
 )
+-
+>
+LiteralString
 :
         
 "
@@ -1069,6 +1126,9 @@ vs
 (
 self
 )
+-
+>
+LiteralString
 :
         
 "
@@ -1123,6 +1183,9 @@ vc_for_python
 (
 self
 )
+-
+>
+LiteralString
 :
         
 "
@@ -1173,6 +1236,9 @@ microsoft_sdk
 (
 self
 )
+-
+>
+LiteralString
 :
         
 "
@@ -1216,6 +1282,9 @@ windows_sdk
 (
 self
 )
+-
+>
+LiteralString
 :
         
 "
@@ -1271,6 +1340,9 @@ netfx_sdk
 (
 self
 )
+-
+>
+LiteralString
 :
         
 "
@@ -1326,6 +1398,9 @@ windows_kits_roots
 (
 self
 )
+-
+>
+LiteralString
 :
         
 "
@@ -1368,15 +1443,68 @@ Installed
 Roots
 '
     
+overload
+    
 def
 microsoft
 (
 self
 key
+:
+LiteralString
 x86
+:
+bool
 =
 False
 )
+-
+>
+LiteralString
+:
+.
+.
+.
+    
+overload
+    
+def
+microsoft
+(
+self
+key
+:
+str
+x86
+:
+bool
+=
+False
+)
+-
+>
+str
+:
+.
+.
+.
+    
+def
+microsoft
+(
+self
+key
+:
+str
+x86
+:
+bool
+=
+False
+)
+-
+>
+str
 :
         
 "
@@ -1417,7 +1545,7 @@ look
         
 x86
 :
-str
+bool
             
 Force
 x86
@@ -1484,8 +1612,17 @@ lookup
 (
 self
 key
+:
+str
 name
+:
+str
 )
+-
+>
+str
+|
+None
 :
         
 "
@@ -1547,6 +1684,8 @@ Return
 -
         
 str
+|
+None
             
 value
         
@@ -1786,12 +1925,23 @@ ProgramFiles
 def
 __init__
 (
+        
 self
 registry_info
+:
+RegistryInfo
 vc_ver
+:
+float
+|
+None
 =
 None
+    
 )
+-
+>
+None
 :
         
 self
@@ -1927,20 +2077,22 @@ known_vs_paths
 )
         
 return
-sorted
+max
 (
 vc_vers
 )
-[
--
-1
-]
     
 def
 find_reg_vs_vers
 (
 self
 )
+-
+>
+list
+[
+float
+]
 :
         
 "
@@ -2171,6 +2323,13 @@ find_programdata_vs_vers
 (
 self
 )
+-
+>
+dict
+[
+float
+str
+]
 :
         
 r
@@ -2229,6 +2388,12 @@ value
 "
         
 vs_versions
+:
+dict
+[
+float
+str
+]
 =
 {
 }
@@ -2484,6 +2649,9 @@ VSInstallDir
 (
 self
 )
+-
+>
+str
 :
         
 "
@@ -2525,19 +2693,21 @@ join
 self
 .
 ProgramFilesx86
+f
 '
 Microsoft
 Visual
 Studio
-%
-0
-.
-1f
-'
-%
+{
 self
 .
 vs_ver
+:
+0
+.
+1f
+}
+'
         
 )
         
@@ -2553,16 +2723,18 @@ self
 ri
 .
 vs
+f
 '
-%
-0
-.
-1f
-'
-%
+{
 self
 .
 vs_ver
+:
+0
+.
+1f
+}
+'
 )
 or
 default
@@ -2574,6 +2746,9 @@ VCInstallDir
 (
 self
 )
+-
+>
+str
 :
         
 "
@@ -2854,22 +3029,24 @@ join
 self
 .
 ProgramFilesx86
-r
+            
+rf
 '
 Microsoft
 Visual
 Studio
-%
-0
-.
-1f
-\
-VC
-'
-%
+{
 self
 .
 vs_ver
+:
+0
+.
+1f
+}
+\
+VC
+'
         
 )
         
@@ -2886,16 +3063,18 @@ self
 ri
 .
 vc_for_python
+f
 '
-%
-0
-.
-1f
-'
-%
+{
 self
 .
 vs_ver
+:
+0
+.
+1f
+}
+'
 )
         
 python_vc
@@ -2942,16 +3121,18 @@ self
 ri
 .
 vc
+f
 '
-%
-0
-.
-1f
-'
-%
+{
 self
 .
 vs_ver
+:
+0
+.
+1f
+}
+'
 )
 or
 default_vc
@@ -2963,6 +3144,15 @@ WindowsSdkVersion
 (
 self
 )
+-
+>
+tuple
+[
+LiteralString
+.
+.
+.
+]
 :
         
 "
@@ -3121,7 +3311,8 @@ return
 '
         
 return
-None
+(
+)
     
 property
     
@@ -3130,6 +3321,9 @@ WindowsSdkLastVersion
 (
 self
 )
+-
+>
+str
 :
         
 "
@@ -3187,6 +3381,9 @@ WindowsSdkDir
 (
 self
 )
+-
+>
+str
 :
         
 "
@@ -3217,6 +3414,10 @@ path
 "
         
 sdkdir
+:
+str
+|
+None
 =
 '
 '
@@ -3242,13 +3443,13 @@ self
 ri
 .
 windows_sdk
+f
 '
 v
-%
-s
-'
-%
+{
 ver
+}
+'
 )
             
 sdkdir
@@ -3299,16 +3500,18 @@ self
 ri
 .
 vc_for_python
+f
 '
-%
-0
-.
-1f
-'
-%
+{
 self
 .
 vc_ver
+:
+0
+.
+1f
+}
+'
 )
             
 install_base
@@ -3383,7 +3586,7 @@ rfind
                 
 path
 =
-r
+rf
 '
 Microsoft
 SDKs
@@ -3391,11 +3594,10 @@ SDKs
 Windows
 Kits
 \
-%
-s
-'
-%
+{
 intver
+}
+'
                 
 d
 =
@@ -3451,7 +3653,7 @@ WindowsSdkVersion
                 
 path
 =
-r
+rf
 '
 Microsoft
 SDKs
@@ -3459,11 +3661,10 @@ SDKs
 Windows
 \
 v
-%
-s
-'
-%
+{
 ver
+}
+'
                 
 d
 =
@@ -3525,6 +3726,11 @@ WindowsSDKExecutablePath
 (
 self
 )
+-
+>
+str
+|
+None
 :
         
 "
@@ -3548,6 +3754,8 @@ Return
 -
         
 str
+|
+None
             
 path
         
@@ -3612,22 +3820,6 @@ hidex86
 =
 hidex86
 )
-        
-fx
-=
-'
-WinSDK
--
-NetFx
-%
-dTools
-%
-s
-'
-%
-(
-netfxver
-arch
 .
 replace
 (
@@ -3639,7 +3831,22 @@ replace
 -
 '
 )
-)
+        
+fx
+=
+f
+'
+WinSDK
+-
+NetFx
+{
+netfxver
+}
+Tools
+{
+arch
+}
+'
         
 regpaths
 =
@@ -3708,13 +3915,14 @@ self
 ri
 .
 windows_sdk
+f
 '
 v
-%
-sA
-'
-%
+{
 ver
+}
+A
+'
 fx
 )
 ]
@@ -3756,6 +3964,9 @@ FSharpInstallDir
 (
 self
 )
+-
+>
+str
 :
         
 "
@@ -3799,22 +4010,23 @@ self
 ri
 .
 visualstudio
-r
+rf
 '
-%
+{
+self
+.
+vs_ver
+:
 0
 .
 1f
+}
 \
 Setup
 \
 F
 #
 '
-%
-self
-.
-vs_ver
 )
         
 return
@@ -3840,6 +4052,11 @@ UniversalCRTSdkDir
 (
 self
 )
+-
+>
+str
+|
+None
 :
         
 "
@@ -3863,6 +4080,8 @@ Return
 -
         
 str
+|
+None
             
 path
         
@@ -3912,13 +4131,13 @@ self
 ri
 .
 windows_kits_roots
+f
 '
 kitsroot
-%
-s
-'
-%
+{
 ver
+}
+'
 )
             
 if
@@ -3927,9 +4146,6 @@ sdkdir
                 
 return
 sdkdir
-or
-'
-'
         
 return
 None
@@ -3941,6 +4157,9 @@ UniversalCRTSdkLastVersion
 (
 self
 )
+-
+>
+str
 :
         
 "
@@ -3973,6 +4192,9 @@ version
 "
 "
         
+try
+:
+            
 return
 self
 .
@@ -3992,6 +4214,26 @@ lib
 '
 )
 )
+        
+except
+TypeError
+as
+ex
+:
+            
+py310
+.
+add_note
+(
+ex
+"
+Cannot
+find
+UniversalCRTSdkDir
+"
+)
+            
+raise
     
 property
     
@@ -4000,6 +4242,15 @@ NetFxSdkVersion
 (
 self
 )
+-
+>
+tuple
+[
+LiteralString
+.
+.
+.
+]
 :
         
 "
@@ -4119,6 +4370,11 @@ NetFxSdkDir
 (
 self
 )
+-
+>
+str
+|
+None
 :
         
 "
@@ -4143,6 +4399,8 @@ Return
 -
         
 str
+|
+None
             
 path
         
@@ -4151,6 +4409,10 @@ path
 "
         
 sdkdir
+:
+str
+|
+None
 =
 '
 '
@@ -4209,6 +4471,9 @@ FrameworkDir32
 (
 self
 )
+-
+>
+str
 :
         
 "
@@ -4287,6 +4552,9 @@ FrameworkDir64
 (
 self
 )
+-
+>
+str
 :
         
 "
@@ -4365,6 +4633,15 @@ FrameworkVersion32
 (
 self
 )
+-
+>
+tuple
+[
+str
+.
+.
+.
+]
 :
         
 "
@@ -4413,6 +4690,15 @@ FrameworkVersion64
 (
 self
 )
+-
+>
+tuple
+[
+str
+.
+.
+.
+]
 :
         
 "
@@ -4460,6 +4746,15 @@ _find_dot_net_versions
 self
 bits
 )
+-
+>
+tuple
+[
+str
+.
+.
+.
+]
 :
         
 "
@@ -4533,13 +4828,13 @@ self
 ri
 .
 vc
+f
 '
 frameworkver
-%
-d
-'
-%
+{
 bits
+}
+'
 )
         
 dot_net_dir
@@ -4547,13 +4842,13 @@ dot_net_dir
 getattr
 (
 self
+f
 '
 FrameworkDir
-%
-d
-'
-%
+{
 bits
+}
+'
 )
         
 ver
@@ -4685,7 +4980,8 @@ v2
 '
         
 return
-None
+(
+)
     
 staticmethod
     
@@ -4693,11 +4989,18 @@ def
 _use_last_dir_name
 (
 path
+:
+StrPath
 prefix
+:
+str
 =
 '
 '
 )
+-
+>
+str
 :
         
 "
@@ -4736,7 +5039,7 @@ Parameters
         
 path
 :
-str
+StrPath
             
 Use
 dirs
@@ -4824,11 +5127,40 @@ return
 next
 (
 matching_dirs
-None
+'
+'
 )
-or
-'
-'
+class
+_EnvironmentDict
+(
+TypedDict
+)
+:
+    
+include
+:
+str
+    
+lib
+:
+str
+    
+libpath
+:
+str
+    
+path
+:
+str
+    
+py_vcruntime_redist
+:
+NotRequired
+[
+str
+|
+None
+]
 class
 EnvironmentInfo
 :
@@ -4984,6 +5316,9 @@ vc_min_ver
 =
 0
 )
+-
+>
+None
 :
         
 self
@@ -5255,18 +5590,17 @@ paths
 +
 =
 [
-r
+rf
 '
 Team
 Tools
 \
 Performance
 Tools
-%
-s
-'
-%
+{
 arch_subdir
+}
+'
 ]
         
 return
@@ -5461,23 +5795,22 @@ True
 paths
 =
 [
+f
 '
 Lib
-%
-s
-'
-%
+{
 arch_subdir
-r
+}
+'
+rf
 '
 ATLMFC
 \
 Lib
-%
-s
-'
-%
+{
 arch_subdir
+}
+'
 ]
         
 if
@@ -5495,16 +5828,15 @@ paths
 +
 =
 [
-r
+rf
 '
 Lib
 \
 store
-%
-s
-'
-%
+{
 arch_subdir
+}
+'
 ]
         
 return
@@ -5644,6 +5976,99 @@ str
             
 paths
         
+When
+host
+CPU
+is
+ARM
+the
+tools
+should
+be
+found
+for
+ARM
+.
+        
+>
+>
+>
+getfixture
+(
+'
+windows_only
+'
+)
+        
+>
+>
+>
+mp
+=
+getfixture
+(
+'
+monkeypatch
+'
+)
+        
+>
+>
+>
+mp
+.
+setattr
+(
+PlatformInfo
+'
+current_cpu
+'
+'
+arm64
+'
+)
+        
+>
+>
+>
+ei
+=
+EnvironmentInfo
+(
+arch
+=
+'
+irrelevant
+'
+)
+        
+>
+>
+>
+paths
+=
+ei
+.
+VCTools
+        
+>
+>
+>
+any
+(
+'
+HostARM64
+'
+in
+path
+for
+path
+in
+paths
+)
+        
+True
+        
 "
 "
 "
@@ -5715,13 +6140,13 @@ join
 si
 .
 VCInstallDir
+f
 '
 Bin
-%
-s
-'
-%
+{
 arch_subdir
+}
+'
 )
 ]
         
@@ -5738,12 +6163,10 @@ vs_ver
             
 path
 =
+f
 '
 Bin
-%
-s
-'
-%
+{
 self
 .
 pi
@@ -5754,6 +6177,8 @@ hidex86
 =
 True
 )
+}
+'
             
 tools
 +
@@ -5783,36 +6208,48 @@ vs_ver
 0
 :
             
-host_dir
+host_id
 =
-(
-                
-r
-'
-bin
-\
-HostX86
-%
-s
-'
-if
 self
 .
 pi
 .
-current_is_x86
+current_cpu
+.
+replace
+(
+'
+amd64
+'
+'
+x64
+'
+)
+.
+upper
 (
 )
-else
-r
+            
+host_dir
+=
+os
+.
+path
+.
+join
+(
 '
 bin
-\
-HostX64
+'
+f
+'
+Host
+{
+host_id
+}
 %
 s
 '
-            
 )
             
 tools
@@ -5995,13 +6432,13 @@ self
 si
 .
 WindowsSdkDir
+f
 '
 Lib
-%
-s
-'
-%
+{
 arch_subdir
+}
+'
 )
 ]
         
@@ -6054,17 +6491,16 @@ path
 join
 (
 lib
+f
 '
-%
-sum
-%
-s
-'
-%
-(
+{
 libver
+}
+um
+{
 arch_subdir
-)
+}
+'
 )
 ]
     
@@ -6189,12 +6625,13 @@ path
 join
 (
 include
+f
 '
-%
-sshared
-'
-%
+{
 sdkver
+}
+shared
+'
 )
                 
 os
@@ -6204,12 +6641,13 @@ path
 join
 (
 include
+f
 '
-%
-sum
-'
-%
+{
 sdkver
+}
+um
+'
 )
                 
 os
@@ -6219,12 +6657,13 @@ path
 join
 (
 include
+f
 '
-%
-swinrt
-'
-%
+{
 sdkver
+}
+winrt
+'
 )
             
 ]
@@ -6476,16 +6915,18 @@ Microsoft
 VCLibs
 '
                     
+f
 '
-%
-0
-.
-1f
-'
-%
+{
 self
 .
 vs_ver
+:
+0
+.
+1f
+}
+'
                     
 '
 References
@@ -6665,13 +7106,13 @@ True
             
 path
 =
+f
 '
 Bin
-%
-s
-'
-%
+{
 arch_subdir
+}
+'
             
 yield
 os
@@ -6739,7 +7180,7 @@ True
             
 path
 =
-r
+rf
 '
 Bin
 \
@@ -6748,11 +7189,10 @@ NETFX
 .
 0
 Tools
-%
-s
-'
-%
+{
 arch_subdir
+}
+'
             
 yield
 os
@@ -6827,17 +7267,15 @@ path
 join
 (
 path
+f
 '
-%
-s
-%
-s
-'
-%
-(
+{
 sdkver
+}
+{
 arch_subdir
-)
+}
+'
 )
         
 if
@@ -6862,6 +7300,9 @@ _sdk_subdir
 (
 self
 )
+-
+>
+str
 :
         
 "
@@ -6902,14 +7343,14 @@ WindowsSdkLastVersion
         
 return
 (
+f
 '
-%
-s
-\
-\
-'
-%
+{
 ucrtver
+}
+\
+\
+'
 )
 if
 ucrtver
@@ -7260,16 +7701,15 @@ self
 si
 .
 NetFxSdkDir
-r
+rf
 '
 lib
 \
 um
-%
-s
-'
-%
+{
 arch_subdir
+}
+'
 )
 ]
     
@@ -7518,26 +7958,25 @@ arch_subdir
         
 path
 =
-r
+rf
 '
 MSBuild
 \
-%
-0
-.
-1f
-\
-bin
-%
-s
-'
-%
-(
+{
 self
 .
 vs_ver
+:
+0
+.
+1f
+}
+\
+bin
+{
 arch_subdir
-)
+}
+'
         
 build
 =
@@ -7665,6 +8104,12 @@ UCRTLibraries
 (
 self
 )
+-
+>
+list
+[
+str
+]
 :
         
 "
@@ -7725,6 +8170,9 @@ x64
 True
 )
         
+try
+:
+            
 lib
 =
 os
@@ -7743,6 +8191,26 @@ lib
 '
 )
         
+except
+TypeError
+as
+ex
+:
+            
+py310
+.
+add_note
+(
+ex
+"
+Cannot
+find
+UniversalCRTSdkDir
+"
+)
+            
+raise
+        
 ucrtver
 =
 self
@@ -7758,17 +8226,16 @@ path
 join
 (
 lib
+f
 '
-%
-sucrt
-%
-s
-'
-%
-(
+{
 ucrtver
+}
+ucrt
+{
 arch_subdir
-)
+}
+'
 )
 ]
     
@@ -7779,6 +8246,12 @@ UCRTIncludes
 (
 self
 )
+-
+>
+list
+[
+str
+]
 :
         
 "
@@ -7826,6 +8299,9 @@ return
 [
 ]
         
+try
+:
+            
 include
 =
 os
@@ -7844,6 +8320,26 @@ include
 '
 )
         
+except
+TypeError
+as
+ex
+:
+            
+py310
+.
+add_note
+(
+ex
+"
+Cannot
+find
+UniversalCRTSdkDir
+"
+)
+            
+raise
+        
 return
 [
 os
@@ -7853,14 +8349,15 @@ path
 join
 (
 include
+f
 '
-%
-sucrt
-'
-%
+{
 self
 .
 _ucrt_subdir
+}
+ucrt
+'
 )
 ]
     
@@ -7871,6 +8368,9 @@ _ucrt_subdir
 (
 self
 )
+-
+>
+str
 :
         
 "
@@ -7913,14 +8413,14 @@ UniversalCRTSdkLastVersion
         
 return
 (
+f
 '
-%
-s
-\
-\
-'
-%
+{
 ucrtver
+}
+\
+\
+'
 )
 if
 ucrtver
@@ -8037,17 +8537,18 @@ None
         
 vcruntime
 =
+f
 '
 vcruntime
-%
-d0
-.
-dll
-'
-%
+{
 self
 .
 vc_ver
+}
+0
+.
+dll
+'
         
 arch_subdir
 =
@@ -8179,35 +8680,28 @@ crt_dirs
 =
 (
             
+f
 '
 Microsoft
 .
 VC
-%
-d
-.
-CRT
-'
-%
-(
+{
 self
 .
 vc_ver
 *
 10
-)
+}
+.
+CRT
+'
             
+f
 '
 Microsoft
 .
 VC
-%
-d
-.
-CRT
-'
-%
-(
+{
 int
 (
 self
@@ -8216,7 +8710,10 @@ vs_ver
 )
 *
 10
-)
+}
+.
+CRT
+'
         
 )
         
@@ -8272,9 +8769,14 @@ return_env
 (
 self
 exists
+:
+bool
 =
 True
 )
+-
+>
+_EnvironmentDict
 :
         
 "
@@ -8330,7 +8832,7 @@ environment
         
 env
 =
-dict
+_EnvironmentDict
 (
             
 include
@@ -8704,20 +9206,20 @@ extant_paths
             
 msg
 =
+f
 "
-%
-s
-environment
-variable
-is
-empty
-"
-%
+{
 name
 .
 upper
 (
 )
+}
+environment
+variable
+is
+empty
+"
             
 raise
 distutils

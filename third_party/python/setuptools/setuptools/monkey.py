@@ -24,7 +24,6 @@ types
 from
 typing
 import
-Type
 TypeVar
 cast
 overload
@@ -345,7 +344,7 @@ external_bases
         
 cast
 (
-Type
+type
 [
 _T
 ]
@@ -398,6 +397,7 @@ distutils
         
 msg
 =
+f
 "
 distutils
 has
@@ -405,11 +405,12 @@ already
 been
 patched
 by
-%
-r
-"
-%
+{
 cls
+!
+r
+}
+"
         
 raise
 AssertionError
@@ -423,6 +424,9 @@ def
 patch_all
 (
 )
+-
+>
+None
 :
     
 import
@@ -605,6 +609,9 @@ replacement
 target_mod
 func_name
 )
+-
+>
+None
 :
     
 "

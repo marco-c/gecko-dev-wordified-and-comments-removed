@@ -23,9 +23,6 @@ issues
 /
 new
 ?
-"
-    
-"
 template
 =
 distutils
@@ -528,6 +525,9 @@ self
 *
 patterns
 )
+-
+>
+None
 :
         
 self

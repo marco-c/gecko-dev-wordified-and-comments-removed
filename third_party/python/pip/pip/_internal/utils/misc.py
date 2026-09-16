@@ -1,3 +1,7 @@
+from
+__future__
+import
+annotations
 import
 errno
 import
@@ -22,6 +26,16 @@ import
 urllib
 .
 parse
+from
+collections
+.
+abc
+import
+Generator
+Iterable
+Iterator
+Mapping
+Sequence
 from
 dataclasses
 import
@@ -60,29 +74,11 @@ BinaryIO
     
 Callable
     
-Generator
-    
-Iterable
-    
-Iterator
-    
-List
-    
-Mapping
-    
 Optional
-    
-Sequence
     
 TextIO
     
-Tuple
-    
-Type
-    
 TypeVar
-    
-Union
     
 cast
 )
@@ -233,9 +229,9 @@ T
 )
 ExcInfo
 =
-Tuple
+tuple
 [
-Type
+type
 [
 BaseException
 ]
@@ -244,7 +240,7 @@ TracebackType
 ]
 VersionInfo
 =
-Tuple
+tuple
 [
 int
 int
@@ -252,10 +248,10 @@ int
 ]
 NetlocTuple
 =
-Tuple
+tuple
 [
 str
-Tuple
+tuple
 [
 Optional
 [
@@ -365,7 +361,7 @@ normalize_version_info
 (
 py_version_info
 :
-Tuple
+tuple
 [
 int
 .
@@ -375,7 +371,7 @@ int
 )
 -
 >
-Tuple
+tuple
 [
 int
 int
@@ -670,7 +666,6 @@ wait
 def
 rmtree
 (
-    
 dir
 :
 str
@@ -681,10 +676,9 @@ bool
 False
 onexc
 :
-Optional
-[
 OnExc
-]
+|
+None
 =
 None
 )
@@ -799,11 +793,9 @@ Path
     
 exc_info
 :
-Union
-[
 ExcInfo
+|
 BaseException
-]
     
 *
     
@@ -1769,13 +1761,13 @@ Any
 )
 -
 >
-Tuple
+tuple
 [
-List
+list
 [
 str
 ]
-List
+list
 [
 int
 ]
@@ -2243,7 +2235,7 @@ str
 )
 -
 >
-Tuple
+tuple
 [
 str
 str
@@ -2570,9 +2562,7 @@ TextIO
 )
 -
 >
-"
 StreamWrapper
-"
 :
         
 ret
@@ -2623,7 +2613,7 @@ Any
 )
 -
 >
-Type
+type
 [
 Any
 ]
@@ -2693,10 +2683,9 @@ host
 str
 port
 :
-Optional
-[
 int
-]
+|
+None
 )
 -
 >
@@ -2856,16 +2845,14 @@ str
 )
 -
 >
-Tuple
-[
-Optional
+tuple
 [
 str
-]
-Optional
-[
+|
+None
 int
-]
+|
+None
 ]
 :
     
@@ -2985,10 +2972,9 @@ rsplit
     
 pw
 :
-Optional
-[
 str
-]
+|
+None
 =
 None
     
@@ -3231,7 +3217,7 @@ Callable
 [
 str
 ]
-Tuple
+tuple
 [
 Any
 .
@@ -3242,7 +3228,7 @@ Any
 )
 -
 >
-Tuple
+tuple
 [
 str
 NetlocTuple
@@ -3407,7 +3393,7 @@ str
 )
 -
 >
-Tuple
+tuple
 [
 str
 ]
@@ -3430,20 +3416,18 @@ str
 )
 -
 >
-Tuple
+tuple
 [
 str
 str
-Tuple
-[
-Optional
+tuple
 [
 str
-]
-Optional
-[
+|
+None
 str
-]
+|
+None
 ]
 ]
 :
@@ -4126,7 +4110,7 @@ int
 )
 -
 >
-Tuple
+tuple
 [
 Any
 int
@@ -4221,7 +4205,7 @@ Any
 >
 Iterator
 [
-Tuple
+tuple
 [
 Any
 Any
@@ -4300,7 +4284,7 @@ T
 )
 -
 >
-Tuple
+tuple
 [
 Iterable
 [
@@ -4405,17 +4389,14 @@ str
         
 backend_path
 :
-Optional
-[
 str
-]
+|
+None
 =
 None
         
 runner
 :
-Optional
-[
 Callable
 [
 .
@@ -4423,16 +4404,16 @@ Callable
 .
 None
 ]
-]
+|
+None
 =
 None
         
 python_executable
 :
-Optional
-[
 str
-]
+|
+None
 =
 None
     
@@ -4472,23 +4453,21 @@ str
         
 config_settings
 :
-Optional
-[
 Mapping
 [
 str
 Any
 ]
-]
+|
+None
 =
 None
         
 metadata_directory
 :
-Optional
-[
 str
-]
+|
+None
 =
 None
     
@@ -4536,14 +4515,13 @@ str
         
 config_settings
 :
-Optional
-[
 Mapping
 [
 str
 Any
 ]
-]
+|
+None
 =
 None
     
@@ -4586,23 +4564,21 @@ str
         
 config_settings
 :
-Optional
-[
 Mapping
 [
 str
 Any
 ]
-]
+|
+None
 =
 None
         
 metadata_directory
 :
-Optional
-[
 str
-]
+|
+None
 =
 None
     
@@ -4645,14 +4621,13 @@ get_requires_for_build_wheel
 self
 config_settings
 :
-Optional
-[
 Mapping
 [
 str
 Any
 ]
-]
+|
+None
 =
 None
     
@@ -4692,14 +4667,13 @@ get_requires_for_build_sdist
 self
 config_settings
 :
-Optional
-[
 Mapping
 [
 str
 Any
 ]
-]
+|
+None
 =
 None
     
@@ -4739,14 +4713,13 @@ get_requires_for_build_editable
 self
 config_settings
 :
-Optional
-[
 Mapping
 [
 str
 Any
 ]
-]
+|
+None
 =
 None
     
@@ -4791,14 +4764,13 @@ str
         
 config_settings
 :
-Optional
-[
 Mapping
 [
 str
 Any
 ]
-]
+|
+None
 =
 None
         
@@ -4856,14 +4828,13 @@ str
         
 config_settings
 :
-Optional
-[
 Mapping
 [
 str
 Any
 ]
-]
+|
+None
 =
 None
         
@@ -4876,10 +4847,9 @@ True
 )
 -
 >
-Optional
-[
 str
-]
+|
+None
 :
         
 cs

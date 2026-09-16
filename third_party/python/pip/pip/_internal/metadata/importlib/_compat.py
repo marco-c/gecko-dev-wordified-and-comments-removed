@@ -1,3 +1,7 @@
+from
+__future__
+import
+annotations
 import
 importlib
 .
@@ -8,9 +12,7 @@ from
 typing
 import
 Any
-Optional
 Protocol
-Tuple
 cast
 from
 pip
@@ -211,9 +213,7 @@ self
 )
 -
 >
-"
 BasePath
-"
 :
         
 raise
@@ -233,10 +233,9 @@ Distribution
 )
 -
 >
-Optional
-[
 BasePath
-]
+|
+None
 :
     
 "
@@ -353,16 +352,14 @@ Distribution
 )
 -
 >
-Tuple
-[
-Optional
+tuple
 [
 str
-]
-Optional
-[
+|
+None
 str
-]
+|
+None
 ]
 :
     

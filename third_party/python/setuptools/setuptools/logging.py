@@ -31,6 +31,9 @@ def
 configure
 (
 )
+-
+>
+None
 :
     
 "
@@ -187,6 +190,9 @@ level
 :
 int
 )
+-
+>
+int
 :
     
 logging

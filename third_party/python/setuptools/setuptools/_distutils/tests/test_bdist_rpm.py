@@ -41,10 +41,9 @@ support
 import
 pytest
 from
+test
 .
-compat
-.
-py38
+support
 import
 requires_zlib
 SETUP_PY

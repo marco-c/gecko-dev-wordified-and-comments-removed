@@ -16,9 +16,9 @@ __version__
 "
 2
 .
-0
+4
 .
-1
+0
 "
 from
 .
@@ -27,8 +27,3 @@ import
 TOMLDecodeError
 load
 loads
-TOMLDecodeError
-.
-__module__
-=
-__name__
