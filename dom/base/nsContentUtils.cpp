@@ -44510,7 +44510,7 @@ false
 ;
 }
 nsAutoCString
-spec
+originNoSuffix
 ;
 nsresult
 rv
@@ -44518,9 +44518,9 @@ rv
 aPrincipal
 -
 >
-GetAsciiSpec
+GetOriginNoSuffix
 (
-spec
+originNoSuffix
 )
 ;
 NS_ENSURE_SUCCESS
@@ -44530,9 +44530,9 @@ false
 )
 ;
 return
-spec
+originNoSuffix
 .
-EqualsLiteral
+Equals
 (
 "
 resource
@@ -44542,13 +44542,8 @@ resource
 pdf
 .
 js
-/
-web
-/
-viewer
-.
-html
 "
+_ns
 )
 ;
 }
