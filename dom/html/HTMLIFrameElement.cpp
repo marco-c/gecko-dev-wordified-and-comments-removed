@@ -1567,7 +1567,7 @@ IsEmpty
 mFeaturePolicy
 -
 >
-SetDeclaredAttributePolicy
+SetDeclaredPolicy
 (
 OwnerDoc
 (

@@ -22512,7 +22512,7 @@ httpChannel
 GetResponseHeader
 (
 "
-Permissions
+Feature
 -
 Policy
 "
@@ -22533,7 +22533,7 @@ FeaturePolicy
 )
 -
 >
-SetDeclaredHeaderPolicy
+SetDeclaredPolicy
 (
 this
 NS_ConvertUTF8toUTF16
@@ -22543,6 +22543,7 @@ value
 NodePrincipal
 (
 )
+nullptr
 )
 ;
 }
