@@ -566,6 +566,7 @@ toolFns
 .
 getOpenTabs
 (
+toolParams
 conversation
 )
 ;
