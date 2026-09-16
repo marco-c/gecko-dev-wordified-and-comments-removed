@@ -47,9 +47,6 @@ use
 crate
 :
 :
-windows
-:
-:
 setup_config
 :
 :
@@ -87,6 +84,8 @@ Option
 <
 Cow
 <
+'
+_
 str
 >
 >
@@ -250,6 +249,8 @@ Option
 <
 Cow
 <
+'
+_
 str
 >
 >
@@ -364,6 +365,7 @@ IntoIter
 =
 Box
 <
+dyn
 Iterator
 <
 Item

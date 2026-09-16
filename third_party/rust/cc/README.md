@@ -193,9 +193,9 @@ opensource
 .
 org
 /
-licenses
+license
 /
-MIT
+mit
 )
 at
 your

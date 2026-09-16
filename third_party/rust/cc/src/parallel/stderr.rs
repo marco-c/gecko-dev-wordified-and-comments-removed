@@ -227,13 +227,10 @@ io
 RawFd
 flags
 :
-std
+core
 :
 :
-os
-:
-:
-raw
+ffi
 :
 :
 c_int
@@ -421,10 +418,9 @@ windows
 ]
 {
 use
-crate
 :
 :
-windows
+find_msvc_tools
 :
 :
 windows_sys
