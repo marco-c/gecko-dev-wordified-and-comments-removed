@@ -284,6 +284,17 @@ new_outgoing
 target_rate
 |
 |
+last_reported_
+-
+>
+cwnd_reduce_ratio
+!
+=
+new_outgoing
+.
+cwnd_reduce_ratio
+|
+|
 (
 !
 new_outgoing
