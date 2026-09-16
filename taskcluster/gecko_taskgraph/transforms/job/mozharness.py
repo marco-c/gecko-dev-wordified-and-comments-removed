@@ -255,6 +255,15 @@ git
 git
 "
     
+sparse_profile
+:
+Optional
+[
+str
+]
+=
+None
+    
 use_simple_package
 :
 bool

@@ -199,6 +199,13 @@ mh
 args
 :
 false
+sparse
+-
+profile
+:
+repackage
+-
+msi
 config
 :
 by
