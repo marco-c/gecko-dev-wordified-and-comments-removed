@@ -2086,11 +2086,6 @@ role
 "
 combobox
 "
-dir
-=
-"
-auto
-"
 aria
 -
 autocomplete
