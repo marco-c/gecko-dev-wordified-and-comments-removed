@@ -442,14 +442,10 @@ void
 StreamingEncoder
 :
 :
-reset
+reset_caches
 (
 )
 {
-step_
-=
-0
-;
 clc_len_
 =
 0
