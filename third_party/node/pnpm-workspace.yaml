@@ -1,0 +1,12 @@
+nodeLinker
+:
+hoisted
+managePackageManagerVersions
+:
+false
+minimumReleaseAge
+:
+20160
+ignoreScripts
+:
+true

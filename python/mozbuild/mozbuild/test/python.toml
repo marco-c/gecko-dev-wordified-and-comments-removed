@@ -694,3 +694,12 @@ test_vendor_manifest
 py
 "
 ]
+[
+"
+vendor
+/
+test_vendor_node
+.
+py
+"
+]
