@@ -22,7 +22,7 @@ f
 {
 defer
 !
-(
+{
 println
 !
 (
@@ -34,8 +34,8 @@ or
 panic
 "
 )
-)
 ;
+}
 panic
 !
 (
