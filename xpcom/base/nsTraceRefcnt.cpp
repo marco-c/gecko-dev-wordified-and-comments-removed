@@ -582,12 +582,17 @@ static
 intptr_t
 gNextSerialNumber
 ;
+#
+ifdef
+DEBUG
 static
 bool
 gDumpedStatistics
 =
 false
 ;
+#
+endif
 static
 bool
 gLogJSStacks
@@ -2233,6 +2238,9 @@ lock
 gTraceLog
 )
 ;
+#
+ifdef
+DEBUG
 MOZ_ASSERT
 (
 !
@@ -2262,6 +2270,8 @@ gDumpedStatistics
 =
 true
 ;
+#
+endif
 AutoRestore
 <
 LoggingType
