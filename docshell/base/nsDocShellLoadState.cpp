@@ -357,7 +357,12 @@ nsIURIFixup
 >
 sURIFixup
 ;
-static
+namespace
+mozilla
+:
+:
+dom
+{
 bool
 ContentTriggeredURILoadIsAllowed
 (
@@ -638,6 +643,7 @@ AllowNotLoadedOrigin
 }
 )
 ;
+}
 }
 nsDocShellLoadState
 :
