@@ -155,6 +155,11 @@ event_source
 "
 card
 "
+section_position
+:
+"
+2
+"
 }
 ;
 let
@@ -165,11 +170,6 @@ section
 :
 "
 business
-"
-section_position
-:
-"
-2
 "
 layout_name
 :
