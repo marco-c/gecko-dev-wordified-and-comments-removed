@@ -410,10 +410,10 @@ DllServices
 :
 GetModulesTrust
 (
-ModulePaths
+ModuleIdentifiers
 &
 &
-aModPaths
+aModIdents
 bool
 aRunAtNormalPriority
 )
@@ -446,7 +446,7 @@ std
 :
 move
 (
-aModPaths
+aModIdents
 )
 aRunAtNormalPriority
 )

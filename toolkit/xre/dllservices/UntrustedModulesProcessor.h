@@ -302,10 +302,10 @@ ModulesTrustPromise
 >
 GetModulesTrust
 (
-ModulePaths
+ModuleIdentifiers
 &
 &
-aModPaths
+aModIdents
 bool
 aRunAtNormalPriority
 )
@@ -549,10 +549,10 @@ ModulesTrustPromise
 >
 GetModulesTrustInternal
 (
-ModulePaths
+ModuleIdentifiers
 &
 &
-aModPaths
+aModIdents
 bool
 aRunAtNormalPriority
 )
@@ -563,10 +563,10 @@ ModulesTrustPromise
 >
 GetModulesTrustInternal
 (
-ModulePaths
+ModuleIdentifiers
 &
 &
-aModPaths
+aModIdents
 )
 ;
 RefPtr
@@ -610,7 +610,7 @@ GetModulesTrustIpcPromise
 >
 SendGetModulesTrust
 (
-ModulePaths
+ModuleIdentifiers
 &
 &
 aModules
