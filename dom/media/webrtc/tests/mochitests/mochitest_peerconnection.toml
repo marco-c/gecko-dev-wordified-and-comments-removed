@@ -3271,6 +3271,13 @@ x86_64
 ]
 [
 "
+test_peerConnection_videoOrientation
+.
+html
+"
+]
+[
+"
 test_peerConnection_videoRenegotiationInactiveAnswer
 .
 html
