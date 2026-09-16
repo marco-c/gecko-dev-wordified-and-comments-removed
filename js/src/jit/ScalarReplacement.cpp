@@ -13679,7 +13679,7 @@ store
 MStoreElement
 :
 :
-NewUnbarriered
+NewNoPreBarrier
 (
 alloc
 (

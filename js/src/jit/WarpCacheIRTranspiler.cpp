@@ -36335,7 +36335,7 @@ addUnchecked
 MStoreFixedSlot
 :
 :
-NewUnbarriered
+NewNoPreBarrier
 (
 alloc
 (
