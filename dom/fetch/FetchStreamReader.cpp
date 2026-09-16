@@ -2018,7 +2018,6 @@ WindowID
 (
 )
 ;
-}
 RefPtr
 <
 Runnable
@@ -2063,5 +2062,6 @@ forget
 )
 )
 ;
+}
 }
 }
