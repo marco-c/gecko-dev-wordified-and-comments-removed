@@ -826,7 +826,7 @@ collect
 ;
 buf_new_position
 .
-sort
+sort_unstable
 (
 )
 ;
@@ -2094,6 +2094,11 @@ None
 mut
 bufs
 storage
+&
+mut
+scratch_space
+.
+hsqueeze_i16_scratch
 )
 ;
 }

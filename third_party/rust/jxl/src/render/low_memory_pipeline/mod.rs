@@ -1800,7 +1800,7 @@ collect
 ;
 v
 .
-sort
+sort_unstable
 (
 )
 ;

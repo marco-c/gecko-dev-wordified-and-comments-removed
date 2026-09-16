@@ -1390,7 +1390,10 @@ DecoderState
 >
 Result
 <
+Box
+<
 Self
+>
 >
 {
 if
@@ -1922,6 +1925,11 @@ group_dim
 ;
 Ok
 (
+Box
+:
+:
+new
+(
 Self
 {
 #
@@ -2133,6 +2141,7 @@ new
 (
 )
 }
+)
 )
 }
 pub

@@ -3763,7 +3763,7 @@ right_child
 }
 patches_for_row_result
 .
-sort
+sort_unstable
 (
 )
 ;

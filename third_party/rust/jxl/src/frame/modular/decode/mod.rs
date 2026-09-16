@@ -7,6 +7,10 @@ channel
 mod
 common
 ;
+pub
+(
+super
+)
 mod
 specialized_trees
 ;

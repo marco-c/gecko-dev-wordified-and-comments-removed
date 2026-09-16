@@ -300,7 +300,10 @@ frame
 :
 Option
 <
+Box
+<
 Frame
+>
 >
 pixels_dirty
 :
@@ -1819,7 +1822,7 @@ self
 .
 frame
 .
-as_mut
+as_deref_mut
 (
 )
 }
@@ -3520,7 +3523,7 @@ g
 }
 group_readers
 .
-sort_by_key
+sort_unstable_by_key
 (
 |
 x

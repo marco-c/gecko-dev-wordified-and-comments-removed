@@ -2402,6 +2402,11 @@ finalize
 (
 mut
 self
+:
+Box
+<
+Self
+>
 )
 -
 >

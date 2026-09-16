@@ -6510,6 +6510,11 @@ as_ref
 mut
 bufs
 storage
+&
+mut
+scratch_space
+.
+hsqueeze_i16_scratch
 )
 ;
 }
