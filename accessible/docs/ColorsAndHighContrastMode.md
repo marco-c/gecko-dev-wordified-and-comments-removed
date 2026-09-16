@@ -890,7 +890,7 @@ document_color_use
 is
 set
 to
-2
+0
 on
 Windows
 .
@@ -1016,7 +1016,7 @@ page
 (
 HCMSettings
 .
-html
+md
 )
 #
 #
