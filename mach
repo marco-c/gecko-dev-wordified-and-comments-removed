@@ -81,13 +81,13 @@ MIN_PYTHON_VERSION
 =
 (
 3
-9
+10
 )
 MAX_PYTHON_VERSION_TO_CONSIDER
 =
 (
 3
-12
+14
 )
 def
 load_mach
@@ -482,7 +482,7 @@ running
 Python
 3
 .
-9
+10
 +
 .
 We
