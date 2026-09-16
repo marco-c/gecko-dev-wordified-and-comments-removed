@@ -313,6 +313,13 @@ sjs
 ]
 [
 "
+browser_undo_history
+.
+js
+"
+]
+[
+"
 browser_viewBounds
 .
 js
