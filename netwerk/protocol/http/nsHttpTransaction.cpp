@@ -11618,6 +11618,16 @@ rv
 ;
 if
 (
+!
+mConnection
+)
+{
+return
+NS_ERROR_NET_RESET
+;
+}
+if
+(
 reset
 )
 {
