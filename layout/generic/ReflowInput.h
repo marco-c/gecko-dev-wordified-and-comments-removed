@@ -618,6 +618,11 @@ mBlockDelta
 0
 ;
 nscoord
+mBOffsetToLineClampRoot
+=
+0
+;
+nscoord
 AvailableWidth
 (
 )
@@ -1578,6 +1583,11 @@ mShouldApplyTextBoxTrimAtBlockEnd
 ;
 bool
 mShouldApplyTextBoxTrimAtFragmentEnd
+:
+1
+;
+bool
+mIsInLineClampContainer
 :
 1
 ;
