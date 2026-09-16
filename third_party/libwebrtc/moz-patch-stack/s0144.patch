@@ -269,10 +269,10 @@ audio_receive_stream
 .
 h
 index
-7f8500b325
+157877e3c5
 .
 .
-999da25ff0
+59ee70399c
 100644
 -
 -
@@ -306,6 +306,11 @@ AudioReceiveStreamInterface
 public
 MediaReceiveStreamInterface
 {
+int
+round_trip_time_measurements
+=
+0
+;
 }
 ;
 struct
