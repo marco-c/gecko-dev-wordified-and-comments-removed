@@ -5194,9 +5194,6 @@ com
 expires
 :
 never
-telemetry_mirror
-:
-CONTENT_PROCESS_LAUNCH_MAINTHREAD_MS
 launch_total
 :
 type
@@ -5299,9 +5296,6 @@ com
 expires
 :
 never
-telemetry_mirror
-:
-CONTENT_PROCESS_LAUNCH_TOTAL_MS
 sync_launch
 :
 type
@@ -5403,9 +5397,6 @@ com
 expires
 :
 never
-telemetry_mirror
-:
-CONTENT_PROCESS_SYNC_LAUNCH_MS
 launch_is_sync
 :
 type
@@ -5512,11 +5503,6 @@ com
 expires
 :
 never
-telemetry_mirror
-:
-h
-#
-CONTENT_PROCESS_LAUNCH_IS_SYNC
 dom
 .
 parentprocess

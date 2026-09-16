@@ -272,11 +272,6 @@ com
 expires
 :
 never
-telemetry_mirror
-:
-h
-#
-SANDBOX_REJECTED_SYSCALLS
 failed_launch_keyed
 :
 type
