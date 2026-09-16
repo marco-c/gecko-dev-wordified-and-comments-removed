@@ -177,6 +177,16 @@ separator
 color
 )
 "
+"
+nativeTheme
+"
+:
+"
+-
+moz
+-
+sidebarborder
+"
 }
 }
 }
