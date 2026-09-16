@@ -3153,7 +3153,7 @@ Fence
 RenderCompositorANGLE
 :
 :
-GetAndResetReleaseFence
+GetAndResetReadFence
 (
 )
 {

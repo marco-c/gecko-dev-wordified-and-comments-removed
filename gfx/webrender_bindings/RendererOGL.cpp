@@ -1896,7 +1896,7 @@ Fence
 RendererOGL
 :
 :
-GetAndResetReleaseFence
+GetAndResetReadFence
 (
 )
 {
@@ -1904,7 +1904,7 @@ return
 mCompositor
 -
 >
-GetAndResetReleaseFence
+GetAndResetReadFence
 (
 )
 ;

@@ -233,7 +233,7 @@ layers
 :
 Fence
 >
-GetAndResetReleaseFence
+GetAndResetReadFence
 (
 )
 override

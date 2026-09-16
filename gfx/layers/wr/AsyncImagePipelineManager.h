@@ -298,7 +298,7 @@ Fence
 >
 &
 &
-aFence
+aReadFence
 )
 ;
 void
@@ -1340,7 +1340,7 @@ Fence
 >
 &
 &
-aFence
+aReadFence
 )
 ;
 ~
@@ -1371,7 +1371,7 @@ RefPtr
 <
 Fence
 >
-mFence
+mReadFence
 ;
 }
 ;

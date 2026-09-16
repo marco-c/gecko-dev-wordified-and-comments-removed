@@ -1069,7 +1069,7 @@ layers
 :
 Fence
 >
-GetAndResetReleaseFence
+GetAndResetReadFence
 (
 )
 {

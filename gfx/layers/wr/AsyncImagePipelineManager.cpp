@@ -1019,6 +1019,7 @@ aTxn
 ClearDisplayList
 (
 epoch
+mIdNamespace
 aPipelineId
 )
 ;
@@ -3006,6 +3007,7 @@ aSceneBuilderTxn
 SetDisplayList
 (
 aEpoch
+mIdNamespace
 aPipelineId
 dl
 .
@@ -3488,6 +3490,7 @@ txn
 SetDisplayList
 (
 epoch
+mIdNamespace
 aPipelineId
 dl
 .
@@ -3746,7 +3749,7 @@ Fence
 >
 &
 &
-aFence
+aReadFence
 )
 {
 MOZ_ASSERT
@@ -3813,7 +3816,7 @@ std
 :
 move
 (
-aFence
+aReadFence
 )
 )
 )
@@ -3944,7 +3947,7 @@ move
 (
 holder
 .
-mFence
+mReadFence
 )
 ;
 for
@@ -4663,21 +4666,21 @@ Fence
 >
 &
 &
-aFence
+aReadFence
 )
 :
 mInfo
 (
 aInfo
 )
-mFence
+mReadFence
 (
 std
 :
 :
 move
 (
-aFence
+aReadFence
 )
 )
 {

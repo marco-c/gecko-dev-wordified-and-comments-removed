@@ -1769,7 +1769,7 @@ Fence
 RenderCompositorEGL
 :
 :
-GetAndResetReleaseFence
+GetAndResetReadFence
 (
 )
 {
