@@ -1923,8 +1923,6 @@ bool
 mDefaultSelectionSet
 :
 1
-=
-false
 ;
 bool
 mIsOpenInParentProcess

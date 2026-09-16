@@ -742,6 +742,11 @@ aFromParser
 FROM_PARSER_FRAGMENT
 )
 )
+mDefaultSelectionSet
+(
+!
+aFromParser
+)
 {
 SetHasWeirdParserInsertionMode
 (
