@@ -99,7 +99,7 @@ defineESModuleGetters
 (
 this
 {
-LoginBreaches
+BreachAlertsData
 :
 "
 moz
@@ -109,13 +109,13 @@ src
 /
 /
 /
-browser
+toolkit
 /
 components
 /
-aboutlogins
+passwordmgr
 /
-LoginBreaches
+BreachAlertsData
 .
 sys
 .
@@ -390,7 +390,7 @@ emitSync
 await
 RemoteSettings
 (
-LoginBreaches
+BreachAlertsData
 .
 REMOTE_SETTINGS_COLLECTION
 )
@@ -442,7 +442,7 @@ db
 =
 RemoteSettings
 (
-LoginBreaches
+BreachAlertsData
 .
 REMOTE_SETTINGS_COLLECTION
 )
