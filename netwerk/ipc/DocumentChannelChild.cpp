@@ -1057,6 +1057,13 @@ get
 )
 )
 ;
+ContentChild
+:
+:
+MaybeBecomeUntrusted
+(
+)
+;
 RefPtr
 <
 dom
