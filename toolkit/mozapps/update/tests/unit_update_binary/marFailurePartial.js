@@ -67,6 +67,10 @@ checkAppBundleModTime
 (
 )
 ;
+checkNoUpdateTelemetry
+(
+)
+;
 await
 testPostUpdateProcessing
 (

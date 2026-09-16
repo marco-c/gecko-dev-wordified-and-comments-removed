@@ -85,6 +85,10 @@ checkPostUpdateRunningFile
 false
 )
 ;
+checkNoUpdateTelemetry
+(
+)
+;
 checkFilesAfterUpdateSuccess
 (
 getStageDirFile
@@ -113,6 +117,10 @@ checkPostUpdateAppLog
 )
 ;
 checkAppBundleModTime
+(
+)
+;
+checkUpdateTelemetry
 (
 )
 ;
