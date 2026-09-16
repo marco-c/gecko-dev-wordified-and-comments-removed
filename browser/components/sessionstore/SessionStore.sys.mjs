@@ -24845,9 +24845,11 @@ __SSi
 ;
 }
 return
-obj
-.
+"
 loadURI
+"
+in
+obj
 ?
 TAB_STATE_FOR_BROWSER
 .
