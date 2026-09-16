@@ -3041,6 +3041,8 @@ tempBufSize
 .
 width
 tempBufU
+2
+*
 tempBufCbCrSize
 .
 width
@@ -3085,6 +3087,8 @@ tempBufSize
 .
 width
 tempBufU
+2
+*
 tempBufCbCrSize
 .
 width
