@@ -428,7 +428,11 @@ keyID
 ;
 readonly
 attribute
-any
+(
+RTCEncodedVideoFrame
+or
+RTCEncodedAudioFrame
+)
 frame
 ;
 }
@@ -443,7 +447,11 @@ SFrameTransformErrorEventType
 errorType
 ;
 required
-any
+(
+RTCEncodedVideoFrame
+or
+RTCEncodedAudioFrame
+)
 frame
 ;
 CryptoKeyID

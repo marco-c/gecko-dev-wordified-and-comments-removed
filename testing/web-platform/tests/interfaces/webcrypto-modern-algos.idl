@@ -167,6 +167,9 @@ operation
 AlgorithmIdentifier
 algorithm
 optional
+[
+EnforceRange
+]
 unsigned
 long
 ?
@@ -435,6 +438,9 @@ KmacKeyAlgorithm
 KeyAlgorithm
 {
 required
+[
+EnforceRange
+]
 unsigned
 long
 length
