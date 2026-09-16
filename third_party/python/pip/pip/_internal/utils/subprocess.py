@@ -1,7 +1,3 @@
-from
-__future__
-import
-annotations
 import
 logging
 import
@@ -11,18 +7,15 @@ shlex
 import
 subprocess
 from
-collections
-.
-abc
-import
-Iterable
-Mapping
-from
 typing
 import
 Any
 Callable
+Iterable
+List
 Literal
+Mapping
+Optional
 Union
 from
 pip
@@ -76,7 +69,7 @@ import
 HiddenText
 CommandArgs
 =
-list
+List
 [
 Union
 [
@@ -90,11 +83,12 @@ make_command
 *
 args
 :
+Union
+[
 str
-|
 HiddenText
-|
 CommandArgs
+]
 )
 -
 >
@@ -160,12 +154,14 @@ format_command_args
 (
 args
 :
-list
+Union
+[
+List
 [
 str
 ]
-|
 CommandArgs
+]
 )
 -
 >
@@ -228,16 +224,18 @@ reveal_command_args
 (
 args
 :
-list
+Union
+[
+List
 [
 str
 ]
-|
 CommandArgs
+]
 )
 -
 >
-list
+List
 [
 str
 ]
@@ -285,12 +283,14 @@ call_subprocess
     
 cmd
 :
-list
+Union
+[
+List
 [
 str
 ]
-|
 CommandArgs
+]
     
 show_stdout
 :
@@ -300,14 +300,16 @@ False
     
 cwd
 :
+Optional
+[
 str
-|
-None
+]
 =
 None
     
 on_returncode
 :
+'
 Literal
 [
 "
@@ -320,6 +322,7 @@ warn
 ignore
 "
 ]
+'
 =
 "
 raise
@@ -327,59 +330,65 @@ raise
     
 extra_ok_returncodes
 :
+Optional
+[
 Iterable
 [
 int
 ]
-|
-None
+]
 =
 None
     
 extra_environ
 :
+Optional
+[
 Mapping
 [
 str
 Any
 ]
-|
-None
+]
 =
 None
     
 unset_environ
 :
+Optional
+[
 Iterable
 [
 str
 ]
-|
-None
+]
 =
 None
     
 spinner
 :
+Optional
+[
 SpinnerInterface
-|
-None
+]
 =
 None
     
 log_failed_cmd
 :
+Optional
+[
 bool
-|
-None
+]
 =
 True
     
 stdout_only
 :
+Optional
+[
 bool
-|
-None
+]
 =
 False
     
@@ -1270,28 +1279,30 @@ runner
         
 cmd
 :
-list
+List
 [
 str
 ]
         
 cwd
 :
+Optional
+[
 str
-|
-None
+]
 =
 None
         
 extra_environ
 :
+Optional
+[
 Mapping
 [
 str
 Any
 ]
-|
-None
+]
 =
 None
     

@@ -6,7 +6,9 @@ python
 =
 3
 .
-10
+9
+.
+2
 pypi
 :
 cryptography

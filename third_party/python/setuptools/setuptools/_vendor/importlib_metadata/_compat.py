@@ -1,7 +1,7 @@
 import
-platform
-import
 sys
+import
+platform
 __all__
 =
 [

@@ -1,7 +1,3 @@
-from
-__future__
-import
-annotations
 import
 logging
 import
@@ -16,7 +12,8 @@ from
 typing
 import
 Any
-Callable
+List
+Optional
 from
 pip
 .
@@ -628,30 +625,26 @@ cmd_opts
 )
     
 def
-handler_map
+run
 (
 self
+options
+:
+Values
+args
+:
+List
+[
+str
+]
 )
 -
 >
-dict
-[
-str
-Callable
-[
-[
-Values
-list
-[
-str
-]
-]
-None
-]
-]
+int
 :
         
-return
+handlers
+=
 {
             
 "
@@ -703,33 +696,6 @@ self
 list_config_values
         
 }
-    
-def
-run
-(
-self
-options
-:
-Values
-args
-:
-list
-[
-str
-]
-)
--
->
-int
-:
-        
-handler_map
-=
-self
-.
-handler_map
-(
-)
         
 if
 not
@@ -741,7 +707,7 @@ args
 ]
 not
 in
-handler_map
+handlers
 :
             
 logger
@@ -769,7 +735,7 @@ join
 (
 sorted
 (
-handler_map
+handlers
 )
 )
             
@@ -869,7 +835,7 @@ load
 try
 :
             
-handler_map
+handlers
 [
 action
 ]
@@ -919,9 +885,10 @@ bool
 )
 -
 >
+Optional
+[
 Kind
-|
-None
+]
 :
         
 file_options
@@ -1082,7 +1049,7 @@ options
 Values
 args
 :
-list
+List
 [
 str
 ]
@@ -1121,20 +1088,6 @@ items
 )
 :
             
-for
-key
-value
-in
-sorted
-(
-value
-.
-items
-(
-)
-)
-:
-                
 write_output
 (
 "
@@ -1157,7 +1110,7 @@ options
 Values
 args
 :
-list
+List
 [
 str
 ]
@@ -1214,7 +1167,7 @@ options
 Values
 args
 :
-list
+List
 [
 str
 ]
@@ -1271,7 +1224,7 @@ options
 Values
 args
 :
-list
+List
 [
 str
 ]
@@ -1323,7 +1276,7 @@ options
 Values
 args
 :
-list
+List
 [
 str
 ]
@@ -1441,7 +1394,6 @@ self
 print_config_file_values
 (
 variant
-fname
 )
     
 def
@@ -1451,9 +1403,6 @@ self
 variant
 :
 Kind
-fname
-:
-str
 )
 -
 >
@@ -1502,24 +1451,6 @@ indent_log
 )
 :
                 
-if
-name
-=
-=
-fname
-:
-                    
-for
-confname
-confvalue
-in
-value
-.
-items
-(
-)
-:
-                        
 write_output
 (
 "
@@ -1529,8 +1460,8 @@ s
 %
 s
 "
-confname
-confvalue
+name
+value
 )
     
 def
@@ -1629,7 +1560,7 @@ options
 Values
 args
 :
-list
+List
 [
 str
 ]
@@ -1788,7 +1719,7 @@ _get_n_args
 self
 args
 :
-list
+List
 [
 str
 ]

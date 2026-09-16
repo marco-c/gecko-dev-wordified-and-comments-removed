@@ -1,13 +1,11 @@
-from
-__future__
-import
-annotations
 import
 importlib
 .
 util
 import
 os
+import
+sys
 from
 collections
 import
@@ -16,6 +14,33 @@ from
 typing
 import
 Any
+List
+Optional
+if
+sys
+.
+version_info
+>
+=
+(
+3
+11
+)
+:
+    
+import
+tomllib
+else
+:
+    
+from
+pip
+.
+_vendor
+import
+tomli
+as
+tomllib
 from
 pip
 .
@@ -41,16 +66,6 @@ InvalidPyProjectBuildRequires
     
 MissingPyProjectBuildRequires
 )
-from
-pip
-.
-_internal
-.
-utils
-.
-compat
-import
-tomllib
 from
 pip
 .
@@ -147,9 +162,10 @@ load_pyproject_toml
     
 use_pep517
 :
+Optional
+[
 bool
-|
-None
+]
 pyproject_toml
 :
 str
@@ -162,9 +178,10 @@ str
 )
 -
 >
+Optional
+[
 BuildSystemDetails
-|
-None
+]
 :
     
 "
@@ -799,7 +816,7 @@ path
     
 check
 :
-list
+List
 [
 str
 ]

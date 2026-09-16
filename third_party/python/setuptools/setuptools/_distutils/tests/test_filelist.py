@@ -45,7 +45,7 @@ from
 .
 compat
 import
-py39
+py38
 as
 os_helper
 MANIFEST_IN

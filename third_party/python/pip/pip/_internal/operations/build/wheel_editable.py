@@ -1,11 +1,11 @@
-from
-__future__
-import
-annotations
 import
 logging
 import
 os
+from
+typing
+import
+Optional
 from
 pip
 .
@@ -55,9 +55,10 @@ str
 )
 -
 >
+Optional
+[
 str
-|
-None
+]
 :
     
 "

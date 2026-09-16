@@ -1,7 +1,3 @@
-from
-__future__
-import
-annotations
 import
 os
 .
@@ -1590,92 +1586,6 @@ bool
 =
 False
 class
-PaddingProperty
-:
-    
-"
-"
-"
-Descriptor
-to
-get
-and
-set
-padding
-.
-"
-"
-"
-    
-def
-__get__
-(
-self
-obj
-:
-Syntax
-objtype
-:
-Type
-[
-Syntax
-]
-)
--
->
-Tuple
-[
-int
-int
-int
-int
-]
-:
-        
-"
-"
-"
-Space
-around
-the
-Syntax
-.
-"
-"
-"
-        
-return
-obj
-.
-_padding
-    
-def
-__set__
-(
-self
-obj
-:
-Syntax
-padding
-:
-PaddingDimensions
-)
--
->
-None
-:
-        
-obj
-.
-_padding
-=
-Padding
-.
-unpack
-(
-padding
-)
-class
 Syntax
 (
 JupyterMixin
@@ -2318,14 +2228,9 @@ indent_guides
         
 self
 .
-_padding
-=
-Padding
-.
-unpack
-(
 padding
-)
+=
+padding
         
 self
 .
@@ -2349,12 +2254,6 @@ _SyntaxHighlightRange
 =
 [
 ]
-    
-padding
-=
-PaddingProperty
-(
-)
     
 classmethod
     
@@ -3060,7 +2959,7 @@ extension
         
 Args
 :
-            
+             
 path
 (
 AnyStr
@@ -3082,7 +2981,7 @@ the
 lexer
 for
 .
-            
+             
 code
 (
 str
@@ -4607,9 +4506,14 @@ right
 _
 left
 =
+Padding
+.
+unpack
+(
 self
 .
 padding
+)
         
 padding
 =
@@ -4743,12 +4647,9 @@ options
 )
         
 if
-any
-(
 self
 .
 padding
-)
 :
             
 yield
@@ -4830,21 +4731,6 @@ _get_base_style
 .
 transparent_background
         
-_pad_top
-pad_right
-_pad_bottom
-pad_left
-=
-self
-.
-padding
-        
-horizontal_padding
-=
-pad_left
-+
-pad_right
-        
 code_width
 =
 (
@@ -4875,9 +4761,6 @@ max_width
             
 )
             
--
-horizontal_padding
-            
 if
 self
 .
@@ -4890,14 +4773,6 @@ self
 .
 code_width
         
-)
-        
-code_width
-=
-max
-(
-0
-code_width
 )
         
 ends_on_nl

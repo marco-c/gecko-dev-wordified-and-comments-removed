@@ -2,6 +2,7 @@ from
 typing
 import
 Callable
+List
 Optional
 from
 pip
@@ -48,7 +49,7 @@ resolve
 self
 root_reqs
 :
-list
+List
 [
 InstallRequirement
 ]
@@ -79,7 +80,7 @@ RequirementSet
 )
 -
 >
-list
+List
 [
 InstallRequirement
 ]

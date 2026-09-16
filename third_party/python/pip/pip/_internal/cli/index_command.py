@@ -66,20 +66,12 @@ friends
 "
 "
 "
-from
-__future__
-import
-annotations
 import
 logging
 import
 os
 import
 sys
-from
-functools
-import
-lru_cache
 from
 optparse
 import
@@ -88,6 +80,8 @@ from
 typing
 import
 TYPE_CHECKING
+List
+Optional
 from
 pip
 .
@@ -141,16 +135,18 @@ getLogger
 (
 __name__
 )
-lru_cache
 def
 _create_truststore_ssl_context
 (
 )
 -
 >
+Optional
+[
+"
 SSLContext
-|
-None
+"
+]
 :
     
 if
@@ -321,9 +317,10 @@ self
 .
 _session
 :
+Optional
+[
 PipSession
-|
-None
+]
 =
 None
     
@@ -339,12 +336,13 @@ Values
 )
 -
 >
-list
+Optional
+[
+List
 [
 str
 ]
-|
-None
+]
 :
         
 "
@@ -442,7 +440,9 @@ Values
 )
 -
 >
+"
 PipSession
+"
 :
         
 "
@@ -508,24 +508,28 @@ Values
         
 retries
 :
+Optional
+[
 int
-|
-None
+]
 =
 None
         
 timeout
 :
+Optional
+[
 int
-|
-None
+]
 =
 None
     
 )
 -
 >
+"
 PipSession
+"
 :
         
 from
@@ -766,7 +770,9 @@ _pip_self_version_check
 (
 session
 :
+"
 PipSession
+"
 options
 :
 Values

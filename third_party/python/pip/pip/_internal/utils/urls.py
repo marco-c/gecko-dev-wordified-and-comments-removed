@@ -87,8 +87,6 @@ urljoin
 "
 file
 :
-/
-/
 "
 urllib
 .

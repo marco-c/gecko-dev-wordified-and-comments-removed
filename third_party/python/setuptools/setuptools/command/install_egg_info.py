@@ -106,9 +106,6 @@ finalize_options
 (
 self
 )
--
->
-None
 :
         
 self
@@ -183,11 +180,6 @@ basename
 self
 .
 outputs
-:
-list
-[
-str
-]
 =
 [
 ]
@@ -197,9 +189,6 @@ run
 (
 self
 )
--
->
-None
 :
         
 self
@@ -243,6 +232,11 @@ remove_tree
 self
 .
 target
+dry_run
+=
+self
+.
+dry_run
 )
         
 elif
@@ -279,6 +273,13 @@ self
 target
 )
         
+if
+not
+self
+.
+dry_run
+:
+            
 ensure_directory
 (
 self
@@ -295,21 +296,23 @@ self
 copytree
 (
 )
-f
 "
 Copying
-{
+%
+s
+to
+%
+s
+"
+%
+(
 self
 .
 source
-}
-to
-{
 self
 .
 target
-}
-"
+)
 )
         
 self
@@ -335,9 +338,6 @@ copytree
 (
 self
 )
--
->
-None
 :
         
 def

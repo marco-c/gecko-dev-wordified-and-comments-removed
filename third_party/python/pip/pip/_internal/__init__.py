@@ -1,7 +1,8 @@
 from
-__future__
+typing
 import
-annotations
+List
+Optional
 from
 pip
 .
@@ -20,12 +21,13 @@ main
 (
 args
 :
-list
+Optional
+[
+List
 [
 str
 ]
-|
-None
+]
 =
 None
 )

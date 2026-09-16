@@ -10,14 +10,7 @@ def
 _not_warning
 (
 record
-:
-logging
-.
-LogRecord
 )
--
->
-bool
 :
     
 return
@@ -32,9 +25,6 @@ def
 configure
 (
 )
--
->
-None
 :
     
 "

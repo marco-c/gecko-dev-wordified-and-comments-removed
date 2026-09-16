@@ -1,7 +1,3 @@
-from
-__future__
-import
-annotations
 import
 datetime
 import
@@ -29,6 +25,8 @@ typing
 import
 Any
 Callable
+Dict
+Optional
 from
 pip
 .
@@ -338,7 +336,7 @@ self
 .
 _state
 :
-dict
+Dict
 [
 str
 Any
@@ -452,9 +450,10 @@ datetime
 )
 -
 >
+Optional
+[
 str
-|
-None
+]
 :
         
 "
@@ -969,9 +968,10 @@ Values
 )
 -
 >
+Optional
+[
 str
-|
-None
+]
 :
     
 link_collector
@@ -1080,16 +1080,18 @@ Callable
 [
 [
 ]
+Optional
+[
 str
-|
-None
+]
 ]
 )
 -
 >
+Optional
+[
 UpgradePrompt
-|
-None
+]
 :
     
 remote_version_str

@@ -1,11 +1,7 @@
 from
-__future__
-import
-annotations
-from
 typing
 import
-TYPE_CHECKING
+Optional
 from
 pip
 .
@@ -21,21 +17,19 @@ pip
 .
 _internal
 .
-metadata
+index
+.
+package_finder
 import
-BaseDistribution
-if
-TYPE_CHECKING
-:
-    
+PackageFinder
 from
 pip
 .
 _internal
 .
-build_env
+metadata
 import
-BuildEnvironmentInstaller
+BaseDistribution
 class
 InstalledDistribution
 (
@@ -82,9 +76,10 @@ self
 )
 -
 >
+Optional
+[
 str
-|
-None
+]
 :
         
 return
@@ -128,9 +123,9 @@ prepare_distribution_metadata
         
 self
         
-build_env_installer
+finder
 :
-BuildEnvironmentInstaller
+PackageFinder
         
 build_isolation
 :

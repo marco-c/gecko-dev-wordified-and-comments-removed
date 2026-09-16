@@ -17,10 +17,6 @@ format
 "
 "
 "
-from
-__future__
-import
-annotations
 import
 collections
 import
@@ -44,22 +40,11 @@ shutil
 import
 sys
 import
-textwrap
-import
 warnings
 from
 base64
 import
 urlsafe_b64encode
-from
-collections
-.
-abc
-import
-Generator
-Iterable
-Iterator
-Sequence
 from
 email
 .
@@ -79,15 +64,35 @@ import
     
 IO
     
+TYPE_CHECKING
+    
 Any
     
 BinaryIO
     
 Callable
     
+Dict
+    
+Generator
+    
+Iterable
+    
+Iterator
+    
+List
+    
 NewType
     
+Optional
+    
 Protocol
+    
+Sequence
+    
+Set
+    
+Tuple
     
 Union
     
@@ -234,25 +239,31 @@ utils
 wheel
 import
 parse_wheel
+if
+TYPE_CHECKING
+:
+    
 class
 File
 (
 Protocol
 )
 :
-    
+        
 src_record_path
 :
+"
 RecordPath
-    
+"
+        
 dest_path
 :
 str
-    
+        
 changed
 :
 bool
-    
+        
 def
 save
 (
@@ -262,7 +273,7 @@ self
 >
 None
 :
-        
+            
 pass
 logger
 =
@@ -283,7 +294,7 @@ str
 )
 InstalledCSVRow
 =
-tuple
+Tuple
 [
 RecordPath
 str
@@ -310,7 +321,7 @@ int
 )
 -
 >
-tuple
+Tuple
 [
 str
 str
@@ -393,7 +404,7 @@ str
 )
 -
 >
-dict
+Dict
 [
 str
 Any
@@ -652,14 +663,14 @@ BaseDistribution
 )
 -
 >
-tuple
+Tuple
 [
-dict
+Dict
 [
 str
 str
 ]
-dict
+Dict
 [
 str
 str
@@ -746,9 +757,10 @@ str
 )
 -
 >
+Optional
+[
 str
-|
-None
+]
 :
     
 "
@@ -800,10 +812,10 @@ None
     
 grouped_by_dir
 :
-dict
+Dict
 [
 str
-set
+Set
 [
 str
 ]
@@ -940,10 +952,10 @@ executable
     
 warn_for
 :
-dict
+Dict
 [
 str
-set
+Set
 [
 str
 ]
@@ -1013,7 +1025,7 @@ items
         
 sorted_scripts
 :
-list
+List
 [
 str
 ]
@@ -1304,9 +1316,9 @@ InstalledCSVRow
 )
 -
 >
-list
+List
 [
-tuple
+Tuple
 [
 str
 str
@@ -1552,9 +1564,9 @@ get_csv_rows_for_installed
     
 old_csv_rows
 :
-list
+List
 [
-list
+List
 [
 str
 ]
@@ -1562,7 +1574,7 @@ str
     
 installed
 :
-dict
+Dict
 [
 RecordPath
 RecordPath
@@ -1570,14 +1582,14 @@ RecordPath
     
 changed
 :
-set
+Set
 [
 RecordPath
 ]
     
 generated
 :
-list
+List
 [
 str
 ]
@@ -1588,7 +1600,7 @@ str
 )
 -
 >
-list
+List
 [
 InstalledCSVRow
 ]
@@ -1621,7 +1633,7 @@ path
     
 installed_rows
 :
-list
+List
 [
 InstalledCSVRow
 ]
@@ -1812,7 +1824,7 @@ get_console_script_specs
 (
 console
 :
-dict
+Dict
 [
 str
 str
@@ -1820,7 +1832,7 @@ str
 )
 -
 >
-list
+List
 [
 str
 ]
@@ -2334,7 +2346,9 @@ __init__
 self
 file
 :
+"
 File
+"
 )
 -
 >
@@ -2448,7 +2462,7 @@ suffix
 is
 required
 .
-See
+Cf
 https
 :
 /
@@ -2531,97 +2545,6 @@ ScriptMaker
 )
 :
     
-script_template
-=
-textwrap
-.
-dedent
-(
-        
-"
-"
-"
-\
-        
-import
-sys
-        
-from
-%
-(
-module
-)
-s
-import
-%
-(
-import_name
-)
-s
-        
-if
-__name__
-=
-=
-'
-__main__
-'
-:
-            
-if
-sys
-.
-argv
-[
-0
-]
-.
-endswith
-(
-'
-.
-exe
-'
-)
-:
-                
-sys
-.
-argv
-[
-0
-]
-=
-sys
-.
-argv
-[
-0
-]
-[
-:
--
-4
-]
-            
-sys
-.
-exit
-(
-%
-(
-func
-)
-s
-(
-)
-)
-"
-"
-"
-    
-)
-    
 def
 make
 (
@@ -2632,20 +2555,21 @@ specification
 str
 options
 :
-dict
+Optional
+[
+Dict
 [
 str
 Any
 ]
-|
-None
+]
 =
 None
     
 )
 -
 >
-list
+List
 [
 str
 ]
@@ -2700,9 +2624,10 @@ True
     
 direct_url
 :
+Optional
+[
 DirectUrl
-|
-None
+]
 =
 None
     
@@ -2875,7 +2800,7 @@ platlib
     
 installed
 :
-dict
+Dict
 [
 RecordPath
 RecordPath
@@ -2886,7 +2811,7 @@ RecordPath
     
 changed
 :
-set
+Set
 [
 RecordPath
 ]
@@ -2897,7 +2822,7 @@ set
     
 generated
 :
-list
+List
 [
 str
 ]
@@ -3085,7 +3010,9 @@ Callable
 [
 RecordPath
 ]
+"
 File
+"
 ]
 :
         
@@ -3098,7 +3025,9 @@ RecordPath
 )
 -
 >
+"
 File
+"
 :
             
 normed_path
@@ -3160,7 +3089,9 @@ Callable
 [
 RecordPath
 ]
+"
 File
+"
 ]
 :
         
@@ -3189,7 +3120,9 @@ RecordPath
 )
 -
 >
+"
 File
+"
 :
             
 normed_path
@@ -3441,7 +3374,7 @@ paths
 =
 cast
 (
-list
+List
 [
 RecordPath
 ]
@@ -3610,7 +3543,9 @@ is_entrypoint_wrapper
 (
 file
 :
+"
 File
+"
 )
 -
 >
@@ -4608,9 +4543,10 @@ True
     
 direct_url
 :
+Optional
+[
 DirectUrl
-|
-None
+]
 =
 None
     

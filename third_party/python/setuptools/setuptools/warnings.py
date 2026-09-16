@@ -61,6 +61,7 @@ from
 typing
 import
 TYPE_CHECKING
+Tuple
 if
 TYPE_CHECKING
 :
@@ -73,7 +74,7 @@ _DueDate
 :
 TypeAlias
 =
-tuple
+Tuple
 [
 int
 int

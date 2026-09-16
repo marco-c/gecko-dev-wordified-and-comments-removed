@@ -56,7 +56,7 @@ requires
 Python
 3
 .
-10
+9
 or
 greater
 to

@@ -35,8 +35,6 @@ ast
 from
 typing
 import
-List
-Literal
 NamedTuple
 Sequence
 Tuple
@@ -50,14 +48,6 @@ Tokenizer
 class
 Node
 :
-    
-__slots__
-=
-(
-"
-value
-"
-)
     
 def
 __init__
@@ -115,13 +105,11 @@ __class__
 __name__
 }
 (
+'
 {
 self
-.
-value
-!
-r
 }
+'
 )
 >
 "
@@ -145,11 +133,6 @@ Node
 )
 :
     
-__slots__
-=
-(
-)
-    
 def
 serialize
 (
@@ -171,11 +154,6 @@ Value
 Node
 )
 :
-    
-__slots__
-=
-(
-)
     
 def
 serialize
@@ -203,11 +181,6 @@ Node
 )
 :
     
-__slots__
-=
-(
-)
-    
 def
 serialize
 (
@@ -223,17 +196,6 @@ str
 (
 self
 )
-MarkerLogical
-=
-Literal
-[
-"
-and
-"
-"
-or
-"
-]
 MarkerVar
 =
 Union
@@ -263,7 +225,7 @@ MarkerAtom
 ]
 MarkerList
 =
-List
+Sequence
 [
 Union
 [
@@ -271,7 +233,7 @@ Union
 MarkerList
 "
 MarkerAtom
-MarkerLogical
+str
 ]
 ]
 class
@@ -637,21 +599,15 @@ _parse_requirement_marker
 (
             
 tokenizer
-            
 span_start
 =
 url_start
-            
-expected
+after
 =
 "
-semicolon
-(
-after
 URL
 and
 whitespace
-)
 "
         
 )
@@ -713,23 +669,13 @@ span_start
 =
 specifier_start
             
-expected
+after
 =
 (
                 
 "
-comma
-(
-within
 version
 specifier
-)
-semicolon
-(
-after
-version
-specifier
-)
 "
                 
 if
@@ -737,15 +683,12 @@ specifier
                 
 else
 "
-semicolon
-(
-after
 name
-with
+and
 no
+valid
 version
 specifier
-)
 "
             
 )
@@ -769,7 +712,7 @@ Tokenizer
 span_start
 :
 int
-expected
+after
 :
 str
 )
@@ -813,20 +756,20 @@ raise_syntax_error
 f
 "
 Expected
-{
-expected
-}
-or
 end
+or
+semicolon
+(
+after
+{
+after
+}
+)
 "
             
 span_start
 =
 span_start
-            
-span_end
-=
-None
         
 )
     
@@ -2135,6 +2078,9 @@ marker
 operator
 one
 of
+"
+            
+"
 <
 =
 <

@@ -1,7 +1,3 @@
-from
-__future__
-import
-annotations
 import
 functools
 import
@@ -10,13 +6,6 @@ import
 sys
 import
 sysconfig
-from
-collections
-.
-abc
-import
-Generator
-Iterable
 from
 importlib
 .
@@ -28,6 +17,13 @@ typing
 import
 Any
 Callable
+Dict
+Generator
+Iterable
+List
+Optional
+Set
+Tuple
 from
 pip
 .
@@ -326,7 +322,7 @@ None
         
 seen
 :
-set
+Set
 [
 Any
 ]
@@ -639,7 +635,7 @@ str
 )
 -
 >
-set
+Set
 [
 str
 ]
@@ -715,7 +711,7 @@ sep
     
 short_paths
 :
-set
+Set
 [
 str
 ]
@@ -812,7 +808,7 @@ str
 )
 -
 >
-set
+Set
 [
 str
 ]
@@ -915,7 +911,7 @@ len
     
 wildcards
 :
-set
+Set
 [
 str
 ]
@@ -988,7 +984,7 @@ continue
         
 all_files
 :
-set
+Set
 [
 str
 ]
@@ -999,7 +995,7 @@ set
         
 all_subdirs
 :
-set
+Set
 [
 str
 ]
@@ -1105,13 +1101,13 @@ str
 )
 -
 >
-tuple
+Tuple
 [
-set
+Set
 [
 str
 ]
-set
+Set
 [
 str
 ]
@@ -1467,7 +1463,7 @@ self
 .
 _save_dirs
 :
-dict
+Dict
 [
 str
 TempDirectory
@@ -1480,9 +1476,9 @@ self
 .
 _moves
 :
-list
+List
 [
-tuple
+Tuple
 [
 str
 str
@@ -2201,7 +2197,7 @@ self
 .
 _paths
 :
-set
+Set
 [
 str
 ]
@@ -2214,7 +2210,7 @@ self
 .
 _refuse
 :
-set
+Set
 [
 str
 ]
@@ -2227,7 +2223,7 @@ self
 .
 _pth
 :
-dict
+Dict
 [
 str
 UninstallPthEntries
@@ -3117,7 +3113,9 @@ BaseDistribution
 )
 -
 >
+"
 UninstallPathSet
+"
 :
         
 dist_location
@@ -3579,7 +3577,7 @@ paths_to_remove
 .
 add
 (
-normalized_dist_location
+dist_location
 )
             
 easy_install_egg
@@ -3590,7 +3588,7 @@ path
 .
 split
 (
-normalized_dist_location
+dist_location
 )
 [
 1
@@ -3611,7 +3609,7 @@ path
 .
 dirname
 (
-normalized_dist_location
+dist_location
 )
                 
 "
@@ -4034,7 +4032,7 @@ self
 .
 entries
 :
-set
+Set
 [
 str
 ]
@@ -4047,12 +4045,13 @@ self
 .
 _saved_lines
 :
-list
+Optional
+[
+List
 [
 bytes
 ]
-|
-None
+]
 =
 None
     

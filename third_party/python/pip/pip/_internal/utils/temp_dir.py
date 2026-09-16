@@ -1,7 +1,3 @@
-from
-__future__
-import
-annotations
 import
 errno
 import
@@ -16,12 +12,6 @@ import
 tempfile
 import
 traceback
-from
-collections
-.
-abc
-import
-Generator
 from
 contextlib
 import
@@ -40,7 +30,17 @@ Any
     
 Callable
     
+Dict
+    
+Generator
+    
+List
+    
+Optional
+    
 TypeVar
+    
+Union
 )
 from
 pip
@@ -107,9 +107,10 @@ build
 )
 _tempdir_manager
 :
+Optional
+[
 ExitStack
-|
-None
+]
 =
 None
 contextmanager
@@ -184,7 +185,7 @@ self
 .
 _should_delete
 :
-dict
+Dict
 [
 str
 bool
@@ -289,9 +290,10 @@ True
 )
 _tempdir_registry
 :
+Optional
+[
 TempDirectoryTypeRegistry
-|
-None
+]
 =
 None
 contextmanager
@@ -490,19 +492,21 @@ self
         
 path
 :
+Optional
+[
 str
-|
-None
+]
 =
 None
         
 delete
 :
+Union
+[
 bool
-|
 None
-|
 _Default
+]
 =
 _default
         
@@ -897,7 +901,7 @@ return
         
 errors
 :
-list
+List
 [
 BaseException
 ]
@@ -1244,9 +1248,10 @@ original
 str
 delete
 :
+Optional
+[
 bool
-|
-None
+]
 =
 None
 )

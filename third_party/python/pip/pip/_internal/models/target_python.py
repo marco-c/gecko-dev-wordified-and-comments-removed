@@ -1,9 +1,12 @@
-from
-__future__
-import
-annotations
 import
 sys
+from
+typing
+import
+List
+Optional
+Set
+Tuple
 from
 pip
 .
@@ -112,45 +115,49 @@ self
         
 platforms
 :
-list
+Optional
+[
+List
 [
 str
 ]
-|
-None
+]
 =
 None
         
 py_version_info
 :
-tuple
+Optional
+[
+Tuple
 [
 int
 .
 .
 .
 ]
-|
-None
+]
 =
 None
         
 abis
 :
-list
+Optional
+[
+List
 [
 str
 ]
-|
-None
+]
 =
 None
         
 implementation
 :
+Optional
+[
 str
-|
-None
+]
 =
 None
     
@@ -412,12 +419,13 @@ self
 .
 _valid_tags
 :
-list
+Optional
+[
+List
 [
 Tag
 ]
-|
-None
+]
 =
 None
         
@@ -425,12 +433,13 @@ self
 .
 _valid_tags_set
 :
-set
+Optional
+[
+Set
 [
 Tag
 ]
-|
-None
+]
 =
 None
     
@@ -577,7 +586,7 @@ self
 )
 -
 >
-list
+List
 [
 Tag
 ]
@@ -700,7 +709,7 @@ self
 )
 -
 >
-set
+Set
 [
 Tag
 ]

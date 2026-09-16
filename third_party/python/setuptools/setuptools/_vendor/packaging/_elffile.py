@@ -29,6 +29,22 @@ interface
 is
 implemented
 .
+Based
+on
+:
+https
+:
+/
+/
+gist
+.
+github
+.
+com
+/
+lyssdod
+/
+f51579ae8d93c8657a5564aefc2ffbca
 ELF
 header
 :
@@ -196,8 +212,6 @@ except
 struct
 .
 error
-as
-e
 :
             
 raise
@@ -210,8 +224,6 @@ parse
 identification
 "
 )
-from
-e
         
 magic
 =
@@ -380,8 +392,6 @@ encoding
         
 except
 KeyError
-as
-e
 :
             
 raise
@@ -400,6 +410,10 @@ capacity
 }
 )
 or
+"
+                
+f
+"
 encoding
 (
 {
@@ -411,8 +425,6 @@ encoding
 "
             
 )
-from
-e
         
 try
 :

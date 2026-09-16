@@ -1,7 +1,7 @@
 from
-__future__
+typing
 import
-annotations
+Optional
 from
 pip
 .
@@ -272,9 +272,10 @@ link
 Link
 source_dir
 :
+Optional
+[
 str
-|
-None
+]
 =
 None
 link_is_in_wheel_cache

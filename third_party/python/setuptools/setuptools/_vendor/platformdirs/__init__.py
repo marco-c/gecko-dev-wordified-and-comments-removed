@@ -73,55 +73,6 @@ from
 typing
 import
 Literal
-if
-sys
-.
-platform
-=
-=
-"
-win32
-"
-:
-    
-from
-platformdirs
-.
-windows
-import
-Windows
-as
-_Result
-elif
-sys
-.
-platform
-=
-=
-"
-darwin
-"
-:
-    
-from
-platformdirs
-.
-macos
-import
-MacOS
-as
-_Result
-else
-:
-    
-from
-platformdirs
-.
-unix
-import
-Unix
-as
-_Result
 def
 _set_platform_dir_class
 (
@@ -133,6 +84,58 @@ type
 PlatformDirsABC
 ]
 :
+    
+if
+sys
+.
+platform
+=
+=
+"
+win32
+"
+:
+        
+from
+platformdirs
+.
+windows
+import
+Windows
+as
+Result
+    
+elif
+sys
+.
+platform
+=
+=
+"
+darwin
+"
+:
+        
+from
+platformdirs
+.
+macos
+import
+MacOS
+as
+Result
+    
+else
+:
+        
+from
+platformdirs
+.
+unix
+import
+Unix
+as
+Result
     
 if
 os
@@ -187,7 +190,7 @@ PREFIX
 :
             
 return
-_Result
+Result
         
 from
 platformdirs
@@ -216,17 +219,7 @@ return
 Android
     
 return
-_Result
-if
-TYPE_CHECKING
-:
-    
-PlatformDirs
-=
-_Result
-else
-:
-    
+Result
 PlatformDirs
 =
 _set_platform_dir_class
@@ -251,12 +244,12 @@ appauthor
 :
 str
 |
+None
+|
 Literal
 [
 False
 ]
-|
-None
 =
 None
     
@@ -431,12 +424,12 @@ appauthor
 :
 str
 |
+None
+|
 Literal
 [
 False
 ]
-|
-None
 =
 None
     
@@ -610,12 +603,12 @@ appauthor
 :
 str
 |
+None
+|
 Literal
 [
 False
 ]
-|
-None
 =
 None
     
@@ -790,12 +783,12 @@ appauthor
 :
 str
 |
+None
+|
 Literal
 [
 False
 ]
-|
-None
 =
 None
     
@@ -970,12 +963,12 @@ appauthor
 :
 str
 |
+None
+|
 Literal
 [
 False
 ]
-|
-None
 =
 None
     
@@ -1150,12 +1143,12 @@ appauthor
 :
 str
 |
+None
+|
 Literal
 [
 False
 ]
-|
-None
 =
 None
     
@@ -1330,12 +1323,12 @@ appauthor
 :
 str
 |
+None
+|
 Literal
 [
 False
 ]
-|
-None
 =
 None
     
@@ -1510,12 +1503,12 @@ appauthor
 :
 str
 |
+None
+|
 Literal
 [
 False
 ]
-|
-None
 =
 None
     
@@ -1876,12 +1869,12 @@ appauthor
 :
 str
 |
+None
+|
 Literal
 [
 False
 ]
-|
-None
 =
 None
     
@@ -2056,12 +2049,12 @@ appauthor
 :
 str
 |
+None
+|
 Literal
 [
 False
 ]
-|
-None
 =
 None
     
@@ -2235,12 +2228,12 @@ appauthor
 :
 str
 |
+None
+|
 Literal
 [
 False
 ]
-|
-None
 =
 None
     
@@ -2415,12 +2408,12 @@ appauthor
 :
 str
 |
+None
+|
 Literal
 [
 False
 ]
-|
-None
 =
 None
     
@@ -2594,12 +2587,12 @@ appauthor
 :
 str
 |
+None
+|
 Literal
 [
 False
 ]
-|
-None
 =
 None
     
@@ -2774,12 +2767,12 @@ appauthor
 :
 str
 |
+None
+|
 Literal
 [
 False
 ]
-|
-None
 =
 None
     
@@ -2954,12 +2947,12 @@ appauthor
 :
 str
 |
+None
+|
 Literal
 [
 False
 ]
-|
-None
 =
 None
     
@@ -3134,12 +3127,12 @@ appauthor
 :
 str
 |
+None
+|
 Literal
 [
 False
 ]
-|
-None
 =
 None
     
@@ -3314,12 +3307,12 @@ appauthor
 :
 str
 |
+None
+|
 Literal
 [
 False
 ]
-|
-None
 =
 None
     
@@ -3494,12 +3487,12 @@ appauthor
 :
 str
 |
+None
+|
 Literal
 [
 False
 ]
-|
-None
 =
 None
     
@@ -3861,12 +3854,12 @@ appauthor
 :
 str
 |
+None
+|
 Literal
 [
 False
 ]
-|
-None
 =
 None
     
@@ -4041,12 +4034,12 @@ appauthor
 :
 str
 |
+None
+|
 Literal
 [
 False
 ]
-|
-None
 =
 None
     

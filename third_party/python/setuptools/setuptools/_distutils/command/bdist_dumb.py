@@ -51,10 +51,6 @@ _log
 import
 log
 from
-typing
-import
-ClassVar
-from
 .
 .
 core
@@ -353,14 +349,6 @@ group
 ]
     
 boolean_options
-:
-ClassVar
-[
-list
-[
-str
-]
-]
 =
 [
 '
@@ -907,4 +895,9 @@ remove_tree
 self
 .
 bdist_dir
+dry_run
+=
+self
+.
+dry_run
 )

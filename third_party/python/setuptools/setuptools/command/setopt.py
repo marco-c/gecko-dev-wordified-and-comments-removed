@@ -180,17 +180,16 @@ expanduser
 (
 convert_path
 (
-f
 "
 ~
 /
-{
-dot
-}
-pydistutils
+%
+spydistutils
 .
 cfg
 "
+%
+dot
 )
 )
     
@@ -222,10 +221,10 @@ edit_config
 (
 filename
 settings
+dry_run
+=
+False
 )
--
->
-None
 :
     
 "
@@ -323,9 +322,9 @@ opts
 optionxform
 =
 lambda
-optionstr
+x
 :
-optionstr
+x
     
 _cfg_read_utf8_with_fallback
 (
@@ -550,6 +549,11 @@ s
 filename
 )
     
+if
+not
+dry_run
+:
+        
 with
 open
 (
@@ -568,7 +572,7 @@ utf
 as
 f
 :
-        
+            
 opts
 .
 write
@@ -725,9 +729,6 @@ finalize_options
 (
 self
 )
--
->
-None
 :
         
 filenames
@@ -1010,9 +1011,6 @@ finalize_options
 (
 self
 )
--
->
-None
 :
         
 option_base
@@ -1090,9 +1088,6 @@ run
 (
 self
 )
--
->
-None
 :
         
 edit_config
@@ -1127,5 +1122,9 @@ self
 set_value
 }
 }
+            
+self
+.
+dry_run
         
 )

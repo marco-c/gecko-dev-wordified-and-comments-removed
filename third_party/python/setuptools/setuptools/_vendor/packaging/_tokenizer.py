@@ -13,8 +13,7 @@ dataclass
 from
 typing
 import
-Generator
-Mapping
+Iterator
 NoReturn
 from
 .
@@ -164,31 +163,30 @@ span
 "
         
 return
-f
 "
-{
+\
+n
+"
+.
+join
+(
+[
 self
 .
 message
-}
-\
-n
-{
 self
 .
 source
-}
-\
-n
-{
 marker
-}
-"
+]
+)
 DEFAULT_RULES
 :
 dict
 [
 str
+str
+|
 re
 .
 Pattern
@@ -203,88 +201,58 @@ str
 LEFT_PARENTHESIS
 "
 :
-re
-.
-compile
-(
 r
 "
 \
 (
 "
-)
     
 "
 RIGHT_PARENTHESIS
 "
 :
-re
-.
-compile
-(
 r
 "
 \
 )
 "
-)
     
 "
 LEFT_BRACKET
 "
 :
-re
-.
-compile
-(
 r
 "
 \
 [
 "
-)
     
 "
 RIGHT_BRACKET
 "
 :
-re
-.
-compile
-(
 r
 "
 \
 ]
 "
-)
     
 "
 SEMICOLON
 "
 :
-re
-.
-compile
-(
 r
 "
 ;
 "
-)
     
 "
 COMMA
 "
 :
-re
-.
-compile
-(
 r
 "
 "
-)
     
 "
 QUOTED_STRING
@@ -340,10 +308,6 @@ VERBOSE
 OP
 "
 :
-re
-.
-compile
-(
 r
 "
 (
@@ -371,16 +335,11 @@ r
 >
 )
 "
-)
     
 "
 BOOLOP
 "
 :
-re
-.
-compile
-(
 r
 "
 \
@@ -393,16 +352,11 @@ and
 \
 b
 "
-)
     
 "
 IN
 "
 :
-re
-.
-compile
-(
 r
 "
 \
@@ -410,16 +364,11 @@ bin
 \
 b
 "
-)
     
 "
 NOT
 "
 :
-re
-.
-compile
-(
 r
 "
 \
@@ -427,7 +376,6 @@ bnot
 \
 b
 "
-)
     
 "
 VARIABLE
@@ -502,11 +450,7 @@ version
 )
                 
 |
-extras
-?
-                
-|
-dependency_groups
+extra
             
 )
 \
@@ -553,24 +497,15 @@ IGNORECASE
 AT
 "
 :
-re
-.
-compile
-(
 r
 "
 \
 "
-)
     
 "
 URL
 "
 :
-re
-.
-compile
-(
 r
 "
 [
@@ -580,16 +515,11 @@ t
 ]
 +
 "
-)
     
 "
 IDENTIFIER
 "
 :
-re
-.
-compile
-(
 r
 "
 \
@@ -619,16 +549,11 @@ _
 \
 b
 "
-)
     
 "
 VERSION_PREFIX_TRAIL
 "
 :
-re
-.
-compile
-(
 r
 "
 \
@@ -636,16 +561,11 @@ r
 \
 *
 "
-)
     
 "
 VERSION_LOCAL_LABEL_TRAIL
 "
 :
-re
-.
-compile
-(
 r
 "
 \
@@ -678,16 +598,11 @@ z0
 )
 *
 "
-)
     
 "
 WS
 "
 :
-re
-.
-compile
-(
 r
 "
 [
@@ -696,20 +611,14 @@ t
 ]
 +
 "
-)
     
 "
 END
 "
 :
-re
-.
-compile
-(
 r
 "
 "
-)
 }
 class
 Tokenizer
@@ -760,9 +669,11 @@ str
         
 rules
 :
-Mapping
+dict
 [
 str
+str
+|
 re
 .
 Pattern
@@ -786,8 +697,39 @@ source
 self
 .
 rules
+:
+dict
+[
+str
+re
+.
+Pattern
+[
+str
+]
+]
 =
+{
+            
+name
+:
+re
+.
+compile
+(
+pattern
+)
+for
+name
+pattern
+in
 rules
+.
+items
+(
+)
+        
+}
         
 self
 .
@@ -927,13 +869,15 @@ again
 "
         
 assert
+(
+            
 self
 .
 next_token
 is
 None
-(
-            
+        
+)
 f
 "
 Cannot
@@ -954,8 +898,6 @@ next_token
 r
 }
 "
-        
-)
         
 assert
 name
@@ -1283,10 +1225,8 @@ str
 )
 -
 >
-Generator
+Iterator
 [
-None
-None
 None
 ]
 :

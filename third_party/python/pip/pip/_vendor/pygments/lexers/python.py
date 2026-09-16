@@ -45,7 +45,7 @@ copyright
 Copyright
 2006
 -
-2025
+2024
 by
 the
 Pygments
@@ -259,9 +259,6 @@ bazel
 '
 '
 starlark
-'
-'
-pyi
 '
 ]
     
@@ -940,7 +937,7 @@ s
 bygroups
 (
 Keyword
-Whitespace
+Text
 )
 '
 funcname
@@ -971,7 +968,7 @@ s
 bygroups
 (
 Keyword
-Whitespace
+Text
 )
 '
 classname
@@ -1004,7 +1001,7 @@ bygroups
 Keyword
 .
 Namespace
-Whitespace
+Text
 )
              
 '
@@ -1038,7 +1035,7 @@ bygroups
 Keyword
 .
 Namespace
-Whitespace
+Text
 )
              
 '
@@ -3774,9 +3771,9 @@ s
 '
 bygroups
 (
-Whitespace
+Text
 Keyword
-Whitespace
+Text
 )
 )
             
@@ -3816,9 +3813,9 @@ s
 '
 bygroups
 (
-Whitespace
+Text
 Operator
-Whitespace
+Text
 )
 )
             
@@ -3854,7 +3851,7 @@ b
 '
 bygroups
 (
-Whitespace
+Text
 Keyword
 .
 Namespace
@@ -5110,7 +5107,7 @@ s
 bygroups
 (
 Keyword
-Whitespace
+Text
 )
 '
 funcname
@@ -5141,7 +5138,7 @@ s
 bygroups
 (
 Keyword
-Whitespace
+Text
 )
 '
 classname
@@ -5174,7 +5171,7 @@ bygroups
 Keyword
 .
 Namespace
-Whitespace
+Text
 )
              
 '
@@ -5208,7 +5205,7 @@ bygroups
 Keyword
 .
 Namespace
-Whitespace
+Text
 )
              
 '
@@ -9484,7 +9481,7 @@ Number
 .
 Integer
 Operator
-Whitespace
+Name
 Operator
                       
 Name
@@ -9516,7 +9513,7 @@ s
 bygroups
 (
 Keyword
-Whitespace
+Text
 )
 '
 funcname
@@ -9540,7 +9537,7 @@ s
 bygroups
 (
 Keyword
-Whitespace
+Text
 )
 '
 cdef
@@ -9581,7 +9578,7 @@ s
 bygroups
 (
 Keyword
-Whitespace
+Text
 )
 '
 classname
@@ -9603,7 +9600,7 @@ s
 bygroups
 (
 Keyword
-Whitespace
+Text
 )
 '
 fromimport
@@ -9627,7 +9624,7 @@ s
 bygroups
 (
 Keyword
-Whitespace
+Text
 )
 '
 import
@@ -10829,7 +10826,7 @@ bygroups
 Name
 .
 Function
-Whitespace
+Text
 )
 '
 #
@@ -10866,7 +10863,7 @@ bygroups
 Name
 .
 Function
-Whitespace
+Text
 Punctuation
 )
 )
@@ -11012,9 +11009,9 @@ s
 '
 bygroups
 (
-Whitespace
+Text
 Keyword
-Whitespace
+Text
 )
 )
             
@@ -11058,9 +11055,9 @@ s
 '
 bygroups
 (
-Whitespace
+Text
 Operator
-Whitespace
+Text
 )
 )
             
@@ -11098,7 +11095,7 @@ b
 '
 bygroups
 (
-Whitespace
+Text
 Keyword
 )
 '

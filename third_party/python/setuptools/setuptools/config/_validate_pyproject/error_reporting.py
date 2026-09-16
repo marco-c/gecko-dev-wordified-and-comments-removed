@@ -1,7 +1,3 @@
-from
-__future__
-import
-annotations
 import
 io
 import
@@ -27,9 +23,13 @@ from
 typing
 import
 Any
+Dict
 Generator
 Iterator
+List
+Optional
 Sequence
+Union
 from
 .
 fastjsonschema_exceptions
@@ -233,7 +233,7 @@ w_
 "
 re
 .
-IGNORECASE
+I
 )
 _TOML_JARGON
 =
@@ -467,7 +467,9 @@ JsonSchemaValueException
 )
 -
 >
+"
 Self
+"
 :
         
 formatter
@@ -1217,13 +1219,14 @@ __init__
 self
 jargon
 :
-dict
+Optional
+[
+Dict
 [
 str
 str
 ]
-|
-None
+]
 =
 None
 )
@@ -1233,7 +1236,7 @@ self
 .
 jargon
 :
-dict
+Dict
 [
 str
 str
@@ -1468,20 +1471,24 @@ _jargon
 self
 term
 :
-str
-|
-list
+Union
 [
 str
+List
+[
+str
+]
 ]
 )
 -
 >
-str
-|
-list
+Union
 [
 str
+List
+[
+str
+]
 ]
 :
         
@@ -1529,11 +1536,13 @@ self
         
 schema
 :
-dict
-|
-list
+Union
 [
 dict
+List
+[
+dict
+]
 ]
         
 prefix
@@ -1946,7 +1955,7 @@ _filter_unecessary
 self
 schema
 :
-dict
+Dict
 [
 str
 Any
@@ -1961,7 +1970,7 @@ str
 )
 -
 >
-dict
+Dict
 [
 str
 Any
@@ -2016,9 +2025,10 @@ str
 )
 -
 >
+Optional
+[
 str
-|
-None
+]
 :
         
 inline
@@ -2583,7 +2593,7 @@ str
 )
 -
 >
-list
+List
 [
 str
 ]

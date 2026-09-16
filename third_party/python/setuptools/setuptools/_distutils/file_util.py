@@ -423,6 +423,10 @@ None
 verbose
 =
 True
+    
+dry_run
+=
+False
 )
 :
     
@@ -735,6 +739,19 @@ the
 file
 was
 copied
+(
+or
+would
+    
+have
+been
+copied
+if
+'
+dry_run
+'
+true
+)
 .
     
 "
@@ -887,7 +904,7 @@ src
 return
 (
 dst
-False
+0
 )
     
 try
@@ -994,6 +1011,16 @@ dst
 )
     
 if
+dry_run
+:
+        
+return
+(
+dst
+1
+)
+    
+elif
 link
 =
 =
@@ -1049,7 +1076,7 @@ else
 return
 (
 dst
-True
+1
 )
     
 elif
@@ -1096,7 +1123,7 @@ dst
 return
 (
 dst
-True
+1
 )
     
 _copy_file_contents
@@ -1162,7 +1189,7 @@ ST_MODE
 return
 (
 dst
-True
+1
 )
 def
 move_file
@@ -1172,6 +1199,9 @@ dst
 verbose
 =
 True
+dry_run
+=
+False
 )
 :
     
@@ -1296,6 +1326,13 @@ s
 src
 dst
 )
+    
+if
+dry_run
+:
+        
+return
+dst
     
 if
 not

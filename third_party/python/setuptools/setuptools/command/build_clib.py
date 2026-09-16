@@ -162,9 +162,6 @@ build_libraries
 self
 libraries
 )
--
->
-None
 :
         
 for
@@ -205,7 +202,6 @@ raise
 DistutilsSetupError
 (
                     
-f
 "
 in
 '
@@ -215,9 +211,8 @@ option
 (
 library
 '
-{
-lib_name
-}
+%
+s
 '
 )
 "
@@ -241,6 +236,8 @@ of
 source
 filenames
 "
+%
+lib_name
                 
 )
             
@@ -296,7 +293,6 @@ raise
 DistutilsSetupError
 (
                     
-f
 "
 in
 '
@@ -306,9 +302,8 @@ option
 (
 library
 '
-{
-lib_name
-}
+%
+s
 '
 )
 "
@@ -332,6 +327,8 @@ source
 list
 '
 "
+%
+lib_name
                 
 )
             
@@ -369,7 +366,6 @@ raise
 DistutilsSetupError
 (
                     
-f
 "
 in
 '
@@ -379,9 +375,8 @@ option
 (
 library
 '
-{
-lib_name
-}
+%
+s
 '
 )
 "
@@ -405,6 +400,8 @@ source
 list
 '
 "
+%
+lib_name
                 
 )
             
@@ -455,7 +452,6 @@ raise
 DistutilsSetupError
 (
                         
-f
 "
 in
 '
@@ -465,9 +461,8 @@ option
 (
 library
 '
-{
-lib_name
-}
+%
+s
 '
 )
 "
@@ -491,6 +486,8 @@ source
 list
 '
 "
+%
+lib_name
                     
 )
                 

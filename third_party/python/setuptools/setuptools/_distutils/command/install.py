@@ -17,12 +17,6 @@ command
 "
 "
 "
-from
-__future__
-import
-annotations
-import
-collections
 import
 contextlib
 import
@@ -44,10 +38,10 @@ site
 import
 USER_BASE
 USER_SITE
-from
-typing
 import
-ClassVar
+jaraco
+.
+collections
 from
 .
 .
@@ -996,7 +990,10 @@ fw
 .
 scheme
 (
+_pypy_hack
+(
 name
+)
 )
     
 return
@@ -1072,7 +1069,10 @@ fallback
 =
 _load_scheme
 (
+_pypy_hack
+(
 name
+)
 )
     
 scheme
@@ -1134,6 +1134,82 @@ key
 in
 SCHEME_KEYS
 }
+def
+_pypy_hack
+(
+name
+)
+:
+    
+PY37
+=
+sys
+.
+version_info
+<
+(
+3
+8
+)
+    
+old_pypy
+=
+hasattr
+(
+sys
+'
+pypy_version_info
+'
+)
+and
+PY37
+    
+prefix
+=
+not
+name
+.
+endswith
+(
+(
+'
+_user
+'
+'
+_home
+'
+)
+)
+    
+pypy_name
+=
+'
+pypy
+'
++
+'
+_nt
+'
+*
+(
+os
+.
+name
+=
+=
+'
+nt
+'
+)
+    
+return
+pypy_name
+if
+old_pypy
+and
+prefix
+else
+name
 class
 install
 (
@@ -1585,14 +1661,6 @@ files
 ]
     
 boolean_options
-:
-ClassVar
-[
-list
-[
-str
-]
-]
 =
 [
 '
@@ -1652,15 +1720,6 @@ user
 )
     
 negative_opt
-:
-ClassVar
-[
-dict
-[
-str
-str
-]
-]
 =
 {
 '
@@ -1679,9 +1738,6 @@ initialize_options
 (
 self
 )
--
->
-None
 :
         
 "
@@ -1697,30 +1753,18 @@ options
 self
 .
 prefix
-:
-str
-|
-None
 =
 None
         
 self
 .
 exec_prefix
-:
-str
-|
-None
 =
 None
         
 self
 .
 home
-:
-str
-|
-None
 =
 None
         
@@ -1745,10 +1789,6 @@ None
 self
 .
 root
-:
-str
-|
-None
 =
 None
         
@@ -1773,10 +1813,6 @@ None
 self
 .
 install_lib
-:
-str
-|
-None
 =
 None
         
@@ -1869,9 +1905,6 @@ finalize_options
 (
 self
 )
--
->
-None
 :
         
 "
@@ -2237,46 +2270,40 @@ py_version
 py_version_short
 '
 :
-f
 '
-{
+%
+d
+.
+%
+d
+'
+%
 sys
 .
 version_info
-.
-major
-}
-.
-{
-sys
-.
-version_info
-.
-minor
-}
-'
+[
+:
+2
+]
             
 '
 py_version_nodot
 '
 :
-f
 '
-{
+%
+d
+%
+d
+'
+%
 sys
 .
 version_info
-.
-major
-}
-{
-sys
-.
-version_info
-.
-minor
-}
-'
+[
+:
+2
+]
             
 '
 sys_prefix
@@ -2403,12 +2430,21 @@ self
 .
 config_vars
 =
+jaraco
+.
 collections
 .
-ChainMap
+DictStack
 (
+[
             
-local_vars
+fw
+.
+vars
+(
+)
+            
+compat_vars
             
 sysconfig
 .
@@ -2416,14 +2452,9 @@ get_config_vars
 (
 )
             
-compat_vars
-            
-fw
-.
-vars
-(
-)
+local_vars
         
+]
 )
         
 self
@@ -2716,9 +2747,6 @@ dump_dirs
 self
 msg
 )
--
->
-None
 :
         
 "
@@ -2873,9 +2901,6 @@ finalize_unix
 (
 self
 )
--
->
-None
 :
         
 "
@@ -3199,9 +3224,6 @@ finalize_other
 (
 self
 )
--
->
-None
 :
         
 "
@@ -3387,9 +3409,6 @@ select_scheme
 self
 name
 )
--
->
-None
 :
         
 _select_scheme
@@ -3475,9 +3494,6 @@ expand_basedirs
 (
 self
 )
--
->
-None
 :
         
 "
@@ -3522,9 +3538,6 @@ expand_dirs
 (
 self
 )
--
->
-None
 :
         
 "
@@ -3584,9 +3597,6 @@ self
 *
 names
 )
--
->
-None
 :
         
 "
@@ -3634,9 +3644,6 @@ handle_extra_path
 (
 self
 )
--
->
-None
 :
         
 "
@@ -3842,9 +3849,6 @@ self
 *
 names
 )
--
->
-None
 :
         
 "
@@ -3900,9 +3904,6 @@ create_home_path
 (
 self
 )
--
->
-None
 :
         
 "

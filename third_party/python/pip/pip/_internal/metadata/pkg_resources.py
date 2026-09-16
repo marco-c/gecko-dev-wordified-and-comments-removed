@@ -1,7 +1,3 @@
-from
-__future__
-import
-annotations
 import
 email
 .
@@ -17,20 +13,23 @@ os
 import
 zipfile
 from
-collections
-.
-abc
-import
-Collection
-Iterable
-Iterator
-Mapping
-from
 typing
 import
 (
     
+Collection
+    
+Iterable
+    
+Iterator
+    
+List
+    
+Mapping
+    
 NamedTuple
+    
+Optional
 )
 from
 pip
@@ -386,7 +385,7 @@ str
 )
 -
 >
-list
+List
 [
 str
 ]
@@ -445,13 +444,14 @@ self
 .
 __extra_mapping
 :
+Optional
+[
 Mapping
 [
 NormalizedName
 str
 ]
-|
-None
+]
 =
 None
     
@@ -899,9 +899,10 @@ self
 )
 -
 >
+Optional
+[
 str
-|
-None
+]
 :
         
 return
@@ -920,9 +921,10 @@ self
 )
 -
 >
+Optional
+[
 str
-|
-None
+]
 :
         
 egg_link
@@ -975,9 +977,10 @@ self
 )
 -
 >
+Optional
+[
 str
-|
-None
+]
 :
         
 return
@@ -1587,12 +1590,13 @@ from_paths
 cls
 paths
 :
-list
+Optional
+[
+List
 [
 str
 ]
-|
-None
+]
 )
 -
 >
@@ -1647,9 +1651,10 @@ str
 )
 -
 >
+Optional
+[
 BaseDistribution
-|
-None
+]
 :
         
 "
@@ -1736,9 +1741,10 @@ str
 )
 -
 >
+Optional
+[
 BaseDistribution
-|
-None
+]
 :
         
 dist

@@ -38,10 +38,6 @@ _log
 import
 log
 from
-typing
-import
-ClassVar
-from
 .
 .
 core
@@ -1062,14 +1058,6 @@ mode
 ]
     
 boolean_options
-:
-ClassVar
-[
-list
-[
-str
-]
-]
 =
 [
         
@@ -1108,15 +1096,6 @@ quiet
 ]
     
 negative_opt
-:
-ClassVar
-[
-dict
-[
-str
-str
-]
-]
 =
 {
         
@@ -1414,9 +1393,6 @@ finalize_options
 (
 self
 )
--
->
-None
 :
         
 self
@@ -1668,9 +1644,6 @@ finalize_package_data
 (
 self
 )
--
->
-None
 :
         
 self
@@ -1993,9 +1966,6 @@ run
 (
 self
 )
--
->
-None
 :
         
 if
@@ -2723,6 +2693,13 @@ rpm_cmd
 )
         
 if
+not
+self
+.
+dry_run
+:
+            
+if
 self
 .
 distribution
@@ -2731,29 +2708,29 @@ has_ext_modules
 (
 )
 :
-            
+                
 pyversion
 =
 get_python_version
 (
 )
-        
+            
 else
 :
-            
+                
 pyversion
 =
 '
 any
 '
-        
+            
 if
 not
 self
 .
 binary_only
 :
-            
+                
 srpm
 =
 os
@@ -2770,7 +2747,7 @@ SRPMS
 ]
 source_rpm
 )
-            
+                
 assert
 os
 .
@@ -2780,7 +2757,7 @@ exists
 (
 srpm
 )
-            
+                
 self
 .
 move_file
@@ -2790,7 +2767,7 @@ self
 .
 dist_dir
 )
-            
+                
 filename
 =
 os
@@ -2804,7 +2781,7 @@ self
 dist_dir
 source_rpm
 )
-            
+                
 self
 .
 distribution
@@ -2821,20 +2798,20 @@ pyversion
 filename
 )
 )
-        
+            
 if
 not
 self
 .
 source_only
 :
-            
+                
 for
 rpm
 in
 binary_rpms
 :
-                
+                    
 rpm
 =
 os
@@ -2851,7 +2828,7 @@ RPMS
 ]
 rpm
 )
-                
+                    
 if
 os
 .
@@ -2862,7 +2839,7 @@ exists
 rpm
 )
 :
-                    
+                        
 self
 .
 move_file
@@ -2872,7 +2849,7 @@ self
 .
 dist_dir
 )
-                    
+                        
 filename
 =
 os
@@ -2893,7 +2870,7 @@ basename
 rpm
 )
 )
-                    
+                        
 self
 .
 distribution
@@ -2903,15 +2880,15 @@ dist_files
 append
 (
 (
-                        
+                            
 '
 bdist_rpm
 '
-                        
+                            
 pyversion
-                        
+                            
 filename
-                    
+                        
 )
 )
     

@@ -9,6 +9,10 @@ optparse
 import
 Values
 from
+typing
+import
+List
+from
 pip
 .
 _internal
@@ -109,6 +113,7 @@ _internal
 wheel_builder
 import
 build
+should_build_for_wheel_command
 logger
 =
 logging
@@ -772,7 +777,7 @@ options
 Values
 args
 :
-list
+List
 [
 str
 ]
@@ -984,7 +989,7 @@ True
         
 reqs_to_build
 :
-list
+List
 [
 InstallRequirement
 ]
@@ -1017,7 +1022,11 @@ save_linked_requirement
 req
 )
             
-else
+elif
+should_build_for_wheel_command
+(
+req
+)
 :
                 
 reqs_to_build

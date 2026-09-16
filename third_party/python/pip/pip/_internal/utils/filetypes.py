@@ -8,6 +8,10 @@ information
 "
 "
 from
+typing
+import
+Tuple
+from
 pip
 .
 _internal
@@ -25,7 +29,7 @@ whl
 "
 BZ2_EXTENSIONS
 :
-tuple
+Tuple
 [
 str
 .
@@ -47,7 +51,7 @@ tbz
 )
 XZ_EXTENSIONS
 :
-tuple
+Tuple
 [
 str
 .
@@ -90,7 +94,7 @@ lzma
 )
 ZIP_EXTENSIONS
 :
-tuple
+Tuple
 [
 str
 .
@@ -107,7 +111,7 @@ WHEEL_EXTENSION
 )
 TAR_EXTENSIONS
 :
-tuple
+Tuple
 [
 str
 .

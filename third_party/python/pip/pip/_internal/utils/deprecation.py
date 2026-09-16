@@ -16,10 +16,6 @@ deprecations
 "
 "
 "
-from
-__future__
-import
-annotations
 import
 logging
 import
@@ -28,7 +24,10 @@ from
 typing
 import
 Any
+Optional
 TextIO
+Type
+Union
 from
 pip
 .
@@ -70,13 +69,15 @@ _showwarning
     
 message
 :
+Union
+[
 Warning
-|
 str
+]
     
 category
 :
-type
+Type
 [
 Warning
 ]
@@ -91,17 +92,19 @@ int
     
 file
 :
+Optional
+[
 TextIO
-|
-None
+]
 =
 None
     
 line
 :
+Optional
+[
 str
-|
-None
+]
 =
 None
 )
@@ -230,29 +233,33 @@ str
     
 replacement
 :
+Optional
+[
 str
-|
-None
+]
     
 gone_in
 :
+Optional
+[
 str
-|
-None
+]
     
 feature_flag
 :
+Optional
+[
 str
-|
-None
+]
 =
 None
     
 issue
 :
+Optional
+[
 int
-|
-None
+]
 =
 None
 )

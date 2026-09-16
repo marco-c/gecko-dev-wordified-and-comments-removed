@@ -21,10 +21,6 @@ contents
 "
 "
 "
-from
-__future__
-import
-annotations
 import
 functools
 import
@@ -35,12 +31,6 @@ import
 sys
 import
 time
-from
-collections
-.
-abc
-import
-Callable
 import
 packaging
 import
@@ -146,24 +136,21 @@ import
 convert_path
 PY_MAJOR
 =
-f
 '
 {
-sys
-.
-version_info
-.
-major
 }
 .
 {
+}
+'
+.
+format
+(
+*
 sys
 .
 version_info
-.
-minor
-}
-'
+)
 def
 translate_pattern
 (
@@ -261,15 +248,17 @@ sep
     
 valid_char
 =
-f
 '
 [
 ^
-{
-sep
-}
+%
+s
 ]
 '
+%
+(
+sep
+)
     
 for
 c
@@ -321,21 +310,23 @@ else
 pat
 +
 =
-f
 '
 (
 ?
 :
-{
-valid_char
-}
+%
+s
 +
-{
-sep
-}
+%
+s
 )
 *
 '
+%
+(
+valid_char
+sep
+)
             
 continue
         
@@ -551,14 +542,16 @@ inner
 pat
 +
 =
-f
 '
 [
-{
-char_class
-}
+%
+s
 ]
 '
+%
+(
+char_class
+)
                     
 i
 =
@@ -765,15 +758,19 @@ version
 .
 endswith
 (
-(
 self
 .
 vtags
+)
+or
+version
+.
+endswith
+(
 self
 .
 _safe_tags
 (
-)
 )
 )
     
@@ -1105,11 +1102,6 @@ tag_svn_revision
 (
 self
 )
--
->
-int
-|
-None
 :
         
 pass
@@ -1124,9 +1116,6 @@ tag_svn_revision
 self
 value
 )
--
->
-None
 :
         
 pass
@@ -1137,9 +1126,6 @@ save_version_info
 self
 filename
 )
--
->
-None
 :
         
 "
@@ -1210,9 +1196,6 @@ finalize_options
 (
 self
 )
--
->
-None
 :
         
 self
@@ -1316,7 +1299,6 @@ errors
 DistutilsOptionError
 (
                 
-f
 "
 Invalid
 distribution
@@ -1325,18 +1307,22 @@ or
 version
 syntax
 :
-{
+%
+s
+-
+%
+s
+"
+                
+%
+(
 self
 .
 egg_name
-}
--
-{
 self
 .
 egg_version
-}
-"
+)
             
 )
 from
@@ -1504,9 +1490,6 @@ bool
 =
 False
 )
--
->
-None
 :
         
 "
@@ -1679,9 +1662,6 @@ what
 filename
 data
 )
--
->
-None
 :
         
 "
@@ -1754,6 +1734,13 @@ utf
 "
 )
         
+if
+not
+self
+.
+dry_run
+:
+            
 f
 =
 open
@@ -1763,14 +1750,14 @@ filename
 wb
 '
 )
-        
+            
 f
 .
 write
 (
 data
 )
-        
+            
 f
 .
 close
@@ -1783,9 +1770,6 @@ delete_file
 self
 filename
 )
--
->
-None
 :
         
 "
@@ -1819,6 +1803,13 @@ s
 filename
 )
         
+if
+not
+self
+.
+dry_run
+:
+            
 os
 .
 unlink
@@ -1831,9 +1822,6 @@ run
 (
 self
 )
--
->
-None
 :
         
 writers
@@ -1995,9 +1983,6 @@ find_sources
 (
 self
 )
--
->
-None
 :
         
 "
@@ -2077,7 +2062,6 @@ _FileList
 def
 __init__
 (
-        
 self
 warn
 =
@@ -2090,11 +2074,7 @@ ignore_egg_info_dir
 bool
 =
 False
-    
 )
--
->
-None
 :
         
 super
@@ -2119,9 +2099,6 @@ process_template_line
 self
 line
 )
--
->
-None
 :
         
 (
@@ -2139,12 +2116,6 @@ line
 )
         
 action_map
-:
-dict
-[
-str
-Callable
-]
 =
 {
             
@@ -3226,22 +3197,28 @@ append
 self
 item
 )
--
->
-None
 :
         
-item
-=
+if
 item
 .
-removesuffix
+endswith
 (
 '
 \
 r
 '
 )
+:
+            
+item
+=
+item
+[
+:
+-
+1
+]
         
 path
 =
@@ -3274,9 +3251,6 @@ extend
 self
 paths
 )
--
->
-None
 :
         
 self
@@ -3402,12 +3376,10 @@ log
 .
 warn
 (
-f
 "
 '
-{
-path
-}
+%
+s
 '
 in
 unexpected
@@ -3416,6 +3388,8 @@ encoding
 -
 skipping
 "
+%
+path
 )
             
 return
@@ -3551,9 +3525,6 @@ initialize_options
 (
 self
 )
--
->
-None
 :
         
 self
@@ -3591,9 +3562,6 @@ finalize_options
 (
 self
 )
--
->
-None
 :
         
 pass
@@ -3603,9 +3571,6 @@ run
 (
 self
 )
--
->
-None
 :
         
 self
@@ -3741,9 +3706,6 @@ write_manifest
 (
 self
 )
--
->
-None
 :
         
 "
@@ -3807,19 +3769,19 @@ files
         
 msg
 =
-f
 "
 writing
 manifest
 file
 '
-{
+%
+s
+'
+"
+%
 self
 .
 manifest
-}
-'
-"
         
 self
 .
@@ -3841,9 +3803,6 @@ warn
 self
 msg
 )
--
->
-None
 :
         
 if
@@ -3911,9 +3870,6 @@ add_defaults
 (
 self
 )
--
->
-None
 :
         
 sdist
@@ -4041,9 +3997,6 @@ add_license_files
 (
 self
 )
--
->
-None
 :
         
 license_files
@@ -4328,9 +4281,6 @@ write_file
 filename
 contents
 )
--
->
-None
 :
     
 "
@@ -4416,9 +4366,6 @@ cmd
 basename
 filename
 )
--
->
-None
 :
     
 log
@@ -4433,6 +4380,13 @@ s
 filename
 )
     
+if
+not
+cmd
+.
+dry_run
+:
+        
 metadata
 =
 cmd
@@ -4440,7 +4394,7 @@ cmd
 distribution
 .
 metadata
-    
+        
 metadata
 .
 version
@@ -4452,7 +4406,7 @@ egg_version
 metadata
 .
 version
-    
+        
 metadata
 .
 name
@@ -4464,10 +4418,10 @@ egg_name
 metadata
 .
 name
-    
+        
 try
 :
-        
+            
 metadata
 .
 write_pkg_info
@@ -4476,10 +4430,10 @@ cmd
 .
 egg_info
 )
-    
+        
 finally
 :
-        
+            
 metadata
 .
 name
@@ -4489,7 +4443,7 @@ version
 =
 oldname
 oldver
-    
+        
 safe
 =
 getattr
@@ -4502,7 +4456,7 @@ zip_safe
 '
 None
 )
-    
+        
 bdist_egg
 .
 write_safety_flag
@@ -4519,9 +4473,6 @@ cmd
 basename
 filename
 )
--
->
-None
 :
     
 "
@@ -4622,9 +4573,6 @@ cmd
 basename
 filename
 )
--
->
-None
 :
     
 pkgs
@@ -4697,9 +4645,6 @@ cmd
 basename
 filename
 )
--
->
-None
 :
     
 write_arg
@@ -4721,9 +4666,6 @@ bool
 =
 False
 )
--
->
-None
 :
     
 argname
@@ -4791,9 +4733,6 @@ cmd
 basename
 filename
 )
--
->
-None
 :
     
 eps

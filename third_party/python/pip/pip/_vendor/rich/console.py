@@ -75,15 +75,11 @@ Iterable
     
 List
     
-Literal
-    
 Mapping
     
 NamedTuple
     
 Optional
-    
-Protocol
     
 TextIO
     
@@ -94,8 +90,6 @@ Type
 Union
     
 cast
-    
-runtime_checkable
 )
 from
 pip
@@ -107,6 +101,43 @@ rich
 _null_file
 import
 NULL_FILE
+if
+sys
+.
+version_info
+>
+=
+(
+3
+8
+)
+:
+    
+from
+typing
+import
+Literal
+Protocol
+runtime_checkable
+else
+:
+    
+from
+pip
+.
+_vendor
+.
+typing_extensions
+import
+(
+        
+Literal
+        
+Protocol
+        
+runtime_checkable
+    
+)
 from
 .
 import
@@ -5059,85 +5090,21 @@ no_color
 (
             
 no_color
-            
 if
 no_color
 is
 not
 None
-            
 else
-self
-.
-_environ
-.
-get
-(
 "
 NO_COLOR
 "
-"
-"
-)
-!
-=
-"
-"
-        
-)
-        
-if
-force_interactive
-is
-None
-:
-            
-tty_interactive
-=
+in
 self
 .
 _environ
-.
-get
-(
-"
-TTY_INTERACTIVE
-"
-None
+        
 )
-            
-if
-tty_interactive
-is
-not
-None
-:
-                
-if
-tty_interactive
-=
-=
-"
-0
-"
-:
-                    
-force_interactive
-=
-False
-                
-elif
-tty_interactive
-=
-=
-"
-1
-"
-:
-                    
-force_interactive
-=
-True
         
 self
 .
@@ -5226,15 +5193,16 @@ RenderHook
         
 self
 .
-_live_stack
+_live
 :
-List
+Optional
 [
+"
 Live
+"
 ]
 =
-[
-]
+None
         
 self
 .
@@ -5785,7 +5753,7 @@ Live
 )
 -
 >
-bool
+None
 :
         
 "
@@ -5800,13 +5768,6 @@ by
 Live
 context
 manager
-(
-no
-need
-to
-call
-directly
-)
 .
         
 Args
@@ -5822,23 +5783,6 @@ instance
 using
 this
 Console
-.
-        
-Returns
-:
-            
-Boolean
-that
-indicates
-if
-the
-live
-is
-the
-topmost
-of
-the
-stack
 .
         
 Raises
@@ -5869,25 +5813,38 @@ self
 _lock
 :
             
+if
 self
 .
-_live_stack
+_live
+is
+not
+None
+:
+                
+raise
+errors
 .
-append
+LiveError
 (
+"
+Only
+one
 live
+display
+may
+be
+active
+at
+once
+"
 )
             
-return
-len
-(
 self
 .
-_live_stack
-)
+_live
 =
-=
-1
+live
     
 def
 clear_live
@@ -5907,20 +5864,6 @@ the
 Live
 instance
 .
-Used
-by
-the
-Live
-context
-manager
-(
-no
-need
-to
-call
-directly
-)
-.
 "
 "
 "
@@ -5933,11 +5876,9 @@ _lock
             
 self
 .
-_live_stack
-.
-pop
-(
-)
+_live
+=
+None
     
 def
 push_render_hook
@@ -6637,10 +6578,10 @@ a
 device
 capable
 of
-                
+            
 understanding
-escape
-sequences
+terminal
+codes
 otherwise
 False
 .
@@ -6702,52 +6643,11 @@ is_jupyter
 return
 False
         
-environ
+force_color
 =
 self
 .
 _environ
-        
-tty_compatible
-=
-environ
-.
-get
-(
-"
-TTY_COMPATIBLE
-"
-"
-"
-)
-        
-if
-tty_compatible
-=
-=
-"
-0
-"
-:
-            
-return
-False
-        
-if
-tty_compatible
-=
-=
-"
-1
-"
-:
-            
-return
-True
-        
-force_color
-=
-environ
 .
 get
 (
@@ -6763,12 +6663,14 @@ not
 None
 :
             
-return
-force_color
-!
+self
+.
+_force_terminal
 =
-"
-"
+True
+            
+return
+True
         
 isatty
 :
@@ -6917,24 +6819,22 @@ options
 "
 "
         
-size
-=
-self
-.
-size
-        
 return
 ConsoleOptions
 (
             
 max_height
 =
+self
+.
 size
 .
 height
             
 size
 =
+self
+.
 size
             
 legacy_windows
@@ -6949,7 +6849,7 @@ min_width
             
 max_width
 =
-size
+self
 .
 width
             

@@ -532,11 +532,13 @@ object
 )
             
 assert
+(
+                
 res
 is
 NotImplemented
-(
-                
+            
+)
 f
 '
 cmp
@@ -556,8 +558,6 @@ got
 res
 }
 '
-            
-)
     
 def
 test_cmp
@@ -803,11 +803,13 @@ object
 )
             
 assert
+(
+                
 res
 is
 NotImplemented
-(
-                
+            
+)
 f
 '
 cmp
@@ -827,5 +829,3 @@ got
 res
 }
 '
-            
-)

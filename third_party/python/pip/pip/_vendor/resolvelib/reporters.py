@@ -1,40 +1,7 @@
-from
-__future__
-import
-annotations
-from
-typing
-import
-TYPE_CHECKING
-Collection
-Generic
-from
-.
-structs
-import
-CT
-KT
-RT
-RequirementInformation
-State
-if
-TYPE_CHECKING
-:
-    
-from
-.
-resolvers
-import
-Criterion
 class
 BaseReporter
 (
-Generic
-[
-RT
-CT
-KT
-]
+object
 )
 :
     
@@ -44,7 +11,7 @@ KT
 Delegate
 class
 to
-provide
+provider
 progress
 reporting
 for
@@ -60,9 +27,6 @@ starting
 (
 self
 )
--
->
-None
 :
         
 "
@@ -84,12 +48,7 @@ starting_round
 (
 self
 index
-:
-int
 )
--
->
-None
 :
         
 "
@@ -121,20 +80,8 @@ ending_round
 (
 self
 index
-:
-int
 state
-:
-State
-[
-RT
-CT
-KT
-]
 )
--
->
-None
 :
         
 "
@@ -188,17 +135,7 @@ ending
 (
 self
 state
-:
-State
-[
-RT
-CT
-KT
-]
 )
--
->
-None
 :
         
 "
@@ -220,17 +157,8 @@ adding_requirement
 (
 self
 requirement
-:
-RT
 parent
-:
-CT
-|
-None
 )
--
->
-None
 :
         
 "
@@ -307,23 +235,9 @@ resolve
 def
 resolving_conflicts
 (
-        
 self
 causes
-:
-Collection
-[
-RequirementInformation
-[
-RT
-CT
-]
-]
-    
 )
--
->
-None
 :
         
 "
@@ -363,19 +277,8 @@ rejecting_candidate
 (
 self
 criterion
-:
-Criterion
-[
-RT
-CT
-]
 candidate
-:
-CT
 )
--
->
-None
 :
         
 "
@@ -398,12 +301,7 @@ pinning
 (
 self
 candidate
-:
-CT
 )
--
->
-None
 :
         
 "

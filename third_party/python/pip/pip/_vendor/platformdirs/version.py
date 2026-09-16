@@ -1,19 +1,3 @@
-__all__
-=
-[
-"
-__version__
-"
-"
-__version_tuple__
-"
-"
-version
-"
-"
-version_tuple
-"
-]
 TYPE_CHECKING
 =
 False
@@ -25,10 +9,6 @@ from
 typing
 import
 Tuple
-    
-from
-typing
-import
 Union
     
 VERSION_TUPLE
@@ -71,7 +51,7 @@ version
 .
 3
 .
-8
+6
 '
 __version_tuple__
 =
@@ -80,5 +60,5 @@ version_tuple
 (
 4
 3
-8
+6
 )

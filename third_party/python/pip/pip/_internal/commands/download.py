@@ -7,6 +7,10 @@ optparse
 import
 Values
 from
+typing
+import
+List
+from
 pip
 .
 _internal
@@ -611,7 +615,7 @@ options
 Values
 args
 :
-list
+List
 [
 str
 ]
@@ -860,7 +864,7 @@ True
         
 downloaded
 :
-list
+List
 [
 str
 ]

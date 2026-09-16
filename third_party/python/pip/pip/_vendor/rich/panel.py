@@ -124,6 +124,7 @@ object
 box
 (
 Box
+optional
 )
 :
 A
@@ -1103,10 +1104,8 @@ self
 style
 )
         
-border_style
+partial_border_style
 =
-style
-+
 console
 .
 get_style
@@ -1115,6 +1114,12 @@ self
 .
 border_style
 )
+        
+border_style
+=
+style
++
+partial_border_style
         
 width
 =
@@ -1460,7 +1465,7 @@ title_text
 .
 stylize_before
 (
-border_style
+partial_border_style
 )
         
 child_width
@@ -1758,7 +1763,7 @@ subtitle_text
 .
 stylize_before
 (
-border_style
+partial_border_style
 )
         
 if

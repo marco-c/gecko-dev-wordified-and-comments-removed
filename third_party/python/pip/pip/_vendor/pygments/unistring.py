@@ -67,7 +67,7 @@ copyright
 Copyright
 2006
 -
-2025
+2024
 by
 the
 Pygments

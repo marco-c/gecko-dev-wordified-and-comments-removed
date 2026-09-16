@@ -36,9 +36,6 @@ install_namespaces
 (
 self
 )
--
->
-None
 :
         
 nsp
@@ -95,6 +92,19 @@ _gen_nspkg_line
 nsp
 )
         
+if
+self
+.
+dry_run
+:
+            
+list
+(
+lines
+)
+            
+return
+        
 with
 open
 (
@@ -124,9 +134,6 @@ uninstall_namespaces
 (
 self
 )
--
->
-None
 :
         
 filename

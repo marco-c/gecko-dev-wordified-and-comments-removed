@@ -9,22 +9,12 @@ installation
 "
 "
 "
-from
-__future__
-import
-annotations
 import
 mimetypes
 import
 os
 import
 shutil
-from
-collections
-.
-abc
-import
-Iterable
 from
 dataclasses
 import
@@ -36,7 +26,10 @@ Path
 from
 typing
 import
-TYPE_CHECKING
+Dict
+Iterable
+List
+Optional
 from
 pip
 .
@@ -47,14 +40,6 @@ packaging
 utils
 import
 canonicalize_name
-from
-pip
-.
-_internal
-.
-build_env
-import
-BuildEnvironmentInstaller
 from
 pip
 .
@@ -154,6 +139,7 @@ network
 .
 download
 import
+BatchDownloader
 Downloader
 from
 pip
@@ -295,20 +281,6 @@ _internal
 vcs
 import
 vcs
-if
-TYPE_CHECKING
-:
-    
-from
-pip
-.
-_internal
-.
-cli
-.
-progress_bars
-import
-BarType
 logger
 =
 getLogger
@@ -327,9 +299,9 @@ build_tracker
 :
 BuildTracker
     
-build_env_installer
+finder
 :
-BuildEnvironmentInstaller
+PackageFinder
     
 build_isolation
 :
@@ -392,7 +364,7 @@ abstract_dist
 prepare_distribution_metadata
 (
                 
-build_env_installer
+finder
 build_isolation
 check_build_deps
             
@@ -467,9 +439,10 @@ str
     
 content_type
 :
+Optional
+[
 str
-|
-None
+]
 =
 None
     
@@ -491,9 +464,6 @@ is
 None
 :
             
-try
-:
-                
 self
 .
 content_type
@@ -509,12 +479,6 @@ path
 [
 0
 ]
-            
-except
-OSError
-:
-                
-pass
 def
 get_http_url
 (
@@ -529,17 +493,19 @@ Downloader
     
 download_dir
 :
+Optional
+[
 str
-|
-None
+]
 =
 None
     
 hashes
 :
+Optional
+[
 Hashes
-|
-None
+]
 =
 None
 )
@@ -631,16 +597,18 @@ link
 Link
 download_dir
 :
+Optional
+[
 str
-|
-None
+]
 =
 None
 hashes
 :
+Optional
+[
 Hashes
-|
-None
+]
 =
 None
 )
@@ -737,25 +705,28 @@ int
     
 download_dir
 :
+Optional
+[
 str
-|
-None
+]
 =
 None
     
 hashes
 :
+Optional
+[
 Hashes
-|
-None
+]
 =
 None
 )
 -
 >
+Optional
+[
 File
-|
-None
+]
 :
     
 "
@@ -922,9 +893,10 @@ str
     
 hashes
 :
+Optional
+[
 Hashes
-|
-None
+]
     
 warn_on_hash_mismatch
 :
@@ -934,9 +906,10 @@ True
 )
 -
 >
+Optional
+[
 str
-|
-None
+]
 :
     
 "
@@ -1092,17 +1065,16 @@ __init__
         
 self
         
-*
-        
 build_dir
 :
 str
         
 download_dir
 :
+Optional
+[
 str
-|
-None
+]
         
 src_dir
 :
@@ -1111,10 +1083,6 @@ str
 build_isolation
 :
 bool
-        
-build_isolation_installer
-:
-BuildEnvironmentInstaller
         
 check_build_deps
 :
@@ -1130,7 +1098,7 @@ PipSession
         
 progress_bar
 :
-BarType
+str
         
 finder
 :
@@ -1155,10 +1123,6 @@ int
 legacy_resolver
 :
 bool
-        
-resume_retries
-:
-int
     
 )
 -
@@ -1206,7 +1170,16 @@ Downloader
 (
 session
 progress_bar
-resume_retries
+)
+        
+self
+.
+_batch_download
+=
+BatchDownloader
+(
+session
+progress_bar
 )
         
 self
@@ -1226,12 +1199,6 @@ self
 build_isolation
 =
 build_isolation
-        
-self
-.
-build_env_installer
-=
-build_isolation_installer
         
 self
 .
@@ -1273,7 +1240,7 @@ self
 .
 _downloaded
 :
-dict
+Dict
 [
 str
 str
@@ -1407,9 +1374,10 @@ str
                 
 comes_from
 :
+Optional
+[
 str
-|
-None
+]
 =
 req
 .
@@ -1701,9 +1669,10 @@ InstallRequirement
 )
 -
 >
+Optional
+[
 BaseDistribution
-|
-None
+]
 :
         
 if
@@ -1799,9 +1768,10 @@ InstallRequirement
 )
 -
 >
+Optional
+[
 BaseDistribution
-|
-None
+]
 :
         
 "
@@ -1996,9 +1966,10 @@ Link
 )
 -
 >
+Optional
+[
 BaseDistribution
-|
-None
+]
 :
         
 "
@@ -2222,7 +2193,7 @@ path
         
 links_to_fully_download
 :
-dict
+Dict
 [
 Link
 InstallRequirement
@@ -2255,16 +2226,17 @@ batch_download
 =
 self
 .
-_download
-.
-batch
+_batch_download
 (
+            
 links_to_fully_download
 .
 keys
 (
 )
+            
 temp_dir
+        
 )
         
 for
@@ -2638,7 +2610,7 @@ False
         
 partially_downloaded_reqs
 :
-list
+List
 [
 InstallRequirement
 ]
@@ -3101,7 +3073,7 @@ build_tracker
             
 self
 .
-build_env_installer
+finder
             
 self
 .
@@ -3435,7 +3407,7 @@ build_tracker
                 
 self
 .
-build_env_installer
+finder
                 
 self
 .

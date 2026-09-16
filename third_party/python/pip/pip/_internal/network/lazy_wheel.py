@@ -8,10 +8,6 @@ HTTP
 "
 "
 "
-from
-__future__
-import
-annotations
 __all__
 =
 [
@@ -28,12 +24,6 @@ import
 bisect_left
 bisect_right
 from
-collections
-.
-abc
-import
-Generator
-from
 contextlib
 import
 contextmanager
@@ -45,6 +35,11 @@ from
 typing
 import
 Any
+Dict
+Generator
+List
+Optional
+Tuple
 from
 zipfile
 import
@@ -379,7 +374,7 @@ self
 .
 _left
 :
-list
+List
 [
 int
 ]
@@ -391,7 +386,7 @@ self
 .
 _right
 :
-list
+List
 [
 int
 ]
@@ -897,9 +892,10 @@ truncate
 self
 size
 :
+Optional
+[
 int
-|
-None
+]
 =
 None
 )
@@ -994,7 +990,9 @@ self
 )
 -
 >
+"
 LazyZipOverHTTP
+"
 :
         
 self
@@ -1201,7 +1199,7 @@ end
 int
 base_headers
 :
-dict
+Dict
 [
 str
 str
@@ -1318,7 +1316,7 @@ int
 >
 Generator
 [
-tuple
+Tuple
 [
 int
 int

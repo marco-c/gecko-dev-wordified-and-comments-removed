@@ -26,25 +26,10 @@ distribution
 "
 "
 "
-from
-__future__
-import
-annotations
 import
 os
 import
 warnings
-from
-collections
-.
-abc
-import
-Callable
-from
-typing
-import
-TYPE_CHECKING
-ClassVar
 from
 .
 .
@@ -64,29 +49,6 @@ from
 util
 import
 get_platform
-if
-TYPE_CHECKING
-:
-    
-from
-typing_extensions
-import
-deprecated
-else
-:
-    
-def
-deprecated
-(
-message
-)
-:
-        
-return
-lambda
-fn
-:
-fn
 def
 show_formats
 (
@@ -179,44 +141,15 @@ class
 ListCompat
 (
 dict
-[
-str
-tuple
-[
-str
-str
-]
-]
 )
 :
-    
-deprecated
-(
-"
-format_commands
-is
-now
-a
-dict
-.
-append
-is
-deprecated
-.
-"
-)
     
 def
 append
 (
 self
 item
-:
-object
 )
--
->
-None
 :
         
 warnings
@@ -225,6 +158,8 @@ warn
 (
             
 "
+"
+"
 format_commands
 is
 now
@@ -235,6 +170,8 @@ append
 is
 deprecated
 .
+"
+"
 "
             
 DeprecationWarning
@@ -457,14 +394,6 @@ group
 ]
     
 boolean_options
-:
-ClassVar
-[
-list
-[
-str
-]
-]
 =
 [
 '
@@ -475,27 +404,6 @@ build
 ]
     
 help_options
-:
-ClassVar
-[
-list
-[
-tuple
-[
-str
-str
-|
-None
-str
-Callable
-[
-[
-]
-object
-]
-]
-]
-]
 =
 [
         
@@ -518,17 +426,6 @@ show_formats
 ]
     
 no_format_option
-:
-ClassVar
-[
-tuple
-[
-str
-.
-.
-.
-]
-]
 =
 (
 '
@@ -537,15 +434,6 @@ bdist_rpm
 )
     
 default_format
-:
-ClassVar
-[
-dict
-[
-str
-str
-]
-]
 =
 {
 '
@@ -739,9 +627,6 @@ finalize_options
 (
 self
 )
--
->
-None
 :
         
 if
@@ -915,9 +800,6 @@ run
 (
 self
 )
--
->
-None
 :
         
 commands

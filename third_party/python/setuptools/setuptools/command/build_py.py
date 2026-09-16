@@ -7,20 +7,11 @@ fnmatch
 import
 itertools
 import
-operator
-import
 os
 import
 stat
 import
 textwrap
-from
-collections
-.
-abc
-import
-Iterable
-Iterator
 from
 functools
 import
@@ -36,18 +27,18 @@ Path
 from
 typing
 import
-Any
+Iterable
+Iterator
 from
 more_itertools
 import
 unique_everseen
 from
-.
+setuptools
 .
 _path
 import
 StrPath
-StrPathT
 from
 .
 .
@@ -97,9 +88,6 @@ make_writable
 (
 target
 )
--
->
-None
 :
     
 os
@@ -221,7 +209,7 @@ False
     
 existing_egg_info_dir
 :
-StrPath
+str
 |
 None
 =
@@ -232,9 +220,6 @@ finalize_options
 (
 self
 )
--
->
-None
 :
         
 orig
@@ -288,6 +273,13 @@ __dict__
 data_files
 '
 ]
+        
+self
+.
+__updated_files
+=
+[
+]
     
 def
 copy_file
@@ -301,7 +293,7 @@ StrPath
         
 outfile
 :
-StrPathT
+StrPath
         
 preserve_mode
 :
@@ -330,15 +322,6 @@ object
 1
     
 )
--
->
-tuple
-[
-StrPathT
-|
-str
-bool
-]
 :
         
 if
@@ -395,9 +378,6 @@ run
 (
 self
 )
--
->
-None
 :
         
 "
@@ -491,9 +471,6 @@ attr
 :
 str
 )
--
->
-Any
 :
         
 "
@@ -537,6 +514,48 @@ __getattr__
 self
 attr
 )
+    
+def
+build_module
+(
+self
+module
+module_file
+package
+)
+:
+        
+outfile
+copied
+=
+orig
+.
+build_py
+.
+build_module
+(
+self
+module
+module_file
+package
+)
+        
+if
+copied
+:
+            
+self
+.
+__updated_files
+.
+append
+(
+outfile
+)
+        
+return
+outfile
+copied
     
 def
 _get_data_files
@@ -592,21 +611,6 @@ get_data_files_without_manifest
 (
 self
 )
--
->
-list
-[
-tuple
-[
-str
-str
-str
-list
-[
-str
-]
-]
-]
 :
         
 "
@@ -676,21 +680,7 @@ _get_pkg_data_files
 (
 self
 package
-:
-str
 )
--
->
-tuple
-[
-str
-str
-str
-list
-[
-str
-]
-]
 :
         
 src_dir
@@ -1007,12 +997,13 @@ sorted
 mapping
 key
 =
-operator
-.
-itemgetter
-(
+lambda
+x
+:
+x
+[
 0
-)
+]
 )
 )
     
@@ -1180,9 +1171,6 @@ build_package_data
 (
 self
 )
--
->
-None
 :
         
 "
@@ -1244,23 +1232,13 @@ analyze_manifest
 (
 self
 )
--
->
-None
 :
         
 self
 .
 manifest_files
-:
-dict
-[
-str
-list
-[
-str
-]
-]
+=
+mf
 =
 {
 }
@@ -1277,12 +1255,6 @@ include_package_data
 return
         
 src_dirs
-:
-dict
-[
-str
-str
-]
 =
 {
 }
@@ -1316,9 +1288,14 @@ package
 if
 (
             
+getattr
+(
 self
-.
+'
 existing_egg_info_dir
+'
+None
+)
             
 and
 Path
@@ -1548,9 +1525,7 @@ warn
 importable
 )
                 
-self
-.
-manifest_files
+mf
 .
 setdefault
 (
@@ -1570,7 +1545,6 @@ path
 def
 _filter_build_files
 (
-        
 self
 files
 :
@@ -1580,8 +1554,7 @@ str
 ]
 egg_info
 :
-StrPath
-    
+str
 )
 -
 >
@@ -1752,9 +1725,6 @@ get_data_files
 (
 self
 )
--
->
-None
 :
         
 pass
@@ -1910,15 +1880,13 @@ errors
 DistutilsError
 (
                 
-f
 "
 Namespace
 package
 problem
 :
-{
-package
-}
+%
+s
 is
 a
 namespace
@@ -1969,6 +1937,10 @@ details
 n
 "
 '
+%
+(
+package
+)
             
 )
         
@@ -2015,12 +1987,7 @@ get_package_dir
 (
 self
 package
-:
-str
 )
--
->
-str
 :
         
 res
@@ -2828,9 +2795,6 @@ __init__
 (
 self
 )
--
->
-None
 :
         
 self
@@ -2838,9 +2802,6 @@ self
 _already_warned
 =
 set
-[
-str
-]
 (
 )
     

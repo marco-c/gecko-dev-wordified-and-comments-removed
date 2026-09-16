@@ -1,7 +1,3 @@
-from
-__future__
-import
-annotations
 import
 logging
 import
@@ -12,6 +8,11 @@ import
 site
 import
 sys
+from
+typing
+import
+List
+Optional
 logger
 =
 logging
@@ -196,12 +197,13 @@ _get_pyvenv_cfg_lines
 )
 -
 >
-list
+Optional
+[
+List
 [
 str
 ]
-|
-None
+]
 :
     
 "

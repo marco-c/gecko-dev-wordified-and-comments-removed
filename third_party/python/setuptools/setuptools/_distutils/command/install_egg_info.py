@@ -34,10 +34,6 @@ re
 import
 sys
 from
-typing
-import
-ClassVar
-from
 .
 .
 import
@@ -99,19 +95,6 @@ file
 "
     
 user_options
-:
-ClassVar
-[
-list
-[
-tuple
-[
-str
-str
-str
-]
-]
-]
 =
 [
         
@@ -183,8 +166,28 @@ distutils
 "
 "
         
-name
-=
+return
+"
+%
+s
+-
+%
+s
+-
+py
+%
+d
+.
+%
+d
+.
+egg
+-
+info
+"
+%
+(
+            
 to_filename
 (
 safe_name
@@ -198,9 +201,7 @@ get_name
 )
 )
 )
-        
-version
-=
+            
 to_filename
 (
 safe_version
@@ -214,39 +215,17 @@ get_version
 )
 )
 )
+            
+*
+sys
+.
+version_info
+[
+:
+2
+]
         
-return
-f
-"
-{
-name
-}
--
-{
-version
-}
--
-py
-{
-sys
-.
-version_info
-.
-major
-}
-.
-{
-sys
-.
-version_info
-.
-minor
-}
-.
-egg
--
-info
-"
+)
     
 def
 finalize_options
@@ -339,6 +318,11 @@ dir_util
 remove_tree
 (
 target
+dry_run
+=
+self
+.
+dry_run
 )
         
 elif
@@ -420,6 +404,13 @@ s
 target
 )
         
+if
+not
+self
+.
+dry_run
+:
+            
 with
 open
 (
@@ -438,7 +429,7 @@ UTF
 as
 f
 :
-            
+                
 self
 .
 distribution

@@ -1,16 +1,6 @@
-import
-typing
-typing
-.
-final
 class
 InfinityType
 :
-    
-__slots__
-=
-(
-)
     
 def
 __repr__
@@ -153,17 +143,9 @@ Infinity
 InfinityType
 (
 )
-typing
-.
-final
 class
 NegativeInfinityType
 :
-    
-__slots__
-=
-(
-)
     
 def
 __repr__

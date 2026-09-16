@@ -347,9 +347,6 @@ run
 [
 ld
 ]
-check
-=
-False
 stderr
 =
 subprocess

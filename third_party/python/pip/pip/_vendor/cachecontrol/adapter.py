@@ -7,8 +7,6 @@ functools
 import
 types
 import
-weakref
-import
 zlib
 from
 typing
@@ -709,12 +707,7 @@ controller
 .
 cache_response
 request
-weakref
-.
-ref
-(
 response
-)
                     
 )
                 
@@ -730,46 +723,22 @@ super_update_chunk_length
 =
 response
 .
-__class__
-.
 _update_chunk_length
                     
 def
 _update_chunk_length
 (
-                        
-weak_self
+self
 :
-weakref
-.
-ReferenceType
-[
 HTTPResponse
-]
-                    
 )
 -
 >
 None
 :
                         
-self
-=
-weak_self
-(
-)
-                        
-if
-self
-is
-None
-:
-                            
-return
-                        
 super_update_chunk_length
 (
-self
 )
                         
 if
@@ -793,18 +762,13 @@ response
 .
 _update_chunk_length
 =
-functools
+types
 .
-partial
+MethodType
 (
                         
 _update_chunk_length
-weakref
-.
-ref
-(
 response
-)
                     
 )
         

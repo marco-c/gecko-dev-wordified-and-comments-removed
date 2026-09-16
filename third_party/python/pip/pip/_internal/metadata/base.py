@@ -1,7 +1,3 @@
-from
-__future__
-import
-annotations
 import
 csv
 import
@@ -21,15 +17,6 @@ re
 import
 zipfile
 from
-collections
-.
-abc
-import
-Collection
-Container
-Iterable
-Iterator
-from
 typing
 import
 (
@@ -38,9 +25,25 @@ IO
     
 Any
     
+Collection
+    
+Container
+    
+Dict
+    
+Iterable
+    
+Iterator
+    
+List
+    
 NamedTuple
     
+Optional
+    
 Protocol
+    
+Tuple
     
 Union
 )
@@ -246,7 +249,7 @@ _convert_installed_files_path
     
 entry
 :
-tuple
+Tuple
 [
 str
 .
@@ -256,7 +259,7 @@ str
     
 info
 :
-tuple
+Tuple
 [
 str
 .
@@ -544,7 +547,9 @@ str
 )
 -
 >
+"
 BaseDistribution
+"
 :
         
 "
@@ -610,7 +615,9 @@ str
 )
 -
 >
+"
 BaseDistribution
+"
 :
         
 "
@@ -716,14 +723,18 @@ from_wheel
 cls
 wheel
 :
+"
 Wheel
+"
 name
 :
 str
 )
 -
 >
+"
 BaseDistribution
+"
 :
         
 "
@@ -877,9 +888,10 @@ self
 )
 -
 >
+Optional
+[
 str
-|
-None
+]
 :
         
 "
@@ -991,9 +1003,10 @@ self
 )
 -
 >
+Optional
+[
 str
-|
-None
+]
 :
         
 "
@@ -1098,9 +1111,10 @@ self
 )
 -
 >
+Optional
+[
 str
-|
-None
+]
 :
         
 "
@@ -1196,9 +1210,10 @@ self
 )
 -
 >
+Optional
+[
 str
-|
-None
+]
 :
         
 "
@@ -1481,20 +1496,15 @@ return
 False
         
 return
-pathlib
-.
-Path
-(
 location
-)
 .
-suffix
-=
-=
+endswith
+(
 "
 .
 egg
 "
+)
     
 property
     
@@ -1892,9 +1902,10 @@ self
 )
 -
 >
+Optional
+[
 DirectUrl
-|
-None
+]
 :
         
 "
@@ -2564,7 +2575,7 @@ self
 )
 -
 >
-dict
+Dict
 [
 str
 Any
@@ -2643,9 +2654,10 @@ self
 )
 -
 >
+Optional
+[
 str
-|
-None
+]
 :
         
 "
@@ -3059,12 +3071,13 @@ self
 )
 -
 >
+Optional
+[
 Iterator
 [
 str
 ]
-|
-None
+]
 :
         
 try
@@ -3124,12 +3137,13 @@ self
 )
 -
 >
+Optional
+[
 Iterator
 [
 str
 ]
-|
-None
+]
 :
         
 try
@@ -3267,12 +3281,13 @@ self
 )
 -
 >
+Optional
+[
 Iterator
 [
 str
 ]
-|
-None
+]
 :
         
 "
@@ -4057,7 +4072,9 @@ cls
 )
 -
 >
+"
 BaseEnvironment
+"
 :
         
 raise
@@ -4073,16 +4090,19 @@ from_paths
 cls
 paths
 :
-list
+Optional
+[
+List
 [
 str
 ]
-|
-None
+]
 )
 -
 >
+"
 BaseEnvironment
+"
 :
         
 raise
@@ -4100,9 +4120,12 @@ str
 )
 -
 >
+Optional
+[
+"
 BaseDistribution
-|
-None
+"
+]
 :
         
 "
@@ -4153,7 +4176,9 @@ self
 >
 Iterator
 [
+"
 BaseDistribution
+"
 ]
 :
         

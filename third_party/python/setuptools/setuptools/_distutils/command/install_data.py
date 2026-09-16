@@ -33,15 +33,9 @@ functools
 import
 os
 from
-collections
-.
-abc
-import
-Iterable
-from
 typing
 import
-ClassVar
+Iterable
 from
 .
 .
@@ -94,6 +88,9 @@ for
 installing
 data
 files
+"
+            
+"
 [
 default
 :
@@ -144,14 +141,6 @@ files
 ]
     
 boolean_options
-:
-ClassVar
-[
-list
-[
-str
-]
-]
 =
 [
 '
@@ -212,9 +201,6 @@ finalize_options
 (
 self
 )
--
->
-None
 :
         
 self
@@ -260,9 +246,6 @@ run
 (
 self
 )
--
->
-None
 :
         
 self

@@ -8,10 +8,6 @@ archives
 "
 "
 "
-from
-__future__
-import
-annotations
 import
 logging
 import
@@ -27,11 +23,11 @@ tarfile
 import
 zipfile
 from
-collections
-.
-abc
+typing
 import
 Iterable
+List
+Optional
 from
 zipfile
 import
@@ -193,7 +189,7 @@ str
 )
 -
 >
-list
+List
 [
 str
 ]
@@ -870,15 +866,19 @@ fn
 .
 endswith
 (
-(
 "
 /
 "
-"
-\
-\
-"
 )
+or
+fn
+.
+endswith
+(
+"
+\
+\
+"
 )
 :
                 
@@ -1392,6 +1392,12 @@ in
                             
 (
 3
+8
+17
+)
+                            
+(
+3
 9
 17
 )
@@ -1866,9 +1872,10 @@ str
     
 content_type
 :
+Optional
+[
 str
-|
-None
+]
 =
 None
 )

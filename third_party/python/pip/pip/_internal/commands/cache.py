@@ -9,7 +9,8 @@ Values
 from
 typing
 import
-Callable
+Any
+List
 from
 pip
 .
@@ -308,30 +309,26 @@ cmd_opts
 )
     
 def
-handler_map
+run
 (
 self
+options
+:
+Values
+args
+:
+List
+[
+str
+]
 )
 -
 >
-dict
-[
-str
-Callable
-[
-[
-Values
-list
-[
-str
-]
-]
-None
-]
-]
+int
 :
         
-return
+handlers
+=
 {
             
 "
@@ -375,33 +372,6 @@ self
 purge_cache
         
 }
-    
-def
-run
-(
-self
-options
-:
-Values
-args
-:
-list
-[
-str
-]
-)
--
->
-int
-:
-        
-handler_map
-=
-self
-.
-handler_map
-(
-)
         
 if
 not
@@ -442,7 +412,7 @@ args
 ]
 not
 in
-handler_map
+handlers
 :
             
 logger
@@ -470,7 +440,7 @@ join
 (
 sorted
 (
-handler_map
+handlers
 )
 )
             
@@ -489,7 +459,7 @@ args
 try
 :
             
-handler_map
+handlers
 [
 action
 ]
@@ -535,9 +505,9 @@ options
 Values
 args
 :
-list
+List
 [
-str
+Any
 ]
 )
 -
@@ -577,9 +547,9 @@ options
 Values
 args
 :
-list
+List
 [
-str
+Any
 ]
 )
 -
@@ -853,9 +823,9 @@ options
 Values
 args
 :
-list
+List
 [
-str
+Any
 ]
 )
 -
@@ -946,7 +916,7 @@ format_for_human
 self
 files
 :
-list
+List
 [
 str
 ]
@@ -1063,7 +1033,7 @@ format_for_abspath
 self
 files
 :
-list
+List
 [
 str
 ]
@@ -1104,9 +1074,9 @@ options
 Values
 args
 :
-list
+List
 [
-str
+Any
 ]
 )
 -
@@ -1299,9 +1269,9 @@ options
 Values
 args
 :
-list
+List
 [
-str
+Any
 ]
 )
 -
@@ -1375,7 +1345,7 @@ Values
 )
 -
 >
-list
+List
 [
 str
 ]
@@ -1443,7 +1413,7 @@ str
 )
 -
 >
-list
+List
 [
 str
 ]

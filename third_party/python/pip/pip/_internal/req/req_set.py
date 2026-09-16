@@ -5,6 +5,11 @@ collections
 import
 OrderedDict
 from
+typing
+import
+Dict
+List
+from
 pip
 .
 _vendor
@@ -66,7 +71,7 @@ self
 .
 requirements
 :
-dict
+Dict
 [
 str
 InstallRequirement
@@ -86,7 +91,7 @@ self
 .
 unnamed_requirements
 :
-list
+List
 [
 InstallRequirement
 ]
@@ -437,7 +442,7 @@ self
 )
 -
 >
-list
+List
 [
 InstallRequirement
 ]
@@ -468,7 +473,7 @@ self
 )
 -
 >
-list
+List
 [
 InstallRequirement
 ]
