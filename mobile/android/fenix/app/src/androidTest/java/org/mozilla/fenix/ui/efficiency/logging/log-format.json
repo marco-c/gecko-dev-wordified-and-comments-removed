@@ -748,6 +748,8 @@ counts
 (
 tabs
 tabsPrivate
+pendingUndoTabs
+recentlyClosedStoreTabs
 history
 bookmarks
 logins
@@ -755,6 +757,10 @@ addresses
 creditCards
 sitePermissions
 savedSessions
+collections
+tabGroups
+tabGroupAssignments
+recentlyClosedTabs
 topSites
 downloads
 )
