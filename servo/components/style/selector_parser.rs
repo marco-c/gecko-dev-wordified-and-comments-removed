@@ -52,7 +52,6 @@ match_ignore_ascii_case
 Parser
 as
 CssParser
-ParserInput
 }
 ;
 use
@@ -370,18 +369,6 @@ for_supports_rule
 false
 }
 ;
-let
-mut
-input
-=
-ParserInput
-:
-:
-new
-(
-input
-)
-;
 SelectorList
 :
 :
@@ -396,8 +383,6 @@ CssParser
 :
 new
 (
-&
-mut
 input
 )
 ParseRelative

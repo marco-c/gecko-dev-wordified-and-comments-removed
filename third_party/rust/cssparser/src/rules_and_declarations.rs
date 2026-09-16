@@ -28,10 +28,10 @@ parser
 :
 :
 {
-parse_nested_block
-parse_until_after
 ParseUntilErrorBehavior
 ParserState
+parse_nested_block
+parse_until_after
 }
 ;
 use
@@ -116,8 +116,6 @@ Parser
 <
 '
 i
-'
-_
 >
 _declaration_start
 :
@@ -190,8 +188,6 @@ Parser
 <
 '
 i
-'
-_
 >
 )
 -
@@ -304,8 +300,6 @@ Parser
 <
 '
 i
-'
-_
 >
 )
 -
@@ -381,8 +375,6 @@ Parser
 <
 '
 i
-'
-_
 >
 )
 -
@@ -440,8 +432,6 @@ Parser
 <
 '
 i
-'
-_
 >
 )
 -
@@ -493,8 +483,6 @@ RuleBodyParser
 '
 i
 '
-t
-'
 a
 P
 I
@@ -512,8 +500,6 @@ Parser
 <
 '
 i
-'
-t
 >
 pub
 parser
@@ -611,8 +597,6 @@ impl
 '
 i
 '
-t
-'
 a
 P
 I
@@ -622,8 +606,6 @@ RuleBodyParser
 <
 '
 i
-'
-t
 '
 a
 P
@@ -645,8 +627,6 @@ Parser
 <
 '
 i
-'
-t
 >
 parser
 :
@@ -690,8 +670,6 @@ RuleBodyParser
 <
 '
 i
-'
-_
 '
 _
 P
@@ -815,7 +793,6 @@ Token
 :
 AtKeyword
 (
-ref
 name
 )
 =
@@ -856,7 +833,6 @@ Token
 :
 Ident
 (
-ref
 name
 )
 if
@@ -1175,8 +1151,6 @@ StyleSheetParser
 '
 i
 '
-t
-'
 a
 P
 >
@@ -1192,8 +1166,6 @@ Parser
 <
 '
 i
-'
-t
 >
 pub
 parser
@@ -1212,8 +1184,6 @@ impl
 '
 i
 '
-t
-'
 a
 R
 P
@@ -1223,8 +1193,6 @@ StyleSheetParser
 <
 '
 i
-'
-t
 '
 a
 P
@@ -1270,8 +1238,6 @@ Parser
 <
 '
 i
-'
-t
 >
 parser
 :
@@ -1309,8 +1275,6 @@ StyleSheetParser
 <
 '
 i
-'
-_
 '
 _
 P
@@ -1662,8 +1626,6 @@ Parser
 <
 '
 i
-'
-_
 >
 parser
 :
@@ -1810,8 +1772,6 @@ Parser
 <
 '
 i
-'
-_
 >
 parser
 :
@@ -2015,8 +1975,6 @@ Parser
 <
 '
 i
-'
-_
 >
 parser
 :
@@ -2389,8 +2347,6 @@ Parser
 <
 '
 i
-'
-_
 >
 parser
 :

@@ -2,10 +2,7 @@ use
 cssparser
 :
 :
-{
 Parser
-ParserInput
-}
 ;
 use
 style

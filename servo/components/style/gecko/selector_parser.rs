@@ -2468,8 +2468,6 @@ Parser
 <
 '
 i
-'
-_
 >
 target
 :
@@ -3196,8 +3194,6 @@ Parser
 <
 '
 i
-'
-_
 >
 _after_part
 :
@@ -3685,8 +3681,6 @@ Parser
 <
 '
 i
-'
-_
 >
 )
 -

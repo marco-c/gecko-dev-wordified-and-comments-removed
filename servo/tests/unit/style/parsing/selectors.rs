@@ -4,7 +4,6 @@ cssparser
 :
 {
 Parser
-ParserInput
 ToCss
 }
 ;
