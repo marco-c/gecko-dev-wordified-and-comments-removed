@@ -1214,7 +1214,7 @@ timestamp
 /
 microseconds
 required
-BufferSource
+AllowSharedBufferSource
 data
 ;
 sequence

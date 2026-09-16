@@ -223,6 +223,13 @@ size
 -
 control
 "
+"
+texture
+-
+compression
+-
+unaligned
+"
 }
 ;
 [

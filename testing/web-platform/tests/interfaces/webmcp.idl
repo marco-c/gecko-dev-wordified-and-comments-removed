@@ -217,6 +217,11 @@ untrustedContentHint
 =
 false
 ;
+boolean
+consequentialHint
+=
+false
+;
 }
 ;
 dictionary

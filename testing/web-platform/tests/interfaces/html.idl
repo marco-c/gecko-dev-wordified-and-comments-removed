@@ -12974,13 +12974,6 @@ boolean
 allow
 )
 ;
-boolean
-setJavascriptURLs
-(
-boolean
-allow
-)
-;
 /
 /
 Remove
@@ -13157,9 +13150,6 @@ comments
 ;
 boolean
 dataAttributes
-;
-boolean
-javascriptURLs
 ;
 }
 ;

@@ -79,6 +79,9 @@ long
 long
 interactionId
 ;
+[
+Default
+]
 object
 toJSON
 (
@@ -115,6 +118,14 @@ interactionId
 InteractionContentfulPaint
 ?
 getLargestInteractionContentfulPaint
+(
+)
+;
+[
+Default
+]
+object
+toJSON
 (
 )
 ;
