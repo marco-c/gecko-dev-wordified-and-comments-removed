@@ -68,8 +68,6 @@ FAQ
 docs
 ]
 (
-.
-.
 /
 testing
 /
@@ -79,7 +77,7 @@ plain
 /
 faq
 .
-html
+md
 #
 how
 -
