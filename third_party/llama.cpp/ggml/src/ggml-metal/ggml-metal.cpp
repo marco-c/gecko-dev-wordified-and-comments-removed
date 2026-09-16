@@ -91,6 +91,17 @@ g_devices
 =
 1
 ;
+void
+ggml_backend_metal_disable
+(
+void
+)
+{
+g_devices
+=
+0
+;
+}
 static
 bool
 ggml_backend_buffer_is_metal

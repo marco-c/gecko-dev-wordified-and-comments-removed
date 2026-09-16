@@ -100,6 +100,13 @@ ggml_backend_metal_reg
 void
 )
 ;
+GGML_BACKEND_API
+void
+ggml_backend_metal_disable
+(
+void
+)
+;
 #
 ifdef
 __cplusplus
