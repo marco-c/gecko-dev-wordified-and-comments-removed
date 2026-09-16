@@ -4143,7 +4143,7 @@ visibility_node_index
 =
 surface
 .
-visibility_spatial_node_index
+raster_spatial_node_index
 ;
 self
 .
@@ -4280,7 +4280,7 @@ rect
 )
 ;
 let
-pic_to_vis_mapper
+pic_to_raster_mapper
 =
 SpaceMapper
 :
@@ -4289,7 +4289,7 @@ new_with_target
 (
 surface
 .
-visibility_spatial_node_index
+raster_spatial_node_index
 self
 .
 spatial_node_index
@@ -4372,7 +4372,7 @@ map_local_to_picture
 ref_spatial_node_index
 surface
 .
-visibility_spatial_node_index
+raster_spatial_node_index
 &
 mut
 clip_snapper
@@ -4417,7 +4417,7 @@ cast_unit
 &
 map_local_to_picture
 &
-pic_to_vis_mapper
+pic_to_raster_mapper
 &
 mut
 frame_state
