@@ -456,6 +456,10 @@ stroke
 :
 #
 92400e
+color
+:
+#
+1a1a1a
 ;
 classDef
 sink
@@ -467,6 +471,10 @@ stroke
 :
 #
 4b5563
+color
+:
+#
+1a1a1a
 ;
 class
 panels

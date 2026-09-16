@@ -1350,6 +1350,10 @@ stroke
 width
 :
 2px
+color
+:
+#
+1a1a1a
 style
 score3
 fill
@@ -1365,6 +1369,10 @@ stroke
 width
 :
 2px
+color
+:
+#
+1a1a1a
 style
 bookmarkFallback
 fill
@@ -1380,6 +1388,10 @@ stroke
 width
 :
 2px
+color
+:
+#
+1a1a1a
 style
 score4
 fill
@@ -1395,6 +1407,10 @@ stroke
 width
 :
 2px
+color
+:
+#
+1a1a1a
 style
 project
 fill

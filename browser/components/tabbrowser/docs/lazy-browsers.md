@@ -1204,6 +1204,10 @@ stroke
 :
 #
 1e40af
+color
+:
+#
+1a1a1a
 ;
 class
 ins1
