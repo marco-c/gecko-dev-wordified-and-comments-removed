@@ -969,6 +969,10 @@ type
 import
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
