@@ -106,11 +106,6 @@ include
 string
 >
 #
-include
-<
-system_error
->
-#
 if
 FMT_HAS_INCLUDE
 (
