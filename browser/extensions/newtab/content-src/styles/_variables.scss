@@ -913,6 +913,12 @@ background
 -
 card
 :
+color
+-
+mix
+(
+in
+srgb
 var
 (
 -
@@ -922,6 +928,10 @@ card
 background
 -
 color
+)
+80
+%
+transparent
 )
 ;
 /
