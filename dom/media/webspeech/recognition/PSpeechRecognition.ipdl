@@ -68,6 +68,8 @@ nsCString
 [
 ]
 languages
+uint64_t
+innerWindowId
 )
 returns
 (

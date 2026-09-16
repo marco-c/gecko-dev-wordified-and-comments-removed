@@ -185,6 +185,13 @@ html
 ]
 [
 "
+test_install_overlap
+.
+html
+"
+]
+[
+"
 test_parakeet_e2e
 .
 html

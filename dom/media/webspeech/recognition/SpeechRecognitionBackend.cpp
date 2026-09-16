@@ -4944,6 +4944,8 @@ nsCString
 >
 &
 aLanguages
+uint64_t
+aInnerWindowId
 )
 {
 AssertIsOnMainThread
@@ -5058,6 +5060,7 @@ aLanguages
 Clone
 (
 )
+aInnerWindowId
 ]
 (
 hwinference
@@ -5082,6 +5085,7 @@ move
 (
 languages
 )
+aInnerWindowId
 )
 ;
 }

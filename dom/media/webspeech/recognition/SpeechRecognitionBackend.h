@@ -390,6 +390,8 @@ nsCString
 >
 &
 aLanguages
+uint64_t
+aInnerWindowId
 )
 ;
 static

@@ -253,6 +253,11 @@ SpeechGrammarList
 cpp
 "
 "
+SpeechModelDownloadPermissionRequest
+.
+cpp
+"
+"
 SpeechModelResolver
 .
 cpp

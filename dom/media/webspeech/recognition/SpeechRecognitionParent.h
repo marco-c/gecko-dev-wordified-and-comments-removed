@@ -252,9 +252,6 @@ IsModelInstalledResolver
 aResolver
 )
 ;
-mozilla
-:
-:
 ipc
 :
 :
@@ -268,6 +265,8 @@ nsCString
 >
 &
 aLanguages
+uint64_t
+aInnerWindowId
 InstallModelsResolver
 &
 &
