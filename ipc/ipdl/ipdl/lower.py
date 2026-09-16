@@ -3,10 +3,6 @@ itertools
 import
 re
 from
-collections
-import
-OrderedDict
-from
 copy
 import
 deepcopy
@@ -9873,9 +9869,8 @@ defined
         
 decls
 =
-OrderedDict
-(
-)
+{
+}
         
 for
 su
@@ -10292,15 +10287,11 @@ d
 t
 =
 decls
-[
+.
+pop
+(
 dep
-]
-                    
-del
-decls
-[
-dep
-]
+)
                     
 gen_struct
 (
@@ -10318,25 +10309,27 @@ defn
 )
         
 while
-len
+decls
+:
+            
+first_k
+=
+next
+(
+iter
 (
 decls
 )
->
-0
-:
+)
             
-_
-(
 d
 t
-)
 =
 decls
 .
-popitem
+pop
 (
-False
+first_k
 )
             
 gen_struct
