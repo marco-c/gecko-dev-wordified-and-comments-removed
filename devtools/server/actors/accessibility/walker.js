@@ -475,7 +475,7 @@ Ci
 .
 nsIAccessibleRole
 .
-ROLE_MATHML_STRING_LITERAL
+ROLE_MATHML_LINK
 Ci
 .
 nsIAccessibleRole

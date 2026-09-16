@@ -50,6 +50,11 @@ a11y_setup
 py
 "
 "
+doc_mathml
+.
+html
+"
+"
 head
 .
 js
