@@ -160,6 +160,8 @@ tooltip
 PropTypes
 .
 string
+.
+isRequired
 }
 ;
 module
