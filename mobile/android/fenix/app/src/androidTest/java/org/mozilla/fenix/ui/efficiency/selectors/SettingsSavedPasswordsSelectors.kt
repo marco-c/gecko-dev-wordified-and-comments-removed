@@ -218,7 +218,7 @@ strategy
 =
 SelectorStrategy
 .
-ESPRESSO_BY_TEXT
+UIAUTOMATOR2_BY_TEXT
 value
 =
 getStringResource
