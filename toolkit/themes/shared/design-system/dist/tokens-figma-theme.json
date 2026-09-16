@@ -11758,6 +11758,8 @@ background
 /
 color
 /
+ghost
+/
 hover
 }
 "
@@ -11819,6 +11821,8 @@ button
 background
 /
 color
+/
+ghost
 /
 active
 }

@@ -4526,6 +4526,8 @@ background
 -
 color
 -
+ghost
+-
 hover
 )
 "
@@ -4634,6 +4636,8 @@ button
 background
 -
 color
+-
+ghost
 -
 active
 )
@@ -51328,6 +51332,8 @@ background
 -
 color
 -
+ghost
+-
 hover
 )
 "
@@ -51429,6 +51435,8 @@ button
 background
 -
 color
+-
+ghost
 -
 active
 )
