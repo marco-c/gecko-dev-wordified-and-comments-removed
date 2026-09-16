@@ -364,6 +364,13 @@ CompleteStartup
 (
 )
 ;
+const
+nsACString
+&
+ProfileSelectionReason
+(
+)
+;
 using
 AsyncFlushPromise
 =
