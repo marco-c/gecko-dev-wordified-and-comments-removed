@@ -731,6 +731,10 @@ done
 return
 ;
 }
+exitInstance_
+=
+instance_
+;
 popFrame
 (
 false

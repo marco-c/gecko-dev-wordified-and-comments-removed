@@ -1538,6 +1538,16 @@ resumeTarget_
 resumePC
 )
 ;
+MOZ_RELEASE_ASSERT
+(
+!
+iter
+.
+exitInstance
+(
+)
+)
+;
 #
 ifdef
 ENABLE_WASM_JSPI
