@@ -724,6 +724,13 @@ js
 ]
 [
 "
+browser_aiwindow_panels
+.
+js
+"
+]
+[
+"
 browser_aiwindow_session_restore
 .
 js
