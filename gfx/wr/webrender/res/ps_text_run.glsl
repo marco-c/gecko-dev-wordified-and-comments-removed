@@ -2145,7 +2145,7 @@ write_clip
 (
 vi
 .
-world_pos
+raster_pos
 clip_area
 task
 )

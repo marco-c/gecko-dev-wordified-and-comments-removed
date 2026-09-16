@@ -471,7 +471,7 @@ vec2
 local_pos
 ;
 vec4
-world_pos
+raster_pos
 ;
 }
 ;
@@ -516,11 +516,11 @@ the
 current
 vertex
 to
-world
+raster
 space
 .
 vec4
-world_pos
+raster_pos
 =
 transform
 .
@@ -541,7 +541,7 @@ clamped_local_pos
 /
 Convert
 the
-world
+raster
 positions
 to
 device
@@ -551,7 +551,7 @@ space
 vec2
 device_pos
 =
-world_pos
+raster_pos
 .
 xy
 *
@@ -597,15 +597,15 @@ device_pos
 +
 final_offset
 *
-world_pos
+raster_pos
 .
 w
 z
 *
-world_pos
+raster_pos
 .
 w
-world_pos
+raster_pos
 .
 w
 )
@@ -616,7 +616,7 @@ vi
 VertexInfo
 (
 clamped_local_pos
-world_pos
+raster_pos
 )
 ;
 return
@@ -1114,7 +1114,7 @@ void
 write_clip
 (
 vec4
-world_pos
+raster_pos
 ClipArea
 area
 PictureTask
@@ -1168,7 +1168,7 @@ else
 vec2
 uv
 =
-world_pos
+raster_pos
 .
 xy
 *
@@ -1176,7 +1176,7 @@ area
 .
 device_pixel_scale
 +
-world_pos
+raster_pos
 .
 w
 *
