@@ -4394,6 +4394,16 @@ kBrotliCompression
 #
 if
 MOZ_FONTATIONS
+if
+(
+StaticPrefs
+:
+:
+gfx_font_rendering_fontations_enabled_AtStartup
+(
+)
+)
+{
 SkrifaFontRef
 *
 skf
@@ -4443,6 +4453,7 @@ skrifa
 ;
 #
 endif
+}
 }
 #
 endif
