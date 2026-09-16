@@ -48920,6 +48920,9 @@ bitflags
 lazy_static
 "
 "
+regex
+"
+"
 serde
 "
 ]

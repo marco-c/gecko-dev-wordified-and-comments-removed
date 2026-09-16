@@ -95,6 +95,15 @@ lazy_static
 "
 1
 "
+regex
+=
+"
+1
+.
+11
+.
+1
+"
 serde
 =
 {
