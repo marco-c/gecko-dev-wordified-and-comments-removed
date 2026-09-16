@@ -226,6 +226,11 @@ Group
 .
 EMPTY_BOOKMARKS_MENU_VIEW
 )
+readiness
+=
+PageReadinessProfiles
+.
+IDENTITY_ANCHOR
 )
 val
 TOOLBAR_TITLE
@@ -257,11 +262,6 @@ Group
 .
 EMPTY_BOOKMARKS_MENU_VIEW
 )
-readiness
-=
-PageReadinessProfiles
-.
-IDENTITY_ANCHOR
 )
 val
 SORT_MENU_BUTTON

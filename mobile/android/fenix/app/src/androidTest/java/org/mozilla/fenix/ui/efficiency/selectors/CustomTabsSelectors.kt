@@ -283,11 +283,6 @@ main
 menu
 button
 "
-readiness
-=
-PageReadinessProfiles
-.
-IDENTITY_ANCHOR
 )
 val
 CLOSE_BUTTON
@@ -325,6 +320,11 @@ Group
 .
 CUSTOM_TAB_TOOLBAR
 )
+readiness
+=
+PageReadinessProfiles
+.
+IDENTITY_ANCHOR
 )
 val
 SITE_INFO_BUTTON
