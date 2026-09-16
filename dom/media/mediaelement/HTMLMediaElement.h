@@ -4305,12 +4305,11 @@ SetCDMPromise
 >
 mSetCDMRequest
 ;
+Maybe
+<
 double
+>
 mCurrentPlayRangeStart
-=
-1
-.
-0
 ;
 bool
 mLoadedDataFired
