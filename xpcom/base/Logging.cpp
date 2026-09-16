@@ -1338,6 +1338,13 @@ Log
 ;
 static
 constexpr
+bool
+StoreName
+=
+true
+;
+static
+constexpr
 const
 char
 *
