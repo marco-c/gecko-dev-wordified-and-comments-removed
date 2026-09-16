@@ -150,7 +150,6 @@ JS_DEFINE_TYPED_SLOT
 0
 SECONDS_SLOT
 Double
-Int32
 )
 ;
 JS_DEFINE_TYPED_SLOT
@@ -195,7 +194,7 @@ getFixedSlotTyped
 SECONDS_SLOT
 )
 .
-toNumber
+toDouble
 (
 )
 ;
