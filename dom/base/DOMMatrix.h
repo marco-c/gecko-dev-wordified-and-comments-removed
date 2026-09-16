@@ -2026,6 +2026,16 @@ aAngle
 ;
 DOMMatrix
 *
+SkewSelf
+(
+double
+aSx
+double
+aSy
+)
+;
+DOMMatrix
+*
 SkewXSelf
 (
 double

@@ -697,6 +697,16 @@ aRv
 )
 const
 ;
+StyleUnitValue
+ToStyleUnitValue
+(
+const
+nsACString
+&
+aUnit
+)
+const
+;
 protected
 :
 virtual
