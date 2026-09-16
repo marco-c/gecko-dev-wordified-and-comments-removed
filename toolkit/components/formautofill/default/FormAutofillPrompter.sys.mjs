@@ -10817,6 +10817,7 @@ newRecord
 )
 ;
 }
+await
 storage
 .
 notifyUsed

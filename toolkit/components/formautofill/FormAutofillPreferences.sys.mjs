@@ -3016,6 +3016,7 @@ cancelBtn
 )
 )
 {
+await
 lazy
 .
 formAutofillStorage
