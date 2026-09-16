@@ -370,12 +370,15 @@ variables
 }
 ;
 const
-{
 actor
-}
 =
+(
 await
 generatedScopes
+)
+?
+.
+actor
 ;
 const
 scope

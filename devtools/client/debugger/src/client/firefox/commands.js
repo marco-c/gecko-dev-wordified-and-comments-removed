@@ -1524,6 +1524,16 @@ frame
 id
 )
 ;
+if
+(
+!
+frameFront
+)
+{
+return
+null
+;
+}
 return
 frameFront
 .
