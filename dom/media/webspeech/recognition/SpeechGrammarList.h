@@ -157,9 +157,6 @@ Item
 (
 uint32_t
 aIndex
-ErrorResult
-&
-aRv
 )
 ;
 void
@@ -211,9 +208,6 @@ aIndex
 bool
 &
 aPresent
-ErrorResult
-&
-aRv
 )
 ;
 private

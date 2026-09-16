@@ -220,9 +220,10 @@ result
 =
 mItems
 .
-ElementAt
+SafeElementAt
 (
 aIndex
+nullptr
 )
 ;
 return

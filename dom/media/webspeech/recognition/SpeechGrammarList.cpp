@@ -220,9 +220,6 @@ Item
 (
 uint32_t
 aIndex
-ErrorResult
-&
-aRv
 )
 {
 RefPtr
@@ -233,9 +230,10 @@ result
 =
 mItems
 .
-ElementAt
+SafeElementAt
 (
 aIndex
+nullptr
 )
 ;
 return
@@ -339,9 +337,6 @@ aIndex
 bool
 &
 aPresent
-ErrorResult
-&
-aRv
 )
 {
 if
@@ -362,9 +357,6 @@ return
 nullptr
 ;
 }
-ErrorResult
-rv
-;
 aPresent
 =
 true
@@ -373,7 +365,6 @@ return
 Item
 (
 aIndex
-rv
 )
 ;
 }

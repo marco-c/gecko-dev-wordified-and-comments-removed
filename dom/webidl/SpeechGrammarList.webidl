@@ -147,11 +147,9 @@ unsigned
 long
 length
 ;
-[
-Throws
-]
 getter
 SpeechGrammar
+?
 item
 (
 unsigned
