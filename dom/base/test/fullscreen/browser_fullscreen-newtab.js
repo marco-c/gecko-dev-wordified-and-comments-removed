@@ -426,14 +426,6 @@ pushPrefs
 (
 [
 "
-test
-.
-wait300msAfterTabSwitch
-"
-true
-]
-[
-"
 full
 -
 screen

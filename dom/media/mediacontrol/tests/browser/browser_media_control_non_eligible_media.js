@@ -133,14 +133,6 @@ enabled
 "
 true
 ]
-[
-"
-test
-.
-wait300msAfterTabSwitch
-"
-true
-]
 ]
 }
 )
