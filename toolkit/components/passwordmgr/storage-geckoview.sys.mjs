@@ -226,17 +226,6 @@ NS_ERROR_NOT_IMPLEMENTED
 )
 ;
 }
-get
-backendName
-(
-)
-{
-return
-"
-geckoview
-"
-;
-}
 initialize
 (
 )
