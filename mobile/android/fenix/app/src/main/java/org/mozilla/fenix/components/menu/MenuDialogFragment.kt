@@ -3554,6 +3554,8 @@ MenuAction
 Navigate
 .
 EditBookmark
+(
+)
 )
 }
 onSwitchToDesktopSiteMenuClick
@@ -4508,6 +4510,8 @@ MenuAction
 Navigate
 .
 EditBookmark
+(
+)
 )
 }
 onFindInPageMenuClick

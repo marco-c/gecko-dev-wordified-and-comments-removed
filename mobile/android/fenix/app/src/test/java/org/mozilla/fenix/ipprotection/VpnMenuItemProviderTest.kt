@@ -119,6 +119,12 @@ kotlinx
 .
 coroutines
 .
+ExperimentalCoroutinesApi
+import
+kotlinx
+.
+coroutines
+.
 test
 .
 TestScope
@@ -773,6 +779,13 @@ StandardMenuItem
 summary
 )
 }
+OptIn
+(
+ExperimentalCoroutinesApi
+:
+:
+class
+)
 Test
 fun
 WHEN

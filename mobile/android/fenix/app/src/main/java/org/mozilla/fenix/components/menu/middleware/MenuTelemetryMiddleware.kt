@@ -352,6 +352,7 @@ add_bookmark
 "
 )
 )
+is
 MenuAction
 .
 Navigate

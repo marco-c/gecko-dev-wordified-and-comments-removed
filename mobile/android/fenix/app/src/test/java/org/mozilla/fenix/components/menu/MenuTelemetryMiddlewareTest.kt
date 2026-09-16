@@ -517,6 +517,8 @@ MenuAction
 Navigate
 .
 EditBookmark
+(
+)
 )
 assertTelemetryRecorded
 (
