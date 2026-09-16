@@ -327,6 +327,17 @@ searchFeatures
 .
 ftl
 "
+"
+toolkit
+/
+global
+/
+contextual
+-
+identity
+.
+ftl
+"
 ]
 componentURL
 :
