@@ -133,6 +133,10 @@ returns
 (
 bool
 anyFinalResult
+double
+fedAudioMs
+double
+inferenceMs
 )
 ;
 child
