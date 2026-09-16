@@ -367,13 +367,13 @@ exceptions
 -
 content
 -
-loaded
+state
 "
 profiles
 =
 PageReadinessProfiles
 .
-READY_CONTENT
+IDENTITY_ANCHOR
 condition
 =
 PageReadinessCondition

@@ -346,6 +346,9 @@ ClickIfPresent
 SettingsSavedPasswordsSelectors
 .
 LOGINS_SECURITY_DIALOG_LATER_BUTTON
+timeout
+=
+5_000
 )
 )
 )
@@ -397,6 +400,9 @@ ClickIfPresent
 SettingsSavedPasswordsSelectors
 .
 LOGINS_SECURITY_DIALOG_LATER_BUTTON
+timeout
+=
+5_000
 )
 )
 )
@@ -439,6 +445,9 @@ ClickIfPresent
 SettingsSavedPasswordsSelectors
 .
 LOGINS_SECURITY_DIALOG_LATER_BUTTON
+timeout
+=
+5_000
 )
 )
 )

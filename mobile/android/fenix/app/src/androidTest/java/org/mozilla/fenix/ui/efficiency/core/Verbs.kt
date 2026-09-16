@@ -3460,12 +3460,6 @@ evaluation
 satisfied
 &
 &
-lastRetryableProblem
-!
-=
-null
-&
-&
 dismissOverlays
 (
 )
@@ -3531,12 +3525,6 @@ if
 evaluation
 .
 satisfied
-&
-&
-lastRetryableProblem
-!
-=
-null
 &
 &
 dismissOverlays

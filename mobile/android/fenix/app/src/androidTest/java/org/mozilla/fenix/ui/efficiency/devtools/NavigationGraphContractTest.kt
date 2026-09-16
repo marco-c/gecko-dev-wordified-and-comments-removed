@@ -340,7 +340,7 @@ size
 )
 assertEquals
 (
-102
+107
 diagnostics
 .
 edges

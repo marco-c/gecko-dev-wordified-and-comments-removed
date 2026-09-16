@@ -1583,6 +1583,10 @@ on
 .
 home
 .
+navigateToPage
+(
+)
+.
 mozVerify
 (
 HomeSelectors

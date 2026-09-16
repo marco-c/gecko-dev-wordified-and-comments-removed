@@ -277,7 +277,7 @@ strategy
 =
 SelectorStrategy
 .
-UIAUTOMATOR2_BY_TEXT
+UIAUTOMATOR_WITH_TEXT
 value
 =
 shortcutTitle

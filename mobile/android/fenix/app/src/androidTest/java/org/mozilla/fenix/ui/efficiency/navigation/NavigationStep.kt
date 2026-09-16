@@ -134,6 +134,12 @@ val
 selector
 :
 Selector
+val
+timeout
+:
+Long
+=
+3_000
 )
 :
 NavigationStep

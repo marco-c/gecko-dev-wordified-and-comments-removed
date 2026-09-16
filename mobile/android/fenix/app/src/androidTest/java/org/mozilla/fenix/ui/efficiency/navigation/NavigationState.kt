@@ -161,6 +161,15 @@ object
 NavigationFacts
 {
 val
+BOOKMARKS_HAVE_ITEMS
+=
+NavigationFact
+(
+"
+BOOKMARKS_HAVE_ITEMS
+"
+)
+val
 RETURN_SURFACE_BROWSER
 =
 NavigationFact
