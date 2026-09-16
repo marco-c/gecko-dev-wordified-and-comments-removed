@@ -1519,6 +1519,12 @@ return
 NS_OK
 ;
 }
+if
+(
+!
+mMLSProvider
+)
+{
 mMLSProvider
 =
 MakeAndAddRef
@@ -1529,6 +1535,7 @@ MLSFallback
 12000
 )
 ;
+}
 mMLSProvider
 -
 >

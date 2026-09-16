@@ -101,6 +101,14 @@ CONFIG
 MOZ_GTK3_CFLAGS
 "
 ]
+TEST_DIRS
++
+=
+[
+"
+gtest
+"
+]
 include
 (
 "
