@@ -942,6 +942,7 @@ type
 enum
 JSWhyMagic
 {
+JS_UNINITIALIZED_LEXICAL
 JS_ELEMENTS_HOLE
 JS_NO_ITER_VALUE
 JS_ARG_POISON
@@ -951,7 +952,6 @@ JS_HASH_KEY_EMPTY
 JS_ION_ERROR
 JS_ION_BAILOUT
 JS_OPTIMIZED_OUT
-JS_UNINITIALIZED_LEXICAL
 JS_MISSING_ARGUMENTS
 JS_INTERRUPT_REGEXP
 JS_GENERIC_MAGIC
@@ -3524,20 +3524,6 @@ asBits_
 bool
 operator
 =
-=
-(
-const
-Value
-&
-rhs
-)
-const
-=
-default
-;
-bool
-operator
-!
 =
 (
 const
