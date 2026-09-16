@@ -1767,6 +1767,11 @@ TransmissionControlBlock
 :
 AddHandoverState
 (
+webrtc
+:
+:
+Timestamp
+now
 DcSctpSocketHandoverState
 &
 state
@@ -1919,6 +1924,7 @@ retransmission_queue_
 .
 AddHandoverState
 (
+now
 state
 )
 ;
@@ -1929,6 +1935,11 @@ TransmissionControlBlock
 :
 RestoreFromState
 (
+webrtc
+:
+:
+Timestamp
+now
 const
 DcSctpSocketHandoverState
 &
@@ -1946,6 +1957,7 @@ retransmission_queue_
 .
 RestoreFromState
 (
+now
 state
 )
 ;

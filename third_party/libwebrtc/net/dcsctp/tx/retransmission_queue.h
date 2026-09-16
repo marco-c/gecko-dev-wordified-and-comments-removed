@@ -637,6 +637,11 @@ const
 void
 AddHandoverState
 (
+webrtc
+:
+:
+Timestamp
+now
 DcSctpSocketHandoverState
 &
 state
@@ -645,6 +650,11 @@ state
 void
 RestoreFromState
 (
+webrtc
+:
+:
+Timestamp
+now
 const
 DcSctpSocketHandoverState
 &
