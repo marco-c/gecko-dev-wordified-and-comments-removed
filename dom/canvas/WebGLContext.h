@@ -4418,11 +4418,6 @@ mLoseContextOnMemoryPressure
 false
 ;
 bool
-mCanLoseContextInForeground
-=
-true
-;
-bool
 mShouldPresent
 =
 false

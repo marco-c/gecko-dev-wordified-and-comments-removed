@@ -1284,15 +1284,6 @@ webgl_lose_context_on_memory_pressure
 (
 )
 ;
-mCanLoseContextInForeground
-=
-StaticPrefs
-:
-:
-webgl_can_lose_context_in_foreground
-(
-)
-;
 gl
 -
 >
