@@ -3695,7 +3695,9 @@ listenStore
 =
 components
 .
-listenStore
+listenToPage
+.
+store
 )
 }
 }

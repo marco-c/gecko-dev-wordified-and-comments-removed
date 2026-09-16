@@ -1953,7 +1953,9 @@ context
 .
 components
 .
-listenStore
+listenToPage
+.
+store
 .
 dispatch
 (
