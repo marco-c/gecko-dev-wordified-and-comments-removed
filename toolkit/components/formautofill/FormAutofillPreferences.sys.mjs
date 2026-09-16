@@ -343,7 +343,7 @@ win
 =
 document
 .
-ownerGlobal
+documentGlobal
 ;
 Services
 .
