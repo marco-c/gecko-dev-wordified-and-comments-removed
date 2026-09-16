@@ -188,6 +188,9 @@ singleRun
 :
 !
 isTDD
+failOnEmptyTestSuite
+:
+false
 browsers
 customLaunchers
 :
