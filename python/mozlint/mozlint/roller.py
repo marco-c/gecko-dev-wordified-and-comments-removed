@@ -1484,6 +1484,12 @@ linter
 setup
 "
 ]
+linter
+[
+"
+path
+"
+]
 )
 (
                         

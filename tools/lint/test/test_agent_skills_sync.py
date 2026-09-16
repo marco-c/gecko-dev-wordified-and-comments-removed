@@ -1,6 +1,4 @@
 import
-importlib
-import
 pathlib
 import
 sys
@@ -51,25 +49,6 @@ fixed
 0
 )
 def
-_get_module
-(
-)
-:
-    
-return
-importlib
-.
-import_module
-(
-"
-agent
--
-skills
--
-sync
-"
-)
-def
 _vcs
 (
 added_or_modified
@@ -109,10 +88,20 @@ or
 )
     
 }
+pytest
+.
+fixture
 def
-_patch_vcs
+patch_vcs
 (
+linter_module
 monkeypatch
+)
+:
+    
+def
+_patch
+(
 added_or_modified
 =
 None
@@ -121,20 +110,18 @@ deleted
 None
 )
 :
-    
+        
 monkeypatch
 .
 setattr
 (
-        
-_get_module
-(
-)
-        
+            
+linter_module
+            
 "
 _collect_vcs_changes
 "
-        
+            
 lambda
 root
 :
@@ -147,8 +134,11 @@ deleted
 =
 deleted
 )
-    
+        
 )
+    
+return
+_patch
 def
 _write
 (
@@ -681,13 +671,12 @@ test_fix_propagates_add_to_agent
 (
 global_lint
 tmp_path
-monkeypatch
+patch_vcs
 )
 :
     
-_patch_vcs
+patch_vcs
 (
-monkeypatch
 added_or_modified
 =
 [
@@ -797,13 +786,12 @@ test_fix_propagates_add_to_claude
 (
 global_lint
 tmp_path
-monkeypatch
+patch_vcs
 )
 :
     
-_patch_vcs
+patch_vcs
 (
-monkeypatch
 added_or_modified
 =
 [
@@ -913,13 +901,12 @@ test_fix_propagates_delete_from_claude
 (
 global_lint
 tmp_path
-monkeypatch
+patch_vcs
 )
 :
     
-_patch_vcs
+patch_vcs
 (
-monkeypatch
 deleted
 =
 [
@@ -1022,13 +1009,12 @@ test_fix_propagates_delete_from_agent
 (
 global_lint
 tmp_path
-monkeypatch
+patch_vcs
 )
 :
     
-_patch_vcs
+patch_vcs
 (
-monkeypatch
 deleted
 =
 [
@@ -1131,14 +1117,12 @@ test_fix_handles_rename_on_claude_side
 (
 global_lint
 tmp_path
-monkeypatch
+patch_vcs
 )
 :
     
-_patch_vcs
+patch_vcs
 (
-        
-monkeypatch
         
 added_or_modified
 =
@@ -1316,13 +1300,12 @@ test_fix_one_sided_without_vcs_signal_errors
 (
 global_lint
 tmp_path
-monkeypatch
+patch_vcs
 )
 :
     
-_patch_vcs
+patch_vcs
 (
-monkeypatch
 )
     
 _setup_tree
@@ -1526,13 +1509,12 @@ test_fix_resolves_content_mismatch_via_vcs_claude_changed
     
 global_lint
 tmp_path
-monkeypatch
+patch_vcs
 )
 :
     
-_patch_vcs
+patch_vcs
 (
-monkeypatch
 added_or_modified
 =
 [
@@ -1661,13 +1643,12 @@ test_fix_resolves_content_mismatch_via_vcs_agent_changed
     
 global_lint
 tmp_path
-monkeypatch
+patch_vcs
 )
 :
     
-_patch_vcs
+patch_vcs
 (
-monkeypatch
 added_or_modified
 =
 [
@@ -1796,14 +1777,12 @@ test_fix_cannot_resolve_content_mismatch_when_both_changed
     
 global_lint
 tmp_path
-monkeypatch
+patch_vcs
 )
 :
     
-_patch_vcs
+patch_vcs
 (
-        
-monkeypatch
         
 added_or_modified
 =
@@ -2013,14 +1992,12 @@ test_mixed_run_partial_resolution
 (
 global_lint
 tmp_path
-monkeypatch
+patch_vcs
 )
 :
     
-_patch_vcs
+patch_vcs
 (
-        
-monkeypatch
         
 added_or_modified
 =
@@ -2215,14 +2192,12 @@ test_identical_content_both_changed_is_in_sync
 (
 global_lint
 tmp_path
-monkeypatch
+patch_vcs
 )
 :
     
-_patch_vcs
+patch_vcs
 (
-        
-monkeypatch
         
 added_or_modified
 =
