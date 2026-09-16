@@ -444,6 +444,13 @@ aCx
 =
 0
 ;
+virtual
+void
+OnFinishedOnExecutionThread
+(
+)
+{
+}
 ipc
 :
 :

@@ -203,6 +203,12 @@ aCx
 )
 override
 ;
+void
+OnFinishedOnExecutionThread
+(
+)
+override
+;
 private
 :
 AudioWorkletImpl
