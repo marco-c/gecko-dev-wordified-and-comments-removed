@@ -515,17 +515,6 @@ moz
 segmented
 -
 control
-data
--
-l10n
--
-id
-=
-"
-themes
--
-mode
-"
 .
 value
 =
