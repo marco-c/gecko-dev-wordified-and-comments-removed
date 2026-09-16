@@ -47053,10 +47053,8 @@ MIRType
 :
 :
 WasmStructData
-)
-{
-MOZ_RELEASE_ASSERT
-(
+&
+&
 ins
 -
 >
@@ -47069,7 +47067,7 @@ isWasmLoadField
 (
 )
 )
-;
+{
 structObject
 =
 ins
