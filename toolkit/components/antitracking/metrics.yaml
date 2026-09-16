@@ -3214,9 +3214,6 @@ com
 expires
 :
 never
-telemetry_mirror
-:
-EMAIL_TRACKER_EMBEDDED_PER_TAB
 strip_on_share_params_removed
 :
 type
