@@ -125,7 +125,7 @@ const
 val
 DEFAULT_CONTENT_RECOMMENDATIONS_REFRESH_INTERNAL
 =
-4L
+30L
 internal
 const
 val
@@ -157,7 +157,7 @@ DEFAULT_CONTENT_RECOMMENDATIONS_REFRESH_TIMEUNIT
 =
 TimeUnit
 .
-HOURS
+MINUTES
 /
 *
 *
@@ -230,8 +230,8 @@ recommendations
 .
 Defaults
 to
-4
-hours
+30
+minutes
 .
 *
 param
