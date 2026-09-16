@@ -103,6 +103,13 @@ defined
 ANDROID
 )
 )
+&
+&
+!
+defined
+(
+XP_FREEBSD
+)
 already_AddRefed
 <
 SerialPlatformService
