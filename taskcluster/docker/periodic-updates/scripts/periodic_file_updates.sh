@@ -5827,6 +5827,9 @@ moz
 -
 phab
 abandon
+-
+-
+yes
 "
 D
 diff
@@ -5836,6 +5839,9 @@ moz
 -
 phab
 submit
+-
+-
+yes
 -
 s
 -
