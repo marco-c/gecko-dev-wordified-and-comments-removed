@@ -6413,7 +6413,7 @@ type
 Boolean
 default
 :
-false
+true
 merino
 -
 client
