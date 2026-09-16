@@ -254,6 +254,11 @@ NavigateTo
 IPProtectionLocationTools
 DebugDrawerAction
 .
+NavigateTo
+.
+ListenToPageTools
+DebugDrawerAction
+.
 OnBackPressed
 -
 >
