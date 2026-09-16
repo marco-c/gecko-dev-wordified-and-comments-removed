@@ -1528,9 +1528,7 @@ IsReadable
 )
 )
 {
-gfxCriticalError
-(
-)
+gfxCriticalNote
 <
 <
 "
@@ -1544,7 +1542,11 @@ shmem
 "
 ;
 return
-nullptr
+CreateDummyBufferTextureHost
+(
+aBackend
+aFlags
+)
 ;
 }
 size_t
