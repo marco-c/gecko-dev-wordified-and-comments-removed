@@ -1644,9 +1644,6 @@ Policy
 "
 macOSPoliciesParser
 "
-"
-PoliciesHelpers
-"
 ]
 ;
 let
