@@ -929,6 +929,9 @@ Transform
 should_snap
 :
 true
+snap_origin
+:
+false
 is_2d_scale_translation
 :
 true
@@ -5704,6 +5707,9 @@ false
 should_snap
 :
 false
+snap_origin
+:
+false
 paired_with_perspective
 :
 false
@@ -7313,6 +7319,9 @@ true
 should_snap
 :
 true
+snap_origin
+:
+false
 paired_with_perspective
 :
 false
@@ -7495,6 +7504,9 @@ true
 should_snap
 :
 true
+snap_origin
+:
+false
 paired_with_perspective
 :
 false
@@ -7761,6 +7773,9 @@ true
 should_snap
 :
 true
+snap_origin
+:
+false
 paired_with_perspective
 :
 false
@@ -8027,6 +8042,9 @@ true
 should_snap
 :
 true
+snap_origin
+:
+false
 paired_with_perspective
 :
 false
@@ -8289,6 +8307,9 @@ true
 should_snap
 :
 true
+snap_origin
+:
+false
 paired_with_perspective
 :
 false
@@ -8609,6 +8630,9 @@ true
 should_snap
 :
 true
+snap_origin
+:
+false
 paired_with_perspective
 :
 false
@@ -8751,6 +8775,9 @@ is_2d_scale_translation
 :
 true
 should_snap
+:
+false
+snap_origin
 :
 false
 paired_with_perspective
@@ -8935,6 +8962,9 @@ true
 should_snap
 :
 true
+snap_origin
+:
+false
 paired_with_perspective
 :
 false
@@ -9652,6 +9682,9 @@ false
 should_snap
 :
 false
+snap_origin
+:
+false
 paired_with_perspective
 :
 false
@@ -9739,6 +9772,9 @@ false
 should_snap
 :
 false
+snap_origin
+:
+false
 paired_with_perspective
 :
 false
@@ -9803,6 +9839,9 @@ true
 should_snap
 :
 true
+snap_origin
+:
+false
 paired_with_perspective
 :
 false

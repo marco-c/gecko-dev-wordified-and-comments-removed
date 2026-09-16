@@ -261,6 +261,11 @@ Epoch
 (
 0
 )
+api
+.
+get_namespace_id
+(
+)
 sub_builder
 .
 end
@@ -322,6 +327,9 @@ is_2d_scale_translation
 :
 false
 should_snap
+:
+false
+snap_origin
 :
 false
 paired_with_perspective
