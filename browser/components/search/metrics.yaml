@@ -135,7 +135,7 @@ type
 event
 description
 :
->
+|
 When
 Firefox
 was
@@ -373,7 +373,7 @@ newtab_visit_id
 newtab_visit_id
 description
 :
->
+|
 The
 id
 of
@@ -451,7 +451,7 @@ search_access_point
 search_access_point
 description
 :
->
+|
 One
 of
 the
@@ -481,7 +481,7 @@ telemetry_id
 telemetry_id
 description
 :
->
+|
 The
 search
 engine
@@ -551,7 +551,7 @@ type
 event
 description
 :
->
+|
 Recorded
 when
 a
@@ -785,7 +785,7 @@ is_follow_on
 is_follow_on
 description
 :
->
+|
 Whether
 the
 preceding
@@ -806,7 +806,7 @@ is_tagged
 is_tagged
 description
 :
->
+|
 Whether
 the
 preceding
@@ -836,7 +836,7 @@ type
 event
 description
 :
->
+|
 Recorded
 when
 an
@@ -1087,7 +1087,7 @@ type
 event
 description
 :
->
+|
 Recorded
 search
 counts
@@ -1268,7 +1268,7 @@ source
 :
 description
 :
->
+|
 The
 search
 access
@@ -1346,7 +1346,7 @@ provider_id
 :
 description
 :
->
+|
 The
 identifier
 of
@@ -1395,7 +1395,7 @@ provider_name
 :
 description
 :
->
+|
 The
 name
 of
@@ -1418,7 +1418,7 @@ partner_code
 :
 description
 :
->
+|
 The
 partner
 code
@@ -1469,7 +1469,7 @@ overridden_by_third_party
 :
 description
 :
->
+|
 Set
 to
 true
@@ -1505,7 +1505,7 @@ type
 labeled_counter
 description
 :
->
+|
 This
 is
 deprecated
@@ -1920,7 +1920,7 @@ type
 event
 description
 :
->
+|
 Records
 how
 often
@@ -2021,7 +2021,7 @@ source
 :
 description
 :
->
+|
 The
 search
 access
@@ -2050,7 +2050,7 @@ provider_id
 :
 description
 :
->
+|
 The
 identifier
 of
@@ -2106,7 +2106,7 @@ type
 labeled_counter
 description
 :
->
+|
 Count
 of
 impressions
@@ -2215,7 +2215,7 @@ type
 event
 description
 :
->
+|
 Recorded
 when
 a
@@ -2522,7 +2522,7 @@ impression_id
 impression_id
 description
 :
->
+|
 A
 uuid
 to
@@ -2543,7 +2543,7 @@ provider
 :
 description
 :
->
+|
 The
 name
 of
@@ -2557,7 +2557,7 @@ tagged
 :
 description
 :
->
+|
 Whether
 the
 search
@@ -2579,7 +2579,7 @@ partner_code
 :
 description
 :
->
+|
 Any
 partner_code
 parsing
@@ -2601,7 +2601,7 @@ source
 :
 description
 :
->
+|
 How
 the
 user
@@ -2655,7 +2655,7 @@ search_mode
 :
 description
 :
->
+|
 The
 mode
 which
@@ -2839,7 +2839,7 @@ type
 event
 description
 :
->
+|
 Recorded
 user
 actions
@@ -3030,7 +3030,7 @@ action
 :
 description
 :
->
+|
 The
 action
 taken
@@ -3056,7 +3056,7 @@ target
 :
 description
 :
->
+|
 The
 target
 component
@@ -3156,7 +3156,7 @@ type
 event
 description
 :
->
+|
 Recorded
 when
 a
@@ -3330,7 +3330,7 @@ component
 :
 description
 :
->
+|
 Type
 of
 components
@@ -3427,7 +3427,7 @@ ads_loaded
 :
 description
 :
->
+|
 Number
 of
 ads
@@ -3454,7 +3454,7 @@ ads_visible
 :
 description
 :
->
+|
 Number
 of
 ads
@@ -3490,7 +3490,7 @@ ads_hidden
 :
 description
 :
->
+|
 Number
 of
 ads
@@ -3527,7 +3527,7 @@ type
 event
 description
 :
->
+|
 Recorded
 when
 there
@@ -3633,7 +3633,7 @@ reason
 :
 description
 :
->
+|
 Why
 the
 SERP
@@ -3661,7 +3661,7 @@ time_unit
 millisecond
 description
 :
->
+|
 The
 time
 it
@@ -3738,7 +3738,7 @@ type
 event
 description
 :
->
+|
 A
 high
 -
@@ -3893,7 +3893,7 @@ sponsored_category
 :
 description
 :
->
+|
 An
 index
 corresponding
@@ -3916,7 +3916,7 @@ sponsored_num_domains
 :
 description
 :
->
+|
 The
 total
 number
@@ -3939,7 +3939,7 @@ sponsored_num_unknown
 :
 description
 :
->
+|
 The
 count
 of
@@ -3969,7 +3969,7 @@ sponsored_num_inconclusive
 :
 description
 :
->
+|
 The
 count
 of
@@ -4002,7 +4002,7 @@ organic_category
 :
 description
 :
->
+|
 An
 index
 corresponding
@@ -4025,7 +4025,7 @@ organic_num_domains
 :
 description
 :
->
+|
 The
 total
 number
@@ -4048,7 +4048,7 @@ organic_num_unknown
 :
 description
 :
->
+|
 The
 count
 of
@@ -4078,7 +4078,7 @@ organic_num_inconclusive
 :
 description
 :
->
+|
 The
 count
 of
@@ -4111,7 +4111,7 @@ region
 :
 description
 :
->
+|
 A
 two
 -
@@ -4132,7 +4132,7 @@ channel
 :
 description
 :
->
+|
 The
 type
 of
@@ -4152,7 +4152,7 @@ provider
 :
 description
 :
->
+|
 The
 name
 of
@@ -4166,7 +4166,7 @@ tagged
 :
 description
 :
->
+|
 Whether
 the
 search
@@ -4188,7 +4188,7 @@ partner_code
 :
 description
 :
->
+|
 Any
 partner_code
 parsing
@@ -4210,7 +4210,7 @@ app_version
 :
 description
 :
->
+|
 The
 Firefox
 major
@@ -4228,7 +4228,7 @@ mappings_version
 :
 description
 :
->
+|
 Version
 number
 for
@@ -4260,7 +4260,7 @@ is_shopping_page
 :
 description
 :
->
+|
 Indicates
 if
 the
@@ -4277,7 +4277,7 @@ num_ads_hidden
 :
 description
 :
->
+|
 Number
 of
 ads
@@ -4300,7 +4300,7 @@ num_ads_loaded
 :
 description
 :
->
+|
 Number
 of
 ads
@@ -4323,7 +4323,7 @@ num_ads_visible
 :
 description
 :
->
+|
 Number
 of
 ads
@@ -4346,7 +4346,7 @@ num_ads_clicked
 :
 description
 :
->
+|
 Number
 of
 ads
@@ -4371,7 +4371,7 @@ type
 labeled_counter
 description
 :
->
+|
 Counts
 the
 specific
@@ -4455,7 +4455,7 @@ type
 object
 description
 :
->
+|
 Whether
 the
 client
@@ -4608,7 +4608,7 @@ type
 counter
 description
 :
->
+|
 A
 count
 incremented
@@ -4721,7 +4721,7 @@ type
 url
 description
 :
->
+|
 The
 external
 url
@@ -4798,7 +4798,7 @@ type
 uuid
 description
 :
->
+|
 An
 identifier
 for
@@ -4913,7 +4913,7 @@ type
 labeled_counter
 description
 :
->
+|
 The
 count
 of
@@ -5007,7 +5007,7 @@ type
 labeled_counter
 description
 :
->
+|
 The
 count
 of
@@ -5103,7 +5103,7 @@ type
 labeled_counter
 description
 :
->
+|
 The
 count
 of
@@ -5206,7 +5206,7 @@ type
 labeled_counter
 description
 :
->
+|
 The
 count
 of
@@ -5304,7 +5304,7 @@ type
 labeled_counter
 description
 :
->
+|
 The
 count
 of
@@ -5398,7 +5398,7 @@ type
 labeled_counter
 description
 :
->
+|
 The
 count
 of
@@ -5493,7 +5493,7 @@ type
 labeled_counter
 description
 :
->
+|
 The
 count
 of
@@ -5592,7 +5592,7 @@ data_sensitivity
 interaction
 description
 :
->
+|
 The
 count
 URI
@@ -5668,7 +5668,7 @@ type
 labeled_counter
 description
 :
->
+|
 The
 count
 of
@@ -5762,7 +5762,7 @@ type
 labeled_counter
 description
 :
->
+|
 The
 count
 of
@@ -5844,7 +5844,7 @@ type
 labeled_counter
 description
 :
->
+|
 The
 count
 of
@@ -5932,7 +5932,7 @@ type
 labeled_counter
 description
 :
->
+|
 The
 count
 of
@@ -6003,7 +6003,7 @@ type
 labeled_counter
 description
 :
->
+|
 The
 count
 of
@@ -6075,7 +6075,7 @@ type
 labeled_counter
 description
 :
->
+|
 The
 count
 of
@@ -6154,7 +6154,7 @@ type
 labeled_counter
 description
 :
->
+|
 The
 count
 of
@@ -6238,7 +6238,7 @@ type
 labeled_counter
 description
 :
->
+|
 Records
 counts
 for
@@ -6466,7 +6466,7 @@ type
 labeled_counter
 description
 :
->
+|
 The
 count
 of
@@ -6562,7 +6562,7 @@ type
 labeled_counter
 description
 :
->
+|
 Records
 counts
 for
@@ -6719,7 +6719,7 @@ type
 labeled_counter
 description
 :
->
+|
 Records
 counts
 for
@@ -6950,7 +6950,7 @@ type
 labeled_counter
 description
 :
->
+|
 Records
 counts
 for
@@ -7179,7 +7179,7 @@ type
 labeled_counter
 description
 :
->
+|
 Records
 counts
 for
@@ -7409,7 +7409,7 @@ type
 labeled_counter
 description
 :
->
+|
 Records
 counts
 for
@@ -7639,7 +7639,7 @@ type
 labeled_counter
 description
 :
->
+|
 Records
 counts
 for
@@ -7868,7 +7868,7 @@ type
 labeled_counter
 description
 :
->
+|
 Records
 counts
 for
@@ -7958,7 +7958,7 @@ type
 labeled_counter
 description
 :
->
+|
 Records
 counts
 for
@@ -8186,7 +8186,7 @@ type
 labeled_counter
 description
 :
->
+|
 Records
 counts
 for
@@ -8420,7 +8420,7 @@ type
 labeled_counter
 description
 :
->
+|
 Records
 counts
 for
@@ -8567,7 +8567,7 @@ type
 labeled_counter
 description
 :
->
+|
 Records
 counts
 for
@@ -8714,7 +8714,7 @@ type
 labeled_counter
 description
 :
->
+|
 Records
 counts
 for
@@ -8958,7 +8958,7 @@ type
 labeled_counter
 description
 :
->
+|
 Records
 counts
 of
@@ -9091,7 +9091,7 @@ type
 labeled_counter
 description
 :
->
+|
 The
 count
 of
@@ -9187,7 +9187,7 @@ type
 labeled_counter
 description
 :
->
+|
 Records
 counts
 of
@@ -9329,7 +9329,7 @@ type
 labeled_counter
 description
 :
->
+|
 Records
 counts
 of
@@ -9465,7 +9465,7 @@ type
 labeled_counter
 description
 :
->
+|
 Records
 counts
 of
@@ -9599,7 +9599,7 @@ type
 labeled_counter
 description
 :
->
+|
 Records
 counts
 of
@@ -9733,7 +9733,7 @@ type
 labeled_counter
 description
 :
->
+|
 Records
 counts
 of
@@ -9867,7 +9867,7 @@ type
 labeled_counter
 description
 :
->
+|
 Records
 counts
 of
@@ -10001,7 +10001,7 @@ type
 labeled_counter
 description
 :
->
+|
 Records
 counts
 of
@@ -10092,7 +10092,7 @@ type
 labeled_counter
 description
 :
->
+|
 Records
 counts
 of
@@ -10226,7 +10226,7 @@ type
 labeled_counter
 description
 :
->
+|
 Records
 counts
 of
@@ -10366,7 +10366,7 @@ type
 labeled_counter
 description
 :
->
+|
 Records
 counts
 of
@@ -10500,7 +10500,7 @@ type
 labeled_counter
 description
 :
->
+|
 Records
 counts
 of
@@ -10634,7 +10634,7 @@ type
 labeled_counter
 description
 :
->
+|
 Records
 counts
 of
@@ -10780,7 +10780,7 @@ type
 labeled_counter
 description
 :
->
+|
 Records
 clicks
 of
@@ -10913,7 +10913,7 @@ type
 labeled_counter
 description
 :
->
+|
 The
 count
 of
@@ -11009,7 +11009,7 @@ type
 labeled_counter
 description
 :
->
+|
 Records
 clicks
 of
@@ -11150,7 +11150,7 @@ type
 labeled_counter
 description
 :
->
+|
 Records
 clicks
 of
@@ -11285,7 +11285,7 @@ type
 labeled_counter
 description
 :
->
+|
 Records
 clicks
 of
@@ -11418,7 +11418,7 @@ type
 labeled_counter
 description
 :
->
+|
 Records
 clicks
 of
@@ -11552,7 +11552,7 @@ type
 labeled_counter
 description
 :
->
+|
 Records
 clicks
 of
@@ -11685,7 +11685,7 @@ type
 labeled_counter
 description
 :
->
+|
 Records
 clicks
 of
@@ -11819,7 +11819,7 @@ type
 labeled_counter
 description
 :
->
+|
 Records
 clicks
 of
@@ -11909,7 +11909,7 @@ type
 labeled_counter
 description
 :
->
+|
 Records
 clicks
 of
@@ -12041,7 +12041,7 @@ type
 labeled_counter
 description
 :
->
+|
 Records
 clicks
 of
@@ -12179,7 +12179,7 @@ type
 labeled_counter
 description
 :
->
+|
 Records
 clicks
 of
@@ -12312,7 +12312,7 @@ type
 labeled_counter
 description
 :
->
+|
 Records
 clicks
 of
@@ -12445,7 +12445,7 @@ type
 labeled_counter
 description
 :
->
+|
 Records
 clicks
 of
@@ -12587,7 +12587,7 @@ type
 labeled_counter
 description
 :
->
+|
 A
 keyed
 uint
@@ -12679,7 +12679,7 @@ type
 labeled_counter
 description
 :
->
+|
 A
 keyed
 uint
@@ -12793,7 +12793,7 @@ type
 labeled_counter
 description
 :
->
+|
 A
 keyed
 uint
@@ -12929,7 +12929,7 @@ type
 labeled_counter
 description
 :
->
+|
 A
 keyed
 uint
@@ -12998,7 +12998,7 @@ type
 labeled_counter
 description
 :
->
+|
 A
 keyed
 uint
@@ -13085,7 +13085,7 @@ type
 labeled_counter
 description
 :
->
+|
 A
 keyed
 uint
@@ -13170,7 +13170,7 @@ type
 labeled_counter
 description
 :
->
+|
 A
 keyed
 uint
@@ -13256,7 +13256,7 @@ type
 labeled_counter
 description
 :
->
+|
 A
 keyed
 uint
@@ -13349,7 +13349,7 @@ type
 labeled_counter
 description
 :
->
+|
 A
 keyed
 uint
@@ -13439,7 +13439,7 @@ type
 labeled_counter
 description
 :
->
+|
 A
 keyed
 uint
@@ -13530,7 +13530,7 @@ type
 labeled_counter
 description
 :
->
+|
 A
 keyed
 uint
@@ -13623,7 +13623,7 @@ type
 labeled_counter
 description
 :
->
+|
 A
 keyed
 uint
@@ -13714,7 +13714,7 @@ type
 labeled_counter
 description
 :
->
+|
 A
 keyed
 uint
@@ -13805,7 +13805,7 @@ type
 labeled_counter
 description
 :
->
+|
 A
 keyed
 uint
@@ -13976,7 +13976,7 @@ type
 labeled_counter
 description
 :
->
+|
 A
 keyed
 uint
@@ -14068,7 +14068,7 @@ type
 labeled_counter
 description
 :
->
+|
 A
 keyed
 uint
@@ -14174,7 +14174,7 @@ type
 labeled_counter
 description
 :
->
+|
 The
 input
 method
