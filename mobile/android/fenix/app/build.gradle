@@ -5339,10 +5339,6 @@ ComponentsDependencies
 .
 mozilla_appservices_syncmanager
 implementation
-ComponentsDependencies
-.
-mozilla_appservices_merino
-implementation
 libs
 .
 accompanist

@@ -422,7 +422,7 @@ null
 {
 logger
 .
-error
+debug
 (
 "
 Unsupported
