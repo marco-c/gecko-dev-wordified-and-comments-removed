@@ -501,6 +501,14 @@ compose
 .
 runtime
 .
+SideEffect
+import
+androidx
+.
+compose
+.
+runtime
+.
 derivedStateOf
 import
 androidx
@@ -4556,7 +4564,7 @@ TAB_GROUP_ONBOARDING_ITEM_KEY
 }
 }
 }
-LaunchedEffect
+SideEffect
 (
 onboardingCardInView
 )
@@ -6982,7 +6990,7 @@ TAB_GROUP_ONBOARDING_ITEM_KEY
 }
 }
 }
-LaunchedEffect
+SideEffect
 (
 onboardingCardInView
 )
