@@ -523,6 +523,13 @@ probe_max_allocation
 "
 true
 )
+probe_on_max_allocated_bitrate_change_without_alr
+(
+"
+probe_max_allocation_without_alr
+"
+true
+)
 first_allocation_probe_scale
 (
 "
@@ -628,6 +635,8 @@ alr_probing_interval
 alr_probe_scale
 &
 probe_on_max_allocated_bitrate_change
+&
+probe_on_max_allocated_bitrate_change_without_alr
 &
 first_allocation_probe_scale
 &
@@ -1002,6 +1011,11 @@ bool
 allow_allocation_probe
 =
 in_alr
+|
+|
+config_
+.
+probe_on_max_allocated_bitrate_change_without_alr
 ;
 if
 (
@@ -1020,8 +1034,7 @@ kProbingComplete
 &
 &
 max_total_allocated_bitrate
-!
-=
+>
 max_total_allocated_bitrate_
 &
 &

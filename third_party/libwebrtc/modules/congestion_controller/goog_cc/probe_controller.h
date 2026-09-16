@@ -248,6 +248,12 @@ bool
 >
 probe_on_max_allocated_bitrate_change
 ;
+FieldTrialParameter
+<
+bool
+>
+probe_on_max_allocated_bitrate_change_without_alr
+;
 FieldTrialOptional
 <
 double
