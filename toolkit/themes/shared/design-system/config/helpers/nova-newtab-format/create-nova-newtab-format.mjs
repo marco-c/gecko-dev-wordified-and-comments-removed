@@ -141,11 +141,6 @@ getNewtabTokenCSS
 (
 {
 dictionary
-overrideIdentifier
-:
-"
-nova
-"
 }
 )
 ;
