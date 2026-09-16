@@ -2000,6 +2000,12 @@ description
 .
 displayName
 )
+RuntimePermissionRequirements
+.
+assertSatisfied
+(
+description
+)
 _composeRule
 =
 AndroidComposeTestRuleV2
