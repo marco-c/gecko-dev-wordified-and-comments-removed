@@ -3874,6 +3874,8 @@ nsIURI
 aURI
 ImageIntSize
 aSize
+bool
+aStretch
 ColorScheme
 aColorScheme
 )

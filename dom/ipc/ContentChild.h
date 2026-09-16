@@ -2840,6 +2840,10 @@ ImageIntSize
 &
 aSize
 const
+bool
+&
+aStretch
+const
 ColorScheme
 &
 aColoScheme

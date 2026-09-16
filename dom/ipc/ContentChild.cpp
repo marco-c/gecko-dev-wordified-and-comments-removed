@@ -8033,6 +8033,10 @@ ImageIntSize
 &
 aSize
 const
+bool
+&
+aStretch
+const
 ColorScheme
 &
 aColorScheme
@@ -8079,6 +8083,7 @@ GetCurrentSerialEventTarget
 __func__
 [
 size
+aStretch
 aColorScheme
 aResolver
 ]
@@ -8142,6 +8147,7 @@ GetImageSurface
 (
 image
 size
+aStretch
 aColorScheme
 )
 ;
