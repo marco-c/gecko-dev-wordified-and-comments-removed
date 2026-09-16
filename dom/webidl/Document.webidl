@@ -4457,6 +4457,11 @@ Document
 {
 [
 SameObject
+BinaryName
+=
+"
+PermissionsPolicy
+"
 Pref
 =
 "
@@ -4473,7 +4478,7 @@ enabled
 ]
 readonly
 attribute
-FeaturePolicy
+PermissionsPolicy
 featurePolicy
 ;
 }

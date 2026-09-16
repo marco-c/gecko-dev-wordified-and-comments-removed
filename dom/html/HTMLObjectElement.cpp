@@ -483,7 +483,7 @@ nsGkAtoms
 data
 )
 {
-RefreshFeaturePolicy
+RefreshPermissionsPolicy
 (
 )
 ;
@@ -1003,14 +1003,11 @@ aBuilder
 )
 ;
 }
-NS_IMETHODIMP_
-(
 bool
-)
 HTMLObjectElement
 :
 :
-IsAttributeMapped
+IsNoNamespaceAttrMapped
 (
 const
 nsAtom

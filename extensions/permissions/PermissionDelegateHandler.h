@@ -190,7 +190,7 @@ enum
 PermissionDelegatePolicy
 {
 eDelegateUseTopOrigin
-eDelegateUseFeaturePolicy
+eDelegateUsePermissionsPolicy
 ePersistDeniedCrossOrigin
 eDelegateUseIframeOrigin
 }
@@ -277,7 +277,7 @@ PermissionDelegateHandler
 default
 ;
 bool
-HasFeaturePolicyAllowed
+HasPermissionsPolicyAllowed
 (
 const
 PermissionDelegateInfo

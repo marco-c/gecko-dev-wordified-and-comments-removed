@@ -437,7 +437,7 @@ aSession
 )
 ;
 bool
-FeaturePolicyBlocked
+PermissionsPolicyBlocked
 (
 )
 const

@@ -56,7 +56,7 @@ MPL
 Library
 (
 "
-FuzzingFeaturePolicy
+FuzzingPermissionsPolicy
 "
 )
 LOCAL_INCLUDES

@@ -804,14 +804,14 @@ Maybe
 dom
 :
 :
-FeaturePolicyInfo
+PermissionsPolicyInfo
 >
 fpInfo
 =
 bc
 -
 >
-GetContainerFeaturePolicy
+GetContainerPermissionsPolicy
 (
 )
 ;

@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_dom_FeaturePolicyUtils_h
+mozilla_dom_PermissionsPolicyUtils_h
 #
 define
-mozilla_dom_FeaturePolicyUtils_h
+mozilla_dom_PermissionsPolicyUtils_h
 #
 include
 <
@@ -46,13 +46,13 @@ class
 Document
 ;
 class
-FeaturePolicyUtils
+PermissionsPolicyUtils
 final
 {
 public
 :
 enum
-FeaturePolicyValue
+PermissionsPolicyValue
 {
 eAll
 eSelf
@@ -114,7 +114,7 @@ aCallback
 )
 ;
 static
-FeaturePolicyValue
+PermissionsPolicyValue
 DefaultAllowListFeature
 (
 const
@@ -178,7 +178,7 @@ mozilla
 dom
 :
 :
-FeaturePolicyInfo
+PermissionsPolicyInfo
 >
 {
 using
@@ -190,7 +190,7 @@ mozilla
 dom
 :
 :
-FeaturePolicyInfo
+PermissionsPolicyInfo
 ;
 static
 void
@@ -206,7 +206,7 @@ mozilla
 dom
 :
 :
-FeaturePolicyInfo
+PermissionsPolicyInfo
 &
 aParam
 )
@@ -224,7 +224,7 @@ mozilla
 dom
 :
 :
-FeaturePolicyInfo
+PermissionsPolicyInfo
 *
 aResult
 )

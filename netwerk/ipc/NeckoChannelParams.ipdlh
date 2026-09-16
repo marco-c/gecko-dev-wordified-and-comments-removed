@@ -458,7 +458,7 @@ mozilla
 dom
 :
 :
-FeaturePolicyInfo
+PermissionsPolicyInfo
 from
 "
 mozilla
@@ -1771,9 +1771,9 @@ isNewWindowTarget
 UserNavigationInvolvement
 userNavigationInvolvement
 ;
-FeaturePolicyInfo
+PermissionsPolicyInfo
 ?
-containerFeaturePolicyInfo
+containerPermissionsPolicyInfo
 ;
 /
 /
@@ -2287,9 +2287,9 @@ CookieJarSettingsArgs
 ?
 cookieJarSettings
 ;
-FeaturePolicyInfo
+PermissionsPolicyInfo
 ?
-containerFeaturePolicyInfo
+containerPermissionsPolicyInfo
 ;
 uint32_t
 requestBlockingReason

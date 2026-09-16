@@ -263,7 +263,7 @@ params
 }
 }
 bool
-FeaturePolicyParser
+PermissionsPolicyParser
 :
 :
 ParsePolicyFromAttribute
@@ -346,7 +346,7 @@ continue
 if
 (
 !
-FeaturePolicyUtils
+PermissionsPolicyUtils
 :
 :
 IsSupportedFeature
@@ -820,7 +820,7 @@ true
 ;
 }
 bool
-FeaturePolicyParser
+PermissionsPolicyParser
 :
 :
 ParsePolicyFromHeader
@@ -932,7 +932,7 @@ key
 if
 (
 !
-FeaturePolicyUtils
+PermissionsPolicyUtils
 :
 :
 IsSupportedFeature

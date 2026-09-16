@@ -146,7 +146,7 @@ parsedFeatures
 ;
 ASSERT_TRUE
 (
-FeaturePolicyParser
+PermissionsPolicyParser
 :
 :
 ParsePolicyFromAttribute
@@ -187,7 +187,7 @@ parsedFeatures
 }
 TEST
 (
-FeaturePolicyParser
+PermissionsPolicyParser
 Basic
 )
 {

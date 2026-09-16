@@ -922,7 +922,7 @@ ExtensionGuardSet
 "
 readonly
 "
-FeaturePolicyViolationReportBody
+PermissionsPolicyViolationReportBody
 :
 "
 readonly

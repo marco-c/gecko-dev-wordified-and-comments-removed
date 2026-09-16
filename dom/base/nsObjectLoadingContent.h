@@ -78,7 +78,7 @@ struct
 BindContext
 ;
 class
-FeaturePolicy
+PermissionsPolicy
 ;
 template
 <
@@ -558,7 +558,7 @@ BlockEmbedOrObjectContentLoading
 )
 ;
 void
-RefreshFeaturePolicy
+RefreshPermissionsPolicy
 (
 )
 ;
@@ -726,7 +726,7 @@ MaybeFireErrorEvent
 )
 ;
 void
-MaybeStoreCrossOriginFeaturePolicy
+MaybeStoreCrossOriginPermissionsPolicy
 (
 )
 ;
@@ -735,7 +735,7 @@ already_AddRefed
 <
 nsIPrincipal
 >
-GetFeaturePolicyDefaultOrigin
+GetPermissionsPolicyDefaultOrigin
 (
 nsINode
 *
@@ -843,9 +843,9 @@ mozilla
 dom
 :
 :
-FeaturePolicy
+PermissionsPolicy
 >
-mFeaturePolicy
+mPermissionsPolicy
 ;
 }
 ;

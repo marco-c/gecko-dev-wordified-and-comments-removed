@@ -7035,7 +7035,7 @@ mWindowGlobal
 )
 NS_IMPL_CYCLE_COLLECTION_UNLINK
 (
-mContainerFeaturePolicy
+mContainerPermissionsPolicy
 )
 NS_IMPL_CYCLE_COLLECTION_UNLINK
 (
@@ -7061,7 +7061,7 @@ mWindowGlobal
 )
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE
 (
-mContainerFeaturePolicy
+mContainerPermissionsPolicy
 )
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE
 (

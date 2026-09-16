@@ -2430,7 +2430,7 @@ doc
 |
 |
 !
-FeaturePolicyUtils
+PermissionsPolicyUtils
 :
 :
 IsFeatureAllowed
@@ -2812,7 +2812,7 @@ nullptr
 if
 (
 !
-FeaturePolicyUtils
+PermissionsPolicyUtils
 :
 :
 IsFeatureAllowed

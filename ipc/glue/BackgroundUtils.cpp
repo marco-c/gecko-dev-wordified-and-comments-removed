@@ -3511,7 +3511,7 @@ GetUserNavigationInvolvement
 aLoadInfo
 -
 >
-GetContainerFeaturePolicyInfo
+GetContainerPermissionsPolicyInfo
 (
 )
 {
@@ -4898,7 +4898,7 @@ cookieJarSettings
 policyContainerToInherit
 loadInfoArgs
 .
-containerFeaturePolicyInfo
+containerPermissionsPolicyInfo
 (
 )
 triggeringRemoteType
@@ -5432,7 +5432,7 @@ cookieJarSettingsArgs
 aLoadInfo
 -
 >
-GetContainerFeaturePolicyInfo
+GetContainerPermissionsPolicyInfo
 (
 )
 aLoadInfo
@@ -6209,7 +6209,7 @@ if
 (
 aForwarderArgs
 .
-containerFeaturePolicyInfo
+containerPermissionsPolicyInfo
 (
 )
 )
@@ -6217,12 +6217,12 @@ containerFeaturePolicyInfo
 aLoadInfo
 -
 >
-SetContainerFeaturePolicyInfo
+SetContainerPermissionsPolicyInfo
 (
 *
 aForwarderArgs
 .
-containerFeaturePolicyInfo
+containerPermissionsPolicyInfo
 (
 )
 )

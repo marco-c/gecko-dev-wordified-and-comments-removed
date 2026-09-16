@@ -925,12 +925,6 @@ using
 dom
 :
 :
-FeaturePolicyUtils
-;
-using
-dom
-:
-:
 File
 ;
 using
@@ -1022,6 +1016,12 @@ dom
 :
 :
 OwningStringOrStringSequenceOrConstrainDOMStringParameters
+;
+using
+dom
+:
+:
+PermissionsPolicyUtils
 ;
 using
 dom
@@ -16382,7 +16382,7 @@ false
 |
 |
 !
-FeaturePolicyUtils
+PermissionsPolicyUtils
 :
 :
 IsFeatureAllowed
@@ -16406,7 +16406,7 @@ else
 if
 (
 !
-FeaturePolicyUtils
+PermissionsPolicyUtils
 :
 :
 IsFeatureAllowed
@@ -16470,7 +16470,7 @@ false
 |
 |
 !
-FeaturePolicyUtils
+PermissionsPolicyUtils
 :
 :
 IsFeatureAllowed
@@ -16494,7 +16494,7 @@ else
 if
 (
 !
-FeaturePolicyUtils
+PermissionsPolicyUtils
 :
 :
 IsFeatureAllowed
@@ -18566,7 +18566,7 @@ GetPrincipal
 if
 (
 !
-FeaturePolicyUtils
+PermissionsPolicyUtils
 :
 :
 IsFeatureAllowed

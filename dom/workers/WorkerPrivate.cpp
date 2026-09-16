@@ -16266,7 +16266,7 @@ loadInfo
 .
 mSerialAllowed
 =
-FeaturePolicyUtils
+PermissionsPolicyUtils
 :
 :
 IsFeatureAllowed

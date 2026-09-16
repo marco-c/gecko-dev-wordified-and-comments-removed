@@ -203,7 +203,7 @@ class
 ClientSource
 ;
 struct
-FeaturePolicyInfo
+PermissionsPolicyInfo
 ;
 class
 PerformanceStorage
@@ -516,7 +516,7 @@ nsIPolicyContainer
 )
 ;
 native
-MaybeFeaturePolicyInfo
+MaybePermissionsPolicyInfo
 (
 mozilla
 :
@@ -529,7 +529,7 @@ mozilla
 dom
 :
 :
-FeaturePolicyInfo
+PermissionsPolicyInfo
 >
 )
 ;
@@ -537,7 +537,7 @@ FeaturePolicyInfo
 ref
 ]
 native
-const_FeaturePolicyInfoRef
+const_PermissionsPolicyInfoRef
 (
 const
 mozilla
@@ -546,7 +546,7 @@ mozilla
 dom
 :
 :
-FeaturePolicyInfo
+PermissionsPolicyInfo
 )
 ;
 native
@@ -10563,8 +10563,8 @@ noscript
 nostdcall
 notxpcom
 ]
-MaybeFeaturePolicyInfo
-GetContainerFeaturePolicyInfo
+MaybePermissionsPolicyInfo
+GetContainerPermissionsPolicyInfo
 (
 )
 ;
@@ -10574,11 +10574,11 @@ nostdcall
 notxpcom
 ]
 void
-SetContainerFeaturePolicyInfo
+SetContainerPermissionsPolicyInfo
 (
 in
-const_FeaturePolicyInfoRef
-aContainerFeaturePolicy
+const_PermissionsPolicyInfoRef
+aContainerPermissionsPolicy
 )
 ;
 /

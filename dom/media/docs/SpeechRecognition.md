@@ -1126,7 +1126,7 @@ microphone
 .
 Checked
 via
-FeaturePolicyUtils
+PermissionsPolicyUtils
 :
 :
 IsFeatureAllowed

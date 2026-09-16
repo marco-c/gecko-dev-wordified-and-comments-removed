@@ -94,7 +94,7 @@ Exposed
 Window
 ]
 interface
-FeaturePolicy
+PermissionsPolicy
 {
 boolean
 allowsFeature
@@ -151,7 +151,7 @@ Exposed
 Window
 ]
 interface
-FeaturePolicyViolationReportBody
+PermissionsPolicyViolationReportBody
 :
 ReportBody
 {
