@@ -965,6 +965,13 @@ js
 ]
 [
 "
+browser_aiwindow_smartbar_shortcuts
+.
+js
+"
+]
+[
+"
 browser_aiwindow_smartbar_suggestions
 .
 js
