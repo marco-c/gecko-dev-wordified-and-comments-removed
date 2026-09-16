@@ -589,6 +589,9 @@ derive
 Clone
 Copy
 Debug
+Eq
+MallocSizeOf
+PartialEq
 ToShmem
 )
 ]
