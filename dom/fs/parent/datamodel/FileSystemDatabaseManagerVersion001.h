@@ -449,8 +449,6 @@ virtual
 FileSystemDatabaseManagerVersion001
 (
 )
-=
-default
 ;
 protected
 :
