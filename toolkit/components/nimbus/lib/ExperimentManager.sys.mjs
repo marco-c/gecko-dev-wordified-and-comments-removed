@@ -1153,11 +1153,6 @@ aboutConfigObserver
 constructor
 (
 {
-id
-=
-"
-experimentmanager
-"
 store
 }
 =
@@ -1165,12 +1160,6 @@ store
 }
 )
 {
-this
-.
-id
-=
-id
-;
 this
 .
 store
@@ -8085,11 +8074,7 @@ users
 const
 input
 =
-{
-this
-.
-id
-}
+experimentmanager
 -
 {
 userId
