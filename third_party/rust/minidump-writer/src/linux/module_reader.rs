@@ -1098,6 +1098,7 @@ read_build_id_from_file
 process_inspector
 :
 &
+dyn
 ProcessInspector
 path
 :
@@ -1123,6 +1124,10 @@ process_inspector
 map_module_into_memory
 (
 path
+.
+into
+(
+)
 0
 )
 .
@@ -1300,6 +1305,7 @@ read_soname_from_file
 process_inspector
 :
 &
+dyn
 ProcessInspector
 path
 :
@@ -1378,6 +1384,10 @@ process_inspector
 map_module_into_memory
 (
 path
+.
+into
+(
+)
 offset
 )
 .

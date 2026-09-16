@@ -107,6 +107,7 @@ write
 process_inspector
 :
 &
+dyn
 ProcessInspector
 buffer
 :

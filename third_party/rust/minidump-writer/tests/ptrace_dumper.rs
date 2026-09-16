@@ -671,6 +671,13 @@ dumper
 get_thread_info_by_index
 (
 idx
+error_graph
+:
+:
+strategy
+:
+:
+DontCare
 )
 .
 expect
@@ -1558,6 +1565,13 @@ dumper
 get_thread_info_by_index
 (
 0
+error_graph
+:
+:
+strategy
+:
+:
+DontCare
 )
 .
 expect
@@ -1870,7 +1884,7 @@ mapping_info
 =
 dumper
 .
-find_mapping_no_bias
+find_mapping
 (
 instr_ptr
 )

@@ -1,17 +1,8 @@
 use
 {
-super
-:
-:
-CrashContext
 crate
 :
 :
-{
-minidump_cpu
-:
-:
-RawContextCPU
 minidump_format
 :
 :
@@ -19,7 +10,6 @@ format
 :
 :
 ContextFlagsX86
-}
 libc
 :
 :
@@ -45,7 +35,10 @@ REG_UESP
 }
 ;
 impl
-CrashContext
+super
+:
+:
+CrashContextExt
 {
 pub
 fn
@@ -113,6 +106,9 @@ out
 :
 &
 mut
+super
+:
+:
 RawContextCPU
 )
 {

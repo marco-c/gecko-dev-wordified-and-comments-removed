@@ -184,8 +184,11 @@ process_inspector
 .
 read_file
 (
-&
 path
+.
+into
+(
+)
 )
 .
 map_err

@@ -403,6 +403,7 @@ self
 process_inspector
 :
 &
+dyn
 ProcessInspector
 pid
 :
@@ -465,8 +466,15 @@ process_inspector
 .
 read_file
 (
-&
 auxv_path
+.
+clone
+(
+)
+.
+into
+(
+)
 )
 .
 map_err
