@@ -937,6 +937,11 @@ addressesSaved
 typeAssertions
 .
 quantity
+allowedNotificationOrigins
+:
+typeAssertions
+.
+quantity
 archBits
 :
 typeAssertions
