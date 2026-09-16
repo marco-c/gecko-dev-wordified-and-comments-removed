@@ -16,6 +16,12 @@ use
 crate
 :
 :
+FxHashMap
+;
+use
+crate
+:
+:
 LocalName
 ;
 use
@@ -626,12 +632,6 @@ nsstring
 :
 :
 nsString
-;
-use
-crate
-:
-:
-FxHashMap
 ;
 use
 selectors

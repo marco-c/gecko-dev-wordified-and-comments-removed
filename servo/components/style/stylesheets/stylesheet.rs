@@ -2,6 +2,12 @@ use
 crate
 :
 :
+FxHashMap
+;
+use
+crate
+:
+:
 context
 :
 :
@@ -160,12 +166,6 @@ use_counters
 :
 :
 UseCounters
-;
-use
-crate
-:
-:
-FxHashMap
 ;
 use
 crate

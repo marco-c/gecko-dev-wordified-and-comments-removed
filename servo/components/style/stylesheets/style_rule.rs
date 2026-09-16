@@ -48,8 +48,8 @@ stylesheets
 :
 :
 {
-style_or_page_rule_to_css
 CssRules
+style_or_page_rule_to_css
 }
 ;
 use

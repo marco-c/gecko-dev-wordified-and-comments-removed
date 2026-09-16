@@ -171,8 +171,8 @@ properties
 :
 :
 {
-parse_property_declaration_list
 PropertyDeclarationBlock
+parse_property_declaration_list
 }
 ;
 use
@@ -205,8 +205,8 @@ cssparser
 :
 :
 {
-parse_one_rule
 Parser
+parse_one_rule
 }
 ;
 #

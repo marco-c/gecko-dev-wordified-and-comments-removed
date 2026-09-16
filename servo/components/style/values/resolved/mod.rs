@@ -1,3 +1,9 @@
+use
+crate
+:
+:
+ArcSlice
+;
 #
 [
 cfg
@@ -28,14 +34,8 @@ properties
 {
 ComputedValues
 LonghandId
-NonCustomPropertyId
+PropertyId
 }
-;
-use
-crate
-:
-:
-ArcSlice
 ;
 use
 app_units
@@ -171,7 +171,7 @@ a
 pub
 for_property
 :
-NonCustomPropertyId
+PropertyId
 pub
 current_longhand
 :

@@ -62,6 +62,12 @@ ToComputedValue
 }
 ;
 use
+hashbrown
+:
+:
+HashMap
+;
+use
 malloc_size_of
 :
 :
@@ -81,12 +87,6 @@ servo_arc
 :
 :
 Arc
-;
-use
-hashbrown
-:
-:
-HashMap
 ;
 use
 std

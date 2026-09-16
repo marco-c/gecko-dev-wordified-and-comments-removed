@@ -22,8 +22,8 @@ bloom
 :
 :
 {
-BloomFilter
 BLOOM_HASH_MASK
+BloomFilter
 }
 ;
 use
@@ -4125,6 +4125,7 @@ NotMatchedGlobally
 {
 return
 result
+;
 }
 _
 =
@@ -6032,6 +6033,7 @@ rightmost
 )
 }
 )
+;
 }
 Component
 :
@@ -6077,6 +6079,7 @@ rightmost
 )
 }
 )
+;
 }
 Component
 :
@@ -6114,6 +6117,7 @@ rightmost
 )
 }
 )
+;
 }
 Component
 :

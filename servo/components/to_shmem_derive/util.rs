@@ -21,8 +21,8 @@ quote
 :
 :
 {
-quote
 TokenStreamExt
+quote
 }
 ;
 use
@@ -31,11 +31,11 @@ syn
 :
 {
 self
-parse_quote
 DeriveInput
 Field
 Ident
 WherePredicate
+parse_quote
 }
 ;
 use

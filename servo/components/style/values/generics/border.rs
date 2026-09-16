@@ -2,6 +2,12 @@ use
 crate
 :
 :
+Zero
+;
+use
+crate
+:
+:
 derives
 :
 :
@@ -36,12 +42,6 @@ size
 :
 :
 Size2D
-;
-use
-crate
-:
-:
-Zero
 ;
 use
 std

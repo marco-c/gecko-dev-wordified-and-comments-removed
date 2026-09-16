@@ -80,9 +80,9 @@ declaration_block
 :
 :
 {
-parse_property_declaration_list
 DeclarationParserState
 PropertyDeclarationBlock
+parse_property_declaration_list
 }
 ;
 use
@@ -96,8 +96,8 @@ rule
 :
 :
 {
-parse_property_block
 PropertyRuleName
+parse_property_block
 }
 ;
 use
@@ -163,8 +163,8 @@ font_feature_values_rule
 :
 :
 {
-parse_family_name_list
 FontFeatureValuesBlockType
+parse_family_name_list
 }
 ;
 use
@@ -319,7 +319,6 @@ cssparser
 :
 :
 {
-match_ignore_ascii_case
 AtRuleParser
 BasicParseError
 BasicParseErrorKind
@@ -331,6 +330,7 @@ QualifiedRuleParser
 RuleBodyItemParser
 RuleBodyParser
 SourcePosition
+match_ignore_ascii_case
 }
 ;
 use
@@ -2512,6 +2512,7 @@ StyleParseErrorKind
 UnexpectedTokenWithinNamespace
 )
 )
+;
 }
 Err
 (
@@ -6028,6 +6029,7 @@ BasicParseErrorKind
 AtRuleBodyInvalid
 )
 )
+;
 }
 }
 ;

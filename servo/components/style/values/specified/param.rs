@@ -26,7 +26,7 @@ crate
 values
 :
 :
-fmt
+CssWriter
 ;
 use
 crate
@@ -35,7 +35,7 @@ crate
 values
 :
 :
-CssWriter
+fmt
 ;
 use
 crate

@@ -15,12 +15,12 @@ color
 :
 :
 {
+AbsoluteColor
+ColorFunction
 mix
 :
 :
 ColorInterpolationMethod
-AbsoluteColor
-ColorFunction
 }
 ;
 use
@@ -52,6 +52,8 @@ values
 :
 :
 {
+ParseError
+Parser
 computed
 :
 :
@@ -63,8 +65,6 @@ percentage
 :
 :
 ToPercentage
-ParseError
-Parser
 }
 ;
 use
@@ -84,12 +84,12 @@ style_traits
 :
 :
 {
+CssWriter
+ToCss
 owned_slice
 :
 :
 OwnedSlice
-CssWriter
-ToCss
 }
 ;
 #

@@ -55,10 +55,7 @@ values
 computed
 :
 :
-font
-:
-:
-QueryFontMetricsFlags
+Length
 ;
 use
 crate
@@ -70,7 +67,10 @@ values
 computed
 :
 :
-Length
+font
+:
+:
+QueryFontMetricsFlags
 ;
 use
 parking_lot

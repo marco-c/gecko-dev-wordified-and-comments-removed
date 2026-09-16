@@ -3,6 +3,9 @@ super
 :
 :
 {
+AbsoluteColor
+ColorFlags
+ColorSpace
 parsing
 :
 :
@@ -10,9 +13,6 @@ parsing
 NumberOrAngleComponent
 NumberOrPercentageComponent
 }
-AbsoluteColor
-ColorFlags
-ColorSpace
 }
 ;
 use
@@ -32,9 +32,9 @@ color
 :
 :
 {
+OPAQUE
 clamp_unit_f32
 serialize_color_alpha
-OPAQUE
 }
 ;
 use

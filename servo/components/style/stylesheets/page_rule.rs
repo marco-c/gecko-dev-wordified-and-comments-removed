@@ -51,8 +51,8 @@ stylesheets
 :
 :
 {
-style_or_page_rule_to_css
 CssRules
+style_or_page_rule_to_css
 }
 ;
 use
@@ -72,10 +72,10 @@ cssparser
 :
 :
 {
-match_ignore_ascii_case
 Parser
 SourceLocation
 Token
+match_ignore_ascii_case
 }
 ;
 #

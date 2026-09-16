@@ -2,6 +2,12 @@ use
 crate
 :
 :
+FxHashMap
+;
+use
+crate
+:
+:
 computed_value_flags
 :
 :
@@ -96,12 +102,6 @@ color
 :
 :
 ColorSchemeFlags
-;
-use
-crate
-:
-:
-FxHashMap
 ;
 use
 servo_arc

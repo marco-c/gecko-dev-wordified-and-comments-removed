@@ -17,10 +17,7 @@ values
 computed
 :
 :
-time
-:
-:
-Time
+AnimationDuration
 ;
 use
 crate
@@ -32,7 +29,10 @@ values
 computed
 :
 :
-AnimationDuration
+time
+:
+:
+Time
 ;
 impl
 ToResolvedValue

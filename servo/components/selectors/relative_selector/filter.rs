@@ -8,6 +8,12 @@ use
 crate
 :
 :
+SelectorImpl
+;
+use
+crate
+:
+:
 bloom
 :
 :
@@ -30,9 +36,9 @@ parser
 :
 :
 {
-collect_selector_hashes
 RelativeSelector
 RelativeSelectorMatchHint
+collect_selector_hashes
 }
 ;
 use
@@ -46,12 +52,6 @@ tree
 Element
 OpaqueElement
 }
-;
-use
-crate
-:
-:
-SelectorImpl
 ;
 enum
 Entry

@@ -2,6 +2,12 @@ use
 crate
 :
 :
+Zero
+;
+use
+crate
+:
+:
 derives
 :
 :
@@ -18,10 +24,10 @@ animated
 :
 :
 {
-lists
 Animate
 Procedure
 ToAnimatedZero
+lists
 }
 ;
 use
@@ -62,6 +68,8 @@ generics
 :
 :
 {
+NonNegative
+Optional
 border
 :
 :
@@ -74,8 +82,6 @@ rect
 :
 :
 Rect
-NonNegative
-Optional
 }
 ;
 use
@@ -95,12 +101,6 @@ svg_path
 PathCommand
 SVGPathData
 }
-;
-use
-crate
-:
-:
-Zero
 ;
 use
 std

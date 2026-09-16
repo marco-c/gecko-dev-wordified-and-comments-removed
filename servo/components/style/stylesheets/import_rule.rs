@@ -41,6 +41,9 @@ stylesheets
 :
 :
 {
+CssRule
+CssRuleType
+StylesheetInDocument
 layer_rule
 :
 :
@@ -49,9 +52,6 @@ supports_rule
 :
 :
 SupportsCondition
-CssRule
-CssRuleType
-StylesheetInDocument
 }
 ;
 use

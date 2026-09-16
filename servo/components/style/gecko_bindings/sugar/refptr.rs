@@ -2,6 +2,12 @@ use
 crate
 :
 :
+Atom
+;
+use
+crate
+:
+:
 gecko_bindings
 :
 :
@@ -9,12 +15,6 @@ gecko_bindings
 bindings
 structs
 }
-;
-use
-crate
-:
-:
-Atom
 ;
 use
 servo_arc

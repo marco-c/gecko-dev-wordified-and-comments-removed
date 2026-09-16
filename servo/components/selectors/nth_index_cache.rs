@@ -18,6 +18,7 @@ crate
 :
 :
 {
+SelectorImpl
 parser
 :
 :
@@ -26,7 +27,6 @@ tree
 :
 :
 OpaqueElement
-SelectorImpl
 }
 ;
 #

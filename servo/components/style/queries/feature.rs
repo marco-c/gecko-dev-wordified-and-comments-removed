@@ -2,6 +2,12 @@ use
 crate
 :
 :
+Atom
+;
+use
+crate
+:
+:
 derives
 :
 :
@@ -32,12 +38,6 @@ CSSPixelLength
 Ratio
 Resolution
 }
-;
-use
-crate
-:
-:
-Atom
 ;
 use
 cssparser

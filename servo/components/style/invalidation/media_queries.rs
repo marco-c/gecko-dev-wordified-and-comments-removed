@@ -2,6 +2,12 @@ use
 crate
 :
 :
+FxHashSet
+;
+use
+crate
+:
+:
 context
 :
 :
@@ -60,12 +66,6 @@ NestedRuleIterationCondition
 StylesheetContents
 SupportsRule
 }
-;
-use
-crate
-:
-:
-FxHashSet
 ;
 #
 [

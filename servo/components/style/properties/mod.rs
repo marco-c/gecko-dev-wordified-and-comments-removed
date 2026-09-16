@@ -89,6 +89,12 @@ use
 crate
 :
 :
+FxHashMap
+;
+use
+crate
+:
+:
 applicable_declarations
 :
 :
@@ -222,12 +228,6 @@ serialize_atom_name
 }
 ;
 use
-crate
-:
-:
-FxHashMap
-;
-use
 arrayvec
 :
 :
@@ -243,8 +243,8 @@ cssparser
 :
 :
 {
-match_ignore_ascii_case
 Parser
+match_ignore_ascii_case
 }
 ;
 use
@@ -2928,6 +2928,7 @@ CssRuleType
 :
 PositionTry
 )
+;
 }
 Some
 (
@@ -8505,6 +8506,7 @@ invalid_at_computed_value_time
 (
 )
 }
+;
 }
 Some
 (
@@ -9332,6 +9334,7 @@ name
 index
 }
 )
+;
 }
 TransitionProperty
 :

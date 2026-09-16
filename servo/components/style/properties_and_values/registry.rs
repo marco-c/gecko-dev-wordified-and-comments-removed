@@ -14,6 +14,12 @@ use
 crate
 :
 :
+Atom
+;
+use
+crate
+:
+:
 derives
 :
 :
@@ -36,12 +42,6 @@ stylesheets
 :
 :
 UrlExtraData
-;
-use
-crate
-:
-:
-Atom
 ;
 use
 cssparser

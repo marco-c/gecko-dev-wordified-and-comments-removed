@@ -46,8 +46,8 @@ cssparser
 :
 :
 {
-match_ignore_ascii_case
 SourceLocation
+match_ignore_ascii_case
 }
 ;
 #

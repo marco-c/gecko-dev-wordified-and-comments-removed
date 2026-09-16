@@ -137,9 +137,9 @@ values
 :
 :
 {
-computed
 AtomString
 DashedIdent
+computed
 }
 ;
 use
@@ -166,12 +166,12 @@ cssparser
 :
 :
 {
-match_ignore_ascii_case
-parse_important
 Parser
 SourceLocation
 SourcePosition
 Token
+match_ignore_ascii_case
+parse_important
 }
 ;
 use

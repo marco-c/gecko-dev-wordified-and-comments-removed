@@ -36,6 +36,10 @@ properties
 :
 :
 {
+LonghandId
+PropertyDeclaration
+PropertyDeclarationBlock
+PropertyDeclarationId
 longhands
 :
 :
@@ -60,10 +64,6 @@ as
 SpecifiedTimingFunction
 }
 parse_property_declaration_list
-LonghandId
-PropertyDeclaration
-PropertyDeclarationBlock
-PropertyDeclarationId
 }
 ;
 use
@@ -153,8 +153,8 @@ values
 :
 :
 {
-serialize_percentage
 KeyframesName
+serialize_percentage
 }
 ;
 use
@@ -162,7 +162,6 @@ cssparser
 :
 :
 {
-parse_one_rule
 AtRuleParser
 DeclarationParser
 Parser
@@ -172,6 +171,7 @@ RuleBodyItemParser
 RuleBodyParser
 SourceLocation
 Token
+parse_one_rule
 }
 ;
 use

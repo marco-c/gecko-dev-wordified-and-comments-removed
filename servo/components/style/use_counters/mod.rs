@@ -6,9 +6,9 @@ properties
 :
 :
 {
-property_counts
 CountedUnknownProperty
 NonCustomPropertyId
+property_counts
 }
 ;
 use

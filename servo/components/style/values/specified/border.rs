@@ -2,6 +2,12 @@ use
 crate
 :
 :
+Zero
+;
+use
+crate
+:
+:
 derives
 :
 :
@@ -148,12 +154,6 @@ AllowQuirks
 NonNegativeNumber
 NonNegativeNumberOrPercentage
 }
-;
-use
-crate
-:
-:
-Zero
 ;
 use
 app_units

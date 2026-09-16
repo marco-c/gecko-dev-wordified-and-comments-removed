@@ -53,8 +53,8 @@ prefs
 :
 :
 {
-PrefValue
 PREFS
+PrefValue
 }
 ;
 use
