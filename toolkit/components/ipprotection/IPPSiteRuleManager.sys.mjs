@@ -58,7 +58,9 @@ MPL
 /
 import
 {
+IPPInfrastructureRuleProvider
 IPPPrincipalRules
+IPPProxyableRuleProvider
 }
 from
 "
@@ -812,6 +814,14 @@ new
 SiteRuleManager
 (
 [
+new
+IPPProxyableRuleProvider
+(
+)
+new
+IPPInfrastructureRuleProvider
+(
+)
 ]
 )
 ;
