@@ -44,6 +44,7 @@ DoubleTapToZoomMetrics
 ;
 class
 RemoteContentController
+final
 :
 public
 GeckoContentController
@@ -64,12 +65,12 @@ TapType
 ;
 public
 :
-RemoteContentController
+NS_INLINE_DECL_THREADSAFE_REFCOUNTING
 (
+RemoteContentController
+final
 )
 ;
-virtual
-~
 RemoteContentController
 (
 )
@@ -347,6 +348,12 @@ override
 ;
 private
 :
+virtual
+~
+RemoteContentController
+(
+)
+;
 nsCOMPtr
 <
 nsISerialEventTarget
@@ -402,7 +409,7 @@ aDoubleTapToZoomMetrics
 )
 ;
 void
-NotifyPinchGestureOnCompositorThread
+NotifyPinchGestureOnGPUProcessMainThread
 (
 PinchGestureInput
 :

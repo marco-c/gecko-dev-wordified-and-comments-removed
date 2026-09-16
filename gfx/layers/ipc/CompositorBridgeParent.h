@@ -2501,17 +2501,6 @@ second
 }
 }
 static
-RefPtr
-<
-APZCTreeManagerParent
->
-GetApzcTreeManagerParentForRoot
-(
-LayersId
-aContentLayersId
-)
-;
-static
 GeckoContentController
 *
 GetGeckoContentControllerForRoot
