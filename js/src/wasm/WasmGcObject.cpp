@@ -1523,6 +1523,17 @@ i
 elemSize
 )
 ;
+if
+(
+!
+elementPtr
+-
+>
+isNull
+(
+)
+)
+{
 TraceManuallyBarrieredEdge
 (
 trc
@@ -1536,6 +1547,7 @@ element
 "
 )
 ;
+}
 }
 }
 size_t
