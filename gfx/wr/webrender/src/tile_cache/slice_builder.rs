@@ -927,6 +927,9 @@ PrimitiveInstance
 prim_rect
 :
 LayoutRect
+prim_local_clip_rect
+:
+LayoutRect
 spatial_node_index
 :
 SpatialNodeIndex
@@ -993,10 +996,10 @@ add_prim
 (
 prim_instance
 prim_rect
+prim_local_clip_rect
 spatial_node_index
 prim_flags
 prim_instances
-clip_tree_builder
 )
 ;
 }
@@ -1278,10 +1281,10 @@ add_prim
 (
 prim_instance
 prim_rect
+prim_local_clip_rect
 spatial_node_index
 prim_flags
 prim_instances
-clip_tree_builder
 )
 ;
 }

@@ -515,7 +515,7 @@ RectangleTemplate
 >
 (
 )
-48
+64
 "
 RectangleTemplate
 size
@@ -537,7 +537,7 @@ RectangleKey
 >
 (
 )
-36
+52
 "
 RectangleKey
 size
