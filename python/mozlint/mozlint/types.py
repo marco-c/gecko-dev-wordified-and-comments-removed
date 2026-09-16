@@ -943,6 +943,7 @@ func
 =
 findobject
 (
+            
 config
 [
 "
@@ -955,6 +956,15 @@ config
 path
 "
 ]
+lintargs
+.
+get
+(
+"
+linter_paths
+"
+)
+        
 )
         
 return
@@ -1073,6 +1083,7 @@ func
 =
 findobject
 (
+            
 config
 [
 "
@@ -1085,6 +1096,15 @@ config
 path
 "
 ]
+lintargs
+.
+get
+(
+"
+linter_paths
+"
+)
+        
 )
         
 return
@@ -1252,6 +1272,7 @@ func
 =
 findobject
 (
+            
 config
 [
 "
@@ -1264,6 +1285,15 @@ config
 path
 "
 ]
+lintargs
+.
+get
+(
+"
+linter_paths
+"
+)
+        
 )
         
 try
