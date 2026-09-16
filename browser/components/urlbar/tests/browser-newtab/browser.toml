@@ -285,3 +285,10 @@ browser_viewBounds
 js
 "
 ]
+[
+"
+browser_zeroPrefixTelemetry
+.
+js
+"
+]
