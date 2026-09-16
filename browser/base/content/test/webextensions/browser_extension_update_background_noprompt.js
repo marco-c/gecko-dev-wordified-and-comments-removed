@@ -133,14 +133,6 @@ set
 [
 [
 "
-test
-.
-wait300msAfterTabSwitch
-"
-true
-]
-[
-"
 extensions
 .
 install

@@ -58,14 +58,6 @@ prefs
 =
 [
 [
-"
-test
-.
-wait300msAfterTabSwitch
-"
-true
-]
-[
 PREF_PERMISSION_FAKE
 true
 ]

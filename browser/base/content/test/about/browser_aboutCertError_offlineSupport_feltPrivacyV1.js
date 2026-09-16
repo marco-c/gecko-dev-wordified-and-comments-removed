@@ -83,14 +83,6 @@ set
 [
 [
 "
-test
-.
-wait300msAfterTabSwitch
-"
-true
-]
-[
-"
 security
 .
 certerrors
@@ -378,7 +370,6 @@ learnMoreLink
 )
 )
 ;
-await
 EventUtils
 .
 synthesizeMouseAtCenter

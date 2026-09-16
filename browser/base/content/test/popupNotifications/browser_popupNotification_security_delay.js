@@ -109,14 +109,6 @@ set
 [
 [
 "
-test
-.
-wait300msAfterTabSwitch
-"
-true
-]
-[
-"
 security
 .
 notification_enable_delay

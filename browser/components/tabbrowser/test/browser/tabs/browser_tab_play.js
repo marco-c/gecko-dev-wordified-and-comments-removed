@@ -84,14 +84,6 @@ set
 :
 [
 [
-"
-test
-.
-wait300msAfterTabSwitch
-"
-true
-]
-[
 PREF_DELAY_AUTOPLAY
 true
 ]

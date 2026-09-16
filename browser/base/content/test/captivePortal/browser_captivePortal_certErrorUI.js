@@ -21,14 +21,6 @@ set
 [
 [
 "
-test
-.
-wait300msAfterTabSwitch
-"
-true
-]
-[
-"
 captivedetect
 .
 canonicalURL
@@ -240,7 +232,6 @@ button
 "
 )
 ;
-await
 EventUtils
 .
 synthesizeMouseAtCenter
@@ -351,7 +342,6 @@ openPortalLoginPageButton
 "
 )
 ;
-await
 EventUtils
 .
 synthesizeMouseAtCenter
@@ -726,7 +716,6 @@ visible
 "
 )
 ;
-await
 EventUtils
 .
 synthesizeMouseAtCenter
@@ -886,7 +875,6 @@ disabled
 "
 )
 ;
-await
 EventUtils
 .
 synthesizeMouseAtCenter
@@ -1015,7 +1003,6 @@ msSinceClick
 ms
 )
 ;
-await
 EventUtils
 .
 synthesizeMouseAtCenter
