@@ -280,6 +280,10 @@ stroke
 :
 #
 0366d6
+color
+:
+#
+1a1a1a
 style
 Git
 fill
@@ -290,6 +294,10 @@ stroke
 :
 #
 0366d6
+color
+:
+#
+1a1a1a
 style
 Phabricator
 fill
@@ -300,6 +308,10 @@ stroke
 :
 #
 0366d6
+color
+:
+#
+1a1a1a
 style
 Lando
 fill
@@ -310,6 +322,10 @@ stroke
 :
 #
 0366d6
+color
+:
+#
+1a1a1a
 style
 Git2
 fill
@@ -320,6 +336,10 @@ stroke
 :
 #
 0366d6
+color
+:
+#
+1a1a1a
 #
 #
 Preparation
