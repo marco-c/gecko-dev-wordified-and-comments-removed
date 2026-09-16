@@ -6813,9 +6813,12 @@ languagePair
 .
 then
 (
+async
 translator
 =
 >
+{
+try
 {
 if
 (
@@ -6838,6 +6841,7 @@ changeStateToTranslating
 )
 ;
 return
+await
 translator
 .
 translate
@@ -6853,6 +6857,16 @@ getSourceText
 return
 null
 ;
+}
+finally
+{
+translator
+.
+destroy
+(
+)
+;
+}
 }
 )
 .
