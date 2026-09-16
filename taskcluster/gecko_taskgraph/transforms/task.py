@@ -2791,6 +2791,7 @@ get_default_priority
 (
 graph_config
 project
+shipping
 )
 :
     
@@ -2806,16 +2807,30 @@ task
 priority
 "
 ]
+        
 "
 Graph
 Config
 "
+        
 {
 "
 project
 "
 :
 project
+"
+shipping
+"
+:
+str
+(
+shipping
+)
+.
+lower
+(
+)
 }
     
 )
@@ -18152,12 +18167,22 @@ get_default_priority
 config
 .
 graph_config
+                
 config
 .
 params
 [
 "
 project
+"
+]
+                
+config
+.
+params
+[
+"
+shipping
 "
 ]
             
