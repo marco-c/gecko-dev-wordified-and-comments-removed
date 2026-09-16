@@ -20007,8 +20007,6 @@ expected
 Register
 replacement
 Register
-temp
-AnyRegister
 output
 )
 DEFINED_ON
@@ -20037,8 +20035,6 @@ expected
 Register
 replacement
 Register
-temp
-AnyRegister
 output
 )
 DEFINED_ON
@@ -20073,8 +20069,6 @@ offsetTemp
 Register
 maskTemp
 Register
-temp
-AnyRegister
 output
 )
 DEFINED_ON
@@ -20109,8 +20103,6 @@ offsetTemp
 Register
 maskTemp
 Register
-temp
-AnyRegister
 output
 )
 DEFINED_ON
@@ -20137,8 +20129,6 @@ mem
 Register
 value
 Register
-temp
-AnyRegister
 output
 )
 DEFINED_ON
@@ -20165,8 +20155,6 @@ mem
 Register
 value
 Register
-temp
-AnyRegister
 output
 )
 DEFINED_ON
@@ -20199,8 +20187,6 @@ offsetTemp
 Register
 maskTemp
 Register
-temp
-AnyRegister
 output
 )
 DEFINED_ON
@@ -20233,8 +20219,6 @@ offsetTemp
 Register
 maskTemp
 Register
-temp
-AnyRegister
 output
 )
 DEFINED_ON
@@ -20263,10 +20247,8 @@ Address
 &
 mem
 Register
-temp1
+temp
 Register
-temp2
-AnyRegister
 output
 )
 DEFINED_ON
@@ -20295,10 +20277,8 @@ BaseIndex
 &
 mem
 Register
-temp1
+temp
 Register
-temp2
-AnyRegister
 output
 )
 DEFINED_ON
@@ -20327,10 +20307,8 @@ Address
 &
 mem
 Register
-temp1
+temp
 Register
-temp2
-AnyRegister
 output
 )
 DEFINED_ON
@@ -20357,10 +20335,8 @@ BaseIndex
 &
 mem
 Register
-temp1
+temp
 Register
-temp2
-AnyRegister
 output
 )
 DEFINED_ON
@@ -20393,8 +20369,6 @@ offsetTemp
 Register
 maskTemp
 Register
-temp
-AnyRegister
 output
 )
 DEFINED_ON
@@ -20429,8 +20403,6 @@ offsetTemp
 Register
 maskTemp
 Register
-temp
-AnyRegister
 output
 )
 DEFINED_ON

@@ -108,6 +108,14 @@ isInt64ToBigInt
 ins
 -
 >
+isUnsignedToDouble
+(
+)
+|
+|
+ins
+-
+>
 isPostIntPtrConversion
 (
 )
