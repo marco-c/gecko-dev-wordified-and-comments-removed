@@ -15568,11 +15568,7 @@ pref_key_enable_import_passwords
 )
 default
 =
-Config
-.
-channel
-.
-isDebug
+false
 )
 /
 *
