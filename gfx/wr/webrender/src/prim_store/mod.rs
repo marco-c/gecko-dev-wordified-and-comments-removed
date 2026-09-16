@@ -30,7 +30,10 @@ crate
 clip
 :
 :
+{
 ClipLeafId
+ClipNodeId
+}
 ;
 use
 crate
@@ -1225,6 +1228,10 @@ kind
 :
 PrimitiveKind
 pub
+clip_node_id
+:
+ClipNodeId
+pub
 clip_leaf_id
 :
 ClipLeafId
@@ -1279,6 +1286,9 @@ new
 kind
 :
 PrimitiveKind
+clip_node_id
+:
+ClipNodeId
 clip_leaf_id
 :
 ClipLeafId
@@ -1290,6 +1300,7 @@ Self
 PrimitiveInstance
 {
 kind
+clip_node_id
 clip_leaf_id
 }
 }
