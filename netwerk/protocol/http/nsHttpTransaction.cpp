@@ -7049,6 +7049,12 @@ NS_ERROR_NET_RESET
 reason
 =
 =
+NS_ERROR_NET_UNCLEAN_SHUTDOWN
+|
+|
+reason
+=
+=
 NS_OK
 |
 |

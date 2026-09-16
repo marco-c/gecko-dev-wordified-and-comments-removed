@@ -1396,7 +1396,7 @@ else
 CloseStream
 (
 aStream
-NS_ERROR_ABORT
+NS_ERROR_NET_UNCLEAN_SHUTDOWN
 )
 ;
 }
