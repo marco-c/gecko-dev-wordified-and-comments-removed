@@ -1786,6 +1786,8 @@ verticalMode
 ?
 "
 /
+search
+-
 tabs
 .
 svg
