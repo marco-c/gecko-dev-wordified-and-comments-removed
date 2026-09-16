@@ -138,6 +138,18 @@ components
 :
 support
 -
+base
+'
+)
+implementation
+project
+(
+'
+:
+components
+:
+support
+-
 images
 '
 )
@@ -177,8 +189,6 @@ libs
 androidx
 .
 core
-.
-ktx
 implementation
 libs
 .
