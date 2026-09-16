@@ -8547,6 +8547,13 @@ lazy
 CustomizableUI
 .
 AREA_TABSTRIP
+defaultAreaVerticalTabs
+:
+lazy
+.
+CustomizableUI
+.
+AREA_NAVBAR
 removable
 :
 true
@@ -8669,6 +8676,13 @@ lazy
 CustomizableUI
 .
 AREA_TABSTRIP
+defaultAreaVerticalTabs
+:
+lazy
+.
+CustomizableUI
+.
+AREA_NAVBAR
 /
 /
 Profiles

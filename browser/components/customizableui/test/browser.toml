@@ -2716,6 +2716,13 @@ js
 ]
 [
 "
+browser_vertical_tabs_default_area
+.
+js
+"
+]
+[
+"
 browser_widget_animation
 .
 js
