@@ -603,6 +603,16 @@ mozilla
 .
 fenix
 .
+compose
+.
+swipeToDismissFade
+import
+org
+.
+mozilla
+.
+fenix
+.
 tabstray
 .
 TabsTrayTestTag
@@ -1033,7 +1043,7 @@ modifier
 =
 Modifier
 .
-fadeOnSwipeToDismiss
+swipeToDismissFade
 (
 swipeToDismissBoxState
 )

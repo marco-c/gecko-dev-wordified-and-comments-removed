@@ -86,6 +86,16 @@ kotlin
 test
 .
 assertTrue
+import
+org
+.
+mozilla
+.
+fenix
+.
+compose
+.
+swipeFadeAlpha
 class
 SharedTabItemUiTest
 {
