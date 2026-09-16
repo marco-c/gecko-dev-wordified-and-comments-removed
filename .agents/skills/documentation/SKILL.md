@@ -1079,7 +1079,7 @@ style
 /
 index
 .
-rst
+md
 )
 -
 Bad
@@ -1185,11 +1185,9 @@ actual
 source
 file
 (
+always
 .
 md
-or
-.
-rst
 )
 .
 To

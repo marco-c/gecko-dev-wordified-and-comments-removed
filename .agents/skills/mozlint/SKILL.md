@@ -781,15 +781,6 @@ linting
 -
 *
 *
-rstcheck
-*
-*
-:
-reStructuredText
-linting
--
-*
-*
 license
 *
 *
