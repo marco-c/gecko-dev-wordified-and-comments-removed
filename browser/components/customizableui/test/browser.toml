@@ -2074,6 +2074,13 @@ js
 ]
 [
 "
+browser_novaHelpViewLayout
+.
+js
+"
+]
+[
+"
 browser_open_from_popup
 .
 js
