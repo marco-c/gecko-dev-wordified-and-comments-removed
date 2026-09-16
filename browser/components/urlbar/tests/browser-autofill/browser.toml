@@ -168,6 +168,13 @@ js
 ]
 [
 "
+browser_originInView
+.
+js
+"
+]
+[
+"
 browser_originToAdaptive
 .
 js
