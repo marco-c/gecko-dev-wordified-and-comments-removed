@@ -780,6 +780,10 @@ dry_run
 =
 False
     
+write_task_config
+=
+False
+    
 message
 =
 "
@@ -880,6 +884,9 @@ stage_changes
 and
 not
 dry_run
+and
+not
+write_task_config
     
 check_working_directory
 (
@@ -1652,6 +1659,10 @@ stage_changes
 dry_run
 =
 dry_run
+        
+write_task_config
+=
+write_task_config
         
 closed_tree
 =
