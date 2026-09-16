@@ -408,7 +408,7 @@ deps
 ]
         
 for
-line
+raw_line
 in
 stdout
 .
@@ -419,7 +419,7 @@ splitlines
             
 line
 =
-line
+raw_line
 .
 decode
 (
@@ -489,13 +489,15 @@ err
 print
 (
             
+f
 "
 "
 "
 Failed
 with
-%
-s
+{
+err
+}
 .
 Be
 sure
@@ -532,12 +534,6 @@ again
 "
 "
 "
-            
-%
-str
-(
-err
-)
             
 file
 =

@@ -152,6 +152,7 @@ objdir_abspath
 print
 (
                 
+f
 "
 Warning
 :
@@ -159,14 +160,13 @@ omitting
 generated
 source
 [
-%
-s
+{
+entry_abspath
+}
 ]
 from
 archive
 "
-%
-entry_abspath
                 
 file
 =
@@ -217,6 +217,7 @@ entry_abspath
 print
 (
                 
+f
 "
 Warning
 :
@@ -226,14 +227,13 @@ non
 existing
 file
 [
-%
-s
+{
+entry_abspath
+}
 ]
 from
 archive
 "
-%
-entry_abspath
                 
 file
 =
