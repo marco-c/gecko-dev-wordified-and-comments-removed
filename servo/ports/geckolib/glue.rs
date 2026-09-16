@@ -62219,7 +62219,7 @@ out
 mut
 nsTArray
 <
-nsString
+nsCString
 >
 )
 {
@@ -62743,7 +62743,7 @@ out
 .
 push
 (
-nsString
+nsCString
 :
 :
 from
@@ -62768,7 +62768,7 @@ out
 .
 push
 (
-nsString
+nsCString
 :
 :
 from
@@ -63015,7 +63015,7 @@ out
 .
 push
 (
-nsString
+nsCString
 :
 :
 from
@@ -63030,7 +63030,7 @@ out
 .
 push
 (
-nsString
+nsCString
 :
 :
 from
@@ -63186,7 +63186,7 @@ out
 .
 push
 (
-nsString
+nsCString
 :
 :
 from
@@ -63331,7 +63331,7 @@ out
 .
 push
 (
-nsString
+nsCString
 :
 :
 from

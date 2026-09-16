@@ -1371,7 +1371,7 @@ computed
 value
 sequence
 <
-DOMString
+UTF8String
 >
 getComputationSteps
 (
