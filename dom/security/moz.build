@@ -86,7 +86,7 @@ DIRS
 =
 [
 "
-featurepolicy
+permissionspolicy
 "
 "
 sanitizer

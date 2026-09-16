@@ -109,7 +109,7 @@ mozilla
 /
 dom
 /
-FeaturePolicyUtils
+PermissionsPolicyUtils
 .
 h
 "
@@ -465,7 +465,7 @@ mozilla
 /
 dom
 /
-FeaturePolicy
+PermissionsPolicy
 .
 h
 "

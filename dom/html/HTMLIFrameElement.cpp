@@ -76,7 +76,7 @@ mozilla
 /
 dom
 /
-FeaturePolicy
+HTMLIFrameElementBinding
 .
 h
 "
@@ -87,7 +87,7 @@ mozilla
 /
 dom
 /
-HTMLIFrameElementBinding
+PermissionsPolicy
 .
 h
 "

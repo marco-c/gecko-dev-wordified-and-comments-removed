@@ -1,7 +1,7 @@
 #
 include
 "
-FeaturePolicyUtils
+PermissionsPolicyUtils
 .
 h
 "
@@ -52,7 +52,7 @@ mozilla
 /
 dom
 /
-FeaturePolicyViolationReportBody
+PermissionMessageUtils
 .
 h
 "
@@ -63,7 +63,7 @@ mozilla
 /
 dom
 /
-PermissionMessageUtils
+PermissionsPolicyViolationReportBody
 .
 h
 "

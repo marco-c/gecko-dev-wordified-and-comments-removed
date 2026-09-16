@@ -144,7 +144,7 @@ mozilla
 /
 dom
 /
-FeaturePolicy
+PermissionsPolicy
 .
 h
 "
@@ -1129,7 +1129,7 @@ aBehavior
 nsICookieService
 :
 :
-BEHAVIOR_REJECT_TRACKER_AND_PARTITION_FOREIGN
+BEHAVIOR_PARTITION_FOREIGN
 )
 ;
 if
@@ -1418,7 +1418,7 @@ aBehavior
 nsICookieService
 :
 :
-BEHAVIOR_REJECT_TRACKER_AND_PARTITION_FOREIGN
+BEHAVIOR_PARTITION_FOREIGN
 &
 &
 !
@@ -5449,7 +5449,7 @@ case
 nsICookieService
 :
 :
-BEHAVIOR_REJECT_TRACKER_AND_PARTITION_FOREIGN
+BEHAVIOR_PARTITION_FOREIGN
 :
 if
 (

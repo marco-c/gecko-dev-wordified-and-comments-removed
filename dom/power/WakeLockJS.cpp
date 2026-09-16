@@ -111,7 +111,7 @@ mozilla
 /
 dom
 /
-FeaturePolicyUtils
+Navigator
 .
 h
 "
@@ -122,7 +122,7 @@ mozilla
 /
 dom
 /
-Navigator
+PermissionsPolicyUtils
 .
 h
 "

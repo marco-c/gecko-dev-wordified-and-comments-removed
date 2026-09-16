@@ -1,7 +1,7 @@
 #
 include
 "
-FeaturePolicyParser
+PermissionsPolicyParser
 .
 h
 "
@@ -32,7 +32,7 @@ mozilla
 /
 dom
 /
-FeaturePolicyUtils
+PermissionsPolicyUtils
 .
 h
 "

@@ -149,7 +149,7 @@ mozilla
 /
 dom
 /
-FeaturePolicyUtils
+Performance
 .
 h
 "
@@ -160,7 +160,7 @@ mozilla
 /
 dom
 /
-Performance
+PermissionsPolicyUtils
 .
 h
 "

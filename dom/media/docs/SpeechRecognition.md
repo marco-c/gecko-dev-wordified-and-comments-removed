@@ -1110,7 +1110,7 @@ speech
 recognition
 Registered
 in
-FeaturePolicyUtils
+PermissionsPolicyUtils
 .
 cpp
 with

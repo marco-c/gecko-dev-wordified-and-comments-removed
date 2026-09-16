@@ -885,7 +885,7 @@ with
 Files
 (
 "
-FeaturePolicy
+PermissionsPolicy
 .
 webidl
 "
@@ -4077,11 +4077,6 @@ FailedCertSecurityInfo
 webidl
 "
 "
-FeaturePolicy
-.
-webidl
-"
-"
 Fetch
 .
 webidl
@@ -5403,6 +5398,11 @@ webidl
 "
 "
 Permissions
+.
+webidl
+"
+"
+PermissionsPolicy
 .
 webidl
 "

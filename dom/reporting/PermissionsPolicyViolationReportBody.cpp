@@ -5,7 +5,7 @@ mozilla
 /
 dom
 /
-FeaturePolicyViolationReportBody
+PermissionsPolicyViolationReportBody
 .
 h
 "
@@ -25,7 +25,7 @@ mozilla
 /
 dom
 /
-FeaturePolicyBinding
+PermissionsPolicyBinding
 .
 h
 "
