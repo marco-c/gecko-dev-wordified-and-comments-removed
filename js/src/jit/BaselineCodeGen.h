@@ -2545,6 +2545,11 @@ emitDebugTrap
 )
 ;
 void
+emitICBailoutStub
+(
+)
+;
+void
 emitOutOfLineCodeCoverageInstrumentation
 (
 )
