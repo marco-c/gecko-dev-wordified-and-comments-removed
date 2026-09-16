@@ -4185,6 +4185,13 @@ js
 ]
 [
 "
+browser_tab_splitview_content_size
+.
+js
+"
+]
+[
+"
 browser_tab_splitview_contextmenu
 .
 js
@@ -4303,6 +4310,13 @@ js
 [
 "
 browser_tab_splitview_splitter_keyboard_boundary
+.
+js
+"
+]
+[
+"
+browser_tab_splitview_tab_height
 .
 js
 "
