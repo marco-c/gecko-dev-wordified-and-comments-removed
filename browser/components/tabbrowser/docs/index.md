@@ -84,6 +84,9 @@ async
 tab
 -
 switcher
+lazy
+-
+browsers
 tab
 -
 unloading
