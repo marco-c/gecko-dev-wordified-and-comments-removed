@@ -347,6 +347,15 @@ last_packet
 {
 parsed
 .
+last_packet_receive_time
+=
+last_packet
+-
+>
+receive_time
+;
+parsed
+.
 feedback_hold_time
 =
 last_packet
