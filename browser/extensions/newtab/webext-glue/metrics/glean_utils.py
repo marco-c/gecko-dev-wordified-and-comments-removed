@@ -334,7 +334,7 @@ arg_name
 =
 =
 "
-dynamic_label
+label
 "
 :
                     

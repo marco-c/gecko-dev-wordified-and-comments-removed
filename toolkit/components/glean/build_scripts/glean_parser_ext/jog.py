@@ -78,11 +78,11 @@ disabled
 "
     
 "
-dynamic_label
+in_session
 "
     
 "
-in_session
+label
 "
 ]
 known_extra_args
@@ -1025,7 +1025,7 @@ arg_name
 =
 =
 "
-dynamic_label
+label
 "
 :
                     
@@ -1124,7 +1124,7 @@ in
 category
 "
 "
-dynamic_label
+label
 "
 ]
 :

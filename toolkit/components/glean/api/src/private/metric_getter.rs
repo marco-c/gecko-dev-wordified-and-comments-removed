@@ -504,8 +504,7 @@ str
 str
 Option
 <
-&
-str
+String
 >
 )
 )
@@ -538,14 +537,6 @@ label
 t
 .
 2
-.
-map
-(
-str
-:
-:
-to_string
-)
 }
 }
 pub

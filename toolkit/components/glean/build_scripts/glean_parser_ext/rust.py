@@ -70,7 +70,7 @@ in_session
 "
     
 "
-dynamic_label
+label
 "
 ]
 def
