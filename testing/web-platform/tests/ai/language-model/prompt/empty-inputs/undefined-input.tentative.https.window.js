@@ -25,8 +25,9 @@ createLanguageModel
 (
 )
 ;
-assert_regexp_match
+assert_equals
 (
+typeof
 await
 model
 .
@@ -34,9 +35,9 @@ prompt
 (
 undefined
 )
-/
-undefined
-/
+'
+string
+'
 )
 ;
 }
