@@ -362,6 +362,11 @@ MozTabbrowserTabGroupLabel
 extends
 XULElement
 {
+pinned
+?
+:
+undefined
+;
 splitview
 ?
 :
