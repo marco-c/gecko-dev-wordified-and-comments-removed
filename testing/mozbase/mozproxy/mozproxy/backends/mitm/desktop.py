@@ -480,6 +480,13 @@ Firefox
         
 self
 .
+wait_for_ca_cert
+(
+DEFAULT_CERT_PATH
+)
+        
+self
+.
 policies_dir
 =
 os
