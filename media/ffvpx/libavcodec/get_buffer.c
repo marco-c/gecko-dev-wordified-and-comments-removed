@@ -420,10 +420,10 @@ ret
 av_image_fill_linesizes
 (
 linesize
-frame
+avctx
 -
 >
-format
+pix_fmt
 w
 )
 ;
@@ -517,10 +517,10 @@ ret
 av_image_fill_plane_sizes
 (
 size
-frame
+avctx
 -
 >
-format
+pix_fmt
 h
 linesize1
 )

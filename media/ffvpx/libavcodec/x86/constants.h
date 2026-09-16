@@ -64,6 +64,11 @@ ff_pw_9
 ;
 extern
 const
+uint64_t
+ff_pw_15
+;
+extern
+const
 xmm_reg
 ff_pw_16
 ;
@@ -71,6 +76,11 @@ extern
 const
 xmm_reg
 ff_pw_18
+;
+extern
+const
+xmm_reg
+ff_pw_20
 ;
 extern
 const
@@ -166,6 +176,11 @@ extern
 const
 ymm_reg
 ff_pb_80
+;
+extern
+const
+xmm_reg
+ff_pb_FC
 ;
 extern
 const

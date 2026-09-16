@@ -202,13 +202,6 @@ py
 ]
 [
 "
-test_ffvpx_symbols
-.
-py
-"
-]
-[
-"
 test_fluent_lint
 .
 py

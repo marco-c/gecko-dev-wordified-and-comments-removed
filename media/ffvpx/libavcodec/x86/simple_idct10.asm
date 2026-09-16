@@ -892,6 +892,7 @@ simple_idct8
 1
 1
 16
+32
 block
 IDCT_FN
 "
@@ -908,6 +909,7 @@ simple_idct8_put
 3
 4
 16
+32
 pixels
 lsize
 block
@@ -961,6 +963,7 @@ simple_idct8_add
 3
 4
 16
+32
 pixels
 lsize
 block
@@ -1132,7 +1135,7 @@ cglobal
 simple_idct10
 1
 1
-14
+16
 block
 IDCT_FN
 "
@@ -1149,7 +1152,7 @@ cglobal
 simple_idct10_put
 3
 3
-14
+16
 pixels
 lsize
 block
@@ -1170,7 +1173,7 @@ cglobal
 simple_idct12
 1
 1
-14
+16
 block
 ;
 coeffs
@@ -1201,7 +1204,7 @@ cglobal
 simple_idct12_put
 3
 3
-14
+16
 pixels
 lsize
 block
