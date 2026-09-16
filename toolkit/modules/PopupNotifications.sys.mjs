@@ -2609,6 +2609,13 @@ PopupNotifications
 prototype
 =
 {
+CHECK_VISIBILITY_OPTIONS
+:
+{
+visibilityProperty
+:
+true
+}
 window
 :
 null
@@ -8681,6 +8688,9 @@ anchorElement
 .
 checkVisibility
 (
+this
+.
+CHECK_VISIBILITY_OPTIONS
 )
 )
 {
@@ -8722,6 +8732,9 @@ anchorElement
 .
 checkVisibility
 (
+this
+.
+CHECK_VISIBILITY_OPTIONS
 )
 )
 {

@@ -3410,6 +3410,9 @@ anchorElement
 .
 checkVisibility
 (
+PopupNotifications
+.
+CHECK_VISIBILITY_OPTIONS
 )
 )
 {
@@ -3471,6 +3474,7 @@ icon
 ]
 ;
 return
+(
 fallback
 .
 find
@@ -3483,11 +3487,15 @@ element
 .
 checkVisibility
 (
+PopupNotifications
+.
+CHECK_VISIBILITY_OPTIONS
 )
 )
 ?
 ?
 null
+)
 ;
 }
 ;

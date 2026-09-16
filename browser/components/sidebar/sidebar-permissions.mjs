@@ -1949,6 +1949,11 @@ anchorElement
 .
 checkVisibility
 (
+lazy
+.
+PopupNotifications
+.
+CHECK_VISIBILITY_OPTIONS
 )
 )
 {
@@ -1997,6 +2002,11 @@ micAnchor
 .
 checkVisibility
 (
+lazy
+.
+PopupNotifications
+.
+CHECK_VISIBILITY_OPTIONS
 )
 )
 {
