@@ -308,6 +308,10 @@ ipc
 IPCResult
 RecvStop
 (
+StopResolver
+&
+&
+aResolver
 )
 ;
 void
@@ -587,6 +591,11 @@ mRecognitionThread
 ;
 WavDumper
 mRecognitionAudioDumper
+;
+bool
+mEmittedFinalResult
+=
+false
 ;
 size_t
 mProcessedAudioPos
