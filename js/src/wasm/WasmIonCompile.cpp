@@ -51994,7 +51994,7 @@ CHECK
 (
 emitConversion
 <
-MWasmUnsignedToFloat32
+MUnsignedToFloat32
 >
 (
 ValType
@@ -52120,7 +52120,7 @@ CHECK
 (
 emitConversion
 <
-MWasmUnsignedToDouble
+MUnsignedToDouble
 >
 (
 ValType

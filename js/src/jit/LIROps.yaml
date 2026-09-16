@@ -12694,7 +12694,7 @@ double
 -
 name
 :
-WasmUint32ToDouble
+Uint32ToDouble
 result_type
 :
 WordSized
@@ -12718,7 +12718,7 @@ float32
 -
 name
 :
-WasmUint32ToFloat32
+Uint32ToFloat32
 result_type
 :
 WordSized
