@@ -319,9 +319,6 @@ algorithm
 CryptoKey
 baseKey
 optional
-[
-EnforceRange
-]
 unsigned
 long
 ?
@@ -607,9 +604,6 @@ RsaKeyAlgorithm
 KeyAlgorithm
 {
 required
-[
-EnforceRange
-]
 unsigned
 long
 modulusLength
@@ -750,9 +744,6 @@ AesKeyAlgorithm
 KeyAlgorithm
 {
 required
-[
-EnforceRange
-]
 unsigned
 short
 length
@@ -848,9 +839,6 @@ KeyAlgorithm
 hash
 ;
 required
-[
-EnforceRange
-]
 unsigned
 long
 length

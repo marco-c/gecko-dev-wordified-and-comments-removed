@@ -77,10 +77,7 @@ static
 ReadableStream
 from
 (
-async_sequence
-<
 any
->
 asyncIterable
 )
 ;

@@ -80,10 +80,9 @@ syntax
 *
 "
 ;
+required
 boolean
 inherits
-=
-true
 ;
 DOMString
 initialValue
