@@ -5402,6 +5402,10 @@ createMenuTelemetryMiddleware
 )
 :
 MenuTelemetryMiddleware
+<
+MenuState
+MenuAction
+>
 {
 return
 MenuTelemetryMiddleware
