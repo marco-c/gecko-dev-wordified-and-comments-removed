@@ -277,12 +277,6 @@ disabled
 bool
 droppedDown
 ;
-bool
-horizontalOverflow
-;
-bool
-verticalOverflow
-;
 }
 ;
 }
