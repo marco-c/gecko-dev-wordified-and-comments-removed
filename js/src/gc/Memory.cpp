@@ -1076,6 +1076,9 @@ length
 )
 ;
 }
+#
+ifdef
+JS_64BIT
 template
 <
 Commit
@@ -1132,6 +1135,8 @@ length
 )
 ;
 }
+#
+endif
 template
 <
 Commit
