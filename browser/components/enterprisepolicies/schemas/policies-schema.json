@@ -2003,7 +2003,9 @@ firefox_enterprise
 version_added
 "
 :
-false
+"
+149
+"
 }
 }
 "
@@ -3483,9 +3485,7 @@ firefox_enterprise
 version_added
 "
 :
-"
-149
-"
+false
 }
 }
 "
@@ -9108,9 +9108,7 @@ firefox_enterprise
 version_added
 "
 :
-"
-149
-"
+false
 }
 }
 "
