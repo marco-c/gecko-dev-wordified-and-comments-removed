@@ -143,10 +143,6 @@ profiler
 MappableCompositor
 SWGLCompositeSurfaceInfo
 WindowVisibility
-device
-:
-:
-Device
 ClipRadius
 }
 ;
@@ -6544,11 +6540,6 @@ try_lock_composite_surface
 &
 mut
 self
-device
-:
-&
-mut
-Device
 id
 :
 &
@@ -6686,7 +6677,6 @@ compositor
 .
 lock_composite_surface
 (
-device
 self
 .
 gl
@@ -6748,11 +6738,6 @@ unlock_composite_surfaces
 &
 mut
 self
-device
-:
-&
-mut
-Device
 )
 {
 for
@@ -6773,7 +6758,6 @@ compositor
 .
 unlock_composite_surface
 (
-device
 self
 .
 gl
@@ -7218,11 +7202,6 @@ create_surface
 &
 mut
 self
-device
-:
-&
-mut
-Device
 id
 :
 NativeSurfaceId
@@ -7248,7 +7227,6 @@ compositor
 .
 create_surface
 (
-device
 id
 virtual_offset
 tile_size
@@ -7344,11 +7322,6 @@ create_external_surface
 &
 mut
 self
-device
-:
-&
-mut
-Device
 id
 :
 NativeSurfaceId
@@ -7368,7 +7341,6 @@ compositor
 .
 create_external_surface
 (
-device
 id
 is_opaque
 )
@@ -7403,11 +7375,6 @@ create_backdrop_surface
 &
 mut
 self
-_device
-:
-&
-mut
-Device
 _id
 :
 NativeSurfaceId
@@ -7432,11 +7399,6 @@ destroy_surface
 &
 mut
 self
-device
-:
-&
-mut
-Device
 id
 :
 NativeSurfaceId
@@ -7479,7 +7441,6 @@ compositor
 .
 destroy_surface
 (
-device
 id
 )
 ;
@@ -7529,11 +7490,6 @@ deinit
 &
 mut
 self
-device
-:
-&
-mut
-Device
 )
 {
 if
@@ -7619,7 +7575,6 @@ compositor
 .
 deinit
 (
-device
 )
 ;
 }
@@ -7630,11 +7585,6 @@ create_tile
 &
 mut
 self
-device
-:
-&
-mut
-Device
 id
 :
 NativeTileId
@@ -7651,7 +7601,6 @@ compositor
 .
 create_tile
 (
-device
 id
 )
 ;
@@ -7862,11 +7811,6 @@ destroy_tile
 &
 mut
 self
-device
-:
-&
-mut
-Device
 id
 :
 NativeTileId
@@ -7964,7 +7908,6 @@ compositor
 .
 destroy_tile
 (
-device
 id
 )
 ;
@@ -7976,11 +7919,6 @@ attach_external_image
 &
 mut
 self
-device
-:
-&
-mut
-Device
 id
 :
 NativeSurfaceId
@@ -8000,7 +7938,6 @@ compositor
 .
 attach_external_image
 (
-device
 id
 external_image
 )
@@ -8078,11 +8015,6 @@ invalidate_tile
 &
 mut
 self
-device
-:
-&
-mut
-Device
 id
 :
 NativeTileId
@@ -8102,7 +8034,6 @@ compositor
 .
 invalidate_tile
 (
-device
 id
 valid_rect
 )
@@ -8191,11 +8122,6 @@ bind
 &
 mut
 self
-device
-:
-&
-mut
-Device
 id
 :
 NativeTileId
@@ -8352,7 +8278,6 @@ compositor
 .
 map_tile
 (
-device
 id
 dirty_rect
 valid_rect
@@ -8539,11 +8464,6 @@ unbind
 &
 mut
 self
-device
-:
-&
-mut
-Device
 )
 {
 let
@@ -8656,7 +8576,6 @@ compositor
 .
 unmap_tile
 (
-device
 )
 ;
 }
@@ -8682,11 +8601,6 @@ begin_frame
 &
 mut
 self
-device
-:
-&
-mut
-Device
 )
 {
 self
@@ -8706,7 +8620,6 @@ compositor
 .
 begin_frame
 (
-device
 )
 ;
 }
@@ -8717,11 +8630,6 @@ add_surface
 &
 mut
 self
-device
-:
-&
-mut
-Device
 id
 :
 NativeSurfaceId
@@ -8790,7 +8698,6 @@ compositor
 .
 add_surface
 (
-device
 id
 transform
 clip_rect
@@ -8813,7 +8720,6 @@ self
 .
 try_lock_composite_surface
 (
-device
 &
 id
 )
@@ -8862,11 +8768,6 @@ start_compositing
 &
 mut
 self
-device
-:
-&
-mut
-Device
 clear_color
 :
 ColorF
@@ -8989,7 +8890,6 @@ compositor
 .
 start_compositing
 (
-device
 clear_color
 dirty_rects
 &
@@ -9273,11 +9173,6 @@ end_frame
 &
 mut
 self
-device
-:
-&
-mut
-Device
 )
 {
 self
@@ -9297,7 +9192,6 @@ compositor
 .
 end_frame
 (
-device
 )
 ;
 }
@@ -9425,7 +9319,6 @@ self
 .
 unlock_composite_surfaces
 (
-device
 )
 ;
 }
@@ -9458,11 +9351,6 @@ enable_native_compositor
 &
 mut
 self
-device
-:
-&
-mut
-Device
 enable
 :
 bool
@@ -9483,7 +9371,6 @@ compositor
 .
 enable_native_compositor
 (
-device
 enable
 )
 ;
@@ -9499,11 +9386,6 @@ get_capabilities
 (
 &
 self
-device
-:
-&
-mut
-Device
 )
 -
 >
@@ -9515,7 +9397,6 @@ compositor
 .
 get_capabilities
 (
-device
 )
 }
 fn
@@ -9523,11 +9404,6 @@ get_window_visibility
 (
 &
 self
-device
-:
-&
-mut
-Device
 )
 -
 >
@@ -9539,7 +9415,6 @@ compositor
 .
 get_window_visibility
 (
-device
 )
 }
 }

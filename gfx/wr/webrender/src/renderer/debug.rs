@@ -2568,11 +2568,6 @@ pub
 fn
 update_debug_overlay
 (
-device
-:
-&
-mut
-Device
 compositor_config
 :
 &
@@ -2707,7 +2702,6 @@ compositor
 .
 destroy_surface
 (
-device
 NativeSurfaceId
 :
 :
@@ -2740,7 +2734,6 @@ compositor
 .
 create_surface
 (
-device
 NativeSurfaceId
 :
 :
@@ -2759,7 +2752,6 @@ compositor
 .
 create_tile
 (
-device
 NativeTileId
 :
 :
@@ -2857,7 +2849,6 @@ compositor
 .
 invalidate_tile
 (
-device
 NativeTileId
 :
 :
@@ -2878,7 +2869,6 @@ compositor
 .
 bind
 (
-device
 NativeTileId
 :
 :
@@ -3143,11 +3133,6 @@ pub
 fn
 unbind_debug_overlay
 (
-device
-:
-&
-mut
-Device
 compositor_config
 :
 &
@@ -3198,7 +3183,6 @@ compositor
 .
 unbind
 (
-device
 )
 ;
 let
@@ -3222,7 +3206,6 @@ compositor
 .
 add_surface
 (
-device
 NativeSurfaceId
 :
 :
@@ -5079,7 +5062,6 @@ compositor
 .
 get_window_visibility
 (
-device
 )
 ;
 let
