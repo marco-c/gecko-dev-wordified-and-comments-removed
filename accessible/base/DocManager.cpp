@@ -2494,6 +2494,15 @@ aDocument
 IsActive
 (
 )
+|
+|
+!
+aDocument
+-
+>
+IsCurrentActiveDocument
+(
+)
 )
 {
 return

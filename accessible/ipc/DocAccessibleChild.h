@@ -99,6 +99,17 @@ SendShutdown
 )
 ;
 }
+DocAccessible
+*
+GetDocAccessible
+(
+)
+const
+{
+return
+mDoc
+;
+}
 void
 InsertIntoIpcTree
 (
