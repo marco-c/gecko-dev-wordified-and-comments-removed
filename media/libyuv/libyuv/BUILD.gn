@@ -201,14 +201,6 @@ defines
 CHROMIUM
 "
 ]
-defines
-+
-=
-[
-"
-LIBYUV_UNBIASED_DATA
-"
-]
 if
 (
 libyuv_enable_rowwin
