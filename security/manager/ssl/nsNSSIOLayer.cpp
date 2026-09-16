@@ -7754,12 +7754,7 @@ unsigned
 int
 additional_shares
 =
-StaticPrefs
-:
-:
-security_tls_client_hello_send_p256_keyshare
-(
-)
+1
 ;
 bool
 tls13
