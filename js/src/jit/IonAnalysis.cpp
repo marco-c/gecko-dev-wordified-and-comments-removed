@@ -5919,7 +5919,7 @@ true
 store
 -
 >
-setNeedsBarrier
+setNeedsPreBarrier
 (
 false
 )
