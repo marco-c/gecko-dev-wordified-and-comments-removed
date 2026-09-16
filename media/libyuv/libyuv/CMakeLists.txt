@@ -474,6 +474,11 @@ BEFORE
 ly_inc_dir
 }
 )
+add_definitions
+(
+-
+DLIBYUV_UNBIASED_DATA
+)
 if
 (
 MSVC
