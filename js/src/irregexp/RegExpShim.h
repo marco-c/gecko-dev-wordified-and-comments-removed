@@ -8464,6 +8464,17 @@ isolate
 )
 ;
 static
+const
+void
+*
+RegexpStackPointer
+(
+Isolate
+*
+isolate
+)
+;
+static
 size_t
 SizeOfExcludingThis
 (
