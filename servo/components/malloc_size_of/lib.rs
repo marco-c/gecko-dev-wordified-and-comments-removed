@@ -122,16 +122,16 @@ pub
 fn
 new
 (
-size_of
+size_of_op
 :
 VoidPtrToSizeFn
-malloc_enclosing_size_of
+enclosing_size_of_op
 :
 Option
 <
 VoidPtrToSizeFn
 >
-have_seen_ptr
+have_seen_ptr_op
 :
 Option
 <
@@ -148,14 +148,8 @@ Self
 MallocSizeOfOps
 {
 size_of_op
-:
-size_of
 enclosing_size_of_op
-:
-malloc_enclosing_size_of
 have_seen_ptr_op
-:
-have_seen_ptr
 }
 }
 fn
@@ -177,7 +171,6 @@ T
 >
 bool
 {
-return
 ptr
 as
 *
@@ -188,7 +181,6 @@ usize
 <
 =
 256
-;
 }
 pub
 unsafe
@@ -521,8 +513,6 @@ as_ptr
 }
 impl
 <
-'
-a
 T
 :
 ?
@@ -531,8 +521,6 @@ Sized
 MallocSizeOf
 for
 &
-'
-a
 T
 {
 fn
@@ -1452,8 +1440,6 @@ ops
 .
 malloc_enclosing_size_of
 (
-&
-*
 front
 )
 }
