@@ -2084,7 +2084,7 @@ both
 inputmode
 =
 "
-mozAwesomebar
+search
 "
 preserveundohistory
 =
