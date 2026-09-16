@@ -169,6 +169,13 @@ CAPTURE_DURATION
 "
 capture_duration
 "
+const
+val
+DISK_WRITE_DURATION
+=
+"
+disk_write_duration
+"
 }
 /
 *
@@ -192,6 +199,7 @@ MetadataKeys
 /
 *
 *
+*
 Duration
 of
 an
@@ -199,6 +207,12 @@ an
 Items
 .
 CAPTURE_DURATION
+]
+or
+[
+Items
+.
+DISK_WRITE_DURATION
 ]
 event
 as
