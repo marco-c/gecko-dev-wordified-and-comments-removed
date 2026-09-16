@@ -172,6 +172,10 @@ _labelIsContentTitle
 :
 boolean
 ;
+_labelIsInitialTitle
+:
+boolean
+;
 _pinnedUnscrollable
 :
 boolean
