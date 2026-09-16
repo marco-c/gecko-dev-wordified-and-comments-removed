@@ -13642,7 +13642,7 @@ SetReplyTimeoutMs
 StaticPrefs
 :
 :
-dom_ipc_cpow_timeout
+dom_ipc_reply_timeout
 (
 )
 )
