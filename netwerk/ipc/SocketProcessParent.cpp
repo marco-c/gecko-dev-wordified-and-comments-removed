@@ -1551,6 +1551,10 @@ const
 uint32_t
 &
 aProxyResolveFlags
+const
+bool
+&
+aIsTRRServiceChannel
 )
 {
 RefPtr
@@ -1564,6 +1568,7 @@ ProxyConfigLookupParent
 (
 aURI
 aProxyResolveFlags
+aIsTRRServiceChannel
 )
 ;
 return
@@ -1596,6 +1601,10 @@ const
 uint32_t
 &
 aProxyResolveFlags
+const
+bool
+&
+aIsTRRServiceChannel
 )
 {
 mozilla

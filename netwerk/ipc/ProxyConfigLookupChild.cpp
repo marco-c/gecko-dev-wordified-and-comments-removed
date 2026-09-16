@@ -40,6 +40,8 @@ nsIURI
 aURI
 uint32_t
 aProxyResolveFlags
+bool
+aIsTRRServiceChannel
 std
 :
 :
@@ -105,6 +107,7 @@ SendPProxyConfigLookupConstructor
 child
 aURI
 aProxyResolveFlags
+aIsTRRServiceChannel
 )
 ;
 }

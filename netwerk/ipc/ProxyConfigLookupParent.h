@@ -38,7 +38,6 @@ NS_INLINE_DECL_REFCOUNTING
 ProxyConfigLookupParent
 override
 )
-explicit
 ProxyConfigLookupParent
 (
 nsIURI
@@ -46,6 +45,8 @@ nsIURI
 aURI
 uint32_t
 aProxyResolveFlags
+bool
+aIsTRRServiceChannel
 )
 ;
 void
@@ -69,6 +70,9 @@ mURI
 ;
 uint32_t
 mProxyResolveFlags
+;
+bool
+mIsTRRServiceChannel
 ;
 }
 ;

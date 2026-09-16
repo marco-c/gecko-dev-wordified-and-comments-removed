@@ -1288,6 +1288,9 @@ aStatus
 }
 mURI
 mProxyResolveFlags
+LoadIsTRRServiceChannel
+(
+)
 getter_AddRefs
 (
 proxyRequest

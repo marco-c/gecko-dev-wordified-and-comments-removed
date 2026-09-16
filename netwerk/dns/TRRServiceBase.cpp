@@ -1532,6 +1532,7 @@ RegisterProxyChangeListener
 }
 dnsURI
 0
+true
 nullptr
 )
 ;

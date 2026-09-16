@@ -52,6 +52,8 @@ nsIURI
 aURI
 uint32_t
 aProxyResolveFlags
+bool
+aIsTRRServiceChannel
 std
 :
 :

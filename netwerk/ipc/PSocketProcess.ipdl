@@ -833,6 +833,8 @@ nsIURI
 aUri
 uint32_t
 aFlags
+bool
+aIsTRRServiceChannel
 )
 ;
 async

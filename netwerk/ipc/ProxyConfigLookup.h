@@ -67,6 +67,10 @@ nsIURI
 aURI
 uint32_t
 aProxyResolveFlags
+bool
+aIsTRRServiceChannel
+=
+false
 nsICancelable
 *
 *
@@ -100,6 +104,8 @@ nsIURI
 aURI
 uint32_t
 aProxyResolveFlags
+bool
+aIsTRRServiceChannel
 )
 ;
 virtual
@@ -139,6 +145,9 @@ mURI
 ;
 uint32_t
 mProxyResolveFlags
+;
+bool
+mIsTRRServiceChannel
 ;
 }
 ;
