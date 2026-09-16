@@ -92,6 +92,10 @@ SdpMediaSectionImpl
 public
 SdpMediaSection
 {
+friend
+class
+SdpImpl
+;
 public
 :
 MediaType
@@ -291,6 +295,7 @@ const
 override
 final
 ;
+virtual
 ~
 SdpMediaSectionImpl
 (
