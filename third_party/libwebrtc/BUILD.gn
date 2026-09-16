@@ -554,11 +554,6 @@ rtc_media_unittests
 "
 modules
 :
-modules_tests
-"
-"
-modules
-:
 modules_unittests
 "
 "
@@ -985,6 +980,13 @@ call
 adaptation
 :
 resource_adaptation_tests
+"
+"
+/
+/
+modules
+:
+modules_tests
 "
 "
 /

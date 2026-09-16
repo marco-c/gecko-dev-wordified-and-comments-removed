@@ -4219,16 +4219,13 @@ gtest
 ]
 }
 }
-rtc_library
+rtc_cc_test
 (
 "
 rtp_rtcp_modules_tests
 "
 )
 {
-testonly
-=
-true
 sources
 =
 [
