@@ -88,6 +88,15 @@ browser
 .
 toml
 "
+"
+test
+/
+browser_perf
+/
+perftest
+.
+toml
+"
 ]
 MARIONETTE_MANIFESTS
 +
