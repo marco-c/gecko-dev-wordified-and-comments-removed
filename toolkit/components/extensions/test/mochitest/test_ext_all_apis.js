@@ -145,6 +145,11 @@ getURL
 "
 runtime
 .
+getVersion
+"
+"
+runtime
+.
 id
 "
 "
