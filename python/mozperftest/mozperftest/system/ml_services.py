@@ -69,9 +69,7 @@ prod
 -
 mozilla
 .
-global
-.
-ssl
+freetls
 .
 fastly
 .
@@ -87,9 +85,7 @@ stage
 -
 mozilla
 .
-global
-.
-ssl
+freetls
 .
 fastly
 .
@@ -182,7 +178,7 @@ services
     
 activated
 =
-True
+False
     
 def
 setup
