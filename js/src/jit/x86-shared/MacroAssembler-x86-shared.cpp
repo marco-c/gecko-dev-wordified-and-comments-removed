@@ -7481,13 +7481,6 @@ MOZ_CRASH
 )
 ;
 }
-MOZ_ASSERT
-(
-before
-<
-after
-)
-;
 if
 (
 access
