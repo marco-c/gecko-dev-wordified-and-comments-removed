@@ -127,6 +127,10 @@ true
 btpHasPurgedSite
 :
 false
+btpPurgeHistory
+:
+[
+]
 etpCategory
 :
 getEtpCategory
@@ -228,6 +232,10 @@ true
 btpHasPurgedSite
 :
 false
+btpPurgeHistory
+:
+[
+]
 etpCategory
 :
 getEtpCategory
