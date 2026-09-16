@@ -15,6 +15,13 @@ py
 ]
 [
 "
+test_benchmark
+.
+py
+"
+]
+[
+"
 test_chrome_trace
 .
 py
