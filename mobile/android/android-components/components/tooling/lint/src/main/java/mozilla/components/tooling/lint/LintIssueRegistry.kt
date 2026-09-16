@@ -250,6 +250,9 @@ ISSUE_USE_PIXEL_SIZE_FOR
 ConstraintLayoutPerfDetector
 .
 ISSUE
+ConstraintLayoutInflationDetector
+.
+ISSUE
 )
 +
 ContextCompatDetector
