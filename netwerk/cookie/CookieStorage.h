@@ -851,9 +851,8 @@ virtual
 void
 RemoveCookieFromDB
 (
-const
 Cookie
-&
+*
 aCookie
 )
 =

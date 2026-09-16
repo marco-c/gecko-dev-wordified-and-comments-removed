@@ -5967,7 +5967,6 @@ aIter
 {
 RemoveCookieFromDB
 (
-*
 aIter
 .
 Cookie

@@ -241,6 +241,11 @@ CookieCommons
 cpp
 "
 "
+CookieDBWriteQueue
+.
+cpp
+"
+"
 CookieJarSettings
 .
 cpp
