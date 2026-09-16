@@ -579,6 +579,13 @@ sys
 mjs
 "
 "
+ReinstallCheck
+.
+sys
+.
+mjs
+"
+"
 StartupTelemetry
 .
 sys

@@ -366,6 +366,13 @@ linux
 ]
 [
 "
+browser_sma_reset_profile
+.
+js
+"
+]
+[
+"
 browser_sma_restore_session
 .
 js
