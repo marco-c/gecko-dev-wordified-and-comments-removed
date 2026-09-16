@@ -71,9 +71,7 @@ name
 -
 field
 .
-ty
-.
-type_name
+type_annotation
 }
 }
     
@@ -197,6 +195,8 @@ if
 default
 .
 is_arg_literal
+(
+)
 %
 }
         
@@ -380,6 +380,8 @@ if
 callable
 .
 is_async
+(
+)
 %
 }
 async

@@ -45,15 +45,6 @@ hash
 Hash
 ;
 use
-core
-:
-:
-mem
-:
-:
-size_of
-;
-use
 borsh
 :
 :

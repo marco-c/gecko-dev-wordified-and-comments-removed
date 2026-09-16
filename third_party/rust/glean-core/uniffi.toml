@@ -1,4 +1,6 @@
 [
+defaults
+.
 bindings
 .
 kotlin
@@ -20,6 +22,8 @@ cdylib_name
 xul
 "
 [
+defaults
+.
 bindings
 .
 swift
@@ -33,6 +37,8 @@ omit_argument_labels
 =
 true
 [
+defaults
+.
 bindings
 .
 python

@@ -1,4 +1,13 @@
 use
+std
+:
+:
+hint
+:
+:
+black_box
+;
+use
 askama
 :
 :
@@ -10,7 +19,6 @@ criterion
 :
 {
 Criterion
-black_box
 criterion_group
 criterion_main
 }

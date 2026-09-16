@@ -25,6 +25,12 @@ use
 super
 :
 :
+Error
+;
+use
+super
+:
+:
 style
 ;
 use
@@ -32,12 +38,6 @@ super
 :
 :
 value
-;
-use
-super
-:
-:
-Error
 ;
 use
 crate

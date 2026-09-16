@@ -307,6 +307,9 @@ name
 clone
 (
 )
+orig_name
+:
+None
 builtin
 :
 *

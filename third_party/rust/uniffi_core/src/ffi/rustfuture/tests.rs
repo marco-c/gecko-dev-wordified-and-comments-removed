@@ -591,8 +591,15 @@ clone
 .
 poll
 (
+RustFutureContinuationBoundCallback
+{
+callback
+:
 poll_continuation
+data
+:
 handle
+}
 )
 ;
 cell

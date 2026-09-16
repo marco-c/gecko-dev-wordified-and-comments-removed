@@ -1,4 +1,13 @@
 use
+std
+:
+:
+hint
+:
+:
+black_box
+;
+use
 askama_parser
 :
 :
@@ -14,7 +23,6 @@ criterion
 {
 Criterion
 Throughput
-black_box
 criterion_group
 criterion_main
 }

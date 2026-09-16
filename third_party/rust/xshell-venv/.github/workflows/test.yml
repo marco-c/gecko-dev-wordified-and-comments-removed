@@ -10,6 +10,10 @@ push
 branches
 :
 main
+permissions
+:
+{
+}
 env
 :
 CARGO_INCREMENTAL
@@ -84,6 +88,11 @@ fetch
 depth
 :
 0
+persist
+-
+credentials
+:
+false
 -
 uses
 :

@@ -9,6 +9,17 @@ clippy
 std_instead_of_core
 )
 ]
+#
+!
+[
+allow
+(
+clippy
+:
+:
+test_attr_in_doctest
+)
+]
 pub
 mod
 arithmetic

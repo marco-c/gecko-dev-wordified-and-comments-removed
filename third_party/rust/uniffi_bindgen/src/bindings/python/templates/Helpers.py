@@ -325,7 +325,9 @@ msg
 =
 {
 {
-string_type_node
+builtin_types
+.
+string
 .
 ffi_converter_name
 }
@@ -418,7 +420,9 @@ error_buf
 =
 {
 {
-string_type_node
+builtin_types
+.
+string
 .
 ffi_converter_name
 }
@@ -499,7 +503,9 @@ error_buf
 =
 {
 {
-string_type_node
+builtin_types
+.
+string
 .
 ffi_converter_name
 }

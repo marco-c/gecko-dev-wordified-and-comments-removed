@@ -1,10 +1,9 @@
 #
 askama_derive
 :
-procedural
-macros
-for
-the
+code
+generator
+of
 Askama
 templating
 engine
@@ -103,7 +102,7 @@ yml
 ?
 branch
 =
-master
+main
 &
 logo
 =
@@ -197,9 +196,7 @@ https
 /
 askama
 .
-readthedocs
-.
-io
+rs
 /
 )
 [
@@ -260,8 +257,8 @@ This
 crate
 contains
 the
-procedural
-macros
+code
+generator
 used
 by
 the

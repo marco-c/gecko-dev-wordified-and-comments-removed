@@ -103,7 +103,7 @@ yml
 ?
 branch
 =
-master
+main
 &
 logo
 =
@@ -197,9 +197,7 @@ https
 /
 askama
 .
-readthedocs
-.
-io
+rs
 /
 )
 [

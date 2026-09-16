@@ -2,13 +2,13 @@ use
 indexmap
 :
 :
-indexmap
+Equivalent
 ;
 use
 indexmap
 :
 :
-Equivalent
+indexmap
 ;
 use
 std

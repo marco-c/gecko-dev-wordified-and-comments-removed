@@ -141,6 +141,9 @@ identifier
 to_string
 (
 )
+orig_name
+:
+None
 shape
 remote
 :
@@ -196,6 +199,9 @@ value
 to_string
 (
 )
+orig_name
+:
+None
 discr
 :
 None
@@ -484,6 +490,9 @@ identifier
 to_string
 (
 )
+orig_name
+:
+None
 shape
 remote
 :

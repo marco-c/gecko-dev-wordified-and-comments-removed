@@ -51,7 +51,6 @@ uniffi_meta
 ConstructorMetadata
 FnParamMetadata
 MethodMetadata
-ObjectImpl
 ObjectMetadata
 Type
 UniffiTraitMetadata
@@ -221,12 +220,10 @@ ci
 ;
 if
 object_impl
-=
-=
-ObjectImpl
-:
-:
-Trait
+.
+is_trait_interface
+(
+)
 {
 bail
 !
@@ -477,6 +474,9 @@ name
 to_string
 (
 )
+orig_name
+:
+None
 is_async
 :
 false
@@ -913,6 +913,9 @@ object_name
 to_string
 (
 )
+orig_name
+:
+None
 remote
 :
 attributes

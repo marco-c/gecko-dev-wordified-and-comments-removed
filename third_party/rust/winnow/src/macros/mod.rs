@@ -4,6 +4,9 @@ dispatch
 mod
 seq
 ;
+mod
+unordered_seq
+;
 #
 [
 cfg
@@ -347,7 +350,15 @@ self
 [
 cfg
 (
+all
+(
 test
+feature
+=
+"
+ascii
+"
+)
 )
 ]
 mod

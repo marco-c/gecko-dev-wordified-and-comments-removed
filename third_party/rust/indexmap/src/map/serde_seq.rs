@@ -61,6 +61,12 @@ use
 crate
 :
 :
+IndexMap
+;
+use
+crate
+:
+:
 map
 :
 :
@@ -87,12 +93,6 @@ set
 Slice
 as
 SetSlice
-;
-use
-crate
-:
-:
-IndexMap
 ;
 impl
 <

@@ -22,6 +22,12 @@ use
 crate
 :
 :
+_topic
+;
+use
+crate
+:
+:
 combinator
 :
 :
@@ -92,12 +98,6 @@ crate
 :
 :
 Result
-;
-use
-crate
-:
-:
-_topic
 ;
 pub
 use

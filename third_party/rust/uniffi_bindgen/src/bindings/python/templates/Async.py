@@ -393,7 +393,9 @@ CALL_UNEXPECTED_ERROR
                 
 {
 {
-string_type_node
+builtin_types
+.
+string
 .
 ffi_converter_name
 }
@@ -562,7 +564,9 @@ CALL_UNEXPECTED_ERROR
                 
 {
 {
-string_type_node
+builtin_types
+.
+string
 .
 ffi_converter_name
 }

@@ -6,6 +6,10 @@ allow
 clippy
 :
 :
+let_underscore_untyped
+clippy
+:
+:
 unreadable_literal
 )
 ]
@@ -103,7 +107,7 @@ LEAF
 assert_eq
 !
 (
-10016
+10080
 size
 )
 ;
@@ -161,7 +165,7 @@ XID_CONTINUE
 assert_eq
 !
 (
-11528
+11544
 size
 )
 ;
@@ -351,7 +355,7 @@ tree3_level3
 assert_eq
 !
 (
-10208
+10200
 start_size
 +
 continue_size
@@ -423,7 +427,7 @@ len
 assert_eq
 !
 (
-137749
+138736
 size
 )
 ;

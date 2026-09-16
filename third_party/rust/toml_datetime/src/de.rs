@@ -14,10 +14,7 @@ serde_core
 de
 :
 :
-value
-:
-:
-BorrowedStrDeserializer
+IntoDeserializer
 ;
 use
 serde_core
@@ -26,7 +23,10 @@ serde_core
 de
 :
 :
-IntoDeserializer
+value
+:
+:
+BorrowedStrDeserializer
 ;
 pub
 fn

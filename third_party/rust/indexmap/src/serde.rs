@@ -95,15 +95,6 @@ marker
 PhantomData
 ;
 use
-core
-:
-:
-{
-cmp
-mem
-}
-;
-use
 crate
 :
 :
@@ -144,7 +135,7 @@ usize
 *
 1024
 ;
-cmp
+Ord
 :
 :
 min
@@ -157,9 +148,6 @@ unwrap_or
 )
 MAX_PREALLOC_BYTES
 /
-mem
-:
-:
 size_of
 :
 :

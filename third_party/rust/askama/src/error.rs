@@ -1664,6 +1664,13 @@ cfg
 test
 )
 ]
+#
+[
+allow
+(
+dead_code
+)
+]
 const
 _
 :

@@ -53,6 +53,11 @@ namespace_docstring
 }
 {
 %
+endcall
+%
+}
+{
+%
 -
 import
 "

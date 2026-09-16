@@ -141,6 +141,13 @@ validation
 .
 foreground_count
 "
+"
+glean
+.
+database
+.
+rkv_load_error
+"
 ]
 ;
 #

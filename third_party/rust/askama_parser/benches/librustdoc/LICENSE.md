@@ -65,7 +65,7 @@ rust
 /
 tree
 /
-master
+main
 /
 src
 /
@@ -98,7 +98,7 @@ rust
 /
 commits
 /
-master
+main
 /
 src
 /

@@ -1,3 +1,14 @@
+#
+!
+[
+allow
+(
+clippy
+:
+:
+extra_unused_type_parameters
+)
+]
 fn
 assert_send_sync
 <

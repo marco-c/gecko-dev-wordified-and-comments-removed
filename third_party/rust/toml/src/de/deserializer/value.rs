@@ -435,10 +435,6 @@ span
 self
 .
 span
-.
-clone
-(
-)
 ;
 match
 self
@@ -483,7 +479,7 @@ v
 >
 visitor
 .
-visit_str
+visit_borrowed_str
 (
 v
 )
@@ -1392,10 +1388,6 @@ span
 self
 .
 span
-.
-clone
-(
-)
 ;
 match
 self

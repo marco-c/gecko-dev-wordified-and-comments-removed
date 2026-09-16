@@ -351,17 +351,6 @@ semver
 .
 0
 "
-*
-Compiler
-support
-:
-requires
-rustc
-1
-.
-31
-+
-*
 <
 br
 >

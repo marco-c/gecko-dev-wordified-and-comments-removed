@@ -12,6 +12,11 @@ interface_docstring
 )
 %
 }
+{
+%
+endcall
+%
+}
 public
 interface
 {
@@ -45,6 +50,11 @@ docstring
 meth
 4
 )
+%
+}
+{
+%
+endcall
 %
 }
 {
@@ -89,6 +99,11 @@ arg_list
 meth
 true
 )
+%
+}
+{
+%
+endcall
 %
 }
 )

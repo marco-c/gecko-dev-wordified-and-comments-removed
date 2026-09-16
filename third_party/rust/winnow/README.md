@@ -344,8 +344,6 @@ index
 .
 html
 )
-#
-Contributors
 winnow
 is
 the

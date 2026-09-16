@@ -49,8 +49,8 @@ glean_core
 :
 {
 glean_test_get_experimentation_id
-DynamicLabelType
 LabeledCounter
+MetricLabel
 }
 ;
 use
@@ -801,7 +801,7 @@ Application
 disabled
 :
 false
-dynamic_label
+label
 :
 None
 .
@@ -2495,7 +2495,7 @@ Application
 disabled
 :
 false
-dynamic_label
+label
 :
 None
 .
@@ -7454,7 +7454,7 @@ Application
 disabled
 :
 false
-dynamic_label
+label
 :
 None
 .
@@ -7619,11 +7619,11 @@ Application
 disabled
 :
 false
-dynamic_label
+label
 :
 Some
 (
-DynamicLabelType
+MetricLabel
 :
 :
 Label
@@ -8142,11 +8142,11 @@ Application
 disabled
 :
 false
-dynamic_label
+label
 :
 Some
 (
-DynamicLabelType
+MetricLabel
 :
 :
 Label

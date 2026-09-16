@@ -47,6 +47,8 @@ if
 default
 .
 is_arg_literal
+(
+)
 %
 }
 typing

@@ -19,6 +19,9 @@ type
 Result
 <
 T
+E
+=
+Error
 >
 =
 :
@@ -32,7 +35,7 @@ result
 Result
 <
 T
-Error
+E
 >
 ;
 #

@@ -289,14 +289,7 @@ formatter
 }
 #
 [
-cfg_attr
-(
-not
-(
-no_track_caller
-)
 track_caller
-)
 ]
 pub
 (

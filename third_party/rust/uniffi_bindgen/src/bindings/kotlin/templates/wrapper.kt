@@ -45,6 +45,11 @@ namespace_docstring
 )
 %
 }
+{
+%
+endcall
+%
+}
 file
 :
 Suppress

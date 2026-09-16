@@ -631,6 +631,11 @@ func
 )
 %
 }
+{
+%
+endcall
+%
+}
 )
 :
 {
@@ -661,7 +666,7 @@ borrow
 (
 )
 |
-ffi_type_name_by_value
+ffi_type_name_for_direct_return
 (
 ci
 )
@@ -939,6 +944,11 @@ iter_ffi_function_integrity_checks
 }
 {
 %
+endcall
+%
+}
+{
+%
 endfilter
 %
 }
@@ -1082,6 +1092,11 @@ iter_ffi_function_definitions_excluding_integrity_checks
 (
 )
 )
+%
+}
+{
+%
+endcall
 %
 }
 {
@@ -1240,10 +1255,6 @@ name
 expected_checksum
 }
 }
-.
-toShort
-(
-)
 )
 {
 throw

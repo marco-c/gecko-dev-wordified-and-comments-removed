@@ -2,12 +2,6 @@ use
 super
 :
 :
-Span
-;
-use
-super
-:
-:
 APOSTROPHE
 ;
 use
@@ -21,6 +15,12 @@ super
 :
 :
 QUOTATION_MARK
+;
+use
+super
+:
+:
+Span
 ;
 use
 super

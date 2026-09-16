@@ -4,6 +4,13 @@ askama
 :
 Result
 ;
+#
+[
+askama
+:
+:
+filter_fn
+]
 pub
 fn
 docstring
@@ -158,6 +165,13 @@ indent
 )
 )
 }
+#
+[
+askama
+:
+:
+filter_fn
+]
 pub
 fn
 import_statement
