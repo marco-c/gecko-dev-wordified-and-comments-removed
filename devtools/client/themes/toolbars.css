@@ -1054,11 +1054,12 @@ hover
 {
 background
 :
-rgba
+rgb
 (
 0
 0
 0
+/
 0
 .
 12
@@ -1081,11 +1082,12 @@ active
 {
 background
 :
-rgba
+rgb
 (
 0
 0
 0
+/
 0
 .
 2

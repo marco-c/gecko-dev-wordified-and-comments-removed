@@ -1494,11 +1494,12 @@ background
 -
 color
 :
-rgba
+rgb
 (
 0
 0
 0
+/
 0
 .
 1
@@ -2873,11 +2874,12 @@ resource
 {
 color
 :
-rgba
+rgb
 (
 255
 255
 255
+/
 0
 .
 75

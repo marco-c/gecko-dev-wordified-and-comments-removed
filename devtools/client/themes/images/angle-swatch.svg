@@ -292,11 +292,12 @@ stroke
 context
 -
 stroke
-rgba
+rgb
 (
 0
 0
 0
+/
 0
 .
 5
@@ -344,11 +345,12 @@ stroke
 context
 -
 stroke
-rgba
+rgb
 (
 0
 0
 0
+/
 0
 .
 5
