@@ -248,12 +248,12 @@ API
 )
 or
 higher
-*
 and
 if
 the
 AppWidgetManager
 supports
+*
 pinning
 app
 widgets
@@ -263,7 +263,6 @@ both
 conditions
 are
 met
-*
 it
 requests
 to
@@ -356,7 +355,6 @@ successCallback
 /
 *
 *
-*
 Checks
 whether
 the
@@ -381,8 +379,13 @@ canShowAddSearchWidgetPrompt
 appWidgetManager
 :
 AppWidgetManager
+?
 )
 =
 appWidgetManager
+?
 .
 isRequestPinAppWidgetSupported
+=
+=
+true
