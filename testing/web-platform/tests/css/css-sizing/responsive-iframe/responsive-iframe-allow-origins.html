@@ -82,7 +82,7 @@ content
 origin
 =
 same
-allowed
+allow
 =
 star
 expect
@@ -104,7 +104,7 @@ content
 origin
 =
 same
-allowed
+allow
 =
 parent
 expect
@@ -126,7 +126,7 @@ content
 origin
 =
 same
-allowed
+allow
 =
 other
 expect
@@ -148,7 +148,7 @@ content
 origin
 =
 same
-allowed
+allow
 =
 wildcard
 expect
@@ -170,7 +170,7 @@ content
 origin
 =
 same
-allowed
+allow
 =
 http
 expect
@@ -192,7 +192,7 @@ content
 origin
 =
 same
-allowed
+allow
 =
 https
 expect
@@ -214,7 +214,7 @@ content
 origin
 =
 same
-allowed
+allow
 =
 self
 expect
@@ -236,7 +236,7 @@ content
 origin
 =
 same
-allowed
+allow
 =
 none
 expect
@@ -258,7 +258,7 @@ content
 origin
 =
 same
-allowed
+allow
 =
 multiple
 expect
@@ -280,7 +280,7 @@ content
 origin
 =
 same
-allowed
+allow
 =
 no
 -
@@ -304,7 +304,7 @@ content
 origin
 =
 same
-allowed
+allow
 =
 invalid
 -
@@ -328,7 +328,7 @@ content
 origin
 =
 same
-allowed
+allow
 =
 uppercase
 -
@@ -352,7 +352,7 @@ content
 origin
 =
 same
-allowed
+allow
 =
 space
 expect
@@ -374,7 +374,7 @@ content
 origin
 =
 same
-allowed
+allow
 =
 empty
 expect
@@ -396,7 +396,7 @@ content
 origin
 =
 same
-allowed
+allow
 =
 missing
 expect
@@ -418,7 +418,7 @@ content
 origin
 =
 cross
-allowed
+allow
 =
 star
 expect
@@ -440,7 +440,7 @@ content
 origin
 =
 cross
-allowed
+allow
 =
 parent
 expect
@@ -462,7 +462,7 @@ content
 origin
 =
 cross
-allowed
+allow
 =
 child
 expect
@@ -484,7 +484,7 @@ content
 origin
 =
 cross
-allowed
+allow
 =
 self
 expect
@@ -506,7 +506,7 @@ content
 origin
 =
 cross
-allowed
+allow
 =
 other
 expect
@@ -528,7 +528,7 @@ content
 origin
 =
 subdomain
-allowed
+allow
 =
 star
 expect
@@ -550,7 +550,7 @@ content
 origin
 =
 subdomain
-allowed
+allow
 =
 parent
 expect
@@ -572,7 +572,7 @@ content
 origin
 =
 subdomain
-allowed
+allow
 =
 child
 expect
@@ -597,7 +597,7 @@ subdomain
 origin
 =
 same
-allowed
+allow
 =
 wildcard
 expect
@@ -622,7 +622,7 @@ subdomain
 origin
 =
 cross
-allowed
+allow
 =
 wildcard
 expect
@@ -804,14 +804,14 @@ same
 '
 ;
 const
-allowedType
+allowType
 =
 params
 .
 get
 (
 '
-allowed
+allow
 '
 )
 |
@@ -853,10 +853,10 @@ origin
 {
 originType
 }
-allowed
+allow
 =
 {
-allowedType
+allowType
 }
 ;
 const
@@ -867,13 +867,13 @@ location
 origin
 ;
 function
-computeAllowedParam
+computeAllowParam
 (
 )
 {
 switch
 (
-allowedType
+allowType
 )
 {
 case
@@ -1254,7 +1254,7 @@ const
 fileName
 =
 (
-allowedType
+allowType
 =
 =
 =
@@ -1312,9 +1312,9 @@ href
 pathname
 ;
 const
-allowedParam
+allowParam
 =
-computeAllowedParam
+computeAllowParam
 (
 )
 ;
@@ -1322,7 +1322,7 @@ const
 query
 =
 (
-allowedType
+allowType
 =
 =
 =
@@ -1335,12 +1335,12 @@ missing
 '
 :
 ?
-allowed
+allow
 =
 {
 encodeURIComponent
 (
-allowedParam
+allowParam
 )
 }
 ;
@@ -1527,7 +1527,7 @@ iframe
 )
 ;
 }
-Allowed
+Allow
 origins
 check
 :
