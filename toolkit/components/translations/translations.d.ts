@@ -1098,6 +1098,16 @@ type
 "
 TranslationsPort
 :
+Close
+"
+}
+|
+{
+type
+:
+"
+TranslationsPort
+:
 Passthrough
 "
 ;
