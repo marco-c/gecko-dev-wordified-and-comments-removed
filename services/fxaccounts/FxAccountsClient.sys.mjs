@@ -3924,10 +3924,8 @@ body
 *
 Update
 the
-session
-or
-name
-for
+details
+of
 an
 existing
 device
@@ -3956,6 +3954,17 @@ name
 *
 Device
 name
+*
+param
+type
+*
+Device
+type
+(
+mobile
+|
+desktop
+)
 *
 param
 [
@@ -4055,6 +4064,7 @@ updateDevice
 sessionTokenHex
 id
 name
+type
 options
 =
 {
@@ -4089,6 +4099,7 @@ body
 {
 id
 name
+type
 }
 ;
 if

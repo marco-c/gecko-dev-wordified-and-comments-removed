@@ -4394,6 +4394,15 @@ name
 "
 ;
 const
+DEVICE_TYPE
+=
+"
+some
+other
+type
+"
+;
+const
 ERROR_ID
 =
 "
@@ -4455,6 +4464,7 @@ body
 name
 |
 |
+!
 body
 .
 type
@@ -4471,7 +4481,7 @@ length
 !
 =
 =
-2
+3
 )
 {
 response
@@ -4605,6 +4615,7 @@ updateDevice
 FAKE_SESSION_TOKEN
 DEVICE_ID
 DEVICE_NAME
+DEVICE_TYPE
 )
 ;
 Assert
@@ -4626,7 +4637,7 @@ result
 )
 .
 length
-2
+3
 )
 ;
 Assert
@@ -4649,6 +4660,16 @@ name
 DEVICE_NAME
 )
 ;
+Assert
+.
+equal
+(
+result
+.
+type
+DEVICE_TYPE
+)
+;
 try
 {
 await
@@ -4659,6 +4680,7 @@ updateDevice
 FAKE_SESSION_TOKEN
 ERROR_ID
 DEVICE_NAME
+DEVICE_TYPE
 )
 ;
 do_throw
