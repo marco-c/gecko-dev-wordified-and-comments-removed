@@ -232,6 +232,11 @@ no
 -
 cors
 '
+credentials
+:
+'
+include
+'
 cache
 :
 '
