@@ -94,6 +94,16 @@ UNIFIED_SOURCES
 =
 [
 "
+TestMFMediaSourceProtection
+.
+cpp
+"
+"
+TestMFPMPHostWrapper
+.
+cpp
+"
+"
 TestMFProtectedPathReadinessMonitor
 .
 cpp
