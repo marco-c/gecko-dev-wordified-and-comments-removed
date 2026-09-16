@@ -2833,6 +2833,16 @@ return
 false
 ;
 }
+SurfaceDescriptor
+GetSurfaceDescriptor
+(
+)
+override
+;
+const
+AndroidImageReaderImageDescriptor
+mDescriptor
+;
 const
 layers
 :
