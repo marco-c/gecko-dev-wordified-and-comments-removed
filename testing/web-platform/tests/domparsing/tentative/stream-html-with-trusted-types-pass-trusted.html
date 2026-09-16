@@ -389,14 +389,7 @@ assert_true
 (
 trusted_options
 instanceof
-TrustedParserOptions
-)
-;
-assert_true
-(
-trusted_options
-.
-runScripts
+TrustedHTMLParserOptions
 )
 ;
 const
@@ -478,7 +471,7 @@ true
 }
 A
 given
-TrustedParserOptions
+TrustedHTMLParserOptions
 can
 override
 default
@@ -614,7 +607,7 @@ assert_true
 (
 trusted_options
 instanceof
-TrustedParserOptions
+TrustedHTMLParserOptions
 )
 ;
 const
@@ -721,7 +714,7 @@ present
 }
 A
 given
-TrustedParserOptions
+TrustedHTMLParserOptions
 can
 override
 default
