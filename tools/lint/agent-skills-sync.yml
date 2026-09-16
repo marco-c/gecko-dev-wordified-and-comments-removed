@@ -37,14 +37,6 @@ agents
 /
 skills
 '
-extensions
-:
--
-md
--
-py
--
-sh
 support
 -
 files
