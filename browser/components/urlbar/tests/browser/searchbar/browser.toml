@@ -44,13 +44,6 @@ true
 ]
 [
 "
-browser_inputmode
-.
-js
-"
-]
-[
-"
 browser_new_searchbar_init
 .
 js
