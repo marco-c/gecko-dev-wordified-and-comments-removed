@@ -5,10 +5,6 @@ os
 import
 sys
 from
-collections
-import
-OrderedDict
-from
 urllib
 .
 parse
@@ -2131,45 +2127,39 @@ options
         
 manifests
 =
-OrderedDict
-(
-[
+{
             
-(
 "
 reftest
 .
 list
 "
+:
 "
 reftest
 "
-)
             
-(
 "
 crashtests
 .
 list
 "
+:
 "
 crashtest
 "
-)
             
-(
 "
 jstests
 .
 list
 "
+:
 "
 jstestbrowser
 "
-)
         
-]
-)
+}
         
 for
 test_path
