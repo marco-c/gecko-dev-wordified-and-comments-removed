@@ -421,12 +421,6 @@ wasm32
 wasi
 -
 terser
--
-newtab
--
-node
--
-modules
 optimization
 :
 skip

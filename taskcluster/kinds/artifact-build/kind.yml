@@ -257,12 +257,6 @@ toolchain
 :
 -
 terser
--
-newtab
--
-node
--
-modules
 tasks
 :
 linux64

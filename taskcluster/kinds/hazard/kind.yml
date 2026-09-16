@@ -475,12 +475,6 @@ sysroot
 wasm32
 -
 wasi
--
-newtab
--
-node
--
-modules
 optimization
 :
 skip

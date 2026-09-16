@@ -245,16 +245,6 @@ system
 PERFHERDER_EXTRA_OPTIONS
 :
 searchfox
-fetches
-:
-toolchain
-:
--
-newtab
--
-node
--
-modules
 tasks
 :
 linux64

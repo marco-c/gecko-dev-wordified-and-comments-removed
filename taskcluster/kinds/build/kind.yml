@@ -222,12 +222,6 @@ toolchain
 :
 -
 terser
--
-newtab
--
-node
--
-modules
 run
 :
 clone
