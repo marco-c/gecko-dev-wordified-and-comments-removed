@@ -320,6 +320,8 @@ startQuery
 (
 context
 controller
+.
+parentController
 )
 ;
 providersManager

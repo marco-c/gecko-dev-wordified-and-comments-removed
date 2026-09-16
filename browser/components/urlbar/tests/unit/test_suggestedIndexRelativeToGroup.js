@@ -1421,7 +1421,9 @@ suggestedIndex
 ]
 ;
 let
-controller
+{
+parentController
+}
 =
 UrlbarTestUtils
 .
@@ -1535,7 +1537,7 @@ providersManager
 startQuery
 (
 context
-controller
+parentController
 )
 ;
 let

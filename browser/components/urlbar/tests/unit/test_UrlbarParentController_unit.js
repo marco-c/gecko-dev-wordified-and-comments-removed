@@ -790,6 +790,8 @@ results
 ;
 controller
 .
+parentController
+.
 receiveResults
 (
 context
