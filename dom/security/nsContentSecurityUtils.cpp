@@ -6001,7 +6001,7 @@ aElement
 )
 {
 auto
-containsScriptOrStyle
+containsLinkScriptOrStyle
 =
 [
 ]
@@ -6013,6 +6013,20 @@ aStr
 )
 {
 return
+aStr
+.
+LowerCaseFindASCII
+(
+"
+<
+link
+"
+)
+!
+=
+kNotFound
+|
+|
 aStr
 .
 LowerCaseFindASCII
@@ -6090,7 +6104,7 @@ GetPrefix
 {
 if
 (
-containsScriptOrStyle
+containsLinkScriptOrStyle
 (
 nsDependentAtomString
 (
@@ -6108,7 +6122,7 @@ EmptyString
 }
 if
 (
-containsScriptOrStyle
+containsLinkScriptOrStyle
 (
 nsDependentAtomString
 (
@@ -6140,7 +6154,7 @@ value
 ;
 if
 (
-containsScriptOrStyle
+containsLinkScriptOrStyle
 (
 value
 )
