@@ -1721,6 +1721,9 @@ enableThirdPartySharingForPartner
 MOLOCO_PARTNER_ID
 )
 isUserRakutenAttributed
+|
+|
+isUserSkyflagAttributed
 -
 >
 controller
@@ -1729,16 +1732,6 @@ enableThirdPartySharingForPartner
 (
 DYNAMIC_CALLBACK_ID
 )
-isUserSkyflagAttributed
--
->
-{
-/
-/
-no
--
-op
-}
 else
 -
 >
