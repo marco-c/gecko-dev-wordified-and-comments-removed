@@ -618,16 +618,6 @@ WORK
 "
         
 "
-GECKO_PATH
-"
-:
-"
-.
-/
-src
-"
-        
-"
 UPLOAD_DIR
 "
 :
@@ -772,6 +762,8 @@ exe
 '
 "
 .
+/
+build
 /
 src
 /
