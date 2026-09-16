@@ -3590,6 +3590,16 @@ browsingContext
 await
 contextMenuShownPromise
 ;
+await
+doc
+.
+defaultView
+.
+gContextMenu
+?
+.
+passwordItemsReady
+;
 if
 (
 assertCallback
