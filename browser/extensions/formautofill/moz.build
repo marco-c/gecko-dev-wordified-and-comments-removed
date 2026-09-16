@@ -156,6 +156,17 @@ test
 /
 browser
 /
+performance
+/
+perftest
+.
+toml
+"
+"
+test
+/
+browser
+/
 rust
 /
 browser
