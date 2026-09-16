@@ -482,6 +482,11 @@ TestSimpleMap
 cpp
 "
 "
+TestSpeechModelMapping
+.
+cpp
+"
+"
 TestTelemetryProbesReporter
 .
 cpp
