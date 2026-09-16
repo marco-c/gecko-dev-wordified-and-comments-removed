@@ -45,10 +45,10 @@ xmlparse
 .
 c
 -
-3456
+3499
 9
 +
-3456
+3499
 16
 doContentInternal
 (
@@ -160,10 +160,10 @@ return
 XML_ERROR_RECURSIVE_ENTITY_REF
 ;
 -
-6848
+6903
 7
 +
-6855
+6910
 13
 appendAttributeValue
 (

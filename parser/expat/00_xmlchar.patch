@@ -206,10 +206,10 @@ xmlparse
 .
 c
 -
-197
+200
 6
 +
-197
+200
 9
 typedef
 char
@@ -243,10 +243,10 @@ XML_UNICODE
 ifdef
 XML_UNICODE_WCHAR_T
 -
-214
+217
 6
 +
-217
+220
 9
 typedef
 char
