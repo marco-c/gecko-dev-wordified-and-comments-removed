@@ -330,6 +330,14 @@ parakeet_stream
 s
 )
 ;
+int
+parakeet_capi_stream_chunk_samples
+(
+parakeet_stream
+*
+s
+)
+;
 typedef
 struct
 parakeet_stream_event
