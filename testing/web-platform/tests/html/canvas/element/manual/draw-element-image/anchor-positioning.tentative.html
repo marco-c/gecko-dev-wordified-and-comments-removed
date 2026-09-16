@@ -289,6 +289,9 @@ getContext
 '
 )
 ;
+let
+matrix
+=
 context
 .
 drawElementImage
@@ -296,6 +299,13 @@ drawElementImage
 anchor
 50
 50
+)
+;
+anchor
+.
+setCanvasTransform
+(
+matrix
 )
 ;
 takeScreenshot
