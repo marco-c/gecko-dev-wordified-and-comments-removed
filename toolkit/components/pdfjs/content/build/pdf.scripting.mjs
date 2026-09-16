@@ -143,7 +143,6 @@ the
 License
 .
 *
-*
 licend
 The
 above
@@ -172,11 +171,11 @@ pdfjsVersion
 .
 3
 .
-280
+335
 *
 pdfjsBuild
 =
-c3257df8d
+74515c623
 *
 /
 ;
