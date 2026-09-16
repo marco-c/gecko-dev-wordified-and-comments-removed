@@ -179,7 +179,7 @@ UniFFIScaffolding
 .
 callSync
 (
-76
+81
 /
 /
 uniffi_logins_fn_func_check_canary
@@ -291,7 +291,7 @@ UniFFIScaffolding
 .
 callSync
 (
-77
+82
 /
 /
 uniffi_logins_fn_func_create_canary
@@ -370,7 +370,7 @@ UniFFIScaffolding
 .
 callSync
 (
-78
+83
 /
 /
 uniffi_logins_fn_func_create_key
@@ -450,7 +450,7 @@ UniFFIScaffolding
 .
 callSync
 (
-79
+84
 /
 /
 uniffi_logins_fn_func_create_login_store_with_nss_keymanager
@@ -557,7 +557,7 @@ UniFFIScaffolding
 .
 callSync
 (
-80
+85
 /
 /
 uniffi_logins_fn_func_create_login_store_with_static_key_manager
@@ -640,7 +640,7 @@ UniFFIScaffolding
 .
 callSync
 (
-81
+86
 /
 /
 uniffi_logins_fn_func_create_managed_encdec
@@ -764,7 +764,7 @@ UniFFIScaffolding
 .
 callSync
 (
-82
+87
 /
 /
 uniffi_logins_fn_func_create_static_key_manager
@@ -10464,7 +10464,7 @@ UniFFIScaffolding
 .
 callSync
 (
-83
+88
 /
 /
 uniffi_logins_fn_method_encryptordecryptor_decrypt
@@ -10540,7 +10540,7 @@ UniFFIScaffolding
 .
 callSync
 (
-84
+89
 /
 /
 uniffi_logins_fn_method_encryptordecryptor_encrypt
@@ -11267,7 +11267,7 @@ UniFFIScaffolding
 .
 callSync
 (
-85
+90
 /
 /
 uniffi_logins_fn_method_keymanager_get_key
@@ -13373,7 +13373,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-86
+91
 /
 /
 uniffi_logins_fn_method_loginsbridgedengine_apply
@@ -13455,7 +13455,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-87
+92
 /
 /
 uniffi_logins_fn_method_loginsbridgedengine_ensure_current_sync_id
@@ -13523,7 +13523,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-88
+93
 /
 /
 uniffi_logins_fn_method_loginsbridgedengine_last_sync
@@ -13576,7 +13576,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-89
+94
 /
 /
 uniffi_logins_fn_method_loginsbridgedengine_reset
@@ -13627,7 +13627,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-90
+95
 /
 /
 uniffi_logins_fn_method_loginsbridgedengine_reset_last_sync
@@ -13687,7 +13687,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-91
+96
 /
 /
 uniffi_logins_fn_method_loginsbridgedengine_reset_sync_id
@@ -13772,7 +13772,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-92
+97
 /
 /
 uniffi_logins_fn_method_loginsbridgedengine_set_uploaded
@@ -13853,7 +13853,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-93
+98
 /
 /
 uniffi_logins_fn_method_loginsbridgedengine_store_incoming
@@ -13910,7 +13910,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-94
+99
 /
 /
 uniffi_logins_fn_method_loginsbridgedengine_sync_finished
@@ -13971,7 +13971,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-95
+100
 /
 /
 uniffi_logins_fn_method_loginsbridgedengine_sync_id
@@ -14024,7 +14024,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-96
+101
 /
 /
 uniffi_logins_fn_method_loginsbridgedengine_sync_started
@@ -14075,7 +14075,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-97
+102
 /
 /
 uniffi_logins_fn_method_loginsbridgedengine_wipe
@@ -17395,7 +17395,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-98
+103
 /
 /
 uniffi_logins_fn_constructor_loginstore_new
@@ -17477,7 +17477,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-99
+104
 /
 /
 uniffi_logins_fn_method_loginstore_add
@@ -17571,7 +17571,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-100
+105
 /
 /
 uniffi_logins_fn_method_loginstore_add_many
@@ -17665,7 +17665,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-101
+106
 /
 /
 uniffi_logins_fn_method_loginstore_add_many_with_meta
@@ -17747,7 +17747,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-102
+107
 /
 /
 uniffi_logins_fn_method_loginstore_add_or_update
@@ -17829,7 +17829,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-103
+108
 /
 /
 uniffi_logins_fn_method_loginstore_add_with_meta
@@ -17968,7 +17968,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-104
+109
 /
 /
 uniffi_logins_fn_method_loginstore_are_potentially_vulnerable_passwords
@@ -18075,7 +18075,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-105
+110
 /
 /
 uniffi_logins_fn_method_loginstore_bridged_engine
@@ -18137,7 +18137,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-106
+111
 /
 /
 uniffi_logins_fn_method_loginstore_count
@@ -18213,7 +18213,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-107
+112
 /
 /
 uniffi_logins_fn_method_loginstore_count_by_form_action_origin
@@ -18295,7 +18295,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-108
+113
 /
 /
 uniffi_logins_fn_method_loginstore_count_by_origin
@@ -18377,7 +18377,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-109
+114
 /
 /
 uniffi_logins_fn_method_loginstore_delete
@@ -18460,7 +18460,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-110
+115
 /
 /
 uniffi_logins_fn_method_loginstore_delete_all
@@ -18545,7 +18545,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-111
+116
 /
 /
 uniffi_logins_fn_method_loginstore_delete_all_except_fxa
@@ -18629,7 +18629,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-112
+117
 /
 /
 uniffi_logins_fn_method_loginstore_delete_many
@@ -18763,7 +18763,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-113
+118
 /
 /
 uniffi_logins_fn_method_loginstore_delete_undecryptable_records_for_remote_replacement
@@ -18840,7 +18840,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-114
+119
 /
 /
 uniffi_logins_fn_method_loginstore_find_login_to_update
@@ -18923,7 +18923,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-115
+120
 /
 /
 uniffi_logins_fn_method_loginstore_get
@@ -19009,7 +19009,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-116
+121
 /
 /
 uniffi_logins_fn_method_loginstore_get_by_base_domain
@@ -19125,7 +19125,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-117
+122
 /
 /
 uniffi_logins_fn_method_loginstore_get_many
@@ -19207,7 +19207,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-118
+123
 /
 /
 uniffi_logins_fn_method_loginstore_has_logins_by_base_domain
@@ -19275,7 +19275,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-119
+124
 /
 /
 uniffi_logins_fn_method_loginstore_is_empty
@@ -19414,7 +19414,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-120
+125
 /
 /
 uniffi_logins_fn_method_loginstore_is_potentially_vulnerable_password
@@ -19486,7 +19486,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-121
+126
 /
 /
 uniffi_logins_fn_method_loginstore_list
@@ -19583,7 +19583,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-122
+127
 /
 /
 uniffi_logins_fn_method_loginstore_list_candidates
@@ -19661,7 +19661,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-123
+128
 /
 /
 uniffi_logins_fn_method_loginstore_record_breach_alert_dismissal
@@ -19760,7 +19760,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-124
+129
 /
 /
 uniffi_logins_fn_method_loginstore_record_breach_alert_dismissal_time
@@ -19892,7 +19892,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-125
+130
 /
 /
 uniffi_logins_fn_method_loginstore_record_potentially_vulnerable_passwords
@@ -19949,7 +19949,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-126
+131
 /
 /
 uniffi_logins_fn_method_loginstore_register_with_sync_manager
@@ -19993,7 +19993,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-127
+132
 /
 /
 uniffi_logins_fn_method_loginstore_reset
@@ -20048,7 +20048,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-128
+133
 /
 /
 uniffi_logins_fn_method_loginstore_reset_all_breaches
@@ -20145,7 +20145,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-129
+134
 /
 /
 uniffi_logins_fn_method_loginstore_run_maintenance
@@ -20202,7 +20202,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-130
+135
 /
 /
 uniffi_logins_fn_method_loginstore_shutdown
@@ -20260,7 +20260,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-131
+136
 /
 /
 uniffi_logins_fn_method_loginstore_touch
@@ -20354,7 +20354,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-132
+137
 /
 /
 uniffi_logins_fn_method_loginstore_update
@@ -20535,7 +20535,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-133
+138
 /
 /
 uniffi_logins_fn_method_loginstore_wipe_local
@@ -20596,7 +20596,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-134
+139
 /
 /
 uniffi_logins_fn_method_loginstore_wipe_local_except_fxa
@@ -20987,7 +20987,7 @@ UniFFIScaffolding
 .
 callSync
 (
-135
+140
 /
 /
 uniffi_logins_fn_constructor_managedencryptordecryptor_new
@@ -22158,7 +22158,7 @@ UniFFIScaffolding
 .
 callSync
 (
-136
+141
 /
 /
 uniffi_logins_fn_constructor_nsskeymanager_new
@@ -22207,7 +22207,7 @@ UniFFIScaffolding
 .
 callSync
 (
-137
+142
 /
 /
 uniffi_logins_fn_method_nsskeymanager_into_dyn_key_manager
@@ -22742,7 +22742,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-138
+143
 /
 /
 uniffi_logins_fn_method_primarypasswordauthenticator_get_primary_password
@@ -22795,7 +22795,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-139
+144
 /
 /
 uniffi_logins_fn_method_primarypasswordauthenticator_on_authentication_success
@@ -22846,7 +22846,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-140
+145
 /
 /
 uniffi_logins_fn_method_primarypasswordauthenticator_on_authentication_failure
@@ -23590,7 +23590,7 @@ UniFFIScaffolding
 .
 callSync
 (
-141
+146
 /
 /
 uniffi_logins_fn_constructor_statickeymanager_new

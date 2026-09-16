@@ -150,17 +150,6 @@ thiserror
 "
 2
 "
-url
-=
-{
-version
-=
-"
-2
-.
-1
-"
-}
 [
 dev
 -

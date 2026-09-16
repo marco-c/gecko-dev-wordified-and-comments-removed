@@ -52,4 +52,6 @@ generate
 documentation
 .
 "
+exit
+1
 fi

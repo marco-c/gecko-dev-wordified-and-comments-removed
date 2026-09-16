@@ -2723,9 +2723,6 @@ types
 "
 uniffi
 "
-"
-url
-"
 ]
 [
 [
@@ -3971,9 +3968,6 @@ thiserror
 "
 "
 uniffi
-"
-"
-url
 "
 ]
 [
@@ -24131,6 +24125,9 @@ thiserror
 12
 "
 "
+types
+"
+"
 uniffi
 "
 "
@@ -41208,6 +41205,9 @@ support
 lazy_static
 "
 "
+libc
+"
+"
 parking_lot
 "
 "
@@ -41233,6 +41233,9 @@ thiserror
 0
 .
 12
+"
+"
+url
 "
 ]
 [

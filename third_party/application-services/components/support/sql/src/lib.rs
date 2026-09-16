@@ -27,6 +27,7 @@ each_chunk
 mod
 lazy
 ;
+pub
 mod
 maintenance
 ;
@@ -36,6 +37,10 @@ maybe_cached
 pub
 mod
 open_database
+;
+pub
+mod
+path
 ;
 mod
 repeat

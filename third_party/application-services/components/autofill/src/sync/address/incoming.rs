@@ -17,7 +17,6 @@ addresses
 {
 add_internal_address
 update_internal_address
-CounterUpdate
 }
 ;
 use
@@ -46,6 +45,15 @@ schema
 :
 :
 ADDRESS_COMMON_COLS
+;
+use
+crate
+:
+:
+db
+:
+:
+CounterUpdate
 ;
 use
 crate

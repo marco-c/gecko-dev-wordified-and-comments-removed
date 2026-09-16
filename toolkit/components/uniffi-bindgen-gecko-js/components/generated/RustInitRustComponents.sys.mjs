@@ -211,7 +211,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-75
+80
 /
 /
 uniffi_init_rust_components_fn_func_initialize

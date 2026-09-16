@@ -67,6 +67,7 @@ Ok
 )
 )
 }
+pub
 fn
 vacuum
 (
