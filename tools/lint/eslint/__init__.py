@@ -1234,6 +1234,23 @@ update
 hint
 "
 :
+(
+                    
+"
+This
+issue
+can
+be
+fixed
+automatically
+with
+-
+-
+fix
+.
+"
+                    
+if
 err
 .
 get
@@ -1241,6 +1258,11 @@ get
 "
 fix
 "
+)
+                    
+else
+None
+                
 )
                 
 "
