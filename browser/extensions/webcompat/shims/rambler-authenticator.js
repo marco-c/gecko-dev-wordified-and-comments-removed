@@ -88,6 +88,7 @@ pathname
 =
 =
 "
+/
 rambler
 -
 id
@@ -393,6 +394,10 @@ successCallback
 openAuth
 :
 (
+.
+.
+.
+openAuthArgs
 )
 =
 >
@@ -406,15 +411,11 @@ optIn
 .
 then
 (
-function
 (
 )
-{
-const
-openAuthArgs
 =
-arguments
-;
+>
+{
 window
 .
 ramblerIdHelper
@@ -527,6 +528,10 @@ fn
 ]
 =
 (
+.
+.
+.
+args
 )
 =
 >
@@ -538,8 +543,6 @@ push
 {
 fn
 args
-:
-arguments
 }
 )
 ;
