@@ -810,9 +810,6 @@ MotionEvent
 "
 SurfaceTexture
 "
-"
-ViewConfiguration
-"
 ]
 SOURCES
 +
