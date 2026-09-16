@@ -36,6 +36,11 @@ HWInferenceParent
 .
 h
 "
+"
+HWInferenceTypes
+.
+h
+"
 ]
 UNIFIED_SOURCES
 +
