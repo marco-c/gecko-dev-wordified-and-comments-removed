@@ -329,11 +329,9 @@ True
     
 assert
 fixed
-in
-{
+=
+=
 3
-4
-}
 if
 __name__
 =

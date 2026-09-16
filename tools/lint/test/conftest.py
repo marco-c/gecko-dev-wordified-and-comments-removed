@@ -1787,7 +1787,27 @@ join
 name
 )
         
+with
+open
+(
 path
+.
+strpath
+"
+w
+"
+newline
+=
+"
+\
+n
+"
+)
+as
+fh
+:
+            
+fh
 .
 write
 (
