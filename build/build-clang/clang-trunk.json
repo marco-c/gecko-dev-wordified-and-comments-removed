@@ -116,6 +116,13 @@ hack
 patch
 "
 "
+filter
+-
+symbols_clang_23
+.
+patch
+"
+"
 no
 -
 no
