@@ -143,6 +143,11 @@ CanvasRenderThread
 >
 sCanvasRenderThread
 ;
+[
+[
+maybe_unused
+]
+]
 static
 mozilla
 :

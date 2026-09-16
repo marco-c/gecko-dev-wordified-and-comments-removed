@@ -490,6 +490,11 @@ RenderThread
 >
 sRenderThread
 ;
+[
+[
+maybe_unused
+]
+]
 static
 mozilla
 :
