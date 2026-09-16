@@ -13580,7 +13580,7 @@ setInitialTabTitle
 (
 aTab
 aTitle
-aOptions
+options
 =
 {
 }
@@ -13606,7 +13606,7 @@ title
 if
 (
 !
-aOptions
+options
 .
 isContentTitle
 &
@@ -13662,7 +13662,7 @@ setTabLabel
 (
 aTab
 aTitle
-aOptions
+options
 )
 ;
 }
@@ -17191,7 +17191,7 @@ updateBrowserRemotenessByURL
 (
 aBrowser
 aURL
-aOptions
+options
 =
 {
 }
@@ -17232,7 +17232,7 @@ aBrowser
 .
 remoteType
 ;
-aOptions
+options
 .
 remoteType
 =
@@ -17291,12 +17291,12 @@ if
 oldRemoteType
 !
 =
-aOptions
+options
 .
 remoteType
 |
 |
-aOptions
+options
 .
 newFrameloader
 )
@@ -17307,7 +17307,7 @@ this
 updateBrowserRemoteness
 (
 aBrowser
-aOptions
+options
 )
 ;
 }
@@ -34496,7 +34496,7 @@ param
 object
 }
 [
-aParams
+options
 ]
 *
 An
@@ -34520,7 +34520,7 @@ param
 boolean
 }
 [
-aParams
+options
 .
 skipWarnAboutClosingTabs
 ]
@@ -34539,7 +34539,7 @@ param
 boolean
 }
 [
-aParams
+options
 .
 skipPinnedOrSelectedTabs
 =
@@ -37096,7 +37096,7 @@ closedTabCount
 }
 }
 let
-aParams
+removeTabOptions
 =
 {
 animate
@@ -37146,7 +37146,7 @@ this
 removeTab
 (
 tab
-aParams
+removeTabOptions
 )
 ;
 if
@@ -37209,7 +37209,7 @@ this
 removeTab
 (
 lastToClose
-aParams
+removeTabOptions
 )
 ;
 if
@@ -37285,7 +37285,7 @@ avoidSingleSelectedTab
 }
 removeCurrentTab
 (
-aParams
+options
 )
 {
 this
@@ -37295,7 +37295,7 @@ removeTab
 this
 .
 selectedTab
-aParams
+options
 )
 ;
 }
@@ -46253,7 +46253,7 @@ param
 object
 }
 [
-aOptions
+options
 =
 {
 }
@@ -46277,7 +46277,7 @@ string
 replaceTabWithWindow
 (
 aTab
-aOptions
+options
 =
 {
 }
@@ -46480,7 +46480,7 @@ Object
 .
 entries
 (
-aOptions
+options
 )
 .
 map
@@ -46593,7 +46593,7 @@ param
 object
 }
 [
-aOptions
+options
 ]
 *
 Key
@@ -46614,7 +46614,7 @@ string
 replaceTabsWithWindow
 (
 contextTab
-aOptions
+options
 =
 {
 }
@@ -46648,7 +46648,7 @@ this
 replaceTabWithWindow
 (
 contextTab
-aOptions
+options
 )
 ;
 }
@@ -46712,7 +46712,7 @@ TabMetrics
 METRIC_ACTION
 .
 DETACH
-aOptions
+options
 .
 metricsContext
 {
@@ -46743,7 +46743,7 @@ elements
 [
 0
 ]
-aOptions
+options
 )
 ;
 }
@@ -46976,7 +46976,7 @@ this
 replaceTabWithWindow
 (
 selectedTab
-aOptions
+options
 )
 ;
 win
@@ -52532,7 +52532,7 @@ param
 object
 }
 [
-aOptions
+options
 ]
 *
 Takes
@@ -52556,7 +52556,7 @@ duplicateTab
 (
 aTab
 aRestoreTabImmediately
-aOptions
+options
 )
 {
 let
@@ -52574,7 +52574,7 @@ documentGlobal
 aTab
 0
 aRestoreTabImmediately
-aOptions
+options
 )
 ;
 if
