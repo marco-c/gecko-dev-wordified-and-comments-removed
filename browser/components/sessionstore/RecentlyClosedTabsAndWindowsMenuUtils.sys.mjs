@@ -1365,7 +1365,7 @@ lazy
 .
 SessionStore
 .
-undoCloseTabFromClosedWindow
+undoClosedTabFromClosedWindow
 (
 {
 sourceClosedId
