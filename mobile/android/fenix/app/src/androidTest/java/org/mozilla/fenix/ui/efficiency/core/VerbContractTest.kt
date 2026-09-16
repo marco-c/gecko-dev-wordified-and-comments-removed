@@ -300,7 +300,7 @@ applyPreconditions
 Boolean
 )
 :
-Any
+UiElement
 ?
 {
 locateCalls

@@ -1680,7 +1680,10 @@ ElementState
 .
 probe
 (
+ComposeUiElement
+(
 node
+)
 ElementState
 .
 Trait

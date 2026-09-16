@@ -467,7 +467,7 @@ Boolean
 )
 -
 >
-Any
+UiElement
 ?
 )
 ?
@@ -476,7 +476,7 @@ null
 predicate
 :
 (
-Any
+UiElement
 )
 -
 >
@@ -488,7 +488,7 @@ true
 action
 :
 (
-Any
+UiElement
 )
 -
 >
@@ -1885,7 +1885,7 @@ false
 probe
 :
 (
-Any
+UiElement
 )
 -
 >
@@ -3252,14 +3252,14 @@ Probe
 val
 located
 :
-Any
+UiElement
 ?
 =
 null
 val
 matched
 :
-Any
+UiElement
 ?
 =
 null
@@ -3313,7 +3313,7 @@ Boolean
 predicate
 :
 (
-Any
+UiElement
 )
 -
 >
@@ -3327,7 +3327,7 @@ Boolean
 )
 -
 >
-Any
+UiElement
 ?
 )
 ?
@@ -3340,7 +3340,7 @@ Probe
 var
 seen
 :
-Any
+UiElement
 ?
 =
 null
@@ -3349,7 +3349,7 @@ once
 (
 )
 :
-Any
+UiElement
 ?
 {
 val

@@ -167,7 +167,7 @@ applyPreconditions
 Boolean
 )
 :
-Any
+UiElement
 ?
 /
 *
