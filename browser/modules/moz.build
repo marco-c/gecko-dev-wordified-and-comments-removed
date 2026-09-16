@@ -1215,6 +1215,13 @@ sys
 .
 mjs
 "
+"
+UIDensityTelemetry
+.
+sys
+.
+mjs
+"
 ]
 if
 CONFIG

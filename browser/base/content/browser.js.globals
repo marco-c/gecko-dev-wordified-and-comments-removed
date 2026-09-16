@@ -420,6 +420,9 @@ TelemetryEnvironment
 TranslationsParent
 "
 "
+UIDensityTelemetry
+"
+"
 UITour
 "
 "
