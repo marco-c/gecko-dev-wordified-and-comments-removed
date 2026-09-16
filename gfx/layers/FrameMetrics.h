@@ -1988,6 +1988,7 @@ uint8_t
 (
 Auto
 Contain
+Chain
 None
 )
 )
