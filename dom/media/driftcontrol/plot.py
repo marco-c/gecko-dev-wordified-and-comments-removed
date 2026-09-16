@@ -1,9 +1,5 @@
 import
 argparse
-from
-collections
-import
-OrderedDict
 import
 pandas
 from
@@ -170,9 +166,7 @@ tabs
 for
 id
 in
-list
-(
-OrderedDict
+dict
 .
 fromkeys
 (
@@ -182,7 +176,6 @@ all_df
 id
 "
 ]
-)
 )
 :
         
