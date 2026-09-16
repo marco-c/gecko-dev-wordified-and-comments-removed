@@ -10328,11 +10328,7 @@ newFactory
 )
 ;
 return
-{
-originalCID
-:
 currentCID
-}
 ;
 }
 _getElement
