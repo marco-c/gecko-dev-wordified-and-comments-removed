@@ -599,11 +599,6 @@ page
 feature
 -
 callout
-contextual
--
-feature
--
-recommendation
 about
 -
 welcome

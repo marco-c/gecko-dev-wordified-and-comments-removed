@@ -185,13 +185,6 @@ js
 ]
 [
 "
-test_CFRMessageProvider
-.
-js
-"
-]
-[
-"
 test_OnboardingMessageProvider
 .
 js
@@ -200,6 +193,13 @@ js
 [
 "
 test_PanelTestProvider
+.
+js
+"
+]
+[
+"
+test_PreonboardingSplash
 .
 js
 "

@@ -1475,9 +1475,6 @@ anchorTemplates
 =
 [
 "
-cfr_doorhanger
-"
-"
 bookmarks_bar_button
 "
 ]
@@ -3332,9 +3329,6 @@ infobar
 "
 "
 spotlight
-"
-"
-cfr_doorhanger
 "
 "
 feature_callout
