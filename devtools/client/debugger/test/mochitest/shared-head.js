@@ -3806,6 +3806,7 @@ function
 stepIn
 (
 dbg
+pauseOptions
 )
 {
 const
@@ -3839,6 +3840,8 @@ return
 waitForPaused
 (
 dbg
+null
+pauseOptions
 )
 ;
 }
