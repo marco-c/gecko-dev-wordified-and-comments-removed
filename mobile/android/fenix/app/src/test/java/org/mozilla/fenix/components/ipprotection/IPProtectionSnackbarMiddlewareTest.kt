@@ -381,7 +381,7 @@ LocationReset
 is
 dispatched
 THEN
-ShowSnackbar
+ShowActionSettingsSnackbar
 action
 is
 dispatched
@@ -404,7 +404,7 @@ AppAction
 .
 IPProtectionSnackbarAction
 .
-ShowSnackbar
+ShowActionSettingsSnackbar
 :
 :
 class

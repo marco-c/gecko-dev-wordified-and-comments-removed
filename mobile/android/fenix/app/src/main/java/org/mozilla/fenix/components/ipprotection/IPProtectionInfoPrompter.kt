@@ -456,12 +456,16 @@ appStore
 .
 dispatch
 (
+action
+=
 AppAction
 .
 IPProtectionSnackbarAction
 .
-DataLimitReached
+ShowActionSettingsSnackbar
 (
+title
+=
 errorMessages
 .
 dataLimitReached

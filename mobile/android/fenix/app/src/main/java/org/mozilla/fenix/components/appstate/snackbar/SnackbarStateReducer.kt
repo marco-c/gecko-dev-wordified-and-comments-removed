@@ -242,7 +242,7 @@ title
 is
 IPProtectionSnackbarAction
 .
-DataLimitReached
+ShowActionSettingsSnackbar
 -
 >
 state
@@ -253,7 +253,7 @@ snackbarState
 =
 SnackbarState
 .
-IPProtectionDataLimitReached
+IPProtectionShowActionSettingsSnackbar
 (
 action
 .

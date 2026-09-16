@@ -350,7 +350,7 @@ assertIs
 <
 SnackbarState
 .
-IPProtectionDataLimitReached
+IPProtectionShowActionSettingsSnackbar
 >
 (
 snackbarState

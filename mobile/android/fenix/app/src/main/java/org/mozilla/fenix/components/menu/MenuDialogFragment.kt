@@ -4859,6 +4859,16 @@ appStore
 requireComponents
 .
 appStore
+context
+=
+requireContext
+(
+)
+navController
+=
+findNavController
+(
+)
 snackbarDelegate
 =
 FenixSnackbarDelegate
