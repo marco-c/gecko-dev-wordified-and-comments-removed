@@ -395,9 +395,6 @@ type
 of
 navigation
 when
-{
-ref
-}
 Fission
 is
 not
@@ -481,9 +478,6 @@ type
 of
 load
 when
-{
-ref
-}
 Fission
 is
 enabled
