@@ -792,6 +792,16 @@ antitracking
 blockedOrigins
 "
 )
+.
+withoutNestedKey
+(
+"
+antitracking
+"
+"
+btpPurgeHistory
+"
+)
 }
 private
 fun
@@ -882,6 +892,7 @@ to
 match
 the
 ones
+*
 specified
 in
 the
@@ -1353,7 +1364,6 @@ of
 PreviewReporterItem
 ]
 .
-*
 It
 iterates
 through
@@ -1362,6 +1372,7 @@ top
 -
 level
 key
+*
 (
 e
 .
@@ -1375,7 +1386,6 @@ app
 "
 )
 and
-*
 collects
 its
 nested
