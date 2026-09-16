@@ -519,6 +519,12 @@ weights_buf_
 nullptr
 ;
 }
+size_t
+weights_bytes
+(
+)
+const
+;
 private
 :
 bool
