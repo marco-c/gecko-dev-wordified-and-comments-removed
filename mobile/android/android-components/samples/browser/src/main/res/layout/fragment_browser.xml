@@ -562,13 +562,6 @@ visibility
 "
 gone
 "
-tools
-:
-ignore
-=
-"
-MozMultipleConstraintLayoutsAndCustomViews
-"
 /
 >
 <
