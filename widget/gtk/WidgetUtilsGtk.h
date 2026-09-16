@@ -209,6 +209,7 @@ PortalKind
 FilePicker
 MimeHandler
 NativeMessaging
+NativeMessagingProxy
 Settings
 Location
 OpenUri
