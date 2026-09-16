@@ -650,6 +650,11 @@ system
 "
 system
 "
+text_selection
+:
+"
+text_selection
+"
 urlbar
 :
 "
