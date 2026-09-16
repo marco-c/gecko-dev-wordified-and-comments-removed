@@ -74,7 +74,9 @@ forceShowReaderIcon
 )
 ;
 await
-waitForConditionPromise
+TestUtils
+.
+waitForCondition
 (
 (
 )
@@ -85,6 +87,13 @@ gBrowser
 selectedBrowser
 .
 isArticle
+"
+Page
+should
+be
+an
+article
+"
 )
 ;
 ok

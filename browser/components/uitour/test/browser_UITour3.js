@@ -1706,7 +1706,9 @@ TERM
 )
 ;
 await
-waitForConditionPromise
+TestUtils
+.
+waitForCondition
 (
 (
 )
@@ -1762,7 +1764,9 @@ setSearchTerm
 )
 ;
 await
-waitForConditionPromise
+TestUtils
+.
+waitForCondition
 (
 (
 )

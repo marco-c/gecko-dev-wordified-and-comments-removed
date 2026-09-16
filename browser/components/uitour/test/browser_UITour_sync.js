@@ -1448,7 +1448,9 @@ checkFxANotLoaded
 try
 {
 await
-waitForConditionPromise
+TestUtils
+.
+waitForCondition
 (
 (
 )

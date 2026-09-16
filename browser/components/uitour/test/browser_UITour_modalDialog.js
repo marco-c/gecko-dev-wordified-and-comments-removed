@@ -417,12 +417,16 @@ test
 )
 ;
 await
-waitForConditionPromise
+TestUtils
+.
+waitForCondition
 (
 (
 )
 =
 >
+!
+!
 panelShown
 "
 Timed
@@ -435,6 +439,7 @@ to
 be
 assigned
 "
+100
 100
 )
 ;

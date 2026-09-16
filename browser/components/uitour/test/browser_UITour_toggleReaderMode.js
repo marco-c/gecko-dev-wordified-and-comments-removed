@@ -63,7 +63,9 @@ toggleReaderMode
 )
 ;
 await
-waitForConditionPromise
+TestUtils
+.
+waitForCondition
 (
 (
 )
@@ -85,6 +87,13 @@ about
 reader
 "
 )
+"
+Should
+be
+in
+reader
+mode
+"
 )
 ;
 ok
