@@ -394,7 +394,7 @@ name
 The
 name
 is
-arbitary
+arbitrary
 but
 must
 be
