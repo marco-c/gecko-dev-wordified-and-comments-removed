@@ -176,10 +176,10 @@ shared_screencast_stream
 .
 cc
 index
-d79df396b4
+7fd0eb3df1
 .
 .
-b4429e7000
+8903ac9731
 100644
 -
 -
@@ -214,10 +214,10 @@ shared_screencast_stream
 .
 cc
 -
-973
+974
 13
 +
-973
+974
 13
 void
 SharedScreenCastStreamPrivate
