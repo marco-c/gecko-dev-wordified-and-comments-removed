@@ -4355,10 +4355,8 @@ changedIsHDR
 )
 ;
 }
-RefPtr
-<
 GpuFence
->
+*
 NativeLayerCA
 :
 :

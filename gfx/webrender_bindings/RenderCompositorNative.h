@@ -46,17 +46,6 @@ mozilla
 /
 layers
 /
-GpuFence
-.
-h
-"
-#
-include
-"
-mozilla
-/
-layers
-/
 ScreenshotGrabber
 .
 h
@@ -78,6 +67,9 @@ mozilla
 namespace
 layers
 {
+class
+GpuFence
+;
 class
 NativeLayerRootSnapshotter
 ;

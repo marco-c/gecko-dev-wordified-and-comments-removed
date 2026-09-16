@@ -906,10 +906,8 @@ double
 aScale
 )
 ;
-RefPtr
-<
 GpuFence
->
+*
 GetGpuFence
 (
 )
