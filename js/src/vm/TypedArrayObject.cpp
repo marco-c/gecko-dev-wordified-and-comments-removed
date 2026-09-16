@@ -3412,6 +3412,14 @@ HandleObject
 proto
 )
 {
+cx
+-
+>
+releaseCheck
+(
+buffer
+)
+;
 size_t
 length
 =
