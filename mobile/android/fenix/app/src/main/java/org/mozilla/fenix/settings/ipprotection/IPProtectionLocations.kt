@@ -1355,6 +1355,9 @@ RadioButton
 description
 =
 description
+maxDescriptionLines
+=
+3
 enabled
 =
 enabled
