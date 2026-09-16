@@ -105,8 +105,6 @@ git
 \
 gnupg
 \
-gpgv
-\
 jq
 \
 libbz2

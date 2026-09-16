@@ -1658,13 +1658,6 @@ OFF
             
 "
 -
-DLLVM_ENABLE_ZSTD
-=
-OFF
-"
-            
-"
--
 DLLVM_INCLUDE_TESTS
 =
 OFF
