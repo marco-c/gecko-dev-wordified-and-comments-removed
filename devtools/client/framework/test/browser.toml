@@ -2210,6 +2210,13 @@ js
 ]
 [
 "
+browser_toolbox_window_closed_during_startup
+.
+js
+"
+]
+[
+"
 browser_toolbox_window_global_debugging
 .
 js
