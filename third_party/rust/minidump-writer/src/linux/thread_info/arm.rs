@@ -237,14 +237,9 @@ get_fp_regs
 tid
 )
 .
-map_err
+unwrap_or_default
 (
-ThreadInfoError
-:
-:
-PtraceError
 )
-?
 ;
 let
 stack_pointer
