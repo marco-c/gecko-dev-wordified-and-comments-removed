@@ -1434,7 +1434,7 @@ AsGlobal
 nsGkAtoms
 :
 :
-featurePolicyViolation
+permissionsPolicyViolation
 u
 "
 default

@@ -1889,7 +1889,7 @@ xr
 spatial
 -
 tracking
-feature
+permissions
 policy
 is
 required
@@ -2182,7 +2182,7 @@ xr
 spatial
 -
 tracking
-feature
+permissions
 policy
 is
 required

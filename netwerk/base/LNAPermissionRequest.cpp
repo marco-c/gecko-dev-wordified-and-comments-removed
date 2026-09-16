@@ -877,7 +877,7 @@ featureName
 NS_WARNING
 (
 "
-Feature
+Permissions
 policy
 denying
 the

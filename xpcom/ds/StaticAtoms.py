@@ -4814,10 +4814,10 @@ farthest
 Atom
 (
 "
-featurePolicyViolation
+permissionsPolicyViolation
 "
 "
-feature
+permissions
 -
 policy
 -
