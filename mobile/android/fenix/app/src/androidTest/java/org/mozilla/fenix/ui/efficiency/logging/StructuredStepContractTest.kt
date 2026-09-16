@@ -179,6 +179,9 @@ JsonSink
 (
 file
 envelope
+ProviderStructuredEventSink
+.
+None
 )
 )
 )
