@@ -29510,6 +29510,12 @@ window
 .
 if
 (
+this
+.
+#
+isAddressbar
+&
+&
 !
 params
 .
@@ -40613,6 +40619,12 @@ load
 .
 if
 (
+this
+.
+#
+isAddressbar
+&
+&
 focused
 &
 &
