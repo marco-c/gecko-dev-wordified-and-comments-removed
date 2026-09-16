@@ -3,10 +3,6 @@ json
 import
 sys
 from
-collections
-import
-OrderedDict
-from
 os
 import
 path
@@ -1041,9 +1037,8 @@ filenames
     
 scalar_definitions
 =
-OrderedDict
-(
-)
+{
+}
     
 for
 scalar
@@ -1069,9 +1064,8 @@ scalar_definitions
 category
 ]
 =
-OrderedDict
-(
-)
+{
+}
         
 scalar_definitions
 [
@@ -1083,8 +1077,6 @@ scalar
 name
 ]
 =
-OrderedDict
-(
 {
             
 "
@@ -1196,7 +1188,6 @@ scalar
 products
         
 }
-)
     
 json
 .

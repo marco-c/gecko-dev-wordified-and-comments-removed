@@ -31,10 +31,6 @@ files
 import
 DeflatedFile
 from
-collections
-import
-OrderedDict
-from
 io
 import
 StringIO
@@ -334,9 +330,8 @@ chunk_size
     
 checksums
 =
-OrderedDict
-(
-)
+{
+}
     
 for
 p

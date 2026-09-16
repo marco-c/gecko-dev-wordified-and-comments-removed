@@ -1,6 +1,4 @@
 import
-collections
-import
 sys
 from
 mozparsers
@@ -135,13 +133,15 @@ file
 output
 )
     
-processes
+processes_items
 =
-collections
-.
-OrderedDict
+sorted
 (
 processes
+.
+items
+(
+)
 )
     
 p
@@ -173,14 +173,7 @@ value
 in
 enumerate
 (
-sorted
-(
-processes
-.
-items
-(
-)
-)
+processes_items
 )
 :
         
@@ -326,14 +319,7 @@ value
 in
 enumerate
 (
-sorted
-(
-processes
-.
-items
-(
-)
-)
+processes_items
 )
 :
         

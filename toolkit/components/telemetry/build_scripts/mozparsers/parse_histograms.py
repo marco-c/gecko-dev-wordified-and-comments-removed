@@ -1,8 +1,6 @@
 import
 atexit
 import
-collections
-import
 itertools
 import
 json
@@ -12,10 +10,6 @@ import
 os
 import
 re
-from
-collections
-import
-OrderedDict
 from
 ctypes
 import
@@ -4738,11 +4732,8 @@ strict_type_checks
     
 d
 =
-collections
-.
-OrderedDict
-(
-)
+{
+}
     
 for
 key
@@ -5002,9 +4993,8 @@ load_allowlist
     
 all_histograms
 =
-OrderedDict
-(
-)
+{
+}
     
 for
 filename
@@ -5086,7 +5076,7 @@ not
 isinstance
 (
 histograms
-OrderedDict
+dict
 )
 :
             
@@ -5098,8 +5088,8 @@ parser
 did
 not
 provide
-an
-OrderedDict
+a
+dict
 .
 "
 )

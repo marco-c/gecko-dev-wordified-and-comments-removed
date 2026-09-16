@@ -77,10 +77,6 @@ argparse
 import
 ArgumentParser
 from
-collections
-import
-OrderedDict
-from
 createprecomplete
 import
 generate_precomplete
@@ -153,9 +149,6 @@ f
 open
 (
 )
-dict_type
-=
-OrderedDict
 )
             
 info

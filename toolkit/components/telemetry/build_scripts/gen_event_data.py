@@ -5,10 +5,6 @@ json
 import
 sys
 from
-collections
-import
-OrderedDict
-from
 os
 import
 path
@@ -1125,9 +1121,8 @@ exit
     
 event_definitions
 =
-OrderedDict
-(
-)
+{
+}
     
 for
 event
@@ -1153,9 +1148,8 @@ event_definitions
 category
 ]
 =
-OrderedDict
-(
-)
+{
+}
         
 event_definitions
 [
@@ -1167,8 +1161,6 @@ event
 name
 ]
 =
-OrderedDict
-(
 {
             
 "
@@ -1239,7 +1231,6 @@ event
 products
         
 }
-)
     
 json
 .

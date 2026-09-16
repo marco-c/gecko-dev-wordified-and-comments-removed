@@ -45,10 +45,6 @@ path
 as
 mozpath
 from
-collections
-import
-OrderedDict
-from
 mozpack
 .
 executables
@@ -651,9 +647,8 @@ list
     
 deps
 =
-OrderedDict
-(
-)
+{
+}
     
 for
 dep
