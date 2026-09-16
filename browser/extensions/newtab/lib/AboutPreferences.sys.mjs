@@ -5575,9 +5575,9 @@ home
 -
 prefs
 -
-recent
+search
 -
-searches
+widget
 -
 header
 "

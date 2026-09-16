@@ -647,9 +647,7 @@ toBe
 "
 newtab
 -
-recent
--
-searches
+search
 -
 widget
 -
@@ -711,9 +709,7 @@ id
 '
 newtab
 -
-recent
--
-searches
+search
 -
 widget
 -
