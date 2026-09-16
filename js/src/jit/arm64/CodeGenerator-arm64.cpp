@@ -17520,6 +17520,8 @@ output
 flags
 trapSiteDesc
 oolRejoin
+nullptr
+nullptr
 )
 ;
 }
@@ -17544,6 +17546,8 @@ output64
 flags
 trapSiteDesc
 oolRejoin
+nullptr
+nullptr
 )
 ;
 }
@@ -17591,6 +17595,8 @@ output
 flags
 trapSiteDesc
 oolRejoin
+nullptr
+nullptr
 )
 ;
 }
@@ -17615,6 +17621,8 @@ output64
 flags
 trapSiteDesc
 oolRejoin
+nullptr
+nullptr
 )
 ;
 }
