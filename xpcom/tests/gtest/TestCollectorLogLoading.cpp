@@ -1337,6 +1337,9 @@ aGCLog
 }
 static
 const
+mozilla
+:
+:
 dom
 :
 :
@@ -1347,6 +1350,9 @@ FindResultNodeByLabel
 const
 nsTArray
 <
+mozilla
+:
+:
 dom
 :
 :
@@ -5842,6 +5848,9 @@ nodes
 .
 mFlags
 &
+mozilla
+:
+:
 dom
 :
 :
@@ -5860,6 +5869,9 @@ nodes
 .
 mFlags
 &
+mozilla
+:
+:
 dom
 :
 :
@@ -6086,6 +6098,9 @@ node
 .
 mFlags
 &
+mozilla
+:
+:
 dom
 :
 :
@@ -6725,6 +6740,9 @@ EXPECT_EQ
 pathResult
 .
 mKind
+mozilla
+:
+:
 dom
 :
 :
@@ -6999,6 +7017,9 @@ inspect
 )
 .
 mKind
+mozilla
+:
+:
 dom
 :
 :
@@ -7160,6 +7181,9 @@ inspect
 )
 .
 mKind
+mozilla
+:
+:
 dom
 :
 :
@@ -7389,6 +7413,9 @@ EXPECT_EQ
 pathResult
 .
 mKind
+mozilla
+:
+:
 dom
 :
 :
