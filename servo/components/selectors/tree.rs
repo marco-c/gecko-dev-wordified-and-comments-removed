@@ -200,6 +200,8 @@ Element
 :
 Sized
 +
+Copy
++
 Clone
 +
 Debug

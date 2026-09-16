@@ -1283,7 +1283,6 @@ matches_selector
 selector
 0
 None
-&
 element
 context
 )
@@ -1671,7 +1670,6 @@ matches_selector
 selector
 0
 None
-&
 p
 context
 )

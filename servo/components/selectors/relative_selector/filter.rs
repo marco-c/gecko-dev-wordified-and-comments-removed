@@ -92,7 +92,6 @@ Element
 (
 element
 :
-&
 E
 filter
 :
@@ -152,7 +151,6 @@ if
 !
 add_to_filter
 (
-&
 e
 filter
 kind
@@ -323,7 +321,6 @@ mut
 self
 element
 :
-&
 E
 kind
 :
@@ -481,7 +478,6 @@ mut
 self
 element
 :
-&
 E
 selector
 :
@@ -593,9 +589,8 @@ parent_element
 (
 )
 .
-map_or
+is_some_and
 (
-false
 |
 parent
 |
@@ -604,14 +599,12 @@ self
 .
 get_filter
 (
-&
 parent
 kind
 )
 .
-map_or
+is_some_and
 (
-false
 |
 filter
 |
