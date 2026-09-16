@@ -142,7 +142,7 @@ clip
 varying
 highp
 vec2
-vNormalizedWorldPos
+vNormalizedDevicePos
 ;
 flat
 varying
@@ -491,10 +491,10 @@ xyxy
 /
 /
 Get
-world
+device
 position
 vec2
-world_pos
+device_pos
 =
 mix
 (
@@ -516,16 +516,16 @@ the
 position
 to
 the
-world
+device
 space
 clip
 rect
 vec2
-clipped_world_pos
+clipped_device_pos
 =
 clamp
 (
-world_pos
+device_pos
 aDeviceClipRect
 .
 xy
@@ -554,7 +554,7 @@ aDeviceRoundedClipRect
 xy
 )
 ;
-vNormalizedWorldPos
+vNormalizedDevicePos
 =
 aDeviceRoundedClipRect
 .
@@ -562,7 +562,7 @@ xy
 +
 half_clip_box_size
 -
-clipped_world_pos
+clipped_device_pos
 ;
 vRoundedClipParams
 =
@@ -589,7 +589,7 @@ vec2
 uv
 =
 (
-clipped_world_pos
+clipped_device_pos
 -
 device_rect
 .
@@ -976,7 +976,7 @@ uTransform
 *
 vec4
 (
-clipped_world_pos
+clipped_device_pos
 0
 .
 0
@@ -1305,7 +1305,7 @@ aa_range
 =
 compute_aa_range
 (
-vNormalizedWorldPos
+vNormalizedDevicePos
 )
 ;
 float
@@ -1313,7 +1313,7 @@ dist
 =
 sd_round_box
 (
-vNormalizedWorldPos
+vNormalizedDevicePos
 vRoundedClipParams
 vRoundedClipRadii
 )
