@@ -1325,6 +1325,13 @@ status
 __PRETTY_FUNCTION__
 )
 ;
+mState
+=
+TaskState
+:
+:
+CompletedSuccess
+;
 if
 (
 MOZ_UNLIKELY
@@ -1405,13 +1412,6 @@ Completed
 "
 __PRETTY_FUNCTION__
 )
-;
-mState
-=
-TaskState
-:
-:
-CompletedSuccess
 ;
 return
 NS_OK
