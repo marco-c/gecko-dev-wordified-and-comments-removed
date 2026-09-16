@@ -411,10 +411,3 @@ appdir
 "
 browser
 "
-[
-"
-test_discovery
-.
-js
-"
-]
