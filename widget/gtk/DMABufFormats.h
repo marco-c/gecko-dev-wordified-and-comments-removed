@@ -618,6 +618,12 @@ DRMFormat
 >
 mFormatYUV420
 ;
+RefPtr
+<
+DRMFormat
+>
+mFormatABGR2101010
+;
 }
 ;
 GlobalDMABufFormats
