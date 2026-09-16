@@ -159,13 +159,6 @@ js
 ]
 [
 "
-test_UrlTokenizer
-.
-js
-"
-]
-[
-"
 test_chat
 -
 utils
