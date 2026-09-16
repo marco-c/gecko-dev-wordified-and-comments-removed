@@ -43,6 +43,7 @@ wgpu_core_remote_types
 :
 :
 {
+id
 BufferDescriptor
 DeviceDescriptor
 Label
@@ -52,7 +53,6 @@ RequestAdapterOptions
 SamplerDescriptor
 TextureDescriptor
 TextureViewDescriptor
-id
 }
 ;
 pub
