@@ -217,7 +217,7 @@ action
 "
 fill_from_token
 "
-token
+value
 :
 "
 EMAIL_1
@@ -234,7 +234,7 @@ action
 "
 fill_from_token
 "
-token
+value
 :
 "
 NAME_1
