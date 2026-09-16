@@ -216,6 +216,13 @@ Bug
 ]
 [
 "
+test_collectorLogAnalyzer
+.
+xhtml
+"
+]
+[
+"
 test_dumpGCAndCCLogsToFile
 .
 xhtml

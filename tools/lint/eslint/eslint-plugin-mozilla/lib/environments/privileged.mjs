@@ -387,6 +387,16 @@ CDATASection
 "
 readonly
 "
+CollectorLogAnalyzer
+:
+"
+readonly
+"
+CollectorNodeFlags
+:
+"
+readonly
+"
 CSS
 :
 "
