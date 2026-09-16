@@ -13803,6 +13803,12 @@ case
 GuardClassKind
 :
 :
+Duration
+:
+case
+GuardClassKind
+:
+:
 WeakMap
 :
 case
