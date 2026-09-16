@@ -2382,7 +2382,7 @@ stream
 >
 Close
 (
-NS_ERROR_NET_UNCLEAN_SHUTDOWN
+NS_ERROR_ABORT
 )
 ;
 }
