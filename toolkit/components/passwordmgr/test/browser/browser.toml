@@ -1870,6 +1870,13 @@ tsan
 ]
 [
 "
+browser_primary_password_reauth
+.
+js
+"
+]
+[
+"
 browser_private_window
 .
 js
