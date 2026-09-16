@@ -81,6 +81,7 @@ Level
 uint8_t
 {
 Unloaded
+PrecursorOnly
 SiteOnly
 Tentative
 Full
@@ -140,7 +141,7 @@ true
 nodiscard
 ]
 ]
-Level
+bool
 AddInternal
 (
 nsIPrincipal
