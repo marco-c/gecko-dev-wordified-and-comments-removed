@@ -116,11 +116,6 @@ teststereo32kHz
 .
 pcm
 "
-"
-foreman_cif
-.
-yuv
-"
 ]
 group
 (
