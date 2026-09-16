@@ -57756,15 +57756,6 @@ if
 StaticPrefs
 :
 :
-privacy_globalprivacycontrol_functionality_enabled
-(
-)
-&
-&
-(
-StaticPrefs
-:
-:
 privacy_globalprivacycontrol_enabled
 (
 )
@@ -57782,7 +57773,6 @@ privacy_globalprivacycontrol_pbmode_enabled
 NS_UsePrivateBrowsing
 (
 this
-)
 )
 )
 )
