@@ -517,6 +517,11 @@ bool
 aIsActive
 )
 ;
+void
+NotifyWidgetAttached
+(
+)
+;
 nsPresContext
 *
 GetPresContext
