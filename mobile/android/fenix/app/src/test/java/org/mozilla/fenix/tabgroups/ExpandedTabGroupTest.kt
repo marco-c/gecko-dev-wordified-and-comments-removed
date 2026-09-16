@@ -353,6 +353,13 @@ tabGroupsLiveReorderEnabled
 Boolean
 =
 false
+override
+val
+tabGroupsStripEnabled
+:
+Boolean
+=
+false
 }
 Test
 fun
