@@ -1291,12 +1291,12 @@ LayoutPixel
 PicturePixel
 >
 pub
-map_pic_to_vis
+map_pic_to_device
 :
 SpaceMapper
 <
 PicturePixel
-VisPixel
+DevicePixel
 >
 }
 impl
