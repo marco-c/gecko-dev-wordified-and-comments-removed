@@ -7149,6 +7149,14 @@ state
 )
 )
 ;
+Services
+.
+startup
+.
+collectShutdownHangAnnotations
+(
+)
+;
 }
 else
 {

@@ -773,6 +773,10 @@ XRE_GetProcessTypeString
 )
 )
 ;
+CollectShutdownHangAnnotations
+(
+)
+;
 MaybeSaveShutdownHangProfile
 (
 )

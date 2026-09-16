@@ -254,6 +254,11 @@ aNotificationSubject
 ;
 }
 ;
+void
+CollectShutdownHangAnnotations
+(
+)
+;
 }
 #
 endif

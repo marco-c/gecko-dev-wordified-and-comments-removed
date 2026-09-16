@@ -258,6 +258,16 @@ StaticMutex
 >
 StaticMutexAutoUnlock
 ;
+typedef
+detail
+:
+:
+BaseAutoTryLock
+<
+StaticMutex
+>
+StaticMutexAutoTryLock
+;
 }
 #
 endif
