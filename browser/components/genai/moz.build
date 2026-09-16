@@ -112,7 +112,7 @@ Learning
 Frontend
 "
 )
-MOZ_SRC_FILES
+EXTRA_JS_MODULES
 +
 =
 [
@@ -150,7 +150,9 @@ sys
 mjs
 "
 ]
-MOZ_SRC_FILES
+FINAL_TARGET_FILES
+.
+actors
 +
 =
 [
