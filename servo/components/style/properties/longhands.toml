@@ -4485,13 +4485,6 @@ struct
 "
 inherited_ui
 "
-servo_pref
-=
-"
-layout
-.
-unimplemented
-"
 spec
 =
 "
@@ -4526,6 +4519,11 @@ discrete
 ignored_when_colors_disabled
 =
 true
+servo_restyle_damage
+=
+"
+repaint
+"
 affects
 =
 "
