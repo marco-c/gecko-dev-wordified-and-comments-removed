@@ -1011,7 +1011,13 @@ mb1
 .
 data
 =
+std
+:
+:
+move
+(
 feats
+)
 ;
 std
 :
@@ -3081,7 +3087,13 @@ mb1
 .
 data
 =
+std
+:
+:
+move
+(
 feats
+)
 ;
 std
 :
