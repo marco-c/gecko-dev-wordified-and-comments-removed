@@ -45,14 +45,6 @@ file_ws_backend_wsh
 py
 "
 "
-.
-.
-/
-file_ws_early_backend_wsh
-.
-py
-"
-"
 html_websocket
 -
 test

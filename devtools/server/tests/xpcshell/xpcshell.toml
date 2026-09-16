@@ -2443,13 +2443,6 @@ js
 ]
 [
 "
-test_websocket_watcher
-.
-js
-"
-]
-[
-"
 test_xpcshell_debugging
 .
 js

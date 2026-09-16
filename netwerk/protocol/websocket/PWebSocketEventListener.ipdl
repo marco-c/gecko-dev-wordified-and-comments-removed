@@ -140,8 +140,6 @@ WebSocketClosed
 (
 uint32_t
 awebSocketSerialID
-uint64_t
-aHttpChannelId
 bool
 aWasClean
 uint16_t
@@ -155,8 +153,6 @@ FrameReceived
 (
 uint32_t
 aWebSocketSerialID
-uint64_t
-aHttpChannelId
 WebSocketFrameData
 aFrameData
 )
@@ -166,8 +162,6 @@ FrameSent
 (
 uint32_t
 aWebSocketSerialID
-uint64_t
-aHttpChannelId
 WebSocketFrameData
 aFrameData
 )
