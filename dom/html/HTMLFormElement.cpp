@@ -2273,6 +2273,10 @@ GetFormInternal
 ;
 NS_ASSERTION
 (
+!
+form
+|
+|
 form
 =
 =
@@ -2434,6 +2438,10 @@ GetFormInternal
 ;
 NS_ASSERTION
 (
+!
+form
+|
+|
 form
 =
 =
