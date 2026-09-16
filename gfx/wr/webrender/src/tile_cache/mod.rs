@@ -4377,6 +4377,15 @@ Exact
 }
 ;
 let
+clip_root
+=
+frame_state
+.
+current_clip_root
+(
+)
+;
+let
 snapped_leaf_clip_rect
 =
 frame_state
@@ -4411,6 +4420,7 @@ mut
 clip_snapper
 clip_snap
 shared_clip_leaf_id
+clip_root
 snapped_leaf_clip_rect
 frame_context
 .
