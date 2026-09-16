@@ -150,6 +150,12 @@ runners
 .
 AndroidJUnit4
 import
+java
+.
+util
+.
+Locale
+import
 mozilla
 .
 components
@@ -269,6 +275,13 @@ theme
 FirefoxTheme
 private
 val
+LOCALE
+=
+Locale
+.
+US
+private
+val
 JAPAN
 =
 Country
@@ -379,6 +392,9 @@ onNodeWithText
 JAPAN
 .
 displayName
+(
+LOCALE
+)
 )
 .
 assertHasNoClickAction
@@ -391,6 +407,9 @@ onNodeWithText
 GERMANY
 .
 displayName
+(
+LOCALE
+)
 )
 .
 assertHasNoClickAction
@@ -484,6 +503,9 @@ onNodeWithText
 GERMANY
 .
 displayName
+(
+LOCALE
+)
 )
 .
 assertHasClickAction
