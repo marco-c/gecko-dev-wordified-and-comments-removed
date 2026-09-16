@@ -652,6 +652,11 @@ TestGMPRemoveAndDelete
 .
 cpp
 "
+"
+TestSpeechModelMapping
+.
+cpp
+"
 ]
 if
 CONFIG
