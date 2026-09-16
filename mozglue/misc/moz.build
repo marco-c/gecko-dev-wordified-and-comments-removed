@@ -445,6 +445,11 @@ WindowsUnwindInfo
 .
 h
 "
+"
+WindowsUserHandleValidation
+.
+h
+"
 ]
 EXPORTS
 .
