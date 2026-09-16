@@ -92,6 +92,14 @@ terser
 package
 .
 json
+-
+third_party
+/
+node
+/
+package
+.
+json
 exclude
 :
 [
