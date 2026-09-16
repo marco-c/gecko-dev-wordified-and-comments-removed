@@ -33,6 +33,13 @@ h
 #
 include
 "
+Units
+.
+h
+"
+#
+include
+"
 VsyncSource
 .
 h
@@ -430,6 +437,11 @@ Create
 (
 LayersId
 aRootLayersId
+CSSToLayoutDeviceScale
+aWidgetScale
+=
+{
+}
 UniquePtr
 <
 IAPZHitTester
@@ -633,6 +645,12 @@ override
 ;
 float
 GetDPI
+(
+)
+const
+;
+CSSToLayoutDeviceScale
+GetWidgetScale
 (
 )
 const
@@ -964,6 +982,8 @@ APZCTreeManager
 (
 LayersId
 aRootLayersId
+CSSToLayoutDeviceScale
+aScale
 UniquePtr
 <
 IAPZHitTester
@@ -2427,6 +2447,9 @@ mTestDataLock
 ;
 float
 mDPI
+;
+CSSToLayoutDeviceScale
+mWidgetScale
 ;
 friend
 class
