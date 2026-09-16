@@ -980,6 +980,13 @@ js
 ]
 [
 "
+browser_pdfjs_view_certificate_window
+.
+js
+"
+]
+[
+"
 browser_pdfjs_views
 .
 js
