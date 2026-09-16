@@ -861,7 +861,7 @@ be
 !
 item
 .
-noProtocolFixup
+noAlternateURI
 }
 )
 ;
@@ -881,7 +881,7 @@ be
 !
 item
 .
-noAlternateURI
+limitedFixup
 }
 )
 ;

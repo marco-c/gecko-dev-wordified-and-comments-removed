@@ -21995,14 +21995,6 @@ nonBlankPaint
 GleanTimingDistribution
 ;
 }
-urlfixup
-:
-{
-suffix
-:
-GleanDualLabeledCounter
-;
-}
 useCounter
 :
 {
