@@ -245,13 +245,6 @@ InvalidateAndRender
 )
 ;
 async
-MaxToolbarHeight
-(
-int32_t
-aHeight
-)
-;
-async
 FixedBottomOffset
 (
 int32_t
