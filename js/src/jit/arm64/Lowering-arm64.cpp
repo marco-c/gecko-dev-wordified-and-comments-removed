@@ -3735,7 +3735,7 @@ ins
 }
 #
 ifdef
-ENABLE_WASM_SIMD
+ENABLE_JIT_SIMD
 bool
 LIRGeneratorARM64
 :
@@ -6782,7 +6782,7 @@ ins
 {
 #
 ifdef
-ENABLE_WASM_SIMD
+ENABLE_JIT_SIMD
 MOZ_ASSERT
 (
 ins
@@ -7263,7 +7263,7 @@ ins
 {
 #
 ifdef
-ENABLE_WASM_SIMD
+ENABLE_JIT_SIMD
 MDefinition
 *
 lhs
@@ -7450,7 +7450,7 @@ endif
 }
 #
 ifdef
-ENABLE_WASM_SIMD
+ENABLE_JIT_SIMD
 bool
 MWasmTernarySimd128
 :
@@ -7542,7 +7542,7 @@ ins
 {
 #
 ifdef
-ENABLE_WASM_SIMD
+ENABLE_JIT_SIMD
 MDefinition
 *
 lhs
@@ -7932,7 +7932,7 @@ ins
 {
 #
 ifdef
-ENABLE_WASM_SIMD
+ENABLE_JIT_SIMD
 MOZ_ASSERT
 (
 ins
@@ -8386,7 +8386,7 @@ ins
 {
 #
 ifdef
-ENABLE_WASM_SIMD
+ENABLE_JIT_SIMD
 MOZ_ASSERT
 (
 ins
@@ -8555,7 +8555,7 @@ ins
 {
 #
 ifdef
-ENABLE_WASM_SIMD
+ENABLE_JIT_SIMD
 MOZ_ASSERT
 (
 ins
@@ -8733,7 +8733,7 @@ ins
 {
 #
 ifdef
-ENABLE_WASM_SIMD
+ENABLE_JIT_SIMD
 MOZ_ASSERT
 (
 ins
@@ -9361,7 +9361,7 @@ ins
 {
 #
 ifdef
-ENABLE_WASM_SIMD
+ENABLE_JIT_SIMD
 if
 (
 canEmitWasmReduceSimd128AtUses
@@ -9552,7 +9552,7 @@ ins
 {
 #
 ifdef
-ENABLE_WASM_SIMD
+ENABLE_JIT_SIMD
 LUse
 base
 =
@@ -9659,7 +9659,7 @@ ins
 {
 #
 ifdef
-ENABLE_WASM_SIMD
+ENABLE_JIT_SIMD
 LUse
 base
 =

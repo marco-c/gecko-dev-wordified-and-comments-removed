@@ -271,7 +271,7 @@ StackSizeOfDouble
 ;
 #
 ifdef
-ENABLE_WASM_SIMD
+ENABLE_JIT_SIMD
 case
 ValType
 :
@@ -382,7 +382,7 @@ StackSizeOfDouble
 ;
 #
 ifdef
-ENABLE_WASM_SIMD
+ENABLE_JIT_SIMD
 case
 MIRType
 :
@@ -600,7 +600,7 @@ break
 ;
 #
 ifdef
-ENABLE_WASM_SIMD
+ENABLE_JIT_SIMD
 case
 ValType
 :
@@ -1594,7 +1594,7 @@ DontCheckOther
 }
 #
 ifdef
-ENABLE_WASM_SIMD
+ENABLE_JIT_SIMD
 static
 void
 GenPrintV128
@@ -1725,7 +1725,7 @@ src
 }
 #
 ifdef
-ENABLE_WASM_SIMD
+ENABLE_JIT_SIMD
 static
 void
 GenPrintV128
@@ -2284,7 +2284,7 @@ Simd128
 :
 #
 ifdef
-ENABLE_WASM_SIMD
+ENABLE_JIT_SIMD
 masm
 .
 loadUnalignedSimd128
@@ -2553,7 +2553,7 @@ Simd128
 {
 #
 ifdef
-ENABLE_WASM_SIMD
+ENABLE_JIT_SIMD
 ScratchSimd128Scope
 fpscratch
 (
@@ -2856,7 +2856,7 @@ V128
 :
 #
 ifdef
-ENABLE_WASM_SIMD
+ENABLE_JIT_SIMD
 masm
 .
 storeUnalignedSimd128
@@ -9041,7 +9041,7 @@ dst
 ;
 #
 ifdef
-ENABLE_WASM_SIMD
+ENABLE_JIT_SIMD
 }
 else
 if
@@ -14291,7 +14291,7 @@ AllDoubleMask
 ;
 #
 ifdef
-ENABLE_WASM_SIMD
+ENABLE_JIT_SIMD
 #
 error
 "
@@ -14405,7 +14405,7 @@ AllDoubleMask
 ;
 #
 ifdef
-ENABLE_WASM_SIMD
+ENABLE_JIT_SIMD
 #
 error
 "
@@ -14507,7 +14507,7 @@ AllDoubleMask
 ;
 #
 ifdef
-ENABLE_WASM_SIMD
+ENABLE_JIT_SIMD
 #
 error
 "
@@ -14609,7 +14609,7 @@ AllDoubleMask
 ;
 #
 ifdef
-ENABLE_WASM_SIMD
+ENABLE_JIT_SIMD
 #
 error
 "
@@ -14683,7 +14683,7 @@ lr
 )
 #
 ifdef
-ENABLE_WASM_SIMD
+ENABLE_JIT_SIMD
 FloatRegisterSet
 (
 FloatRegisters
@@ -14778,7 +14778,7 @@ AllDoubleMask
 ;
 #
 ifdef
-ENABLE_WASM_SIMD
+ENABLE_JIT_SIMD
 #
 error
 "
@@ -16049,7 +16049,7 @@ fpu
 ;
 #
 ifdef
-ENABLE_WASM_SIMD
+ENABLE_JIT_SIMD
 }
 else
 if
@@ -16501,7 +16501,7 @@ break
 ;
 #
 ifdef
-ENABLE_WASM_SIMD
+ENABLE_JIT_SIMD
 case
 ValType
 :

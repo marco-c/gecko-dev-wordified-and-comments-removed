@@ -6222,7 +6222,7 @@ undef
 WASM_FEATURE
 #
 ifdef
-ENABLE_WASM_SIMD
+ENABLE_JIT_SIMD
 value
 .
 setBoolean
@@ -7212,7 +7212,7 @@ true
 }
 #
 ifdef
-ENABLE_WASM_SIMD
+ENABLE_JIT_SIMD
 #
 ifdef
 DEBUG
@@ -67906,7 +67906,7 @@ device
 if
 defined
 (
-ENABLE_WASM_SIMD
+ENABLE_JIT_SIMD
 )
 &
 &

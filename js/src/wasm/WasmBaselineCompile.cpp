@@ -3082,7 +3082,7 @@ break
 ;
 #
 ifdef
-ENABLE_WASM_SIMD
+ENABLE_JIT_SIMD
 case
 MIRType
 :
@@ -5045,7 +5045,7 @@ V128
 :
 #
 ifdef
-ENABLE_WASM_SIMD
+ENABLE_JIT_SIMD
 masm
 .
 storeUnalignedSimd128
@@ -5374,7 +5374,7 @@ V128
 :
 #
 ifdef
-ENABLE_WASM_SIMD
+ENABLE_JIT_SIMD
 masm
 .
 loadUnalignedSimd128
@@ -6183,7 +6183,7 @@ V128
 :
 #
 ifdef
-ENABLE_WASM_SIMD
+ENABLE_JIT_SIMD
 popV128
 (
 RegV128
@@ -6847,7 +6847,7 @@ break
 ;
 #
 ifdef
-ENABLE_WASM_SIMD
+ENABLE_JIT_SIMD
 case
 Stk
 :
@@ -7425,7 +7425,7 @@ V128
 :
 #
 ifdef
-ENABLE_WASM_SIMD
+ENABLE_JIT_SIMD
 pushV128
 (
 RegV128
@@ -8490,7 +8490,7 @@ V128
 {
 #
 ifdef
-ENABLE_WASM_SIMD
+ENABLE_JIT_SIMD
 ABIArg
 argLoc
 =
@@ -9847,7 +9847,7 @@ break
 }
 #
 ifdef
-ENABLE_WASM_SIMD
+ENABLE_JIT_SIMD
 case
 MIRType
 :
@@ -23658,7 +23658,7 @@ V128
 {
 #
 ifdef
-ENABLE_WASM_SIMD
+ENABLE_JIT_SIMD
 RegV128
 reg
 =
@@ -24662,7 +24662,7 @@ V128
 {
 #
 ifdef
-ENABLE_WASM_SIMD
+ENABLE_JIT_SIMD
 RegV128
 reg
 =
@@ -26016,7 +26016,7 @@ V128
 {
 #
 ifdef
-ENABLE_WASM_SIMD
+ENABLE_JIT_SIMD
 RegV128
 reg
 =
@@ -29256,7 +29256,7 @@ V128
 :
 #
 ifdef
-ENABLE_WASM_SIMD
+ENABLE_JIT_SIMD
 pushLocalV128
 (
 slot
@@ -29595,7 +29595,7 @@ V128
 {
 #
 ifdef
-ENABLE_WASM_SIMD
+ENABLE_JIT_SIMD
 RegV128
 rv
 =
@@ -29976,7 +29976,7 @@ break
 ;
 #
 ifdef
-ENABLE_WASM_SIMD
+ENABLE_JIT_SIMD
 case
 ValType
 :
@@ -30232,7 +30232,7 @@ break
 }
 #
 ifdef
-ENABLE_WASM_SIMD
+ENABLE_JIT_SIMD
 case
 ValType
 :
@@ -30605,7 +30605,7 @@ break
 }
 #
 ifdef
-ENABLE_WASM_SIMD
+ENABLE_JIT_SIMD
 case
 ValType
 :
@@ -31294,7 +31294,7 @@ break
 }
 #
 ifdef
-ENABLE_WASM_SIMD
+ENABLE_JIT_SIMD
 case
 ValType
 :
@@ -37634,7 +37634,7 @@ break
 }
 #
 ifdef
-ENABLE_WASM_SIMD
+ENABLE_JIT_SIMD
 case
 StorageType
 :
@@ -38079,7 +38079,7 @@ break
 }
 #
 ifdef
-ENABLE_WASM_SIMD
+ENABLE_JIT_SIMD
 case
 StorageType
 :
@@ -43883,7 +43883,7 @@ nothing
 }
 #
 ifdef
-ENABLE_WASM_SIMD
+ENABLE_JIT_SIMD
 static
 void
 AndV128
@@ -57270,7 +57270,7 @@ op
 }
 #
 ifdef
-ENABLE_WASM_SIMD
+ENABLE_JIT_SIMD
 case
 uint16_t
 (
@@ -65196,7 +65196,7 @@ V128
 :
 #
 ifdef
-ENABLE_WASM_SIMD
+ENABLE_JIT_SIMD
 MOZ_ASSERT
 (
 isAvailableV128
@@ -65511,7 +65511,7 @@ break
 ;
 #
 ifdef
-ENABLE_WASM_SIMD
+ENABLE_JIT_SIMD
 case
 Stk
 :
@@ -65682,7 +65682,7 @@ break
 ;
 #
 ifdef
-ENABLE_WASM_SIMD
+ENABLE_JIT_SIMD
 case
 Stk
 :

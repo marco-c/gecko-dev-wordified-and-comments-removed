@@ -2009,7 +2009,7 @@ dest
 }
 #
 ifdef
-ENABLE_WASM_SIMD
+ENABLE_JIT_SIMD
 void
 loadLocalV128
 (
@@ -2152,7 +2152,7 @@ dest
 }
 #
 ifdef
-ENABLE_WASM_SIMD
+ENABLE_JIT_SIMD
 void
 storeLocalV128
 (
@@ -2504,7 +2504,7 @@ StackSizeOfDouble
 ;
 #
 ifdef
-ENABLE_WASM_SIMD
+ENABLE_JIT_SIMD
 static
 constexpr
 size_t
@@ -2697,7 +2697,7 @@ currentStackHeight
 }
 #
 ifdef
-ENABLE_WASM_SIMD
+ENABLE_JIT_SIMD
 uint32_t
 pushV128
 (
@@ -3091,7 +3091,7 @@ currentStackHeight
 }
 #
 ifdef
-ENABLE_WASM_SIMD
+ENABLE_JIT_SIMD
 void
 popV128
 (
@@ -3387,7 +3387,7 @@ dest
 }
 #
 ifdef
-ENABLE_WASM_SIMD
+ENABLE_JIT_SIMD
 void
 loadStackV128
 (
@@ -4479,7 +4479,7 @@ temp
 }
 #
 ifdef
-ENABLE_WASM_SIMD
+ENABLE_JIT_SIMD
 void
 storeImmediateV128ToStack
 (
