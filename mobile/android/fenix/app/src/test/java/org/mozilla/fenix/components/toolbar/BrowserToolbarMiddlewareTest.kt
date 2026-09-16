@@ -2725,6 +2725,11 @@ isTabStripEnabled
 false
 settings
 .
+enableHomepageAsNewTab
+=
+false
+settings
+.
 enableHomepageTrendingRecentSearch
 =
 false
