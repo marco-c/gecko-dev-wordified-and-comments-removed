@@ -493,7 +493,7 @@ attribute
 [
 LegacyNullToEmptyString
 ]
-DOMString
+UTF8String
 customUserAgent
 ;
 readonly

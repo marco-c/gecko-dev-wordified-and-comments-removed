@@ -567,7 +567,7 @@ NeedsCallerType
 ]
 readonly
 attribute
-DOMString
+UTF8String
 userAgent
 ;
 [

@@ -177,9 +177,6 @@ Now
 (
 )
 ;
-nsAutoString
-userAgent
-;
 Navigator
 :
 :
@@ -190,12 +187,6 @@ nullptr
 Nothing
 (
 )
-userAgent
-)
-;
-CopyUTF16toUTF8
-(
-userAgent
 data
 .
 mUserAgent

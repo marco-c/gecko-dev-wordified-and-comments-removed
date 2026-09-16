@@ -409,7 +409,7 @@ const
 void
 GetUserAgent
 (
-nsAString
+nsACString
 &
 aUserAgent
 CallerType
@@ -623,7 +623,7 @@ Maybe
 bool
 >
 aShouldResistFingerprinting
-nsAString
+nsACString
 &
 aUserAgent
 )

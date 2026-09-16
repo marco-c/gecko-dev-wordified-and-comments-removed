@@ -10959,7 +10959,7 @@ nsDocShell
 :
 GetCustomUserAgent
 (
-nsAString
+nsACString
 &
 aCustomUserAgent
 )
@@ -10983,7 +10983,7 @@ nsDocShell
 SetCustomUserAgent
 (
 const
-nsAString
+nsACString
 &
 aCustomUserAgent
 )

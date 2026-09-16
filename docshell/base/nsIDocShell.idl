@@ -964,7 +964,7 @@ docshell
 *
 /
 attribute
-AString
+ACString
 customUserAgent
 ;
 /
