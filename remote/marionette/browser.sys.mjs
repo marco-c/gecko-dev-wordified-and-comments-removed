@@ -138,9 +138,9 @@ remote
 /
 content
 /
-marionette
+shared
 /
-sync
+Sync
 .
 sys
 .
