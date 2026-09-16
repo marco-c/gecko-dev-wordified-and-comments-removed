@@ -190,6 +190,11 @@ SdpMediaSection
 cpp
 "
 "
+SdpMediaSectionImpl
+.
+cpp
+"
+"
 SdpPref
 .
 cpp
