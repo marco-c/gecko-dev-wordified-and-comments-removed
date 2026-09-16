@@ -17186,7 +17186,7 @@ InternalContentPolicyType
 ;
 }
 }
-NS_IMETHODIMP
+nsresult
 HttpBaseChannel
 :
 :
