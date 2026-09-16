@@ -1,8 +1,6 @@
 #
 include
 "
-libavcodec
-/
 adts_header
 .
 h
@@ -10,8 +8,6 @@ h
 #
 include
 "
-libavcodec
-/
 adts_parser
 .
 h
@@ -19,8 +15,6 @@ h
 #
 include
 "
-libavcodec
-/
 bsf
 .
 h
@@ -28,8 +22,6 @@ h
 #
 include
 "
-libavcodec
-/
 bsf_internal
 .
 h
@@ -37,8 +29,6 @@ h
 #
 include
 "
-libavcodec
-/
 put_bits
 .
 h
@@ -46,8 +36,6 @@ h
 #
 include
 "
-libavcodec
-/
 get_bits
 .
 h
@@ -55,8 +43,6 @@ h
 #
 include
 "
-libavcodec
-/
 mpeg4audio
 .
 h
@@ -64,8 +50,6 @@ h
 #
 include
 "
-libavcodec
-/
 mpeg4audio_copy_pce
 .
 h
