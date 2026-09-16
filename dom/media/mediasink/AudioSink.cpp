@@ -1739,6 +1739,13 @@ Resume
 (
 )
 ;
+mAudioStream
+-
+>
+RebaseLive
+(
+)
+;
 ConnectAudioQueues
 (
 )
@@ -1750,13 +1757,6 @@ NotifyAudioNeeded
 mStoppedForSeek
 =
 false
-;
-mAudioStream
--
->
-RebaseLive
-(
-)
 ;
 return
 mAudioStream

@@ -233,6 +233,14 @@ AudioClock
 {
 public
 :
+enum
+class
+CarryUnplayed
+{
+No
+Yes
+}
+;
 explicit
 AudioClock
 (
@@ -261,6 +269,8 @@ Rebase
 (
 int64_t
 aBaseOffset
+CarryUnplayed
+aCarry
 )
 ;
 int64_t
