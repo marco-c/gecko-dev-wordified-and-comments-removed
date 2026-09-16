@@ -31,6 +31,10 @@ metrics
 import
 Rate
 from
+rust
+import
+rust_int
+from
 util
 import
 type_ids_and_categories
@@ -609,6 +613,12 @@ snake_case
 util
 .
 snake_case
+)
+(
+"
+rust_int
+"
+rust_int
 )
 )
     
