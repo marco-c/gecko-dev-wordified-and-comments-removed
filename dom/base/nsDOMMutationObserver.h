@@ -1313,12 +1313,13 @@ mKungFuDeathGrip
 ;
 private
 :
-nsTArray
+AutoTArray
 <
 RefPtr
 <
 nsAtom
 >
+2
 >
 mAttributeFilter
 ;
