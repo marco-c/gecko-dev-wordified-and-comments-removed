@@ -100,17 +100,6 @@ mozilla
 /
 layers
 /
-GpuFence
-.
-h
-"
-#
-include
-"
-mozilla
-/
-layers
-/
 NativeLayer
 .
 h

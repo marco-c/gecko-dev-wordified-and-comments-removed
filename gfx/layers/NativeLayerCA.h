@@ -1462,8 +1462,10 @@ aExternalImage
 )
 override
 ;
+RefPtr
+<
 GpuFence
-*
+>
 GetGpuFence
 (
 )
