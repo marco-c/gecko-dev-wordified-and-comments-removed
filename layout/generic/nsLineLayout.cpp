@@ -14853,6 +14853,15 @@ maxBCoord
 =
 trimAmount
 ;
+*
+psd
+-
+>
+mBaseline
+-
+=
+trimAmount
+;
 }
 if
 (
