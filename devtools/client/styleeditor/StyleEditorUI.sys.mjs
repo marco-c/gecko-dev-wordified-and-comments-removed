@@ -11528,6 +11528,17 @@ updatePrettyPrintButton
 (
 )
 ;
+Glean
+.
+devtoolsStyleeditorStylesheets
+.
+stylesheetsOpenedCount
+.
+add
+(
+1
+)
+;
 this
 .
 emit

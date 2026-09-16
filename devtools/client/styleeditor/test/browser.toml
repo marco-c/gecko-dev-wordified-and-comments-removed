@@ -1703,6 +1703,13 @@ js
 ]
 [
 "
+browser_styleeditor_telemetry
+.
+js
+"
+]
+[
+"
 browser_styleeditor_transition_rule
 .
 js
