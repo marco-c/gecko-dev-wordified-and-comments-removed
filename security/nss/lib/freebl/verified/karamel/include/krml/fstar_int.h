@@ -1,9 +1,9 @@
 #
 ifndef
-__FSTAR_INT_H
+KRML_HEADER_FSTAR_INT_H
 #
 define
-__FSTAR_INT_H
+KRML_HEADER_FSTAR_INT_H
 #
 include
 "

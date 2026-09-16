@@ -498,6 +498,7 @@ Lib_IntVector_Intrinsics_vec128_rotate_left32_8
 x0
 )
 :
+\
 (
 (
 x1
@@ -511,6 +512,7 @@ Lib_IntVector_Intrinsics_vec128_rotate_left32_16
 x0
 )
 :
+\
 (
 (
 x1
@@ -524,6 +526,7 @@ Lib_IntVector_Intrinsics_vec128_rotate_left32_24
 x0
 )
 :
+\
 _mm_xor_si128
 (
 _mm_slli_epi32
@@ -1832,6 +1835,7 @@ Lib_IntVector_Intrinsics_vec256_rotate_left32_8
 x0
 )
 :
+\
 (
 x1
 =
@@ -1843,6 +1847,7 @@ Lib_IntVector_Intrinsics_vec256_rotate_left32_16
 x0
 )
 :
+\
 (
 x1
 =
@@ -1854,6 +1859,7 @@ Lib_IntVector_Intrinsics_vec256_rotate_left32_24
 x0
 )
 :
+\
 _mm256_or_si256
 (
 _mm256_slli_epi32
@@ -2250,6 +2256,7 @@ Lib_IntVector_Intrinsics_vec256_rotate_right64_8
 x0
 )
 :
+\
 (
 x1
 =
@@ -2261,6 +2268,7 @@ Lib_IntVector_Intrinsics_vec256_rotate_right64_16
 x0
 )
 :
+\
 (
 x1
 =
@@ -2272,6 +2280,7 @@ Lib_IntVector_Intrinsics_vec256_rotate_right64_24
 x0
 )
 :
+\
 (
 x1
 =
@@ -2283,6 +2292,7 @@ Lib_IntVector_Intrinsics_vec256_rotate_right64_32
 x0
 )
 :
+\
 (
 x1
 =
@@ -2294,6 +2304,7 @@ Lib_IntVector_Intrinsics_vec256_rotate_right64_40
 x0
 )
 :
+\
 (
 x1
 =
@@ -2305,6 +2316,7 @@ Lib_IntVector_Intrinsics_vec256_rotate_right64_48
 x0
 )
 :
+\
 (
 x1
 =
@@ -2316,6 +2328,7 @@ Lib_IntVector_Intrinsics_vec256_rotate_right64_56
 x0
 )
 :
+\
 _mm256_xor_si256
 (
 _mm256_srli_epi64
@@ -3324,6 +3337,7 @@ defined
 _M_ARM
 )
 )
+\
 &
 &
 !
@@ -3703,6 +3717,7 @@ Lib_IntVector_Intrinsics_vec128_rotate_left32_16
 x0
 )
 :
+\
 vsriq_n_u32
 (
 vshlq_n_u32
@@ -3766,6 +3781,7 @@ Lib_IntVector_Intrinsics_vec128_rotate_right32_16
 x0
 )
 :
+\
 vsriq_n_u32
 (
 vshlq_n_u32

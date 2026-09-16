@@ -352,7 +352,7 @@ h
 endif
 #
 ifndef
-__FStar_UInt_8_16_32_64_H
+FStar_UInt_8_16_32_64_H
 #
 if
 !

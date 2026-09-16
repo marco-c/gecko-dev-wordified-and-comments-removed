@@ -1,9 +1,9 @@
 #
 ifndef
-__KRML_DEBUG_H
+KRML_HEADER_DEBUG_H
 #
 define
-__KRML_DEBUG_H
+KRML_HEADER_DEBUG_H
 #
 include
 <

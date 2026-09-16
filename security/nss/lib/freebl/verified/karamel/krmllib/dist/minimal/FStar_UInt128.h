@@ -1,9 +1,9 @@
 #
 ifndef
-__FStar_UInt128_H
+FStar_UInt128_H
 #
 define
-__FStar_UInt128_H
+FStar_UInt128_H
 #
 include
 <
@@ -309,6 +309,6 @@ y
 ;
 #
 define
-__FStar_UInt128_H_DEFINED
+FStar_UInt128_H_DEFINED
 #
 endif

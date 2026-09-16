@@ -1,9 +1,9 @@
 #
 ifndef
-__LowStar_Endianness_H
+LowStar_Endianness_H
 #
 define
-__LowStar_Endianness_H
+LowStar_Endianness_H
 #
 include
 <
@@ -106,6 +106,6 @@ x0
 ;
 #
 define
-__LowStar_Endianness_H_DEFINED
+LowStar_Endianness_H_DEFINED
 #
 endif

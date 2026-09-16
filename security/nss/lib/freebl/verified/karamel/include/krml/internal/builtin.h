@@ -1,9 +1,9 @@
 #
 ifndef
-__KRML_BUILTIN_H
+KRML_HEADER_BUILTIN_H
 #
 define
-__KRML_BUILTIN_H
+KRML_HEADER_BUILTIN_H
 #
 if
 (
