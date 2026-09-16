@@ -1119,7 +1119,7 @@ OperationType
 :
 32
 {
-eClipboard
+ePasteClipboard
 =
 0
 eDroppedText
@@ -1134,6 +1134,9 @@ eUpload
 eDownload
 =
 4
+eCopyClipboard
+=
+5
 }
 ;
 readonly

@@ -843,7 +843,7 @@ Ci
 .
 nsIContentAnalysisRequest
 .
-eClipboard
+ePasteClipboard
 urlSpec
 :
 "
@@ -946,7 +946,7 @@ Ci
 .
 nsIContentAnalysisRequest
 .
-eClipboard
+ePasteClipboard
 urlSpec
 :
 "
@@ -1391,7 +1391,7 @@ Ci
 .
 nsIContentAnalysisRequest
 .
-eClipboard
+ePasteClipboard
 urlSpec
 :
 "
@@ -1565,7 +1565,7 @@ Ci
 .
 nsIContentAnalysisRequest
 .
-eClipboard
+ePasteClipboard
 urlSpec
 :
 "
@@ -1733,7 +1733,7 @@ Ci
 .
 nsIContentAnalysisRequest
 .
-eClipboard
+ePasteClipboard
 urlSpec
 :
 "
