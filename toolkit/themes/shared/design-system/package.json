@@ -50,6 +50,9 @@ dictionary
 build
 -
 -
+verbose
+-
+-
 config
 .
 /
