@@ -4288,9 +4288,9 @@ SpaceMapper
 :
 new_with_target
 (
-frame_context
+surface
 .
-root_spatial_node_index
+visibility_spatial_node_index
 self
 .
 spatial_node_index
