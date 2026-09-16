@@ -898,9 +898,13 @@ mGbmBufferObject
 [
 DMABUF_BUFFER_PLANES
 ]
+{
+}
 ;
 uint32_t
 mGbmBufferFlags
+=
+0
 ;
 #
 ifdef
@@ -911,6 +915,8 @@ mMappedRegion
 [
 DMABUF_BUFFER_PLANES
 ]
+{
+}
 ;
 void
 *
@@ -918,12 +924,16 @@ mMappedRegionData
 [
 DMABUF_BUFFER_PLANES
 ]
+{
+}
 ;
 uint32_t
 mMappedRegionStride
 [
 DMABUF_BUFFER_PLANES
 ]
+{
+}
 ;
 #
 endif
@@ -958,6 +968,8 @@ false
 ;
 int
 mGlobalRefCountFd
+=
+0
 ;
 uint32_t
 mUID
@@ -967,6 +979,8 @@ mPID
 ;
 bool
 mCanRecycle
+=
+true
 ;
 mozilla
 :
