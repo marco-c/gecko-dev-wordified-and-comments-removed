@@ -762,6 +762,15 @@ false
 ;
 }
 get
+splitview
+(
+)
+{
+return
+null
+;
+}
+get
 panels
 (
 )
