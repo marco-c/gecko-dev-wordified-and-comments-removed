@@ -706,6 +706,11 @@ String
 (
 value
 )
+installsource
+:
+this
+.
+installSource
 layout
 :
 this
