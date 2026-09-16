@@ -759,6 +759,9 @@ unwrappedRejectionStack
 nullptr
 )
 ;
+#
+ifdef
+NIGHTLY_BUILD
 [
 [
 nodiscard
@@ -792,6 +795,8 @@ Value
 resolution
 )
 ;
+#
+endif
 [
 [
 nodiscard

@@ -651,6 +651,9 @@ HandleValue
 rejectionValue
 )
 ;
+#
+ifdef
+NIGHTLY_BUILD
 extern
 JS_PUBLIC_API
 bool
@@ -671,6 +674,8 @@ HandleValue
 resolutionValue
 )
 ;
+#
+endif
 extern
 JS_PUBLIC_API
 JSObject

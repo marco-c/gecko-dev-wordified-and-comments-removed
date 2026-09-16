@@ -16853,6 +16853,9 @@ true
 )
 ;
 }
+#
+ifdef
+NIGHTLY_BUILD
 JS_PUBLIC_API
 bool
 JS
@@ -17012,6 +17015,8 @@ resolution
 )
 ;
 }
+#
+endif
 JS_PUBLIC_API
 JSObject
 *
