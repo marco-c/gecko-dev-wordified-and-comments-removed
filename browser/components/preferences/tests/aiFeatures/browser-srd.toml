@@ -57,6 +57,8 @@ js
 .
 /
 head
+-
+common
 .
 js
 "
@@ -144,6 +146,13 @@ js
 [
 "
 browser_aiFeatures_smart_window_telemetry
+.
+js
+"
+]
+[
+"
+browser_aiFeatures_speech_recognition
 .
 js
 "
