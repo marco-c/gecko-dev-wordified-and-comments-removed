@@ -1495,13 +1495,6 @@ html
 ]
 [
 "
-test_rate_limit_same_document_navigation
-.
-html
-"
-]
-[
-"
 test_recursive_frames
 .
 html

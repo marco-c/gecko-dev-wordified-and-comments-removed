@@ -24875,10 +24875,12 @@ always
 #
 Limit
 of
-navigations
-initiated
+location
+change
+caused
 by
 content
+scripts
 in
 a
 time
@@ -24911,7 +24913,7 @@ type
 uint32_t
 value
 :
-200
+1000
 mirror
 :
 always
@@ -24921,8 +24923,8 @@ span
 in
 seconds
 for
-the
-navigation
+location
+change
 rate
 limit
 .

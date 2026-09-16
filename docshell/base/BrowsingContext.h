@@ -5337,7 +5337,7 @@ uint32_t
 aLoadType
 )
 ;
-bool
+nsresult
 CheckNavigationRateLimit
 (
 CallerType
