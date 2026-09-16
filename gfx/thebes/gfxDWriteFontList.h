@@ -838,7 +838,7 @@ mFontFile
 ;
 RefPtr
 <
-gfxDWriteFontFileStream
+IDWriteFontFileStream
 >
 mFontFileStream
 ;
@@ -867,6 +867,17 @@ FontTableCache
 >
 mFontTableCache
 ;
+#
+if
+MOZ_FONTATIONS
+void
+*
+mFragmentContext
+=
+nullptr
+;
+#
+endif
 int8_t
 mIsCJK
 ;

@@ -3119,7 +3119,7 @@ aFamily
 #
 ifdef
 MOZ_FONTATIONS
-void
+bool
 SetSkrifaFont
 (
 SkrifaFontRef
@@ -3134,7 +3134,7 @@ MemoryMappedFile
 aSkrifaFontFile
 )
 ;
-void
+bool
 SetSkrifaFont
 (
 SkrifaFontRef
