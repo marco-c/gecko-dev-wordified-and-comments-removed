@@ -898,6 +898,8 @@ mockChildController
 ;
 controller
 .
+parentController
+.
 recordEngagement
 (
 structuredClone
@@ -1473,6 +1475,8 @@ false
 )
 ;
 controller
+.
+parentController
 .
 recordEngagement
 (

@@ -873,6 +873,8 @@ this
 #
 controller
 .
+parentController
+.
 _lastQueryContextWrapper
 )
 {
@@ -880,6 +882,8 @@ this
 .
 #
 controller
+.
+parentController
 .
 setLastQueryContextCache
 (
@@ -1250,6 +1254,8 @@ this
 #
 controller
 .
+parentController
+.
 recordEngagement
 (
 UrlbarTelemetryUtils
@@ -1418,6 +1424,8 @@ this
 .
 #
 controller
+.
+parentController
 .
 resetEngagement
 (
@@ -2421,6 +2429,8 @@ this
 #
 controller
 .
+parentController
+.
 trackBounceBrowser
 (
 browserId
@@ -2549,6 +2559,8 @@ this
 .
 #
 controller
+.
+parentController
 .
 handleBounceTrigger
 (

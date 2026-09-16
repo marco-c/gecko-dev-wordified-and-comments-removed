@@ -5716,7 +5716,7 @@ null
 ;
 smartbar
 .
-controller
+parentController
 .
 loadURL
 =
@@ -5759,7 +5759,7 @@ else
 {
 smartbar
 .
-controller
+parentController
 .
 loadURL
 =
@@ -5901,7 +5901,7 @@ null
 ;
 smartbar
 .
-controller
+parentController
 .
 openSERP
 =

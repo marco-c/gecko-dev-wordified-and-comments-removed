@@ -1055,7 +1055,7 @@ stub
 (
 smartbar
 .
-controller
+parentController
 "
 loadURL
 "

@@ -6816,6 +6816,19 @@ sapName
 ;
 }
 get
+parentController
+(
+)
+{
+return
+this
+.
+controller
+.
+parentController
+;
+}
+get
 smartbarAction
 (
 )
@@ -12333,7 +12346,7 @@ value
 ;
 this
 .
-controller
+parentController
 .
 openSERP
 (
@@ -13465,7 +13478,7 @@ where
 ;
 this
 .
-controller
+parentController
 .
 openSERP
 (
@@ -17032,7 +17045,7 @@ windowMode
 ;
 this
 .
-controller
+parentController
 .
 switchToTab
 (
@@ -17360,7 +17373,7 @@ fixup
 .
 this
 .
-controller
+parentController
 .
 checkKeywordURIFixup
 (
@@ -18154,7 +18167,7 @@ undefined
 {
 this
 .
-controller
+parentController
 .
 addToInputHistory
 (
@@ -22672,7 +22685,7 @@ selectedBrowser
 }
 this
 .
-controller
+parentController
 .
 openSERP
 (
@@ -22702,7 +22715,7 @@ function
 .
 this
 .
-controller
+parentController
 .
 openSearchForm
 (
@@ -23827,7 +23840,7 @@ areSearchModesSame
 {
 this
 .
-controller
+parentController
 .
 recordSearchMode
 (
@@ -32020,7 +32033,7 @@ tab
 {
 this
 .
-controller
+parentController
 .
 recordSearchInOpenedTab
 (
@@ -32032,7 +32045,7 @@ else
 {
 this
 .
-controller
+parentController
 .
 recordSearch
 (
@@ -33987,7 +34000,7 @@ loadStatus
 await
 this
 .
-controller
+parentController
 .
 loadURL
 (
@@ -35900,7 +35913,7 @@ handleCommand
 ;
 this
 .
-controller
+parentController
 .
 clearLastQueryContextCache
 (
@@ -36753,7 +36766,7 @@ return
 await
 this
 .
-controller
+parentController
 .
 dismissAutofill
 (
@@ -41951,7 +41964,7 @@ value
 .
 this
 .
-controller
+parentController
 .
 recordAutofillDeletion
 (
@@ -45537,7 +45550,7 @@ focused
 await
 this
 .
-controller
+parentController
 .
 focusBrowser
 (
@@ -46664,7 +46677,7 @@ droppedURL
 ;
 this
 .
-controller
+parentController
 .
 setLastQueryContextCache
 (

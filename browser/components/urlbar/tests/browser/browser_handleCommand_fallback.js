@@ -273,7 +273,7 @@ stub
 (
 gURLBar
 .
-controller
+parentController
 "
 loadURL
 "
@@ -635,7 +635,7 @@ stub
 (
 gURLBar
 .
-controller
+parentController
 "
 loadURL
 "
@@ -654,7 +654,7 @@ where
 {
 gURLBar
 .
-controller
+parentController
 .
 loadURL
 .

@@ -494,6 +494,8 @@ this
 #
 controller
 .
+parentController
+.
 getEngineIconURL
 (
 this
@@ -641,6 +643,8 @@ this
 .
 #
 controller
+.
+parentController
 .
 markEngineAsUsed
 (
@@ -918,6 +922,8 @@ this
 .
 #
 controller
+.
+parentController
 .
 initEngineStore
 (

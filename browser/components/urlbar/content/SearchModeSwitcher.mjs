@@ -1097,7 +1097,7 @@ this
 #
 input
 .
-controller
+parentController
 .
 openPreferences
 (
