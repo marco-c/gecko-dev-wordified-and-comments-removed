@@ -555,7 +555,7 @@ gBrowser2
 multiSelectedTabsCount
 2
 "
-Three
+Two
 multiselected
 tabs
 "
