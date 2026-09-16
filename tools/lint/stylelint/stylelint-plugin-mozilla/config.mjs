@@ -2579,6 +2579,15 @@ allowedTokens
 .
 .
 versatileColorTokens
+"
+-
+-
+panel
+-
+separator
+-
+color
+"
 ]
 tokenTypes
 :
