@@ -2289,6 +2289,16 @@ native
 crashes
 to
 Sentry
+sendCaughtExceptions
+=
+false
+/
+/
+Do
+not
+send
+diagnostic
+logs
 )
 services
 .

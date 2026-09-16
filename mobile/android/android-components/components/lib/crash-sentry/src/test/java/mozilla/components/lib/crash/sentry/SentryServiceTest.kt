@@ -181,7 +181,7 @@ org
 .
 junit
 .
-Before
+After
 import
 org
 .
@@ -244,9 +244,9 @@ TestException
 Exception
 (
 )
-Before
+After
 fun
-setup
+tearDown
 (
 )
 {
@@ -1535,6 +1535,9 @@ net
 /
 405
 "
+sendCaughtExceptions
+=
+true
 )
 )
 val
