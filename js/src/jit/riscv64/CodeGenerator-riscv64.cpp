@@ -2900,7 +2900,7 @@ else
 {
 masm
 .
-mv
+ma_mv
 (
 dest
 lhs
@@ -3172,7 +3172,7 @@ shift
 {
 masm
 .
-mv
+ma_mv
 (
 out
 zero
@@ -8361,7 +8361,7 @@ canTruncateInfinities
 {
 masm
 .
-mv
+ma_mv
 (
 output
 zero
@@ -8861,7 +8861,7 @@ isTruncated
 {
 masm
 .
-mv
+ma_mv
 (
 output
 zero
@@ -9115,7 +9115,7 @@ snapshot
 }
 masm
 .
-mv
+ma_mv
 (
 out
 zero
@@ -15186,7 +15186,7 @@ canTruncateInfinities
 {
 masm
 .
-mv
+ma_mv
 (
 output
 zero
@@ -15616,7 +15616,7 @@ isTruncated
 {
 masm
 .
-mv
+ma_mv
 (
 output
 zero

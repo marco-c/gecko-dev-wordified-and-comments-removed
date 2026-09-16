@@ -3582,7 +3582,7 @@ Register
 dest
 )
 {
-mv
+ma_mv
 (
 dest
 src
