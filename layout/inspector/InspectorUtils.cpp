@@ -4727,12 +4727,6 @@ ServoCSSParser
 ComputeColor
 (
 styleData
-NS_RGB
-(
-0
-0
-0
-)
 aColorString
 &
 color

@@ -588,12 +588,6 @@ ServoCSSParser
 ComputeColor
 (
 nullptr
-NS_RGB
-(
-0
-0
-0
-)
 value
 &
 color
@@ -642,12 +636,6 @@ ServoCSSParser
 ComputeColor
 (
 nullptr
-NS_RGB
-(
-0
-0
-0
-)
 value
 &
 color
