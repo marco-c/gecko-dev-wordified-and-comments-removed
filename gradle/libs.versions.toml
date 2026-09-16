@@ -51,7 +51,7 @@ kotlin
 .
 4
 .
-10
+20
 "
 serialization
 =
@@ -679,7 +679,7 @@ kotlinc
 "
 0
 .
-10
+11
 .
 0
 "
