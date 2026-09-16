@@ -20375,7 +20375,7 @@ redirectPrincipal
 newLoadInfo
 -
 >
-SetPrincipalToInherit
+SetTrustedPrincipalToInherit
 (
 nullPrincipalToInherit
 )
