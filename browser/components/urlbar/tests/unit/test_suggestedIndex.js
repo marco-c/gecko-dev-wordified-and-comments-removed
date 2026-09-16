@@ -4083,7 +4083,7 @@ startQuery
 context
 UrlbarTestUtils
 .
-newMockController
+mockChildController
 (
 )
 .

@@ -193,7 +193,7 @@ childController
 =
 UrlbarTestUtils
 .
-newMockController
+mockChildController
 (
 {
 input

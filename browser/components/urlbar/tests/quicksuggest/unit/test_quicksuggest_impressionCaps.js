@@ -11103,7 +11103,7 @@ controller
 =
 UrlbarTestUtils
 .
-newMockController
+mockChildController
 (
 {
 input

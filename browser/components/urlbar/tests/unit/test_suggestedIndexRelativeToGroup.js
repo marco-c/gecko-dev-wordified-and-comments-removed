@@ -1427,7 +1427,7 @@ parentController
 =
 UrlbarTestUtils
 .
-newMockController
+mockChildController
 (
 )
 ;

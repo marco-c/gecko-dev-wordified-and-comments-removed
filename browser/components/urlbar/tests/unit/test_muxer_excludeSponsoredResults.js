@@ -356,7 +356,7 @@ startQuery
 context
 UrlbarTestUtils
 .
-newMockController
+mockChildController
 (
 )
 .
@@ -531,7 +531,7 @@ startQuery
 context
 UrlbarTestUtils
 .
-newMockController
+mockChildController
 (
 )
 .
@@ -656,7 +656,7 @@ startQuery
 context
 UrlbarTestUtils
 .
-newMockController
+mockChildController
 (
 )
 .
@@ -819,7 +819,7 @@ startQuery
 context
 UrlbarTestUtils
 .
-newMockController
+mockChildController
 (
 )
 .
@@ -981,7 +981,7 @@ startQuery
 context
 UrlbarTestUtils
 .
-newMockController
+mockChildController
 (
 )
 .
