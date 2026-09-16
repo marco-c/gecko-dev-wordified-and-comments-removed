@@ -20,6 +20,12 @@ Any
 Literal
 import
 warnings
+from
+markdown_it
+.
+_compat
+import
+DATACLASS_KWARGS
 def
 convert_attrs
 (
@@ -100,9 +106,9 @@ dc
 .
 dataclass
 (
-slots
-=
-True
+*
+*
+DATACLASS_KWARGS
 )
 class
 Token

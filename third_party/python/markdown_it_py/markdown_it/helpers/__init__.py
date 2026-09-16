@@ -12,10 +12,10 @@ __all__
 =
 (
 "
-parseLinkDestination
-"
-"
 parseLinkLabel
+"
+"
+parseLinkDestination
 "
 "
 parseLinkTitle

@@ -2317,7 +2317,7 @@ param
 .
 .
 .
-any
+*
 }
 args
 *
@@ -3994,7 +3994,7 @@ param
 .
 .
 .
-any
+*
 }
 args
 *
@@ -12190,7 +12190,7 @@ param
 .
 .
 .
-any
+*
 }
 args
 *
@@ -14021,7 +14021,6 @@ in
 LTR
 mode
 :
-*
 *
 -
 The

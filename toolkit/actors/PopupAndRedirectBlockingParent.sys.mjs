@@ -579,7 +579,7 @@ observer
 *
 param
 {
-any
+*
 }
 reason
 *

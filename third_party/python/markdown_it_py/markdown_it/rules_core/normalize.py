@@ -80,7 +80,7 @@ sub
 (
 "
 \
-ufffd
+uFFFD
 "
 string
 )

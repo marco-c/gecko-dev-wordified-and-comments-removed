@@ -8638,7 +8638,7 @@ get
 *
 returns
 {
-any
+*
 }
 The
 preference
@@ -8774,7 +8774,7 @@ set
 *
 param
 {
-any
+*
 }
 value
 The
@@ -8891,7 +8891,7 @@ set
 *
 param
 {
-any
+*
 }
 value
 *
@@ -9159,7 +9159,7 @@ clear
 *
 returns
 {
-any
+*
 }
 The
 preference
@@ -10405,7 +10405,7 @@ get
 *
 returns
 {
-any
+*
 }
 The
 raw
@@ -10541,7 +10541,7 @@ get
 *
 returns
 {
-any
+*
 }
 The
 validated

@@ -540,6 +540,8 @@ label
         
 ref
 =
+(
+            
 state
 .
 env
@@ -548,11 +550,23 @@ env
 references
 "
 ]
-.
-get
-(
+[
 label
+]
+if
+label
+in
+state
+.
+env
+[
+"
+references
+"
+]
+else
 None
+        
 )
         
 if

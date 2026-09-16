@@ -1,10 +1,13 @@
 "
 "
 "
+ 
 *
 class
 Core
+ 
 *
+ 
 *
 Top
 -
@@ -20,6 +23,7 @@ parsers
 and
 does
 intermediate
+ 
 *
 transformations
 .
@@ -31,9 +35,7 @@ __future__
 import
 annotations
 from
-collections
-.
-abc
+typing
 import
 Callable
 from

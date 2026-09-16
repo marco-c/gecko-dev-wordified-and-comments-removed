@@ -1610,7 +1610,7 @@ originates
 *
 param
 {
-any
+*
 }
 message
 A

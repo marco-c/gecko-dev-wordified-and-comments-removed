@@ -7,6 +7,10 @@ StateCore
 "
     
 "
+normalize
+"
+    
+"
 block
 "
     
@@ -15,19 +19,15 @@ inline
 "
     
 "
-linkify
-"
-    
-"
-normalize
-"
-    
-"
 replace
 "
     
 "
 smartquotes
+"
+    
+"
+linkify
 "
     
 "

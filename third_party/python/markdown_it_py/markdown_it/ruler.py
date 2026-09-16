@@ -148,6 +148,12 @@ TypeVar
 import
 warnings
 from
+markdown_it
+.
+_compat
+import
+DATACLASS_KWARGS
+from
 .
 utils
 import
@@ -374,9 +380,9 @@ type
 "
 dataclass
 (
-slots
-=
-True
+*
+*
+DATACLASS_KWARGS
 )
 class
 Rule

@@ -7,39 +7,11 @@ StateInline
 "
     
 "
-autolink
-"
-    
-"
-backtick
-"
-    
-"
-emphasis
-"
-    
-"
-entity
-"
-    
-"
-escape
+text
 "
     
 "
 fragments_join
-"
-    
-"
-html_inline
-"
-    
-"
-image
-"
-    
-"
-link
 "
     
 "
@@ -51,15 +23,43 @@ linkify
 "
     
 "
+escape
+"
+    
+"
 newline
 "
     
 "
-strikethrough
+backtick
 "
     
 "
-text
+emphasis
+"
+    
+"
+image
+"
+    
+"
+link
+"
+    
+"
+autolink
+"
+    
+"
+entity
+"
+    
+"
+html_inline
+"
+    
+"
+strikethrough
 "
 )
 from

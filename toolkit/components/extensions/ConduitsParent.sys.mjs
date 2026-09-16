@@ -243,7 +243,7 @@ cast
 *
 property
 {
-any
+*
 }
 [
 actor
