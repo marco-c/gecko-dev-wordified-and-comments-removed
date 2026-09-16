@@ -8668,10 +8668,7 @@ open
 -
 in
 -
-tab
-=
-.
-label
+tab2
 =
 Open
 in
@@ -8695,10 +8692,7 @@ in
 -
 container
 -
-tab
-=
-.
-label
+tab2
 =
 Open
 in
@@ -8721,10 +8715,7 @@ open
 -
 in
 -
-window
-=
-.
-label
+window2
 =
 Open
 in
@@ -8748,10 +8739,7 @@ in
 -
 private
 -
-window
-=
-.
-label
+window2
 =
 Open
 in

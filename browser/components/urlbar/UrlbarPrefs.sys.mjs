@@ -6543,6 +6543,16 @@ true
 ]
 [
 "
+privacy
+.
+userContext
+.
+enabled
+"
+true
+]
+[
+"
 security
 .
 insecure_connection_text

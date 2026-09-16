@@ -17865,6 +17865,17 @@ interactive
 "
 panel
 -
+item
+/
+fill
+"
+:
+"
+currentColor
+"
+"
+panel
+-
 list
 /
 background
