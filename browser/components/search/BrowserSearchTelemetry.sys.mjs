@@ -614,6 +614,15 @@ errorpage
 "
 errorpage
 "
+newtab_search_widget
+:
+"
+newtab
+-
+search
+-
+widget
+"
 newtab_searchbar
 :
 "
@@ -2010,6 +2019,11 @@ about_home
 case
 "
 about_newtab
+"
+:
+case
+"
+newtab_search_widget
 "
 :
 this
