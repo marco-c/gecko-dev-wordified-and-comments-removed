@@ -240,14 +240,14 @@ path
 join
 (
 header_dir
+f
 "
-%
-s
+{
+stem
+}
 .
 h
 "
-%
-stem
 )
         
 rs_rt_path
@@ -262,14 +262,14 @@ xpcrs_dir
 "
 rt
 "
+f
 "
-%
-s
+{
+stem
+}
 .
 rs
 "
-%
-stem
 )
         
 rs_bt_path
@@ -284,14 +284,14 @@ xpcrs_dir
 "
 bt
 "
+f
 "
-%
-s
+{
+stem
+}
 .
 rs
 "
-%
-stem
 )
         
 xpts
@@ -395,14 +395,14 @@ path
 join
 (
 xpt_dir
+f
 "
-%
-s
+{
+module
+}
 .
 xpt
 "
-%
-module
 )
     
 with
@@ -519,14 +519,14 @@ path
 join
 (
 deps_dir
+f
 "
-%
-s
+{
+module
+}
 .
 pp
 "
-%
-module
 )
         
 with
