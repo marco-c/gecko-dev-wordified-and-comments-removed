@@ -302,6 +302,9 @@ mod
 scene_building
 ;
 mod
+scene_debug
+;
+mod
 screen_capture
 ;
 mod
