@@ -25,13 +25,10 @@ use
 jxl_simd
 :
 :
+{
 F32SimdVec
-;
-use
-jxl_simd
-:
-:
 SimdDescriptor
+}
 ;
 use
 crate

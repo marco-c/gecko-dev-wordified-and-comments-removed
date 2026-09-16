@@ -28,9 +28,9 @@ version
 "
 0
 .
-6
+7
 .
-0
+2
 "
 readme
 =
@@ -109,6 +109,13 @@ BSD
 -
 Clause
 "
+rust
+-
+version
+.
+workspace
+=
+true
 [
 dependencies
 ]

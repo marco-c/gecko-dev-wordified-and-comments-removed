@@ -23,7 +23,6 @@ use
 crate
 :
 :
-{
 api
 :
 :
@@ -32,10 +31,20 @@ Endianness
 JxlDataFormat
 JxlOutputBuffer
 }
+;
+use
+crate
+:
+:
 image
 :
 :
 ImageDataType
+;
+use
+crate
+:
+:
 render
 :
 :
@@ -46,7 +55,6 @@ row_buffers
 :
 :
 RowBuffer
-}
 ;
 macro_rules
 !

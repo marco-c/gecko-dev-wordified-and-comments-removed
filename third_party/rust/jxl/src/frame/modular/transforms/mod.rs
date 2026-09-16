@@ -24,6 +24,13 @@ palette
 mod
 rct
 ;
+pub
+(
+super
+)
+mod
+smooth_squeeze
+;
 mod
 squeeze
 ;

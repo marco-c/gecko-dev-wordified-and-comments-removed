@@ -859,11 +859,19 @@ if
 cfg
 !
 (
+all
+(
 target_feature
 =
 "
 avx512f
 "
+target_feature
+=
+"
+avx512bw
+"
+)
 )
 {
 /
@@ -875,6 +883,8 @@ just
 checked
 for
 avx512f
+and
+avx512bw
 .
 let
 d
@@ -929,6 +939,7 @@ enable
 =
 "
 avx512f
+avx512bw
 "
 )
 ]
@@ -973,6 +984,8 @@ just
 checked
 for
 avx512f
+and
+avx512bw
 .
 return
 unsafe
@@ -1593,6 +1606,7 @@ enable
 =
 "
 avx512f
+avx512bw
 "
 )
 ]
@@ -1621,6 +1635,8 @@ just
 checked
 for
 avx512f
+and
+avx512bw
 .
 return
 unsafe

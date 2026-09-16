@@ -40,12 +40,6 @@ identity_op
 )
 ]
 use
-crate
-:
-:
-*
-;
-use
 jxl_simd
 :
 :
@@ -53,6 +47,12 @@ jxl_simd
 F32SimdVec
 SimdDescriptor
 }
+;
+use
+crate
+:
+:
+*
 ;
 #
 [

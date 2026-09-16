@@ -1,4 +1,13 @@
 use
+std
+:
+:
+path
+:
+:
+Path
+;
+use
 crate
 :
 :
@@ -23,15 +32,6 @@ compute_mse
 decode
 decode_internal
 }
-;
-use
-std
-:
-:
-path
-:
-:
-Path
 ;
 pub
 fn
@@ -231,6 +231,7 @@ mut
 flush_callback
 )
 None
+false
 )
 .
 unwrap
