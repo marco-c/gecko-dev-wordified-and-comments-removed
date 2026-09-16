@@ -314,7 +314,7 @@ devtools
 /
 client
 /
-jsonview
+shared
 /
 jsonl
 -
@@ -1248,11 +1248,14 @@ null
 }
 if
 (
+JsonlLineError
+.
+isInstance
+(
 member
 .
 value
-instanceof
-JsonlLineError
+)
 )
 {
 return
