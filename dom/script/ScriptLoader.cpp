@@ -13384,6 +13384,12 @@ wasmModuleObject
 aCx
 )
 ;
+MutexAutoLock
+lock
+(
+mMutex
+)
+;
 if
 (
 !
