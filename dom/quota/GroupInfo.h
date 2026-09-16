@@ -255,7 +255,7 @@ mGroupInfoPair
 PersistenceType
 mPersistenceType
 ;
-int64_t
+uint64_t
 mUsage
 ;
 }
