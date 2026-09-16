@@ -37385,10 +37385,6 @@ options
 ?
 .
 option_expander_title_string
-|
-|
-"
-"
 "
 hide
 -
