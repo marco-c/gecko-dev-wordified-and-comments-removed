@@ -1000,6 +1000,12 @@ tokens_since_boundary_
 =
 0
 ;
+enc_
+.
+reset_caches
+(
+)
+;
 }
 return
 emitted
