@@ -5000,6 +5000,14 @@ MOZ_CAN_RUN_SCRIPT
 void
 DispatchContentLoadedEvents
 (
+bool
+aFinishSync
+)
+;
+MOZ_CAN_RUN_SCRIPT
+void
+FinishDOMContentLoaded
+(
 )
 ;
 MOZ_CAN_RUN_SCRIPT_BOUNDARY
@@ -6295,10 +6303,13 @@ BeginLoad
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 virtual
 void
 EndLoad
 (
+bool
+aFireDOMContentLoadedSync
 )
 ;
 enum
@@ -7212,6 +7223,8 @@ MOZ_CAN_RUN_SCRIPT_BOUNDARY
 void
 UnblockDOMContentLoaded
 (
+bool
+aFireSync
 )
 ;
 MOZ_CAN_RUN_SCRIPT

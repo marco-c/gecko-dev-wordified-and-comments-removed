@@ -3445,6 +3445,7 @@ doc
 >
 EndLoad
 (
+true
 )
 ;
 return
