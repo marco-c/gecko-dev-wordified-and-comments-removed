@@ -3878,6 +3878,11 @@ Size
 )
 )
 ;
+bool
+rasterizedForDest
+=
+false
+;
 gfx
 :
 :
@@ -3897,6 +3902,8 @@ aSc
 containerFlags
 svgContext
 region
+&
+rasterizedForDest
 )
 ;
 RefPtr
@@ -4068,6 +4075,9 @@ ColorF
 0f
 aOpacity
 }
+false
+false
+rasterizedForDest
 )
 ;
 }

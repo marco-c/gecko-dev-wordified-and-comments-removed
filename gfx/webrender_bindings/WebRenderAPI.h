@@ -3530,6 +3530,10 @@ bool
 aSupportsExternalCompositing
 =
 false
+bool
+aRasterizedForRect
+=
+false
 )
 ;
 void

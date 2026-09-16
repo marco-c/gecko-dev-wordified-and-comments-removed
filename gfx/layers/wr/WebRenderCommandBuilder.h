@@ -449,6 +449,10 @@ const
 LayoutDeviceRect
 &
 aClip
+bool
+aRasterizedForRect
+=
+false
 )
 ;
 Maybe

@@ -5304,6 +5304,11 @@ ImageIntRegion
 >
 &
 aRegion
+bool
+*
+aRasterizedForDest
+=
+nullptr
 )
 ;
 static
