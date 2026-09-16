@@ -1436,7 +1436,7 @@ aColor
 =
 GetColorForSysColorIndex
 (
-COLOR_MENU
+COLOR_WINDOW
 )
 ;
 }
@@ -2158,7 +2158,7 @@ NS_OK
 }
 idx
 =
-COLOR_MENUTEXT
+COLOR_WINDOWTEXT
 ;
 break
 ;
