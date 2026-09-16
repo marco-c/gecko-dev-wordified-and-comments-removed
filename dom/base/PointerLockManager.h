@@ -187,6 +187,7 @@ BrowsingContext
 aContext
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 static
 void
 SetLockedRemoteTarget

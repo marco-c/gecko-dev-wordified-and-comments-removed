@@ -3329,6 +3329,7 @@ RecvRemoteIsReadyToHandleInputEvents
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 mozilla
 :
 :
@@ -3456,6 +3457,7 @@ EmbedderElementEventType
 aFireEventAtEmbeddingElement
 )
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 mozilla
 :
 :
