@@ -1105,7 +1105,7 @@ self
 webkit_legacy
 &
 &
-static_prefs
+crate
 :
 :
 pref

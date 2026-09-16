@@ -2614,7 +2614,7 @@ image
 Image
 ;
 if
-static_prefs
+crate
 :
 :
 pref
@@ -6123,7 +6123,7 @@ gecko_bindings
 bindings
 ;
 if
-static_prefs
+crate
 :
 :
 pref

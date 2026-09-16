@@ -9776,7 +9776,7 @@ is_webkit_fill_available_enabled_in_width_and_height
 >
 bool
 {
-static_prefs
+crate
 :
 :
 pref
@@ -9805,7 +9805,7 @@ is_webkit_fill_available_enabled_in_all_size_properties
 >
 bool
 {
-static_prefs
+crate
 :
 :
 pref
@@ -9827,7 +9827,7 @@ enabled
 )
 &
 &
-static_prefs
+crate
 :
 :
 pref
@@ -9862,7 +9862,7 @@ is_stretch_enabled
 >
 bool
 {
-static_prefs
+crate
 :
 :
 pref
@@ -9891,7 +9891,7 @@ is_fit_content_function_enabled
 >
 bool
 {
-static_prefs
+crate
 :
 :
 pref

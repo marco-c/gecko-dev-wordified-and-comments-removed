@@ -879,7 +879,7 @@ available
 ;
 }
 if
-static_prefs
+crate
 :
 :
 pref
@@ -912,7 +912,7 @@ stretch
 ;
 }
 if
-static_prefs
+crate
 :
 :
 pref
@@ -1248,7 +1248,7 @@ available
 ;
 }
 if
-static_prefs
+crate
 :
 :
 pref
@@ -1281,7 +1281,7 @@ stretch
 ;
 }
 if
-static_prefs
+crate
 :
 :
 pref

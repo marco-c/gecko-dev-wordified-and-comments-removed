@@ -1826,7 +1826,7 @@ chrome_rules_enabled
 &
 &
 !
-static_prefs
+crate
 :
 :
 pref
@@ -1873,7 +1873,7 @@ chrome_rules_enabled
 &
 &
 !
-static_prefs
+crate
 :
 :
 pref

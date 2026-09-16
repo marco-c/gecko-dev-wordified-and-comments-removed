@@ -4238,7 +4238,7 @@ progress
 debug_assert
 !
 (
-static_prefs
+crate
 :
 :
 pref

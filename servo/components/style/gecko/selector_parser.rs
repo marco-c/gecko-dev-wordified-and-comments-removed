@@ -1555,7 +1555,7 @@ Heading
 )
 {
 return
-static_prefs
+crate
 :
 :
 pref
@@ -1584,7 +1584,7 @@ PictureInPicture
 )
 {
 return
-static_prefs
+crate
 :
 :
 pref
@@ -1615,7 +1615,7 @@ MozPlaceholder
 )
 {
 return
-static_prefs
+crate
 :
 :
 pref

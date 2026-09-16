@@ -534,7 +534,7 @@ ParserContext
 >
 bool
 {
-static_prefs
+crate
 :
 :
 pref
@@ -2942,7 +2942,7 @@ return
 false
 ;
 }
-static_prefs
+crate
 :
 :
 pref

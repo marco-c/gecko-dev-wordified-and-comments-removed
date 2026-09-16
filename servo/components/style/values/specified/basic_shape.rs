@@ -1851,7 +1851,7 @@ SHAPE
 )
 &
 &
-static_prefs
+crate
 :
 :
 pref
@@ -2432,7 +2432,7 @@ i
 ;
 if
 !
-static_prefs
+crate
 :
 :
 pref

@@ -474,7 +474,7 @@ work_unit_max
 >
 usize
 {
-static_prefs
+crate
 :
 :
 pref

@@ -8869,7 +8869,7 @@ is_none
 &
 &
 !
-static_prefs
+crate
 :
 :
 pref
@@ -10146,7 +10146,7 @@ hint
 }
 if
 !
-static_prefs
+crate
 :
 :
 pref

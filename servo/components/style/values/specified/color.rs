@@ -374,7 +374,7 @@ ok
 let
 allow_multiple_items
 =
-static_prefs
+crate
 :
 :
 pref

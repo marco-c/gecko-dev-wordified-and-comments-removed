@@ -3530,7 +3530,7 @@ default
 Self
 {
 if
-static_prefs
+crate
 :
 :
 pref
@@ -4015,7 +4015,7 @@ ParseError
 {
 if
 !
-static_prefs
+crate
 :
 :
 pref
