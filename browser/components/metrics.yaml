@@ -5095,9 +5095,6 @@ never
 unit
 :
 unknown
-telemetry_mirror
-:
-SECURITY_HTTPS_ONLY_MODE_ENABLED
 https_only_mode_enabled_pbm
 :
 type
@@ -5213,9 +5210,6 @@ never
 unit
 :
 unknown
-telemetry_mirror
-:
-SECURITY_HTTPS_ONLY_MODE_ENABLED_PBM
 global_privacy_control_enabled
 :
 type
