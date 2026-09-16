@@ -37,6 +37,15 @@ py
 "
 action
 /
+test_l10n_stage
+.
+py
+"
+]
+[
+"
+action
+/
 test_langpack_manifest
 .
 py
