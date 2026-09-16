@@ -111,10 +111,6 @@ runUpdate
 (
 STATE_FAILED_BSPATCH_MEM_ERROR
 false
-USE_EXECV
-?
-0
-:
 1
 true
 )
