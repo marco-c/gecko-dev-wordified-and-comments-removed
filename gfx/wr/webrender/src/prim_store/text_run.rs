@@ -889,6 +889,13 @@ InternablePrimitive
 for
 TextRun
 {
+const
+SNAP_CLIPS
+:
+bool
+=
+false
+;
 fn
 into_key
 (
@@ -2344,7 +2351,7 @@ TextRunTemplate
 >
 (
 )
-112
+96
 "
 TextRunTemplate
 size
@@ -2366,7 +2373,7 @@ TextRunKey
 >
 (
 )
-112
+96
 "
 TextRunKey
 size
