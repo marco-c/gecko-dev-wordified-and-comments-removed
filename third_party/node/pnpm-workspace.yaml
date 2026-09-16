@@ -7,6 +7,17 @@ false
 minimumReleaseAge
 :
 20160
+minimumReleaseAgeExclude
+:
+-
+fast
+-
+uri
+3
+.
+1
+.
+6
 ignoreScripts
 :
 true
