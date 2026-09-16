@@ -437,7 +437,6 @@ interaction
 [
 Throws
 NeedsCallerType
-UseCounter
 ]
 undefined
 start
@@ -447,7 +446,6 @@ start
 [
 Throws
 NeedsCallerType
-UseCounter
 ]
 undefined
 start
@@ -469,7 +467,6 @@ abort
 [
 NewObject
 Throws
-UseCounter
 ]
 static
 Promise
@@ -485,7 +482,6 @@ options
 [
 NewObject
 Throws
-UseCounter
 ]
 static
 Promise
