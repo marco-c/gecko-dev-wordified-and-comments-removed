@@ -780,7 +780,6 @@ SetModuleFetchStarted
 aRequest
 )
 ;
-return
 aRequest
 -
 >
@@ -788,6 +787,9 @@ OnFetchComplete
 (
 NS_OK
 )
+;
+return
+NS_OK
 ;
 }
 bool

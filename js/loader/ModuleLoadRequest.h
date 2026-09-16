@@ -304,11 +304,6 @@ ModuleErrored
 )
 ;
 void
-LoadFailed
-(
-)
-;
-void
 NotifyModuleWaitFinished
 (
 )
@@ -413,14 +408,13 @@ this
 )
 ;
 }
-nsresult
+void
 OnFetchComplete
 (
 nsresult
 aRv
 )
 {
-return
 mLoader
 -
 >

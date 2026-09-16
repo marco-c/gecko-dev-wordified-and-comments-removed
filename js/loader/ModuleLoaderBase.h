@@ -1020,7 +1020,7 @@ ModuleLoadRequest
 aRequest
 )
 ;
-nsresult
+void
 OnFetchComplete
 (
 ModuleLoadRequest

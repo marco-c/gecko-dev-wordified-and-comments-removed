@@ -3849,7 +3849,7 @@ return
 ms
 ;
 }
-nsresult
+void
 ModuleLoaderBase
 :
 :
@@ -4003,15 +4003,14 @@ rv
 )
 )
 {
-aRequest
+mLoader
 -
 >
-LoadFailed
+ReportErrorToConsole
 (
-)
-;
-return
+aRequest
 rv
+)
 ;
 }
 }
@@ -4093,7 +4092,6 @@ waitingRequests
 )
 {
 return
-NS_OK
 ;
 }
 ResumeWaitingRequests
@@ -4101,9 +4099,6 @@ ResumeWaitingRequests
 waitingRequests
 success
 )
-;
-return
-NS_OK
 ;
 }
 void
