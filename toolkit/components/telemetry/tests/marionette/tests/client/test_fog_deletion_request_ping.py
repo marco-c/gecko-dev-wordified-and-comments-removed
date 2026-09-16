@@ -71,6 +71,12 @@ glean
 "
 )
         
+self
+.
+restart_browser
+(
+)
+        
 ping1
 =
 self
