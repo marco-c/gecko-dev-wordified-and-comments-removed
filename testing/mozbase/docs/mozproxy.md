@@ -92,14 +92,6 @@ The
 usage
 pattern
 is
-%
-rstcheck
-:
-ignore
--
-languages
-=
-python
 python
 from
 mozproxy

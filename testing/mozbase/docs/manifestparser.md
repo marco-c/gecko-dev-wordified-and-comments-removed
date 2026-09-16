@@ -2234,14 +2234,6 @@ members
 filterlist
 InstanceFilter
 DEFAULT_FILTERS
-%
-rstcheck
-:
-ignore
--
-directives
-=
-autodata
 {
 eval
 -

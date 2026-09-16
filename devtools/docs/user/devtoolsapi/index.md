@@ -5480,14 +5480,6 @@ sidebar
 to
 live
 :
-%
-rstcheck
-:
-ignore
--
-languages
-=
-xml
 xml
 <
 splitter

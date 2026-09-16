@@ -1249,14 +1249,6 @@ two
 level
 structure
 :
-%
-rstcheck
-:
-ignore
--
-languages
-=
-yaml
 yaml
 #
 The

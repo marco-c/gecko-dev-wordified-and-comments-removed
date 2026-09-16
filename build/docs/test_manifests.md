@@ -1372,14 +1372,6 @@ is
 documented
 here
 .
-%
-rstcheck
-:
-ignore
--
-directives
-=
-todo
 {
 eval
 -

@@ -888,7 +888,7 @@ web
 -
 extensions
 .
-html
+md
 )
 .
 (
@@ -2670,7 +2670,7 @@ web
 -
 extensions
 .
-html
+md
 )
 .
 #
@@ -3177,14 +3177,6 @@ the
 media
 process
 :
-%
-rstcheck
-:
-ignore
--
-languages
-=
-xml
 xml
 <
 service
@@ -4940,7 +4932,7 @@ consumer
 /
 permissions
 .
-html
+md
 )
 on
 permissions
@@ -6333,7 +6325,7 @@ libpref
 /
 index
 .
-html
+md
 )
 (
 or
@@ -6753,6 +6745,6 @@ Framework
 (
 junit
 .
-html
+md
 )
 .
