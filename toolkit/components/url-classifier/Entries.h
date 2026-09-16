@@ -1600,6 +1600,17 @@ CachedFullHashResponse
 >
 FullHashResponseMap
 ;
+struct
+TableWaitDuration
+{
+nsCString
+mTable
+;
+uint32_t
+mWaitSec
+;
+}
+;
 template
 <
 class

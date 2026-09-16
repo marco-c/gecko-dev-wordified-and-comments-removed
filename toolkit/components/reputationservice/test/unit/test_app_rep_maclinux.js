@@ -1103,6 +1103,12 @@ Assert
 equal
 (
 "
+goog
+-
+downloadwhite
+-
+digest256
+:
 1000
 "
 aEvent

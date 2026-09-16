@@ -1567,6 +1567,17 @@ Assert
 .
 equal
 (
+"
+content
+-
+fingerprinting
+-
+track
+-
+digest256
+:
+"
++
 SBRS_UPDATE_MINIMUM_DELAY
 aEvent
 )
