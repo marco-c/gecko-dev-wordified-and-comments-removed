@@ -2640,6 +2640,7 @@ custom_properties
 substitute
 (
 value
+None
 &
 substitution_functions
 stylist
@@ -2750,6 +2751,7 @@ AllowComputationallyDependent
 :
 Yes
 attr_taint
+None
 )
 .
 ok
@@ -2906,6 +2908,7 @@ compute_variable_value
 v
 registration
 ctx
+None
 )
 .
 as_ref
@@ -2984,6 +2987,7 @@ compute_variable_value
 initial
 registration
 ctx
+None
 )
 ;
 v
@@ -4985,6 +4989,7 @@ substitute
 (
 &
 value
+None
 &
 substitution_functions
 stylist

@@ -233,6 +233,7 @@ CascadeMode
 ComputedValues
 FirstLineReparenting
 PropertyDeclarationBlock
+PropertyIdRef
 }
 ;
 use
@@ -9079,6 +9080,14 @@ PropertyRegistration
 :
 validate_initial_value
 (
+PropertyIdRef
+:
+:
+from
+(
+&
+name
+)
 &
 syntax
 initial_value

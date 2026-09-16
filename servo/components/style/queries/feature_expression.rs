@@ -5700,6 +5700,7 @@ custom_properties
 substitute
 (
 value
+None
 &
 sub_funcs
 stylist

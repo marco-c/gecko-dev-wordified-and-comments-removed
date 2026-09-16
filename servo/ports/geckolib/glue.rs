@@ -39068,6 +39068,7 @@ dummy_chrome_url_data
 }
 ;
 let
+mut
 context
 =
 ParserContext
@@ -39118,6 +39119,7 @@ cond
 eval
 (
 &
+mut
 context
 )
 }
@@ -57850,6 +57852,7 @@ Default
 default
 (
 )
+None
 )
 .
 is_ok
@@ -62724,6 +62727,7 @@ substitute
 (
 &
 variable_value
+None
 &
 substitution_functions
 stylist

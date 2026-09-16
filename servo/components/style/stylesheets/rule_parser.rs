@@ -5515,6 +5515,7 @@ condition
 eval
 (
 &
+mut
 p
 .
 context
@@ -5678,6 +5679,7 @@ p
 parse_property_declaration_list
 (
 &
+mut
 p
 .
 context
@@ -6089,6 +6091,7 @@ p
 parse_property_declaration_list
 (
 &
+mut
 p
 .
 context
@@ -6311,6 +6314,7 @@ p
 parse_property_declaration_list
 (
 &
+mut
 p
 .
 context
@@ -6985,6 +6989,7 @@ declaration_parser_state
 parse_value
 (
 &
+mut
 top
 .
 context
