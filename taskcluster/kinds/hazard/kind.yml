@@ -335,8 +335,6 @@ x86_64
 linux
 -
 gnu
--
-gcc11
 linux64
 -
 haz
@@ -471,8 +469,6 @@ x86_64
 linux
 -
 gnu
--
-gcc11
 -
 sysroot
 -

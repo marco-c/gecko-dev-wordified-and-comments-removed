@@ -259,7 +259,7 @@ toolchain
 -
 sysroot
 -
-gcc10
+gcc11
 linux64
 -
 node
