@@ -46,6 +46,11 @@ maxdepth
 1
 contribution_quickref
 stack_quickref
+reviewable
+-
+patch
+-
+series
 phabricator_vs_github
 pocket
 -
