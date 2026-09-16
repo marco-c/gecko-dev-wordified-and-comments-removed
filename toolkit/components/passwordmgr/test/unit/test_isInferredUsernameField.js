@@ -492,6 +492,9 @@ testValues
 "
 username
 "
+"
+webauthn
+"
 ]
 expectation
 :

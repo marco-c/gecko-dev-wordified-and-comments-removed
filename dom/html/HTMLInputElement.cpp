@@ -21999,6 +21999,17 @@ EqualsASCII
 username
 "
 )
+&
+&
+!
+autocompleteValue
+.
+EqualsASCII
+(
+"
+webauthn
+"
+)
 )
 {
 return
