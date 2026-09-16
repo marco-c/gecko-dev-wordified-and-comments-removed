@@ -78,12 +78,14 @@ org
 /
 svg
 "
-viewBox
+width
 =
 "
-0
-0
 272
+"
+height
+=
+"
 115
 "
 fill
