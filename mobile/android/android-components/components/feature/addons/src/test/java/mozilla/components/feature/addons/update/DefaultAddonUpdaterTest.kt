@@ -1092,7 +1092,7 @@ ext
 listOf
 (
 "
-normandyAddonStudy
+testUnknownPermission
 "
 )
 emptyList

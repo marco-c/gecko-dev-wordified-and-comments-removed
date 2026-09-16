@@ -4120,9 +4120,6 @@ menus
 overrideContext
 "
 "
-normandyAddonStudy
-"
-"
 search
 "
 "

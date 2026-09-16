@@ -155,13 +155,6 @@ Linux
 debug
 [
 "
-test_ext_normandyAddonStudy
-.
-js
-"
-]
-[
-"
 test_ext_pageAction_shutdown
 .
 js
