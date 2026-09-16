@@ -225,6 +225,12 @@ linux64
 minidump
 -
 stackwalk
+-
+newtab
+-
+node
+-
+modules
 tasks
 :
 amd64
