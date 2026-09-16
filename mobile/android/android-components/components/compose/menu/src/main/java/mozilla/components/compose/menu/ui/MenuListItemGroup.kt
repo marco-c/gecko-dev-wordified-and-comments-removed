@@ -396,8 +396,12 @@ static25
 {
 items
 .
-forEach
+forEachIndexed
 {
+index
+it
+-
+>
 if
 (
 it
@@ -420,6 +424,9 @@ contentDescription
 modifier
 =
 Modifier
+index
+=
+index
 role
 =
 it
