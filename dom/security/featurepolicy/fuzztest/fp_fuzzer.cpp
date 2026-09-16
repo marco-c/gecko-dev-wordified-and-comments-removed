@@ -236,7 +236,7 @@ return
 FeaturePolicyParser
 :
 :
-ParseString
+ParsePolicyFromAttribute
 (
 policy
 nullptr
