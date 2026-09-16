@@ -28,6 +28,15 @@ py
 "
 action
 /
+test_fat_aar
+.
+py
+"
+]
+[
+"
+action
+/
 test_generate_archive_symbols
 .
 py
