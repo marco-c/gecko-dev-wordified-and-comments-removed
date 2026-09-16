@@ -6783,6 +6783,7 @@ SizedFile
 >
 &
 NewCorpus
+-
 const
 std
 :
@@ -6795,6 +6796,17 @@ MergeFileInfo
 KnownFiles
 )
 {
++
+const
+std
+:
+:
+vector
+<
+MergeFileInfo
+>
+&
+KnownFiles
 +
 size_t
 &

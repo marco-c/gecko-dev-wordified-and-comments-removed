@@ -2484,8 +2484,6 @@ MergeFileInfo
 >
 &
 KnownFiles
-)
-{
 size_t
 &
 NumFiles
