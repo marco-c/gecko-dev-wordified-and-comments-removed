@@ -867,6 +867,15 @@ mean
 =
 test_measurements
         
+measurements
+[
+self
+.
+test_name
+]
+=
+test_measurements
+        
 return
 measurements
     
