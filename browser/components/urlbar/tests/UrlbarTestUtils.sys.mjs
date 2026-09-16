@@ -11500,9 +11500,6 @@ getActor
 >
 (
 {
-usesMessagePath
-:
-false
 browsingContext
 :
 {
