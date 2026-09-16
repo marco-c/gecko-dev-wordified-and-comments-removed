@@ -6046,6 +6046,9 @@ model
 type
 :
 string
+lifetime
+:
+application
 description
 :
 |
@@ -6817,6 +6820,9 @@ memories_optin
 type
 :
 labeled_boolean
+lifetime
+:
+application
 labels
 :
 -
@@ -6965,6 +6971,9 @@ set_default_optin
 type
 :
 boolean
+lifetime
+:
+application
 description
 :
 |
