@@ -3345,6 +3345,15 @@ score
 0
 .
 3
+suggestion_id
+=
+"
+amp
+-
+suggestion
+-
+id
+"
 }
 =
 {
@@ -3394,6 +3403,7 @@ icon
 "
 1234
 "
+suggestion_id
 }
 ;
 }
@@ -3578,7 +3588,13 @@ categories
 ]
 suggestionId
 =
-undefined
+"
+amp
+-
+suggestion
+-
+id
+"
 }
 =
 {
@@ -3734,6 +3750,7 @@ score
 ftsMatchInfo
 :
 null
+suggestionId
 }
 )
 ;
