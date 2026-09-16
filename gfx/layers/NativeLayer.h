@@ -768,6 +768,12 @@ return
 mFramebuffer
 ;
 }
+~
+RenderSourceNLRS
+(
+)
+override
+;
 protected
 :
 UniquePtr
