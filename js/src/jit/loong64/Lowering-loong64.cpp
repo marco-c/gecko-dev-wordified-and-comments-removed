@@ -7266,7 +7266,7 @@ NYI
 }
 #
 ifdef
-ENABLE_JIT_SIMD
+ENABLE_WASM_SIMD
 bool
 MWasmTernarySimd128
 :

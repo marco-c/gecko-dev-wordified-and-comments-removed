@@ -1044,7 +1044,7 @@ JSVAL_TAG_SHIFT
 }
 #
 ifdef
-ENABLE_JIT_SIMD
+ENABLE_WASM_SIMD
 bool
 MacroAssembler
 :

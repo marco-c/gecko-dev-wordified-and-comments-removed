@@ -4738,7 +4738,7 @@ to
 }
 #
 ifdef
-ENABLE_JIT_SIMD
+ENABLE_WASM_SIMD
 #
 if
 defined

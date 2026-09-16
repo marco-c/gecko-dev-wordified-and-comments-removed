@@ -65867,7 +65867,7 @@ output
 ;
 #
 ifdef
-ENABLE_JIT_SIMD
+ENABLE_WASM_SIMD
 if
 (
 type
@@ -66016,7 +66016,7 @@ output
 ;
 #
 ifdef
-ENABLE_JIT_SIMD
+ENABLE_WASM_SIMD
 if
 (
 type
@@ -66217,7 +66217,7 @@ None
 }
 #
 ifdef
-ENABLE_JIT_SIMD
+ENABLE_WASM_SIMD
 if
 (
 type
@@ -66385,7 +66385,7 @@ break
 ;
 #
 ifdef
-ENABLE_JIT_SIMD
+ENABLE_WASM_SIMD
 case
 MIRType
 :
@@ -66592,7 +66592,7 @@ None
 }
 #
 ifdef
-ENABLE_JIT_SIMD
+ENABLE_WASM_SIMD
 if
 (
 type
@@ -86185,7 +86185,7 @@ JS_64BIT
 &
 defined
 (
-ENABLE_JIT_SIMD
+ENABLE_WASM_SIMD
 )
 Label
 fastPath
@@ -86316,7 +86316,7 @@ JS_64BIT
 &
 defined
 (
-ENABLE_JIT_SIMD
+ENABLE_WASM_SIMD
 )
 masm
 .

@@ -3096,7 +3096,7 @@ d
 }
 #
 ifdef
-ENABLE_JIT_SIMD
+ENABLE_WASM_SIMD
 [
 [
 nodiscard
@@ -3541,7 +3541,7 @@ f64
 ;
 #
 ifdef
-ENABLE_JIT_SIMD
+ENABLE_WASM_SIMD
 [
 [
 nodiscard
@@ -4740,7 +4740,7 @@ V128
 {
 #
 ifdef
-ENABLE_JIT_SIMD
+ENABLE_WASM_SIMD
 if
 (
 !
@@ -6005,7 +6005,7 @@ true
 }
 #
 ifdef
-ENABLE_JIT_SIMD
+ENABLE_WASM_SIMD
 inline
 bool
 Decoder
