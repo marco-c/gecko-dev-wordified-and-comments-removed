@@ -3826,13 +3826,11 @@ transCI
 UsingConnect
 (
 )
-)
-{
-MOZ_ASSERT
-(
+&
+&
 mProxyConnectResponseHead
 )
-;
+{
 httpTransaction
 -
 >
