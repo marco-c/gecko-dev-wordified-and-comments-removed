@@ -1686,6 +1686,15 @@ div
 >
 <
 ContentSection
+panelShowing
+=
+{
+this
+.
+props
+.
+showing
+}
 openPreferences
 =
 {

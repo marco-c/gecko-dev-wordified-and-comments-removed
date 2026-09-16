@@ -1147,6 +1147,7 @@ setPref
 mayHaveTopicSections
 weatherDisplay
 exitEventFired
+panelShowing
 onSubpanelToggle
 toggleSectionsMgmtPanel
 showSectionsMgmtPanel
@@ -1532,6 +1533,11 @@ exitEventFired
 =
 {
 exitEventFired
+}
+panelShowing
+=
+{
+panelShowing
 }
 onSubpanelToggle
 =
