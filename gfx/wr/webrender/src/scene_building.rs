@@ -7348,10 +7348,6 @@ build_for_prim
 (
 clip_node_id
 info
-P
-:
-:
-SNAP_CLIPS
 )
 ;
 self
@@ -11341,7 +11337,6 @@ build_for_prim
 (
 clip_node_id
 info
-true
 )
 ;
 let
