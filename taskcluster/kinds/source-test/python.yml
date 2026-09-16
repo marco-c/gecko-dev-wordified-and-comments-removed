@@ -1311,6 +1311,10 @@ rust
 win64
 -
 mozcheck
+fetch
+:
+-
+pnpm
 clang
 -
 tidy

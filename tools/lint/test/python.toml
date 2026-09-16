@@ -286,6 +286,13 @@ py
 ]
 [
 "
+test_pnpm_audit
+.
+py
+"
+]
+[
+"
 test_python_sites
 .
 py

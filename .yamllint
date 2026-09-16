@@ -29,3 +29,9 @@ node_modules
 bad
 .
 yml
+*
+pnpm
+-
+lock
+.
+yaml
