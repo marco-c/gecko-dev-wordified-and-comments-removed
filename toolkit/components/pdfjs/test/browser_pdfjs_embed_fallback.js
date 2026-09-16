@@ -3500,8 +3500,15 @@ fallbackContainer
 "
 )
 ;
-is
+await
+ContentTaskUtils
+.
+waitForCondition
 (
+(
+)
+=
+>
 content
 .
 getComputedStyle
@@ -3510,6 +3517,9 @@ container
 )
 .
 display
+=
+=
+=
 "
 none
 "
