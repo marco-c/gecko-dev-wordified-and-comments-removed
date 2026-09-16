@@ -5,10 +5,6 @@ os
 import
 sys
 from
-collections
-import
-OrderedDict
-from
 shutil
 import
 which
@@ -6415,9 +6411,8 @@ TestPaths
     
 test_paths
 =
-OrderedDict
-(
-)
+{
+}
     
 for
 section

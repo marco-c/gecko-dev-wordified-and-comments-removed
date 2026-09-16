@@ -4,8 +4,6 @@ sys
 json
 json5
 re
-import
-collections
 script_directory
 =
 os
@@ -227,11 +225,6 @@ json5
 load
 (
 f
-object_pairs_hook
-=
-collections
-.
-OrderedDict
 )
         
 except
