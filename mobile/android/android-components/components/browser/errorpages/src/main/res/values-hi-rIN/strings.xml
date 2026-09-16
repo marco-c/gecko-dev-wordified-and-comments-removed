@@ -776,7 +776,9 @@ n
 <
 label
 >
--
+%
+1
+s
 <
 b
 >
@@ -787,9 +789,6 @@ s
 /
 b
 >
-%
-1
-s
 <
 /
 label
@@ -1991,6 +1990,10 @@ CDATA
 p
 >
 (
+mozilla
+.
+org
+80
 <
 q
 >
@@ -2003,10 +2006,6 @@ org
 /
 q
 >
-80
-mozilla
-.
-org
 )
 <
 em
