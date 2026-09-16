@@ -30,9 +30,6 @@ ok
 pos
 "
 "
-lines
-"
-"
 str
 "
 )
@@ -61,12 +58,6 @@ pos
         
 self
 .
-lines
-=
-0
-        
-self
-.
 str
 =
 "
@@ -88,10 +79,6 @@ int
 >
 _Result
 :
-    
-lines
-=
-0
     
 start
 =
@@ -380,12 +367,6 @@ start
 pos
 ]
 )
-    
-result
-.
-lines
-=
-lines
     
 result
 .

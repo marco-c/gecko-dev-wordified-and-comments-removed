@@ -159,6 +159,20 @@ gfm_like
 make
 (
 )
+    
+"
+gfm
+-
+like2
+"
+:
+presets
+.
+gfm_like2
+.
+make
+(
+)
 }
 class
 MarkdownIt
@@ -441,7 +455,6 @@ inline
 >
 ParserInline
 :
-        
 .
 .
 .
@@ -465,7 +478,6 @@ block
 >
 ParserBlock
 :
-        
 .
 .
 .
@@ -489,7 +501,6 @@ core
 >
 ParserCore
 :
-        
 .
 .
 .
@@ -513,7 +524,6 @@ renderer
 >
 RendererProtocol
 :
-        
 .
 .
 .
@@ -532,7 +542,6 @@ str
 >
 Any
 :
-        
 .
 .
 .

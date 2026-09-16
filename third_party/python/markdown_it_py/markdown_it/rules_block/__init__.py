@@ -7,15 +7,7 @@ StateBlock
 "
     
 "
-paragraph
-"
-    
-"
-heading
-"
-    
-"
-lheading
+blockquote
 "
     
 "
@@ -27,7 +19,19 @@ fence
 "
     
 "
+heading
+"
+    
+"
 hr
+"
+    
+"
+html_block
+"
+    
+"
+lheading
 "
     
 "
@@ -35,15 +39,15 @@ list_block
 "
     
 "
+make_fence_rule
+"
+    
+"
+paragraph
+"
+    
+"
 reference
-"
-    
-"
-blockquote
-"
-    
-"
-html_block
 "
     
 "
@@ -65,6 +69,7 @@ from
 fence
 import
 fence
+make_fence_rule
 from
 .
 heading
