@@ -889,13 +889,6 @@ InternablePrimitive
 for
 TextRun
 {
-const
-SNAP_CLIPS
-:
-bool
-=
-false
-;
 fn
 into_key
 (
