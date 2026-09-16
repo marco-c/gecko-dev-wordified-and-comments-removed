@@ -20,17 +20,6 @@ enabled
 false
 "
 "
-dom
-.
-navigation
-.
-navigationRateLimit
-.
-count
-=
-0
-"
-"
 test
 .
 ime_content_observer
