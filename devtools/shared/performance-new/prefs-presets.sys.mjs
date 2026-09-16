@@ -835,6 +835,9 @@ llama
 .
 cpp
 "
+"
+Parakeet
+"
 ]
 duration
 :
@@ -1264,6 +1267,9 @@ onnx_worker
 llama
 .
 cpp
+"
+"
+Parakeet
 "
 ]
 duration
