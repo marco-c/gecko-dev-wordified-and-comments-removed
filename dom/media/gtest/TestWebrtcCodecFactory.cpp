@@ -179,6 +179,8 @@ media
 DecodeSupportSet
 h264GmpSupport
 =
+WaitFor
+(
 WebrtcVideoDecoderFactory
 :
 :
@@ -200,6 +202,11 @@ VideoInfo
 (
 )
 )
+)
+)
+.
+unwrap
+(
 )
 ;
 #
@@ -380,6 +387,8 @@ media
 EncodeSupportSet
 h264GmpSupport
 =
+WaitFor
+(
 WebrtcVideoEncoderFactory
 :
 :
@@ -447,6 +456,11 @@ H264Specific
 )
 )
 )
+)
+)
+.
+unwrap
+(
 )
 ;
 #

@@ -113,10 +113,13 @@ WebrtcVideoDecoder
 public
 :
 static
-media
+RefPtr
+<
+PlatformDecoderModule
 :
 :
-DecodeSupportSet
+SupportsDecoderPromise
+>
 Supports
 (
 webrtc
