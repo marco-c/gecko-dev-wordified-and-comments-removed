@@ -148,12 +148,12 @@ toJSON
 ;
 readonly
 attribute
-DOMString
+UTF8String
 type
 ;
 readonly
 attribute
-DOMString
+UTF8String
 url
 ;
 readonly
