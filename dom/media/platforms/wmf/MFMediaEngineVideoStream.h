@@ -377,16 +377,6 @@ mIsEncrypted
 false
 ;
 bool
-mHasClearLead
-=
-false
-;
-bool
-mSwitchedClearToEncrypted
-=
-false
-;
-bool
 mFrameServerMode
 =
 false
