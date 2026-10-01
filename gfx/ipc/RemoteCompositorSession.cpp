@@ -161,6 +161,17 @@ aAPZ
 )
 )
 {
+MOZ_ASSERT
+(
+!
+gfxPlatform
+:
+:
+IsHeadless
+(
+)
+)
+;
 GPUProcessManager
 :
 :

@@ -7067,13 +7067,6 @@ true
 ;
 if
 (
-!
-IsHeadlessWidget
-(
-)
-&
-&
-(
 supportsAcceleration
 |
 |
@@ -7082,7 +7075,6 @@ StaticPrefs
 :
 gfx_webrender_unaccelerated_widget_force
 (
-)
 )
 )
 {
