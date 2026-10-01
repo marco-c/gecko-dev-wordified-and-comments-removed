@@ -403,11 +403,3 @@ config
 mozbuild
 '
 )
-LICENSED_UNDER
-+
-=
-[
-"
-xiph
-"
-]

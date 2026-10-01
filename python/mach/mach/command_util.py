@@ -1604,27 +1604,6 @@ py
 )
     
 "
-licenses
-"
-:
-MachCommandReference
-(
-        
-"
-python
-/
-mozbuild
-/
-mozbuild
-/
-licensing_commands
-.
-py
-"
-    
-)
-    
-"
 lint
 "
 :

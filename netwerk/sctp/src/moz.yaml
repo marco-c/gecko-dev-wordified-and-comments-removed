@@ -69,13 +69,6 @@ BSD
 3
 -
 Clause
-license
--
-file
-:
-LICENSE
-.
-md
 vendoring
 :
 url
