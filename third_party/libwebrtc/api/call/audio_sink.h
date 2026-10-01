@@ -22,6 +22,9 @@ namespace
 webrtc
 {
 class
+RtpPacketInfos
+;
+class
 AudioSinkInterface
 {
 public
@@ -50,6 +53,12 @@ size_t
 channels
 uint32_t
 timestamp
+const
+RtpPacketInfos
+*
+packet_infos
+=
+nullptr
 )
 :
 data
@@ -72,6 +81,10 @@ timestamp
 (
 timestamp
 )
+packet_infos
+(
+packet_infos
+)
 {
 }
 const
@@ -90,6 +103,11 @@ channels
 ;
 uint32_t
 timestamp
+;
+const
+RtpPacketInfos
+*
+packet_infos
 ;
 }
 ;

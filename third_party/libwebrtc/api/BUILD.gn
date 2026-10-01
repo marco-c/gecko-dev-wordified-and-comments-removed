@@ -7008,6 +7008,10 @@ deps
 media_stream_interface
 "
 "
+:
+rtp_packet_info
+"
+"
 .
 .
 /
