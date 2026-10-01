@@ -12,6 +12,8 @@ wpt
 workerType
 :
 ci
+-
+gw
 schedulerId
 :
 taskcluster

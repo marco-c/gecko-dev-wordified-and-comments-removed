@@ -559,6 +559,8 @@ wpt
 workerType
 :
 ci
+-
+gw
 metadata
 :
 name
