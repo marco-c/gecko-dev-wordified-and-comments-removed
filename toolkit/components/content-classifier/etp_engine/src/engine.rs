@@ -358,6 +358,17 @@ ops
 )
 ;
 breakdown
+.
+add_resources
+(
+&
+self
+.
+resources
+ops
+)
+;
+breakdown
 }
 }
 impl
