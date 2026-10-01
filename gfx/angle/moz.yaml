@@ -8,7 +8,11 @@ product
 Core
 component
 :
+"
 Graphics
+:
+ANGLE
+"
 origin
 :
 name

@@ -8,7 +8,11 @@ product
 Core
 component
 :
+"
 Graphics
+:
+Cairo
+"
 origin
 :
 name
