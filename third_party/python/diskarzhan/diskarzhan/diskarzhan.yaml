@@ -3205,6 +3205,8 @@ greater
 -
 greater_equal
 -
+hash
+-
 identity
 -
 invoke
@@ -5530,6 +5532,8 @@ bad_cast
 bad_typeid
 -
 type_info
+-
+typeid
 unordered_map
 :
 -

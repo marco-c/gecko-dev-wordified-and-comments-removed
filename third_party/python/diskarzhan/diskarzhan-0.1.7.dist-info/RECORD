@@ -27,15 +27,15 @@ diskarzhan
 yaml
 sha256
 =
-oMsI1Ry6wt_INAu4b6kn0gpF4ieI7WYDAXav9poaRQY
-46149
+6TF_i3AgqapL3QLLNB8Jef3ff_rsxg_G7FH0jkzQe0M
+46169
 diskarzhan
 -
 0
 .
 1
 .
-6
+7
 .
 dist
 -
@@ -54,7 +54,7 @@ diskarzhan
 .
 1
 .
-6
+7
 .
 dist
 -
@@ -63,7 +63,7 @@ info
 METADATA
 sha256
 =
-5DZp_SMgji_qEW_SIUc1KHogOuNNIlKuh59lwEJ3YLs
+e89HCNC_lnew9wxaQgavGfvK9XPJlTcUulUFuEKZ4Bw
 20353
 diskarzhan
 -
@@ -71,7 +71,7 @@ diskarzhan
 .
 1
 .
-6
+7
 .
 dist
 -
@@ -80,9 +80,11 @@ info
 WHEEL
 sha256
 =
-aeYiig01lYGDzBgS8HxWXOg3uV61G9ijOsup
+YVMoNqKzERt
 -
-k9o1sk
+wjUZwJ33xBGAwnFl
+-
+4cqbYkTtWa4itE
 91
 diskarzhan
 -
@@ -90,7 +92,7 @@ diskarzhan
 .
 1
 .
-6
+7
 .
 dist
 -
@@ -111,7 +113,7 @@ diskarzhan
 .
 1
 .
-6
+7
 .
 dist
 -
@@ -132,7 +134,7 @@ diskarzhan
 .
 1
 .
-6
+7
 .
 dist
 -
