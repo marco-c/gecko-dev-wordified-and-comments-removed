@@ -188,6 +188,15 @@ aSizeMode
 }
 virtual
 void
+FullscreenChangeFailed
+(
+bool
+aInFullscreen
+)
+{
+}
+virtual
+void
 DynamicToolbarMaxHeightChanged
 (
 mozilla
