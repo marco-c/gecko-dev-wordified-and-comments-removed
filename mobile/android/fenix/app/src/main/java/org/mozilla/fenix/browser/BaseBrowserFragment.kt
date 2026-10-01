@@ -6610,6 +6610,9 @@ requireComponents
 core
 .
 store
+browserScreenStore
+=
+browserScreenStore
 thumbnailStorage
 =
 requireComponents
