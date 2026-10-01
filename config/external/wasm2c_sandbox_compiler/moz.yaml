@@ -251,3 +251,13 @@ cpp20
 changes
 .
 patch
+-
+openbsd
+-
+no
+-
+strtod
+-
+l
+.
+patch
