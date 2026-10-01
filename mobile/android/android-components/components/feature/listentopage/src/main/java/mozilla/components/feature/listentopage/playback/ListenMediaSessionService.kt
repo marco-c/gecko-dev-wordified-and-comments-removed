@@ -498,6 +498,10 @@ mozac_ic_logo_firefox_24
 )
 }
 )
+setShowNotificationForIdlePlayer
+(
+SHOW_NOTIFICATION_FOR_IDLE_PLAYER_NEVER
+)
 setListener
 (
 object

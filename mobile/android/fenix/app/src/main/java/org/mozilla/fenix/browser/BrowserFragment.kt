@@ -2312,6 +2312,13 @@ url
 =
 tab
 .
+readerState
+.
+activeUrl
+?
+:
+tab
+.
 content
 .
 url

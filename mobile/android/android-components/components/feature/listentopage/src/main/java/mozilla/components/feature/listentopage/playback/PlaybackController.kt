@@ -1544,6 +1544,11 @@ stop
 )
 controller
 .
+clearMediaItems
+(
+)
+controller
+.
 release
 (
 )
