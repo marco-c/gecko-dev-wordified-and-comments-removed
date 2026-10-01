@@ -532,6 +532,15 @@ ListenAction
 .
 Playback
 .
+SeekRequested
+-
+>
+state
+is
+ListenAction
+.
+Playback
+.
 ArticleProgressChanged
 -
 >
@@ -569,6 +578,11 @@ durationMs
 durationMs
 =
 durationMs
+chunkDurationsMs
+=
+action
+.
+chunkDurationsMs
 )
 )
 }
