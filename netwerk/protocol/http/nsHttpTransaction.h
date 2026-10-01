@@ -887,11 +887,6 @@ IsWebsocketUpgrade
 (
 )
 ;
-bool
-CanRestartUpgradeBeforeResponse
-(
-)
-;
 void
 OnProxyConnectComplete
 (
