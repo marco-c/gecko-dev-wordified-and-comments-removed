@@ -347,6 +347,17 @@ ops
 )
 ;
 breakdown
+.
+add_cosmetic_cache
+(
+&
+self
+.
+cosmetic_cache
+ops
+)
+;
+breakdown
 }
 }
 impl
