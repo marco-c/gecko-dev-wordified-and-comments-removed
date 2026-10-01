@@ -336,6 +336,12 @@ assertFalse
 (
 options
 .
+isMemoryLimiterEnabled
+)
+assertFalse
+(
+options
+.
 isTombstoneEnabled
 )
 assertFalse
