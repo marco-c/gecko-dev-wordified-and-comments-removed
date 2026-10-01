@@ -222,6 +222,10 @@ work
 .
 runtime
 implementation
+ComponentsDependencies
+.
+mozilla_appservices_db_crypto
+implementation
 project
 (
 '
