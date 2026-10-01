@@ -6817,12 +6817,6 @@ aBrowserId
 void
 AddToPool
 (
-nsTArray
-<
-ContentParent
-*
->
-&
 )
 ;
 void

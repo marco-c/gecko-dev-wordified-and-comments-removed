@@ -5485,10 +5485,6 @@ preallocated
 >
 AddToPool
 (
-GetOrCreatePool
-(
-aRemoteType
-)
 )
 ;
 if
@@ -5942,10 +5938,6 @@ contentParent
 >
 AddToPool
 (
-GetOrCreatePool
-(
-aRemoteType
-)
 )
 ;
 MOZ_LOG
@@ -9813,13 +9805,6 @@ ContentParent
 :
 AddToPool
 (
-nsTArray
-<
-ContentParent
-*
->
-&
-aPool
 )
 {
 MOZ_DIAGNOSTIC_ASSERT
@@ -9838,7 +9823,10 @@ MOZ_DIAGNOSTIC_ASSERT
 mCalledKillHard
 )
 ;
-aPool
+GetOrCreatePool
+(
+mRemoteType
+)
 .
 AppendElement
 (
