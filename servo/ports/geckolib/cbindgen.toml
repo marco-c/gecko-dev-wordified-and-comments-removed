@@ -1481,6 +1481,9 @@ TextRendering
 "
 TextSecurity
 "
+"
+TextWrapMode
+"
 ]
 item_types
 =
