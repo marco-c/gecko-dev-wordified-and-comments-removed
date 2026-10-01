@@ -1964,6 +1964,10 @@ wikipedia
 "
 icon
 :
+UrlbarTestUtils
+.
+makeMozRemoteImageUrl
+(
 "
 https
 :
@@ -1977,6 +1981,7 @@ wikipedia
 -
 icon
 "
+)
 telemetryType
 :
 "

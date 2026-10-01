@@ -6469,6 +6469,9 @@ provider
 getViewUpdate
 (
 result
+this
+.
+controller
 )
 ;
 }
