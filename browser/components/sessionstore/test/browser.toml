@@ -2438,13 +2438,6 @@ js
 ]
 [
 "
-browser_window_features_mismatch_telemetry
-.
-js
-"
-]
-[
-"
 browser_window_position_precision
 .
 js

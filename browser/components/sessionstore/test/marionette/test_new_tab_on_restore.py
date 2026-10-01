@@ -28,6 +28,65 @@ session_store_test_case
 import
 SessionStoreTestCase
 def
+wait_for_fog
+(
+marionette
+)
+:
+    
+Wait
+(
+marionette
+timeout
+=
+60
+)
+.
+until
+(
+        
+lambda
+_
+:
+marionette
+.
+execute_script
+(
+            
+"
+"
+"
+            
+return
+Services
+.
+fog
+.
+initialized
+;
+            
+"
+"
+"
+        
+)
+        
+message
+=
+"
+FOG
+should
+be
+initialized
+before
+reading
+Glean
+metrics
+.
+"
+    
+)
+def
 inline
 (
 title
@@ -424,10 +483,11 @@ self
 )
 :
         
-self
-.
 wait_for_fog
 (
+self
+.
+marionette
 )
         
 return
@@ -1717,10 +1777,11 @@ restoreLastSession
         
 )
         
-self
-.
 wait_for_fog
 (
+self
+.
+marionette
 )
         
 events
@@ -2388,10 +2449,11 @@ restore
         
 )
         
-self
-.
 wait_for_fog
 (
+self
+.
+marionette
 )
         
 events
