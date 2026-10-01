@@ -2455,6 +2455,9 @@ session_inactivity_timeout_ms
 events_ping_acceleration_factor
 :
 None
+enable_store_submitted_pings
+:
+false
 }
 ;
 let
