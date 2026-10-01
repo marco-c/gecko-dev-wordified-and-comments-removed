@@ -2730,13 +2730,7 @@ cmp32
 tag
 ImmTag
 (
-JS
-:
-:
-detail
-:
-:
-ValueUpperExclPrimitiveTag
+JSVAL_TAG_OBJECT
 )
 )
 ;
@@ -2746,9 +2740,9 @@ cond
 =
 Equal
 ?
-Below
+NotEqual
 :
-AboveOrEqual
+Equal
 ;
 }
 Condition
