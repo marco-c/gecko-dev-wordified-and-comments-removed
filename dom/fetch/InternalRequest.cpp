@@ -345,6 +345,13 @@ mPriorityMode
 copy
 -
 >
+mHasStreamBody
+=
+mHasStreamBody
+;
+copy
+-
+>
 mContentPolicyTypeOverridden
 =
 mContentPolicyTypeOverridden
@@ -746,6 +753,12 @@ mMozErrors
 aOther
 .
 mMozErrors
+)
+mHasStreamBody
+(
+aOther
+.
+mHasStreamBody
 )
 mFragment
 (
