@@ -1600,8 +1600,6 @@ EventDataDescCreate
 aDescriptor
 aPayload
 N
-+
-1
 )
 ;
 }
