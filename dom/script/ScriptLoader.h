@@ -1494,6 +1494,8 @@ nsAutoString
 >
 &
 aCharsetForPreload
+bool
+aDelayedEncodingCheck
 )
 ;
 static

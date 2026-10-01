@@ -800,6 +800,11 @@ nsIURI
 aURI
 )
 ;
+void
+ResetCacheEntry
+(
+)
+;
 private
 :
 void
