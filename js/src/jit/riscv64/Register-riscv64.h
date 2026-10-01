@@ -778,17 +778,6 @@ fp
 static
 constexpr
 Register
-LinkRegister
-{
-Registers
-:
-:
-ra
-}
-;
-static
-constexpr
-Register
 ReturnReg
 {
 Registers

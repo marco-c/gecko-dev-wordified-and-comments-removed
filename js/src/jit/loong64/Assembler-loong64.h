@@ -965,13 +965,6 @@ fp
 static
 constexpr
 Register
-LinkRegister
-=
-ra
-;
-static
-constexpr
-Register
 ReturnReg
 =
 a0

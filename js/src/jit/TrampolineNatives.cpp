@@ -515,14 +515,12 @@ ifdef
 JS_USE_LINK_REGISTER
 masm
 .
-pushRegs
+pushReturnAddress
 (
-LinkRegister
-FramePointer
 )
 ;
 #
-else
+endif
 masm
 .
 push
@@ -530,8 +528,6 @@ push
 FramePointer
 )
 ;
-#
-endif
 masm
 .
 moveStackPtrTo

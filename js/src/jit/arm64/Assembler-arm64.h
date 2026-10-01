@@ -528,17 +528,6 @@ fp
 ;
 static
 constexpr
-Register
-LinkRegister
-{
-Registers
-:
-:
-x30
-}
-;
-static
-constexpr
 ARMRegister
 FramePointer64
 {

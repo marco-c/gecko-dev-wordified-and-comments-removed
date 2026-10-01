@@ -254,9 +254,15 @@ BaselineJS
 ;
 masm
 .
-PushRegs
+Push
 (
 ICTailCallReg
+)
+;
+masm
+.
+Push
+(
 FramePointer
 )
 ;

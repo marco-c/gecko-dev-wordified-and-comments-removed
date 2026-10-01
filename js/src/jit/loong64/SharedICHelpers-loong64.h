@@ -198,9 +198,15 @@ StackPointer
 ;
 masm
 .
-PopRegs
+Pop
 (
 FramePointer
+)
+;
+masm
+.
+Pop
+(
 ICTailCallReg
 )
 ;

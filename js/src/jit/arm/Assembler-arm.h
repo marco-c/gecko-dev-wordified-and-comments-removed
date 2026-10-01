@@ -1062,13 +1062,6 @@ r11
 static
 constexpr
 Register
-LinkRegister
-=
-lr
-;
-static
-constexpr
-Register
 ReturnReg
 =
 r0
