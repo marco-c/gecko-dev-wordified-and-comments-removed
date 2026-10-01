@@ -446,6 +446,13 @@ Bug
 ]
 [
 "
+test_session_availability
+.
+py
+"
+]
+[
+"
 test_set_browser_state_window_features_mismatch
 .
 py
