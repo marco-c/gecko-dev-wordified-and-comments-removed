@@ -5118,6 +5118,14 @@ this
 _positionStart
 )
 ;
+sidebarMain
+.
+requestUpdate
+?
+.
+(
+)
+;
 contentArea
 .
 toggleAttribute
