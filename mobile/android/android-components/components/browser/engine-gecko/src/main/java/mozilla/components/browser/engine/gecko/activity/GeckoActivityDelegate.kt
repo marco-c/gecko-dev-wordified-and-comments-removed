@@ -175,12 +175,9 @@ logger
 =
 Logger
 (
+"
 GeckoActivityDelegate
-:
-:
-javaClass
-.
-name
+"
 )
 override
 fun

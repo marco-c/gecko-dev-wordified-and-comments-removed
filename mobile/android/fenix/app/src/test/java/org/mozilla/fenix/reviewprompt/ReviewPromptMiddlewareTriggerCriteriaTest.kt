@@ -241,7 +241,9 @@ appName
 ReviewPromptMiddlewareTriggerCriteriaTest
 :
 :
-javaClass
+class
+.
+java
 .
 name
 channel

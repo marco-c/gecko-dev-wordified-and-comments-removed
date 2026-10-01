@@ -201,9 +201,6 @@ getName
 String
 {
 return
-this
-:
-:
 javaClass
 .
 name

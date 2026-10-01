@@ -174,12 +174,9 @@ logger
 =
 Logger
 (
+"
 NimbusExperimentDelegate
-:
-:
-javaClass
-.
-name
+"
 )
 /
 *
