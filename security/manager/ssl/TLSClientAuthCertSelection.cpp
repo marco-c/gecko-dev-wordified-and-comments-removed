@@ -1869,9 +1869,6 @@ UnsafeMapInputToSECItem
 encodedIssuerName
 )
 ;
-AutoSearchingForCertificates
-_
-;
 UniqueCERTCertList
 candidates
 (

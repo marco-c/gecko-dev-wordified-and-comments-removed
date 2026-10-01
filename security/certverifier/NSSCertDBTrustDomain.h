@@ -172,11 +172,6 @@ LoadOSClientCertsModule
 )
 ;
 bool
-LoadRemoteCertsModule
-(
-)
-;
-bool
 LoadIPCClientCertsModule
 (
 )
