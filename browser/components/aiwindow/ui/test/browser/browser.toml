@@ -1565,6 +1565,13 @@ Bug
 ]
 [
 "
+browser_smartwindow_resume_card
+.
+js
+"
+]
+[
+"
 browser_smartwindow_retry_context
 .
 js
