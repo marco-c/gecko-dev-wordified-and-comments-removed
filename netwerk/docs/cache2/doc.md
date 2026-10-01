@@ -5887,7 +5887,7 @@ profile
 wide
 local
 KEK
-profileEncryption
+profile
 that
 the
 rest

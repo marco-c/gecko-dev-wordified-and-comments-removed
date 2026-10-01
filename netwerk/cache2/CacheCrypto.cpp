@@ -152,7 +152,7 @@ auto
 kKekIdentifier
 =
 "
-profileEncryption
+profile
 "
 _ns
 ;
