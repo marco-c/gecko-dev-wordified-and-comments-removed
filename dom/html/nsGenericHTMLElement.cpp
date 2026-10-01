@@ -4486,6 +4486,7 @@ RecomputeContainerTimingRootForSubtree
 (
 )
 ;
+}
 if
 (
 aName
@@ -4509,7 +4510,6 @@ DropRecordForContainerRoot
 this
 )
 ;
-}
 }
 }
 }
