@@ -850,6 +850,16 @@ use
 self
 :
 :
+font
+:
+:
+MathShift
+;
+pub
+use
+self
+:
+:
 image
 :
 :
