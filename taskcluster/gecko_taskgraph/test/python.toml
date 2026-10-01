@@ -120,6 +120,13 @@ py
 ]
 [
 "
+test_transforms_mozconfig
+.
+py
+"
+]
+[
+"
 test_transforms_perftest
 .
 py

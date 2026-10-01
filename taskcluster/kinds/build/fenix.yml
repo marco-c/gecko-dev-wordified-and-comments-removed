@@ -163,11 +163,6 @@ py
 secrets
 :
 true
-mozconfig
--
-variant
-:
-null
 tooltool
 -
 downloads
@@ -418,6 +413,13 @@ apk
 type
 :
 file
+mozconfig
+:
+variant
+:
+fenix
+-
+debug
 run
 :
 custom
