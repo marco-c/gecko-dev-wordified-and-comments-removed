@@ -369,6 +369,13 @@ test
 ]
 [
 "
+test_jar_protocol_flags
+.
+js
+"
+]
+[
+"
 test_jarchannel
 .
 js
