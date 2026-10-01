@@ -2329,6 +2329,7 @@ window
 document
 ;
 }
+static
 closingTabsEnum
 =
 {
@@ -31696,7 +31697,7 @@ if
 aCloseTabs
 =
 =
-this
+Tabbrowser
 .
 closingTabsEnum
 .
@@ -31921,7 +31922,7 @@ pref
 aCloseTabs
 =
 =
-this
+Tabbrowser
 .
 closingTabsEnum
 .
@@ -31988,7 +31989,7 @@ if
 aCloseTabs
 !
 =
-this
+Tabbrowser
 .
 closingTabsEnum
 .
@@ -32211,7 +32212,7 @@ checkboxLabel
 aCloseTabs
 =
 =
-this
+Tabbrowser
 .
 closingTabsEnum
 .
@@ -32271,7 +32272,7 @@ if
 aCloseTabs
 =
 =
-this
+Tabbrowser
 .
 closingTabsEnum
 .
@@ -34582,7 +34583,7 @@ getDuplicateTabsToClose
 (
 aTab
 )
-this
+Tabbrowser
 .
 closingTabsEnum
 .
@@ -34787,7 +34788,7 @@ this
 getAllDuplicateTabsToClose
 (
 )
-this
+Tabbrowser
 .
 closingTabsEnum
 .
@@ -34885,7 +34886,7 @@ warnAboutClosingTabs
 tabs
 .
 length
-this
+Tabbrowser
 .
 closingTabsEnum
 .
@@ -34995,7 +34996,7 @@ warnAboutClosingTabs
 tabs
 .
 length
-this
+Tabbrowser
 .
 closingTabsEnum
 .
@@ -35315,7 +35316,7 @@ warnAboutClosingTabs
 tabsToRemove
 .
 length
-this
+Tabbrowser
 .
 closingTabsEnum
 .
@@ -35438,7 +35439,7 @@ warnAboutClosingTabs
 selectedTabs
 .
 length
-this
+Tabbrowser
 .
 closingTabsEnum
 .

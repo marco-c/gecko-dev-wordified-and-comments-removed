@@ -405,6 +405,9 @@ SubDialogManager
 TabCrashHandler
 "
 "
+Tabbrowser
+"
+"
 TabsSetupFlowManager
 "
 "
