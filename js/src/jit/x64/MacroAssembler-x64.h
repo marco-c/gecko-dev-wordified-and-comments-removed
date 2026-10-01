@@ -330,6 +330,15 @@ dest
 ;
 }
 void
+addToShadowStackPtr
+(
+Imm32
+imm
+Register
+scratch
+)
+;
+void
 unwindToShadowStackPtr
 (
 Register
