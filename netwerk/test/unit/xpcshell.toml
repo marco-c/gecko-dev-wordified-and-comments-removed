@@ -5628,6 +5628,13 @@ msix
 ]
 [
 "
+test_happy_eyeballs_negative_optimistic_dns
+.
+js
+"
+]
+[
+"
 test_happy_eyeballs_optimistic_dns
 .
 js
