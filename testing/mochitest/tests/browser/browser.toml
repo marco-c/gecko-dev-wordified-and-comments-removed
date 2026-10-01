@@ -50,6 +50,13 @@ Bug
 ]
 [
 "
+browser_EventUtils_drag_and_drop
+.
+js
+"
+]
+[
+"
 browser_SpecialPowersForProcessSpawn
 .
 js
