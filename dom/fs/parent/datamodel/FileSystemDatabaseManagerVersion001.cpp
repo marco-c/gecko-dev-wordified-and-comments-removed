@@ -6737,10 +6737,9 @@ quotaManager
 >
 GetQuotaObject
 (
-quota
-:
-:
-PERSISTENCE_TYPE_DEFAULT
+mClientMetadata
+.
+mPersistenceType
 mClientMetadata
 quota
 :
