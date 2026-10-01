@@ -6628,6 +6628,17 @@ RELAY
 ]
 :
 {
+enabledPref
+:
+"
+browser
+.
+promo
+.
+relay
+.
+enabled
+"
 lazyStringSetPrefs
 :
 {
