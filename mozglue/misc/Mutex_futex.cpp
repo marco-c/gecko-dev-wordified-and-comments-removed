@@ -240,6 +240,13 @@ aFutex
 }
 }
 }
+#
+if
+!
+defined
+(
+XP_WIN
+)
 mozilla
 :
 :
@@ -255,6 +262,8 @@ MutexImpl
 =
 default
 ;
+#
+endif
 mozilla
 :
 :
