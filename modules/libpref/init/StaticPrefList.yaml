@@ -26653,7 +26653,7 @@ declarative
 enabled
 type
 :
-RelaxedAtomicBool
+bool
 value
 :
 false
