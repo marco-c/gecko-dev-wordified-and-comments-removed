@@ -1965,6 +1965,15 @@ context
 :
 str
                          
+destination_folder
+:
+Optional
+[
+str
+]
+=
+None
+                         
 video
 :
 Optional
@@ -2016,6 +2025,22 @@ context
 :
 context
 }
+        
+if
+destination_folder
+is
+not
+None
+:
+            
+params
+[
+"
+destinationFolder
+"
+]
+=
+destination_folder
         
 if
 video
