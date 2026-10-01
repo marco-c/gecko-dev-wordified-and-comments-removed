@@ -1,0 +1,16 @@
+rules
+:
+-
+attr
+-
+img
+-
+fetchpriority
+.
+html
+:
+[
+fetch
+-
+priority
+]
