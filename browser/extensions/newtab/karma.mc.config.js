@@ -4903,15 +4903,6 @@ exclude
 node_modules
 \
 /
-(
-?
-!
-fluent
-\
-/
-)
-.
-*
 /
 /
 test
