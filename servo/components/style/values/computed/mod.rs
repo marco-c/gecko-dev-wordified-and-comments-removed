@@ -495,6 +495,16 @@ use
 self
 :
 :
+background
+:
+:
+ImageLayerAttachment
+;
+pub
+use
+self
+:
+:
 basic_shape
 :
 :

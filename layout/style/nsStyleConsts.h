@@ -226,17 +226,6 @@ Vertical
 ;
 enum
 class
-StyleImageLayerAttachment
-:
-uint8_t
-{
-Scroll
-Fixed
-Local
-}
-;
-enum
-class
 StyleImageLayerRepeat
 :
 uint8_t
