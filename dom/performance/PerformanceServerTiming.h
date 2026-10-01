@@ -21,6 +21,13 @@ h
 #
 include
 "
+nsITimedChannel
+.
+h
+"
+#
+include
+"
 nsString
 .
 h
@@ -32,9 +39,6 @@ nsWrapperCache
 .
 h
 "
-class
-nsIServerTiming
-;
 class
 nsISupports
 ;

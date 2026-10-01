@@ -11,6 +11,17 @@ mozilla
 /
 dom
 /
+PerformanceEntry
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 PerformanceEntryBinding
 .
 h
@@ -51,9 +62,6 @@ dom
 {
 struct
 PerformanceEntryFilterOptions
-;
-class
-PerformanceEntry
 ;
 template
 <
