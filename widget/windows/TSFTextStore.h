@@ -2625,8 +2625,8 @@ mRanges
 MSG
 mKeyMsg
 ;
-bool
-mSelectionReversed
+RangeDirection
+mSelectionRangeDirection
 ;
 bool
 mIncomplete
@@ -3510,8 +3510,9 @@ private
 AutoPendingActionAndContentFlusher
 (
 )
-{
-}
+=
+default
+;
 RefPtr
 <
 TSFTextStore
@@ -4089,6 +4090,8 @@ DWORD
 MouseTracker
 (
 )
+=
+default
 ;
 HRESULT
 Init
@@ -4186,6 +4189,9 @@ mRange
 ;
 DWORD
 mCookie
+{
+kInvalidCookie
+}
 ;
 }
 ;

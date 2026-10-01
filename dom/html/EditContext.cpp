@@ -3318,7 +3318,7 @@ length
 =
 {
 }
-reversed
+direction
 =
 {
 }
@@ -3346,7 +3346,7 @@ aEvent
 mLength
 aEvent
 .
-mReversed
+mDirection
 aEvent
 .
 mExpandToClusterBoundary
@@ -3389,7 +3389,9 @@ if
 (
 aEvent
 .
-mExpandToClusterBoundary
+ShouldExpandToClusterBoundary
+(
+)
 )
 {
 range
@@ -3416,7 +3418,9 @@ if
 (
 aEvent
 .
-mReversed
+IsReversed
+(
+)
 )
 {
 std
