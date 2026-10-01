@@ -741,6 +741,10 @@ Style
 EffectiveZoom
 (
 )
+Zoomed
+:
+:
+Yes
 )
 ;
 Matrix
