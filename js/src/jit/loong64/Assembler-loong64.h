@@ -13844,6 +13844,16 @@ true
 }
 static
 bool
+SupportsWasmSimd
+(
+)
+{
+return
+true
+;
+}
+static
+bool
 SupportsFloat64To16
 (
 )

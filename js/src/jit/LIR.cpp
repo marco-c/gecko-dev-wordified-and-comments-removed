@@ -4758,6 +4758,12 @@ defined
 (
 JS_CODEGEN_ARM64
 )
+|
+|
+defined
+(
+JS_CODEGEN_LOONG64
+)
 #
 else
 #
