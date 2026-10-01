@@ -921,13 +921,6 @@ collapsedDescription
 }
 "
 }
-Column
-(
-modifier
-=
-modifier
-)
-{
 if
 (
 !
@@ -942,7 +935,7 @@ Row
 (
 modifier
 =
-Modifier
+modifier
 .
 background
 (
@@ -1129,7 +1122,6 @@ actionButtonText
 value
 isExpanded
 )
-}
 }
 }
 MenuItemAnimation
