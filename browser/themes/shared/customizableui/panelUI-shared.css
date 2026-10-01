@@ -15593,6 +15593,10 @@ color
 menu
 )
 ;
+fill
+:
+currentColor
+;
 &
 :
 focus
