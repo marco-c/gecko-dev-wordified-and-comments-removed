@@ -813,13 +813,10 @@ bool
 std
 :
 :
-is_integral
+is_integral_v
 <
 T
 >
-:
-:
-value
 >
 struct
 allbits_impl

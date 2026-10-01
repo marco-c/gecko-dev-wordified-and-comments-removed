@@ -126,7 +126,7 @@ struct
 container_alignment
 <
 C
-detail
+std
 :
 :
 void_t
