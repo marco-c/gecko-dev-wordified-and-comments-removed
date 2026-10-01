@@ -3131,18 +3131,6 @@ bool
 aStartSwipe
 )
 ;
-bool
-MayStartSwipeForNonAPZ
-(
-const
-mozilla
-:
-:
-PanGestureInput
-&
-aPanInput
-)
-;
 void
 TrackScrollEventAsSwipe
 (
@@ -3186,7 +3174,7 @@ mozilla
 :
 :
 WidgetWheelEvent
-MayStartSwipeForAPZ
+MayStartSwipe
 (
 const
 mozilla
@@ -6040,9 +6028,6 @@ mIsFullyOccluded
 ;
 bool
 mNeedFastSnaphot
-;
-bool
-mCurrentPanGestureBelongsToSwipe
 ;
 mozilla
 :

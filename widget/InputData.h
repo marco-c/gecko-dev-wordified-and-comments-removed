@@ -1093,16 +1093,6 @@ mOverscrollBehaviorAllowsSwipe
 ;
 }
 bool
-MayTriggerSwipe
-(
-)
-const
-{
-return
-mMayTriggerSwipe
-;
-}
-bool
 RequiresContentResponseIfCannotScrollHorizontallyInStartDirection
 (
 )
