@@ -288,6 +288,17 @@ this
 isDefault
 ;
 }
+async
+isDefaultBrowserAsync
+(
+)
+{
+return
+this
+.
+isDefault
+;
+}
 get
 macDockSupport
 (
