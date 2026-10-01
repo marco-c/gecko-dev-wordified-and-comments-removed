@@ -922,6 +922,13 @@ monitorPrompt
 |
 "
 "
+enabled
+:
+!
+!
+monitor
+.
+enabled
 status
 :
 monitorStatus
