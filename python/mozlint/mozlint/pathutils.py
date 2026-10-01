@@ -2590,16 +2590,6 @@ path
             
 continue
         
-if
-not
-extensions
-and
-not
-exclude_extensions
-:
-            
-continue
-        
 parent_path
 =
 os
@@ -2705,10 +2695,6 @@ find_dotfiles
 find_dotfiles
 )
         
-if
-extensions
-:
-            
 for
 p
 f
@@ -2723,8 +2709,10 @@ find
 "
 )
 :
-                
+            
 if
+extensions
+and
 os
 .
 path
@@ -2736,43 +2724,13 @@ p
 [
 1
 ]
+not
 in
 extensions
 :
-                    
-yield
-os
-.
-path
-.
-join
-(
-path
-p
-)
-        
-else
-:
-            
-for
-p
-f
-in
-finder
-.
-find
-(
-"
-*
-*
-/
-*
-.
-*
-"
-)
-:
                 
+continue
+            
 yield
 os
 .
