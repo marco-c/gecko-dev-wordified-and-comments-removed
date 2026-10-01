@@ -218,14 +218,6 @@ gecko_taskgraph
 transforms
 .
 test
-import
-linux_perf_platform_restrictions
-from
-gecko_taskgraph
-.
-transforms
-.
-test
 .
 other
 import
@@ -2995,14 +2987,6 @@ variant
         
 yield
 task
-transforms
-.
-add
-(
-linux_perf_platform_restrictions
-.
-restrict_tests_to_2404
-)
 transforms
 .
 add
