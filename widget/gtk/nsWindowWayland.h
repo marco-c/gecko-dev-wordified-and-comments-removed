@@ -53,7 +53,7 @@ GetWorkspaceID
 (
 nsAString
 &
-workspaceID
+aWorkspaceID
 )
 override
 ;
@@ -63,7 +63,7 @@ MoveToWorkspace
 const
 nsAString
 &
-workspaceIDStr
+aWorkspaceIDStr
 )
 override
 ;
