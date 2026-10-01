@@ -640,6 +640,11 @@ extra
 -
 config
 :
+app_name
+:
+tools
+/
+rusttests
 mozconfig_platform
 :
 macosx64
@@ -778,6 +783,11 @@ extra
 -
 config
 :
+app_name
+:
+tools
+/
+rusttests
 mozconfig_platform
 :
 macosx64
