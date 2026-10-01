@@ -30,11 +30,11 @@ options
 assert_implements_optional
 (
 availability
-!
+=
 =
 =
 '
-unavailable
+available
 '
 '
 Translator

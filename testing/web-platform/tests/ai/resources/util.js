@@ -803,7 +803,15 @@ signal
 )
 ;
 await
+Promise
+.
+race
+(
+[
 eventPromise
+createPromise
+]
+)
 ;
 const
 err
