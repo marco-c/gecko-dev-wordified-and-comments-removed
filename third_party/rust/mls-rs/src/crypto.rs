@@ -23,6 +23,7 @@ crypto
 HpkeCiphertext
 HpkeContextR
 HpkeContextS
+HpkePsk
 HpkePublicKey
 HpkeSecretKey
 SignaturePublicKey

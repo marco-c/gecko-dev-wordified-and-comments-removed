@@ -2,7 +2,7 @@ use
 rand
 :
 :
-RngCore
+Rng
 ;
 pub
 fn
@@ -39,7 +39,7 @@ size
 rand
 :
 :
-thread_rng
+rng
 (
 )
 .

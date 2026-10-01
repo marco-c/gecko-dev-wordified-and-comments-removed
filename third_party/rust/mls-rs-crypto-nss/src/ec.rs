@@ -1,5 +1,5 @@
 use
-nss_gk_api
+nss_rs
 :
 :
 {
@@ -97,21 +97,21 @@ EcPublicKey
 {
 X25519
 (
-nss_gk_api
+nss_rs
 :
 :
 PublicKey
 )
 Ed25519
 (
-nss_gk_api
+nss_rs
 :
 :
 PublicKey
 )
 P256
 (
-nss_gk_api
+nss_rs
 :
 :
 PublicKey
@@ -130,21 +130,21 @@ EcPrivateKey
 {
 X25519
 (
-nss_gk_api
+nss_rs
 :
 :
 PrivateKey
 )
 Ed25519
 (
-nss_gk_api
+nss_rs
 :
 :
 PrivateKey
 )
 P256
 (
-nss_gk_api
+nss_rs
 :
 :
 PrivateKey
@@ -275,7 +275,7 @@ std
 error
 (
 "
-rand
+getrandom
 error
 :
 {
@@ -287,9 +287,9 @@ error
 )
 )
 ]
-RandCoreError
+RandError
 (
-rand_core
+getrandom
 :
 :
 Error
@@ -395,7 +395,7 @@ u8
 impl
 From
 <
-rand_core
+getrandom
 :
 :
 Error
@@ -408,7 +408,7 @@ from
 (
 value
 :
-rand_core
+getrandom
 :
 :
 Error
@@ -420,7 +420,7 @@ Self
 EcError
 :
 :
-RandCoreError
+RandError
 (
 value
 )
@@ -1101,7 +1101,7 @@ P256
 =
 >
 match
-nss_gk_api
+nss_rs
 :
 :
 ec
@@ -1152,7 +1152,7 @@ Ed25519
 =
 >
 match
-nss_gk_api
+nss_rs
 :
 :
 ec
@@ -1203,7 +1203,7 @@ X25519
 =
 >
 match
-nss_gk_api
+nss_rs
 :
 :
 ec
@@ -1461,7 +1461,7 @@ EcError
 let
 key_pair
 =
-nss_gk_api
+nss_rs
 :
 :
 ec
@@ -1469,7 +1469,8 @@ ec
 :
 ecdh_keygen
 (
-nss_gk_api
+&
+nss_rs
 :
 :
 ec
@@ -1589,7 +1590,7 @@ EcError
 let
 private_key
 =
-nss_gk_api
+nss_rs
 :
 :
 ec
@@ -1683,6 +1684,7 @@ private_key_to_pkcs8
 (
 key
 :
+&
 EcPrivateKey
 )
 -
@@ -1726,7 +1728,7 @@ key
 >
 {
 match
-nss_gk_api
+nss_rs
 :
 :
 ec
@@ -2166,7 +2168,7 @@ unwrap
 let
 private_key_imported
 =
-nss_gk_api
+nss_rs
 :
 :
 ec
@@ -2344,7 +2346,7 @@ EcPublicKey
 :
 X25519
 (
-nss_gk_api
+nss_rs
 :
 :
 ec
@@ -2353,10 +2355,6 @@ ec
 convert_to_public
 (
 key
-.
-clone
-(
-)
 )
 .
 unwrap
@@ -2380,7 +2378,7 @@ EcPublicKey
 :
 Ed25519
 (
-nss_gk_api
+nss_rs
 :
 :
 ec
@@ -2389,10 +2387,6 @@ ec
 convert_to_public
 (
 key
-.
-clone
-(
-)
 )
 .
 unwrap
@@ -2416,7 +2410,7 @@ EcPublicKey
 :
 P256
 (
-nss_gk_api
+nss_rs
 :
 :
 ec
@@ -2425,10 +2419,6 @@ ec
 convert_to_public
 (
 key
-.
-clone
-(
-)
 )
 .
 unwrap
@@ -2493,7 +2483,7 @@ public
 let
 r
 =
-nss_gk_api
+nss_rs
 :
 :
 ec
@@ -2502,15 +2492,7 @@ ec
 ecdh
 (
 private_key
-.
-clone
-(
-)
 public
-.
-clone
-(
-)
 )
 .
 unwrap
@@ -2574,7 +2556,7 @@ public
 let
 r
 =
-nss_gk_api
+nss_rs
 :
 :
 ec
@@ -2583,15 +2565,7 @@ ec
 ecdh
 (
 private_key
-.
-clone
-(
-)
 public
-.
-clone
-(
-)
 )
 .
 unwrap
@@ -2628,6 +2602,7 @@ sign_p256
 (
 private_key
 :
+&
 PrivateKey
 data
 :
@@ -2667,7 +2642,7 @@ data
 let
 signature
 =
-nss_gk_api
+nss_rs
 :
 :
 ec
@@ -3212,6 +3187,7 @@ verify_p256_
 (
 public_key
 :
+&
 PublicKey
 signature
 :
@@ -3254,7 +3230,7 @@ data
 let
 result
 =
-nss_gk_api
+nss_rs
 :
 :
 ec
@@ -3287,6 +3263,7 @@ verify_p256
 (
 public_key
 :
+&
 PublicKey
 signature
 :
@@ -3371,6 +3348,7 @@ sign_ed25519
 (
 private_key
 :
+&
 PrivateKey
 data
 :
@@ -3393,7 +3371,7 @@ EcError
 let
 signature
 =
-nss_gk_api
+nss_rs
 :
 :
 ec
@@ -3690,6 +3668,7 @@ verify_ed25519
 (
 public_key
 :
+&
 PublicKey
 signature
 :
@@ -3715,7 +3694,7 @@ EcError
 let
 result
 =
-nss_gk_api
+nss_rs
 :
 :
 ec
@@ -3767,7 +3746,7 @@ P256
 let
 key
 =
-nss_gk_api
+nss_rs
 :
 :
 ec
@@ -3775,7 +3754,8 @@ ec
 :
 ecdh_keygen
 (
-nss_gk_api
+&
+nss_rs
 :
 :
 ec
@@ -3856,7 +3836,7 @@ Ed25519
 let
 key
 =
-nss_gk_api
+nss_rs
 :
 :
 ec
@@ -3864,7 +3844,8 @@ ec
 :
 ecdh_keygen
 (
-nss_gk_api
+&
+nss_rs
 :
 :
 ec
@@ -3945,7 +3926,7 @@ X25519
 let
 key
 =
-nss_gk_api
+nss_rs
 :
 :
 ec
@@ -3953,7 +3934,8 @@ ec
 :
 ecdh_keygen
 (
-nss_gk_api
+&
+nss_rs
 :
 :
 ec
@@ -5146,6 +5128,7 @@ exported_bytes
 =
 private_key_to_pkcs8
 (
+&
 key
 )
 .
@@ -5224,6 +5207,7 @@ exported_bytes_2
 =
 private_key_to_pkcs8
 (
+&
 imported_key
 )
 .
@@ -5648,6 +5632,7 @@ EcPrivateKey
 :
 P256
 (
+ref
 private_key
 )
 =
@@ -5675,6 +5660,7 @@ EcPublicKey
 :
 P256
 (
+ref
 public_key
 )
 =
@@ -5797,6 +5783,7 @@ EcPrivateKey
 :
 Ed25519
 (
+ref
 private_key
 )
 =
@@ -5831,6 +5818,7 @@ EcPublicKey
 :
 Ed25519
 (
+ref
 public_key
 )
 =
