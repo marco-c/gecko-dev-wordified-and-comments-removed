@@ -926,8 +926,6 @@ std
 :
 less
 <
-WeakReference
-*
 >
 (
 )

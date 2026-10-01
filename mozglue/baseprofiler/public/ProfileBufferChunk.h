@@ -58,6 +58,15 @@ MOZ_MEMORY
 #
 include
 "
+mozilla
+/
+Maybe
+.
+h
+"
+#
+include
+"
 mozmemory
 .
 h

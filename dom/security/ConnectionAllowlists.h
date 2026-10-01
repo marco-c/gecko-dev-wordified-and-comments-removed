@@ -65,6 +65,13 @@ h
 #
 include
 "
+nsIURI
+.
+h
+"
+#
+include
+"
 nsString
 .
 h
@@ -76,9 +83,6 @@ nsTArray
 .
 h
 "
-class
-nsIURI
-;
 class
 nsILoadInfo
 ;
