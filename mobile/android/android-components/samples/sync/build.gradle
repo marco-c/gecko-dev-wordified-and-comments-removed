@@ -361,6 +361,12 @@ libs
 .
 androidx
 .
+core
+implementation
+libs
+.
+androidx
+.
 fragment
 implementation
 libs
