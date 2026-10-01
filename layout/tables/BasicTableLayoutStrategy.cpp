@@ -925,7 +925,7 @@ aRenderingContext
 aWM
 zeroSize
 zeroSize
-0
+zeroSize
 *
 maxISize
 *
@@ -1114,7 +1114,7 @@ aRenderingContext
 aWM
 zeroSize
 zeroSize
-0
+zeroSize
 *
 minISize
 *
