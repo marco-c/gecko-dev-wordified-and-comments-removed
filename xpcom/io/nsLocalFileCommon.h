@@ -14,7 +14,7 @@ char
 const
 sExecutableExts
 [
-112
+113
 ]
 ;
 #
@@ -26,7 +26,7 @@ char
 const
 sExecutableExts
 [
-113
+114
 ]
 ;
 #

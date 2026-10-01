@@ -852,6 +852,12 @@ ms
 "
 "
 .
+searchConnector
+-
+ms
+"
+"
+.
 seplugin
 "
 "
