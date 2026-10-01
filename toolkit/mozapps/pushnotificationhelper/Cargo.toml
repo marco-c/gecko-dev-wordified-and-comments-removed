@@ -167,6 +167,13 @@ fnv
 "
 1
 "
+mozbuild
+=
+"
+0
+.
+1
+"
 mozilla
 -
 central
