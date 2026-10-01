@@ -341,6 +341,15 @@ empty
 "
 const
 val
+COLLECTIONS_MIGRATION_CARD
+=
+"
+TAB_GROUPS_LIST
+.
+collectionsMigrationCard
+"
+const
+val
 UNAUTHENTICATED_SYNCED_TABS_PAGE
 =
 "
