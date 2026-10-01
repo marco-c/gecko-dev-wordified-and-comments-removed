@@ -5,8 +5,6 @@ module
 (
 (
 module
-\
-M
 (
 global
 (
@@ -958,8 +956,6 @@ module
 (
 (
 module
-\
-N
 (
 global
 \
