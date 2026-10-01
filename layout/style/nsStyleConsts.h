@@ -481,17 +481,6 @@ Square
 ;
 enum
 class
-StyleVisibility
-:
-uint8_t
-{
-Hidden
-Visible
-Collapse
-}
-;
-enum
-class
 StyleWhiteSpaceCollapse
 :
 uint8_t
