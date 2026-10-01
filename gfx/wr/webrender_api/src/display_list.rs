@@ -5552,10 +5552,10 @@ AuOffset
 {
 x
 :
-i32
+i64
 y
 :
-i32
+i64
 }
 impl
 AuOffset
@@ -5902,7 +5902,7 @@ v
 f32
 off_au
 :
-i32
+i64
 off_grid
 :
 &
@@ -6073,7 +6073,7 @@ x
 off_grid
 )
 as
-i32
+i64
 y
 :
 self
@@ -6086,7 +6086,7 @@ y
 off_grid
 )
 as
-i32
+i64
 }
 }
 }
