@@ -3204,6 +3204,17 @@ js
 ]
 [
 "
+test_cache2
+-
+44
+-
+no_cache_revalidating_hang
+.
+js
+"
+]
+[
+"
 test_cache2_clear_with_principal
 .
 js

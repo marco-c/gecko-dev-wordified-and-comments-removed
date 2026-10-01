@@ -1831,6 +1831,16 @@ mozilla
 TimeStamp
 mLoadStart
 ;
+mozilla
+:
+:
+TimeStamp
+mRevalidatingSince
+MOZ_GUARDED_BY
+(
+mLock
+)
+;
 uint32_t
 mUseCount
 {
