@@ -3773,6 +3773,9 @@ aSession
 const
 bool
 forceIceTcp
+const
+bool
+aProvisional
 )
 ;
 void
