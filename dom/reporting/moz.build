@@ -61,6 +61,11 @@ dom
 =
 [
 "
+ConnectionAllowlistViolationReportBody
+.
+h
+"
+"
 CrashReport
 .
 h
@@ -135,6 +140,11 @@ UNIFIED_SOURCES
 +
 =
 [
+"
+ConnectionAllowlistViolationReportBody
+.
+cpp
+"
 "
 CrashReport
 .
