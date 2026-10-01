@@ -701,6 +701,13 @@ js
 ]
 [
 "
+browser_clear_container_closed_windows
+.
+js
+"
+]
+[
+"
 browser_closedId
 .
 js
