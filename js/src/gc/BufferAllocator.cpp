@@ -6008,8 +6008,7 @@ alloc
 )
 ;
 }
-void
-*
+bool
 BufferAllocator
 :
 :
@@ -6036,9 +6035,6 @@ bufferp
 void
 *
 buffer
-=
-*
-bufferp
 ;
 #
 ifdef
@@ -6067,7 +6063,7 @@ buffer
 )
 {
 return
-nullptr
+true
 ;
 }
 if
@@ -6100,7 +6096,7 @@ isNurseryChunk
 )
 {
 return
-buffer
+true
 ;
 }
 MOZ_ASSERT
@@ -6130,7 +6126,7 @@ name
 )
 ;
 return
-buffer
+true
 ;
 }
 BufferChunk
@@ -6175,7 +6171,7 @@ name
 )
 ;
 return
-buffer
+true
 ;
 }
 allocator
@@ -6188,7 +6184,7 @@ name
 )
 ;
 return
-buffer
+true
 ;
 }
 void
