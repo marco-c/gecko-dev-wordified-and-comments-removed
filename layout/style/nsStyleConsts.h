@@ -502,16 +502,6 @@ SpaceAround
 ;
 enum
 class
-StyleTextSizeAdjust
-:
-uint8_t
-{
-None
-Auto
-}
-;
-enum
-class
 StyleTextCombineUpright
 :
 uint8_t
