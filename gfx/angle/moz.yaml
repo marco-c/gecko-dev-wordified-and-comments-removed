@@ -67,6 +67,11 @@ BSD
 3
 -
 Clause
+license
+-
+file
+:
+LICENSE
 updatebot
 :
 maintainer

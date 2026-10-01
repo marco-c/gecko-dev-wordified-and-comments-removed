@@ -69,6 +69,11 @@ BSD
 3
 -
 Clause
+license
+-
+file
+:
+LICENSE
 vendoring
 :
 url
