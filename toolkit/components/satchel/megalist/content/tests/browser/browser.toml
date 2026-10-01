@@ -214,13 +214,6 @@ Bug
 ]
 [
 "
-browser_passwords_policy_disable_reveal
-.
-js
-"
-]
-[
-"
 browser_passwords_primary_password
 .
 js
