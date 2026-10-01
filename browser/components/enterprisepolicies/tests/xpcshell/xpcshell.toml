@@ -132,6 +132,13 @@ js
 ]
 [
 "
+test_clear_on_shutdown
+.
+js
+"
+]
+[
+"
 test_containers
 .
 js
