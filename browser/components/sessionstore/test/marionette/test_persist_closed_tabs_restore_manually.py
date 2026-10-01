@@ -320,6 +320,14 @@ tabs
 ]
 ;
             
+let
+browser
+=
+tab
+.
+linkedBrowser
+;
+            
 gBrowser
 .
 removeTab
@@ -364,7 +372,7 @@ TabStateFlusher
 .
 flush
 (
-tab
+browser
 )
 .
 then
@@ -814,6 +822,14 @@ tabs
 ]
 ;
             
+let
+browser
+=
+tab
+.
+linkedBrowser
+;
+            
 gBrowser
 .
 removeTab
@@ -858,7 +874,7 @@ TabStateFlusher
 .
 flush
 (
-tab
+browser
 )
 .
 then
