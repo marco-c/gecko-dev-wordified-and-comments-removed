@@ -927,7 +927,7 @@ nullptr
 )
 ;
 static
-gfxPoint
+CSSPoint
 FrameSpaceInCSSPxToUserSpaceOffset
 (
 const

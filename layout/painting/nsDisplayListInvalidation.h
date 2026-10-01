@@ -517,7 +517,7 @@ override
 gfxRect
 mBBox
 ;
-gfxPoint
+CSSPoint
 mUserSpaceOffset
 ;
 nsPoint
