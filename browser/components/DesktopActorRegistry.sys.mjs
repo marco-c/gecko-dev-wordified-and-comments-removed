@@ -1791,12 +1791,12 @@ matches
 "
 about
 :
-aitab
+smartpage
 "
 "
 about
 :
-aitab
+smartpage
 ?
 *
 "

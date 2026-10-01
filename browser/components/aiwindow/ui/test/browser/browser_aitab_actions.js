@@ -142,7 +142,7 @@ PAGE_URL
 =
 about
 :
-aitab
+smartpage
 ?
 page
 =

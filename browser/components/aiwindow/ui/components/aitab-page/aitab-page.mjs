@@ -302,7 +302,7 @@ component
 for
 about
 :
-aitab
+smartpage
 .
 Looks
 up
@@ -311,8 +311,8 @@ page
 config
 for
 the
-generated
 *
+generated
 page
 named
 in

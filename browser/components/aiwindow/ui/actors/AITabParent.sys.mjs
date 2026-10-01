@@ -532,7 +532,7 @@ actor
 for
 about
 :
-aitab
+smartpage
 .
 Resolves
 the
@@ -542,8 +542,8 @@ from
 the
 page
 URL
-into
 *
+into
 the
 stored
 page
@@ -1584,7 +1584,7 @@ and
 *
 about
 :
-aitab
+smartpage
 is
 content
 which
@@ -1607,7 +1607,7 @@ returnToSmartWindowHome
 /
 about
 :
-aitab
+smartpage
 is
 not
 MAKE_LINKABLE
@@ -1618,9 +1618,9 @@ cannot
 load
 it
 at
+/
+/
 all
-/
-/
 framed
 or
 otherwise

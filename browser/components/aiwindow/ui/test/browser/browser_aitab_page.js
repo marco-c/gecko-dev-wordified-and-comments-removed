@@ -30,7 +30,7 @@ PAGE_URL
 =
 about
 :
-aitab
+smartpage
 ?
 page
 =
@@ -345,7 +345,7 @@ NS_ERROR_NOT_AVAILABLE
 "
 about
 :
-aitab
+smartpage
 cannot
 be
 loaded
@@ -622,7 +622,7 @@ withNewTab
 (
 about
 :
-aitab
+smartpage
 ?
 page
 =
@@ -879,7 +879,7 @@ withNewTab
 "
 about
 :
-aitab
+smartpage
 "
 async
 browser
@@ -1724,7 +1724,7 @@ withNewTab
 "
 about
 :
-aitab
+smartpage
 ?
 page
 =

@@ -65,7 +65,7 @@ actor
 for
 about
 :
-aitab
+smartpage
 .
 Forwards
 requests
@@ -73,8 +73,8 @@ from
 the
 content
 document
-to
 *
+to
 the
 parent
 process

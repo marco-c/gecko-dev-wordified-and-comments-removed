@@ -62,7 +62,7 @@ withNewTab
 "
 about
 :
-aitab
+smartpage
 "
 async
 browser
