@@ -8107,6 +8107,8 @@ color
 coefficients
 %
 s
+"
+"
 full
 range
 %

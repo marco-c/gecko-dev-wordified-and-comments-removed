@@ -145,7 +145,7 @@ mozilla
 /
 widget
 /
-nsWaylandDisplay
+WaylandSurface
 .
 h
 "
@@ -156,7 +156,7 @@ mozilla
 /
 widget
 /
-WaylandSurface
+nsWaylandDisplay
 .
 h
 "
