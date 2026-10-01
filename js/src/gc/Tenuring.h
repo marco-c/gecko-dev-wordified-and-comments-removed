@@ -247,16 +247,6 @@ promotionStats
 endif
 public
 :
-static
-TenuringTracer
-*
-From
-(
-JSTracer
-*
-trc
-)
-;
 TenuringTracer
 (
 JSRuntime
