@@ -10921,6 +10921,13 @@ funcImportInstanceOffset
 ;
 masm
 .
+freeStackTo
+(
+framePushed
+)
+;
+masm
+.
 loadPtr
 (
 Address
