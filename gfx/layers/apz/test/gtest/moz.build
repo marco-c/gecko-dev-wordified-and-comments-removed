@@ -128,11 +128,6 @@ TestOverscroll
 cpp
 "
 "
-TestOverscrollHandoffChain
-.
-cpp
-"
-"
 TestPanning
 .
 cpp
