@@ -40,6 +40,13 @@ https_first_disabled
 true
 [
 "
+browser_aboutprocesses_groupby_tab
+.
+js
+"
+]
+[
+"
 browser_aboutprocesses_selection
 .
 js
