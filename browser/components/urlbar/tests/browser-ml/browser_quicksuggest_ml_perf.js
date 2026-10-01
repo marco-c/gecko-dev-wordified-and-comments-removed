@@ -119,6 +119,13 @@ mjs
 "
 )
 ;
+MLPerfTestUtils
+.
+init
+(
+this
+)
+;
 const
 METRIC_PREFIX
 =
@@ -855,8 +862,6 @@ MLPerfTestUtils
 runPerfScenario
 (
 {
-info
-Assert
 metricPrefix
 :
 METRIC_PREFIX

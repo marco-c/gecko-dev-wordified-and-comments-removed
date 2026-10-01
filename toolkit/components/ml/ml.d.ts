@@ -877,7 +877,7 @@ void
 }
 export
 interface
-MLPerfTestHarness
+MLPerfTestContext
 {
 info
 (
@@ -891,6 +891,19 @@ void
 Assert
 :
 MLPerfAssertions
+;
+registerCleanupFunction
+(
+cleanup
+:
+(
+)
+=
+>
+void
+)
+:
+void
 ;
 }
 export
@@ -933,8 +946,6 @@ number
 export
 interface
 RunPerfScenarioConfig
-extends
-MLPerfTestHarness
 {
 metricPrefix
 :

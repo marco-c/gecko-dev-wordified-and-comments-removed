@@ -60,6 +60,13 @@ mjs
 "
 )
 ;
+MLPerfTestUtils
+.
+init
+(
+this
+)
+;
 const
 ARTICLE_URL
 =
@@ -1052,8 +1059,6 @@ MLPerfTestUtils
 runPerfScenario
 (
 {
-info
-Assert
 metricPrefix
 :
 METRIC_PREFIX

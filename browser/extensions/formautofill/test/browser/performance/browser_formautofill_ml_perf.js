@@ -3,6 +3,13 @@ use
 strict
 "
 ;
+MLPerfTestUtils
+.
+init
+(
+this
+)
+;
 const
 perfMetadata
 =
@@ -1484,8 +1491,6 @@ MLPerfTestUtils
 runPerfScenario
 (
 {
-Assert
-info
 metricPrefix
 :
 FORM

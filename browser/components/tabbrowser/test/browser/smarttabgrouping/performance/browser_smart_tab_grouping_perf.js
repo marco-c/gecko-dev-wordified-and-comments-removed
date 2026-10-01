@@ -938,6 +938,13 @@ mjs
 "
 )
 ;
+MLPerfTestUtils
+.
+init
+(
+this
+)
+;
 const
 FIXTURE_PATH
 =
@@ -2073,8 +2080,6 @@ MLPerfTestUtils
 runPerfScenario
 (
 {
-info
-Assert
 metricPrefix
 :
 "
