@@ -197,6 +197,9 @@ struct
 StyleCalcLengthPercentage
 ;
 struct
+StylePercentage
+;
+struct
 StyleUnparsedSegment
 ;
 using
@@ -410,6 +413,9 @@ L
 >
 union
 StyleGenericCalcNode
+;
+union
+StyleSpecifiedLeaf
 ;
 namespace
 css
