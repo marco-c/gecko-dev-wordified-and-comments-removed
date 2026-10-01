@@ -3934,7 +3934,7 @@ Style
 )
 -
 >
-HasAuthorSpecifiedBorderOrBackground
+HasAuthorOrUserSpecifiedBorderOrBackground
 (
 )
 &
@@ -3951,7 +3951,7 @@ Style
 )
 -
 >
-HasAuthorSpecifiedBorderOrBackground
+HasAuthorOrUserSpecifiedBorderOrBackground
 (
 )
 &
@@ -3968,7 +3968,7 @@ Style
 )
 -
 >
-HasAuthorSpecifiedBorderOrBackground
+HasAuthorOrUserSpecifiedBorderOrBackground
 (
 )
 ;

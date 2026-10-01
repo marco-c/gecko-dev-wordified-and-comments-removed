@@ -3866,7 +3866,7 @@ adjust_for_marker_pseudo
 &
 mut
 self
-author_specified_properties
+author_or_user_specified_properties
 :
 &
 LonghandIdSet
@@ -3992,7 +3992,7 @@ return
 }
 if
 !
-author_specified_properties
+author_or_user_specified_properties
 .
 contains
 (
@@ -4026,7 +4026,7 @@ clone
 ;
 if
 !
-author_specified_properties
+author_or_user_specified_properties
 .
 contains
 (
@@ -4055,7 +4055,7 @@ None
 }
 if
 !
-author_specified_properties
+author_or_user_specified_properties
 .
 contains
 (
@@ -4085,7 +4085,7 @@ None
 }
 if
 !
-author_specified_properties
+author_or_user_specified_properties
 .
 contains
 (
@@ -4116,7 +4116,7 @@ normal
 }
 if
 !
-author_specified_properties
+author_or_user_specified_properties
 .
 contains
 (
@@ -5230,7 +5230,7 @@ try_tactic
 :
 &
 PositionTryFallbacksTryTactic
-author_specified_properties
+author_or_user_specified_properties
 :
 &
 LonghandIdSet
@@ -5472,7 +5472,7 @@ self
 .
 adjust_for_marker_pseudo
 (
-author_specified_properties
+author_or_user_specified_properties
 )
 ;
 if

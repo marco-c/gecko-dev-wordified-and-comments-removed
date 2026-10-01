@@ -1125,7 +1125,7 @@ mTargetTextPseudoStyle
 mTargetTextPseudoStyle
 -
 >
-HasAuthorSpecifiedTextColor
+HasAuthorOrUserSpecifiedTextColor
 (
 )
 |
@@ -1133,7 +1133,7 @@ HasAuthorSpecifiedTextColor
 mTargetTextPseudoStyle
 -
 >
-HasAuthorSpecifiedBorderOrBackground
+HasAuthorOrUserSpecifiedBorderOrBackground
 (
 )
 )
@@ -1158,7 +1158,7 @@ return
 mTargetTextPseudoStyle
 -
 >
-HasAuthorSpecifiedTextColor
+HasAuthorOrUserSpecifiedTextColor
 (
 )
 ;
@@ -1238,7 +1238,7 @@ mTargetTextPseudoStyle
 mTargetTextPseudoStyle
 -
 >
-HasAuthorSpecifiedTextColor
+HasAuthorOrUserSpecifiedTextColor
 (
 )
 |
@@ -1246,7 +1246,7 @@ HasAuthorSpecifiedTextColor
 mTargetTextPseudoStyle
 -
 >
-HasAuthorSpecifiedBorderOrBackground
+HasAuthorOrUserSpecifiedBorderOrBackground
 (
 )
 )
@@ -1353,7 +1353,7 @@ mTargetTextPseudoStyle
 mTargetTextPseudoStyle
 -
 >
-HasAuthorSpecifiedTextShadow
+HasAuthorOrUserSpecifiedTextShadow
 (
 )
 )
@@ -1461,7 +1461,7 @@ return
 highlightStyle
 -
 >
-HasAuthorSpecifiedTextColor
+HasAuthorOrUserSpecifiedTextColor
 (
 )
 ;
@@ -1612,7 +1612,7 @@ highlightStyle
 highlightStyle
 -
 >
-HasAuthorSpecifiedTextShadow
+HasAuthorOrUserSpecifiedTextShadow
 (
 )
 )
@@ -2246,7 +2246,7 @@ if
 mSelectionPseudoStyle
 -
 >
-HasAuthorSpecifiedTextColor
+HasAuthorOrUserSpecifiedTextColor
 (
 )
 |
@@ -2254,7 +2254,7 @@ HasAuthorSpecifiedTextColor
 mSelectionPseudoStyle
 -
 >
-HasAuthorSpecifiedBorderOrBackground
+HasAuthorOrUserSpecifiedBorderOrBackground
 (
 )
 )
@@ -3238,7 +3238,7 @@ mSelectionPseudoStyle
 mSelectionPseudoStyle
 -
 >
-HasAuthorSpecifiedTextShadow
+HasAuthorOrUserSpecifiedTextShadow
 (
 )
 )

@@ -38565,7 +38565,7 @@ selectionStyle
 selectionStyle
 -
 >
-HasAuthorSpecifiedTextShadow
+HasAuthorOrUserSpecifiedTextShadow
 (
 )
 )

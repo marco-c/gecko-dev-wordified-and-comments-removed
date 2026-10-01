@@ -26131,7 +26131,7 @@ Style
 )
 -
 >
-HasAuthorSpecifiedGridAutoFlow
+HasAuthorOrUserSpecifiedGridAutoFlow
 (
 )
 ;

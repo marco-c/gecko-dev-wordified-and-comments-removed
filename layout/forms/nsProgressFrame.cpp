@@ -1382,7 +1382,7 @@ Style
 )
 -
 >
-HasAuthorSpecifiedBorderOrBackground
+HasAuthorOrUserSpecifiedBorderOrBackground
 (
 )
 ;

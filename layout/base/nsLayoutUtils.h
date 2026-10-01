@@ -2478,7 +2478,7 @@ aFrame2
 ;
 static
 bool
-AuthorSpecifiedBorderBackgroundDisablesTheming
+AuthorOrUserSpecifiedBorderBackgroundDisablesTheming
 (
 mozilla
 :
