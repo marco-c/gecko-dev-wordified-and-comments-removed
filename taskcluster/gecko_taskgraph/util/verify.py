@@ -2597,6 +2597,25 @@ test_manifest_loader
 "
 default
 "
+            
+parameters
+[
+"
+try_task_config
+"
+]
+.
+get
+(
+"
+use
+-
+artifact
+-
+builds
+"
+False
+)
         
 )
 )
