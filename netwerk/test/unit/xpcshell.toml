@@ -3574,6 +3574,13 @@ js
 ]
 [
 "
+test_connection_reuse_timings
+.
+js
+"
+]
+[
+"
 test_content_decoding_error_telemetry
 .
 js

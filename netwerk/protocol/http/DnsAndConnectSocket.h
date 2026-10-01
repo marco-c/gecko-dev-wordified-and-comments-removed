@@ -765,6 +765,9 @@ mProxyTransparentResolvesHost
 =
 false
 ;
+TimingStruct
+mObservedTimings
+;
 }
 ;
 }
