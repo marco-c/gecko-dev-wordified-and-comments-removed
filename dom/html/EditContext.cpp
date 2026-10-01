@@ -3933,16 +3933,6 @@ aEvent
 mSelection
 .
 mPreventSetSelection
-?
-PreventSetSelection
-:
-:
-Yes
-:
-PreventSetSelection
-:
-:
-No
 )
 ;
 aEvent

@@ -24281,7 +24281,10 @@ command
 true
 eContentCommandPaste
 this
-true
+OnlyEnabledCheck
+:
+:
+Yes
 )
 ;
 DispatchWindowEvent
@@ -24324,7 +24327,10 @@ command
 true
 eContentCommandUndo
 this
-true
+OnlyEnabledCheck
+:
+:
+Yes
 )
 ;
 DispatchWindowEvent
@@ -24366,7 +24372,10 @@ command
 true
 eContentCommandRedo
 this
-true
+OnlyEnabledCheck
+:
+:
+Yes
 )
 ;
 DispatchWindowEvent

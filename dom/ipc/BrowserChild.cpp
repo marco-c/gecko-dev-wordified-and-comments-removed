@@ -13152,7 +13152,7 @@ nsString
 aStringToInsert
 uint32_t
 aOffset
-bool
+PreventSetSelection
 aPreventSetSelection
 )
 {
@@ -13239,7 +13239,7 @@ nsString
 aStringToInsert
 uint32_t
 aOffset
-bool
+PreventSetSelection
 aPreventSetSelection
 )
 {

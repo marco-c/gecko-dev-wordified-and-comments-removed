@@ -24138,12 +24138,6 @@ mSelection
 mPreventSetSelection
 =
 aPreventSetSelection
-=
-=
-PreventSetSelection
-:
-:
-Yes
 ;
 DispatchEvent
 (

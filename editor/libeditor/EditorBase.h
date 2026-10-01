@@ -2008,14 +2008,6 @@ No
 Yes
 }
 ;
-enum
-class
-PreventSetSelection
-{
-No
-Yes
-}
-;
 MOZ_CAN_RUN_SCRIPT
 nsresult
 ReplaceTextAsAction
