@@ -567,7 +567,6 @@ class
 BitrateAllocationCallbackType
 {
 kNone
-kVideoBitrateAllocation
 kVideoLayersAllocation
 }
 ;
