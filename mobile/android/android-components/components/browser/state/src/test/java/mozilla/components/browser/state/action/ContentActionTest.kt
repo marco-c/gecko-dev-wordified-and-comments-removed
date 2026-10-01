@@ -4224,6 +4224,8 @@ content
 .
 loadRequest
 )
+.
+let
 {
 assertEquals
 (

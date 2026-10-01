@@ -1995,6 +1995,8 @@ assertNotNull
 (
 timeSelectionRequest
 )
+.
+let
 {
 assertEquals
 (
@@ -2410,6 +2412,8 @@ assertNotNull
 (
 timeSelectionRequest
 )
+.
+let
 {
 assertEquals
 (
@@ -2807,6 +2811,8 @@ assertNotNull
 (
 timeSelectionRequest
 )
+.
+let
 {
 assertEquals
 (
@@ -3209,6 +3215,8 @@ assertNotNull
 (
 timeSelectionRequest
 )
+.
+let
 {
 assertEquals
 (
@@ -4055,6 +4063,8 @@ assertNotNull
 (
 timeSelectionRequest
 )
+.
+let
 {
 assertEquals
 (
