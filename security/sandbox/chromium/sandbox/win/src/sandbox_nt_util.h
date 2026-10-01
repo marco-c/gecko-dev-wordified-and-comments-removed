@@ -523,6 +523,16 @@ GetNtExports
 (
 )
 ;
+bool
+CanAllocateNearTo
+(
+void
+*
+source
+size_t
+size
+)
+;
 enum
 RequiredAccess
 {
