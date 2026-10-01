@@ -411,6 +411,9 @@ view
 .
 WriteFromRange
 (
+mozilla
+:
+:
 Range
 <
 const
@@ -850,6 +853,9 @@ aProducerView
 .
 WriteFromRange
 (
+mozilla
+:
+:
 Range
 <
 const

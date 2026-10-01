@@ -93,6 +93,9 @@ explicit
 RangeConsumerView
 (
 const
+mozilla
+:
+:
 Range
 <
 const
@@ -186,6 +189,9 @@ T
 >
 Maybe
 <
+mozilla
+:
+:
 Range
 <
 const
@@ -307,6 +313,9 @@ byteSize
 return
 Some
 (
+mozilla
+:
+:
 Range
 <
 const
@@ -376,6 +385,9 @@ bool
 WriteFromRange
 (
 const
+mozilla
+:
+:
 Range
 <
 const
@@ -512,6 +524,9 @@ explicit
 RangeProducerView
 (
 const
+mozilla
+:
+:
 Range
 <
 uint8_t
@@ -561,6 +576,9 @@ bool
 WriteFromRange
 (
 const
+mozilla
+:
+:
 Range
 <
 const
@@ -788,6 +806,9 @@ Args
 void
 Serialize
 (
+mozilla
+:
+:
 Range
 <
 uint8_t

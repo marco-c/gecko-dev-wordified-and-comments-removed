@@ -689,6 +689,9 @@ mNumGlyphs
 auto
 glyphs
 =
+mozilla
+:
+:
 Range
 <
 const
@@ -1762,6 +1765,9 @@ aFormat
 )
 )
 ;
+mozilla
+:
+:
 Range
 <
 uint8_t
@@ -2644,6 +2650,9 @@ ClipRect
 )
 true
 widths
+mozilla
+:
+:
 Range
 <
 const

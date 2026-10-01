@@ -113,7 +113,7 @@ void
 NormalizedConstraintSet
 :
 :
-Range
+ConstraintRange
 <
 ValueType
 >
@@ -239,7 +239,7 @@ bool
 NormalizedConstraintSet
 :
 :
-Range
+ConstraintRange
 <
 bool
 >
@@ -248,7 +248,7 @@ bool
 Merge
 (
 const
-Range
+ConstraintRange
 &
 aOther
 )
@@ -398,7 +398,7 @@ void
 NormalizedConstraintSet
 :
 :
-Range
+ConstraintRange
 <
 bool
 >
@@ -474,7 +474,7 @@ bool
 advanced
 )
 :
-Range
+ConstraintRange
 <
 int32_t
 >
@@ -587,7 +587,7 @@ int64_t
 aOther
 )
 :
-Range
+ConstraintRange
 <
 int64_t
 >
@@ -650,7 +650,7 @@ bool
 advanced
 )
 :
-Range
+ConstraintRange
 <
 double
 >
@@ -789,7 +789,7 @@ bool
 advanced
 )
 :
-Range
+ConstraintRange
 <
 bool
 >
@@ -3130,7 +3130,7 @@ const
 NormalizedConstraintSet
 :
 :
-Range
+ConstraintRange
 <
 T
 >
@@ -3244,7 +3244,7 @@ const
 NormalizedConstraintSet
 :
 :
-Range
+ConstraintRange
 <
 double
 >

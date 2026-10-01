@@ -4311,6 +4311,9 @@ inner
 capacity
 ;
 }
+mozilla
+:
+:
 Range
 <
 uint8_t
@@ -4320,6 +4323,9 @@ GetRange
 )
 {
 return
+mozilla
+:
+:
 Range
 <
 uint8_t
@@ -4337,6 +4343,9 @@ Length
 void
 PushBytes
 (
+mozilla
+:
+:
 Range
 <
 uint8_t
@@ -4666,6 +4675,9 @@ mData
 }
 }
 const
+mozilla
+:
+:
 Range
 <
 uint8_t
@@ -4676,6 +4688,9 @@ AsSlice
 const
 {
 return
+mozilla
+:
+:
 Range
 <
 uint8_t
@@ -4686,6 +4701,9 @@ mLength
 )
 ;
 }
+mozilla
+:
+:
 Range
 <
 uint8_t
@@ -4695,6 +4713,9 @@ AsSlice
 )
 {
 return
+mozilla
+:
+:
 Range
 <
 uint8_t

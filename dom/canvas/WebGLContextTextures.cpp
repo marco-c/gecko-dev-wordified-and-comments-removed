@@ -1032,6 +1032,9 @@ offset
 uvec3
 size
 const
+mozilla
+:
+:
 Range
 <
 const

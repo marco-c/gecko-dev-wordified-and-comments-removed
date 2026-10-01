@@ -356,6 +356,9 @@ gfx
 SurfaceFormat
 aReadbackFormat
 const
+mozilla
+:
+:
 Range
 <
 uint8_t

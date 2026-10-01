@@ -152,7 +152,7 @@ class
 ValueType
 >
 class
-Range
+ConstraintRange
 :
 public
 BaseRange
@@ -169,7 +169,7 @@ ValueType
 >
 mIdeal
 ;
-Range
+ConstraintRange
 (
 const
 nsCString
@@ -201,7 +201,7 @@ mMergeDenominator
 }
 virtual
 ~
-Range
+ConstraintRange
 (
 )
 =
@@ -213,7 +213,7 @@ operator
 =
 (
 const
-Range
+ConstraintRange
 &
 aOther
 )
@@ -314,7 +314,7 @@ bool
 Intersects
 (
 const
-Range
+ConstraintRange
 &
 aOther
 )
@@ -341,7 +341,7 @@ void
 Intersect
 (
 const
-Range
+ConstraintRange
 &
 aOther
 )
@@ -402,7 +402,7 @@ bool
 Merge
 (
 const
-Range
+ConstraintRange
 &
 aOther
 )
@@ -555,7 +555,7 @@ void
 TakeHighestIdeal
 (
 const
-Range
+ConstraintRange
 &
 aOther
 )
@@ -636,7 +636,7 @@ Merge
 static_cast
 <
 const
-Range
+ConstraintRange
 &
 >
 (
@@ -655,7 +655,7 @@ LongRange
 final
 :
 public
-Range
+ConstraintRange
 <
 int32_t
 >
@@ -690,7 +690,7 @@ LongLongRange
 final
 :
 public
-Range
+ConstraintRange
 <
 int64_t
 >
@@ -720,7 +720,7 @@ DoubleRange
 final
 :
 public
-Range
+ConstraintRange
 <
 double
 >
@@ -755,7 +755,7 @@ BooleanRange
 final
 :
 public
-Range
+ConstraintRange
 <
 bool
 >
@@ -795,7 +795,7 @@ bool
 aOther
 )
 :
-Range
+ConstraintRange
 <
 bool
 >
@@ -1480,7 +1480,7 @@ bool
 NormalizedConstraintSet
 :
 :
-Range
+ConstraintRange
 <
 bool
 >
@@ -1489,7 +1489,7 @@ bool
 Merge
 (
 const
-Range
+ConstraintRange
 &
 aOther
 )
@@ -1501,7 +1501,7 @@ void
 NormalizedConstraintSet
 :
 :
-Range
+ConstraintRange
 <
 bool
 >

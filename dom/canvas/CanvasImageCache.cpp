@@ -91,8 +91,16 @@ namespace
 mozilla
 {
 using
-namespace
 dom
+:
+:
+CanvasRenderingContext2D
+;
+using
+dom
+:
+:
+Element
 ;
 using
 namespace

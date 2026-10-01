@@ -2304,6 +2304,9 @@ FrontBufferSnapshotInto
 const
 Maybe
 <
+mozilla
+:
+:
 Range
 <
 uint8_t
@@ -2344,6 +2347,9 @@ front
 const
 Maybe
 <
+mozilla
+:
+:
 Range
 <
 uint8_t
@@ -2378,6 +2384,9 @@ IntSize
 &
 size
 const
+mozilla
+:
+:
 Range
 <
 uint8_t
@@ -3266,6 +3275,9 @@ webgl
 ReadPixelsDesc
 &
 const
+mozilla
+:
+:
 Range
 <
 uint8_t
@@ -4002,6 +4014,9 @@ offset
 uvec3
 size
 const
+mozilla
+:
+:
 Range
 <
 const

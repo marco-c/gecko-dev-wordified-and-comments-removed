@@ -470,6 +470,9 @@ return
 mShmem
 ;
 }
+mozilla
+:
+:
 Range
 <
 uint8_t

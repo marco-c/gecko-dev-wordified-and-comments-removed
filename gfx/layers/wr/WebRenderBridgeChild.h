@@ -586,6 +586,9 @@ wr
 IpcResourceUpdateQueue
 &
 aResources
+mozilla
+:
+:
 Range
 <
 const

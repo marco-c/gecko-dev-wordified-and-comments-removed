@@ -4091,6 +4091,9 @@ class
 T
 >
 inline
+mozilla
+:
+:
 Range
 <
 T
@@ -5148,6 +5151,9 @@ size_t
 N
 >
 inline
+mozilla
+:
+:
 Range
 <
 const
@@ -5178,6 +5184,9 @@ typename
 T
 >
 inline
+mozilla
+:
+:
 Range
 <
 const
@@ -5298,6 +5307,9 @@ size_t
 ByteSize
 (
 const
+mozilla
+:
+:
 Range
 <
 T
@@ -5513,6 +5525,9 @@ void
 Memcpy
 (
 const
+mozilla
+:
+:
 Range
 <
 T
@@ -5567,6 +5582,9 @@ T
 const
 destBegin
 const
+mozilla
+:
+:
 Range
 <
 U
