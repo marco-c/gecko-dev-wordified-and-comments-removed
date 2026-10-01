@@ -1645,10 +1645,10 @@ f
 flags
 +
 =
+CONFIG
 [
 '
--
-mlsx
+LSX_FLAGS
 '
 ]
 #
