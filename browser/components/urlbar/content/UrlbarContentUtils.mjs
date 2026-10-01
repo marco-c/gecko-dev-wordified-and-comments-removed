@@ -1598,14 +1598,9 @@ identity
 userContextId
 name
 :
-identity
-.
-name
-l10nId
-:
 ContextualIdentityService
 .
-getUserContextL10nId
+getUserContextLabel
 (
 identity
 .
