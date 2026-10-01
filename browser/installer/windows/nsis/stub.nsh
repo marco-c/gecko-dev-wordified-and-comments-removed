@@ -292,6 +292,8 @@ DownloadServerIP
 Var
 PostSigningData
 Var
+NotificationHelperStopExitCode
+Var
 PreviousInstallDir
 Var
 ProfileCleanupPromptType
@@ -3813,6 +3815,15 @@ Delete
 "
 0
 "
+!
+ifdef
+MOZ_PUSH_NOTIFICATION_HELPER
+{
+SignalPushNotificationHelperStop
+}
+NotificationHelperStopExitCode
+!
+endif
 {
 RemovePrecompleteEntries
 }
@@ -7590,6 +7601,11 @@ PostSigningData
 "
 stub_installer
 :
+unset
+"
+StrCpy
+NotificationHelperStopExitCode
+"
 unset
 "
 StrCpy

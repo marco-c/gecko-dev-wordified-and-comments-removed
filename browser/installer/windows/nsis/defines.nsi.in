@@ -715,6 +715,14 @@ define
 MOZ_DEFAULT_BROWSER_AGENT
 #
 endif
+#
+ifdef
+MOZ_PUSH_NOTIFICATION_HELPER
+!
+define
+MOZ_PUSH_NOTIFICATION_HELPER
+#
+endif
 !
 if
 "

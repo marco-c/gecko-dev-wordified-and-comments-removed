@@ -357,6 +357,8 @@ Var
 LaunchedNewApp
 Var
 PostSigningData
+Var
+NotificationHelperStopExitCode
 ;
 By
 defining
@@ -6503,6 +6505,15 @@ Sleep
 {
 EndIf
 }
+!
+ifdef
+MOZ_PUSH_NOTIFICATION_HELPER
+{
+SignalPushNotificationHelperStop
+}
+NotificationHelperStopExitCode
+!
+endif
 {
 PushFilesToCheck
 }
@@ -10675,6 +10686,11 @@ PostSigningData
 "
 full_installer
 :
+unset
+"
+StrCpy
+NotificationHelperStopExitCode
+"
 unset
 "
 StrCpy
