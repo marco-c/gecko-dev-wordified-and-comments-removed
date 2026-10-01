@@ -1466,6 +1466,16 @@ mIsDocumentObserver
 =
 false
 ;
+const
+RefPtr
+<
+nsXMLContentSink
+>
+kungFuDeathGrip
+(
+this
+)
+;
 RefPtr
 <
 Document
@@ -1505,6 +1515,8 @@ doc
 >
 EndLoad
 (
+!
+aTerminated
 )
 ;
 DropParserAndPerfHint
@@ -1972,6 +1984,7 @@ originalDocument
 >
 EndLoad
 (
+true
 )
 ;
 if
