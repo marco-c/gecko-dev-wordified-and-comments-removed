@@ -118,6 +118,15 @@ py
 "
 action
 /
+test_run_cargo
+.
+py
+"
+]
+[
+"
+action
+/
 test_zip
 .
 py

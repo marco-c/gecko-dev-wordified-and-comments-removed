@@ -867,6 +867,25 @@ Rust
 libraries
 .
     
+outputs
+are
+the
+program
+files
+Cargo
+leaves
+in
+its
+target
+directory
+    
+relative
+to
+the
+object
+directory
+.
+    
 "
 "
 "
@@ -884,6 +903,13 @@ working_directory
 str
     
 names
+:
+tuple
+=
+(
+)
+    
+outputs
 :
 tuple
 =
