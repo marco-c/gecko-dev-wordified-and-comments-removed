@@ -154,6 +154,13 @@ js
 ]
 [
 "
+browser_addressBarNavigation
+.
+js
+"
+]
+[
+"
 browser_appearance_pane
 .
 js

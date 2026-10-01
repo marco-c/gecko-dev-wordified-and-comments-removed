@@ -2562,6 +2562,9 @@ searchSuggestions
 "
 firefoxSuggest
 "
+"
+addressBarNavigation
+"
 ]
 iconSrc
 :
