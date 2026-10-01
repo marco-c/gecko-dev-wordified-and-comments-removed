@@ -397,6 +397,8 @@ content
 /
 test
 /
+browser
+-
 popups
 /
 popup_blocker2
@@ -414,6 +416,8 @@ content
 /
 test
 /
+browser
+-
 popups
 /
 popup_blocker_a
