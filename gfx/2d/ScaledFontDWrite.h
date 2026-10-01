@@ -147,6 +147,9 @@ std
 :
 vector
 <
+wr
+:
+:
 FontVariation
 >
 *

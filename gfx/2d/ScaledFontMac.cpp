@@ -2102,6 +2102,9 @@ std
 :
 vector
 <
+wr
+:
+:
 FontVariation
 >
 *
@@ -2177,6 +2180,9 @@ outVariations
 >
 push_back
 (
+wr
+:
+:
 FontVariation
 {
 uint32_t
@@ -2204,6 +2210,9 @@ std
 :
 vector
 <
+wr
+:
+:
 FontVariation
 >
 *
@@ -2289,6 +2298,9 @@ std
 :
 vector
 <
+wr
+:
+:
 FontVariation
 >
 variations
@@ -2375,6 +2387,9 @@ std
 :
 vector
 <
+wr
+:
+:
 FontVariation
 >
 *
@@ -2628,6 +2643,9 @@ aCTAxesCache
 uint32_t
 aVariationCount
 const
+wr
+:
+:
 FontVariation
 *
 aVariations
@@ -3079,7 +3097,7 @@ aVariations
 j
 ]
 .
-mTag
+tag
 =
 =
 tagLong
@@ -3100,7 +3118,7 @@ aVariations
 j
 ]
 .
-mValue
+value
 minDouble
 maxDouble
 )
@@ -3171,6 +3189,9 @@ aCTFont
 uint32_t
 aVariationCount
 const
+wr
+:
+:
 FontVariation
 *
 aVariations
@@ -3495,7 +3516,7 @@ aVariations
 j
 ]
 .
-mTag
+tag
 =
 =
 tagLong
@@ -3516,7 +3537,7 @@ aVariations
 j
 ]
 .
-mValue
+value
 minDouble
 maxDouble
 )
@@ -3595,6 +3616,9 @@ aCTAxesCache
 uint32_t
 aVariationCount
 const
+wr
+:
+:
 FontVariation
 *
 aVariations
@@ -3667,6 +3691,9 @@ aInstanceData
 uint32_t
 aInstanceDataLength
 const
+wr
+:
+:
 FontVariation
 *
 aVariations
@@ -3957,6 +3984,9 @@ FontInstancePlatformOptions
 *
 aPlatformOptions
 const
+wr
+:
+:
 FontVariation
 *
 aVariations

@@ -35,6 +35,17 @@ h
 "
 #
 include
+"
+mozilla
+/
+webrender
+/
+webrender_ffi
+.
+h
+"
+#
+include
 FT_MULTIPLE_MASTERS_H
 #
 include
@@ -488,6 +499,9 @@ std
 :
 vector
 <
+wr
+:
+:
 FontVariation
 >
 *
@@ -781,6 +795,9 @@ aVariations
 >
 push_back
 (
+wr
+:
+:
 FontVariation
 {
 uint32_t
@@ -863,6 +880,9 @@ UnscaledFontFreeType
 ApplyVariationsToFace
 (
 const
+wr
+:
+:
 FontVariation
 *
 aVariations
@@ -1014,7 +1034,7 @@ aVariations
 i
 ]
 .
-mValue
+value
 *
 65536
 .
@@ -1065,6 +1085,9 @@ aInstanceData
 uint32_t
 aInstanceDataLength
 const
+wr
+:
+:
 FontVariation
 *
 aVariations
@@ -1293,6 +1316,9 @@ FontInstancePlatformOptions
 *
 aPlatformOptions
 const
+wr
+:
+:
 FontVariation
 *
 aVariations

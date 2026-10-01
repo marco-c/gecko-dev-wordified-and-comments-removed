@@ -389,7 +389,7 @@ mPlatformOptions
 ;
 UniquePtr
 <
-gfx
+wr
 :
 :
 FontVariation
@@ -1164,6 +1164,9 @@ FontInstancePlatformOptions
 *
 aPlatformOptions
 const
+wr
+:
+:
 FontVariation
 *
 aVariations
@@ -1270,7 +1273,7 @@ mVariations
 reset
 (
 new
-gfx
+wr
 :
 :
 FontVariation
@@ -1291,7 +1294,7 @@ get
 reinterpret_cast
 <
 const
-gfx
+wr
 :
 :
 FontVariation
