@@ -3776,8 +3776,9 @@ SupportsWeakPtr
 LinkResult
 (
 )
-{
-}
+=
+default
+;
 ~
 LinkResult
 (
