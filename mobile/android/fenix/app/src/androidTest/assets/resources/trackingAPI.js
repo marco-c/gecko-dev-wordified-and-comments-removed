@@ -153,8 +153,6 @@ content
 /
 test
 /
-browser
--
 protectionsUI
 /
 cookieServer
@@ -260,8 +258,6 @@ content
 /
 test
 /
-browser
--
 protectionsUI
 /
 cookieServer
@@ -306,8 +302,6 @@ content
 /
 test
 /
-browser
--
 protectionsUI
 /
 cookieServer
@@ -350,8 +344,6 @@ content
 /
 test
 /
-browser
--
 protectionsUI
 /
 cookieServer
@@ -388,8 +380,6 @@ content
 /
 test
 /
-browser
--
 protectionsUI
 /
 cookieServer
@@ -442,8 +432,6 @@ content
 /
 test
 /
-browser
--
 protectionsUI
 /
 cookieServer

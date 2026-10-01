@@ -25,8 +25,6 @@ content
 /
 test
 /
-browser
--
 popups
 /
 popup_blocker2

@@ -15,8 +15,6 @@ js
 .
 .
 /
-browser
--
 general
 /
 moz
@@ -271,8 +269,6 @@ files
 .
 .
 /
-browser
--
 general
 /
 video

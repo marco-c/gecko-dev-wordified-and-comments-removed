@@ -4176,8 +4176,6 @@ content
 /
 test
 /
-browser
--
 general
 /
 browser_windowopen_reflows

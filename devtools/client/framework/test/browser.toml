@@ -368,8 +368,6 @@ content
 /
 test
 /
-browser
--
 static
 /
 browser_all_files_referenced
@@ -503,8 +501,6 @@ content
 /
 test
 /
-browser
--
 static
 /
 browser_parsable_css

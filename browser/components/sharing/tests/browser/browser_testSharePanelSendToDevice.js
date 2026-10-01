@@ -28,8 +28,6 @@ content
 /
 test
 /
-browser
--
 sync
 /
 head

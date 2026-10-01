@@ -3937,8 +3937,6 @@ content
 /
 test
 /
-browser
--
 static
 /
 browser_all_files_referenced

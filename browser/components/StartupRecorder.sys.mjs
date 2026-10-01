@@ -439,8 +439,6 @@ content
 /
 test
 /
-browser
--
 performance
 *
 This
@@ -1548,8 +1546,6 @@ content
 /
 test
 /
-browser
--
 performance
 /
 browser

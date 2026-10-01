@@ -5301,8 +5301,6 @@ content
 /
 test
 /
-browser
--
 webrtc
 -
 browser
@@ -7416,8 +7414,6 @@ content
 /
 test
 /
-browser
--
 webrtc
 -
 Tests

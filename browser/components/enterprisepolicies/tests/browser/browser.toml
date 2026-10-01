@@ -397,8 +397,6 @@ content
 /
 test
 /
-browser
--
 popups
 /
 popup_blocker2
@@ -416,8 +414,6 @@ content
 /
 test
 /
-browser
--
 popups
 /
 popup_blocker_a
@@ -721,8 +717,6 @@ content
 /
 test
 /
-browser
--
 contextMenu
 /
 subtst_contextmenu_add_search_engine

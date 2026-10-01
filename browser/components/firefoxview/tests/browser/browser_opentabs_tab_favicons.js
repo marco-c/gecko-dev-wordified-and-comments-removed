@@ -22,8 +22,6 @@ content
 /
 test
 /
-browser
--
 favicons
 /
 "
