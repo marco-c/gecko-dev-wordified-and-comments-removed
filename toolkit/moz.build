@@ -200,6 +200,14 @@ msixcomserver
 rust
 "
 ]
+if
+CONFIG
+[
+"
+MOZ_PUSH_NOTIFICATION_HELPER
+"
+]
+:
 DIRS
 +
 =

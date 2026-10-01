@@ -409,6 +409,7 @@ browser
 agent
 "
 notification_server_flag
+push_notification_helper_flag
 nsis
 llvm_symbolizer
 clang_rt_asan_lib_path
@@ -473,6 +474,7 @@ no_smart_cards
 target
 default_browser_agent
 notification_server
+push_notification_helper
 makensis
 llvm_symbolizer
 clang_rt_asan_lib_path
@@ -760,6 +762,20 @@ append
 "
 -
 DMOZ_NOTIFICATION_SERVER
+=
+1
+"
+)
+if
+push_notification_helper
+:
+defines
+.
+append
+(
+"
+-
+DMOZ_PUSH_NOTIFICATION_HELPER
 =
 1
 "
