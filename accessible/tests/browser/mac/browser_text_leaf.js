@@ -196,16 +196,6 @@ getAttributeValue
 AXValue
 "
 )
-gIsIframe
-&
-&
-!
-gIsRemoteIframe
-?
-"
-world
-"
-:
 "
 world
 "

@@ -44,9 +44,9 @@ AXDOMIdentifier
 )
 =
 =
-"
-body
-"
+currentContentDoc
+(
+)
 )
 ;
 }
@@ -1015,9 +1015,9 @@ waitForMacEvent
 "
 AXSelectedTextChanged
 "
-"
-body
-"
+currentContentDoc
+(
+)
 )
 waitForMacEvent
 (

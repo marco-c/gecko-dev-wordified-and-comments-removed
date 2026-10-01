@@ -551,9 +551,7 @@ getAttributeValue
 AXDOMIdentifier
 "
 )
-"
-body
-"
+DEFAULT_CONTENT_DOC_ID
 "
 Input
 event
