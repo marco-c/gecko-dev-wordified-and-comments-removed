@@ -1478,6 +1478,9 @@ TextCombineUpright
 "
 TextRendering
 "
+"
+TextSecurity
+"
 ]
 item_types
 =
