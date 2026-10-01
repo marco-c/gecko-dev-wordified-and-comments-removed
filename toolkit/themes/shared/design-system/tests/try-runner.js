@@ -751,6 +751,7 @@ length
 }
 ;
 (
+async
 function
 runTests
 (
@@ -781,6 +782,7 @@ push
 (
 [
 testName
+await
 tests
 [
 testName
