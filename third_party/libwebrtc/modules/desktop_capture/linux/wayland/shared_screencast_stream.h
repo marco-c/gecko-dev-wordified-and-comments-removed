@@ -343,6 +343,11 @@ StopScreenCastStream
 (
 )
 ;
+void
+ClearRenegotiateEventForTest
+(
+)
+;
 std
 :
 :
