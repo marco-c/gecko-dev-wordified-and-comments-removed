@@ -181,6 +181,13 @@ true
 "
 widgets
 .
+enabled
+"
+:
+true
+"
+widgets
+.
 system
 .
 privacy

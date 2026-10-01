@@ -214,6 +214,13 @@ true
 "
 widgets
 .
+enabled
+"
+:
+true
+"
+widgets
+.
 system
 .
 stocks
