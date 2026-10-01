@@ -2270,6 +2270,9 @@ titlebar
 "
 close
 "
+"
+suppressinitialfullscreen
+"
 )
 ;
 if
