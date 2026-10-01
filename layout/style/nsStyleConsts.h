@@ -610,17 +610,6 @@ Alpha
 ;
 enum
 class
-StyleStrokeLinecap
-:
-uint8_t
-{
-Butt
-Round
-Square
-}
-;
-enum
-class
 StyleStrokeLinejoin
 :
 uint8_t

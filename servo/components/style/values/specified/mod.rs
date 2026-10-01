@@ -1034,6 +1034,16 @@ use
 self
 :
 :
+svg
+:
+:
+StrokeLinecap
+;
+pub
+use
+self
+:
+:
 svg_path
 :
 :
