@@ -1008,6 +1008,13 @@ js
 ]
 [
 "
+test_install_expected_addon_details
+.
+js
+"
+]
+[
+"
 test_install_file_change
 .
 js

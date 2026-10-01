@@ -296,10 +296,14 @@ name
 :
 data
 .
+manifest
+.
 name
 version
 :
 data
+.
+manifest
 .
 version
 sourceURI
