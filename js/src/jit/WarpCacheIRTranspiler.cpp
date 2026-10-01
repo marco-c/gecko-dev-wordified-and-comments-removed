@@ -38209,7 +38209,7 @@ bool
 WarpCacheIRTranspiler
 :
 :
-emitGuardNoAllocationMetadataBuilder
+emitAssertNoAllocationMetadataBuilder
 (
 uint32_t
 builderAddrOffset
