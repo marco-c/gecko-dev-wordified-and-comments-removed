@@ -684,6 +684,13 @@ bug
 ]
 [
 "
+browser_controlsTabOrder
+.
+js
+"
+]
+[
+"
 browser_cornerSnapping
 .
 js
