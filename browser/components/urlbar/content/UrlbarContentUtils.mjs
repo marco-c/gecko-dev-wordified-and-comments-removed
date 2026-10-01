@@ -1603,9 +1603,14 @@ identity
 name
 l10nId
 :
+ContextualIdentityService
+.
+getUserContextL10nId
+(
 identity
 .
-l10nId
+userContextId
+)
 iconURL
 :
 ContextualIdentityService
