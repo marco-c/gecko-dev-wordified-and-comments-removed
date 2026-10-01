@@ -2131,6 +2131,10 @@ pub
 data_stores
 :
 InternerSubReport
+pub
+dl_stores
+:
+InternerSubReport
 }
 impl
 :
@@ -2173,6 +2177,15 @@ data_stores
 other
 .
 data_stores
+;
+self
+.
+dl_stores
++
+=
+other
+.
+dl_stores
 ;
 }
 }
