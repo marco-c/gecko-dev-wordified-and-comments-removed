@@ -723,6 +723,13 @@ js
 ]
 [
 "
+test_rust_autofill_credit_card_migration
+.
+js
+"
+]
+[
+"
 test_savedFieldNames
 .
 js
