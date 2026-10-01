@@ -45,6 +45,12 @@ WindowsStackWalkInitialization
 ;
 MFBT_API
 bool
+InstallStackWalkSuppressionHooks
+(
+)
+;
+MFBT_API
+bool
 CollectStackWalkLocks
 (
 Array
