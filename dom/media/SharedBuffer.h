@@ -27,6 +27,15 @@ include
 "
 mozilla
 /
+fallible
+.
+h
+"
+#
+include
+"
+mozilla
+/
 mozalloc
 .
 h

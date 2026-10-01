@@ -4,6 +4,11 @@ VideoLimits_h
 #
 define
 VideoLimits_h
+#
+include
+<
+cstdint
+>
 namespace
 mozilla
 {

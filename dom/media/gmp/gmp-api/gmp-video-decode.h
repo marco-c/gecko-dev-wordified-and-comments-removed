@@ -67,8 +67,9 @@ virtual
 GMPVideoDecoderCallback
 (
 )
-{
-}
+=
+default
+;
 virtual
 void
 Decoded
@@ -156,8 +157,9 @@ virtual
 GMPVideoDecoder
 (
 )
-{
-}
+=
+default
+;
 virtual
 void
 InitDecode

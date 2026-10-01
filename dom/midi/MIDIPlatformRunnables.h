@@ -11,6 +11,17 @@ mozilla
 /
 dom
 /
+MIDIPortParent
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 MIDITypes
 .
 h
@@ -32,9 +43,6 @@ class
 MIDIPortDeviceState
 :
 uint8_t
-;
-class
-MIDIPortParent
 ;
 class
 MIDIMessage

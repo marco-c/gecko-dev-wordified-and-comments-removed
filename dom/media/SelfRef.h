@@ -13,6 +13,13 @@ Attributes
 .
 h
 "
+#
+include
+"
+nsDebug
+.
+h
+"
 namespace
 mozilla
 {

@@ -115,6 +115,12 @@ aOther
 =
 default
 ;
+SourceBufferAttributes
+(
+)
+=
+delete
+;
 double
 GetAppendWindowStart
 (
@@ -406,12 +412,6 @@ default
 ;
 private
 :
-SourceBufferAttributes
-(
-)
-=
-delete
-;
 double
 mAppendWindowStart
 ;

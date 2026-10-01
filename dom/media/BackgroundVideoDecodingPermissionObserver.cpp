@@ -64,6 +64,13 @@ h
 #
 include
 "
+nsCRTGlue
+.
+h
+"
+#
+include
+"
 nsContentUtils
 .
 h

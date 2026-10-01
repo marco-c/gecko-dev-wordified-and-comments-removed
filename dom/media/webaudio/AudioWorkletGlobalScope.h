@@ -42,6 +42,17 @@ mozilla
 /
 dom
 /
+MessagePort
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 WorkletGlobalScope
 .
 h
@@ -64,9 +75,6 @@ dom
 {
 class
 AudioWorkletProcessorConstructor
-;
-class
-MessagePort
 ;
 class
 StructuredCloneHolder

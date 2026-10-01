@@ -67,8 +67,9 @@ virtual
 GMPVideoEncoderCallback
 (
 )
-{
-}
+=
+default
+;
 virtual
 void
 Encoded
@@ -116,8 +117,9 @@ virtual
 GMPVideoEncoder
 (
 )
-{
-}
+=
+default
+;
 virtual
 void
 InitEncode

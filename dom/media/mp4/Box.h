@@ -28,6 +28,13 @@ h
 #
 include
 "
+ByteStream
+.
+h
+"
+#
+include
+"
 MediaResource
 .
 h
@@ -42,9 +49,6 @@ h
 namespace
 mozilla
 {
-class
-ByteStream
-;
 class
 BumpAllocator
 {

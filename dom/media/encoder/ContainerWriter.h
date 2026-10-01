@@ -52,8 +52,9 @@ virtual
 ContainerWriter
 (
 )
-{
-}
+=
+default
+;
 enum
 {
 CREATE_AUDIO_TRACK

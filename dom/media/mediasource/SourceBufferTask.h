@@ -12,6 +12,13 @@ utility
 #
 include
 "
+MediaContainerType
+.
+h
+"
+#
+include
+"
 MediaResult
 .
 h

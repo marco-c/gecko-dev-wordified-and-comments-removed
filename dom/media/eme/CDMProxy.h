@@ -899,8 +899,9 @@ virtual
 CDMProxy
 (
 )
-{
-}
+=
+default
+;
 template
 <
 class

@@ -52,8 +52,9 @@ virtual
 DecryptorProxyCallback
 (
 )
-{
-}
+=
+default
+;
 virtual
 void
 SetSessionId

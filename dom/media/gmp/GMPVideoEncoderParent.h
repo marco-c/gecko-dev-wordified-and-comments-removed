@@ -7,6 +7,13 @@ GMPVideoEncoderParent_h_
 #
 include
 "
+GMPContentParent
+.
+h
+"
+#
+include
+"
 GMPCrashHelperHolder
 .
 h
@@ -83,9 +90,6 @@ mozilla
 :
 gmp
 {
-class
-GMPContentParent
-;
 class
 GMPVideoEncoderParent
 final
