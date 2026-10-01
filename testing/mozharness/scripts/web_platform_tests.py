@@ -2382,7 +2382,7 @@ abs_test_install_dir
         
 raw_log_file
 error_summary_file
-_test_summary_file
+test_summary_file
 =
 self
 .
@@ -2459,6 +2459,19 @@ s
 "
 %
 error_summary_file
+            
+"
+-
+-
+log
+-
+testsummary
+=
+%
+s
+"
+%
+test_summary_file
             
 "
 -
@@ -5446,6 +5459,18 @@ env
 =
 final_env
                 
+)
+                
+self
+.
+append_test_summary
+(
+dirs
+[
+"
+abs_blob_upload_dir
+"
+]
 )
                 
 if
