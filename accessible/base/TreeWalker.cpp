@@ -1530,6 +1530,11 @@ aria
 IsValidARIAHidden
 (
 mDoc
+-
+>
+GetContent
+(
+)
 )
 )
 {

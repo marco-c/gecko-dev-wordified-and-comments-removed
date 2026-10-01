@@ -536,14 +536,6 @@ aContent
 )
 ;
 bool
-IsValidARIAHidden
-(
-DocAccessible
-*
-aDocAcc
-)
-;
-bool
 ShouldIgnoreARIAHidden
 (
 nsIContent
