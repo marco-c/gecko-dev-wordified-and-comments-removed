@@ -2,6 +2,7 @@
 [
 derive
 (
+Clone
 Debug
 Default
 )

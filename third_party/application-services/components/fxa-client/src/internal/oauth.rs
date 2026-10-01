@@ -716,7 +716,7 @@ self
 .
 state
 .
-refresh_token
+refresh_token_for_reauth
 (
 )
 {

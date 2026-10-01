@@ -13,17 +13,6 @@ the
 -
 clean
 option
-jazzy
--
--
-clean
-#
-Check
-if
-jazzy
-command
-was
-successful
 if
 jazzy
 -
