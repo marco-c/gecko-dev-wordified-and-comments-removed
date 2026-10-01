@@ -9,7 +9,7 @@ include
 "
 jit
 /
-BaselineFrame
+SharedICHelpers
 .
 h
 "
@@ -18,7 +18,7 @@ include
 "
 jit
 /
-SharedICHelpers
+BaselineFrame
 .
 h
 "
@@ -260,15 +260,9 @@ BaselineJS
 ;
 masm
 .
-Push
+PushRegs
 (
 ICTailCallReg
-)
-;
-masm
-.
-Push
-(
 FramePointer
 )
 ;
