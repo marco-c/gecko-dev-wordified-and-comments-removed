@@ -193,7 +193,7 @@ type_of_annotation
 CrashAnnotation
 CrashAnnotationType
 }
-AsProcessReaderHandle
+AsRawProcessHandle
 ApplicationInfo
 BreakpadChar
 BreakpadString
@@ -920,7 +920,7 @@ self
 .
 main_process_handle
 .
-as_handle
+as_raw_handle
 (
 )
 CrashAnnotation
