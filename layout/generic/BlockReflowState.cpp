@@ -1867,12 +1867,9 @@ hasFloats
 }
 "
 __func__
-ToString
-(
 result
 .
 mRect
-)
 YesOrNo
 (
 result
@@ -2059,12 +2056,9 @@ hasFloats
 }
 "
 __func__
-ToString
-(
 result
 .
 mRect
-)
 YesOrNo
 (
 result
