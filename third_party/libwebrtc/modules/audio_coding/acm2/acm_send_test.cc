@@ -365,8 +365,8 @@ g722
 {
 RTC_CHECK_EQ
 (
-16000
 clockrate_hz
+16000
 )
 ;
 format

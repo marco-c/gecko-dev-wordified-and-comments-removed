@@ -268,7 +268,6 @@ GetDecoder
 ;
 RTC_DCHECK_EQ
 (
-1
 !
 !
 decoder
@@ -276,6 +275,7 @@ decoder
 !
 !
 cng_decoder_
+1
 )
 ;
 return

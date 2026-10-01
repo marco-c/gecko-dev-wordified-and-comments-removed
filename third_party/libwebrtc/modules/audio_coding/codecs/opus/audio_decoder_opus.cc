@@ -183,7 +183,6 @@ sample_rate_hz
 ;
 RTC_CHECK_EQ
 (
-0
 WebRtcOpus_DecoderCreate
 (
 &
@@ -191,6 +190,7 @@ dec_state_
 channels_
 sample_rate_hz_
 )
+0
 )
 ;
 WebRtcOpus_DecoderInit

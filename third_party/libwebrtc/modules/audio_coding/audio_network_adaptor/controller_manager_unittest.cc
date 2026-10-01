@@ -631,12 +631,12 @@ expected_order
 {
 RTC_DCHECK_EQ
 (
-kNumControllers
 expected_order
 .
 size
 (
 )
+kNumControllers
 )
 ;
 Controller

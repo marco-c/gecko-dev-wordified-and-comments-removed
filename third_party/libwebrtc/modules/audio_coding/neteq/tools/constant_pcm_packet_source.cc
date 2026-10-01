@@ -151,8 +151,8 @@ encoded_sample_
 ;
 RTC_CHECK_EQ
 (
-2U
 encoded_len
+2U
 )
 ;
 }

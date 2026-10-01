@@ -94,11 +94,11 @@ num_out_channels_
 ;
 RTC_CHECK_EQ
 (
+num_frames
 parent_
 -
 >
 block_length_
-num_frames
 )
 ;
 for
@@ -192,11 +192,11 @@ num_frames
 ;
 RTC_CHECK_EQ
 (
+block_length
 parent_
 -
 >
 cplx_length_
-block_length
 )
 ;
 parent_
@@ -448,7 +448,6 @@ block_processor_
 ;
 RTC_CHECK_EQ
 (
-0
 block_length_
 &
 (
@@ -456,6 +455,7 @@ block_length_
 -
 1
 )
+0
 )
 ;
 }
