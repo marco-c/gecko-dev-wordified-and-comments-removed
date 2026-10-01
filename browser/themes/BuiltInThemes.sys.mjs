@@ -333,12 +333,6 @@ in
 themes
 are
 installed
-and
-expired
-themes
-are
-*
-uninstalled
 .
 *
 /

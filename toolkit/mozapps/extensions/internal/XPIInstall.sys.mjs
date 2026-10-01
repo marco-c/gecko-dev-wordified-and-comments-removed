@@ -30891,13 +30891,6 @@ to
 the
 existing
 addon
-unless
-it
-was
-a
-builtin
-colorway
-theme
 .
 if
 (
