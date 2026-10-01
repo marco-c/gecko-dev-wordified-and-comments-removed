@@ -7062,11 +7062,12 @@ ClearEditContext
 )
 ;
 }
-Element
+CustomElementRegistry
 :
 :
-UnlinkCustomElementRegistry
+RemoveScopedRegistry
 (
+*
 element
 )
 ;

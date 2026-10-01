@@ -7156,6 +7156,15 @@ ClearEditContext
 }
 }
 }
+CustomElementRegistry
+:
+:
+RemoveScopedRegistry
+(
+*
+this
+)
+;
 UnsetFlags
 (
 NODE_HAS_PROPERTIES
