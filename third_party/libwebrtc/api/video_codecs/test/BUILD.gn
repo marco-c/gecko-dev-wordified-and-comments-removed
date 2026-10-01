@@ -313,6 +313,15 @@ frame_generator_api
 .
 .
 :
+media_stream_interface
+"
+"
+.
+.
+/
+.
+.
+:
 mock_video_encoder
 "
 "

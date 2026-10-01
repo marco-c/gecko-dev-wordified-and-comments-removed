@@ -1690,6 +1690,12 @@ video_codecs_api
 .
 .
 :
+media_stream_interface
+"
+"
+.
+.
+:
 scoped_refptr
 "
 "
