@@ -38,15 +38,6 @@ use
 crate
 :
 :
-clip
-:
-:
-ClipChainInstance
-;
-use
-crate
-:
-:
 command_buffer
 :
 :
@@ -897,10 +888,10 @@ image_data
 :
 &
 ImageData
-clip_chain
+coverage_rect
 :
 &
-ClipChainInstance
+LayoutRect
 clips
 :
 &
@@ -1002,9 +993,8 @@ PremultipliedAlpha
 let
 tight_clip_rect
 =
-clip_chain
-.
-local_coverage_rect
+*
+coverage_rect
 ;
 let
 request
@@ -1369,7 +1359,6 @@ transformed_aa_edges
 }
 &
 None
-clip_chain
 clips
 quad_transform
 frame_context
@@ -1413,7 +1402,6 @@ image_data
 tile_spacing
 &
 None
-clip_chain
 clips
 quad_transform
 frame_context
@@ -1454,7 +1442,11 @@ surface_index
 .
 0
 ]
-clip_chain
+clips
+.
+coverage_rect
+(
+)
 quad_transform
 .
 prim_spatial_node_index
@@ -1697,7 +1689,6 @@ transformed_aa_edges
 }
 &
 None
-clip_chain
 clips
 quad_transform
 frame_context

@@ -40,10 +40,7 @@ crate
 clip
 :
 :
-{
-ClipChainInstance
 ClipNodeId
-}
 ;
 use
 crate
@@ -811,10 +808,6 @@ unsnapped_pattern_rect
 :
 &
 LayoutRect
-clip_chain
-:
-&
-ClipChainInstance
 clips
 :
 &
@@ -2114,9 +2107,11 @@ pattern_rect
 prim_rect
 bounds
 :
-clip_chain
+clips
 .
 local_clip_rect
+(
+)
 .
 intersection_unchecked
 (
@@ -2136,7 +2131,6 @@ transformed_aa_edges
 }
 &
 None
-clip_chain
 clips
 quad_transform
 frame_context

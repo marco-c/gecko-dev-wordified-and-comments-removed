@@ -40,15 +40,6 @@ use
 crate
 :
 :
-clip
-:
-:
-ClipChainInstance
-;
-use
-crate
-:
-:
 command_buffer
 :
 :
@@ -282,10 +273,6 @@ desc
 :
 &
 QuadDescriptor
-clip_chain
-:
-&
-ClipChainInstance
 clips
 :
 &
@@ -967,7 +954,6 @@ edge_flags
 }
 &
 None
-clip_chain
 clips
 quad_transform
 frame_context
@@ -1364,7 +1350,6 @@ stretch_size
 spacing
 &
 None
-clip_chain
 clips
 quad_transform
 frame_context
