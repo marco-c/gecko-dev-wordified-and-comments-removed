@@ -539,6 +539,16 @@ moz
 .
 yaml
 -
+other
+-
+licenses
+/
+snappy
+/
+moz
+.
+yaml
+-
 security
 /
 nss
