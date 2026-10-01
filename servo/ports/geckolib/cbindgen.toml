@@ -1499,6 +1499,9 @@ BoxSizing
 "
 ObjectFit
 "
+"
+MaskType
+"
 ]
 item_types
 =

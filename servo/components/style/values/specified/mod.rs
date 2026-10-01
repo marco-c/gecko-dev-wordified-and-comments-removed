@@ -1094,6 +1094,16 @@ use
 self
 :
 :
+svg
+:
+:
+MaskType
+;
+pub
+use
+self
+:
+:
 svg_path
 :
 :

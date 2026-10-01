@@ -455,16 +455,6 @@ None
 ;
 enum
 class
-StyleMaskType
-:
-uint8_t
-{
-Luminance
-Alpha
-}
-;
-enum
-class
 StyleColorInterpolation
 :
 uint8_t
