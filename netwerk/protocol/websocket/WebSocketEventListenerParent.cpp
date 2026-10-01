@@ -347,6 +347,8 @@ FrameReceived
 (
 uint32_t
 aWebSocketSerialID
+uint64_t
+aHttpChannelId
 nsIWebSocketFrame
 *
 aFrame
@@ -381,6 +383,7 @@ void
 SendFrameReceived
 (
 aWebSocketSerialID
+aHttpChannelId
 frame
 -
 >
@@ -401,6 +404,8 @@ FrameSent
 (
 uint32_t
 aWebSocketSerialID
+uint64_t
+aHttpChannelId
 nsIWebSocketFrame
 *
 aFrame
@@ -435,6 +440,7 @@ void
 SendFrameSent
 (
 aWebSocketSerialID
+aHttpChannelId
 frame
 -
 >

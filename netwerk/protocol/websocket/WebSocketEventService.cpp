@@ -276,6 +276,8 @@ uint32_t
 aWebSocketSerialID
 uint64_t
 aInnerWindowID
+uint64_t
+aHttpChannelId
 already_AddRefed
 <
 WebSocketFrame
@@ -289,6 +291,10 @@ WebSocketBaseRunnable
 (
 aWebSocketSerialID
 aInnerWindowID
+)
+mHttpChannelId
+(
+aHttpChannelId
 )
 mFrame
 (
@@ -339,6 +345,7 @@ aListener
 FrameSent
 (
 mWebSocketSerialID
+mHttpChannelId
 mFrame
 )
 ;
@@ -353,6 +360,7 @@ aListener
 FrameReceived
 (
 mWebSocketSerialID
+mHttpChannelId
 mFrame
 )
 ;
@@ -371,6 +379,9 @@ failed
 )
 ;
 }
+uint64_t
+mHttpChannelId
+;
 RefPtr
 <
 WebSocketFrame
@@ -1326,6 +1337,8 @@ uint32_t
 aWebSocketSerialID
 uint64_t
 aInnerWindowID
+uint64_t
+aHttpChannelId
 already_AddRefed
 <
 WebSocketFrame
@@ -1377,6 +1390,7 @@ WebSocketFrameRunnable
 (
 aWebSocketSerialID
 aInnerWindowID
+aHttpChannelId
 frame
 .
 forget
@@ -1430,6 +1444,8 @@ uint32_t
 aWebSocketSerialID
 uint64_t
 aInnerWindowID
+uint64_t
+aHttpChannelId
 already_AddRefed
 <
 WebSocketFrame
@@ -1481,6 +1497,7 @@ WebSocketFrameRunnable
 (
 aWebSocketSerialID
 aInnerWindowID
+aHttpChannelId
 frame
 .
 forget

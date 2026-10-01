@@ -361,6 +361,9 @@ unsigned
 long
 aWebSocketSerialID
 in
+uint64_t
+aHttpChannelId
+in
 nsIWebSocketFrame
 aFrame
 )
@@ -375,6 +378,9 @@ in
 unsigned
 long
 aWebSocketSerialID
+in
+uint64_t
+aHttpChannelId
 in
 nsIWebSocketFrame
 aFrame

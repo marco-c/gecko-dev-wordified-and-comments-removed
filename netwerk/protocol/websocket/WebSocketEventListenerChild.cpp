@@ -343,6 +343,10 @@ uint32_t
 &
 aWebSocketSerialID
 const
+uint64_t
+&
+aHttpChannelId
+const
 WebSocketFrameData
 &
 aFrameData
@@ -381,6 +385,7 @@ FrameReceived
 (
 aWebSocketSerialID
 mInnerWindowID
+aHttpChannelId
 frame
 .
 forget
@@ -412,6 +417,10 @@ const
 uint32_t
 &
 aWebSocketSerialID
+const
+uint64_t
+&
+aHttpChannelId
 const
 WebSocketFrameData
 &
@@ -451,6 +460,7 @@ FrameSent
 (
 aWebSocketSerialID
 mInnerWindowID
+aHttpChannelId
 frame
 .
 forget
