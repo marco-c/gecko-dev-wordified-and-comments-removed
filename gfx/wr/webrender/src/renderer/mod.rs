@@ -16834,11 +16834,6 @@ self
 device
 .
 reuse_render_target
-:
-:
-<
-u8
->
 (
 texture
 RenderTargetInfo
