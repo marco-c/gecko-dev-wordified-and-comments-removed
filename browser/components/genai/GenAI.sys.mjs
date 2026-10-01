@@ -2874,11 +2874,10 @@ tabTitle
 tab
 ?
 .
-_labelIsContentTitle
+labelIsContentTitle
 &
 &
 tab
-?
 .
 label
 )
