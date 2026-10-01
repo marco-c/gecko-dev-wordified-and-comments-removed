@@ -1198,6 +1198,9 @@ OpenSearchPreferences
 "
 SearchHandoff
 "
+"
+TRIGGER_MESSAGING_EVENT
+"
 ]
 RPMSendQuery
 :
