@@ -18922,6 +18922,14 @@ rtc_error
 /
 api
 :
+rtp_transceiver_interface
+"
+"
+.
+.
+/
+api
+:
 scoped_refptr
 "
 "
