@@ -11304,6 +11304,8 @@ None
 composite_clips
 transform
 frame_context
+.
+spatial_tree
 pic_context
 targets
 frame_state
@@ -11554,6 +11556,8 @@ None
 composite_clips
 transform
 frame_context
+.
+spatial_tree
 pic_context
 targets
 frame_state

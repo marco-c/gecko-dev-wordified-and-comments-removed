@@ -1279,6 +1279,8 @@ None
 quad_clips
 quad_transform
 frame_context
+.
+spatial_tree
 pic_context
 targets
 frame_state
@@ -1993,6 +1995,8 @@ None
 quad_clips
 quad_transform
 frame_context
+.
+spatial_tree
 pic_context
 targets
 frame_state
@@ -2046,6 +2050,8 @@ None
 quad_clips
 quad_transform
 frame_context
+.
+spatial_tree
 pic_context
 targets
 frame_state
@@ -2662,6 +2668,8 @@ None
 quad_clips
 quad_transform
 frame_context
+.
+spatial_tree
 pic_context
 targets
 frame_state
@@ -2771,6 +2779,8 @@ None
 quad_clips
 quad_transform
 frame_context
+.
+spatial_tree
 pic_context
 targets
 frame_state
@@ -2878,6 +2888,8 @@ None
 quad_clips
 quad_transform
 frame_context
+.
+spatial_tree
 pic_context
 targets
 frame_state
@@ -2992,6 +3004,8 @@ None
 quad_clips
 quad_transform
 frame_context
+.
+spatial_tree
 pic_context
 targets
 frame_state
@@ -3165,6 +3179,8 @@ stretch_size
 quad_clips
 quad_transform
 frame_context
+.
+spatial_tree
 pic_context
 targets
 frame_state
@@ -3307,6 +3323,8 @@ None
 quad_clips
 quad_transform
 frame_context
+.
+spatial_tree
 pic_context
 targets
 frame_state
@@ -3483,6 +3501,8 @@ cache_key
 quad_clips
 quad_transform
 frame_context
+.
+spatial_tree
 pic_context
 targets
 frame_state
@@ -3621,6 +3641,8 @@ stretch_size
 quad_clips
 quad_transform
 frame_context
+.
+spatial_tree
 pic_context
 targets
 frame_state
@@ -3671,6 +3693,8 @@ None
 quad_clips
 quad_transform
 frame_context
+.
+spatial_tree
 pic_context
 targets
 frame_state
@@ -3811,6 +3835,8 @@ stretch_size
 quad_clips
 quad_transform
 frame_context
+.
+spatial_tree
 pic_context
 targets
 frame_state
@@ -3983,6 +4009,8 @@ cache_key
 quad_clips
 quad_transform
 frame_context
+.
+spatial_tree
 pic_context
 targets
 frame_state
@@ -4651,6 +4679,8 @@ None
 quad_clips
 quad_transform
 frame_context
+.
+spatial_tree
 pic_context
 targets
 frame_state

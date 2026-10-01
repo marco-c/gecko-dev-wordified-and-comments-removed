@@ -552,6 +552,13 @@ PatternBuilderContext
 a
 >
 {
+#
+[
+allow
+(
+unused
+)
+]
 pub
 spatial_tree
 :

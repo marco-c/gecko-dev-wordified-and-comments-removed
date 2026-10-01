@@ -946,6 +946,8 @@ None
 clips
 quad_transform
 frame_context
+.
+spatial_tree
 pic_context
 targets
 frame_state
@@ -1342,6 +1344,8 @@ None
 clips
 quad_transform
 frame_context
+.
+spatial_tree
 pic_context
 targets
 frame_state
