@@ -4225,6 +4225,14 @@ NS_FRAME_IS_DIRTY
 |
 NS_FRAME_SVG_LAYOUT
 )
+|
+|
+aFrame
+-
+>
+IsInSVGTextSubtree
+(
+)
 )
 {
 return
