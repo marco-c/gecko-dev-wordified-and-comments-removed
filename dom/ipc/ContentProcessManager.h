@@ -105,6 +105,11 @@ ContentParentId
 aChildCpId
 )
 ;
+[
+[
+nodiscard
+]
+]
 bool
 RegisterRemoteFrame
 (
@@ -116,10 +121,9 @@ aChildBp
 void
 UnregisterRemoteFrame
 (
-const
-TabId
-&
-aChildTabId
+BrowserParent
+*
+aChildBp
 )
 ;
 ContentParentId

@@ -457,6 +457,11 @@ return
 NS_ERROR_UNEXPECTED
 ;
 }
+if
+(
+NS_WARN_IF
+(
+!
 cpm
 -
 >
@@ -464,7 +469,13 @@ RegisterRemoteFrame
 (
 browserParent
 )
+)
+)
+{
+return
+NS_ERROR_UNEXPECTED
 ;
+}
 ManagedEndpoint
 <
 PBrowserChild
