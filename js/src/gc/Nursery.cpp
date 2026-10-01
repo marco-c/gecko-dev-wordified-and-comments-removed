@@ -10093,7 +10093,7 @@ zone
 >
 bufferAllocator
 .
-markNurseryOwnedAlloc
+promoteNurseryOwnedAlloc
 (
 buffer
 nurseryOwned
