@@ -288,11 +288,6 @@ nsILoadGroup
 idl
 "
 "
-nsILoadGroupChild
-.
-idl
-"
-"
 nsILoadInfo
 .
 idl

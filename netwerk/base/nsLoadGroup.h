@@ -30,13 +30,6 @@ h
 #
 include
 "
-nsILoadGroupChild
-.
-h
-"
-#
-include
-"
 nsIObserver
 .
 h
@@ -83,8 +76,6 @@ nsLoadGroup
 public
 nsILoadGroup
 public
-nsILoadGroupChild
-public
 nsIObserver
 public
 nsISupportsPriority
@@ -96,7 +87,6 @@ public
 NS_DECL_ISUPPORTS
 NS_DECL_NSIREQUEST
 NS_DECL_NSILOADGROUP
-NS_DECL_NSILOADGROUPCHILD
 NS_DECL_NSISUPPORTSPRIORITY
 NS_DECL_NSIOBSERVER
 nsLoadGroup
