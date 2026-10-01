@@ -1569,6 +1569,11 @@ content
 ListenToPageTools
 (
 listenStore
+=
+listenStore
+browserStore
+=
+browserStore
 )
 }
 }
