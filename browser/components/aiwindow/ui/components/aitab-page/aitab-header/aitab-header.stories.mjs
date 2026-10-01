@@ -222,7 +222,7 @@ text
 "
 }
 }
-heading
+title
 :
 {
 control
@@ -577,7 +577,7 @@ Template
 (
 {
 createdAt
-heading
+title
 subhead
 references
 refreshing
@@ -596,10 +596,11 @@ createdAt
 {
 createdAt
 }
-heading
+.
+title
 =
 {
-heading
+title
 }
 subhead
 =
@@ -649,7 +650,7 @@ createdAt
 Created
 today
 "
-heading
+title
 :
 "
 Three
@@ -770,7 +771,7 @@ createdAt
 Created
 today
 "
-heading
+title
 :
 "
 Heat
@@ -825,7 +826,7 @@ createdAt
 :
 "
 "
-heading
+title
 :
 "
 Places
