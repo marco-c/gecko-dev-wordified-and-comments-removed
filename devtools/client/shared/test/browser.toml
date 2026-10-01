@@ -1197,6 +1197,15 @@ js
 "
 browser_inplace
 -
+editor_autocomplete_random_function
+.
+js
+"
+]
+[
+"
+browser_inplace
+-
 editor_focus_closest_editor
 .
 js
