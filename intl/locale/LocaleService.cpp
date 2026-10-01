@@ -182,6 +182,13 @@ nsZipArchive
 h
 "
 #
+include
+"
+nsCharSeparatedTokenizer
+.
+h
+"
+#
 ifdef
 XP_WIN
 #

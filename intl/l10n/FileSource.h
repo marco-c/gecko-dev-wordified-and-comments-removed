@@ -7,6 +7,13 @@ mozilla_intl_l10n_FileSource_h
 #
 include
 "
+nsIGlobalObject
+.
+h
+"
+#
+include
+"
 nsWrapperCache
 .
 h
@@ -55,9 +62,6 @@ RegistryBindings
 .
 h
 "
-class
-nsIGlobalObject
-;
 namespace
 mozilla
 :

@@ -834,7 +834,7 @@ static_assert
 std
 :
 :
-is_same
+is_same_v
 <
 typename
 B
@@ -843,9 +843,6 @@ B
 CharType
 char16_t
 >
-:
-:
-value
 )
 ;
 mozilla
@@ -1124,7 +1121,7 @@ static_assert
 std
 :
 :
-is_same
+is_same_v
 <
 typename
 B
@@ -1133,9 +1130,6 @@ B
 CharType
 char16_t
 >
-:
-:
-value
 )
 ;
 if
@@ -1430,7 +1424,7 @@ static_assert
 std
 :
 :
-is_same
+is_same_v
 <
 typename
 B
@@ -1439,9 +1433,6 @@ B
 CharType
 char16_t
 >
-:
-:
-value
 )
 ;
 if
@@ -1790,7 +1781,7 @@ static_assert
 std
 :
 :
-is_same
+is_same_v
 <
 typename
 B
@@ -1799,9 +1790,6 @@ B
 CharType
 char16_t
 >
-:
-:
-value
 )
 ;
 if

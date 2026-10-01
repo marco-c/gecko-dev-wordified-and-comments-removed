@@ -9,6 +9,17 @@ include
 "
 mozilla
 /
+dom
+/
+FluentBinding
+.
+h
+"
+#
+include
+"
+mozilla
+/
 intl
 /
 l10nregistry_ffi_generated

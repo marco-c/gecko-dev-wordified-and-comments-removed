@@ -171,14 +171,14 @@ Shutdown
 (
 )
 ;
-private
-:
 AppDateTimeFormat
 (
 )
 =
 delete
 ;
+private
+:
 static
 nsresult
 Initialize
