@@ -26810,7 +26810,7 @@ nack_count
 TEST_F
 (
 PeerConnectionIntegrationTestUnifiedPlan
-DISABLED_AudioPacketLossCausesNack
+AudioPacketLossCausesNack
 )
 {
 RTCConfiguration
