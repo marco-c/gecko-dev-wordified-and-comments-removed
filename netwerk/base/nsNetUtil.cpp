@@ -15130,7 +15130,7 @@ if
 nsMixedContentBlocker
 :
 :
-IsPotentiallyTrustworthyLoopbackURL
+IsPotentiallyTrustworthyOrigin
 (
 aURI
 )

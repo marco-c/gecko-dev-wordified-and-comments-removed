@@ -1833,6 +1833,15 @@ requestingPrincipal
 GetIsLoopbackHost
 (
 )
+&
+&
+!
+requestingPrincipal
+-
+>
+GetIsSecureContextAllowlistedHost
+(
+)
 )
 {
 if

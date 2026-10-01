@@ -137,6 +137,16 @@ aURL
 ;
 static
 bool
+IsPotentiallyTrustworthyAllowlistedHost
+(
+const
+nsACString
+&
+aHost
+)
+;
+static
+bool
 IsPotentiallyTrustworthyOnion
 (
 nsIURI
