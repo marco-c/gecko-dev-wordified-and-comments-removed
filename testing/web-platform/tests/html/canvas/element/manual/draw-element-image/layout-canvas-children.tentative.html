@@ -20,7 +20,9 @@ Canvas
 .
 drawElementImage
 :
-layoutsubtree
+content
+=
+drawable
 tests
 <
 /
@@ -145,7 +147,9 @@ canvas
 id
 =
 parent
-layoutsubtree
+content
+=
+drawable
 >
 <
 div
@@ -206,9 +210,11 @@ parent
 ;
 parent
 .
-layoutSubtree
+content
 =
-false
+'
+fallback
+'
 ;
 assert_equals
 (
