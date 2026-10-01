@@ -23376,11 +23376,6 @@ PeerConnectionIntegrationTestUnifiedPlan
 RenegotiateManyAudioTransceivers
 )
 {
-OverrideLoggingLevelForTest
-(
-LS_WARNING
-)
-;
 PeerConnectionInterface
 :
 :
@@ -23663,11 +23658,6 @@ PeerConnectionIntegrationTestUnifiedPlan
 DISABLED_RenegotiateManyVideoTransceivers
 )
 {
-OverrideLoggingLevelForTest
-(
-LS_WARNING
-)
-;
 PeerConnectionInterface
 :
 :
@@ -23950,11 +23940,6 @@ PeerConnectionIntegrationTestUnifiedPlan
 RenegotiateManyVideoTransceiversAndWatchAudioDelay
 )
 {
-OverrideLoggingLevelForTest
-(
-LS_WARNING
-)
-;
 PeerConnectionInterface
 :
 :
