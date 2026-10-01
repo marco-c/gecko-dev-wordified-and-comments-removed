@@ -12486,6 +12486,8 @@ y
 ff_progress_frame_await
 (
 ref
+FFMAX
+(
 (
 3
 +
@@ -12504,6 +12506,8 @@ my
 >
 >
 4
+0
+)
 )
 ;
 src
@@ -12852,6 +12856,8 @@ x_off
 ff_progress_frame_await
 (
 ref
+FFMAX
+(
 (
 3
 +
@@ -12870,6 +12876,8 @@ my
 >
 >
 3
+0
+)
 )
 ;
 if
