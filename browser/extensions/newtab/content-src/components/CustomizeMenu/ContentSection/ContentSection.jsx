@@ -2529,9 +2529,7 @@ custom
 -
 widget
 -
-recent
--
-searches
+search
 -
 toggle
 "
