@@ -5798,7 +5798,7 @@ fetchPromise
 =
 GetPageContent
 .
-getPageContent
+getPageContentText
 (
 {
 url_list

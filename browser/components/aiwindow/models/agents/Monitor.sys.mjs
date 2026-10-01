@@ -6316,7 +6316,7 @@ lazy
 .
 GetPageContent
 .
-getPageContentResults
+getPageContent
 (
 {
 url_list
