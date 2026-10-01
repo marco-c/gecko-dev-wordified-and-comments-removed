@@ -7205,9 +7205,6 @@ self
 id
 :
 NativeSurfaceId
-virtual_offset
-:
-DeviceIntPoint
 tile_size
 :
 DeviceIntSize
@@ -7228,7 +7225,6 @@ compositor
 create_surface
 (
 id
-virtual_offset
 tile_size
 is_opaque
 )

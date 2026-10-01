@@ -354,9 +354,6 @@ CreateSurface
 id
 :
 NativeSurfaceId
-virtual_offset
-:
-DeviceIntPoint
 tile_size
 :
 DeviceIntSize
@@ -6586,9 +6583,6 @@ self
 id
 :
 NativeSurfaceId
-virtual_offset
-:
-DeviceIntPoint
 tile_size
 :
 DeviceIntSize

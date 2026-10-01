@@ -382,11 +382,6 @@ aId
 wr
 :
 :
-DeviceIntPoint
-aVirtualOffset
-wr
-:
-:
 DeviceIntSize
 aTileSize
 bool
@@ -412,7 +407,6 @@ compositor
 CreateSurface
 (
 aId
-aVirtualOffset
 aTileSize
 aIsOpaque
 )

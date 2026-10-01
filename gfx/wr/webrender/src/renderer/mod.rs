@@ -18479,7 +18479,6 @@ NativeSurfaceOperationDetails
 CreateSurface
 {
 id
-virtual_offset
 tile_size
 is_opaque
 }
@@ -18516,7 +18515,6 @@ compositor
 create_surface
 (
 id
-virtual_offset
 tile_size
 is_opaque
 )

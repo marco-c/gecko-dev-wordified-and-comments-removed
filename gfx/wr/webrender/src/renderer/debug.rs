@@ -2886,12 +2886,6 @@ NativeSurfaceId
 :
 :
 DEBUG_OVERLAY
-DeviceIntPoint
-:
-:
-zero
-(
-)
 framebuffer_size
 false
 )
