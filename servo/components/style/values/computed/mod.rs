@@ -1270,6 +1270,16 @@ use
 self
 :
 :
+svg
+:
+:
+ShapeRendering
+;
+pub
+use
+self
+:
+:
 text
 :
 :

@@ -1448,6 +1448,9 @@ ImageOrientation
 "
 TextAnchor
 "
+"
+ShapeRendering
+"
 ]
 item_types
 =

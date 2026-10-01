@@ -1024,6 +1024,16 @@ use
 self
 :
 :
+svg
+:
+:
+ShapeRendering
+;
+pub
+use
+self
+:
+:
 svg_path
 :
 :
