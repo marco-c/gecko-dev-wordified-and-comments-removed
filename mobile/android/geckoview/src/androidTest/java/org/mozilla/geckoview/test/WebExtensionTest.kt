@@ -10004,7 +10004,11 @@ assertEquals
 tabsExtension
 !
 !
+.
+id
 source
+.
+id
 )
 tabsCreateResult
 .
@@ -10758,7 +10762,12 @@ AllowOrDeny
 assertEquals
 (
 tabsExtension
+.
+id
 source
+?
+.
+id
 )
 assertEquals
 (
