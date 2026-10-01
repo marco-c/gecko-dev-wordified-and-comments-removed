@@ -1088,18 +1088,6 @@ engines
 ]
 )
 ;
-if
-(
-urlbar
-.
-sapName
-=
-=
-"
-searchbar
-"
-)
-{
 urlbar
 .
 searchModeSwitcher
@@ -1114,7 +1102,6 @@ engines
 length
 )
 ;
-}
 }
 let
 searchBar
