@@ -590,6 +590,11 @@ TestAudioInputProcessing
 cpp
 "
 "
+TestAV1FmtpParser
+.
+cpp
+"
+"
 TestCamerasParent
 .
 cpp

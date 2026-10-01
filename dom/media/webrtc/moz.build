@@ -389,6 +389,11 @@ UNIFIED_SOURCES
 =
 [
 "
+AV1FmtpParser
+.
+cpp
+"
+"
 H264FmtpParser
 .
 cpp
@@ -712,6 +717,11 @@ webrtc
 +
 =
 [
+"
+AV1FmtpParser
+.
+h
+"
 "
 CodecInfo
 .
