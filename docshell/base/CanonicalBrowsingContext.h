@@ -554,7 +554,6 @@ WindowGlobalParent
 GetEmbedderWindowGlobal
 (
 )
-const
 ;
 CanonicalBrowsingContext
 *
@@ -1725,7 +1724,7 @@ setNull
 ;
 }
 void
-MaybeSetPermanentKey
+SetCrossGroupEmbedderElement
 (
 Element
 *
@@ -2408,6 +2407,11 @@ mEmbedderProcessId
 ;
 uint64_t
 mCrossGroupOpenerId
+=
+0
+;
+uint64_t
+mCrossGroupEmbedderWindowId
 =
 0
 ;
