@@ -156,7 +156,7 @@ const
 inst
 int32_t
 *
-result_hz
+result_bandwidth
 )
 ;
 int16_t

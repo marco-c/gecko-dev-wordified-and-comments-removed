@@ -2383,11 +2383,6 @@ RecreateEncoderInstance
 )
 )
 ;
-SetProjectedPacketLossRate
-(
-packet_loss_rate_
-)
-;
 }
 AudioEncoderOpusImpl
 :
@@ -3226,13 +3221,7 @@ config_
 .
 num_channels
 )
-saturated_cast
-<
-int16_t
->
-(
 max_encoded_bytes
-)
 encoded
 .
 data

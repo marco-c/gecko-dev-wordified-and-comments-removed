@@ -85,7 +85,7 @@ AudioDecoderOpusImpl
 const
 FieldTrialsView
 &
-field_trails
+field_trials
 size_t
 num_channels
 int
