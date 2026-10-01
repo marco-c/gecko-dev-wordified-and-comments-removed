@@ -1774,6 +1774,7 @@ parametrize
 (
     
 "
+project
 has_ccov
 expected_task_added
 "
@@ -1784,6 +1785,11 @@ pytest
 .
 param
 (
+"
+mozilla
+-
+central
+"
 True
 True
 id
@@ -1799,6 +1805,11 @@ pytest
 .
 param
 (
+"
+mozilla
+-
+central
+"
 False
 False
 id
@@ -1807,6 +1818,66 @@ id
 without
 ccov
 tasks
+"
+)
+        
+pytest
+.
+param
+(
+"
+comm
+-
+central
+"
+True
+True
+id
+=
+"
+comm
+-
+central
+"
+)
+        
+pytest
+.
+param
+(
+"
+try
+"
+True
+False
+id
+=
+"
+try
+"
+)
+        
+pytest
+.
+param
+(
+"
+try
+-
+comm
+-
+central
+"
+True
+False
+id
+=
+"
+try
+-
+comm
+-
+central
 "
 )
     
@@ -1818,6 +1889,7 @@ test_add_code_coverage_task
     
 make_taskgraph
 graph_config
+project
 has_ccov
 expected_task_added
 )
@@ -2007,6 +2079,10 @@ mozilla
 -
 central
 "
+        
+project
+=
+project
     
 )
     
