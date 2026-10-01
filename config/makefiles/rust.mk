@@ -1137,6 +1137,12 @@ MOZ_TOPOBJDIR
 topobjdir
 )
 export
+MOZ_TOPSRCDIR
+=
+(
+topsrcdir
+)
+export
 MOZ_FOLD_LIBS
 GLEAN_PYTHON_VENV_DIR
 =

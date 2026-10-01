@@ -62,6 +62,8 @@ the
 command
 with
 MOZ_TOPOBJDIR
+and
+MOZ_TOPSRCDIR
 set
 appropriately
 .
@@ -89,6 +91,9 @@ xpcom
 MOZ_TOPOBJDIR
 =
 OBJDIR
+MOZ_TOPSRCDIR
+=
+SRCDIR
 cargo
 doc
 cd
@@ -111,6 +116,14 @@ path
 to
 the
 object
+directory
+and
+SRCDIR
+the
+path
+to
+the
+source
 directory
 .
 #
