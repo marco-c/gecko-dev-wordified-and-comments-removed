@@ -340,6 +340,13 @@ js
 ]
 [
 "
+browser_policy_disable_developer_tools
+.
+js
+"
+]
+[
+"
 browser_policy_disable_feedback_commands
 .
 js
