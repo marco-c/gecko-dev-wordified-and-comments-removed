@@ -2560,7 +2560,7 @@ continue
 }
 feature
 .
-value
+mValue
 =
 values
 .
@@ -2579,7 +2579,7 @@ values
 ;
 feature
 .
-tag
+mTag
 =
 HB_TAG
 (
@@ -2668,7 +2668,7 @@ AsAtom
 ;
 feature
 .
-value
+mValue
 =
 1
 ;
@@ -2698,7 +2698,7 @@ continue
 }
 feature
 .
-tag
+mTag
 =
 HB_TAG
 (
@@ -2929,7 +2929,7 @@ alternates
 ;
 feature
 .
-value
+mValue
 =
 values
 [
@@ -2951,7 +2951,7 @@ Swash
 :
 feature
 .
-tag
+mTag
 =
 HB_TAG
 (
@@ -2978,7 +2978,7 @@ feature
 ;
 feature
 .
-tag
+mTag
 =
 HB_TAG
 (
@@ -3006,7 +3006,7 @@ Stylistic
 :
 feature
 .
-tag
+mTag
 =
 HB_TAG
 (
@@ -3034,7 +3034,7 @@ Ornaments
 :
 feature
 .
-tag
+mTag
 =
 HB_TAG
 (
@@ -3062,7 +3062,7 @@ Annotation
 :
 feature
 .
-tag
+mTag
 =
 HB_TAG
 (
@@ -3241,12 +3241,12 @@ const
 return
 a
 .
-tag
+mTag
 =
 =
 b
 .
-tag
+mTag
 ;
 }
 bool
@@ -3266,11 +3266,11 @@ const
 return
 a
 .
-tag
+mTag
 <
 b
 .
-tag
+mTag
 ;
 }
 }
@@ -3330,11 +3330,11 @@ mergedFeatures
 index
 ]
 .
-value
+mValue
 =
 aFeature
 .
-value
+mValue
 ;
 }
 }
@@ -3776,10 +3776,10 @@ gfxFontFeature
 {
 feature
 .
-tag
+mTag
 feature
 .
-value
+mValue
 }
 )
 ;
@@ -3927,7 +3927,7 @@ if
 (
 feature
 .
-tag
+mTag
 )
 {
 addOrReplace
@@ -3936,10 +3936,10 @@ gfxFontFeature
 {
 feature
 .
-tag
+mTag
 feature
 .
-value
+mValue
 }
 )
 ;
@@ -3971,10 +3971,10 @@ aHandleFeature
 (
 f
 .
-tag
+mTag
 f
 .
-value
+mValue
 aHandleFeatureData
 )
 ;
@@ -10146,7 +10146,7 @@ if
 (
 feature
 .
-tag
+mTag
 =
 =
 aFeature
@@ -10161,7 +10161,7 @@ aFeatureOn
 (
 feature
 .
-value
+mValue
 !
 =
 0
@@ -10219,7 +10219,7 @@ if
 (
 feature
 .
-tag
+mTag
 =
 =
 aFeature
@@ -10234,7 +10234,7 @@ aFeatureOn
 (
 feature
 .
-value
+mValue
 !
 =
 0

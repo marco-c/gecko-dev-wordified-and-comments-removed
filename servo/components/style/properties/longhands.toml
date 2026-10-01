@@ -6799,13 +6799,6 @@ struct
 "
 font
 "
-gecko_ffi_name
-=
-"
-mFont
-.
-fontFeatureSettings
-"
 extra_prefixes
 =
 [
@@ -7960,13 +7953,6 @@ struct
 =
 "
 font
-"
-gecko_ffi_name
-=
-"
-mFont
-.
-fontVariationSettings
 "
 servo_pref
 =

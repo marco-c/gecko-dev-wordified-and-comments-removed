@@ -9,7 +9,9 @@ include
 "
 mozilla
 /
-ServoStyleConsts
+gfx
+/
+FontFeature
 .
 h
 "
@@ -47,10 +49,10 @@ gfxFontFeature
 mozilla
 :
 :
-StyleFeatureTagValue
-<
-int32_t
->
+gfx
+:
+:
+FontFeature
 ;
 class
 gfxFontFeatureValueSet

@@ -23627,7 +23627,7 @@ None
 :
 setting
 .
-value
+mValue
 =
 0
 ;
@@ -23650,7 +23650,7 @@ Normal
 :
 setting
 .
-value
+mValue
 =
 1
 ;
