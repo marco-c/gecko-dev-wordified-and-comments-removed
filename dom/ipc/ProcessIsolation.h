@@ -252,6 +252,17 @@ bool
 aUseRemoteSubframes
 )
 ;
+already_AddRefed
+<
+nsIURI
+>
+GetAboutReaderURL
+(
+nsIURI
+*
+aURI
+)
+;
 void
 AddHighValuePermission
 (
