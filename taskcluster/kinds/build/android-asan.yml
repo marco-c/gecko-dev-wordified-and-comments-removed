@@ -360,11 +360,6 @@ py
 secrets
 :
 true
-mozconfig
--
-variant
-:
-null
 tooltool
 -
 downloads
@@ -537,6 +532,15 @@ releng
 .
 manifest
 "
+mozconfig
+:
+variant
+:
+nightly
+-
+fuzzing
+-
+asan
 run
 :
 actions
