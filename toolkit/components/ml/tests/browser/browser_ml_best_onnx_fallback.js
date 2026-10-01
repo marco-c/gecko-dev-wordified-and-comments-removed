@@ -167,6 +167,11 @@ revision
 "
 }
 ;
+add_setup
+(
+setupNativeOnnxRuntimeAvailabilityTest
+)
+;
 function
 stubNativeUnavailable
 (
