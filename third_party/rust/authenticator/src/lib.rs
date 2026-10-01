@@ -276,6 +276,7 @@ transport
 :
 :
 {
+BlinkResult
 FidoDevice
 FidoDeviceIO
 FidoProtocol

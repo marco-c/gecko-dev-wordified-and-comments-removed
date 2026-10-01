@@ -1049,7 +1049,7 @@ UINT
 let
 offset
 =
-memoffset
+mem
 :
 :
 offset_of
