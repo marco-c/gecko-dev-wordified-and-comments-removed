@@ -5215,6 +5215,14 @@ rtc_error
 /
 rtc_base
 :
+checks
+"
+"
+.
+.
+/
+rtc_base
+:
 logging
 "
 "
