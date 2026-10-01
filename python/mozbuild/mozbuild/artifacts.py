@@ -7939,15 +7939,6 @@ endswith
 opt
 "
 )
-and
-"
--
-appservices
--
-"
-not
-in
-job
 :
             
 if
@@ -9250,28 +9241,6 @@ mobile
 android
 "
 :
-            
-if
-self
-.
-_substs
-.
-get
-(
-"
-MOZ_APPSERVICES_IN_TREE
-"
-)
-:
-                
-target_suffix
-=
-"
--
-appservices
-"
-+
-target_suffix
             
 if
 self
