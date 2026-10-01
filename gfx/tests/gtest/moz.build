@@ -275,6 +275,11 @@ TestMacIOSurfaceHelpers
 .
 cpp
 "
+"
+TestNativeLayerCA
+.
+mm
+"
 ]
 UNIFIED_SOURCES
 +
