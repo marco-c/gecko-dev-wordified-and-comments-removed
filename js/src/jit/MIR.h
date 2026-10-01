@@ -20006,6 +20006,16 @@ BitOr
 TRIVIAL_NEW_WRAPPERS
 MDefinition
 *
+foldsTo
+(
+TempAllocator
+&
+alloc
+)
+override
+;
+MDefinition
+*
 foldIfZero
 (
 size_t
