@@ -1043,3 +1043,17 @@ if
 true
 "
 ]
+[
+"
+browser_manageCreditCardsDialog_cvv
+.
+js
+"
+]
+[
+"
+browser_paymentsList_cvv
+.
+js
+"
+]
