@@ -3423,7 +3423,6 @@ SourceServerIndexing
 (
         
 self
-file
 debug_file
 guid
 sourceFileStream
@@ -4845,16 +4844,10 @@ self
 SourceServerIndexing
 (
                         
-file
-                        
 debug_file
-                        
 guid
-                        
 sourceFileStream
-                        
 vcs_root
-                        
 self
 .
 s3_bucket
@@ -5808,7 +5801,6 @@ SourceServerIndexing
 (
         
 self
-file
 debug_file
 guid
 sourceFileStream
@@ -5818,7 +5810,16 @@ s3_bucket
 )
 :
         
-pdb_file
+streamFilename
+=
+debug_file
++
+"
+.
+stream
+"
+        
+stream_output_path
 =
 os
 .
@@ -5826,20 +5827,8 @@ path
 .
 abspath
 (
-locate_pdb
-(
-file
+streamFilename
 )
-)
-        
-stream_output_path
-=
-pdb_file
-+
-"
-.
-stream
-"
         
 result
 =
@@ -5928,7 +5917,7 @@ path
 .
 basename
 (
-pdb_file
+debug_file
 )
                     
 "
@@ -5943,7 +5932,7 @@ path
 .
 basename
 (
-stream_output_path
+streamFilename
 )
                     
 "

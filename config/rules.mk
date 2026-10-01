@@ -4627,13 +4627,6 @@ DUMP_SYMS_TARGETS
 :
 =
 (
-filter
--
-out
-(
-MOZBUILD_NON_DEFAULT_TARGETS
-)
-(
 SHARED_LIBRARY
 )
 (
@@ -4641,10 +4634,6 @@ PROGRAM
 )
 (
 SIMPLE_PROGRAMS
-)
-(
-RUST_PROGRAMS
-)
 )
 endif
 ifdef
