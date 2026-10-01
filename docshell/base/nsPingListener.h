@@ -7,6 +7,13 @@ nsPingListener_h_
 #
 include
 "
+nsILoadGroup
+.
+h
+"
+#
+include
+"
 nsIStreamListener
 .
 h
@@ -43,9 +50,6 @@ class
 nsIDocShell
 ;
 class
-nsILoadGroup
-;
-class
 nsITimer
 ;
 class
@@ -66,8 +70,9 @@ NS_DECL_NSISTREAMLISTENER
 nsPingListener
 (
 )
-{
-}
+=
+default
+;
 void
 SetLoadGroup
 (
