@@ -3560,15 +3560,9 @@ output
 ;
 masm
 .
-Pop
+PopRegs
 (
 ebx
-)
-;
-masm
-.
-Pop
-(
 ecx
 )
 ;
