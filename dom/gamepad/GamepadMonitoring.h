@@ -9,6 +9,15 @@ include
 "
 mozilla
 /
+Tainting
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 GamepadHandle
