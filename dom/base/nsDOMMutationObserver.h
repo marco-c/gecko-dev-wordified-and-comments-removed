@@ -122,9 +122,6 @@ nsWrapperCache
 h
 "
 class
-nsIPrincipal
-;
-class
 nsDOMMutationObserver
 ;
 using
@@ -2091,9 +2088,6 @@ dom
 MutationObserverInit
 &
 aOptions
-nsIPrincipal
-&
-aSubjectPrincipal
 mozilla
 :
 :
