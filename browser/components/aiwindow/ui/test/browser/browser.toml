@@ -1572,6 +1572,13 @@ js
 ]
 [
 "
+browser_smartwindow_resume_section
+.
+js
+"
+]
+[
+"
 browser_smartwindow_retry_context
 .
 js
