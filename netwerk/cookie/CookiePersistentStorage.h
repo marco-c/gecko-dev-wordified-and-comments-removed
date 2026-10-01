@@ -91,9 +91,6 @@ class
 mozIStorageService
 ;
 class
-nsICookieTransactionCallback
-;
-class
 nsIEffectiveTLDService
 ;
 class
@@ -197,15 +194,6 @@ void
 HandleDBClosed
 (
 )
-;
-nsresult
-RunInTransaction
-(
-nsICookieTransactionCallback
-*
-aCallback
-)
-override
 ;
 enum
 CorruptFlag
