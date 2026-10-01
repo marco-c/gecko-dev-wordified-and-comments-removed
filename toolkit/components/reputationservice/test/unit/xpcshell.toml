@@ -8,14 +8,14 @@ head_download_manager
 .
 js
 "
-skip
+run
 -
 if
 =
 [
 "
 os
-=
+!
 =
 '
 android

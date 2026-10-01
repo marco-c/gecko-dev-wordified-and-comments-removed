@@ -8,14 +8,14 @@ head
 .
 js
 "
-skip
+run
 -
 if
 =
 [
 "
 os
-=
+!
 =
 '
 android
