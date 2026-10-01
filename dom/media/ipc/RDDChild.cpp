@@ -88,17 +88,6 @@ mozilla
 /
 ipc
 /
-CrashReporterHost
-.
-h
-"
-#
-include
-"
-mozilla
-/
-ipc
-/
 Endpoint
 .
 h
