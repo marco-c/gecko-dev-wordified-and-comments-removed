@@ -12395,7 +12395,6 @@ use
 )
 ;
 }
-else
 if
 (
 allow
@@ -12434,6 +12433,12 @@ GetBrowsingContext
 -
 >
 IsDiscarded
+(
+)
+|
+|
+!
+IsCurrentGlobal
 (
 )
 )
