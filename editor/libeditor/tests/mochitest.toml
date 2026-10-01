@@ -2200,6 +2200,13 @@ html
 ]
 [
 "
+test_insertText_during_composition
+.
+html
+"
+]
+[
+"
 test_join_split_node_direction_change_command
 .
 html
