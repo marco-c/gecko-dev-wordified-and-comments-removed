@@ -697,6 +697,13 @@ js
 ]
 [
 "
+browser_aboutRestartRequired_details
+.
+js
+"
+]
+[
+"
 browser_aboutSupport
 .
 js
