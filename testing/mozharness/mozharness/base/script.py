@@ -4610,6 +4610,8 @@ entry
 "
 )
                 
+fname
+=
 bundle
 .
 extract
@@ -4618,25 +4620,6 @@ entry
 path
 =
 extract_to
-)
-                
-fname
-=
-os
-.
-path
-.
-realpath
-(
-os
-.
-path
-.
-join
-(
-extract_to
-entry
-)
 )
                 
 try
