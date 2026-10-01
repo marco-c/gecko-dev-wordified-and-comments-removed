@@ -1538,6 +1538,9 @@ BoxDirection
 "
 BoxOrient
 "
+"
+BoxPack
+"
 ]
 item_types
 =
