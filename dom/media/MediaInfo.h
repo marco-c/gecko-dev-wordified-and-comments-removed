@@ -446,6 +446,14 @@ rhs
 mContainerCodecDelayFrames
 &
 &
+mOutputChannels
+=
+=
+rhs
+.
+mOutputChannels
+&
+&
 *
 mHeadersBinaryBlob
 =
@@ -471,6 +479,12 @@ mHeadersBinaryBlob
 {
 new
 MediaByteBuffer
+}
+;
+uint32_t
+mOutputChannels
+{
+0
 }
 ;
 }

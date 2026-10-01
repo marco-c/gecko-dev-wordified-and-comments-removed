@@ -236,7 +236,7 @@ aShouldResistFingerprinting
 )
 mOutputChannels
 (
-DecideAudioPlaybackChannels
+AudioPlaybackChannels
 (
 aInfo
 )

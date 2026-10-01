@@ -511,7 +511,7 @@ if
 mDefaultPlaybackDeviceMono
 |
 |
-DecideAudioPlaybackChannels
+AudioPlaybackChannels
 (
 mAudioInfo
 )

@@ -4274,6 +4274,11 @@ opusData
 )
 }
 ;
+SetOpusOutputChannels
+(
+mInfo
+)
+;
 mHeaders
 .
 Erase
