@@ -2126,6 +2126,10 @@ exclude_extensions
 [
 ]
 )
+                    
+expand_excludes
+=
+False
                 
 )
                 
