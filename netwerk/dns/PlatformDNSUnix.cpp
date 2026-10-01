@@ -474,7 +474,7 @@ rv
 )
 {
 return
-rv
+NS_ERROR_UNKNOWN_HOST
 ;
 }
 return
