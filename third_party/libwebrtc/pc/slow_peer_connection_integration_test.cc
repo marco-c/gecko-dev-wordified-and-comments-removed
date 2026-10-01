@@ -2265,7 +2265,7 @@ Close
 (
 )
 ;
-ConnectFakeSignaling
+ConnectFakeSignalingForSdpOnly
 (
 )
 ;
@@ -2297,6 +2297,11 @@ caller
 >
 CreateAndSetAndSignalOffer
 (
+)
+;
+SetSignalIceCandidates
+(
+true
 )
 ;
 ASSERT_TRUE
