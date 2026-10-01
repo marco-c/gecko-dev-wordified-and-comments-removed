@@ -309,7 +309,7 @@ testSetup
 await
 SessionStoreTestUtils
 .
-promiseCompletedBrowserState
+promiseBrowserState
 (
 multiWindowState
 )
