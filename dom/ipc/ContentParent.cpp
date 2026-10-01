@@ -22887,6 +22887,14 @@ parent
 )
 )
 {
+cpm
+-
+>
+UnregisterRemoteFrame
+(
+parent
+)
+;
 return
 IPC_FAIL
 (
