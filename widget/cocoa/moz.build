@@ -243,6 +243,11 @@ MOZMenuOpeningCoordinator
 mm
 "
 "
+MOZShareURLPasteboardItem
+.
+mm
+"
+"
 NativeKeyBindings
 .
 mm
