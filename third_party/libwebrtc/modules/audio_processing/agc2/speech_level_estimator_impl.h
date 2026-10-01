@@ -123,6 +123,17 @@ return
 is_confident_
 ;
 }
+bool
+IsBackgroundSpeaker
+(
+)
+const
+override
+{
+return
+false
+;
+}
 void
 Reset
 (

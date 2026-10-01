@@ -122,6 +122,17 @@ return
 is_confident_
 ;
 }
+bool
+IsBackgroundSpeaker
+(
+)
+const
+override
+{
+return
+is_background_speaker_
+;
+}
 void
 Reset
 (
@@ -201,6 +212,9 @@ level_dbfs_
 ;
 bool
 is_confident_
+;
+bool
+is_background_speaker_
 ;
 int
 num_adjacent_speech_frames_

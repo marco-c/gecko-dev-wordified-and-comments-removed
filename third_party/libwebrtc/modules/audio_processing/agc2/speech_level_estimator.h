@@ -78,6 +78,15 @@ const
 0
 ;
 virtual
+bool
+IsBackgroundSpeaker
+(
+)
+const
+=
+0
+;
+virtual
 void
 Reset
 (
