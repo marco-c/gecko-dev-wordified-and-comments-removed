@@ -23,6 +23,8 @@ content
 /
 test
 /
+browser
+-
 permissions
 /
 head

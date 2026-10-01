@@ -53,6 +53,8 @@ content
 /
 test
 /
+browser
+-
 protectionsUI
 /
 trackingPage
@@ -84,6 +86,8 @@ content
 /
 test
 /
+browser
+-
 protectionsUI
 /
 trackingPageWithMetaRefresh
@@ -115,6 +119,8 @@ content
 /
 test
 /
+browser
+-
 protectionsUI
 /
 benignPage
