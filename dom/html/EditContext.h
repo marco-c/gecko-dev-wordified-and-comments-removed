@@ -42,6 +42,13 @@ EditContextBinding
 .
 h
 "
+#
+include
+"
+nsGenericHTMLElement
+.
+h
+"
 class
 nsTextNode
 ;

@@ -114,7 +114,7 @@ HTMLFormSubmission
 aFormSubmission
 )
 ;
-MOZ_COUNTED_DTOR_VIRTUAL
+MOZ_COUNTED_DTOR_VIRTUAL_DECL
 (
 HTMLFormSubmission
 )
