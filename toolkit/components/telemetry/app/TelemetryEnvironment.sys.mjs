@@ -638,7 +638,7 @@ Count
 Glean
 Count
 :
-113
+63
 var
 gGlobalEnvironment
 ;
