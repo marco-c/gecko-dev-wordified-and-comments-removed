@@ -142,6 +142,13 @@ HOME
 self
 .
 homedir
+"
+MOZ_REMOTE_ALLOW_SYSTEM_ACCESS
+"
+:
+"
+1
+"
 }
 )
         
@@ -204,17 +211,6 @@ headless
 "
 -
 marionette
-"
-            
-"
--
-remote
--
-allow
--
-system
--
-access
 "
         
 ]
