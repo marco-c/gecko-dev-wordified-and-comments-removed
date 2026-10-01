@@ -3345,6 +3345,13 @@ tabs
 "
 [
 "
+browser_tab_detach_fullscreen
+.
+js
+"
+]
+[
+"
 browser_tab_detach_restore
 .
 js
