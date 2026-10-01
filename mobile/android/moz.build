@@ -649,12 +649,6 @@ DIRS
 =
 [
 "
-.
-.
-/
-locales
-"
-"
 locales
 "
 ]
