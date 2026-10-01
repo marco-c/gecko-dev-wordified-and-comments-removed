@@ -18471,7 +18471,7 @@ IceTransport
 (
 )
 ;
-CSFLogWarn
+CSFLogDebug
 (
 LOGTAG
 "
@@ -19109,7 +19109,7 @@ IsClosed
 return
 ;
 }
-CSFLogWarn
+CSFLogDebug
 (
 LOGTAG
 "

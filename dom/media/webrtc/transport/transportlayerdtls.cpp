@@ -1416,6 +1416,10 @@ Internal
 error
 "
 ;
+mHasDtlsFailureError
+=
+true
+;
 TL_SET_STATE
 (
 TS_ERROR
@@ -4355,6 +4359,10 @@ Internal
 error
 "
 ;
+mHasDtlsFailureError
+=
+true
+;
 TL_SET_STATE
 (
 TS_ERROR
@@ -4381,6 +4389,10 @@ RecordHandshakeCompletionTelemetry
 ALPN_FAILURE
 "
 )
+;
+mHasDtlsFailureError
+=
+true
 ;
 TL_SET_STATE
 (
@@ -4600,6 +4612,10 @@ DTLS
 handshake
 failure
 "
+;
+mHasDtlsFailureError
+=
+true
 ;
 TL_SET_STATE
 (
@@ -5341,6 +5357,10 @@ receive
 failed
 "
 ;
+mHasDtlsFailureError
+=
+true
+;
 TL_SET_STATE
 (
 TS_ERROR
@@ -5611,6 +5631,10 @@ DTLS
 send
 failed
 "
+;
+mHasDtlsFailureError
+=
+true
 ;
 TL_SET_STATE
 (
