@@ -1175,7 +1175,7 @@ rm
 {
 HTTPPID
 }
-html_detect_core
+html_detect_core_force
 "
 kill_httpserv
 core

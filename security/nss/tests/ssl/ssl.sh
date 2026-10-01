@@ -2633,7 +2633,7 @@ rm
 {
 SERVERPID
 }
-html_detect_core
+html_detect_core_force
 "
 kill_selfserv
 core
