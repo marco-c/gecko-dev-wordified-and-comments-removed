@@ -36,6 +36,13 @@ py
 ]
 [
 "
+test_merkle
+.
+py
+"
+]
+[
+"
 test_update_verify
 .
 py

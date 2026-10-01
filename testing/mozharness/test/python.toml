@@ -57,13 +57,6 @@ py
 ]
 [
 "
-test_mozilla_merkle
-.
-py
-"
-]
-[
-"
 test_mozilla_per_test_base
 .
 py
