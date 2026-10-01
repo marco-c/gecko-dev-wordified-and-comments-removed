@@ -926,15 +926,9 @@ scratch
 ;
 masm
 .
-push
+pushRegs
 (
 scratch
-)
-;
-masm
-.
-push
-(
 rbp
 )
 ;
