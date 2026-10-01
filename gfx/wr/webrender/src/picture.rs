@@ -10892,10 +10892,6 @@ composite_clips
 .
 set_bounds
 (
-prim_info
-.
-clip_chain
-.
 local_clip_rect
 surface
 .
