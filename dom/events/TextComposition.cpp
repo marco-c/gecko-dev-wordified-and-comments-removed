@@ -2399,6 +2399,16 @@ WidgetSelectionEvent
 aSelectionEvent
 )
 {
+MOZ_DIAGNOSTIC_ASSERT
+(
+aSelectionEvent
+-
+>
+DispatchedByValidDispatcher
+(
+)
+)
+;
 if
 (
 aBrowserParent
