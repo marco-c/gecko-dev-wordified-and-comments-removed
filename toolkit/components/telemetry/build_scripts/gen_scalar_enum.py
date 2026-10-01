@@ -47,6 +47,11 @@ mozilla_TelemetryScalarEnums_h
 #
 define
 mozilla_TelemetryScalarEnums_h
+#
+include
+<
+cstdint
+>
 namespace
 mozilla
 {
