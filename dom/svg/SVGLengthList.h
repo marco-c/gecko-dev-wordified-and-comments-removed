@@ -225,7 +225,16 @@ SVGLengthList
 rhs
 )
 const
+{
+return
+mLengths
+=
+=
+rhs
+.
+mLengths
 ;
+}
 bool
 SetCapacity
 (

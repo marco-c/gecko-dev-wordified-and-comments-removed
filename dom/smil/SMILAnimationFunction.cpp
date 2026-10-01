@@ -3654,11 +3654,9 @@ if
 (
 mKeySplines
 .
-Length
+IsEmpty
 (
 )
-<
-1
 )
 {
 SetKeySplinesErrorFlag
