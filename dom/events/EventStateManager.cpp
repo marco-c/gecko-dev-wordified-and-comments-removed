@@ -29301,7 +29301,10 @@ NS_ERROR_FAILURE
 ;
 }
 const
-nsRange
+dom
+:
+:
+Range
 *
 range
 =
@@ -29520,7 +29523,10 @@ NS_OK
 ;
 }
 const
-nsRange
+dom
+:
+:
+Range
 *
 range
 =
@@ -33283,7 +33289,10 @@ mPresContext
 ;
 RefPtr
 <
-nsRange
+dom
+:
+:
+Range
 >
 range
 =

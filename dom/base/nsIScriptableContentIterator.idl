@@ -217,7 +217,7 @@ ContentIteratorBase
 :
 Init
 (
-nsRange
+Range
 *
 )
 void
@@ -239,7 +239,7 @@ ContentSubtreeIterator
 :
 InitWithAllowCrossShadowBoundary
 (
-nsRange
+Range
 *
 )
 void

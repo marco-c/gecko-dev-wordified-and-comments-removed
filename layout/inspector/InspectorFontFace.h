@@ -120,7 +120,7 @@ aMatchType
 void
 AddRange
 (
-nsRange
+Range
 *
 aRange
 )
@@ -280,7 +280,7 @@ nsTArray
 <
 RefPtr
 <
-nsRange
+Range
 >
 >
 &
@@ -353,7 +353,7 @@ nsTArray
 <
 RefPtr
 <
-nsRange
+Range
 >
 >
 mRanges

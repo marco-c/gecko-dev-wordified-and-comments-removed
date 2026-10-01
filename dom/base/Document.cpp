@@ -33527,11 +33527,17 @@ htmlEditor
 {
 RefPtr
 <
-nsRange
+dom
+:
+:
+Range
 >
 range
 =
-nsRange
+dom
+:
+:
+Range
 :
 :
 Create
@@ -46434,7 +46440,7 @@ nullptr
 }
 already_AddRefed
 <
-nsRange
+Range
 >
 Document
 :
@@ -46447,7 +46453,7 @@ rv
 )
 {
 return
-nsRange
+Range
 :
 :
 Create
@@ -67060,7 +67066,7 @@ nsTArray
 <
 RefPtr
 <
-nsRange
+Range
 >
 >
 textDirectives
@@ -67075,7 +67081,7 @@ FindTextFragmentsInDocument
 const
 RefPtr
 <
-nsRange
+Range
 >
 textDirectiveToScroll
 =
@@ -68218,7 +68224,7 @@ nsTArray
 <
 RefPtr
 <
-nsRange
+Range
 >
 >
 *
@@ -68239,7 +68245,7 @@ nsTArray
 <
 RefPtr
 <
-nsRange
+Range
 >
 >
 *
@@ -68327,7 +68333,7 @@ nsTArray
 <
 RefPtr
 <
-nsRange
+Range
 >
 >
 >
@@ -68363,7 +68369,7 @@ rangeCount
 )
 ;
 const
-nsRange
+Range
 *
 range
 =
@@ -68467,11 +68473,11 @@ continue
 }
 RefPtr
 <
-nsRange
+Range
 >
 clonedRange
 =
-nsRange
+Range
 :
 :
 Create
@@ -68564,7 +68570,7 @@ nsTArray
 <
 RefPtr
 <
-nsRange
+Range
 >
 >
 >
@@ -71725,7 +71731,7 @@ forget
 }
 already_AddRefed
 <
-nsRange
+Range
 >
 Document
 :
@@ -71807,11 +71813,11 @@ offset
 }
 RefPtr
 <
-nsRange
+Range
 >
 range
 =
-nsRange
+Range
 :
 :
 Create

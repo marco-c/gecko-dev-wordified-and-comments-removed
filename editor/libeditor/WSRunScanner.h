@@ -3737,7 +3737,10 @@ ShrinkRangeIfStartsFromOrEndsAfterAtomicContent
 (
 Options
 aOptions
-nsRange
+dom
+:
+:
+Range
 &
 aRange
 const

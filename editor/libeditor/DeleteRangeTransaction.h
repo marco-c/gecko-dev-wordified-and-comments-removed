@@ -115,7 +115,10 @@ EditorBase
 &
 aEditorBase
 const
-nsRange
+dom
+:
+:
+Range
 &
 aRangeToDelete
 )
@@ -133,7 +136,10 @@ EditorBase
 &
 aEditorBase
 const
-nsRange
+dom
+:
+:
+Range
 &
 aRangeToDelete
 )
@@ -207,7 +213,10 @@ protected
 nsresult
 MaybeExtendDeletingRangeWithSurroundingWhitespace
 (
-nsRange
+dom
+:
+:
+Range
 &
 aRange
 )
@@ -253,7 +262,10 @@ mEditorBase
 ;
 RefPtr
 <
-nsRange
+dom
+:
+:
+Range
 >
 mRangeToDelete
 ;

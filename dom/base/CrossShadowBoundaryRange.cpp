@@ -65,7 +65,7 @@ const
 RangeBoundary
 &
 aEndBoundary
-nsRange
+Range
 *
 aOwner
 )
@@ -88,7 +88,7 @@ const
 RawRangeBoundary
 &
 aEndBoundary
-nsRange
+Range
 *
 aOwner
 )
@@ -111,7 +111,7 @@ const
 RangeBoundary
 &
 aEndBoundary
-nsRange
+Range
 *
 aOwner
 )
@@ -134,7 +134,7 @@ const
 RawRangeBoundary
 &
 aEndBoundary
-nsRange
+Range
 *
 aOwner
 )
@@ -335,7 +335,7 @@ ERT
 >
 &
 aEndBoundary
-nsRange
+Range
 *
 aOwner
 )
@@ -1086,7 +1086,7 @@ kValidOrInvalidOffsets
 RawRangeBoundary
 newStart
 =
-nsRange
+Range
 :
 :
 ComputeNewBoundaryWhenBoundaryInsideChangedText

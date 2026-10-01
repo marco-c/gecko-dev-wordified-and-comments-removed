@@ -1860,7 +1860,10 @@ for
 (
 OwningNonNull
 <
-nsRange
+dom
+:
+:
+Range
 >
 &
 domRange
@@ -2285,7 +2288,7 @@ NS_SUCCEEDED
 rvIgnored
 )
 "
-nsRange
+Range
 :
 :
 CollapseTo
@@ -16213,7 +16216,10 @@ IsCollapsed
 ;
 RefPtr
 <
-nsRange
+dom
+:
+:
+Range
 >
 range
 =
@@ -18783,7 +18789,10 @@ for
 (
 OwningNonNull
 <
-nsRange
+dom
+:
+:
+Range
 >
 &
 selectionRange
@@ -19816,7 +19825,7 @@ NS_SUCCEEDED
 rvIgnored
 )
 "
-nsRange
+Range
 :
 :
 SetStartAndEnd
@@ -21403,7 +21412,10 @@ for
 const
 OwningNonNull
 <
-nsRange
+dom
+:
+:
+Range
 >
 &
 domRange

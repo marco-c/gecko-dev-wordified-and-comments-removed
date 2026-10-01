@@ -118,7 +118,10 @@ RawRangeData
 RawRangeData
 (
 const
-nsRange
+dom
+:
+:
+Range
 *
 aRange
 )
@@ -200,7 +203,10 @@ RawRangeData
 Equals
 (
 const
-nsRange
+dom
+:
+:
+Range
 *
 aRange
 )

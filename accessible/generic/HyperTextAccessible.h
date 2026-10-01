@@ -57,9 +57,6 @@ class
 nsIFrame
 ;
 class
-nsRange
-;
-class
 nsIWidget
 ;
 namespace
@@ -71,6 +68,9 @@ EditorBase
 namespace
 dom
 {
+class
+Range
+;
 class
 Selection
 ;

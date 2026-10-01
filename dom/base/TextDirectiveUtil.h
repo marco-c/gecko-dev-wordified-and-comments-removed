@@ -98,9 +98,6 @@ nsINode
 class
 nsFind
 ;
-class
-nsRange
-;
 struct
 TextDirective
 ;
@@ -110,6 +107,9 @@ mozilla
 :
 dom
 {
+class
+Range
+;
 extern
 LazyLogModule
 gFragmentDirectiveLog
@@ -227,7 +227,7 @@ aNode
 static
 RefPtr
 <
-nsRange
+Range
 >
 FindStringInRange
 (
@@ -305,7 +305,7 @@ static
 bool
 AdvanceStartToNextNonWhitespacePosition
 (
-nsRange
+Range
 &
 aRange
 )

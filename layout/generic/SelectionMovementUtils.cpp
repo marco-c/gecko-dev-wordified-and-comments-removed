@@ -2128,7 +2128,7 @@ if
 (
 aRange
 .
-IsDynamicRange
+IsRange
 (
 )
 )
@@ -2604,7 +2604,7 @@ if
 (
 aRange
 .
-IsDynamicRange
+IsRange
 (
 )
 )

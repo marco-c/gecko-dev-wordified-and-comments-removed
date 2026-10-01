@@ -44,9 +44,6 @@ h
 class
 nsINode
 ;
-class
-nsRange
-;
 namespace
 mozilla
 {
@@ -55,6 +52,9 @@ dom
 {
 class
 Document
+;
+class
+Range
 ;
 class
 Selection
@@ -119,7 +119,10 @@ explicit
 RawRangeData
 (
 const
-nsRange
+dom
+:
+:
+Range
 *
 aRange
 )
@@ -128,7 +131,10 @@ bool
 Equals
 (
 const
-nsRange
+dom
+:
+:
+Range
 *
 aRange
 )

@@ -2198,7 +2198,7 @@ pointToInsert
 NS_WARNING
 (
 "
-nsRange
+Range
 :
 :
 CollapseTo
@@ -2274,7 +2274,7 @@ ToRawRangeBoundary
 NS_WARNING
 (
 "
-nsRange
+Range
 :
 :
 SetStartAndEnd

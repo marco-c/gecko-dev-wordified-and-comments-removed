@@ -360,9 +360,6 @@ nsISerialEventTarget
 class
 nsITimer
 ;
-class
-nsRange
-;
 namespace
 mozilla
 :

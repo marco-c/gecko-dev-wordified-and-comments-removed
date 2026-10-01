@@ -16735,7 +16735,10 @@ aError
 }
 else
 {
-nsRange
+dom
+:
+:
+Range
 :
 :
 GetInnerTextNoFlush

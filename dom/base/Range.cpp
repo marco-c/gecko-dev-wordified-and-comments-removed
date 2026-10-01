@@ -406,9 +406,15 @@ h
 "
 #
 endif
+namespace
+mozilla
+:
+:
+dom
+{
 class
 MOZ_STACK_CLASS
-nsRange
+Range
 :
 :
 AutoCharacterDataChangedHandler
@@ -417,7 +423,7 @@ public
 :
 AutoCharacterDataChangedHandler
 (
-nsRange
+Range
 &
 aRange
 nsIContent
@@ -821,7 +827,7 @@ aAlreadyComputedStartBoundary
 )
 const
 ;
-nsRange
+Range
 &
 mRange
 ;
@@ -843,7 +849,7 @@ mInfo
 ;
 class
 MOZ_STACK_CLASS
-nsRange
+Range
 :
 :
 AutoNewContentHandler
@@ -939,7 +945,7 @@ mMutation
 }
 ;
 class
-nsRange
+Range
 :
 :
 AutoContentWillBeRemovedHandler
@@ -1073,6 +1079,7 @@ mParentNode
 ;
 }
 ;
+}
 namespace
 mozilla
 {
@@ -1163,7 +1170,7 @@ Info
 "
 %
 p
-nsRange
+Range
 :
 :
 %
@@ -1223,7 +1230,7 @@ Info
 "
 %
 p
-nsRange
+Range
 :
 :
 %
@@ -1282,23 +1289,18 @@ false
 }
 }
 }
-using
-namespace
-mozilla
-;
-using
 namespace
 mozilla
 :
 :
 dom
-;
+{
 template
 already_AddRefed
 <
-nsRange
+Range
 >
-nsRange
+Range
 :
 :
 Create
@@ -1321,9 +1323,9 @@ aAllowCrossShadowBoundary
 template
 already_AddRefed
 <
-nsRange
+Range
 >
-nsRange
+Range
 :
 :
 Create
@@ -1346,9 +1348,9 @@ aAllowCrossShadowBoundary
 template
 already_AddRefed
 <
-nsRange
+Range
 >
-nsRange
+Range
 :
 :
 Create
@@ -1371,9 +1373,9 @@ aAllowCrossShadowBoundary
 template
 already_AddRefed
 <
-nsRange
+Range
 >
-nsRange
+Range
 :
 :
 Create
@@ -1395,7 +1397,7 @@ aAlloCrossShadowBoundary
 ;
 template
 nsresult
-nsRange
+Range
 :
 :
 SetStartAndEnd
@@ -1414,7 +1416,7 @@ aAllowCrossShadowBoundary
 ;
 template
 nsresult
-nsRange
+Range
 :
 :
 SetStartAndEnd
@@ -1433,7 +1435,7 @@ aAllowCrossShadowBoundary
 ;
 template
 nsresult
-nsRange
+Range
 :
 :
 SetStartAndEnd
@@ -1452,7 +1454,7 @@ aAllowCrossShadowBoundary
 ;
 template
 nsresult
-nsRange
+Range
 :
 :
 SetStartAndEnd
@@ -1471,7 +1473,7 @@ aAllowCrossShadowBoundary
 ;
 template
 void
-nsRange
+Range
 :
 :
 DoSetRange
@@ -1495,7 +1497,7 @@ aRangeBehaviour
 ;
 template
 void
-nsRange
+Range
 :
 :
 DoSetRange
@@ -1519,7 +1521,7 @@ aRangeBehaviour
 ;
 template
 void
-nsRange
+Range
 :
 :
 DoSetRange
@@ -1543,7 +1545,7 @@ aRangeBehaviour
 ;
 template
 void
-nsRange
+Range
 :
 :
 DoSetRange
@@ -1567,7 +1569,7 @@ aRangeBehaviour
 ;
 template
 void
-nsRange
+Range
 :
 :
 CreateOrUpdateCrossShadowBoundaryRangeIfNeeded
@@ -1584,7 +1586,7 @@ aEndBoundary
 ;
 template
 void
-nsRange
+Range
 :
 :
 CreateOrUpdateCrossShadowBoundaryRangeIfNeeded
@@ -1601,7 +1603,7 @@ aEndBoundary
 ;
 template
 void
-nsRange
+Range
 :
 :
 CreateOrUpdateCrossShadowBoundaryRangeIfNeeded
@@ -1618,7 +1620,7 @@ aEndBoundary
 ;
 template
 void
-nsRange
+Range
 :
 :
 CreateOrUpdateCrossShadowBoundaryRangeIfNeeded
@@ -1635,7 +1637,7 @@ aEndBoundary
 ;
 JSObject
 *
-nsRange
+Range
 :
 :
 WrapObject
@@ -1668,7 +1670,7 @@ aGivenProto
 }
 DocGroup
 *
-nsRange
+Range
 :
 :
 GetDocGroup
@@ -1846,22 +1848,22 @@ nsTArray
 <
 RefPtr
 <
-nsRange
+Range
 >
 >
 *
-nsRange
+Range
 :
 :
 sCachedRanges
 =
 nullptr
 ;
-nsRange
+Range
 :
 :
 ~
-nsRange
+Range
 (
 )
 {
@@ -1873,7 +1875,7 @@ IsInAnySelection
 )
 "
 deleting
-nsRange
+Range
 that
 is
 in
@@ -1893,10 +1895,10 @@ nullptr
 )
 ;
 }
-nsRange
+Range
 :
 :
-nsRange
+Range
 (
 nsINode
 *
@@ -1917,13 +1919,13 @@ static_assert
 (
 sizeof
 (
-nsRange
+Range
 )
 <
 =
 248
 "
-nsRange
+Range
 size
 shouldn
 '
@@ -1940,9 +1942,9 @@ possible
 }
 already_AddRefed
 <
-nsRange
+Range
 >
-nsRange
+Range
 :
 :
 Create
@@ -1975,7 +1977,7 @@ return
 do_AddRef
 (
 new
-nsRange
+Range
 (
 aNode
 )
@@ -1984,7 +1986,7 @@ aNode
 }
 RefPtr
 <
-nsRange
+Range
 >
 range
 =
@@ -2028,9 +2030,9 @@ ERT
 >
 already_AddRefed
 <
-nsRange
+Range
 >
-nsRange
+Range
 :
 :
 Create
@@ -2076,11 +2078,11 @@ GetTreeKind
 ;
 RefPtr
 <
-nsRange
+Range
 >
 range
 =
-nsRange
+Range
 :
 :
 Create
@@ -2133,7 +2135,7 @@ RangeBehaviour
 GetRangeBehaviour
 (
 const
-nsRange
+Range
 *
 aRange
 const
@@ -2585,11 +2587,11 @@ CollapseDefaultRangeAndCrossShadowBoundaryRanges
 }
 NS_IMPL_CYCLE_COLLECTING_ADDREF
 (
-nsRange
+Range
 )
 NS_IMPL_CYCLE_COLLECTING_RELEASE_WITH_INTERRUPTABLE_LAST_RELEASE
 (
-nsRange
+Range
 DoSetRange
 (
 RawRangeBoundary
@@ -2606,7 +2608,7 @@ MaybeInterruptLastRelease
 )
 NS_INTERFACE_MAP_BEGIN_CYCLE_COLLECTION
 (
-nsRange
+Range
 )
 NS_INTERFACE_MAP_ENTRY
 (
@@ -2618,11 +2620,11 @@ AbstractRange
 )
 NS_IMPL_CYCLE_COLLECTION_CLASS
 (
-nsRange
+Range
 )
 NS_IMPL_CYCLE_COLLECTION_UNLINK_BEGIN_INHERITED
 (
-nsRange
+Range
 AbstractRange
 )
 NS_IMPL_CYCLE_COLLECTION_UNLINK
@@ -2640,7 +2642,7 @@ Reset
 NS_IMPL_CYCLE_COLLECTION_UNLINK_END
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE_BEGIN_INHERITED
 (
-nsRange
+Range
 AbstractRange
 )
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE
@@ -2655,12 +2657,12 @@ mCrossShadowBoundaryRange
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE_END
 NS_IMPL_CYCLE_COLLECTION_TRACE_BEGIN_INHERITED
 (
-nsRange
+Range
 AbstractRange
 )
 NS_IMPL_CYCLE_COLLECTION_TRACE_END
 bool
-nsRange
+Range
 :
 :
 MaybeInterruptLastRelease
@@ -2704,7 +2706,7 @@ interrupt
 }
 nsIContent
 *
-nsRange
+Range
 :
 :
 AutoCharacterDataChangedHandler
@@ -2781,7 +2783,7 @@ RawRangeBoundary
 nsINode
 *
 >
-nsRange
+Range
 :
 :
 AutoCharacterDataChangedHandler
@@ -3030,7 +3032,7 @@ RawRangeBoundary
 nsINode
 *
 >
-nsRange
+Range
 :
 :
 AutoCharacterDataChangedHandler
@@ -3372,7 +3374,7 @@ nullptr
 ;
 }
 void
-nsRange
+Range
 :
 :
 CharacterDataChanged
@@ -3508,7 +3510,7 @@ HasNewBoundaries
 )
 )
 {
-nsRange
+Range
 :
 :
 AssertIfMismatchRootAndRangeBoundaries
@@ -3918,11 +3920,11 @@ notYetInserted
 )
 ;
 }
-nsRange
+Range
 :
 :
 RangeBoundariesAndRoot
-nsRange
+Range
 :
 :
 AutoNewContentHandler
@@ -4098,11 +4100,11 @@ return
 newBoundaries
 ;
 }
-nsRange
+Range
 :
 :
 RangeBoundariesAndRoot
-nsRange
+Range
 :
 :
 AutoNewContentHandler
@@ -4205,7 +4207,7 @@ nullptr
 ;
 }
 void
-nsRange
+Range
 :
 :
 ContentAppended
@@ -4347,7 +4349,7 @@ HasNewBoundaries
 )
 )
 {
-nsRange
+Range
 :
 :
 AssertIfMismatchRootAndRangeBoundaries
@@ -4384,7 +4386,7 @@ true
 ;
 }
 void
-nsRange
+Range
 :
 :
 ContentInserted
@@ -4497,7 +4499,7 @@ HasNewBoundaries
 )
 )
 {
-nsRange
+Range
 :
 :
 AssertIfMismatchRootAndRangeBoundaries
@@ -4533,7 +4535,7 @@ mRoot
 ;
 }
 RawRangeBoundary
-nsRange
+Range
 :
 :
 AutoContentWillBeRemovedHandler
@@ -4787,7 +4789,7 @@ RawRangeBoundary
 ;
 }
 void
-nsRange
+Range
 :
 :
 ContentWillBeRemoved
@@ -4848,7 +4850,7 @@ HasNewBoundaries
 )
 )
 {
-nsRange
+Range
 :
 :
 AssertIfMismatchRootAndRangeBoundaries
@@ -4951,7 +4953,7 @@ aChild
 }
 }
 void
-nsRange
+Range
 :
 :
 ParentChainChanged
@@ -5068,7 +5070,7 @@ newRoot
 ;
 }
 bool
-nsRange
+Range
 :
 :
 IsShadowIncludingInclusiveDescendantOfCrossBoundaryRangeAncestor
@@ -5108,7 +5110,7 @@ GetCommonAncestor
 ;
 }
 bool
-nsRange
+Range
 :
 :
 IsPointComparableToRange
@@ -5334,7 +5336,7 @@ true
 ;
 }
 bool
-nsRange
+Range
 :
 :
 IsPointInRange
@@ -5392,7 +5394,7 @@ compareResult
 ;
 }
 int16_t
-nsRange
+Range
 :
 :
 ComparePoint
@@ -5576,7 +5578,7 @@ return
 ;
 }
 bool
-nsRange
+Range
 :
 :
 IntersectsNode
@@ -5777,7 +5779,7 @@ false
 ;
 }
 void
-nsRange
+Range
 :
 :
 NotifySelectionListenersAfterRangeSet
@@ -6149,7 +6151,7 @@ typename
 ERT
 >
 void
-nsRange
+Range
 :
 :
 AssertIfMismatchRootAndRangeBoundaries
@@ -6394,7 +6396,7 @@ typename
 ERT
 >
 void
-nsRange
+Range
 :
 :
 DoSetRange
@@ -6505,7 +6507,7 @@ TreeKind
 DOM
 )
 ;
-nsRange
+Range
 :
 :
 AssertIfMismatchRootAndRangeBoundaries
@@ -6747,7 +6749,7 @@ NotifySelectionListenersAfterRangeSet
 "
 this
 &
-nsRange
+Range
 :
 :
 NotifySelectionListenersAfterRangeSet
@@ -6757,7 +6759,7 @@ NotifySelectionListenersAfterRangeSet
 }
 }
 void
-nsRange
+Range
 :
 :
 Reset
@@ -6777,7 +6779,7 @@ nullptr
 ;
 }
 bool
-nsRange
+Range
 :
 :
 CanAccess
@@ -6815,7 +6817,7 @@ aNode
 ;
 }
 bool
-nsRange
+Range
 :
 :
 IsValidNodeAndOffsetForBoundary
@@ -6925,7 +6927,7 @@ true
 ;
 }
 bool
-nsRange
+Range
 :
 :
 IsValidNodeToSetBeforeOrAfterOf
@@ -7054,7 +7056,7 @@ true
 ;
 }
 void
-nsRange
+Range
 :
 :
 SetStartJS
@@ -7118,7 +7120,7 @@ aErr
 ;
 }
 void
-nsRange
+Range
 :
 :
 SetStartInternal
@@ -7422,7 +7424,7 @@ MOZ_ASSERT_UNREACHABLE
 }
 }
 void
-nsRange
+Range
 :
 :
 SetStartAllowCrossShadowBoundary
@@ -7461,7 +7463,7 @@ Yes
 ;
 }
 void
-nsRange
+Range
 :
 :
 SetStartBeforeJS
@@ -7493,7 +7495,7 @@ aErr
 ;
 }
 void
-nsRange
+Range
 :
 :
 SetStartBefore
@@ -7548,7 +7550,7 @@ aRv
 ;
 }
 void
-nsRange
+Range
 :
 :
 SetStartAfterJS
@@ -7580,7 +7582,7 @@ aErr
 ;
 }
 void
-nsRange
+Range
 :
 :
 SetStartAfter
@@ -7636,7 +7638,7 @@ aRv
 ;
 }
 void
-nsRange
+Range
 :
 :
 SetEndJS
@@ -7692,7 +7694,7 @@ aErr
 ;
 }
 void
-nsRange
+Range
 :
 :
 SetEndInternal
@@ -8012,7 +8014,7 @@ MOZ_ASSERT_UNREACHABLE
 }
 }
 void
-nsRange
+Range
 :
 :
 SetEndAllowCrossShadowBoundary
@@ -8051,7 +8053,7 @@ Yes
 ;
 }
 void
-nsRange
+Range
 :
 :
 SelectNodesInContainer
@@ -8192,7 +8194,7 @@ newRoot
 ;
 }
 void
-nsRange
+Range
 :
 :
 SetEndBeforeJS
@@ -8224,7 +8226,7 @@ aErr
 ;
 }
 void
-nsRange
+Range
 :
 :
 SetEndBefore
@@ -8285,7 +8287,7 @@ aRv
 ;
 }
 void
-nsRange
+Range
 :
 :
 SetEndAfterJS
@@ -8317,7 +8319,7 @@ aErr
 ;
 }
 void
-nsRange
+Range
 :
 :
 SetEndAfter
@@ -8373,7 +8375,7 @@ aRv
 ;
 }
 void
-nsRange
+Range
 :
 :
 Collapse
@@ -8420,7 +8422,7 @@ mRoot
 }
 }
 void
-nsRange
+Range
 :
 :
 CollapseJS
@@ -8447,7 +8449,7 @@ aToStart
 ;
 }
 void
-nsRange
+Range
 :
 :
 SelectNodeJS
@@ -8479,7 +8481,7 @@ aErr
 ;
 }
 void
-nsRange
+Range
 :
 :
 SelectNode
@@ -8617,7 +8619,7 @@ newRoot
 ;
 }
 void
-nsRange
+Range
 :
 :
 SelectNodeContentsJS
@@ -8649,7 +8651,7 @@ aErr
 ;
 }
 void
-nsRange
+Range
 :
 :
 SelectNodeContents
@@ -8740,7 +8742,7 @@ static
 nsresult
 CollapseRangeAfterDelete
 (
-nsRange
+Range
 *
 aRange
 )
@@ -8999,7 +9001,7 @@ static
 bool
 ValidateNodeInRange
 (
-nsRange
+Range
 *
 aRange
 nsINode
@@ -9671,7 +9673,7 @@ forget
 ;
 }
 void
-nsRange
+Range
 :
 :
 CutContents
@@ -11334,7 +11336,7 @@ aFragment
 }
 }
 void
-nsRange
+Range
 :
 :
 DeleteContents
@@ -11359,7 +11361,7 @@ already_AddRefed
 <
 DocumentFragment
 >
-nsRange
+Range
 :
 :
 ExtractContents
@@ -11397,7 +11399,7 @@ forget
 ;
 }
 int16_t
-nsRange
+Range
 :
 :
 CompareBoundaryPoints
@@ -11405,7 +11407,7 @@ CompareBoundaryPoints
 uint16_t
 aHow
 const
-nsRange
+Range
 &
 aOtherRange
 ErrorResult
@@ -11623,7 +11625,7 @@ order
 ;
 }
 nsresult
-nsRange
+Range
 :
 :
 CloneParentsBetween
@@ -11882,7 +11884,7 @@ already_AddRefed
 <
 DocumentFragment
 >
-nsRange
+Range
 :
 :
 CloneContents
@@ -12661,9 +12663,9 @@ forget
 }
 already_AddRefed
 <
-nsRange
+Range
 >
-nsRange
+Range
 :
 :
 CloneRange
@@ -12673,11 +12675,11 @@ const
 {
 RefPtr
 <
-nsRange
+Range
 >
 range
 =
-nsRange
+Range
 :
 :
 Create
@@ -12730,9 +12732,9 @@ forget
 }
 already_AddRefed
 <
-nsRange
+Range
 >
-nsRange
+Range
 :
 :
 GetRangeInFlatTree
@@ -12839,7 +12841,7 @@ do_AddRef
 (
 const_cast
 <
-nsRange
+Range
 *
 >
 (
@@ -12851,7 +12853,7 @@ this
 RefPtr
 range
 =
-nsRange
+Range
 :
 :
 Create
@@ -12887,7 +12889,7 @@ forget
 ;
 }
 void
-nsRange
+Range
 :
 :
 InsertNode
@@ -13324,7 +13326,7 @@ newOffset
 }
 }
 void
-nsRange
+Range
 :
 :
 SurroundContents
@@ -13746,7 +13748,7 @@ aRv
 ;
 }
 void
-nsRange
+Range
 :
 :
 ToString
@@ -14222,7 +14224,7 @@ n
 endif
 }
 void
-nsRange
+Range
 :
 :
 Detach
@@ -14304,7 +14306,7 @@ already_AddRefed
 <
 DocumentFragment
 >
-nsRange
+Range
 :
 :
 CreateContextualFragment
@@ -14367,7 +14369,7 @@ already_AddRefed
 <
 DocumentFragment
 >
-nsRange
+Range
 :
 :
 CreateContextualFragment
@@ -14492,7 +14494,7 @@ aRv
 ;
 }
 nsresult
-nsRange
+Range
 :
 :
 GetUsedFontFaces
@@ -14814,7 +14816,7 @@ NS_OK
 }
 nsINode
 *
-nsRange
+Range
 :
 :
 GetRegisteredClosestCommonInclusiveAncestor
@@ -14849,7 +14851,7 @@ mRegisteredClosestCommonInclusiveAncestor
 ;
 }
 void
-nsRange
+Range
 :
 :
 SuppressContentsForPrintSelection
@@ -14894,7 +14896,7 @@ aRv
 ;
 }
 bool
-nsRange
+Range
 :
 :
 AutoInvalidateSelection
@@ -14902,7 +14904,7 @@ AutoInvalidateSelection
 :
 sIsNested
 ;
-nsRange
+Range
 :
 :
 AutoInvalidateSelection
@@ -14926,8 +14928,6 @@ sIsNested
 =
 false
 ;
-:
-:
 InvalidateAllFrames
 (
 mCommonAncestor
@@ -14965,8 +14965,6 @@ commonAncestor
 mCommonAncestor
 )
 {
-:
-:
 InvalidateAllFrames
 (
 commonAncestor
@@ -14977,9 +14975,9 @@ commonAncestor
 }
 already_AddRefed
 <
-nsRange
+Range
 >
-nsRange
+Range
 :
 :
 Constructor
@@ -15077,7 +15075,7 @@ NS_CREATE_FRAME_IF_NON_WHITESPACE
 ;
 }
 void
-nsRange
+Range
 :
 :
 ExcludeNonSelectableNodes
@@ -15086,7 +15084,7 @@ nsTArray
 <
 RefPtr
 <
-nsRange
+Range
 >
 >
 *
@@ -15125,7 +15123,7 @@ GetContainer
 )
 )
 ;
-nsRange
+Range
 *
 range
 =
@@ -15133,7 +15131,7 @@ this
 ;
 RefPtr
 <
-nsRange
+Range
 >
 newRange
 ;
@@ -15546,7 +15544,7 @@ parent
 }
 newRange
 =
-nsRange
+Range
 :
 :
 Create
@@ -16314,7 +16312,7 @@ true
 ;
 }
 void
-nsRange
+Range
 :
 :
 GetInnerTextNoFlush
@@ -16711,7 +16709,7 @@ GetParent
 }
 }
 void
-nsRange
+Range
 :
 :
 ResetCrossShadowBoundaryRange
@@ -16805,7 +16803,7 @@ typename
 ERT
 >
 void
-nsRange
+Range
 :
 :
 CreateOrUpdateCrossShadowBoundaryRangeIfNeeded
@@ -17087,7 +17085,7 @@ aEndBoundary
 ;
 }
 RawRangeBoundary
-nsRange
+Range
 :
 :
 ComputeNewBoundaryWhenBoundaryInsideChangedText
@@ -17207,4 +17205,5 @@ value
 )
 }
 ;
+}
 }

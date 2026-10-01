@@ -94,9 +94,6 @@ nsIContent
 .
 h
 "
-class
-nsRange
-;
 namespace
 mozilla
 {
@@ -105,6 +102,9 @@ dom
 {
 class
 CrossShadowBoundaryRange
+;
+class
+Range
 ;
 }
 template
@@ -362,7 +362,10 @@ class
 EditorDOMPointBase
 ;
 friend
-nsRange
+dom
+:
+:
+Range
 ;
 friend
 class

@@ -83,9 +83,6 @@ nsINode
 class
 nsISelectionController
 ;
-class
-nsRange
-;
 namespace
 mozilla
 {
@@ -109,6 +106,9 @@ Document
 ;
 class
 Element
+;
+class
+Range
 ;
 class
 StaticRange
@@ -165,7 +165,10 @@ FilteredContentIterator
 aFilteredIter
 IteratorStatus
 aIteratorStatus
-nsRange
+dom
+:
+:
+Range
 *
 aIterRange
 nsAString
@@ -724,7 +727,10 @@ mOffsetTable
 ;
 RefPtr
 <
-nsRange
+dom
+:
+:
+Range
 >
 mExtent
 ;
@@ -963,7 +969,10 @@ const
 ;
 already_AddRefed
 <
-nsRange
+dom
+:
+:
+Range
 >
 CreateDocumentContentRange
 (
@@ -971,7 +980,10 @@ CreateDocumentContentRange
 ;
 already_AddRefed
 <
-nsRange
+dom
+:
+:
+Range
 >
 CreateDocumentContentRootToNodeOffsetRange
 (

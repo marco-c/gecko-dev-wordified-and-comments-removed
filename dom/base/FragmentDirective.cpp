@@ -918,7 +918,7 @@ nsTArray
 <
 RefPtr
 <
-nsRange
+Range
 >
 >
 FragmentDirective
@@ -1817,7 +1817,7 @@ nsTArray
 <
 RefPtr
 <
-nsRange
+Range
 >
 >
 &
@@ -2008,7 +2008,7 @@ for
 const
 RefPtr
 <
-nsRange
+Range
 >
 &
 range
@@ -2033,7 +2033,7 @@ IgnoreErrors
 ;
 }
 const
-nsRange
+Range
 *
 firstDirectiveRange
 =
@@ -2095,7 +2095,7 @@ nsTArray
 <
 RefPtr
 <
-nsRange
+Range
 >
 >
 &
@@ -2194,7 +2194,7 @@ RangeCount
 rangeIndex
 )
 {
-nsRange
+Range
 *
 range
 =
@@ -2318,7 +2318,7 @@ Sequence
 <
 OwningNonNull
 <
-nsRange
+Range
 >
 >
 &

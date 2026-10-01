@@ -59,9 +59,6 @@ nsStringFwd
 .
 h
 "
-class
-nsRange
-;
 namespace
 mozilla
 {
@@ -77,6 +74,9 @@ dom
 {
 class
 Document
+;
+class
+Range
 ;
 class
 TextDirectiveCreator

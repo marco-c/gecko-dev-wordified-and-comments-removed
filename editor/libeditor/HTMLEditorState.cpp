@@ -1169,7 +1169,10 @@ bodyOrDocumentElement
 )
 ;
 const
-nsRange
+dom
+:
+:
+Range
 *
 firstRange
 =

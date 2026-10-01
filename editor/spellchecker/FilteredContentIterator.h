@@ -63,9 +63,6 @@ nsAtom
 class
 nsINode
 ;
-class
-nsRange
-;
 namespace
 mozilla
 {
@@ -74,6 +71,9 @@ dom
 {
 class
 AbstractRange
+;
+class
+Range
 ;
 }
 class
@@ -299,7 +299,10 @@ mFilter
 ;
 RefPtr
 <
-nsRange
+dom
+:
+:
+Range
 >
 mRange
 ;

@@ -393,7 +393,10 @@ InitWithRange
 (
 IteratorType
 aType
-nsRange
+dom
+:
+:
+Range
 *
 aRange
 )
@@ -450,7 +453,10 @@ InitWithRangeAllowCrossShadowBoundary
 (
 IteratorType
 aType
-nsRange
+dom
+:
+:
+Range
 *
 aRange
 )

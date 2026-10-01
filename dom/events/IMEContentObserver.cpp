@@ -1430,7 +1430,10 @@ GetRoot
 if
 (
 const
-nsRange
+dom
+:
+:
+Range
 *
 selRange
 =

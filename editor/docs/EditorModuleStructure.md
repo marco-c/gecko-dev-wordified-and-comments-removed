@@ -1208,7 +1208,7 @@ InText
 .
 Different
 from
-nsRange
+Range
 the
 instances
 do
@@ -1226,7 +1226,7 @@ is
 much
 faster
 than
-nsRange
+Range
 and
 can
 be

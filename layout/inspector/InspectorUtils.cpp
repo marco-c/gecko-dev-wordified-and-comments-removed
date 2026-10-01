@@ -5211,7 +5211,7 @@ GetUsedFontFaces
 GlobalObject
 &
 aGlobalObject
-nsRange
+Range
 &
 aRange
 uint32_t

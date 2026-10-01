@@ -462,7 +462,7 @@ IsVisible
 }
 RefPtr
 <
-nsRange
+Range
 >
 TextDirectiveUtil
 :
@@ -554,7 +554,7 @@ false
 ;
 RefPtr
 <
-nsRange
+Range
 >
 result
 =
@@ -609,7 +609,7 @@ rangeToString
 [
 ]
 (
-nsRange
+Range
 *
 range
 )
@@ -1270,7 +1270,7 @@ TextDirectiveUtil
 :
 AdvanceStartToNextNonWhitespacePosition
 (
-nsRange
+Range
 &
 aRange
 )

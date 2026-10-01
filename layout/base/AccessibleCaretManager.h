@@ -540,7 +540,10 @@ const
 FrameAndOffset
 GetFirstVisibleLeafFrameOrUnselectableChildFrame
 (
-nsRange
+dom
+:
+:
+Range
 &
 aRange
 nsIContent
@@ -560,7 +563,10 @@ const
 FrameAndOffset
 GetLastVisibleLeafFrameOrUnselectableChildFrame
 (
-nsRange
+dom
+:
+:
+Range
 &
 aRange
 nsIContent

@@ -138,7 +138,7 @@ ERT
 >
 &
 aEndBoundary
-nsRange
+Range
 *
 aOwner
 )
@@ -320,7 +320,7 @@ CrossShadowBoundaryRange
 nsINode
 *
 aNode
-nsRange
+Range
 *
 aOwner
 )
@@ -380,7 +380,7 @@ friend
 class
 AbstractRange
 ;
-nsRange
+Range
 *
 mOwner
 ;

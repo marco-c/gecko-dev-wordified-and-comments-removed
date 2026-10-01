@@ -250,7 +250,10 @@ DOMIterator
 :
 Init
 (
-nsRange
+dom
+:
+:
+Range
 &
 aRange
 )
@@ -487,7 +490,10 @@ DOMSubtreeIterator
 :
 Init
 (
-nsRange
+dom
+:
+:
+Range
 &
 aRange
 )

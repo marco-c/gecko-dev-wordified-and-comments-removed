@@ -207,9 +207,6 @@ class
 nsDOMMutationObserver
 ;
 class
-nsRange
-;
-class
 nsWindowSizes
 ;
 namespace
@@ -252,6 +249,9 @@ WidgetEvent
 namespace
 dom
 {
+class
+Range
+;
 class
 NodeList
 ;

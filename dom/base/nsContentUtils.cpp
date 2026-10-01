@@ -45893,7 +45893,10 @@ rangeCount
 RefPtr
 <
 const
-nsRange
+dom
+:
+:
+Range
 >
 range
 =
@@ -45970,7 +45973,10 @@ aRoot
 )
 ;
 const
-nsRange
+dom
+:
+:
+Range
 *
 range
 =

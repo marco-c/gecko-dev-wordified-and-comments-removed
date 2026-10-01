@@ -86,9 +86,6 @@ h
 class
 nsPresContext
 ;
-class
-nsRange
-;
 struct
 nsRect
 ;
@@ -100,6 +97,9 @@ dom
 {
 class
 Element
+;
+class
+Range
 ;
 }
 class
@@ -457,7 +457,10 @@ void
 SetStartAndEnd
 (
 const
-nsRange
+dom
+:
+:
+Range
 *
 aRange
 )
@@ -834,7 +837,10 @@ true
 MOZ_CAN_RUN_SCRIPT
 Result
 <
-nsRange
+dom
+:
+:
+Range
 *
 nsresult
 >
@@ -1329,7 +1335,10 @@ aText
 MOZ_CAN_RUN_SCRIPT
 already_AddRefed
 <
-nsRange
+dom
+:
+:
+Range
 >
 GetRangeFromFlatTextOffset
 (
@@ -1346,7 +1355,10 @@ nsresult
 GenerateFlatTextContent
 (
 const
-nsRange
+dom
+:
+:
+Range
 *
 aRange
 nsString

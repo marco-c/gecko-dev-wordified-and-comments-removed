@@ -238,7 +238,7 @@ nsTArray
 <
 RefPtr
 <
-nsRange
+Range
 >
 >
 TextDirectiveFinder
@@ -330,7 +330,7 @@ nsTArray
 <
 RefPtr
 <
-nsRange
+Range
 >
 >
 textDirectiveRanges
@@ -368,7 +368,7 @@ if
 (
 RefPtr
 <
-nsRange
+Range
 >
 range
 =
@@ -667,7 +667,7 @@ textDirectiveRanges
 }
 RefPtr
 <
-nsRange
+Range
 >
 TextDirectiveFinder
 :
@@ -709,11 +709,11 @@ rv
 ;
 RefPtr
 <
-nsRange
+Range
 >
 searchRange
 =
-nsRange
+Range
 :
 :
 Create
@@ -790,7 +790,7 @@ Collapsed
 {
 RefPtr
 <
-nsRange
+Range
 >
 potentialMatch
 ;
@@ -808,7 +808,7 @@ IsEmpty
 {
 RefPtr
 <
-nsRange
+Range
 >
 prefixMatch
 =
@@ -974,11 +974,11 @@ nullptr
 }
 RefPtr
 <
-nsRange
+Range
 >
 matchRange
 =
-nsRange
+Range
 :
 :
 Create
@@ -1458,11 +1458,11 @@ nullptr
 }
 RefPtr
 <
-nsRange
+Range
 >
 rangeEndSearchRange
 =
-nsRange
+Range
 :
 :
 Create
@@ -1544,7 +1544,7 @@ IsEmpty
 ;
 RefPtr
 <
-nsRange
+Range
 >
 endMatch
 =
@@ -1678,11 +1678,11 @@ potentialMatch
 }
 RefPtr
 <
-nsRange
+Range
 >
 suffixRange
 =
-nsRange
+Range
 :
 :
 Create
@@ -1788,7 +1788,7 @@ IgnoreErrors
 ;
 RefPtr
 <
-nsRange
+Range
 >
 suffixMatch
 =
