@@ -46872,10 +46872,6 @@ setResultType
 type
 )
 ;
-setGuard
-(
-)
-;
 }
 public
 :
