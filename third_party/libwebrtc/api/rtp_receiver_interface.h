@@ -189,6 +189,17 @@ media_type
 )
 {
 }
+virtual
+void
+OnSourceChanged
+(
+bool
+ssrc_changed
+bool
+csrc_changed
+)
+{
+}
 protected
 :
 virtual
