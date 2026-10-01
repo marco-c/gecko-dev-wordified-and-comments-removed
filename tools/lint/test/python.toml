@@ -258,6 +258,13 @@ py
 ]
 [
 "
+test_license_declarations
+.
+py
+"
+]
+[
+"
 test_lintpref
 .
 py
