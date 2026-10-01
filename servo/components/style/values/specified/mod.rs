@@ -772,6 +772,16 @@ use
 self
 :
 :
+font
+:
+:
+FontVariantEmoji
+;
+pub
+use
+self
+:
+:
 image
 :
 :

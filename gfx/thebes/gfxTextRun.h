@@ -3038,6 +3038,9 @@ gfxUserFontSet
 aUserFontSet
 gfxFloat
 aDevToCssSize
+mozilla
+:
+:
 StyleFontVariantEmoji
 aVariantEmoji
 )
@@ -4971,9 +4974,15 @@ mResolvedFonts
 =
 false
 ;
+mozilla
+:
+:
 StyleFontVariantEmoji
 mFontVariantEmoji
 =
+mozilla
+:
+:
 StyleFontVariantEmoji
 :
 :
