@@ -570,9 +570,6 @@ a
 href
 =
 "
-about
-:
-license
 #
 mpl
 "
@@ -726,9 +723,6 @@ a
 href
 =
 "
-about
-:
-license
 #
 {
 license
@@ -1979,9 +1973,6 @@ a
 href
 =
 "
-about
-:
-license
 #
 top
 "
