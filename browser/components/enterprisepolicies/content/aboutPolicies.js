@@ -1914,9 +1914,7 @@ format
 =
 =
 "
-moz
--
-url
+uri
 "
 )
 {
@@ -2132,9 +2130,7 @@ format
 =
 =
 "
-moz
--
-url
+uri
 "
 )
 )
