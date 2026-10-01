@@ -68,8 +68,8 @@ fp
 suffix
 :
 ld
-fp
-0
+ra
+8
 \
 \
 (
@@ -78,8 +78,8 @@ sp
 \
 )
 ld
-ra
-8
+fp
+0
 \
 \
 (
