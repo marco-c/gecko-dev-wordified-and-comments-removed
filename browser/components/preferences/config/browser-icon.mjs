@@ -1100,6 +1100,14 @@ refreshUnlockState
 (
 )
 ;
+lazy
+.
+CustomIconManager
+.
+refreshTaskbarButtons
+(
+)
+;
 }
 }
 )
@@ -2273,7 +2281,7 @@ icon
 -
 bonus
 -
-group
+group2
 "
 headingLevel
 :
