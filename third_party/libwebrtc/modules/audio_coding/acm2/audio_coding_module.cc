@@ -1224,6 +1224,12 @@ encode_buffer_
 size
 (
 )
+encoded_info
+.
+absolute_capture_timestamp_ms_override
+.
+value_or
+(
 absolute_capture_timestamp_ms_
 .
 value_or
@@ -1231,6 +1237,13 @@ value_or
 -
 1
 )
+)
+encoded_info
+.
+audio_level_dbov_override
+encoded_info
+.
+csrcs_override
 )
 ;
 }
