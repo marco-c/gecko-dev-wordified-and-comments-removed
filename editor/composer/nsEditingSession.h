@@ -141,14 +141,6 @@ nsPIDOMWindowOuter
 aWindow
 )
 ;
-nsresult
-ReattachToWindow
-(
-nsPIDOMWindowOuter
-*
-aWindow
-)
-;
 protected
 :
 virtual
