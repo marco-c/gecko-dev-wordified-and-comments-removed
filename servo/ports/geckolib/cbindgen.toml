@@ -1445,6 +1445,9 @@ TextOrientation
 "
 ImageOrientation
 "
+"
+TextAnchor
+"
 ]
 item_types
 =

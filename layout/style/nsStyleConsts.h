@@ -644,17 +644,6 @@ Bevel
 ;
 enum
 class
-StyleTextAnchor
-:
-uint8_t
-{
-Start
-Middle
-End
-}
-;
-enum
-class
 StyleTextRendering
 :
 uint8_t

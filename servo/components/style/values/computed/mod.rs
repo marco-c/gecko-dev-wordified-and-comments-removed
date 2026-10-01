@@ -1260,6 +1260,16 @@ use
 self
 :
 :
+svg
+:
+:
+TextAnchor
+;
+pub
+use
+self
+:
+:
 text
 :
 :

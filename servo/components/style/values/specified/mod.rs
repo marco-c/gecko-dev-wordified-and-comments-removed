@@ -1014,6 +1014,16 @@ use
 self
 :
 :
+svg
+:
+:
+TextAnchor
+;
+pub
+use
+self
+:
+:
 svg_path
 :
 :
