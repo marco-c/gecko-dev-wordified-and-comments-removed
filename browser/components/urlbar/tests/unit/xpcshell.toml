@@ -296,7 +296,7 @@ js
 ]
 [
 "
-test_UrlbarUtils_getRemoteIconUrl
+test_UrlbarUtils_getRemoteImageUrl
 .
 js
 "
