@@ -45,10 +45,6 @@ jscpucfg
 "
     
 "
-nsinstall
-"
-    
-"
 viewer
 "
     
@@ -91,11 +87,6 @@ msmap
     
 "
 nm2tsv
-*
-"
-    
-"
-nsinstall
 *
 "
     
