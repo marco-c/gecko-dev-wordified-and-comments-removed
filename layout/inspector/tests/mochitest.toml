@@ -406,13 +406,6 @@ html
 ]
 [
 "
-test_getSubstitutedValue
-.
-html
-"
-]
-[
-"
 test_get_all_style_sheets
 .
 html
