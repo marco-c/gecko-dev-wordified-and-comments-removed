@@ -28708,7 +28708,7 @@ proto
 >
 is
 <
-ResizableTypedArrayObject
+TypedArrayObject
 >
 (
 )
