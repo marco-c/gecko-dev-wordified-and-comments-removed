@@ -5898,9 +5898,6 @@ disabled
 {
 value
 :
-{
-default
-:
 "
 var
 (
@@ -5913,7 +5910,6 @@ background
 color
 )
 "
-}
 name
 :
 "
@@ -5929,9 +5925,6 @@ color
 {
 value
 :
-{
-default
-:
 "
 var
 (
@@ -5946,7 +5939,6 @@ color
 hover
 )
 "
-}
 name
 :
 "
@@ -5964,9 +5956,6 @@ hover
 {
 value
 :
-{
-default
-:
 "
 var
 (
@@ -5981,7 +5970,6 @@ color
 active
 )
 "
-}
 name
 :
 "
@@ -5998,9 +5986,6 @@ active
 }
 {
 value
-:
-{
-default
 :
 "
 var
@@ -6014,7 +5999,6 @@ accent
 primary
 )
 "
-}
 name
 :
 "
@@ -6032,9 +6016,6 @@ pressed
 {
 value
 :
-{
-default
-:
 "
 var
 (
@@ -6049,7 +6030,6 @@ primary
 hover
 )
 "
-}
 name
 :
 "
@@ -6069,9 +6049,6 @@ hover
 {
 value
 :
-{
-default
-:
 "
 var
 (
@@ -6086,7 +6063,6 @@ primary
 active
 )
 "
-}
 name
 :
 "
@@ -56159,9 +56135,6 @@ background
 color
 "
 :
-{
-default
-:
 "
 var
 (
@@ -56174,7 +56147,6 @@ background
 color
 )
 "
-}
 "
 toggle
 -
@@ -56184,9 +56156,6 @@ color
 -
 hover
 "
-:
-{
-default
 :
 "
 var
@@ -56202,7 +56171,6 @@ color
 hover
 )
 "
-}
 "
 toggle
 -
@@ -56212,9 +56180,6 @@ color
 -
 active
 "
-:
-{
-default
 :
 "
 var
@@ -56230,7 +56195,6 @@ color
 active
 )
 "
-}
 "
 toggle
 -
@@ -56240,9 +56204,6 @@ color
 -
 pressed
 "
-:
-{
-default
 :
 "
 var
@@ -56256,7 +56217,6 @@ accent
 primary
 )
 "
-}
 "
 toggle
 -
@@ -56268,9 +56228,6 @@ pressed
 -
 hover
 "
-:
-{
-default
 :
 "
 var
@@ -56286,7 +56243,6 @@ primary
 hover
 )
 "
-}
 "
 toggle
 -
@@ -56298,9 +56254,6 @@ pressed
 -
 active
 "
-:
-{
-default
 :
 "
 var
@@ -56316,7 +56269,6 @@ primary
 active
 )
 "
-}
 "
 toggle
 -
