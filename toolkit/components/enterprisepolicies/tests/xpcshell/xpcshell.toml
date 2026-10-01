@@ -43,3 +43,10 @@ test_empty
 js
 "
 ]
+[
+"
+test_null_policy_value
+.
+js
+"
+]
