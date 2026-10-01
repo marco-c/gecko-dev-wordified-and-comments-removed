@@ -261,3 +261,17 @@ strtod
 l
 .
 patch
+-
+allow
+-
+guard
+-
+pages
+-
+with
+-
+clang
+-
+cl
+.
+patch
