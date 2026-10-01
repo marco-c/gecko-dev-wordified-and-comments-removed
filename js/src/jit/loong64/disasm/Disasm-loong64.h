@@ -94,6 +94,17 @@ address
 )
 const
 ;
+virtual
+const
+char
+*
+nameOfVectorRegister
+(
+uint32_t
+reg
+)
+const
+;
 private
 :
 mutable
