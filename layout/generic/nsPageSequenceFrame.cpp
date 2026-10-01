@@ -652,7 +652,9 @@ StyleFont
 )
 -
 >
-mLanguage
+GetLangAtom
+(
+)
 )
 -
 >

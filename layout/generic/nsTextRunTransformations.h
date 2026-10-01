@@ -99,7 +99,9 @@ StyleFont
 )
 -
 >
-mLanguage
+GetLangAtom
+(
+)
 )
 mPresContext
 (

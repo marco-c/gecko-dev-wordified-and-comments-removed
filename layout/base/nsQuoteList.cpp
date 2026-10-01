@@ -362,7 +362,9 @@ StyleFont
 )
 -
 >
-mLanguage
+GetLangAtom
+(
+)
 )
 ;
 if

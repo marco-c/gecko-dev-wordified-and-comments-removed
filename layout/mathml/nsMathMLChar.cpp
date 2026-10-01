@@ -2948,7 +2948,9 @@ language
 styleFont
 -
 >
-mLanguage
+GetLangAtom
+(
+)
 ;
 params
 .
@@ -5825,7 +5827,9 @@ language
 styleFont
 -
 >
-mLanguage
+GetLangAtom
+(
+)
 ;
 params
 .

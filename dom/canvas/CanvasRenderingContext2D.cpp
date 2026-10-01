@@ -16733,9 +16733,7 @@ StyleFont
 )
 -
 >
-mLanguage
-.
-get
+GetLangAtom
 (
 )
 :

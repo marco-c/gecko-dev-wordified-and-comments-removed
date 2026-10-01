@@ -10360,7 +10360,9 @@ StyleFont
 )
 -
 >
-mLanguage
+GetLangAtom
+(
+)
 )
 ;
 if
@@ -13825,7 +13827,9 @@ StyleFont
 )
 -
 >
-mLanguage
+GetLangAtom
+(
+)
 )
 ;
 if
