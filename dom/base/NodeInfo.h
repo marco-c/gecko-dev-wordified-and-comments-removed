@@ -535,8 +535,6 @@ return
 mDocument
 ;
 }
-private
-:
 NodeInfo
 (
 )
@@ -553,6 +551,8 @@ aOther
 =
 delete
 ;
+private
+:
 NodeInfo
 (
 nsAtom

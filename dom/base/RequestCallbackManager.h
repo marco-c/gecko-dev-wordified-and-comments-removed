@@ -21,6 +21,13 @@ h
 #
 include
 "
+nsCycleCollectionParticipant
+.
+h
+"
+#
+include
+"
 nsTArray
 .
 h

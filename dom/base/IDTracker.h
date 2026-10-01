@@ -7,6 +7,13 @@ mozilla_dom_IDTracker_h_
 #
 include
 "
+nsAtom
+.
+h
+"
+#
+include
+"
 nsIObserver
 .
 h
@@ -18,9 +25,6 @@ nsThreadUtils
 .
 h
 "
-class
-nsAtom
-;
 class
 nsIContent
 ;

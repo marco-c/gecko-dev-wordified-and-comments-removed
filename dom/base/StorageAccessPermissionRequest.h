@@ -25,9 +25,6 @@ nsContentPermissionHelper
 .
 h
 "
-class
-nsPIDOMWindowInner
-;
 namespace
 mozilla
 :
