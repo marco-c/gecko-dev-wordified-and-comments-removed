@@ -15,6 +15,13 @@ py
 ]
 [
 "
+test_bouncer_check
+.
+py
+"
+]
+[
+"
 test_branding_urls
 .
 py
