@@ -2853,6 +2853,26 @@ True
 [
                 
 "
+unshare
+"
+                
+"
+-
+-
+user
+"
+                
+"
+-
+-
+map
+-
+root
+-
+user
+"
+                
+"
 chroot
 "
                 
@@ -2933,6 +2953,26 @@ x86
 True
             
 [
+                
+"
+unshare
+"
+                
+"
+-
+-
+user
+"
+                
+"
+-
+-
+map
+-
+root
+-
+user
+"
                 
 "
 chroot
@@ -3031,6 +3071,26 @@ x86_64
 True
             
 [
+                
+"
+unshare
+"
+                
+"
+-
+-
+user
+"
+                
+"
+-
+-
+map
+-
+root
+-
+user
+"
                 
 "
 chroot

@@ -233,13 +233,6 @@ time
 600
 mozharness
 :
-run
--
-as
--
-root
-:
-true
 use
 -
 caches
