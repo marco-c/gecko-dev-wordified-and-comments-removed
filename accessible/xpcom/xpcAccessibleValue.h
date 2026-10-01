@@ -18,7 +18,7 @@ namespace
 a11y
 {
 class
-LocalAccessible
+Accessible
 ;
 class
 xpcAccessibleValue
