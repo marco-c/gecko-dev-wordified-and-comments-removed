@@ -1258,11 +1258,9 @@ js
 SyntaxError
 /
 ^
-expected
-meta
-or
-source
-got
+unexpected
+token
+:
 /
 )
 ;

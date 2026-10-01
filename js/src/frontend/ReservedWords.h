@@ -528,6 +528,16 @@ Await
 \
 MACRO
 (
+defer
+defer
+TokenKind
+:
+:
+Defer
+)
+\
+MACRO
+(
 from
 from
 TokenKind
