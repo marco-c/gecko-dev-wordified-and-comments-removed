@@ -2138,6 +2138,17 @@ LoadedScript
 aLoadedScript
 )
 ;
+const
+Encoding
+*
+GetClassicScriptFallbackEncoding
+(
+const
+ScriptLoadRequest
+*
+aRequest
+)
+;
 nsresult
 MaybePrepareForDiskCacheAfterExecute
 (
