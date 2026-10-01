@@ -2127,9 +2127,6 @@ NameAtom
 )
 )
 {
-nsAutoScriptBlocker
-scriptBlocker
-;
 aElement
 -
 >
