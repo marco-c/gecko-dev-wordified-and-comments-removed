@@ -74,14 +74,9 @@ av_dict_parse_string
 av_dict_set
 av_dict_set_int
 av_dirname
-#
-ifndef
-MOZ_FFVPX_AUDIOONLY
 av_display_matrix_flip
 av_display_rotation_get
 av_display_rotation_set
-#
-endif
 av_div_q
 #
 ifndef
