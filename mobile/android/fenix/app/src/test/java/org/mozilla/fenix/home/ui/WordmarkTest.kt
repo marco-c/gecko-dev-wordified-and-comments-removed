@@ -504,7 +504,7 @@ provides
 theme
 )
 {
-WordmarkLogo
+Logo
 (
 )
 }
