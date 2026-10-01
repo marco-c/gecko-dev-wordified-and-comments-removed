@@ -3541,6 +3541,9 @@ trapSite
 bool
 failedUnwindSignatureMismatch
 ;
+bool
+unwoundFrame
+;
 struct
 FaultInfo
 {

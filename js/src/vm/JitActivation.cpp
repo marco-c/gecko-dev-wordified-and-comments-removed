@@ -1486,6 +1486,13 @@ trap
 =
 trap
 ;
+wasmTrapData_
+-
+>
+unwoundFrame
+=
+unwound
+;
 if
 (
 unwound
