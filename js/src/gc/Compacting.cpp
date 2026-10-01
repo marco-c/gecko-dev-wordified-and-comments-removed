@@ -2149,7 +2149,7 @@ MOZ_ASSERT
 zone
 -
 >
-isPreservingCode
+isAnyRealmPreservingCode
 (
 )
 )
