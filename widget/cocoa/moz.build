@@ -323,6 +323,11 @@ nsMacPermissionMonitor
 mm
 "
 "
+nsMacSharingCopyOverride
+.
+mm
+"
+"
 nsMacSharingService
 .
 mm
