@@ -2372,7 +2372,6 @@ ScriptLoadRequest
 aRequest
 )
 ;
-MOZ_CAN_RUN_SCRIPT
 bool
 MaybeRemovedDeferRequests
 (
