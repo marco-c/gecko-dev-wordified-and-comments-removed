@@ -3985,8 +3985,15 @@ path
 Vec
 :
 :
-new
+with_capacity
 (
+bytes
+.
+len
+(
+)
+/
+32
 )
 }
 }
