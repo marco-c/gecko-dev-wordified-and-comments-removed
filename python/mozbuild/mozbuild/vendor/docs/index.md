@@ -35,6 +35,14 @@ our
 vendoring
 infrastructure
 .
+{
+toctree
+}
+:
+maxdepth
+:
+1
+licensing
 #
 #
 Expectations
