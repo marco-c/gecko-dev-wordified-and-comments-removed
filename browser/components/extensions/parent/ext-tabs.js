@@ -2307,14 +2307,11 @@ return
 }
 if
 (
-updatedTab
+event
 .
-removedByAdoption
-|
-|
-updatedTab
+detail
 .
-addedByAdoption
+adoptingSplitView
 )
 {
 return
