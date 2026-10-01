@@ -812,12 +812,6 @@ mdnFeatureGate
 :
 true
 }
-"
-urlbar
-"
-"
-config
-"
 )
 ;
 await
@@ -899,12 +893,6 @@ mdnFeatureGate
 :
 false
 }
-"
-urlbar
-"
-"
-config
-"
 )
 ;
 await
