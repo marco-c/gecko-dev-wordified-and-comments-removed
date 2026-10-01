@@ -359,7 +359,7 @@ extend
 Headers
 :
 :
-try_from
+from
 (
 self
 .
@@ -368,7 +368,6 @@ fetch_preflight
 )
 ?
 )
-?
 )
 ;
 }
@@ -699,7 +698,7 @@ extend
 Headers
 :
 :
-try_from
+from
 (
 self
 .
@@ -708,7 +707,6 @@ fetch_preflight
 )
 ?
 )
-?
 )
 ;
 }

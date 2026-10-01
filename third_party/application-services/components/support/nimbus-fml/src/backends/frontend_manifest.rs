@@ -212,14 +212,6 @@ Default
 default
 (
 )
-no_lint
-:
-Default
-:
-:
-default
-(
-)
 features
 legacy_types
 :

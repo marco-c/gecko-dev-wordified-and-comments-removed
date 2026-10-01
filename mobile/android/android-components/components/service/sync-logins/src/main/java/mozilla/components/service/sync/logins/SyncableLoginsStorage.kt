@@ -749,7 +749,7 @@ mozilla
 .
 appservices
 .
-db_crypto
+logins
 .
 KeyManager
 {

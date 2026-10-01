@@ -281,16 +281,6 @@ project
 sync15
 '
 )
-api
-project
-(
-'
-:
-db
--
-crypto
-'
-)
 implementation
 project
 (

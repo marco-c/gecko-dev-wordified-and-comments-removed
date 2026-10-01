@@ -388,16 +388,6 @@ crate
 logged_out_from_auth_issues
 :
 bool
-pub
-(
-crate
-)
-last_auth_check_time
-:
-Option
-<
-u64
->
 }
 #
 [

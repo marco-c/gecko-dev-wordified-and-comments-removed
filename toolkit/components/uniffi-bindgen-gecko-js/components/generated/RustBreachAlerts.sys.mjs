@@ -1709,7 +1709,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-101
+88
 /
 /
 uniffi_breach_alerts_fn_constructor_breachalertsstore_new_store
@@ -1762,7 +1762,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-102
+89
 /
 /
 uniffi_breach_alerts_fn_method_breachalertsstore_clear_all_breach_alert_dismissals
@@ -1831,7 +1831,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-103
+90
 /
 /
 uniffi_breach_alerts_fn_method_breachalertsstore_clear_breach_alert_dismissals
@@ -1888,7 +1888,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-104
+91
 /
 /
 uniffi_breach_alerts_fn_method_breachalertsstore_close
@@ -1970,7 +1970,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-105
+92
 /
 /
 uniffi_breach_alerts_fn_method_breachalertsstore_get_breach_alert_dismissals
@@ -2047,7 +2047,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-106
+93
 /
 /
 uniffi_breach_alerts_fn_method_breachalertsstore_set_breach_alert_dismissals
@@ -2219,7 +2219,7 @@ dataStream
 .
 readPointer
 (
-4
+5
 )
 )
 ;
@@ -2235,7 +2235,7 @@ dataStream
 .
 writePointer
 (
-4
+5
 this
 .
 lower

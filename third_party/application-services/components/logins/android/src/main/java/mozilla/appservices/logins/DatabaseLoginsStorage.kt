@@ -140,14 +140,6 @@ updates
 import
 mozilla
 .
-appservices
-.
-db_crypto
-.
-KeyManager
-import
-mozilla
-.
 telemetry
 .
 glean
