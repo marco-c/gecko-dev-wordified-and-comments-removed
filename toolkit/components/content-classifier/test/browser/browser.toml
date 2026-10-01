@@ -57,6 +57,13 @@ js
 ]
 [
 "
+browser_content_classifier_memory_reporter
+.
+js
+"
+]
+[
+"
 browser_content_classifier_pref_mirror
 .
 js
