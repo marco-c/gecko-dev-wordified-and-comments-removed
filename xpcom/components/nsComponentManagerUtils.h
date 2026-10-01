@@ -254,7 +254,7 @@ nsresult
 *
 aError
 =
-0
+nullptr
 )
 {
 return
@@ -278,7 +278,7 @@ nsresult
 *
 aError
 =
-0
+nullptr
 )
 {
 return
@@ -301,7 +301,7 @@ nsresult
 *
 aError
 =
-0
+nullptr
 )
 {
 return

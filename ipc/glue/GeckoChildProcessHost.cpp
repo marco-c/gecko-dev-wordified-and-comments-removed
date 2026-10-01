@@ -406,6 +406,13 @@ h
 #
 include
 "
+nsCharSeparatedTokenizer
+.
+h
+"
+#
+include
+"
 nsDirectoryService
 .
 h

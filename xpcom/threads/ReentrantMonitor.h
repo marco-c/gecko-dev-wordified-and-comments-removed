@@ -159,7 +159,7 @@ mReentrantMonitor
 ;
 mReentrantMonitor
 =
-0
+nullptr
 ;
 MOZ_COUNT_DTOR
 (

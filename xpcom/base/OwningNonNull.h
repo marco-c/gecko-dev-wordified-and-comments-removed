@@ -539,7 +539,10 @@ mPtr
 std
 :
 :
-move
+forward
+<
+U
+>
 (
 aValue
 )

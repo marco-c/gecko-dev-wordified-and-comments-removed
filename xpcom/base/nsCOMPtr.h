@@ -62,6 +62,13 @@ h
 #
 include
 "
+nsISupportsImpl
+.
+h
+"
+#
+include
+"
 nsISupportsUtils
 .
 h
