@@ -505,10 +505,10 @@ True
 CFLAGS
 +
 =
+CONFIG
 [
 '
--
-mlsx
+LSX_FLAGS
 '
 ]
 SOURCES
