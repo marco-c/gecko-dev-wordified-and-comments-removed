@@ -504,12 +504,6 @@ toolchain
 -
 linux64
 -
-cctools
--
-port
--
-linux64
--
 clang
 -
 linux64
@@ -565,12 +559,6 @@ fetches
 :
 toolchain
 :
--
-linux64
--
-cctools
--
-port
 -
 linux64
 -
