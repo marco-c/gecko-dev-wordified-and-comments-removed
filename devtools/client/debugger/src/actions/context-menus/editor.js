@@ -425,6 +425,11 @@ dispatch
 endColumn
 }
 )
+{
+accesskeyConflictsBug
+:
+2073896
+}
 )
 ;
 }
@@ -544,6 +549,11 @@ lineText
 length
 )
 ]
+{
+accesskeyConflictsBug
+:
+2073896
+}
 )
 ;
 }

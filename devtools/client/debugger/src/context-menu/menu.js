@@ -50,6 +50,12 @@ showMenu
 (
 evt
 items
+{
+accesskeyConflictsBug
+}
+=
+{
+}
 )
 {
 if
@@ -72,6 +78,9 @@ menu
 new
 Menu
 (
+{
+accesskeyConflictsBug
+}
 )
 ;
 items
@@ -123,6 +132,7 @@ createSubMenu
 item
 .
 submenu
+accesskeyConflictsBug
 )
 ;
 menu
@@ -157,6 +167,7 @@ function
 createSubMenu
 (
 subItems
+accesskeyConflictsBug
 )
 {
 if
@@ -170,6 +181,9 @@ subMenu
 new
 Menu
 (
+{
+accesskeyConflictsBug
+}
 )
 ;
 subItems

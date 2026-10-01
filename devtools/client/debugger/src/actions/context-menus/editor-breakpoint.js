@@ -377,6 +377,11 @@ showMenu
 (
 event
 items
+{
+accesskeyConflictsBug
+:
+2073896
+}
 )
 ;
 }
@@ -415,6 +420,11 @@ showMenu
 (
 event
 items
+{
+accesskeyConflictsBug
+:
+2073896
+}
 )
 ;
 }

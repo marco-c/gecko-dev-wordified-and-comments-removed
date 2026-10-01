@@ -76,6 +76,13 @@ menu
 new
 Menu
 (
+{
+accesskeyConflictsBug
+:
+options
+.
+accesskeyConflictsBug
+}
 )
 ;
 items
@@ -134,6 +141,13 @@ subMenu
 new
 Menu
 (
+{
+accesskeyConflictsBug
+:
+options
+.
+accesskeyConflictsBug
+}
 )
 ;
 subItems

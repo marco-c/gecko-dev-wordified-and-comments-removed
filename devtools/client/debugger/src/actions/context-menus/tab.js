@@ -607,6 +607,11 @@ buildMenu
 (
 items
 )
+{
+accesskeyConflictsBug
+:
+2073896
+}
 )
 ;
 }

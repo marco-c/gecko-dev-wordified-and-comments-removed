@@ -335,6 +335,11 @@ label
 Normal
 Item
 "
+accesskey
+:
+"
+n
+"
 click
 :
 (
@@ -372,6 +377,11 @@ label
 Checked
 Item
 "
+accesskey
+:
+"
+c
+"
 type
 :
 "
@@ -392,6 +402,11 @@ label
 Radio
 Item
 "
+accesskey
+:
+"
+r
+"
 type
 :
 "
@@ -408,6 +423,11 @@ label
 "
 Disabled
 Item
+"
+accesskey
+:
+"
+d
 "
 disabled
 :
