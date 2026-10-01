@@ -73,6 +73,15 @@ py
 "
 action
 /
+test_nsis_build
+.
+py
+"
+]
+[
+"
+action
+/
 test_nsis_stage
 .
 py
