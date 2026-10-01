@@ -1159,6 +1159,11 @@ InitVulkanDecoder
 )
 ;
 bool
+VulkanDirectDecodeExportEnabled
+(
+)
+;
+bool
 CreateVulkanDeviceContext
 (
 const
