@@ -281,6 +281,11 @@ UNIFIED_SOURCES
 =
 [
 "
+ConnectionAllowlists
+.
+cpp
+"
+"
 ConnectionAllowlistsService
 .
 cpp
