@@ -107,7 +107,7 @@ junit
 .
 Test
 class
-ClientUUIDTest
+ClientUuidTest
 {
 Test
 fun
@@ -134,7 +134,7 @@ FakeSharedPreferences
 val
 first
 =
-PrefsBackedClientUUID
+PrefsBackedClientUuid
 (
 {
 prefs
@@ -190,7 +190,7 @@ getUserId
 val
 second
 =
-PrefsBackedClientUUID
+PrefsBackedClientUuid
 (
 {
 prefs
@@ -270,7 +270,7 @@ FakeSharedPreferences
 val
 clientUUID
 =
-PrefsBackedClientUUID
+PrefsBackedClientUuid
 (
 getPrefs
 =
