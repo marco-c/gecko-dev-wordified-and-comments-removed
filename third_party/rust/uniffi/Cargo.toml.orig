@@ -118,7 +118,7 @@ version
 .
 32
 .
-0
+2
 "
 license
 =
@@ -176,7 +176,7 @@ version
 .
 32
 .
-0
+2
 "
 default
 -
@@ -206,7 +206,7 @@ version
 .
 32
 .
-0
+2
 "
 optional
 =
@@ -231,7 +231,7 @@ version
 .
 32
 .
-0
+2
 "
 }
 uniffi_macros
@@ -253,7 +253,7 @@ version
 .
 32
 .
-0
+2
 "
 }
 uniffi_pipeline
@@ -275,7 +275,7 @@ version
 .
 32
 .
-0
+2
 "
 }
 anyhow
