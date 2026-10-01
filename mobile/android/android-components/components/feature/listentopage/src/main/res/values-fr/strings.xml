@@ -741,8 +741,10 @@ name
 mozac_feature_listentopage_back_10_sec
 "
 >
+Revenir
 10
-secondes
+\
+u00a0secondes
 en
 arri
 re
@@ -831,7 +833,9 @@ name
 mozac_feature_listentopage_pause
 "
 >
-Pause
+Mettre
+en
+pause
 <
 /
 string

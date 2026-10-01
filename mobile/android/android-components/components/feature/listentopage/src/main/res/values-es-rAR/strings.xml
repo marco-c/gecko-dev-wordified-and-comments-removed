@@ -517,7 +517,7 @@ name
 mozac_feature_listentopage_notification_playback_speed_1_5
 "
 >
-Tasa
+Velocidad
 de
 reproducci
 n
@@ -624,7 +624,7 @@ mozac_feature_listentopage_notification_playback_speed_2
 >
 Reproducci
 n
-configurada
+establecida
 al
 doble
 de
@@ -739,8 +739,7 @@ name
 mozac_feature_listentopage_back_10_sec
 "
 >
-Atr
-s
+Retroceder
 10
 segundos
 <

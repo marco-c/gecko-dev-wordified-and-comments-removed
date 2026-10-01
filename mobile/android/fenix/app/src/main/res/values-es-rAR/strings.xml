@@ -13689,7 +13689,8 @@ name
 preferences_category_sync_controls
 "
 >
-Sync
+Sincronizaci
+n
 <
 /
 string
@@ -19766,6 +19767,7 @@ preferences_sync_category_no_engine_selected_summary
 "
 >
 No
+se
 est
 sincronizando
 nada
