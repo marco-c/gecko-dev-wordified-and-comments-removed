@@ -317,15 +317,6 @@ UI
 label
 .
 *
-Has
-a
-value
-and
-an
-accesskey
-attribute
-.
-*
 /
 /
 *
@@ -3156,7 +3147,7 @@ urlbar
 -
 searchmode
 -
-bookmarks3
+bookmarks4
 "
 }
 {
@@ -3210,7 +3201,7 @@ urlbar
 -
 searchmode
 -
-tabs3
+tabs4
 "
 }
 {
@@ -3262,7 +3253,7 @@ urlbar
 -
 searchmode
 -
-history3
+history4
 "
 }
 {
@@ -3316,7 +3307,7 @@ urlbar
 -
 searchmode
 -
-actions3
+actions4
 "
 }
 ]
