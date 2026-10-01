@@ -10213,6 +10213,7 @@ dest
 DEFINED_ON
 (
 arm64
+loong64
 )
 ;
 inline
@@ -10245,6 +10246,7 @@ dest
 DEFINED_ON
 (
 arm64
+loong64
 )
 ;
 inline
@@ -10765,6 +10767,7 @@ dest
 DEFINED_ON
 (
 arm64
+loong64
 )
 ;
 inline
@@ -10995,6 +10998,7 @@ dest
 DEFINED_ON
 (
 arm64
+loong64
 )
 ;
 inline
@@ -11093,6 +11097,7 @@ shift
 DEFINED_ON
 (
 arm64
+loong64
 )
 ;
 inline
@@ -11727,6 +11732,22 @@ temp2
 DEFINED_ON
 (
 arm64
+)
+;
+inline
+void
+mulInt64x2
+(
+FloatRegister
+lhs
+FloatRegister
+rhs
+FloatRegister
+dest
+)
+DEFINED_ON
+(
+loong64
 )
 ;
 inline
@@ -13685,6 +13706,7 @@ lhsDest
 DEFINED_ON
 (
 arm64
+loong64
 )
 ;
 inline
@@ -13753,6 +13775,7 @@ maskDest
 DEFINED_ON
 (
 arm64
+loong64
 )
 ;
 inline
@@ -13783,6 +13806,7 @@ dest
 DEFINED_ON
 (
 arm64
+loong64
 )
 ;
 inline
@@ -13877,6 +13901,7 @@ dest
 DEFINED_ON
 (
 x86_shared
+loong64
 )
 ;
 inline
@@ -13907,6 +13932,7 @@ dest
 DEFINED_ON
 (
 x86_shared
+loong64
 )
 ;
 inline
@@ -13937,6 +13963,7 @@ dest
 DEFINED_ON
 (
 x86_shared
+loong64
 )
 ;
 inline
@@ -13967,6 +13994,7 @@ dest
 DEFINED_ON
 (
 x86_shared
+loong64
 )
 ;
 inline
@@ -14249,6 +14277,7 @@ lhsDest
 DEFINED_ON
 (
 arm64
+loong64
 )
 ;
 inline
@@ -14270,6 +14299,7 @@ dest
 DEFINED_ON
 (
 arm64
+loong64
 )
 ;
 inline
@@ -14590,6 +14620,7 @@ lhsDest
 DEFINED_ON
 (
 arm64
+loong64
 )
 ;
 inline
@@ -14606,6 +14637,7 @@ dest
 DEFINED_ON
 (
 arm64
+loong64
 )
 ;
 inline
@@ -14640,6 +14672,7 @@ lhsDest
 DEFINED_ON
 (
 arm64
+loong64
 )
 ;
 inline
@@ -14656,6 +14689,7 @@ dest
 DEFINED_ON
 (
 arm64
+loong64
 )
 ;
 inline
@@ -14690,6 +14724,7 @@ lhsDest
 DEFINED_ON
 (
 arm64
+loong64
 )
 ;
 inline
@@ -14706,6 +14741,7 @@ dest
 DEFINED_ON
 (
 arm64
+loong64
 )
 ;
 inline
@@ -14740,6 +14776,7 @@ lhsDest
 DEFINED_ON
 (
 arm64
+loong64
 )
 ;
 inline
@@ -14756,6 +14793,7 @@ dest
 DEFINED_ON
 (
 arm64
+loong64
 )
 ;
 inline
@@ -15219,6 +15257,21 @@ DEFINED_ON
 (
 x86_shared
 arm64
+)
+;
+inline
+void
+truncSatFloat32x4ToInt32x4
+(
+FloatRegister
+src
+FloatRegister
+dest
+FloatRegister
+temp
+)
+DEFINED_ON
+(
 loong64
 )
 ;
@@ -15250,6 +15303,7 @@ dest
 DEFINED_ON
 (
 arm64
+loong64
 )
 ;
 inline
@@ -15942,6 +15996,7 @@ temp
 DEFINED_ON
 (
 arm64
+loong64
 )
 ;
 inline
