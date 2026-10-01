@@ -1409,6 +1409,9 @@ ImageLayerAttachment
 "
 FloatEdge
 "
+"
+TopLayer
+"
 ]
 item_types
 =
