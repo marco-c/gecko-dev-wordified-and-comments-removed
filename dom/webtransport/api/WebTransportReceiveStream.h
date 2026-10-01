@@ -122,16 +122,7 @@ WebTransportReceiveStream
 (
 )
 override
-{
-mozilla
-:
-:
-DropJSObjects
-(
-this
-)
 ;
-}
 RefPtr
 <
 WebTransport
