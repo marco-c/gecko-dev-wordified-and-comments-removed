@@ -234,6 +234,13 @@ js
 ]
 [
 "
+browser_sync_device_view_all_tabs_telemetry
+.
+js
+"
+]
+[
+"
 browser_synced_tabs_view
 .
 js
