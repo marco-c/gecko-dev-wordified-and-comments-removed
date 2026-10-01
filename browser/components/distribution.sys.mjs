@@ -310,11 +310,12 @@ loadFromProfile
 {
 iniFile
 .
-leafName
-=
+append
+(
 "
 distribution
 "
+)
 ;
 }
 iniFile
