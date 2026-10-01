@@ -1365,7 +1365,11 @@ lhs
 0
 &
 &
+(
 rhs
+&
+shiftMask
+)
 =
 =
 0
