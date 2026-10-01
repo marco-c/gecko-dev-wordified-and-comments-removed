@@ -415,7 +415,7 @@ result
 await
 GetPageContent
 .
-getPageContentText
+getPageContent
 (
 toolParams
 conversation
