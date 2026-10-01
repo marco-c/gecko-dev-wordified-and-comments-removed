@@ -31572,9 +31572,6 @@ return
 result
 ;
 }
-#
-ifdef
-NIGHTLY_BUILD
 static
 bool
 SafeResolvePromise
@@ -31756,8 +31753,6 @@ resolution
 )
 ;
 }
-#
-endif
 static
 bool
 RejectPromise
@@ -65737,9 +65732,6 @@ ResolvePromise
 .
 "
 )
-#
-ifdef
-NIGHTLY_BUILD
 JS_FN_HELP
 (
 "
@@ -65791,8 +65783,6 @@ proposal
 .
 "
 )
-#
-endif
 JS_FN_HELP
 (
 "
