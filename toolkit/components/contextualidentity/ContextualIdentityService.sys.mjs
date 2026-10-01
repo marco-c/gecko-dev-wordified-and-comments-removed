@@ -1346,7 +1346,7 @@ user
 -
 context
 -
-personal2
+personal
 "
 }
 {
@@ -1367,7 +1367,7 @@ user
 -
 context
 -
-work2
+work
 "
 }
 {
@@ -1388,7 +1388,7 @@ user
 -
 context
 -
-banking2
+banking
 "
 }
 {
@@ -1409,7 +1409,7 @@ user
 -
 context
 -
-shopping2
+shopping
 "
 }
 ]
@@ -5845,7 +5845,7 @@ user
 -
 context
 -
-personal2
+personal
 "
 ;
 break
@@ -5866,7 +5866,7 @@ user
 -
 context
 -
-work2
+work
 "
 ;
 break
@@ -5887,7 +5887,7 @@ user
 -
 context
 -
-banking2
+banking
 "
 ;
 break
@@ -5908,7 +5908,7 @@ user
 -
 context
 -
-shopping2
+shopping
 "
 ;
 break
