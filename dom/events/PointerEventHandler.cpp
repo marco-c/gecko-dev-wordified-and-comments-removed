@@ -5495,6 +5495,14 @@ aSourceEvent
 ;
 aCoalescedEvent
 .
+mMovement
+=
+aSourceEvent
+.
+mMovement
+;
+aCoalescedEvent
+.
 mWidth
 =
 aSourceEvent
