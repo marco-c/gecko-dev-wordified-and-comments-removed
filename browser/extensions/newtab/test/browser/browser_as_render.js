@@ -35,6 +35,13 @@ false
 }
 )
 ;
+NewTabPagePreloading
+.
+removePreloadedBrowser
+(
+window
+)
+;
 }
 )
 ;
