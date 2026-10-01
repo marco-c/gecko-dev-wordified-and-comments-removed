@@ -559,6 +559,13 @@ py
 ]
 [
 "
+test_nsis
+.
+py
+"
+]
+[
+"
 test_packaging
 .
 py
