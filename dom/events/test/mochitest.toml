@@ -2564,6 +2564,13 @@ supported
 ]
 [
 "
+test_datatransfer_internal_types
+.
+html
+"
+]
+[
+"
 test_dblclick_explicit_original_target
 .
 html
