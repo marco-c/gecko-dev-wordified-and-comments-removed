@@ -247,6 +247,16 @@ browser
 .
 smartwindow
 .
+enabled
+"
+true
+]
+[
+"
+browser
+.
+smartwindow
+.
 agent
 .
 enabled
