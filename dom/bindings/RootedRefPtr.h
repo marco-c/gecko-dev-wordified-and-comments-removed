@@ -18,6 +18,15 @@ include
 "
 js
 /
+RootingAPI
+.
+h
+"
+#
+include
+"
+js
+/
 TypeDecls
 .
 h
