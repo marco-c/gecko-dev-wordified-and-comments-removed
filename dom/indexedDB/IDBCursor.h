@@ -1171,6 +1171,15 @@ IsSourceDeleted
 )
 const
 ;
+bool
+CheckContinueState
+(
+ErrorResult
+&
+aRv
+)
+const
+;
 protected
 :
 virtual
