@@ -1529,6 +1529,9 @@ WindowShadow
 "
 FieldSizing
 "
+"
+BoxAlign
+"
 ]
 item_types
 =
