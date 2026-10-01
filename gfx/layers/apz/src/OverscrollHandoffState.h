@@ -222,6 +222,12 @@ HasAutoscrollApzc
 )
 const
 ;
+bool
+HasAnimatingApzc
+(
+)
+const
+;
 enum
 class
 IncludeOverscroll
