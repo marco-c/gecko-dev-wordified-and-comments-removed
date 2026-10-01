@@ -109,6 +109,15 @@ include
 "
 mozilla
 /
+Encoding
+.
+h
+"
+#
+include
+"
+mozilla
+/
 MaybeOneOf
 .
 h
@@ -1202,6 +1211,10 @@ ParserMetadata
 aParserMetadata
 ScriptLoadRequestType
 aRequestType
+const
+Encoding
+*
+aClassicScriptPreloadHintEncoding
 )
 ;
 void
@@ -2668,9 +2681,6 @@ RefPtr
 ScriptLoadRequest
 >
 mRequest
-;
-nsString
-mCharset
 ;
 }
 ;
