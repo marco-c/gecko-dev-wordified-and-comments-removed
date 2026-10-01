@@ -80,6 +80,12 @@ permissions
 :
 [
 "
+geckoViewAddons
+"
+"
+nativeMessaging
+"
+"
 tabs
 "
 ]
