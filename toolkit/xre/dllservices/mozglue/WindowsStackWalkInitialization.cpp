@@ -239,8 +239,6 @@ InitializeStackWalkLocks
 stackWalkLocks
 )
 ;
-return
-;
 }
 }
 NtDllIntercept
