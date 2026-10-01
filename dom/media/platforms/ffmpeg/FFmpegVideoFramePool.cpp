@@ -1151,10 +1151,6 @@ LIBAV_VER
 :
 GetFFmpegVideoFrameSurfaceLocked
 (
-const
-MutexAutoLock
-&
-aProofOfLock
 VASurfaceID
 aFFMPEGSurfaceID
 )
@@ -1241,10 +1237,6 @@ LIBAV_VER
 :
 GetFreeVideoFrameSurfaceLocked
 (
-const
-MutexAutoLock
-&
-aProofOfLock
 )
 {
 for
@@ -1561,10 +1553,6 @@ LIBAV_VER
 :
 GetTargetVideoFrameSurfaceLocked
 (
-const
-MutexAutoLock
-&
-aProofOfLock
 VASurfaceID
 aFFmpegSurfaceID
 bool
@@ -1596,7 +1584,6 @@ videoSurface
 =
 GetFreeVideoFrameSurfaceLocked
 (
-aProofOfLock
 )
 ;
 }
@@ -1621,7 +1608,6 @@ videoSurface
 =
 GetFFmpegVideoFrameSurfaceLocked
 (
-aProofOfLock
 aFFmpegSurfaceID
 )
 ;
@@ -1882,7 +1868,6 @@ videoSurface
 =
 GetTargetVideoFrameSurfaceLocked
 (
-lock
 ffmpegSurfaceID
 !
 copySurface
@@ -1947,7 +1932,6 @@ videoSurface
 =
 GetTargetVideoFrameSurfaceLocked
 (
-lock
 ffmpegSurfaceID
 true
 )
@@ -2216,7 +2200,6 @@ videoSurface
 =
 GetTargetVideoFrameSurfaceLocked
 (
-lock
 sInvalidFFMPEGSurfaceID
 false
 )
@@ -4096,7 +4079,6 @@ videoSurface
 =
 GetTargetVideoFrameSurfaceLocked
 (
-lock
 sInvalidFFMPEGSurfaceID
 false
 )
