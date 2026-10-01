@@ -9345,11 +9345,6 @@ mOldLinkHandlingEnabled
 false
 ;
 bool
-mHasBeforeInputBeenCanceled
-=
-false
-;
-bool
 mHasFocus
 =
 false

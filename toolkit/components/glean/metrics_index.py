@@ -335,16 +335,6 @@ yaml
 "
     
 "
-editor
-/
-libeditor
-/
-metrics
-.
-yaml
-"
-    
-"
 extensions
 /
 permissions
