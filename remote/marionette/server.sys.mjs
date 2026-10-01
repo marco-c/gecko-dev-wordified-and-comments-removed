@@ -620,6 +620,9 @@ interval
 timeout
 :
 5000
+throws
+:
+null
 }
 )
 ;

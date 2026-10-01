@@ -1824,6 +1824,9 @@ reject
 timeout
 :
 100
+throws
+:
+null
 }
 )
 ;
