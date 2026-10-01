@@ -106,12 +106,6 @@ not
 just
 scales
 )
-fails
--
-if
-(
-useDrawSnapshot
-)
 =
 =
 test
@@ -497,12 +491,6 @@ html
 about
 :
 blank
-fails
--
-if
-(
-useDrawSnapshot
-)
 =
 =
 zoom

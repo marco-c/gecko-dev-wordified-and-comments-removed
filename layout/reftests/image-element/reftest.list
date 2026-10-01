@@ -567,10 +567,6 @@ if
 (
 !
 Android
-&
-&
-!
-useDrawSnapshot
 )
 =
 =
@@ -660,12 +656,6 @@ fuzzy
 -
 326
 )
-fails
--
-if
-(
-useDrawSnapshot
-)
 =
 =
 element
@@ -751,12 +741,6 @@ sharpness
 02b
 .
 html
-fails
--
-if
-(
-useDrawSnapshot
-)
 =
 =
 element

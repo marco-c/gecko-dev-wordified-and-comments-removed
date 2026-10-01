@@ -920,12 +920,6 @@ fuzzy
 -
 2650
 )
-fails
--
-if
-(
-useDrawSnapshot
-)
 =
 =
 border

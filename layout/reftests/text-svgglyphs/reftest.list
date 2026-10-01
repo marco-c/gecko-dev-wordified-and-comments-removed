@@ -658,12 +658,6 @@ Android
 &
 isDebugBuild
 )
-fails
--
-if
-(
-useDrawSnapshot
-)
 !
 =
 svg

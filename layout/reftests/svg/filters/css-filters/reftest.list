@@ -246,12 +246,6 @@ radius
 ref
 .
 html
-fails
--
-if
-(
-useDrawSnapshot
-)
 fuzzy
 -
 if

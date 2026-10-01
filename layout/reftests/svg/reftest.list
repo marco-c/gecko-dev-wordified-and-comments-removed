@@ -5220,12 +5220,6 @@ Android
 -
 4104
 )
-fails
--
-if
-(
-useDrawSnapshot
-)
 =
 =
 non
@@ -6861,12 +6855,6 @@ svg
 pass
 .
 svg
-fails
--
-if
-(
-useDrawSnapshot
-)
 =
 =
 stroke

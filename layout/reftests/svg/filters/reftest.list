@@ -1950,12 +1950,6 @@ region
 ref
 .
 svg
-fails
--
-if
-(
-useDrawSnapshot
-)
 =
 =
 fePointLight
@@ -1974,12 +1968,6 @@ page
 ref
 .
 svg
-fails
--
-if
-(
-useDrawSnapshot
-)
 =
 =
 feSpotLight
