@@ -525,6 +525,7 @@ SuicideManager
 System
 Proxy
 TelemetryModule
+TextGenerator
 Timer
 ToastBgThread
 TRR
