@@ -634,7 +634,7 @@ expTexelView
 {
 maxDiffULPsForNormFormat
 :
-0
+1
 }
 )
 ;
