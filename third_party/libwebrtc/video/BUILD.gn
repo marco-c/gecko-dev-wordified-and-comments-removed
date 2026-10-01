@@ -12860,6 +12860,16 @@ modules
 /
 video_coding
 :
+codec_globals_headers
+"
+"
+.
+.
+/
+modules
+/
+video_coding
+:
 nack_requester
 "
 "
