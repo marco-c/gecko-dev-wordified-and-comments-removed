@@ -12238,16 +12238,6 @@ mRedirectionLimit
 ;
 openArgs
 .
-allowSTS
-(
-)
-=
-LoadAllowSTS
-(
-)
-;
-openArgs
-.
 thirdPartyFlags
 (
 )

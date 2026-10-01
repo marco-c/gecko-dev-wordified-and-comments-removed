@@ -2799,9 +2799,6 @@ bool
 uploadStreamIsStreaming
 ;
 bool
-allowSTS
-;
-bool
 resumeAt
 ;
 bool

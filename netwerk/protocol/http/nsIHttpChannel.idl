@@ -1545,7 +1545,14 @@ may
 only
 be
 set
+in
+the
+parent
+process
+and
+only
 before
+*
 the
 channel
 is
