@@ -123,3 +123,10 @@ test_telemetry_instrumentation
 py
 "
 ]
+[
+"
+test_util
+.
+py
+"
+]
