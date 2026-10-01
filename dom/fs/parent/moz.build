@@ -85,6 +85,11 @@ FileSystemAccessHandleParent
 h
 "
 "
+FileSystemCipherKeyManager
+.
+h
+"
+"
 FileSystemManagerParent
 .
 h
