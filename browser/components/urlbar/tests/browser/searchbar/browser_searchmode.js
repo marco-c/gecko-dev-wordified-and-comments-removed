@@ -178,7 +178,6 @@ source
 }
 )
 ;
-await
 SearchbarTestUtils
 .
 exitSearchMode
