@@ -3336,9 +3336,6 @@ prim_info
 clip_chain
 .
 pic_coverage_rect
-frame_context
-.
-spatial_tree
 )
 ;
 should_cache
@@ -3873,9 +3870,6 @@ prim_info
 clip_chain
 .
 pic_coverage_rect
-frame_context
-.
-spatial_tree
 )
 ;
 should_cache
@@ -4765,9 +4759,6 @@ prim_info
 clip_chain
 .
 pic_coverage_rect
-frame_context
-.
-spatial_tree
 )
 ;
 frame_state
@@ -5044,9 +5035,6 @@ draw_index
 clip_chain
 .
 pic_coverage_rect
-frame_context
-.
-spatial_tree
 )
 {
 Some
