@@ -20774,6 +20774,16 @@ createLazyBrowser
 aTab
 )
 ;
+this
+.
+_switcher
+?
+.
+onTabDiscarded
+(
+aTab
+)
+;
 let
 evt
 =

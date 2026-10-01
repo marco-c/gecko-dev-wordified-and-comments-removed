@@ -4558,6 +4558,13 @@ Bug
 ]
 [
 "
+browser_tabswitch_discard
+.
+js
+"
+]
+[
+"
 browser_tabswitch_select
 .
 js
