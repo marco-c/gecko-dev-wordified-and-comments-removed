@@ -131,6 +131,8 @@ NrIceMediaStream
 stream
 int
 component
+uint32_t
+dtls_id
 MediaPacket
 &
 packet
@@ -174,6 +176,9 @@ stream_
 ;
 int
 component_
+;
+uint32_t
+dtls_id_
 ;
 }
 ;

@@ -98,6 +98,10 @@ component_
 (
 0
 )
+dtls_id_
+(
+0
+)
 {
 }
 TransportLayerIce
@@ -160,6 +164,15 @@ PostSetup
 (
 )
 {
+dtls_id_
+=
+stream_
+-
+>
+GetDtlsId
+(
+)
+;
 stream_
 -
 >
@@ -262,6 +275,7 @@ packet
 len
 (
 )
+dtls_id_
 )
 ;
 int
@@ -489,6 +503,8 @@ NrIceMediaStream
 stream
 int
 component
+uint32_t
+dtls_id
 MediaPacket
 &
 packet
@@ -504,6 +520,12 @@ component_
 !
 =
 component
+|
+|
+dtls_id_
+!
+=
+dtls_id
 )
 return
 ;
