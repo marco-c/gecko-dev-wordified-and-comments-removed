@@ -20,6 +20,8 @@ start
 (
 )
 {
+try
+{
 for
 (
 let
@@ -116,6 +118,9 @@ stop
 )
 ;
 }
+}
+finally
+{
 document
 .
 documentElement
@@ -126,6 +131,7 @@ removeAttribute
 class
 "
 )
+}
 }
 document
 .

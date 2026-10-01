@@ -38,9 +38,8 @@ notifyUserGestureActivation
 (
 )
 ;
-const
-stream
-=
+try
+{
 await
 navigator
 .
@@ -64,6 +63,9 @@ height
 }
 )
 ;
+}
+finally
+{
 document
 .
 documentElement
@@ -75,6 +77,7 @@ class
 "
 )
 ;
+}
 }
 )
 <
