@@ -266,6 +266,14 @@ True
 DEFINES
 [
 "
+WEBRTC_WITHOUT_RUST
+"
+]
+=
+True
+DEFINES
+[
+"
 WIN32
 "
 ]

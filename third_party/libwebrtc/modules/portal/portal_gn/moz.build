@@ -397,6 +397,14 @@ True
 DEFINES
 [
 "
+WEBRTC_WITHOUT_RUST
+"
+]
+=
+True
+DEFINES
+[
+"
 _FILE_OFFSET_BITS
 "
 ]
