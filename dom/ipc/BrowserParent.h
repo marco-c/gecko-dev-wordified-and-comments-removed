@@ -371,6 +371,8 @@ const
 TabId
 &
 aTabId
+uint64_t
+aRootOuterWindowId
 const
 TabContext
 &
@@ -3826,6 +3828,9 @@ private
 :
 TabId
 mTabId
+;
+uint64_t
+mRootOuterWindowId
 ;
 RefPtr
 <
