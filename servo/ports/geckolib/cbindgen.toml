@@ -1457,6 +1457,9 @@ StrokeLinecap
 "
 StrokeLinejoin
 "
+"
+BorderCollapse
+"
 ]
 item_types
 =

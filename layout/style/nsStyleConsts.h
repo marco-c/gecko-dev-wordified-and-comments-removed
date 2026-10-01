@@ -203,16 +203,6 @@ MatchSource
 ;
 enum
 class
-StyleBorderCollapse
-:
-uint8_t
-{
-Collapse
-Separate
-}
-;
-enum
-class
 StyleDirection
 :
 uint8_t
