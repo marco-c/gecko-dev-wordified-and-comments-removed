@@ -3026,9 +3026,14 @@ params
 .
 inputData
 .
-getStringArray
+getNullableStringArray
 (
 KEY_DATA_STORES
+)
+?
+.
+filterNotNull
+(
 )
 ?
 .
