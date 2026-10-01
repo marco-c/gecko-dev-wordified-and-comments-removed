@@ -70,14 +70,6 @@ mozharness
 .
 base
 .
-python
-import
-Python3Virtualenv
-from
-mozharness
-.
-base
-.
 vcs
 .
 vcsbase
@@ -961,11 +953,9 @@ line
 class
 Talos
 (
-    
 TestingMixin
 MercurialScript
 TooltoolMixin
-Python3Virtualenv
 CodeCoverageMixin
 )
 :
