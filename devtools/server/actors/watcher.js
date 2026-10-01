@@ -1140,7 +1140,19 @@ attached
 return
 ;
 }
+const
+isTopLevelBrowsingContext
+=
+!
+subject
+.
+parent
+;
 if
+(
+isTopLevelBrowsingContext
+&
+&
 (
 this
 .
@@ -1173,6 +1185,7 @@ subject
 this
 .
 sessionContext
+)
 )
 )
 )
