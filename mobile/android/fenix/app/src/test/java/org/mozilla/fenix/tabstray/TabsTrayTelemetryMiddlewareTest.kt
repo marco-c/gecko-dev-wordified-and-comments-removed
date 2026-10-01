@@ -2383,7 +2383,7 @@ dispatch
 (
 TabGroupAction
 .
-TabAddedToGroup
+TabAddedToExistingTabGroup
 (
 tabId
 =

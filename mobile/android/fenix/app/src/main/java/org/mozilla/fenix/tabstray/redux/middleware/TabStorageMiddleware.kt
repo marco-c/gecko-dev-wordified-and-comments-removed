@@ -1296,7 +1296,7 @@ selectedTabGroupIds
 is
 TabGroupAction
 .
-TabAddedToGroup
+TabAddedToExistingTabGroup
 -
 >
 {

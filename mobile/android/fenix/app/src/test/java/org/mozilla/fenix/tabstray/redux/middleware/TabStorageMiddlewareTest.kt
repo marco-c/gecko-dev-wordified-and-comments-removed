@@ -6865,7 +6865,7 @@ dispatch
 (
 TabGroupAction
 .
-TabAddedToGroup
+TabAddedToExistingTabGroup
 (
 tabId
 =
@@ -10586,7 +10586,7 @@ dispatch
 (
 TabGroupAction
 .
-TabAddedToGroup
+TabAddedToExistingTabGroup
 (
 tabId
 =

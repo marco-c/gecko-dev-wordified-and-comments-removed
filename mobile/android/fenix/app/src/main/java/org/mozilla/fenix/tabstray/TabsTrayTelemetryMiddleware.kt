@@ -1242,7 +1242,7 @@ NoExtras
 is
 TabGroupAction
 .
-TabAddedToGroup
+TabAddedToExistingTabGroup
 is
 TabGroupAction
 .
@@ -1628,7 +1628,7 @@ action
 is
 TabGroupAction
 .
-TabAddedToGroup
+TabAddedToExistingTabGroup
 -
 >
 {

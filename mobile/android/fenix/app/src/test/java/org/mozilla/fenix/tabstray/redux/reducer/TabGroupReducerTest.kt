@@ -2620,7 +2620,7 @@ action
 =
 TabGroupAction
 .
-TabAddedToGroup
+TabAddedToExistingTabGroup
 (
 tabId
 =

@@ -903,7 +903,7 @@ into
 /
 data
 class
-TabAddedToGroup
+TabAddedToExistingTabGroup
 (
 val
 tabId

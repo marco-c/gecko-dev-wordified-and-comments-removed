@@ -441,7 +441,7 @@ group
 is
 TabGroupAction
 .
-TabAddedToGroup
+TabAddedToExistingTabGroup
 -
 >
 state
