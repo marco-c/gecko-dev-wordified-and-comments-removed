@@ -732,13 +732,6 @@ buildconfig
 html
 toolkit
 /
-content
-/
-license
-.
-html
-toolkit
-/
 mozapps
 /
 downloads
