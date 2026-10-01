@@ -67,6 +67,12 @@ mUseNative
 false
 }
 ;
+bool
+mAllowDefaultCredentials
+{
+false
+}
+;
 static
 StaticRefPtr
 <
