@@ -33496,6 +33496,11 @@ in
 -
 tree
 "
+env
+=
+"
+MOZ_APPSERVICES_IN_TREE
+"
 help
 =
 "
