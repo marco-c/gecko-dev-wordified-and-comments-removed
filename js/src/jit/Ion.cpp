@@ -3438,17 +3438,6 @@ shallowSizeOfExcludingThis
 mallocSizeOf
 )
 ;
-*
-jitZone
-+
-=
-ionCacheIRStubInfoSet_
-.
-shallowSizeOfExcludingThis
-(
-mallocSizeOf
-)
-;
 execAlloc
 (
 )
