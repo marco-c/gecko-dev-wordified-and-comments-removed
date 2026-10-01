@@ -275,7 +275,9 @@ size
 ;
 for
 (
+const
 auto
+&
 transceiver
 :
 transceivers_
@@ -320,7 +322,9 @@ sequence_checker_
 ;
 for
 (
+const
 auto
+&
 transceiver
 :
 transceivers_
@@ -370,7 +374,9 @@ sequence_checker_
 ;
 for
 (
+const
 auto
+&
 transceiver
 :
 transceivers_
@@ -417,7 +423,9 @@ sequence_checker_
 ;
 for
 (
+const
 auto
+&
 transceiver
 :
 transceivers_
