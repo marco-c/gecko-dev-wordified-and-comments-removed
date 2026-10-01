@@ -2688,12 +2688,15 @@ append
 html
 "
 <
-body
+html
 id
 =
 {
 DEFAULT_CONTENT_DOC_ID
 }
+>
+<
+body
 >
 )
 ;

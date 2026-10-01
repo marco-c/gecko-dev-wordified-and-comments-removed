@@ -39,12 +39,15 @@ encodeURIComponent
 (
 '
 <
-body
+html
 id
 =
 "
 uiaTestDoc
 "
+>
+<
+body
 >
 test
 '
