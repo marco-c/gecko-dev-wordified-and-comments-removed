@@ -860,6 +860,13 @@ js
 ]
 [
 "
+browser_vertical_tabs_restore_last_window
+.
+js
+"
+]
+[
+"
 browser_vertical_tabs_stacking_context
 .
 js
