@@ -786,7 +786,13 @@ document
 .
 fonts
 .
-ready
+load
+(
+'
+30px
+test
+'
+)
 .
 then
 (

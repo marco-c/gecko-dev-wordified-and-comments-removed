@@ -448,7 +448,13 @@ document
 .
 fonts
 .
-ready
+load
+(
+'
+25px
+test
+'
+)
 .
 then
 (
