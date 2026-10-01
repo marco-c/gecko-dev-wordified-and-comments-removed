@@ -909,11 +909,6 @@ launch
 val
 providerList
 =
-withContext
-(
-ioDispatcher
-)
-{
 SerpTelemetryRepository
 (
 collectionName
@@ -931,7 +926,6 @@ remoteSettingsService
 updateProviderList
 (
 )
-}
 installSearchTelemetryExtensions
 (
 components
