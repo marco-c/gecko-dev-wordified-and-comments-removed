@@ -21,7 +21,7 @@ policies
 DisableAppUpdate
 :
 null
-DisableTelemetry
+DisableSystemAddonUpdate
 :
 true
 }
@@ -61,7 +61,7 @@ getActivePolicies
 ok
 (
 "
-DisableTelemetry
+DisableSystemAddonUpdate
 "
 in
 activePolicies
