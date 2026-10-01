@@ -95,6 +95,13 @@ sys
 mjs
 "
 "
+PushNotificationHelperRegistry
+.
+sys
+.
+mjs
+"
+"
 WindowsPushNotificationHelper
 .
 sys
