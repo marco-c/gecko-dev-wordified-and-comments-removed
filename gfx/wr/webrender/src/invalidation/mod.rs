@@ -291,7 +291,6 @@ NoTexture
 NoSurface
 PrimCount
 Content
-CompositorKindChanged
 ValidRectChanged
 ScaleChanged
 SurfaceContentChanged

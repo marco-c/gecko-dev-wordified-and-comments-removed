@@ -246,14 +246,6 @@ GLContext
 namespace
 wr
 {
-#
-define
-VIRTUAL_SURFACE_SIZE
-(
-1024
-*
-1024
-)
 class
 DCLayerSurface
 ;
