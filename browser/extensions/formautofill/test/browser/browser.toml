@@ -173,13 +173,6 @@ fixtures
 ]
 [
 "
-browser_address_migration
-.
-js
-"
-]
-[
-"
 browser_autocomplete_footer
 .
 js
