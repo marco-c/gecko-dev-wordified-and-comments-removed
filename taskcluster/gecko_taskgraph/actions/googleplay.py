@@ -109,7 +109,7 @@ googleplay
 "
 )
 def
-add_push_bundle
+add_push_android
 (
 parameters
 graph_config
@@ -148,7 +148,28 @@ kind
 "
 push
 -
-bundle
+android
+"
+:
+            
+return
+False
+        
+if
+task
+.
+attributes
+[
+"
+target
+-
+store
+"
+]
+!
+=
+"
+google
 "
 :
             
@@ -234,7 +255,7 @@ to_run
 }
 push
 -
-bundle
+android
 tasks
 "
 )

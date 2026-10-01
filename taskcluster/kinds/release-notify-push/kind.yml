@@ -108,7 +108,7 @@ release
 -
 push
 -
-bundle
+android
 task
 -
 defaults
