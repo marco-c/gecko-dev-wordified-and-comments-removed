@@ -353,9 +353,6 @@ false
 tags
 :
 null
-sendAttributionRequest
-:
-false
 providerName
 :
 UrlbarProviderTopSites
@@ -610,9 +607,6 @@ false
 tags
 :
 null
-sendAttributionRequest
-:
-false
 providerName
 :
 UrlbarProviderTopSites
@@ -777,9 +771,6 @@ false
 tags
 :
 null
-sendAttributionRequest
-:
-false
 providerName
 :
 UrlbarProviderTopSites
@@ -857,9 +848,6 @@ false
 tags
 :
 null
-sendAttributionRequest
-:
-false
 iconUri
 :
 "
@@ -948,9 +936,6 @@ false
 tags
 :
 null
-sendAttributionRequest
-:
-false
 providerName
 :
 UrlbarProviderTopSites
@@ -1025,9 +1010,6 @@ false
 tags
 :
 null
-sendAttributionRequest
-:
-false
 iconUri
 :
 "
@@ -1112,9 +1094,6 @@ false
 tags
 :
 null
-sendAttributionRequest
-:
-false
 iconUri
 :
 "
@@ -1350,9 +1329,6 @@ false
 tags
 :
 null
-sendAttributionRequest
-:
-false
 providerName
 :
 UrlbarProviderTopSites
@@ -1434,9 +1410,6 @@ false
 tags
 :
 null
-sendAttributionRequest
-:
-false
 providerName
 :
 UrlbarProviderTopSites
@@ -1516,9 +1489,6 @@ false
 tags
 :
 null
-sendAttributionRequest
-:
-false
 providerName
 :
 UrlbarProviderTopSites
@@ -1595,9 +1565,6 @@ false
 tags
 :
 null
-sendAttributionRequest
-:
-false
 providerName
 :
 UrlbarProviderTopSites
@@ -1672,9 +1639,6 @@ false
 tags
 :
 null
-sendAttributionRequest
-:
-false
 providerName
 :
 UrlbarProviderTopSites
@@ -1753,9 +1717,6 @@ false
 tags
 :
 null
-sendAttributionRequest
-:
-false
 providerName
 :
 UrlbarProviderTopSites
@@ -1934,9 +1895,6 @@ false
 tags
 :
 null
-sendAttributionRequest
-:
-false
 providerName
 :
 UrlbarProviderTopSites
@@ -2014,9 +1972,6 @@ false
 tags
 :
 null
-sendAttributionRequest
-:
-false
 providerName
 :
 UrlbarProviderTopSites
@@ -2095,9 +2050,6 @@ false
 tags
 :
 null
-sendAttributionRequest
-:
-false
 providerName
 :
 UrlbarProviderTopSites
@@ -2172,9 +2124,6 @@ false
 tags
 :
 null
-sendAttributionRequest
-:
-false
 providerName
 :
 UrlbarProviderTopSites
@@ -2249,9 +2198,6 @@ false
 tags
 :
 null
-sendAttributionRequest
-:
-false
 providerName
 :
 UrlbarProviderTopSites
@@ -2414,9 +2360,6 @@ false
 isSponsored
 :
 false
-sendAttributionRequest
-:
-false
 }
 }
 )
@@ -2503,9 +2446,6 @@ isPinned
 :
 true
 isSponsored
-:
-false
-sendAttributionRequest
 :
 false
 }
@@ -2627,9 +2567,6 @@ isPinned
 :
 true
 isSponsored
-:
-false
-sendAttributionRequest
 :
 false
 }

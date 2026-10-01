@@ -10178,15 +10178,6 @@ type
 string
 "
 }
-sendAttributionRequest
-:
-{
-type
-:
-"
-boolean
-"
-}
 shouldShowUrl
 :
 {
