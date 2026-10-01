@@ -69,6 +69,15 @@ aWin
 ;
 static
 void
+OnFullscreenWillBeEntered
+(
+nsWindow
+*
+aWin
+)
+;
+static
+void
 OnFullscreenChanged
 (
 nsWindow
