@@ -1607,16 +1607,6 @@ tabbrowser
 .
 addWebTab
 (
-"
-about
-:
-blank
-"
-{
-skipLoad
-:
-true
-}
 )
 ;
 var
