@@ -99,6 +99,13 @@ components
 urlbar
 /
 -
+browser
+/
+extensions
+/
+newtab
+/
+-
 toolkit
 /
 components
