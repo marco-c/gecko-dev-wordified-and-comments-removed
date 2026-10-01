@@ -106,7 +106,7 @@ destroy
 {
 mMutex
 =
-NULL
+nullptr
 ;
 }
 void
