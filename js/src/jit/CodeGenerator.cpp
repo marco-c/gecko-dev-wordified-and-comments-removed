@@ -63067,6 +63067,9 @@ stackArgAreaSizeUnaligned
 inboundStackArgBytes_
 )
 ;
+(
+void
+)
 masm
 .
 wasmReturnCallIndirect
@@ -63086,6 +63089,9 @@ MOZ_ASSERT
 isReturnCall
 )
 ;
+(
+void
+)
 masm
 .
 wasmCallIndirect
@@ -63481,12 +63487,6 @@ masm
 .
 loadWasmPinnedRegsFromInstance
 (
-mozilla
-:
-:
-Nothing
-(
-)
 )
 ;
 }
