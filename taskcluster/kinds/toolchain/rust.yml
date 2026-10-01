@@ -2568,7 +2568,7 @@ pc
 -
 windows
 -
-gnu
+gnullvm
 '
 '
 -
@@ -2582,7 +2582,7 @@ pc
 -
 windows
 -
-gnu
+gnullvm
 '
 '
 -
@@ -4441,7 +4441,7 @@ pc
 -
 windows
 -
-gnu
+gnullvm
 '
 '
 -
@@ -4455,7 +4455,7 @@ pc
 -
 windows
 -
-gnu
+gnullvm
 '
 '
 -
