@@ -948,9 +948,10 @@ empty
 let
 direction
 =
+*
 inheritedbox_style
 .
-slow_clone_direction
+get_direction
 (
 )
 ;
@@ -1248,9 +1249,10 @@ VerticalLr
 >
 {
 match
+*
 inheritedbox_style
 .
-slow_clone_text_orientation
+get_text_orientation
 (
 )
 {
