@@ -8438,3 +8438,11 @@ desktop_capture
 primitives_gn
 "
 ]
+LICENSED_UNDER
++
+=
+[
+"
+webrtc
+"
+]

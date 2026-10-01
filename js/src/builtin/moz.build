@@ -586,3 +586,11 @@ config
 mozbuild
 "
 )
+LICENSED_UNDER
++
+=
+[
+"
+v8
+"
+]
