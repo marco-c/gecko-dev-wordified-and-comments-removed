@@ -605,7 +605,7 @@ recv_reply
 messages
 :
 :
-TransferMinidumpReply
+MinidumpReply
 >
 (
 )
