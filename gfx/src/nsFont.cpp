@@ -1258,7 +1258,7 @@ setting
 ;
 setting
 .
-mTag
+tag
 =
 aVertical
 ?
@@ -1307,7 +1307,7 @@ None
 :
 setting
 .
-mValue
+value
 =
 0
 ;
@@ -1331,7 +1331,7 @@ Normal
 :
 setting
 .
-mValue
+value
 =
 1
 ;
@@ -1376,13 +1376,13 @@ IsHistoricalForms
 {
 setting
 .
-mValue
+value
 =
 1
 ;
 setting
 .
-mTag
+tag
 =
 TRUETYPE_TAG
 (
@@ -1487,7 +1487,7 @@ COMMON_LIGATURES
 {
 setting
 .
-mTag
+tag
 =
 TRUETYPE_TAG
 (
@@ -1507,7 +1507,7 @@ g
 ;
 setting
 .
-mValue
+value
 =
 1
 ;
@@ -1535,7 +1535,7 @@ NO_COMMON_LIGATURES
 {
 setting
 .
-mTag
+tag
 =
 TRUETYPE_TAG
 (
@@ -1555,7 +1555,7 @@ g
 ;
 setting
 .
-mValue
+value
 =
 0
 ;
@@ -1583,13 +1583,13 @@ NONE
 {
 setting
 .
-mValue
+value
 =
 0
 ;
 setting
 .
-mTag
+tag
 =
 TRUETYPE_TAG
 (
@@ -1619,7 +1619,7 @@ setting
 ;
 setting
 .
-mTag
+tag
 =
 TRUETYPE_TAG
 (
@@ -1649,7 +1649,7 @@ setting
 ;
 setting
 .
-mTag
+tag
 =
 TRUETYPE_TAG
 (
@@ -1679,7 +1679,7 @@ setting
 ;
 setting
 .
-mTag
+tag
 =
 TRUETYPE_TAG
 (
@@ -1742,7 +1742,7 @@ variantPosition
 ;
 setting
 .
-mTag
+tag
 =
 FontFeatureTagForVariantWidth
 (
@@ -1753,12 +1753,12 @@ if
 (
 setting
 .
-mTag
+tag
 )
 {
 setting
 .
-mValue
+value
 =
 1
 ;
@@ -1900,7 +1900,7 @@ const
 return
 aVariation
 .
-mTag
+tag
 =
 =
 aTag

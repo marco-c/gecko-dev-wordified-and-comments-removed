@@ -2243,22 +2243,6 @@ font
 -
 size
 "
-        
-"
-font
--
-feature
--
-settings
-"
-        
-"
-font
--
-variation
--
-settings
-"
     
 }
     
