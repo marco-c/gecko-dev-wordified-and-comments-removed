@@ -563,6 +563,11 @@ DragTask
 >
 mRecentTask
 ;
+bool
+mDragIsOverSourceWindow
+=
+true
+;
 gboolean
 Schedule
 (
