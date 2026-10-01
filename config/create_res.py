@@ -478,6 +478,15 @@ O
 "
 coff
 "
+"
+-
+-
+use
+-
+temp
+-
+file
+"
 )
 )
         
