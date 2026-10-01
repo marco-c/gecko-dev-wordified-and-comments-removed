@@ -3627,6 +3627,15 @@ weekdays
 {
 WEEKDAYS
 }
+.
+canResume
+=
+{
+!
+this
+.
+isMaxMonitorsReached
+}
 >
 <
 /
