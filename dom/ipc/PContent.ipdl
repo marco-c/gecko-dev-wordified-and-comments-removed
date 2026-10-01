@@ -6810,7 +6810,7 @@ aWireframe
 )
 ;
 async
-GetLoadingSessionHistoryInfoFromParent
+AdoptChildSHEntry
 (
 MaybeDiscardedBrowsingContext
 aContext
@@ -11122,8 +11122,8 @@ NotifyOnHistoryReload
 (
 MaybeDiscardedBrowsingContext
 aContext
-bool
-aForceReload
+uint32_t
+aReloadFlags
 )
 returns
 (

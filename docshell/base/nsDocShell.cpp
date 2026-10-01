@@ -6005,7 +6005,7 @@ false
 contentChild
 -
 >
-SendGetLoadingSessionHistoryInfoFromParent
+SendAdoptChildSHEntry
 (
 mBrowsingContext
 std
@@ -6045,7 +6045,7 @@ Canonical
 )
 -
 >
-GetLoadingSessionHistoryInfoFromParent
+AdoptChildSHEntry
 (
 info
 )
@@ -18803,14 +18803,6 @@ this
 )
 )
 ;
-bool
-forceReload
-=
-IsForceReloadType
-(
-loadType
-)
-;
 if
 (
 !
@@ -18961,7 +18953,7 @@ GetSingleton
 SendNotifyOnHistoryReload
 (
 mBrowsingContext
-forceReload
+aReloadFlags
 [
 docShell
 doc
@@ -19265,7 +19257,7 @@ Canonical
 >
 NotifyOnHistoryReload
 (
-forceReload
+aReloadFlags
 canReload
 loadState
 reloadingActiveEntry

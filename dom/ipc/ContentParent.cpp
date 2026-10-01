@@ -40743,9 +40743,9 @@ BrowsingContext
 &
 aContext
 const
-bool
+uint32_t
 &
-aForceReload
+aReloadFlags
 NotifyOnHistoryReloadResolver
 &
 &
@@ -40809,7 +40809,7 @@ get_canonical
 >
 NotifyOnHistoryReload
 (
-aForceReload
+aReloadFlags
 canReload
 loadState
 reloadActiveEntry
@@ -41967,7 +41967,7 @@ IPCResult
 ContentParent
 :
 :
-RecvGetLoadingSessionHistoryInfoFromParent
+RecvAdoptChildSHEntry
 (
 const
 MaybeDiscarded
@@ -41976,7 +41976,7 @@ BrowsingContext
 >
 &
 aContext
-GetLoadingSessionHistoryInfoFromParentResolver
+AdoptChildSHEntryResolver
 &
 &
 aResolver
@@ -42034,7 +42034,7 @@ get_canonical
 )
 -
 >
-GetLoadingSessionHistoryInfoFromParent
+AdoptChildSHEntry
 (
 info
 )
