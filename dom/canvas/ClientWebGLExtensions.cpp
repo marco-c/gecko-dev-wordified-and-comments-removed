@@ -44,6 +44,11 @@ WebGLExtensionFragDepth
 )
 DEFINE_WEBGL_EXTENSION_GOOP
 (
+EXT_polygon_offset_clamp
+WebGLExtensionPolygonOffsetClamp
+)
+DEFINE_WEBGL_EXTENSION_GOOP
+(
 EXT_sRGB
 WebGLExtensionSRGB
 )

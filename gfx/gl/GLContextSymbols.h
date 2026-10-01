@@ -799,6 +799,7 @@ GLenum
 GLfloat
 )
 ;
+const
 GLubyte
 *
 (
@@ -1088,6 +1089,18 @@ GLAPIENTRY
 fPolygonOffset
 )
 (
+GLfloat
+GLfloat
+)
+;
+void
+(
+GLAPIENTRY
+*
+fPolygonOffsetClamp
+)
+(
+GLfloat
 GLfloat
 GLfloat
 )
