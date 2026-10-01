@@ -18,6 +18,10 @@ extern
 crate
 xpcom
 ;
+pub
+mod
+base10
+;
 #
 [
 macro_use
