@@ -2266,28 +2266,6 @@ variation
 -
 settings
 "
-        
-"
-backdrop
--
-filter
-"
-        
-"
-box
--
-shadow
-"
-        
-"
-filter
-"
-        
-"
-text
--
-shadow
-"
     
 }
     
