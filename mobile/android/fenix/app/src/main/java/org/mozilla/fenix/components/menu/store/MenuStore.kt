@@ -355,6 +355,10 @@ is
 MenuAction
 .
 SaveAsPdfRequested
+is
+MenuAction
+.
+PrintRequested
 -
 >
 state
