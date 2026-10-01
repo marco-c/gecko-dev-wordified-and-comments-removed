@@ -294,6 +294,13 @@ js
 ]
 [
 "
+browser_creditCard_cvvPreference
+.
+js
+"
+]
+[
+"
 browser_creditCard_decryption_failure
 .
 js
