@@ -45,16 +45,6 @@ End
 ;
 enum
 class
-StyleBoxDecorationBreak
-:
-uint8_t
-{
-Slice
-Clone
-}
-;
-enum
-class
 StyleBoxDirection
 :
 uint8_t

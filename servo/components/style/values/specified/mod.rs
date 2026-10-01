@@ -292,6 +292,16 @@ self
 border
 :
 :
+BoxDecorationBreak
+;
+pub
+use
+self
+:
+:
+border
+:
+:
 {
 BorderCornerRadius
 BorderImageRepeat

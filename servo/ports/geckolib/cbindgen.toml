@@ -1400,6 +1400,9 @@ ListStyleType
 "
 LinkParameters
 "
+"
+BoxDecorationBreak
+"
 ]
 item_types
 =
