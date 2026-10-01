@@ -808,11 +808,6 @@ addEventListener
 message
 '
 onMessage
-{
-once
-:
-true
-}
 )
 ;
 RunCallbackWithGesture
