@@ -153,6 +153,11 @@ TestHttpResponseHead
 cpp
 "
 "
+TestHttpTransactionRestart
+.
+cpp
+"
+"
 TestIDNA
 .
 cpp
@@ -214,6 +219,11 @@ cpp
 "
 "
 TestReadStreamToString
+.
+cpp
+"
+"
+TestSanitizedSpec
 .
 cpp
 "
@@ -355,6 +365,11 @@ cpp
 "
 "
 TestHappyEyeballsConnectionAttempt
+.
+cpp
+"
+"
+TestHappyEyeballsNetAddrArray
 .
 cpp
 "
