@@ -25,6 +25,13 @@ nsString
 .
 h
 "
+#
+include
+"
+nsIRelativeFilePref
+.
+h
+"
 namespace
 mozilla
 {

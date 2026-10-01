@@ -5,6 +5,13 @@ MAR_CMDLINE_H_
 define
 MAR_CMDLINE_H_
 #
+include
+<
+stdint
+.
+h
+>
+#
 ifdef
 __cplusplus
 extern
