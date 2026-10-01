@@ -52,9 +52,6 @@ LayersTypes
 .
 h
 "
-class
-nsIGlobalObject
-;
 namespace
 mozilla
 {
@@ -165,14 +162,6 @@ RemoteTextureOwnerId
 >
 &
 aOwnerIds
-)
-;
-void
-OnWindowDestroy
-(
-nsIGlobalObject
-*
-aParent
 )
 ;
 private

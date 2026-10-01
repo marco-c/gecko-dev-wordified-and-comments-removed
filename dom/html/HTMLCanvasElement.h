@@ -874,6 +874,12 @@ HTMLCanvasElement
 aDest
 )
 ;
+void
+DestroyContent
+(
+)
+override
+;
 static
 void
 MapAttributesIntoRule
