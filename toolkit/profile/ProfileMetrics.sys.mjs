@@ -419,6 +419,11 @@ currentProfile
 if
 (
 currentProfile
+&
+&
+currentProfile
+.
+storeID
 )
 {
 Glean

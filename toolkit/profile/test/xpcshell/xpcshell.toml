@@ -352,6 +352,13 @@ js
 ]
 [
 "
+test_profile_metrics_store_id_null
+.
+js
+"
+]
+[
+"
 test_previous_dedicated
 .
 js
