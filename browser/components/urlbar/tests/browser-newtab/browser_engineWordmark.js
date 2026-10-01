@@ -66,6 +66,7 @@ a
 waiting
 for
 the
+search
 bar
 to
 be
