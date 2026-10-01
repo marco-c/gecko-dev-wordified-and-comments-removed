@@ -828,7 +828,7 @@ cfreg
 const
 ;
 void
-set_fcsr_rounding_mode
+setFCSRRoundingMode
 (
 FPURoundingMode
 mode
