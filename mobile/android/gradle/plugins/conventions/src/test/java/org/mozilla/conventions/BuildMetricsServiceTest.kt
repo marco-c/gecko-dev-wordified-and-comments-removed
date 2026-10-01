@@ -56,6 +56,12 @@ MPL
 .
 *
 /
+package
+org
+.
+mozilla
+.
+conventions
 import
 groovy
 .

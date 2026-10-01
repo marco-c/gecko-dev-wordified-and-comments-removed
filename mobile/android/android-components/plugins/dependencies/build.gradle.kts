@@ -189,12 +189,6 @@ junit
 .
 jupiter
 )
-testImplementation
-(
-libs
-.
-mockito
-)
 testRuntimeOnly
 (
 libs
