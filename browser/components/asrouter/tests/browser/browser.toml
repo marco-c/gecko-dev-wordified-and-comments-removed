@@ -701,6 +701,13 @@ js
 ]
 [
 "
+browser_spotlight_carousel_nav
+.
+js
+"
+]
+[
+"
 browser_trigger_listeners
 .
 js
