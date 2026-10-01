@@ -122,6 +122,8 @@ Files
 "
 test
 /
+browser
+-
 about
 /
 *
@@ -530,6 +532,8 @@ Files
 "
 test
 /
+browser
+-
 popups
 /
 *
@@ -810,6 +814,8 @@ Files
 "
 test
 /
+browser
+-
 tabPrompts
 /
 *
@@ -958,6 +964,8 @@ Files
 "
 test
 /
+browser
+-
 webrtc
 /
 *

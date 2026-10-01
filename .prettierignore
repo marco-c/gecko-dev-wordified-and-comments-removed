@@ -1555,6 +1555,8 @@ content
 /
 test
 /
+browser
+-
 about
 /
 dummy_page
@@ -1624,6 +1626,8 @@ content
 /
 test
 /
+browser
+-
 general
 /
 browser_tab_dragdrop_embed
@@ -1637,6 +1641,8 @@ content
 /
 test
 /
+browser
+-
 general
 /
 dummy_page
@@ -1650,6 +1656,8 @@ content
 /
 test
 /
+browser
+-
 general
 /
 file_documentnavigation_frameset
@@ -1887,6 +1895,8 @@ content
 /
 test
 /
+browser
+-
 webrtc
 /
 get_user_media_in_xorigin_frame_ancestor
@@ -10623,6 +10633,8 @@ content
 /
 test
 /
+browser
+-
 general
 /
 gZipOfflineChild

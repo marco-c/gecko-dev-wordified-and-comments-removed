@@ -68,6 +68,8 @@ html
 .
 .
 /
+browser
+-
 general
 /
 audio
@@ -302,6 +304,8 @@ files
 .
 .
 /
+browser
+-
 webrtc
 /
 get_user_media

@@ -380,7 +380,7 @@ content
 /
 test
 /
-general
+static
 /
 browser_parsable_script
 .
