@@ -33,6 +33,10 @@ LANGPACK_SIGN_PLATFORMS
     
 "
 linux64
+"
+    
+"
+linux64
 -
 shippable
 "
