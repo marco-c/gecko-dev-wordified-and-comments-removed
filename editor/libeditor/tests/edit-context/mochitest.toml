@@ -78,6 +78,13 @@ html
 ]
 [
 "
+test_editcontext_compositionend
+.
+html
+"
+]
+[
+"
 test_editcontext_content_command_replace_text
 .
 html
