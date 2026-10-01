@@ -3132,7 +3132,7 @@ get_font
 (
 )
 .
-clone__x_text_scale
+get__x_text_scale
 (
 )
 .

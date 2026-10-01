@@ -1371,9 +1371,10 @@ get_box
 let
 container_type
 =
+*
 box_style
 .
-clone_container_type
+get_container_type
 (
 )
 ;
@@ -1413,7 +1414,7 @@ container_name
 =
 box_style
 .
-clone_container_name
+get_container_name
 (
 )
 ;
@@ -1456,10 +1457,9 @@ potential_container
 .
 query_container_size
 (
-&
 box_style
 .
-clone_display
+get_display
 (
 )
 )
@@ -3244,9 +3244,10 @@ get_box
 let
 container_type
 =
+*
 box_style
 .
-clone_container_type
+get_container_type
 (
 )
 ;
@@ -3257,10 +3258,9 @@ e
 .
 query_container_size
 (
-&
 box_style
 .
-clone_display
+get_display
 (
 )
 )

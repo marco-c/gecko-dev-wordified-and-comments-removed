@@ -8812,7 +8812,7 @@ get_box
 (
 )
 .
-clone_display
+get_display
 (
 )
 .
@@ -27115,13 +27115,14 @@ u16
 let
 display
 =
+*
 style
 .
 get_box
 (
 )
 .
-clone_display
+get_display
 (
 )
 ;

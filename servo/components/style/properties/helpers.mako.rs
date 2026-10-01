@@ -474,7 +474,7 @@ builder
 .
 inherited_style
 .
-clone_
+slow_clone_
 {
 property
 .

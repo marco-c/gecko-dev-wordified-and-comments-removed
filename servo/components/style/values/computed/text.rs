@@ -313,7 +313,7 @@ get_font
 (
 )
 .
-clone_font_size
+slow_clone_font_size
 (
 )
 .

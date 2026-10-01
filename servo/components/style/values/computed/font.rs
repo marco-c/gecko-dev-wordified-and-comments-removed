@@ -4085,7 +4085,7 @@ get_font
 (
 )
 .
-clone_font_size
+slow_clone_font_size
 (
 )
 .
@@ -5244,6 +5244,7 @@ AutoAdd
 let
 parent
 =
+*
 cx
 .
 builder
@@ -5252,7 +5253,7 @@ get_parent_font
 (
 )
 .
-clone_math_depth
+get_math_depth
 (
 )
 as
@@ -5269,7 +5270,7 @@ get_parent_font
 (
 )
 .
-clone_math_style
+slow_clone_math_style
 (
 )
 ;
@@ -5310,6 +5311,7 @@ rel
 let
 parent
 =
+*
 cx
 .
 builder
@@ -5318,7 +5320,7 @@ get_parent_font
 (
 )
 .
-clone_math_depth
+get_math_depth
 (
 )
 ;
@@ -7049,7 +7051,7 @@ get_font
 (
 )
 .
-clone_font_size
+slow_clone_font_size
 (
 )
 .

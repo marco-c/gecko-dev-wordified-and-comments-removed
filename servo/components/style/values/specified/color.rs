@@ -4904,7 +4904,7 @@ get_parent_inherited_text
 (
 )
 .
-clone_color
+get_color
 (
 )
 ;
@@ -4919,7 +4919,6 @@ context
 .
 resolve_to_absolute
 (
-&
 current_color
 )
 }

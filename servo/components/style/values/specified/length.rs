@@ -2632,7 +2632,7 @@ get_font
 (
 )
 .
-clone_font_size
+slow_clone_font_size
 (
 )
 Self
@@ -2655,7 +2655,7 @@ get_parent_font
 (
 )
 .
-clone_font_size
+slow_clone_font_size
 (
 )
 .
@@ -6088,7 +6088,7 @@ get_font
 (
 )
 .
-clone_font_size
+slow_clone_font_size
 (
 )
 .

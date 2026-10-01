@@ -1062,7 +1062,7 @@ get_box
 (
 )
 .
-clone_display
+get_display
 (
 )
 .
@@ -3159,7 +3159,7 @@ get_box
 (
 )
 .
-clone_container_type
+get_container_type
 (
 )
 .

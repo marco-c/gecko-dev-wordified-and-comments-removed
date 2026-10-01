@@ -2301,7 +2301,7 @@ prop
 logical
 :
 .
-clone_
+slow_clone_
 {
 prop
 .
@@ -2319,7 +2319,7 @@ writing_mode
 else
 :
 .
-clone_
+slow_clone_
 {
 prop
 .
@@ -2882,7 +2882,7 @@ computed
 =
 style
 .
-clone_
+slow_clone_
 {
 prop
 .

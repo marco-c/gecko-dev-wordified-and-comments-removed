@@ -3215,7 +3215,11 @@ primary
 if
 style
 .
-clone_position
+get_box
+(
+)
+.
+get_position
 (
 )
 .
@@ -3228,7 +3232,7 @@ fallbacks
 =
 style
 .
-clone_position_try_fallbacks
+get_position_try_fallbacks
 (
 )
 ;
