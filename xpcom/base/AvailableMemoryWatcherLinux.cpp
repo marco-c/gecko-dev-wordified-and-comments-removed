@@ -68,6 +68,13 @@ h
 #
 include
 "
+nsExceptionHandler
+.
+h
+"
+#
+include
+"
 nsIAvailableMemoryWatcherTestingLinux
 .
 h
