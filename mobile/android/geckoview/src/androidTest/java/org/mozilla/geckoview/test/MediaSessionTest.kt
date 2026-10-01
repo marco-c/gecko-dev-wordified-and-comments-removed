@@ -609,7 +609,7 @@ audioSessionTypeMediaElementIsPlayback
 {
 checkAudioSessionType
 (
-MEDIA_SESSION_DEFAULT1_PATH
+AUDIO_SESSION_TYPE_PLAYBACK_PATH
 "
 playback
 "
