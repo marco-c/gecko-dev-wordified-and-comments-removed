@@ -707,7 +707,7 @@ height
 MJpegDecoder
 mjpeg_decoder
 ;
-LIBYUV_BOOL
+bool
 ret
 =
 mjpeg_decoder
@@ -808,7 +808,7 @@ return
 MJpegDecoder
 mjpeg_decoder
 ;
-LIBYUV_BOOL
+bool
 ret
 =
 mjpeg_decoder
@@ -1838,7 +1838,7 @@ return
 MJpegDecoder
 mjpeg_decoder
 ;
-LIBYUV_BOOL
+bool
 ret
 =
 mjpeg_decoder
@@ -2841,7 +2841,7 @@ return
 MJpegDecoder
 mjpeg_decoder
 ;
-LIBYUV_BOOL
+bool
 ret
 =
 mjpeg_decoder
@@ -3737,7 +3737,7 @@ return
 MJpegDecoder
 mjpeg_decoder
 ;
-LIBYUV_BOOL
+bool
 ret
 =
 mjpeg_decoder

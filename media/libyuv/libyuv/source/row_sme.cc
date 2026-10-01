@@ -7905,7 +7905,7 @@ uint16_t
 *
 dst_y
 int
-scale
+bits
 int
 width
 )
@@ -7914,12 +7914,9 @@ const
 int
 shift
 =
-__builtin_clz
-(
-scale
-)
+16
 -
-15
+bits
 ;
 uint64_t
 vl

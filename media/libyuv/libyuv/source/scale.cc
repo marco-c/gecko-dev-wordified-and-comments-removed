@@ -12851,7 +12851,7 @@ int
 dst_width
 int
 dst_height
-LIBYUV_BOOL
+int
 interpolate
 )
 {

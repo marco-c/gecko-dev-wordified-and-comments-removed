@@ -12,6 +12,13 @@ stddef
 h
 >
 #
+include
+<
+stdint
+.
+h
+>
+#
 ifdef
 _WIN32
 #
@@ -48,15 +55,6 @@ gtest
 .
 h
 >
-#
-include
-"
-libyuv
-/
-basic_types
-.
-h
-"
 #
 ifndef
 SIMD_ALIGNED
@@ -458,6 +456,7 @@ size
 4095
 )
 -
+\
 (
 size
 )

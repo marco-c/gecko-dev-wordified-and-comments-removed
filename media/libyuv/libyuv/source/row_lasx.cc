@@ -12830,6 +12830,8 @@ ArgbConstants
 c
 )
 {
+static
+const
 int8_t
 shuff
 [
@@ -13016,7 +13018,7 @@ h
 xr3
 %
 3
-4
+96
 \
 n
 \

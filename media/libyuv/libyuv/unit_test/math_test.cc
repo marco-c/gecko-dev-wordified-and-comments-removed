@@ -36,15 +36,6 @@ include
 "
 libyuv
 /
-basic_types
-.
-h
-"
-#
-include
-"
-libyuv
-/
 cpu_id
 .
 h
@@ -108,7 +99,7 @@ result_c
 1280
 ]
 ;
-EXPECT_EQ
+ASSERT_EQ
 (
 0x10000
 libyuv
@@ -121,7 +112,7 @@ FixedDiv
 )
 )
 ;
-EXPECT_EQ
+ASSERT_EQ
 (
 0x7fff0000
 libyuv
@@ -134,7 +125,7 @@ FixedDiv
 )
 )
 ;
-EXPECT_EQ
+ASSERT_EQ
 (
 0x20000
 libyuv
@@ -149,7 +140,7 @@ FixedDiv
 )
 )
 ;
-EXPECT_EQ
+ASSERT_EQ
 (
 0x30000
 libyuv
@@ -164,7 +155,7 @@ FixedDiv
 )
 )
 ;
-EXPECT_EQ
+ASSERT_EQ
 (
 0x40000
 libyuv
@@ -179,7 +170,7 @@ FixedDiv
 )
 )
 ;
-EXPECT_EQ
+ASSERT_EQ
 (
 0x50000
 libyuv
@@ -194,7 +185,7 @@ FixedDiv
 )
 )
 ;
-EXPECT_EQ
+ASSERT_EQ
 (
 0x60000
 libyuv
@@ -209,7 +200,7 @@ FixedDiv
 )
 )
 ;
-EXPECT_EQ
+ASSERT_EQ
 (
 0x70000
 libyuv
@@ -224,7 +215,7 @@ FixedDiv
 )
 )
 ;
-EXPECT_EQ
+ASSERT_EQ
 (
 0x80000
 libyuv
@@ -239,7 +230,7 @@ FixedDiv
 )
 )
 ;
-EXPECT_EQ
+ASSERT_EQ
 (
 0xa0000
 libyuv
@@ -254,7 +245,7 @@ FixedDiv
 )
 )
 ;
-EXPECT_EQ
+ASSERT_EQ
 (
 0x20000
 libyuv
@@ -269,7 +260,7 @@ FixedDiv
 )
 )
 ;
-EXPECT_EQ
+ASSERT_EQ
 (
 0x08000
 libyuv
@@ -284,7 +275,7 @@ FixedDiv
 )
 )
 ;
-EXPECT_EQ
+ASSERT_EQ
 (
 0x04000
 libyuv
@@ -299,7 +290,7 @@ FixedDiv
 )
 )
 ;
-EXPECT_EQ
+ASSERT_EQ
 (
 0x20000
 libyuv
@@ -314,7 +305,7 @@ FixedDiv
 )
 )
 ;
-EXPECT_EQ
+ASSERT_EQ
 (
 0x20000
 libyuv
@@ -327,7 +318,7 @@ FixedDiv
 )
 )
 ;
-EXPECT_EQ
+ASSERT_EQ
 (
 0x18000
 libyuv
@@ -340,7 +331,7 @@ FixedDiv
 )
 )
 ;
-EXPECT_EQ
+ASSERT_EQ
 (
 0x20000
 libyuv
@@ -353,7 +344,7 @@ FixedDiv
 )
 )
 ;
-EXPECT_EQ
+ASSERT_EQ
 (
 0x20000
 libyuv
@@ -368,7 +359,7 @@ FixedDiv
 )
 )
 ;
-EXPECT_EQ
+ASSERT_EQ
 (
 -
 0x20000
@@ -383,7 +374,7 @@ FixedDiv
 )
 )
 ;
-EXPECT_EQ
+ASSERT_EQ
 (
 -
 0x20000
@@ -398,7 +389,7 @@ FixedDiv
 )
 )
 ;
-EXPECT_EQ
+ASSERT_EQ
 (
 0x10000
 libyuv
@@ -411,7 +402,7 @@ FixedDiv
 )
 )
 ;
-EXPECT_EQ
+ASSERT_EQ
 (
 0x10000
 libyuv
@@ -424,7 +415,7 @@ FixedDiv
 )
 )
 ;
-EXPECT_EQ
+ASSERT_EQ
 (
 0x10000
 libyuv
@@ -437,7 +428,7 @@ FixedDiv
 )
 )
 ;
-EXPECT_EQ
+ASSERT_EQ
 (
 123
 *
@@ -468,7 +459,7 @@ i
 i
 )
 {
-EXPECT_EQ
+ASSERT_EQ
 (
 0x10000
 libyuv
@@ -481,7 +472,7 @@ i
 )
 )
 ;
-EXPECT_EQ
+ASSERT_EQ
 (
 0x20000
 libyuv
@@ -496,7 +487,7 @@ i
 )
 )
 ;
-EXPECT_EQ
+ASSERT_EQ
 (
 0x30000
 libyuv
@@ -511,7 +502,7 @@ i
 )
 )
 ;
-EXPECT_EQ
+ASSERT_EQ
 (
 0x40000
 libyuv
@@ -526,7 +517,7 @@ i
 )
 )
 ;
-EXPECT_EQ
+ASSERT_EQ
 (
 0x08000
 libyuv
@@ -541,7 +532,7 @@ i
 )
 )
 ;
-EXPECT_NEAR
+ASSERT_NEAR
 (
 16384
 *
@@ -560,7 +551,7 @@ i
 )
 ;
 }
-EXPECT_EQ
+ASSERT_EQ
 (
 123
 *
@@ -749,7 +740,7 @@ j
 ]
 )
 ;
-EXPECT_NEAR
+ASSERT_NEAR
 (
 result_c
 [
@@ -1030,7 +1021,7 @@ j
 ]
 )
 ;
-EXPECT_NEAR
+ASSERT_NEAR
 (
 result_c
 [
@@ -1311,7 +1302,7 @@ j
 ]
 )
 ;
-EXPECT_NEAR
+ASSERT_NEAR
 (
 result_c
 [

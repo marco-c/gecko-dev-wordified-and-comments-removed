@@ -250,12 +250,6 @@ kRGBCoeffBias
 n
 "
 #
-if
-defined
-(
-LIBYUV_UNBIASED_DATA
-)
-#
 define
 YUVTORGB_SVE_SETUP_AR30
 \
@@ -302,14 +296,6 @@ h
 \
 n
 "
-#
-else
-#
-define
-YUVTORGB_SVE_SETUP_AR30
-YUVTORGB_SVE_SETUP
-#
-endif
 #
 define
 READYUV444_SVE

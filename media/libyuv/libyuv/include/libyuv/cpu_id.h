@@ -6,6 +6,13 @@ define
 INCLUDE_LIBYUV_CPU_ID_H_
 #
 include
+<
+stdint
+.
+h
+>
+#
+include
 "
 libyuv
 /
@@ -270,6 +277,13 @@ int
 kCpuHasAMXINT8
 =
 0x10000000
+;
+static
+const
+int
+kCpuHasAVX512BMM
+=
+0x20000000
 ;
 static
 const

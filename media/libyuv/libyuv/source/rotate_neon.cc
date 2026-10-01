@@ -17,15 +17,6 @@ row
 h
 "
 #
-include
-"
-libyuv
-/
-basic_types
-.
-h
-"
-#
 ifdef
 __cplusplus
 namespace
@@ -2029,11 +2020,9 @@ r
 (
 ptrdiff_t
 )
-(
 src_stride
 *
 4
-)
 )
 /
 /

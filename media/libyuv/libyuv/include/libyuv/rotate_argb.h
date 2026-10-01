@@ -6,6 +6,13 @@ define
 INCLUDE_LIBYUV_ROTATE_ARGB_H_
 #
 include
+<
+stdint
+.
+h
+>
+#
+include
 "
 libyuv
 /

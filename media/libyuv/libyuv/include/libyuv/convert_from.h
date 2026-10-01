@@ -6,6 +6,13 @@ define
 INCLUDE_LIBYUV_CONVERT_FROM_H_
 #
 include
+<
+stdint
+.
+h
+>
+#
+include
 "
 libyuv
 /

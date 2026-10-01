@@ -28,7 +28,7 @@ C
 #
 endif
 static
-LIBYUV_BOOL
+int
 ScanEOI
 (
 const
@@ -113,7 +113,7 @@ it
 )
 {
 return
-LIBYUV_TRUE
+1
 ;
 }
 +
@@ -123,10 +123,10 @@ it
 }
 }
 return
-LIBYUV_FALSE
+0
 ;
 }
-LIBYUV_BOOL
+int
 ValidateJpeg
 (
 const
@@ -166,7 +166,7 @@ src_mjpg
 )
 {
 return
-LIBYUV_FALSE
+0
 ;
 }
 if
@@ -199,7 +199,7 @@ src_mjpg
 )
 {
 return
-LIBYUV_FALSE
+0
 ;
 }
 if
@@ -223,7 +223,7 @@ kBackSearchSize
 )
 {
 return
-LIBYUV_TRUE
+1
 ;
 }
 src_size_mjpg

@@ -209,7 +209,7 @@ LibYUVBaseTest
 TestCanonicalFourCC
 )
 {
-EXPECT_EQ
+ASSERT_EQ
 (
 static_cast
 <
@@ -224,7 +224,7 @@ FOURCC_IYUV
 )
 )
 ;
-EXPECT_EQ
+ASSERT_EQ
 (
 static_cast
 <
@@ -239,7 +239,7 @@ FOURCC_YU12
 )
 )
 ;
-EXPECT_EQ
+ASSERT_EQ
 (
 static_cast
 <
@@ -254,7 +254,7 @@ FOURCC_YU16
 )
 )
 ;
-EXPECT_EQ
+ASSERT_EQ
 (
 static_cast
 <
@@ -269,7 +269,7 @@ FOURCC_YU24
 )
 )
 ;
-EXPECT_EQ
+ASSERT_EQ
 (
 static_cast
 <
@@ -284,7 +284,7 @@ FOURCC_YUYV
 )
 )
 ;
-EXPECT_EQ
+ASSERT_EQ
 (
 static_cast
 <
@@ -299,7 +299,7 @@ FOURCC_YUVS
 )
 )
 ;
-EXPECT_EQ
+ASSERT_EQ
 (
 static_cast
 <
@@ -314,7 +314,7 @@ FOURCC_HDYC
 )
 )
 ;
-EXPECT_EQ
+ASSERT_EQ
 (
 static_cast
 <
@@ -329,7 +329,7 @@ FOURCC_2VUY
 )
 )
 ;
-EXPECT_EQ
+ASSERT_EQ
 (
 static_cast
 <
@@ -344,7 +344,7 @@ FOURCC_JPEG
 )
 )
 ;
-EXPECT_EQ
+ASSERT_EQ
 (
 static_cast
 <
@@ -359,7 +359,7 @@ FOURCC_DMB1
 )
 )
 ;
-EXPECT_EQ
+ASSERT_EQ
 (
 static_cast
 <
@@ -374,7 +374,7 @@ FOURCC_RGB3
 )
 )
 ;
-EXPECT_EQ
+ASSERT_EQ
 (
 static_cast
 <
@@ -389,7 +389,7 @@ FOURCC_BGR3
 )
 )
 ;
-EXPECT_EQ
+ASSERT_EQ
 (
 static_cast
 <
@@ -404,7 +404,7 @@ FOURCC_CM32
 )
 )
 ;
-EXPECT_EQ
+ASSERT_EQ
 (
 static_cast
 <
@@ -419,7 +419,7 @@ FOURCC_CM24
 )
 )
 ;
-EXPECT_EQ
+ASSERT_EQ
 (
 static_cast
 <
@@ -434,7 +434,7 @@ FOURCC_L555
 )
 )
 ;
-EXPECT_EQ
+ASSERT_EQ
 (
 static_cast
 <
@@ -449,7 +449,7 @@ FOURCC_L565
 )
 )
 ;
-EXPECT_EQ
+ASSERT_EQ
 (
 static_cast
 <
@@ -471,7 +471,7 @@ LibYUVBaseTest
 TestFourCC
 )
 {
-EXPECT_TRUE
+ASSERT_TRUE
 (
 TestValidFourCC
 (
@@ -480,7 +480,7 @@ FOURCC_BPP_I420
 )
 )
 ;
-EXPECT_TRUE
+ASSERT_TRUE
 (
 TestValidFourCC
 (
@@ -489,7 +489,7 @@ FOURCC_BPP_I420
 )
 )
 ;
-EXPECT_TRUE
+ASSERT_TRUE
 (
 TestValidFourCC
 (
@@ -498,7 +498,7 @@ FOURCC_BPP_I422
 )
 )
 ;
-EXPECT_TRUE
+ASSERT_TRUE
 (
 TestValidFourCC
 (
@@ -507,7 +507,7 @@ FOURCC_BPP_I444
 )
 )
 ;
-EXPECT_TRUE
+ASSERT_TRUE
 (
 TestValidFourCC
 (
@@ -516,7 +516,7 @@ FOURCC_BPP_I400
 )
 )
 ;
-EXPECT_TRUE
+ASSERT_TRUE
 (
 TestValidFourCC
 (
@@ -525,7 +525,7 @@ FOURCC_BPP_NV21
 )
 )
 ;
-EXPECT_TRUE
+ASSERT_TRUE
 (
 TestValidFourCC
 (
@@ -534,7 +534,25 @@ FOURCC_BPP_NV12
 )
 )
 ;
-EXPECT_TRUE
+ASSERT_TRUE
+(
+TestValidFourCC
+(
+FOURCC_NV16
+FOURCC_BPP_NV16
+)
+)
+;
+ASSERT_TRUE
+(
+TestValidFourCC
+(
+FOURCC_NV24
+FOURCC_BPP_NV24
+)
+)
+;
+ASSERT_TRUE
 (
 TestValidFourCC
 (
@@ -543,7 +561,7 @@ FOURCC_BPP_YUY2
 )
 )
 ;
-EXPECT_TRUE
+ASSERT_TRUE
 (
 TestValidFourCC
 (
@@ -552,7 +570,7 @@ FOURCC_BPP_UYVY
 )
 )
 ;
-EXPECT_TRUE
+ASSERT_TRUE
 (
 TestValidFourCC
 (
@@ -561,7 +579,7 @@ FOURCC_BPP_M420
 )
 )
 ;
-EXPECT_TRUE
+ASSERT_TRUE
 (
 TestValidFourCC
 (
@@ -570,7 +588,7 @@ FOURCC_BPP_Q420
 )
 )
 ;
-EXPECT_TRUE
+ASSERT_TRUE
 (
 TestValidFourCC
 (
@@ -579,7 +597,7 @@ FOURCC_BPP_ARGB
 )
 )
 ;
-EXPECT_TRUE
+ASSERT_TRUE
 (
 TestValidFourCC
 (
@@ -588,7 +606,7 @@ FOURCC_BPP_BGRA
 )
 )
 ;
-EXPECT_TRUE
+ASSERT_TRUE
 (
 TestValidFourCC
 (
@@ -597,7 +615,7 @@ FOURCC_BPP_ABGR
 )
 )
 ;
-EXPECT_TRUE
+ASSERT_TRUE
 (
 TestValidFourCC
 (
@@ -606,7 +624,7 @@ FOURCC_BPP_AR30
 )
 )
 ;
-EXPECT_TRUE
+ASSERT_TRUE
 (
 TestValidFourCC
 (
@@ -615,7 +633,7 @@ FOURCC_BPP_AB30
 )
 )
 ;
-EXPECT_TRUE
+ASSERT_TRUE
 (
 TestValidFourCC
 (
@@ -624,7 +642,7 @@ FOURCC_BPP_AR64
 )
 )
 ;
-EXPECT_TRUE
+ASSERT_TRUE
 (
 TestValidFourCC
 (
@@ -633,7 +651,7 @@ FOURCC_BPP_AB64
 )
 )
 ;
-EXPECT_TRUE
+ASSERT_TRUE
 (
 TestValidFourCC
 (
@@ -642,7 +660,7 @@ FOURCC_BPP_24BG
 )
 )
 ;
-EXPECT_TRUE
+ASSERT_TRUE
 (
 TestValidFourCC
 (
@@ -651,7 +669,7 @@ FOURCC_BPP_RAW
 )
 )
 ;
-EXPECT_TRUE
+ASSERT_TRUE
 (
 TestValidFourCC
 (
@@ -660,7 +678,7 @@ FOURCC_BPP_RGBA
 )
 )
 ;
-EXPECT_TRUE
+ASSERT_TRUE
 (
 TestValidFourCC
 (
@@ -669,7 +687,7 @@ FOURCC_BPP_RGBP
 )
 )
 ;
-EXPECT_TRUE
+ASSERT_TRUE
 (
 TestValidFourCC
 (
@@ -678,7 +696,7 @@ FOURCC_BPP_RGBO
 )
 )
 ;
-EXPECT_TRUE
+ASSERT_TRUE
 (
 TestValidFourCC
 (
@@ -687,7 +705,7 @@ FOURCC_BPP_R444
 )
 )
 ;
-EXPECT_TRUE
+ASSERT_TRUE
 (
 TestValidFourCC
 (
@@ -696,7 +714,7 @@ FOURCC_BPP_H420
 )
 )
 ;
-EXPECT_TRUE
+ASSERT_TRUE
 (
 TestValidFourCC
 (
@@ -705,7 +723,7 @@ FOURCC_BPP_H422
 )
 )
 ;
-EXPECT_TRUE
+ASSERT_TRUE
 (
 TestValidFourCC
 (
@@ -714,7 +732,7 @@ FOURCC_BPP_H010
 )
 )
 ;
-EXPECT_TRUE
+ASSERT_TRUE
 (
 TestValidFourCC
 (
@@ -723,7 +741,7 @@ FOURCC_BPP_H210
 )
 )
 ;
-EXPECT_TRUE
+ASSERT_TRUE
 (
 TestValidFourCC
 (
@@ -732,7 +750,7 @@ FOURCC_BPP_I010
 )
 )
 ;
-EXPECT_TRUE
+ASSERT_TRUE
 (
 TestValidFourCC
 (
@@ -741,7 +759,7 @@ FOURCC_BPP_I210
 )
 )
 ;
-EXPECT_TRUE
+ASSERT_TRUE
 (
 TestValidFourCC
 (
@@ -750,7 +768,7 @@ FOURCC_BPP_P010
 )
 )
 ;
-EXPECT_TRUE
+ASSERT_TRUE
 (
 TestValidFourCC
 (
@@ -759,7 +777,7 @@ FOURCC_BPP_P210
 )
 )
 ;
-EXPECT_TRUE
+ASSERT_TRUE
 (
 TestValidFourCC
 (
@@ -768,7 +786,7 @@ FOURCC_BPP_MJPG
 )
 )
 ;
-EXPECT_TRUE
+ASSERT_TRUE
 (
 TestValidFourCC
 (
@@ -777,7 +795,7 @@ FOURCC_BPP_YV12
 )
 )
 ;
-EXPECT_TRUE
+ASSERT_TRUE
 (
 TestValidFourCC
 (
@@ -786,7 +804,7 @@ FOURCC_BPP_YV16
 )
 )
 ;
-EXPECT_TRUE
+ASSERT_TRUE
 (
 TestValidFourCC
 (
@@ -795,7 +813,7 @@ FOURCC_BPP_YV24
 )
 )
 ;
-EXPECT_TRUE
+ASSERT_TRUE
 (
 TestValidFourCC
 (
@@ -804,7 +822,7 @@ FOURCC_BPP_YU12
 )
 )
 ;
-EXPECT_TRUE
+ASSERT_TRUE
 (
 TestValidFourCC
 (
@@ -813,7 +831,7 @@ FOURCC_BPP_IYUV
 )
 )
 ;
-EXPECT_TRUE
+ASSERT_TRUE
 (
 TestValidFourCC
 (
@@ -822,7 +840,7 @@ FOURCC_BPP_YU16
 )
 )
 ;
-EXPECT_TRUE
+ASSERT_TRUE
 (
 TestValidFourCC
 (
@@ -831,7 +849,7 @@ FOURCC_BPP_YU24
 )
 )
 ;
-EXPECT_TRUE
+ASSERT_TRUE
 (
 TestValidFourCC
 (
@@ -840,7 +858,7 @@ FOURCC_BPP_YUYV
 )
 )
 ;
-EXPECT_TRUE
+ASSERT_TRUE
 (
 TestValidFourCC
 (
@@ -849,7 +867,7 @@ FOURCC_BPP_YUVS
 )
 )
 ;
-EXPECT_TRUE
+ASSERT_TRUE
 (
 TestValidFourCC
 (
@@ -858,7 +876,7 @@ FOURCC_BPP_HDYC
 )
 )
 ;
-EXPECT_TRUE
+ASSERT_TRUE
 (
 TestValidFourCC
 (
@@ -867,7 +885,7 @@ FOURCC_BPP_2VUY
 )
 )
 ;
-EXPECT_TRUE
+ASSERT_TRUE
 (
 TestValidFourCC
 (
@@ -876,7 +894,7 @@ FOURCC_BPP_JPEG
 )
 )
 ;
-EXPECT_TRUE
+ASSERT_TRUE
 (
 TestValidFourCC
 (
@@ -885,7 +903,7 @@ FOURCC_BPP_DMB1
 )
 )
 ;
-EXPECT_TRUE
+ASSERT_TRUE
 (
 TestValidFourCC
 (
@@ -894,7 +912,7 @@ FOURCC_BPP_BA81
 )
 )
 ;
-EXPECT_TRUE
+ASSERT_TRUE
 (
 TestValidFourCC
 (
@@ -903,7 +921,7 @@ FOURCC_BPP_RGB3
 )
 )
 ;
-EXPECT_TRUE
+ASSERT_TRUE
 (
 TestValidFourCC
 (
@@ -912,7 +930,7 @@ FOURCC_BPP_BGR3
 )
 )
 ;
-EXPECT_TRUE
+ASSERT_TRUE
 (
 TestValidFourCC
 (
@@ -921,7 +939,7 @@ FOURCC_BPP_H264
 )
 )
 ;
-EXPECT_TRUE
+ASSERT_TRUE
 (
 TestValidFourCC
 (
