@@ -115,6 +115,8 @@ C
 out
 -
 v
+gn
+exe_suffix
 STAGE
 =
 gn

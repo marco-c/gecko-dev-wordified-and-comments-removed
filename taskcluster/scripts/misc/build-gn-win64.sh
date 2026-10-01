@@ -78,6 +78,10 @@ vs
 setup
 .
 sh
+exe_suffix
+=
+.
+exe
 .
 taskcluster
 /
