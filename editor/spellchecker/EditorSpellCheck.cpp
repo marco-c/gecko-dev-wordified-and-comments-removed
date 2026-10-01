@@ -304,6 +304,13 @@ nsXULAppAPI
 .
 h
 "
+#
+include
+"
+nsCharSeparatedTokenizer
+.
+h
+"
 namespace
 mozilla
 {
