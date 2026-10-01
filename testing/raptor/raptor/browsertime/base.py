@@ -8431,12 +8431,27 @@ perf_profiler
 try
 :
                     
+if
+not
 self
 .
 perf_profiler
 .
 stop
 (
+)
+:
+                        
+raise
+RuntimeError
+(
+"
+perf
+recording
+did
+not
+complete
+"
 )
                     
 self
