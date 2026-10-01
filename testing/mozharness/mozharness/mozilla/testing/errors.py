@@ -963,12 +963,6 @@ r
 "
 "
 (
-FAIL
--
-SHOULD
--
-RETRY
-|
 No
 space
 left
@@ -980,13 +974,6 @@ ADBError
 ADBProcessError
 |
 ADBTimeoutError
-|
-program
-finished
-with
-exit
-code
-80
 |
 INFRA
 -
