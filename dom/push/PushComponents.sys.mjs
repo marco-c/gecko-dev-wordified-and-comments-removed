@@ -283,6 +283,17 @@ message
 "
 ;
 const
+OBSERVER_TOPIC_PUSH_MESSAGE_HANDLED
+=
+"
+push
+-
+message
+-
+handled
+"
+;
+const
 OBSERVER_TOPIC_SUBSCRIPTION_CHANGE
 =
 "
@@ -483,6 +494,9 @@ nsIPushErrorReporter
 pushTopic
 :
 OBSERVER_TOPIC_PUSH
+pushMessageHandledTopic
+:
+OBSERVER_TOPIC_PUSH_MESSAGE_HANDLED
 subscriptionChangeTopic
 :
 OBSERVER_TOPIC_SUBSCRIPTION_CHANGE
