@@ -3264,6 +3264,11 @@ of
 contextMentions
 )
 {
+if
+(
+url
+)
+{
 mentionUrls
 .
 add
@@ -3271,6 +3276,7 @@ add
 url
 )
 ;
+}
 }
 }
 }
