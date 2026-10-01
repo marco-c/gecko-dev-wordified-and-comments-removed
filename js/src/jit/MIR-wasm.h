@@ -11378,6 +11378,11 @@ canPmaddubsw
 (
 )
 ;
+bool
+canTestBits
+(
+)
+;
 #
 endif
 wasm
