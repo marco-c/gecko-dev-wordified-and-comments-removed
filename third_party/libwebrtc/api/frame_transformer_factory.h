@@ -257,6 +257,14 @@ optional
 Timestamp
 >
 presentation_timestamp
+uint16_t
+width
+=
+100
+uint16_t
+height
+=
+100
 )
 ;
 }
