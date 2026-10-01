@@ -131,17 +131,6 @@ Path
 ;
 enum
 class
-StyleWindowDragging
-:
-uint8_t
-{
-Default
-Drag
-NoDrag
-}
-;
-enum
-class
 StyleImageLayerRepeat
 :
 uint8_t

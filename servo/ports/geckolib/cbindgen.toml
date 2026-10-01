@@ -1520,6 +1520,9 @@ ImeMode
 "
 ScrollbarWidth
 "
+"
+WindowDragging
+"
 ]
 item_types
 =
