@@ -58,11 +58,13 @@ sh
 "
     
 "
-testing
+python
 /
-mozharness
+mozbuild
 /
-external_tools
+mozbuild
+/
+action
 /
 packagesymbols
 .
