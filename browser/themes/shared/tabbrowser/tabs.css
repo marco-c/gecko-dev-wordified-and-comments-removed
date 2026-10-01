@@ -28622,6 +28622,17 @@ svg
 "
 )
 ;
+media
+not
+(
+-
+moz
+-
+platform
+:
+linux
+)
+{
 #
 TabsToolbar
 &
@@ -28653,6 +28664,7 @@ svg
 "
 )
 ;
+}
 }
 #
 tabbrowser
