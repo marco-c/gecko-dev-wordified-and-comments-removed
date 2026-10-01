@@ -525,6 +525,11 @@ pushTopic
 readonly
 attribute
 AString
+pushMessageHandledTopic
+;
+readonly
+attribute
+AString
 subscriptionChangeTopic
 ;
 readonly
