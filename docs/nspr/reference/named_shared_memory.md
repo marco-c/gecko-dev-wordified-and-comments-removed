@@ -68,7 +68,11 @@ Protocol
 ]
 (
 #
-Shared_Memory_Protocol
+shared
+-
+memory
+-
+protocol
 )
 -
 [
@@ -79,7 +83,13 @@ Functions
 ]
 (
 #
-Named_Shared_Memory_Functions
+named
+-
+shared
+-
+memory
+-
+functions
 )
 (
 shared

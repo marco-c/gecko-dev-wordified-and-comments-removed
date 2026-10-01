@@ -227,8 +227,14 @@ Descriptor
 Types
 ]
 (
-I_O_Types
+i_o_types
+.
+md
 #
-File_Descriptor_Types
+file
+-
+descriptor
+-
+types
 )
 .

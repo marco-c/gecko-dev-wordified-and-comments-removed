@@ -24,7 +24,11 @@ Versioning
 ]
 (
 #
-Identity_and_Versioning
+identity
+-
+and
+-
+versioning
 )
 -
 [
@@ -34,7 +38,11 @@ Cleanup
 ]
 (
 #
-Initialization_and_Cleanup
+initialization
+-
+and
+-
+cleanup
 )
 -
 [
@@ -43,7 +51,9 @@ Initialization
 ]
 (
 #
-Module_Initialization
+module
+-
+initialization
 )
 (
 identity

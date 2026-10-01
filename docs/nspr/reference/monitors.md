@@ -50,7 +50,9 @@ Type
 ]
 (
 #
-Monitor_Type
+monitor
+-
+type
 )
 -
 [
@@ -59,7 +61,9 @@ Functions
 ]
 (
 #
-Monitor_Functions
+monitor
+-
+functions
 )
 With
 a
@@ -308,7 +312,9 @@ to
 NSPR
 ]
 (
-Introduction_to_NSPR
+introduction_to_nspr
+.
+md
 )
 .
 (

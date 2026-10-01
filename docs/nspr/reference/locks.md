@@ -25,7 +25,9 @@ Type
 ]
 (
 #
-Lock_Type
+lock
+-
+type
 )
 -
 [
@@ -34,7 +36,9 @@ Functions
 ]
 (
 #
-Lock_Functions
+lock
+-
+functions
 )
 In
 NSPR
@@ -185,7 +189,9 @@ to
 NSPR
 ]
 (
-Introduction_to_NSPR
+introduction_to_nspr
+.
+md
 )
 .
 For
@@ -201,7 +207,9 @@ Condition
 Variables
 ]
 (
-Condition_Variables
+condition_variables
+.
+md
 )
 .
 (

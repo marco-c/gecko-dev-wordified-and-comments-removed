@@ -230,8 +230,14 @@ Thread
 Priorities
 ]
 (
-Introduction_to_NSPR
+introduction_to_nspr
+.
+md
 #
-Setting_Thread_Priorities
+setting
+-
+thread
+-
+priorities
 )
 .

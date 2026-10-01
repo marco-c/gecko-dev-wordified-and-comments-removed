@@ -72,7 +72,11 @@ Types
 ]
 (
 #
-Linked_List_Types
+linked
+-
+list
+-
+types
 )
 -
 [
@@ -82,7 +86,11 @@ Macros
 ]
 (
 #
-Linked_List_Macros
+linked
+-
+list
+-
+macros
 )
 (
 linked

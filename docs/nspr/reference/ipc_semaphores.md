@@ -53,7 +53,9 @@ Shared
 Memory
 ]
 (
-Named_Shared_Memory
+named_shared_memory
+.
+md
 )
 :
 :
@@ -66,7 +68,11 @@ Functions
 ]
 (
 #
-IPC_Semaphore_Functions
+ipc
+-
+semaphore
+-
+functions
 )
 (
 ipc

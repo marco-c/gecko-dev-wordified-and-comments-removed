@@ -21,7 +21,11 @@ Protocol
 ]
 (
 #
-Anonymous_Memory_Protocol
+anonymous
+-
+memory
+-
+protocol
 )
 -
 [
@@ -32,7 +36,13 @@ Functions
 ]
 (
 #
-Anonymous_Shared_Memory_Functions
+anonymous
+-
+shared
+-
+memory
+-
+functions
 )
 (
 anonymous

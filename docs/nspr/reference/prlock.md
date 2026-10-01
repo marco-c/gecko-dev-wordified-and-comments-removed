@@ -47,11 +47,9 @@ Locks
 "
 ]
 (
-en
-/
-NSPR_API_Reference
-/
-Locks
+locks
+.
+md
 )
 .
 Functions

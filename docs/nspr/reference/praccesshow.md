@@ -53,9 +53,9 @@ See
 PR_Access
 ]
 (
-en
-/
-PR_Access
+pr_access
+.
+md
 )
 for
 what

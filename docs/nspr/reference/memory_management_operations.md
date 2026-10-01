@@ -48,7 +48,11 @@ Functions
 ]
 (
 #
-Memory_Allocation_Functions
+memory
+-
+allocation
+-
+functions
 )
 -
 [
@@ -58,7 +62,11 @@ Macros
 ]
 (
 #
-Memory_Allocation_Macros
+memory
+-
+allocation
+-
+macros
 )
 (
 memory
