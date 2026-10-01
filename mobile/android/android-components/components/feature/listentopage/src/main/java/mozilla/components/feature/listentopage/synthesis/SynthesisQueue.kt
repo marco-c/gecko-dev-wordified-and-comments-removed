@@ -1269,6 +1269,7 @@ playingChunk
 chunkPositionMs
 chunkEnded
 )
+private
 fun
 mapper
 (
