@@ -25,15 +25,6 @@ include
 "
 mozilla
 /
-TelemetryHistogramEnums
-.
-h
-"
-#
-include
-"
-mozilla
-/
 glean
 /
 DomQuotaMetrics
