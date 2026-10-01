@@ -468,6 +468,17 @@ NSUInteger
 )
 styleMask
 ;
++
+(
+NSUInteger
+)
+_validateStyleMask
+:
+(
+NSUInteger
+)
+aStyleMask
+;
 end
 interface
 PopupWindow

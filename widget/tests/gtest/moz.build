@@ -109,6 +109,11 @@ TestNativeKeyBindings
 .
 cpp
 "
+"
+TestPiPWindowSpaceBehavior
+.
+mm
+"
 ]
 if
 CONFIG
