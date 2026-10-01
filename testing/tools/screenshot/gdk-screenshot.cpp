@@ -486,13 +486,9 @@ return
 ;
 }
 }
+else
 #
 endif
-if
-(
-!
-screenshot
-)
 {
 GdkWindow
 *
