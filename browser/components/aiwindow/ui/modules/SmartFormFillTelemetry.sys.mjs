@@ -2077,6 +2077,12 @@ ModelInfo
 }
 modelInfo
 *
+param
+{
+string
+}
+threshold
+*
 *
 returns
 {
@@ -2089,6 +2095,7 @@ startRelevantTabsRequest
 flowId
 request
 modelInfo
+threshold
 )
 {
 Glean
@@ -2120,6 +2127,7 @@ request
 tabs
 .
 length
+threshold
 }
 )
 ;
