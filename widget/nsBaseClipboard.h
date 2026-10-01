@@ -1552,6 +1552,11 @@ mIgnoreEmptyNotification
 =
 false
 ;
+bool
+mMutatingNativeClipboard
+=
+false
+;
 }
 ;
 #
