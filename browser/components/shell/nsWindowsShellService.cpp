@@ -727,10 +727,10 @@ OLECHAR
 SysFreeStringDeleter
 >
 ;
-NS_IMPL_ISUPPORTS
+NS_IMPL_ISUPPORTS_INHERITED
 (
 nsWindowsShellService
-nsIToolkitShellService
+nsShellService
 nsIShellService
 nsIWindowsShellService
 )
