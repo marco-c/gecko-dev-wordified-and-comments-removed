@@ -17896,6 +17896,17 @@ shouldFlattenStickyItem
 false
 ;
 }
+if
+(
+!
+aBuilder
+-
+>
+IsInViewTransitionCapture
+(
+)
+)
+{
 stickyScrollContainer
 -
 >
@@ -17904,6 +17915,7 @@ SetShouldFlatten
 shouldFlattenStickyItem
 )
 ;
+}
 }
 if
 (
