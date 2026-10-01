@@ -501,7 +501,7 @@ BrowserComponents
 manifest
 "
 ]
-EXTRA_JS_MODULES
+MOZ_SRC_FILES
 +
 =
 [
@@ -596,7 +596,7 @@ NIGHTLY_BUILD
 "
 ]
 :
-EXTRA_JS_MODULES
+MOZ_SRC_FILES
 +
 =
 [
