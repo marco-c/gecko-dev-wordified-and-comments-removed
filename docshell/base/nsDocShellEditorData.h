@@ -136,14 +136,6 @@ DetachFromWindow
 (
 )
 ;
-nsresult
-ReattachToWindow
-(
-nsDocShell
-*
-aDocShell
-)
-;
 bool
 WaitingForLoad
 (
