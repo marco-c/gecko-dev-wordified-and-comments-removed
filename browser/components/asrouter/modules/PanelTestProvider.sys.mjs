@@ -12993,15 +12993,6 @@ backdrop
 "
 transparent
 "
-wrapper_content_style
-:
-{
-height
-:
-"
-204px
-"
-}
 screens
 :
 [
