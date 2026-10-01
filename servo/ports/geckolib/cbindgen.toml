@@ -1427,6 +1427,9 @@ Orient
 "
 ColumnFill
 "
+"
+ColumnSpan
+"
 ]
 item_types
 =

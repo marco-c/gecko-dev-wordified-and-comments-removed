@@ -488,6 +488,16 @@ use
 self
 :
 :
+column
+:
+:
+ColumnSpan
+;
+pub
+use
+self
+:
+:
 corner_shape
 :
 :

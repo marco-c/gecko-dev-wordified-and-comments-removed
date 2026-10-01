@@ -96,16 +96,6 @@ Inset
 ;
 enum
 class
-StyleColumnSpan
-:
-uint8_t
-{
-None
-All
-}
-;
-enum
-class
 StyleGeometryBox
 :
 uint8_t
