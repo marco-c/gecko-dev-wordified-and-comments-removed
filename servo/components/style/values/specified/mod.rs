@@ -1275,6 +1275,16 @@ BorderCollapse
 ;
 pub
 use
+self
+:
+:
+table
+:
+:
+EmptyCells
+;
+pub
+use
 super
 :
 :

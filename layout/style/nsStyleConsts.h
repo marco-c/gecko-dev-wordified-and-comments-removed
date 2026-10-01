@@ -557,16 +557,6 @@ Fixed
 ;
 enum
 class
-StyleEmptyCells
-:
-uint8_t
-{
-Hide
-Show
-}
-;
-enum
-class
 StyleImeMode
 :
 uint8_t
