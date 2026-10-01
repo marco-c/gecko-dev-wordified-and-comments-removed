@@ -10778,12 +10778,6 @@ rootScope0
 roots
 )
 ;
-DebugOnly
-<
-uint32_t
->
-blockDepth
-;
 bool
 interpReturnOK
 ;
