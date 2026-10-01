@@ -7,6 +7,13 @@ mozilla_dom_idbrequest_h_
 #
 include
 "
+IDBTransaction
+.
+h
+"
+#
+include
+"
 ReportInternalError
 .
 h
