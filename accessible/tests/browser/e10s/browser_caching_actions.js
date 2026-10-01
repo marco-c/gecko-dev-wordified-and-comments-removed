@@ -1784,6 +1784,15 @@ removed
 "
 )
 ;
+let
+e
+=
+waitForEvent
+(
+EVENT_REORDER
+docAcc
+)
+;
 await
 invokeContentTask
 (
@@ -1812,6 +1821,9 @@ onclick
 ;
 }
 )
+;
+await
+e
 ;
 await
 untilCacheIs
