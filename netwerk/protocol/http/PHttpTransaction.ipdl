@@ -435,6 +435,8 @@ IPCStream
 requestBody
 uint64_t
 reqContentLength
+bool
+requestBodyIsStreaming
 uint64_t
 topLevelOuterContentWindowId
 HttpTrafficCategory
