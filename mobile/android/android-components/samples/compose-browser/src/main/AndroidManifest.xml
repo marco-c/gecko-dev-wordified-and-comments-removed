@@ -512,6 +512,13 @@ xml
 /
 data_extraction_rules
 "
+tools
+:
+ignore
+=
+"
+DataExtractionRules
+"
 >
 <
 activity
