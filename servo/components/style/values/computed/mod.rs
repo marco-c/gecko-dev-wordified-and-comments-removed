@@ -1350,6 +1350,16 @@ use
 self
 :
 :
+svg
+:
+:
+MaskMode
+;
+pub
+use
+self
+:
+:
 text
 :
 :

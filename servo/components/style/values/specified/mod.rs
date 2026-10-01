@@ -1104,6 +1104,16 @@ use
 self
 :
 :
+svg
+:
+:
+MaskMode
+;
+pub
+use
+self
+:
+:
 svg_path
 :
 :
