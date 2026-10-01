@@ -2515,7 +2515,9 @@ spatial_tree
 ;
 surface
 .
-clipping_rect
+clipping_rect_in_picture_space
+(
+)
 .
 intersection
 (

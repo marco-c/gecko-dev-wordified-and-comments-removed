@@ -2557,7 +2557,7 @@ push_surface
 (
 snapshot_surface
 false
-PictureRect
+DeviceRect
 :
 :
 max_rect
