@@ -1256,6 +1256,10 @@ load
 .
 html
 load
+1322643
+.
+svg
+load
 1322852
 .
 html
@@ -1645,6 +1649,10 @@ load
 1
 .
 html
+load
+1932954
+.
+html
 asserts
 (
 5
@@ -1687,5 +1695,9 @@ load
 1906769
 -
 1
+.
+html
+load
+2073222
 .
 html
