@@ -265,14 +265,6 @@ GetElement
 const
 ;
 nsresult
-SetOwnerDocument
-(
-Document
-*
-aDocument
-)
-;
-nsresult
 Clone
 (
 dom

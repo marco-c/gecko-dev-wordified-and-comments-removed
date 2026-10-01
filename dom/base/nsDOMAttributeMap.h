@@ -50,6 +50,9 @@ nsINode
 class
 nsIPrincipal
 ;
+class
+nsNodeInfoManager
+;
 namespace
 mozilla
 {
@@ -373,12 +376,12 @@ return
 mContent
 ;
 }
-nsresult
-SetOwnerDocument
+void
+AdoptCachedAttributes
 (
-Document
+nsNodeInfoManager
 *
-aDocument
+aManager
 )
 ;
 void
