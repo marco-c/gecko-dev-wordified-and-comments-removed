@@ -248,6 +248,11 @@ dom
 =
 [
 "
+Declarative
+.
+h
+"
+"
 PushManager
 .
 h
@@ -272,6 +277,11 @@ UNIFIED_SOURCES
 +
 =
 [
+"
+Declarative
+.
+cpp
+"
 "
 PushManager
 .
