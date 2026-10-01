@@ -156,6 +156,11 @@ run_on_projects
 :
 [
 ]
+code
+-
+review
+:
+false
 dependencies
 :
 build
