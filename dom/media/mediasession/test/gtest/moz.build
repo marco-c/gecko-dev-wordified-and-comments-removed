@@ -58,6 +58,11 @@ UNIFIED_SOURCES
 =
 [
 "
+TestMediaMetadataArtwork
+.
+cpp
+"
+"
 TestPositionState
 .
 cpp
