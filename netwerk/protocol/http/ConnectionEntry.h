@@ -475,7 +475,6 @@ LogConnections
 (
 )
 ;
-const
 RefPtr
 <
 nsHttpConnectionInfo

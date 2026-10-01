@@ -29884,15 +29884,6 @@ aCI
 mConnectionInfo
 =
 aCI
-?
-aCI
--
->
-Clone
-(
-)
-:
-nullptr
 ;
 }
 NS_IMETHODIMP

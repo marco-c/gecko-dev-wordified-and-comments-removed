@@ -4064,6 +4064,7 @@ nsHttpConnectionInfo
 UsingProxy
 (
 )
+const
 {
 if
 (

@@ -13356,8 +13356,14 @@ tlsVersion
 )
 ;
 mConnInfo
+=
+mConnInfo
 -
 >
+Mutate
+(
+)
+.
 SetLessThanTls13
 (
 (
@@ -13379,6 +13385,10 @@ nsITLSSocketControl
 :
 SSL_VERSION_UNKNOWN
 )
+)
+.
+Finalize
+(
 )
 ;
 #
