@@ -425,10 +425,6 @@ rustc_hash
 ;
 extern
 crate
-gleam
-;
-extern
-crate
 num_traits
 ;
 extern
@@ -614,6 +610,7 @@ device
 {
 Device
 DeviceOptions
+GpuBackendConfig
 GraphicsApi
 GraphicsApiInfo
 }

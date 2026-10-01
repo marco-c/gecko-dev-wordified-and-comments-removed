@@ -387,6 +387,7 @@ render_api
 *
 set_profiler_hooks
 AsyncPropertySampler
+GpuBackendConfig
 AsyncScreenshotHandle
 ClipRadius
 Compositor
@@ -7166,7 +7167,13 @@ Device
 :
 new
 (
+GpuBackendConfig
+:
+:
+Gl
+(
 gl
+)
 DeviceOptions
 {
 crash_annotator
@@ -11211,7 +11218,13 @@ sender
 match
 create_webrender_instance
 (
+GpuBackendConfig
+:
+:
+Gl
+(
 gl
+)
 notifier
 opts
 shaders
