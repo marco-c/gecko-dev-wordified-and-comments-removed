@@ -10373,6 +10373,10 @@ aSpecializeVideo
 if
 (
 layerNeedsInitialization
+&
+&
+!
+aIsDRM
 )
 {
 mContentCALayer
