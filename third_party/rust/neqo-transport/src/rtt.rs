@@ -907,7 +907,6 @@ mut
 self
 lost
 :
-&
 AckRate
 )
 {
@@ -922,6 +921,7 @@ lost
 ;
 }
 pub
+const
 fn
 frame_acked
 (
@@ -930,7 +930,6 @@ mut
 self
 acked
 :
-&
 AckRate
 )
 {

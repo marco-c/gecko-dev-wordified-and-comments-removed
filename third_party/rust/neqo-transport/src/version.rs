@@ -11,6 +11,12 @@ neqo_common
 qdebug
 ;
 use
+serde
+:
+:
+Serialize
+;
+use
 crate
 :
 :
@@ -36,6 +42,7 @@ Copy
 PartialEq
 Eq
 Enum
+Serialize
 )
 ]
 #

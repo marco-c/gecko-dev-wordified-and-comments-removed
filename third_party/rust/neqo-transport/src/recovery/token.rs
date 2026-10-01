@@ -36,7 +36,7 @@ StreamType
 tracking
 :
 :
-AckToken
+PacketRange
 }
 ;
 pub
@@ -142,7 +142,12 @@ StreamRecoveryToken
 )
 Ack
 (
-AckToken
+Box
+<
+[
+PacketRange
+]
+>
 )
 Crypto
 (
@@ -180,9 +185,12 @@ usize
 )
 NewConnectionId
 (
+Box
+<
 ConnectionIdEntry
 <
 Srt
+>
 >
 )
 RetireConnectionId

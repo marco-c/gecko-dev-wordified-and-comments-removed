@@ -200,8 +200,7 @@ Instant
 >
 Res
 <
-(
-)
+bool
 >
 ;
 }
@@ -426,8 +425,7 @@ Instant
 >
 Res
 <
-(
-)
+bool
 >
 {
 qtrace
@@ -626,8 +624,7 @@ Instant
 >
 Res
 <
-(
-)
+bool
 >
 ;
 }
@@ -875,6 +872,13 @@ extended_connect_close_session
 (
 conn
 session_id
+extended_connect
+:
+:
+ExtendedConnectType
+:
+:
+ConnectUdp
 error
 message
 now
@@ -918,8 +922,7 @@ Instant
 >
 Res
 <
-(
-)
+bool
 >
 {
 self
@@ -1043,8 +1046,7 @@ Instant
 >
 Res
 <
-(
-)
+bool
 >
 ;
 }
@@ -1216,8 +1218,7 @@ Instant
 >
 Res
 <
-(
-)
+bool
 >
 {
 self
@@ -1575,8 +1576,7 @@ Instant
 >
 Res
 <
-(
-)
+bool
 >
 {
 let
@@ -1841,7 +1841,7 @@ Header
 {
 self
 .
-insert
+push
 (
 Http3ServerEvent
 :
@@ -1890,7 +1890,7 @@ Header
 {
 self
 .
-insert
+push
 (
 Http3ServerEvent
 :
@@ -1925,7 +1925,7 @@ Bytes
 {
 self
 .
-insert
+push
 (
 Http3ServerEvent
 :

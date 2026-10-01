@@ -18,6 +18,12 @@ enum_map
 Enum
 ;
 use
+serde
+:
+:
+Serialize
+;
+use
 strum
 :
 :
@@ -39,6 +45,7 @@ Default
 Debug
 FromRepr
 EnumIter
+Serialize
 )
 ]
 #
