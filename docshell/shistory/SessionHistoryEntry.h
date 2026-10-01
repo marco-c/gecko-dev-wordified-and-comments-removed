@@ -715,6 +715,7 @@ uint32_t
 LoadType
 (
 )
+const
 {
 return
 mLoadType
