@@ -170,8 +170,6 @@ nullptr
 endif
 size_t
 opt_dirty_max
-=
-DIRTY_MAX_DEFAULT
 ;
 #
 ifdef

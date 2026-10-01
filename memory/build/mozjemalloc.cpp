@@ -14408,6 +14408,12 @@ page_size
 ;
 #
 endif
+opt_dirty_max
+=
+DIRTY_MAX_DEFAULT_BYTES
+/
+gPageSize
+;
 if
 (
 (

@@ -571,13 +571,8 @@ kChunkSizeMask
 }
 #
 define
-DIRTY_MAX_DEFAULT
-(
-1U
-<
-<
-8
-)
+DIRTY_MAX_DEFAULT_BYTES
+1_MiB
 enum
 PoisonType
 {
