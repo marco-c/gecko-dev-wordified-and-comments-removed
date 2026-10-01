@@ -2473,7 +2473,7 @@ arenaBase
 gc
 :
 :
-MapAlignedPages
+MapAlignedPagesAsStack
 (
 arenaSize
 ContStackAlignment
