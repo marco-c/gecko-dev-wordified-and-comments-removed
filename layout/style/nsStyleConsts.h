@@ -129,16 +129,6 @@ Auto
 ;
 enum
 class
-StyleImageOrientation
-:
-uint8_t
-{
-None
-FromImage
-}
-;
-enum
-class
 StyleScrollbarWidth
 :
 uint8_t
