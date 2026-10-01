@@ -52,6 +52,13 @@ h
 #
 include
 "
+nsCharSeparatedTokenizer
+.
+h
+"
+#
+include
+"
 nsIEffectiveTLDService
 .
 h
