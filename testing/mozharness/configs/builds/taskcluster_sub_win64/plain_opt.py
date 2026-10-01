@@ -19,4 +19,14 @@ disable_package_metrics
 "
 :
 True
+    
+"
+mozconfig_variant
+"
+:
+"
+plain
+-
+opt
+"
 }

@@ -345,6 +345,16 @@ SHIP_LICENSED_FONTS
 }
     
 "
+app_name
+"
+:
+"
+mobile
+/
+android
+"
+    
+"
 disable_package_metrics
 "
 :

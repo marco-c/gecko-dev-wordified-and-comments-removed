@@ -275,17 +275,6 @@ data
 valgrind
 .
 json
-MOZCONFIG
-:
-browser
-/
-config
-/
-mozconfigs
-/
-linux64
-/
-valgrind
 run
 :
 using

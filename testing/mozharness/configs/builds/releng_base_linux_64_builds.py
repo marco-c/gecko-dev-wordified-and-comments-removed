@@ -395,7 +395,23 @@ sbin
 }
     
 "
+mozconfig_variant
+"
+:
+"
+nightly
+"
+    
+"
 platform
+"
+:
+"
+linux64
+"
+    
+"
+mozconfig_platform
 "
 :
 "

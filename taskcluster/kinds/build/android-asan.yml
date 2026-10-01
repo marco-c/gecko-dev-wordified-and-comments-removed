@@ -571,15 +571,6 @@ fuzzing
 asan
 -
 tc
-mozconfig
--
-variant
-:
-nightly
--
-fuzzing
--
-asan
 use
 -
 sccache
