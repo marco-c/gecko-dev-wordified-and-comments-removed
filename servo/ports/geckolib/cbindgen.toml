@@ -1559,6 +1559,9 @@ DirectionProperty
 "
 TextDecorationStyle
 "
+"
+ColorInterpolation
+"
 ]
 item_types
 =

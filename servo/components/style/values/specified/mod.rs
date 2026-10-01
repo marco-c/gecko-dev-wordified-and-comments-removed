@@ -1214,6 +1214,16 @@ use
 self
 :
 :
+svg
+:
+:
+ColorInterpolation
+;
+pub
+use
+self
+:
+:
 svg_path
 :
 :
