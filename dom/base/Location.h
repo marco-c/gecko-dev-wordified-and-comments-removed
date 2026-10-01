@@ -159,6 +159,7 @@ NS_DECL_CYCLE_COLLECTION_WRAPPERCACHE_CLASS
 (
 Location
 )
+MOZ_CAN_RUN_SCRIPT
 void
 Assign
 (
@@ -261,6 +262,7 @@ ErrorResult
 aError
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 SetProtocol
 (
@@ -290,6 +292,7 @@ ErrorResult
 aError
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 SetHost
 (
@@ -319,6 +322,7 @@ ErrorResult
 aError
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 SetHostname
 (
@@ -348,6 +352,7 @@ ErrorResult
 aError
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 SetPort
 (
@@ -377,6 +382,7 @@ ErrorResult
 aError
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 SetPathname
 (
@@ -406,6 +412,7 @@ ErrorResult
 aError
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 SetSearch
 (
@@ -435,6 +442,7 @@ ErrorResult
 aError
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 SetHash
 (
@@ -558,6 +566,12 @@ nsCOMPtr
 nsPIDOMWindowInner
 >
 mInnerWindow
+;
+RefPtr
+<
+DOMStringList
+>
+mRelevantDocNullAncestorOriginsList
 ;
 }
 ;

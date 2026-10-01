@@ -1396,6 +1396,7 @@ nsresult
 aStatus
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 bool
 MaybeHandleLoadErrorWithURIFixup
 (

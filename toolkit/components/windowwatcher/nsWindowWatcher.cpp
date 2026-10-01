@@ -2018,10 +2018,15 @@ nsIWebBrowserChrome
 >
 newWindowChrome
 ;
+nsCOMPtr
+windowCreator
+=
+mWindowCreator
+;
 nsresult
 rv
 =
-mWindowCreator
+windowCreator
 -
 >
 CreateChromeWindow

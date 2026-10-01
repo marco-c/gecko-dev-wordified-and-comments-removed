@@ -749,6 +749,7 @@ however
 *
 /
 [
+can_run_script
 noscript
 ]
 BrowsingContext
@@ -761,7 +762,7 @@ in
 nsIURI
 aUri
 in
-ACString
+AString
 aName
 in
 ACString

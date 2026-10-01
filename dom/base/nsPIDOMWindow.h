@@ -2846,6 +2846,7 @@ eNo
 =
 0
 ;
+MOZ_CAN_RUN_SCRIPT
 virtual
 nsresult
 OpenNoNavigate
@@ -3021,6 +3022,7 @@ GetOpener
 =
 0
 ;
+MOZ_CAN_RUN_SCRIPT
 virtual
 nsresult
 Open
@@ -3056,6 +3058,7 @@ _retval
 =
 0
 ;
+MOZ_CAN_RUN_SCRIPT
 virtual
 nsresult
 OpenDialog
