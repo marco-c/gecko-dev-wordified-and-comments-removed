@@ -2,6 +2,10 @@ include
 protocol
 PSpeechRecognition
 ;
+include
+protocol
+PUtilityProcess
+;
 using
 mozilla
 :
@@ -81,6 +85,9 @@ Utility
 protocol
 PHWInference
 {
+manager
+PUtilityProcess
+;
 parent
 :
 async
@@ -155,6 +162,11 @@ PSpeechRecognitionParent
 endpoint
 ContentParentId
 contentId
+)
+;
+async
+__delete__
+(
 )
 ;
 }

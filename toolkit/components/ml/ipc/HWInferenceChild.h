@@ -88,11 +88,6 @@ HWInferenceChild
 =
 default
 ;
-void
-Shutdown
-(
-)
-;
 mozilla
 :
 :

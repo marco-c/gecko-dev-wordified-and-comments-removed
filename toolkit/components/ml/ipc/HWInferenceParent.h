@@ -302,15 +302,6 @@ HWInferenceParent
 =
 default
 ;
-RefPtr
-<
-ipc
-:
-:
-UtilityProcessParent
->
-mUtilityParent
-;
 const
 RefPtr
 <
