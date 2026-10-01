@@ -620,8 +620,6 @@ WebGPUParent
 *
 aParent
 RawId
-aDeviceId
-RawId
 aQueueId
 )
 ;

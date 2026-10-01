@@ -894,8 +894,6 @@ WGPUGlobal
 *
 aContext
 RawId
-aDeviceId
-RawId
 aQueueId
 nsTArray
 <
@@ -914,7 +912,6 @@ SharedTexture
 onBeforeQueueSubmit
 (
 aContext
-aDeviceId
 aQueueId
 aSignalSemaphores
 )
@@ -934,7 +931,6 @@ ffi
 wgpu_vksemaphore_create_signal_semaphore
 (
 aContext
-aDeviceId
 aQueueId
 &
 rawFd

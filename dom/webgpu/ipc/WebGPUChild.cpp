@@ -3921,8 +3921,6 @@ QueueSubmit
 (
 RawId
 aSelfId
-RawId
-aDeviceId
 nsTArray
 <
 RawId
@@ -3946,7 +3944,6 @@ wgpu_client_queue_submit
 GetClient
 (
 )
-aDeviceId
 aSelfId
 {
 aCommandBuffers

@@ -626,12 +626,6 @@ QueueSubmit
 GetId
 (
 )
-mParent
--
->
-GetId
-(
-)
 list
 externalTextureSourceIds
 )

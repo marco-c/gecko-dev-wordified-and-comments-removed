@@ -187,8 +187,6 @@ WGPUGlobal
 *
 aContext
 RawId
-aDeviceId
-RawId
 aQueueId
 nsTArray
 <
