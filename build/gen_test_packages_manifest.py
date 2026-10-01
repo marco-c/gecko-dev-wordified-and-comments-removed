@@ -321,7 +321,7 @@ harness
             
 required
 =
-True
+False
             
 action
 =
@@ -487,6 +487,24 @@ ALL_HARNESSES
 ]
 )
     
+condprof
+=
+args
+.
+condprof
+    
+trainhop
+=
+args
+.
+trainhop
+    
+if
+args
+.
+jittest
+:
+        
 harness_requirements
 [
 "
@@ -499,6 +517,16 @@ append
 jsshell
 )
     
+if
+args
+.
+jsreftest
+and
+args
+.
+reftest
+:
+        
 harness_requirements
 [
 "
@@ -513,6 +541,10 @@ args
 reftest
 )
     
+if
+condprof
+:
+        
 harness_requirements
 [
 "
@@ -522,17 +554,7 @@ common
 .
 append
 (
-"
-target
-.
 condprof
-.
-tests
-.
-tar
-.
-zst
-"
 )
     
 for
@@ -570,30 +592,8 @@ append
 pkg_name
 )
         
-harness_requirements
-[
-harness
-]
-.
-append
-(
-"
-target
-.
-condprof
-.
-tests
-.
-tar
-.
-zst
-"
-)
-        
 if
-harness
-in
-HARNESSES_NEEDING_TRAINHOP
+condprof
 :
             
 harness_requirements
@@ -603,17 +603,25 @@ harness
 .
 append
 (
-"
-target
-.
+condprof
+)
+        
+if
+harness
+in
+HARNESSES_NEEDING_TRAINHOP
+and
 trainhop
+:
+            
+harness_requirements
+[
+harness
+]
 .
-tests
-.
-tar
-.
-zst
-"
+append
+(
+trainhop
 )
     
 return
