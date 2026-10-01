@@ -59,6 +59,7 @@ void
 int32_t
 target_bitrate
 )
+const
 >
 ;
 class

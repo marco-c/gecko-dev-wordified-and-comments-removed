@@ -282,6 +282,7 @@ SequenceChecker
 kDetached
 }
 ;
+const
 TargetBitrateCallback
 bitrate_callback_
 ;
