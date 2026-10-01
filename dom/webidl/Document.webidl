@@ -4462,6 +4462,11 @@ BinaryName
 "
 PermissionsPolicy
 "
+BindingAlias
+=
+"
+permissionsPolicy
+"
 Pref
 =
 "
