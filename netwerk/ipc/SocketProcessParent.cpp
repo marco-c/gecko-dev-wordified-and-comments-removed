@@ -581,10 +581,6 @@ OnChannelClosed
 (
 )
 ;
-mHost
-=
-nullptr
-;
 }
 }
 bool

@@ -687,6 +687,10 @@ mAppInForeground
 (
 true
 )
+mProcess
+(
+nullptr
+)
 mProcessToken
 (
 0

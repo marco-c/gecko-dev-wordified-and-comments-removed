@@ -389,11 +389,11 @@ mNumUnexpectedCrashes
 =
 0
 ;
-RefPtr
-<
 RDDProcessHost
->
+*
 mProcess
+=
+nullptr
 ;
 uint64_t
 mProcessToken
