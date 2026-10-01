@@ -1206,8 +1206,6 @@ DoDeleteText
 (
 )
 failed
-but
-ignored
 "
 )
 ;
