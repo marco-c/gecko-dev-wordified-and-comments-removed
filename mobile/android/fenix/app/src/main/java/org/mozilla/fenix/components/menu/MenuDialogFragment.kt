@@ -3474,6 +3474,11 @@ store
 state
 .
 isEligible
+showPasswords
+=
+settings
+.
+isAutofillSupported
 ipProtectionMenuState
 =
 ipProtectionMenuState
