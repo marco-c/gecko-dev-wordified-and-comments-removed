@@ -2778,6 +2778,13 @@ html
 ]
 [
 "
+test_node_selected_flag_after_splitText
+.
+html
+"
+]
+[
+"
 test_omt_eager_baseline
 .
 html
