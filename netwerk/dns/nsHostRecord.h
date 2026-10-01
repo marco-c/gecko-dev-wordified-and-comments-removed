@@ -856,6 +856,11 @@ mDoomed
 false
 ;
 bool
+mInEvictionQueue
+=
+false
+;
+bool
 mTRRSuccess
 =
 false
