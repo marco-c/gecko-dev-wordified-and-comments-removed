@@ -189,7 +189,9 @@ else
         
 remove_unaccounted
 =
-False
+FileRegistry
+(
+)
         
 remove_empty_directories
 =
