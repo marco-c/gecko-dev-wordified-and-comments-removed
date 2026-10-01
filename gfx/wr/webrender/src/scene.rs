@@ -8,6 +8,7 @@ ColorF
 DynamicProperties
 Epoch
 FontRenderMode
+IdNamespace
 }
 ;
 use
@@ -971,6 +972,10 @@ pub
 display_list
 :
 BuiltDisplayList
+pub
+namespace
+:
+IdNamespace
 }
 #
 [
@@ -1107,6 +1112,9 @@ PipelineId
 epoch
 :
 Epoch
+namespace
+:
+IdNamespace
 display_list
 :
 BuiltDisplayList
@@ -1118,6 +1126,7 @@ new_pipeline
 ScenePipeline
 {
 display_list
+namespace
 }
 ;
 self
@@ -1663,6 +1672,9 @@ max_shared_surface_size
 :
 2048
 enable_dithering
+:
+false
+enable_yuv_overlay_stability
 :
 false
 }

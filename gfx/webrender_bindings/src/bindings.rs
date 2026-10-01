@@ -387,7 +387,6 @@ render_api
 *
 set_profiler_hooks
 AsyncPropertySampler
-GpuBackendConfig
 AsyncScreenshotHandle
 ClipRadius
 Compositor
@@ -400,6 +399,7 @@ CompositorSurfaceUsage
 Device
 DeviceOptions
 FrameBuilderConfig
+GpuBackendConfig
 LayerCompositor
 MappableCompositor
 MappedTileInfo
@@ -2245,6 +2245,7 @@ WrExternalImageType
 NativeTexture
 =
 >
+{
 ExternalImageSource
 :
 :
@@ -2257,6 +2258,7 @@ image
 handle
 )
 )
+}
 WrExternalImageType
 :
 :
@@ -6433,6 +6435,9 @@ max_shared_surface_size
 :
 4096
 enable_dithering
+:
+false
+enable_yuv_overlay_stability
 :
 false
 }
@@ -10832,6 +10837,19 @@ false
 }
 ;
 let
+enable_yuv_overlay_stability
+=
+cfg
+!
+(
+target_os
+=
+"
+windows
+"
+)
+;
+let
 enable_shared_instance_buffer
 =
 static_prefs
@@ -11172,6 +11190,7 @@ reject_software_rasterizer
 low_quality_pinch_zoom
 max_shared_surface_size
 enable_dithering
+enable_yuv_overlay_stability
 enable_shared_instance_buffer
 .
 .
