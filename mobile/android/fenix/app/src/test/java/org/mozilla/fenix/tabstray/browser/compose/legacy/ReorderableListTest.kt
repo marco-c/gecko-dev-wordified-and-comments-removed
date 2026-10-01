@@ -199,7 +199,7 @@ tabstray
 .
 controller
 .
-NoOpTabInteractionHandler
+ItemInteractionHandler
 import
 org
 .
@@ -211,7 +211,7 @@ tabstray
 .
 controller
 .
-TabInteractionHandler
+NoOpItemInteractionHandler
 class
 ReorderableListTest
 {
@@ -255,7 +255,7 @@ handler
 =
 mockk
 <
-TabInteractionHandler
+ItemInteractionHandler
 >
 (
 relaxed
@@ -419,7 +419,7 @@ handler
 =
 mockk
 <
-TabInteractionHandler
+ItemInteractionHandler
 >
 (
 relaxed
@@ -756,9 +756,9 @@ listState
 LazyListState
 handler
 :
-TabInteractionHandler
+ItemInteractionHandler
 =
-NoOpTabInteractionHandler
+NoOpItemInteractionHandler
 )
 :
 ListReorderState

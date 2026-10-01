@@ -579,7 +579,7 @@ browser
 .
 compose
 .
-TabItemInteractionState
+ItemInteractionState
 import
 org
 .
@@ -1062,7 +1062,7 @@ Modifier
 Modifier
 interactionState
 :
-TabItemInteractionState
+ItemInteractionState
 onEditTabGroupClick
 :
 (
@@ -2493,9 +2493,9 @@ toMutableList
 val
 interactionState
 :
-TabItemInteractionState
+ItemInteractionState
 =
-TabItemInteractionState
+ItemInteractionState
 (
 )
 )
@@ -2742,7 +2742,7 @@ groupSize
 4
 interactionState
 =
-TabItemInteractionState
+ItemInteractionState
 (
 isDragged
 =
@@ -2778,7 +2778,7 @@ groupSize
 4
 interactionState
 =
-TabItemInteractionState
+ItemInteractionState
 (
 isHoveredByItem
 =
@@ -3262,7 +3262,7 @@ onClick
 )
 interactionState
 =
-TabItemInteractionState
+ItemInteractionState
 (
 )
 onEditTabGroupClick

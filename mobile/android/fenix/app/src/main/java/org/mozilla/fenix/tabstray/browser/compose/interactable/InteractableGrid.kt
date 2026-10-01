@@ -479,7 +479,7 @@ browser
 .
 compose
 .
-TabItemInteractionState
+ItemInteractionState
 import
 org
 .
@@ -491,7 +491,7 @@ tabstray
 .
 controller
 .
-TabInteractionHandler
+ItemInteractionHandler
 import
 org
 .
@@ -557,9 +557,9 @@ grid
 .
 *
 param
-tabInteractionHandler
-Handlers
-tab
+itemInteractionHandler
+Handles
+item
 interactions
 such
 as
@@ -585,7 +585,7 @@ items
 param
 liveReorderEnabled
 Whether
-tab
+item
 reorders
 should
 happen
@@ -628,9 +628,9 @@ candidates
 .
 Note
 that
-*
 this
 is
+*
 trivially
 true
 but
@@ -656,9 +656,9 @@ createGridInteractionState
 gridState
 :
 LazyGridState
-tabInteractionHandler
+itemInteractionHandler
 :
-TabInteractionHandler
+ItemInteractionHandler
 ignoredItems
 :
 Set
@@ -724,9 +724,9 @@ gridState
 touchSlop
 =
 touchSlop
-tabInteractionHandler
+itemInteractionHandler
 =
-tabInteractionHandler
+itemInteractionHandler
 scope
 =
 scope
@@ -751,7 +751,6 @@ return
 state
 }
 /
-*
 *
 *
 Stable
@@ -934,8 +933,7 @@ AnimationVector2D
 /
 *
 *
-A
-tab
+An
 item
 '
 s
@@ -1001,6 +999,7 @@ given
 index
 .
 *
+*
 param
 index
 the
@@ -1037,6 +1036,7 @@ a
 drag
 event
 .
+*
 *
 param
 offset
@@ -1084,6 +1084,7 @@ is
 updated
 .
 *
+*
 param
 offset
 the
@@ -1117,7 +1118,6 @@ Boolean
 /
 *
 *
-*
 Called
 when
 a
@@ -1132,7 +1132,6 @@ onDragEnd
 (
 )
 /
-*
 *
 *
 Called
@@ -1162,7 +1161,6 @@ onDragCancelled
 /
 *
 *
-*
 Updates
 the
 stored
@@ -1188,7 +1186,6 @@ coordinates
 LayoutCoordinates
 )
 /
-*
 *
 *
 Called
@@ -1311,9 +1308,9 @@ it
 will
 be
 excluded
-*
 as
 a
+*
 candidate
 for
 interaction
@@ -1327,9 +1324,9 @@ candidate
 .
 *
 param
-tabInteractionHandler
-Handlers
-tab
+itemInteractionHandler
+Handles
+item
 interactions
 such
 as
@@ -1369,7 +1366,7 @@ items
 param
 liveReorderEnabled
 Whether
-tab
+item
 reorders
 should
 happen
@@ -1420,9 +1417,9 @@ dragAndDropEnabled
 Boolean
 private
 val
-tabInteractionHandler
+itemInteractionHandler
 :
-TabInteractionHandler
+ItemInteractionHandler
 private
 val
 onLongPress
@@ -1905,7 +1902,7 @@ toFloat
 )
 }
 }
-tabInteractionHandler
+itemInteractionHandler
 .
 onMove
 (
@@ -1955,7 +1952,7 @@ DragAndDrop
 -
 >
 {
-tabInteractionHandler
+itemInteractionHandler
 .
 onDrop
 (
@@ -1991,7 +1988,7 @@ doReorder
 mode
 )
 }
-tabInteractionHandler
+itemInteractionHandler
 .
 onDragCancel
 (
@@ -2026,7 +2023,7 @@ if
 moved
 )
 {
-tabInteractionHandler
+itemInteractionHandler
 .
 onDragCancel
 (
@@ -2049,7 +2046,7 @@ if
 moved
 )
 {
-tabInteractionHandler
+itemInteractionHandler
 .
 onDragCancel
 (
@@ -2080,13 +2077,13 @@ scroll
 job
 is
 currently
-*
 executing
 when
 a
 new
 one
 is
+*
 asked
 for
 it
@@ -2532,7 +2529,7 @@ let
 active
 -
 >
-tabInteractionHandler
+itemInteractionHandler
 .
 onDragStart
 (
@@ -3147,8 +3144,8 @@ in
 space
 represented
 as
-*
 an
+*
 [
 Offset
 ]
@@ -3167,8 +3164,8 @@ for
 comparisons
 to
 other
-*
 distances
+*
 calculated
 with
 the
@@ -3183,6 +3180,7 @@ representing
 the
 distance
 .
+*
 *
 param
 offset
@@ -3253,6 +3251,7 @@ an
 Offset
 ]
 .
+*
 *
 param
 offset
@@ -3876,7 +3875,6 @@ else
 /
 prefer
 the
-tab
 item
 '
 s
@@ -3894,7 +3892,7 @@ the
 body
 /
 /
-or
+otherwise
 it
 becomes
 very
@@ -4316,7 +4314,7 @@ Composable
 (
 interactionState
 :
-TabItemInteractionState
+ItemInteractionState
 )
 -
 >
@@ -4324,9 +4322,9 @@ Unit
 )
 {
 val
-tabItemInteractionState
+itemInteractionState
 =
-TabItemInteractionState
+ItemInteractionState
 (
 isHoveredByItem
 =
@@ -4563,7 +4561,7 @@ tabGroupEntranceAnimation
 (
 interactionState
 =
-tabItemInteractionState
+itemInteractionState
 key
 =
 key
@@ -4700,13 +4698,12 @@ true
 {
 content
 (
-tabItemInteractionState
+itemInteractionState
 )
 }
 }
 }
 /
-*
 *
 *
 Calculate
@@ -4855,6 +4852,7 @@ and
 drag
 gestures
 .
+*
 *
 param
 reorderState
@@ -5058,7 +5056,6 @@ TabItemKey
 =
 Any
 /
-*
 *
 *
 Class

@@ -379,7 +379,7 @@ tabstray
 .
 controller
 .
-NoOpTabInteractionHandler
+ItemInteractionHandler
 import
 org
 .
@@ -391,7 +391,7 @@ tabstray
 .
 controller
 .
-TabInteractionHandler
+NoOpItemInteractionHandler
 class
 InteractableGridTest
 {
@@ -1591,7 +1591,7 @@ handler
 =
 mockk
 <
-TabInteractionHandler
+ItemInteractionHandler
 >
 (
 relaxed
@@ -1709,7 +1709,7 @@ handler
 =
 mockk
 <
-TabInteractionHandler
+ItemInteractionHandler
 >
 (
 relaxed
@@ -1816,7 +1816,7 @@ handler
 =
 mockk
 <
-TabInteractionHandler
+ItemInteractionHandler
 >
 (
 relaxed
@@ -1932,7 +1932,7 @@ handler
 =
 mockk
 <
-TabInteractionHandler
+ItemInteractionHandler
 >
 (
 relaxed
@@ -2041,7 +2041,7 @@ handler
 =
 mockk
 <
-TabInteractionHandler
+ItemInteractionHandler
 >
 (
 relaxed
@@ -2140,7 +2140,7 @@ handler
 =
 mockk
 <
-TabInteractionHandler
+ItemInteractionHandler
 >
 (
 relaxed
@@ -2270,7 +2270,7 @@ handler
 =
 mockk
 <
-TabInteractionHandler
+ItemInteractionHandler
 >
 (
 relaxed
@@ -2386,7 +2386,7 @@ handler
 =
 mockk
 <
-TabInteractionHandler
+ItemInteractionHandler
 >
 (
 relaxed
@@ -2492,7 +2492,7 @@ handler
 =
 mockk
 <
-TabInteractionHandler
+ItemInteractionHandler
 >
 (
 relaxed
@@ -2693,7 +2693,7 @@ handler
 =
 mockk
 <
-TabInteractionHandler
+ItemInteractionHandler
 >
 (
 relaxed
@@ -2803,7 +2803,7 @@ handler
 =
 mockk
 <
-TabInteractionHandler
+ItemInteractionHandler
 >
 (
 relaxed
@@ -2903,7 +2903,7 @@ handler
 =
 mockk
 <
-TabInteractionHandler
+ItemInteractionHandler
 >
 (
 relaxed
@@ -3001,7 +3001,7 @@ handler
 =
 mockk
 <
-TabInteractionHandler
+ItemInteractionHandler
 >
 (
 relaxed
@@ -3110,7 +3110,7 @@ handler
 =
 mockk
 <
-TabInteractionHandler
+ItemInteractionHandler
 >
 (
 relaxed
@@ -3476,7 +3476,7 @@ twoTabReorderState
 (
 handler
 :
-TabInteractionHandler
+ItemInteractionHandler
 alphaTabOffset
 :
 IntOffset
@@ -3700,9 +3700,9 @@ gridState
 LazyGridState
 handler
 :
-TabInteractionHandler
+ItemInteractionHandler
 =
-NoOpTabInteractionHandler
+NoOpItemInteractionHandler
 liveReorderEnabled
 :
 Boolean
@@ -3718,7 +3718,7 @@ GridInteractionStateImpl
 gridState
 =
 gridState
-tabInteractionHandler
+itemInteractionHandler
 =
 handler
 scope

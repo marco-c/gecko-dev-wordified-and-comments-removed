@@ -283,7 +283,7 @@ tabstray
 .
 controller
 .
-TabInteractionHandler
+ItemInteractionHandler
 import
 org
 .
@@ -440,8 +440,8 @@ tab
 .
 *
 param
-tabInteractionHandler
-Handlers
+itemInteractionHandler
+Handles
 tab
 interactions
 such
@@ -508,9 +508,9 @@ TabsTrayItem
 -
 >
 Unit
-tabInteractionHandler
+itemInteractionHandler
 :
-TabInteractionHandler
+ItemInteractionHandler
 onUnlockPbmClick
 :
 (
@@ -565,9 +565,9 @@ displayTabsInGrid
 config
 .
 displayTabsInGrid
-tabInteractionHandler
+itemInteractionHandler
 =
-tabInteractionHandler
+itemInteractionHandler
 selectedItemIndex
 =
 state

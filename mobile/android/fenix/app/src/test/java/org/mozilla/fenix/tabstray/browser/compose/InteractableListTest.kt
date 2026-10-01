@@ -357,7 +357,7 @@ tabstray
 .
 controller
 .
-NoOpTabInteractionHandler
+ItemInteractionHandler
 import
 org
 .
@@ -369,7 +369,7 @@ tabstray
 .
 controller
 .
-TabInteractionHandler
+NoOpItemInteractionHandler
 class
 InteractableListTest
 {
@@ -1229,7 +1229,7 @@ handler
 =
 mockk
 <
-TabInteractionHandler
+ItemInteractionHandler
 >
 (
 relaxed
@@ -1336,7 +1336,7 @@ handler
 =
 mockk
 <
-TabInteractionHandler
+ItemInteractionHandler
 >
 (
 relaxed
@@ -1445,7 +1445,7 @@ handler
 =
 mockk
 <
-TabInteractionHandler
+ItemInteractionHandler
 >
 (
 relaxed
@@ -1576,7 +1576,7 @@ handler
 =
 mockk
 <
-TabInteractionHandler
+ItemInteractionHandler
 >
 (
 relaxed
@@ -1695,7 +1695,7 @@ handler
 =
 mockk
 <
-TabInteractionHandler
+ItemInteractionHandler
 >
 (
 relaxed
@@ -1801,7 +1801,7 @@ handler
 =
 mockk
 <
-TabInteractionHandler
+ItemInteractionHandler
 >
 (
 relaxed
@@ -1913,7 +1913,7 @@ handler
 =
 mockk
 <
-TabInteractionHandler
+ItemInteractionHandler
 >
 (
 relaxed
@@ -2032,7 +2032,7 @@ handler
 =
 mockk
 <
-TabInteractionHandler
+ItemInteractionHandler
 >
 (
 relaxed
@@ -2135,7 +2135,7 @@ handler
 =
 mockk
 <
-TabInteractionHandler
+ItemInteractionHandler
 >
 (
 relaxed
@@ -2240,7 +2240,7 @@ handler
 =
 mockk
 <
-TabInteractionHandler
+ItemInteractionHandler
 >
 (
 relaxed
@@ -2464,7 +2464,7 @@ handler
 =
 mockk
 <
-TabInteractionHandler
+ItemInteractionHandler
 >
 (
 relaxed
@@ -2566,7 +2566,7 @@ handler
 =
 mockk
 <
-TabInteractionHandler
+ItemInteractionHandler
 >
 (
 relaxed
@@ -2662,7 +2662,7 @@ handler
 =
 mockk
 <
-TabInteractionHandler
+ItemInteractionHandler
 >
 (
 relaxed
@@ -2756,7 +2756,7 @@ handler
 =
 mockk
 <
-TabInteractionHandler
+ItemInteractionHandler
 >
 (
 relaxed
@@ -2848,7 +2848,7 @@ handler
 =
 mockk
 <
-TabInteractionHandler
+ItemInteractionHandler
 >
 (
 relaxed
@@ -2935,7 +2935,7 @@ handler
 =
 mockk
 <
-TabInteractionHandler
+ItemInteractionHandler
 >
 (
 relaxed
@@ -3040,7 +3040,7 @@ handler
 =
 mockk
 <
-TabInteractionHandler
+ItemInteractionHandler
 >
 (
 relaxed
@@ -3146,7 +3146,7 @@ handler
 =
 mockk
 <
-TabInteractionHandler
+ItemInteractionHandler
 >
 (
 relaxed
@@ -3241,7 +3241,7 @@ handler
 =
 mockk
 <
-TabInteractionHandler
+ItemInteractionHandler
 >
 (
 relaxed
@@ -3533,7 +3533,7 @@ twoTabReorderState
 (
 handler
 :
-TabInteractionHandler
+ItemInteractionHandler
 alphaTabOffset
 :
 Int
@@ -3750,9 +3750,9 @@ listState
 LazyListState
 handler
 :
-TabInteractionHandler
+ItemInteractionHandler
 =
-NoOpTabInteractionHandler
+NoOpItemInteractionHandler
 dragAndDropEnabled
 :
 Boolean
@@ -3773,7 +3773,7 @@ ListInteractionStateImpl
 listState
 =
 listState
-tabInteractionHandler
+itemInteractionHandler
 =
 handler
 scope

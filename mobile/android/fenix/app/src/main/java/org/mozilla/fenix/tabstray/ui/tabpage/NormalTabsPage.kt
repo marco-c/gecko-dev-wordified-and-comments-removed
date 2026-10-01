@@ -331,7 +331,7 @@ tabstray
 .
 controller
 .
-TabInteractionHandler
+ItemInteractionHandler
 import
 org
 .
@@ -551,7 +551,7 @@ drag
 handling
 *
 param
-tabInteractionHandler
+itemInteractionHandler
 Handles
 tab
 interactions
@@ -978,9 +978,9 @@ Boolean
 dragProcessingState
 :
 DragProcessingState
-tabInteractionHandler
+itemInteractionHandler
 :
-TabInteractionHandler
+ItemInteractionHandler
 enteringGroupId
 :
 String
@@ -1425,9 +1425,9 @@ onTabGroupOnboardingDismiss
 onTabGroupOnboardingShown
 =
 onTabGroupOnboardingShown
-tabInteractionHandler
+itemInteractionHandler
 =
-tabInteractionHandler
+itemInteractionHandler
 focusEnabled
 =
 focusEnabled

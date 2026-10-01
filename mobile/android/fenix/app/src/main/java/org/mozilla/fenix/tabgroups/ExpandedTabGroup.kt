@@ -399,7 +399,7 @@ tabstray
 .
 controller
 .
-NoOpTabInteractionHandler
+ItemInteractionHandler
 import
 org
 .
@@ -411,7 +411,7 @@ tabstray
 .
 controller
 .
-TabInteractionHandler
+NoOpItemInteractionHandler
 import
 org
 .
@@ -592,7 +592,7 @@ list
 .
 *
 param
-tabInteractionHandler
+itemInteractionHandler
 Handler
 for
 tab
@@ -622,9 +622,9 @@ ExpandedTabGroupActions
 displayTabsInGrid
 :
 Boolean
-tabInteractionHandler
+itemInteractionHandler
 :
-TabInteractionHandler
+ItemInteractionHandler
 )
 {
 Column
@@ -720,9 +720,9 @@ TabsTrayState
 Mode
 .
 Normal
-tabInteractionHandler
+itemInteractionHandler
 =
-tabInteractionHandler
+itemInteractionHandler
 modifier
 =
 Modifier
@@ -1300,9 +1300,9 @@ displayTabsInGrid
 previewState
 .
 displayTabsInGrid
-tabInteractionHandler
+itemInteractionHandler
 =
-NoOpTabInteractionHandler
+NoOpItemInteractionHandler
 )
 }
 }

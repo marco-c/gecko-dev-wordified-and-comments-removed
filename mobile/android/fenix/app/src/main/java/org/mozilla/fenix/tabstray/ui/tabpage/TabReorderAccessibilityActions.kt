@@ -159,7 +159,7 @@ tabstray
 .
 controller
 .
-TabInteractionHandler
+ItemInteractionHandler
 import
 org
 .
@@ -298,7 +298,7 @@ not
 .
 *
 param
-tabInteractionHandler
+itemInteractionHandler
 Handler
 the
 reorder
@@ -331,9 +331,9 @@ TabReorderGeometry
 enabled
 :
 Boolean
-tabInteractionHandler
+itemInteractionHandler
 :
-TabInteractionHandler
+ItemInteractionHandler
 )
 :
 List
@@ -388,7 +388,7 @@ currentHandler
 by
 rememberUpdatedState
 (
-tabInteractionHandler
+itemInteractionHandler
 )
 return
 remember
@@ -617,7 +617,7 @@ composed
 /
 private
 fun
-TabInteractionHandler
+ItemInteractionHandler
 .
 moveRelativeTo
 (

@@ -467,7 +467,7 @@ browser
 .
 compose
 .
-TabItemInteractionState
+ItemInteractionState
 import
 org
 .
@@ -593,7 +593,7 @@ param
 interactionState
 :
 [
-TabItemInteractionState
+ItemInteractionState
 ]
 holding
 hovered
@@ -685,9 +685,9 @@ Modifier
 Modifier
 interactionState
 :
-TabItemInteractionState
+ItemInteractionState
 =
-TabItemInteractionState
+ItemInteractionState
 (
 )
 selectionState
@@ -940,7 +940,7 @@ TabsTrayItem
 Tab
 interactionState
 :
-TabItemInteractionState
+ItemInteractionState
 selectionState
 :
 TabsTrayItemSelectionState
@@ -1447,11 +1447,11 @@ Mozilla
 Domain
 "
 val
-tabItemInteractionState
+itemInteractionState
 :
-TabItemInteractionState
+ItemInteractionState
 =
-TabItemInteractionState
+ItemInteractionState
 (
 )
 )
@@ -1701,9 +1701,9 @@ isSelected
 =
 false
 )
-tabItemInteractionState
+itemInteractionState
 =
-TabItemInteractionState
+ItemInteractionState
 (
 isDragged
 =
@@ -1735,9 +1735,9 @@ isSelected
 =
 false
 )
-tabItemInteractionState
+itemInteractionState
 =
-TabItemInteractionState
+ItemInteractionState
 (
 isDragged
 =
@@ -1848,7 +1848,7 @@ interactionState
 =
 tabListItemState
 .
-tabItemInteractionState
+itemInteractionState
 )
 }
 }

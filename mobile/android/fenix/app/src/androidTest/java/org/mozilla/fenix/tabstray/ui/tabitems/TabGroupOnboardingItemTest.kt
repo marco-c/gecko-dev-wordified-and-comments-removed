@@ -261,7 +261,7 @@ tabstray
 .
 controller
 .
-NoOpTabInteractionHandler
+NoOpItemInteractionHandler
 import
 org
 .
@@ -1008,9 +1008,9 @@ Normal
 focusEnabled
 =
 true
-tabInteractionHandler
+itemInteractionHandler
 =
-NoOpTabInteractionHandler
+NoOpItemInteractionHandler
 onTabClose
 =
 {

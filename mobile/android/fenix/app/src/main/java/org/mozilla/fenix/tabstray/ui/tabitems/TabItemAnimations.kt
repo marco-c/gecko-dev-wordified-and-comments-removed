@@ -375,7 +375,7 @@ browser
 .
 compose
 .
-TabItemInteractionState
+ItemInteractionState
 import
 org
 .
@@ -450,7 +450,7 @@ tabGridItemAnimatedAlpha
 (
 interactionState
 :
-TabItemInteractionState
+ItemInteractionState
 )
 :
 State
@@ -519,7 +519,7 @@ tabListItemAnimatedAlpha
 (
 interactionState
 :
-TabItemInteractionState
+ItemInteractionState
 )
 :
 State
@@ -590,7 +590,7 @@ tabGridItemAnimatedScale
 (
 interactionState
 :
-TabItemInteractionState
+ItemInteractionState
 )
 :
 State
@@ -670,7 +670,7 @@ tabListItemAnimatedScale
 (
 interactionState
 :
-TabItemInteractionState
+ItemInteractionState
 )
 :
 State
@@ -834,7 +834,7 @@ tabItemGridInteractionAnimation
 (
 interactionState
 :
-TabItemInteractionState
+ItemInteractionState
 )
 :
 Modifier
@@ -996,7 +996,7 @@ tabItemGroupListInteractionAnimation
 (
 interactionState
 :
-TabItemInteractionState
+ItemInteractionState
 key
 :
 String
@@ -1186,7 +1186,7 @@ tabItemListInteractionAnimation
 (
 interactionState
 :
-TabItemInteractionState
+ItemInteractionState
 )
 :
 Modifier
@@ -1259,7 +1259,7 @@ tabGroupAppearanceAlpha
 (
 interactionState
 :
-TabItemInteractionState
+ItemInteractionState
 key
 :
 String
@@ -1387,7 +1387,7 @@ tabGroupAppearanceScale
 (
 interactionState
 :
-TabItemInteractionState
+ItemInteractionState
 key
 :
 String
@@ -1575,7 +1575,7 @@ tabGroupEntranceAnimation
 (
 interactionState
 :
-TabItemInteractionState
+ItemInteractionState
 key
 :
 String
@@ -1743,7 +1743,7 @@ cornerSize
 Dp
 interactionState
 :
-TabItemInteractionState
+ItemInteractionState
 )
 :
 Modifier

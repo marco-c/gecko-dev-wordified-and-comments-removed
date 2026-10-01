@@ -1041,7 +1041,7 @@ tabstray
 .
 controller
 .
-TabInteractionHandler
+ItemInteractionHandler
 import
 org
 .
@@ -1574,11 +1574,11 @@ animationDurationMs
 200
 private
 val
-tabInteractionHandler
+itemInteractionHandler
 =
 object
 :
-TabInteractionHandler
+ItemInteractionHandler
 {
 override
 fun
@@ -3227,9 +3227,9 @@ expandedGroupActions
 displayTabsInGrid
 =
 displayTabsInGrid
-tabInteractionHandler
+itemInteractionHandler
 =
-tabInteractionHandler
+itemInteractionHandler
 )
 }
 private
@@ -3730,9 +3730,9 @@ onTabAutoCloseBannerShown
 =
 {
 }
-tabInteractionHandler
+itemInteractionHandler
 =
-tabInteractionHandler
+itemInteractionHandler
 onInactiveTabsCFRShown
 =
 {

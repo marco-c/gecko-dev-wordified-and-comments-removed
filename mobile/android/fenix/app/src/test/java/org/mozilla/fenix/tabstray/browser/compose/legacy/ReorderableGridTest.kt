@@ -219,7 +219,7 @@ tabstray
 .
 controller
 .
-NoOpTabInteractionHandler
+ItemInteractionHandler
 import
 org
 .
@@ -231,7 +231,7 @@ tabstray
 .
 controller
 .
-TabInteractionHandler
+NoOpItemInteractionHandler
 class
 ReorderableGridTest
 {
@@ -275,7 +275,7 @@ handler
 =
 mockk
 <
-TabInteractionHandler
+ItemInteractionHandler
 >
 (
 relaxed
@@ -460,7 +460,7 @@ handler
 =
 mockk
 <
-TabInteractionHandler
+ItemInteractionHandler
 >
 (
 relaxed
@@ -726,7 +726,7 @@ handler
 =
 mockk
 <
-TabInteractionHandler
+ItemInteractionHandler
 >
 (
 relaxed
@@ -895,7 +895,7 @@ handler
 =
 mockk
 <
-TabInteractionHandler
+ItemInteractionHandler
 >
 (
 relaxed
@@ -1080,7 +1080,7 @@ handler
 =
 mockk
 <
-TabInteractionHandler
+ItemInteractionHandler
 >
 (
 relaxed
@@ -1268,7 +1268,7 @@ handler
 =
 mockk
 <
-TabInteractionHandler
+ItemInteractionHandler
 >
 (
 relaxed
@@ -1534,9 +1534,9 @@ gridState
 LazyGridState
 handler
 :
-TabInteractionHandler
+ItemInteractionHandler
 =
-NoOpTabInteractionHandler
+NoOpItemInteractionHandler
 )
 :
 GridReorderState
@@ -1547,7 +1547,7 @@ GridReorderState
 gridState
 =
 gridState
-tabInteractionHandler
+itemInteractionHandler
 =
 handler
 scope

@@ -629,7 +629,7 @@ browser
 .
 compose
 .
-TabItemInteractionState
+ItemInteractionState
 import
 org
 .
@@ -873,7 +873,7 @@ swipingEnabled
 Boolean
 interactionState
 :
-TabItemInteractionState
+ItemInteractionState
 onCloseClick
 :
 (
@@ -1258,7 +1258,7 @@ Unit
 )
 interactionState
 :
-TabItemInteractionState
+ItemInteractionState
 itemInfo
 :
 CollectionItemInfo
@@ -2072,9 +2072,9 @@ Domain
 val
 interactionState
 :
-TabItemInteractionState
+ItemInteractionState
 =
-TabItemInteractionState
+ItemInteractionState
 (
 )
 )
@@ -2290,7 +2290,7 @@ multiSelectionSelected
 false
 interactionState
 =
-TabItemInteractionState
+ItemInteractionState
 (
 isDragged
 =
@@ -2318,7 +2318,7 @@ multiSelectionSelected
 false
 interactionState
 =
-TabItemInteractionState
+ItemInteractionState
 (
 isHoveredByItem
 =
@@ -2543,7 +2543,7 @@ onCloseTabClick
 }
 interactionState
 =
-TabItemInteractionState
+ItemInteractionState
 (
 )
 )

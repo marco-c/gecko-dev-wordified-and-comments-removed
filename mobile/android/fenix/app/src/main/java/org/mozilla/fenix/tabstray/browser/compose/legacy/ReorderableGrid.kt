@@ -397,7 +397,7 @@ browser
 .
 compose
 .
-TabItemInteractionState
+ItemInteractionState
 import
 org
 .
@@ -409,7 +409,7 @@ tabstray
 .
 controller
 .
-TabInteractionHandler
+ItemInteractionHandler
 /
 *
 *
@@ -459,9 +459,9 @@ items
 .
 *
 param
-tabInteractionHandler
+itemInteractionHandler
 The
-tab
+item
 interaction
 handler
 for
@@ -509,9 +509,9 @@ List
 <
 Any
 >
-tabInteractionHandler
+itemInteractionHandler
 :
-TabInteractionHandler
+ItemInteractionHandler
 onLongPress
 :
 (
@@ -578,9 +578,9 @@ onLongPress
 hapticFeedback
 =
 hapticFeedback
-tabInteractionHandler
+itemInteractionHandler
 =
-tabInteractionHandler
+itemInteractionHandler
 )
 }
 return
@@ -699,9 +699,9 @@ items
 .
 *
 param
-tabInteractionHandler
+itemInteractionHandler
 The
-tab
+item
 interaction
 handler
 for
@@ -776,9 +776,9 @@ emptyList
 )
 private
 val
-tabInteractionHandler
+itemInteractionHandler
 :
-TabInteractionHandler
+ItemInteractionHandler
 )
 {
 internal
@@ -1107,7 +1107,7 @@ if
 moved
 )
 {
-tabInteractionHandler
+itemInteractionHandler
 .
 onDragCancel
 (
@@ -1177,7 +1177,7 @@ let
 key
 -
 >
-tabInteractionHandler
+itemInteractionHandler
 .
 onDragStart
 (
@@ -1550,7 +1550,7 @@ Composable
 (
 interactionState
 :
-TabItemInteractionState
+ItemInteractionState
 )
 -
 >
@@ -1694,7 +1694,7 @@ true
 {
 content
 (
-TabItemInteractionState
+ItemInteractionState
 (
 isHoveredByItem
 =
@@ -1717,7 +1717,6 @@ draggingItemKey
 }
 }
 /
-*
 *
 *
 Calculate

@@ -173,7 +173,7 @@ browser
 .
 compose
 .
-TabItemInteractionState
+ItemInteractionState
 import
 org
 .
@@ -256,7 +256,7 @@ ComposableUnderTest
 (
 interactionState
 =
-TabItemInteractionState
+ItemInteractionState
 (
 isDragged
 =
@@ -317,7 +317,7 @@ ComposableUnderTest
 (
 interactionState
 =
-TabItemInteractionState
+ItemInteractionState
 (
 isDragged
 =
@@ -376,7 +376,7 @@ ComposableUnderTest
 (
 interactionState
 =
-TabItemInteractionState
+ItemInteractionState
 (
 isDragged
 =
@@ -436,7 +436,7 @@ ComposableUnderTest
 (
 interactionState
 =
-TabItemInteractionState
+ItemInteractionState
 (
 isDragged
 =
@@ -494,7 +494,7 @@ ComposableUnderTest
 (
 interactionState
 =
-TabItemInteractionState
+ItemInteractionState
 (
 isDragged
 =
@@ -555,7 +555,7 @@ ComposableUnderTest
 (
 interactionState
 =
-TabItemInteractionState
+ItemInteractionState
 (
 isDragged
 =
@@ -616,7 +616,7 @@ ComposableUnderTest
 (
 interactionState
 =
-TabItemInteractionState
+ItemInteractionState
 (
 isDragged
 =
@@ -679,7 +679,7 @@ ComposableUnderTest
 (
 interactionState
 =
-TabItemInteractionState
+ItemInteractionState
 (
 isDragged
 =
@@ -798,9 +798,9 @@ ComposableUnderTest
 (
 interactionState
 :
-TabItemInteractionState
+ItemInteractionState
 =
-TabItemInteractionState
+ItemInteractionState
 (
 )
 isMediaActive

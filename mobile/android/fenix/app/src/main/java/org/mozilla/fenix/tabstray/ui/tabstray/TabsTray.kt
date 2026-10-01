@@ -393,7 +393,7 @@ tabstray
 .
 controller
 .
-NoOpTabInteractionHandler
+ItemInteractionHandler
 import
 org
 .
@@ -405,7 +405,7 @@ tabstray
 .
 controller
 .
-TabInteractionHandler
+NoOpItemInteractionHandler
 import
 org
 .
@@ -1188,8 +1188,8 @@ user
 .
 *
 param
-tabInteractionHandler
-Handlers
+itemInteractionHandler
+Handles
 tab
 interactions
 such
@@ -1601,9 +1601,9 @@ onTabAutoCloseBannerShown
 -
 >
 Unit
-tabInteractionHandler
+itemInteractionHandler
 :
-TabInteractionHandler
+ItemInteractionHandler
 onInactiveTabsCFRShown
 :
 (
@@ -2032,9 +2032,9 @@ onInactiveTabClick
 onInactiveTabClose
 =
 onInactiveTabClose
-tabInteractionHandler
+itemInteractionHandler
 =
-tabInteractionHandler
+itemInteractionHandler
 shouldShowInactiveTabsCFR
 =
 state
@@ -2189,9 +2189,9 @@ onItemClick
 onItemLongClick
 =
 onItemLongClick
-tabInteractionHandler
+itemInteractionHandler
 =
-tabInteractionHandler
+itemInteractionHandler
 onUnlockPbmClick
 =
 onUnlockPbmClick
@@ -2563,9 +2563,9 @@ page
 )
 )
 }
-tabInteractionHandler
+itemInteractionHandler
 =
-NoOpTabInteractionHandler
+NoOpItemInteractionHandler
 onTabClose
 =
 {

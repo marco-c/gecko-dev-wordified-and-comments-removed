@@ -89,11 +89,11 @@ a
 candidate
 for
 a
-tab
 list
 item
 interaction
 .
+*
 *
 property
 type
