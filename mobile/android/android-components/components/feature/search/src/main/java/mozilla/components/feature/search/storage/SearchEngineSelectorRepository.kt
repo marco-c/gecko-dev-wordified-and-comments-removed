@@ -91,6 +91,12 @@ coroutines
 .
 CoroutineContext
 import
+kotlinx
+.
+coroutines
+.
+withContext
+import
 mozilla
 .
 appservices
@@ -604,6 +610,11 @@ CoroutineContext
 )
 :
 Bundle
+=
+withContext
+(
+coroutineContext
+)
 {
 try
 {
@@ -666,6 +677,7 @@ first
 .
 identifier
 return
+withContext
 Bundle
 (
 list
@@ -703,6 +715,7 @@ load
 )
 }
 return
+withContext
 Bundle
 (
 list
