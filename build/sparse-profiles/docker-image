@@ -76,17 +76,6 @@ action
 tooltool
 .
 py
-path
-:
-testing
-/
-mozharness
-/
-external_tools
-/
-robustcheckout
-.
-py
 #
 Required
 for

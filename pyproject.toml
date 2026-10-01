@@ -646,6 +646,15 @@ style
 *
 "
 "
+taskcluster
+/
+scripts
+/
+robustcheckout
+.
+py
+"
+"
 testing
 /
 condprofile

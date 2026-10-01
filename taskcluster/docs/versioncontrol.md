@@ -133,11 +133,9 @@ In
 -
 tree
 :
-testing
+taskcluster
 /
-mozharness
-/
-external_tools
+scripts
 /
 robustcheckout
 .

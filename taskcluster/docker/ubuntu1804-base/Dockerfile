@@ -325,11 +325,9 @@ python3
 #
 %
 include
-testing
+taskcluster
 /
-mozharness
-/
-external_tools
+scripts
 /
 robustcheckout
 .
@@ -337,11 +335,9 @@ py
 COPY
 topsrcdir
 /
-testing
+taskcluster
 /
-mozharness
-/
-external_tools
+scripts
 /
 robustcheckout
 .
