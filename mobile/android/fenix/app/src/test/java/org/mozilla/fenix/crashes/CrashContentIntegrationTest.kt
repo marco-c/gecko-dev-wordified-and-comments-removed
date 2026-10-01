@@ -512,6 +512,7 @@ getBottomToolbarHeightValue
 =
 {
 _
+_
 -
 >
 100
@@ -720,6 +721,7 @@ getBottomToolbarHeightValue
 =
 {
 _
+_
 -
 >
 100
@@ -858,6 +860,7 @@ _
 getBottomToolbarHeightValue
 =
 {
+_
 _
 -
 >
@@ -1087,6 +1090,7 @@ _
 getBottomToolbarHeightValue
 =
 {
+_
 _
 -
 >
@@ -1335,6 +1339,7 @@ _
 getBottomToolbarHeightValue
 =
 {
+_
 _
 -
 >

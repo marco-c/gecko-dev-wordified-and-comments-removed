@@ -5409,6 +5409,12 @@ bottomToolbarHeight
 =
 getBottomToolbarHeight
 (
+includeTabStripIfAvailable
+=
+customTabSessionId
+=
+=
+null
 includeNavBarIfEnabled
 =
 customTabSessionId
@@ -6641,6 +6647,7 @@ includeTabStrip
 getBottomToolbarHeightValue
 =
 {
+includeTabStrip
 includeNavBar
 -
 >
@@ -6648,6 +6655,7 @@ this
 .
 getBottomToolbarHeight
 (
+includeTabStrip
 includeNavBar
 )
 }
@@ -11084,6 +11092,12 @@ bottomToolbarHeight
 =
 getBottomToolbarHeight
 (
+includeTabStripIfAvailable
+=
+customTabSessionId
+=
+=
+null
 includeNavBarIfEnabled
 =
 customTabSessionId
@@ -11924,6 +11938,12 @@ bottomToolbarHeight
 =
 getBottomToolbarHeight
 (
+includeTabStripIfAvailable
+=
+customTabSessionId
+=
+=
+null
 includeNavBarIfEnabled
 =
 customTabSessionId
