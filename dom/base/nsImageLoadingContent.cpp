@@ -8926,8 +8926,14 @@ end
 )
 )
 ;
+const
+bool
+kFlush
+=
+false
+;
+const
 uint32_t
-i
 n
 =
 imageMapList
@@ -8935,11 +8941,12 @@ imageMapList
 >
 Length
 (
-true
+kFlush
 )
 ;
 for
 (
+uint32_t
 i
 =
 0
@@ -8963,6 +8970,7 @@ imageMapList
 Item
 (
 i
+kFlush
 )
 ;
 if
