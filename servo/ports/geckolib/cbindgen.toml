@@ -1568,6 +1568,9 @@ FontOpticalSizing
 "
 FontKerning
 "
+"
+FontSmoothing
+"
 ]
 item_types
 =

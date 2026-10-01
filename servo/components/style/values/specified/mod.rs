@@ -812,6 +812,16 @@ use
 self
 :
 :
+font
+:
+:
+FontSmoothing
+;
+pub
+use
+self
+:
+:
 image
 :
 :
