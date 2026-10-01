@@ -234,6 +234,16 @@ aCallback
 )
 ;
 void
+FinishOpenOrFolderPanel
+(
+nsIFilePickerShownCallback
+*
+aCallback
+ResultCode
+aResult
+)
+;
+void
 BeginPanelAsync
 (
 NSSavePanel
