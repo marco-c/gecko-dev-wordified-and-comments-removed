@@ -1043,6 +1043,9 @@ TaskQueue
 >
 &
 aTaskQueue
+AllocPolicy
+*
+aPolicy
 )
 {
 return
@@ -1054,6 +1057,7 @@ aConfig
 aConfig
 &
 aTaskQueue
+aPolicy
 ]
 (
 )
@@ -1066,6 +1070,7 @@ StrictSupportsEncoderCodec
 (
 aConfig
 aTaskQueue
+aPolicy
 )
 ;
 }

@@ -26,6 +26,9 @@ namespace
 mozilla
 {
 class
+AllocPolicy
+;
+class
 StaticMutex
 ;
 enum
@@ -157,6 +160,11 @@ TaskQueue
 >
 &
 aTaskQueue
+AllocPolicy
+*
+aPolicy
+=
+nullptr
 )
 ;
 static

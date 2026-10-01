@@ -76,6 +76,9 @@ namespace
 mozilla
 {
 class
+AllocPolicy
+;
+class
 EncoderConfig
 ;
 class
@@ -747,6 +750,9 @@ TaskQueue
 >
 &
 aTaskQueue
+AllocPolicy
+*
+aPolicy
 )
 ;
 void

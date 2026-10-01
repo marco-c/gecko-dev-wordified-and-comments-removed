@@ -201,6 +201,9 @@ TaskQueue
 >
 &
 aTaskQueue
+AllocPolicy
+*
+aPolicy
 )
 {
 return
@@ -211,6 +214,7 @@ StrictSupportsCodec
 (
 aConfig
 aTaskQueue
+aPolicy
 )
 ;
 }
