@@ -4822,8 +4822,12 @@ container
 .
 querySelectorAll
 (
+'
+[
+id
+^
+=
 "
-#
 widgets
 -
 header
@@ -4831,10 +4835,12 @@ header
 context
 -
 panel
+"
+]
 panel
 -
 item
-"
+'
 )
 )
 .
