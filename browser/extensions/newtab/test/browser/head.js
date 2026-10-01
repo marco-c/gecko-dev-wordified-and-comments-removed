@@ -943,7 +943,6 @@ getElementById
 root
 "
 )
-?
 .
 children
 .
