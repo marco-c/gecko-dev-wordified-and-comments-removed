@@ -4,6 +4,16 @@ mozilla_dom_StorageDBUpdater_h
 #
 define
 mozilla_dom_StorageDBUpdater_h
+#
+include
+"
+ErrorList
+.
+h
+"
+class
+mozIStorageConnection
+;
 namespace
 mozilla
 :
