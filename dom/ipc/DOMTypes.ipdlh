@@ -1477,6 +1477,9 @@ uploadStream
 uint64_t
 uploadStreamLength
 ;
+bool
+uploadStreamIsStreaming
+;
 nsCString
 ?
 contentType

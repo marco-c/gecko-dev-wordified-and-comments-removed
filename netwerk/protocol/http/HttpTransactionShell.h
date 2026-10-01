@@ -745,6 +745,15 @@ aIsForWebTransport
 0
 ;
 virtual
+void
+SetRequestBodyIsStreaming
+(
+bool
+aIsStreaming
+)
+{
+}
+virtual
 TimeStamp
 GetOnStartRequestStartTime
 (

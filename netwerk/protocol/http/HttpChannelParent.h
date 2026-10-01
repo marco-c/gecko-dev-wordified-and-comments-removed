@@ -534,6 +534,10 @@ IPCStream
 &
 uploadStream
 const
+bool
+&
+uploadStreamIsStreaming
+const
 int16_t
 &
 priority

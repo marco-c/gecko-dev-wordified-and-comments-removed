@@ -1404,6 +1404,10 @@ mHasRequestBody
 &
 !
 requestContentLength
+&
+&
+!
+mRequestBodyIsStreaming
 )
 {
 mHasRequestBody
