@@ -5129,11 +5129,11 @@ GetDatabase
 (
 )
 ;
-MOZ_ASSERT
+if
 (
 DB
 )
-;
+{
 adapter
 =
 MakeUnique
@@ -5144,6 +5144,7 @@ ConnectionAdapter
 DB
 )
 ;
+}
 }
 else
 {
