@@ -613,7 +613,10 @@ IsNormal
 )
 ;
 }
-uint8_t
+mozilla
+:
+:
+StyleFontVariantCaps
 variantCaps
 :
 3
@@ -5796,7 +5799,10 @@ SupportsVariantCaps
 (
 Script
 aScript
-uint32_t
+mozilla
+:
+:
+StyleFontVariantCaps
 aVariantCaps
 bool
 &

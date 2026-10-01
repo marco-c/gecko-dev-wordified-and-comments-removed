@@ -1785,7 +1785,10 @@ aStyle
 variantCaps
 =
 =
-NS_FONT_VARIANT_CAPS_NORMAL
+StyleFontVariantCaps
+:
+:
+Normal
 )
 &
 &

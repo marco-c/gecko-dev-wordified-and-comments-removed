@@ -1030,6 +1030,16 @@ use
 self
 :
 :
+font
+:
+:
+FontVariantCaps
+;
+pub
+use
+self
+:
+:
 image
 :
 :

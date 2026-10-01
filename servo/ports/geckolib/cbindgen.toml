@@ -1574,6 +1574,9 @@ FontSmoothing
 "
 FontVariantPosition
 "
+"
+FontVariantCaps
+"
 ]
 item_types
 =
