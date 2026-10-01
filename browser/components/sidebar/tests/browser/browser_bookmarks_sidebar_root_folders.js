@@ -29,6 +29,15 @@ mjs
 "
 )
 ;
+const
+{
+showBookmarksSidebar
+}
+=
+SidebarTestUtils
+.
+bookmarks
+;
 let
 innerFolderGuid
 ;
@@ -552,6 +561,7 @@ component
 await
 showBookmarksSidebar
 (
+window
 )
 ;
 const
@@ -686,6 +696,7 @@ component
 await
 showBookmarksSidebar
 (
+window
 )
 ;
 const
@@ -873,6 +884,7 @@ contentWindow
 await
 showBookmarksSidebar
 (
+window
 )
 ;
 const
@@ -1187,6 +1199,7 @@ sidebar
 await
 showBookmarksSidebar
 (
+window
 )
 ;
 const
@@ -1511,6 +1524,7 @@ sidebar
 await
 showBookmarksSidebar
 (
+window
 )
 ;
 const

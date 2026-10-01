@@ -260,7 +260,7 @@ popPrefEnv
 ;
 async
 function
-showBookmarksSidebar
+showBookmarksSidebarWithTestFolder
 (
 )
 {
@@ -838,7 +838,7 @@ component
 }
 =
 await
-showBookmarksSidebar
+showBookmarksSidebarWithTestFolder
 (
 )
 ;
@@ -1020,7 +1020,7 @@ component
 }
 =
 await
-showBookmarksSidebar
+showBookmarksSidebarWithTestFolder
 (
 )
 ;
@@ -1253,7 +1253,7 @@ component
 }
 =
 await
-showBookmarksSidebar
+showBookmarksSidebarWithTestFolder
 (
 )
 ;
@@ -1527,7 +1527,7 @@ component
 }
 =
 await
-showBookmarksSidebar
+showBookmarksSidebarWithTestFolder
 (
 )
 ;
@@ -1668,7 +1668,7 @@ component
 }
 =
 await
-showBookmarksSidebar
+showBookmarksSidebarWithTestFolder
 (
 )
 ;
@@ -1854,7 +1854,7 @@ component
 }
 =
 await
-showBookmarksSidebar
+showBookmarksSidebarWithTestFolder
 (
 )
 ;
@@ -1911,7 +1911,7 @@ component
 }
 =
 await
-showBookmarksSidebar
+showBookmarksSidebarWithTestFolder
 (
 )
 ;
@@ -2146,7 +2146,7 @@ component
 }
 =
 await
-showBookmarksSidebar
+showBookmarksSidebarWithTestFolder
 (
 )
 ;
@@ -2430,7 +2430,7 @@ component
 }
 =
 await
-showBookmarksSidebar
+showBookmarksSidebarWithTestFolder
 (
 )
 ;
@@ -2499,7 +2499,7 @@ component
 }
 =
 await
-showBookmarksSidebar
+showBookmarksSidebarWithTestFolder
 (
 )
 ;
@@ -2651,7 +2651,7 @@ component
 }
 =
 await
-showBookmarksSidebar
+showBookmarksSidebarWithTestFolder
 (
 )
 ;
@@ -2830,7 +2830,7 @@ contentWindow
 }
 =
 await
-showBookmarksSidebar
+showBookmarksSidebarWithTestFolder
 (
 )
 ;
