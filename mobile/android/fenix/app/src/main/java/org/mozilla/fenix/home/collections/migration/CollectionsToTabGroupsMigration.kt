@@ -1360,7 +1360,6 @@ dateTimeProvider
 currentTimeMillis
 (
 )
-)
 tabIds
 =
 recoverableTabs
@@ -1373,6 +1372,7 @@ state
 .
 id
 }
+)
 )
 MigrationResult
 .

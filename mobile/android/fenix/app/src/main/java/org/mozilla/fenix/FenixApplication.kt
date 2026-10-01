@@ -3755,6 +3755,13 @@ invoke
 (
 )
 }
+components
+.
+tabDataCoordinator
+.
+initialize
+(
+)
 }
 private
 fun

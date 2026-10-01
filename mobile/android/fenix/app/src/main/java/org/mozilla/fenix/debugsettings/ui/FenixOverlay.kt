@@ -1552,12 +1552,6 @@ createTabGroupWithTabs
 tabGroup
 :
 TabGroup
-tabIds
-:
-List
-<
-String
->
 )
 {
 }

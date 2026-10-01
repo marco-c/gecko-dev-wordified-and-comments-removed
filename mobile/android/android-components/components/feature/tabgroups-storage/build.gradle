@@ -288,6 +288,12 @@ androidx
 room
 .
 runtime
+testFixturesImplementation
+libs
+.
+kotlinx
+.
+coroutines
 }
 apply
 from

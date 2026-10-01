@@ -463,6 +463,14 @@ components
 :
 feature
 -
+tabdata
+-
+coordinator
+-
+components
+:
+feature
+-
 tabgroups
 -
 storage
