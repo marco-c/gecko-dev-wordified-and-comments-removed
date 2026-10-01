@@ -213,7 +213,7 @@ title
 )
 ;
 await
-waitForDOMIfNeeded
+waitForDOM
 (
 requestItem
 "
@@ -570,17 +570,8 @@ header
 "
 )
 ;
-EventUtils
-.
-sendMouseEvent
+clickOnRequestRow
 (
-{
-type
-:
-"
-mousedown
-"
-}
 document
 .
 querySelectorAll

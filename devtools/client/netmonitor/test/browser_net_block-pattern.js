@@ -323,7 +323,7 @@ await
 wait
 ;
 await
-waitForDOMIfNeeded
+waitForDOM
 (
 document
 "
@@ -430,17 +430,8 @@ blocked
 "
 )
 ;
-EventUtils
-.
-sendMouseEvent
+clickOnRequestRow
 (
-{
-type
-:
-"
-mousedown
-"
-}
 requestItems
 [
 0
@@ -537,7 +528,7 @@ await
 wait
 ;
 await
-waitForDOMIfNeeded
+waitForDOM
 (
 document
 "

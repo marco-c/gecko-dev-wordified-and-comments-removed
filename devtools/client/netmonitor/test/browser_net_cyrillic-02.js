@@ -188,7 +188,7 @@ title
 )
 ;
 await
-waitForDOMIfNeeded
+waitForDOM
 (
 requestItem
 "
@@ -255,17 +255,8 @@ panel
 "
 )
 ;
-EventUtils
-.
-sendMouseEvent
+clickOnRequestRow
 (
-{
-type
-:
-"
-mousedown
-"
-}
 document
 .
 querySelectorAll

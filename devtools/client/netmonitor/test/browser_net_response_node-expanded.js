@@ -118,17 +118,8 @@ item
 0
 ]
 ;
-EventUtils
-.
-sendMouseEvent
+clickOnRequestRow
 (
-{
-type
-:
-"
-mousedown
-"
-}
 firstRequestItem
 )
 ;
@@ -299,7 +290,7 @@ greeting
 )
 ;
 await
-waitForDOMIfNeeded
+waitForDOM
 (
 document
 "
