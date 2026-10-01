@@ -484,8 +484,6 @@ nsACString
 aMimeType
 )
 ;
-private
-:
 ImageUtils
 (
 )
