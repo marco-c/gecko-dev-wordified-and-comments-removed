@@ -29,6 +29,13 @@ py
 ]
 [
 "
+test_android_taskgraph
+.
+py
+"
+]
+[
+"
 test_decision
 .
 py
