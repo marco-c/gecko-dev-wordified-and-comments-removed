@@ -1,6 +1,13 @@
 #
 include
 <
+inttypes
+.
+h
+>
+#
+include
+<
 stdio
 .
 h
@@ -2187,7 +2194,9 @@ block
 found
 with
 %
-d
+"
+PRIu32
+"
 signature
 %
 s
@@ -2218,7 +2227,9 @@ printf
 (
 "
 %
-d
+"
+PRIu32
+"
 additional
 block
 %
