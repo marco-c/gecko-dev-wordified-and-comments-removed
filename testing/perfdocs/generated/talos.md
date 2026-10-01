@@ -187,9 +187,9 @@ Perfherder
 <
 testing
 /
-mozharness
+performance
 /
-external_tools
+common
 /
 performance
 -
