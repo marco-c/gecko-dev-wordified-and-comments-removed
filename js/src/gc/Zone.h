@@ -2810,17 +2810,6 @@ return
 ;
 }
 void
-maybeDiscardJitCode
-(
-JS
-:
-:
-GCContext
-*
-gcx
-)
-;
-void
 forceDiscardJitCode
 (
 JS
