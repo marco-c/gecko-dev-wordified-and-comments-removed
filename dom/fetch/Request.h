@@ -556,6 +556,7 @@ ErrorResult
 rv
 )
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 static
 SafeRefPtr
 <
@@ -602,9 +603,17 @@ Request
 >
 Clone
 (
+JSContext
+*
+aCx
 ErrorResult
 &
 aRv
+)
+;
+void
+FollowBodySignal
+(
 )
 ;
 SafeRefPtr
