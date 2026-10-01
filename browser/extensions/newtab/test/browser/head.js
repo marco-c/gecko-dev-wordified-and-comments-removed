@@ -410,6 +410,11 @@ havePinned
 )
 ;
 }
+add_setup
+(
+clearPinnedTopSites
+)
+;
 async
 function
 setTestTopSites
