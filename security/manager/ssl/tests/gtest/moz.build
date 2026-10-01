@@ -83,11 +83,6 @@ MD4Test
 cpp
 "
 "
-NoiseTest
-.
-cpp
-"
-"
 NSSBenchTest
 .
 cpp

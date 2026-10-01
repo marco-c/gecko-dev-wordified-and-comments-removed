@@ -108,6 +108,8 @@ do
 we
 want
 Glean
+or
+Noise
 to
 assume
 there
@@ -133,6 +135,13 @@ gkrust
 shared
 /
 glean_with_gecko
+"
+"
+gkrust
+-
+shared
+/
+noise_xpcom
 "
 )
 :
@@ -185,6 +194,9 @@ glean
 "
 "
 l10nregistry
+"
+"
+noise
 "
 "
 rsclientcerts

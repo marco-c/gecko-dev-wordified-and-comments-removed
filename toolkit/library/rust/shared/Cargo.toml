@@ -3602,6 +3602,15 @@ shell_windows
 enable_tests
 "
 ]
+noise_xpcom
+=
+[
+"
+noise
+/
+xpcom
+"
+]
 [
 lib
 ]
