@@ -1535,6 +1535,11 @@ case
 lastvisited
 "
 :
+case
+"
+mostvisited
+"
+:
 return
 this
 .
