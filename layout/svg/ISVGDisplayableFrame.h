@@ -105,6 +105,8 @@ IncludeStrokeGeometry
 IncludeMarkers
 IncludeClipped
 UseFrameBoundsForOuterSVG
+TextContentBounds
+DisregardCSSZoom
 ForGetClientRects
 IncludeOnlyCurrentFrameForNonSVGElement
 UseUserSpaceOfUseElement
