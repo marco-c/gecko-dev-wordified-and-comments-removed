@@ -1582,7 +1582,6 @@ browser
 -
 specific
 overrides
-*
 content
 /
 browser
@@ -1590,16 +1589,6 @@ browser
 license
 .
 html
-(
-/
-toolkit
-/
-content
-/
-license
-.
-html
-)
 %
 override
 chrome
