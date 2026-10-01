@@ -471,6 +471,8 @@ SizeOfIncludingThis
 (
 MallocSizeOf
 aMallocSizeOf
+MallocSizeOf
+aMallocEnclosingSizeOf
 )
 const
 {
@@ -483,6 +485,7 @@ content_classifier_engine_size_of
 (
 mEngine
 aMallocSizeOf
+aMallocEnclosingSizeOf
 )
 :
 ContentClassifierEngineSizes

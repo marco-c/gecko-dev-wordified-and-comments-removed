@@ -6174,6 +6174,9 @@ thin
 vec
 "
 "
+wr_malloc_size_of
+"
+"
 xpcom
 "
 ]
@@ -12169,6 +12172,9 @@ thiserror
 "
 "
 url
+"
+"
+wr_malloc_size_of
 "
 ]
 [
