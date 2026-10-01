@@ -177,6 +177,11 @@ window
 .
 devicePixelRatio
 {
+type
+:
+"
+mousedown
+"
 button
 :
 1

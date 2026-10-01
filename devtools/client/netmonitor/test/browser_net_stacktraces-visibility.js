@@ -203,8 +203,17 @@ rendered
 "
 )
 ;
-clickOnRequestRow
+EventUtils
+.
+sendMouseEvent
 (
+{
+type
+:
+"
+mousedown
+"
+}
 document
 .
 querySelector
@@ -231,8 +240,6 @@ REQUEST
 "
 ]
 )
-.
-parentNode
 )
 ;
 await
