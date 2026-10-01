@@ -159,6 +159,10 @@ true
 browsertime
 debugging
 contributing
+test
+-
+list
+webextension
 {
 metrics_rst_name
 }

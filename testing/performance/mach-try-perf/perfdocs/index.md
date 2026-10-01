@@ -3,6 +3,16 @@ Mach
 Try
 Perf
 {
+toctree
+}
+:
+titlesonly
+:
+true
+standard
+-
+workflow
+{
 contents
 }
 :

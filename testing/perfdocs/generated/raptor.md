@@ -159,6 +159,10 @@ true
 browsertime
 debugging
 contributing
+test
+-
+list
+webextension
 raptor
 -
 metrics
