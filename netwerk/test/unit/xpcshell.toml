@@ -4146,6 +4146,13 @@ js
 ]
 [
 "
+test_dns_prefetch_family
+.
+js
+"
+]
+[
+"
 test_dns_proxy_bypass
 .
 js
