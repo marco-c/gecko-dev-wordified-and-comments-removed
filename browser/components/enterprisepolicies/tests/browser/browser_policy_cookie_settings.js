@@ -387,6 +387,8 @@ countCookiesFromHost
 firstPartyURI
 .
 host
+{
+}
 )
 expectedFirstPartyCookies
 "
@@ -413,6 +415,8 @@ countCookiesFromHost
 thirdPartyURI
 .
 host
+{
+}
 )
 expectedThirdPartyCookies
 "
@@ -496,6 +500,8 @@ countCookiesFromHost
 firstPartyURI
 .
 host
+{
+}
 )
 expectedCookieCount
 "

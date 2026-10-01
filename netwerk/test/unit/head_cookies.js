@@ -575,6 +575,8 @@ countCookiesFromHost
 uri
 .
 host
+{
+}
 )
 expected
 )
@@ -787,6 +789,8 @@ countCookiesFromHost
 uri
 .
 host
+{
+}
 )
 expected
 [
@@ -824,6 +828,8 @@ countCookiesFromHost
 uri
 .
 host
+{
+}
 )
 expected
 [

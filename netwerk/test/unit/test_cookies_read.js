@@ -323,6 +323,8 @@ countCookiesFromHost
 .
 com
 "
+{
+}
 )
 1
 )
@@ -342,6 +344,8 @@ abc
 .
 com
 "
+{
+}
 )
 0
 )
@@ -361,6 +365,8 @@ countCookiesFromHost
 .
 com
 "
+{
+}
 )
 1
 )
@@ -380,6 +386,8 @@ countCookiesFromHost
 .
 com
 "
+{
+}
 )
 1
 )
@@ -399,6 +407,8 @@ xyz
 .
 com
 "
+{
+}
 )
 0
 )
@@ -454,6 +464,8 @@ cookies
 countCookiesFromHost
 (
 host
+{
+}
 )
 1
 )
@@ -663,6 +675,8 @@ cookies
 countCookiesFromHost
 (
 host
+{
+}
 )
 1
 )

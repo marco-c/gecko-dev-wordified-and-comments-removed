@@ -725,6 +725,8 @@ cookies
 countCookiesFromHost
 (
 aBaseDomain
+{
+}
 )
 cookies
 .
@@ -742,6 +744,8 @@ cookies
 countCookiesFromHost
 (
 aHost
+{
+}
 )
 cookies
 .

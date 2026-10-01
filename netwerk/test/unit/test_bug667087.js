@@ -108,6 +108,8 @@ countCookiesFromHost
 "
 a
 "
+{
+}
 )
 1
 )

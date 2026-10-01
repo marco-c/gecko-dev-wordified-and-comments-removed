@@ -418,6 +418,8 @@ cookies
 countCookiesFromHost
 (
 hostNonPartitioned
+{
+}
 )
 ;
 Assert

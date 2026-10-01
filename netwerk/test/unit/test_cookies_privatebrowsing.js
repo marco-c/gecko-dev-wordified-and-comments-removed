@@ -258,6 +258,8 @@ countCookiesFromHost
 uri1
 .
 host
+{
+}
 )
 1
 )
@@ -486,6 +488,8 @@ countCookiesFromHost
 uri1
 .
 host
+{
+}
 )
 1
 )
@@ -503,6 +507,8 @@ countCookiesFromHost
 uri2
 .
 host
+{
+}
 )
 0
 )
@@ -529,6 +535,8 @@ countCookiesFromHost
 uri1
 .
 host
+{
+}
 )
 1
 )
@@ -546,6 +554,8 @@ countCookiesFromHost
 uri2
 .
 host
+{
+}
 )
 0
 )
@@ -721,6 +731,8 @@ countCookiesFromHost
 uri1
 .
 host
+{
+}
 )
 1
 )
@@ -738,6 +750,8 @@ countCookiesFromHost
 uri2
 .
 host
+{
+}
 )
 0
 )
@@ -813,6 +827,8 @@ countCookiesFromHost
 uri1
 .
 host
+{
+}
 )
 1
 )
@@ -830,6 +846,8 @@ countCookiesFromHost
 uri2
 .
 host
+{
+}
 )
 0
 )

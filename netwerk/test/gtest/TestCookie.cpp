@@ -7860,7 +7860,7 @@ NS_SUCCEEDED
 cookieMgr2
 -
 >
-CountCookiesFromHost
+CountCookiesFromHostNative
 (
 "
 cookiemgr
@@ -7868,6 +7868,8 @@ cookiemgr
 test
 "
 _ns
+&
+attrs
 &
 hostCookies
 )
@@ -7936,7 +7938,7 @@ NS_SUCCEEDED
 cookieMgr2
 -
 >
-CountCookiesFromHost
+CountCookiesFromHostNative
 (
 "
 cookiemgr
@@ -7944,6 +7946,8 @@ cookiemgr
 test
 "
 _ns
+&
+attrs
 &
 hostCookies
 )

@@ -1935,6 +1935,8 @@ countCookiesFromHost
 uri2
 .
 host
+{
+}
 )
 =
 =
@@ -1962,6 +1964,8 @@ countCookiesFromHost
 uri
 .
 host
+{
+}
 )
 2
 "
@@ -2311,6 +2315,8 @@ countCookiesFromHost
 uri
 .
 host
+{
+}
 )
 =
 =
