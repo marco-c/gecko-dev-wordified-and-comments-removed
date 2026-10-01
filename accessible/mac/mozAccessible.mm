@@ -4983,7 +4983,18 @@ MOZ_ASSERT
 mGeckoAccessible
 )
 ;
+if
+(
+RefPtr
+<
+Accessible
+>
+acc
+=
 mGeckoAccessible
+)
+{
+acc
 -
 >
 ScrollTo
@@ -4994,6 +5005,7 @@ nsIAccessibleScrollType
 SCROLL_TYPE_ANYWHERE
 )
 ;
+}
 }
 -
 (

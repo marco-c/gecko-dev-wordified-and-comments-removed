@@ -36,6 +36,13 @@ h
 #
 include
 "
+nsISupportsImpl
+.
+h
+"
+#
+include
+"
 nsRect
 .
 h
@@ -432,6 +439,7 @@ aRoleMapEntryIndex
 ;
 public
 :
+NS_INLINE_DECL_PURE_VIRTUAL_REFCOUNTING
 virtual
 uint64_t
 ID
