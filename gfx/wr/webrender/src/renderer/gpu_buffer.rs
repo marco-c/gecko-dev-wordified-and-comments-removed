@@ -2626,8 +2626,6 @@ sub_rect
 min
 .
 x
-as
-f32
 /
 w
 sub
@@ -2637,8 +2635,6 @@ sub_rect
 min
 .
 y
-as
-f32
 /
 h
 sub
@@ -2648,8 +2644,6 @@ sub_rect
 max
 .
 x
-as
-f32
 /
 w
 sub
@@ -2659,8 +2653,6 @@ sub_rect
 max
 .
 y
-as
-f32
 /
 h
 ]
@@ -2724,6 +2716,10 @@ render_task
 get_target_rect
 (
 )
+.
+to_f32
+(
+)
 ;
 if
 block
@@ -2775,15 +2771,6 @@ target_rect
 )
 ;
 }
-let
-target_rect
-=
-target_rect
-.
-to_f32
-(
-)
-;
 let
 uv_rect
 =

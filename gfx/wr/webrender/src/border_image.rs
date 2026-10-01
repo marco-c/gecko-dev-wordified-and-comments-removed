@@ -231,6 +231,10 @@ src_image
 src_task_id
 &
 src_rect
+.
+to_f32
+(
+)
 )
 ;
 let
