@@ -1873,7 +1873,7 @@ backward
 compat
 {
 version
-157
+158
 }
 variant_id
 and
@@ -1892,7 +1892,7 @@ impression
 click
 events
 in
-157
+158
 .
 /
 /
@@ -1923,7 +1923,7 @@ so
 drop
 them
 below
-157
+158
 .
 if
 (
@@ -1937,7 +1937,7 @@ AppConstants
 .
 MOZ_APP_VERSION
 "
-157
+158
 .
 0a1
 "
