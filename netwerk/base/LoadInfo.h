@@ -1494,14 +1494,6 @@ ReferrerPolicy
 aPolicy
 )
 ;
-void
-SetPolicyContainerToInherit
-(
-nsIPolicyContainer
-*
-aPolicyContainerToInherit
-)
-;
 bool
 HasIsThirdPartyContextToTopWindowSet
 (
