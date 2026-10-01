@@ -214,12 +214,6 @@ secrets
 ]
     
 "
-enable_check_test
-"
-:
-False
-    
-"
 vcs_share_base
 "
 :
@@ -255,14 +249,6 @@ artifacts
     
 "
 platform
-"
-:
-"
-macosx64
-"
-    
-"
-stage_platform
 "
 :
 "

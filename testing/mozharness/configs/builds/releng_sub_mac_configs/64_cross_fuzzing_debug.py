@@ -5,18 +5,6 @@ config
 {
     
 "
-stage_platform
-"
-:
-"
-macosx64
--
-fuzzing
--
-debug
-"
-    
-"
 debug_build
 "
 :
@@ -184,10 +172,4 @@ bin
 "
     
 }
-    
-"
-artifact_flag_build_variant_in_try
-"
-:
-None
 }

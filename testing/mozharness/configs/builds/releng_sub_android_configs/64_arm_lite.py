@@ -3,18 +3,6 @@ config
 {
     
 "
-stage_platform
-"
-:
-"
-android
--
-arm
--
-lite
-"
-    
-"
 mozconfig_platform
 "
 :

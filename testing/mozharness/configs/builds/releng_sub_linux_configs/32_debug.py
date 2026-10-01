@@ -11,16 +11,6 @@ debug_build
 True
     
 "
-stage_platform
-"
-:
-"
-linux
--
-debug
-"
-    
-"
 env
 "
 :

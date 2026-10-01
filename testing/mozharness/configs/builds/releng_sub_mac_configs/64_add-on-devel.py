@@ -5,20 +5,6 @@ config
 {
     
 "
-stage_platform
-"
-:
-"
-macosx64
--
-add
--
-on
--
-devel
-"
-    
-"
 env
 "
 :

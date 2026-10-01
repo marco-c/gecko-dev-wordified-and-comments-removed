@@ -340,9 +340,6 @@ config
 disable_package_metrics
 :
 true
-stage_platform
-:
-macosx64
 mozconfig_platform
 :
 macosx64
@@ -491,9 +488,6 @@ config
 disable_package_metrics
 :
 true
-stage_platform
-:
-macosx64
 mozconfig_platform
 :
 macosx64

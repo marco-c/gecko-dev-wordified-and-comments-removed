@@ -21,20 +21,6 @@ build
 ]
     
 "
-stage_platform
-"
-:
-"
-win32
--
-add
--
-on
--
-devel
-"
-    
-"
 env
 "
 :

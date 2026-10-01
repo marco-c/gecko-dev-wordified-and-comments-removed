@@ -15,14 +15,6 @@ source
 ]
     
 "
-stage_platform
-"
-:
-"
-source
-"
-    
-"
 env
 "
 :

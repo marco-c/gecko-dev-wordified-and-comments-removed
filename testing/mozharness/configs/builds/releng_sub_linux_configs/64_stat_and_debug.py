@@ -63,20 +63,6 @@ linux64
 "
     
 "
-stage_platform
-"
-:
-"
-linux64
--
-st
--
-an
--
-opt
-"
-    
-"
 env
 "
 :

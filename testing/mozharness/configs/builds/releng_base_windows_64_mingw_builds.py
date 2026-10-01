@@ -191,16 +191,6 @@ mingw32
 "
     
 "
-stage_platform
-"
-:
-"
-win64
--
-mingw32
-"
-    
-"
 env
 "
 :

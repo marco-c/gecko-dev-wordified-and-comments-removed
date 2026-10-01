@@ -15,16 +15,6 @@ build
 ]
     
 "
-stage_platform
-"
-:
-"
-win64
--
-rusttests
-"
-    
-"
 env
 "
 :

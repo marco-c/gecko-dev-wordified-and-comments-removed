@@ -5,16 +5,6 @@ config
 {
     
 "
-stage_platform
-"
-:
-"
-macosx64
--
-debug
-"
-    
-"
 debug_build
 "
 :

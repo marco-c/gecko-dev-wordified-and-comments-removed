@@ -3330,9 +3330,6 @@ extra
 -
 config
 :
-stage_platform
-:
-win32
 mozconfig_platform
 :
 win32
@@ -3515,9 +3512,6 @@ extra
 -
 config
 :
-stage_platform
-:
-win64
 mozconfig_platform
 :
 win64
@@ -3721,9 +3715,6 @@ extra
 -
 config
 :
-stage_platform
-:
-win64
 mozconfig_platform
 :
 win64
@@ -3921,11 +3912,6 @@ extra
 -
 config
 :
-stage_platform
-:
-win64
--
-aarch64
 mozconfig_platform
 :
 win64

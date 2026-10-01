@@ -15,16 +15,6 @@ build
 ]
     
 "
-stage_platform
-"
-:
-"
-macosx64
--
-rusttests
-"
-    
-"
 app_name
 "
 :

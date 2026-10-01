@@ -3,16 +3,6 @@ config
 {
     
 "
-stage_platform
-"
-:
-"
-android
--
-x86
-"
-    
-"
 mozconfig_platform
 "
 :

@@ -213,20 +213,6 @@ android
 "
     
 "
-stage_platform
-"
-:
-"
-android
-"
-    
-"
-enable_max_vsize
-"
-:
-False
-    
-"
 env
 "
 :

@@ -222,18 +222,6 @@ linux64
 "
     
 "
-stage_platform
-"
-:
-"
-linux64
--
-searchfox
--
-opt
-"
-    
-"
 mozconfig_platform
 "
 :

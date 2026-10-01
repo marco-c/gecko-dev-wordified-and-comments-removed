@@ -27,16 +27,6 @@ test
 ]
     
 "
-stage_platform
-"
-:
-"
-linux64
--
-valgrind
-"
-    
-"
 env
 "
 :

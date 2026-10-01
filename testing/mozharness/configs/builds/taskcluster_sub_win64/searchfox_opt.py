@@ -3,20 +3,6 @@ config
 {
     
 "
-stage_platform
-"
-:
-"
-win64
--
-st
--
-an
--
-opt
-"
-    
-"
 debug_build
 "
 :

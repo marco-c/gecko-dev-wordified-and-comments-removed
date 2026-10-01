@@ -21,18 +21,6 @@ build
 ]
     
 "
-stage_platform
-"
-:
-"
-macosx64
--
-searchfox
--
-opt
-"
-    
-"
 debug_build
 "
 :

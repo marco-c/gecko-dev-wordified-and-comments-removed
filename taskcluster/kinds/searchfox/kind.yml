@@ -1133,9 +1133,6 @@ app_name
 mobile
 /
 ios
-stage_platform
-:
-ios
 mozconfig_platform
 :
 ios

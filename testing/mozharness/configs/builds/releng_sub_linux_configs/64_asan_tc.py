@@ -5,16 +5,6 @@ config
 {
     
 "
-stage_platform
-"
-:
-"
-linux64
--
-asan
-"
-    
-"
 env
 "
 :

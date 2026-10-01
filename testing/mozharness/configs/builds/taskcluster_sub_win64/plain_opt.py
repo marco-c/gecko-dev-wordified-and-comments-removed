@@ -29,12 +29,4 @@ plain
 -
 opt
 "
-    
-"
-stage_platform
-"
-:
-"
-win64
-"
 }
