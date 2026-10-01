@@ -10850,7 +10850,7 @@ commandID
 ;
 let
 {
-icon
+iconUrl
 url
 title
 sourceL10nEl
@@ -10868,7 +10868,7 @@ commandID
 ;
 if
 (
-icon
+iconUrl
 )
 {
 this
@@ -10888,7 +10888,14 @@ menuitem
 -
 image
 "
-icon
+url
+(
+"
+{
+iconUrl
+}
+"
+)
 )
 ;
 }
