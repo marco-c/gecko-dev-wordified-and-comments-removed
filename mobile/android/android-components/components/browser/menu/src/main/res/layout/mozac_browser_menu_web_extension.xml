@@ -309,6 +309,8 @@ android
 gravity
 =
 "
+start
+|
 center_vertical
 "
 android

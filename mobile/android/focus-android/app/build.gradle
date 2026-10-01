@@ -2518,6 +2518,14 @@ libs
 .
 androidx
 .
+fragment
+.
+compose
+implementation
+libs
+.
+androidx
+.
 lifecycle
 .
 process

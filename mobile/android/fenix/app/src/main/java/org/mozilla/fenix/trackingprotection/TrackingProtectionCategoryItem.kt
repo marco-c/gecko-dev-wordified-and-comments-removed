@@ -142,7 +142,7 @@ R
 .
 styleable
 .
-TrackingProtectionCategory_categoryItemTitle
+TrackingProtectionCategoryItem_categoryItemTitle
 *
 attr
 ref
@@ -150,7 +150,7 @@ R
 .
 styleable
 .
-TrackingProtectionCategory_categoryItemDescription
+TrackingProtectionCategoryItem_categoryItemDescription
 *
 /
 class
@@ -244,7 +244,7 @@ R
 .
 styleable
 .
-TrackingProtectionCategory
+TrackingProtectionCategoryItem
 defStyleAttr
 0
 )
@@ -265,7 +265,7 @@ R
 .
 styleable
 .
-TrackingProtectionCategory_categoryItemTitle
+TrackingProtectionCategoryItem_categoryItemTitle
 R
 .
 string
@@ -289,7 +289,7 @@ R
 .
 styleable
 .
-TrackingProtectionCategory_categoryItemDescription
+TrackingProtectionCategoryItem_categoryItemDescription
 R
 .
 string

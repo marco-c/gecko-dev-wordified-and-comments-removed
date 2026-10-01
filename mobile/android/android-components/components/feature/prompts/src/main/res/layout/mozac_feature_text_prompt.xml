@@ -295,6 +295,13 @@ inputType
 "
 text
 "
+android
+:
+importantForAutofill
+=
+"
+no
+"
 /
 >
 <
