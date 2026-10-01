@@ -97,7 +97,7 @@ waitForEvent
 (
 EVENT_DOCUMENT_LOAD_COMPLETE
 "
-iframeBody
+new_html
 "
 )
 ;
