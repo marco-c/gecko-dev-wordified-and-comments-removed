@@ -2783,6 +2783,14 @@ LoadDeliveringAltData
 )
 ;
 }
+nsresult
+GetAltDataBindingOrigin
+(
+nsACString
+&
+aOrigin
+)
+;
 static
 void
 PropagateReferenceIfNeeded

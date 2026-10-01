@@ -1128,6 +1128,9 @@ nsICacheEntry
 >
 mCacheEntry
 ;
+nsCString
+mAltDataBindingOrigin
+;
 nsCOMPtr
 <
 nsIChannel
