@@ -116,7 +116,7 @@ chromium_revision
 '
 :
 '
-032c48a8ba586fa309342a327ea3a19dd54f3e98
+db0bd2e3b9b7ab374b4a0039f71c7389eb647fc7
 '
 #
 Fetch
@@ -261,9 +261,9 @@ version
 :
 33
 .
-20260903
+20260910
 .
-4
+5
 .
 1
 '
@@ -725,7 +725,7 @@ chromium
 src
 /
 ios
-9bf1392ee6c37a8e378cce88beacf2e3a341df5b
+adafa7616ffec9f16a1468004ea402a52821f260
 '
 '
 condition
@@ -757,7 +757,7 @@ chromium
 src
 /
 testing
-05d4c77dc2d7cc84e28f81ac64923fc219321943
+54659d52e3f91fb2bd57f3882b510253ece5e544
 '
 '
 src
@@ -781,7 +781,7 @@ chromium
 src
 /
 third_party
-28999cb0f620eb88e432db67004dd18a18c76d0d
+ea7463a0bbb128c82d1f870fa18c3a31db93086c
 '
 '
 src
@@ -3801,9 +3801,9 @@ version
 '
 :
 '
-B6FDr2A7npJWaIE4uoGMlp4
+x6PNegkeVpx4zgAeigpYA
 -
-3ZRkDnPK01MLp0Qi7M4C
+1dDhPskEcSEPU3zhXk4uQC
 '
 }
 ]
@@ -3973,7 +3973,7 @@ com
 boringssl
 .
 git
-4934bf7606a608ea2addf1b51b5330e990cb20f4
+2b60ed4ed5bd9b3c99eec9b579ad331a6a3c5d92
 '
 '
 src
@@ -4202,7 +4202,7 @@ tools
 depot_tools
 .
 git
-afffc8aa3f09b0512c500de245de42a14b0cdb9c
+6794dd02d7ba80c074d2ff0d294a32b9c5dc0112
 '
 '
 src
@@ -5279,7 +5279,7 @@ google
 fuzztest
 .
 git
-25f6bff894a558fd6b7076a22f9e881d807304e6
+846bda6f291e26b7f8fb33c8de23796129bffd12
 '
 '
 src
@@ -5405,7 +5405,7 @@ videolan
 dav1d
 .
 git
-aa09a630ef57ee7d9482ffb7ef355a903dbb5302
+a34e0685b9111b9eb1d7835ea7bea5b425dced73
 '
 '
 src
@@ -5544,7 +5544,7 @@ git
 '
 +
 '
-d6f56e6d540127bce6076a874c475555dea86cb4
+6f78923bd6e6f9bfd9078155226f76df8e0a007c
 '
 '
 src
@@ -6123,7 +6123,7 @@ chromium
 src
 /
 tools
-fde87269d2de9e0437cb15fd2f2229930eedfed7
+2ea3a7770f0f1e161e3eb099cae574ad980ddb8f
 '
 '
 src
@@ -6329,7 +6329,7 @@ version
 '
 :
 '
-yBdrYbHHI4CJDfATZXiSV0qNUVS3_EAawkUxAOorlh4C
+VlDQtfztFI9e5iWRAWe8JTBOfU_9UG_GLVcOHdglNZAC
 '
 }
 ]
@@ -6387,7 +6387,7 @@ version
 '
 :
 '
-rbN6Z4kNrab4oL7d2Vn86ZSPTCZiaOjM0HAgtUvKSiYC
+qjmS9O_Iyhx3jsBE8eIvzjzwKK7pn4fRVX8QH2H_2Y8C
 '
 }
 ]
@@ -6786,7 +6786,7 @@ git
 '
 +
 '
-7d3f38c32f018f2ef4c92e0769ca7ece23eb3f89
+bf3e7d28d4e95c73044c538381235758004ed18c
 '
 '
 src
@@ -7244,7 +7244,7 @@ git
 '
 +
 '
-c5ed6a9f35d043e91fe331e574ab5025ae9a68d8
+3c4596adb505f51c042ee14e76731b9004524b1a
 '
 '
 src
