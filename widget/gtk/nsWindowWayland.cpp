@@ -426,7 +426,19 @@ false
 }
 nsresult
 ret
+=
+NS_OK
 ;
+if
+(
+!
+mWorkspaceID
+.
+IsEmpty
+(
+)
+)
+{
 (
 void
 )
@@ -438,6 +450,7 @@ ToInteger
 ret
 )
 ;
+}
 if
 (
 NS_SUCCEEDED
