@@ -1905,9 +1905,15 @@ append
 fn
 )
         
-return
-lambda
+def
+remove_listener
+(
+)
 :
+            
+try
+:
+                
 self
 .
 event_listeners
@@ -1919,3 +1925,12 @@ remove
 (
 fn
 )
+            
+except
+ValueError
+:
+                
+pass
+        
+return
+remove_listener
