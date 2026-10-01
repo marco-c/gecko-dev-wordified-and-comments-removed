@@ -5165,7 +5165,7 @@ shadow
 const
 FUZZ_FACTOR
 =
-4
+6
 ;
 SHADOW_OVERFLOW_LEFT
 =
