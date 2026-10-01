@@ -51,7 +51,6 @@ frame_builder
 {
 FrameBuildingContext
 FrameBuildingState
-PictureContext
 }
 ;
 use
@@ -153,10 +152,6 @@ frame_context
 :
 &
 FrameBuildingContext
-pic_context
-:
-&
-PictureContext
 targets
 :
 &
@@ -338,7 +333,6 @@ transform
 frame_context
 .
 spatial_tree
-pic_context
 targets
 frame_state
 scratch

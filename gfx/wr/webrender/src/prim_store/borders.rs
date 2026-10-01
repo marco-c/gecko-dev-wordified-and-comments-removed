@@ -103,7 +103,6 @@ frame_builder
 {
 FrameBuildingContext
 FrameBuildingState
-PictureContext
 }
 ;
 use
@@ -275,10 +274,6 @@ frame_context
 :
 &
 FrameBuildingContext
-pic_context
-:
-&
-PictureContext
 targets
 :
 &
@@ -948,7 +943,6 @@ quad_transform
 frame_context
 .
 spatial_tree
-pic_context
 targets
 frame_state
 scratch
@@ -1346,7 +1340,6 @@ quad_transform
 frame_context
 .
 spatial_tree
-pic_context
 targets
 frame_state
 scratch

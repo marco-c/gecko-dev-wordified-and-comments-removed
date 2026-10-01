@@ -86,7 +86,6 @@ frame_builder
 {
 FrameBuildingContext
 FrameBuildingState
-PictureContext
 }
 ;
 use
@@ -894,10 +893,6 @@ frame_context
 :
 &
 FrameBuildingContext
-pic_context
-:
-&
-PictureContext
 targets
 :
 &
@@ -1353,7 +1348,6 @@ quad_transform
 frame_context
 .
 spatial_tree
-pic_context
 targets
 frame_state
 scratch
@@ -1398,7 +1392,6 @@ quad_transform
 frame_context
 .
 spatial_tree
-pic_context
 targets
 frame_state
 scratch
@@ -1425,18 +1418,11 @@ visible_rect
 compute_surface_visible_rect
 (
 &
-frame_state
+clips
 .
-surfaces
-[
-pic_context
-.
-surface_index
-.
-0
-]
-.
-clipping_rect
+surface_clip_rect
+(
+)
 clips
 .
 coverage_rect
@@ -1682,7 +1668,6 @@ quad_transform
 frame_context
 .
 spatial_tree
-pic_context
 targets
 frame_state
 scratch
