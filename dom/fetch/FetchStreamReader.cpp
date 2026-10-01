@@ -1932,6 +1932,14 @@ mHasOutstandingReadRequest
 =
 false
 ;
+if
+(
+mStreamClosed
+)
+{
+return
+;
+}
 RootedSpiderMonkeyInterface
 <
 Uint8Array
