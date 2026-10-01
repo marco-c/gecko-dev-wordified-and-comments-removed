@@ -3919,7 +3919,12 @@ loadInfo
 SetCorsPreflightInfo
 (
 unsafeHeaders
-false
+mRequest
+-
+>
+HasStreamBody
+(
+)
 )
 ;
 }
