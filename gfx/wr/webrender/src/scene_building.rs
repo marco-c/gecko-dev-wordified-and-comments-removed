@@ -2290,6 +2290,8 @@ clip_tree_builder
 builder
 .
 interners
+.
+clip
 )
 ;
 for
@@ -8125,6 +8127,8 @@ clip_chain_id
 self
 .
 interners
+.
+clip
 )
 {
 if
@@ -8163,6 +8167,8 @@ clip_chain_id
 self
 .
 interners
+.
+clip
 &
 self
 .
@@ -8272,6 +8278,8 @@ clip_node_id
 self
 .
 interners
+.
+clip
 )
 {
 self

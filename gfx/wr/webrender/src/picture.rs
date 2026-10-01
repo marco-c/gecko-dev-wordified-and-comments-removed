@@ -129,6 +129,7 @@ clip
 :
 {
 ClipChainInstance
+ClipDataStore
 ClipNodeId
 ClipNodeFlags
 }
@@ -9517,10 +9518,10 @@ ClipMaskKind
 prim_spatial_node_index
 :
 SpatialNodeIndex
-data_stores
+clips
 :
 &
-DataStores
+ClipDataStore
 use_quads
 :
 bool
@@ -9825,10 +9826,7 @@ push_quad_clip
 mut
 source_clips
 clip_instance
-&
-data_stores
-.
-clip
+clips
 )
 ;
 }
@@ -10006,10 +10004,7 @@ push_quad_clip
 (
 dest
 clip_instance
-&
-data_stores
-.
-clip
+clips
 )
 ;
 }
@@ -10441,7 +10436,10 @@ frame
 .
 clip_mask_instances
 prim_spatial_node_index
+&
 data_stores
+.
+clip
 use_quads
 &
 mut
