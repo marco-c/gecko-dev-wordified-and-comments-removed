@@ -3771,7 +3771,16 @@ VisibilityLifecycleObserver
 )
 PowerSaveModeFeature
 (
+context
+=
 applicationContext
+appStore
+=
+components
+.
+appStore
+settings
+=
 components
 .
 settings
