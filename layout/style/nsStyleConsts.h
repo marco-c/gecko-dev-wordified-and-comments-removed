@@ -138,16 +138,6 @@ MozAlmostPadding
 ;
 enum
 class
-StyleFloatEdge
-:
-uint8_t
-{
-ContentBox
-MarginBox
-}
-;
-enum
-class
 StyleHyphens
 :
 uint8_t

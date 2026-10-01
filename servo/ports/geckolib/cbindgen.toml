@@ -1406,6 +1406,9 @@ BoxDecorationBreak
 "
 ImageLayerAttachment
 "
+"
+FloatEdge
+"
 ]
 item_types
 =
