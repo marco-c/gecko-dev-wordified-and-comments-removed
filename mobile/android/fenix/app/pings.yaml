@@ -940,6 +940,11 @@ instead
 include_client_id
 :
 false
+metadata
+:
+include_info_sections
+:
+false
 uploader_capabilities
 :
 -
@@ -1058,6 +1063,11 @@ a
 client_id
 .
 include_client_id
+:
+false
+metadata
+:
+include_info_sections
 :
 false
 uploader_capabilities
