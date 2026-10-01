@@ -82,7 +82,7 @@ loc
 if
 (
 !
-loc
+error
 .
 filename
 .
@@ -94,7 +94,7 @@ empty
 result
 +
 =
-loc
+error
 .
 filename
 ;
@@ -127,10 +127,10 @@ StringPrintf
 (
 "
 %
-d
+u
 :
 %
-d
+u
 :
 "
 loc
@@ -233,6 +233,9 @@ if
 line_finder
 )
 {
+(
+void
+)
 line_finder
 -
 >

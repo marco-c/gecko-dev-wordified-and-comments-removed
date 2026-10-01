@@ -1,7 +1,7 @@
 #
 include
 "
-src
+wabt
 /
 lexer
 -
@@ -194,6 +194,7 @@ if
 (
 offset
 <
+=
 size_
 )
 {

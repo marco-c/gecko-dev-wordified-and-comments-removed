@@ -1880,12 +1880,8 @@ Bare
 Result
 ReadBinaryOpcnt
 (
-const
-void
-*
+ByteSpan
 data
-size_t
-size
 const
 ReadBinaryOptions
 &
@@ -1905,7 +1901,6 @@ return
 ReadBinary
 (
 data
-size
 &
 reader
 options

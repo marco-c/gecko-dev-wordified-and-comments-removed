@@ -171,10 +171,24 @@ searched
 /
 *
 *
-tr
+tr1
 :
 result
 type
+*
+tr2
+:
+secord
+result
+type
+(
+for
+instruciton
+that
+return
+2
+values
+)
 *
 t1
 :
@@ -199,6 +213,42 @@ of
 the
 3rd
 parameter
+*
+(
+___
+=
+no
+parameter
+;
+Any
+=
+the
+parameter
+exists
+but
+its
+type
+is
+not
+*
+statically
+known
+e
+.
+g
+.
+table
+.
+set
+'
+s
+value
+comes
+from
+the
+table
+type
+)
 *
 m
 :
@@ -262,6 +312,7 @@ decompilation
 *
 *
 tr
+tr2
 t1
 t2
 t3
@@ -329,10 +380,15 @@ text
 =
 =
 =
+=
+=
+=
+=
 *
 /
 WABT_OPCODE
 (
+___
 ___
 ___
 ___
@@ -353,6 +409,7 @@ ___
 ___
 ___
 ___
+___
 0
 0
 0x01
@@ -365,6 +422,7 @@ nop
 )
 WABT_OPCODE
 (
+___
 ___
 ___
 ___
@@ -385,6 +443,7 @@ ___
 ___
 ___
 ___
+___
 0
 0
 0x03
@@ -397,6 +456,7 @@ loop
 )
 WABT_OPCODE
 (
+___
 ___
 ___
 ___
@@ -417,6 +477,7 @@ ___
 ___
 ___
 ___
+___
 0
 0
 0x05
@@ -429,6 +490,7 @@ else
 )
 WABT_OPCODE
 (
+___
 ___
 ___
 ___
@@ -449,6 +511,7 @@ ___
 ___
 ___
 ___
+___
 0
 0
 0x07
@@ -461,6 +524,7 @@ catch
 )
 WABT_OPCODE
 (
+___
 ___
 ___
 ___
@@ -481,6 +545,7 @@ ___
 ___
 ___
 ___
+___
 0
 0
 0x09
@@ -493,6 +558,24 @@ rethrow
 )
 WABT_OPCODE
 (
+___
+___
+___
+___
+___
+0
+0
+0x0a
+ThrowRef
+"
+throw_ref
+"
+"
+"
+)
+WABT_OPCODE
+(
+___
 ___
 ___
 ___
@@ -513,6 +596,7 @@ ___
 ___
 ___
 ___
+___
 0
 0
 0x0c
@@ -525,6 +609,7 @@ br
 )
 WABT_OPCODE
 (
+___
 ___
 I32
 ___
@@ -541,6 +626,7 @@ br_if
 )
 WABT_OPCODE
 (
+___
 ___
 I32
 ___
@@ -561,6 +647,7 @@ ___
 ___
 ___
 ___
+___
 0
 0
 0x0f
@@ -573,6 +660,7 @@ return
 )
 WABT_OPCODE
 (
+___
 ___
 ___
 ___
@@ -593,6 +681,7 @@ ___
 ___
 ___
 ___
+___
 0
 0
 0x11
@@ -605,6 +694,7 @@ call_indirect
 )
 WABT_OPCODE
 (
+___
 ___
 ___
 ___
@@ -625,6 +715,7 @@ ___
 ___
 ___
 ___
+___
 0
 0
 0x13
@@ -637,6 +728,7 @@ return_call_indirect
 )
 WABT_OPCODE
 (
+___
 ___
 ___
 ___
@@ -657,6 +749,24 @@ ___
 ___
 ___
 ___
+___
+0
+0
+0x15
+ReturnCallRef
+"
+return_call_ref
+"
+"
+"
+)
+WABT_OPCODE
+(
+___
+___
+___
+___
+___
 0
 0
 0x18
@@ -669,6 +779,7 @@ delegate
 )
 WABT_OPCODE
 (
+___
 ___
 ___
 ___
@@ -689,6 +800,7 @@ ___
 ___
 ___
 ___
+___
 0
 0
 0x1a
@@ -701,6 +813,7 @@ drop
 )
 WABT_OPCODE
 (
+___
 ___
 ___
 ___
@@ -720,6 +833,7 @@ WABT_OPCODE
 ___
 ___
 ___
+___
 I32
 0
 0
@@ -733,6 +847,24 @@ select
 )
 WABT_OPCODE
 (
+___
+___
+___
+___
+___
+0
+0
+0x1f
+TryTable
+"
+try_table
+"
+"
+"
+)
+WABT_OPCODE
+(
+___
 ___
 ___
 ___
@@ -755,6 +887,7 @@ ___
 ___
 ___
 ___
+___
 0
 0
 0x21
@@ -769,6 +902,7 @@ set
 )
 WABT_OPCODE
 (
+___
 ___
 ___
 ___
@@ -791,6 +925,7 @@ ___
 ___
 ___
 ___
+___
 0
 0
 0x23
@@ -805,6 +940,7 @@ get
 )
 WABT_OPCODE
 (
+___
 ___
 ___
 ___
@@ -824,6 +960,7 @@ set
 WABT_OPCODE
 (
 I32
+___
 I32
 ___
 ___
@@ -842,6 +979,7 @@ load
 WABT_OPCODE
 (
 I64
+___
 I32
 ___
 ___
@@ -860,6 +998,7 @@ load
 WABT_OPCODE
 (
 F32
+___
 I32
 ___
 ___
@@ -878,6 +1017,7 @@ load
 WABT_OPCODE
 (
 F64
+___
 I32
 ___
 ___
@@ -896,6 +1036,7 @@ load
 WABT_OPCODE
 (
 I32
+___
 I32
 ___
 ___
@@ -914,6 +1055,7 @@ load8_s
 WABT_OPCODE
 (
 I32
+___
 I32
 ___
 ___
@@ -932,6 +1074,7 @@ load8_u
 WABT_OPCODE
 (
 I32
+___
 I32
 ___
 ___
@@ -950,6 +1093,7 @@ load16_s
 WABT_OPCODE
 (
 I32
+___
 I32
 ___
 ___
@@ -968,6 +1112,7 @@ load16_u
 WABT_OPCODE
 (
 I64
+___
 I32
 ___
 ___
@@ -986,6 +1131,7 @@ load8_s
 WABT_OPCODE
 (
 I64
+___
 I32
 ___
 ___
@@ -1004,6 +1150,7 @@ load8_u
 WABT_OPCODE
 (
 I64
+___
 I32
 ___
 ___
@@ -1022,6 +1169,7 @@ load16_s
 WABT_OPCODE
 (
 I64
+___
 I32
 ___
 ___
@@ -1040,6 +1188,7 @@ load16_u
 WABT_OPCODE
 (
 I64
+___
 I32
 ___
 ___
@@ -1058,6 +1207,7 @@ load32_s
 WABT_OPCODE
 (
 I64
+___
 I32
 ___
 ___
@@ -1075,6 +1225,7 @@ load32_u
 )
 WABT_OPCODE
 (
+___
 ___
 I32
 I32
@@ -1094,6 +1245,7 @@ store
 WABT_OPCODE
 (
 ___
+___
 I32
 I64
 ___
@@ -1111,6 +1263,7 @@ store
 )
 WABT_OPCODE
 (
+___
 ___
 I32
 F32
@@ -1130,6 +1283,7 @@ store
 WABT_OPCODE
 (
 ___
+___
 I32
 F64
 ___
@@ -1147,6 +1301,7 @@ store
 )
 WABT_OPCODE
 (
+___
 ___
 I32
 I32
@@ -1166,6 +1321,7 @@ store8
 WABT_OPCODE
 (
 ___
+___
 I32
 I32
 ___
@@ -1183,6 +1339,7 @@ store16
 )
 WABT_OPCODE
 (
+___
 ___
 I32
 I64
@@ -1202,6 +1359,7 @@ store8
 WABT_OPCODE
 (
 ___
+___
 I32
 I64
 ___
@@ -1219,6 +1377,7 @@ store16
 )
 WABT_OPCODE
 (
+___
 ___
 I32
 I64
@@ -1241,6 +1400,7 @@ I32
 ___
 ___
 ___
+___
 0
 0
 0x3f
@@ -1256,6 +1416,7 @@ size
 WABT_OPCODE
 (
 I32
+___
 I32
 ___
 ___
@@ -1277,6 +1438,7 @@ I32
 ___
 ___
 ___
+___
 0
 0
 0x41
@@ -1292,6 +1454,7 @@ const
 WABT_OPCODE
 (
 I64
+___
 ___
 ___
 ___
@@ -1313,6 +1476,7 @@ F32
 ___
 ___
 ___
+___
 0
 0
 0x43
@@ -1331,6 +1495,7 @@ F64
 ___
 ___
 ___
+___
 0
 0
 0x44
@@ -1346,6 +1511,7 @@ const
 WABT_OPCODE
 (
 I32
+___
 I32
 ___
 ___
@@ -1365,6 +1531,7 @@ eqz
 WABT_OPCODE
 (
 I32
+___
 I32
 I32
 ___
@@ -1385,6 +1552,7 @@ eq
 WABT_OPCODE
 (
 I32
+___
 I32
 I32
 ___
@@ -1405,6 +1573,7 @@ ne
 WABT_OPCODE
 (
 I32
+___
 I32
 I32
 ___
@@ -1424,6 +1593,7 @@ lt_s
 WABT_OPCODE
 (
 I32
+___
 I32
 I32
 ___
@@ -1443,6 +1613,7 @@ lt_u
 WABT_OPCODE
 (
 I32
+___
 I32
 I32
 ___
@@ -1462,6 +1633,7 @@ gt_s
 WABT_OPCODE
 (
 I32
+___
 I32
 I32
 ___
@@ -1481,6 +1653,7 @@ gt_u
 WABT_OPCODE
 (
 I32
+___
 I32
 I32
 ___
@@ -1501,6 +1674,7 @@ le_s
 WABT_OPCODE
 (
 I32
+___
 I32
 I32
 ___
@@ -1521,6 +1695,7 @@ le_u
 WABT_OPCODE
 (
 I32
+___
 I32
 I32
 ___
@@ -1541,6 +1716,7 @@ ge_s
 WABT_OPCODE
 (
 I32
+___
 I32
 I32
 ___
@@ -1561,6 +1737,7 @@ ge_u
 WABT_OPCODE
 (
 I32
+___
 I64
 ___
 ___
@@ -1580,6 +1757,7 @@ eqz
 WABT_OPCODE
 (
 I32
+___
 I64
 I64
 ___
@@ -1600,6 +1778,7 @@ eq
 WABT_OPCODE
 (
 I32
+___
 I64
 I64
 ___
@@ -1620,6 +1799,7 @@ ne
 WABT_OPCODE
 (
 I32
+___
 I64
 I64
 ___
@@ -1639,6 +1819,7 @@ lt_s
 WABT_OPCODE
 (
 I32
+___
 I64
 I64
 ___
@@ -1658,6 +1839,7 @@ lt_u
 WABT_OPCODE
 (
 I32
+___
 I64
 I64
 ___
@@ -1677,6 +1859,7 @@ gt_s
 WABT_OPCODE
 (
 I32
+___
 I64
 I64
 ___
@@ -1696,6 +1879,7 @@ gt_u
 WABT_OPCODE
 (
 I32
+___
 I64
 I64
 ___
@@ -1716,6 +1900,7 @@ le_s
 WABT_OPCODE
 (
 I32
+___
 I64
 I64
 ___
@@ -1736,6 +1921,7 @@ le_u
 WABT_OPCODE
 (
 I32
+___
 I64
 I64
 ___
@@ -1756,6 +1942,7 @@ ge_s
 WABT_OPCODE
 (
 I32
+___
 I64
 I64
 ___
@@ -1776,6 +1963,7 @@ ge_u
 WABT_OPCODE
 (
 I32
+___
 F32
 F32
 ___
@@ -1796,6 +1984,7 @@ eq
 WABT_OPCODE
 (
 I32
+___
 F32
 F32
 ___
@@ -1816,6 +2005,7 @@ ne
 WABT_OPCODE
 (
 I32
+___
 F32
 F32
 ___
@@ -1835,6 +2025,7 @@ lt
 WABT_OPCODE
 (
 I32
+___
 F32
 F32
 ___
@@ -1854,6 +2045,7 @@ gt
 WABT_OPCODE
 (
 I32
+___
 F32
 F32
 ___
@@ -1874,6 +2066,7 @@ le
 WABT_OPCODE
 (
 I32
+___
 F32
 F32
 ___
@@ -1894,6 +2087,7 @@ ge
 WABT_OPCODE
 (
 I32
+___
 F64
 F64
 ___
@@ -1914,6 +2108,7 @@ eq
 WABT_OPCODE
 (
 I32
+___
 F64
 F64
 ___
@@ -1934,6 +2129,7 @@ ne
 WABT_OPCODE
 (
 I32
+___
 F64
 F64
 ___
@@ -1953,6 +2149,7 @@ lt
 WABT_OPCODE
 (
 I32
+___
 F64
 F64
 ___
@@ -1972,6 +2169,7 @@ gt
 WABT_OPCODE
 (
 I32
+___
 F64
 F64
 ___
@@ -1992,6 +2190,7 @@ le
 WABT_OPCODE
 (
 I32
+___
 F64
 F64
 ___
@@ -2012,6 +2211,7 @@ ge
 WABT_OPCODE
 (
 I32
+___
 I32
 ___
 ___
@@ -2031,6 +2231,7 @@ clz
 WABT_OPCODE
 (
 I32
+___
 I32
 ___
 ___
@@ -2050,6 +2251,7 @@ ctz
 WABT_OPCODE
 (
 I32
+___
 I32
 ___
 ___
@@ -2069,6 +2271,7 @@ popcnt
 WABT_OPCODE
 (
 I32
+___
 I32
 I32
 ___
@@ -2088,6 +2291,7 @@ add
 WABT_OPCODE
 (
 I32
+___
 I32
 I32
 ___
@@ -2107,6 +2311,7 @@ sub
 WABT_OPCODE
 (
 I32
+___
 I32
 I32
 ___
@@ -2126,6 +2331,7 @@ mul
 WABT_OPCODE
 (
 I32
+___
 I32
 I32
 ___
@@ -2145,6 +2351,7 @@ div_s
 WABT_OPCODE
 (
 I32
+___
 I32
 I32
 ___
@@ -2164,6 +2371,7 @@ div_u
 WABT_OPCODE
 (
 I32
+___
 I32
 I32
 ___
@@ -2183,6 +2391,7 @@ rem_s
 WABT_OPCODE
 (
 I32
+___
 I32
 I32
 ___
@@ -2202,6 +2411,7 @@ rem_u
 WABT_OPCODE
 (
 I32
+___
 I32
 I32
 ___
@@ -2221,6 +2431,7 @@ and
 WABT_OPCODE
 (
 I32
+___
 I32
 I32
 ___
@@ -2240,6 +2451,7 @@ or
 WABT_OPCODE
 (
 I32
+___
 I32
 I32
 ___
@@ -2259,6 +2471,7 @@ xor
 WABT_OPCODE
 (
 I32
+___
 I32
 I32
 ___
@@ -2279,6 +2492,7 @@ shl
 WABT_OPCODE
 (
 I32
+___
 I32
 I32
 ___
@@ -2299,6 +2513,7 @@ shr_s
 WABT_OPCODE
 (
 I32
+___
 I32
 I32
 ___
@@ -2319,6 +2534,7 @@ shr_u
 WABT_OPCODE
 (
 I32
+___
 I32
 I32
 ___
@@ -2339,6 +2555,7 @@ rotl
 WABT_OPCODE
 (
 I32
+___
 I32
 I32
 ___
@@ -2359,6 +2576,7 @@ rotr
 WABT_OPCODE
 (
 I64
+___
 I64
 ___
 ___
@@ -2378,6 +2596,7 @@ clz
 WABT_OPCODE
 (
 I64
+___
 I64
 ___
 ___
@@ -2397,6 +2616,7 @@ ctz
 WABT_OPCODE
 (
 I64
+___
 I64
 ___
 ___
@@ -2416,6 +2636,7 @@ popcnt
 WABT_OPCODE
 (
 I64
+___
 I64
 I64
 ___
@@ -2435,6 +2656,7 @@ add
 WABT_OPCODE
 (
 I64
+___
 I64
 I64
 ___
@@ -2454,6 +2676,7 @@ sub
 WABT_OPCODE
 (
 I64
+___
 I64
 I64
 ___
@@ -2473,6 +2696,7 @@ mul
 WABT_OPCODE
 (
 I64
+___
 I64
 I64
 ___
@@ -2492,6 +2716,7 @@ div_s
 WABT_OPCODE
 (
 I64
+___
 I64
 I64
 ___
@@ -2511,6 +2736,7 @@ div_u
 WABT_OPCODE
 (
 I64
+___
 I64
 I64
 ___
@@ -2530,6 +2756,7 @@ rem_s
 WABT_OPCODE
 (
 I64
+___
 I64
 I64
 ___
@@ -2549,6 +2776,7 @@ rem_u
 WABT_OPCODE
 (
 I64
+___
 I64
 I64
 ___
@@ -2568,6 +2796,7 @@ and
 WABT_OPCODE
 (
 I64
+___
 I64
 I64
 ___
@@ -2587,6 +2816,7 @@ or
 WABT_OPCODE
 (
 I64
+___
 I64
 I64
 ___
@@ -2606,6 +2836,7 @@ xor
 WABT_OPCODE
 (
 I64
+___
 I64
 I64
 ___
@@ -2626,6 +2857,7 @@ shl
 WABT_OPCODE
 (
 I64
+___
 I64
 I64
 ___
@@ -2646,6 +2878,7 @@ shr_s
 WABT_OPCODE
 (
 I64
+___
 I64
 I64
 ___
@@ -2666,6 +2899,7 @@ shr_u
 WABT_OPCODE
 (
 I64
+___
 I64
 I64
 ___
@@ -2686,6 +2920,7 @@ rotl
 WABT_OPCODE
 (
 I64
+___
 I64
 I64
 ___
@@ -2706,6 +2941,7 @@ rotr
 WABT_OPCODE
 (
 F32
+___
 F32
 ___
 ___
@@ -2725,6 +2961,7 @@ abs
 WABT_OPCODE
 (
 F32
+___
 F32
 ___
 ___
@@ -2744,6 +2981,7 @@ neg
 WABT_OPCODE
 (
 F32
+___
 F32
 ___
 ___
@@ -2763,6 +3001,7 @@ ceil
 WABT_OPCODE
 (
 F32
+___
 F32
 ___
 ___
@@ -2782,6 +3021,7 @@ floor
 WABT_OPCODE
 (
 F32
+___
 F32
 ___
 ___
@@ -2801,6 +3041,7 @@ trunc
 WABT_OPCODE
 (
 F32
+___
 F32
 ___
 ___
@@ -2820,6 +3061,7 @@ nearest
 WABT_OPCODE
 (
 F32
+___
 F32
 ___
 ___
@@ -2839,6 +3081,7 @@ sqrt
 WABT_OPCODE
 (
 F32
+___
 F32
 F32
 ___
@@ -2858,6 +3101,7 @@ add
 WABT_OPCODE
 (
 F32
+___
 F32
 F32
 ___
@@ -2877,6 +3121,7 @@ sub
 WABT_OPCODE
 (
 F32
+___
 F32
 F32
 ___
@@ -2896,6 +3141,7 @@ mul
 WABT_OPCODE
 (
 F32
+___
 F32
 F32
 ___
@@ -2915,6 +3161,7 @@ div
 WABT_OPCODE
 (
 F32
+___
 F32
 F32
 ___
@@ -2934,6 +3181,7 @@ min
 WABT_OPCODE
 (
 F32
+___
 F32
 F32
 ___
@@ -2953,6 +3201,7 @@ max
 WABT_OPCODE
 (
 F32
+___
 F32
 F32
 ___
@@ -2972,6 +3221,7 @@ copysign
 WABT_OPCODE
 (
 F64
+___
 F64
 ___
 ___
@@ -2991,6 +3241,7 @@ abs
 WABT_OPCODE
 (
 F64
+___
 F64
 ___
 ___
@@ -3010,6 +3261,7 @@ neg
 WABT_OPCODE
 (
 F64
+___
 F64
 ___
 ___
@@ -3029,6 +3281,7 @@ ceil
 WABT_OPCODE
 (
 F64
+___
 F64
 ___
 ___
@@ -3048,6 +3301,7 @@ floor
 WABT_OPCODE
 (
 F64
+___
 F64
 ___
 ___
@@ -3067,6 +3321,7 @@ trunc
 WABT_OPCODE
 (
 F64
+___
 F64
 ___
 ___
@@ -3086,6 +3341,7 @@ nearest
 WABT_OPCODE
 (
 F64
+___
 F64
 ___
 ___
@@ -3105,6 +3361,7 @@ sqrt
 WABT_OPCODE
 (
 F64
+___
 F64
 F64
 ___
@@ -3124,6 +3381,7 @@ add
 WABT_OPCODE
 (
 F64
+___
 F64
 F64
 ___
@@ -3143,6 +3401,7 @@ sub
 WABT_OPCODE
 (
 F64
+___
 F64
 F64
 ___
@@ -3162,6 +3421,7 @@ mul
 WABT_OPCODE
 (
 F64
+___
 F64
 F64
 ___
@@ -3181,6 +3441,7 @@ div
 WABT_OPCODE
 (
 F64
+___
 F64
 F64
 ___
@@ -3200,6 +3461,7 @@ min
 WABT_OPCODE
 (
 F64
+___
 F64
 F64
 ___
@@ -3219,6 +3481,7 @@ max
 WABT_OPCODE
 (
 F64
+___
 F64
 F64
 ___
@@ -3238,6 +3501,7 @@ copysign
 WABT_OPCODE
 (
 I32
+___
 I64
 ___
 ___
@@ -3256,6 +3520,7 @@ wrap_i64
 WABT_OPCODE
 (
 I32
+___
 F32
 ___
 ___
@@ -3274,6 +3539,7 @@ trunc_f32_s
 WABT_OPCODE
 (
 I32
+___
 F32
 ___
 ___
@@ -3292,6 +3558,7 @@ trunc_f32_u
 WABT_OPCODE
 (
 I32
+___
 F64
 ___
 ___
@@ -3310,6 +3577,7 @@ trunc_f64_s
 WABT_OPCODE
 (
 I32
+___
 F64
 ___
 ___
@@ -3328,6 +3596,7 @@ trunc_f64_u
 WABT_OPCODE
 (
 I64
+___
 I32
 ___
 ___
@@ -3346,6 +3615,7 @@ extend_i32_s
 WABT_OPCODE
 (
 I64
+___
 I32
 ___
 ___
@@ -3364,6 +3634,7 @@ extend_i32_u
 WABT_OPCODE
 (
 I64
+___
 F32
 ___
 ___
@@ -3382,6 +3653,7 @@ trunc_f32_s
 WABT_OPCODE
 (
 I64
+___
 F32
 ___
 ___
@@ -3400,6 +3672,7 @@ trunc_f32_u
 WABT_OPCODE
 (
 I64
+___
 F64
 ___
 ___
@@ -3418,6 +3691,7 @@ trunc_f64_s
 WABT_OPCODE
 (
 I64
+___
 F64
 ___
 ___
@@ -3436,6 +3710,7 @@ trunc_f64_u
 WABT_OPCODE
 (
 F32
+___
 I32
 ___
 ___
@@ -3454,6 +3729,7 @@ convert_i32_s
 WABT_OPCODE
 (
 F32
+___
 I32
 ___
 ___
@@ -3472,6 +3748,7 @@ convert_i32_u
 WABT_OPCODE
 (
 F32
+___
 I64
 ___
 ___
@@ -3490,6 +3767,7 @@ convert_i64_s
 WABT_OPCODE
 (
 F32
+___
 I64
 ___
 ___
@@ -3508,6 +3786,7 @@ convert_i64_u
 WABT_OPCODE
 (
 F32
+___
 F64
 ___
 ___
@@ -3526,6 +3805,7 @@ demote_f64
 WABT_OPCODE
 (
 F64
+___
 I32
 ___
 ___
@@ -3544,6 +3824,7 @@ convert_i32_s
 WABT_OPCODE
 (
 F64
+___
 I32
 ___
 ___
@@ -3562,6 +3843,7 @@ convert_i32_u
 WABT_OPCODE
 (
 F64
+___
 I64
 ___
 ___
@@ -3580,6 +3862,7 @@ convert_i64_s
 WABT_OPCODE
 (
 F64
+___
 I64
 ___
 ___
@@ -3598,6 +3881,7 @@ convert_i64_u
 WABT_OPCODE
 (
 F64
+___
 F32
 ___
 ___
@@ -3616,6 +3900,7 @@ promote_f32
 WABT_OPCODE
 (
 I32
+___
 F32
 ___
 ___
@@ -3634,6 +3919,7 @@ reinterpret_f32
 WABT_OPCODE
 (
 I64
+___
 F64
 ___
 ___
@@ -3652,6 +3938,7 @@ reinterpret_f64
 WABT_OPCODE
 (
 F32
+___
 I32
 ___
 ___
@@ -3670,6 +3957,7 @@ reinterpret_i32
 WABT_OPCODE
 (
 F64
+___
 I64
 ___
 ___
@@ -3705,6 +3993,7 @@ extension
 WABT_OPCODE
 (
 I32
+___
 I32
 ___
 ___
@@ -3723,6 +4012,7 @@ extend8_s
 WABT_OPCODE
 (
 I32
+___
 I32
 ___
 ___
@@ -3741,6 +4031,7 @@ extend16_s
 WABT_OPCODE
 (
 I64
+___
 I64
 ___
 ___
@@ -3759,6 +4050,7 @@ extend8_s
 WABT_OPCODE
 (
 I64
+___
 I64
 ___
 ___
@@ -3777,6 +4069,7 @@ extend16_s
 WABT_OPCODE
 (
 I64
+___
 I64
 ___
 ___
@@ -3806,6 +4099,7 @@ ___
 ___
 ___
 ___
+___
 0
 0
 0xe0
@@ -3818,6 +4112,7 @@ alloca
 )
 WABT_OPCODE
 (
+___
 ___
 I32
 ___
@@ -3838,6 +4133,7 @@ ___
 ___
 ___
 ___
+___
 0
 0
 0xe2
@@ -3850,6 +4146,7 @@ call_import
 )
 WABT_OPCODE
 (
+___
 ___
 ___
 ___
@@ -3870,6 +4167,7 @@ ___
 ___
 ___
 ___
+___
 0
 0
 0xe4
@@ -3882,6 +4180,7 @@ drop_keep
 )
 WABT_OPCODE
 (
+___
 ___
 ___
 ___
@@ -3902,12 +4201,72 @@ ___
 ___
 ___
 ___
+___
 0
 0
 0xe6
 InterpAdjustFrameForReturnCall
 "
 adjust_frame_for_return_call
+"
+"
+"
+)
+WABT_OPCODE
+(
+___
+___
+___
+___
+___
+0
+0
+0xe7
+InterpGlobalGetRef
+"
+global
+.
+get
+.
+ref
+"
+"
+"
+)
+WABT_OPCODE
+(
+___
+___
+___
+___
+___
+0
+0
+0xe9
+InterpLocalGetRef
+"
+local
+.
+get
+.
+ref
+"
+"
+"
+)
+WABT_OPCODE
+(
+___
+___
+___
+___
+___
+0
+0
+0xea
+InterpMarkRef
+"
+mark_ref
 "
 "
 "
@@ -3939,6 +4298,7 @@ int
 WABT_OPCODE
 (
 I32
+___
 F32
 ___
 ___
@@ -3957,6 +4317,7 @@ trunc_sat_f32_s
 WABT_OPCODE
 (
 I32
+___
 F32
 ___
 ___
@@ -3975,6 +4336,7 @@ trunc_sat_f32_u
 WABT_OPCODE
 (
 I32
+___
 F64
 ___
 ___
@@ -3993,6 +4355,7 @@ trunc_sat_f64_s
 WABT_OPCODE
 (
 I32
+___
 F64
 ___
 ___
@@ -4011,6 +4374,7 @@ trunc_sat_f64_u
 WABT_OPCODE
 (
 I64
+___
 F32
 ___
 ___
@@ -4029,6 +4393,7 @@ trunc_sat_f32_s
 WABT_OPCODE
 (
 I64
+___
 F32
 ___
 ___
@@ -4047,6 +4412,7 @@ trunc_sat_f32_u
 WABT_OPCODE
 (
 I64
+___
 F64
 ___
 ___
@@ -4065,6 +4431,7 @@ trunc_sat_f64_s
 WABT_OPCODE
 (
 I64
+___
 F64
 ___
 ___
@@ -4082,6 +4449,88 @@ trunc_sat_f64_u
 )
 /
 *
+Wide
+arithmetic
+*
+/
+WABT_OPCODE
+(
+I64
+I64
+I64
+I64
+I64
+0
+0xfc
+0x13
+I64Add128
+"
+i64
+.
+add128
+"
+"
+"
+)
+WABT_OPCODE
+(
+I64
+I64
+I64
+I64
+I64
+0
+0xfc
+0x14
+I64Sub128
+"
+i64
+.
+sub128
+"
+"
+"
+)
+WABT_OPCODE
+(
+I64
+I64
+I64
+I64
+___
+0
+0xfc
+0x15
+I64MulWideS
+"
+i64
+.
+mul_wide_s
+"
+"
+"
+)
+WABT_OPCODE
+(
+I64
+I64
+I64
+I64
+___
+0
+0xfc
+0x16
+I64MulWideU
+"
+i64
+.
+mul_wide_u
+"
+"
+"
+)
+/
+*
 Bulk
 -
 memory
@@ -4089,6 +4538,7 @@ memory
 /
 WABT_OPCODE
 (
+___
 ___
 I32
 I32
@@ -4111,6 +4561,7 @@ ___
 ___
 ___
 ___
+___
 0
 0xfc
 0x09
@@ -4125,6 +4576,7 @@ drop
 )
 WABT_OPCODE
 (
+___
 ___
 I32
 I32
@@ -4144,6 +4596,7 @@ copy
 WABT_OPCODE
 (
 ___
+___
 I32
 I32
 I32
@@ -4161,6 +4614,7 @@ fill
 )
 WABT_OPCODE
 (
+___
 ___
 I32
 I32
@@ -4183,6 +4637,7 @@ ___
 ___
 ___
 ___
+___
 0
 0xfc
 0x0d
@@ -4197,6 +4652,7 @@ drop
 )
 WABT_OPCODE
 (
+___
 ___
 I32
 I32
@@ -4222,6 +4678,7 @@ types
 WABT_OPCODE
 (
 ___
+___
 I32
 ___
 ___
@@ -4240,8 +4697,9 @@ get
 WABT_OPCODE
 (
 ___
-I32
 ___
+I32
+Any
 ___
 0
 0
@@ -4257,6 +4715,7 @@ set
 )
 WABT_OPCODE
 (
+___
 ___
 ___
 I32
@@ -4279,6 +4738,7 @@ ___
 ___
 ___
 ___
+___
 0
 0xfc
 0x10
@@ -4293,6 +4753,7 @@ size
 )
 WABT_OPCODE
 (
+___
 ___
 I32
 ___
@@ -4315,6 +4776,7 @@ ___
 ___
 ___
 ___
+___
 0
 0
 0xd0
@@ -4329,6 +4791,7 @@ null
 )
 WABT_OPCODE
 (
+___
 ___
 ___
 ___
@@ -4351,6 +4814,7 @@ ___
 ___
 ___
 ___
+___
 0
 0
 0xd2
@@ -4359,6 +4823,59 @@ RefFunc
 ref
 .
 func
+"
+"
+"
+)
+WABT_OPCODE
+(
+___
+___
+___
+___
+___
+0
+0
+0xd4
+RefAsNonNull
+"
+ref
+.
+as_non_null
+"
+"
+"
+)
+WABT_OPCODE
+(
+___
+___
+___
+___
+___
+0
+0
+0xd5
+BrOnNull
+"
+br_on_null
+"
+"
+"
+)
+WABT_OPCODE
+(
+___
+___
+___
+___
+___
+0
+0
+0xd6
+BrOnNonNull
+"
+br_on_non_null
 "
 "
 "
@@ -4372,6 +4889,7 @@ opcodes
 WABT_OPCODE
 (
 V128
+___
 I32
 ___
 ___
@@ -4390,6 +4908,7 @@ load
 WABT_OPCODE
 (
 V128
+___
 I32
 ___
 ___
@@ -4408,6 +4927,7 @@ load8x8_s
 WABT_OPCODE
 (
 V128
+___
 I32
 ___
 ___
@@ -4426,6 +4946,7 @@ load8x8_u
 WABT_OPCODE
 (
 V128
+___
 I32
 ___
 ___
@@ -4444,6 +4965,7 @@ load16x4_s
 WABT_OPCODE
 (
 V128
+___
 I32
 ___
 ___
@@ -4462,6 +4984,7 @@ load16x4_u
 WABT_OPCODE
 (
 V128
+___
 I32
 ___
 ___
@@ -4480,6 +5003,7 @@ load32x2_s
 WABT_OPCODE
 (
 V128
+___
 I32
 ___
 ___
@@ -4498,6 +5022,7 @@ load32x2_u
 WABT_OPCODE
 (
 V128
+___
 I32
 ___
 ___
@@ -4516,6 +5041,7 @@ load8_splat
 WABT_OPCODE
 (
 V128
+___
 I32
 ___
 ___
@@ -4534,6 +5060,7 @@ load16_splat
 WABT_OPCODE
 (
 V128
+___
 I32
 ___
 ___
@@ -4552,6 +5079,7 @@ load32_splat
 WABT_OPCODE
 (
 V128
+___
 I32
 ___
 ___
@@ -4569,6 +5097,7 @@ load64_splat
 )
 WABT_OPCODE
 (
+___
 ___
 I32
 V128
@@ -4591,6 +5120,7 @@ V128
 ___
 ___
 ___
+___
 0
 0xfd
 0x0c
@@ -4606,6 +5136,7 @@ const
 WABT_OPCODE
 (
 V128
+___
 V128
 V128
 ___
@@ -4624,6 +5155,7 @@ shuffle
 WABT_OPCODE
 (
 V128
+___
 V128
 V128
 ___
@@ -4642,6 +5174,7 @@ swizzle
 WABT_OPCODE
 (
 V128
+___
 I32
 ___
 ___
@@ -4660,6 +5193,7 @@ splat
 WABT_OPCODE
 (
 V128
+___
 I32
 ___
 ___
@@ -4678,6 +5212,7 @@ splat
 WABT_OPCODE
 (
 V128
+___
 I32
 ___
 ___
@@ -4696,6 +5231,7 @@ splat
 WABT_OPCODE
 (
 V128
+___
 I64
 ___
 ___
@@ -4714,6 +5250,7 @@ splat
 WABT_OPCODE
 (
 V128
+___
 F32
 ___
 ___
@@ -4732,6 +5269,7 @@ splat
 WABT_OPCODE
 (
 V128
+___
 F64
 ___
 ___
@@ -4750,6 +5288,7 @@ splat
 WABT_OPCODE
 (
 I32
+___
 V128
 ___
 ___
@@ -4768,6 +5307,7 @@ extract_lane_s
 WABT_OPCODE
 (
 I32
+___
 V128
 ___
 ___
@@ -4786,6 +5326,7 @@ extract_lane_u
 WABT_OPCODE
 (
 V128
+___
 V128
 I32
 ___
@@ -4804,6 +5345,7 @@ replace_lane
 WABT_OPCODE
 (
 I32
+___
 V128
 ___
 ___
@@ -4822,6 +5364,7 @@ extract_lane_s
 WABT_OPCODE
 (
 I32
+___
 V128
 ___
 ___
@@ -4840,6 +5383,7 @@ extract_lane_u
 WABT_OPCODE
 (
 V128
+___
 V128
 I32
 ___
@@ -4858,6 +5402,7 @@ replace_lane
 WABT_OPCODE
 (
 I32
+___
 V128
 ___
 ___
@@ -4876,6 +5421,7 @@ extract_lane
 WABT_OPCODE
 (
 V128
+___
 V128
 I32
 ___
@@ -4894,6 +5440,7 @@ replace_lane
 WABT_OPCODE
 (
 I64
+___
 V128
 ___
 ___
@@ -4912,6 +5459,7 @@ extract_lane
 WABT_OPCODE
 (
 V128
+___
 V128
 I64
 ___
@@ -4930,6 +5478,7 @@ replace_lane
 WABT_OPCODE
 (
 F32
+___
 V128
 ___
 ___
@@ -4948,6 +5497,7 @@ extract_lane
 WABT_OPCODE
 (
 V128
+___
 V128
 F32
 ___
@@ -4966,6 +5516,7 @@ replace_lane
 WABT_OPCODE
 (
 F64
+___
 V128
 ___
 ___
@@ -4984,6 +5535,7 @@ extract_lane
 WABT_OPCODE
 (
 V128
+___
 V128
 F64
 ___
@@ -5002,6 +5554,7 @@ replace_lane
 WABT_OPCODE
 (
 V128
+___
 V128
 V128
 ___
@@ -5020,6 +5573,7 @@ eq
 WABT_OPCODE
 (
 V128
+___
 V128
 V128
 ___
@@ -5038,6 +5592,7 @@ ne
 WABT_OPCODE
 (
 V128
+___
 V128
 V128
 ___
@@ -5056,6 +5611,7 @@ lt_s
 WABT_OPCODE
 (
 V128
+___
 V128
 V128
 ___
@@ -5074,6 +5630,7 @@ lt_u
 WABT_OPCODE
 (
 V128
+___
 V128
 V128
 ___
@@ -5092,6 +5649,7 @@ gt_s
 WABT_OPCODE
 (
 V128
+___
 V128
 V128
 ___
@@ -5110,6 +5668,7 @@ gt_u
 WABT_OPCODE
 (
 V128
+___
 V128
 V128
 ___
@@ -5128,6 +5687,7 @@ le_s
 WABT_OPCODE
 (
 V128
+___
 V128
 V128
 ___
@@ -5146,6 +5706,7 @@ le_u
 WABT_OPCODE
 (
 V128
+___
 V128
 V128
 ___
@@ -5164,6 +5725,7 @@ ge_s
 WABT_OPCODE
 (
 V128
+___
 V128
 V128
 ___
@@ -5182,6 +5744,7 @@ ge_u
 WABT_OPCODE
 (
 V128
+___
 V128
 V128
 ___
@@ -5200,6 +5763,7 @@ eq
 WABT_OPCODE
 (
 V128
+___
 V128
 V128
 ___
@@ -5218,6 +5782,7 @@ ne
 WABT_OPCODE
 (
 V128
+___
 V128
 V128
 ___
@@ -5236,6 +5801,7 @@ lt_s
 WABT_OPCODE
 (
 V128
+___
 V128
 V128
 ___
@@ -5254,6 +5820,7 @@ lt_u
 WABT_OPCODE
 (
 V128
+___
 V128
 V128
 ___
@@ -5272,6 +5839,7 @@ gt_s
 WABT_OPCODE
 (
 V128
+___
 V128
 V128
 ___
@@ -5290,6 +5858,7 @@ gt_u
 WABT_OPCODE
 (
 V128
+___
 V128
 V128
 ___
@@ -5308,6 +5877,7 @@ le_s
 WABT_OPCODE
 (
 V128
+___
 V128
 V128
 ___
@@ -5326,6 +5896,7 @@ le_u
 WABT_OPCODE
 (
 V128
+___
 V128
 V128
 ___
@@ -5344,6 +5915,7 @@ ge_s
 WABT_OPCODE
 (
 V128
+___
 V128
 V128
 ___
@@ -5362,6 +5934,7 @@ ge_u
 WABT_OPCODE
 (
 V128
+___
 V128
 V128
 ___
@@ -5380,6 +5953,7 @@ eq
 WABT_OPCODE
 (
 V128
+___
 V128
 V128
 ___
@@ -5398,6 +5972,7 @@ ne
 WABT_OPCODE
 (
 V128
+___
 V128
 V128
 ___
@@ -5416,6 +5991,7 @@ lt_s
 WABT_OPCODE
 (
 V128
+___
 V128
 V128
 ___
@@ -5434,6 +6010,7 @@ lt_u
 WABT_OPCODE
 (
 V128
+___
 V128
 V128
 ___
@@ -5452,6 +6029,7 @@ gt_s
 WABT_OPCODE
 (
 V128
+___
 V128
 V128
 ___
@@ -5470,6 +6048,7 @@ gt_u
 WABT_OPCODE
 (
 V128
+___
 V128
 V128
 ___
@@ -5488,6 +6067,7 @@ le_s
 WABT_OPCODE
 (
 V128
+___
 V128
 V128
 ___
@@ -5506,6 +6086,7 @@ le_u
 WABT_OPCODE
 (
 V128
+___
 V128
 V128
 ___
@@ -5524,6 +6105,7 @@ ge_s
 WABT_OPCODE
 (
 V128
+___
 V128
 V128
 ___
@@ -5542,6 +6124,7 @@ ge_u
 WABT_OPCODE
 (
 V128
+___
 V128
 V128
 ___
@@ -5560,6 +6143,7 @@ eq
 WABT_OPCODE
 (
 V128
+___
 V128
 V128
 ___
@@ -5578,6 +6162,7 @@ ne
 WABT_OPCODE
 (
 V128
+___
 V128
 V128
 ___
@@ -5596,6 +6181,7 @@ lt
 WABT_OPCODE
 (
 V128
+___
 V128
 V128
 ___
@@ -5614,6 +6200,7 @@ gt
 WABT_OPCODE
 (
 V128
+___
 V128
 V128
 ___
@@ -5632,6 +6219,7 @@ le
 WABT_OPCODE
 (
 V128
+___
 V128
 V128
 ___
@@ -5650,6 +6238,7 @@ ge
 WABT_OPCODE
 (
 V128
+___
 V128
 V128
 ___
@@ -5668,6 +6257,7 @@ eq
 WABT_OPCODE
 (
 V128
+___
 V128
 V128
 ___
@@ -5686,6 +6276,7 @@ ne
 WABT_OPCODE
 (
 V128
+___
 V128
 V128
 ___
@@ -5704,6 +6295,7 @@ lt
 WABT_OPCODE
 (
 V128
+___
 V128
 V128
 ___
@@ -5722,6 +6314,7 @@ gt
 WABT_OPCODE
 (
 V128
+___
 V128
 V128
 ___
@@ -5740,6 +6333,7 @@ le
 WABT_OPCODE
 (
 V128
+___
 V128
 V128
 ___
@@ -5758,6 +6352,7 @@ ge
 WABT_OPCODE
 (
 V128
+___
 V128
 ___
 ___
@@ -5776,6 +6371,7 @@ not
 WABT_OPCODE
 (
 V128
+___
 V128
 V128
 ___
@@ -5794,6 +6390,7 @@ and
 WABT_OPCODE
 (
 V128
+___
 V128
 V128
 ___
@@ -5812,6 +6409,7 @@ andnot
 WABT_OPCODE
 (
 V128
+___
 V128
 V128
 ___
@@ -5830,6 +6428,7 @@ or
 WABT_OPCODE
 (
 V128
+___
 V128
 V128
 ___
@@ -5848,6 +6447,7 @@ xor
 WABT_OPCODE
 (
 V128
+___
 V128
 V128
 V128
@@ -5866,6 +6466,7 @@ bitselect
 WABT_OPCODE
 (
 I32
+___
 V128
 ___
 ___
@@ -5884,6 +6485,7 @@ any_true
 WABT_OPCODE
 (
 V128
+___
 I32
 V128
 ___
@@ -5902,6 +6504,7 @@ load8_lane
 WABT_OPCODE
 (
 V128
+___
 I32
 V128
 ___
@@ -5920,6 +6523,7 @@ load16_lane
 WABT_OPCODE
 (
 V128
+___
 I32
 V128
 ___
@@ -5938,6 +6542,7 @@ load32_lane
 WABT_OPCODE
 (
 V128
+___
 I32
 V128
 ___
@@ -5955,6 +6560,7 @@ load64_lane
 )
 WABT_OPCODE
 (
+___
 ___
 I32
 V128
@@ -5974,6 +6580,7 @@ store8_lane
 WABT_OPCODE
 (
 ___
+___
 I32
 V128
 ___
@@ -5991,6 +6598,7 @@ store16_lane
 )
 WABT_OPCODE
 (
+___
 ___
 I32
 V128
@@ -6010,6 +6618,7 @@ store32_lane
 WABT_OPCODE
 (
 ___
+___
 I32
 V128
 ___
@@ -6028,6 +6637,7 @@ store64_lane
 WABT_OPCODE
 (
 V128
+___
 I32
 ___
 ___
@@ -6046,6 +6656,7 @@ load32_zero
 WABT_OPCODE
 (
 V128
+___
 I32
 ___
 ___
@@ -6064,6 +6675,7 @@ load64_zero
 WABT_OPCODE
 (
 V128
+___
 V128
 ___
 ___
@@ -6082,6 +6694,7 @@ demote_f64x2_zero
 WABT_OPCODE
 (
 V128
+___
 V128
 ___
 ___
@@ -6100,6 +6713,7 @@ promote_low_f32x4
 WABT_OPCODE
 (
 V128
+___
 V128
 ___
 ___
@@ -6118,6 +6732,7 @@ abs
 WABT_OPCODE
 (
 V128
+___
 V128
 ___
 ___
@@ -6136,6 +6751,7 @@ neg
 WABT_OPCODE
 (
 V128
+___
 V128
 ___
 ___
@@ -6154,6 +6770,7 @@ popcnt
 WABT_OPCODE
 (
 I32
+___
 V128
 ___
 ___
@@ -6172,6 +6789,7 @@ all_true
 WABT_OPCODE
 (
 I32
+___
 V128
 ___
 ___
@@ -6190,6 +6808,7 @@ bitmask
 WABT_OPCODE
 (
 V128
+___
 V128
 V128
 ___
@@ -6208,6 +6827,7 @@ narrow_i16x8_s
 WABT_OPCODE
 (
 V128
+___
 V128
 V128
 ___
@@ -6226,6 +6846,7 @@ narrow_i16x8_u
 WABT_OPCODE
 (
 V128
+___
 V128
 I32
 ___
@@ -6244,6 +6865,7 @@ shl
 WABT_OPCODE
 (
 V128
+___
 V128
 I32
 ___
@@ -6262,6 +6884,7 @@ shr_s
 WABT_OPCODE
 (
 V128
+___
 V128
 I32
 ___
@@ -6280,6 +6903,7 @@ shr_u
 WABT_OPCODE
 (
 V128
+___
 V128
 V128
 ___
@@ -6298,6 +6922,7 @@ add
 WABT_OPCODE
 (
 V128
+___
 V128
 V128
 ___
@@ -6316,6 +6941,7 @@ add_sat_s
 WABT_OPCODE
 (
 V128
+___
 V128
 V128
 ___
@@ -6334,6 +6960,7 @@ add_sat_u
 WABT_OPCODE
 (
 V128
+___
 V128
 V128
 ___
@@ -6352,6 +6979,7 @@ sub
 WABT_OPCODE
 (
 V128
+___
 V128
 V128
 ___
@@ -6370,6 +6998,7 @@ sub_sat_s
 WABT_OPCODE
 (
 V128
+___
 V128
 V128
 ___
@@ -6388,6 +7017,7 @@ sub_sat_u
 WABT_OPCODE
 (
 V128
+___
 V128
 V128
 ___
@@ -6406,6 +7036,7 @@ min_s
 WABT_OPCODE
 (
 V128
+___
 V128
 V128
 ___
@@ -6424,6 +7055,7 @@ min_u
 WABT_OPCODE
 (
 V128
+___
 V128
 V128
 ___
@@ -6442,6 +7074,7 @@ max_s
 WABT_OPCODE
 (
 V128
+___
 V128
 V128
 ___
@@ -6460,6 +7093,7 @@ max_u
 WABT_OPCODE
 (
 V128
+___
 V128
 V128
 ___
@@ -6478,6 +7112,7 @@ avgr_u
 WABT_OPCODE
 (
 V128
+___
 V128
 ___
 ___
@@ -6496,6 +7131,7 @@ extadd_pairwise_i8x16_s
 WABT_OPCODE
 (
 V128
+___
 V128
 ___
 ___
@@ -6514,6 +7150,7 @@ extadd_pairwise_i8x16_u
 WABT_OPCODE
 (
 V128
+___
 V128
 ___
 ___
@@ -6532,6 +7169,7 @@ extadd_pairwise_i16x8_s
 WABT_OPCODE
 (
 V128
+___
 V128
 ___
 ___
@@ -6550,6 +7188,7 @@ extadd_pairwise_i16x8_u
 WABT_OPCODE
 (
 V128
+___
 V128
 ___
 ___
@@ -6568,6 +7207,7 @@ abs
 WABT_OPCODE
 (
 V128
+___
 V128
 ___
 ___
@@ -6586,6 +7226,7 @@ neg
 WABT_OPCODE
 (
 V128
+___
 V128
 V128
 ___
@@ -6604,6 +7245,7 @@ q15mulr_sat_s
 WABT_OPCODE
 (
 I32
+___
 V128
 ___
 ___
@@ -6622,6 +7264,7 @@ all_true
 WABT_OPCODE
 (
 I32
+___
 V128
 ___
 ___
@@ -6640,6 +7283,7 @@ bitmask
 WABT_OPCODE
 (
 V128
+___
 V128
 V128
 ___
@@ -6658,6 +7302,7 @@ narrow_i32x4_s
 WABT_OPCODE
 (
 V128
+___
 V128
 V128
 ___
@@ -6676,6 +7321,7 @@ narrow_i32x4_u
 WABT_OPCODE
 (
 V128
+___
 V128
 ___
 ___
@@ -6694,6 +7340,7 @@ extend_low_i8x16_s
 WABT_OPCODE
 (
 V128
+___
 V128
 ___
 ___
@@ -6712,6 +7359,7 @@ extend_high_i8x16_s
 WABT_OPCODE
 (
 V128
+___
 V128
 ___
 ___
@@ -6730,6 +7378,7 @@ extend_low_i8x16_u
 WABT_OPCODE
 (
 V128
+___
 V128
 ___
 ___
@@ -6748,6 +7397,7 @@ extend_high_i8x16_u
 WABT_OPCODE
 (
 V128
+___
 V128
 I32
 ___
@@ -6766,6 +7416,7 @@ shl
 WABT_OPCODE
 (
 V128
+___
 V128
 I32
 ___
@@ -6784,6 +7435,7 @@ shr_s
 WABT_OPCODE
 (
 V128
+___
 V128
 I32
 ___
@@ -6802,6 +7454,7 @@ shr_u
 WABT_OPCODE
 (
 V128
+___
 V128
 V128
 ___
@@ -6820,6 +7473,7 @@ add
 WABT_OPCODE
 (
 V128
+___
 V128
 V128
 ___
@@ -6838,6 +7492,7 @@ add_sat_s
 WABT_OPCODE
 (
 V128
+___
 V128
 V128
 ___
@@ -6856,6 +7511,7 @@ add_sat_u
 WABT_OPCODE
 (
 V128
+___
 V128
 V128
 ___
@@ -6874,6 +7530,7 @@ sub
 WABT_OPCODE
 (
 V128
+___
 V128
 V128
 ___
@@ -6892,6 +7549,7 @@ sub_sat_s
 WABT_OPCODE
 (
 V128
+___
 V128
 V128
 ___
@@ -6910,6 +7568,7 @@ sub_sat_u
 WABT_OPCODE
 (
 V128
+___
 V128
 V128
 ___
@@ -6928,6 +7587,7 @@ mul
 WABT_OPCODE
 (
 V128
+___
 V128
 V128
 ___
@@ -6946,6 +7606,7 @@ min_s
 WABT_OPCODE
 (
 V128
+___
 V128
 V128
 ___
@@ -6964,6 +7625,7 @@ min_u
 WABT_OPCODE
 (
 V128
+___
 V128
 V128
 ___
@@ -6982,6 +7644,7 @@ max_s
 WABT_OPCODE
 (
 V128
+___
 V128
 V128
 ___
@@ -7000,6 +7663,7 @@ max_u
 WABT_OPCODE
 (
 V128
+___
 V128
 V128
 ___
@@ -7018,6 +7682,7 @@ avgr_u
 WABT_OPCODE
 (
 V128
+___
 V128
 V128
 ___
@@ -7036,6 +7701,7 @@ extmul_low_i8x16_s
 WABT_OPCODE
 (
 V128
+___
 V128
 V128
 ___
@@ -7054,6 +7720,7 @@ extmul_high_i8x16_s
 WABT_OPCODE
 (
 V128
+___
 V128
 V128
 ___
@@ -7072,6 +7739,7 @@ extmul_low_i8x16_u
 WABT_OPCODE
 (
 V128
+___
 V128
 V128
 ___
@@ -7090,6 +7758,7 @@ extmul_high_i8x16_u
 WABT_OPCODE
 (
 V128
+___
 V128
 ___
 ___
@@ -7108,6 +7777,7 @@ abs
 WABT_OPCODE
 (
 V128
+___
 V128
 ___
 ___
@@ -7126,6 +7796,7 @@ neg
 WABT_OPCODE
 (
 I32
+___
 V128
 ___
 ___
@@ -7144,6 +7815,7 @@ all_true
 WABT_OPCODE
 (
 I32
+___
 V128
 ___
 ___
@@ -7162,6 +7834,7 @@ bitmask
 WABT_OPCODE
 (
 V128
+___
 V128
 ___
 ___
@@ -7180,6 +7853,7 @@ extend_low_i16x8_s
 WABT_OPCODE
 (
 V128
+___
 V128
 ___
 ___
@@ -7198,6 +7872,7 @@ extend_high_i16x8_s
 WABT_OPCODE
 (
 V128
+___
 V128
 ___
 ___
@@ -7216,6 +7891,7 @@ extend_low_i16x8_u
 WABT_OPCODE
 (
 V128
+___
 V128
 ___
 ___
@@ -7234,6 +7910,7 @@ extend_high_i16x8_u
 WABT_OPCODE
 (
 V128
+___
 V128
 I32
 ___
@@ -7252,6 +7929,7 @@ shl
 WABT_OPCODE
 (
 V128
+___
 V128
 I32
 ___
@@ -7270,6 +7948,7 @@ shr_s
 WABT_OPCODE
 (
 V128
+___
 V128
 I32
 ___
@@ -7288,6 +7967,7 @@ shr_u
 WABT_OPCODE
 (
 V128
+___
 V128
 V128
 ___
@@ -7306,6 +7986,7 @@ add
 WABT_OPCODE
 (
 V128
+___
 V128
 V128
 ___
@@ -7324,6 +8005,7 @@ sub
 WABT_OPCODE
 (
 V128
+___
 V128
 V128
 ___
@@ -7342,6 +8024,7 @@ mul
 WABT_OPCODE
 (
 V128
+___
 V128
 V128
 ___
@@ -7360,6 +8043,7 @@ min_s
 WABT_OPCODE
 (
 V128
+___
 V128
 V128
 ___
@@ -7378,6 +8062,7 @@ min_u
 WABT_OPCODE
 (
 V128
+___
 V128
 V128
 ___
@@ -7396,6 +8081,7 @@ max_s
 WABT_OPCODE
 (
 V128
+___
 V128
 V128
 ___
@@ -7414,6 +8100,7 @@ max_u
 WABT_OPCODE
 (
 V128
+___
 V128
 V128
 ___
@@ -7432,6 +8119,7 @@ dot_i16x8_s
 WABT_OPCODE
 (
 V128
+___
 V128
 V128
 ___
@@ -7450,6 +8138,7 @@ extmul_low_i16x8_s
 WABT_OPCODE
 (
 V128
+___
 V128
 V128
 ___
@@ -7468,6 +8157,7 @@ extmul_high_i16x8_s
 WABT_OPCODE
 (
 V128
+___
 V128
 V128
 ___
@@ -7486,6 +8176,7 @@ extmul_low_i16x8_u
 WABT_OPCODE
 (
 V128
+___
 V128
 V128
 ___
@@ -7504,6 +8195,7 @@ extmul_high_i16x8_u
 WABT_OPCODE
 (
 V128
+___
 V128
 ___
 ___
@@ -7522,6 +8214,7 @@ abs
 WABT_OPCODE
 (
 V128
+___
 V128
 ___
 ___
@@ -7540,6 +8233,7 @@ neg
 WABT_OPCODE
 (
 I32
+___
 V128
 ___
 ___
@@ -7558,6 +8252,7 @@ all_true
 WABT_OPCODE
 (
 I32
+___
 V128
 ___
 ___
@@ -7576,6 +8271,7 @@ bitmask
 WABT_OPCODE
 (
 V128
+___
 V128
 ___
 ___
@@ -7594,6 +8290,7 @@ extend_low_i32x4_s
 WABT_OPCODE
 (
 V128
+___
 V128
 ___
 ___
@@ -7612,6 +8309,7 @@ extend_high_i32x4_s
 WABT_OPCODE
 (
 V128
+___
 V128
 ___
 ___
@@ -7630,6 +8328,7 @@ extend_low_i32x4_u
 WABT_OPCODE
 (
 V128
+___
 V128
 ___
 ___
@@ -7648,6 +8347,7 @@ extend_high_i32x4_u
 WABT_OPCODE
 (
 V128
+___
 V128
 I32
 ___
@@ -7666,6 +8366,7 @@ shl
 WABT_OPCODE
 (
 V128
+___
 V128
 I32
 ___
@@ -7684,6 +8385,7 @@ shr_s
 WABT_OPCODE
 (
 V128
+___
 V128
 I32
 ___
@@ -7702,6 +8404,7 @@ shr_u
 WABT_OPCODE
 (
 V128
+___
 V128
 V128
 ___
@@ -7720,6 +8423,7 @@ add
 WABT_OPCODE
 (
 V128
+___
 V128
 V128
 ___
@@ -7738,6 +8442,7 @@ sub
 WABT_OPCODE
 (
 V128
+___
 V128
 V128
 ___
@@ -7756,6 +8461,7 @@ mul
 WABT_OPCODE
 (
 V128
+___
 V128
 V128
 ___
@@ -7774,6 +8480,7 @@ eq
 WABT_OPCODE
 (
 V128
+___
 V128
 V128
 ___
@@ -7792,6 +8499,7 @@ ne
 WABT_OPCODE
 (
 V128
+___
 V128
 V128
 ___
@@ -7810,6 +8518,7 @@ lt_s
 WABT_OPCODE
 (
 V128
+___
 V128
 V128
 ___
@@ -7828,6 +8537,7 @@ gt_s
 WABT_OPCODE
 (
 V128
+___
 V128
 V128
 ___
@@ -7846,6 +8556,7 @@ le_s
 WABT_OPCODE
 (
 V128
+___
 V128
 V128
 ___
@@ -7864,6 +8575,7 @@ ge_s
 WABT_OPCODE
 (
 V128
+___
 V128
 V128
 ___
@@ -7882,6 +8594,7 @@ extmul_low_i32x4_s
 WABT_OPCODE
 (
 V128
+___
 V128
 V128
 ___
@@ -7900,6 +8613,7 @@ extmul_high_i32x4_s
 WABT_OPCODE
 (
 V128
+___
 V128
 V128
 ___
@@ -7918,6 +8632,7 @@ extmul_low_i32x4_u
 WABT_OPCODE
 (
 V128
+___
 V128
 V128
 ___
@@ -7936,6 +8651,7 @@ extmul_high_i32x4_u
 WABT_OPCODE
 (
 V128
+___
 V128
 ___
 ___
@@ -7954,6 +8670,7 @@ ceil
 WABT_OPCODE
 (
 V128
+___
 V128
 ___
 ___
@@ -7972,6 +8689,7 @@ floor
 WABT_OPCODE
 (
 V128
+___
 V128
 ___
 ___
@@ -7990,6 +8708,7 @@ trunc
 WABT_OPCODE
 (
 V128
+___
 V128
 ___
 ___
@@ -8008,6 +8727,7 @@ nearest
 WABT_OPCODE
 (
 V128
+___
 V128
 ___
 ___
@@ -8026,6 +8746,7 @@ ceil
 WABT_OPCODE
 (
 V128
+___
 V128
 ___
 ___
@@ -8044,6 +8765,7 @@ floor
 WABT_OPCODE
 (
 V128
+___
 V128
 ___
 ___
@@ -8062,6 +8784,7 @@ trunc
 WABT_OPCODE
 (
 V128
+___
 V128
 ___
 ___
@@ -8080,6 +8803,7 @@ nearest
 WABT_OPCODE
 (
 V128
+___
 V128
 ___
 ___
@@ -8098,6 +8822,7 @@ abs
 WABT_OPCODE
 (
 V128
+___
 V128
 ___
 ___
@@ -8116,6 +8841,7 @@ neg
 WABT_OPCODE
 (
 V128
+___
 V128
 ___
 ___
@@ -8134,6 +8860,7 @@ sqrt
 WABT_OPCODE
 (
 V128
+___
 V128
 V128
 ___
@@ -8152,6 +8879,7 @@ add
 WABT_OPCODE
 (
 V128
+___
 V128
 V128
 ___
@@ -8170,6 +8898,7 @@ sub
 WABT_OPCODE
 (
 V128
+___
 V128
 V128
 ___
@@ -8188,6 +8917,7 @@ mul
 WABT_OPCODE
 (
 V128
+___
 V128
 V128
 ___
@@ -8206,6 +8936,7 @@ div
 WABT_OPCODE
 (
 V128
+___
 V128
 V128
 ___
@@ -8224,6 +8955,7 @@ min
 WABT_OPCODE
 (
 V128
+___
 V128
 V128
 ___
@@ -8242,6 +8974,7 @@ max
 WABT_OPCODE
 (
 V128
+___
 V128
 V128
 ___
@@ -8260,6 +8993,7 @@ pmin
 WABT_OPCODE
 (
 V128
+___
 V128
 V128
 ___
@@ -8278,6 +9012,7 @@ pmax
 WABT_OPCODE
 (
 V128
+___
 V128
 ___
 ___
@@ -8296,6 +9031,7 @@ abs
 WABT_OPCODE
 (
 V128
+___
 V128
 ___
 ___
@@ -8314,6 +9050,7 @@ neg
 WABT_OPCODE
 (
 V128
+___
 V128
 ___
 ___
@@ -8332,6 +9069,7 @@ sqrt
 WABT_OPCODE
 (
 V128
+___
 V128
 V128
 ___
@@ -8350,6 +9088,7 @@ add
 WABT_OPCODE
 (
 V128
+___
 V128
 V128
 ___
@@ -8368,6 +9107,7 @@ sub
 WABT_OPCODE
 (
 V128
+___
 V128
 V128
 ___
@@ -8386,6 +9126,7 @@ mul
 WABT_OPCODE
 (
 V128
+___
 V128
 V128
 ___
@@ -8404,6 +9145,7 @@ div
 WABT_OPCODE
 (
 V128
+___
 V128
 V128
 ___
@@ -8422,6 +9164,7 @@ min
 WABT_OPCODE
 (
 V128
+___
 V128
 V128
 ___
@@ -8440,6 +9183,7 @@ max
 WABT_OPCODE
 (
 V128
+___
 V128
 V128
 ___
@@ -8458,6 +9202,7 @@ pmin
 WABT_OPCODE
 (
 V128
+___
 V128
 V128
 ___
@@ -8476,6 +9221,7 @@ pmax
 WABT_OPCODE
 (
 V128
+___
 V128
 ___
 ___
@@ -8494,6 +9240,7 @@ trunc_sat_f32x4_s
 WABT_OPCODE
 (
 V128
+___
 V128
 ___
 ___
@@ -8512,6 +9259,7 @@ trunc_sat_f32x4_u
 WABT_OPCODE
 (
 V128
+___
 V128
 ___
 ___
@@ -8530,6 +9278,7 @@ convert_i32x4_s
 WABT_OPCODE
 (
 V128
+___
 V128
 ___
 ___
@@ -8548,6 +9297,7 @@ convert_i32x4_u
 WABT_OPCODE
 (
 V128
+___
 V128
 ___
 ___
@@ -8566,6 +9316,7 @@ trunc_sat_f64x2_s_zero
 WABT_OPCODE
 (
 V128
+___
 V128
 ___
 ___
@@ -8584,6 +9335,7 @@ trunc_sat_f64x2_u_zero
 WABT_OPCODE
 (
 V128
+___
 V128
 ___
 ___
@@ -8602,6 +9354,7 @@ convert_low_i32x4_s
 WABT_OPCODE
 (
 V128
+___
 V128
 ___
 ___
@@ -8628,6 +9381,7 @@ opcodes
 WABT_OPCODE
 (
 V128
+___
 V128
 V128
 ___
@@ -8646,6 +9400,7 @@ relaxed_swizzle
 WABT_OPCODE
 (
 V128
+___
 V128
 ___
 ___
@@ -8664,6 +9419,7 @@ relaxed_trunc_f32x4_s
 WABT_OPCODE
 (
 V128
+___
 V128
 ___
 ___
@@ -8682,6 +9438,7 @@ relaxed_trunc_f32x4_u
 WABT_OPCODE
 (
 V128
+___
 V128
 ___
 ___
@@ -8700,6 +9457,7 @@ relaxed_trunc_f64x2_s_zero
 WABT_OPCODE
 (
 V128
+___
 V128
 ___
 ___
@@ -8718,6 +9476,7 @@ relaxed_trunc_f64x2_u_zero
 WABT_OPCODE
 (
 V128
+___
 V128
 V128
 V128
@@ -8736,6 +9495,7 @@ relaxed_madd
 WABT_OPCODE
 (
 V128
+___
 V128
 V128
 V128
@@ -8754,6 +9514,7 @@ relaxed_nmadd
 WABT_OPCODE
 (
 V128
+___
 V128
 V128
 V128
@@ -8772,6 +9533,7 @@ relaxed_madd
 WABT_OPCODE
 (
 V128
+___
 V128
 V128
 V128
@@ -8790,6 +9552,7 @@ relaxed_nmadd
 WABT_OPCODE
 (
 V128
+___
 V128
 V128
 V128
@@ -8808,6 +9571,7 @@ relaxed_laneselect
 WABT_OPCODE
 (
 V128
+___
 V128
 V128
 V128
@@ -8826,6 +9590,7 @@ relaxed_laneselect
 WABT_OPCODE
 (
 V128
+___
 V128
 V128
 V128
@@ -8844,6 +9609,7 @@ relaxed_laneselect
 WABT_OPCODE
 (
 V128
+___
 V128
 V128
 V128
@@ -8862,6 +9628,7 @@ relaxed_laneselect
 WABT_OPCODE
 (
 V128
+___
 V128
 V128
 ___
@@ -8880,6 +9647,7 @@ relaxed_min
 WABT_OPCODE
 (
 V128
+___
 V128
 V128
 ___
@@ -8898,6 +9666,7 @@ relaxed_max
 WABT_OPCODE
 (
 V128
+___
 V128
 V128
 ___
@@ -8916,6 +9685,7 @@ relaxed_min
 WABT_OPCODE
 (
 V128
+___
 V128
 V128
 ___
@@ -8934,6 +9704,7 @@ relaxed_max
 WABT_OPCODE
 (
 V128
+___
 V128
 V128
 ___
@@ -8952,6 +9723,7 @@ relaxed_q15mulr_s
 WABT_OPCODE
 (
 V128
+___
 V128
 V128
 ___
@@ -8970,6 +9742,7 @@ relaxed_dot_i8x16_i7x16_s
 WABT_OPCODE
 (
 V128
+___
 V128
 V128
 V128
@@ -9001,6 +9774,7 @@ threads
 WABT_OPCODE
 (
 I32
+___
 I32
 I32
 ___
@@ -9021,6 +9795,7 @@ notify
 WABT_OPCODE
 (
 I32
+___
 I32
 I32
 I64
@@ -9041,6 +9816,7 @@ wait32
 WABT_OPCODE
 (
 I32
+___
 I32
 I64
 I64
@@ -9064,6 +9840,7 @@ ___
 ___
 ___
 ___
+___
 0
 0xfe
 0x03
@@ -9079,6 +9856,7 @@ fence
 WABT_OPCODE
 (
 I32
+___
 I32
 ___
 ___
@@ -9099,6 +9877,7 @@ load
 WABT_OPCODE
 (
 I64
+___
 I32
 ___
 ___
@@ -9119,6 +9898,7 @@ load
 WABT_OPCODE
 (
 I32
+___
 I32
 ___
 ___
@@ -9139,6 +9919,7 @@ load8_u
 WABT_OPCODE
 (
 I32
+___
 I32
 ___
 ___
@@ -9159,6 +9940,7 @@ load16_u
 WABT_OPCODE
 (
 I64
+___
 I32
 ___
 ___
@@ -9179,6 +9961,7 @@ load8_u
 WABT_OPCODE
 (
 I64
+___
 I32
 ___
 ___
@@ -9199,6 +9982,7 @@ load16_u
 WABT_OPCODE
 (
 I64
+___
 I32
 ___
 ___
@@ -9218,6 +10002,7 @@ load32_u
 )
 WABT_OPCODE
 (
+___
 ___
 I32
 I32
@@ -9239,6 +10024,7 @@ store
 WABT_OPCODE
 (
 ___
+___
 I32
 I64
 ___
@@ -9258,6 +10044,7 @@ store
 )
 WABT_OPCODE
 (
+___
 ___
 I32
 I32
@@ -9279,6 +10066,7 @@ store8
 WABT_OPCODE
 (
 ___
+___
 I32
 I32
 ___
@@ -9298,6 +10086,7 @@ store16
 )
 WABT_OPCODE
 (
+___
 ___
 I32
 I64
@@ -9319,6 +10108,7 @@ store8
 WABT_OPCODE
 (
 ___
+___
 I32
 I64
 ___
@@ -9338,6 +10128,7 @@ store16
 )
 WABT_OPCODE
 (
+___
 ___
 I32
 I64
@@ -9359,6 +10150,7 @@ store32
 WABT_OPCODE
 (
 I32
+___
 I32
 I32
 ___
@@ -9381,6 +10173,7 @@ add
 WABT_OPCODE
 (
 I64
+___
 I32
 I64
 ___
@@ -9403,6 +10196,7 @@ add
 WABT_OPCODE
 (
 I32
+___
 I32
 I32
 ___
@@ -9425,6 +10219,7 @@ add_u
 WABT_OPCODE
 (
 I32
+___
 I32
 I32
 ___
@@ -9447,6 +10242,7 @@ add_u
 WABT_OPCODE
 (
 I64
+___
 I32
 I64
 ___
@@ -9469,6 +10265,7 @@ add_u
 WABT_OPCODE
 (
 I64
+___
 I32
 I64
 ___
@@ -9491,6 +10288,7 @@ add_u
 WABT_OPCODE
 (
 I64
+___
 I32
 I64
 ___
@@ -9513,6 +10311,7 @@ add_u
 WABT_OPCODE
 (
 I32
+___
 I32
 I32
 ___
@@ -9535,6 +10334,7 @@ sub
 WABT_OPCODE
 (
 I64
+___
 I32
 I64
 ___
@@ -9557,6 +10357,7 @@ sub
 WABT_OPCODE
 (
 I32
+___
 I32
 I32
 ___
@@ -9579,6 +10380,7 @@ sub_u
 WABT_OPCODE
 (
 I32
+___
 I32
 I32
 ___
@@ -9601,6 +10403,7 @@ sub_u
 WABT_OPCODE
 (
 I64
+___
 I32
 I64
 ___
@@ -9623,6 +10426,7 @@ sub_u
 WABT_OPCODE
 (
 I64
+___
 I32
 I64
 ___
@@ -9645,6 +10449,7 @@ sub_u
 WABT_OPCODE
 (
 I64
+___
 I32
 I64
 ___
@@ -9667,6 +10472,7 @@ sub_u
 WABT_OPCODE
 (
 I32
+___
 I32
 I32
 ___
@@ -9689,6 +10495,7 @@ and
 WABT_OPCODE
 (
 I64
+___
 I32
 I64
 ___
@@ -9711,6 +10518,7 @@ and
 WABT_OPCODE
 (
 I32
+___
 I32
 I32
 ___
@@ -9733,6 +10541,7 @@ and_u
 WABT_OPCODE
 (
 I32
+___
 I32
 I32
 ___
@@ -9755,6 +10564,7 @@ and_u
 WABT_OPCODE
 (
 I64
+___
 I32
 I64
 ___
@@ -9777,6 +10587,7 @@ and_u
 WABT_OPCODE
 (
 I64
+___
 I32
 I64
 ___
@@ -9799,6 +10610,7 @@ and_u
 WABT_OPCODE
 (
 I64
+___
 I32
 I64
 ___
@@ -9821,6 +10633,7 @@ and_u
 WABT_OPCODE
 (
 I32
+___
 I32
 I32
 ___
@@ -9843,6 +10656,7 @@ or
 WABT_OPCODE
 (
 I64
+___
 I32
 I64
 ___
@@ -9865,6 +10679,7 @@ or
 WABT_OPCODE
 (
 I32
+___
 I32
 I32
 ___
@@ -9887,6 +10702,7 @@ or_u
 WABT_OPCODE
 (
 I32
+___
 I32
 I32
 ___
@@ -9909,6 +10725,7 @@ or_u
 WABT_OPCODE
 (
 I64
+___
 I32
 I64
 ___
@@ -9931,6 +10748,7 @@ or_u
 WABT_OPCODE
 (
 I64
+___
 I32
 I64
 ___
@@ -9953,6 +10771,7 @@ or_u
 WABT_OPCODE
 (
 I64
+___
 I32
 I64
 ___
@@ -9975,6 +10794,7 @@ or_u
 WABT_OPCODE
 (
 I32
+___
 I32
 I32
 ___
@@ -9997,6 +10817,7 @@ xor
 WABT_OPCODE
 (
 I64
+___
 I32
 I64
 ___
@@ -10019,6 +10840,7 @@ xor
 WABT_OPCODE
 (
 I32
+___
 I32
 I32
 ___
@@ -10041,6 +10863,7 @@ xor_u
 WABT_OPCODE
 (
 I32
+___
 I32
 I32
 ___
@@ -10063,6 +10886,7 @@ xor_u
 WABT_OPCODE
 (
 I64
+___
 I32
 I64
 ___
@@ -10085,6 +10909,7 @@ xor_u
 WABT_OPCODE
 (
 I64
+___
 I32
 I64
 ___
@@ -10107,6 +10932,7 @@ xor_u
 WABT_OPCODE
 (
 I64
+___
 I32
 I64
 ___
@@ -10129,6 +10955,7 @@ xor_u
 WABT_OPCODE
 (
 I32
+___
 I32
 I32
 ___
@@ -10151,6 +10978,7 @@ xchg
 WABT_OPCODE
 (
 I64
+___
 I32
 I64
 ___
@@ -10173,6 +11001,7 @@ xchg
 WABT_OPCODE
 (
 I32
+___
 I32
 I32
 ___
@@ -10195,6 +11024,7 @@ xchg_u
 WABT_OPCODE
 (
 I32
+___
 I32
 I32
 ___
@@ -10217,6 +11047,7 @@ xchg_u
 WABT_OPCODE
 (
 I64
+___
 I32
 I64
 ___
@@ -10239,6 +11070,7 @@ xchg_u
 WABT_OPCODE
 (
 I64
+___
 I32
 I64
 ___
@@ -10261,6 +11093,7 @@ xchg_u
 WABT_OPCODE
 (
 I64
+___
 I32
 I64
 ___
@@ -10283,6 +11116,7 @@ xchg_u
 WABT_OPCODE
 (
 I32
+___
 I32
 I32
 I32
@@ -10305,6 +11139,7 @@ cmpxchg
 WABT_OPCODE
 (
 I64
+___
 I32
 I64
 I64
@@ -10327,6 +11162,7 @@ cmpxchg
 WABT_OPCODE
 (
 I32
+___
 I32
 I32
 I32
@@ -10349,6 +11185,7 @@ cmpxchg_u
 WABT_OPCODE
 (
 I32
+___
 I32
 I32
 I32
@@ -10371,6 +11208,7 @@ cmpxchg_u
 WABT_OPCODE
 (
 I64
+___
 I32
 I64
 I64
@@ -10393,6 +11231,7 @@ cmpxchg_u
 WABT_OPCODE
 (
 I64
+___
 I32
 I64
 I64
@@ -10415,6 +11254,7 @@ cmpxchg_u
 WABT_OPCODE
 (
 I64
+___
 I32
 I64
 I64

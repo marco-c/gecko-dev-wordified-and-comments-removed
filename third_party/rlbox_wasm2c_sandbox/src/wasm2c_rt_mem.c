@@ -525,6 +525,12 @@ data
 ;
 ret
 .
+page_size
+=
+WASM_PAGE_SIZE
+;
+ret
+.
 pages
 =
 initial_pages
