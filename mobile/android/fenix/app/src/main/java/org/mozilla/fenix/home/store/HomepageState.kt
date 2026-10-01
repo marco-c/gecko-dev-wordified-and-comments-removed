@@ -1491,6 +1491,12 @@ size
 <
 8
 )
+&
+&
+!
+settings
+.
+showMoreShortcuts
 showPrivacyReport
 =
 settings
