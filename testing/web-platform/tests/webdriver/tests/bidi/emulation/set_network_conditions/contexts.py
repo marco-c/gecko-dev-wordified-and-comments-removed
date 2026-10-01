@@ -218,7 +218,6 @@ domain
 domain
 )
 )
-;
     
 assert
 await
@@ -616,35 +615,15 @@ test_overrides_global
 bidi_session
 get_navigator_online
         
-affected_user_context
+new_tab
 )
 :
     
-affected_context
-=
-await
-bidi_session
-.
-browsing_context
-.
-create
-(
-        
-type_hint
-=
-"
-tab
-"
-user_context
-=
-affected_user_context
-)
-    
 assert
 await
 get_navigator_online
 (
-affected_context
+new_tab
 )
     
 await
@@ -662,7 +641,7 @@ OFFLINE_NETWORK_CONDITIONS
 contexts
 =
 [
-affected_context
+new_tab
 [
 "
 context
@@ -676,7 +655,7 @@ not
 await
 get_navigator_online
 (
-affected_context
+new_tab
 )
     
 await
@@ -697,7 +676,7 @@ not
 await
 get_navigator_online
 (
-affected_context
+new_tab
 )
     
 await
@@ -718,7 +697,7 @@ not
 await
 get_navigator_online
 (
-affected_context
+new_tab
 )
     
 await
@@ -736,7 +715,7 @@ None
 contexts
 =
 [
-affected_context
+new_tab
 [
 "
 context
@@ -750,7 +729,7 @@ not
 await
 get_navigator_online
 (
-affected_context
+new_tab
 )
     
 await
@@ -770,7 +749,7 @@ assert
 await
 get_navigator_online
 (
-affected_context
+new_tab
 )
 async
 def
@@ -780,35 +759,15 @@ bidi_session
         
 get_navigator_online
         
-affected_user_context
+new_tab
 )
 :
-    
-affected_context
-=
-await
-bidi_session
-.
-browsing_context
-.
-create
-(
-        
-type_hint
-=
-"
-tab
-"
-user_context
-=
-affected_user_context
-)
     
 assert
 await
 get_navigator_online
 (
-affected_context
+new_tab
 )
     
 await
@@ -826,7 +785,7 @@ OFFLINE_NETWORK_CONDITIONS
 contexts
 =
 [
-affected_context
+new_tab
 [
 "
 context
@@ -863,7 +822,7 @@ None
 contexts
 =
 [
-affected_context
+new_tab
 [
 "
 context
@@ -877,7 +836,7 @@ not
 await
 get_navigator_online
 (
-affected_context
+new_tab
 )
     
 await
@@ -896,5 +855,5 @@ assert
 await
 get_navigator_online
 (
-affected_context
+new_tab
 )
