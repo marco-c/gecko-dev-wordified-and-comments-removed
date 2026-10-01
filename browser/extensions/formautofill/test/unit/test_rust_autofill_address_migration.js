@@ -120,7 +120,6 @@ mjs
 const
 {
 AddressStorageMigrator
-AutofillStorageMigrator
 }
 =
 ChromeUtils
@@ -134,7 +133,7 @@ resource
 /
 autofill
 /
-AutofillStorageMigrator
+AddressStorageMigrator
 .
 sys
 .
@@ -10427,13 +10426,13 @@ One
 const
 orig
 =
-AutofillStorageMigrator
+AddressStorageMigrator
 .
 prototype
 .
 _report
 ;
-AutofillStorageMigrator
+AddressStorageMigrator
 .
 prototype
 .
@@ -10533,7 +10532,7 @@ it
 }
 finally
 {
-AutofillStorageMigrator
+AddressStorageMigrator
 .
 prototype
 .
@@ -10587,13 +10586,13 @@ One
 const
 orig
 =
-AutofillStorageMigrator
+AddressStorageMigrator
 .
 prototype
 .
 _report
 ;
-AutofillStorageMigrator
+AddressStorageMigrator
 .
 prototype
 .
@@ -10676,7 +10675,7 @@ profile
 }
 finally
 {
-AutofillStorageMigrator
+AddressStorageMigrator
 .
 prototype
 .
