@@ -3827,7 +3827,7 @@ download
 .
 saver
 .
-getSha256Hash
+getSha256HashHex
 (
 )
 }
