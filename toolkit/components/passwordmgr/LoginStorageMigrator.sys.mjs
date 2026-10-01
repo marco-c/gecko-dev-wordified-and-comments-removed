@@ -342,7 +342,7 @@ const
 telemetryVersion
 =
 "
-9
+10
 "
 ;
 /
@@ -1323,7 +1323,7 @@ migration
 const
 t0
 =
-Date
+ChromeUtils
 .
 now
 (
@@ -1908,13 +1908,18 @@ recordMigrationStatus
 runId
 duration
 :
-Date
+Math
+.
+round
+(
+ChromeUtils
 .
 now
 (
 )
 -
 t0
+)
 numberOfLoginsToMigrate
 numberOfLoginsMigrated
 numberOfLoginsQuarantined
