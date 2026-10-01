@@ -42,6 +42,11 @@ blank
 html
 "
 "
+file_never_responds
+.
+sjs
+"
+"
 file_reload_subframe_history
 .
 html
