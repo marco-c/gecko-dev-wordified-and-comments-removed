@@ -13553,6 +13553,7 @@ updateSharingIndicator
 ;
 }
 }
+static
 getTabSharingState
 (
 aTab
