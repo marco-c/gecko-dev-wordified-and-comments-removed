@@ -3085,6 +3085,11 @@ override
 private
 :
 static
+mozilla
+:
+:
+StaticAutoPtr
+<
 nsClassHashtable
 <
 nsGenericHashKey
@@ -3097,7 +3102,7 @@ ContentParent
 *
 >
 >
-*
+>
 sBrowserContentParents
 ;
 static

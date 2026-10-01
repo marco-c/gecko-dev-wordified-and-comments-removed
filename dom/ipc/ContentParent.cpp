@@ -3839,6 +3839,8 @@ return
 NS_OK
 ;
 }
+StaticAutoPtr
+<
 nsClassHashtable
 <
 nsGenericHashKey
@@ -3851,7 +3853,7 @@ ContentParent
 *
 >
 >
-*
+>
 ContentParent
 :
 :
@@ -10100,9 +10102,6 @@ IsEmpty
 )
 )
 {
-delete
-sBrowserContentParents
-;
 sBrowserContentParents
 =
 nullptr
