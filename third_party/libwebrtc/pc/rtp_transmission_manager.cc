@@ -3047,6 +3047,12 @@ false
 voice_media_receive_channel
 (
 )
+&
+env_
+.
+clock
+(
+)
 )
 ;
 auto
@@ -3248,6 +3254,13 @@ remote_sender_info
 sender_id
 streams
 nullptr
+nullptr
+&
+env_
+.
+clock
+(
+)
 )
 ;
 auto

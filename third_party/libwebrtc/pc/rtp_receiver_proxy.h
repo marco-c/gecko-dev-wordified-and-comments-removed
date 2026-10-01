@@ -240,7 +240,7 @@ optional
 double
 >
 )
-PROXY_SECONDARY_CONSTMETHOD0
+PROXY_CONSTMETHOD0
 (
 std
 :
