@@ -557,6 +557,9 @@ exist
 .
 *
 /
+[
+can_run_script
+]
 mozIDOMWindowProxy
 openWindow
 (

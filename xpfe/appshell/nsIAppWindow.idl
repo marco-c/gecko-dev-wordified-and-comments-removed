@@ -676,6 +676,9 @@ minted
 window
 *
 /
+[
+can_run_script
+]
 nsIAppWindow
 createNewWindow
 (

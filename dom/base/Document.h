@@ -10373,6 +10373,7 @@ ErrorResult
 aError
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 mozilla
 :
 :
@@ -13220,6 +13221,7 @@ XPathEvaluator
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 MaybeInitializeFinalizeFrameLoaders
 (
@@ -16114,10 +16116,7 @@ mFrameLoaderFinalizers
 ;
 RefPtr
 <
-nsRunnableMethod
-<
-Document
->
+nsIRunnable
 >
 mFrameLoaderRunner
 ;

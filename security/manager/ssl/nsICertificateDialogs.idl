@@ -202,6 +202,7 @@ certificate
 *
 /
 [
+can_run_script
 must_use
 ]
 boolean
@@ -320,6 +321,7 @@ cancel
 *
 /
 [
+can_run_script
 must_use
 ]
 boolean
