@@ -25267,7 +25267,7 @@ param
 boolean
 }
 [
-isAdoptingGroup
+adopting
 =
 false
 ]
@@ -25288,7 +25288,7 @@ label
 =
 "
 "
-isAdoptingGroup
+adopting
 =
 false
 )
@@ -25346,7 +25346,7 @@ group
 .
 wasCreatedByAdoption
 =
-isAdoptingGroup
+adopting
 ;
 return
 group
@@ -25558,7 +25558,7 @@ boolean
 [
 options
 .
-isAdoptingGroup
+adopting
 ]
 *
 Whether
@@ -25629,7 +25629,7 @@ label
 insertBefore
 =
 null
-isAdoptingGroup
+adopting
 =
 false
 metricsContext
@@ -25806,7 +25806,7 @@ id
 color
 false
 label
-isAdoptingGroup
+adopting
 )
 ;
 this
@@ -27018,7 +27018,7 @@ newTabs
 [
 0
 ]
-isAdoptingGroup
+adopting
 :
 true
 }

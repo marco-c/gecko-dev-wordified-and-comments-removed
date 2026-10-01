@@ -565,7 +565,7 @@ event
 .
 detail
 .
-isAdoptingGroup
+adopting
 )
 {
 return
@@ -711,7 +711,7 @@ event
 .
 detail
 .
-isAdoptingGroup
+adopting
 )
 {
 return

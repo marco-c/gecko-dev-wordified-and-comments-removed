@@ -2320,7 +2320,8 @@ when
 |
 TabGroupCreate
 |
-isAdoptingGroup
+adopting
+true
 when
 the
 group
