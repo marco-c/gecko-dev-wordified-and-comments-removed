@@ -485,16 +485,6 @@ Outside
 ;
 enum
 class
-StyleIsolation
-:
-uint8_t
-{
-Auto
-Isolate
-}
-;
-enum
-class
 StyleObjectFit
 :
 uint8_t

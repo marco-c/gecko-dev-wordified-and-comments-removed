@@ -1415,6 +1415,9 @@ TopLayer
 "
 ScrollBehavior
 "
+"
+Isolation
+"
 ]
 item_types
 =
