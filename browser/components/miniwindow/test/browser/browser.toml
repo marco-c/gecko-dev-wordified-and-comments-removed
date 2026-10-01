@@ -130,6 +130,13 @@ js
 ]
 [
 "
+browser_sidebar
+.
+js
+"
+]
+[
+"
 browser_toolbar
 .
 js
