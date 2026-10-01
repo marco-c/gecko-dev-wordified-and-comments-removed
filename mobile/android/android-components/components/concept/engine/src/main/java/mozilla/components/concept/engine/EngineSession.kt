@@ -3697,7 +3697,7 @@ bounceTrackingProtectionMode
 =
 BounceTrackingProtectionMode
 .
-ENABLED_STANDBY
+ENABLED_DRY_RUN
 allowListBaselineTrackingProtection
 =
 true
@@ -3929,7 +3929,7 @@ BounceTrackingProtectionMode
 =
 BounceTrackingProtectionMode
 .
-ENABLED_STANDBY
+ENABLED_DRY_RUN
 allowListBaselineTrackingProtection
 :
 Boolean
