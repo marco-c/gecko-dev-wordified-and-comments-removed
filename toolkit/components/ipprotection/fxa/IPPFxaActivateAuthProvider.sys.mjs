@@ -1325,7 +1325,16 @@ addEventListener
 "
 abort
 "
+(
+)
+=
+>
 rej
+(
+abortSignal
+.
+reason
+)
 {
 once
 :
