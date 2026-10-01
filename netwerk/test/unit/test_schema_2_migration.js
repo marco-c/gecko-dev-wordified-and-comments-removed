@@ -497,7 +497,7 @@ Services
 .
 cookies
 .
-getCookiesFromHost
+countCookiesFromHost
 (
 "
 foo
@@ -507,8 +507,6 @@ com
 {
 }
 )
-.
-length
 20
 )
 ;
@@ -520,7 +518,7 @@ Services
 .
 cookies
 .
-getCookiesFromHost
+countCookiesFromHost
 (
 "
 bar
@@ -530,9 +528,7 @@ com
 {
 }
 )
-.
-length
-0
+20
 )
 ;
 Assert
@@ -543,7 +539,7 @@ Services
 .
 cookies
 .
-getCookiesFromHost
+countCookiesFromHost
 (
 "
 baz
@@ -553,8 +549,6 @@ com
 {
 }
 )
-.
-length
 1
 )
 ;
@@ -659,8 +653,6 @@ com
 /
 "
 futureExpiry
-*
-1000
 now
 now
 +
@@ -712,8 +704,6 @@ com
 /
 "
 futureExpiry
-*
-1000
 now
 now
 +
@@ -745,8 +735,6 @@ com
 /
 "
 futureExpiry
-*
-1000
 now
 now
 +
@@ -846,7 +834,7 @@ Services
 .
 cookies
 .
-getCookiesFromHost
+countCookiesFromHost
 (
 "
 foo
@@ -856,8 +844,6 @@ com
 {
 }
 )
-.
-length
 40
 )
 ;
@@ -869,7 +855,7 @@ Services
 .
 cookies
 .
-getCookiesFromHost
+countCookiesFromHost
 (
 "
 bar
@@ -879,9 +865,7 @@ com
 {
 }
 )
-.
-length
-0
+20
 )
 ;
 Assert
@@ -892,7 +876,7 @@ Services
 .
 cookies
 .
-getCookiesFromHost
+countCookiesFromHost
 (
 "
 baz
@@ -902,8 +886,6 @@ com
 {
 }
 )
-.
-length
 1
 )
 ;
@@ -915,7 +897,7 @@ Services
 .
 cookies
 .
-getCookiesFromHost
+countCookiesFromHost
 (
 "
 cat
@@ -925,8 +907,6 @@ com
 {
 }
 )
-.
-length
 20
 )
 ;
@@ -966,7 +946,7 @@ Services
 .
 cookies
 .
-getCookiesFromHost
+countCookiesFromHost
 (
 "
 foo
@@ -976,8 +956,6 @@ com
 {
 }
 )
-.
-length
 40
 )
 ;
@@ -989,7 +967,7 @@ Services
 .
 cookies
 .
-getCookiesFromHost
+countCookiesFromHost
 (
 "
 bar
@@ -999,9 +977,7 @@ com
 {
 }
 )
-.
-length
-0
+20
 )
 ;
 Assert
@@ -1012,7 +988,7 @@ Services
 .
 cookies
 .
-getCookiesFromHost
+countCookiesFromHost
 (
 "
 baz
@@ -1022,8 +998,6 @@ com
 {
 }
 )
-.
-length
 1
 )
 ;
@@ -1035,7 +1009,7 @@ Services
 .
 cookies
 .
-getCookiesFromHost
+countCookiesFromHost
 (
 "
 cat
@@ -1045,8 +1019,6 @@ com
 {
 }
 )
-.
-length
 20
 )
 ;
@@ -1152,7 +1124,7 @@ equal
 do_count_cookies
 (
 )
-61
+81
 )
 ;
 Assert
@@ -1163,7 +1135,7 @@ Services
 .
 cookies
 .
-getCookiesFromHost
+countCookiesFromHost
 (
 "
 foo
@@ -1173,8 +1145,6 @@ com
 {
 }
 )
-.
-length
 40
 )
 ;
@@ -1186,7 +1156,7 @@ Services
 .
 cookies
 .
-getCookiesFromHost
+countCookiesFromHost
 (
 "
 bar
@@ -1196,9 +1166,7 @@ com
 {
 }
 )
-.
-length
-0
+20
 )
 ;
 Assert
@@ -1209,7 +1177,7 @@ Services
 .
 cookies
 .
-getCookiesFromHost
+countCookiesFromHost
 (
 "
 baz
@@ -1219,8 +1187,6 @@ com
 {
 }
 )
-.
-length
 1
 )
 ;
@@ -1232,7 +1198,7 @@ Services
 .
 cookies
 .
-getCookiesFromHost
+countCookiesFromHost
 (
 "
 cat
@@ -1242,8 +1208,6 @@ com
 {
 }
 )
-.
-length
 20
 )
 ;

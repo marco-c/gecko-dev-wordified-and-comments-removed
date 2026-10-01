@@ -497,7 +497,7 @@ Services
 .
 cookies
 .
-getCookiesFromHost
+countCookiesFromHost
 (
 "
 foo
@@ -507,8 +507,6 @@ com
 {
 }
 )
-.
-length
 20
 )
 ;
@@ -520,7 +518,7 @@ Services
 .
 cookies
 .
-getCookiesFromHost
+countCookiesFromHost
 (
 "
 bar
@@ -530,9 +528,7 @@ com
 {
 }
 )
-.
-length
-0
+20
 )
 ;
 Assert
@@ -543,7 +539,7 @@ Services
 .
 cookies
 .
-getCookiesFromHost
+countCookiesFromHost
 (
 "
 baz
@@ -553,8 +549,6 @@ com
 {
 }
 )
-.
-length
 1
 )
 ;

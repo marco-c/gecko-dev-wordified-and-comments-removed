@@ -1216,7 +1216,7 @@ Services
 .
 cookies
 .
-getCookiesFromHost
+countCookiesFromHost
 (
 "
 example
@@ -1226,8 +1226,6 @@ com
 {
 }
 )
-.
-length
 ;
 Assert
 .
@@ -1640,7 +1638,7 @@ Services
 .
 cookies
 .
-getCookiesFromHost
+countCookiesFromHost
 (
 "
 example
@@ -1650,8 +1648,6 @@ org
 {
 }
 )
-.
-length
 ;
 Assert
 .
@@ -2147,7 +2143,7 @@ Services
 .
 cookies
 .
-getCookiesFromHost
+countCookiesFromHost
 (
 "
 example
@@ -2157,8 +2153,6 @@ org
 {
 }
 )
-.
-length
 ;
 Assert
 .

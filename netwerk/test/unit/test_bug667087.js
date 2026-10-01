@@ -103,7 +103,7 @@ Services
 .
 cookies
 .
-getCookiesFromHost
+countCookiesFromHost
 (
 "
 a
@@ -111,8 +111,6 @@ a
 {
 }
 )
-.
-length
 1
 )
 ;

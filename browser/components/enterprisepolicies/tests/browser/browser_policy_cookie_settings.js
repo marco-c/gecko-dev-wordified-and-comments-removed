@@ -382,7 +382,7 @@ Services
 .
 cookies
 .
-getCookiesFromHost
+countCookiesFromHost
 (
 firstPartyURI
 .
@@ -390,8 +390,6 @@ host
 {
 }
 )
-.
-length
 expectedFirstPartyCookies
 "
 Number
@@ -412,7 +410,7 @@ Services
 .
 cookies
 .
-getCookiesFromHost
+countCookiesFromHost
 (
 thirdPartyURI
 .
@@ -420,8 +418,6 @@ host
 {
 }
 )
-.
-length
 expectedThirdPartyCookies
 "
 Number
@@ -499,7 +495,7 @@ Services
 .
 cookies
 .
-getCookiesFromHost
+countCookiesFromHost
 (
 firstPartyURI
 .
@@ -507,8 +503,6 @@ host
 {
 }
 )
-.
-length
 expectedCookieCount
 "
 Number

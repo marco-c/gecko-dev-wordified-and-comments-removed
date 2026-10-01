@@ -253,7 +253,7 @@ Services
 .
 cookies
 .
-getCookiesFromHost
+countCookiesFromHost
 (
 uri1
 .
@@ -261,8 +261,6 @@ host
 {
 }
 )
-.
-length
 1
 )
 ;
@@ -485,7 +483,7 @@ Services
 .
 cookies
 .
-getCookiesFromHost
+countCookiesFromHost
 (
 uri1
 .
@@ -493,8 +491,6 @@ host
 {
 }
 )
-.
-length
 1
 )
 ;
@@ -506,7 +502,7 @@ Services
 .
 cookies
 .
-getCookiesFromHost
+countCookiesFromHost
 (
 uri2
 .
@@ -514,8 +510,6 @@ host
 {
 }
 )
-.
-length
 0
 )
 ;
@@ -536,7 +530,7 @@ Services
 .
 cookies
 .
-getCookiesFromHost
+countCookiesFromHost
 (
 uri1
 .
@@ -544,8 +538,6 @@ host
 {
 }
 )
-.
-length
 1
 )
 ;
@@ -557,7 +549,7 @@ Services
 .
 cookies
 .
-getCookiesFromHost
+countCookiesFromHost
 (
 uri2
 .
@@ -565,8 +557,6 @@ host
 {
 }
 )
-.
-length
 0
 )
 ;
@@ -736,7 +726,7 @@ Services
 .
 cookies
 .
-getCookiesFromHost
+countCookiesFromHost
 (
 uri1
 .
@@ -744,8 +734,6 @@ host
 {
 }
 )
-.
-length
 1
 )
 ;
@@ -757,7 +745,7 @@ Services
 .
 cookies
 .
-getCookiesFromHost
+countCookiesFromHost
 (
 uri2
 .
@@ -765,8 +753,6 @@ host
 {
 }
 )
-.
-length
 0
 )
 ;
@@ -836,7 +822,7 @@ Services
 .
 cookies
 .
-getCookiesFromHost
+countCookiesFromHost
 (
 uri1
 .
@@ -844,8 +830,6 @@ host
 {
 }
 )
-.
-length
 1
 )
 ;
@@ -857,7 +841,7 @@ Services
 .
 cookies
 .
-getCookiesFromHost
+countCookiesFromHost
 (
 uri2
 .
@@ -865,8 +849,6 @@ host
 {
 }
 )
-.
-length
 0
 )
 ;

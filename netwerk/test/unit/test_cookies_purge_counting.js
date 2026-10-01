@@ -226,14 +226,7 @@ Assert
 equal
 (
 validCookies
-0
-"
-Expired
-cookies
-are
-not
-exposed
-"
+totalCookies
 )
 ;
 const

@@ -95,7 +95,7 @@ Services
 .
 cookies
 .
-getCookiesFromHost
+countCookiesFromHost
 (
 "
 example
@@ -105,8 +105,6 @@ net
 {
 }
 )
-.
-length
 1
 )
 ;
@@ -159,7 +157,7 @@ Services
 .
 cookies
 .
-getCookiesFromHost
+countCookiesFromHost
 (
 "
 example
@@ -169,8 +167,6 @@ net
 {
 }
 )
-.
-length
 0
 )
 ;
@@ -269,7 +265,7 @@ Services
 .
 cookies
 .
-getCookiesFromHost
+countCookiesFromHost
 (
 "
 example
@@ -279,8 +275,6 @@ net
 {
 }
 )
-.
-length
 1
 )
 ;
@@ -353,7 +347,7 @@ Services
 .
 cookies
 .
-getCookiesFromHost
+countCookiesFromHost
 (
 "
 example
@@ -363,8 +357,6 @@ net
 {
 }
 )
-.
-length
 1
 )
 ;
@@ -436,7 +428,7 @@ Services
 .
 cookies
 .
-getCookiesFromHost
+countCookiesFromHost
 (
 "
 example
@@ -446,8 +438,6 @@ net
 {
 }
 )
-.
-length
 0
 )
 ;
@@ -546,7 +536,7 @@ Services
 .
 cookies
 .
-getCookiesFromHost
+countCookiesFromHost
 (
 "
 example
@@ -556,8 +546,6 @@ net
 {
 }
 )
-.
-length
 1
 )
 ;
@@ -646,7 +634,7 @@ Services
 .
 cookies
 .
-getCookiesFromHost
+countCookiesFromHost
 (
 "
 example
@@ -656,8 +644,6 @@ net
 {
 }
 )
-.
-length
 1
 )
 ;
@@ -744,7 +730,7 @@ Services
 .
 cookies
 .
-getCookiesFromHost
+countCookiesFromHost
 (
 "
 example
@@ -754,8 +740,6 @@ net
 {
 }
 )
-.
-length
 0
 )
 ;
@@ -851,15 +835,13 @@ Services
 .
 cookies
 .
-getCookiesFromHost
+countCookiesFromHost
 (
 "
 "
 {
 }
 )
-.
-length
 0
 )
 ;
@@ -897,15 +879,13 @@ Services
 .
 cookies
 .
-getCookiesFromHost
+countCookiesFromHost
 (
 "
 "
 {
 }
 )
-.
-length
 0
 )
 ;

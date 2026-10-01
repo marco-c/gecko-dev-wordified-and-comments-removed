@@ -415,14 +415,12 @@ Services
 .
 cookies
 .
-getCookiesFromHost
+countCookiesFromHost
 (
 hostNonPartitioned
 {
 }
 )
-.
-length
 ;
 Assert
 .

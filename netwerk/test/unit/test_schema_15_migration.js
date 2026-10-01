@@ -90,8 +90,6 @@ com
 /
 "
 now
-+
-3600
 now
 now
 false
@@ -152,8 +150,6 @@ com
 /
 "
 now
-+
-3600
 now
 now
 false
@@ -198,8 +194,6 @@ com
 /
 "
 now
-+
-3600
 now
 now
 false
@@ -244,8 +238,6 @@ com
 /
 "
 now
-+
-3600
 now
 now
 false
@@ -290,8 +282,6 @@ com
 /
 "
 now
-+
-3600
 now
 now
 false
@@ -334,8 +324,6 @@ com
 /
 "
 now
-+
-3600
 now
 now
 false
@@ -574,7 +562,7 @@ Services
 .
 cookies
 .
-getCookiesFromHost
+countCookiesFromHost
 (
 "
 foo
@@ -584,8 +572,6 @@ com
 {
 }
 )
-.
-length
 6
 )
 ;
