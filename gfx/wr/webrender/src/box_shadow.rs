@@ -116,6 +116,15 @@ use
 crate
 :
 :
+quad_clip
+:
+:
+QuadClipStack
+;
+use
+crate
+:
+:
 pattern
 :
 :
@@ -815,6 +824,10 @@ clip_chain
 :
 &
 ClipChainInstance
+clips
+:
+&
+QuadClipStack
 quad_transform
 :
 &
@@ -2137,6 +2150,7 @@ transformed_aa_edges
 &
 None
 clip_chain
+clips
 quad_transform
 frame_context
 pic_context

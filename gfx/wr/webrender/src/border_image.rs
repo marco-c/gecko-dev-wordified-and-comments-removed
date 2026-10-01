@@ -117,6 +117,15 @@ use
 crate
 :
 :
+quad_clip
+:
+:
+QuadClipStack
+;
+use
+crate
+:
+:
 prim_store
 :
 :
@@ -157,6 +166,10 @@ clip_chain
 :
 &
 ClipChainInstance
+clips
+:
+&
+QuadClipStack
 transform
 :
 &
@@ -377,6 +390,7 @@ spacing
 &
 None
 clip_chain
+clips
 transform
 frame_context
 pic_context
