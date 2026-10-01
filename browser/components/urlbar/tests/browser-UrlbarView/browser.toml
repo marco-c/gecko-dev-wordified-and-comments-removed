@@ -114,3 +114,10 @@ browser_selectionByMouse
 js
 "
 ]
+[
+"
+browser_viewBounds
+.
+js
+"
+]
