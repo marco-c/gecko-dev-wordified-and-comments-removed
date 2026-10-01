@@ -4267,6 +4267,10 @@ previousVersion
 =
 None
     
+previousBuildNumber
+=
+None
+    
 compute_hashes
 =
 False
@@ -4369,6 +4373,19 @@ previousVersion
 ]
 =
 previousVersion
+        
+if
+previousBuildNumber
+:
+            
+mar_manifest
+[
+"
+previousBuildNumber
+"
+]
+=
+previousBuildNumber
         
 if
 validate_mar_channel_id
@@ -5528,6 +5545,17 @@ get
 (
 "
 previousVersion
+"
+)
+                
+previousBuildNumber
+=
+source_data
+.
+get
+(
+"
+previousBuildNumber
 "
 )
                 

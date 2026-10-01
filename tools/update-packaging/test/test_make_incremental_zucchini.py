@@ -2348,6 +2348,9 @@ make_partial
 valid_channel_id
 =
 True
+*
+*
+kwargs
 )
 :
     
@@ -2429,7 +2432,7 @@ valid_channel_id
 :
             
 error
-_
+mar_manifest
 _
 =
 mz
@@ -2517,12 +2520,17 @@ None
 staging
 =
 False
+                
+*
+*
+kwargs
             
 )
     
 return
 workdir
 error
+mar_manifest
 def
 test_process_single_removes_the_workdir_on_success
 (
@@ -2532,6 +2540,7 @@ tmp_path
     
 workdir
 error
+_
 =
 _process_single
 (
@@ -2586,6 +2595,7 @@ boom
     
 workdir
 error
+_
 =
 _process_single
 (
@@ -2621,6 +2631,7 @@ tmp_path
     
 workdir
 error
+_
 =
 _process_single
 (
@@ -2661,6 +2672,81 @@ from_mar
 is_dir
 (
 )
+def
+test_process_single_records_the_previous_build_fields
+(
+tmp_path
+)
+:
+    
+_
+error
+mar_manifest
+=
+_process_single
+(
+        
+tmp_path
+        
+lambda
+*
+*
+kwargs
+:
+(
+{
+}
+None
+)
+        
+previousVersion
+=
+"
+142
+.
+0
+"
+        
+previousBuildNumber
+=
+3
+    
+)
+    
+assert
+error
+is
+None
+    
+assert
+mar_manifest
+=
+=
+{
+        
+"
+update_number
+"
+:
+1
+        
+"
+previousVersion
+"
+:
+"
+142
+.
+0
+"
+        
+"
+previousBuildNumber
+"
+:
+3
+    
+}
 if
 __name__
 =
