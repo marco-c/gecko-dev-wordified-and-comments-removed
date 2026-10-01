@@ -82,6 +82,9 @@ mjs
 *
 *
 typedef
+{
+object
+}
 L10nCachedMessage
 *
 A
