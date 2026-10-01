@@ -229,6 +229,10 @@ hwinference
 TextGenerationParent
 >
 aActor
+const
+nsACString
+&
+aFeatureId
 )
 ;
 ~
@@ -261,6 +265,10 @@ hwinference
 TextGenerationParent
 >
 mActor
+;
+const
+nsCString
+mFeatureId
 ;
 bool
 mGenerateInFlight

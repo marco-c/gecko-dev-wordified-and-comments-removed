@@ -838,6 +838,9 @@ cpp
 "
 Parakeet
 "
+"
+TextGenerator
+"
 ]
 duration
 :
@@ -1300,6 +1303,9 @@ cpp
 "
 "
 Parakeet
+"
+"
+TextGenerator
 "
 ]
 duration

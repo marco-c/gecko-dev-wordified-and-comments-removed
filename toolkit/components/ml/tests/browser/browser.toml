@@ -577,6 +577,13 @@ js
 ]
 [
 "
+browser_ml_textgeneration_markers
+.
+js
+"
+]
+[
+"
 browser_ml_textgenerator
 .
 js
