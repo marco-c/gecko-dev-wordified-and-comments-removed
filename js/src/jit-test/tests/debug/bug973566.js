@@ -38,14 +38,11 @@ function
 frame
 )
 {
-var
-lines
-=
 frame
 .
 script
 .
-getAllOffsets
+getPossibleBreakpoints
 (
 )
 ;

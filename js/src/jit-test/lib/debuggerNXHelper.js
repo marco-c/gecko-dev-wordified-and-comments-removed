@@ -310,7 +310,7 @@ frame
 .
 script
 .
-getOffsetLocation
+getOffsetMetadata
 (
 frame
 .
@@ -326,11 +326,15 @@ frame
 .
 script
 .
-getLineOffsets
+getPossibleBreakpointOffsets
 (
+{
+line
+:
 line0
 +
 1
+}
 )
 ;
 for

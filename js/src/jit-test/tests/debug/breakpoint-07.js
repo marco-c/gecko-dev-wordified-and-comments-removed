@@ -179,9 +179,13 @@ offs
 =
 s
 .
-getLineOffsets
+getPossibleBreakpointOffsets
 (
+{
+line
+:
 lineno
+}
 )
 )
 .

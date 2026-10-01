@@ -94,7 +94,7 @@ assertEq
 (
 introScript
 .
-getOffsetLocation
+getOffsetMetadata
 (
 source
 .

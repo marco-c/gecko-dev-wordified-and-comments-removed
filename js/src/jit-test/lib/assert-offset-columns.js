@@ -193,18 +193,18 @@ debuggeeFn
 for
 (
 const
-offset
+bp
 of
 script
 .
-getAllColumnOffsets
+getPossibleBreakpoints
 (
 )
 )
 {
 assertEq
 (
-offset
+bp
 .
 lineNumber
 1
@@ -212,7 +212,7 @@ lineNumber
 ;
 assertEq
 (
-offset
+bp
 .
 columnNumber
 <
@@ -227,7 +227,7 @@ bpts
 .
 add
 (
-offset
+bp
 .
 columnNumber
 )
@@ -236,7 +236,7 @@ script
 .
 setBreakpoint
 (
-offset
+bp
 .
 offset
 {
@@ -249,7 +249,7 @@ hits
 .
 push
 (
-offset
+bp
 .
 columnNumber
 )

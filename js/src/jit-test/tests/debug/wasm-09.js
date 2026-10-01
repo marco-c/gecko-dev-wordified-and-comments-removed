@@ -179,11 +179,15 @@ n
 >
 wasmScript1
 .
-getLineOffsets
+getPossibleBreakpointOffsets
 (
+{
+line
+:
 n
 +
 1
+}
 )
 .
 length
@@ -253,7 +257,7 @@ assertThrowsInstanceOf
 >
 wasmScript2
 .
-getOffsetLocation
+getOffsetMetadata
 (
 i
 )

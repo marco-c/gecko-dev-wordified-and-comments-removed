@@ -175,7 +175,7 @@ frame
 .
 script
 .
-getOffsetLocation
+getOffsetMetadata
 (
 frame
 .
@@ -278,7 +278,6 @@ out
 z
 in
 3
-2
 4
 5
 z

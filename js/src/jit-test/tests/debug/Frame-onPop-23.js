@@ -108,7 +108,7 @@ frame
 .
 script
 .
-getOffsetLocation
+getOffsetMetadata
 (
 frame
 .
@@ -132,7 +132,7 @@ this
 .
 script
 .
-getOffsetLocation
+getOffsetMetadata
 (
 this
 .

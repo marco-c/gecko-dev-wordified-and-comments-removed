@@ -227,7 +227,7 @@ assertEq
 (
 introducer
 .
-getOffsetLocation
+getOffsetMetadata
 (
 introduced
 .
@@ -443,7 +443,7 @@ assertEq
 (
 introducer
 .
-getOffsetLocation
+getOffsetMetadata
 (
 introduced
 .
@@ -521,7 +521,7 @@ assertEq
 (
 outerScript
 .
-getOffsetLocation
+getOffsetMetadata
 (
 source
 .
@@ -531,7 +531,7 @@ introductionOffset
 lineNumber
 outerScript
 .
-getOffsetLocation
+getOffsetMetadata
 (
 outerOffset
 )
@@ -668,7 +668,7 @@ assertEq
 (
 introducer
 .
-getOffsetLocation
+getOffsetMetadata
 (
 source
 .

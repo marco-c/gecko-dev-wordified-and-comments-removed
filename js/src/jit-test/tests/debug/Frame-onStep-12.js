@@ -108,7 +108,7 @@ frame
 .
 script
 .
-getOffsetLocation
+getOffsetMetadata
 (
 frame
 .
@@ -132,7 +132,7 @@ this
 .
 script
 .
-getOffsetLocation
+getOffsetMetadata
 (
 this
 .
@@ -147,9 +147,13 @@ this
 .
 script
 .
-getLineOffsets
+getPossibleBreakpointOffsets
 (
+{
+line
+:
 foundLine
+}
 )
 .
 indexOf
@@ -267,7 +271,7 @@ nothing
 +
 8
 "
-1689
+189
 "
 )
 ;
@@ -352,7 +356,7 @@ nothing
 +
 8
 "
-1689
+189
 "
 )
 ;

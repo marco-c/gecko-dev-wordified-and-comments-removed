@@ -32,9 +32,13 @@ y
 .
 script
 .
-getLineOffsets
+getPossibleBreakpointOffsets
 (
+{
+line
+:
 1
+}
 )
 [
 0

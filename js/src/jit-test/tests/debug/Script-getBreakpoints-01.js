@@ -143,8 +143,11 @@ off
 =
 s
 .
-getLineOffsets
+getPossibleBreakpointOffsets
 (
+{
+line
+:
 g
 .
 line0
@@ -152,6 +155,7 @@ line0
 2
 +
 i
+}
 )
 [
 0

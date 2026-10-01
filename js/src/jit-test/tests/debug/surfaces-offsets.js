@@ -47,7 +47,7 @@ frame
 .
 script
 .
-getOffsetLocation
+getOffsetMetadata
 (
 frame
 .
@@ -70,7 +70,7 @@ frame
 .
 script
 .
-getOffsetLocation
+getOffsetMetadata
 (
 String
 (
@@ -96,7 +96,7 @@ frame
 .
 script
 .
-getOffsetLocation
+getOffsetMetadata
 (
 Object
 (
@@ -122,7 +122,7 @@ frame
 .
 script
 .
-getOffsetLocation
+getOffsetMetadata
 (
 -
 1
@@ -144,7 +144,7 @@ frame
 .
 script
 .
-getOffsetLocation
+getOffsetMetadata
 (
 1000000
 )
@@ -165,7 +165,7 @@ frame
 .
 script
 .
-getOffsetLocation
+getOffsetMetadata
 (
 0
 .
@@ -188,7 +188,7 @@ frame
 .
 script
 .
-getOffsetLocation
+getOffsetMetadata
 (
 +
 Infinity
@@ -210,7 +210,7 @@ frame
 .
 script
 .
-getOffsetLocation
+getOffsetMetadata
 (
 -
 Infinity
@@ -232,7 +232,7 @@ frame
 .
 script
 .
-getOffsetLocation
+getOffsetMetadata
 (
 NaN
 )
@@ -253,7 +253,7 @@ frame
 .
 script
 .
-getOffsetLocation
+getOffsetMetadata
 (
 false
 )
@@ -274,7 +274,7 @@ frame
 .
 script
 .
-getOffsetLocation
+getOffsetMetadata
 (
 true
 )
@@ -295,7 +295,7 @@ frame
 .
 script
 .
-getOffsetLocation
+getOffsetMetadata
 (
 undefined
 )
@@ -316,7 +316,7 @@ frame
 .
 script
 .
-getOffsetLocation
+getOffsetMetadata
 (
 )
 .
@@ -353,7 +353,7 @@ frame
 .
 script
 .
-getOffsetLocation
+getOffsetMetadata
 (
 i
 )
