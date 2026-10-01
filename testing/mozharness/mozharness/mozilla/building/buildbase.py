@@ -5709,6 +5709,19 @@ shouldAlert
 should_alert
             
 "
+alertNotifyEmails
+"
+:
+[
+"
+ahochheiden
+mozilla
+.
+com
+"
+]
+            
+"
 subtests
 "
 :
