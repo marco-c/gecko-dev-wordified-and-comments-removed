@@ -60,6 +60,13 @@ js
 ]
 [
 "
+browser_bookmarks_show_in_folder_virtualized
+.
+js
+"
+]
+[
+"
 browser_bookmarks_sidebar
 .
 js
