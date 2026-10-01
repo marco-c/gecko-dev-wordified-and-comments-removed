@@ -118,17 +118,6 @@ MozAlmostPadding
 ;
 enum
 class
-StyleHyphens
-:
-uint8_t
-{
-None
-Manual
-Auto
-}
-;
-enum
-class
 StyleScrollbarWidth
 :
 uint8_t
