@@ -2068,13 +2068,6 @@ Navigator
 {
 [
 Throws
-Pref
-=
-"
-beacon
-.
-enabled
-"
 ]
 boolean
 sendBeacon

@@ -82,6 +82,13 @@ html
 ]
 [
 "
+test_beaconDisabled
+.
+html
+"
+]
+[
+"
 test_beaconFrame
 .
 html
