@@ -36,13 +36,12 @@ mode
 1
 "
 ]
-run
+skip
 -
 if
 =
 [
 "
-!
 msix
 "
 #
