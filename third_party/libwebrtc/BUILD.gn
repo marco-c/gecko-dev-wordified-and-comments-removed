@@ -4253,6 +4253,11 @@ callback_list_unittests
 "
 rtc_base
 :
+clock_aligner_unittest
+"
+"
+rtc_base
+:
 rtc_base_approved_unittests
 "
 "
