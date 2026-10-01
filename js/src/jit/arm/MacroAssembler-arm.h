@@ -74,6 +74,15 @@ js
 wasm
 :
 :
+FaultingCodeRange
+;
+using
+js
+:
+:
+wasm
+:
+:
 FaultingCodeRangePair
 ;
 namespace
@@ -3346,7 +3355,7 @@ mode
 )
 ;
 }
-void
+FaultingCodeRangePair
 wasmLoadImpl
 (
 const
@@ -3368,7 +3377,7 @@ Register64
 out64
 )
 ;
-void
+FaultingCodeRangePair
 wasmStoreImpl
 (
 const

@@ -1693,7 +1693,7 @@ Int64
 ;
 masm
 .
-wasmLoadI64
+wasmLoadI32x2
 (
 mir
 -
@@ -1926,7 +1926,7 @@ value
 ;
 masm
 .
-wasmStoreI64
+wasmStoreI32x2
 (
 mir
 -
@@ -3538,7 +3538,7 @@ esp
 ;
 masm
 .
-wasmAtomicFetchOp64
+wasmAtomicFetchOp32x2
 (
 ins
 -

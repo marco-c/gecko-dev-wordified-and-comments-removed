@@ -37388,7 +37388,7 @@ currentOffset
 )
 ;
 }
-void
+FaultingCodeRange
 MacroAssembler
 :
 :
@@ -37459,6 +37459,9 @@ bind
 fail
 )
 ;
+FaultingCodeRange
+fcr
+=
 wasmTrap
 (
 wasm
@@ -37476,6 +37479,9 @@ bind
 &
 ok
 )
+;
+return
+fcr
 ;
 }
 void

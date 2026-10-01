@@ -11876,7 +11876,7 @@ fcr2
 ;
 }
 }
-void
+FaultingCodeRange
 MacroAssembler
 :
 :
@@ -11988,7 +11988,7 @@ tmp1
 )
 ;
 }
-void
+FaultingCodeRange
 MacroAssembler
 :
 :
@@ -13815,7 +13815,7 @@ output
 )
 ;
 }
-void
+FaultingCodeRange
 MacroAssembler
 :
 :
@@ -13872,7 +13872,7 @@ output
 )
 ;
 }
-void
+FaultingCodeRange
 MacroAssembler
 :
 :
@@ -14611,7 +14611,7 @@ output
 )
 ;
 }
-void
+FaultingCodeRange
 MacroAssembler
 :
 :
@@ -14665,7 +14665,7 @@ output
 )
 ;
 }
-void
+FaultingCodeRange
 MacroAssembler
 :
 :
@@ -15595,7 +15595,7 @@ output
 )
 ;
 }
-void
+FaultingCodeRange
 MacroAssembler
 :
 :

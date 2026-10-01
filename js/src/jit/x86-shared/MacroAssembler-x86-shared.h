@@ -53,6 +53,15 @@ wasm
 :
 FaultingCodeRange
 ;
+using
+js
+:
+:
+wasm
+:
+:
+FaultingCodeRangePair
+;
 namespace
 js
 {

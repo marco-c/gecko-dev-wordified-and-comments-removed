@@ -16949,7 +16949,7 @@ NotEqual
 )
 ;
 }
-void
+FaultingCodeRange
 MacroAssembler
 :
 :
@@ -17019,7 +17019,7 @@ tmp
 )
 ;
 }
-void
+FaultingCodeRange
 MacroAssembler
 :
 :
@@ -18505,7 +18505,7 @@ exit
 )
 ;
 }
-void
+FaultingCodeRange
 MacroAssembler
 :
 :
@@ -18548,7 +18548,7 @@ output
 )
 ;
 }
-void
+FaultingCodeRange
 MacroAssembler
 :
 :
@@ -18878,7 +18878,7 @@ output
 )
 ;
 }
-void
+FaultingCodeRange
 MacroAssembler
 :
 :
@@ -18912,7 +18912,7 @@ output
 )
 ;
 }
-void
+FaultingCodeRange
 MacroAssembler
 :
 :
@@ -19306,7 +19306,7 @@ sync
 )
 ;
 }
-void
+FaultingCodeRange
 MacroAssembler
 :
 :
@@ -19352,7 +19352,7 @@ output
 )
 ;
 }
-void
+FaultingCodeRange
 MacroAssembler
 :
 :

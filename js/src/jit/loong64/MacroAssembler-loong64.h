@@ -40,6 +40,24 @@ WasmBuiltins
 .
 h
 "
+using
+js
+:
+:
+wasm
+:
+:
+FaultingCodeRange
+;
+using
+js
+:
+:
+wasm
+:
+:
+FaultingCodeRangePair
+;
 namespace
 js
 {
@@ -2364,7 +2382,7 @@ uint64_t
 address
 )
 ;
-void
+FaultingCodeRange
 wasmLoadImpl
 (
 const
@@ -2382,7 +2400,7 @@ AnyRegister
 output
 )
 ;
-void
+FaultingCodeRange
 wasmLoadImpl
 (
 const
@@ -2398,7 +2416,7 @@ AnyRegister
 output
 )
 ;
-void
+FaultingCodeRange
 wasmLoadImpl
 (
 const
@@ -2420,7 +2438,7 @@ Register
 tmp
 )
 ;
-void
+FaultingCodeRange
 wasmStoreImpl
 (
 const
@@ -2438,7 +2456,7 @@ Register
 ptr
 )
 ;
-void
+FaultingCodeRange
 wasmStoreImpl
 (
 const
@@ -2454,7 +2472,7 @@ Address
 address
 )
 ;
-void
+FaultingCodeRange
 wasmStoreImpl
 (
 const
@@ -6655,7 +6673,7 @@ void
 fakeReturnAddr
 )
 ;
-void
+FaultingCodeRange
 wasmLoadI64Impl
 (
 const
@@ -6677,7 +6695,7 @@ Register
 tmp
 )
 ;
-void
+FaultingCodeRange
 wasmStoreI64Impl
 (
 const
