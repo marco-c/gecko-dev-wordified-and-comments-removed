@@ -6129,28 +6129,17 @@ try_name
                 
 or
 (
-                    
 "
 live
 "
 in
 try_name
-                    
 and
-(
-"
-facebook
-"
-in
-try_name
-or
 "
 dailymail
 "
 in
 try_name
-)
-                
 )
             
 )
