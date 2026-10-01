@@ -171,11 +171,11 @@ pdfjsVersion
 .
 4
 .
-195
+224
 *
 pdfjsBuild
 =
-d54c193bd
+d52fdf411
 *
 /
 ;
@@ -23224,7 +23224,7 @@ data
 :
 pattern
 .
-charCodeAt
+charAt
 (
 1
 )
