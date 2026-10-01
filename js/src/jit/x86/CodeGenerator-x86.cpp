@@ -3523,15 +3523,9 @@ edx
 ;
 masm
 .
-Push
+PushRegs
 (
 ecx
-)
-;
-masm
-.
-Push
-(
 ebx
 )
 ;
