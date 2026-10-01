@@ -270,11 +270,6 @@ secretSettings
 pref_key_use_scroll_data_for_dynamic_toolbar
 =
 true
-secretSettings
-.
-pref_key_enable_merino_client
-=
-false
 On
 every
 rebuild

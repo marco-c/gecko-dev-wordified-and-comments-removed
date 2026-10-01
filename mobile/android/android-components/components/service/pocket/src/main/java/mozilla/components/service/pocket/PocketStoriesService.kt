@@ -279,11 +279,6 @@ ContentRecommendationsUseCases
 appContext
 =
 context
-client
-=
-pocketStoriesConfig
-.
-client
 config
 =
 pocketStoriesConfig

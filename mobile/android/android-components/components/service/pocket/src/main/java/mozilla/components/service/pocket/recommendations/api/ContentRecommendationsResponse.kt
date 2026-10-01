@@ -68,12 +68,6 @@ pocket
 recommendations
 .
 api
-import
-kotlinx
-.
-serialization
-.
-Serializable
 /
 *
 *
@@ -144,7 +138,6 @@ payload
 .
 *
 /
-Serializable
 internal
 data
 class
@@ -339,7 +332,6 @@ payloads
 .
 *
 /
-Serializable
 internal
 data
 class
