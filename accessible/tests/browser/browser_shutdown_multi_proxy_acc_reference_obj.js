@@ -21,7 +21,7 @@ nsIAccessibleEvent
 .
 EVENT_DOCUMENT_LOAD_COMPLETE
 "
-body
+html
 "
 )
 ;
@@ -89,6 +89,11 @@ text
 html
 <
 html
+id
+=
+"
+html
+"
 >
 <
 head
