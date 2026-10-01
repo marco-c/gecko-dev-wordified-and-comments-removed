@@ -3518,12 +3518,22 @@ family
 "
 android
 "
+            
 and
 not
 shippable
+            
 and
 not
 ccov
+            
+and
+"
+nightlyasrelease
+"
+not
+in
+build_platform
         
 )
 or
