@@ -7,6 +7,7 @@ qm_try_analysis
 .
 logging
 import
+error
 info
 TELEMETRY_BASE_URL
 =
@@ -171,6 +172,10 @@ qresultid
 =
 0
     
+job_error
+=
+None
+    
 while
 poll
 :
@@ -203,7 +208,7 @@ headers
 headers
 )
         
-status
+job
 =
 resp
 .
@@ -215,6 +220,10 @@ json
 job
 "
 ]
+        
+status
+=
+job
 [
 "
 status
@@ -233,21 +242,23 @@ False
             
 qresultid
 =
-resp
-.
-json
-(
-)
-[
-"
 job
-"
-]
 [
 "
 query_result_id
 "
 ]
+            
+job_error
+=
+job
+.
+get
+(
+"
+error
+"
+)
         
 else
 :
@@ -296,7 +307,9 @@ f
 "
 queries
 /
-78691
+{
+query
+}
 /
 results
 /
@@ -341,6 +354,22 @@ json
 (
 )
     
+error
+(
+f
+"
+Query
+{
+query
+}
+failed
+:
+{
+job_error
+}
+"
+)
+    
 return
 {
 "
@@ -357,8 +386,8 @@ data
 rows
 "
 :
-{
-}
+[
+]
 }
 }
 }
