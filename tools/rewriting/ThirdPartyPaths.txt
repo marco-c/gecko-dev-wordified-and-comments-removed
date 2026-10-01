@@ -1336,6 +1336,12 @@ lz4
 /
 mozglue
 /
+static
+/
+xxhash
+/
+mozglue
+/
 tests
 /
 glibc_printf_tests
