@@ -29479,14 +29479,13 @@ svg
 )
 ;
 media
-not
 (
 -
 moz
 -
 platform
 :
-linux
+windows
 )
 {
 #
