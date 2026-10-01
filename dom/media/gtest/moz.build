@@ -971,6 +971,16 @@ mkv
 /
 test
 /
+output_hevc_aac
+.
+mkv
+"
+"
+.
+.
+/
+test
+/
 reftest
 /
 color_quads
