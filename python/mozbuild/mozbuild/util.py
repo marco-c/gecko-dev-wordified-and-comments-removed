@@ -203,21 +203,21 @@ def
 get_rust_build_kind
 (
 substs
-megazord
+profile_suffix
 =
-False
+"
+"
 )
 :
     
 if
-megazord
+profile_suffix
 :
         
-return
+prefix
+=
 "
 dev
--
-megazord
 "
 if
 substs
@@ -231,8 +231,18 @@ MOZ_DEBUG_RUST
 else
 "
 release
+"
+        
+return
+f
+"
+{
+prefix
+}
 -
-megazord
+{
+profile_suffix
+}
 "
     
 return

@@ -541,9 +541,11 @@ megazord_build_kind
 get_rust_build_kind
 (
 substs
-megazord
+profile_suffix
 =
-True
+"
+megazord
+"
 )
     
 megazord_path
