@@ -4811,9 +4811,7 @@ PayloadType
 ;
 EXPECT_THAT
 (
-:
-:
-testing
+std
 :
 :
 make_tuple
@@ -17291,9 +17289,7 @@ Vp9Test
 :
 params_
 (
-:
-:
-testing
+std
 :
 :
 get
@@ -17308,9 +17304,7 @@ GetParam
 )
 use_scalability_mode_identifier_
 (
-:
-:
-testing
+std
 :
 :
 get

@@ -20,6 +20,11 @@ cstdint
 >
 #
 include
+<
+tuple
+>
+#
+include
 "
 rtc_base
 /
@@ -72,14 +77,6 @@ testing
 :
 :
 ElementsAreArray
-;
-using
-:
-:
-testing
-:
-:
-make_tuple
 ;
 constexpr
 uint32_t
@@ -399,6 +396,9 @@ Build
 ;
 EXPECT_THAT
 (
+std
+:
+:
 make_tuple
 (
 raw
@@ -534,6 +534,9 @@ Build
 ;
 EXPECT_THAT
 (
+std
+:
+:
 make_tuple
 (
 raw
@@ -608,6 +611,9 @@ name
 ;
 EXPECT_THAT
 (
+std
+:
+:
 make_tuple
 (
 parsed

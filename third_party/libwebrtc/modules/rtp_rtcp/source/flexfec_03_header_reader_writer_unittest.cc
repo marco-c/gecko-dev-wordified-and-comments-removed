@@ -29,6 +29,11 @@ memory
 #
 include
 <
+tuple
+>
+#
+include
+<
 utility
 >
 #
@@ -134,14 +139,6 @@ testing
 :
 :
 ElementsAreArray
-;
-using
-:
-:
-testing
-:
-:
-make_tuple
 ;
 using
 :
@@ -788,6 +785,9 @@ protection_length
 ;
 EXPECT_THAT
 (
+std
+:
+:
 make_tuple
 (
 read_packet
@@ -914,6 +914,9 @@ packet
 ;
 EXPECT_THAT
 (
+std
+:
+:
 make_tuple
 (
 packet
@@ -1047,6 +1050,9 @@ protection_length
 ;
 EXPECT_THAT
 (
+std
+:
+:
 make_tuple
 (
 read_packet
@@ -1079,6 +1085,9 @@ expected_packet_mask_size
 ;
 EXPECT_THAT
 (
+std
+:
+:
 make_tuple
 (
 read_packet
