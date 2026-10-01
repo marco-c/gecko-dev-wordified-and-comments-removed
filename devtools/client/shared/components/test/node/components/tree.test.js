@@ -3538,7 +3538,7 @@ getDOMNode
 (
 )
 .
-getAttribute
+hasAttribute
 (
 "
 aria
@@ -3550,11 +3550,7 @@ activedescendant
 .
 toBe
 (
-"
-key
--
-A
-"
+false
 )
 ;
 expect
