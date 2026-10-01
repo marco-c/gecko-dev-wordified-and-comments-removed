@@ -163,7 +163,6 @@ GetCalcMode
 const
 override
 ;
-virtual
 nsresult
 GetValues
 (
