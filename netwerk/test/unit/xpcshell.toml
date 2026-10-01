@@ -4028,6 +4028,13 @@ js
 ]
 [
 "
+test_dns_cache_miss_telemetry
+.
+js
+"
+]
+[
+"
 test_dns_cancel
 .
 js
