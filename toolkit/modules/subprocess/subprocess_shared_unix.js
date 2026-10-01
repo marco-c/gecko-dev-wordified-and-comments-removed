@@ -212,9 +212,11 @@ int
 ctypes
 .
 int
-ctypes
+"
 .
-int
+.
+.
+"
 ]
 getcwd
 :
