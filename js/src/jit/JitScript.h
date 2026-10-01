@@ -1758,9 +1758,6 @@ purgeStubs
 JSScript
 *
 script
-ICStubSpace
-&
-newStubSpace
 )
 ;
 void
@@ -2699,9 +2696,6 @@ MarkActiveICScriptsAndCopyStubs
 Zone
 *
 zone
-ICStubSpace
-&
-newStubSpace
 )
 ;
 #

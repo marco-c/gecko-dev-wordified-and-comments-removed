@@ -1826,6 +1826,9 @@ savedStacksSet
 size_t
 *
 nonSyntacticLexicalEnvironmentsArg
+size_t
+*
+cacheIRStubs
 )
 ;
 JS

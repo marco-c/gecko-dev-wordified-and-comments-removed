@@ -3103,6 +3103,9 @@ savedStacksSet
 size_t
 *
 nonSyntacticLexicalEnvironmentsArg
+size_t
+*
+cacheIRStubs
 )
 {
 *
@@ -3141,6 +3144,14 @@ savedStacks_
 sizeOfExcludingThis
 (
 mallocSizeOf
+)
+;
+jitRealm_
+.
+addSizeOfExcludingThis
+(
+mallocSizeOf
+cacheIRStubs
 )
 ;
 }

@@ -2886,9 +2886,6 @@ size_t
 jitZone
 size_t
 *
-cacheIRStubs
-size_t
-*
 objectFusesArg
 size_t
 *

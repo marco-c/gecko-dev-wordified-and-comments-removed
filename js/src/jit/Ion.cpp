@@ -3415,9 +3415,6 @@ code
 size_t
 *
 jitZone
-size_t
-*
-cacheIRStubs
 )
 const
 {
@@ -3459,17 +3456,6 @@ execAlloc
 addSizeOfCode
 (
 code
-)
-;
-*
-cacheIRStubs
-+
-=
-stubSpace_
-.
-sizeOfExcludingThis
-(
-mallocSizeOf
 )
 ;
 }

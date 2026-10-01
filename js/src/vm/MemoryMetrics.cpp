@@ -1421,10 +1421,6 @@ jitZone
 &
 zStats
 .
-cacheIRStubs
-&
-zStats
-.
 objectFuses
 &
 zStats
@@ -1632,6 +1628,10 @@ savedStacksSet
 realmStats
 .
 nonSyntacticLexicalScopesTable
+&
+realmStats
+.
+cacheIRStubs
 )
 ;
 }
