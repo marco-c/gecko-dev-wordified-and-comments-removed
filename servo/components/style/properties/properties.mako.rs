@@ -7235,15 +7235,6 @@ match
 self
 {
 %
-if
-engine
-=
-=
-"
-gecko
-"
-:
-%
 for
 prop
 in
@@ -7273,8 +7264,6 @@ get_system
 }
 %
 endfor
-%
-endif
 _
 =
 >
