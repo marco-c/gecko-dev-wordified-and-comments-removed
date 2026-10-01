@@ -95,6 +95,13 @@ js
 ]
 [
 "
+browser_region_entry
+.
+js
+"
+]
+[
+"
 browser_restore_vs_close
 .
 js
@@ -117,6 +124,13 @@ js
 [
 "
 browser_toolbar
+.
+js
+"
+]
+[
+"
+browser_toolbar_button
 .
 js
 "
