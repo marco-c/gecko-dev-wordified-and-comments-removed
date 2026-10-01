@@ -280,6 +280,15 @@ trust
 )
 ;
 NSS_EXTERN
+PRStatus
+nssCertificate_SetCertKeyID
+(
+NSSCertificate
+*
+c
+)
+;
+NSS_EXTERN
 nssDecodedCert
 *
 nssCertificate_GetDecoding

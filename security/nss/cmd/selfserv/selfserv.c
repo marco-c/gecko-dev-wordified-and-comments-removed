@@ -15668,9 +15668,6 @@ PR_GetInheritedFD
 "
 )
 ;
-#
-ifndef
-WINNT
 prStatus
 =
 PR_SetFDInheritable
@@ -15693,8 +15690,6 @@ PR_SetFDInheritable
 "
 )
 ;
-#
-endif
 rv
 =
 SSL_InheritMPServerSIDCache

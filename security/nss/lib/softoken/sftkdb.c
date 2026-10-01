@@ -11453,6 +11453,14 @@ handle
 ref
 )
 ;
+PORT_ReleaseAssert
+(
+ref
+>
+=
+0
+)
+;
 if
 (
 ref

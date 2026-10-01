@@ -6426,7 +6426,7 @@ FATAL_ERROR
 (
 ss
 SSL_ERROR_RX_MALFORMED_KEY_UPDATE
-decode_error
+illegal_parameter
 )
 ;
 return
