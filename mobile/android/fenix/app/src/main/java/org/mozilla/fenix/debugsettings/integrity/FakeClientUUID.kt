@@ -99,7 +99,7 @@ fenix
 .
 components
 .
-ClientUuid
+ClientUUID
 /
 *
 *
@@ -120,9 +120,9 @@ preview
 *
 /
 class
-FakeClientUuid
+FakeClientUUID
 :
-ClientUuid
+ClientUUID
 {
 override
 fun

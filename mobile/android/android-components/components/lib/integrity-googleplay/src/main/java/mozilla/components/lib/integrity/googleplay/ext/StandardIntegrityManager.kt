@@ -157,9 +157,11 @@ mozilla
 .
 components
 .
-concept
+lib
 .
 integrity
+.
+googleplay
 .
 RequestHashProvider
 import

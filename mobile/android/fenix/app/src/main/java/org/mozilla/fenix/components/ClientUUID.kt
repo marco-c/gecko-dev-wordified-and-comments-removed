@@ -101,9 +101,11 @@ mozilla
 .
 components
 .
-concept
+lib
 .
 integrity
+.
+googleplay
 .
 RequestHashProvider
 import
@@ -155,7 +157,7 @@ hashing
 function
 to
 [
-ClientUuid
+ClientUUID
 ]
 .
 *
@@ -267,12 +269,12 @@ to
 identify
 this
 client
-*
 consistently
 across
 [
 UserIdProvider
 ]
+*
 and
 [
 RequestHashProvider
@@ -282,7 +284,7 @@ consumers
 *
 /
 interface
-ClientUuid
+ClientUUID
 :
 UserIdProvider
 RequestHashProvider
@@ -307,7 +309,7 @@ be
 used
 by
 [
-ClientUuid
+ClientUUID
 ]
 .
 *
@@ -324,7 +326,7 @@ an
 instance
 of
 [
-ClientUuid
+ClientUUID
 ]
 *
 /
@@ -336,10 +338,10 @@ context
 Context
 )
 :
-ClientUuid
+ClientUUID
 {
 return
-PrefsBackedClientUuid
+PrefsBackedClientUUID
 (
 {
 context
@@ -360,7 +362,7 @@ MODE_PRIVATE
 }
 internal
 class
-PrefsBackedClientUuid
+PrefsBackedClientUUID
 (
 private
 val
@@ -403,7 +405,7 @@ Hasher
 sha256
 )
 :
-ClientUuid
+ClientUUID
 {
 private
 val

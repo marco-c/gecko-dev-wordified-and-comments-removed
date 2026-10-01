@@ -187,7 +187,7 @@ fenix
 .
 components
 .
-ClientUuid
+ClientUUID
 import
 org
 .
@@ -1039,7 +1039,7 @@ creditCardsAddressesStorage
 CreditCardsAddressesStorage
 clientUUID
 :
-ClientUuid
+ClientUUID
 integrityClient
 :
 IntegrityClient
