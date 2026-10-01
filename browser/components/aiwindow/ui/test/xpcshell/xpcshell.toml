@@ -131,6 +131,13 @@ js
 ]
 [
 "
+test_MonitorErrorCopy
+.
+js
+"
+]
+[
+"
 test_MonitorUIUtils
 .
 js
