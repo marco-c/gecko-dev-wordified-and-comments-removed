@@ -1138,12 +1138,11 @@ mNetTearingDownStarted
 0
 }
 ;
+RefPtr
+<
 SocketProcessHost
-*
+>
 mSocketProcess
-{
-nullptr
-}
 ;
 nsTArray
 <

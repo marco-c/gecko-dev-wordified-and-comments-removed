@@ -895,8 +895,10 @@ GMPCapability
 >
 mCapabilities
 ;
+RefPtr
+<
 GMPProcessParent
-*
+>
 mProcess
 ;
 bool
