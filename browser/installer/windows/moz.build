@@ -865,6 +865,13 @@ CONFIG
 ENABLE_TESTS
 "
 ]
+and
+CONFIG
+[
+"
+MOZ_STUB_INSTALLER
+"
+]
 :
 GeneratedFile
 (
