@@ -1517,6 +1517,9 @@ UnicodeBidi
 "
 ImeMode
 "
+"
+ScrollbarWidth
+"
 ]
 item_types
 =

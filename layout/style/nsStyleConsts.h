@@ -108,17 +108,6 @@ MozAlmostPadding
 ;
 enum
 class
-StyleScrollbarWidth
-:
-uint8_t
-{
-Auto
-Thin
-None
-}
-;
-enum
-class
 StyleFieldSizing
 :
 bool
