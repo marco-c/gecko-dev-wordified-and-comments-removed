@@ -3051,15 +3051,6 @@ family
 stepping
 "
 "
-l2cacheKB
-"
-"
-l3cacheKB
-"
-"
-speedMHz
-"
-"
 cores
 "
 ]
