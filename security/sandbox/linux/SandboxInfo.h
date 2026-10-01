@@ -178,6 +178,10 @@ mFlags
 }
 private
 :
+SandboxInfo
+(
+)
+;
 enum
 Flags
 mFlags
@@ -187,10 +191,6 @@ const
 MOZ_EXPORT
 SandboxInfo
 sSingleton
-;
-SandboxInfo
-(
-)
 ;
 }
 ;

@@ -161,6 +161,13 @@ h
 #
 include
 "
+nsCharSeparatedTokenizer
+.
+h
+"
+#
+include
+"
 nsNSSComponent
 .
 h
