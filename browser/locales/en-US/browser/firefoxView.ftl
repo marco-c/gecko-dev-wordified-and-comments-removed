@@ -61,7 +61,7 @@ firefox
 -
 view
 -
-2
+3
 =
 .
 label
@@ -77,12 +77,11 @@ name
 .
 tooltiptext
 =
-View
-recent
-browsing
-across
-windows
+Tabs
 and
+browsing
+history
+across
 devices
 menu
 -
