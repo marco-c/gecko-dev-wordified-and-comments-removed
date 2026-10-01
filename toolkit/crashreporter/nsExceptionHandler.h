@@ -957,8 +957,8 @@ CurrentThreadId
 bool
 CreateMinidumpsAndPair
 (
-ProcessHandle
-aTargetPid
+GeckoChildID
+aId
 ThreadId
 aTargetBlamedThread
 const
