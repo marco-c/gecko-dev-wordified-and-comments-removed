@@ -392,6 +392,8 @@ getItem
 (
 position
 )
+as
+AdapterItem
 )
 {
 AdapterItem

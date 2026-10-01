@@ -241,6 +241,8 @@ when
 (
 val
 item
+:
+MenuCandidate
 =
 getItem
 (
