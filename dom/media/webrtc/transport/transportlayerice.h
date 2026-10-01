@@ -131,13 +131,9 @@ NrIceMediaStream
 stream
 int
 component
-const
-unsigned
-char
-*
-data
-int
-len
+MediaPacket
+&
+packet
 )
 ;
 sigslot

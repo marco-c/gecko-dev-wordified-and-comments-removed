@@ -2855,9 +2855,9 @@ s
 s
 -
 >
-SignalPacketReceived
+PacketReceived
 (
-s
+stream
 component_id
 msg
 len
