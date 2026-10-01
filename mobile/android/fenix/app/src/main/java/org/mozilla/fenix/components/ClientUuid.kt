@@ -101,11 +101,9 @@ mozilla
 .
 components
 .
-lib
+concept
 .
 integrity
-.
-googleplay
 .
 RequestHashProvider
 import
@@ -269,12 +267,12 @@ to
 identify
 this
 client
+*
 consistently
 across
 [
 UserIdProvider
 ]
-*
 and
 [
 RequestHashProvider
