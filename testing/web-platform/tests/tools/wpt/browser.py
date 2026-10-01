@@ -61,17 +61,15 @@ import
 SpecifierSet
 from
 .
-httputils
-import
-get
-get_download_to_descriptor
-from
-.
 utils
 import
 (
     
 call
+    
+get
+    
+get_download_to_descriptor
     
 rmtree
     

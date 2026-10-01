@@ -614,7 +614,7 @@ mach
 -
 level
 =
-debug
+info
 "
         
 "

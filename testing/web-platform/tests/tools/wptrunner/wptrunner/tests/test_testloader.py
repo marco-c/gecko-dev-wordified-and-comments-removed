@@ -8,10 +8,8 @@ import
 pytest
 from
 mozlog
-.
-structuredlog
 import
-StructuredLogger
+structured
 from
 .
 .
@@ -83,6 +81,21 @@ import
 Manifest
 as
 WPTManifest
+structured
+.
+set_default_logger
+(
+structured
+.
+structuredlog
+.
+StructuredLogger
+(
+"
+TestLoader
+"
+)
+)
 TestFilter
 .
 __test__
@@ -242,7 +255,6 @@ manifest_json
 def
 test_loader_h2_tests
 (
-logger
 )
 :
     
@@ -369,7 +381,6 @@ loader
 =
 TestLoader
 (
-logger
 {
 manifest
 :
@@ -443,7 +454,6 @@ loader
 =
 TestLoader
 (
-logger
 {
 manifest
 :
@@ -1538,7 +1548,6 @@ b
 def
 test_loader_filter_tags
 (
-logger
 )
 :
     
@@ -1892,7 +1901,6 @@ loader
 =
 TestLoader
 (
-logger
 {
 manifest
 :
@@ -1937,7 +1945,6 @@ loader
 =
 TestLoader
 (
-logger
 {
 manifest
 :
@@ -2128,7 +2135,6 @@ loader
 =
 TestLoader
 (
-logger
 {
 manifest
 :
@@ -2223,7 +2229,6 @@ loader
 =
 TestLoader
 (
-logger
 {
 manifest
 :
@@ -2352,7 +2357,6 @@ loader
 =
 TestLoader
 (
-logger
 {
 manifest
 :
@@ -2419,7 +2423,6 @@ loader
 =
 TestLoader
 (
-logger
 {
 manifest
 :
@@ -2490,9 +2493,6 @@ def
 test_chunk_hash
 (
 manifest
-logger
-:
-StructuredLogger
 )
 :
     
@@ -2500,7 +2500,6 @@ chunker1
 =
 PathHashChunker
 (
-logger
 total_chunks
 =
 2
@@ -2513,7 +2512,6 @@ chunker2
 =
 PathHashChunker
 (
-logger
 total_chunks
 =
 2
@@ -2694,9 +2692,6 @@ def
 test_chunk_id_hash
 (
 manifest
-logger
-:
-StructuredLogger
 )
 :
     
@@ -2704,7 +2699,6 @@ chunker1
 =
 IDHashChunker
 (
-logger
 total_chunks
 =
 2
@@ -2717,7 +2711,6 @@ chunker2
 =
 IDHashChunker
 (
-logger
 total_chunks
 =
 2
@@ -2962,9 +2955,6 @@ def
 test_chunk_dir_hash
 (
 manifest
-logger
-:
-StructuredLogger
 )
 :
     
@@ -2972,7 +2962,6 @@ chunker1
 =
 DirectoryHashChunker
 (
-logger
 total_chunks
 =
 2
@@ -2985,7 +2974,6 @@ chunker2
 =
 DirectoryHashChunker
 (
-logger
 total_chunks
 =
 2

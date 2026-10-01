@@ -240,16 +240,7 @@ pass
 def
 get_server_logger
 (
-default_logger
-:
-Optional
-[
-StructuredLogger
-]
 )
--
->
-StructuredLogger
 :
     
 logger
@@ -258,15 +249,6 @@ get_default_logger
 (
 component
 =
-"
-wptserve
-"
-)
-or
-default_logger
-or
-StructuredLogger
-(
 "
 wptserve
 "
@@ -497,24 +479,8 @@ None
 ws_extra
 =
 None
-logger
-=
-None
 )
 :
-        
-self
-.
-logger
-=
-logger
-or
-StructuredLogger
-(
-"
-TestEnvironment
-"
-)
         
 self
 .
@@ -546,9 +512,6 @@ server_logger
 =
 get_server_logger
 (
-self
-.
-logger
 )
         
 self

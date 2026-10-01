@@ -7,12 +7,6 @@ unittest
 import
 mock
 from
-mozlog
-.
-structuredlog
-import
-StructuredLogger
-from
 manifest
 import
 manifest
@@ -658,9 +652,6 @@ id
 def
 test_run_info
 (
-logger
-:
-StructuredLogger
 )
 :
     
