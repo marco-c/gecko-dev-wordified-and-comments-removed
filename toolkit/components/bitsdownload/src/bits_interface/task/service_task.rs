@@ -290,8 +290,6 @@ Sync
 Send
 S
 :
-Sync
-+
 Send
 {
 pub
