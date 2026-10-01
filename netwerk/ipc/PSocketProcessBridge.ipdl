@@ -67,10 +67,6 @@ include
 protocol
 PMediaTransport
 ;
-include
-protocol
-PRTCCertService
-;
 #
 endif
 /
@@ -233,16 +229,6 @@ InitMediaTransport
 Endpoint
 <
 PMediaTransportParent
->
-aEndpoint
-)
-;
-async
-InitRTCCertService
-(
-Endpoint
-<
-PRTCCertServiceParent
 >
 aEndpoint
 )

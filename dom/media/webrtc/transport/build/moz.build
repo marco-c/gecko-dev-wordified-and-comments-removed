@@ -78,7 +78,7 @@ transport
 .
 .
 /
-dtlsdigest
+dtlsidentity
 .
 h
 "
