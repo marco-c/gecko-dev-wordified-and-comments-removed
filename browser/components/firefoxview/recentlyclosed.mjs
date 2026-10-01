@@ -890,9 +890,13 @@ SessionStore
 .
 getClosedTabData
 (
+{
+sourceWindow
+:
 getWindow
 (
 )
+}
 )
 ;
 if

@@ -1844,7 +1844,11 @@ ss
 .
 getClosedTabGroups
 (
+{
+sourceWindow
+:
 win
+}
 )
 ;
 tabGroups

@@ -161,7 +161,11 @@ SessionStore
 .
 getClosedTabGroups
 (
+{
+sourceWindow
+:
 win
+}
 )
 .
 length
@@ -301,7 +305,11 @@ SessionStore
 .
 getClosedTabGroups
 (
+{
+sourceWindow
+:
 win
+}
 )
 .
 length
@@ -482,7 +490,11 @@ SessionStore
 .
 getClosedTabGroups
 (
+{
+sourceWindow
+:
 win
+}
 )
 .
 length
@@ -605,7 +617,11 @@ SessionStore
 .
 getClosedTabGroups
 (
+{
+sourceWindow
+:
 win
+}
 )
 0
 "

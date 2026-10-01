@@ -5872,7 +5872,11 @@ SessionStore
 .
 getClosedTabGroups
 (
+{
+sourceWindow
+:
 window
+}
 )
 ;
 closedTabGroups
