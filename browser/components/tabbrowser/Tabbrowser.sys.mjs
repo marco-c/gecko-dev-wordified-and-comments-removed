@@ -15986,7 +15986,7 @@ replace
 {
 if
 (
-this
+Tabbrowser
 .
 isTabGroupLabel
 (
@@ -23911,7 +23911,7 @@ elementIndex
 ;
 if
 (
-this
+Tabbrowser
 .
 isTabGroupLabel
 (
@@ -23933,7 +23933,7 @@ tabs
 }
 if
 (
-this
+Tabbrowser
 .
 isSplitViewWrapper
 (
@@ -25356,7 +25356,7 @@ tabOrSplitView
 =
 >
 !
-this
+Tabbrowser
 .
 isTab
 (
@@ -25365,7 +25365,7 @@ tabOrSplitView
 &
 &
 !
-this
+Tabbrowser
 .
 isSplitViewWrapper
 (
@@ -26275,7 +26275,7 @@ splitView
 if
 (
 !
-this
+Tabbrowser
 .
 isSplitViewWrapper
 (
@@ -26586,7 +26586,7 @@ tabsAndSplitViews
 {
 if
 (
-this
+Tabbrowser
 .
 isSplitViewWrapper
 (
@@ -33096,7 +33096,7 @@ tabGroup
 if
 (
 (
-this
+Tabbrowser
 .
 isTab
 (
@@ -33113,7 +33113,7 @@ tabGroup
 )
 |
 |
-this
+Tabbrowser
 .
 isSplitViewWrapper
 (
@@ -33206,7 +33206,7 @@ else
 if
 (
 (
-this
+Tabbrowser
 .
 isTab
 (
@@ -33229,7 +33229,7 @@ itemAfter
 )
 |
 |
-this
+Tabbrowser
 .
 isTabGroupLabel
 (
@@ -41296,7 +41296,7 @@ DOCUMENT_POSITION_FOLLOWING
 )
 ;
 return
-this
+Tabbrowser
 .
 isTab
 (
@@ -47223,7 +47223,7 @@ documentGlobal
 gReduceMotion
 &
 &
-this
+Tabbrowser
 .
 isTab
 (
@@ -47486,7 +47486,7 @@ options
 {
 if
 (
-this
+Tabbrowser
 .
 isTabGroupLabel
 (
@@ -47806,7 +47806,7 @@ splitview
 {
 selectedTab
 =
-this
+Tabbrowser
 .
 isSplitViewWrapper
 (
@@ -47895,9 +47895,7 @@ splitview
 const
 newTab
 =
-win
-.
-gBrowser
+Tabbrowser
 .
 isSplitViewWrapper
 (
@@ -48161,6 +48159,7 @@ MozTabbrowserTab
 }
 *
 /
+static
 isTab
 (
 element
@@ -48213,6 +48212,7 @@ MozTabbrowserTabGroup
 }
 *
 /
+static
 isTabGroup
 (
 element
@@ -48272,6 +48272,7 @@ MozTabbrowserTabGroupLabel
 }
 *
 /
+static
 isTabGroupLabel
 (
 element
@@ -48333,6 +48334,7 @@ MozTabSplitViewWrapper
 }
 *
 /
+static
 isSplitViewWrapper
 (
 element
@@ -48829,7 +48831,7 @@ tabs
 .
 if
 (
-this
+Tabbrowser
 .
 isTab
 (
@@ -48888,7 +48890,7 @@ spot
 .
 if
 (
-this
+Tabbrowser
 .
 isTab
 (
@@ -48941,7 +48943,7 @@ instead
 .
 if
 (
-this
+Tabbrowser
 .
 isTabGroupLabel
 (
@@ -48958,7 +48960,7 @@ group
 }
 if
 (
-this
+Tabbrowser
 .
 isTabGroup
 (
@@ -49065,7 +49067,7 @@ false
 ;
 if
 (
-this
+Tabbrowser
 .
 isTab
 (
@@ -49709,7 +49711,7 @@ metricsContext
 {
 if
 (
-this
+Tabbrowser
 .
 isTabGroupLabel
 (
@@ -49769,7 +49771,7 @@ true
 }
 if
 (
-this
+Tabbrowser
 .
 isTabGroupLabel
 (
@@ -50412,7 +50414,7 @@ insertAtIndex
 if
 (
 !
-this
+Tabbrowser
 .
 isTab
 (
@@ -50586,7 +50588,7 @@ metricsContext
 if
 (
 !
-this
+Tabbrowser
 .
 isTab
 (
@@ -50816,7 +50818,7 @@ null
 if
 (
 !
-this
+Tabbrowser
 .
 isSplitViewWrapper
 (
@@ -51041,7 +51043,7 @@ tab
 if
 (
 !
-this
+Tabbrowser
 .
 isTab
 (
@@ -51192,7 +51194,7 @@ metricsContext
 if
 (
 !
-this
+Tabbrowser
 .
 isTab
 (
@@ -51479,7 +51481,7 @@ check
 .
 if
 (
-this
+Tabbrowser
 .
 isTab
 (
@@ -51507,7 +51509,7 @@ tabs
 else
 if
 (
-this
+Tabbrowser
 .
 isTab
 (
@@ -51525,7 +51527,7 @@ element
 else
 if
 (
-this
+Tabbrowser
 .
 isTabGroup
 (
@@ -51533,7 +51535,7 @@ element
 )
 |
 |
-this
+Tabbrowser
 .
 isSplitViewWrapper
 (
@@ -51865,7 +51867,7 @@ tabs
 ;
 if
 (
-this
+Tabbrowser
 .
 isTabGroup
 (
@@ -52266,7 +52268,7 @@ elementIndex
 tabIndex
 tabGroup
 :
-this
+Tabbrowser
 .
 isTab
 (
@@ -53708,7 +53710,7 @@ aTab
 {
 if
 (
-this
+Tabbrowser
 .
 isSplitViewWrapper
 (

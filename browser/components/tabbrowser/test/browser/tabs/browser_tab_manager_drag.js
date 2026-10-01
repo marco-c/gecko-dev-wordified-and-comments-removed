@@ -375,9 +375,7 @@ tabStripItem
 {
 if
 (
-win
-.
-gBrowser
+Tabbrowser
 .
 isTab
 (
@@ -394,9 +392,7 @@ tabStripItem
 }
 if
 (
-win
-.
-gBrowser
+Tabbrowser
 .
 isTabGroupLabel
 (

@@ -2642,9 +2642,7 @@ tabToAdopt
 {
 if
 (
-window
-.
-gBrowser
+Tabbrowser
 .
 isTab
 (
