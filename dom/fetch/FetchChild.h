@@ -381,6 +381,11 @@ Shutdown
 (
 )
 ;
+bool
+MaybeRejectWithAbortReason
+(
+)
+;
 void
 ActorDestroy
 (
