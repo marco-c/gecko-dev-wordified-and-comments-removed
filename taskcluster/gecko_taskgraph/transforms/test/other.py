@@ -8679,7 +8679,7 @@ options
 ]
 )
         
-has_gecko_profile_option
+has_profiling_option
 =
 any
 (
@@ -8693,6 +8693,19 @@ profile
 "
 in
 option
+or
+"
+-
+-
+extra
+-
+profiler
+-
+run
+"
+in
+option
+            
 for
 option
 in
@@ -8704,7 +8717,7 @@ gecko_profile
 =
 gecko_profile_from_try
 or
-has_gecko_profile_option
+has_profiling_option
         
 if
 gecko_profile
@@ -8778,6 +8791,21 @@ tools
 "
 )
             
+if
+not
+is_external_browser
+(
+task
+[
+"
+try
+-
+name
+"
+]
+)
+:
+                
 symbols_zip
 =
 "
@@ -8789,7 +8817,7 @@ symbols
 .
 zip
 "
-            
+                
 fetch_builds
 =
 fetches
@@ -8802,7 +8830,7 @@ build
 [
 ]
 )
-            
+                
 if
 not
 any
@@ -8824,7 +8852,7 @@ in
 fetch_builds
 )
 :
-                
+                    
 fetch_builds
 .
 append
