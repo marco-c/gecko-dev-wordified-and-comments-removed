@@ -331,9 +331,9 @@ UpdateOverscrollBehavior
 (
 ViewID
 aScrollId
-OverscrollBehavior
+StyleOverscrollBehavior
 aX
-OverscrollBehavior
+StyleOverscrollBehavior
 aY
 )
 {
@@ -1384,11 +1384,11 @@ UpdateOverscrollBehavior
 START_SCROLL_ID
 +
 1
-OverscrollBehavior
+StyleOverscrollBehavior
 :
 :
 None
-OverscrollBehavior
+StyleOverscrollBehavior
 :
 :
 None

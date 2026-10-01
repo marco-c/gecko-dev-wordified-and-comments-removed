@@ -2848,7 +2848,7 @@ GetOverscrollBehavior
 )
 =
 =
-OverscrollBehavior
+StyleOverscrollBehavior
 :
 :
 Auto
@@ -2859,7 +2859,7 @@ GetOverscrollBehavior
 )
 =
 =
-OverscrollBehavior
+StyleOverscrollBehavior
 :
 :
 Chain
@@ -2880,7 +2880,7 @@ GetOverscrollBehavior
 )
 =
 =
-OverscrollBehavior
+StyleOverscrollBehavior
 :
 :
 Auto
@@ -2891,7 +2891,7 @@ GetOverscrollBehavior
 )
 =
 =
-OverscrollBehavior
+StyleOverscrollBehavior
 :
 :
 Contain
@@ -3321,7 +3321,7 @@ return
 directions
 ;
 }
-OverscrollBehavior
+StyleOverscrollBehavior
 AxisX
 :
 :
@@ -3936,7 +3936,7 @@ GetCompositionLengthWithoutDynamicToolbar
 )
 ;
 }
-OverscrollBehavior
+StyleOverscrollBehavior
 AxisY
 :
 :

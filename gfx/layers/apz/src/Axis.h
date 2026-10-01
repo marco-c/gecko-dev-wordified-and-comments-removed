@@ -771,7 +771,7 @@ GetScrollMetadata
 const
 ;
 virtual
-OverscrollBehavior
+StyleOverscrollBehavior
 GetOverscrollBehavior
 (
 )
@@ -980,7 +980,7 @@ const
 ;
 private
 :
-OverscrollBehavior
+StyleOverscrollBehavior
 GetOverscrollBehavior
 (
 )
@@ -1189,7 +1189,7 @@ const
 ;
 private
 :
-OverscrollBehavior
+StyleOverscrollBehavior
 GetOverscrollBehavior
 (
 )
