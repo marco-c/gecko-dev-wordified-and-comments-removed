@@ -75,7 +75,7 @@ begin_assignment
 {
 assign_assuming_AddRef
 (
-0
+nullptr
 )
 ;
 return
@@ -200,7 +200,7 @@ nsHtml5StreamParserPtr
 :
 mRawPtr
 (
-0
+nullptr
 )
 {
 }
@@ -384,7 +384,7 @@ mRawPtr
 ;
 mRawPtr
 =
-0
+nullptr
 ;
 }
 nsHtml5StreamParser
@@ -433,7 +433,7 @@ MOZ_ASSERT
 mRawPtr
 !
 =
-0
+nullptr
 "
 You
 can
@@ -498,7 +498,7 @@ MOZ_ASSERT
 mRawPtr
 !
 =
-0
+nullptr
 "
 You
 can
