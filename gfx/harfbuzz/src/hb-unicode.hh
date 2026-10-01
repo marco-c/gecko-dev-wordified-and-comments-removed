@@ -522,7 +522,7 @@ hb_codepoint_t
 (
 ch
 0x180Bu
-0x180Eu
+0x180Fu
 )
 ;
 case

@@ -611,10 +611,14 @@ const
 hb_subset_accelerator_t
 *
 accelerator
+=
+nullptr
 ;
 hb_subset_accelerator_t
 *
 inprogress_accelerator
+=
+nullptr
 ;
 public
 :

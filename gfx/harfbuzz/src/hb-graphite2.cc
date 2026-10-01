@@ -413,7 +413,7 @@ grface
 )
 )
 {
-hb_free
+_hb_graphite2_shaper_face_data_destroy
 (
 data
 )

@@ -107,6 +107,11 @@ _glyphset_colred
 HB_SUBSET_PLAN_MEMBER
 (
 hb_set_t
+_glyphset_varced
+)
+HB_SUBSET_PLAN_MEMBER
+(
+hb_set_t
 _glyphset_cmaped
 )
 HB_SUBSET_PLAN_MEMBER
