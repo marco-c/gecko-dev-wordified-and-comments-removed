@@ -259,6 +259,7 @@ mutationCallback
 ;
 [
 Throws
+NeedsSubjectPrincipal
 ]
 undefined
 observe
