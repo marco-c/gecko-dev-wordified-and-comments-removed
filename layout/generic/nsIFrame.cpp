@@ -55728,12 +55728,6 @@ OverflowAreas
 aOverflowAreas
 )
 {
-nsRect
-childVisual
-;
-nsRect
-childScrollable
-;
 for
 (
 const
