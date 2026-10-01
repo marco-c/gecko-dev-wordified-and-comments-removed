@@ -15,6 +15,13 @@ builds
 /
 worker
 /
+checkouts
+VOLUME
+/
+builds
+/
+worker
+/
 workspace
 #
 At

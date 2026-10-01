@@ -282,7 +282,9 @@ use
 -
 caches
 :
-false
+[
+checkout
+]
 config
 :
 by
