@@ -385,11 +385,6 @@ Maybe
 h
 "
 "
-MaybeFmt
-.
-h
-"
-"
 MaybeOneOf
 .
 h
