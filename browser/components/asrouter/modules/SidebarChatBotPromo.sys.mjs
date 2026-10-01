@@ -365,7 +365,7 @@ topChromeWindow
 browser
 ?
 .
-ownerGlobal
+documentGlobal
 ;
 if
 (
