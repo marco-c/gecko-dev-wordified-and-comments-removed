@@ -946,6 +946,16 @@ use
 self
 :
 :
+position
+:
+:
+BoxSizing
+;
+pub
+use
+self
+:
+:
 random
 :
 :

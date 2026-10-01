@@ -77,16 +77,6 @@ Justify
 ;
 enum
 class
-StyleBoxSizing
-:
-uint8_t
-{
-ContentBox
-BorderBox
-}
-;
-enum
-class
 StyleBoxShadowType
 :
 uint8_t

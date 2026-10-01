@@ -1493,6 +1493,9 @@ ListStylePosition
 "
 FlexDirection
 "
+"
+BoxSizing
+"
 ]
 item_types
 =
