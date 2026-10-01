@@ -667,7 +667,7 @@ clicked
 .
 *
 param
-onClick
+onInteraction
 The
 callback
 to
@@ -677,7 +677,8 @@ the
 menu
 item
 is
-clicked
+interacted
+with
 .
 *
 param
@@ -799,7 +800,7 @@ MenuEvent
 ?
 =
 null
-onClick
+onInteraction
 :
 (
 MenuEvent
@@ -1047,7 +1048,7 @@ onClickEvent
 .
 let
 {
-onClick
+onInteraction
 (
 it
 )
@@ -1188,9 +1189,14 @@ onClickEvent
 it
 .
 onClickEvent
-onClick
+onShownEvent
 =
-onClick
+it
+.
+onShownEvent
+onInteraction
+=
+onInteraction
 )
 }
 }

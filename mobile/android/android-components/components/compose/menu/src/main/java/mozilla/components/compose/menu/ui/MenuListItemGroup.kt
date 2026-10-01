@@ -467,7 +467,7 @@ onClickEvent
 it
 .
 onClickEvent
-onClick
+onInteraction
 =
 onClick
 )
@@ -510,7 +510,7 @@ onClickEvent
 it
 .
 onClickEvent
-onClick
+onInteraction
 =
 onClick
 role
