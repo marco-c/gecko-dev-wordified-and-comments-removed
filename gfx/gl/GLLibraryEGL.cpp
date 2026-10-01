@@ -3238,6 +3238,16 @@ EGLLibExtension
 ANGLE_platform_angle_d3d
 )
 ;
+mIsMetalANGLE
+=
+IsExtensionSupported
+(
+EGLLibExtension
+:
+:
+ANGLE_platform_angle_metal
+)
+;
 if
 (
 mIsANGLE

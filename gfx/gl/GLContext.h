@@ -440,6 +440,7 @@ AndroidEmulator
 GalliumLlvmpipe
 MicrosoftBasicRenderDriver
 SamsungXclipse
+RadeonGFX10
 Other
 }
 ;
@@ -603,6 +604,17 @@ false
 virtual
 bool
 IsD3DANGLE
+(
+)
+const
+{
+return
+false
+;
+}
+virtual
+bool
+IsMetalANGLE
 (
 )
 const

@@ -295,7 +295,6 @@ NV_stream_consumer_gltexture_yuv
 ANGLE_stream_producer_d3d_texture
 KHR_surfaceless_context
 KHR_create_context_no_error
-MOZ_create_context_provoking_vertex_dont_care
 EXT_swap_buffers_with_damage
 KHR_swap_buffers_with_damage
 EXT_buffer_age
@@ -367,6 +366,11 @@ false
 ;
 bool
 mIsD3DANGLE
+=
+false
+;
+bool
+mIsMetalANGLE
 =
 false
 ;
@@ -617,6 +621,16 @@ const
 {
 return
 mIsD3DANGLE
+;
+}
+bool
+IsMetalANGLE
+(
+)
+const
+{
+return
+mIsMetalANGLE
 ;
 }
 #
