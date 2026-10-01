@@ -90,7 +90,7 @@ items
 /
 sealed
 interface
-ExpandableMenuItem
+FenixExpandableMenuItem
 {
 /
 *
@@ -310,7 +310,7 @@ FenixMenuItem
 )
 :
 FenixMenuItem
-ExpandableMenuItem
+FenixExpandableMenuItem
 /
 *
 *
