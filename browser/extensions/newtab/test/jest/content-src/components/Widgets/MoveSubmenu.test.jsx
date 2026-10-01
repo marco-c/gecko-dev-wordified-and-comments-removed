@@ -159,7 +159,7 @@ focusTimer
 weather
 "
 "
-sportsWidget
+privacy
 "
 "
 clocks
@@ -179,7 +179,7 @@ true
 weather
 :
 true
-sportsWidget
+privacy
 :
 true
 clocks
@@ -648,7 +648,7 @@ toBe
 weather
 focusTimer
 lists
-sportsWidget
+privacy
 clocks
 "
 )
@@ -727,7 +727,7 @@ toBe
 "
 lists
 focusTimer
-sportsWidget
+privacy
 weather
 clocks
 "
@@ -808,7 +808,7 @@ toBe
 lists
 weather
 focusTimer
-sportsWidget
+privacy
 clocks
 "
 )
@@ -1158,7 +1158,7 @@ toBe
 lists
 weather
 focusTimer
-sportsWidget
+privacy
 clocks
 "
 )

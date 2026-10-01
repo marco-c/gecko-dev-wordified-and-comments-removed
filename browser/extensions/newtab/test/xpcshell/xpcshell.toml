@@ -274,13 +274,6 @@ js
 ]
 [
 "
-test_SportsFeed
-.
-js
-"
-]
-[
-"
 test_StartupCacheInit
 .
 js

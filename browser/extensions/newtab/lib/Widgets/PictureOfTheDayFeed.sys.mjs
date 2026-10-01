@@ -959,12 +959,6 @@ at
 an
 arbitrary
 host
-/
-/
-(
-mirrors
-SportsFeed
-)
 .
 getEndpoint
 (
