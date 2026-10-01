@@ -147,6 +147,13 @@ Bug
 ]
 [
 "
+browser_page_extractor_markers
+.
+js
+"
+]
+[
+"
 browser_page_metadata
 .
 js

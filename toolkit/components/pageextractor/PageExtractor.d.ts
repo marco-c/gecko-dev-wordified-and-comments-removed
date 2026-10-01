@@ -92,6 +92,12 @@ HTMLCanvasElement
 [
 ]
 ;
+siteStrategy
+:
+string
+|
+null
+;
 }
 ;
 export
@@ -124,6 +130,12 @@ ExtractionStrategy
 Partial
 <
 {
+name
+:
+string
+|
+null
+;
 filterSelector
 :
 string
