@@ -229,14 +229,6 @@ test_customize_sidebar_actions
 (
 )
 {
-await
-SidebarTestUtils
-.
-ensureLauncherVisible
-(
-window
-)
-;
 const
 customizeComponent
 =
