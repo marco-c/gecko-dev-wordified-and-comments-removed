@@ -32,16 +32,6 @@ mozilla
 {
 enum
 class
-StyleBoxDirection
-:
-uint8_t
-{
-Normal
-Reverse
-}
-;
-enum
-class
 StyleBoxOrient
 :
 uint8_t
