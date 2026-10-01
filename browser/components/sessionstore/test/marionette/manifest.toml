@@ -14,13 +14,6 @@ os_integration
 "
 [
 "
-test_close_last_nonpopup_window
-.
-py
-"
-]
-[
-"
 test_log_files
 .
 py
@@ -86,13 +79,6 @@ py
 [
 "
 test_restore_aiwindow
-.
-py
-"
-]
-[
-"
-test_restore_last_session_window_mismatch
 .
 py
 "
