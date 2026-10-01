@@ -146,6 +146,13 @@ defined
 (
 JS_SIMULATOR_LOONG64
 )
+|
+|
+\
+defined
+(
+JS_SIMULATOR_RISCV64
+)
 #
 define
 SINGLESTEP_PROFILING

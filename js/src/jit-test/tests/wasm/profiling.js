@@ -755,6 +755,14 @@ getBuildConfiguration
 loong64
 "
 )
+|
+|
+getBuildConfiguration
+(
+"
+riscv64
+"
+)
 )
 {
 continue
