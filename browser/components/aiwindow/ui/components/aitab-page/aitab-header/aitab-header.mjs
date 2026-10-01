@@ -652,7 +652,7 @@ components
 /
 aitab
 -
-shared
+base
 .
 css
 "
