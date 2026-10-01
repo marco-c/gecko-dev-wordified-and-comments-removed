@@ -311,7 +311,7 @@ directory
 should
 be
 :
-shell
+text
 c
 :
 \

@@ -282,6 +282,7 @@ the
 selected
 channel
 from
+<
 https
 :
 /
@@ -292,6 +293,7 @@ mozilla
 .
 org
 /
+>
 and
 will
 start

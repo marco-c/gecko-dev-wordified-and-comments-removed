@@ -1322,7 +1322,6 @@ the
 tests
 later
 :
->
 1
 .
 clone
@@ -1341,7 +1340,6 @@ bug
 that
 is
 also
->
 in
 a
 security
@@ -1358,7 +1356,6 @@ publicly
 visible
 *
 *
->
 called
 something
 like
@@ -1372,7 +1369,6 @@ xxxxx
 and
 assign
 to
->
 yourself
 .
 It
@@ -1387,8 +1383,6 @@ other
 keyword
 rating
 .
->
->
 Tip
 :
 In
@@ -1400,7 +1394,6 @@ the
 bug
 linked
 to
->
 a
 commit
 with
@@ -1413,7 +1406,6 @@ already
 separate
 while
 keeping
->
 the
 previously
 granted
@@ -1425,7 +1417,6 @@ just
 land
 the
 patch
->
 when
 ready
 rather
@@ -1438,7 +1429,6 @@ you
 have
 to
 remember
->
 what
 this
 was
@@ -1451,8 +1441,6 @@ down
 the
 line
 .
->
->
 2
 .
 Or
@@ -1475,7 +1463,6 @@ whiteboard
 tag
 of
 the
->
 form
 [
 reminder
@@ -1494,7 +1481,6 @@ needinfo
 the
 bug
 assignee
->
 on
 that
 date
@@ -1512,15 +1498,12 @@ in
 -
 testsuite
 "
->
 flag
 to
 "
 +
 "
 .
->
->
 If
 the
 tests
@@ -1533,7 +1516,6 @@ this
 way
 the
 reminder
->
 date
 should
 be
