@@ -132,6 +132,13 @@ h
 #
 include
 "
+nsCRTGlue
+.
+h
+"
+#
+include
+"
 nsComponentManagerUtils
 .
 h

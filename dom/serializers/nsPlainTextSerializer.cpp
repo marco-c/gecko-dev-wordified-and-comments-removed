@@ -157,6 +157,13 @@ h
 #
 include
 "
+nsCharSeparatedTokenizer
+.
+h
+"
+#
+include
+"
 nsComputedDOMStyle
 .
 h

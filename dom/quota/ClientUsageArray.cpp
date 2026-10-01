@@ -31,6 +31,13 @@ ResultExtensions
 .
 h
 "
+#
+include
+"
+nsCharSeparatedTokenizer
+.
+h
+"
 namespace
 mozilla
 :
