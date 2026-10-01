@@ -35,6 +35,13 @@ js
 ]
 [
 "
+test_organize_tabs_migration
+.
+js
+"
+]
+[
+"
 test_titlebar_spacer_migration
 .
 js
