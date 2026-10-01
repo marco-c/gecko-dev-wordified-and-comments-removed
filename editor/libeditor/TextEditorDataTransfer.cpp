@@ -1111,6 +1111,9 @@ aEditActionData
 nsITransferable
 &
 aTransferable
+DataTransfer
+*
+aDataTransfer
 )
 {
 if

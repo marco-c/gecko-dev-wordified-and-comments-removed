@@ -6594,6 +6594,9 @@ aEditActionData
 nsITransferable
 &
 aTransferable
+DataTransfer
+*
+aDataTransfer
 )
 final
 ;
