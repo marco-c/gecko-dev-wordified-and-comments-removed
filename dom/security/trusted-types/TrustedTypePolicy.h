@@ -96,6 +96,17 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
+TrustedTypePolicyFactory
+.
+h
+"
+#
+include
+"
 nsISupportsImpl
 .
 h
@@ -130,9 +141,6 @@ dom
 {
 class
 DOMString
-;
-class
-TrustedTypePolicyFactory
 ;
 class
 TrustedTypePolicy
