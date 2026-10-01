@@ -29202,10 +29202,6 @@ newScale
 return
 ;
 }
-UpdateBounds
-(
-)
-;
 SuspendAsyncCATransactions
 (
 )
@@ -29213,6 +29209,10 @@ SuspendAsyncCATransactions
 mBackingScaleFactor
 =
 newScale
+;
+UpdateBounds
+(
+)
 ;
 if
 (
