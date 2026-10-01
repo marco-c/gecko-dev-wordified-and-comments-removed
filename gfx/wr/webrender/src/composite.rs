@@ -6389,10 +6389,6 @@ pub
 supports_surface_for_backdrop
 :
 bool
-pub
-supports_external_compositor_surface_negative_scaling
-:
-bool
 }
 impl
 Default
@@ -6418,9 +6414,6 @@ max_update_rects
 supports_surface_for_backdrop
 :
 false
-supports_external_compositor_surface_negative_scaling
-:
-true
 }
 }
 }
