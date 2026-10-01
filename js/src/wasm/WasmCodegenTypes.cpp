@@ -12,6 +12,15 @@ include
 "
 mozilla
 /
+BinarySearch
+.
+h
+"
+#
+include
+"
+mozilla
+/
 PodOperations
 .
 h
