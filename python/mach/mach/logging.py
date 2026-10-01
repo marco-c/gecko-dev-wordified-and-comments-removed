@@ -1779,6 +1779,13 @@ mach_logger
         
 self
 .
+_unstructured_loggers
+=
+[
+]
+        
+self
+.
 _terminal
 =
 None
@@ -2458,11 +2465,26 @@ self
 structured_loggers
 :
                 
+if
+logger
+.
+propagate
+:
+                    
 logger
 .
 propagate
 =
 False
+                    
+self
+.
+_unstructured_loggers
+.
+append
+(
+logger
+)
     
 def
 disable_unstructured
@@ -2512,19 +2534,40 @@ self
 terminal_handler
 )
             
+self
+.
+_restore_propagation
+(
+)
+    
+def
+_restore_propagation
+(
+self
+)
+:
+        
 for
 logger
 in
 self
 .
-structured_loggers
+_unstructured_loggers
 :
-                
+            
 logger
 .
 propagate
 =
 True
+        
+self
+.
+_unstructured_loggers
+.
+clear
+(
+)
     
 def
 register_structured_logger
@@ -2756,6 +2799,12 @@ self
 _remove_file_handlers_from_logger
 (
 logger
+)
+        
+self
+.
+_restore_propagation
+(
 )
         
 self
