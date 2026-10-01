@@ -86,6 +86,13 @@ h
 #
 include
 "
+nsIURI
+.
+h
+"
+#
+include
+"
 nsIWeakReferenceUtils
 .
 h
@@ -119,9 +126,6 @@ nsIParser
 ;
 class
 nsIPrincipal
-;
-class
-nsIURI
 ;
 namespace
 mozilla
