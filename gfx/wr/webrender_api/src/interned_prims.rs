@@ -43,7 +43,6 @@ ConicGradientParams
 GradientStopKey
 NinePatchDescriptor
 NormalBorderAu
-PointKey
 PrimKeyCommonData
 RadialGradientParams
 SizeKey
@@ -529,11 +528,11 @@ ExtendMode
 pub
 start_point
 :
-PointKey
+VectorKey
 pub
 end_point
 :
-PointKey
+VectorKey
 pub
 stretch_ratio
 :
@@ -589,7 +588,7 @@ ExtendMode
 pub
 center
 :
-PointKey
+VectorKey
 pub
 params
 :
@@ -645,7 +644,7 @@ ExtendMode
 pub
 center
 :
-PointKey
+VectorKey
 pub
 params
 :
@@ -705,11 +704,11 @@ ExtendMode
 pub
 start_point
 :
-PointKey
+VectorKey
 pub
 end_point
 :
-PointKey
+VectorKey
 pub
 stretch_ratio
 :
@@ -833,7 +832,7 @@ ExtendMode
 pub
 center
 :
-PointKey
+VectorKey
 pub
 params
 :
@@ -952,7 +951,7 @@ ExtendMode
 pub
 center
 :
-PointKey
+VectorKey
 pub
 params
 :

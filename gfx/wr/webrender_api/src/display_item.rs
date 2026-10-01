@@ -2607,13 +2607,13 @@ struct
 Gradient
 {
 pub
-start_point
+start
 :
-LayoutPoint
+LayoutVector2D
 pub
-end_point
+end
 :
-LayoutPoint
+LayoutVector2D
 pub
 extend_mode
 :
@@ -2635,7 +2635,7 @@ bool
 {
 self
 .
-start_point
+start
 .
 x
 .
@@ -2646,7 +2646,7 @@ is_finite
 &
 self
 .
-start_point
+start
 .
 y
 .
@@ -2657,7 +2657,7 @@ is_finite
 &
 self
 .
-end_point
+end
 .
 x
 .
@@ -2668,7 +2668,7 @@ is_finite
 &
 self
 .
-end_point
+end
 .
 y
 .
@@ -2772,7 +2772,7 @@ RadialGradient
 pub
 center
 :
-LayoutPoint
+LayoutVector2D
 pub
 radius
 :
@@ -2865,7 +2865,7 @@ ConicGradient
 pub
 center
 :
-LayoutPoint
+LayoutVector2D
 pub
 angle
 :

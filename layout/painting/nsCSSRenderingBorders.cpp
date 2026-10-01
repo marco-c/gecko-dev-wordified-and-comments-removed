@@ -17213,14 +17213,14 @@ slice
 wr
 :
 :
-ToLayoutPoint
+ToLayoutVector2D
 (
 startPoint
 )
 wr
 :
 :
-ToLayoutPoint
+ToLayoutVector2D
 (
 endPoint
 )
@@ -17278,7 +17278,7 @@ mFill
 wr
 :
 :
-ToLayoutPoint
+ToLayoutVector2D
 (
 lineStart
 )
@@ -17344,7 +17344,7 @@ mFill
 wr
 :
 :
-ToLayoutPoint
+ToLayoutVector2D
 (
 gradientCenter
 )

@@ -155,10 +155,10 @@ mut
 self
 start_point
 :
-LayoutPoint
+LayoutVector2D
 end_point
 :
-LayoutPoint
+LayoutVector2D
 extend_mode
 :
 di
@@ -198,14 +198,14 @@ di
 :
 Gradient
 {
-start_point
+start
 :
 start_point
 +
 start_to_end
 *
 start_offset
-end_point
+end
 :
 start_point
 +
@@ -224,7 +224,7 @@ mut
 self
 center
 :
-LayoutPoint
+LayoutVector2D
 radius
 :
 LayoutSize
@@ -400,7 +400,7 @@ mut
 self
 center
 :
-LayoutPoint
+LayoutVector2D
 angle
 :
 f32

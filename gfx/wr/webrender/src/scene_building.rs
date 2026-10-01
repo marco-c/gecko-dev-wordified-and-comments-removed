@@ -6135,12 +6135,12 @@ info
 .
 gradient
 .
-start_point
+start
 info
 .
 gradient
 .
-end_point
+end
 read_gradient_stops
 (
 item
@@ -10252,10 +10252,10 @@ info
 rect
 gradient
 .
-start_point
+start
 gradient
 .
-end_point
+end
 read_gradient_stops
 (
 gradient_stops

@@ -10387,7 +10387,15 @@ dl
 create_gradient
 (
 start
+.
+to_vector
+(
+)
 end
+.
+to_vector
+(
+)
 stops
 extend_mode
 )
@@ -10600,6 +10608,10 @@ dl
 create_radial_gradient
 (
 center
+.
+to_vector
+(
+)
 radius
 stops
 extend_mode
@@ -10813,6 +10825,10 @@ dl
 create_conic_gradient
 (
 center
+.
+to_vector
+(
+)
 angle
 stops
 extend_mode
