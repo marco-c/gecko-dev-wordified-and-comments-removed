@@ -1304,6 +1304,11 @@ String
 :
 Addon
 ?
+=
+withContext
+(
+ioDispatcher
+)
 {
 val
 langParam
@@ -1333,7 +1338,6 @@ else
 "
 "
 }
-return
 client
 .
 fetch

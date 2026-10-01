@@ -739,6 +739,9 @@ settings
 requireComponents
 .
 addonsProvider
+requireComponents
+.
+applicationScope
 )
 }
 private
