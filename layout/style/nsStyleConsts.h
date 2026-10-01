@@ -543,17 +543,6 @@ Auto
 ;
 enum
 class
-StyleTextOrientation
-:
-uint8_t
-{
-Mixed
-Upright
-Sideways
-}
-;
-enum
-class
 StyleTextCombineUpright
 :
 uint8_t
