@@ -6850,10 +6850,6 @@ mCheckedForVariationAxes
 return
 ;
 }
-mCheckedForVariationAxes
-=
-true
-;
 if
 (
 HasVariations
@@ -7040,6 +7036,10 @@ eOpticalSize
 }
 }
 }
+mCheckedForVariationAxes
+=
+true
+;
 }
 bool
 gfxFontEntry
