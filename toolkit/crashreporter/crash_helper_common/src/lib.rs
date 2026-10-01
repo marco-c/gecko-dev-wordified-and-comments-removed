@@ -173,11 +173,13 @@ platform
 :
 :
 {
-AsProcessReaderHandle
+AsRawProcessHandle
 AsRawThreadHandle
+FromRawProcessHandle
 FromRawThreadHandle
 PlatformError
 ProcessHandle
+RawProcessHandle
 RawThreadHandle
 ThreadHandle
 }
