@@ -4,6 +4,15 @@ include
 string
 >
 #
+include
+"
+mozilla
+/
+ProcessType
+.
+h
+"
+#
 if
 defined
 (
@@ -485,8 +494,8 @@ getAuxvDumpInfo
 (
 RustAuxvCallback
 callback
-breakpad_pid
-aPid
+GeckoChildID
+aId
 DirectAuxvDumpInfo
 *
 aAuxvInfo
@@ -495,7 +504,7 @@ aAuxvInfo
 return
 callback
 (
-aPid
+aId
 aAuxvInfo
 )
 ;
@@ -721,8 +730,8 @@ breakpadData
 aAuxvCallback
 ]
 (
-pid_t
-aPid
+GeckoChildID
+aId
 DirectAuxvDumpInfo
 *
 aAuxvInfo
@@ -732,7 +741,7 @@ return
 getAuxvDumpInfo
 (
 aAuxvCallback
-aPid
+aId
 aAuxvInfo
 )
 ;
