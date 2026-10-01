@@ -16,6 +16,17 @@ absl
 /
 base
 /
+config
+.
+h
+"
+#
+include
+"
+absl
+/
+base
+/
 internal
 /
 tracing
@@ -94,7 +105,6 @@ Wait
 private
 :
 static
-inline
 constexpr
 base_internal
 :

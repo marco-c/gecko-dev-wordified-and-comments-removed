@@ -31,6 +31,11 @@ atomic
 #
 include
 <
+iterator
+>
+#
+include
+<
 optional
 >
 #
@@ -5336,7 +5341,7 @@ Seconds
 1
 )
 ;
-int
+size_t
 i
 =
 0
@@ -5366,7 +5371,10 @@ i
 +
 +
 %
-ABSL_ARRAYSIZE
+std
+:
+:
+size
 (
 kValidDurations
 )
@@ -6696,7 +6704,11 @@ namespace
 {
 bool
 initialization_order_fiasco_test
-ABSL_ATTRIBUTE_UNUSED
+[
+[
+maybe_unused
+]
+]
 =
 [
 ]

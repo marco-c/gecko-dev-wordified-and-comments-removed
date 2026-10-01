@@ -168,11 +168,11 @@ DEPS
 absl
 :
 :
-memory
+core_headers
 absl
 :
 :
-core_headers
+memory
 GTest
 :
 :

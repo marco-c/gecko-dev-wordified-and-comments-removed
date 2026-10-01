@@ -32,6 +32,7 @@ kAmdRome
 kAmdNaples
 kAmdMilan
 kAmdGenoa
+kAmdSiena
 kAmdTurin
 kAmdRyzenV3000
 kIntelCascadelakeXeon
@@ -50,7 +51,9 @@ kArmNeoverseV1
 kAmpereSiryn
 kArmNeoverseN2
 kArmNeoverseV2
+kArmNeoverseV3
 kArmNeoverseN3
+kArmNeoverseN4
 kNvidiaGrace
 }
 ;

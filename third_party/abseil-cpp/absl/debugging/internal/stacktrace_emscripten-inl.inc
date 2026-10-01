@@ -98,7 +98,11 @@ disable_stacktraces
 true
 )
 ;
-ABSL_ATTRIBUTE_UNUSED
+[
+[
+maybe_unused
+]
+]
 static
 int
 stacktraces_enabler

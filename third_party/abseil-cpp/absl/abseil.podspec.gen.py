@@ -435,6 +435,29 @@ deployment_target
   
 s
 .
+exclude_files
+=
+[
+'
+absl
+/
+time
+/
+internal
+/
+cctz
+/
+src
+/
+*
+_win
+.
+cc
+'
+]
+  
+s
+.
 subspec
 '
 xcprivacy
@@ -1565,6 +1588,13 @@ depth
   
 srcs
 =
+[
+      
+s
+      
+for
+s
+in
 sorted
 (
 set
@@ -1582,6 +1612,21 @@ rule
 srcs
 )
 )
+      
+if
+not
+s
+.
+endswith
+(
+"
+_win
+.
+cc
+"
+)
+  
+]
   
 write_indented_list
 (

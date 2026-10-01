@@ -5,8 +5,16 @@ ABSL_FUNCTIONAL_BIND_FRONT_H_
 define
 ABSL_FUNCTIONAL_BIND_FRONT_H_
 #
-ifdef
-__has_include
+include
+"
+absl
+/
+base
+/
+config
+.
+h
+"
 #
 if
 __has_include
@@ -20,8 +28,6 @@ include
 <
 version
 >
-#
-endif
 #
 endif
 #

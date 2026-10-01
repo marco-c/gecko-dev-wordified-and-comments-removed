@@ -216,7 +216,11 @@ return
 true
 ;
 }
-ABSL_ATTRIBUTE_UNUSED
+[
+[
+maybe_unused
+]
+]
 const
 bool
 unused

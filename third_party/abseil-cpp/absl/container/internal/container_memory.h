@@ -196,8 +196,6 @@ static_assert
 Alignment
 >
 0
-"
-"
 )
 ;
 assert
@@ -381,9 +379,8 @@ return
 std
 :
 :
-integral_constant
+bool_constant
 <
-bool
 result
 >
 (
@@ -415,8 +412,6 @@ static_assert
 Alignment
 >
 0
-"
-"
 )
 ;
 assert
@@ -924,7 +919,7 @@ make_index_sequence
 std
 :
 :
-tuple_size
+tuple_size_v
 <
 std
 :
@@ -934,9 +929,6 @@ decay_t
 T
 >
 >
-:
-:
-value
 >
 (
 )
@@ -964,7 +956,7 @@ make_index_sequence
 std
 :
 :
-tuple_size
+tuple_size_v
 <
 std
 :
@@ -974,9 +966,6 @@ decay_t
 T
 >
 >
-:
-:
-value
 >
 (
 )
@@ -1174,7 +1163,7 @@ make_index_sequence
 std
 :
 :
-tuple_size
+tuple_size_v
 <
 std
 :
@@ -1184,9 +1173,6 @@ decay_t
 Tuple
 >
 >
-:
-:
-value
 >
 (
 )
@@ -1264,7 +1250,7 @@ make_index_sequence
 std
 :
 :
-tuple_size
+tuple_size_v
 <
 std
 :
@@ -1274,9 +1260,6 @@ decay_t
 Tuple
 >
 >
-:
-:
-value
 >
 (
 )
@@ -3186,7 +3169,9 @@ template
 class
 Hash
 bool
-kIsDefault
+kIsAbsl
+size_t
+kSeedShift
 >
 struct
 HashElement
@@ -3208,6 +3193,9 @@ h
 seed
 (
 s
+>
+>
+kSeedShift
 )
 {
 }
@@ -3242,7 +3230,7 @@ const
 if
 constexpr
 (
-kIsDefault
+kIsAbsl
 )
 {
 return
@@ -3290,7 +3278,9 @@ Hash
 class
 Key
 bool
-kIsDefault
+kIsAbsl
+size_t
+kSeedShift
 >
 struct
 HashKey
@@ -3331,7 +3321,8 @@ return
 HashElement
 <
 Hash
-kIsDefault
+kIsAbsl
+kSeedShift
 >
 {
 hash
@@ -3440,7 +3431,9 @@ Fn
 class
 T
 bool
-kIsDefault
+kIsAbsl
+size_t
+kSeedShift
 >
 size_t
 TypeErasedApplyToSlotFn
@@ -3475,7 +3468,8 @@ return
 HashElement
 <
 Fn
-kIsDefault
+kIsAbsl
+kSeedShift
 >
 {
 *
@@ -3503,7 +3497,9 @@ Fn
 class
 T
 bool
-kIsDefault
+kIsAbsl
+size_t
+kSeedShift
 >
 size_t
 TypeErasedDerefAndApplyToSlotFn
@@ -3554,7 +3550,8 @@ return
 HashElement
 <
 Fn
-kIsDefault
+kIsAbsl
+kSeedShift
 >
 {
 *
@@ -3574,7 +3571,9 @@ Fn
 class
 T
 bool
-kIsDefault
+kIsAbsl
+size_t
+kSeedShift
 >
 size_t
 TypeErasedDerefAndApplyToSlotFirstFn
@@ -3625,7 +3624,8 @@ return
 HashElement
 <
 Fn
-kIsDefault
+kIsAbsl
+kSeedShift
 >
 {
 *

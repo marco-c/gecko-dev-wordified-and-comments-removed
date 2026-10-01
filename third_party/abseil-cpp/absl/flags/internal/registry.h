@@ -7,6 +7,11 @@ ABSL_FLAGS_INTERNAL_REGISTRY_H_
 #
 include
 <
+cstddef
+>
+#
+include
+<
 functional
 >
 #

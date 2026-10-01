@@ -408,7 +408,9 @@ template
 class
 Hash
 bool
-kIsDefault
+kIsAbsl
+size_t
+kSeedShift
 >
 static
 constexpr

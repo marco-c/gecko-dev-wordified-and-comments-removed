@@ -747,6 +747,8 @@ memory_order_release
 )
 ;
 }
+ABSL_ATTRIBUTE_NOINLINE
+ABSL_ATTRIBUTE_NO_TAIL_CALL
 int
 DefaultStackUnwinder
 (

@@ -54,6 +54,17 @@ include
 "
 absl
 /
+base
+/
+config
+.
+h
+"
+#
+include
+"
+absl
+/
 container
 /
 internal
@@ -192,7 +203,9 @@ template
 class
 Hash
 bool
-kIsDefault
+kIsAbsl
+size_t
+kSeedShift
 >
 static
 constexpr
@@ -534,7 +547,9 @@ template
 class
 Hash
 bool
-kIsDefault
+kIsAbsl
+size_t
+kSeedShift
 >
 static
 constexpr
@@ -566,7 +581,9 @@ template
 class
 Hash
 bool
-kIsDefault
+kIsAbsl
+size_t
+kSeedShift
 >
 static
 constexpr
@@ -581,7 +598,8 @@ TypeErasedApplyToSlotFn
 <
 Hash
 int
-kIsDefault
+kIsAbsl
+kSeedShift
 >
 ;
 }
@@ -628,6 +646,7 @@ get_hash_slot_fn
 <
 Hash
 false
+6
 >
 (
 )
@@ -653,6 +672,7 @@ HashElement
 <
 Hash
 false
+6
 >
 (
 hasher
@@ -712,6 +732,7 @@ get_hash_slot_fn
 <
 Hash
 false
+6
 >
 (
 )
@@ -727,6 +748,7 @@ get_hash_slot_fn
 <
 Hash
 false
+6
 >
 (
 )
@@ -748,6 +770,7 @@ HashElement
 <
 Hash
 false
+6
 >
 (
 hasher

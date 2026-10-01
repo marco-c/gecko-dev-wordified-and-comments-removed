@@ -50,6 +50,11 @@ typeinfo
 >
 #
 include
+<
+utility
+>
+#
+include
 "
 absl
 /
@@ -1359,9 +1364,8 @@ FlagUseValueAndInitBitStorage
 std
 :
 :
-integral_constant
+bool_constant
 <
-bool
 std
 :
 :
@@ -1401,9 +1405,8 @@ FlagUseOneWordStorage
 std
 :
 :
-integral_constant
+bool_constant
 <
-bool
 std
 :
 :
@@ -1435,9 +1438,8 @@ FlagUseSequenceLockStorage
 std
 :
 :
-integral_constant
+bool_constant
 <
-bool
 std
 :
 :

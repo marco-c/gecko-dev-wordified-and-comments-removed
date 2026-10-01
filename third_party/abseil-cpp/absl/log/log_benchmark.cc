@@ -506,7 +506,11 @@ LogSeverityAtLeast
 kInfo
 )
 ;
-ABSL_ATTRIBUTE_UNUSED
+[
+[
+maybe_unused
+]
+]
 NullLogSink
 null_sink
 ;
@@ -883,7 +887,11 @@ LogSeverityAtLeast
 kInfinity
 )
 ;
-ABSL_ATTRIBUTE_UNUSED
+[
+[
+maybe_unused
+]
+]
 NullLogSink
 null_sink
 ;

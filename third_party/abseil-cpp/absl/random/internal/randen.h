@@ -14,6 +14,17 @@ include
 "
 absl
 /
+base
+/
+config
+.
+h
+"
+#
+include
+"
+absl
+/
 random
 /
 internal
@@ -114,7 +125,6 @@ Randen
 (
 )
 ;
-inline
 void
 Generate
 (
@@ -180,7 +190,6 @@ state
 #
 endif
 }
-inline
 void
 Absorb
 (

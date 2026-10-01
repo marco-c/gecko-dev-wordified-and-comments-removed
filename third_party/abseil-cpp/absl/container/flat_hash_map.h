@@ -53,6 +53,17 @@ absl
 /
 base
 /
+config
+.
+h
+"
+#
+include
+"
+absl
+/
+base
+/
 macros
 .
 h
@@ -1009,6 +1020,8 @@ class
 Hash
 bool
 kIsDefault
+size_t
+kSeedShift
 >
 static
 constexpr
@@ -1036,6 +1049,7 @@ TypeErasedApplyToSlotFn
 Hash
 K
 kIsDefault
+kSeedShift
 >
 :
 nullptr

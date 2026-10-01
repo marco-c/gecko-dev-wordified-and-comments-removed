@@ -12,6 +12,16 @@ algorithm
 #
 include
 <
+cstddef
+>
+#
+include
+<
+initializer_list
+>
+#
+include
+<
 unordered_map
 >
 #
