@@ -4179,6 +4179,10 @@ testloader
 TestLoader
 (
         
+logger
+=
+logger
+        
 test_manifests
         
 [
@@ -4188,10 +4192,6 @@ testharness
 ]
         
 run_info
-        
-logger
-=
-logger
         
 subsuites
 =
