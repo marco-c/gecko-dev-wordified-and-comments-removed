@@ -709,7 +709,7 @@ state
 await
 SessionStoreTestUtils
 .
-promiseBrowserState
+promiseCompletedBrowserState
 (
 {
 windows
