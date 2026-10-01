@@ -3097,11 +3097,6 @@ center
 -
 large
 "
-"
-card
--
-stack
-"
 ]
 .
 includes
