@@ -923,7 +923,7 @@ recommended
 split
 is
 :
-css
+scss
 :
 root
 {
@@ -1319,7 +1319,7 @@ at
 a
 glance
 .
-css
+scss
 /
 *
 WRONG
@@ -1615,7 +1615,7 @@ simple
 and
 clean
 .
-css
+scss
 /
 *
 WRONG
@@ -3261,7 +3261,7 @@ appropriate
 foreground
 token
 .
-css
+scss
 /
 *
 WRONG
@@ -3359,6 +3359,8 @@ color
 ;
 /
 *
+<
+-
 no
 distinction
 *
@@ -3837,7 +3839,15 @@ tokens
 in
 HCM
 .
-css
+{
+code
+-
+block
+}
+scss
+:
+force
+:
 /
 *
 WRONG
@@ -3916,12 +3926,14 @@ color
 ;
 /
 *
+<
+-
 this
 will
 remove
 the
 ghost
-stylinlg
+styling
 causing
 a
 state
@@ -4219,7 +4231,7 @@ to
 source
 order
 :
-css
+scss
 :
 root
 {
@@ -4552,7 +4564,7 @@ Blur
 Remove
 entirely
 |
-css
+scss
 :
 root
 {
@@ -4879,7 +4891,7 @@ borders
 in
 HCM
 .
-css
+scss
 /
 *
 Interactive

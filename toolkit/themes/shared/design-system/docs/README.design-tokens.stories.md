@@ -2311,7 +2311,7 @@ the
 following
 CSS
 :
-css
+scss
 /
 *
 tokens
@@ -3120,7 +3120,7 @@ spans
 multiple
 files
 :
-css
+scss
 /
 *
 tokens
@@ -3165,7 +3165,7 @@ currentColor
 ;
 }
 }
-css
+scss
 /
 *
 tokens
@@ -3575,7 +3575,7 @@ top
 level
 rule
 :
-css
+scss
 /
 *
 tokens
@@ -4489,7 +4489,7 @@ defined
 For
 example
 :
-css
+scss
 :
 root
 :

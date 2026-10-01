@@ -873,7 +873,7 @@ at
 rule
 paints
 :
-css
+scss
 .
 card
 {
