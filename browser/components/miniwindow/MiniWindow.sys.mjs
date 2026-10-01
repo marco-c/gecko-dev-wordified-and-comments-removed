@@ -1447,6 +1447,13 @@ originWin
 this
 .
 _cropInfo
+this
+.
+manager
+.
+windowsToAvoid
+(
+)
 )
 ;
 /
