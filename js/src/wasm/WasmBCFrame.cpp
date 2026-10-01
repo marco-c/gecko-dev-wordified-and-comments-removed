@@ -901,6 +901,11 @@ t2
 )
 )
 ;
+*
+result
+=
+nullptr
+;
 if
 (
 MOZ_LIKELY
@@ -914,11 +919,6 @@ debugEnabled
 )
 )
 {
-*
-result
-=
-nullptr
-;
 return
 true
 ;

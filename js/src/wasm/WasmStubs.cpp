@@ -16183,6 +16183,8 @@ callee
 fastCallOffset
 &
 slowCallOffset
+nullptr
+nullptr
 )
 ;
 masm
