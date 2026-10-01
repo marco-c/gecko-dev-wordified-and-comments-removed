@@ -3915,6 +3915,11 @@ Matrix
 aTransform
 )
 ;
+void
+FillRuleChanged
+(
+)
+;
 bool
 HasErrorState
 (
