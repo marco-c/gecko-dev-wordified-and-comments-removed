@@ -1732,12 +1732,16 @@ importESModule
 (
                 
 "
-resource
+moz
+-
+src
 :
 /
 /
 /
-modules
+browser
+/
+components
 /
 backup
 /

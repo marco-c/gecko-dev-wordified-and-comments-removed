@@ -12,12 +12,16 @@ this
 BackupError
 :
 "
-resource
+moz
+-
+src
 :
 /
 /
 /
-modules
+browser
+/
+components
 /
 backup
 /
@@ -293,7 +297,7 @@ DECOMPRESSION_FAILED
 await
 bs
 .
-getBackupFileInfo
+loadBackupFileInfo
 (
 testBackupPath
 )
@@ -678,7 +682,7 @@ manifest
 await
 bs
 .
-getBackupFileInfo
+loadBackupFileInfo
 (
 testBackupPath
 )
@@ -1047,7 +1051,7 @@ err
 await
 bs
 .
-getBackupFileInfo
+loadBackupFileInfo
 (
 testBackupPath
 )
@@ -1311,7 +1315,7 @@ genericError
 await
 bs
 .
-getBackupFileInfo
+loadBackupFileInfo
 (
 testBackupPath
 )

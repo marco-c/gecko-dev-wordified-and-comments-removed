@@ -12,12 +12,16 @@ this
 BackupError
 :
 "
-resource
+moz
+-
+src
 :
 /
 /
 /
-modules
+browser
+/
+components
 /
 backup
 /
@@ -502,7 +506,7 @@ createBackupTestRecoveredProfile
 await
 bs
 .
-getBackupFileInfo
+loadBackupFileInfo
 (
 backupFilePath
 )
