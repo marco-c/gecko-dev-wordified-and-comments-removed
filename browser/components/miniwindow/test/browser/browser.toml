@@ -137,6 +137,13 @@ js
 ]
 [
 "
+browser_telemetry
+.
+js
+"
+]
+[
+"
 browser_toolbar
 .
 js
