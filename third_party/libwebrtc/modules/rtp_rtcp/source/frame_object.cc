@@ -253,7 +253,13 @@ image_buffer
 :
 image_buffer_
 (
+std
+:
+:
+move
+(
 image_buffer
+)
 )
 first_seq_num_
 (

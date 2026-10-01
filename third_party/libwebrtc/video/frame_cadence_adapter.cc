@@ -985,7 +985,13 @@ queue
 )
 queue_safety_flag_
 (
+std
+:
+:
+move
+(
 queue_safety_flag
+)
 )
 callback_
 (

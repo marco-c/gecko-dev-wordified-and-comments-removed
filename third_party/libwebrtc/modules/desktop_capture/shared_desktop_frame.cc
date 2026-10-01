@@ -320,7 +320,13 @@ texture
 )
 core_
 (
+std
+:
+:
+move
+(
 core
+)
 )
 {
 CopyFrameInfoFrom
