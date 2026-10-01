@@ -292,7 +292,7 @@ file
 -
 share
 -
-qrcode
+qrcode3
 "
 "
 QR
