@@ -2437,13 +2437,6 @@ siteData
 .
 url
 hostname
-sendAttributionRequest
-:
-!
-!
-siteData
-.
-send_attribution_request
 }
 ;
 if

@@ -7194,9 +7194,6 @@ site
 .
 url
 hostname
-sendAttributionRequest
-:
-false
 label
 :
 site
@@ -7748,13 +7745,6 @@ siteData
 .
 url
 hostname
-sendAttributionRequest
-:
-!
-!
-siteData
-.
-send_attribution_request
 }
 ;
 if
