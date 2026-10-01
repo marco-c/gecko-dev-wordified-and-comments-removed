@@ -655,6 +655,9 @@ verifyDeviceName
 }
 .
 disconnectAccount
+(
+composeTestRule
+)
 {
 TestHelper
 .
