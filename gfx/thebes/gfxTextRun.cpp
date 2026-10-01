@@ -16280,7 +16280,10 @@ mStyle
 variantSubSuper
 !
 =
-NS_FONT_VARIANT_POSITION_NORMAL
+StyleFontVariantPosition
+:
+:
+Normal
 &
 &
 mStyle

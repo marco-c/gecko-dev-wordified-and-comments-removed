@@ -822,6 +822,16 @@ use
 self
 :
 :
+font
+:
+:
+FontVariantPosition
+;
+pub
+use
+self
+:
+:
 image
 :
 :

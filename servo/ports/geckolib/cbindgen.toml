@@ -1571,6 +1571,9 @@ FontKerning
 "
 FontSmoothing
 "
+"
+FontVariantPosition
+"
 ]
 item_types
 =

@@ -1793,7 +1793,10 @@ NS_FONT_VARIANT_CAPS_NORMAL
 variantPosition
 =
 =
-NS_FONT_VARIANT_POSITION_NORMAL
+StyleFontVariantPosition
+:
+:
+Normal
 )
 ;
 if
