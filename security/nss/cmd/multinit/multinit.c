@@ -2812,6 +2812,8 @@ none
 "
 )
 ;
+return
+;
 }
 print_slot
 (

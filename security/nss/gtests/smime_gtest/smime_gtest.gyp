@@ -221,7 +221,7 @@ smime
 .
 gyp
 :
-smime
+smime3_deps
 '
 '
 <

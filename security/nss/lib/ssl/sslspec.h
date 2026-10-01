@@ -367,7 +367,7 @@ ssl3CipherSpecStr
 PRCList
 link
 ;
-PRUint8
+PRUint32
 refCt
 ;
 SSLSecretDirection

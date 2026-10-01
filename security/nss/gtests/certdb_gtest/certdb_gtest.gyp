@@ -119,6 +119,11 @@ cert_unittest
 cc
 '
 '
+crl_unittest
+.
+cc
+'
+'
 decode_certs_unittest
 .
 cc

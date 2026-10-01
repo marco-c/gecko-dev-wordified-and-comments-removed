@@ -132,8 +132,6 @@ changes_text
 "
 \
 n
-\
-n
 "
 .
 join

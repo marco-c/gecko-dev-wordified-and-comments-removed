@@ -64,6 +64,11 @@ fuzz
 [
 false
 ]
+tsan
+:
+[
+false
+]
 #
 Default
 and

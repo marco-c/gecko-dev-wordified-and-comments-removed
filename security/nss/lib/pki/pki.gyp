@@ -99,11 +99,6 @@ sources
 :
 [
 '
-asymmkey
-.
-c
-'
-'
 certdecode
 .
 c
@@ -130,11 +125,6 @@ c
 '
 '
 pkistore
-.
-c
-'
-'
-symmkey
 .
 c
 '
