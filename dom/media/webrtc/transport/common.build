@@ -57,7 +57,7 @@ transport_lcppsrcs
 =
 [
 "
-dtlsdigest
+dtlsidentity
 .
 cpp
 "
