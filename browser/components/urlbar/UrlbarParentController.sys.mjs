@@ -4130,13 +4130,6 @@ accidental
 if
 (
 backspaceBlock
-?
-.
-level
-=
-=
-=
-level
 )
 {
 Glean
