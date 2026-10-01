@@ -3746,6 +3746,11 @@ CHECK_CONFIG
 DataAttributes
 )
 ;
+CHECK_CONFIG
+(
+JavascriptURLs
+)
+;
 #
 undef
 CHECK_CONFIG
@@ -6476,6 +6481,11 @@ false
 mJavascriptURLs
 =
 aAllow
+;
+RecordConfigChange
+(
+eUseCounter_custom_SanitizerConfigJavascriptURLs
+)
 ;
 return
 true
