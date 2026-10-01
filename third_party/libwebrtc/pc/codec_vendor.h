@@ -7,6 +7,11 @@ PC_CODEC_VENDOR_H_
 #
 include
 <
+span
+>
+#
+include
+<
 utility
 >
 #
@@ -247,8 +252,9 @@ current_content
 std
 :
 :
-vector
+span
 <
+const
 Codec
 >
 codecs_from_offer

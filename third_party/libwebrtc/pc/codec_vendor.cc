@@ -25,6 +25,11 @@ set
 #
 include
 <
+span
+>
+#
+include
+<
 string
 >
 #
@@ -6702,8 +6707,9 @@ current_content
 std
 :
 :
-vector
+span
 <
+const
 Codec
 >
 codecs_from_offer

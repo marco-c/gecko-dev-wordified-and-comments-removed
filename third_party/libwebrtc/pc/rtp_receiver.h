@@ -19,6 +19,11 @@ optional
 #
 include
 <
+span
+>
+#
+include
+<
 string
 >
 #
@@ -407,8 +412,9 @@ CreateStreamsFromIds
 std
 :
 :
-vector
+span
 <
+const
 std
 :
 :

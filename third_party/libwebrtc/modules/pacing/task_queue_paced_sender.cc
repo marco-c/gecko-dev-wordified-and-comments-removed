@@ -37,6 +37,11 @@ optional
 #
 include
 <
+span
+>
+#
+include
+<
 utility
 >
 #
@@ -436,8 +441,9 @@ CreateProbeClusters
 std
 :
 :
-vector
+span
 <
+const
 ProbeClusterConfig
 >
 probe_cluster_configs

@@ -17,6 +17,11 @@ algorithm
 #
 include
 <
+array
+>
+#
+include
+<
 cmath
 >
 #
@@ -11083,12 +11088,9 @@ CreateProbeClusters
 std
 :
 :
-vector
-<
-ProbeClusterConfig
->
-(
+array
 {
+ProbeClusterConfig
 {
 .
 at_time
@@ -11121,6 +11123,7 @@ id
 =
 0
 }
+ProbeClusterConfig
 {
 .
 at_time
@@ -11154,7 +11157,6 @@ id
 1
 }
 }
-)
 )
 ;
 pacer
@@ -12383,12 +12385,9 @@ CreateProbeClusters
 std
 :
 :
-vector
-<
-ProbeClusterConfig
->
-(
+array
 {
+ProbeClusterConfig
 {
 .
 at_time
@@ -12421,6 +12420,7 @@ id
 =
 0
 }
+ProbeClusterConfig
 {
 .
 at_time
@@ -12454,7 +12454,6 @@ id
 1
 }
 }
-)
 )
 ;
 SendAndExpectPacket

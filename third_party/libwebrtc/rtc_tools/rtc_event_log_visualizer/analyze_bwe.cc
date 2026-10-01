@@ -52,6 +52,11 @@ optional
 #
 include
 <
+span
+>
+#
+include
+<
 string
 >
 #
@@ -9095,8 +9100,9 @@ bitrate_bps
 std
 :
 :
-vector
+span
 <
+const
 uint32_t
 >
 ssrcs
