@@ -231,7 +231,7 @@ utils
 .
 Settings
 class
-DefaultTopSitesBindingTest
+DefaultPinnedSitesBindingTest
 {
 private
 lateinit
@@ -323,7 +323,7 @@ R
 .
 raw
 .
-initial_shortcuts
+default_pinned_shortcuts
 )
 }
 answers
@@ -341,7 +341,7 @@ getResourceAsStream
 "
 raw
 /
-test_initial_shortcuts
+test_default_pinned_shortcuts
 .
 json
 "
@@ -503,11 +503,11 @@ Default
 )
 )
 val
-topSites
+pinnedSites
 =
 binding
 .
-getTopSites
+getPinnedSites
 (
 region
 =
@@ -530,7 +530,7 @@ addTopSites
 (
 topSites
 =
-topSites
+pinnedSites
 .
 map
 {
@@ -627,11 +627,11 @@ region
 )
 )
 val
-topSites
+pinnedSites
 =
 binding
 .
-getTopSites
+getPinnedSites
 (
 region
 =
@@ -652,7 +652,7 @@ addTopSites
 (
 topSites
 =
-topSites
+pinnedSites
 .
 map
 {
@@ -791,7 +791,7 @@ an
 included
 region
 WHEN
-getTopSites
+getPinnedSites
 is
 called
 THEN
@@ -817,11 +817,11 @@ createBinding
 (
 )
 val
-topSites
+pinnedSites
 =
 binding
 .
-getTopSites
+getPinnedSites
 (
 region
 =
@@ -832,7 +832,7 @@ US
 assertEquals
 (
 7
-topSites
+pinnedSites
 .
 size
 )
@@ -843,7 +843,7 @@ US
 Region
 Site
 "
-topSites
+pinnedSites
 [
 0
 ]
@@ -864,7 +864,7 @@ example1
 com
 /
 "
-topSites
+pinnedSites
 [
 0
 ]
@@ -879,7 +879,7 @@ Excluded
 Region
 Site
 "
-topSites
+pinnedSites
 [
 1
 ]
@@ -900,7 +900,7 @@ example2
 com
 /
 "
-topSites
+pinnedSites
 [
 1
 ]
@@ -914,7 +914,7 @@ All
 Region
 Site
 "
-topSites
+pinnedSites
 [
 2
 ]
@@ -935,7 +935,7 @@ example3
 com
 /
 "
-topSites
+pinnedSites
 [
 2
 ]
@@ -951,7 +951,7 @@ example4
 .
 com
 "
-topSites
+pinnedSites
 [
 3
 ]
@@ -972,7 +972,7 @@ example4
 com
 /
 "
-topSites
+pinnedSites
 [
 3
 ]
@@ -988,7 +988,7 @@ example5
 .
 com
 "
-topSites
+pinnedSites
 [
 4
 ]
@@ -1009,7 +1009,7 @@ example5
 com
 /
 "
-topSites
+pinnedSites
 [
 4
 ]
@@ -1025,7 +1025,7 @@ example6
 .
 com
 "
-topSites
+pinnedSites
 [
 5
 ]
@@ -1046,7 +1046,7 @@ example6
 com
 /
 "
-topSites
+pinnedSites
 [
 5
 ]
@@ -1062,7 +1062,7 @@ example7
 .
 com
 "
-topSites
+pinnedSites
 [
 6
 ]
@@ -1083,7 +1083,7 @@ example7
 com
 /
 "
-topSites
+pinnedSites
 [
 6
 ]
@@ -1101,7 +1101,7 @@ an
 excluded
 region
 WHEN
-getTopSites
+getPinnedSites
 is
 called
 THEN
@@ -1128,11 +1128,11 @@ createBinding
 (
 )
 val
-topSites
+pinnedSites
 =
 binding
 .
-getTopSites
+getPinnedSites
 (
 region
 =
@@ -1143,7 +1143,7 @@ CA
 assertEquals
 (
 5
-topSites
+pinnedSites
 .
 size
 )
@@ -1154,7 +1154,7 @@ All
 Region
 Site
 "
-topSites
+pinnedSites
 [
 0
 ]
@@ -1175,7 +1175,7 @@ example3
 com
 /
 "
-topSites
+pinnedSites
 [
 0
 ]
@@ -1191,7 +1191,7 @@ example4
 .
 com
 "
-topSites
+pinnedSites
 [
 1
 ]
@@ -1212,7 +1212,7 @@ example4
 com
 /
 "
-topSites
+pinnedSites
 [
 1
 ]
@@ -1228,7 +1228,7 @@ example5
 .
 com
 "
-topSites
+pinnedSites
 [
 2
 ]
@@ -1249,7 +1249,7 @@ example5
 com
 /
 "
-topSites
+pinnedSites
 [
 2
 ]
@@ -1265,7 +1265,7 @@ example6
 .
 com
 "
-topSites
+pinnedSites
 [
 3
 ]
@@ -1286,7 +1286,7 @@ example6
 com
 /
 "
-topSites
+pinnedSites
 [
 3
 ]
@@ -1302,7 +1302,7 @@ example7
 .
 com
 "
-topSites
+pinnedSites
 [
 4
 ]
@@ -1323,7 +1323,7 @@ example7
 com
 /
 "
-topSites
+pinnedSites
 [
 4
 ]
@@ -1339,7 +1339,7 @@ default
 region
 region
 WHEN
-getTopSites
+getPinnedSites
 is
 called
 THEN
@@ -1365,11 +1365,11 @@ createBinding
 (
 )
 val
-topSites
+pinnedSites
 =
 binding
 .
-getTopSites
+getPinnedSites
 (
 region
 =
@@ -1380,7 +1380,7 @@ XX
 assertEquals
 (
 6
-topSites
+pinnedSites
 .
 size
 )
@@ -1392,7 +1392,7 @@ Excluded
 Region
 Site
 "
-topSites
+pinnedSites
 [
 0
 ]
@@ -1413,7 +1413,7 @@ example2
 com
 /
 "
-topSites
+pinnedSites
 [
 0
 ]
@@ -1427,7 +1427,7 @@ All
 Region
 Site
 "
-topSites
+pinnedSites
 [
 1
 ]
@@ -1448,7 +1448,7 @@ example3
 com
 /
 "
-topSites
+pinnedSites
 [
 1
 ]
@@ -1464,7 +1464,7 @@ example4
 .
 com
 "
-topSites
+pinnedSites
 [
 2
 ]
@@ -1485,7 +1485,7 @@ example4
 com
 /
 "
-topSites
+pinnedSites
 [
 2
 ]
@@ -1501,7 +1501,7 @@ example5
 .
 com
 "
-topSites
+pinnedSites
 [
 3
 ]
@@ -1522,7 +1522,7 @@ example5
 com
 /
 "
-topSites
+pinnedSites
 [
 3
 ]
@@ -1538,7 +1538,7 @@ example6
 .
 com
 "
-topSites
+pinnedSites
 [
 4
 ]
@@ -1559,7 +1559,7 @@ example6
 com
 /
 "
-topSites
+pinnedSites
 [
 4
 ]
@@ -1575,7 +1575,7 @@ example7
 .
 com
 "
-topSites
+pinnedSites
 [
 5
 ]
@@ -1596,7 +1596,7 @@ example7
 com
 /
 "
-topSites
+pinnedSites
 [
 5
 ]
@@ -1613,7 +1613,7 @@ resource
 is
 missing
 WHEN
-getTopSites
+getPinnedSites
 is
 called
 THEN
@@ -1641,7 +1641,7 @@ R
 .
 raw
 .
-initial_shortcuts
+default_pinned_shortcuts
 )
 }
 throws
@@ -1657,11 +1657,11 @@ createBinding
 (
 )
 val
-topSites
+pinnedSites
 =
 binding
 .
-getTopSites
+getPinnedSites
 (
 region
 =
@@ -1671,7 +1671,7 @@ XX
 )
 assertTrue
 (
-topSites
+pinnedSites
 .
 isEmpty
 (
@@ -1738,7 +1738,7 @@ GIVEN
 invalid
 json
 WHEN
-getTopSites
+getPinnedSites
 is
 called
 THEN
@@ -1824,7 +1824,7 @@ R
 .
 raw
 .
-initial_shortcuts
+default_pinned_shortcuts
 )
 }
 returns
@@ -1843,11 +1843,11 @@ createBinding
 (
 )
 val
-topSites
+pinnedSites
 =
 binding
 .
-getTopSites
+getPinnedSites
 (
 region
 =
@@ -1857,7 +1857,7 @@ XX
 )
 assertTrue
 (
-topSites
+pinnedSites
 .
 isEmpty
 (
@@ -1922,7 +1922,7 @@ GIVEN
 malformed
 json
 WHEN
-getTopSites
+getPinnedSites
 is
 called
 THEN
@@ -1964,7 +1964,7 @@ R
 .
 raw
 .
-initial_shortcuts
+default_pinned_shortcuts
 )
 }
 returns
@@ -1983,11 +1983,11 @@ createBinding
 (
 )
 val
-topSites
+pinnedSites
 =
 binding
 .
-getTopSites
+getPinnedSites
 (
 region
 =
@@ -1997,7 +1997,7 @@ XX
 )
 assertTrue
 (
-topSites
+pinnedSites
 .
 isEmpty
 (
@@ -2067,7 +2067,7 @@ Boolean
 true
 )
 =
-DefaultTopSitesBinding
+DefaultPinnedSitesBinding
 (
 browserStore
 =

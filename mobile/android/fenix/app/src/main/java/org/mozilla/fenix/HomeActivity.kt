@@ -1695,7 +1695,7 @@ home
 .
 topsites
 .
-DefaultTopSitesBinding
+DefaultPinnedSitesBinding
 import
 org
 .
@@ -2367,11 +2367,11 @@ lifecycleScope
 }
 private
 val
-defaultTopSitesBinding
+defaultPinnedSitesBinding
 by
 lazy
 {
-DefaultTopSitesBinding
+DefaultPinnedSitesBinding
 (
 browserStore
 =
@@ -4019,7 +4019,7 @@ extensionsProcessDisabledForegroundController
 extensionsProcessDisabledBackgroundController
 serviceWorkerSupport
 crashReporterBinding
-defaultTopSitesBinding
+defaultPinnedSitesBinding
 TopSitesRefresher
 (
 settings
