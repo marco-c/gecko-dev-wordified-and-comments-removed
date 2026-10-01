@@ -1249,7 +1249,7 @@ autofunction
 :
 test_driver
 .
-set_global_privacy_control
+get_global_privacy_control
 .
 .
 js
