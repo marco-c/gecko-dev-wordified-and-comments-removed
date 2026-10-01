@@ -1418,6 +1418,9 @@ ScrollBehavior
 "
 Isolation
 "
+"
+BackfaceVisibility
+"
 ]
 item_types
 =
