@@ -4767,6 +4767,11 @@ units
 units_rust_unit_tests
 "
 "
+rtc_base
+:
+rust_unit_tests
+"
+"
 rust
 /
 webrtc_import
