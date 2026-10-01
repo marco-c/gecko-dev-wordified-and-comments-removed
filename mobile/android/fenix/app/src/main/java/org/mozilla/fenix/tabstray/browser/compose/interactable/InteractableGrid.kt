@@ -1365,12 +1365,6 @@ drag
 .
 *
 /
-Suppress
-(
-"
-LongParameterList
-"
-)
 class
 GridInteractionStateImpl
 internal

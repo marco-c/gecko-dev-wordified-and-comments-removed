@@ -378,9 +378,6 @@ Suppress
 "
 TooManyFunctions
 "
-"
-LongParameterList
-"
 )
 class
 DefaultRecentlyClosedController

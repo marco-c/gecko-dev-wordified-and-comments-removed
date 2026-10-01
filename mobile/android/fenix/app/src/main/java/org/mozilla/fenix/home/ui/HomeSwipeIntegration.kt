@@ -454,12 +454,6 @@ swiping
 .
 *
 /
-Suppress
-(
-"
-LongParameterList
-"
-)
 class
 HomeSwipeIntegration
 (

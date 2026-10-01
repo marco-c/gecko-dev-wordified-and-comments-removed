@@ -2312,12 +2312,6 @@ dismissed
 .
 *
 /
-Suppress
-(
-"
-LongParameterList
-"
-)
 class
 TimeSelection
 (

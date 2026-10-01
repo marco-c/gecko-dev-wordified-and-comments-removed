@@ -395,12 +395,6 @@ SyncedTabsInteractor
 .
 *
 /
-Suppress
-(
-"
-LongParameterList
-"
-)
 class
 SyncedTabsFeature
 (

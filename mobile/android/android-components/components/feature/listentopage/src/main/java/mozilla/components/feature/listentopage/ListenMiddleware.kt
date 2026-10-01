@@ -712,12 +712,6 @@ chunks
 .
 *
 /
-Suppress
-(
-"
-LongParameterList
-"
-)
 class
 ListenMiddleware
 (

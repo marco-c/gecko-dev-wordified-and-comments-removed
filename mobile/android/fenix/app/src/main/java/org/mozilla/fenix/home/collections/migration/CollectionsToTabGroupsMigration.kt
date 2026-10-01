@@ -489,12 +489,6 @@ progress
 .
 *
 /
-Suppress
-(
-"
-LongParameterList
-"
-)
 class
 CollectionsToTabGroupsMigration
 (

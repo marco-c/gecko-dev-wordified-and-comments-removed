@@ -247,12 +247,6 @@ History
 List
 *
 /
-Suppress
-(
-"
-LongParameterList
-"
-)
 class
 HistoryView
 (

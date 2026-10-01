@@ -393,12 +393,6 @@ clicked
 .
 *
 /
-Suppress
-(
-"
-LongParameterList
-"
-)
 class
 BrowserMenuImageTextCheckboxButton
 (

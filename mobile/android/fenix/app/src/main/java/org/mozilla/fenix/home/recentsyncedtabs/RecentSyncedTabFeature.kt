@@ -480,12 +480,6 @@ testing
 .
 *
 /
-Suppress
-(
-"
-LongParameterList
-"
-)
 class
 RecentSyncedTabFeature
 (

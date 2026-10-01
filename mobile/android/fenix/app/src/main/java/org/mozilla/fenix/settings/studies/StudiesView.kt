@@ -302,12 +302,6 @@ fenix
 utils
 .
 Settings
-Suppress
-(
-"
-LongParameterList
-"
-)
 class
 StudiesView
 (

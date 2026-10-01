@@ -712,12 +712,6 @@ com
 .
 *
 /
-Suppress
-(
-"
-LongParameterList
-"
-)
 class
 MenuNavigationMiddleware
 (

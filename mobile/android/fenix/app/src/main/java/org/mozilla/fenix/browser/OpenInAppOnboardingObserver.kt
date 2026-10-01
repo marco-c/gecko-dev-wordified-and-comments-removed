@@ -292,12 +292,6 @@ app
 .
 *
 /
-Suppress
-(
-"
-LongParameterList
-"
-)
 class
 OpenInAppOnboardingObserver
 (

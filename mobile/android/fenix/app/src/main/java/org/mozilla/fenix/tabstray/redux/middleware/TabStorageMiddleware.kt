@@ -832,9 +832,6 @@ Suppress
 "
 LargeClass
 "
-"
-LongParameterList
-"
 )
 class
 TabStorageMiddleware

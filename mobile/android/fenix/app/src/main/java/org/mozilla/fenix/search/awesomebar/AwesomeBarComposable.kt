@@ -1079,12 +1079,6 @@ enabled
 .
 *
 /
-Suppress
-(
-"
-LongParameterList
-"
-)
 class
 AwesomeBarComposable
 (

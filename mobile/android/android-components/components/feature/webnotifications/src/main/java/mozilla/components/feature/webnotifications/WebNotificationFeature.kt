@@ -418,12 +418,6 @@ checks
 .
 *
 /
-Suppress
-(
-"
-LongParameterList
-"
-)
 class
 WebNotificationFeature
 (

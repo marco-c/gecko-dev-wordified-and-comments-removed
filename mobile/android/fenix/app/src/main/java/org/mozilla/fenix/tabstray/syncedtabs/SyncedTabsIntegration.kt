@@ -377,12 +377,6 @@ jobs
 .
 *
 /
-Suppress
-(
-"
-LongParameterList
-"
-)
 class
 SyncedTabsIntegration
 (

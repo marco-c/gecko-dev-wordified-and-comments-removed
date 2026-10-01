@@ -1150,12 +1150,6 @@ item
 .
 *
 /
-Suppress
-(
-"
-LongParameterList
-"
-)
 class
 ListInteractionStateImpl
 internal

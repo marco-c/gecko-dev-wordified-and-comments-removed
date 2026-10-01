@@ -305,12 +305,6 @@ visibility
 .
 *
 /
-Suppress
-(
-"
-LongParameterList
-"
-)
 class
 FullScreenIntegration
 (

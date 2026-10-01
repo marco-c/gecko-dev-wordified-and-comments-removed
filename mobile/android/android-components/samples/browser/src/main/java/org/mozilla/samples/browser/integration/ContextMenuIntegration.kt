@@ -305,9 +305,6 @@ FragmentBrowserBinding
 Suppress
 (
 "
-LongParameterList
-"
-"
 UndocumentedPublicClass
 "
 )

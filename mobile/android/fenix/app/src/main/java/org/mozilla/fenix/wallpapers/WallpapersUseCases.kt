@@ -291,12 +291,6 @@ cover
 .
 *
 /
-Suppress
-(
-"
-LongParameterList
-"
-)
 class
 WallpapersUseCases
 (
@@ -661,12 +655,6 @@ invoke
 (
 )
 }
-Suppress
-(
-"
-LongParameterList
-"
-)
 VisibleForTesting
 (
 otherwise

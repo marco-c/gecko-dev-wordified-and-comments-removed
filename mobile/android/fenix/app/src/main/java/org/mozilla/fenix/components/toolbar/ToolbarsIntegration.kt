@@ -372,12 +372,6 @@ reset
 .
 *
 /
-Suppress
-(
-"
-LongParameterList
-"
-)
 class
 ToolbarsIntegration
 (

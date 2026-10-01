@@ -437,9 +437,6 @@ LargeClass
 "
 TooManyFunctions
 "
-"
-LongParameterList
-"
 )
 class
 ToolbarHorizontalGesturesHandler

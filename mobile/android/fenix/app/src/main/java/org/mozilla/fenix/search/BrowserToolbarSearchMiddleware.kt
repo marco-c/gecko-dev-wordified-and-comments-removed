@@ -1684,12 +1684,6 @@ suggestions
 .
 *
 /
-Suppress
-(
-"
-LongParameterList
-"
-)
 class
 BrowserToolbarSearchMiddleware
 (

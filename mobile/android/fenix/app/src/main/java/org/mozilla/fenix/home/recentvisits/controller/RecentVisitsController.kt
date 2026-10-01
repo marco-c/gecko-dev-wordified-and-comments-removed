@@ -465,12 +465,6 @@ RecentVisitsController
 .
 *
 /
-Suppress
-(
-"
-LongParameterList
-"
-)
 class
 DefaultRecentVisitsController
 (

@@ -236,12 +236,6 @@ fenix
 utils
 .
 Settings
-Suppress
-(
-"
-LongParameterList
-"
-)
 internal
 class
 DataChoicesMiddleware

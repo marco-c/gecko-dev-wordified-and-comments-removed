@@ -324,12 +324,6 @@ components
 .
 *
 /
-Suppress
-(
-"
-LongParameterList
-"
-)
 class
 IPProtection
 (

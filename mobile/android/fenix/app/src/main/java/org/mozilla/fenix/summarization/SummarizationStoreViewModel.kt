@@ -444,12 +444,6 @@ service
 .
 *
 /
-Suppress
-(
-"
-LongParameterList
-"
-)
 class
 SummarizationStoreViewModel
 (

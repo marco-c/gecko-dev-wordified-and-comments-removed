@@ -302,12 +302,6 @@ components
 .
 *
 /
-Suppress
-(
-"
-LongParameterList
-"
-)
 class
 IntentProcessors
 (

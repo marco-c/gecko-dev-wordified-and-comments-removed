@@ -179,7 +179,6 @@ Settings
 /
 *
 *
-*
 The
 [
 Store
@@ -244,12 +243,6 @@ middleware
 middleware
 )
 {
-Suppress
-(
-"
-LongParameterList
-"
-)
 constructor
 (
 isTrackingProtectionEnabled
@@ -354,7 +347,6 @@ middleware
 /
 *
 *
-*
 Companion
 containing
 methods
@@ -390,9 +382,9 @@ by
 the
 Protection
 Panel
-*
 containing
 the
+*
 permissions
 requested
 by
@@ -437,9 +429,9 @@ determine
 whether
 a
 permission
-*
 should
 be
+*
 brought
 to
 the
@@ -460,7 +452,6 @@ a
 permission
 is
 blocked
-*
 by
 Android
 .
@@ -963,7 +954,6 @@ WebsitePermissionsState
 based
 on
 the
-*
 specific
 [
 TrustPanelAction
