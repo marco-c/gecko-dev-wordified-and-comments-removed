@@ -676,6 +676,11 @@ showStoriesButton
 {
 StoriesButton
 (
+color
+=
+WallpaperTheme
+.
+onWallpaper
 onClick
 =
 onStoriesTapped
@@ -727,6 +732,9 @@ private
 fun
 StoriesButton
 (
+color
+:
+Color
 onClick
 :
 (
@@ -748,6 +756,9 @@ null
 {
 Icon
 (
+tint
+=
+color
 painter
 =
 painterResource
