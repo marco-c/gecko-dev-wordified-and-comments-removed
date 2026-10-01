@@ -32,6 +32,10 @@ intermediate_representation
 ;
 pub
 mod
+lints
+;
+pub
+mod
 parser
 ;
 pub

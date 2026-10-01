@@ -23,11 +23,7 @@ anyhow
 Result
 ;
 use
-logins
-:
-:
-{
-encryption
+db_crypto
 :
 :
 {
@@ -35,6 +31,12 @@ create_key
 ManagedEncryptorDecryptor
 StaticKeyManager
 }
+;
+use
+logins
+:
+:
+{
 ApiResult
 as
 LoginResult

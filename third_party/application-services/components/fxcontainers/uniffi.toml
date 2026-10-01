@@ -1,0 +1,17 @@
+[
+bindings
+.
+kotlin
+]
+package_name
+=
+"
+mozilla
+.
+appservices
+.
+fxcontainers
+"
+omit_checksums
+=
+true
