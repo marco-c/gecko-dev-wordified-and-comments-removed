@@ -1407,6 +1407,13 @@ hfsplus
 liblzma
 -
 dev
+#
+For
+hfsplus
+-
+uuid
+-
+dev
 linux64
 -
 aarch64
