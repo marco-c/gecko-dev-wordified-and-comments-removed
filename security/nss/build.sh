@@ -1270,6 +1270,8 @@ Dct_verif
 -
 nspr
 )
+nspr_clean
+;
 rebuild_nspr
 =
 1
@@ -2446,17 +2448,6 @@ nspr_ldflags
 Q
 "
 nspr_ldflags
-"
-)
-"
-\
-nspr_opt
-=
-"
-(
-Q
-"
-nspr_opt
 "
 )
 "

@@ -556,7 +556,7 @@ cached
 )
 )
 ;
-PORT_ReleaseAssert
+PORT_Assert
 (
 sid
 -
@@ -567,7 +567,7 @@ references
 0
 )
 ;
-PORT_ReleaseAssert
+PORT_Assert
 (
 sid
 -
@@ -816,7 +816,7 @@ sslSessionID
 sid
 )
 {
-PORT_ReleaseAssert
+PORT_Assert
 (
 sid
 -
@@ -882,16 +882,6 @@ sid
 )
 {
 LOCK_CACHE
-;
-PORT_ReleaseAssert
-(
-sid
--
->
-references
->
-0
-)
 ;
 sid
 -

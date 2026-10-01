@@ -1326,7 +1326,7 @@ Disable
 ExpectAlert
 (
 server_
-kTlsAlertIllegalParameter
+kTlsAlertDecodeError
 )
 ;
 client_
@@ -1334,7 +1334,7 @@ client_
 >
 ExpectReceiveAlert
 (
-kTlsAlertIllegalParameter
+kTlsAlertDecodeError
 )
 ;
 server_
@@ -1378,7 +1378,7 @@ client_
 >
 CheckErrorCode
 (
-SSL_ERROR_ILLEGAL_PARAMETER_ALERT
+SSL_ERROR_DECODE_ERROR_ALERT
 )
 ;
 client_
@@ -4514,7 +4514,7 @@ Disable
 ExpectAlert
 (
 server_
-kTlsAlertIllegalParameter
+kTlsAlertDecodeError
 )
 ;
 client_
@@ -4522,7 +4522,7 @@ client_
 >
 ExpectReceiveAlert
 (
-kTlsAlertIllegalParameter
+kTlsAlertDecodeError
 )
 ;
 server_
@@ -4566,7 +4566,7 @@ client_
 >
 CheckErrorCode
 (
-SSL_ERROR_ILLEGAL_PARAMETER_ALERT
+SSL_ERROR_DECODE_ERROR_ALERT
 )
 ;
 CheckEpochs

@@ -247,9 +247,6 @@ attributes
 retrigger
 :
 true
-tsan
-:
-false
 treeherder
 :
 kind

@@ -1995,7 +1995,7 @@ SSL_BUFFER_EMPTY
 PRUint8
 tmpBuf
 [
-133
+66
 ]
 ;
 unsigned
