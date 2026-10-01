@@ -306,3 +306,11 @@ config
 mozbuild
 "
 )
+LICENSED_UNDER
++
+=
+[
+"
+unicode
+"
+]
