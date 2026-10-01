@@ -336,6 +336,17 @@ ops
 )
 ;
 breakdown
+.
+add_blocker
+(
+&
+self
+.
+blocker
+ops
+)
+;
+breakdown
 }
 }
 impl
