@@ -1496,6 +1496,9 @@ FlexDirection
 "
 BoxSizing
 "
+"
+ObjectFit
+"
 ]
 item_types
 =
