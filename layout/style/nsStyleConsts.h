@@ -373,16 +373,6 @@ BreakSpaces
 ;
 enum
 class
-StyleWindowShadow
-:
-uint8_t
-{
-Auto
-None
-}
-;
-enum
-class
 StyleColorInterpolation
 :
 uint8_t
