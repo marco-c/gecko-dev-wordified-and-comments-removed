@@ -1332,7 +1332,7 @@ AacCodecSpecificData
 )
 )
 ;
-EXPECT_EQ
+EXPECT_TRUE
 (
 audioInfo
 -
@@ -1347,7 +1347,10 @@ AacCodecSpecificData
 )
 .
 mMediaFrameCount
-0u
+.
+isNothing
+(
+)
 )
 ;
 RefPtr

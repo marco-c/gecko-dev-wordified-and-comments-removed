@@ -1064,10 +1064,11 @@ encoderDelayFrameCount
 )
 ;
 }
+Maybe
+<
 uint64_t
+>
 mediaFrameCount
-=
-0
 ;
 if
 (
@@ -1161,7 +1162,9 @@ index
 ;
 }
 mediaFrameCount
-=
+.
+emplace
+(
 lastIndice
 .
 end_composition
@@ -1169,6 +1172,7 @@ end_composition
 firstIndice
 .
 start_composition
+)
 ;
 LOG
 (
@@ -1187,6 +1191,10 @@ is
 frames
 "
 mediaFrameCount
+.
+value
+(
+)
 )
 ;
 }
