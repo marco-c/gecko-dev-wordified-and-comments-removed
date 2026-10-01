@@ -42,6 +42,11 @@ blank
 html
 "
 "
+file_reload_subframe_history
+.
+html
+"
+"
 redirect_to_blank
 .
 sjs
@@ -71,6 +76,13 @@ js
 [
 "
 browser_ghistorymaxsize_is_0
+.
+js
+"
+]
+[
+"
+browser_reload_subframe_history
 .
 js
 "
