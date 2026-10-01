@@ -101,9 +101,6 @@ Yes
 }
 }
 class
-nsNodeInfoManager
-;
-class
 AttrArray
 {
 using
@@ -428,14 +425,6 @@ const
 void
 Compact
 (
-)
-;
-void
-NodeInfoChanged
-(
-nsNodeInfoManager
-*
-aManager
 )
 ;
 size_t

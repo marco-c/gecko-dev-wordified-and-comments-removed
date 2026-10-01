@@ -373,12 +373,12 @@ return
 mContent
 ;
 }
-void
-AdoptCachedAttributes
+nsresult
+SetOwnerDocument
 (
-nsNodeInfoManager
+Document
 *
-aManager
+aDocument
 )
 ;
 void
