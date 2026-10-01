@@ -81,6 +81,16 @@ mozilla
 .
 fenix
 .
+customannotations
+.
+Critical
+import
+org
+.
+mozilla
+.
+fenix
+.
 ui
 .
 efficiency
@@ -298,6 +308,7 @@ cases
 view
 /
 3132639
+Critical
 Test
 fun
 verifyAboutFirefoxMenuAppDetailsItemTest
