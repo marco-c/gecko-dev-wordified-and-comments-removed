@@ -57,7 +57,7 @@ transport_lcppsrcs
 =
 [
 "
-dtlsidentity
+dtlsdigest
 .
 cpp
 "
@@ -83,6 +83,11 @@ cpp
 "
 "
 nr_timer
+.
+cpp
+"
+"
+nricecandidate
 .
 cpp
 "

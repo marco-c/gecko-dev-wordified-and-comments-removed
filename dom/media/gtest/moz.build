@@ -477,6 +477,11 @@ TestRemoteImageHolder
 cpp
 "
 "
+TestRTCCertStore
+.
+cpp
+"
+"
 TestRust
 .
 cpp
