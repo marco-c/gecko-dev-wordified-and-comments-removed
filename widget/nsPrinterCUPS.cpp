@@ -46,6 +46,13 @@ h
 #
 include
 "
+nsCharSeparatedTokenizer
+.
+h
+"
+#
+include
+"
 nsPaper
 .
 h

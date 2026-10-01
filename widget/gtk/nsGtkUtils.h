@@ -11,6 +11,11 @@ glib
 .
 h
 >
+#
+include
+<
+cstdint
+>
 template
 <
 class

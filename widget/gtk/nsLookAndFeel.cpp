@@ -267,6 +267,13 @@ h
 #
 include
 "
+nsCharSeparatedTokenizer
+.
+h
+"
+#
+include
+"
 nsGtkUtils
 .
 h
@@ -6733,9 +6740,9 @@ desc
 aFontStyle
 -
 >
-stretch
+width
 =
-FontStretch
+FontWidth
 :
 :
 NORMAL

@@ -7,6 +7,13 @@ _mozilla_widget_GfxDriverInfo_h_
 #
 include
 "
+nsCharSeparatedTokenizer
+.
+h
+"
+#
+include
+"
 nsString
 .
 h

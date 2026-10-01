@@ -11,6 +11,13 @@ gfxTypes
 .
 h
 "
+#
+include
+"
+nsTString
+.
+h
+"
 namespace
 mozilla
 {

@@ -14,6 +14,13 @@ h
 #
 include
 "
+InputData
+.
+h
+"
+#
+include
+"
 Units
 .
 h
@@ -70,9 +77,6 @@ nsRefreshDriver
 namespace
 mozilla
 {
-class
-PanGestureInput
-;
 class
 SwipeTracker
 final
