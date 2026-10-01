@@ -100,15 +100,7 @@ nsIFrame
 *
 aFrame
 )
-{
-mFrames
-.
-Add
-(
-aFrame
-)
 ;
-}
 void
 RemoveFrame
 (
