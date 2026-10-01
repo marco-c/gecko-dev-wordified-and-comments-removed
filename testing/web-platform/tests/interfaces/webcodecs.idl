@@ -631,6 +631,8 @@ preference
 ;
 boolean
 optimizeForLatency
+=
+false
 ;
 double
 rotation

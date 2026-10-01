@@ -75,6 +75,15 @@ enum
 GPUFeatureName
 {
 "
+atomic
+-
+vec2u
+-
+min
+-
+max
+"
+"
 core
 -
 features

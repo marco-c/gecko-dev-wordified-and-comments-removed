@@ -418,6 +418,7 @@ length
 ;
 getter
 SpeechRecognitionAlternative
+?
 item
 (
 unsigned
@@ -461,6 +462,7 @@ length
 ;
 getter
 SpeechRecognitionResult
+?
 item
 (
 unsigned
@@ -632,6 +634,7 @@ length
 ;
 getter
 SpeechGrammar
+?
 item
 (
 unsigned
@@ -640,7 +643,7 @@ index
 )
 ;
 undefined
-addFromUri
+addFromURI
 (
 DOMString
 src
