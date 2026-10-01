@@ -160,7 +160,7 @@ aIndex
 )
 ;
 void
-AddFromUri
+AddFromURI
 (
 const
 nsAString
@@ -173,6 +173,9 @@ float
 >
 &
 aWeight
+ErrorResult
+&
+aRv
 )
 ;
 void
@@ -189,6 +192,9 @@ float
 >
 &
 aWeight
+ErrorResult
+&
+aRv
 )
 ;
 already_AddRefed
