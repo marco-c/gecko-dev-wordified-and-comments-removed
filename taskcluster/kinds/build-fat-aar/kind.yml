@@ -776,15 +776,6 @@ nightly
 fat
 -
 aar
-extra
--
-config
-:
-mozconfig_platform
-:
-android
--
-arm
 tooltool
 -
 downloads

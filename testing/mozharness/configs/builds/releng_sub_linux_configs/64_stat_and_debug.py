@@ -204,4 +204,26 @@ sbin
 "
     
 }
+    
+"
+mozconfig_platform
+"
+:
+"
+linux64
+"
+    
+"
+mozconfig_variant
+"
+:
+"
+debug
+-
+static
+-
+analysis
+-
+clang
+"
 }

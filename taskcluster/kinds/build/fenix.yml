@@ -433,13 +433,6 @@ aarch64
 fenix
 -
 debug
-mozconfig
--
-variant
-:
-fenix
--
-debug
 use
 -
 sccache

@@ -165,4 +165,12 @@ sbin
 "
     
 }
+    
+"
+mozconfig_variant
+"
+:
+"
+valgrind
+"
 }

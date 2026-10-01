@@ -64,6 +64,22 @@ s
 }
     
 "
+src_mozconfig
+"
+:
+"
+browser
+/
+config
+/
+mozconfigs
+/
+linux64
+/
+source
+"
+    
+"
 upload_env
 "
 :

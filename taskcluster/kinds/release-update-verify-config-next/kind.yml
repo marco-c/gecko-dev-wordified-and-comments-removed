@@ -229,7 +229,7 @@ sparse
 -
 profile
 :
-mach
+mozharness
 treeherder
 :
 symbol

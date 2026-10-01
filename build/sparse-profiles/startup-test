@@ -6,7 +6,7 @@ sparse
 -
 profiles
 /
-mach
+mozharness
 [
 include
 ]
@@ -22,12 +22,4 @@ taskcluster
 scripts
 /
 misc
-/
-path
-:
-taskcluster
-/
-scripts
-/
-tests
 /

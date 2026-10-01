@@ -9,7 +9,9 @@ unittest
 import
 mozunit
 from
-mozrelease
+mozharness
+.
+mozilla
 .
 merkle
 import
