@@ -635,6 +635,13 @@ py
 ]
 [
 "
+test_rust_commands
+.
+py
+"
+]
+[
+"
 test_site_dependency_extractor
 .
 py
