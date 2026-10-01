@@ -133,8 +133,6 @@ browser
 locales
 ifdef
 MAKENSISU
-ifndef
-MOZ_USE_MAKEFILE_INSTALLER_BUILD
 INSTALLER_REPACK_DEPS
 =
 browser
@@ -148,7 +146,6 @@ nsis
 stage
 .
 stamp
-endif
 endif
 installers
 -

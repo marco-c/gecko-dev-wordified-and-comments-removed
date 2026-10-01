@@ -410,15 +410,6 @@ topsrcdir
 mach
 -
 -
-make
-=
-'
-(
-MAKE
-)
-'
--
--
 l10n
 -
 stage

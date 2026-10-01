@@ -2,13 +2,6 @@
 filter
 substitution
 #
-include
-TOPOBJDIR
-/
-buildid
-.
-h
-#
 This
 Source
 Code
@@ -186,12 +179,6 @@ define
 AB_CD
 "
 AB_CD
-"
-!
-define
-MOZ_BUILDID
-"
-MOZ_BUILDID
 "
 !
 define
