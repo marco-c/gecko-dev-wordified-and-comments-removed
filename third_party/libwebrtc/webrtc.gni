@@ -3074,6 +3074,10 @@ rtc_cc_test
 configs
 =
 rtc_add_configs
+suppressed_configs
+=
+[
+]
 }
 set_defaults
 (
@@ -8538,12 +8542,6 @@ invoker
 *
 "
 [
-"
-public_configs
-"
-"
-suppressed_configs
-"
 "
 deps
 "
