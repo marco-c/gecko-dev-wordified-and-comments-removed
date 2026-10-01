@@ -1800,6 +1800,14 @@ GlobalObject
 )
 ;
 static
+double
+AwakeNow
+(
+GlobalObject
+&
+)
+;
+static
 void
 EnsureJSOracleStarted
 (
