@@ -593,11 +593,8 @@ sorted
 profile
         
 for
-profile
+pattern
 in
-profile_dir
-.
-glob
 (
 "
 profile_
@@ -605,6 +602,24 @@ profile_
 .
 json
 "
+"
+profile_
+*
+.
+json
+.
+gz
+"
+)
+        
+for
+profile
+in
+profile_dir
+.
+glob
+(
+pattern
 )
         
 if
