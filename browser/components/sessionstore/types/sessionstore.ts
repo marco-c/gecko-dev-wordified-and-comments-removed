@@ -150,17 +150,3 @@ mjs
 .
 SavedTabGroupStateData
 ;
-interface
-MozTabbrowserTab
-{
-__test_connection_prepared
-?
-:
-boolean
-;
-__test_connection_url
-?
-:
-string
-;
-}
