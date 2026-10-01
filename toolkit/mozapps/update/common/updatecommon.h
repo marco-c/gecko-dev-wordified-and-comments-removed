@@ -121,6 +121,8 @@ protected
 UpdateLog
 (
 )
+=
+default
 ;
 void
 PrintTimestampPrefix
@@ -130,6 +132,8 @@ PrintTimestampPrefix
 FILE
 *
 logFP
+=
+nullptr
 ;
 NS_tchar
 mDstFilePath
@@ -173,6 +177,15 @@ const
 NS_tchar
 *
 message
+)
+;
+bool
+EnvHasValue
+(
+const
+char
+*
+name
 )
 ;
 #
