@@ -22,6 +22,8 @@ content
 /
 test
 /
+browser
+-
 favicons
 /
 "

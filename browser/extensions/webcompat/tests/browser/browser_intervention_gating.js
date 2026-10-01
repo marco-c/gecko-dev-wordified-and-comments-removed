@@ -3224,6 +3224,8 @@ com
 /
 *
 /
+browser
+-
 static
 /
 download_page
@@ -3245,6 +3247,8 @@ com
 /
 *
 /
+browser
+-
 static
 /
 *
@@ -3742,6 +3746,8 @@ content
 /
 test
 /
+browser
+-
 static
 /
 dummy_page
@@ -3894,6 +3900,8 @@ content
 /
 test
 /
+browser
+-
 static
 /
 download_page

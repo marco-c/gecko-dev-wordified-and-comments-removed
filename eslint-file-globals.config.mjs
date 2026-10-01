@@ -3603,6 +3603,8 @@ content
 /
 test
 /
+browser
+-
 performance
 /
 browser_startup_content

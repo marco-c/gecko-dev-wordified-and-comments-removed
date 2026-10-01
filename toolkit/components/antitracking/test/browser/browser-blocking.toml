@@ -255,6 +255,8 @@ content
 /
 test
 /
+browser
+-
 protectionsUI
 /
 cookieServer
@@ -272,6 +274,8 @@ content
 /
 test
 /
+browser
+-
 protectionsUI
 /
 trackingPage
@@ -289,6 +293,8 @@ content
 /
 test
 /
+browser
+-
 protectionsUI
 /
 trackingAPI
