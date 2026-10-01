@@ -1,3 +1,15 @@
+#
+!
+[
+cfg
+(
+feature
+=
+"
+sqlite
+"
+)
+]
 mod
 common
 ;

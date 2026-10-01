@@ -13,7 +13,7 @@ version
 "
 70
 .
-1
+2
 .
 0
 "
@@ -455,6 +455,9 @@ features
 bundled
 "
 ]
+optional
+=
+true
 }
 rmp
 -
@@ -750,4 +753,13 @@ mozbuild
 rustlib
 =
 [
+]
+sqlite
+=
+[
+"
+dep
+:
+rusqlite
+"
 ]

@@ -123,7 +123,7 @@ version
 "
 70
 .
-1
+2
 .
 0
 "
@@ -340,6 +340,15 @@ mozbuild
 rustlib
 =
 [
+]
+sqlite
+=
+[
+"
+dep
+:
+rusqlite
+"
 ]
 [
 lib
@@ -1119,6 +1128,9 @@ features
 bundled
 "
 ]
+optional
+=
+true
 [
 dependencies
 .

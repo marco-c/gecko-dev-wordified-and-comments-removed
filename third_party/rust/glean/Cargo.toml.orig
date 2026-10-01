@@ -11,7 +11,7 @@ version
 "
 70
 .
-1
+2
 .
 0
 "
@@ -186,7 +186,7 @@ version
 "
 70
 .
-1
+2
 .
 0
 "
@@ -359,5 +359,16 @@ core
 mozbuild
 -
 rustlib
+"
+]
+sqlite
+=
+[
+"
+glean
+-
+core
+/
+sqlite
 "
 ]
