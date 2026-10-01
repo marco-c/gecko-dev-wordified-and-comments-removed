@@ -588,7 +588,9 @@ derive
 Debug
 Hash
 PartialEq
+Eq
 Serialize
+Clone
 )
 ]
 pub
@@ -619,7 +621,9 @@ Debug
 Deserialize
 Hash
 PartialEq
+Eq
 Serialize
+Clone
 )
 ]
 pub
@@ -646,7 +650,9 @@ Debug
 Deserialize
 Hash
 PartialEq
+Eq
 Serialize
+Clone
 )
 ]
 pub

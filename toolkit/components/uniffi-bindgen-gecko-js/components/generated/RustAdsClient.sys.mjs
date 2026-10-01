@@ -4391,7 +4391,7 @@ e
 }
 try
 {
-FfiConverterString
+FfiConverterTypeAdsClientUrl
 .
 checkType
 (
@@ -4426,7 +4426,7 @@ e
 }
 try
 {
-FfiConverterString
+FfiConverterTypeAdsClientUrl
 .
 checkType
 (
@@ -4530,7 +4530,7 @@ format
 *
 type
 {
-string
+AdsClientUrl
 }
 *
 /
@@ -4546,7 +4546,7 @@ imageUrl
 *
 type
 {
-string
+AdsClientUrl
 }
 *
 /
@@ -4690,7 +4690,7 @@ dataStream
 )
 imageUrl
 :
-FfiConverterString
+FfiConverterTypeAdsClientUrl
 .
 read
 (
@@ -4698,7 +4698,7 @@ dataStream
 )
 url
 :
-FfiConverterString
+FfiConverterTypeAdsClientUrl
 .
 read
 (
@@ -4755,7 +4755,7 @@ value
 format
 )
 ;
-FfiConverterString
+FfiConverterTypeAdsClientUrl
 .
 write
 (
@@ -4765,7 +4765,7 @@ value
 imageUrl
 )
 ;
-FfiConverterString
+FfiConverterTypeAdsClientUrl
 .
 write
 (
@@ -4838,7 +4838,7 @@ format
 totalSize
 +
 =
-FfiConverterString
+FfiConverterTypeAdsClientUrl
 .
 computeSize
 (
@@ -4850,7 +4850,7 @@ imageUrl
 totalSize
 +
 =
-FfiConverterString
+FfiConverterTypeAdsClientUrl
 .
 computeSize
 (
@@ -5061,7 +5061,7 @@ e
 }
 try
 {
-FfiConverterString
+FfiConverterTypeAdsClientUrl
 .
 checkType
 (
@@ -5100,7 +5100,7 @@ e
 }
 try
 {
-FfiConverterString
+FfiConverterTypeAdsClientUrl
 .
 checkType
 (
@@ -8889,7 +8889,7 @@ e
 }
 try
 {
-FfiConverterString
+FfiConverterTypeAdsClientUrl
 .
 checkType
 (
@@ -9064,7 +9064,7 @@ e
 }
 try
 {
-FfiConverterString
+FfiConverterTypeAdsClientUrl
 .
 checkType
 (
@@ -9199,7 +9199,7 @@ format
 *
 type
 {
-string
+AdsClientUrl
 }
 *
 /
@@ -9280,7 +9280,7 @@ title
 *
 type
 {
-string
+AdsClientUrl
 }
 *
 /
@@ -9504,7 +9504,7 @@ dataStream
 )
 imageUrl
 :
-FfiConverterString
+FfiConverterTypeAdsClientUrl
 .
 read
 (
@@ -9544,7 +9544,7 @@ dataStream
 )
 url
 :
-FfiConverterString
+FfiConverterTypeAdsClientUrl
 .
 read
 (
@@ -9621,7 +9621,7 @@ value
 format
 )
 ;
-FfiConverterString
+FfiConverterTypeAdsClientUrl
 .
 write
 (
@@ -9671,7 +9671,7 @@ value
 title
 )
 ;
-FfiConverterString
+FfiConverterTypeAdsClientUrl
 .
 write
 (
@@ -9768,7 +9768,7 @@ format
 totalSize
 +
 =
-FfiConverterString
+FfiConverterTypeAdsClientUrl
 .
 computeSize
 (
@@ -9828,7 +9828,7 @@ title
 totalSize
 +
 =
-FfiConverterString
+FfiConverterTypeAdsClientUrl
 .
 computeSize
 (
@@ -10117,7 +10117,7 @@ e
 }
 try
 {
-FfiConverterString
+FfiConverterTypeAdsClientUrl
 .
 checkType
 (
@@ -10312,7 +10312,7 @@ e
 }
 try
 {
-FfiConverterString
+FfiConverterTypeAdsClientUrl
 .
 checkType
 (
@@ -10763,7 +10763,7 @@ e
 }
 try
 {
-FfiConverterString
+FfiConverterTypeAdsClientUrl
 .
 checkType
 (
@@ -10833,7 +10833,7 @@ e
 }
 try
 {
-FfiConverterString
+FfiConverterTypeAdsClientUrl
 .
 checkType
 (
@@ -10920,7 +10920,7 @@ format
 *
 type
 {
-string
+AdsClientUrl
 }
 *
 /
@@ -10952,7 +10952,7 @@ name
 *
 type
 {
-string
+AdsClientUrl
 }
 *
 /
@@ -11088,7 +11088,7 @@ dataStream
 )
 imageUrl
 :
-FfiConverterString
+FfiConverterTypeAdsClientUrl
 .
 read
 (
@@ -11104,7 +11104,7 @@ dataStream
 )
 url
 :
-FfiConverterString
+FfiConverterTypeAdsClientUrl
 .
 read
 (
@@ -11151,7 +11151,7 @@ value
 format
 )
 ;
-FfiConverterString
+FfiConverterTypeAdsClientUrl
 .
 write
 (
@@ -11171,7 +11171,7 @@ value
 name
 )
 ;
-FfiConverterString
+FfiConverterTypeAdsClientUrl
 .
 write
 (
@@ -11232,7 +11232,7 @@ format
 totalSize
 +
 =
-FfiConverterString
+FfiConverterTypeAdsClientUrl
 .
 computeSize
 (
@@ -11256,7 +11256,7 @@ name
 totalSize
 +
 =
-FfiConverterString
+FfiConverterTypeAdsClientUrl
 .
 computeSize
 (
@@ -11428,7 +11428,7 @@ e
 }
 try
 {
-FfiConverterString
+FfiConverterTypeAdsClientUrl
 .
 checkType
 (
@@ -11506,7 +11506,7 @@ e
 }
 try
 {
-FfiConverterString
+FfiConverterTypeAdsClientUrl
 .
 checkType
 (

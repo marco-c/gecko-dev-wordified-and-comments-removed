@@ -382,12 +382,11 @@ response
 assert
 !
 (
-!
 ad
 .
 url
 .
-is_empty
+has_host
 (
 )
 "
@@ -402,12 +401,11 @@ populated
 assert
 !
 (
-!
 ad
 .
 image_url
 .
-is_empty
+has_host
 (
 )
 "

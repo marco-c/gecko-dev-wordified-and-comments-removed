@@ -14214,15 +14214,11 @@ String
 var
 imageUrl
 :
-kotlin
-.
-String
+AdsClientUrl
 var
 url
 :
-kotlin
-.
-String
+AdsClientUrl
 )
 {
 companion
@@ -14282,13 +14278,13 @@ read
 (
 buf
 )
-FfiConverterString
+FfiConverterTypeAdsClientUrl
 .
 read
 (
 buf
 )
-FfiConverterString
+FfiConverterTypeAdsClientUrl
 .
 read
 (
@@ -14342,7 +14338,7 @@ value
 format
 )
 +
-FfiConverterString
+FfiConverterTypeAdsClientUrl
 .
 allocationSize
 (
@@ -14351,7 +14347,7 @@ value
 imageUrl
 )
 +
-FfiConverterString
+FfiConverterTypeAdsClientUrl
 .
 allocationSize
 (
@@ -14408,7 +14404,7 @@ value
 format
 buf
 )
-FfiConverterString
+FfiConverterTypeAdsClientUrl
 .
 write
 (
@@ -14417,7 +14413,7 @@ value
 imageUrl
 buf
 )
-FfiConverterString
+FfiConverterTypeAdsClientUrl
 .
 write
 (
@@ -14952,9 +14948,7 @@ String
 var
 imageUrl
 :
-kotlin
-.
-String
+AdsClientUrl
 var
 ranking
 :
@@ -14981,9 +14975,7 @@ String
 var
 url
 :
-kotlin
-.
-String
+AdsClientUrl
 )
 {
 companion
@@ -15055,7 +15047,7 @@ read
 (
 buf
 )
-FfiConverterString
+FfiConverterTypeAdsClientUrl
 .
 read
 (
@@ -15085,7 +15077,7 @@ read
 (
 buf
 )
-FfiConverterString
+FfiConverterTypeAdsClientUrl
 .
 read
 (
@@ -15157,7 +15149,7 @@ value
 format
 )
 +
-FfiConverterString
+FfiConverterTypeAdsClientUrl
 .
 allocationSize
 (
@@ -15202,7 +15194,7 @@ value
 title
 )
 +
-FfiConverterString
+FfiConverterTypeAdsClientUrl
 .
 allocationSize
 (
@@ -15277,7 +15269,7 @@ value
 format
 buf
 )
-FfiConverterString
+FfiConverterTypeAdsClientUrl
 .
 write
 (
@@ -15322,7 +15314,7 @@ value
 title
 buf
 )
-FfiConverterString
+FfiConverterTypeAdsClientUrl
 .
 write
 (
@@ -15737,9 +15729,7 @@ String
 var
 imageUrl
 :
-kotlin
-.
-String
+AdsClientUrl
 var
 name
 :
@@ -15749,9 +15739,7 @@ String
 var
 url
 :
-kotlin
-.
-String
+AdsClientUrl
 )
 {
 companion
@@ -15805,7 +15793,7 @@ read
 (
 buf
 )
-FfiConverterString
+FfiConverterTypeAdsClientUrl
 .
 read
 (
@@ -15817,7 +15805,7 @@ read
 (
 buf
 )
-FfiConverterString
+FfiConverterTypeAdsClientUrl
 .
 read
 (
@@ -15862,7 +15850,7 @@ value
 format
 )
 +
-FfiConverterString
+FfiConverterTypeAdsClientUrl
 .
 allocationSize
 (
@@ -15880,7 +15868,7 @@ value
 name
 )
 +
-FfiConverterString
+FfiConverterTypeAdsClientUrl
 .
 allocationSize
 (
@@ -15928,7 +15916,7 @@ value
 format
 buf
 )
-FfiConverterString
+FfiConverterTypeAdsClientUrl
 .
 write
 (
@@ -15946,7 +15934,7 @@ value
 name
 buf
 )
-FfiConverterString
+FfiConverterTypeAdsClientUrl
 .
 write
 (

@@ -1268,11 +1268,11 @@ String
 pub
 image_url
 :
-String
+AdsClientUrl
 pub
 url
 :
-String
+AdsClientUrl
 }
 #
 [
@@ -1317,7 +1317,7 @@ String
 pub
 image_url
 :
-String
+AdsClientUrl
 pub
 ranking
 :
@@ -1340,7 +1340,7 @@ String
 pub
 url
 :
-String
+AdsClientUrl
 }
 #
 [
@@ -1437,7 +1437,7 @@ String
 pub
 image_url
 :
-String
+AdsClientUrl
 pub
 name
 :
@@ -1445,7 +1445,7 @@ String
 pub
 url
 :
-String
+AdsClientUrl
 }
 impl
 From
