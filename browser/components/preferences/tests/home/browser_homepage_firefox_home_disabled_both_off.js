@@ -304,9 +304,6 @@ of
 webSearch
 "
 "
-weather
-"
-"
 widgets
 "
 "
@@ -334,6 +331,9 @@ firefoxLogo
 ]
 :
 [
+"
+weatherStandalone
+"
 ]
 )
 ]

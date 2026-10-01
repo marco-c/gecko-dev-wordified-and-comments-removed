@@ -620,7 +620,7 @@ weatherWrapper
 getSettingControl
 (
 "
-weather
+weatherStandalone
 "
 win
 )
@@ -696,7 +696,7 @@ await
 settingControlRenders
 (
 "
-weather
+weatherStandalone
 "
 win
 )
@@ -798,7 +798,7 @@ await
 settingControlRenders
 (
 "
-weather
+weatherStandalone
 "
 win
 )
@@ -1025,7 +1025,7 @@ weatherWrapper
 getSettingControl
 (
 "
-weather
+weatherStandalone
 "
 win
 )
@@ -1102,7 +1102,7 @@ await
 settingControlRenders
 (
 "
-weather
+weatherStandalone
 "
 win
 )
@@ -1206,7 +1206,7 @@ await
 settingControlRenders
 (
 "
-weather
+weatherStandalone
 "
 win
 )
