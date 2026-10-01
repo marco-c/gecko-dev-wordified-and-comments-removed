@@ -480,10 +480,6 @@ mIsEverHitFromMemoryCache
 (
 false
 )
-mDependsOnClassicScriptHintEncoding
-(
-false
-)
 mURI
 (
 aURI
