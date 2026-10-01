@@ -102,6 +102,12 @@ mNSDraggingSession
 ;
 }
 MOZ_CAN_RUN_SCRIPT
+void
+EndAsStale
+(
+)
+;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 EndDragSessionImpl
 (
@@ -249,6 +255,13 @@ CreateDragSession
 (
 )
 override
+;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
+static
+void
+EndStaleDragSession
+(
+)
 ;
 }
 ;
