@@ -233,6 +233,7 @@ entry
 editLabelId
 deleteLabelId
 deleteMessageName
+guid
 )
 {
 return
@@ -290,6 +291,11 @@ deleteLabelId
 fillMessageName
 :
 deleteMessageName
+fillMessageData
+:
+{
+guid
+}
 }
 ]
 }
@@ -2842,6 +2848,9 @@ FormAutofill
 :
 DeleteAddress
 "
+profile
+.
+guid
 )
 }
 )
@@ -3704,6 +3713,9 @@ FormAutofill
 :
 DeleteCreditCard
 "
+profile
+.
+guid
 )
 }
 )
