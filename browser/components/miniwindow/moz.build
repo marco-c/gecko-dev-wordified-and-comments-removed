@@ -76,6 +76,16 @@ in
 Picture
 "
 )
+JAR_MANIFESTS
++
+=
+[
+"
+jar
+.
+mn
+"
+]
 MOZ_SRC_FILES
 +
 =
