@@ -193,6 +193,9 @@ storage
 [
 3
 ]
+=
+{
+}
 ;
 const
 uint8_t

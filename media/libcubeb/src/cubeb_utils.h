@@ -259,6 +259,7 @@ T
 ;
 }
 namespace
+detail
 {
 template
 <
@@ -369,6 +370,9 @@ destination
 source
 )
 ;
+detail
+:
+:
 Copy
 (
 destination
@@ -391,6 +395,7 @@ type
 ;
 }
 namespace
+detail
 {
 template
 <
@@ -484,6 +489,9 @@ assert
 destination
 )
 ;
+detail
+:
+:
 ConstructDefault
 (
 destination
