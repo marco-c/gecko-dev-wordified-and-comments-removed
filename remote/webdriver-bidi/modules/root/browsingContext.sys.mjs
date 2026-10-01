@@ -2945,6 +2945,11 @@ this
 _getNavigable
 (
 contextId
+{
+supportsPrivilegedScope
+:
+true
+}
 )
 ;
 const
