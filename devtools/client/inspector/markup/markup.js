@@ -6174,13 +6174,9 @@ shortcuts
 new
 KeyShortcuts
 (
-{
-window
-:
 this
 .
 win
-}
 )
 ;
 this

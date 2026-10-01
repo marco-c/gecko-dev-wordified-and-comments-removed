@@ -31,9 +31,7 @@ shortcuts
 new
 KeyShortcuts
 (
-{
 window
-}
 )
 ;
 await
@@ -2274,10 +2272,7 @@ shortcuts
 new
 KeyShortcuts
 (
-{
-window
 target
-}
 )
 ;
 const

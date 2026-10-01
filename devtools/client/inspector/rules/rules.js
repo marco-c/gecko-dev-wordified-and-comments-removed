@@ -1644,13 +1644,9 @@ shortcuts
 new
 KeyShortcuts
 (
-{
-window
-:
 this
 .
 styleWindow
-}
 )
 ;
 this

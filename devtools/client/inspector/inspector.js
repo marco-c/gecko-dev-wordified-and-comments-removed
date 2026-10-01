@@ -3828,16 +3828,6 @@ inspectorShortcuts
 new
 KeyShortcuts
 (
-{
-window
-:
-this
-.
-panelDoc
-.
-defaultView
-target
-:
 this
 .
 toolbox
@@ -3845,7 +3835,6 @@ toolbox
 getChromeEventHandler
 (
 )
-}
 )
 ;
 const

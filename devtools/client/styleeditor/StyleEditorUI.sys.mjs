@@ -2040,14 +2040,10 @@ shortcuts
 new
 KeyShortcuts
 (
-{
-window
-:
 this
 .
 #
 window
-}
 )
 ;
 this
