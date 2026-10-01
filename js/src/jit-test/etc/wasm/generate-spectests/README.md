@@ -87,8 +87,13 @@ process
 for
 real
 use
-the
-makefile
+generate
+-
+and
+-
+patch
+.
+sh
 in
 the
 parent
