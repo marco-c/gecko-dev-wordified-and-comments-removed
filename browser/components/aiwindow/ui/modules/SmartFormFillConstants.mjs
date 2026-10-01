@@ -622,9 +622,6 @@ tel
 number
 "
 "
-search
-"
-"
 month
 "
 ]

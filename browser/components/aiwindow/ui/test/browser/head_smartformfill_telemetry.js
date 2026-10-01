@@ -1408,6 +1408,10 @@ set
 SMART_FORM_FILL_PREF
 true
 ]
+[
+MIN_FORM_FIELDS_PREF
+1
+]
 ]
 }
 )

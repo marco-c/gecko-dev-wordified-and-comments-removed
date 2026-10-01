@@ -2069,7 +2069,12 @@ Whether
 Smart
 Form
 Fill
-supports
+has
+an
+entry
+to
+offer
+for
 the
 input
 .
@@ -2087,7 +2092,7 @@ this
 smartFormFillDocument
 ?
 .
-isSupportedField
+shouldOfferFill
 (
 input
 )

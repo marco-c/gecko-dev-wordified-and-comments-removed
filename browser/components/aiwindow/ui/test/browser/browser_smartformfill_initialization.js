@@ -317,6 +317,10 @@ set
 SMART_FORM_FILL_PREF
 true
 ]
+[
+MIN_FORM_FIELDS_PREF
+1
+]
 ]
 }
 )
@@ -947,7 +951,7 @@ waitForSmartFormFillProvider
 browser
 "
 #
-search
+text
 "
 )
 ;
@@ -959,7 +963,7 @@ of
 [
 "
 #
-search
+text
 "
 "
 #
@@ -1066,7 +1070,7 @@ captureClassificationRequest
 win
 "
 #
-search
+text
 "
 mockEngineManager
 )
@@ -1090,7 +1094,7 @@ name
 )
 [
 "
-search
+text
 "
 "
 number
