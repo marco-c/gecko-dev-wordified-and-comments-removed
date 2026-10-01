@@ -4420,23 +4420,6 @@ FieldTrial
 '
 WebRTC
 -
-Target
--
-Bitrate
--
-Rtcp
-'
-               
-42235192
-               
-INDEFINITE
-)
-    
-FieldTrial
-(
-'
-WebRTC
--
 TransientSuppressorForcedOff
 '
                
@@ -4988,7 +4971,7 @@ str
 \
     
 '
-6955b741248c753df09d864c23bbfc72d0476f28
+6af303162ccd3db0d047e3dd57d8d6f80a277034
 '
 REGISTERED_FIELD_TRIALS
 :
