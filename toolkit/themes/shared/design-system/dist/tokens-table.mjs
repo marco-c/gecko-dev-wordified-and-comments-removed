@@ -24396,6 +24396,9 @@ hover
 {
 value
 :
+{
+default
+:
 "
 var
 (
@@ -24412,6 +24415,7 @@ ghost
 active
 )
 "
+}
 name
 :
 "
@@ -44565,6 +44569,9 @@ ghost
 selected
 "
 :
+{
+default
+:
 "
 var
 (
@@ -44581,6 +44588,7 @@ ghost
 active
 )
 "
+}
 "
 button
 -
