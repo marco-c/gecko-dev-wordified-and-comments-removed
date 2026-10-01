@@ -35,6 +35,8 @@ content
 /
 test
 /
+browser
+-
 protectionsUI
 /
 trackingPage
@@ -66,13 +68,6 @@ js
 [
 "
 browser_protections_monitor
-.
-js
-"
-]
-[
-"
-browser_protections_proxy
 .
 js
 "

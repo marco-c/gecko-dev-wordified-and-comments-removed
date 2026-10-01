@@ -79,6 +79,8 @@ content
 /
 test
 /
+browser
+-
 protectionsUI
 /
 trackingPage

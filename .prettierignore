@@ -1570,6 +1570,8 @@ content
 /
 test
 /
+browser
+-
 contextMenu
 /
 subtst_contextmenu
@@ -1583,6 +1585,8 @@ content
 /
 test
 /
+browser
+-
 favicons
 /
 datauri
@@ -1598,6 +1602,8 @@ content
 /
 test
 /
+browser
+-
 favicons
 /
 file_bug970276_popup1
@@ -1731,6 +1737,8 @@ content
 /
 test
 /
+browser
+-
 permissions
 /
 temporary_permissions_frame
@@ -1744,6 +1752,8 @@ content
 /
 test
 /
+browser
+-
 permissions
 /
 temporary_permissions_subframe
@@ -1787,6 +1797,8 @@ content
 /
 test
 /
+browser
+-
 siteIdentity
 /
 dummy_iframe_page
@@ -1800,6 +1812,8 @@ content
 /
 test
 /
+browser
+-
 siteIdentity
 /
 dummy_page
@@ -1813,6 +1827,8 @@ content
 /
 test
 /
+browser
+-
 siteIdentity
 /
 test
@@ -1830,6 +1846,8 @@ content
 /
 test
 /
+browser
+-
 siteIdentity
 /
 test_mcb_double_redirect_image
@@ -1843,6 +1861,8 @@ content
 /
 test
 /
+browser
+-
 siteIdentity
 /
 test_mcb_redirect_image
@@ -1856,6 +1876,8 @@ content
 /
 test
 /
+browser
+-
 siteIdentity
 /
 test_no_mcb_for_loopback
@@ -1869,6 +1891,8 @@ content
 /
 test
 /
+browser
+-
 siteIdentity
 /
 test_no_mcb_for_onions
@@ -1882,6 +1906,8 @@ content
 /
 test
 /
+browser
+-
 static
 /
 dummy_page

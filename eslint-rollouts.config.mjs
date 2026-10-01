@@ -1103,6 +1103,8 @@ content
 /
 test
 /
+browser
+-
 performance
 /
 browser_startup
@@ -7153,6 +7155,8 @@ content
 /
 test
 /
+browser
+-
 favicons
 /
 browser_mixed_content
@@ -7226,6 +7230,8 @@ content
 /
 test
 /
+browser
+-
 favicons
 /
 browser_favicon_nostore
