@@ -9311,6 +9311,13 @@ empty
 )
 )
 {
+current
+-
+>
+setHasGeneratorResumeEntry
+(
+)
+;
 MBasicBlock
 *
 body

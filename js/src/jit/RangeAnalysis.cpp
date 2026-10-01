@@ -11444,6 +11444,15 @@ outerInfo
 hadBoundsCheckBailout
 (
 )
+&
+&
+!
+header
+-
+>
+hasGeneratorResumeEntry
+(
+)
 )
 {
 Vector
