@@ -240,15 +240,9 @@ window
 await
 UrlbarTestUtils
 .
-promisePopupOpen
+promiseSearchComplete
 (
 targetWin
-(
-)
-=
->
-{
-}
 )
 ;
 let
