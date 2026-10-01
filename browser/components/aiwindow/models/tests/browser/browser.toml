@@ -123,6 +123,13 @@ js
 ]
 [
 "
+browser_monitor_telemetry
+.
+js
+"
+]
+[
+"
 browser_prompt_loader_browser_context
 .
 js
