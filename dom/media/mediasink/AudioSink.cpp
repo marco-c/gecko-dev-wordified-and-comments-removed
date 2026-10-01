@@ -1701,6 +1701,13 @@ ToMicroseconds
 )
 )
 ;
+mProcessedSPSCQueue
+-
+>
+ResetProducerThreadId
+(
+)
+;
 ApplyPlaybackParams
 (
 aParams
