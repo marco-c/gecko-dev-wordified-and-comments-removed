@@ -96,8 +96,6 @@ aRawRule
 )
 {
 }
-private
-:
 CSSCounterStyleRule
 (
 const
@@ -108,6 +106,8 @@ aCopy
 =
 delete
 ;
+private
+:
 ~
 CSSCounterStyleRule
 (

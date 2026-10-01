@@ -14,6 +14,13 @@ h
 #
 include
 "
+nsCRTGlue
+.
+h
+"
+#
+include
+"
 nsCaseTreatment
 .
 h

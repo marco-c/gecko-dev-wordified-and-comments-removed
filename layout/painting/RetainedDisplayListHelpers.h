@@ -20,6 +20,13 @@ Span
 .
 h
 "
+#
+include
+"
+nsTArray
+.
+h
+"
 class
 nsIFrame
 ;

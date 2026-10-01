@@ -721,7 +721,7 @@ typedef
 std
 :
 :
-remove_reference
+remove_reference_t
 <
 decltype
 (
@@ -733,9 +733,6 @@ mGlyphs
 ]
 )
 >
-:
-:
-type
 GlyphType
 ;
 static_assert
@@ -943,7 +940,7 @@ y
 std
 :
 :
-is_standard_layout
+is_standard_layout_v
 <
 std
 :
@@ -961,15 +958,12 @@ mGlyphs
 )
 >
 >
-:
-:
-value
 &
 &
 std
 :
 :
-is_standard_layout
+is_standard_layout_v
 <
 std
 :
@@ -985,9 +979,6 @@ glyphs
 )
 >
 >
-:
-:
-value
 &
 &
 sizeof

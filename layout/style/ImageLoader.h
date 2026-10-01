@@ -7,6 +7,13 @@ mozilla_css_ImageLoader_h_
 #
 include
 "
+imgIRequest
+.
+h
+"
+#
+include
+"
 mozilla
 /
 CORSMode
@@ -46,9 +53,6 @@ nsIFrame
 ;
 class
 imgIContainer
-;
-class
-imgIRequest
 ;
 class
 imgRequestProxy
