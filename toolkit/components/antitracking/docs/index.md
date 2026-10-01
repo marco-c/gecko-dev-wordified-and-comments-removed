@@ -68,9 +68,9 @@ index
 .
 md
 >
-ETP
-Capability
-Matrix
+Privacy
+Capabilities
+Overview
 <
 etp
 -
