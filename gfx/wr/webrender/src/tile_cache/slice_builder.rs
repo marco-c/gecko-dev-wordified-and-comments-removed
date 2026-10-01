@@ -1120,7 +1120,12 @@ root_spatial_node_index
 =
 >
 {
-true
+spatial_tree
+.
+is_slice_worthy_scroll_root
+(
+scroll_root
+)
 }
 (
 _
