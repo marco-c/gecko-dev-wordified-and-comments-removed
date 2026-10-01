@@ -10514,12 +10514,6 @@ language
 c
 +
 +
-:
-name
-:
-PMyManager
-.
-ipdl
 So
 MyManagerParent
 .
