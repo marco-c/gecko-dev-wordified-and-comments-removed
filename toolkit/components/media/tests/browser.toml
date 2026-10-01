@@ -17,13 +17,12 @@ engine
 -
 compatible
 "
-skip
+run
 -
 if
 =
 [
 "
-!
 wmfme
 "
 ]

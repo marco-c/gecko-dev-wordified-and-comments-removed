@@ -5,14 +5,14 @@ head
 =
 "
 "
-skip
+run
 -
 if
 =
 [
 "
 os
-=
+!
 =
 '
 android

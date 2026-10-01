@@ -57,12 +57,13 @@ tests
 for
 dFPI
 .
-skip
+run
 -
 if
 =
 [
 "
+!
 xorigin
 "
 ]

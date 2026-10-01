@@ -10,14 +10,14 @@ origin
 -
 init
 "
-skip
+run
 -
 if
 =
 [
 "
 buildapp
-!
+=
 =
 '
 browser

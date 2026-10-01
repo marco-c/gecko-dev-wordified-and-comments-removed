@@ -195,12 +195,13 @@ normal
 functionality
 tests
 .
-skip
+run
 -
 if
 =
 [
 "
+!
 xorigin
 "
 ]

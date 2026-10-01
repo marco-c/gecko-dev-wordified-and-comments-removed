@@ -110,14 +110,14 @@ tests
 on
 android
 .
-skip
+run
 -
 if
 =
 [
 "
 os
-=
+!
 =
 '
 android

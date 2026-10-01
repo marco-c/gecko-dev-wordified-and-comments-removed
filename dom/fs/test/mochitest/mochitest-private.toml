@@ -61,12 +61,13 @@ dupe
 manifest
 =
 true
-skip
+run
 -
 if
 =
 [
 "
+!
 xorigin
 "
 ]

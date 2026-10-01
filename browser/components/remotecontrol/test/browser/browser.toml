@@ -27,13 +27,12 @@ head
 js
 "
 ]
-skip
+run
 -
 if
 =
 [
 "
-!
 nightly_build
 "
 ]

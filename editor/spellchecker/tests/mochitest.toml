@@ -14,14 +14,14 @@ delay
 0
 "
 ]
-skip
+run
 -
 if
 =
 [
 "
 os
-=
+!
 =
 '
 android

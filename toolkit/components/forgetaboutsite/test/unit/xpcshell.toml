@@ -8,14 +8,14 @@ head_forgetaboutsite
 .
 js
 "
-skip
+run
 -
 if
 =
 [
 "
 os
-=
+!
 =
 '
 android

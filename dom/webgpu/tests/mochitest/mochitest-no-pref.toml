@@ -90,12 +90,13 @@ mochitest
 disabled
 .
 toml
-skip
+run
 -
 if
 =
 [
 "
+!
 verify
 "
 #
@@ -109,9 +110,6 @@ t
 guarantee
 a
 GPU
-so
-skip
-them
 .
 ]
 prefs

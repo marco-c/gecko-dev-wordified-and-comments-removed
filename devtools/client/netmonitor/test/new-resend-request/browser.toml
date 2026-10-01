@@ -14,12 +14,13 @@ subsuite
 "
 devtools
 "
-skip
+run
 -
 if
 =
 [
 "
+!
 http3
 "
 ]
