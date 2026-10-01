@@ -5062,6 +5062,9 @@ taskbartab
 const
 statusGuess
 =
+syncEnabled
+&
+&
 !
 !
 Services
