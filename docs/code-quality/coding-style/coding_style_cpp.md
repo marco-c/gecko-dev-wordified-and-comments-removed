@@ -2869,6 +2869,8 @@ autofixes
 :
 :
 (
+cpp
+-
 header
 -
 files
@@ -4861,6 +4863,8 @@ section
 {
 ref
 }
+cpp
+-
 header
 -
 files
