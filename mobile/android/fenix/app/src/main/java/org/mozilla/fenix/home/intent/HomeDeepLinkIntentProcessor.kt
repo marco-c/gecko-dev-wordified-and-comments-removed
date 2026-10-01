@@ -584,9 +584,17 @@ settings_logins
 "
 -
 >
+if
+(
+settings
+.
+isAutofillSupported
+)
 GlobalDirections
 .
 SettingsLogins
+else
+return
 "
 settings_tracking_protection
 "
