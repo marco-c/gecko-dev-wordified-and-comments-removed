@@ -168,6 +168,13 @@ ModuleObject
 *
 >
 module
+ImportPhase
+phase
+=
+ImportPhase
+:
+:
+Evaluation
 )
 ;
 void
