@@ -276,9 +276,6 @@ SIZE_TO_CONTENT
 -
 1
 ;
-[
-can_run_script
-]
 nsIAppWindow
 createTopLevelWindow
 (
@@ -386,7 +383,6 @@ aChromeMask
 )
 ;
 [
-can_run_script
 noscript
 ]
 void

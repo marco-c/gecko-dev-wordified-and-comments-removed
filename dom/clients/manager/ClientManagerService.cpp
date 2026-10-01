@@ -3541,7 +3541,6 @@ aArgs
 ]
 (
 )
-MOZ_CAN_RUN_SCRIPT_BOUNDARY_LAMBDA
 {
 return
 ClientOpenWindow

@@ -2621,7 +2621,6 @@ NS_OK
 ;
 }
 }
-MOZ_CAN_RUN_SCRIPT
 static
 char
 *
@@ -3105,7 +3104,6 @@ mRunning
 =
 false
 ;
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
 NS_IMETHODIMP
 PK11PasswordPromptRunnable
 :

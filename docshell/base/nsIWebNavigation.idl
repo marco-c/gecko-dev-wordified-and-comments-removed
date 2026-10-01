@@ -2030,7 +2030,6 @@ info
 *
 /
 [
-can_run_script
 implicit_jscontext
 binaryname
 (
@@ -2240,7 +2239,6 @@ info
 *
 /
 [
-can_run_script
 implicit_jscontext
 binaryname
 (
@@ -2273,7 +2271,6 @@ loadURI
 *
 /
 [
-can_run_script
 nostdcall
 binaryname
 (
@@ -2306,7 +2303,6 @@ fixupAndLoadURIString
 *
 /
 [
-can_run_script
 nostdcall
 binaryname
 (

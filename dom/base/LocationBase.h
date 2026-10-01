@@ -51,7 +51,6 @@ LocationBase
 {
 public
 :
-MOZ_CAN_RUN_SCRIPT
 void
 Replace
 (
@@ -67,7 +66,6 @@ ErrorResult
 aRv
 )
 ;
-MOZ_CAN_RUN_SCRIPT
 void
 SetHref
 (
@@ -103,7 +101,6 @@ GetDocShell
 =
 0
 ;
-MOZ_CAN_RUN_SCRIPT
 void
 Navigate
 (
@@ -125,7 +122,6 @@ NavigationHistoryBehavior
 Auto
 )
 ;
-MOZ_CAN_RUN_SCRIPT
 void
 SetHrefWithBase
 (
@@ -146,7 +142,6 @@ ErrorResult
 aRv
 )
 ;
-MOZ_CAN_RUN_SCRIPT
 void
 DoSetHref
 (

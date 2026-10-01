@@ -278,9 +278,6 @@ forced
 .
 *
 /
-[
-can_run_script
-]
 void
 forceRefreshURI
 (
