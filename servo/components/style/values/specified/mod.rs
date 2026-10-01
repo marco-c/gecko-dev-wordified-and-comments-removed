@@ -1114,6 +1114,16 @@ use
 self
 :
 :
+svg
+:
+:
+MaskComposite
+;
+pub
+use
+self
+:
+:
 svg_path
 :
 :

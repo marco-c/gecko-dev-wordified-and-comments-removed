@@ -1360,6 +1360,16 @@ use
 self
 :
 :
+svg
+:
+:
+MaskComposite
+;
+pub
+use
+self
+:
+:
 text
 :
 :

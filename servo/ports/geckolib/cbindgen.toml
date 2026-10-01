@@ -1505,6 +1505,9 @@ MaskType
 "
 MaskMode
 "
+"
+MaskComposite
+"
 ]
 item_types
 =
