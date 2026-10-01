@@ -174,8 +174,12 @@ platform
 :
 {
 AsProcessReaderHandle
+AsRawThreadHandle
+FromRawThreadHandle
 PlatformError
 ProcessHandle
+RawThreadHandle
+ThreadHandle
 }
 ;
 #
