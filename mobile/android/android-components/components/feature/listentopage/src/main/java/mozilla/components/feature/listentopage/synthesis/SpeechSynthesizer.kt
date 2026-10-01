@@ -1528,15 +1528,6 @@ one
 of
 them
 .
-Bug
-2064849
-'
-s
-queue
-owns
-that
-ordering
-.
 /
 /
 /
