@@ -705,6 +705,11 @@ coverView
 tabId
 =
 null
+isOnline
+=
+{
+true
+}
 telemetry
 =
 telemetry
@@ -977,6 +982,11 @@ coverView
 tabId
 =
 null
+isOnline
+=
+{
+true
+}
 telemetry
 =
 telemetry
@@ -1167,6 +1177,11 @@ coverView
 tabId
 =
 null
+isOnline
+=
+{
+true
+}
 telemetry
 =
 telemetry
