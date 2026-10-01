@@ -409,16 +409,6 @@ Plaintext
 ;
 enum
 class
-StyleTableLayout
-:
-uint8_t
-{
-Auto
-Fixed
-}
-;
-enum
-class
 StyleImeMode
 :
 uint8_t
