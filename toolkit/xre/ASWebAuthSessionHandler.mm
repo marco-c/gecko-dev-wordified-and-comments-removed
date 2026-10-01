@@ -180,7 +180,7 @@ nsIASWebAuthSessionRequest
 {
 public
 :
-NS_DECL_ISUPPORTS
+NS_DECL_THREADSAFE_ISUPPORTS
 NS_DECL_NSIASWEBAUTHSESSIONREQUEST
 ASWebAuthSessionRequestWrapper
 (
@@ -762,13 +762,6 @@ ASWebAuthenticationSessionRequest
 )
 request
 {
-MOZ_ASSERT
-(
-NS_IsMainThread
-(
-)
-)
-;
 MOZ_LOG
 (
 gASWebAuthLog
@@ -1024,13 +1017,6 @@ ASWebAuthenticationSessionRequest
 )
 request
 {
-MOZ_ASSERT
-(
-NS_IsMainThread
-(
-)
-)
-;
 MOZ_LOG
 (
 gASWebAuthLog
