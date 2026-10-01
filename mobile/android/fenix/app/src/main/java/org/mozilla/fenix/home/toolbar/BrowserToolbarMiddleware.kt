@@ -2173,7 +2173,10 @@ searchTermOrURL
 it
 newTab
 =
-true
+!
+settings
+.
+enableHomepageAsNewTab
 private
 =
 browsingModeManager
