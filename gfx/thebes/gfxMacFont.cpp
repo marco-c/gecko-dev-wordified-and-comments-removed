@@ -1142,19 +1142,6 @@ mIsValid
 =
 false
 ;
-:
-:
-memset
-(
-&
-mMetrics
-0
-sizeof
-(
-mMetrics
-)
-)
-;
 uint32_t
 upem
 =
@@ -1381,7 +1368,6 @@ MOZ_FONTATIONS
 !
 InitMetricsFromSkrifa
 (
-mMetrics
 )
 &
 &
@@ -1390,7 +1376,6 @@ endif
 !
 InitMetricsFromSfntTables
 (
-mMetrics
 )
 &
 &
@@ -1890,7 +1875,6 @@ MOZ_FONTATIONS
 !
 InitMetricsFromSkrifa
 (
-mMetrics
 )
 &
 &
@@ -1899,7 +1883,6 @@ endif
 !
 InitMetricsFromSfntTables
 (
-mMetrics
 )
 &
 &
@@ -1990,13 +1973,10 @@ cgConvFactor
 }
 CalculateDerivedMetrics
 (
-mMetrics
 )
 ;
 SanitizeMetrics
 (
-&
-mMetrics
 mFontEntry
 -
 >

@@ -8535,9 +8535,6 @@ mMathInitialized
 bool
 InitMetricsFromSfntTables
 (
-Metrics
-&
-aMetrics
 )
 ;
 #
@@ -8546,9 +8543,6 @@ MOZ_FONTATIONS
 bool
 InitMetricsFromSkrifa
 (
-Metrics
-&
-aMetrics
 )
 ;
 #
@@ -8556,17 +8550,11 @@ endif
 void
 CalculateDerivedMetrics
 (
-Metrics
-&
-aMetrics
 )
 ;
 void
 SanitizeMetrics
 (
-Metrics
-*
-aMetrics
 bool
 aIsBadUnderlineFont
 )
