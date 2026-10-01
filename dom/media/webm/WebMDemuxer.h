@@ -1068,6 +1068,11 @@ mVideoDefaultDuration
 1
 ;
 bool
+mVideoDecodeOrderIsPresentationOrder
+=
+true
+;
+bool
 mHasVideo
 ;
 bool
