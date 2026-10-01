@@ -3190,7 +3190,7 @@ get_capabilities
 (
 )
 .
-supports_image_external_essl3
+supports_external_textures_in_all_shaders
 {
 TextureExternalVersion
 :
@@ -5968,7 +5968,7 @@ get_capabilities
 (
 )
 .
-supports_image_external_essl3
+supports_external_textures_in_all_shaders
 {
 TextureExternalVersion
 :

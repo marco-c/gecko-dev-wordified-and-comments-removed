@@ -802,10 +802,6 @@ allow_advanced_blend_equation
 :
 bool
 pub
-allow_texture_storage_support
-:
-bool
-pub
 allow_texture_swizzling
 :
 bool
@@ -830,10 +826,6 @@ compositor_config
 CompositorConfig
 pub
 enable_gpu_markers
-:
-bool
-pub
-panic_on_gl_error
 :
 bool
 pub
@@ -1055,9 +1047,6 @@ true
 allow_advanced_blend_equation
 :
 false
-allow_texture_storage_support
-:
-true
 allow_texture_swizzling
 :
 true
@@ -1081,9 +1070,6 @@ default
 enable_gpu_markers
 :
 true
-panic_on_gl_error
-:
-false
 picture_tile_size
 :
 None
@@ -1358,11 +1344,6 @@ cached_programs
 take
 (
 )
-allow_texture_storage_support
-:
-options
-.
-allow_texture_storage_support
 allow_texture_swizzling
 :
 options
@@ -1382,11 +1363,6 @@ surface_origin_is_top_left
 options
 .
 surface_origin_is_top_left
-panic_on_gl_error
-:
-options
-.
-panic_on_gl_error
 }
 )
 ;
@@ -2228,7 +2204,7 @@ get_capabilities
 (
 )
 .
-supports_image_external_essl3
+supports_external_textures_in_all_shaders
 batch_lookback_count
 :
 WebRenderOptions
