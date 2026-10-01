@@ -654,14 +654,6 @@ uploadPath
 null
 )
 {
-println
-(
-"
-PERFHERDER_DATA
-:
-json
-"
-)
 val
 outputFile
 =
