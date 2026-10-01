@@ -27134,6 +27134,28 @@ enabled
 "
 )
             
+if
+options
+.
+profilerSaveOnly
+or
+options
+.
+profiler
+:
+                
+profile_path
+=
+symbolicate_profile_json
+(
+                    
+profile_path
+options
+.
+symbolsPath
+                
+)
+                
 profiler_logger
 .
 info
@@ -27150,24 +27172,6 @@ profile_path
 }
 "
 )
-            
-if
-options
-.
-profilerSaveOnly
-or
-options
-.
-profiler
-:
-                
-symbolicate_profile_json
-(
-profile_path
-options
-.
-symbolsPath
-)
                 
 view_gecko_profile_from_mochitest
 (
@@ -27180,6 +27184,23 @@ profiler_logger
             
 else
 :
+                
+profiler_logger
+.
+info
+(
+f
+"
+Profile
+saved
+locally
+to
+:
+{
+profile_path
+}
+"
+)
                 
 profiler_logger
 .

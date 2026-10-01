@@ -3274,7 +3274,8 @@ expected
                 
 message
 =
-f
+(
+                    
 "
 Test
 timed
@@ -3283,10 +3284,18 @@ out
 profile
 uploaded
 in
+"
+                    
+f
+"
 {
-profile_name
+self
+.
+timeout_profile_artifact_name
 }
 "
+                
+)
             
 )
         
@@ -6947,6 +6956,12 @@ timeout_profile_name
 =
 None
         
+self
+.
+timeout_profile_artifact_name
+=
+None
+        
 if
 not
 self
@@ -7110,6 +7125,17 @@ self
 timeout_profile_name
 =
 filename
+                
+self
+.
+timeout_profile_artifact_name
+=
+filename
++
+"
+.
+gz
+"
                 
 self
 .
@@ -8114,6 +8140,8 @@ self
 singleFile
 :
                 
+profile_path
+=
 symbolicate_profile_json
 (
 profile_path
