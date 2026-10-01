@@ -1683,6 +1683,7 @@ resourceId
 ruleCount
 "
 ruleCount
+cause
 )
 ;
 }
@@ -3178,6 +3179,10 @@ notifyPropertyChanged
 resourceId
 property
 value
+cause
+=
+"
+"
 )
 {
 this
@@ -3205,6 +3210,11 @@ property
 ]
 :
 value
+event
+:
+{
+cause
+}
 }
 }
 }
