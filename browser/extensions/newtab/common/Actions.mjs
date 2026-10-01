@@ -1340,7 +1340,7 @@ optional
 *
 param
 {
-bool
+boolean
 }
 skipLocal
 Used
@@ -1618,7 +1618,7 @@ port
 *
 param
 {
-bool
+boolean
 }
 skipMain
 Used
@@ -2045,7 +2045,7 @@ ping
 *
 param
 {
-int
+number
 }
 importContext
 (
@@ -2146,7 +2146,7 @@ ping
 *
 param
 {
-int
+number
 }
 importContext
 (
@@ -2248,7 +2248,7 @@ ping
 *
 param
 {
-int
+number
 }
 importContext
 (
