@@ -157,11 +157,8 @@ long
 index
 )
 ;
-[
-Throws
-]
 undefined
-addFromURI
+addFromUri
 (
 DOMString
 src
@@ -170,9 +167,6 @@ float
 weight
 )
 ;
-[
-Throws
-]
 undefined
 addFromString
 (
