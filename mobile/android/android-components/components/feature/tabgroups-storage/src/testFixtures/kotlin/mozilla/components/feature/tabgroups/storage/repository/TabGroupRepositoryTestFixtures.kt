@@ -75,6 +75,12 @@ room
 .
 RoomDatabase
 import
+kotlinx
+.
+coroutines
+.
+CoroutineDispatcher
+import
 mozilla
 .
 components
@@ -151,6 +157,9 @@ createTestTabGroupRepository
 database
 :
 RoomDatabase
+ioDispatcher
+:
+CoroutineDispatcher
 dateTimeProvider
 :
 DateTimeProvider
@@ -165,5 +174,6 @@ DefaultTabGroupRepository
 DefaultTabGroupRepository
 (
 database
+ioDispatcher
 dateTimeProvider
 )

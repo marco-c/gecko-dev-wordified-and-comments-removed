@@ -85,14 +85,6 @@ coroutines
 .
 test
 .
-StandardTestDispatcher
-import
-kotlinx
-.
-coroutines
-.
-test
-.
 runTest
 import
 mozilla
@@ -313,13 +305,6 @@ class
 GeckoCreditCardsAddressesStorageDelegateTest
 {
 private
-val
-testDispatcher
-=
-StandardTestDispatcher
-(
-)
-private
 lateinit
 var
 storage
@@ -430,7 +415,6 @@ lazy
 {
 storage
 }
-testDispatcher
 validationDelegate
 )
 }
@@ -458,9 +442,6 @@ number
 )
 =
 runTest
-(
-testDispatcher
-)
 {
 val
 plaintextNumber
@@ -554,9 +535,6 @@ cards
 )
 =
 runTest
-(
-testDispatcher
-)
 {
 val
 storage
@@ -599,7 +577,6 @@ lazy
 {
 storage
 }
-testDispatcher
 isCreditCardAutofillEnabled
 =
 {
@@ -653,9 +630,6 @@ cards
 )
 =
 runTest
-(
-testDispatcher
-)
 {
 val
 storage
@@ -698,7 +672,6 @@ lazy
 {
 storage
 }
-testDispatcher
 isCreditCardAutofillEnabled
 =
 {
@@ -759,9 +732,6 @@ storage
 )
 {
 runTest
-(
-testDispatcher
-)
 {
 val
 billingName
@@ -913,9 +883,6 @@ storage
 )
 {
 runTest
-(
-testDispatcher
-)
 {
 val
 billingName
@@ -1112,9 +1079,6 @@ ignored
 )
 {
 runTest
-(
-testDispatcher
-)
 {
 val
 billingName
@@ -1230,9 +1194,6 @@ storage
 )
 =
 runTest
-(
-testDispatcher
-)
 {
 val
 storage
@@ -1250,7 +1211,6 @@ lazy
 {
 storage
 }
-testDispatcher
 validationDelegate
 )
 val
@@ -1440,9 +1400,6 @@ storage
 )
 =
 runTest
-(
-testDispatcher
-)
 {
 val
 storage
@@ -1460,7 +1417,6 @@ lazy
 {
 storage
 }
-testDispatcher
 validationDelegate
 )
 val
@@ -1656,9 +1612,6 @@ addresses
 )
 =
 runTest
-(
-testDispatcher
-)
 {
 val
 storage
@@ -1704,7 +1657,6 @@ lazy
 {
 storage
 }
-testDispatcher
 isAddressAutofillEnabled
 =
 {
@@ -1760,9 +1712,6 @@ addresses
 )
 =
 runTest
-(
-testDispatcher
-)
 {
 val
 storage
@@ -1805,7 +1754,6 @@ lazy
 {
 storage
 }
-testDispatcher
 isAddressAutofillEnabled
 =
 {

@@ -107,7 +107,7 @@ coroutines
 .
 test
 .
-UnconfinedTestDispatcher
+StandardTestDispatcher
 import
 kotlinx
 .
@@ -329,6 +329,13 @@ CollectionsToTabGroupsMigrationIntegrationTest
 {
 private
 val
+testDispatcher
+=
+StandardTestDispatcher
+(
+)
+private
+val
 dateTimeProvider
 =
 FakeDateTimeProvider
@@ -387,6 +394,9 @@ createTestTabGroupRepository
 database
 =
 tabGroupDatabase
+ioDispatcher
+=
+testDispatcher
 dateTimeProvider
 =
 dateTimeProvider
@@ -441,6 +451,9 @@ teardown
 )
 =
 runTest
+(
+testDispatcher
+)
 {
 tabCollectionStorage
 .
@@ -508,9 +521,7 @@ dateTimeProvider
 dateTimeProvider
 ioDispatcher
 =
-UnconfinedTestDispatcher
-(
-)
+testDispatcher
 )
 Test
 fun
@@ -537,6 +548,9 @@ groups
 )
 =
 runTest
+(
+testDispatcher
+)
 {
 tabCollectionStorage
 .
@@ -908,6 +922,9 @@ again
 )
 =
 runTest
+(
+testDispatcher
+)
 {
 tabCollectionStorage
 .
@@ -1059,6 +1076,9 @@ migrated
 )
 =
 runTest
+(
+testDispatcher
+)
 {
 val
 recipesId
@@ -1277,6 +1297,9 @@ untouched
 )
 =
 runTest
+(
+testDispatcher
+)
 {
 settings
 .
