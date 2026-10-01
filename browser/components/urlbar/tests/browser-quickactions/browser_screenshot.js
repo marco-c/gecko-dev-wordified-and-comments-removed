@@ -30,6 +30,8 @@ content
 /
 test
 /
+browser
+-
 general
 /
 dummy_page

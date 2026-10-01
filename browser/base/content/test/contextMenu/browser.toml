@@ -52,6 +52,8 @@ png
 .
 .
 /
+browser
+-
 general
 /
 head
@@ -62,6 +64,8 @@ js
 .
 .
 /
+browser
+-
 general
 /
 audio
@@ -140,6 +144,8 @@ files
 .
 .
 /
+browser
+-
 general
 /
 video
