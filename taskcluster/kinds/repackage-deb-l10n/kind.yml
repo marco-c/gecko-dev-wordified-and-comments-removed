@@ -165,6 +165,10 @@ linux64
 shippable
 /
 opt
+-
+linux64
+/
+opt
 tasks
 :
 repackage
@@ -186,6 +190,14 @@ single
 with
 -
 filters
+run
+-
+on
+-
+projects
+:
+[
+]
 worker
 -
 type

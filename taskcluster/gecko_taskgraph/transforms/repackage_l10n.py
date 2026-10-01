@@ -71,9 +71,8 @@ job
 assert
 dep_job
         
-for
-locale
-in
+locales
+=
 dep_job
 .
 attributes
@@ -83,9 +82,27 @@ get
 "
 chunk_locales
 "
+)
+or
+dep_job
+.
+attributes
+.
+get
+(
+            
+"
+all_locales
+"
 [
 ]
+        
 )
+        
+for
+locale
+in
+locales
 :
             
 locale_job
