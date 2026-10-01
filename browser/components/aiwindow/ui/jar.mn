@@ -3393,7 +3393,7 @@ components
 /
 aitab
 -
-shared
+base
 .
 css
 (
@@ -3405,7 +3405,7 @@ page
 /
 aitab
 -
-shared
+base
 .
 css
 )
