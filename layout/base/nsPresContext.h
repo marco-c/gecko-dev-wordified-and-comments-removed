@@ -1335,7 +1335,7 @@ GetKeyboardHeight
 const
 ;
 bool
-IsKeyboardVisibleOnOverlaysContent
+IsKeyboardHiddenOrResizesContentMode
 (
 )
 const
