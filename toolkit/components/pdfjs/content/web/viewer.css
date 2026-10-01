@@ -51245,6 +51245,16 @@ pdfPresentationMode
 {
 transition
 -
+property
+:
+inset
+-
+inline
+-
+start
+;
+transition
+-
 duration
 :
 var
