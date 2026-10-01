@@ -682,7 +682,7 @@ mozilla
 com
 expires
 :
-165
+170
 canvas_fingerprinting_type_text_by_source_per_tab2
 :
 type
@@ -1247,7 +1247,7 @@ mozilla
 com
 expires
 :
-165
+170
 canvas_fingerprinting_type_alias_by_source_per_tab2
 :
 type
@@ -1761,7 +1761,7 @@ mozilla
 com
 expires
 :
-165
+170
 font_fingerprinting_per_tab
 :
 type
@@ -1911,7 +1911,7 @@ mozilla
 com
 expires
 :
-160
+170
 storage_access_granted_count
 :
 type
