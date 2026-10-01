@@ -175,12 +175,9 @@ TabGroupsStripAction
 >
 (
 initialState
-{
-state
-_
--
->
-state
-}
+TabGroupsStripReducer
+:
+:
+reduce
 middleware
 )
