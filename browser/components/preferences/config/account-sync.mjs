@@ -5496,6 +5496,11 @@ hidden
 :
 !
 accountsEnabled
+subcategory
+:
+"
+sync
+"
 items
 :
 [

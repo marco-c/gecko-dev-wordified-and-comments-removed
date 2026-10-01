@@ -19034,6 +19034,8 @@ openPreferences
 (
 "
 paneSync
+-
+sync
 "
 {
 origin
@@ -19376,6 +19378,8 @@ about
 :
 preferences
 #
+sync
+-
 sync
 "
 "
