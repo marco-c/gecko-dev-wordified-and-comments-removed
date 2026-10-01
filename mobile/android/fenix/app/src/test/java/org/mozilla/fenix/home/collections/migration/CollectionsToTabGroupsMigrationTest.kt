@@ -359,7 +359,7 @@ fenix
 .
 tabgroups
 .
-fakes
+fixtures
 .
 FakeTabGroupRepository
 import
