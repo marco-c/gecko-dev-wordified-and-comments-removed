@@ -227,6 +227,11 @@ TestAudioConfig
 cpp
 "
 "
+TestAudioConverter
+.
+cpp
+"
+"
 TestAudioData
 .
 cpp
