@@ -1261,6 +1261,13 @@ if
 aSanitizer
 )
 {
+aSanitizer
+-
+>
+RecordSanitizeUse
+(
+)
+;
 mSanitizerState
 =
 mozilla

@@ -555,6 +555,9 @@ modify
 multiple
 lists
 :
+[
+UseCounter
+]
 boolean
 removeUnsafe
 (
