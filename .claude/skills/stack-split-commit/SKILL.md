@@ -7,7 +7,7 @@ stack
 -
 split
 -
-jj
+commit
 description
 :
 Steps

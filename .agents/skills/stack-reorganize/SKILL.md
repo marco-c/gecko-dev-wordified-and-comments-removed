@@ -6,8 +6,6 @@ name
 stack
 -
 reorganize
--
-jj
 description
 :
 Analyze
@@ -1603,7 +1601,7 @@ stack
 -
 split
 -
-jj
+commit
 skill
 .
 jj
