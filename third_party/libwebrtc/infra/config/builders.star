@@ -570,7 +570,7 @@ priority
 30
 execution_timeout
 =
-2
+3
 *
 time
 .
