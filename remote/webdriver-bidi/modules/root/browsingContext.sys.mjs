@@ -7542,6 +7542,11 @@ this
 _getNavigable
 (
 navigableId
+{
+supportsPrivilegedScope
+:
+true
+}
 )
 ;
 lazy
