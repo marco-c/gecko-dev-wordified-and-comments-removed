@@ -1565,6 +1565,9 @@ ColorInterpolation
 "
 FontOpticalSizing
 "
+"
+FontKerning
+"
 ]
 item_types
 =

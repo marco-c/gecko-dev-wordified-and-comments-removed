@@ -1300,7 +1300,10 @@ kerning
 )
 {
 case
-NS_FONT_KERNING_NONE
+StyleFontKerning
+:
+:
+None
 :
 setting
 .
@@ -1321,7 +1324,10 @@ setting
 break
 ;
 case
-NS_FONT_KERNING_NORMAL
+StyleFontKerning
+:
+:
+Normal
 :
 setting
 .
