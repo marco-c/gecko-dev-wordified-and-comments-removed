@@ -2274,6 +2274,14 @@ swgl_AASlope
 .
 0f
 ;
+static
+float
+swgl_AAMaxCoverage
+=
+256
+.
+0f
+;
 template
 <
 typename
@@ -2544,9 +2552,7 @@ y
 0
 .
 0f
-256
-.
-0f
+swgl_AAMaxCoverage
 )
 ;
 \
