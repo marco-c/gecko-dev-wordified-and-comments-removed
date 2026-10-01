@@ -1994,6 +1994,11 @@ ice_restart
 false
 ;
 bool
+restrict_offer_to_stable_or_have_local_offer
+=
+false
+;
+bool
 use_rtp_mux
 =
 true
