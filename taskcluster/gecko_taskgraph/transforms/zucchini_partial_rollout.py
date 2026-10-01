@@ -24,32 +24,14 @@ partials_transforms
 TransformSequence
 (
 )
-LEGACY_PARTIALS_PROJECTS
+ZUCCHINI_PARTIALS_PROJECTS
 =
 {
     
 "
 mozilla
 -
-beta
-"
-    
-"
-mozilla
--
-release
-"
-    
-"
-mozilla
--
-esr115
-"
-    
-"
-mozilla
--
-esr140
+central
 "
 }
 partials_transforms
@@ -134,9 +116,8 @@ params
 project
 "
 ]
-not
 in
-LEGACY_PARTIALS_PROJECTS
+ZUCCHINI_PARTIALS_PROJECTS
 :
         
 return
@@ -337,9 +318,8 @@ params
 project
 "
 ]
-not
 in
-LEGACY_PARTIALS_PROJECTS
+ZUCCHINI_PARTIALS_PROJECTS
         
 )
 :
@@ -377,8 +357,9 @@ params
 project
 "
 ]
+not
 in
-LEGACY_PARTIALS_PROJECTS
+ZUCCHINI_PARTIALS_PROJECTS
         
 )
 :

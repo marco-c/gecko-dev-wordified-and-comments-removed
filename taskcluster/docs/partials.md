@@ -1039,7 +1039,7 @@ channel
 based
 on
 the
-LEGACY_PARTIALS_PROJECTS
+ZUCCHINI_PARTIALS_PROJECTS
 set
 :
 -
@@ -1048,9 +1048,6 @@ set
 mozilla
 -
 central
-mozilla
--
-beta
 *
 *
 (
@@ -1064,11 +1061,7 @@ zucchini
 -
 *
 *
-mozilla
--
-release
-ESR
-channels
+elsewhere
 *
 *
 :
@@ -1173,11 +1166,11 @@ to
 other
 channels
 by
-removing
+adding
 entries
-from
+to
 the
-LEGACY_PARTIALS_PROJECTS
+ZUCCHINI_PARTIALS_PROJECTS
 set
 in
 the
