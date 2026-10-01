@@ -303,11 +303,11 @@ const
 DEFAULT_LAUNCHER_TOOLS
 =
 "
-aichat
-syncedtabs
-history
-bookmarks
 opentabs
+bookmarks
+aichat
+history
+syncedtabs
 "
 ;
 const
