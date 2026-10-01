@@ -3380,7 +3380,7 @@ zone
 zone
 -
 >
-forceDiscardJitCode
+discardJitCodeForAllRealms
 (
 runtime
 (
