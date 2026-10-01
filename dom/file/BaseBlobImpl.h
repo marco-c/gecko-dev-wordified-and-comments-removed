@@ -293,6 +293,7 @@ ErrorResult
 &
 aRv
 )
+const
 override
 {
 return

@@ -291,6 +291,7 @@ ErrorResult
 &
 aRv
 )
+const
 override
 ;
 void
@@ -595,6 +596,7 @@ override
 class
 GetTypeRunnable
 ;
+mutable
 Mutex
 mMutex
 MOZ_UNANNOTATED
@@ -627,6 +629,7 @@ mStart
 int64_t
 mFileId
 ;
+mutable
 Maybe
 <
 uint64_t
