@@ -91,6 +91,15 @@ toml
 "
 test
 /
+browser
+/
+browser_smartwindow
+.
+toml
+"
+"
+test
+/
 browser_perf
 /
 perftest
