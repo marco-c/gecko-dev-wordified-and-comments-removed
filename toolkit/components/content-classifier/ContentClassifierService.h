@@ -158,6 +158,13 @@ h
 #
 include
 "
+nsCharSeparatedTokenizer
+.
+h
+"
+#
+include
+"
 mozilla
 /
 ContentClassifierEngine

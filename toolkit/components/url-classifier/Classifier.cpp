@@ -166,6 +166,13 @@ h
 "
 #
 include
+"
+nsCharSeparatedTokenizer
+.
+h
+"
+#
+include
 <
 bit
 >

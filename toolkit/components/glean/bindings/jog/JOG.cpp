@@ -123,6 +123,13 @@ nsTHashSet
 h
 "
 #
+include
+"
+nsCharSeparatedTokenizer
+.
+h
+"
+#
 ifdef
 ANDROID
 #

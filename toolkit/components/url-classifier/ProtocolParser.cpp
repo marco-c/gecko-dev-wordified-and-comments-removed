@@ -129,6 +129,13 @@ IntegerPrintfMacros
 .
 h
 "
+#
+include
+"
+nsCharSeparatedTokenizer
+.
+h
+"
 extern
 mozilla
 :

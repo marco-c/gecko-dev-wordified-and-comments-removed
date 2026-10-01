@@ -25,6 +25,15 @@ nsITerminatorTest
 .
 h
 "
+#
+include
+"
+mozilla
+/
+ShutdownPhase
+.
+h
+"
 namespace
 mozilla
 {

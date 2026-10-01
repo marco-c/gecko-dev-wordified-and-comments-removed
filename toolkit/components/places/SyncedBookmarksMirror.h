@@ -39,6 +39,7 @@ mozilla
 namespace
 places
 {
+inline
 already_AddRefed
 <
 mozISyncedBookmarksMerger

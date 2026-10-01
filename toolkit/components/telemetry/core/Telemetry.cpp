@@ -451,6 +451,13 @@ endif
 #
 include
 "
+nsCRTGlue
+.
+h
+"
+#
+include
+"
 nsJSUtils
 .
 h

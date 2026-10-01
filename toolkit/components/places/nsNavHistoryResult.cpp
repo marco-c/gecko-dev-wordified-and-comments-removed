@@ -78,6 +78,13 @@ h
 #
 include
 "
+nsCharSeparatedTokenizer
+.
+h
+"
+#
+include
+"
 mozilla
 /
 dom
