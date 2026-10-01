@@ -1189,7 +1189,7 @@ widget
 -
 menu
 -
-button
+button2
 '
 ]
 "
@@ -4192,7 +4192,7 @@ widget
 -
 menu
 -
-button
+button2
 '
 ]
 "

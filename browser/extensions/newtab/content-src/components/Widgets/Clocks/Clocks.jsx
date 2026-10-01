@@ -2145,7 +2145,7 @@ widget
 -
 menu
 -
-button
+button2
 "
 iconSrc
 =
