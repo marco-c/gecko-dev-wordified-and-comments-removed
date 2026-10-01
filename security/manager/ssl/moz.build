@@ -125,6 +125,11 @@ nsICtapCableChannel
 idl
 "
 "
+nsICtapCableHandshake
+.
+idl
+"
+"
 nsIDataStorage
 .
 idl

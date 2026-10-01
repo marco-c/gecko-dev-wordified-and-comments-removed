@@ -90,6 +90,15 @@ rust
 nserror
 "
 }
+sha2
+=
+"
+0
+.
+10
+.
+2
+"
 thin
 -
 vec

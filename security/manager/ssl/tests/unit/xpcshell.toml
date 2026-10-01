@@ -1129,6 +1129,13 @@ js
 ]
 [
 "
+test_ctap_cable_handshake
+.
+js
+"
+]
+[
+"
 test_data_storage
 .
 js
