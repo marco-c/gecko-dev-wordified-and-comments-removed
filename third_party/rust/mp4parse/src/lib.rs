@@ -5542,6 +5542,10 @@ sample_size
 :
 u32
 pub
+sample_count
+:
+u32
+pub
 sample_sizes
 :
 TryVec
@@ -25860,6 +25864,7 @@ Ok
 SampleSizeBox
 {
 sample_size
+sample_count
 sample_sizes
 }
 )
