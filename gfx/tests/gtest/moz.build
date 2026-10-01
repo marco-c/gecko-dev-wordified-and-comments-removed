@@ -113,6 +113,11 @@ TestCopyPlane
 cpp
 "
 "
+TestFilterNodeSoftware
+.
+cpp
+"
+"
 TestFontFallback
 .
 cpp
