@@ -167,8 +167,6 @@ aTimeout
 PrefetchMatchWaiter
 (
 )
-=
-default
 ;
 void
 Resolve

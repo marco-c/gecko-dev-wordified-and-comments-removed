@@ -509,7 +509,9 @@ results
 {
 for
 (
+const
 nsCString
+&
 feature
 :
 mFeatures

@@ -104,13 +104,7 @@ aGlobal
 =
 nullptr
 )
-:
-JSActor
-(
-aGlobal
-)
-{
-}
+;
 JSObject
 *
 WrapObject
