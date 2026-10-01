@@ -65,6 +65,8 @@ rules
 mk
 ifdef
 MAKENSISU
+ifdef
+MOZ_USE_MAKEFILE_INSTALLER_BUILD
 #
 For
 Windows
@@ -157,6 +159,9 @@ test_stub_installer
 endif
 #
 ENABLE_TESTS
+endif
+#
+MOZ_USE_MAKEFILE_INSTALLER_BUILD
 endif
 #
 MAKENSISU
