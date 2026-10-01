@@ -247,6 +247,13 @@ js
 ]
 [
 "
+test_creditCardCVVPrefs
+.
+js
+"
+]
+[
+"
 test_creditCardRecords
 .
 js
