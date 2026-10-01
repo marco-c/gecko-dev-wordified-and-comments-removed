@@ -12711,7 +12711,7 @@ manifests
 )
 :
                 
-mpath
+norm_path
 =
 mozpath
 .
@@ -12731,7 +12731,7 @@ mozpath
 .
 basename
 (
-mpath
+norm_path
 )
 )
                 
@@ -12739,7 +12739,7 @@ obj
 .
 installs
 [
-mpath
+norm_path
 ]
 =
 (

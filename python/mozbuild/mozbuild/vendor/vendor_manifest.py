@@ -3630,7 +3630,7 @@ changes
 )
                 
 for
-file
+path
 in
 self
 .
@@ -3646,17 +3646,17 @@ vendor_dir
 )
 :
                     
-file
+norm_path
 =
 mozpath
 .
 normsep
 (
-file
+path
 )
                     
 if
-file
+norm_path
 not
 in
 to_keep
@@ -3666,7 +3666,7 @@ mozfile
 .
 remove
 (
-file
+norm_path
 )
                 
 self

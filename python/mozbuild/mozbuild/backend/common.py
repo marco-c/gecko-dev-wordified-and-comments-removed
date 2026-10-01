@@ -2918,7 +2918,7 @@ s
 )
 :
                     
-s
+rel_path
 =
 mozpath
 .
@@ -2927,6 +2927,13 @@ relpath
 s
 output_directory
 )
+                
+else
+:
+                    
+rel_path
+=
+s
                 
 f
 .
@@ -2939,7 +2946,7 @@ includeTemplate
 cppfile
 "
 :
-s
+rel_path
 }
 )
                 
