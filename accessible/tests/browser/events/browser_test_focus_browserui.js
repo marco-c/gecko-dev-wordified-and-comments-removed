@@ -132,7 +132,7 @@ button
 "
 >
 {
-contentDocBodyAttrs
+contentDocAttrs
 :
 {
 id

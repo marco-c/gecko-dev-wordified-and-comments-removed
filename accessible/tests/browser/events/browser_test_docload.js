@@ -150,7 +150,7 @@ browser
 [
 EVENT_DOCUMENT_LOAD_COMPLETE
 "
-body2
+html
 "
 ]
 [
@@ -199,14 +199,14 @@ utf
 8
 <
 html
->
-<
-body
 id
 =
 "
-body2
+html
 "
+>
+<
+body
 >
 <
 iframe
