@@ -9390,16 +9390,13 @@ if
 (
 candidate
 .
-find
+starts_with
 (
 "
 a
 =
 "
 )
-=
-=
-0
 )
 {
 candidate

@@ -1056,7 +1056,7 @@ if
 (
 url
 .
-find
+starts_with
 (
 "
 http
@@ -1065,9 +1065,6 @@ http
 /
 "
 )
-=
-=
-0
 )
 {
 url
@@ -1085,7 +1082,7 @@ if
 (
 url
 .
-find
+starts_with
 (
 "
 https
@@ -1094,9 +1091,6 @@ https
 /
 "
 )
-=
-=
-0
 )
 {
 url
