@@ -271,8 +271,7 @@ JSContext
 cx
 Handle
 <
-JSScript
-*
+Value
 >
 referrer
 Handle

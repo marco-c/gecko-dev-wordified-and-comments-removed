@@ -1358,8 +1358,7 @@ GetScriptFetchInfoOrNull
 (
 Handle
 <
-JSScript
-*
+Value
 >
 aReferrer
 )
@@ -1379,8 +1378,7 @@ JSContext
 aCx
 Handle
 <
-JSScript
-*
+Value
 >
 aReferrer
 Handle

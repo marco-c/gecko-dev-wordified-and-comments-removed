@@ -271,10 +271,9 @@ SetImport
 (
 Handle
 <
-JSScript
-*
+Value
 >
-aReferrerScript
+aReferrer
 Handle
 <
 JSObject
@@ -608,10 +607,9 @@ mModuleScript
 ;
 Heap
 <
-JSScript
-*
+Value
 >
-mReferrerScript
+mReferrerValue
 ;
 Heap
 <
