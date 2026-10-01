@@ -5078,14 +5078,6 @@ Copy
 "
 Screenshots
 :
-MiniWindow
-"
-:
-{
-}
-"
-Screenshots
-:
 Download
 "
 :
