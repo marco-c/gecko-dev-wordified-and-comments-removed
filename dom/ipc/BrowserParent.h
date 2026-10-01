@@ -3873,8 +3873,10 @@ BrowserBridgeParent
 *
 mBrowserBridgeParent
 ;
+RefPtr
+<
 BrowserHost
-*
+>
 mBrowserHost
 ;
 UniqueContentParentKeepAlive

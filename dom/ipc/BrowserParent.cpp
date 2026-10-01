@@ -1709,6 +1709,10 @@ NS_IMPL_CYCLE_COLLECTION_UNLINK
 (
 mBrowserDOMWindow
 )
+NS_IMPL_CYCLE_COLLECTION_UNLINK
+(
+mBrowserHost
+)
 tmp
 -
 >
@@ -1737,6 +1741,10 @@ mFrameElement
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE
 (
 mBrowserDOMWindow
+)
+NS_IMPL_CYCLE_COLLECTION_TRAVERSE
+(
+mBrowserHost
 )
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE_RAWPTR
 (
@@ -1805,10 +1813,6 @@ mChromeFlags
 aChromeFlags
 )
 mBrowserBridgeParent
-(
-nullptr
-)
-mBrowserHost
 (
 nullptr
 )
@@ -4474,6 +4478,10 @@ why
 =
 ManagedEndpointDropped
 )
+;
+mBrowserHost
+=
+nullptr
 ;
 }
 mozilla
