@@ -34,6 +34,17 @@ mozilla
 /
 dom
 /
+Promise
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 WebXRBinding
 .
 h
