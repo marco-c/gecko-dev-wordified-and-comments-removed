@@ -9919,8 +9919,10 @@ MOZ_ASSERT
 aStatus
 )
 ;
+RefPtr
+<
 BrowserParent
-*
+>
 remote
 =
 aRemoteTarget
@@ -9998,8 +10000,10 @@ IsValid
 )
 )
 {
+RefPtr
+<
 BrowserParent
-*
+>
 preciseRemote
 =
 BrowserParent
@@ -10021,6 +10025,10 @@ preciseRemote
 remote
 =
 preciseRemote
+.
+forget
+(
+)
 ;
 }
 }

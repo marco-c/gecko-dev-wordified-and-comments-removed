@@ -17874,8 +17874,13 @@ mMessage
 eDrop
 )
 ;
-auto
-*
+RefPtr
+<
+dom
+:
+:
+BrowserParent
+>
 bp
 =
 dom

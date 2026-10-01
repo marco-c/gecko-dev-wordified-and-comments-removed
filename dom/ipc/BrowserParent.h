@@ -448,8 +448,10 @@ aContent
 )
 ;
 static
+already_AddRefed
+<
 BrowserParent
-*
+>
 GetBrowserParentFromLayersId
 (
 layers
@@ -3617,8 +3619,7 @@ typedef
 nsTHashMap
 <
 nsUint64HashKey
-BrowserParent
-*
+nsWeakPtr
 >
 LayerToBrowserParentTable
 ;
