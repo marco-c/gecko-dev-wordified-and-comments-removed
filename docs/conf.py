@@ -433,6 +433,9 @@ useMaxWidth
 False
 }
 }
+mermaid_include_zenuml
+=
+True
 with
 open
 (
