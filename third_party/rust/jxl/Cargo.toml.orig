@@ -26,7 +26,7 @@ version
 .
 7
 .
-3
+4
 "
 readme
 =
@@ -142,7 +142,7 @@ version
 .
 7
 .
-3
+4
 "
 }
 thiserror
@@ -227,7 +227,7 @@ version
 .
 7
 .
-3
+4
 "
 }
 jxl_simd
@@ -249,7 +249,7 @@ version
 .
 7
 .
-3
+4
 "
 }
 shuttle
@@ -366,7 +366,7 @@ version
 .
 7
 .
-3
+4
 "
 features
 =
