@@ -8410,6 +8410,14 @@ nscoord
 aCBBSize
 nscoord
 aContentEdgeToBoxSizingBSize
+nscoord
+aMargin
+=
+0
+nscoord
+aBorderPadding
+=
+0
 )
 ;
 protected

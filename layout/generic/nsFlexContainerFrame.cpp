@@ -26777,7 +26777,7 @@ FromAppUnits
 nsLayoutUtils
 :
 :
-ComputeStretchBSize
+ComputeStretchSize
 (
 aInput
 .
