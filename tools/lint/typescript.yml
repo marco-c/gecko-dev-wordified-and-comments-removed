@@ -106,13 +106,6 @@ extensions
 newtab
 /
 -
-devtools
-/
-client
-/
-settings
-/
--
 toolkit
 /
 components
