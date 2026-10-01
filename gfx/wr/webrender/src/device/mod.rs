@@ -3,7 +3,7 @@ gl
 ;
 pub
 mod
-query_gl
+query
 ;
 pub
 use
@@ -14,13 +14,4 @@ gl
 :
 :
 *
-;
-pub
-use
-self
-:
-:
-query_gl
-as
-query
 ;
