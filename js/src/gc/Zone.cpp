@@ -1825,6 +1825,9 @@ key
 }
 #
 endif
+#
+ifdef
+DEBUG
 bool
 Zone
 :
@@ -1878,6 +1881,8 @@ return
 false
 ;
 }
+#
+endif
 void
 Zone
 :

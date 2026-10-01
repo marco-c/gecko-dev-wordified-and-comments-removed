@@ -4855,7 +4855,7 @@ session
 )
 ;
 bool
-shouldPreserveJITCode
+shouldRealmPreserveJitCode
 (
 JS
 :
@@ -4870,10 +4870,6 @@ mozilla
 TimeStamp
 &
 currentTime
-bool
-canAllocateMoreCode
-bool
-isActiveCompartment
 )
 ;
 void
@@ -4894,12 +4890,6 @@ TimeStamp
 currentTime
 bool
 canAllocateMoreCode
-JS
-:
-:
-Compartment
-*
-activeCompartment
 )
 ;
 void
