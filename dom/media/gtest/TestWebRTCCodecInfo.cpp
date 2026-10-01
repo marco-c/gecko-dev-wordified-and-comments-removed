@@ -670,6 +670,7 @@ MakeWebrtcEncoderConfig
 aMime
 )
 mTaskQueue
+nullptr
 )
 )
 ;

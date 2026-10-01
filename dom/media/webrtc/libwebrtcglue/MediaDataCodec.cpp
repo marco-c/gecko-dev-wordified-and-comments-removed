@@ -623,6 +623,9 @@ TaskQueue
 >
 &
 aTaskQueue
+AllocPolicy
+*
+aPolicy
 )
 {
 if
@@ -700,6 +703,7 @@ StrictSupportsAsync
 (
 aConfig
 aTaskQueue
+aPolicy
 )
 -
 >

@@ -63,6 +63,9 @@ namespace
 mozilla
 {
 class
+AllocPolicy
+;
+class
 WebrtcVideoDecoder
 ;
 class
@@ -186,6 +189,9 @@ TaskQueue
 >
 &
 aTaskQueue
+AllocPolicy
+*
+aPolicy
 )
 ;
 static
