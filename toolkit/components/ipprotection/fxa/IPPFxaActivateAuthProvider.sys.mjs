@@ -252,7 +252,7 @@ createInstance
 prefix
 :
 "
-IPPFxaActivateAuthProvider
+IPP_FxaActivateAuthProvider
 "
 maxLogLevel
 :

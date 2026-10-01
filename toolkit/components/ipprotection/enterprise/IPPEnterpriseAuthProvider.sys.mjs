@@ -188,7 +188,7 @@ createInstance
 prefix
 :
 "
-IPPEnterpriseAuthProvider
+IPP_EnterpriseAuthProvider
 "
 maxLogLevel
 :

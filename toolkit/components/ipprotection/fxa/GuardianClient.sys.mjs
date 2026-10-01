@@ -291,7 +291,7 @@ createInstance
 prefix
 :
 "
-GuardianClient
+IPP_GuardianClient
 "
 maxLogLevel
 :

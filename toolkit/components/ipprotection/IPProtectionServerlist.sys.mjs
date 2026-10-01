@@ -129,7 +129,7 @@ createInstance
 prefix
 :
 "
-IPProtectionServerlist
+IPP_Serverlist
 "
 maxLogLevel
 :

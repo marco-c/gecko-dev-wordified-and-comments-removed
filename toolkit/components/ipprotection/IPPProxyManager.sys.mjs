@@ -1079,7 +1079,7 @@ createInstance
 prefix
 :
 "
-IPPProxyManager
+IPP_ProxyManager
 "
 maxLogLevel
 :

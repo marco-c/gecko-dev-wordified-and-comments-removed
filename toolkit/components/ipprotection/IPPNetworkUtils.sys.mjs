@@ -115,7 +115,7 @@ createInstance
 prefix
 :
 "
-IPPNetworkUtils
+IPP_NetworkUtils
 "
 maxLogLevel
 :

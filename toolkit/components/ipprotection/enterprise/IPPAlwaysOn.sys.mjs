@@ -282,7 +282,7 @@ createInstance
 prefix
 :
 "
-IPPAlwaysOn
+IPP_AlwaysOn
 "
 maxLogLevel
 :

@@ -122,7 +122,7 @@ createInstance
 prefix
 :
 "
-GuardianTypes
+IPP_GuardianTypes
 "
 maxLogLevel
 :
