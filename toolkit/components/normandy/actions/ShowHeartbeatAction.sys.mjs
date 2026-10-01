@@ -1177,12 +1177,15 @@ appinfo
 version
 isDefaultBrowser
 :
+(
+await
 lazy
 .
 ShellService
 .
-isDefaultBrowser
+isDefaultBrowserAsync
 (
+)
 )
 ?
 1
