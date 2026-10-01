@@ -76,6 +76,15 @@ C
 +
 +
 #
+include
+"
+mozilla
+/
+TypedEnumBits
+.
+h
+"
+#
 define
 NS_WINDOWMEDIATOR_CID
 \
