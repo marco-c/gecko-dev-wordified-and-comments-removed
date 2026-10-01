@@ -135,5 +135,4 @@ Tabbrowser
 _findTabToBlurTo
 _getTabsToTheEndFrom
 _getTabsToTheStartFrom
-_getTriggeringPrincipalFromHistory
 _printPreviewBrowsers
