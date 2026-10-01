@@ -330,6 +330,9 @@ true
 supportsEnableWindowGlobalThreadActors
 :
 true
+supportsGridGetFragments
+:
+true
 }
 ;
 }
