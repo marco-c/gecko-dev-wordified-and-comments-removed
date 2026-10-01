@@ -643,15 +643,6 @@ IntSize
 0
 )
 ;
-Maybe
-<
-gfx
-:
-:
-IntSize
->
-mLastReportedSize
-;
 struct
 AtomicBool
 {

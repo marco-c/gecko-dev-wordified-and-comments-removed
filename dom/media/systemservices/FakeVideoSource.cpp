@@ -1388,17 +1388,6 @@ crLen
 #
 ifdef
 MOZ_WEBRTC
-if
-(
-!
-StaticPrefs
-:
-:
-media_getusermedia_camera_fake_rotation_test_pattern
-(
-)
-)
-{
 uint64_t
 timestamp
 =
@@ -1436,7 +1425,6 @@ timestamp
 0
 )
 ;
-}
 #
 endif
 bool

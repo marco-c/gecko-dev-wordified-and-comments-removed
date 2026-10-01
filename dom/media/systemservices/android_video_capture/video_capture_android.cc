@@ -822,12 +822,14 @@ kVideoRotation_0
 VideoFrame
 captureFrame
 (
-std
+I420Buffer
 :
 :
-move
+Rotate
 (
+*
 buffer
+rotation
 )
 0
 webrtc
