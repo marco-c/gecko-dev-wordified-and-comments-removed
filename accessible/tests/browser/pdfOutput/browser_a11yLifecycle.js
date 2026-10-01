@@ -85,7 +85,7 @@ children
 ;
 }
 function
-snippetBodyId
+snippetDocId
 (
 variant
 )
@@ -100,9 +100,9 @@ variant
 .
 remoteIframe
 ?
-DEFAULT_IFRAME_DOC_BODY_ID
+DEFAULT_IFRAME_DOC_ID
 :
-DEFAULT_CONTENT_DOC_BODY_ID
+DEFAULT_CONTENT_DOC_ID
 ;
 }
 addPdfTabTask
@@ -179,7 +179,7 @@ docLoaded
 waitForEvent
 (
 EVENT_DOCUMENT_LOAD_COMPLETE
-snippetBodyId
+snippetDocId
 (
 ctx
 .
@@ -1022,7 +1022,7 @@ docLoaded
 waitForEvent
 (
 EVENT_DOCUMENT_LOAD_COMPLETE
-snippetBodyId
+snippetDocId
 (
 ctx
 .

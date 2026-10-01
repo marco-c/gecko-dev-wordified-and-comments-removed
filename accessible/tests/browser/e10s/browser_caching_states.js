@@ -1041,7 +1041,7 @@ waitForCondition
 findAccessibleChildByID
 (
 topDocAcc
-DEFAULT_IFRAME_DOC_BODY_ID
+DEFAULT_IFRAME_DOC_ID
 )
 )
 ;
