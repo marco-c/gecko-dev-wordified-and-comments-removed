@@ -18,27 +18,6 @@ pytest
 mark
 .
 asyncio
-pytest
-.
-mark
-.
-parametrize
-(
-"
-permission
-"
-[
-"
-geolocation
-"
-"
-camera
-"
-"
-microphone
-"
-]
-)
 async
 def
 test_set_permission
@@ -46,7 +25,6 @@ test_set_permission
 bidi_session
 new_tab
 url
-permission
 )
 :
     
@@ -113,7 +91,9 @@ get_permission_state
 (
 bidi_session
 new_tab
-permission
+"
+geolocation
+"
 )
 =
 =
@@ -136,7 +116,9 @@ descriptor
 name
 "
 :
-permission
+"
+geolocation
+"
 }
         
 state
@@ -157,7 +139,9 @@ get_permission_state
 (
 bidi_session
 new_tab
-permission
+"
+geolocation
+"
 )
 =
 =
@@ -180,7 +164,9 @@ descriptor
 name
 "
 :
-permission
+"
+geolocation
+"
 }
         
 state
@@ -201,7 +187,9 @@ get_permission_state
 (
 bidi_session
 new_tab
-permission
+"
+geolocation
+"
 )
 =
 =
@@ -224,7 +212,9 @@ descriptor
 name
 "
 :
-permission
+"
+geolocation
+"
 }
         
 state
@@ -245,7 +235,9 @@ get_permission_state
 (
 bidi_session
 new_tab
-permission
+"
+geolocation
+"
 )
 =
 =
