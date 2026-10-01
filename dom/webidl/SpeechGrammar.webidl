@@ -141,9 +141,6 @@ constructor
 (
 )
 ;
-[
-Throws
-]
 attribute
 DOMString
 src
