@@ -490,12 +490,6 @@ audio_mixer
 ;
 PeerConfigurer
 *
-SetUseNetworkThreadAsWorkerThread
-(
-)
-;
-PeerConfigurer
-*
 SetAsyncDnsResolverFactory
 (
 std

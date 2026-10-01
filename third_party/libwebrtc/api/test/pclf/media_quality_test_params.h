@@ -508,10 +508,6 @@ network_thread
 (
 network_thread
 )
-worker_thread
-(
-nullptr
-)
 pcf_dependencies
 (
 std
@@ -567,10 +563,6 @@ Thread
 *
 const
 network_thread
-;
-Thread
-*
-worker_thread
 ;
 std
 :
