@@ -7,6 +7,15 @@ LlamaRuntimeLinker_h_
 #
 include
 "
+mozilla
+/
+Atomics
+.
+h
+"
+#
+include
+"
 llama
 /
 llama
@@ -1041,7 +1050,10 @@ LlamaLibWrapper
 sLlamaLib
 ;
 static
+Atomic
+<
 LinkStatus
+>
 sLinkStatus
 ;
 }
