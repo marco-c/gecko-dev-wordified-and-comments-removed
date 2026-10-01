@@ -104,6 +104,7 @@ IncludeStroke
 IncludeStrokeGeometry
 IncludeMarkers
 IncludeClipped
+EstimateStrokeBounds
 UseFrameBoundsForOuterSVG
 TextContentBounds
 DisregardCSSZoom
