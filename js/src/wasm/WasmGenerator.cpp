@@ -1736,6 +1736,12 @@ CodeRange
 :
 BuiltinThunk
 :
+case
+CodeRange
+:
+:
+ReturnCallTrampoline
+:
 MOZ_CRASH
 (
 "
