@@ -202,6 +202,9 @@ llama
 "
 ipc
 "
+"
+textgeneration
+"
 ]
 if
 CONFIG
