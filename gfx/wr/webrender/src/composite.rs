@@ -6839,17 +6839,6 @@ self
 )
 ;
 fn
-enable_native_compositor
-(
-&
-mut
-self
-enable
-:
-bool
-)
-;
-fn
 deinit
 (
 &
