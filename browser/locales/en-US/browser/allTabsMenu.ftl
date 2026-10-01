@@ -232,7 +232,7 @@ all
 label
 =
 Show
-all
+All
 #
 This
 is
