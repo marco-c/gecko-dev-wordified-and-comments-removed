@@ -492,6 +492,7 @@ ContentParent
 GetContentParent
 (
 )
+const
 ;
 nsIPrincipal
 *
