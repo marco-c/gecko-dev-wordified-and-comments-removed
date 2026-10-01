@@ -20181,10 +20181,6 @@ get
 :
 kAddIceCandidateFailClosed
 ;
-operations_chain_callback
-(
-)
-;
 switch
 (
 result
@@ -20338,6 +20334,10 @@ RTC_DCHECK_NOTREACHED
 )
 ;
 }
+operations_chain_callback
+(
+)
+;
 }
 )
 ;
