@@ -498,6 +498,10 @@ pub
 cosmetic_cache
 :
 usize
+pub
+resources
+:
+usize
 }
 #
 [
@@ -638,6 +642,11 @@ cosmetic_cache
 breakdown
 .
 cosmetic_cache
+resources
+:
+breakdown
+.
+resources
 }
 }
 #
