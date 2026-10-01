@@ -81,6 +81,12 @@ app
 "
 "
 .
+appcontent
+-
+ms
+"
+"
+.
 applescript
 "
 "
