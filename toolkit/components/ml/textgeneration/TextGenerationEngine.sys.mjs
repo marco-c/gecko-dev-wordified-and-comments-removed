@@ -1828,6 +1828,11 @@ flowId
 pipelineOptions
 .
 flowId
+hostProcess
+:
+"
+hwinference
+"
 }
 )
 ;

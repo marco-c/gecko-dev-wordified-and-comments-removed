@@ -2606,6 +2606,11 @@ MLTelemetry
 {
 featureId
 flowId
+hostProcess
+:
+"
+inference
+"
 }
 )
 ;
@@ -7525,6 +7530,11 @@ flowId
 pipelineOptions
 .
 flowId
+hostProcess
+:
+"
+inference
+"
 }
 )
 ;

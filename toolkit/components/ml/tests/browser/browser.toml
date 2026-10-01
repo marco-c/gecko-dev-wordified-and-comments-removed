@@ -584,6 +584,13 @@ js
 ]
 [
 "
+browser_ml_textgeneration_telemetry
+.
+js
+"
+]
+[
+"
 browser_ml_textgenerator
 .
 js
