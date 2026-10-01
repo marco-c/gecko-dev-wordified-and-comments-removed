@@ -8,6 +8,13 @@ gecko
 import
 android
 .
+annotation
+.
+SuppressLint
+;
+import
+android
+.
 content
 .
 Context
@@ -1304,6 +1311,12 @@ LIBS_READY
 )
 ;
 }
+SuppressLint
+(
+"
+AppBundleLocaleChanges
+"
+)
 private
 static
 void

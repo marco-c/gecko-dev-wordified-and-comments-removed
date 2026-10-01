@@ -169,6 +169,13 @@ MainActivity
 >
 <
 LinearLayout
+tools
+:
+ignore
+=
+"
+UselessParent
+"
 android
 :
 layout_width

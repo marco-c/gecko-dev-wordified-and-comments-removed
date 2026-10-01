@@ -8,6 +8,13 @@ gecko
 import
 android
 .
+annotation
+.
+SuppressLint
+;
+import
+android
+.
 content
 .
 BroadcastReceiver
@@ -199,6 +206,12 @@ LINK_DATA_CHANGED
 changed
 "
 ;
+SuppressLint
+(
+"
+StaticFieldLeak
+"
+)
 private
 static
 GeckoNetworkManager

@@ -160,6 +160,13 @@ MainActivity
 >
 <
 ScrollView
+tools
+:
+ignore
+=
+"
+UselessParent
+"
 android
 :
 layout_width

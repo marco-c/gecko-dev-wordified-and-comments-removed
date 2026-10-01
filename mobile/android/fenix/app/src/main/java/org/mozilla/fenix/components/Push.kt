@@ -67,6 +67,12 @@ components
 import
 android
 .
+annotation
+.
+SuppressLint
+import
+android
+.
 content
 .
 Context
@@ -274,6 +280,12 @@ R
 string
 .
 pref_key_push_project_id
+)
+SuppressLint
+(
+"
+DiscouragedApi
+"
 )
 val
 resId

@@ -2208,9 +2208,14 @@ WAKE_LOCK_STATE_LOCKED_BACKGROUND
 ;
 SuppressLint
 (
+{
 "
 Wakelock
 "
+"
+WakelockTimeout
+"
+}
 )
 private
 static

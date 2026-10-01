@@ -67,6 +67,12 @@ share
 import
 android
 .
+annotation
+.
+SuppressLint
+import
+android
+.
 content
 .
 ActivityNotFoundException
@@ -1880,6 +1886,12 @@ toString
 (
 )
 }
+SuppressLint
+(
+"
+InlinedApi
+"
+)
 private
 fun
 copyClipboard
