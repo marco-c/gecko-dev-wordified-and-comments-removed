@@ -127,6 +127,13 @@ py
 ]
 [
 "
+test_transforms_source_test
+.
+py
+"
+]
+[
+"
 test_transforms_task
 .
 py
