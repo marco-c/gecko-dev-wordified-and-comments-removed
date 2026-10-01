@@ -2067,7 +2067,7 @@ EXPECT_CALL
 (
 *
 receiver
-ssrc
+ssrc_s
 (
 )
 )
