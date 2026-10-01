@@ -393,7 +393,7 @@ fenix
 .
 components
 .
-ClientUUID
+ClientUuid
 import
 org
 .
@@ -571,7 +571,7 @@ debugsettings
 .
 integrity
 .
-FakeClientUUID
+FakeClientUuid
 import
 org
 .
@@ -1281,7 +1281,7 @@ creditCardsAddressesStorage
 CreditCardsAddressesStorage
 clientUUID
 :
-ClientUUID
+ClientUuid
 integrityClient
 :
 IntegrityClient
@@ -1817,7 +1817,7 @@ FakeCreditCardsAddressesStorage
 )
 clientUUID
 =
-FakeClientUUID
+FakeClientUuid
 (
 )
 integrityClient

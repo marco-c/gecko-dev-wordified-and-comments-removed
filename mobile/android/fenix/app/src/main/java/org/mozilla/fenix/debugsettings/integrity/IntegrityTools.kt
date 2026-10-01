@@ -173,7 +173,7 @@ fenix
 .
 components
 .
-ClientUUID
+ClientUuid
 /
 *
 *
@@ -216,7 +216,7 @@ IntegrityTools
 (
 clientUUID
 :
-ClientUUID
+ClientUuid
 integrityClient
 :
 IntegrityClient

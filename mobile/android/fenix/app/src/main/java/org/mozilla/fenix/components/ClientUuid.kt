@@ -157,7 +157,7 @@ hashing
 function
 to
 [
-ClientUUID
+ClientUuid
 ]
 .
 *
@@ -284,7 +284,7 @@ consumers
 *
 /
 interface
-ClientUUID
+ClientUuid
 :
 UserIdProvider
 RequestHashProvider
@@ -309,7 +309,7 @@ be
 used
 by
 [
-ClientUUID
+ClientUuid
 ]
 .
 *
@@ -326,7 +326,7 @@ an
 instance
 of
 [
-ClientUUID
+ClientUuid
 ]
 *
 /
@@ -338,10 +338,10 @@ context
 Context
 )
 :
-ClientUUID
+ClientUuid
 {
 return
-PrefsBackedClientUUID
+PrefsBackedClientUuid
 (
 {
 context
@@ -362,7 +362,7 @@ MODE_PRIVATE
 }
 internal
 class
-PrefsBackedClientUUID
+PrefsBackedClientUuid
 (
 private
 val
@@ -405,7 +405,7 @@ Hasher
 sha256
 )
 :
-ClientUUID
+ClientUuid
 {
 private
 val
