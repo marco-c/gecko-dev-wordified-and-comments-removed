@@ -821,6 +821,13 @@ cc
 "
 h264
 /
+h264_common_unittest
+.
+cc
+"
+"
+h264
+/
 pps_parser_unittest
 .
 cc
