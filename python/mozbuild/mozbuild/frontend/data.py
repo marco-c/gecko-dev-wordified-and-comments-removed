@@ -4208,6 +4208,10 @@ cargo_profile_suffix
 "
 cargo_crate_type
 "
+        
+"
+no_lto
+"
     
 )
     
@@ -4234,6 +4238,8 @@ is_gkrust
 cargo_profile_suffix
         
 cargo_crate_type
+        
+no_lto
     
 )
 :
@@ -4255,6 +4261,12 @@ self
 cargo_crate_type
 =
 cargo_crate_type
+        
+self
+.
+no_lto
+=
+no_lto
         
 self
 .
@@ -4506,6 +4518,10 @@ cargo_crate_type
 "
 "
         
+no_lto
+=
+False
+        
 link_into
 =
 None
@@ -4558,6 +4574,8 @@ is_gkrust
 cargo_profile_suffix
             
 cargo_crate_type
+            
+no_lto
         
 )
 class
@@ -5490,6 +5508,10 @@ cargo_crate_type
 =
 "
 "
+        
+no_lto
+=
+False
     
 )
 :
@@ -5527,6 +5549,8 @@ is_gkrust
 cargo_profile_suffix
             
 cargo_crate_type
+            
+no_lto
         
 )
 class

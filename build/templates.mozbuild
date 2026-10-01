@@ -675,6 +675,9 @@ None
 cargo_crate_type
 =
 None
+lto
+=
+True
 )
 :
 "
@@ -728,6 +731,13 @@ cargo_crate_type
 RUST_LIBRARY_CARGO_CRATE_TYPE
 =
 cargo_crate_type
+if
+not
+lto
+:
+RUST_LIBRARY_NO_LTO
+=
+True
 template
 def
 RustProgram
