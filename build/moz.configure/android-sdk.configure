@@ -280,12 +280,6 @@ os_name
 get_os_name_for_android
 (
 )
-os_tag
-=
-get_os_tag_for_android
-(
-os_name
-)
 os_arch
 =
 machine
@@ -330,6 +324,13 @@ os_arch
 "
 x86_64
 "
+os_tag
+=
+get_os_tag_for_android
+(
+os_name
+os_arch
+)
 if
 os_name
 =

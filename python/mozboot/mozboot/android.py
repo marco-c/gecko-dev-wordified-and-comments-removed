@@ -67,14 +67,14 @@ r29
 CMDLINE_TOOLS_VERSION_STRING
 =
 "
-21
+23
 .
 0
 "
 CMDLINE_TOOLS_VERSION
 =
 "
-15641748
+16111833
 "
 BUNDLETOOL_VERSION
 =
@@ -2050,6 +2050,9 @@ get_os_tag_for_android
 os_name
 :
 str
+os_arch
+:
+str
 )
 :
     
@@ -2061,8 +2064,12 @@ os_tag_map
 macosx
 "
 :
+f
 "
-mac
+mac_
+{
+os_arch
+}
 "
         
 "
@@ -2273,6 +2280,7 @@ os_tag
 get_os_tag_for_android
 (
 os_name
+os_arch
 )
     
 if
@@ -4993,13 +5001,6 @@ get_os_name_for_android
 (
 )
     
-os_tag
-=
-get_os_tag_for_android
-(
-os_name
-)
-    
 os_arch
 =
 options
@@ -5010,6 +5011,14 @@ platform
 .
 machine
 (
+)
+    
+os_tag
+=
+get_os_tag_for_android
+(
+os_name
+os_arch
 )
     
 avd_manifest_path

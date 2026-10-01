@@ -68,16 +68,7 @@ mozbuild
 export
 REPO_OS_OVERRIDE
 =
-macosx
-export
-JAVA_TOOL_OPTIONS
-=
--
-Dos
-.
-arch
-=
-aarch64
+macosx_arm64
 #
 Populate
 /
