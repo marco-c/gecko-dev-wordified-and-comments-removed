@@ -111,7 +111,7 @@ FileSystemBase
 *
 aFileSystem
 =
-0
+nullptr
 )
 ;
 nsIGlobalObject
