@@ -1535,6 +1535,9 @@ BoxAlign
 "
 BoxDirection
 "
+"
+BoxOrient
+"
 ]
 item_types
 =
