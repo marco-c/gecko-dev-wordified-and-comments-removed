@@ -653,7 +653,7 @@ friend
 class
 CheckedUnsafePtrBaseAccess
 ;
-protected
+public
 :
 CheckedUnsafePtrBaseCheckingEnabled
 (
@@ -661,6 +661,8 @@ CheckedUnsafePtrBaseCheckingEnabled
 =
 delete
 ;
+protected
+:
 CheckedUnsafePtrBaseCheckingEnabled
 (
 const
@@ -733,14 +735,11 @@ enable_if_t
 std
 :
 :
-is_base_of
+is_base_of_v
 <
 CheckedUnsafePtrBaseCheckingEnabled
 Ptr
 >
-:
-:
-value
 >
 ;
 template
@@ -1032,7 +1031,7 @@ enable_if_t
 std
 :
 :
-is_base_of
+is_base_of_v
 <
 T
 std
@@ -1055,9 +1054,6 @@ U
 )
 >
 >
-:
-:
-value
 S
 >
 ;
@@ -2056,14 +2052,11 @@ static_assert
 std
 :
 :
-is_base_of
+is_base_of_v
 <
 CheckCheckedUnsafePtrs
 Derived
 >
-:
-:
-value
 "
 cannot
 instantiate
@@ -2562,7 +2555,7 @@ static_assert
 std
 :
 :
-is_base_of
+is_base_of_v
 <
 detail
 :
@@ -2570,9 +2563,6 @@ detail
 SupportsCheckedUnsafePtrTag
 T
 >
-:
-:
-value
 "
 type
 T

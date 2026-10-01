@@ -5831,7 +5831,7 @@ constexpr
 std
 :
 :
-is_invocable
+is_invocable_v
 <
 CustomRetVal
 const
@@ -5845,9 +5845,6 @@ char
 NExpr
 ]
 >
-:
-:
-value
 )
 {
 return
@@ -5874,7 +5871,7 @@ constexpr
 std
 :
 :
-is_invocable
+is_invocable_v
 <
 CustomRetVal
 const
@@ -5886,9 +5883,6 @@ const
 T
 &
 >
-:
-:
-value
 )
 {
 return
@@ -5906,16 +5900,13 @@ constexpr
 std
 :
 :
-is_invocable
+is_invocable_v
 <
 CustomRetVal
 const
 T
 &
 >
-:
-:
-value
 )
 {
 return
