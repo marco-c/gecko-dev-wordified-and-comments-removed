@@ -40,14 +40,14 @@ common
 toml
 "
 ]
-skip
+run
 -
 if
 =
 [
 "
 os
-=
+!
 =
 '
 win
