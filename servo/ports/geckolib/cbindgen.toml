@@ -1526,6 +1526,9 @@ WindowDragging
 "
 WindowShadow
 "
+"
+FieldSizing
+"
 ]
 item_types
 =
