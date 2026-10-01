@@ -1109,7 +1109,7 @@ Config
 sdk
 =
 [
-28
+32
 ]
 )
 fun
@@ -1123,7 +1123,9 @@ call
 startActivityForResult
 on
 SDK
-28
+32
+and
+below
 (
 )
 {
@@ -3276,14 +3278,6 @@ result
 )
 }
 Test
-Config
-(
-sdk
-=
-[
-33
-]
-)
 fun
 onPermissionsDenied
 launches

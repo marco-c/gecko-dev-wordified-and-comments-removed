@@ -782,14 +782,6 @@ mediaCapabilities
 )
 }
 Test
-Config
-(
-sdk
-=
-[
-33
-]
-)
 fun
 allHdrCapabilities
 returns
