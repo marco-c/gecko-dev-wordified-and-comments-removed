@@ -73,9 +73,6 @@ compose
 *
 *
 The
-grid
-or
-list
 item
 '
 s
@@ -160,16 +157,11 @@ action
 .
 *
 property
-isEnteringGroup
+isEntering
 True
 when
 the
 item
-is
-a
-tab
-group
-that
 is
 entering
 composition
@@ -177,9 +169,7 @@ for
 the
 first
 time
-.
-False
-*
+false
 otherwise
 .
 *
@@ -207,7 +197,7 @@ Boolean
 =
 false
 val
-isEnteringGroup
+isEntering
 :
 Boolean
 =
