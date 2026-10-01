@@ -760,6 +760,8 @@ template
 typename
 Angle
 typename
+AxisPosition
+typename
 Position
 typename
 LP
@@ -777,6 +779,7 @@ const
 StyleGenericShapeCommand
 <
 Angle
+AxisPosition
 Position
 LP
 >
@@ -807,6 +810,7 @@ Command
 StyleGenericShapeCommand
 <
 Angle
+AxisPosition
 Position
 LP
 >

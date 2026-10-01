@@ -109,6 +109,8 @@ template
 typename
 Angle
 typename
+AxisPosition
+typename
 Position
 typename
 LP
@@ -121,6 +123,7 @@ StylePathCommand
 =
 StyleGenericShapeCommand
 <
+float
 float
 StyleGenericPosition
 <
