@@ -1216,6 +1216,16 @@ use
 self
 :
 :
+text
+:
+:
+TextRendering
+;
+pub
+use
+self
+:
+:
 time
 :
 :
