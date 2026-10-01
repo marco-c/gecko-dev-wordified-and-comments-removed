@@ -7566,25 +7566,6 @@ misc
                 
 f
 "
-(
-if
-(
-filter
-copy
-(
-NSDISTMODE
-)
-)
--
--
-no
--
-symlinks
-)
-"
-                
-f
-"
 -
 -
 track
