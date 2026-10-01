@@ -911,7 +911,7 @@ id
 "
 autocomplete
 -
-remove
+delete
 -
 address
 -

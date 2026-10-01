@@ -130,7 +130,7 @@ password
 "
 autocomplete
 -
-remove
+delete
 -
 password
 -
@@ -141,7 +141,7 @@ address
 "
 autocomplete
 -
-remove
+delete
 -
 address
 -
@@ -152,7 +152,7 @@ payment
 "
 autocomplete
 -
-remove
+delete
 -
 payment
 -
@@ -324,7 +324,7 @@ id
 "
 autocomplete
 -
-remove
+delete
 -
 record
 -

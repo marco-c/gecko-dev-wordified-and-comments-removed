@@ -960,7 +960,7 @@ id
 "
 autocomplete
 -
-remove
+delete
 -
 payment
 -
