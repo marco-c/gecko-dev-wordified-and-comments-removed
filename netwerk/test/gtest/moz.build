@@ -258,6 +258,11 @@ TestStorageAccessHeader
 cpp
 "
 "
+TestSyncStreamListener
+.
+cpp
+"
+"
 TestUDPSocket
 .
 cpp
