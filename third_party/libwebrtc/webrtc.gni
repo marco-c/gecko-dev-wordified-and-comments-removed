@@ -9899,6 +9899,9 @@ rtc_rust_test_suite
 {
 if
 (
+rtc_rust
+&
+&
 can_build_rust_unit_tests
 )
 {
