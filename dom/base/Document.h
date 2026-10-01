@@ -16395,6 +16395,16 @@ mPageLoadWasForeground
 =
 false
 ;
+bool
+mPageLoadTelemetryReported
+=
+false
+;
+void
+ReportPageLoadTelemetry
+(
+)
+;
 void
 ReportPageLoadEvent
 (
