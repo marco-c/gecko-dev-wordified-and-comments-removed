@@ -14,6 +14,13 @@ h
 #
 include
 "
+nsIWeakReferenceUtils
+.
+h
+"
+#
+include
+"
 nsStubDocumentObserver
 .
 h
@@ -85,6 +92,9 @@ dom
 Document
 *
 mDocument
+;
+nsWeakPtr
+mElement
 ;
 bool
 mUnhookPending
