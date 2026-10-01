@@ -5001,6 +5001,17 @@ InitRendering
 {
 if
 (
+!
+CanSend
+(
+)
+)
+{
+return
+;
+}
+if
+(
 mRemoteLayerTreeOwner
 .
 IsInitialized
