@@ -109,6 +109,13 @@ js
 ]
 [
 "
+browser_monitor_agent_limits
+.
+js
+"
+]
+[
+"
 browser_monitor_errors
 .
 js
