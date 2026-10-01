@@ -7566,7 +7566,7 @@ if
 handle
 -
 >
-IsEmpty
+ExecutionScheduled
 (
 )
 )
@@ -7809,7 +7809,9 @@ return
 requestHandle
 -
 >
-mExecutionScheduled
+ExecutionScheduled
+(
+)
 ;
 }
 )
@@ -7856,7 +7858,7 @@ MOZ_ASSERT
 requestHandle
 -
 >
-IsEmpty
+ExecutionScheduled
 (
 )
 )
@@ -7879,9 +7881,9 @@ true
 requestHandle
 -
 >
-mExecutionScheduled
-=
-true
+SetExecutionScheduled
+(
+)
 ;
 return
 false
