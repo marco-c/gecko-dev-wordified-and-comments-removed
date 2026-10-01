@@ -494,6 +494,10 @@ pub
 enabled_tags
 :
 usize
+pub
+cosmetic_cache
+:
+usize
 }
 #
 [
@@ -629,6 +633,11 @@ enabled_tags
 breakdown
 .
 enabled_tags
+cosmetic_cache
+:
+breakdown
+.
+cosmetic_cache
 }
 }
 #
