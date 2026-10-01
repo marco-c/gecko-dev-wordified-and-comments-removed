@@ -192,6 +192,11 @@ previously_reported_lost
 =
 false
 ;
+bool
+ambiguous_receive_time
+=
+false
+;
 }
 ;
 class

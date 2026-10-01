@@ -540,10 +540,8 @@ parsed
 void
 UpdateFeedbackHoldTime
 (
-const
-ScreamFeedback
-&
-parsed
+TimeDelta
+feedback_hold_time
 )
 ;
 void
