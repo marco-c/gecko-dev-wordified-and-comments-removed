@@ -1541,6 +1541,9 @@ BoxOrient
 "
 BoxPack
 "
+"
+Blend
+"
 ]
 item_types
 =
