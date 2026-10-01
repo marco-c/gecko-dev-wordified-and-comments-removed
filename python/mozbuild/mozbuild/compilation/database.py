@@ -1011,6 +1011,15 @@ CC
         
 "
 .
+h
+"
+:
+"
+CXX
+"
+        
+"
+.
 cpp
 "
 :
@@ -1049,6 +1058,15 @@ c
 :
 "
 CFLAGS
+"
+        
+"
+.
+h
+"
+:
+"
+CXXFLAGS
 "
         
 "
@@ -1322,3 +1340,6 @@ MOZBUILD_CMMFLAGS
 )
 "
 )
+        
+return
+db
