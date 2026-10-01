@@ -818,6 +818,13 @@ html
 ]
 [
 "
+test_panel_list_accesskey_conflicts
+.
+html
+"
+]
+[
+"
 test_panel_list_anchoring
 .
 html
