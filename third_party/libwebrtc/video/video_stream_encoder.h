@@ -566,8 +566,8 @@ enum
 class
 BitrateAllocationCallbackType
 {
+kNone
 kVideoBitrateAllocation
-kVideoBitrateAllocationWhenScreenSharing
 kVideoLayersAllocation
 }
 ;
