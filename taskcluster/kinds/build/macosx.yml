@@ -581,6 +581,9 @@ extra
 -
 config
 :
+mozconfig_platform
+:
+macosx64
 extra_mozconfig_content
 :
 -
@@ -728,6 +731,9 @@ extra
 -
 config
 :
+mozconfig_platform
+:
+macosx64
 extra_mozconfig_content
 :
 -
