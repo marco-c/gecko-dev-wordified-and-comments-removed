@@ -297,6 +297,7 @@ nsWatcherWindowEntry
 aInfo
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 OpenWindowInternal
 (
@@ -359,6 +360,7 @@ BrowsingContext
 aResult
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 OpenWindowInternal
 (

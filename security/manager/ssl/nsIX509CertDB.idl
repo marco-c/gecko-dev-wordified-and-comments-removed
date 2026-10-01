@@ -671,6 +671,9 @@ context
 .
 *
 /
+[
+can_run_script
+]
 void
 importCertificates
 (
@@ -1217,6 +1220,7 @@ nsIX509Cert
 *
 /
 [
+can_run_script
 must_use
 ]
 void

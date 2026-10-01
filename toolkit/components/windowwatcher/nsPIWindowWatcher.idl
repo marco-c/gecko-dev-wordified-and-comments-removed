@@ -749,6 +749,7 @@ however
 *
 /
 [
+can_run_script
 noscript
 ]
 BrowsingContext

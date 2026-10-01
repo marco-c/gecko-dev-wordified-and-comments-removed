@@ -151,8 +151,7 @@ GetWindowContext
 )
 )
 ;
-nsGlobalWindowOuter
-*
+RefPtr
 outer
 =
 nsGlobalWindowOuter

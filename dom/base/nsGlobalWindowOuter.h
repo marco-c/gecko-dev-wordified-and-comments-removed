@@ -968,6 +968,7 @@ nsAString
 aGroup
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 OpenJS
 (
@@ -2413,6 +2414,7 @@ GetFrameElement
 )
 override
 ;
+MOZ_CAN_RUN_SCRIPT
 mozilla
 :
 :
@@ -2451,6 +2453,7 @@ ErrorResult
 aError
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 Open
 (
@@ -2972,6 +2975,7 @@ ErrorResult
 aError
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 mozilla
 :
 :
@@ -3029,6 +3033,7 @@ ErrorResult
 aError
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 OpenDialog
 (
@@ -3358,6 +3363,7 @@ GetInProcessParentInternal
 ;
 protected
 :
+MOZ_CAN_RUN_SCRIPT
 virtual
 nsresult
 OpenNoNavigate
@@ -3407,6 +3413,7 @@ InternalPrint
 WindowDotPrint
 }
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 OpenInternal
 (

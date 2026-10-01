@@ -361,6 +361,9 @@ ignored
 .
 *
 /
+[
+can_run_script
+]
 void
 handle
 (

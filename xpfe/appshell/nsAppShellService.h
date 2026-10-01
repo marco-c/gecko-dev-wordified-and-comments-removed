@@ -83,6 +83,7 @@ nsAppShellService
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 JustCreateTopWindow
 (
