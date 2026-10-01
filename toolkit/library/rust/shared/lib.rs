@@ -744,11 +744,11 @@ urlpattern_glue
 ;
 extern
 crate
-content_classifier_engine
+adblock
 ;
 extern
 crate
-etp_engine
+content_classifier_engine
 ;
 #
 [
