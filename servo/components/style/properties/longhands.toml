@@ -10047,6 +10047,11 @@ parameters
 .
 enabled
 "
+enabled_in
+=
+"
+chrome
+"
 [
 list
 -

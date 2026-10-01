@@ -4525,6 +4525,7 @@ preview
 svg
 "
 ;
+export
 const
 DEFAULT_THEME_PREVIEW_NOVA_URL
 =
