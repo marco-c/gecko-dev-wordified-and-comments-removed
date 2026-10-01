@@ -512,6 +512,13 @@ js
 ]
 [
 "
+test_permmanager_reentrant_removal
+.
+js
+"
+]
+[
+"
 test_permmanager_remote
 .
 js
