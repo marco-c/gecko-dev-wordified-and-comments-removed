@@ -1290,6 +1290,16 @@ use
 self
 :
 :
+svg
+:
+:
+StrokeLinejoin
+;
+pub
+use
+self
+:
+:
 text
 :
 :

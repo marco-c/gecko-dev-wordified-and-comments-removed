@@ -1454,6 +1454,9 @@ ShapeRendering
 "
 StrokeLinecap
 "
+"
+StrokeLinejoin
+"
 ]
 item_types
 =

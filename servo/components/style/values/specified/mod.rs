@@ -1044,6 +1044,16 @@ use
 self
 :
 :
+svg
+:
+:
+StrokeLinejoin
+;
+pub
+use
+self
+:
+:
 svg_path
 :
 :
