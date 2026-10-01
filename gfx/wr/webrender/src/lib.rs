@@ -253,6 +253,9 @@ mod
 quad
 ;
 mod
+quad_clip
+;
+mod
 render_backend
 ;
 pub
