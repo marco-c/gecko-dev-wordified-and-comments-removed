@@ -56,9 +56,6 @@ Option
 <
 DeviceRect
 >
-_offset
-:
-LayoutVector2D
 _state
 :
 &

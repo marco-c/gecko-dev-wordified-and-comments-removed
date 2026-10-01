@@ -269,9 +269,6 @@ Option
 <
 DeviceRect
 >
-offset
-:
-LayoutVector2D
 state
 :
 &
@@ -296,8 +293,6 @@ center
 to_vector
 (
 )
-+
-offset
 ;
 radial_gradient_pattern
 (
