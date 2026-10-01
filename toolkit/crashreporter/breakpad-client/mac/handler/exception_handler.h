@@ -113,6 +113,13 @@ string
 struct
 ExceptionParameters
 ;
+bool
+IsNonFatalResourceException
+(
+int64_t
+code
+)
+;
 enum
 HandlerThreadMessage
 {
