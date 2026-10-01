@@ -299,6 +299,17 @@ switcher
 -
 button
 "
+panelItems
+:
+{
+all
+:
+"
+panel
+-
+item
+"
+}
 panelList
 :
 "
