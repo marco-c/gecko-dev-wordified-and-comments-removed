@@ -13,6 +13,9 @@ os
 '
 android
 '
+&
+&
+sync
 "
 ]
 head
@@ -65,16 +68,6 @@ appdir
 "
 browser
 "
-skip
--
-if
-=
-[
-"
-!
-sync
-"
-]
 support
 -
 files
