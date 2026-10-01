@@ -317,9 +317,6 @@ cookieNames
 )
 [
 "
-expiring
-"
-"
 live
 "
 ]
@@ -327,11 +324,9 @@ live
 The
 expired
 cookie
-has
+is
 not
-been
-purged
-yet
+exposed
 "
 )
 ;

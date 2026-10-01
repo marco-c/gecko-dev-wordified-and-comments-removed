@@ -528,7 +528,7 @@ com
 {
 }
 )
-20
+0
 )
 ;
 Assert
@@ -865,7 +865,7 @@ com
 {
 }
 )
-20
+0
 )
 ;
 Assert
@@ -977,7 +977,7 @@ com
 {
 }
 )
-20
+0
 )
 ;
 Assert
@@ -1124,7 +1124,7 @@ equal
 do_count_cookies
 (
 )
-81
+61
 )
 ;
 Assert
@@ -1166,7 +1166,7 @@ com
 {
 }
 )
-20
+0
 )
 ;
 Assert
