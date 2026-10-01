@@ -844,11 +844,32 @@ PKG_VERSION
         
 if
 depends_package
-=
-=
+in
+[
+            
 "
 thunderbird
 "
+            
+"
+thunderbird
+-
+nightly
+"
+            
+"
+thunderbird
+-
+beta
+"
+            
+"
+thunderbird
+-
+esr
+"
+        
+]
 :
             
 depends_version
