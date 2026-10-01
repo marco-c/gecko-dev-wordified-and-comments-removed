@@ -3804,7 +3804,7 @@ MainMenuSelectors
 EXTENSIONS_BUTTON_UIAUTOMATOR
 )
 val
-addonTitle
+extension
 =
 on
 .
@@ -3862,7 +3862,9 @@ navigateToPage
 .
 removeInstalledExtension
 (
-addonTitle
+extension
+.
+name
 )
 /
 /
@@ -4011,7 +4013,7 @@ MainMenuSelectors
 EXTENSIONS_BUTTON_UIAUTOMATOR
 )
 val
-addonTitle
+extension
 =
 on
 .
@@ -4128,7 +4130,9 @@ SettingsAddonsManagerSelectors
 .
 INSTALLED_ADDON_ITEM
 (
-addonTitle
+extension
+.
+name
 )
 )
 }
@@ -4228,7 +4232,7 @@ MainMenuSelectors
 EXTENSIONS_BUTTON_UIAUTOMATOR
 )
 val
-addonTitle
+extension
 =
 on
 .
@@ -4318,7 +4322,9 @@ MainMenuSelectors
 .
 EXTENSIONS_BUTTON_WITH_INSTALLED_EXTENSION
 (
-addonTitle
+extension
+.
+menuLabel
 )
 )
 .
@@ -4342,7 +4348,9 @@ MainMenuSelectors
 .
 INSTALLED_EXTENSION_ITEM
 (
-addonTitle
+extension
+.
+menuLabel
 )
 )
 }
@@ -4442,7 +4450,7 @@ MainMenuSelectors
 EXTENSIONS_BUTTON_UIAUTOMATOR
 )
 val
-addonTitle
+extension
 =
 on
 .
@@ -4498,7 +4506,9 @@ MainMenuSelectors
 .
 EXTENSIONS_BUTTON_WITH_INSTALLED_EXTENSION
 (
-addonTitle
+extension
+.
+menuLabel
 )
 )
 on
@@ -4511,7 +4521,9 @@ navigateToPage
 .
 disableInstalledExtension
 (
-addonTitle
+extension
+.
+name
 )
 /
 /
