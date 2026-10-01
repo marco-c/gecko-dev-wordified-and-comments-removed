@@ -747,6 +747,14 @@ getBuildConfiguration
 arm64
 "
 )
+|
+|
+getBuildConfiguration
+(
+"
+loong64
+"
+)
 )
 {
 continue
