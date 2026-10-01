@@ -4659,6 +4659,17 @@ GetParent
 !
 =
 aDelegatingFrame
+&
+&
+nextFrame
+-
+>
+GetParent
+(
+)
+!
+=
+aDelegatingFrame
 -
 >
 GetNextInFlow
