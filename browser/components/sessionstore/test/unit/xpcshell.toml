@@ -122,13 +122,6 @@ Bug
 ]
 [
 "
-test_session_availability
-.
-js
-"
-]
-[
-"
 test_session_schema
 .
 js
