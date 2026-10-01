@@ -340,6 +340,9 @@ listOf
 (
 ListenMiddleware
 (
+browserStore
+=
+browserStore
 contentProvider
 =
 ContentProvider

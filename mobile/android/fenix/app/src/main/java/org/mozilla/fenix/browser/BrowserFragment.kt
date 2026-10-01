@@ -2279,6 +2279,15 @@ container
 binding
 .
 browserLayout
+browserStore
+=
+context
+.
+components
+.
+core
+.
+store
 listenStore
 =
 context
