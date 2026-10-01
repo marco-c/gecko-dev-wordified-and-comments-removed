@@ -3165,11 +3165,10 @@ resetTab
 tab
 )
 {
+delete
 tab
 .
 canonicalUrl
-=
-null
 ;
 tab
 .

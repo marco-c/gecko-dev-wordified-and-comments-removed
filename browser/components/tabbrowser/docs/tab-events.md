@@ -2395,16 +2395,6 @@ them
 |
 TabGroupRemoved
 |
-adopting
-true
-when
-the
-group
-is
-moving
-to
-another
-window
 |
 The
 group

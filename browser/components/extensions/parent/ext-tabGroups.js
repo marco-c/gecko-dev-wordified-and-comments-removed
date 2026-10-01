@@ -831,9 +831,9 @@ if
 (
 event
 .
-detail
+originalTarget
 .
-adopting
+removedByAdoption
 )
 {
 return
