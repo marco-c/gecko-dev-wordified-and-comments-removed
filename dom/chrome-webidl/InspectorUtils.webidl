@@ -1375,7 +1375,9 @@ UTF8String
 >
 getComputationSteps
 (
-DOMString
+UTF8String
+property
+UTF8String
 expression
 Element
 element

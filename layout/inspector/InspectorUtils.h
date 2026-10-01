@@ -1158,7 +1158,11 @@ GlobalObject
 &
 aGlobal
 const
-nsAString
+nsACString
+&
+aProperty
+const
+nsACString
 &
 aExpression
 Element

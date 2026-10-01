@@ -6056,6 +6056,7 @@ this
 }
 getCssExplainersData
 (
+property
 expression
 pseudo
 inheritedNode
@@ -6098,6 +6099,7 @@ InspectorUtils
 .
 getComputationSteps
 (
+property
 expression
 element
 pseudo
