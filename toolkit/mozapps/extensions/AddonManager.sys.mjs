@@ -6320,7 +6320,7 @@ lazy
 .
 AddonRepository
 .
-updateIfLocaleChanged
+backgroundUpdateCheck
 (
 )
 ;
