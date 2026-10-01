@@ -1543,6 +1543,8 @@ documentElement
 hasAttribute
 (
 "
+cropped
+-
 mini
 -
 window
