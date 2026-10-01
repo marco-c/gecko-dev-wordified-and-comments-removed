@@ -66,6 +66,17 @@ mozilla
 /
 layers
 /
+CompositorAnimationStorage
+.
+h
+"
+#
+include
+"
+mozilla
+/
+layers
+/
 OMTAController
 .
 h
@@ -102,9 +113,6 @@ layers
 {
 class
 Animation
-;
-class
-CompositorAnimationStorage
 ;
 class
 OMTAValue

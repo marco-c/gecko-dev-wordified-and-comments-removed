@@ -119,15 +119,7 @@ gl
 (
 )
 const
-{
-return
-mWeakGL
-.
-get
-(
-)
 ;
-}
 uint64_t
 EstimateMemory
 (

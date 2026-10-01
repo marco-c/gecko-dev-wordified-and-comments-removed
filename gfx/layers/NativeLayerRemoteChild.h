@@ -38,8 +38,9 @@ protected
 NativeLayerRemoteChild
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 }

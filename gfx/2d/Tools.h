@@ -466,13 +466,10 @@ static_assert
 std
 :
 :
-is_trivially_destructible
+is_trivially_destructible_v
 <
 T
 >
-:
-:
-value
 "
 Destructors
 must

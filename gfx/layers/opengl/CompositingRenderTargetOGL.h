@@ -7,6 +7,13 @@ MOZILLA_GFX_COMPOSITINGRENDERTARGETOGL_H
 #
 include
 "
+GLContext
+.
+h
+"
+#
+include
+"
 GLContextTypes
 .
 h

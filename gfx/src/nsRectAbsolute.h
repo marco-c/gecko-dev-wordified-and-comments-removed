@@ -73,8 +73,9 @@ Super
 nsRectAbsolute
 (
 )
-{
-}
+=
+default
+;
 nsRectAbsolute
 (
 nscoord

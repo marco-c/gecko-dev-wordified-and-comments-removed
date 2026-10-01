@@ -94,10 +94,10 @@ bool
 {
 NotConsumed
 =
-0
+false
 Consumed
 =
-1
+true
 }
 ;
 enum
