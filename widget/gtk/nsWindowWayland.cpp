@@ -969,6 +969,13 @@ compositor
 currentDragSession
 -
 >
+UserCancelled
+(
+)
+;
+currentDragSession
+-
+>
 EndDragSession
 (
 true
