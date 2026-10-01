@@ -426,6 +426,8 @@ nsTDependentSubstring
 =
 default
 ;
+private
+:
 void
 operator
 =

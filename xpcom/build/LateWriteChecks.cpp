@@ -71,13 +71,6 @@ h
 #
 include
 "
-nsCRTGlue
-.
-h
-"
-#
-include
-"
 nsDirectoryServiceUtils
 .
 h

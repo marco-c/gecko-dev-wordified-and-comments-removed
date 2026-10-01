@@ -97,7 +97,7 @@ nsresult
 *
 aError
 =
-nullptr
+0
 )
 {
 return
@@ -119,7 +119,7 @@ nsresult
 *
 aResult
 =
-nullptr
+0
 )
 ;
 extern
@@ -133,7 +133,7 @@ nsresult
 *
 aResult
 =
-nullptr
+0
 )
 ;
 inline
@@ -150,7 +150,7 @@ nsresult
 *
 aError
 =
-nullptr
+0
 )
 {
 return
@@ -178,7 +178,7 @@ nsresult
 *
 aError
 =
-nullptr
+0
 )
 {
 return
@@ -203,7 +203,7 @@ nsresult
 *
 aError
 =
-nullptr
+0
 )
 {
 }

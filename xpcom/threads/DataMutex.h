@@ -214,6 +214,12 @@ nullptr
 ;
 }
 }
+private
+:
+friend
+class
+DataMutexBase
+;
 AutoLockBase
 (
 const
@@ -223,12 +229,6 @@ aOther
 )
 =
 delete
-;
-private
-:
-friend
-class
-DataMutexBase
 ;
 explicit
 AutoLockBase

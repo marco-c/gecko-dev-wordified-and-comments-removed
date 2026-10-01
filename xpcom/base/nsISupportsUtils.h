@@ -302,11 +302,14 @@ T
 std
 :
 :
-is_base_of_v
+is_base_of
 <
 DestinationType
 T
 >
+:
+:
+value
 )
 |
 |

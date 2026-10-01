@@ -13,13 +13,6 @@ HashTable
 .
 h
 "
-#
-include
-"
-nsTString
-.
-h
-"
 namespace
 mozilla
 {

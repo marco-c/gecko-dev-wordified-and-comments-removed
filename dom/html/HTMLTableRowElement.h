@@ -7,17 +7,6 @@ mozilla_dom_HTMLTableRowElement_h
 #
 include
 "
-mozilla
-/
-dom
-/
-ContentList
-.
-h
-"
-#
-include
-"
 nsGenericHTMLElement
 .
 h
@@ -28,6 +17,9 @@ mozilla
 :
 dom
 {
+class
+ContentList
+;
 class
 HTMLTableSectionElement
 ;
