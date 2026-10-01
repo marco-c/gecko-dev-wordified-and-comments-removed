@@ -547,11 +547,6 @@ view
 button
 "
 {
-type
-:
-"
-mousedown
-"
 }
 win
 .

@@ -171,11 +171,6 @@ button
 "
 )
 {
-type
-:
-"
-mousedown
-"
 }
 window
 )
