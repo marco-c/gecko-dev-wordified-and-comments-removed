@@ -8140,10 +8140,17 @@ infallible
         
 return
     
-if
+ty
+=
+unaliasType
+(
 methodOrAttribute
 .
 realtype
+)
+    
+if
+ty
 .
 kind
 not
@@ -8473,24 +8480,10 @@ type
         
 inner
 =
+unaliasType
+(
 type
-        
-while
-inner
-.
-kind
-=
-=
-"
-typedef
-"
-:
-            
-inner
-=
-inner
-.
-realtype
+)
         
 return
 (
