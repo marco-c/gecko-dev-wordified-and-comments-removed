@@ -16,11 +16,11 @@ SNAPPY_MAJOR
 #
 define
 SNAPPY_MINOR
-2
+3
 #
 define
 SNAPPY_PATCHLEVEL
-2
+0
 #
 define
 SNAPPY_VERSION

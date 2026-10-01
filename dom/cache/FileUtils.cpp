@@ -251,7 +251,7 @@ static_assert
 SNAPPY_VERSION
 =
 =
-0x010202
+0x010300
 )
 ;
 using

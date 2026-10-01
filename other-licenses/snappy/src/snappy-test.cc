@@ -2195,8 +2195,12 @@ uncomp_init_
 )
 ;
 Bytef
-dummyin
 dummyout
+;
+Bytef
+dummyin
+=
+0
 ;
 uLongf
 dummylen
