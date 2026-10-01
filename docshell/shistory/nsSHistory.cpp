@@ -8440,6 +8440,17 @@ return
 NS_OK
 ;
 }
+if
+(
+mIndex
+<
+0
+)
+{
+return
+NS_ERROR_FAILURE
+;
+}
 uint32_t
 loadType
 =
