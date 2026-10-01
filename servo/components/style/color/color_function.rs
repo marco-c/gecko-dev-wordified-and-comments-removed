@@ -423,6 +423,7 @@ to_computed_value
 context
 origin
 )
+?
 ;
 if
 resolvable
@@ -1018,9 +1019,14 @@ ComputedColor
 )
 -
 >
+Result
+<
 ColorFunction
 <
 ComputedColor
+>
+(
+)
 >
 {
 let
@@ -1113,6 +1119,7 @@ as_ref
 (
 )
 )
+?
 c1
 .
 to_computed_value
@@ -1124,6 +1131,7 @@ as_ref
 (
 )
 )
+?
 c2
 .
 to_computed_value
@@ -1135,6 +1143,7 @@ as_ref
 (
 )
 )
+?
 alpha
 .
 to_computed_value
@@ -1146,11 +1155,14 @@ as_ref
 (
 )
 )
+?
 )
 }
 }
 ;
 }
+Ok
+(
 match
 self
 {
@@ -1284,6 +1296,7 @@ as_ref
 (
 )
 )
+?
 g
 .
 to_computed_value
@@ -1295,6 +1308,7 @@ as_ref
 (
 )
 )
+?
 b
 .
 to_computed_value
@@ -1306,6 +1320,7 @@ as_ref
 (
 )
 )
+?
 alpha
 .
 to_computed_value
@@ -1317,6 +1332,7 @@ as_ref
 (
 )
 )
+?
 )
 }
 ColorFunction
@@ -1565,6 +1581,7 @@ as_ref
 (
 )
 )
+?
 c1
 .
 to_computed_value
@@ -1576,6 +1593,7 @@ as_ref
 (
 )
 )
+?
 c2
 .
 to_computed_value
@@ -1587,6 +1605,7 @@ as_ref
 (
 )
 )
+?
 alpha
 .
 to_computed_value
@@ -1598,6 +1617,7 @@ as_ref
 (
 )
 )
+?
 *
 color_space
 )
@@ -1623,6 +1643,7 @@ to_computed_value
 context
 abs_origin
 )
+?
 ;
 let
 stored
@@ -1651,6 +1672,7 @@ alpha
 )
 }
 }
+)
 }
 }
 impl
@@ -2929,9 +2951,6 @@ current_color
 )
 )
 ;
-let
-resolved
-=
 self
 .
 to_computed_value
@@ -2939,11 +2958,17 @@ to_computed_value
 None
 origin
 )
-;
-resolved
+.
+and_then
+(
+|
+r
+|
+r
 .
 to_absolute_color
 (
+)
 )
 .
 unwrap_or_else
