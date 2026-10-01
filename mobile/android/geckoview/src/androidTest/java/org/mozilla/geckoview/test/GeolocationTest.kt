@@ -582,7 +582,11 @@ timeout
 :
 Number
 =
-3000
+sessionRule
+.
+env
+.
+defaultTimeoutMillis
 enableHighAccuracy
 :
 Boolean
@@ -1069,9 +1073,6 @@ position
 =
 getCurrentPositionJS
 (
-0
-3000
-false
 )
 assertThat
 (
@@ -1151,9 +1152,6 @@ inaccuratePosition
 =
 getCurrentPositionJS
 (
-0
-3000
-false
 )
 assertThat
 (
@@ -1343,8 +1341,8 @@ highAccuracyPosition
 =
 getCurrentPositionJS
 (
-0
-6001
+enableHighAccuracy
+=
 true
 )
 mockGpsProvider
