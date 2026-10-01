@@ -215,7 +215,7 @@ sparse
 -
 profile
 :
-mozharness
+mach
 extra
 :
 app
