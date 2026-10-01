@@ -6040,6 +6040,15 @@ top
 :
 7px
 ;
+&
+:
+not
+(
+[
+crashed
+]
+)
+{
 box
 -
 shadow
@@ -6057,6 +6066,7 @@ level
 1
 )
 ;
+}
 }
 #
 tabbrowser
