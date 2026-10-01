@@ -468,13 +468,6 @@ get
 (
 )
 =
-Config
-.
-channel
-.
-isDebug
-|
-|
 FxNimbus
 .
 features
