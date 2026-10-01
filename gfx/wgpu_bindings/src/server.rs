@@ -9741,7 +9741,7 @@ TextureUses
 :
 UNINITIALIZED
 texture_id
-false
+true
 )
 }
 ;
@@ -11097,7 +11097,7 @@ TextureUses
 :
 UNINITIALIZED
 texture_id
-false
+true
 )
 ;
 if
@@ -18995,7 +18995,7 @@ TextureUses
 :
 UNINITIALIZED
 texture_id
-false
+true
 )
 }
 ;
