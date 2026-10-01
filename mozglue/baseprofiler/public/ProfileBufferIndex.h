@@ -21,6 +21,11 @@ cstddef
 #
 include
 <
+compare
+>
+#
+include
+<
 cstdint
 >
 namespace

@@ -14,6 +14,15 @@ ProfileBufferChunkManager
 h
 "
 #
+include
+"
+mozilla
+/
+Maybe
+.
+h
+"
+#
 ifdef
 DEBUG
 #

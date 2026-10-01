@@ -11,6 +11,15 @@ defined
 MOZ_ENABLE_FORKSERVER
 )
 #
+include
+"
+mozilla
+/
+Types
+.
+h
+"
+#
 if
 defined
 (

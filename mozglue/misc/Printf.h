@@ -478,7 +478,7 @@ base
 +
 mMaxlen
 :
-0
+nullptr
 )
 {
 }
