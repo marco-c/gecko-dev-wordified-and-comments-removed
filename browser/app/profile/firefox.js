@@ -16678,7 +16678,7 @@ smartformfill
 .
 enabled
 "
-false
+true
 )
 ;
 pref
