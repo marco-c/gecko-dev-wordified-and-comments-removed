@@ -425,6 +425,9 @@ loadTimeout
 timeoutHook
 :
 null
+focusTimeout
+:
+null
 remote
 :
 false
