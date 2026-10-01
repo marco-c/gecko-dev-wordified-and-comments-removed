@@ -43,6 +43,13 @@ js
 ]
 [
 "
+browser_content_classifier_content_script
+.
+js
+"
+]
+[
+"
 browser_content_classifier_engines_pref
 .
 js
