@@ -134,7 +134,7 @@ innerHTML
 =
 queryMap
 .
-badCertGoBack
+backFromHttpButton
 ;
 document
 .

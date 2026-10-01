@@ -2266,5 +2266,17 @@ string
 .
 mozac_browser_errorpages_httpsonly_button
 )
+backFromHttpButton
+=
+context
+.
+getString
+(
+R
+.
+string
+.
+mozac_browser_errorpages_httpsonly_back
+)
 )
 }
