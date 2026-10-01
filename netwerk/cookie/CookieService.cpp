@@ -2456,6 +2456,7 @@ STATUS_ACCEPT_SESSION
 NotifyAccepted
 (
 aChannel
+rejectedReason
 )
 ;
 if
@@ -2999,6 +3000,8 @@ NotifyAccepted
 nsIChannel
 *
 aChannel
+uint32_t
+aRejectedReason
 )
 {
 ContentBlockingNotifier
@@ -3014,7 +3017,7 @@ BlockingDecision
 :
 :
 eAllow
-0
+aRejectedReason
 )
 ;
 }
@@ -4042,6 +4045,11 @@ host
 "
 )
 ;
+uint32_t
+acceptedReason
+=
+0
+;
 if
 (
 !
@@ -4427,6 +4435,10 @@ default
 break
 ;
 }
+acceptedReason
+=
+rejectedReason
+;
 bool
 potentiallyTrustworthy
 =
@@ -4854,6 +4866,7 @@ return
 NotifyAccepted
 (
 aChannel
+acceptedReason
 )
 ;
 aCookieList
