@@ -482,7 +482,6 @@ const
 bool
 mForceNavigationWordCheck
 ;
-const
 SetAnchorToCaret
 mSetAnchorToCaret
 ;

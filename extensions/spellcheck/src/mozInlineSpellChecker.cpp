@@ -1476,6 +1476,13 @@ SetAnchorToCaret
 Yes
 )
 {
+mSetAnchorToCaret
+=
+SetAnchorToCaret
+:
+:
+No
+;
 MOZ_ASSERT
 (
 !
