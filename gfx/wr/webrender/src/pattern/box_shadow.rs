@@ -32,7 +32,6 @@ pattern
 {
 Pattern
 PatternBuilder
-PatternBuilderContext
 PatternBuilderState
 PatternKind
 PatternShaderInput
@@ -112,6 +111,10 @@ build
 (
 &
 self
+_pattern_rect
+:
+&
+LayoutRect
 _sub_rect
 :
 Option
@@ -121,10 +124,6 @@ DeviceRect
 _offset
 :
 LayoutVector2D
-_ctx
-:
-&
-PatternBuilderContext
 state
 :
 &

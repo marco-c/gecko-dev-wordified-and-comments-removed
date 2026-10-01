@@ -40,7 +40,6 @@ pattern
 {
 Pattern
 PatternBuilder
-PatternBuilderContext
 PatternBuilderState
 }
 ;
@@ -245,6 +244,10 @@ build
 (
 &
 self
+pattern_rect
+:
+&
+LayoutRect
 _sub_rect
 :
 Option
@@ -254,10 +257,6 @@ DeviceRect
 offset
 :
 LayoutVector2D
-ctx
-:
-&
-PatternBuilderContext
 state
 :
 &
@@ -271,13 +270,13 @@ Pattern
 let
 center
 =
+pattern_rect
+.
+min
++
 self
 .
 center
-+
-ctx
-.
-prim_origin
 .
 to_vector
 (
