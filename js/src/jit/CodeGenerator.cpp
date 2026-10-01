@@ -49637,15 +49637,9 @@ takeAny
 ;
 masm
 .
-push
+pushRegs
 (
 temp1
-)
-;
-masm
-.
-push
-(
 temp2
 )
 ;
