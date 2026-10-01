@@ -2606,6 +2606,11 @@ label
 secondaryAction
 .
 label
+tooltip
+:
+secondaryAction
+.
+tooltip
 }
 ;
 const
