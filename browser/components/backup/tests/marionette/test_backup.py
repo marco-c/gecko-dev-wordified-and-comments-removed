@@ -175,6 +175,26 @@ enabled
 "
 :
 False
+            
+"
+browser
+.
+newtabpage
+.
+activity
+-
+stream
+.
+widgets
+.
+system
+.
+pictureOfTheDay
+.
+enabled
+"
+:
+False
         
 }
 )
