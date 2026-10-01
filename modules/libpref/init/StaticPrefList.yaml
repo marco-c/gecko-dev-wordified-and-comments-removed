@@ -25942,16 +25942,6 @@ dom
 speculation_rules
 .
 enabled
-;
-flipping
-#
-it
-on
-is
-tracked
-in
-bug
-1914120
 .
 -
 name
@@ -25968,7 +25958,7 @@ type
 RelaxedAtomicBool
 value
 :
-false
+true
 mirror
 :
 always
