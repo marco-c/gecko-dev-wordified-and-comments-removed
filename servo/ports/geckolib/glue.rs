@@ -34665,6 +34665,10 @@ value
 MathStyle
 =
 >
+get_from_computed
+:
+:
+<
 longhands
 :
 :
@@ -34672,9 +34676,7 @@ math_style
 :
 :
 SpecifiedValue
-:
-:
-from_gecko_keyword
+>
 (
 value
 )
