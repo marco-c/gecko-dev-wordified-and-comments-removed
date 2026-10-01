@@ -294,11 +294,6 @@ onReaderModeChangedCount
 0
 private
 val
-isListenToPageEnabled
-=
-false
-private
-val
 onReaderModeChanged
 :
 (
@@ -427,7 +422,6 @@ readerViewFeature
 .
 showControls
 (
-isListenToPageEnabled
 )
 }
 just
@@ -551,7 +545,6 @@ readerViewFeature
 .
 showControls
 (
-isListenToPageEnabled
 )
 }
 verify
@@ -746,7 +739,6 @@ readerViewFeature
 .
 showControls
 (
-isListenToPageEnabled
 )
 }
 verifyAll

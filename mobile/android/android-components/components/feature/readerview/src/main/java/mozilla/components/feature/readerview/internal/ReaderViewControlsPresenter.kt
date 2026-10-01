@@ -142,9 +142,6 @@ visible
 fun
 show
 (
-isListenEnabled
-:
-Boolean
 )
 {
 view
@@ -153,7 +150,6 @@ apply
 {
 tryInflate
 (
-isListenEnabled
 )
 setColorScheme
 (

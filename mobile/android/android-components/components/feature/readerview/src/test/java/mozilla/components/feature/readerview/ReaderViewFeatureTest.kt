@@ -1210,15 +1210,10 @@ BrowserStore
 view
 )
 )
-val
-isListenToPageEnabled
-=
-false
 feature
 .
 showControls
 (
-isListenToPageEnabled
 )
 verify
 (

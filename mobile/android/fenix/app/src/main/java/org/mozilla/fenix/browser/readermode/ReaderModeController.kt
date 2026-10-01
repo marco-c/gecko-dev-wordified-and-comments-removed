@@ -202,13 +202,6 @@ Boolean
 false
 private
 val
-isListenToPageEnabled
-:
-Boolean
-=
-false
-private
-val
 onReaderModeChanged
 :
 (
@@ -324,7 +317,6 @@ it
 .
 showControls
 (
-isListenToPageEnabled
 )
 }
 if

@@ -418,9 +418,6 @@ feature
 .
 showControls
 (
-isListenEnabled
-=
-false
 )
 }
 }
