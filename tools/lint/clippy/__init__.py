@@ -1191,9 +1191,6 @@ paths
 config
 log
 root
-substs
-=
-None
 fix
 =
 None
@@ -1202,17 +1199,6 @@ None
 _lintargs
 )
 :
-    
-if
-substs
-is
-None
-:
-        
-substs
-=
-{
-}
     
 lint_results
 =
@@ -1232,20 +1218,6 @@ fixed
 0
     
 }
-    
-cargo_bin
-=
-substs
-.
-get
-(
-"
-CARGO
-"
-"
-cargo
-"
-)
     
 errors
 =
@@ -1297,7 +1269,6 @@ config
 log
 fix
 root
-cargo_bin
 lint_results
 )
         
@@ -1677,7 +1648,6 @@ config
 log
 fix
 root
-cargo_bin
 lint_results
 )
 :
@@ -1687,6 +1657,7 @@ lint_results
 "
     
 Lint
+workspace
 crates
 other
 than
@@ -1745,10 +1716,39 @@ clippy_args
 =
 [
         
-cargo_bin
+sys
+.
+executable
+        
+root
++
+"
+/
+mach
+"
         
 "
-clippy
+-
+-
+log
+-
+no
+-
+times
+"
+        
+"
+cargo
+"
+        
+"
+-
+-
+message
+-
+format
+-
+json
 "
         
 "
@@ -1761,13 +1761,15 @@ path_group
 crate_name
         
 "
+clippy
+"
+        
+"
 -
 -
-message
+no
 -
-format
-=
-json
+deps
 "
     
 ]
@@ -1793,29 +1795,44 @@ dirty
 ]
 )
     
-driver_flags
+env
 =
+os
+.
+environ
+.
+copy
+(
+)
+    
+env
+[
+"
+extra_rustflags
+"
+]
+=
+"
+"
+.
+join
+(
+        
+[
+"
+-
+W
+"
+"
+warnings
+"
+]
++
 get_clippy_driver_flags
 (
 config
 )
     
-if
-driver_flags
-:
-        
-clippy_args
-.
-extend
-(
-[
-"
--
--
-"
-]
-+
-driver_flags
 )
     
 log
@@ -1863,6 +1880,10 @@ True
 text
 =
 True
+        
+env
+=
+env
     
 )
     
