@@ -570,6 +570,13 @@ mjs
 ]
 [
 "
+browser_ml_textgeneration_concurrency
+.
+js
+"
+]
+[
+"
 browser_ml_textgeneration_engine
 .
 js
