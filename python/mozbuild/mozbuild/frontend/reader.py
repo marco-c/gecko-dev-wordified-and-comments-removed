@@ -6107,6 +6107,17 @@ data
 obj
 *
 "
+            
+"
+artifacts
+"
+            
+"
+.
+claude
+/
+worktrees
+"
         
 }
         
