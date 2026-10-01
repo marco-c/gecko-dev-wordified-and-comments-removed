@@ -285,6 +285,15 @@ aFrame
 )
 ;
 static
+void
+EnsureDisplayportSizeOnPopupRoot
+(
+nsIFrame
+*
+aFrame
+)
+;
+static
 nsPresContext
 *
 GetPresContextForContent
