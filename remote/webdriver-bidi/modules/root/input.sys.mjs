@@ -1833,6 +1833,11 @@ this
 _getNavigable
 (
 contextId
+{
+supportsPrivilegedScope
+:
+true
+}
 )
 ;
 /
@@ -2072,6 +2077,11 @@ this
 _getNavigable
 (
 contextId
+{
+supportsPrivilegedScope
+:
+true
+}
 )
 ;
 /
