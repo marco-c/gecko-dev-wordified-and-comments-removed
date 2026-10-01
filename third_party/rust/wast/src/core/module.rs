@@ -197,6 +197,16 @@ crate
 Error
 >
 {
+crate
+:
+:
+gensym
+:
+:
+reset
+(
+)
+;
 let
 names
 =

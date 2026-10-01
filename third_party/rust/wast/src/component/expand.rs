@@ -3816,9 +3816,9 @@ t
 ComponentDefinedType
 :
 :
-FixedSizeList
+FixedLengthList
 (
-FixedSizeList
+FixedLengthList
 {
 element
 :

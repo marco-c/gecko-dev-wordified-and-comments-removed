@@ -66,6 +66,7 @@ i32
 (
 dtor
 (
+core
 func
 dtor
 )
@@ -157,6 +158,7 @@ i32
 (
 dtor
 (
+core
 func
 99
 )
@@ -225,6 +227,7 @@ i32
 (
 dtor
 (
+core
 func
 dtor
 )
@@ -296,6 +299,7 @@ i32
 (
 dtor
 (
+core
 func
 dtor
 )
@@ -374,6 +378,7 @@ i32
 (
 dtor
 (
+core
 func
 dtor
 )

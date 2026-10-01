@@ -3,7 +3,7 @@ crate
 :
 :
 {
-BinaryReaderError
+Error
 FuncType
 GlobalType
 HeapType
@@ -212,7 +212,7 @@ features
 WasmFeatures
 offset
 :
-usize
+u64
 )
 -
 >
@@ -220,7 +220,7 @@ Result
 <
 (
 )
-BinaryReaderError
+Error
 >
 {
 features
@@ -229,21 +229,7 @@ check_value_type
 (
 *
 t
-)
-.
-map_err
-(
-|
-s
-|
-BinaryReaderError
-:
-:
-new
-(
-s
 offset
-)
 )
 ?
 ;
@@ -311,7 +297,7 @@ mut
 RefType
 offset
 :
-usize
+u64
 )
 -
 >
@@ -319,7 +305,7 @@ Result
 <
 (
 )
-BinaryReaderError
+Error
 >
 {
 let
@@ -386,7 +372,7 @@ mut
 HeapType
 offset
 :
-usize
+u64
 )
 -
 >
@@ -394,7 +380,7 @@ Result
 <
 (
 )
-BinaryReaderError
+Error
 >
 ;
 fn
@@ -691,7 +677,7 @@ mut
 HeapType
 offset
 :
-usize
+u64
 )
 -
 >
@@ -699,7 +685,7 @@ Result
 <
 (
 )
-BinaryReaderError
+Error
 >
 {
 T
@@ -1125,7 +1111,7 @@ mut
 HeapType
 offset
 :
-usize
+u64
 )
 -
 >
@@ -1133,7 +1119,7 @@ Result
 <
 (
 )
-BinaryReaderError
+Error
 >
 {
 T

@@ -70,12 +70,6 @@ std
 :
 fmt
 ;
-use
-std
-:
-:
-usize
-;
 #
 [
 cfg

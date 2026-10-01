@@ -4,8 +4,8 @@ crate
 :
 {
 BinaryReader
-BinaryReaderError
 ConstExpr
+Error
 FromReader
 Result
 SectionLimited
@@ -58,7 +58,7 @@ range
 :
 Range
 <
-usize
+u64
 >
 }
 #
@@ -233,7 +233,7 @@ _
 return
 Err
 (
-BinaryReaderError
+Error
 :
 :
 new

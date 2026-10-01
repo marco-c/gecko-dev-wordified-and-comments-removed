@@ -26,7 +26,7 @@ rand
 :
 :
 {
-RngCore
+Rng
 SeedableRng
 rngs
 :

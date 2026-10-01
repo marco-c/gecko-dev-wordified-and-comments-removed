@@ -364,7 +364,7 @@ u8
 >
 offset
 :
-usize
+u64
 )
 -
 >

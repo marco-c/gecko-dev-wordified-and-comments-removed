@@ -322,7 +322,7 @@ self
 >
 Range
 <
-usize
+u64
 >
 {
 self
@@ -474,7 +474,7 @@ self
 )
 -
 >
-usize
+u64
 {
 self
 .

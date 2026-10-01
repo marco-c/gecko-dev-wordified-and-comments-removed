@@ -694,6 +694,7 @@ i32
 (
 dtor
 (
+core
 func
 base
 "
