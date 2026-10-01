@@ -18,7 +18,7 @@ DVCS
 that
 uses
 git
-repositorie
+repository
 as
 its
 storage
@@ -1379,7 +1379,6 @@ previous
 tip
 ]
 (
-<
 #
 rebasing
 -
@@ -1389,7 +1388,6 @@ in
 -
 progress
 -
-(
 and
 -
 automatically
@@ -1403,8 +1401,6 @@ that
 have
 -
 landed
-)
->
 )
 !
 )

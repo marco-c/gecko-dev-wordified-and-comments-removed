@@ -2432,7 +2432,13 @@ objdir
 ]
 (
 #
-Building_with_an_Objdir
+building
+-
+with
+-
+an
+-
+objdir
 )
 for
 each

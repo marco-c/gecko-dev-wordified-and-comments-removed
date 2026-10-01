@@ -61,7 +61,7 @@ android
 /
 fenix
 .
-html
+md
 )
 -
 {
@@ -95,6 +95,10 @@ mobile
 android
 /
 geckoview
+/
+index
+.
+md
 )
 -
 [

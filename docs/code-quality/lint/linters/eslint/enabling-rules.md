@@ -69,7 +69,7 @@ mots
 /
 index
 .
-html
+md
 #
 javascript
 -

@@ -74,7 +74,14 @@ crash
 reports
 ]
 (
-Understandingcrashreports
+/
+contributing
+/
+debugging
+/
+understanding_crash_reports
+.
+md
 )
 .
 This

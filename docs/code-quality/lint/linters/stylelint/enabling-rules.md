@@ -66,7 +66,7 @@ mots
 /
 index
 .
-html
+md
 #
 desktop
 -

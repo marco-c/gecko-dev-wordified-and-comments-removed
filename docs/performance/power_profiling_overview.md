@@ -2093,13 +2093,13 @@ activity_monitor_and_top
 .
 md
 #
-What
+what
 -
 does
 -
-Energy
+energy
 -
-Impact
+impact
 -
 measure
 )

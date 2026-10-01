@@ -891,13 +891,7 @@ contributing
 /
 editor
 .
-html
-#
-editor
--
-ide
--
-integration
+md
 )
 :
 :
