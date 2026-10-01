@@ -30,6 +30,7 @@ setContent
 (
 {
 expression
+property
 pseudoElement
 rule
 }
@@ -46,6 +47,7 @@ domRule
 .
 getCssExplainersData
 (
+property
 expression
 pseudoElement
 rule

@@ -619,6 +619,14 @@ function
 expression
 "
 )
+property
+:
+getPropertyNameAndValue
+(
+node
+)
+.
+name
 pseudoElement
 :
 rule
