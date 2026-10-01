@@ -360,6 +360,13 @@ tabGroupsStripEnabled
 Boolean
 =
 false
+override
+val
+showTabGroupsInMenu
+:
+Boolean
+=
+false
 }
 Test
 fun
