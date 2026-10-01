@@ -51,6 +51,10 @@ mp4parse_gtest
 ;
 extern
 crate
+noise_gtest
+;
+extern
+crate
 nsstring_gtest
 ;
 extern

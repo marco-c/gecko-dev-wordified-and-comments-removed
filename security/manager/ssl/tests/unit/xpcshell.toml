@@ -1122,6 +1122,13 @@ msix
 ]
 [
 "
+test_ctap_cable_channel
+.
+js
+"
+]
+[
+"
 test_data_storage
 .
 js

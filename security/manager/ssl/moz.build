@@ -120,6 +120,11 @@ nsICryptoHash
 idl
 "
 "
+nsICtapCableChannel
+.
+idl
+"
+"
 nsIDataStorage
 .
 idl

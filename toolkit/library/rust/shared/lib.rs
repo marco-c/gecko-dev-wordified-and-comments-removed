@@ -240,6 +240,10 @@ netwerk_helper
 ;
 extern
 crate
+noise
+;
+extern
+crate
 nserror
 ;
 extern
