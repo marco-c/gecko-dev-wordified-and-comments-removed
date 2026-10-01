@@ -337,6 +337,11 @@ tabbrowser
 -
 tabs
 "
+"
+alltabs
+-
+button
+"
 ORGANIZE_TABS
 SWITCHER
 ]
@@ -358,6 +363,11 @@ AREA_TABSTRIP
 tabbrowser
 -
 tabs
+"
+"
+alltabs
+-
+button
 "
 ORGANIZE_TABS
 SWITCHER
