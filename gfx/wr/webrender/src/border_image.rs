@@ -181,7 +181,6 @@ build
 desc
 .
 pattern_rect
-None
 &
 mut
 PatternBuilderState

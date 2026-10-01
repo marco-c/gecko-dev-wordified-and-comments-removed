@@ -1165,7 +1165,6 @@ build
 desc
 .
 pattern_rect
-None
 &
 mut
 PatternBuilderState
@@ -1302,7 +1301,6 @@ build
 desc
 .
 pattern_rect
-None
 &
 mut
 PatternBuilderState
@@ -1723,7 +1721,6 @@ build
 desc
 .
 pattern_rect
-None
 &
 mut
 PatternBuilderState
@@ -1866,7 +1863,6 @@ build
 (
 &
 tile_rect
-None
 &
 mut
 PatternBuilderState
@@ -1991,7 +1987,6 @@ build
 desc
 .
 pattern_rect
-None
 &
 mut
 PatternBuilderState

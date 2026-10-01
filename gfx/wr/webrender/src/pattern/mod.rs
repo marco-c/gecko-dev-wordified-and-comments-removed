@@ -580,12 +580,6 @@ pattern_rect
 :
 &
 LayoutRect
-sub_rect
-:
-Option
-<
-DeviceRect
->
 state
 :
 &
@@ -916,12 +910,6 @@ _pattern_rect
 :
 &
 LayoutRect
-_sub_rect
-:
-Option
-<
-DeviceRect
->
 _state
 :
 &
