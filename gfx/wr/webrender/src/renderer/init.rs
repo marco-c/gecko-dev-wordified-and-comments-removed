@@ -575,6 +575,10 @@ enable_dithering
 :
 bool
 pub
+enable_yuv_overlay_stability
+:
+bool
+pub
 max_recorded_profiles
 :
 usize
@@ -915,6 +919,9 @@ enable_aa
 :
 true
 enable_dithering
+:
+false
+enable_yuv_overlay_stability
 :
 false
 debug_flags
@@ -2279,6 +2286,11 @@ enable_dithering
 options
 .
 enable_dithering
+enable_yuv_overlay_stability
+:
+options
+.
+enable_yuv_overlay_stability
 }
 ;
 info

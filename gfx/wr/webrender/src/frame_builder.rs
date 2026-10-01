@@ -610,6 +610,10 @@ pub
 enable_dithering
 :
 bool
+pub
+enable_yuv_overlay_stability
+:
+bool
 }
 pub
 struct
