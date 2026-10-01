@@ -1847,6 +1847,9 @@ Suppress
 "
 LongMethod
 "
+"
+CyclomaticComplexMethod
+"
 )
 <
 /
