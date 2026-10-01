@@ -1371,14 +1371,7 @@ _DEPEND_CFLAGS
 MK_COMPILE_DEFINES
 )
 ifdef
-MOZ_LTO
-ifeq
-(
-Darwin
-(
-OS_TARGET
-)
-)
+MOZ_LTO_OBJECT_PATH
 #
 When
 linking
@@ -1562,7 +1555,6 @@ lto
 .
 o
 /
-endif
 endif
 #
 We
