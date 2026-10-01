@@ -941,6 +941,16 @@ mp4
 /
 test
 /
+output_aac
+.
+mkv
+"
+"
+.
+.
+/
+test
+/
 reftest
 /
 color_quads
