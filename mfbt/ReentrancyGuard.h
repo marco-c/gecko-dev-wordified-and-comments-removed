@@ -117,8 +117,6 @@ ReentrancyGuard
 }
 #
 endif
-private
-:
 ReentrancyGuard
 (
 const

@@ -68,6 +68,17 @@ template
 typename
 U
 >
+requires
+(
+std
+:
+:
+is_constructible_v
+<
+T
+U
+>
+)
 explicit
 Tainted
 (
