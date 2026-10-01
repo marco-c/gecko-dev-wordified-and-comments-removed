@@ -370,6 +370,13 @@ js
 ]
 [
 "
+test_sitepolicies_container
+.
+js
+"
+]
+[
+"
 test_sorted_alphabetically
 .
 js

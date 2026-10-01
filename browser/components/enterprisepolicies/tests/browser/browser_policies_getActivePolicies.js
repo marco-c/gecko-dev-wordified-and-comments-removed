@@ -86,6 +86,10 @@ let
 expected
 =
 {
+SitePolicies
+:
+[
+]
 }
 ;
 Assert
