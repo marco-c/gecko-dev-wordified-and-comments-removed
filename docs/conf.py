@@ -294,6 +294,10 @@ staging_paths
 "
 dark_mode
 "
+    
+"
+mermaid_wrapped_option
+"
 ]
 myst_enable_extensions
 =
