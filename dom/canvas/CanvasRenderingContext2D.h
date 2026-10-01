@@ -434,6 +434,12 @@ OnDidPaintTransaction
 )
 override
 ;
+void
+OnWindowDestroy
+(
+)
+override
+;
 layers
 :
 :

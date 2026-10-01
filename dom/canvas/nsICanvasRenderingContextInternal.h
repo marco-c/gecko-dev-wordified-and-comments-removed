@@ -824,6 +824,13 @@ OnDidPaintTransaction
 {
 }
 virtual
+void
+OnWindowDestroy
+(
+)
+{
+}
+virtual
 mozilla
 :
 :
