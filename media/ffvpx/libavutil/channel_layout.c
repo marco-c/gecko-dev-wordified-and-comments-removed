@@ -57,6 +57,13 @@ h
 #
 include
 "
+attributes
+.
+h
+"
+#
+include
+"
 macros
 .
 h
@@ -3886,6 +3893,8 @@ return
 0
 ;
 }
+av_fallthrough
+;
 case
 AV_CHANNEL_ORDER_CUSTOM
 :
@@ -4112,6 +4121,8 @@ return
 0
 ;
 }
+av_fallthrough
+;
 case
 AV_CHANNEL_ORDER_UNSPEC
 :
@@ -4327,6 +4338,8 @@ idx
 ambi_channels
 ;
 }
+av_fallthrough
+;
 case
 AV_CHANNEL_ORDER_NATIVE
 :
@@ -4371,6 +4384,8 @@ return
 i
 ;
 }
+av_fallthrough
+;
 default
 :
 return
@@ -4805,6 +4820,8 @@ return
 i
 ;
 }
+av_fallthrough
+;
 case
 AV_CHANNEL_ORDER_AMBISONIC
 :

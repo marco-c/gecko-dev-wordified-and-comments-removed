@@ -778,6 +778,10 @@ HAVE_X86ASM
 1
 %
 define
+HAVE_X86_SSE2AVX
+0
+%
+define
 HAVE_BIGENDIAN
 0
 %

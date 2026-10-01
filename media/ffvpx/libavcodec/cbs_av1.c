@@ -4930,6 +4930,8 @@ err
 return
 err
 ;
+av_fallthrough
+;
 case
 AV1_OBU_TILE_GROUP
 :
@@ -4965,6 +4967,17 @@ obu
 obu
 .
 tile_group
+;
+if
+(
+!
+priv
+-
+>
+seen_frame_header
+)
+return
+AVERROR_INVALIDDATA
 ;
 err
 =
@@ -5782,6 +5795,8 @@ err
 )
 goto
 error
+;
+av_fallthrough
 ;
 case
 AV1_OBU_TILE_GROUP

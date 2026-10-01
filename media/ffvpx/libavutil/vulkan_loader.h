@@ -269,6 +269,15 @@ FF_VK_EXT_VIDEO_ENCODE_AV1
 }
 #
 endif
+#
+ifdef
+VK_KHR_internally_synchronized_queues
+{
+VK_KHR_INTERNALLY_SYNCHRONIZED_QUEUES_EXTENSION_NAME
+FF_VK_EXT_INTERNAL_QUEUE_SYNC
+}
+#
+endif
 }
 ;
 FFVulkanExtensions

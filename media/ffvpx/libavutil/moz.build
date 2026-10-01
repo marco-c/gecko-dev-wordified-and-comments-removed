@@ -212,6 +212,11 @@ dict
 c
 '
 '
+display
+.
+c
+'
+'
 error
 .
 c
@@ -223,6 +228,11 @@ c
 '
 '
 fifo
+.
+c
+'
+'
+file_open
 .
 c
 '
@@ -392,6 +402,11 @@ c
 '
 '
 hdr_dynamic_metadata
+.
+c
+'
+'
+hdr_dynamic_vivid_metadata
 .
 c
 '

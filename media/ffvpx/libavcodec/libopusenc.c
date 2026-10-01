@@ -1479,6 +1479,8 @@ application
 =
 OPUS_APPLICATION_RESTRICTED_LOWDELAY
 ;
+av_fallthrough
+;
 case
 480
 :
@@ -3443,6 +3445,10 @@ dtx
 "
 Enable
 DTX
+(
+Discontinuous
+transmission
+)
 "
 OFFSET
 (

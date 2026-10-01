@@ -62,10 +62,10 @@ void
 {
 static_assert
 (
-AV_CODEC_ID_PRORES_RAW
+AV_CODEC_ID_JPEGXS
 =
 =
-274
+272
 &
 &
 AV_CODEC_ID_PCM_SGA
