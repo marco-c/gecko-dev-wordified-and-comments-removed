@@ -30,6 +30,13 @@ h
 #
 include
 "
+nsCRTGlue
+.
+h
+"
+#
+include
+"
 nsOSHelperAppService
 .
 h
