@@ -220,7 +220,7 @@ idx
 }
 )
 ;
-assert_false
+assert_true
 (
 info
 .
@@ -249,9 +249,12 @@ exceeds
 the
 level
 cap
-and
+but
 is
-unsupported
+supported
+(
+downscaled
+)
 '
 )
 ;
@@ -1213,7 +1216,7 @@ idx
 }
 )
 ;
-assert_false
+assert_true
 (
 info
 .
@@ -1241,9 +1244,12 @@ exceeds
 the
 level
 cap
-and
+but
 is
-unsupported
+supported
+(
+downscaled
+)
 '
 )
 ;

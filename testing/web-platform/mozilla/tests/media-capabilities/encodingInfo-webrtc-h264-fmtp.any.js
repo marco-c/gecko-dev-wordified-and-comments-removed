@@ -397,7 +397,7 @@ id
 }
 )
 ;
-assert_false
+assert_true
 (
 info
 .
@@ -422,9 +422,12 @@ at
 exceeds
 level
 cap
-and
+but
 is
-unsupported
+supported
+(
+downscaled
+)
 '
 )
 ;
