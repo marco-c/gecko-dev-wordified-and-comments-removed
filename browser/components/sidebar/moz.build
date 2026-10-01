@@ -153,6 +153,15 @@ TESTING_JS_MODULES
 "
 tests
 /
+BookmarksSidebarTestUtils
+.
+sys
+.
+mjs
+"
+"
+tests
+/
 SidebarTestUtils
 .
 sys
