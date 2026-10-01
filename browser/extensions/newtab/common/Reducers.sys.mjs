@@ -1975,7 +1975,8 @@ false
 *
 type
 {
-[
+Array
+<
 {
 value
 :
@@ -1984,7 +1985,7 @@ lastUsed
 :
 number
 }
-]
+>
 }
 *
 Recent
