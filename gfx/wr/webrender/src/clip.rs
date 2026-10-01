@@ -5417,6 +5417,9 @@ clip_chain
 :
 &
 ClipChainInstance
+device_coverage_rect
+:
+DeviceRect
 interned_clips
 :
 &
@@ -5441,9 +5444,7 @@ set_bounds
 clip_chain
 .
 local_clip_rect
-clip_chain
-.
-pic_coverage_rect
+device_coverage_rect
 clip_chain
 .
 needs_mask

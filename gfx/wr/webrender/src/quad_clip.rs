@@ -152,7 +152,7 @@ local_clip_rect
 LayoutRect
 coverage_rect
 :
-PictureRect
+DeviceRect
 needs_mask
 :
 bool
@@ -197,7 +197,7 @@ max_rect
 )
 coverage_rect
 :
-PictureRect
+DeviceRect
 :
 :
 zero
@@ -370,7 +370,7 @@ self
 )
 -
 >
-PictureRect
+DeviceRect
 {
 self
 .
@@ -416,7 +416,7 @@ self
 .
 coverage_rect
 =
-PictureRect
+DeviceRect
 :
 :
 zero
@@ -442,7 +442,7 @@ local_clip_rect
 LayoutRect
 coverage_rect
 :
-PictureRect
+DeviceRect
 needs_mask
 :
 bool
