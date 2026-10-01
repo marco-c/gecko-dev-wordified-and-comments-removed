@@ -147,19 +147,6 @@ secrets
 ]
     
 "
-vcs_share_base
-"
-:
-"
-/
-builds
-/
-hg
--
-shared
-"
-    
-"
 upload_env
 "
 :
@@ -179,16 +166,6 @@ artifacts
 "
     
 }
-    
-"
-platform
-"
-:
-"
-win32
--
-mingw32
-"
     
 "
 env
@@ -224,19 +201,6 @@ DISPLAY
 "
 :
 2
-"
-        
-"
-HG_SHARE_BASE_DIR
-"
-:
-"
-/
-builds
-/
-hg
--
-shared
 "
         
 "
