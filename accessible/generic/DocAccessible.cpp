@@ -16470,6 +16470,10 @@ GetAnchorPosAnchor
 (
 anchorName
 frame
+referencedAnchors
+-
+>
+mFrameTreeDepth
 )
 )
 {
