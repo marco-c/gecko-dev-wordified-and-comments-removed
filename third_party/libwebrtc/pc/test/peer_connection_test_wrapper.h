@@ -341,9 +341,6 @@ socket_server
 Thread
 *
 network_thread
-Thread
-*
-worker_thread
 )
 ;
 ~
@@ -1209,11 +1206,6 @@ Thread
 *
 const
 network_thread_
-;
-Thread
-*
-const
-worker_thread_
 ;
 SequenceChecker
 pc_thread_checker_

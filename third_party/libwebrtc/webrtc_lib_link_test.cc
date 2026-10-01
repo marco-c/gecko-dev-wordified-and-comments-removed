@@ -418,17 +418,6 @@ Current
 ;
 pcf_deps
 .
-worker_thread
-=
-Thread
-:
-:
-Current
-(
-)
-;
-pcf_deps
-.
 event_log_factory
 =
 std

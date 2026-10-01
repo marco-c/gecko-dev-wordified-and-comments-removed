@@ -2414,9 +2414,6 @@ socket_server
 Thread
 *
 network_thread
-Thread
-*
-worker_thread
 std
 :
 :
@@ -4457,15 +4454,6 @@ unique_ptr
 Thread
 >
 network_thread_
-;
-std
-:
-:
-unique_ptr
-<
-Thread
->
-worker_thread_
 ;
 std
 :

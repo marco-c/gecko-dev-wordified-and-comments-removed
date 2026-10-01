@@ -1046,9 +1046,6 @@ socket_server
 Thread
 *
 network_thread
-Thread
-*
-worker_thread
 )
 :
 name_
@@ -1066,10 +1063,6 @@ socket_server
 network_thread_
 (
 network_thread
-)
-worker_thread_
-(
-worker_thread
 )
 pending_negotiation_
 (
@@ -1247,12 +1240,6 @@ dependencies
 network_thread
 =
 network_thread_
-;
-dependencies
-.
-worker_thread
-=
-worker_thread_
 ;
 dependencies
 .

@@ -1643,16 +1643,6 @@ Environment
 env
 Thread
 *
-worker_thread
-=
-Thread
-:
-:
-Current
-(
-)
-Thread
-*
 network_thread
 =
 Thread
@@ -1673,7 +1663,7 @@ network_thread
 )
 worker_thread_
 (
-worker_thread
+network_thread_
 )
 signaling_thread_
 (
@@ -1689,8 +1679,8 @@ dependencies_
 MakeDependencies
 (
 signaling_thread_
-worker_thread
-network_thread
+worker_thread_
+network_thread_
 )
 )
 context_
@@ -3326,7 +3316,7 @@ override
 {
 RTC_DCHECK_RUN_ON
 (
-signaling_thread
+network_thread
 (
 )
 )
