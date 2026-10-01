@@ -4305,7 +4305,7 @@ GetSingleton
 )
 -
 >
-GetProcessParent
+GetSharedKeepAlive
 (
 ipc
 :
@@ -4314,6 +4314,11 @@ SandboxingKind
 :
 :
 GENERIC_UTILITY
+)
+-
+>
+GetProcessParent
+(
 )
 -
 >
