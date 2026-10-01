@@ -51,6 +51,11 @@ HWInferenceTypes
 .
 h
 "
+"
+ModelFileUtils
+.
+h
+"
 ]
 UNIFIED_SOURCES
 +
@@ -68,6 +73,11 @@ cpp
 "
 "
 HWInferenceProcess
+.
+cpp
+"
+"
+ModelFileUtils
 .
 cpp
 "
