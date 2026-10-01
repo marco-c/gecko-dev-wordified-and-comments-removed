@@ -1465,7 +1465,7 @@ doc
 Marionette
 <
 /
-testing
+remote
 /
 marionette
 /
@@ -1582,7 +1582,9 @@ telemetry
 /
 internals
 /
-tests
+integration_tests
+/
+index
 >
 "
 "
@@ -2777,7 +2779,7 @@ doc
 Marionette
 <
 /
-testing
+remote
 /
 marionette
 /
@@ -3037,7 +3039,7 @@ doc
 Marionette
 <
 /
-testing
+remote
 /
 marionette
 /
