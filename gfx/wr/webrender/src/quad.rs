@@ -2658,6 +2658,16 @@ height
 )
 >
 MIN_AA_SEGMENTS_SIZE
+&
+&
+!
+pattern
+.
+kind
+.
+requires_backdrop_readback
+(
+)
 {
 quad_flags
 |
