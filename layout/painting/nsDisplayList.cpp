@@ -33781,7 +33781,7 @@ HasTransform
 )
 {
 const
-auto
+StyleZoom
 zoom
 =
 frame
@@ -33833,6 +33833,13 @@ mTransform
 aRefBox
 aAppUnitsPerPixel
 zoom
+nsStyleTransformMatrix
+:
+:
+Zoomed
+:
+:
+Yes
 )
 ;
 }
