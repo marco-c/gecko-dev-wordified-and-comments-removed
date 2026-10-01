@@ -3894,7 +3894,7 @@ ClipItemKeyKind
 ImageMask
 (
 image
-polygon_handle
+_
 )
 =
 >
@@ -3905,7 +3905,6 @@ ClipItemKind
 Image
 {
 image
-polygon_handle
 }
 }
 }
@@ -7083,12 +7082,6 @@ Image
 image
 :
 ImageKey
-polygon_handle
-:
-Option
-<
-PolygonDataHandle
->
 }
 }
 #
