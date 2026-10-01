@@ -7193,6 +7193,7 @@ nsCoreUtils
 CanCreateAccessibleWithoutFrame
 (
 content
+aIsSubtreeHidden
 )
 )
 {
@@ -7473,17 +7474,6 @@ newAcc
 }
 else
 {
-if
-(
-aIsSubtreeHidden
-)
-{
-*
-aIsSubtreeHidden
-=
-true
-;
-}
 return
 nullptr
 ;

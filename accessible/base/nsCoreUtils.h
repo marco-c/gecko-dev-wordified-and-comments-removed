@@ -716,6 +716,11 @@ CanCreateAccessibleWithoutFrame
 nsIContent
 *
 aContent
+bool
+*
+aIsSubtreeHidden
+=
+nullptr
 )
 ;
 static
