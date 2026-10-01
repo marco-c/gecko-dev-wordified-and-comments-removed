@@ -532,6 +532,23 @@ data
 )
     
 def
+assertion_failure
+(
+self
+data
+)
+:
+        
+self
+.
+resources
+.
+assertion_failure
+(
+data
+)
+    
+def
 mozleak_object
 (
 self
