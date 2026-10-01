@@ -177,17 +177,6 @@ ac_add_options
 -
 disable
 -
-update
--
-agent
-#
-Bug
-1561797
-ac_add_options
--
--
-disable
--
 default
 -
 browser
