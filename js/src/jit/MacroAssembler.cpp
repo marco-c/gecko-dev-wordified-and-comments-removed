@@ -24903,15 +24903,9 @@ CallTempReg1
 ;
 masm
 .
-push
+pushRegs
 (
 reg
-)
-;
-masm
-.
-push
-(
 reg2
 )
 ;
