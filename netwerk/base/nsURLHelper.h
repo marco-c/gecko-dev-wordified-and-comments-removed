@@ -47,7 +47,7 @@ class
 nsIFile
 ;
 class
-nsBaseURLParser
+nsIURLParser
 ;
 void
 net_ShutdownURLHelper
@@ -56,7 +56,7 @@ net_ShutdownURLHelper
 ;
 already_AddRefed
 <
-nsBaseURLParser
+nsIURLParser
 >
 net_GetAuthURLParser
 (
@@ -64,7 +64,7 @@ net_GetAuthURLParser
 ;
 already_AddRefed
 <
-nsBaseURLParser
+nsIURLParser
 >
 net_GetNoAuthURLParser
 (
@@ -72,7 +72,7 @@ net_GetNoAuthURLParser
 ;
 already_AddRefed
 <
-nsBaseURLParser
+nsIURLParser
 >
 net_GetStdURLParser
 (
