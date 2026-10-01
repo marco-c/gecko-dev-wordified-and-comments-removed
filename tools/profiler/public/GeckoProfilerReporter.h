@@ -24,8 +24,9 @@ NS_DECL_ISUPPORTS
 GeckoProfilerReporter
 (
 )
-{
-}
+=
+default
+;
 NS_IMETHOD
 CollectReports
 (
@@ -46,8 +47,9 @@ private
 GeckoProfilerReporter
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 #

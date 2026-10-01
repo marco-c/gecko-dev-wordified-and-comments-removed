@@ -153,8 +153,9 @@ virtual
 BaseProfilerCount
 (
 )
-{
-}
+=
+default
+;
 struct
 CountSample
 {
