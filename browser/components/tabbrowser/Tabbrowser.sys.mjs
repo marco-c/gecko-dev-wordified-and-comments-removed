@@ -47105,13 +47105,6 @@ closing
 replaceTabWithWindow
 (
 aTab
-options
-=
-{
-}
-)
-{
-let
 {
 replaceLastTab
 =
@@ -47122,8 +47115,10 @@ false
 features
 }
 =
-options
-;
+{
+}
+)
+{
 if
 (
 this
