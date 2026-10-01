@@ -54,6 +54,15 @@ include
 "
 mozilla
 /
+StackWalk_windows
+.
+h
+"
+#
+include
+"
+mozilla
+/
 WindowsMapRemoteView
 .
 h
@@ -2330,6 +2339,9 @@ aBaseAddress
 )
 const
 {
+AutoSuppressStackWalking
+suppress
+;
 return
 bool
 (
