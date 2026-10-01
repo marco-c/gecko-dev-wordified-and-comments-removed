@@ -5384,6 +5384,17 @@ isDefaultBrowser
 ;
 }
 get
+hasAttemptedSetDefault
+(
+)
+{
+return
+ShellService
+.
+attemptedSetDefaultThisSession
+;
+}
+get
 isOneClickSetDefaultEnabled
 (
 )

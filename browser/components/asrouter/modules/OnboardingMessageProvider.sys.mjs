@@ -961,6 +961,10 @@ isDefaultBrowser
 &
 &
 !
+hasAttemptedSetDefault
+&
+&
+!
 hasActiveEnterprisePolicies
 &
 &
@@ -1231,6 +1235,10 @@ isMac
 &
 !
 isDefaultBrowser
+&
+&
+!
+hasAttemptedSetDefault
 &
 &
 !
@@ -1541,6 +1549,10 @@ isDefaultBrowser
 &
 &
 !
+hasAttemptedSetDefault
+&
+&
+!
 hasActiveEnterprisePolicies
 &
 &
@@ -1836,6 +1848,10 @@ isMac
 &
 !
 isDefaultBrowser
+&
+&
+!
+hasAttemptedSetDefault
 &
 &
 !
