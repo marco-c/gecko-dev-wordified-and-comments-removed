@@ -674,9 +674,6 @@ Set
 prefFlips
 "
 "
-newtabTrainhopAddon
-"
-"
 newtabTrainhopAddonDeployment
 "
 ]

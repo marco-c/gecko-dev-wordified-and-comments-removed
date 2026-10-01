@@ -531,7 +531,7 @@ Simulated
 browser
 restart
 while
-newtabTrainhopAddon
+newtabTrainhopAddonDeployment
 nimbus
 feature
 is

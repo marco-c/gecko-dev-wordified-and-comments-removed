@@ -3228,28 +3228,31 @@ self
 .
 _trainHop
 =
+(
+            
 "
 browser
 .
 newtabpage
 .
-trainhopAddon
+trainhopAddonDeployment
 .
 version
 =
 any
 "
+            
 in
 options
 .
 get
 (
-            
 "
 extraPrefs
 "
 [
 ]
+)
         
 )
         
@@ -16776,21 +16779,26 @@ toolsEnv
 env
         
 if
+(
+            
 "
 browser
 .
 newtabpage
 .
-trainhopAddon
+trainhopAddonDeployment
 .
 version
 =
 any
 "
+            
 in
 options
 .
 extraPrefs
+        
+)
 :
             
 toolsEnv
