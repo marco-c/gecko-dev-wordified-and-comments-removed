@@ -5815,6 +5815,9 @@ x86
 "
 aarch64
 "
+"
+loongarch64
+"
 )
 :
 return
@@ -5839,6 +5842,8 @@ x86_64
 x86
 /
 arm64
+/
+loongarch64
 jits
 "
 )
