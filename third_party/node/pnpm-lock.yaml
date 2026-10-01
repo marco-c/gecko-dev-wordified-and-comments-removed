@@ -4099,7 +4099,7 @@ uri
 .
 1
 .
-6
+8
 :
 resolution
 :
@@ -4108,13 +4108,13 @@ integrity
 :
 sha512
 -
-7Ical1vFEMr0onbVzEDIreM22I4khW
+GZMtZUTNRpOVIECoXwLNZS5xUGE
 +
-fzyQPwvAFWBp1iwdshSZRsL4jjRvPG9JP1uiqMHRto
-+
-YU6R2
+mVNbTB8h
 /
-CzDz5Q
+7Rwh2TFWcBQiPzTgyZi05BF9UMZKkLJv8XBRJTlU7zg8
++
+ZfMg
 =
 =
 }
@@ -11296,7 +11296,7 @@ uri
 .
 1
 .
-6
+8
 json
 -
 schema
@@ -12180,7 +12180,7 @@ uri
 .
 1
 .
-6
+8
 :
 {
 }
