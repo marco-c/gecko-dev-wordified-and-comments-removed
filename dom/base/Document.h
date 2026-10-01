@@ -16385,6 +16385,16 @@ mShouldNotifyFormOrPasswordRemoved
 PageloadEventData
 mPageloadEventData
 ;
+bool
+mPageLoadMetricsAccumulated
+=
+false
+;
+bool
+mPageLoadWasForeground
+=
+false
+;
 void
 ReportPageLoadEvent
 (
