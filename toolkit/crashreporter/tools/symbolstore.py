@@ -3,6 +3,8 @@ ctypes
 import
 errno
 import
+functools
+import
 os
 import
 platform
@@ -41,12 +43,6 @@ get_filename_with_digest
     
 get_s3_region_and_bucket
 )
-from
-mozbuild
-.
-util
-import
-memoize
 from
 mozpack
 import
@@ -2323,7 +2319,9 @@ path
     
 return
 file_mapping
-memoize
+functools
+.
+cache
 def
 get_generated_file_s3_path
 (
@@ -3425,6 +3423,7 @@ SourceServerIndexing
 (
         
 self
+file
 debug_file
 guid
 sourceFileStream
@@ -4846,10 +4845,16 @@ self
 SourceServerIndexing
 (
                         
+file
+                        
 debug_file
+                        
 guid
+                        
 sourceFileStream
+                        
 vcs_root
+                        
 self
 .
 s3_bucket
@@ -5803,6 +5808,7 @@ SourceServerIndexing
 (
         
 self
+file
 debug_file
 guid
 sourceFileStream
@@ -5812,16 +5818,7 @@ s3_bucket
 )
 :
         
-streamFilename
-=
-debug_file
-+
-"
-.
-stream
-"
-        
-stream_output_path
+pdb_file
 =
 os
 .
@@ -5829,8 +5826,20 @@ path
 .
 abspath
 (
-streamFilename
+locate_pdb
+(
+file
 )
+)
+        
+stream_output_path
+=
+pdb_file
++
+"
+.
+stream
+"
         
 result
 =
@@ -5919,7 +5928,7 @@ path
 .
 basename
 (
-debug_file
+pdb_file
 )
                     
 "
@@ -5934,7 +5943,7 @@ path
 .
 basename
 (
-streamFilename
+stream_output_path
 )
                     
 "
