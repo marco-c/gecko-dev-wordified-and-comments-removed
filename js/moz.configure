@@ -5673,6 +5673,9 @@ x86
 "
 aarch64
 "
+"
+loongarch64
+"
 )
 :
 return
