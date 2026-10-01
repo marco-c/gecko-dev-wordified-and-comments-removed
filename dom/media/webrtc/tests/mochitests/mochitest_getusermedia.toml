@@ -937,3 +937,10 @@ test_getUserMedia_trackEnded
 html
 "
 ]
+[
+"
+test_getUserMedia_videoOrientation
+.
+html
+"
+]
