@@ -1108,6 +1108,26 @@ command
 [
             
 "
+unshare
+"
+            
+"
+-
+-
+user
+"
+            
+"
+-
+-
+map
+-
+root
+-
+user
+"
+            
+"
 chroot
 "
             

@@ -278,13 +278,6 @@ rpm
 repackage
 mozharness
 :
-run
--
-as
--
-root
-:
-true
 use
 -
 caches
