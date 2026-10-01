@@ -4013,9 +4013,10 @@ SidebarController
 .
 _state
 .
-userLauncherVisible
-=
+updateVisibility
+(
 false
+)
 ;
 window
 .
