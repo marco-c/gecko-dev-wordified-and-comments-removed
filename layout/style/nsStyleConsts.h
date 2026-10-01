@@ -554,16 +554,6 @@ Sideways
 ;
 enum
 class
-StyleBoxCollapse
-:
-uint8_t
-{
-Flex
-Legacy
-}
-;
-enum
-class
 StyleTextCombineUpright
 :
 uint8_t
