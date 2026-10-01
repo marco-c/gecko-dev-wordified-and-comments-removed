@@ -184,12 +184,4 @@ bin
 "
     
 }
-    
-"
-mozconfig_variant
-"
-:
-"
-debug
-"
 }
