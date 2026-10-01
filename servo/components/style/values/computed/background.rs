@@ -62,6 +62,7 @@ background
 :
 {
 BackgroundClip
+BackgroundOrigin
 BackgroundRepeat
 }
 ;

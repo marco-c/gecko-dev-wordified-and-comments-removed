@@ -1580,6 +1580,9 @@ FontVariantCaps
 "
 WhiteSpaceCollapse
 "
+"
+BackgroundOrigin
+"
 ]
 item_types
 =

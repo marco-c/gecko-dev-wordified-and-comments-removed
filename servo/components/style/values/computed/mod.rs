@@ -486,6 +486,7 @@ background
 :
 {
 BackgroundClip
+BackgroundOrigin
 BackgroundRepeat
 BackgroundSize
 }
