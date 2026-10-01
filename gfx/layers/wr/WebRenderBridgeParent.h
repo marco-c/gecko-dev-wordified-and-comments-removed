@@ -1844,6 +1844,14 @@ VsyncId
 aVsyncId
 )
 ;
+void
+SanitizeScrollData
+(
+WebRenderScrollData
+&
+aScrollData
+)
+;
 bool
 SetDisplayList
 (
