@@ -8280,9 +8280,6 @@ createUserContextMenu
 (
 event
 {
-useAccessKeys
-:
-false
 showDefaultTab
 :
 true
