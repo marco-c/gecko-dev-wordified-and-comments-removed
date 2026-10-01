@@ -129,11 +129,7 @@ GetStream
 (
 )
 const
-{
-return
-mStream
 ;
-}
 void
 SetStream
 (
@@ -141,12 +137,7 @@ WritableStream
 *
 aStream
 )
-{
-mStream
-=
-aStream
 ;
-}
 Promise
 *
 ReadyPromise

@@ -4,6 +4,11 @@ mozilla_dom_network_Constants_h_
 #
 define
 mozilla_dom_network_Constants_h_
+#
+include
+<
+cstdint
+>
 namespace
 mozilla
 :
