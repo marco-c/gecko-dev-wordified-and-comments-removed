@@ -1514,6 +1514,9 @@ TableLayout
 "
 UnicodeBidi
 "
+"
+ImeMode
+"
 ]
 item_types
 =
