@@ -17265,8 +17265,6 @@ const
 auto
 kPointerEventsHint
 =
-nsChangeHint_NeedReflow
-|
 nsChangeHint_SchedulePaint
 ;
 nsChangeHint
