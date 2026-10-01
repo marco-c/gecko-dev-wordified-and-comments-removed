@@ -404,17 +404,6 @@ size_t
 payload_length_bytes
 )
 ;
-int
-WebRtcOpus_PacketHasVoiceActivity
-(
-const
-uint8_t
-*
-payload
-size_t
-payload_length_bytes
-)
-;
 #
 ifdef
 __cplusplus
