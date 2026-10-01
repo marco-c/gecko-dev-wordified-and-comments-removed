@@ -4,6 +4,11 @@ js_loader_ScriptKind_h
 #
 define
 js_loader_ScriptKind_h
+#
+include
+<
+cstdint
+>
 namespace
 JS
 :
@@ -20,6 +25,7 @@ eClassic
 eModule
 eEvent
 eImportMap
+eSpeculationRules
 }
 ;
 }

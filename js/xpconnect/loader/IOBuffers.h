@@ -77,8 +77,9 @@ public
 OutputBuffer
 (
 )
-{
-}
+=
+default
+;
 uint8_t
 *
 write

@@ -63,6 +63,15 @@ include
 "
 vm
 /
+JSScript
+.
+h
+"
+#
+include
+"
+vm
+/
 SavedFrame
 .
 h

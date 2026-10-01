@@ -909,6 +909,12 @@ return
 this
 ;
 }
+BuiltThing
+(
+)
+=
+delete
+;
 explicit
 operator
 bool
@@ -920,14 +926,6 @@ return
 value
 ;
 }
-private
-:
-BuiltThing
-(
-)
-=
-delete
-;
 }
 ;
 public

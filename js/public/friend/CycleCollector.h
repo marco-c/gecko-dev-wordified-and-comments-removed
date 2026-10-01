@@ -29,6 +29,16 @@ TraceKind
 .
 h
 "
+namespace
+JS
+{
+class
+AutoRequireNoGC
+;
+class
+SliceBudget
+;
+}
 using
 JSGrayRootsTracer
 =

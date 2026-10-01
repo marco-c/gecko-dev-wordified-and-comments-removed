@@ -41,6 +41,15 @@ include
 "
 js
 /
+AllocPolicy
+.
+h
+"
+#
+include
+"
+js
+/
 TypeDecls
 .
 h

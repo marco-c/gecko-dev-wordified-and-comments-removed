@@ -11,6 +11,12 @@ jstypes
 .
 h
 "
+struct
+JSContext
+;
+class
+JSObject
+;
 namespace
 xpc
 {

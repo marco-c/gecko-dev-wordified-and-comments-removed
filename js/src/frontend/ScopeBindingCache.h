@@ -104,6 +104,9 @@ struct
 CompilationStencilMerger
 ;
 struct
+InitialStencilAndDelazifications
+;
+struct
 GenericAtom
 {
 struct
