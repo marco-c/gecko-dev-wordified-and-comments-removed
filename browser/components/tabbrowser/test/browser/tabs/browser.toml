@@ -4156,13 +4156,6 @@ js
 ]
 [
 "
-browser_tab_splitview_click_target
-.
-js
-"
-]
-[
-"
 browser_tab_splitview_content_size
 .
 js
