@@ -1638,6 +1638,10 @@ DispatchIsLiveStream
 false
 )
 ;
+NotifyReaderDataArrived
+(
+)
+;
 }
 MediaDecoderOwner
 *
