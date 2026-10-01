@@ -140,6 +140,8 @@ WebSocketClosed
 (
 uint32_t
 awebSocketSerialID
+uint64_t
+aHttpChannelId
 bool
 aWasClean
 uint16_t

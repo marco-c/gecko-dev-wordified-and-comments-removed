@@ -151,6 +151,10 @@ uint32_t
 &
 aWebSocketSerialID
 const
+uint64_t
+&
+aHttpChannelId
+const
 bool
 &
 aWasClean
