@@ -673,7 +673,7 @@ option
 "
 -
 -
-enable
+disable
 -
 legacy
 -
@@ -689,7 +689,7 @@ MOZ_USE_LEGACY_CARGO_INVOCATION
 help
 =
 "
-Enable
+Disable
 the
 legacy
 (
