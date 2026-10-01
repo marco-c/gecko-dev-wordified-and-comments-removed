@@ -632,6 +632,15 @@ layout_marginBottom
 "
 android
 :
+contentDescription
+=
+"
+string
+/
+mozac_reader_view_appearance_description
+"
+android
+:
 src
 =
 "
