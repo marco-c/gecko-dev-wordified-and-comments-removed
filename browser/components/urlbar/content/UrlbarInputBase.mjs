@@ -33704,6 +33704,11 @@ available
 |
 |
 =
+this
+.
+isSearchbarSAP
+|
+|
 UrlbarPrefs
 .
 get
