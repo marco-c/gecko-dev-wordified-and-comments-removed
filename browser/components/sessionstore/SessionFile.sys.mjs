@@ -2278,6 +2278,10 @@ found
 }
 else
 {
+corrupted
+=
+true
+;
 lazy
 .
 sessionStoreLogger
