@@ -212,7 +212,7 @@ R
 .
 string
 .
-preferences_inactive_tabs_title
+preferences_inactive_tabs_toggle_title
 )
 description
 =

@@ -1259,13 +1259,13 @@ manually
 .
 openTabsSubMenu
 {
-verifyTabViewOptions
+verifyTabLayoutOptions
 (
 )
 verifyCloseTabsOptions
 (
 )
-verifyMoveOldTabsToInactiveOptions
+verifyTabOrganizationOptions
 (
 )
 verifySelectedCloseTabsOption
