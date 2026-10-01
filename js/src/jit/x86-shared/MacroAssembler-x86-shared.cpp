@@ -4374,7 +4374,7 @@ trapSiteDesc
 ;
 if
 (
-stackMapForTraps
+stackMapRegistry
 )
 {
 masm
