@@ -2083,6 +2083,16 @@ bugzil
 la
 /
 2026849
+-
+https
+:
+/
+/
+bugzil
+.
+la
+/
+2068815
 data_reviews
 :
 -
@@ -2110,7 +2120,7 @@ send_in_pings
 metrics
 expires
 :
-159
+163
 labels
 :
 -
