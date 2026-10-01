@@ -2062,6 +2062,13 @@ updateState
 )
 )
 is
+IPProtectionAction
+.
+PersistedLocationUnavailable
+-
+>
+state
+is
 InternalAction
 -
 >

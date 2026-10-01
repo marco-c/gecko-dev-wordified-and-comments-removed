@@ -725,6 +725,9 @@ IPProtectionAction
 LocationChanged
 (
 location
+userAction
+=
+true
 )
 )
 }

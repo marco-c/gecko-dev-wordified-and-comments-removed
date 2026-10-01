@@ -1166,6 +1166,13 @@ handleOnLocationClicked
 (
 )
 {
+Vpn
+.
+locationSelectorTapped
+.
+record
+(
+)
 findNavController
 (
 )
