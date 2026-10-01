@@ -475,6 +475,7 @@ interface
 ShadowRoot
 {
 [
+CEReactions
 UseCounter
 Throws
 Pref
@@ -529,6 +530,7 @@ shadowroot
 -
 sethtmlunsafe
 [
+CEReactions
 UseCounter
 NeedsSubjectPrincipal
 =

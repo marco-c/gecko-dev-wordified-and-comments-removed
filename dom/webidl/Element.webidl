@@ -2953,6 +2953,7 @@ element
 -
 sethtmlunsafe
 [
+CEReactions
 UseCounter
 NeedsSubjectPrincipal
 =
