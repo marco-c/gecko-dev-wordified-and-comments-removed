@@ -1556,6 +1556,9 @@ FontVariantEmoji
 "
 DirectionProperty
 "
+"
+TextDecorationStyle
+"
 ]
 item_types
 =
