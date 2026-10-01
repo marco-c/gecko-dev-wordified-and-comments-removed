@@ -595,6 +595,22 @@ COPYING
 ]
     
 '
+sframe
+'
+:
+[
+'
+third_party
+/
+sframe
+/
+src
+/
+LICENSE
+'
+]
+    
+'
 webrtc
 '
 :
