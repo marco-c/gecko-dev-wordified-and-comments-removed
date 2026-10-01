@@ -99,6 +99,16 @@ mozilla
 .
 fenix
 .
+tabgroups
+.
+TabGroupTelemetry
+import
+org
+.
+mozilla
+.
+fenix
+.
 tabstray
 .
 data
@@ -1646,6 +1656,7 @@ data
 class
 TabGroupState
 (
+override
 val
 groups
 :
@@ -1659,6 +1670,7 @@ TabGroup
 emptyList
 (
 )
+override
 val
 formState
 :
@@ -1730,6 +1742,10 @@ DragProcessingState
 .
 UNINITIALIZED
 )
+:
+TabGroupTelemetry
+.
+TabGroupTelemetryContext
 /
 *
 *
