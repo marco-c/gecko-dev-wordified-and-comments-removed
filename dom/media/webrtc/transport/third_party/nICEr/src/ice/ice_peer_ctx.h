@@ -211,16 +211,6 @@ nr_ice_peer_ctx
 pctx
 )
 ;
-int
-nr_ice_peer_ctx_start_checks2
-(
-nr_ice_peer_ctx
-*
-pctx
-int
-allow_non_first
-)
-;
 void
 nr_ice_peer_ctx_stream_started_checks
 (
@@ -272,8 +262,8 @@ nr_ice_peer_ctx
 pctx
 )
 ;
-void
-nr_ice_peer_ctx_check_if_connected
+int
+nr_ice_peer_ctx_react_to_stream_change
 (
 nr_ice_peer_ctx
 *

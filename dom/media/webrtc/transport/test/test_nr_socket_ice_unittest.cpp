@@ -1087,10 +1087,9 @@ r
 ;
 r
 =
-nr_ice_peer_ctx_start_checks2
+nr_ice_peer_ctx_start_checks
 (
 peer_ctx_
-1
 )
 ;
 ASSERT_EQ

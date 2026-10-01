@@ -5757,10 +5757,9 @@ NS_ERROR_FAILURE
 }
 r
 =
-nr_ice_peer_ctx_start_checks2
+nr_ice_peer_ctx_start_checks
 (
 peer_
-1
 )
 ;
 if
