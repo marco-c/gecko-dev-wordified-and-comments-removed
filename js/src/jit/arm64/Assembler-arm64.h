@@ -1353,6 +1353,17 @@ float
 value
 )
 ;
+BufferOffset
+fImmPool128
+(
+ARMFPRegister
+dest
+const
+uint8_t
+*
+value
+)
+;
 uint32_t
 currentOffset
 (
