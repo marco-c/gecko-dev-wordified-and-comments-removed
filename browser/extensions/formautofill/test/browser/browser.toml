@@ -226,6 +226,13 @@ js
 ]
 [
 "
+browser_autocomplete_unrecognized_attribute
+.
+js
+"
+]
+[
+"
 browser_autofill_address_housenumber
 .
 js
