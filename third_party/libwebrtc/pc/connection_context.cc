@@ -646,10 +646,6 @@ network_thread
 )
 )
 )
-use_rtx_
-(
-true
-)
 {
 RTC_DCHECK_RUN_ON
 (
