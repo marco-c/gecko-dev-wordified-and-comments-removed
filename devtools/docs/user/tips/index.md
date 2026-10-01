@@ -483,6 +483,8 @@ it
 /
 page_inspector
 /
+how_to
+/
 examine_event_listeners
 /
 index

@@ -843,7 +843,6 @@ debugger
 source
 /
 index
-.
 >
 instances
 which
