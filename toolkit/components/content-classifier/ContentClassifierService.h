@@ -983,6 +983,10 @@ aRequest
 bool
 aIndependentEngines
 )
+MOZ_REQUIRES
+(
+mLock
+)
 ;
 void
 ProcessListChanges
