@@ -3229,6 +3229,14 @@ VecDeque
 new
 (
 )
+frame_build_profiles
+:
+VecDeque
+:
+:
+new
+(
+)
 texture_upload_buffer_pool
 staging_texture_pool
 texture_resolver
