@@ -118,6 +118,12 @@ SyncResult
 ?
 =
 null
+var
+isConnected
+=
+true
+private
+set
 /
 *
 *
@@ -145,8 +151,11 @@ fun
 disconnect
 (
 )
+{
+isConnected
 =
-Unit
+false
+}
 override
 fun
 getAvailableEngines
