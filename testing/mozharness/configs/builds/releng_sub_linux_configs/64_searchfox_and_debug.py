@@ -198,27 +198,7 @@ sbin
 }
     
 "
-mozconfig_variant
-"
-:
-"
-debug
--
-searchfox
--
-clang
-"
-    
-"
 platform
-"
-:
-"
-linux64
-"
-    
-"
-mozconfig_platform
 "
 :
 "
