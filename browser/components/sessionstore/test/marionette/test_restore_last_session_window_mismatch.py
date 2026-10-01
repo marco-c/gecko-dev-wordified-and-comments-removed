@@ -2855,6 +2855,33 @@ tab
 "
         
 )
+TASKBARTAB_FEATURES
+=
+(
+    
+"
+chrome
+dialog
+=
+no
+titlebar
+close
+toolbar
+location
+personalbar
+=
+no
+"
+    
+"
+status
+menubar
+=
+no
+resizable
+minimizable
+"
+)
 class
 TestTaskbarTabWindowSessionRestore
 (
@@ -2983,8 +3010,18 @@ chrome
         
 self
 .
-open_taskbartab_window
+replace_current_window
 (
+{
+"
+taskbartab
+"
+:
+True
+}
+features
+=
+TASKBARTAB_FEATURES
 )
         
 taskbartab_window
@@ -2993,21 +3030,7 @@ self
 .
 marionette
 .
-close_chrome_window
-(
-)
-[
-0
-]
-        
-self
-.
-marionette
-.
-switch_to_window
-(
-taskbartab_window
-)
+current_chrome_window_handle
         
 self
 .
@@ -3016,26 +3039,11 @@ assertTrue
             
 self
 .
-marionette
-.
-execute_script
+get_window_document_attribute
 (
-                
 "
-return
-document
-.
-documentElement
-.
-hasAttribute
-(
-'
 taskbartab
-'
-)
-;
 "
-            
 )
             
 msg
