@@ -43,6 +43,13 @@ py
 ]
 [
 "
+test_update_verify_config_creator
+.
+py
+"
+]
+[
+"
 test_versions
 .
 py

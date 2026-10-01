@@ -525,21 +525,13 @@ python
 "
             
 "
-testing
+python
 /
-mozharness
+mozrelease
 /
-scripts
+mozrelease
 /
-release
-/
-update
--
-verify
--
-config
--
-creator
+update_verify_config_creator
 .
 py
 "
