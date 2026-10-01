@@ -129,6 +129,11 @@ includes
 =
 [
 "
+nsTArray
+.
+h
+"
+"
 nsString
 .
 h
