@@ -96,16 +96,6 @@ Inset
 ;
 enum
 class
-StyleColumnFill
-:
-uint8_t
-{
-Balance
-Auto
-}
-;
-enum
-class
 StyleColumnSpan
 :
 uint8_t
