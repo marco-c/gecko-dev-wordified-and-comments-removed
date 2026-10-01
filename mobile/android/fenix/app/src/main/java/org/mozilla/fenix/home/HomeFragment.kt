@@ -5816,6 +5816,13 @@ requireComponents
 .
 settings
 )
+hideWhenKeyboardShown
+=
+requireComponents
+.
+settings
+.
+shouldUseBottomTabStrip
 onAddTabClick
 =
 {

@@ -7927,6 +7927,11 @@ TabStrip
 showTabCounterButton
 =
 false
+hideWhenKeyboardShown
+=
+settings
+.
+shouldUseBottomTabStrip
 onAddTabClick
 =
 {
