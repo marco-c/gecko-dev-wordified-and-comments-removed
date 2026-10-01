@@ -109,6 +109,13 @@ policies
 =
 [
 "
+EphemeralContainerWatcher
+.
+sys
+.
+mjs
+"
+"
 Policies
 .
 sys
