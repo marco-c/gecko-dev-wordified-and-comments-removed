@@ -133,4 +133,16 @@ builds
 "
     
 }
+    
+"
+mozconfig_variant
+"
+:
+"
+add
+-
+on
+-
+devel
+"
 }

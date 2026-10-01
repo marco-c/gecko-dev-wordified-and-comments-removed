@@ -102,14 +102,6 @@ gecko_taskgraph
 .
 transforms
 .
-mozconfig
-:
-transforms
--
-gecko_taskgraph
-.
-transforms
-.
 job
 :
 transforms
@@ -283,11 +275,6 @@ data
 valgrind
 .
 json
-mozconfig
-:
-variant
-:
-valgrind
 run
 :
 using
