@@ -461,6 +461,7 @@ const
 {
 containerRef
 draggedId
+previewOrder
 getItemProps
 }
 =
@@ -501,6 +502,7 @@ return
 effectiveOrder
 containerRef
 draggedId
+previewOrder
 getItemProps
 }
 ;
