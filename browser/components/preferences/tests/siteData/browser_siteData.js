@@ -1930,7 +1930,7 @@ Services
 .
 cookies
 .
-countCookiesFromHost
+getCookiesFromHost
 (
 uri2
 .
@@ -1938,6 +1938,8 @@ host
 {
 }
 )
+.
+length
 =
 =
 0
@@ -1959,7 +1961,7 @@ Services
 .
 cookies
 .
-countCookiesFromHost
+getCookiesFromHost
 (
 uri
 .
@@ -1967,6 +1969,8 @@ host
 {
 }
 )
+.
+length
 2
 "
 Cookies
@@ -2310,7 +2314,7 @@ Services
 .
 cookies
 .
-countCookiesFromHost
+getCookiesFromHost
 (
 uri
 .
@@ -2318,6 +2322,8 @@ host
 {
 }
 )
+.
+length
 =
 =
 0

@@ -562,7 +562,7 @@ Services
 .
 cookies
 .
-countCookiesFromHost
+getCookiesFromHost
 (
 "
 foo
@@ -572,6 +572,8 @@ com
 {
 }
 )
+.
+length
 6
 )
 ;

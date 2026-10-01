@@ -44641,15 +44641,6 @@ any
 :
 boolean
 ;
-countCookiesFromHost
-(
-aHost
-:
-string
-)
-:
-u32
-;
 hasCookiesForSite
 (
 aHost

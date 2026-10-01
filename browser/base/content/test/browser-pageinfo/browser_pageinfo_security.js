@@ -2729,7 +2729,7 @@ Services
 .
 cookies
 .
-countCookiesFromHost
+getCookiesFromHost
 (
 uri
 .
@@ -2737,6 +2737,8 @@ host
 {
 }
 )
+.
+length
 0
 "
 Cookies
