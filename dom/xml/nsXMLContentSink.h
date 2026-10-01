@@ -774,8 +774,14 @@ uint32_t
 aLineNumber
 uint32_t
 aColumnNumber
-bool
-aInterruptable
+mozilla
+:
+:
+dom
+:
+:
+FromParser
+aFromParser
 )
 ;
 nsresult

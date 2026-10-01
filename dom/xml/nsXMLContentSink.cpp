@@ -4855,7 +4855,7 @@ aAtts
 aAttsCount
 aLineNumber
 aColumnNumber
-true
+FROM_PARSER_NETWORK
 )
 ;
 }
@@ -4880,8 +4880,8 @@ uint32_t
 aLineNumber
 uint32_t
 aColumnNumber
-bool
-aInterruptable
+FromParser
+aFromParser
 )
 {
 MOZ_RELEASE_ASSERT
@@ -5027,7 +5027,7 @@ content
 )
 &
 appendContent
-FROM_PARSER_NETWORK
+aFromParser
 )
 ;
 NS_ENSURE_SUCCESS
@@ -5261,9 +5261,6 @@ mDocument
 ;
 if
 (
-aInterruptable
-&
-&
 NS_SUCCEEDED
 (
 result
@@ -5302,9 +5299,6 @@ false
 }
 }
 return
-aInterruptable
-&
-&
 NS_SUCCEEDED
 (
 result
