@@ -69,6 +69,13 @@ AesCtx
 ChaCha20Ctx
 ChaChaOpFn
 }
+p11
+:
+:
+{
+CK_GCM_MESSAGE_PARAMS
+CKG_NO_GENERATE
+}
 }
 ;
 #
@@ -248,9 +255,6 @@ size_of
 :
 :
 <
-freebl
-:
-:
 CK_GCM_MESSAGE_PARAMS
 >
 (
@@ -387,9 +391,6 @@ let
 mut
 params
 =
-freebl
-:
-:
 CK_GCM_MESSAGE_PARAMS
 {
 pIv
@@ -411,7 +412,7 @@ ulIvFixedBits
 0
 ivGenerator
 :
-0
+CKG_NO_GENERATE
 pTag
 :
 tag

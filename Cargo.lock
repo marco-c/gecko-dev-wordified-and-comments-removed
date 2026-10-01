@@ -30722,9 +30722,9 @@ version
 "
 0
 .
-14
+16
 .
-6
+1
 "
 source
 =
@@ -30745,7 +30745,7 @@ nss
 -
 rs
 #
-63c63046208f587573f71bb3885f16d10e0bf4eb
+ba8a3f6acffc7e25749054969ccbbb3ca615df7f
 "
 dependencies
 =
@@ -30759,6 +30759,9 @@ bindgen
 999
 "
 "
+derive_more
+"
+"
 enum
 -
 map
@@ -30770,15 +30773,9 @@ log
 mozbuild
 "
 "
-once_cell
-"
-"
-pkcs11
+pkg
 -
-bindings
-"
-"
-semver
+config
 "
 "
 serde
@@ -33972,7 +33969,7 @@ version
 .
 3
 .
-26
+34
 "
 source
 =
@@ -34000,7 +33997,7 @@ index
 checksum
 =
 "
-6ac9a59f73473f1b8d852421e59e64809f025994837ef743615c6d0c5b305160
+f6b464fbc74e149a392436b17d523f769e057cb6877f6a5c4618bc6f11800548
 "
 [
 [

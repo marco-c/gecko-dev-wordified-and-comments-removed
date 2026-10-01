@@ -85,7 +85,7 @@ rust
 -
 1
 .
-30
+63
 %
 2B
 -
@@ -116,7 +116,6 @@ pkg
 config
 -
 rs
-/
 )
 [
 Documentation
@@ -222,9 +221,10 @@ requires
 Rust
 1
 .
-30
+63
 +
 .
+#
 #
 Example
 Find
@@ -243,10 +243,6 @@ version
 3
 :
 rust
-extern
-crate
-pkg_config
-;
 fn
 main
 (
@@ -301,10 +297,6 @@ recommended
 )
 :
 rust
-extern
-crate
-pkg_config
-;
 fn
 main
 (
@@ -325,6 +317,7 @@ unwrap
 )
 ;
 }
+#
 #
 External
 configuration
@@ -534,6 +527,7 @@ pkg
 config
 .
 #
+#
 License
 This
 project
@@ -602,9 +596,9 @@ opensource
 .
 org
 /
-licenses
+license
 /
-MIT
+mit
 )
 at
 your

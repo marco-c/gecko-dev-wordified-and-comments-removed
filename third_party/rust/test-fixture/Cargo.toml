@@ -225,6 +225,10 @@ rs
 bench
 "
 ]
+default
+=
+[
+]
 disable
 -
 random
@@ -292,6 +296,11 @@ allow_attributes
 warn
 "
 allow_attributes_without_reason
+=
+"
+allow
+"
+assert_is_empty
 =
 "
 allow

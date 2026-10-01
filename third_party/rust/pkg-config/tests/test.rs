@@ -1,15 +1,3 @@
-extern
-crate
-pkg_config
-;
-#
-[
-macro_use
-]
-extern
-crate
-lazy_static
-;
 use
 pkg_config
 :
@@ -40,11 +28,7 @@ sync
 :
 Mutex
 ;
-lazy_static
-!
-{
 static
-ref
 LOCK
 :
 Mutex
@@ -62,7 +46,6 @@ new
 )
 )
 ;
-}
 fn
 reset
 (
@@ -170,7 +153,6 @@ set_var
 "
 PKG_CONFIG_PATH
 "
-&
 env
 :
 :

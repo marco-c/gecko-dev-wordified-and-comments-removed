@@ -284,10 +284,6 @@ P256_X962_LENGTH
 |
 local_pub
 .
-as_slice
-(
-)
-.
 first
 (
 )

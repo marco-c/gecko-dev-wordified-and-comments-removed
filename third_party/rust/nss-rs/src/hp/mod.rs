@@ -50,7 +50,7 @@ SymKey
 ;
 experimental_api
 !
-(
+{
 SSL_HkdfExpandLabelWithMech
 (
 version
@@ -94,8 +94,8 @@ mut
 mut
 PK11SymKey
 )
-)
 ;
+}
 #
 [
 cfg_attr
