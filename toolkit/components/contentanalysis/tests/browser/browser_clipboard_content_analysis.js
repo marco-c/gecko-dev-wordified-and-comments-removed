@@ -48,8 +48,6 @@ content
 /
 test
 /
-browser
--
 general
 /
 moz
@@ -1787,8 +1785,6 @@ content
 /
 test
 /
-browser
--
 general
 /
 moz
@@ -1947,8 +1943,6 @@ content
 /
 test
 /
-browser
--
 general
 /
 moz
@@ -2126,8 +2120,6 @@ content
 /
 test
 /
-browser
--
 general
 /
 moz
@@ -2245,8 +2237,6 @@ content
 /
 test
 /
-browser
--
 general
 /
 moz
@@ -2320,8 +2310,6 @@ content
 /
 test
 /
-browser
--
 general
 /
 moz

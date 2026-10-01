@@ -22,8 +22,6 @@ html
 .
 .
 /
-browser
--
 general
 /
 moz
@@ -47,8 +45,6 @@ files
 .
 .
 /
-browser
--
 general
 /
 moz
@@ -121,8 +117,6 @@ html
 .
 .
 /
-browser
--
 general
 /
 moz
@@ -158,8 +152,6 @@ html
 .
 .
 /
-browser
--
 general
 /
 audio
@@ -170,8 +162,6 @@ ogg
 .
 .
 /
-browser
--
 general
 /
 moz
@@ -182,8 +172,6 @@ png
 .
 .
 /
-browser
--
 general
 /
 video
@@ -235,8 +223,6 @@ files
 .
 .
 /
-browser
--
 general
 /
 moz
@@ -272,8 +258,6 @@ html
 .
 .
 /
-browser
--
 general
 /
 title_test

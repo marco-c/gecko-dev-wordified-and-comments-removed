@@ -20,8 +20,6 @@ content
 /
 test
 /
-browser
--
 general
 /
 moz

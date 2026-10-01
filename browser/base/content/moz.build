@@ -122,8 +122,6 @@ Files
 "
 test
 /
-browser
--
 about
 /
 *
@@ -221,8 +219,6 @@ Files
 "
 test
 /
-browser
--
 contextMenu
 /
 *
@@ -246,8 +242,6 @@ Files
 "
 test
 /
-browser
--
 forms
 /
 *
@@ -407,8 +401,6 @@ Files
 "
 test
 /
-browser
--
 performance
 /
 *
@@ -433,8 +425,6 @@ Files
 "
 test
 /
-browser
--
 performance
 /
 browser_appmenu
@@ -459,8 +449,6 @@ Files
 "
 test
 /
-browser
--
 permissions
 /
 *
@@ -542,8 +530,6 @@ Files
 "
 test
 /
-browser
--
 popups
 /
 *
@@ -654,8 +640,6 @@ Files
 "
 test
 /
-browser
--
 siteIdentity
 /
 *
@@ -672,6 +656,29 @@ Firefox
 "
 Site
 Identity
+"
+)
+with
+Files
+(
+"
+test
+/
+sidebar
+/
+*
+*
+"
+)
+:
+BUG_COMPONENT
+=
+(
+"
+Firefox
+"
+"
+General
 "
 )
 with
@@ -705,8 +712,6 @@ Files
 "
 test
 /
-browser
--
 static
 /
 *
@@ -730,8 +735,6 @@ Files
 "
 test
 /
-browser
--
 sync
 /
 *
@@ -807,8 +810,6 @@ Files
 "
 test
 /
-browser
--
 tabPrompts
 /
 *
@@ -910,8 +911,6 @@ Files
 "
 test
 /
-browser
--
 protectionsUI
 /
 *
@@ -936,8 +935,6 @@ Files
 "
 test
 /
-browser
--
 webextensions
 /
 *
@@ -961,8 +958,6 @@ Files
 "
 test
 /
-browser
--
 webrtc
 /
 *

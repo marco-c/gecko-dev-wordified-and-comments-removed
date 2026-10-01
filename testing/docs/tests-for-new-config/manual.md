@@ -1105,8 +1105,6 @@ content
 /
 test
 /
-browser
--
 general
 /
 browser_restore_isAppTab

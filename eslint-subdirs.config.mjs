@@ -434,8 +434,6 @@ content
 /
 test
 /
-browser
--
 webextensions
 "
 )

@@ -707,8 +707,6 @@ content
 /
 test
 /
-browser
--
 siteIdentity
 /
 "

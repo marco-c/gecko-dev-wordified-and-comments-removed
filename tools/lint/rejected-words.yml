@@ -220,8 +220,6 @@ content
 /
 test
 /
-browser
--
 performance
 /
 browser_preferences_usage
@@ -236,8 +234,6 @@ content
 /
 test
 /
-browser
--
 protectionsUI
 /
 browser_protectionsUI_cryptominers
@@ -252,8 +248,6 @@ content
 /
 test
 /
-browser
--
 protectionsUI
 /
 browser_protectionsUI_fingerprinters
@@ -268,8 +262,6 @@ content
 /
 test
 /
-browser
--
 protectionsUI
 /
 browser_protectionsUI_pbmode_exceptions
@@ -284,8 +276,6 @@ content
 /
 test
 /
-browser
--
 protectionsUI
 /
 browser_protectionsUI_socialtracking
@@ -300,8 +290,6 @@ content
 /
 test
 /
-browser
--
 protectionsUI
 /
 browser_protectionsUI_state
@@ -316,8 +304,6 @@ content
 /
 test
 /
-browser
--
 protectionsUI
 /
 browser_protectionsUI_subview_shim
@@ -332,8 +318,6 @@ content
 /
 test
 /
-browser
--
 siteIdentity
 /
 browser_no_mcb_for_loopback

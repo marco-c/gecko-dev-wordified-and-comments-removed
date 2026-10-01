@@ -1103,8 +1103,6 @@ content
 /
 test
 /
-browser
--
 performance
 /
 browser_startup
@@ -7138,8 +7136,6 @@ content
 /
 test
 /
-browser
--
 general
 /
 browser_remoteTroubleshoot
@@ -7155,8 +7151,6 @@ content
 /
 test
 /
-browser
--
 favicons
 /
 browser_mixed_content
@@ -7230,8 +7224,6 @@ content
 /
 test
 /
-browser
--
 favicons
 /
 browser_favicon_nostore
