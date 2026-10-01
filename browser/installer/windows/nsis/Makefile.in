@@ -175,6 +175,8 @@ nsh
 (
 NULL
 )
+ifdef
+MOZ_USE_MAKEFILE_INSTALLER_BUILD
 test_stub_installer
 :
 ifdef
@@ -259,3 +261,4 @@ BIN_UTIL_DIR
 test_stub_installer
 .
 exe
+endif

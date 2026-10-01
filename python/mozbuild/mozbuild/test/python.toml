@@ -73,6 +73,15 @@ py
 "
 action
 /
+test_l10n_repackage
+.
+py
+"
+]
+[
+"
+action
+/
 test_nsis_build
 .
 py
