@@ -48129,6 +48129,13 @@ MCloseIterCache
 ins
 )
 {
+gen
+-
+>
+setNeedsOverrecursedCheck
+(
+)
+;
 LCloseIterCache
 *
 lir
