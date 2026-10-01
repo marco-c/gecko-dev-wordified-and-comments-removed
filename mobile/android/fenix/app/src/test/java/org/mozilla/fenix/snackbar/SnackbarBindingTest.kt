@@ -2862,6 +2862,9 @@ sendToDeviceUseCase
 invoke
 (
 any
+<
+String
+>
 (
 )
 any
