@@ -115,6 +115,7 @@ WireProtocol
 {
 kDtls
 kDtlsSrtp
+kDtlsWithFeedback
 }
 ;
 using
