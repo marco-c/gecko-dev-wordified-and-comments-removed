@@ -99,7 +99,7 @@ build
 /
 GeckoProcessTypes
 .
-h
+inc
 default
 :
 "

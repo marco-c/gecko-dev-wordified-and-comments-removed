@@ -2931,7 +2931,7 @@ mozilla
 /
 GeckoProcessTypes
 .
-h
+inc
 "
 #
 undef

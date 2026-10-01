@@ -98,7 +98,7 @@ mozilla
 !
 GeckoProcessTypes
 .
-h
+inc
 "
 "
 FileLocation
@@ -365,7 +365,7 @@ GeneratedFile
 "
 GeckoProcessTypes
 .
-h
+inc
 "
 script
 =

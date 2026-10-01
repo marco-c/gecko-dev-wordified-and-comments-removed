@@ -334,7 +334,7 @@ build
 /
 GeckoProcessTypes
 .
-h
+inc
 .
 "
 processType

@@ -550,7 +550,7 @@ See
 [
 GeckoProcessTypes
 .
-h
+inc
 ]
 (
 https
@@ -575,7 +575,7 @@ build
 /
 GeckoProcessTypes
 .
-h
+inc
 )
 for
 all
