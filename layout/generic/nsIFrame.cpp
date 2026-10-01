@@ -59649,13 +59649,6 @@ mComputedStyle
 EffectiveZoom
 (
 )
-nsStyleTransformMatrix
-:
-:
-Zoomed
-:
-:
-Yes
 )
 ;
 gfx
