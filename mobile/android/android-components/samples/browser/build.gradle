@@ -484,6 +484,18 @@ components
 :
 browser
 -
+errorpages
+'
+)
+implementation
+project
+(
+'
+:
+components
+:
+browser
+-
 icons
 '
 )
@@ -1275,8 +1287,6 @@ libs
 androidx
 .
 core
-.
-ktx
 implementation
 libs
 .

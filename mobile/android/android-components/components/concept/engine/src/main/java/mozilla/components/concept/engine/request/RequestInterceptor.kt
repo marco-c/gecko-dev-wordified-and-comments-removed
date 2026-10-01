@@ -77,16 +77,6 @@ mozilla
 .
 components
 .
-browser
-.
-errorpages
-.
-ErrorType
-import
-mozilla
-.
-components
-.
 concept
 .
 engine

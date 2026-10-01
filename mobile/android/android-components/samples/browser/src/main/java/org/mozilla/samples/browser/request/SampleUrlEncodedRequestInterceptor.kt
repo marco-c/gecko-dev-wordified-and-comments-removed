@@ -87,11 +87,11 @@ mozilla
 .
 components
 .
-browser
+concept
 .
-errorpages
+engine
 .
-ErrorType
+EngineSession
 import
 mozilla
 .
@@ -101,7 +101,9 @@ concept
 .
 engine
 .
-EngineSession
+request
+.
+ErrorType
 import
 mozilla
 .
