@@ -89,7 +89,6 @@ import
 constructRelevantMemoriesContextMessage
 replaceUrlsWithTokens
 resolveMentionUrls
-stripUnresolvedUrlTokens
 }
 from
 "
@@ -274,6 +273,7 @@ mjs
 ;
 import
 {
+stripUnresolvedUrlTokens
 UrlTokenizer
 }
 from
