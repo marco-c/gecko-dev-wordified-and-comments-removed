@@ -432,6 +432,7 @@ rect
 derive
 (
 Debug
+Copy
 Clone
 Eq
 MallocSizeOf

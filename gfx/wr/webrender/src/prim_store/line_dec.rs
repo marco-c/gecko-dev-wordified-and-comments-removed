@@ -100,7 +100,6 @@ prim_store
 :
 :
 {
-PrimKey
 PrimTemplate
 PrimTemplateCommonData
 InternablePrimitive
@@ -204,16 +203,10 @@ api
 interned_prims
 :
 :
+{
 LineDecoration
-;
-pub
-type
 LineDecorationKey
-=
-PrimKey
-<
-LineDecoration
->
+}
 ;
 impl
 intern

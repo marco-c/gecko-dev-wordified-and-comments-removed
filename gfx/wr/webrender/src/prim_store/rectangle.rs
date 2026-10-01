@@ -41,7 +41,6 @@ prim_store
 :
 :
 {
-PrimKey
 InternablePrimitive
 PrimitiveStore
 PrimitiveKind
@@ -72,16 +71,10 @@ api
 interned_prims
 :
 :
-RectanglePrim
-;
-pub
-type
+{
 RectangleKey
-=
-PrimKey
-<
 RectanglePrim
->
+}
 ;
 pub
 type
