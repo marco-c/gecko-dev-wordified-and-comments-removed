@@ -193,7 +193,7 @@ resource
 /
 autofill
 /
-AddressStorageMigrator
+AutofillStorageMigrator
 .
 sys
 .
