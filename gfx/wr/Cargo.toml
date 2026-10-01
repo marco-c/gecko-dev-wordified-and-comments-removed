@@ -19,13 +19,6 @@ wrench
 "
 wrshell
 "
-"
-example
--
-compositor
-/
-compositor
-"
 ]
 resolver
 =
