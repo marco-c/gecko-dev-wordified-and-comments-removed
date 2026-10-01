@@ -175,9 +175,6 @@ GetSrc
 nsString
 &
 aRetVal
-ErrorResult
-&
-aRv
 )
 const
 {
@@ -196,9 +193,6 @@ const
 nsAString
 &
 aArg
-ErrorResult
-&
-aRv
 )
 {
 mSrc
