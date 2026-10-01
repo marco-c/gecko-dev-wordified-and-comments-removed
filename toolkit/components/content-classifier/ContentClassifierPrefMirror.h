@@ -67,6 +67,12 @@ Shutdown
 ;
 static
 void
+ReleaseMirroredPrefs
+(
+)
+;
+static
+void
 OnPrefChange
 (
 const
