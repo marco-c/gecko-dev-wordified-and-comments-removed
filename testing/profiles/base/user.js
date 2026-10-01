@@ -107,15 +107,3 @@ useml
 false
 )
 ;
-user_pref
-(
-"
-browser
-.
-ml
-.
-onnxNativeAvailabilityReported
-"
-true
-)
-;
