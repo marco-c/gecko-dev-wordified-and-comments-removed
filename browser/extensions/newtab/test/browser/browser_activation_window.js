@@ -662,9 +662,7 @@ window
 await
 AboutNewTab
 .
-activityStream
-.
-initialized
+activityStreamPromise
 ;
 let
 prefsFeed
@@ -865,13 +863,6 @@ com
 ]
 }
 )
-;
-await
-prefsFeed
-.
-store
-.
-initialized
 ;
 registerCleanupFunction
 (
