@@ -5534,7 +5534,7 @@ aExitCode
 i32
 )
 :
-boolean
+void
 ;
 advanceShutdownPhase
 (

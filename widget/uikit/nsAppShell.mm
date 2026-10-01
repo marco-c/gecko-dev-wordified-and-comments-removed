@@ -1466,9 +1466,6 @@ Service
 )
 )
 {
-bool
-userAllowedQuit
-;
 appStartup
 -
 >
@@ -1479,8 +1476,6 @@ nsIAppStartup
 :
 eForceQuit
 0
-&
-userAllowedQuit
 )
 ;
 appStartup
