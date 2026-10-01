@@ -3926,6 +3926,14 @@ endif
 {
 RemoveDefaultBrowserAgentShortcut
 }
+!
+ifdef
+MOZ_PUSH_NOTIFICATION_HELPER
+{
+StartPushNotificationHelpers
+}
+!
+endif
 FunctionEnd
 Function
 OnUpdateDesktopLauncherHandler
