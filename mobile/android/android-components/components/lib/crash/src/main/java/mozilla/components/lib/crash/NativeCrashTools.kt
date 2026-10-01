@@ -206,6 +206,12 @@ displayVersion
 :
 String
 ?
+serverEndpoint
+:
+String
+?
+=
+null
 pingUploadEnabled
 :
 Boolean
@@ -281,6 +287,7 @@ context
 packageName
 buildId
 displayVersion
+serverEndpoint
 pingUploadEnabled
 )
 instance
@@ -516,6 +523,10 @@ buildId
 String
 ?
 displayVersion
+:
+String
+?
+serverEndpoint
 :
 String
 ?

@@ -417,6 +417,14 @@ String
 null
 private
 val
+serverEndpoint
+:
+String
+?
+=
+null
+private
+val
 isUploadEnabled
 :
 Boolean
@@ -2117,6 +2125,11 @@ load
 context
 appBuildId
 appVersion
+serverEndpoint
+=
+serverEndpoint
+pingUploadEnabled
+=
 isUploadEnabled
 )
 private
