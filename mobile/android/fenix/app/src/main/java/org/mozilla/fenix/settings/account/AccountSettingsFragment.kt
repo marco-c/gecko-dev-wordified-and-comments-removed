@@ -912,7 +912,7 @@ R
 .
 string
 .
-preferences_account_settings
+preferences_account_and_sync_settings
 )
 )
 args
