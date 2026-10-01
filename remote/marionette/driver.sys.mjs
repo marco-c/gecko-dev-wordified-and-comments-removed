@@ -17849,6 +17849,15 @@ this
 .
 #
 sessionConfigFlags
+{
+useDedicatedContainer
+:
+lazy
+.
+Marionette
+.
+isDynamicStartRunning
+}
 )
 ;
 this
