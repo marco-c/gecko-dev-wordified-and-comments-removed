@@ -7,10 +7,10 @@ h
 "
 template
 bool
-gfxAlphaRecoveryGeneric
+gfxAlphaRecovery
 :
 :
-RecoverAlpha
+RecoverAlphaGeneric
 <
 xsimd
 :

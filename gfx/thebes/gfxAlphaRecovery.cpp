@@ -33,6 +33,15 @@ SSE
 .
 h
 "
+#
+include
+"
+mozilla
+/
+arm
+.
+h
+"
 bool
 gfxAlphaRecovery
 :
