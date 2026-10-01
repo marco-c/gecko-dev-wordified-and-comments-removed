@@ -262,9 +262,11 @@ FETCH_FLAGS_OHTTP
 .
 poll
 (
-5
-*
-100
+sessionRule
+.
+env
+.
+defaultTimeoutMillis
 )
 }
 }
