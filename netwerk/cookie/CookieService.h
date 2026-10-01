@@ -385,6 +385,8 @@ NotifyAccepted
 nsIChannel
 *
 aChannel
+uint32_t
+aRejectedReason
 )
 ;
 nsresult
