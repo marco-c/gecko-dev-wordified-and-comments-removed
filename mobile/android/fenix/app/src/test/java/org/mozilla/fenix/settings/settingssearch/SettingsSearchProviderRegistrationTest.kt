@@ -875,6 +875,11 @@ entriesWithoutXml
 DefaultFenixSettingsIndexer
 .
 defaultPreferenceFileInformationList
+(
+includeAutofillPreferences
+=
+true
+)
 .
 filter
 {
@@ -963,6 +968,11 @@ in
 DefaultFenixSettingsIndexer
 .
 defaultPreferenceFileInformationList
+(
+includeAutofillPreferences
+=
+true
+)
 message
 =
 "
@@ -1049,6 +1059,11 @@ in
 DefaultFenixSettingsIndexer
 .
 defaultPreferenceFileInformationList
+(
+includeAutofillPreferences
+=
+true
+)
 message
 =
 "

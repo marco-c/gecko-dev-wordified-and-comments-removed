@@ -237,7 +237,6 @@ FirefoxTheme
 /
 *
 *
-*
 Fragment
 for
 the
@@ -406,6 +405,19 @@ recentSearchesDataStore
 preferenceFileInformationList
 =
 defaultPreferenceFileInformationList
+(
+includeAutofillPreferences
+=
+requireContext
+(
+)
+.
+components
+.
+settings
+.
+isAutofillSupported
+)
 )
 return
 storeProvider
