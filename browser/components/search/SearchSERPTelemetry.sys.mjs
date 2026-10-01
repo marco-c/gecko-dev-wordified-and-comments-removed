@@ -3887,6 +3887,16 @@ provider
 subframes
 ?
 .
+filter
+(
+obj
+=
+>
+obj
+.
+inspectRegexpInParent
+)
+.
 map
 (
 obj
