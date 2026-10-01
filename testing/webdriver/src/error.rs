@@ -688,7 +688,7 @@ UnableToCaptureScreen
 StatusCode
 :
 :
-BAD_REQUEST
+INTERNAL_SERVER_ERROR
 UnableToSetCookie
 =
 >
