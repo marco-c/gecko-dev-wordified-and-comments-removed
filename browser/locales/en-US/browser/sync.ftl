@@ -623,7 +623,7 @@ out
 label
 =
 Sign
-Out
+out
 fxa
 -
 menu

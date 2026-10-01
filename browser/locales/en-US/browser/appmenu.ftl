@@ -2502,7 +2502,7 @@ history
 label
 =
 Manage
-History
+history
 #
 #
 Sync
@@ -2740,8 +2740,8 @@ history
 label
 =
 Clear
-Recent
-History
+recent
+history
 appmenu
 -
 recent
@@ -2764,8 +2764,8 @@ tabs
 label
 =
 Recently
-Closed
-Tabs
+closed
+tabs
 appmenu
 -
 recently
@@ -2778,8 +2778,8 @@ windows
 label
 =
 Recently
-Closed
-Windows
+closed
+windows
 #
 This
 allows
@@ -2802,7 +2802,7 @@ history
 label
 =
 Search
-History
+history
 #
 #
 Help
@@ -2917,7 +2917,7 @@ help
 label
 =
 Get
-Help
+help
 .
 accesskey
 =
@@ -2936,8 +2936,8 @@ info
 label
 =
 More
-Troubleshooting
-Information
+troubleshooting
+information
 .
 accesskey
 =
@@ -2954,9 +2954,9 @@ ideas
 label
 =
 Share
-Ideas
+ideas
 and
-Feedback
+feedback
 .
 accesskey
 =
@@ -3107,8 +3107,8 @@ site
 label
 =
 Report
-Deceptive
-Site
+deceptive
+site
 .
 accesskey
 =
@@ -3146,7 +3146,7 @@ customizetoolbar
 label
 =
 Customize
-Toolbar
+toolbar
 appmenu
 -
 abouttranslations
@@ -3189,7 +3189,7 @@ label
 =
 Extensions
 for
-Developers
+developers
 appmenuitem
 -
 report
