@@ -427,17 +427,11 @@ img
 0
 )
 ;
-}
-else
-{
+return
 canvas
-=
-null
 ;
 }
 }
-else
-{
 try
 {
 await
@@ -484,7 +478,6 @@ canvas
 =
 null
 ;
-}
 }
 return
 canvas
