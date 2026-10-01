@@ -183,6 +183,14 @@ nsIContent
 aContent
 )
 ;
+void
+PointerDown
+(
+Element
+*
+aContent
+)
+;
 private
 :
 virtual
