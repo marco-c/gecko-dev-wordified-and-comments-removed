@@ -221,8 +221,9 @@ virtual
 AbstractCanonical
 (
 )
-{
-}
+=
+default
+;
 RefPtr
 <
 AbstractThread
@@ -310,8 +311,9 @@ virtual
 AbstractMirror
 (
 )
-{
-}
+=
+default
+;
 RefPtr
 <
 AbstractThread
@@ -360,8 +362,9 @@ aName
 Canonical
 (
 )
-{
-}
+=
+default
+;
 private
 :
 class

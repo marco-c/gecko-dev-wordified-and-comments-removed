@@ -1173,7 +1173,7 @@ aStr
 ;
 }
 return
-0
+nullptr
 ;
 }
 }

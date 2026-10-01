@@ -130,7 +130,7 @@ NS_CYCLE_COLLECTION_INNERCLASS
 *
 aDummy
 =
-0
+nullptr
 )
 {
 return
@@ -156,14 +156,11 @@ IsXPCOM
 std
 :
 :
-is_base_of
+is_base_of_v
 <
 nsISupports
 T
 >
-:
-:
-value
 >
 struct
 CycleCollectionNoteChildImpl

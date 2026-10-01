@@ -307,8 +307,6 @@ this
 )
 ;
 }
-private
-:
 NS_LossyConvertUTF16toASCII
 (
 char
@@ -434,8 +432,6 @@ this
 )
 ;
 }
-private
-:
 NS_ConvertASCIItoUTF16
 (
 char16_t
@@ -567,8 +563,6 @@ this
 )
 ;
 }
-private
-:
 NS_ConvertUTF16toUTF8
 (
 char
@@ -694,8 +688,6 @@ this
 )
 ;
 }
-private
-:
 NS_ConvertUTF8toUTF16
 (
 char16_t

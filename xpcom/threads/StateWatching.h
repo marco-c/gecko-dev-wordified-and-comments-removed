@@ -461,8 +461,6 @@ return
 this
 ;
 }
-private
-:
 Watchable
 (
 const
@@ -486,6 +484,8 @@ aOther
 =
 delete
 ;
+private
+:
 T
 mValue
 ;
