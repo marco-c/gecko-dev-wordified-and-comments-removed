@@ -921,11 +921,6 @@ SuggestPrefsRecord
 }
 }
 *
-{
-object
-}
-defaultValues
-*
 /
 const
 SUGGEST_PREFS
