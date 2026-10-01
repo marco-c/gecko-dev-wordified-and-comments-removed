@@ -277,6 +277,12 @@ Timestamp
 now
 )
 ;
+DataRate
+GetPacingRate
+(
+)
+const
+;
 double
 CalculateCwndReduceRatio
 (
