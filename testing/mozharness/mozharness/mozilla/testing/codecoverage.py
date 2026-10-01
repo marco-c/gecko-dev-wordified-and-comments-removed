@@ -580,12 +580,19 @@ self
 .
 path_to_gcnos
 =
-build_mozinfo
-[
+os
+.
+path
+.
+join
+(
+self
+.
+grcov_dir
 "
-topobjdir
+gcno
 "
-]
+)
         
 strip_count
 =
