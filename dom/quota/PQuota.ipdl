@@ -345,6 +345,14 @@ principalInfo
 ;
 }
 ;
+struct
+EstimateGroupUsageParams
+{
+PrincipalInfo
+principalInfo
+;
+}
+;
 union
 RequestParams
 {
@@ -357,6 +365,8 @@ PersistedParams
 PersistParams
 ;
 EstimateParams
+;
+EstimateGroupUsageParams
 ;
 }
 ;

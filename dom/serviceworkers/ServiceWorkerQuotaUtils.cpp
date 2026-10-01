@@ -415,7 +415,7 @@ NS_FAILED
 qms
 -
 >
-Estimate
+EstimateGroupUsage
 (
 mPrincipal
 getter_AddRefs

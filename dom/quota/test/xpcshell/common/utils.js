@@ -151,6 +151,7 @@ fillOrigin
 (
 principal
 size
+persistence
 )
 {
 let
@@ -159,6 +160,7 @@ database
 getSimpleDatabase
 (
 principal
+persistence
 )
 ;
 let
