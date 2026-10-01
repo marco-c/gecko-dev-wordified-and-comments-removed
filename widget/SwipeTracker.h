@@ -326,6 +326,11 @@ mRegisteredWithRefreshDriver
 =
 false
 ;
+bool
+mLastComputedSwipeSuccess
+=
+false
+;
 }
 ;
 struct
