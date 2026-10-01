@@ -5614,7 +5614,12 @@ specified
 calc
 :
 :
+{
+CalcPercentageLeaf
+as
+SpecifiedCalcPercentageLeaf
 Leaf
+}
 ;
 use
 crate
@@ -5731,7 +5736,7 @@ Leaf
 :
 Percentage
 (
-CalcPercentageLeaf
+SpecifiedCalcPercentageLeaf
 :
 :
 new

@@ -62,10 +62,10 @@ calc
 :
 :
 {
+CalcNode
 CalcParseFlags
 Leaf
 PercentageContext
-SpecifiedCalcNode
 }
 }
 }
@@ -131,7 +131,7 @@ Calc
 (
 Box
 <
-SpecifiedCalcNode
+CalcNode
 >
 )
 AlphaOmitted
@@ -391,7 +391,7 @@ name
 let
 function
 =
-SpecifiedCalcNode
+CalcNode
 :
 :
 math_function
@@ -423,7 +423,7 @@ let
 mut
 node
 =
-SpecifiedCalcNode
+CalcNode
 :
 :
 parse

@@ -6776,7 +6776,7 @@ GenericCalcNode
 gecko
 =
 "
-StyleCalcPercentageLeaf
+StyleGenericCalcPercentageLeaf
 "
 servo
 =
@@ -6793,7 +6793,7 @@ generics
 calc
 :
 :
-CalcPercentageLeaf
+GenericCalcPercentageLeaf
 "
 }
 {
