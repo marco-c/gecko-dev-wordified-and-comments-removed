@@ -92,6 +92,11 @@ hunspell
 cxx
 '
 '
+hunspelltrace
+.
+cxx
+'
+'
 phonet
 .
 cxx
