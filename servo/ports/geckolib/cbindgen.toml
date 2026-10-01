@@ -1553,6 +1553,9 @@ MathVariant
 "
 FontVariantEmoji
 "
+"
+DirectionProperty
+"
 ]
 item_types
 =
@@ -1599,6 +1602,13 @@ export
 .
 rename
 ]
+"
+DirectionProperty
+"
+=
+"
+StyleDirection
+"
 "
 nscolor
 "

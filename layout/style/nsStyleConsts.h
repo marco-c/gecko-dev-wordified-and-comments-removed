@@ -90,16 +90,6 @@ Space
 Round
 }
 ;
-enum
-class
-StyleDirection
-:
-uint8_t
-{
-Ltr
-Rtl
-}
-;
 static
 constexpr
 uint8_t
