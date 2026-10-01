@@ -47,16 +47,6 @@ ops
 Range
 ;
 pub
-use
-api
-:
-:
-prim_geometry
-:
-:
-simplify_repeated_primitive
-;
-pub
 struct
 Repetition
 {
