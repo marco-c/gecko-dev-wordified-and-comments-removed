@@ -1514,6 +1514,13 @@ js
 ]
 [
 "
+browser_smartwindow_manage_tabs_tool_telemetry
+.
+js
+"
+]
+[
+"
 browser_smartwindow_metrics_telemetry
 .
 js
