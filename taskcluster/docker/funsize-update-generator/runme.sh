@@ -19,7 +19,7 @@ ARTIFACTS_DIR
 =
 "
 /
-home
+builds
 /
 worker
 /
@@ -95,7 +95,7 @@ delay
 -
 o
 /
-home
+builds
 /
 worker
 /
@@ -205,7 +205,7 @@ s3
 )
 '
 /
-home
+builds
 /
 worker
 /
@@ -452,7 +452,7 @@ MBSDIFF_HOOK
 =
 "
 /
-home
+builds
 /
 worker
 /
@@ -490,7 +490,7 @@ disable
 SC2086
 python3
 /
-home
+builds
 /
 worker
 /
@@ -515,7 +515,7 @@ task
 -
 definition
 /
-home
+builds
 /
 worker
 /
@@ -530,7 +530,7 @@ signing
 cert
 "
 /
-home
+builds
 /
 worker
 /
