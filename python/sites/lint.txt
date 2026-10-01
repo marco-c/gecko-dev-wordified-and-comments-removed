@@ -259,13 +259,6 @@ third_party
 /
 python
 /
-boolean_py
-vendored
-:
-third_party
-/
-python
-/
 compare_locales
 vendored
 :
@@ -311,13 +304,6 @@ third_party
 python
 /
 json_e
-vendored
-:
-third_party
-/
-python
-/
-license_expression
 vendored
 :
 third_party

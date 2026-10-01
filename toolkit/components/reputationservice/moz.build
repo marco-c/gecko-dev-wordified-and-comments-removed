@@ -211,11 +211,3 @@ test
 gtest
 "
 ]
-LICENSED_UNDER
-+
-=
-[
-"
-chromium
-"
-]
