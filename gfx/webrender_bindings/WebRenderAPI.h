@@ -583,6 +583,15 @@ uint8_t
 >
 &
 dl_spatial_tree
+wr
+:
+:
+Vec
+<
+uint8_t
+>
+&
+dl_interner_delta
 )
 ;
 void

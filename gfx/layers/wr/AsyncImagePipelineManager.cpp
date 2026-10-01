@@ -3018,6 +3018,9 @@ dl_items
 dl
 .
 dl_spatial_tree
+dl
+.
+dl_interner_delta
 )
 ;
 }
@@ -3501,6 +3504,9 @@ dl_items
 dl
 .
 dl_spatial_tree
+dl
+.
+dl_interner_delta
 )
 ;
 }

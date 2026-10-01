@@ -1873,6 +1873,13 @@ ByteBuf
 &
 &
 aSpatialTreeDL
+ipc
+:
+:
+ByteBuf
+&
+&
+aInternerDelta
 const
 wr
 :

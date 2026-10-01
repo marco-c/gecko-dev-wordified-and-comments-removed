@@ -117,6 +117,13 @@ app_units
 .
 3
 "
+bincode
+=
+"
+1
+.
+0
+"
 bitflags
 =
 {
