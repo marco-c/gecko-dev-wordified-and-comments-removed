@@ -6980,14 +6980,6 @@ _
 DebugCommand
 :
 :
-EnableNativeCompositor
-(
-_
-)
-|
-DebugCommand
-:
-:
 SetBatchingLookback
 (
 _

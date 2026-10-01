@@ -3954,10 +3954,6 @@ ClearCaches
 (
 ClearCache
 )
-EnableNativeCompositor
-(
-bool
-)
 SetBatchingLookback
 (
 u32
