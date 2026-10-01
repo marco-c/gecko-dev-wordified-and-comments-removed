@@ -11400,7 +11400,15 @@ default
     
 )
     
+appdata_group
+=
 group
+.
+add_mutually_exclusive_group
+(
+)
+    
+appdata_group
 .
 add_argument
 (
@@ -11428,7 +11436,7 @@ True
         
 default
 =
-False
+None
         
 help
 =
@@ -11439,12 +11447,16 @@ application
 data
 storage
 area
-defaulting
-to
-a
+.
+Without
+an
+argument
 "
         
 "
+defaults
+to
+a
 temporary
 location
 in
@@ -11452,10 +11464,93 @@ the
 object
 directory
 .
-Implies
+When
+passed
+"
+        
+"
+explicitly
+also
+implies
 -
 -
 noprofile
+.
+This
+override
+is
+enabled
+by
+"
+        
+"
+default
+even
+without
+-
+a
+;
+pass
+-
+-
+default
+-
+appdata
+to
+disable
+it
+.
+"
+    
+)
+    
+appdata_group
+.
+add_argument
+(
+        
+"
+-
+-
+default
+-
+appdata
+"
+        
+action
+=
+"
+store_true
+"
+        
+default
+=
+False
+        
+help
+=
+"
+Use
+the
+system
+default
+application
+data
+directory
+instead
+of
+"
+        
+"
+overriding
+it
+to
+a
+location
+in
+the
+object
+directory
 .
 "
     
@@ -14765,6 +14860,8 @@ noprofile
     
 appdata
     
+default_appdata
+    
 disable_e10s
     
 enable_crash_reporter
@@ -14798,6 +14895,38 @@ mozprofile
 import
 Preferences
 Profile
+    
+if
+default_appdata
+:
+        
+use_appdata
+=
+False
+    
+elif
+appdata
+is
+None
+:
+        
+use_appdata
+=
+True
+    
+else
+:
+        
+use_appdata
+=
+appdata
+    
+skip_profile
+=
+appdata
+is
+not
+None
     
 try
 :
@@ -15400,7 +15529,7 @@ noprofile
         
 and
 not
-appdata
+skip_profile
     
 )
 :
@@ -15698,7 +15827,7 @@ if
 (
         
 not
-appdata
+use_appdata
         
 and
 sys
@@ -15892,16 +16021,15 @@ profile
 data
 .
 Alternatively
-use
+remove
 "
                 
 "
-.
-/
-mach
-run
 -
-a
+-
+default
+-
+appdata
 OR
 set
 MOZ_APP_DATA
@@ -15944,17 +16072,19 @@ information
 )
     
 if
-appdata
+use_appdata
 :
         
-if
-appdata
-is
-True
-:
-            
-appdata
+appdata_dir
 =
+use_appdata
+if
+isinstance
+(
+use_appdata
+str
+)
+else
 tmpdir
         
 extra_env
@@ -15977,7 +16107,7 @@ path
 .
 join
 (
-appdata
+appdata_dir
 "
 AppData
 "
@@ -16047,7 +16177,7 @@ path
 .
 join
 (
-appdata
+appdata_dir
 "
 Local
 "
