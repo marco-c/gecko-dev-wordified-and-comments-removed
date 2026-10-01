@@ -532,6 +532,9 @@ google
 perplexity
 "
 "
+startpage
+"
+"
 wikipedia
 "
 ]
