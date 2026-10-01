@@ -147,6 +147,11 @@ SOURCES
 =
 [
 "
+Win32SerialOverlappedIO
+.
+cpp
+"
+"
 Win32SerialParityCheckStream
 .
 cpp
