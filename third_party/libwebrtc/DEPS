@@ -116,7 +116,7 @@ chromium_revision
 '
 :
 '
-716ea38d1839bfc4423e688c572498172c3e34e8
+7191362d2cc5896a3083a67888de839b37726572
 '
 #
 Fetch
@@ -432,7 +432,7 @@ siso_version
 '
 git_revision
 :
-2f0eb0113740f469481a64760ab8feabe529a5b1
+d38036b64e81c5fdb5d25a92081e6f98a020163d
 '
 #
 CPython
@@ -725,7 +725,7 @@ chromium
 src
 /
 ios
-00578607edd7183ea880e6143475c5afdd5c5d9d
+f8c156842a3d308464bfa4dede4b8a225f5bf7ec
 '
 '
 condition
@@ -757,7 +757,7 @@ chromium
 src
 /
 testing
-c01a20cf7f873ca4f5388149528747d4826e9630
+617d94f985f3b2e535b62d5e87c1a0d649394265
 '
 '
 src
@@ -781,7 +781,7 @@ chromium
 src
 /
 third_party
-2c684efc18e29c0d08dd97bd6527cab2ad5df724
+1b6793fa05839a912fdc1bde2f02f7fe53066ac6
 '
 '
 src
@@ -3146,7 +3146,7 @@ project
 libc
 .
 git
-14df467afd9c07f1f277c6070189bf65dfdb8eaa
+91b3328166da1db7db15cb49c714d59198e56cab
 '
 '
 src
@@ -6123,7 +6123,7 @@ chromium
 src
 /
 tools
-04f04180a54eb6e34726936d9636c74b89387000
+81710518918507c656d70155a431bcb43c626926
 '
 '
 src
