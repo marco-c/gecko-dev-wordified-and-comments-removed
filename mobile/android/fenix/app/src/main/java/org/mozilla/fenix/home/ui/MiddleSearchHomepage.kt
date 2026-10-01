@@ -1154,6 +1154,11 @@ headerState
 HeaderState
 .
 Normal
+(
+showStoriesButton
+=
+true
+)
 middleSearchState
 =
 MiddleSearchState
