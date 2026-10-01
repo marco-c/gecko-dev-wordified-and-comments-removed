@@ -4097,6 +4097,16 @@ send_codec_spec
 -
 >
 red_payload_type
+|
+|
+new_config
+.
+encoder_factory
+!
+=
+old_config
+.
+encoder_factory
 )
 {
 return

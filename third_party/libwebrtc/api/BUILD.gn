@@ -1603,6 +1603,11 @@ sources
 =
 [
 "
+encoded_audio_frame_injector_interface
+.
+h
+"
+"
 encoded_video_frame_injector_interface
 .
 h
