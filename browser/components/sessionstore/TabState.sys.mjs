@@ -1074,11 +1074,10 @@ Processes
 a
 data
 update
-sent
-by
-the
-content
-script
+collected
+for
+a
+browser
 .
 *
 /
