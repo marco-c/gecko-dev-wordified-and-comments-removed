@@ -2437,6 +2437,27 @@ py
 )
     
 "
+sbom
+"
+:
+MachCommandReference
+(
+        
+"
+python
+/
+mozbuild
+/
+mozbuild
+/
+licensing_commands
+.
+py
+"
+    
+)
+    
+"
 settings
 "
 :
