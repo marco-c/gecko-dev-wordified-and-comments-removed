@@ -1511,6 +1511,9 @@ MaskComposite
 "
 TableLayout
 "
+"
+UnicodeBidi
+"
 ]
 item_types
 =
