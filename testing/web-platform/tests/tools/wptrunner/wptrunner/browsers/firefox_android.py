@@ -2186,19 +2186,6 @@ cmd_arg
 marionette
 "
 )
-                 
-cmd_arg
-(
-"
-remote
--
-allow
--
-system
--
-access
-"
-)
 "
 about
 :
@@ -2232,6 +2219,17 @@ self
 .
 env_extras
 )
+        
+env
+[
+"
+MOZ_REMOTE_ALLOW_SYSTEM_ACCESS
+"
+]
+=
+"
+1
+"
         
 self
 .
