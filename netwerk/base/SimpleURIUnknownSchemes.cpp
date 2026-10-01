@@ -14,6 +14,13 @@ StaticPrefs_network
 .
 h
 "
+#
+include
+"
+nsCharSeparatedTokenizer
+.
+h
+"
 static
 mozilla
 :

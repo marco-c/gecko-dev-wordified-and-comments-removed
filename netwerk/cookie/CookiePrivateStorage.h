@@ -11,6 +11,17 @@ CookieStorage
 .
 h
 "
+#
+include
+"
+mozilla
+/
+net
+/
+Cookie
+.
+h
+"
 class
 nsICookieTransactionCallback
 ;

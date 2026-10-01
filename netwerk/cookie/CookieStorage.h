@@ -26,6 +26,17 @@ h
 #
 include
 "
+mozilla
+/
+net
+/
+Cookie
+.
+h
+"
+#
+include
+"
 nsICookieNotification
 .
 h
@@ -69,9 +80,6 @@ mozilla
 namespace
 net
 {
-class
-Cookie
-;
 class
 CookieParser
 ;
