@@ -22802,6 +22802,7 @@ const
 bool
 isHorizontalAxis
 =
+(
 aAxis
 =
 =
@@ -22809,6 +22810,7 @@ LogicalAxis
 :
 :
 Inline
+)
 =
 =
 !
