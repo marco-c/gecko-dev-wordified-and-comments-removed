@@ -36,6 +36,13 @@ py
 ]
 [
 "
+test_generate_checksums
+.
+py
+"
+]
+[
+"
 test_merkle
 .
 py
