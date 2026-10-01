@@ -6420,10 +6420,7 @@ them
 /
 *
 *
-type
-{
-object
-}
+*
 TODO
 :
 move
@@ -6434,6 +6431,12 @@ class
 bug
 1871094
 .
+*
+*
+type
+{
+object
+}
 *
 /
 addonData
