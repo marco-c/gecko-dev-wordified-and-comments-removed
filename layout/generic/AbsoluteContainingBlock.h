@@ -383,12 +383,12 @@ aDelegatingFrame
 ;
 enum
 class
-OnlyFirstInFlows
+PullKind
 :
-bool
+uint8_t
 {
-No
-Yes
+FirstInFlows
+All
 }
 ;
 void
@@ -400,8 +400,8 @@ aDelegatingFrame
 nsIFrame
 *
 aContinuation
-OnlyFirstInFlows
-aOnlyFirstInFlows
+PullKind
+aPullKind
 )
 ;
 nsFrameList
