@@ -1914,7 +1914,9 @@ format
 =
 =
 "
-uri
+moz
+-
+url
 "
 )
 {
@@ -2130,7 +2132,9 @@ format
 =
 =
 "
-uri
+moz
+-
+url
 "
 )
 )
