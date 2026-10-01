@@ -3413,7 +3413,6 @@ ErrorResult
 aError
 )
 ;
-MOZ_CAN_RUN_SCRIPT
 mozilla
 :
 :
@@ -5197,7 +5196,6 @@ mDidFireDocElemInserted
 true
 ;
 }
-MOZ_CAN_RUN_SCRIPT
 mozilla
 :
 :

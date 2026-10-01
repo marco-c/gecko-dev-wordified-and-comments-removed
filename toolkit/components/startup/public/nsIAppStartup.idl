@@ -99,7 +99,6 @@ window
 *
 /
 [
-can_run_script
 noscript
 ]
 void

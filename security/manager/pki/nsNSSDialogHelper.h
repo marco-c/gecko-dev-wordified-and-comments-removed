@@ -7,15 +7,6 @@ nsNSSDialogHelper_h
 #
 include
 "
-mozilla
-/
-Attributes
-.
-h
-"
-#
-include
-"
 nsError
 .
 h
@@ -31,7 +22,6 @@ nsNSSDialogHelper
 {
 public
 :
-MOZ_CAN_RUN_SCRIPT
 static
 nsresult
 openDialog
