@@ -536,11 +536,6 @@ nsPropertyTable
 h
 "
 "
-nsRange
-.
-h
-"
-"
 nsSandboxFlags
 .
 h
@@ -1345,6 +1340,11 @@ h
 "
 "
 RadioGroupContainer
+.
+h
+"
+"
+Range
 .
 h
 "
@@ -2239,11 +2239,6 @@ nsQueryContentEventResult
 cpp
 "
 "
-nsRange
-.
-cpp
-"
-"
 nsScreen
 .
 cpp
@@ -2360,6 +2355,11 @@ cpp
 "
 "
 RadioGroupContainer
+.
+cpp
+"
+"
+Range
 .
 cpp
 "

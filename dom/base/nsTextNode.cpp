@@ -63,7 +63,11 @@ MOZ_DOM_LIST
 #
 include
 "
-nsRange
+mozilla
+/
+dom
+/
+Range
 .
 h
 "

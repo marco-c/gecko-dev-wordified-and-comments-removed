@@ -487,7 +487,11 @@ DEBUG
 #
 include
 "
-nsRange
+mozilla
+/
+dom
+/
+Range
 .
 h
 "
