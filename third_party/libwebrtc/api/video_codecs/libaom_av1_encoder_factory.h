@@ -48,6 +48,7 @@ class
 LibaomAv1EncoderFactory
 final
 :
+public
 VideoEncoderFactoryInterface
 {
 public
