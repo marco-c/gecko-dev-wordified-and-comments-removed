@@ -185,7 +185,7 @@ Window
 .
 accesskey
 =
-P
+v
 places
 -
 empty
@@ -214,7 +214,7 @@ Bookmark
 .
 accesskey
 =
-B
+k
 places
 -
 add
@@ -1615,13 +1615,17 @@ places
 -
 share
 -
-folder2
+folder3
 =
 .
 label
 =
 Share
 Folder
+.
+accesskey
+=
+a
 .
 badge
 =
