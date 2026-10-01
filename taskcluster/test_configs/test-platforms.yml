@@ -2552,6 +2552,16 @@ aarch64
 -
 tests
 -
+awsy
+-
+macosx64
+-
+talos
+-
+talos
+-
+profiling
+-
 web
 -
 platform
