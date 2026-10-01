@@ -149,6 +149,12 @@ annotation
 implementation
 libs
 .
+androidx
+.
+core
+implementation
+libs
+.
 kotlinx
 .
 coroutines
