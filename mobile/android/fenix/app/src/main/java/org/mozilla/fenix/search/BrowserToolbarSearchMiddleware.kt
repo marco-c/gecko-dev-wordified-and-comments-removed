@@ -3857,6 +3857,17 @@ qrScannerState
 lastScanData
 newTab
 =
+if
+(
+settings
+.
+enableHomepageAsNewTab
+)
+{
+false
+}
+else
+{
 appStore
 .
 state
@@ -3867,6 +3878,7 @@ sourceTabId
 =
 =
 null
+}
 flags
 =
 EngineSession
