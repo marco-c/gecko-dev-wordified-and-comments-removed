@@ -124,6 +124,11 @@ file_set_focus_after_reuse_bcg_1
 html
 "
 "
+file_redirect_before_load
+.
+html
+"
+"
 file_set_focus_after_reuse_bcg_2
 .
 html

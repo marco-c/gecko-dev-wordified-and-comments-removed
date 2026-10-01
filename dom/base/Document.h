@@ -16396,6 +16396,11 @@ mPageLoadWasForeground
 false
 ;
 bool
+mPageLoadCompleted
+=
+false
+;
+bool
 mPageLoadTelemetryReported
 =
 false
