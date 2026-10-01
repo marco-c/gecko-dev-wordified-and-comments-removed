@@ -1676,9 +1676,13 @@ UserContextManager
 .
 createContext
 (
+{
+prefix
+:
 "
 webdriver
 "
+}
 )
 ;
 const
