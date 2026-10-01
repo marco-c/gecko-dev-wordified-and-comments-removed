@@ -547,7 +547,7 @@ networkCallback
 }
 }
 }
-private
+internal
 fun
 refreshDevices
 (
