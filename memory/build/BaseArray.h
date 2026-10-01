@@ -55,8 +55,9 @@ public
 BaseArray
 (
 )
-{
-}
+=
+default
+;
 ~
 BaseArray
 (
