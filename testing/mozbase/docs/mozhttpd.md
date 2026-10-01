@@ -91,6 +91,11 @@ MozHttpd
 :
 members
 :
+:
+no
+-
+index
+:
 [
 wptserve
 ]
