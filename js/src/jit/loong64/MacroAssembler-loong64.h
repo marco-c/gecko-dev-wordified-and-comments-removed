@@ -2048,6 +2048,8 @@ other
 bool
 handleNaN
 bool
+handleZero
+bool
 isMax
 )
 ;
@@ -2060,6 +2062,8 @@ FloatRegister
 other
 bool
 handleNaN
+bool
+handleZero
 bool
 isMax
 )
