@@ -64,6 +64,17 @@ include
 "
 mozilla
 /
+dom
+/
+RTCCertService
+.
+h
+"
+#
+include
+"
+mozilla
+/
 ipc
 /
 BackgroundChild
