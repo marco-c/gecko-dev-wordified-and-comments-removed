@@ -3057,6 +3057,16 @@ browsertime
 tp6
 -
 essential
+macosx2700
+-
+aarch64
+-
+perftests
+:
+-
+browsertime
+-
+benchmark
 #
 Android
 android14

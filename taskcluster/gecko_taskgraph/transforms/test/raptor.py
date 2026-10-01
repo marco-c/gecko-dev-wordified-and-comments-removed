@@ -806,6 +806,26 @@ in
 tests
 :
         
+resolve_keyed_by
+(
+test
+"
+raptor
+.
+apps
+"
+item_name
+=
+test
+[
+"
+test
+-
+name
+"
+]
+)
+        
 apps
 =
 test
@@ -1170,6 +1190,7 @@ test
 platform
 "
 ]
+                
 for
 p
 in
@@ -1179,6 +1200,9 @@ macosx1400
 "
 "
 macosx1500
+"
+"
+macosx2700
 "
 )
             

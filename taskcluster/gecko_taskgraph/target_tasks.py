@@ -5965,32 +5965,6 @@ in
 try_name
 :
                     
-if
-(
-                        
-"
-safari
--
-jetstream3
-"
-in
-try_name
-                        
-and
-"
-macosx1500
--
-aarch64
-"
-in
-platform
-                    
-)
-:
-                        
-return
-False
-                    
 return
 True
         
