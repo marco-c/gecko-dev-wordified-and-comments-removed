@@ -153,6 +153,16 @@ fenix
 .
 customannotations
 .
+Critical
+import
+org
+.
+mozilla
+.
+fenix
+.
+customannotations
+.
 SkipLeaks
 import
 org
@@ -1385,6 +1395,7 @@ since
 09
 "
 )
+Critical
 Test
 SkipLeaks
 (

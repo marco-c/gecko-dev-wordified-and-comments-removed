@@ -107,6 +107,16 @@ fenix
 .
 customannotations
 .
+Critical
+import
+org
+.
+mozilla
+.
+fenix
+.
+customannotations
+.
 SmokeTest
 import
 org
@@ -912,6 +922,7 @@ cases
 view
 /
 1114970
+Critical
 Test
 fun
 deleteDownloadedFileTest
