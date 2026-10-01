@@ -314,6 +314,17 @@ description
 ios
 opt
 "
+attributes
+:
+code
+-
+review
+-
+build
+-
+test
+:
+true
 index
 :
 job

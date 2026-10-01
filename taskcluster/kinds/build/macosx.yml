@@ -672,6 +672,15 @@ full
 crashsymbols
 :
 true
+code
+-
+review
+-
+build
+-
+test
+:
+true
 treeherder
 :
 platform
