@@ -4645,6 +4645,12 @@ clang
 -
 linux64
 -
+rust
+-
+android
+-
+linux64
+-
 sccache
 -
 android
