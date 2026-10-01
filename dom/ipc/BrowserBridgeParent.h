@@ -9,6 +9,15 @@ include
 "
 mozilla
 /
+WeakPtr
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 PBrowserBridgeParent
@@ -67,6 +76,8 @@ BrowserBridgeParent
 :
 public
 PBrowserBridgeParent
+public
+SupportsWeakPtr
 {
 public
 :

@@ -3869,8 +3869,10 @@ mFrameLoader
 uint32_t
 mChromeFlags
 ;
+WeakPtr
+<
 BrowserBridgeParent
-*
+>
 mBrowserBridgeParent
 ;
 RefPtr
