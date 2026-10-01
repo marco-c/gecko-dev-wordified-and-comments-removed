@@ -49,17 +49,6 @@ h
 #
 include
 "
-mozilla
-/
-ipc
-/
-CrashReporterHost
-.
-h
-"
-#
-include
-"
 nsICrashReporter
 .
 h
