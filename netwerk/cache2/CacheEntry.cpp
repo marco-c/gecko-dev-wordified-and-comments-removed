@@ -8711,6 +8711,20 @@ GetAsciiSpec
 uriSpec
 )
 ;
+nsCOMPtr
+<
+nsILoadContextInfo
+>
+lci
+=
+CacheFileUtils
+:
+:
+ParseKey
+(
+mStorageID
+)
+;
 if
 (
 mEnhanceID
@@ -8730,6 +8744,7 @@ DictionaryCache
 RemoveOriginFor
 (
 uriSpec
+lci
 )
 ;
 }
@@ -8741,6 +8756,7 @@ DictionaryCache
 RemoveDictionaryOMT
 (
 uriSpec
+lci
 )
 ;
 }
