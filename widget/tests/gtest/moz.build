@@ -110,11 +110,6 @@ TestCocoaStaleDragSession
 mm
 "
 "
-TestMOZShareURLPasteboardItem
-.
-mm
-"
-"
 TestNativeKeyBindings
 .
 cpp
