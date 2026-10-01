@@ -33155,6 +33155,11 @@ color
 "
 luminosity
 "
+"
+plus
+-
+lighter
+"
 ]
 invalid_values
 :
@@ -33168,11 +33173,6 @@ none
 "
 multiply
 multiply
-"
-"
-plus
--
-lighter
 "
 ]
 }
