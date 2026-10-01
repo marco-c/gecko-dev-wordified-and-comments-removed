@@ -14056,6 +14056,12 @@ codec_id
 =
 =
 NESTEGG_CODEC_VP9
+|
+|
+codec_id
+=
+=
+NESTEGG_CODEC_PCM
 )
 {
 *
@@ -14073,12 +14079,6 @@ codec_id
 =
 =
 NESTEGG_CODEC_OPUS
-|
-|
-codec_id
-=
-=
-NESTEGG_CODEC_PCM
 |
 |
 codec_id
