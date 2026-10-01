@@ -3515,8 +3515,10 @@ mEntryTable
 ;
 nsTArray
 <
+nsCOMPtr
+<
 nsINode
-*
+>
 >
 mBatchTargets
 ;
