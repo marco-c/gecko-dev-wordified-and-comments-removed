@@ -60027,7 +60027,7 @@ obj
 >
 is
 <
-WrapperObject
+ProxyObject
 >
 (
 )
