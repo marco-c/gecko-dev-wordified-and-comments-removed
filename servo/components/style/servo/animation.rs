@@ -3324,8 +3324,6 @@ AnimationState
 :
 Paused
 (
-ref
-mut
 starting_progress
 )
 =

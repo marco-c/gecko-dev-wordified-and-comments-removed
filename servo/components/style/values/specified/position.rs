@@ -11022,9 +11022,10 @@ true
 return
 Err
 (
-input
-.
-new_custom_error
+ParseError
+:
+:
+custom
 (
 StyleParseErrorKind
 :
