@@ -570,7 +570,7 @@ Services
 .
 cookies
 .
-countCookiesFromHost
+getCookiesFromHost
 (
 uri
 .
@@ -578,6 +578,8 @@ host
 {
 }
 )
+.
+length
 expected
 )
 ;
@@ -784,7 +786,7 @@ Services
 .
 cookies
 .
-countCookiesFromHost
+getCookiesFromHost
 (
 uri
 .
@@ -792,6 +794,8 @@ host
 {
 }
 )
+.
+length
 expected
 [
 0
@@ -823,7 +827,7 @@ Services
 .
 cookies
 .
-countCookiesFromHost
+getCookiesFromHost
 (
 uri
 .
@@ -831,6 +835,8 @@ host
 {
 }
 )
+.
+length
 expected
 [
 1

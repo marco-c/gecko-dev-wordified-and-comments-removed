@@ -277,7 +277,7 @@ Services
 .
 cookies
 .
-countCookiesFromHost
+getCookiesFromHost
 (
 "
 localhost
@@ -285,6 +285,8 @@ localhost
 {
 }
 )
+.
+length
 0
 "
 no

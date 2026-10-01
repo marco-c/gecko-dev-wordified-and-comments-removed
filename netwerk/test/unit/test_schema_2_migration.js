@@ -497,7 +497,7 @@ Services
 .
 cookies
 .
-countCookiesFromHost
+getCookiesFromHost
 (
 "
 foo
@@ -507,6 +507,8 @@ com
 {
 }
 )
+.
+length
 20
 )
 ;
@@ -518,7 +520,7 @@ Services
 .
 cookies
 .
-countCookiesFromHost
+getCookiesFromHost
 (
 "
 bar
@@ -528,6 +530,8 @@ com
 {
 }
 )
+.
+length
 0
 )
 ;
@@ -539,7 +543,7 @@ Services
 .
 cookies
 .
-countCookiesFromHost
+getCookiesFromHost
 (
 "
 baz
@@ -549,6 +553,8 @@ com
 {
 }
 )
+.
+length
 1
 )
 ;
@@ -834,7 +840,7 @@ Services
 .
 cookies
 .
-countCookiesFromHost
+getCookiesFromHost
 (
 "
 foo
@@ -844,6 +850,8 @@ com
 {
 }
 )
+.
+length
 40
 )
 ;
@@ -855,7 +863,7 @@ Services
 .
 cookies
 .
-countCookiesFromHost
+getCookiesFromHost
 (
 "
 bar
@@ -865,6 +873,8 @@ com
 {
 }
 )
+.
+length
 0
 )
 ;
@@ -876,7 +886,7 @@ Services
 .
 cookies
 .
-countCookiesFromHost
+getCookiesFromHost
 (
 "
 baz
@@ -886,6 +896,8 @@ com
 {
 }
 )
+.
+length
 1
 )
 ;
@@ -897,7 +909,7 @@ Services
 .
 cookies
 .
-countCookiesFromHost
+getCookiesFromHost
 (
 "
 cat
@@ -907,6 +919,8 @@ com
 {
 }
 )
+.
+length
 20
 )
 ;
@@ -946,7 +960,7 @@ Services
 .
 cookies
 .
-countCookiesFromHost
+getCookiesFromHost
 (
 "
 foo
@@ -956,6 +970,8 @@ com
 {
 }
 )
+.
+length
 40
 )
 ;
@@ -967,7 +983,7 @@ Services
 .
 cookies
 .
-countCookiesFromHost
+getCookiesFromHost
 (
 "
 bar
@@ -977,6 +993,8 @@ com
 {
 }
 )
+.
+length
 0
 )
 ;
@@ -988,7 +1006,7 @@ Services
 .
 cookies
 .
-countCookiesFromHost
+getCookiesFromHost
 (
 "
 baz
@@ -998,6 +1016,8 @@ com
 {
 }
 )
+.
+length
 1
 )
 ;
@@ -1009,7 +1029,7 @@ Services
 .
 cookies
 .
-countCookiesFromHost
+getCookiesFromHost
 (
 "
 cat
@@ -1019,6 +1039,8 @@ com
 {
 }
 )
+.
+length
 20
 )
 ;
@@ -1135,7 +1157,7 @@ Services
 .
 cookies
 .
-countCookiesFromHost
+getCookiesFromHost
 (
 "
 foo
@@ -1145,6 +1167,8 @@ com
 {
 }
 )
+.
+length
 40
 )
 ;
@@ -1156,7 +1180,7 @@ Services
 .
 cookies
 .
-countCookiesFromHost
+getCookiesFromHost
 (
 "
 bar
@@ -1166,6 +1190,8 @@ com
 {
 }
 )
+.
+length
 0
 )
 ;
@@ -1177,7 +1203,7 @@ Services
 .
 cookies
 .
-countCookiesFromHost
+getCookiesFromHost
 (
 "
 baz
@@ -1187,6 +1213,8 @@ com
 {
 }
 )
+.
+length
 1
 )
 ;
@@ -1198,7 +1226,7 @@ Services
 .
 cookies
 .
-countCookiesFromHost
+getCookiesFromHost
 (
 "
 cat
@@ -1208,6 +1236,8 @@ com
 {
 }
 )
+.
+length
 20
 )
 ;

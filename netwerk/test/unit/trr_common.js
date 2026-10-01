@@ -6395,7 +6395,7 @@ Services
 .
 cookies
 .
-countCookiesFromHost
+getCookiesFromHost
 (
 "
 example
@@ -6405,6 +6405,8 @@ com
 {
 }
 )
+.
+length
 0
 )
 ;
@@ -6416,7 +6418,7 @@ Services
 .
 cookies
 .
-countCookiesFromHost
+getCookiesFromHost
 (
 "
 foo
@@ -6429,6 +6431,8 @@ com
 {
 }
 )
+.
+length
 0
 )
 ;
