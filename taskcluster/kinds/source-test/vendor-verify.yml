@@ -118,8 +118,7 @@ must
 #
 appear
 in
-exactly
-one
+a
 group
 '
 s
@@ -132,14 +131,13 @@ task
 turns
 the
 tree
-#
 orange
+#
 for
 any
 that
-don
-'
-t
+are
+missing
 .
 Which
 group
