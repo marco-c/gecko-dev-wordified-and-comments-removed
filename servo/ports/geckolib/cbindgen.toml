@@ -1487,6 +1487,9 @@ TextWrapMode
 "
 TextWrapStyle
 "
+"
+ListStylePosition
+"
 ]
 item_types
 =

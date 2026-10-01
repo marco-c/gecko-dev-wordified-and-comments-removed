@@ -398,16 +398,6 @@ UpperAlpha
 ;
 enum
 class
-StyleListStylePosition
-:
-uint8_t
-{
-Inside
-Outside
-}
-;
-enum
-class
 StyleObjectFit
 :
 uint8_t
