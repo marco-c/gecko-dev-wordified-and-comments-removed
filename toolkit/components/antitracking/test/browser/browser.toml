@@ -701,6 +701,13 @@ js
 ]
 [
 "
+browser_openerAfterUserInteractionHeuristic
+.
+js
+"
+]
+[
+"
 browser_partitionKey_XSLT
 .
 js

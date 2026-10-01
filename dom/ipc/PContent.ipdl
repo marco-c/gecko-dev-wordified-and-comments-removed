@@ -10381,6 +10381,9 @@ uint32_t
 aCookieBehavior
 StorageAccessPermissionGrantedReason
 aReason
+bool
+?
+aHadPriorUserInteraction
 )
 returns
 (
