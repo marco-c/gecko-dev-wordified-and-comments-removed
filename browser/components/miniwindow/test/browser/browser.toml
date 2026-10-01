@@ -60,13 +60,6 @@ true
 ]
 [
 "
-browser_chooser_panel
-.
-js
-"
-]
-[
-"
 browser_cropped_navigation
 .
 js
@@ -96,13 +89,6 @@ js
 [
 "
 browser_origin_close
-.
-js
-"
-]
-[
-"
-browser_overlap
 .
 js
 "
