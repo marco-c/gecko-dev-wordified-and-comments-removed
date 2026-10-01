@@ -2380,9 +2380,17 @@ isnumeric
 (
 )
 and
+(
+                
 label_no_chunk
 in
 glob_tasks
+or
+label_no_chunk
+in
+tasks
+            
+)
 :
                 
 task
