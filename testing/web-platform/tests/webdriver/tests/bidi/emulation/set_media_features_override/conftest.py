@@ -17,12 +17,14 @@ SOME_FEATURE_NAME
 "
 prefers
 -
-contrast
+color
+-
+scheme
 "
 SOME_FEATURE_SOME_VALUE
 =
 "
-more
+dark
 "
 ANOTHER_FEATURE_NAME
 =
