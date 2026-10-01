@@ -238,6 +238,15 @@ locale
 -
 override
 "
+MediaFeaturesOverride
+:
+"
+media
+-
+features
+-
+override
+"
 NetworkConditions
 :
 "
