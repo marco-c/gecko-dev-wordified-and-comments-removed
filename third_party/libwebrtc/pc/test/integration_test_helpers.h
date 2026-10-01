@@ -3220,6 +3220,16 @@ audio_concealed_stat_
 =
 0
 ;
+uint64_t
+initial_audio_samples_stat_
+=
+0
+;
+uint64_t
+initial_audio_concealed_stat_
+=
+0
+;
 std
 :
 :
