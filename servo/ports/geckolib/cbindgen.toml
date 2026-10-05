@@ -1041,15 +1041,6 @@ WillChange
 TextDecorationLine
 "
 "
-MasonryAutoFlow
-"
-"
-MasonryPlacement
-"
-"
-MasonryItemOrder
-"
-"
 TextUnderlinePosition
 "
 "
@@ -5564,8 +5555,6 @@ StyleCustomIdent
 >
 LineNameLists
 (
-bool
-aIsSubgrid
 )
 const
 ;

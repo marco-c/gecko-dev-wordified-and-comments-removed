@@ -124,7 +124,6 @@ FlexDirection
 FlexWrap
 GridAutoFlow
 GridTemplateAreas
-MasonryAutoFlow
 ObjectFit
 PositionAnchor
 PositionArea

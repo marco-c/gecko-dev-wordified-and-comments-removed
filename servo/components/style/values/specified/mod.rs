@@ -782,9 +782,6 @@ FlexWrap
 GridAutoFlow
 GridTemplateAreas
 Inset
-MasonryAutoFlow
-MasonryItemOrder
-MasonryPlacement
 ObjectFit
 Position
 PositionAnchor
