@@ -10015,7 +10015,7 @@ size_t
 offset
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 ValueOrNurseryValueIndex
 :
