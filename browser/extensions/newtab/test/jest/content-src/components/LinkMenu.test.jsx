@@ -3998,7 +3998,7 @@ dispatch
 .
 toHaveBeenCalledTimes
 (
-3
+2
 )
 ;
 expect
@@ -4234,7 +4234,7 @@ dispatch
 .
 toHaveBeenCalledTimes
 (
-3
+2
 )
 ;
 expect
