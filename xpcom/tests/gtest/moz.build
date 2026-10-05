@@ -408,11 +408,6 @@ TestThrottledEventQueue
 cpp
 "
 "
-TestTimerThreadMonitor
-.
-cpp
-"
-"
 TestTimeStamp
 .
 cpp
@@ -970,15 +965,6 @@ LOCAL_INCLUDES
 .
 /
 base
-"
-"
-.
-.
-/
-.
-.
-/
-threads
 "
 "
 /
