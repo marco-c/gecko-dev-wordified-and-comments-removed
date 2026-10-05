@@ -151,6 +151,15 @@ compositor
 mWrCompositorEnabled
 )
 ;
+mWrLayerCompositorEnabled
+=
+StaticPrefs
+:
+:
+gfx_webrender_layer_compositor
+(
+)
+;
 mWrForceEnabled
 =
 gfxPlatform
@@ -894,6 +903,10 @@ mFeatureWrCompositor
 ;
 if
 (
+!
+mWrLayerCompositorEnabled
+&
+&
 !
 mHwStretchingSupport
 .

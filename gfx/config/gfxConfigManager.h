@@ -119,6 +119,10 @@ mWrCompositorForceEnabled
 (
 false
 )
+mWrLayerCompositorEnabled
+(
+false
+)
 mWrRequireAngle
 (
 false
@@ -305,6 +309,9 @@ mWrSoftwareForceEnabled
 ;
 bool
 mWrCompositorForceEnabled
+;
+bool
+mWrLayerCompositorEnabled
 ;
 bool
 mWrRequireAngle
