@@ -2273,7 +2273,7 @@ panel
 -
 text
 -
-styled
+styled2
 "
 {
 agentName
