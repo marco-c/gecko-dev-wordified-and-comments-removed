@@ -1439,6 +1439,10 @@ OnMoreMenuClicked
 is
 MenuAction
 .
+OnExtensionsMenuClicked
+is
+MenuAction
+.
 Navigate
 .
 IPProtectionSettings

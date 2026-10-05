@@ -359,6 +359,10 @@ is
 MenuAction
 .
 PrintRequested
+is
+MenuAction
+.
+OnExtensionsMenuClicked
 -
 >
 state
