@@ -2534,11 +2534,17 @@ system
 fontlist
 initialization
 problem
-(
+:
 1
 =
 GDI
 interop
+(
+removed
+in
+bug
+2011408
+)
 2
 =
 system
@@ -2548,7 +2554,6 @@ collection
 =
 no
 fonts
-)
 "
 }
 "
