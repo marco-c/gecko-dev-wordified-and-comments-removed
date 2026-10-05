@@ -107,12 +107,6 @@ this
 .
 manager
 .
-browsingContext
-.
-top
-.
-currentWindowGlobal
-.
 documentPrincipal
 .
 originNoSuffix
