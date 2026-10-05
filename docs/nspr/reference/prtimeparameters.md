@@ -61,9 +61,9 @@ zone
 .
 The
 {
-ref
+doc
 }
-PRTimeParameters
+prtimeparameters
 structure
 represents
 the

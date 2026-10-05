@@ -35,9 +35,9 @@ priv
 #
 Parameters
 {
-ref
+doc
 }
-PR_SetThreadPrivate
+pr_setthreadprivate
 has
 the
 following
@@ -244,9 +244,9 @@ is
 to
 call
 {
-ref
+doc
 }
-PR_SetThreadPrivate
+pr_setthreadprivate
 with
 a
 NULL

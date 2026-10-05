@@ -48,9 +48,9 @@ element
 #
 Description
 {
-ref
+doc
 }
-PR_REMOVE_AND_INIT_LINK
+pr_remove_and_init_link
 removes
 the
 specified

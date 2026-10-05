@@ -35,9 +35,9 @@ v2
 #
 Description
 {
-ref
+doc
 }
-PL_CompareStrings
+pl_comparestrings
 compares
 v1
 and
@@ -70,9 +70,9 @@ returns
 0
 .
 {
-ref
+doc
 }
-PL_CompareStrings
+pl_comparestrings
 can
 be
 used

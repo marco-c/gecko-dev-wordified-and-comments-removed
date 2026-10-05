@@ -55,9 +55,9 @@ instead
 Otherwise
 use
 {
-ref
+doc
 }
-PRBool
+prbool
 for
 variables
 and

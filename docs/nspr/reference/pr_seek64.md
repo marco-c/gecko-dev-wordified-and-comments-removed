@@ -62,9 +62,9 @@ pointer
 to
 a
 {
-ref
+doc
 }
-PRFileDesc
+prfiledesc
 object
 .
 offset
@@ -101,9 +101,9 @@ value
 of
 type
 {
-ref
+doc
 }
-PRSeekWhence
+prseekwhence
 that
 specifies
 how
@@ -259,9 +259,9 @@ be
 retrieved
 with
 {
-ref
+doc
 }
-PR_GetError
+pr_geterror
 .
 #
 #
@@ -314,9 +314,9 @@ bit
 file
 offset
 {
-ref
+doc
 }
-PR_Seek64
+pr_seek64
 may
 fail
 with
@@ -345,6 +345,6 @@ integer
 See
 Also
 {
-ref
+doc
 }
-PR_Seek
+pr_seek

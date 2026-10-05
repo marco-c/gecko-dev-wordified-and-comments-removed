@@ -26,9 +26,9 @@ PRPackedBool
 Description
 Use
 {
-ref
+doc
 }
-PRPackedBool
+prpackedbool
 within
 structures
 where

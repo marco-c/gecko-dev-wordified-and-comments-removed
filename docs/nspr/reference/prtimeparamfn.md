@@ -55,9 +55,9 @@ Description
 The
 type
 {
-ref
+doc
 }
-PRTimeParamFn
+prtimeparamfn
 represents
 a
 callback

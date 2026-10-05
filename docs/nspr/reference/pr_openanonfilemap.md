@@ -91,9 +91,9 @@ Returns
 Pointer
 to
 {
-ref
+doc
 }
-PRFileMap
+prfilemap
 or
 NULL
 on
@@ -122,9 +122,9 @@ On
 Unix
 platforms
 {
-ref
+doc
 }
-PR_OpenAnonFileMap
+pr_openanonfilemap
 uses
 dirName
 as

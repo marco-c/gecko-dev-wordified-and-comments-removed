@@ -73,8 +73,8 @@ field
 of
 a
 {
-ref
+doc
 }
-PRNetAddr
+prnetaddr
 object
 .

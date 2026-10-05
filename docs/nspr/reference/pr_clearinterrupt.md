@@ -47,9 +47,9 @@ thread
 passed
 to
 {
-ref
+doc
 }
-PR_Interrupt
+pr_interrupt
 may
 never
 respond
@@ -114,9 +114,9 @@ necessary
 to
 call
 {
-ref
+doc
 }
-PR_ClearInterrupt
+pr_clearinterrupt
 to
 clear
 a
@@ -131,9 +131,9 @@ request
 is
 pending
 {
-ref
+doc
 }
-PR_ClearInterrupt
+pr_clearinterrupt
 is
 a
 no

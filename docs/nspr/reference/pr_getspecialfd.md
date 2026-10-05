@@ -82,9 +82,9 @@ parameter
 is
 valid
 {
-ref
+doc
 }
-PR_GetSpecialFD
+pr_getspecialfd
 returns
 a
 file
@@ -101,9 +101,9 @@ stream
 .
 Otherwise
 {
-ref
+doc
 }
-PR_GetSpecialFD
+pr_getspecialfd
 returns
 NULL
 and
@@ -162,9 +162,9 @@ descriptors
 returned
 by
 {
-ref
+doc
 }
-PR_GetSpecialFD
+pr_getspecialfd
 are
 owned
 by

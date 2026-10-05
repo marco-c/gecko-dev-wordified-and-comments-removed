@@ -42,9 +42,9 @@ structure
 of
 type
 {
-ref
+doc
 }
-PRThread
+prthread
 .
 This
 pointer

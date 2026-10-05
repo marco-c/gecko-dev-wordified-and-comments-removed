@@ -36,9 +36,9 @@ priority
 #
 Parameters
 {
-ref
+doc
 }
-PR_SetThreadPriority
+pr_setthreadpriority
 has
 the
 following
@@ -122,7 +122,7 @@ when
 it
 calls
 {
-ref
+doc
 }
-PR_SetThreadPriority
+pr_setthreadpriority
 .

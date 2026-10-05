@@ -59,9 +59,9 @@ previously
 passed
 to
 {
-ref
+doc
 }
-PR_CEnterMonitor
+pr_centermonitor
 .
 #
 #
@@ -126,9 +126,9 @@ the
 monitor
 cache
 {
-ref
+doc
 }
-PR_CExitMonitor
+pr_cexitmonitor
 decrements
 the
 entry

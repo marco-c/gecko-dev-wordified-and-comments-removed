@@ -11,9 +11,9 @@ maps
 the
 specified
 {
-ref
+doc
 }
-PRExplodedTime
+prexplodedtime
 to
 GMT
 .
@@ -181,9 +181,9 @@ it
 returns
 a
 {
-ref
+doc
 }
-PRTimeParameters
+prtimeparameters
 structure
 with
 both

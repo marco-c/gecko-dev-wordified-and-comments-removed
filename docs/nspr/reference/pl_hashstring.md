@@ -68,9 +68,9 @@ key
 #
 Description
 {
-ref
+doc
 }
-PL_HashString
+pl_hashstring
 can
 be
 used

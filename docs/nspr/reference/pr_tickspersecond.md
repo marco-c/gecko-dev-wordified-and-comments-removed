@@ -15,9 +15,9 @@ the
 value
 of
 {
-ref
+doc
 }
-PRIntervalTime
+printervaltime
 .
 #
 #
@@ -58,9 +58,9 @@ second
 counted
 by
 {
-ref
+doc
 }
-PRIntervalTime
+printervaltime
 on
 the
 current
@@ -102,9 +102,9 @@ relationship
 between
 a
 {
-ref
+doc
 }
-PRIntervalTime
+printervaltime
 tick
 and
 standard

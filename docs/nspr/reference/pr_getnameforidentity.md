@@ -117,9 +117,9 @@ the
 runtime
 and
 {
-ref
+doc
 }
-PR_GetNameForIdentity
+pr_getnameforidentity
 returns
 a
 pointer

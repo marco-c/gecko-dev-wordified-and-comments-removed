@@ -3,9 +3,9 @@ PR_GetInheritedFileMap
 Imports
 a
 {
-ref
+doc
 }
-PRFileMap
+prfilemap
 previously
 exported
 by
@@ -59,9 +59,9 @@ name
 provided
 to
 {
-ref
+doc
 }
-PR_ProcessAttrSetInheritableFileMap
+pr_processattrsetinheritablefilemap
 .
 #
 #
@@ -70,9 +70,9 @@ Returns
 Pointer
 to
 {
-ref
+doc
 }
-PRFileMap
+prfilemap
 or
 NULL
 on
@@ -82,9 +82,9 @@ error
 #
 Description
 {
-ref
+doc
 }
-PR_GetInheritedFileMap
+pr_getinheritedfilemap
 retrieves
 a
 PRFileMap

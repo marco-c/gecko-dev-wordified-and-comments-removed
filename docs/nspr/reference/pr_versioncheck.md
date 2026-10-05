@@ -55,9 +55,9 @@ importedVersion
 #
 Parameter
 {
-ref
+doc
 }
-PR_VersionCheck
+pr_versioncheck
 has
 one
 parameter
@@ -117,9 +117,9 @@ PR_FALSE
 #
 Description
 {
-ref
+doc
 }
-PR_VersionCheck
+pr_versioncheck
 tests
 whether
 the
@@ -170,5 +170,7 @@ Also
 PR_VERSION
 ]
 (
-PR_VERSION
+pr_version
+.
+md
 )

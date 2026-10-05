@@ -118,9 +118,9 @@ failure
 by
 calling
 {
-ref
+doc
 }
-PR_GetError
+pr_geterror
 .
 #
 #

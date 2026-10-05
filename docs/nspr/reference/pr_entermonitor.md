@@ -52,9 +52,9 @@ structure
 of
 type
 {
-ref
+doc
 }
-PRMonitor
+prmonitor
 .
 #
 #
@@ -128,9 +128,9 @@ of
 the
 lock
 {
-ref
+doc
 }
-PR_EnterMonitor
+pr_entermonitor
 increments
 the
 entry

@@ -33,9 +33,9 @@ maxPTDs
 #
 Parameters
 {
-ref
+doc
 }
-PR_Init
+pr_init
 has
 the
 following
@@ -82,9 +82,9 @@ a
 program
 .
 {
-ref
+doc
 }
-PR_Init
+pr_init
 is
 necessary
 only
@@ -100,9 +100,9 @@ requirements
 .
 Call
 {
-ref
+doc
 }
-PR_Init
+pr_init
 as
 follows
 :

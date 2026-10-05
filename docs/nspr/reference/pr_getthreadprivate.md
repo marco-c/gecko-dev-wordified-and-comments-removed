@@ -38,9 +38,9 @@ index
 #
 Parameter
 {
-ref
+doc
 }
-PR_GetThreadPrivate
+pr_getthreadprivate
 has
 the
 following
@@ -76,9 +76,9 @@ set
 #
 Description
 {
-ref
+doc
 }
-PR_GetThreadPrivate
+pr_getthreadprivate
 may
 be
 called

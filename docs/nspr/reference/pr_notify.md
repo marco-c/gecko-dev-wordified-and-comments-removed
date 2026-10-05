@@ -58,9 +58,9 @@ structure
 of
 type
 {
-ref
+doc
 }
-PRMonitor
+prmonitor
 .
 The
 monitor

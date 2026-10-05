@@ -52,9 +52,9 @@ stackSize
 #
 Parameters
 {
-ref
+doc
 }
-PR_CreateThread
+pr_createthread
 has
 the
 following
@@ -236,9 +236,9 @@ in
 this
 parameter
 {
-ref
+doc
 }
-PR_CreateThread
+pr_createthread
 chooses
 the
 most
@@ -393,9 +393,9 @@ can
 then
 use
 {
-ref
+doc
 }
-PR_JoinThread
+pr_jointhread
 to
 synchronize
 the

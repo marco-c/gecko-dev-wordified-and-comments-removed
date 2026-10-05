@@ -42,9 +42,9 @@ layer
 in
 the
 {
-ref
+doc
 }
-PRFilePrivate
+prfileprivate
 structure
 .
 Each
@@ -55,9 +55,9 @@ own
 definition
 of
 {
-ref
+doc
 }
-PRFilePrivate
+prfileprivate
 which
 is
 hidden

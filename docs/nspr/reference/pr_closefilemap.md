@@ -88,9 +88,9 @@ be
 retrieved
 via
 {
-ref
+doc
 }
-PR_GetError
+pr_geterror
 .
 #
 #
@@ -105,9 +105,9 @@ a
 call
 to
 {
-ref
+doc
 }
-PR_CreateFileMap
+pr_createfilemap
 is
 no
 longer
@@ -121,7 +121,7 @@ a
 call
 to
 {
-ref
+doc
 }
-PR_CloseFileMap
+pr_closefilemap
 .

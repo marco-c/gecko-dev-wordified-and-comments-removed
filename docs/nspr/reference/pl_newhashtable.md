@@ -131,9 +131,9 @@ table
 #
 Description
 {
-ref
+doc
 }
-PL_NewHashTable
+pl_newhashtable
 creates
 a
 new
@@ -179,9 +179,9 @@ functions
 of
 type
 {
-ref
+doc
 }
-PLHashComparator
+plhashcomparator
 that
 the
 hash

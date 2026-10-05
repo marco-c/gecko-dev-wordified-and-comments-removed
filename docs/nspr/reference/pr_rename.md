@@ -93,9 +93,9 @@ PR_FAILURE
 #
 Description
 {
-ref
+doc
 }
-PR_Rename
+pr_rename
 renames
 a
 file
@@ -124,9 +124,9 @@ name
 already
 exists
 {
-ref
+doc
 }
-PR_Rename
+pr_rename
 fails
 with
 the
@@ -138,9 +138,9 @@ In
 this
 case
 {
-ref
+doc
 }
-PR_Rename
+pr_rename
 does
 not
 overwrite

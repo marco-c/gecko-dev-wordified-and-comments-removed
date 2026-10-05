@@ -117,7 +117,7 @@ free
 it
 using
 {
-ref
+doc
 }
-PR_FreeLibraryName
+pr_freelibraryname
 .

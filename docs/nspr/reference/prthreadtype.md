@@ -12,9 +12,9 @@ a
 parameter
 to
 {
-ref
+doc
 }
-PR_CreateThread
+pr_createthread
 .
 #
 #
@@ -45,9 +45,9 @@ Enumerators
 PR_USER_THREAD
 :
 {
-ref
+doc
 }
-PR_Cleanup
+pr_cleanup
 blocks
 until
 the
@@ -73,9 +73,9 @@ a
 call
 to
 {
-ref
+doc
 }
-PR_Cleanup
+pr_cleanup
 should
 return
 .

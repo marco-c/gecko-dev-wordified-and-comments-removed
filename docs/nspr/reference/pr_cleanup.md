@@ -68,9 +68,9 @@ PR_FAILURE
 #
 Description
 {
-ref
+doc
 }
-PR_Cleanup
+pr_cleanup
 must
 be
 called
@@ -87,9 +87,9 @@ main
 function
 .
 {
-ref
+doc
 }
-PR_Cleanup
+pr_cleanup
 attempts
 to
 synchronize

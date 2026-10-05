@@ -5,9 +5,9 @@ memory
 allocated
 by
 {
-ref
+doc
 }
-PL_strdup
+pl_strdup
 #
 #
 Syntax

@@ -33,9 +33,9 @@ lock
 #
 Parameter
 {
-ref
+doc
 }
-PR_NewCondVar
+pr_newcondvar
 has
 one
 parameter

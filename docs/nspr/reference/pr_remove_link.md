@@ -44,9 +44,9 @@ element
 #
 Description
 {
-ref
+doc
 }
-PR_REMOVE_LINK
+pr_remove_link
 removes
 the
 specified

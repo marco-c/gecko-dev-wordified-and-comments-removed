@@ -89,9 +89,9 @@ variable
 #
 Description
 {
-ref
+doc
 }
-PR_AtomicSet
+pr_atomicset
 first
 reads
 the

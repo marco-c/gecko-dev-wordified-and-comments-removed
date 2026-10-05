@@ -177,9 +177,9 @@ system
 with
 a
 {
-ref
+doc
 }
-PR_DeleteSemaphore
+pr_deletesemaphore
 call
 .
 If
@@ -207,9 +207,9 @@ mode
 argument
 to
 {
-ref
+doc
 }
-PR_Open
+pr_open
 )
 and
 the

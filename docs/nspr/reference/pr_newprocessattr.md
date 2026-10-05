@@ -58,9 +58,9 @@ creates
 a
 new
 {
-ref
+doc
 }
-PRProcessAttr
+prprocessattr
 structure
 that
 specifies
@@ -81,9 +81,9 @@ structure
 The
 new
 {
-ref
+doc
 }
-PRProcessAttr
+prprocessattr
 structure
 is
 initialized

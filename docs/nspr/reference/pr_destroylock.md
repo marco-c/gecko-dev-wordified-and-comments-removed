@@ -32,9 +32,9 @@ lock
 #
 Parameter
 {
-ref
+doc
 }
-PR_DestroyLock
+pr_destroylock
 has
 one
 parameter

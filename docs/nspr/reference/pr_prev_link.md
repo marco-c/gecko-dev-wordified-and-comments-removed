@@ -57,9 +57,9 @@ element
 #
 Description
 {
-ref
+doc
 }
-PR_PREV_LINK
+pr_prev_link
 returns
 a
 pointer

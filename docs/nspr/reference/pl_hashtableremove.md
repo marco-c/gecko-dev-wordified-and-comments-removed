@@ -93,9 +93,9 @@ the
 specified
 key
 {
-ref
+doc
 }
-PL_HashTableRemove
+pl_hashtableremove
 returns
 PR_FALSE
 .
@@ -104,9 +104,9 @@ the
 entry
 exists
 {
-ref
+doc
 }
-PL_HashTableRemove
+pl_hashtableremove
 removes
 the
 entry
@@ -133,9 +133,9 @@ table
 is
 underloaded
 {
-ref
+doc
 }
-PL_HashTableRemove
+pl_hashtableremove
 also
 shrinks
 the
@@ -153,7 +153,7 @@ function
 should
 return
 {
-ref
+doc
 }
-PRStatus
+prstatus
 .

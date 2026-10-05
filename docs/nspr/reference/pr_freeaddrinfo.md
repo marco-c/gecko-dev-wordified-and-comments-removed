@@ -7,9 +7,9 @@ structure
 returned
 by
 {
-ref
+doc
 }
-PR_GetAddrInfoByName
+pr_getaddrinfobyname
 .
 #
 #
@@ -58,9 +58,9 @@ successful
 call
 to
 {
-ref
+doc
 }
-PR_GetAddrInfoByName
+pr_getaddrinfobyname
 .
 #
 #

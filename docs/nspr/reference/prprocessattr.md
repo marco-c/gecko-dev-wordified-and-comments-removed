@@ -45,9 +45,9 @@ pointer
 to
 a
 {
-ref
+doc
 }
-PRProcessAttr
+prprocessattr
 into
 PR_CreateProcess
 when

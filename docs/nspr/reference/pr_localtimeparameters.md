@@ -11,9 +11,9 @@ maps
 the
 specified
 {
-ref
+doc
 }
-PRExplodedTime
+prexplodedtime
 to
 local
 time

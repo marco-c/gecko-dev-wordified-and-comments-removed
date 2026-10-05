@@ -83,9 +83,9 @@ as
 arguments
 to
 {
-ref
+doc
 }
-PR_JoinThread
+pr_jointhread
 .
 PR_JOINABLE_THREAD
 :
@@ -104,9 +104,9 @@ root
 function
 until
 {
-ref
+doc
 }
-PR_JoinThread
+pr_jointhread
 is
 called
 .
@@ -174,9 +174,9 @@ state
 passed
 to
 {
-ref
+doc
 }
-PR_CreateThread
+pr_createthread
 when
 the
 thread

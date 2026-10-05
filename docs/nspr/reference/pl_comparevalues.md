@@ -37,9 +37,9 @@ v2
 #
 Description
 {
-ref
+doc
 }
-PL_CompareValues
+pl_comparevalues
 compares
 the
 two
@@ -67,9 +67,9 @@ v1
 v2
 .
 {
-ref
+doc
 }
-PL_CompareValues
+pl_comparevalues
 can
 be
 used

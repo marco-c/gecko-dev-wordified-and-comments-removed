@@ -54,9 +54,9 @@ Pointer
 to
 a
 {
-ref
+doc
 }
-PRFileDesc
+prfiledesc
 object
 representing
 a
@@ -92,9 +92,9 @@ PR_FAILURE
 #
 Description
 {
-ref
+doc
 }
-PR_Sync
+pr_sync
 writes
 all
 the

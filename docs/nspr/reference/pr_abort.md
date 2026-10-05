@@ -31,9 +31,9 @@ void
 #
 Description
 {
-ref
+doc
 }
-PR_Abort
+pr_abort
 results
 in
 a

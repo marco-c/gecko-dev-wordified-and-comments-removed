@@ -31,9 +31,9 @@ cvar
 #
 Parameter
 {
-ref
+doc
 }
-PR_DestroyCondVar
+pr_destroycondvar
 has
 one
 parameter
@@ -57,9 +57,9 @@ Description
 Before
 calling
 {
-ref
+doc
 }
-PR_DestroyCondVar
+pr_destroycondvar
 the
 caller
 is

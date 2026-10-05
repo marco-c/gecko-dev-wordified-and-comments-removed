@@ -10,9 +10,9 @@ be
 retrieved
 with
 {
-ref
+doc
 }
-PR_GetError
+pr_geterror
 .
 You
 can
@@ -23,9 +23,9 @@ own
 errors
 using
 {
-ref
+doc
 }
-PR_SetError
+pr_seterror
 .
 #
 #

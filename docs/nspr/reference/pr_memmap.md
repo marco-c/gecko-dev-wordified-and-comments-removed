@@ -130,9 +130,9 @@ error
 #
 Description
 {
-ref
+doc
 }
-PR_MemMap
+pr_memmap
 maps
 a
 section
@@ -182,7 +182,7 @@ a
 call
 to
 {
-ref
+doc
 }
-PR_MemUnmap
+pr_unmap
 .

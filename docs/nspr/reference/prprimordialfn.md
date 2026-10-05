@@ -9,9 +9,9 @@ function
 used
 by
 {
-ref
+doc
 }
-PR_Initialize
+pr_initialize
 is
 specified
 as
@@ -46,6 +46,6 @@ Also
 >
 -
 {
-ref
+doc
 }
-PR_Initialize
+pr_initialize

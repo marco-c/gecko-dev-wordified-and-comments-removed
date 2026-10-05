@@ -11,9 +11,9 @@ field
 of
 the
 {
-ref
+doc
 }
-PRNetAddr
+prnetaddr
 structure
 .
 #
@@ -75,9 +75,9 @@ socket
 interface
 .
 {
-ref
+doc
 }
-PRIPv6Addr
+pripv6addr
 is
 always
 manipulated

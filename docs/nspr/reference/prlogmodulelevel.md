@@ -4,9 +4,9 @@ The
 enumerated
 type
 {
-ref
+doc
 }
-PRLogModuleLevel
+prlogmodulelevel
 defines
 levels
 of

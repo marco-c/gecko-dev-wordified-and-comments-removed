@@ -225,6 +225,6 @@ also
 See
 Also
 {
-ref
+doc
 }
-PL_HashTableEnumerateEntries
+pl_hashtableenumerateentries

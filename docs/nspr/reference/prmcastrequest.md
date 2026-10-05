@@ -93,9 +93,9 @@ of
 the
 type
 {
-ref
+doc
 }
-PRNetAddr
+prnetaddr
 but
 their
 port

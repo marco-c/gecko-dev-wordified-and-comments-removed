@@ -56,9 +56,9 @@ destroyed
 #
 Description
 {
-ref
+doc
 }
-PL_HashTableDestroy
+pl_hashtabledestroy
 frees
 all
 the

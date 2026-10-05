@@ -60,11 +60,9 @@ make
 Refer
 to
 {
-ref
+doc
 }
-NSPR
-build
-instructions
+nspr_build_instructions
 for
 details
 .

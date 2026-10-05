@@ -43,9 +43,9 @@ values
 -
 If
 {
-ref
+doc
 }
-PR_Init
+pr_init
 has
 already
 been
@@ -55,9 +55,9 @@ PR_TRUE
 -
 If
 {
-ref
+doc
 }
-PR_Init
+pr_init
 has
 not
 already

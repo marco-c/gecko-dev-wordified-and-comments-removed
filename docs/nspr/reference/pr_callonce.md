@@ -29,9 +29,9 @@ func
 #
 Parameters
 {
-ref
+doc
 }
-PR_CallOnce
+pr_callonce
 has
 these
 parameters
@@ -46,9 +46,9 @@ object
 of
 type
 {
-ref
+doc
 }
-PRCallOnceType
+prcalloncetype
 .
 Initially
 (
@@ -133,9 +133,9 @@ should
 return
 a
 {
-ref
+doc
 }
-PRStatus
+prstatus
 indicating
 the
 result

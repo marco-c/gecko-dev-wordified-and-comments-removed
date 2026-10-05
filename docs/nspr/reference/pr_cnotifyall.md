@@ -68,9 +68,9 @@ at
 the
 time
 {
-ref
+doc
 }
-PR_CNotifyAll
+pr_cnotifyall
 is
 called
 .
@@ -141,9 +141,9 @@ the
 monitor
 cache
 {
-ref
+doc
 }
-PR_CNotifyAll
+pr_cnotifyall
 notifies
 all
 threads

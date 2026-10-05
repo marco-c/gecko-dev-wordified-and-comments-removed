@@ -34,9 +34,9 @@ thread
 #
 Parameter
 {
-ref
+doc
 }
-PR_GetThreadPriority
+pr_getthreadpriority
 has
 the
 following

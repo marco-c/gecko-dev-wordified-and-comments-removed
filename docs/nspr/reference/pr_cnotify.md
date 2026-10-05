@@ -137,9 +137,9 @@ the
 monitor
 cache
 {
-ref
+doc
 }
-PR_CNotify
+pr_cnotify
 notifies
 single
 a
@@ -166,9 +166,9 @@ monitor
 having
 called
 {
-ref
+doc
 }
-PR_CWait
+pr_cwait
 )
 then
 that

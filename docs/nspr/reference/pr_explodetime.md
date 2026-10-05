@@ -54,9 +54,9 @@ time
 in
 the
 {
-ref
+doc
 }
-PRTime
+prtime
 format
 .
 params

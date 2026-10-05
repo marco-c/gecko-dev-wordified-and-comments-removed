@@ -35,9 +35,9 @@ status
 #
 Parameter
 {
-ref
+doc
 }
-PR_ProcessExit
+pr_processexit
 has
 one
 parameter

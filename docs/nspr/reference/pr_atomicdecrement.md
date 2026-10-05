@@ -73,9 +73,9 @@ result
 #
 Description
 {
-ref
+doc
 }
-PR_AtomicDecrement
+pr_atomicdecrement
 first
 decrements
 the

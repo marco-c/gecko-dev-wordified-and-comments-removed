@@ -53,9 +53,9 @@ handle
 returned
 from
 {
-ref
+doc
 }
-PR_OpenSharedMemory
+pr_opensharedmemory
 .
 addr
 :
@@ -75,7 +75,7 @@ mapped
 #
 Returns
 {
-ref
+doc
 }
-PRStatus
+prstatus
 .

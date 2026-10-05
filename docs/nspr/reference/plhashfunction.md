@@ -77,5 +77,7 @@ Also
 PL_HashString
 ]
 (
-PL_HashString
+pl_hashstring
+.
+md
 )

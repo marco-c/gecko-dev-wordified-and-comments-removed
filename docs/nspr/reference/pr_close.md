@@ -44,9 +44,9 @@ pointer
 to
 a
 {
-ref
+doc
 }
-PRFileDesc
+prfiledesc
 object
 .
 #
@@ -104,9 +104,9 @@ On
 successful
 return
 {
-ref
+doc
 }
-PR_Close
+pr_close
 frees
 the
 dynamic

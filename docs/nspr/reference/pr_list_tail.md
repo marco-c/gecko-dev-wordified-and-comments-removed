@@ -58,9 +58,9 @@ element
 #
 Description
 {
-ref
+doc
 }
-PR_LIST_TAIL
+pr_list_tail
 returns
 the
 tail

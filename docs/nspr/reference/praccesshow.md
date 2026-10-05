@@ -8,9 +8,9 @@ for
 the
 enumeration
 {
-ref
+doc
 }
-PRAccessHow
+praccesshow
 used
 in
 the
@@ -18,9 +18,9 @@ how
 parameter
 of
 {
-ref
+doc
 }
-PR_Access
+pr_access
 :
 {
 code

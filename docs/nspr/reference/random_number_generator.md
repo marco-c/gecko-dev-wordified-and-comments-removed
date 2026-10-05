@@ -30,9 +30,9 @@ Function
 >
 -
 {
-ref
+doc
 }
-PR_GetRandomNoise
+pr_getrandomnoise
 -
 Produces
 a

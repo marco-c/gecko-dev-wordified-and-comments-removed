@@ -60,9 +60,9 @@ pointer
 to
 the
 {
-ref
+doc
 }
-PRIOMethods
+priomethods
 structure
 specifying
 the
@@ -97,9 +97,9 @@ allocated
 by
 calling
 {
-ref
+doc
 }
-PR_CreateIOLayerStub
+pr_createiolayerstub
 .
 The
 file

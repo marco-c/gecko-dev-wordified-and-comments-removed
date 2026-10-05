@@ -9,9 +9,9 @@ option
 field
 of
 {
-ref
+doc
 }
-PRSocketOptionData
+prsocketoptiondata
 to
 form
 the
@@ -222,9 +222,9 @@ numerator
 Description
 The
 {
-ref
+doc
 }
-PRSockOption
+prsockoption
 enumeration
 consists
 of
@@ -241,9 +241,9 @@ option
 field
 of
 {
-ref
+doc
 }
-PRSocketOptionData
+prsocketoptiondata
 should
 be
 set
@@ -253,7 +253,7 @@ enumerator
 of
 type
 {
-ref
+doc
 }
-PRSockOption
+prsockoption
 .

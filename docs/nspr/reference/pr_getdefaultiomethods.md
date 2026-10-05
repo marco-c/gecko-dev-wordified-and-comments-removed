@@ -44,9 +44,9 @@ pointer
 to
 a
 {
-ref
+doc
 }
-PRIOMethods
+priomethods
 structure
 .
 #
@@ -55,9 +55,9 @@ Description
 After
 using
 {
-ref
+doc
 }
-PR_GetDefaultIOMethods
+pr_getdefaultiomethods
 to
 identify
 the
@@ -111,9 +111,9 @@ methods
 table
 to
 {
-ref
+doc
 }
-PR_CreateIOLayerStub
+pr_createiolayerstub
 to
 create
 your

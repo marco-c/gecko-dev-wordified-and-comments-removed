@@ -62,9 +62,9 @@ as
 returned
 by
 {
-ref
+doc
 }
-PR_GetLibraryPath
+pr_getlibrarypath
 .
 lib
 :
@@ -140,9 +140,9 @@ use
 in
 the
 {
-ref
+doc
 }
-PR_LoadLibrary
+pr_loadlibrary
 call
 .
 This
@@ -217,7 +217,7 @@ free
 it
 using
 {
-ref
+doc
 }
-PR_FreeLibraryName
+pr_freelibraryname
 .

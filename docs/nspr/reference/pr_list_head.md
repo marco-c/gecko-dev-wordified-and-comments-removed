@@ -58,9 +58,9 @@ element
 #
 Description
 {
-ref
+doc
 }
-PR_LIST_HEAD
+pr_list_head
 returns
 the
 head

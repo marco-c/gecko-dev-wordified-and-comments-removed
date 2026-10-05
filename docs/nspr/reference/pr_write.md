@@ -56,9 +56,9 @@ pointer
 to
 the
 {
-ref
+doc
 }
-PRFileDesc
+prfiledesc
 object
 for
 a
@@ -138,9 +138,9 @@ obtained
 by
 calling
 {
-ref
+doc
 }
-PR_GetError
+pr_geterror
 .
 #
 #
@@ -149,9 +149,9 @@ The
 thread
 invoking
 {
-ref
+doc
 }
-PR_Write
+pr_write
 blocks
 until
 all
@@ -188,9 +188,9 @@ Note
 that
 if
 {
-ref
+doc
 }
-PR_Write
+pr_write
 returns
 -
 1

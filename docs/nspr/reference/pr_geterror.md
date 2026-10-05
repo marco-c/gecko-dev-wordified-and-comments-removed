@@ -62,9 +62,9 @@ NSPR
 does
 use
 {
-ref
+doc
 }
-PR_SetError
+pr_seterror
 to
 set
 error

@@ -76,9 +76,9 @@ error
 ;
 see
 {
-ref
+doc
 }
-PR_ASSERT
+pr_assert
 for
 a
 runtime

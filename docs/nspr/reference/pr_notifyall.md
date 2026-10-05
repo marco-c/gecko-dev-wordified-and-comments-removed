@@ -56,9 +56,9 @@ structure
 of
 type
 {
-ref
+doc
 }
-PRMonitor
+prmonitor
 .
 The
 monitor
@@ -107,9 +107,9 @@ A
 call
 to
 {
-ref
+doc
 }
-PR_NotifyAll
+pr_notifyall
 causes
 all
 of
@@ -143,9 +143,9 @@ no
 op
 .
 {
-ref
+doc
 }
-PR_NotifyAll
+pr_notifyall
 should
 be
 used

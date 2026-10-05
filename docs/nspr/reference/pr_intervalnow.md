@@ -38,9 +38,9 @@ void
 Returns
 A
 {
-ref
+doc
 }
-PRIntervalTime
+printervaltime
 object
 .
 #

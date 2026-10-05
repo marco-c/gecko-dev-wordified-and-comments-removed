@@ -104,9 +104,9 @@ for
 initializing
 the
 {
-ref
+doc
 }
-PRCallOnceType
+prcalloncetype
 structure
 to
 all

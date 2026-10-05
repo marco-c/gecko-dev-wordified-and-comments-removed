@@ -48,9 +48,9 @@ structure
 of
 type
 {
-ref
+doc
 }
-PRMonitor
+prmonitor
 .
 #
 #
@@ -72,9 +72,9 @@ use
 before
 calling
 {
-ref
+doc
 }
-PR_DestroyMonitor
+pr_destroymonitor
 .
 There
 must

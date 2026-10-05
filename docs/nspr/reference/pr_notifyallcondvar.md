@@ -104,9 +104,9 @@ A
 call
 to
 {
-ref
+doc
 }
-PR_NotifyAllCondVar
+pr_notifyallcondvar
 causes
 all
 of

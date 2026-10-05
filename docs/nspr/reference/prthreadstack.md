@@ -52,9 +52,9 @@ it
 The
 opaque
 {
-ref
+doc
 }
-PRThreadStack
+prthreadstack
 structure
 is
 only
@@ -71,9 +71,9 @@ stack
 to
 the
 {
-ref
+doc
 }
-PR_AttachThread
+pr_attachthread
 function
 .
 The
@@ -88,9 +88,9 @@ and
 ignored
 by
 {
-ref
+doc
 }
-PR_AttachThread
+pr_attachthread
 .
 You
 should
@@ -104,9 +104,9 @@ stack
 argument
 to
 {
-ref
+doc
 }
-PR_AttachThread
+pr_attachthread
 .
 (
 definition

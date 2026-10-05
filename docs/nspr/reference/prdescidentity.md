@@ -138,9 +138,9 @@ are
 created
 by
 {
-ref
+doc
 }
-PR_GetUniqueIdentity
+pr_getuniqueidentity
 .
 A
 string
@@ -165,9 +165,9 @@ the
 runtime
 and
 {
-ref
+doc
 }
-PR_GetNameForIdentity
+pr_getnameforidentity
 returns
 a
 reference

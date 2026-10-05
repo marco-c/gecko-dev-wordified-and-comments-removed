@@ -41,9 +41,9 @@ prototype
 #
 Description
 {
-ref
+doc
 }
-PR_EXTERN
+pr_extern
 is
 used
 to

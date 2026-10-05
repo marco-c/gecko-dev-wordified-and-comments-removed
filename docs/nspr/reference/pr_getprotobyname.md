@@ -109,9 +109,9 @@ be
 at
 least
 {
-ref
+doc
 }
-PR_NETDB_BUF_SIZE
+pr_netdb_buf_size
 bytes
 .
 result
@@ -123,9 +123,9 @@ pointer
 to
 a
 {
-ref
+doc
 }
-PRProtoEnt
+prprotoent
 structure
 .
 On
@@ -178,7 +178,7 @@ failure
 by
 calling
 {
-ref
+doc
 }
-PR_GetError
+pr_geterror
 .

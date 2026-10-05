@@ -75,9 +75,9 @@ PR_FAILURE
 #
 Description
 {
-ref
+doc
 }
-PR_Delete
+pr_delete
 deletes
 a
 file
@@ -100,7 +100,7 @@ be
 retrieved
 via
 {
-ref
+doc
 }
-PR_GetError
+pr_geterror
 .

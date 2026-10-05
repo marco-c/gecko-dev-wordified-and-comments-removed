@@ -50,9 +50,9 @@ pointer
 to
 a
 {
-ref
+doc
 }
-PRFileDesc
+prfiledesc
 object
 representing
 the
@@ -93,7 +93,7 @@ obtained
 by
 calling
 {
-ref
+doc
 }
-PR_GetError
+pr_geterror
 .

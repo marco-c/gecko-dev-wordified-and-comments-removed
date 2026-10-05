@@ -109,9 +109,9 @@ a
 call
 to
 {
-ref
+doc
 }
-PR_EnumerateHostEnt
+pr_enumeratehostent
 .
 bufsize
 :
@@ -130,9 +130,9 @@ be
 at
 least
 {
-ref
+doc
 }
-PR_NETDB_BUF_SIZE
+pr_netdb_buf_size
 bytes
 .
 hostentry
@@ -195,7 +195,7 @@ failure
 by
 calling
 {
-ref
+doc
 }
-PR_GetError
+pr_geterror
 .

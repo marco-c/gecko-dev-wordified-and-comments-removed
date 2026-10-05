@@ -123,9 +123,9 @@ set
 #
 Description
 {
-ref
+doc
 }
-PR_strtod
+pr_strtod
 converts
 the
 prefix
@@ -184,9 +184,9 @@ char
 )
 NULL
 {
-ref
+doc
 }
-PR_strtod
+pr_strtod
 stores
 a
 pointer

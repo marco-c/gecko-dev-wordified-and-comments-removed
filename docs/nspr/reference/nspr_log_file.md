@@ -50,9 +50,9 @@ default
 .
 If
 {
-ref
+doc
 }
-NSPR_LOG_FILE
+nspr_log_file
 is
 not
 in
@@ -74,9 +74,9 @@ platform
 .
 Set
 {
-ref
+doc
 }
-NSPR_LOG_FILE
+nspr_log_file
 to
 the
 name
@@ -111,9 +111,9 @@ you
 can
 set
 {
-ref
+doc
 }
-NSPR_LOG_FILE
+nspr_log_file
 to
 the
 special

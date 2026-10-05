@@ -32,9 +32,9 @@ lock
 #
 Parameter
 {
-ref
+doc
 }
-PR_Lock
+pr_lock
 has
 one
 parameter
@@ -56,9 +56,9 @@ locked
 Description
 When
 {
-ref
+doc
 }
-PR_Lock
+pr_lock
 returns
 the
 calling
@@ -116,9 +116,9 @@ timeout
 mechanism
 .
 {
-ref
+doc
 }
-PR_Lock
+pr_lock
 is
 not
 reentrant
@@ -142,6 +142,6 @@ Also
 >
 -
 {
-ref
+doc
 }
-PR_Unlock
+pr_unlock

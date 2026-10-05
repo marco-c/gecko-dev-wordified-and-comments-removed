@@ -218,9 +218,9 @@ Description
 The
 union
 {
-ref
+doc
 }
-PRNetAddr
+prnetaddr
 represents
 a
 network
@@ -283,9 +283,9 @@ supports
 IPv6
 .
 {
-ref
+doc
 }
-PRNetAddr
+prnetaddr
 is
 binary
 -
@@ -351,9 +351,9 @@ sockaddr_in6
 Note
 that
 {
-ref
+doc
 }
-PRNetAddr
+prnetaddr
 does
 not
 have

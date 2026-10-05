@@ -80,9 +80,9 @@ as
 returned
 by
 {
-ref
+doc
 }
-PR_LoadLibrary
+pr_loadlibrary
 or
 NULL
 .
@@ -210,9 +210,9 @@ results
 of
 any
 {
-ref
+doc
 }
-PR_FindSymbol
+pr_findsymbol
 calls
 become
 invalid

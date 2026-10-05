@@ -37,9 +37,9 @@ numCPUs
 #
 Parameter
 {
-ref
+doc
 }
-PR_SetConcurrency
+pr_setconcurrency
 has
 one
 parameter
@@ -101,9 +101,9 @@ is
 not
 available
 {
-ref
+doc
 }
-PR_SetConcurrency
+pr_setconcurrency
 is
 ignored
 .

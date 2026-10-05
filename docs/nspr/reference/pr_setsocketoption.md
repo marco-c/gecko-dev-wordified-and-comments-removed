@@ -52,9 +52,9 @@ pointer
 to
 a
 {
-ref
+doc
 }
-PRFileDesc
+prfiledesc
 object
 representing
 the
@@ -76,9 +76,9 @@ structure
 of
 type
 {
-ref
+doc
 }
-PRSocketOptionData
+prsocketoptiondata
 specifying
 the
 options
@@ -110,9 +110,9 @@ obtained
 by
 calling
 {
-ref
+doc
 }
-PR_GetError
+pr_geterror
 .
 #
 #
@@ -132,9 +132,9 @@ fields
 of
 the
 {
-ref
+doc
 }
-PRSocketOptionData
+prsocketoptiondata
 object
 pointed
 to

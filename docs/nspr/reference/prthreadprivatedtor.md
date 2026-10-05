@@ -61,9 +61,9 @@ a
 call
 to
 {
-ref
+doc
 }
-PR_SetThreadPrivate
+pr_setthreadprivate
 the
 value
 of

@@ -61,9 +61,9 @@ pointer
 to
 a
 {
-ref
+doc
 }
-PRFileDesc
+prfiledesc
 object
 for
 an
@@ -77,9 +77,9 @@ pointer
 to
 a
 {
-ref
+doc
 }
-PRFileInfo
+prfileinfo
 object
 .
 On
@@ -133,9 +133,9 @@ PR_FAILURE
 #
 Description
 {
-ref
+doc
 }
-PR_GetOpenFileInfo
+pr_getopenfileinfo
 obtains
 the
 file
@@ -189,9 +189,9 @@ this
 function
 see
 {
-ref
+doc
 }
-PR_GetOpenFileInfo64
+pr_getopenfileinfo64
 .
 To
 get
@@ -208,7 +208,7 @@ already
 open
 use
 {
-ref
+doc
 }
-PR_GetFileInfo
+pr_getfileinfo
 .

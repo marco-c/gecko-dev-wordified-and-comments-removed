@@ -118,9 +118,9 @@ the
 specified
 key
 {
-ref
+doc
 }
-PL_HashTableLookup
+pl_hashtablelookup
 returns
 NULL
 .

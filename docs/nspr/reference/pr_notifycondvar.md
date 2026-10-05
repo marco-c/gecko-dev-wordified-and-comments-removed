@@ -39,9 +39,9 @@ cvar
 #
 Parameter
 {
-ref
+doc
 }
-PR_NotifyCondVar
+pr_notifycondvar
 has
 one
 parameter

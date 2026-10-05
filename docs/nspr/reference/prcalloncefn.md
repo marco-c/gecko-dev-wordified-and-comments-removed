@@ -56,9 +56,9 @@ to
 return
 a
 {
-ref
+doc
 }
-PRStatus
+prstatus
 indicating
 the
 outcome

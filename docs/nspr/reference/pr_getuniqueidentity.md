@@ -85,9 +85,9 @@ If
 successful
 the
 {
-ref
+doc
 }
-PRDescIdentity
+prdescidentity
 for
 the
 layer
@@ -142,9 +142,9 @@ is
 created
 .
 {
-ref
+doc
 }
-PR_GetUniqueIdentity
+pr_getuniqueidentity
 allocates
 a
 unique
@@ -165,9 +165,9 @@ subsequently
 passed
 to
 {
-ref
+doc
 }
-PR_CreateIOLayerStub
+pr_createiolayerstub
 to
 create
 a
@@ -180,9 +180,9 @@ layer
 .
 Call
 {
-ref
+doc
 }
-PR_GetUniqueIdentity
+pr_getuniqueidentity
 only
 once
 for
@@ -216,7 +216,7 @@ time
 you
 call
 {
-ref
+doc
 }
-PR_CreateIOLayerStub
+pr_createiolayerstub
 .

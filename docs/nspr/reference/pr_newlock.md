@@ -71,9 +71,9 @@ NULL
 #
 Description
 {
-ref
+doc
 }
-PR_NewLock
+pr_newlock
 creates
 a
 new

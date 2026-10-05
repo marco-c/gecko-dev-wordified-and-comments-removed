@@ -66,9 +66,9 @@ structure
 of
 type
 {
-ref
+doc
 }
-PRMonitor
+prmonitor
 .
 The
 monitor
@@ -131,9 +131,9 @@ count
 is
 zero
 {
-ref
+doc
 }
-PR_ExitMonitor
+pr_exitmonitor
 releases
 the
 monitor

@@ -64,9 +64,9 @@ time
 in
 the
 {
-ref
+doc
 }
-PRExplodedTime
+prexplodedtime
 format
 .
 params
@@ -248,9 +248,9 @@ PR_NormalizeTime
 )
 with
 {
-ref
+doc
 }
-PR_GMTParameters
+pr_gmtparameters
 .
 On
 return

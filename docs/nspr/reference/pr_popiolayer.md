@@ -49,9 +49,9 @@ pointer
 to
 a
 {
-ref
+doc
 }
-PRFileDesc
+prfiledesc
 object
 representing
 the
@@ -144,9 +144,9 @@ PR_INVALID_ARGUMENT_ERROR
 #
 Description
 {
-ref
+doc
 }
-PR_PopIOLayer
+pr_popiolayer
 pops
 the
 specified
@@ -164,9 +164,9 @@ removed
 is
 found
 {
-ref
+doc
 }
-PR_PopIOLayer
+pr_popiolayer
 returns
 a
 pointer

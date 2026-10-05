@@ -38,9 +38,9 @@ implementation
 #
 Description
 {
-ref
+doc
 }
-PR_IMPLEMENT
+pr_implement
 is
 used
 to

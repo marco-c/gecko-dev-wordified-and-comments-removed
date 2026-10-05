@@ -67,9 +67,9 @@ identity
 by
 calling
 {
-ref
+doc
 }
-PR_GetCurrentThread
+pr_getcurrentthread
 .
 :
 :

@@ -10,9 +10,9 @@ hostname
 passed
 to
 {
-ref
+doc
 }
-PR_GetAddrInfoByName
+pr_getaddrinfobyname
 .
 #
 #
@@ -64,9 +64,9 @@ successful
 call
 to
 {
-ref
+doc
 }
-PR_GetAddrInfoByName
+pr_getaddrinfobyname
 .
 #
 #
@@ -104,7 +104,7 @@ a
 call
 to
 {
-ref
+doc
 }
-PR_FreeAddrInfo
+pr_freeaddrinfo
 .

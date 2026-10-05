@@ -41,9 +41,9 @@ pointer
 to
 a
 {
-ref
+doc
 }
-PRFileDesc
+prfiledesc
 object
 representing
 a
@@ -66,7 +66,9 @@ PR_Poll
 )
 ]
 (
-PR_Poll
+pr_poll
+.
+md
 )
 .
 #

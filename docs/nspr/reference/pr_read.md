@@ -52,9 +52,9 @@ pointer
 to
 a
 {
-ref
+doc
 }
-PRFileDesc
+prfiledesc
 object
 for
 the
@@ -153,9 +153,9 @@ the
 failure
 call
 {
-ref
+doc
 }
-PR_GetError
+pr_geterror
 .
 #
 #
@@ -164,9 +164,9 @@ The
 thread
 invoking
 {
-ref
+doc
 }
-PR_Read
+pr_read
 blocks
 until
 it

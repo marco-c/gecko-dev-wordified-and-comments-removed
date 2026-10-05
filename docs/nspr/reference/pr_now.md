@@ -40,9 +40,9 @@ time
 as
 a
 {
-ref
+doc
 }
-PRTime
+prtime
 value
 .
 #

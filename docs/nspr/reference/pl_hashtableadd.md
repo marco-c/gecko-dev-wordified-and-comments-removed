@@ -186,9 +186,9 @@ the
 entry
 .
 {
-ref
+doc
 }
-PL_HashTableAdd
+pl_hashtableadd
 returns
 NULL
 if

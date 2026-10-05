@@ -57,9 +57,9 @@ lock
 #
 Parameter
 {
-ref
+doc
 }
-PR_Unlock
+pr_unlock
 has
 one
 parameter
@@ -120,5 +120,7 @@ Also
 PR_Lock
 ]
 (
-PR_Lock
+pr_lock
+.
+md
 )
