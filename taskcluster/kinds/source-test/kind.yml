@@ -162,12 +162,6 @@ yml
 -
 android
 -
-lint
-.
-yml
--
-android
--
 gradle
 -
 plugins
