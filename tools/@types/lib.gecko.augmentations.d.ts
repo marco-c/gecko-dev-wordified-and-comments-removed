@@ -174,6 +174,10 @@ linkedPanel
 :
 string
 ;
+label
+:
+string
+;
 }
 type
 MozBrowser

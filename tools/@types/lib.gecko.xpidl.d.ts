@@ -11,6 +11,15 @@ number
 :
 uuid
 ;
+equals
+(
+other
+:
+nsID
+)
+:
+boolean
+;
 }
 type
 nsJSIID

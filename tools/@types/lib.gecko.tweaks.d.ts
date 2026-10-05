@@ -87,6 +87,15 @@ true
 ;
 }
 interface
+XULMenuElement
+{
+readonly
+menupopup
+:
+XULPopupElement
+;
+}
+interface
 XULElementTagNameMap
 {
 browser
