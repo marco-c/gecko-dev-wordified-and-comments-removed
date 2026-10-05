@@ -1632,6 +1632,17 @@ mochitest
 -
 timings
 worker
+-
+type
+:
+b
+-
+linux
+-
+docker
+-
+amd
+worker
 :
 docker
 -
