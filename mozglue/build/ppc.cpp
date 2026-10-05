@@ -6,6 +6,15 @@ ppc
 h
 "
 #
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
+#
 if
 defined
 (
@@ -158,6 +167,7 @@ mozilla
 namespace
 ppc_private
 {
+MOZ_RUNINIT
 bool
 vmx_enabled
 =
@@ -171,6 +181,7 @@ get_ppc_cpu_flags
 PPC_FLAG_VMX
 )
 ;
+MOZ_RUNINIT
 bool
 vsx_enabled
 =
@@ -184,6 +195,7 @@ get_ppc_cpu_flags
 PPC_FLAG_VSX
 )
 ;
+MOZ_RUNINIT
 bool
 vsx3_enabled
 =
