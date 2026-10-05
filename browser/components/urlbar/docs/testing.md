@@ -5,8 +5,6 @@ testing
 )
 =
 #
-Address
-Bar
 Testing
 This
 documentation

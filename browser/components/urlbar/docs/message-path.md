@@ -114,12 +114,6 @@ is
 privileged
 .
 The
-New
-Tab
-search
-bar
-'
-s
 tests
 in
 {
@@ -146,8 +140,12 @@ newtab
 >
 run
 the
-address
+New
+Tab
+search
 bar
+which
+lives
 in
 a
 content
