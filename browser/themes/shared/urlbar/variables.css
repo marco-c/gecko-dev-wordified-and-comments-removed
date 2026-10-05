@@ -127,7 +127,7 @@ var
 (
 -
 -
-urlbarView
+urlbarview
 -
 padding
 )
@@ -148,8 +148,6 @@ gap
 -
 -
 urlbar
--
-min
 -
 height
 :
@@ -326,8 +324,6 @@ compact
 -
 urlbar
 -
-min
--
 height
 :
 max
@@ -358,8 +354,6 @@ enabled
 -
 urlbar
 -
-min
--
 height
 :
 max
@@ -384,8 +378,6 @@ touch
 -
 -
 urlbar
--
-min
 -
 height
 :
