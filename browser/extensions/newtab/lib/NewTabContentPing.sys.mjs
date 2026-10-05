@@ -2593,7 +2593,10 @@ automation
 *
 returns
 {
+Promise
+<
 number
+>
 }
 *
 The

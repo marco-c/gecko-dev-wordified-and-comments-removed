@@ -1444,7 +1444,10 @@ attribute
 *
 returns
 {
+Promise
+<
 void
+>
 }
 *
 /
@@ -1745,7 +1748,10 @@ supportedAdTypes
 *
 returns
 {
+Promise
+<
 object
+>
 }
 Response
 object
@@ -3123,7 +3129,10 @@ false
 *
 returns
 {
+Promise
+<
 void
+>
 }
 *
 /
@@ -3222,7 +3231,10 @@ isStartup
 *
 returns
 {
+Promise
+<
 void
+>
 }
 *
 /

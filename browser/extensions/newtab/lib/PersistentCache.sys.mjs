@@ -290,7 +290,10 @@ cache
 *
 returns
 {
+Promise
+<
 object
+>
 }
 The
 cached

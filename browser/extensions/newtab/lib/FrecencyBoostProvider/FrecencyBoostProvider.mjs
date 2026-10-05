@@ -863,7 +863,10 @@ against
 *
 returns
 {
+Promise
+<
 Array
+>
 }
 Array
 of

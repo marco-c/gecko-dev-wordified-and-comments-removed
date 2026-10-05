@@ -8958,7 +8958,10 @@ pinnedSitesCache
 *
 returns
 {
+Promise
+<
 boolean
+>
 }
 Did
 we
@@ -9544,7 +9547,10 @@ boosted
 *
 returns
 {
+Promise
+<
 Array
+>
 }
 An
 array
