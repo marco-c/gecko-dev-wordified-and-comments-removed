@@ -3107,6 +3107,13 @@ html
 ]
 [
 "
+test_selection_cross_shadow_boundary_offset_after_mutation
+.
+html
+"
+]
+[
+"
 test_setInterval_from_start
 .
 html
