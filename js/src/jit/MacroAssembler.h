@@ -14056,7 +14056,6 @@ DEFINED_ON
 (
 x86_shared
 arm64
-loong64
 )
 ;
 inline
@@ -14148,7 +14147,6 @@ DEFINED_ON
 (
 x86_shared
 arm64
-loong64
 )
 ;
 inline
@@ -14194,7 +14192,6 @@ DEFINED_ON
 (
 x86_shared
 arm64
-loong64
 )
 ;
 inline
@@ -14329,7 +14326,6 @@ dest
 DEFINED_ON
 (
 arm64
-loong64
 )
 ;
 inline
