@@ -39,17 +39,6 @@ head
 js
 "
 ]
-prefs
-=
-"
-extensions
-.
-webcompat
-.
-disable_debug_logging
-=
-true
-"
 #
 Each
 metrics
