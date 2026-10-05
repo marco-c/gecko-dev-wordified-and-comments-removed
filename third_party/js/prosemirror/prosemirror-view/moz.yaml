@@ -236,6 +236,13 @@ license
 file
 :
 LICENSE
+npm
+-
+name
+:
+prosemirror
+-
+view
 #
 Configuration
 for

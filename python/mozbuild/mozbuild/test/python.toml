@@ -532,6 +532,13 @@ py
 ]
 [
 "
+test_generate_sbom
+.
+py
+"
+]
+[
+"
 test_jarmaker
 .
 py
@@ -722,6 +729,13 @@ py
 [
 "
 test_vendor_sbom_cyclonedx
+.
+py
+"
+]
+[
+"
+test_vendor_sbom_npm
 .
 py
 "

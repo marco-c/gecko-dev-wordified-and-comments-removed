@@ -238,6 +238,15 @@ license
 file
 :
 LICENSE
+npm
+-
+name
+:
+prosemirror
+-
+schema
+-
+basic
 #
 Configuration
 for
