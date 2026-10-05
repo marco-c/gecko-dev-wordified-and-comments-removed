@@ -234,6 +234,13 @@ license
 file
 :
 LICENSE
+npm
+-
+name
+:
+prosemirror
+-
+markdown
 #
 Configuration
 for
