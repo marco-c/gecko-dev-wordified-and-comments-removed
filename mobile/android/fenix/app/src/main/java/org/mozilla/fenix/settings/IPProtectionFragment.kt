@@ -940,11 +940,7 @@ handleOnLocationClicked
 }
 isLocationSelectionEnabled
 =
-requireComponents
-.
-settings
-.
-isIPProtectionLocationsEnabled
+true
 )
 if
 (
