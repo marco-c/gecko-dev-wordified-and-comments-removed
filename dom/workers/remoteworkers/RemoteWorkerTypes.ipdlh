@@ -534,7 +534,6 @@ keepalive
 lifetime
 .
 IPCClientInfo
-?
 clientInfo
 ;
 nullable
