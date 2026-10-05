@@ -13740,7 +13740,7 @@ TEST_HNT_CARD_STACK
 "
 transitions
 :
-false
+true
 backdrop
 :
 "
