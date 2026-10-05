@@ -2097,6 +2097,11 @@ __FAIL
 "
 )
 ;
+if
+(
+profilingInfo
+)
+{
 TalosParentProfiler
 .
 finishTest
@@ -2118,6 +2123,15 @@ true
 }
 )
 ;
+}
+else
+{
+plStop
+(
+true
+)
+;
+}
 }
 else
 {
