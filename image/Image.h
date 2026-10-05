@@ -622,6 +622,8 @@ SizeOfState
 aState
 bool
 aIsUsed
+bool
+aAnonymize
 )
 ;
 ImageMemoryCounter
@@ -637,6 +639,8 @@ SizeOfState
 aState
 bool
 aIsUsed
+bool
+aAnonymize
 )
 ;
 nsCString
