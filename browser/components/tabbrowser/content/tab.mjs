@@ -4549,7 +4549,6 @@ gBrowser
 .
 resumeDelayedMediaOnMultiSelectedTabs
 (
-this
 )
 ;
 }

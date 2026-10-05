@@ -390,9 +390,6 @@ gBrowser
 .
 resumeDelayedMediaOnMultiSelectedTabs
 (
-TabContextMenu
-.
-contextTab
 )
 ;
 break
