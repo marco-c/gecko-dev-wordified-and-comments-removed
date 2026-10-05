@@ -862,7 +862,7 @@ layout_name
 :
 link
 .
-sectionLayoutName
+layout_name
 }
 :
 {

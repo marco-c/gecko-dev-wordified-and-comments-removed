@@ -4324,7 +4324,7 @@ this
 props
 .
 sectionFollowed
-sectionLayoutName
+layout_name
 :
 this
 .
