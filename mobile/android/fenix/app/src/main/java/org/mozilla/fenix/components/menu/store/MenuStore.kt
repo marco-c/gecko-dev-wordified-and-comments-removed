@@ -363,6 +363,10 @@ is
 MenuAction
 .
 OnExtensionsMenuClicked
+is
+MenuAction
+.
+WebExtensionActionClicked
 -
 >
 state

@@ -1742,6 +1742,13 @@ addonManager
 requireComponents
 .
 addonManager
+viewLifecycleScope
+=
+viewLifecycleOwner
+.
+lifecycle
+.
+coroutineScope
 applicationScope
 =
 requireComponents
