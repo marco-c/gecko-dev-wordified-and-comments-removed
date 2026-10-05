@@ -4199,7 +4199,7 @@ crashId
 mHangMonitor
 -
 >
-InitiateCPOWTimeout
+InitiateReplyTimeout
 (
 )
 ;
@@ -4272,7 +4272,7 @@ IPC_OK
 mHangMonitor
 -
 >
-InitiateCPOWTimeout
+InitiateReplyTimeout
 (
 )
 ;
@@ -5046,7 +5046,7 @@ ProcessHangMonitor
 (
 )
 :
-mCPOWTimeout
+mReplyTimeout
 (
 false
 )
@@ -5400,7 +5400,7 @@ bool
 ProcessHangMonitor
 :
 :
-ShouldTimeOutCPOWs
+ShouldTimeOutReplies
 (
 )
 {
@@ -5413,10 +5413,10 @@ NS_IsMainThread
 ;
 if
 (
-mCPOWTimeout
+mReplyTimeout
 )
 {
-mCPOWTimeout
+mReplyTimeout
 =
 false
 ;
@@ -5432,7 +5432,7 @@ void
 ProcessHangMonitor
 :
 :
-InitiateCPOWTimeout
+InitiateReplyTimeout
 (
 )
 {
@@ -5443,7 +5443,7 @@ IsOnThread
 )
 )
 ;
-mCPOWTimeout
+mReplyTimeout
 =
 true
 ;

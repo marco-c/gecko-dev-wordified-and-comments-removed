@@ -279,12 +279,12 @@ IsDebuggerStartupComplete
 )
 ;
 void
-InitiateCPOWTimeout
+InitiateReplyTimeout
 (
 )
 ;
 bool
-ShouldTimeOutCPOWs
+ShouldTimeOutReplies
 (
 )
 ;
@@ -314,7 +314,7 @@ Atomic
 <
 bool
 >
-mCPOWTimeout
+mReplyTimeout
 ;
 nsCOMPtr
 <
