@@ -453,6 +453,13 @@ py
 ]
 [
 "
+test_session_decision
+.
+py
+"
+]
+[
+"
 test_set_browser_state_window_features_mismatch
 .
 py
