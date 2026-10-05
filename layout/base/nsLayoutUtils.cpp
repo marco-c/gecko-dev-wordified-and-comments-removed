@@ -36748,8 +36748,6 @@ DrawTarget
 >
 &
 aTarget
-bool
-aOptimizeSourceSurface
 )
 {
 SurfaceFromElementResult
@@ -37253,9 +37251,6 @@ PrincipalOrNull
 if
 (
 aTarget
-&
-&
-aOptimizeSourceSurface
 )
 {
 if

@@ -38446,12 +38446,6 @@ aDesc
 ;
 texDesc
 .
-destFormat
-=
-aFormat
-;
-texDesc
-.
 structuredSrcSize
 =
 uvec2

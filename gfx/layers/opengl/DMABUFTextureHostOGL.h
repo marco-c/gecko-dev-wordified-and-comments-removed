@@ -109,7 +109,11 @@ DataSourceSurface
 aSurface
 )
 override
+{
+return
+nullptr
 ;
+}
 gl
 :
 :
