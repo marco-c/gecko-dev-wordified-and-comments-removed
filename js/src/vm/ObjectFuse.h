@@ -844,6 +844,14 @@ cx
 )
 ;
 void
+handleGlobalLexicalMutation
+(
+JSContext
+*
+cx
+)
+;
+void
 handleShadowedGlobalProperty
 (
 JSContext

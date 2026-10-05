@@ -13702,6 +13702,12 @@ rhs
 .
 nonSyntacticScope
 ;
+allowRedeclaringExistingLexicalBinding
+=
+rhs
+.
+allowRedeclaringExistingLexicalBinding
+;
 topLevelAwait
 =
 rhs

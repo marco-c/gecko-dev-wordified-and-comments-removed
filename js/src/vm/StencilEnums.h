@@ -219,10 +219,16 @@ FunctionHasNewTargetBinding
 29
 UsesArgumentsIntrinsics
 =
-1
+1u
 <
 <
 30
+AllowRedeclaringExistingLexicalBinding
+=
+1u
+<
+<
+31
 }
 ;
 enum
