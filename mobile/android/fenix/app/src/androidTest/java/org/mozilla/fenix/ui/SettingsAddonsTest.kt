@@ -894,12 +894,7 @@ goToHomescreen
 {
 }
 .
-openTopSiteTabWithTitle
-(
-"
-Wikipedia
-"
-)
+openFirstTopSiteTab
 {
 }
 .
