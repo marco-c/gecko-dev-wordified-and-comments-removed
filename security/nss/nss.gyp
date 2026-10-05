@@ -1828,6 +1828,17 @@ softoken_gtest
 '
 gtests
 /
+softoken_static_gtest
+/
+softoken_static_gtest
+.
+gyp
+:
+softoken_static_gtest
+'
+'
+gtests
+/
 ssl_gtest
 /
 ssl_gtest

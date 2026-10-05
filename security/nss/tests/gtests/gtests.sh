@@ -1166,6 +1166,7 @@ pk11_gtest
 util_gtest
 freebl_gtest
 softoken_gtest
+softoken_static_gtest
 sysinit_gtest
 smime_gtest
 mozpkix_gtest

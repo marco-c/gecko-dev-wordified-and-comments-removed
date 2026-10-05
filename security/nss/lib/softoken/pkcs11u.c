@@ -7698,6 +7698,12 @@ break
 case
 CKK_EC
 :
+case
+CKK_EC_EDWARDS
+:
+case
+CKK_EC_MONTGOMERY
+:
 crv
 =
 stfk_CopyTokenAttributes
@@ -7923,6 +7929,12 @@ break
 ;
 case
 CKK_EC
+:
+case
+CKK_EC_EDWARDS
+:
+case
+CKK_EC_MONTGOMERY
 :
 crv
 =

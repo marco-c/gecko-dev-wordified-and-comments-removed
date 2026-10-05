@@ -55,11 +55,6 @@ mp_exptmod
 max_window_bits
 race
 :
-pk11_IsLoggedIn
-.
-login_delay_time
-race
-:
 pkix_CacheCertChain_Add
 race
 :

@@ -395,6 +395,15 @@ i
 =
 0
 ;
+cmsdigcx
+&
+&
+cmsdigcx
+-
+>
+digPairs
+&
+&
 i
 <
 digcnt
