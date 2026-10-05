@@ -1680,15 +1680,6 @@ x
 )
 )
 )
-set_config
-(
-"
-MOZ_FPU
-"
-arm_target
-.
-fpu
-)
 depends
 (
 arm_target

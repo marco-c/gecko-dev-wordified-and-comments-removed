@@ -572,14 +572,6 @@ BUILD_VERBOSE_LOG
 "
             
 "
-USE_CARGO_JSON_MESSAGE_FORMAT
-"
-:
-"
-1
-"
-            
-"
 MACH_STDOUT_ISATTY
 "
 :
@@ -655,10 +647,6 @@ CargoInvocation
 (
                 
 verbose
-=
-True
-                
-json_output
 =
 True
                 
@@ -817,7 +805,6 @@ CargoInvocation
 from_environ
 (
 {
-            
 "
 BUILD_VERBOSE_LOG
 "
@@ -825,15 +812,6 @@ BUILD_VERBOSE_LOG
 "
 0
 "
-            
-"
-USE_CARGO_JSON_MESSAGE_FORMAT
-"
-:
-"
-0
-"
-        
 }
 )
         
@@ -844,15 +822,6 @@ assertFalse
 invocation
 .
 verbose
-)
-        
-self
-.
-assertFalse
-(
-invocation
-.
-json_output
 )
 ELIGIBLE
 =

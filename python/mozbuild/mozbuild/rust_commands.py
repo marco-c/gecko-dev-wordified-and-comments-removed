@@ -1257,20 +1257,6 @@ BUILD_VERBOSE_LOG
 )
 )
             
-json_output
-=
-_bool
-(
-environ
-.
-get
-(
-"
-USE_CARGO_JSON_MESSAGE_FORMAT
-"
-)
-)
-            
 color
 =
 color

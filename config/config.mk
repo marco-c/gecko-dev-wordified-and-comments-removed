@@ -641,8 +641,6 @@ mk
 )
 )
 )
-COMMA
-=
 #
 Sanity
 check
