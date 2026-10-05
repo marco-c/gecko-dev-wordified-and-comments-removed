@@ -94,26 +94,16 @@ pylru
 caches
 manually
 .
-None
-of
-the
-instances
-(
-or
-the
-underlying
-caches
-)
-are
-safe
-for
-concurrent
-use
+ArtifactCache
 .
-A
-future
-need
-perhaps
+fetch
+may
+be
+called
+concurrently
+from
+multiple
+threads
 .
 "
 "
@@ -126,6 +116,8 @@ import
 logging
 import
 os
+import
+threading
 import
 urllib
 .
@@ -140,6 +132,14 @@ mozpack
 path
 as
 mozpath
+import
+requests
+from
+mozbuild
+.
+build_markers
+import
+build_marker
 from
 mozbuild
 .
@@ -191,7 +191,7 @@ MIN_CACHED_ARTIFACTS
 12
 MAX_CACHED_ARTIFACTS_SIZE
 =
-2
+4
 *
 1024
 *
@@ -472,6 +472,16 @@ _downloaded_now
 set
 (
 )
+        
+self
+.
+_lock
+=
+threading
+.
+RLock
+(
+)
     
 def
 log
@@ -555,6 +565,27 @@ metadata_never_index
             
 return
         
+with
+self
+.
+_lock
+:
+            
+self
+.
+_register_file
+(
+path
+)
+    
+def
+_register_file
+(
+self
+path
+)
+:
+        
 if
 not
 self
@@ -634,6 +665,25 @@ False
     
 def
 remove_old_files
+(
+self
+)
+:
+        
+with
+self
+.
+_lock
+:
+            
+self
+.
+_remove_old_files
+(
+)
+    
+def
+_remove_old_files
 (
 self
 )
@@ -907,6 +957,30 @@ ArtifactPersistLimit
 log
 )
         
+session
+=
+requests
+.
+Session
+(
+)
+        
+session
+.
+hooks
+[
+"
+response
+"
+]
+.
+append
+(
+self
+.
+_track_response
+)
+        
 self
 .
 _download_manager
@@ -919,6 +993,9 @@ DownloadManager
 self
 .
 _cache_dir
+session
+=
+session
 persist_limit
 =
 self
@@ -929,10 +1006,13 @@ _persist_limit
         
 self
 .
-_last_dl_update
+_response
 =
--
-1
+threading
+.
+local
+(
+)
     
 def
 log
@@ -962,6 +1042,27 @@ args
 *
 kwargs
 )
+    
+def
+_track_response
+(
+self
+response
+*
+args
+*
+*
+kwargs
+)
+:
+        
+self
+.
+_response
+.
+current
+=
+response
     
 def
 fetch
@@ -1152,6 +1253,10 @@ remove
 path
 )
         
+dl
+=
+None
+        
 try
 :
             
@@ -1167,14 +1272,22 @@ url
 fname
 )
             
+last_dl_update
+=
+-
+1
+            
 def
 download_progress
 (
 dl
-bytes_so_far
+_decoded_bytes
 total_size
 )
 :
+                
+nonlocal
+last_dl_update
                 
 if
 not
@@ -1182,6 +1295,20 @@ total_size
 :
                     
 return
+                
+bytes_so_far
+=
+self
+.
+_response
+.
+current
+.
+raw
+.
+tell
+(
+)
                 
 percent
 =
@@ -1209,16 +1336,12 @@ if
 now
 =
 =
-self
-.
-_last_dl_update
+last_dl_update
 :
                     
 return
                 
-self
-.
-_last_dl_update
+last_dl_update
 =
 now
                 
@@ -1236,6 +1359,12 @@ artifact
 "
                     
 {
+                        
+"
+fname
+"
+:
+fname
                         
 "
 bytes_so_far
@@ -1259,6 +1388,9 @@ percent
                     
 "
 Downloading
+{
+fname
+}
 .
 .
 .
@@ -1320,6 +1452,21 @@ set_progress
 download_progress
 )
                 
+with
+build_marker
+(
+"
+ArtifactDownload
+"
+url
+log
+=
+self
+.
+log
+)
+:
+                    
 dl
 .
 wait
@@ -1408,6 +1555,37 @@ fname
 finally
 :
             
+if
+dl
+:
+                
+dl
+.
+cancel
+(
+)
+    
+def
+cancel
+(
+self
+)
+:
+        
+"
+"
+"
+Cancel
+all
+background
+downloads
+in
+progress
+.
+"
+"
+"
+        
 self
 .
 _download_manager
