@@ -362,6 +362,34 @@ bindings_inputs
 )
 )
     
+sbom_tasks
+=
+[
+]
+    
+if
+command_context
+.
+substs
+.
+get
+(
+"
+MOZ_GENERATE_SBOM
+"
+)
+:
+        
+sbom_tasks
+=
+[
+"
+geckoview
+:
+writeRuntimeDependencies
+"
+]
+    
 ret
 =
 gradle
@@ -387,6 +415,9 @@ substs
 GRADLE_ANDROID_GENERATE_SDK_BINDINGS_TASKS
 "
 ]
+        
++
+sbom_tasks
         
 +
 [
