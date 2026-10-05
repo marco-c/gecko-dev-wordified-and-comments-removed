@@ -117,6 +117,7 @@ aIsContextMenu
 )
 override
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 bool
 Close
 (
@@ -199,8 +200,19 @@ FireEvent
 EventMessage
 )
 ;
+MOZ_CAN_RUN_SCRIPT
+bool
+FinishClose
+(
+)
+;
 bool
 mPoppedUp
+=
+false
+;
+bool
+mClosePending
 =
 false
 ;
