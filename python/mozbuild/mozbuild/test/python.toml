@@ -749,6 +749,13 @@ py
 ]
 [
 "
+test_vendor_sbom_python
+.
+py
+"
+]
+[
+"
 test_vendor_tools
 .
 py
