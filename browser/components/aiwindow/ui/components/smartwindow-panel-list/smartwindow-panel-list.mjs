@@ -190,6 +190,10 @@ typedef
 id
 :
 string
+type
+?
+:
+string
 label
 :
 string
