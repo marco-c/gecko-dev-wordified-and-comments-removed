@@ -293,6 +293,15 @@ Count
 1
 }
 ;
+enum
+EdgeSelector
+{
+AllEdges
+NonGrayEdges
+GrayEdges
+BlackEdges
+}
+;
 }
 #
 define
