@@ -1478,14 +1478,11 @@ mMonitor
 )
 ;
 TimeStamp
-mLatestIntendedWakeupTime
+mIntendedWakeupTime
 ;
 #
 if
 TIMER_THREAD_STATISTICS
-TimeStamp
-mIntendedWakeupTime
-;
 static
 constexpr
 size_t
