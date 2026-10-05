@@ -98,6 +98,9 @@ MOZ_CRASHREPORTER_AUTO_SUBMIT
 1
 "
 }
+environmentAppend
+:
+true
 stderr
 :
 "
