@@ -100,7 +100,7 @@ package
 edition
 =
 "
-2024
+2021
 "
 rust
 -
@@ -127,7 +127,7 @@ version
 .
 6
 .
-3
+2
 "
 build
 =
@@ -214,11 +214,6 @@ quinn
 rs
 /
 quinn
-"
-resolver
-=
-"
-2
 "
 [
 package
