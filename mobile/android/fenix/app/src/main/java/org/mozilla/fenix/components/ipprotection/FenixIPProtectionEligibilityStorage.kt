@@ -360,7 +360,15 @@ EligibilityStatus
 .
 Ineligible
 region
-?
+=
+=
+null
+-
+>
+EligibilityStatus
+.
+Unknown
+region
 .
 home
 in
