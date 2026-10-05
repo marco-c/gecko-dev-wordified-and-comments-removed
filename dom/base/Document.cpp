@@ -100593,7 +100593,7 @@ ParseDocumentHTML
 *
 compliantString
 doc
-sanitize
+false
 sanitizeWhileParsing
 ?
 sanitizer
@@ -100777,7 +100777,7 @@ ParseDocumentHTML
 (
 aHTML
 doc
-true
+false
 sanitizeWhileParsing
 ?
 sanitizer
