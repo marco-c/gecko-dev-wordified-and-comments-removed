@@ -2888,8 +2888,6 @@ qr
 tests
 :
 -
-cppunittest
--
 crashtest
 -
 jittest
