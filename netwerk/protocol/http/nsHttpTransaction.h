@@ -1342,6 +1342,11 @@ nsresult
 aReason
 )
 ;
+void
+DisableHttp3ForRestart
+(
+)
+;
 already_AddRefed
 <
 nsHttpConnectionInfo
