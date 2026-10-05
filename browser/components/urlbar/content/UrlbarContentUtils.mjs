@@ -760,8 +760,9 @@ parse
 *
 returns
 {
-?
 string
+|
+null
 }
 *
 The
@@ -1049,8 +1050,9 @@ context
 *
 returns
 {
-?
 URIFixupPrimitives
+|
+null
 }
 *
 The
