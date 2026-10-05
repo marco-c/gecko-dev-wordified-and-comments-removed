@@ -134,9 +134,14 @@ Watcher
 #
 endif
 {
-NS_INLINE_DECL_THREADSAFE_REFCOUNTING
+NS_INLINE_DECL_THREADSAFE_REFCOUNTING_WITH_DELETE_ON_EVENT_TARGET
 (
 PlatformPipeLink
+mIOThread
+.
+GetEventTarget
+(
+)
 )
 public
 :
