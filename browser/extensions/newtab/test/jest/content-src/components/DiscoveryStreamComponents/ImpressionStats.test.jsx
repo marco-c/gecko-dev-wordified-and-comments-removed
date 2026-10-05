@@ -1023,7 +1023,7 @@ id
 pos
 :
 1
-advertiser
+advertiser_name
 :
 "
 test
@@ -1160,7 +1160,7 @@ id
 pos
 :
 1
-advertiser
+advertiser_name
 :
 "
 test
@@ -1252,7 +1252,7 @@ source
 "
 newtab
 "
-advertiser
+advertiser_name
 :
 "
 test

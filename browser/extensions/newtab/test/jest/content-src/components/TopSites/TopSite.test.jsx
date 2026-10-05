@@ -5047,7 +5047,7 @@ action
 .
 data
 .
-advertiser
+advertiser_name
 )
 .
 toBe
@@ -6202,7 +6202,7 @@ sponsoredClick
 .
 data
 .
-advertiser
+advertiser_name
 )
 .
 toBe

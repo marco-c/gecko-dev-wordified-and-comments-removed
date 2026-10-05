@@ -3165,10 +3165,10 @@ TOP_SITES_EDIT
 action_position
 :
 7
-hasTitleChanged
+has_title_changed
 :
 false
-hasURLChanged
+has_url_changed
 :
 false
 }

@@ -2086,7 +2086,7 @@ link
 shim
 .
 impression
-advertiser
+advertiser_name
 :
 title
 .
@@ -2172,7 +2172,7 @@ reporting_url
 link
 .
 sponsored_impression_url
-advertiser
+advertiser_name
 :
 title
 .
@@ -2304,7 +2304,7 @@ guid
 visible_topsites
 :
 visibleTopSites
-smartScores
+smart_scores
 :
 this
 .
@@ -2313,7 +2313,7 @@ props
 link
 .
 scores
-smartWeights
+smart_weights
 :
 this
 .
@@ -4364,7 +4364,7 @@ props
 link
 .
 id
-advertiser
+advertiser_name
 :
 title
 .
@@ -4488,7 +4488,7 @@ props
 link
 .
 sponsored_click_url
-advertiser
+advertiser_name
 :
 title
 .
@@ -4608,7 +4608,7 @@ this
 props
 .
 visibleTopSites
-smartScores
+smart_scores
 :
 this
 .
@@ -4617,7 +4617,7 @@ props
 link
 .
 scores
-smartWeights
+smart_weights
 :
 this
 .

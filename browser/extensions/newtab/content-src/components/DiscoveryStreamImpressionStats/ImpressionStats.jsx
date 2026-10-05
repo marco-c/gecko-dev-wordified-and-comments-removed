@@ -568,11 +568,11 @@ source
 "
 newtab
 "
-advertiser
+advertiser_name
 :
 card
 .
-advertiser
+advertiser_name
 /
 /
 Keep

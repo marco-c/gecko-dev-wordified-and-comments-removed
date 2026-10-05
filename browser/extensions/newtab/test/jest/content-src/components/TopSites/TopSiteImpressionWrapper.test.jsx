@@ -251,7 +251,7 @@ reporting
 .
 com
 "
-advertiser
+advertiser_name
 :
 "
 test_advertiser

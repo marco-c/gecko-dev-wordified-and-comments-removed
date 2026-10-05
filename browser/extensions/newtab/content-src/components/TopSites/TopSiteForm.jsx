@@ -716,14 +716,14 @@ TOP_SITES_EDIT
 action_position
 :
 index
-hasTitleChanged
+has_title_changed
 :
 this
 .
 state
 .
 hasTitleChanged
-hasURLChanged
+has_url_changed
 :
 this
 .
