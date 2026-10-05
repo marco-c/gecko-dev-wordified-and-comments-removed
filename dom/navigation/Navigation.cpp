@@ -10247,11 +10247,11 @@ nsIStructuredCloneContainer
 aSerializedState
 )
 {
-MOZ_DIAGNOSTIC_ASSERT
+if
 (
 mOngoingAPIMethodTracker
 )
-;
+{
 mOngoingAPIMethodTracker
 -
 >
@@ -10260,6 +10260,7 @@ SetSerializedState
 aSerializedState
 )
 ;
+}
 }
 }
 #
