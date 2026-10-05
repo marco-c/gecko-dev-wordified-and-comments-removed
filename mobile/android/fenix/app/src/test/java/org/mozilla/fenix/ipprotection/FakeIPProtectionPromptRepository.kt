@@ -79,8 +79,7 @@ IPProtectionPromptRepository
 class
 FakeIPProtectionPromptRepository
 (
-private
-val
+var
 canShowIPProtectionPrompt
 :
 Boolean
