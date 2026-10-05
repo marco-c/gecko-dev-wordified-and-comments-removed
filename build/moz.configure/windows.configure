@@ -1915,13 +1915,6 @@ HOST_LINKER_LIBPATHS
 "
 host_linker_libpaths
 )
-set_config
-(
-"
-HOST_LINKER_LIBPATHS_BAT
-"
-host_linker_libpaths_bat
-)
 depends
 (
 valid_windows_sdk_dir

@@ -786,13 +786,6 @@ path
 [
 0
 ]
-set_config
-(
-"
-PGO_PROFILE_PATH
-"
-pgo_profile_path
-)
 depends
 (
 "
@@ -1594,13 +1587,6 @@ GCC
 )
 return
 True
-set_config
-(
-"
-MOZ_PGO_RUST
-"
-moz_pgo_rust
-)
 #
 LTO
 #
