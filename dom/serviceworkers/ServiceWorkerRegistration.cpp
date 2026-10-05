@@ -1861,7 +1861,7 @@ mPushManager
 PushManager
 :
 :
-Create
+Constructor
 (
 global
 NS_ConvertUTF8toUTF16
