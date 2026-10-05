@@ -121,6 +121,14 @@ txt
 '
 build
 /
+pyyaml_requirements
+.
+txt
+'
+-
+'
+build
+/
 zstandard_requirements
 .
 txt
