@@ -828,7 +828,7 @@ port
 *
 param
 {
-obj
+object
 }
 action
 A
@@ -1016,7 +1016,7 @@ portID
 *
 return
 {
-obj
+object
 |
 null
 }
@@ -1095,7 +1095,7 @@ any
 *
 param
 {
-obj
+object
 }
 action
 A
@@ -1345,7 +1345,7 @@ check
 *
 return
 {
-bool
+boolean
 }
 True
 if
@@ -1577,7 +1577,7 @@ initialization
 *
 param
 {
-obj
+object
 }
 msg
 The
@@ -1592,7 +1592,7 @@ initialized
 *
 param
 {
-obj
+object
 }
 tabDetails
 details
@@ -1663,7 +1663,7 @@ load
 *
 param
 {
-obj
+object
 }
 msg
 The
@@ -1678,7 +1678,7 @@ loaded
 *
 param
 {
-obj
+object
 }
 tabDetails
 details
@@ -2146,7 +2146,7 @@ unload
 *
 param
 {
-obj
+object
 }
 msg
 The
@@ -2161,7 +2161,7 @@ unloaded
 *
 param
 {
-obj
+object
 }
 tabDetails
 details
@@ -2323,7 +2323,7 @@ store
 *
 param
 {
-obj
+object
 }
 msg
 A
@@ -2334,7 +2334,7 @@ content
 *
 param
 {
-obj
+object
 }
 msg
 .
@@ -2358,7 +2358,7 @@ HELLO_WORLD
 *
 param
 {
-obj
+object
 }
 msg
 .
@@ -2369,7 +2369,7 @@ target
 *
 param
 {
-obj
+object
 }
 tabDetails
 details

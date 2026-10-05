@@ -823,7 +823,7 @@ impressions
 *
 param
 {
-int
+number
 [
 ]
 }
@@ -840,7 +840,7 @@ ranked
 *
 param
 {
-int
+number
 [
 ]
 }
@@ -854,7 +854,7 @@ clicks
 *
 param
 {
-int
+number
 [
 ]
 }
@@ -868,7 +868,7 @@ impressions
 *
 param
 {
-int
+number
 [
 ]
 }
@@ -884,7 +884,7 @@ clicks
 *
 param
 {
-int
+number
 [
 ]
 }

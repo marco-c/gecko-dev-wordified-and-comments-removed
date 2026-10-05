@@ -4943,7 +4943,7 @@ optional
 *
 return
 {
-obj
+object
 }
 Session
 object
@@ -6027,7 +6027,7 @@ life
 *
 param
 {
-obj
+object
 }
 session
 a
@@ -6454,7 +6454,7 @@ nothing
 *
 param
 {
-obj
+object
 }
 session
 a
@@ -6545,7 +6545,7 @@ subtracting
 *
 param
 {
-obj
+object
 }
 session
 a
@@ -6662,7 +6662,7 @@ preloaded
 *
 param
 {
-obj
+object
 }
 action
 the
@@ -6808,7 +6808,7 @@ endSession
 *
 param
 {
-obj
+object
 }
 action
 the

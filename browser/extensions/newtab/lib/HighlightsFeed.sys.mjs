@@ -960,7 +960,7 @@ content
 *
 param
 {
-bool
+boolean
 }
 options
 .

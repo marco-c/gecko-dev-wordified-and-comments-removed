@@ -848,7 +848,7 @@ frecency
 *
 param
 {
-Integer
+number
 }
 numItems
 -

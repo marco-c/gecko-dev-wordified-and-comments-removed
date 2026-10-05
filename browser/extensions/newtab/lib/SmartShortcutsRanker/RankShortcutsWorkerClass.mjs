@@ -129,8 +129,6 @@ to
 *
 returns
 {
-normed
-:
 number
 }
 Normalized
@@ -756,7 +754,7 @@ returns
 {
 [
 number
-obj
+object
 ]
 }
 normalized

@@ -433,7 +433,7 @@ the
 pref
 *
 {
-bool
+boolean
 |
 string
 |

@@ -8871,7 +8871,7 @@ foo
 *
 returns
 {
-bool
+boolean
 }
 *
 /
@@ -13031,7 +13031,7 @@ content
 *
 param
 {
-bool
+boolean
 }
 options
 .
@@ -13045,7 +13045,7 @@ broadcasted
 *
 param
 {
-bool
+boolean
 }
 options
 .

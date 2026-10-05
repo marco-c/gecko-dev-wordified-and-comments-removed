@@ -2938,8 +2938,6 @@ place_id
 *
 returns
 {
-result
-:
 object
 }
 Dictionary

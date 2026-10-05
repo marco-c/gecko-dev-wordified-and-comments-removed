@@ -907,7 +907,11 @@ cancelled
 *
 param
 {
-func
+(
+)
+=
+>
+void
 }
 callback
 A
@@ -922,7 +926,7 @@ expires
 *
 param
 {
-int
+number
 }
 delay
 The
@@ -1267,7 +1271,7 @@ subject
 *
 param
 {
-str
+string
 }
 topic
 The
@@ -1278,7 +1282,7 @@ event
 *
 param
 {
-str
+string
 }
 value
 The
