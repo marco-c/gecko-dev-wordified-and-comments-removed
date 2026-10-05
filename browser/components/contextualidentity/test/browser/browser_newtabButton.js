@@ -1945,6 +1945,13 @@ resolved
 "
 )
 ;
+await
+SidebarController
+.
+waitUntilStable
+(
+)
+;
 const
 newTabButton
 =
