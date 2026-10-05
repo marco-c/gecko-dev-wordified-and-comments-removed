@@ -510,9 +510,6 @@ nsIReferrerInfo
 aReferrerInfo
 nsIURI
 *
-aAPIRedirectToURI
-nsIURI
-*
 topWindowUri
 const
 uint32_t
@@ -683,10 +680,6 @@ TimeStamp
 &
 aHandleFetchEventEnd
 const
-bool
-&
-aForceMainDocumentChannel
-const
 TimeStamp
 &
 aNavigationStartTimeStamp
@@ -843,9 +836,6 @@ loadFlags
 nsIReferrerInfo
 *
 aReferrerInfo
-nsIURI
-*
-apiRedirectUri
 const
 Maybe
 <
