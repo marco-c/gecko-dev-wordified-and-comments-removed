@@ -655,7 +655,7 @@ Kind
 :
 :
 Embedder
-DefaultJSTask
+PromiseReaction
 =
 JS
 :
@@ -667,6 +667,9 @@ Kind
 :
 :
 FirstJSKind
+ResolveThenable
+ResolveBuiltinThenable
+DeferredResolve
 LastQueueElementKind
 }
 ;

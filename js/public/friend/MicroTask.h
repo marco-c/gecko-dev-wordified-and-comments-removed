@@ -285,6 +285,16 @@ js
 :
 MicroTaskQueueElement
 ;
+uint8_t
+kind
+(
+)
+const
+{
+return
+kind_
+;
+}
 static
 constexpr
 uint8_t
