@@ -1206,6 +1206,7 @@ derive
 Debug
 Copy
 Clone
+PartialEq
 )
 ]
 pub
@@ -1345,6 +1346,14 @@ derive
 (
 Deserialize
 )
+)
+]
+#
+[
+derive
+(
+Clone
+PartialEq
 )
 ]
 pub
