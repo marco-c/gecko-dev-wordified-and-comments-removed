@@ -59,14 +59,10 @@ MPL
 const
 lazy
 =
-{
-}
-;
-ChromeUtils
+XPCOMUtils
 .
-defineESModuleGetters
+declareLazy
 (
-lazy
 {
 TabMetrics
 :

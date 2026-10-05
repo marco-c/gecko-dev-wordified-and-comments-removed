@@ -85,14 +85,10 @@ mjs
 const
 lazy
 =
-{
-}
-;
-ChromeUtils
+XPCOMUtils
 .
-defineESModuleGetters
+declareLazy
 (
-lazy
 {
 ContextualIdentityService
 :
