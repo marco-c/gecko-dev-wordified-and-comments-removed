@@ -143,7 +143,6 @@ std
 nullopt_t
 const
 &
-s
 )
 {
 return

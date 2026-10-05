@@ -897,15 +897,11 @@ sqlite3_T_array
 (
 sqlite3_context
 *
-aCtx
 const
 void
 *
-aData
 int
-aSize
 int
-aType
 )
 {
 return
@@ -3407,7 +3403,6 @@ Notify
 (
 nsITimer
 *
-aTimer
 )
 override
 {
@@ -6096,7 +6091,6 @@ aName
 const
 nsACString
 &
-aValue
 )
 {
 if
@@ -7708,7 +7702,6 @@ isClosed
 (
 MutexAutoLock
 &
-lock
 )
 {
 return
@@ -14681,7 +14674,6 @@ storage
 :
 SQLiteMutexAutoLock
 &
-aProofOfLock
 )
 {
 return
@@ -14703,7 +14695,6 @@ storage
 :
 SQLiteMutexAutoLock
 &
-aProofOfLock
 )
 {
 return
@@ -14727,7 +14718,6 @@ storage
 :
 SQLiteMutexAutoLock
 &
-aProofOfLock
 )
 {
 return

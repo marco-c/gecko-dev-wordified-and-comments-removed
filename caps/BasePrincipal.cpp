@@ -2001,7 +2001,6 @@ WriteJSONInnerProperties
 (
 JSONWriter
 &
-aWriter
 )
 {
 return
@@ -7882,7 +7881,6 @@ Write
 (
 nsIObjectOutputStream
 *
-aStream
 )
 {
 MOZ_RELEASE_ASSERT

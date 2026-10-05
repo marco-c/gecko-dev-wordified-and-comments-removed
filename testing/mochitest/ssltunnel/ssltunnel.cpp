@@ -1019,7 +1019,6 @@ PLHashEntry
 *
 he
 int
-index
 void
 *
 arg
@@ -5953,12 +5952,10 @@ password_func
 (
 PK11SlotInfo
 *
-slot
 PRBool
 retry
 void
 *
-arg
 )
 {
 if
@@ -8559,10 +8556,8 @@ PLHashEntry
 *
 he
 int
-i
 void
 *
-arg
 )
 {
 delete
@@ -8600,10 +8595,8 @@ PLHashEntry
 *
 he
 int
-i
 void
 *
-arg
 )
 {
 delete
@@ -8641,10 +8634,8 @@ PLHashEntry
 *
 he
 int
-i
 void
 *
-arg
 )
 {
 delete
@@ -8680,10 +8671,8 @@ PLHashEntry
 *
 he
 int
-i
 void
 *
-arg
 )
 {
 delete
@@ -8709,10 +8698,8 @@ PLHashEntry
 *
 he
 int
-i
 void
 *
-arg
 )
 {
 delete
@@ -8738,10 +8725,8 @@ PLHashEntry
 *
 he
 int
-i
 void
 *
-arg
 )
 {
 delete

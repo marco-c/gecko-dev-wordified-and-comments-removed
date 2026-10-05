@@ -655,7 +655,6 @@ SSLSecretDirection
 dir
 PK11SymKey
 *
-secret
 void
 *
 arg
@@ -1020,21 +1019,15 @@ FailingWriteCallback
 (
 PRFileDesc
 *
-fd
 PRUint16
-epoch
 SSLContentType
-contentType
 const
 PRUint8
 *
-data
 unsigned
 int
-len
 void
 *
-arg
 )
 {
 return
@@ -1053,7 +1046,6 @@ SSLSecretDirection
 dir
 PK11SymKey
 *
-secret
 void
 *
 arg
@@ -1300,7 +1292,6 @@ uint32_t
 aSrvNameArrSize
 void
 *
-aArg
 )
 {
 const
@@ -1519,7 +1510,6 @@ ConfigureServer
 (
 PRFileDesc
 *
-aFd
 )
 {
 return
