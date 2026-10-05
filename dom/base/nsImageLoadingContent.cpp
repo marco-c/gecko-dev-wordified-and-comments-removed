@@ -6795,15 +6795,13 @@ Size
 }
 CSSIntSize
 size
-;
-size
 =
 NaturalSize
 (
 DoDensityCorrection
 :
 :
-No
+Yes
 )
 ;
 const
