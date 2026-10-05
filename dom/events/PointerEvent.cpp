@@ -2488,6 +2488,13 @@ mTarget
 domEvent
 -
 >
+DuplicatePrivateData
+(
+)
+;
+domEvent
+-
+>
 mEvent
 -
 >
@@ -2497,13 +2504,6 @@ mEvent
 -
 >
 mTarget
-;
-domEvent
--
->
-DuplicatePrivateData
-(
-)
 ;
 mCoalescedEvents
 .
