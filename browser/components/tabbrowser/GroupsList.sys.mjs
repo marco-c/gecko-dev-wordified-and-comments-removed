@@ -1111,7 +1111,9 @@ setupListeners
 *
 param
 {
-TabGroupStateData
+MozTabbrowserTabGroup
+|
+SavedTabGroupStateData
 }
 group
 *
@@ -1533,9 +1535,8 @@ tabGroupName
 {
 if
 (
-group
-.
-saved
+!
+isOpen
 )
 {
 doc
