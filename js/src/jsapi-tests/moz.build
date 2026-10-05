@@ -525,6 +525,11 @@ testMemoryAssociation
 cpp
 "
 "
+testMicroTask
+.
+cpp
+"
+"
 testMutedErrors
 .
 cpp
