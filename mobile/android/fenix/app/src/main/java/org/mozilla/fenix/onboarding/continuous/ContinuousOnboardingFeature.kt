@@ -695,9 +695,6 @@ repository
 ipProtectionOnboardingConfig
 .
 promptRepository
-timeProvider
-=
-dateTimeProvider
 mainDispatcher
 =
 ipProtectionMainDispatcher

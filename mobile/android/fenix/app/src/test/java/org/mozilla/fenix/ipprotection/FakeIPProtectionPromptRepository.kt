@@ -119,9 +119,6 @@ override
 fun
 canShowIPProtectionPrompt
 (
-currentTimeMillis
-:
-Long
 )
 =
 canShowIPProtectionPrompt
