@@ -347,7 +347,7 @@ TabIntentProcessor
 tabsUseCases
 searchUseCases
 .
-newTabSearch
+newPrivateTabSearch
 isPrivate
 =
 true
