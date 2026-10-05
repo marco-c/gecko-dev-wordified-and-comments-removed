@@ -396,6 +396,12 @@ spotless
 .
 plugin
 )
+implementation
+(
+libs
+.
+tomlj
+)
 testImplementation
 (
 platform
