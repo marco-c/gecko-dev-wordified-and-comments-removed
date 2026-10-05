@@ -1050,11 +1050,6 @@ gURLBar
 .
 inputField
 {
-type
-:
-"
-mousedown
-"
 button
 :
 2
