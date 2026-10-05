@@ -8780,6 +8780,10 @@ wrCapture
 )
 ;
 }
+ResetRenderingState
+(
+)
+;
 var
 output
 ;
@@ -9851,10 +9855,6 @@ g
 currentCanvas
 =
 null
-;
-ResetRenderingState
-(
-)
 ;
 switch
 (
