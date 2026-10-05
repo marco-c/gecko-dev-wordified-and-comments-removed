@@ -4039,14 +4039,6 @@ if
 holder
 )
 {
-FlushPendingNotifications
-(
-FlushType
-:
-:
-Content
-)
-;
 RefPtr
 <
 ContentList

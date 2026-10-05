@@ -21473,17 +21473,6 @@ flushType
 doc
 -
 >
-FlushPendingNotifications
-(
-FlushType
-:
-:
-ContentAndNotify
-)
-;
-doc
--
->
 UpdateSVGUseElementShadowTrees
 (
 )

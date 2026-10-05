@@ -904,10 +904,6 @@ bool
 aLiveList
 =
 true
-bool
-aKnownParserCreated
-=
-false
 )
 ;
 ContentList
@@ -943,10 +939,6 @@ bool
 aLiveList
 =
 true
-bool
-aKnownParserCreated
-=
-false
 )
 ;
 JSObject
@@ -1516,11 +1508,6 @@ mDeep
 ;
 bool
 mFuncMayDependOnAttr
-:
-1
-;
-bool
-mFlushesNeeded
 :
 1
 ;

@@ -160,8 +160,6 @@ HTMLOptionsCollection
 HTMLSelectElement
 *
 aRoot
-bool
-aFromParser
 )
 :
 ContentList
@@ -175,7 +173,6 @@ nullptr
 kNameSpaceID_None
 false
 true
-aFromParser
 )
 {
 }

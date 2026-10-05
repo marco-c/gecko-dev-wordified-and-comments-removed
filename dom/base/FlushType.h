@@ -38,8 +38,6 @@ uint8_t
 {
 None
 Event
-Content
-ContentAndNotify
 Style
 Frames
 EnsurePresShellInitAndFrames
@@ -71,12 +69,6 @@ kFlushTypeNames
 "
 "
 Event
-"
-"
-Content
-"
-"
-ContentAndNotify
 "
 "
 Style
