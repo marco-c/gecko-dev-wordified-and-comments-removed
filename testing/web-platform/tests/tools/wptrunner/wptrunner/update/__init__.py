@@ -5,8 +5,13 @@ mozlog
 .
 structured
 import
-structuredlog
 commandline
+from
+mozlog
+.
+structuredlog
+import
+get_default_logger
 from
 .
 .
@@ -260,8 +265,6 @@ stdout
 )
     
 assert
-structuredlog
-.
 get_default_logger
 (
 )

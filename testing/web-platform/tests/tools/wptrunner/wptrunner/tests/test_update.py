@@ -1005,6 +1005,7 @@ m
 def
 test_update_0
 (
+logger
 )
 :
     
@@ -1186,6 +1187,7 @@ is_empty
 def
 test_update_1
 (
+logger
 )
 :
     
@@ -1367,6 +1369,7 @@ FAIL
 def
 test_update_known_intermittent_1
 (
+logger
 )
 :
     
@@ -1715,6 +1718,7 @@ FAIL
 def
 test_update_known_intermittent_2
 (
+logger
 )
 :
     
@@ -1900,6 +1904,7 @@ FAIL
 def
 test_update_existing_known_intermittent
 (
+logger
 )
 :
     
@@ -2284,6 +2289,7 @@ FAIL
 def
 test_update_remove_previous_intermittent
 (
+logger
 )
 :
     
@@ -2673,6 +2679,7 @@ ERROR
 def
 test_update_new_test_with_intermittent
 (
+logger
 )
 :
     
@@ -3280,6 +3287,7 @@ FAIL
 def
 test_update_no_reorder_expected
 (
+logger
 )
 :
     
@@ -3612,6 +3620,7 @@ updated
 def
 test_update_and_preserve_unchanged_expected_intermittent
 (
+logger
 )
 :
     
@@ -3974,6 +3983,7 @@ PASS
 def
 test_update_intermittent
 (
+logger
 )
 :
     
@@ -4441,6 +4451,7 @@ ERROR
 def
 test_update_test_with_intermittent_to_one_expected_status
 (
+logger
 )
 :
     
@@ -4636,6 +4647,7 @@ ERROR
 def
 test_update_intermittent_with_conditions
 (
+logger
 )
 :
     
@@ -4930,6 +4942,7 @@ FAIL
 def
 test_update_and_remove_intermittent_with_conditions
 (
+logger
 )
 :
     
@@ -5224,6 +5237,7 @@ TIMEOUT
 def
 test_update_intermittent_full
 (
+logger
 )
 :
     
@@ -5574,6 +5588,7 @@ FAIL
 def
 test_update_intermittent_full_remove
 (
+logger
 )
 :
     
@@ -6041,6 +6056,7 @@ FAIL
 def
 test_full_update
 (
+logger
 )
 :
     
@@ -6388,6 +6404,7 @@ FAIL
 def
 test_full_orphan
 (
+logger
 )
 :
     
@@ -6627,6 +6644,7 @@ children
 def
 test_update_no_reorder_expected_full_conditions
 (
+logger
 )
 :
     
@@ -7089,6 +7107,7 @@ updated
 def
 test_skip_0
 (
+logger
 )
 :
     
@@ -7227,6 +7246,7 @@ updated
 def
 test_new_subtest
 (
+logger
 )
 :
     
@@ -7470,6 +7490,7 @@ FAIL
 def
 test_update_subtest
 (
+logger
 )
 :
     
@@ -7719,6 +7740,7 @@ FAIL
 def
 test_update_multiple_0
 (
+logger
 )
 :
     
@@ -8109,6 +8131,7 @@ TIMEOUT
 def
 test_update_multiple_1
 (
+logger
 )
 :
     
@@ -8516,6 +8539,7 @@ FAIL
 def
 test_update_multiple_2
 (
+logger
 )
 :
     
@@ -8893,6 +8917,7 @@ TIMEOUT
 def
 test_update_multiple_3
 (
+logger
 )
 :
     
@@ -9287,6 +9312,7 @@ TIMEOUT
 def
 test_update_ignore_existing
 (
+logger
 )
 :
     
@@ -9681,6 +9707,7 @@ NOTRUN
 def
 test_update_new_test
 (
+logger
 )
 :
     
@@ -9881,6 +9908,7 @@ FAIL
 def
 test_update_duplicate
 (
+logger
 )
 :
     
@@ -10055,6 +10083,7 @@ ERROR
 def
 test_update_disable_intermittent
 (
+logger
 )
 :
     
@@ -10236,6 +10265,7 @@ message
 def
 test_update_stability_conditional_instability
 (
+logger
 )
 :
     
@@ -10581,6 +10611,7 @@ FAIL
 def
 test_update_full
 (
+logger
 )
 :
     
@@ -11015,6 +11046,7 @@ ERROR
 def
 test_update_full_unknown
 (
+logger
 )
 :
     
@@ -11394,6 +11426,7 @@ ERROR
 def
 test_update_full_unknown_missing
 (
+logger
 )
 :
     
@@ -11560,6 +11593,7 @@ updated
 def
 test_update_default
 (
+logger
 )
 :
     
@@ -11827,6 +11861,7 @@ modified
 def
 test_update_default_1
 (
+logger
 )
 :
     
@@ -12072,6 +12107,7 @@ FAIL
 def
 test_update_default_2
 (
+logger
 )
 :
     
@@ -12317,6 +12353,7 @@ TIMEOUT
 def
 test_update_assertion_count_0
 (
+logger
 )
 :
     
@@ -12513,6 +12550,7 @@ asserts
 def
 test_update_assertion_count_1
 (
+logger
 )
 :
     
@@ -12706,6 +12744,7 @@ False
 def
 test_update_assertion_count_2
 (
+logger
 )
 :
     
@@ -12841,6 +12880,7 @@ updated
 def
 test_update_assertion_count_3
 (
+logger
 )
 :
     
@@ -13134,6 +13174,7 @@ asserts
 def
 test_update_assertion_count_4
 (
+logger
 )
 :
     
@@ -13412,6 +13453,7 @@ False
 def
 test_update_lsan_0
 (
+logger
 )
 :
     
@@ -13565,6 +13607,7 @@ foo
 def
 test_update_lsan_1
 (
+logger
 )
 :
     
@@ -13783,6 +13826,7 @@ foo
 def
 test_update_lsan_2
 (
+logger
 )
 :
     
@@ -14027,6 +14071,7 @@ baz
 def
 test_update_lsan_3
 (
+logger
 )
 :
     
@@ -14266,6 +14311,7 @@ foo
 def
 test_update_wptreport_0
 (
+logger
 )
 :
     
@@ -14420,6 +14466,7 @@ is_empty
 def
 test_update_wptreport_1
 (
+logger
 )
 :
     
@@ -14562,6 +14609,7 @@ baz
 def
 test_update_leak_total_0
 (
+logger
 )
 :
     
@@ -14711,6 +14759,7 @@ default
 def
 test_update_leak_total_1
 (
+logger
 )
 :
     
@@ -14822,6 +14871,7 @@ updated
 def
 test_update_leak_total_2
 (
+logger
 )
 :
     
@@ -14942,6 +14992,7 @@ updated
 def
 test_update_leak_total_3
 (
+logger
 )
 :
     
@@ -15100,6 +15151,7 @@ default
 def
 test_update_leak_total_4
 (
+logger
 )
 :
     
@@ -15366,19 +15418,9 @@ TestStep
 def
 test_update_pickle
 (
+logger
 )
 :
-    
-logger
-=
-structuredlog
-.
-StructuredLogger
-(
-"
-expected_test
-"
-)
     
 wpt_root
 =
@@ -15506,6 +15548,7 @@ run
 def
 test_update_serialize_quoted
 (
+logger
 )
 :
     
@@ -15953,6 +15996,7 @@ ERROR
 def
 test_update_serialize_unquoted
 (
+logger
 )
 :
     

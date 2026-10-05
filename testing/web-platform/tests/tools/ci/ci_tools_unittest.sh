@@ -50,9 +50,6 @@ then
 pip
 install
 -
--
-user
--
 U
 tox
 cd
