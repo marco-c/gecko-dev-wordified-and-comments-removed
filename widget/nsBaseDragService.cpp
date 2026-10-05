@@ -3390,6 +3390,15 @@ MOZ_ASSERT
 mNeverAllowSessionIsSynthesizedForTests
 )
 ;
+NS_ENSURE_TRUE
+(
+mSuppressLevel
+=
+=
+0
+NS_ERROR_NOT_AVAILABLE
+)
+;
 RefPtr
 <
 nsIDragSession

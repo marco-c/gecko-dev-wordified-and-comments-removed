@@ -57,6 +57,13 @@ js
 ]
 [
 "
+browser_EventUtils_drag_suppressed
+.
+js
+"
+]
+[
+"
 browser_SpecialPowersForProcessSpawn
 .
 js

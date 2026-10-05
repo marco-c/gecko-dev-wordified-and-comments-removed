@@ -1052,6 +1052,15 @@ LINK
 )
 .
 *
+*
+throws
+NS_ERROR_NOT_AVAILABLE
+if
+dragging
+is
+suppressed
+.
+*
 /
 void
 startDragSessionForTests
