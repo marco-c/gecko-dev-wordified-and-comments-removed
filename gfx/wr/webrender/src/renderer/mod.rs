@@ -3774,6 +3774,9 @@ CompositorConfig
 current_compositor_kind
 :
 CompositorKind
+limit_sdr_yuv_external_composites
+:
+bool
 allocated_native_surfaces
 :
 FastHashSet

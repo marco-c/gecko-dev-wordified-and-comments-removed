@@ -579,6 +579,10 @@ enable_yuv_overlay_stability
 :
 bool
 pub
+limit_sdr_yuv_external_composites
+:
+bool
+pub
 max_recorded_profiles
 :
 usize
@@ -914,6 +918,9 @@ enable_dithering
 :
 false
 enable_yuv_overlay_stability
+:
+false
+limit_sdr_yuv_external_composites
 :
 false
 debug_flags
@@ -3305,6 +3312,11 @@ compositor_config
 current_compositor_kind
 :
 compositor_kind
+limit_sdr_yuv_external_composites
+:
+options
+.
+limit_sdr_yuv_external_composites
 allocated_native_surfaces
 :
 FastHashSet

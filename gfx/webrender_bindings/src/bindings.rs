@@ -10195,6 +10195,9 @@ bool
 use_layer_compositor
 :
 bool
+limit_sdr_yuv_external_composites
+:
+bool
 )
 -
 >
@@ -11172,6 +11175,7 @@ low_quality_pinch_zoom
 max_shared_surface_size
 enable_dithering
 enable_yuv_overlay_stability
+limit_sdr_yuv_external_composites
 enable_shared_instance_buffer
 .
 .
