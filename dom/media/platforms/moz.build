@@ -737,6 +737,16 @@ libyuv
 include
 "
 ]
+TEST_DIRS
++
+=
+[
+"
+android
+/
+gtest
+"
+]
 FINAL_LIBRARY
 =
 "
