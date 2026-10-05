@@ -5736,9 +5736,6 @@ needsShimHelpers
 embedClicked
 "
 "
-smartblockEmbedReplaced
-"
-"
 smartblockGetFluentString
 "
 "
@@ -5875,9 +5872,6 @@ needsShimHelpers
 embedClicked
 "
 "
-smartblockEmbedReplaced
-"
-"
 smartblockGetFluentString
 "
 "
@@ -5986,9 +5980,6 @@ needsShimHelpers
 [
 "
 embedClicked
-"
-"
-smartblockEmbedReplaced
 "
 "
 smartblockGetFluentString
@@ -6644,9 +6635,6 @@ needsShimHelpers
 [
 "
 embedClicked
-"
-"
-smartblockEmbedReplaced
 "
 "
 smartblockGetFluentString

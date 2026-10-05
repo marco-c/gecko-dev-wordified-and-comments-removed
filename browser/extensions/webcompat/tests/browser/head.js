@@ -3338,9 +3338,6 @@ needsShimHelpers
 embedClicked
 "
 "
-smartblockEmbedReplaced
-"
-"
 smartblockGetFluentString
 "
 "
