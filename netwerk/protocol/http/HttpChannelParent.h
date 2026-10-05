@@ -680,6 +680,10 @@ TimeStamp
 &
 aHandleFetchEventEnd
 const
+bool
+&
+aForceMainDocumentChannel
+const
 TimeStamp
 &
 aNavigationStartTimeStamp
