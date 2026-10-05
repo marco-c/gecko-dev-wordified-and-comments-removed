@@ -964,7 +964,7 @@ tr
 td
 >
 <
-h1
+h2
 >
 <
 a
@@ -995,7 +995,7 @@ title
 }
 <
 /
-h1
+h2
 >
 <
 /
@@ -1232,7 +1232,7 @@ table
 hr
 >
 <
-h1
+h2
 >
 <
 a
@@ -1253,7 +1253,7 @@ Required
 Notices
 <
 /
-h1
+h2
 >
 <
 ul
@@ -1384,7 +1384,7 @@ ul
 hr
 >
 <
-h1
+h2
 >
 <
 a
@@ -1404,7 +1404,7 @@ Optional
 Notices
 <
 /
-h1
+h2
 >
 <
 p
@@ -1679,7 +1679,7 @@ WINNT
 hr
 >
 <
-h1
+h2
 >
 <
 a
@@ -1701,7 +1701,7 @@ System
 Components
 <
 /
-h1
+h2
 >
 <
 p
@@ -1793,7 +1793,7 @@ inclusions
 p
 >
 <
-h2
+h3
 >
 <
 a
@@ -1819,7 +1819,7 @@ Code
 '
 <
 /
-h2
+h3
 >
 <
 p
