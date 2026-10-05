@@ -778,6 +778,8 @@ std
 string
 &
 dest
+size_t
+maxlen
 )
 {
 if
@@ -798,6 +800,7 @@ transcode
 (
 in_word
 dest
+maxlen
 )
 !
 =
@@ -848,6 +851,16 @@ i
 i
 <
 wordlen
+&
+&
+dest
+.
+size
+(
+)
+<
+=
+maxlen
 ;
 +
 +
