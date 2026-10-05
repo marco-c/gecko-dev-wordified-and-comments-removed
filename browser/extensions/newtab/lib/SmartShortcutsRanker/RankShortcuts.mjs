@@ -1776,13 +1776,7 @@ param
 {
 string
 }
-[
-placesTable
-=
-'
-moz_places
-'
-]
+placeTable
 Table
 name
 for
@@ -5447,7 +5441,7 @@ param
 {
 object
 }
-cahce_data
+cache_data
 shortcut
 cache
 *

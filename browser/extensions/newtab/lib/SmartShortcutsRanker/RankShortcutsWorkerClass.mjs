@@ -740,7 +740,7 @@ param
 {
 object
 }
-normobj
+input_normobj
 Dictionary
 of
 storing

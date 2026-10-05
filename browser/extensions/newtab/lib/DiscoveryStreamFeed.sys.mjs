@@ -5105,6 +5105,14 @@ param
 {
 object
 }
+options
+*
+param
+{
+object
+}
+options
+.
 cachedData
 data
 returned
@@ -5119,6 +5127,8 @@ param
 {
 string
 }
+options
+.
 key
 a
 cache
@@ -5129,6 +5139,8 @@ param
 string
 ?
 }
+options
+.
 url
 for
 "
@@ -5146,6 +5158,9 @@ param
 {
 boolean
 }
+options
+.
+isStartup
 is
 this
 check
