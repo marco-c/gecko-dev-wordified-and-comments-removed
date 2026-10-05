@@ -7777,6 +7777,10 @@ paths
 "
 subcomponent
 "
+        
+"
+acknowledgement
+"
     
 )
     
@@ -7814,6 +7818,10 @@ paths
 subcomponent
 =
 False
+        
+acknowledgement
+=
+None
     
 )
 :
@@ -7992,6 +8000,12 @@ self
 subcomponent
 =
 subcomponent
+        
+self
+.
+acknowledgement
+=
+acknowledgement
     
 def
 asdict
