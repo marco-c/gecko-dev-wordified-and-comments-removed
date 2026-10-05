@@ -735,6 +735,13 @@ py
 ]
 [
 "
+test_vendor_sbom_gradle
+.
+py
+"
+]
+[
+"
 test_vendor_sbom_npm
 .
 py
