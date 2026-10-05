@@ -360,7 +360,7 @@ aProtectionMs
 ;
 static
 bool
-IsReadableDirectory
+IsPotentiallyReadableDirectory
 (
 nsIFile
 &

@@ -4240,7 +4240,7 @@ defaultPath
 |
 |
 !
-IsReadableDirectory
+IsPotentiallyReadableDirectory
 (
 *
 defaultPath
