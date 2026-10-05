@@ -24983,7 +24983,6 @@ htmlForms
 IndexOf
 (
 formElement
-false
 )
 ;
 if
@@ -25137,7 +25136,6 @@ htmlFormControls
 IndexOf
 (
 aContent
-true
 )
 ;
 if

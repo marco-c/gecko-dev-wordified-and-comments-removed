@@ -236,7 +236,6 @@ blocker
 ;
 BringSelfUpToDate
 (
-true
 )
 ;
 int32_t
