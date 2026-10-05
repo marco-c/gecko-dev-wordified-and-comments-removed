@@ -31983,6 +31983,15 @@ SeekCompleted
 (
 )
 {
+RefPtr
+<
+HTMLMediaElement
+>
+kungFuDeathGrip
+(
+this
+)
+;
 mPlayingBeforeSeek
 =
 false
