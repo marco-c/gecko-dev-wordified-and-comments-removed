@@ -1761,6 +1761,9 @@ mozillaProductDetector
 powerManagerInfoProvider
 =
 powerManagerInfoProvider
+isAutomotiveDevice
+=
+true
 )
 /
 /
@@ -2317,6 +2320,17 @@ assertEquals
 Metrics
 .
 deviceTotalRam
+.
+testGetValue
+(
+)
+)
+assertEquals
+(
+true
+Metrics
+.
+isAndroidAutomotive
 .
 testGetValue
 (
