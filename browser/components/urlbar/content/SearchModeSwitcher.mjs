@@ -195,9 +195,9 @@ mjs
 "
 ;
 import
-*
-as
+{
 UrlbarContentUtils
+}
 from
 "
 chrome

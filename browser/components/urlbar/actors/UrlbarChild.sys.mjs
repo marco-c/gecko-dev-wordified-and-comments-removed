@@ -57,9 +57,9 @@ MPL
 *
 /
 import
-*
-as
+{
 UrlbarContentUtils
+}
 from
 "
 chrome

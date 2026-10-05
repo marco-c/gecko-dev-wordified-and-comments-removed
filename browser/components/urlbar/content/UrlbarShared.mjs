@@ -117,9 +117,9 @@ module
 *
 /
 import
-*
-as
+{
 UrlbarContentUtils
+}
 from
 "
 chrome
