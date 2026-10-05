@@ -2896,6 +2896,13 @@ tests
 ]
 [
 "
+test_webgl_vendor_family_fpp
+.
+html
+"
+]
+[
+"
 test_webgl_vendor_randomize_fpp
 .
 html
