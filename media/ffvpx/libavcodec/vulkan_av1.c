@@ -546,9 +546,6 @@ vkpic
 view
 .
 ref
-[
-0
-]
 }
 ;
 *
@@ -1030,7 +1027,7 @@ vk_av1_create_params
 AVCodecContext
 *
 avctx
-AVBufferRef
+VkVideoSessionParametersKHR
 *
 *
 buf
@@ -1961,9 +1958,6 @@ vp
 view
 .
 out
-[
-0
-]
 }
 }
 ;
