@@ -148,17 +148,6 @@ build
 zstandard_requirements
 .
 txt
--
-r
-{
-GECKO_PATH
-}
-/
-build
-/
-pyyaml_requirements
-.
-txt
 #
 extra
 symlinks
