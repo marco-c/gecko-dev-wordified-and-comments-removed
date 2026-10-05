@@ -3328,7 +3328,7 @@ stocks
 -
 widget
 -
-title
+title2
 "
 /
 >
@@ -3540,7 +3540,7 @@ stocks
 -
 widget
 -
-title
+title2
 "
 /
 >
@@ -3938,7 +3938,7 @@ widget
 -
 menu
 -
-button
+button2
 "
 /
 >

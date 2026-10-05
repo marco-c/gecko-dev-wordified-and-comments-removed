@@ -2422,7 +2422,7 @@ widget
 -
 stocks
 -
-toggle
+toggle2
 "
 /
 >

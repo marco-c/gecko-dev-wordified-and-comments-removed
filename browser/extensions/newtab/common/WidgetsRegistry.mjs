@@ -3278,7 +3278,7 @@ prefs
 -
 stocks
 -
-header
+header2
 "
 customizeL10nId
 :
@@ -3291,7 +3291,7 @@ widget
 -
 stocks
 -
-toggle
+toggle2
 "
 customizeEventSource
 :
