@@ -25,12 +25,9 @@ check
 out
 the
 {
-ref
+doc
 }
-XPCOM
-Hashtable
-Technical
-Details
+hashtables_detailed
 document
 .
 :

@@ -149,9 +149,12 @@ g
 .
 using
 {
-ref
+doc
 }
+/
 mach
+/
+index
 )
 but
 *
@@ -165,11 +168,9 @@ Xcode
 .
 See
 {
-ref
+doc
 }
-Debugging
-on
-macOS
+debugging_on_macos
 for
 information
 on

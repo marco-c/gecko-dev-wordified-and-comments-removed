@@ -13,7 +13,6 @@ sorted
 true
 object
 directory
-:
 A
 directory
 holding
@@ -70,7 +69,6 @@ firefox
 *
 .
 mozconfig
-:
 A
 shell
 script
@@ -82,7 +80,6 @@ build
 system
 .
 configure
-:
 A
 generated
 shell
@@ -116,7 +113,6 @@ system
 config
 .
 status
-:
 An
 executable
 file
@@ -156,7 +152,6 @@ Makefiles
 .
 install
 manifest
-:
 A
 file
 containing
@@ -209,7 +204,6 @@ manifests
 .
 clobber
 build
-:
 A
 build
 performed
@@ -229,7 +223,6 @@ performed
 .
 incremental
 build
-:
 A
 build
 performed
@@ -268,7 +261,6 @@ previous
 builds
 .
 mozinfo
-:
 An
 API
 for
@@ -289,7 +281,7 @@ configuration
 .
 See
 {
-ref
+doc
 }
 mozinfo
 .

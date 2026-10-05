@@ -498,7 +498,7 @@ you
 need
 to
 {
-ref
+doc
 }
 get
 yourself
@@ -509,11 +509,10 @@ Mozilla
 -
 central
 <
-Firefox
-Contributors
-'
-Quick
-Reference
+/
+contributing
+/
+contribution_quickref
 >
 .
 #

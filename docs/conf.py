@@ -214,14 +214,6 @@ sphinx
 .
 ext
 .
-autosectionlabel
-"
-    
-"
-sphinx
-.
-ext
-.
 doctest
 "
     
@@ -783,9 +775,6 @@ github_version
 main
 "
 }
-autosectionlabel_maxdepth
-=
-1
 def
 install_sphinx_design
 (

@@ -896,6 +896,10 @@ Debugger
 ]
 (
 debugger
+/
+index
+.
+md
 )
 {
 image
@@ -1224,6 +1228,10 @@ panel
 ]
 (
 application
+/
+index
+.
+md
 )
 {
 image

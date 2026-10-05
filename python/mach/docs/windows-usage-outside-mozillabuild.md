@@ -22,12 +22,12 @@ ve
 followed
 the
 {
-ref
+doc
 }
-Building
-Firefox
-On
-Windows
+/
+setup
+/
+windows_build
 guide
 .
 :

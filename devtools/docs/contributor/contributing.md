@@ -267,13 +267,15 @@ patch
 .
 *
 {
-ref
+doc
 }
 Request
 a
 review
 <
-Getting
+/
+contributing
+/
 reviews
 >
 for

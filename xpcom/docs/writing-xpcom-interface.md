@@ -67,9 +67,9 @@ starts
 with
 an
 {
-ref
+doc
 }
-XPIDL
+xpidl
 file
 to
 define
@@ -518,9 +518,9 @@ start
 create
 an
 {
-ref
+doc
 }
-XPIDL
+xpidl
 file
 :
 bash
@@ -846,9 +846,9 @@ syntax
 see
 the
 {
-ref
+doc
 }
-XPIDL
+xpidl
 docs
 .
 Once

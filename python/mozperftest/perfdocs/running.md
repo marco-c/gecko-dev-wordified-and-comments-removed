@@ -171,11 +171,13 @@ should
 check
 out
 {
-ref
+doc
 }
-Mach
-Try
-Perf
+mach
+-
+try
+-
+perf
 .
 :
 :

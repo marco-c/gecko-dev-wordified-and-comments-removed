@@ -9,8 +9,6 @@ macOS
 See
 also
 {
-ref
+doc
 }
-Debugging
-On
-macOS
+debugging_on_macos

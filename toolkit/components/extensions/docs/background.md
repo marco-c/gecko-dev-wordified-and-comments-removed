@@ -78,9 +78,12 @@ are
 accessed
 using
 {
-ref
+doc
 }
-XPCOM
+/
+xpcom
+/
+index
 or
 {
 doc

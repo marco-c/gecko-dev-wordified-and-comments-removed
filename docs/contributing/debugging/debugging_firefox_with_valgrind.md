@@ -920,14 +920,11 @@ the
 options
 described
 {
-ref
+doc
 }
 above
 <
-Debugging
-Firefox
-With
-Valgrind
+debugging_firefox_with_valgrind
 >
 .
 You

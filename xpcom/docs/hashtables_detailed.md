@@ -56,11 +56,9 @@ consider
 reading
 the
 {
-ref
+doc
 }
-XPCOM
-Hashtable
-Guide
+hashtables
 instead
 .
 :
@@ -222,6 +220,8 @@ the
 hashtable
 .
 (
+xpcom
+-
 plhashtable
 )
 =

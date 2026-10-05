@@ -53,7 +53,7 @@ in
 a
 single
 {
-ref
+doc
 }
 generated
 file
@@ -198,7 +198,7 @@ changed
 /
 removed
 {
-ref
+doc
 }
 the
 metrics

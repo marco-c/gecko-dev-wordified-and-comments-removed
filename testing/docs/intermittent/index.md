@@ -2690,9 +2690,14 @@ timestamp
 got
 through
 {
-ref
+doc
 }
-PR_Now
+/
+nspr
+/
+reference
+/
+pr_now
 with
 one
 got

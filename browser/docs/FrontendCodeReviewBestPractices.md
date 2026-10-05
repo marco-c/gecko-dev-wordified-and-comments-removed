@@ -3178,10 +3178,6 @@ separately
 #
 #
 Accessibility
-{
-#
-accessibility
-}
 *
 Write
 semantic

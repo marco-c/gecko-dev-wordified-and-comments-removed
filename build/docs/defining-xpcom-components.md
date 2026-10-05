@@ -33,9 +33,12 @@ idl
 format
 see
 {
-ref
+doc
 }
-XPIDL
+/
+xpcom
+/
+xpidl
 .
 For
 a
