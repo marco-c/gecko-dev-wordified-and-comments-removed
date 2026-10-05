@@ -8,6 +8,7 @@ profiler
 analysis
 description
 :
+|
 Analyze
 Firefox
 performance
