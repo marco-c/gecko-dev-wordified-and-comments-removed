@@ -484,6 +484,16 @@ gCrashAfterTicks
 0
 )
 ;
+Atomic
+<
+bool
+Relaxed
+>
+gCrashRequestedByTest
+(
+false
+)
+;
 void
 MaybeSaveShutdownHangProfile
 (
@@ -495,6 +505,9 @@ if
 profiler_is_active
 (
 )
+|
+|
+gCrashRequestedByTest
 )
 {
 return
@@ -1973,6 +1986,10 @@ uint32_t
 aTicks
 )
 {
+gCrashRequestedByTest
+=
+true
+;
 gCrashAfterTicks
 =
 aTicks
