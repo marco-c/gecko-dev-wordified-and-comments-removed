@@ -552,6 +552,11 @@ textAlign
 TextAlign
 .
 Start
+overflow
+=
+TextOverflow
+.
+Ellipsis
 maxLines
 =
 2
@@ -595,7 +600,9 @@ TextOverflow
 Ellipsis
 maxLines
 =
-1
+summary
+.
+maxLines
 color
 =
 summary
