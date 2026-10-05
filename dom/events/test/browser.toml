@@ -318,6 +318,13 @@ html
 ]
 [
 "
+browser_dragsession_end_without_dragend
+.
+js
+"
+]
+[
+"
 browser_dragimage
 .
 js

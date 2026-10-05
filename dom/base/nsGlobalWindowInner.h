@@ -2050,6 +2050,12 @@ IsCallerChrome
 (
 )
 ;
+static
+void
+MouseButtonReleased
+(
+)
+;
 friend
 class
 WindowStateHolder
