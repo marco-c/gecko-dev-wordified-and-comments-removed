@@ -1000,6 +1000,16 @@ td
 <
 td
 >
+<
+div
+class
+=
+"
+license
+-
+meta
+"
+>
 %
 if
 license
@@ -1124,6 +1134,10 @@ p
 >
 %
 endif
+<
+/
+div
+>
 <
 /
 td
