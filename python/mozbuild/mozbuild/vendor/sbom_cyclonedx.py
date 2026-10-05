@@ -79,16 +79,9 @@ model
 .
 component
 import
-(
-    
 Component
-    
 ComponentEvidence
-    
-ComponentScope
-    
 ComponentType
-)
 from
 cyclonedx
 .
@@ -97,15 +90,6 @@ model
 component_evidence
 import
 Occurrence
-from
-cyclonedx
-.
-model
-.
-lifecycle
-import
-LifecyclePhase
-PredefinedLifecycle
 from
 cyclonedx
 .
@@ -145,14 +129,6 @@ firefox
 /
 firefox
 /
-"
-BUILD_TOOLING_SERIAL_SUFFIX
-=
-"
-#
-build
--
-tooling
 "
 COMPONENT_TYPES
 =
@@ -524,9 +500,6 @@ factory
 unrecognized
 =
 None
-scope
-=
-None
 )
 :
     
@@ -628,10 +601,6 @@ hashes
 )
         
 ]
-        
-scope
-=
-scope
     
 )
     
@@ -931,10 +900,6 @@ None
 unrecognized
 =
 None
-    
-build_tooling
-=
-False
 )
 :
     
@@ -1127,20 +1092,6 @@ of
 siblings
 .
     
-build_tooling
-makes
-it
-the
-build
-tooling
-document
-:
-see
-licensing
-.
-md
-.
-    
 "
 "
 "
@@ -1298,41 +1249,6 @@ unrecognized
 )
 )
     
-lifecycles
-=
-None
-    
-if
-build_tooling
-:
-        
-lifecycles
-=
-[
-            
-PredefinedLifecycle
-(
-LifecyclePhase
-.
-PRE_BUILD
-)
-            
-PredefinedLifecycle
-(
-LifecyclePhase
-.
-BUILD
-)
-            
-PredefinedLifecycle
-(
-LifecyclePhase
-.
-POST_BUILD
-)
-        
-]
-    
 metadata
 =
 BomMetaData
@@ -1343,9 +1259,6 @@ root
 timestamp
 =
 timestamp
-lifecycles
-=
-lifecycles
 )
     
 metadata
@@ -1397,25 +1310,13 @@ uuid5
 uuid
 .
 NAMESPACE_URL
-        
 SERIAL_NAMESPACE_URL
-        
 +
 (
 source_revision
 or
 "
 unknown
-"
-)
-        
-+
-(
-BUILD_TOOLING_SERIAL_SUFFIX
-if
-build_tooling
-else
-"
 "
 )
     
@@ -1448,23 +1349,9 @@ component
 =
 _make_component
 (
-            
 record
-            
 factory
-            
 unrecognized
-            
-scope
-=
-ComponentScope
-.
-EXCLUDED
-if
-build_tooling
-else
-None
-        
 )
         
 components
@@ -1500,27 +1387,18 @@ depended_on
 {
         
 ref
-        
 for
-source
 targets
 in
 dependencies
 .
-items
+values
 (
 )
-        
-if
-source
-in
-components
-        
 for
 ref
 in
 targets
-        
 if
 ref
 in

@@ -234,13 +234,6 @@ license
 file
 :
 LICENSE
-npm
--
-name
-:
-prosemirror
--
-state
 #
 Configuration
 for
