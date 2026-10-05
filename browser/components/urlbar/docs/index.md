@@ -168,6 +168,9 @@ lifetime
 process
 -
 boundary
+message
+-
+path
 utilities
 telemetry
 firefox
