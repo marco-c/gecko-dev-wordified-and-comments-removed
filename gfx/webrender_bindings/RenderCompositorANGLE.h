@@ -606,12 +606,6 @@ override
 protected
 :
 bool
-UseCompositor
-(
-)
-const
-;
-bool
 RecreateNonNativeCompositorSwapChain
 (
 )
