@@ -12623,6 +12623,25 @@ e10s
 False
 )
         
+self
+.
+mozInfo
+[
+"
+isolated_process
+"
+]
+=
+options
+.
+get
+(
+"
+isolated_process
+"
+False
+)
+        
 mozinfo
 .
 update
