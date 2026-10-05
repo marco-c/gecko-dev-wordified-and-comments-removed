@@ -708,6 +708,13 @@ p
 >
 <
 ul
+class
+=
+"
+license
+-
+index
+"
 >
 %
 for
@@ -755,9 +762,6 @@ endfor
 <
 /
 ul
->
-<
-br
 >
 <
 ul
