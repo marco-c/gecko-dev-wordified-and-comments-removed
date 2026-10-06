@@ -227,3 +227,10 @@ browser_search_history
 js
 "
 ]
+[
+"
+browser_search_tabs
+.
+js
+"
+]
