@@ -8333,7 +8333,7 @@ Files
 "
 tests
 /
-webgl
+webgpu
 /
 *
 *
