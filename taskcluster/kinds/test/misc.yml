@@ -316,6 +316,9 @@ default
 tier
 :
 default
+chunks
+:
+4
 mozharness
 :
 script
