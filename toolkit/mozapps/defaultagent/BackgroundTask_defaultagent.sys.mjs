@@ -1818,7 +1818,7 @@ secondsSinceAppRan
 =
 defaultAgent
 .
-SecondsSinceLastAppRun
+secondsSinceLastAppRun
 (
 )
 ;
