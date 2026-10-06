@@ -248,7 +248,7 @@ toctree
 }
 ProvidersManager
 UrlbarChildController
-UrlbarInput
+UrlbarInputBase
 UrlbarMuxer
 UrlbarParentController
 UrlbarProvider
