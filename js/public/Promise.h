@@ -669,11 +669,6 @@ JS
 :
 HandleValue
 resolutionValue
-bool
-*
-deferred
-=
-nullptr
 )
 ;
 extern
