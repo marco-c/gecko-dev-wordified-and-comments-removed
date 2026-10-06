@@ -779,6 +779,13 @@ html
 ]
 [
 "
+test_panel_list_shadow_node_anchor
+.
+html
+"
+]
+[
+"
 test_panel_list_contextmenu
 .
 html
