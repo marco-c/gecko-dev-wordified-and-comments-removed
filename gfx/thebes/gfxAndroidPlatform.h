@@ -226,6 +226,12 @@ InitAcceleration
 )
 override
 ;
+void
+InitPlatformHardwareVideoConfig
+(
+)
+override
+;
 bool
 AccelerateLayersByDefault
 (

@@ -250,6 +250,17 @@ MediaCodecsSupport
 uint64_t
 >
 ;
+enum
+class
+DrmSchemeSupport
+:
+uint8_t
+{
+Unknown
+Unsupported
+Supported
+}
+;
 inline
 constexpr
 MediaCodecsSupported
