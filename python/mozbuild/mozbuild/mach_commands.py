@@ -8894,24 +8894,62 @@ extension
 return
 1
         
+rc
+=
 command_context
 .
-_run_make
+_mach_context
+.
+commands
+.
+dispatch
 (
             
-target
+"
+build
+"
+            
+command_context
+.
+_mach_context
+            
+what
 =
+[
 "
 buildid
 .
 h
 "
+]
             
-ensure_exit_code
+directory
+=
+"
+.
+"
+            
+priority
+=
+"
+normal
+"
+            
+no_completion_messages
 =
 True
         
 )
+        
+if
+rc
+!
+=
+0
+:
+            
+return
+rc
         
 with
 open
