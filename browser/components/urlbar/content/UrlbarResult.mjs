@@ -614,7 +614,15 @@ richSuggestionIconVariation
 *
 param
 {
+{
+id
+:
 string
+args
+?
+:
+L10nArgs
+}
 }
 [
 params
