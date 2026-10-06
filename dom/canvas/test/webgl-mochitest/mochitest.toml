@@ -347,6 +347,17 @@ ensure
 -
 exts
 /
+test_EXT_texture_norm16
+.
+html
+"
+]
+[
+"
+ensure
+-
+exts
+/
 test_OES_draw_buffers_indexed
 .
 html
