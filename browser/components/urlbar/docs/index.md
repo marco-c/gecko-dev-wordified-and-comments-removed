@@ -246,7 +246,11 @@ Reference
 {
 toctree
 }
+ProvidersManager
 UrlbarChildController
 UrlbarInput
+UrlbarMuxer
 UrlbarParentController
+UrlbarProvider
+UrlbarQueryContext
 UrlbarView
