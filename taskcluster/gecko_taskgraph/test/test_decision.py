@@ -525,16 +525,52 @@ ARTIFACTS_DIR
 "
 artifacts
 "
-patch
+def
+_hg_metadata
 (
-"
-gecko_taskgraph
-.
-decision
-.
-get_hg_revision_info
-"
+desc
 )
+:
+    
+return
+{
+        
+"
+desc
+"
+:
+desc
+        
+"
+branch
+"
+:
+"
+default
+"
+        
+"
+extras
+"
+:
+{
+"
+branch
+"
+:
+"
+default
+"
+"
+git_commit
+"
+:
+"
+bcde
+"
+}
+    
+}
 patch
 (
 "
@@ -542,7 +578,7 @@ gecko_taskgraph
 .
 decision
 .
-get_hg_revision_branch
+get_hg_revision_metadata
 "
 )
 patch
@@ -885,9 +921,7 @@ mock_get_changed_files
     
 mock_get_repository
     
-mock_get_hg_revision_branch
-    
-mock_get_hg_revision_info
+mock_get_hg_revision_metadata
     
 options
     
@@ -901,21 +935,21 @@ expected
 )
 :
     
-mock_get_hg_revision_info
+mock_get_hg_revision_metadata
 .
 return_value
 =
+_hg_metadata
+(
+        
+commit_msg
+or
 "
-bcde
+commit
+message
 "
     
-mock_get_hg_revision_branch
-.
-return_value
-=
-"
-default
-"
+)
     
 mock_repo
 =
@@ -929,19 +963,6 @@ default_branch
 =
 "
 baseref
-"
-    
-mock_repo
-.
-get_commit_message
-.
-return_value
-=
-commit_msg
-or
-"
-commit
-message
 "
     
 mock_get_repository
@@ -1045,29 +1066,23 @@ match
 def
 _note_mock_repo
 (
-    
 mock_get_repository
-mock_get_hg_revision_info
-mock_get_hg_revision_branch
+mock_get_hg_revision_metadata
 note
 )
 :
     
-mock_get_hg_revision_info
+mock_get_hg_revision_metadata
 .
 return_value
 =
+_hg_metadata
+(
 "
-bcde
+commit
+message
 "
-    
-mock_get_hg_revision_branch
-.
-return_value
-=
-"
-default
-"
+)
     
 mock_repo
 =
@@ -1081,17 +1096,6 @@ default_branch
 =
 "
 baseref
-"
-    
-mock_repo
-.
-get_commit_message
-.
-return_value
-=
-"
-commit
-message
 "
     
 mock_repo
@@ -1117,17 +1121,7 @@ gecko_taskgraph
 .
 decision
 .
-get_hg_revision_info
-"
-)
-patch
-(
-"
-gecko_taskgraph
-.
-decision
-.
-get_hg_revision_branch
+get_hg_revision_metadata
 "
 )
 patch
@@ -1158,9 +1152,7 @@ mock_get_changed_files
     
 mock_get_repository
     
-mock_get_hg_revision_branch
-    
-mock_get_hg_revision_info
+mock_get_hg_revision_metadata
     
 options
 )
@@ -1180,9 +1172,7 @@ _note_mock_repo
         
 mock_get_repository
         
-mock_get_hg_revision_info
-        
-mock_get_hg_revision_branch
+mock_get_hg_revision_metadata
         
 note
 =
@@ -1277,17 +1267,7 @@ gecko_taskgraph
 .
 decision
 .
-get_hg_revision_info
-"
-)
-patch
-(
-"
-gecko_taskgraph
-.
-decision
-.
-get_hg_revision_branch
+get_hg_revision_metadata
 "
 )
 patch
@@ -1318,9 +1298,7 @@ mock_get_changed_files
     
 mock_get_repository
     
-mock_get_hg_revision_branch
-    
-mock_get_hg_revision_info
+mock_get_hg_revision_metadata
     
 options
 )
@@ -1340,9 +1318,7 @@ _note_mock_repo
         
 mock_get_repository
         
-mock_get_hg_revision_info
-        
-mock_get_hg_revision_branch
+mock_get_hg_revision_metadata
         
 note
 =
@@ -1420,17 +1396,7 @@ gecko_taskgraph
 .
 decision
 .
-get_hg_revision_info
-"
-)
-patch
-(
-"
-gecko_taskgraph
-.
-decision
-.
-get_hg_revision_branch
+get_hg_revision_metadata
 "
 )
 patch
@@ -1461,9 +1427,7 @@ mock_get_changed_files
     
 mock_get_repository
     
-mock_get_hg_revision_branch
-    
-mock_get_hg_revision_info
+mock_get_hg_revision_metadata
     
 options
 )
@@ -1481,9 +1445,7 @@ _note_mock_repo
         
 mock_get_repository
         
-mock_get_hg_revision_info
-        
-mock_get_hg_revision_branch
+mock_get_hg_revision_metadata
         
 note
 =
