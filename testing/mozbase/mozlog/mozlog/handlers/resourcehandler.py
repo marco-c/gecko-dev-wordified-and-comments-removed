@@ -549,6 +549,23 @@ data
 )
     
 def
+ubsan_error
+(
+self
+data
+)
+:
+        
+self
+.
+resources
+.
+ubsan_error
+(
+data
+)
+    
+def
 mozleak_object
 (
 self
