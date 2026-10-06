@@ -52,6 +52,9 @@ WebrtcContentParents
 bool
 mShutdown
 ;
+bool
+mHistoryRequestPending
+;
 nsTHashSet
 <
 nsString
