@@ -261,6 +261,9 @@ scaling_factor_den
 kAomAV1MaxSpatialLayers
 ]
 ;
+int
+bit_depth
+;
 }
 AomAV1RateControlRtcConfig
 ;

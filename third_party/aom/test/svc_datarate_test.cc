@@ -9598,7 +9598,7 @@ bitrate_array
 =
 {
 50
-70
+60
 }
 ;
 cfg_

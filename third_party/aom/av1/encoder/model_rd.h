@@ -703,11 +703,11 @@ plane_bsize
 0
 block_width
 block_height
+true
 &
 bw
 &
 bh
-true
 )
 ;
 int64_t
@@ -1825,11 +1825,11 @@ plane_bsize
 0
 block_width
 block_height
+true
 &
 bw
 &
 bh
-true
 )
 ;
 sse

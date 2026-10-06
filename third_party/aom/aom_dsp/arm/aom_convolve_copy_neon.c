@@ -315,7 +315,7 @@ w
 {
 do
 {
-memmove
+memcpy
 (
 dst
 src
@@ -338,7 +338,7 @@ dst
 =
 dst_stride
 ;
-memmove
+memcpy
 (
 dst
 src

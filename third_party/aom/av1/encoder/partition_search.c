@@ -4652,19 +4652,6 @@ tune_cfg
 tuning
 =
 =
-AOM_TUNE_VMAF_WITHOUT_PREPROCESSING
-|
-|
-cpi
--
->
-oxcf
-.
-tune_cfg
-.
-tuning
-=
-=
 AOM_TUNE_VMAF_MAX_GAIN
 |
 |
@@ -37458,7 +37445,6 @@ none_rd
 (
 void
 )
-*
 tp_orig
 ;
 #
@@ -41012,8 +40998,10 @@ bsize
 >
 1
 ;
+const
 TokenExtra
 *
+const
 tp_orig
 =
 *
@@ -41123,7 +41111,6 @@ BLOCK_64X64
 (
 void
 )
-*
 tp_orig
 ;
 av1_invalid_rd_stats

@@ -455,6 +455,10 @@ target_bandwidth
 max_bitrate
 )
 ;
+#
+if
+!
+CONFIG_REALTIME_ONLY
 TWO_PASS
 *
 const
@@ -517,6 +521,8 @@ target_bandwidth
 0
 )
 ;
+#
+endif
 rc_cfg
 -
 >
