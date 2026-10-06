@@ -35,13 +35,6 @@ mjs
 "
 content
 /
-UrlbarInputBase
-.
-mjs
-"
-"
-content
-/
 UrlbarView
 .
 mjs

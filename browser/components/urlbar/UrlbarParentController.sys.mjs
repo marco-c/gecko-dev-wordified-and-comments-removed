@@ -256,6 +256,7 @@ mjs
 import
 {
 UrlbarLoadRequest
+LoadURLParams
 }
 from
 "
@@ -6864,7 +6865,7 @@ openTrustedLinkIn
 *
 param
 {
-object
+LoadURLParams
 }
 loadData
 .
@@ -8264,7 +8265,7 @@ openTrustedLinkIn
 *
 param
 {
-object
+LoadURLParams
 }
 loadData
 .
