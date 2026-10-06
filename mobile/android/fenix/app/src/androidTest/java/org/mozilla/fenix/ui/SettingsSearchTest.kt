@@ -3967,6 +3967,7 @@ composeTestRule
 )
 verifySearchShortcutChecked
 (
+composeTestRule
 EngineShortcut
 (
 name
@@ -3974,9 +3975,6 @@ name
 "
 Bing
 "
-checkboxIndex
-=
-1
 isChecked
 =
 true
@@ -3988,9 +3986,6 @@ name
 "
 DuckDuckGo
 "
-checkboxIndex
-=
-4
 isChecked
 =
 true
@@ -4005,9 +4000,6 @@ Wikipedia
 en
 )
 "
-checkboxIndex
-=
-7
 isChecked
 =
 true
@@ -4019,9 +4011,6 @@ name
 "
 Reddit
 "
-checkboxIndex
-=
-10
 isChecked
 =
 false
@@ -4033,9 +4022,6 @@ name
 "
 YouTube
 "
-checkboxIndex
-=
-13
 isChecked
 =
 false
@@ -4131,6 +4117,7 @@ openManageShortcutsMenu
 )
 selectSearchShortcut
 (
+composeTestRule
 EngineShortcut
 (
 name
@@ -4138,13 +4125,11 @@ name
 "
 Reddit
 "
-checkboxIndex
-=
-10
 )
 )
 selectSearchShortcut
 (
+composeTestRule
 EngineShortcut
 (
 name
@@ -4152,9 +4137,6 @@ name
 "
 YouTube
 "
-checkboxIndex
-=
-13
 )
 )
 exitMenu
