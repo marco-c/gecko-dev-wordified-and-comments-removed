@@ -18705,13 +18705,8 @@ MIRType
 Int64
 )
 ;
-setMovable
-(
-)
-;
 if
 (
-!
 def
 -
 >
@@ -18733,6 +18728,13 @@ Int64
 }
 )
 )
+{
+setMovable
+(
+)
+;
+}
+else
 {
 setGuard
 (
