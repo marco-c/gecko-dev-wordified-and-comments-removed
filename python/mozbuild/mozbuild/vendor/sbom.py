@@ -2833,16 +2833,13 @@ notice
 spdx
 "
 ]
-]
-if
+or
 notice
 [
 "
-spdx
+title
 "
 ]
-else
-[
 ]
             
 "
