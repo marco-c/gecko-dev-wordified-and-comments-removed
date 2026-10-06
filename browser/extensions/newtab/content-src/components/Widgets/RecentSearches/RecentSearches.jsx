@@ -1268,6 +1268,11 @@ label
 className
 =
 "
+newtab
+-
+widget
+-
+title
 recent
 -
 searches

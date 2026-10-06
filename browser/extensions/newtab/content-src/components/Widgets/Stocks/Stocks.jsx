@@ -3308,6 +3308,11 @@ label
 className
 =
 "
+newtab
+-
+widget
+-
+title
 stocks
 -
 heading
@@ -3497,6 +3502,11 @@ label
 className
 =
 {
+newtab
+-
+widget
+-
+title
 stocks
 -
 heading

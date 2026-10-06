@@ -2807,6 +2807,11 @@ p
 className
 =
 "
+newtab
+-
+widget
+-
+title
 picture
 -
 of

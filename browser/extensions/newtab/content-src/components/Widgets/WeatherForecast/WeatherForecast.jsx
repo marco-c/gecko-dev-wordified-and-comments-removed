@@ -2659,6 +2659,15 @@ outerClassName
 (
 <
 h2
+className
+=
+"
+newtab
+-
+widget
+-
+title
+"
 >
 {
 weatherData

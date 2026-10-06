@@ -2444,6 +2444,11 @@ className
 "
 newtab
 -
+widget
+-
+title
+newtab
+-
 crossword
 -
 title

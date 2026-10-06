@@ -599,6 +599,11 @@ span
 className
 =
 "
+newtab
+-
+widget
+-
+title
 lists
 -
 title
@@ -845,6 +850,11 @@ span
 className
 =
 "
+newtab
+-
+widget
+-
+title
 lists
 -
 title

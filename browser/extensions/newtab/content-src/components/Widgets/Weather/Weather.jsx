@@ -2403,6 +2403,15 @@ searchActive
 (
 <
 h3
+className
+=
+"
+newtab
+-
+widget
+-
+title
+"
 >
 {
 weatherData
