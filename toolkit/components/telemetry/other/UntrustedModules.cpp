@@ -1580,6 +1580,15 @@ data
 .
 mTrustTestFailures
 )
+.
+rejectedFiles
+=
+Some
+(
+data
+.
+mRejectedFiles
+)
 }
 ;
 nsCString

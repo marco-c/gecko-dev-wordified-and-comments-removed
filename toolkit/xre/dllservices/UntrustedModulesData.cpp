@@ -2126,5 +2126,16 @@ mTrustTestFailures
 =
 tmpTrustTestFailures
 ;
+std
+:
+:
+swap
+(
+mRejectedFiles
+aOther
+.
+mRejectedFiles
+)
+;
 }
 }
