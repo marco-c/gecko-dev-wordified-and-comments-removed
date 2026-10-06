@@ -1250,7 +1250,9 @@ opened
 *
 param
 {
-Event
+KeyboardEvent
+|
+MouseEvent
 }
 event
 *

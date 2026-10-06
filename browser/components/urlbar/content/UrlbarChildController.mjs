@@ -5397,7 +5397,9 @@ here
 *
 param
 {
-Event
+KeyboardEvent
+|
+MouseEvent
 }
 event
 *
@@ -5438,7 +5440,7 @@ whereToOpen
 event
 )
 {
-const
+let
 isKeyboardEvent
 =
 UrlbarShared
