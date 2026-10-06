@@ -11150,10 +11150,6 @@ boolean
 osEnvironment
 :
 {
-desktopEntryExists
-:
-GleanString
-;
 invokedToHandle
 :
 Record
