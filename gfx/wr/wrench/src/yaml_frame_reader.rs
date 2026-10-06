@@ -11209,6 +11209,15 @@ CHECKERBOARD_BACKGROUND
 )
 (
 "
+antialiased
+"
+PrimitiveFlags
+:
+:
+ANTIALISED
+)
+(
+"
 rasterized
 -
 for

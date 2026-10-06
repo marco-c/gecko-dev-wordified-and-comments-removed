@@ -512,3 +512,13 @@ thickness
 ref
 .
 yaml
+=
+=
+antialiased
+.
+yaml
+antialiased
+-
+ref
+.
+png
