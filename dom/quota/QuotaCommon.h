@@ -6561,6 +6561,12 @@ aRv
 =
 =
 NS_ERROR_STORAGE_IOERR
+|
+|
+aRv
+=
+=
+NS_ERROR_MALFORMED_URI
 ;
 }
 enum
