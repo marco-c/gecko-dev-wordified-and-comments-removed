@@ -6060,6 +6060,11 @@ import
 .
 svg
 "
+subcategory
+:
+"
+importBrowserData
+"
 items
 :
 [
