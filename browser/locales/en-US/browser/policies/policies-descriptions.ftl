@@ -831,7 +831,7 @@ created
 .
 policy
 -
-DisablePasswordReveal
+DisablePasswordReveal2
 =
 Do
 not
@@ -843,6 +843,9 @@ revealed
 in
 saved
 logins
+or
+password
+fields
 .
 policy
 -

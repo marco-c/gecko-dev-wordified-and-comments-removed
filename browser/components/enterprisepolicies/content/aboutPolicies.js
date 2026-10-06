@@ -2451,6 +2451,11 @@ DisableMasterPasswordCreation
 "
 DisablePrimaryPasswordCreation
 "
+DisablePasswordReveal
+:
+"
+DisablePasswordReveal2
+"
 DisableSetDesktopBackground
 :
 "
