@@ -11609,7 +11609,7 @@ Yes
 )
 ;
 }
-void
+bool
 ScrollContainerFrame
 :
 :
@@ -11680,6 +11680,12 @@ halfRange
 1
 )
 ;
+AutoWeakFrame
+weakFrame
+(
+this
+)
+;
 ScrollToWithOrigin
 (
 pt
@@ -11703,6 +11709,13 @@ move
 aLastSnapTargetIds
 )
 }
+)
+;
+return
+weakFrame
+.
+IsAlive
+(
 )
 ;
 }

@@ -1288,7 +1288,12 @@ ScrollMode
 Instant
 )
 ;
-void
+[
+[
+nodiscard
+]
+]
+bool
 ScrollToCSSPixelsForApz
 (
 const
