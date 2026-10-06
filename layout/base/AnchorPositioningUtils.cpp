@@ -5837,13 +5837,6 @@ GetPosition
 delta
 )
 ;
-aPositioned
--
->
-UpdateOverflow
-(
-)
-;
 aOct
 .
 AddFrame
