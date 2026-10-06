@@ -74,6 +74,15 @@ Widget
 Gtk
 "
 )
+SCHEDULES
+.
+exclusive
+=
+[
+"
+linux
+"
+]
 with
 Files
 (
@@ -731,6 +740,11 @@ h
 "
 "
 nsWaylandDisplay
+.
+h
+"
+"
+SHMBufSurface
 .
 h
 "
