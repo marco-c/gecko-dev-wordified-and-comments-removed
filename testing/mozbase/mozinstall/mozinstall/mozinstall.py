@@ -423,6 +423,9 @@ install
 (
 src
 dest
+verify
+=
+True
 )
 :
     
@@ -493,6 +496,42 @@ exist
 yet
 )
     
+:
+param
+verify
+:
+Whether
+to
+verify
+the
+checksum
+of
+a
+dmg
+file
+when
+attaching
+it
+.
+                   
+Only
+affects
+dmg
+files
+on
+macOS
+;
+other
+formats
+verify
+                   
+integrity
+as
+part
+of
+extraction
+.
+    
 "
 "
 "
@@ -538,6 +577,9 @@ _install_url
 (
 src
 dest
+verify
+=
+verify
 )
             
 except
@@ -690,6 +732,9 @@ _install_dmg
 (
 src
 dest
+verify
+=
+verify
 )
         
 elif
@@ -1531,6 +1576,9 @@ _install_url
 (
 url
 dest
+verify
+=
+True
 )
 :
     
@@ -1591,6 +1639,42 @@ not
 exist
 yet
 )
+    
+:
+param
+verify
+:
+Whether
+to
+verify
+the
+checksum
+of
+a
+dmg
+file
+when
+attaching
+it
+.
+                   
+Only
+affects
+dmg
+files
+on
+macOS
+;
+other
+formats
+verify
+                   
+integrity
+as
+part
+of
+extraction
+.
     
 "
 "
@@ -1664,6 +1748,9 @@ install
 (
 name
 dest
+verify
+=
+verify
 )
     
 finally
@@ -1683,6 +1770,9 @@ _install_dmg
 (
 src
 dest_app
+verify
+=
+True
 )
 :
     
@@ -1724,6 +1814,21 @@ path
 to
 extract
 to
+    
+verify
+-
+-
+whether
+to
+verify
+the
+checksum
+of
+the
+image
+when
+attaching
+it
     
 "
 "
@@ -2006,6 +2111,18 @@ src
 else
 :
             
+verify_flag
+=
+"
+"
+if
+verify
+else
+"
+-
+noverify
+"
+            
 app_dir
 =
 (
@@ -2026,6 +2143,9 @@ noautoopen
 nobrowse
 -
 readonly
+{
+verify_flag
+}
 "
 {
 src
@@ -3040,6 +3160,51 @@ default
     
 )
     
+parser
+.
+add_option
+(
+        
+"
+-
+-
+no
+-
+verify
+"
+        
+dest
+=
+"
+verify
+"
+        
+action
+=
+"
+store_false
+"
+        
+default
+=
+True
+        
+help
+=
+"
+Skip
+checksum
+verification
+when
+attaching
+a
+dmg
+file
+.
+"
+    
+)
+    
 (
 options
 args
@@ -3120,6 +3285,11 @@ src
 options
 .
 dest
+verify
+=
+options
+.
+verify
 )
         
 binary
