@@ -416,6 +416,16 @@ inner
 compact
 )
 ;
+-
+-
+toolbarbutton
+-
+padding
+-
+outer
+:
+3px
+;
 }
 /
 *
