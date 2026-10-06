@@ -821,6 +821,7 @@ networkEventActor
 .
 addMemoryCacheData
 (
+channel
 memoryCacheKey
 )
 ;

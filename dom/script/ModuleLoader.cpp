@@ -199,6 +199,15 @@ include
 "
 mozilla
 /
+Maybe
+.
+h
+"
+#
+include
+"
+mozilla
+/
 StaticPrefs_dom
 .
 h
@@ -768,6 +777,9 @@ GetScriptLoader
 EmulateNetworkEvents
 (
 aRequest
+Nothing
+(
+)
 )
 ;
 SetModuleFetchStarted
@@ -873,6 +885,9 @@ StartLoadInternal
 (
 aRequest
 securityFlags
+Nothing
+(
+)
 )
 ;
 NS_ENSURE_SUCCESS
