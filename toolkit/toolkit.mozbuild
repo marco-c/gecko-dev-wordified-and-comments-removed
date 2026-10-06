@@ -177,12 +177,6 @@ DIRS
 /
 tools
 "
-"
-/
-xpcom
-/
-xpidl
-"
 ]
 if
 CONFIG

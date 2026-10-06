@@ -618,6 +618,10 @@ xpidl
 generated_files
 )
 endif
+export
+:
+:
+xpidl
 #
 See
 bug
