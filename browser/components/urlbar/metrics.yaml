@@ -830,6 +830,7 @@ are
 :
 action
 addon
+addons_shortcut_moved
 ai_chat
 ai_search_fallback
 autofill_about
@@ -3598,6 +3599,7 @@ are
 :
 action
 addon
+addons_shortcut_moved
 ai_chat
 ai_search_fallback
 autofill_about
@@ -4150,6 +4152,7 @@ are
 :
 action
 addon
+addons_shortcut_moved
 ai_chat
 ai_search_fallback
 autofill_about

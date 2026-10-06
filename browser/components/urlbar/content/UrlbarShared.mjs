@@ -8918,6 +8918,16 @@ fxsuggest_data_sharing_opt_in
 ;
 case
 "
+UrlbarProviderAddonsShortcutMoved
+"
+:
+return
+"
+addons_shortcut_moved
+"
+;
+case
+"
 UrlbarProviderGlobalActions
 "
 :
