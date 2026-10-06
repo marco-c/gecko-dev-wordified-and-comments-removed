@@ -1877,6 +1877,10 @@ lazy
 MozAdsEnvironment
 .
 PROD
+!
+=
+=
+undefined
 ?
 lazy
 .
