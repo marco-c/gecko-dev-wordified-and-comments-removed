@@ -145,6 +145,8 @@ functions
 :
 -
 cpu_pause
+-
+AtomicRefCountDecrement
 Attributes
 .
 h
