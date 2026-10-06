@@ -10772,6 +10772,9 @@ thin
 -
 vec
 "
+"
+url
+"
 ]
 [
 [
@@ -24534,7 +24537,7 @@ version
 .
 2
 .
-2
+3
 "
 source
 =
@@ -24562,7 +24565,7 @@ index
 checksum
 =
 "
-65049d7923698040cd0b1ddcced9b0eb14dd22c5f86ae59c3740eab64a676520
+b3ae8f6d608c795738406608304d30a2dfbdc8e58e44f7ba43236da5208ded3c
 "
 dependencies
 =
@@ -24573,7 +24576,7 @@ macro_rules_attribute
 proc_macro
 "
 "
-paste
+pastey
 "
 ]
 [
@@ -24595,7 +24598,7 @@ version
 .
 2
 .
-2
+3
 "
 source
 =
@@ -24623,7 +24626,7 @@ index
 checksum
 =
 "
-670fdfda89751bc4a84ac13eaa63e205cf0fd22b4c9a5fbfa085b63c1f1d3a30
+fc04a4c58212d57930a24bf47d3fa87485264a3a054e9c10e042eb373573ad3c
 "
 [
 [
@@ -32889,16 +32892,16 @@ package
 name
 =
 "
-paste
+pastey
 "
 version
 =
 "
-1
-.
 0
 .
-11
+2
+.
+3
 "
 source
 =
@@ -32926,7 +32929,7 @@ index
 checksum
 =
 "
-d01a5bd0424d00070b0098dd17ebca6f961a959dead1dbcbbbc1d1cd8d3deeba
+2ee67f1008b1ba2321834326597b8e186293b049a023cdef258527550b9935b4
 "
 [
 [
