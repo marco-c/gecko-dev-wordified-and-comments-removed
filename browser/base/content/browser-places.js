@@ -2540,7 +2540,6 @@ bookmarkmenu
 async
 searchTabs
 (
-searchModeEntry
 )
 {
 let
@@ -2581,6 +2580,10 @@ RESTRICT_TOKENS
 OPENPAGE
 {
 searchModeEntry
+:
+"
+shortcut
+"
 }
 )
 ;
