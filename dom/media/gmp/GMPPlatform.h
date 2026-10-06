@@ -36,14 +36,6 @@ h
 namespace
 mozilla
 {
-#
-ifdef
-XP_WIN
-struct
-ModuleIdentifiers
-;
-#
-endif
 namespace
 ipc
 {

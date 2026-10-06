@@ -501,6 +501,12 @@ void
 *
 mBaseAddr
 ;
+nt
+:
+:
+AutoHandle
+mFileHandle
+;
 Vector
 <
 PVOID

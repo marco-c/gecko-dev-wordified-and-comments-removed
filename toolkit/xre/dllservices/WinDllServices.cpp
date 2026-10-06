@@ -410,7 +410,13 @@ DllServices
 :
 GetModulesTrust
 (
-ModuleIdentifiers
+nsTArray
+<
+ipc
+:
+:
+FileDescriptor
+>
 &
 &
 aModIdents
