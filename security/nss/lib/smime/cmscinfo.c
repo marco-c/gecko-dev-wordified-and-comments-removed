@@ -304,6 +304,13 @@ cinfo
 bulkkey
 )
 ;
+cinfo
+-
+>
+bulkkey
+=
+NULL
+;
 }
 }
 NSSCMSContentInfo

@@ -328,6 +328,11 @@ sources
 :
 [
 '
+aes_ctr_unittest
+.
+cc
+'
+'
 blake2b_unittest
 .
 cc

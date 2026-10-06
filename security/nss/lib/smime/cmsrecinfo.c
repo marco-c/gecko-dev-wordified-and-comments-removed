@@ -1360,6 +1360,7 @@ cert
 =
 NULL
 )
+{
 CERT_DestroyCertificate
 (
 ri
@@ -1368,6 +1369,14 @@ ri
 cert
 )
 ;
+ri
+-
+>
+cert
+=
+NULL
+;
+}
 if
 (
 nss_cmsrecipientinfo_usessubjectkeyid
@@ -1397,6 +1406,7 @@ extra
 >
 pubKey
 )
+{
 SECKEY_DestroyPublicKey
 (
 extra
@@ -1405,6 +1415,14 @@ extra
 pubKey
 )
 ;
+extra
+-
+>
+pubKey
+=
+NULL
+;
+}
 }
 if
 (

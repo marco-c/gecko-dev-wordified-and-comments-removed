@@ -104,6 +104,10 @@ cc
 CPPSRCS
 =
 \
+aes_ctr_unittest
+.
+cc
+\
 ecl_unittest
 .
 cc
