@@ -2362,6 +2362,13 @@ mCrSkip
 =
 0
 ;
+gfxPlatform
+:
+:
+GetPlatform
+(
+)
+;
 uint32_t
 namespaceId
 =
