@@ -6605,11 +6605,23 @@ self
 .
 mozbuild_reader
 (
+            
 config_mode
 =
 "
 empty
 "
+vcs_check_clean
+=
+"
+MOZ_AUTOMATION
+"
+not
+in
+os
+.
+environ
+        
 )
         
 self
