@@ -1204,7 +1204,7 @@ using
 mozilla
 :
 :
-ModulePaths
+ModuleIdentifiers
 from
 "
 mozilla
@@ -10957,8 +10957,8 @@ evaluation
 async
 GetModulesTrust
 (
-ModulePaths
-aModPaths
+ModuleIdentifiers
+aModIdents
 bool
 aRunAtNormalPriority
 )

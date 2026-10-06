@@ -65,7 +65,7 @@ true
 >
 ;
 struct
-ModulePaths
+ModuleIdentifiers
 ;
 class
 ModulesMapResult
@@ -145,10 +145,10 @@ ModulesTrustPromise
 >
 GetModulesTrust
 (
-ModulePaths
+ModuleIdentifiers
 &
 &
-aModPaths
+aModIdents
 bool
 aRunAtNormalPriority
 )
