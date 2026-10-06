@@ -59,6 +59,8 @@ unexpected
       
 -
 crash
+and
+ubsan_error
 actions
       
 -
@@ -161,6 +163,9 @@ is
 preserved
 for
 crash
+and
+    
+ubsan_error
 actions
     
 "
@@ -203,6 +208,10 @@ test_status
         
 "
 crash
+"
+        
+"
+ubsan_error
 "
         
 "
@@ -261,7 +270,21 @@ thread
 }
 )
     
-_ALWAYS_STRIP_CRASH
+_KEEP_STACK_ACTIONS
+=
+frozenset
+(
+{
+"
+crash
+"
+"
+ubsan_error
+"
+}
+)
+    
+_ALWAYS_STRIP_KEEP_STACK
 =
 _ALWAYS_STRIP
 -
@@ -389,19 +412,25 @@ data
             
 return
         
+if
+action
+in
+self
+.
+_KEEP_STACK_ACTIONS
+:
+            
 strip
 =
 self
 .
-_ALWAYS_STRIP_CRASH
-if
-action
-=
-=
-"
-crash
-"
+_ALWAYS_STRIP_KEEP_STACK
+        
 else
+:
+            
+strip
+=
 self
 .
 _ALWAYS_STRIP

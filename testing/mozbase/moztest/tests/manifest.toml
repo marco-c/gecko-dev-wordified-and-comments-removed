@@ -34,3 +34,10 @@ test_tsan
 py
 "
 ]
+[
+"
+test_ubsan
+.
+py
+"
+]
