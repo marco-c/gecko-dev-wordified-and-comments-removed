@@ -102,6 +102,11 @@ head
 js
 "
 "
+head_aitab
+.
+js
+"
+"
 head_aiwindow_group_tabs_button
 .
 js
