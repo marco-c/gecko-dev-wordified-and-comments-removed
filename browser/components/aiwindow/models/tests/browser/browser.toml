@@ -17,11 +17,6 @@ aitab_source_page
 html
 "
 "
-aitab_viewer_stub
-.
-html
-"
-"
 head
 .
 js
