@@ -436,9 +436,6 @@ value
 "
 green
 "
-overridden
-:
-true
 valid
 :
 false
@@ -902,9 +899,6 @@ value
 "
 blue
 "
-overridden
-:
-true
 valid
 :
 false

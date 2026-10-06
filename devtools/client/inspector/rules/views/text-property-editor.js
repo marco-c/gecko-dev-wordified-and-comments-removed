@@ -5800,14 +5800,6 @@ this
 prop
 .
 enabled
-|
-|
-!
-this
-.
-prop
-.
-isKnownProperty
 )
 )
 {
