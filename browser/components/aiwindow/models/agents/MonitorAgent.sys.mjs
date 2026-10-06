@@ -5244,6 +5244,17 @@ notification
 -
 body
 "
+textArgs
+:
+{
+pageCount
+:
+monitor
+.
+watchUrls
+.
+length
+}
 .
 .
 .
