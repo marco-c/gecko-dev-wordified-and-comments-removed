@@ -253,4 +253,5 @@ UrlbarMuxer
 UrlbarParentController
 UrlbarProvider
 UrlbarQueryContext
+UrlbarResult
 UrlbarView
