@@ -419,10 +419,10 @@ setOf
 (
 FxaCapability
 .
-CHOOSE_WHAT_TO_SYNC
+ChooseWhatToSync
 FxaCapability
 .
-PAIRING_V2
+PairingV2
 )
 onCommandExecuted
 =
