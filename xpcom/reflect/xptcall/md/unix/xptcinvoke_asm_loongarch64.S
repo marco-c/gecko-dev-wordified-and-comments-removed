@@ -221,7 +221,7 @@ sp
 8
 *
 NGPREGS
-bl
+call36
 invoke_copy_to_stack
 /
 *

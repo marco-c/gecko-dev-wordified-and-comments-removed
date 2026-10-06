@@ -238,7 +238,7 @@ sp
 8
 *
 NGPRGES
-bl
+call36
 PrepareAndDispatch
 ld
 .
