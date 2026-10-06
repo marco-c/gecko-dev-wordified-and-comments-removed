@@ -4212,6 +4212,11 @@ mHasReturnedNoLayoutError
 false
 ;
 bool
+mNeedsToNotifyTSFOfLayoutChange
+=
+false
+;
+bool
 mPendingToCreateNativeCaret
 =
 false
