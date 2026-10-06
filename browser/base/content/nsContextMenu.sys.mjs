@@ -3969,7 +3969,7 @@ menu
 -
 back
 -
-2
+3
 "
 "
 goBackKb
@@ -3992,7 +3992,7 @@ menu
 -
 forward
 -
-2
+3
 "
 "
 goForwardKb
