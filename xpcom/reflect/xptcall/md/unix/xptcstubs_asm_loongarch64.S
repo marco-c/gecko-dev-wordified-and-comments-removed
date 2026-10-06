@@ -275,10 +275,7 @@ NFPREGS
 )
 -
 16
-jirl
-zero
-ra
-0
+ret
 .
 cfi_endproc
 .

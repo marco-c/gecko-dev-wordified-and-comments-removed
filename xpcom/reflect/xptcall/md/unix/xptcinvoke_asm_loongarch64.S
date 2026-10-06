@@ -416,10 +416,7 @@ sp
 cfi_adjust_cfa_offset
 -
 32
-jirl
-zero
-ra
-0
+ret
 .
 cfi_endproc
 .
