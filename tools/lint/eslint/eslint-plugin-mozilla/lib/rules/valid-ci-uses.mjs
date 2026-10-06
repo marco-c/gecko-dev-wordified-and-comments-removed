@@ -258,6 +258,14 @@ windows
 ]
 [
 "
+nsIASWebAuthSessionRequest
+"
+"
+darwin
+"
+]
+[
+"
 nsIAccessibleMacEvent
 "
 "
