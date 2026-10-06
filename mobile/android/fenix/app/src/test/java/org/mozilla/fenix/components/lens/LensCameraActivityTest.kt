@@ -527,6 +527,9 @@ LensCameraActivity
 newIntent
 (
 testContext
+isPrivate
+=
+false
 )
 assertEquals
 (
