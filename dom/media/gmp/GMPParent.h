@@ -737,10 +737,10 @@ ipc
 IPCResult
 RecvGetModulesTrust
 (
-ModuleIdentifiers
+ModulePaths
 &
 &
-aModIdents
+aModPaths
 bool
 aRunAtNormalPriority
 GetModulesTrustResolver

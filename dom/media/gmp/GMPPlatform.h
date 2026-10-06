@@ -36,6 +36,14 @@ h
 namespace
 mozilla
 {
+#
+ifdef
+XP_WIN
+struct
+ModulePaths
+;
+#
+endif
 namespace
 ipc
 {
@@ -143,7 +151,7 @@ GetModulesTrustPromise
 >
 SendGetModulesTrust
 (
-ModuleIdentifiers
+ModulePaths
 &
 &
 aModules

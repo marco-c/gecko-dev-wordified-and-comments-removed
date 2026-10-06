@@ -308,7 +308,7 @@ using
 mozilla
 :
 :
-ModuleIdentifiers
+ModulePaths
 from
 "
 mozilla
@@ -515,8 +515,8 @@ XP_WIN
 async
 GetModulesTrust
 (
-ModuleIdentifiers
-aModIdents
+ModulePaths
+aModPaths
 bool
 aRunAtNormalPriority
 )
