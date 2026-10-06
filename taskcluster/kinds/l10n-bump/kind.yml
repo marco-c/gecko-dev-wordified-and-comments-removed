@@ -558,7 +558,11 @@ locales
 "
 }
 ]
+(
 release
+|
+esr153
+)
 :
 -
 l10n
