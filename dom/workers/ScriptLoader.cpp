@@ -3378,6 +3378,7 @@ SRIMetadata
 )
 nullptr
 loadContext
+nullptr
 )
 ;
 }

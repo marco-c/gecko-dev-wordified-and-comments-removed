@@ -312,6 +312,13 @@ aReferrer
 LoadContextBase
 *
 aContext
+const
+mozilla
+:
+:
+Encoding
+*
+aClassicScriptHintEncoding
 )
 :
 mKind
@@ -374,6 +381,10 @@ aContext
 mEarlyHintPreloaderId
 (
 0
+)
+mClassicScriptHintEncoding
+(
+aClassicScriptHintEncoding
 )
 {
 if
