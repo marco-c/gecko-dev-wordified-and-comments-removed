@@ -609,15 +609,12 @@ root
 .
 pp
 )
-ifdef
-COMPILE_ENVIRONMENT
 xpidl
 :
 :
 (
 generated_files
 )
-endif
 export
 :
 :
