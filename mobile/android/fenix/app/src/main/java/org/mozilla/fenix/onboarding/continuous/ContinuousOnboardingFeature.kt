@@ -533,7 +533,6 @@ if
 already
 signed
 in
-or
 *
 -
 on
@@ -641,7 +640,7 @@ logger
 Logger
 (
 "
-ContinuousOnboardingFeatureDefault
+ContinuousOnboardingFeature
 "
 )
 VisibleForTesting
