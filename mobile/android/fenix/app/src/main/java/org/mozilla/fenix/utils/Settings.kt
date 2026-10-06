@@ -16120,6 +16120,16 @@ enabled
 )
 return
 false
+if
+(
+continuousOnboardingFeatureEnabled
+&
+&
+!
+continuousOnboardingCompleted
+)
+return
+false
 val
 now
 =
