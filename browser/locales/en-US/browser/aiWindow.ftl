@@ -243,6 +243,8 @@ switcher
 customizable
 -
 label
+-
+v2
 =
 .
 label
@@ -266,8 +268,7 @@ between
 Smart
 and
 Classic
-windows
-.
+Windows
 ai
 -
 window
