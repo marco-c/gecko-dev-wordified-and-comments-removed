@@ -2486,6 +2486,7 @@ CallBuiltinModuleFunc
 ifdef
 ENABLE_WASM_JSPI
 GuardSuspending
+ExternToCont
 #
 endif
 Limit
