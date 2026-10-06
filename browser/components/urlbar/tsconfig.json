@@ -33,13 +33,6 @@ SmartbarInput
 mjs
 "
 "
-content
-/
-UrlbarView
-.
-mjs
-"
-"
 UrlbarProviderGlobalActions
 .
 sys

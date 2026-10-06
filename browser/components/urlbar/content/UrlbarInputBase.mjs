@@ -5935,6 +5935,15 @@ this
 sapName
 ;
 }
+get
+isSidebarMode
+(
+)
+{
+return
+false
+;
+}
 /
 *
 *
