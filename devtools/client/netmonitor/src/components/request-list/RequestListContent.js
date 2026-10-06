@@ -2140,6 +2140,11 @@ row
 -
 group
 "
+role
+:
+"
+listbox
+"
 tabIndex
 :
 0
