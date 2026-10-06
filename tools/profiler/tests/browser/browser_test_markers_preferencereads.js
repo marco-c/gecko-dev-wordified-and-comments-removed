@@ -48,9 +48,14 @@ Preference
 {
 if
 (
+thread
+.
+stringTable
+[
 payload
 .
 prefName
+]
 =
 =
 =
