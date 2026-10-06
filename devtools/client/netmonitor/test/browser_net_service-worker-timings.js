@@ -225,17 +225,6 @@ item
 ]
 )
 ;
-store
-.
-dispatch
-(
-Actions
-.
-toggleNetworkDetails
-(
-)
-)
-;
 clickOnSidebarTab
 (
 document

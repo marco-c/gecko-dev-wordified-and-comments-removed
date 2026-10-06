@@ -1655,6 +1655,13 @@ PropTypes
 func
 .
 isRequired
+onClick
+:
+PropTypes
+.
+func
+.
+isRequired
 onMouseDown
 :
 PropTypes
@@ -1993,6 +2000,7 @@ fromCache
 networkActionOpen
 onDoubleClick
 onDragStart
+onClick
 onContextMenu
 onMouseDown
 onWaterfallMouseDown
@@ -2124,6 +2132,7 @@ selected
 "
 :
 isSelected
+onClick
 onContextMenu
 onMouseDown
 onDoubleClick

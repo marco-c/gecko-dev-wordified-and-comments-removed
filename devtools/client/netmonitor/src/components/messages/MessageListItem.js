@@ -549,7 +549,7 @@ PropTypes
 bool
 .
 isRequired
-onMouseDown
+onClick
 :
 PropTypes
 .
@@ -589,7 +589,7 @@ const
 item
 index
 isSelected
-onMouseDown
+onClick
 onContextMenu
 connector
 visibleColumns
@@ -671,7 +671,7 @@ selected
 "
 :
 isSelected
-onMouseDown
+onClick
 onContextMenu
 }
 visibleColumns
