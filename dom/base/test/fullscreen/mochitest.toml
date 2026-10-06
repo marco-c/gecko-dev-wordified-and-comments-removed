@@ -703,6 +703,13 @@ html
 ]
 [
 "
+test_fullscreen_iframe_multiple
+.
+html
+"
+]
+[
+"
 test_fullscreen_meta_viewport
 .
 html
