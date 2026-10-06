@@ -305,8 +305,10 @@ mNode
 nullptr
 ;
 }
+nsCOMPtr
+<
 nsINode
-*
+>
 mNode
 ;
 bool
