@@ -247,6 +247,7 @@ mRequestFilter
 const
 ContentClassifierRequest
 &
+ClassifyMode
 )
 ;
 void
@@ -997,8 +998,8 @@ const
 ContentClassifierRequest
 &
 aRequest
-bool
-aIndependentEngines
+ClassifyMode
+aMode
 )
 MOZ_REQUIRES
 (

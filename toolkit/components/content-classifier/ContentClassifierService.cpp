@@ -563,7 +563,7 @@ PRIVACY_TRACKINGPROTECTION_CONTENT_ENABLED
 ContentClassifierFeatureUtils
 :
 :
-IsThirdPartyRequest
+IsThirdPartyUnlessAnnotating
 nullptr
 }
 {
@@ -610,7 +610,7 @@ Nothing
 ContentClassifierFeatureUtils
 :
 :
-IsThirdPartyRequest
+IsThirdPartyUnlessAnnotating
 nullptr
 }
 {
@@ -661,7 +661,7 @@ PRIVACY_TRACKINGPROTECTION_CONTENT_SOCIALTRACKING_ENABLED
 ContentClassifierFeatureUtils
 :
 :
-IsThirdPartyRequest
+IsThirdPartyUnlessAnnotating
 nullptr
 }
 {
@@ -710,7 +710,7 @@ PRIVACY_TRACKINGPROTECTION_CONTENT_FINGERPRINTING_ENABLED
 ContentClassifierFeatureUtils
 :
 :
-IsThirdPartyRequest
+IsThirdPartyUnlessAnnotating
 nullptr
 }
 {
@@ -761,7 +761,7 @@ PRIVACY_TRACKINGPROTECTION_CONTENT_EMAILTRACKING_ENABLED
 ContentClassifierFeatureUtils
 :
 :
-IsThirdPartyRequest
+IsThirdPartyUnlessAnnotating
 nullptr
 }
 {
@@ -810,7 +810,7 @@ PRIVACY_TRACKINGPROTECTION_CONTENT_CRYPTOMINING_ENABLED
 ContentClassifierFeatureUtils
 :
 :
-IsThirdPartyRequest
+IsThirdPartyUnlessAnnotating
 nullptr
 }
 {
@@ -890,7 +890,7 @@ Nothing
 ContentClassifierFeatureUtils
 :
 :
-IsThirdPartyRequest
+IsThirdPartyUnlessAnnotating
 nullptr
 }
 {
@@ -928,7 +928,7 @@ Nothing
 ContentClassifierFeatureUtils
 :
 :
-IsThirdPartyRequest
+IsThirdPartyUnlessAnnotating
 nullptr
 }
 {
@@ -977,7 +977,7 @@ PRIVACY_TRACKINGPROTECTION_CONTENT_TEST_ENABLED
 ContentClassifierFeatureUtils
 :
 :
-IsThirdPartyRequest
+IsThirdPartyUnlessAnnotating
 nullptr
 }
 {
@@ -1022,7 +1022,7 @@ Nothing
 ContentClassifierFeatureUtils
 :
 :
-IsThirdPartyRequest
+IsThirdPartyUnlessAnnotating
 nullptr
 }
 }
@@ -4036,8 +4036,8 @@ const
 ContentClassifierRequest
 &
 aRequest
-bool
-aIndependentEngines
+ClassifyMode
+aMode
 )
 {
 MOZ_ASSERT
@@ -4127,6 +4127,18 @@ return
 result
 ;
 }
+const
+bool
+annotate
+=
+aMode
+=
+=
+ClassifyMode
+:
+:
+Annotate
+;
 bool
 matchedSoFar
 =
@@ -4165,6 +4177,7 @@ Feature
 mRequestFilter
 (
 aRequest
+aMode
 )
 )
 {
@@ -4180,11 +4193,12 @@ engine
 CheckNetworkRequest
 (
 aRequest
-aIndependentEngines
+annotate
 ?
 false
 :
 matchedSoFar
+annotate
 )
 ;
 result
@@ -4207,7 +4221,7 @@ GetStatus
 if
 (
 !
-aIndependentEngines
+annotate
 &
 &
 (
@@ -4572,7 +4586,10 @@ ClassifyWithEngines
 (
 engines
 aRequest
-true
+ClassifyMode
+:
+:
+Annotate
 )
 ;
 MOZ_LOG
@@ -4671,7 +4688,10 @@ ClassifyWithEngines
 (
 engines
 aRequest
-false
+ClassifyMode
+:
+:
+Cancel
 )
 ;
 MOZ_LOG
@@ -6596,6 +6616,7 @@ engine
 CheckNetworkRequest
 (
 request
+false
 false
 )
 ;

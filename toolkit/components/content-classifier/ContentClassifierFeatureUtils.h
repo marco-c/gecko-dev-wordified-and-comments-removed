@@ -16,6 +16,10 @@ mozilla
 class
 ContentClassifierRequest
 ;
+enum
+class
+ClassifyMode
+;
 namespace
 extensions
 {
@@ -31,12 +35,14 @@ public
 :
 static
 bool
-IsThirdPartyRequest
+IsThirdPartyUnlessAnnotating
 (
 const
 ContentClassifierRequest
 &
 aRequest
+ClassifyMode
+aMode
 )
 ;
 static
@@ -47,6 +53,8 @@ const
 ContentClassifierRequest
 &
 aRequest
+ClassifyMode
+aMode
 )
 ;
 static

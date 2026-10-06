@@ -57,6 +57,13 @@ js
 ]
 [
 "
+browser_content_classifier_first_party
+.
+js
+"
+]
+[
+"
 browser_content_classifier_harmful_addon
 .
 js
