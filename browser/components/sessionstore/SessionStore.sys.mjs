@@ -10580,7 +10580,7 @@ well
 .
 *
 /
-updateSessionStoreFromTablistener
+updateSessionStoreFromChild
 (
 browser
 browsingContext

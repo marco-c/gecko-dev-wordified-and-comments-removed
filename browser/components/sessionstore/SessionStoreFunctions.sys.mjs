@@ -192,7 +192,7 @@ toJSON
 }
 SessionStore
 .
-updateSessionStoreFromTablistener
+updateSessionStoreFromChild
 (
 aBrowser
 aBrowsingContext
@@ -225,7 +225,7 @@ aData
 {
 SessionStore
 .
-updateSessionStoreFromTablistener
+updateSessionStoreFromChild
 (
 aBrowser
 aBrowsingContext
