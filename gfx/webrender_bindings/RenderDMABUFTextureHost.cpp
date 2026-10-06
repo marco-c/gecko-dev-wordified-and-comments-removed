@@ -232,10 +232,9 @@ if
 mSurface
 -
 >
-CreateTexture
+CreateTextures
 (
 mGL
-aChannelIndex
 )
 )
 {
