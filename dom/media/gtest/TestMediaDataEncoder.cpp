@@ -911,7 +911,7 @@ VideoData
 :
 CreateFromImage
 (
-kImageSize
+mSize
 0
 media
 :
