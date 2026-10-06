@@ -224,7 +224,14 @@ CompositorOptions
 aOptions
 )
 override
+{
+return
+IPC_FAIL_NO_REASON
+(
+this
+)
 ;
+}
 mozilla
 :
 :
