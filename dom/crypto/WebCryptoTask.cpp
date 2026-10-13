@@ -9314,6 +9314,7 @@ CryptoKey
 PrivateKeyFromJwk
 (
 mJwk
+mAlgName
 )
 ;
 if
@@ -9545,6 +9546,7 @@ CryptoKey
 PublicKeyFromJwk
 (
 mJwk
+mAlgName
 )
 ;
 }
