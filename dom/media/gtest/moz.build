@@ -1105,6 +1105,11 @@ test
 webm
 "
 "
+test_av1
+.
+mp4
+"
+"
 test_case_1224361
 .
 vp8
