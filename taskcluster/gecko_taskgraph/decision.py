@@ -1864,6 +1864,20 @@ py
 "
 :
 ARTIFACTS_DIR
+            
+scripts_dir
+/
+"
+run
+-
+task
+-
+setup
+.
+py
+"
+:
+ARTIFACTS_DIR
         
 }
         
