@@ -3482,16 +3482,12 @@ panel
 -
 save
 -
-button2
+button
 =
 .
 label
 =
 Save
-.
-accesskey
-=
-a
 #
 Width
 of
