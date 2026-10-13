@@ -1809,6 +1809,12 @@ text
 "
 !
 "
+&
+&
+!
+currentBlocks
+.
+length
 )
 {
 importantState
