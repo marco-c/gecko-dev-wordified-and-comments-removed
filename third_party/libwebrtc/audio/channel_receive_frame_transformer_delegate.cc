@@ -833,7 +833,13 @@ channel_receive_thread
 :
 receive_frame_callback_
 (
+std
+:
+:
+move
+(
 receive_frame_callback
+)
 )
 frame_transformer_
 (
@@ -850,6 +856,11 @@ channel_receive_thread_
 channel_receive_thread
 )
 {
+RTC_DCHECK
+(
+receive_frame_callback_
+)
+;
 }
 void
 ChannelReceiveFrameTransformerDelegate
@@ -955,6 +966,11 @@ if
 short_circuit_
 )
 {
+if
+(
+receive_frame_callback_
+)
+{
 receive_frame_callback_
 (
 packet
@@ -962,6 +978,7 @@ header
 receive_time
 )
 ;
+}
 }
 else
 {
