@@ -9120,6 +9120,12 @@ damageHeight
 std
 :
 :
+max
+(
+0
+std
+:
+:
 min
 (
 GetRowGroup
@@ -9133,6 +9139,7 @@ GetRowCount
 -
 aRowIndex
 aRowSpan
+)
 )
 ;
 SetDamageArea
