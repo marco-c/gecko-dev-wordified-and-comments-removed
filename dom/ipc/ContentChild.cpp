@@ -7994,6 +7994,12 @@ const
 ColorScheme
 &
 aColorScheme
+NotNull
+<
+nsIPrincipal
+*
+>
+aPrincipal
 DecodeImageResolver
 &
 &
@@ -8020,12 +8026,7 @@ FetchDecodedImage
 (
 aURI
 size
-nsContentUtils
-:
-:
-GetSystemPrincipal
-(
-)
+aPrincipal
 )
 -
 >

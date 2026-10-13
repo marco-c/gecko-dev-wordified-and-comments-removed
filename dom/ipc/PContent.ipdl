@@ -3878,6 +3878,8 @@ bool
 aStretch
 ColorScheme
 aColorScheme
+nsIPrincipal
+aPrincipal
 )
 returns
 (
