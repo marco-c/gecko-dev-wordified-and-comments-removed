@@ -1267,6 +1267,11 @@ contentLengthString
 ;
 }
 }
+AmendWebResponse
+(
+builder
+)
+;
 java
 :
 :
