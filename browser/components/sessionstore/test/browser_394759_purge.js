@@ -323,7 +323,7 @@ http
 :
 /
 /
-mozilla
+example
 .
 org
 /
@@ -342,7 +342,7 @@ selected
 title
 :
 "
-mozilla
+example
 .
 org
 "
@@ -371,7 +371,7 @@ http
 :
 /
 /
-mozilla
+example
 .
 org
 /
@@ -443,7 +443,7 @@ http
 :
 /
 /
-mozilla
+example
 .
 org
 /
@@ -542,7 +542,7 @@ http
 :
 /
 /
-mozilla
+example
 .
 org
 /
@@ -560,7 +560,7 @@ http
 :
 /
 /
-mozilla
+example
 .
 org
 /
@@ -649,7 +649,7 @@ ForgetAboutSite
 removeDataFromBaseDomain
 (
 "
-mozilla
+example
 .
 org
 "
