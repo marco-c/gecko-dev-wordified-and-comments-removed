@@ -1697,6 +1697,10 @@ if
 token
 .
 text
+.
+toLowerCase
+(
+)
 =
 =
 =
