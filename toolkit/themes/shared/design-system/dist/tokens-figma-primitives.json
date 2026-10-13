@@ -2123,6 +2123,15 @@ end
 "
 toolbarbutton
 /
+badge
+/
+size
+"
+:
+14
+"
+toolbarbutton
+/
 padding
 /
 outer
