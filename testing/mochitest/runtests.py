@@ -27082,6 +27082,11 @@ environ
             
 symbolicate_profiles
 (
+symbol_dir
+=
+options
+.
+symbolsPath
 )
         
 self
