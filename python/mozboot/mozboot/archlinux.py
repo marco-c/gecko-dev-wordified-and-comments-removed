@@ -107,23 +107,6 @@ packages
 )
     
 def
-upgrade_mercurial
-(
-self
-current
-)
-:
-        
-self
-.
-pacman_install
-(
-"
-mercurial
-"
-)
-    
-def
 pacman_install
 (
 self

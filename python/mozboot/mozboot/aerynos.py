@@ -107,23 +107,6 @@ self
 pass
     
 def
-upgrade_mercurial
-(
-self
-current
-)
-:
-        
-self
-.
-package_install
-(
-"
-mercurial
-"
-)
-    
-def
 package_install
 (
 self
