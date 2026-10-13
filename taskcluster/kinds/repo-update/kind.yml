@@ -177,9 +177,6 @@ updates
 }
 env
 :
-PRODUCT
-:
-firefox
 REVIEWERS
 :
 "

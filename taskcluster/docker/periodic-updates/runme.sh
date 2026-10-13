@@ -39,10 +39,6 @@ mozilla
 -
 central
 #
--
-p
-firefox
-#
 Artifact
 directory
 #
@@ -53,12 +49,6 @@ test
 "
 {
 BRANCH
-}
-"
-test
-"
-{
-PRODUCT
 }
 "
 PARAMS
@@ -650,13 +640,6 @@ scripts
 periodic_file_updates
 .
 sh
--
-p
-"
-{
-PRODUCT
-}
-"
 -
 b
 "

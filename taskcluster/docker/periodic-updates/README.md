@@ -143,13 +143,6 @@ DO_HPKP
 1
 -
 e
-PRODUCT
-=
-"
-firefox
-"
--
-e
 BRANCH
 =
 "
@@ -600,9 +593,6 @@ DO_HSTS
 DO_HPKP
 :
 1
-PRODUCT
-:
-firefox
 BRANCH
 :
 mozilla
