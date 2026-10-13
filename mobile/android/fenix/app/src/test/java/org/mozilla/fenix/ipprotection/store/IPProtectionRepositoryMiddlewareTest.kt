@@ -63,9 +63,15 @@ mozilla
 .
 fenix
 .
+ipprotection
+.
+store
+import
+mozilla
+.
 components
 .
-ipprotection
+ExperimentalAndroidComponentsApi
 import
 mozilla
 .
@@ -132,10 +138,6 @@ junit
 Test
 OptIn
 (
-mozilla
-.
-components
-.
 ExperimentalAndroidComponentsApi
 :
 :

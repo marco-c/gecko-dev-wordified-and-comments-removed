@@ -63,9 +63,9 @@ mozilla
 .
 fenix
 .
-components
-.
 ipprotection
+.
+store
 import
 android
 .

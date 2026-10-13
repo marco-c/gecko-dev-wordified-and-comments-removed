@@ -63,9 +63,15 @@ mozilla
 .
 fenix
 .
+ipprotection
+.
+store
+import
+mozilla
+.
 components
 .
-ipprotection
+ExperimentalAndroidComponentsApi
 import
 mozilla
 .
@@ -231,10 +237,6 @@ interaction
 /
 OptIn
 (
-mozilla
-.
-components
-.
 ExperimentalAndroidComponentsApi
 :
 :

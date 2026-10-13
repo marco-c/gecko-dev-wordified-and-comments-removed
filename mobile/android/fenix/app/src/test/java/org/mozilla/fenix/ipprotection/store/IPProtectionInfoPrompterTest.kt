@@ -72,9 +72,9 @@ mozilla
 .
 fenix
 .
-components
-.
 ipprotection
+.
+store
 import
 kotlin
 .
