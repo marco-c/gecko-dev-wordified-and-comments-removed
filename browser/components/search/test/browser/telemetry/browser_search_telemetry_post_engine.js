@@ -858,16 +858,6 @@ shopping_tab_displayed
 "
 unknown
 "
-prescan
-:
-"
-not_run
-"
-scan
-:
-"
-not_run
-"
 has_ai_summary
 :
 "
