@@ -871,7 +871,7 @@ isZero
 )
 ;
 }
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 v
 .
