@@ -344,6 +344,15 @@ backgroundTint
 ?
 accent
 "
+android
+:
+contentDescription
+=
+"
+string
+/
+library_item_selected_content_description
+"
 app
 :
 srcCompat
