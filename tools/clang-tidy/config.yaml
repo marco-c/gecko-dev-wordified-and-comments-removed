@@ -351,6 +351,12 @@ version
 .
 h
 -
+hal
+/
+HalInternal
+.
+h
+-
 intl
 /
 components
