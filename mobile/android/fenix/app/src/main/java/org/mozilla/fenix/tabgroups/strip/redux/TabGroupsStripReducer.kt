@@ -148,5 +148,17 @@ tabId
 )
 }
 )
+TabGroupsStripAction
+.
+AddTabClicked
+-
+>
+state
+TabGroupsStripAction
+.
+ExpandGroupClicked
+-
+>
+state
 }
 }
