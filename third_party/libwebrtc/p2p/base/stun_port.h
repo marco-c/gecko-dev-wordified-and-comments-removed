@@ -755,6 +755,16 @@ socket
 )
 ;
 void
+OnSocketClose
+(
+AsyncPacketSocket
+*
+socket
+int
+error
+)
+;
+void
 MaybePrepareStunCandidate
 (
 )
