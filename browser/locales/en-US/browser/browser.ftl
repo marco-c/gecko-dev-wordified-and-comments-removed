@@ -11737,7 +11737,6 @@ searchTabsShortcut
 }
 now
 searches
-your
 tabs
 urlbar
 -
@@ -11751,9 +11750,9 @@ description
 =
 To
 open
-Extensions
+extensions
 and
-Themes
+themes
 use
 {
 addonsShortcut
@@ -11771,7 +11770,7 @@ change
 -
 shortcuts
 =
-Change
+Manage
 shortcuts
 urlbar
 -
