@@ -817,7 +817,10 @@ wrapPromise
 new
 Promise
 (
+(
 resolve
+reject
+)
 =
 >
 {
@@ -849,6 +852,7 @@ contentWindow
 )
 ;
 }
+reject
 )
 ;
 }
