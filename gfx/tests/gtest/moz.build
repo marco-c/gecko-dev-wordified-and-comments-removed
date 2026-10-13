@@ -143,6 +143,11 @@ TestMoz2D
 cpp
 "
 "
+TestPlanarYCbCrImage
+.
+cpp
+"
+"
 TestPoint
 .
 cpp
