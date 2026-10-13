@@ -1976,6 +1976,17 @@ nsIFile
 aDirectory
 )
 {
+if
+(
+XRE_IsContentProcess
+(
+)
+)
+{
+return
+true
+;
+}
 #
 ifdef
 XP_MACOSX

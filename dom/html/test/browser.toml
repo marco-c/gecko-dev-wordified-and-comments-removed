@@ -249,6 +249,13 @@ js
 ]
 [
 "
+browser_input_file_picker_default_directory
+.
+js
+"
+]
+[
+"
 browser_input_file_picker_opening_notification
 .
 js
