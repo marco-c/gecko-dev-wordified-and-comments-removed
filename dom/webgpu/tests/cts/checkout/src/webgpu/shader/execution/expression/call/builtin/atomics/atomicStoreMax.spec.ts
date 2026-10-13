@@ -267,8 +267,6 @@ min
 -
 max
 '
-as
-GPUFeatureName
 )
 ;
 const

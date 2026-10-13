@@ -63,8 +63,6 @@ subgroups
 '
 subgroups
 '
-as
-GPUFeatureName
 clip_distances
 :
 '
@@ -72,8 +70,6 @@ clip
 -
 distances
 '
-as
-GPUFeatureName
 chromium_experimental_primitive_id
 :
 '
@@ -98,8 +94,6 @@ min
 -
 max
 '
-as
-GPUFeatureName
 }
 ;
 const

@@ -9557,8 +9557,6 @@ skipIfDeviceDoesNotHaveFeature
 '
 subgroups
 '
-as
-GPUFeatureName
 )
 ;
 const
@@ -10408,8 +10406,6 @@ skipIfDeviceDoesNotHaveFeature
 '
 subgroups
 '
-as
-GPUFeatureName
 )
 ;
 const
@@ -11769,8 +11765,6 @@ primitive
 -
 index
 '
-as
-GPUFeatureName
 )
 ;
 runPrimitiveIndexTest
@@ -11910,8 +11904,6 @@ primitive
 -
 index
 '
-as
-GPUFeatureName
 )
 ;
 runPrimitiveIndexTest
@@ -12112,8 +12104,6 @@ primitive
 -
 index
 '
-as
-GPUFeatureName
 )
 ;
 runPrimitiveIndexTest
@@ -12197,8 +12187,6 @@ primitive
 -
 index
 '
-as
-GPUFeatureName
 )
 ;
 const

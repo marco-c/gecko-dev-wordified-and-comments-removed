@@ -3142,8 +3142,6 @@ compression
 -
 unaligned
 '
-as
-GPUFeatureName
 )
 ;
 const
@@ -4784,8 +4782,6 @@ compression
 -
 unaligned
 '
-as
-GPUFeatureName
 )
 ;
 const
@@ -6293,8 +6289,6 @@ compression
 -
 unaligned
 '
-as
-GPUFeatureName
 )
 ;
 const

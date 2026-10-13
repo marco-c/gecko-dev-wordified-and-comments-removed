@@ -5652,7 +5652,6 @@ control
 :
 {
 }
-[
 '
 atomic
 -
@@ -5662,13 +5661,9 @@ min
 -
 max
 '
-as
-GPUFeatureName
-]
 :
 {
 }
-[
 '
 texture
 -
@@ -5676,9 +5671,6 @@ compression
 -
 unaligned
 '
-as
-GPUFeatureName
-]
 :
 {
 }
