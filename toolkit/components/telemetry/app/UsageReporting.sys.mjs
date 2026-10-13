@@ -843,6 +843,7 @@ isDefaultBrowser
 .
 set
 (
+await
 lazy
 .
 ClientEnvironmentBase
