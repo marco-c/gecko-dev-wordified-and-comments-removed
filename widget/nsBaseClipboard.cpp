@@ -230,6 +230,13 @@ h
 #
 include
 "
+nsIMutableArray
+.
+h
+"
+#
+include
+"
 nsIPromptService
 .
 h

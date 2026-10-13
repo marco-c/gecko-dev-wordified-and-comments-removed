@@ -1937,6 +1937,13 @@ h
 #
 include
 "
+nsIArray
+.
+h
+"
+#
+include
+"
 nsIAsyncInputStream
 .
 h

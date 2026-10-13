@@ -107,6 +107,13 @@ h
 #
 include
 "
+nsIMutableArray
+.
+h
+"
+#
+include
+"
 nsISupportsPrimitives
 .
 h

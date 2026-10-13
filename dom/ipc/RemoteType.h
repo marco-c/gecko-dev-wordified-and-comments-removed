@@ -25,6 +25,15 @@ h
 #
 include
 "
+mozilla
+/
+ResultVariant
+.
+h
+"
+#
+include
+"
 nsString
 .
 h

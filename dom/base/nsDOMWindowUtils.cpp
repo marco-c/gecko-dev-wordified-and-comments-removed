@@ -1103,6 +1103,13 @@ h
 #
 include
 "
+nsIMutableArray
+.
+h
+"
+#
+include
+"
 nsNetUtil
 .
 h
