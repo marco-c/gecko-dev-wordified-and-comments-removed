@@ -109,6 +109,11 @@ BlobImpl
 h
 "
 "
+BlobMemoryReporter
+.
+h
+"
+"
 BlobSet
 .
 h
@@ -190,6 +195,11 @@ cpp
 "
 "
 BlobImpl
+.
+cpp
+"
+"
+BlobMemoryReporter
 .
 cpp
 "
