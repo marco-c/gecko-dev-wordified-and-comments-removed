@@ -1633,7 +1633,7 @@ source
 "
 ;
 }
-window
+browserWindow
 :
 {
 location

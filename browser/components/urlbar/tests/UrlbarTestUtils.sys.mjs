@@ -11385,7 +11385,7 @@ source
 "
 ;
 }
-window
+browserWindow
 :
 {
 location
@@ -11603,7 +11603,7 @@ parentOptions
 .
 input
 .
-window
+browserWindow
 .
 windowGlobalChild
 =

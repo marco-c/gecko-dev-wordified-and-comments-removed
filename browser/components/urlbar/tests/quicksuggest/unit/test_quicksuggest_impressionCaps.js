@@ -11126,7 +11126,7 @@ source
 "
 ;
 }
-window
+browserWindow
 :
 {
 location

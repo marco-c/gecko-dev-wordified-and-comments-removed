@@ -1463,7 +1463,7 @@ this
 .
 input
 .
-window
+browserWindow
 .
 gBrowser
 .
@@ -1530,7 +1530,7 @@ this
 .
 input
 .
-window
+browserWindow
 .
 gBrowser
 .

@@ -670,9 +670,9 @@ return
 this
 .
 #
-urlbarInput
+inputField
 .
-document
+ownerDocument
 ;
 }
 get
@@ -702,7 +702,7 @@ this
 #
 urlbarInput
 .
-window
+documentGlobal
 ;
 }
 get

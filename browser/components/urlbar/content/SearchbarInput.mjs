@@ -516,8 +516,6 @@ createItems
 let
 fragment
 =
-this
-.
 document
 .
 createDocumentFragment
@@ -527,8 +525,6 @@ createDocumentFragment
 let
 separator
 =
-this
-.
 document
 .
 createXULElement
@@ -541,8 +537,6 @@ menuseparator
 let
 clearHistory
 =
-this
-.
 document
 .
 createXULElement
@@ -568,8 +562,6 @@ history
 "
 )
 ;
-this
-.
 document
 .
 l10n

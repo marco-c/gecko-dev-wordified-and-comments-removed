@@ -3699,7 +3699,7 @@ source
 "
 ;
 }
-window
+browserWindow
 :
 {
 location

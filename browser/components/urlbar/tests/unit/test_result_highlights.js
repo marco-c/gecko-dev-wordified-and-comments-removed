@@ -339,7 +339,7 @@ source
 "
 ;
 }
-window
+browserWindow
 :
 {
 location
