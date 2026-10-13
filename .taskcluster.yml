@@ -2474,7 +2474,7 @@ sha256
 '
 maxRunTime
 :
-3600
+1800
 command
 :
 -
