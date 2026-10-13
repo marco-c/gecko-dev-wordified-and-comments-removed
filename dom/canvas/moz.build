@@ -1389,11 +1389,6 @@ WebGLContextLossHandler
 h
 "
 "
-WebGLContextUtils
-.
-h
-"
-"
 WebGLExtensions
 .
 h
