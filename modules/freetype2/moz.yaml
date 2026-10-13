@@ -74,7 +74,9 @@ license
 -
 file
 :
-LICENSE
+docs
+/
+FTL
 .
 TXT
 updatebot
@@ -189,6 +191,14 @@ tests
 vms_make
 .
 com
+include
+:
+-
+docs
+/
+FTL
+.
+TXT
 keep
 :
 -
