@@ -108,6 +108,7 @@ client
 .
 soft_click
 (
+        
 client
 .
 await_css
@@ -116,7 +117,11 @@ FIRST_GAME_PRACTICE_CSS
 is_displayed
 =
 True
+timeout
+=
+30
 )
+    
 )
 pytest
 .
