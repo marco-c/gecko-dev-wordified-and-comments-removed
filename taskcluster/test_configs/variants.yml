@@ -1365,6 +1365,13 @@ suffix
 "
 isolated
 "
+treeherder
+-
+suffix
+:
+"
+iso
+"
 mozinfo
 :
 "
