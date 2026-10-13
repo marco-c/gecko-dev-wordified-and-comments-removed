@@ -193,8 +193,8 @@ event
     
 )
     
-navigation_future
-.
-cancel
+await
+wait_for_future_safe
 (
+navigation_future
 )
