@@ -66,13 +66,6 @@ description
 python
 repack
 "
-attributes
-:
-local
--
-toolchain
-:
-true
 worker
 -
 type
