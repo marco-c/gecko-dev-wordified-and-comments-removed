@@ -1829,7 +1829,7 @@ None
 return
 cargo
     
-RUNTIME_LICENSE_WHITELIST
+RUNTIME_LICENSE_ALLOWLIST
 =
 [
         
@@ -1907,7 +1907,7 @@ Zlib
     
 ]
     
-BUILDTIME_LICENSE_WHITELIST
+BUILDTIME_LICENSE_ALLOWLIST
 =
 {
         
@@ -1957,7 +1957,7 @@ instant
     
 }
     
-RUNTIME_LICENSE_PACKAGE_WHITELIST
+RUNTIME_LICENSE_PACKAGE_ALLOWLIST
 =
 {
         
@@ -2035,7 +2035,7 @@ ICU4X_LICENSE_SHA256
     
 )
     
-RUNTIME_LICENSE_FILE_PACKAGE_WHITELIST
+RUNTIME_LICENSE_FILE_PACKAGE_ALLOWLIST
 =
 {
         
@@ -2257,8 +2257,8 @@ the
 license
 provided
 against
-a
-whitelist
+an
+allowlist
 of
         
 known
@@ -2500,7 +2500,7 @@ license
 in
 VendorRust
 .
-RUNTIME_LICENSE_WHITELIST
+RUNTIME_LICENSE_ALLOWLIST
 :
                 
 return
@@ -2511,7 +2511,7 @@ package
 in
 VendorRust
 .
-RUNTIME_LICENSE_PACKAGE_WHITELIST
+RUNTIME_LICENSE_PACKAGE_ALLOWLIST
 .
 get
 (
@@ -2594,7 +2594,7 @@ not
 in
 self
 .
-BUILDTIME_LICENSE_WHITELIST
+BUILDTIME_LICENSE_ALLOWLIST
 :
                     
 self
@@ -2658,7 +2658,7 @@ add
 it
 to
 the
-whitelist
+allowlist
 of
 suitable
 licenses
@@ -2679,7 +2679,7 @@ not
 in
 self
 .
-BUILDTIME_LICENSE_WHITELIST
+BUILDTIME_LICENSE_ALLOWLIST
 [
 license
 ]
@@ -2732,7 +2732,7 @@ package
 itself
 is
 not
-whitelisted
+allowlisted
 as
 being
 a
@@ -2756,7 +2756,7 @@ add
 it
 to
 the
-whitelist
+allowlist
 of
 build
 -
@@ -2793,7 +2793,7 @@ add
 it
 to
 the
-whitelist
+allowlist
 of
 suitable
 licenses
@@ -3178,7 +3178,7 @@ not
 in
 self
 .
-RUNTIME_LICENSE_FILE_PACKAGE_WHITELIST
+RUNTIME_LICENSE_FILE_PACKAGE_ALLOWLIST
 :
                 
 self
@@ -3232,7 +3232,7 @@ be
 added
 to
 the
-whitelist
+allowlist
 of
 packages
 whose
@@ -3253,7 +3253,7 @@ approved_hash
 =
 self
 .
-RUNTIME_LICENSE_FILE_PACKAGE_WHITELIST
+RUNTIME_LICENSE_FILE_PACKAGE_ALLOWLIST
 [
 package_name
 ]
