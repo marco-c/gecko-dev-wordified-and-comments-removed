@@ -1946,6 +1946,13 @@ requireContext
 isToolbarAtBottom
 (
 )
+shouldShowExtensions
+=
+requireComponents
+.
+settings
+.
+shouldShowCustomTabExtensions
 )
 }
 }
