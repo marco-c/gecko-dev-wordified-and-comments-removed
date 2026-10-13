@@ -250,6 +250,12 @@ toolchain
 -
 linux64
 -
+clang
+-
+toolchain
+-
+linux64
+-
 rust
 -
 toolchain
