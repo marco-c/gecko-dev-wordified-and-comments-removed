@@ -163,17 +163,6 @@ jp
 js
 "
 "
-bug1729435
--
-milkbarstore
-.
-com
--
-fix_cart_quantities
-.
-css
-"
-"
 bug1741234
 -
 patient
