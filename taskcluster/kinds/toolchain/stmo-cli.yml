@@ -350,7 +350,7 @@ macosx64
 sdk
 -
 toolchain
-win32
+win64
 -
 stmo
 -
@@ -360,7 +360,7 @@ treeherder
 :
 symbol
 :
-TW32
+TW64
 (
 stmo
 -
@@ -372,7 +372,7 @@ arguments
 :
 [
 '
-i686
+x86_64
 -
 pc
 -
@@ -405,6 +405,8 @@ vs
 toolchain
 win64
 -
+aarch64
+-
 stmo
 -
 cli
@@ -413,7 +415,7 @@ treeherder
 :
 symbol
 :
-TW64
+TWA64
 (
 stmo
 -
@@ -425,7 +427,7 @@ arguments
 :
 [
 '
-x86_64
+aarch64
 -
 pc
 -
