@@ -886,6 +886,12 @@ HasPacketWithBleachedEct1
 )
 const
 ;
+bool
+HasPacketWithEcn
+(
+)
+const
+;
 }
 ;
 struct
