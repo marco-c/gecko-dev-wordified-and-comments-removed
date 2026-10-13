@@ -137,13 +137,6 @@ shippable
 safari
 :
 -
-macosx1470
-.
-*
-shippable
-.
-*
--
 macosx2700
 .
 *
@@ -632,6 +625,11 @@ shippable
 safari
 :
 -
+(
+?
+!
+macosx1470
+)
 .
 *
 macos
@@ -1750,6 +1748,11 @@ shippable
 safari
 :
 -
+(
+?
+!
+macosx1470
+)
 .
 *
 macos
