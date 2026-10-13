@@ -2338,6 +2338,13 @@ MIPS
 (
 )
 ;
+static
+unsigned
+int
+LOONGARCH
+(
+)
+;
 }
 ;
 DwarfCFIToModule

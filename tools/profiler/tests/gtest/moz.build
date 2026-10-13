@@ -87,6 +87,9 @@ aarch64
 "
 x86_64
 "
+"
+loongarch64
+"
 )
 :
 UNIFIED_SOURCES
