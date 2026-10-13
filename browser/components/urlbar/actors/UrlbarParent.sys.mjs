@@ -1620,6 +1620,11 @@ message
 data
 .
 browserId
+message
+.
+data
+.
+tracksBounce
 )
 ;
 break

@@ -434,8 +434,11 @@ win
 )
 =
 >
-doClick
+doEnter
 (
+{
+}
+win
 )
 )
 assert
