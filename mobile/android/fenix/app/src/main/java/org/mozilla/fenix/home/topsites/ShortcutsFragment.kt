@@ -479,6 +479,13 @@ settings
 requireComponents
 .
 settings
+defaultTopSitesProvider
+=
+requireComponents
+.
+core
+.
+defaultTopSitesProvider
 addTabUseCase
 =
 requireComponents
