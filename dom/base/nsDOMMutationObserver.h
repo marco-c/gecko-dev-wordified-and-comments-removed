@@ -3483,8 +3483,10 @@ sCurrentBatch
 ;
 AutoTArray
 <
+RefPtr
+<
 nsDOMMutationObserver
-*
+>
 2
 >
 mObservers
