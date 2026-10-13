@@ -269,11 +269,9 @@ IOUtils
 readJSON
 (
 path
-{
-decompress
-:
-true
-}
+sessionStoreReadOptions
+(
+)
 )
 ;
 Assert

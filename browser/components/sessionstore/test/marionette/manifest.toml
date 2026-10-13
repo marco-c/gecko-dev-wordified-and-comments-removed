@@ -446,6 +446,13 @@ Bug
 ]
 [
 "
+test_restore_with_encryption
+.
+py
+"
+]
+[
+"
 test_session_availability
 .
 py

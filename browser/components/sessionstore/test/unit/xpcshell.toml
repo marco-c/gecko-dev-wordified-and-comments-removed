@@ -159,6 +159,13 @@ js
 ]
 [
 "
+test_session_migration_encryption
+.
+js
+"
+]
+[
+"
 test_session_schema
 .
 js
