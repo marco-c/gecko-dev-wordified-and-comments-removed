@@ -119,3 +119,13 @@ OS_LIBS
 m
 "
 ]
+SOURCE_HEADERS
++
+=
+[
+"
+sqlite3ext
+.
+h
+"
+]
