@@ -548,7 +548,6 @@ aInfo
 {
 if
 (
-!
 aInfo
 .
 empty
