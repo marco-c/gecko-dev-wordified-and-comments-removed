@@ -8,6 +8,8 @@ import
 re
 import
 sys
+import
+threading
 from
 subprocess
 import
@@ -52,6 +54,13 @@ f
 fix_stacks
 =
 None
+fix_stacks_lock
+=
+threading
+.
+Lock
+(
+)
 def
 autobootstrap
 (
@@ -566,19 +575,6 @@ None
 return
 line
     
-if
-not
-fix_stacks
-:
-        
-initFixStacks
-(
-jsonMode
-slowWarning
-breakpadSymsDir
-hide_errors
-)
-    
 is_missing_newline
 =
 not
@@ -605,6 +601,23 @@ line_str
 n
 "
     
+with
+fix_stacks_lock
+:
+        
+if
+not
+fix_stacks
+:
+            
+initFixStacks
+(
+jsonMode
+slowWarning
+breakpadSymsDir
+hide_errors
+)
+        
 fix_stacks
 .
 stdin
@@ -613,7 +626,7 @@ write
 (
 line_str
 )
-    
+        
 fix_stacks
 .
 stdin
@@ -621,7 +634,7 @@ stdin
 flush
 (
 )
-    
+        
 out
 =
 fix_stacks
