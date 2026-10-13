@@ -205,8 +205,16 @@ StopIterating
 (
 )
 ;
+RefPtr
+(
 doneHolder
 .
+Steal
+(
+)
+)
+-
+>
 Resolve
 (
 true
