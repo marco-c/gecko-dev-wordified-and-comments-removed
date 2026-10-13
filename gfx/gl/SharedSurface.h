@@ -604,7 +604,12 @@ IsValid
 const
 {
 return
-true
+bool
+(
+mDesc
+.
+gl
+)
 ;
 }
 ;
