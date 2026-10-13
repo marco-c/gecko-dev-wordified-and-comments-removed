@@ -1684,6 +1684,9 @@ return
 true
 ;
 }
+#
+ifndef
+XP_WIN
 static
 void
 pages_purge
@@ -1702,6 +1705,8 @@ length
 )
 ;
 }
+#
+endif
 static
 void
 *
