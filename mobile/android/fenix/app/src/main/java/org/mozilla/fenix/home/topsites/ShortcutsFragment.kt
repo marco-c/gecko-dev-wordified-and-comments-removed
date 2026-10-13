@@ -413,11 +413,6 @@ requireComponents
 core
 .
 merinoManifestProvider
-settings
-=
-requireComponents
-.
-settings
 scope
 =
 viewLifecycleOwner

@@ -389,7 +389,7 @@ MORE_THAN_PHONE_FITS
 =
 PHONE_COLLAPSED
 +
-4
+3
 /
 *
 *
@@ -1148,11 +1148,6 @@ setStatefulTopSitesContent
 count
 :
 Int
-isAddShortcutEnabled
-:
-Boolean
-=
-false
 isExpandToggleEnabled
 :
 Boolean
@@ -1206,9 +1201,6 @@ Color
 .
 White
 )
-isAddShortcutEnabled
-=
-isAddShortcutEnabled
 isExpandToggleEnabled
 =
 isExpandToggleEnabled
@@ -1359,9 +1351,6 @@ setStatefulTopSitesContent
 count
 =
 MORE_THAN_PHONE_FITS
-isAddShortcutEnabled
-=
-true
 isExpandToggleEnabled
 =
 false
@@ -1433,9 +1422,6 @@ setStatefulTopSitesContent
 count
 =
 FEWER_THAN_PHONE_FITS
-isAddShortcutEnabled
-=
-true
 isExpandToggleEnabled
 =
 false
@@ -1495,9 +1481,6 @@ setStatefulTopSitesContent
 count
 =
 PHONE_COLLAPSED
-isAddShortcutEnabled
-=
-true
 )
 composeTestRule
 .
@@ -1578,9 +1561,6 @@ setStatefulTopSitesContent
 count
 =
 PHONE_COLLAPSED
-isAddShortcutEnabled
-=
-true
 )
 composeTestRule
 .
@@ -1649,9 +1629,6 @@ setStatefulTopSitesContent
 count
 =
 WIDE_COLLAPSED
-isAddShortcutEnabled
-=
-true
 width
 =
 WIDE_WIDTH
@@ -1719,9 +1696,6 @@ setStatefulTopSitesContent
 count
 =
 MORE_THAN_PHONE_FITS
-isAddShortcutEnabled
-=
-true
 )
 composeTestRule
 .
@@ -1761,9 +1735,6 @@ setStatefulTopSitesContent
 count
 =
 MORE_THAN_PHONE_FITS
-isAddShortcutEnabled
-=
-true
 )
 composeTestRule
 .
