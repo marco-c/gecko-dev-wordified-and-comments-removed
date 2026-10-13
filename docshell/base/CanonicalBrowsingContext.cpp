@@ -15698,6 +15698,12 @@ SessionHistoryInfo
 >
 reactivatedEntry
 ;
+Maybe
+<
+PreviousSessionHistoryInfo
+>
+previousEntry
+;
 if
 (
 GetContentParent
@@ -15741,6 +15747,10 @@ Info
 )
 )
 ;
+previousEntry
+=
+previousEntryForActivation
+;
 }
 (
 void
@@ -15753,7 +15763,7 @@ SendReactivateDocuments
 this
 reactivatedEntry
 newSHIs
-previousEntryForActivation
+previousEntry
 )
 ;
 }
