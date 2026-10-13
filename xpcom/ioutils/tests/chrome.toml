@@ -54,6 +54,13 @@ html
 ]
 [
 "
+test_ioutils_encrypt
+.
+html
+"
+]
+[
+"
 test_ioutils_getfile
 .
 html
