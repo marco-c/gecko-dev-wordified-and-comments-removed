@@ -1728,7 +1728,9 @@ reset_draws
 (
 scene
 .
-prim_instances
+prim_store
+.
+pictures
 .
 len
 (
