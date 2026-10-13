@@ -699,6 +699,16 @@ MOZ_ASSERT
 mGL
 )
 ;
+if
+(
+mGL
+-
+>
+MakeCurrent
+(
+)
+)
+{
 mGL
 -
 >
@@ -709,6 +719,7 @@ fDeleteTextures
 mTextureHandle
 )
 ;
+}
 mTextureHandle
 =
 0
