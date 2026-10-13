@@ -221,6 +221,12 @@ WaitForPendingFrames
 (
 )
 ;
+bool
+IsFrameConstructionPending
+(
+)
+const
+;
 void
 EnactCandidates
 (
