@@ -320,6 +320,12 @@ exclude
 .
 *
 "
+-
+"
+vpython
+.
+*
+"
 patches
 :
 -
