@@ -23,6 +23,12 @@ path
 as
 mozpath
 from
+mach
+.
+util
+import
+get_state_dir
+from
 mozfile
 import
 which
@@ -117,7 +123,7 @@ except
 KeyError
 :
         
-fetches_dir
+toolchains_dir
 =
 os
 .
@@ -129,16 +135,11 @@ get
 MOZ_FETCHES_DIR
 "
 )
-        
-extra_search_dirs
-=
+or
+get_state_dir
 (
 )
         
-if
-fetches_dir
-:
-            
 extra_search_dirs
 =
 (
@@ -148,7 +149,7 @@ path
 .
 join
 (
-fetches_dir
+toolchains_dir
 "
 mozmake
 "
