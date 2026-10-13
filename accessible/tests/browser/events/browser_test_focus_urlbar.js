@@ -1536,6 +1536,14 @@ popupshown
 "
 )
 ;
+focused
+=
+waitForEvent
+(
+EVENT_FOCUS
+textBox
+)
+;
 EventUtils
 .
 synthesizeMouseAtCenter
@@ -1586,6 +1594,9 @@ hidePopup
 ;
 await
 popuphidden
+;
+await
+focused
 ;
 }
 else
