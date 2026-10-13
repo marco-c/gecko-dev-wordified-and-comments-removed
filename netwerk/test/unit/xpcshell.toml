@@ -15046,6 +15046,17 @@ js
 ]
 [
 "
+test_stale
+-
+while
+-
+revalidate_redirect
+.
+js
+"
+]
+[
+"
 test_standardurl
 .
 js
