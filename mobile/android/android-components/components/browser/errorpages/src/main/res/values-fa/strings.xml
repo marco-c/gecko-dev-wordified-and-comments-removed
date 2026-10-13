@@ -206,11 +206,11 @@ mozac_browser_errorpages_archive_description
 %
 1
 s
+Internet
+Archive
 %
 2
 s
-Internet
-Archive
 .
 <
 /
@@ -3156,10 +3156,6 @@ CDATA
 p
 >
 (
-e
-.
-g
-.
 <
 q
 >
@@ -3177,9 +3173,13 @@ q
 /
 p
 >
+\
+n
 <
 ul
 >
+\
+n
 <
 li
 >
@@ -3188,6 +3188,8 @@ li
 /
 li
 >
+\
+n
 <
 li
 >
@@ -3196,6 +3198,8 @@ li
 /
 li
 >
+\
+n
 <
 /
 ul
