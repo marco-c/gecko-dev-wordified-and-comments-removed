@@ -173,8 +173,6 @@ toolchain
 -
 gn
 -
-jj
--
 nasm
 -
 pkgconf
