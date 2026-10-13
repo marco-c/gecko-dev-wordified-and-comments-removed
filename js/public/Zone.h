@@ -219,7 +219,6 @@ JSObject
 obj
 )
 ;
-extern
 JS_PUBLIC_API
 void
 JS_MarkCrossZoneId
@@ -231,7 +230,6 @@ jsid
 id
 )
 ;
-extern
 JS_PUBLIC_API
 void
 JS_MarkCrossZoneIdValue
