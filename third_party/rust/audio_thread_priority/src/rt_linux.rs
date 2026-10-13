@@ -311,9 +311,13 @@ to_ne_bytes
 let
 pthread_id
 =
+(
 self
 .
 pthread_id
+as
+usize
+)
 .
 to_ne_bytes
 (
@@ -557,10 +561,7 @@ src
 )
 pthread_id
 :
-libc
-:
-:
-pthread_t
+usize
 :
 :
 from_ne_bytes
@@ -572,6 +573,11 @@ mut
 src
 )
 )
+as
+libc
+:
+:
+pthread_t
 pid
 :
 libc
