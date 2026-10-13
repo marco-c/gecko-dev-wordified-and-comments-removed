@@ -1112,7 +1112,7 @@ store
 is
 MenuAction
 .
-DismissMenuBanner
+DefaultBrowserMenuBannerDismissed
 -
 >
 dismissMenuBanner

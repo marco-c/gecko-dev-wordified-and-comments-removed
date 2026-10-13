@@ -310,11 +310,11 @@ FindInPage
 is
 MenuAction
 .
-MenuBanner
+DefaultBrowserMenuBannerClicked
 is
 MenuAction
 .
-DismissMenuBanner
+DefaultBrowserMenuBannerDismissed
 is
 MenuAction
 .

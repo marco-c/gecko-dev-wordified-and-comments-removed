@@ -3612,7 +3612,7 @@ dispatch
 (
 MenuAction
 .
-MenuBanner
+DefaultBrowserMenuBannerClicked
 )
 (
 context
@@ -3635,7 +3635,7 @@ dispatch
 (
 MenuAction
 .
-DismissMenuBanner
+DefaultBrowserMenuBannerDismissed
 )
 shouldShowMenuBanner
 =

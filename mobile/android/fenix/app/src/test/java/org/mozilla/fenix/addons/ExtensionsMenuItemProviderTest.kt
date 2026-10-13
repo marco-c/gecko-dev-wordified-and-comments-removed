@@ -1208,13 +1208,14 @@ without
 a
 tint
 .
-assertTrue
+assertIs
+<
+MenuItemIconDrawable
+>
 (
 item
 .
 icon
-is
-MenuItemIconDrawable
 )
 /
 /

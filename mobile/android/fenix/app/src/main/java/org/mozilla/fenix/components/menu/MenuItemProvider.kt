@@ -327,8 +327,6 @@ MenuEvent
 )
 :
 Boolean
-=
-false
 /
 *
 *
@@ -435,6 +433,4 @@ menu
 :
 MenuHost
 )
-=
-Unit
 }

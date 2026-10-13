@@ -2456,7 +2456,7 @@ dispatch
 (
 MenuAction
 .
-MenuBanner
+DefaultBrowserMenuBannerClicked
 )
 assertTelemetryRecorded
 (
@@ -2510,7 +2510,7 @@ dispatch
 (
 MenuAction
 .
-DismissMenuBanner
+DefaultBrowserMenuBannerDismissed
 )
 assertTelemetryRecorded
 (

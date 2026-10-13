@@ -1056,7 +1056,7 @@ find_in_page
 is
 MenuAction
 .
-MenuBanner
+DefaultBrowserMenuBannerClicked
 -
 >
 Events
@@ -1078,7 +1078,7 @@ menu_banner
 )
 MenuAction
 .
-DismissMenuBanner
+DefaultBrowserMenuBannerDismissed
 -
 >
 Events
