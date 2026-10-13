@@ -381,11 +381,6 @@ test
 test_support
 "
 "
-audio_coding
-:
-audio_coding_unittests
-"
-"
 audio_device
 :
 audio_device_unittests
@@ -409,11 +404,6 @@ pacing_unittests
 remote_bitrate_estimator
 :
 remote_bitrate_estimator_unittests
-"
-"
-rtp_rtcp
-:
-rtp_rtcp_unittests
 "
 "
 sframe
