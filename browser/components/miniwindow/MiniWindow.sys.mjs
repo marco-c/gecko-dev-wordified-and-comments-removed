@@ -1574,7 +1574,14 @@ alwaysontop
 1
 lockaspectratio
 :
+this
+.
+#
+cropped
+?
 1
+:
+0
 replaceLastTab
 :
 true
