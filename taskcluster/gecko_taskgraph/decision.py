@@ -934,7 +934,7 @@ target_tasks_method
 "
 :
 "
-default
+firefox_pull_request_tasks
 "
     
 }
