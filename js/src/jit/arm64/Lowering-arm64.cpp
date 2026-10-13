@@ -1394,6 +1394,14 @@ MIRType
 :
 :
 Int32
+|
+|
+use
+-
+>
+isRecoveredOnBailout
+(
+)
 )
 {
 return
