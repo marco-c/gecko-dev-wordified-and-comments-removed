@@ -465,6 +465,12 @@ Variant_inl
 .
 h
 -
+storage
+/
+variantToSQLiteT_impl
+.
+h
+-
 tools
 /
 profiler
