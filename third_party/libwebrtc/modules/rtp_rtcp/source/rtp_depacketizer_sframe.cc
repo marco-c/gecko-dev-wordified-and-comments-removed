@@ -138,7 +138,10 @@ std
 :
 bitset
 <
-8
+SframeDescriptor
+:
+:
+kNumBits
 >
 bits
 (

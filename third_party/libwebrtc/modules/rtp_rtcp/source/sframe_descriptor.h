@@ -33,6 +33,13 @@ kSize
 static
 constexpr
 size_t
+kNumBits
+=
+8
+;
+static
+constexpr
+size_t
 kSBit
 =
 7
