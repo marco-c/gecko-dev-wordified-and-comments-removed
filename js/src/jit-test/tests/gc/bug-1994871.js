@@ -7,7 +7,12 @@ let
 s
 =
 Symbol
+.
+for
 (
+"
+foo
+"
 )
 ;
 addMarkObservers

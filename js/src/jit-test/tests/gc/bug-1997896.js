@@ -117,7 +117,12 @@ let
 s
 =
 Symbol
+.
+for
 (
+"
+blah
+"
 )
 ;
 addMarkObservers

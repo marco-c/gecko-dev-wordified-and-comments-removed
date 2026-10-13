@@ -46,7 +46,7 @@ isAtomMarked
 this
 atom
 )
-true
+false
 )
 ;
 assertEq
@@ -75,13 +75,15 @@ isAtomMarked
 global
 atom
 )
-true
+false
 )
 ;
 let
 sym
 =
 Symbol
+.
+for
 (
 "
 baz

@@ -6797,6 +6797,13 @@ trc
 rt
 )
 ;
+trc
+.
+setAllowSweepingSymbolsEarly
+(
+true
+)
+;
 for
 (
 SweepGroupZonesIter
