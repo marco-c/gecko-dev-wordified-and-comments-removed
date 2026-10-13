@@ -118,3 +118,13 @@ WINNT
 USE_STATIC_MSVCRT
 =
 True
+SOURCE_HEADERS
++
+=
+[
+"
+nss_secutil
+.
+h
+"
+]

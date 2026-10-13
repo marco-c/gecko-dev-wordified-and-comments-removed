@@ -167,3 +167,13 @@ WINNT
 USE_STATIC_MSVCRT
 =
 True
+SOURCE_HEADERS
++
+=
+[
+"
+mar_private
+.
+h
+"
+]
