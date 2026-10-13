@@ -103,4 +103,15 @@ types
 ts
 "
 ]
+"
+exclude
+"
+:
+[
+"
+.
+/
+test
+"
+]
 }
