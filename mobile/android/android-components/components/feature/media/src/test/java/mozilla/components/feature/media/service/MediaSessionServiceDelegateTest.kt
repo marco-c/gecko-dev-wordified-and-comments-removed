@@ -2962,6 +2962,11 @@ mediaSessionCallback
 MediaSessionCallback
 (
 store
+onMediaSessionPlay
+=
+{
+true
+}
 )
 delegate
 .

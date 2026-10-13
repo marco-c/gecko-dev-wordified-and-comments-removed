@@ -221,6 +221,11 @@ PAUSED
 MediaSessionCallback
 (
 store
+onMediaSessionPlay
+=
+{
+true
+}
 )
 .
 onPlay
@@ -276,6 +281,11 @@ PLAYING
 MediaSessionCallback
 (
 store
+onMediaSessionPlay
+=
+{
+true
+}
 )
 .
 onPause
@@ -331,6 +341,11 @@ PLAYING
 MediaSessionCallback
 (
 store
+onMediaSessionPlay
+=
+{
+true
+}
 )
 .
 onSkipToNext
@@ -386,6 +401,11 @@ PLAYING
 MediaSessionCallback
 (
 store
+onMediaSessionPlay
+=
+{
+true
+}
 )
 .
 onSkipToPrevious
