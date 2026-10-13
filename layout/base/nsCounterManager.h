@@ -1029,6 +1029,16 @@ scope
 )
 {
 }
+static
+bool
+HasCounterChanges
+(
+const
+nsIFrame
+*
+aFrame
+)
+;
 bool
 AddCounterChanges
 (
