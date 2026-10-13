@@ -90,7 +90,7 @@ serverlist
 ]
 [
 "
-test_IPPAutoActivation
+test_IPPAutoRestore
 .
 js
 "
