@@ -2898,7 +2898,7 @@ uint32_t
 |
 |
 !
-CheckMatrixBound
+CheckMatrixBoundAndAlignment
 (
 output
 sizeOutput
