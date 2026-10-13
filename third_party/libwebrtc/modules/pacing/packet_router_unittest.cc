@@ -2561,10 +2561,9 @@ false
 ;
 packet_router
 .
-ConfigureForRtcpFeedback
+SetGenerateTransportSequenceNumbers
 (
 true
-false
 )
 ;
 auto
@@ -2701,9 +2700,8 @@ false
 ;
 packet_router
 .
-ConfigureForRtcpFeedback
+SetSendPacketsAsEct1
 (
-true
 true
 )
 ;
@@ -2780,9 +2778,8 @@ PacedPacketInfo
 ;
 packet_router
 .
-ConfigureForRtcpFeedback
+SetSendPacketsAsEct1
 (
-true
 false
 )
 ;
