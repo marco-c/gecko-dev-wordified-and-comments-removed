@@ -3337,7 +3337,9 @@ success
 "
 :
 "
-unavailable
+not
+-
+readerable
 "
 }
 )
@@ -3923,8 +3925,14 @@ finish
 {
 status
 :
+finalText
+?
 "
 success
+"
+:
+"
+empty
 "
 textLength
 :
