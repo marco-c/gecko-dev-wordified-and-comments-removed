@@ -10919,7 +10919,17 @@ ratio
 1
 )
 {
+auto
+lockedRatio
+=
 mFocusedWindowTransactionRatio
+.
+Lock
+(
+)
+;
+*
+lockedRatio
 =
 ratio
 ;
