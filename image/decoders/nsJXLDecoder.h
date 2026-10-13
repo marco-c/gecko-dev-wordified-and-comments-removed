@@ -511,7 +511,7 @@ Vector
 <
 uint8_t
 >
-mU8RowBuf
+mPipeInputRowBuf
 ;
 Vector
 <

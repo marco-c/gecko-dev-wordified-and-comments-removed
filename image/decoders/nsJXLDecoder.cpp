@@ -3034,7 +3034,7 @@ isValid
 |
 |
 !
-mU8RowBuf
+mPipeInputRowBuf
 .
 resize
 (
@@ -4381,7 +4381,7 @@ uint16_t
 (
 currentRow
 )
-mU8RowBuf
+mPipeInputRowBuf
 .
 begin
 (
@@ -4443,7 +4443,7 @@ i
 ]
 )
 ;
-mU8RowBuf
+mPipeInputRowBuf
 [
 i
 ]
@@ -4485,7 +4485,7 @@ v
 }
 pipeInput
 =
-mU8RowBuf
+mPipeInputRowBuf
 .
 begin
 (
@@ -4530,7 +4530,7 @@ qcms_transform_data
 (
 mTransform
 currentRow
-mU8RowBuf
+mPipeInputRowBuf
 .
 begin
 (
@@ -4547,7 +4547,7 @@ uint8_t
 *
 out
 =
-mU8RowBuf
+mPipeInputRowBuf
 .
 begin
 (
@@ -4660,7 +4660,7 @@ a
 }
 pipeInput
 =
-mU8RowBuf
+mPipeInputRowBuf
 .
 begin
 (
@@ -4687,7 +4687,7 @@ uint8_t
 *
 out
 =
-mU8RowBuf
+mPipeInputRowBuf
 .
 begin
 (
