@@ -8213,12 +8213,6 @@ selectedTab
 aInstant
 )
 ;
-selectedTab
-.
-_notselectedsinceload
-=
-false
-;
 }
 /
 *
