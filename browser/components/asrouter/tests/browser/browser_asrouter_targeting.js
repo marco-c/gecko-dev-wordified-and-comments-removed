@@ -4732,9 +4732,10 @@ checkisDefaultBrowser
 const
 expected
 =
+await
 ShellService
 .
-isDefaultBrowser
+isDefaultBrowserAsync
 (
 )
 ;
@@ -14509,9 +14510,10 @@ checkisDefaultBrowserUncached
 const
 expected
 =
+await
 ShellService
 .
-isDefaultBrowser
+isDefaultBrowserAsync
 (
 )
 ;

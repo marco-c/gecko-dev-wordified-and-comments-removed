@@ -2611,7 +2611,7 @@ new
 CachedTargetingGetter
 (
 "
-isDefaultBrowser
+isDefaultBrowserAsync
 "
 null
 FRECENT_SITES_UPDATE_INTERVAL
@@ -5545,7 +5545,7 @@ isDefaultBrowserUncached
 return
 ShellService
 .
-isDefaultBrowser
+isDefaultBrowserAsync
 (
 )
 ;

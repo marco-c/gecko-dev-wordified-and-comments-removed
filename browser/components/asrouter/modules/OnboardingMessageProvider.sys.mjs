@@ -18454,7 +18454,7 @@ lazy
 .
 ShellService
 .
-isDefaultBrowser
+isDefaultBrowserAsync
 (
 )
 ;
