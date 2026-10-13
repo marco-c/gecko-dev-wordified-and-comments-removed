@@ -693,15 +693,6 @@ optional
 =
 true
 }
-topological
--
-sort
-=
-"
-0
-.
-1
-"
 peek
 -
 poke
