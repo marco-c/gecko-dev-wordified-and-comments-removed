@@ -599,6 +599,13 @@ GetNextRow
 )
 const
 ;
+nsTableRowFrame
+*
+GetNextRowAcrossFragments
+(
+)
+const
+;
 bool
 HasUnpaginatedBSize
 (
