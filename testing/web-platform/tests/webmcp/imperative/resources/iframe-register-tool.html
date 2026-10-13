@@ -1136,7 +1136,7 @@ execute_fake_tool
 )
 {
 const
-fake_tool
+fakeTool
 =
 {
 name
@@ -1173,7 +1173,7 @@ modelContext
 .
 executeTool
 (
-fake_tool
+fakeTool
 )
 .
 then
@@ -1260,7 +1260,7 @@ listenForToolchange
 )
 {
 let
-timer_id
+timerId
 ;
 const
 listener
@@ -1272,7 +1272,7 @@ listener
 {
 clearTimeout
 (
-timer_id
+timerId
 )
 ;
 parent
@@ -1344,7 +1344,7 @@ toolchange_listening_ack
 '
 )
 ;
-timer_id
+timerId
 =
 step_timeout
 (
