@@ -90,16 +90,9 @@ util
 .
 bugbug
 import
-(
-    
 CT_LOW
-    
 BugbugTimeoutException
-    
-get_confidence_threshold
-    
 push_schedules
-)
 logger
 =
 logging
@@ -3592,24 +3585,12 @@ suite
 mozinfo
 )
         
-threshold
-=
-get_confidence_threshold
-(
-data
-"
-groups
-"
-self
-.
-CONFIDENCE_THRESHOLD
-)
-        
 bugbug_manifests
 =
 {
             
 m
+            
 for
 m
 c
@@ -3628,11 +3609,14 @@ groups
 items
 (
 )
+            
 if
 c
 >
 =
-threshold
+self
+.
+CONFIDENCE_THRESHOLD
         
 }
         
