@@ -171,12 +171,6 @@ toolchain
 -
 7zz
 -
-embedded
--
-uniffi
--
-bindgen
--
 fix
 -
 stacks
