@@ -1187,9 +1187,11 @@ clock
 -
 widget
 -
+open
+-
 menu
 -
-button2
+button
 '
 ]
 "
@@ -4190,9 +4192,11 @@ clock
 -
 widget
 -
+open
+-
 menu
 -
-button2
+button
 '
 ]
 "

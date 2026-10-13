@@ -1215,6 +1215,8 @@ stocks
 -
 widget
 -
+open
+-
 menu
 -
 button2
