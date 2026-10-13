@@ -622,7 +622,7 @@ init
 *
 param
 {
-Action
+object
 }
 initAction
 An
@@ -731,7 +731,7 @@ init
 *
 param
 {
-Action
+object
 }
 uninitAction
 An
@@ -940,7 +940,7 @@ feed
 *
 param
 {
-Action
+object
 }
 initAction
 An
@@ -962,7 +962,7 @@ created
 *
 param
 {
-Action
+object
 }
 uninitAction
 An
