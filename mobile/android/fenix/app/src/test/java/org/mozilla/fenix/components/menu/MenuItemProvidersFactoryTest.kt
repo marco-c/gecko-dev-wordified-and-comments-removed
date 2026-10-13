@@ -665,6 +665,11 @@ accessPoint
 MenuAccessPoint
 .
 Browser
+target
+=
+MenuTarget
+.
+BrowserTab
 browserStore
 =
 BrowserStore

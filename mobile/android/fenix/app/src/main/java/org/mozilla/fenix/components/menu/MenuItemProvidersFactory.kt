@@ -713,6 +713,11 @@ accessPoint
 MenuAccessPoint
 private
 val
+target
+:
+MenuTarget
+private
+val
 browserStore
 :
 BrowserStore
@@ -878,6 +883,9 @@ ReaderViewMenuItemProvider
 browserStore
 =
 browserStore
+target
+=
+target
 appStore
 =
 appStore
@@ -909,6 +917,9 @@ BookmarkMenuItemProvider
 browserStore
 =
 browserStore
+target
+=
+target
 bookmarksStorage
 =
 bookmarksStorage
@@ -950,6 +961,9 @@ DesktopSiteMenuItemProvider
 browserStore
 =
 browserStore
+target
+=
+target
 requestDesktopSite
 =
 useCases
@@ -976,6 +990,9 @@ applicationContext
 browserStore
 =
 browserStore
+target
+=
+target
 addonManager
 =
 addonManager
@@ -1005,6 +1022,9 @@ MoreMenuItemsProvider
 browserStore
 =
 browserStore
+target
+=
+target
 summarizationSettings
 =
 summarizeFeatureSettings
@@ -1022,6 +1042,9 @@ TranslationsMenuItemProvider
 browserStore
 =
 browserStore
+target
+=
+target
 translationsSettings
 =
 translationsSettings
@@ -1039,6 +1062,9 @@ SummarizePageMenuItemProvider
 browserStore
 =
 browserStore
+target
+=
+target
 summarizationSettings
 =
 summarizeFeatureSettings
@@ -1059,6 +1085,9 @@ BackMenuItemProvider
 browserStore
 =
 browserStore
+target
+=
+target
 goBack
 =
 useCases
@@ -1080,6 +1109,9 @@ ForwardMenuItemProvider
 browserStore
 =
 browserStore
+target
+=
+target
 goForward
 =
 useCases
@@ -1101,6 +1133,9 @@ ShareMenuItemProvider
 browserStore
 =
 browserStore
+target
+=
+target
 shareUseCases
 =
 useCases
@@ -1117,6 +1152,9 @@ RefreshMenuItemProvider
 browserStore
 =
 browserStore
+target
+=
+target
 reload
 =
 useCases
@@ -1145,6 +1183,9 @@ MoveToNormalTabsMenuItemProvider
 browserStore
 =
 browserStore
+target
+=
+target
 migratePrivateTab
 =
 useCases
@@ -1163,6 +1204,9 @@ ReportBrokenSiteMenuItemProvider
 browserStore
 =
 browserStore
+target
+=
+target
 settings
 =
 settings
@@ -1197,6 +1241,9 @@ ShortcutMenuItemProvider
 browserStore
 =
 browserStore
+target
+=
+target
 pinnedSiteStorage
 =
 pinnedSiteStorage
@@ -1236,6 +1283,9 @@ AddToHomeScreenMenuItemProvider
 browserStore
 =
 browserStore
+target
+=
+target
 webAppUseCases
 =
 useCases
@@ -1264,6 +1314,9 @@ tabCollectionStorage
 browserStore
 =
 browserStore
+target
+=
+target
 )
 FenixMenuItem
 .
@@ -1275,6 +1328,9 @@ OpenInAppMenuItemProvider
 browserStore
 =
 browserStore
+target
+=
+target
 appStore
 =
 appStore
@@ -1300,6 +1356,9 @@ SaveAsPdfMenuItemProvider
 browserStore
 =
 browserStore
+target
+=
+target
 saveToPdf
 =
 useCases
@@ -1321,6 +1380,9 @@ isAndroidAutomotiveAvailable
 browserStore
 =
 browserStore
+target
+=
+target
 printContent
 =
 useCases
