@@ -598,7 +598,7 @@ mid
 const
 ;
 RtpTransceiverProxyRefPtr
-FindByMLineIndex
+FindUnassociatedByMLineIndex
 (
 size_t
 mline_index

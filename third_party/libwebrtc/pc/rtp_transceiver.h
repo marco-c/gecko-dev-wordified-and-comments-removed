@@ -1589,6 +1589,15 @@ channel_transport_name
 )
 const
 ;
+absl
+:
+:
+string_view
+channel_mid
+(
+)
+const
+;
 MediaSendChannelInterface
 *
 media_send_channel
