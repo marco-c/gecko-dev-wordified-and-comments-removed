@@ -199,6 +199,13 @@ js
 ]
 [
 "
+test_PinnableSitesProvider
+.
+js
+"
+]
+[
+"
 test_PreonboardingSplash
 .
 js

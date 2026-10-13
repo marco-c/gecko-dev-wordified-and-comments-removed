@@ -322,6 +322,15 @@ mjs
 "
 modules
 /
+PinnableSitesProvider
+.
+sys
+.
+mjs
+"
+"
+modules
+/
 PreonboardingSplash
 .
 sys
