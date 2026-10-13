@@ -143,6 +143,10 @@ feature
 .
 ipprotection
 .
+auth
+.
+fxa
+.
 IPProtectionFxaAuthFlow
 .
 Companion

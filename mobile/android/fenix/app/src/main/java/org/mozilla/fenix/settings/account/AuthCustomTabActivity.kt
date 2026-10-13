@@ -105,11 +105,11 @@ feature
 .
 ipprotection
 .
-IPProtectionFxaAuthFlow
+auth
 .
-Companion
+fxa
 .
-INTENT_ON_COMPLETE
+IPProtectionActivityAuthFlowObserver
 import
 mozilla
 .
@@ -123,7 +123,11 @@ auth
 .
 fxa
 .
-IPProtectionActivityAuthFlowObserver
+IPProtectionFxaAuthFlow
+.
+Companion
+.
+INTENT_ON_COMPLETE
 import
 org
 .
