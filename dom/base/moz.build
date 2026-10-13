@@ -2179,6 +2179,11 @@ nsHistory
 cpp
 "
 "
+nsIContent
+.
+cpp
+"
+"
 nsIGlobalObject
 .
 cpp
@@ -2220,6 +2225,11 @@ cpp
 "
 "
 nsNodeInfoManager
+.
+cpp
+"
+"
+nsNodeSupportsWeakRefTearoff
 .
 cpp
 "
@@ -2928,7 +2938,7 @@ CONFIG
 PPC_VMX_FLAGS
 "
 ]
-EXTRA_JS_MODULES
+MOZ_SRC_FILES
 +
 =
 [

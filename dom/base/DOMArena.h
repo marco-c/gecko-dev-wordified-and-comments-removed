@@ -76,6 +76,12 @@ NodeInfoManager
 \
 RefPtr
 <
+mozilla
+:
+:
+dom
+:
+:
 DOMArena
 >
 arena
