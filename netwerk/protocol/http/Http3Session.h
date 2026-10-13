@@ -1721,6 +1721,16 @@ nsHttpConnectionInfo
 >
 mConnInfo
 ;
+Atomic
+<
+bool
+Relaxed
+>
+mIsTrrServiceChannel
+{
+false
+}
+;
 int64_t
 mTotalBytesRead
 =
