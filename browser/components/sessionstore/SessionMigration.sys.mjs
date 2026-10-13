@@ -660,6 +660,11 @@ id
 sessionData
 :
 state
+showReason
+:
+"
+profile_refresh
+"
 }
 url
 }

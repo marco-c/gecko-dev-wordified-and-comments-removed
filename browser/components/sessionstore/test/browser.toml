@@ -286,6 +286,13 @@ js
 ]
 [
 "
+browser_aboutSessionRestore_telemetry
+.
+js
+"
+]
+[
+"
 browser_async_duplicate_tab
 .
 js

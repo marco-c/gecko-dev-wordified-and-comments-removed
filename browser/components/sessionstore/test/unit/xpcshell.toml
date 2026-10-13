@@ -166,6 +166,13 @@ js
 ]
 [
 "
+test_session_migration_show_reason
+.
+js
+"
+]
+[
+"
 test_session_schema
 .
 js

@@ -6580,6 +6580,11 @@ id
 sessionData
 :
 state
+showReason
+:
+decision
+.
+interstitialReason
 }
 url
 }
