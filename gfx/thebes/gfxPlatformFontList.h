@@ -1983,6 +1983,15 @@ lock
 mLock
 )
 ;
+if
+(
+!
+aUserFontSet
+-
+>
+mDestroying
+)
+{
 mUserFontSetList
 .
 Insert
@@ -1990,6 +1999,7 @@ Insert
 aUserFontSet
 )
 ;
+}
 }
 void
 RemoveUserFontSet
@@ -2004,6 +2014,13 @@ lock
 (
 mLock
 )
+;
+aUserFontSet
+-
+>
+mDestroying
+=
+true
 ;
 mUserFontSetList
 .

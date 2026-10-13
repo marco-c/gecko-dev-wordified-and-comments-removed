@@ -1200,6 +1200,10 @@ friend
 class
 gfxOTSMessageContext
 ;
+friend
+class
+gfxPlatformFontList
+;
 public
 :
 using
@@ -2302,6 +2306,11 @@ mLocalRulesUsed
 ;
 bool
 mRebuildLocalRules
+;
+bool
+mDestroying
+=
+false
 ;
 uint32_t
 mDownloadCount
