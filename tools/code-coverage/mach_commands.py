@@ -652,6 +652,19 @@ task_name
     
 if
 "
+android
+"
+in
+task_name
+:
+        
+return
+"
+android
+"
+    
+if
+"
 linux
 "
 in
@@ -1980,6 +1993,12 @@ help
 Platforms
 to
 include
+(
+linux
+windows
+macos
+android
+)
 .
 Example
 :
