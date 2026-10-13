@@ -416,8 +416,6 @@ const
 ContentInfo
 &
 content
-SdpType
-type
 )
 ;
 void
