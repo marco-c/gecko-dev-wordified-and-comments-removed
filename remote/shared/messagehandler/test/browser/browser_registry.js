@@ -72,7 +72,7 @@ test_messageHandlerRegistry_API
 )
 {
 const
-sessionId
+internalSessionId
 =
 1
 ;
@@ -99,7 +99,7 @@ rootMessageHandlerRegistry
 .
 getOrCreateMessageHandler
 (
-sessionId
+internalSessionId
 )
 ;
 ok
@@ -140,7 +140,7 @@ rootMessageHandlerRegistry
 .
 getExistingMessageHandler
 (
-sessionId
+internalSessionId
 )
 "
 ROOT
@@ -167,7 +167,7 @@ rootMessageHandlerRegistry
 .
 getExistingMessageHandler
 (
-sessionId
+internalSessionId
 )
 "
 Destroyed

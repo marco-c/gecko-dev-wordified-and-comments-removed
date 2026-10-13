@@ -179,7 +179,7 @@ sys
 .
 mjs
 "
-getWebDriverSessionById
+getWebDriverSessionByInternalSessionId
 :
 "
 chrome
@@ -1128,13 +1128,13 @@ session
 =
 lazy
 .
-getWebDriverSessionById
+getWebDriverSessionByInternalSessionId
 (
 this
 .
 messageHandler
 .
-sessionId
+internalSessionId
 )
 ;
 /

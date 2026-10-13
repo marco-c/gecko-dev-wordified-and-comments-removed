@@ -1188,7 +1188,7 @@ this
 .
 _messageHandler
 .
-sessionId
+internalSessionId
 )
 ;
 }

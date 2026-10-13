@@ -529,12 +529,13 @@ param
 {
 string
 }
-sessionId
+internalSessionId
 *
 ID
 of
 the
-session
+MessageHandler
+network
 that
 sent
 the
@@ -568,7 +569,7 @@ async
 sendCommand
 (
 command
-sessionId
+internalSessionId
 )
 {
 const
@@ -609,7 +610,7 @@ sendCommand
 "
 {
 command
-sessionId
+internalSessionId
 }
 )
 ;
@@ -695,7 +696,7 @@ const
 data
 name
 relatedContexts
-sessionId
+internalSessionId
 }
 =
 messageData
@@ -734,7 +735,7 @@ RootMessageHandlerRegistry
 .
 getExistingMessageHandler
 (
-sessionId
+internalSessionId
 )
 ;
 if
@@ -754,13 +755,14 @@ handler
 for
 the
 provided
+internal
 session
 id
+/
+/
 this
 is
 a
-/
-/
 late
 event
 for
@@ -1024,7 +1026,7 @@ messageData
 {
 const
 {
-sessionId
+internalSessionId
 command
 }
 =
@@ -1059,7 +1061,7 @@ RootMessageHandlerRegistry
 .
 getExistingMessageHandler
 (
-sessionId
+internalSessionId
 )
 ;
 try

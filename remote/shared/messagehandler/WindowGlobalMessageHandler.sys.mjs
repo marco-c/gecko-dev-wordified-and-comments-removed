@@ -1306,7 +1306,7 @@ sendCommand
 command
 this
 .
-sessionId
+internalSessionId
 )
 ;
 default

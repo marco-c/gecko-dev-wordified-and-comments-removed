@@ -546,7 +546,7 @@ sendCommand
 {
 const
 {
-sessionId
+internalSessionId
 command
 }
 =
@@ -563,7 +563,7 @@ _registry
 .
 getOrCreateMessageHandler
 (
-sessionId
+internalSessionId
 )
 ;
 try
@@ -640,7 +640,7 @@ null
 sendCommand
 (
 command
-sessionId
+internalSessionId
 )
 {
 return
@@ -655,7 +655,7 @@ sendCommand
 "
 {
 command
-sessionId
+internalSessionId
 }
 )
 ;

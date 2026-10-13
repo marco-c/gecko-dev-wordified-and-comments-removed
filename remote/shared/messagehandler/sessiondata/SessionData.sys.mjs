@@ -374,6 +374,7 @@ is
 a
 map
 from
+internal
 session
 id
 to
@@ -382,10 +383,10 @@ data
 which
 will
 be
+/
+/
 persisted
 and
-/
-/
 propagated
 to
 all
@@ -1036,7 +1037,7 @@ this
 #
 messageHandler
 .
-sessionId
+internalSessionId
 )
 ;
 /
@@ -2929,7 +2930,7 @@ this
 #
 messageHandler
 .
-sessionId
+internalSessionId
 this
 .
 #

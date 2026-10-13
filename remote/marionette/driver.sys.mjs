@@ -18368,8 +18368,6 @@ registerCommandsActor
 this
 .
 currentSession
-.
-id
 )
 ;
 lazy
