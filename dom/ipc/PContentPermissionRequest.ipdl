@@ -84,7 +84,15 @@ RemotePermissionRequest
 "
 ParentImpl
 =
-virtual
+"
+mozilla
+:
+:
+dom
+:
+:
+ContentPermissionRequestParent
+"
 ]
 protocol
 PContentPermissionRequest
