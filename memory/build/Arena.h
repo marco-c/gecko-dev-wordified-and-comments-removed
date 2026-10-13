@@ -861,7 +861,7 @@ Atomic
 <
 uint64_t
 >
-mLastSignificantReuseNS
+mLastPageReuseNS
 ;
 public
 :
@@ -1882,7 +1882,7 @@ mMaxDirty
 ;
 }
 void
-NotifySignificantReuse
+NotifyPageReuse
 (
 )
 MOZ_EXCLUDES

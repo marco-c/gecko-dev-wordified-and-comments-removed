@@ -5936,7 +5936,7 @@ aReuseGraceMS
 (
 now
 -
-mLastSignificantReuseNS
+mLastPageReuseNS
 >
 =
 reuseGraceNS
@@ -9268,7 +9268,7 @@ num_dirty_after
 num_dirty_before
 )
 {
-NotifySignificantReuse
+NotifyPageReuse
 (
 )
 ;
@@ -9383,7 +9383,7 @@ num_dirty_after
 num_dirty_before
 )
 {
-NotifySignificantReuse
+NotifyPageReuse
 (
 )
 ;
@@ -9733,7 +9733,7 @@ num_dirty_after
 num_dirty_before
 )
 {
-NotifySignificantReuse
+NotifyPageReuse
 (
 )
 ;
@@ -11844,11 +11844,11 @@ void
 arena_t
 :
 :
-NotifySignificantReuse
+NotifyPageReuse
 (
 )
 {
-mLastSignificantReuseNS
+mLastPageReuseNS
 =
 GetTimestampNS
 (
@@ -12215,7 +12215,7 @@ num_dirty_after
 num_dirty_before
 )
 {
-NotifySignificantReuse
+NotifyPageReuse
 (
 )
 ;
@@ -12771,7 +12771,7 @@ opt_dirty_max
 8
 )
 )
-mLastSignificantReuseNS
+mLastPageReuseNS
 (
 GetTimestampNS
 (
@@ -17866,7 +17866,7 @@ now
 -
 arena
 .
-mLastSignificantReuseNS
+mLastPageReuseNS
 >
 =
 reuseGraceNS
