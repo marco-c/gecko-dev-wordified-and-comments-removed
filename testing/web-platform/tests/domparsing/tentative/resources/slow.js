@@ -9,3 +9,11 @@ slow
 '
 )
 ;
+window
+.
+on_slow
+?
+.
+(
+)
+;
