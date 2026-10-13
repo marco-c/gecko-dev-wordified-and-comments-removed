@@ -1,4 +1,10 @@
-This
+#
+Vendoring
+ANGLE
+The
+gfx
+/
+angle
 folder
 contains
 scripts
@@ -121,6 +127,10 @@ dependencies
 then
 execute
 the
+gfx
+/
+angle
+/
 update
 -
 angle
@@ -164,6 +174,10 @@ ANGLE
 live
 in
 the
+gfx
+/
+angle
+/
 patches
 directory
 and
@@ -826,6 +840,10 @@ can
 be
 found
 in
+gfx
+/
+angle
+/
 gn
 -
 configs
