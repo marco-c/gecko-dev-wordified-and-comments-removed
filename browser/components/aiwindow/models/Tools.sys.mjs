@@ -1299,7 +1299,7 @@ const
 GENERATE_AITAB
 =
 "
-generate_aitab
+generate_page
 "
 ;
 export
@@ -3147,7 +3147,7 @@ wants
 in
 the
 generated
-AITab
+page
 .
 "
 }
