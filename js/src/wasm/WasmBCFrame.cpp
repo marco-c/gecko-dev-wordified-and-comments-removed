@@ -2403,6 +2403,17 @@ wordSize
 return
 ;
 }
+#
+ifdef
+JS_CODEGEN_ARM64
+ImmWord
+zero
+(
+0
+)
+;
+#
+else
 RegI32
 zero
 =
@@ -2424,6 +2435,8 @@ ImmWord
 zero
 )
 ;
+#
+endif
 if
 (
 initWords
@@ -2468,6 +2481,9 @@ wordSize
 )
 ;
 }
+#
+ifndef
+JS_CODEGEN_ARM64
 ra
 -
 >
@@ -2476,6 +2492,8 @@ freeI32
 zero
 )
 ;
+#
+endif
 return
 ;
 }
@@ -2655,6 +2673,9 @@ freeI32
 lim
 )
 ;
+#
+ifndef
+JS_CODEGEN_ARM64
 ra
 -
 >
@@ -2663,6 +2684,8 @@ freeI32
 zero
 )
 ;
+#
+endif
 }
 }
 }
