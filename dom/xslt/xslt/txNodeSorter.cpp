@@ -201,10 +201,7 @@ txIEvalContext
 aContext
 )
 {
-UniquePtr
-<
-SortKey
->
+auto
 key
 =
 std

@@ -3674,10 +3674,7 @@ Value
 )
 ;
 }
-UniquePtr
-<
-WebAudioDecodeJob
->
+auto
 job
 =
 std

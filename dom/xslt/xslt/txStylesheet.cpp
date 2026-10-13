@@ -1691,10 +1691,7 @@ txExpandedName
 )
 )
 {
-UniquePtr
-<
-txDecimalFormat
->
+auto
 format
 =
 std
@@ -2703,10 +2700,7 @@ return
 NS_OK
 ;
 }
-UniquePtr
-<
-GlobalVariable
->
+auto
 var
 =
 std

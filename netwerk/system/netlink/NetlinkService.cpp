@@ -4786,10 +4786,7 @@ del
 )
 )
 ;
-UniquePtr
-<
-NetlinkLink
->
+auto
 link
 =
 std
@@ -5201,10 +5198,7 @@ del
 )
 )
 ;
-UniquePtr
-<
-NetlinkAddress
->
+auto
 address
 =
 std
@@ -5873,10 +5867,7 @@ del
 )
 )
 ;
-UniquePtr
-<
-NetlinkRoute
->
+auto
 route
 =
 std
@@ -6494,10 +6485,7 @@ del
 )
 )
 ;
-UniquePtr
-<
-NetlinkNeighbor
->
+auto
 neigh
 =
 std

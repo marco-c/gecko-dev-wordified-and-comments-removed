@@ -3528,10 +3528,7 @@ responseURL
 )
 ;
 }
-UniquePtr
-<
-RespondWithClosure
->
+auto
 closure
 =
 std

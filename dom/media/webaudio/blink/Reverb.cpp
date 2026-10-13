@@ -612,10 +612,7 @@ impulseResponseBufferLength
 bool
 allocationFailure
 ;
-UniquePtr
-<
-ReverbConvolver
->
+auto
 convolver
 =
 std

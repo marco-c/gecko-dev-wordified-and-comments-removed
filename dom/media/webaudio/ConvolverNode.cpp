@@ -1879,13 +1879,7 @@ allocationFailure
 =
 false
 ;
-UniquePtr
-<
-WebCore
-:
-:
-Reverb
->
+auto
 reverb
 =
 std

@@ -1026,13 +1026,7 @@ container
 ;
 }
 }
-std
-:
-:
-unique_ptr
-<
-SMILCompositorTable
->
+auto
 currentCompositorTable
 =
 std
