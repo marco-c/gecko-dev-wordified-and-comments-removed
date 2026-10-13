@@ -384,9 +384,7 @@ false
 }
 if
 (
-deoptLabel_
-.
-used
+needsDeoptLabel
 (
 )
 )

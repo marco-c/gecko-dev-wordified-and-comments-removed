@@ -1518,7 +1518,7 @@ pc
 ;
 }
 bool
-isDefinitelyLastOp
+isLastReachableOp
 (
 )
 const
@@ -1527,10 +1527,9 @@ return
 pc_
 =
 =
-script_
--
->
-lastPC
+analysis_
+.
+lastReachablePC
 (
 )
 ;
@@ -2353,7 +2352,7 @@ nullptr
 ;
 }
 bool
-isDefinitelyLastOp
+isLastReachableOp
 (
 )
 const
