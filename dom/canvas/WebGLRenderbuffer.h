@@ -178,6 +178,11 @@ uint32_t
 height
 )
 ;
+void
+Truncate
+(
+)
+;
 }
 ;
 }
