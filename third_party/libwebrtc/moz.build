@@ -1893,6 +1893,16 @@ libwebrtc
 /
 call
 /
+sframe_options_gn
+"
+"
+/
+third_party
+/
+libwebrtc
+/
+call
+/
 version_gn
 "
 "
