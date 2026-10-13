@@ -472,14 +472,6 @@ updaterfileutils_osx
 mm
 "
 ]
-if
-CONFIG
-[
-"
-NIGHTLY_BUILD
-"
-]
-:
 XPIDL_SOURCES
 +
 =

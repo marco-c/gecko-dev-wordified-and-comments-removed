@@ -895,13 +895,6 @@ MOZ_WIDGET_TOOLKIT
 "
 cocoa
 "
-and
-CONFIG
-[
-"
-NIGHTLY_BUILD
-"
-]
 :
 MOZ_SRC_FILES
 +
