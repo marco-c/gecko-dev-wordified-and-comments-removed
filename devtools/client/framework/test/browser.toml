@@ -2199,6 +2199,13 @@ js
 ]
 [
 "
+browser_toolbox_watchedByDevTools_bfcache
+.
+js
+"
+]
+[
+"
 browser_toolbox_window_closed_during_startup
 .
 js
