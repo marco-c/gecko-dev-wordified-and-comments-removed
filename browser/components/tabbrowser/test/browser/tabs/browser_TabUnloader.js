@@ -45,11 +45,15 @@ browser
 /
 browser
 /
-modules
+components
+/
+tabbrowser
 /
 test
 /
 browser
+/
+tabs
 /
 "
 ;
