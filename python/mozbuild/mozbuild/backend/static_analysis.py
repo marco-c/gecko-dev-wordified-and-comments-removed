@@ -50,14 +50,13 @@ non_unified_build
 [
 ]
         
-with
-open
-(
-            
+non_unified_compat
+=
 mozpath
 .
 join
 (
+            
 self
 .
 environment
@@ -73,8 +72,22 @@ unified
 -
 compat
 "
+        
 )
         
+self
+.
+backend_input_files
+.
+add
+(
+non_unified_compat
+)
+        
+with
+open
+(
+non_unified_compat
 )
 as
 fh

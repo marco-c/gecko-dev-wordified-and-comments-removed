@@ -4372,6 +4372,24 @@ json
 "
 )
     
+backend_file
+=
+mozpath
+.
+join
+(
+        
+command_context
+.
+topobjdir
+"
+backend
+.
+StaticAnalysisBackend
+"
+    
+)
+    
 if
 os
 .
@@ -4380,6 +4398,16 @@ path
 exists
 (
 compile_db
+)
+and
+not
+command_context
+.
+backend_out_of_date
+(
+        
+backend_file
+    
 )
 :
         
@@ -4426,9 +4454,42 @@ if
 config
 :
         
+if
+os
+.
+path
+.
+exists
+(
+compile_db
+)
+:
+            
 print
 (
+"
+The
+clang
+compilation
+database
+is
+out
+of
+date
+regenerating
+it
+.
+.
+.
+"
+)
+        
+else
+:
             
+print
+(
+                
 "
 Looks
 like
@@ -4440,7 +4501,7 @@ has
 not
 been
 "
-            
+                
 "
 created
 yet
@@ -4451,7 +4512,7 @@ now
 .
 .
 "
-        
+            
 )
         
 rc
