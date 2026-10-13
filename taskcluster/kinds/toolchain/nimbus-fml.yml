@@ -493,7 +493,7 @@ linux64
 -
 rust
 -
-static
+toolchain
 macosx64
 -
 nimbus
