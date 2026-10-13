@@ -132,7 +132,7 @@ this
 index
 )
 '
-gray
+black
 '
 )
 ;
@@ -144,7 +144,7 @@ other
 index
 )
 '
-gray
+black
 '
 )
 ;

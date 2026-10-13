@@ -4166,7 +4166,7 @@ attemptLastDitchGC
 (
 )
 ;
-CellColor
+bool
 isAtomReferencedByUncollectedZone
 (
 TenuredCell

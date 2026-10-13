@@ -203,7 +203,7 @@ g1
 i
 )
 '
-gray
+black
 '
 )
 ;
@@ -215,7 +215,7 @@ g2
 i
 )
 '
-gray
+black
 '
 )
 ;
@@ -270,7 +270,7 @@ g2
 i
 )
 '
-gray
+black
 '
 )
 ;
