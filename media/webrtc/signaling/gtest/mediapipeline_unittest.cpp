@@ -1210,13 +1210,6 @@ NS_OK
 ;
 }
 void
-Destroy
-(
-)
-override
-{
-}
-void
 SetProxyConfig
 (
 NrSocketProxyConfig
@@ -1596,6 +1589,9 @@ RTCP
 rtcp_packets_received_
 ;
 }
+mEvents
+-
+>
 mRtpPacketReceived
 .
 Notify

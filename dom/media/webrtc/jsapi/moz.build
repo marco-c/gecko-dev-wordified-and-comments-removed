@@ -130,6 +130,17 @@ webrtc
 /
 netwerk
 /
+base
+"
+#
+For
+nsSocketTransportService2
+.
+h
+"
+/
+netwerk
+/
 dns
 "
 #

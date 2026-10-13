@@ -397,6 +397,11 @@ mediapipeline_unittest
 cpp
 "
 "
+mediatransporthandler_unittest
+.
+cpp
+"
+"
 MockCall
 .
 cpp
