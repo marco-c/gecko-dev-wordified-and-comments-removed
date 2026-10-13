@@ -205,6 +205,9 @@ logical
 "
 ]
 ignoreFiles
+reportUnscopedDisables
+:
+true
 rules
 :
 {
