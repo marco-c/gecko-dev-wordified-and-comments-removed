@@ -7893,6 +7893,14 @@ mHasDisplayDocument
 !
 aDisplayDocument
 ;
+mIsBeingUsedAsImage
+|
+=
+aDisplayDocument
+-
+>
+mIsBeingUsedAsImage
+;
 }
 MOZ_CAN_RUN_SCRIPT
 Document
