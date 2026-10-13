@@ -1976,10 +1976,6 @@ arrayref
 "
             
 "
-mach
-"
-            
-"
 qlog
 "
         
