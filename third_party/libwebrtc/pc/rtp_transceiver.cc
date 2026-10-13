@@ -6237,6 +6237,13 @@ sframe_enabled
 channel_
 )
 {
+channel_
+-
+>
+EnableSframe
+(
+)
+;
 }
 }
 std

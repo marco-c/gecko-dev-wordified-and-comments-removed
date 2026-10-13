@@ -260,6 +260,14 @@ enable
 0
 ;
 virtual
+void
+EnableSframe
+(
+)
+=
+0
+;
+virtual
 RTCError
 SetLocalContent
 (

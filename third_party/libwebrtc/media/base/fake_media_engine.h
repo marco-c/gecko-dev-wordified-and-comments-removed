@@ -731,6 +731,13 @@ override
 =
 default
 ;
+void
+EnableSframe
+(
+)
+override
+{
+}
 const
 std
 :
@@ -1850,6 +1857,13 @@ override
 =
 default
 ;
+void
+EnableSframe
+(
+)
+override
+{
+}
 const
 std
 :
