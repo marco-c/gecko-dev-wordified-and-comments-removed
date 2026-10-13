@@ -419,8 +419,11 @@ extra_files
 .
 .
 /
+testing
+/
+test_env
 .
-vpython3
+py
 '
             
 '
@@ -430,11 +433,25 @@ vpython3
 .
 .
 /
-testing
-/
-test_env
+vpython
 .
-py
+toml
+'
+            
+'
+.
+.
+/
+.
+.
+/
+vpython
+.
+toml
+.
+uv
+.
+lock
 '
         
 ]
