@@ -1449,13 +1449,6 @@ html
 ]
 [
 "
-test_canvas_png_roundtrip
-.
-html
-"
-]
-[
-"
 test_canvas_strokeStyle_getter
 .
 html
