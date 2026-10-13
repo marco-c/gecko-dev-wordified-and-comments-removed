@@ -24222,6 +24222,14 @@ scoped_refptr
 /
 api
 :
+sframe_decryptor_interface
+"
+"
+.
+.
+/
+api
+:
 sframe_encryptor_interface
 "
 "
