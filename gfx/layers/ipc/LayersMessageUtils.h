@@ -133,7 +133,7 @@ mozilla
 /
 layers
 /
-APZInputBridge
+APZBridge
 .
 h
 "

@@ -73,7 +73,7 @@ PrefsTypes
 ;
 include
 protocol
-PAPZInputBridge
+PAPZBridge
 ;
 include
 protocol
@@ -674,13 +674,13 @@ endpoint
 )
 ;
 async
-InitAPZInputBridge
+InitAPZBridge
 (
 LayersId
 layersId
 Endpoint
 <
-PAPZInputBridgeParent
+PAPZBridgeParent
 >
 endpoint
 )

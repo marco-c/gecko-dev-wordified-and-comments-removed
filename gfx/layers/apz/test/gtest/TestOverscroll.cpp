@@ -8266,7 +8266,7 @@ nullptr
 ;
 EXPECT_FALSE
 (
-APZInputBridge
+APZBridge
 :
 :
 ActionForWheelEvent

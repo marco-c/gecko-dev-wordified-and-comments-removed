@@ -5,7 +5,7 @@ mozilla
 /
 layers
 /
-APZInputBridgeParent
+APZBridgeParent
 .
 h
 "
@@ -34,7 +34,7 @@ mozilla
 /
 layers
 /
-APZInputBridge
+APZBridge
 .
 h
 "
@@ -78,7 +78,7 @@ namespace
 layers
 {
 void
-APZInputBridgeParent
+APZBridgeParent
 :
 :
 Create
@@ -89,7 +89,7 @@ LayersId
 aLayersId
 Endpoint
 <
-PAPZInputBridgeParent
+PAPZBridgeParent
 >
 &
 &
@@ -101,7 +101,7 @@ parent
 =
 MakeRefPtr
 <
-APZInputBridgeParent
+APZBridgeParent
 >
 (
 aLayersId
@@ -124,7 +124,7 @@ MOZ_CRASH
 Failed
 to
 bind
-APZInputBridgeParent
+APZBridgeParent
 to
 endpoint
 "
@@ -134,7 +134,7 @@ endpoint
 CompositorBridgeParent
 :
 :
-SetAPZInputBridgeParent
+SetAPZBridgeParent
 (
 aLayersId
 std
@@ -147,10 +147,10 @@ parent
 )
 ;
 }
-APZInputBridgeParent
+APZBridgeParent
 :
 :
-APZInputBridgeParent
+APZBridgeParent
 (
 const
 LayersId
@@ -192,11 +192,11 @@ mTreeManager
 )
 ;
 }
-APZInputBridgeParent
+APZBridgeParent
 :
 :
 ~
-APZInputBridgeParent
+APZBridgeParent
 (
 )
 =
@@ -209,7 +209,7 @@ ipc
 :
 :
 IPCResult
-APZInputBridgeParent
+APZBridgeParent
 :
 :
 RecvReceiveMultiTouchInputEvent
@@ -233,7 +233,7 @@ event
 =
 aEvent
 ;
-APZInputBridge
+APZBridge
 :
 :
 InputBlockCallback
@@ -251,7 +251,7 @@ self
 =
 RefPtr
 <
-APZInputBridgeParent
+APZBridgeParent
 >
 (
 this
@@ -287,7 +287,7 @@ aOutResult
 mTreeManager
 -
 >
-InputBridge
+Bridge
 (
 )
 -
@@ -328,7 +328,7 @@ ipc
 :
 :
 IPCResult
-APZInputBridgeParent
+APZBridgeParent
 :
 :
 RecvReceiveMouseInputEvent
@@ -352,7 +352,7 @@ event
 =
 aEvent
 ;
-APZInputBridge
+APZBridge
 :
 :
 InputBlockCallback
@@ -370,7 +370,7 @@ self
 =
 RefPtr
 <
-APZInputBridgeParent
+APZBridgeParent
 >
 (
 this
@@ -406,7 +406,7 @@ aOutResult
 mTreeManager
 -
 >
-InputBridge
+Bridge
 (
 )
 -
@@ -447,7 +447,7 @@ ipc
 :
 :
 IPCResult
-APZInputBridgeParent
+APZBridgeParent
 :
 :
 RecvReceivePanGestureInputEvent
@@ -471,7 +471,7 @@ event
 =
 aEvent
 ;
-APZInputBridge
+APZBridge
 :
 :
 InputBlockCallback
@@ -489,7 +489,7 @@ self
 =
 RefPtr
 <
-APZInputBridgeParent
+APZBridgeParent
 >
 (
 this
@@ -525,7 +525,7 @@ aOutResult
 mTreeManager
 -
 >
-InputBridge
+Bridge
 (
 )
 -
@@ -566,7 +566,7 @@ ipc
 :
 :
 IPCResult
-APZInputBridgeParent
+APZBridgeParent
 :
 :
 RecvReceivePinchGestureInputEvent
@@ -590,7 +590,7 @@ event
 =
 aEvent
 ;
-APZInputBridge
+APZBridge
 :
 :
 InputBlockCallback
@@ -608,7 +608,7 @@ self
 =
 RefPtr
 <
-APZInputBridgeParent
+APZBridgeParent
 >
 (
 this
@@ -644,7 +644,7 @@ aOutResult
 mTreeManager
 -
 >
-InputBridge
+Bridge
 (
 )
 -
@@ -685,7 +685,7 @@ ipc
 :
 :
 IPCResult
-APZInputBridgeParent
+APZBridgeParent
 :
 :
 RecvReceiveTapGestureInputEvent
@@ -709,7 +709,7 @@ event
 =
 aEvent
 ;
-APZInputBridge
+APZBridge
 :
 :
 InputBlockCallback
@@ -727,7 +727,7 @@ self
 =
 RefPtr
 <
-APZInputBridgeParent
+APZBridgeParent
 >
 (
 this
@@ -763,7 +763,7 @@ aOutResult
 mTreeManager
 -
 >
-InputBridge
+Bridge
 (
 )
 -
@@ -804,7 +804,7 @@ ipc
 :
 :
 IPCResult
-APZInputBridgeParent
+APZBridgeParent
 :
 :
 RecvReceiveScrollWheelInputEvent
@@ -828,7 +828,7 @@ event
 =
 aEvent
 ;
-APZInputBridge
+APZBridge
 :
 :
 InputBlockCallback
@@ -846,7 +846,7 @@ self
 =
 RefPtr
 <
-APZInputBridgeParent
+APZBridgeParent
 >
 (
 this
@@ -882,7 +882,7 @@ aOutResult
 mTreeManager
 -
 >
-InputBridge
+Bridge
 (
 )
 -
@@ -923,7 +923,7 @@ ipc
 :
 :
 IPCResult
-APZInputBridgeParent
+APZBridgeParent
 :
 :
 RecvReceiveKeyboardInputEvent
@@ -947,7 +947,7 @@ event
 =
 aEvent
 ;
-APZInputBridge
+APZBridge
 :
 :
 InputBlockCallback
@@ -965,7 +965,7 @@ self
 =
 RefPtr
 <
-APZInputBridgeParent
+APZBridgeParent
 >
 (
 this
@@ -1001,7 +1001,7 @@ aOutResult
 mTreeManager
 -
 >
-InputBridge
+Bridge
 (
 )
 -
@@ -1042,7 +1042,7 @@ ipc
 :
 :
 IPCResult
-APZInputBridgeParent
+APZBridgeParent
 :
 :
 RecvUpdateWheelTransaction
@@ -1067,7 +1067,7 @@ aTargetGuid
 mTreeManager
 -
 >
-InputBridge
+Bridge
 (
 )
 -
@@ -1092,7 +1092,7 @@ ipc
 :
 :
 IPCResult
-APZInputBridgeParent
+APZBridgeParent
 :
 :
 RecvProcessUnhandledEvent
@@ -1123,7 +1123,7 @@ aRefPoint
 mTreeManager
 -
 >
-InputBridge
+Bridge
 (
 )
 -
@@ -1155,7 +1155,7 @@ ipc
 :
 :
 IPCResult
-APZInputBridgeParent
+APZBridgeParent
 :
 :
 RecvSetKeyboardMap
@@ -1169,7 +1169,7 @@ aKeyboardMap
 mTreeManager
 -
 >
-InputBridge
+Bridge
 (
 )
 -
@@ -1192,7 +1192,7 @@ ipc
 :
 :
 IPCResult
-APZInputBridgeParent
+APZBridgeParent
 :
 :
 RecvSetDPI
@@ -1206,7 +1206,7 @@ aDpiValue
 mTreeManager
 -
 >
-InputBridge
+Bridge
 (
 )
 -
@@ -1229,7 +1229,7 @@ ipc
 :
 :
 IPCResult
-APZInputBridgeParent
+APZBridgeParent
 :
 :
 RecvSetBrowserGestureResponse
@@ -1247,7 +1247,7 @@ aResponse
 mTreeManager
 -
 >
-InputBridge
+Bridge
 (
 )
 -
@@ -1271,7 +1271,7 @@ ipc
 :
 :
 IPCResult
-APZInputBridgeParent
+APZBridgeParent
 :
 :
 RecvStartAutoscroll
@@ -1289,7 +1289,7 @@ aAnchorLocation
 mTreeManager
 -
 >
-InputBridge
+Bridge
 (
 )
 -
@@ -1313,7 +1313,7 @@ ipc
 :
 :
 IPCResult
-APZInputBridgeParent
+APZBridgeParent
 :
 :
 RecvStopAutoscroll
@@ -1327,7 +1327,7 @@ aGuid
 mTreeManager
 -
 >
-InputBridge
+Bridge
 (
 )
 -
@@ -1350,7 +1350,7 @@ ipc
 :
 :
 IPCResult
-APZInputBridgeParent
+APZBridgeParent
 :
 :
 RecvSetLongTapEnabled
@@ -1364,7 +1364,7 @@ aTapGestureEnabled
 mTreeManager
 -
 >
-InputBridge
+Bridge
 (
 )
 -
@@ -1381,7 +1381,7 @@ IPC_OK
 ;
 }
 void
-APZInputBridgeParent
+APZBridgeParent
 :
 :
 ActorDestroy
@@ -1414,7 +1414,7 @@ mLayersId
 aProofOfLock
 )
 .
-mApzInputBridgeParent
+mApzBridgeParent
 =
 nullptr
 ;

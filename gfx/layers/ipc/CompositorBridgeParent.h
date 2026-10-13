@@ -90,7 +90,7 @@ mozilla
 /
 layers
 /
-APZInputBridgeParent
+APZBridgeParent
 .
 h
 "
@@ -2342,9 +2342,9 @@ mApzcTreeManagerParent
 ;
 RefPtr
 <
-APZInputBridgeParent
+APZBridgeParent
 >
-mApzInputBridgeParent
+mApzBridgeParent
 ;
 RefPtr
 <
@@ -2503,9 +2503,9 @@ aContentLayersId
 static
 RefPtr
 <
-APZInputBridgeParent
+APZBridgeParent
 >
-GetApzInputBridgeParentForRoot
+GetApzBridgeParentForRoot
 (
 LayersId
 aContentLayersId
@@ -2569,7 +2569,7 @@ aLayerTreeStateToUpdate
 ;
 static
 void
-SetAPZInputBridgeParent
+SetAPZBridgeParent
 (
 const
 LayersId
@@ -2577,11 +2577,11 @@ LayersId
 aLayersId
 RefPtr
 <
-APZInputBridgeParent
+APZBridgeParent
 >
 &
 &
-aInputBridgeParent
+aApzBridgeParent
 )
 ;
 already_AddRefed

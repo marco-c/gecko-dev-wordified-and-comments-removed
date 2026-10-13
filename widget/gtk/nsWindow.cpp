@@ -453,7 +453,7 @@ mozilla
 /
 layers
 /
-APZInputBridge
+APZBridge
 .
 h
 "
@@ -17210,7 +17210,7 @@ result
 mAPZC
 -
 >
-InputBridge
+Bridge
 (
 )
 -

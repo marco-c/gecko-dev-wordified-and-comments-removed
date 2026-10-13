@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_layers_APZInputBridge_h
+mozilla_layers_APZBridge_h
 #
 define
-mozilla_layers_APZInputBridge_h
+mozilla_layers_APZBridge_h
 #
 include
 "
@@ -63,7 +63,7 @@ namespace
 layers
 {
 class
-APZInputBridgeParent
+APZBridgeParent
 ;
 class
 AsyncPanZoomController
@@ -511,7 +511,7 @@ false
 }
 ;
 class
-APZInputBridge
+APZBridge
 {
 public
 :
@@ -657,7 +657,7 @@ protected
 :
 friend
 class
-APZInputBridgeParent
+APZBridgeParent
 ;
 virtual
 void
@@ -700,7 +700,7 @@ aTargetGuid
 ;
 virtual
 ~
-APZInputBridge
+APZBridge
 (
 )
 =

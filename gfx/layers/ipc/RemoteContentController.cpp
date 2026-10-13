@@ -287,7 +287,7 @@ apzib
 CompositorBridgeParent
 :
 :
-GetApzInputBridgeParentForRoot
+GetApzBridgeParentForRoot
 (
 mLayersId
 )
@@ -485,7 +485,7 @@ apzib
 CompositorBridgeParent
 :
 :
-GetApzInputBridgeParentForRoot
+GetApzBridgeParentForRoot
 (
 aGuid
 .
@@ -770,7 +770,7 @@ apzib
 CompositorBridgeParent
 :
 :
-GetApzInputBridgeParentForRoot
+GetApzBridgeParentForRoot
 (
 aGuid
 .
@@ -1263,7 +1263,7 @@ apzib
 CompositorBridgeParent
 :
 :
-GetApzInputBridgeParentForRoot
+GetApzBridgeParentForRoot
 (
 aGuid
 .
@@ -1469,7 +1469,7 @@ apzib
 CompositorBridgeParent
 :
 :
-GetApzInputBridgeParentForRoot
+GetApzBridgeParentForRoot
 (
 aGuid
 .
@@ -1654,7 +1654,7 @@ apzib
 CompositorBridgeParent
 :
 :
-GetApzInputBridgeParentForRoot
+GetApzBridgeParentForRoot
 (
 aGuid
 .
@@ -2171,7 +2171,7 @@ apzib
 CompositorBridgeParent
 :
 :
-GetApzInputBridgeParentForRoot
+GetApzBridgeParentForRoot
 (
 aGuid
 .
@@ -2418,7 +2418,7 @@ apzib
 CompositorBridgeParent
 :
 :
-GetApzInputBridgeParentForRoot
+GetApzBridgeParentForRoot
 (
 aGuid
 .

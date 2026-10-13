@@ -5,7 +5,7 @@ mozilla
 /
 layers
 /
-APZInputBridge
+APZBridge
 .
 h
 "
@@ -995,7 +995,7 @@ Maybe
 <
 APZWheelAction
 >
-APZInputBridge
+APZBridge
 :
 :
 ActionForWheelEvent
@@ -1072,7 +1072,7 @@ aEvent
 ;
 }
 APZEventResult
-APZInputBridge
+APZBridge
 :
 :
 ReceiveInputEvent

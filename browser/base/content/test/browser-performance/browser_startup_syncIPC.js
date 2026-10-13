@@ -462,7 +462,7 @@ maxCount
 name
 :
 "
-PAPZInputBridge
+PAPZBridge
 :
 :
 Msg_ProcessUnhandledEvent
@@ -706,7 +706,7 @@ maxCount
 name
 :
 "
-PAPZInputBridge
+PAPZBridge
 :
 :
 Msg_ProcessUnhandledEvent
@@ -725,7 +725,7 @@ maxCount
 name
 :
 "
-PAPZInputBridge
+PAPZBridge
 :
 :
 Msg_ReceiveMouseInputEvent
@@ -847,7 +847,7 @@ maxCount
 name
 :
 "
-PAPZInputBridge
+PAPZBridge
 :
 :
 Msg_ProcessUnhandledEvent
@@ -866,7 +866,7 @@ maxCount
 name
 :
 "
-PAPZInputBridge
+PAPZBridge
 :
 :
 Msg_ReceiveMouseInputEvent

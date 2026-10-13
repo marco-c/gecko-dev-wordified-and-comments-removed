@@ -72,7 +72,7 @@ namespace
 layers
 {
 class
-APZInputBridge
+APZBridge
 ;
 struct
 ZoomTarget
@@ -282,9 +282,9 @@ aGuid
 0
 ;
 virtual
-APZInputBridge
+APZBridge
 *
-InputBridge
+Bridge
 (
 )
 =
