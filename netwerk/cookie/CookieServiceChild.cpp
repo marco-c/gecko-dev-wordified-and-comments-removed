@@ -2664,10 +2664,8 @@ Length
 i
 )
 {
-RefPtr
-<
 Cookie
->
+*
 existingCookie
 =
 cookies
