@@ -588,7 +588,7 @@ mozClick
 (
 BookmarksSelectors
 .
-BOOKMARK_ITEM
+BOOKMARK_ITEM_TITLE
 (
 folderName
 )
@@ -632,7 +632,7 @@ mozLongClick
 (
 BookmarksSelectors
 .
-BOOKMARK_ITEM
+BOOKMARK_ITEM_TITLE
 (
 title
 )
@@ -654,7 +654,7 @@ mozClick
 (
 BookmarksSelectors
 .
-BOOKMARK_ITEM
+BOOKMARK_ITEM_TITLE
 (
 title
 )
@@ -714,7 +714,7 @@ mozVerify
 (
 BookmarksSelectors
 .
-BOOKMARK_ITEM
+BOOKMARK_ITEM_TITLE
 (
 title
 )

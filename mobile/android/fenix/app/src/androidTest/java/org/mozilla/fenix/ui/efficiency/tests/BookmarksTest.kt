@@ -472,7 +472,7 @@ mozVerify
 (
 BookmarksSelectors
 .
-BOOKMARK_ITEM
+BOOKMARK_ITEM_TITLE
 (
 website
 .
@@ -492,7 +492,7 @@ mozVerify
 (
 BookmarksSelectors
 .
-BOOKMARK_ITEM
+BOOKMARK_ITEM_TITLE
 (
 bookmarkFolderName
 )
@@ -540,7 +540,7 @@ mozVerify
 (
 BookmarksSelectors
 .
-BOOKMARK_ITEM
+BOOKMARK_ITEM_TITLE
 (
 "
 My
@@ -604,7 +604,7 @@ mozVerify
 (
 BookmarksSelectors
 .
-BOOKMARK_ITEM
+BOOKMARK_ITEM_TITLE
 (
 bookmarkFolderName
 )
@@ -636,7 +636,7 @@ mozVerifyElementAbsent
 (
 BookmarksSelectors
 .
-BOOKMARK_ITEM
+BOOKMARK_ITEM_TITLE
 (
 bookmarkFolderName
 )
@@ -646,7 +646,7 @@ mozVerifyElementAbsent
 (
 BookmarksSelectors
 .
-BOOKMARK_ITEM
+BOOKMARK_ITEM_TITLE
 (
 "
 My
@@ -660,7 +660,7 @@ mozVerifyElementAbsent
 (
 BookmarksSelectors
 .
-BOOKMARK_ITEM
+BOOKMARK_ITEM_TITLE
 (
 website
 .
@@ -735,7 +735,7 @@ mozVerify
 (
 BookmarksSelectors
 .
-BOOKMARK_ITEM
+BOOKMARK_ITEM_TITLE
 (
 defaultWebPage
 .
@@ -1196,7 +1196,7 @@ mozVerifyElementAbsent
 (
 BookmarksSelectors
 .
-BOOKMARK_ITEM
+BOOKMARK_ITEM_TITLE
 (
 webPages
 [
@@ -1211,7 +1211,7 @@ mozVerifyElementAbsent
 (
 BookmarksSelectors
 .
-BOOKMARK_ITEM
+BOOKMARK_ITEM_TITLE
 (
 webPages
 [
@@ -1666,7 +1666,7 @@ mozVerify
 (
 BookmarksSelectors
 .
-BOOKMARK_ITEM
+BOOKMARK_ITEM_TITLE
 (
 importedBookmarksFolder
 )
@@ -1760,7 +1760,7 @@ mozVerifyElementAbsent
 (
 BookmarksSelectors
 .
-BOOKMARK_ITEM
+BOOKMARK_ITEM_TITLE
 (
 defaultWebPage
 .
@@ -1921,13 +1921,13 @@ mozVerifyElementIsAbove
 (
 BookmarksSelectors
 .
-BOOKMARK_ITEM
+BOOKMARK_ITEM_TITLE
 (
 secondBookmarkFolderName
 )
 BookmarksSelectors
 .
-BOOKMARK_ITEM
+BOOKMARK_ITEM_TITLE
 (
 firstBookmarkFolderName
 )
@@ -1937,7 +1937,7 @@ mozVerifyElementIsAbove
 (
 BookmarksSelectors
 .
-BOOKMARK_ITEM
+BOOKMARK_ITEM_TITLE
 (
 secondWebPage
 .
@@ -1949,7 +1949,7 @@ toString
 )
 BookmarksSelectors
 .
-BOOKMARK_ITEM
+BOOKMARK_ITEM_TITLE
 (
 firstWebPage
 .
@@ -1979,13 +1979,13 @@ mozVerifyElementIsAbove
 (
 BookmarksSelectors
 .
-BOOKMARK_ITEM
+BOOKMARK_ITEM_TITLE
 (
 firstBookmarkFolderName
 )
 BookmarksSelectors
 .
-BOOKMARK_ITEM
+BOOKMARK_ITEM_TITLE
 (
 secondBookmarkFolderName
 )
@@ -1995,7 +1995,7 @@ mozVerifyElementIsAbove
 (
 BookmarksSelectors
 .
-BOOKMARK_ITEM
+BOOKMARK_ITEM_TITLE
 (
 firstWebPage
 .
@@ -2007,7 +2007,7 @@ toString
 )
 BookmarksSelectors
 .
-BOOKMARK_ITEM
+BOOKMARK_ITEM_TITLE
 (
 secondWebPage
 .
@@ -2037,13 +2037,13 @@ mozVerifyElementIsAbove
 (
 BookmarksSelectors
 .
-BOOKMARK_ITEM
+BOOKMARK_ITEM_TITLE
 (
 secondBookmarkFolderName
 )
 BookmarksSelectors
 .
-BOOKMARK_ITEM
+BOOKMARK_ITEM_TITLE
 (
 firstBookmarkFolderName
 )
@@ -2053,7 +2053,7 @@ mozVerifyElementIsAbove
 (
 BookmarksSelectors
 .
-BOOKMARK_ITEM
+BOOKMARK_ITEM_TITLE
 (
 secondWebPage
 .
@@ -2065,7 +2065,7 @@ toString
 )
 BookmarksSelectors
 .
-BOOKMARK_ITEM
+BOOKMARK_ITEM_TITLE
 (
 firstWebPage
 .
@@ -2095,13 +2095,13 @@ mozVerifyElementIsAbove
 (
 BookmarksSelectors
 .
-BOOKMARK_ITEM
+BOOKMARK_ITEM_TITLE
 (
 firstBookmarkFolderName
 )
 BookmarksSelectors
 .
-BOOKMARK_ITEM
+BOOKMARK_ITEM_TITLE
 (
 secondBookmarkFolderName
 )
@@ -2111,7 +2111,7 @@ mozVerifyElementIsAbove
 (
 BookmarksSelectors
 .
-BOOKMARK_ITEM
+BOOKMARK_ITEM_TITLE
 (
 firstWebPage
 .
@@ -2123,7 +2123,7 @@ toString
 )
 BookmarksSelectors
 .
-BOOKMARK_ITEM
+BOOKMARK_ITEM_TITLE
 (
 secondWebPage
 .

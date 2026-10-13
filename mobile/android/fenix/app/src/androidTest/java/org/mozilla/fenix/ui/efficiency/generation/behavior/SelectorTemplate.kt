@@ -232,7 +232,7 @@ data
 >
 BookmarksSelectors
 .
-BOOKMARK_ITEM
+BOOKMARK_ITEM_TITLE
 (
 data
 .

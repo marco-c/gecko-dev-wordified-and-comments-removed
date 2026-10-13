@@ -577,6 +577,9 @@ waitUntilAtLeastOneExists
 hasText
 (
 url
+substring
+=
+true
 )
 waitingTime
 )
@@ -625,6 +628,9 @@ composeTestRule
 onNodeWithText
 (
 url
+substring
+=
+true
 )
 .
 assertIsDisplayed
