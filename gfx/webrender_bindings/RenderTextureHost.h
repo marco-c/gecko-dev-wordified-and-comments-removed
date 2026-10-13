@@ -160,9 +160,6 @@ RenderTextureHostWrapper
 class
 RenderDMABUFTextureHost
 ;
-class
-RenderWaylandTextureHost
-;
 void
 ActivateBindAndTexParameteri
 (
@@ -596,17 +593,6 @@ virtual
 RenderDMABUFTextureHost
 *
 AsRenderDMABUFTextureHost
-(
-)
-{
-return
-nullptr
-;
-}
-virtual
-RenderWaylandTextureHost
-*
-AsRenderWaylandTextureHost
 (
 )
 {

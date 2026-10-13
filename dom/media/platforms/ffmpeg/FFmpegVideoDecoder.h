@@ -1122,6 +1122,12 @@ defined
 MOZ_WIDGET_GTK
 )
 bool
+UploadSWDecodeToDMABuf
+(
+)
+const
+;
+bool
 IsLinuxHDR
 (
 )
@@ -1359,6 +1365,11 @@ false
 endif
 bool
 mUsingV4L2
+=
+false
+;
+bool
+mUploadSWDecodeToDMABuf
 =
 false
 ;

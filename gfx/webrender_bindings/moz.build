@@ -536,11 +536,6 @@ RenderCompositorNative
 .
 h
 "
-"
-RenderWaylandTextureHost
-.
-h
-"
 ]
 SOURCES
 +
@@ -548,11 +543,6 @@ SOURCES
 [
 "
 RenderCompositorNative
-.
-cpp
-"
-"
-RenderWaylandTextureHost
 .
 cpp
 "
