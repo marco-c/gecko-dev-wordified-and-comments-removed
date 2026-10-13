@@ -185,7 +185,7 @@ AbstractGeneratorObject
 static
 AsyncGeneratorObject
 *
-OrdinaryCreateFromConstructorAsynGen
+OrdinaryCreateFromConstructorAsyncGen
 (
 JSContext
 *
@@ -202,6 +202,15 @@ cx
 ;
 if
 (
+!
+constructor
+-
+>
+isSelfHostedBuiltin
+(
+)
+&
+&
 !
 GetProperty
 (
@@ -325,7 +334,7 @@ AsyncGeneratorObject
 *
 generator
 =
-OrdinaryCreateFromConstructorAsynGen
+OrdinaryCreateFromConstructorAsyncGen
 (
 cx
 asyncGen

@@ -2155,6 +2155,15 @@ roots
 if
 (
 !
+fun
+-
+>
+isSelfHostedBuiltin
+(
+)
+&
+&
+!
 GetProperty
 (
 cx
