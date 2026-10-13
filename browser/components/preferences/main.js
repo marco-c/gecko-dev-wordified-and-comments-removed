@@ -9416,7 +9416,6 @@ _buildHeader
 const
 headerElement
 =
-(
 document
 .
 createElement
@@ -9428,7 +9427,6 @@ box
 -
 item
 "
-)
 )
 ;
 headerElement
