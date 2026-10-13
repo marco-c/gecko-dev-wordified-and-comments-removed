@@ -712,6 +712,13 @@ js
 ]
 [
 "
+browser_urlbar_typingRace
+.
+js
+"
+]
+[
+"
 browser_waitForLoadStartOrTimeout
 .
 js
