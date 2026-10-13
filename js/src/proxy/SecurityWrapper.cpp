@@ -81,11 +81,17 @@ bp
 )
 const
 {
+if
+(
+mayThrow
+)
+{
 ReportAccessDenied
 (
 cx
 )
 ;
+}
 *
 bp
 =
