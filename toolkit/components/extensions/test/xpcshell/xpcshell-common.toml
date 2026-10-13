@@ -2782,6 +2782,13 @@ js
 ]
 [
 "
+test_ext_runtime_sendMessage_response_warning
+.
+js
+"
+]
+[
+"
 test_ext_same_site_cookies
 .
 js

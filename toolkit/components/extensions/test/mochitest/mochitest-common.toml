@@ -1939,6 +1939,13 @@ html
 ]
 [
 "
+test_ext_runtime_sendMessage_response_warning
+.
+html
+"
+]
+[
+"
 test_ext_script_filenames
 .
 html
