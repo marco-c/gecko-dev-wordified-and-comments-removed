@@ -21812,6 +21812,17 @@ NonNull
 String
 )
 ;
+method
+UiThread
+default
+public
+void
+onExitPictureInPicture
+(
+NonNull
+GeckoSession
+)
+;
 }
 UiThread
 public
