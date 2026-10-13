@@ -2076,6 +2076,11 @@ panelOpener
 .
 clear
 (
+this
+.
+previewPanel
+.
+tabGroupPanel
 )
 ;
 }
