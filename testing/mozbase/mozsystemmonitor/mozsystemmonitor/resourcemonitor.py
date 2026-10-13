@@ -1720,6 +1720,9 @@ p
 .
 pid
                 
+try
+:
+                    
 create_time
 =
 p
@@ -1727,6 +1730,14 @@ p
 create_time
 (
 )
+                
+except
+psutil
+.
+Error
+:
+                    
+continue
                 
 if
 pid
