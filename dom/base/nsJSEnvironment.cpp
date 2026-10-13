@@ -6756,7 +6756,7 @@ Get
 tc
 -
 >
-RequestMemoryCleanup
+RequestIdleMemoryCleanup
 (
 "
 CC
@@ -8045,7 +8045,7 @@ Get
 tc
 -
 >
-RequestMemoryCleanup
+RequestIdleMemoryCleanup
 (
 "
 GC

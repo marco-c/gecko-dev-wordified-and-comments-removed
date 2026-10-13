@@ -5876,7 +5876,7 @@ Get
 )
 -
 >
-MayScheduleMemoryCleanup
+MayScheduleIdleMemoryCleanup
 (
 )
 ;

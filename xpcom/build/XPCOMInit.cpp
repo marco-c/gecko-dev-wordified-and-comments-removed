@@ -2014,7 +2014,7 @@ mozilla
 TaskController
 :
 :
-SetupMemoryCleanup
+SetupIdleMemoryCleanup
 (
 )
 ;
