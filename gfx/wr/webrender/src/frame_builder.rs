@@ -1321,6 +1321,10 @@ pub
 subpixel_mode
 :
 SubpixelMode
+pub
+shadow_offset
+:
+LayoutVector2D
 }
 pub
 struct

@@ -1685,6 +1685,17 @@ clone
 (
 )
 ;
+snapper
+.
+set_shadow_offset
+(
+pic
+.
+prim_list
+.
+shadow_offset
+)
+;
 for
 cluster
 in

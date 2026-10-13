@@ -3664,6 +3664,10 @@ pub
 flags
 :
 StackingContextFlags
+pub
+shadow_offset
+:
+LayoutVector2D
 }
 #
 [
