@@ -71,6 +71,16 @@ offset
 )
 ;
 virtual
+void
+UndefineRule
+(
+uintptr_t
+aAddress
+int
+aReg
+)
+;
+virtual
 uint32_t
 AddPfxInstr
 (
