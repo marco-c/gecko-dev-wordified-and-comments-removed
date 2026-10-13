@@ -406,9 +406,14 @@ querySelectorAll
 (
 '
 {
+CSS
+.
+escape
+(
 message
 .
 cssSelectors
+)
 }
 '
 )
