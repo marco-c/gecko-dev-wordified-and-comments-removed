@@ -331,11 +331,6 @@ from
 child
 processes
 *
-return
-{
-ActivityStreamMessageChannel
-}
-*
 /
 constructor
 (
