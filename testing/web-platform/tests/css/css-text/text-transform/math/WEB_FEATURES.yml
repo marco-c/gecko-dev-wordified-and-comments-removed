@@ -1,0 +1,14 @@
+rules
+:
+-
+"
+*
+*
+"
+:
+[
+text
+-
+transform
+mathml
+]
