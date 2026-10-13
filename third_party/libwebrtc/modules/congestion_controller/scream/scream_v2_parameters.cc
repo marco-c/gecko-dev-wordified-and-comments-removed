@@ -579,6 +579,13 @@ Millis
 500
 )
 )
+safe_reset_on_route_change
+(
+"
+SafeResetOnRouteChange
+"
+true
+)
 {
 ParseFieldTrial
 (
@@ -669,6 +676,8 @@ received_rate_window
 min_pacing_delay_for_pushback
 &
 max_pacing_delay_for_pushback
+&
+safe_reset_on_route_change
 }
 trials
 !
