@@ -2309,11 +2309,6 @@ role
 "
 group
 "
-tooltip
-=
-"
-aHTMLTooltip
-"
 >
 <
 div
