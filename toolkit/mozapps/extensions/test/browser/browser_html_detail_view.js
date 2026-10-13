@@ -1308,6 +1308,11 @@ addon
 )
 ;
 let
+cardBorderWidth
+=
+1
+;
+let
 cardWidth
 =
 cardEl
@@ -1317,6 +1322,10 @@ getBoundingClientRect
 )
 .
 width
+-
+2
+*
+cardBorderWidth
 ;
 Assert
 .

@@ -569,7 +569,8 @@ doc
 .
 querySelector
 (
-.
+moz
+-
 card
 [
 addon
@@ -1601,7 +1602,8 @@ doc
 .
 querySelector
 (
-.
+moz
+-
 card
 [
 addon
@@ -2034,7 +2036,8 @@ doc
 .
 querySelector
 (
-.
+moz
+-
 card
 [
 addon

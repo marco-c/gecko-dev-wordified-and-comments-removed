@@ -782,7 +782,9 @@ return
 template
 >
 <
-div
+moz
+-
+card
 class
 =
 "
@@ -794,6 +796,13 @@ addon
 theme
 -
 preview
+slot
+=
+"
+cover
+-
+image
+"
 >
 <
 /
@@ -1464,7 +1473,9 @@ bar
 >
 <
 /
-div
+moz
+-
+card
 >
 <
 /

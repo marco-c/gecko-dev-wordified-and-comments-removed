@@ -967,7 +967,8 @@ document
 .
 querySelector
 (
-.
+moz
+-
 card
 .
 shortcut
@@ -993,7 +994,8 @@ document
 .
 querySelector
 (
-.
+moz
+-
 card
 .
 shortcut
