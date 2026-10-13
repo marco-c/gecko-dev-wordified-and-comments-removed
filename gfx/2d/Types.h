@@ -2338,8 +2338,12 @@ ColorSpace2
 SRGB
 ;
 }
-MOZ_ASSERT_UNREACHABLE
+MOZ_CRASH
 (
+"
+bad
+YUVColorSpace
+"
 )
 ;
 }
@@ -2428,8 +2432,12 @@ ToYUVColorSpace
 )
 ;
 }
-MOZ_ASSERT_UNREACHABLE
+MOZ_CRASH
 (
+"
+bad
+ColorSpace2
+"
 )
 ;
 }
