@@ -72,13 +72,6 @@ key
 options
 )
 ;
-await
-SidebarController
-.
-waitUntilStable
-(
-)
-;
 Assert
 .
 ok
