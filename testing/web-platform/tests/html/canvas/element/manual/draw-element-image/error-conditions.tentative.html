@@ -177,6 +177,7 @@ div
 id
 =
 child
+drawable
 >
 <
 div
@@ -210,6 +211,7 @@ div
 id
 =
 child2
+drawable
 >
 <
 /
@@ -271,8 +273,8 @@ t
 draw
 non
 -
-direct
-children
+drawable
+descendants
 .
 "
 )
@@ -596,8 +598,10 @@ specified
 /
 Also
 test
-wrong
-children
+non
+-
+drawable
+descendants
 exceptions
 assert_throws_dom
 (
@@ -621,8 +625,8 @@ t
 capture
 non
 -
-direct
-children
+drawable
+descendants
 .
 "
 )
@@ -655,8 +659,8 @@ transform
 for
 non
 -
-direct
-children
+drawable
+descendants
 .
 "
 )
