@@ -1718,6 +1718,9 @@ aSupports
 ;
 return
 ptr
+!
+=
+nullptr
 ;
 }
 static
