@@ -173,6 +173,8 @@ override
 tokens
 from
 stylelint
+/
+storybook
 token
 tables
 .
@@ -182,17 +184,6 @@ filter
 token
 =
 >
-(
-isSemanticTable
-&
-&
-token
-.
-override
-)
-|
-|
-(
 !
 token
 .
@@ -222,7 +213,6 @@ includes
 id
 }
 -
-)
 )
 )
 )
