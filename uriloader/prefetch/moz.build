@@ -130,3 +130,13 @@ dom
 base
 "
 ]
+SOURCE_HEADERS
++
+=
+[
+"
+nsPrefetchService
+.
+h
+"
+]

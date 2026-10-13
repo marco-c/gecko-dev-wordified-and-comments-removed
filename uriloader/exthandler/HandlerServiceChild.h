@@ -41,8 +41,9 @@ final
 HandlerServiceChild
 (
 )
-{
-}
+=
+default
+;
 private
 :
 virtual
@@ -50,8 +51,9 @@ virtual
 HandlerServiceChild
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 }
