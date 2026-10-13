@@ -503,7 +503,6 @@ Some
 pic_context
 mut
 pic_state
-prim_list
 scratch_handle
 )
 )
@@ -585,7 +584,6 @@ restore_context
 pic_context
 .
 pic_index
-prim_list
 pic_context
 frame_context
 frame_state
@@ -787,18 +785,6 @@ spatial_node_index
 draw
 .
 spatial_node_index
-;
-pic_state
-.
-map_local_to_pic
-.
-set_target_spatial_node
-(
-spatial_node_index
-frame_context
-.
-spatial_tree
-)
 ;
 quad_transform
 .

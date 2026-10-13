@@ -1327,14 +1327,6 @@ struct
 PictureState
 {
 pub
-map_local_to_pic
-:
-SpaceMapper
-<
-LayoutPixel
-PicturePixel
->
-pub
 map_pic_to_device
 :
 SpaceMapper
