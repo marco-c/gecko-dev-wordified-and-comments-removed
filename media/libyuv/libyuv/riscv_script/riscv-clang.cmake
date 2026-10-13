@@ -352,9 +352,13 @@ add_compile_options
 -
 fno
 -
+tree
+-
 vectorize
 -
 fno
+-
+tree
 -
 slp
 -

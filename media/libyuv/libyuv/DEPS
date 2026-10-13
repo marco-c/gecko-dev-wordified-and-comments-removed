@@ -50,7 +50,7 @@ gn_version
 '
 git_revision
 :
-304bbef6c7e9a86630c12986b99c8654eb7fe648
+4f6a76b64b8279e98004f541f8e136307efe5e01
 '
 #
 ninja
@@ -503,7 +503,7 @@ buildtools
 '
 +
 '
-6a18683f555b4ac8b05ac8395c29c84483ac9588
+136da69a1267b8db487354b96d44d0cc8add5aeb
 '
 '
 src
