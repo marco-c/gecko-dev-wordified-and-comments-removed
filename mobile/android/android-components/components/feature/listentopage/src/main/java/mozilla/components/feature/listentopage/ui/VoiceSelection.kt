@@ -324,7 +324,7 @@ R
 .
 string
 .
-mozac_feature_listentopage_no_voices_available
+mozac_feature_listentopage_error_voice_options_not_available
 )
 enabled
 =
