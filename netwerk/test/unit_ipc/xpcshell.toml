@@ -1432,17 +1432,6 @@ test_http3_prio_disabled_wrap
 js
 "
 ]
-run
--
-sequentially
-=
-[
-"
-true
-"
-]
-#
-http3server
 skip
 -
 if
