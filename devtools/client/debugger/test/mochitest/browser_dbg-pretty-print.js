@@ -885,10 +885,10 @@ a
 #
 b
 =
-'
+"
 default
 value
-'
+"
 #
 reg
 static

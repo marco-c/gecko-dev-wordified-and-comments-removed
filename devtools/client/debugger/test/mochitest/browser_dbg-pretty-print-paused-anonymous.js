@@ -109,7 +109,7 @@ expression
 )
 ;
 await
-prettyPrint
+togglePrettyPrint
 (
 dbg
 )
@@ -192,9 +192,9 @@ document
 .
 addEventListener
 (
-'
+"
 click
-'
+"
 e
 =
 >
@@ -399,7 +399,7 @@ expression
 )
 ;
 await
-prettyPrint
+togglePrettyPrint
 (
 dbg
 )
@@ -486,9 +486,9 @@ document
 .
 addEventListener
 (
-'
+"
 click
-'
+"
 e
 =
 >
@@ -645,7 +645,7 @@ Function
 )
 ;
 await
-prettyPrint
+togglePrettyPrint
 (
 dbg
 )
@@ -730,9 +730,9 @@ document
 .
 addEventListener
 (
-'
+"
 click
-'
+"
 function
 (
 )

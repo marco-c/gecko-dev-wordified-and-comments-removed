@@ -2403,12 +2403,12 @@ console
 .
 log
 (
-'
+"
 query
 x
 =
 1
-'
+"
 )
 ;
 )
