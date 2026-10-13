@@ -612,6 +612,15 @@ requested_resolution_alignment
 bool
 apply_alignment_to_all_simulcast_layers
 ;
+std
+:
+:
+optional
+<
+size_t
+>
+max_pixels_per_frame
+;
 bool
 supports_native_handle
 ;

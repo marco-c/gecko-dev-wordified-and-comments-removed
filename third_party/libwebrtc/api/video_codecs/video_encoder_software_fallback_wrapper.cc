@@ -2370,6 +2370,14 @@ default_encoder_info
 .
 apply_alignment_to_all_simulcast_layers
 ;
+info
+.
+max_pixels_per_frame
+=
+fallback_encoder_info
+.
+max_pixels_per_frame
+;
 if
 (
 fallback_params_
