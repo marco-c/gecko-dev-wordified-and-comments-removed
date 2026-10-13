@@ -124,6 +124,7 @@ import
 request_options_with_mediation_optional
 fedcm_test
 select_manifest
+fedcm_expect_auto_reauthn
 fedcm_get_and_select_first_account
 }
 from
@@ -296,6 +297,9 @@ selected
 cred
 =
 await
+fedcm_expect_auto_reauthn
+(
+t
 navigator
 .
 credentials
@@ -303,6 +307,7 @@ credentials
 get
 (
 test_options
+)
 )
 ;
 assert_equals

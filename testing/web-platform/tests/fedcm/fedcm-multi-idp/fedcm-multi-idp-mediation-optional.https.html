@@ -126,6 +126,7 @@ import
 request_options_with_two_idps
 fedcm_test
 fedcm_get_and_select_first_account
+fedcm_expect_auto_reauthn
 fedcm_select_account_promise
 }
 from
@@ -215,6 +216,9 @@ should
 work
 .
 return
+fedcm_expect_auto_reauthn
+(
+t
 navigator
 .
 credentials
@@ -226,6 +230,7 @@ request_options_with_two_idps
 '
 optional
 '
+)
 )
 )
 ;

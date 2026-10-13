@@ -137,6 +137,7 @@ fedcm_test
 set_well_known_format
 request_options_with_mediation_required
 select_manifest
+fedcm_settles_without_dialog
 fedcm_get_and_select_first_account
 }
 from
@@ -284,6 +285,9 @@ t
 "
 NetworkError
 "
+fedcm_settles_without_dialog
+(
+t
 navigator
 .
 credentials
@@ -291,6 +295,7 @@ credentials
 get
 (
 options
+)
 )
 "
 Should
@@ -367,6 +372,9 @@ t
 "
 NetworkError
 "
+fedcm_settles_without_dialog
+(
+t
 navigator
 .
 credentials
@@ -374,6 +382,7 @@ credentials
 get
 (
 options
+)
 )
 "
 Should
@@ -448,6 +457,9 @@ t
 "
 NetworkError
 "
+fedcm_settles_without_dialog
+(
+t
 navigator
 .
 credentials
@@ -455,6 +467,7 @@ credentials
 get
 (
 options
+)
 )
 "
 Should
@@ -529,6 +542,9 @@ t
 "
 NetworkError
 "
+fedcm_settles_without_dialog
+(
+t
 navigator
 .
 credentials
@@ -536,6 +552,7 @@ credentials
 get
 (
 options
+)
 )
 "
 Should
