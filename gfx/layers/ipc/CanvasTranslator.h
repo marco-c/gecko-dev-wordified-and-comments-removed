@@ -750,6 +750,12 @@ SourceSurface
 >
 LookupSourceSurfaceFromSurfaceDescriptor
 (
+gfx
+:
+:
+DrawTarget
+*
+aDT
 const
 SurfaceDescriptor
 &
@@ -1708,6 +1714,12 @@ SourceSurface
 >
 GetZeroCopySurfaceFromDMABuf
 (
+gfx
+:
+:
+DrawTarget
+*
+aDT
 TextureHost
 *
 aTextureHost
