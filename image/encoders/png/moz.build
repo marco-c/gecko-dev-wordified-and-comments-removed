@@ -92,3 +92,13 @@ FINAL_LIBRARY
 "
 xul
 "
+SOURCE_HEADERS
++
+=
+[
+"
+nsPNGEncoder
+.
+h
+"
+]

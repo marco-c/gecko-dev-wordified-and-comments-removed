@@ -652,11 +652,11 @@ TerminalState
 FAILURE
 ;
 }
-private
-:
 Transition
 (
 )
+=
+delete
 ;
 }
 ;

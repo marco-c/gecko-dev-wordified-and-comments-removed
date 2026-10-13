@@ -83,3 +83,13 @@ config
 mozbuild
 "
 )
+SOURCE_HEADERS
++
+=
+[
+"
+nsIconChannel
+.
+h
+"
+]

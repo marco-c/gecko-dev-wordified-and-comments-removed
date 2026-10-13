@@ -7,6 +7,13 @@ mozilla_image_DecodedSurfaceProvider_h
 #
 include
 "
+Decoder
+.
+h
+"
+#
+include
+"
 IDecodingTask
 .
 h

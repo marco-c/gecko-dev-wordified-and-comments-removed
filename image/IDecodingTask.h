@@ -112,8 +112,6 @@ virtual
 IDecodingTask
 (
 )
-=
-default
 ;
 void
 NotifyProgress
@@ -214,8 +212,6 @@ virtual
 MetadataDecodingTask
 (
 )
-=
-default
 ;
 Mutex
 mMutex
@@ -302,8 +298,6 @@ virtual
 AnonymousDecodingTask
 (
 )
-=
-default
 ;
 NotNull
 <

@@ -83,3 +83,13 @@ FINAL_LIBRARY
 "
 xul
 "
+SOURCE_HEADERS
++
+=
+[
+"
+nsIconChannel
+.
+h
+"
+]

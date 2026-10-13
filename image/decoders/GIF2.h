@@ -5,6 +5,11 @@ mozilla_image_decoders_GIF2_H
 define
 mozilla_image_decoders_GIF2_H
 #
+include
+<
+cstdint
+>
+#
 define
 MAX_LZW_BITS
 12
