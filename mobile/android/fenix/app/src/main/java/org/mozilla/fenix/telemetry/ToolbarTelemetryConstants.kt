@@ -199,6 +199,13 @@ lens
 "
 const
 val
+ACTION_LENS_QR_CLICKED
+=
+"
+lens_qr
+"
+const
+val
 ACTION_MENU_CLICKED
 =
 "
