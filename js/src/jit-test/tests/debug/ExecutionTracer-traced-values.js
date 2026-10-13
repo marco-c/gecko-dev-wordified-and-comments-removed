@@ -22,7 +22,7 @@ gczeal
 const
 VALUE_SUMMARY_VERSION
 =
-3
+4
 ;
 const
 JSVAL_TYPE_DOUBLE
@@ -40,11 +40,6 @@ JSVAL_TYPE_BOOLEAN
 0x02
 ;
 const
-JSVAL_TYPE_UNDEFINED
-=
-0x03
-;
-const
 JSVAL_TYPE_NULL
 =
 0x04
@@ -53,6 +48,11 @@ const
 JSVAL_TYPE_MAGIC
 =
 0x05
+;
+const
+JSVAL_TYPE_UNDEFINED
+=
+0x06
 ;
 const
 JSVAL_TYPE_SYMBOL
