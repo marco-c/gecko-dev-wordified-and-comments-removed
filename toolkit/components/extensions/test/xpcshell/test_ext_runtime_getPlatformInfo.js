@@ -47,10 +47,10 @@ validArchs
 =
 [
 "
-aarch64
-"
-"
 arm
+"
+"
+arm64
 "
 "
 ppc64
