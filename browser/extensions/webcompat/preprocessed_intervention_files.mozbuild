@@ -1721,17 +1721,6 @@ fix_reply_button
 css
 "
 "
-bug2015962
--
-usbank
-.
-com
--
-fix_minimum_font_size
-.
-css
-"
-"
 bug2016030
 -
 prodamus
