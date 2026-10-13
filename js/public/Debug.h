@@ -242,7 +242,7 @@ const
 uint32_t
 VERSION
 =
-4
+3
 ;
 static
 const
