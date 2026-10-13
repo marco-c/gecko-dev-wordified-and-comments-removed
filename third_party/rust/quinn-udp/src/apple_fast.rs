@@ -1732,6 +1732,7 @@ selfp
 )
 }
 }
+unsafe
 fn
 cmsg_nxt_hdr
 (
@@ -1739,7 +1740,8 @@ cmsg_nxt_hdr
 self
 cmsg
 :
-&
+*
+const
 Self
 :
 :
