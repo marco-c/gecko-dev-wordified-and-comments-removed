@@ -8,7 +8,7 @@ error
 :
 {
 pipeline_error_to_ffi
-request_device_error_to_string
+request_device_error_to_ffi
 GPUError
 }
 make_byte_buf
@@ -29,6 +29,7 @@ FfiTextureDescriptor
 Message
 QueueWriteAction
 QueueWriteDataSource
+RequestDeviceError
 ServerMessage
 ShaderModuleCompilationMessage
 SwapChainId
@@ -2641,7 +2642,7 @@ Result
 <
 (
 )
-String
+RequestDeviceError
 >
 {
 let
@@ -3039,7 +3040,7 @@ sanitized_desc
 .
 map_err
 (
-request_device_error_to_string
+request_device_error_to_ffi
 )
 ?
 ;
@@ -3197,8 +3198,10 @@ as_ptr
 return
 Err
 (
-format
-!
+RequestDeviceError
+:
+:
+operation_error
 (
 "
 Internal
@@ -3212,6 +3215,10 @@ ash
 :
 Device
 "
+.
+to_string
+(
+)
 )
 )
 ;
@@ -3383,8 +3390,10 @@ as_ptr
 )
 )
 ;
-format
-!
+RequestDeviceError
+:
+:
+operation_error
 (
 "
 Internal
@@ -3398,6 +3407,10 @@ ash
 :
 Device
 "
+.
+to_string
+(
+)
 )
 }
 )
@@ -3491,8 +3504,10 @@ as_ptr
 )
 )
 ;
-format
-!
+RequestDeviceError
+:
+:
+operation_error
 (
 "
 Internal
@@ -3506,6 +3521,10 @@ ash
 :
 Device
 "
+.
+to_string
+(
+)
 )
 }
 )
@@ -3532,7 +3551,7 @@ new_queue_id
 .
 map_err
 (
-request_device_error_to_string
+request_device_error_to_ffi
 )
 ?
 ;
@@ -3562,7 +3581,7 @@ new_queue_id
 .
 map_err
 (
-request_device_error_to_string
+request_device_error_to_ffi
 )
 ?
 ;
