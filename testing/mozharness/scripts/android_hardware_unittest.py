@@ -1648,6 +1648,7 @@ run_filename
         
 raw_log_file
 error_summary_file
+test_summary_file
 =
 self
 .
@@ -1922,6 +1923,12 @@ error_summary_file
 "
 :
 error_summary_file
+            
+"
+test_summary_file
+"
+:
+test_summary_file
             
 "
 xpcshell_extra
@@ -3544,38 +3551,6 @@ error_list
 =
 [
 ]
-                    
-test_summary_file
-=
-self
-.
-query_test_summary_file
-(
-                        
-self
-.
-query_abs_dirs
-(
-)
-[
-"
-abs_blob_upload_dir
-"
-]
-                        
-self
-.
-config
-[
-"
-suite_definitions
-"
-]
-[
-suite_category
-]
-                    
-)
                 
 )
                 
@@ -3633,9 +3608,6 @@ ReftestFormatter
 (
 )
                 
-try
-:
-                    
 self
 .
 run_command
@@ -3651,7 +3623,23 @@ output_parser
 =
 parser
 )
-                    
+                
+self
+.
+append_test_summary
+(
+self
+.
+query_abs_dirs
+(
+)
+[
+"
+abs_blob_upload_dir
+"
+]
+)
+                
 tbpl_status
 log_level
 summary
@@ -3663,7 +3651,7 @@ evaluate_parser
 0
 summary
 )
-                    
+                
 parser
 .
 append_tinderboxprint_line
@@ -3671,15 +3659,6 @@ append_tinderboxprint_line
 self
 .
 test_suite
-)
-                
-finally
-:
-                    
-parser
-.
-finish
-(
 )
                 
 self
