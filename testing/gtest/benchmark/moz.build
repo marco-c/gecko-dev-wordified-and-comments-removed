@@ -71,6 +71,16 @@ BlackBox
 cpp
 "
 ]
+SOURCE_HEADERS
++
+=
+[
+"
+BlackBox
+.
+h
+"
+]
 FINAL_LIBRARY
 =
 "
