@@ -2268,6 +2268,16 @@ type
 at
 .
 NEW_TAB_UNLOAD
+_target
+:
+{
+browser
+window
+:
+browser
+.
+documentGlobal
+}
 }
 tabDetails
 .
