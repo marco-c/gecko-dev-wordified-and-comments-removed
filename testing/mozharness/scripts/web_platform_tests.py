@@ -1568,6 +1568,11 @@ require_test_zip
 "
 :
 True
+"
+test_summary
+"
+:
+True
 }
         
 )
@@ -2441,7 +2446,6 @@ abs_test_install_dir
         
 raw_log_file
 error_summary_file
-test_summary_file
 =
 self
 .
@@ -2518,19 +2522,6 @@ s
 "
 %
 error_summary_file
-            
-"
--
--
-log
--
-testsummary
-=
-%
-s
-"
-%
-test_summary_file
             
 "
 -
@@ -4933,6 +4924,25 @@ WptHarnessErrorList
 allow_crashes
 =
 True
+            
+test_summary_file
+=
+self
+.
+query_test_summary_file
+(
+                
+dirs
+[
+"
+abs_blob_upload_dir
+"
+]
+self
+.
+config
+            
+)
         
 )
         
@@ -5627,16 +5637,10 @@ final_env
                 
 )
                 
-self
+parser
 .
-append_test_summary
+finish
 (
-dirs
-[
-"
-abs_blob_upload_dir
-"
-]
 )
                 
 if
