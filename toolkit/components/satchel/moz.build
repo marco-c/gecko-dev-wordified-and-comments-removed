@@ -327,3 +327,13 @@ FINAL_LIBRARY
 "
 xul
 "
+SOURCE_HEADERS
++
+=
+[
+"
+nsFormFillController
+.
+h
+"
+]

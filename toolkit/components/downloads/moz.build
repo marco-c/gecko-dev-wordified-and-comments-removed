@@ -304,3 +304,13 @@ Downloads
 API
 "
 )
+SOURCE_HEADERS
++
+=
+[
+"
+DownloadPlatform
+.
+h
+"
+]

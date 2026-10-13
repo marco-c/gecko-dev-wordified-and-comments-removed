@@ -589,3 +589,13 @@ mozbuild
 NO_PGO
 =
 True
+SOURCE_HEADERS
++
+=
+[
+"
+ExceptionThrower
+.
+h
+"
+]

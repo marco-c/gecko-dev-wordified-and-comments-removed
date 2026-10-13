@@ -103,3 +103,13 @@ Application
 Update
 "
 )
+SOURCE_HEADERS
++
+=
+[
+"
+SiteCategory
+.
+h
+"
+]

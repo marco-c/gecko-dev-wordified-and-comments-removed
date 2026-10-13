@@ -182,3 +182,13 @@ FINAL_LIBRARY
 "
 xul
 "
+SOURCE_HEADERS
++
+=
+[
+"
+nsParentalControlsService
+.
+h
+"
+]

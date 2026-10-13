@@ -219,3 +219,13 @@ LICENSED_UNDER
 chromium
 "
 ]
+SOURCE_HEADERS
++
+=
+[
+"
+ApplicationReputationTelemetryUtils
+.
+h
+"
+]

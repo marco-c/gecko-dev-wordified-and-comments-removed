@@ -137,14 +137,6 @@ x
 y
 )
 )
-extern
-unsigned
-int
-BZ2_crc32Table
-[
-256
-]
-;
 static
 unsigned
 int

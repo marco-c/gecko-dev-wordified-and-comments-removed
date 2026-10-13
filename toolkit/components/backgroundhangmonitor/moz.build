@@ -360,3 +360,13 @@ config
 mozbuild
 "
 )
+SOURCE_HEADERS
++
+=
+[
+"
+ThreadStackHelper
+.
+h
+"
+]

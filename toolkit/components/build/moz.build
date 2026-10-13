@@ -122,3 +122,13 @@ url
 classifier
 "
 ]
+SOURCE_HEADERS
++
+=
+[
+"
+nsToolkitCompsModule
+.
+h
+"
+]

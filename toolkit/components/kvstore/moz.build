@@ -142,3 +142,13 @@ FINAL_LIBRARY
 "
 xul
 "
+SOURCE_HEADERS
++
+=
+[
+"
+nsKeyValueModule
+.
+h
+"
+]

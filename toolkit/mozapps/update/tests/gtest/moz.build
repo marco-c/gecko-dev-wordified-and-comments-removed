@@ -178,6 +178,16 @@ TestDirHelpers
 cpp
 "
 ]
+SOURCE_HEADERS
++
+=
+[
+"
+TestDirHelpers
+.
+h
+"
+]
 USE_STATIC_MSVCRT
 =
 True

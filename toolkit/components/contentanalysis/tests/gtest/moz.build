@@ -184,6 +184,16 @@ TestContentAnalysisUtils
 cpp
 "
 ]
+SOURCE_HEADERS
++
+=
+[
+"
+TestContentAnalysisUtils
+.
+h
+"
+]
 DIRS
 +
 =

@@ -668,3 +668,15 @@ Blocklist
 Implementation
 "
 )
+SOURCE_HEADERS
++
+=
+[
+"
+AddonManagerStartup
+-
+inlines
+.
+h
+"
+]

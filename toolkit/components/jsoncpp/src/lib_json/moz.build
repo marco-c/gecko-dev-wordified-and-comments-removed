@@ -223,3 +223,13 @@ implicit
 fallthrough
 '
 ]
+SOURCE_HEADERS
++
+=
+[
+"
+json_tool
+.
+h
+"
+]

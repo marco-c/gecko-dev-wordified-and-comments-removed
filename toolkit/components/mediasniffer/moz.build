@@ -167,3 +167,13 @@ protocol
 http
 "
 ]
+SOURCE_HEADERS
++
+=
+[
+"
+mp3sniff
+.
+h
+"
+]

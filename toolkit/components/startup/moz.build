@@ -158,3 +158,13 @@ Profile
 System
 "
 )
+SOURCE_HEADERS
++
+=
+[
+"
+nsAppStartup
+.
+h
+"
+]

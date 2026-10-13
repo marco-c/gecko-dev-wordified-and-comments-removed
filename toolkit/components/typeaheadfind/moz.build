@@ -103,3 +103,13 @@ Find
 Toolbar
 "
 )
+SOURCE_HEADERS
++
+=
+[
+"
+nsTypeAheadFind
+.
+h
+"
+]

@@ -282,3 +282,13 @@ exclusive
 docs
 "
 ]
+SOURCE_HEADERS
++
+=
+[
+"
+RestoreTabContentObserver
+.
+h
+"
+]

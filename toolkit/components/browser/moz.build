@@ -183,3 +183,13 @@ nsWebBrowser
 h
 "
 ]
+SOURCE_HEADERS
++
+=
+[
+"
+nsWebBrowserContentPolicy
+.
+h
+"
+]

@@ -132,3 +132,13 @@ js
 ctypes
 "
 )
+SOURCE_HEADERS
++
+=
+[
+"
+ctypes
+.
+h
+"
+]
