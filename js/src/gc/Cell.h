@@ -3077,17 +3077,6 @@ is_same_v
 Cell
 T
 >
-&
-&
-!
-std
-:
-:
-is_same_v
-<
-TenuredCell
-T
->
 )
 ;
 if
