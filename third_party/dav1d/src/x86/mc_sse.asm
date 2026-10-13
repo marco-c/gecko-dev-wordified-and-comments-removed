@@ -46267,9 +46267,17 @@ m4
 psrld
 m5
 16
+%
+if
+notcpuflag
+(
+sse4
+)
 mova
 m10
 blendmask
+%
+endif
 BLENDHWDW
 m4
 m0
