@@ -5224,9 +5224,14 @@ true
 }
 if
 (
+!
 gotPosition
 )
 {
+return
+false
+;
+}
 nsCOMPtr
 <
 nsIBaseWindow
@@ -5294,7 +5299,6 @@ height
 )
 ;
 }
-}
 mWindow
 -
 >
@@ -5323,7 +5327,7 @@ y
 ;
 }
 return
-gotPosition
+true
 ;
 }
 static
