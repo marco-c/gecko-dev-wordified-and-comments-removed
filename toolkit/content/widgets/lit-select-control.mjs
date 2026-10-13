@@ -77,6 +77,7 @@ mjs
 import
 {
 MozLitElement
+hasModifierKey
 }
 from
 "
@@ -1270,6 +1271,17 @@ from
 nested
 controls
 .
+return
+;
+}
+if
+(
+hasModifierKey
+(
+event
+)
+)
+{
 return
 ;
 }
