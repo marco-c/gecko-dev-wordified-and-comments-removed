@@ -228,6 +228,17 @@ create
 {
 convId
 :
+"
+conv
+-
+delete
+-
+flow
+-
+chat
+"
+toolConvId
+:
 CONV_ID
 slug
 :
