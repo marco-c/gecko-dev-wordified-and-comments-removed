@@ -1093,6 +1093,11 @@ mRasterizationTruncates
 =
 false
 ;
+bool
+mUseUploadBuffer
+=
+true
+;
 CompositionOp
 mLastCompositionOp
 =
