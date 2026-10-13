@@ -3691,8 +3691,10 @@ return
 NS_OK
 ;
 }
+RefPtr
+<
 Document
-*
+>
 doc
 =
 GetComposedDoc
