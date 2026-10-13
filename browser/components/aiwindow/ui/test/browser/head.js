@@ -749,7 +749,7 @@ MOCK_RS_RECORDS
 "
 chat
 "
-12
+11
 ]
 [
 "
@@ -1420,7 +1420,7 @@ prompt
 version
 :
 "
-v12
+v11
 .
 0
 "
@@ -1505,7 +1505,7 @@ parameters
 version
 :
 "
-v12
+v11
 .
 0
 "
@@ -1606,7 +1606,7 @@ prompt
 version
 :
 "
-v12
+v11
 .
 0
 "
@@ -1700,7 +1700,7 @@ parameters
 version
 :
 "
-v12
+v11
 .
 0
 "
