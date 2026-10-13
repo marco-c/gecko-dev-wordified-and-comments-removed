@@ -92,6 +92,9 @@ nsPIDOMWindowInner
 class
 nsContentPermissionRequestProxy
 ;
+class
+RemotePermissionRequest
+;
 namespace
 mozilla
 :
@@ -103,6 +106,9 @@ Element
 ;
 class
 PermissionRequest
+;
+class
+ContentPermissionRequestParent
 ;
 class
 ContentPermissionType
@@ -207,7 +213,7 @@ aTypesArray
 static
 already_AddRefed
 <
-PContentPermissionRequestParent
+ContentPermissionRequestParent
 >
 CreateContentPermissionRequestParent
 (
@@ -236,22 +242,6 @@ aIgnoreAllowSitePermission
 )
 ;
 static
-void
-InitContentPermissionRequestParent
-(
-PContentPermissionRequestParent
-*
-aActor
-nsTArray
-<
-PermissionRequest
->
-&
-&
-aRequests
-)
-;
-static
 nsresult
 AskPermission
 (
@@ -268,7 +258,7 @@ nsTArray
 <
 RefPtr
 <
-PContentPermissionRequestParent
+ContentPermissionRequestParent
 >
 >
 GetContentPermissionRequestParentById
@@ -283,7 +273,7 @@ static
 void
 NotifyRemoveContentPermissionRequestParent
 (
-PContentPermissionRequestParent
+ContentPermissionRequestParent
 *
 aParent
 )
@@ -293,7 +283,7 @@ nsTArray
 <
 RefPtr
 <
-PContentPermissionRequestChild
+RemotePermissionRequest
 >
 >
 GetContentPermissionRequestChildById
@@ -308,7 +298,7 @@ static
 void
 NotifyRemoveContentPermissionRequestChild
 (
-PContentPermissionRequestChild
+RemotePermissionRequest
 *
 aChild
 )

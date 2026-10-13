@@ -4210,7 +4210,7 @@ nsTArray
 <
 RefPtr
 <
-PContentPermissionRequestParent
+ContentPermissionRequestParent
 >
 >
 parentArray
