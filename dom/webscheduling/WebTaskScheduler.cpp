@@ -1623,16 +1623,6 @@ SetTimeoutForDelayedTask
 (
 task
 delay
-GetEventQueuePriority
-(
-finalPrioritySource
--
->
-Priority
-(
-)
-false
-)
 )
 ;
 if

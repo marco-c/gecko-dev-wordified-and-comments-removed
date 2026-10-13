@@ -254,8 +254,6 @@ WebTask
 aTask
 uint64_t
 aDelay
-EventQueuePriority
-aPriority
 )
 {
 if
@@ -333,7 +331,6 @@ DelayedWebTaskHandler
 cx
 this
 aTask
-aPriority
 )
 ;
 ErrorResult

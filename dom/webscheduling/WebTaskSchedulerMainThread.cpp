@@ -98,8 +98,6 @@ WebTask
 aTask
 uint64_t
 aDelay
-EventQueuePriority
-aPriority
 )
 {
 JSContext
@@ -148,7 +146,6 @@ DelayedWebTaskHandler
 cx
 this
 aTask
-aPriority
 )
 ;
 int32_t
