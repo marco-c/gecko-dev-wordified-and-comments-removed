@@ -1071,6 +1071,15 @@ str
 =
 None
     
+treeherder_group_variants
+:
+TOptional
+[
+bool
+]
+=
+None
+    
 run_without_variant
 :
 optionally_keyed_by

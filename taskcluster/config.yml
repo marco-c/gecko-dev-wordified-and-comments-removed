@@ -1166,6 +1166,17 @@ functional
 tests
 '
 '
+gv
+-
+junit
+'
+:
+'
+GeckoView
+junit
+tests
+'
+'
 l10n
 -
 bump

@@ -96,6 +96,15 @@ suffix
 :
 str
     
+treeherder_suffix
+:
+Optional
+[
+str
+]
+=
+None
+    
 mozinfo
 :
 Optional
@@ -646,6 +655,7 @@ apply_variant
 variant
 task
 name
+group_variants
 )
 :
         
@@ -685,6 +695,32 @@ suffix
 }
 "
         
+th_suffix
+=
+f
+"
+-
+{
+variant
+.
+get
+(
+'
+treeherder
+-
+suffix
+'
+)
+or
+variant
+[
+'
+suffix
+'
+]
+}
+"
+        
 group
 symbol
 =
@@ -707,20 +743,37 @@ group
 "
 ?
 "
+and
+not
+group_variants
 :
             
 group
 +
 =
-suffix
+th_suffix
         
 else
 :
             
 symbol
-+
 =
-suffix
+f
+"
+{
+symbol
+}
+{
+th_suffix
+}
+"
+.
+lstrip
+(
+"
+-
+"
+)
         
 task
 [
@@ -858,6 +911,22 @@ variants
 ]
 )
         
+group_variants
+=
+task
+.
+pop
+(
+"
+treeherder
+-
+group
+-
+variants
+"
+False
+)
+        
 variants
 =
 remove_expired
@@ -989,6 +1058,7 @@ apply_variant
 variant
 taskv
 name
+group_variants
 )
             
 else
