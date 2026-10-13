@@ -135,3 +135,13 @@ FINAL_LIBRARY
 "
 xul
 "
+SOURCE_HEADERS
++
+=
+[
+"
+nsLWBrkCIID
+.
+h
+"
+]
