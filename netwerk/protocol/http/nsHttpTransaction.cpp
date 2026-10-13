@@ -13457,8 +13457,16 @@ if
 (
 !
 mContentDecodingCheck
-&
-&
+)
+{
+MutexAutoLock
+lock
+(
+mLock
+)
+;
+if
+(
 mResponseHead
 )
 {
@@ -13479,6 +13487,7 @@ mContentDecodingCheck
 =
 true
 ;
+}
 }
 }
 return
