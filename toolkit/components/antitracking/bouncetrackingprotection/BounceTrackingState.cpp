@@ -3208,6 +3208,9 @@ siteHost
 }
 }
 nsAutoCString
+departingSiteHost
+;
+nsAutoCString
 initialSiteHost
 ;
 if
@@ -3244,8 +3247,12 @@ browsingContext
 GetCurrentWindowContext
 (
 )
-initialSiteHost
+departingSiteHost
 )
+;
+initialSiteHost
+=
+departingSiteHost
 ;
 }
 else
@@ -3296,6 +3303,10 @@ siteHost
 :
 {
 }
+departingSiteHost
+:
+{
+}
 initialSiteHost
 :
 {
@@ -3303,6 +3314,7 @@ initialSiteHost
 "
 __FUNCTION__
 siteHost
+departingSiteHost
 initialSiteHost
 )
 ;
@@ -3467,7 +3479,7 @@ NS_OK
 }
 if
 (
-siteHost
+departingSiteHost
 .
 IsEmpty
 (
@@ -3493,7 +3505,7 @@ mBounceTrackingRecord
 >
 AddBounceHost
 (
-siteHost
+departingSiteHost
 )
 ;
 }
