@@ -6149,6 +6149,13 @@ if
 (
 components
 .
+settings
+.
+migrateOnboardingStateFeatureEnabled
+&
+&
+components
+.
 fenixOnboarding
 .
 userHasBeenOnboarded
