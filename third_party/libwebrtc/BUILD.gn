@@ -4780,6 +4780,13 @@ units
 units_rust_unit_tests
 "
 "
+modules
+/
+rtp_rtcp
+:
+rust_unit_tests
+"
+"
 rtc_base
 :
 rust_unit_tests
