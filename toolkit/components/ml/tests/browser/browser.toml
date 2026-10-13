@@ -530,13 +530,6 @@ js
 ]
 [
 "
-browser_ml_privatebrowsing
-.
-js
-"
-]
-[
-"
 browser_ml_static_embeddings
 .
 js
