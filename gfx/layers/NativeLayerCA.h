@@ -1063,6 +1063,12 @@ mOpaquenessTintLayer
 =
 nullptr
 ;
+CALayer
+*
+mProtectedBackingLayer
+=
+nullptr
+;
 #
 ifdef
 NIGHTLY_BUILD
