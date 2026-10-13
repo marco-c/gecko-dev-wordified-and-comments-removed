@@ -161,15 +161,6 @@ mjs
 "
 lib
 /
-SectionsManager
-.
-sys
-.
-mjs
-"
-"
-lib
-/
 SmartShortcutsRanker
 /
 RankShortcuts
