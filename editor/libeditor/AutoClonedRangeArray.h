@@ -2941,6 +2941,15 @@ EDirection
 aDirectionAndAmount
 )
 ;
+void
+MaybeExtendAnchorFocusRangeToDeleteAdjacentWhiteSpace
+(
+const
+EditorBase
+&
+aEditorBase
+)
+;
 private
 :
 void
