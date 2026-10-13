@@ -210,6 +210,16 @@ pref
 "
 pdfjs
 .
+disableWorkerRendering
+"
+true
+)
+;
+pref
+(
+"
+pdfjs
+.
 enableAltText
 "
 false
