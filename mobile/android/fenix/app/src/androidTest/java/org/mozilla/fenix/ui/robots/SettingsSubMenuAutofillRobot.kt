@@ -3103,6 +3103,14 @@ to
 emailAddress
 "
 )
+waitForKeyboardDismiss
+(
+)
+composeTestRule
+.
+waitForIdle
+(
+)
 Log
 .
 i
