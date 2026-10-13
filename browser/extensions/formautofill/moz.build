@@ -173,6 +173,17 @@ browser
 .
 toml
 "
+"
+test
+/
+browser
+/
+rustCreditCard
+/
+browser
+.
+toml
+"
 ]
 #
 xpcshell_rust
