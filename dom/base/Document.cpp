@@ -54097,8 +54097,11 @@ minZoom
 =
 layoutDeviceScale
 *
-ViewportMinScale
+LayoutDeviceToScreenScale
 (
+0
+.
+01f
 )
 ;
 CSSToScreenScale
