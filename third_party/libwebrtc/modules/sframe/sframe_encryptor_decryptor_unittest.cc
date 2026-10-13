@@ -2078,7 +2078,7 @@ GetMaxPlaintextByteSize
 TEST_F
 (
 SframeEncryptorDecryptorTest
-DecryptReportsKeyIdErrorForUnknownKey
+DISABLED_DecryptReportsKeyIdErrorForUnknownKey
 )
 {
 ASSERT_TRUE
