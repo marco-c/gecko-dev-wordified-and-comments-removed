@@ -10706,10 +10706,9 @@ dtls_in_stun1
 ;
 if
 (
-!
 caller_dtls_in_stun
-&
-&
+!
+=
 callee_dtls_in_stun
 )
 {

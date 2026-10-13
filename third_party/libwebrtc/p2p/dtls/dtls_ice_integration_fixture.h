@@ -1043,12 +1043,11 @@ kEndpointVariants
 {
 if
 (
-!
 cc
 .
 dtls_in_stun
-&
-&
+!
+=
 sc
 .
 dtls_in_stun
