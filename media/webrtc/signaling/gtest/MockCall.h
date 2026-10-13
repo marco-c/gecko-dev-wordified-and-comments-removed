@@ -204,13 +204,9 @@ bool
 SendTelephoneEvent
 (
 int
-payload_type
 int
-payload_frequency
 int
-event
 int
-duration_ms
 )
 override
 {
@@ -242,7 +238,6 @@ Stats
 GetStats
 (
 bool
-has_remote_tracks
 )
 const
 override
@@ -338,7 +333,6 @@ Stats
 GetStats
 (
 bool
-get_and_clear_legacy_stats
 )
 const
 override
@@ -430,7 +424,6 @@ webrtc
 :
 FrameTransformerInterface
 >
-frame_transformer
 )
 override
 {
@@ -478,7 +471,6 @@ void
 SetNackHistory
 (
 int
-history_ms
 )
 override
 {
@@ -534,7 +526,6 @@ bool
 SetBaseMinimumPlayoutDelayMs
 (
 int
-delay_ms
 )
 override
 {
@@ -891,7 +882,6 @@ bool
 SetBaseMinimumPlayoutDelayMs
 (
 int
-delay_ms
 )
 override
 {
@@ -950,9 +940,7 @@ RecordingState
 SetAndGetRecordingState
 (
 RecordingState
-state
 bool
-generate_key_frame
 )
 override
 {
@@ -1337,7 +1325,6 @@ webrtc
 :
 :
 EncoderSwitchRequestCallback
-encoder_switch_request_callback
 =
 nullptr
 )
@@ -1409,17 +1396,14 @@ VideoSendStream
 :
 :
 Config
-config
 webrtc
 :
 :
 VideoEncoderConfig
-encoder_config
 webrtc
 :
 :
 EncoderSwitchRequestCallback
-encoder_switch_request_callback
 std
 :
 :
@@ -1430,7 +1414,6 @@ webrtc
 :
 FecController
 >
-fec_controller
 )
 override
 {
@@ -1575,7 +1558,6 @@ FlexfecReceiveStream
 :
 :
 Config
-config
 )
 override
 {
@@ -2027,7 +2009,6 @@ webrtc
 :
 RtcEventLog
 >
-aEventLog
 mozilla
 :
 :
@@ -2038,7 +2019,6 @@ webrtc
 :
 TaskQueueFactory
 >
-aTaskQueueFactory
 const
 mozilla
 :

@@ -610,7 +610,6 @@ int
 AddNewMedia
 (
 sdp_media_e
-type
 )
 {
 final_level_

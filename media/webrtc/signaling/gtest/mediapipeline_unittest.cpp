@@ -406,7 +406,6 @@ task
 const
 PostTaskTraits
 &
-traits
 const
 webrtc
 :
@@ -764,7 +763,6 @@ FakeAudioTrackGenerateData
 (
 nsITimer
 *
-timer
 void
 *
 closure
@@ -1141,7 +1139,6 @@ GetIceLog
 const
 nsCString
 &
-aPattern
 )
 override
 {
@@ -1196,12 +1193,10 @@ dom
 RTCIceServer
 >
 &
-aIceServers
 dom
 :
 :
 RTCIceTransportPolicy
-aIcePolicy
 )
 override
 {
@@ -1453,9 +1448,7 @@ std
 :
 string
 &
-aTransportId
 DOMHighResTimeStamp
-aNow
 )
 override
 {
@@ -2301,7 +2294,6 @@ aTransportId
 const
 MediaPipelineTestOptions
 &
-aOptions
 )
 {
 std

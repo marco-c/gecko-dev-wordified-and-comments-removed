@@ -116,7 +116,6 @@ Update
 (
 auto
 &
-aControl
 )
 {
 mAudioConduit
