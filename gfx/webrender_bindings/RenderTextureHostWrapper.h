@@ -174,6 +174,13 @@ AsRenderDMABUFTextureHost
 )
 override
 ;
+RenderWaylandTextureHost
+*
+AsRenderWaylandTextureHost
+(
+)
+override
+;
 void
 SetIsSoftwareDecodedVideo
 (
