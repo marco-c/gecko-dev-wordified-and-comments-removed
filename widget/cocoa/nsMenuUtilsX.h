@@ -7,6 +7,15 @@ nsMenuUtilsX_h_
 #
 include
 "
+mozilla
+/
+AlreadyAddRefed
+.
+h
+"
+#
+include
+"
 nsStringFwd
 .
 h
@@ -78,8 +87,10 @@ uint8_t
 geckoModifiers
 )
 ;
+already_AddRefed
+<
 nsMenuBarX
-*
+>
 GetHiddenWindowMenuBar
 (
 )
