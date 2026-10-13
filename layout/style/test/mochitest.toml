@@ -4,6 +4,9 @@ DEFAULT
 prefs
 =
 [
+#
+Bug
+2077709
 "
 dom
 .
@@ -152,17 +155,6 @@ css
 field
 -
 sizing
-.
-enabled
-=
-true
-"
-"
-layout
-.
-css
-.
-attr
 .
 enabled
 =

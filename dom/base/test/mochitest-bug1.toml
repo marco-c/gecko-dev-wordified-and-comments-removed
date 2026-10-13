@@ -42,6 +42,9 @@ rewrite_youtube_embeds
 =
 true
 "
+#
+Bug
+2077709
 "
 dom
 .
