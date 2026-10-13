@@ -64,6 +64,8 @@ components
 feature
 .
 ipprotection
+.
+storage
 import
 kotlinx
 .
@@ -275,6 +277,14 @@ a
 convenience
 for
 [
+mozilla
+.
+components
+.
+feature
+.
+ipprotection
+.
 IPProtectionFeature
 ]
 that
@@ -282,12 +292,12 @@ needs
 to
 react
 to
+*
 multiple
 data
 sources
 in
 combination
-*
 so
 forwarding
 them
@@ -300,6 +310,7 @@ Store
 to
 be
 the
+*
 single
 -
 source

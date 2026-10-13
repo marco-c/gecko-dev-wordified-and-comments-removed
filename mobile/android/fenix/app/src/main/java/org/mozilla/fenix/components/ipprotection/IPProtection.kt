@@ -119,7 +119,11 @@ feature
 .
 ipprotection
 .
-IPProtectionStorageSynchronizer
+auth
+.
+gpi
+.
+IPProtectionGpiProvider
 import
 mozilla
 .
@@ -129,11 +133,9 @@ feature
 .
 ipprotection
 .
-auth
+storage
 .
-gpi
-.
-IPProtectionGpiProvider
+IPProtectionStorageSynchronizer
 import
 mozilla
 .

@@ -64,6 +64,8 @@ components
 feature
 .
 ipprotection
+.
+storage
 import
 kotlinx
 .

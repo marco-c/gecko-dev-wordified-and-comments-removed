@@ -157,6 +157,8 @@ feature
 .
 ipprotection
 .
+storage
+.
 IPProtectionEligibilityStorage
 import
 mozilla
