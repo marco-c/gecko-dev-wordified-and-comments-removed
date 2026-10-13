@@ -135,6 +135,15 @@ nsIProgressEventSink
 >
 mProgressSink
 ;
+Atomic
+<
+bool
+>
+mHasProgressSink
+{
+false
+}
+;
 nsCOMPtr
 <
 nsIInterceptedBodyCallback
