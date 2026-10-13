@@ -411,6 +411,13 @@ DEFINE_ASYNC
 HostWebGLContext
 :
 :
+ClipControlEXT
+)
+DEFINE_ASYNC
+(
+HostWebGLContext
+:
+:
 ColorMask
 )
 DEFINE_ASYNC

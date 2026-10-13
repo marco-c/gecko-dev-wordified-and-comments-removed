@@ -2563,6 +2563,17 @@ GLsizei
 srcDepth
 )
 ;
+void
+(
+GLAPIENTRY
+*
+fClipControl
+)
+(
+GLenum
+GLenum
+)
+;
 GLenum
 (
 GLAPIENTRY

@@ -7051,6 +7051,15 @@ v
 )
 ;
 void
+ClipControlEXT
+(
+GLenum
+origin
+GLenum
+depth
+)
+;
+void
 ColorMask
 (
 bool
