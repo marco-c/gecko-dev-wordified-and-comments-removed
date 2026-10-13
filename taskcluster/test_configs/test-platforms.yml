@@ -2449,6 +2449,10 @@ aarch64
 vms
 -
 tests
+-
+awsy
+-
+pageload
 macosx1500
 -
 aarch64
