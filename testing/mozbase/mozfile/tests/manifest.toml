@@ -8,6 +8,13 @@ mozbase
 "
 [
 "
+test_copycontents
+.
+py
+"
+]
+[
+"
 test_extract
 .
 py
