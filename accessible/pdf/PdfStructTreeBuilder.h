@@ -278,9 +278,11 @@ mLastPdfId
 =
 0
 ;
-mozilla
-:
-:
+bool
+mBuilt
+=
+false
+;
 HashMap
 <
 GlobalAccessibleId
@@ -297,9 +299,6 @@ friend
 class
 nsTArrayElementTraits
 <
-mozilla
-:
-:
 a11y
 :
 :
