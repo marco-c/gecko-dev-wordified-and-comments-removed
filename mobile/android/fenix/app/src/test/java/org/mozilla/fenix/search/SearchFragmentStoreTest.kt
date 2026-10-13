@@ -1203,6 +1203,8 @@ currentTabData
 CurrentTabData
 (
 "
+search
+terms
 "
 "
 https
