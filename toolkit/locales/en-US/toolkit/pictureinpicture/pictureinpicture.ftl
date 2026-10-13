@@ -537,6 +537,9 @@ pictureinpicture
 -
 subtitles
 -
+toggle
+=
+.
 label
 =
 Subtitles
@@ -816,6 +819,9 @@ font
 -
 size
 -
+group
+=
+.
 label
 =
 Font
@@ -827,6 +833,11 @@ font
 size
 -
 small
+-
+radio
+=
+.
+label
 =
 Small
 pictureinpicture
@@ -836,6 +847,11 @@ font
 size
 -
 medium
+-
+radio
+=
+.
+label
 =
 Medium
 pictureinpicture
@@ -845,5 +861,10 @@ font
 size
 -
 large
+-
+radio
+=
+.
+label
 =
 Large
