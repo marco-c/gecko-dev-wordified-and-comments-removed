@@ -4964,6 +4964,8 @@ if
 content
 &
 &
+IsRtpProtocol
+(
 content
 -
 >
@@ -4972,15 +4974,10 @@ media_description
 )
 -
 >
-type
+protocol
 (
 )
-!
-=
-MediaType
-:
-:
-DATA
+)
 )
 {
 first_media_content

@@ -3236,7 +3236,7 @@ MediaContentDescription
 AttributeLevel
 :
 :
-kSession
+kMedia
 )
 ;
 }

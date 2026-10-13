@@ -1839,6 +1839,10 @@ jsep_transport_collection
 "
 "
 :
+media_protocol_names
+"
+"
+:
 rtp_transport
 "
 "
