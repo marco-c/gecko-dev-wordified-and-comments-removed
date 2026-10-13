@@ -2370,6 +2370,11 @@ CocoaWindowDidResize
 )
 ;
 void
+SaveRestoredBounds
+(
+)
+;
+void
 CocoaSendToplevelActivateEvents
 (
 )
