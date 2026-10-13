@@ -1862,6 +1862,12 @@ onSaveClicked
 }
 }
 Composable
+Suppress
+(
+"
+Deprecation
+"
+)
 private
 fun
 ExpirationDateDropdown

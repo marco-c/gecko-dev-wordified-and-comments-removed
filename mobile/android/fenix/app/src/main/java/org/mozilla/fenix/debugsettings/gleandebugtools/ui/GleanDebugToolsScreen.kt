@@ -1085,6 +1085,12 @@ false
 }
 }
 Composable
+Suppress
+(
+"
+Deprecation
+"
+)
 private
 fun
 GleanDebugSendPingsSection

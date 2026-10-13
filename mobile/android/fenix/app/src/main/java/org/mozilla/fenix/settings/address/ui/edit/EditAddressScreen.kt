@@ -1093,6 +1093,12 @@ localizedString
 )
 }
 Composable
+Suppress
+(
+"
+Deprecation
+"
+)
 private
 fun
 SelectField

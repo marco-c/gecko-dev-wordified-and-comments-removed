@@ -1970,6 +1970,12 @@ onToDropdownSelected
 }
 }
 Composable
+Suppress
+(
+"
+Deprecation
+"
+)
 private
 fun
 TranslationsDialogContentInPortraitMode
@@ -2232,6 +2238,12 @@ false
 }
 }
 Composable
+Suppress
+(
+"
+Deprecation
+"
+)
 private
 fun
 TranslationsDialogContentInLandscapeMode

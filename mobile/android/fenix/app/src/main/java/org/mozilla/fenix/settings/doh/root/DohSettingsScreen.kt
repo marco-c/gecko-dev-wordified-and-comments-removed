@@ -1919,6 +1919,12 @@ body2
 )
 }
 Composable
+Suppress
+(
+"
+Deprecation
+"
+)
 private
 fun
 ProviderDropdown
