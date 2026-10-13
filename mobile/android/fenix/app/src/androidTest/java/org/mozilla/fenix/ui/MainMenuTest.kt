@@ -8360,6 +8360,7 @@ since
 08
 "
 )
+SmokeTest
 Test
 fun
 verifyTheMainMenuShareButtonFromCustomTabTest

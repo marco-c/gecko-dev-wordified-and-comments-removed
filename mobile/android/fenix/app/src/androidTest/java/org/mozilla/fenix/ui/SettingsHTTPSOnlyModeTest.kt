@@ -931,6 +931,7 @@ since
 10
 "
 )
+Critical
 Test
 fun
 httpsOnlyModeExceptionPersistsForCurrentSessionTest
