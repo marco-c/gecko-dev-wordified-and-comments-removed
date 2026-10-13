@@ -7217,6 +7217,19 @@ ret
 )
 )
 ;
+if
+(
+ret
+&
+&
+ret
+-
+>
+Document
+(
+)
+)
+{
 return
 ret
 .
@@ -7224,6 +7237,7 @@ forget
 (
 )
 ;
+}
 }
 RefPtr
 <
@@ -7240,6 +7254,9 @@ GetRootAccessible
 ;
 if
 (
+acc
+&
+&
 GetWindowType
 (
 )
