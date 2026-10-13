@@ -468,6 +468,9 @@ kDataChannelMaxMessageSize
 kDataChannelSctpPort
 =
 102
+kIceOptionsSped
+=
+110
 kMaxValue
 }
 ;

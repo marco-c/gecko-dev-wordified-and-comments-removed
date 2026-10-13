@@ -18721,6 +18721,7 @@ PeerConnection
 CanAttemptDtlsStunPiggybacking
 (
 )
+const
 {
 return
 dtls_enabled_

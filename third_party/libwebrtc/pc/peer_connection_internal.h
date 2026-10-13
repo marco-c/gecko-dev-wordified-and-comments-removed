@@ -811,6 +811,15 @@ payload_type_picker
 =
 0
 ;
+virtual
+bool
+CanAttemptDtlsStunPiggybacking
+(
+)
+const
+=
+0
+;
 }
 ;
 class

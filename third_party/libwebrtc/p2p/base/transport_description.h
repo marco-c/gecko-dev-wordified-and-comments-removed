@@ -358,6 +358,15 @@ ICE_OPTION_GOOG_SPED_V1
 googspedv1
 "
 ;
+constexpr
+auto
+*
+ICE_OPTION_SPED
+=
+"
+sped
+"
+;
 std
 :
 :

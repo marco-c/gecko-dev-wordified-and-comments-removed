@@ -84,6 +84,11 @@ enable_ice_renomination
 =
 false
 ;
+bool
+dtls_handshake_in_stun
+=
+false
+;
 }
 ;
 class
