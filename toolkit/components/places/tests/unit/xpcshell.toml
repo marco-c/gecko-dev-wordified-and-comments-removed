@@ -549,6 +549,13 @@ js
 ]
 [
 "
+test_canAddURI
+.
+js
+"
+]
+[
+"
 test_childlessTags
 .
 js
