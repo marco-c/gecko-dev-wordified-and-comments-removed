@@ -2932,6 +2932,9 @@ TaskQueueBase
 TaskQueueDeleter
 >
 encoder_queue
+TaskQueueBase
+*
+encoder_queue_ptr
 SendStatisticsProxy
 *
 stats_proxy
@@ -3006,6 +3009,10 @@ encoder_switch_request_callback
 time_controller_
 (
 time_controller
+)
+encoder_queue_ptr_
+(
+encoder_queue_ptr
 )
 fake_cpu_resource_
 (
@@ -3174,9 +3181,7 @@ TriggerCpuOveruse
 (
 )
 {
-encoder_queue
-(
-)
+encoder_queue_ptr_
 -
 >
 PostTask
@@ -3209,9 +3214,7 @@ TriggerCpuUnderuse
 (
 )
 {
-encoder_queue
-(
-)
+encoder_queue_ptr_
 -
 >
 PostTask
@@ -3244,9 +3247,7 @@ TriggerQualityLow
 (
 )
 {
-encoder_queue
-(
-)
+encoder_queue_ptr_
 -
 >
 PostTask
@@ -3279,9 +3280,7 @@ TriggerQualityHigh
 (
 )
 {
-encoder_queue
-(
-)
+encoder_queue_ptr_
 -
 >
 PostTask
@@ -3313,6 +3312,11 @@ TimeController
 *
 const
 time_controller_
+;
+TaskQueueBase
+*
+const
+encoder_queue_ptr_
 ;
 CpuOveruseDetectorProxy
 *
@@ -5570,6 +5574,7 @@ move
 (
 encoder_queue
 )
+encoder_queue_ptr
 stats_proxy_
 .
 get
