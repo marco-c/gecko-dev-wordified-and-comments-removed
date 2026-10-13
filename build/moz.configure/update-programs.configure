@@ -1527,8 +1527,6 @@ maintenance
 service
 "
 )
-return
-mainteance_service
 #
 Update
 agent
@@ -1817,8 +1815,6 @@ update
 agent
 "
 )
-return
-update_agent
 #
 Enable
 or
