@@ -387,16 +387,13 @@ any_invocable
 "
 ]
 }
-rtc_library
+rtc_cc_test
 (
 "
 cc_feedback_generator_unittests
 "
 )
 {
-testonly
-=
-true
 sources
 =
 [

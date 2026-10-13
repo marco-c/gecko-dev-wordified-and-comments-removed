@@ -1264,10 +1264,10 @@ BUILD
 .
 gn
 index
-9a200ffe2a
+9bf5b182a7
 .
 .
-7b0f0c8788
+c4b1d9c9ba
 100644
 -
 -
@@ -5165,10 +5165,10 @@ BUILD
 .
 gn
 index
-ebed6dc060
+12050386e3
 .
 .
-cd86c1c211
+b1933dcb25
 100644
 -
 -
@@ -5629,7 +5629,7 @@ rtc_include_tests
 build_with_chromium
 )
 {
-rtc_library
+rtc_cc_test
 (
 "
 fine_audio_buffer_unittest
@@ -6716,10 +6716,10 @@ BUILD
 .
 gn
 index
-beabe1f1e5
+70577d1e5f
 .
 .
-f2d6d9d315
+5ce1469a77
 100644
 -
 -
