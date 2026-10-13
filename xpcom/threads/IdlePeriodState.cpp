@@ -445,7 +445,6 @@ aShuttingDown
 const
 MutexAutoUnlock
 &
-aProofOfUnlock
 )
 {
 MOZ_ASSERT
@@ -589,7 +588,6 @@ aLocalIdlePeriodHint
 const
 MutexAutoUnlock
 &
-aProofOfUnlock
 )
 {
 MOZ_ASSERT
@@ -911,7 +909,6 @@ SetPaused
 const
 MutexAutoUnlock
 &
-aProofOfUnlock
 )
 {
 MOZ_ASSERT

@@ -544,7 +544,6 @@ TimedOut
 (
 nsITimer
 *
-aTimer
 void
 *
 aClosure
@@ -686,7 +685,6 @@ ScheduleTimedOut
 (
 nsITimer
 *
-aTimer
 void
 *
 aClosure

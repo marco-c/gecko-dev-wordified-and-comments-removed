@@ -527,7 +527,6 @@ EntityToUnicodeEntry
 const
 char
 *
-aKey
 )
 {
 mNode

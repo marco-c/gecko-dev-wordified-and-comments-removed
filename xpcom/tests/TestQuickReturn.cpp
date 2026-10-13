@@ -5,7 +5,6 @@ int
 argc
 char
 *
-argv
 [
 ]
 )
