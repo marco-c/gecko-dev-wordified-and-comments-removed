@@ -855,6 +855,8 @@ valueMatchesSyntax
 Document
 document
 UTF8String
+property
+UTF8String
 value
 UTF8String
 syntax
@@ -1547,6 +1549,12 @@ boolean
 quirks
 =
 false
+;
+CSSRule
+?
+rule
+=
+null
 ;
 }
 ;
