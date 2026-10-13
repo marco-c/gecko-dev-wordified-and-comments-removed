@@ -431,6 +431,9 @@ OpenPSessionStoreEndpoint
 sessionStoreChild
 )
 ;
+if
+(
+!
 inProcessParent
 -
 >
@@ -445,7 +448,12 @@ endpoint
 )
 sessionStoreParent
 )
+)
+{
+return
+nullptr
 ;
+}
 }
 else
 {

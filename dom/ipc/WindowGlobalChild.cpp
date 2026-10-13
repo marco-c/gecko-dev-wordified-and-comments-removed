@@ -1594,6 +1594,9 @@ OpenPWindowGlobalEndpoint
 wgc
 )
 ;
+if
+(
+!
 ipParent
 -
 >
@@ -1618,7 +1621,12 @@ Canonical
 (
 )
 )
+)
+{
+return
+nullptr
 ;
+}
 }
 else
 {
