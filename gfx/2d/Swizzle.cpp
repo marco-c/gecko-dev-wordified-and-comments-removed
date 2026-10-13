@@ -1407,7 +1407,7 @@ rb
 *
 a
 +
-0x00FF00FF
+0x00800080
 ;
 rb
 =
@@ -1447,7 +1447,7 @@ g
 a
 +
 (
-0xFF00
+0x8000
 <
 <
 aSrcRGBShift
@@ -3299,6 +3299,8 @@ aDstRGBIndex
 r
 *
 q
++
+0x8000
 )
 >
 >
@@ -3315,6 +3317,8 @@ aDstRGBIndex
 g
 *
 q
++
+0x8000
 )
 >
 >
@@ -3331,6 +3335,8 @@ aDstRGBIndex
 b
 *
 q
++
+0x8000
 )
 >
 >
