@@ -685,12 +685,6 @@ menuGuid
 ]
 )
 ;
-folderTree
-.
-blur
-(
-)
-;
 EventUtils
 .
 synthesizeKey
