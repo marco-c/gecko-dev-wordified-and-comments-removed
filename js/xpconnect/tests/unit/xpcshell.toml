@@ -91,6 +91,16 @@ es6module_missing_import
 js
 "
 "
+es6module_valid_import_target
+.
+js
+"
+"
+es6module_valid_then_missing_import
+.
+js
+"
+"
 es6module_parse_error
 .
 js
