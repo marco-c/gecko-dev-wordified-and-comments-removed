@@ -19190,10 +19190,17 @@ scratch
 this
 )
 ;
-as_vmsknz_b
+as_vslei_bu
 (
 scratch
 src
+0
+)
+;
+as_vmsknz_b
+(
+scratch
+scratch
 )
 ;
 as_vpickve2gr_wu
@@ -19212,7 +19219,7 @@ Equal
 dest
 Imm32
 (
-0xFFFF
+0
 )
 dest
 )
