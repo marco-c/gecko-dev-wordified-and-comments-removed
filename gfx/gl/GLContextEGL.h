@@ -663,7 +663,6 @@ const
 out_failureId
 )
 ;
-static
 EGLSurface
 CreateEGLSurfaceForCompositorWidget
 (

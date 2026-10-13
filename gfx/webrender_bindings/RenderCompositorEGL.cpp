@@ -373,6 +373,14 @@ gl
 GLContextEGL
 :
 :
+Cast
+(
+gl
+(
+)
+)
+-
+>
 CreateEGLSurfaceForCompositorWidget
 (
 mWidget
