@@ -1259,9 +1259,10 @@ try
 {
 isDefault
 =
+await
 shellService
 .
-isDefaultBrowser
+isDefaultBrowserAsync
 (
 isStartupCheck
 false
