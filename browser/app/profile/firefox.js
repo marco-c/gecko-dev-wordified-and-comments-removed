@@ -16961,6 +16961,7 @@ supportedLocales
 "
 "
 en
+fr
 "
 )
 ;
