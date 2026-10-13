@@ -372,6 +372,9 @@ virtual
 void
 TransformCallbackImpl
 (
+JSContext
+*
+aCx
 JS
 :
 :
@@ -398,6 +401,9 @@ virtual
 void
 FlushCallbackImpl
 (
+JSContext
+*
+aCx
 TransformStreamDefaultController
 &
 aController
