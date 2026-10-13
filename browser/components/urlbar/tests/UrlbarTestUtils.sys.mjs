@@ -8965,6 +8965,9 @@ ignoreProperties
 icon
 "
 "
+keyId
+"
+"
 pref
 "
 "
