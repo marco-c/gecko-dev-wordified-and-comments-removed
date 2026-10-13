@@ -835,14 +835,6 @@ race_checker
 /
 rtc_base
 :
-rate_limiter
-"
-"
-.
-.
-/
-rtc_base
-:
 rtc_event
 "
 "

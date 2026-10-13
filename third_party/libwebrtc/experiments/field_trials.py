@@ -478,24 +478,6 @@ FieldTrial
 '
 WebRTC
 -
-DisableRtxRateLimiter
-'
-               
-42225500
-               
-date
-(
-2024
-4
-1
-)
-)
-    
-FieldTrial
-(
-'
-WebRTC
--
 DisableSslGroupIds
 '
                

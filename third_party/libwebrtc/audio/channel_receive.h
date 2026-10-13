@@ -289,9 +289,6 @@ class
 PacketRouter
 ;
 class
-RateLimiter
-;
-class
 ReceiveStatistics
 ;
 class

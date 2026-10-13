@@ -417,15 +417,6 @@ include
 "
 rtc_base
 /
-rate_limiter
-.
-h
-"
-#
-include
-"
-rtc_base
-/
 task_utils
 /
 repeating_task
@@ -1395,9 +1386,6 @@ worker_thread_
 )
 =
 0
-;
-RateLimiter
-retransmission_rate_limiter_
 ;
 ScopedTaskSafety
 safety_

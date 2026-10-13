@@ -341,15 +341,6 @@ include
 "
 rtc_base
 /
-rate_limiter
-.
-h
-"
-#
-include
-"
-rtc_base
-/
 synchronization
 /
 mutex
@@ -535,9 +526,6 @@ observers
 RtpTransportControllerSendInterface
 *
 transport
-RateLimiter
-*
-retransmission_limiter
 std
 :
 :
