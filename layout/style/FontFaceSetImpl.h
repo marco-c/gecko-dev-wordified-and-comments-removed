@@ -699,7 +699,6 @@ DispatchLoadingEventAndReplaceReadyPromise
 )
 ;
 }
-MOZ_CAN_RUN_SCRIPT
 void
 OnLoadingFinished
 (
@@ -801,6 +800,12 @@ HasLoadingFontFaces
 (
 )
 ;
+bool
+ReadyPromiseIsPending
+(
+)
+const
+;
 virtual
 void
 UpdateHasLoadingFontFaces
@@ -891,15 +896,6 @@ MOZ_GUARDED_BY
 (
 mMutex
 )
-;
-bool
-mLoadingFinishedScheduled
-MOZ_GUARDED_BY
-(
-mMutex
-)
-=
-false
 ;
 nsTHashMap
 <
