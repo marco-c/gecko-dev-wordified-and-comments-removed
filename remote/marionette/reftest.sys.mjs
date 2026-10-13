@@ -5271,14 +5271,14 @@ settings
 )
 ;
 const
-binaryString
+bytes
 =
 await
 lazy
 .
 print
 .
-printToBinaryString
+printToBytes
 (
 win
 .
@@ -5298,7 +5298,7 @@ this
 .
 loadPdf
 (
-binaryString
+bytes
 )
 ;
 let

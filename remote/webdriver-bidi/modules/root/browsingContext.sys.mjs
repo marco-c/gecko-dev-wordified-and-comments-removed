@@ -9938,7 +9938,6 @@ pageRanges
 const
 printSettings
 =
-await
 lazy
 .
 print
@@ -9949,14 +9948,14 @@ settings
 )
 ;
 const
-binaryString
+bytes
 =
 await
 lazy
 .
 print
 .
-printToBinaryString
+printToBytes
 (
 context
 printSettings
@@ -9966,9 +9965,10 @@ return
 {
 data
 :
-btoa
+bytes
+.
+toBase64
 (
-binaryString
 )
 }
 ;
