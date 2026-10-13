@@ -305,7 +305,8 @@ mozac_browser_errorpages_archive_checking
 >
 Wyszukiwanie
 w
-archiwum
+\
+u00a0archiwum
 <
 /
 string
@@ -385,7 +386,8 @@ mozac_browser_errorpages_archive_search_web
 >
 Szukaj
 w
-Internecie
+\
+u00a0Internecie
 .
 <
 /
@@ -431,7 +433,8 @@ po
 czy
 si
 z
-archiwum
+\
+u00a0archiwum
 .
 <
 /
