@@ -81,6 +81,13 @@ h
 #
 include
 "
+nsContentUtils
+.
+h
+"
+#
+include
+"
 nsQueryObject
 .
 h
@@ -1320,6 +1327,9 @@ true
 )
 ;
 }
+nsAutoScriptBlocker
+scriptBlocker
+;
 uint32_t
 length
 =
