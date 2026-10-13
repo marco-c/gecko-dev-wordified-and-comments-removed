@@ -1,3 +1,10 @@
+#
+include
+"
+nsHtml5UTF16Buffer
+.
+h
+"
 nsHtml5UTF16Buffer
 :
 :
