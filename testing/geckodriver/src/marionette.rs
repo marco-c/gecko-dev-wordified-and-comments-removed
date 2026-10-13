@@ -8,9 +8,9 @@ browser
 {
 Browser
 BrowserStatus
+DEFAULT_SHUTDOWN_TIMEOUT
 LocalBrowser
 RemoteBrowser
-DEFAULT_SHUTDOWN_TIMEOUT
 }
 ;
 use
@@ -118,6 +118,9 @@ MarionetteAuthenticatorIdParameters
 AuthenticatorParameters
 as
 MarionetteAuthenticatorParameters
+AuthenticatorProtocol
+as
+MarionetteAuthenticatorProtocol
 AuthenticatorTransport
 as
 MarionetteAuthenticatorTransport
@@ -130,15 +133,15 @@ MarionetteCredentialIdParameters
 CredentialParameters
 as
 MarionetteCredentialParameters
+Credentials
+as
+MarionetteCredentials
 GeckoContext
 as
 MarionetteGeckoContext
 GlobalPrivacyControlParameters
 as
 MarionetteGlobalPrivacyControlParameters
-Credentials
-as
-MarionetteCredentials
 Keys
 as
 MarionetteKeys
@@ -182,9 +185,6 @@ MarionetteSetPermissionState
 UserVerificationParameters
 as
 MarionetteUserVerificationParameters
-AuthenticatorProtocol
-as
-MarionetteAuthenticatorProtocol
 WindowRect
 as
 MarionetteWindowRect
@@ -428,6 +428,7 @@ command
 ActionsParameters
 AddCookieParameters
 AuthenticatorParameters
+AuthenticatorProtocol
 AuthenticatorTransport
 GetNamedCookieParameters
 GlobalPrivacyControlParameters
@@ -447,7 +448,6 @@ SetPermissionState
 SwitchToFrameParameters
 SwitchToWindowParameters
 TimeoutsParameters
-AuthenticatorProtocol
 WindowRectParameters
 }
 ;
@@ -480,8 +480,8 @@ FrameId
 LocatorStrategy
 SHADOW_KEY
 ShadowRoot
-WebElement
 WINDOW_KEY
+WebElement
 }
 ;
 use
