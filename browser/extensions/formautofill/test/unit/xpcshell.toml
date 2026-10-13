@@ -359,6 +359,13 @@ js
 ]
 [
 "
+test_ml_regex_hint
+.
+js
+"
+]
+[
+"
 test_nameUtils
 .
 js
