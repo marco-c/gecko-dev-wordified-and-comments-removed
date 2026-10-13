@@ -604,7 +604,7 @@ eyebrow
 ?
 html
 <
-p
+span
 class
 =
 "
@@ -620,7 +620,7 @@ eyebrow
 }
 <
 /
-p
+span
 >
 :
 nothing
@@ -728,7 +728,7 @@ li
 ;
 }
 #
-renderList
+renderHighlights
 (
 )
 {
@@ -911,11 +911,6 @@ aitab
 highlights
 -
 title
-aitab
--
-heading
--
-3
 "
 >
 {
@@ -934,7 +929,7 @@ nothing
 this
 .
 #
-renderList
+renderHighlights
 (
 )
 }
