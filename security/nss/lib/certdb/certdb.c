@@ -3044,6 +3044,15 @@ char
 *
 tmpname
 ;
+PRErrorCode
+savedErr
+;
+savedErr
+=
+PORT_GetError
+(
+)
+;
 arena
 =
 PORT_NewArena
@@ -3504,6 +3513,11 @@ cert
 dbnickname
 =
 NULL
+;
+PORT_SetError
+(
+savedErr
+)
 ;
 return
 (

@@ -199,11 +199,6 @@ cmsutil
 c
 '
 '
-smimemessage
-.
-c
-'
-'
 smimeutil
 .
 c

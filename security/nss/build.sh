@@ -2986,6 +2986,16 @@ vmajor
 |
 return
 0
+if
+[
+"
+no_local_nspr
+"
+=
+0
+]
+;
+then
 nspr_version
 =
 (
@@ -3022,6 +3032,7 @@ dev
 /
 null
 )
+fi
 :
 "
 {
