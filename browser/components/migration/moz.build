@@ -299,6 +299,16 @@ sys
 mjs
 "
 ]
+SOURCE_HEADERS
++
+=
+[
+"
+nsWindowsMigrationUtils
+.
+h
+"
+]
 if
 CONFIG
 [

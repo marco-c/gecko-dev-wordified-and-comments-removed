@@ -109,6 +109,16 @@ WindowsUIOverlayImageTests
 cpp
 "
 ]
+SOURCE_HEADERS
++
+=
+[
+"
+WindowsDefaultBrowserTests
+.
+h
+"
+]
 FINAL_LIBRARY
 =
 "
