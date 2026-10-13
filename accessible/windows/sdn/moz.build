@@ -134,3 +134,13 @@ FINAL_LIBRARY
 "
 xul
 "
+SOURCE_HEADERS
++
+=
+[
+"
+sdnAccessible
+.
+h
+"
+]
