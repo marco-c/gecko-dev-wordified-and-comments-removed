@@ -273,6 +273,14 @@ RTPVideoHeader
 rtp_video_header
 )
 {
+limits
+=
+limits
+.
+Sanitize
+(
+)
+;
 if
 (
 payload
