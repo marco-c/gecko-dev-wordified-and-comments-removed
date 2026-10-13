@@ -1058,6 +1058,10 @@ pub
 clip_rect
 :
 LayoutRect
+pub
+anti_aliased
+:
+bool
 }
 #
 [
@@ -1093,6 +1097,10 @@ pub
 snap_outset
 :
 f32
+pub
+anti_aliased
+:
+bool
 }
 #
 [
@@ -5844,7 +5852,10 @@ SVGFEDisplacementMap
 node
 :
 FilterOpGraphNode
-scale
+scale_x
+:
+f32
+scale_y
 :
 f32
 x_channel_selector

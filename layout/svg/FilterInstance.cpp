@@ -6017,6 +6017,17 @@ aGraphNode
 aAttributes
 .
 mScale
+.
+Width
+(
+)
+aAttributes
+.
+mScale
+.
+Height
+(
+)
 static_cast
 <
 uint32_t
