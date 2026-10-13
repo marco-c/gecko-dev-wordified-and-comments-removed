@@ -28,6 +28,10 @@ macro_use
 mod
 channel
 ;
+pub
+mod
+discovery
+;
 mod
 ec
 ;
