@@ -15,6 +15,17 @@ CompositionRecorder
 .
 h
 "
+#
+include
+"
+mozilla
+/
+layers
+/
+ScreenshotGrabber
+.
+h
+"
 namespace
 mozilla
 {

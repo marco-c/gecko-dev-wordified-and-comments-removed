@@ -703,3 +703,13 @@ Werror
 switch
 "
 ]
+SOURCE_HEADERS
++
+=
+[
+"
+RenderCompositorRecordedFrame
+.
+h
+"
+]

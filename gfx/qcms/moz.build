@@ -192,3 +192,13 @@ qcms
 h
 "
 ]
+SOURCE_HEADERS
++
+=
+[
+"
+qcmsint
+.
+h
+"
+]
