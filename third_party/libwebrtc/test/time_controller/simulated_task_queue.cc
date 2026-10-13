@@ -233,6 +233,13 @@ delayed_tasks
 )
 ;
 }
+{
+CurrentTaskQueueSetter
+set_current
+(
+this
+)
+;
 ready_tasks
 .
 clear
@@ -245,6 +252,7 @@ clear
 (
 )
 ;
+}
 delete
 this
 ;
