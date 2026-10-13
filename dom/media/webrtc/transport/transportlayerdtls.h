@@ -766,9 +766,10 @@ const
 DtlsDigest
 &
 digest
-UniqueCERTCertificate
+const
+SECItem
 &
-cert
+peer_cert_der
 )
 const
 ;
