@@ -1007,6 +1007,15 @@ rtp_rtcp_unittests
 "
 /
 /
+modules
+/
+video_coding
+:
+video_coding_unittests
+"
+"
+/
+/
 pc
 :
 peerconnection_unittests
