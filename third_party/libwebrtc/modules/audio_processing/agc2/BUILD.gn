@@ -1739,6 +1739,10 @@ deps
 [
 "
 :
+common
+"
+"
+:
 speech_level_estimator
 "
 "
