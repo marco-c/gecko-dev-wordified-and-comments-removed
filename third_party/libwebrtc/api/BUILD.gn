@@ -9453,6 +9453,11 @@ video_frame
 "
 video
 :
+video_frame_buffer_unittest
+"
+"
+video
+:
 video_frame_metadata
 "
 "

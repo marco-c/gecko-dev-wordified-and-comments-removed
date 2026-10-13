@@ -1413,6 +1413,17 @@ video_frame_sampler
 /
 api
 :
+make_ref_counted
+"
+"
+.
+.
+/
+.
+.
+/
+api
+:
 scoped_refptr
 "
 "

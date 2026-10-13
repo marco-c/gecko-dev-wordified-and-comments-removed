@@ -167,6 +167,15 @@ ToI420
 0
 ;
 virtual
+scoped_refptr
+<
+I420BufferInterface
+>
+ToI420ForInspection
+(
+)
+;
+virtual
 const
 I420BufferInterface
 *
