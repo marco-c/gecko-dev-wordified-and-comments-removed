@@ -392,6 +392,11 @@ ModuleLoadFrame
 h
 "
 "
+NativeNtBlockSet
+.
+h
+"
+"
 SafeThreadLocal
 .
 h

@@ -342,6 +342,13 @@ py
 ]
 [
 "
+test_source_headers
+.
+py
+"
+]
+[
+"
 test_spidermonkey
 .
 py
