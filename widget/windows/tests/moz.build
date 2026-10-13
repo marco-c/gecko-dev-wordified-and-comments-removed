@@ -174,3 +174,13 @@ xpcshell
 toml
 "
 ]
+SOURCE_HEADERS
++
+=
+[
+"
+TestUrisToValidate
+.
+h
+"
+]
