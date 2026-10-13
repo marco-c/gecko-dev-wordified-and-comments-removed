@@ -814,7 +814,7 @@ GeckoView
 .
 this
 .
-setActive
+maybeSetActive
 (
 true
 )
@@ -851,7 +851,7 @@ GeckoView
 .
 this
 .
-setActive
+maybeSetActive
 (
 false
 )
@@ -953,7 +953,7 @@ GeckoView
 .
 this
 .
-setActive
+maybeSetActive
 (
 true
 )
@@ -990,7 +990,7 @@ GeckoView
 .
 this
 .
-setActive
+maybeSetActive
 (
 false
 )
@@ -1968,7 +1968,7 @@ height
 ;
 }
 void
-setActive
+maybeSetActive
 (
 final
 boolean
@@ -1985,7 +1985,7 @@ null
 {
 mSession
 .
-setActive
+maybeSetActive
 (
 active
 )
