@@ -65807,7 +65807,7 @@ GetActive
 TEST_F
 (
 JsepSessionTest
-ExtmapAllowMixedTrueWhenPrensentAtSessionLevel
+ExtmapAllowMixedTrueWhenPresentAtSessionLevel
 )
 {
 AddTracks
@@ -66021,7 +66021,7 @@ GetExtmapAllowMixed
 TEST_F
 (
 JsepSessionTest
-ExtmapAllowMixedCheckDoNotDefaultToSessionLevel
+ExtmapAllowMixedCheckDefaultToSessionLevel
 )
 {
 AddTracks
@@ -66118,7 +66118,7 @@ kJsepSdpAnswer
 answer
 )
 ;
-ASSERT_FALSE
+ASSERT_TRUE
 (
 ExtmapAllowMixed
 (
@@ -66127,7 +66127,7 @@ mSessionOff
 )
 )
 ;
-ASSERT_FALSE
+ASSERT_TRUE
 (
 ExtmapAllowMixed
 (

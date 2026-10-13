@@ -1775,7 +1775,7 @@ MediaType
 kApplication
 )
 {
-msection
+local
 -
 >
 GetAttributeList
