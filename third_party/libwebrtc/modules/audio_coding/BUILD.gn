@@ -6209,7 +6209,7 @@ data_deps
 /
 resources
 :
-modules_tests_data
+audio_coding_unittests_data
 "
 ]
 if
@@ -6230,7 +6230,7 @@ deps
 /
 resources
 :
-modules_tests_bundle_data
+audio_coding_unittests_bundle_data
 "
 ]
 }
@@ -9222,6 +9222,10 @@ acm_resampler_unittest
 "
 :
 audio_coding_module_unittest
+"
+"
+:
+audio_coding_modules_tests
 "
 "
 :

@@ -12565,6 +12565,10 @@ rtp_rtcp_impl2_unittest
 "
 "
 :
+rtp_rtcp_modules_tests
+"
+"
+:
 rtp_sender_audio_unittest
 "
 "
