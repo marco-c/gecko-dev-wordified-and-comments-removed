@@ -425,9 +425,7 @@ Integer
 maxFps
 )
 {
-lifecycleLock
-.
-run
+runWithReference
 (
 (
 )
@@ -454,9 +452,7 @@ boolean
 isScreencast
 )
 {
-lifecycleLock
-.
-run
+runWithReference
 (
 (
 )

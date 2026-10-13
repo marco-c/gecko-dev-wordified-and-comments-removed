@@ -143,7 +143,7 @@ sink
 {
 lifecycleLock
 .
-run
+runIfAlive
 (
 nativeTrack
 -
