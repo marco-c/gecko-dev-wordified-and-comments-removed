@@ -3114,6 +3114,12 @@ res
 =
 >
 {
+timer
+.
+cancel
+(
+)
+;
 if
 (
 didTimeOut
@@ -3166,12 +3172,6 @@ message
 ;
 }
 }
-timer
-.
-cancel
-(
-)
-;
 return
 res
 ;
