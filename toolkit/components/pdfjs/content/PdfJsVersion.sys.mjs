@@ -84,6 +84,6 @@ PDFJS_VERSION
 .
 5
 .
-57
+98
 "
 ;
