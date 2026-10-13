@@ -866,6 +866,10 @@ WebGLExtensionTextureHalfFloatLinear
 )
 DECLARE_SIMPLE_WEBGL_EXTENSION
 (
+WebGLExtensionTextureMirrorClampToEdge
+)
+DECLARE_SIMPLE_WEBGL_EXTENSION
+(
 WebGLExtensionTextureNorm16
 )
 DECLARE_SIMPLE_WEBGL_EXTENSION
