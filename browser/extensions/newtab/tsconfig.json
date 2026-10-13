@@ -134,15 +134,6 @@ mjs
 "
 lib
 /
-NewTabInit
-.
-sys
-.
-mjs
-"
-"
-lib
-/
 PrefsFeed
 .
 sys
