@@ -8606,8 +8606,6 @@ using
 -
 enable
 -
-java
--
 coverage
 save
 the
