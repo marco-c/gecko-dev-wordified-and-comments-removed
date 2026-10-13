@@ -1661,6 +1661,10 @@ ListenAction
 Synthesis
 .
 SynthesisFailed
+is
+ListenAction
+.
+ModeChanged
 ListenAction
 .
 ErrorDismissed

@@ -2313,6 +2313,11 @@ components
 listenToPage
 .
 store
+engineView
+=
+binding
+.
+engineView
 isAddressBarAtBottom
 =
 settings
