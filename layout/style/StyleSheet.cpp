@@ -2841,11 +2841,13 @@ aSourceURL
 )
 ;
 }
+already_AddRefed
+<
 css
 :
 :
 Rule
-*
+>
 StyleSheet
 :
 :
@@ -2855,8 +2857,11 @@ GetDOMOwnerRule
 const
 {
 return
+do_AddRef
+(
 GetOwnerRule
 (
+)
 )
 ;
 }

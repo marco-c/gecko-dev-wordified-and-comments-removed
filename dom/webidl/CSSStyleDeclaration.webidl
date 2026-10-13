@@ -216,6 +216,13 @@ UTF8String
 property
 )
 ;
+[
+BinaryName
+=
+"
+parentRuleForBindings
+"
+]
 readonly
 attribute
 CSSRule

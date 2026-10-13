@@ -391,6 +391,15 @@ GetParentRule
 )
 const
 ;
+already_AddRefed
+<
+Rule
+>
+GetParentRuleForBindings
+(
+)
+const
+;
 StyleSheet
 *
 GetParentStyleSheet

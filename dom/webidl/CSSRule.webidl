@@ -304,6 +304,13 @@ attribute
 UTF8String
 cssText
 ;
+[
+BinaryName
+=
+"
+parentRuleForBindings
+"
+]
 readonly
 attribute
 CSSRule

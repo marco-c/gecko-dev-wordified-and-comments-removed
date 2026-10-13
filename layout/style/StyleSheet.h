@@ -1380,11 +1380,13 @@ nsACString
 aSourceURL
 )
 ;
+already_AddRefed
+<
 css
 :
 :
 Rule
-*
+>
 GetDOMOwnerRule
 (
 )
