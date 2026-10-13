@@ -3324,13 +3324,10 @@ Svc
 .
 PrefBranch
 .
-setStringPref
+clearUserPref
 (
 "
 firstSync
-"
-"
-wipeRemote
 "
 )
 ;

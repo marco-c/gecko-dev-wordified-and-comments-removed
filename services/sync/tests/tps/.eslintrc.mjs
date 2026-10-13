@@ -125,12 +125,6 @@ false
 Sync
 :
 false
-SYNC_WIPE_CLIENT
-:
-false
-SYNC_WIPE_REMOTE
-:
-false
 Tabs
 :
 false
