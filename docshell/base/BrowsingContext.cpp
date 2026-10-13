@@ -18000,13 +18000,7 @@ ps
 >
 MaybeRecreateMobileViewportManager
 (
-PresShell
-:
-:
-MobileViewportManagerUpdate
-:
-:
-ManagerTypeMayChange
+true
 )
 ;
 }
