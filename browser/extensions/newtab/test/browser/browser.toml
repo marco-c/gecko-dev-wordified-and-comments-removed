@@ -37,11 +37,6 @@ head
 js
 "
 "
-link_open_stories
-.
-json
-"
-"
 redirect_to
 .
 sjs
@@ -246,13 +241,6 @@ js
 [
 "
 browser_context_menu_item
-.
-js
-"
-]
-[
-"
-browser_context_menu_link_open
 .
 js
 "
