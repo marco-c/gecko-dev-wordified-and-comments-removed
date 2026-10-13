@@ -7671,6 +7671,13 @@ requireComponents
 backgroundServices
 .
 serverConfig
+fxaCapabilities
+=
+requireComponents
+.
+backgroundServices
+.
+fxaCapabilities
 activityRef
 =
 WeakReference
