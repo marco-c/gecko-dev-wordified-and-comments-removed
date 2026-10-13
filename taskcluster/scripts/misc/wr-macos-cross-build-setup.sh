@@ -543,6 +543,14 @@ TARGET_CXXFLAGS
 }
 "
 export
+OBJC
+=
+"
+{
+MACOS_CC
+}
+"
+export
 AR
 =
 "
