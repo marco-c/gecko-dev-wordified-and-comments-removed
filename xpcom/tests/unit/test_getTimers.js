@@ -132,7 +132,7 @@ CCGCScheduler
 EnsureGCRunner
 "
 "
-IdleMemoryCleanupWantsLaterCheck
+MemoryCleanupWantsLaterCheck
 "
 "
 dom
