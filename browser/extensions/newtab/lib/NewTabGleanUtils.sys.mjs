@@ -133,6 +133,9 @@ memory_distribution
 "
 timing_distribution
 "
+"
+labeled_timing_distribution
+"
 ]
 ;
 /
