@@ -915,16 +915,6 @@ await
 )
 {
 const
-shouldMapBindings
-=
-false
-;
-const
-shouldMapAwait
-=
-true
-;
-const
 res
 =
 this
@@ -935,9 +925,7 @@ mapExpression
 (
 expression
 null
-null
-shouldMapBindings
-shouldMapAwait
+true
 )
 ;
 return
