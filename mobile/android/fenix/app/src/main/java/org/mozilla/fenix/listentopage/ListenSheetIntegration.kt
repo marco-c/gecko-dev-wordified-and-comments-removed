@@ -1426,6 +1426,11 @@ phase
 PlaybackPhase
 .
 Buffering
+speed
+=
+playback
+.
+speed
 voiceState
 =
 state
