@@ -149,6 +149,13 @@ js
 ]
 [
 "
+browser_prompt_loader_aitab_versions
+.
+js
+"
+]
+[
+"
 browser_prompt_loader_browser_context
 .
 js
