@@ -7,6 +7,11 @@ h
 "
 #
 include
+<
+memory
+>
+#
+include
 "
 Performance
 .
@@ -475,9 +480,14 @@ UniquePtr
 PerformanceProxyData
 >
 data
-(
-new
+=
+std
+:
+:
+make_unique
+<
 PerformanceProxyData
+>
 (
 std
 :
@@ -488,7 +498,6 @@ performanceTimingData
 )
 initiatorType
 entryName
-)
 )
 ;
 RefPtr

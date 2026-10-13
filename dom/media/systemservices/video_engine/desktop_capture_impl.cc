@@ -808,11 +808,14 @@ detect_updated_region
 )
 {
 capturer
-.
-reset
-(
-new
+=
+std
+:
+:
+make_unique
+<
 DesktopCapturerDifferWrapper
+>
 (
 std
 :
@@ -820,7 +823,6 @@ std
 move
 (
 capturer
-)
 )
 )
 ;
