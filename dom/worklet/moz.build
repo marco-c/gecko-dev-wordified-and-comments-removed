@@ -98,6 +98,11 @@ Worklet
 h
 "
 "
+WorkletCommon
+.
+h
+"
+"
 WorkletFetchHandler
 .
 h
