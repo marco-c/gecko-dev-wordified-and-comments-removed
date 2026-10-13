@@ -115,13 +115,11 @@ expectedRemappedReadings
 {
 x
 :
--
 12
 .
 1
 y
 :
--
 19
 .
 2

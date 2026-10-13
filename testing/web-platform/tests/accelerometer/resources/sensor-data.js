@@ -141,12 +141,12 @@ expectedRemappedReadings
 {
 x
 :
--
 2
 .
 1
 y
 :
+-
 1
 .
 1
