@@ -60,17 +60,6 @@ mjs
 "
 lib
 /
-actors
-/
-MozNewTabRemoteRendererProtocolParent
-.
-sys
-.
-mjs
-"
-"
-lib
-/
 AdsClient
 .
 sys

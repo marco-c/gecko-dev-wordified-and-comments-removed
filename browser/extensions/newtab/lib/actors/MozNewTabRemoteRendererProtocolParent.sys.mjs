@@ -449,7 +449,6 @@ throw
 new
 Error
 (
-"
 Expected
 scheme
 moz
@@ -461,10 +460,11 @@ remote
 renderer
 but
 got
-"
+{
 uri
 .
 scheme
+}
 )
 ;
 }
