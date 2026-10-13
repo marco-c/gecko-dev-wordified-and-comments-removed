@@ -553,6 +553,9 @@ webPage
 .
 title
 )
+verifyPageShortcutsAreCentered
+(
+)
 }
 .
 clickPageShortcut
@@ -571,6 +574,9 @@ verifySearchSuggestionsContain
 webPage
 .
 title
+)
+verifyPageShortcutsAreCentered
+(
 )
 }
 }
