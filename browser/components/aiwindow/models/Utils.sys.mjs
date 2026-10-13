@@ -1680,7 +1680,7 @@ pref
 (
 CHAT
 becomes
-11
+12
 )
 get
 [
@@ -1702,7 +1702,7 @@ MISTRAL_RELEASE_PREF
 false
 )
 ?
-11
+12
 :
 10
 ;
