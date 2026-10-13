@@ -655,12 +655,6 @@ this
 .
 loadWeather
 (
-true
-/
-*
-isStartup
-*
-/
 )
 ;
 }
@@ -1007,9 +1001,6 @@ update
 async
 loadWeather
 (
-isStartup
-=
-false
 )
 {
 const
@@ -1129,7 +1120,6 @@ this
 .
 fetch
 (
-isStartup
 )
 ;
 }
