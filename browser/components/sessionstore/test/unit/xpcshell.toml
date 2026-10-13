@@ -236,3 +236,10 @@ test_tab_group_state
 js
 "
 ]
+[
+"
+test_write_outcome
+.
+js
+"
+]
