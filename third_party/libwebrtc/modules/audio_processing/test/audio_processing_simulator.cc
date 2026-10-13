@@ -2384,6 +2384,13 @@ AudioProcessing
 :
 Config
 apm_config
+=
+ap_
+-
+>
+GetConfig
+(
+)
 ;
 if
 (
