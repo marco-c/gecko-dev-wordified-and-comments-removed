@@ -3443,7 +3443,7 @@ vec4
 sampleInUvRect
 (
 sampler2D
-sampler
+tex
 vec2
 uv
 vec4
@@ -3469,7 +3469,7 @@ zw
 return
 texture
 (
-sampler
+tex
 clamped
 )
 ;
@@ -3478,7 +3478,7 @@ vec4
 sampleInUvRectRepeat
 (
 sampler2D
-sampler
+tex
 vec2
 uv
 vec4
@@ -3525,7 +3525,7 @@ size
 return
 texture
 (
-sampler
+tex
 tiled
 )
 ;
