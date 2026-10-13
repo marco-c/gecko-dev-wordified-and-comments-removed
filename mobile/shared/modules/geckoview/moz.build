@@ -191,6 +191,13 @@ sys
 mjs
 "
 "
+GeckoViewPictureInPicture
+.
+sys
+.
+mjs
+"
+"
 GeckoViewProcessHangMonitor
 .
 sys
