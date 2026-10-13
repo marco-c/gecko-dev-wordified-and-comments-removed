@@ -14337,7 +14337,7 @@ StackVal
 (
 totalArgs
 +
-6
+7
 )
 )
 )
@@ -14667,6 +14667,14 @@ if
 isNative
 )
 {
+PUSHNATIVE
+(
+StackValNative
+(
+callee
+)
+)
+;
 PUSHNATIVE
 (
 StackValNative
