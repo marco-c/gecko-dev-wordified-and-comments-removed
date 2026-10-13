@@ -72,3 +72,15 @@ cubeb_export
 h
 '
 ]
+SOURCE_HEADERS
++
+=
+[
+"
+cubeb
+-
+stdint
+.
+h
+"
+]

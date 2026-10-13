@@ -2174,3 +2174,13 @@ upstream
 AllowCompilerWarnings
 (
 )
+SOURCE_HEADERS
++
+=
+[
+"
+vcs_version
+.
+h
+"
+]
