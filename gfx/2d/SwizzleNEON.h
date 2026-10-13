@@ -736,7 +736,7 @@ recip16
 auto
 rb
 =
-vhaddq_u16
+vrhaddq_u16
 (
 vmulq_u16
 (
@@ -772,7 +772,7 @@ val
 auto
 ga
 =
-vhaddq_u16
+vrhaddq_u16
 (
 vmulq_u16
 (
