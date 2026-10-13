@@ -709,7 +709,6 @@ width
 "
 ;
              
-return
 window
 .
 SidebarController
