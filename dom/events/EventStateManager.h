@@ -2990,6 +2990,17 @@ LayoutDeviceIntPoint
 sPreLockScreenPoint
 ;
 static
+Maybe
+<
+CSSIntPoint
+>
+sLastRealScreenPoint
+;
+static
+bool
+sRestorePointerAfterUnlock
+;
+static
 LayoutDeviceIntPoint
 sSynthCenteringPoint
 ;

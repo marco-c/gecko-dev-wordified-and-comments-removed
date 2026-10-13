@@ -4120,6 +4120,14 @@ SaveCallback
 (
 )
 ;
+wheelEvent
+.
+mFlags
+.
+mIsSynthesizedForTests
+=
+true
+;
 nsPresContext
 *
 presContext
