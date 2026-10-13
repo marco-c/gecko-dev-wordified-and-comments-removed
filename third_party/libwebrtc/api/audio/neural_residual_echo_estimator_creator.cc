@@ -226,10 +226,6 @@ NeuralResidualEchoEstimatorImpl
 CreateAsync
 (
 env
-.
-task_queue_factory
-(
-)
 std
 :
 :
