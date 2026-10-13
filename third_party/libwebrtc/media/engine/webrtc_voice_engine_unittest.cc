@@ -1556,7 +1556,6 @@ pt_mapper
 SuggestMapping
 (
 codec
-nullptr
 )
 ;
 EXPECT_TRUE

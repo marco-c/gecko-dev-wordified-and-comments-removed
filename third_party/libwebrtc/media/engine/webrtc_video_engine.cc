@@ -1175,7 +1175,6 @@ pt_mapper
 SuggestMapping
 (
 codec
-nullptr
 )
 ;
 if
@@ -1257,7 +1256,6 @@ pt_mapper
 SuggestMapping
 (
 rtx_codec
-nullptr
 )
 ;
 if

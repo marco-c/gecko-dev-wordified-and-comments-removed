@@ -264,8 +264,6 @@ pt_picker_
 SuggestMapping
 (
 codec
-&
-recorder
 pick_from_top_of_range
 )
 ;
