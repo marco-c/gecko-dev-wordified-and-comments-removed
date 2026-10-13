@@ -400,6 +400,13 @@ sequential
 true
 [
 "
+test_toolchain_parity
+.
+py
+"
+]
+[
+"
 test_trojan_source
 .
 py
