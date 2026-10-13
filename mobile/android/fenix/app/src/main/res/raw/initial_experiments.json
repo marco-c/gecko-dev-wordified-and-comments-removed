@@ -97,7 +97,7 @@ mode
 isEnrollmentPaused
 "
 :
-false
+true
 "
 isRollout
 "
