@@ -186,12 +186,6 @@ aDocument
 )
 const
 ;
-bool
-HasDocumentRules
-(
-)
-const
-;
 }
 ;
 }
