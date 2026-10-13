@@ -4778,6 +4778,12 @@ defined
 (
 GP_PLAT_loongarch64_linux
 )
+|
+|
+defined
+(
+GP_PLAT_riscv64_linux
+)
 #
 define
 UNWINDING_REGS_HAVE_RA

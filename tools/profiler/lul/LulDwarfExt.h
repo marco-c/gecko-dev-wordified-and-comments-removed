@@ -2345,6 +2345,13 @@ LOONGARCH
 (
 )
 ;
+static
+unsigned
+int
+RISCV
+(
+)
+;
 }
 ;
 DwarfCFIToModule
