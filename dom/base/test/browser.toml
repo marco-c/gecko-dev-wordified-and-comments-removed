@@ -741,6 +741,13 @@ sjs
 ]
 [
 "
+browser_sizeToContent_tab
+.
+js
+"
+]
+[
+"
 browser_speculation_rules_hover_delays
 .
 js
