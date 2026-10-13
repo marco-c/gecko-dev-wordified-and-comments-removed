@@ -134,6 +134,13 @@ test_BrowserUtils
 js
 "
 ]
+[
+"
+test_BrowserUtils_callModulesFromCategory
+.
+js
+"
+]
 support
 -
 files
