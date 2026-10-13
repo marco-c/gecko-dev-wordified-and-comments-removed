@@ -51,17 +51,6 @@ include
 "
 absl
 /
-base
-/
-attributes
-.
-h
-"
-#
-include
-"
-absl
-/
 strings
 /
 string_view
@@ -291,7 +280,7 @@ defined
 (
 WEBRTC_WIN
 )
-ABSL_CONST_INIT
+constinit
 const
 absl
 :
@@ -306,7 +295,7 @@ kPathDelimiter
 ;
 #
 else
-ABSL_CONST_INIT
+constinit
 const
 absl
 :

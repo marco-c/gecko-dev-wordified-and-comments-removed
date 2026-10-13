@@ -29,17 +29,6 @@ include
 "
 absl
 /
-base
-/
-attributes
-.
-h
-"
-#
-include
-"
-absl
-/
 strings
 /
 string_view
@@ -52,7 +41,7 @@ webrtc
 namespace
 test
 {
-ABSL_CONST_INIT
+constinit
 extern
 const
 absl
