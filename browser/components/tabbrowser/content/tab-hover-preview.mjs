@@ -1010,7 +1010,9 @@ MozTabbrowserTabGroup
 |
 null
 }
+[
 tabOrGroup
+]
 -
 The
 tab
@@ -7554,7 +7556,7 @@ target
 *
 type
 {
-TabPanel
+HoverPanel
 }
 *
 /
@@ -7853,7 +7855,7 @@ execute
 *
 param
 {
-TabPanel
+HoverPanel
 }
 from
 *
@@ -8009,7 +8011,7 @@ execution
 *
 param
 {
-TabPanel
+HoverPanel
 }
 from
 *
