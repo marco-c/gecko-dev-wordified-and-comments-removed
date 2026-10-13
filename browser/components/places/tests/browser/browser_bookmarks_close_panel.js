@@ -178,6 +178,13 @@ click
 (
 )
 ;
+await
+SidebarController
+.
+waitUntilStable
+(
+)
+;
 ok
 (
 sidebarBox
