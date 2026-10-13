@@ -2471,6 +2471,13 @@ doCommand
 (
 )
 ;
+await
+SidebarController
+.
+waitUntilStable
+(
+)
+;
 Assert
 .
 ok
@@ -2508,6 +2515,13 @@ keyboard
 key
 .
 doCommand
+(
+)
+;
+await
+SidebarController
+.
+waitUntilStable
 (
 )
 ;

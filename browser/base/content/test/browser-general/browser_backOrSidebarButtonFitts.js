@@ -232,6 +232,13 @@ y
 window
 )
 ;
+await
+SidebarController
+.
+waitUntilStable
+(
+)
+;
 is
 (
 sidebarContainer
@@ -260,6 +267,13 @@ y
 {
 }
 window
+)
+;
+await
+SidebarController
+.
+waitUntilStable
+(
 )
 ;
 is

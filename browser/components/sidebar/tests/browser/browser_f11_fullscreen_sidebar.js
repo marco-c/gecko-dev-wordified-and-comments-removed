@@ -945,6 +945,13 @@ promiseDocumentFlushed
 }
 )
 ;
+await
+SidebarController
+.
+waitUntilStable
+(
+)
+;
 Assert
 .
 greater
