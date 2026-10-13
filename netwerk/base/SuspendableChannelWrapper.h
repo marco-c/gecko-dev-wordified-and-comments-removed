@@ -126,13 +126,7 @@ nsIChannel
 *
 aInnerChannel
 )
-:
-BaseSuspendableChannelWrapper
-(
-aInnerChannel
-)
-{
-}
+;
 private
 :
 ~
@@ -140,8 +134,6 @@ SuspendableChannelWrapper
 (
 )
 override
-=
-default
 ;
 nsCOMPtr
 <

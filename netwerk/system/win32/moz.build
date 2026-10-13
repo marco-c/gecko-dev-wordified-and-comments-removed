@@ -76,6 +76,16 @@ nsNotifyAddrListener
 cpp
 "
 ]
+SOURCE_HEADERS
++
+=
+[
+"
+nsNotifyAddrListener
+.
+h
+"
+]
 LOCAL_INCLUDES
 +
 =

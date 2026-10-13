@@ -103,3 +103,13 @@ FINAL_LIBRARY
 "
 xul
 "
+SOURCE_HEADERS
++
+=
+[
+"
+nsMIMEHeaderParamImpl
+.
+h
+"
+]

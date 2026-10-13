@@ -171,8 +171,6 @@ private
 ZeroRttHandle
 (
 )
-=
-default
 ;
 enum
 class

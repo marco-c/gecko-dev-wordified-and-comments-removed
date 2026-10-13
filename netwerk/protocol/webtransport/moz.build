@@ -171,3 +171,13 @@ config
 mozbuild
 "
 )
+SOURCE_HEADERS
++
+=
+[
+"
+WebTransportLog
+.
+h
+"
+]

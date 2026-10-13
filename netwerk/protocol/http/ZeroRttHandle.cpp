@@ -151,6 +151,16 @@ nullptr
 )
 {
 }
+ZeroRttHandle
+:
+:
+~
+ZeroRttHandle
+(
+)
+=
+default
+;
 static
 bool
 IsUsableRealTxn

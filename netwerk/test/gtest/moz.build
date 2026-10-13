@@ -650,3 +650,13 @@ xpcom
 components
 "
 ]
+SOURCE_HEADERS
++
+=
+[
+"
+TestCommon
+.
+h
+"
+]

@@ -137,3 +137,13 @@ config
 mozbuild
 "
 )
+SOURCE_HEADERS
++
+=
+[
+"
+nsViewSourceChannel
+.
+h
+"
+]
