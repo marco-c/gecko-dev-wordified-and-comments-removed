@@ -933,6 +933,13 @@ js
 ]
 [
 "
+browser_occludedSelectedTab
+.
+js
+"
+]
+[
+"
 browser_occluded_window
 .
 js
