@@ -105,6 +105,16 @@ nsCodeCoverage
 cpp
 "
 ]
+SOURCE_HEADERS
++
+=
+[
+"
+nsCodeCoverage
+.
+h
+"
+]
 XPCOM_MANIFESTS
 +
 =

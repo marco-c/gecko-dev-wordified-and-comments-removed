@@ -109,6 +109,16 @@ LulTestInfrastructure
 cpp
 "
 ]
+SOURCE_HEADERS
++
+=
+[
+"
+LulTestInfrastructure
+.
+h
+"
+]
 LOCAL_INCLUDES
 +
 =
