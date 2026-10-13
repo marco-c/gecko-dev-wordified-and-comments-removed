@@ -989,6 +989,15 @@ hw
 *
 :
 2
+macosx1500
+-
+aarch64
+-
+vms
+.
+*
+:
+1
 default
 :
 default
