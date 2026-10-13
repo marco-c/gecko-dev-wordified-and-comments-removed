@@ -924,7 +924,7 @@ this
 #
 cacheEntryURIsToDoomAtShutdown
 .
-find
+some
 (
 doomedURI
 =
