@@ -408,6 +408,12 @@ bpp
 0
 |
 |
+width
+<
+=
+0
+|
+|
 stride
 /
 bpp
