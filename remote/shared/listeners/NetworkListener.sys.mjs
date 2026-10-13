@@ -487,6 +487,9 @@ lazy
 NetworkObserver
 (
 {
+collectSecurityInfo
+:
+false
 decodeResponseBodies
 :
 false
