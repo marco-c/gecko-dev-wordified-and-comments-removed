@@ -43184,9 +43184,7 @@ sign_in_with_email
 "
 >
 Defnyddio
-e
--
-bost
+ebost
 yn
 lle
 hynny
@@ -50901,9 +50899,7 @@ preferences_email_masks_suggest_title
 >
 Awgrymu
 arallenwau
-e
--
-bost
+ebost
 <
 /
 string
@@ -50933,9 +50929,7 @@ preferences_email_masks_suggest_summary
 >
 Cuddiwch
 eich
-e
--
-bost
+ebost
 go
 iawn
 i
@@ -51017,9 +51011,7 @@ preferences_email_masks_manage_title
 >
 Rheoli
 arallenwau
-e
--
-bost
+ebost
 <
 /
 string
@@ -51076,9 +51068,7 @@ defnyddio
 ch
 5
 arallenw
-e
--
-bost
+ebost
 am
 ddim
 felly
@@ -51130,9 +51120,7 @@ email_masks_error_retrieving_masks
 Does
 dim
 arallenwau
-e
--
-bost
+ebost
 ar
 gael
 ar
@@ -54138,9 +54126,7 @@ ff
 n
 a
 chyfeiriadau
-e
--
-bost
+ebost
 <
 /
 string
@@ -55594,9 +55580,7 @@ name
 addresses_email
 "
 >
-E
--
-bost
+Ebost
 <
 /
 string

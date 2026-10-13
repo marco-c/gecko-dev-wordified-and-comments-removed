@@ -801,9 +801,7 @@ mozac_feature_contextmenu_share_email_address
 >
 Rhannu
 cyfeiriad
-e
--
-bost
+ebost
 <
 /
 string
@@ -840,9 +838,7 @@ mozac_feature_contextmenu_copy_email_address
 Cop
 o
 cyfeiriad
-e
--
-bost
+ebost
 <
 /
 string
@@ -879,9 +875,7 @@ mozac_feature_contextmenu_snackbar_email_address_copied
 "
 >
 Cyfeiriad
-e
--
-bost
+ebost
 wedi
 ei
 gop
@@ -1082,9 +1076,7 @@ name
 mozac_selection_context_menu_email
 "
 >
-E
--
-bost
+Ebost
 <
 /
 string
