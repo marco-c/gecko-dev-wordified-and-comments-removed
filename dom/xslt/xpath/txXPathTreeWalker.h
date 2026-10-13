@@ -238,8 +238,10 @@ aNode
 )
 ;
 static
+already_AddRefed
+<
 nsAtom
-*
+>
 getPrefix
 (
 const
