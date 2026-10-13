@@ -31326,6 +31326,14 @@ codec
 /
 media
 :
+fake_video_renderer
+"
+"
+.
+.
+/
+media
+:
 media_channel
 "
 "

@@ -8143,6 +8143,14 @@ codec
 /
 media
 :
+fake_video_renderer
+"
+"
+.
+.
+/
+media
+:
 rtc_media_tests_utils
 "
 "
