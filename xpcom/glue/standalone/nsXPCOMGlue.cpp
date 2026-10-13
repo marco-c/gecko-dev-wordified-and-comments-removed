@@ -642,13 +642,6 @@ defined
 (
 MOZ_LINKER
 )
-&
-&
-!
-defined
-(
-__ANDROID__
-)
 if
 (
 aLibLoadingStrategy
