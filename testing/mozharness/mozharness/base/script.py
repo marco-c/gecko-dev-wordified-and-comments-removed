@@ -16726,6 +16726,25 @@ suites
         
 }
         
+extra_options
+=
+os
+.
+environ
+.
+get
+(
+"
+PERFHERDER_EXTRA_OPTIONS
+"
+"
+"
+)
+.
+split
+(
+)
+        
 try
 :
             
@@ -16786,15 +16805,8 @@ monotonic
 (
 )
                 
-perfherder_data
-[
-"
-suites
-"
-]
-.
-append
-(
+suite
+=
 {
                     
 "
@@ -16839,6 +16851,30 @@ subtests
 ]
                 
 }
+                
+if
+extra_options
+:
+                    
+suite
+[
+"
+extraOptions
+"
+]
+=
+extra_options
+                
+perfherder_data
+[
+"
+suites
+"
+]
+.
+append
+(
+suite
 )
         
 except
