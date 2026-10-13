@@ -904,9 +904,9 @@ toolbarButton
 await
 SidebarController
 .
-sidebarMain
-.
-updateComplete
+waitUntilStable
+(
+)
 ;
 info
 (
@@ -935,9 +935,9 @@ toolbarButton
 await
 SidebarController
 .
-sidebarMain
-.
-updateComplete
+waitUntilStable
+(
+)
 ;
 Assert
 .
