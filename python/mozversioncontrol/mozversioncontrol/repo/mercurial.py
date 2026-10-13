@@ -3465,15 +3465,25 @@ vct_dir
 def
 configure
 (
+        
 self
+        
 state_dir
 :
 Path
+        
 update_only
 :
 bool
 =
 False
+        
+no_system_changes
+:
+bool
+=
+False
+    
 )
 :
         
