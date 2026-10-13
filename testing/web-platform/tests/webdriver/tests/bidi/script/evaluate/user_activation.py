@@ -212,6 +212,24 @@ await_promise
 False
 )
     
+await
+bidi_session
+.
+browsing_context
+.
+activate
+(
+        
+context
+=
+top_context
+[
+"
+context
+"
+]
+)
+    
 result
 =
 await
