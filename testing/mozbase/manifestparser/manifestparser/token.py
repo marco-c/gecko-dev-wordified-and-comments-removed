@@ -1731,6 +1731,27 @@ e10s
 )
 )
         
+_emesigned
+:
+Token
+=
+self
+.
+add
+(
+Token
+(
+t_type
+=
+t_variant
+value
+=
+"
+emesigned
+"
+)
+)
+        
 _emewmf
 :
 Token
