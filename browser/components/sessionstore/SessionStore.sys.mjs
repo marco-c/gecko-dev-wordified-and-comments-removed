@@ -31567,6 +31567,22 @@ aSource
 let
 winData
 ;
+let
+options
+=
+/
+*
+*
+type
+{
+ClosedDataSourceOptions
+}
+*
+/
+(
+aSource
+)
+;
 if
 (
 aSource
@@ -31590,7 +31606,7 @@ aSource
 else
 if
 (
-aSource
+options
 .
 sourceWindow
 instanceof
@@ -31606,7 +31622,7 @@ this
 #
 getWindowStateData
 (
-aSource
+options
 .
 sourceWindow
 )
@@ -31616,7 +31632,7 @@ else
 if
 (
 typeof
-aSource
+options
 .
 sourceClosedId
 =
@@ -31633,7 +31649,7 @@ this
 #
 getClosedWindowDataByClosedId
 (
-aSource
+options
 .
 sourceClosedId
 )
@@ -31666,7 +31682,7 @@ else
 if
 (
 typeof
-aSource
+options
 .
 sourceWindowId
 =
@@ -31683,7 +31699,7 @@ this
 .
 getWindowById
 (
-aSource
+options
 .
 sourceWindowId
 )
