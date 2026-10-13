@@ -763,9 +763,11 @@ networking
 #
 dns
 is
-2
+TRR
+first
 or
-3
+TRR
+only
 then
 the
 answer
