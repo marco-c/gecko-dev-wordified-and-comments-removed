@@ -2287,14 +2287,6 @@ __enter__
 (
 )
         
-if
-self
-.
-_ssl_env
-.
-ssl_enabled
-:
-            
 key_path
 cert_path
 =
@@ -2311,7 +2303,7 @@ domains_set
 "
 ]
 )
-            
+        
 ca_cert_path
 =
 self
@@ -2327,6 +2319,23 @@ domains_set
 "
 ]
 )
+        
+if
+key_path
+is
+not
+None
+and
+cert_path
+is
+not
+None
+and
+ca_cert_path
+is
+not
+None
+:
             
 return
 {
@@ -2364,6 +2373,11 @@ get
 "
 encrypt_after_connect
 "
-False
+not
+self
+.
+_ssl_env
+.
+ssl_enabled
 )
 }

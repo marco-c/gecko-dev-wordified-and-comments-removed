@@ -1494,8 +1494,6 @@ scheme
 =
 request_handler
 .
-server
-.
 scheme
         
 host

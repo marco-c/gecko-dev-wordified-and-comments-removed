@@ -9781,6 +9781,12 @@ kwargs
 )
 :
     
+ssl_config
+=
+config
+.
+ssl_config
+    
 try
 :
         
@@ -9824,14 +9830,42 @@ config
                                      
 use_ssl
 =
-False
+ssl_config
+is
+not
+None
                                      
 key_file
 =
+ssl_config
+[
+"
+key_path
+"
+]
+if
+ssl_config
+else
 None
                                      
 certificate
 =
+ssl_config
+[
+"
+cert_path
+"
+]
+if
+ssl_config
+else
+None
+                                     
+encrypt_after_connect
+=
+ssl_config
+is
+not
 None
                                      
 latency
@@ -11538,6 +11572,30 @@ web
 platform
 .
 test
+.
+pem
+"
+)
+                
+"
+ca_cert_path
+"
+:
+os
+.
+path
+.
+join
+(
+repo_root
+"
+tools
+"
+"
+certs
+"
+"
+cacert
 .
 pem
 "

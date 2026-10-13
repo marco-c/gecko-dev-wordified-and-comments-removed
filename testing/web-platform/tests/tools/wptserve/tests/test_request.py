@@ -435,8 +435,6 @@ Mock
     
 request_handler
 .
-server
-.
 scheme
 =
 '
@@ -523,8 +521,6 @@ Mock
 )
     
 request_handler
-.
-server
 .
 scheme
 =
