@@ -39,6 +39,8 @@ CT_MEDIUM
     
 BugbugTimeoutException
     
+get_confidence_threshold
+    
 push_schedules
 )
 from
@@ -110,6 +112,28 @@ items
 (
 )
 :
+        
+if
+key
+=
+=
+"
+confidence_thresholds
+"
+:
+            
+if
+value
+:
+                
+data
+[
+key
+]
+=
+value
+            
+continue
         
 if
 isinstance
@@ -1069,6 +1093,21 @@ else
 tasks
 "
         
+tasks_threshold
+=
+get_confidence_threshold
+(
+            
+data
+"
+tasks
+"
+self
+.
+confidence_threshold
+        
+)
+        
 tasks
 =
 {
@@ -1096,9 +1135,7 @@ if
 confidence
 >
 =
-self
-.
-confidence_threshold
+tasks_threshold
         
 }
         
@@ -1179,6 +1216,21 @@ groups
 }
 )
         
+groups_threshold
+=
+get_confidence_threshold
+(
+            
+data
+"
+groups
+"
+self
+.
+confidence_threshold
+        
+)
+        
 confidences
 =
 [
@@ -1207,9 +1259,7 @@ max
 confidences
 )
 <
-self
-.
-confidence_threshold
+groups_threshold
 :
             
 return
@@ -1244,9 +1294,7 @@ test_manifests
 and
 c
 >
-self
-.
-confidence_threshold
+groups_threshold
             
 ]
             
@@ -1338,6 +1386,32 @@ group
 return
 True
         
+ct_high
+ct_medium
+ct_low
+=
+(
+            
+get_confidence_threshold
+(
+data
+"
+groups
+"
+ct
+)
+            
+for
+ct
+in
+(
+CT_HIGH
+CT_MEDIUM
+CT_LOW
+)
+        
+)
+        
 for
 manifest
 in
@@ -1364,7 +1438,7 @@ if
 confidence
 >
 =
-CT_HIGH
+ct_high
 :
                 
 importance
@@ -1380,7 +1454,7 @@ elif
 confidence
 >
 =
-CT_MEDIUM
+ct_medium
 :
                 
 importance
@@ -1396,7 +1470,7 @@ elif
 confidence
 >
 =
-CT_LOW
+ct_low
 :
                 
 importance

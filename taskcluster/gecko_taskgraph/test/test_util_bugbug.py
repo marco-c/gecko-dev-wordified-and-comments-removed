@@ -16,6 +16,12 @@ responses
 )
 :
     
+push_schedules
+.
+cache_clear
+(
+)
+    
 branch
 =
 (
@@ -187,10 +193,13 @@ status
 )
     
 assert
-len
-(
 push_schedules
+.
+cache_info
+(
 )
+.
+currsize
 =
 =
 0
@@ -295,10 +304,13 @@ label4
 }
     
 assert
-len
-(
 push_schedules
+.
+cache_info
+(
 )
+.
+currsize
 =
 =
 1
@@ -316,10 +328,13 @@ rev
 )
     
 assert
-len
-(
 push_schedules
+.
+cache_info
+(
 )
+.
+currsize
 =
 =
 1
