@@ -163,3 +163,13 @@ FINAL_LIBRARY
 "
 mozglue
 "
+SOURCE_HEADERS
++
+=
+[
+"
+InterposerHelper
+.
+h
+"
+]
