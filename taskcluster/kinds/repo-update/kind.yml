@@ -136,11 +136,6 @@ linux
 medium
 run
 :
-clone
--
-with
-:
-hg
 using
 :
 run
