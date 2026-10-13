@@ -10106,9 +10106,10 @@ getShellService
 const
 isNowDefault
 =
+await
 shellService
 .
-isDefaultBrowser
+isDefaultBrowserAsync
 (
 false
 false
