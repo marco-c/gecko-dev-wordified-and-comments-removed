@@ -1802,15 +1802,14 @@ returns
 Promise
 <
 [
-string
+Blob
 object
 ]
 >
 }
 The
+model
 file
-local
-path
 and
 headers
 *
@@ -4456,7 +4455,7 @@ object
 Promise
 <
 [
-string
+Blob
 object
 ]
 >
@@ -4544,8 +4543,12 @@ response
 headers
 *
 and
+the
 model
-path
+file
+as
+a
+blob
 .
 *
 /
@@ -4568,7 +4571,7 @@ telemetryData
 {
 const
 [
-data
+blob
 headers
 ]
 =
@@ -4619,7 +4622,7 @@ Meta
 [
 url
 headers
-data
+blob
 ]
 {
 }
@@ -4755,7 +4758,7 @@ object
 Promise
 <
 [
-string
+Blob
 object
 ]
 >
