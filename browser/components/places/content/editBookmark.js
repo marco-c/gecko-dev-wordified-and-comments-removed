@@ -6012,6 +6012,10 @@ disableUserActions
 "
 true
 "
+noentertoggle
+=
+"
+"
 hidecolumnpicker
 =
 "
