@@ -13,6 +13,17 @@ plugin
 tests
 /
 *
+build
+/
+clang
+-
+plugin
+/
+alpha
+/
+tests
+/
+*
 #
 The
 two
