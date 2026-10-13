@@ -101,3 +101,13 @@ FINAL_LIBRARY
 "
 xul
 "
+SOURCE_HEADERS
++
+=
+[
+"
+xptcprivate
+.
+h
+"
+]
