@@ -61,10 +61,9 @@ browser_idle_shutdown_grace_ms
 0
 "
 #
-Nightly
-defaults
-the
+The
 pref
+defaults
 on
 ;
 tests
@@ -450,9 +449,6 @@ android
 '
 "
 "
-tsan
-"
-"
 verify
 "
 ]
@@ -635,9 +631,6 @@ os
 '
 android
 '
-"
-"
-tsan
 "
 "
 verify

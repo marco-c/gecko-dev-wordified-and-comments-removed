@@ -177,14 +177,6 @@ http2
 http3
 "
 "
-tsan
-"
-#
-tsan
-:
-bug
-1612707
-"
 os
 =
 =

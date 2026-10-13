@@ -21,17 +21,6 @@ os
 android
 '
 "
-"
-tsan
-"
-#
-Bug
-1525959
-.
-tsan
-:
-Bug
-1683730
 ]
 [
 "

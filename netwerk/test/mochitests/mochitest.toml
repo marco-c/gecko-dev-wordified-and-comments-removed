@@ -625,16 +625,6 @@ if
 "
 asan
 "
-"
-tsan
-"
-#
-TSan
-shadow
-memory
-causes
-OOMs
-.
 ]
 [
 "

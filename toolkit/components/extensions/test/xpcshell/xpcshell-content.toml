@@ -156,12 +156,6 @@ ccov
 #
 Bug
 1854843
-"
-tsan
-"
-#
-Bug
-1612707
 ]
 [
 "
@@ -215,6 +209,13 @@ js
 [
 "
 test_ext_web_accessible_resources_matches
+.
+js
+"
+]
+[
+"
+test_ext_web_accessible_workers
 .
 js
 "

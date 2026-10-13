@@ -51,15 +51,6 @@ browser_browser_languages_subdialog
 js
 "
 ]
-skip
--
-if
-=
-[
-"
-tsan
-"
-]
 [
 "
 browser_languages_subdialog

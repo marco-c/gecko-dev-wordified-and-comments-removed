@@ -236,15 +236,6 @@ non
 e10s
 mode
 .
-skip
--
-if
-=
-[
-"
-tsan
-"
-]
 [
 "
 test_ext_contentscript_xorigin_frame

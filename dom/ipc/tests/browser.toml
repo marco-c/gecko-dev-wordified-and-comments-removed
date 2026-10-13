@@ -370,9 +370,6 @@ os
 linux
 '
 "
-"
-tsan
-"
 ]
 [
 "
@@ -562,15 +559,6 @@ if
 [
 "
 asan
-"
-#
-appears
-to
-hang
-the
-machine
-"
-tsan
 "
 #
 appears

@@ -58,16 +58,4 @@ failure
 "
 debug
 "
-"
-tsan
-"
-#
-Bug
-1683730
-made
-this
-timeout
-for
-tsan
-.
 ]

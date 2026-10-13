@@ -670,16 +670,6 @@ socketprocess_networking
 #
 Bug
 1970513
-"
-tsan
-"
-#
-Bug
-1676326
-highly
-frequent
-on
-TSan
 ]
 [
 "
