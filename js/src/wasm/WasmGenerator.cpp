@@ -1147,6 +1147,12 @@ case
 CallSiteKind
 :
 :
+ReturnStub
+:
+case
+CallSiteKind
+:
+:
 StackSwitch
 :
 case
