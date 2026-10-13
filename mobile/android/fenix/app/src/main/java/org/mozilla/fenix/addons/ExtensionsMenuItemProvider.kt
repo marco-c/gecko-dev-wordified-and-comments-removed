@@ -985,6 +985,10 @@ context
 MenuTarget
 .
 BrowserTab
+is
+MenuTarget
+.
+CustomTab
 -
 >
 extensions
@@ -1026,11 +1030,11 @@ init
 if
 (
 target
-=
+!
 =
 MenuTarget
 .
-BrowserTab
+Home
 )
 observeExtensions
 (
