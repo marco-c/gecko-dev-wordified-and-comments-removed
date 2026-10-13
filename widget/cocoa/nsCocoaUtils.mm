@@ -1479,8 +1479,10 @@ appShellService
 ;
 1
 "
+already_AddRefed
+<
 nsIWidget
-*
+>
 nsCocoaUtils
 :
 :
@@ -1637,6 +1639,10 @@ nullptr
 }
 return
 hiddenWindowWidget
+.
+forget
+(
+)
 ;
 }
 BOOL

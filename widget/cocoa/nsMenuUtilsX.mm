@@ -636,9 +636,11 @@ return
 nullptr
 ;
 }
+nsCOMPtr
+<
 nsIWidget
-*
-hiddenWindowWidgetNoCOMPtr
+>
+hiddenWindowWidget
 =
 nsCocoaUtils
 :
@@ -649,7 +651,7 @@ GetHiddenWindowWidget
 ;
 if
 (
-hiddenWindowWidgetNoCOMPtr
+hiddenWindowWidget
 )
 {
 return
@@ -659,7 +661,11 @@ nsCocoaWindow
 *
 >
 (
-hiddenWindowWidgetNoCOMPtr
+hiddenWindowWidget
+.
+get
+(
+)
 )
 -
 >
