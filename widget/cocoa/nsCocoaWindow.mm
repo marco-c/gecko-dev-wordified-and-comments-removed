@@ -10104,6 +10104,10 @@ nsDragService
 :
 EndStaleDragSession
 (
+"
+mouseDown
+:
+"
 )
 ;
 if
@@ -10742,6 +10746,10 @@ nsDragService
 :
 EndStaleDragSession
 (
+"
+handleMouseMoved
+:
+"
 )
 ;
 }
