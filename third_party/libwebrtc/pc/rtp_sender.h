@@ -438,6 +438,8 @@ SetSsrcTask
 (
 uint32_t
 ssrc
+size_t
+layer_count
 )
 =
 0
@@ -893,6 +895,8 @@ SetSsrcTask
 (
 uint32_t
 ssrc
+size_t
+layer_count
 )
 override
 ;
