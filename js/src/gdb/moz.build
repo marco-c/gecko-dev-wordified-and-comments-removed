@@ -538,3 +538,15 @@ gdb
 py
 "
 ]
+SOURCE_HEADERS
++
+=
+[
+"
+gdb
+-
+tests
+.
+h
+"
+]

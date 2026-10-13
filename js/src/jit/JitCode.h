@@ -182,6 +182,12 @@ headerPtr
 headerSize_
 ;
 }
+JitCode
+(
+)
+=
+delete
+;
 protected
 :
 ExecutablePool
@@ -230,12 +236,6 @@ profilerInstrumented_
 ;
 uint8_t
 localTracingSlots_
-;
-JitCode
-(
-)
-=
-delete
 ;
 JitCode
 (

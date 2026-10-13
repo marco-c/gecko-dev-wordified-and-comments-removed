@@ -27,6 +27,15 @@ include
 "
 builtin
 /
+MapObject
+.
+h
+"
+#
+include
+"
+builtin
+/
 ModuleObject
 .
 h

@@ -254,3 +254,13 @@ src
 "
 %
 TOPSRCDIR
+SOURCE_HEADERS
++
+=
+[
+"
+tests
+.
+h
+"
+]

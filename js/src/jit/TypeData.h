@@ -101,8 +101,9 @@ public
 TypeDataList
 (
 )
-{
-}
+=
+default
+;
 uint8_t
 count
 (

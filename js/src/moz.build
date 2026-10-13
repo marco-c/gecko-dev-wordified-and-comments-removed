@@ -2927,3 +2927,13 @@ USE_LIBS
 intlcomponents
 "
 ]
+SOURCE_HEADERS
++
+=
+[
+"
+NamespaceImports
+.
+h
+"
+]

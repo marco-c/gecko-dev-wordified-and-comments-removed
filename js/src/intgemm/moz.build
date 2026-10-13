@@ -643,3 +643,13 @@ upstream
 AllowCompilerWarnings
 (
 )
+SOURCE_HEADERS
++
+=
+[
+"
+IntegerGemmIntrinsic
+.
+h
+"
+]

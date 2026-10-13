@@ -812,8 +812,9 @@ FloatRegister
 RegF32
 (
 )
-{
-}
+=
+default
+;
 explicit
 RegF32
 (
@@ -870,8 +871,9 @@ FloatRegister
 RegF64
 (
 )
-{
-}
+=
+default
+;
 explicit
 RegF64
 (
@@ -931,8 +933,9 @@ FloatRegister
 RegV128
 (
 )
-{
-}
+=
+default
+;
 explicit
 RegV128
 (

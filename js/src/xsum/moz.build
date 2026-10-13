@@ -182,3 +182,13 @@ LICENSED_UNDER
 mit
 "
 ]
+SOURCE_HEADERS
++
+=
+[
+"
+xsum
+.
+h
+"
+]

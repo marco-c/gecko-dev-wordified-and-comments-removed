@@ -377,6 +377,16 @@ MacroAssembler
 .
 h
 -
+js
+/
+src
+/
+jit
+/
+MIR
+.
+h
+-
 layout
 /
 style

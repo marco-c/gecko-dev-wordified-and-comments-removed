@@ -133,6 +133,16 @@ xpcshellMacUtils
 mm
 "
 ]
+SOURCE_HEADERS
++
+=
+[
+"
+xpcshellMacUtils
+.
+h
+"
+]
 include
 (
 "

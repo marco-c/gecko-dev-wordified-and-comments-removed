@@ -4,6 +4,11 @@ jit_JitDump_h
 #
 define
 jit_JitDump_h
+#
+include
+<
+cstdint
+>
 namespace
 js
 {
