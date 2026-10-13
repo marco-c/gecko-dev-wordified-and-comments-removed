@@ -2094,7 +2094,7 @@ resources
 *
 param
 {
-string
+MozAdsClient
 }
 [
 client

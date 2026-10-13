@@ -2100,7 +2100,7 @@ URI
 *
 param
 {
-ArrayBuffer
+ArrayBufferLike
 }
 arrayBuffer
 -
@@ -2425,6 +2425,17 @@ param
 object
 }
 content
+*
+param
+{
+ArrayBufferLike
+}
+content
+.
+manifest
+-
+Renderer
+manifest
 *
 param
 {
@@ -3848,6 +3859,9 @@ returns
 Promise
 <
 {
+manifest
+:
+ArrayBufferLike
 js
 :
 ArrayBuffer
