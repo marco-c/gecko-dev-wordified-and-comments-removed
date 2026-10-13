@@ -1558,7 +1558,10 @@ empty
 }
 ;
 let
+(
 dst_buffer
+_
+)
 =
 unsafe
 {
@@ -1674,10 +1677,7 @@ as_ref
 (
 )
 0
-Some
-(
 DST_BUFFER_SIZE
-)
 )
 ]
 samplers

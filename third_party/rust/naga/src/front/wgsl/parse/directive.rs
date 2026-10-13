@@ -6,7 +6,13 @@ pub
 (
 crate
 )
-mod
+use
+naga_types
+:
+:
+wgsl
+:
+:
 language_extension
 ;
 use

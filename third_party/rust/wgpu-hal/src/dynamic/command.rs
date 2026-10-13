@@ -591,6 +591,10 @@ BufferBinding
 a
 dyn
 DynBuffer
+wgt
+:
+:
+BufferAddress
 >
 format
 :
@@ -622,6 +626,10 @@ BufferBinding
 a
 dyn
 DynBuffer
+wgt
+:
+:
+BufferAddress
 >
 )
 ;
@@ -3324,6 +3332,10 @@ BufferBinding
 a
 dyn
 DynBuffer
+wgt
+:
+:
+BufferAddress
 >
 format
 :
@@ -3376,6 +3388,10 @@ BufferBinding
 a
 dyn
 DynBuffer
+wgt
+:
+:
+BufferAddress
 >
 )
 {

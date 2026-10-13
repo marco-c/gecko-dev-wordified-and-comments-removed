@@ -1806,6 +1806,13 @@ Ident
 a
 >
 }
+String
+(
+&
+'
+a
+str
+)
 }
 #
 [

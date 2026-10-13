@@ -4114,7 +4114,7 @@ view
 .
 format
 .
-is_srgb
+has_srgb_suffix
 (
 )
 }
@@ -6334,6 +6334,10 @@ super
 :
 :
 Buffer
+wgt
+:
+:
+BufferAddress
 >
 format
 :
@@ -6414,6 +6418,10 @@ super
 :
 :
 Buffer
+wgt
+:
+:
+BufferAddress
 >
 )
 {

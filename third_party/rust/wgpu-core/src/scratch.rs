@@ -113,7 +113,10 @@ DeviceError
 >
 {
 let
+(
 raw
+_
+)
 =
 unsafe
 {
@@ -170,9 +173,7 @@ hal
 MemoryFlags
 :
 :
-empty
-(
-)
+TRANSIENT
 }
 )
 .

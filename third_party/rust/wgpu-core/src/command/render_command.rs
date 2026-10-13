@@ -54,7 +54,6 @@ wgt
 :
 {
 BufferAddress
-BufferSize
 Color
 }
 ;
@@ -166,7 +165,7 @@ size
 :
 Option
 <
-BufferSize
+BufferAddress
 >
 }
 SetVertexBuffer
@@ -190,7 +189,7 @@ size
 :
 Option
 <
-BufferSize
+BufferAddress
 >
 }
 SetBlendConstant

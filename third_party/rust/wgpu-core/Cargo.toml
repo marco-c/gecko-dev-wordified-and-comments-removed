@@ -1409,6 +1409,11 @@ target_os
 "
 freebsd
 "
+target_os
+=
+"
+netbsd
+"
 )
 )
 '
@@ -1651,6 +1656,12 @@ cfg
 cfg
 (
 wgpu_validate_locks
+)
+"
+"
+cfg
+(
+wgpu_validate_locks_debug
 )
 "
 ]

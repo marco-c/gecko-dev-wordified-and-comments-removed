@@ -1220,6 +1220,8 @@ DeviceError
 from_hal
 )
 ?
+.
+0
 }
 )
 )
@@ -1860,7 +1862,10 @@ size
 )
 ;
 let
+(
 instance_buffer
+_
+)
 =
 unsafe
 {

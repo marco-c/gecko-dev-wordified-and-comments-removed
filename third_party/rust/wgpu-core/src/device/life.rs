@@ -1563,6 +1563,13 @@ blas
 .
 read_back_compact_size
 (
+blas
+.
+compacted_state
+.
+lock
+(
+)
 )
 {
 Some

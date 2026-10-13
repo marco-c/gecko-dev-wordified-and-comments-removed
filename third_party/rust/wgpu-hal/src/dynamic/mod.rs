@@ -694,6 +694,7 @@ impl
 <
 '
 a
+S
 >
 BufferBinding
 <
@@ -701,6 +702,7 @@ BufferBinding
 a
 dyn
 DynBuffer
+S
 >
 {
 pub
@@ -721,6 +723,7 @@ BufferBinding
 '
 a
 B
+S
 >
 {
 BufferBinding

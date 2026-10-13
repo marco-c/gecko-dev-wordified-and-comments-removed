@@ -9160,15 +9160,14 @@ format
 .
 .
 }
-=
->
-{
 if
 format
 .
 single_component
 (
 )
+=
+>
 {
 let
 scalar
@@ -9208,7 +9207,6 @@ scalar
 )
 ?
 ;
-}
 }
 }
 _

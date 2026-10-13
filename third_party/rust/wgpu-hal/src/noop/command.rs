@@ -882,6 +882,10 @@ BufferBinding
 '
 a
 Buffer
+wgt
+:
+:
+BufferAddress
 >
 format
 :
@@ -916,6 +920,10 @@ BufferBinding
 '
 a
 Buffer
+wgt
+:
+:
+BufferAddress
 >
 )
 {

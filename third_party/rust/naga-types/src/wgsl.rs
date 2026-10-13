@@ -1,3 +1,7 @@
+pub
+mod
+language_extension
+{
 #
 [
 derive
@@ -113,7 +117,6 @@ Self
 READONLY_AND_READWRITE_STORAGE_TEXTURES
 =
 >
-{
 Self
 :
 :
@@ -124,7 +127,6 @@ ImplementedLanguageExtension
 :
 ReadOnlyAndReadWriteStorageTextures
 )
-}
 Self
 :
 :
@@ -149,7 +151,6 @@ Self
 UNRESTRICTED_POINTER_PARAMETERS
 =
 >
-{
 Self
 :
 :
@@ -160,7 +161,6 @@ UnimplementedLanguageExtension
 :
 UnrestrictedPointerParameters
 )
-}
 Self
 :
 :
@@ -473,9 +473,6 @@ impl
 UnimplementedLanguageExtension
 {
 pub
-(
-crate
-)
 const
 fn
 tracking_issue_num
@@ -496,6 +493,7 @@ UnrestrictedPointerParameters
 =
 >
 5158
+}
 }
 }
 }

@@ -309,6 +309,15 @@ RayPipelineFunction
 (
 _
 )
+|
+S
+:
+:
+DebugPrintf
+{
+.
+.
+}
 )
 )
 |

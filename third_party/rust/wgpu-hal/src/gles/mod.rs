@@ -1718,12 +1718,6 @@ Buffer
 target
 :
 BindTarget
-size
-:
-wgt
-:
-:
-BufferAddress
 map_flags
 :
 u32

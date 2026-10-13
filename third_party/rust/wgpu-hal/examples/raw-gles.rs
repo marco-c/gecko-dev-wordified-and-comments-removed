@@ -875,9 +875,6 @@ Resized
 (
 size
 )
-=
->
-{
 if
 size
 .
@@ -893,6 +890,8 @@ height
 !
 =
 0
+=
+>
 {
 if
 let
@@ -918,7 +917,6 @@ gl_surface
 gl_context
 )
 ;
-}
 }
 }
 WindowEvent

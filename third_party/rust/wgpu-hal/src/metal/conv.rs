@@ -1623,6 +1623,16 @@ UInt1010102Normalized
 Vf
 :
 :
+Snorm10_10_10_2
+=
+>
+MTL
+:
+:
+Int1010102Normalized
+Vf
+:
+:
 Unorm8x4Bgra
 =
 >

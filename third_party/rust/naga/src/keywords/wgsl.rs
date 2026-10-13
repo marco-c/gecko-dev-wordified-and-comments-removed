@@ -1283,6 +1283,9 @@ quadSwapX
 quadSwapY
 "
 "
+debugPrintf
+"
+"
 i64
 "
 "

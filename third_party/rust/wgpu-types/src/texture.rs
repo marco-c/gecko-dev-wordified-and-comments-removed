@@ -2007,6 +2007,13 @@ u32
 }
 #
 [
+repr
+(
+C
+)
+]
+#
+[
 derive
 (
 Clone
@@ -2071,6 +2078,13 @@ true
 }
 }
 }
+#
+[
+repr
+(
+C
+)
+]
 #
 [
 derive

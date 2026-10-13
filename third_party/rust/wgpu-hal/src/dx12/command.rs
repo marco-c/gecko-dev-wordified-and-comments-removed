@@ -2925,7 +2925,7 @@ super
 Buffer
 {
 resource
-size
+allocated_size
 :
 size
 .
@@ -2933,6 +2933,9 @@ get
 (
 )
 allocation
+_drop_guard
+:
+None
 }
 }
 ;
@@ -8364,6 +8367,10 @@ super
 :
 :
 Buffer
+wgt
+:
+:
+BufferAddress
 >
 format
 :
@@ -8392,9 +8399,7 @@ SizeInBytes
 :
 binding
 .
-resolve_size
-(
-)
+size
 .
 try_into
 (
@@ -8471,6 +8476,10 @@ super
 :
 :
 Buffer
+wgt
+:
+:
+BufferAddress
 >
 )
 {
@@ -8506,9 +8515,7 @@ SizeInBytes
 =
 binding
 .
-resolve_size
-(
-)
+size
 .
 try_into
 (
