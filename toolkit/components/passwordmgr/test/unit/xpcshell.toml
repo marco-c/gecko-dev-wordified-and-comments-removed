@@ -271,6 +271,13 @@ test_LoginStorageMigrator
 js
 "
 ]
+[
+"
+test_LoginStorageMigrator_nimbus
+.
+js
+"
+]
 run
 -
 if
