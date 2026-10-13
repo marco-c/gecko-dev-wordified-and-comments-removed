@@ -519,9 +519,6 @@ aarch64
 &
 &
 debug
-&
-&
-nightly_build
 "
 "
 os
