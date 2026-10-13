@@ -37,7 +37,7 @@ plugins
 /
 skip
 -
-unnamed
+private
 -
 members
 .

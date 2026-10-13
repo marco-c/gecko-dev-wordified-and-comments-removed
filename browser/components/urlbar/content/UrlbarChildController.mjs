@@ -662,9 +662,6 @@ Set
 (
 )
 ;
-#
-userSelectionBehavior
-=
 /
 *
 *
@@ -684,11 +681,12 @@ none
 }
 *
 /
-(
+#
+userSelectionBehavior
+=
 "
 none
 "
-)
 ;
 /
 *

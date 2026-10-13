@@ -9470,9 +9470,6 @@ previousTabToSearchEngine
 =
 null
 ;
-#
-queryContext
-=
 /
 *
 *
@@ -9482,9 +9479,10 @@ UrlbarQueryContext
 }
 *
 /
-(
+#
+queryContext
+=
 null
-)
 ;
 #
 queryUpdatedResults
