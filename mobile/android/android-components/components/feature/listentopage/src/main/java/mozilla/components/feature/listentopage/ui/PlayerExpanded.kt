@@ -501,6 +501,9 @@ ArticleHeading
 article
 =
 article
+shouldScrollTitle
+=
+playing
 )
 }
 AudioProgress
@@ -565,6 +568,9 @@ it
 }
 PlaybackControls
 (
+articleProgressState
+=
+articleProgressState
 playing
 =
 playing
