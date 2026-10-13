@@ -10888,8 +10888,12 @@ aNowTime
 ;
 }
 {
-nsAutoMicroTask
+nsAutoMicroTaskForDocument
 mt
+(
+&
+aDoc
+)
 ;
 UpdateAndReduceAnimations
 (

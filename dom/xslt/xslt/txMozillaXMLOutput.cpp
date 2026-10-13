@@ -1274,8 +1274,11 @@ sele
 )
 {
 {
-nsAutoMicroTask
+nsAutoMicroTaskForDocument
 mt
+(
+mDocument
+)
 ;
 }
 bool
