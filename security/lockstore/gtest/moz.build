@@ -67,6 +67,11 @@ TestLockstoreKeystore
 .
 cpp
 "
+"
+TestProfileKek
+.
+cpp
+"
 ]
 FINAL_LIBRARY
 =
