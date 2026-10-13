@@ -87,6 +87,11 @@ ObliviousHttpService
 (
 )
 ;
+nsresult
+Init
+(
+)
+;
 private
 :
 ~
@@ -107,6 +112,13 @@ whichPref
 ;
 void
 FetchConfig
+(
+bool
+aConfigURIChanged
+)
+;
+void
+FetchConfigInternal
 (
 bool
 aConfigURIChanged
