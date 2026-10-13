@@ -44,6 +44,11 @@ num_buckets
 size_t
 max_num_values
 )
+:
+max_num_values_
+(
+max_num_values
+)
 {
 RTC_DCHECK_GT
 (
@@ -173,11 +178,7 @@ index_
 1
 )
 %
-values_
-.
-capacity
-(
-)
+max_num_values_
 ;
 }
 size_t
