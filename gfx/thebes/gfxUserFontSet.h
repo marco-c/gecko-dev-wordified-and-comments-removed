@@ -2818,7 +2818,12 @@ LoadNextSrc
 )
 ;
 void
-ContinueLoad
+DoContinueLoad
+(
+)
+;
+void
+ScheduleContinueLoad
 (
 )
 ;
