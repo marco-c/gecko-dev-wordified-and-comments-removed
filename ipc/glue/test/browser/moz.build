@@ -72,6 +72,11 @@ browser_child_hang
 .
 toml
 "
+"
+browser_mac_plist_process_launch
+.
+toml
+"
 ]
 MOCHITEST_MANIFESTS
 +
