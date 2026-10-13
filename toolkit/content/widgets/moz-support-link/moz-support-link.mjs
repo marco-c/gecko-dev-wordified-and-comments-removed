@@ -246,7 +246,6 @@ content
 *
 /
 export
-default
 class
 MozSupportLink
 extends

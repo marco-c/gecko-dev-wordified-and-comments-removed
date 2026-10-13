@@ -295,7 +295,6 @@ changed
 *
 /
 export
-default
 class
 MozToggle
 extends

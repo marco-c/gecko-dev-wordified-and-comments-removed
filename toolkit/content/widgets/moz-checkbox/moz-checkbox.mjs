@@ -367,7 +367,6 @@ input
 *
 /
 export
-default
 class
 MozCheckbox
 extends

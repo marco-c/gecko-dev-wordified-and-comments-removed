@@ -296,7 +296,7 @@ mjs
 "
 )
 .
-default
+MozInputText
 }
 MozInputText
 *

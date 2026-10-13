@@ -1947,7 +1947,6 @@ event
 *
 /
 export
-default
 class
 MozButton
 extends

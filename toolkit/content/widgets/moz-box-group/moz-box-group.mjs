@@ -95,7 +95,9 @@ mjs
 "
 ;
 import
+{
 MozBoxItem
+}
 from
 "
 chrome
@@ -398,7 +400,6 @@ boundary
 *
 /
 export
-default
 class
 MozBoxGroup
 extends

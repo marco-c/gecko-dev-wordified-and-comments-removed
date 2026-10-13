@@ -426,7 +426,6 @@ card
 *
 /
 export
-default
 class
 MozCard
 extends

@@ -104,7 +104,9 @@ js
 *
 *
 import
+{
 MozMessageBar
+}
 from
 "
 chrome
@@ -127,7 +129,9 @@ mjs
 "
 *
 import
+{
 MozToggle
+}
 from
 "
 chrome

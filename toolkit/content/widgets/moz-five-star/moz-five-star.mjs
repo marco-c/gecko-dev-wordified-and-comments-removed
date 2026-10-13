@@ -224,7 +224,6 @@ text
 *
 /
 export
-default
 class
 MozFiveStar
 extends

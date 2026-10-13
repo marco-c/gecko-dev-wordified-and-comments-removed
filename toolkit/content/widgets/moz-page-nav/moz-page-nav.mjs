@@ -405,7 +405,6 @@ nav
 *
 /
 export
-default
 class
 MozPageNav
 extends

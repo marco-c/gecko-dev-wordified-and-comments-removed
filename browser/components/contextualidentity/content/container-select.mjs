@@ -80,7 +80,9 @@ mjs
 "
 ;
 import
+{
 MozSelect
+}
 from
 "
 chrome

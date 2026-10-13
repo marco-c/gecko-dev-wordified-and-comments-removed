@@ -493,7 +493,6 @@ dropped
 *
 /
 export
-default
 class
 MozReorderableList
 extends

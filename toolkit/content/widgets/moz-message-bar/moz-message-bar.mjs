@@ -421,7 +421,6 @@ user
 *
 /
 export
-default
 class
 MozMessageBar
 extends

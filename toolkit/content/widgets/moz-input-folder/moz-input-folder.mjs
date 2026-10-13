@@ -77,7 +77,9 @@ mjs
 "
 ;
 import
+{
 MozInputText
+}
 from
 "
 chrome
@@ -332,7 +334,6 @@ input
 *
 /
 export
-default
 class
 MozInputFolder
 extends

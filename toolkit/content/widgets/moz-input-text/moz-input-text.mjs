@@ -313,7 +313,6 @@ input
 *
 /
 export
-default
 class
 MozInputText
 extends

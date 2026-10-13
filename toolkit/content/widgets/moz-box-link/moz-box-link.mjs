@@ -209,7 +209,6 @@ page
 *
 /
 export
-default
 class
 MozBoxLink
 extends

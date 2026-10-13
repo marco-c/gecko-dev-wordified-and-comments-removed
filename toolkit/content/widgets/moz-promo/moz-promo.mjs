@@ -358,7 +358,6 @@ user
 *
 /
 export
-default
 class
 MozPromo
 extends

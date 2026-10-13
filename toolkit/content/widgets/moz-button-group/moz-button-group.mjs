@@ -203,7 +203,6 @@ automatically
 *
 /
 export
-default
 class
 MozButtonGroup
 extends

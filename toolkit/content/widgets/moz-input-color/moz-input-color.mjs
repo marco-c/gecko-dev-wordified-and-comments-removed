@@ -171,7 +171,6 @@ label
 *
 /
 export
-default
 class
 MozInputColor
 extends

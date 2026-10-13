@@ -499,7 +499,6 @@ icons
 *
 /
 export
-default
 class
 MozSelect
 extends

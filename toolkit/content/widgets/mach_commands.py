@@ -182,7 +182,6 @@ here
 *
 /
 export
-default
 class
 {
 class_name

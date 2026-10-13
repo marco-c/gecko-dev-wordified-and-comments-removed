@@ -192,7 +192,9 @@ mjs
 )
 ;
 import
+{
 MozInputText
+}
 from
 "
 chrome

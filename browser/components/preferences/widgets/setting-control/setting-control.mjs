@@ -113,7 +113,9 @@ mjs
 "
 ;
 import
+{
 MozInputFolder
+}
 from
 "
 chrome

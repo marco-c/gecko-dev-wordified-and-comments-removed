@@ -94,7 +94,9 @@ mjs
 "
 ;
 import
+{
 MozButton
+}
 from
 "
 chrome

@@ -211,7 +211,6 @@ MozBaseInputElement
 *
 /
 export
-default
 class
 MozBoxButton
 extends

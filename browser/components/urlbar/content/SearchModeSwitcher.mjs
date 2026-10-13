@@ -61,7 +61,9 @@ MPL
 *
 *
 import
+{
 MozButton
+}
 from
 "
 chrome

@@ -403,7 +403,6 @@ text
 *
 /
 export
-default
 class
 MozFieldset
 extends

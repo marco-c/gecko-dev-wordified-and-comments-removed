@@ -405,7 +405,6 @@ container
 *
 /
 export
-default
 class
 MozBoxItem
 extends

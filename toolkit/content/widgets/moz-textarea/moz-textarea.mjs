@@ -76,7 +76,9 @@ mjs
 "
 ;
 import
+{
 MozInputText
+}
 from
 "
 chrome
@@ -338,7 +340,6 @@ rows
 *
 /
 export
-default
 class
 MozTextarea
 extends

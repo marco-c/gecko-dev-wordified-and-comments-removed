@@ -238,7 +238,6 @@ new
 *
 /
 export
-default
 class
 MozBadge
 extends
