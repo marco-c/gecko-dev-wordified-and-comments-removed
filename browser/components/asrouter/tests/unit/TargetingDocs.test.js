@@ -36,6 +36,9 @@ const
 MESSAGE_CONTEXT_ATTRIBUTES
 =
 [
+"
+previousSessionEnd
+"
 ]
 ;
 function
@@ -255,6 +258,12 @@ const
 allow
 =
 [
+"
+messageImpressions
+"
+"
+screenImpressions
+"
 "
 browserIsSelected
 "
