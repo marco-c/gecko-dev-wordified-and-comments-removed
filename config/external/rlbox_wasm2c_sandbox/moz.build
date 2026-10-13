@@ -189,3 +189,13 @@ FINAL_LIBRARY
 "
 xul
 "
+SOURCE_HEADERS
++
+=
+[
+"
+rlbox_wasm2c_thread_locals
+.
+h
+"
+]
