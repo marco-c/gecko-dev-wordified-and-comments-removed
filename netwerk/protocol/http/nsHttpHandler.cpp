@@ -15787,6 +15787,7 @@ NS_ShouldSecureUpgrade
 uri
 nullptr
 nullptr
+nullptr
 false
 originAttributes
 shouldUpgrade

@@ -138,6 +138,11 @@ file_fragment_noscript
 .
 html
 "
+"
+file_upgrade_insecure_wsh
+.
+py
+"
 ]
 [
 "
