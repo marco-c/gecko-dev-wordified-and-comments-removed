@@ -121,6 +121,11 @@ ModuleLoadFrame
 cpp
 "
 "
+NativeNtBlockSet
+.
+cpp
+"
+"
 SharedSection
 .
 cpp
