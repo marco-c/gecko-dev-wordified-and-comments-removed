@@ -156,13 +156,6 @@ h
 #
 include
 <
-math
-.
-h
->
-#
-include
-<
 android
 /
 api
@@ -358,6 +351,10 @@ AddDirectRef
 ;
 return
 handle
+.
+get
+(
+)
 ;
 }
 const
