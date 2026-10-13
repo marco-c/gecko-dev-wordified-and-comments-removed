@@ -33,15 +33,6 @@ exclude
 "
 lib
 /
-AboutPreferences
-.
-sys
-.
-mjs
-"
-"
-lib
-/
 ActivityStream
 .
 sys
