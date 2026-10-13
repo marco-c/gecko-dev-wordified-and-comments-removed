@@ -31685,6 +31685,15 @@ PlaybackEnded
 (
 )
 {
+RefPtr
+<
+HTMLMediaElement
+>
+kungFuDeathGrip
+(
+this
+)
+;
 AddRemoveSelfReference
 (
 )
