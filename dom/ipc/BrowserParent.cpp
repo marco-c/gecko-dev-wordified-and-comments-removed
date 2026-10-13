@@ -4208,8 +4208,10 @@ why
 {
 nsTArray
 <
+RefPtr
+<
 PContentPermissionRequestParent
-*
+>
 >
 parentArray
 =

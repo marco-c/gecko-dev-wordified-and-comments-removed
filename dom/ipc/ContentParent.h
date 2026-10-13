@@ -2024,8 +2024,10 @@ RecvNotifyShutdownSuccess
 (
 )
 ;
+already_AddRefed
+<
 PContentPermissionRequestParent
-*
+>
 AllocPContentPermissionRequestParent
 (
 const
@@ -2102,14 +2104,6 @@ bool
 aIgnoreAllowSitePermission
 )
 override
-;
-bool
-DeallocPContentPermissionRequestParent
-(
-PContentPermissionRequestParent
-*
-actor
-)
 ;
 void
 ForkNewProcess
