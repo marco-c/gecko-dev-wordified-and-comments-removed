@@ -466,13 +466,6 @@ size
 mCurrentSessionIndex
 ;
 }
-PipSessionHolder
-.
-closeWindowFor
-(
-session
-)
-;
 session
 .
 close
