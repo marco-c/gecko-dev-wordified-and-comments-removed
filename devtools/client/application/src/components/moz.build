@@ -74,6 +74,11 @@ session
 history
 "
 "
+speculative
+-
+loads
+"
+"
 ui
 "
 ]
