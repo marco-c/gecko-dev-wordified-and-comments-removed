@@ -228,6 +228,15 @@ override
 ;
 static
 void
+ReleaseLock
+(
+Document
+*
+aDocument
+)
+;
+static
+void
 UpdateActiveOrientationLock
 (
 hal
@@ -302,6 +311,11 @@ UnlockDeviceOrientation
 ;
 void
 CleanupFullscreenListener
+(
+)
+;
+void
+ReleaseOwnLock
 (
 )
 ;
@@ -392,7 +406,7 @@ mAngle
 }
 ;
 bool
-mTriedToLockDeviceOrientation
+mLocked
 =
 false
 ;

@@ -279,6 +279,17 @@ js
 "
 browser_fullscreen
 -
+orientation
+-
+lock
+.
+js
+"
+]
+[
+"
+browser_fullscreen
+-
 popup
 .
 js
