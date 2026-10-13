@@ -3287,6 +3287,11 @@ BrowserFragmentDirections
 .
 actionBrowserFragmentToMenuFragment
 (
+accessPoint
+=
+MenuAccessPoint
+.
+Browser
 )
 else
 -
