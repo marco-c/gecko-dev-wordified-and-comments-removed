@@ -352,15 +352,6 @@ launcher
 .
 controller
 .
-_maybeAnimate
-(
-(
-)
-=
->
-{
-controller
-.
 hide
 (
 {
@@ -372,9 +363,6 @@ controller
 _state
 .
 launcherHiddenWithPanel
-}
-)
-;
 }
 )
 ;
