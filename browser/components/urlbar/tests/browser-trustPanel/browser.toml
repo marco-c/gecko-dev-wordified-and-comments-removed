@@ -241,3 +241,6 @@ browser_trust_panel_telemetry
 js
 "
 ]
+https_first_disabled
+=
+true
