@@ -548,6 +548,16 @@ lifecycleScope
 )
 BrowserToolbarTelemetryMiddleware
 (
+appStore
+=
+appStore
+settings
+=
+context
+.
+components
+.
+settings
 )
 )
 )

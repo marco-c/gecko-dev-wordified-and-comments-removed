@@ -927,6 +927,14 @@ lifecycleScope
 )
 BrowserToolbarTelemetryMiddleware
 (
+appStore
+=
+appStore
+settings
+=
+components
+.
+settings
 )
 )
 else
