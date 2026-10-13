@@ -36,9 +36,6 @@ const
 MESSAGE_CONTEXT_ATTRIBUTES
 =
 [
-"
-previousSessionEnd
-"
 ]
 ;
 function
@@ -259,12 +256,6 @@ allow
 =
 [
 "
-messageImpressions
-"
-"
-screenImpressions
-"
-"
 browserIsSelected
 "
 "
@@ -275,6 +266,9 @@ isFirstRun
 "
 "
 isFirstStartup
+"
+"
+isNonStubFirstRun
 "
 ]
 ;
