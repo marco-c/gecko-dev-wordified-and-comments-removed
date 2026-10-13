@@ -187,6 +187,9 @@ name
 of
 metadata
 rtpTimestamp
+[
+SetterThrows
+]
 attribute
 ArrayBuffer
 data

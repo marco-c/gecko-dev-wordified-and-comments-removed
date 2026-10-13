@@ -280,6 +280,16 @@ unsigned
 long
 timestamp
 ;
+/
+/
+legacy
+name
+of
+metadata
+rtpTimestamp
+[
+SetterThrows
+]
 attribute
 ArrayBuffer
 data

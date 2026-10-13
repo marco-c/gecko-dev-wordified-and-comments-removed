@@ -47,8 +47,11 @@ TransformableFrameInterface
 }
 namespace
 mozilla
-:
-:
+{
+class
+ErrorResult
+;
+namespace
 dom
 {
 class
@@ -164,6 +167,9 @@ const
 ArrayBuffer
 &
 aData
+ErrorResult
+&
+aRv
 )
 ;
 void
@@ -357,6 +363,7 @@ mCounter
 ;
 }
 ;
+}
 }
 #
 endif
