@@ -1881,16 +1881,9 @@ IPPAlwaysOnSingleton
 (
 )
 ;
-const
-IPPAlwaysOnHelpers
-=
-[
-IPPAlwaysOn
-]
-;
 export
 {
-IPPAlwaysOnHelpers
+IPPAlwaysOn
 IPPAlwaysOnSingleton
 }
 ;

@@ -247,14 +247,7 @@ sys
 mjs
 "
 "
-IPPAutoRestore
-.
-sys
-.
-mjs
-"
-"
-IPPAutoStart
+IPPAutoActivation
 .
 sys
 .
