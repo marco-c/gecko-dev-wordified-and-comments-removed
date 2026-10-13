@@ -109,3 +109,13 @@ dom
 geolocation
 "
 ]
+SOURCE_HEADERS
++
+=
+[
+"
+CoreLocationLocationProvider
+.
+h
+"
+]

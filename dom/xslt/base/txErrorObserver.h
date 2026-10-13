@@ -21,8 +21,8 @@ virtual
 ErrorObserver
 (
 )
-{
-}
+=
+default
 ;
 virtual
 void

@@ -6,11 +6,6 @@ define
 DOM_QUOTA_OPENCLIENTDIRECTORYUTILS_H_
 #
 include
-<
-functional
->
-#
-include
 "
 mozilla
 /
@@ -448,6 +443,7 @@ aCallable
 )
 ;
 }
+inline
 auto
 MaybeInitialize
 (

@@ -1381,3 +1381,13 @@ stringop
 overflow
 "
 ]
+SOURCE_HEADERS
++
+=
+[
+"
+nsScriptError
+.
+h
+"
+]

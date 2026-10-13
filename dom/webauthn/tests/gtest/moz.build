@@ -95,3 +95,13 @@ xul
 -
 gtest
 "
+SOURCE_HEADERS
++
+=
+[
+"
+TestWebAuthnRpIdCommon
+.
+h
+"
+]

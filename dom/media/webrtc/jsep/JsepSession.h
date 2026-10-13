@@ -340,8 +340,9 @@ virtual
 JsepSession
 (
 )
-{
-}
+=
+default
+;
 virtual
 UniquePtr
 <

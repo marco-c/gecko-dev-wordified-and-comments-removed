@@ -50,6 +50,17 @@ h
 "
 #
 endif
+#
+include
+"
+cdm
+-
+test
+-
+decryptor
+.
+h
+"
 namespace
 mozilla
 :

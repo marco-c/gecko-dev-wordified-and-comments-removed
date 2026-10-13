@@ -259,3 +259,13 @@ error
 attributes
 "
 ]
+SOURCE_HEADERS
++
+=
+[
+"
+Muxer
+.
+h
+"
+]

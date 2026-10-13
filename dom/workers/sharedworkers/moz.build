@@ -157,3 +157,13 @@ FINAL_LIBRARY
 "
 xul
 "
+SOURCE_HEADERS
++
+=
+[
+"
+SharedWorkerService
+.
+h
+"
+]

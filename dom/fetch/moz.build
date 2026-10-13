@@ -374,3 +374,13 @@ config
 mozbuild
 "
 )
+SOURCE_HEADERS
++
+=
+[
+"
+FetchLog
+.
+h
+"
+]

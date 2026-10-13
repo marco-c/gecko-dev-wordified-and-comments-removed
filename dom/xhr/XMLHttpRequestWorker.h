@@ -119,13 +119,7 @@ mResponseJSON
 ResponseData
 (
 )
-:
-mResponseResult
-(
-NS_OK
-)
-{
-}
+;
 }
 ;
 struct

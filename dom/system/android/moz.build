@@ -94,3 +94,13 @@ dom
 geolocation
 "
 ]
+SOURCE_HEADERS
++
+=
+[
+"
+AndroidLocationProvider
+.
+h
+"
+]

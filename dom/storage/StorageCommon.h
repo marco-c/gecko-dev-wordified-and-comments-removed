@@ -4,6 +4,11 @@ DOM_STORAGE_STORAGECOMMON_H_
 #
 define
 DOM_STORAGE_STORAGECOMMON_H_
+#
+include
+<
+cstdint
+>
 namespace
 mozilla
 :

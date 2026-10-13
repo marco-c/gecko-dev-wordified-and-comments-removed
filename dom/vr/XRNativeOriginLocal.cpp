@@ -46,6 +46,16 @@ aDisplay
 )
 ;
 }
+XRNativeOriginLocal
+:
+:
+~
+XRNativeOriginLocal
+(
+)
+=
+default
+;
 gfx
 :
 :

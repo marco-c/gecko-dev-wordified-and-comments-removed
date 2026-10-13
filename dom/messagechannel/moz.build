@@ -188,3 +188,13 @@ FINAL_LIBRARY
 "
 xul
 "
+SOURCE_HEADERS
++
+=
+[
+"
+MessagePortService
+.
+h
+"
+]

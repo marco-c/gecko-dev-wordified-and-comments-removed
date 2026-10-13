@@ -11,6 +11,13 @@ PureOmxPlatformLayer_h_
 #
 include
 "
+OMX_Component
+.
+h
+"
+#
+include
+"
 OmxPlatformLayer
 .
 h

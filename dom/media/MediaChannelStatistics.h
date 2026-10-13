@@ -76,7 +76,6 @@ mAccumulatedTime
 =
 TimeDuration
 (
-0
 )
 ;
 mAccumulatedBytes

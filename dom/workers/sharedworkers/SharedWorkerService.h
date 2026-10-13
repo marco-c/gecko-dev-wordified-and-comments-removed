@@ -144,15 +144,11 @@ private
 SharedWorkerService
 (
 )
-=
-default
 ;
 ~
 SharedWorkerService
 (
 )
-=
-default
 ;
 void
 ErrorPropagationOnMainThread

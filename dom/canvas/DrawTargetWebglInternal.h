@@ -759,8 +759,9 @@ virtual
 TextureHandle
 (
 )
-{
-}
+=
+default
+;
 bool
 IsValid
 (

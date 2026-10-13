@@ -163,3 +163,13 @@ xul
 -
 gtest
 "
+SOURCE_HEADERS
++
+=
+[
+"
+MediaKeyListenerTest
+.
+h
+"
+]

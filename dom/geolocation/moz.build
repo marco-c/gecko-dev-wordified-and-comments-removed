@@ -449,3 +449,13 @@ xpcshell
 toml
 "
 ]
+SOURCE_HEADERS
++
+=
+[
+"
+MLSFallback
+.
+h
+"
+]

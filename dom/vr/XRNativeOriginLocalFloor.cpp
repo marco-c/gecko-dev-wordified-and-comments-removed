@@ -82,6 +82,16 @@ RAND_MAX
 kFloorFuzz
 ;
 }
+XRNativeOriginLocalFloor
+:
+:
+~
+XRNativeOriginLocalFloor
+(
+)
+=
+default
+;
 gfx
 :
 :

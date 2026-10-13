@@ -40,13 +40,7 @@ nsAString
 &
 aValue
 )
-:
-SVGDataParser
-(
-aValue
-)
-{
-}
+;
 bool
 Parse
 (

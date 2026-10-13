@@ -45,8 +45,6 @@ private
 FileSystemEntryMetadataArray
 (
 )
-=
-default
 ;
 }
 ;

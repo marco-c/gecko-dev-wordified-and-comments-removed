@@ -21,6 +21,16 @@ dom
 XRNativeOriginViewer
 :
 :
+~
+XRNativeOriginViewer
+(
+)
+=
+default
+;
+XRNativeOriginViewer
+:
+:
 XRNativeOriginViewer
 (
 gfx

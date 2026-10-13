@@ -102,3 +102,13 @@ FINAL_LIBRARY
 "
 xul
 "
+SOURCE_HEADERS
++
+=
+[
+"
+CaptureTask
+.
+h
+"
+]

@@ -284,3 +284,13 @@ FINAL_LIBRARY
 "
 xul
 "
+SOURCE_HEADERS
++
+=
+[
+"
+ConsoleCommon
+.
+h
+"
+]

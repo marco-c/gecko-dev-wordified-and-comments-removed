@@ -79,8 +79,6 @@ private
 XRNativeOriginViewer
 (
 )
-=
-default
 ;
 RefPtr
 <

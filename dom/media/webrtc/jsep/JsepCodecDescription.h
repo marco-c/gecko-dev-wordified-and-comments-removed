@@ -1008,8 +1008,9 @@ virtual
 JsepCodecDescription
 (
 )
-{
-}
+=
+default
+;
 virtual
 SdpMediaSection
 :

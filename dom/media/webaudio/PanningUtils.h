@@ -7,6 +7,13 @@ PANNING_UTILS_H
 #
 include
 "
+AudioBlock
+.
+h
+"
+#
+include
+"
 AudioNodeEngine
 .
 h

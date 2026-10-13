@@ -70,8 +70,6 @@ private
 XRNativeOriginLocal
 (
 )
-=
-default
 ;
 RefPtr
 <

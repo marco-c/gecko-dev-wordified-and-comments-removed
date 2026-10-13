@@ -70,8 +70,6 @@ private
 XRNativeOriginLocalFloor
 (
 )
-=
-default
 ;
 RefPtr
 <
