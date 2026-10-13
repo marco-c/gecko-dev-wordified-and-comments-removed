@@ -844,13 +844,6 @@ c
 "
 signal_processing
 /
-sqrt_of_one_minus_x_squared
-.
-c
-"
-"
-signal_processing
-/
 vector_operations
 .
 c
