@@ -4786,7 +4786,7 @@ GP_PLAT_riscv64_linux
 )
 #
 define
-UNWINDING_REGS_HAVE_RA
+UNWINDING_REGS_HAVE_RA_T3
 #
 endif
 class
@@ -4911,10 +4911,16 @@ nullptr
 elif
 defined
 (
-UNWINDING_REGS_HAVE_RA
+UNWINDING_REGS_HAVE_RA_T3
 )
 Address
 mRA
+{
+nullptr
+}
+;
+Address
+mT3
 {
 nullptr
 }
@@ -6145,7 +6151,7 @@ undef
 UNWINDING_REGS_HAVE_LR_R11
 #
 undef
-UNWINDING_REGS_HAVE_RA
+UNWINDING_REGS_HAVE_RA_T3
 const
 static
 uint64_t
