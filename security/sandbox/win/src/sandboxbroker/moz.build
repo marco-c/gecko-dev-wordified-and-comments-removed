@@ -186,3 +186,13 @@ FINAL_LIBRARY
 "
 xul
 "
+SOURCE_HEADERS
++
+=
+[
+"
+ConfigHelpers
+.
+h
+"
+]

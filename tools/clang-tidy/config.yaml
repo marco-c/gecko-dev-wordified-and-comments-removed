@@ -459,6 +459,16 @@ htmlaccel
 .
 h
 -
+security
+/
+sandbox
+/
+linux
+/
+SandboxProfilerParent
+.
+h
+-
 storage
 /
 Variant_inl

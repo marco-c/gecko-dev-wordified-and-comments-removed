@@ -90,6 +90,16 @@ SandboxBrokerPolicyFactory
 cpp
 "
 ]
+SOURCE_HEADERS
++
+=
+[
+"
+SandboxBrokerUtils
+.
+h
+"
+]
 #
 Conflicts
 with

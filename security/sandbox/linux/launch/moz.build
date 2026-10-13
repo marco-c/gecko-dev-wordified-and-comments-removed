@@ -270,6 +270,16 @@ syscall_wrappers
 cc
 "
 ]
+SOURCE_HEADERS
++
+=
+[
+"
+LinuxCapabilities
+.
+h
+"
+]
 if
 CONFIG
 [
