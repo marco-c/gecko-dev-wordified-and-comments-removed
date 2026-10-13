@@ -9,6 +9,13 @@ include
 <
 cstdint
 >
+#
+include
+"
+X11UndefineNone
+.
+h
+"
 namespace
 IPC
 {
