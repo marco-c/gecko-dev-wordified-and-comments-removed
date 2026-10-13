@@ -110,7 +110,6 @@ protected
 nodiscard
 ]
 ]
-virtual
 bool
 SerializeHTMLAttributes
 (
