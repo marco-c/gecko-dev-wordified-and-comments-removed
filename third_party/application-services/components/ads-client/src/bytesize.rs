@@ -17,10 +17,10 @@ derive
 Clone
 Copy
 Debug
-Eq
-Ord
 PartialEq
+Eq
 PartialOrd
+Ord
 )
 ]
 pub

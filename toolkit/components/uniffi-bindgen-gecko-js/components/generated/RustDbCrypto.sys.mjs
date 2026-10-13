@@ -185,7 +185,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-3
+5
 /
 /
 uniffi_db_crypto_fn_func_check_canary
@@ -303,7 +303,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-4
+6
 /
 /
 uniffi_db_crypto_fn_func_create_canary
@@ -388,7 +388,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-5
+7
 /
 /
 uniffi_db_crypto_fn_func_create_key
@@ -1989,7 +1989,7 @@ UniFFIScaffolding
 .
 callSync
 (
-111
+113
 /
 /
 uniffi_db_crypto_fn_method_encryptordecryptor_decrypt
@@ -2065,7 +2065,7 @@ UniFFIScaffolding
 .
 callSync
 (
-112
+114
 /
 /
 uniffi_db_crypto_fn_method_encryptordecryptor_encrypt
@@ -2792,7 +2792,7 @@ UniFFIScaffolding
 .
 callSync
 (
-113
+115
 /
 /
 uniffi_db_crypto_fn_method_keymanager_get_key
@@ -3462,7 +3462,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-114
+116
 /
 /
 uniffi_db_crypto_fn_constructor_managedencryptordecryptor_new
@@ -4670,7 +4670,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-115
+117
 /
 /
 uniffi_db_crypto_fn_constructor_nsskeymanager_new
@@ -4731,7 +4731,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-116
+118
 /
 /
 uniffi_db_crypto_fn_method_nsskeymanager_into_dyn_key_manager
@@ -5266,7 +5266,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-117
+119
 /
 /
 uniffi_db_crypto_fn_method_primarypasswordauthenticator_get_primary_password
@@ -5319,7 +5319,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-118
+120
 /
 /
 uniffi_db_crypto_fn_method_primarypasswordauthenticator_on_authentication_success
@@ -5370,7 +5370,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-119
+121
 /
 /
 uniffi_db_crypto_fn_method_primarypasswordauthenticator_on_authentication_failure
@@ -6120,7 +6120,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-120
+122
 /
 /
 uniffi_db_crypto_fn_constructor_statickeymanager_new

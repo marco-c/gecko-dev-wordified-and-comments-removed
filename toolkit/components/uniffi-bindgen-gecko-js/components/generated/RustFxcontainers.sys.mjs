@@ -158,7 +158,7 @@ UniFFIScaffolding
 .
 callSync
 (
-6
+8
 /
 /
 uniffi_fxcontainers_fn_func_color_code
@@ -234,7 +234,7 @@ UniFFIScaffolding
 .
 callSync
 (
-7
+9
 /
 /
 uniffi_fxcontainers_fn_func_color_from_name
@@ -303,7 +303,7 @@ UniFFIScaffolding
 .
 callSync
 (
-8
+10
 /
 /
 uniffi_fxcontainers_fn_func_color_gecko_l10n_id
@@ -372,7 +372,7 @@ UniFFIScaffolding
 .
 callSync
 (
-9
+11
 /
 /
 uniffi_fxcontainers_fn_func_color_name
@@ -423,7 +423,7 @@ UniFFIScaffolding
 .
 callSync
 (
-10
+12
 /
 /
 uniffi_fxcontainers_fn_func_container_color_aliases
@@ -476,7 +476,7 @@ UniFFIScaffolding
 .
 callSync
 (
-11
+13
 /
 /
 uniffi_fxcontainers_fn_func_container_colors
@@ -529,7 +529,7 @@ UniFFIScaffolding
 .
 callSync
 (
-12
+14
 /
 /
 uniffi_fxcontainers_fn_func_container_icons
@@ -593,7 +593,7 @@ UniFFIScaffolding
 .
 callSync
 (
-13
+15
 /
 /
 uniffi_fxcontainers_fn_func_icon_from_name
@@ -662,7 +662,7 @@ UniFFIScaffolding
 .
 callSync
 (
-14
+16
 /
 /
 uniffi_fxcontainers_fn_func_icon_gecko_l10n_id
@@ -731,7 +731,7 @@ UniFFIScaffolding
 .
 callSync
 (
-15
+17
 /
 /
 uniffi_fxcontainers_fn_func_icon_name
@@ -801,7 +801,7 @@ UniFFIScaffolding
 .
 callSync
 (
-16
+18
 /
 /
 uniffi_fxcontainers_fn_func_label_gecko_l10n_id
@@ -852,7 +852,7 @@ UniFFIScaffolding
 .
 callSync
 (
-17
+19
 /
 /
 uniffi_fxcontainers_fn_func_latest_version
@@ -897,7 +897,7 @@ UniFFIScaffolding
 .
 callSync
 (
-18
+20
 /
 /
 uniffi_fxcontainers_fn_func_max_user_context_id
@@ -974,7 +974,7 @@ UniFFIScaffolding
 .
 callSync
 (
-19
+21
 /
 /
 uniffi_fxcontainers_fn_func_normalize_site
@@ -1039,7 +1039,7 @@ UniFFIScaffolding
 .
 callSync
 (
-20
+22
 /
 /
 uniffi_fxcontainers_fn_func_resolve_color
@@ -8752,7 +8752,7 @@ UniFFIScaffolding
 .
 callSync
 (
-123
+125
 /
 /
 uniffi_fxcontainers_fn_constructor_containersstore_new
@@ -8870,7 +8870,7 @@ UniFFIScaffolding
 .
 callSync
 (
-124
+126
 /
 /
 uniffi_fxcontainers_fn_method_containersstore_create
@@ -8958,7 +8958,7 @@ UniFFIScaffolding
 .
 callSync
 (
-125
+127
 /
 /
 uniffi_fxcontainers_fn_method_containersstore_create_for_policy
@@ -9045,7 +9045,7 @@ UniFFIScaffolding
 .
 callSync
 (
-126
+128
 /
 /
 uniffi_fxcontainers_fn_method_containersstore_get_site_association
@@ -9119,7 +9119,7 @@ UniFFIScaffolding
 .
 callSync
 (
-127
+129
 /
 /
 uniffi_fxcontainers_fn_method_containersstore_get_site_associations
@@ -9230,7 +9230,7 @@ UniFFIScaffolding
 .
 callSync
 (
-128
+130
 /
 /
 uniffi_fxcontainers_fn_method_containersstore_move_containers
@@ -9295,7 +9295,7 @@ UniFFIScaffolding
 .
 callSync
 (
-129
+131
 /
 /
 uniffi_fxcontainers_fn_method_containersstore_policy_identities
@@ -9359,7 +9359,7 @@ UniFFIScaffolding
 .
 callSync
 (
-130
+132
 /
 /
 uniffi_fxcontainers_fn_method_containersstore_policy_identity
@@ -9429,7 +9429,7 @@ UniFFIScaffolding
 .
 callSync
 (
-131
+133
 /
 /
 uniffi_fxcontainers_fn_method_containersstore_private_identity
@@ -9488,7 +9488,7 @@ UniFFIScaffolding
 .
 callSync
 (
-132
+134
 /
 /
 uniffi_fxcontainers_fn_method_containersstore_private_user_context_ids
@@ -9541,7 +9541,7 @@ UniFFIScaffolding
 .
 callSync
 (
-133
+135
 /
 /
 uniffi_fxcontainers_fn_method_containersstore_public_identities
@@ -9605,7 +9605,7 @@ UniFFIScaffolding
 .
 callSync
 (
-134
+136
 /
 /
 uniffi_fxcontainers_fn_method_containersstore_public_identity_from_id
@@ -9664,7 +9664,7 @@ UniFFIScaffolding
 .
 callSync
 (
-135
+137
 /
 /
 uniffi_fxcontainers_fn_method_containersstore_public_user_context_ids
@@ -9748,7 +9748,7 @@ UniFFIScaffolding
 .
 callSync
 (
-136
+138
 /
 /
 uniffi_fxcontainers_fn_method_containersstore_remove
@@ -9818,7 +9818,7 @@ UniFFIScaffolding
 .
 callSync
 (
-137
+139
 /
 /
 uniffi_fxcontainers_fn_method_containersstore_remove_policy_identity
@@ -9882,7 +9882,7 @@ UniFFIScaffolding
 .
 callSync
 (
-138
+140
 /
 /
 uniffi_fxcontainers_fn_method_containersstore_remove_site_association
@@ -9945,7 +9945,7 @@ UniFFIScaffolding
 .
 callSync
 (
-139
+141
 /
 /
 uniffi_fxcontainers_fn_method_containersstore_serialize
@@ -10017,7 +10017,7 @@ UniFFIScaffolding
 .
 callSync
 (
-140
+142
 /
 /
 uniffi_fxcontainers_fn_method_containersstore_set_site_association
@@ -10123,7 +10123,7 @@ UniFFIScaffolding
 .
 callSync
 (
-141
+143
 /
 /
 uniffi_fxcontainers_fn_method_containersstore_unset_callback
@@ -10235,7 +10235,7 @@ UniFFIScaffolding
 .
 callSync
 (
-142
+144
 /
 /
 uniffi_fxcontainers_fn_method_containersstore_update

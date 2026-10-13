@@ -27,6 +27,10 @@ DeviceType
 derive
 (
 Debug
+uniffi
+:
+:
+Record
 )
 ]
 pub
@@ -78,6 +82,10 @@ DeviceSettings
 derive
 (
 Debug
+uniffi
+:
+:
+Enum
 )
 ]
 pub
@@ -96,6 +104,10 @@ Backgrounded
 derive
 (
 Debug
+uniffi
+:
+:
+Enum
 )
 ]
 pub
@@ -118,6 +130,10 @@ String
 derive
 (
 Debug
+uniffi
+:
+:
+Record
 )
 ]
 pub
@@ -146,6 +162,10 @@ String
 derive
 (
 Debug
+uniffi
+:
+:
+Record
 )
 ]
 pub
@@ -170,6 +190,10 @@ DeviceType
 derive
 (
 Debug
+uniffi
+:
+:
+Record
 )
 ]
 pub
@@ -229,6 +253,10 @@ String
 derive
 (
 Debug
+uniffi
+:
+:
+Enum
 )
 ]
 pub

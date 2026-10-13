@@ -13,6 +13,17 @@ thiserror
 :
 :
 Error
+uniffi
+:
+:
+Error
+)
+]
+#
+[
+uniffi
+(
+flat_error
 )
 ]
 pub

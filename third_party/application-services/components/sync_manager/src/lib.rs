@@ -196,7 +196,7 @@ reset_all
 uniffi
 :
 :
-include_scaffolding
+setup_scaffolding
 !
 (
 "
