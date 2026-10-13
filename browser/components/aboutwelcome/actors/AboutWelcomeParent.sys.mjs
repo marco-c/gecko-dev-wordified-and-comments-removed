@@ -1586,7 +1586,7 @@ lazy
 .
 ShellService
 .
-isDefaultBrowser
+isDefaultBrowserAsync
 (
 )
 ;
@@ -2308,10 +2308,13 @@ checkDefaultBrowser
 &
 &
 !
+(
+await
 AboutWelcomeParent
 .
 isDefaultBrowser
 (
+)
 )
 )
 ;
