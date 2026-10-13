@@ -509,13 +509,6 @@ js
 ]
 [
 "
-browser_ml_opfs_private_window
-.
-js
-"
-]
-[
-"
 browser_ml_perf_test_utils
 .
 js
@@ -524,6 +517,13 @@ js
 [
 "
 browser_ml_pipeline
+.
+js
+"
+]
+[
+"
+browser_ml_privatebrowsing
 .
 js
 "
