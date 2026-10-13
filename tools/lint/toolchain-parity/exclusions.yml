@@ -179,8 +179,6 @@ pkgconf
 -
 upx
 -
-uv
--
 winchecksec
 fetch
 :
