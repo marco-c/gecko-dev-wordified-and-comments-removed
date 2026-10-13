@@ -314,8 +314,10 @@ nsIFormControl
 aFormControl
 )
 ;
+RefPtr
+<
 HTMLFormElement
-*
+>
 mForm
 ;
 TreeOrderedArray

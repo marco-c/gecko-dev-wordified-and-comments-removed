@@ -516,6 +516,10 @@ Clear
 (
 )
 ;
+NS_IMPL_CYCLE_COLLECTION_UNLINK
+(
+mForm
+)
 NS_IMPL_CYCLE_COLLECTION_UNLINK_END
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE_BEGIN_INHERITED
 (
@@ -525,6 +529,10 @@ HTMLCollection
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE
 (
 mNameLookupTable
+)
+NS_IMPL_CYCLE_COLLECTION_TRAVERSE
+(
+mForm
 )
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE_END
 NS_IMPL_CYCLE_COLLECTION_TRACE_BEGIN_INHERITED
@@ -625,6 +633,10 @@ formControl
 if
 (
 !
+mForm
+|
+|
+!
 ShouldBeInElements
 (
 formControl
@@ -715,6 +727,10 @@ formControl
 ;
 if
 (
+!
+mForm
+|
+|
 !
 ShouldBeInElements
 (

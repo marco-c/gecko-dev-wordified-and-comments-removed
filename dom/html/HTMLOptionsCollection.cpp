@@ -194,6 +194,10 @@ HTMLSelectElement
 >
 (
 mRootNode
+.
+get
+(
+)
 )
 ;
 }
