@@ -205,6 +205,9 @@ logical
 "
 ]
 ignoreFiles
+reportNeedlessDisables
+:
+true
 reportUnscopedDisables
 :
 true
