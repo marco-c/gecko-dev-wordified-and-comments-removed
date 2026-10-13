@@ -57,7 +57,7 @@ constexpr
 uint32_t
 kVersion
 =
-1
+2
 ;
 static
 constexpr
