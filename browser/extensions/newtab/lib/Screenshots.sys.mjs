@@ -814,6 +814,7 @@ on
 object
 to
 set
+*
 param
 onScreenshot
 {
