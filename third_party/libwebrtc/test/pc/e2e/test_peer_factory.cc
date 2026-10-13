@@ -655,7 +655,10 @@ audio_config
 -
 >
 input_file_name
-true
+audio_config
+-
+>
+repeat
 )
 ;
 }

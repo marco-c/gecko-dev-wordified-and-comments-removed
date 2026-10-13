@@ -1056,6 +1056,11 @@ string
 >
 sync_group
 ;
+bool
+repeat
+=
+true
+;
 }
 ;
 struct
