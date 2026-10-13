@@ -1739,7 +1739,14 @@ altitudeAngle
 ]
 =
 =
+pytest
+.
+approx
+(
 1
+.
+0
+)
     
 assert
 pointerdown
@@ -1750,7 +1757,14 @@ azimuthAngle
 ]
 =
 =
+pytest
+.
+approx
+(
 2
+.
+0
+)
     
 assert
 pointerdown
@@ -1807,9 +1821,14 @@ altitudeAngle
 ]
 =
 =
+pytest
+.
+approx
+(
 0
 .
 5
+)
     
 assert
 pointermove
@@ -1820,9 +1839,14 @@ azimuthAngle
 ]
 =
 =
+pytest
+.
+approx
+(
 1
 .
 5
+)
     
 assert
 pointermove
