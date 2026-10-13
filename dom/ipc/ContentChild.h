@@ -5163,6 +5163,16 @@ PerformanceHintSession
 >
 mPerformanceHintSession
 ;
+#
+ifdef
+XP_WIN
+bool
+mMainThreadPriorityRaised
+=
+false
+;
+#
+endif
 }
 ;
 inline
