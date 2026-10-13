@@ -766,6 +766,9 @@ BeginFade
 (
 )
 {
+nsAutoScriptBlocker
+scriptBlocker
+;
 MOZ_ASSERT
 (
 !
