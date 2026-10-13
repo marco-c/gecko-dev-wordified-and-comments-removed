@@ -1579,6 +1579,13 @@ sys
 mjs
 "
 "
+ProfileKekPassword
+.
+sys
+.
+mjs
+"
+"
 Region
 .
 sys
@@ -2306,6 +2313,9 @@ MOZ_BITS_DOWNLOAD
 "
 "
 MOZ_DEBUG
+"
+"
+MOZ_DIAGNOSTIC_ASSERT_ENABLED
 "
 "
 MOZ_ASAN
