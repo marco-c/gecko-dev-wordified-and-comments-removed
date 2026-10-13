@@ -221,9 +221,6 @@ short
 ?
 anticipatedConcurrentIncomingBidirectionalStreams
 ;
-[
-SameObject
-]
 readonly
 attribute
 Headers

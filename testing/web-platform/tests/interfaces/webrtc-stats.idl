@@ -539,11 +539,6 @@ targetBitrate
 ;
 unsigned
 long
-long
-totalEncodedBytesTarget
-;
-unsigned
-long
 frameWidth
 ;
 unsigned
