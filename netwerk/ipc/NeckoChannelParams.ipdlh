@@ -2827,9 +2827,6 @@ forceValidateCacheContent
 bool
 preferCacheLoadOverBypass
 ;
-bool
-forceMainDocumentChannel
-;
 uint8_t
 redirectionLimit
 ;
