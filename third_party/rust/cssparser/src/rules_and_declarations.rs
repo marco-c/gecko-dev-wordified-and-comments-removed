@@ -761,11 +761,6 @@ ok
 Token
 :
 :
-CloseCurlyBracket
-|
-Token
-:
-:
 WhiteSpace
 (
 .
