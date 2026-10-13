@@ -2782,8 +2782,9 @@ to
 :
 google
 samsung
-or
 huawei
+or
+vivo
 .
 Together
 with
