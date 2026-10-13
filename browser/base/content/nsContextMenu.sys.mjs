@@ -16260,6 +16260,9 @@ currentURI
 .
 spec
 ]
+"
+tab_list
+"
 )
 ;
 }
