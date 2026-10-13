@@ -443,10 +443,6 @@ RTCEncodedFrameBase
 (
 )
 {
-DetachData
-(
-)
-;
 mozilla
 :
 :
