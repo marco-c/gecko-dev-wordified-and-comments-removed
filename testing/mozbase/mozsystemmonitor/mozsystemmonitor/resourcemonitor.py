@@ -1723,6 +1723,14 @@ pid
 try
 :
                     
+with
+p
+.
+oneshot
+(
+)
+:
+                        
 create_time
 =
 p
@@ -1730,6 +1738,21 @@ p
 create_time
 (
 )
+                        
+if
+p
+.
+status
+(
+)
+=
+=
+psutil
+.
+STATUS_ZOMBIE
+:
+                            
+continue
                 
 except
 psutil
