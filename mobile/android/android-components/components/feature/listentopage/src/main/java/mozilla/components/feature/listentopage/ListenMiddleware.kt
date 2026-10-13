@@ -1402,6 +1402,7 @@ action
 tabId
 )
 }
+is
 ListenAction
 .
 Session
@@ -2171,6 +2172,15 @@ ListenAction
 Session
 .
 StopRequested
+(
+ListenAction
+.
+Session
+.
+StopSource
+.
+TabClosed
+)
 )
 }
 }
@@ -3292,6 +3302,13 @@ Voices
 VoiceSelected
 (
 fallback
+ListenAction
+.
+Voices
+.
+VoiceSource
+.
+Fallback
 )
 )
 }

@@ -191,6 +191,8 @@ ListenAction
 Session
 .
 StopRequested
+(
+)
 )
 assertNull
 (

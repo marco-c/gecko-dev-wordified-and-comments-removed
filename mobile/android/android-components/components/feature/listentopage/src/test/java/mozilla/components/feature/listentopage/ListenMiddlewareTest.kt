@@ -1247,6 +1247,8 @@ ListenAction
 Session
 .
 StopRequested
+(
+)
 )
 extraction
 .
@@ -8499,6 +8501,8 @@ ListenAction
 Session
 .
 StopRequested
+(
+)
 )
 store
 .
@@ -8812,6 +8816,8 @@ ListenAction
 Session
 .
 StopRequested
+(
+)
 )
 advanceUntilIdle
 (
@@ -8942,6 +8948,8 @@ ListenAction
 Session
 .
 StopRequested
+(
+)
 )
 advanceUntilIdle
 (
@@ -9088,6 +9096,8 @@ ListenAction
 Session
 .
 StopRequested
+(
+)
 )
 advanceUntilIdle
 (
@@ -9436,6 +9446,8 @@ ListenAction
 Session
 .
 StopRequested
+(
+)
 )
 advanceUntilIdle
 (
@@ -9659,6 +9671,8 @@ ListenAction
 Session
 .
 StopRequested
+(
+)
 )
 advanceUntilIdle
 (
@@ -10005,6 +10019,8 @@ ListenAction
 Session
 .
 StopRequested
+(
+)
 )
 advanceUntilIdle
 (
@@ -12953,6 +12969,8 @@ ListenAction
 Session
 .
 StopRequested
+(
+)
 )
 advanceUntilIdle
 (
@@ -13108,6 +13126,8 @@ ListenAction
 Session
 .
 StopRequested
+(
+)
 )
 advanceUntilIdle
 (
@@ -13267,6 +13287,15 @@ ListenAction
 Session
 .
 StopRequested
+(
+ListenAction
+.
+Session
+.
+StopSource
+.
+TabClosed
+)
 )
 actions
 .
@@ -13661,6 +13690,15 @@ ListenAction
 Session
 .
 StopRequested
+(
+ListenAction
+.
+Session
+.
+StopSource
+.
+TabClosed
+)
 )
 actions
 .

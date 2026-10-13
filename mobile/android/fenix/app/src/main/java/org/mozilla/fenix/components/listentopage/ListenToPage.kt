@@ -429,6 +429,9 @@ scope
 =
 scope
 )
+ListenToPageTelemetryMiddleware
+(
+)
 )
 )
 }
