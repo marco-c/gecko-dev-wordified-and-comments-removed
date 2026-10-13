@@ -859,6 +859,10 @@ appName
 :
 String
 ?
+sourceUrl
+:
+String
+?
 )
 {
 dispatchAsync
@@ -874,6 +878,7 @@ url
 appIntent
 fallbackUrl
 appName
+sourceUrl
 )
 )
 )

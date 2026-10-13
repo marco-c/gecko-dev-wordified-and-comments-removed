@@ -1904,6 +1904,16 @@ fallbackUrl
 appName
 =
 appName
+sourceUrl
+=
+session
+.
+currentUrl
+.
+ifEmpty
+{
+null
+}
 )
 }
 }
