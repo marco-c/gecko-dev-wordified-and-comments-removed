@@ -100,6 +100,10 @@ entireWord
 ;
 attribute
 boolean
+segmenterWordBoundaries
+;
+attribute
+boolean
 matchDiacritics
 ;
 /
