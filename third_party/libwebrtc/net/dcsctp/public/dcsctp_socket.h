@@ -39,17 +39,6 @@ include
 "
 absl
 /
-base
-/
-attributes
-.
-h
-"
-#
-include
-"
-absl
-/
 strings
 /
 string_view
@@ -809,7 +798,9 @@ high
 =
 0
 ;
-ABSL_DEPRECATED
+[
+[
+deprecated
 (
 "
 Use
@@ -817,6 +808,8 @@ OnTotalBufferedAmountLow
 instead
 "
 )
+]
+]
 virtual
 void
 NotifyOutgoingMessageBufferEmpty
@@ -1310,7 +1303,9 @@ GetHandoverStateAndClose
 =
 0
 ;
-ABSL_DEPRECATED
+[
+[
+deprecated
 (
 "
 See
@@ -1321,6 +1316,8 @@ peer_implementation
 instead
 "
 )
+]
+]
 virtual
 SctpImplementation
 peer_implementation

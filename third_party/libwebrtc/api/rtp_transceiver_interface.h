@@ -27,17 +27,6 @@ vector
 #
 include
 "
-absl
-/
-base
-/
-attributes
-.
-h
-"
-#
-include
-"
 api
 /
 media_types
@@ -269,7 +258,9 @@ const
 =
 0
 ;
-ABSL_DEPRECATED
+[
+[
+deprecated
 (
 "
 Use
@@ -277,6 +268,8 @@ SetDirectionWithError
 instead
 "
 )
+]
+]
 virtual
 void
 SetDirection
@@ -340,7 +333,9 @@ StopInternal
 (
 )
 ;
-ABSL_DEPRECATED
+[
+[
+deprecated
 (
 "
 Use
@@ -348,6 +343,8 @@ StopStandard
 instead
 "
 )
+]
+]
 virtual
 void
 Stop

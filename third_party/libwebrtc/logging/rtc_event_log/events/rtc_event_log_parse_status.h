@@ -14,17 +14,6 @@ include
 "
 absl
 /
-base
-/
-attributes
-.
-h
-"
-#
-include
-"
-absl
-/
 strings
 /
 string_view
@@ -427,7 +416,9 @@ empty
 )
 ;
 }
-ABSL_DEPRECATED
+[
+[
+deprecated
 (
 "
 Use
@@ -437,6 +428,8 @@ ok
 instead
 "
 )
+]
+]
 explicit
 operator
 bool

@@ -41,17 +41,6 @@ absl
 /
 base
 /
-attributes
-.
-h
-"
-#
-include
-"
-absl
-/
-base
-/
 nullability
 .
 h
@@ -856,7 +845,9 @@ PortConfiguration
 config
 )
 ;
-ABSL_DEPRECATED
+[
+[
+deprecated
 (
 "
 Use
@@ -874,6 +865,8 @@ instead
 !
 "
 )
+]
+]
 void
 ConfigReady
 (
