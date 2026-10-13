@@ -275,6 +275,7 @@ render_backend
 :
 {
 DataStores
+DlStores
 ScratchBuffer
 }
 ;
@@ -1420,6 +1421,10 @@ data_stores
 :
 &
 DataStores
+dl_stores
+:
+&
+DlStores
 scratch
 :
 &
@@ -1859,6 +1864,7 @@ clip_store
 resource_cache
 frame_gpu_data
 data_stores
+dl_stores
 clip_tree
 :
 &
@@ -2136,6 +2142,7 @@ clip_store
 resource_cache
 frame_gpu_data
 data_stores
+dl_stores
 clip_tree
 :
 &
@@ -2606,6 +2613,7 @@ frame_context
 mut
 frame_state
 data_stores
+dl_stores
 &
 mut
 scratch
@@ -2716,6 +2724,7 @@ frame_context
 mut
 frame_state
 data_stores
+dl_stores
 &
 mut
 scratch
@@ -2878,6 +2887,10 @@ data_stores
 :
 &
 DataStores
+dl_stores
+:
+&
+DlStores
 scratch
 :
 &
@@ -3190,6 +3203,7 @@ scene_properties
 mut
 transform_palette
 data_stores
+dl_stores
 scratch
 debug_flags
 debug_override
@@ -3401,6 +3415,7 @@ config
 batch_lookback_count
 spatial_tree
 data_stores
+dl_stores
 scratch
 :
 &
@@ -3522,6 +3537,7 @@ config
 batch_lookback_count
 spatial_tree
 data_stores
+dl_stores
 scratch
 :
 &
