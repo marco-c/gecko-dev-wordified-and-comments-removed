@@ -308,6 +308,7 @@ bookmarks
 aichat
 history
 syncedtabs
+passwords
 "
 ;
 const

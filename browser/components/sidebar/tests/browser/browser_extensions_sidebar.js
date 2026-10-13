@@ -1200,6 +1200,7 @@ aichat
 bookmarks
 history
 opentabs
+passwords
 syncedtabs
 "
 "
@@ -1590,6 +1591,7 @@ aichat
 bookmarks
 history
 opentabs
+passwords
 syncedtabs
 "
 "
@@ -1733,6 +1735,7 @@ aichat
 bookmarks
 history
 opentabs
+passwords
 syncedtabs
 "
 "
