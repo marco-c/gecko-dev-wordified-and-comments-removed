@@ -199,3 +199,13 @@ xul
 -
 gtest
 "
+SOURCE_HEADERS
++
+=
+[
+"
+DevTools
+.
+h
+"
+]
