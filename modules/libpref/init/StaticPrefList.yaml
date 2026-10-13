@@ -5091,7 +5091,7 @@ pinch_lock
 buffer_max_age
 type
 :
-int32_t
+uint32_t
 value
 :
 80
@@ -5306,7 +5306,7 @@ touch_scroll
 buffer_max_age
 type
 :
-int32_t
+uint32_t
 value
 :
 200
