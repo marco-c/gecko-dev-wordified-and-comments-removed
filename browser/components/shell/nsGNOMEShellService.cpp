@@ -859,7 +859,6 @@ nsGNOMEShellService
 IsDefaultBrowser
 (
 bool
-aForAllTypes
 bool
 *
 aIsDefaultBrowser
@@ -1735,7 +1734,6 @@ aPosition
 const
 nsACString
 &
-aImageName
 )
 {
 nsCOMPtr
