@@ -133,7 +133,7 @@ b
 -
 linux
 -
-xlarge
+medium
 run
 :
 clone
@@ -308,13 +308,7 @@ run
 -
 time
 :
-14400
-#
-Takes
-up
-to
-4
-hours
+3600
 env
 :
 DO_HSTS
@@ -508,13 +502,6 @@ and
 CT
 log
 update
-worker
--
-type
-:
-b
--
-linux
 task
 -
 context
@@ -573,7 +560,7 @@ run
 -
 time
 :
-1800
+1200
 env
 :
 DO_REMOTE_SETTINGS
