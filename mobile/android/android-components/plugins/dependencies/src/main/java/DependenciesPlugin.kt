@@ -641,12 +641,6 @@ settings
 Settings
 )
 {
-Suppress
-(
-"
-UNCHECKED_CAST
-"
-)
 val
 mozconfig
 =
@@ -665,8 +659,8 @@ mozconfig
 as
 Map
 <
-String
-Any
+*
+*
 >
 val
 substs
@@ -680,8 +674,8 @@ substs
 as
 Map
 <
-String
-Any
+*
+*
 >
 val
 appservicesInTree
