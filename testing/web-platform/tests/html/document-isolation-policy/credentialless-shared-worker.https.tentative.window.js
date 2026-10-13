@@ -106,9 +106,7 @@ request_origin
 =
 =
 '
-same
--
-origin
+same_origin
 '
 ?
 same_origin
