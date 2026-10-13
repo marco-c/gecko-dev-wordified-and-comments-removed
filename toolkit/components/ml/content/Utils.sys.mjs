@@ -3191,6 +3191,9 @@ progressStream
 signal
 :
 abortSignal
+?
+?
+undefined
 }
 )
 .
@@ -3201,6 +3204,9 @@ writableStream
 signal
 :
 abortSignal
+?
+?
+undefined
 }
 )
 ;
