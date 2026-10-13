@@ -158,3 +158,16 @@ void
 >
 ;
 }
+interface
+MozToolbarbutton
+extends
+XULElement
+{
+readonly
+icon
+:
+Element
+|
+null
+;
+}
