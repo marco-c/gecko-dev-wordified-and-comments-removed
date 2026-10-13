@@ -447,10 +447,13 @@ AddPendingDeletion
 [
 recorder
 =
+MOZ_KnownLive
+(
 mRecorder
 .
 get
 (
+)
 )
 self
 ]
