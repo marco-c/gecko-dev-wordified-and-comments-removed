@@ -100,3 +100,13 @@ xpcshell
 toml
 "
 ]
+SOURCE_HEADERS
++
+=
+[
+"
+backend
+.
+h
+"
+]
