@@ -896,6 +896,11 @@ activeRollouts
 typeAssertions
 .
 array
+activeWebPushSubscriptionCount
+:
+typeAssertions
+.
+quantity
 addonsInfo
 :
 addonsInfo
