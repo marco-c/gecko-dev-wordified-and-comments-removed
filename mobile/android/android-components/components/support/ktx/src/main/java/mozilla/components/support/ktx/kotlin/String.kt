@@ -696,7 +696,12 @@ MAX_VALID_PORT
 )
 {
 return
+URLStringUtils
+.
+toLosslessDisplayUrl
+(
 inputString
+)
 }
 if
 (
