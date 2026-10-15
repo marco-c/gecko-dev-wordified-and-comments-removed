@@ -238,6 +238,10 @@ SkPDF
 StructureElementNode
 &
 aPdf
+bool
+aInMath
+=
+false
 )
 ;
 int
