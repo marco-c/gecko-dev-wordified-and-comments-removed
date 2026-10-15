@@ -421,7 +421,7 @@ const
 SdpMediaSection
 :
 :
-MediaType
+MediaTypeInfo
 mediaType
 const
 SdpDirectionAttribute
@@ -471,7 +471,7 @@ size
 media
 -
 >
-mMediaType
+mMediaTypeInfo
 =
 mediaType
 ;
