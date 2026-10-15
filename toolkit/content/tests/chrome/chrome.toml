@@ -1048,6 +1048,13 @@ xhtml
 ]
 [
 "
+test_menu_typeahead_label_start
+.
+xhtml
+"
+]
+[
+"
 test_menu_withcapture
 .
 xhtml
