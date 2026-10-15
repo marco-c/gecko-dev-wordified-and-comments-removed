@@ -6395,6 +6395,16 @@ time
 time
 (
 )
+                
+if
+queue_timeout
+<
+=
+0
+:
+                    
+raise
+Empty
             
 if
 output_timeout
@@ -6402,6 +6412,9 @@ output_timeout
                 
 if
 queue_timeout
+is
+not
+None
 :
                     
 queue_timeout
