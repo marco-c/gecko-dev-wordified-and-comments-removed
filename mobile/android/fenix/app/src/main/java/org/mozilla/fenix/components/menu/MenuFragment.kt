@@ -1819,9 +1819,6 @@ MenuTarget
 CustomTab
 (
 it
-args
-.
-isSandboxCustomTab
 )
 }
 ?

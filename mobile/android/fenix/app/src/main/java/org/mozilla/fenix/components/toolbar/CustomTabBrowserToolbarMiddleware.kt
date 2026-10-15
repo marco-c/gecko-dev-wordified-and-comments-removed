@@ -1985,9 +1985,6 @@ External
 customTabSessionId
 =
 customTabId
-isSandboxCustomTab
-=
-isSandboxCustomTab
 )
 else
 -
