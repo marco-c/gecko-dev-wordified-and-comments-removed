@@ -116,7 +116,9 @@ ohttp
 }
 viaduct
 -
-hyper
+backend
+-
+rust
 =
 {
 path
@@ -134,7 +136,9 @@ support
 /
 viaduct
 -
-hyper
+backend
+-
+rust
 "
 }
 nimbus
@@ -382,6 +386,15 @@ support
 /
 error
 "
+features
+=
+[
+"
+glean
+-
+sym
+"
+]
 }
 tracing
 -

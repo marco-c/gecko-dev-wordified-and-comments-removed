@@ -46,8 +46,6 @@ autofill
 {
 create_autofill_key
 create_autofill_store_with_nss_keymanager
-create_managed_encdec
-create_static_key_manager
 }
 ;
 use
@@ -90,6 +88,8 @@ db_crypto
 :
 :
 {
+create_managed_encdec
+create_static_key_manager
 DbCryptoApiError
 PrimaryPasswordAuthenticator
 }
@@ -1334,6 +1334,9 @@ cc_number
 unwrap_or_default
 (
 )
+cc_cvv
+:
+None
 cc_exp_month
 :
 prompt_usize
@@ -1634,6 +1637,9 @@ cc
 .
 cc_number
 )
+cc_cvv
+:
+None
 cc_exp_month
 :
 update_i64
@@ -2964,10 +2970,10 @@ Result
 )
 >
 {
-viaduct_hyper
+viaduct_backend_rust
 :
 :
-viaduct_init_backend_hyper
+viaduct_init_backend_rust
 (
 )
 ;
