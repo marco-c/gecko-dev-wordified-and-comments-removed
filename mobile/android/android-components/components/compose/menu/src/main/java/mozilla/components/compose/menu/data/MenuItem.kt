@@ -195,6 +195,7 @@ val
 onClickEvent
 :
 MenuEvent
+?
 abstract
 val
 role
@@ -592,6 +593,8 @@ item
 *
 param
 onClickEvent
+An
+optional
 [
 MenuEvent
 ]
@@ -739,6 +742,9 @@ val
 onClickEvent
 :
 MenuEvent
+?
+=
+null
 val
 onShownEvent
 :
