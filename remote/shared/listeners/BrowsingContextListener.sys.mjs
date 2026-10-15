@@ -361,7 +361,7 @@ content
 browser
 by
 the
-TabManager
+NavigableManager
 .
 this
 .
