@@ -272,17 +272,6 @@ task
 -
 defaults
 :
-run
--
-on
--
-repo
--
-type
-:
-[
-hg
-]
 priority
 :
 by
