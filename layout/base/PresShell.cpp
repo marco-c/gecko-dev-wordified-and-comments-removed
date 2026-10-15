@@ -27012,6 +27012,15 @@ bgcolor
 ;
 if
 (
+!
+item
+)
+{
+return
+;
+}
+if
+(
 canvasBg
 .
 mCSSSpecified
