@@ -12051,7 +12051,9 @@ rankTopSites
 (
 checkedAdult
 prefValues
+{
 isStartup
+}
 )
 ;
 }
@@ -13470,13 +13472,9 @@ this
 .
 getLinksWithDefaults
 (
-{
-isStartup
-:
 options
 .
 isStartup
-}
 refreshId
 )
 ;
