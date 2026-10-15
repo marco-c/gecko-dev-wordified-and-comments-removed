@@ -655,6 +655,16 @@ return
 mCompensatingForScroll
 ;
 }
+nsPoint
+AppliedScrollShift
+(
+)
+const
+{
+return
+mDefaultScrollShift
+;
+}
 PositionTryBackup
 TryPositionWithSameDefaultAnchor
 (
