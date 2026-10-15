@@ -1981,8 +1981,10 @@ eModeClasses
 mode
 )
 {
+RefPtr
+<
 nsDOMTokenList
-*
+>
 classList
 =
 mImageContent
@@ -3704,8 +3706,10 @@ CheckFullZoom
 (
 )
 {
+RefPtr
+<
 nsDOMTokenList
-*
+>
 classList
 =
 mImageContent
