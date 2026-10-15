@@ -4805,7 +4805,7 @@ SEARCHBAR_SAPS
 *
 param
 {
-UrlbarSapName
+string
 }
 sapName
 *
@@ -4897,7 +4897,7 @@ says
 *
 param
 {
-UrlbarSapName
+string
 }
 sapName
 *
@@ -4988,7 +4988,7 @@ navigate
 *
 param
 {
-UrlbarSapName
+string
 }
 sapName
 *
@@ -5075,7 +5075,7 @@ available
 *
 param
 {
-UrlbarSapName
+string
 }
 sapName
 *

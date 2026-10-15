@@ -127,10 +127,14 @@ mjs
 const
 lazy
 =
-XPCOMUtils
+{
+}
+;
+ChromeUtils
 .
-declareLazy
+defineESModuleGetters
 (
+lazy
 {
 AboutNewTab
 :

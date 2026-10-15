@@ -765,9 +765,7 @@ param
 {
 string
 }
-[
 mode
-]
 -
 flag
 to
