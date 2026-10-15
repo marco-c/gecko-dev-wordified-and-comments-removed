@@ -342,11 +342,6 @@ nsIPrintSettings
 >
 mPrintSettings
 ;
-bool
-mPrintViaSkPDF
-=
-false
-;
 }
 ;
 #

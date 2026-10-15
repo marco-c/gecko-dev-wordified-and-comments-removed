@@ -95,10 +95,6 @@ nsIPrintSettings
 :
 :
 kOutputFormatPDF
-&
-&
-!
-mPrintViaSkPDF
 )
 {
 int32_t
