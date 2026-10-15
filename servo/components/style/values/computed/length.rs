@@ -149,6 +149,7 @@ length
 :
 :
 {
+GenericFitTolerance
 GenericLengthOrNumber
 GenericLengthPercentageOrNormal
 GenericMaxSize
@@ -2308,6 +2309,15 @@ type
 NonNegativeLengthPercentageOrNormal
 =
 GenericLengthPercentageOrNormal
+<
+NonNegativeLengthPercentage
+>
+;
+pub
+type
+FitTolerance
+=
+GenericFitTolerance
 <
 NonNegativeLengthPercentage
 >

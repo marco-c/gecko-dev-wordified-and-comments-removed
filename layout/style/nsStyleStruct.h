@@ -7941,6 +7941,12 @@ mShapeMargin
 mozilla
 :
 :
+StyleFitTolerance
+mFitTolerance
+;
+mozilla
+:
+:
 StyleShapeOutside
 mShapeOutside
 ;

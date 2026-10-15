@@ -155,6 +155,7 @@ length
 :
 {
 GenericAnchorSizeFunction
+GenericFitTolerance
 GenericLengthOrNumber
 GenericLengthPercentageOrNormal
 GenericMargin
@@ -9247,6 +9248,15 @@ type
 NonNegativeLengthPercentageOrNormal
 =
 GenericLengthPercentageOrNormal
+<
+NonNegativeLengthPercentage
+>
+;
+pub
+type
+FitTolerance
+=
+GenericFitTolerance
 <
 NonNegativeLengthPercentage
 >

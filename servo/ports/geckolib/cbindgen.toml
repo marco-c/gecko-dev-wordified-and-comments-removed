@@ -897,6 +897,9 @@ NonNegativeLengthPercentageOrAuto
 NonNegativeLengthPercentageOrNormal
 "
 "
+FitTolerance
+"
+"
 LengthOrAuto
 "
 "
