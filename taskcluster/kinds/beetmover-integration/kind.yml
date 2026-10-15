@@ -178,17 +178,6 @@ build_platform
 {
 build_type
 }
-run
--
-on
--
-repo
--
-type
-:
-[
-hg
-]
 if
 -
 dependencies
