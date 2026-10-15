@@ -392,10 +392,6 @@ webservices
 mozgcp
 .
 net
-moz
--
-extension
-:
 ;
 "
 /
