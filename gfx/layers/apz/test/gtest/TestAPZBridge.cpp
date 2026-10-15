@@ -161,6 +161,7 @@ mIsDestroyed
 ;
 }
 ;
+}
 class
 APZBridgeTester
 :
@@ -208,7 +209,6 @@ nullptr
 }
 }
 ;
-}
 TEST_F
 (
 APZBridgeTester
