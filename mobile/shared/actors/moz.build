@@ -177,6 +177,13 @@ sys
 mjs
 "
 "
+GeckoViewPictureInPictureSourceChild
+.
+sys
+.
+mjs
+"
+"
 GeckoViewPrintDelegateChild
 .
 sys
