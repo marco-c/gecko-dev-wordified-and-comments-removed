@@ -960,13 +960,6 @@ bool
 identityInvalid
 )
 {
-MOZ_ASSERT
-(
-NS_IsMainThread
-(
-)
-)
-;
 LOG
 (
 (
@@ -2234,13 +2227,6 @@ nsACString
 creds
 )
 {
-MOZ_ASSERT
-(
-NS_IsMainThread
-(
-)
-)
-;
 LOG
 (
 (

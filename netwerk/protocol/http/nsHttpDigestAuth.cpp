@@ -710,13 +710,6 @@ bool
 result
 )
 {
-MOZ_ASSERT
-(
-NS_IsMainThread
-(
-)
-)
-;
 nsAutoCString
 realm
 domain
@@ -897,13 +890,6 @@ nsACString
 creds
 )
 {
-MOZ_ASSERT
-(
-NS_IsMainThread
-(
-)
-)
-;
 LOG
 (
 (
