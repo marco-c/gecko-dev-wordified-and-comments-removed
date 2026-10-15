@@ -709,7 +709,7 @@ align
 (
 Alignment
 .
-CenterVertically
+Bottom
 )
 .
 padding
