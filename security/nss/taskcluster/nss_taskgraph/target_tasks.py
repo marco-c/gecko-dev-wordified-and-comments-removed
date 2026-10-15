@@ -311,18 +311,23 @@ platform
 )
     
 if
+keep
+and
 platform
 in
 PLATFORM_ALIASES
 :
         
 keep
-&
 =
+bool
+(
 task
 .
 attributes
-[
+.
+get
+(
 _VARIANT_ATTR
 [
 platform
@@ -338,7 +343,8 @@ rsplit
 1
 ]
 ]
-]
+)
+)
     
 return
 keep

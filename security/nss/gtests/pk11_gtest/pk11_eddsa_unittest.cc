@@ -629,7 +629,7 @@ name
 EDDSA
 "
 "
-eddsa_verify_schema
+eddsa_verify_schema_v1
 .
 json
 "
@@ -718,7 +718,7 @@ n
 =
 =
 "
-jwk
+publicKey
 "
 |
 |
@@ -726,7 +726,7 @@ n
 =
 =
 "
-key
+publicKeyJwk
 "
 |
 |
@@ -734,7 +734,15 @@ n
 =
 =
 "
-keyPem
+publicKeyPem
+"
+|
+|
+n
+=
+=
+"
+source
 "
 )
 {
@@ -752,7 +760,7 @@ n
 =
 =
 "
-keyDer
+publicKeyDer
 "
 )
 {
@@ -1133,7 +1141,7 @@ Ed25519
 Run
 (
 "
-eddsa
+ed25519
 "
 )
 ;
