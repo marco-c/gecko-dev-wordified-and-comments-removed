@@ -136,6 +136,16 @@ bookmark
 and
 history
 suggestions
+and
+their
+titles
+when
+Places
+made
+them
+from
+the
+URL
 are
 shown
 formatted
