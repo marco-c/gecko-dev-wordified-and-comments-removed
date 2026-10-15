@@ -2382,11 +2382,24 @@ log_crashes
 self
 .
 log
+                
 dumpDir
+                
 symbols_path
+                
 test
 =
 test_name
+                
+quiet
+=
+self
+.
+crashAsPass
+or
+self
+.
+retry
             
 )
         
