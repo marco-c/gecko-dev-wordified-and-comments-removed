@@ -1082,14 +1082,6 @@ clear
 (
 )
 ;
-Services
-.
-telemetry
-.
-clearEvents
-(
-)
-;
 SpecialPowers
 .
 postConsoleSentinel
