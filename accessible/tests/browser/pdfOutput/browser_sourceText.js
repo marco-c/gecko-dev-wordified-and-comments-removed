@@ -77,7 +77,10 @@ chrome
 true
 topLevel
 :
-false
+true
+remoteIframe
+:
+true
 }
 )
 ;
