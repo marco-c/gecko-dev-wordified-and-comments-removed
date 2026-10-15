@@ -1138,7 +1138,7 @@ layout
 .
 space
 .
-static200
+dynamic200
 vertical
 =
 AcornTheme
