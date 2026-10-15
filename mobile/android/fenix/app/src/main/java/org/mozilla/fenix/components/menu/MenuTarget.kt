@@ -282,6 +282,12 @@ val
 customTabId
 :
 String
+val
+isSandboxed
+:
+Boolean
+=
+false
 )
 :
 MenuTarget
