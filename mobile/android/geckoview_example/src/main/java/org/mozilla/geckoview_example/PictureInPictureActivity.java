@@ -524,6 +524,13 @@ mSourceSession
 !
 =
 null
+&
+&
+mSourceSession
+.
+isOpen
+(
+)
 )
 {
 mSourceSession
