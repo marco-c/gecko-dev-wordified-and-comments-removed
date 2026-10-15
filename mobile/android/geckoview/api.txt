@@ -21801,6 +21801,15 @@ request
 (
 )
 ;
+method
+UiThread
+public
+void
+setKeepActive
+(
+boolean
+)
+;
 }
 public
 static
