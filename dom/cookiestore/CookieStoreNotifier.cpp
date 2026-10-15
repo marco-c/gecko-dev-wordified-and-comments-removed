@@ -464,6 +464,12 @@ mCookieStore
 =
 nullptr
 ;
+mDelayedDOMEvents
+.
+Clear
+(
+)
+;
 nsCOMPtr
 <
 nsIObserverService

@@ -106,6 +106,12 @@ aGivenProto
 override
 ;
 void
+DisconnectFromOwner
+(
+)
+override
+;
+void
 FireDelayedDOMEvents
 (
 )
