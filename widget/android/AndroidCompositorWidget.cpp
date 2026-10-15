@@ -7,6 +7,15 @@ h
 "
 #
 include
+<
+android
+/
+native_window_jni
+.
+h
+>
+#
+include
 "
 mozilla
 /

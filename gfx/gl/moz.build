@@ -411,11 +411,6 @@ EXPORTS
 =
 [
 "
-AndroidNativeWindow
-.
-h
-"
-"
 SharedSurfaceAndroidHardwareBuffer
 .
 h
