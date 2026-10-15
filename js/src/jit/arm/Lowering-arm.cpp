@@ -2310,7 +2310,7 @@ alloc
 )
 LModPowTwoI
 (
-useRegister
+useRegisterAtStart
 (
 mod
 -
@@ -4084,7 +4084,7 @@ alloc
 )
 LModPowTwoI
 (
-useRegister
+useRegisterAtStart
 (
 mod
 -
