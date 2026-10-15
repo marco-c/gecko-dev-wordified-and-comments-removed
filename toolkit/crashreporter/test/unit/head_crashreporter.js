@@ -839,6 +839,17 @@ in
 extra
 )
 ;
+Assert
+.
+ok
+(
+"
+CrashTime
+"
+in
+extra
+)
+;
 if
 (
 callback

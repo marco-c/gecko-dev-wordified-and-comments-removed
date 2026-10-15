@@ -88,6 +88,14 @@ annotations
 assert_annotation_is_present
 (
 "
+CrashTime
+"
+annotations
+)
+;
+assert_annotation_is_present
+(
+"
 InstallTime
 "
 annotations
