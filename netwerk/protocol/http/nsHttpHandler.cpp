@@ -13660,10 +13660,6 @@ AccumulateSingleSample
 ;
 }
 }
-mActivityDistributor
-=
-nullptr
-;
 }
 else
 if
@@ -14431,12 +14427,6 @@ XRE_IsParentProcess
 )
 )
 {
-#
-if
-defined
-(
-EARLY_BETA_OR_EARLIER
-)
 glean_pings
 :
 :
@@ -14446,8 +14436,6 @@ Submit
 (
 )
 ;
-#
-endif
 }
 }
 return
@@ -17390,6 +17378,10 @@ aArgs
 mDeviceModelId
 (
 )
+;
+mUserAgentIsDirty
+=
+true
 ;
 }
 void
