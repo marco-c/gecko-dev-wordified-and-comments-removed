@@ -289,11 +289,6 @@ CachedTableAccessible
 cpp
 "
 "
-CssAltContent
-.
-cpp
-"
-"
 DocManager
 .
 cpp
@@ -699,11 +694,6 @@ h
 "
 "
 CachedTableAccessible
-.
-h
-"
-"
-CssAltContent
 .
 h
 "
