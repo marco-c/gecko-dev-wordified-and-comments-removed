@@ -113150,7 +113150,7 @@ trackingprotection
 annotate_channels
 type
 :
-bool
+RelaxedAtomicBool
 value
 :
 true
