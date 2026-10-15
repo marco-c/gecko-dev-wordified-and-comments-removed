@@ -5621,11 +5621,8 @@ void
 gfxFontconfigFontEntry
 :
 :
-InitSkrifaFont
+InitSkrifaFontFace
 (
-FcPattern
-*
-aPattern
 )
 {
 using
@@ -5651,7 +5648,7 @@ filenameBytes
 =
 GetPatternFilename
 (
-aPattern
+mFontPattern
 )
 ;
 if
@@ -5711,7 +5708,7 @@ index
 =
 GetPatternIndex
 (
-aPattern
+mFontPattern
 )
 ;
 const
@@ -5788,16 +5785,6 @@ if
 mFTFaceInitialized
 )
 {
-#
-ifdef
-MOZ_FONTATIONS
-InitSkrifaFont
-(
-mFontPattern
-)
-;
-#
-endif
 RefPtr
 <
 SharedFTFace
