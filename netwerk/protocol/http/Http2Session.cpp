@@ -7619,6 +7619,15 @@ n
 return
 ;
 }
+RefPtr
+<
+Http2Session
+>
+self
+(
+this
+)
+;
 if
 (
 !
