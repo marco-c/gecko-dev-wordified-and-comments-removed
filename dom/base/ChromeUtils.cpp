@@ -11122,6 +11122,12 @@ UtilityInfo
 )
 )
 ;
+for
+(
+auto
+&
+geckoProcess
+:
 mozilla
 :
 :
@@ -11133,20 +11139,7 @@ GeckoChildProcessHost
 :
 GetAll
 (
-[
-&
-requests
-]
-(
-mozilla
-:
-:
-ipc
-:
-:
-GeckoChildProcessHost
-*
-aGeckoProcess
+)
 )
 {
 base
@@ -11155,7 +11148,7 @@ base
 ProcessId
 childPid
 =
-aGeckoProcess
+geckoProcess
 -
 >
 GetChildProcessId
@@ -11170,7 +11163,7 @@ childPid
 0
 )
 {
-return
+continue
 ;
 }
 mozilla
@@ -11189,7 +11182,7 @@ Unknown
 ;
 switch
 (
-aGeckoProcess
+geckoProcess
 -
 >
 GetProcessType
@@ -11204,7 +11197,7 @@ GeckoProcessType
 GeckoProcessType_Content
 :
 {
-return
+continue
 ;
 }
 #
@@ -11296,7 +11289,7 @@ utilityActors
 ;
 if
 (
-aGeckoProcess
+geckoProcess
 -
 >
 GetProcessType
@@ -11347,7 +11340,7 @@ upm
 >
 GetActors
 (
-aGeckoProcess
+geckoProcess
 )
 fallible
 )
@@ -11362,7 +11355,7 @@ actors
 "
 )
 ;
-return
+continue
 ;
 }
 }
@@ -11392,7 +11385,7 @@ utilityActors
 #
 ifdef
 XP_MACOSX
-aGeckoProcess
+geckoProcess
 -
 >
 GetChildTask
@@ -11403,8 +11396,6 @@ endif
 )
 ;
 }
-)
-;
 for
 (
 const

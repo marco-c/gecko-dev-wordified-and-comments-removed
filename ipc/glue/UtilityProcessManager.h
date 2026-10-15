@@ -889,8 +889,10 @@ Ok
 >
 mLaunchPromise
 ;
+RefPtr
+<
 UtilityProcessHost
-*
+>
 mProcess
 =
 nullptr

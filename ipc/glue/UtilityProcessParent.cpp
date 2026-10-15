@@ -1171,6 +1171,10 @@ OnChannelClosed
 aWhy
 )
 ;
+mHost
+=
+nullptr
+;
 }
 class
 DeferredDeleteUtilityProcessParent
