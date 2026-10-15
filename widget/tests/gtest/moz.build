@@ -86,11 +86,6 @@ TestWidgetTouchEventCtors
 .
 cpp
 "
-"
-TestWidgetTouchEventIPC
-.
-cpp
-"
 ]
 if
 CONFIG
