@@ -1270,6 +1270,13 @@ html
 ]
 [
 "
+test_emulate_prefers_contrast
+.
+html
+"
+]
+[
+"
 test_emulate_prefers_reduced_motion
 .
 html
