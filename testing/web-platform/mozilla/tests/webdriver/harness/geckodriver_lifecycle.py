@@ -884,7 +884,7 @@ extra_env
 =
 {
 "
-MOZ_LOG
+GECKODRIVER_DUMMY_ENV
 "
 :
 "
@@ -1011,7 +1011,7 @@ extra_env
 =
 {
 "
-MOZ_LOG
+GECKODRIVER_DUMMY_ENV
 "
 :
 "
