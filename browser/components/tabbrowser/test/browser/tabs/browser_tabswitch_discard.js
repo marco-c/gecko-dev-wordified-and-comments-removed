@@ -108,7 +108,11 @@ gBrowser
 discardBrowser
 (
 tab
+{
+forceDiscard
+:
 true
+}
 )
 "
 The
