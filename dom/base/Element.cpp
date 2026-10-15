@@ -4569,7 +4569,6 @@ GetEventNameForAttr
 attr
 )
 value
-true
 )
 ;
 }
@@ -18815,8 +18814,6 @@ const
 nsAString
 &
 aValue
-bool
-aDefer
 )
 {
 Document
@@ -18852,11 +18849,6 @@ name
 "
 )
 ;
-bool
-defer
-=
-true
-;
 EventListenerManager
 *
 manager
@@ -18864,8 +18856,6 @@ manager
 GetEventListenerManagerForAttr
 (
 aEventName
-&
-defer
 )
 ;
 if
@@ -18877,13 +18867,6 @@ manager
 return
 ;
 }
-defer
-=
-defer
-&
-&
-aDefer
-;
 manager
 -
 >
@@ -18891,7 +18874,6 @@ SetEventHandler
 (
 aEventName
 aValue
-defer
 !
 nsContentUtils
 :
@@ -22182,16 +22164,8 @@ GetEventListenerManagerForAttr
 nsAtom
 *
 aAttrName
-bool
-*
-aDefer
 )
 {
-*
-aDefer
-=
-true
-;
 return
 GetOrCreateListenerManager
 (

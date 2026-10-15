@@ -5325,9 +5325,6 @@ GetEventListenerManagerForAttr
 nsAtom
 *
 aAttrName
-bool
-*
-aDefer
 )
 {
 if
@@ -5428,11 +5425,6 @@ OwnerDoc
 (
 )
 ;
-*
-aDefer
-=
-false
-;
 if
 (
 (
@@ -5479,7 +5471,6 @@ nsGenericHTMLElementBase
 GetEventListenerManagerForAttr
 (
 aAttrName
-aDefer
 )
 ;
 }

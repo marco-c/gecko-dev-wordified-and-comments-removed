@@ -7217,10 +7217,6 @@ const
 nsAString
 &
 aValue
-bool
-aDefer
-=
-true
 )
 ;
 nsresult
@@ -8146,9 +8142,6 @@ GetEventListenerManagerForAttr
 nsAtom
 *
 aAttrName
-bool
-*
-aDefer
 )
 ;
 const

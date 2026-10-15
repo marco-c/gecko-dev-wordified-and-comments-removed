@@ -1589,8 +1589,6 @@ nsAString
 &
 aFunc
 bool
-aDeferCompilation
-bool
 aPermitUntrustedEvents
 dom
 :
@@ -2219,16 +2217,6 @@ aListener
 nsAtom
 *
 aTypeAtom
-const
-nsAString
-*
-aBody
-dom
-:
-:
-Element
-*
-aElement
 )
 ;
 Listener
