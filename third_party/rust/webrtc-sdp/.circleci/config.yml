@@ -1209,6 +1209,9 @@ features
 "
 serialize
 "
+"
+pedantic
+"
 ]
 rustversion
 :

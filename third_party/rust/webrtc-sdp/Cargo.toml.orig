@@ -15,7 +15,7 @@ version
 .
 3
 .
-14
+16
 "
 authors
 =
@@ -212,6 +212,13 @@ enhanced_debug
 debugging
 output
 enhanced_debug
+=
+[
+]
+#
+pedantic
+checks
+pedantic
 =
 [
 ]
