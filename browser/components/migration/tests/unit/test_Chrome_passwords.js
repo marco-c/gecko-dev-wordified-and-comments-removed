@@ -1223,7 +1223,8 @@ implemented
 const
 dirSvcFile
 =
-do_get_file
+await
+copyFixtureDir
 (
 dirSvcPath
 )

@@ -68,13 +68,8 @@ mjs
 let
 rootDir
 =
-do_get_file
+do_get_tempdir
 (
-"
-chromefiles
-/
-"
-true
 )
 ;
 add_task

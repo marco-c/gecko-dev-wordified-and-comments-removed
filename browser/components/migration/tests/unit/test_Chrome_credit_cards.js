@@ -150,13 +150,8 @@ cleanup
 let
 rootDir
 =
-do_get_file
+do_get_tempdir
 (
-"
-chromefiles
-/
-"
-true
 )
 ;
 function
