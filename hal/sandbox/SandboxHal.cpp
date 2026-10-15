@@ -934,7 +934,9 @@ bool
 SetAlarm
 (
 int32_t
+aSeconds
 int32_t
+aNanoseconds
 )
 {
 MOZ_CRASH
@@ -960,7 +962,9 @@ void
 SetProcessPriority
 (
 int
+aPid
 ProcessPriority
+aPriority
 )
 {
 MOZ_CRASH
@@ -1001,6 +1005,7 @@ void
 ActorDestroy
 (
 ActorDestroyReason
+aWhy
 )
 override
 {
@@ -1080,6 +1085,7 @@ NotNull
 PBrowserParent
 *
 >
+browserParent
 )
 override
 {
@@ -1130,6 +1136,7 @@ NotNull
 PBrowserParent
 *
 >
+browserParent
 )
 override
 {
@@ -1757,6 +1764,7 @@ void
 ActorDestroy
 (
 ActorDestroyReason
+aWhy
 )
 override
 {

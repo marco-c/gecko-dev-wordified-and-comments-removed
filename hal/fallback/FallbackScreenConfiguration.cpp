@@ -23,6 +23,7 @@ hal
 :
 ScreenOrientation
 &
+aOrientation
 )
 {
 return

@@ -4885,6 +4885,7 @@ aFrameNumber
 const
 void
 *
+aPC
 const
 char
 *
@@ -5169,6 +5170,7 @@ void
 aPC
 void
 *
+aSP
 )
 {
 MozCodeAddressDetails

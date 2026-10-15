@@ -1042,6 +1042,7 @@ void
 Create
 (
 PSLockRef
+aLock
 )
 {
 MOZ_ASSERT
@@ -1063,6 +1064,7 @@ void
 Destroy
 (
 PSLockRef
+aLock
 )
 {
 MOZ_ASSERT
@@ -1102,6 +1104,7 @@ size_t
 aProfSize
 size_t
 &
+aLulSize
 )
 {
 MOZ_ASSERT
@@ -1798,6 +1801,7 @@ AdjustFeatures
 uint32_t
 aFeatures
 uint32_t
+aFilterCount
 )
 {
 aFeatures
@@ -2319,6 +2323,7 @@ SamplerThread
 Destroy
 (
 PSLockRef
+aLock
 )
 {
 MOZ_ASSERT
@@ -2574,6 +2579,7 @@ bool
 ShouldProfileThread
 (
 PSLockRef
+aLock
 ThreadInfo
 *
 aInfo
@@ -6105,6 +6111,7 @@ RegisteredThread
 aRegisteredThread
 ProfiledThreadData
 &
+aProfiledThreadData
 const
 Registers
 &
@@ -9474,6 +9481,7 @@ aRegs
 const
 TimeStamp
 &
+aNow
 )
 {
 DoPeriodicSample
@@ -15576,14 +15584,10 @@ profiler_suspend_and_sample_thread
 BaseProfilerThreadId
 aThreadId
 uint32_t
+aFeatures
 ProfilerStackCollector
 &
 aCollector
-[
-[
-maybe_unused
-]
-]
 bool
 aSampleNative
 )
@@ -15737,6 +15741,7 @@ aRegs
 const
 TimeStamp
 &
+aNow
 )
 {
 #
