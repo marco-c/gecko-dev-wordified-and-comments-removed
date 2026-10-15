@@ -13660,6 +13660,10 @@ AccumulateSingleSample
 ;
 }
 }
+mActivityDistributor
+=
+nullptr
+;
 }
 else
 if
