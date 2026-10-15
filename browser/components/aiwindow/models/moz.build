@@ -232,6 +232,13 @@ sys
 mjs
 "
 "
+SmartWindowLocation
+.
+sys
+.
+mjs
+"
+"
 SmartWindowNavigationInfo
 .
 sys

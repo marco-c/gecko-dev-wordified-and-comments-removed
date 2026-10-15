@@ -37,6 +37,13 @@ true
 ]
 [
 "
+browser_JourneyManager
+.
+js
+"
+]
+[
+"
 browser_MemoriesManager
 .
 js
@@ -206,6 +213,13 @@ js
 [
 "
 browser_smart_form_fill_model
+.
+js
+"
+]
+[
+"
+browser_smartwindow_location
 .
 js
 "
