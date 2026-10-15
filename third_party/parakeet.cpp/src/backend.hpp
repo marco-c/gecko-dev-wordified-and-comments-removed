@@ -9,11 +9,6 @@ cstddef
 #
 include
 <
-cstdint
->
-#
-include
-<
 functional
 >
 #
