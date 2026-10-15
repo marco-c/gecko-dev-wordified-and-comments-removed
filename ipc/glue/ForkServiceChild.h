@@ -296,11 +296,8 @@ MOZ_GUARDED_BY
 mMutex
 )
 ;
-const
-RefPtr
-<
 GeckoChildProcessHost
->
+*
 mProcess
 ;
 }
