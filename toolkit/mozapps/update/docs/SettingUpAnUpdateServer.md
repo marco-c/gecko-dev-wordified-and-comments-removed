@@ -1008,6 +1008,7 @@ dist
 /
 firefox
 "
+firefox
 For
 macOS
 you
@@ -1100,6 +1101,7 @@ Firefox
 .
 app
 "
+firefox
 For
 a
 local

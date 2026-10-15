@@ -499,12 +499,30 @@ normpath
 xz_path
 )
         
+app_name
+=
+get_application_ini_value
+(
+tmpdir
+"
+App
+"
+"
+Name
+"
+)
+.
+lower
+(
+)
+        
 cmd
 =
 [
 make_full_update
 output
 ffxdir
+app_name
 ]
         
 if
