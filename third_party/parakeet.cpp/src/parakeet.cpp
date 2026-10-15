@@ -33,6 +33,9 @@ include
 string
 >
 #
+ifndef
+PARAKEET_VERSION
+#
 define
 PARAKEET_VERSION
 "
@@ -42,6 +45,8 @@ PARAKEET_VERSION
 .
 1
 "
+#
+endif
 extern
 "
 C
