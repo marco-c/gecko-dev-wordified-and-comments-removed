@@ -113,6 +113,13 @@ js
 ]
 [
 "
+test_ExtensionWidgetsFeed
+.
+js
+"
+]
+[
+"
 test_ExternalComponentsFeed
 .
 js
