@@ -183,6 +183,18 @@ menu
 .
 data
 .
+MenuItemTitle
+import
+mozilla
+.
+components
+.
+compose
+.
+menu
+.
+data
+.
 StandardMenuItem
 import
 mozilla
@@ -1354,6 +1366,8 @@ StandardMenuItem
 (
 title
 =
+MenuItemTitle
+(
 Text
 .
 String
@@ -1361,6 +1375,7 @@ String
 "
 Translate
 "
+)
 )
 onClickEvent
 =
@@ -1377,6 +1392,8 @@ StandardMenuItem
 (
 title
 =
+MenuItemTitle
+(
 Text
 .
 String
@@ -1384,6 +1401,7 @@ String
 "
 Summarize
 "
+)
 )
 onClickEvent
 =

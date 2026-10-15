@@ -117,6 +117,18 @@ menu
 .
 data
 .
+MenuItemTitle
+import
+mozilla
+.
+components
+.
+compose
+.
+menu
+.
+data
+.
 StandardMenuItem
 import
 mozilla
@@ -310,6 +322,8 @@ StandardMenuItem
 (
 title
 =
+MenuItemTitle
+(
 Text
 .
 Resource
@@ -322,6 +336,7 @@ browser_menu_open_in_fenix
 listOf
 (
 appName
+)
 )
 )
 icon

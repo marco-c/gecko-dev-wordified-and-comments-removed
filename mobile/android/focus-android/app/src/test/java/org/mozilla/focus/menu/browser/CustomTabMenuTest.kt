@@ -599,6 +599,8 @@ OpenInBrowser
 )
 .
 title
+.
+text
 )
 }
 Test
@@ -975,6 +977,8 @@ single
 )
 .
 title
+.
+text
 )
 assertEquals
 (
@@ -1146,6 +1150,8 @@ ReportSiteIssue
 )
 .
 title
+.
+text
 )
 }
 Test

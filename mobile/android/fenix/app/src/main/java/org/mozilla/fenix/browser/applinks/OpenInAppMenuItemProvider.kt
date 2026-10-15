@@ -167,6 +167,18 @@ menu
 .
 data
 .
+MenuItemTitle
+import
+mozilla
+.
+components
+.
+compose
+.
+menu
+.
+data
+.
 StandardMenuItem
 import
 mozilla
@@ -717,6 +729,8 @@ StandardMenuItem
 (
 title
 =
+MenuItemTitle
+(
 when
 (
 val
@@ -769,6 +783,7 @@ appName
 )
 )
 }
+)
 icon
 =
 MenuItemIconRes

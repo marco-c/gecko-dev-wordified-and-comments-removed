@@ -1568,6 +1568,8 @@ site
 item
 .
 title
+.
+text
 )
 assertEquals
 (
@@ -2029,6 +2031,8 @@ ReportSiteIssue
 )
 .
 title
+.
+text
 )
 val
 disabledOverride

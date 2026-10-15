@@ -145,6 +145,18 @@ compose
 .
 menu
 .
+data
+.
+MenuItemTitle
+import
+mozilla
+.
+components
+.
+compose
+.
+menu
+.
 store
 .
 MenuEvent
@@ -362,6 +374,8 @@ BannerMenuItem
 (
 title
 =
+MenuItemTitle
+(
 Text
 .
 Resource
@@ -374,6 +388,7 @@ browser_menu_default_banner_title
 listOf
 (
 appName
+)
 )
 )
 summary

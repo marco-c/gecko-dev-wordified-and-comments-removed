@@ -103,6 +103,18 @@ menu
 .
 data
 .
+MenuItemTitle
+import
+mozilla
+.
+components
+.
+compose
+.
+menu
+.
+data
+.
 MenuItemsGroup
 import
 mozilla
@@ -290,6 +302,8 @@ StandardMenuItem
 (
 title
 =
+MenuItemTitle
+(
 Text
 .
 String
@@ -297,6 +311,7 @@ String
 "
 Back
 "
+)
 )
 contentDescription
 =
@@ -335,6 +350,8 @@ StandardMenuItem
 (
 title
 =
+MenuItemTitle
+(
 Text
 .
 String
@@ -342,6 +359,7 @@ String
 "
 Forward
 "
+)
 )
 contentDescription
 =
@@ -380,6 +398,8 @@ StandardMenuItem
 (
 title
 =
+MenuItemTitle
+(
 Text
 .
 String
@@ -387,6 +407,7 @@ String
 "
 Share
 "
+)
 )
 contentDescription
 =
@@ -420,6 +441,8 @@ StandardMenuItem
 (
 title
 =
+MenuItemTitle
+(
 Text
 .
 String
@@ -427,6 +450,7 @@ String
 "
 Refresh
 "
+)
 )
 contentDescription
 =
@@ -467,6 +491,8 @@ StandardMenuItem
 (
 title
 =
+MenuItemTitle
+(
 Text
 .
 String
@@ -474,6 +500,7 @@ String
 "
 History
 "
+)
 )
 contentDescription
 =
@@ -507,6 +534,8 @@ StandardMenuItem
 (
 title
 =
+MenuItemTitle
+(
 Text
 .
 String
@@ -514,6 +543,7 @@ String
 "
 Save
 "
+)
 )
 contentDescription
 =
@@ -547,6 +577,8 @@ StandardMenuItem
 (
 title
 =
+MenuItemTitle
+(
 Text
 .
 String
@@ -554,6 +586,7 @@ String
 "
 Downloads
 "
+)
 )
 contentDescription
 =
@@ -587,6 +620,8 @@ StandardMenuItem
 (
 title
 =
+MenuItemTitle
+(
 Text
 .
 String
@@ -594,6 +629,7 @@ String
 "
 Passwords
 "
+)
 )
 contentDescription
 =

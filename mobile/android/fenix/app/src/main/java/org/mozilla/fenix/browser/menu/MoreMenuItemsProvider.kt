@@ -151,6 +151,18 @@ menu
 .
 data
 .
+MenuItemTitle
+import
+mozilla
+.
+components
+.
+compose
+.
+menu
+.
+data
+.
 StandardMenuItem
 import
 mozilla
@@ -517,6 +529,8 @@ ExpandableMenuItem
 (
 title
 =
+MenuItemTitle
+(
 Text
 .
 Resource
@@ -526,6 +540,7 @@ R
 string
 .
 browser_menu_more_settings
+)
 )
 icon
 =

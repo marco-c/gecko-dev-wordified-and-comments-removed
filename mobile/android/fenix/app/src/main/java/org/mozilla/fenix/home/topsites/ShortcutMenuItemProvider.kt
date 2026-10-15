@@ -167,6 +167,18 @@ menu
 .
 data
 .
+MenuItemTitle
+import
+mozilla
+.
+components
+.
+compose
+.
+menu
+.
+data
+.
 StandardMenuItem
 import
 mozilla
@@ -1287,6 +1299,8 @@ StandardMenuItem
 (
 title
 =
+MenuItemTitle
+(
 Text
 .
 Resource
@@ -1296,6 +1310,7 @@ R
 string
 .
 browser_menu_add_to_shortcuts
+)
 )
 icon
 =
@@ -1321,6 +1336,8 @@ StandardMenuItem
 (
 title
 =
+MenuItemTitle
+(
 Text
 .
 Resource
@@ -1330,6 +1347,7 @@ R
 string
 .
 browser_menu_remove_from_shortcuts
+)
 )
 icon
 =

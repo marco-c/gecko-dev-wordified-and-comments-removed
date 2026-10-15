@@ -145,6 +145,18 @@ menu
 .
 data
 .
+MenuItemTitle
+import
+mozilla
+.
+components
+.
+compose
+.
+menu
+.
+data
+.
 MenuItemsGroup
 import
 mozilla
@@ -916,6 +928,8 @@ StandardMenuItem
 (
 title
 =
+MenuItemTitle
+(
 Text
 .
 String
@@ -925,6 +939,7 @@ Customize
 reader
 view
 "
+)
 )
 onClickEvent
 =

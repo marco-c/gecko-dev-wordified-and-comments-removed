@@ -151,6 +151,18 @@ menu
 .
 data
 .
+MenuItemTitle
+import
+mozilla
+.
+components
+.
+compose
+.
+menu
+.
+data
+.
 StandardMenuItem
 import
 mozilla
@@ -245,6 +257,8 @@ StandardMenuItem
 (
 title
 =
+MenuItemTitle
+(
 Text
 .
 String
@@ -252,6 +266,7 @@ String
 "
 VPN
 "
+)
 )
 contentDescription
 =
@@ -352,6 +367,8 @@ StandardMenuItem
 (
 title
 =
+MenuItemTitle
+(
 Text
 .
 String
@@ -360,6 +377,7 @@ String
 Bookmark
 page
 "
+)
 )
 contentDescription
 =
@@ -394,6 +412,8 @@ StandardMenuItem
 (
 title
 =
+MenuItemTitle
+(
 Text
 .
 String
@@ -403,6 +423,7 @@ Find
 in
 page
 "
+)
 )
 contentDescription
 =
@@ -438,6 +459,8 @@ StandardMenuItem
 (
 title
 =
+MenuItemTitle
+(
 Text
 .
 String
@@ -446,6 +469,7 @@ String
 Desktop
 site
 "
+)
 )
 contentDescription
 =
@@ -499,6 +523,8 @@ ExpandableMenuItem
 (
 title
 =
+MenuItemTitle
+(
 Text
 .
 String
@@ -506,6 +532,7 @@ String
 "
 Extensions
 "
+)
 )
 contentDescription
 =

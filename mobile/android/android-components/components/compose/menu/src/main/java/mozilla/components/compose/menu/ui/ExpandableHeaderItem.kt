@@ -541,6 +541,18 @@ menu
 .
 data
 .
+MenuItemTitle
+import
+mozilla
+.
+components
+.
+compose
+.
+menu
+.
+data
+.
 StandardMenuItem
 import
 mozilla
@@ -815,7 +827,7 @@ ExpandableHeaderItem
 (
 title
 :
-Text
+MenuItemTitle
 subMenuItems
 :
 List
@@ -916,6 +928,8 @@ value
 ?
 :
 title
+.
+text
 .
 value
 val
@@ -1279,6 +1293,11 @@ actionButton
 it
 .
 actionButton
+trailingIcon
+=
+it
+.
+trailingIcon
 state
 =
 it
@@ -1689,6 +1708,8 @@ ExpandableHeaderItem
 (
 title
 =
+MenuItemTitle
+(
 Text
 .
 String
@@ -1696,6 +1717,7 @@ String
 "
 Title
 "
+)
 )
 contentDescription
 =

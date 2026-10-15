@@ -145,6 +145,18 @@ menu
 .
 data
 .
+MenuItemTitle
+import
+mozilla
+.
+components
+.
+compose
+.
+menu
+.
+data
+.
 StandardMenuItem
 import
 mozilla
@@ -210,6 +222,8 @@ StandardMenuItem
 (
 title
 =
+MenuItemTitle
+(
 Text
 .
 String
@@ -217,6 +231,7 @@ String
 "
 Item
 "
+)
 )
 onClickEvent
 =
@@ -336,6 +351,8 @@ ExpandableMenuItem
 (
 title
 =
+MenuItemTitle
+(
 Text
 .
 String
@@ -343,6 +360,7 @@ String
 "
 More
 "
+)
 )
 onClickEvent
 =
@@ -369,6 +387,8 @@ StandardMenuItem
 (
 title
 =
+MenuItemTitle
+(
 Text
 .
 String
@@ -376,6 +396,7 @@ String
 "
 Item
 "
+)
 )
 onClickEvent
 =
@@ -444,6 +465,8 @@ BannerMenuItem
 (
 title
 =
+MenuItemTitle
+(
 Text
 .
 String
@@ -451,6 +474,7 @@ String
 "
 Banner
 "
+)
 )
 summary
 =
@@ -543,6 +567,8 @@ StandardMenuItem
 (
 title
 =
+MenuItemTitle
+(
 Text
 .
 String
@@ -550,6 +576,7 @@ String
 "
 Item
 "
+)
 )
 onClickEvent
 =

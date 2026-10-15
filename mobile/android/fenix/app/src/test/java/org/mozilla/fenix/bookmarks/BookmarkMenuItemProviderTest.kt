@@ -213,6 +213,18 @@ menu
 .
 data
 .
+MenuItemTitle
+import
+mozilla
+.
+components
+.
+compose
+.
+menu
+.
+data
+.
 StandardMenuItem
 import
 mozilla
@@ -1552,6 +1564,8 @@ StandardMenuItem
 (
 title
 =
+MenuItemTitle
+(
 Text
 .
 Resource
@@ -1561,6 +1575,7 @@ R
 string
 .
 browser_menu_bookmark_this_page_2
+)
 )
 icon
 =
@@ -1585,6 +1600,8 @@ StandardMenuItem
 (
 title
 =
+MenuItemTitle
+(
 Text
 .
 Resource
@@ -1594,6 +1611,7 @@ R
 string
 .
 browser_menu_edit_bookmark
+)
 )
 icon
 =

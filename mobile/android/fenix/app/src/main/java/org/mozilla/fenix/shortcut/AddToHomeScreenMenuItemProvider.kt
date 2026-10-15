@@ -155,6 +155,18 @@ menu
 .
 data
 .
+MenuItemTitle
+import
+mozilla
+.
+components
+.
+compose
+.
+menu
+.
+data
+.
 StandardMenuItem
 import
 mozilla
@@ -631,6 +643,8 @@ StandardMenuItem
 (
 title
 =
+MenuItemTitle
+(
 Text
 .
 Resource
@@ -661,6 +675,7 @@ string
 .
 browser_menu_add_to_homescreen
 }
+)
 )
 icon
 =

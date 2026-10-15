@@ -157,6 +157,18 @@ menu
 .
 data
 .
+MenuItemTitle
+import
+mozilla
+.
+components
+.
+compose
+.
+menu
+.
+data
+.
 MenuItemsGroup
 import
 mozilla
@@ -1267,6 +1279,8 @@ copy
 (
 title
 =
+MenuItemTitle
+(
 Text
 .
 String
@@ -1275,6 +1289,7 @@ String
 Newer
 header
 "
+)
 )
 )
 return
@@ -1470,6 +1485,8 @@ copy
 (
 title
 =
+MenuItemTitle
+(
 Text
 .
 String
@@ -1478,6 +1495,7 @@ String
 Updated
 More
 "
+)
 )
 )
 assertEquals
@@ -1510,6 +1528,8 @@ single
 )
 .
 title
+.
+text
 )
 }
 Test
@@ -1838,6 +1858,8 @@ copy
 (
 title
 =
+MenuItemTitle
+(
 Text
 .
 String
@@ -1846,6 +1868,7 @@ String
 Updated
 More
 "
+)
 )
 )
 builder
@@ -1864,6 +1887,8 @@ copy
 (
 title
 =
+MenuItemTitle
+(
 Text
 .
 String
@@ -1874,6 +1899,7 @@ Find
 in
 page
 "
+)
 )
 )
 expandingTo
@@ -1891,6 +1917,8 @@ copy
 (
 title
 =
+MenuItemTitle
+(
 Text
 .
 String
@@ -1899,6 +1927,7 @@ String
 Updated
 More
 "
+)
 )
 subMenuItems
 =
@@ -2070,6 +2099,8 @@ StandardMenuItem
 (
 title
 =
+MenuItemTitle
+(
 Text
 .
 String
@@ -2077,6 +2108,7 @@ String
 "
 Item
 "
+)
 )
 onClickEvent
 =
@@ -2089,6 +2121,8 @@ StandardMenuItem
 (
 title
 =
+MenuItemTitle
+(
 Text
 .
 String
@@ -2098,6 +2132,7 @@ Find
 in
 page
 "
+)
 )
 onClickEvent
 =
@@ -2110,6 +2145,8 @@ ExpandableMenuItem
 (
 title
 =
+MenuItemTitle
+(
 Text
 .
 String
@@ -2117,6 +2154,7 @@ String
 "
 More
 "
+)
 )
 onClickEvent
 =

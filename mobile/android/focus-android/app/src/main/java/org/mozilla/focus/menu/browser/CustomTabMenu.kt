@@ -223,6 +223,18 @@ menu
 .
 data
 .
+MenuItemTitle
+import
+mozilla
+.
+components
+.
+compose
+.
+menu
+.
+data
+.
 MenuItemsGroup
 import
 mozilla
@@ -1259,11 +1271,14 @@ StandardMenuItem
 (
 title
 =
+MenuItemTitle
+(
 Text
 .
 String
 (
 title
+)
 )
 icon
 =
@@ -1337,6 +1352,8 @@ StandardMenuItem
 (
 title
 =
+MenuItemTitle
+(
 Text
 .
 Resource
@@ -1349,6 +1366,7 @@ menu_open_with_default_browser2
 listOf
 (
 appName
+)
 )
 )
 onClickEvent
@@ -1376,6 +1394,8 @@ StandardMenuItem
 (
 title
 =
+MenuItemTitle
+(
 Text
 .
 Resource
@@ -1385,6 +1405,7 @@ R
 string
 .
 menu_open_with_a_browser2
+)
 )
 onClickEvent
 =
@@ -1449,6 +1470,8 @@ StandardMenuItem
 (
 title
 =
+MenuItemTitle
+(
 Text
 .
 String
@@ -1456,6 +1479,7 @@ String
 item
 .
 name
+)
 )
 onClickEvent
 =
@@ -1508,6 +1532,8 @@ StandardMenuItem
 (
 title
 =
+MenuItemTitle
+(
 if
 (
 showText
@@ -1525,6 +1551,7 @@ String
 (
 "
 "
+)
 )
 contentDescription
 =
