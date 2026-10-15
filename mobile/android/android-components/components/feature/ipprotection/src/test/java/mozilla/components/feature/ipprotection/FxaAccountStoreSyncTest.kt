@@ -1125,6 +1125,14 @@ captureMiddleware
 =
 buildStore
 (
+buildIPProtectionState
+(
+accountStatus
+=
+AccountStatus
+.
+Uninitialized
+)
 )
 val
 sync
