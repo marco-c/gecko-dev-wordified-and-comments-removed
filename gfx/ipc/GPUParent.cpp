@@ -2299,7 +2299,7 @@ if
 gfxVars
 :
 :
-UseAImageReaderVideoGpuProcessAndroid
+ForceAImageReaderAndroid
 (
 )
 )

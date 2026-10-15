@@ -17642,7 +17642,7 @@ gfx
 gfxVars
 :
 :
-UseAImageReaderVideoGpuProcessAndroid
+ForceAImageReaderAndroid
 (
 )
 )

@@ -952,7 +952,7 @@ nsCString
 \
 _
 (
-UseAImageReaderVideoGpuProcessAndroid
+ForceAImageReaderAndroid
 bool
 false
 )
