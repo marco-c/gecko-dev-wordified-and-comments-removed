@@ -2190,7 +2190,7 @@ UniFFIScaffolding
 .
 callSync
 (
-123
+111
 /
 /
 uniffi_db_crypto_fn_method_encryptordecryptor_decrypt
@@ -2266,7 +2266,7 @@ UniFFIScaffolding
 .
 callSync
 (
-124
+112
 /
 /
 uniffi_db_crypto_fn_method_encryptordecryptor_encrypt
@@ -2599,7 +2599,7 @@ dataStream
 .
 readHandleOrPointer
 (
-7
+6
 )
 )
 }
@@ -2634,7 +2634,7 @@ dataStream
 .
 writePointer
 (
-7
+6
 this
 .
 lower
@@ -2993,7 +2993,7 @@ UniFFIScaffolding
 .
 callSync
 (
-125
+113
 /
 /
 uniffi_db_crypto_fn_method_keymanager_get_key
@@ -3320,7 +3320,7 @@ dataStream
 .
 readHandleOrPointer
 (
-8
+7
 )
 )
 }
@@ -3355,7 +3355,7 @@ dataStream
 .
 writePointer
 (
-8
+7
 this
 .
 lower
@@ -3663,7 +3663,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-126
+114
 /
 /
 uniffi_db_crypto_fn_constructor_managedencryptordecryptor_new
@@ -3824,7 +3824,7 @@ dataStream
 .
 readPointer
 (
-9
+8
 )
 )
 ;
@@ -3840,7 +3840,7 @@ dataStream
 .
 writePointer
 (
-9
+8
 this
 .
 lower
@@ -4871,7 +4871,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-127
+115
 /
 /
 uniffi_db_crypto_fn_constructor_nsskeymanager_new
@@ -4932,7 +4932,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-128
+116
 /
 /
 uniffi_db_crypto_fn_method_nsskeymanager_into_dyn_key_manager
@@ -5093,7 +5093,7 @@ dataStream
 .
 readPointer
 (
-10
+9
 )
 )
 ;
@@ -5109,7 +5109,7 @@ dataStream
 .
 writePointer
 (
-10
+9
 this
 .
 lower
@@ -5467,7 +5467,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-129
+117
 /
 /
 uniffi_db_crypto_fn_method_primarypasswordauthenticator_get_primary_password
@@ -5520,7 +5520,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-130
+118
 /
 /
 uniffi_db_crypto_fn_method_primarypasswordauthenticator_on_authentication_success
@@ -5571,7 +5571,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-131
+119
 /
 /
 uniffi_db_crypto_fn_method_primarypasswordauthenticator_on_authentication_failure
@@ -5896,7 +5896,7 @@ dataStream
 .
 readHandleOrPointer
 (
-11
+10
 )
 )
 }
@@ -5931,7 +5931,7 @@ dataStream
 .
 writePointer
 (
-11
+10
 this
 .
 lower
@@ -6321,7 +6321,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-132
+120
 /
 /
 uniffi_db_crypto_fn_constructor_statickeymanager_new
@@ -6482,7 +6482,7 @@ dataStream
 .
 readPointer
 (
-12
+11
 )
 )
 ;
@@ -6498,7 +6498,7 @@ dataStream
 .
 writePointer
 (
-12
+11
 this
 .
 lower

@@ -386,15 +386,6 @@ support
 /
 error
 "
-features
-=
-[
-"
-glean
--
-sym
-"
-]
 }
 tracing
 -
