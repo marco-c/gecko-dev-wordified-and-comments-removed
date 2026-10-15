@@ -879,7 +879,8 @@ AES
 CTR
 "
 )
-False
+"
+"
 )
     
 (
@@ -895,7 +896,8 @@ AES
 CBC
 "
 )
-False
+"
+"
 )
     
 (
@@ -911,7 +913,8 @@ AES
 GCM
 "
 )
-False
+"
+"
 )
     
 (
@@ -927,7 +930,11 @@ AES
 OCB
 "
 )
-True
+"
+modern
+-
+algos
+"
 )
     
 (
@@ -941,7 +948,11 @@ ChaCha20
 Poly1305
 "
 )
-True
+"
+modern
+-
+algos
+"
 )
     
 (
@@ -957,7 +968,8 @@ AES
 KW
 "
 )
-False
+"
+"
 )
     
 (
@@ -969,7 +981,8 @@ HMAC
 HMAC
 "
 )
-False
+"
+"
 )
     
 (
@@ -989,7 +1002,8 @@ PKCS1
 v1_5
 "
 )
-False
+"
+"
 )
     
 (
@@ -1005,7 +1019,8 @@ RSA
 PSS
 "
 )
-False
+"
+"
 )
     
 (
@@ -1021,7 +1036,8 @@ RSA
 OAEP
 "
 )
-False
+"
+"
 )
     
 (
@@ -1033,7 +1049,8 @@ ECDSA
 ECDSA
 "
 )
-False
+"
+"
 )
     
 (
@@ -1045,7 +1062,8 @@ ECDH
 ECDH
 "
 )
-False
+"
+"
 )
     
 (
@@ -1057,7 +1075,8 @@ Ed25519
 Ed25519
 "
 )
-False
+"
+"
 )
     
 (
@@ -1069,7 +1088,11 @@ Ed448
 Ed448
 "
 )
-True
+"
+secure
+-
+curves
+"
 )
     
 (
@@ -1101,7 +1124,11 @@ DSA
 87
 "
 )
-True
+"
+modern
+-
+algos
+"
 )
     
 (
@@ -1133,7 +1160,11 @@ KEM
 1024
 "
 )
-True
+"
+modern
+-
+algos
+"
 )
     
 (
@@ -1162,7 +1193,11 @@ P384
 "
 )
         
-True
+"
+modern
+-
+algos
+"
     
 )
     
@@ -1175,7 +1210,8 @@ X25519
 X25519
 "
 )
-False
+"
+"
 )
     
 (
@@ -1187,7 +1223,11 @@ X448
 X448
 "
 )
-True
+"
+secure
+-
+curves
+"
 )
     
 (
@@ -1202,7 +1242,11 @@ KMAC128
 KMAC256
 "
 )
-True
+"
+modern
+-
+algos
+"
 )
 )
 def
@@ -1620,6 +1664,7 @@ generate_wrapper
 kind
 file_id
 algorithms
+spec_directory
 )
 :
     
@@ -1723,10 +1768,48 @@ file_id
         
 )
     
+helpers_prefix
+=
+"
+.
+.
+/
+.
+.
+/
+"
+if
+spec_directory
+else
+"
+.
+.
+/
+"
+    
+generate_key_prefix
+=
+"
+.
+.
+/
+.
+.
+/
+generateKey
+/
+"
+if
+spec_directory
+else
+"
+"
+    
 lines
 .
 append
 (
+f
 "
 /
 /
@@ -1734,9 +1817,9 @@ META
 :
 script
 =
-.
-.
-/
+{
+helpers_prefix
+}
 util
 /
 helpers
@@ -1783,6 +1866,7 @@ extend
         
 [
             
+f
 "
 /
 /
@@ -1790,6 +1874,9 @@ META
 :
 script
 =
+{
+generate_key_prefix
+}
 algorithm_registry
 .
 js
@@ -1803,6 +1890,9 @@ META
 :
 script
 =
+{
+generate_key_prefix
+}
 {
 kind
 }
@@ -1883,21 +1973,19 @@ BAD_ALGORITHM_WRAPPER
 for
 file_id
 algorithms
-tentative
+spec_directory
 in
 GROUPS
 :
         
-marker
+root
 =
+WEBCRYPTO_ROOT
+/
+spec_directory
+/
 "
-.
-tentative
-"
-if
-tentative
-else
-"
+generateKey
 "
         
 for
@@ -1915,7 +2003,7 @@ failures
             
 path
 =
-GENERATE_KEY_ROOT
+root
 /
 f
 "
@@ -1925,9 +2013,6 @@ kind
 _
 {
 file_id
-}
-{
-marker
 }
 .
 https
@@ -1947,6 +2032,7 @@ generate_wrapper
 kind
 file_id
 algorithms
+spec_directory
 )
     
 return
@@ -1957,10 +2043,42 @@ wrapper_paths
 )
 :
     
-return
+paths
+=
 set
 (
-GENERATE_KEY_ROOT
+)
+    
+for
+spec_directory
+in
+{
+group
+[
+2
+]
+for
+group
+in
+GROUPS
+}
+:
+        
+root
+=
+WEBCRYPTO_ROOT
+/
+spec_directory
+/
+"
+generateKey
+"
+        
+paths
+.
+update
+(
+root
 .
 glob
 (
@@ -1976,11 +2094,12 @@ js
 "
 )
 )
-|
-set
-(
         
-GENERATE_KEY_ROOT
+paths
+.
+update
+(
+root
 .
 glob
 (
@@ -1995,8 +2114,10 @@ any
 js
 "
 )
-    
 )
+    
+return
+paths
 def
 show_diff
 (
@@ -2238,6 +2359,20 @@ utf
 =
 expected
 :
+            
+path
+.
+parent
+.
+mkdir
+(
+parents
+=
+True
+exist_ok
+=
+True
+)
             
 path
 .
