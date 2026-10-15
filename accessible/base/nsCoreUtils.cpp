@@ -4045,6 +4045,15 @@ aContent
 HasChildren
 (
 )
+&
+&
+!
+aContent
+-
+>
+IsGeneratedContentContainerForMarker
+(
+)
 )
 {
 return
