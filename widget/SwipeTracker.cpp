@@ -754,6 +754,16 @@ mLastComputedSwipeSuccess
 =
 computedSwipeSuccess
 ;
+if
+(
+StaticPrefs
+:
+:
+widget_swipe_haptic_feedback_enabled
+(
+)
+)
+{
 widget
 -
 >
@@ -765,6 +775,7 @@ HapticFeedbackType
 ThresholdCrossing
 )
 ;
+}
 }
 double
 eventAmount
