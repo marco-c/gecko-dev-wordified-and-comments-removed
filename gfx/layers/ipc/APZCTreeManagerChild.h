@@ -204,8 +204,10 @@ aGuid
 )
 override
 ;
+RefPtr
+<
 APZBridge
-*
+>
 Bridge
 (
 )

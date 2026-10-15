@@ -53,6 +53,13 @@ ScrollableLayerGuid
 .
 h
 "
+#
+include
+"
+nsISupportsImpl
+.
+h
+"
 namespace
 mozilla
 {
@@ -513,6 +520,7 @@ false
 class
 APZBridge
 {
+NS_INLINE_DECL_PURE_VIRTUAL_REFCOUNTING
 public
 :
 using

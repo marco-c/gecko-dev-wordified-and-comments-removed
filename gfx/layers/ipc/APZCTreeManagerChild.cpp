@@ -464,8 +464,10 @@ aGuid
 ;
 }
 }
+RefPtr
+<
 APZBridge
-*
+>
 APZCTreeManagerChild
 :
 :
@@ -487,10 +489,6 @@ mBridge
 ;
 return
 mBridge
-.
-get
-(
-)
 ;
 }
 }

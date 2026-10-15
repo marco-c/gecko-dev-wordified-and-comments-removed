@@ -73,6 +73,11 @@ MockHitTester
 cpp
 "
 "
+TestAPZBridge
+.
+cpp
+"
+"
 TestAxisLock
 .
 cpp

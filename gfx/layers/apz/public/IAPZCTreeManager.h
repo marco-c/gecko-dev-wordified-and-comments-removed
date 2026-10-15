@@ -23,6 +23,15 @@ include
 "
 mozilla
 /
+RefPtr
+.
+h
+"
+#
+include
+"
+mozilla
+/
 layers
 /
 LayersTypes
@@ -282,8 +291,10 @@ aGuid
 0
 ;
 virtual
+RefPtr
+<
 APZBridge
-*
+>
 Bridge
 (
 )
