@@ -1258,7 +1258,7 @@ UrlbarParentController
 *
 param
 {
-string
+UrlbarSapName
 }
 options
 .
@@ -1269,12 +1269,6 @@ search
 access
 point
 name
-e
-.
-g
-.
-urlbar
-searchbar
 .
 *
 param

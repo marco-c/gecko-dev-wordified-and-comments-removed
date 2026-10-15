@@ -1876,7 +1876,7 @@ interruptLevel
 *
 param
 {
-string
+UrlbarSapName
 }
 sapName
 *
@@ -1887,18 +1887,6 @@ this
 manager
 is
 for
-e
-.
-g
-.
-"
-urlbar
-"
-"
-searchbar
-"
-.
-.
 .
 *
 param
@@ -2299,7 +2287,7 @@ one
 *
 param
 {
-string
+UrlbarSapName
 }
 sapName
 The
