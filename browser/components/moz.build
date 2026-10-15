@@ -360,6 +360,9 @@ urlbar
 "
 webrtc
 "
+"
+widgets
+"
 ]
 DIRS
 +
