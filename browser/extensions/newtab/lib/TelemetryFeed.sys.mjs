@@ -6258,7 +6258,7 @@ it
 *
 returns
 {
-Window
+mozIDOMWindowProxy
 |
 null
 }
@@ -6403,7 +6403,7 @@ openedPages
 *
 param
 {
-Window
+mozIDOMWindowProxy
 |
 null
 }
