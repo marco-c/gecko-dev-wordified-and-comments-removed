@@ -1,11 +1,4 @@
 const
-CWD
-=
-do_get_cwd
-(
-)
-;
-const
 DIR_TARGET
 =
 "
@@ -833,7 +826,9 @@ run_test
 var
 testDir
 =
-CWD
+do_get_tempdir
+(
+)
 ;
 testDir
 .
