@@ -6538,12 +6538,9 @@ WHEN
 configuring
 providers
 THEN
-add
-only
+retain
+explicit
 search
-engine
-suggestion
-provider
 (
 )
 {
@@ -6661,7 +6658,7 @@ size
 )
 assertEquals
 (
-0
+1
 result
 .
 filterIsInstance
