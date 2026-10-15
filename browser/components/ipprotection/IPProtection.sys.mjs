@@ -1418,6 +1418,12 @@ get
 documentGlobal
 )
 ;
+event
+.
+detail
+.
+addBlocker
+(
 panel
 .
 showing
@@ -1425,6 +1431,7 @@ showing
 event
 .
 target
+)
 )
 ;
 }
