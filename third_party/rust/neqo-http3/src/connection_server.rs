@@ -880,6 +880,16 @@ Closed
 return
 ;
 }
+self
+.
+base_handler
+.
+expire_datagram_queues
+(
+conn
+now
+)
+;
 let
 res
 =

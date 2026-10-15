@@ -45,9 +45,6 @@ mod
 prefix
 ;
 mod
-qlog
-;
-mod
 qpack_send_buf
 ;
 pub

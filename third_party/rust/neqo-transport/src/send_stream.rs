@@ -135,6 +135,7 @@ streams
 :
 :
 {
+NULL_GROUP_ID
 SendGroupId
 SendOrder
 }
@@ -8981,19 +8982,6 @@ fair_rr_next
 :
 usize
 }
-const
-NULL_GROUP_ID
-:
-SendGroupId
-=
-SendGroupId
-:
-:
-new
-(
-0
-)
-;
 impl
 SendStreams
 {

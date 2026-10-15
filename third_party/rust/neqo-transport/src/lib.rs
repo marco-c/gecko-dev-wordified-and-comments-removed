@@ -69,6 +69,9 @@ connection
 mod
 crypto
 ;
+mod
+datagram_queue
+;
 pub
 mod
 ecn
@@ -304,6 +307,14 @@ MAX_DATAGRAM_FRAME_SIZE
 MAX_LOCAL_MAX_STREAM_DATA
 StreamDataLimit
 }
+}
+datagram_queue
+:
+:
+{
+DatagramId
+DatagramQueueCapacity
+DatagramQueueOutcome
 }
 events
 :
