@@ -626,10 +626,13 @@ cleanup
 await
 NimbusTestUtils
 .
-assert
-.
-storeIsEmpty
+removeStore
 (
+ExperimentAPI
+.
+manager
+.
+store
 )
 ;
 await

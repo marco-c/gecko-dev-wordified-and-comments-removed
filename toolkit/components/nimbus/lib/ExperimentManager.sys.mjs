@@ -2100,7 +2100,7 @@ lazy
 .
 NimbusEnrollments
 .
-persistenceEnabled
+readFromDatabaseEnabled
 )
 {
 /
