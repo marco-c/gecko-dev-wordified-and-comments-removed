@@ -2091,7 +2091,7 @@ lazy
 .
 ClientEnvironmentBase
 .
-randomizationId
+legacyRandomizationId
 }
 )
 ;

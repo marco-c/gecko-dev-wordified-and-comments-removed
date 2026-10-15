@@ -271,9 +271,6 @@ browserIsSelected
 isAIWindow
 "
 "
-isFirstRun
-"
-"
 isFirstStartup
 "
 "

@@ -888,7 +888,7 @@ id
 1542955
 static
 get
-randomizationId
+legacyRandomizationId
 (
 )
 {

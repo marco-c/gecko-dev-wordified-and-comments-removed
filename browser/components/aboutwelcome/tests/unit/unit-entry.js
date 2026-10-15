@@ -606,11 +606,11 @@ global
 ;
 }
 }
-ClientEnvironment
+ClientEnvironmentBase
 :
 {
 get
-userId
+legacyRandomizationId
 (
 )
 {

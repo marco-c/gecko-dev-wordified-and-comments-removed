@@ -61,7 +61,7 @@ mjs
 ;
 const
 {
-ClientEnvironment
+ClientEnvironmentBase
 }
 =
 ChromeUtils
@@ -73,9 +73,13 @@ resource
 :
 /
 /
-normandy
+gre
 /
-lib
+modules
+/
+components
+-
+utils
 /
 ClientEnvironment
 .
@@ -2707,9 +2711,9 @@ sandbox
 .
 replaceGetter
 (
-ClientEnvironment
+ClientEnvironmentBase
 "
-userId
+legacyRandomizationId
 "
 (
 )
