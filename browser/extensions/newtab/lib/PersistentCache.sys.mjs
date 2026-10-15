@@ -270,10 +270,9 @@ param
 {
 string
 }
+[
 key
-(
-optional
-)
+]
 The
 cache
 key
