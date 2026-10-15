@@ -1162,6 +1162,9 @@ useCases
 sessionUseCases
 .
 goBack
+settings
+=
+settings
 scope
 =
 menuViewScope
