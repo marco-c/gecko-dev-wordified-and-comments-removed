@@ -319,9 +319,6 @@ StructureElementNode
 SkString
 fTypeString
 ;
-SkString
-fNamespace
-;
 std
 :
 :
@@ -350,6 +347,11 @@ fAlt
 ;
 SkString
 fLang
+;
+bool
+fExposeAlt
+=
+true
 ;
 }
 ;
