@@ -66,15 +66,30 @@ in
 tasks
 :
         
-if
+task_name
+=
 task
-.
-get
-(
+[
 "
-name
+label
+"
+]
+.
+removeprefix
+(
+f
+"
+{
+config
+.
+kind
+}
+-
 "
 )
+        
+if
+task_name
 not
 in
 CUSTOM_CAR_TASKS
@@ -84,15 +99,6 @@ yield
 task
             
 continue
-        
-task_name
-=
-task
-[
-"
-name
-"
-]
         
 trust_domain
 =
