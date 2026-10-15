@@ -107,15 +107,6 @@ mjs
 "
 lib
 /
-PrefsFeed
-.
-sys
-.
-mjs
-"
-"
-lib
-/
 SmartShortcutsRanker
 /
 RankShortcuts
