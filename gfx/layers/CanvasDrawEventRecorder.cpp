@@ -1267,7 +1267,7 @@ pop
 ;
 mDropBufferOnZero
 =
-1
+mDropBufferLimit
 ;
 }
 }
