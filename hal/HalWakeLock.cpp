@@ -344,12 +344,15 @@ Observe
 (
 nsISupports
 *
+aSubject
 const
 char
 *
+aTopic
 const
 char16_t
 *
+data
 )
 {
 MOZ_ASSERT
@@ -415,9 +418,11 @@ aSubject
 const
 char
 *
+aTopic
 const
 char16_t
 *
+data
 )
 {
 MOZ_ASSERT

@@ -3299,7 +3299,9 @@ aThreadId
 const
 TimeStamp
 &
+aProcessStartTime
 double
+aSinceTime
 UniqueStacks
 &
 aUniqueStacks
@@ -3514,6 +3516,7 @@ aWriter
 const
 TimeStamp
 &
+aProcessStartTime
 double
 aSinceTime
 )
@@ -4452,6 +4455,7 @@ aWriter
 const
 TimeStamp
 &
+aProcessStartTime
 double
 aSinceTime
 )
@@ -5393,6 +5397,7 @@ SpliceableJSONWriter
 &
 aWriter
 double
+aSinceTime
 )
 const
 {
