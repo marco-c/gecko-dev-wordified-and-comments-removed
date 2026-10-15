@@ -38607,8 +38607,10 @@ name
 sync_sign_in
 "
 >
-Sync
-e
+E
+itlemek
+i
+in
 giri
 yap
 <
@@ -38678,8 +38680,10 @@ name
 sync_reconnect
 "
 >
-Sync
-e
+E
+itlemek
+i
+in
 yeniden
 ba
 lan
@@ -42087,7 +42091,8 @@ name
 onboarding_firefox_account_sync_is_on
 "
 >
-Sync
+E
+itleme
 a
 k
 <
