@@ -2448,11 +2448,6 @@ com
 expires
 :
 never
-telemetry_mirror
-:
-h
-#
-QUERY_STRIPPING_COUNT
 query_stripping_param_count
 :
 type
@@ -2565,9 +2560,6 @@ com
 expires
 :
 never
-telemetry_mirror
-:
-QUERY_STRIPPING_PARAM_COUNT
 query_stripping_count_by_param
 :
 type
@@ -2743,11 +2735,6 @@ com
 expires
 :
 never
-telemetry_mirror
-:
-h
-#
-QUERY_STRIPPING_COUNT_BY_PARAM
 email_tracker_count
 :
 type
