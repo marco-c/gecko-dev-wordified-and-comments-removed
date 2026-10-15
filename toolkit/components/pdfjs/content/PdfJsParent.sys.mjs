@@ -4708,6 +4708,7 @@ const
 blobUrl
 originalUrl
 filename
+isModified
 }
 =
 aMsg
@@ -4844,6 +4845,17 @@ saveComplete
 )
 ;
 }
+/
+*
+aSaveCompleteCallback
+*
+/
+isModified
+/
+*
+aPreferSourceDirectory
+*
+/
 )
 ;
 }

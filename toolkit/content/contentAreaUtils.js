@@ -286,6 +286,7 @@ aSourceDocument
 aIsContentWindowPrivate
 aPrincipal
 aSaveCompleteCallback
+aPreferSourceDirectory
 )
 {
 internalSave
@@ -307,6 +308,7 @@ null
 aIsContentWindowPrivate
 aPrincipal
 aSaveCompleteCallback
+aPreferSourceDirectory
 )
 ;
 }
@@ -788,6 +790,7 @@ aCacheKey
 aIsContentWindowPrivate
 aPrincipal
 aSaveCompleteCallback
+aPreferSourceDirectory
 )
 {
 if
@@ -971,10 +974,14 @@ promiseTargetFile
 fpParams
 aSkipPrompt
 relatedURI
+aPreferSourceDirectory
+?
 aOriginalURL
 |
 |
 sourceURI
+:
+null
 )
 .
 then
@@ -2180,11 +2187,15 @@ true
 let
 file
 =
+aSourceURI
+?
 await
 getLocalSourceDirectory
 (
 aSourceURI
 )
+:
+null
 ;
 if
 (
@@ -2773,9 +2784,6 @@ promiseTargetFile
 (
 filepickerParams
 true
-fileInfo
-.
-uri
 fileInfo
 .
 uri
