@@ -1214,7 +1214,6 @@ DeviceChanged
 (
 GDBusProxy
 *
-aProxy
 gchar
 *
 aSenderName
@@ -1223,7 +1222,6 @@ gchar
 aSignalName
 GVariant
 *
-aParameters
 UPowerClient
 *
 aListener
@@ -1302,16 +1300,12 @@ DevicePropertiesChanged
 (
 GDBusProxy
 *
-aProxy
 gchar
 *
-aSenderName
 gchar
 *
-aSignalName
 GVariant
 *
-aParameters
 UPowerClient
 *
 aListener

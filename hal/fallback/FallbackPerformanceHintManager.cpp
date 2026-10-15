@@ -26,12 +26,10 @@ nsTArray
 PlatformThreadHandle
 >
 &
-aThreads
 mozilla
 :
 :
 TimeDuration
-aTargetWorkDuration
 )
 {
 return
