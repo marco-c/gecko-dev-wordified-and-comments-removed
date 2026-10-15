@@ -273,6 +273,16 @@ compose
 .
 runtime
 .
+saveable
+.
+rememberSaveable
+import
+androidx
+.
+compose
+.
+runtime
+.
 setValue
 import
 androidx
@@ -871,7 +881,7 @@ DEFAULT
 var
 isExpanded
 by
-remember
+rememberSaveable
 {
 mutableStateOf
 (
