@@ -4356,7 +4356,13 @@ query
 *
 param
 {
-string
+keyof
+typeof
+lazy
+.
+BrowserSearchTelemetry
+.
+KNOWN_SEARCH_SOURCES
 }
 searchData
 .

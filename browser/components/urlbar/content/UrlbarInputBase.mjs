@@ -18925,6 +18925,8 @@ options
 param
 {
 PartialSearchEngine
+|
+SearchEngine
 }
 options
 .

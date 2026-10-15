@@ -1049,6 +1049,8 @@ WeakMap
 <
 browser
 InteractionInfo
+[
+]
 >
 }
 *
