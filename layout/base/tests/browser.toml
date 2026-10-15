@@ -496,6 +496,13 @@ xhtml
 ]
 [
 "
+browser_viewport_size_override
+.
+js
+"
+]
+[
+"
 browser_visual_viewport_iframe
 .
 js
