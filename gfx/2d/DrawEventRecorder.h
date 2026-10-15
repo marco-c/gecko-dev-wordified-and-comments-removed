@@ -7,11 +7,6 @@ MOZILLA_GFX_DRAWEVENTRECORDER_H_
 #
 include
 <
-deque
->
-#
-include
-<
 functional
 >
 #
@@ -913,7 +908,7 @@ ExternalImagesHolder
 std
 :
 :
-deque
+vector
 <
 ExternalImageEntry
 >

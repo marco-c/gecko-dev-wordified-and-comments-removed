@@ -7,7 +7,7 @@ MOZILLA_GFX_DRAWEVENTRECORDERTYPES_H_
 #
 include
 <
-deque
+vector
 >
 #
 include
@@ -50,7 +50,7 @@ DrawEventRecorderPrivate_ExternalSurfacesHolder
 std
 :
 :
-deque
+vector
 <
 DrawEventRecorderPrivate_ExternalSurfaceEntry
 >
