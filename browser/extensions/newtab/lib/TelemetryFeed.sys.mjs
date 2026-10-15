@@ -15826,7 +15826,7 @@ const
 {
 topic
 section_position
-position
+topic_position
 is_followed
 }
 =
@@ -15850,7 +15850,7 @@ session
 session_id
 topic
 section_position
-position
+topic_position
 is_followed
 }
 )
