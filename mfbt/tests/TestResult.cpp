@@ -200,7 +200,6 @@ Inspect
 const
 StorageType
 &
-aValue
 )
 {
 return
@@ -215,7 +214,6 @@ Failed
 Unwrap
 (
 StorageType
-aValue
 )
 {
 return
@@ -230,7 +228,6 @@ StorageType
 Store
 (
 Failed
-aValue
 )
 {
 return
@@ -2328,7 +2325,6 @@ map
 ]
 (
 int
-x
 )
 {
 MOZ_RELEASE_ASSERT
@@ -2689,7 +2685,6 @@ mapErr
 (
 const
 auto
-err
 )
 {
 MOZ_RELEASE_ASSERT
@@ -3377,7 +3372,6 @@ orElse
 (
 const
 auto
-err
 )
 -
 >
@@ -3648,7 +3642,6 @@ andThen
 ]
 (
 int
-x
 )
 {
 MOZ_RELEASE_ASSERT
@@ -3797,7 +3790,6 @@ andThen
 ]
 (
 int
-x
 )
 {
 MOZ_RELEASE_ASSERT

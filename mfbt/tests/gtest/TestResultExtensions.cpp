@@ -68,7 +68,6 @@ NonOverloadedNoInputFails
 (
 int
 *
-aOut
 )
 {
 return
@@ -98,7 +97,6 @@ NonOverloadedNoInputFailsConst
 (
 int
 *
-aOut
 )
 const
 {
@@ -127,7 +125,6 @@ NonOverloadedNoInputFailsRef
 (
 int
 &
-aOut
 )
 {
 return
@@ -177,7 +174,6 @@ int
 int
 >
 *
-aOut
 )
 {
 return
@@ -207,10 +203,8 @@ nsresult
 NonOverloadedWithInputFails
 (
 int
-aIn
 int
 *
-aOut
 )
 {
 return
@@ -221,7 +215,6 @@ nsresult
 NonOverloadedNoOutput
 (
 int
-aIn
 )
 {
 return
@@ -232,7 +225,6 @@ nsresult
 NonOverloadedNoOutputFails
 (
 int
-aIn
 )
 {
 return
@@ -272,7 +264,6 @@ PolymorphicNoInputFails
 nsIFile
 *
 *
-aOut
 )
 {
 return
@@ -320,7 +311,6 @@ NonOverloadedNoInputFails
 (
 int
 *
-aOut
 )
 {
 return
