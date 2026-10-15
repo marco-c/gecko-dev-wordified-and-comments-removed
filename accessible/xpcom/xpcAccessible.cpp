@@ -1670,6 +1670,11 @@ xpcAccessible
 :
 GetNativeInterface
 (
+[
+[
+maybe_unused
+]
+]
 nsISupports
 *
 *

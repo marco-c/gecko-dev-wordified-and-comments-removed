@@ -1234,7 +1234,6 @@ aType
 const
 nsIntRect
 *
-aData
 )
 {
 if

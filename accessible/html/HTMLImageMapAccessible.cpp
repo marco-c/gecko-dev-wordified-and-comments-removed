@@ -685,11 +685,8 @@ HTMLAreaAccessible
 LocalChildAtPoint
 (
 int32_t
-aX
 int32_t
-aY
 EWhichChildAtPoint
-aWhichChild
 )
 {
 return

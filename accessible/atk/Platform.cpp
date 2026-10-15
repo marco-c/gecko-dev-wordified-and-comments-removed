@@ -789,16 +789,13 @@ A11yBusProxyPropertyChanged
 (
 GDBusProxy
 *
-aProxy
 GVariant
 *
 aChangedProperties
 char
 *
 *
-aInvalidatedProperties
 gpointer
-aUserData
 )
 {
 gboolean

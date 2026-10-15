@@ -991,7 +991,6 @@ SetCurrentItem
 const
 LocalAccessible
 *
-aItem
 )
 {
 NS_ERROR
@@ -4530,9 +4529,7 @@ XULTreeItemAccessible
 RowInvalidated
 (
 int32_t
-aStartColIdx
 int32_t
-aEndColIdx
 )
 {
 nsAutoString

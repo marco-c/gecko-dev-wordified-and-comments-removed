@@ -6722,7 +6722,6 @@ DocAccessibleParent
 ActorDestroy
 (
 ActorDestroyReason
-aWhy
 )
 {
 MOZ_ASSERT

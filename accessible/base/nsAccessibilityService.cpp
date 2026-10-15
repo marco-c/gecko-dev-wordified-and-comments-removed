@@ -2633,7 +2633,6 @@ Observe
 (
 nsISupports
 *
-aSubject
 const
 char
 *
@@ -2641,7 +2640,6 @@ aTopic
 const
 char16_t
 *
-aData
 )
 {
 if
@@ -11909,10 +11907,8 @@ PrefChanged
 const
 char
 *
-aPref
 void
 *
-aClosure
 )
 {
 EPlatformDisabledState

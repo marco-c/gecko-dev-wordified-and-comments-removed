@@ -174,7 +174,6 @@ IsAcceptableChild
 (
 nsIContent
 *
-aEl
 )
 const
 override

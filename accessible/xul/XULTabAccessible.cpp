@@ -643,7 +643,6 @@ NativeName
 (
 nsString
 &
-aName
 )
 const
 {

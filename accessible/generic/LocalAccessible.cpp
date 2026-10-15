@@ -9988,7 +9988,6 @@ LocalAccessible
 SetCurValue
 (
 double
-aValue
 )
 {
 return
@@ -13955,7 +13954,6 @@ LocalAccessible
 DispatchClickEvent
 (
 uint32_t
-aActionIndex
 )
 const
 {

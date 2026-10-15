@@ -607,7 +607,6 @@ XULListboxAccessible
 IsColSelected
 (
 uint32_t
-aColIdx
 )
 {
 nsCOMPtr
@@ -794,7 +793,6 @@ IsCellSelected
 uint32_t
 aRowIdx
 uint32_t
-aColIdx
 )
 {
 return

@@ -569,7 +569,6 @@ GetCellAccessible
 (
 nsTreeColumn
 *
-aColumn
 )
 const
 {

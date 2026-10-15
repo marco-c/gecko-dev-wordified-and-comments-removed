@@ -946,7 +946,6 @@ getSummaryCB
 (
 AtkTable
 *
-aTable
 )
 {
 return

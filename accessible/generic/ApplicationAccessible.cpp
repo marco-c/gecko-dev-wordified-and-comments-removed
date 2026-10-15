@@ -430,11 +430,8 @@ ApplicationAccessible
 LocalChildAtPoint
 (
 int32_t
-aX
 int32_t
-aY
 EWhichChildAtPoint
-aWhichChild
 )
 {
 return
@@ -494,7 +491,6 @@ ApplicationAccessible
 RelationByType
 (
 RelationType
-aRelationType
 )
 const
 {
@@ -715,7 +711,6 @@ ApplicationAccessible
 GetSiblingAtOffset
 (
 int32_t
-aOffset
 nsresult
 *
 aError

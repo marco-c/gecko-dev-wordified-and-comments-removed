@@ -742,7 +742,6 @@ XULTreeGridAccessible
 IsColSelected
 (
 uint32_t
-aColIdx
 )
 {
 return
@@ -828,7 +827,6 @@ IsCellSelected
 uint32_t
 aRowIdx
 uint32_t
-aColIdx
 )
 {
 return
@@ -1378,7 +1376,6 @@ aX
 int32_t
 aY
 EWhichChildAtPoint
-aWhichChild
 )
 {
 nsIFrame
@@ -2966,7 +2963,6 @@ XULTreeGridCellAccessible
 RelationByType
 (
 RelationType
-aType
 )
 const
 {
@@ -3285,7 +3281,6 @@ XULTreeGridCellAccessible
 DispatchClickEvent
 (
 uint32_t
-aActionIndex
 )
 const
 {

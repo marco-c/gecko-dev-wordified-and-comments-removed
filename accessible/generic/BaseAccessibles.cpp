@@ -52,11 +52,8 @@ LeafAccessible
 LocalChildAtPoint
 (
 int32_t
-aX
 int32_t
-aY
 EWhichChildAtPoint
-aWhichChild
 )
 {
 return
@@ -70,10 +67,8 @@ LeafAccessible
 InsertChildAt
 (
 uint32_t
-aIndex
 LocalAccessible
 *
-aChild
 )
 {
 MOZ_ASSERT_UNREACHABLE
@@ -100,7 +95,6 @@ RemoveChild
 (
 LocalAccessible
 *
-aChild
 )
 {
 MOZ_ASSERT_UNREACHABLE
@@ -127,7 +121,6 @@ IsAcceptableChild
 (
 nsIContent
 *
-aEl
 )
 const
 {

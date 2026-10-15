@@ -161,7 +161,6 @@ XULLabelAccessible
 DispatchClickEvent
 (
 uint32_t
-aActionIndex
 )
 const
 {

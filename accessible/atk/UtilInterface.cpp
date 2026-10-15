@@ -870,7 +870,6 @@ gboolean
 notify_hf
 (
 gpointer
-key
 gpointer
 value
 gpointer
@@ -961,7 +960,6 @@ mai_key_snooper
 (
 GtkWidget
 *
-the_widget
 GdkEventKey
 *
 event
@@ -1292,9 +1290,7 @@ window_added
 (
 AtkObject
 *
-atk_obj
 guint
-index
 AtkObject
 *
 child
@@ -1336,9 +1332,7 @@ window_removed
 (
 AtkObject
 *
-atk_obj
 guint
-index
 AtkObject
 *
 child
@@ -1380,7 +1374,6 @@ UtilInterfaceInit
 (
 MaiUtilClass
 *
-klass
 )
 {
 AtkUtilClass

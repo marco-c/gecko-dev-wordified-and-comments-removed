@@ -86,7 +86,6 @@ StringFromValueAndName
 (
 nsAtom
 *
-aAttrName
 const
 AttrValueType
 &
@@ -430,7 +429,6 @@ aValueString
 const
 DeleteEntry
 &
-val
 )
 {
 aValueString
@@ -557,7 +555,6 @@ UniquePtr
 AccGroupInfo
 >
 &
-val
 )
 {
 aValueString
@@ -1826,7 +1823,6 @@ nsTArray
 int32_t
 >
 &
-val
 )
 {
 MOZ_ASSERT_UNREACHABLE
@@ -1946,7 +1942,6 @@ val
 const
 DeleteEntry
 &
-val
 )
 {
 MOZ_ASSERT_UNREACHABLE
@@ -2004,7 +1999,6 @@ RefPtr
 AccAttributes
 >
 &
-val
 )
 {
 MOZ_ASSERT_UNREACHABLE
@@ -2063,7 +2057,6 @@ UniquePtr
 AccGroupInfo
 >
 &
-val
 )
 {
 MOZ_ASSERT_UNREACHABLE
@@ -2093,7 +2086,6 @@ gfx
 Matrix4x4
 >
 &
-val
 )
 {
 MOZ_ASSERT_UNREACHABLE
@@ -2120,7 +2112,6 @@ UniquePtr
 nsRect
 >
 &
-val
 )
 {
 MOZ_ASSERT_UNREACHABLE
@@ -2147,7 +2138,6 @@ nsTArray
 uint64_t
 >
 &
-val
 )
 {
 MOZ_ASSERT_UNREACHABLE
@@ -2174,7 +2164,6 @@ nsTArray
 TextOffsetAttribute
 >
 &
-val
 )
 {
 MOZ_ASSERT_UNREACHABLE
@@ -2236,7 +2225,6 @@ nsAtom
 >
 >
 &
-val
 )
 {
 MOZ_ASSERT_UNREACHABLE
