@@ -63,6 +63,7 @@ eOuterDocType
 eTextLeafType
 eApplicationType
 eHTMLLinkType
+eHTMLListBulletType
 eHTMLOptGroupType
 eImageMapType
 eMenuPopupType

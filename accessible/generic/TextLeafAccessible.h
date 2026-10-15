@@ -131,6 +131,11 @@ return
 IsTextLeaf
 (
 )
+|
+|
+IsHTMLListBullet
+(
+)
 ?
 static_cast
 <
