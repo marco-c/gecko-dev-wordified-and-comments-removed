@@ -1563,6 +1563,15 @@ ident
 macro_name
 !
 {
+rectangles
+:
+crate
+:
+:
+interned_prims
+:
+:
+RectangleKey
 }
 }
 }

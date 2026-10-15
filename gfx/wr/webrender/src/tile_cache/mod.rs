@@ -294,7 +294,10 @@ profiler
 render_backend
 :
 :
+{
 DataStores
+DlStores
+}
 }
 ;
 use
@@ -8435,6 +8438,10 @@ data_stores
 :
 &
 DataStores
+dl_stores
+:
+&
+DlStores
 clip_store
 :
 &
@@ -8773,6 +8780,7 @@ prim_instance
 .
 uid
 (
+dl_stores
 )
 pic_coverage_rect
 )
@@ -8989,9 +8997,7 @@ PrimitiveKind
 :
 Rectangle
 {
-data_handle
-.
-.
+handle
 }
 =
 >
@@ -8999,11 +9005,11 @@ data_handle
 let
 prim_color
 =
-data_stores
+dl_stores
 .
-prim
+rectangles
 [
-data_handle
+handle
 ]
 .
 kind
@@ -9573,6 +9579,7 @@ prim_instance
 .
 uid
 (
+dl_stores
 )
 ;
 let
