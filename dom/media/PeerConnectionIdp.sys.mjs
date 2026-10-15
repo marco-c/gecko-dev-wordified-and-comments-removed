@@ -71,13 +71,14 @@ lazy
 IdpSandbox
 :
 "
-resource
+moz
+-
+src
 :
 /
 /
-gre
 /
-modules
+dom
 /
 media
 /

@@ -71,13 +71,14 @@ lazy
 PeerConnectionIdp
 :
 "
-resource
+moz
+-
+src
 :
 /
 /
-gre
 /
-modules
+dom
 /
 media
 /
