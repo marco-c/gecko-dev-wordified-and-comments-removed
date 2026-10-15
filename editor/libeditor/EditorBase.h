@@ -1011,6 +1011,7 @@ CanUndo
 const
 {
 return
+(
 IsUndoRedoEnabled
 (
 )
@@ -1021,6 +1022,12 @@ NumberOfUndoItems
 )
 >
 0
+)
+|
+|
+ComputeEditContext
+(
+)
 ;
 }
 bool
@@ -1030,6 +1037,7 @@ CanRedo
 const
 {
 return
+(
 IsUndoRedoEnabled
 (
 )
@@ -1040,6 +1048,12 @@ NumberOfRedoItems
 )
 >
 0
+)
+|
+|
+ComputeEditContext
+(
+)
 ;
 }
 bool
