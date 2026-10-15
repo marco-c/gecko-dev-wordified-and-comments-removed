@@ -244,6 +244,12 @@ GetPersistentMTAThread
 ;
 static
 void
+ShutdownPersistentMTAThread
+(
+)
+;
+static
+void
 SyncDispatch
 (
 nsCOMPtr
