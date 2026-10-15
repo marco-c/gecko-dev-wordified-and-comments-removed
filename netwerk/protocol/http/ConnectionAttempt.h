@@ -200,6 +200,7 @@ return
 mHasConnected
 ;
 }
+virtual
 void
 ForgetRealTransaction
 (
