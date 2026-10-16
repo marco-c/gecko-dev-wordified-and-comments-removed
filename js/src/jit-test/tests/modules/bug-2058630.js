@@ -34,11 +34,6 @@ i
 const
 root
 =
-registerModule
-(
-"
-root
-"
 parseModule
 (
 source
@@ -47,7 +42,6 @@ root
 .
 js
 "
-)
 )
 ;
 oomAtAllocation
