@@ -2908,6 +2908,9 @@ options
 mReplaceBrowsingContext
 =
 aHasCOOPMismatch
+|
+|
+aForNewTab
 ;
 options
 .
@@ -4170,10 +4173,6 @@ if
 options
 .
 mReplaceBrowsingContext
-&
-&
-!
-aForNewTab
 )
 {
 auto
