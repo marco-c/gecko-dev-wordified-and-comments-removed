@@ -4546,6 +4546,11 @@ u64
 scope
 :
 ping
+skip_if
+:
+"
+0
+"
 glean
 :
 type
