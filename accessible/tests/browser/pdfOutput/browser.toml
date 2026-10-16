@@ -116,6 +116,13 @@ js
 ]
 [
 "
+browser_sourceText
+.
+js
+"
+]
+[
+"
 browser_structTree
 .
 js
