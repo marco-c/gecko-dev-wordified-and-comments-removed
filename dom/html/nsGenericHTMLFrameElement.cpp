@@ -498,6 +498,11 @@ OwnerDoc
 IsStaticDocument
 (
 )
+|
+|
+IsInSVGUseShadowTree
+(
+)
 )
 {
 return
