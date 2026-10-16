@@ -246,12 +246,10 @@ false
 ;
 mCreateFileSystemManagerChildPromiseHolder
 .
-Steal
+RejectIfExists
 (
-)
-.
-leak
-(
+NS_ERROR_ABORT
+__func__
 )
 ;
 }
