@@ -116,7 +116,10 @@ crate
 sync
 :
 :
+{
 AddressesBridgedEngine
+CreditCardsBridgedEngine
+}
 ;
 use
 db_crypto

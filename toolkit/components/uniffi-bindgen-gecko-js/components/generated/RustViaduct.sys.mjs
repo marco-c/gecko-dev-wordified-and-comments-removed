@@ -6799,7 +6799,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-273
+287
 /
 /
 uniffi_viaduct_fn_method_backend_send_request
@@ -7138,7 +7138,7 @@ dataStream
 .
 readHandleOrPointer
 (
-25
+26
 )
 )
 }
@@ -7173,7 +7173,7 @@ dataStream
 .
 writePointer
 (
-25
+26
 this
 .
 lower

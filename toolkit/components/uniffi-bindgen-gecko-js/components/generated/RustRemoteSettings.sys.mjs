@@ -10062,7 +10062,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-203
+215
 /
 /
 uniffi_remote_settings_fn_method_remotesettingsclient_collection_name
@@ -10217,7 +10217,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-204
+216
 /
 /
 uniffi_remote_settings_fn_method_remotesettingsclient_get_attachment
@@ -10297,7 +10297,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-205
+217
 /
 /
 uniffi_remote_settings_fn_method_remotesettingsclient_get_last_modified_timestamp
@@ -10560,7 +10560,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-206
+218
 /
 /
 uniffi_remote_settings_fn_method_remotesettingsclient_get_records
@@ -10680,7 +10680,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-207
+219
 /
 /
 uniffi_remote_settings_fn_method_remotesettingsclient_get_records_map
@@ -10732,7 +10732,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-208
+220
 /
 /
 uniffi_remote_settings_fn_method_remotesettingsclient_reset_storage
@@ -10794,7 +10794,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-209
+221
 /
 /
 uniffi_remote_settings_fn_method_remotesettingsclient_shutdown
@@ -10838,7 +10838,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-210
+222
 /
 /
 uniffi_remote_settings_fn_method_remotesettingsclient_sync
@@ -11004,7 +11004,7 @@ dataStream
 .
 readPointer
 (
-17
+18
 )
 )
 ;
@@ -11020,7 +11020,7 @@ dataStream
 .
 writePointer
 (
-17
+18
 this
 .
 lower
@@ -11883,7 +11883,7 @@ UniFFIScaffolding
 .
 callSync
 (
-211
+223
 /
 /
 uniffi_remote_settings_fn_constructor_remotesettingsservice_new
@@ -11938,7 +11938,7 @@ UniFFIScaffolding
 .
 callSync
 (
-212
+224
 /
 /
 uniffi_remote_settings_fn_method_remotesettingsservice_client_url
@@ -12038,7 +12038,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-213
+225
 /
 /
 uniffi_remote_settings_fn_method_remotesettingsservice_make_client
@@ -12128,7 +12128,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-214
+226
 /
 /
 uniffi_remote_settings_fn_method_remotesettingsservice_sync
@@ -12257,7 +12257,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-215
+227
 /
 /
 uniffi_remote_settings_fn_method_remotesettingsservice_update_config
@@ -12429,7 +12429,7 @@ dataStream
 .
 readPointer
 (
-18
+19
 )
 )
 ;
@@ -12445,7 +12445,7 @@ dataStream
 .
 writePointer
 (
-18
+19
 this
 .
 lower

@@ -1042,6 +1042,9 @@ cc_number
 to_string
 (
 )
+cc_cvv
+:
+None
 cc_exp_month
 :
 3
@@ -1098,6 +1101,9 @@ cc_number
 to_string
 (
 )
+cc_cvv
+:
+None
 cc_exp_month
 :
 10
@@ -1387,6 +1393,9 @@ cc_number
 to_string
 (
 )
+cc_cvv
+:
+None
 cc_exp_month
 :
 12
@@ -1987,6 +1996,9 @@ cc_number
 to_string
 (
 )
+cc_cvv
+:
+None
 cc_exp_month
 :
 10
@@ -2291,6 +2303,9 @@ cc_number
 clone
 (
 )
+cc_cvv
+:
+None
 cc_exp_month
 :
 10
