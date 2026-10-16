@@ -127,4 +127,3 @@ migrations
 /
 index
 singlel10nsource
-glossary
