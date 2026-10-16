@@ -2773,6 +2773,12 @@ LoadDeliveringAltData
 )
 ;
 }
+nsIPrincipal
+*
+GetAltDataBindingPrincipal
+(
+)
+;
 nsresult
 GetAltDataBindingOrigin
 (

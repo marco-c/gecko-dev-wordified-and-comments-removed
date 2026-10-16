@@ -1094,6 +1094,14 @@ uint32_t
 redirectFlags
 )
 ;
+void
+UpdateAltDataBindingOrigin
+(
+HttpBaseChannel
+*
+aChannel
+)
+;
 int32_t
 mSendWindowSize
 ;
