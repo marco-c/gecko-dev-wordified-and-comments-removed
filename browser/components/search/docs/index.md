@@ -97,19 +97,6 @@ search
 service
 ]
 :
-https
-:
-/
-/
-firefox
--
-source
--
-docs
-.
-mozilla
-.
-org
 /
 toolkit
 /
@@ -117,4 +104,4 @@ search
 /
 index
 .
-html
+md

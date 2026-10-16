@@ -1,5 +1,7 @@
 #
-Telemetry
+Content
+relevancy
+telemetry
 This
 document
 serves
@@ -402,19 +404,6 @@ manager
 FoG
 ]
 :
-https
-:
-/
-/
-firefox
--
-source
--
-docs
-.
-mozilla
-.
-org
 /
 toolkit
 /
@@ -424,7 +413,7 @@ glean
 /
 index
 .
-html
+md
 [
 glean
 -

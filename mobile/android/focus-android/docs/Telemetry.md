@@ -1,5 +1,6 @@
 #
-Telemetry
+Focus
+telemetry
 For
 clients
 that
@@ -573,29 +574,13 @@ list
 of
 events
 (
-[
+{
+doc
+}
 see
 event
 format
-on
-readthedocs
-.
-io
-]
-(
-https
-:
-/
-/
-firefox
--
-source
--
-docs
-.
-mozilla
-.
-org
+<
 /
 toolkit
 /
@@ -603,14 +588,12 @@ components
 /
 telemetry
 /
-telemetry
+obsolete
 /
 collection
 /
 events
-.
-html
-)
+>
 )
 for
 the
@@ -3780,6 +3763,7 @@ extras
 -
 -
 |
+|
 Setting
 changed
 |
@@ -3803,6 +3787,7 @@ value
 >
 }
 |
+|
 Autocomplete
 domain
 added
@@ -3824,6 +3809,7 @@ value
 >
 }
 |
+|
 Autocomplete
 domain
 removed
@@ -3843,6 +3829,7 @@ total
 5
 }
 |
+|
 Autocomplete
 domain
 reordered
@@ -3857,6 +3844,7 @@ autocomplete_domain
 options
 *
 |
+|
 Open
 Exceptions
 Setting
@@ -3866,6 +3854,7 @@ action
 open
 |
 allowlist
+|
 |
 |
 |
@@ -3888,6 +3877,7 @@ total
 5
 }
 |
+|
 Remove
 All
 Exceptions
@@ -3901,6 +3891,7 @@ allowlist
 |
 |
 |
+|
 Default
 search
 engine
@@ -3911,6 +3902,7 @@ action
 open
 |
 search_engine_setting
+|
 |
 |
 |
@@ -3935,6 +3927,7 @@ src
 *
 }
 |
+|
 Select
 "
 Remove
@@ -3947,6 +3940,7 @@ action
 remove
 |
 search_engine_setting
+|
 |
 |
 |
@@ -3970,6 +3964,7 @@ num
 *
 }
 |
+|
 Restore
 bundled
 engines
@@ -3979,6 +3974,7 @@ action
 restore
 |
 search_engine_setting
+|
 |
 |
 |
@@ -3994,6 +3990,7 @@ action
 show
 |
 custom_search_engine
+|
 |
 |
 |
@@ -4018,6 +4015,7 @@ bool
 *
 }
 |
+|
 Click
 "
 Add
@@ -4030,6 +4028,7 @@ action
 click
 |
 search_engine_learn_more
+|
 |
 |
 |
@@ -4047,6 +4046,7 @@ make_default_browser_open_with
 |
 |
 |
+|
 Settings
 default
 browser
@@ -4057,6 +4057,7 @@ action
 show
 |
 make_default_browser_settings
+|
 |
 |
 (
@@ -4713,7 +4714,6 @@ tip
 open_in_new_tab_tip
 |
 |
-|
 Add
 to
 homescreen
@@ -4729,7 +4729,6 @@ tip
 add_to_homescreen_tip
 |
 |
-|
 Disable
 tracking
 protection
@@ -4743,7 +4742,6 @@ show
 tip
 |
 disable_tracking_protection_tip
-|
 |
 |
 Disable
@@ -4763,7 +4761,6 @@ tip
 disable_tips_tip
 |
 |
-|
 Set
 default
 browser
@@ -4779,7 +4776,6 @@ tip
 default_browser_tip
 |
 |
-|
 Autocomplete
 URL
 tip
@@ -4792,7 +4788,6 @@ show
 tip
 |
 add_autocomplete_url_tip
-|
 |
 |
 Open
@@ -4811,7 +4806,6 @@ tip
 open_in_new_tab_tip
 |
 |
-|
 Add
 to
 homescreen
@@ -4827,7 +4821,6 @@ tip
 add_to_homescreen_tip
 |
 |
-|
 Disable
 tips
 tip
@@ -4840,8 +4833,6 @@ click
 tip
 |
 disable_tips_tip
-|
-|
 |
 |
 Set
@@ -4859,7 +4850,6 @@ tip
 default_browser_tip
 |
 |
-|
 Autocomplete
 URL
 tip
@@ -4872,7 +4862,6 @@ click
 tip
 |
 add_autocomplete_url_tip
-|
 |
 |
 Homescreen
@@ -4890,7 +4879,6 @@ tip
 add_to_homescreen_tip
 |
 |
-|
 Survey
 tip
 displayed
@@ -4904,7 +4892,6 @@ tip
 survey_tip
 |
 |
-|
 Survey
 tip
 tapped
@@ -4916,7 +4903,6 @@ click
 tip
 |
 survey_tip
-|
 |
 |
 Survey
@@ -4935,7 +4921,6 @@ tip
 survey_tip_es
 |
 |
-|
 Survey
 (
 es
@@ -4950,7 +4935,6 @@ click
 tip
 |
 survey_tip_es
-|
 |
 |
 Survey
@@ -4969,7 +4953,6 @@ tip
 survey_tip_fr
 |
 |
-|
 Survey
 (
 fr
@@ -4984,7 +4967,6 @@ click
 tip
 |
 survey_tip_fr
-|
 |
 #
 #

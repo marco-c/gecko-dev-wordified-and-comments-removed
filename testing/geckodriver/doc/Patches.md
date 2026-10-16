@@ -215,19 +215,6 @@ try
 preset
 ]
 :
-https
-:
-/
-/
-firefox
--
-source
--
-docs
-.
-mozilla
-.
-org
 /
 tools
 /
@@ -235,4 +222,4 @@ try
 /
 presets
 .
-html
+md
