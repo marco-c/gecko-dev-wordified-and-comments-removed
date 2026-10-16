@@ -1383,9 +1383,6 @@ s
 )
 URIs
 visited
-in
-a
-subsession
 including
 page
 reloads
@@ -1655,9 +1652,6 @@ number
 of
 tabs
 open
-during
-a
-subsession
 across
 all
 windows
@@ -1833,9 +1827,6 @@ of
 browser
 windows
 open
-during
-a
-subsession
 .
 This
 includes
@@ -1924,9 +1915,6 @@ of
 pinned
 tabs
 open
-during
-a
-subsession
 .
 This
 includes
@@ -2113,8 +2101,6 @@ of
 tab
 open
 events
-per
-subsession
 across
 all
 windows
@@ -2309,8 +2295,6 @@ browser
 window
 open
 events
-per
-subsession
 after
 the
 session
@@ -2412,8 +2396,6 @@ of
 tab
 pinned
 events
-per
-subsession
 across
 all
 windows
@@ -2585,9 +2567,6 @@ non
 unique
 URIs
 visited
-in
-a
-subsession
 not
 restricted
 to
@@ -2708,9 +2687,6 @@ the
 unique
 domains
 visited
-in
-a
-subsession
 after
 the
 session
