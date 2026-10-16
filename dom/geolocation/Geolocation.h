@@ -536,7 +536,6 @@ IsFullyActiveOrChrome
 (
 )
 ;
-static
 void
 RequestIfPermitted
 (
