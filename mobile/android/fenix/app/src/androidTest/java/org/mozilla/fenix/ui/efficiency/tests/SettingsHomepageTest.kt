@@ -157,7 +157,7 @@ selectors
 .
 HomeSelectors
 .
-CONTINUE_SECTION
+BOOKMARKS_SECTION_TITLE
 import
 org
 .
@@ -173,7 +173,7 @@ selectors
 .
 HomeSelectors
 .
-RECENT_BOOKMARKS_SECTION
+CONTINUE_SECTION
 import
 org
 .
@@ -497,7 +497,7 @@ navigateToPage
 .
 mozVerifyElementAbsent
 (
-RECENT_BOOKMARKS_SECTION
+BOOKMARKS_SECTION_TITLE
 )
 }
 /
