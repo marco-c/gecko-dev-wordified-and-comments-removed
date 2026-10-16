@@ -1847,6 +1847,7 @@ mState
 -
 >
 mCanvas
+true
 )
 ;
 if
