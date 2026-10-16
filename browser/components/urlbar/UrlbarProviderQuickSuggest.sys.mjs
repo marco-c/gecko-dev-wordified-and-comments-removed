@@ -1957,8 +1957,6 @@ result
 ?
 .
 getViewTemplate
-?
-.
 (
 result
 )
@@ -2015,8 +2013,6 @@ result
 ?
 .
 getViewUpdate
-?
-.
 (
 result
 controller
