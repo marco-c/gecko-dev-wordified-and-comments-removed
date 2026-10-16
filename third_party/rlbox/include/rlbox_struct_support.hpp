@@ -1188,8 +1188,6 @@ T
 T_Sbx
 >
 lhs
-{
-}
 ;
 \
 const

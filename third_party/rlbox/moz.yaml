@@ -100,14 +100,6 @@ include
 "
 LICENSE
 "
-patches
-:
--
-rlbox
--
-updates
-.
-patch
 update
 -
 actions
