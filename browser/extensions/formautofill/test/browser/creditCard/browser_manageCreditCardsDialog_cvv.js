@@ -160,6 +160,16 @@ function
 )
 {
 await
+switchCreditCardStore
+(
+{
+rust
+:
+true
+}
+)
+;
+await
 SpecialPowers
 .
 pushPrefEnv
