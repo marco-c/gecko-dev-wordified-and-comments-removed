@@ -75,6 +75,9 @@ class
 ImageClient
 ;
 class
+ShmemHolder
+;
+class
 TextureClient
 ;
 class
@@ -233,6 +236,12 @@ RecycleAllocator
 ;
 private
 :
+RefPtr
+<
+ShmemHolder
+>
+mShmemHolder
+;
 RefPtr
 <
 TextureClient

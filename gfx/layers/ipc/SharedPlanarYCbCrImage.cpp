@@ -779,6 +779,7 @@ mTextureClient
 BorrowMappedYCbCrData
 (
 mapped
+mShmemHolder
 )
 )
 {
