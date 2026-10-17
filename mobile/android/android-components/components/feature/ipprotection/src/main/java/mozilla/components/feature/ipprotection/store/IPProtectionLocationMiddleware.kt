@@ -419,10 +419,6 @@ is
 InternalAction
 .
 FinishingEnrollment
-is
-InternalAction
-.
-UpdateServiceState
 -
 >
 {
