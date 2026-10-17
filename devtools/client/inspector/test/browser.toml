@@ -400,6 +400,13 @@ js
 ]
 [
 "
+browser_inspector_document_without_root
+.
+js
+"
+]
+[
+"
 browser_inspector_expand
 -
 collapse
