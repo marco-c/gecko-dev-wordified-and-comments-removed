@@ -86,11 +86,11 @@ createSandbox
 ;
 openLinkSpy
 =
-sinon
+sandbox
 .
 spy
 (
-window
+URILoadingHelper
 "
 openTrustedLinkIn
 "
