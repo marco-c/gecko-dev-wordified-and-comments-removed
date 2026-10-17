@@ -1961,6 +1961,11 @@ tabbrowser
 .
 addWebTab
 (
+"
+about
+:
+blank
+"
 )
 ;
 var
