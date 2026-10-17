@@ -613,10 +613,8 @@ size_t
 mLen
 ;
 uint8_t
+*
 mContents
-[
-N_STACK_BYTES
-]
 ;
 }
 ;
