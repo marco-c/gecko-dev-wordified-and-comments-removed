@@ -152,6 +152,13 @@ PageFooter
 =
 2
 ;
+static
+constexpr
+uint64_t
+OtherArtifact
+=
+3
+;
 }
 ;
 using
