@@ -6608,6 +6608,12 @@ GetScrollSize
 )
 ;
 MOZ_CAN_RUN_SCRIPT
+nsPoint
+GetScrollOrigin
+(
+)
+;
+MOZ_CAN_RUN_SCRIPT
 void
 MozScrollSnap
 (
@@ -8472,12 +8478,6 @@ const
 MOZ_CAN_RUN_SCRIPT
 nsRect
 GetClientAreaRect
-(
-)
-;
-MOZ_CAN_RUN_SCRIPT
-nsPoint
-GetScrollOrigin
 (
 )
 ;
