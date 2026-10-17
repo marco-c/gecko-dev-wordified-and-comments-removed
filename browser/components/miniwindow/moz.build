@@ -66,14 +66,11 @@ BUG_COMPONENT
 =
 (
 "
-Toolkit
+Firefox
 "
 "
-Picture
--
-in
--
-Picture
+Mini
+Window
 "
 )
 JAR_MANIFESTS

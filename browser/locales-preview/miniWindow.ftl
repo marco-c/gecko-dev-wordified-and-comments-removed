@@ -434,7 +434,7 @@ Window
 .
 accesskey
 =
-M
+w
 #
 Moves
 full
