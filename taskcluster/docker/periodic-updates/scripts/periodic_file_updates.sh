@@ -2364,9 +2364,14 @@ latest
 .
 firefox
 .
+{
+HSTS_RESULTS_JOB
+:
+-
 pinning
 -
 update
+}
 /
 artifacts
 /
@@ -5266,7 +5271,8 @@ this
 run
 .
 #
-Pinning
+Where
+pinning
 updates
 (
 HSTS
@@ -5279,8 +5285,8 @@ updates
 are
 separate
 tasks
-and
 #
+they
 must
 not
 abandon
