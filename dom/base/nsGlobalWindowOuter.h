@@ -4122,14 +4122,6 @@ aSink
 )
 ;
 void
-MaybeAllowStorageForOpenedWindow
-(
-nsIURI
-*
-aURI
-)
-;
-void
 MaybeResetWindowName
 (
 Document
