@@ -645,7 +645,7 @@ asTenured
 (
 )
 .
-markIfUnmarked
+markIfUnmarkedThreadSafe
 (
 MarkColor
 :
@@ -693,7 +693,7 @@ asTenured
 (
 )
 .
-markIfUnmarked
+markIfUnmarkedThreadSafe
 (
 MarkColor
 :
