@@ -265,7 +265,7 @@ devtools_rdp
 maxLogLevel
 :
 "
-Warn
+warn
 "
 }
 )

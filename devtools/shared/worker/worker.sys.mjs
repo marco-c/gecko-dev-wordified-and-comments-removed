@@ -72,7 +72,7 @@ devtools_worker
 maxLogLevel
 :
 "
-Warn
+warn
 "
 }
 )
@@ -377,7 +377,7 @@ logger
 shouldLog
 (
 "
-Log
+log
 "
 )
 )
@@ -468,7 +468,7 @@ logger
 shouldLog
 (
 "
-Log
+log
 "
 )
 )

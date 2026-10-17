@@ -31486,7 +31486,7 @@ console
 shouldLog
 (
 "
-Debug
+debug
 "
 )
 )
@@ -34577,7 +34577,7 @@ console
 shouldLog
 (
 "
-Debug
+debug
 "
 )
 )
@@ -35633,7 +35633,7 @@ console
 shouldLog
 (
 "
-Debug
+debug
 "
 )
 )

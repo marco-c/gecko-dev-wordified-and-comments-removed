@@ -2649,7 +2649,7 @@ tag
 maxLogLevel
 :
 "
-Warn
+warn
 "
 }
 )

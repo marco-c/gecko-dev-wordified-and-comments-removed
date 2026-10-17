@@ -436,11 +436,11 @@ SearchUtils
 loggingEnabled
 ?
 "
-Debug
+debug
 "
 :
 "
-Warn
+warn
 "
 }
 )

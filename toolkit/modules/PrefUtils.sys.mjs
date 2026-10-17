@@ -952,7 +952,7 @@ PrefUtils
 maxLogLevel
 :
 "
-Warn
+warn
 "
 }
 )

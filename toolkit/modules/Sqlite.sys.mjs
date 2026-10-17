@@ -7341,7 +7341,7 @@ _logger
 shouldLog
 (
 "
-Trace
+trace
 "
 )
 )

@@ -161,11 +161,11 @@ false
 )
 ?
 "
-Debug
+debug
 "
 :
 "
-Warn
+warn
 "
 }
 )

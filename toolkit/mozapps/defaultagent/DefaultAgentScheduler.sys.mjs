@@ -129,7 +129,7 @@ createInstance
 maxLogLevel
 :
 "
-Error
+error
 "
 maxLogLevelPref
 :

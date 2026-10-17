@@ -1032,7 +1032,7 @@ console
 shouldLog
 (
 "
-Debug
+debug
 "
 )
 )

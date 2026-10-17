@@ -999,11 +999,11 @@ false
 )
 ?
 "
-Debug
+debug
 "
 :
 "
-Error
+error
 "
 }
 )

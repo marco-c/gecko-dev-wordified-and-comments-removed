@@ -73,7 +73,7 @@ devtools_resourcecommand
 maxLogLevel
 :
 "
-Warn
+warn
 "
 }
 )
