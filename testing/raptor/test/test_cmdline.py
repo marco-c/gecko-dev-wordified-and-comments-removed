@@ -128,10 +128,6 @@ fission
 =
 True
         
-fission_mobile
-=
-False
-        
 test_bytecode_cache
 =
 False
@@ -293,10 +289,6 @@ fission
 =
 True
         
-fission_mobile
-=
-False
-        
 test_bytecode_cache
 =
 False
@@ -422,10 +414,6 @@ False
 fission
 =
 True
-        
-fission_mobile
-=
-False
         
 test_bytecode_cache
 =
@@ -553,10 +541,6 @@ fission
 =
 True
         
-fission_mobile
-=
-False
-        
 test_bytecode_cache
 =
 False
@@ -679,10 +663,6 @@ fission
 =
 True
         
-fission_mobile
-=
-False
-        
 test_bytecode_cache
 =
 False
@@ -798,10 +778,6 @@ False
 fission
 =
 True
-        
-fission_mobile
-=
-False
         
 test_bytecode_cache
 =
@@ -1836,12 +1812,6 @@ fission
 "
 :
 True
-                
-"
-fission_mobile
-"
-:
-False
                 
 "
 test_bytecode_cache
