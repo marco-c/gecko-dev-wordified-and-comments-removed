@@ -1748,6 +1748,14 @@ vintage
 testImplementation
 libs
 .
+mockito
+testImplementation
+libs
+.
+mockwebserver
+testImplementation
+libs
+.
 robolectric
 androidTestImplementation
 libs
