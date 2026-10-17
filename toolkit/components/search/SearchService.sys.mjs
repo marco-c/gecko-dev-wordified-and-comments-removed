@@ -662,7 +662,11 @@ import
 *
 RefinedSearchConfig
 *
+RefinedSearchConfigV3
+*
 SearchEngineDefinition
+*
+SearchEngineDefinitionV3
 *
 }
 from
@@ -12115,6 +12119,8 @@ settings
 param
 {
 RefinedSearchConfig
+|
+RefinedSearchConfigV3
 }
 refinedConfig
 *
@@ -13057,7 +13063,11 @@ listed
 *
 param
 {
+(
 SearchEngineDefinition
+|
+SearchEngineDefinitionV3
+)
 [
 ]
 }
@@ -16616,7 +16626,11 @@ user
 *
 param
 {
+(
 SearchEngineDefinition
+|
+SearchEngineDefinitionV3
+)
 [
 ]
 }
