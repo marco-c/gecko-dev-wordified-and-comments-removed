@@ -2111,7 +2111,10 @@ NTLMGetNextTokenCompleteEvent
 >
 (
 "
-NTLMGetNextTokenCompleteEvent
+NTLMGetNextTokenRunnable
+:
+:
+mCompleteEvent
 "
 new
 NTLMGetNextTokenCompleteEvent
