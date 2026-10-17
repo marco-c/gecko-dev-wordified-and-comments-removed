@@ -3121,6 +3121,10 @@ mIsGeneratedContent
 (
 false
 )
+mIsSharedGeneratedContent
+(
+false
+)
 mIsAllInline
 (
 false
@@ -3264,6 +3268,12 @@ if
 mIsGeneratedContent
 )
 {
+if
+(
+!
+mIsSharedGeneratedContent
+)
+{
 mContent
 -
 >
@@ -3271,6 +3281,7 @@ UnbindFromTree
 (
 )
 ;
+}
 NS_RELEASE
 (
 mContent
@@ -3379,6 +3390,11 @@ mIsText
 ;
 bool
 mIsGeneratedContent
+:
+1
+;
+bool
+mIsSharedGeneratedContent
 :
 1
 ;
