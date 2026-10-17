@@ -458,10 +458,7 @@ exceptions
 ExceptionClass
 Exposed
 =
-(
-Window
-Worker
-)
+*
 Serializable
 ]
 interface
