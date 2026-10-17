@@ -100,3 +100,14 @@ android
 '
 "
 ]
+requesttimeoutfactor
+=
+2
+#
+50
+cold
+starts
+slow
+on
+Windows
+ccov
