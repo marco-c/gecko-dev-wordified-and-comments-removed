@@ -297,8 +297,8 @@ h
 define
 FT_VERSION
 2
-14
-3
+15
+0
 0
 #
 define
@@ -306,9 +306,9 @@ FT_VERSION_STR
 "
 2
 .
-14
+15
 .
-3
+0
 "
 VS_VERSION_INFO
 VERSIONINFO
