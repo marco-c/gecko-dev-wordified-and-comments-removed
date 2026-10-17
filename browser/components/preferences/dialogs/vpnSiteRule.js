@@ -875,6 +875,12 @@ if
 (
 !
 gEditedPrincipal
+?
+.
+equals
+(
+principal
+)
 &
 &
 IPPPermissionRules
