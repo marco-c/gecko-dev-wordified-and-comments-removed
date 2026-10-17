@@ -1339,11 +1339,6 @@ ProfilerCounter
 h
 "
 "
-QuotaExceededError
-.
-h
-"
-"
 RadioGroupContainer
 .
 h
@@ -2365,11 +2360,6 @@ cpp
 "
 "
 ProfilerCounter
-.
-cpp
-"
-"
-QuotaExceededError
 .
 cpp
 "

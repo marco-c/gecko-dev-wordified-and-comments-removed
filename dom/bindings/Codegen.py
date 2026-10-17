@@ -145421,8 +145421,15 @@ h
 ]
 )
         
-descriptors
+names
 =
+list
+(
+)
+        
+for
+d
+in
 config
 .
 getDescriptors
@@ -145431,12 +145438,16 @@ isSerializable
 =
 True
 )
-        
-for
-d
-in
-descriptors
 :
+            
+names
+.
+append
+(
+d
+.
+name
+)
             
 defineIncludes
 .
@@ -145455,7 +145466,7 @@ interface
 if
 len
 (
-descriptors
+names
 )
 =
 =
@@ -145478,7 +145489,7 @@ CGGeneric
 if
 len
 (
-descriptors
+names
 )
 >
 20
@@ -145520,7 +145531,7 @@ table
 %
 len
 (
-descriptors
+names
 )
             
 )
@@ -145532,27 +145543,13 @@ list
 )
         
 for
-d
+name
 in
 sorted
 (
-descriptors
-key
-=
-lambda
-descriptor
-:
-descriptor
-.
-name
+names
 )
 :
-            
-name
-=
-d
-.
-name
             
 exposedGlobals
 =
