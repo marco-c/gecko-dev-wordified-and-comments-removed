@@ -323,6 +323,14 @@ CSSStyleSheet
 ?
 parentStyleSheet
 ;
+[
+ChromeOnly
+]
+boolean
+supportsDeclarations
+(
+)
+;
 }
 ;
 /

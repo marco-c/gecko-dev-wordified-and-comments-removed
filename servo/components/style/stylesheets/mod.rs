@@ -4332,6 +4332,17 @@ contains
 CssRuleType
 :
 :
+NestedDeclarations
+)
+|
+|
+self
+.
+contains
+(
+CssRuleType
+:
+:
 Page
 )
 |
@@ -4343,7 +4354,7 @@ contains
 CssRuleType
 :
 :
-Style
+PositionTry
 )
 |
 |
@@ -4365,7 +4376,7 @@ contains
 CssRuleType
 :
 :
-PositionTry
+Style
 )
 }
 }
