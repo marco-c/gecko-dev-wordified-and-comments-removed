@@ -33780,12 +33780,6 @@ IsPrivate
 return
 ;
 }
-aProofOfLock
-.
-Touch
-(
-)
-;
 auto
 *
 message

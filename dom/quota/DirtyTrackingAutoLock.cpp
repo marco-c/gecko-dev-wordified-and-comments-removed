@@ -79,10 +79,6 @@ move
 aOriginInfo
 )
 )
-mTouched
-(
-false
-)
 {
 Lock
 (
@@ -169,10 +165,6 @@ aLock
 mOriginInfo
 (
 nullptr
-)
-mTouched
-(
-false
 )
 {
 Lock

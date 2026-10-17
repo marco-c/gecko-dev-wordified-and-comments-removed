@@ -274,16 +274,6 @@ IsValid
 )
 const
 ;
-void
-Touch
-(
-)
-{
-mTouched
-=
-true
-;
-}
 RefPtr
 <
 OriginInfo
@@ -435,9 +425,6 @@ RefPtr
 OriginInfo
 >
 mOriginInfo
-;
-bool
-mTouched
 ;
 }
 ;
