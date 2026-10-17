@@ -16775,6 +16775,12 @@ ref
 NS_ERROR_DOM_MEDIA_DECODE_ERR
 &
 &
+!
+decoder
+.
+mHardwareDecodingDisabled
+&
+&
 decoder
 .
 mDecoder
