@@ -554,4 +554,9 @@ TextureHelper
 .
 h
 "
+"
+YCbCrTestHelpers
+.
+h
+"
 ]
