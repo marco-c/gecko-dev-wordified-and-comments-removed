@@ -6681,6 +6681,7 @@ engine
 "
 )
 ;
+await
 mockEngineManager
 .
 rejectAllRequests

@@ -1218,6 +1218,7 @@ mention
 "
 )
 ;
+await
 mockEngineManager
 .
 rejectAllRequests
@@ -1366,6 +1367,7 @@ memories
 "
 )
 ;
+await
 mockEngineManager
 .
 rejectAllRequests
@@ -1591,6 +1593,7 @@ memories
 "
 )
 ;
+await
 mockEngineManager
 .
 rejectAllRequests

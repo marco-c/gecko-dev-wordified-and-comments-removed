@@ -4965,6 +4965,7 @@ page
 }
 finally
 {
+await
 mockEngine
 .
 rejectAllRequests

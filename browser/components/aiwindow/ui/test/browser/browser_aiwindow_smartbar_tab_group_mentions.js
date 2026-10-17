@@ -939,6 +939,7 @@ URLs
 }
 finally
 {
+await
 mockEngineManager
 .
 rejectAllRequests
@@ -1417,6 +1418,7 @@ header
 }
 finally
 {
+await
 mockEngineManager
 .
 rejectAllRequests

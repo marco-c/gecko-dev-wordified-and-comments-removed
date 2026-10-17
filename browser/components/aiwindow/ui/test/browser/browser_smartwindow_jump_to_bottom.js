@@ -1597,6 +1597,7 @@ empty
 }
 finally
 {
+await
 mockEngineManager
 .
 rejectAllRequests

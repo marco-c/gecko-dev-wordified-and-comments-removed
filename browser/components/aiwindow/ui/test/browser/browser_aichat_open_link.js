@@ -512,6 +512,7 @@ async
 =
 >
 {
+await
 mockEngineManager
 .
 rejectAllRequests

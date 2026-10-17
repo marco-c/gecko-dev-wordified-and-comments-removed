@@ -1168,6 +1168,7 @@ prompt
 }
 finally
 {
+await
 mockEngineManager
 .
 rejectAllRequests
@@ -1861,6 +1862,7 @@ cleanup
 (
 )
 ;
+await
 mockEngineManager
 .
 rejectAllRequests
@@ -2188,6 +2190,7 @@ read
 }
 finally
 {
+await
 mockEngineManager
 .
 rejectAllRequests

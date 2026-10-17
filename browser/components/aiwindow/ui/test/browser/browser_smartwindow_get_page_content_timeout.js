@@ -580,6 +580,7 @@ read
 }
 finally
 {
+await
 mockEngineManager
 .
 rejectAllRequests
@@ -1113,6 +1114,7 @@ read
 }
 finally
 {
+await
 mockEngineManager
 .
 rejectAllRequests

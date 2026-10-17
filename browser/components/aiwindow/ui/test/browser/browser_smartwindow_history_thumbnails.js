@@ -173,6 +173,7 @@ if
 mockEngineMan
 )
 {
+await
 mockEngineMan
 .
 rejectAllRequests

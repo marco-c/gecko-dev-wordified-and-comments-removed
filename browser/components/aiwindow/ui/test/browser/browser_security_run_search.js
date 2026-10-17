@@ -892,6 +892,7 @@ cleanup
 (
 )
 {
+await
 mockEngineManager
 .
 rejectAllRequests

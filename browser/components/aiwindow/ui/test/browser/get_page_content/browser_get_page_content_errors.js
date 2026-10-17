@@ -147,6 +147,7 @@ openAIWindowWithSidebar
 )
 )
 ;
+await
 mockEngineManager
 .
 rejectAllRequests
@@ -211,6 +212,7 @@ async
 =
 >
 {
+await
 mockEngineManager
 .
 rejectAllRequests

@@ -933,6 +933,7 @@ NAMING_PURPOSE
 }
 )
 ;
+await
 mockEngine
 .
 rejectAllRequests
