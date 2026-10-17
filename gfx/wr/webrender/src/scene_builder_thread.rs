@@ -5785,6 +5785,10 @@ document_id
 )
 )
 ;
+rebuild_scene
+=
+true
+;
 self
 .
 dl_builders

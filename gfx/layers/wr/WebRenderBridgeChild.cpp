@@ -672,10 +672,17 @@ payloads
 aRenderOffscreen
 )
 ;
+if
+(
+!
+aRenderOffscreen
+)
+{
 ProcessWebRenderParentCommands
 (
 )
 ;
+}
 mDestroyedActors
 .
 Clear
