@@ -2288,6 +2288,11 @@ nsACString
 aConnectionHashKey
 )
 ;
+void
+MaybeStartHttp3BackupTimer
+(
+)
+;
 private
 :
 TransactionObserverFunc
