@@ -960,6 +960,13 @@ js
 ]
 [
 "
+test_ext_contentscript_sync_xhr
+.
+js
+"
+]
+[
+"
 test_ext_contentscript_teardown
 .
 js
