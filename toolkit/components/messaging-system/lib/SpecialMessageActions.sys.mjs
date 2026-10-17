@@ -6341,14 +6341,6 @@ data
 ?
 .
 source
-tabModal
-:
-action
-.
-data
-?
-.
-tabModal
 }
 )
 ;
