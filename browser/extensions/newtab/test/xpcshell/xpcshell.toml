@@ -162,6 +162,13 @@ js
 ]
 [
 "
+test_LocationInterestGrid
+.
+js
+"
+]
+[
+"
 test_NewTabAttributionFeed
 .
 js
