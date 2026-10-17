@@ -2784,6 +2784,7 @@ browser
 checkingDataSizes
 =
 false
+showUIOptions
 }
 =
 {
@@ -2813,6 +2814,12 @@ this
 _checkingDataSizes
 =
 checkingDataSizes
+;
+this
+.
+_showUIOptions
+=
+showUIOptions
 ;
 this
 .
@@ -3422,6 +3429,9 @@ _browserWin
 this
 .
 _mode
+this
+.
+_showUIOptions
 )
 ;
 }
