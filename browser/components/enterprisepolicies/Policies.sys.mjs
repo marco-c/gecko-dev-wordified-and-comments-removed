@@ -7827,10 +7827,6 @@ disable
 ;
 }
 }
-DisableMacOSUserPolicies
-:
-{
-}
 DisableMasterPasswordCreation
 :
 {
