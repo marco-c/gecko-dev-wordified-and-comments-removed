@@ -1190,8 +1190,10 @@ HTMLElement
 >
 mTarget
 ;
+RefPtr
+<
 HTMLFormElement
-*
+>
 mForm
 ;
 HTMLFieldSetElement
