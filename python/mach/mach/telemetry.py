@@ -298,12 +298,26 @@ command
 :
     
 from
+mozboot
+.
+mozconfig
+import
+MozconfigFindException
+    
+from
 mozbuild
 .
 base
 import
 BuildEnvironmentNotFoundException
 MozbuildObject
+    
+from
+mozbuild
+.
+mozconfig
+import
+MozconfigLoadException
     
 from
 mozbuild
@@ -342,9 +356,23 @@ MozbuildObject
 from_environment
 (
 )
+        
+topobjdir
+=
+instance
+.
+topobjdir
     
 except
+(
+        
 BuildEnvironmentNotFoundException
+        
+MozconfigFindException
+        
+MozconfigLoadException
+    
+)
 :
         
 return
@@ -357,7 +385,6 @@ argv
 .
 set
 (
-        
 filter_args
 (
 command
@@ -367,11 +394,8 @@ argv
 instance
 .
 topsrcdir
-instance
-.
 topobjdir
 )
-    
 )
 def
 is_applicable_telemetry_environment
