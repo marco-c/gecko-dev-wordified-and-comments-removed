@@ -706,17 +706,11 @@ nss
 :
 #
 #
-[
 Build
 with
 gyp
 and
 ninja
-]
-(
-#
-build
-)
 :
 :
 :

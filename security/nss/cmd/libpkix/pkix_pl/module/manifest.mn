@@ -119,6 +119,10 @@ test_httpcertstore
 .
 c
 \
+test_httpdefaultclient
+.
+c
+\
 (
 NULL
 )

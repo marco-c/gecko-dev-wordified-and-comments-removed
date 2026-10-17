@@ -11,15 +11,9 @@ structure
 )
 =
 #
-[
 NSS
 API
 Structure
-]
-(
-#
-api_structure
-)
 #
 #
 Libraries

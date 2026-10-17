@@ -99,7 +99,6 @@ define
 HTTP_UNKNOWN_CONTENT_LENGTH
 -
 1
-static
 PKIX_Error
 *
 pkix_pl_HttpDefaultClient_HdrCheckComplete
@@ -1181,7 +1180,6 @@ HTTPDEFAULTCLIENT
 )
 ;
 }
-static
 PKIX_Error
 *
 pkix_pl_HttpDefaultClient_Create

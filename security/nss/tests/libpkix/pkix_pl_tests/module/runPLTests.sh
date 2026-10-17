@@ -1129,6 +1129,8 @@ test_eku_allbutcodesigningEE
 .
 crt
 pkixutil
+test_httpdefaultclient
+pkixutil
 test_socket
 {
 HOSTADDR
