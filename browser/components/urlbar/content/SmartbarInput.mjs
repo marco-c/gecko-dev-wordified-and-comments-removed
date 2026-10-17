@@ -44082,6 +44082,15 @@ searchMode
 source
 &
 &
+(
+!
+this
+.
+searchMode
+.
+engineName
+|
+|
 !
 UrlbarPrefs
 .
@@ -44092,6 +44101,7 @@ unifiedSearchButton
 .
 historyInSearchMode
 "
+)
 )
 )
 {
