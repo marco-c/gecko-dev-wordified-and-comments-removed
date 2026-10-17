@@ -1093,6 +1093,13 @@ html
 ]
 [
 "
+test_peerConnection_earlyMediaNoCodecs
+.
+html
+"
+]
+[
+"
 test_peerConnection_earlyMediaReoffer
 .
 html
