@@ -688,7 +688,9 @@ param
 {
 boolean
 }
+[
 skipSetSearchConfigForSchemaTests
+]
 *
 For
 tests
@@ -712,10 +714,14 @@ for
 testing
 schemas
 without
+the
 Rust
-also
 *
-testing
+validation
+getting
+in
+the
+way
 .
 *
 returns
