@@ -8,14 +8,14 @@ h
 #
 include
 "
-MacStringHelpers
+CFTypeRefPtr
 .
 h
 "
 #
 include
 "
-CFTypeRefPtr
+MacStringHelpers
 .
 h
 "
