@@ -137,6 +137,10 @@ x
 y
 )
 )
+#
+define
+LONG_MATCH_LEN
+65536
 static
 unsigned
 int
@@ -2274,6 +2278,14 @@ len
 oldscore
 +
 10
+)
+|
+|
+(
+len
+>
+=
+LONG_MATCH_LEN
 )
 )
 break
