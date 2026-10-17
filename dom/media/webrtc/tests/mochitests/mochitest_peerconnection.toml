@@ -1886,6 +1886,13 @@ html
 ]
 [
 "
+test_peerConnection_setCodecPreferencesOfferSdp
+.
+html
+"
+]
+[
+"
 test_peerConnection_setLocalAnswerInHaveLocalOffer
 .
 html

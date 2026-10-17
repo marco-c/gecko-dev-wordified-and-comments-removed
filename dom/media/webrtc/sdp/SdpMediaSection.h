@@ -851,6 +851,11 @@ string
 pt
 )
 ;
+void
+RemoveUnlistedPayloadTypeAttributes
+(
+)
+;
 const
 SdpRtpmapAttributeList
 :
