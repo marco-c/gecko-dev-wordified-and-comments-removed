@@ -479,10 +479,9 @@ i
 }
 )
 ;
-wins
-.
-push
-(
+let
+win
+=
 await
 popTabForTest
 (
@@ -494,6 +493,12 @@ tab
 linkedBrowser
 )
 )
+;
+wins
+.
+push
+(
+win
 )
 ;
 }

@@ -21504,7 +21504,7 @@ window
 .
 enabled
 "
-false
+true
 )
 ;
 pref
