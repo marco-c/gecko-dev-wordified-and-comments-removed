@@ -315,7 +315,7 @@ tabs
 *
 param
 {
-BrowserWindow
+Window
 }
 aWindow
 *
