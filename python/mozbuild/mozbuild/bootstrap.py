@@ -199,6 +199,9 @@ def
 bootstrap_toolchain
 (
 toolchain_job
+allow_failure
+=
+False
 )
 :
     
@@ -213,6 +216,7 @@ sandbox
 .
 _value_for
 (
+        
 sandbox
 [
 "
@@ -221,7 +225,11 @@ bootstrap_path
 ]
 (
 toolchain_job
+allow_failure
+=
+allow_failure
 )
+    
 )
 def
 bootstrap_all_toolchains_for
