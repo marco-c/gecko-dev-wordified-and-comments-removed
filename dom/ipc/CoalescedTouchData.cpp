@@ -813,7 +813,16 @@ MOZ_ASSERT
 mRefreshDriver
 )
 ;
+RefPtr
+<
+BrowserChild
+>
+browserChild
+(
 mBrowserChild
+)
+;
+browserChild
 -
 >
 ProcessPendingCoalescedTouchData
