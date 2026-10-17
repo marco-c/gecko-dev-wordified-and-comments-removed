@@ -1,0 +1,12 @@
+EXTRA_JS_MODULES
++
+=
+[
+"
+AllowedNested
+.
+sys
+.
+mjs
+"
+]
