@@ -1475,6 +1475,17 @@ true
 "
 AIChatContent
 :
+OpenTabGroup
+"
+:
+{
+wantUntrusted
+:
+true
+}
+"
+AIChatContent
+:
 DispatchNewChat
 "
 :

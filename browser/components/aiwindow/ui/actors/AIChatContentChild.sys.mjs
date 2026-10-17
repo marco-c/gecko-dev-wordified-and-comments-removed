@@ -318,6 +318,11 @@ OpenLink
 "
 AIChatContent
 :
+OpenTabGroup
+"
+"
+AIChatContent
+:
 DispatchNewChat
 "
 "
