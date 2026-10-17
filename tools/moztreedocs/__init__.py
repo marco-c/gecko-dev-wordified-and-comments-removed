@@ -200,6 +200,11 @@ topsrcdir
 build
 .
 topsrcdir
+        
+substs
+=
+{
+}
     
 variables
 =
