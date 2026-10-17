@@ -603,7 +603,7 @@ into
 tests
 .
 function
-shouldIgnoreLocalPolicies
+ignoreLocalPoliciesInAutomation
 (
 )
 {
@@ -4717,7 +4717,7 @@ _getLocalConfigurationFile
 {
 if
 (
-shouldIgnoreLocalPolicies
+ignoreLocalPoliciesInAutomation
 (
 )
 )
@@ -5572,7 +5572,7 @@ altLocation
 else
 if
 (
-shouldIgnoreLocalPolicies
+ignoreLocalPoliciesInAutomation
 (
 )
 )
