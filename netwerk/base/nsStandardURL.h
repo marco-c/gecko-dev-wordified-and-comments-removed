@@ -1238,7 +1238,7 @@ mDefaultPort
 mPort
 ;
 }
-void
+bool
 ReplacePortInSpec
 (
 int32_t
@@ -1672,6 +1672,16 @@ nsACString
 &
 val
 )
+;
+bool
+ExceedsMaxLength
+(
+uint32_t
+aOldLen
+uint32_t
+aNewLen
+)
+const
 ;
 nsresult
 ParseURL
