@@ -7575,6 +7575,11 @@ rootBaseDuringMinorGC
 (
 )
 ;
+bool
+promotedToNurseryPrev
+=
+promotedToNursery
+;
 JSString
 *
 promotedBase
@@ -7590,6 +7595,10 @@ base
 )
 :
 base
+;
+promotedToNursery
+=
+promotedToNurseryPrev
 ;
 MOZ_ASSERT
 (
