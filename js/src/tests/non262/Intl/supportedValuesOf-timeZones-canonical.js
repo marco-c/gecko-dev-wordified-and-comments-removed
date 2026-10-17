@@ -1618,12 +1618,6 @@ Australia
 Sydney
 "
 "
-CST6CDT
-"
-"
-EST5EDT
-"
-"
 Etc
 /
 GMT
@@ -2149,12 +2143,6 @@ Mayotte
 Indian
 /
 Reunion
-"
-"
-MST7MDT
-"
-"
-PST8PDT
 "
 "
 Pacific
