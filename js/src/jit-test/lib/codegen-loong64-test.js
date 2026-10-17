@@ -84,6 +84,7 @@ sp
 \
 \
 zero
+(
 st
 \
 \
@@ -96,6 +97,8 @@ s4
 \
 fp
 16
+)
+?
 suffix
 :
 ld
