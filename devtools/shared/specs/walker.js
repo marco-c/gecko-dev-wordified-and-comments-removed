@@ -542,6 +542,8 @@ node
 RetVal
 (
 "
+nullable
+:
 domnode
 "
 )

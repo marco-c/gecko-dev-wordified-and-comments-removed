@@ -1254,6 +1254,15 @@ documentElement
 (
 )
 ;
+if
+(
+!
+documentElement
+)
+{
+return
+;
+}
 await
 _inspectNode
 (
