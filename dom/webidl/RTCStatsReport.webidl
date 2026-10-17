@@ -538,10 +538,8 @@ unsigned
 long
 rtxSsrc
 ;
-unsigned
-long
-long
-totalEncodedBytesTarget
+double
+targetBitrate
 ;
 unsigned
 long
