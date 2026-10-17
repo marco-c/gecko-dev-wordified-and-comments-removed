@@ -1851,6 +1851,13 @@ Object
 .
 freeze
 (
+/
+*
+*
+lends
+QuotaReason
+*
+/
 {
 /
 *

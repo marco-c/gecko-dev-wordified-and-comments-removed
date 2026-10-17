@@ -1149,6 +1149,13 @@ Object
 .
 freeze
 (
+/
+*
+*
+lends
+ContainerIcon
+*
+/
 {
 /
 *
@@ -2069,6 +2076,13 @@ Object
 .
 freeze
 (
+/
+*
+*
+lends
+ContainerColor
+*
+/
 {
 /
 *

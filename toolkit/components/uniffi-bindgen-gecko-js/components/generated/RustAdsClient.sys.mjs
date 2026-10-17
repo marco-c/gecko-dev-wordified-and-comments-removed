@@ -836,6 +836,13 @@ Object
 .
 freeze
 (
+/
+*
+*
+lends
+MozAdsCacheMode
+*
+/
 {
 /
 *
@@ -2845,6 +2852,13 @@ Object
 .
 freeze
 (
+/
+*
+*
+lends
+MozAdsIabContentTaxonomy
+*
+/
 {
 /
 *
@@ -6745,8 +6759,10 @@ blocks
 cachePolicy
 flags
 =
-{
-}
+new
+Map
+(
+)
 ohttp
 =
 false
@@ -12277,6 +12293,13 @@ Object
 .
 freeze
 (
+/
+*
+*
+lends
+MozAdsReportReason
+*
+/
 {
 /
 *
@@ -15003,7 +15026,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-40
+38
 /
 /
 uniffi_ads_client_fn_method_mozadsclient_clear_cache
@@ -15085,7 +15108,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-41
+39
 /
 /
 uniffi_ads_client_fn_method_mozadsclient_record_click
@@ -15179,7 +15202,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-42
+40
 /
 /
 uniffi_ads_client_fn_method_mozadsclient_record_impression
@@ -15291,7 +15314,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-43
+41
 /
 /
 uniffi_ads_client_fn_method_mozadsclient_report_ad
@@ -15404,7 +15427,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-44
+42
 /
 /
 uniffi_ads_client_fn_method_mozadsclient_request_image_ads
@@ -15513,7 +15536,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-45
+43
 /
 /
 uniffi_ads_client_fn_method_mozadsclient_request_spoc_ads
@@ -15622,7 +15645,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-46
+44
 /
 /
 uniffi_ads_client_fn_method_mozadsclient_request_tile_ads
@@ -15687,7 +15710,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-47
+45
 /
 /
 uniffi_ads_client_fn_method_mozadsclient_shutdown
@@ -16703,7 +16726,7 @@ UniFFIScaffolding
 .
 callSync
 (
-48
+46
 /
 /
 uniffi_ads_client_fn_constructor_mozadsclientbuilder_new
@@ -16746,7 +16769,7 @@ UniFFIScaffolding
 .
 callSync
 (
-49
+47
 /
 /
 uniffi_ads_client_fn_method_mozadsclientbuilder_build
@@ -16809,7 +16832,7 @@ UniFFIScaffolding
 .
 callSync
 (
-50
+48
 /
 /
 uniffi_ads_client_fn_method_mozadsclientbuilder_cache_config
@@ -16882,7 +16905,7 @@ UniFFIScaffolding
 .
 callSync
 (
-51
+49
 /
 /
 uniffi_ads_client_fn_method_mozadsclientbuilder_environment
@@ -16951,7 +16974,7 @@ UniFFIScaffolding
 .
 callSync
 (
-52
+50
 /
 /
 uniffi_ads_client_fn_method_mozadsclientbuilder_store_config
@@ -17020,7 +17043,7 @@ UniFFIScaffolding
 .
 callSync
 (
-53
+51
 /
 /
 uniffi_ads_client_fn_method_mozadsclientbuilder_telemetry

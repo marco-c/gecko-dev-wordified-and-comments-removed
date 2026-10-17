@@ -424,6 +424,13 @@ Object
 .
 freeze
 (
+/
+*
+*
+lends
+DeviceType
+*
+/
 {
 /
 *

@@ -2206,6 +2206,13 @@ Object
 .
 freeze
 (
+/
+*
+*
+lends
+Method
+*
+/
 {
 /
 *

@@ -7664,6 +7664,13 @@ Object
 .
 freeze
 (
+/
+*
+*
+lends
+SyncStatus
+*
+/
 {
 /
 *

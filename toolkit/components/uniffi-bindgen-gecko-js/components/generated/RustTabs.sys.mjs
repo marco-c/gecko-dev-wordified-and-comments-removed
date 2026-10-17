@@ -3240,6 +3240,13 @@ Object
 .
 freeze
 (
+/
+*
+*
+lends
+WindowType
+*
+/
 {
 /
 *

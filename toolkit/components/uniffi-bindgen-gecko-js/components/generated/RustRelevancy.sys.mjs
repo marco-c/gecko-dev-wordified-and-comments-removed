@@ -4784,6 +4784,13 @@ Object
 .
 freeze
 (
+/
+*
+*
+lends
+Interest
+*
+/
 {
 /
 *
