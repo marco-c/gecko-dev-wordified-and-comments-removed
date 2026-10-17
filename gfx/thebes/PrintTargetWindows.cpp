@@ -218,6 +218,14 @@ DrawEventRecorderMemory
 )
 )
 {
+mRecorder
+-
+>
+SetSupportsGlyphSourceText
+(
+true
+)
+;
 RefPtr
 <
 DrawTarget
