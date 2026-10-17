@@ -339,6 +339,13 @@ js
 ]
 [
 "
+browser_ext_messaging_windowId
+.
+js
+"
+]
+[
+"
 browser_ext_mousewheel_zoom
 .
 js
