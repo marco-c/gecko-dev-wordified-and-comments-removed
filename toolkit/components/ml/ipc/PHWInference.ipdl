@@ -1,7 +1,12 @@
+#
+ifdef
+MOZ_WEBSPEECH
 include
 protocol
 PSpeechRecognition
 ;
+#
+endif
 include
 protocol
 PTextGeneration
@@ -159,6 +164,9 @@ result
 ;
 child
 :
+#
+ifdef
+MOZ_WEBSPEECH
 async
 NewContentSpeechRecognition
 (
@@ -171,6 +179,8 @@ ContentParentId
 contentId
 )
 ;
+#
+endif
 async
 NewTextGeneration
 (

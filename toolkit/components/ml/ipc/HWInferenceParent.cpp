@@ -1164,6 +1164,9 @@ endpoint
 )
 ;
 }
+#
+ifdef
+MOZ_WEBSPEECH
 void
 HWInferenceParent
 :
@@ -1224,6 +1227,8 @@ aChildId
 )
 ;
 }
+#
+endif
 void
 HWInferenceParent
 :

@@ -1404,6 +1404,9 @@ HWInferenceProcess
 h
 "
 #
+ifdef
+MOZ_WEBSPEECH
+#
 include
 "
 mozilla
@@ -1414,6 +1417,8 @@ PSpeechRecognitionChild
 .
 h
 "
+#
+endif
 #
 endif
 #
@@ -27842,6 +27847,9 @@ IPC_OK
 )
 ;
 }
+#
+ifdef
+MOZ_WEBSPEECH
 mozilla
 :
 :
@@ -27936,6 +27944,8 @@ IPC_OK
 )
 ;
 }
+#
+endif
 mozilla
 :
 :

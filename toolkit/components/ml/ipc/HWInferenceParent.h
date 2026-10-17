@@ -250,6 +250,9 @@ return
 mReadyPromise
 ;
 }
+#
+ifdef
+MOZ_WEBSPEECH
 void
 StartContentSpeechRecognition
 (
@@ -267,6 +270,8 @@ ContentParentId
 aChildId
 )
 ;
+#
+endif
 void
 StartTextGeneration
 (

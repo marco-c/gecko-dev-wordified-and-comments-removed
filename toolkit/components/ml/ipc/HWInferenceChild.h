@@ -88,6 +88,9 @@ HWInferenceChild
 =
 default
 ;
+#
+ifdef
+MOZ_WEBSPEECH
 mozilla
 :
 :
@@ -116,6 +119,8 @@ ContentParentId
 aContentId
 )
 ;
+#
+endif
 mozilla
 :
 :
