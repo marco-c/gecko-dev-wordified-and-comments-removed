@@ -153,6 +153,10 @@ gradient_builder
 mod
 image
 ;
+pub
+mod
+path
+;
 #
 [
 doc
@@ -283,6 +287,16 @@ crate
 :
 :
 fast_transform
+:
+:
+*
+;
+pub
+use
+crate
+:
+:
+path
 :
 :
 *
