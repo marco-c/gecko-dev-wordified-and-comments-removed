@@ -603,7 +603,7 @@ into
 tests
 .
 function
-shouldIgnoreLocalPolicies
+ignoreLocalPoliciesInAutomation
 (
 )
 {
@@ -3156,6 +3156,18 @@ getContainerForURI
 uri
 )
 {
+let
+normalized
+=
+lazy
+.
+SitePolicyUtils
+.
+normalizeURI
+(
+uri
+)
+;
 for
 (
 let
@@ -3172,7 +3184,7 @@ exceptions
 .
 matches
 (
-uri
+normalized
 )
 |
 |
@@ -3195,7 +3207,7 @@ match
 .
 matches
 (
-uri
+normalized
 )
 &
 &
@@ -4705,7 +4717,7 @@ _getLocalConfigurationFile
 {
 if
 (
-shouldIgnoreLocalPolicies
+ignoreLocalPoliciesInAutomation
 (
 )
 )
@@ -5560,7 +5572,7 @@ altLocation
 else
 if
 (
-shouldIgnoreLocalPolicies
+ignoreLocalPoliciesInAutomation
 (
 )
 )
