@@ -356,6 +356,15 @@ destructive
 "
 android
 :
+layout_marginTop
+=
+"
+dimen
+/
+browser_toolbar_height
+"
+android
+:
 visibility
 =
 "
