@@ -1366,7 +1366,7 @@ else
 MinidumpWriter
 :
 :
-copy_from_process
+read_until_guard
 (
 self
 .
@@ -1375,6 +1375,9 @@ process_inspector
 as_ref
 (
 )
+self
+.
+page_size
 valid_stack_ptr
 stack_len
 )

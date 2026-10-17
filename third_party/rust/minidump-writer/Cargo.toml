@@ -109,7 +109,7 @@ version
 "
 1
 .
-88
+90
 .
 0
 "
@@ -826,6 +826,12 @@ features
 =
 [
 "
+postcard
+"
+"
+unix_stream
+"
+"
 testing
 "
 ]
@@ -1166,7 +1172,7 @@ version
 "
 1
 .
-88
+90
 .
 0
 "
