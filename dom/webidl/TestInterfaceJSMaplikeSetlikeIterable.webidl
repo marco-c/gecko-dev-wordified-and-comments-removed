@@ -78,6 +78,9 @@ constructor
 (
 )
 ;
+[
+DOMBackedStorage
+]
 maplike
 <
 DOMString
@@ -146,6 +149,9 @@ constructor
 (
 )
 ;
+[
+DOMBackedStorage
+]
 readonly
 maplike
 <
@@ -284,6 +290,9 @@ constructor
 (
 )
 ;
+[
+DOMBackedStorage
+]
 setlike
 <
 DOMString
@@ -313,6 +322,9 @@ constructor
 (
 )
 ;
+[
+DOMBackedStorage
+]
 setlike
 <
 Node
