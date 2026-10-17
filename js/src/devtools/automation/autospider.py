@@ -3283,7 +3283,7 @@ build
 "
                 
 "
-recurse_syms
+syms
 "
             
 ]
