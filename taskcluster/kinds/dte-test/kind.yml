@@ -201,15 +201,6 @@ env
 BRANCH
 :
 nightly
-TEST_SETS
-:
-'
-[
-"
-smoke
-"
-]
-'
 WORKFLOW_ID
 :
 nightly
