@@ -11202,15 +11202,6 @@ Image
 .
 .
 }
-|
-ClipItemKind
-:
-:
-Path
-{
-.
-.
-}
 =
 >
 Some

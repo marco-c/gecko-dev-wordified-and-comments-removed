@@ -138,12 +138,6 @@ mod
 batch
 ;
 mod
-bezier
-;
-mod
-path_tiler
-;
-mod
 border
 ;
 mod

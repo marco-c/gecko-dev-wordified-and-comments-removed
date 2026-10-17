@@ -9708,9 +9708,6 @@ mut
 source_clips
 clip_instance
 clips
-frame_context
-.
-dl_stores
 )
 ;
 }
@@ -9889,9 +9886,6 @@ push_quad_clip
 dest
 clip_instance
 clips
-frame_context
-.
-dl_stores
 )
 ;
 }

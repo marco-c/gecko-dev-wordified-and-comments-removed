@@ -1563,15 +1563,6 @@ ident
 macro_name
 !
 {
-path
-:
-crate
-:
-:
-path
-:
-:
-Path
 }
 }
 }

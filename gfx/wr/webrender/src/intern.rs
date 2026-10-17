@@ -2022,7 +2022,6 @@ backdrop_capture
 backdrop_render
 polygon
 box_shadow
-path
 }
 }
 }
