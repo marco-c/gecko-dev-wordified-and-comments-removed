@@ -397,7 +397,7 @@ screenshots
 ftl
 "
 "
-preview
+browser
 /
 miniWindow
 .
