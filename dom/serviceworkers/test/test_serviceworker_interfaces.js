@@ -2440,6 +2440,16 @@ PushSubscriptionChangeEvent
 "
 PushSubscriptionOptions
 "
+{
+name
+:
+"
+QuotaExceededError
+"
+nightly
+:
+true
+}
 "
 ReadableByteStreamController
 "

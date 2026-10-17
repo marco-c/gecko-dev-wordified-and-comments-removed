@@ -5482,6 +5482,11 @@ QueuingStrategy
 webidl
 "
 "
+QuotaExceededError
+.
+webidl
+"
+"
 RadioNodeList
 .
 webidl
