@@ -491,7 +491,7 @@ Header
 title
 :
 "
-Cards
+Timeline
 "
 }
 {
@@ -503,7 +503,7 @@ c
 component
 :
 "
-Cards
+Timeline
 "
 items
 :
@@ -512,7 +512,7 @@ path
 :
 "
 /
-cards
+events
 "
 }
 }
@@ -520,7 +520,7 @@ cards
 dataModel
 :
 {
-cards
+events
 :
 data
 }
@@ -536,6 +536,11 @@ base
 (
 [
 {
+date_label
+:
+"
+Mon
+"
 title
 :
 "
@@ -543,6 +548,11 @@ A
 "
 }
 {
+date_label
+:
+"
+Tue
+"
 title
 :
 "
@@ -562,10 +572,11 @@ ok
 .
 ok
 bound
-cards
-with
-valid
+timeline
 items
+that
+are
+valid
 pass
 ;
 errors
@@ -591,7 +602,7 @@ base
 (
 [
 {
-eyebrow
+date_label
 :
 "
 no
@@ -615,7 +626,7 @@ ok
 "
 a
 bound
-card
+timeline
 item
 missing
 required
