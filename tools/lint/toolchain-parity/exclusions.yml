@@ -173,6 +173,8 @@ toolchain
 -
 gn
 -
+libdmg
+-
 nasm
 -
 node
