@@ -505,9 +505,6 @@ case
 eMouseLongTap
 :
 case
-eMouseExploreByTouch
-:
-case
 ePointerClick
 :
 case
@@ -758,9 +755,6 @@ eMouseTouchDrag
 :
 case
 eMouseLongTap
-:
-case
-eMouseExploreByTouch
 :
 return
 aClassID
@@ -2172,9 +2166,6 @@ eMouseUp
 :
 case
 eMouseMove
-:
-case
-eMouseExploreByTouch
 :
 case
 eContextMenu

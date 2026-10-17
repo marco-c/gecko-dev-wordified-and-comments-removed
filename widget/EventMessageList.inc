@@ -127,15 +127,11 @@ NS_EVENT_MESSAGE
 (
 eMouseRawUpdate
 )
-NS_EVENT_MESSAGE
-(
-eMouseExploreByTouch
-)
 NS_EVENT_MESSAGE_FIRST_LAST
 (
 eMouseEvent
 eMouseMove
-eMouseExploreByTouch
+eMouseRawUpdate
 )
 NS_EVENT_MESSAGE
 (
