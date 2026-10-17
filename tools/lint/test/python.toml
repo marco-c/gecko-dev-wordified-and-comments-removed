@@ -167,6 +167,13 @@ sequential
 true
 [
 "
+test_extra_js_modules
+.
+py
+"
+]
+[
+"
 test_file_license
 .
 py
