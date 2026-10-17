@@ -203,7 +203,7 @@ file
 /
 export
 let
-AboutPages
+AboutStudies
 =
 {
 }
@@ -275,7 +275,7 @@ ChromeUtils
 .
 defineLazyGetter
 (
-AboutPages
+AboutStudies
 "
 aboutStudies
 "
@@ -600,7 +600,7 @@ currentWindowGlobal
 getActor
 (
 "
-ShieldFrame
+AboutStudies
 "
 )
 .
