@@ -3,6 +3,7 @@ api
 :
 :
 {
+AlphaMode
 ColorF
 DebugFlags
 ExtendMode
@@ -3111,6 +3112,11 @@ seg_start
 end
 :
 seg_end
+alpha_mode
+:
+prim_data
+.
+alpha_mode
 stops
 :
 seg_stops
@@ -5203,6 +5209,9 @@ LayoutVector2D
 end
 :
 LayoutVector2D
+alpha_mode
+:
+AlphaMode
 stops
 :
 [
@@ -5255,6 +5264,9 @@ ExtendMode
 :
 :
 Clamp
+self
+.
+alpha_mode
 &
 self
 .

@@ -18,6 +18,7 @@ api
 :
 :
 {
+AlphaMode
 ExtendMode
 GradientStop
 }
@@ -222,6 +223,10 @@ extend_mode
 :
 ExtendMode
 pub
+alpha_mode
+:
+AlphaMode
+pub
 start_point
 :
 LayoutVector2D
@@ -334,6 +339,9 @@ end
 self
 .
 extend_mode
+self
+.
+alpha_mode
 &
 self
 .
@@ -1643,6 +1651,11 @@ extend_mode
 item
 .
 extend_mode
+alpha_mode
+:
+item
+.
+alpha_mode
 start_point
 end_point
 stretch_ratio

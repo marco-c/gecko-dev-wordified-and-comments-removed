@@ -6243,6 +6243,11 @@ gradient
 extend_mode
 info
 .
+gradient
+.
+alpha_mode
+info
+.
 tile_size
 info
 .
@@ -6384,6 +6389,11 @@ gradient
 extend_mode
 info
 .
+gradient
+.
+alpha_mode
+info
+.
 tile_size
 info
 .
@@ -6486,6 +6496,11 @@ info
 gradient
 .
 extend_mode
+info
+.
+gradient
+.
+alpha_mode
 info
 .
 tile_size
@@ -10400,6 +10415,9 @@ gradient_stops
 gradient
 .
 extend_mode
+gradient
+.
+alpha_mode
 LayoutSize
 :
 :
@@ -10515,6 +10533,9 @@ gradient_stops
 gradient
 .
 extend_mode
+gradient
+.
+alpha_mode
 LayoutSize
 :
 :
@@ -10597,6 +10618,9 @@ gradient_stops
 gradient
 .
 extend_mode
+gradient
+.
+alpha_mode
 LayoutSize
 :
 :

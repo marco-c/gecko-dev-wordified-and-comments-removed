@@ -20642,6 +20642,10 @@ start_point
 end_point
 stops_vector
 extend_mode
+AlphaMode
+:
+:
+Premultiplied
 )
 ;
 let
@@ -20874,6 +20878,10 @@ center
 radius
 stops_vector
 extend_mode
+AlphaMode
+:
+:
+Premultiplied
 )
 ;
 let
@@ -21122,6 +21130,10 @@ center
 angle
 stops_vector
 extend_mode
+AlphaMode
+:
+:
+Premultiplied
 )
 ;
 let
@@ -21285,6 +21297,9 @@ usize
 extend_mode
 :
 ExtendMode
+alpha_mode
+:
+AlphaMode
 tile_size
 :
 LayoutSize
@@ -21343,6 +21358,7 @@ start
 end
 stops_vector
 extend_mode
+alpha_mode
 )
 ;
 let
@@ -21468,6 +21484,9 @@ usize
 extend_mode
 :
 ExtendMode
+alpha_mode
+:
+AlphaMode
 tile_size
 :
 LayoutSize
@@ -21526,6 +21545,7 @@ center
 radius
 stops_vector
 extend_mode
+alpha_mode
 )
 ;
 let
@@ -21648,6 +21668,9 @@ usize
 extend_mode
 :
 ExtendMode
+alpha_mode
+:
+AlphaMode
 tile_size
 :
 LayoutSize
@@ -21706,6 +21729,7 @@ center
 angle
 stops_vector
 extend_mode
+alpha_mode
 )
 ;
 let

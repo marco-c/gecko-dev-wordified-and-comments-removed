@@ -165,6 +165,12 @@ di
 :
 :
 ExtendMode
+alpha_mode
+:
+di
+:
+:
+AlphaMode
 )
 -
 >
@@ -213,6 +219,7 @@ start_to_end
 *
 end_offset
 extend_mode
+alpha_mode
 }
 }
 pub
@@ -234,6 +241,12 @@ di
 :
 :
 ExtendMode
+alpha_mode
+:
+di
+:
+:
+AlphaMode
 )
 -
 >
@@ -363,6 +376,7 @@ end_offset
 .
 0
 extend_mode
+alpha_mode
 }
 ;
 }
@@ -389,6 +403,7 @@ radius
 start_offset
 end_offset
 extend_mode
+alpha_mode
 }
 }
 pub
@@ -410,6 +425,12 @@ di
 :
 :
 ExtendMode
+alpha_mode
+:
+di
+:
+:
+AlphaMode
 )
 -
 >
@@ -441,6 +462,7 @@ angle
 start_offset
 end_offset
 extend_mode
+alpha_mode
 }
 }
 fn

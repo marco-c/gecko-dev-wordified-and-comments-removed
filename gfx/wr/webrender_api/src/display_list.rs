@@ -8626,6 +8626,12 @@ di
 :
 :
 ExtendMode
+alpha_mode
+:
+di
+:
+:
+AlphaMode
 )
 -
 >
@@ -8665,6 +8671,7 @@ gradient
 start_point
 end_point
 extend_mode
+alpha_mode
 )
 ;
 (
@@ -8704,6 +8711,12 @@ di
 :
 :
 ExtendMode
+alpha_mode
+:
+di
+:
+:
+AlphaMode
 )
 -
 >
@@ -8743,6 +8756,7 @@ radial_gradient
 center
 radius
 extend_mode
+alpha_mode
 )
 ;
 (
@@ -8782,6 +8796,12 @@ di
 :
 :
 ExtendMode
+alpha_mode
+:
+di
+:
+:
+AlphaMode
 )
 -
 >
@@ -8821,6 +8841,7 @@ conic_gradient
 center
 angle
 extend_mode
+alpha_mode
 )
 ;
 (

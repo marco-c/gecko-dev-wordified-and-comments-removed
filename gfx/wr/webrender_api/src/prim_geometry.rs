@@ -17,6 +17,7 @@ crate
 :
 :
 {
+AlphaMode
 ColorU
 ExtendMode
 }
@@ -2227,6 +2228,9 @@ GradientStopKey
 extend_mode
 :
 ExtendMode
+alpha_mode
+:
+AlphaMode
 stretch_size
 :
 LayoutSize
@@ -2375,6 +2379,7 @@ Some
 LinearGradient
 {
 extend_mode
+alpha_mode
 start_point
 :
 sp
@@ -2437,6 +2442,9 @@ GradientStopKey
 extend_mode
 :
 ExtendMode
+alpha_mode
+:
+AlphaMode
 stretch_size
 :
 LayoutSize
@@ -2492,6 +2500,7 @@ size
 ConicGradient
 {
 extend_mode
+alpha_mode
 center
 :
 center
@@ -2553,6 +2562,9 @@ GradientStopKey
 extend_mode
 :
 ExtendMode
+alpha_mode
+:
+AlphaMode
 stretch_size
 :
 LayoutSize
@@ -2618,6 +2630,7 @@ size
 RadialGradient
 {
 extend_mode
+alpha_mode
 center
 :
 center
