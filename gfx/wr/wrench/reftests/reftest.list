@@ -55,6 +55,14 @@ reftest
 .
 list
 include
+embed
+-
+policy
+/
+reftest
+.
+list
+include
 filters
 /
 reftest
