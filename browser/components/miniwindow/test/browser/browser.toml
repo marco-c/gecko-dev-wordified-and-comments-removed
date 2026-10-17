@@ -268,3 +268,10 @@ browser_toolbar_button
 js
 "
 ]
+[
+"
+browser_zoom
+.
+js
+"
+]
