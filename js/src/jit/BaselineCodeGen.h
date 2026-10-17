@@ -1988,6 +1988,9 @@ debugTrapEntries_
 CodeOffset
 profilerPushToggleOffset_
 ;
+CodeOffset
+debugModeOSREpilogueOffset_
+;
 BaselinePerfSpewer
 perfSpewer_
 ;
@@ -2090,6 +2093,11 @@ nodiscard
 ]
 bool
 emitDebugTrap
+(
+)
+;
+void
+emitDebugModeOSREpilogue
 (
 )
 ;
