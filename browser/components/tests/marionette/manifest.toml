@@ -19,10 +19,3 @@ test_no_errors_clean_profile
 py
 "
 ]
-[
-"
-test_private_window_cli_startup
-.
-py
-"
-]
