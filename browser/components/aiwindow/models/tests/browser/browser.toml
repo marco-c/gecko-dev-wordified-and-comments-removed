@@ -44,6 +44,13 @@ js
 ]
 [
 "
+browser_JourneyStore
+.
+js
+"
+]
+[
+"
 browser_MemoriesManager
 .
 js
