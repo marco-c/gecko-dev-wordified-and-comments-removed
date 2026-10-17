@@ -1929,6 +1929,7 @@ rv
 ;
 ReadableByteStreamControllerError
 (
+cx
 mTeeState
 -
 >
@@ -1969,6 +1970,7 @@ return
 }
 ReadableByteStreamControllerError
 (
+cx
 mTeeState
 -
 >
@@ -3159,6 +3161,7 @@ cx
 ;
 ReadableByteStreamControllerError
 (
+cx
 byobBranch
 -
 >
@@ -3189,6 +3192,7 @@ return
 }
 ReadableByteStreamControllerError
 (
+cx
 otherBranch
 -
 >
@@ -4324,6 +4328,7 @@ IsByte
 ;
 ReadableByteStreamControllerError
 (
+aCx
 aTeeState
 -
 >
@@ -4378,6 +4383,7 @@ IsByte
 ;
 ReadableByteStreamControllerError
 (
+aCx
 aTeeState
 -
 >

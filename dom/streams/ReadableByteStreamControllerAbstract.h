@@ -110,6 +110,9 @@ aRv
 void
 ReadableByteStreamControllerError
 (
+JSContext
+*
+aCx
 ReadableByteStreamController
 *
 aController
