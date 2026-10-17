@@ -135,13 +135,13 @@ The
 extension
 "
 .
-bmp
+png
 "
 is
 added
 by
 the
-system
+browser
 .
 set
 -

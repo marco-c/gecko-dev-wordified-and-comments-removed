@@ -46,8 +46,6 @@ public
 nsShellService
 public
 nsIMacShellService
-public
-nsIWebProgressListener
 {
 public
 :
@@ -60,7 +58,6 @@ default
 NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_NSISHELLSERVICE
 NS_DECL_NSIMACSHELLSERVICE
-NS_DECL_NSIWEBPROGRESSLISTENER
 protected
 :
 virtual
@@ -70,14 +67,6 @@ nsMacShellService
 )
 =
 default
-;
-private
-:
-nsCOMPtr
-<
-nsIFile
->
-mBackgroundFile
 ;
 }
 ;
