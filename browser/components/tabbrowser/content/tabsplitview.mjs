@@ -2304,6 +2304,9 @@ tab_close
 "
 footer_separate
 "
+"
+mini_window
+"
 .
 *
 /
