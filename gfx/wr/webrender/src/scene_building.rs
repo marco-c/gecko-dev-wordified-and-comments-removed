@@ -7388,6 +7388,9 @@ clip_tree_builder
 self
 .
 interners
+self
+.
+dl_stores
 )
 ;
 }
