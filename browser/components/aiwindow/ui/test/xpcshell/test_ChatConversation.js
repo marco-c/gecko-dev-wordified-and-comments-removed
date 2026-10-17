@@ -5206,13 +5206,6 @@ model
 "
 generic
 "
-version
-:
-"
-1
-.
-0
-"
 prompts
 :
 "
@@ -5500,13 +5493,6 @@ model
 :
 "
 generic
-"
-version
-:
-"
-1
-.
-0
 "
 prompts
 :
