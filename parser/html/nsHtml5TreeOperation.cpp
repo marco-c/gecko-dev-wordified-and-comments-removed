@@ -3850,11 +3850,11 @@ NS_NewCustomElement
 |
 isAtom
 ;
+RefPtr
+<
 CustomElementDefinition
-*
+>
 customElementDefinition
-=
-nullptr
 ;
 if
 (

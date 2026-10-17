@@ -2452,11 +2452,11 @@ HasCustomElementRegistryAttr
 aAtts
 )
 ;
+RefPtr
+<
 CustomElementDefinition
-*
+>
 customElementDefinition
-=
-nullptr
 ;
 nsAtom
 *
