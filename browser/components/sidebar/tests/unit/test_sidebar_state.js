@@ -223,6 +223,13 @@ sinon
 stub
 (
 )
+SidebarManager
+:
+{
+hasSidebarLauncherBeenVisible
+:
+false
+}
 requestMaxWidthUpdate
 :
 sinon
@@ -322,7 +329,7 @@ equal
 (
 props
 .
-userLauncherVisible
+launcherVisible
 true
 "
 The
@@ -422,7 +429,7 @@ equal
 (
 props
 .
-userLauncherVisible
+launcherVisible
 true
 "
 The
@@ -723,7 +730,7 @@ equal
 (
 props
 .
-userLauncherVisible
+launcherVisible
 true
 "
 The
