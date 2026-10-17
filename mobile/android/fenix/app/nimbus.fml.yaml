@@ -3952,7 +3952,7 @@ type
 Boolean
 default
 :
-false
+true
 homepage
 -
 hide
