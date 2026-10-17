@@ -152,13 +152,6 @@ PageFooter
 =
 2
 ;
-static
-constexpr
-uint64_t
-OtherArtifact
-=
-3
-;
 }
 ;
 using
@@ -245,10 +238,6 @@ SkPDF
 StructureElementNode
 &
 aPdf
-bool
-aInMath
-=
-false
 )
 ;
 int

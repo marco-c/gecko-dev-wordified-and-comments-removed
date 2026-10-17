@@ -340,8 +340,6 @@ nsDisplayListSet
 aLists
 uint32_t
 aIndex
-bool
-aIsArtifact
 const
 nsRect
 *

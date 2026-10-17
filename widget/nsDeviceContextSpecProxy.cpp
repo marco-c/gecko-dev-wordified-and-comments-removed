@@ -318,14 +318,6 @@ DrawEventRecorderPRFileDesc
 (
 )
 ;
-mRecorder
--
->
-SetSupportsGlyphSourceText
-(
-true
-)
-;
 nsresult
 rv
 =
