@@ -268,13 +268,6 @@ js
 ]
 [
 "
-browser_ext_commands_requestPermission
-.
-js
-"
-]
-[
-"
 browser_ext_commands_update
 .
 js
