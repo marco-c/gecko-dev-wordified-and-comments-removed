@@ -334,16 +334,6 @@ fenix
 messaging
 .
 MessagingState
-import
-org
-.
-mozilla
-.
-fenix
-.
-utils
-.
-Settings
 class
 MessagingMiddlewareTest
 {
@@ -353,12 +343,6 @@ var
 controller
 :
 NimbusMessagingController
-private
-lateinit
-var
-settings
-:
-Settings
 Before
 fun
 setUp
@@ -366,14 +350,6 @@ setUp
 )
 {
 controller
-=
-mockk
-(
-relaxed
-=
-true
-)
-settings
 =
 mockk
 (
@@ -420,7 +396,6 @@ listOf
 MessagingMiddleware
 (
 controller
-settings
 this
 )
 )
@@ -516,7 +491,6 @@ listOf
 MessagingMiddleware
 (
 controller
-settings
 this
 )
 )
@@ -625,7 +599,6 @@ listOf
 MessagingMiddleware
 (
 controller
-settings
 this
 )
 )
@@ -753,7 +726,6 @@ listOf
 MessagingMiddleware
 (
 controller
-settings
 this
 )
 )
@@ -876,7 +848,6 @@ listOf
 MessagingMiddleware
 (
 controller
-settings
 this
 )
 )
@@ -978,7 +949,6 @@ listOf
 MessagingMiddleware
 (
 controller
-settings
 this
 )
 )
@@ -1082,7 +1052,6 @@ listOf
 MessagingMiddleware
 (
 controller
-settings
 this
 )
 )
@@ -1209,7 +1178,6 @@ listOf
 MessagingMiddleware
 (
 controller
-settings
 this
 )
 )
@@ -1336,7 +1304,6 @@ listOf
 MessagingMiddleware
 (
 controller
-settings
 this
 )
 )
@@ -1469,7 +1436,6 @@ listOf
 MessagingMiddleware
 (
 controller
-settings
 this
 )
 )
@@ -1592,7 +1558,6 @@ listOf
 MessagingMiddleware
 (
 controller
-settings
 this
 )
 )
@@ -1707,7 +1672,6 @@ listOf
 MessagingMiddleware
 (
 controller
-settings
 this
 )
 )
@@ -1809,7 +1773,6 @@ listOf
 MessagingMiddleware
 (
 controller
-settings
 this
 )
 )
@@ -1979,7 +1942,6 @@ listOf
 MessagingMiddleware
 (
 controller
-settings
 this
 )
 )
@@ -2146,7 +2108,6 @@ listOf
 MessagingMiddleware
 (
 controller
-settings
 this
 )
 )
@@ -2349,7 +2310,6 @@ listOf
 MessagingMiddleware
 (
 controller
-settings
 this
 )
 )
@@ -2560,7 +2520,6 @@ listOf
 MessagingMiddleware
 (
 controller
-settings
 this
 )
 )
@@ -2725,7 +2684,6 @@ listOf
 MessagingMiddleware
 (
 controller
-settings
 this
 )
 )
