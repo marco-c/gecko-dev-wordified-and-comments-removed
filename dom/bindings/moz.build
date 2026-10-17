@@ -82,6 +82,9 @@ TEST_DIRS
 =
 [
 "
+gtest
+"
+"
 test
 "
 ]
@@ -199,6 +202,11 @@ h
 "
 "
 DOMString
+.
+h
+"
+"
+ECMACollections
 .
 h
 "
