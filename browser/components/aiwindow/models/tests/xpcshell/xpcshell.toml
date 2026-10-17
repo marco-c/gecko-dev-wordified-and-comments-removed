@@ -122,6 +122,13 @@ js
 ]
 [
 "
+test_PromptLoader_BrowserContext
+.
+js
+"
+]
+[
+"
 test_PromptOptimizer
 .
 js
