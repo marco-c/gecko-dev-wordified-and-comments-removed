@@ -354,7 +354,7 @@ slots
 >
 mRadioGroupContainer
 =
-MakeUnique
+MakeRefPtr
 <
 RadioGroupContainer
 >
@@ -582,7 +582,7 @@ nsAtom
 >
 mCustomStates
 ;
-UniquePtr
+RefPtr
 <
 RadioGroupContainer
 >

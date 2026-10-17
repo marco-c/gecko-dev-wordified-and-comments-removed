@@ -16505,7 +16505,7 @@ FragmentDirective
 >
 mFragmentDirective
 ;
-UniquePtr
+RefPtr
 <
 RadioGroupContainer
 >

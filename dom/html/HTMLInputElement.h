@@ -681,11 +681,8 @@ aModType
 const
 override
 ;
-NS_IMETHOD_
-(
 bool
-)
-IsAttributeMapped
+IsNoNamespaceAttrMapped
 (
 const
 nsAtom
@@ -5434,8 +5431,10 @@ IsDateTimeTypeSupported
 FormControlType
 )
 ;
+RefPtr
+<
 RadioGroupContainer
-*
+>
 mRadioGroupContainer
 ;
 struct
