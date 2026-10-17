@@ -3781,6 +3781,9 @@ rule_types_allowed
 style
 "
 "
+scope
+"
+"
 position
 -
 try
@@ -4126,6 +4129,9 @@ rule_types_allowed
 [
 "
 style
+"
+"
+scope
 "
 ]
 [

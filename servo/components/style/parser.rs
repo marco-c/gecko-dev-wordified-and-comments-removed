@@ -1027,6 +1027,10 @@ false
 }
 true
 }
+#
+[
+inline
+]
 pub
 fn
 rule_types
