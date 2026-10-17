@@ -45,9 +45,6 @@ null
 _canvas
 :
 null
-_imageName
-:
-null
 get
 _shell
 (
@@ -465,7 +462,6 @@ this
 init
 (
 aImage
-aImageName
 )
 {
 this
@@ -473,12 +469,6 @@ this
 _image
 =
 aImage
-;
-this
-.
-_imageName
-=
-aImageName
 ;
 this
 .
@@ -765,9 +755,6 @@ this
 .
 _position
 ]
-this
-.
-_imageName
 )
 ;
 }

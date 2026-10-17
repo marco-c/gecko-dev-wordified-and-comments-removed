@@ -12003,7 +12003,6 @@ then
 {
 failed
 dataURL
-imageName
 }
 )
 =
@@ -12150,7 +12149,6 @@ gSetBackground
 init
 (
 image
-imageName
 )
 ;
 dbWin
@@ -12183,7 +12181,6 @@ resizable
 no
 "
 image
-imageName
 )
 ;
 }
@@ -12221,7 +12218,6 @@ modal
 dependent
 "
 image
-imageName
 )
 ;
 }
