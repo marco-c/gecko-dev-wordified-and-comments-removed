@@ -3054,7 +3054,7 @@ for
 *
 param
 {
-window
+BrowserWindow
 }
 window
 *
@@ -9073,7 +9073,7 @@ view
 *
 param
 {
-Window
+BrowserWindow
 }
 window
 *

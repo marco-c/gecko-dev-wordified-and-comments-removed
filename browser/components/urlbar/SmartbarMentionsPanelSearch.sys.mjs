@@ -285,7 +285,7 @@ suggestions
 *
 param
 {
-Window
+BrowserWindow
 }
 browserWindow
 *
@@ -512,7 +512,7 @@ tabs
 *
 type
 {
-Window
+BrowserWindow
 }
 *
 /
@@ -525,7 +525,7 @@ browserWindow
 *
 param
 {
-Window
+BrowserWindow
 }
 browserWindow
 -

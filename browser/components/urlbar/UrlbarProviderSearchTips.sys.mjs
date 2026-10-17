@@ -1376,7 +1376,7 @@ picked
 *
 param
 {
-window
+BrowserWindow
 }
 window
 *
@@ -1603,7 +1603,7 @@ js
 *
 param
 {
-window
+BrowserWindow
 }
 window
 *
@@ -1719,7 +1719,7 @@ name
 *
 param
 {
-window
+BrowserWindow
 }
 window
 *
@@ -2259,7 +2259,7 @@ form
 *
 param
 {
-window
+BrowserWindow
 }
 window
 *
