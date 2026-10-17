@@ -119,6 +119,15 @@ extensions
 /
 schemas
 /
+builtin_widget
+.
+json
+content
+/
+extensions
+/
+schemas
+/
 captive_portal
 .
 json
