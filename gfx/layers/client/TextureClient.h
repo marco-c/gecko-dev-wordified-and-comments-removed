@@ -1659,6 +1659,17 @@ BorrowSnapshot
 (
 )
 ;
+already_AddRefed
+<
+gfx
+:
+:
+SourceSurface
+>
+GetBufferSnapshot
+(
+)
+;
 void
 ReturnSnapshot
 (
