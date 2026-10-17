@@ -383,6 +383,11 @@ TestHttpAtom
 .
 cpp
 "
+"
+TestSOCKSProxyLookup
+.
+cpp
+"
 ]
 if
 CONFIG
