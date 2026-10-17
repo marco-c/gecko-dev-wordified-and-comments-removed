@@ -313,6 +313,12 @@ IPHONEOS_SDK_DIR
 _as_str
     
 "
+MOZ_ASAN
+"
+:
+_bool
+    
+"
 MOZ_CARGO_BUILD_STD_ARGS
 "
 :
@@ -547,6 +553,18 @@ MOZ_LTO_OBJECT_PATH
 _bool
     
 "
+MOZ_LTO_RUST_CROSS
+"
+:
+_bool
+    
+"
+MOZ_PROFILE_GENERATE
+"
+:
+_bool
+    
+"
 MOZ_RUSTC_BOOTSTRAP_DEFAULT
 "
 :
@@ -617,6 +635,18 @@ MOZ_RUST_SANITIZER_OPTION_VARS
 "
 :
 _as_list
+    
+"
+MOZ_TSAN
+"
+:
+_bool
+    
+"
+MOZ_UBSAN
+"
+:
+_bool
     
 "
 OS_ARCH
@@ -894,6 +924,8 @@ libraries
 outputs
 are
 the
+library
+or
 program
 files
 Cargo
@@ -901,8 +933,8 @@ leaves
 in
 its
 target
-directory
     
+directory
 relative
 to
 the
