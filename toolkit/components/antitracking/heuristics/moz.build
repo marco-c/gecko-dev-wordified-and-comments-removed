@@ -59,6 +59,11 @@ mozilla
 =
 [
 "
+AntiTrackingOpenerHeuristics
+.
+h
+"
+"
 AntiTrackingRedirectHeuristic
 .
 h
@@ -78,6 +83,11 @@ UNIFIED_SOURCES
 +
 =
 [
+"
+AntiTrackingOpenerHeuristics
+.
+cpp
+"
 "
 AntiTrackingRedirectHeuristic
 .
