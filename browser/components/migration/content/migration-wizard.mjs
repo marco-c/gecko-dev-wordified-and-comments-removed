@@ -7941,6 +7941,11 @@ migratorKey
 ]
 )
 ;
+if
+(
+panelItem
+)
+{
 this
 .
 #
@@ -7949,6 +7954,7 @@ onBrowserProfileSelectionChanged
 panelItem
 )
 ;
+}
 }
 let
 fileImportErrorMessageEl

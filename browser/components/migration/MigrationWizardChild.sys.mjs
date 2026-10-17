@@ -1176,6 +1176,11 @@ true
 allowOnlyFileMigrators
 *
 /
+event
+.
+detail
+.
+key
 )
 ;
 }
@@ -1245,6 +1250,7 @@ async
 requestState
 (
 allowOnlyFileMigrators
+migratorKey
 )
 {
 this
@@ -1269,6 +1275,7 @@ this
 populateMigrators
 (
 allowOnlyFileMigrators
+migratorKey
 )
 ;
 this
