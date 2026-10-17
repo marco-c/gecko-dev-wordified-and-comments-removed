@@ -319,6 +319,9 @@ StructureElementNode
 SkString
 fTypeString
 ;
+SkString
+fNamespace
+;
 std
 :
 :
