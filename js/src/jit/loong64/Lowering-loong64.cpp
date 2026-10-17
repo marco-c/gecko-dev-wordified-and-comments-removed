@@ -9771,7 +9771,7 @@ alloc
 LWasmReplaceInt64LaneSimd128
 (
 lhs
-useInt64Register
+useInt64RegisterOrZero
 (
 ins
 -
