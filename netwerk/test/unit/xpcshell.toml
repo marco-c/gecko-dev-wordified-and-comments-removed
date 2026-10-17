@@ -4396,6 +4396,13 @@ js
 ]
 [
 "
+test_freshconnection_origin_attributes
+.
+js
+"
+]
+[
+"
 test_getHost
 .
 js
