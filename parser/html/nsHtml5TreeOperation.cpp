@@ -3318,6 +3318,8 @@ aElement
 nsHtml5HtmlAttributes
 *
 aAttributes
+bool
+aNotify
 )
 {
 int32_t
@@ -3407,6 +3409,10 @@ nsGkAtoms
 :
 :
 _class
+&
+&
+!
+aNotify
 )
 {
 nsAtom
@@ -3461,7 +3467,7 @@ localName
 nullptr
 valAtom
 nullptr
-false
+aNotify
 )
 ;
 }
@@ -3486,7 +3492,7 @@ kNameSpaceID_None
 localName
 nullptr
 value
-false
+aNotify
 )
 ;
 }
@@ -4186,6 +4192,7 @@ SetHTMLElementAttributes
 (
 element
 aAttributes
+willExecuteScript
 )
 ;
 }
