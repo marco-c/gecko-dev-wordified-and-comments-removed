@@ -1426,6 +1426,11 @@ getDisplaySpec
 UrlbarContentUtils
 .
 getDisplaySpec
+getReaderOriginalDisplaySpec
+:
+UrlbarContentUtils
+.
+getReaderOriginalDisplaySpec
 unEscapeURIForUI
 :
 UrlbarContentUtils
