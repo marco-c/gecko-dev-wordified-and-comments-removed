@@ -65,9 +65,6 @@ keyframe
 page
 "
 "
-scope
-"
-"
 page
 "
 "
@@ -144,9 +141,6 @@ keyframe
 page
 "
 "
-scope
-"
-"
 position
 -
 try
@@ -215,9 +209,6 @@ keyframe
 "
 "
 page
-"
-"
-scope
 "
 "
 position
@@ -560,9 +551,6 @@ keyframe
 page
 "
 "
-scope
-"
-"
 position
 -
 try
@@ -631,9 +619,6 @@ keyframe
 "
 "
 page
-"
-"
-scope
 "
 "
 position
@@ -2995,9 +2980,6 @@ style
 keyframe
 "
 "
-scope
-"
-"
 position
 -
 try
@@ -3065,9 +3047,6 @@ style
 keyframe
 "
 "
-scope
-"
-"
 position
 -
 try
@@ -3133,9 +3112,6 @@ style
 "
 "
 keyframe
-"
-"
-scope
 "
 "
 position
@@ -3781,9 +3757,6 @@ rule_types_allowed
 style
 "
 "
-scope
-"
-"
 position
 -
 try
@@ -4129,9 +4102,6 @@ rule_types_allowed
 [
 "
 style
-"
-"
-scope
 "
 ]
 [

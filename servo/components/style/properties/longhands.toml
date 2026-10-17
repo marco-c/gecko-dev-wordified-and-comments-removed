@@ -1369,9 +1369,6 @@ style
 keyframe
 "
 "
-scope
-"
-"
 position
 -
 try
@@ -1673,9 +1670,6 @@ rule_types_allowed
 "
 style
 "
-"
-scope
-"
 ]
 affects
 =
@@ -1766,9 +1760,6 @@ rule_types_allowed
 [
 "
 style
-"
-"
-scope
 "
 ]
 affects
@@ -1951,9 +1942,6 @@ rule_types_allowed
 "
 style
 "
-"
-scope
-"
 ]
 affects
 =
@@ -2024,9 +2012,6 @@ rule_types_allowed
 [
 "
 style
-"
-"
-scope
 "
 ]
 spec
@@ -2122,9 +2107,6 @@ rule_types_allowed
 [
 "
 style
-"
-"
-scope
 "
 ]
 spec
@@ -2245,9 +2227,6 @@ rule_types_allowed
 "
 style
 "
-"
-scope
-"
 ]
 affects
 =
@@ -2349,9 +2328,6 @@ rule_types_allowed
 "
 style
 "
-"
-scope
-"
 ]
 affects
 =
@@ -2452,9 +2428,6 @@ rule_types_allowed
 [
 "
 style
-"
-"
-scope
 "
 ]
 affects
@@ -2554,9 +2527,6 @@ rule_types_allowed
 [
 "
 style
-"
-"
-scope
 "
 ]
 affects
@@ -3567,9 +3537,6 @@ style
 keyframe
 "
 "
-scope
-"
-"
 position
 -
 try
@@ -3714,9 +3681,6 @@ style
 "
 "
 keyframe
-"
-"
-scope
 "
 "
 position
@@ -9003,9 +8967,6 @@ style
 keyframe
 "
 "
-scope
-"
-"
 position
 -
 try
@@ -9220,9 +9181,6 @@ style
 keyframe
 "
 "
-scope
-"
-"
 position
 -
 try
@@ -9306,9 +9264,6 @@ style
 keyframe
 "
 "
-scope
-"
-"
 position
 -
 try
@@ -9393,9 +9348,6 @@ style
 "
 "
 keyframe
-"
-"
-scope
 "
 "
 position
@@ -9484,9 +9436,6 @@ style
 keyframe
 "
 "
-scope
-"
-"
 position
 -
 try
@@ -9571,9 +9520,6 @@ style
 "
 "
 keyframe
-"
-"
-scope
 "
 "
 position
@@ -9807,9 +9753,6 @@ style
 keyframe
 "
 "
-scope
-"
-"
 position
 -
 try
@@ -9887,9 +9830,6 @@ style
 "
 "
 keyframe
-"
-"
-scope
 "
 "
 position
@@ -10677,9 +10617,6 @@ style
 keyframe
 "
 "
-scope
-"
-"
 position
 -
 try
@@ -10763,9 +10700,6 @@ style
 "
 "
 keyframe
-"
-"
-scope
 "
 "
 position
@@ -10859,9 +10793,6 @@ style
 keyframe
 "
 "
-scope
-"
-"
 position
 -
 try
@@ -10945,9 +10876,6 @@ style
 "
 "
 keyframe
-"
-"
-scope
 "
 "
 position
@@ -11041,9 +10969,6 @@ style
 keyframe
 "
 "
-scope
-"
-"
 position
 -
 try
@@ -11127,9 +11052,6 @@ style
 "
 "
 keyframe
-"
-"
-scope
 "
 "
 position
@@ -11223,9 +11145,6 @@ style
 keyframe
 "
 "
-scope
-"
-"
 position
 -
 try
@@ -11309,9 +11228,6 @@ style
 "
 "
 keyframe
-"
-"
-scope
 "
 "
 position
@@ -13599,9 +13515,6 @@ style
 keyframe
 "
 "
-scope
-"
-"
 position
 -
 try
@@ -13681,9 +13594,6 @@ style
 "
 "
 keyframe
-"
-"
-scope
 "
 "
 position
@@ -14224,9 +14134,6 @@ style
 "
 "
 keyframe
-"
-"
-scope
 "
 "
 position
@@ -16262,9 +16169,6 @@ style
 keyframe
 "
 "
-scope
-"
-"
 position
 -
 try
@@ -17705,9 +17609,6 @@ rule_types_allowed
 "
 style
 "
-"
-scope
-"
 ]
 affects
 =
@@ -17806,9 +17707,6 @@ rule_types_allowed
 [
 "
 style
-"
-"
-scope
 "
 ]
 affects
@@ -17908,9 +17806,6 @@ rule_types_allowed
 [
 "
 style
-"
-"
-scope
 "
 ]
 affects
@@ -18011,9 +17906,6 @@ rule_types_allowed
 "
 style
 "
-"
-scope
-"
 ]
 affects
 =
@@ -18112,9 +18004,6 @@ rule_types_allowed
 [
 "
 style
-"
-"
-scope
 "
 ]
 affects
@@ -19201,9 +19090,6 @@ style
 "
 "
 keyframe
-"
-"
-scope
 "
 "
 position
@@ -25667,9 +25553,6 @@ keyframe
 page
 "
 "
-scope
-"
-"
 position
 -
 try
@@ -25768,9 +25651,6 @@ keyframe
 "
 "
 page
-"
-"
-scope
 "
 "
 position
@@ -25873,9 +25753,6 @@ keyframe
 page
 "
 "
-scope
-"
-"
 position
 -
 try
@@ -25974,9 +25851,6 @@ keyframe
 "
 "
 page
-"
-"
-scope
 "
 "
 position
@@ -26082,9 +25956,6 @@ style
 keyframe
 "
 "
-scope
-"
-"
 position
 -
 try
@@ -26186,9 +26057,6 @@ style
 "
 "
 keyframe
-"
-"
-scope
 "
 "
 position
@@ -26306,9 +26174,6 @@ style
 keyframe
 "
 "
-scope
-"
-"
 position
 -
 try
@@ -26422,9 +26287,6 @@ style
 "
 "
 keyframe
-"
-"
-scope
 "
 "
 position
