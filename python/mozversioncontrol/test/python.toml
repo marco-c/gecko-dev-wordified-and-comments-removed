@@ -78,6 +78,13 @@ py
 ]
 [
 "
+test_is_shallow
+.
+py
+"
+]
+[
+"
 test_push
 .
 py

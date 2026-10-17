@@ -121,6 +121,18 @@ self
         
 pass
     
+property
+    
+def
+is_shallow
+(
+self
+)
+:
+        
+return
+False
+    
 def
 is_cinnabar_repo
 (
