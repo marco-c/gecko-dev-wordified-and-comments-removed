@@ -1593,7 +1593,6 @@ query
 )
 ;
 [
-SameObject
 Replaceable
 ]
 readonly
