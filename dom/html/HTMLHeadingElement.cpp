@@ -468,7 +468,7 @@ inclusiveAncestor
 inclusiveAncestor
 -
 >
-GetFlattenedTreeParentElement
+GetParentElementCrossingShadowRoot
 (
 )
 ;
@@ -597,14 +597,11 @@ aBuilder
 )
 ;
 }
-NS_IMETHODIMP_
-(
 bool
-)
 HTMLHeadingElement
 :
 :
-IsAttributeMapped
+IsNoNamespaceAttrMapped
 (
 const
 nsAtom
