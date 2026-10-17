@@ -144,6 +144,12 @@ CaptivePortalService
 (
 )
 ;
+bool
+IsActive
+(
+)
+const
+;
 nsresult
 PerformCheck
 (
