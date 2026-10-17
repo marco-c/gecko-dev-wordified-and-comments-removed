@@ -178,6 +178,14 @@ EnsureDigitalCredentialHandler
 (
 )
 ;
+bool
+CheckState
+(
+Promise
+&
+aPromise
+)
+;
 nsCOMPtr
 <
 nsPIDOMWindowInner
