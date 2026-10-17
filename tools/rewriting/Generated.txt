@@ -3987,6 +3987,17 @@ settings
 /
 dumps
 /
+testing
+/
+raptor
+/
+browsertime
+/
+utils
+/
+doh_busy_sites
+.
+json
 toolkit
 /
 components
