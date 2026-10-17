@@ -219,13 +219,6 @@ js
 ]
 [
 "
-browser_smartwindow_location
-.
-js
-"
-]
-[
-"
 browser_title_generation
 .
 js
