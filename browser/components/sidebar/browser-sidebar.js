@@ -1117,6 +1117,9 @@ toolContextMenuId
 "
 aichat
 "
+hasCustomHeader
+:
+true
 permissions
 :
 true
