@@ -178,17 +178,6 @@ treeherder
 symbol
 :
 FV
-run
--
-on
--
-repo
--
-type
-:
-[
-hg
-]
 name
 :
 final
