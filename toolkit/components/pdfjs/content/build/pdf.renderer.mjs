@@ -171,11 +171,11 @@ pdfjsVersion
 .
 5
 .
-152
+180
 *
 pdfjsBuild
 =
-0252c1f6c
+dda8b7280
 *
 /
 ;
@@ -52837,7 +52837,7 @@ workerVersion
 .
 5
 .
-152
+180
 "
 ;
 const
