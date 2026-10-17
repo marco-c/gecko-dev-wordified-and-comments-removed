@@ -273,6 +273,13 @@ focusable
 ]
 [
 "
+browser_aboutwelcome_import_dropdown
+.
+js
+"
+]
+[
+"
 browser_aboutwelcome_impression_action
 .
 js
