@@ -889,6 +889,16 @@ GpuBufferBlockI
 }
 ;
 pub
+use
+gpu_buffer
+:
+:
+{
+GpuBufferBlockEdge
+PathEdgeBufferBuilder
+}
+;
+pub
 const
 VERTEX_DATA_TEXTURE_COUNT
 :
