@@ -83,6 +83,11 @@ TestScheduler
 cpp
 "
 "
+TestScriptCompression
+.
+cpp
+"
+"
 TestTextDirective
 .
 cpp
