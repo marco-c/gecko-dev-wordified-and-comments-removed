@@ -324,7 +324,7 @@ GetParentObject
 const
 {
 return
-mParentNode
+mPolicyOwnerNode
 ;
 }
 bool
@@ -495,6 +495,19 @@ aOrigin
 )
 const
 ;
+bool
+GetFeatureValueForOrigin
+(
+const
+nsAString
+&
+aFeatureName
+nsIPrincipal
+*
+aOrigin
+)
+const
+;
 void
 SetInheritedDeniedFeature
 (
@@ -526,7 +539,7 @@ const
 ;
 nsINode
 *
-mParentNode
+mPolicyOwnerNode
 ;
 nsTArray
 <
