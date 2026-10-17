@@ -4958,7 +4958,7 @@ getStringPref
 loglevel
 "
 "
-error
+Error
 "
 )
 }
@@ -7819,7 +7819,7 @@ getStringPref
 loglevel
 "
 "
-error
+Error
 "
 )
 }

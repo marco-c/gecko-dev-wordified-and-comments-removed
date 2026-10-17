@@ -222,11 +222,11 @@ SearchUtils
 loggingEnabled
 ?
 "
-debug
+Debug
 "
 :
 "
-warn
+Warn
 "
 }
 )

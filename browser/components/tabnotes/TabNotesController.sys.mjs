@@ -195,11 +195,11 @@ false
 )
 ?
 "
-debug
+Debug
 "
 :
 "
-warn
+Warn
 "
 }
 )

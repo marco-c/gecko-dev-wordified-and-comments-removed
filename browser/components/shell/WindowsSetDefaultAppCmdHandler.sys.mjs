@@ -277,7 +277,7 @@ WindowsSetDefaultAppCmdHandler
 maxLogLevel
 :
 "
-warn
+Warn
 "
 }
 )

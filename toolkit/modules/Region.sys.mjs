@@ -433,11 +433,11 @@ lazy
 loggingEnabled
 ?
 "
-all
+All
 "
 :
 "
-warn
+Warn
 "
 }
 )

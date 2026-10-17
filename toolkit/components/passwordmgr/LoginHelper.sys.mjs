@@ -3711,11 +3711,11 @@ this
 debug
 ?
 "
-debug
+Debug
 "
 :
 "
-warn
+Warn
 "
 ;
 }

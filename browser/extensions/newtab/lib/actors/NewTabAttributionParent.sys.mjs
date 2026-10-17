@@ -130,7 +130,7 @@ NewTabAttributionParent
 maxLogLevel
 :
 "
-warn
+Warn
 "
 }
 )

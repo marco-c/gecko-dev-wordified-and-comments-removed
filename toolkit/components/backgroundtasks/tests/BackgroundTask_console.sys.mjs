@@ -225,7 +225,7 @@ MOZ_LOG
 maxLogLevel
 :
 "
-info
+Info
 "
 }
 )
@@ -242,7 +242,7 @@ prefixed
 shouldLog
 (
 "
-error
+Error
 "
 )
 shouldLogLog
@@ -252,7 +252,7 @@ prefixed
 shouldLog
 (
 "
-log
+Log
 "
 )
 }
@@ -320,7 +320,7 @@ MOZ_LOG
 maxLogLevel
 :
 "
-error
+Error
 "
 }
 )
@@ -391,7 +391,7 @@ only
 maxLogLevel
 :
 "
-error
+Error
 "
 }
 )

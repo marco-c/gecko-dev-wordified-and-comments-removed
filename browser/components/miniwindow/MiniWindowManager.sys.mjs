@@ -105,11 +105,11 @@ false
 )
 ?
 "
-debug
+Debug
 "
 :
 "
-error
+Error
 "
 }
 )

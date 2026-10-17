@@ -130,7 +130,7 @@ ToastNotification
 maxLogLevel
 :
 "
-warn
+Warn
 "
 }
 )

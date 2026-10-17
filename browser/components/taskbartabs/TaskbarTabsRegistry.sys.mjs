@@ -137,7 +137,7 @@ TaskbarTabs
 maxLogLevel
 :
 "
-warn
+Warn
 "
 }
 )

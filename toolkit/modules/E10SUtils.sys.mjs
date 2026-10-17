@@ -552,7 +552,7 @@ ProcessSwitch
 maxLogLevel
 :
 "
-error
+Error
 "
 /
 /
