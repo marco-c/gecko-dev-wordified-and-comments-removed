@@ -9399,6 +9399,11 @@ this
 false
 )
 ;
+MaybeReportTimingDataForRedirect
+(
+mRedirectChannelChild
+)
+;
 }
 else
 {

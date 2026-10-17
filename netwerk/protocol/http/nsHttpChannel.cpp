@@ -21483,6 +21483,11 @@ RedirectSucceeded
 (
 )
 ;
+MaybeReportTimingDataForRedirect
+(
+mRedirectChannel
+)
+;
 ReleaseListeners
 (
 )

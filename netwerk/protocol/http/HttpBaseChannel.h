@@ -3297,6 +3297,14 @@ MaybeReportTimingData
 (
 )
 ;
+void
+MaybeReportTimingDataForRedirect
+(
+nsISupports
+*
+aNewChannel
+)
+;
 nsIURI
 *
 GetReferringPage

@@ -4024,6 +4024,13 @@ js
 ]
 [
 "
+test_ext_webRequest_redirect_resource_timing
+.
+js
+"
+]
+[
+"
 test_ext_webRequest_requestSize
 .
 js
