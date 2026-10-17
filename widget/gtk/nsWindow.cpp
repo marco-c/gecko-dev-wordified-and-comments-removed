@@ -35737,6 +35737,10 @@ sNoScale
 }
 if
 (
+!
+mIsAccelerated
+&
+&
 mWindowType
 =
 =
