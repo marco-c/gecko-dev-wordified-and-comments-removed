@@ -266,6 +266,16 @@ length
 =
 length
 ;
+MOZ_ASSERT
+(
+getDenseInitializedLength
+(
+)
+<
+=
+length
+)
+;
 }
 void
 assertInt32LengthFuse
