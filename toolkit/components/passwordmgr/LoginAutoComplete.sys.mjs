@@ -984,6 +984,11 @@ edit
 password
 "
 )
+type
+:
+"
+edit
+"
 fillMessageName
 :
 "
@@ -1023,6 +1028,11 @@ delete
 password
 "
 )
+type
+:
+"
+delete
+"
 fillMessageName
 :
 "
