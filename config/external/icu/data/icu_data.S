@@ -154,6 +154,9 @@ rodata
 #
 endif
 .
+ascii
+ICU_DATA_HASH
+.
 balign
 16
 ICU_DATA_SYMBOL
