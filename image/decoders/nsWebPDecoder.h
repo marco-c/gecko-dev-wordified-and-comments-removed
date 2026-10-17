@@ -213,8 +213,8 @@ uint8_t
 >
 mBufferedData
 ;
-WebPDecBuffer
-mBuffer
+WebPDecoderConfig
+mConfig
 ;
 WebPIDecoder
 *

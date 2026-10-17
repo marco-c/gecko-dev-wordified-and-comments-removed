@@ -282,6 +282,13 @@ jxl
 "
 "
 downscaled
+-
+lossy
+.
+webp
+"
+"
+downscaled
 .
 avif
 "

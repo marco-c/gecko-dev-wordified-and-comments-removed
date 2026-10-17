@@ -2130,6 +2130,11 @@ DownscaledWebPTestCase
 )
 ;
 ImageTestCase
+DownscaledLossyWebPTestCase
+(
+)
+;
+ImageTestCase
 DownscaledTransparentICOWithANDMaskTestCase
 (
 )
