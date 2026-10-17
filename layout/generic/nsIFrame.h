@@ -7727,6 +7727,12 @@ return
 mIsPrimaryFrame
 ;
 }
+bool
+IsInReplicatedFixedPosTree
+(
+)
+const
+;
 void
 SetIsPrimaryFrame
 (
