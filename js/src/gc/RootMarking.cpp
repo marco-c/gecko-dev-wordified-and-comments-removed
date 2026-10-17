@@ -2110,6 +2110,17 @@ traceSelfHostingStencil
 trc
 )
 ;
+jit
+:
+:
+JitRuntime
+:
+:
+TraceDebugModeOSRReturnSites
+(
+trc
+)
+;
 for
 (
 ZonesIter
