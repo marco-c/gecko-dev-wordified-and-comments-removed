@@ -1163,6 +1163,9 @@ licenseUrl
 :
 "
 "
+previous
+:
+null
 error
 :
 null
@@ -7073,6 +7076,16 @@ licenseUrl
 ?
 "
 "
+previous
+:
+action
+.
+data
+.
+previous
+?
+?
+null
 lastUpdated
 :
 action
