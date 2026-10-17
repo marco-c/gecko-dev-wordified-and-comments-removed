@@ -67,6 +67,13 @@ js
 ]
 [
 "
+browser_permissions_app_links
+.
+js
+"
+]
+[
+"
 browser_permissions_checkPermissionsWereAdded
 .
 js
