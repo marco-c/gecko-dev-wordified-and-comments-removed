@@ -2803,6 +2803,13 @@ reader
 ?
 *
 "
+"
+about
+:
+smartpage
+?
+*
+"
 ]
 messageManagerGroups
 :

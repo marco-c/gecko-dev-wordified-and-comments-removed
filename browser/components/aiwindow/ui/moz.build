@@ -111,6 +111,17 @@ toml
 "
 test
 /
+browser
+/
+get_page_content
+/
+browser
+.
+toml
+"
+"
+test
+/
 browser_perf
 /
 perftest
