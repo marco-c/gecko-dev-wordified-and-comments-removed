@@ -34589,7 +34589,7 @@ lazy
 .
 backupDirPref
 {
-retryReadony
+retryReadonly
 :
 true
 }
