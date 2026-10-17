@@ -8755,6 +8755,8 @@ NativeObject
 *
 >
 obj
+uint32_t
+newInitializedLength
 )
 ;
 inline
