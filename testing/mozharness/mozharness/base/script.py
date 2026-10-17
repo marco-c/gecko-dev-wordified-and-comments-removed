@@ -462,6 +462,9 @@ path
 numeric_owner
 =
 False
+member_filter
+=
+None
 )
 :
     
@@ -478,6 +481,20 @@ member
 in
 tar
 :
+            
+if
+member_filter
+and
+not
+member_filter
+(
+member
+.
+name
+)
+:
+                
+continue
             
 _validate_tar_member
 (
@@ -4679,6 +4696,7 @@ file
 def
 deflate
 (
+        
 self
 compressed_file
 mode
@@ -4687,11 +4705,15 @@ extract_to
 "
 .
 "
+member_filter
+=
+None
 *
 args
 *
 *
 kwargs
+    
 )
 :
         
@@ -4785,6 +4807,28 @@ the
 compressed
 file
 .
+            
+member_filter
+(
+callable
+optional
+)
+:
+called
+with
+each
+member
+name
+only
+                                                
+members
+it
+returns
+True
+for
+are
+extracted
+.
         
 "
 "
@@ -4848,6 +4892,9 @@ t
 path
 =
 extract_to
+member_filter
+=
+member_filter
 )
         
 else
@@ -4875,11 +4922,15 @@ t
 path
 =
 extract_to
+member_filter
+=
+member_filter
 )
     
 def
 download_unpack
 (
+        
 self
 url
 extract_to
@@ -4895,6 +4946,10 @@ extract_dirs
 verbose
 =
 False
+member_filter
+=
+None
+    
 )
 :
         
@@ -5002,6 +5057,22 @@ displayed
 Defaults
 to
 False
+.
+            
+member_filter
+(
+callable
+optional
+)
+:
+see
+deflate
+.
+Only
+applies
+to
+tar
+files
 .
         
 "
@@ -5424,6 +5495,26 @@ kwargs
 }
 )
 )
+            
+if
+member_filter
+and
+function
+=
+=
+self
+.
+deflate
+:
+                
+kwargs
+[
+"
+member_filter
+"
+]
+=
+member_filter
             
 return
 function
