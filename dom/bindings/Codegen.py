@@ -101685,6 +101685,31 @@ getDeps
 (
 )
         
+self
+.
+_isIteratorInterface
+=
+(
+            
+descriptor
+.
+interface
+.
+isIteratorInterface
+(
+)
+            
+or
+descriptor
+.
+interface
+.
+isAsyncIteratorInterface
+(
+)
+        
+)
+        
 iteratorCGThings
 =
 None
@@ -101852,32 +101877,11 @@ cgThings
 [
 ]
         
-isIteratorInterface
-=
-(
-            
-descriptor
-.
-interface
-.
-isIteratorInterface
-(
-)
-            
-or
-descriptor
-.
-interface
-.
-isAsyncIteratorInterface
-(
-)
-        
-)
-        
 if
 not
-isIteratorInterface
+self
+.
+_isIteratorInterface
 :
             
 cgThings
@@ -103610,7 +103614,9 @@ concrete
 and
 (
             
-isIteratorInterface
+self
+.
+_isIteratorInterface
             
 or
 (
@@ -103822,10 +103828,14 @@ append
                     
 CGWrapNonWrapperCacheMethod
 (
+                        
 descriptor
 static
 =
-isIteratorInterface
+self
+.
+_isIteratorInterface
+                    
 )
                 
 )
@@ -104116,7 +104126,9 @@ haveLegacyWindowAliases
                     
 static
 =
-isIteratorInterface
+self
+.
+_isIteratorInterface
                 
 )
             
@@ -104161,7 +104173,9 @@ hasChildInterfaces
                     
 assert
 not
-isIteratorInterface
+self
+.
+_isIteratorInterface
                     
 cgThings
 .
@@ -104341,6 +104355,16 @@ forward_declare
 self
 )
 :
+        
+if
+self
+.
+_isIteratorInterface
+:
+            
+return
+"
+"
         
 return
 f
@@ -145397,15 +145421,8 @@ h
 ]
 )
         
-names
+descriptors
 =
-list
-(
-)
-        
-for
-d
-in
 config
 .
 getDescriptors
@@ -145414,16 +145431,12 @@ isSerializable
 =
 True
 )
-:
-            
-names
-.
-append
-(
+        
+for
 d
-.
-name
-)
+in
+descriptors
+:
             
 defineIncludes
 .
@@ -145442,7 +145455,7 @@ interface
 if
 len
 (
-names
+descriptors
 )
 =
 =
@@ -145465,7 +145478,7 @@ CGGeneric
 if
 len
 (
-names
+descriptors
 )
 >
 20
@@ -145507,7 +145520,7 @@ table
 %
 len
 (
-names
+descriptors
 )
             
 )
@@ -145519,13 +145532,27 @@ list
 )
         
 for
-name
+d
 in
 sorted
 (
-names
+descriptors
+key
+=
+lambda
+descriptor
+:
+descriptor
+.
+name
 )
 :
+            
+name
+=
+d
+.
+name
             
 exposedGlobals
 =
