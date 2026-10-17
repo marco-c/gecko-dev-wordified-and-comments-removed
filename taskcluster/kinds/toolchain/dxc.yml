@@ -62,13 +62,6 @@ defaults
 :
 attributes
 :
-dxc
--
-crash
--
-symbols
-:
-true
 enable
 -
 full
