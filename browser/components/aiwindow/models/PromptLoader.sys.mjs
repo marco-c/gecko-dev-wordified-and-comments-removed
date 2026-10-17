@@ -3788,6 +3788,11 @@ model
 =
 mainConfig
 .
+inference_model
+|
+|
+mainConfig
+.
 model
 ;
 const
@@ -3849,6 +3854,11 @@ modelChoiceIdOverride
 ;
 model
 =
+chatConfig
+.
+inference_model
+|
+|
 chatConfig
 .
 model
