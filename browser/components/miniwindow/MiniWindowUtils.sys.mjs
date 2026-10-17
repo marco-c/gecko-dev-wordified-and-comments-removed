@@ -339,6 +339,7 @@ obstacle
 s
 edge
 :
+:
 *
 *
 +
@@ -1696,6 +1697,7 @@ pixel
 spaces
 meet
 here
+:
 :
 *
 desktop

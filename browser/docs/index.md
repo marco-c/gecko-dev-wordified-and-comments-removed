@@ -115,6 +115,13 @@ docs
 index
 components
 /
+miniwindow
+/
+docs
+/
+index
+components
+/
 pagedata
 /
 docs
@@ -131,6 +138,13 @@ docs
 /
 index
 search
+/
+index
+components
+/
+sessionstore
+/
+docs
 /
 index
 components

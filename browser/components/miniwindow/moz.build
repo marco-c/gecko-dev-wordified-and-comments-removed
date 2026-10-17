@@ -83,6 +83,16 @@ jar
 mn
 "
 ]
+SPHINX_TREES
+[
+"
+docs
+"
+]
+=
+"
+docs
+"
 MOZ_SRC_FILES
 +
 =
