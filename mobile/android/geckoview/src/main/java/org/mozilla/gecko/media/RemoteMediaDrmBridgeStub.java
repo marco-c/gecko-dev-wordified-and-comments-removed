@@ -80,7 +80,7 @@ mCallbacks
 null
 ;
 private
-GeckoMediaDrm
+GeckoMediaDrmBridge
 mBridge
 =
 null
@@ -796,7 +796,7 @@ try
 mBridge
 =
 new
-GeckoMediaDrmBridgeV23
+GeckoMediaDrmBridge
 (
 keySystem
 )
@@ -805,6 +805,13 @@ mStubId
 =
 stubId
 ;
+synchronized
+(
+RemoteMediaDrmBridgeStub
+.
+class
+)
+{
 mBridgeStubs
 .
 add
@@ -812,6 +819,7 @@ add
 this
 )
 ;
+}
 }
 catch
 (
@@ -1287,6 +1295,13 @@ release
 "
 )
 ;
+synchronized
+(
+RemoteMediaDrmBridgeStub
+.
+class
+)
+{
 mBridgeStubs
 .
 remove
@@ -1294,6 +1309,7 @@ remove
 this
 )
 ;
+}
 if
 (
 mBridge
