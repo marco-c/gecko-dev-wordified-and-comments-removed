@@ -138,6 +138,9 @@ mod
 batch
 ;
 mod
+bezier
+;
+mod
 border
 ;
 mod
