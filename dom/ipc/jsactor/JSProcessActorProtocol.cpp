@@ -358,6 +358,16 @@ GetSingleton
 )
 ;
 }
+if
+(
+!
+manager
+)
+{
+return
+NS_OK
+;
+}
 AutoJSAPI
 jsapi
 ;
