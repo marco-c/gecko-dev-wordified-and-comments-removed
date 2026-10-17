@@ -3498,6 +3498,10 @@ Arc
 <
 ChunkPool
 >
+dl_stores
+:
+&
+DlStores
 )
 -
 >
@@ -3596,6 +3600,7 @@ mut
 self
 .
 data_stores
+dl_stores
 &
 mut
 self
@@ -3763,6 +3768,10 @@ ChunkPool
 debug_flags
 :
 DebugFlags
+dl_stores
+:
+&
+DlStores
 )
 -
 >
@@ -3889,6 +3898,7 @@ dynamic_properties
 self
 .
 data_stores
+dl_stores
 &
 mut
 self
@@ -6691,6 +6701,10 @@ clone
 win
 .
 debug_flags
+&
+self
+.
+dl_stores
 )
 ;
 let
@@ -10756,6 +10770,10 @@ chunk_pool
 clone
 (
 )
+&
+self
+.
+dl_stores
 )
 ;
 debug
@@ -12124,6 +12142,10 @@ chunk_pool
 clone
 (
 )
+&
+self
+.
+dl_stores
 )
 ;
 doc

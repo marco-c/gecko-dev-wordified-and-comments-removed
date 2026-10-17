@@ -1,11 +1,3 @@
-#
-!
-[
-allow
-(
-dead_code
-)
-]
 use
 crate
 :
@@ -144,6 +136,13 @@ path
 }
 }
 }
+#
+[
+allow
+(
+dead_code
+)
+]
 pub
 struct
 DlResolveContext
