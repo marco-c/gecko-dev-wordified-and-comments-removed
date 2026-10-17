@@ -1017,6 +1017,17 @@ MOZ_CRASH
 ;
 }
 static
+uint32_t
+NopSize
+(
+)
+{
+MOZ_CRASH
+(
+)
+;
+}
+static
 void
 ToggleToJmp
 (
