@@ -264,27 +264,31 @@ _validate_tar_member
 (
 member
 path
+real_path
+=
+None
 )
 :
     
-def
-_is_within_directory
-(
-directory
-target
-)
-:
-        
 real_directory
 =
+real_path
+or
 os
 .
 path
 .
 realpath
 (
-directory
+path
 )
+    
+def
+_is_within_directory
+(
+target
+)
+:
         
 real_target
 =
@@ -335,7 +339,6 @@ if
 not
 _is_within_directory
 (
-path
 member_path
 )
 :
@@ -391,7 +394,6 @@ if
 not
 _is_within_directory
 (
-path
 link_path
 )
 :
@@ -468,6 +470,17 @@ None
 )
 :
     
+real_path
+=
+os
+.
+path
+.
+realpath
+(
+path
+)
+    
 def
 _files
 (
@@ -500,6 +513,7 @@ _validate_tar_member
 (
 member
 path
+real_path
 )
             
 yield
@@ -14220,6 +14234,17 @@ as
 bundle
 :
                     
+real_extract_to
+=
+os
+.
+path
+.
+realpath
+(
+extract_to
+)
+                    
 for
 entry
 in
@@ -14238,6 +14263,7 @@ extract_dirs
                         
 _validate_tar_member
 (
+                            
 bundle
 .
 getmember
@@ -14245,6 +14271,8 @@ getmember
 entry
 )
 extract_to
+real_extract_to
+                        
 )
                         
 if
