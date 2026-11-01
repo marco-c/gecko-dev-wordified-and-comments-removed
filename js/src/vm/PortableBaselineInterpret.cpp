@@ -33927,7 +33927,6 @@ cx
 regexpRooted
 inputRooted
 lastIndex
-nullptr
 &
 result
 )
