@@ -1502,6 +1502,13 @@ html
 ]
 [
 "
+test_anonymousContent_id_table
+.
+html
+"
+]
+[
+"
 test_anonymousContent_append_after_reflow
 .
 html
