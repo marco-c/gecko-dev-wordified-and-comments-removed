@@ -372,7 +372,7 @@ Get
 (
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 sVRManagerSingleton
 !
@@ -2850,7 +2850,7 @@ VRManagerState
 RuntimeDetection
 )
 ;
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 mShmem
 !
@@ -2928,7 +2928,7 @@ VRManagerState
 Enumeration
 )
 ;
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 mShmem
 !

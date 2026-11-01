@@ -1032,7 +1032,7 @@ ReadOnlySharedMemoryHandle
 )
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 mTag
 =
@@ -1091,7 +1091,7 @@ aBufferHandle
 )
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 mTag
 =
@@ -1140,7 +1140,7 @@ mId
 aId
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 mTag
 =

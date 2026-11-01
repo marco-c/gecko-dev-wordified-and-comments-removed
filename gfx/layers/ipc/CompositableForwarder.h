@@ -578,7 +578,7 @@ AssertInForwarderThread
 (
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 InForwarderThread
 (

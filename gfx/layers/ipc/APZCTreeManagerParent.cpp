@@ -121,7 +121,7 @@ aAPZUpdater
 )
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 mTreeManager
 !
@@ -129,7 +129,7 @@ mTreeManager
 nullptr
 )
 ;
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 mUpdater
 !
@@ -137,7 +137,7 @@ mUpdater
 nullptr
 )
 ;
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 mUpdater
 -
@@ -177,7 +177,7 @@ APZUpdater
 aAPZUpdater
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 aAPZCTreeManager
 !
@@ -185,7 +185,7 @@ aAPZCTreeManager
 nullptr
 )
 ;
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 aAPZUpdater
 !
@@ -193,7 +193,7 @@ aAPZUpdater
 nullptr
 )
 ;
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 aAPZUpdater
 -

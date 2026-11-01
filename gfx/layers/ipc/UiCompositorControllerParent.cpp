@@ -1082,7 +1082,7 @@ ActorDestroyReason
 aWhy
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 CompositorThreadHolder
 :
@@ -1401,7 +1401,7 @@ InitializeForOutOfProcess
 (
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 CompositorThreadHolder
 :
@@ -1424,7 +1424,7 @@ Initialize
 (
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 CompositorThreadHolder
 :
@@ -1498,7 +1498,7 @@ PUiCompositorControllerParent
 aEndpoint
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 CompositorThreadHolder
 :
@@ -1545,7 +1545,7 @@ Shutdown
 (
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 CompositorThreadHolder
 :

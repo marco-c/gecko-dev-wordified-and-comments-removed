@@ -1434,7 +1434,7 @@ ReadOnlySharedMemoryHandle
 aBufferHandle
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 IsInTaskQueue
 (
@@ -1526,7 +1526,7 @@ return
 false
 ;
 }
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 mDefaultBufferSize
 !
@@ -2103,7 +2103,7 @@ MutableSharedMemoryHandle
 aBufferHandle
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 IsInTaskQueue
 (
@@ -2402,7 +2402,7 @@ uint64_t
 aSurfaceRef
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 IsInTaskQueue
 (
@@ -3122,7 +3122,7 @@ ActorDestroyReason
 why
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 gfx
 :
@@ -4133,7 +4133,7 @@ TranslateRecording
 (
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 IsInTaskQueue
 (
@@ -4630,7 +4630,7 @@ HandleCanvasTranslatorEvents
 (
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 IsInTaskQueue
 (
@@ -4942,7 +4942,7 @@ pop_front
 }
 }
 }
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 !
 event
@@ -6730,7 +6730,7 @@ RemoteTextureOwnerId
 aTextureOwnerId
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 gfx
 :
@@ -7888,7 +7888,7 @@ ClearTextureInfo
 (
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 mIPDLClosed
 )
@@ -8302,12 +8302,12 @@ ref
 aSurfaceDescriptor
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 usedSurf
 )
 ;
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 usedWrapper
 )
@@ -9245,7 +9245,7 @@ RemoteDecoderVideoType
 MacIOSurface
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 texture
 -
@@ -9855,7 +9855,7 @@ DrawTarget
 aDT
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 IsInTaskQueue
 (
@@ -10164,7 +10164,7 @@ ExtendMode
 aExtendMode
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 aDrawTarget
 )

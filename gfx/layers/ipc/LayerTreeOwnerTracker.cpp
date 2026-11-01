@@ -96,7 +96,7 @@ Initialize
 (
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 !
 sSingleton
@@ -190,7 +190,7 @@ aProcessId
 }
 )
 ;
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 i
 .

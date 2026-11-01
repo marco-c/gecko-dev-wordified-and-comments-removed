@@ -694,7 +694,7 @@ mTextureHandle
 return
 ;
 }
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 mGL
 )
@@ -742,7 +742,7 @@ mEGLImage
 return
 ;
 }
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 mGL
 )

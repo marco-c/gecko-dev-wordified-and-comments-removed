@@ -1277,7 +1277,7 @@ ReferencePtr
 aExportID
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 NS_IsMainThread
 (
@@ -2638,7 +2638,7 @@ NS_ASSERT_OWNINGTHREAD
 CanvasChild
 )
 ;
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 mTextureInfo
 .
@@ -3007,7 +3007,7 @@ mDataSurfaceShmemAvailable
 true
 ;
 }
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 mDataSurfaceShmemAvailable
 )
@@ -3154,7 +3154,7 @@ NS_ASSERT_OWNINGTHREAD
 CanvasChild
 )
 ;
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 aSurface
 )
@@ -3329,7 +3329,7 @@ uint8_t
 (
 )
 ;
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 shmemPtr
 )
@@ -3730,7 +3730,7 @@ aDataSurfaceShmem
 mDataSurfaceShmem
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 !
 mDataSurfaceShmemAvailable
@@ -4103,7 +4103,7 @@ end
 )
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 !
 CanSend

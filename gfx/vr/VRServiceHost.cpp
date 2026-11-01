@@ -118,7 +118,7 @@ Get
 (
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 sVRServiceHostSingleton
 !
