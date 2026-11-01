@@ -3573,6 +3573,8 @@ uint32_t
 aWidth
 uint32_t
 aHeight
+PredefinedColorSpace
+aColorSpace
 nsIPrincipal
 &
 aSubjectPrincipal
@@ -3601,6 +3603,8 @@ int32_t
 aDirtyWidth
 int32_t
 aDirtyHeight
+PredefinedColorSpace
+aColorSpace
 ErrorResult
 &
 )
