@@ -216,11 +216,6 @@ SetValidationOptionsCommon
 (
 )
 ;
-void
-PrepareForShutdownInSocketProcess
-(
-)
-;
 class
 AutoSearchingForCertificates
 {

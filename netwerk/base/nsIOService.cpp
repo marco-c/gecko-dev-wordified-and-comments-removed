@@ -8288,10 +8288,6 @@ gCallbackSecurityPrefs
 this
 )
 ;
-PrepareForShutdownInSocketProcess
-(
-)
-;
 }
 {
 AutoWriteLock
