@@ -36,6 +36,13 @@ py
 ]
 [
 "
+test_filters
+.
+py
+"
+]
+[
+"
 test_gecko_profile
 .
 py

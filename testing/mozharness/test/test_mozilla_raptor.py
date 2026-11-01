@@ -97,6 +97,12 @@ run_local
     
 harness
 .
+browsertime_visualmetrics
+=
+False
+    
+harness
+.
 raptor_path
 =
 str

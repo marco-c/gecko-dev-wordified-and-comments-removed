@@ -9688,6 +9688,21 @@ version_info
 minor
         
 if
+not
+(
+self
+.
+run_local
+or
+self
+.
+browsertime_visualmetrics
+)
+:
+            
+pass
+        
+elif
 py3_minor
 <
 =
