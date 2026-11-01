@@ -2244,6 +2244,10 @@ Pattern
 &
 aPattern
 const
+Point
+&
+aPatternOffset
+const
 Maybe
 <
 DeviceColor
