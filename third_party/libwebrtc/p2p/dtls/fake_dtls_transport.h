@@ -648,6 +648,13 @@ this
 )
 ;
 }
+void
+MaybeStartDtlsInStun
+(
+)
+override
+{
+}
 FakeIceTransportInternal
 *
 fake_ice_transport

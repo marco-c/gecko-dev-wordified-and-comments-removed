@@ -882,6 +882,12 @@ keying_material
 )
 override
 ;
+void
+MaybeStartDtlsInStun
+(
+)
+override
+;
 IceTransportInternal
 *
 ice_transport
@@ -1394,7 +1400,12 @@ ice_has_been_writable_
 false
 ;
 bool
-dtls_in_stun_
+dtls_in_stun_configured_
+=
+false
+;
+bool
+dtls_in_stun_negotiated_
 =
 false
 ;

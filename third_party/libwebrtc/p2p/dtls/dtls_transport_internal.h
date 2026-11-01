@@ -412,6 +412,14 @@ false
 ;
 }
 virtual
+void
+MaybeStartDtlsInStun
+(
+)
+=
+0
+;
+virtual
 RTCError
 SetRemoteParameters
 (
