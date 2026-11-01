@@ -513,6 +513,13 @@ aTimeStamp
 )
 ;
 void
+OnDatagramReady
+(
+uint64_t
+aDatagramId
+)
+;
+void
 RemoteClosed
 (
 bool
