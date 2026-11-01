@@ -147402,6 +147402,27 @@ interface
 exposureSet
 )
             
+secureContext
+=
+toStringBool
+(
+                
+d
+.
+interface
+.
+getExtendedAttribute
+(
+"
+SecureContext
+"
+)
+is
+not
+None
+            
+)
+            
 entries
 .
 append
@@ -147446,6 +147467,15 @@ mExposedGlobals
 {
 exposedGlobals
 }
+                  
+/
+*
+mSecureContext
+*
+/
+{
+secureContext
+}
                 
 }
                 
@@ -147467,6 +147497,10 @@ name
 exposedGlobals
 =
 exposedGlobals
+                    
+secureContext
+=
+secureContext
                 
 )
 [
@@ -147491,9 +147525,10 @@ Maybe
 std
 :
 :
-pair
+tuple
 <
 uint16_t
+bool
 WebIDLDeserializer
 >
 >
@@ -147534,6 +147569,10 @@ mDeserialize
 uint16_t
 mExposedGlobals
 ;
+              
+bool
+mSecureContext
+;
             
 }
 ;
@@ -147560,9 +147599,10 @@ Maybe
 std
 :
 :
-pair
+tuple
 <
 uint16_t
+bool
 WebIDLDeserializer
 >
 >
@@ -147600,11 +147640,14 @@ Some
 std
 :
 :
-pair
+tuple
 (
 entry
 .
 mExposedGlobals
+entry
+.
+mSecureContext
 entry
 .
 mDeserialize
