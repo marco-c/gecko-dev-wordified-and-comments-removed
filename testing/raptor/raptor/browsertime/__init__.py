@@ -1,15 +1,5 @@
 from
 .
-android
-import
-BrowsertimeAndroid
-from
-.
 base
 import
 Browsertime
-from
-.
-desktop
-import
-BrowsertimeDesktop

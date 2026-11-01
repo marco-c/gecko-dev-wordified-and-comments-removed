@@ -74,7 +74,17 @@ from
 browsertime
 import
 Browsertime
+from
+browsertime
+.
+android
+import
 BrowsertimeAndroid
+from
+browsertime
+.
+desktop
+import
 BrowsertimeDesktop
 from
 perftest
