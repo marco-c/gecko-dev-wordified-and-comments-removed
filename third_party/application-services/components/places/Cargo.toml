@@ -348,7 +348,7 @@ glean
 version
 =
 "
-70
+71
 "
 optional
 =
@@ -359,7 +359,7 @@ glean
 sym
 =
 "
-70
+71
 "
 [
 dev
@@ -458,9 +458,9 @@ glean
 tag
 =
 "
-v70
+v71
 .
-2
+0
 .
 0
 "

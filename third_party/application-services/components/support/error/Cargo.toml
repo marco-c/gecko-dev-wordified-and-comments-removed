@@ -108,7 +108,7 @@ glean
 version
 =
 "
-70
+71
 "
 optional
 =
@@ -122,7 +122,7 @@ sym
 version
 =
 "
-70
+71
 "
 optional
 =
@@ -272,9 +272,9 @@ glean
 tag
 =
 "
-v70
+v71
 .
-2
+0
 .
 0
 "
