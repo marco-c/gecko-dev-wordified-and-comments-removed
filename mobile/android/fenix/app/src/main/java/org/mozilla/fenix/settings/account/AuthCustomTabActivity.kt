@@ -157,7 +157,8 @@ custom
 tab
 for
 signing
-into
+in
+to
 a
 Firefox
 Account
