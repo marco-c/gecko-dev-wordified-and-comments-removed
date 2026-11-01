@@ -102,6 +102,15 @@ js
 "
 browser_sanitize
 -
+keepPinnedTabs
+.
+js
+"
+]
+[
+"
+browser_sanitize
+-
 offlineData
 .
 js

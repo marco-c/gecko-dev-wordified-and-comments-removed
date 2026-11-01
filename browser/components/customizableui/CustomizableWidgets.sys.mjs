@@ -6567,6 +6567,12 @@ open
 a
 new
 one
+*
+that
+keeps
+the
+pinned
+tabs
 .
 *
 *
@@ -6626,6 +6632,9 @@ non
 -
 private
 "
+keepPinnedTabs
+:
+true
 progress
 :
 aProgress
