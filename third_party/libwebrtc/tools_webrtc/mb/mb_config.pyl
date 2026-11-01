@@ -304,7 +304,7 @@ dbg
 '
 :
 '
-android_debug_static_bot_x86
+android_debug_bot_x86
 '
 '
 Android64
@@ -321,7 +321,7 @@ dbg
 '
 :
 '
-android_debug_static_bot_arm64
+android_debug_bot_arm64
 '
 '
 Android64
@@ -373,7 +373,7 @@ dbg
 '
 :
 '
-android_debug_static_bot_x64
+android_debug_bot_x64
 '
 #
 Fuchsia
@@ -938,7 +938,7 @@ android_arm_dbg
 '
 :
 '
-android_debug_static_bot_arm64
+android_debug_bot_arm64
 '
 '
 android_arm_more_configs
@@ -993,7 +993,7 @@ android_compile_arm_dbg
 '
 :
 '
-android_debug_static_bot_arm64
+android_debug_bot_arm64
 '
 '
 android_compile_arm_rel
@@ -1007,7 +1007,7 @@ android_compile_x64_dbg
 '
 :
 '
-android_debug_static_bot_x64
+android_debug_bot_x64
 '
 '
 android_compile_x64_rel
@@ -1021,7 +1021,7 @@ android_compile_x86_dbg
 '
 :
 '
-android_debug_static_bot_x86
+android_debug_bot_x86
 '
 '
 android_compile_x86_rel
@@ -1525,7 +1525,7 @@ configs
 :
 {
 '
-android_debug_static_bot_arm64
+android_debug_bot_arm64
 '
 :
 [
@@ -1533,7 +1533,7 @@ android_debug_static_bot_arm64
 android
 '
 '
-debug_static_bot
+debug_bot
 '
 '
 arm64
@@ -1543,7 +1543,7 @@ h265
 '
 ]
 '
-android_debug_static_bot_x64
+android_debug_bot_x64
 '
 :
 [
@@ -1551,7 +1551,7 @@ android_debug_static_bot_x64
 android
 '
 '
-debug_static_bot
+debug_bot
 '
 '
 x64
@@ -1561,7 +1561,7 @@ h265
 '
 ]
 '
-android_debug_static_bot_x86
+android_debug_bot_x86
 '
 :
 [
@@ -1569,7 +1569,7 @@ android_debug_static_bot_x86
 android
 '
 '
-debug_static_bot
+debug_bot
 '
 '
 x86
@@ -1848,7 +1848,7 @@ android
 arm64
 '
 '
-debug_static_bot
+debug_bot
 '
 '
 dummy_audio_file_devices
@@ -2301,7 +2301,7 @@ android
 arm64
 '
 '
-debug_static_bot
+debug_bot
 '
 '
 no_sctp
@@ -2815,30 +2815,6 @@ true
 }
 '
 debug_bot
-'
-:
-{
-'
-mixins
-'
-:
-[
-'
-debug
-'
-'
-minimal_symbols
-'
-'
-remoteexec
-'
-'
-strict_field_trials
-'
-]
-}
-'
-debug_static_bot
 '
 :
 {
