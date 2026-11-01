@@ -171,11 +171,11 @@ pdfjsVersion
 .
 5
 .
-254
+260
 *
 pdfjsBuild
 =
-28e406a46
+33734f1fd
 *
 /
 ;
@@ -491265,10 +491265,9 @@ offset
 offset
 =
 offset
-<
-<
-8
-|
+*
+256
++
 offsetByte
 ;
 }
@@ -530010,7 +530009,7 @@ workerVersion
 .
 5
 .
-254
+260
 "
 ;
 if
