@@ -472,7 +472,7 @@ gfxUserFontAttributes
 aAttr
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 NS_IsMainThread
 (
@@ -2286,7 +2286,7 @@ ScheduleContinueLoad
 (
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 NS_IsMainThread
 (
@@ -3804,7 +3804,7 @@ nsIFontLoadCompleteCallback
 aCallback
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 !
 NS_IsMainThread
@@ -4815,7 +4815,7 @@ nsIFontLoadCompleteCallback
 aCallback
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 NS_IsMainThread
 (
@@ -5095,7 +5095,7 @@ nsIFontLoadCompleteCallback
 aCallback
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 NS_IsMainThread
 (
@@ -5177,7 +5177,7 @@ nsIFontLoadCompleteCallback
 aCallback
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 NS_IsMainThread
 (
@@ -6721,7 +6721,7 @@ gfxFontEntry
 aFontEntry
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 NS_IsMainThread
 (
@@ -7001,7 +7001,7 @@ gfxFontEntry
 aFontEntry
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 NS_IsMainThread
 (

@@ -287,7 +287,7 @@ AsParent
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 tex
 .
@@ -438,7 +438,7 @@ AsParent
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 t
 -
@@ -578,7 +578,7 @@ SetLastFwdTransactionId
 mFwdTransactionId
 )
 ;
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 texture
 -
@@ -625,7 +625,7 @@ AsWebRenderImageHost
 (
 )
 ;
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 host
 )
@@ -674,7 +674,7 @@ break
 default
 :
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 false
 "
@@ -763,7 +763,7 @@ break
 default
 :
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 false
 "

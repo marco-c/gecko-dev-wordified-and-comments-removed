@@ -198,7 +198,7 @@ APZBridgeChild
 aProcessToken
 )
 ;
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 APZThreadUtils
 :
@@ -276,14 +276,14 @@ mCompositorSession
 nullptr
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 XRE_IsParentProcess
 (
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 NS_IsMainThread
 (
@@ -395,14 +395,14 @@ Destroy
 (
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 XRE_IsParentProcess
 (
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 NS_IsMainThread
 (
@@ -1377,7 +1377,7 @@ Modifiers
 aModifiers
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 NS_IsMainThread
 (
@@ -1585,7 +1585,7 @@ float
 aScale
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 NS_IsMainThread
 (
@@ -2217,7 +2217,7 @@ GetContentController
 (
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 NS_IsMainThread
 (
@@ -2258,7 +2258,7 @@ MatrixMessage
 aTransforms
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 NS_IsMainThread
 (
@@ -2399,7 +2399,7 @@ bool
 aIsRootContent
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 NS_IsMainThread
 (
@@ -2537,7 +2537,7 @@ bool
 aIsRootContent
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 NS_IsMainThread
 (
@@ -2665,7 +2665,7 @@ HideDynamicToolbarOnMainThread
 (
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 NS_IsMainThread
 (

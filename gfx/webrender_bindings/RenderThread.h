@@ -1158,7 +1158,7 @@ GetProgramCache
 (
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 IsInRenderThread
 (
@@ -1179,7 +1179,7 @@ GetShaders
 (
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 IsInRenderThread
 (

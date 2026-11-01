@@ -2054,7 +2054,7 @@ uint64_t
 aTransactionId
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 mFwdTransactionId
 <
@@ -2130,7 +2130,7 @@ return
 0
 ;
 }
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 mReadLock
 -
@@ -2680,7 +2680,7 @@ TextureClientAutoLock
 (
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 mChecked
 )

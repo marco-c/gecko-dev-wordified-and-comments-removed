@@ -1093,7 +1093,7 @@ InitData
 aFaces
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 XRE_IsParentProcess
 (
@@ -4269,7 +4269,7 @@ uint32_t
 aSizeNeeded
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 XRE_IsParentProcess
 (
@@ -4599,7 +4599,7 @@ ReadOnlySharedMemoryHandle
 aHandle
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 !
 XRE_IsParentProcess
@@ -4815,7 +4815,7 @@ uint32_t
 aIndex
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 !
 XRE_IsParentProcess
@@ -4995,7 +4995,7 @@ aMustLock
 )
 MOZ_NO_THREAD_SAFETY_ANALYSIS
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 !
 XRE_IsParentProcess
@@ -5266,7 +5266,7 @@ uint32_t
 aSize
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 XRE_IsParentProcess
 (
@@ -5485,7 +5485,7 @@ InitData
 aFamilies
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 XRE_IsParentProcess
 (
@@ -5795,7 +5795,7 @@ AliasData
 aAliasTable
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 XRE_IsParentProcess
 (
@@ -6321,7 +6321,7 @@ InitData
 aLocalNameTable
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 XRE_IsParentProcess
 (

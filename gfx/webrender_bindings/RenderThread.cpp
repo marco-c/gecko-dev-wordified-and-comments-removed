@@ -802,7 +802,7 @@ uint32_t
 aNamespace
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 NS_IsMainThread
 (
@@ -1155,7 +1155,7 @@ ShutDown
 (
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 NS_IsMainThread
 (
@@ -1308,7 +1308,7 @@ ShutDownTask
 (
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 IsInRenderThread
 (
@@ -1516,7 +1516,7 @@ Private
 aPromise
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 IsInRenderThread
 (
@@ -1659,7 +1659,7 @@ Private
 __func__
 )
 ;
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 !
 IsInRenderThread
@@ -1761,7 +1761,7 @@ BatteryInformation
 aBatteryInfo
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 XRE_IsGPUProcess
 (
@@ -1797,7 +1797,7 @@ GetPowerIsCharging
 (
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 XRE_IsGPUProcess
 (
@@ -1884,7 +1884,7 @@ RendererOGL
 aRenderer
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 IsInRenderThread
 (
@@ -1997,7 +1997,7 @@ WindowId
 aWindowId
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 IsInRenderThread
 (
@@ -2230,7 +2230,7 @@ WindowId
 aWindowId
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 IsInRenderThread
 (
@@ -2295,7 +2295,7 @@ RendererCount
 )
 const
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 IsInRenderThread
 (
@@ -2318,7 +2318,7 @@ UpdateActiveRendererCount
 (
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 IsInRenderThread
 (
@@ -2828,7 +2828,7 @@ WrWindowId
 aWindowId
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 IsInRenderThread
 (
@@ -3201,7 +3201,7 @@ FrameReadyParams
 aParams
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 IsInRenderThread
 (
@@ -3251,7 +3251,7 @@ FrameReadyParams
 aParams
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 IsInRenderThread
 (
@@ -3287,7 +3287,7 @@ RendererEvent
 aRendererEvent
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 IsInRenderThread
 (
@@ -3330,7 +3330,7 @@ PipelineId
 aRootPipelineId
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 IsInRenderThread
 (
@@ -3380,7 +3380,7 @@ WindowId
 aWindowId
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 IsInRenderThread
 (
@@ -3435,7 +3435,7 @@ FramePublishId
 aPublishId
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 IsInRenderThread
 (
@@ -4115,7 +4115,7 @@ bool
 aViaWebRender
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 IsInRenderThread
 (
@@ -4469,7 +4469,7 @@ FramePublishId
 aPublishId
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 IsInRenderThread
 (
@@ -4606,7 +4606,7 @@ UpdateAndRender
 GRAPHICS
 )
 ;
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 IsInRenderThread
 (
@@ -5067,7 +5067,7 @@ WindowId
 aWindowId
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 IsInRenderThread
 (
@@ -5194,7 +5194,7 @@ WindowId
 aWindowId
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 IsInRenderThread
 (
@@ -6370,7 +6370,7 @@ ExternalImageId
 aIds
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 IsInRenderThread
 (
@@ -6560,7 +6560,7 @@ ExternalImageId
 aExternalImageId
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 !
 IsInRenderThread
@@ -6688,7 +6688,7 @@ HandleRenderTextureOps
 (
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 IsInRenderThread
 (
@@ -6902,7 +6902,7 @@ ExternalImageId
 aExternalImageId
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 IsInRenderThread
 (
@@ -6936,7 +6936,7 @@ SyncObjectNeeded
 (
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 IsInRenderThread
 (
@@ -7144,7 +7144,7 @@ InitDeviceTask
 (
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 IsInRenderThread
 (
@@ -7588,7 +7588,7 @@ DeviceResetReason
 aReason
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 !
 IsInRenderThread
@@ -7681,7 +7681,7 @@ DeviceResetReason
 aReason
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 IsInRenderThread
 (
@@ -7763,7 +7763,7 @@ IsHandlingDeviceReset
 (
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 IsInRenderThread
 (
@@ -7862,7 +7862,7 @@ WebRenderError
 aError
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 IsInRenderThread
 (
@@ -7901,7 +7901,7 @@ WebRenderError
 aError
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 IsInRenderThread
 (
@@ -7968,7 +7968,7 @@ IsHandlingWebRenderError
 (
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 IsInRenderThread
 (
@@ -8038,7 +8038,7 @@ nsACString
 aError
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 IsInRenderThread
 (
@@ -8099,7 +8099,7 @@ nsACString
 aError
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 IsInRenderThread
 (
@@ -8210,7 +8210,7 @@ ClearSingletonGL
 (
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 IsInRenderThread
 (

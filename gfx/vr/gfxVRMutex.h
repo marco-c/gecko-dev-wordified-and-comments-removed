@@ -52,7 +52,7 @@ mStatus
 false
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 mHandle
 )

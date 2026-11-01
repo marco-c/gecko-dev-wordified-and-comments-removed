@@ -369,7 +369,7 @@ LayersId
 aLayersId
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 !
 IsOnVsyncIOThread
@@ -423,7 +423,7 @@ LayersId
 aLayersId
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 IsOnVsyncIOThread
 (

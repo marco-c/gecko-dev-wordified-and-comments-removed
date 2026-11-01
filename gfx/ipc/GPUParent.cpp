@@ -899,7 +899,7 @@ defined
 (
 HAVE_64BIT_BUILD
 )
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 CompositorThreadHolder
 :

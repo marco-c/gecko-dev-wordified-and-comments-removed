@@ -192,7 +192,7 @@ lock
 sVideoBridgeLock
 )
 ;
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 !
 sVideoBridge
@@ -559,7 +559,7 @@ Shmem
 aShmem
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 CanSend
 (
@@ -953,7 +953,7 @@ MaybeExternalImageId
 aExternalImageId
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 CanSend
 (

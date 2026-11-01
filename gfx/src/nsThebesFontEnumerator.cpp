@@ -276,7 +276,7 @@ MOZ_ASSERT
 aPromise
 )
 ;
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 NS_IsMainThread
 (
@@ -360,7 +360,7 @@ do_GetCurrentThread
 )
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 !
 NS_IsMainThread
@@ -375,7 +375,7 @@ Run
 )
 override
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 NS_IsMainThread
 (
@@ -509,7 +509,7 @@ mMainThreadTarget
 aMainThreadTarget
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 NS_IsMainThread
 (
@@ -523,7 +523,7 @@ Run
 )
 override
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 !
 NS_IsMainThread
@@ -687,7 +687,7 @@ Value
 aRval
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 NS_IsMainThread
 (

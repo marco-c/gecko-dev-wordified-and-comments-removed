@@ -691,7 +691,7 @@ LayersId
 aRootLayersId
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 CompositorThreadHolder
 :
@@ -838,7 +838,7 @@ FocusTarget
 aFocusTarget
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 CompositorThreadHolder
 :
@@ -900,7 +900,7 @@ WebRenderScrollData
 aScrollData
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 CompositorThreadHolder
 :
@@ -1259,7 +1259,7 @@ uint32_t
 aPaintSequenceNumber
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 CompositorThreadHolder
 :
@@ -1401,7 +1401,7 @@ APZUpdater
 aOldUpdater
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 CompositorThreadHolder
 :
@@ -1458,7 +1458,7 @@ LayersId
 aLayersId
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 CompositorThreadHolder
 :
@@ -1542,7 +1542,7 @@ APZTestData
 aOutData
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 CompositorThreadHolder
 :
@@ -1646,7 +1646,7 @@ CSSPoint
 aOffset
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 CompositorThreadHolder
 :
@@ -1751,7 +1751,7 @@ LayerToParentLayerScale
 aZoom
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 CompositorThreadHolder
 :
@@ -1904,7 +1904,7 @@ GetThreadAssertionsEnabled
 )
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 IsUpdaterThread
 (
@@ -2245,7 +2245,7 @@ Runnable
 aTask
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 CompositorThreadHolder
 :

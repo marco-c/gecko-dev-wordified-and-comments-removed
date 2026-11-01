@@ -320,7 +320,7 @@ LayersBackend
 LAYERS_NONE
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 NS_IsMainThread
 (
@@ -345,7 +345,7 @@ VRManagerChild
 (
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 NS_IsMainThread
 (
@@ -406,7 +406,7 @@ Get
 (
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 sVRManagerChildSingleton
 )
@@ -508,7 +508,7 @@ TimeStamp
 aDefault
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 NS_IsMainThread
 (
@@ -571,7 +571,7 @@ uint32_t
 aNamespace
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 NS_IsMainThread
 (
@@ -624,14 +624,14 @@ uint32_t
 aNamespace
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 NS_IsMainThread
 (
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 !
 sVRManagerChildSingleton
@@ -691,14 +691,14 @@ uint32_t
 aNamespace
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 NS_IsMainThread
 (
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 !
 sVRManagerChildSingleton
@@ -748,7 +748,7 @@ ShutDown
 (
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 NS_IsMainThread
 (
@@ -2823,7 +2823,7 @@ VRManagerEventObserver
 aObserver
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 aObserver
 )
@@ -2884,7 +2884,7 @@ VRManagerEventObserver
 aObserver
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 aObserver
 )
@@ -3016,7 +3016,7 @@ Promise
 aPromise
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 !
 mGamepadPromiseList
@@ -3114,7 +3114,7 @@ uint32_t
 aPromiseID
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 XRE_IsContentProcess
 (

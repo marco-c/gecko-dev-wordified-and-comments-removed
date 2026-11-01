@@ -304,7 +304,7 @@ mColorDepth
 aColorDepth
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 XRE_IsGPUProcess
 (
@@ -907,7 +907,7 @@ aVideoSample
 )
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 XRE_IsGPUProcess
 (
@@ -1017,7 +1017,7 @@ mWrapper
 aWrapper
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 XRE_IsGPUProcess
 (

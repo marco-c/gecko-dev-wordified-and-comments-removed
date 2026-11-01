@@ -285,7 +285,7 @@ defined
 (
 XP_MACOSX
 )
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 mShmemFD
 =
@@ -299,7 +299,7 @@ defined
 (
 XP_WIN
 )
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 mShmemFile
 =
@@ -411,7 +411,7 @@ HasExternalShmem
 )
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 mIsSharedExternalShmem
 &
@@ -536,7 +536,7 @@ if
 aCreateOnSharedMemory
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 mExternalShmem
 =
@@ -560,7 +560,7 @@ return
 }
 #
 endif
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 aCreateOnSharedMemory
 )
@@ -732,7 +732,7 @@ GetLastError
 ERROR_ALREADY_EXISTS
 )
 ;
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 mShmemFile
 )
@@ -803,7 +803,7 @@ defined
 (
 MOZ_WIDGET_ANDROID
 )
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 false
 "
@@ -1050,7 +1050,7 @@ IsCreatedOnSharedMemory
 )
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 !
 mIsSharedExternalShmem
@@ -1181,7 +1181,7 @@ if
 mMutex
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 mRequiresMutex
 )
@@ -1402,7 +1402,7 @@ if
 mExternalShmem
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 mExternalShmem
 )
@@ -1413,7 +1413,7 @@ false
 }
 #
 else
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 false
 "
@@ -1531,7 +1531,7 @@ if
 mMutex
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 mRequiresMutex
 )
@@ -1779,7 +1779,7 @@ defined
 (
 MOZ_WIDGET_ANDROID
 )
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 false
 "
@@ -1937,7 +1937,7 @@ defined
 (
 MOZ_WIDGET_ANDROID
 )
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 false
 "
@@ -2332,7 +2332,7 @@ bool
 aWaitCondition
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 mExternalShmem
 )
@@ -2875,7 +2875,7 @@ VRFxEventState
 aEventState
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 !
 HasExternalShmem
@@ -3069,7 +3069,7 @@ uint64_t
 aWindowID
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 HasExternalShmem
 (

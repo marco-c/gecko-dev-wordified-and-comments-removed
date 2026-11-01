@@ -678,7 +678,7 @@ hasRun
 =
 false
 ;
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 !
 hasRun

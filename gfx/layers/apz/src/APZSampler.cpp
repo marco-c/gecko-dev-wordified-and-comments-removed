@@ -478,7 +478,7 @@ SampleTime
 aSampleTime
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 CompositorThreadHolder
 :
@@ -594,7 +594,7 @@ aProofOfMapLock
 )
 const
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 !
 CompositorThreadHolder
@@ -822,7 +822,7 @@ GetThreadAssertionsEnabled
 )
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 IsSamplerThread
 (

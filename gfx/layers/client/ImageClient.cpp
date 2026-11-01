@@ -880,7 +880,7 @@ GetAsSourceSurface
 (
 )
 ;
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 surface
 )
@@ -925,7 +925,7 @@ return
 nullptr
 ;
 }
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 texture
 -
@@ -998,7 +998,7 @@ return
 nullptr
 ;
 }
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 surface
 .
@@ -1264,7 +1264,7 @@ if
 hasTextureClient
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 image
 -
@@ -1559,7 +1559,7 @@ TextureClient
 aTexture
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 (
 mTextureFlags

@@ -686,7 +686,7 @@ ReleaseCompositableRef
 -
 mCompositableCount
 ;
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 mCompositableCount
 >
@@ -1718,7 +1718,7 @@ ReleaseCompositableRef
 -
 mCompositableCount
 ;
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 mCompositableCount
 >
@@ -2272,7 +2272,7 @@ void
 aDestroyedCallback
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 !
 mDestroyedCallback
@@ -3396,7 +3396,7 @@ float
 aZFar
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 mHasComplexProjection
 )

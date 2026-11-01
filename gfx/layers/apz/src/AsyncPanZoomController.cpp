@@ -2252,7 +2252,7 @@ sInitialized
 =
 true
 ;
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 NS_IsMainThread
 (
@@ -20533,7 +20533,7 @@ aUpdateType
 return
 ;
 }
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 controller
 -
@@ -20700,7 +20700,7 @@ controller
 return
 ;
 }
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 controller
 -

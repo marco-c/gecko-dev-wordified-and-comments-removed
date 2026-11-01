@@ -436,7 +436,7 @@ TimeStamp
 aSampleTime
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 CompositorThreadHolder
 :
@@ -489,7 +489,7 @@ ResetPreviousSampleTime
 (
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 CompositorThreadHolder
 :
@@ -526,7 +526,7 @@ TransactionWrapper
 aTxn
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 IsSamplerThread
 (
@@ -617,7 +617,7 @@ TimeStamp
 aSampleTime
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 IsSamplerThread
 (
@@ -662,7 +662,7 @@ aId
 )
 const
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 CompositorThreadHolder
 :
@@ -703,7 +703,7 @@ TimeStamp
 aTestingSampleTime
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 CompositorThreadHolder
 :
@@ -795,7 +795,7 @@ Animation
 aAnimations
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 CompositorThreadHolder
 :
@@ -838,7 +838,7 @@ HasAnimations
 )
 const
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 CompositorThreadHolder
 :
@@ -884,7 +884,7 @@ WrEpoch
 aActiveAnimations
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 CompositorThreadHolder
 :
@@ -959,7 +959,7 @@ WrEpoch
 aRenderedEpoch
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 CompositorThreadHolder
 :

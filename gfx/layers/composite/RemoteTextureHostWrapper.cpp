@@ -571,7 +571,7 @@ ExternalImageId
 aExternalImageId
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 mExternalImageId
 .
@@ -602,7 +602,7 @@ mRemoteTexture
 return
 ;
 }
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 mRemoteTexture
 -
@@ -822,7 +822,7 @@ yet
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 aImageKeys
 .
@@ -922,7 +922,7 @@ this
 )
 ;
 }
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 !
 mRemoteTexture
@@ -1058,7 +1058,7 @@ MonitorAutoLock
 aProofOfLock
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 CompositorThreadHolder
 :
@@ -1087,7 +1087,7 @@ TextureHost
 aTextureHost
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 CompositorThreadHolder
 :
@@ -1132,7 +1132,7 @@ MonitorAutoLock
 aProofOfLoc
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 CompositorThreadHolder
 :

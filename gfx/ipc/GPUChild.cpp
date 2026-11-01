@@ -1082,7 +1082,7 @@ RecvCreateVRProcess
 (
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 XRE_IsParentProcess
 (
@@ -1172,7 +1172,7 @@ RecvShutdownVRProcess
 (
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 XRE_IsParentProcess
 (

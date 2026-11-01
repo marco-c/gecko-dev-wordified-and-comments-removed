@@ -574,7 +574,7 @@ UpdateSystemTextVars
 (
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 XRE_IsParentProcess
 (

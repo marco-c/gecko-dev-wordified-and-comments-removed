@@ -1100,14 +1100,14 @@ PostUpdateMonitorInfo
 (
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 XRE_IsGPUProcess
 (
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 NS_IsMainThread
 (
@@ -2264,7 +2264,7 @@ CreateCompositorDevicesLocked
 (
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 ProcessOwnsCompositor
 (
@@ -2429,7 +2429,7 @@ CreateVRDevice
 (
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 ProcessOwnsCompositor
 (
@@ -2623,7 +2623,7 @@ CreateCanvasDeviceLocked
 (
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 ProcessOwnsCompositor
 (
@@ -3184,7 +3184,7 @@ D3D11DeviceStatus
 aDeviceStatus
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 !
 ProcessOwnsCompositor

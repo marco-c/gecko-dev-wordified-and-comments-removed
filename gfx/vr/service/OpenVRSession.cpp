@@ -5515,7 +5515,7 @@ VRSystemState
 aState
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 mVRSystem
 )
@@ -5718,7 +5718,7 @@ continue
 }
 else
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 false
 "
@@ -6461,7 +6461,7 @@ VRSystemState
 aState
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 mVRSystem
 )
@@ -6560,7 +6560,7 @@ VRSystemState
 aState
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 mVRSystem
 )
@@ -8708,7 +8708,7 @@ StartHapticThread
 (
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 NS_IsMainThread
 (
@@ -8919,7 +8919,7 @@ OpenVRSession
 aClosure
 )
 ;
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 self
 )
@@ -8940,7 +8940,7 @@ UpdateHaptics
 (
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 mHapticThread
 -
@@ -8955,7 +8955,7 @@ NS_GetCurrentThread
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 mVRSystem
 )

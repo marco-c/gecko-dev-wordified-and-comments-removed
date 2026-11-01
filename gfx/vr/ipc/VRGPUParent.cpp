@@ -67,7 +67,7 @@ mClosed
 false
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 NS_IsMainThread
 (
@@ -295,7 +295,7 @@ Create
 (
 )
 ;
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 mVRService
 )

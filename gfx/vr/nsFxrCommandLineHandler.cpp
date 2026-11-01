@@ -206,7 +206,7 @@ e10s
 )
 ;
 }
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 mozilla
 :
@@ -308,7 +308,7 @@ newWindow
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 result
 =
@@ -424,7 +424,7 @@ GetNativeData
 NS_NATIVE_WINDOW
 )
 ;
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 windowState
 .
@@ -434,7 +434,7 @@ hwndFx
 0
 )
 ;
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 windowState
 .

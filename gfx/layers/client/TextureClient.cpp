@@ -705,7 +705,7 @@ TextureChild
 (
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 !
 mTextureData
@@ -2227,7 +2227,7 @@ TextureFlags
 NON_BLOCKING_READ_LOCK
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 !
 (
@@ -2256,7 +2256,7 @@ TextureFlags
 BLOCKING_READ_LOCK
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 !
 (
@@ -2313,7 +2313,7 @@ if
 mReadLock
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 mReadLock
 -
@@ -2408,7 +2408,7 @@ return
 false
 ;
 }
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 mReadLock
 -
@@ -2447,7 +2447,7 @@ GetReadCount
 ;
 }
 }
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 mAllocator
 -
@@ -2742,7 +2742,7 @@ true
 ;
 }
 }
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 mAllocator
 -
@@ -2848,7 +2848,7 @@ mIsReadLocked
 return
 ;
 }
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 mReadLock
 )
@@ -3224,7 +3224,7 @@ EnableReadLock
 (
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 ShouldReadLock
 (
@@ -3519,7 +3519,7 @@ TextureClient
 (
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 mPaintThreadRefs
 =
@@ -3550,24 +3550,24 @@ SourceSurface
 aSurface
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 IsValid
 (
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 mIsLocked
 )
 ;
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 aSurface
 )
 ;
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 !
 mBorrowedDrawTarget
@@ -3689,7 +3689,7 @@ aAllocFlags
 )
 const
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 IsValid
 (
@@ -3824,7 +3824,7 @@ EndDraw
 (
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 mOpenMode
 &
@@ -3915,7 +3915,7 @@ BorrowSnapshot
 (
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 mIsLocked
 )
@@ -4268,7 +4268,7 @@ MappedTextureData
 aMap
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 IsValid
 (
@@ -4300,7 +4300,7 @@ MappedYCbCrTextureData
 aMap
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 IsValid
 (
@@ -4590,7 +4590,7 @@ TextureFlags
 aFlags
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 !
 IsSharedWithCompositor
@@ -4634,7 +4634,7 @@ TextureFlags
 aFlags
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 !
 IsSharedWithCompositor
@@ -4679,7 +4679,7 @@ TextureFlags
 aFlags
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 GetFlags
 (
@@ -4691,7 +4691,7 @@ TextureFlags
 RECYCLE
 )
 ;
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 !
 mIsLocked
@@ -4751,7 +4751,7 @@ RECYCLE
 return
 ;
 }
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 !
 mIsLocked
@@ -4928,7 +4928,7 @@ void
 aClosure
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 aClient
 -
@@ -5011,7 +5011,7 @@ GetTextureForwarder
 (
 )
 ;
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 aForwarder
 &
@@ -5206,7 +5206,7 @@ return
 true
 ;
 }
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 !
 mActor
@@ -5493,7 +5493,7 @@ GetTextureForwarder
 (
 )
 ;
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 aKnowsCompositor
 &
@@ -5612,7 +5612,7 @@ return
 true
 ;
 }
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 !
 mActor
@@ -6777,14 +6777,14 @@ IntPoint
 aPoint
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 IsLocked
 (
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 aTarget
 -
@@ -7905,7 +7905,7 @@ MemoryTextureReadLock
 (
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 mReadCount
 =
@@ -7987,7 +7987,7 @@ readCount
 -
 mReadCount
 ;
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 readCount
 >
@@ -8035,12 +8035,12 @@ MOZ_COUNT_CTOR
 ShmemTextureReadLock
 )
 ;
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 mClientAllocator
 )
 ;
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 mClientAllocator
 -
@@ -8273,7 +8273,7 @@ info
 readCount
 )
 ;
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 readCount
 >
@@ -8545,7 +8545,7 @@ EnableBlockingReadLock
 (
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 ShouldReadLock
 (
@@ -8579,12 +8579,12 @@ PlanarYCbCrData
 aData
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 aTexture
 )
 ;
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 aTexture
 -
@@ -8594,7 +8594,7 @@ IsLocked
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 aTexture
 -
@@ -8622,7 +8622,7 @@ data
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 !
 aTexture
@@ -8633,7 +8633,7 @@ IsImmutable
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 aTexture
 -
@@ -8643,7 +8643,7 @@ IsValid
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 aData
 .
@@ -9266,7 +9266,7 @@ return
 true
 ;
 }
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 bytesPerPixel
 =

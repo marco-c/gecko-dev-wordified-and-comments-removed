@@ -509,7 +509,7 @@ RequestMemoryReportResolver
 aResolver
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 XRE_IsVRProcess
 (

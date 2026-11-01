@@ -121,7 +121,7 @@ mThread
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 mThread
 )
@@ -134,7 +134,7 @@ rv
 )
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 false
 "
@@ -410,7 +410,7 @@ uint32_t
 aTime
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 mStarted
 "
@@ -426,7 +426,7 @@ tasks
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 mThread
 )

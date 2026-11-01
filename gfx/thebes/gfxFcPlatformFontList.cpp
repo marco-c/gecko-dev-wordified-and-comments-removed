@@ -7292,7 +7292,7 @@ gfxFontconfigFontFamily
 (
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 NS_IsMainThread
 (
@@ -14216,7 +14216,7 @@ void
 aThis
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 XRE_IsParentProcess
 (
