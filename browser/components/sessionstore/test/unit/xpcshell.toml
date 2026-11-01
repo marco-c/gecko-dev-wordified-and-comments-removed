@@ -259,6 +259,13 @@ Bug
 ]
 [
 "
+test_startup_pinned_tabs_no_savedgroups
+.
+js
+"
+]
+[
+"
 test_startup_session_async
 .
 js
