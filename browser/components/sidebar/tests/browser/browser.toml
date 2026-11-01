@@ -341,6 +341,13 @@ js
 ]
 [
 "
+browser_sidebar_backup_state
+.
+js
+"
+]
+[
+"
 browser_sidebar_collapsed_close_tab_button
 .
 js
