@@ -3865,15 +3865,7 @@ aVisibility
 *
 aVisibility
 =
-mWindow
-&
-&
-mWindow
--
->
-IsVisible
-(
-)
+true
 ;
 return
 NS_OK
@@ -3975,10 +3967,6 @@ SynchronouslyUpdateRemoteBrowserDimensions
 ;
 }
 }
-RecomputeBrowsingContextVisibility
-(
-)
-;
 nsCOMPtr
 <
 nsIWindowMediator
