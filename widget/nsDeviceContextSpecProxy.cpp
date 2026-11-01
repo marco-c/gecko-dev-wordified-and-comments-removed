@@ -467,7 +467,7 @@ __func__
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsDeviceContextSpecProxy
 :
 :
@@ -522,7 +522,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsDeviceContextSpecProxy
 :
 :
