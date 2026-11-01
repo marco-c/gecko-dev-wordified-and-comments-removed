@@ -447,6 +447,21 @@ engineSession
 )
 )
 )
+private
+fun
+PdfToolsIntegration
+.
+addSignature
+(
+)
+{
+handleSignClick
+(
+)
+handleSignAddClick
+(
+)
+}
 Test
 fun
 GIVEN
@@ -707,7 +722,7 @@ integration
 (
 )
 .
-handleSignAddClick
+addSignature
 (
 )
 val
@@ -869,7 +884,7 @@ integrationWith
 engineSession
 )
 .
-handleSignAddClick
+addSignature
 (
 )
 onResult
@@ -989,7 +1004,7 @@ integrationWith
 engineSession
 )
 .
-handleSignAddClick
+addSignature
 (
 )
 onException
@@ -1087,7 +1102,7 @@ integration
 (
 )
 .
-handleSignAddClick
+addSignature
 (
 )
 val

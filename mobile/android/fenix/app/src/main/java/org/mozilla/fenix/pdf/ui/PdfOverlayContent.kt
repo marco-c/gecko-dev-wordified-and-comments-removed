@@ -340,6 +340,11 @@ state
 signatureState
 .
 signature
+isAddingSignature
+=
+signatureState
+.
+isAddingSignature
 onCloseClick
 =
 signatureActions
