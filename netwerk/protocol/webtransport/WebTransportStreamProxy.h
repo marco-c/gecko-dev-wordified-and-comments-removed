@@ -70,8 +70,8 @@ aStream
 NS_IMETHOD
 SendStopSending
 (
-uint8_t
-aError
+uint64_t
+aErrorCode
 )
 override
 ;
@@ -84,7 +84,7 @@ override
 NS_IMETHOD
 Reset
 (
-uint8_t
+uint64_t
 aErrorCode
 )
 override
