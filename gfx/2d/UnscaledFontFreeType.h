@@ -396,7 +396,8 @@ FontVariation
 >
 *
 aVariations
-FT_Face
+SharedFTFace
+*
 aFace
 )
 ;

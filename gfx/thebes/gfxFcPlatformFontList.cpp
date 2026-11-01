@@ -2468,6 +2468,12 @@ face
 "
 )
 ;
+AutoLockSharedFTFace
+lock
+(
+ftFace
+)
+;
 (
 *
 sDoneVar
@@ -6052,6 +6058,12 @@ return
 nullptr
 ;
 }
+AutoLockSharedFTFace
+faceLock
+(
+ftFace
+)
+;
 if
 (
 FT_Err_Ok
