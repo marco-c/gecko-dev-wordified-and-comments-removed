@@ -1096,8 +1096,6 @@ if
 (
 shared_tuple_scalar_cache
 )
-scalar
-=
 shared_tuple_scalar_cache
 -
 >
