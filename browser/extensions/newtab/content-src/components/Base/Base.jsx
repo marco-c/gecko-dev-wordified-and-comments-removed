@@ -5049,7 +5049,7 @@ global
 document
 ?
 .
-body
+documentElement
 .
 classList
 .
@@ -5577,7 +5577,7 @@ global
 document
 ?
 .
-body
+documentElement
 .
 classList
 .
@@ -5596,7 +5596,7 @@ global
 document
 ?
 .
-body
+documentElement
 .
 classList
 .

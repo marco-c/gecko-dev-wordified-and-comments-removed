@@ -15292,7 +15292,7 @@ backgroundPosition
 ;
 document
 .
-body
+documentElement
 .
 classList
 .
@@ -17910,7 +17910,7 @@ backgroundPosition
 ;
 document
 .
-body
+documentElement
 .
 classList
 .
