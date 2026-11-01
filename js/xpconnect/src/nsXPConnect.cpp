@@ -553,8 +553,7 @@ if
 XRE_IsParentProcess
 (
 )
-&
-&
+?
 mozilla
 :
 :
@@ -562,6 +561,16 @@ StaticPrefs
 :
 :
 javascript_options_main_process_disable_jit
+(
+)
+:
+mozilla
+:
+:
+StaticPrefs
+:
+:
+javascript_options_other_processes_disable_jit
 (
 )
 )
