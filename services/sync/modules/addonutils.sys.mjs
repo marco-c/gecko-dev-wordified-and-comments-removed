@@ -354,6 +354,16 @@ sourceURI
 .
 spec
 {
+id
+:
+addon
+.
+id
+type
+:
+addon
+.
+type
 name
 :
 addon

@@ -32377,6 +32377,7 @@ sourceURI
 name
 version
 icons
+type
 }
 )
 =
@@ -32415,6 +32416,8 @@ promptHandler
 this
 .
 _installPromptHandler
+id
+type
 }
 )
 ;
