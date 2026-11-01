@@ -8580,7 +8580,7 @@ PingRateLimit
 {
 seconds_per_interval
 :
-1
+5
 pings_per_interval
 }
 )
@@ -9342,7 +9342,7 @@ Duration
 :
 from_millis
 (
-100
+500
 )
 )
 .
