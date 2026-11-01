@@ -1198,12 +1198,12 @@ WindowKind
 aWindowKind
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 aBridge
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 aWidget
 )
