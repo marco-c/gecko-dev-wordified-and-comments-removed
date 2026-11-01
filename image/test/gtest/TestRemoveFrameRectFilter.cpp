@@ -95,6 +95,8 @@ IntRect
 &
 aFrameRect
 Func
+&
+&
 aFunc
 )
 {

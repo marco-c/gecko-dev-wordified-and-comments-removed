@@ -95,6 +95,8 @@ IntSize
 &
 aOutputSize
 Func
+&
+&
 aFunc
 )
 {

@@ -204,6 +204,8 @@ void
 WithSurfaceSink
 (
 Func
+&
+&
 aFunc
 )
 {
