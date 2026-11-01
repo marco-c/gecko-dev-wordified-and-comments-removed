@@ -15,3 +15,4 @@ index
 AudioStream
 AudioSinkWrapper
 SpeechRecognition
+Diagnostics
