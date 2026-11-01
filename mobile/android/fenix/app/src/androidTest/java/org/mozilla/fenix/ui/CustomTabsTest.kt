@@ -1407,6 +1407,17 @@ verifyPDFViewerInACustomTabTest
 (
 )
 {
+/
+/
+Bug
+2081257
+will
+add
+back
+PDF
+viewer
+tool
+test
 val
 customTabPage
 =
@@ -1466,9 +1477,6 @@ in
 )
 )
 waitForPageToLoad
-(
-)
-verifyPDFReaderToolbarItems
 (
 )
 verifyCustomTabCloseButton
