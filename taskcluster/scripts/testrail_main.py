@@ -241,6 +241,27 @@ e
 "
 )
     
+build_number
+=
+os
+.
+environ
+.
+get
+(
+"
+MOZ_BUILD_NUMBER
+"
+"
+"
+)
+.
+strip
+(
+)
+or
+None
+    
 release_version
 =
 get_release_version
@@ -262,6 +283,7 @@ build_milestone_name
 testrail_product_type
 release_type
 release_version
+build_number
     
 )
     
@@ -321,19 +343,12 @@ devices
 =
 [
 "
-Google
-Pixel
-3
+MediumPhone
+.
+arm
 (
-Android11
-)
-"
-"
-Google
-Pixel
-2
-(
-Android11
+API
+34
 )
 "
 ]
@@ -419,6 +434,21 @@ ui_test_task_id
 options
 )
         
+build_number_text
+=
+f
+"
+Build
+{
+build_number
+}
+"
+if
+build_number
+else
+"
+"
+        
 success_values
 =
 {
@@ -470,6 +500,26 @@ TEST_RUN_EMOJI
 "
 :
 test_run_emoji
+            
+"
+MILESTONE_ID
+"
+:
+str
+(
+milestone
+[
+"
+id
+"
+]
+)
+            
+"
+BUILD_NUMBER_TEXT
+"
+:
+build_number_text
         
 }
         
