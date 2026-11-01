@@ -1498,6 +1498,12 @@ HW_DECODED_VIDEO_ZERO_COPY
 ;
 featureZeroCopy
 .
+Reset
+(
+)
+;
+featureZeroCopy
+.
 EnableByDefault
 (
 )
