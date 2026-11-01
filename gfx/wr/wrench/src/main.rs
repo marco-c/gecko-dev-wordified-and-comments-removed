@@ -427,7 +427,7 @@ webrender
 :
 {
 DebugFlags
-LayerCompositor
+Compositor
 }
 ;
 use
@@ -2461,7 +2461,7 @@ Option
 Box
 <
 dyn
-LayerCompositor
+Compositor
 >
 >
 {
@@ -2484,7 +2484,7 @@ as
 Box
 <
 dyn
-LayerCompositor
+Compositor
 >
 )
 }
@@ -2516,7 +2516,7 @@ Option
 Box
 <
 dyn
-LayerCompositor
+Compositor
 >
 >
 {
@@ -2533,7 +2533,7 @@ as
 Box
 <
 dyn
-LayerCompositor
+Compositor
 >
 )
 }

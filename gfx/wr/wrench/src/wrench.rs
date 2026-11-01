@@ -175,7 +175,7 @@ webrender
 DebugFlags
 RenderResults
 ShaderPrecacheFlags
-LayerCompositor
+Compositor
 }
 ;
 use
@@ -1462,7 +1462,7 @@ Option
 Box
 <
 dyn
-LayerCompositor
+Compositor
 >
 >
 compositor_clips_override
