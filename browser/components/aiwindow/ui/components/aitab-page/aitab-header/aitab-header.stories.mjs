@@ -315,8 +315,8 @@ title
 Delete
 this
 [
-AI
-Tab
+Smart
+Page
 ]
 ?
 aitab
