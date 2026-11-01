@@ -745,6 +745,17 @@ ErrorResult
 aRv
 )
 ;
+already_AddRefed
+<
+CSSNumericValue
+>
+Invert
+(
+ErrorResult
+&
+aRv
+)
+;
 StyleNumericValue
 ToStyleNumericValue
 (
