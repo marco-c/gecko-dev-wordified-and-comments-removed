@@ -793,7 +793,6 @@ Notify
 (
 nsITimer
 *
-aTimer
 )
 {
 MessageLoop

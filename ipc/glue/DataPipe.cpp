@@ -864,7 +864,6 @@ Describe
 (
 DataPipeAutoLock
 &
-aLock
 )
 const
 MOZ_REQUIRES
@@ -3467,7 +3466,6 @@ aCallback
 uint32_t
 aFlags
 uint32_t
-aRequestedCount
 nsIEventTarget
 *
 aTarget
@@ -3823,7 +3821,6 @@ aCallback
 uint32_t
 aFlags
 uint32_t
-aRequestedCount
 nsIEventTarget
 *
 aTarget
@@ -3919,13 +3916,10 @@ DataPipeReceiver
 SerializedComplexity
 (
 uint32_t
-aMaxSize
 uint32_t
 *
-aSizeUsed
 uint32_t
 *
-aPipes
 uint32_t
 *
 aTransferables
@@ -3947,7 +3941,6 @@ InputStreamParams
 &
 aParams
 uint32_t
-aMaxSize
 uint32_t
 *
 aSizeUsed
@@ -3978,7 +3971,6 @@ Deserialize
 const
 InputStreamParams
 &
-aParams
 )
 {
 MOZ_CRASH

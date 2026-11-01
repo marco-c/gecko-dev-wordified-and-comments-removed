@@ -330,7 +330,6 @@ ipc
 :
 GeckoChildProcessHost
 &
-procHost
 geckoargs
 :
 :
@@ -564,7 +563,6 @@ ipc
 :
 GeckoChildProcessHost
 &
-procHost
 geckoargs
 :
 :

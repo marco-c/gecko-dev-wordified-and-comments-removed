@@ -1174,7 +1174,6 @@ BackgroundParentImpl
 ActorDestroy
 (
 ActorDestroyReason
-aWhy
 )
 {
 AssertIsInMainProcess
@@ -1199,7 +1198,6 @@ AllocPBackgroundTestParent
 const
 nsACString
 &
-aTestArg
 )
 {
 AssertIsInMainProcess
@@ -3303,7 +3301,6 @@ dom
 :
 RemoteWorkerData
 &
-aRemoteWorkerData
 )
 {
 MOZ_ASSERT
@@ -3339,11 +3336,9 @@ dom
 :
 RemoteWorkerData
 &
-aData
 const
 uint64_t
 &
-aWindowID
 const
 mozilla
 :
@@ -3353,7 +3348,6 @@ dom
 :
 MessagePortIdentifier
 &
-aPortIdentifier
 )
 {
 RefPtr
@@ -3604,30 +3598,24 @@ AllocPFileCreatorParent
 const
 nsAString
 &
-aFullPath
 const
 nsAString
 &
-aType
 const
 nsAString
 &
-aName
 const
 Maybe
 <
 int64_t
 >
 &
-aLastModified
 const
 bool
 &
-aExistenceCheck
 const
 bool
 &
-aIsFromNsIFile
 )
 {
 RefPtr
@@ -4436,7 +4424,6 @@ AllocPBroadcastChannelParent
 const
 PrincipalInfo
 &
-aPrincipalInfo
 const
 nsACString
 &
@@ -4506,7 +4493,6 @@ RecvPBroadcastChannelConstructor
 (
 PBroadcastChannelParent
 *
-actor
 const
 PrincipalInfo
 &
@@ -4518,7 +4504,6 @@ aOrigin
 const
 nsAString
 &
-aChannel
 )
 {
 AssertIsInMainProcess
@@ -5080,11 +5065,9 @@ aUUID
 const
 nsID
 &
-aDestinationUUID
 const
 uint32_t
 &
-aSequenceID
 )
 {
 AssertIsInMainProcess
@@ -5123,7 +5106,6 @@ aActor
 const
 nsID
 &
-aUUID
 const
 nsID
 &
@@ -5855,7 +5837,6 @@ aActor
 const
 FileSystemParams
 &
-params
 )
 {
 static_cast
@@ -5945,7 +5926,6 @@ AllocPHttpBackgroundChannelParent
 const
 uint64_t
 &
-aChannelId
 )
 {
 AssertIsInMainProcess
@@ -6116,7 +6096,6 @@ aEndpoint
 const
 Namespace
 &
-aNamespace
 const
 PrincipalInfo
 &
@@ -8129,7 +8108,6 @@ Maybe
 nsID
 >
 &
-aClientId
 )
 {
 AssertIsInMainProcess
@@ -8284,7 +8262,6 @@ TestParent
 ActorDestroy
 (
 ActorDestroyReason
-aWhy
 )
 {
 mozilla

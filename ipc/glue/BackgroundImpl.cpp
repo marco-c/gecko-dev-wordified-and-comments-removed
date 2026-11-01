@@ -4013,7 +4013,6 @@ ShutdownTimerCallback
 (
 nsITimer
 *
-aTimer
 void
 *
 aClosure
@@ -4341,7 +4340,6 @@ Observe
 (
 nsISupports
 *
-aSubject
 const
 char
 *
@@ -4349,7 +4347,6 @@ aTopic
 const
 char16_t
 *
-aData
 )
 {
 AssertIsInMainProcess
@@ -4636,7 +4633,6 @@ BackgroundStarterParent
 ActorDestroy
 (
 ActorDestroyReason
-aReason
 )
 {
 AssertIsOnBackgroundThread
@@ -5281,7 +5277,6 @@ Observe
 (
 nsISupports
 *
-aSubject
 const
 char
 *
@@ -5289,7 +5284,6 @@ aTopic
 const
 char16_t
 *
-aData
 )
 {
 AssertIsOnMainThread

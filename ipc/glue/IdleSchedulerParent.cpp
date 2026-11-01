@@ -1774,10 +1774,8 @@ StarvationCallback
 (
 nsITimer
 *
-aTimer
 void
 *
-aData
 )
 {
 RefPtr

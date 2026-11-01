@@ -3399,7 +3399,6 @@ exePath
 GeckoProcessType
 processType
 SandboxingKind
-utilitySandbox
 )
 {
 exePath
@@ -4957,7 +4956,6 @@ OnProcessLaunchError
 (
 const
 LaunchError
-aError
 )
 {
 MonitorAutoLock
@@ -5562,7 +5560,6 @@ Observe
 (
 nsISupports
 *
-aSubject
 const
 char
 *
@@ -5570,7 +5567,6 @@ aTopic
 const
 char16_t
 *
-aData
 )
 {
 MOZ_RELEASE_ASSERT
@@ -5818,7 +5814,6 @@ nsIFile
 aAppDir
 nsIFile
 *
-aProfileDir
 )
 #
 endif

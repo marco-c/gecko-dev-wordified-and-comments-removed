@@ -861,7 +861,6 @@ RecordCrashWithTelemetry
 GeckoProcessType
 aProcessType
 int32_t
-aCrashType
 )
 {
 nsCString

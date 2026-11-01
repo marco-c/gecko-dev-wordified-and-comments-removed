@@ -831,7 +831,6 @@ promise
 ]
 (
 LaunchError
-aError
 )
 {
 MOZ_ASSERT_UNREACHABLE
@@ -901,10 +900,8 @@ UtilityProcessTest
 UntilChildProcessDead
 (
 uint32_t
-pid
 JSContext
 *
-cx
 :
 :
 mozilla

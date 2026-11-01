@@ -147,7 +147,6 @@ void
 ActorDestroy
 (
 ActorDestroyReason
-why
 )
 final
 override
@@ -260,7 +259,6 @@ void
 ActorDestroy
 (
 ActorDestroyReason
-why
 )
 final
 override

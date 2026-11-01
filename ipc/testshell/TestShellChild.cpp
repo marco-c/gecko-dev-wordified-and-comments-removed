@@ -133,7 +133,6 @@ AllocPTestShellCommandChild
 const
 nsAString
 &
-aCommand
 )
 {
 return
