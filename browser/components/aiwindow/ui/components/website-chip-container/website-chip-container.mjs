@@ -177,7 +177,9 @@ aiwindow
 /
 components
 /
-smartwindow
+ai
+-
+website
 -
 chip
 .
@@ -789,7 +791,9 @@ new
 CustomEvent
 (
 "
-smartwindow
+ai
+-
+website
 -
 chip
 :
@@ -835,7 +839,9 @@ website
 return
 html
 <
-smartwindow
+ai
+-
+website
 -
 chip
 .
@@ -931,7 +937,9 @@ this
 .
 removable
 }
-smartwindow
+ai
+-
+website
 -
 chip
 :
@@ -953,7 +961,9 @@ e
 >
 <
 /
-smartwindow
+ai
+-
+website
 -
 chip
 >

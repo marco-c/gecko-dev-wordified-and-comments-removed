@@ -473,7 +473,7 @@ clicked
 /
 export
 class
-SmartwindowChip
+AIWebsiteChip
 extends
 MozLitElement
 {
@@ -789,7 +789,9 @@ new
 CustomEvent
 (
 "
-smartwindow
+ai
+-
+website
 -
 chip
 :
@@ -925,7 +927,9 @@ new
 CustomEvent
 (
 "
-smartwindow
+ai
+-
+website
 -
 chip
 :
@@ -978,7 +982,9 @@ new
 CustomEvent
 (
 "
-smartwindow
+ai
+-
+website
 -
 chip
 :
@@ -1588,7 +1594,9 @@ aiwindow
 /
 components
 /
-smartwindow
+ai
+-
+website
 -
 chip
 .
@@ -1607,10 +1615,12 @@ customElements
 define
 (
 "
-smartwindow
+ai
+-
+website
 -
 chip
 "
-SmartwindowChip
+AIWebsiteChip
 )
 ;

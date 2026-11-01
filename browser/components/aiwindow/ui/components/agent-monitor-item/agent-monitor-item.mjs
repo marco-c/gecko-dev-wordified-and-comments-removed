@@ -386,7 +386,9 @@ aiwindow
 /
 components
 /
-smartwindow
+ai
+-
+website
 -
 chip
 .
@@ -6108,7 +6110,9 @@ url
 >
 html
 <
-smartwindow
+ai
+-
+website
 -
 chip
 type
@@ -6161,7 +6165,9 @@ title
 {
 url
 }
-smartwindow
+ai
+-
+website
 -
 chip
 :
@@ -6183,7 +6189,9 @@ url
 >
 <
 /
-smartwindow
+ai
+-
+website
 -
 chip
 >
@@ -8566,7 +8574,9 @@ url
 >
 html
 <
-smartwindow
+ai
+-
+website
 -
 chip
 type
@@ -8628,7 +8638,9 @@ url
 >
 <
 /
-smartwindow
+ai
+-
+website
 -
 chip
 >

@@ -362,7 +362,9 @@ aiwindow
 /
 components
 /
-smartwindow
+ai
+-
+website
 -
 chip
 .
@@ -4023,7 +4025,9 @@ this
 addEventListener
 (
 "
-smartwindow
+ai
+-
+website
 -
 chip
 :
@@ -5685,7 +5689,9 @@ this
 removeEventListener
 (
 "
-smartwindow
+ai
+-
+website
 -
 chip
 :
@@ -10713,7 +10719,7 @@ return
 /
 /
 Handle
-smartwindow
+website
 chip
 remove
 events
@@ -10727,7 +10733,9 @@ type
 =
 =
 "
-smartwindow
+ai
+-
+website
 -
 chip
 :

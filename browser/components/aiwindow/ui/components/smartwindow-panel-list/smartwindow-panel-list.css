@@ -1970,7 +1970,9 @@ nowrap
 /
 *
 Style
-smartwindow
+ai
+-
+website
 -
 chip
 to
@@ -2011,7 +2013,9 @@ list
 :
 has
 (
-smartwindow
+ai
+-
+website
 -
 chip
 )
@@ -2026,7 +2030,9 @@ block
 panel
 -
 list
-smartwindow
+ai
+-
+website
 -
 chip
 {
@@ -2062,7 +2068,9 @@ width
 panel
 -
 list
-smartwindow
+ai
+-
+website
 -
 chip
 :
@@ -2147,7 +2155,9 @@ width
 panel
 -
 list
-smartwindow
+ai
+-
+website
 -
 chip
 :
@@ -2182,7 +2192,9 @@ hover
 panel
 -
 list
-smartwindow
+ai
+-
+website
 -
 chip
 :
@@ -2241,7 +2253,9 @@ enabled
 panel
 -
 list
-smartwindow
+ai
+-
+website
 -
 chip
 :

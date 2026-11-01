@@ -2741,7 +2741,9 @@ row
 querySelectorAll
 (
 "
-smartwindow
+ai
+-
+website
 -
 chip
 "

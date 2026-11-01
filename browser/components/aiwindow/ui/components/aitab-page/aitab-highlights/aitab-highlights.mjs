@@ -154,7 +154,9 @@ aiwindow
 /
 components
 /
-smartwindow
+ai
+-
+website
 -
 chip
 .
@@ -384,7 +386,9 @@ url
 return
 html
 <
-smartwindow
+ai
+-
+website
 -
 chip
 type
@@ -449,7 +453,9 @@ OpenLink
 >
 <
 /
-smartwindow
+ai
+-
+website
 -
 chip
 >
