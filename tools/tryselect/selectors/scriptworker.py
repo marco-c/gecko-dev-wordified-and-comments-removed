@@ -160,6 +160,8 @@ signing
 "
 build
 -
+mac
+-
 signing
 -
 macosx64
