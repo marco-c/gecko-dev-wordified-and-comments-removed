@@ -57,8 +57,8 @@ monitorPromoCard
 vpnPromoCard
 relayPromoCard
 mdnCard
-soloCard
 thunderbirdCard
+enterpriseCard
 newProductsCard
 }
 =
@@ -225,9 +225,9 @@ present
 ;
 ok
 (
-soloCard
+thunderbirdCard
 "
-Solo
+Thunderbird
 card
 is
 present
@@ -236,9 +236,10 @@ present
 ;
 ok
 (
-thunderbirdCard
+enterpriseCard
 "
-Thunderbird
+Firefox
+Enterprise
 card
 is
 present
