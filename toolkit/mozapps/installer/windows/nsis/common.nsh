@@ -38575,10 +38575,8 @@ if
 the
 directory
 exists
-ExecShell
-"
-open
-"
+Exec
+'
 "
 INSTDIR
 \
@@ -38588,7 +38586,6 @@ helper
 .
 exe
 "
-'
 -
 -
 profile
@@ -38596,7 +38593,6 @@ profile
 4
 "
 '
-SW_HIDE
 {
 EndIf
 }
