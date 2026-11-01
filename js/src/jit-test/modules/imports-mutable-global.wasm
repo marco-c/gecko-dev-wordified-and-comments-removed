@@ -1,0 +1,15 @@
+asm
+"
+exports
+-
+mutable
+-
+global
+.
+wasm
+g
+get
+#
+name
+get
+g
