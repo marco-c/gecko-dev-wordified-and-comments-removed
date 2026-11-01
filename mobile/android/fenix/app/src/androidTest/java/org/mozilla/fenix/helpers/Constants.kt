@@ -582,9 +582,6 @@ Dark
 Reader
 "
 "
-Bitwarden
-"
-"
 NoScript
 "
 "
