@@ -513,6 +513,13 @@ components
 core
 .
 downloadEstimator
+publicSuffixList
+=
+applicationContext
+.
+components
+.
+publicSuffixList
 )
 )
 private
