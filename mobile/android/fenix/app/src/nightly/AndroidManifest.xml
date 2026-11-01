@@ -155,6 +155,13 @@ name
 .
 IntentReceiverActivity
 "
+android
+:
+exported
+=
+"
+true
+"
 >
 <
 intent
