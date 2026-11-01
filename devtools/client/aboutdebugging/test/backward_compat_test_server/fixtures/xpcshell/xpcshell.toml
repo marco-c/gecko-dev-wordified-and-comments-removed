@@ -1,0 +1,17 @@
+[
+DEFAULT
+]
+firefox
+-
+appdir
+=
+"
+browser
+"
+[
+"
+test_debug_me
+.
+js
+"
+]

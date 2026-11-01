@@ -81,6 +81,11 @@ import
 log
 from
 .
+servers
+import
+XpcshellHarness
+from
+.
 session
 import
 provisioned_server
@@ -135,6 +140,14 @@ list
 [
 str
 ]
+|
+None
+=
+None
+    
+xpcshell_harness
+:
+XpcshellHarness
 |
 None
 =
@@ -198,6 +211,10 @@ server
 headless
 =
 headless
+        
+xpcshell_harness
+=
+xpcshell_harness
     
 )
 as

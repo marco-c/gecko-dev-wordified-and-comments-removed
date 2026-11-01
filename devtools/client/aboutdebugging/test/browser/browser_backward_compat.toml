@@ -370,3 +370,10 @@ browser_backward_compat_toolbox_netmonitor
 js
 "
 ]
+[
+"
+browser_backward_compat_xpcshell
+.
+js
+"
+]
