@@ -750,16 +750,6 @@ always
 show
 "
 ]
-[
-"
-browser
-.
-nova
-.
-enabled
-"
-false
-]
 ]
 }
 )
