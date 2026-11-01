@@ -183,6 +183,12 @@ dependencies
 linux64
 -
 jdk
+-
+android
+-
+robolectric
+-
+jars
 geckoview
 :
 -
