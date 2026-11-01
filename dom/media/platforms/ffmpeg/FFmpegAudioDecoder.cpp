@@ -621,6 +621,17 @@ if
 (
 (
 mCDM
+&
+&
+XRE_IsGPUProcess
+(
+)
+)
+|
+|
+(
+(
+mCDM
 |
 |
 mCodecID
@@ -638,6 +649,7 @@ XRE_IsRDDProcess
 |
 XRE_IsUtilityProcess
 (
+)
 )
 )
 )

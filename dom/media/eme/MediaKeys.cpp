@@ -2701,10 +2701,6 @@ RemoteMediaManagerChild
 :
 CreateCDM
 (
-RemoteMediaIn
-:
-:
-RddProcess
 this
 mKeySystem
 mConfig
