@@ -15298,7 +15298,8 @@ in
 tasks
 :
         
-if
+attrs
+=
 task
 .
 get
@@ -15309,6 +15310,9 @@ attributes
 {
 }
 )
+        
+if
+attrs
 .
 get
 (
@@ -15316,6 +15320,21 @@ get
 code
 -
 review
+"
+)
+or
+attrs
+.
+get
+(
+"
+code
+-
+review
+-
+build
+-
+test
 "
 )
 :
