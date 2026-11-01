@@ -35,6 +35,11 @@ string
 >
 #
 include
+<
+vector
+>
+#
+include
 "
 absl
 /
@@ -568,12 +573,11 @@ checksum
 std
 :
 :
-string
+vector
+<
+uint8_t
+>
 buffer
-;
-buffer
-.
-resize
 (
 digest_
 -
@@ -607,7 +611,7 @@ std
 string
 result
 =
-hex_encode
+HexEncode
 (
 buffer
 )

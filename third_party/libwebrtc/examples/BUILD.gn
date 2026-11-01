@@ -453,6 +453,14 @@ deps
 /
 rtc_base
 :
+span_helpers
+"
+"
+.
+.
+/
+rtc_base
+:
 stringutils
 "
 "

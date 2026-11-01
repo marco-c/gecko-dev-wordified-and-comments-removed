@@ -277,7 +277,7 @@ size
 ;
 }
 return
-hex_encode
+HexEncode
 (
 checksum_result_
 )

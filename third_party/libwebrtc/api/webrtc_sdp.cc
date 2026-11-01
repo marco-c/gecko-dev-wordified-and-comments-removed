@@ -4565,7 +4565,7 @@ return
 false
 ;
 }
-char
+uint8_t
 decoded
 [
 1
@@ -4573,7 +4573,7 @@ decoded
 ;
 if
 (
-hex_decode
+HexDecode
 (
 decoded
 uri
@@ -4585,6 +4585,10 @@ i
 1
 2
 )
+)
+.
+size
+(
 )
 !
 =

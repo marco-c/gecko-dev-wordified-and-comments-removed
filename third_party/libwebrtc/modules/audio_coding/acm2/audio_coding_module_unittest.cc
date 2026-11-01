@@ -3652,7 +3652,7 @@ size
 ;
 checksum_string
 =
-hex_encode
+HexEncode
 (
 checksum_result
 )
