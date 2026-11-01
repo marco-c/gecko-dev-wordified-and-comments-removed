@@ -374,6 +374,7 @@ lazyMonitored
 {
 TabIntentProcessor
 (
+store
 tabsUseCases
 searchUseCases
 .
@@ -414,6 +415,7 @@ lazyMonitored
 {
 TabIntentProcessor
 (
+store
 tabsUseCases
 searchUseCases
 .

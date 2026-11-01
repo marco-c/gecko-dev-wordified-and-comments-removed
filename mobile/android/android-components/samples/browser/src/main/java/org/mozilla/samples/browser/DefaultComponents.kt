@@ -1842,6 +1842,7 @@ lazy
 {
 TabIntentProcessor
 (
+store
 tabsUseCases
 searchUseCases
 .

@@ -344,6 +344,11 @@ tabIntentProcessor
 =
 TabIntentProcessor
 (
+context
+.
+components
+.
+store
 tabsUseCases
 searchUseCases
 .
