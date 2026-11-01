@@ -1,3 +1,11 @@
+#
+!
+[
+deny
+(
+unsafe_op_in_unsafe_fn
+)
+]
 use
 wgpu_core_remote_types
 :
@@ -405,6 +413,8 @@ return
 ]
 ;
 }
+unsafe
+{
 std
 :
 :
@@ -420,6 +430,7 @@ self
 .
 length
 )
+}
 }
 }
 impl
@@ -623,6 +634,8 @@ self
 u8
 ]
 {
+unsafe
+{
 slice
 :
 :
@@ -635,6 +648,7 @@ self
 .
 len
 )
+}
 }
 }
 fn

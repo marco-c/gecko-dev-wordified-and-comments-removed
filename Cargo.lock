@@ -50872,6 +50872,9 @@ metal
 parking_lot
 "
 "
+scopeguard
+"
+"
 serde
 "
 "

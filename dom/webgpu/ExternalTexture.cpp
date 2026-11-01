@@ -4372,7 +4372,7 @@ view_formats
 ffi
 :
 :
-wgpu_server_device_import_texture_from_shared_handle
+wgpu_server_device_import_texture_from_d3d11_resource
 (
 aParent
 -
@@ -4810,7 +4810,7 @@ view_formats
 ffi
 :
 :
-wgpu_server_device_import_texture_from_shared_handle
+wgpu_server_device_import_texture_from_d3d11_resource
 (
 aParent
 -
