@@ -54,8 +54,14 @@ MetricsExporter
 {
 public
 :
+explicit
 StdoutMetricsExporter
 (
+FILE
+*
+output
+=
+stdout
 )
 ;
 ~
