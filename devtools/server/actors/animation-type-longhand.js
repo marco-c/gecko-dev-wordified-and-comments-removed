@@ -1178,14 +1178,6 @@ scroll
 -
 amount
 "
-"
--
-x
--
-text
--
-scale
-"
 ]
 )
 ]

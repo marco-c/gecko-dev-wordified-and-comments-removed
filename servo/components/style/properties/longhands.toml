@@ -1046,8 +1046,10 @@ none
 enabled_in
 =
 "
-ua
 "
+has_effect_on_gecko_scrollbars
+=
+false
 spec
 =
 "

@@ -1015,7 +1015,7 @@ Box
 Color
 >
 )
-MozInheritFromBody
+InheritFromBodyQuirk
 }
 impl
 From
@@ -2999,7 +2999,7 @@ dest
 Color
 :
 :
-MozInheritFromBody
+InheritFromBodyQuirk
 =
 >
 dest
@@ -3015,6 +3015,8 @@ inherit
 from
 -
 body
+-
+quirk
 "
 )
 }
@@ -3129,7 +3131,7 @@ self
 Self
 :
 :
-MozInheritFromBody
+InheritFromBodyQuirk
 =
 >
 false
@@ -4486,7 +4488,7 @@ ok_or
 Color
 :
 :
-MozInheritFromBody
+InheritFromBodyQuirk
 =
 >
 {

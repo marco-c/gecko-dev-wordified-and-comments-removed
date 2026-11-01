@@ -12577,6 +12577,14 @@ mLock
 ;
 if
 (
+StaticPrefs
+:
+:
+mathml_font_family_math_enabled
+(
+)
+&
+&
 aGenericType
 =
 =
