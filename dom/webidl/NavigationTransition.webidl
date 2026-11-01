@@ -126,6 +126,14 @@ UseCounter
 ]
 readonly
 attribute
+NavigationDestination
+to
+;
+[
+UseCounter
+]
+readonly
+attribute
 Promise
 <
 undefined

@@ -51,6 +51,9 @@ mozilla
 dom
 {
 class
+NavigationDestination
+;
+class
 NavigationHistoryEntry
 ;
 enum
@@ -88,6 +91,9 @@ aNavigationType
 NavigationHistoryEntry
 *
 aFrom
+NavigationDestination
+*
+aDestination
 Promise
 *
 aCommitted
@@ -106,6 +112,13 @@ const
 NavigationHistoryEntry
 *
 From
+(
+)
+const
+;
+NavigationDestination
+*
+To
 (
 )
 const
@@ -174,6 +187,12 @@ RefPtr
 NavigationHistoryEntry
 >
 mFrom
+;
+RefPtr
+<
+NavigationDestination
+>
+mDestination
 ;
 RefPtr
 <
