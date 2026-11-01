@@ -13660,7 +13660,6 @@ mCloneReadInfo
 Data
 (
 )
-JS_STRUCTURED_CLONE_VERSION
 JS
 :
 :

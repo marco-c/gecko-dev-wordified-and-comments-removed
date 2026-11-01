@@ -1489,8 +1489,6 @@ const
 JSStructuredCloneData
 &
 data
-uint32_t
-version
 JS
 :
 :

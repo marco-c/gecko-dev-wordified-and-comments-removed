@@ -124,7 +124,6 @@ JS_ReadStructuredClone
 cx
 *
 buf
-JS_STRUCTURED_CLONE_VERSION
 JS
 :
 :
@@ -1251,7 +1250,6 @@ JS_ReadStructuredClone
 (
 cx
 data
-JS_STRUCTURED_CLONE_VERSION
 scope
 v2
 JS

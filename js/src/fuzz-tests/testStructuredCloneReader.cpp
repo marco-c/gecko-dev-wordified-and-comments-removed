@@ -299,7 +299,6 @@ JS_ReadStructuredClone
 gCx
 *
 clonebuf
-JS_STRUCTURED_CLONE_VERSION
 scope
 &
 deserialized

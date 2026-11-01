@@ -3932,7 +3932,6 @@ aCloneReadInfo
 Data
 (
 )
-JS_STRUCTURED_CLONE_VERSION
 JS
 :
 :
