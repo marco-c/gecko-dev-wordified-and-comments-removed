@@ -63,16 +63,6 @@ namespace
 psm
 {
 struct
-ByteArray
-{
-uint8_t
-[
-]
-data
-;
-}
-;
-struct
 ECKey
 {
 uint8_t

@@ -274,9 +274,6 @@ DNSUtils
 class
 TRRServiceChannel
 ;
-class
-SocketProcessChild
-;
 enum
 FrameCheckLevel
 {

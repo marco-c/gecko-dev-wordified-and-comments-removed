@@ -316,9 +316,6 @@ include
 NeckoChannelParams
 ;
 include
-PSMIPCTypes
-;
-include
 LookAndFeelTypes
 ;
 include

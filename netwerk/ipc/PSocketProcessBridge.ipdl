@@ -150,7 +150,7 @@ ChildProc
 =
 Content
 ]
-sync
+async
 protocol
 PSocketProcessBridge
 {

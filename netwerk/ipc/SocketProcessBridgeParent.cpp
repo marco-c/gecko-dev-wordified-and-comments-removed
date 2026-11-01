@@ -42,17 +42,6 @@ mozilla
 /
 ipc
 /
-BackgroundParent
-.
-h
-"
-#
-include
-"
-mozilla
-/
-ipc
-/
 Endpoint
 .
 h
