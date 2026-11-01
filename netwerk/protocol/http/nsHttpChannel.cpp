@@ -25444,6 +25444,10 @@ return
 NS_OK
 ;
 }
+DiscardCacheEntryCheckState
+(
+)
+;
 NoteCacheEntryKeyMatch
 (
 entry
