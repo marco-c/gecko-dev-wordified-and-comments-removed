@@ -477,6 +477,13 @@ js
 ]
 [
 "
+test_permmanager_policy
+.
+js
+"
+]
+[
+"
 test_permmanager_reentrant_removal
 .
 js
