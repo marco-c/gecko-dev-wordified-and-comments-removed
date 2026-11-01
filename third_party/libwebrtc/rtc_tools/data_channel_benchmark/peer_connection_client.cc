@@ -829,7 +829,6 @@ factory
 CreatePeerConnectionFactory
 (
 nullptr
-nullptr
 signaling_thread
 nullptr
 CreateBuiltinAudioEncoderFactory

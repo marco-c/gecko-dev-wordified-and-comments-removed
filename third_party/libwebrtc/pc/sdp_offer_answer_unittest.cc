@@ -694,7 +694,6 @@ pc_factory_
 CreatePeerConnectionFactory
 (
 nullptr
-nullptr
 signaling_thread_
 .
 get

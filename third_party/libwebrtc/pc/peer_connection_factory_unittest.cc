@@ -1218,12 +1218,6 @@ Thread
 Current
 (
 )
-Thread
-:
-:
-Current
-(
-)
 scoped_refptr
 <
 AudioDeviceModule
@@ -1974,7 +1968,6 @@ factory
 (
 CreatePeerConnectionFactory
 (
-nullptr
 nullptr
 nullptr
 nullptr

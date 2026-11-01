@@ -10550,11 +10550,6 @@ network_thread_
 get
 (
 )
-network_thread_
-.
-get
-(
-)
 Thread
 :
 :
@@ -10723,15 +10718,6 @@ test
 :
 RunLoop
 main_thread_
-;
-std
-:
-:
-unique_ptr
-<
-Thread
->
-worker_thread_
 ;
 std
 :

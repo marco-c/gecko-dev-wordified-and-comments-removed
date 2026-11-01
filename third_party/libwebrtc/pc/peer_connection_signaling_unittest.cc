@@ -1010,12 +1010,6 @@ Thread
 Current
 (
 )
-Thread
-:
-:
-Current
-(
-)
 scoped_refptr
 <
 AudioDeviceModule

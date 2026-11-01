@@ -556,12 +556,6 @@ Thread
 Current
 (
 )
-Thread
-:
-:
-Current
-(
-)
 std
 :
 :
