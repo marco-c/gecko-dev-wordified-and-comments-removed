@@ -116,15 +116,6 @@ testResetFOG
 (
 )
 ;
-GleanPings
-.
-prototypeNoCodeEvents
-.
-setEnabled
-(
-true
-)
-;
 }
 function
 assertInteractionData
