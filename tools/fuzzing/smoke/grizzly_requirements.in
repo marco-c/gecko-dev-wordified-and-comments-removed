@@ -3,9 +3,9 @@ grizzly
 framework
 =
 =
-0
+1
 .
-19
+4
 .
 0
 PyYAML
@@ -23,7 +23,7 @@ xvfbwrapper
 .
 2
 .
-9
+36
 cffi
 =
 =
