@@ -813,6 +813,12 @@ WebTransportHash
 [
 ]
 aServerCertHashes
+uint16_t
+?
+aAnticipatedConcurrentIncomingUnidirectionalStreams
+uint16_t
+?
+aAnticipatedConcurrentIncomingBidirectionalStreams
 Endpoint
 <
 PWebTransportParent
