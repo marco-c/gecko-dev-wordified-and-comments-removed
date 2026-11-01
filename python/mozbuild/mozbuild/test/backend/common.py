@@ -1,4 +1,6 @@
 import
+copy
+import
 os
 import
 unittest
@@ -2938,6 +2940,9 @@ name
 srcdir_name
 =
 None
+substs
+=
+None
 )
 :
         
@@ -3011,16 +3016,28 @@ data
 directory
 .
         
+substs
+overrides
+individual
+configuration
+values
+.
+        
 "
 "
 "
         
 config
 =
+copy
+.
+deepcopy
+(
 CONFIGS
 [
 name
 ]
+)
         
 config
 [
@@ -3039,6 +3056,22 @@ en
 -
 US
 "
+        
+if
+substs
+:
+            
+config
+[
+"
+substs
+"
+]
+.
+update
+(
+substs
+)
         
 srcdir
 =
