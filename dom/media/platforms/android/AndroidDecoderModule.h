@@ -208,9 +208,9 @@ AndroidDecoderModule
 =
 default
 ;
-already_AddRefed
+RefPtr
 <
-MediaDataDecoder
+CreateDecoderPromise
 >
 CreateVideoDecoder
 (
@@ -220,9 +220,9 @@ CreateDecoderParams
 aParams
 )
 ;
-already_AddRefed
+RefPtr
 <
-MediaDataDecoder
+CreateDecoderPromise
 >
 CreateAudioDecoder
 (
