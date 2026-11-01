@@ -160,6 +160,17 @@ MakePrintTarget
 =
 0
 ;
+nsIPrintSettings
+*
+PrintSettings
+(
+)
+const
+{
+return
+mPrintSettings
+;
+}
 NS_IMETHOD
 GetDrawEventRecorder
 (

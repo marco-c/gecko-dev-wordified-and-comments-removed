@@ -153,10 +153,6 @@ PrintTargetWindows
 cairo_surface_t
 *
 aCairoSurface
-const
-IntSize
-&
-aSize
 HDC
 aDC
 )
@@ -174,10 +170,6 @@ SkGDI
 Document
 >
 aDocument
-const
-IntSize
-&
-aSize
 HDC
 aDC
 )

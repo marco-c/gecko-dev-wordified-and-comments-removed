@@ -170,10 +170,6 @@ PrintTargetWindows
 cairo_surface_t
 *
 aCairoSurface
-const
-IntSize
-&
-aSize
 HDC
 aDC
 )
@@ -181,7 +177,6 @@ aDC
 PrintTarget
 (
 aCairoSurface
-aSize
 )
 mDC
 (
@@ -205,10 +200,6 @@ SkGDI
 Document
 >
 aDocument
-const
-IntSize
-&
-aSize
 HDC
 aDC
 )
@@ -216,7 +207,6 @@ aDC
 PrintTarget
 (
 nullptr
-aSize
 )
 mDC
 (
@@ -449,7 +439,6 @@ move
 (
 doc
 )
-size
 aDC
 )
 )
@@ -486,7 +475,6 @@ new
 PrintTargetWindows
 (
 surface
-size
 aDC
 )
 ;
