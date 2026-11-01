@@ -51644,6 +51644,14 @@ aBrowsingContext
 BrowserId
 (
 )
+aBrowsingContext
+-
+>
+OriginAttributesRef
+(
+)
+.
+mUserContextId
 )
 ;
 }

@@ -216,6 +216,15 @@ INTEGER
 "
 \
 "
+userContextId
+INTEGER
+NOT
+NULL
+DEFAULT
+0
+"
+\
+"
 )
 "
 )

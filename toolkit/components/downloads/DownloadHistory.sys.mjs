@@ -2046,6 +2046,13 @@ referrerInfo
 originalReferrer
 :
 null
+userContextId
+:
+download
+.
+source
+.
+userContextId
 }
 ]
 }
