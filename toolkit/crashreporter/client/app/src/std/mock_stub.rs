@@ -36,8 +36,15 @@ init
 :
 expr
 ;
+mocked
+type
+=
+MT
+:
+ty
+;
 (
-item
+impl
 :
 item
 )
