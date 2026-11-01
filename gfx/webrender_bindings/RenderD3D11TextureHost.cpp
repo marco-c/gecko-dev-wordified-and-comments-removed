@@ -2161,7 +2161,8 @@ mSize
 .
 width
 )
->
+!
+=
 desc
 .
 Width
@@ -2173,7 +2174,8 @@ mSize
 .
 height
 )
->
+!
+=
 desc
 .
 Height
@@ -4360,7 +4362,8 @@ expected
 .
 width
 )
->
+!
+=
 desc
 .
 Width
@@ -4372,7 +4375,8 @@ expected
 .
 height
 )
->
+!
+=
 desc
 .
 Height
