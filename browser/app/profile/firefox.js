@@ -27006,7 +27006,7 @@ features
 .
 siteInclusions
 "
-false
+true
 )
 ;
 pref

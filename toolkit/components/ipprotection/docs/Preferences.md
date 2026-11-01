@@ -175,7 +175,7 @@ siteInclusions
 boolean
 default
 :
-false
+true
 )
 :
 Feature
