@@ -12845,6 +12845,11 @@ Nothing
 )
 )
 ;
+bool
+HasPendingInboundCrossDocumentViewTransition
+(
+)
+;
 Maybe
 <
 RefPtr
@@ -15649,6 +15654,11 @@ mClipboardCopyTriggered
 ;
 bool
 mHasBeenRevealed
+:
+1
+;
+bool
+mRevealAfterBFCacheRestore
 :
 1
 ;

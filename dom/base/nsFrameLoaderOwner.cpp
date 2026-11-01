@@ -2143,6 +2143,8 @@ RestoreFrameLoaderFromBFCache
 nsFrameLoader
 *
 aNewFrameLoader
+bool
+aRetainPaint
 )
 {
 MOZ_LOG
@@ -2217,7 +2219,15 @@ this
 ChangeFrameLoaderCommon
 (
 owner
-false
+aRetainPaint
+&
+&
+mFrameLoader
+-
+>
+IsRemoteFrame
+(
+)
 )
 ;
 return

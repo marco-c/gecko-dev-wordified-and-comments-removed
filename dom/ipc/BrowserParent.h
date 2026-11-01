@@ -895,7 +895,7 @@ ipc
 :
 :
 IPCResult
-RecvDidUnsuppressPainting
+RecvReadyToReplaceRetainedPaint
 (
 )
 ;
@@ -906,16 +906,10 @@ ipc
 :
 :
 IPCResult
-RecvDidUnsuppressPaintingNormalPriority
-(
-)
-{
-return
-RecvDidUnsuppressPainting
+RecvReadyToReplaceRetainedPaintNormalPriority
 (
 )
 ;
-}
 mozilla
 :
 :

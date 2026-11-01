@@ -236,6 +236,8 @@ RestoreFrameLoaderFromBFCache
 nsFrameLoader
 *
 aNewFrameLoader
+bool
+aRetainPaint
 )
 ;
 MOZ_CAN_RUN_SCRIPT
