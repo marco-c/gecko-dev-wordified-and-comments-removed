@@ -1416,6 +1416,14 @@ decoration
 :
 inherit
 ;
+view
+-
+transition
+-
+name
+:
+inherit
+;
 unicode
 -
 bidi
