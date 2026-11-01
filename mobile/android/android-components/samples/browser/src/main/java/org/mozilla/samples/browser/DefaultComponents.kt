@@ -3086,9 +3086,7 @@ notificationManagerCompat
 }
 val
 addonUpdater
-by
-lazy
-{
+=
 DefaultAddonUpdater
 (
 applicationContext
@@ -3099,9 +3097,8 @@ TimeUnit
 .
 DAYS
 )
-store
+notificationsDelegate
 )
-}
 val
 fileSizeFormatter
 :

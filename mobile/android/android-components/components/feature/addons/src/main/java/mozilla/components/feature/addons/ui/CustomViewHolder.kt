@@ -93,16 +93,6 @@ TextView
 import
 androidx
 .
-compose
-.
-ui
-.
-platform
-.
-ComposeView
-import
-androidx
-.
 recyclerview
 .
 widget
@@ -274,10 +264,6 @@ val
 messageBarErrorView
 :
 View
-val
-messageBarUpdateView
-:
-ComposeView
 )
 :
 CustomViewHolder
