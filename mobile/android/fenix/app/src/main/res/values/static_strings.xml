@@ -6326,6 +6326,13 @@ name
 "
 firefox_labs_test_lab_title
 "
+tools
+:
+ignore
+=
+"
+UnusedResources
+"
 >
 Add
 a
@@ -6375,6 +6382,13 @@ name
 =
 "
 firefox_labs_test_lab_description
+"
+tools
+:
+ignore
+=
+"
+UnusedResources
 "
 >
 Appends
