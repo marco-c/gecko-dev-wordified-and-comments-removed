@@ -1697,6 +1697,23 @@ target_tasks_method
         
 )
         
+SystemResourceMonitor
+.
+begin_marker
+(
+"
+Taskgraph
+"
+f
+"
+write
+{
+attr
+}
+cache
+"
+)
+        
 with
 open
 (
@@ -1727,6 +1744,23 @@ to_json
 (
 )
 fh
+)
+        
+SystemResourceMonitor
+.
+end_marker
+(
+"
+Taskgraph
+"
+f
+"
+write
+{
+attr
+}
+cache
+"
 )
         
 return
