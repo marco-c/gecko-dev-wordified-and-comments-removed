@@ -6465,6 +6465,13 @@ Slow
                 
 }
             
+if
+not
+self
+.
+run_by_manifest
+:
+                
 self
 .
 log
