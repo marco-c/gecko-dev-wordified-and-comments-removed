@@ -228,8 +228,6 @@ shown
 once
 a
 failed
-photo
-picker
 upload
 has
 brought
@@ -385,6 +383,9 @@ onRetry
 *
 *
 Uploads
+camera
+captures
+and
 photo
 picker
 images
@@ -397,11 +398,11 @@ behind
 LensUploadLoadingScreen
 ]
 which
+*
 covers
 the
 camera
 until
-*
 the
 upload
 succeeds
@@ -417,6 +418,7 @@ finishes
 the
 activity
 with
+*
 the
 Lens
 result
@@ -571,8 +573,6 @@ imageUri
 param
 imageUri
 The
-photo
-picker
 image
 to
 upload
@@ -591,6 +591,19 @@ cookie
 context
 .
 *
+param
+source
+Upload
+method
+the
+image
+came
+from
+recorded
+as
+telemetry
+.
+*
 /
 fun
 start
@@ -601,6 +614,9 @@ Uri
 isPrivate
 :
 Boolean
+source
+:
+String
 )
 {
 /
@@ -656,6 +672,7 @@ start
 (
 imageUri
 isPrivate
+source
 )
 }
 /
@@ -1083,6 +1100,9 @@ imageUri
 failure
 .
 isPrivate
+failure
+.
+source
 )
 }
 }
