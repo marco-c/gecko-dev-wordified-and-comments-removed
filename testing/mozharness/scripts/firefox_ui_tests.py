@@ -1179,6 +1179,18 @@ query_abs_dirs
 (
 )
         
+self
+.
+mkdir_p
+(
+dirs
+[
+"
+abs_blob_upload_dir
+"
+]
+)
+        
 import
 firefox_ui_harness
         
