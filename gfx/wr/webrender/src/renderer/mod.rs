@@ -780,6 +780,9 @@ mod
 gpu_buffer
 ;
 mod
+layer_tree
+;
+mod
 shade
 ;
 mod
