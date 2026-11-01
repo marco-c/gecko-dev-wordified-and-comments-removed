@@ -2256,6 +2256,12 @@ LT
 /
 Lithuania
 "
+LU
+"
+/
+/
+Luxembourg
+"
 MT
 "
 /
