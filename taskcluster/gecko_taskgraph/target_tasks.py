@@ -5636,19 +5636,6 @@ try_name
                 
 if
 "
--
-nofis
-"
-not
-in
-try_name
-:
-                    
-return
-False
-                
-if
-"
 hw
 -
 s24
@@ -5725,8 +5712,6 @@ ebay
 kleinanzeigen
 -
 search
--
-nofis
 "
 in
 try_name
@@ -6209,27 +6194,6 @@ in
 try_name
 and
 "
--
-nofis
-"
-not
-in
-try_name
-:
-                
-return
-False
-            
-if
-"
-chrome
--
-m
-"
-in
-try_name
-and
-"
 tp6m
 "
 in
@@ -6245,8 +6209,6 @@ platform
 :
                 
 if
-(
-                    
 "
 ebay
 -
@@ -6254,7 +6216,6 @@ kleinanzeigen
 "
 in
 try_name
-                    
 and
 "
 search
@@ -6262,15 +6223,6 @@ search
 not
 in
 try_name
-                    
-and
-"
-nofis
-"
-in
-try_name
-                
-)
 :
                     
 return
@@ -7003,19 +6955,6 @@ try_name
             
 )
 :
-                
-if
-"
--
-nofis
-"
-not
-in
-try_name
-:
-                    
-return
-False
                 
 return
 True
