@@ -2597,7 +2597,7 @@ PropertyProvider
 *
 aProvider
 Range
-aSpacingRange
+aProviderRange
 TextRunDrawParams
 &
 aParams
@@ -2629,7 +2629,7 @@ GetAdjustedSpacingArray
 (
 aRange
 aProvider
-aSpacingRange
+aProviderRange
 &
 spacingBuffer
 )
