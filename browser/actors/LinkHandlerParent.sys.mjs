@@ -706,12 +706,11 @@ return
 }
 if
 (
-!
 aMsg
 .
 data
 .
-isRichIcon
+isTabIcon
 )
 {
 let
@@ -854,12 +853,11 @@ return
 }
 if
 (
-!
 aMsg
 .
 data
 .
-isRichIcon
+isTabIcon
 )
 {
 this
@@ -1001,6 +999,7 @@ images
 canStoreIcon
 beforePageShow
 isRichIcon
+isTabIcon
 }
 )
 {
@@ -1243,8 +1242,7 @@ return
 }
 if
 (
-!
-isRichIcon
+isTabIcon
 )
 {
 this
@@ -1470,8 +1468,7 @@ ex
 }
 if
 (
-!
-isRichIcon
+isTabIcon
 )
 {
 gBrowser
