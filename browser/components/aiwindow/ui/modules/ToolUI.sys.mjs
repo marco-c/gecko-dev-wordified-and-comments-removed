@@ -8241,6 +8241,9 @@ userContextId
 forceForeground
 :
 true
+relatedToCurrent
+:
+true
 }
 )
 ;
