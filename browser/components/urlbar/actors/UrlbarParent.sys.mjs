@@ -1975,6 +1975,8 @@ UrlbarChildController
 *
 typedef
 {
+VoidMethods
+<
 Pick
 <
 UrlbarChildController
@@ -1990,6 +1992,7 @@ controller
 [
 number
 ]
+>
 >
 *
 &
@@ -2036,6 +2039,8 @@ UrlbarInput
 *
 typedef
 {
+VoidMethods
+<
 Pick
 <
 UrlbarInput
@@ -2051,6 +2056,7 @@ input
 [
 number
 ]
+>
 >
 }
 *
@@ -2084,6 +2090,8 @@ UrlbarView
 *
 typedef
 {
+VoidMethods
+<
 Pick
 <
 UrlbarView
@@ -2099,6 +2107,7 @@ view
 [
 number
 ]
+>
 >
 }
 *
