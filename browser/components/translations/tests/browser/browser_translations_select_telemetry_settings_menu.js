@@ -248,7 +248,7 @@ about
 :
 preferences
 #
-general
+languages
 "
 "
 Waiting
