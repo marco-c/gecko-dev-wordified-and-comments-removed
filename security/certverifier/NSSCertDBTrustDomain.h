@@ -176,11 +176,6 @@ LoadRemoteCertsModule
 (
 )
 ;
-bool
-LoadIPCClientCertsModule
-(
-)
-;
 nsresult
 DefaultServerNicknameForCert
 (

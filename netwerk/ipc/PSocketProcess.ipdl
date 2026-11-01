@@ -76,10 +76,6 @@ include
 protocol
 PProxyAutoConfig
 ;
-include
-protocol
-PSocketProcessBackground
-;
 #
 if
 defined
@@ -583,16 +579,6 @@ PWebrtcTCPSocket
 TabId
 ?
 tabId
-)
-;
-async
-InitSocketBackground
-(
-Endpoint
-<
-PSocketProcessBackgroundParent
->
-aEndpoint
 )
 ;
 async
