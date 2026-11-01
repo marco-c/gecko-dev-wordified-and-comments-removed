@@ -190,7 +190,7 @@ element
 .
 *
 /
-private
+internal
 const
 val
 DISABLED_ALPHA
