@@ -26875,6 +26875,10 @@ const
 NavigationType
 &
 aNavigationType
+const
+TabId
+&
+aSnapshotTargetTab
 BeginOutboundCrossDocumentViewTransitionResolver
 &
 &
@@ -26969,6 +26973,10 @@ ptrOr
 nullptr
 )
 aNavigationType
+uint64_t
+(
+aSnapshotTargetTab
+)
 [
 resolver
 =

@@ -15648,6 +15648,10 @@ browsingContext
 targetInfo
 *
 navigationType
+TabId
+(
+0
+)
 )
 -
 >
