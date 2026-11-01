@@ -372,10 +372,7 @@ emplaceBack
 std
 :
 :
-forward
-<
-ModuleLoadInfo
->
+move
 (
 aModuleLoadInfo
 )
