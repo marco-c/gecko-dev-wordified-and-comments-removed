@@ -3870,8 +3870,10 @@ widgetKeyEvent
 ;
 for
 (
+RefPtr
+<
 KeyEventHandler
-*
+>
 handler
 =
 keyHandlers
