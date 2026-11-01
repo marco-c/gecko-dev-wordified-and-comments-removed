@@ -150,8 +150,8 @@ initialState
 TabGroupsStripState
 =
 TabGroupsStripState
-(
-)
+.
+TabGroupStripHidden
 middleware
 :
 List
