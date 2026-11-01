@@ -1444,6 +1444,8 @@ actions
 param
 {
 number
+|
+string
 }
 [
 dwellId
@@ -9258,7 +9260,7 @@ openedPages
 *
 param
 {
-Element
+MozBrowser
 }
 browser
 the
