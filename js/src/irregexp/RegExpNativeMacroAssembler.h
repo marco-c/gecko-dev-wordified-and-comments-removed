@@ -923,6 +923,11 @@ Address
 backtrackStackBaseAddr
 )
 ;
+void
+LoadBacktrackStackRegsFromMemory
+(
+)
+;
 public
 :
 static
@@ -1452,6 +1457,15 @@ Register
 temp0_
 temp1_
 temp2_
+;
+js
+:
+:
+jit
+:
+:
+Register
+backtrack_stack_limit_
 ;
 js
 :
