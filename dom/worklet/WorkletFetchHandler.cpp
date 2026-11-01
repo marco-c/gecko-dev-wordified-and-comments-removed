@@ -882,6 +882,7 @@ mHandlerRef
 HandleFetchFailed
 (
 mURI
+mModuleType
 )
 ;
 return
@@ -909,6 +910,11 @@ aWorkletImpl
 nsIURI
 *
 aURI
+JS
+:
+:
+ModuleType
+aModuleType
 nsresult
 aResult
 #
@@ -949,6 +955,10 @@ aWorkletImpl
 mURI
 (
 aURI
+)
+mModuleType
+(
+aModuleType
 )
 mResult
 (
@@ -1017,6 +1027,12 @@ nsCOMPtr
 nsIURI
 >
 mURI
+;
+JS
+:
+:
+ModuleType
+mModuleType
 ;
 nsresult
 mResult
@@ -1133,6 +1149,7 @@ moduleLoader
 GetRequest
 (
 mURI
+mModuleType
 )
 ;
 MOZ_ASSERT
@@ -1184,6 +1201,7 @@ moduleLoader
 RemoveRequest
 (
 mURI
+mModuleType
 )
 ;
 return
@@ -1282,6 +1300,7 @@ moduleLoader
 RemoveRequest
 (
 mURI
+mModuleType
 )
 ;
 return
@@ -2638,6 +2657,11 @@ HandleFetchFailed
 nsIURI
 *
 aURI
+JS
+:
+:
+ModuleType
+aModuleType
 )
 {
 nsCOMPtr
@@ -2654,6 +2678,7 @@ mWorklet
 >
 mImpl
 aURI
+aModuleType
 NS_ERROR_FAILURE
 #
 ifdef
@@ -3450,6 +3475,7 @@ mWorklet
 >
 mImpl
 mURI
+mModuleType
 NS_OK
 #
 ifdef
@@ -3576,6 +3602,7 @@ mWorklet
 >
 mImpl
 mURI
+mModuleType
 aRv
 #
 ifdef

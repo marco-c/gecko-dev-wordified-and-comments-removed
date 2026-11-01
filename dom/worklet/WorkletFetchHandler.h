@@ -155,6 +155,11 @@ HandleFetchFailed
 nsIURI
 *
 aURI
+JS
+:
+:
+ModuleType
+aModuleType
 )
 ;
 private
