@@ -394,7 +394,7 @@ gfx
 :
 :
 IntSize
-mSoftwarePictureSize
+mPictureSize
 ;
 uint32_t
 mVideoStride
