@@ -465,7 +465,7 @@ compose
 .
 base
 .
-Dropdown2
+Dropdown
 import
 mozilla
 .
@@ -1893,7 +1893,7 @@ Int
 Unit
 )
 {
-Dropdown2
+Dropdown
 (
 modifier
 =

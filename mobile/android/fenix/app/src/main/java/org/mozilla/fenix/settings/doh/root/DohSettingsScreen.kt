@@ -383,7 +383,7 @@ compose
 .
 base
 .
-Dropdown2
+Dropdown
 import
 mozilla
 .
@@ -2056,7 +2056,7 @@ dp
 )
 )
 {
-Dropdown2
+Dropdown
 (
 label
 =

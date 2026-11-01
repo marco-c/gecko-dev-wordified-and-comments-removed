@@ -363,7 +363,7 @@ compose
 .
 base
 .
-Dropdown2
+Dropdown
 import
 mozilla
 .
@@ -1214,7 +1214,7 @@ key
 )
 }
 }
-Dropdown2
+Dropdown
 (
 label
 =

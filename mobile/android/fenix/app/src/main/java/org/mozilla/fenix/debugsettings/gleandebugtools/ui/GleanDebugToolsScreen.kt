@@ -281,7 +281,7 @@ compose
 .
 base
 .
-Dropdown2
+Dropdown
 import
 mozilla
 .
@@ -1138,7 +1138,7 @@ dynamic400
 )
 )
 {
-Dropdown2
+Dropdown
 (
 label
 =

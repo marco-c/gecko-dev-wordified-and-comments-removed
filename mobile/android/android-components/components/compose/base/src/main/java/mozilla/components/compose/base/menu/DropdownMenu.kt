@@ -497,7 +497,7 @@ compose
 .
 base
 .
-Dropdown2
+Dropdown
 import
 mozilla
 .
@@ -1071,7 +1071,7 @@ be
 used
 with
 [
-Dropdown2
+Dropdown
 ]
 .
 *

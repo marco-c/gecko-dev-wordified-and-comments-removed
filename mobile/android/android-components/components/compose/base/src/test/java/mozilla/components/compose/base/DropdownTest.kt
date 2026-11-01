@@ -214,7 +214,7 @@ AndroidJUnit4
 class
 )
 class
-Dropdown2Test
+DropdownTest
 {
 get
 :
@@ -245,7 +245,7 @@ composeTestRule
 .
 setContent
 {
-Dropdown2
+Dropdown
 (
 label
 =
@@ -377,7 +377,7 @@ composeTestRule
 .
 setContent
 {
-Dropdown2
+Dropdown
 (
 label
 =
@@ -541,7 +541,7 @@ composeTestRule
 .
 setContent
 {
-Dropdown2
+Dropdown
 (
 label
 =

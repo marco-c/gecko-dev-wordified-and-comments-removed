@@ -339,7 +339,7 @@ compose
 .
 base
 .
-Dropdown2
+Dropdown
 import
 mozilla
 .
@@ -1981,7 +1981,7 @@ translateFromLanguages
 .
 let
 {
-Dropdown2
+Dropdown
 (
 label
 =
@@ -2055,7 +2055,7 @@ translateToLanguages
 .
 let
 {
-Dropdown2
+Dropdown
 (
 label
 =
@@ -2230,7 +2230,7 @@ translateFromLanguages
 .
 let
 {
-Dropdown2
+Dropdown
 (
 label
 =
@@ -2305,7 +2305,7 @@ translateToLanguages
 .
 let
 {
-Dropdown2
+Dropdown
 (
 label
 =
