@@ -1302,15 +1302,6 @@ WebAuthnRelatedOriginFetcher
 sys
 .
 mjs
-extensions
-/
-permissions
-/
-RemotePermissionService
-.
-sys
-.
-mjs
 js
 /
 xpconnect
