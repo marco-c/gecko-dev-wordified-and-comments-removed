@@ -32,7 +32,7 @@ ClientWebGLContext
 ;
 protected
 :
-WeakPtr
+RefPtr
 <
 ClientWebGLContext
 >
@@ -84,10 +84,6 @@ const
 {
 return
 mContext
-.
-get
-(
-)
 ;
 }
 }
