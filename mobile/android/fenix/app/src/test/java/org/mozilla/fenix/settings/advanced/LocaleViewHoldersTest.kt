@@ -522,7 +522,7 @@ Locale
 forLanguageTag
 (
 "
-vec
+kmr
 "
 )
 localeViewHolder
@@ -534,8 +534,7 @@ otherLocale
 assertEquals
 (
 "
-V
-neto
+Kurmanc
 "
 localeSettingsItemBinding
 .
@@ -546,7 +545,8 @@ text
 assertEquals
 (
 "
-Venetian
+Kurmanji
+Kurdish
 "
 localeSettingsItemBinding
 .

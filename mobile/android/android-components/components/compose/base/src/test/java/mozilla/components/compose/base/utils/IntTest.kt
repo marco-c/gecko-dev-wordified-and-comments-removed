@@ -93,7 +93,7 @@ WHEN
 the
 language
 is
-Arabic
+Persian
 THEN
 translate
 the
@@ -126,7 +126,7 @@ Locale
 forLanguageTag
 (
 "
-ar
+fa
 "
 )
 )
