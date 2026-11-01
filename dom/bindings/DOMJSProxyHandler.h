@@ -621,6 +621,15 @@ obj
 )
 ;
 static
+void
+ClearExpandoOnWrapFailure
+(
+JSObject
+*
+obj
+)
+;
+static
 const
 char
 family
