@@ -10,7 +10,17 @@ include
 .
 .
 /
-types
+.
+.
+/
+.
+.
+/
+hb
+-
+ot
+-
+dual
 .
 hh
 "
@@ -486,7 +496,7 @@ NOT_COVERED
 cache
 -
 >
-set_unchecked
+set
 (
 glyph_id
 cache
@@ -511,7 +521,7 @@ MAX_VALUE
 cache
 -
 >
-set_unchecked
+set
 (
 glyph_id
 coverage
@@ -586,7 +596,7 @@ NOT_COVERED
 cache
 -
 >
-set_unchecked
+set
 (
 glyph_id
 cache
@@ -599,7 +609,7 @@ else
 cache
 -
 >
-set_unchecked
+set
 (
 glyph_id
 0
@@ -753,6 +763,7 @@ count
 =
 hb_len
 (
++
 glyphs
 )
 ;
@@ -785,6 +796,7 @@ for
 auto
 g
 :
++
 glyphs
 )
 {

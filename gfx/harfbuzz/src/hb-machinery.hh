@@ -1673,10 +1673,6 @@ T
 unsigned
 int
 WheresFace
-bool
-core
-=
-false
 >
 struct
 hb_table_lazy_loader_t
@@ -1688,7 +1684,6 @@ hb_table_lazy_loader_t
 <
 T
 WheresFace
-core
 >
 hb_face_t
 WheresFace
@@ -1707,17 +1702,6 @@ face
 {
 hb_sanitize_context_t
 c
-;
-if
-(
-core
-)
-c
-.
-set_num_glyphs
-(
-0
-)
 ;
 return
 c

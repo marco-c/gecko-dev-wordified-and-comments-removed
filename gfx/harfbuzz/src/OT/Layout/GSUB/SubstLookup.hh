@@ -761,6 +761,11 @@ false
 )
 ;
 }
+template
+<
+typename
+GlyphID
+>
 bool
 serialize_alternate
 (
@@ -771,8 +776,7 @@ uint32_t
 lookup_props
 hb_sorted_array_t
 <
-const
-HBGlyphID16
+GlyphID
 >
 glyphs
 hb_array_t
@@ -784,8 +788,7 @@ int
 alternate_len_list
 hb_array_t
 <
-const
-HBGlyphID16
+GlyphID
 >
 alternate_glyphs_list
 )
@@ -887,6 +890,11 @@ false
 )
 ;
 }
+template
+<
+typename
+GlyphID
+>
 bool
 serialize_ligature
 (
@@ -897,8 +905,7 @@ uint32_t
 lookup_props
 hb_sorted_array_t
 <
-const
-HBGlyphID16
+GlyphID
 >
 first_glyphs
 hb_array_t
@@ -910,8 +917,7 @@ int
 ligature_per_first_glyph_count_list
 hb_array_t
 <
-const
-HBGlyphID16
+GlyphID
 >
 ligatures_list
 hb_array_t
@@ -923,8 +929,7 @@ int
 component_count_list
 hb_array_t
 <
-const
-HBGlyphID16
+GlyphID
 >
 component_list
 )

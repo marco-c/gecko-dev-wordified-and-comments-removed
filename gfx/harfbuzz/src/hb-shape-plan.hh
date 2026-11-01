@@ -117,6 +117,17 @@ user_features
 =
 nullptr
 ;
+#
+ifndef
+HB_NO_OT_SHAPE
+ot
+.
+fini
+(
+)
+;
+#
+endif
 }
 HB_INTERNAL
 bool

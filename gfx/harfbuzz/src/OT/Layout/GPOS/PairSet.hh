@@ -52,7 +52,11 @@ Types
 ;
 protected
 :
-HBUINT16
+typename
+Types
+:
+:
+HBUINT
 len
 ;
 PairValueRecord
@@ -62,7 +66,13 @@ public
 :
 DEFINE_SIZE_MIN
 (
-2
+Types
+:
+:
+HBUINT
+:
+:
+static_size
 )
 ;
 static
@@ -516,6 +526,9 @@ firstPairValueRecord
 unsigned
 count
 =
+(
+unsigned
+)
 len
 ;
 for
@@ -660,6 +673,9 @@ pos
 codepoint
 &
 firstPairValueRecord
+(
+unsigned
+)
 len
 record_size
 )

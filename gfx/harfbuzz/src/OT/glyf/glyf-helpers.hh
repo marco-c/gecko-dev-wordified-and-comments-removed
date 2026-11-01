@@ -501,6 +501,8 @@ Iterator
 padded_offsets
 bool
 use_short_loca
+bool
+extended
 )
 {
 unsigned
@@ -644,6 +646,10 @@ plan
 >
 add_table
 (
+extended
+?
+HB_OT_TAG_LOCA
+:
 HB_OT_TAG_loca
 loca_blob
 )

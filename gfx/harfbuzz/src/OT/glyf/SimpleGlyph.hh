@@ -688,6 +688,8 @@ const
 HBUINT8
 *
 end
+bool
+extended
 )
 {
 auto
@@ -740,6 +742,17 @@ flag
 p
 +
 +
+;
+if
+(
+!
+extended
+)
+flag
+&
+=
+~
+FLAG_CUBIC
 ;
 points
 [
@@ -983,6 +996,8 @@ get_contour_points
 contour_point_vector_t
 &
 points
+bool
+extended
 bool
 phantom_only
 =
@@ -1280,6 +1295,7 @@ read_flags
 p
 points_
 end
+extended
 )
 &
 &

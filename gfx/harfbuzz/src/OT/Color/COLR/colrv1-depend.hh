@@ -103,9 +103,17 @@ c
 ;
 }
 }
+template
+<
+typename
+Types
+>
 HB_INTERNAL
 void
 PaintGlyph
+<
+Types
+>
 :
 :
 dependv1

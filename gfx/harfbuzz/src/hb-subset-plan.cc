@@ -473,10 +473,7 @@ glyphset
 OT
 :
 :
-cmap
-:
-:
-accelerator_t
+cmap_accelerator_t
 cmap
 (
 face
@@ -484,9 +481,6 @@ face
 ;
 cmap
 .
-table
--
->
 closure_glyphs
 (
 unicodes
@@ -1081,10 +1075,7 @@ HB_SUBSET_FLAGS_NO_BIDI_CLOSURE
 OT
 :
 :
-cmap
-:
-:
-accelerator_t
+cmap_accelerator_t
 cmap
 (
 plan
@@ -1976,6 +1967,11 @@ item
 .
 get_gid
 (
+glyph
+.
+is_extended
+(
+)
 )
 gids_to_retain
 operation_count

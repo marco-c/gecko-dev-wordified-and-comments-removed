@@ -157,7 +157,7 @@ axisIndices
 ;
 hb_vector_t
 <
-float
+double
 >
 axisValues
 ;
@@ -432,7 +432,7 @@ unsigned
 axis_indices
 hb_vector_t
 <
-float
+double
 >
 *
 axis_values

@@ -1149,9 +1149,10 @@ table_index
 unsigned
 int
 feature_index
-unsigned
-int
-variations_index
+const
+hb_ot_shape_plan_key_t
+&
+key
 hb_mask_t
 mask
 bool

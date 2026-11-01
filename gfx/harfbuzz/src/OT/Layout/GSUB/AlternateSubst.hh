@@ -226,6 +226,11 @@ default_return_value
 ;
 }
 }
+template
+<
+typename
+GlyphID
+>
 bool
 serialize
 (
@@ -234,8 +239,7 @@ hb_serialize_context_t
 c
 hb_sorted_array_t
 <
-const
-HBGlyphID16
+GlyphID
 >
 glyphs
 hb_array_t
@@ -247,8 +251,7 @@ int
 alternate_len_list
 hb_array_t
 <
-const
-HBGlyphID16
+GlyphID
 >
 alternate_glyphs_list
 )

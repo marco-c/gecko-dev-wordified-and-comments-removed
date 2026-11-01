@@ -54,6 +54,8 @@ hb_bytes_t
 glyph_
 __item_t__
 current_
+bool
+extended_
 )
 :
 glyph
@@ -67,6 +69,10 @@ nullptr
 current_size
 (
 0
+)
+extended
+(
+extended_
 )
 {
 set_current
@@ -92,6 +98,10 @@ nullptr
 current_size
 (
 0
+)
+extended
+(
+false
 )
 {
 }
@@ -229,6 +239,7 @@ current_
 >
 get_size
 (
+extended
 )
 ;
 if
@@ -273,6 +284,9 @@ current
 ;
 unsigned
 current_size
+;
+bool
+extended
 ;
 }
 ;

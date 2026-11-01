@@ -71,6 +71,9 @@ GPOS_impl
 :
 :
 AnchorMatrix
+<
+SmallTypes
+>
 {
 graph_result_t
 <
@@ -656,6 +659,9 @@ GPOS_impl
 :
 :
 MarkArray
+<
+SmallTypes
+>
 {
 graph_result_t
 <
@@ -964,6 +970,9 @@ GPOS_impl
 :
 :
 MarkRecord
+<
+SmallTypes
+>
 :
 :
 static_size
@@ -1021,6 +1030,9 @@ GPOS_impl
 :
 :
 MarkRecord
+<
+SmallTypes
+>
 :
 :
 static_size
@@ -1482,6 +1494,9 @@ GPOS_impl
 :
 :
 MarkRecord
+<
+SmallTypes
+>
 :
 :
 static_size
@@ -2020,6 +2035,9 @@ GPOS_impl
 :
 :
 MarkRecord
+<
+SmallTypes
+>
 :
 :
 static_size

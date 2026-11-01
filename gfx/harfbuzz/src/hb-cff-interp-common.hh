@@ -3140,10 +3140,17 @@ str_ref
 push_int
 (
 (
+int
+)
+(
+(
+uint32_t
+(
 str_ref
 [
 0
 ]
+)
 <
 <
 24
@@ -3174,6 +3181,7 @@ str_ref
 [
 3
 ]
+)
 )
 )
 ;

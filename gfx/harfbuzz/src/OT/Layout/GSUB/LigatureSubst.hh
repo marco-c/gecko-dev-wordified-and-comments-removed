@@ -226,6 +226,11 @@ default_return_value
 ;
 }
 }
+template
+<
+typename
+GlyphID
+>
 bool
 serialize
 (
@@ -234,8 +239,7 @@ hb_serialize_context_t
 c
 hb_sorted_array_t
 <
-const
-HBGlyphID16
+GlyphID
 >
 first_glyphs
 hb_array_t
@@ -247,8 +251,7 @@ int
 ligature_per_first_glyph_count_list
 hb_array_t
 <
-const
-HBGlyphID16
+GlyphID
 >
 ligatures_list
 hb_array_t
@@ -260,8 +263,7 @@ int
 component_count_list
 hb_array_t
 <
-const
-HBGlyphID16
+GlyphID
 >
 component_list
 )
