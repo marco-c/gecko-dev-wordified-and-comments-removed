@@ -1780,7 +1780,7 @@ mResult
 =
 mLoadInfo
 .
-SetPrincipalsAndCSPFromChannel
+SetPrincipalsAndPolicyContainerFromChannel
 (
 channel
 )
@@ -3378,6 +3378,7 @@ SRIMetadata
 )
 nullptr
 loadContext
+nullptr
 )
 ;
 }

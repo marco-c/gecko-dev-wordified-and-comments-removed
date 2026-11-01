@@ -1361,7 +1361,7 @@ Private
 )
 -
 >
-SetPrincipalsAndCSPFromChannel
+SetPrincipalsAndPolicyContainerFromChannel
 (
 channel
 )

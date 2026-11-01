@@ -11811,7 +11811,7 @@ nsresult
 WorkerPrivate
 :
 :
-SetPrincipalsAndCSPOnMainThread
+SetPrincipalsOnMainThread
 (
 nsIPrincipal
 *
@@ -11822,20 +11822,16 @@ aPartitionedPrincipal
 nsILoadGroup
 *
 aLoadGroup
-nsIContentSecurityPolicy
-*
-aCsp
 )
 {
 return
 mLoadInfo
 .
-SetPrincipalsAndCSPOnMainThread
+SetPrincipalsOnMainThread
 (
 aPrincipal
 aPartitionedPrincipal
 aLoadGroup
-aCsp
 )
 ;
 }
@@ -11843,7 +11839,7 @@ nsresult
 WorkerPrivate
 :
 :
-SetPrincipalsAndCSPFromChannel
+SetPrincipalsAndPolicyContainerFromChannel
 (
 nsIChannel
 *
@@ -11853,7 +11849,7 @@ aChannel
 return
 mLoadInfo
 .
-SetPrincipalsAndCSPFromChannel
+SetPrincipalsAndPolicyContainerFromChannel
 (
 aChannel
 )
@@ -16912,7 +16908,7 @@ rv
 =
 loadInfo
 .
-SetPrincipalsAndCSPFromChannel
+SetPrincipalsAndPolicyContainerFromChannel
 (
 loadInfo
 .
