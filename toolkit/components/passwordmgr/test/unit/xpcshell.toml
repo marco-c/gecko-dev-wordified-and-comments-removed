@@ -868,6 +868,13 @@ js
 ]
 [
 "
+test_storage_rust_timestamps
+.
+js
+"
+]
+[
+"
 test_telemetry
 .
 js
