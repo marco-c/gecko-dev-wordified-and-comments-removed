@@ -839,14 +839,6 @@ GPU
 PGPU
 |
 Main
-Socket
--
--
->
-|
-PSocketProcessBridge
-|
-Content
 GPU
 -
 -

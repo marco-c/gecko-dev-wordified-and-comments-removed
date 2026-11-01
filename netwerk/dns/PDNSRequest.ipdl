@@ -61,10 +61,6 @@ protocol
 PNecko
 ;
 include
-protocol
-PSocketProcess
-;
-include
 PDNSRequestParams
 ;
 include
@@ -118,8 +114,6 @@ PDNSRequest
 {
 manager
 PNecko
-or
-PSocketProcess
 ;
 parent
 :

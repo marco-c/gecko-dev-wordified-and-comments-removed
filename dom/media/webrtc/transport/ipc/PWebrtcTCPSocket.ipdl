@@ -61,10 +61,6 @@ protocol
 PNecko
 ;
 include
-protocol
-PSocketProcess
-;
-include
 WebrtcProxyConfig
 ;
 using
@@ -108,8 +104,6 @@ PWebrtcTCPSocket
 {
 manager
 PNecko
-or
-PSocketProcess
 ;
 parent
 :

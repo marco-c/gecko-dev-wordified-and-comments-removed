@@ -209,7 +209,7 @@ RTCRTPContributingSourceStats
 class
 RTCStatsTimestampMaker
 ;
-class
+struct
 RTCErrorParams
 ;
 }

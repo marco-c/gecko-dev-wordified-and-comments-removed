@@ -18299,8 +18299,6 @@ aSelectedPair
 -
 >
 local
-(
-)
 .
 get
 (
@@ -18326,8 +18324,6 @@ aSelectedPair
 -
 >
 remote
-(
-)
 .
 get
 (
@@ -18383,8 +18379,6 @@ aSelectedPair
 -
 >
 local
-(
-)
 GetPrefObfuscateHostAddresses
 (
 )
@@ -18406,8 +18400,6 @@ aSelectedPair
 -
 >
 remote
-(
-)
 true
 )
 ;
