@@ -65,20 +65,6 @@ target_kind
 "
 mochitest
 "
-    
-"
-pushdate
-"
-:
-1593029536
-    
-"
-pushlog_id
-"
-:
-"
-2
-"
 }
 )
 PARAMS_NEW_CONFIG
@@ -126,20 +112,6 @@ target_kind
 :
 "
 mochitest
-"
-    
-"
-pushdate
-"
-:
-1593029536
-    
-"
-pushlog_id
-"
-:
-"
-2
 "
     
 "
@@ -324,7 +296,7 @@ label
             
 )
             
-32
+4
             
 id
 =
@@ -400,7 +372,7 @@ len
 (
 tasks
 )
-=
+>
 =
 min_expected
     
@@ -441,7 +413,10 @@ cf_tasks
 )
 =
 =
-min_expected
+len
+(
+tasks
+)
 /
 2
 pytest
@@ -585,7 +560,7 @@ label
             
 )
             
-32
+4
             
 id
 =
@@ -666,7 +641,7 @@ len
 (
 tasks
 )
-=
+>
 =
 min_expected
     

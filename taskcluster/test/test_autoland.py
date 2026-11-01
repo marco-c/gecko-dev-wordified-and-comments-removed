@@ -44,12 +44,6 @@ autoland
 "
     
 "
-pushdate
-"
-:
-1593029536
-    
-"
 pushlog_id
 "
 :
