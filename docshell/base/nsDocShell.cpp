@@ -38558,16 +38558,6 @@ newURI
 )
 ;
 }
-if
-(
-aState
-.
-mHistoryNavBetweenSameDoc
-|
-|
-doHashchange
-)
-{
 win
 -
 >
@@ -38575,7 +38565,6 @@ DispatchSyncPopState
 (
 )
 ;
-}
 if
 (
 needsScrollPosUpdate
