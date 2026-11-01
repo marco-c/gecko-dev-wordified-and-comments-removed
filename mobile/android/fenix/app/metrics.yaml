@@ -62798,7 +62798,6 @@ to
 either
 the
 close_button
-or
 tab_closed
 (
 the
@@ -62811,6 +62810,18 @@ user
 navigated
 elsewhere
 )
+or
+reader_mode_closed
+when
+the
+user
+left
+reader
+mode
+on
+the
+listened
+tab
 .
 type
 :
