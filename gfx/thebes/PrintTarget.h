@@ -6,11 +6,6 @@ define
 MOZILLA_GFX_PRINTTARGET_H
 #
 include
-<
-functional
->
-#
-include
 "
 mozilla
 /
@@ -75,7 +70,7 @@ nsAString
 &
 aPrintToFileName
 uint64_t
-aBrowsingContextId
+aInnerWindowId
 int32_t
 aStartPage
 int32_t
@@ -291,12 +286,16 @@ mSize
 ;
 bool
 mIsFinished
+=
+false
 ;
 #
 ifdef
 DEBUG
 bool
 mHasActivePage
+=
+false
 ;
 #
 endif
