@@ -2133,6 +2133,15 @@ optimize_target_tasks
 =
 True
     
+parameters
+[
+"
+shipping
+"
+]
+=
+True
+    
 if
 release_promotion_flavor
 =
