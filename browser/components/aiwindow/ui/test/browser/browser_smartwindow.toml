@@ -375,9 +375,6 @@ x86_64
 &
 &
 tsan
-&
-&
-nova
 "
 #
 Bug
@@ -812,7 +809,7 @@ if
 =
 [
 "
-nova
+true
 "
 #
 Bug
