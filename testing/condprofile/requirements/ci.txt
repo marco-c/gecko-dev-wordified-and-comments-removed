@@ -39,3 +39,12 @@ mozprofile
 .
 /
 mozdevice
+.
+/
+mozversion
+.
+/
+mozsystemmonitor
+.
+/
+mozterm

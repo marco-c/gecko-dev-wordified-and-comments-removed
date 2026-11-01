@@ -64,6 +64,13 @@ py
 ]
 [
 "
+test_mozilla_raptor
+.
+py
+"
+]
+[
+"
 test_mozilla_structured
 .
 py

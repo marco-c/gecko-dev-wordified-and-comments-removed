@@ -620,6 +620,18 @@ emulator
 "
 "
     
+python_constraints
+=
+"
+requirements
+-
+android
+-
+pgo
+.
+txt
+"
+    
 config_options
 =
 copy

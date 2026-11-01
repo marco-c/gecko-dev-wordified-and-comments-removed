@@ -226,6 +226,16 @@ AndroidMixin
 )
 :
     
+python_constraints
+=
+"
+requirements
+-
+marionette
+.
+txt
+"
+    
 config_options
 =
 (

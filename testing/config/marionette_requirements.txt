@@ -1,4 +1,11 @@
 -
+c
+requirements
+-
+marionette
+.
+txt
+-
 r
 mozbase_requirements
 .
