@@ -1106,12 +1106,13 @@ aBackup
 first
 )
 ;
+mDefaultAnchorCache
+=
 std
 :
 :
-exchange
+move
 (
-mDefaultAnchorCache
 aBackup
 .
 second
