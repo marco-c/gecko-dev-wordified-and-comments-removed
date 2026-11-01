@@ -947,7 +947,6 @@ GetAndResetCaptureProcessingTimeStats
 (
 )
 (
-const
 override
 )
 )
