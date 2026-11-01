@@ -50,15 +50,6 @@ prefs
 "
 browser
 .
-nova
-.
-enabled
-=
-true
-"
-"
-browser
-.
 urlbar
 .
 newtab
