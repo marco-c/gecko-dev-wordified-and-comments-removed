@@ -2876,7 +2876,7 @@ iconsR
 .
 drawable
 .
-mozac_ic_ellipsis_vertical_24
+mozac_ic_more_vertical_round_24
 )
 contentDescription
 =
@@ -3103,7 +3103,7 @@ iconsR
 .
 drawable
 .
-mozac_ic_ellipsis_vertical_24
+mozac_ic_more_vertical_round_24
 )
 contentDescription
 =
@@ -4111,7 +4111,7 @@ iconsR
 .
 drawable
 .
-mozac_ic_ellipsis_vertical_24
+mozac_ic_more_vertical_round_24
 )
 contentDescription
 =
@@ -4294,7 +4294,7 @@ iconsR
 .
 drawable
 .
-mozac_ic_ellipsis_vertical_24
+mozac_ic_more_vertical_round_24
 )
 contentDescription
 =
@@ -4571,7 +4571,7 @@ iconsR
 .
 drawable
 .
-mozac_ic_ellipsis_vertical_24
+mozac_ic_more_vertical_round_24
 )
 contentDescription
 =
