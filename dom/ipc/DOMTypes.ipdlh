@@ -1401,8 +1401,9 @@ parent
 -
 process
 only
-bool
-HasSpeculativeListener
+uint64_t
+?
+SpeculativeChannelId
 ;
 bool
 TryToReplaceWithSessionHistoryLoad
