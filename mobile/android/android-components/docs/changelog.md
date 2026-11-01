@@ -1282,6 +1282,12 @@ compose
 -
 base
 .
+*
+Removed
+DefaultAddonUpdater
+.
+NotificationHandlerService
+.
 #
 159
 .
