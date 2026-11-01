@@ -50057,13 +50057,13 @@ fontations
 enabled
 type
 :
-bool
+RelaxedAtomicBool
 value
 :
 false
 mirror
 :
-once
+always
 #
 endif
 #

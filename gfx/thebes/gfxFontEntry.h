@@ -3007,7 +3007,7 @@ mozilla
 StaticPrefs
 :
 :
-gfx_font_rendering_fontations_enabled_AtStartup
+gfx_font_rendering_fontations_enabled
 (
 )
 )
