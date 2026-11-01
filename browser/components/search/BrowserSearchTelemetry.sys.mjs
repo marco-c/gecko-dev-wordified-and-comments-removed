@@ -417,12 +417,6 @@ for
 context
 menu
 items
-and
-the
-*
-text
-selection
-menu
 )
 *
 -
