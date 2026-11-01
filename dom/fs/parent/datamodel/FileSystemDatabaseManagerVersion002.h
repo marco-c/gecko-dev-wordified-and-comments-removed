@@ -264,12 +264,6 @@ aAbort
 )
 override
 ;
-nsresult
-RemoveFileIdsWithoutMainFile
-(
-)
-override
-;
 protected
 :
 Result

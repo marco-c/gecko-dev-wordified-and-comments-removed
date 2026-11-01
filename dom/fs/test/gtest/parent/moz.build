@@ -85,11 +85,6 @@ TestFileSystemOriginInitialization
 cpp
 "
 "
-TestFileSystemOrphanCleanup
-.
-cpp
-"
-"
 TestFileSystemUsageTracking
 .
 cpp
