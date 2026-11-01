@@ -3443,6 +3443,25 @@ tcp_port
 )
     
 def
+modify_env
+(
+self
+env
+test
+)
+:
+        
+env
+.
+pop
+(
+"
+MOZ_REMOTE_SETTINGS_DISABLED
+"
+None
+)
+    
+def
 modify_command
 (
 self
