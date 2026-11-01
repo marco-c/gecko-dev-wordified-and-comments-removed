@@ -3956,12 +3956,13 @@ aEntryType
 {
 aRetval
 .
-AppendElement
+InsertElementSorted
 (
 mFCPTiming
+PerformanceEntryComparator
+(
 )
-;
-return
+)
 ;
 }
 if
