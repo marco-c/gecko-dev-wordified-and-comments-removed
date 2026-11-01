@@ -1961,6 +1961,12 @@ nsIContentPolicy
 :
 TYPE_CSP_REPORT
 :
+case
+nsIContentPolicy
+:
+:
+TYPE_INTERNAL_SPECULATION_RULES
+:
 return
 nsIContentSecurityPolicy
 :
