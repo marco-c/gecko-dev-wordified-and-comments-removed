@@ -1645,6 +1645,11 @@ AppLifecycleAction
 .
 StartAction
 )
+testScheduler
+.
+advanceUntilIdle
+(
+)
 verify
 (
 exactly
