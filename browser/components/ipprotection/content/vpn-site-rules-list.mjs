@@ -1897,13 +1897,11 @@ chrome
 :
 /
 /
-browser
+global
 /
-content
+skin
 /
-ipprotection
-/
-assets
+icons
 /
 warning
 .
