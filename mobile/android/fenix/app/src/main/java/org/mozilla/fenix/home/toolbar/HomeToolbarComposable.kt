@@ -1439,7 +1439,7 @@ if
 (
 settings
 .
-enableHomepageSearchBar
+isHomepageMiddleSearchEnabled
 )
 {
 BrowserSimpleToolbar
