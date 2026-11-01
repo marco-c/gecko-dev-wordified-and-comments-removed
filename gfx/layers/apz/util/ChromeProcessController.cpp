@@ -234,7 +234,7 @@ NS_GetCurrentThread
 )
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 NS_IsMainThread
 (
@@ -429,7 +429,7 @@ RepaintRequest
 aRequest
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 IsRepaintThread
 (
@@ -552,7 +552,7 @@ Destroy
 return
 ;
 }
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mUIThread
 -
@@ -776,7 +776,7 @@ n
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mUIThread
 -
@@ -1495,7 +1495,7 @@ NotifyFlushComplete
 (
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 IsRepaintThread
 (
