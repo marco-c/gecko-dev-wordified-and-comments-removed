@@ -638,18 +638,11 @@ query
 context
 object
 *
-param
-{
-UrlbarParentController
-}
-controller
-*
 /
 async
 isActive
 (
 queryContext
-controller
 )
 {
 return
@@ -723,7 +716,6 @@ ActionsProviderContextualSearch
 isActive
 (
 queryContext
-controller
 )
 )
 )
