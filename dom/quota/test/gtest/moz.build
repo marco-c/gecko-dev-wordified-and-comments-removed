@@ -121,6 +121,11 @@ TestCheckedUnsafePtr
 cpp
 "
 "
+TestCipherKeyManager
+.
+cpp
+"
+"
 TestClientDirectoryLockHandle
 .
 cpp
