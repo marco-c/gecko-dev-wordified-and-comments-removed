@@ -14184,8 +14184,9 @@ return
 true
 ;
 }
+HB_NODISCARD
 HB_ALWAYS_INLINE
-void
+float
 set
 (
 unsigned
@@ -14205,6 +14206,7 @@ length
 )
 )
 return
+value
 ;
 auto
 *
@@ -14235,6 +14237,12 @@ value
 *
 MULTIPLIER
 )
+;
+return
+*
+cached_value
+*
+DIVISOR
 ;
 }
 public
@@ -14450,6 +14458,8 @@ if
 (
 cache
 )
+v
+=
 cache
 -
 >
@@ -15789,6 +15799,8 @@ if
 (
 cache
 )
+v
+=
 cache
 -
 >
