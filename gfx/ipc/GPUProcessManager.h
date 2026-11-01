@@ -749,6 +749,11 @@ false
 )
 ;
 void
+KillProcessForTesting
+(
+)
+;
+void
 StopBatteryObserving
 (
 )
