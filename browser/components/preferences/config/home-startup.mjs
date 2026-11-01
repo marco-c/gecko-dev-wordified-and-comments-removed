@@ -5122,6 +5122,17 @@ id
 "
 customHomepageBoxGroup
 "
+l10nId
+:
+"
+home
+-
+custom
+-
+homepage
+-
+list
+"
 control
 :
 "
