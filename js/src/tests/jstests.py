@@ -4114,24 +4114,6 @@ nightly_build
 not
 release_or_beta
     
-early_beta_or_earlier
-=
-xul_tester
-.
-test
-(
-        
-"
-getBuildConfiguration
-(
-'
-early_beta_or_earlier
-'
-)
-"
-    
-)
-    
 run_info
 [
 "
@@ -4139,7 +4121,8 @@ early_beta_or_earlier
 "
 ]
 =
-early_beta_or_earlier
+not
+release_or_beta
     
 path_filter
 =
