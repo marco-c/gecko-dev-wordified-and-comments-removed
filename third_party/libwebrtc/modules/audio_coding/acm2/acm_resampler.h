@@ -85,6 +85,11 @@ resampled_last_output_frame_
 =
 true
 ;
+bool
+last_frame_muted_
+=
+true
+;
 std
 :
 :
