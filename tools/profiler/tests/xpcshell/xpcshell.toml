@@ -129,9 +129,6 @@ if
 =
 [
 "
-opt
-"
-"
 tsan
 "
 ]
@@ -147,9 +144,6 @@ skip
 if
 =
 [
-"
-opt
-"
 "
 tsan
 "
@@ -297,9 +291,6 @@ skip
 if
 =
 [
-"
-asan
-"
 "
 os
 =

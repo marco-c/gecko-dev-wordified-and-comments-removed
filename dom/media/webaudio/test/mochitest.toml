@@ -1339,15 +1339,6 @@ test_convolverNodeOOM
 html
 "
 ]
-skip
--
-if
-=
-[
-"
-asan
-"
-]
 [
 "
 test_convolverNodePassThrough

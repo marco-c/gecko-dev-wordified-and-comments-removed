@@ -617,15 +617,6 @@ on
 bit
 .
 ]
-skip
--
-if
-=
-[
-"
-asan
-"
-]
 [
 "
 test_different_domain_in_hierarchy
