@@ -706,13 +706,6 @@ js
 ]
 [
 "
-browser_policy_privatebrowsingmodeavailability
-.
-js
-"
-]
-[
-"
 browser_policy_privatebrowsingmodeavailability_srd
 .
 js
