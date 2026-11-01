@@ -84,6 +84,8 @@ aExpectedContext
 nsIChannel
 *
 aChannel
+uint64_t
+aHistoryLoadId
 )
 ;
 Result
@@ -104,6 +106,12 @@ WindowGlobalParent
 aStaticCloneOf
 =
 nullptr
+)
+const
+;
+uint64_t
+HistoryLoadId
+(
 )
 const
 ;
@@ -155,6 +163,10 @@ nsCOMPtr
 nsIChannel
 >
 mChannel
+;
+const
+uint64_t
+mHistoryLoadId
 ;
 }
 ;

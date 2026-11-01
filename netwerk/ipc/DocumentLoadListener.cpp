@@ -13917,6 +13917,14 @@ ParentProcessChannelHandle
 (
 expectedContext
 mChannel
+mLoadingSessionHistoryInfo
+?
+mLoadingSessionHistoryInfo
+-
+>
+mLoadId
+:
+0
 )
 ;
 uint32_t
