@@ -8618,11 +8618,11 @@ node_task_size
 =
 node_task_rect
 .
-to_i32
+size
 (
 )
 .
-size
+to_i32
 (
 )
 ;
