@@ -42,10 +42,10 @@ public
 explicit
 RegExpMacroAssemblerTracer
 (
-js
+std
 :
 :
-UniquePtr
+unique_ptr
 <
 RegExpMacroAssembler
 >
@@ -883,10 +883,10 @@ prologue_pushes_fail_label
 }
 private
 :
-js
+std
 :
 :
-UniquePtr
+unique_ptr
 <
 RegExpMacroAssembler
 >
