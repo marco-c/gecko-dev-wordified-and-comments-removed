@@ -233,3 +233,8 @@ components
 contentrelevancy
 /
 index
+mozapps
+/
+pushnotificationhelper
+/
+index
