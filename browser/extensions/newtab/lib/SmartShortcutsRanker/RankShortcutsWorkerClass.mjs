@@ -152,7 +152,7 @@ length
 )
 {
 return
-hist
+0
 ;
 }
 const
