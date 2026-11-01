@@ -3820,6 +3820,14 @@ aURI
 )
 ;
 bool
+SchemeIsHttpOrHttps
+(
+nsIPrincipal
+*
+aPrincipal
+)
+;
+bool
 SchemeIsSpecial
 (
 const
