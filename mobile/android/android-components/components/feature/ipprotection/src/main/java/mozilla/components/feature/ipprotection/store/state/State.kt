@@ -129,15 +129,6 @@ lib
 state
 .
 State
-const
-val
-BYTES_PER_GB
-=
-1024
-*
-1024
-*
-1024f
 /
 *
 *
