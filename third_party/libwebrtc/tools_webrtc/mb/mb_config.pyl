@@ -1830,9 +1830,6 @@ x86
 disable_trace_events
 '
 '
-no_cc_test_bins
-'
-'
 release_bot
 '
 ]
@@ -1888,9 +1885,6 @@ x86
 '
 '
 dummy_audio_file_devices
-'
-'
-no_cc_test_bins
 '
 '
 no_protobuf
@@ -2133,9 +2127,6 @@ perfetto_x86
 x86
 '
 '
-no_cc_test_bins
-'
-'
 perfetto
 '
 '
@@ -2325,9 +2316,6 @@ x86
 rtti
 '
 '
-no_cc_test_bins
-'
-'
 no_sctp
 '
 '
@@ -2464,9 +2452,6 @@ use_cxx23_x86
 [
 '
 debug_bot
-'
-'
-no_cc_test_bins
 '
 '
 use_cxx23_flag
@@ -2828,6 +2813,9 @@ debug
 '
 '
 minimal_symbols
+'
+'
+no_cc_test_bins
 '
 '
 remoteexec
@@ -3281,6 +3269,9 @@ remoteexec
 '
 '
 dcheck_off
+'
+'
+no_cc_test_bins
 '
 ]
 }
