@@ -3103,7 +3103,7 @@ video
 /
 corruption_detection
 :
-frame_instrumentation_generator_factory
+frame_instrumentation_generator
 "
 "
 .
@@ -3115,7 +3115,7 @@ video
 /
 corruption_detection
 :
-frame_instrumentation_generator_header
+frame_instrumentation_generator_factory
 "
 "
 .

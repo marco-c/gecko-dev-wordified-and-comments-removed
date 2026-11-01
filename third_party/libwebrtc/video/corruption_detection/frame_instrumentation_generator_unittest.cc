@@ -470,7 +470,6 @@ CreateTestEnvironment
 FrameInstrumentationGeneratorImpl
 generator
 (
-&
 env
 VideoCodecType
 :
@@ -516,7 +515,6 @@ CreateTestEnvironment
 FrameInstrumentationGeneratorImpl
 generator
 (
-&
 env
 VideoCodecType
 :
@@ -603,7 +601,6 @@ CreateTestEnvironment
 FrameInstrumentationGeneratorImpl
 generator
 (
-&
 env
 VideoCodecType
 :
@@ -699,7 +696,6 @@ CreateTestEnvironment
 FrameInstrumentationGeneratorImpl
 generator
 (
-&
 env
 VideoCodecType
 :
@@ -880,7 +876,6 @@ CreateTestEnvironment
 FrameInstrumentationGeneratorImpl
 generator
 (
-&
 env
 VideoCodecType
 :
@@ -1100,7 +1095,6 @@ CreateTestEnvironment
 FrameInstrumentationGeneratorImpl
 generator
 (
-&
 env
 VideoCodecType
 :
@@ -1211,7 +1205,6 @@ CreateTestEnvironment
 FrameInstrumentationGeneratorImpl
 generator
 (
-&
 env
 VideoCodecType
 :
@@ -1311,7 +1304,6 @@ CreateTestEnvironment
 FrameInstrumentationGeneratorImpl
 generator
 (
-&
 env
 VideoCodecType
 :
@@ -1420,7 +1412,6 @@ CreateTestEnvironment
 FrameInstrumentationGeneratorImpl
 generator
 (
-&
 env
 VideoCodecType
 :
@@ -1606,7 +1597,6 @@ CreateTestEnvironment
 FrameInstrumentationGeneratorImpl
 generator
 (
-&
 env
 VideoCodecType
 :
@@ -1850,7 +1840,6 @@ CreateTestEnvironment
 FrameInstrumentationGeneratorImpl
 generator
 (
-&
 env
 VideoCodecType
 :
@@ -2095,7 +2084,6 @@ CreateTestEnvironment
 FrameInstrumentationGeneratorImpl
 generator
 (
-&
 env
 VideoCodecType
 :
@@ -2302,7 +2290,6 @@ CreateTestEnvironment
 FrameInstrumentationGeneratorImpl
 generator
 (
-&
 env
 VideoCodecType
 :
@@ -2573,7 +2560,6 @@ CreateTestEnvironment
 FrameInstrumentationGeneratorImpl
 generator
 (
-&
 env
 VideoCodecType
 :
@@ -2882,7 +2868,6 @@ CreateTestEnvironment
 FrameInstrumentationGeneratorImpl
 generator
 (
-&
 env
 VideoCodecType
 :
@@ -3231,7 +3216,6 @@ CreateTestEnvironment
 FrameInstrumentationGeneratorImpl
 generator
 (
-&
 env
 VideoCodecType
 :
@@ -3508,7 +3492,6 @@ CreateTestEnvironment
 FrameInstrumentationGeneratorImpl
 generator
 (
-&
 env
 VideoCodecType
 :
@@ -3797,7 +3780,6 @@ CreateTestEnvironment
 FrameInstrumentationGeneratorImpl
 generator
 (
-&
 env
 VideoCodecType
 :
@@ -4074,7 +4056,6 @@ CreateTestEnvironment
 FrameInstrumentationGeneratorImpl
 generator
 (
-&
 env
 VideoCodecType
 :
@@ -4345,7 +4326,6 @@ CreateTestEnvironment
 FrameInstrumentationGeneratorImpl
 generator
 (
-&
 env
 VideoCodecType
 :
@@ -4532,7 +4512,6 @@ make_unique
 FrameInstrumentationGeneratorImpl
 >
 (
-&
 env
 VideoCodecType
 :
@@ -4720,7 +4699,6 @@ CreateTestEnvironment
 FrameInstrumentationGeneratorImpl
 generator
 (
-&
 env
 VideoCodecType
 :
@@ -4935,7 +4913,6 @@ bound
 FrameInstrumentationGeneratorImpl
 generator
 (
-&
 env
 VideoCodecType
 :
@@ -5143,7 +5120,6 @@ make_unique
 FrameInstrumentationGeneratorImpl
 >
 (
-&
 env
 VideoCodecType
 :
@@ -5386,7 +5362,6 @@ make_unique
 FrameInstrumentationGeneratorImpl
 >
 (
-&
 env
 VideoCodecType
 :
