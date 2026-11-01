@@ -789,7 +789,10 @@ private
 template
 <
 typename
-T
+.
+.
+.
+Addrs
 >
 void
 emitPreBarrier
@@ -799,9 +802,12 @@ MInstruction
 *
 mir
 const
-T
+Addrs
 &
-address
+.
+.
+.
+addresses
 )
 ;
 void
@@ -1580,6 +1586,10 @@ TableObject
 void
 emitLoadIteratorValues
 (
+const
+MInstruction
+*
+mir
 Register
 result
 Register
