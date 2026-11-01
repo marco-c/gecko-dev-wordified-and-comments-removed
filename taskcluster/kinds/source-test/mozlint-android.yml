@@ -99,11 +99,13 @@ worker
 -
 type
 :
-t
+b
 -
 linux
 -
 docker
+-
+large
 -
 amd
 worker
