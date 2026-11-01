@@ -172,6 +172,10 @@ SVGDeselectAll
 )
 DEPRECATED_OPERATION
 (
+SVGUseInlineEventHandler
+)
+DEPRECATED_OPERATION
+(
 IDBObjectStoreCreateIndexLocale
 )
 DEPRECATED_OPERATION
