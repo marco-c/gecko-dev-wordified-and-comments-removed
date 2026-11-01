@@ -856,16 +856,6 @@ aChannelIndex
 )
 const
 ;
-bool
-SyncObjectNeeded
-(
-)
-override
-{
-return
-true
-;
-}
 gfx
 :
 :
