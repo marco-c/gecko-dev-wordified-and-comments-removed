@@ -2797,6 +2797,15 @@ FuseIndex
 :
 ArrayProtoHasNoIndexedPropsFuse
 :
+case
+RealmFuses
+:
+:
+FuseIndex
+:
+:
+StringProtoHasNoIndexedPropsFuse
+:
 MOZ_ASSERT
 (
 RealmFuses

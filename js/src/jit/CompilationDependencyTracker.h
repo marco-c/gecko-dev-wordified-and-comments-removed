@@ -67,6 +67,7 @@ TypedArraySpecies
 RegExpPrototype
 ObjectProtoHasNoIndexedProps
 ArrayProtoHasNoIndexedProps
+StringProtoHasNoIndexedProps
 EmulatesUndefined
 ArrayExceedsInt32Length
 ObjectFuseProperty
