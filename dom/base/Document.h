@@ -8701,6 +8701,12 @@ UnlinkOriginalDocumentIfStatic
 (
 )
 ;
+uintptr_t
+GetRandomSeed
+(
+)
+const
+;
 void
 PreloadPictureOpened
 (

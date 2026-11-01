@@ -7330,6 +7330,12 @@ this
 )
 ;
 }
+uintptr_t
+GetRandomSeed
+(
+)
+const
+;
 bool
 IsRendered
 (

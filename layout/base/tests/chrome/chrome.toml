@@ -159,6 +159,11 @@ printpreview_font_mozprintcallback_ref
 html
 "
 "
+printpreview_random
+.
+html
+"
+"
 printpreview_quirks
 .
 html
