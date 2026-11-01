@@ -9947,9 +9947,15 @@ if
 stack
 &
 &
-JS_IsDeadWrapper
-(
+!
 stack
+-
+>
+canUnwrapAs
+<
+SavedFrame
+>
+(
 )
 )
 {
