@@ -420,9 +420,10 @@ push
 (
 escape_cmd_line_arg
 (
+&
 breakpad_data
 .
-as_ref
+serialize
 (
 )
 )
