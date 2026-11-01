@@ -2214,6 +2214,12 @@ GR
 /
 Greece
 "
+GL
+"
+/
+/
+Greenland
+"
 HU
 "
 /
