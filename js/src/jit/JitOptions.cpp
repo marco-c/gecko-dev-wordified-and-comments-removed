@@ -1081,6 +1081,12 @@ true
 ;
 SET_DEFAULT
 (
+regexp_atomic_loop
+true
+)
+;
+SET_DEFAULT
+(
 regexp_bytecode_analysis
 false
 )

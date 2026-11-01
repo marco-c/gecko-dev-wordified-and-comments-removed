@@ -462,6 +462,9 @@ bool
 regexp_bytecode_analysis
 ;
 bool
+regexp_atomic_loop
+;
+bool
 trace_regexp_assembler
 ;
 bool
