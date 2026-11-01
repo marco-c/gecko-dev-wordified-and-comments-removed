@@ -7098,14 +7098,6 @@ blend
 -
 mode
 "
-                
-"
-text
--
-autospace
--
-size
-"
             
 ]
             
@@ -7308,14 +7300,6 @@ background
 blend
 -
 mode
-"
-                
-"
-text
--
-autospace
--
-size
 "
             
 ]

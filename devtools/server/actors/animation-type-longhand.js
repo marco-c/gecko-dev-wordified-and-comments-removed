@@ -2621,11 +2621,6 @@ stroke
 opacity
 "
 "
-text
--
-autospace
-"
-"
 zoom
 "
 "

@@ -375,8 +375,6 @@ const
 nscoord
 InterScriptSpacingWidth
 (
-float
-aAutospaceSize
 )
 const
 ;
