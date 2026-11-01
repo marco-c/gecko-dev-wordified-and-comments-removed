@@ -365,7 +365,7 @@ Setup
 (
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 NS_IsMainThread
 (
@@ -444,7 +444,7 @@ GetSingleton
 )
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 NS_IsMainThread
 (
@@ -578,7 +578,7 @@ uint32_t
 aNamespace
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 XRE_GetProcessType
 (
@@ -1841,7 +1841,7 @@ PMediaSystemResourceManagerParent
 aActor
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 aActor
 )
@@ -2015,7 +2015,7 @@ i
 +
 1
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 aNotifications
 [
@@ -2167,7 +2167,7 @@ ProcessId
 aId
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 CompositorThreadHolder
 :

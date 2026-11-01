@@ -901,7 +901,7 @@ Destroy
 (
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 NS_IsMainThread
 (
@@ -946,7 +946,7 @@ Destroy
 (
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 GetUiThread
 (
@@ -1451,7 +1451,7 @@ OpenForSameProcess
 (
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 GetUiThread
 (
@@ -1531,7 +1531,7 @@ PUiCompositorControllerChild
 aEndpoint
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 GetUiThread
 (
@@ -1612,7 +1612,7 @@ SendCachedValues
 (
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mIsOpen
 )
@@ -1728,7 +1728,7 @@ Param
 aCompositorSurfaceManager
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 mCompositorSurfaceManager

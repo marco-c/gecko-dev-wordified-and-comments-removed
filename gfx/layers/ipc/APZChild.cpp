@@ -83,7 +83,7 @@ mController
 aController
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mController
 )
@@ -150,7 +150,7 @@ RepaintRequest
 aRequest
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mController
 -
@@ -255,7 +255,7 @@ uint64_t
 aInputBlockId
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mController
 -
@@ -300,7 +300,7 @@ RecvNotifyFlushComplete
 (
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mController
 -
