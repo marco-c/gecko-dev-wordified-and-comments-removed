@@ -50448,7 +50448,7 @@ if
 (
 memberInitializers
 .
-hasInlinedZeroFields
+hasInlinedFields
 )
 {
 MOZ_ASSERT
@@ -50460,7 +50460,7 @@ isDerivedClassConstructor
 for
 (
 const
-InlinedZeroField
+InlinedField
 &
 field
 :
@@ -50472,7 +50472,7 @@ asFunctionBox
 )
 -
 >
-inlinedZeroFields
+inlinedFields
 (
 )
 )
@@ -56329,7 +56329,7 @@ memberInitializers
 (
 )
 .
-hasInlinedZeroFields
+hasInlinedFields
 &
 &
 !
