@@ -2798,6 +2798,14 @@ this
 .
 state
 .
+isActive
+|
+|
+!
+this
+.
+state
+.
 siteData
 |
 |
