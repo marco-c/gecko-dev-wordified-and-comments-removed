@@ -968,11 +968,6 @@ ImageConversion
 h
 "
 "
-ImagePixelFormat
-.
-h
-"
-"
 Intervals
 .
 h
@@ -1884,9 +1879,6 @@ h
 "
 ]
 #
-ImagePixelFormat
-.
-cpp
 MediaData
 .
 cpp
@@ -1896,7 +1888,6 @@ compilation
 error
 caused
 by
-#
 Mac
 OS
 X
@@ -1906,11 +1897,6 @@ SOURCES
 +
 =
 [
-"
-ImagePixelFormat
-.
-cpp
-"
 "
 MediaData
 .

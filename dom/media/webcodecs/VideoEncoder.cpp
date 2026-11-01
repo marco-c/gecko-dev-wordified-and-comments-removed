@@ -93,6 +93,17 @@ mozilla
 /
 dom
 /
+ImageUtils
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 Promise
 .
 h
