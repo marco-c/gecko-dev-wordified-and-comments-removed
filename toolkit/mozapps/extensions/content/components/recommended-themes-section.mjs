@@ -150,6 +150,9 @@ return
 template
 >
 <
+section
+>
+<
 h2
 data
 -
@@ -201,6 +204,10 @@ recommended
 addon
 -
 list
+>
+<
+/
+section
 >
 <
 footer
