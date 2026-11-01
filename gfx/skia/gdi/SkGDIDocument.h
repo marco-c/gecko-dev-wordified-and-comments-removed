@@ -11,6 +11,17 @@ include
 /
 core
 /
+SkPoint
+.
+h
+"
+#
+include
+"
+include
+/
+core
+/
 SkScalar
 .
 h
@@ -102,6 +113,8 @@ void
 (
 SkCanvas
 *
+SkIPoint
+origin
 )
 >
 &
