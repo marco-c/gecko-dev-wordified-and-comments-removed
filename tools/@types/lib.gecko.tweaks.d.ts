@@ -11,6 +11,11 @@ currentWindowContext
 :
 WindowGlobalParent
 ;
+nonWebControlledLoadingURI
+?
+:
+nsIURI
+;
 parent
 :
 CanonicalBrowsingContext
@@ -76,6 +81,12 @@ T
 ]
 ;
 }
+declare
+var
+locks
+:
+LockManager
+;
 interface
 ChromeWindow
 extends
