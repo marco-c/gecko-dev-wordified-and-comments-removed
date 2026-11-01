@@ -1362,15 +1362,12 @@ Maybe
 <
 JsepTransceiver
 >
-FindUnassociatedNonAppTransceiver
+FindUnassociatedRtpTransceiver
 (
-Maybe
-<
 SdpMediaSection
 :
 :
 MediaType
->
 type
 bool
 magic

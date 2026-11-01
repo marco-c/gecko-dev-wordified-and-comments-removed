@@ -2897,9 +2897,13 @@ if
 (
 mType
 .
-IsRtp
-(
-)
+type
+!
+=
+SdpMediaSection
+:
+:
+kApplication
 &
 &
 mDirection
