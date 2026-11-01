@@ -2110,6 +2110,14 @@ nsIURI
 aURI
 )
 ;
+bool
+HasMatchingPrefetchCandidate
+(
+nsIURI
+*
+aURI
+)
+;
 void
 RemoveWaiter
 (

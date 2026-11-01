@@ -3479,6 +3479,12 @@ GetActivatedFromNavigationalPrefetch
 aLoadInfo
 -
 >
+GetPrefetchCandidateMatched
+(
+)
+aLoadInfo
+-
+>
 GetLoadingEmbedderPolicy
 (
 )

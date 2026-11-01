@@ -56,6 +56,7 @@ uint8_t
 Ongoing
 Completed
 Canceled
+DryRun
 }
 ;
 enum
