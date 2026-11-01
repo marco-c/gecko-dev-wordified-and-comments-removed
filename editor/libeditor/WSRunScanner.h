@@ -657,10 +657,7 @@ WSScanResult
 std
 :
 :
-forward
-<
-WSScanResult
->
+move
 (
 aResult
 )
@@ -680,10 +677,7 @@ emplace
 std
 :
 :
-forward
-<
-EditorLineBreak
->
+move
 (
 aIgnoredLineBreak
 )
