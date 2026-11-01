@@ -544,9 +544,13 @@ RAPL
 {
 bool
 mIsGpuSupported
+=
+false
 ;
 bool
 mIsRamSupported
+=
+false
 ;
 bool
 mHasRamUnitsQuirk
@@ -561,6 +565,8 @@ kQuirkyRamEnergyStatusUnits
 pkg_energy_statistics_t
 *
 mPkes
+=
+nullptr
 ;
 RaplDomain
 *
