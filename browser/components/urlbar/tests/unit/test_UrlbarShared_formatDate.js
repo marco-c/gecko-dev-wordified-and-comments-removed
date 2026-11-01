@@ -30,6 +30,17 @@ true
 }
 )
 ;
+UrlbarTestUtils
+.
+stubLocale
+(
+"
+en
+-
+US
+"
+)
+;
 Assert
 .
 equal

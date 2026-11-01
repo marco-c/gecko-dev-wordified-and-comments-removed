@@ -1261,7 +1261,13 @@ Intl
 .
 DateTimeFormat
 (
-undefined
+lazy
+.
+UrlbarShared
+.
+locale
+(
+)
 {
 month
 :
