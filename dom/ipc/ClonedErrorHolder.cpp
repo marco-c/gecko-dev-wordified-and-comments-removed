@@ -2367,10 +2367,6 @@ data
 )
 )
 ;
-mVersion
-=
-version
-;
 mData
 -
 >

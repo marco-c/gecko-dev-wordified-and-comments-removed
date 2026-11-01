@@ -1004,10 +1004,6 @@ data
 )
 )
 ;
-mVersion
-=
-version
-;
 mData
 -
 >
