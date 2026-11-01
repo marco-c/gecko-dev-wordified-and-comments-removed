@@ -85,7 +85,7 @@ Push
 manifest
 "
 ]
-EXTRA_JS_MODULES
+MOZ_SRC_FILES
 +
 =
 [
@@ -166,7 +166,7 @@ Everything
 but
 GeckoView
 .
-EXTRA_JS_MODULES
+MOZ_SRC_FILES
 +
 =
 [
