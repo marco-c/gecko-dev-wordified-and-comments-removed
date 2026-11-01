@@ -111,6 +111,8 @@ get_product_icon
     
 get_taskcluster_options
     
+get_test_run_emoji
+    
 send_error_notification
     
 send_success_notification
@@ -394,6 +396,29 @@ get_product_icon
 shipping_product
 )
         
+ui_test_task_id
+=
+os
+.
+environ
+.
+get
+(
+"
+UI_TEST_TASK_ID
+"
+"
+"
+)
+        
+test_run_emoji
+=
+get_test_run_emoji
+(
+ui_test_task_id
+options
+)
+        
 success_values
 =
 {
@@ -433,6 +458,18 @@ PRODUCT_ICON
 "
 :
 product_icon
+            
+"
+UI_TEST_TASK_ID
+"
+:
+ui_test_task_id
+            
+"
+TEST_RUN_EMOJI
+"
+:
+test_run_emoji
         
 }
         
