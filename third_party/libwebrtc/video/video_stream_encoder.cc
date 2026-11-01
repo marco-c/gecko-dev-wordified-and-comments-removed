@@ -2400,12 +2400,10 @@ VideoEncoder
 EncoderInfo
 GetEncoderInfoWithBitrateLimitUpdate
 (
-const
 VideoEncoder
 :
 :
 EncoderInfo
-&
 info
 const
 VideoEncoderConfig
@@ -2505,15 +2503,7 @@ return
 info
 ;
 }
-VideoEncoder
-:
-:
-EncoderInfo
-new_info
-=
 info
-;
-new_info
 .
 resolution_bitrate_limits
 =
@@ -2528,7 +2518,7 @@ codec_type
 )
 ;
 return
-new_info
+info
 ;
 }
 int
@@ -11173,7 +11163,7 @@ TraceFrameDropEnd
 (
 )
 ;
-const
+{
 VideoEncoder
 :
 :
@@ -11354,7 +11344,13 @@ break
 }
 encoder_info_
 =
+std
+:
+:
+move
+(
 info
+)
 ;
 last_encode_info_ms_
 =
@@ -11368,6 +11364,7 @@ TimeInMilliseconds
 (
 )
 ;
+}
 VideoFrame
 out_frame
 (
@@ -11411,7 +11408,7 @@ kNative
 |
 |
 !
-info
+encoder_info_
 .
 supports_native_handle
 )
