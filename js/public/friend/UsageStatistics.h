@@ -329,12 +329,6 @@ TimeDuration
 \
 _
 (
-ION_COMPILE_TIME
-TimeDuration
-)
-\
-_
-(
 GC_TIME_BETWEEN_MINOR_MS
 TimeDuration
 )
