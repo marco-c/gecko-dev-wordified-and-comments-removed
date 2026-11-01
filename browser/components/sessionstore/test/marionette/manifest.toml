@@ -54,6 +54,13 @@ py
 ]
 [
 "
+test_deferred_nothing_to_restore
+.
+py
+"
+]
+[
+"
 test_log_files
 .
 py
