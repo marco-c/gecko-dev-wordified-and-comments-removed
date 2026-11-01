@@ -1193,6 +1193,13 @@ buildNotification
 )
 }
 .
+setForegroundServiceBehavior
+(
+NotificationCompat
+.
+FOREGROUND_SERVICE_IMMEDIATE
+)
+.
 build
 (
 )
