@@ -87,6 +87,7 @@ Exposed
 Window
 Worker
 )
+Serializable
 SecureContext
 Pref
 =
