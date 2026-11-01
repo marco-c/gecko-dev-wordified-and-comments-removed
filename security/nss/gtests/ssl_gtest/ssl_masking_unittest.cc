@@ -155,7 +155,16 @@ get
 )
 CKM_GENERIC_SECRET_KEY_GEN
 nullptr
-AES_128_KEY_LENGTH
+static_cast
+<
+int
+>
+(
+GetHashLength
+(
+hash_type
+)
+)
 nullptr
 )
 ;

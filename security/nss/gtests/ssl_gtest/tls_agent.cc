@@ -5715,12 +5715,6 @@ CLIENT
 {
 expected
 =
-info_
-.
-earlyDataAccepted
-?
-5
-:
 4
 ;
 }

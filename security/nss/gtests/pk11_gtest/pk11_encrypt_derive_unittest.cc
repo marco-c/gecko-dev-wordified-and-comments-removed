@@ -71,6 +71,13 @@ util
 h
 "
 #
+include
+"
+pk11_import
+.
+h
+"
+#
 define
 MAX_KEY_SIZE
 24
@@ -840,7 +847,10 @@ const
 ASSERT_EQ
 (
 SECSuccess
-PK11_ExtractKeyValue
+nss_test
+:
+:
+ExtractKeyValue
 (
 key
 .
@@ -854,7 +864,10 @@ SECItem
 *
 data
 =
-PK11_GetKeyData
+nss_test
+:
+:
+GetKeyData
 (
 key
 .

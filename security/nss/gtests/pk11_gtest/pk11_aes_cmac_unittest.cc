@@ -72,6 +72,13 @@ structs
 .
 h
 "
+#
+include
+"
+pk11_import
+.
+h
+"
 namespace
 nss_test
 {
@@ -132,7 +139,10 @@ nullptr
 ScopedPK11SymKey
 result
 (
-PK11_ImportSymKey
+nss_test
+:
+:
+ImportSymKey
 (
 slot
 .

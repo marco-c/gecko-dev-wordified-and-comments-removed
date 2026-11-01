@@ -56,6 +56,13 @@ nss_scoped_ptrs
 .
 h
 "
+#
+include
+"
+pk11_import
+.
+h
+"
 namespace
 nss_test
 {
@@ -3998,7 +4005,10 @@ kTestRsaKey
 ASSERT_EQ
 (
 SECSuccess
-PK11_ImportDERPrivateKeyInfo
+nss_test
+:
+:
+ImportDERPrivateKeyInfoAndReturnKey
 (
 slot
 .
@@ -4012,6 +4022,7 @@ nullptr
 PR_TRUE
 PR_FALSE
 KU_ALL
+nullptr
 nullptr
 )
 )

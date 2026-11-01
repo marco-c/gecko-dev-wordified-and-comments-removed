@@ -106,6 +106,13 @@ vectors
 .
 h
 "
+#
+include
+"
+pk11_import
+.
+h
+"
 namespace
 nss_test
 {
@@ -230,7 +237,10 @@ nullptr
 SECStatus
 rv
 =
-PK11_ImportDERPrivateKeyInfoAndReturnKey
+nss_test
+:
+:
+ImportDERPrivateKeyInfoAndReturnKey
 (
 slot
 .

@@ -75,6 +75,13 @@ tls_connect
 .
 h
 "
+#
+include
+"
+pk11_import
+.
+h
+"
 namespace
 nss_test
 {
@@ -980,7 +987,10 @@ scoped_psk_
 .
 reset
 (
-PK11_ImportSymKey
+nss_test
+:
+:
+ImportSymKey
 (
 slot
 .
