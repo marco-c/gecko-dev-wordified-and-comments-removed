@@ -741,6 +741,7 @@ MallocSizeOf
 derive
 (
 Debug
+Clone
 )
 ]
 pub
@@ -995,6 +996,7 @@ Deserialize
 derive
 (
 MallocSizeOf
+Clone
 )
 ]
 pub
