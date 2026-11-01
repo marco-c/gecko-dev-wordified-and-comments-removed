@@ -317,6 +317,20 @@ bugs
         
 ]
         
+expires
+=
+glean
+.
+pop
+(
+"
+expires
+"
+"
+never
+"
+)
+        
 glean
 .
 update
@@ -394,9 +408,7 @@ technical
 expires
 "
 :
-"
-never
-"
+expires
             
 "
 send_in_pings

@@ -148,6 +148,16 @@ glean_rust
 .
 py
 "
+flags
+=
+[
+CONFIG
+[
+"
+MOZ_APP_VERSION
+"
+]
+]
 inputs
 =
 [
