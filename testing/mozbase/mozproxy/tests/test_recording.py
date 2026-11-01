@@ -19,6 +19,7 @@ get_playback
 from
 support
 import
+firefox_binary
 tempdir
 here
 =
@@ -239,14 +240,6 @@ os
 environ
         
 "
-binary
-"
-:
-"
-firefox
-"
-        
-"
 app
 "
 :
@@ -292,6 +285,18 @@ obj_path
 ]
 =
 obj_path
+        
+config
+[
+"
+binary
+"
+]
+=
+firefox_binary
+(
+obj_path
+)
         
 record
 =
@@ -472,27 +477,6 @@ os
 remove
 (
 recording_file
-)
-        
-os
-.
-remove
-(
-os
-.
-path
-.
-join
-(
-"
-distribution
-"
-"
-policies
-.
-json
-"
-)
 )
     
 except
