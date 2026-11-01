@@ -6702,6 +6702,17 @@ MOZ_REMOTE_SETTINGS_DISABLED
 1
 "
         
+env
+[
+"
+MOZ_REMOTE_ALLOW_SYSTEM_ACCESS
+"
+]
+=
+"
+1
+"
+        
 if
 self
 .
