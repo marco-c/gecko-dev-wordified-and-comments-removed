@@ -3103,6 +3103,11 @@ double
 aDeltaY
 )
 ;
+bool
+IsFullscreenSupported
+(
+)
+;
 nsCString
 mGtkWindowAppClass
 ;
