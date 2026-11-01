@@ -363,7 +363,7 @@ compose
 .
 base
 .
-Dropdown
+Dropdown2
 import
 mozilla
 .
@@ -1093,12 +1093,6 @@ localizedString
 )
 }
 Composable
-Suppress
-(
-"
-Deprecation
-"
-)
 private
 fun
 SelectField
@@ -1220,7 +1214,7 @@ key
 )
 }
 }
-Dropdown
+Dropdown2
 (
 label
 =

@@ -383,7 +383,7 @@ compose
 .
 base
 .
-Dropdown
+Dropdown2
 import
 mozilla
 .
@@ -1919,12 +1919,6 @@ body2
 )
 }
 Composable
-Suppress
-(
-"
-Deprecation
-"
-)
 private
 fun
 ProviderDropdown
@@ -2062,7 +2056,7 @@ dp
 )
 )
 {
-Dropdown
+Dropdown2
 (
 label
 =

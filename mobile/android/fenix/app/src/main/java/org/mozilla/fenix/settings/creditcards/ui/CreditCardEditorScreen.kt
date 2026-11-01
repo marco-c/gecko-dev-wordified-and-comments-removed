@@ -465,7 +465,7 @@ compose
 .
 base
 .
-Dropdown
+Dropdown2
 import
 mozilla
 .
@@ -1862,12 +1862,6 @@ onSaveClicked
 }
 }
 Composable
-Suppress
-(
-"
-Deprecation
-"
-)
 private
 fun
 ExpirationDateDropdown
@@ -1899,7 +1893,7 @@ Int
 Unit
 )
 {
-Dropdown
+Dropdown2
 (
 modifier
 =

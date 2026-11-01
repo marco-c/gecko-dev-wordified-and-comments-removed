@@ -281,7 +281,7 @@ compose
 .
 base
 .
-Dropdown
+Dropdown2
 import
 mozilla
 .
@@ -1085,12 +1085,6 @@ false
 }
 }
 Composable
-Suppress
-(
-"
-Deprecation
-"
-)
 private
 fun
 GleanDebugSendPingsSection
@@ -1144,7 +1138,7 @@ dynamic400
 )
 )
 {
-Dropdown
+Dropdown2
 (
 label
 =
