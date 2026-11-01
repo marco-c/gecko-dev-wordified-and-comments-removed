@@ -617,12 +617,19 @@ new
 result
 .
 *
+param
+{
+UrlbarParentController
+}
+controller
+*
 /
 async
 startQuery
 (
 queryContext
 addCallback
+controller
 )
 {
 let
@@ -646,6 +653,7 @@ provider
 isActive
 (
 queryContext
+controller
 )
 )
 {
@@ -664,6 +672,7 @@ provider
 queryActions
 (
 queryContext
+controller
 )
 )
 |
