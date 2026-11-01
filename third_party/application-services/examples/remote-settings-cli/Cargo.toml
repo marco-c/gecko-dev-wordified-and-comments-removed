@@ -101,6 +101,8 @@ remote_settings
 "
 }
 nss
+-
+as
 =
 {
 path
@@ -140,7 +142,9 @@ viaduct
 }
 viaduct
 -
-hyper
+backend
+-
+rust
 =
 {
 path
@@ -158,7 +162,9 @@ support
 /
 viaduct
 -
-hyper
+backend
+-
+rust
 "
 }
 log
@@ -258,9 +264,7 @@ walkdir
 zip
 =
 "
-2
-.
-1
+9
 "
 sha2
 =
