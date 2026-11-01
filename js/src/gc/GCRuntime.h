@@ -3303,6 +3303,11 @@ setGrayBitsInvalid
 (
 )
 ;
+void
+setGrayBitsInvalidForReset
+(
+)
+;
 mozilla
 :
 :
