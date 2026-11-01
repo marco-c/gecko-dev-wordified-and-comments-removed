@@ -459,7 +459,7 @@ Succeeded
 )
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 false
 "
@@ -486,7 +486,7 @@ aData
 )
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 false
 "
@@ -528,7 +528,7 @@ Data
 aData
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 false
 "
@@ -593,7 +593,7 @@ IntSize
 aCbCrSize
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 mTextureClient
