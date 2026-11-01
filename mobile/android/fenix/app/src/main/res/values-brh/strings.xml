@@ -3145,8 +3145,6 @@ s
 n
 \
 n
-\
-n
 <
 /
 string
@@ -5188,8 +5186,6 @@ name
 crash_reporting_snack_bar_message
 "
 >
-\
-u0020
 <
 /
 string
