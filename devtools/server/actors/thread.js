@@ -5477,9 +5477,6 @@ this
 .
 doResume
 (
-{
-resumeLimit
-}
 )
 ;
 return
