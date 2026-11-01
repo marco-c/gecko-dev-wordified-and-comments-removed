@@ -1036,6 +1036,9 @@ kdelegate
 ;
 if
 (
+aValue
+&
+&
 !
 aValue
 .
