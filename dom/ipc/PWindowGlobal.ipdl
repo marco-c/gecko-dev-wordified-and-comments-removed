@@ -944,13 +944,6 @@ nsDocShellLoadState
 aLoadState
 )
 ;
-async
-AddSecurityState
-(
-uint32_t
-aStateFlags
-)
-;
 /
 /
 /
