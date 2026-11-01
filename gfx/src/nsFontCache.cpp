@@ -297,7 +297,7 @@ aParams
 mozilla
 :
 :
-AssertIsMainThreadOrServoFontMetricsLocked
+AssertIsMainThreadOrServoFFILocked
 (
 )
 ;

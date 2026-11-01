@@ -1318,7 +1318,7 @@ IsInServoTraversal
 )
 )
 ;
-AssertIsMainThreadOrServoFontMetricsLocked
+AssertIsMainThreadOrServoFFILocked
 (
 )
 ;
