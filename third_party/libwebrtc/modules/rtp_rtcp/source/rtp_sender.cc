@@ -1193,6 +1193,13 @@ MaxRtpPacketSize
 )
 const
 {
+MutexLock
+lock
+(
+&
+send_mutex_
+)
+;
 return
 max_packet_size_
 ;

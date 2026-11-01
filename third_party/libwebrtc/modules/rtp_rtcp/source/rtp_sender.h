@@ -913,6 +913,10 @@ send_mutex_
 ;
 size_t
 max_packet_size_
+RTC_GUARDED_BY
+(
+send_mutex_
+)
 ;
 RtpHeaderExtensionMap
 rtp_header_extension_map_
