@@ -1,4 +1,6 @@
 import
+gc
+import
 logging
 import
 os
@@ -1641,10 +1643,20 @@ decision_task_id
         
 )
         
-full_task_json
+full_task_graph
 =
 tgg
 .
+full_task_graph
+        
+gc
+.
+freeze
+(
+)
+        
+full_task_json
+=
 full_task_graph
 .
 to_json
