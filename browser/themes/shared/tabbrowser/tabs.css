@@ -30503,11 +30503,6 @@ rotate
 allTabsMenu
 -
 groupsView
-{
-&
-:
-empty
-&
 :
 empty
 +
@@ -30520,7 +30515,6 @@ display
 :
 none
 ;
-}
 }
 .
 all
