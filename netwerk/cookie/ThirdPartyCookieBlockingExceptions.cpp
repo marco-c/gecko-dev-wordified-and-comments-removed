@@ -113,7 +113,7 @@ LazyLogModule
 g3PCBExceptionLog
 (
 "
-3pcbexception
+ThirdPartyCookieBlockingExceptions
 "
 )
 ;
