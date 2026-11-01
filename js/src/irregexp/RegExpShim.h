@@ -8574,6 +8574,17 @@ isolate
 )
 ;
 static
+const
+void
+*
+RegexpStackLimit
+(
+Isolate
+*
+isolate
+)
+;
+static
 size_t
 SizeOfExcludingThis
 (
