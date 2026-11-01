@@ -779,6 +779,18 @@ self
 )
 :
         
+assert
+serve
+is
+not
+None
+        
+serve
+.
+raise_open_file_limit
+(
+)
+        
 server_log_handler
 =
 self

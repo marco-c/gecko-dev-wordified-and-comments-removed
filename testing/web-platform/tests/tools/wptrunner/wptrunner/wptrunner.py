@@ -1,4 +1,6 @@
 import
+gc
+import
 json
 import
 os
@@ -2380,6 +2382,12 @@ unexpected_pass_tests
 manager_group
 .
 unexpected_pass_tests
+(
+)
+        
+gc
+.
+collect
 (
 )
     
