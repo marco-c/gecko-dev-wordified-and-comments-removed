@@ -285,7 +285,6 @@ JS
 :
 GCContext
 *
-gcx
 JSObject
 *
 objSelf
@@ -751,7 +750,6 @@ Observe
 (
 nsISupports
 *
-aSubject
 const
 char
 *
@@ -759,7 +757,6 @@ aTopic
 const
 char16_t
 *
-aValue
 )
 {
 MOZ_ASSERT

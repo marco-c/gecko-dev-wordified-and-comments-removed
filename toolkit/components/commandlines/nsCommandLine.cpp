@@ -2323,7 +2323,6 @@ nsICommandLineHandler
 aHandler
 nsICommandLine
 *
-aThis
 void
 *
 aClosure

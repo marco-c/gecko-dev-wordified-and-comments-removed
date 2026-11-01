@@ -1134,7 +1134,6 @@ nsACString
 &
 aHost
 int32_t
-aPort
 nsACString
 &
 aResult
@@ -1390,20 +1389,16 @@ SetSystemProxyInfo
 const
 nsACString
 &
-aHost
 int32_t
-aPort
 const
 nsACString
 &
-aPacFileUrl
 const
 nsTArray
 <
 nsCString
 >
 &
-aExclusionList
 )
 {
 MOZ_ASSERT
@@ -1435,7 +1430,6 @@ GetProxyForURI
 const
 nsACString
 &
-aSpec
 const
 nsACString
 &

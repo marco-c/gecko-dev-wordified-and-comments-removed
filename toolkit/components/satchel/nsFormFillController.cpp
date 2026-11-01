@@ -688,7 +688,6 @@ AttrModType
 const
 nsAttrValue
 *
-aOldValue
 )
 {
 if
@@ -1433,7 +1432,6 @@ GetPopupElement
 Element
 *
 *
-aPopup
 )
 {
 return
@@ -1915,7 +1913,6 @@ SetSearchParam
 const
 nsAString
 &
-aSearchParam
 )
 {
 return
@@ -2028,7 +2025,6 @@ nsFormFillController
 GetSearchAt
 (
 uint32_t
-index
 nsACString
 &
 _retval
@@ -2316,7 +2312,6 @@ OnTextEntered
 (
 Event
 *
-aEvent
 )
 {
 NS_ENSURE_TRUE
@@ -2337,7 +2332,6 @@ OnTextReverted
 (
 bool
 *
-_retval
 )
 {
 mPasswordPopupAutomaticallyOpened
@@ -2552,10 +2546,8 @@ aSearchString
 const
 nsAString
 &
-aSearchParam
 nsIAutoCompleteResult
 *
-aPreviousResult
 nsIAutoCompleteObserver
 *
 aListener
@@ -2907,7 +2899,6 @@ aTopic
 const
 char16_t
 *
-aData
 )
 {
 if
@@ -4108,7 +4099,6 @@ showPopup
 (
 JSContext
 *
-aCx
 JS
 :
 :
@@ -4119,10 +4109,8 @@ JS
 :
 Value
 >
-aValue
 ErrorResult
 &
-aRv
 )
 MOZ_CAN_RUN_SCRIPT_BOUNDARY_LAMBDA
 {
@@ -4176,10 +4164,8 @@ JS
 :
 Value
 >
-aValue
 ErrorResult
 &
-aRv
 )
 {
 RefPtr

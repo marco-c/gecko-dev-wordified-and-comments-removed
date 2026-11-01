@@ -73,7 +73,6 @@ GetBlockFileDownloadsEnabled
 (
 bool
 *
-aResult
 )
 {
 return
@@ -88,7 +87,6 @@ GetLoggingEnabled
 (
 bool
 *
-aResult
 )
 {
 return
@@ -102,15 +100,11 @@ nsParentalControlsService
 Log
 (
 int16_t
-aEntryType
 bool
-blocked
 nsIURI
 *
-aSource
 nsIFile
 *
-aTarget
 )
 {
 return
@@ -124,13 +118,10 @@ nsParentalControlsService
 IsAllowed
 (
 int16_t
-aAction
 nsIURI
 *
-aUri
 bool
 *
-_retval
 )
 {
 return

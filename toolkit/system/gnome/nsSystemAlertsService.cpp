@@ -237,10 +237,8 @@ ShowAlert
 (
 nsIAlertNotification
 *
-aAlert
 nsIObserver
 *
-aAlertListener
 )
 {
 return
@@ -352,7 +350,6 @@ nsAString
 &
 aAlertName
 bool
-aContextClosed
 )
 {
 RefPtr
@@ -405,7 +402,6 @@ nsTArray
 nsString
 >
 &
-aResult
 )
 {
 return
@@ -420,7 +416,6 @@ GetManualDoNotDisturb
 (
 bool
 *
-aRetVal
 )
 {
 return
@@ -434,7 +429,6 @@ nsSystemAlertsService
 SetManualDoNotDisturb
 (
 bool
-aDoNotDisturb
 )
 {
 return

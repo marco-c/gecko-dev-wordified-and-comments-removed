@@ -107,7 +107,6 @@ gboolean
 UpdateDialog
 (
 gpointer
-data
 )
 {
 if
@@ -156,12 +155,9 @@ OnDeleteEvent
 (
 GtkWidget
 *
-widget
 GdkEvent
 *
-event
 gpointer
-user_data
 )
 {
 return

@@ -555,7 +555,6 @@ nsISupports
 *
 aData
 bool
-aAnonymize
 )
 {
 struct

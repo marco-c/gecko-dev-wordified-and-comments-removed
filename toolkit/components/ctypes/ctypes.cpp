@@ -376,13 +376,11 @@ Call
 (
 nsIXPConnectWrappedNative
 *
-wrapper
 JSContext
 *
 cx
 JSObject
 *
-obj
 const
 JS
 :

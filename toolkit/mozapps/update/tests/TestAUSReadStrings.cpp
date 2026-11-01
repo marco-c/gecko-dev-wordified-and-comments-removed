@@ -226,7 +226,6 @@ int
 NS_main
 (
 int
-argc
 NS_tchar
 *
 *

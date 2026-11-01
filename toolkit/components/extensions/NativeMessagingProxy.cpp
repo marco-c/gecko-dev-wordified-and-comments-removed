@@ -1386,7 +1386,6 @@ GVariant
 >
 &
 &
-aResult
 )
 {
 LOG_NMPROXY

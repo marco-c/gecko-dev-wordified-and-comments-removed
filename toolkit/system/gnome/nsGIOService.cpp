@@ -492,10 +492,8 @@ GAppLaunchContext
 context
 GAppInfo
 *
-info
 GList
 *
-files
 )
 {
 MozAppLaunchContext
@@ -759,7 +757,6 @@ SetName
 const
 nsAString
 &
-aName
 )
 {
 return
@@ -774,7 +771,6 @@ GetDetailedDescription
 (
 nsAString
 &
-aDetailedDescription
 )
 {
 return
@@ -790,7 +786,6 @@ SetDetailedDescription
 const
 nsAString
 &
-aDetailedDescription
 )
 {
 return
@@ -805,10 +800,8 @@ Equals
 (
 nsIHandlerApp
 *
-aHandlerApp
 bool
 *
-_retval
 )
 {
 return
@@ -832,7 +825,6 @@ dom
 :
 BrowsingContext
 *
-aBrowsingContext
 )
 {
 nsCString
@@ -1119,7 +1111,6 @@ SetName
 const
 nsAString
 &
-aName
 )
 {
 return
@@ -1134,7 +1125,6 @@ GetDetailedDescription
 (
 nsAString
 &
-aDetailedDescription
 )
 {
 return
@@ -1150,7 +1140,6 @@ SetDetailedDescription
 const
 nsAString
 &
-aDetailedDescription
 )
 {
 return
@@ -1329,7 +1318,6 @@ LaunchWithURI
 (
 nsIURI
 *
-aUri
 mozilla
 :
 :
@@ -1338,7 +1326,6 @@ dom
 :
 BrowsingContext
 *
-aBrowsingContext
 )
 {
 return
@@ -1492,7 +1479,6 @@ SetName
 const
 nsAString
 &
-aName
 )
 {
 return
@@ -1570,7 +1556,6 @@ GetDetailedDescription
 (
 nsAString
 &
-aDetailedDescription
 )
 {
 return
@@ -1586,7 +1571,6 @@ SetDetailedDescription
 const
 nsAString
 &
-aDetailedDescription
 )
 {
 return
@@ -2406,7 +2390,6 @@ dom
 :
 BrowsingContext
 *
-aBrowsingContext
 )
 {
 auto
@@ -2492,7 +2475,6 @@ aUri
 ]
 (
 bool
-state
 )
 {
 LaunchWithURIImpl
@@ -4694,7 +4676,6 @@ aURI
 ]
 (
 bool
-state
 )
 {
 LOG
@@ -4997,7 +4978,6 @@ aPath
 ]
 (
 bool
-state
 )
 {
 LOG

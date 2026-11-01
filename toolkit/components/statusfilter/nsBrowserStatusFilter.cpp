@@ -151,7 +151,6 @@ nsIWebProgressListener
 *
 aListener
 uint32_t
-aNotifyMask
 )
 {
 mListener
@@ -205,7 +204,6 @@ dom
 BrowsingContext
 *
 *
-aResult
 )
 {
 MOZ_ASSERT_UNREACHABLE
@@ -260,7 +258,6 @@ GetDOMWindow
 mozIDOMWindowProxy
 *
 *
-aResult
 )
 {
 MOZ_ASSERT_UNREACHABLE
@@ -315,7 +312,6 @@ GetIsLoadingDocument
 (
 bool
 *
-aIsLoadingDocument
 )
 {
 MOZ_ASSERT_UNREACHABLE
@@ -603,14 +599,10 @@ OnProgressChange
 (
 nsIWebProgress
 *
-aWebProgress
 nsIRequest
 *
-aRequest
 int32_t
-aCurSelfProgress
 int32_t
-aMaxSelfProgress
 int32_t
 aCurTotalProgress
 int32_t
@@ -731,12 +723,9 @@ OnStatusChange
 (
 nsIWebProgress
 *
-aWebProgress
 nsIRequest
 *
-aRequest
 nsresult
-aStatus
 const
 char16_t
 *
@@ -1274,7 +1263,6 @@ TimeoutHandler
 (
 nsITimer
 *
-aTimer
 void
 *
 aClosure
