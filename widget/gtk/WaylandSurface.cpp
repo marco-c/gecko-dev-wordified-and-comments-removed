@@ -8145,6 +8145,9 @@ full
 range
 %
 d
+aWPChromaLocation
+%
+d
 "
 BufferSurface
 :
@@ -8154,6 +8157,7 @@ GetWLColorCoeficientsName
 aWLColorCoeficients
 )
 aFullRange
+aWPChromaLocation
 )
 ;
 MOZ_DIAGNOSTIC_ASSERT

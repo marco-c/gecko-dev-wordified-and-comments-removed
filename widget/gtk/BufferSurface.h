@@ -1084,7 +1084,7 @@ gfx
 ColorRange
 :
 :
-LIMITED
+FULL
 ;
 mozilla
 :
