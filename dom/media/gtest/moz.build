@@ -1018,6 +1018,16 @@ mkv
 /
 test
 /
+output_mp3
+.
+mkv
+"
+"
+.
+.
+/
+test
+/
 reftest
 /
 color_quads
