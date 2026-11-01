@@ -2187,7 +2187,7 @@ result
 .
 0f
 *
-nsFontMetrics
+ReflowInput
 :
 :
 kNormalLineHeightFactor
