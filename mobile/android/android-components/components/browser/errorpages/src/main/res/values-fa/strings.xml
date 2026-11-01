@@ -206,11 +206,11 @@ mozac_browser_errorpages_archive_description
 %
 1
 s
-Internet
-Archive
 %
 2
 s
+Internet
+Archive
 .
 <
 /
@@ -1439,6 +1439,9 @@ n
 <
 li
 >
+Wi
+-
+Fi
 .
 <
 /
@@ -1681,6 +1684,9 @@ n
 <
 li
 >
+Wi
+-
+Fi
 .
 <
 /
@@ -2025,6 +2031,8 @@ li
 /
 li
 >
+\
+n
 <
 li
 >
@@ -2487,9 +2495,13 @@ p
 /
 p
 >
+\
+n
 <
 ul
 >
+\
+n
 <
 li
 >
@@ -2498,6 +2510,8 @@ li
 /
 li
 >
+\
+n
 <
 /
 ul
@@ -2637,9 +2651,13 @@ p
 /
 p
 >
+\
+n
 <
 ul
 >
+\
+n
 <
 li
 >
@@ -2648,6 +2666,8 @@ li
 /
 li
 >
+\
+n
 <
 /
 ul
@@ -2741,7 +2761,6 @@ n
 <
 li
 >
-:
 <
 strong
 >
@@ -2776,6 +2795,9 @@ n
 <
 li
 >
+Wi
+-
+Fi
 .
 <
 /
@@ -3056,6 +3078,7 @@ n
 <
 li
 >
+:
 <
 strong
 >
@@ -3341,6 +3364,8 @@ CDATA
 <
 ul
 >
+\
+n
 <
 li
 >
@@ -3349,6 +3374,8 @@ li
 /
 li
 >
+\
+n
 <
 /
 ul
@@ -4043,7 +4070,6 @@ mozac_browser_errorpages_httpsonly_message
 [
 CDATA
 [
--
 HTTPS
 HTTPS
 <

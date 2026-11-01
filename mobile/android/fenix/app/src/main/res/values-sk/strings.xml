@@ -1780,7 +1780,8 @@ te
 aplik
 cii
 dan
-povolenie
+opr
+vnenie
 .
 <
 /
@@ -3373,7 +3374,7 @@ browser_menu_add_to_homescreen
 >
 Prida
 na
-vodn
+domovsk
 obrazovku
 <
 /
@@ -3414,7 +3415,7 @@ Prida
 aplik
 ciu
 na
-vodn
+domovsk
 obrazovku
 <
 /
@@ -3457,7 +3458,8 @@ u
 potrebova
 dodato
 n
-povolenia
+opr
+vnenia
 na
 prid
 vanie
@@ -15870,7 +15872,8 @@ UnusedResources
 >
 Nem
 te
-povolenie
+opr
+vnenie
 na
 pou
 vanie
@@ -16537,7 +16540,8 @@ m
 ete
 mu
 udeli
-povolenie
+opr
+vnenie
 pre
 ka
 d
@@ -16580,7 +16584,8 @@ renie
 nevy
 aduje
 iadne
-povolenia
+opr
+vnenia
 .
 <
 /
@@ -16771,7 +16776,8 @@ addons_permissions_heading_optional_permissions
 >
 Volite
 n
-povolenia
+opr
+vnenia
 :
 <
 /
@@ -36697,7 +36703,8 @@ clear_permissions
 >
 Odstr
 ni
-povolenia
+opr
+vnenia
 <
 /
 string
@@ -36785,7 +36792,8 @@ clear_permission
 >
 Odstr
 ni
-povolenie
+opr
+vnenie
 <
 /
 string
@@ -36876,12 +36884,14 @@ clear_permissions_on_all_sites
 >
 Odstr
 ni
-povolenia
-pre
+opr
+vnenia
+na
 v
-etky
+etk
+ch
 str
-nky
+nkach
 <
 /
 string
@@ -38025,7 +38035,8 @@ name
 preferences_category_permissions
 "
 >
-Povolenia
+Opr
+vnenia
 <
 /
 string
@@ -48892,7 +48903,7 @@ add_to_homescreen_title
 >
 Prida
 na
-vodn
+domovsk
 obrazovku
 <
 /
@@ -58374,7 +58385,8 @@ na
 <
 b
 >
-Povolenia
+Opr
+vnenia
 <
 /
 b
@@ -58522,7 +58534,8 @@ odstr
 ni
 v
 etky
-povolenia
+opr
+vnenia
 pre
 v
 etky
@@ -58572,7 +58585,8 @@ odstr
 ni
 v
 etky
-povolenia
+opr
+vnenia
 pre
 t
 to
@@ -58622,7 +58636,8 @@ chcete
 odstr
 ni
 toto
-povolenie
+opr
+vnenie
 pre
 t
 to
@@ -67249,7 +67264,8 @@ name
 protection_panel_permissions_title
 "
 >
-Povolenia
+Opr
+vnenia
 <
 /
 string

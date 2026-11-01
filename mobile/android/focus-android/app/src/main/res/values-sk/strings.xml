@@ -549,7 +549,7 @@ menu_add_to_home_screen
 >
 Prida
 na
-vodn
+domovsk
 obrazovku
 <
 /
@@ -6143,11 +6143,10 @@ firstrun_shortcut_title
 >
 Pridajte
 si
-na
-svoju
-vodn
-obrazovku
 skratky
+na
+domovsk
+obrazovku
 <
 /
 string
@@ -7346,7 +7345,8 @@ na
 <
 b
 >
-Povolenia
+Opr
+vnenia
 <
 /
 b
