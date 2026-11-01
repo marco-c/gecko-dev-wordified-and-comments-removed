@@ -105,6 +105,13 @@ sjs
 ]
 [
 "
+browser_bouncetracking_bfcache_finalhost
+.
+js
+"
+]
+[
+"
 browser_bouncetracking_clearingPurgeLogCrash
 .
 js
