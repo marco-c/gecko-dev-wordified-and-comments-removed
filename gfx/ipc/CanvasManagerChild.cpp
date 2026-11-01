@@ -387,7 +387,7 @@ PCanvasManagerParent
 aEndpoint
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 NS_IsMainThread
 (
