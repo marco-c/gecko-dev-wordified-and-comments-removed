@@ -1164,6 +1164,13 @@ pub
 can_use_shared_surface
 :
 bool
+pub
+capture_clear_color
+:
+Option
+<
+ColorF
+>
 }
 impl
 PictureTask
@@ -2625,6 +2632,9 @@ can_merge
 :
 !
 needs_scissor_rect
+capture_clear_color
+:
+None
 surface_spatial_node_index
 raster_spatial_node_index
 device_pixel_scale

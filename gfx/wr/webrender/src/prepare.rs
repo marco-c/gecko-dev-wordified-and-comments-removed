@@ -3985,7 +3985,7 @@ frame_state
 .
 surface_builder
 .
-register_resolve_source
+register_collected_backdrop
 (
 )
 ;
