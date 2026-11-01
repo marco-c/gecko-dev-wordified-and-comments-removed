@@ -640,6 +640,11 @@ stream
 )
 ;
 void
+GatheringFailed
+(
+)
+;
+void
 Close
 (
 )
