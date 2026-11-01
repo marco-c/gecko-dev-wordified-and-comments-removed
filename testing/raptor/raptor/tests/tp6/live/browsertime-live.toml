@@ -23,9 +23,6 @@ apps
 geckoview
 fenix
 refbrow
-chrome
--
-m
 firefox
 "
 browser_cycles
