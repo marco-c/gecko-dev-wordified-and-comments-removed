@@ -204,17 +204,6 @@ tests
 search
 /
 browser
--
-srd
-.
-toml
-"
-"
-tests
-/
-search
-/
-browser
 .
 toml
 "
