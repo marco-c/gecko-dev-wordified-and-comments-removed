@@ -5494,12 +5494,6 @@ JSObject
 aGivenProto
 )
 {
-RefPtr
-kungFuDeathGrip
-{
-this
-}
-;
 return
 dom
 :
