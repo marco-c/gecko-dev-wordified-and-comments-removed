@@ -3191,9 +3191,10 @@ urlbar
 .
 quicksuggest
 .
-ampTopPickUseNovaIconSize
+ampTopPickScoreForLargeIcon
 "
-false
+"
+"
 )
 ;
 pref
