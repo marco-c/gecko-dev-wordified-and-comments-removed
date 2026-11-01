@@ -109,6 +109,7 @@ DrawTargetRecording
 (
 )
 ;
+virtual
 DrawTargetType
 GetType
 (
@@ -125,6 +126,7 @@ GetType
 )
 ;
 }
+virtual
 BackendType
 GetBackendType
 (
@@ -139,6 +141,7 @@ BackendType
 RECORDING
 ;
 }
+virtual
 bool
 IsRecording
 (
@@ -166,6 +169,7 @@ SupportsGlyphSourceText
 )
 ;
 }
+virtual
 void
 Link
 (
@@ -184,6 +188,7 @@ aRect
 )
 override
 ;
+virtual
 void
 Destination
 (
@@ -198,6 +203,7 @@ aPoint
 )
 override
 ;
+virtual
 void
 AccessibleId
 (
@@ -208,6 +214,7 @@ aAccId
 )
 final
 ;
+virtual
 already_AddRefed
 <
 SourceSurface
@@ -217,6 +224,7 @@ Snapshot
 )
 override
 ;
+virtual
 already_AddRefed
 <
 SourceSurface
@@ -230,12 +238,14 @@ aOpacity
 )
 override
 ;
+virtual
 void
 DetachAllSnapshots
 (
 )
 override
 ;
+virtual
 IntSize
 GetSize
 (
@@ -251,6 +261,7 @@ Size
 )
 ;
 }
+virtual
 IntRect
 GetRect
 (
@@ -262,12 +273,14 @@ return
 mRect
 ;
 }
+virtual
 void
 Flush
 (
 )
 override
 ;
+virtual
 void
 FlushItem
 (
@@ -278,6 +291,7 @@ aBounds
 )
 override
 ;
+virtual
 void
 DrawSurface
 (
@@ -311,6 +325,7 @@ DrawOptions
 )
 override
 ;
+virtual
 void
 DrawSurfaceDescriptor
 (
@@ -358,6 +373,7 @@ DrawOptions
 )
 override
 ;
+virtual
 void
 DrawDependentSurface
 (
@@ -370,6 +386,7 @@ aDest
 )
 override
 ;
+virtual
 void
 DrawFilter
 (
@@ -395,6 +412,7 @@ DrawOptions
 )
 override
 ;
+virtual
 void
 DrawSurfaceWithShadow
 (
@@ -414,6 +432,7 @@ aOperator
 )
 override
 ;
+virtual
 void
 DrawShadow
 (
@@ -440,6 +459,7 @@ aStrokeOptions
 )
 override
 ;
+virtual
 void
 ClearRect
 (
@@ -450,6 +470,7 @@ aRect
 )
 override
 ;
+virtual
 void
 CopySurface
 (
@@ -467,6 +488,7 @@ aDestination
 )
 override
 ;
+virtual
 void
 FillRect
 (
@@ -489,6 +511,7 @@ DrawOptions
 )
 override
 ;
+virtual
 void
 StrokeRect
 (
@@ -519,6 +542,7 @@ DrawOptions
 )
 override
 ;
+virtual
 void
 StrokeLine
 (
@@ -553,6 +577,7 @@ DrawOptions
 )
 override
 ;
+virtual
 void
 StrokeCircle
 (
@@ -585,6 +610,7 @@ DrawOptions
 )
 override
 ;
+virtual
 void
 Stroke
 (
@@ -615,6 +641,7 @@ DrawOptions
 )
 override
 ;
+virtual
 void
 Fill
 (
@@ -637,6 +664,7 @@ DrawOptions
 )
 override
 ;
+virtual
 void
 FillCircle
 (
@@ -661,6 +689,7 @@ DrawOptions
 )
 override
 ;
+virtual
 void
 FillGlyphs
 (
@@ -686,6 +715,7 @@ DrawOptions
 )
 override
 ;
+virtual
 void
 StrokeGlyphs
 (
@@ -719,6 +749,7 @@ DrawOptions
 )
 override
 ;
+virtual
 void
 Mask
 (
@@ -741,6 +772,7 @@ DrawOptions
 )
 override
 ;
+virtual
 void
 MaskSurface
 (
@@ -764,6 +796,7 @@ DrawOptions
 )
 override
 ;
+virtual
 void
 PushClip
 (
@@ -774,6 +807,7 @@ aPath
 )
 override
 ;
+virtual
 void
 PushClipRect
 (
@@ -784,18 +818,21 @@ aRect
 )
 override
 ;
+virtual
 void
 PopClip
 (
 )
 override
 ;
+virtual
 bool
 RemoveAllClips
 (
 )
 override
 ;
+virtual
 void
 PushLayer
 (
@@ -825,6 +862,7 @@ false
 )
 override
 ;
+virtual
 void
 PushLayerWithBlend
 (
@@ -861,12 +899,14 @@ OP_OVER
 )
 override
 ;
+virtual
 void
 PopLayer
 (
 )
 override
 ;
+virtual
 already_AddRefed
 <
 SourceSurface
@@ -889,6 +929,7 @@ aFormat
 const
 override
 ;
+virtual
 already_AddRefed
 <
 SourceSurface
@@ -902,6 +943,7 @@ aSurface
 const
 override
 ;
+virtual
 already_AddRefed
 <
 SourceSurface
@@ -916,6 +958,7 @@ aSurface
 const
 override
 ;
+virtual
 already_AddRefed
 <
 DrawTarget
@@ -932,6 +975,7 @@ aFormat
 const
 override
 ;
+virtual
 already_AddRefed
 <
 DrawTarget
@@ -961,6 +1005,7 @@ aFormat
 const
 override
 ;
+virtual
 RefPtr
 <
 DrawTarget
@@ -976,21 +1021,7 @@ aFormat
 )
 override
 ;
-RefPtr
-<
-DrawTarget
->
-CreateClippedDrawTargetForRect
-(
-const
-IntRect
-&
-aRect
-SurfaceFormat
-aFormat
-)
-override
-;
+virtual
 already_AddRefed
 <
 DrawTarget
@@ -1020,6 +1051,7 @@ aDestPoint
 )
 override
 ;
+virtual
 already_AddRefed
 <
 PathBuilder
@@ -1037,6 +1069,7 @@ FILL_WINDING
 const
 override
 ;
+virtual
 already_AddRefed
 <
 GradientStops
@@ -1059,6 +1092,7 @@ CLAMP
 const
 override
 ;
+virtual
 already_AddRefed
 <
 FilterNode
@@ -1070,6 +1104,7 @@ aType
 )
 override
 ;
+virtual
 already_AddRefed
 <
 FilterNode
@@ -1109,6 +1144,7 @@ nullptr
 )
 override
 ;
+virtual
 void
 SetTransform
 (
@@ -1119,6 +1155,7 @@ aTransform
 )
 override
 ;
+virtual
 void
 SetPermitSubpixelAA
 (
@@ -1127,6 +1164,7 @@ aPermitSubpixelAA
 )
 override
 ;
+virtual
 void
 *
 GetNativeSurface
@@ -1146,6 +1184,7 @@ aType
 )
 ;
 }
+virtual
 bool
 IsCurrentGroupOpaque
 (
@@ -1290,16 +1329,6 @@ const
 Matrix
 &
 aTransform
-)
-const
-;
-Rect
-DeviceToUserLayerBounds
-(
-const
-IntRect
-&
-aBounds
 )
 const
 ;
