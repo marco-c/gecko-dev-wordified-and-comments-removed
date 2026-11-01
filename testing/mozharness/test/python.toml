@@ -69,3 +69,10 @@ test_mozilla_structured
 py
 "
 ]
+[
+"
+test_mozilla_testing_errors
+.
+py
+"
+]

@@ -4340,6 +4340,9 @@ ReftestFormatter
 (
 )
                 
+try
+:
+                    
 self
 .
 run_command
@@ -4355,13 +4358,7 @@ output_parser
 =
 parser
 )
-                
-parser
-.
-finish
-(
-)
-                
+                    
 tbpl_status
 log_level
 summary
@@ -4370,14 +4367,14 @@ parser
 .
 evaluate_parser
 (
-                    
+                        
 0
 previous_summary
 =
 summary
-                
+                    
 )
-                
+                    
 parser
 .
 append_tinderboxprint_line
@@ -4385,6 +4382,15 @@ append_tinderboxprint_line
 self
 .
 test_suite
+)
+                
+finally
+:
+                    
+parser
+.
+finish
+(
 )
                 
 self
