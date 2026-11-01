@@ -2643,6 +2643,10 @@ false
 "
 _ns
 true
+IsKnownNewAttr
+:
+:
+No
 )
 ;
 }
@@ -2667,6 +2671,10 @@ true
 "
 _ns
 true
+IsKnownNewAttr
+:
+:
+No
 )
 ;
 }
@@ -3202,6 +3210,10 @@ nsGkAtoms
 value
 aValue
 true
+IsKnownNewAttr
+:
+:
+No
 )
 ;
 }
@@ -3352,6 +3364,10 @@ nsGkAtoms
 label
 aValue
 true
+IsKnownNewAttr
+:
+:
+No
 )
 ;
 }

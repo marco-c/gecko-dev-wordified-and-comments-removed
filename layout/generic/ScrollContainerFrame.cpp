@@ -25954,6 +25954,10 @@ true
 "
 _ns
 false
+IsKnownNewAttr
+:
+:
+Yes
 )
 ;
 }
@@ -25997,6 +26001,10 @@ true
 "
 _ns
 false
+IsKnownNewAttr
+:
+:
+Yes
 )
 ;
 aKey
@@ -26610,6 +26618,10 @@ u
 "
 _ns
 false
+IsKnownNewAttr
+:
+:
+Yes
 )
 ;
 }
@@ -26679,6 +26691,10 @@ nsGkAtoms
 dir
 dir
 false
+IsKnownNewAttr
+:
+:
+Yes
 )
 ;
 aElements
@@ -26797,6 +26813,10 @@ true
 "
 _ns
 false
+IsKnownNewAttr
+:
+:
+Yes
 )
 ;
 key

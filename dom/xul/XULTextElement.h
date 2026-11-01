@@ -121,6 +121,10 @@ nsGkAtoms
 value
 aValue
 true
+IsKnownNewAttr
+:
+:
+No
 )
 ;
 }
@@ -162,6 +166,10 @@ nsGkAtoms
 accesskey
 aValue
 true
+IsKnownNewAttr
+:
+:
+No
 )
 ;
 }

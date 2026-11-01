@@ -266,6 +266,10 @@ label
 "
 _ns
 false
+IsKnownNewAttr
+:
+:
+Yes
 )
 ;
 ErrorResult
@@ -582,6 +586,10 @@ nsGkAtoms
 label
 text
 true
+IsKnownNewAttr
+:
+:
+No
 )
 ;
 SetAttr
@@ -593,6 +601,10 @@ nsGkAtoms
 direction
 direction
 true
+IsKnownNewAttr
+:
+:
+No
 )
 ;
 }

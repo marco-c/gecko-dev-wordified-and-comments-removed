@@ -585,6 +585,10 @@ height
 "
 )
 true
+IsKnownNewAttr
+:
+:
+Yes
 )
 ;
 }

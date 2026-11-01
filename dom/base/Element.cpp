@@ -7891,6 +7891,10 @@ nsGkAtoms
 slot
 aName
 true
+IsKnownNewAttr
+:
+:
+No
 )
 ;
 }
@@ -9823,6 +9827,10 @@ u
 _ns
 aTriggeringPrincipal
 true
+IsKnownNewAttr
+:
+:
+No
 )
 ;
 return
@@ -19616,6 +19624,8 @@ nsIPrincipal
 aSubjectPrincipal
 bool
 aNotify
+IsKnownNewAttr
+aIsKnownNew
 )
 {
 const
@@ -19672,10 +19682,7 @@ aValue
 ;
 }
 }
-IsKnownNewAttr
-:
-:
-No
+aIsKnownNew
 )
 ;
 }
@@ -30427,6 +30434,10 @@ u
 "
 _ns
 true
+IsKnownNewAttr
+:
+:
+No
 )
 ;
 }

@@ -247,6 +247,10 @@ true
 "
 _ns
 false
+IsKnownNewAttr
+:
+:
+Yes
 )
 ;
 }
@@ -937,6 +941,10 @@ u
 "
 _ns
 false
+IsKnownNewAttr
+:
+:
+Yes
 )
 ;
 return
@@ -1006,6 +1014,10 @@ u
 "
 _ns
 false
+IsKnownNewAttr
+:
+:
+Yes
 )
 ;
 button
@@ -1023,6 +1035,10 @@ u
 "
 _ns
 false
+IsKnownNewAttr
+:
+:
+Yes
 )
 ;
 return

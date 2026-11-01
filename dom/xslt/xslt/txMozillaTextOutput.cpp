@@ -1058,6 +1058,10 @@ transformiixResult
 "
 _ns
 false
+IsKnownNewAttr
+:
+:
+Yes
 )
 ;
 NS_ENSURE_SUCCESS

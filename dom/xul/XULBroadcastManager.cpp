@@ -789,6 +789,10 @@ count
 mPrefix
 value
 notify
+IsKnownNewAttr
+:
+:
+No
 )
 ;
 }
@@ -843,6 +847,10 @@ kNameSpaceID_None
 name
 value
 notify
+IsKnownNewAttr
+:
+:
+No
 )
 ;
 }
@@ -1907,6 +1915,10 @@ kNameSpaceID_None
 attrName
 value
 true
+IsKnownNewAttr
+:
+:
+No
 )
 ;
 }

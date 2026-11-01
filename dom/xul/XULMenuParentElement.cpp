@@ -268,6 +268,10 @@ true
 "
 _ns
 true
+IsKnownNewAttr
+:
+:
+No
 )
 ;
 domEventToFire

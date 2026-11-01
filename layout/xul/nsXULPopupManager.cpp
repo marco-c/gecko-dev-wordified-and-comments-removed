@@ -4449,6 +4449,10 @@ true
 "
 _ns
 true
+IsKnownNewAttr
+:
+:
+No
 )
 ;
 nsMenuPopupFrame
@@ -11938,6 +11942,10 @@ nsGkAtoms
 label
 commandValue
 true
+IsKnownNewAttr
+:
+:
+No
 )
 ;
 }
@@ -11968,6 +11976,10 @@ nsGkAtoms
 accesskey
 commandValue
 true
+IsKnownNewAttr
+:
+:
+No
 )
 ;
 }

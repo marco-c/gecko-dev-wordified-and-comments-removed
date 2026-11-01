@@ -2325,6 +2325,10 @@ nsGkAtoms
 alt
 errorMsg
 false
+IsKnownNewAttr
+:
+:
+No
 )
 ;
 }
@@ -3020,6 +3024,10 @@ nsGkAtoms
 src
 srcString
 false
+IsKnownNewAttr
+:
+:
+Yes
 )
 ;
 mImageContent
@@ -3034,6 +3042,10 @@ nsGkAtoms
 alt
 srcString
 false
+IsKnownNewAttr
+:
+:
+Yes
 )
 ;
 if

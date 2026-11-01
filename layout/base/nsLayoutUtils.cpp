@@ -41331,6 +41331,10 @@ kNameSpaceID_None
 mAttrName
 mValue
 true
+IsKnownNewAttr
+:
+:
+No
 )
 ;
 }

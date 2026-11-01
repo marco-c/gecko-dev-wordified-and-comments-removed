@@ -2004,6 +2004,10 @@ u
 "
 _ns
 true
+IsKnownNewAttr
+:
+:
+No
 )
 ;
 }
@@ -3111,6 +3115,10 @@ u
 "
 _ns
 true
+IsKnownNewAttr
+:
+:
+No
 )
 ;
 self
@@ -9739,6 +9747,10 @@ kNameSpaceID_None
 aAttr
 value
 true
+IsKnownNewAttr
+:
+:
+No
 )
 ;
 }

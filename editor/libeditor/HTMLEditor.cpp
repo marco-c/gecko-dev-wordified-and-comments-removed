@@ -2865,6 +2865,10 @@ Type
 "
 _ns
 false
+IsKnownNewAttr
+:
+:
+Yes
 )
 ;
 NS_WARNING_ASSERTION
@@ -2927,6 +2931,10 @@ NS_ConvertASCIItoUTF16
 aCharacterSet
 )
 false
+IsKnownNewAttr
+:
+:
+Yes
 )
 ;
 NS_WARNING_ASSERTION
@@ -24918,6 +24926,10 @@ aAttribute
 )
 aAttributeValue
 true
+IsKnownNewAttr
+:
+:
+Yes
 )
 ;
 if

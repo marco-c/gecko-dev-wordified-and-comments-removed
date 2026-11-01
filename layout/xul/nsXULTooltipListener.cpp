@@ -2100,6 +2100,10 @@ nsGkAtoms
 label
 label
 true
+IsKnownNewAttr
+:
+:
+No
 )
 ;
 }
@@ -2190,6 +2194,10 @@ true
 "
 _ns
 true
+IsKnownNewAttr
+:
+:
+No
 )
 ;
 }
@@ -2710,6 +2718,10 @@ nsGkAtoms
 label
 tooltipText
 true
+IsKnownNewAttr
+:
+:
+No
 )
 ;
 tooltip

@@ -2118,6 +2118,10 @@ u
 "
 _ns
 true
+IsKnownNewAttr
+:
+:
+No
 )
 ;
 self
@@ -10773,6 +10777,10 @@ aAttrEnum
 mName
 aValue
 true
+IsKnownNewAttr
+:
+:
+No
 )
 ;
 }

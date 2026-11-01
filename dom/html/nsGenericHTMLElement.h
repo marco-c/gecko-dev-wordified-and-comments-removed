@@ -3605,6 +3605,16 @@ kNameSpaceID_None
 aName
 aValue
 true
+mozilla
+:
+:
+dom
+:
+:
+IsKnownNewAttr
+:
+:
+No
 )
 ;
 }

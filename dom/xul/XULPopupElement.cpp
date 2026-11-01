@@ -533,6 +533,10 @@ true
 "
 _ns
 true
+IsKnownNewAttr
+:
+:
+No
 )
 ;
 }
@@ -635,6 +639,10 @@ true
 "
 _ns
 true
+IsKnownNewAttr
+:
+:
+No
 )
 ;
 }

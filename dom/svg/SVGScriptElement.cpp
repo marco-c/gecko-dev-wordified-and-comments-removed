@@ -376,6 +376,10 @@ nsGkAtoms
 type
 aType
 true
+IsKnownNewAttr
+:
+:
+No
 )
 ;
 }

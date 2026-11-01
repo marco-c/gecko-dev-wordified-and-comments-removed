@@ -7204,6 +7204,10 @@ kNameSpaceID_None
 mAttribute
 attributeValue
 false
+IsKnownNewAttr
+:
+:
+Yes
 )
 ;
 NS_WARNING_ASSERTION

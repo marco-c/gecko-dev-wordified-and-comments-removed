@@ -898,6 +898,10 @@ button
 "
 _ns
 false
+IsKnownNewAttr
+:
+:
+Yes
 )
 ;
 sr
@@ -1042,6 +1046,10 @@ nsGkAtoms
 popover
 popoverstate
 false
+IsKnownNewAttr
+:
+:
+Yes
 )
 ;
 picker

@@ -1193,6 +1193,10 @@ kNameSpaceID_None
 attr
 value
 true
+IsKnownNewAttr
+:
+:
+No
 )
 ;
 }

@@ -454,6 +454,13 @@ nsGkAtoms
 sortDirection
 aDirection
 true
+dom
+:
+:
+IsKnownNewAttr
+:
+:
+No
 )
 ;
 aColumn
@@ -472,6 +479,13 @@ true
 "
 _ns
 true
+dom
+:
+:
+IsKnownNewAttr
+:
+:
+No
 )
 ;
 nsCOMPtr

@@ -994,6 +994,10 @@ viewport
 "
 _ns
 true
+IsKnownNewAttr
+:
+:
+Yes
 )
 ;
 metaContent
@@ -1023,6 +1027,10 @@ height
 "
 _ns
 true
+IsKnownNewAttr
+:
+:
+Yes
 )
 ;
 head
@@ -1384,6 +1392,10 @@ stylesheet
 "
 _ns
 true
+IsKnownNewAttr
+:
+:
+Yes
 )
 ;
 link
@@ -1398,6 +1410,10 @@ nsGkAtoms
 href
 aStylesheet
 true
+IsKnownNewAttr
+:
+:
+Yes
 )
 ;
 ErrorResult
@@ -1511,6 +1527,10 @@ javascript
 "
 _ns
 true
+IsKnownNewAttr
+:
+:
+Yes
 )
 ;
 script
@@ -1525,6 +1545,10 @@ nsGkAtoms
 src
 aScript
 true
+IsKnownNewAttr
+:
+:
+Yes
 )
 ;
 ErrorResult

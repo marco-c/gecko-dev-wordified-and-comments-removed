@@ -408,6 +408,13 @@ _ns
 +
 color
 true
+dom
+:
+:
+IsKnownNewAttr
+:
+:
+No
 )
 ;
 }
