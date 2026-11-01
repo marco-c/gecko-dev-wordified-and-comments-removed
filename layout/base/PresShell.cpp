@@ -31982,6 +31982,17 @@ PaintSyncDecodeImages
 &
 &
 !
+(
+aFlags
+&
+PaintInternalFlags
+:
+:
+PaintCompositeOffscreen
+)
+&
+&
+!
 aFrame
 -
 >

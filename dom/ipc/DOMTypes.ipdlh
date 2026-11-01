@@ -1237,6 +1237,9 @@ bool
 NotifiedBeforeUnloadListeners
 ;
 bool
+PageSwapFired
+;
+bool
 ForceAllowDataURI
 ;
 bool

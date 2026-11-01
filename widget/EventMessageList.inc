@@ -439,6 +439,10 @@ ePageReveal
 )
 NS_EVENT_MESSAGE
 (
+ePageSwap
+)
+NS_EVENT_MESSAGE
+(
 eContextLost
 )
 NS_EVENT_MESSAGE

@@ -1174,6 +1174,13 @@ eBasicEventClass
 )
 WINDOW_EVENT
 (
+pageswap
+ePageSwap
+EventNameType_HTMLBodyOrFramesetOnly
+eBasicEventClass
+)
+WINDOW_EVENT
+(
 popstate
 ePopState
 EventNameType_XUL

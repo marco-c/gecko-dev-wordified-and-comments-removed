@@ -6714,6 +6714,16 @@ mIsEnteringBFCache
 void
 DeactivateDocuments
 (
+const
+SessionHistoryInfo
+*
+aPageSwapTargetInfo
+NavigationType
+aNavigationType
+bool
+aForUnload
+=
+false
 )
 ;
 MOZ_CAN_RUN_SCRIPT
