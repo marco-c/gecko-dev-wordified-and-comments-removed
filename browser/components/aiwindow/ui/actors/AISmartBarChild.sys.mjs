@@ -181,6 +181,13 @@ chat
 "
 contextMentions
 contextPageUrl
+:
+URL
+.
+parse
+(
+contextPageUrl
+)
 detectedIntent
 location
 submitType
