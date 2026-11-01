@@ -3961,7 +3961,7 @@ doc
 aNode
 -
 >
-GetUncomposedDoc
+GetComposedDoc
 (
 )
 ;
