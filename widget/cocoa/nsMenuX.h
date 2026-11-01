@@ -593,6 +593,11 @@ SetupIcon
 (
 )
 ;
+void
+CopyAllUserKeyEquivalentsToKeyElements
+(
+)
+;
 nsIContent
 *
 Content

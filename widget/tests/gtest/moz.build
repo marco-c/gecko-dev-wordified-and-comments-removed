@@ -135,6 +135,16 @@ TestPiPWindowSpaceBehavior
 mm
 "
 ]
+SOURCES
++
+=
+[
+"
+TestCocoaKeyCodeNames
+.
+mm
+"
+]
 if
 CONFIG
 [

@@ -265,6 +265,11 @@ mNativeMenuItem
 ;
 }
 void
+CopyUserKeyEquivalentToKeyElement
+(
+)
+;
+void
 Dump
 (
 uint32_t
