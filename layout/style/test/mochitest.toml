@@ -2257,6 +2257,13 @@ html
 ]
 [
 "
+test_inline_style_cc
+.
+html
+"
+]
+[
+"
 test_invalidation_basic
 .
 html

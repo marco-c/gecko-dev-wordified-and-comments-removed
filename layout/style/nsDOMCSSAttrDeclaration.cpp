@@ -259,6 +259,15 @@ tmp
 >
 mElement
 )
+&
+&
+tmp
+-
+>
+HasNothingToTrace
+(
+tmp
+)
 )
 ;
 NS_IMPL_CYCLE_COLLECTION_CAN_SKIP_IN_CC_END
