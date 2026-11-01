@@ -550,6 +550,16 @@ static600
 .
 clickable
 (
+onClickLabel
+=
+stringResource
+(
+R
+.
+string
+.
+mozac_feature_listentopage_expand_player
+)
 role
 =
 Role
