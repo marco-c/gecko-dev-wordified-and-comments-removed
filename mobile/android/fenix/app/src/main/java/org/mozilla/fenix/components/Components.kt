@@ -3253,6 +3253,11 @@ browserStore
 core
 .
 store
+tabsUseCases
+=
+useCases
+.
+tabsUseCases
 )
 tabGroupRepository
 =
