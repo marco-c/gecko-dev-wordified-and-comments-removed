@@ -70,6 +70,8 @@ kind
 dependencies
 :
 -
+fetch
+-
 openh264
 -
 plugin
@@ -117,6 +119,13 @@ from
 -
 deps
 :
+kinds
+:
+[
+openh264
+-
+plugin
+]
 group
 -
 by
