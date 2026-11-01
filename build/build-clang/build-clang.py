@@ -1658,6 +1658,13 @@ OFF
             
 "
 -
+DCLANG_ENABLE_CIR
+=
+OFF
+"
+            
+"
+-
 DLLVM_ENABLE_ZSTD
 =
 OFF
