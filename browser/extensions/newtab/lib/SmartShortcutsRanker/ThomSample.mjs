@@ -576,10 +576,10 @@ sorted
 returns
 {
 [
-number
+object
 [
 ]
-object
+number
 [
 ]
 ]
