@@ -155,6 +155,7 @@ value
 string
 ;
 l10nId
+?
 :
 string
 ;
