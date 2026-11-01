@@ -8514,10 +8514,15 @@ DrawParams
 (
 &
 aRenderingContext
-presContext
+aForFrame
 -
 >
-GetFontPaletteValueSet
+PresContext
+(
+)
+-
+>
+FontPaletteCache
 (
 )
 )
@@ -9196,7 +9201,7 @@ aThebesContext
 aPresContext
 -
 >
-GetFontPaletteValueSet
+FontPaletteCache
 (
 )
 )
@@ -10210,7 +10215,7 @@ aThebesContext
 aPresContext
 -
 >
-GetFontPaletteValueSet
+FontPaletteCache
 (
 )
 )
