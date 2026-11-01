@@ -273,6 +273,13 @@ function
 (
 )
 {
+await
+SearchSERPTelemetry
+.
+init
+(
+)
+;
 SearchSERPTelemetry
 .
 overrideSearchTelemetryForTests
