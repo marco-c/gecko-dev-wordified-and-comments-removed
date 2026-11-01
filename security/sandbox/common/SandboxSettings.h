@@ -56,11 +56,6 @@ GetEffectiveContentSandboxLevel
 )
 ;
 int
-GetEffectiveSocketProcessSandboxLevel
-(
-)
-;
-int
 GetEffectiveGpuSandboxLevel
 (
 )
