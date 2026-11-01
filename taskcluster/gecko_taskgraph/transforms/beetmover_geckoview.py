@@ -139,17 +139,6 @@ run_on_projects
 "
 ]
     
-run_on_hg_branches
-:
-TaskDescriptionSchema
-.
-__annotations__
-[
-"
-run_on_hg_branches
-"
-]
-    
 bucket_scope
 :
 str
@@ -694,26 +683,6 @@ job
 [
 "
 locale
-"
-]
-        
-attributes
-[
-"
-run_on_hg_branches
-"
-]
-=
-job
-[
-"
-run
--
-on
--
-hg
--
-branches
 "
 ]
         
