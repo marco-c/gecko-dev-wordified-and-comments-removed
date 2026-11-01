@@ -181,6 +181,12 @@ selected
 "
 )
 ;
+experimentalCategory
+.
+scrollIntoView
+(
+)
+;
 EventUtils
 .
 synthesizeMouseAtCenter

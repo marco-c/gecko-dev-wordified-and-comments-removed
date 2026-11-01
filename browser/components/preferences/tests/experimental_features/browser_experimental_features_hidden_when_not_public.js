@@ -280,14 +280,8 @@ contentDocument
 const
 expectedPane
 =
-SRD_PREF_VALUE
-?
 "
 paneSync
-"
-:
-"
-paneGeneral
 "
 ;
 await
