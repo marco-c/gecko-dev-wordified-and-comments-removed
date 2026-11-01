@@ -210,6 +210,11 @@ CipherKeyManager
 h
 "
 "
+CipherKeyStoreBackend
+.
+h
+"
+"
 CipherStrategy
 .
 h
@@ -286,6 +291,11 @@ h
 "
 "
 DecryptingInputStream_impl
+.
+h
+"
+"
+DekNameCodec
 .
 h
 "
@@ -530,6 +540,11 @@ ResultExtensions
 h
 "
 "
+RetryHelper
+.
+h
+"
+"
 ScopedLogExtraInfo
 .
 h
@@ -651,6 +666,11 @@ cpp
 "
 "
 DecryptingInputStream
+.
+cpp
+"
+"
+DekNameCodec
 .
 cpp
 "
