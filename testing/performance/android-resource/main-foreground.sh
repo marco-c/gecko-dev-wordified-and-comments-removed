@@ -289,12 +289,16 @@ info
 memory
 "
 rm
+-
+f
 TESTING_DIR
 /
 test_start
 .
 signal
 rm
+-
+f
 TESTING_DIR
 /
 test_end
