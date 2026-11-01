@@ -190,6 +190,8 @@ linux64
 -
 rust
 -
+toolchain
+-
 sysroot
 -
 x86_64
@@ -251,6 +253,8 @@ linux64
 -
 rust
 -
+toolchain
+-
 sysroot
 -
 aarch64
@@ -310,6 +314,8 @@ rust
 -
 macos
 -
+toolchain
+-
 macosx64
 -
 sdk
@@ -368,6 +374,8 @@ linux64
 rust
 -
 macos
+-
+toolchain
 -
 macosx64
 -
@@ -437,6 +445,8 @@ rust
 -
 windows
 -
+toolchain
+-
 vs
 -
 toolchain
@@ -496,6 +506,8 @@ rust
 -
 windows
 -
+toolchain
+-
 vs
 -
 toolchain
@@ -554,6 +566,8 @@ linux64
 rust
 -
 windows
+-
+toolchain
 -
 vs
 -
