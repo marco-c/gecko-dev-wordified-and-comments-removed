@@ -418,6 +418,16 @@ advance
 cache
 .
 patch
+-
+hb
+-
+scalar
+-
+cache
+-
+quantization
+.
+patch
 updatebot
 :
 maintainer
