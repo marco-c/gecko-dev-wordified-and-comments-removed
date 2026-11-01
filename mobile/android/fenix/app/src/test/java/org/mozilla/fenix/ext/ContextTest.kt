@@ -961,7 +961,7 @@ R
 .
 string
 .
-private_browsing_common_myths
+pref_key_telemetry
 )
 val
 actualStr
@@ -974,7 +974,7 @@ R
 .
 string
 .
-private_browsing_common_myths
+pref_key_telemetry
 )
 assertEquals
 (

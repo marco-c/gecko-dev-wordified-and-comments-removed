@@ -436,7 +436,7 @@ R
 .
 drawable
 .
-ic_notification_permission
+ic_onboarding_welcome
 title
 =
 "

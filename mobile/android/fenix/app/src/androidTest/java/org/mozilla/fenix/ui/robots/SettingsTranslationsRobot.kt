@@ -1063,7 +1063,7 @@ R
 .
 string
 .
-dialog_delete_negative
+never_translate_site_dialog_cancel_preference
 )
 )
 .
@@ -1126,7 +1126,7 @@ R
 .
 string
 .
-dialog_delete_positive
+never_translate_site_dialog_confirm_delete_preference
 )
 )
 .

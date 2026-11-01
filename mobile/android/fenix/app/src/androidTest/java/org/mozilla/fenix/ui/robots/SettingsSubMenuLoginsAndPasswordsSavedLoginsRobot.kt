@@ -2650,7 +2650,7 @@ R
 .
 string
 .
-dialog_delete_positive
+bookmark_menu_delete_button
 )
 )
 .
@@ -2713,7 +2713,7 @@ R
 .
 string
 .
-dialog_delete_negative
+bookmark_delete_negative
 )
 )
 .

@@ -3303,7 +3303,7 @@ R
 .
 string
 .
-settings
+settings_title
 )
 )
 )

@@ -481,7 +481,7 @@ R
 .
 drawable
 .
-ic_notification_permission
+ic_onboarding_welcome
 title
 =
 "
@@ -537,7 +537,7 @@ R
 .
 drawable
 .
-ic_notification_permission
+ic_onboarding_welcome
 title
 =
 "
@@ -651,7 +651,7 @@ R
 .
 drawable
 .
-ic_onboarding_search_widget
+ic_onboarding_welcome
 title
 =
 "
@@ -718,7 +718,7 @@ R
 .
 drawable
 .
-ic_onboarding_search_widget
+ic_onboarding_welcome
 title
 =
 "

@@ -680,6 +680,7 @@ lineThreeLinkText
 =
 "
 Manage
+settings
 "
 val
 expected
@@ -748,7 +749,7 @@ R
 .
 string
 .
-onboarding_term_of_service_line_one_2
+nova_onboarding_tou_body_line_1
 "
 "
 )
@@ -760,7 +761,7 @@ R
 .
 string
 .
-onboarding_term_of_service_line_one_link_text_2
+nova_onboarding_tou_body_line_1_link_text
 "
 "
 )
@@ -779,7 +780,7 @@ R
 .
 string
 .
-onboarding_term_of_service_line_two_2
+nova_onboarding_tou_body_line_2
 "
 "
 )
@@ -791,7 +792,7 @@ R
 .
 string
 .
-onboarding_term_of_service_line_two_link_text
+nova_onboarding_tou_body_line_2_link_text
 "
 "
 )
@@ -810,7 +811,7 @@ R
 .
 string
 .
-onboarding_term_of_service_line_three
+nova_onboarding_tou_body_line_3
 "
 "
 )
@@ -822,7 +823,7 @@ R
 .
 string
 .
-onboarding_term_of_service_line_three_link_text
+nova_onboarding_tou_body_line_3_link_text
 "
 "
 )
@@ -1614,7 +1615,7 @@ R
 .
 drawable
 .
-ic_onboarding_search_widget
+ic_onboarding_welcome
 title
 =
 StringHolder
@@ -1797,7 +1798,7 @@ R
 .
 drawable
 .
-ic_onboarding_search_widget
+ic_onboarding_welcome
 title
 =
 "
@@ -1978,7 +1979,7 @@ R
 .
 drawable
 .
-ic_notification_permission
+ic_onboarding_welcome
 title
 =
 "
@@ -2194,7 +2195,7 @@ R
 .
 drawable
 .
-ic_onboarding_search_widget
+ic_onboarding_welcome
 title
 =
 StringHolder
@@ -2278,7 +2279,7 @@ R
 .
 drawable
 .
-ic_onboarding_search_widget
+ic_onboarding_welcome
 title
 =
 StringHolder
@@ -2431,7 +2432,7 @@ R
 .
 drawable
 .
-ic_notification_permission
+ic_onboarding_welcome
 title
 =
 StringHolder
