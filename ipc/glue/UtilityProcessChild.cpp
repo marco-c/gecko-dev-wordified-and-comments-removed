@@ -796,9 +796,11 @@ aBrokerFd
 const
 bool
 &
+aCanRecordReleaseTelemetry
 const
 bool
 &
+aIsReadyForBackgroundProcessing
 )
 {
 mozilla

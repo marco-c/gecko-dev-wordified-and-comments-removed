@@ -214,7 +214,9 @@ GSource
 *
 source
 GSourceFunc
+unused_func
 gpointer
+unused_data
 )
 {
 static_cast

@@ -238,6 +238,7 @@ TestDestroyNestedSubParent
 ActorDestroy
 (
 ActorDestroyReason
+aReason
 )
 {
 EXPECT_FALSE
@@ -335,6 +336,7 @@ TestDestroyNestedParent
 ActorDestroy
 (
 ActorDestroyReason
+aReason
 )
 {
 EXPECT_FALSE

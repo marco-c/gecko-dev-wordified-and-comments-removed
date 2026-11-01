@@ -111,6 +111,7 @@ nsISupports
 *
 aData
 bool
+aAnonymize
 )
 override
 {

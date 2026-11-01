@@ -733,6 +733,7 @@ BlockShutdown
 (
 nsIAsyncShutdownClient
 *
+aBarrierClient
 )
 {
 if
@@ -849,6 +850,7 @@ Observe
 (
 nsISupports
 *
+aSubject
 const
 char
 *

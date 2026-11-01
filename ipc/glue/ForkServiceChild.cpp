@@ -1590,6 +1590,7 @@ Observe
 (
 nsISupports
 *
+aSubject
 const
 char
 *
@@ -1597,6 +1598,7 @@ aTopic
 const
 char16_t
 *
+aData
 )
 {
 if
