@@ -1,12 +1,14 @@
-extern
-crate
-ringbuf
-;
 use
 ringbuf
 :
 :
-RingBuffer
+{
+traits
+:
+:
+*
+HeapRb
+}
 ;
 fn
 main
@@ -16,7 +18,7 @@ main
 let
 rb
 =
-RingBuffer
+HeapRb
 :
 :
 <
@@ -45,7 +47,7 @@ split
 ;
 prod
 .
-push
+try_push
 (
 0
 )
@@ -56,7 +58,7 @@ unwrap
 ;
 prod
 .
-push
+try_push
 (
 1
 )
@@ -70,7 +72,7 @@ assert_eq
 (
 prod
 .
-push
+try_push
 (
 2
 )
@@ -85,7 +87,7 @@ assert_eq
 (
 cons
 .
-pop
+try_pop
 (
 )
 .
@@ -97,7 +99,7 @@ unwrap
 ;
 prod
 .
-push
+try_push
 (
 2
 )
@@ -111,7 +113,7 @@ assert_eq
 (
 cons
 .
-pop
+try_pop
 (
 )
 .
@@ -126,7 +128,7 @@ assert_eq
 (
 cons
 .
-pop
+try_pop
 (
 )
 .
@@ -141,7 +143,7 @@ assert_eq
 (
 cons
 .
-pop
+try_pop
 (
 )
 None
