@@ -83,17 +83,6 @@ absl
 /
 strings
 /
-match
-.
-h
-"
-#
-include
-"
-absl
-/
-strings
-/
 string_view
 .
 h
@@ -3428,10 +3417,7 @@ nullptr
 }
 if
 (
-absl
-:
-:
-EndsWith
+IsMdnsHostname
 (
 remote_candidate
 .
@@ -3442,7 +3428,6 @@ address
 hostname
 (
 )
-LOCAL_TLD
 )
 )
 {

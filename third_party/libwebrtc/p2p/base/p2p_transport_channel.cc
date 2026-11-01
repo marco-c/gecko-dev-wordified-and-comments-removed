@@ -119,17 +119,6 @@ absl
 /
 strings
 /
-match
-.
-h
-"
-#
-include
-"
-absl
-/
-strings
-/
 string_view
 .
 h
@@ -12088,10 +12077,7 @@ network_thread_
 bool
 use_hostname_address
 =
-absl
-:
-:
-EndsWith
+IsMdnsHostname
 (
 c
 .
@@ -12102,7 +12088,6 @@ address
 hostname
 (
 )
-LOCAL_TLD
 )
 ;
 use_hostname_address
