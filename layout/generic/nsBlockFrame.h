@@ -1862,6 +1862,11 @@ mBalancing
 =
 false
 ;
+bool
+mLineClamping
+=
+false
+;
 nscoord
 mInset
 =
@@ -2251,14 +2256,10 @@ LineClampTarget
 >
 FindLineClampAutoTarget
 (
-nscoord
-aContentBlockEndEdge
 const
 ReflowInput
 &
 aReflowInput
-nscoord
-aCollapsingBEndMargin
 nsBlockFrame
 *
 aLineClampRoot
@@ -2270,8 +2271,6 @@ LineClampTarget
 >
 FindLineClampNumberedTarget
 (
-nscoord
-aContentBlockEndEdge
 nscoord
 aCollapsingBEndMargin
 nsBlockFrame

@@ -616,11 +616,6 @@ mBlockDelta
 0
 ;
 nscoord
-mBOffsetToLineClampRoot
-=
-0
-;
-nscoord
 AvailableWidth
 (
 )
@@ -1585,7 +1580,7 @@ mShouldApplyTextBoxTrimAtFragmentEnd
 1
 ;
 bool
-mIsInLineClampContainer
+mDimensionsReadyForLineClampAuto
 :
 1
 ;
