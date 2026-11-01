@@ -284,10 +284,6 @@ patch
 .
 patch
 -
-05_always_store_rawnames
-.
-patch
--
 06_dont_ignore_undeclared_entity
 .
 patch
