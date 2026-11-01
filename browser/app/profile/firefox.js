@@ -27293,6 +27293,7 @@ redesign
 enabled
 "
 true
+locked
 )
 ;
 pref
