@@ -12955,6 +12955,7 @@ action
 create
 "
 ;
+await
 this
 .
 _updateStorageAfterInteractWithPrompt
