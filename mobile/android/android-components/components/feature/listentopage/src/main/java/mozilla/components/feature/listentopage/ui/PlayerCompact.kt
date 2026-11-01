@@ -702,6 +702,11 @@ modifier
 Modifier
 =
 Modifier
+isEnabled
+:
+Boolean
+=
+true
 )
 {
 AudioProgressBar
@@ -742,6 +747,9 @@ does
 not
 support
 seeking
+isEnabled
+=
+isEnabled
 )
 }
 PreviewLightDark
