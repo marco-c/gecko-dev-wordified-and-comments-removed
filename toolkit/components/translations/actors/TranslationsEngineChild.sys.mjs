@@ -305,12 +305,6 @@ ArrayBuffer
 )
 ;
 }
-/
-*
-global
-DecompressionStream
-*
-/
 const
 decompressionStream
 =
