@@ -588,6 +588,12 @@ ColorDepth
 aColorDepth
 )
 ;
+static
+bool
+ShouldDecodeInGPUProcess
+(
+)
+;
 #
 endif
 #

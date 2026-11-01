@@ -66,6 +66,17 @@ FFmpegLibWrapper
 aLib
 )
 ;
+#
+ifdef
+MOZ_WIDGET_ANDROID
+static
+bool
+ShouldEncodeInGPUProcess
+(
+)
+;
+#
+endif
 static
 already_AddRefed
 <
