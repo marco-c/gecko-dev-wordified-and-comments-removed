@@ -1524,6 +1524,11 @@ tier1FuncIndex
 FuncOffsets
 *
 offsets
+FaultingCodeRange
+*
+badSigTrap
+=
+nullptr
 )
 ;
 void
