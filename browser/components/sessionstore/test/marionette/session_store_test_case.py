@@ -201,6 +201,10 @@ DEFAULT_WINDOWS
 taskbartabs_enable
 =
 False
+        
+resume_from_crash
+=
+False
     
 )
 :
@@ -384,6 +388,16 @@ restore_on_demand
 "
 :
 restore_on_demand
+            
+"
+browser
+.
+sessionstore
+.
+resume_from_crash
+"
+:
+resume_from_crash
             
 "
 browser

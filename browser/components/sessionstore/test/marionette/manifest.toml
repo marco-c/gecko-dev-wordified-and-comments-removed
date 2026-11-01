@@ -222,6 +222,13 @@ py
 ]
 [
 "
+test_restore_saved_tab_groups
+.
+py
+"
+]
+[
+"
 test_restore_sidebar
 .
 py
