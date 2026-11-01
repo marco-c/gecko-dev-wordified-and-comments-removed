@@ -1156,6 +1156,13 @@ Init
 (
 )
 {
+if
+(
+XRE_IsParentProcess
+(
+)
+)
+{
 SSLTokensCache
 :
 :
@@ -1163,6 +1170,7 @@ Init
 (
 )
 ;
+}
 InitializeCaptivePortalService
 (
 )
@@ -8183,6 +8191,13 @@ mCaptivePortalService
 nullptr
 ;
 }
+if
+(
+XRE_IsParentProcess
+(
+)
+)
+{
 SSLTokensCache
 :
 :
@@ -8190,6 +8205,7 @@ Shutdown
 (
 )
 ;
+}
 DestroySocketProcess
 (
 )
