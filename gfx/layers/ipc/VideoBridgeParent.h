@@ -210,13 +210,6 @@ ipc
 IPCResult
 RecvGetTextureFactoryIdentifier
 (
-const
-dom
-:
-:
-ContentParentId
-&
-aContentId
 GetTextureFactoryIdentifierResolver
 &
 &

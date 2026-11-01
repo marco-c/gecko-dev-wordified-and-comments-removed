@@ -1236,12 +1236,6 @@ videoBridge
 >
 SendGetTextureFactoryIdentifier
 (
-mParent
--
->
-GetContentId
-(
-)
 )
 -
 >
@@ -1305,10 +1299,13 @@ IsResolve
 (
 )
 ?
+Some
+(
 aValue
 .
 ResolveValue
 (
+)
 )
 :
 Nothing
