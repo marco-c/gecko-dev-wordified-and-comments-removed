@@ -146,14 +146,6 @@ return
 0
 ;
 }
-void
-SetRetransmissionMode
-(
-int
-)
-override
-{
-}
 uint32_t
 fec_rate_bps_
 =
