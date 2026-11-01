@@ -216,6 +216,11 @@ Private
 >
 mLifetimePromise
 ;
+bool
+mRespondWithReceived
+=
+false
+;
 }
 ;
 }
