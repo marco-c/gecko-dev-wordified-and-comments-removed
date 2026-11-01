@@ -3913,6 +3913,14 @@ size
 )
 const
 ;
+void
+HintTexRenderTarget
+(
+GLenum
+texTarget
+)
+const
+;
 protected
 :
 bool
