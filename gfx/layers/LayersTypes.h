@@ -1899,6 +1899,7 @@ DMABuf
 MacIOSurface
 DcompSurface
 AndroidImageReaderImage
+AndroidSurfaceTexture
 )
 )
 ;

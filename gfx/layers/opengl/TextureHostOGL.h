@@ -1762,6 +1762,12 @@ return
 false
 ;
 }
+SurfaceDescriptor
+GetSurfaceDescriptor
+(
+)
+override
+;
 protected
 :
 mozilla
