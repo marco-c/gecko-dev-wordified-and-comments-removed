@@ -63,6 +63,15 @@ aFace
 )
 mIndex
 (
+aFace
+?
+aFace
+-
+>
+GetFaceIndex
+(
+)
+:
 0
 )
 {

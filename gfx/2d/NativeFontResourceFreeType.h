@@ -31,11 +31,6 @@ NativeFontResourceFreeType
 :
 public
 NativeFontResource
-public
-SharedFTFaceRefCountedData
-<
-NativeFontResourceFreeType
->
 {
 public
 :
@@ -60,10 +55,6 @@ uint8_t
 aFontData
 uint32_t
 aDataLength
-FT_Library
-aFTLibrary
-=
-nullptr
 )
 ;
 already_AddRefed
@@ -101,7 +92,6 @@ aFaceIndex
 =
 0
 )
-override
 ;
 protected
 :
@@ -115,10 +105,6 @@ uint8_t
 aFontData
 uint32_t
 aDataLength
-FT_Library
-aFTLibrary
-=
-nullptr
 )
 ;
 template
@@ -139,8 +125,6 @@ uint8_t
 aFontData
 uint32_t
 aDataLength
-FT_Library
-aFTLibrary
 )
 ;
 RefPtr
@@ -148,9 +132,6 @@ RefPtr
 FontData
 >
 mFontData
-;
-FT_Library
-mFTLibrary
 ;
 }
 ;
@@ -184,10 +165,6 @@ uint8_t
 aFontData
 uint32_t
 aDataLength
-FT_Library
-aFTLibrary
-=
-nullptr
 )
 ;
 already_AddRefed
@@ -223,10 +200,6 @@ uint8_t
 aFontData
 uint32_t
 aDataLength
-FT_Library
-aFTLibrary
-=
-nullptr
 )
 ;
 }
