@@ -358,6 +358,11 @@ GetVariationSettingsFromFace
 &
 variations
 mFace
+-
+>
+GetFace
+(
+)
 )
 ;
 }
@@ -625,6 +630,11 @@ GetVariationSettingsFromFace
 (
 aOutVariations
 mFace
+-
+>
+GetFace
+(
+)
 )
 ;
 }
