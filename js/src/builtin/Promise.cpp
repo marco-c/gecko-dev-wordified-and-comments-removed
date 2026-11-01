@@ -3157,7 +3157,7 @@ reject
 ;
 }
 class
-MicroTaskEntry
+PromiseJobObject
 :
 public
 NativeObject
@@ -3359,7 +3359,7 @@ class
 PromiseReactionRecord
 :
 public
-MicroTaskEntry
+PromiseJobObject
 {
 static
 constexpr
@@ -3424,7 +3424,7 @@ Slots
 {
 Promise
 =
-MicroTaskEntry
+PromiseJobObject
 :
 :
 Slots
@@ -3433,7 +3433,7 @@ Slots
 Promise
 IncumbentGlobalRepresentative
 =
-MicroTaskEntry
+PromiseJobObject
 :
 :
 Slots
@@ -3442,7 +3442,7 @@ Slots
 IncumbentGlobalRepresentative
 OptionalHostDefinedData
 =
-MicroTaskEntry
+PromiseJobObject
 :
 :
 Slots
@@ -3451,7 +3451,7 @@ Slots
 OptionalHostDefinedData
 EnqueueGlobalRepresentative
 =
-MicroTaskEntry
+PromiseJobObject
 :
 :
 Slots
@@ -4537,10 +4537,10 @@ SlotCount
 }
 ;
 class
-ThenableJob
+ThenableJobObject
 :
 public
-MicroTaskEntry
+PromiseJobObject
 {
 protected
 :
@@ -4549,7 +4549,7 @@ Slots
 {
 Thenable
 =
-MicroTaskEntry
+PromiseJobObject
 :
 :
 Slots
@@ -4656,7 +4656,7 @@ JSObject
 :
 is
 <
-MicroTaskEntry
+PromiseJobObject
 >
 (
 )
@@ -4665,7 +4665,7 @@ const
 return
 is
 <
-ThenableJob
+ThenableJobObject
 >
 (
 )
@@ -4681,25 +4681,25 @@ PromiseReactionRecord
 }
 const
 JSClass
-ThenableJob
+ThenableJobObject
 :
 :
 class_
 =
 {
 "
-ThenableJob
+ThenableJobObject
 "
 JSCLASS_HAS_RESERVED_SLOTS
 (
-ThenableJob
+ThenableJobObject
 :
 :
 SlotCount
 )
 }
 ;
-ThenableJob
+ThenableJobObject
 *
 NewThenableJob
 (
@@ -4768,7 +4768,7 @@ job
 =
 NewBuiltinClassInstance
 <
-ThenableJob
+ThenableJobObject
 >
 (
 cx
@@ -6625,7 +6625,7 @@ unwrapped
 >
 is
 <
-MicroTaskEntry
+PromiseJobObject
 >
 (
 )
@@ -11503,7 +11503,7 @@ return
 false
 ;
 }
-ThenableJob
+ThenableJobObject
 *
 thenableJob
 =
@@ -11662,7 +11662,7 @@ thenable
 )
 )
 ;
-ThenableJob
+ThenableJobObject
 *
 thenableJob
 =
@@ -12208,7 +12208,7 @@ cx
 promise
 )
 ;
-ThenableJob
+ThenableJobObject
 *
 job
 =
@@ -32119,7 +32119,7 @@ Kind
 ResolveThenable
 :
 {
-ThenableJob
+ThenableJobObject
 *
 job
 =
@@ -32129,7 +32129,7 @@ unwrappedTask
 >
 as
 <
-ThenableJob
+ThenableJobObject
 >
 (
 )
@@ -32204,7 +32204,7 @@ Kind
 ResolveBuiltinThenable
 :
 {
-ThenableJob
+ThenableJobObject
 *
 job
 =
@@ -32214,7 +32214,7 @@ unwrappedTask
 >
 as
 <
-ThenableJob
+ThenableJobObject
 >
 (
 )
@@ -32277,7 +32277,7 @@ Kind
 DeferredResolve
 :
 {
-ThenableJob
+ThenableJobObject
 *
 job
 =
@@ -32287,7 +32287,7 @@ unwrappedTask
 >
 as
 <
-ThenableJob
+ThenableJobObject
 >
 (
 )
@@ -32443,7 +32443,7 @@ task
 >
 is
 <
-MicroTaskEntry
+PromiseJobObject
 >
 (
 )
@@ -32458,7 +32458,7 @@ task
 >
 as
 <
-MicroTaskEntry
+PromiseJobObject
 >
 (
 )
@@ -32591,7 +32591,7 @@ task
 >
 is
 <
-MicroTaskEntry
+PromiseJobObject
 >
 (
 )
@@ -32606,7 +32606,7 @@ task
 >
 as
 <
-MicroTaskEntry
+PromiseJobObject
 >
 (
 )
@@ -32628,7 +32628,7 @@ task
 >
 as
 <
-MicroTaskEntry
+PromiseJobObject
 >
 (
 )
@@ -32854,7 +32854,7 @@ unwrapped
 >
 is
 <
-ThenableJob
+ThenableJobObject
 >
 (
 )
@@ -32945,7 +32945,7 @@ unwrapped
 >
 is
 <
-MicroTaskEntry
+PromiseJobObject
 >
 (
 )
@@ -32957,7 +32957,7 @@ unwrapped
 >
 as
 <
-MicroTaskEntry
+PromiseJobObject
 >
 (
 )
