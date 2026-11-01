@@ -6,7 +6,7 @@ python
 =
 3
 .
-11
+12
 #
 The
 following
@@ -37,9 +37,9 @@ Sphinx
 =
 9
 .
-0
+1
 .
-4
+0
 pypi
 :
 boto3
