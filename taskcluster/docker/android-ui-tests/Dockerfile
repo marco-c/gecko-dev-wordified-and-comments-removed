@@ -50,6 +50,17 @@ builds
 worker
 /
 workspace
+VOLUME
+/
+builds
+/
+worker
+/
+gradle
+-
+user
+-
+home
 ENV
 CURL
 =

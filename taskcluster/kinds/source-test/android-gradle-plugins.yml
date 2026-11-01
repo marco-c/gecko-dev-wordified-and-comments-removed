@@ -60,6 +60,13 @@ task
 -
 defaults
 :
+use
+-
+gradle
+-
+cache
+:
+true
 attributes
 :
 build_platform

@@ -122,6 +122,13 @@ type
 [
 hg
 ]
+use
+-
+gradle
+-
+cache
+:
+true
 attributes
 :
 build_platform

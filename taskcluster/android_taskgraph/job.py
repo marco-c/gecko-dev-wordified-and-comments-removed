@@ -20,6 +20,16 @@ import
 configure_taskdesc_for_run
 run_job_using
 from
+gecko_taskgraph
+.
+transforms
+.
+job
+.
+common
+import
+add_gradle
+from
 taskgraph
 .
 util
@@ -684,30 +694,6 @@ linux
 )
         
 "
-GRADLE_USER_HOME
-"
-:
-path
-.
-join
-(
-            
-topsrc_dir
-"
-mobile
-/
-android
-/
-gradle
-/
-dotgradle
--
-offline
-"
-        
-)
-        
-"
 MOZ_BUILD_DATE
 "
 :
@@ -721,6 +707,16 @@ moz_build_date
 ]
     
 }
+)
+    
+add_gradle
+(
+config
+job
+taskdesc
+"
+offline
+"
 )
     
 geckoview
@@ -1208,30 +1204,6 @@ linux
 )
         
 "
-GRADLE_USER_HOME
-"
-:
-path
-.
-join
-(
-            
-topsrc_dir
-"
-mobile
-/
-android
-/
-gradle
-/
-dotgradle
--
-offline
-"
-        
-)
-        
-"
 MOZ_BUILD_DATE
 "
 :
@@ -1245,6 +1217,16 @@ moz_build_date
 ]
     
 }
+)
+    
+add_gradle
+(
+config
+job
+taskdesc
+"
+offline
+"
 )
     
 worker

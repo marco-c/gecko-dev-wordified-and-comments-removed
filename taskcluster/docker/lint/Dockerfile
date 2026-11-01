@@ -52,6 +52,17 @@ builds
 worker
 /
 checkouts
+VOLUME
+/
+builds
+/
+worker
+/
+gradle
+-
+user
+-
+home
 #
 We
 do

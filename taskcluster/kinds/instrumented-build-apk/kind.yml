@@ -118,6 +118,13 @@ type
 [
 hg
 ]
+use
+-
+gradle
+-
+cache
+:
+true
 fetches
 :
 toolchain
