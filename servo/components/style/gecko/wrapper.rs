@@ -8538,14 +8538,14 @@ implemented_pseudo_element
 &
 pseudo
 .
-animations_stored_in_parent
+animations_stored_in_originating_element
 (
 )
 {
 return
 self
 .
-parent_element
+pseudo_element_originating_element
 (
 )
 .
