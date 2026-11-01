@@ -146,6 +146,12 @@ icons
 '
 )
 implementation
+libs
+.
+androidx
+.
+fragment
+implementation
 platform
 (
 libs
@@ -198,6 +204,14 @@ ui
 tooling
 .
 preview
+implementation
+libs
+.
+androidx
+.
+lifecycle
+.
+compose
 debugImplementation
 libs
 .
