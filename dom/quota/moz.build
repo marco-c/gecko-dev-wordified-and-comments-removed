@@ -410,6 +410,11 @@ IPCStreamCipherStrategy
 h
 "
 "
+LockstoreStorageKeyProvider
+.
+h
+"
+"
 MozPromiseUtils
 .
 h
@@ -725,6 +730,11 @@ InitializationTypes
 cpp
 "
 "
+LockstoreStorageKeyProvider
+.
+cpp
+"
+"
 NormalOriginOperationBase
 .
 cpp
@@ -1002,6 +1012,12 @@ dom
 fs
 /
 include
+"
+"
+/
+security
+/
+lockstore
 "
 ]
 SOURCE_HEADERS
