@@ -130,6 +130,7 @@ librsvg2
 -
 common
 flatpak
+dbus
 ostree
 appstream
 -
