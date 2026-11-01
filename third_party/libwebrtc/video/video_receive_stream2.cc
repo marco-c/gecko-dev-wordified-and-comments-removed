@@ -3341,19 +3341,6 @@ old_decoder
 old_decoders
 )
 {
-if
-(
-!
-absl
-:
-:
-c_linear_search
-(
-new_decoders
-old_decoder
-)
-)
-{
 video_receiver_
 .
 RegisterExternalDecoder
@@ -3364,7 +3351,6 @@ old_decoder
 payload_type
 )
 ;
-}
 }
 video_receiver_
 .
