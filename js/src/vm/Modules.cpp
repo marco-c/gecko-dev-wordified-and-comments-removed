@@ -3588,7 +3588,7 @@ hasSyntheticModuleFields
 |
 module
 .
-isSourcePhaseModule
+isWasmModule
 (
 )
 )
