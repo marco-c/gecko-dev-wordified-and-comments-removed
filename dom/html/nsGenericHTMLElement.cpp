@@ -6069,6 +6069,14 @@ aResult
 {
 if
 (
+aAttribute
+-
+>
+IsStatic
+(
+)
+&
+&
 aNamespaceID
 =
 =
