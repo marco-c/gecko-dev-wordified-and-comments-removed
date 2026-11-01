@@ -77,17 +77,6 @@ tests
 browser
 /
 browser
--
-legacy
-.
-toml
-"
-"
-tests
-/
-browser
-/
-browser
 .
 toml
 "
