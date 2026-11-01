@@ -670,7 +670,7 @@ _aTimer
 let
 continueFile
 =
-getTestDataFile
+getContinueFile
 (
 CONTINUE_DOWNLOAD
 )
@@ -1428,7 +1428,7 @@ retries
 let
 continueFile
 =
-getTestDataFile
+getContinueFile
 (
 CONTINUE_CHECK
 )
