@@ -6358,6 +6358,7 @@ isWidgetInSidebar
 (
 w
 prefs
+widgetsEnabled
 )
 &
 &
