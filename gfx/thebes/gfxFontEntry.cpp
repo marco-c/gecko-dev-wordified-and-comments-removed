@@ -1512,6 +1512,13 @@ return
 nullptr
 ;
 }
+newFont
+-
+>
+InitMetrics
+(
+)
+;
 if
 (
 !

@@ -741,6 +741,9 @@ random
 if
 (
 gtkWidget
+|
+|
+winWidget
 )
 =
 =
@@ -756,6 +759,14 @@ html
 ref
 .
 html
+#
+depends
+heavily
+on
+hinting
+/
+antialiasing
+settings
 fuzzy
 -
 if

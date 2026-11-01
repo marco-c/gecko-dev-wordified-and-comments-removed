@@ -707,6 +707,10 @@ InitSkrifaFontFace
 (
 )
 override
+MOZ_REQUIRES
+(
+mLock
+)
 ;
 #
 endif
@@ -749,7 +753,6 @@ aTableTag
 )
 override
 ;
-virtual
 nsresult
 CopyFontTable
 (
@@ -764,7 +767,6 @@ aBuffer
 )
 override
 ;
-virtual
 gfxFont
 *
 CreateFontInstance
@@ -774,6 +776,7 @@ gfxFontStyle
 *
 aFontStyle
 )
+override
 ;
 nsresult
 CreateFontFace

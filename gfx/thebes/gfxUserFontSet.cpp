@@ -4499,6 +4499,7 @@ if
 skf
 )
 {
+MOZ_PUSH_IGNORE_THREAD_SAFETY
 fe
 -
 >
@@ -4507,6 +4508,7 @@ SetSkrifaFont
 skf
 )
 ;
+MOZ_POP_THREAD_SAFETY
 #
 if
 NIGHTLY_BUILD

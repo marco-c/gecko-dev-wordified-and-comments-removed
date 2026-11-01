@@ -188,6 +188,10 @@ InitSkrifaFontFace
 (
 )
 override
+MOZ_REQUIRES
+(
+mLock
+)
 ;
 #
 endif
