@@ -115,6 +115,8 @@ nsACString
 aStorageOrigin
 bool
 aIsPrivate
+bool
+aIsEncrypted
 const
 ClientUsageArray
 &
@@ -240,6 +242,16 @@ const
 {
 return
 mIsPrivate
+;
+}
+bool
+IsEncrypted
+(
+)
+const
+{
+return
+mIsEncrypted
 ;
 }
 bool
@@ -588,6 +600,9 @@ mMaintenanceDate
 ;
 bool
 mIsPrivate
+;
+bool
+mIsEncrypted
 ;
 bool
 mAccessed
