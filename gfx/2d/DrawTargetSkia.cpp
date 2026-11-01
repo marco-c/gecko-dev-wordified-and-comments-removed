@@ -5414,7 +5414,7 @@ OP_SOURCE
 )
 {
 const
-SurfacePattern
+auto
 &
 pat
 =
@@ -5436,6 +5436,13 @@ mSurface
 &
 &
 (
+!
+IsBackedByPixels
+(
+mCanvas
+)
+|
+|
 aOptions
 .
 mCompositionOp
