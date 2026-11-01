@@ -3033,6 +3033,13 @@ context
 scope
 =
 applicationScope
+profiler
+=
+core
+.
+engine
+.
+profiler
 )
 }
 val
