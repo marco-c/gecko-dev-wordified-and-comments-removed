@@ -5276,8 +5276,10 @@ IsEmpty
 )
 )
 {
-NS_WARNING
+NS_WARNING_ASSERTION
 (
+!
+aUsePNP
 "
 Caller
 should
