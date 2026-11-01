@@ -1219,7 +1219,7 @@ await
 openPreferencesViaOpenPreferencesAPI
 (
 "
-panePrivacy
+etp
 "
 {
 leaveOpen
@@ -1247,11 +1247,11 @@ about
 :
 preferences
 #
-privacy
+etp
 "
 "
 #
-privacy
+etp
 should
 be
 in
@@ -1384,6 +1384,10 @@ selectedTab
 )
 ;
 }
+)
+.
+skip
+(
 )
 ;
 add_task
