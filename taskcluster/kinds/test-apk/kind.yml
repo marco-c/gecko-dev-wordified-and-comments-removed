@@ -443,6 +443,12 @@ clean
 '
 testDebugUnitTest
 '
+'
+-
+PtestForks
+=
+3
+'
 ]
 treeherder
 :
@@ -468,6 +474,13 @@ T
 tier
 :
 1
+worker
+-
+type
+:
+b
+-
+linux
 worker
 :
 artifacts
