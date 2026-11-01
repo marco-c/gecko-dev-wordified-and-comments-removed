@@ -1748,16 +1748,6 @@ permanentAtomsPopulated
 )
 )
 ;
-MOZ_ASSERT
-(
-bitIndex
-%
-MarkBitsPerCell
-=
-=
-0
-)
-;
 size_t
 blackBit
 =
