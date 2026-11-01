@@ -615,6 +615,13 @@ test
 "
 [
 "
+marFailureCompleteStaleBackup
+.
+js
+"
+]
+[
+"
 marFailurePartial
 .
 js
