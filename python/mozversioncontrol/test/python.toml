@@ -71,6 +71,13 @@ py
 ]
 [
 "
+test_get_tracked_files
+.
+py
+"
+]
+[
+"
 test_get_upstream_remotes
 .
 py
