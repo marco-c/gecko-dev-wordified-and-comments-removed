@@ -189,6 +189,8 @@ withNewTab
 about
 :
 preferences
+#
+about
 "
 browser
 =
