@@ -7,7 +7,7 @@ add_task
 (
 async
 function
-test_siteDataSize_srd
+test_siteDataSize
 (
 )
 {
@@ -65,7 +65,6 @@ element
 should
 exist
 in
-SRD
 pane
 "
 )
