@@ -70,6 +70,15 @@ include
 "
 mozilla
 /
+SVGImageContext
+.
+h
+"
+#
+include
+"
+mozilla
+/
 SVGIntegrationUtils
 .
 h
