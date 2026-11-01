@@ -23759,10 +23759,6 @@ deps
 [
 "
 :
-media_stream
-"
-"
-:
 pc_test_utils
 "
 "
@@ -23788,10 +23784,6 @@ scoped_operations_batcher
 "
 :
 sctp_data_channel
-"
-"
-:
-stream_collection
 "
 "
 :
