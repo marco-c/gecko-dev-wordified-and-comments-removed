@@ -494,9 +494,11 @@ selectPromise
 ;
 BrowserTestUtils
 .
-synthesizeMouseAtCenter
+synthesizeMouse
 (
 browser
+60
+10
 {
 type
 :
