@@ -1657,6 +1657,12 @@ front
 (
 )
 ;
+mChangeIndexList
+.
+pop_front
+(
+)
+;
 RefPtr
 <
 BlockChange
@@ -1756,12 +1762,6 @@ blockIndex
 ;
 }
 }
-mChangeIndexList
-.
-pop_front
-(
-)
-;
 if
 (
 mBlockChanges
