@@ -168,6 +168,12 @@ return
 mFrame
 ;
 }
+FrameAndOffset
+GetNonGeneratedFrameAndOffset
+(
+)
+const
+;
 nsIFrame
 *
 mFrame
