@@ -514,6 +514,18 @@ _import_session
 (
 )
         
+self
+.
+mkdir_p
+(
+dirs
+[
+"
+abs_blob_upload_dir
+"
+]
+)
+        
 server
 =
 self

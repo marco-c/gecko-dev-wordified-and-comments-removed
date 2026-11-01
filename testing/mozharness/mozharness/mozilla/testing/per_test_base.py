@@ -4838,6 +4838,16 @@ test_summary_started
 =
 True
             
+os
+.
+makedirs
+(
+dir
+exist_ok
+=
+True
+)
+            
 open
 (
 path
