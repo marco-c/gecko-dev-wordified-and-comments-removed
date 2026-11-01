@@ -15072,7 +15072,7 @@ content
 Stubs
 UrlbarShared
 .
-_zonedDateTimeISO
+zonedDateTimeISO
 (
 )
 .
@@ -15250,7 +15250,7 @@ stub
 (
 UrlbarShared
 "
-_zonedDateTimeISO
+zonedDateTimeISO
 "
 )
 ;

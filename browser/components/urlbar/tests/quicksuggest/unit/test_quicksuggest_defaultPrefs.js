@@ -140,6 +140,13 @@ featureGate
 :
 false
 "
+temporal
+.
+featureGate
+"
+:
+false
+"
 weather
 .
 featureGate
