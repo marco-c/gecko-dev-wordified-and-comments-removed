@@ -126,6 +126,11 @@ pathhash
 h
 "
 "
+PostUpdateEnvironment
+.
+h
+"
+"
 uachelper
 .
 h
@@ -274,6 +279,11 @@ cpp
 "
 "
 pathhash
+.
+cpp
+"
+"
+PostUpdateEnvironment
 .
 cpp
 "

@@ -173,6 +173,11 @@ EnterprisePoliciesTests
 cpp
 "
 "
+PostUpdateEnvironmentTests
+.
+cpp
+"
+"
 TestDirHelpers
 .
 cpp
@@ -213,6 +218,9 @@ OS_LIBS
 [
 "
 shlwapi
+"
+"
+userenv
 "
 "
 uuid
