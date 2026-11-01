@@ -2029,13 +2029,15 @@ holiday
 promo
 -
 title
+-
+1
 =
 Get
 unlimited
 VPN
 until
 January
-30
+31
 ipprotection
 -
 holiday
