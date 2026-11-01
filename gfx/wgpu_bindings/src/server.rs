@@ -16183,9 +16183,6 @@ handles
 [
 VkSemaphoreHandle
 ]
-submission_errored
-:
-bool
 )
 {
 use
@@ -16249,8 +16246,6 @@ collect
 (
 )
 ;
-if
-submission_errored
 {
 let
 queue
@@ -16568,8 +16563,6 @@ as_slice
 (
 )
 }
-!
-submission_succeeded
 )
 ;
 #
