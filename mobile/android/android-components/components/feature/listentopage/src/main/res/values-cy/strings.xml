@@ -1083,11 +1083,7 @@ mozac_feature_listentopage_private_tab_site
 "
 >
 Gwefan
-wedi
-\
-'
-i
-chuddio
+gudd
 <
 /
 string
@@ -1241,7 +1237,7 @@ name
 mozac_feature_listentopage_dropdown_voice_collapsed
 "
 >
-Caeedig
+Cau
 <
 /
 string
@@ -1292,7 +1288,7 @@ mozac_feature_listentopage_playback_speed_collapsed
 %
 1
 s
-crebachu
+cau
 <
 /
 string
@@ -1334,7 +1330,7 @@ name
 mozac_feature_listentopage_dropdown_expanded
 "
 >
-Ehangwyd
+Ehangu
 <
 /
 string
