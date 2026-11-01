@@ -1581,6 +1581,15 @@ path
 :
 :
 Path
+box_shadows
+:
+crate
+:
+:
+interned_prims
+:
+:
+BoxShadowKey
 }
 }
 }

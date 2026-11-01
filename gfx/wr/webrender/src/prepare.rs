@@ -1608,9 +1608,7 @@ PrimitiveKind
 :
 BoxShadow
 {
-data_handle
-.
-.
+handle
 }
 =
 >
@@ -1630,12 +1628,12 @@ let
 prim_data
 =
 &
-data_stores
+dl_stores
 .
-box_shadow
+box_shadows
 [
 *
-data_handle
+handle
 ]
 ;
 prepare_box_shadow
