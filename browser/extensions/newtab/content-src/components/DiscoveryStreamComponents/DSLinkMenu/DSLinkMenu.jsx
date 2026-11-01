@@ -645,6 +645,13 @@ this
 props
 .
 flightId
+dwell_label
+:
+this
+.
+props
+.
+dwellLabel
 tile_id
 :
 this
