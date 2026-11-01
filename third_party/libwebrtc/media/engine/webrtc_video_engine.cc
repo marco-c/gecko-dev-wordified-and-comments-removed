@@ -4745,6 +4745,7 @@ vector
 <
 VideoCodecSettings
 >
+&
 negotiated_codecs
 std
 :
@@ -4891,7 +4892,9 @@ negotiated_codecs
 &
 ]
 (
+const
 auto
+&
 negotiated_codec
 )
 {
@@ -6690,6 +6693,7 @@ return
 false
 ;
 }
+const
 std
 :
 :
@@ -6697,6 +6701,7 @@ vector
 <
 VideoCodecSettings
 >
+&
 mapped_codecs
 =
 result
@@ -6861,7 +6866,9 @@ negotiated_codecs
 &
 ]
 (
+const
 auto
+&
 negotiated_codec
 )
 {
@@ -7138,7 +7145,9 @@ negotiated_codecs
 &
 ]
 (
+const
 auto
+&
 negotiated_codec
 )
 {
@@ -13639,7 +13648,13 @@ config
 .
 frame_encryptor
 =
+std
+:
+:
+move
+(
 frame_encryptor
+)
 ;
 if
 (
@@ -15558,7 +15573,9 @@ end
 ssrc
 ]
 (
+const
 auto
+&
 stream_config
 )
 {
@@ -17992,6 +18009,7 @@ vector
 <
 VideoCodecSettings
 >
+&
 mapped_codecs
 =
 result
@@ -22653,7 +22671,13 @@ stream_
 >
 SetFrameDecryptor
 (
+std
+:
+:
+move
+(
 frame_decryptor
+)
 )
 ;
 }
@@ -24019,7 +24043,13 @@ stream_
 >
 SetDepacketizerToDecoderFrameTransformer
 (
+std
+:
+:
+move
+(
 frame_transformer
+)
 )
 ;
 }
