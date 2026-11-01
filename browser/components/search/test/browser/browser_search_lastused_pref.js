@@ -21,6 +21,15 @@ function
 (
 )
 {
+Services
+.
+prefs
+.
+clearUserPref
+(
+LAST_USED_PREF
+)
+;
 await
 SearchTestUtils
 .
