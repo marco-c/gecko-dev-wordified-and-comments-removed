@@ -38253,7 +38253,7 @@ WarpCacheIRTranspiler
 emitAssertNoAllocationMetadataBuilder
 (
 uint32_t
-builderAddrOffset
+hasBuilderAddrOffset
 )
 {
 return
