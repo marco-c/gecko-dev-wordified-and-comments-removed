@@ -382,6 +382,13 @@ clearAll
 (
 )
 ;
+await
+btp
+.
+testFlushStorage
+(
+)
+;
 let
 count
 =
