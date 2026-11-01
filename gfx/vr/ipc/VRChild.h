@@ -266,8 +266,10 @@ VRChild
 (
 )
 ;
+RefPtr
+<
 VRProcessParent
-*
+>
 mHost
 ;
 UniquePtr

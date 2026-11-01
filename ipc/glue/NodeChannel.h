@@ -114,15 +114,6 @@ UniquePtr
 h
 "
 #
-include
-"
-mozilla
-/
-WeakPtr
-.
-h
-"
-#
 ifdef
 FUZZING_SNAPSHOT
 #
@@ -666,7 +657,7 @@ false
 ;
 #
 endif
-WeakPtr
+ThreadSafeWeakPtr
 <
 mozilla
 :

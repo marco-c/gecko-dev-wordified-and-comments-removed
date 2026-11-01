@@ -6877,8 +6877,10 @@ aBrowsingContext
 ;
 private
 :
+RefPtr
+<
 GeckoChildProcessHost
-*
+>
 mSubprocess
 ;
 const

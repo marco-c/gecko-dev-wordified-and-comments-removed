@@ -1470,8 +1470,10 @@ mDeviceResetLastTime
 bool
 mAppInForeground
 ;
+RefPtr
+<
 GPUProcessHost
-*
+>
 mProcess
 ;
 uint64_t
