@@ -1542,3 +1542,16 @@ load
 2075736
 .
 html
+pref
+(
+ui
+.
+caretBlinkTime
+0
+)
+load
+1805333
+-
+1
+.
+html
