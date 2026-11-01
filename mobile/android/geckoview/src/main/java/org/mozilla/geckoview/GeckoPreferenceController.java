@@ -136,6 +136,12 @@ public
 class
 GeckoPreferenceController
 {
+public
+GeckoPreferenceController
+(
+)
+{
+}
 private
 static
 final
@@ -1407,6 +1413,12 @@ final
 class
 Observer
 {
+public
+Observer
+(
+)
+{
+}
 private
 static
 final

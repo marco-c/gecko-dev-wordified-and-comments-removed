@@ -1806,6 +1806,12 @@ class
 Feature
 {
 public
+Feature
+(
+)
+{
+}
+public
 static
 final
 long

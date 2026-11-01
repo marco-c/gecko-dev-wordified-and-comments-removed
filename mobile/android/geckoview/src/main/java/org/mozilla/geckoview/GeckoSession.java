@@ -10674,6 +10674,12 @@ static
 class
 Loader
 {
+public
+Loader
+(
+)
+{
+}
 private
 String
 mUri
@@ -19518,6 +19524,12 @@ final
 class
 IdentityCredential
 {
+public
+IdentityCredential
+(
+)
+{
+}
 public
 static
 class

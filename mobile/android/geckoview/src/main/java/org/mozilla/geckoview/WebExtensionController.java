@@ -2983,6 +2983,12 @@ class
 EnableSource
 {
 public
+EnableSource
+(
+)
+{
+}
+public
 static
 final
 int

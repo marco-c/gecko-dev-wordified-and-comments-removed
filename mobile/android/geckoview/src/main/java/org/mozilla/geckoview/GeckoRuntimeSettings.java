@@ -221,6 +221,12 @@ Builder
 GeckoRuntimeSettings
 >
 {
+public
+Builder
+(
+)
+{
+}
 Override
 protected
 NonNull

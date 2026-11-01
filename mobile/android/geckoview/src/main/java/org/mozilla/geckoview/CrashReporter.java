@@ -215,6 +215,12 @@ public
 class
 CrashReporter
 {
+public
+CrashReporter
+(
+)
+{
+}
 private
 static
 final

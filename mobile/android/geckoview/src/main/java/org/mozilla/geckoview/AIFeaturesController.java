@@ -115,6 +115,12 @@ public
 class
 AIFeaturesController
 {
+public
+AIFeaturesController
+(
+)
+{
+}
 private
 static
 final
@@ -138,6 +144,12 @@ static
 class
 RuntimeAIFeatures
 {
+public
+RuntimeAIFeatures
+(
+)
+{
+}
 private
 static
 final

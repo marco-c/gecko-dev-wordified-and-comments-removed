@@ -58,6 +58,12 @@ class
 PictureInPictureController
 {
 public
+PictureInPictureController
+(
+)
+{
+}
+public
 static
 class
 SessionPictureInPicture

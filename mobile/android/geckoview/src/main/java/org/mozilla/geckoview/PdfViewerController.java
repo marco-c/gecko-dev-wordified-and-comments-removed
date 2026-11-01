@@ -73,6 +73,12 @@ public
 class
 PdfViewerController
 {
+public
+PdfViewerController
+(
+)
+{
+}
 ExperimentalGeckoViewApi
 public
 static

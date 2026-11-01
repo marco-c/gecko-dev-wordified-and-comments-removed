@@ -79,6 +79,12 @@ public
 class
 CrashPullController
 {
+public
+CrashPullController
+(
+)
+{
+}
 private
 static
 final

@@ -213,6 +213,12 @@ public
 class
 Autofill
 {
+public
+Autofill
+(
+)
+{
+}
 private
 static
 final

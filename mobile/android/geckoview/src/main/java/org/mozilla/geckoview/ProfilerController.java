@@ -40,6 +40,12 @@ public
 class
 ProfilerController
 {
+public
+ProfilerController
+(
+)
+{
+}
 private
 static
 final

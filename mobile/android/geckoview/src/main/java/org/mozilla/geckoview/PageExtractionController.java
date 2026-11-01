@@ -40,6 +40,12 @@ class
 PageExtractionController
 {
 public
+PageExtractionController
+(
+)
+{
+}
+public
 static
 class
 PageMetadata
