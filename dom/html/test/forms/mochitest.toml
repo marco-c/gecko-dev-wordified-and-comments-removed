@@ -107,6 +107,13 @@ html
 ]
 [
 "
+test_bug2068351
+.
+html
+"
+]
+[
+"
 test_button_attributes_reflection
 .
 html
