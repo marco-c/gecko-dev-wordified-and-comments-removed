@@ -318,12 +318,6 @@ png
 #
 Bug
 2024599
-skip
--
-if
-(
-isolated_process
-)
 fuzzy
 -
 if
@@ -526,12 +520,6 @@ winWidget
 &
 isCoverageBuild
 )
-skip
--
-if
-(
-isolated_process
-)
 fuzzy
 (
 0
@@ -636,11 +624,6 @@ webm
 #
 Bug
 1934894
-Bug
-1709923
-for
-isolated
-process
 skip
 -
 if

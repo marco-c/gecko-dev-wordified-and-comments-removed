@@ -891,12 +891,6 @@ bug
 1558285
 for
 geckoview
-skip
--
-if
-(
-isolated_process
-)
 fuzzy
 (
 0
@@ -939,13 +933,6 @@ html
 #
 bug
 1558285
-for
-geckoview
-bug
-1709923
-for
-isolated
-process
 =
 =
 bug1512297
