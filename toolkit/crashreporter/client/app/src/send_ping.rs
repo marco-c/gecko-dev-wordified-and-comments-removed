@@ -22,6 +22,10 @@ crate
 :
 :
 {
+config
+:
+:
+installation_path
 glean
 logging
 net
@@ -353,6 +357,15 @@ Prefs
 :
 default
 (
+)
+;
+prefs
+.
+update_from_app_dir
+(
+installation_path
+(
+)
 )
 ;
 if
