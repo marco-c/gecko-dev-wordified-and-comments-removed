@@ -88,6 +88,7 @@ react
 import
 {
 useSelector
+batch
 }
 from
 "
@@ -2451,6 +2452,13 @@ size
 =
 >
 {
+batch
+(
+(
+)
+=
+>
+{
 dispatch
 (
 ac
@@ -2499,6 +2507,9 @@ size
 ;
 handleInteraction
 (
+)
+;
+}
 )
 ;
 }

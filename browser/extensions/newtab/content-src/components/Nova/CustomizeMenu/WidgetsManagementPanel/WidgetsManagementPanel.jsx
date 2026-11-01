@@ -90,6 +90,7 @@ react
 ;
 import
 {
+batch
 useDispatch
 useSelector
 }
@@ -449,6 +450,13 @@ target
 .
 pressed
 ;
+batch
+(
+(
+)
+=
+>
+{
 dispatch
 (
 ac
@@ -528,6 +536,9 @@ widget
 .
 enabledPref
 value
+)
+;
+}
 )
 ;
 }
