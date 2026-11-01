@@ -52,6 +52,13 @@ js
 ]
 [
 "
+test_DownloadsViewUI_getCommandNamesFrom
+.
+js
+"
+]
+[
+"
 test_DownloadsViewableInternally
 .
 js
