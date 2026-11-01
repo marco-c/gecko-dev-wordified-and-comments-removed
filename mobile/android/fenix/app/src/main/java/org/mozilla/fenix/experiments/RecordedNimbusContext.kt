@@ -377,8 +377,6 @@ DAYS_OPENED_IN_LAST_28
 to
 "
 '
-events
-.
 app_opened
 '
 |
