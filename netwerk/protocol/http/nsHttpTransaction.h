@@ -918,6 +918,17 @@ return
 mIsForWebTransport
 ;
 }
+void
+GetWebTransportAnticipatedStreams
+(
+uint16_t
+*
+aUni
+uint16_t
+*
+aBidi
+)
+;
 bool
 IsResettingForTunnelConn
 (
