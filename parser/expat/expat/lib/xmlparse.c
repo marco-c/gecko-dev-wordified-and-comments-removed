@@ -10819,6 +10819,9 @@ XML_PARAM_ENTITY_PARSING_NEVER
 #
 endif
 }
+#
+if
+0
 XML_NONTESTING_STATIC
 int
 xmlSetHashSalt
@@ -10972,6 +10975,8 @@ hash_salt
 )
 ;
 }
+#
+endif
 XML_Bool
 XMLCALL
 XML_SetHashSalt16Bytes
