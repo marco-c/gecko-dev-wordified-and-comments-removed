@@ -639,6 +639,13 @@ const
 EditorDOMPointType
 &
 aPointToInsert
+const
+Maybe
+<
+EditorLineBreak
+>
+&
+aExtantUnnecessaryLineBreak
 InsertTextTo
 aInsertTextTo
 const
@@ -659,6 +666,7 @@ EditorDOMRange
 (
 aPointToInsert
 )
+aExtantUnnecessaryLineBreak
 aInsertTextTo
 InsertTextFor
 :
@@ -693,6 +701,13 @@ const
 EditorDOMRange
 &
 aCompositionStringRange
+const
+Maybe
+<
+EditorLineBreak
+>
+&
+aExtantUnnecessaryLineBreak
 InsertTextFor
 aPurpose
 const
@@ -718,6 +733,7 @@ InsertTextOrInsertOrUpdateCompositionString
 aHTMLEditor
 aCompositionString
 aCompositionStringRange
+aExtantUnnecessaryLineBreak
 HTMLEditor
 :
 :
@@ -944,6 +960,13 @@ const
 EditorDOMRange
 &
 aRangeToBeReplaced
+const
+Maybe
+<
+EditorLineBreak
+>
+&
+aExtantUnnecessaryLineBreak
 InsertTextTo
 aInsertTextTo
 InsertTextFor

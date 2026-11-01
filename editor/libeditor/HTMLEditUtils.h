@@ -3685,8 +3685,8 @@ const
 nsIContent
 &
 aContent
-PaddingForEmptyBlock
-aPaddingForEmptyBlock
+TreatAsUnnecessaryLineBreak
+aTreatAsUnnecessaryLineBreak
 const
 Element
 *
@@ -3726,7 +3726,7 @@ IsUnnecessaryBRElement
 (
 *
 brElement
-aPaddingForEmptyBlock
+aTreatAsUnnecessaryLineBreak
 aAncestorLimiter
 aFollowingBlockBoundaryElement
 )
@@ -3748,8 +3748,7 @@ dom
 HTMLBRElement
 &
 aBRElement
-PaddingForEmptyBlock
-aPaddingForEmptyBlock
+TreatAsUnnecessaryLineBreak
 const
 Element
 *
@@ -3777,8 +3776,8 @@ const
 nsIContent
 &
 aContent
-PaddingForEmptyBlock
-aPaddingForEmptyBlock
+TreatAsUnnecessaryLineBreak
+aTreatAsUnnecessaryLineBreak
 const
 Element
 *
@@ -3819,7 +3818,7 @@ IsUnnecessaryBRElement
 (
 *
 brElement
-aPaddingForEmptyBlock
+aTreatAsUnnecessaryLineBreak
 aAncestorLimiter
 aFollowingBlockBoundaryElement
 )
@@ -3841,8 +3840,8 @@ dom
 HTMLBRElement
 &
 aBRElement
-PaddingForEmptyBlock
-aPaddingForEmptyBlock
+TreatAsUnnecessaryLineBreak
+aTreatAsUnnecessaryLineBreak
 const
 Element
 *
@@ -3862,7 +3861,7 @@ return
 IsUnnecessaryBRElement
 (
 aBRElement
-aPaddingForEmptyBlock
+aTreatAsUnnecessaryLineBreak
 aAncestorLimiter
 aFollowingBlockBoundaryElement
 )
@@ -4163,8 +4162,7 @@ const
 EditorDOMPointType
 &
 aPoint
-PaddingForEmptyBlock
-aPaddingForEmptyBlock
+TreatAsUnnecessaryLineBreak
 SkipWhiteSpaceStyleCheck
 aSkipWhiteSpaceStyleCheck
 =
@@ -4204,8 +4202,7 @@ const
 EditorDOMPointType
 &
 aPoint
-PaddingForEmptyBlock
-aPaddingForEmptyBlock
+TreatAsUnnecessaryLineBreak
 SkipWhiteSpaceStyleCheck
 aSkipWhiteSpaceStyleCheck
 =
@@ -4276,8 +4273,8 @@ const
 EditorDOMPointType
 &
 aPoint
-PaddingForEmptyBlock
-aPaddingForEmptyBlock
+TreatAsUnnecessaryLineBreak
+aTreatAsUnnecessaryLineBreaks
 const
 Element
 &

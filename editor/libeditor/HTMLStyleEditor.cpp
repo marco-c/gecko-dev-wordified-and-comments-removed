@@ -11128,10 +11128,13 @@ range
 EndRef
 (
 )
+TreatAsUnnecessaryLineBreak
+{
+LineBreakFor
+:
+:
 PaddingForEmptyBlock
-:
-:
-Unnecessary
+}
 aEditingHost
 )
 ;

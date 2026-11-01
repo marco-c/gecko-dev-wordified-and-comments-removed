@@ -511,7 +511,7 @@ NS_INSTANTIATE_EDITOR_LINE_BREAK_CONST_METHOD
 (
 bool
 IsUnnecessary
-PaddingForEmptyBlock
+TreatAsUnnecessaryLineBreak
 const
 Element
 *
@@ -531,8 +531,8 @@ ContentType
 :
 IsUnnecessary
 (
-PaddingForEmptyBlock
-aPaddingForEmptyBlock
+TreatAsUnnecessaryLineBreak
+aTreatAsUnnecessaryLineBreak
 const
 dom
 :
@@ -556,7 +556,7 @@ IsUnnecessaryBRElement
 BRElementRef
 (
 )
-aPaddingForEmptyBlock
+aTreatAsUnnecessaryLineBreak
 aAncestorLimiter
 )
 :
@@ -571,7 +571,7 @@ EditorRawDOMPoint
 >
 (
 )
-aPaddingForEmptyBlock
+aTreatAsUnnecessaryLineBreak
 HTMLEditUtils
 :
 :
@@ -587,7 +587,7 @@ NS_INSTANTIATE_EDITOR_LINE_BREAK_CONST_METHOD
 (
 bool
 IsSignificant
-PaddingForEmptyBlock
+TreatAsUnnecessaryLineBreak
 const
 Element
 *
@@ -607,8 +607,8 @@ ContentType
 :
 IsSignificant
 (
-PaddingForEmptyBlock
-aPaddingForEmptyBlock
+TreatAsUnnecessaryLineBreak
+aTreatAsUnnecessaryLineBreak
 const
 dom
 :
@@ -632,7 +632,7 @@ IsSignificantBRElement
 BRElementRef
 (
 )
-aPaddingForEmptyBlock
+aTreatAsUnnecessaryLineBreak
 aAncestorLimiter
 )
 :
@@ -647,7 +647,7 @@ EditorRawDOMPoint
 >
 (
 )
-aPaddingForEmptyBlock
+aTreatAsUnnecessaryLineBreak
 HTMLEditUtils
 :
 :
