@@ -2557,7 +2557,11 @@ design
 tokens
 *
 /
-bottom
+inset
+-
+block
+-
+end
 :
 40px
 ;
@@ -3286,7 +3290,11 @@ position
 :
 absolute
 ;
-right
+inset
+-
+inline
+-
+end
 :
 0
 ;

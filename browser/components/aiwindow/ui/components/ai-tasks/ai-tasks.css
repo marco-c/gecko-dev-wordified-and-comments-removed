@@ -106,7 +106,9 @@ width
 ;
 padding
 -
-top
+block
+-
+start
 :
 calc
 (
@@ -371,7 +373,11 @@ position
 :
 fixed
 ;
-top
+inset
+-
+block
+-
+start
 :
 var
 (
@@ -382,7 +388,11 @@ space
 large
 )
 ;
-right
+inset
+-
+inline
+-
+end
 :
 var
 (

@@ -499,7 +499,9 @@ flex
 ;
 margin
 -
-bottom
+block
+-
+end
 :
 var
 (
@@ -654,7 +656,9 @@ transparent
 ;
 margin
 -
-top
+block
+-
+start
 :
 var
 (
@@ -824,7 +828,9 @@ xlarge
 ;
 margin
 -
-top
+block
+-
+start
 :
 var
 (
@@ -1070,7 +1076,9 @@ child
 {
 padding
 -
-top
+block
+-
+start
 :
 0
 ;

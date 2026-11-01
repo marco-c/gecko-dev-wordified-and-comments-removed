@@ -1686,7 +1686,9 @@ column
 ;
 border
 -
-top
+block
+-
+start
 :
 var
 (
@@ -1722,7 +1724,9 @@ small
 ;
 margin
 -
-top
+block
+-
+start
 :
 var
 (

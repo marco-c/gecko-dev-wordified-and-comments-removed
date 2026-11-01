@@ -273,7 +273,9 @@ message
 {
 margin
 -
-top
+block
+-
+start
 :
 var
 (
@@ -363,7 +365,9 @@ wrapper
 {
 margin
 -
-bottom
+block
+-
+end
 :
 var
 (

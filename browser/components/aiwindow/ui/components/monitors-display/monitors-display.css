@@ -102,14 +102,9 @@ h3
 {
 margin
 -
-top
+block
 :
 0
-;
-margin
--
-bottom
-:
 var
 (
 -
@@ -197,7 +192,9 @@ deemphasized
 ;
 margin
 -
-bottom
+block
+-
+end
 :
 var
 (
@@ -313,7 +310,9 @@ center
 ;
 margin
 -
-bottom
+block
+-
+end
 :
 0
 ;
