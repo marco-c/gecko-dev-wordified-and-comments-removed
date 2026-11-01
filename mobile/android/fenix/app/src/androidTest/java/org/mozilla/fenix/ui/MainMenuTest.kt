@@ -8532,11 +8532,8 @@ openMainMenu
 verifySwitchToDesktopSiteButton
 (
 )
-verifyDesktopSiteButtonState
+verifyDesktopSiteButtonIsDisabled
 (
-isEnabled
-=
-false
 )
 }
 }
