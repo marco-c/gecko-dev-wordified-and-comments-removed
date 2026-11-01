@@ -8219,6 +8219,13 @@ codecs
 /
 av1
 :
+libaom_av1_encoder_v2_unittest
+"
+"
+codecs
+/
+av1
+:
 libaom_av1_unittest
 "
 "
