@@ -421,6 +421,16 @@ return
 mAboutToSendAsyncMessages
 ;
 }
+void
+ClearAboutToSendAsyncMessages
+(
+)
+{
+mAboutToSendAsyncMessages
+=
+false
+;
+}
 protected
 :
 nsTArray
