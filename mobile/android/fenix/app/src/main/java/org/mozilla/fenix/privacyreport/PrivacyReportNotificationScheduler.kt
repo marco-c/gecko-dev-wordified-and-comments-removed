@@ -442,17 +442,11 @@ applicationContext
 )
 }
 val
-onboardingCompletedTimestamp
-=
-settings
-.
-onboardingCompletedTimestamp
-val
 availability
 =
 privacyReportNotificationAvailability
 (
-applicationContext
+notificationManager
 )
 TrackingProtection
 .
@@ -490,6 +484,8 @@ feature
 .
 if
 (
+settings
+.
 onboardingCompletedTimestamp
 <
 0
