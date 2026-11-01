@@ -927,6 +927,12 @@ face
 =
 mFTFace
 ;
+AutoLockSharedFTFace
+lock
+(
+face
+)
+;
 FT_Done_MM_Var
 (
 face
@@ -3430,6 +3436,12 @@ return
 nullptr
 ;
 }
+AutoLockSharedFTFace
+faceLock
+(
+face
+)
+;
 if
 (
 FT_Err_Ok
