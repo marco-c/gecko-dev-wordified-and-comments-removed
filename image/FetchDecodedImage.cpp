@@ -160,13 +160,11 @@ Notify
 (
 imgIRequest
 *
-aRequest
 int32_t
 aType
 const
 nsIntRect
 *
-aData
 )
 override
 {

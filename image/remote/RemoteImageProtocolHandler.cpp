@@ -608,7 +608,6 @@ principal
 ]
 (
 nsresult
-aError
 )
 {
 return

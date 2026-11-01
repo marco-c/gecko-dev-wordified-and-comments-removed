@@ -275,7 +275,6 @@ aType
 const
 nsIntRect
 *
-aRect
 =
 nullptr
 )
@@ -368,7 +367,6 @@ void
 OnLoadComplete
 (
 bool
-aLastPart
 )
 override
 {

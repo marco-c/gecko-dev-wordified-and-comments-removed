@@ -1015,7 +1015,6 @@ Read
 const
 Value
 *
-aValue
 )
 {
 EXPECT_TRUE
@@ -1046,7 +1045,6 @@ Write
 (
 Value
 *
-aValue
 )
 {
 EXPECT_TRUE

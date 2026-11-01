@@ -4741,9 +4741,7 @@ aState
 const
 char
 *
-aData
 size_t
-aLength
 )
 {
 EXPECT_TRUE
@@ -4819,13 +4817,10 @@ mExpectNoResume
 ]
 (
 TestState
-aState
 const
 char
 *
-aData
 size_t
-aLength
 )
 {
 EXPECT_TRUE
@@ -4927,9 +4922,7 @@ aState
 const
 char
 *
-aData
 size_t
-aLength
 )
 {
 EXPECT_TRUE
@@ -5005,13 +4998,10 @@ mExpectNoResume
 ]
 (
 TestState
-aState
 const
 char
 *
-aData
 size_t
-aLength
 )
 {
 EXPECT_TRUE

@@ -249,7 +249,6 @@ sniff_mimetype_callback
 (
 nsIInputStream
 *
-in
 void
 *
 data
@@ -258,7 +257,6 @@ char
 *
 fromRawSegment
 uint32_t
-toOffset
 uint32_t
 count
 uint32_t
@@ -508,7 +506,6 @@ OnStartRequest
 (
 nsIRequest
 *
-aRequest
 )
 override
 {
@@ -624,7 +621,6 @@ void
 OnLoadComplete
 (
 bool
-aLastPart
 )
 override
 {
@@ -1095,7 +1091,6 @@ OnInputStreamReady
 (
 nsIAsyncInputStream
 *
-aAsyncInputStream
 )
 override
 {

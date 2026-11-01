@@ -240,7 +240,6 @@ imgRequest
 aRequest
 SizeOfState
 &
-aState
 bool
 aIsUsed
 bool

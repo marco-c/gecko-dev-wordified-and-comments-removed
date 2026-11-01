@@ -2433,9 +2433,7 @@ IsImageContainerAvailable
 (
 WindowRenderer
 *
-aRenderer
 uint32_t
-aFlags
 )
 {
 return
@@ -2466,14 +2464,12 @@ aSize
 const
 SVGImageContext
 &
-aSVGContext
 const
 Maybe
 <
 ImageIntRegion
 >
 &
-aRegion
 uint32_t
 aFlags
 WebRenderImageProvider
@@ -6573,7 +6569,6 @@ aFrameCount
 DecoderFlags
 aDecoderFlags
 SurfaceFlags
-aSurfaceFlags
 )
 {
 MOZ_ASSERT
@@ -7386,7 +7381,6 @@ gfxSize
 &
 aDest
 uint32_t
-aWhichFrame
 SamplingFilter
 aSamplingFilter
 uint32_t

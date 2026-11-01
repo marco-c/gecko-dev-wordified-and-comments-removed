@@ -148,10 +148,8 @@ ShouldProcess
 (
 nsIURI
 *
-aContentLocation
 nsILoadInfo
 *
-aLoadInfo
 int16_t
 *
 aShouldProcess

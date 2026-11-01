@@ -4485,7 +4485,6 @@ frame_info_callback
 png_structp
 png_ptr
 png_uint_32
-frame_num
 )
 {
 nsPNGDecoder
@@ -4748,7 +4747,6 @@ end_callback
 png_structp
 png_ptr
 png_infop
-info_ptr
 )
 {
 nsPNGDecoder
@@ -4919,7 +4917,6 @@ nsPNGDecoder
 warning_callback
 (
 png_structp
-png_ptr
 png_const_charp
 warning_msg
 )

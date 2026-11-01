@@ -2316,7 +2316,6 @@ imgFrame
 Finish
 (
 Opacity
-aFrameOpacity
 bool
 aFinalize
 bool

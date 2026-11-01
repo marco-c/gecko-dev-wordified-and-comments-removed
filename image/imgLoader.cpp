@@ -742,7 +742,6 @@ ipc
 ResponseRejectReason
 &
 &
-aReason
 )
 {
 layers
@@ -6173,7 +6172,6 @@ nsILoadGroup
 aLoadGroup
 Document
 *
-aLoadingDocument
 imgINotificationObserver
 *
 aObserver
@@ -7043,7 +7041,6 @@ Observe
 (
 nsISupports
 *
-aSubject
 const
 char
 *
@@ -7051,7 +7048,6 @@ aTopic
 const
 char16_t
 *
-aData
 )
 {
 if
@@ -11720,7 +11716,6 @@ nsLoadFlags
 aLoadFlags
 nsISupports
 *
-aCacheKey
 nsContentPolicyType
 aContentPolicyType
 const

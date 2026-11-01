@@ -204,7 +204,6 @@ aOutputOptions
 const
 nsACString
 &
-aRandomizationKey
 )
 {
 if
@@ -414,7 +413,6 @@ aInputFormat
 const
 nsAString
 &
-aFrameOptions
 )
 {
 if
@@ -1644,7 +1642,6 @@ nsICOEncoder
 CloseWithStatus
 (
 nsresult
-aStatus
 )
 {
 return

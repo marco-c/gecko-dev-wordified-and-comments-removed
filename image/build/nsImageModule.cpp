@@ -132,7 +132,6 @@ UpdateDocumentViewerRegistration
 const
 char
 *
-aPref
 void
 *
 aData

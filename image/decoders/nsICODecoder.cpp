@@ -3686,7 +3686,6 @@ char
 *
 aData
 size_t
-aLength
 )
 {
 switch

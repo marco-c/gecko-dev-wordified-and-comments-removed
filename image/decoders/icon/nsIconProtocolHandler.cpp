@@ -102,11 +102,9 @@ nsIconProtocolHandler
 AllowPort
 (
 int32_t
-port
 const
 char
 *
-scheme
 bool
 *
 _retval

@@ -1474,7 +1474,6 @@ SetScheme
 const
 nsACString
 &
-aScheme
 )
 {
 return
@@ -1489,7 +1488,6 @@ GetUsername
 (
 nsACString
 &
-aUsername
 )
 {
 return
@@ -1505,7 +1503,6 @@ SetUsername
 const
 nsACString
 &
-aUsername
 )
 {
 return
@@ -1520,7 +1517,6 @@ GetPassword
 (
 nsACString
 &
-aPassword
 )
 {
 return
@@ -1536,7 +1532,6 @@ SetPassword
 const
 nsACString
 &
-aPassword
 )
 {
 return
@@ -1551,7 +1546,6 @@ GetUserPass
 (
 nsACString
 &
-aUserPass
 )
 {
 return
@@ -1567,7 +1561,6 @@ SetUserPass
 const
 nsACString
 &
-aUserPass
 )
 {
 return
@@ -1582,7 +1575,6 @@ GetHostPort
 (
 nsACString
 &
-aHostPort
 )
 {
 return
@@ -1598,7 +1590,6 @@ SetHostPort
 const
 nsACString
 &
-aHostPort
 )
 {
 return
@@ -1613,7 +1604,6 @@ GetHost
 (
 nsACString
 &
-aHost
 )
 {
 return
@@ -1629,7 +1619,6 @@ SetHost
 const
 nsACString
 &
-aHost
 )
 {
 return
@@ -1644,7 +1633,6 @@ GetPort
 (
 int32_t
 *
-aPort
 )
 {
 return
@@ -1658,7 +1646,6 @@ nsMozIconURI
 SetPort
 (
 int32_t
-aPort
 )
 {
 return
@@ -1695,7 +1682,6 @@ SetPathQueryRef
 const
 nsACString
 &
-aPath
 )
 {
 return
@@ -1732,7 +1718,6 @@ SetFilePath
 const
 nsACString
 &
-aFilePath
 )
 {
 return
@@ -1769,7 +1754,6 @@ SetQuery
 const
 nsACString
 &
-aQuery
 )
 {
 return
@@ -1785,11 +1769,9 @@ SetQueryWithEncoding
 const
 nsACString
 &
-aQuery
 const
 Encoding
 *
-aEncoding
 )
 {
 return
@@ -1826,7 +1808,6 @@ SetRef
 const
 nsACString
 &
-aRef
 )
 {
 return
@@ -2122,10 +2103,8 @@ Resolve
 const
 nsACString
 &
-relativePath
 nsACString
 &
-result
 )
 {
 return
@@ -2752,7 +2731,6 @@ mozilla
 :
 :
 MallocSizeOf
-aMallocSizeOf
 )
 {
 return
@@ -2834,7 +2812,6 @@ Read
 (
 nsIObjectInputStream
 *
-aStream
 )
 {
 MOZ_ASSERT_UNREACHABLE

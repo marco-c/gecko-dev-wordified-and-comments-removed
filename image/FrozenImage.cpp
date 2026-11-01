@@ -98,7 +98,6 @@ FrozenImage
 GetFrame
 (
 uint32_t
-aWhichFrame
 uint32_t
 aFlags
 )
@@ -133,7 +132,6 @@ IntSize
 &
 aSize
 uint32_t
-aWhichFrame
 uint32_t
 aFlags
 )
@@ -356,7 +354,6 @@ StartDecoding
 uint32_t
 aFlags
 uint32_t
-aWhichFrame
 )
 {
 return
@@ -381,7 +378,6 @@ StartDecodingWithResult
 uint32_t
 aFlags
 uint32_t
-aWhichFrame
 )
 {
 return
@@ -428,7 +424,6 @@ RequestDecodeWithResult
 uint32_t
 aFlags
 uint32_t
-aWhichFrame
 )
 {
 return
@@ -457,7 +452,6 @@ aSize
 uint32_t
 aFlags
 uint32_t
-aWhichFrame
 )
 {
 return
@@ -517,7 +511,6 @@ FrozenImage
 SetAnimationMode
 (
 uint16_t
-aAnimationMode
 )
 {
 return

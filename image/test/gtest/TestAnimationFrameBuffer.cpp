@@ -2930,7 +2930,6 @@ aThreshold
 size_t
 aBatch
 size_t
-aStartFrame
 )
 {
 EXPECT_TRUE
@@ -3962,7 +3961,6 @@ aThreshold
 size_t
 aBatch
 size_t
-aStartFrame
 )
 {
 EXPECT_TRUE

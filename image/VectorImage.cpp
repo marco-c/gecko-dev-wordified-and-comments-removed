@@ -1090,7 +1090,6 @@ gfxRect
 aFillRect
 const
 SamplingFilter
-aSamplingFilter
 const
 gfxMatrix
 &
@@ -2399,11 +2398,8 @@ gfxSize
 &
 aDest
 uint32_t
-aWhichFrame
 SamplingFilter
-aSamplingFilter
 uint32_t
-aFlags
 )
 {
 MOZ_ASSERT
@@ -3034,7 +3030,6 @@ WindowRenderer
 *
 aRenderer
 uint32_t
-aFlags
 )
 {
 if
@@ -4206,9 +4201,7 @@ VectorImage
 StartDecoding
 (
 uint32_t
-aFlags
 uint32_t
-aWhichFrame
 )
 {
 return
@@ -4222,9 +4215,7 @@ VectorImage
 StartDecodingWithResult
 (
 uint32_t
-aFlags
 uint32_t
-aWhichFrame
 )
 {
 return
@@ -4241,9 +4232,7 @@ VectorImage
 RequestDecodeWithResult
 (
 uint32_t
-aFlags
 uint32_t
-aWhichFrame
 )
 {
 if
@@ -4287,11 +4276,8 @@ RequestDecodeForSize
 const
 nsIntSize
 &
-aSize
 uint32_t
-aFlags
 uint32_t
-aWhichFrame
 )
 {
 if
@@ -4908,7 +4894,6 @@ nsTArray
 IntSize
 >
 &
-aNativeSizes
 )
 {
 return
@@ -6072,7 +6057,6 @@ OnSurfaceDiscarded
 const
 SurfaceKey
 &
-aSurfaceKey
 )
 {
 MOZ_ASSERT

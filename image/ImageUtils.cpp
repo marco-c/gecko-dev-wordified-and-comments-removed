@@ -680,7 +680,6 @@ imgFrame
 >
 &
 &
-aFrame
 RefPtr
 <
 gfx
@@ -690,7 +689,6 @@ SourceSurface
 >
 &
 &
-aSurface
 )
 {
 MOZ_ASSERT_UNREACHABLE
@@ -996,7 +994,6 @@ void
 OnComplete
 (
 bool
-aSuccess
 )
 override
 MOZ_REQUIRES
@@ -1178,7 +1175,6 @@ void
 OnComplete
 (
 bool
-aSuccess
 )
 override
 MOZ_REQUIRES

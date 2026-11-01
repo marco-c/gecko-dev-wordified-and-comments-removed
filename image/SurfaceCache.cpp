@@ -5609,7 +5609,6 @@ aDiscard
 const
 StaticMutexAutoLock
 &
-aAutoLock
 )
 {
 MOZ_ASSERT
@@ -5648,7 +5647,6 @@ aSurfaceKey
 const
 StaticMutexAutoLock
 &
-aAutoLock
 )
 {
 RefPtr
@@ -5778,7 +5776,6 @@ aMallocSizeOf
 const
 StaticMutexAutoLock
 &
-aAutoLock
 )
 const
 {
@@ -5858,7 +5855,6 @@ nsISupports
 *
 aData
 bool
-aAnonymize
 )
 override
 {
@@ -6555,7 +6551,6 @@ aImage
 const
 StaticMutexAutoLock
 &
-aAutoLock
 )
 {
 RefPtr
@@ -6663,7 +6658,6 @@ aImage
 const
 StaticMutexAutoLock
 &
-aAutoLock
 )
 {
 MOZ_ASSERT

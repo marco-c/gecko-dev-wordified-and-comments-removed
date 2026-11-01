@@ -762,7 +762,6 @@ aSourceBuffer
 const
 IntSize
 &
-aIntrinsicSize
 const
 IntSize
 &

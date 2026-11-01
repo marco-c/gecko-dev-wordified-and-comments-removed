@@ -246,7 +246,6 @@ aOutputOptions
 const
 nsACString
 &
-aRandomizationKey
 )
 {
 if
@@ -728,11 +727,8 @@ uint8_t
 *
 aData
 uint32_t
-aLength
 uint32_t
-aWidth
 uint32_t
-aHeight
 uint32_t
 aStride
 uint32_t
@@ -740,7 +736,6 @@ aInputFormat
 const
 nsAString
 &
-aFrameOptions
 )
 {
 if
@@ -1727,7 +1722,6 @@ nsBMPEncoder
 CloseWithStatus
 (
 nsresult
-aStatus
 )
 {
 return
