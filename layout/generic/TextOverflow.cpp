@@ -1648,10 +1648,6 @@ GetScrollContainerFrameFor
 aBlockFrame
 )
 )
-mMarkerList
-(
-aBuilder
-)
 mBlockSize
 (
 aBlockFrame

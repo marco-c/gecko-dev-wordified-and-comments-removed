@@ -52,7 +52,6 @@ uint8_t
 {
 Modified
 HasProps
-HadWillChange
 }
 ;
 using
@@ -579,11 +578,6 @@ aReferenceFrame
 aMode
 aBuildCaret
 true
-)
-mList
-(
-&
-mBuilder
 )
 {
 }

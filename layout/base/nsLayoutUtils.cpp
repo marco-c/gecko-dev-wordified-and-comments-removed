@@ -14033,10 +14033,6 @@ BeginFrame
 ;
 nsDisplayList
 list
-(
-&
-builder
-)
 ;
 if
 (
@@ -15684,11 +15680,6 @@ mBuilder
 aFrame
 aBuilderMode
 aBuildCaret
-)
-mList
-(
-&
-mBuilder
 )
 {
 }

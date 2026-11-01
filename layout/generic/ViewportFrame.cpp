@@ -608,9 +608,6 @@ dirty
 ;
 nsDisplayList
 list
-(
-aBuilder
-)
 ;
 aFrame
 -
@@ -999,9 +996,6 @@ nullptr
 }
 nsDisplayList
 topLayerList
-(
-aBuilder
-)
 ;
 auto
 *
@@ -1334,9 +1328,6 @@ nullptr
 }
 nsDisplayList
 topLayerList
-(
-aBuilder
-)
 ;
 auto
 *

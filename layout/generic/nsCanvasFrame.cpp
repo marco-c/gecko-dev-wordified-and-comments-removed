@@ -1492,9 +1492,6 @@ isPage
 ;
 nsDisplayList
 list
-(
-aBuilder
-)
 ;
 nsDisplaySolidColor
 *
@@ -1640,9 +1637,6 @@ asr
 ;
 nsDisplayList
 thisItemList
-(
-aBuilder
-)
 ;
 nsDisplayBackgroundImage
 :

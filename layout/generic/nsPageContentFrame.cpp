@@ -1635,9 +1635,6 @@ return
 }
 nsDisplayList
 list
-(
-aBuilder
-)
 ;
 aExtraPage
 -
@@ -1823,9 +1820,6 @@ aBuilder
 ;
 nsDisplayList
 content
-(
-aBuilder
-)
 ;
 {
 nsDisplayListBuilder
