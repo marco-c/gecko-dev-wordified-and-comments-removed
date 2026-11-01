@@ -947,9 +947,6 @@ loadURI
 in
 nsIURI
 aURI
-[
-optional
-]
 in
 nsIPrincipal
 aTriggeringPrincipal
