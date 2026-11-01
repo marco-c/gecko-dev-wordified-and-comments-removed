@@ -762,6 +762,8 @@ dispatch
 (
 IPProtectionAction
 .
+ActivationAction
+.
 Toggle
 )
 }
@@ -783,6 +785,8 @@ ipProtectionStore
 dispatch
 (
 IPProtectionAction
+.
+ActivationAction
 .
 Toggle
 )
@@ -841,6 +845,8 @@ ipProtectionStore
 dispatch
 (
 IPProtectionAction
+.
+ActivationAction
 .
 Toggle
 )

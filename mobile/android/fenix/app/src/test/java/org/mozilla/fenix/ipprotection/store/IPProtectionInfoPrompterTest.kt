@@ -324,6 +324,8 @@ dispatch
 (
 IPProtectionAction
 .
+EligibilityAction
+.
 EligibilityChanged
 (
 EligibilityStatus
@@ -432,6 +434,8 @@ dispatch
 (
 IPProtectionAction
 .
+EligibilityAction
+.
 EligibilityChanged
 (
 EligibilityStatus
@@ -526,6 +530,8 @@ ipProtectionStore
 dispatch
 (
 IPProtectionAction
+.
+EligibilityAction
 .
 EligibilityChanged
 (

@@ -121,7 +121,7 @@ ipprotection
 .
 store
 .
-IPProtectionStore
+IPProtectionAction
 import
 mozilla
 .
@@ -133,7 +133,7 @@ ipprotection
 .
 store
 .
-InternalAction
+IPProtectionStore
 /
 *
 *
@@ -290,7 +290,9 @@ value
 .
 dispatch
 (
-InternalAction
+IPProtectionAction
+.
+AccountAction
 .
 AccountReadyForEnrollment
 )
@@ -318,7 +320,9 @@ value
 .
 dispatch
 (
-InternalAction
+IPProtectionAction
+.
+AccountAction
 .
 FinishingAuthFlow
 )

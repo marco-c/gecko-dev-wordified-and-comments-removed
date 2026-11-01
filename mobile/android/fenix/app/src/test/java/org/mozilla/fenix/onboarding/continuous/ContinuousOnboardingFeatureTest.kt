@@ -2358,6 +2358,8 @@ dispatch
 (
 IPProtectionAction
 .
+EligibilityAction
+.
 EligibilityChanged
 (
 EligibilityStatus
@@ -2370,6 +2372,8 @@ ipProtectionStore
 dispatch
 (
 IPProtectionAction
+.
+AccountAction
 .
 AccountStateChanged
 (
@@ -2514,6 +2518,8 @@ dispatch
 (
 IPProtectionAction
 .
+EligibilityAction
+.
 EligibilityChanged
 (
 EligibilityStatus
@@ -2526,6 +2532,8 @@ ipProtectionStore
 dispatch
 (
 IPProtectionAction
+.
+AccountAction
 .
 AccountStateChanged
 (
@@ -2732,6 +2740,8 @@ dispatch
 (
 IPProtectionAction
 .
+EligibilityAction
+.
 EligibilityChanged
 (
 EligibilityStatus
@@ -2744,6 +2754,8 @@ ipProtectionStore
 dispatch
 (
 IPProtectionAction
+.
+AccountAction
 .
 AccountStateChanged
 (
@@ -2769,6 +2781,8 @@ ipProtectionStore
 dispatch
 (
 IPProtectionAction
+.
+AccountAction
 .
 AccountStateChanged
 (
@@ -2925,6 +2939,8 @@ store
 dispatch
 (
 IPProtectionAction
+.
+EligibilityAction
 .
 EligibilityChanged
 (
@@ -3118,6 +3134,8 @@ dispatch
 (
 IPProtectionAction
 .
+EligibilityAction
+.
 EligibilityChanged
 (
 EligibilityStatus
@@ -3130,6 +3148,8 @@ ipProtectionStore
 dispatch
 (
 IPProtectionAction
+.
+AccountAction
 .
 AccountStateChanged
 (
@@ -3295,6 +3315,8 @@ dispatch
 (
 IPProtectionAction
 .
+EligibilityAction
+.
 EligibilityChanged
 (
 EligibilityStatus
@@ -3307,6 +3329,8 @@ ipProtectionStore
 dispatch
 (
 IPProtectionAction
+.
+AccountAction
 .
 AccountStateChanged
 (
@@ -3508,6 +3532,8 @@ dispatch
 (
 IPProtectionAction
 .
+EligibilityAction
+.
 EligibilityChanged
 (
 EligibilityStatus
@@ -3520,6 +3546,8 @@ ipProtectionStore
 dispatch
 (
 IPProtectionAction
+.
+AccountAction
 .
 AccountStateChanged
 (

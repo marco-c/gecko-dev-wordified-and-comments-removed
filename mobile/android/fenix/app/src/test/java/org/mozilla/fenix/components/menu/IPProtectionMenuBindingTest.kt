@@ -404,6 +404,8 @@ dispatch
 (
 IPProtectionAction
 .
+ProxyAction
+.
 ProxyStateChanged
 (
 ProxyState

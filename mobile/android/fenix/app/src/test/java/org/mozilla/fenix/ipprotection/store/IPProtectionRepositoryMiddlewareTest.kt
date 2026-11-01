@@ -251,6 +251,8 @@ action
 =
 IPProtectionAction
 .
+ActivationAction
+.
 Toggle
 )
 assertTrue
@@ -293,6 +295,8 @@ val
 nonToggleAction
 =
 IPProtectionAction
+.
+ActivationAction
 .
 ProxyActivationShown
 var
@@ -376,6 +380,8 @@ true
 action
 =
 IPProtectionAction
+.
+ActivationAction
 .
 Toggle
 )

@@ -300,18 +300,6 @@ ipprotection
 .
 store
 .
-InternalAction
-import
-mozilla
-.
-components
-.
-feature
-.
-ipprotection
-.
-store
-.
 state
 .
 AccountStatus
@@ -1058,7 +1046,9 @@ store
 .
 dispatch
 (
-InternalAction
+IPProtectionAction
+.
+AccountAction
 .
 FinishingEnrollment
 (
@@ -1223,6 +1213,8 @@ dispatch
 (
 IPProtectionAction
 .
+LocationAction
+.
 LocationUpdateFailed
 (
 error
@@ -1270,6 +1262,8 @@ dispatch
 (
 IPProtectionAction
 .
+ServiceAction
+.
 ServiceStateChanged
 (
 serviceState
@@ -1294,6 +1288,8 @@ store
 dispatch
 (
 IPProtectionAction
+.
+ProxyAction
 .
 ProxyStateChanged
 (
@@ -1328,6 +1324,8 @@ dispatch
 (
 IPProtectionAction
 .
+UsageAction
+.
 UsageChanged
 (
 remaining
@@ -1361,6 +1359,8 @@ store
 dispatch
 (
 IPProtectionAction
+.
+LocationAction
 .
 CountryListChanged
 (
@@ -1469,6 +1469,8 @@ store
 dispatch
 (
 IPProtectionAction
+.
+AccountAction
 .
 AccountStateChanged
 (
@@ -1788,6 +1790,8 @@ dispatch
 (
 IPProtectionAction
 .
+ActivationAction
+.
 ActivationRequestCompleted
 (
 request
@@ -1804,6 +1808,8 @@ dispatch
 (
 IPProtectionAction
 .
+LocationAction
+.
 LocationSwitchFailed
 (
 error
@@ -1817,6 +1823,8 @@ store
 dispatch
 (
 IPProtectionAction
+.
+ActivationAction
 .
 ToggleFailed
 (
@@ -1848,6 +1856,8 @@ store
 dispatch
 (
 IPProtectionAction
+.
+ActivationAction
 .
 ToggleFailed
 (

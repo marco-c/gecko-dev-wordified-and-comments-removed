@@ -400,6 +400,8 @@ iPProtectionReducer
 state
 IPProtectionAction
 .
+EligibilityAction
+.
 EligibilityChanged
 (
 EligibilityStatus
@@ -516,6 +518,8 @@ iPProtectionReducer
 state
 IPProtectionAction
 .
+UsageAction
+.
 UsageChanged
 (
 999L
@@ -570,6 +574,8 @@ iPProtectionReducer
 (
 state
 IPProtectionAction
+.
+UsageAction
 .
 UsageChanged
 (
@@ -629,6 +635,8 @@ iPProtectionReducer
 (
 state
 IPProtectionAction
+.
+UsageAction
 .
 UsageChanged
 (
@@ -717,6 +725,8 @@ iPProtectionReducer
 state
 IPProtectionAction
 .
+UsageAction
+.
 UsageChanged
 (
 1000L
@@ -797,6 +807,8 @@ iPProtectionReducer
 (
 state
 IPProtectionAction
+.
+UsageAction
 .
 UsageChanged
 (
@@ -884,6 +896,8 @@ iPProtectionReducer
 (
 state
 IPProtectionAction
+.
+UsageAction
 .
 UsageChanged
 (
@@ -988,6 +1002,8 @@ map
 {
 IPProtectionAction
 .
+ServiceAction
+.
 ServiceStateChanged
 (
 it
@@ -1001,6 +1017,8 @@ entries
 map
 {
 IPProtectionAction
+.
+ProxyAction
 .
 ProxyStateChanged
 (
@@ -1132,6 +1150,8 @@ buildIPProtectionState
 )
 IPProtectionAction
 .
+ProxyAction
+.
 ProxyStateChanged
 (
 proxyState
@@ -1194,6 +1214,8 @@ iPProtectionReducer
 state
 IPProtectionAction
 .
+ProxyAction
+.
 ProxyStateChanged
 (
 ProxyState
@@ -1220,6 +1242,8 @@ iPProtectionReducer
 (
 errorState
 IPProtectionAction
+.
+ProxyAction
 .
 ProxyStateChanged
 (
@@ -1281,6 +1305,8 @@ iPProtectionReducer
 (
 state
 IPProtectionAction
+.
+ActivationAction
 .
 ToggleFailed
 (
@@ -1374,6 +1400,8 @@ iPProtectionReducer
 (
 state
 IPProtectionAction
+.
+LocationAction
 .
 LocationSwitchFailed
 (
@@ -1485,6 +1513,8 @@ iPProtectionReducer
 state
 IPProtectionAction
 .
+ActivationAction
+.
 ToggleFailed
 (
 ActivationOperation
@@ -1576,6 +1606,8 @@ iPProtectionReducer
 state
 IPProtectionAction
 .
+ActivationAction
+.
 ToggleFailed
 (
 ActivationOperation
@@ -1632,6 +1664,8 @@ iPProtectionReducer
 state
 IPProtectionAction
 .
+ActivationAction
+.
 ProxyActivationShown
 )
 )
@@ -1683,6 +1717,8 @@ iPProtectionReducer
 state
 IPProtectionAction
 .
+ActivationAction
+.
 ProxyActivationShown
 )
 )
@@ -1721,6 +1757,8 @@ iPProtectionReducer
 (
 state
 IPProtectionAction
+.
+ProxyAction
 .
 ProxyStateChanged
 (
@@ -1775,6 +1813,8 @@ iPProtectionReducer
 (
 state
 IPProtectionAction
+.
+ProxyAction
 .
 ProxyStateChanged
 (
@@ -1831,6 +1871,8 @@ iPProtectionReducer
 (
 state
 IPProtectionAction
+.
+ProxyAction
 .
 ProxyStateChanged
 (
@@ -1911,6 +1953,8 @@ iPProtectionReducer
 state
 IPProtectionAction
 .
+ProxyAction
+.
 ProxyStateChanged
 (
 ProxyState
@@ -1982,6 +2026,8 @@ iPProtectionReducer
 state
 IPProtectionAction
 .
+ProxyAction
+.
 ProxyStateChanged
 (
 ProxyState
@@ -2031,6 +2077,8 @@ iPProtectionReducer
 (
 state
 IPProtectionAction
+.
+ProxyAction
 .
 ProxyStateChanged
 (
@@ -2085,6 +2133,8 @@ iPProtectionReducer
 state
 IPProtectionAction
 .
+ProxyAction
+.
 ProxyStateChanged
 (
 ProxyState
@@ -2138,6 +2188,8 @@ iPProtectionReducer
 (
 state
 IPProtectionAction
+.
+ProxyAction
 .
 ProxyStateChanged
 (
@@ -2193,6 +2245,8 @@ iPProtectionReducer
 (
 state
 IPProtectionAction
+.
+ProxyAction
 .
 ProxyStateChanged
 (
@@ -2245,6 +2299,8 @@ iPProtectionReducer
 state
 IPProtectionAction
 .
+ProxyAction
+.
 ProxyStateChanged
 (
 ProxyState
@@ -2296,7 +2352,9 @@ resultState
 iPProtectionReducer
 (
 initialState
-InternalAction
+IPProtectionAction
+.
+AccountAction
 .
 FinishingAuthFlow
 )
@@ -2346,7 +2404,9 @@ resultState
 iPProtectionReducer
 (
 initialState
-InternalAction
+IPProtectionAction
+.
+AccountAction
 .
 FinishingAuthFlow
 )
@@ -2397,7 +2457,9 @@ resultState
 iPProtectionReducer
 (
 initialState
-InternalAction
+IPProtectionAction
+.
+AccountAction
 .
 FinishingAuthFlow
 )
@@ -2455,7 +2517,9 @@ resultState
 iPProtectionReducer
 (
 initialState
-InternalAction
+IPProtectionAction
+.
+AccountAction
 .
 FinishingEnrollment
 (
@@ -2521,7 +2585,9 @@ resultState
 iPProtectionReducer
 (
 initialState
-InternalAction
+IPProtectionAction
+.
+AccountAction
 .
 FinishingEnrollment
 (
@@ -2652,7 +2718,9 @@ resultState
 iPProtectionReducer
 (
 dirtyState
-InternalAction
+IPProtectionAction
+.
+AccountAction
 .
 AccountManagerStateChanged
 (
@@ -2773,6 +2841,8 @@ iPProtectionReducer
 state
 IPProtectionAction
 .
+ActivationAction
+.
 Toggle
 )
 )
@@ -2819,6 +2889,8 @@ iPProtectionReducer
 (
 state
 IPProtectionAction
+.
+ActivationAction
 .
 Toggle
 )
@@ -2891,6 +2963,8 @@ iPProtectionReducer
 (
 state
 IPProtectionAction
+.
+ActivationAction
 .
 Toggle
 )
@@ -3011,6 +3085,8 @@ iPProtectionReducer
 state
 IPProtectionAction
 .
+ActivationAction
+.
 Toggle
 )
 )
@@ -3094,6 +3170,8 @@ iPProtectionReducer
 (
 state
 IPProtectionAction
+.
+ActivationAction
 .
 Toggle
 )
@@ -3180,6 +3258,8 @@ iPProtectionReducer
 state
 IPProtectionAction
 .
+ActivationAction
+.
 Toggle
 )
 assertEquals
@@ -3263,6 +3343,8 @@ iPProtectionReducer
 (
 state
 IPProtectionAction
+.
+ActivationAction
 .
 Toggle
 )
@@ -3350,6 +3432,8 @@ iPProtectionReducer
 state
 IPProtectionAction
 .
+ActivationAction
+.
 Toggle
 )
 }
@@ -3380,6 +3464,8 @@ buildIPProtectionState
 (
 )
 IPProtectionAction
+.
+AccountAction
 .
 AccountStateChanged
 (
@@ -3476,6 +3562,8 @@ iPProtectionReducer
 state
 IPProtectionAction
 .
+ServiceAction
+.
 ServiceStateChanged
 (
 serviceStatus
@@ -3549,11 +3637,15 @@ listOf
 (
 IPProtectionAction
 .
+ServiceAction
+.
 ServiceStateChanged
 (
 serviceState
 )
 IPProtectionAction
+.
+ProxyAction
 .
 ProxyStateChanged
 (
@@ -3715,6 +3807,8 @@ iPProtectionReducer
 wasActive
 IPProtectionAction
 .
+ProxyAction
+.
 ProxyStateChanged
 (
 ProxyState
@@ -3747,6 +3841,8 @@ iPProtectionReducer
 (
 wasIdle
 IPProtectionAction
+.
+ProxyAction
 .
 ProxyStateChanged
 (
@@ -3809,6 +3905,8 @@ iPProtectionReducer
 (
 state
 IPProtectionAction
+.
+ServiceAction
 .
 ServiceStateChanged
 (
@@ -3880,6 +3978,8 @@ iPProtectionReducer
 state
 IPProtectionAction
 .
+ServiceAction
+.
 ServiceStateChanged
 (
 ServiceState
@@ -3944,6 +4044,8 @@ iPProtectionReducer
 (
 state
 IPProtectionAction
+.
+ServiceAction
 .
 ServiceStateChanged
 (
@@ -4034,6 +4136,8 @@ iPProtectionReducer
 (
 state
 IPProtectionAction
+.
+ServiceAction
 .
 ServiceStateChanged
 (
@@ -4145,7 +4249,9 @@ resultState
 iPProtectionReducer
 (
 state
-InternalAction
+IPProtectionAction
+.
+AccountAction
 .
 AccountManagerStateChanged
 (
@@ -4236,7 +4342,9 @@ iPProtectionReducer
 buildIPProtectionState
 (
 )
-InternalAction
+IPProtectionAction
+.
+AccountAction
 .
 AccountManagerStateChanged
 (
@@ -4302,7 +4410,9 @@ accountStatus
 =
 currentStatus
 )
-InternalAction
+IPProtectionAction
+.
+AccountAction
 .
 AccountManagerStateChanged
 (
@@ -4369,7 +4479,9 @@ iPProtectionReducer
 buildIPProtectionState
 (
 )
-InternalAction
+IPProtectionAction
+.
+AccountAction
 .
 AccountManagerStateChanged
 (
@@ -4388,47 +4500,6 @@ resultState
 accountState
 .
 status
-)
-}
-Test
-fun
-WHEN
-internal
-EligibilityChanged
-is
-dispatched
-THEN
-eligibilityStatus
-is
-updated
-(
-)
-{
-val
-resultState
-=
-iPProtectionReducer
-(
-buildIPProtectionState
-(
-)
-InternalAction
-.
-EligibilityChanged
-(
-EligibilityStatus
-.
-Eligible
-)
-)
-assertEquals
-(
-EligibilityStatus
-.
-Eligible
-resultState
-.
-eligibilityStatus
 )
 }
 Test
@@ -4454,7 +4525,9 @@ iPProtectionReducer
 buildIPProtectionState
 (
 )
-InternalAction
+IPProtectionAction
+.
+AccountAction
 .
 AccountReadyForEnrollment
 )
@@ -4497,7 +4570,9 @@ iPProtectionReducer
 buildIPProtectionState
 (
 )
-InternalAction
+IPProtectionAction
+.
+AccountAction
 .
 AwaitingAuth
 (
@@ -4552,7 +4627,9 @@ resultState
 iPProtectionReducer
 (
 initialState
-InternalAction
+IPProtectionAction
+.
+AccountAction
 .
 FinishingAuthFlow
 )
@@ -4602,7 +4679,9 @@ resultState
 iPProtectionReducer
 (
 initialState
-InternalAction
+IPProtectionAction
+.
+AccountAction
 .
 FinishingAuthFlow
 )
@@ -4724,6 +4803,8 @@ action
 =
 IPProtectionAction
 .
+LocationAction
+.
 CountryListChanged
 (
 countries
@@ -4825,6 +4906,8 @@ action
 =
 IPProtectionAction
 .
+LocationAction
+.
 LocationChanged
 (
 updatedLocation
@@ -4914,6 +4997,8 @@ initialState
 action
 =
 IPProtectionAction
+.
+LocationAction
 .
 LocationChanged
 (
@@ -5024,6 +5109,8 @@ action
 =
 IPProtectionAction
 .
+LocationAction
+.
 LocationChanged
 (
 updatedLocation
@@ -5114,6 +5201,8 @@ initialState
 action
 =
 IPProtectionAction
+.
+ActivationAction
 .
 ActivationRequestCompleted
 (
@@ -5206,6 +5295,8 @@ initialState
 action
 =
 IPProtectionAction
+.
+ActivationAction
 .
 ActivationRequestCompleted
 (
@@ -5309,6 +5400,8 @@ initialState
 action
 =
 IPProtectionAction
+.
+LocationAction
 .
 LocationChanged
 (
@@ -5415,6 +5508,8 @@ action
 =
 IPProtectionAction
 .
+LocationAction
+.
 LocationChanged
 (
 updatedLocation
@@ -5488,6 +5583,8 @@ action
 =
 IPProtectionAction
 .
+ServiceAction
+.
 ServiceStateChanged
 (
 ServiceState
@@ -5542,6 +5639,8 @@ initialState
 action
 =
 IPProtectionAction
+.
+ServiceAction
 .
 ServiceStateChanged
 (
@@ -5601,6 +5700,8 @@ initialState
 action
 =
 IPProtectionAction
+.
+LocationAction
 .
 CountryListChanged
 (
@@ -5670,6 +5771,8 @@ action
 =
 IPProtectionAction
 .
+ServiceAction
+.
 ServiceStateChanged
 (
 ServiceState
@@ -5733,6 +5836,8 @@ initialState
 action
 =
 IPProtectionAction
+.
+LocationAction
 .
 LocationChanged
 (
@@ -5806,6 +5911,8 @@ action
 =
 IPProtectionAction
 .
+LocationAction
+.
 LocationReset
 (
 countryCode
@@ -5876,7 +5983,9 @@ state
 initialState
 action
 =
-InternalAction
+IPProtectionAction
+.
+AccountAction
 .
 AccountManagerStateChanged
 (
@@ -5937,6 +6046,8 @@ initialState
 action
 =
 IPProtectionAction
+.
+LocationAction
 .
 LocationUpdateFailed
 (
@@ -6005,6 +6116,8 @@ initialState
 action
 =
 IPProtectionAction
+.
+LocationAction
 .
 LocationUpdateFailed
 (
@@ -6079,6 +6192,8 @@ action
 =
 IPProtectionAction
 .
+ServiceAction
+.
 ServiceStateChanged
 (
 ServiceState
@@ -6141,6 +6256,8 @@ action
 =
 IPProtectionAction
 .
+LocationAction
+.
 CheckLocations
 )
 assertEquals
@@ -6196,6 +6313,8 @@ initialState
 action
 =
 IPProtectionAction
+.
+LocationAction
 .
 CheckLocations
 )

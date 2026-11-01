@@ -475,6 +475,8 @@ dispatch
 (
 IPProtectionAction
 .
+LocationAction
+.
 LocationChanged
 (
 location
@@ -619,6 +621,8 @@ store
 dispatch
 (
 IPProtectionAction
+.
+LocationAction
 .
 CountryListChanged
 (
@@ -789,6 +793,8 @@ store
 dispatch
 (
 IPProtectionAction
+.
+LocationAction
 .
 CountryListChanged
 (
@@ -1035,6 +1041,8 @@ dispatch
 (
 IPProtectionAction
 .
+LocationAction
+.
 CountryListChanged
 (
 countries
@@ -1263,6 +1271,8 @@ dispatch
 (
 IPProtectionAction
 .
+LocationAction
+.
 CountryListChanged
 (
 countries
@@ -1458,6 +1468,8 @@ store
 dispatch
 (
 IPProtectionAction
+.
+LocationAction
 .
 CountryListChanged
 (
@@ -1678,7 +1690,9 @@ store
 .
 dispatch
 (
-InternalAction
+IPProtectionAction
+.
+AccountAction
 .
 AccountManagerStateChanged
 (
@@ -1826,6 +1840,8 @@ dispatch
 (
 IPProtectionAction
 .
+LocationAction
+.
 CountryListChanged
 (
 countries
@@ -1869,6 +1885,8 @@ captureMiddleware
 assertNotDispatched
 (
 IPProtectionAction
+.
+LocationAction
 .
 LocationChanged
 :
@@ -1954,6 +1972,8 @@ dispatch
 (
 IPProtectionAction
 .
+LocationAction
+.
 CountryListChanged
 (
 countries
@@ -1984,6 +2004,8 @@ captureMiddleware
 assertLastAction
 (
 IPProtectionAction
+.
+LocationAction
 .
 LocationChanged
 :
@@ -2065,6 +2087,8 @@ dispatch
 (
 IPProtectionAction
 .
+LocationAction
+.
 CountryListChanged
 (
 countries
@@ -2097,6 +2121,8 @@ captureMiddleware
 assertLastAction
 (
 IPProtectionAction
+.
+LocationAction
 .
 PersistedLocationUnavailable
 :
@@ -2131,6 +2157,8 @@ captureMiddleware
 assertNotDispatched
 (
 IPProtectionAction
+.
+LocationAction
 .
 LocationReset
 :
@@ -2217,6 +2245,8 @@ dispatch
 (
 IPProtectionAction
 .
+LocationAction
+.
 CountryListChanged
 (
 countries
@@ -2249,6 +2279,8 @@ captureMiddleware
 assertLastAction
 (
 IPProtectionAction
+.
+LocationAction
 .
 LocationReset
 :
@@ -2283,6 +2315,8 @@ captureMiddleware
 assertNotDispatched
 (
 IPProtectionAction
+.
+LocationAction
 .
 PersistedLocationUnavailable
 :
@@ -2337,6 +2371,8 @@ dispatch
 (
 IPProtectionAction
 .
+LocationAction
+.
 CountryListChanged
 (
 countries
@@ -2369,6 +2405,8 @@ captureMiddleware
 assertNotDispatched
 (
 IPProtectionAction
+.
+LocationAction
 .
 PersistedLocationUnavailable
 :
@@ -2480,6 +2518,8 @@ dispatch
 (
 IPProtectionAction
 .
+LocationAction
+.
 LocationChanged
 (
 france
@@ -2493,6 +2533,8 @@ store
 dispatch
 (
 IPProtectionAction
+.
+LocationAction
 .
 CountryListChanged
 (
@@ -2561,6 +2603,8 @@ captureMiddleware
 assertLastAction
 (
 IPProtectionAction
+.
+LocationAction
 .
 LocationChanged
 :
@@ -2658,6 +2702,8 @@ dispatch
 (
 IPProtectionAction
 .
+LocationAction
+.
 CountryListChanged
 (
 countries
@@ -2704,6 +2750,8 @@ dispatch
 (
 IPProtectionAction
 .
+LocationAction
+.
 LocationChanged
 (
 france
@@ -2744,6 +2792,8 @@ captureMiddleware
 assertLastAction
 (
 IPProtectionAction
+.
+LocationAction
 .
 LocationChanged
 :
@@ -2867,6 +2917,8 @@ dispatch
 (
 IPProtectionAction
 .
+LocationAction
+.
 CountryListChanged
 (
 countries
@@ -2899,6 +2951,8 @@ store
 dispatch
 (
 IPProtectionAction
+.
+LocationAction
 .
 LocationChanged
 (
@@ -2941,6 +2995,8 @@ assertNotDispatched
 (
 IPProtectionAction
 .
+LocationAction
+.
 LocationReset
 :
 :
@@ -2951,6 +3007,8 @@ captureMiddleware
 assertLastAction
 (
 IPProtectionAction
+.
+LocationAction
 .
 LocationChanged
 :
@@ -3049,6 +3107,8 @@ dispatch
 (
 IPProtectionAction
 .
+LocationAction
+.
 CountryListChanged
 (
 countries
@@ -3095,6 +3155,8 @@ dispatch
 (
 IPProtectionAction
 .
+LocationAction
+.
 LocationChanged
 (
 france
@@ -3133,6 +3195,8 @@ captureMiddleware
 assertLastAction
 (
 IPProtectionAction
+.
+LocationAction
 .
 LocationReset
 :

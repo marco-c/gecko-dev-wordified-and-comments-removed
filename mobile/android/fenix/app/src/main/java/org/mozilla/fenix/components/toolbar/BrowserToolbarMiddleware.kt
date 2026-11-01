@@ -3252,6 +3252,8 @@ dispatch
 (
 IPProtectionAction
 .
+ActivationAction
+.
 ProxyActivationShown
 )
 next

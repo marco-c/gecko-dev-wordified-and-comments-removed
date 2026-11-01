@@ -317,6 +317,8 @@ action
 is
 IPProtectionAction
 .
+ActivationAction
+.
 ToggleFailed
 -
 >
@@ -339,6 +341,8 @@ connectionError
 )
 is
 IPProtectionAction
+.
+LocationAction
 .
 LocationReset
 -

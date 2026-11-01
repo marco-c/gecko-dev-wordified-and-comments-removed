@@ -151,18 +151,6 @@ ipprotection
 .
 store
 .
-InternalAction
-import
-mozilla
-.
-components
-.
-feature
-.
-ipprotection
-.
-store
-.
 state
 .
 AccountStatus
@@ -339,7 +327,9 @@ store
 .
 dispatch
 (
-InternalAction
+IPProtectionAction
+.
+AccountAction
 .
 AccountReadyForEnrollment
 )
@@ -468,7 +458,9 @@ store
 .
 dispatch
 (
-InternalAction
+IPProtectionAction
+.
+AccountAction
 .
 AccountManagerStateChanged
 (
@@ -481,7 +473,9 @@ store
 .
 dispatch
 (
-InternalAction
+IPProtectionAction
+.
+AccountAction
 .
 AccountManagerStateChanged
 (
@@ -501,6 +495,8 @@ dispatch
 (
 IPProtectionAction
 .
+EligibilityAction
+.
 EligibilityChanged
 (
 EligibilityStatus
@@ -518,6 +514,8 @@ store
 dispatch
 (
 IPProtectionAction
+.
+ServiceAction
 .
 ServiceStateChanged
 (
@@ -634,6 +632,8 @@ assertFirstAction
 (
 IPProtectionAction
 .
+LocationAction
+.
 LocationSwitchFailed
 :
 :
@@ -644,6 +644,8 @@ middleware
 assertNotDispatched
 (
 IPProtectionAction
+.
+ActivationAction
 .
 ToggleFailed
 :
@@ -722,6 +724,8 @@ assertFirstAction
 (
 IPProtectionAction
 .
+ActivationAction
+.
 ToggleFailed
 :
 :
@@ -732,6 +736,8 @@ middleware
 assertNotDispatched
 (
 IPProtectionAction
+.
+LocationAction
 .
 LocationSwitchFailed
 :
@@ -800,6 +806,8 @@ assertFirstAction
 (
 IPProtectionAction
 .
+ActivationAction
+.
 ToggleFailed
 :
 :
@@ -810,6 +818,8 @@ middleware
 assertNotDispatched
 (
 IPProtectionAction
+.
+LocationAction
 .
 LocationSwitchFailed
 :

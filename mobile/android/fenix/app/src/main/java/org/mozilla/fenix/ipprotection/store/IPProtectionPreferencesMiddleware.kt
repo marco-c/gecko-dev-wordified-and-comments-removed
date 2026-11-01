@@ -293,6 +293,8 @@ action
 is
 IPProtectionAction
 .
+ActivationAction
+.
 Toggle
 &
 &

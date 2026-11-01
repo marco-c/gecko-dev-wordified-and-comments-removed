@@ -273,6 +273,8 @@ assertFirstAction
 (
 IPProtectionAction
 .
+EligibilityAction
+.
 EligibilityChanged
 :
 :
@@ -408,6 +410,8 @@ assertLastAction
 (
 IPProtectionAction
 .
+EligibilityAction
+.
 EligibilityChanged
 :
 :
@@ -531,6 +535,8 @@ captureMiddleware
 assertNotDispatched
 (
 IPProtectionAction
+.
+EligibilityAction
 .
 EligibilityChanged
 :

@@ -1072,6 +1072,8 @@ dispatch
 (
 IPProtectionAction
 .
+EligibilityAction
+.
 EligibilityChanged
 (
 EligibilityStatus
@@ -1146,6 +1148,8 @@ store
 dispatch
 (
 IPProtectionAction
+.
+ActivationAction
 .
 Toggle
 )
@@ -1222,6 +1226,8 @@ store
 dispatch
 (
 IPProtectionAction
+.
+ActivationAction
 .
 Toggle
 )
@@ -1475,6 +1481,8 @@ store
 dispatch
 (
 IPProtectionAction
+.
+ActivationAction
 .
 Toggle
 )

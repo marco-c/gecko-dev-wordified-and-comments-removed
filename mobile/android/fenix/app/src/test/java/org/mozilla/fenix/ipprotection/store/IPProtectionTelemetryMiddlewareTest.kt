@@ -828,6 +828,8 @@ dispatch
 (
 IPProtectionAction
 .
+ActivationAction
+.
 ToggleFailed
 (
 ActivationOperation
@@ -840,6 +842,8 @@ store
 dispatch
 (
 IPProtectionAction
+.
+ActivationAction
 .
 ToggleFailed
 (
@@ -951,6 +955,8 @@ dispatch
 (
 IPProtectionAction
 .
+LocationAction
+.
 LocationSwitchFailed
 (
 )
@@ -960,6 +966,8 @@ store
 dispatch
 (
 IPProtectionAction
+.
+LocationAction
 .
 LocationSwitchFailed
 (
@@ -1068,6 +1076,8 @@ store
 dispatch
 (
 IPProtectionAction
+.
+LocationAction
 .
 LocationUpdateFailed
 (
@@ -1187,6 +1197,8 @@ dispatch
 (
 IPProtectionAction
 .
+ActivationAction
+.
 ToggleFailed
 (
 ActivationOperation
@@ -1248,6 +1260,8 @@ store
 dispatch
 (
 IPProtectionAction
+.
+ActivationAction
 .
 ToggleFailed
 (
@@ -1324,6 +1338,8 @@ store
 dispatch
 (
 IPProtectionAction
+.
+ActivationAction
 .
 ToggleFailed
 (
@@ -1403,6 +1419,8 @@ dispatch
 (
 IPProtectionAction
 .
+ActivationAction
+.
 ToggleFailed
 (
 ActivationOperation
@@ -1415,6 +1433,8 @@ store
 dispatch
 (
 IPProtectionAction
+.
+ActivationAction
 .
 ToggleFailed
 (
@@ -1593,6 +1613,8 @@ serviceStatus
 dispatch
 (
 IPProtectionAction
+.
+ActivationAction
 .
 ToggleFailed
 (
@@ -1776,6 +1798,8 @@ proxyStatus
 dispatch
 (
 IPProtectionAction
+.
+ActivationAction
 .
 ToggleFailed
 (
@@ -2017,6 +2041,8 @@ dispatch
 (
 IPProtectionAction
 .
+ActivationAction
+.
 ToggleFailed
 (
 ActivationOperation
@@ -2102,6 +2128,8 @@ dispatch
 (
 IPProtectionAction
 .
+LocationAction
+.
 LocationChanged
 (
 Country
@@ -2125,6 +2153,8 @@ store
 dispatch
 (
 IPProtectionAction
+.
+LocationAction
 .
 LocationChanged
 (
@@ -2244,6 +2274,8 @@ dispatch
 (
 IPProtectionAction
 .
+LocationAction
+.
 LocationChanged
 (
 Country
@@ -2329,6 +2361,8 @@ store
 dispatch
 (
 IPProtectionAction
+.
+LocationAction
 .
 LocationChanged
 (
@@ -2447,6 +2481,8 @@ dispatch
 (
 IPProtectionAction
 .
+LocationAction
+.
 LocationChanged
 (
 Country
@@ -2470,6 +2506,8 @@ store
 dispatch
 (
 IPProtectionAction
+.
+LocationAction
 .
 LocationSwitchFailed
 (
@@ -2581,6 +2619,8 @@ createStore
 dispatch
 (
 IPProtectionAction
+.
+LocationAction
 .
 LocationReset
 (
@@ -2704,6 +2744,8 @@ store
 dispatch
 (
 IPProtectionAction
+.
+LocationAction
 .
 LocationReset
 (
@@ -2833,6 +2875,8 @@ store
 dispatch
 (
 IPProtectionAction
+.
+LocationAction
 .
 PersistedLocationUnavailable
 (
@@ -2965,6 +3009,8 @@ store
 dispatch
 (
 IPProtectionAction
+.
+LocationAction
 .
 LocationReset
 (
@@ -3129,6 +3175,8 @@ AccountStatus
 dispatch
 (
 IPProtectionAction
+.
+AccountAction
 .
 AccountStateChanged
 (

@@ -353,6 +353,8 @@ dispatch
 (
 IPProtectionAction
 .
+ActivationAction
+.
 ToggleFailed
 (
 ActivationOperation
@@ -405,6 +407,8 @@ ipProtectionStore
 dispatch
 (
 IPProtectionAction
+.
+LocationAction
 .
 LocationReset
 (
@@ -468,6 +472,8 @@ ipProtectionStore
 dispatch
 (
 IPProtectionAction
+.
+EligibilityAction
 .
 EligibilityChanged
 (
@@ -572,6 +578,8 @@ ipProtectionStore
 dispatch
 (
 IPProtectionAction
+.
+ActivationAction
 .
 ToggleFailed
 (

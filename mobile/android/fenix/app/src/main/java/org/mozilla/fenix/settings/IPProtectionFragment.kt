@@ -578,6 +578,8 @@ dispatch
 (
 IPProtectionAction
 .
+ActivationAction
+.
 Toggle
 )
 }
@@ -741,6 +743,8 @@ dispatch
 (
 IPProtectionAction
 .
+AccountAction
+.
 CheckAccount
 )
 requireComponents
@@ -752,6 +756,8 @@ store
 dispatch
 (
 IPProtectionAction
+.
+LocationAction
 .
 CheckLocations
 )
@@ -813,6 +819,8 @@ store
 dispatch
 (
 IPProtectionAction
+.
+ActivationAction
 .
 Toggle
 )
@@ -884,6 +892,8 @@ store
 dispatch
 (
 IPProtectionAction
+.
+ActivationAction
 .
 Toggle
 )

@@ -535,6 +535,8 @@ action
 is
 IPProtectionAction
 .
+ActivationAction
+.
 ToggleFailed
 -
 >
@@ -553,6 +555,8 @@ operation
 is
 IPProtectionAction
 .
+LocationAction
+.
 LocationSwitchFailed
 -
 >
@@ -568,6 +572,8 @@ error
 is
 IPProtectionAction
 .
+LocationAction
+.
 LocationUpdateFailed
 -
 >
@@ -579,6 +585,8 @@ error
 )
 is
 IPProtectionAction
+.
+LocationAction
 .
 LocationChanged
 -
@@ -593,6 +601,8 @@ action
 is
 IPProtectionAction
 .
+LocationAction
+.
 LocationReset
 -
 >
@@ -605,6 +615,8 @@ action
 )
 is
 IPProtectionAction
+.
+LocationAction
 .
 PersistedLocationUnavailable
 -
@@ -978,6 +990,8 @@ action
 :
 IPProtectionAction
 .
+LocationAction
+.
 LocationChanged
 )
 {
@@ -1050,6 +1064,8 @@ action
 :
 IPProtectionAction
 .
+LocationAction
+.
 LocationReset
 )
 {
@@ -1084,6 +1100,8 @@ IPProtectionState
 action
 :
 IPProtectionAction
+.
+LocationAction
 .
 PersistedLocationUnavailable
 )

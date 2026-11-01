@@ -452,6 +452,8 @@ dispatch
 (
 IPProtectionAction
 .
+ActivationAction
+.
 Toggle
 )
 }

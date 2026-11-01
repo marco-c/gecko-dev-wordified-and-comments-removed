@@ -125,7 +125,7 @@ ipprotection
 .
 store
 .
-IPProtectionStore
+IPProtectionAction
 import
 mozilla
 .
@@ -137,7 +137,7 @@ ipprotection
 .
 store
 .
-InternalAction
+IPProtectionStore
 import
 mozilla
 .
@@ -527,7 +527,9 @@ store
 .
 dispatch
 (
-InternalAction
+IPProtectionAction
+.
+AccountAction
 .
 AwaitingAuth
 (
@@ -686,7 +688,9 @@ store
 .
 dispatch
 (
-InternalAction
+IPProtectionAction
+.
+AccountAction
 .
 AwaitingAuth
 (

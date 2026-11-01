@@ -4048,6 +4048,8 @@ dispatch
 (
 IPProtectionAction
 .
+ServiceAction
+.
 ServiceStateChanged
 (
 ServiceState
@@ -4060,6 +4062,8 @@ ipProtectionStore
 dispatch
 (
 IPProtectionAction
+.
+ProxyAction
 .
 ProxyStateChanged
 (
@@ -4255,6 +4259,8 @@ dispatch
 (
 IPProtectionAction
 .
+ServiceAction
+.
 ServiceStateChanged
 (
 ServiceState
@@ -4267,6 +4273,8 @@ ipProtectionStore
 dispatch
 (
 IPProtectionAction
+.
+ProxyAction
 .
 ProxyStateChanged
 (
@@ -4443,6 +4451,8 @@ dispatch
 (
 IPProtectionAction
 .
+ServiceAction
+.
 ServiceStateChanged
 (
 ServiceState
@@ -4455,6 +4465,8 @@ ipProtectionStore
 dispatch
 (
 IPProtectionAction
+.
+ProxyAction
 .
 ProxyStateChanged
 (
@@ -4516,6 +4528,8 @@ ipProtectionStore
 dispatch
 (
 IPProtectionAction
+.
+ActivationAction
 .
 ProxyActivationShown
 )

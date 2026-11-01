@@ -529,6 +529,8 @@ assertNotDispatched
 (
 IPProtectionAction
 .
+LocationAction
+.
 LocationChanged
 :
 :

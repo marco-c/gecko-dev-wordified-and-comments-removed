@@ -843,6 +843,8 @@ as
 [
 IPProtectionAction
 .
+LocationAction
+.
 CountryListChanged
 ]
 the
@@ -850,8 +852,8 @@ same
 action
 the
 engine
-delegate
 *
+delegate
 dispatches
 in
 production
@@ -1093,6 +1095,8 @@ store
 dispatch
 (
 IPProtectionAction
+.
+LocationAction
 .
 CountryListChanged
 (

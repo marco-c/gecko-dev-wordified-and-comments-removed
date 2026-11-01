@@ -722,6 +722,8 @@ dispatch
 (
 IPProtectionAction
 .
+LocationAction
+.
 LocationChanged
 (
 location

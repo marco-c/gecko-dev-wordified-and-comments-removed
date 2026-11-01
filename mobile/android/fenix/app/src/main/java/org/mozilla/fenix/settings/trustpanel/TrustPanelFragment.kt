@@ -2842,6 +2842,8 @@ dispatch
 (
 IPProtectionAction
 .
+ActivationAction
+.
 Toggle
 )
 IPProtectionStatus

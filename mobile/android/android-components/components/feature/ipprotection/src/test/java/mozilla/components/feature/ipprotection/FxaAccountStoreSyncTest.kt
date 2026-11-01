@@ -147,7 +147,7 @@ ipprotection
 .
 store
 .
-InternalAction
+IPProtectionAction
 import
 mozilla
 .
@@ -378,7 +378,9 @@ captureMiddleware
 .
 assertFirstAction
 (
-InternalAction
+IPProtectionAction
+.
+AccountAction
 .
 AccountManagerStateChanged
 :
@@ -529,7 +531,9 @@ captureMiddleware
 .
 assertLastAction
 (
-InternalAction
+IPProtectionAction
+.
+AccountAction
 .
 AccountManagerStateChanged
 :
@@ -660,7 +664,9 @@ captureMiddleware
 .
 assertLastAction
 (
-InternalAction
+IPProtectionAction
+.
+AccountAction
 .
 AccountManagerStateChanged
 :
@@ -775,7 +781,9 @@ captureMiddleware
 .
 assertLastAction
 (
-InternalAction
+IPProtectionAction
+.
+AccountAction
 .
 AccountManagerStateChanged
 :
@@ -919,7 +927,9 @@ captureMiddleware
 .
 assertNotDispatched
 (
-InternalAction
+IPProtectionAction
+.
+AccountAction
 .
 AccountManagerStateChanged
 :
@@ -976,7 +986,9 @@ captureMiddleware
 .
 assertLastAction
 (
-InternalAction
+IPProtectionAction
+.
+AccountAction
 .
 AccountManagerStateChanged
 :
@@ -1069,7 +1081,9 @@ captureMiddleware
 .
 assertLastAction
 (
-InternalAction
+IPProtectionAction
+.
+AccountAction
 .
 AccountManagerStateChanged
 :
@@ -1166,7 +1180,9 @@ captureMiddleware
 .
 assertLastAction
 (
-InternalAction
+IPProtectionAction
+.
+AccountAction
 .
 AccountManagerStateChanged
 :
