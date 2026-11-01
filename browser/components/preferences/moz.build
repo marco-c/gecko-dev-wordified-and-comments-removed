@@ -105,17 +105,6 @@ tests
 credentials
 /
 browser
--
-srd
-.
-toml
-"
-"
-tests
-/
-credentials
-/
-browser
 .
 toml
 "
