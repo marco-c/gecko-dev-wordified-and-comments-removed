@@ -459,6 +459,13 @@ Bug
 ]
 [
 "
+browser_perDeviceSync
+.
+js
+"
+]
+[
+"
 browser_primaryPassword
 .
 js
