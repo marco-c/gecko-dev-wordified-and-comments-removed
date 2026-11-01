@@ -708,6 +708,9 @@ return
 NS_OK
 ;
 }
+nsAutoScriptBlocker
+scriptBlocker
+;
 if
 (
 aReason
@@ -4122,6 +4125,9 @@ HideCaretsAndDispatchCaretStateChangedEvent
 __FUNCTION__
 )
 ;
+nsAutoScriptBlocker
+scriptBlocker
+;
 HideCaretsAndDispatchCaretStateChangedEvent
 (
 )
@@ -4160,6 +4166,9 @@ HideCaretsAndDispatchCaretStateChangedEvent
 "
 __FUNCTION__
 )
+;
+nsAutoScriptBlocker
+scriptBlocker
 ;
 HideCaretsAndDispatchCaretStateChangedEvent
 (
