@@ -1055,6 +1055,10 @@ mutex_
 ;
 int64_t
 shared_frame_id_
+RTC_GUARDED_BY
+(
+mutex_
+)
 =
 0
 ;
