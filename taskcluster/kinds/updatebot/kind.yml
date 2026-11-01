@@ -426,6 +426,10 @@ linux64
 cargo
 -
 vet
+-
+linux64
+-
+gn
 cron
 -
 win
