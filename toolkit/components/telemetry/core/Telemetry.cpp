@@ -2948,11 +2948,6 @@ XRE_IsRDDProcess
 )
 |
 |
-XRE_IsSocketProcess
-(
-)
-|
-|
 XRE_IsUtilityProcess
 (
 )

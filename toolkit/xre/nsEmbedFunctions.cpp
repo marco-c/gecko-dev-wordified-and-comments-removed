@@ -2316,9 +2316,6 @@ case
 GeckoProcessType_RDD
 :
 case
-GeckoProcessType_Socket
-:
-case
 GeckoProcessType_Utility
 :
 uiLoopType

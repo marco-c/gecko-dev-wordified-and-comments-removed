@@ -136,14 +136,6 @@ Rdd
 <
 GeckoProcessType_RDD
 )
-Socket
-=
-(
-1
-<
-<
-GeckoProcessType_Socket
-)
 Utility
 =
 (

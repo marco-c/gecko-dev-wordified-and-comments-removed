@@ -23,7 +23,6 @@ GMPlugin
 GPU
 VR
 RDD
-Socket
 ForkServer
 Utility
 [

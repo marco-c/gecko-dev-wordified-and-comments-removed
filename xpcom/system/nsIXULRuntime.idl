@@ -1415,13 +1415,6 @@ PROCESS_TYPE_RDD
 const
 unsigned
 long
-PROCESS_TYPE_SOCKET
-=
-8
-;
-const
-unsigned
-long
 PROCESS_TYPE_FORKSERVER
 =
 10

@@ -32432,9 +32432,6 @@ XP_WIN
 case
 GeckoProcessType_RDD
 :
-case
-GeckoProcessType_Socket
-:
 return
 false
 ;
