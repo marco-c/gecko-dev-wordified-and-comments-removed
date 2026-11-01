@@ -15,7 +15,7 @@ test
 '
 aria
 -
-labelled
+label
 =
 '
 the
