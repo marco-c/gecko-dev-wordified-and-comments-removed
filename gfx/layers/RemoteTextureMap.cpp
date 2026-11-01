@@ -1603,9 +1603,9 @@ mozilla
 ipc
 :
 :
-Shmem
+SharedMemoryMapping
 &
-aDestShmem
+aDestMapping
 const
 gfx
 :
@@ -1637,7 +1637,7 @@ GetLatestBufferSnapshot
 (
 aOwnerId
 mForPid
-aDestShmem
+aDestMapping
 aDestSize
 aDestStride
 )
@@ -3119,9 +3119,9 @@ mozilla
 ipc
 :
 :
-Shmem
+SharedMemoryMapping
 &
-aDestShmem
+aDestMapping
 const
 gfx
 :
@@ -3443,7 +3443,7 @@ sharedTexture
 >
 GetSnapshot
 (
-aDestShmem
+aDestMapping
 aDestStride
 )
 ;
@@ -3489,9 +3489,9 @@ uint8_t
 *
 dst
 =
-aDestShmem
+aDestMapping
 .
-get
+DataAs
 <
 uint8_t
 >

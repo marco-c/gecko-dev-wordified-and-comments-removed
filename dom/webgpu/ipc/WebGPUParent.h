@@ -313,9 +313,6 @@ ipc
 IPCResult
 GetFrontBufferSnapshot
 (
-IProtocol
-*
-aProtocol
 const
 layers
 :
@@ -331,12 +328,12 @@ const
 RawId
 &
 aCommandBufferId
-Maybe
-<
-Shmem
->
+ipc
+:
+:
+MutableSharedMemoryHandle
 &
-aShmem
+aHandle
 gfx
 :
 :

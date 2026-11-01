@@ -1248,7 +1248,6 @@ GetFrontBufferSnapshot
 (
 &
 buffer
-this
 )
 ;
 if
@@ -1292,9 +1291,6 @@ actor
 )
 )
 {
-IntSize
-size
-;
 if
 (
 aOwnerId
@@ -1355,6 +1351,9 @@ CommandBufferId
 )
 ;
 }
+IntSize
+size
+;
 uint32_t
 stride
 =
@@ -1374,7 +1373,6 @@ webgpu
 >
 GetFrontBufferSnapshot
 (
-this
 *
 aOwnerId
 *
