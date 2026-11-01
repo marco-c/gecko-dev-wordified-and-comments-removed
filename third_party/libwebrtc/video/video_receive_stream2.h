@@ -1195,7 +1195,7 @@ RTC_RUN_ON
 worker_sequence_checker_
 )
 ;
-bool
+void
 RegisterCodecsOnReceiver
 (
 const
