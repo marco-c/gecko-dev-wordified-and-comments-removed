@@ -3888,7 +3888,7 @@ quantizer
 }
 RTC_LOG
 (
-LS_WARNING
+LS_VERBOSE
 )
 <
 <
