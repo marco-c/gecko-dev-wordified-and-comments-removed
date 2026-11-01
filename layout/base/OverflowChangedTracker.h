@@ -172,7 +172,10 @@ mEntries
 depth
 ]
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 FrameChangedMap
 >
@@ -631,7 +634,10 @@ LastElement
 (
 )
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 FrameChangedMap
 >

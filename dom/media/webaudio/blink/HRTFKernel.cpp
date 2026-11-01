@@ -251,10 +251,10 @@ x
 }
 m_fftFrame
 =
-mozilla
+std
 :
 :
-MakeUnique
+make_unique
 <
 FFTBlock
 >

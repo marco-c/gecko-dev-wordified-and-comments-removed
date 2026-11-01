@@ -305,7 +305,10 @@ nsString
 >
 string
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 nsString
 >
@@ -331,7 +334,10 @@ std
 :
 make_pair
 (
-MakeUnique
+std
+:
+:
+make_unique
 <
 StringValue
 >
@@ -489,7 +495,10 @@ std
 :
 make_pair
 (
-MakeUnique
+std
+:
+:
+make_unique
 <
 NumberValue
 >

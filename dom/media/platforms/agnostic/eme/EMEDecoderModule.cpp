@@ -851,7 +851,10 @@ mDecrypts
 InsertOrUpdate
 (
 aSample
-MakeUnique
+std
+:
+:
+make_unique
 <
 DecryptPromiseRequestHolder
 >
@@ -2788,7 +2791,10 @@ mMimeType
 {
 converter
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 ADTSSampleConverter
 >

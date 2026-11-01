@@ -5465,7 +5465,10 @@ aOuterWindow
 ;
 mTimeoutManager
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 dom
 :
@@ -34763,7 +34766,10 @@ nullptr
 auto
 flushResolver
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 PromiseDocumentFlushedResolver
 >

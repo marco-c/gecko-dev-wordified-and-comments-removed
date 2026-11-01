@@ -2378,7 +2378,10 @@ aContentDispositionFilename
 {
 mContentDispositionFilename
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 nsString
 >

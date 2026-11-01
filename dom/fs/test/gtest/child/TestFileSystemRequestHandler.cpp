@@ -556,7 +556,10 @@ GetFileSystemRequestHandler
 )
 {
 return
-MakeUnique
+std
+:
+:
+make_unique
 <
 FileSystemRequestHandler
 >

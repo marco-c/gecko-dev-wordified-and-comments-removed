@@ -508,7 +508,10 @@ GetZoom
 }
 mAnimationPhysics
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 ScrollAnimationMSDPhysics
 >
@@ -523,7 +526,10 @@ else
 {
 mAnimationPhysics
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 ScrollAnimationBezierPhysics
 >

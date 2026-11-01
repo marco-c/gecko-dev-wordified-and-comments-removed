@@ -7,11 +7,6 @@ h
 "
 #
 include
-<
-cmath
->
-#
-include
 "
 AlignmentUtils
 .
@@ -1506,10 +1501,10 @@ ZeroPoleFilterPack4
 }
 m_sourceChannels
 =
-mozilla
+std
 :
 :
-MakeUnique
+make_unique
 <
 const
 float
@@ -1523,10 +1518,10 @@ numberOfChannels
 ;
 m_destinationChannels
 =
-mozilla
+std
 :
 :
-MakeUnique
+make_unique
 <
 float
 *

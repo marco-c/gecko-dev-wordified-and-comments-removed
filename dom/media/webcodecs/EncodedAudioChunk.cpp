@@ -491,7 +491,10 @@ nullptr
 ;
 }
 return
-MakeUnique
+std
+:
+:
+make_unique
 <
 EncodedAudioChunkData
 >

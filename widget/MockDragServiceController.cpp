@@ -635,7 +635,10 @@ aEventType
 {
 widgetEvent
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 WidgetMouseEvent
 >
@@ -657,7 +660,10 @@ else
 {
 widgetEvent
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 WidgetDragEvent
 >

@@ -3142,7 +3142,10 @@ urlFrom
 auto
 urlTo
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 nsCString
 >

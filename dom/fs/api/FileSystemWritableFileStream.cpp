@@ -4211,7 +4211,10 @@ aDelta
 auto
 promiseHolder
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 MozPromiseHolder
 <

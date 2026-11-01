@@ -150,7 +150,10 @@ aGlobal
 )
 mSHInfo
 (
-MakeUnique
+std
+:
+:
+make_unique
 <
 class
 SessionHistoryInfo

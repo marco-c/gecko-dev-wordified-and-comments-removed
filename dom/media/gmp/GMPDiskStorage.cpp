@@ -649,7 +649,10 @@ mRecords
 InsertOrUpdate
 (
 recordName
-MakeUnique
+std
+:
+:
+make_unique
 <
 Record
 >
@@ -745,7 +748,10 @@ entry
 .
 Insert
 (
-MakeUnique
+std
+:
+:
+make_unique
 <
 Record
 >

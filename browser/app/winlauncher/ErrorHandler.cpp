@@ -175,10 +175,10 @@ fileLen
 auto
 evtDataBuf
 =
-mozilla
+std
 :
 :
-MakeUnique
+make_unique
 <
 char
 [

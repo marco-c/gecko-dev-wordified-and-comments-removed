@@ -466,7 +466,10 @@ aHandle
 )
 mBuffer
 (
-MakeUnique
+std
+:
+:
+make_unique
 <
 char
 [

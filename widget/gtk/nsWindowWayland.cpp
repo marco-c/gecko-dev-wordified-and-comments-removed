@@ -1601,7 +1601,10 @@ mCompositorVsyncDispatcherLock
 {
 mCompositorVsyncDispatcherLock
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 Mutex
 >

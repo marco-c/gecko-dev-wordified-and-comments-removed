@@ -362,10 +362,10 @@ PackageEntry
 >
 entry
 =
-mozilla
+std
 :
 :
-MakeUnique
+make_unique
 <
 PackageEntry
 >

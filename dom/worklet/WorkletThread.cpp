@@ -1304,7 +1304,10 @@ ThreadEventQueue
 *
 >
 (
-MakeUnique
+std
+:
+:
+make_unique
 <
 mozilla
 :

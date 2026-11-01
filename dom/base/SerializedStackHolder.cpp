@@ -492,7 +492,10 @@ SerializedStackHolder
 >
 stack
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 SerializedStackHolder
 >

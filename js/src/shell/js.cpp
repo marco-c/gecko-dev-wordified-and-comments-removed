@@ -44358,10 +44358,10 @@ ShellSourceHook
 >
 hook
 =
-mozilla
+std
 :
 :
-MakeUnique
+make_unique
 <
 ShellSourceHook
 >

@@ -4224,7 +4224,10 @@ StructuredCloneHolder
 >
 serializedOptions
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 StructuredCloneHolder
 >

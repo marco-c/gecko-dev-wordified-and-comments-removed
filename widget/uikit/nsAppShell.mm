@@ -696,10 +696,10 @@ screenManager
 .
 SetHelper
 (
-mozilla
+std
 :
 :
-MakeUnique
+make_unique
 <
 HeadlessScreenHelper
 >
@@ -714,10 +714,10 @@ screenManager
 .
 SetHelper
 (
-mozilla
+std
 :
 :
-MakeUnique
+make_unique
 <
 ScreenHelperUIKit
 >

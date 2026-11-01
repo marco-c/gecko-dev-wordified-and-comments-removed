@@ -7179,7 +7179,10 @@ return
 I420Buffer
 result
 {
-MakeUnique
+std
+:
+:
+make_unique
 <
 uint8_t
 [
@@ -8278,7 +8281,10 @@ aSize
 )
 {
 return
-MakeUnique
+std
+:
+:
+make_unique
 <
 uint8_t
 [

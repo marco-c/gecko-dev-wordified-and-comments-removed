@@ -1870,7 +1870,10 @@ MightThrowJSException
 ;
 mBuffer
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 JSAutoStructuredCloneBuffer
 >
@@ -2127,7 +2130,10 @@ Clear
 ;
 mBuffer
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 JSAutoStructuredCloneBuffer
 >

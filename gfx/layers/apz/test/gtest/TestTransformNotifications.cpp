@@ -128,7 +128,10 @@ CSSRect
 ;
 mRegistration
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 ScopedLayerTreeRegistration
 >
@@ -202,7 +205,10 @@ CSSRect
 ;
 mRegistration
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 ScopedLayerTreeRegistration
 >

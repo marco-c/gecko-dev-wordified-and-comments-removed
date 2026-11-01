@@ -5070,7 +5070,10 @@ aStr
 auto
 duplicate
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 char
 [
@@ -5121,7 +5124,10 @@ size
 auto
 duplicate
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 char
 [
@@ -5915,7 +5921,10 @@ const
 auto
 chars
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 char
 [

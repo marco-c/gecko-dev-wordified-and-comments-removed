@@ -2087,10 +2087,10 @@ move
 mJITFrameInfoForPreviousJSContexts
 )
 :
-mozilla
+std
 :
 :
-MakeUnique
+make_unique
 <
 JITFrameInfo
 >

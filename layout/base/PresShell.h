@@ -7568,7 +7568,10 @@ void
 >
 mAllocatedPointers
 {
-MakeUnique
+std
+:
+:
+make_unique
 <
 nsTHashSet
 <

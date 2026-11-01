@@ -1639,7 +1639,10 @@ SocketProcessReady
 {
 mPAC
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 RemoteProxyAutoConfig
 >
@@ -1651,7 +1654,10 @@ else
 {
 mPAC
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 ProxyAutoConfig
 >

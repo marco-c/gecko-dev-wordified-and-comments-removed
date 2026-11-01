@@ -775,7 +775,10 @@ mNativeMenu
 }
 mIcon
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 nsMenuItemIconX
 >

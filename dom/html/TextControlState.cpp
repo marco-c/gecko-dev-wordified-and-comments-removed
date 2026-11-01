@@ -6831,7 +6831,10 @@ else
 {
 passwordMaskData
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 PasswordMaskData
 >

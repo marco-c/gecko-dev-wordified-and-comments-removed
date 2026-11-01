@@ -15519,7 +15519,10 @@ aStream
 ;
 aStream
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 std
 :
@@ -17699,7 +17702,10 @@ consoleNeedsDisplayList
 {
 ss
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 std
 :

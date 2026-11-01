@@ -1352,10 +1352,10 @@ powershellPath
 auto
 exePath
 =
-mozilla
+std
 :
 :
-MakeUnique
+make_unique
 <
 wchar_t
 [

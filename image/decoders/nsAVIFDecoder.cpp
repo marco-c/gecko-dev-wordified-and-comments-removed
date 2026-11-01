@@ -1700,7 +1700,10 @@ IndiceWrapper
 >
 wrapper
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 IndiceWrapper
 >
@@ -1732,7 +1735,10 @@ timescale
 ;
 aIteratorOut
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 SampleIterator
 >
@@ -5797,7 +5803,10 @@ AVIFDecodedData
 >
 data
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 AVIFDecodedData
 >
@@ -6595,7 +6604,10 @@ AVIFDecodedData
 >
 data
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 AVIFDecodedData
 >

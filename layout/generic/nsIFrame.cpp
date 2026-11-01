@@ -17244,7 +17244,10 @@ combines3DTransformWithAncestors
 {
 autoPreserves3DContext
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 nsDisplayListBuilder
 :

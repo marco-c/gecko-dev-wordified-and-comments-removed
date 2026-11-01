@@ -2042,7 +2042,10 @@ false
 }
 mSVGGlyphs
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 gfxSVGGlyphs
 >
@@ -4177,7 +4180,10 @@ mSupportedFeatures
 {
 mSupportedFeatures
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 nsTHashMap
 <
@@ -4578,7 +4584,10 @@ mFeatureInputs
 {
 mFeatureInputs
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 nsTHashMap
 <
@@ -4912,7 +4921,10 @@ mSupportedFeatures
 {
 mSupportedFeatures
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 nsTHashMap
 <

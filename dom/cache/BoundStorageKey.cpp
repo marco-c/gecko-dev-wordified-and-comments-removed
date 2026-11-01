@@ -803,7 +803,10 @@ aGlobal
 )
 mPrincipalInfo
 (
-MakeUnique
+std
+:
+:
+make_unique
 <
 PrincipalInfo
 >

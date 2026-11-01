@@ -2355,7 +2355,10 @@ aSize
 ;
 mData
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 T
 [

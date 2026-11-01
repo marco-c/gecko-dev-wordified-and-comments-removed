@@ -2075,7 +2075,10 @@ aTxn
 auto
 transaction
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 TransactionBuilder
 >
@@ -2176,7 +2179,10 @@ aTxn
 auto
 transaction
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 TransactionBuilder
 >

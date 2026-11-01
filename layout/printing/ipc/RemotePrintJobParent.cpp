@@ -538,7 +538,10 @@ return
 }
 mPrintTranslator
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 PrintTranslator
 >

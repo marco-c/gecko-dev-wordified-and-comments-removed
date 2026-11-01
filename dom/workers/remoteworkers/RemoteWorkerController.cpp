@@ -914,7 +914,10 @@ PendingSharedWorkerOp
 >
 op
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 PendingSharedWorkerOp
 >
@@ -1250,7 +1253,10 @@ PendingServiceWorkerOp
 >
 op
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 PendingServiceWorkerOp
 >
@@ -1348,7 +1354,10 @@ PendingSWFetchEventOp
 >
 op
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 PendingSWFetchEventOp
 >

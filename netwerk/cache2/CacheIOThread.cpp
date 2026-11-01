@@ -499,7 +499,10 @@ mMonitor
 ;
 mNativeThreadHandle
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 detail
 :
@@ -1289,7 +1292,10 @@ MakeRefPtr
 ThreadEventQueue
 >
 (
-MakeUnique
+std
+:
+:
+make_unique
 <
 mozilla
 :

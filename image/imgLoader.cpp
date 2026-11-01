@@ -6989,7 +6989,10 @@ false
 ;
 mCacheTracker
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 imgCacheExpirationTracker
 >

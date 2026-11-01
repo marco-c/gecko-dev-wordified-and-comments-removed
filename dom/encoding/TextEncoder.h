@@ -78,7 +78,10 @@ aGlobal
 )
 {
 return
-MakeUnique
+std
+:
+:
+make_unique
 <
 TextEncoder
 >

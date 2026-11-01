@@ -2855,7 +2855,10 @@ mVersionCallbackList
 .
 AppendElement
 (
-MakeUnique
+std
+:
+:
+make_unique
 <
 VersionCallback
 >

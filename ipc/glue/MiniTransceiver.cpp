@@ -1238,7 +1238,10 @@ char
 >
 databuf
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 char
 [
@@ -1297,7 +1300,10 @@ Message
 >
 msg
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 IPC
 :

@@ -326,7 +326,10 @@ layers_gpu_process_allow_headless_AtStartup
 ;
 mPrefSerializer
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 ipc
 :

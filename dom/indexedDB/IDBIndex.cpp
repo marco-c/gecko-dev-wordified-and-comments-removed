@@ -29,7 +29,7 @@ h
 #
 include
 "
-IDBGetAllHelper
+IDBGetAllOptions
 .
 h
 "
@@ -959,7 +959,10 @@ return
 }
 mDeletedMetadata
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 IndexMetadata
 >

@@ -304,7 +304,10 @@ RelativeTimeFormat
 >
 rtf
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 RelativeTimeFormat
 >

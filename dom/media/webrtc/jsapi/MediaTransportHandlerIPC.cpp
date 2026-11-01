@@ -2081,7 +2081,10 @@ IPCPromise
 :
 CreateAndResolve
 (
-MakeUnique
+std
+:
+:
+make_unique
 <
 dom
 :
@@ -2111,7 +2114,10 @@ IPCPromise
 :
 CreateAndResolve
 (
-MakeUnique
+std
+:
+:
+make_unique
 <
 dom
 :
@@ -2177,7 +2183,10 @@ RTCStatsPromise
 :
 CreateAndResolve
 (
-MakeUnique
+std
+:
+:
+make_unique
 <
 dom
 :

@@ -6319,7 +6319,10 @@ aBuffer
 .
 SetChunkManager
 (
-MakeUnique
+std
+:
+:
+make_unique
 <
 ProfileBufferChunkManagerSingle
 >
@@ -6707,7 +6710,10 @@ bufferUPtr
 }
 bufferUPtr
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 ProfileChunkedBuffer
 >

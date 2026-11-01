@@ -10328,7 +10328,10 @@ mSlots
 {
 mSlots
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 Slots
 >

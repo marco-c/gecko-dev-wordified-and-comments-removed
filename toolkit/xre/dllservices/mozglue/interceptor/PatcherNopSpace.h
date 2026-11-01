@@ -403,10 +403,10 @@ status
 {
 data
 =
-mozilla
+std
 :
 :
-MakeUnique
+make_unique
 <
 wchar_t
 [

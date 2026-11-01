@@ -721,10 +721,10 @@ nsAppShell
 :
 PostEvent
 (
-mozilla
+std
 :
 :
-MakeUnique
+make_unique
 <
 IMEEvent
 >

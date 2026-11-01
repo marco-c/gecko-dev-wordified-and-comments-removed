@@ -781,7 +781,10 @@ GetAttributeList
 .
 SetAttribute
 (
-MakeUnique
+std
+:
+:
+make_unique
 <
 SdpDirectionAttribute
 >

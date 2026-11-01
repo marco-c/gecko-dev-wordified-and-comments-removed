@@ -302,10 +302,10 @@ wchar_t
 >
 hash
 =
-mozilla
+std
 :
 :
-MakeUnique
+make_unique
 <
 wchar_t
 [
@@ -772,7 +772,10 @@ NS_tchar
 >
 linkPath
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 NS_tchar
 [
@@ -816,7 +819,10 @@ NS_tchar
 >
 lockFilePath
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 NS_tchar
 [

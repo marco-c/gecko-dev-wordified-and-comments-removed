@@ -219,7 +219,10 @@ NrIceCandidateAttribute
 :
 mBits
 (
-MakeUnique
+std
+:
+:
+make_unique
 <
 nr_ice_candidate_parsedbits
 >

@@ -259,7 +259,10 @@ mLoader
 ;
 mDecoder
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 ScriptDecoder
 >

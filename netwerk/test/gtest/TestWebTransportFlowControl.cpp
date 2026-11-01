@@ -448,7 +448,10 @@ CapsuleParser
 >
 parser
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 CapsuleParser
 >
@@ -1390,7 +1393,10 @@ CapsuleParser
 >
 parser
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 CapsuleParser
 >

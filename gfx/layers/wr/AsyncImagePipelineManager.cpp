@@ -639,7 +639,10 @@ holder
 .
 Insert
 (
-MakeUnique
+std
+:
+:
+make_unique
 <
 PipelineTexturesHolder
 >
@@ -874,7 +877,10 @@ id
 auto
 holder
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 AsyncImagePipeline
 >
@@ -3596,7 +3602,10 @@ mTextureHostsUntilRenderCompleted
 .
 emplace_back
 (
-MakeUnique
+std
+:
+:
+make_unique
 <
 ForwardingTextureHost
 >
@@ -3713,7 +3722,10 @@ mExternalImages
 .
 emplace_back
 (
-MakeUnique
+std
+:
+:
+make_unique
 <
 ForwardingExternalImage
 >

@@ -1269,7 +1269,10 @@ GetChannelInfo
 ;
 principalInfo
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 mozilla
 :

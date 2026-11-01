@@ -2744,7 +2744,10 @@ be
 auto
 tmp
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 T
 [

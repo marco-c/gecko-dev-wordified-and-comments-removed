@@ -664,7 +664,10 @@ length
 auto
 doc
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 gfxSVGGlyphsDocument
 >
@@ -690,7 +693,7 @@ this
 return
 mGlyphDocs
 .
-InsertOrUpdate
+LookupOrInsert
 (
 entry
 -

@@ -1264,7 +1264,10 @@ i
 auto
 entry
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 Entry
 >

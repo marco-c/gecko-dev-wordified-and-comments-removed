@@ -2050,7 +2050,10 @@ nullptr
 auto
 cloneData
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 OffscreenCanvasCloneData
 >

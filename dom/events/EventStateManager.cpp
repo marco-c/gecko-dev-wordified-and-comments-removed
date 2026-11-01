@@ -23700,7 +23700,10 @@ OTHER
 ;
 newEvent
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 WidgetPointerEvent
 >
@@ -23788,7 +23791,10 @@ else
 {
 newEvent
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 WidgetMouseEvent
 >

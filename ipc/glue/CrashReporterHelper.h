@@ -112,7 +112,10 @@ OtherChildID
 ;
 mCrashReporter
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 ipc
 :

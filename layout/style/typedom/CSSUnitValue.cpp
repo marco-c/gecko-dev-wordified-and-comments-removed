@@ -196,7 +196,10 @@ aParent
 )
 WrapMovingNotNull
 (
-MakeUnique
+std
+:
+:
+make_unique
 <
 StyleNumericType
 >
@@ -353,7 +356,10 @@ aRv
 auto
 numericType
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 StyleNumericType
 >

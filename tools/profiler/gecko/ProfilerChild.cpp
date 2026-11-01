@@ -1726,7 +1726,10 @@ ProportionValue_literals
 auto
 writer
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 SpliceableChunkedJSONWriter
 >

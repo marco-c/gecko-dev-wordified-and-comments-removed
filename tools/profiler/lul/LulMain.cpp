@@ -4819,10 +4819,10 @@ SecMap
 >
 smap
 =
-mozilla
+std
 :
 :
-MakeUnique
+make_unique
 <
 SecMap
 >

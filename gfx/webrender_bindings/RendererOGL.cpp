@@ -2274,7 +2274,10 @@ aRootPipelineId
 ;
 mCompositionRecorder
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 layers
 :

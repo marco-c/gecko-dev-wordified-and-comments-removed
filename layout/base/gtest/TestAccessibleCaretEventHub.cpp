@@ -288,7 +288,10 @@ nullptr
 {
 mManager
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 MockAccessibleCaretManager
 >
@@ -529,7 +532,10 @@ aY
 auto
 event
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 WidgetMouseEvent
 >
@@ -680,7 +686,10 @@ aY
 auto
 event
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 WidgetTouchEvent
 >
@@ -864,7 +873,10 @@ aMessage
 auto
 event
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 WidgetWheelEvent
 >

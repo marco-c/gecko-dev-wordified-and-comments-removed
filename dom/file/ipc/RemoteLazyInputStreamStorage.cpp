@@ -444,7 +444,10 @@ StreamData
 >
 data
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 StreamData
 >

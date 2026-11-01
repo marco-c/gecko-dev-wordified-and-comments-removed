@@ -7275,7 +7275,10 @@ InitializeUdev
 {
 mUdevLib
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 udev_lib
 >

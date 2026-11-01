@@ -1795,8 +1795,6 @@ UniquePtr
 functions
 :
 -
-MakeUnique
--
 WrapUnique
 -
 TempPtrToSetter

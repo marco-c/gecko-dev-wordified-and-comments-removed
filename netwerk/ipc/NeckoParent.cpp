@@ -5227,7 +5227,10 @@ __func__
 auto
 promiseHolder
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 MozPromiseHolder
 <

@@ -911,10 +911,10 @@ release
 auto
 ret
 =
-mozilla
+std
 :
 :
-MakeUnique
+make_unique
 <
 T
 [

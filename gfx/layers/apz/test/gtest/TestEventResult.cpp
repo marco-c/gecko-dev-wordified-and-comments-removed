@@ -311,7 +311,10 @@ true
 ;
 registration
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 ScopedLayerTreeRegistration
 >
@@ -1916,7 +1919,10 @@ true
 ;
 registration
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 ScopedLayerTreeRegistration
 >

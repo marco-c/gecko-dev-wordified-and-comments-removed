@@ -63541,7 +63541,10 @@ aResult
 >
 SetCustomElementData
 (
-MakeUnique
+std
+:
+:
+make_unique
 <
 CustomElementData
 >
@@ -63952,7 +63955,10 @@ aResult
 >
 SetCustomElementData
 (
-MakeUnique
+std
+:
+:
+make_unique
 <
 CustomElementData
 >
@@ -64079,7 +64085,10 @@ aResult
 >
 SetCustomElementData
 (
-MakeUnique
+std
+:
+:
+make_unique
 <
 CustomElementData
 >

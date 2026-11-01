@@ -143,7 +143,10 @@ AsPointerEvent
 )
 ;
 return
-MakeUnique
+std
+:
+:
+make_unique
 <
 WidgetPointerEvent
 >
@@ -176,7 +179,10 @@ AsPointerEvent
 )
 ;
 return
-MakeUnique
+std
+:
+:
+make_unique
 <
 WidgetMouseEvent
 >

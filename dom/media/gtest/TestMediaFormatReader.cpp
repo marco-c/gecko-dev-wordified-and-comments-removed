@@ -3122,7 +3122,10 @@ decoder
 new
 DummyMediaDataDecoder
 (
-MakeUnique
+std
+:
+:
+make_unique
 <
 BlankAudioDataCreator
 >
