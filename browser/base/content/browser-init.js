@@ -4617,7 +4617,7 @@ perWindowIdleTask
 "
 idleDispatch
 :
-true
+window
 jsGlobal
 :
 globalThis
@@ -4625,9 +4625,7 @@ globalThis
 window
 )
 ;
-ChromeUtils
-.
-idleDispatch
+requestIdleCallback
 (
 (
 )

@@ -43,6 +43,13 @@ js
 ]
 [
 "
+browser_BrowserUtils_idle_window_leak
+.
+js
+"
+]
+[
+"
 browser_CreditCard
 .
 js
