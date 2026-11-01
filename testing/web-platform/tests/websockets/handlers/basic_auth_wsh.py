@@ -71,13 +71,19 @@ if
 request
 .
 protocol
-=
-=
+in
+(
 "
 HTTP
 /
 2
 "
+"
+HTTP
+/
+3
+"
+)
 :
             
 request
