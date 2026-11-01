@@ -11045,7 +11045,14 @@ function
 checkFn
 Function
 that
+recieves
+the
+target
+as
+input
+and
 returns
+*
 true
 when
 it
@@ -11054,7 +11061,6 @@ the
 promise
 to
 be
-*
 resolved
 .
 *
@@ -11194,6 +11200,7 @@ retVal
 =
 checkFn
 (
+target
 )
 )
 )
@@ -11284,6 +11291,7 @@ retVal
 =
 checkFn
 (
+target
 )
 )
 )
