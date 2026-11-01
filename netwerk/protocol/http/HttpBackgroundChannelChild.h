@@ -102,11 +102,6 @@ OnChannelClosed
 (
 )
 ;
-bool
-ChannelClosed
-(
-)
-;
 void
 OnStartRequestReceived
 (

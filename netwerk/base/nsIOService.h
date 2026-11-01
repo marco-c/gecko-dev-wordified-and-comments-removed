@@ -437,11 +437,6 @@ char
 aName
 )
 ;
-bool
-IsSocketProcessLaunchComplete
-(
-)
-;
 void
 CallOrWaitForSocketProcess
 (

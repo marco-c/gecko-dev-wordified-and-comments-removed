@@ -4225,7 +4225,6 @@ ClassOfService
 0
 false
 0
-nullptr
 nsILoadInfo
 :
 :
@@ -4676,7 +4675,6 @@ ClassOfService
 0
 false
 0
-nullptr
 nsILoadInfo
 :
 :

@@ -160,16 +160,6 @@ aForceReinit
 false
 )
 ;
-bool
-TRRConnectionInfoInited
-(
-)
-const
-{
-return
-mTRRConnectionInfoInited
-;
-}
 void
 SetHttp3FirstForServer
 (

@@ -1275,13 +1275,6 @@ ShouldThrottle
 (
 )
 ;
-void
-NotifyTransactionObserver
-(
-nsresult
-reason
-)
-;
 bool
 PrepareSVCBRecordsForRetry
 (
@@ -2295,9 +2288,6 @@ MaybeStartHttp3BackupTimer
 ;
 private
 :
-TransactionObserverFunc
-mTransactionObserver
-;
 NetAddr
 mSelfAddr
 ;

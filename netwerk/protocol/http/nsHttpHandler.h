@@ -91,6 +91,17 @@ mozilla
 /
 net
 /
+HttpActivityArgs
+.
+h
+"
+#
+include
+"
+mozilla
+/
+net
+/
 HttpConnectionMgrShell
 .
 h
@@ -246,9 +257,6 @@ ATokenBucketEvent
 ;
 class
 EventTokenBucket
-;
-class
-HttpActivityArgs
 ;
 class
 Tickler

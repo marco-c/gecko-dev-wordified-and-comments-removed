@@ -293,6 +293,11 @@ EarlyHintsService
 h
 "
 "
+HttpActivityArgs
+.
+h
+"
+"
 HttpAuthUtils
 .
 h

@@ -1339,7 +1339,10 @@ gHttpHandler
 >
 ObserveHttpActivityWithArgs
 (
+HttpActivityArgs
+(
 activity
+)
 NS_ACTIVITY_TYPE_HTTP_CONNECTION
 NS_HTTP_ACTIVITY_SUBTYPE_ECH_SET
 PR_Now
