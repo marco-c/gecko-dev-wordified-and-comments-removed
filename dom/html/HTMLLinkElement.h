@@ -88,7 +88,6 @@ SupportsDNSPrefetch
 {
 public
 :
-explicit
 HTMLLinkElement
 (
 already_AddRefed
@@ -102,6 +101,8 @@ dom
 NodeInfo
 >
 aNodeInfo
+FromParser
+aFromParser
 )
 ;
 NS_DECL_ISUPPORTS_INHERITED
@@ -1131,6 +1132,9 @@ nsCOMPtr
 nsIURI
 >
 mCachedURI
+;
+FromParser
+mCreatedByParser
 ;
 bool
 mExplicitlyEnabled
