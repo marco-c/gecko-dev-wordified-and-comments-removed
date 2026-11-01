@@ -148,6 +148,12 @@ frame_template
 )
 const
 ;
+bool
+HasSerializableDiffs
+(
+)
+const
+;
 void
 FindBestTemplate
 (
