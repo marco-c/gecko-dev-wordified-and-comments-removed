@@ -9324,6 +9324,11 @@ ModuleObject
 *
 >
 self
+Handle
+<
+ExportNameVector
+>
+exportNames
 )
 {
 Rooted
@@ -9341,6 +9346,7 @@ createForWasmModule
 (
 cx
 self
+exportNames
 )
 )
 ;
