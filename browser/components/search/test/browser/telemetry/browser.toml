@@ -1175,6 +1175,16 @@ searchTelemetryAd
 .
 html
 "
+"
+redirect_ad
+.
+sjs
+"
+"
+redirect_final
+.
+sjs
+"
 ]
 [
 "
