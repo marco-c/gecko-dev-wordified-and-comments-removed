@@ -961,6 +961,11 @@ testJitRegisterSet
 cpp
 "
 "
+testJitRInstructionResults
+.
+cpp
+"
+"
 testJitRValueAlloc
 .
 cpp
