@@ -142,12 +142,6 @@ extract
 "
         
 "
-populate
--
-webroot
-"
-        
-"
 create
 -
 virtualenv
