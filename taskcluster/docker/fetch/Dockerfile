@@ -129,6 +129,10 @@ pip
 \
 python3
 -
+psutil
+\
+python3
+-
 requests
 \
 python3
