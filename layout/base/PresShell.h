@@ -6797,10 +6797,7 @@ PushCurrentEventInfo
 std
 :
 :
-forward
-<
-EventTargetInfo
->
+move
 (
 aInfo
 )
