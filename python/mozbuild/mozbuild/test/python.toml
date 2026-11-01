@@ -599,6 +599,13 @@ py
 ]
 [
 "
+test_mach_source_package
+.
+py
+"
+]
+[
+"
 test_makeutil
 .
 py
