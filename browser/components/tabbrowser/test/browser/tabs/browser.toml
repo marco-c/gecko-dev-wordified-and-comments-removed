@@ -1964,6 +1964,13 @@ js
 ]
 [
 "
+browser_privilegedabout_popup_opener
+.
+js
+"
+]
+[
+"
 browser_privilegedmozilla_process_pref
 .
 js
