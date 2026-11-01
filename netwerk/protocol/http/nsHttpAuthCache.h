@@ -508,10 +508,10 @@ class
 nsHttpAuthCache
 ;
 friend
-mozilla
+std
 :
 :
-DefaultDelete
+default_delete
 <
 nsHttpAuthEntry
 >
@@ -641,10 +641,10 @@ class
 nsHttpAuthCache
 ;
 friend
-mozilla
+std
 :
 :
-DefaultDelete
+default_delete
 <
 nsHttpAuthNode
 >

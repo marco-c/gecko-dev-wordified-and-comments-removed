@@ -1245,10 +1245,10 @@ false
 private
 :
 friend
-mozilla
+std
 :
 :
-DefaultDelete
+default_delete
 <
 Http2StreamBase
 >
