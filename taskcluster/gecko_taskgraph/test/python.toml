@@ -50,6 +50,13 @@ py
 ]
 [
 "
+test_kind
+.
+py
+"
+]
+[
+"
 test_main
 .
 py

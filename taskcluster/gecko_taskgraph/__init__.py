@@ -613,6 +613,13 @@ dependencies
 from
 gecko_taskgraph
 .
+kind
+import
+ProfiledKind
+    
+from
+gecko_taskgraph
+.
 util
 .
 verify
@@ -634,6 +641,12 @@ generator
 verifications
 =
 verifications
+    
+generator
+.
+Kind
+=
+ProfiledKind
     
 register_parameters
 (
