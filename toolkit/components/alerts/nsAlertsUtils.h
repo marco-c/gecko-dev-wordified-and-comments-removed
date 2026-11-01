@@ -63,6 +63,12 @@ nsACString
 aOrigin
 )
 ;
+static
+bool
+HasOpenBrowserWindows
+(
+)
+;
 }
 ;
 #
