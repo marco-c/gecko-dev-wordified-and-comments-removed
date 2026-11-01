@@ -576,24 +576,6 @@ topsrcdir
 "
 ]
         
-self
-.
-path_to_gcnos
-=
-os
-.
-path
-.
-join
-(
-self
-.
-grcov_dir
-"
-gcno
-"
-)
-        
 strip_count
 =
 len
@@ -652,14 +634,14 @@ zip
         
 self
 .
-download_unpack
+download_file
 (
 url_to_gcno
-extract_to
+parent_dir
 =
 self
 .
-path_to_gcnos
+grcov_dir
 )
         
 url_to_chrome_map
@@ -1386,15 +1368,19 @@ return
 ]
     
 def
-set_coverage_env
+coverage_env
 (
 self
-env
 is_baseline_test
 =
 False
 )
 :
+        
+env
+=
+{
+}
         
 self
 .
@@ -1472,6 +1458,9 @@ JS_CODE_COVERAGE_OUTPUT_DIR
 self
 .
 jsvm_dir
+        
+return
+env
     
 PreScriptAction
 (
@@ -1507,13 +1496,39 @@ per_test_coverage
             
 return
         
+env_update
+=
 self
 .
-set_coverage_env
+coverage_env
 (
+)
+        
 os
 .
 environ
+.
+update
+(
+env_update
+)
+        
+if
+self
+.
+env
+is
+not
+None
+:
+            
+self
+.
+env
+.
+update
+(
+env_update
 )
     
 def
@@ -1747,9 +1762,27 @@ fetches
 *
 "
             
+os
+.
+path
+.
+join
+(
 self
 .
-path_to_gcnos
+grcov_dir
+"
+target
+.
+code
+-
+coverage
+-
+gcno
+.
+zip
+"
+)
             
 gcov_dir
         
