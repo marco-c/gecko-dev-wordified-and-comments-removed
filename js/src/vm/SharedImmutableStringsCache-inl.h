@@ -52,12 +52,9 @@ MOZ_ASSERT
 chars
 )
 ;
-Hasher
-:
-:
-Lookup
-lookup
-(
+HashNumber
+hash
+=
 Hasher
 :
 :
@@ -66,6 +63,14 @@ hashLongString
 chars
 length
 )
+;
+Hasher
+:
+:
+Lookup
+lookup
+(
+hash
 chars
 length
 )
@@ -162,6 +167,7 @@ move
 ownedChars
 )
 length
+hash
 inner_
 )
 ;
@@ -409,6 +415,7 @@ sizeof
 (
 char16_t
 )
+hash
 inner_
 )
 ;
