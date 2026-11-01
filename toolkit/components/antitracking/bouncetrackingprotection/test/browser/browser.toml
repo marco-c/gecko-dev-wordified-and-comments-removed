@@ -112,6 +112,13 @@ js
 ]
 [
 "
+browser_bouncetracking_bfcache_restore_redirect
+.
+js
+"
+]
+[
+"
 browser_bouncetracking_clearingPurgeLogCrash
 .
 js
