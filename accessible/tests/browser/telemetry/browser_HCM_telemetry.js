@@ -29,6 +29,8 @@ preferences
 tests
 /
 head
+-
+common
 .
 js
 "
@@ -65,6 +67,13 @@ registerCleanupFunction
 (
 reset
 )
+;
+const
+PREFS_PANE
+=
+"
+accessibility
+"
 ;
 function
 pushPref
@@ -475,9 +484,7 @@ testInit
 await
 openPreferencesViaOpenPreferencesAPI
 (
-"
-general
-"
+PREFS_PANE
 {
 leaveOpen
 :
@@ -781,9 +788,7 @@ testSetAlways
 await
 openPreferencesViaOpenPreferencesAPI
 (
-"
-general
-"
+PREFS_PANE
 {
 leaveOpen
 :
@@ -1003,9 +1008,7 @@ testSetDefault
 await
 openPreferencesViaOpenPreferencesAPI
 (
-"
-general
-"
+PREFS_PANE
 {
 leaveOpen
 :
@@ -1264,9 +1267,7 @@ testSetNever
 await
 openPreferencesViaOpenPreferencesAPI
 (
-"
-general
-"
+PREFS_PANE
 {
 leaveOpen
 :
@@ -1616,9 +1617,7 @@ expectedInitVal
 await
 openPreferencesViaOpenPreferencesAPI
 (
-"
-general
-"
+PREFS_PANE
 {
 leaveOpen
 :
