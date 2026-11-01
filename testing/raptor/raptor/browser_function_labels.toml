@@ -5918,7 +5918,7 @@ name
 =
 "
 set
-CSS2Properties
+CSSStyleProperties
 .
 *
 "
@@ -5930,7 +5930,7 @@ for
 any
 setter
 on
-CSS2Properties
+CSSStyleProperties
 /
 CSSStyleDeclaration
 ;
@@ -5959,7 +5959,7 @@ mozilla
 dom
 :
 :
-CSS2Properties_Binding
+CSSStyleProperties_Binding
 :
 :
 set_
@@ -5971,7 +5971,7 @@ mozilla
 dom
 :
 :
-CSS2Properties_Binding
+CSSStyleProperties_Binding
 :
 :
 SetPropertyValue
