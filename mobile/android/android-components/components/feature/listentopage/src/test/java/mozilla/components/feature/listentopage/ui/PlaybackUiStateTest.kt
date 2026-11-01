@@ -366,7 +366,7 @@ present
 the
 state
 is
-playing
+buffering
 (
 )
 {
@@ -389,7 +389,7 @@ expected
 =
 PlaybackUiState
 .
-Playing
+Buffering
 actual
 =
 state

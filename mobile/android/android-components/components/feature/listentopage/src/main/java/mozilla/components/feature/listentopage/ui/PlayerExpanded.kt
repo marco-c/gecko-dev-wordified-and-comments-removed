@@ -623,6 +623,13 @@ is
 PlaybackUiState
 .
 Playing
+|
+|
+playbackUiState
+is
+PlaybackUiState
+.
+Buffering
 )
 }
 AudioProgress
