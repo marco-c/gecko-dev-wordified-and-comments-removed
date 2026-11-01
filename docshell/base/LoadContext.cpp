@@ -532,7 +532,6 @@ LoadContext
 SetUsePrivateBrowsing
 (
 bool
-aUsePrivateBrowsing
 )
 {
 MOZ_ASSERT
@@ -551,7 +550,6 @@ LoadContext
 SetPrivateBrowsing
 (
 bool
-aUsePrivateBrowsing
 )
 {
 MOZ_ASSERT
@@ -600,7 +598,6 @@ LoadContext
 SetRemoteTabs
 (
 bool
-aUseRemoteTabs
 )
 {
 MOZ_ASSERT
@@ -649,7 +646,6 @@ LoadContext
 SetRemoteSubframes
 (
 bool
-aUseRemoteSubframes
 )
 {
 MOZ_ASSERT
@@ -762,7 +758,6 @@ LoadContext
 SetUseTrackingProtection
 (
 bool
-aUseTrackingProtection
 )
 {
 MOZ_ASSERT_UNREACHABLE

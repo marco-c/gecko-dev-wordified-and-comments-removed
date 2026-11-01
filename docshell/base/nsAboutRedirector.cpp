@@ -158,15 +158,12 @@ nsresult
 OpenContentStream
 (
 bool
-async
 nsIInputStream
 *
 *
-stream
 nsIChannel
 *
 *
-channel
 )
 override
 {

@@ -5286,7 +5286,6 @@ StopDetector
 Cancel
 (
 nsresult
-aStatus
 )
 {
 mCanceled
@@ -5352,7 +5351,6 @@ SetLoadGroup
 (
 nsILoadGroup
 *
-aLoadGroup
 )
 {
 return
@@ -5430,7 +5428,6 @@ StopDetector
 SetLoadFlags
 (
 nsLoadFlags
-aLoadFlags
 )
 {
 return
@@ -10734,7 +10731,6 @@ nsDocShell
 SetZoom
 (
 float
-aZoom
 )
 {
 return
@@ -22657,7 +22653,6 @@ SetDimensions
 DimensionRequest
 &
 &
-aRequest
 )
 {
 return
@@ -22671,19 +22666,14 @@ nsDocShell
 GetDimensions
 (
 DimensionKind
-aDimensionKind
 int32_t
 *
-aX
 int32_t
 *
-aY
 int32_t
 *
-aCX
 int32_t
 *
-aCY
 )
 {
 return
@@ -22755,7 +22745,6 @@ GetNativeHandle
 (
 nsAString
 &
-aNativeHandle
 )
 {
 return
@@ -23336,7 +23325,6 @@ nsDocShell
 SetEnabled
 (
 bool
-aEnabled
 )
 {
 return
@@ -27195,12 +27183,9 @@ OnContentBlockingEvent
 (
 nsIWebProgress
 *
-aWebProgress
 nsIRequest
 *
-aRequest
 uint32_t
-aEvent
 )
 {
 MOZ_ASSERT_UNREACHABLE
@@ -29268,7 +29253,6 @@ EndPageLoad
 (
 nsIWebProgress
 *
-aProgress
 nsIChannel
 *
 aChannel
@@ -30526,7 +30510,6 @@ CrossOriginEmbedderPolicy
 &
 aCOEP
 bool
-aTryToSaveOldPresentation
 bool
 aCheckPermitUnload
 WindowGlobalChild
@@ -41939,7 +41922,6 @@ nsIInterfaceRequestor
 aCallbacks
 nsDocShell
 *
-aDocShell
 const
 OriginAttributes
 &
@@ -47117,7 +47099,6 @@ AppendSegmentToString
 (
 nsIInputStream
 *
-aIn
 void
 *
 aClosure
@@ -47126,7 +47107,6 @@ char
 *
 aFromRawSegment
 uint32_t
-aToOffset
 uint32_t
 aCount
 uint32_t
@@ -48429,10 +48409,8 @@ nsIPrincipal
 aPrincipalToInherit
 nsIPrincipal
 *
-aPartitionedPrincipalToInherit
 nsIPolicyContainer
 *
-aPolicyContainer
 bool
 aAddToGlobalHistory
 bool
@@ -51406,7 +51384,6 @@ aLoadState
 uint32_t
 aLoadType
 bool
-aLoadingCurrentEntry
 )
 {
 if
@@ -56351,7 +56328,6 @@ aURI
 const
 nsAString
 &
-aTargetSpec
 )
 {
 if

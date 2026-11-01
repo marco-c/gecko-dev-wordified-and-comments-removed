@@ -241,7 +241,6 @@ OnPingTimeout
 (
 nsITimer
 *
-aTimer
 void
 *
 aClosure
@@ -1495,7 +1494,6 @@ OnStartRequest
 (
 nsIRequest
 *
-aRequest
 )
 {
 return
@@ -1510,12 +1508,10 @@ OnDataAvailable
 (
 nsIRequest
 *
-aRequest
 nsIInputStream
 *
 aStream
 uint64_t
-aOffset
 uint32_t
 aCount
 )
@@ -1545,9 +1541,7 @@ OnStopRequest
 (
 nsIRequest
 *
-aRequest
 nsresult
-aStatus
 )
 {
 mLoadGroup

@@ -7744,26 +7744,22 @@ GetSubframeReactivationData
 (
 BrowsingContext
 *
-aBrowsingContext
 Maybe
 <
 SessionHistoryInfo
 >
 &
-aReactivatedEntry
 nsTArray
 <
 SessionHistoryInfo
 >
 &
-aNewSHEs
 const
 Maybe
 <
 PreviousSessionHistoryInfo
 >
 &
-aPreviousEntryForActivation
 )
 {
 MOZ_LOG_FMT
@@ -9787,13 +9783,11 @@ WriteStructuredClone
 (
 JSContext
 *
-aCx
 JSStructuredCloneWriter
 *
 aWriter
 StructuredCloneHolder
 *
-aHolder
 )
 {
 MOZ_DIAGNOSTIC_ASSERT
@@ -14444,7 +14438,6 @@ GetFrames
 (
 ErrorResult
 &
-aError
 )
 {
 return
@@ -14463,7 +14456,6 @@ CallerType
 aCallerType
 ErrorResult
 &
-aError
 )
 {
 if
@@ -15481,7 +15473,6 @@ CallerType
 aCallerType
 ErrorResult
 &
-aError
 )
 {
 auto
@@ -15638,7 +15629,6 @@ CallerType
 aCallerType
 ErrorResult
 &
-aError
 )
 {
 if
@@ -15754,7 +15744,6 @@ GetTop
 (
 ErrorResult
 &
-aError
 )
 {
 if
@@ -15860,7 +15849,6 @@ GetParent
 (
 ErrorResult
 &
-aError
 )
 {
 if
@@ -17311,7 +17299,6 @@ FieldIndex
 IDX_SessionStoreEpoch
 >
 uint32_t
-aOldValue
 )
 {
 if
@@ -18205,7 +18192,6 @@ FieldIndex
 IDX_AllowJavascript
 >
 bool
-aOldValue
 )
 {
 RecomputeCanExecuteScripts
@@ -18675,7 +18661,6 @@ IDX_LanguageOverride
 nsCString
 &
 &
-aOldValue
 )
 {
 MOZ_ASSERT
@@ -19576,7 +19561,6 @@ FieldIndex
 IDX_IsActiveBrowserWindowInternal
 >
 bool
-aOldValue
 )
 {
 bool
@@ -19769,7 +19753,6 @@ CrossOriginOpenerPolicy
 aPolicy
 ContentParent
 *
-aSource
 )
 {
 return
@@ -19816,7 +19799,6 @@ IDX_AllowContentRetargeting
 const
 bool
 &
-aAllowContentRetargeting
 ContentParent
 *
 aSource
@@ -19845,7 +19827,6 @@ IDX_AllowContentRetargetingOnChildren
 const
 bool
 &
-aAllowContentRetargetingOnChildren
 ContentParent
 *
 aSource
@@ -20273,7 +20254,6 @@ IDX_TimezoneOverride
 nsString
 &
 &
-aOldValue
 )
 {
 MOZ_ASSERT
@@ -20445,7 +20425,6 @@ IDX_DefaultLoadFlags
 const
 uint32_t
 &
-aDefaultLoadFlags
 ContentParent
 *
 aSource
@@ -20560,7 +20539,6 @@ IDX_UserAgentOverride
 const
 nsCString
 &
-aUserAgent
 ContentParent
 *
 aSource
@@ -20589,7 +20567,6 @@ IDX_PlatformOverride
 const
 nsString
 &
-aPlatform
 ContentParent
 *
 aSource
@@ -20977,7 +20954,6 @@ bool
 aValue
 ContentParent
 *
-aSource
 )
 {
 return
@@ -22192,7 +22168,6 @@ bool
 aNewValue
 ContentParent
 *
-aSource
 )
 {
 return

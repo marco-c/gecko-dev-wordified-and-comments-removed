@@ -411,7 +411,6 @@ Notify
 (
 nsITimer
 *
-timer
 )
 MOZ_CAN_RUN_SCRIPT_BOUNDARY
 {
@@ -992,7 +991,6 @@ char
 *
 aContentType
 bool
-aIsContentPreferred
 char
 *
 *

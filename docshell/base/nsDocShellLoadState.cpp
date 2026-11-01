@@ -2812,7 +2812,6 @@ aURI
 const
 nsACString
 &
-aURIString
 uint32_t
 aNavigationFlags
 )
@@ -3441,7 +3440,6 @@ CreateFromLoadURIOptions
 (
 BrowsingContext
 *
-aBrowsingContext
 nsIURI
 *
 aURI

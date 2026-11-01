@@ -1044,13 +1044,12 @@ value
 )
 ;
 RefPtr
+asyncNav
+=
+MakeRefPtr
 <
 PendingAsyncHistoryNavigation
 >
-asyncNav
-=
-new
-PendingAsyncHistoryNavigation
 (
 this
 aOffset
@@ -1158,13 +1157,12 @@ value
 )
 ;
 RefPtr
+asyncNav
+=
+MakeRefPtr
 <
 PendingAsyncHistoryNavigation
 >
-asyncNav
-=
-new
-PendingAsyncHistoryNavigation
 (
 this
 aKey
@@ -1214,7 +1212,6 @@ bool
 aUserActivation
 ErrorResult
 &
-aRv
 )
 {
 MOZ_LOG
@@ -1376,7 +1373,6 @@ BrowsingContext
 *
 aNavigable
 bool
-aRequireUserInteraction
 bool
 aUserActivation
 bool
@@ -1396,7 +1392,6 @@ nsresult
 aResolver
 ErrorResult
 &
-aRv
 )
 {
 if

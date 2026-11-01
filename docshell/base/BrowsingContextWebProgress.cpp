@@ -381,7 +381,6 @@ GetDOMWindow
 mozIDOMWindowProxy
 *
 *
-aDOMWindow
 )
 {
 return
@@ -462,7 +461,6 @@ GetTarget
 nsIEventTarget
 *
 *
-aTarget
 )
 {
 return
@@ -477,7 +475,6 @@ SetTarget
 (
 nsIEventTarget
 *
-aTarget
 )
 {
 return
