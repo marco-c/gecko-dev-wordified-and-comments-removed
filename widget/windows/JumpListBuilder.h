@@ -167,8 +167,9 @@ virtual
 JumpListBackend
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 class
@@ -197,6 +198,10 @@ const
 nsAString
 &
 aAppUserModelId
+bool
+aPrivateBrowsing
+=
+false
 RefPtr
 <
 JumpListBackend
