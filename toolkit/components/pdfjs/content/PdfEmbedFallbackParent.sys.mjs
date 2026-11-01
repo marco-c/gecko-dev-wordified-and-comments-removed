@@ -433,6 +433,11 @@ triggeringPrincipal
 embedder
 .
 documentPrincipal
+triggeringRemoteType
+:
+embedder
+.
+remoteType
 referrerInfo
 :
 lazy
