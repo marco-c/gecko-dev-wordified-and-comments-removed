@@ -1580,14 +1580,6 @@ getDataAsBase64
 (
 )
 ;
-entry
-.
-structuredCloneVersion
-=
-stateData
-.
-formatVersion
-;
 }
 if
 (
@@ -3052,9 +3044,6 @@ initFromBase64
 entry
 .
 structuredCloneState
-entry
-.
-structuredCloneVersion
 )
 ;
 shEntry

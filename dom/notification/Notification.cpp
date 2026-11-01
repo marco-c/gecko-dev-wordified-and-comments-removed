@@ -1548,7 +1548,6 @@ container
 InitFromBase64
 (
 aData
-JS_STRUCTURED_CLONE_VERSION
 )
 )
 ;
@@ -3311,7 +3310,6 @@ container
 InitFromBase64
 (
 dataSerialized
-JS_STRUCTURED_CLONE_VERSION
 )
 ;
 if
