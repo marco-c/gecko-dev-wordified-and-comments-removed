@@ -2958,7 +2958,7 @@ Services
 .
 perms
 .
-testPermissionFromPrincipal
+testExactPermissionFromPrincipal
 (
 aPrincipal
 key
