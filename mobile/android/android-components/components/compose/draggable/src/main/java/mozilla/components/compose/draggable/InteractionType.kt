@@ -57,19 +57,13 @@ MPL
 *
 /
 package
-org
-.
 mozilla
 .
-fenix
-.
-tabstray
-.
-browser
+components
 .
 compose
 .
-interactable
+draggable
 import
 androidx
 .
@@ -101,12 +95,12 @@ a
 dragged
 item
 .
-*
 A
 dragged
 item
 '
 s
+*
 location
 is
 compared
@@ -117,7 +111,6 @@ based
 on
 distance
 .
-*
 Here
 closest
 point
@@ -127,6 +120,7 @@ point
 in
 the
 range
+*
 (
 x1
 .
@@ -142,7 +136,6 @@ the
 dragged
 item
 as
-*
 compared
 with
 its
@@ -156,7 +149,6 @@ interface
 InteractionType
 {
 /
-*
 *
 *
 The
@@ -204,6 +196,7 @@ target
 item
 .
 *
+*
 property
 rect
 A
@@ -249,6 +242,7 @@ a
 target
 item
 .
+*
 *
 property
 rect
@@ -296,6 +290,7 @@ target
 item
 .
 *
+*
 property
 rect
 A
@@ -341,6 +336,7 @@ a
 target
 item
 .
+*
 *
 property
 rect
@@ -389,6 +385,7 @@ the
 viewport
 .
 *
+*
 property
 scroll
 A
@@ -434,10 +431,10 @@ if
 a
 dragged
 item
-*
 is
 hovered
 over
+*
 its
 existing
 location

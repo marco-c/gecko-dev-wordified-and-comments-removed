@@ -57,19 +57,13 @@ MPL
 *
 /
 package
-org
-.
 mozilla
 .
-fenix
-.
-tabstray
-.
-browser
+components
 .
 compose
 .
-interactable
+draggable
 import
 androidx
 .
@@ -79,7 +73,9 @@ foundation
 .
 lazy
 .
-LazyListItemInfo
+grid
+.
+LazyGridItemInfo
 /
 *
 *
@@ -89,7 +85,7 @@ a
 candidate
 for
 a
-list
+grid
 item
 interaction
 .
@@ -135,7 +131,7 @@ property
 anchorItem
 the
 [
-LazyListItemInfo
+LazyGridItemInfo
 ]
 representing
 the
@@ -152,7 +148,7 @@ target
 /
 data
 class
-ListInteractionCandidate
+GridInteractionCandidate
 (
 val
 type
@@ -165,5 +161,5 @@ Float
 val
 anchorItem
 :
-LazyListItemInfo
+LazyGridItemInfo
 )

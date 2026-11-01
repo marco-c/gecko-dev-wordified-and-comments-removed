@@ -57,19 +57,13 @@ MPL
 *
 /
 package
-org
-.
 mozilla
 .
-fenix
-.
-tabstray
-.
-browser
+components
 .
 compose
 .
-interactable
+draggable
 import
 androidx
 .
@@ -102,11 +96,11 @@ and
 target
 items
 .
-*
 The
 user
 may
 be
+*
 reordering
 dragging
 and
@@ -123,7 +117,6 @@ interface
 InteractionMode
 {
 /
-*
 *
 *
 Defines
@@ -193,6 +186,7 @@ mode
 is
 currently
 happening
+*
 *
 property
 source
@@ -267,6 +261,7 @@ before
 or
 after
 .
+*
 *
 property
 source
@@ -389,6 +384,7 @@ target
 item
 .
 *
+*
 property
 source
 [
@@ -461,6 +457,7 @@ list
 or
 grid
 .
+*
 *
 property
 scroll
@@ -548,7 +545,6 @@ Grid
 /
 *
 *
-*
 Defines
 the
 interaction
@@ -612,6 +608,7 @@ mode
 is
 currently
 happening
+*
 *
 property
 source
@@ -686,6 +683,7 @@ before
 or
 after
 .
+*
 *
 property
 source
@@ -808,6 +806,7 @@ target
 item
 .
 *
+*
 property
 source
 [
@@ -880,6 +879,7 @@ list
 or
 grid
 .
+*
 *
 property
 scroll
