@@ -2868,9 +2868,6 @@ aStyle
 {
 return
 new
-(
-aPresShell
-)
 nsIFrame
 (
 aStyle
@@ -5954,10 +5951,10 @@ data
 }
 #
 endif
-ps
--
->
-FreeFrame
+FrameArena
+:
+:
+Free
 (
 id
 this

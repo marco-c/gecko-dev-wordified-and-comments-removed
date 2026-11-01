@@ -181,9 +181,6 @@ aStyle
 {
 return
 new
-(
-aPresShell
-)
 nsMathMLmencloseFrame
 (
 aStyle

@@ -4477,9 +4477,6 @@ aStyle
 {
 return
 new
-(
-aPresShell
-)
 nsSubDocumentFrame
 (
 aStyle

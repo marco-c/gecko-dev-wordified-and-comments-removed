@@ -15706,9 +15706,6 @@ aStyle
 {
 return
 new
-(
-aPresShell
-)
 nsTableFrame
 (
 aStyle

@@ -20999,9 +20999,6 @@ aStyle
 {
 return
 new
-(
-aPresShell
-)
 nsGridContainerFrame
 (
 aStyle

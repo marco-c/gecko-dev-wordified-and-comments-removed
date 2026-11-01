@@ -2082,9 +2082,6 @@ aStyle
 {
 return
 new
-(
-aPresShell
-)
 nsTableColGroupFrame
 (
 aStyle

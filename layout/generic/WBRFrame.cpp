@@ -151,9 +151,6 @@ aStyle
 {
 return
 new
-(
-aPresShell
-)
 WBRFrame
 (
 aStyle

@@ -1306,9 +1306,6 @@ aIsRoot
 {
 return
 new
-(
-aPresShell
-)
 ScrollContainerFrame
 (
 aStyle

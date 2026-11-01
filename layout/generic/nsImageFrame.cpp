@@ -2117,9 +2117,6 @@ aStyle
 {
 return
 new
-(
-aPresShell
-)
 nsImageFrame
 (
 aStyle
@@ -2227,9 +2224,6 @@ XULImage
 ;
 return
 new
-(
-aPresShell
-)
 nsImageFrame
 (
 aStyle
@@ -2257,9 +2251,6 @@ aStyle
 {
 return
 new
-(
-aPresShell
-)
 nsImageFrame
 (
 aStyle
@@ -2293,9 +2284,6 @@ aStyle
 {
 return
 new
-(
-aPresShell
-)
 nsImageFrame
 (
 aStyle
@@ -2329,9 +2317,6 @@ aStyle
 {
 return
 new
-(
-aPresShell
-)
 nsImageFrame
 (
 aStyle
@@ -2365,9 +2350,6 @@ aStyle
 {
 return
 new
-(
-aPresShell
-)
 nsImageFrame
 (
 aStyle
@@ -2571,9 +2553,6 @@ const
 {
 return
 new
-(
-aPresShell
-)
 nsImageFrame
 (
 aStyle
@@ -11362,6 +11341,7 @@ imgCon
 this
 destRect
 destRect
+aBuilder
 aSc
 aFlags
 svgContext
@@ -11720,7 +11700,7 @@ devPxRect
 ;
 aBuilder
 .
-PushRoundedRect
+PushEllipse
 (
 dest
 wrBounds
@@ -13213,6 +13193,7 @@ image
 mFrame
 destRect
 destRect
+aBuilder
 aSc
 flags
 svgContext

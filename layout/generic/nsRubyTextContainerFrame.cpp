@@ -87,9 +87,6 @@ aStyle
 {
 return
 new
-(
-aPresShell
-)
 nsRubyTextContainerFrame
 (
 aStyle

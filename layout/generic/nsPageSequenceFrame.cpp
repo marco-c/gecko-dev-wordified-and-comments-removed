@@ -237,9 +237,6 @@ aStyle
 {
 return
 new
-(
-aPresShell
-)
 nsPageSequenceFrame
 (
 aStyle

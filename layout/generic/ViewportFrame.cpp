@@ -178,9 +178,6 @@ aStyle
 {
 return
 new
-(
-aPresShell
-)
 ViewportFrame
 (
 aStyle

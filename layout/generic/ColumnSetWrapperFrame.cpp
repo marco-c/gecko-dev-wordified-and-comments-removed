@@ -67,9 +67,6 @@ ColumnSetWrapperFrame
 frame
 =
 new
-(
-aPresShell
-)
 ColumnSetWrapperFrame
 (
 aStyle

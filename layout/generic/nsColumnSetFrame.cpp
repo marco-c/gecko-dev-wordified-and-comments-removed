@@ -527,9 +527,6 @@ nsColumnSetFrame
 it
 =
 new
-(
-aPresShell
-)
 nsColumnSetFrame
 (
 aStyle
@@ -4350,14 +4347,6 @@ DrainOverflowColumns
 (
 )
 {
-nsPresContext
-*
-presContext
-=
-PresContext
-(
-)
-;
 nsColumnSetFrame
 *
 prev
@@ -4381,7 +4370,6 @@ prev
 AutoFrameListPtr
 overflows
 (
-presContext
 prev
 -
 >
@@ -4416,7 +4404,6 @@ overflows
 AutoFrameListPtr
 overflows
 (
-presContext
 StealOverflowFrames
 (
 )

@@ -1554,9 +1554,6 @@ nsHTMLFramesetBlankFrame
 blankFrame
 =
 new
-(
-presShell
-)
 nsHTMLFramesetBlankFrame
 (
 pseudoComputedStyle
@@ -4717,9 +4714,6 @@ MozHframesetBorder
 borderFrame
 =
 new
-(
-presShell
-)
 nsHTMLFramesetBorderFrame
 (
 pseudoComputedStyle
@@ -4897,9 +4891,6 @@ MozVframesetBorder
 borderFrame
 =
 new
-(
-presShell
-)
 nsHTMLFramesetBorderFrame
 (
 pseudoComputedStyle
@@ -7158,9 +7149,6 @@ aStyle
 {
 return
 new
-(
-aPresShell
-)
 nsHTMLFramesetFrame
 (
 aStyle

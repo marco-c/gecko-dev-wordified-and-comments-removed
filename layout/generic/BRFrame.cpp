@@ -403,9 +403,6 @@ aStyle
 {
 return
 new
-(
-aPresShell
-)
 BRFrame
 (
 aStyle

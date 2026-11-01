@@ -6486,9 +6486,6 @@ auto
 newFrame
 =
 new
-(
-aPresShell
-)
 nsMathMLmathBlockFrame
 (
 aStyle
@@ -6534,9 +6531,6 @@ aStyle
 {
 return
 new
-(
-aPresShell
-)
 nsMathMLmathInlineFrame
 (
 aStyle

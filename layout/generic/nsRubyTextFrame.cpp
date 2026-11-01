@@ -80,9 +80,6 @@ aStyle
 {
 return
 new
-(
-aPresShell
-)
 nsRubyTextFrame
 (
 aStyle

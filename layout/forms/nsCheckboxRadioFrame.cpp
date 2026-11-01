@@ -62,9 +62,6 @@ aStyle
 {
 return
 new
-(
-aPresShell
-)
 nsCheckboxRadioFrame
 (
 aStyle

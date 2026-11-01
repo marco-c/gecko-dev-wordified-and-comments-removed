@@ -147,9 +147,6 @@ aStyle
 {
 return
 new
-(
-aPresShell
-)
 nsFirstLetterFrame
 (
 aStyle
@@ -176,9 +173,6 @@ aStyle
 {
 return
 new
-(
-aPresShell
-)
 nsFloatingFirstLetterFrame
 (
 aStyle
@@ -2268,7 +2262,6 @@ prevInFlow
 AutoFrameListPtr
 overflowFrames
 (
-aPresContext
 prevInFlow
 -
 >
@@ -2317,7 +2310,6 @@ overflowFrames
 AutoFrameListPtr
 overflowFrames
 (
-aPresContext
 StealOverflowFrames
 (
 )

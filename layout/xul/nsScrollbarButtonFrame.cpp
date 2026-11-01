@@ -120,9 +120,6 @@ aStyle
 {
 return
 new
-(
-aPresShell
-)
 nsScrollbarButtonFrame
 (
 aStyle

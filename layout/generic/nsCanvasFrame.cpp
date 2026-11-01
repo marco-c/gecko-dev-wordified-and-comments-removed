@@ -231,9 +231,6 @@ aStyle
 {
 return
 new
-(
-aPresShell
-)
 nsCanvasFrame
 (
 aStyle
@@ -2262,7 +2259,6 @@ prevCanvasFrame
 AutoFrameListPtr
 overflow
 (
-aPresContext
 prevCanvasFrame
 -
 >

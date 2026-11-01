@@ -162,9 +162,6 @@ aStyle
 {
 return
 new
-(
-aPresShell
-)
 nsInlineFrame
 (
 aStyle
@@ -1491,7 +1488,6 @@ prevInFlow
 AutoFrameListPtr
 prevOverflowFrames
 (
-aPresContext
 prevInFlow
 -
 >
@@ -1919,9 +1915,6 @@ aInFirstLine
 AutoFrameListPtr
 overflowFrames
 (
-PresContext
-(
-)
 StealOverflowFrames
 (
 )
@@ -2158,18 +2151,9 @@ if
 prevInFlow
 )
 {
-nsPresContext
-*
-presContext
-=
-PresContext
-(
-)
-;
 AutoFrameListPtr
 prevOverflowFrames
 (
-presContext
 prevInFlow
 -
 >
@@ -4516,9 +4500,6 @@ aStyle
 {
 return
 new
-(
-aPresShell
-)
 nsFirstLineFrame
 (
 aStyle
@@ -4886,7 +4867,6 @@ prevInFlow
 AutoFrameListPtr
 prevOverflowFrames
 (
-aPresContext
 prevInFlow
 -
 >
@@ -5150,7 +5130,6 @@ PresContext
 AutoFrameListPtr
 prevOverflowFrames
 (
-presContext
 prevInFlow
 -
 >
@@ -5209,9 +5188,6 @@ DrainSelfOverflowList
 AutoFrameListPtr
 overflowFrames
 (
-PresContext
-(
-)
 StealOverflowFrames
 (
 )

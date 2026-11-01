@@ -90,9 +90,6 @@ aStyle
 {
 return
 new
-(
-aPresShell
-)
 nsMathMLTokenFrame
 (
 aStyle

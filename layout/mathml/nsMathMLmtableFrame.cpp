@@ -3200,9 +3200,6 @@ aStyle
 {
 return
 new
-(
-aPresShell
-)
 nsMathMLmtableWrapperFrame
 (
 aStyle
@@ -4264,9 +4261,6 @@ aStyle
 {
 return
 new
-(
-aPresShell
-)
 nsMathMLmtableFrame
 (
 aStyle
@@ -5142,9 +5136,6 @@ aStyle
 {
 return
 new
-(
-aPresShell
-)
 nsMathMLmtrFrame
 (
 aStyle
@@ -5290,9 +5281,6 @@ aTableFrame
 {
 return
 new
-(
-aPresShell
-)
 nsMathMLmtdFrame
 (
 aStyle
@@ -5678,9 +5666,6 @@ aStyle
 {
 return
 new
-(
-aPresShell
-)
 nsMathMLmtdInnerFrame
 (
 aStyle

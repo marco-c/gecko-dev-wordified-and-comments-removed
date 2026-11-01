@@ -142,9 +142,6 @@ aStyle
 {
 return
 new
-(
-aPresShell
-)
 nsComboboxControlFrame
 (
 aStyle
@@ -1345,9 +1342,6 @@ aStyle
 {
 return
 new
-(
-aPresShell
-)
 ComboboxLabelFrame
 (
 aStyle

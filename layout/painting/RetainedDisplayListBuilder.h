@@ -586,12 +586,6 @@ RetainedDisplayListBuilder
 (
 )
 {
-mBuilder
-.
-SetIsDestroying
-(
-)
-;
 mList
 .
 DeleteAll

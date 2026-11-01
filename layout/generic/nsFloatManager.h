@@ -237,12 +237,6 @@ nsFloatManager
 mozilla
 :
 :
-PresShell
-*
-aPresShell
-mozilla
-:
-:
 WritingMode
 aWM
 )

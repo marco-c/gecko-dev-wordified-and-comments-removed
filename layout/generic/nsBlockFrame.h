@@ -1300,9 +1300,6 @@ aIsBlock
 return
 NS_NewLineBox
 (
-PresShell
-(
-)
 aFrame
 aIsBlock
 )
@@ -1325,9 +1322,6 @@ aCount
 return
 NS_NewLineBox
 (
-PresShell
-(
-)
 aFromLine
 aFrame
 aCount
@@ -1377,9 +1371,6 @@ aLine
 >
 Destroy
 (
-PresShell
-(
-)
 )
 ;
 }

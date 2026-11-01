@@ -138,7 +138,6 @@ CharacterDataBuffer
 ;
 }
 class
-MOZ_STACK_CLASS
 TextAutospace
 final
 {

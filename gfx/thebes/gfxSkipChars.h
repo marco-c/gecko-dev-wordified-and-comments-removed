@@ -407,7 +407,6 @@ mCharCount
 }
 ;
 class
-MOZ_STACK_CLASS
 gfxSkipCharsIterator
 {
 public

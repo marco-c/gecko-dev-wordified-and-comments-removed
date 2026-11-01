@@ -137,9 +137,6 @@ aStyle
 {
 return
 new
-(
-aPresShell
-)
 nsProgressFrame
 (
 aStyle
@@ -173,9 +170,6 @@ aStyle
 {
 return
 new
-(
-aPresShell
-)
 nsProgressFrame
 (
 aStyle

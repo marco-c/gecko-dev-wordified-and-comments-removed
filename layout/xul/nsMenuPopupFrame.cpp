@@ -646,9 +646,6 @@ aStyle
 {
 return
 new
-(
-aPresShell
-)
 nsMenuPopupFrame
 (
 aStyle

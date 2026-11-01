@@ -17,10 +17,6 @@ ABSTRACT_FRAME_ID
 (
 classname
 )
-PRES_ARENA_OBJECT
-(
-classname
-)
 #
 include
 "

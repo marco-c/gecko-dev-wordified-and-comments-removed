@@ -161,9 +161,6 @@ aStyle
 {
 return
 new
-(
-aPresShell
-)
 nsRubyBaseContainerFrame
 (
 aStyle
