@@ -101,6 +101,13 @@ T
 (
 )
 }
+#
+[
+cfg
+(
+test
+)
+]
 pub
 fn
 round_up_size_to_cache_line

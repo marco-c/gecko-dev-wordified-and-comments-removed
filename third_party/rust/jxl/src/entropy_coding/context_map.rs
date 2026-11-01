@@ -286,6 +286,14 @@ br
 &
 mut
 BitReader
+lz77_scratch
+:
+&
+mut
+Vec
+<
+u32
+>
 )
 -
 >
@@ -436,6 +444,7 @@ br
 num_contexts
 >
 2
+lz77_scratch
 )
 ?
 ;
@@ -452,6 +461,7 @@ new
 histograms
 br
 None
+lz77_scratch
 )
 ?
 ;
@@ -536,6 +546,13 @@ _
 (
 )
 ?
+;
+reader
+.
+reclaim_lz77_scratch
+(
+lz77_scratch
+)
 ;
 reader
 .

@@ -950,9 +950,6 @@ Default
 )
 ]
 pub
-(
-crate
-)
 struct
 SmoothUpsampleScratch
 {

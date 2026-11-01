@@ -28,9 +28,6 @@ bin
 )
 ;
 pub
-(
-crate
-)
 static
 DITHER_TABLE
 :

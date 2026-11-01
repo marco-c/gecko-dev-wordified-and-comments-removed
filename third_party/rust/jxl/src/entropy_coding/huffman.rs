@@ -192,9 +192,6 @@ Debug
 )
 ]
 pub
-(
-crate
-)
 struct
 Table
 {
@@ -3084,9 +3081,6 @@ as
 u32
 }
 pub
-(
-crate
-)
 fn
 table
 (

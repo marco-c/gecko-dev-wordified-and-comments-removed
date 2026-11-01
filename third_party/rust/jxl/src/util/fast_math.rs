@@ -274,6 +274,13 @@ cosx_scale2
 }
 #
 [
+cfg
+(
+test
+)
+]
+#
+[
 inline
 (
 always

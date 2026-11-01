@@ -8283,15 +8283,7 @@ pub
 struct
 U64VecSse42
 (
-pub
-(
-crate
-)
 __m128i
-pub
-(
-crate
-)
 Sse42Descriptor
 )
 ;

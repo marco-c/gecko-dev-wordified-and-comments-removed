@@ -699,6 +699,14 @@ br
 &
 mut
 BitReader
+lz77_scratch
+:
+&
+mut
+Vec
+<
+u32
+>
 )
 -
 >
@@ -783,6 +791,7 @@ decode
 NUM_PERMUTATION_CONTEXTS
 br
 true
+lz77_scratch
 )
 ?
 ;
@@ -799,6 +808,7 @@ new
 histograms
 br
 None
+lz77_scratch
 )
 ?
 ;
@@ -914,6 +924,13 @@ permutation
 ;
 }
 }
+reader
+.
+reclaim_lz77_scratch
+(
+lz77_scratch
+)
+;
 reader
 .
 check_final_state

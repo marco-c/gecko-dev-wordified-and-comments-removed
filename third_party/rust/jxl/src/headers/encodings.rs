@@ -1038,6 +1038,17 @@ num_contexts
 8
 ;
 let
+mut
+lz77_scratch
+=
+Vec
+:
+:
+new
+(
+)
+;
+let
 histograms
 =
 Histograms
@@ -1048,6 +1059,9 @@ decode
 num_contexts
 br
 true
+&
+mut
+lz77_scratch
 )
 ?
 ;
@@ -1064,6 +1078,9 @@ new
 histograms
 br
 None
+&
+mut
+lz77_scratch
 )
 ?
 ;
