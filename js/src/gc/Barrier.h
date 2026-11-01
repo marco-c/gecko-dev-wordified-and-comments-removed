@@ -3606,6 +3606,12 @@ unbarrieredGet
 )
 ;
 }
+using
+Base
+:
+:
+unbarrieredGet
+;
 #
 if
 JS_BITS_PER_WORD
