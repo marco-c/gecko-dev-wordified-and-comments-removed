@@ -2066,6 +2066,9 @@ getSubmission
 (
 aData
 null
+"
+searchbar
+"
 )
 ;
 const
@@ -2086,6 +2089,7 @@ telemetrySelectedIndex
 =
 -
 1
+submission
 }
 ;
 this

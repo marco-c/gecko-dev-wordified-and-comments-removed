@@ -1067,6 +1067,11 @@ files
 =
 [
 "
+searchTelemetry
+.
+html
+"
+"
 telemetrySearchSuggestions
 .
 sjs
