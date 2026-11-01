@@ -120,7 +120,7 @@ GlobalObject
 &
 aGlobal
 const
-nsAString
+StringOrWebTransportErrorInit
 &
 aMessage
 const
