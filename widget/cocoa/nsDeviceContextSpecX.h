@@ -178,7 +178,12 @@ nsCOMPtr
 <
 nsIFile
 >
-mTempFile
+mOutputFile
+;
+bool
+mOutputFileIsFinal
+=
+false
 ;
 private
 :
