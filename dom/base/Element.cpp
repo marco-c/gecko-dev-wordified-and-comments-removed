@@ -31778,6 +31778,10 @@ else
 {
 UnsetFlags
 (
+ELEMENT_HAS_SNAPSHOT
+|
+ELEMENT_HANDLED_SNAPSHOT
+|
 kAllServoDescendantBits
 |
 NODE_NEEDS_FRAME
