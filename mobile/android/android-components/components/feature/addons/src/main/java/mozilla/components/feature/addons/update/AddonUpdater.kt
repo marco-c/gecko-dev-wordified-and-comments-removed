@@ -129,12 +129,6 @@ VisibleForTesting
 import
 androidx
 .
-annotation
-.
-WorkerThread
-import
-androidx
-.
 core
 .
 app
@@ -3718,8 +3712,8 @@ stored
 .
 *
 /
-WorkerThread
 internal
+suspend
 fun
 saveOrUpdate
 (
@@ -3783,7 +3777,7 @@ search
 .
 *
 /
-WorkerThread
+suspend
 fun
 findUpdateAttemptBy
 (
@@ -3858,8 +3852,8 @@ storage
 .
 *
 /
-WorkerThread
 internal
+suspend
 fun
 remove
 (

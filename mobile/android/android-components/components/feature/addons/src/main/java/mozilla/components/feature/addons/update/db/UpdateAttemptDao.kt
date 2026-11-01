@@ -125,6 +125,7 @@ OnConflictStrategy
 .
 REPLACE
 )
+suspend
 fun
 insertOrUpdate
 (
@@ -148,6 +149,7 @@ addon_id
 addonId
 "
 )
+suspend
 fun
 getUpdateAttemptFor
 (
@@ -171,6 +173,7 @@ addon_id
 addonId
 "
 )
+suspend
 fun
 deleteUpdateAttempt
 (

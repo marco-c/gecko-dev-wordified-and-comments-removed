@@ -119,14 +119,6 @@ coroutines
 .
 Dispatchers
 .
-IO
-import
-kotlinx
-.
-coroutines
-.
-Dispatchers
-.
 Main
 import
 kotlinx
@@ -134,12 +126,6 @@ kotlinx
 coroutines
 .
 launch
-import
-kotlinx
-.
-coroutines
-.
-withContext
 import
 mozilla
 .
@@ -432,11 +418,6 @@ Main
 val
 updateAttempt
 =
-withContext
-(
-IO
-)
-{
 updateAttemptStorage
 .
 findUpdateAttemptBy
@@ -445,7 +426,6 @@ addon
 .
 id
 )
-}
 updateAttempt
 ?
 .

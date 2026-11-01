@@ -79,6 +79,14 @@ util
 .
 Date
 import
+kotlinx
+.
+coroutines
+.
+test
+.
+runTest
+import
 mozilla
 .
 components
@@ -243,6 +251,8 @@ a
 request
 (
 )
+=
+runTest
 {
 storage
 .
@@ -273,6 +283,8 @@ by
 addonId
 (
 )
+=
+runTest
 {
 storage
 .
@@ -303,6 +315,8 @@ a
 request
 (
 )
+=
+runTest
 {
 storage
 .
