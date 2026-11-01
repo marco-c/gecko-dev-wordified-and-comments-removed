@@ -1792,7 +1792,7 @@ module
 JS
 :
 :
-CompileWasmModuleAsSource
+CompileWasmModule
 (
 cx
 options
@@ -3639,7 +3639,7 @@ module
 JS
 :
 :
-CompileWasmModuleAsSource
+CompileWasmModule
 (
 cx
 options
