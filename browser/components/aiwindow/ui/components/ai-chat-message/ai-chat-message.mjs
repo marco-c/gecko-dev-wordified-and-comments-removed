@@ -1843,9 +1843,7 @@ with
 an
 *
 <
-ai
--
-website
+smartwindow
 -
 chip
 >
@@ -1927,9 +1925,7 @@ into
 *
 *
 <
-ai
--
-website
+smartwindow
 -
 chip
 type
@@ -1945,9 +1941,7 @@ line
 >
 <
 /
-ai
--
-website
+smartwindow
 -
 chip
 >
@@ -2200,9 +2194,7 @@ ownerDocument
 createElement
 (
 "
-ai
--
-website
+smartwindow
 -
 chip
 "

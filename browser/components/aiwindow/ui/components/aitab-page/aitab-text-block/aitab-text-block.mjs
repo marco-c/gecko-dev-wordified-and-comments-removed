@@ -131,9 +131,7 @@ aiwindow
 /
 components
 /
-ai
--
-website
+smartwindow
 -
 chip
 .
@@ -331,9 +329,7 @@ chip
 >
 html
 <
-ai
--
-website
+smartwindow
 -
 chip
 class
@@ -402,9 +398,7 @@ OpenLink
 >
 <
 /
-ai
--
-website
+smartwindow
 -
 chip
 >

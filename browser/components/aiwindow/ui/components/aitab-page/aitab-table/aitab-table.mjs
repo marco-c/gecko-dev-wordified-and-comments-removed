@@ -154,9 +154,7 @@ aiwindow
 /
 components
 /
-ai
--
-website
+smartwindow
 -
 chip
 .
@@ -1558,9 +1556,7 @@ nothing
 return
 html
 <
-ai
--
-website
+smartwindow
 -
 chip
 class
@@ -1624,9 +1620,7 @@ OpenLink
 >
 <
 /
-ai
--
-website
+smartwindow
 -
 chip
 >

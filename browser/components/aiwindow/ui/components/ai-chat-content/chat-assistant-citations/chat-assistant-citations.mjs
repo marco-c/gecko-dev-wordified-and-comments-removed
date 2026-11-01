@@ -189,9 +189,7 @@ aiwindow
 /
 components
 /
-ai
--
-website
+smartwindow
 -
 chip
 .
@@ -681,9 +679,7 @@ showTitle
 return
 html
 <
-ai
--
-website
+smartwindow
 -
 chip
 type
@@ -769,9 +765,7 @@ citation
 >
 <
 /
-ai
--
-website
+smartwindow
 -
 chip
 >

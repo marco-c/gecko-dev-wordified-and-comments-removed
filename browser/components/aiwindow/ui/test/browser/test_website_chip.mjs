@@ -17,7 +17,7 @@ vars
 import
 *
 as
-_aiWebsiteChip
+_smartwindowChip
 from
 "
 chrome
@@ -32,9 +32,7 @@ aiwindow
 /
 components
 /
-ai
--
-website
+smartwindow
 -
 chip
 .
@@ -54,9 +52,7 @@ customElements
 whenDefined
 (
 "
-ai
--
-website
+smartwindow
 -
 chip
 "

@@ -2526,9 +2526,7 @@ node
 >
 [
 "
-ai
--
-website
+smartwindow
 -
 chip
 "
@@ -3465,9 +3463,7 @@ editorElement
 addEventListener
 (
 "
-ai
--
-website
+smartwindow
 -
 chip
 :
