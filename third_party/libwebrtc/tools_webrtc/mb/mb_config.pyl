@@ -2812,6 +2812,9 @@ mixins
 debug
 '
 '
+minimal_symbols
+'
+'
 remoteexec
 '
 '
