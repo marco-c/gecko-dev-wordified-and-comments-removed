@@ -1373,7 +1373,7 @@ new
 (
 1
 .
-0
+0_f32
 text_format
 .
 color

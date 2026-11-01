@@ -3067,7 +3067,7 @@ new
 (
 1
 .
-0
+0_f32
 ERROR_COLOR
 )
 ;
