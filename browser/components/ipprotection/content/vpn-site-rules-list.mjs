@@ -1825,6 +1825,11 @@ delete
 -
 dialog
 "
+closedby
+=
+"
+any
+"
 ?
 error
 =
