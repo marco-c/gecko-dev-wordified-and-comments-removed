@@ -359,6 +359,13 @@ dom
 RTCRtpSendParameters
 &
 aParameters
+const
+dom
+:
+:
+RTCSetParameterOptions
+&
+aSetParameterOptions
 ErrorResult
 &
 aError

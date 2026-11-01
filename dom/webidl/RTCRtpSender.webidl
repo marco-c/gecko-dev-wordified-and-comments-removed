@@ -133,6 +133,12 @@ setParameters
 (
 RTCRtpSendParameters
 parameters
+optional
+RTCSetParameterOptions
+setParameterOptions
+=
+{
+}
 )
 ;
 RTCRtpSendParameters
