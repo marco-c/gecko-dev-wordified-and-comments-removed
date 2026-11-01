@@ -629,6 +629,16 @@ name
 (
 )
 {
+if
+(
+!
+buffer
+.
+buffer
+.
+detached
+)
+{
 buffer
 .
 buffer
@@ -637,6 +647,7 @@ transfer
 (
 )
 ;
+}
 return
 alg
 ;

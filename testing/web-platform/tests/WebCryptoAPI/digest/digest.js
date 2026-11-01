@@ -410,6 +410,16 @@ function
 (
 )
 {
+if
+(
+!
+buffer
+.
+buffer
+.
+detached
+)
+{
 buffer
 .
 buffer
@@ -418,6 +428,7 @@ transfer
 (
 )
 ;
+}
 return
 algorithmName
 (
