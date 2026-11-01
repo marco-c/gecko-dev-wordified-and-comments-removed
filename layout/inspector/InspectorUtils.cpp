@@ -8880,8 +8880,6 @@ computedStyle
 Servo_GetComputationSteps
 (
 &
-aProperty
-&
 aExpression
 &
 aElement
