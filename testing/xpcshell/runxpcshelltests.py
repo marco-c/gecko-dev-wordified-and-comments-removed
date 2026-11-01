@@ -10374,19 +10374,6 @@ MOZ_FETCHES_DIR
 None
 )
         
-self
-.
-env
-[
-"
-MOZ_DISABLE_SOCKET_PROCESS
-"
-]
-=
-"
-1
-"
-        
 if
 self
 .

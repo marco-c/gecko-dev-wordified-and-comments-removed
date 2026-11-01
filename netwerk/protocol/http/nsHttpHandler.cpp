@@ -2045,13 +2045,6 @@ mIOService
 service
 )
 ;
-gIOService
--
->
-LaunchSocketProcess
-(
-)
-;
 #
 if
 defined

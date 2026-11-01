@@ -8809,11 +8809,6 @@ aBaseURI
 {
 MOZ_ASSERT
 (
-XRE_IsSocketProcess
-(
-)
-|
-|
 XRE_IsContentProcess
 (
 )

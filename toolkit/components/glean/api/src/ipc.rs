@@ -685,14 +685,6 @@ PROCESS_TYPE_RDD
 nsIXULRuntime
 :
 :
-PROCESS_TYPE_SOCKET
-=
->
-{
-}
-nsIXULRuntime
-:
-:
 PROCESS_TYPE_UTILITY
 =
 >

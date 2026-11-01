@@ -20,9 +20,6 @@ processTypes
 tab
 "
 "
-socket
-"
-"
 rdd
 "
 "

@@ -55,13 +55,6 @@ ogg
 ]
 [
 "
-browser_fog_socket
-.
-js
-"
-]
-[
-"
 browser_fog_utility
 .
 js
