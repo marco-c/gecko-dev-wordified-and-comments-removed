@@ -106,7 +106,7 @@ mozilla
 dom
 {
 class
-BlobURLPrincipalEntry
+BlobURLNullOriginEntry
 ;
 class
 BlobURL
@@ -226,7 +226,7 @@ lastSlash
 }
 nsIPrincipal
 *
-GetNullPrincipal
+GetNullOriginPrincipal
 (
 )
 ;
@@ -295,9 +295,9 @@ mRevoked
 ;
 RefPtr
 <
-BlobURLPrincipalEntry
+BlobURLNullOriginEntry
 >
-mPrincipalEntry
+mNullOriginEntry
 ;
 public
 :

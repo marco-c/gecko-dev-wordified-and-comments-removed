@@ -245,7 +245,7 @@ revoked
 ;
 nullable
 nsIPrincipal
-nullPrincipal
+nullOriginPrincipal
 ;
 }
 ;
