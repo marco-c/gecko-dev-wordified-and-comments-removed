@@ -222,10 +222,7 @@ InternalError
 ;
 }
 return
-std
-:
-:
-make_unique
+MakeUnique
 <
 TimeZone
 >
@@ -372,10 +369,7 @@ status
 ;
 }
 return
-std
-:
-:
-make_unique
+MakeUnique
 <
 TimeZone
 >

@@ -6510,10 +6510,7 @@ aScheduleRelease
 {
 aScheduleRelease
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 ScheduleSharedSurfaceRelease
 >
@@ -8286,10 +8283,7 @@ Checkpoint
 :
 :
 SceneBuilt
-std
-:
-:
-make_unique
+MakeUnique
 <
 SceneBuiltNotification
 >
@@ -12961,10 +12955,7 @@ Checkpoint
 :
 :
 SceneBuilt
-std
-:
-:
-make_unique
+MakeUnique
 <
 ScheduleObserveLayersUpdate
 >

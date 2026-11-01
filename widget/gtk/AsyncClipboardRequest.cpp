@@ -315,10 +315,7 @@ aWhichClipboard
 ;
 mDataRequest
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 DataRequestGtk
 >
@@ -1723,10 +1720,7 @@ AsyncWaylandClipboardRequest
 ;
 mDataRequest
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 DataRequestWayland
 >

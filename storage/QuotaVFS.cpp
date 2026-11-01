@@ -3316,10 +3316,7 @@ nullptr
 auto
 qvfs
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 sqlite3_vfs
 >

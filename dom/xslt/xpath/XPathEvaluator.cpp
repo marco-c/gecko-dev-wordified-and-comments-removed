@@ -530,10 +530,7 @@ nullptr
 ;
 }
 return
-std
-:
-:
-make_unique
+MakeUnique
 <
 XPathExpression
 >
@@ -611,10 +608,7 @@ aGlobal
 )
 {
 return
-std
-:
-:
-make_unique
+MakeUnique
 <
 XPathEvaluator
 >

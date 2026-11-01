@@ -1980,10 +1980,7 @@ nullptr
 auto
 params
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 ViewTransitionParams
 >
@@ -7759,10 +7756,7 @@ IsElement
 auto
 capture
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 CapturedElement
 >
@@ -8140,10 +8134,7 @@ wasPresent
 false
 ;
 return
-std
-:
-:
-make_unique
+MakeUnique
 <
 CapturedElement
 >

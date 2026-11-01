@@ -508,10 +508,7 @@ nsString
 >
 value
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 nsString
 >
@@ -572,10 +569,7 @@ Matrix4x4
 >
 value
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 gfx
 :
@@ -624,10 +618,7 @@ nsRect
 >
 value
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 nsRect
 >

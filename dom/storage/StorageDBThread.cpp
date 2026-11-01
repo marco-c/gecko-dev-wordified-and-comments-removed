@@ -647,10 +647,7 @@ storageThread
 auto
 newStorageThread
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 StorageDBThread
 >
@@ -1234,10 +1231,7 @@ rv
 =
 InsertDBOp
 (
-std
-:
-:
-make_unique
+MakeUnique
 <
 DBOperation
 >
@@ -1685,10 +1679,7 @@ MakeRefPtr
 ThreadEventQueue
 >
 (
-std
-:
-:
-make_unique
+MakeUnique
 <
 EventQueue
 >

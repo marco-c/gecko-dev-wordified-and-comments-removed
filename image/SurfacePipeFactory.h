@@ -3112,10 +3112,7 @@ aConfigs
 auto
 pipe
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 typename
 detail

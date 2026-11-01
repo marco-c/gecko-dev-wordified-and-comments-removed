@@ -2395,10 +2395,7 @@ continue
 auto
 entry
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 CacheFileContextEvictorEntry
 >

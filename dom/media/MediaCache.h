@@ -964,10 +964,7 @@ uint8_t
 >
 mPartialBlockBuffer
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 uint8_t
 [

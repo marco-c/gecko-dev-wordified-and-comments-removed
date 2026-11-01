@@ -310,10 +310,10 @@ char
 >
 buffer
 =
-std
+mozilla
 :
 :
-make_unique
+MakeUnique
 <
 char
 [

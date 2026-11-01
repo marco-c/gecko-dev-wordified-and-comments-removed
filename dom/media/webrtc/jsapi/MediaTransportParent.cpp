@@ -1792,10 +1792,7 @@ else
 {
 aResolve
 (
-std
-:
-:
-make_unique
+MakeUnique
 <
 dom
 :

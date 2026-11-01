@@ -688,10 +688,7 @@ Checkpoint
 :
 :
 FrameTexturesUpdated
-std
-:
-:
-make_unique
+MakeUnique
 <
 ScheduleHandleRenderTextureOps
 >

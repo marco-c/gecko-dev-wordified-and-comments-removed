@@ -3829,10 +3829,7 @@ return
 auto
 verInfoBuf
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 char
 [

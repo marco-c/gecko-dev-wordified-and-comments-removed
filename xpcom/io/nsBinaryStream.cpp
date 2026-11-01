@@ -182,6 +182,12 @@ using
 mozilla
 :
 :
+MakeUnique
+;
+using
+mozilla
+:
+:
 PodCopy
 ;
 using
@@ -3796,10 +3802,7 @@ char
 >
 buf
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 char
 [

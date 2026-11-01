@@ -1700,10 +1700,7 @@ mTelemetryProvider
 ;
 mCurrentRequest
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 UpdateRequest
 >

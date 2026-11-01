@@ -1226,10 +1226,7 @@ AssertIsOnMainThread
 ;
 mDecoder
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 ScriptDecoder
 >
@@ -2205,10 +2202,10 @@ pInfo
 {
 mPrincipalInfo
 =
-std
+mozilla
 :
 :
-make_unique
+MakeUnique
 <
 PrincipalInfo
 >

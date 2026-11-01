@@ -2491,10 +2491,7 @@ CorePS
 :
 SetLul
 (
-std
-:
-:
-make_unique
+MakeUnique
 <
 lul
 :

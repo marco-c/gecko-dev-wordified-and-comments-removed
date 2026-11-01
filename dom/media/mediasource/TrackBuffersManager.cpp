@@ -1389,10 +1389,7 @@ newBuffer
 }
 mSourceBufferAttributes
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 SourceBufferAttributes
 >

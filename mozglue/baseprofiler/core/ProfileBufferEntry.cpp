@@ -1052,10 +1052,7 @@ UniqueStacks
 :
 mUniqueStrings
 (
-std
-:
-:
-make_unique
+MakeUnique
 <
 UniqueJSONStrings
 >
@@ -2062,10 +2059,7 @@ char
 >
 dynStrBuf
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 char
 [

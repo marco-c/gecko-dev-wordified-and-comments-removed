@@ -886,10 +886,7 @@ aDoc
 .
 SetMetaViewportData
 (
-std
-:
-:
-make_unique
+MakeUnique
 <
 ViewportMetaData
 >

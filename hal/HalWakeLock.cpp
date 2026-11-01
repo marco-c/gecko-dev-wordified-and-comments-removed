@@ -868,10 +868,7 @@ entry
 .
 Insert
 (
-std
-:
-:
-make_unique
+MakeUnique
 <
 ProcessLockTable
 >

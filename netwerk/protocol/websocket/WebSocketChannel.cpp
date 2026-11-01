@@ -902,10 +902,7 @@ mEntries
 .
 AppendElement
 (
-std
-:
-:
-make_unique
+MakeUnique
 <
 FailDelay
 >
@@ -1611,10 +1608,7 @@ nullptr
 auto
 newdata
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 nsOpenConn
 >
@@ -13756,10 +13750,7 @@ mCompressorMutex
 ;
 mPMCECompressor
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 PMCECompression
 >
@@ -19845,10 +19836,7 @@ mCompressorMutex
 ;
 mPMCECompressor
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 PMCECompression
 >

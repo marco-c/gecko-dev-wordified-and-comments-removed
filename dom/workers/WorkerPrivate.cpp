@@ -27109,10 +27109,7 @@ WorkerErrorReport
 >
 report
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 WorkerErrorReport
 >

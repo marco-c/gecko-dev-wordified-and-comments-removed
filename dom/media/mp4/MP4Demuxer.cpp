@@ -2205,10 +2205,7 @@ aTimeScale
 )
 mIterator
 (
-std
-:
-:
-make_unique
+MakeUnique
 <
 SampleIterator
 >

@@ -3982,10 +3982,7 @@ this
 ;
 MetadataLoaded
 (
-std
-:
-:
-make_unique
+MakeUnique
 <
 MediaInfo
 >
@@ -4701,10 +4698,7 @@ mMDSMCreationTime
 auto
 info
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 dom
 :

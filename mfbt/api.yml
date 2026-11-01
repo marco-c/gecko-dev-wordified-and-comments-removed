@@ -1791,9 +1791,13 @@ h
 types
 :
 -
+DefaultDelete
+-
 UniquePtr
 functions
 :
+-
+MakeUnique
 -
 WrapUnique
 -

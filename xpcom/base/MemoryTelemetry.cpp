@@ -753,10 +753,7 @@ mPokeWindow
 {
 mPokeWindow
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 TimeStampWindow
 >

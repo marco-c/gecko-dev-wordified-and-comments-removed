@@ -1706,10 +1706,7 @@ Length
 auto
 hostnameMem
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 char
 [

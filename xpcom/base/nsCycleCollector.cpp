@@ -10090,10 +10090,7 @@ MapCount
 ;
 mCurrNode
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 NodePool
 :
@@ -18510,10 +18507,7 @@ mBuilder
 ;
 mBuilder
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 CCGraphBuilder
 >

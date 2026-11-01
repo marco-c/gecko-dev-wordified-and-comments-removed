@@ -11743,10 +11743,7 @@ isFullySelected
 auto
 newHead
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 SelectionDetails
 >
@@ -12269,10 +12266,7 @@ continue
 auto
 newHead
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 SelectionDetails
 >

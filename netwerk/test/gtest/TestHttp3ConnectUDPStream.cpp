@@ -1192,10 +1192,7 @@ get
 }
 mRequestHead
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 nsHttpRequestHead
 >

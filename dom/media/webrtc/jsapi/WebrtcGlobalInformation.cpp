@@ -803,10 +803,7 @@ RTCStatsReportPromise
 :
 CreateAndResolve
 (
-std
-:
-:
-make_unique
+MakeUnique
 <
 dom
 :
@@ -1605,10 +1602,7 @@ WebrtcGlobalStatsHistory
 :
 Record
 (
-std
-:
-:
-make_unique
+MakeUnique
 <
 RTCStatsReportInternal
 >
@@ -3996,10 +3990,7 @@ aFinalStats
 auto
 finalStats
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 RTCStatsReportInternal
 >

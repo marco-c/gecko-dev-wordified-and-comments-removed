@@ -2001,10 +2001,7 @@ outputConfig
 {
 mAudioConverter
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 AudioConverter
 >
@@ -2155,10 +2152,7 @@ aChannels
 {
 mPacketizer
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 AudioPacketizer
 <
@@ -2173,10 +2167,7 @@ aChannels
 ;
 mPacket
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 int16_t
 [
@@ -2577,10 +2568,7 @@ aPc
 )
 mRtpHeaderExtensionMap
 (
-std
-:
-:
-make_unique
+MakeUnique
 <
 webrtc
 :

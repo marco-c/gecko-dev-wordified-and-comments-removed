@@ -2493,10 +2493,10 @@ DataInfo
 >
 info
 =
-std
+mozilla
 :
 :
-make_unique
+MakeUnique
 <
 mozilla
 :

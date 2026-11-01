@@ -5878,10 +5878,7 @@ length
 auto
 stringData
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 std
 :
@@ -6052,10 +6049,7 @@ string
 auto
 stringData
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 std
 :
@@ -6168,10 +6162,7 @@ identifier
 auto
 protobufStackFrame
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 protobuf
 :
@@ -6218,10 +6209,7 @@ release
 auto
 data
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 protobuf
 :

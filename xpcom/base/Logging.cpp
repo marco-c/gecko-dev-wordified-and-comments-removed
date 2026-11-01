@@ -1046,10 +1046,7 @@ char
 >
 line
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 char
 [
@@ -3374,10 +3371,7 @@ kBuffSize
 {
 allocatedBuff
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 char
 [

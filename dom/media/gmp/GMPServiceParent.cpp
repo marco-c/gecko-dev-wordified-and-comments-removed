@@ -2245,10 +2245,7 @@ __func__
 auto
 holder
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 MozPromiseHolder
 <
@@ -7877,10 +7874,7 @@ rv
 auto
 salt
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 nsCString
 >

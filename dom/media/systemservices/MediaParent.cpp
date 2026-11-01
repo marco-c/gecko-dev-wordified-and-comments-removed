@@ -359,10 +359,7 @@ mKeys
 InsertOrUpdate
 (
 principalString
-std
-:
-:
-make_unique
+MakeUnique
 <
 OriginKey
 >
@@ -1377,10 +1374,7 @@ mKeys
 InsertOrUpdate
 (
 origin
-std
-:
-:
-make_unique
+MakeUnique
 <
 OriginKey
 >

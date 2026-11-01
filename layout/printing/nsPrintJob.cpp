@@ -1138,10 +1138,7 @@ continue
 auto
 childPO
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 nsPrintObject
 >
@@ -1881,10 +1878,7 @@ scriptBlocker
 ;
 mPrintObject
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 nsPrintObject
 >

@@ -3202,10 +3202,7 @@ status
 auto
 calendar
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 Calendar
 >
@@ -3990,10 +3987,7 @@ aView
 auto
 chars
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 char
 [

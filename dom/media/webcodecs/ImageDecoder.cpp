@@ -724,10 +724,7 @@ mControlMessageQueue
 .
 push
 (
-std
-:
-:
-make_unique
+MakeUnique
 <
 ConfigureMessage
 >
@@ -750,10 +747,7 @@ mControlMessageQueue
 .
 push
 (
-std
-:
-:
-make_unique
+MakeUnique
 <
 DecodeMetadataMessage
 >
@@ -774,10 +768,7 @@ mControlMessageQueue
 .
 push
 (
-std
-:
-:
-make_unique
+MakeUnique
 <
 DecodeFrameMessage
 >
@@ -800,10 +791,7 @@ mControlMessageQueue
 .
 push
 (
-std
-:
-:
-make_unique
+MakeUnique
 <
 SelectTrackMessage
 >

@@ -5791,10 +5791,7 @@ parent
 auto
 wdi
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 WorkerDomainInfo
 >
@@ -11311,10 +11308,7 @@ nsCycleCollector_startup
 auto
 context
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 WorkerJSContext
 >

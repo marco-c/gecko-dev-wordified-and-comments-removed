@@ -62,10 +62,7 @@ IsEmpty
 ;
 mCoalescedInputEvent
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 WidgetTouchEvent
 >

@@ -5010,10 +5010,10 @@ aHadCrossOriginRedirects
 {
 mBehaviour
 =
-std
+mozilla
 :
 :
-make_unique
+MakeUnique
 <
 StaticBehaviour
 >

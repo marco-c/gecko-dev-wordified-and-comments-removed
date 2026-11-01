@@ -202,6 +202,12 @@ using
 mozilla
 :
 :
+MakeUnique
+;
+using
+mozilla
+:
+:
 StaticMutex
 ;
 using
@@ -4606,10 +4612,7 @@ mStorage
 InsertOrUpdate
 (
 store
-std
-:
-:
-make_unique
+MakeUnique
 <
 KeyedHistogramMapType
 >

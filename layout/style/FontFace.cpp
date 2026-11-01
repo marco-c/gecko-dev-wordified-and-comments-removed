@@ -1636,10 +1636,7 @@ mLoadedRejection
 {
 mLoadedRejection
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 FontFaceLoadedRejection
 >

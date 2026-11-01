@@ -6749,10 +6749,7 @@ HandleOverrideResponse
 {
 mResponseHead
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 nsHttpResponseHead
 >
@@ -25650,10 +25647,7 @@ lastModifiedTime
 ;
 mCachedResponseHead
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 nsHttpResponseHead
 >
@@ -26734,10 +26728,7 @@ ref
 {
 ref
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 nsTArray
 <

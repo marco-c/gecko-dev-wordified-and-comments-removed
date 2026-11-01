@@ -6866,10 +6866,7 @@ mCompositorVsyncDispatcherLock
 {
 mCompositorVsyncDispatcherLock
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 Mutex
 >
@@ -10055,10 +10052,7 @@ nullptr
 }
 mLongTapTouchPoint
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 LongTapInfo
 >
@@ -11046,10 +11040,7 @@ IsHandledByRoot
 {
 mSwipeEventQueue
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 SwipeEventQueue
 >

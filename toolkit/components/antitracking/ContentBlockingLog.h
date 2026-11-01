@@ -252,10 +252,7 @@ OriginEntry
 {
 mData
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 OriginDataEntry
 >

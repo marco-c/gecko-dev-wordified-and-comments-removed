@@ -2071,10 +2071,7 @@ nsDocumentEncoder
 :
 nsDocumentEncoder
 (
-std
-:
-:
-make_unique
+MakeUnique
 <
 RangeNodeContext
 >
@@ -7478,10 +7475,7 @@ nsHTMLCopyEncoder
 :
 nsDocumentEncoder
 {
-std
-:
-:
-make_unique
+MakeUnique
 <
 nsHTMLCopyEncoder
 :

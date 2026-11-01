@@ -579,10 +579,7 @@ self
 >
 mCallback
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 ChromiumCDMCallbackProxy
 >

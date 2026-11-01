@@ -6403,10 +6403,7 @@ IPC_OK
 auto
 snapshotRequest
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 ReadbackSnapshotRequest
 >
@@ -7336,10 +7333,7 @@ aRemoteTextureId
 auto
 presentRequest
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 ReadbackPresentRequest
 >

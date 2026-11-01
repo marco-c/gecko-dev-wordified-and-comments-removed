@@ -531,10 +531,10 @@ ThreadLocal
 final
 {
 friend
-std
+mozilla
 :
 :
-default_delete
+DefaultDelete
 <
 ThreadLocal
 >

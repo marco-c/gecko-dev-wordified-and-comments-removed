@@ -9715,10 +9715,7 @@ false
 )
 ;
 return
-std
-:
-:
-make_unique
+MakeUnique
 <
 FacesData
 >
@@ -9932,10 +9929,7 @@ false
 )
 ;
 return
-std
-:
-:
-make_unique
+MakeUnique
 <
 FacesData
 >
@@ -13783,10 +13777,7 @@ nullptr
 auto
 prefFonts
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 PrefFontList
 >

@@ -410,10 +410,7 @@ err
 auto
 buf
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 char
 [

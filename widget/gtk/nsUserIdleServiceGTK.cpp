@@ -2069,10 +2069,7 @@ IDLE_SERVICE_MUTTER
 :
 mIdleService
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 UserIdleServiceMutter
 >
@@ -2092,10 +2089,7 @@ IDLE_SERVICE_XSCREENSAVER
 :
 mIdleService
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 UserIdleServiceX11
 >

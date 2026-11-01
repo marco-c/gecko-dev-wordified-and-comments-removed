@@ -3938,10 +3938,7 @@ IsEncrypted
 (
 )
 ?
-std
-:
-:
-make_unique
+MakeUnique
 <
 EncryptionInfo
 >

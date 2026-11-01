@@ -512,10 +512,7 @@ aAttrCount
 {
 atts
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 txStylesheetAttr
 [
@@ -1581,10 +1578,7 @@ mLevel
 {
 addInstruction
 (
-std
-:
-:
-make_unique
+MakeUnique
 <
 txRemoveVariable
 >
@@ -2504,10 +2498,7 @@ true
 }
 mElementContext
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 txElementContext
 >
@@ -2658,10 +2649,7 @@ release
 ;
 mChooseGotoList
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 txList
 >

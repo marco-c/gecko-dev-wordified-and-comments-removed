@@ -108,6 +108,12 @@ using
 mozilla
 :
 :
+MakeUnique
+;
+using
+mozilla
+:
+:
 Runnable
 ;
 using
@@ -767,10 +773,7 @@ StealNSResult
 auto
 enumerateFontsPromise
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 EnumerateFontsPromise
 >

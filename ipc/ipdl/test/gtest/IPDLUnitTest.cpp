@@ -234,10 +234,7 @@ extraArgs
 auto
 prefSerializer
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 ipc
 :
@@ -1656,10 +1653,7 @@ ProcessChild
 >
 {
 return
-std
-:
-:
-make_unique
+MakeUnique
 <
 IPDLUnitTestProcessChild
 >

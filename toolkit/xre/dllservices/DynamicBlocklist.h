@@ -299,10 +299,7 @@ kTestDllBytes
 ;
 mPayload
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 uint8_t
 [
@@ -608,10 +605,7 @@ uint8_t
 >
 payload
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 uint8_t
 [

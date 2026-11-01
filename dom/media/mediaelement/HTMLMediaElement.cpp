@@ -10862,10 +10862,7 @@ nullptr
 auto
 result
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 dom
 :

@@ -1976,10 +1976,7 @@ NoteExclusiveAccess
 ;
 mAsyncStatements
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 AsyncStatementCache
 >
@@ -1989,10 +1986,7 @@ mConn
 ;
 mHelperThreadStatements
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 StatementCache
 >

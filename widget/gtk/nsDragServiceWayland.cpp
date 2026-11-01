@@ -235,10 +235,7 @@ nsDragSessionWayland
 ;
 mRecentTask
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 DragTaskWayland
 >
@@ -591,10 +588,7 @@ DragTaskWayland
 >
 task
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 DragTaskWayland
 >
@@ -634,10 +628,7 @@ DragTaskWayland
 >
 task
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 DragTaskWayland
 >
@@ -709,10 +700,7 @@ DragTaskWayland
 >
 task
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 DragTaskWayland
 >

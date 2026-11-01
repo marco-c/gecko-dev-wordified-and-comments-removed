@@ -781,10 +781,10 @@ uint8_t
 >
 buffer
 =
-std
+mozilla
 :
 :
-make_unique
+MakeUnique
 <
 uint8_t
 [
@@ -1690,10 +1690,10 @@ uint8_t
 >
 buffer
 =
-std
+mozilla
 :
 :
-make_unique
+MakeUnique
 <
 uint8_t
 [

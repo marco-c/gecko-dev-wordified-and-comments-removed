@@ -1290,10 +1290,7 @@ xNextSystemCall
 }
 ;
 return
-std
-:
-:
-make_unique
+MakeUnique
 <
 sqlite3_vfs
 >

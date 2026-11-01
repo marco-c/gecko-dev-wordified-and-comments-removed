@@ -155,10 +155,7 @@ aTargetRate
 )
 mDriftController
 (
-std
-:
-:
-make_unique
+MakeUnique
 <
 DriftController
 >
@@ -170,10 +167,7 @@ mDesiredBuffering
 )
 mResampler
 (
-std
-:
-:
-make_unique
+MakeUnique
 <
 AudioResampler
 >

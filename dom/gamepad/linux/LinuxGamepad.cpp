@@ -181,6 +181,12 @@ using
 mozilla
 :
 :
+MakeUnique
+;
+using
+mozilla
+:
+:
 udev_device
 ;
 using
@@ -770,10 +776,7 @@ return
 auto
 gamepad
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 Gamepad
 >

@@ -568,10 +568,7 @@ candc
 auto
 out
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 NrIceCandidate
 >

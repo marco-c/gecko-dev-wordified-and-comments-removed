@@ -407,10 +407,7 @@ charLenExclNul
 ;
 nameBuf
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 WCHAR
 [

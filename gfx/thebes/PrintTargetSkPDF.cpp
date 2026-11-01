@@ -1345,10 +1345,7 @@ new
 PrintTargetSkPDF
 (
 aSizeInPoints
-std
-:
-:
-make_unique
+MakeUnique
 <
 GkSkWStream
 >

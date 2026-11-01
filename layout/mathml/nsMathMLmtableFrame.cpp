@@ -5718,10 +5718,7 @@ kClassID
 )
 mUniqueStyleText
 (
-std
-:
-:
-make_unique
+MakeUnique
 <
 nsStyleText
 >
@@ -5915,10 +5912,7 @@ aOldComputedStyle
 ;
 mUniqueStyleText
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 nsStyleText
 >

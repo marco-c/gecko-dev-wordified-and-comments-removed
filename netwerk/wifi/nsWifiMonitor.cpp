@@ -949,10 +949,7 @@ WifiScanner
 ;
 mWifiScanner
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 mozilla
 :

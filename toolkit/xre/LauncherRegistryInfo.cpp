@@ -456,10 +456,10 @@ status
 }
 buf
 =
-std
+mozilla
 :
 :
-make_unique
+MakeUnique
 <
 wchar_t
 [

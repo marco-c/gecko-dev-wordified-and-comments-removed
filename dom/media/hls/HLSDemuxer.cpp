@@ -734,10 +734,7 @@ TrackType
 :
 :
 kAudioTrack
-std
-:
-:
-make_unique
+MakeUnique
 <
 AudioInfo
 >
@@ -764,10 +761,7 @@ TrackType
 :
 :
 kVideoTrack
-std
-:
-:
-make_unique
+MakeUnique
 <
 VideoInfo
 >

@@ -5717,10 +5717,7 @@ aPid
 auto
 policy
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 SandboxBroker
 :
@@ -6477,10 +6474,7 @@ aPid
 auto
 policy
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 SandboxBroker
 :
@@ -6863,10 +6857,7 @@ aPid
 auto
 policy
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 SandboxBroker
 :
@@ -7268,10 +7259,7 @@ aPid
 auto
 policy
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 SandboxBroker
 :

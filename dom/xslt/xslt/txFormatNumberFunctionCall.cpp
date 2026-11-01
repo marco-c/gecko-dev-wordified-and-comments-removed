@@ -1190,10 +1190,10 @@ bufsize
 auto
 buf
 =
-std
+mozilla
 :
 :
-make_unique
+MakeUnique
 <
 char
 [

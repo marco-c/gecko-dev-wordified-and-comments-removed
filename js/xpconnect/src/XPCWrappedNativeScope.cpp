@@ -272,10 +272,10 @@ aFirstGlobal
 :
 mWrappedNativeMap
 (
-std
+mozilla
 :
 :
-make_unique
+MakeUnique
 <
 Native2WrappedNativeMap
 >
@@ -284,10 +284,10 @@ Native2WrappedNativeMap
 )
 mWrappedNativeProtoMap
 (
-std
+mozilla
 :
 :
-make_unique
+MakeUnique
 <
 ClassInfo2WrappedNativeProtoMap
 >

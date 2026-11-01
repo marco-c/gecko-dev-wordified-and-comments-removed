@@ -181,10 +181,7 @@ create_memory_counter
 )
 {
 return
-std
-:
-:
-make_unique
+MakeUnique
 <
 MemoryCounter
 >

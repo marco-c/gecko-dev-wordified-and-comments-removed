@@ -194,10 +194,7 @@ aMessageChannelId
 )
 mChildThread
 (
-std
-:
-:
-make_unique
+MakeUnique
 <
 IOThreadChild
 >

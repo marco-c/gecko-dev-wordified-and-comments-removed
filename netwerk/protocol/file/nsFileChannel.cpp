@@ -1572,10 +1572,7 @@ result
 ;
 buf
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 WCHAR
 [

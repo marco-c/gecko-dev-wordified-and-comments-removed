@@ -3180,10 +3180,7 @@ aImageReader
 -
 >
 mImageReaderId
-std
-:
-:
-make_unique
+MakeUnique
 <
 ImageReaderHolder
 >

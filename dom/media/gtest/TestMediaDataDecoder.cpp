@@ -176,10 +176,7 @@ PDMFactory
 ;
 sAVCInfo
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 VideoInfo
 >
@@ -223,10 +220,7 @@ sDummyVideoSize
 ;
 sVP9Info
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 VideoInfo
 >

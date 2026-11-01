@@ -1281,10 +1281,10 @@ this
 ;
 mHistoryTracker
 =
-std
+mozilla
 :
 :
-make_unique
+MakeUnique
 <
 HistoryTracker
 >

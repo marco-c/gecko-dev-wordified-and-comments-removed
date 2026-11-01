@@ -5214,10 +5214,7 @@ info
 >
 mLastStatus
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 nsStatusInfo
 >

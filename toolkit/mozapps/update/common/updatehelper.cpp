@@ -98,6 +98,12 @@ using
 mozilla
 :
 :
+MakeUnique
+;
+using
+mozilla
+:
+:
 UniquePtr
 ;
 #
@@ -909,10 +915,7 @@ char
 >
 serviceConfigBuffer
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 char
 [

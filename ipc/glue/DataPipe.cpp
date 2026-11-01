@@ -643,10 +643,7 @@ mutable
 auto
 message
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 IPC
 :
@@ -800,10 +797,7 @@ aSendClosed
 auto
 message
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 IPC
 :

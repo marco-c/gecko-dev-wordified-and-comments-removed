@@ -20641,10 +20641,7 @@ mBrowserPermissionTable
 LookupOrInsert
 (
 aBrowserId
-std
-:
-:
-make_unique
+MakeUnique
 <
 BrowserPermissionMap
 >
@@ -24374,10 +24371,7 @@ mBrowserPermissionTable
 LookupOrInsert
 (
 aDestBrowserId
-std
-:
-:
-make_unique
+MakeUnique
 <
 BrowserPermissionMap
 >

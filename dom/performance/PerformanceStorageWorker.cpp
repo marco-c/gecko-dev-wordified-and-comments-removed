@@ -579,10 +579,7 @@ PerformanceProxyData
 >
 data
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 PerformanceProxyData
 >

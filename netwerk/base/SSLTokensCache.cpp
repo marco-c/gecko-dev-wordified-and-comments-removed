@@ -5607,10 +5607,7 @@ sLock
 auto
 rec
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 TokenCacheRecord
 >
@@ -8227,10 +8224,7 @@ aCompressedPayload
 auto
 rec
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 TokenCacheRecord
 >

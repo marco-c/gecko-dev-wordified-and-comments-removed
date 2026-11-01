@@ -1476,10 +1476,7 @@ EventQueue
 >
 queue
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 EventQueue
 >
@@ -2465,10 +2462,7 @@ MakeRefPtr
 ThreadEventQueue
 >
 (
-std
-:
-:
-make_unique
+MakeUnique
 <
 EventQueue
 >

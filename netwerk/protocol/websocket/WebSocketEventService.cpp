@@ -1694,10 +1694,7 @@ aInnerWindowID
 auto
 listener
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 WindowListener
 >

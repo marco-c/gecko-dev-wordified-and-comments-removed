@@ -2121,10 +2121,7 @@ aPrincipalHandle
 )
 mSineGenerator
 (
-std
-:
-:
-make_unique
+MakeUnique
 <
 SineWaveGenerator
 <

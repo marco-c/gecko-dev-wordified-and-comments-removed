@@ -5068,10 +5068,10 @@ mNextTearOff
 ;
 mNextTearOff
 =
-std
+mozilla
 :
 :
-make_unique
+MakeUnique
 <
 XPCWrappedNativeTearOff
 >

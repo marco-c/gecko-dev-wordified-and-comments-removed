@@ -599,10 +599,7 @@ aPCHandle
 :
 mInternalFactory
 (
-std
-:
-:
-make_unique
+MakeUnique
 <
 InternalFactory
 >

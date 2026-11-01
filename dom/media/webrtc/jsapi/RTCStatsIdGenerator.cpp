@@ -224,10 +224,7 @@ aParam
 auto
 stats
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 dom
 :

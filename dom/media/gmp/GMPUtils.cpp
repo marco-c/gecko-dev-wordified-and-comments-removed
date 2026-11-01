@@ -949,10 +949,7 @@ Trim
 auto
 value
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 nsCString
 >

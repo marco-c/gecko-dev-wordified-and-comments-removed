@@ -280,10 +280,7 @@ aIsForMail
 auto
 filter
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 nsComposeTxtSrvFilter
 >

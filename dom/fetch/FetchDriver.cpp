@@ -6706,10 +6706,7 @@ mSRIMetadata
 ;
 mSRIDataVerifier
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 SRICheckDataVerifier
 >

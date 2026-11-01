@@ -2702,10 +2702,7 @@ lock
 >
 mServiceNotifier
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 EventSourceServiceNotifier
 >
@@ -6733,10 +6730,7 @@ mCurrentMessage
 {
 mCurrentMessage
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 Message
 >

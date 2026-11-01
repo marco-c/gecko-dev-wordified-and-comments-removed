@@ -354,10 +354,7 @@ len
 auto
 combined
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 uint8_t
 [

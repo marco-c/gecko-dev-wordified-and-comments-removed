@@ -755,10 +755,7 @@ NewPresState
 )
 {
 return
-std
-:
-:
-make_unique
+MakeUnique
 <
 PresState
 >

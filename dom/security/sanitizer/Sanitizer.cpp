@@ -708,10 +708,7 @@ i
 {
 attributes
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 StaticAtomSet
 >

@@ -3155,10 +3155,7 @@ nullptr
 ;
 }
 return
-std
-:
-:
-make_unique
+MakeUnique
 <
 RenderCompositorNativeOGL
 >
@@ -3536,10 +3533,7 @@ mSync
 }
 mThisFrameDoneFences
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 BackPressureFences
 >
@@ -3884,10 +3878,7 @@ nullptr
 ;
 }
 return
-std
-:
-:
-make_unique
+MakeUnique
 <
 RenderCompositorNativeSWGL
 >

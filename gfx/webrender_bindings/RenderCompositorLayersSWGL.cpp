@@ -1442,10 +1442,7 @@ aIsOpaque
 )
 {
 return
-std
-:
-:
-make_unique
+MakeUnique
 <
 Surface
 >
@@ -1490,10 +1487,7 @@ end
 auto
 surface
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 Surface
 >

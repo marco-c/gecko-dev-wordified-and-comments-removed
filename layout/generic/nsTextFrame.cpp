@@ -5578,10 +5578,7 @@ observers
 >
 AppendElement
 (
-std
-:
-:
-make_unique
+MakeUnique
 <
 GlyphObserver
 >
@@ -13555,10 +13552,7 @@ TextSecurityMaskChar
 ;
 transformingFactory
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 nsCaseTransformTextRunFactory
 >
@@ -13583,10 +13577,7 @@ anyMathMLStyling
 {
 transformingFactory
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 MathMLTextRunFactory
 >
@@ -15305,10 +15296,7 @@ mBreakSinks
 .
 AppendElement
 (
-std
-:
-:
-make_unique
+MakeUnique
 <
 BreakSink
 >

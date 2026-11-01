@@ -156,10 +156,10 @@ err
 auto
 buf
 =
-std
+mozilla
 :
 :
-make_unique
+MakeUnique
 <
 char
 [
@@ -506,10 +506,10 @@ status
 auto
 valueData
 =
-std
+mozilla
 :
 :
-make_unique
+MakeUnique
 <
 wchar_t
 [
@@ -767,10 +767,7 @@ auto
 const
 aArgvCopy
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 wchar_t
 const

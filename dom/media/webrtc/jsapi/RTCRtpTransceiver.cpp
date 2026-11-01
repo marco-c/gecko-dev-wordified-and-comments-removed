@@ -4804,10 +4804,7 @@ H264
 {
 h264Config
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 VideoCodecConfigH264
 >
@@ -7747,10 +7744,7 @@ mutable
 auto
 report
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 RTCStatsCollection
 >
@@ -8238,10 +8232,7 @@ mutable
 auto
 finalStats
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 RTCStatsCollection
 >

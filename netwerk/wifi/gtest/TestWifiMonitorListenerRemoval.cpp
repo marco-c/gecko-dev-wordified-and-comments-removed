@@ -417,10 +417,7 @@ MakeRefPtr
 nsWifiMonitor
 >
 (
-std
-:
-:
-make_unique
+MakeUnique
 <
 MockWifiScanner
 >

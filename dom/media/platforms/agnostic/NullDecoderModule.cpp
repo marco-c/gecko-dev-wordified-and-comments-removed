@@ -196,10 +196,7 @@ DummyDataCreator
 >
 creator
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 NullVideoDataCreator
 >

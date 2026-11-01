@@ -92,10 +92,7 @@ entry
 .
 Update
 (
-std
-:
-:
-make_unique
+MakeUnique
 <
 UpdateItemInfo
 >
@@ -116,10 +113,7 @@ entry
 .
 InsertOrUpdate
 (
-std
-:
-:
-make_unique
+MakeUnique
 <
 InsertItemInfo
 >
@@ -217,10 +211,7 @@ entry
 .
 Update
 (
-std
-:
-:
-make_unique
+MakeUnique
 <
 InsertItemInfo
 >
@@ -240,10 +231,7 @@ entry
 .
 InsertOrUpdate
 (
-std
-:
-:
-make_unique
+MakeUnique
 <
 UpdateItemInfo
 >

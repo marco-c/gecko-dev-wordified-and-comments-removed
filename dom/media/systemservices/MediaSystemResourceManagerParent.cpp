@@ -130,10 +130,7 @@ request
 .
 Insert
 (
-std
-:
-:
-make_unique
+MakeUnique
 <
 MediaSystemResourceRequest
 >

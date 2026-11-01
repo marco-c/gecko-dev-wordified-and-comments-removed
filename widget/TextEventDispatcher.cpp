@@ -1796,10 +1796,7 @@ mPendingEvents
 .
 AppendElement
 (
-std
-:
-:
-make_unique
+MakeUnique
 <
 WidgetCompositionEvent
 >
@@ -1834,10 +1831,7 @@ mPendingEvents
 .
 AppendElement
 (
-std
-:
-:
-make_unique
+MakeUnique
 <
 WidgetSelectionEvent
 >
@@ -1911,10 +1905,7 @@ mPendingEvents
 .
 AppendElement
 (
-std
-:
-:
-make_unique
+MakeUnique
 <
 WidgetContentCommandEvent
 >
@@ -2108,10 +2099,7 @@ mPendingEvents
 .
 AppendElement
 (
-std
-:
-:
-make_unique
+MakeUnique
 <
 WidgetKeyboardEvent
 >

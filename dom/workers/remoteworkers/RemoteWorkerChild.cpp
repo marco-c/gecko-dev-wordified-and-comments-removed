@@ -1651,10 +1651,7 @@ info
 .
 mPrincipalInfo
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 PrincipalInfo
 >
@@ -1670,10 +1667,7 @@ info
 .
 mPartitionedPrincipalInfo
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 PrincipalInfo
 >

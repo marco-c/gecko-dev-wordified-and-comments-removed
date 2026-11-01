@@ -276,10 +276,7 @@ move
 (
 aParent
 )
-std
-:
-:
-make_unique
+MakeUnique
 <
 StyleNumericType
 >
@@ -391,10 +388,7 @@ aArg
 auto
 numericType
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 StyleNumericType
 >
@@ -576,10 +570,7 @@ const
 auto
 value
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 StyleNumericValue
 >

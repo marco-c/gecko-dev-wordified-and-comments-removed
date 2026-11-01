@@ -2214,10 +2214,7 @@ else
 {
 mOpaqueRect
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 gfxRect
 >

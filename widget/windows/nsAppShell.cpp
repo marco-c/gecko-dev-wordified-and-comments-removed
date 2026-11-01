@@ -2926,10 +2926,10 @@ screenManager
 .
 SetHelper
 (
-std
+mozilla
 :
 :
-make_unique
+MakeUnique
 <
 HeadlessScreenHelper
 >
@@ -2944,10 +2944,10 @@ screenManager
 .
 SetHelper
 (
-std
+mozilla
 :
 :
-make_unique
+MakeUnique
 <
 ScreenHelperWin
 >

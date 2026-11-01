@@ -691,10 +691,7 @@ PositionOptions
 >
 geoOptions
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 PositionOptions
 >

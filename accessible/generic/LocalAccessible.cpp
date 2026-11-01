@@ -20906,10 +20906,7 @@ nsRect
 >
 ptr
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 nsRect
 >
@@ -21959,10 +21956,7 @@ Matrix4x4
 >
 ptr
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 gfx
 :

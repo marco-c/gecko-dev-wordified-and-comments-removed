@@ -209,10 +209,7 @@ lock
 *
 lock
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 CallbackMapType
 >

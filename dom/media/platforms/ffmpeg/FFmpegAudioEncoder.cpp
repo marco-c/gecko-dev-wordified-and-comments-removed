@@ -3233,10 +3233,7 @@ data
 >
 mConfig
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 EncoderConfig
 >

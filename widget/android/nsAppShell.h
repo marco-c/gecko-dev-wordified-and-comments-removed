@@ -568,10 +568,10 @@ mEventQueue
 .
 Post
 (
-std
+mozilla
 :
 :
-make_unique
+MakeUnique
 <
 LambdaEvent
 <
@@ -804,10 +804,10 @@ mEventQueue
 .
 Post
 (
-std
+mozilla
 :
 :
-make_unique
+MakeUnique
 <
 NativeCallbackEvent
 >

@@ -7583,10 +7583,7 @@ mDestroyedFrames
 {
 mDestroyedFrames
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 nsTHashSet
 <

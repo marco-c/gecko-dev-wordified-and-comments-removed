@@ -127,10 +127,7 @@ CSSPoint
 ;
 registration
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 ScopedLayerTreeRegistration
 >

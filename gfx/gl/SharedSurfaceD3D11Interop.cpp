@@ -1459,10 +1459,7 @@ data
 .
 interopRb
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 Renderbuffer
 >

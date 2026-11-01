@@ -130,10 +130,10 @@ mItems
 InsertOrUpdate
 (
 keyPtr
-std
+mozilla
 :
 :
-make_unique
+MakeUnique
 <
 StatusItem
 >

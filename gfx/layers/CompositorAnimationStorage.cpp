@@ -929,10 +929,7 @@ mAnimatedValues
 InsertOrUpdate
 (
 aId
-std
-:
-:
-make_unique
+MakeUnique
 <
 AnimatedValue
 >
@@ -1036,10 +1033,7 @@ mAnimatedValues
 InsertOrUpdate
 (
 aId
-std
-:
-:
-make_unique
+MakeUnique
 <
 AnimatedValue
 >
@@ -1127,10 +1121,7 @@ mAnimatedValues
 InsertOrUpdate
 (
 aId
-std
-:
-:
-make_unique
+MakeUnique
 <
 AnimatedValue
 >

@@ -1714,10 +1714,7 @@ sInstance
 >
 mSynthesizingEvent
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 SynthesizingEvent
 >

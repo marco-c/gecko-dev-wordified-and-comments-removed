@@ -7113,10 +7113,7 @@ GeckoProcessType_Demo
 :
 process
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 DemoChild
 :

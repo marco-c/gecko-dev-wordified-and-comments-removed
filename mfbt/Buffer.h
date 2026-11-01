@@ -455,10 +455,10 @@ aLength
 :
 mData
 (
-std
+mozilla
 :
 :
-make_unique
+MakeUnique
 <
 T
 [

@@ -664,10 +664,7 @@ allocationSize
 {
 c
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 char
 [
@@ -2420,10 +2417,7 @@ aFailureLatch
 :
 SpliceableJSONWriter
 (
-std
-:
-:
-make_unique
+MakeUnique
 <
 ChunkedJSONWriteFunc
 >

@@ -7219,10 +7219,7 @@ UseWebRenderProgramBinaryDisk
 {
 mProgramCache
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 WebRenderProgramCache
 >
@@ -8136,10 +8133,7 @@ mShaders
 {
 mShaders
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 WebRenderShaders
 >

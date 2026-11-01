@@ -5,6 +5,12 @@ txBufferingHandler
 .
 h
 "
+using
+mozilla
+:
+:
+MakeUnique
+;
 class
 txOutputTransaction
 {
@@ -574,10 +580,7 @@ txBufferingHandler
 ;
 mBuffer
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 txResultBuffer
 >

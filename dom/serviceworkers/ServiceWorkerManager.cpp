@@ -3136,10 +3136,7 @@ entry
 .
 Insert
 (
-std
-:
-:
-make_unique
+MakeUnique
 <
 ControlledClientData
 >
@@ -6345,10 +6342,7 @@ mPendingReadyList
 .
 AppendElement
 (
-std
-:
-:
-make_unique
+MakeUnique
 <
 PendingReadyData
 >
@@ -7734,10 +7728,7 @@ mRegistrationInfos
 InsertOrUpdate
 (
 aKey
-std
-:
-:
-make_unique
+MakeUnique
 <
 RegistrationDataPerPrincipal
 >

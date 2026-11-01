@@ -371,10 +371,7 @@ lock
 *
 lock
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 nsTHashMap
 <

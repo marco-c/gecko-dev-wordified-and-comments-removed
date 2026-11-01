@@ -198,10 +198,7 @@ char
 >
 buf
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 char
 [

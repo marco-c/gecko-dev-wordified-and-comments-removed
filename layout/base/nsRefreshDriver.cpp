@@ -6230,10 +6230,7 @@ IsRoot
 {
 mHangAnnotator
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 PaintPendingHangAnnotator
 >

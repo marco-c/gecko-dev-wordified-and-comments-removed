@@ -8179,10 +8179,7 @@ GetStride
 auto
 compressedData
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 char
 [

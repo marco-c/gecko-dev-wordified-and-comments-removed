@@ -731,10 +731,7 @@ addr
 )
 ;
 return
-std
-:
-:
-make_unique
+MakeUnique
 <
 SdpConnection
 >

@@ -18594,10 +18594,7 @@ FILL_EVEN_ODD
 ;
 mPathOps
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 PathOps
 >

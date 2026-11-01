@@ -33,10 +33,7 @@ CallbackThreadRegistrySingleton
 :
 mRegistry
 (
-std
-:
-:
-make_unique
+MakeUnique
 <
 CallbackThreadRegistry
 >

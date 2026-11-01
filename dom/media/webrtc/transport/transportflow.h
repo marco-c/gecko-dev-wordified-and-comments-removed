@@ -77,10 +77,7 @@ anonymous
 )
 layers_
 (
-std
-:
-:
-make_unique
+MakeUnique
 <
 std
 :
@@ -113,10 +110,7 @@ id
 )
 layers_
 (
-std
-:
-:
-make_unique
+MakeUnique
 <
 std
 :

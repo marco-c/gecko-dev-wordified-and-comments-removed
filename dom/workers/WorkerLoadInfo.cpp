@@ -537,10 +537,7 @@ aLoadGroup
 ;
 mPrincipalInfo
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 PrincipalInfo
 >
@@ -549,10 +546,7 @@ PrincipalInfo
 ;
 mPartitionedPrincipalInfo
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 PrincipalInfo
 >
@@ -603,10 +597,7 @@ else
 {
 mPartitionedPrincipalInfo
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 PrincipalInfo
 >
@@ -735,10 +726,7 @@ csp
 ;
 mCSPContext
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 OffThreadCSPContext
 >

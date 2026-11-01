@@ -69,10 +69,7 @@ mImageValue
 (
 WrapMovingNotNull
 (
-std
-:
-:
-make_unique
+MakeUnique
 <
 StyleImageValue
 >

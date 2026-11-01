@@ -5498,10 +5498,7 @@ aDict
 InsertOrUpdate
 (
 tableName
-std
-:
-:
-make_unique
+MakeUnique
 <
 nsCString
 >

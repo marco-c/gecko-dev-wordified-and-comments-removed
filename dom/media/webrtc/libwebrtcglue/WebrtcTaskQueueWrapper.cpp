@@ -1191,10 +1191,7 @@ aTailDispatchPolicy
 auto
 wrapper
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 Wrapper
 >
@@ -1317,10 +1314,7 @@ aTailDispatchPolicy
 auto
 wrapper
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 Wrapper
 >

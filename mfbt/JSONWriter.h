@@ -594,10 +594,7 @@ return
 }
 mOwnedStr
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 char
 [

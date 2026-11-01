@@ -2455,10 +2455,7 @@ mMap
 InsertOrUpdate
 (
 size
-std
-:
-:
-make_unique
+MakeUnique
 <
 PrefixString
 >

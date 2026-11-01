@@ -445,10 +445,7 @@ outp
 auto
 wrapped
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 nr_socket_wrapped
 >

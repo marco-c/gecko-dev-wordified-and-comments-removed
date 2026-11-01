@@ -2044,10 +2044,10 @@ mWatchdog
 ;
 mWatchdog
 =
-std
+mozilla
 :
 :
-make_unique
+MakeUnique
 <
 Watchdog
 >

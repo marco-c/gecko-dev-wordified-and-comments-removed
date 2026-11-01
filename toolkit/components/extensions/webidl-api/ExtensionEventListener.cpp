@@ -1113,10 +1113,7 @@ StructuredCloneHolder
 >
 argsHolder
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 dom
 :
@@ -2978,10 +2975,7 @@ StructuredCloneHolder
 >
 resHolder
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 dom
 :
