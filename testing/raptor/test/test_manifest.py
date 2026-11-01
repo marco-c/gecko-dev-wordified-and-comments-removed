@@ -2211,7 +2211,9 @@ chrome
 test
 =
 "
-amazon
+unity
+-
+webgl
 "
 extra_profiler_run
 =
@@ -2254,7 +2256,9 @@ name
 =
 =
 "
-amazon
+unity
+-
+webgl
 "
     
 assert
@@ -2302,7 +2306,9 @@ chrome
 test
 =
 "
-amazon
+unity
+-
+webgl
 "
 browser_cycles
 =
@@ -2341,7 +2347,9 @@ name
 =
 =
 "
-amazon
+unity
+-
+webgl
 "
     
 assert
