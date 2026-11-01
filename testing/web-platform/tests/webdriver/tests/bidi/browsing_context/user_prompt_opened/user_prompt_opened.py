@@ -1401,6 +1401,13 @@ wait_for_future_safe
 on_first_event
 )
     
+on_second_event
+=
+wait_for_event
+(
+USER_PROMPT_OPENED_EVENT
+)
+    
 await
 bidi_session
 .
@@ -1442,13 +1449,6 @@ script
 "
 )
     
-)
-    
-on_second_event
-=
-wait_for_event
-(
-USER_PROMPT_OPENED_EVENT
 )
     
 await

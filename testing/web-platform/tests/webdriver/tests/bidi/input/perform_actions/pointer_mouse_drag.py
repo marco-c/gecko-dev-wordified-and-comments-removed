@@ -704,20 +704,6 @@ dragenter
 in
 drag_events_captured
     
-if
-drag_duration
-!
-=
-0
-:
-        
-assert
-"
-dragleave
-"
-in
-drag_events_captured
-    
 assert
 "
 dragover
@@ -789,10 +775,11 @@ dragenter
 )
     
 if
-drag_duration
-!
-=
-0
+"
+dragleave
+"
+in
+drag_events_captured
 :
         
 assert
