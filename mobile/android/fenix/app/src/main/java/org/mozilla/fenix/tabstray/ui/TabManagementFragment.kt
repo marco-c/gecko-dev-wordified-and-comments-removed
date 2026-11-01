@@ -4992,6 +4992,9 @@ isChangingConfigurations
 =
 =
 false
+|
+|
+isRemoving
 )
 {
 requireComponents
