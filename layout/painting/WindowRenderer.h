@@ -125,7 +125,7 @@ virtual
 uint32_t
 StartFrameTimeRecording
 (
-int32_t
+uint32_t
 aBufferSize
 )
 ;

@@ -1792,7 +1792,7 @@ CompositorBridgeChild
 SendStartFrameTimeRecording
 (
 const
-int32_t
+uint32_t
 &
 bufferSize
 uint32_t
