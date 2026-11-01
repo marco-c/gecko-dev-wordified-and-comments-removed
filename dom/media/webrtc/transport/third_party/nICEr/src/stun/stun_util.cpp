@@ -647,9 +647,6 @@ RESPONSE
 ;
 break
 ;
-#
-ifdef
-USE_TURN
 case
 NR_STUN_MSG_ALLOCATE_REQUEST
 :
@@ -799,8 +796,6 @@ RESPONSE
 ;
 break
 ;
-#
-endif
 default
 :
 break

@@ -1,7 +1,4 @@
 #
-ifdef
-USE_TURN
-#
 include
 <
 assert
@@ -6468,5 +6465,3 @@ return
 )
 ;
 }
-#
-endif

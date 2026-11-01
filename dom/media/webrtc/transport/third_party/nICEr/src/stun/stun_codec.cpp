@@ -6279,9 +6279,6 @@ ADDRESS
 nr_stun_attr_codec_xor_mapped_address
 0
 )
-#
-ifdef
-USE_ICE
 NR_ADD_STUN_ATTRIBUTE
 (
 NR_STUN_ATTR_ICE_CONTROLLED
@@ -6324,11 +6321,6 @@ CANDIDATE
 nr_stun_attr_codec_flag
 0
 )
-#
-endif
-#
-ifdef
-USE_TURN
 NR_ADD_STUN_ATTRIBUTE
 (
 NR_STUN_ATTR_DATA
@@ -6393,8 +6385,6 @@ BANDWIDTH
 nr_stun_attr_codec_UINT4
 0
 )
-#
-endif
 NR_ADD_STUN_ATTRIBUTE
 (
 NR_STUN_ATTR_OLD_XOR_MAPPED_ADDRESS

@@ -173,9 +173,6 @@ nr_ice_stun_server
 out
 )
 ;
-#
-ifdef
-USE_TURN
 static
 int
 nr_ice_fetch_turn_servers
@@ -188,8 +185,6 @@ nr_ice_turn_server
 out
 )
 ;
-#
-endif
 static
 int
 nr_ice_ctx_pair_new_trickle_candidates
@@ -987,9 +982,6 @@ socket_factory
 factory
 ;
 }
-#
-ifdef
-USE_TURN
 int
 nr_ice_fetch_turn_servers
 (
@@ -1368,8 +1360,6 @@ _status
 ;
 }
 #
-endif
-#
 define
 MAXADDRS
 100
@@ -1650,9 +1640,6 @@ r
 ;
 }
 }
-#
-ifdef
-USE_TURN
 if
 (
 r
@@ -1715,17 +1702,6 @@ turn_server_ct_cfg
 0
 ;
 }
-#
-else
-ctx
--
->
-turn_server_ct_cfg
-=
-0
-;
-#
-endif
 ctx
 -
 >
@@ -1799,9 +1775,6 @@ ctx
 stun_server_ct_cfg
 ;
 }
-#
-ifdef
-USE_TURN
 if
 (
 ctx
@@ -1870,8 +1843,6 @@ r
 ;
 }
 }
-#
-endif
 ctx
 -
 >

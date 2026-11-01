@@ -303,13 +303,8 @@ int
 )
 len_s
 ;
-#
-ifdef
-USE_TURN
 re_process
 :
-#
-endif
 r_log
 (
 LOG_ICE
@@ -573,9 +568,6 @@ NR_STUN_AUTH_RULE_SHORT_TERM
 }
 break
 ;
-#
-ifdef
-USE_TURN
 case
 NR_ICE_TURN_CLIENT
 :
@@ -750,8 +742,6 @@ re_process
 }
 break
 ;
-#
-endif
 default
 :
 assert
@@ -1766,9 +1756,6 @@ NR_ICE_STUN_SERVER
 :
 break
 ;
-#
-ifdef
-USE_TURN
 case
 NR_ICE_TURN_CLIENT
 :
@@ -1786,8 +1773,6 @@ turn_client
 ;
 break
 ;
-#
-endif
 default
 :
 assert

@@ -1567,9 +1567,6 @@ as_string
 )
 ;
 }
-#
-ifdef
-USE_TURN
 if
 (
 (
@@ -2067,8 +2064,6 @@ cand
 0
 ;
 }
-#
-endif
 }
 _status
 =
@@ -3141,9 +3136,6 @@ cand
 }
 }
 }
-#
-ifdef
-USE_TURN
 for
 (
 j
@@ -3875,8 +3867,6 @@ cand
 0
 ;
 }
-#
-endif
 }
 _status
 =

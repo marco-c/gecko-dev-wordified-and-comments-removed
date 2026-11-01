@@ -649,9 +649,6 @@ return
 _status
 ;
 }
-#
-ifdef
-USE_ICE
 int
 nr_stun_build_use_candidate
 (
@@ -1013,11 +1010,6 @@ return
 _status
 ;
 }
-#
-endif
-#
-ifdef
-USE_TURN
 #
 ifndef
 __isascii
@@ -2125,8 +2117,6 @@ return
 _status
 ;
 }
-#
-endif
 int
 nr_stun_form_success_response
 (
@@ -2557,9 +2547,6 @@ Nonce
 ;
 break
 ;
-#
-ifdef
-USE_ICE
 case
 487
 :
@@ -2572,8 +2559,6 @@ Conflict
 ;
 break
 ;
-#
-endif
 case
 500
 :

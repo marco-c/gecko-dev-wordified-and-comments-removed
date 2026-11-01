@@ -239,9 +239,6 @@ void
 cb_arg
 )
 ;
-#
-ifdef
-USE_TURN
 static
 int
 nr_ice_start_relay_turn
@@ -276,8 +273,6 @@ nr_transport_addr
 addr
 )
 ;
-#
-endif
 void
 nr_ice_candidate_compute_codeword
 (
@@ -1817,9 +1812,6 @@ HOST
 :
 break
 ;
-#
-ifdef
-USE_TURN
 case
 RELAYED
 :
@@ -2060,8 +2052,6 @@ turn_sock
 ;
 break
 ;
-#
-endif
 case
 SERVER_REFLEXIVE
 :
@@ -3893,9 +3883,6 @@ ready_cb_timer
 ;
 break
 ;
-#
-ifdef
-USE_TURN
 case
 RELAYED
 :
@@ -3909,8 +3896,6 @@ fallthrough
 ]
 ]
 ;
-#
-endif
 case
 SERVER_REFLEXIVE
 :
@@ -4788,9 +4773,6 @@ R_INTERNAL
 ;
 break
 ;
-#
-ifdef
-USE_TURN
 case
 RELAYED
 :
@@ -4815,8 +4797,6 @@ R_WOULDBLOCK
 ;
 break
 ;
-#
-endif
 case
 SERVER_REFLEXIVE
 :
@@ -5215,9 +5195,6 @@ _status
 )
 ;
 }
-#
-ifdef
-USE_TURN
 static
 void
 nr_ice_start_relay_turn_timer_cb
@@ -5528,8 +5505,6 @@ _status
 )
 ;
 }
-#
-endif
 static
 void
 nr_ice_srvrflx_stun_finished_cb
@@ -5775,9 +5750,6 @@ NR_ICE_CAND_STATE_FAILED
 ;
 }
 }
-#
-ifdef
-USE_TURN
 static
 void
 nr_ice_turn_allocated_cb
@@ -6181,8 +6153,6 @@ NR_ICE_CAND_STATE_FAILED
 }
 }
 }
-#
-endif
 int
 nr_ice_format_candidate_attribute
 (

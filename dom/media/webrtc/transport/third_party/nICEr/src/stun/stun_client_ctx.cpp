@@ -1472,9 +1472,6 @@ r
 ;
 break
 ;
-#
-ifdef
-USE_ICE
 case
 NR_ICE_CLIENT_MODE_USE_CANDIDATE
 :
@@ -1539,11 +1536,6 @@ r
 ;
 break
 ;
-#
-endif
-#
-ifdef
-USE_TURN
 case
 NR_TURN_CLIENT_MODE_ALLOCATE_REQUEST
 :
@@ -1687,8 +1679,6 @@ r
 ;
 break
 ;
-#
-endif
 default
 :
 assert
@@ -2446,9 +2436,6 @@ fail_on_error
 ;
 break
 ;
-#
-ifdef
-USE_ICE
 case
 NR_ICE_CLIENT_MODE_BINDING_REQUEST
 :
@@ -2483,11 +2470,6 @@ password
 ;
 break
 ;
-#
-endif
-#
-ifdef
-USE_TURN
 case
 NR_TURN_CLIENT_MODE_ALLOCATE_REQUEST
 :
@@ -2593,8 +2575,6 @@ NR_TURN_CLIENT_MODE_SEND_INDICATION
 :
 break
 ;
-#
-endif
 default
 :
 assert
@@ -3511,9 +3491,6 @@ mapped_addr
 ;
 break
 ;
-#
-ifdef
-USE_ICE
 case
 NR_ICE_CLIENT_MODE_BINDING_REQUEST
 :
@@ -3728,11 +3705,6 @@ mapped_addr
 ;
 break
 ;
-#
-endif
-#
-ifdef
-USE_TURN
 case
 NR_TURN_CLIENT_MODE_ALLOCATE_REQUEST
 :
@@ -4248,8 +4220,6 @@ R_BAD_DATA
 }
 break
 ;
-#
-endif
 default
 :
 assert

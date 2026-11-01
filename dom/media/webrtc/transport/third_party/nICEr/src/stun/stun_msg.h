@@ -290,9 +290,6 @@ NR_STUN_MAX_USERNAME_BYTES
 nr_stun_attr_xor_mapped_address
 xor_mapped_address
 ;
-#
-ifdef
-USE_ICE
 UINT4
 priority
 ;
@@ -302,11 +299,6 @@ ice_controlled
 UINT8
 ice_controlling
 ;
-#
-endif
-#
-ifdef
-USE_TURN
 UINT4
 lifetime_secs
 ;
@@ -319,8 +311,6 @@ requested_transport
 nr_stun_attr_data
 data
 ;
-#
-endif
 UCHAR
 largest_possible_attribute
 [
@@ -616,9 +606,6 @@ nr_transport_addr
 mapped_address
 )
 ;
-#
-ifdef
-USE_ICE
 int
 nr_stun_message_add_ice_controlled_attribute
 (
@@ -657,11 +644,6 @@ nr_stun_message
 msg
 )
 ;
-#
-endif
-#
-ifdef
-USE_TURN
 int
 nr_stun_message_add_data_attribute
 (
@@ -706,7 +688,5 @@ nr_transport_addr
 peer_address
 )
 ;
-#
-endif
 #
 endif

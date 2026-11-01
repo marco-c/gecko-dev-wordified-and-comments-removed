@@ -1,7 +1,4 @@
 #
-ifdef
-USE_TURN
-#
 include
 <
 csi_platform
@@ -674,5 +671,3 @@ return
 0
 ;
 }
-#
-endif

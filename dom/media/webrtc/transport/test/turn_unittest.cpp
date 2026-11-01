@@ -36,9 +36,6 @@ gtest_utils
 h
 "
 #
-define
-USE_TURN
-#
 include
 "
 nr_api
