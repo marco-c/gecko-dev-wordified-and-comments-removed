@@ -3184,6 +3184,16 @@ set_browser_test_prefs
 "
 network
 .
+proxy
+.
+type
+"
+:
+0
+                
+"
+network
+.
 dns
 .
 forceResolve

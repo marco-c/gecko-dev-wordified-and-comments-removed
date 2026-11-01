@@ -400,6 +400,12 @@ kwargs
 )
 :
         
+self
+.
+_test_names
+=
+None
+        
 super
 (
 )
