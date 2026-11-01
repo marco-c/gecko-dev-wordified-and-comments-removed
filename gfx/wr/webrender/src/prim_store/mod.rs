@@ -1902,7 +1902,7 @@ Vec
 DebugItem
 >
 pub
-required_sub_graphs
+required_backdrop_chains
 :
 FastHashSet
 <
@@ -2027,7 +2027,7 @@ Vec
 new
 (
 )
-required_sub_graphs
+required_backdrop_chains
 :
 FastHashSet
 :
@@ -2693,7 +2693,7 @@ clear
 ;
 self
 .
-required_sub_graphs
+required_backdrop_chains
 .
 clear
 (
