@@ -399,6 +399,13 @@ https_first_disabled
 true
 [
 "
+browser_UsageTelemetry_window_opening
+.
+js
+"
+]
+[
+"
 browser_aswebauth_session
 .
 js
