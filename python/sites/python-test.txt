@@ -224,6 +224,15 @@ requirements
 -
 txt
 :
+build
+/
+psutil_requirements
+.
+txt
+requirements
+-
+txt
+:
 taskcluster
 /
 requirements
