@@ -1374,6 +1374,14 @@ GetTextureFactoryIdentifier
 (
 )
 ;
+Maybe
+<
+TextureFactoryIdentifier
+>
+MaybeGetTextureFactoryIdentifier
+(
+)
+;
 void
 ExtractImageCompositeNotifications
 (
