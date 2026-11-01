@@ -71,13 +71,13 @@ io
 .
 mockk
 .
-mockk
+coVerify
 import
 io
 .
 mockk
 .
-verify
+mockk
 import
 kotlinx
 .
@@ -182,6 +182,10 @@ interactor
 DefaultLoginExceptionsInteractor
 (
 scope
+=
+scope
+loginExceptionStorage
+=
 loginExceptionStorage
 )
 }
@@ -205,7 +209,7 @@ testScheduler
 advanceUntilIdle
 (
 )
-verify
+coVerify
 {
 loginExceptionStorage
 .
@@ -243,7 +247,7 @@ testScheduler
 advanceUntilIdle
 (
 )
-verify
+coVerify
 {
 loginExceptionStorage
 .

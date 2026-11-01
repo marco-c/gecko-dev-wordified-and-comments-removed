@@ -127,6 +127,7 @@ for
 .
 *
 /
+suspend
 fun
 isLoginExceptionByOrigin
 (
@@ -166,6 +167,7 @@ exceptions
 .
 *
 /
+suspend
 fun
 addLoginException
 (

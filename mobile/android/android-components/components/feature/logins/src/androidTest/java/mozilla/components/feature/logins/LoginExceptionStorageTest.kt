@@ -373,6 +373,8 @@ fun
 testAddingExceptions
 (
 )
+=
+runBlocking
 {
 storage
 .
@@ -441,6 +443,8 @@ fun
 testRemovingExceptions
 (
 )
+=
+runBlocking
 {
 storage
 .
@@ -712,6 +716,7 @@ exception
 )
 }
 private
+suspend
 fun
 getAllExceptions
 (

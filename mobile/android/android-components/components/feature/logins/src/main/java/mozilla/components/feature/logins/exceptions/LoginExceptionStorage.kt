@@ -210,6 +210,7 @@ origin
 *
 /
 override
+suspend
 fun
 addLoginException
 (
@@ -378,6 +379,7 @@ LoginException
 .
 *
 /
+suspend
 fun
 removeLoginException
 (
@@ -410,6 +412,7 @@ exceptionEntity
 )
 }
 override
+suspend
 fun
 isLoginExceptionByOrigin
 (
@@ -442,6 +445,7 @@ origin
 .
 *
 /
+suspend
 fun
 findExceptionByOrigin
 (
@@ -492,6 +496,7 @@ s
 .
 *
 /
+suspend
 fun
 deleteAllLoginExceptions
 (

@@ -132,6 +132,7 @@ interface
 LoginExceptionDao
 {
 Insert
+suspend
 fun
 insertLoginException
 (
@@ -142,6 +143,7 @@ LoginExceptionEntity
 :
 Long
 Delete
+suspend
 fun
 deleteLoginException
 (
@@ -181,6 +183,7 @@ FROM
 logins_exceptions
 "
 )
+suspend
 fun
 getLoginExceptionsList
 (
@@ -198,6 +201,7 @@ FROM
 logins_exceptions
 "
 )
+suspend
 fun
 deleteAllLoginExceptions
 (
@@ -216,6 +220,7 @@ origin
 origin
 "
 )
+suspend
 fun
 findExceptionByOrigin
 (

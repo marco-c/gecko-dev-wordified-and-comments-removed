@@ -124,7 +124,7 @@ DefaultLoginExceptionsInteractor
 (
 private
 val
-ioScope
+scope
 :
 CoroutineScope
 private
@@ -142,7 +142,7 @@ onDeleteAll
 (
 )
 {
-ioScope
+scope
 .
 launch
 {
@@ -162,7 +162,7 @@ item
 LoginException
 )
 {
-ioScope
+scope
 .
 launch
 {
