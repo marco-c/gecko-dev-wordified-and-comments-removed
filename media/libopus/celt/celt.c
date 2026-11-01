@@ -1038,6 +1038,7 @@ endif
 #
 ifdef
 ENABLE_QEXT
+static
 void
 comb_filter_qext
 (
@@ -1280,6 +1281,7 @@ tapset1
 new_window
 overlap2
 arch
+1
 )
 ;
 for
@@ -1352,6 +1354,11 @@ int
 overlap
 int
 arch
+ARG_QEXT
+(
+int
+qext_scale
+)
 )
 {
 int
@@ -1460,10 +1467,10 @@ ifdef
 ENABLE_QEXT
 if
 (
-overlap
+qext_scale
 =
 =
-240
+2
 )
 {
 comb_filter_qext
