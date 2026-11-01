@@ -38830,11 +38830,8 @@ nullptr
 }
 if
 (
-NS_WARN_IF
-(
 !
 content
-)
 )
 {
 return
