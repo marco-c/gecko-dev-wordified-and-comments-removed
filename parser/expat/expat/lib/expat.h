@@ -1483,6 +1483,15 @@ XML_ParamEntityParsing
 parsing
 )
 ;
+XML_ATTR_DEPRECATED
+(
+"
+please
+use
+XML_SetHashSalt16Bytes
+instead
+"
+)
 XMLPARSEAPI
 (
 int
@@ -1865,7 +1874,7 @@ XML_MINOR_VERSION
 #
 define
 XML_MICRO_VERSION
-4
+5
 #
 ifdef
 __cplusplus

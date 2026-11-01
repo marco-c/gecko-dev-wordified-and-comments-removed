@@ -168,7 +168,6 @@ enc
 ;
 static
 int
-PTRCALL
 NS
 (
 initScanProlog
@@ -215,7 +214,6 @@ nextTokPtr
 }
 static
 int
-PTRCALL
 NS
 (
 initScanContent

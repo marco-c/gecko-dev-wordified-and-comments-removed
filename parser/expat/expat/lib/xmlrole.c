@@ -590,7 +590,6 @@ internalSubset
 endif
 typedef
 int
-PTRCALL
 PROLOG_HANDLER
 (
 PROLOG_STATE
@@ -673,7 +672,6 @@ error
 ;
 static
 int
-FASTCALL
 common
 (
 PROLOG_STATE
@@ -685,7 +683,6 @@ tok
 ;
 static
 int
-PTRCALL
 prolog0
 (
 PROLOG_STATE
@@ -827,7 +824,6 @@ tok
 }
 static
 int
-PTRCALL
 prolog1
 (
 PROLOG_STATE
@@ -935,7 +931,6 @@ tok
 }
 static
 int
-PTRCALL
 prolog2
 (
 PROLOG_STATE
@@ -1019,7 +1014,6 @@ tok
 }
 static
 int
-PTRCALL
 doctype0
 (
 PROLOG_STATE
@@ -1094,7 +1088,6 @@ tok
 }
 static
 int
-PTRCALL
 doctype1
 (
 PROLOG_STATE
@@ -1213,7 +1206,6 @@ tok
 }
 static
 int
-PTRCALL
 doctype2
 (
 PROLOG_STATE
@@ -1285,7 +1277,6 @@ tok
 }
 static
 int
-PTRCALL
 doctype3
 (
 PROLOG_STATE
@@ -1357,7 +1348,6 @@ tok
 }
 static
 int
-PTRCALL
 doctype4
 (
 PROLOG_STATE
@@ -1442,7 +1432,6 @@ tok
 }
 static
 int
-PTRCALL
 doctype5
 (
 PROLOG_STATE
@@ -1514,7 +1503,6 @@ tok
 }
 static
 int
-PTRCALL
 internalSubset
 (
 PROLOG_STATE
@@ -1719,7 +1707,6 @@ ifdef
 XML_DTD
 static
 int
-PTRCALL
 externalSubset0
 (
 PROLOG_STATE
@@ -1771,7 +1758,6 @@ enc
 }
 static
 int
-PTRCALL
 externalSubset1
 (
 PROLOG_STATE
@@ -1888,7 +1874,6 @@ tok
 endif
 static
 int
-PTRCALL
 entity0
 (
 PROLOG_STATE
@@ -1973,7 +1958,6 @@ tok
 }
 static
 int
-PTRCALL
 entity1
 (
 PROLOG_STATE
@@ -2045,7 +2029,6 @@ tok
 }
 static
 int
-PTRCALL
 entity2
 (
 PROLOG_STATE
@@ -2158,7 +2141,6 @@ tok
 }
 static
 int
-PTRCALL
 entity3
 (
 PROLOG_STATE
@@ -2230,7 +2212,6 @@ tok
 }
 static
 int
-PTRCALL
 entity4
 (
 PROLOG_STATE
@@ -2302,7 +2283,6 @@ tok
 }
 static
 int
-PTRCALL
 entity5
 (
 PROLOG_STATE
@@ -2384,7 +2364,6 @@ tok
 }
 static
 int
-PTRCALL
 entity6
 (
 PROLOG_STATE
@@ -2463,7 +2442,6 @@ tok
 }
 static
 int
-PTRCALL
 entity7
 (
 PROLOG_STATE
@@ -2576,7 +2554,6 @@ tok
 }
 static
 int
-PTRCALL
 entity8
 (
 PROLOG_STATE
@@ -2648,7 +2625,6 @@ tok
 }
 static
 int
-PTRCALL
 entity9
 (
 PROLOG_STATE
@@ -2720,7 +2696,6 @@ tok
 }
 static
 int
-PTRCALL
 entity10
 (
 PROLOG_STATE
@@ -2790,7 +2765,6 @@ tok
 }
 static
 int
-PTRCALL
 notation0
 (
 PROLOG_STATE
@@ -2862,7 +2836,6 @@ tok
 }
 static
 int
-PTRCALL
 notation1
 (
 PROLOG_STATE
@@ -2955,7 +2928,6 @@ tok
 }
 static
 int
-PTRCALL
 notation2
 (
 PROLOG_STATE
@@ -3027,7 +2999,6 @@ tok
 }
 static
 int
-PTRCALL
 notation3
 (
 PROLOG_STATE
@@ -3106,7 +3077,6 @@ tok
 }
 static
 int
-PTRCALL
 notation4
 (
 PROLOG_STATE
@@ -3196,7 +3166,6 @@ tok
 }
 static
 int
-PTRCALL
 attlist0
 (
 PROLOG_STATE
@@ -3271,7 +3240,6 @@ tok
 }
 static
 int
-PTRCALL
 attlist1
 (
 PROLOG_STATE
@@ -3357,7 +3325,6 @@ tok
 }
 static
 int
-PTRCALL
 attlist2
 (
 PROLOG_STATE
@@ -3523,7 +3490,6 @@ tok
 }
 static
 int
-PTRCALL
 attlist3
 (
 PROLOG_STATE
@@ -3601,7 +3567,6 @@ tok
 }
 static
 int
-PTRCALL
 attlist4
 (
 PROLOG_STATE
@@ -3686,7 +3651,6 @@ tok
 }
 static
 int
-PTRCALL
 attlist5
 (
 PROLOG_STATE
@@ -3758,7 +3722,6 @@ tok
 }
 static
 int
-PTRCALL
 attlist6
 (
 PROLOG_STATE
@@ -3830,7 +3793,6 @@ tok
 }
 static
 int
-PTRCALL
 attlist7
 (
 PROLOG_STATE
@@ -3915,7 +3877,6 @@ tok
 }
 static
 int
-PTRCALL
 attlist8
 (
 PROLOG_STATE
@@ -4058,7 +4019,6 @@ tok
 }
 static
 int
-PTRCALL
 attlist9
 (
 PROLOG_STATE
@@ -4130,7 +4090,6 @@ tok
 }
 static
 int
-PTRCALL
 element0
 (
 PROLOG_STATE
@@ -4205,7 +4164,6 @@ tok
 }
 static
 int
-PTRCALL
 element1
 (
 PROLOG_STATE
@@ -4332,7 +4290,6 @@ tok
 }
 static
 int
-PTRCALL
 element2
 (
 PROLOG_STATE
@@ -4483,7 +4440,6 @@ tok
 }
 static
 int
-PTRCALL
 element3
 (
 PROLOG_STATE
@@ -4595,7 +4551,6 @@ tok
 }
 static
 int
-PTRCALL
 element4
 (
 PROLOG_STATE
@@ -4670,7 +4625,6 @@ tok
 }
 static
 int
-PTRCALL
 element5
 (
 PROLOG_STATE
@@ -4762,7 +4716,6 @@ tok
 }
 static
 int
-PTRCALL
 element6
 (
 PROLOG_STATE
@@ -4890,7 +4843,6 @@ tok
 }
 static
 int
-PTRCALL
 element7
 (
 PROLOG_STATE
@@ -5138,7 +5090,6 @@ ifdef
 XML_DTD
 static
 int
-PTRCALL
 condSect0
 (
 PROLOG_STATE
@@ -5231,7 +5182,6 @@ tok
 }
 static
 int
-PTRCALL
 condSect1
 (
 PROLOG_STATE
@@ -5311,7 +5261,6 @@ tok
 }
 static
 int
-PTRCALL
 condSect2
 (
 PROLOG_STATE
@@ -5385,7 +5334,6 @@ tok
 endif
 static
 int
-PTRCALL
 declClose
 (
 PROLOG_STATE
@@ -5461,7 +5409,6 @@ tok
 }
 static
 int
-PTRCALL
 error
 (
 PROLOG_STATE
@@ -5514,7 +5461,6 @@ XML_ROLE_NONE
 }
 static
 int
-FASTCALL
 common
 (
 PROLOG_STATE

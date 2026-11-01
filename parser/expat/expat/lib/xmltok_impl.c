@@ -2,22 +2,6 @@
 ifdef
 XML_TOK_IMPL_C
 #
-ifndef
-IS_INVALID_CHAR
-#
-define
-IS_INVALID_CHAR
-(
-enc
-ptr
-n
-)
-(
-0
-)
-#
-endif
-#
 define
 INVALID_LEAD_CASE
 (
@@ -574,7 +558,6 @@ end
 )
 static
 int
-PTRCALL
 PREFIX
 (
 scanComment
@@ -761,7 +744,6 @@ XML_TOK_PARTIAL
 }
 static
 int
-PTRCALL
 PREFIX
 (
 scanDecl
@@ -983,7 +965,6 @@ XML_TOK_PARTIAL
 }
 static
 int
-PTRCALL
 PREFIX
 (
 checkPiTarget
@@ -1159,7 +1140,6 @@ return
 }
 static
 int
-PTRCALL
 PREFIX
 (
 scanPi
@@ -1468,7 +1448,6 @@ XML_TOK_PARTIAL
 }
 static
 int
-PTRCALL
 PREFIX
 (
 scanCdataSection
@@ -1582,7 +1561,6 @@ XML_TOK_CDATA_SECT_OPEN
 }
 static
 int
-PTRCALL
 PREFIX
 (
 cdataSectionTok
@@ -1984,7 +1962,6 @@ XML_TOK_DATA_CHARS
 }
 static
 int
-PTRCALL
 PREFIX
 (
 scanEndTag
@@ -2207,7 +2184,6 @@ XML_TOK_PARTIAL
 }
 static
 int
-PTRCALL
 PREFIX
 (
 scanHexCharRef
@@ -2348,7 +2324,6 @@ XML_TOK_PARTIAL
 }
 static
 int
-PTRCALL
 PREFIX
 (
 scanCharRef
@@ -2509,7 +2484,6 @@ XML_TOK_PARTIAL
 }
 static
 int
-PTRCALL
 PREFIX
 (
 scanRef
@@ -2648,7 +2622,6 @@ XML_TOK_PARTIAL
 }
 static
 int
-PTRCALL
 PREFIX
 (
 scanAtts
@@ -3286,7 +3259,6 @@ XML_TOK_PARTIAL
 }
 static
 int
-PTRCALL
 PREFIX
 (
 scanLt
@@ -3766,7 +3738,6 @@ XML_TOK_PARTIAL
 }
 static
 int
-PTRCALL
 PREFIX
 (
 contentTok
@@ -4324,7 +4295,6 @@ XML_TOK_DATA_CHARS
 }
 static
 int
-PTRCALL
 PREFIX
 (
 scanPercent
@@ -4463,7 +4433,6 @@ XML_TOK_PARTIAL
 }
 static
 int
-PTRCALL
 PREFIX
 (
 scanPoundName
@@ -4596,7 +4565,6 @@ XML_TOK_POUND_NAME
 }
 static
 int
-PTRCALL
 PREFIX
 (
 scanLit
@@ -4750,7 +4718,6 @@ XML_TOK_PARTIAL
 }
 static
 int
-PTRCALL
 PREFIX
 (
 prologTok
@@ -5945,7 +5912,6 @@ tok
 }
 static
 int
-PTRCALL
 PREFIX
 (
 attributeValueTok
@@ -6279,7 +6245,6 @@ XML_TOK_DATA_CHARS
 }
 static
 int
-PTRCALL
 PREFIX
 (
 entityValueTok
@@ -6623,7 +6588,6 @@ ifdef
 XML_DTD
 static
 int
-PTRCALL
 PREFIX
 (
 ignoreSectionTok
@@ -6906,7 +6870,6 @@ XML_TOK_PARTIAL
 endif
 static
 int
-PTRCALL
 PREFIX
 (
 isPublicId
@@ -7127,7 +7090,6 @@ return
 }
 static
 int
-PTRCALL
 PREFIX
 (
 getAtts
@@ -7656,7 +7618,6 @@ break
 }
 static
 int
-PTRFASTCALL
 PREFIX
 (
 charRefNumber
@@ -7945,7 +7906,6 @@ result
 }
 static
 int
-PTRCALL
 PREFIX
 (
 predefinedEntityName
@@ -8228,7 +8188,6 @@ return
 }
 static
 int
-PTRCALL
 PREFIX
 (
 nameMatchesAscii
@@ -8315,7 +8274,6 @@ end1
 }
 static
 int
-PTRFASTCALL
 PREFIX
 (
 nameLength
@@ -8458,7 +8416,6 @@ static
 const
 char
 *
-PTRFASTCALL
 PREFIX
 (
 skipS
@@ -8518,7 +8475,6 @@ ptr
 }
 static
 void
-PTRCALL
 PREFIX
 (
 updatePosition

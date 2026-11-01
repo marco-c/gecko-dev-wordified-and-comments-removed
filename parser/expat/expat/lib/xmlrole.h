@@ -12,16 +12,6 @@ xmltok
 .
 h
 "
-#
-ifdef
-__cplusplus
-extern
-"
-C
-"
-{
-#
-endif
 enum
 {
 XML_ROLE_ERROR
@@ -104,7 +94,6 @@ prolog_state
 {
 int
 (
-PTRCALL
 *
 handler
 )
@@ -201,11 +190,5 @@ end
 enc
 )
 )
-#
-ifdef
-__cplusplus
-}
-#
-endif
 #
 endif
