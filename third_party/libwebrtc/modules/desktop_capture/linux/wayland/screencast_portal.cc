@@ -2347,6 +2347,15 @@ break
 ;
 }
 }
+that
+-
+>
+restore_token_
+.
+clear
+(
+)
+;
 if
 (
 g_variant_lookup
