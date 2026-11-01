@@ -513,7 +513,7 @@ StyleSheet
 *
 parent
 =
-GetStyleSheet
+GetParentStyleSheet
 (
 )
 )
