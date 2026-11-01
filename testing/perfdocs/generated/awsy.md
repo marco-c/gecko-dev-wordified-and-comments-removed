@@ -589,12 +589,6 @@ dmd
 :
 None
 *
-awsy
--
-dmd
-:
-None
-*
 {
 ref
 }
@@ -887,12 +881,6 @@ mini
 -
 m4
 >
-*
-awsy
--
-tp6
-:
-trunk
 *
 {
 ref
