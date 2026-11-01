@@ -918,7 +918,7 @@ signal_processing
 /
 auto_correlation
 .
-c
+cc
 -
 common_audio
 /
