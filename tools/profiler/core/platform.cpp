@@ -21488,6 +21488,11 @@ mNoTimerResolutionChange
 =
 true
 ;
+HANDLE
+mHiResTimer
+=
+nullptr
+;
 #
 endif
 struct
