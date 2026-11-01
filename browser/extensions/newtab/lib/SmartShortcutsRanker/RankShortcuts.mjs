@@ -6502,7 +6502,6 @@ this
 fetchRefreFeatures
 (
 withGuid
-features
 )
 :
 {
