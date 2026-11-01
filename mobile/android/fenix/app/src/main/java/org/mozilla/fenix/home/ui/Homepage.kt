@@ -1652,6 +1652,11 @@ showStoriesButton
 headerState
 .
 showStoriesButton
+showButtons
+=
+headerState
+.
+showButtons
 browsingModeChanged
 =
 browsingModeChanged
