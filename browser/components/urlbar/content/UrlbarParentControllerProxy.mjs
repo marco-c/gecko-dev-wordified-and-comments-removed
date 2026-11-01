@@ -3029,7 +3029,6 @@ searchTerms
 where
 inBackground
 browserId
-tracksBounce
 )
 {
 this
@@ -3054,7 +3053,6 @@ searchTerms
 where
 inBackground
 browserId
-tracksBounce
 }
 )
 ;
