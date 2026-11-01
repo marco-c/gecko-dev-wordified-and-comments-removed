@@ -133,12 +133,6 @@ GetSingleton
 (
 )
 ;
-static
-void
-SwitchToBackupDNSService
-(
-)
-;
 private
 :
 ~
@@ -182,12 +176,6 @@ MOZ_GUARDED_BY
 (
 mLock
 )
-;
-nsCOMPtr
-<
-nsIDNSService
->
-mBackupDNSService
 ;
 }
 ;
