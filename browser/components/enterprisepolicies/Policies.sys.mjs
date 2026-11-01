@@ -10048,8 +10048,8 @@ installAddonFromURL
 uri
 .
 spec
-null
-null
+{
+}
 "
 Extensions
 "
@@ -10569,8 +10569,12 @@ extensionID
 ]
 .
 install_url
+{
+id
+:
 extensionID
 existingAddon
+}
 "
 ExtensionSettings
 "
