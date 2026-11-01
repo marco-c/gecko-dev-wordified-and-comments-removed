@@ -341,6 +341,11 @@ sack
 void
 HandleT3RtxTimerExpiry
 (
+webrtc
+:
+:
+Timestamp
+now
 )
 ;
 bool
@@ -373,6 +378,11 @@ Data
 >
 GetChunksForFastRetransmit
 (
+webrtc
+:
+:
+Timestamp
+now
 size_t
 bytes_in_packet
 )

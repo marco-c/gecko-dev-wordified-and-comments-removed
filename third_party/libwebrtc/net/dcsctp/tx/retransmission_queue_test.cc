@@ -703,6 +703,7 @@ queue
 .
 GetChunksForFastRetransmit
 (
+now_
 10000
 )
 )
@@ -3572,6 +3573,7 @@ queue
 .
 HandleT3RtxTimerExpiry
 (
+now_
 )
 ;
 EXPECT_THAT
@@ -3913,6 +3915,7 @@ queue
 .
 HandleT3RtxTimerExpiry
 (
+now_
 )
 ;
 EXPECT_THAT
@@ -4181,6 +4184,7 @@ queue
 .
 HandleT3RtxTimerExpiry
 (
+now_
 )
 ;
 EXPECT_THAT
@@ -4534,6 +4538,7 @@ queue
 .
 HandleT3RtxTimerExpiry
 (
+now_
 )
 ;
 EXPECT_FALSE
@@ -4565,6 +4570,7 @@ queue
 .
 HandleT3RtxTimerExpiry
 (
+now_
 )
 ;
 EXPECT_FALSE
@@ -4596,6 +4602,7 @@ queue
 .
 HandleT3RtxTimerExpiry
 (
+now_
 )
 ;
 EXPECT_FALSE
@@ -4645,6 +4652,7 @@ queue
 .
 HandleT3RtxTimerExpiry
 (
+now_
 )
 ;
 EXPECT_TRUE
@@ -4953,6 +4961,7 @@ queue
 .
 HandleT3RtxTimerExpiry
 (
+now_
 )
 ;
 EXPECT_THAT
@@ -5460,6 +5469,7 @@ queue
 .
 HandleT3RtxTimerExpiry
 (
+now_
 )
 ;
 EXPECT_THAT
@@ -5925,6 +5935,7 @@ queue
 .
 HandleT3RtxTimerExpiry
 (
+now_
 )
 ;
 EXPECT_THAT
@@ -6638,6 +6649,7 @@ queue
 .
 HandleT3RtxTimerExpiry
 (
+now_
 )
 ;
 EXPECT_THAT
@@ -8997,6 +9009,7 @@ queue
 .
 HandleT3RtxTimerExpiry
 (
+now_
 )
 ;
 EXPECT_TRUE
@@ -11379,6 +11392,7 @@ queue
 .
 GetChunksForFastRetransmit
 (
+now_
 1000
 )
 ElementsAre
@@ -13594,6 +13608,7 @@ queue
 .
 HandleT3RtxTimerExpiry
 (
+now_
 )
 ;
 EXPECT_THAT

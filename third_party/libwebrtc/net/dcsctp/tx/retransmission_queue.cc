@@ -1346,6 +1346,7 @@ outstanding_data_
 .
 HandleSack
 (
+now
 cumulative_tsn_ack
 sack
 .
@@ -1659,6 +1660,8 @@ RetransmissionQueue
 :
 HandleT3RtxTimerExpiry
 (
+Timestamp
+now
 )
 {
 size_t
@@ -1706,6 +1709,7 @@ outstanding_data_
 .
 NackAll
 (
+now
 )
 ;
 RTC_DLOG
@@ -1799,6 +1803,8 @@ RetransmissionQueue
 :
 GetChunksForFastRetransmit
 (
+Timestamp
+now
 size_t
 bytes_in_packet
 )
@@ -1849,6 +1855,7 @@ outstanding_data_
 .
 GetChunksToBeFastRetransmitted
 (
+now
 bytes_in_packet
 )
 ;
@@ -2223,6 +2230,7 @@ outstanding_data_
 .
 GetChunksToBeRetransmitted
 (
+now
 max_bytes
 )
 ;
