@@ -718,6 +718,14 @@ ErrorResult
 aRv
 )
 ;
+already_AddRefed
+<
+CSSNumericValue
+>
+Negate
+(
+)
+;
 StyleNumericValue
 ToStyleNumericValue
 (
