@@ -24,6 +24,7 @@ from
 .
 symbolication
 import
+source_path_mapping_args
 symbolicate_profile_file
 from
 .
@@ -33,6 +34,10 @@ view_gecko_profile
 __all__
 =
 [
+    
+"
+source_path_mapping_args
+"
     
 "
 symbolicate_profile_file

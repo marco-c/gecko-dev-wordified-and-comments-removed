@@ -8,6 +8,13 @@ mozbase
 "
 [
 "
+test_symbolication
+.
+py
+"
+]
+[
+"
 test_view_gecko_profiler
 .
 py
