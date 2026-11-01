@@ -63,11 +63,6 @@ browser
 toml
 "
 "
-browserNova
-.
-toml
-"
-"
 hidpi
 /
 browser
