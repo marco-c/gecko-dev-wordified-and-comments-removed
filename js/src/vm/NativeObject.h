@@ -8070,6 +8070,16 @@ cap
 ;
 private
 :
+bool
+growElementsNoWatchtowerCheck
+(
+JSContext
+*
+cx
+uint32_t
+newcap
+)
+;
 inline
 void
 elementsRangePostWriteBarrier
