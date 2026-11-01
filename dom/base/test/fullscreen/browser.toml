@@ -269,6 +269,17 @@ js
 "
 browser_fullscreen
 -
+reduced
+-
+motion
+.
+js
+"
+]
+[
+"
+browser_fullscreen
+-
 sizemode
 .
 js

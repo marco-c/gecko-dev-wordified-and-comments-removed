@@ -1613,6 +1613,14 @@ leave
 ]
 [
 "
+ui
+.
+prefersReducedMotion
+"
+0
+]
+[
+"
 full
 -
 screen
