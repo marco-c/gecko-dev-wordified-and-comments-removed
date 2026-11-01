@@ -511,6 +511,33 @@ binary_path
 =
 None
         
+elif
+kwargs
+[
+"
+app
+"
+]
+!
+=
+"
+firefox
+"
+:
+            
+self
+.
+binary_path
+=
+kwargs
+.
+get
+(
+"
+binary
+"
+)
+        
 else
 :
             
