@@ -883,6 +883,17 @@ UpdateEmbeddedBrowsingContextDependentData
 (
 )
 {
+MOZ_ASSERT
+(
+!
+nsContentUtils
+:
+:
+IsSafeToRunScript
+(
+)
+)
+;
 if
 (
 !
@@ -1074,9 +1085,9 @@ IsDynamic
 )
 )
 {
+return
+;
 }
-else
-{
 AutoWeakFrame
 weakThis
 (
@@ -1150,6 +1161,9 @@ IsAlive
 return
 ;
 }
+nsAutoScriptBlocker
+sb
+;
 UpdateEmbeddedBrowsingContextDependentData
 (
 )
@@ -1158,7 +1172,6 @@ InvalidateFrame
 (
 )
 ;
-}
 }
 Document
 *
