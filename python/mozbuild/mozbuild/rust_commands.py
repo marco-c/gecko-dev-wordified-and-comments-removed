@@ -1147,6 +1147,11 @@ name
 )
 )
 )
+TEST_SELECTION_ENV
+=
+"
+MOZ_RUST_TEST_SELECTION
+"
 dataclass
 class
 CargoInvocation
@@ -1243,6 +1248,13 @@ str
 =
 "
 "
+    
+test_crates
+:
+tuple
+=
+(
+)
     
 classmethod
     
@@ -1387,6 +1399,27 @@ RUSTC_BOOTSTRAP
 or
 "
 "
+            
+test_crates
+=
+tuple
+(
+(
+environ
+.
+get
+(
+TEST_SELECTION_ENV
+)
+or
+"
+"
+)
+.
+split
+(
+)
+)
         
 )
 def
@@ -4361,21 +4394,29 @@ def
 _features_arg
 (
 cmd
+workspace_hack
+=
+True
 )
 :
     
-feat
+features
 =
-"
-"
-.
-join
+list
 (
-[
-*
 cmd
 .
 features
+)
+    
+if
+workspace_hack
+:
+        
+features
+.
+append
+(
 "
 mozilla
 -
@@ -4385,7 +4426,6 @@ workspace
 -
 hack
 "
-]
 )
     
 return
@@ -4395,24 +4435,44 @@ return
 -
 features
 "
-feat
+"
+"
+.
+join
+(
+features
+)
+]
+if
+features
+else
+[
 ]
 def
 compose_cargo_build_edge_argv
 (
     
 cmd
+    
 substs
+    
 invocation
+    
 timings
 =
 False
+    
 keep_going
 =
 False
+    
 single_job
 =
 False
+    
+workspace_hack
+=
+True
 )
 :
     
@@ -4516,6 +4576,7 @@ extend
 _features_arg
 (
 cmd
+workspace_hack
 )
 )
         

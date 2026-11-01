@@ -8,6 +8,13 @@ testing
 "
 [
 "
+test_rusttests
+.
+py
+"
+]
+[
+"
 test_wpt_path_utils
 .
 py
