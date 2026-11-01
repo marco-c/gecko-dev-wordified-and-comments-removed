@@ -456,10 +456,6 @@ DisplaySVGGeometry
 aItem
 bool
 aDryRun
-bool
-aAxisAligned
-=
-true
 )
 ;
 bool
@@ -581,8 +577,6 @@ aManager
 nsDisplayListBuilder
 *
 aDisplayListBuilder
-bool
-aAxisAligned
 )
 {
 auto
@@ -611,7 +605,6 @@ aManager
 aDisplayListBuilder
 this
 true
-aAxisAligned
 )
 .
 isOk
