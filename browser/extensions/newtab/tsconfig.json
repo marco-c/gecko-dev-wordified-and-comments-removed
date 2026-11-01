@@ -124,17 +124,6 @@ RankShortcutsWorkerClass
 .
 mjs
 "
-"
-lib
-/
-Wallpapers
-/
-WallpaperFeed
-.
-sys
-.
-mjs
-"
 ]
 "
 extends
