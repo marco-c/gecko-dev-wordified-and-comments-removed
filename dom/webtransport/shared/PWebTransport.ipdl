@@ -587,6 +587,7 @@ returns
 uint8_t
 [
 ]
+?
 keyingMaterial
 )
 ;
