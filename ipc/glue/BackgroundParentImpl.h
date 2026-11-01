@@ -540,6 +540,13 @@ nsString
 aProtocols
 nsTArray
 <
+WebTransportHeader
+>
+&
+&
+aHeaders
+nsTArray
+<
 WebTransportHash
 >
 &

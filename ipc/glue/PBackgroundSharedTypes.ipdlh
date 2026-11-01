@@ -574,6 +574,17 @@ value
 ;
 }
 ;
+struct
+WebTransportHeader
+{
+nsCString
+name
+;
+nsCString
+value
+;
+}
+;
 }
 /
 /
