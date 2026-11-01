@@ -714,6 +714,12 @@ shownItems
 isSticky
 =
 isSticky
+isDisabled
+=
+isDisabled
+isHidden
+=
+isHidden
 )
 Grid
 -
@@ -731,6 +737,12 @@ shownItems
 isSticky
 =
 isSticky
+isDisabled
+=
+isDisabled
+isHidden
+=
+isHidden
 )
 }
 }

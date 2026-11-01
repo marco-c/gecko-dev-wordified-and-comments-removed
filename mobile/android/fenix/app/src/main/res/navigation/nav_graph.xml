@@ -14827,6 +14827,10 @@ components
 .
 menu
 .
+compose
+.
+customize
+.
 FenixCustomizeMenuFragment
 "
 android

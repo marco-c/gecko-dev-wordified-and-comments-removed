@@ -970,6 +970,9 @@ VpnMenuItemProvider
 ipProtectionStore
 =
 ipProtectionStore
+target
+=
+target
 scope
 =
 menuViewScope
@@ -1017,6 +1020,9 @@ FindInPageMenuItemProvider
 appStore
 =
 appStore
+target
+=
+target
 )
 FenixMenuItem
 .
@@ -1494,6 +1500,9 @@ History
 >
 HistoryMenuItemProvider
 (
+target
+=
+target
 )
 FenixMenuItem
 .
@@ -1502,6 +1511,9 @@ Bookmarks
 >
 BookmarksScreenMenuItemProvider
 (
+target
+=
+target
 )
 FenixMenuItem
 .
@@ -1513,6 +1525,9 @@ DownloadsMenuItemProvider
 appStore
 =
 appStore
+target
+=
+target
 scope
 =
 menuViewScope
@@ -1529,6 +1544,9 @@ isAutofillSupported
 settings
 .
 isAutofillSupported
+target
+=
+target
 )
 FenixMenuItem
 .
@@ -1549,6 +1567,9 @@ context
 accessPoint
 =
 accessPoint
+target
+=
+target
 scope
 =
 menuViewScope
@@ -1560,6 +1581,9 @@ CustomizeHomepage
 >
 CustomizeHomepageMenuItemProvider
 (
+target
+=
+target
 )
 FenixMenuItem
 .
@@ -1568,6 +1592,9 @@ Settings
 >
 SettingsMenuItemProvider
 (
+target
+=
+target
 )
 FenixMenuItem
 .
@@ -1604,6 +1631,9 @@ quitApplicationDelegate
 applicationScope
 =
 applicationScope
+target
+=
+target
 )
 }
 /

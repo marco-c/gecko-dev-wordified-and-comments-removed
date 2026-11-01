@@ -302,6 +302,11 @@ APP_NAME
 appStore
 =
 appStore
+target
+=
+MenuTarget
+.
+BrowserTab
 )
 assertEquals
 (
@@ -380,6 +385,11 @@ APP_NAME
 appStore
 =
 appStore
+target
+=
+MenuTarget
+.
+BrowserTab
 )
 provider
 .
@@ -617,6 +627,11 @@ APP_NAME
 appStore
 =
 appStore
+target
+=
+MenuTarget
+.
+BrowserTab
 )
 assertFalse
 (
