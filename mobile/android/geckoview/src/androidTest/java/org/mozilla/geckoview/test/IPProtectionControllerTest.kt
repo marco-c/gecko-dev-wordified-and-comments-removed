@@ -588,13 +588,6 @@ IPProtectionController
 .
 SERVICE_STATE_UNAVAILABLE
 "
-optedout
-"
-to
-IPProtectionController
-.
-SERVICE_STATE_OPTED_OUT
-"
 ready
 "
 to

@@ -1771,14 +1771,6 @@ unauthenticated
 "
 ServiceState
 .
-OptedOut
--
->
-"
-opted_out
-"
-ServiceState
-.
 Ready
 -
 >

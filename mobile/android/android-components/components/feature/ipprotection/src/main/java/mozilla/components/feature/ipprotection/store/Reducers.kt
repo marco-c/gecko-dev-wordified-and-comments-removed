@@ -615,9 +615,6 @@ serviceStatus
 {
 ServiceState
 .
-OptedOut
-ServiceState
-.
 Unavailable
 ServiceState
 .
@@ -2655,9 +2652,6 @@ Unavailable
 ServiceState
 .
 Unauthenticated
-ServiceState
-.
-OptedOut
 -
 >
 maybeDeactivate

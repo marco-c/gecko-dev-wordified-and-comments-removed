@@ -2283,9 +2283,6 @@ listOf
 (
 ServiceState
 .
-OptedOut
-ServiceState
-.
 Unavailable
 ServiceState
 .
@@ -2993,9 +2990,6 @@ ServiceState
 Unauthenticated
 ServiceState
 .
-OptedOut
-ServiceState
-.
 Unavailable
 )
 .
@@ -3087,9 +3081,6 @@ listOf
 ServiceState
 .
 Unauthenticated
-ServiceState
-.
-OptedOut
 ServiceState
 .
 Unavailable
@@ -3211,9 +3202,6 @@ listOf
 ServiceState
 .
 Unauthenticated
-ServiceState
-.
-OptedOut
 ServiceState
 .
 Unavailable

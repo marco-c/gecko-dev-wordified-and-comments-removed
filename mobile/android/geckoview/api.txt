@@ -19744,15 +19744,6 @@ public
 static
 final
 int
-SERVICE_STATE_OPTED_OUT
-=
-3
-;
-field
-public
-static
-final
-int
 SERVICE_STATE_READY
 =
 4

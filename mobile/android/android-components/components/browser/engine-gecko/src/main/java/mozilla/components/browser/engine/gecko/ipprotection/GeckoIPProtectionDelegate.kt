@@ -390,14 +390,6 @@ SERVICE_STATE_READY
 ServiceState
 .
 Ready
-GeckoViewIPProtectionController
-.
-SERVICE_STATE_OPTED_OUT
--
->
-ServiceState
-.
-OptedOut
 else
 -
 >
