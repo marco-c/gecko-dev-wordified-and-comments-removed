@@ -2907,6 +2907,14 @@ nsACString
 aOriginScope
 )
 {
+RefPtr
+<
+SessionStorageManager
+>
+kungFuDeathGrip
+=
+this
+;
 OriginAttributesPattern
 pattern
 ;
