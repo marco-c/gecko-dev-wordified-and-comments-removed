@@ -155,6 +155,15 @@ start
 (
 )
         
+if
+not
+self
+.
+resources
+.
+forwarding
+:
+            
 self
 .
 resources
@@ -165,10 +174,10 @@ self
 .
 build_resources_profile_path
 )
-        
+            
 print
 (
-            
+                
 f
 "
 Streaming
@@ -183,7 +192,7 @@ self
 build_resources_profile_path
 }
 "
-        
+            
 )
     
 def
@@ -210,6 +219,16 @@ resources
 stop
 (
 )
+        
+if
+self
+.
+resources
+.
+forwarding
+:
+            
+return
         
 with
 open

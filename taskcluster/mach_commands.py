@@ -1750,6 +1750,18 @@ monitor
 stop
 (
 )
+            
+if
+monitor
+is
+not
+None
+and
+not
+monitor
+.
+forwarding
+:
                 
 upload_dir
 =
