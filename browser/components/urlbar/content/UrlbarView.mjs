@@ -24637,7 +24637,6 @@ parentController
 onBeforeSelection
 (
 result
-element
 )
 ;
 }

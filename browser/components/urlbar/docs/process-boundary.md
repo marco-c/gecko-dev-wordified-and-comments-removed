@@ -674,15 +674,6 @@ the
 message
 path
 .
-onBeforeSelection
-(
-)
-receives
-no
-element
-there
-either
-.
 #
 #
 Loads
