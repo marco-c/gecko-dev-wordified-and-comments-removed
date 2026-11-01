@@ -722,7 +722,7 @@ Prevent
 }
 ;
 MOZ_CAN_RUN_SCRIPT
-bool
+FinalStatus
 FireTraverseNavigateEvent
 (
 JSContext
@@ -985,7 +985,7 @@ aEventInitDict
 )
 ;
 MOZ_CAN_RUN_SCRIPT
-bool
+FinalStatus
 InnerFireNavigateEvent
 (
 JSContext

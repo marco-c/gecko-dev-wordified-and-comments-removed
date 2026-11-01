@@ -8889,6 +8889,15 @@ nsIDocumentViewer
 :
 :
 eCanceledByBeforeUnload
+|
+|
+aResult
+=
+=
+nsIDocumentViewer
+:
+:
+eCanceledByNavigate
 )
 {
 return

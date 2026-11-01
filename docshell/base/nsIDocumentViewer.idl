@@ -544,6 +544,9 @@ eCanceledByBeforeUnload
 eCanceledByNavigate
 =
 2
+eInterceptedByNavigate
+=
+3
 }
 ;
 /
