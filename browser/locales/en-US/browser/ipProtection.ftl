@@ -2723,10 +2723,11 @@ turn
 vpn
 -
 off
+-
+1
 =
 Turn
 off
-VPN
 #
 Button
 to
@@ -2784,10 +2785,11 @@ turn
 vpn
 -
 on
+-
+1
 =
 Turn
 on
-VPN
 #
 Button
 while
