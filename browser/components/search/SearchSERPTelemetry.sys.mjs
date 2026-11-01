@@ -475,6 +475,11 @@ submitted
 COMPONENTS
 :
 {
+AD_BRAND_ZONE
+:
+"
+ad_brand_zone
+"
 AD_CAROUSEL
 :
 "
@@ -665,6 +670,11 @@ const
 AD_COMPONENTS
 =
 [
+SearchSERPTelemetryUtils
+.
+COMPONENTS
+.
+AD_BRAND_ZONE
 SearchSERPTelemetryUtils
 .
 COMPONENTS
