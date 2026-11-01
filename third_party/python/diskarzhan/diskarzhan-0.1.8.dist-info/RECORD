@@ -16,10 +16,8 @@ diskarzhan
 py
 sha256
 =
-kAo6OMhx3F947kGHp3pRUZxmPl
--
-aZx9Vra54z5k94Tw
-3573
+LP8k6RlwxWHJ7wmKaFI2KCaUH_oypTw4IhcETHsuJ5Y
+3667
 diskarzhan
 /
 diskarzhan
@@ -35,7 +33,7 @@ diskarzhan
 .
 1
 .
-7
+8
 .
 dist
 -
@@ -54,7 +52,7 @@ diskarzhan
 .
 1
 .
-7
+8
 .
 dist
 -
@@ -63,7 +61,9 @@ info
 METADATA
 sha256
 =
-e89HCNC_lnew9wxaQgavGfvK9XPJlTcUulUFuEKZ4Bw
+VehLJJX6ZJPzLesBMS8J6CGet2vAoWeXaa8j
+-
+O7F2CQ
 20353
 diskarzhan
 -
@@ -71,7 +71,7 @@ diskarzhan
 .
 1
 .
-7
+8
 .
 dist
 -
@@ -80,11 +80,9 @@ info
 WHEEL
 sha256
 =
-YVMoNqKzERt
+mOdXR9C3wMVov7cSY8PY
 -
-wjUZwJ33xBGAwnFl
--
-4cqbYkTtWa4itE
+XCzo3SmmWCHvGQr5csJoao
 91
 diskarzhan
 -
@@ -92,7 +90,7 @@ diskarzhan
 .
 1
 .
-7
+8
 .
 dist
 -
@@ -113,7 +111,7 @@ diskarzhan
 .
 1
 .
-7
+8
 .
 dist
 -
@@ -134,7 +132,7 @@ diskarzhan
 .
 1
 .
-7
+8
 .
 dist
 -

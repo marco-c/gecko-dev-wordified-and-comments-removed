@@ -65,11 +65,11 @@ requests
 certifi
 =
 =
-2026
+2025
 .
-10
+7
 .
-19
+14
 idna
 =
 =
