@@ -582,6 +582,8 @@ uint8_t
 >
 &
 aContext
+uint32_t
+aOutputLength
 nsTArray
 <
 uint8_t

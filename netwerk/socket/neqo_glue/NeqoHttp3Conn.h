@@ -1175,6 +1175,8 @@ uint8_t
 >
 &
 aContext
+uint32_t
+aOutputLength
 nsTArray
 <
 uint8_t
@@ -1183,17 +1185,11 @@ uint8_t
 aKeyingMaterial
 )
 {
-constexpr
-uint32_t
-kKeyingMaterialLength
-=
-32
-;
 aKeyingMaterial
 .
 SetLength
 (
-kKeyingMaterialLength
+aOutputLength
 )
 ;
 return
@@ -1226,7 +1222,7 @@ aKeyingMaterial
 Elements
 (
 )
-kKeyingMaterialLength
+aOutputLength
 )
 ;
 }

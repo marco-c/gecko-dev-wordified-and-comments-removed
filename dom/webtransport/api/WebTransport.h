@@ -654,12 +654,11 @@ BufferSource
 &
 aLabel
 const
-Optional
-<
 BufferSource
->
 &
 aContext
+uint32_t
+aOutputLength
 ErrorResult
 &
 aError

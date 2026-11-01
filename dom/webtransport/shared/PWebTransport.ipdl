@@ -578,8 +578,9 @@ label
 uint8_t
 [
 ]
-?
 context
+uint32_t
+outputLength
 )
 returns
 (

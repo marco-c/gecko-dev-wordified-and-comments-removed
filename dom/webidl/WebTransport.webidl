@@ -525,9 +525,11 @@ exportKeyingMaterial
 (
 BufferSource
 label
-optional
 BufferSource
 context
+unsigned
+long
+outputLength
 )
 ;
 readonly
