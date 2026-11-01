@@ -62,6 +62,13 @@ h
 #
 include
 "
+nsTObserverArray
+.
+h
+"
+#
+include
+"
 nsWrapperCache
 .
 h
@@ -717,7 +724,7 @@ nsISupports
 >
 mConsumersToKeepAlive
 ;
-nsTArray
+nsTObserverArray
 <
 RefPtr
 <
