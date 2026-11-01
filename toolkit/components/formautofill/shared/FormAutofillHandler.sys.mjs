@@ -1582,6 +1582,7 @@ this
 .
 #
 visibilityObserver
+?
 .
 disconnect
 (
