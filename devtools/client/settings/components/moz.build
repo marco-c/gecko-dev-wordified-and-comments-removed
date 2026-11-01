@@ -60,6 +60,17 @@ devtools
 -
 settings
 -
+disable
+-
+javascript
+.
+mjs
+"
+"
+devtools
+-
+settings
+-
 pref
 .
 mjs
