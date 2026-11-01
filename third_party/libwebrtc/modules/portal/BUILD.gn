@@ -612,6 +612,11 @@ scoped_glib
 h
 "
 "
+screencast_persist_mode
+.
+h
+"
+"
 xdg_desktop_portal_utils
 .
 cc
