@@ -168,7 +168,13 @@ observers_
 push_back
 (
 {
+std
+:
+:
+move
+(
 ssrcs
+)
 observer
 }
 )
