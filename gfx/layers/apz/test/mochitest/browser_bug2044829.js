@@ -178,6 +178,12 @@ tab
 .
 linkedBrowser
 ;
+await
+promiseApzFlushedRepaintsInPopup
+(
+browser
+)
+;
 const
 touchstartPromise
 =
