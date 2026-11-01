@@ -3247,11 +3247,11 @@ glean
 parser
 =
 =
-20
-.
-1
+22
 .
 0
+.
+1
 \
 -
 -
@@ -3259,7 +3259,7 @@ hash
 =
 sha256
 :
-1582200c5bff482a1af6eb8ca0cd35525eb10f5cc167338ee426c57c1cd69a8d
+27dfde50605ed7922fdee1789c29d886132daf4f7406cfb4b2980acaf6bc2ced
 \
 -
 -
@@ -3267,7 +3267,7 @@ hash
 =
 sha256
 :
-8e89b1436fe64a63283581633c3e45c69a98f7843a02958bbba9652dd919a1b5
+e62f007d179e11760ec8c065bddadb4cd4ce565c0c88986a7bc9e72c5f2955c4
 #
 via
 mozilla

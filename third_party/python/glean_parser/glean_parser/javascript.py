@@ -1358,14 +1358,21 @@ filename
         
 types
 =
-set
+sorted
 (
             
-[
+list
+(
                 
+set
+(
+                    
+[
+                        
 obj
 .
 type
+                        
 if
 not
 obj
@@ -1378,6 +1385,7 @@ startswith
 labeled_
 "
 )
+                        
 else
 obj
 .
@@ -1386,7 +1394,7 @@ type
 8
 :
 ]
-                
+                        
 for
 obj
 in
@@ -1395,8 +1403,12 @@ category_val
 values
 (
 )
-            
+                    
 ]
+                
+)
+            
+)
         
 )
         
