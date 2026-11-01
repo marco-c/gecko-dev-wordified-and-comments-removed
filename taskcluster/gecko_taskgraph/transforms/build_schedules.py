@@ -246,12 +246,17 @@ family
 ]
             
 if
+family
+not
+in
+(
 "
 android
 "
-not
-in
-family
+"
+ios
+"
+)
 :
                 
 schedules
