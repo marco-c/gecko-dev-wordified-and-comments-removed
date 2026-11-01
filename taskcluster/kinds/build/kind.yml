@@ -331,11 +331,6 @@ default
 nightly
 run
 :
-clone
--
-with
-:
-hg
 #
 Note
 :
