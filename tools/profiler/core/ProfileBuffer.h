@@ -385,8 +385,6 @@ uint64_t
 >
 &
 aLastSample
-bool
-aLastSampleHasJitReturnAddrs
 const
 RunningTimes
 &
@@ -957,16 +955,6 @@ aFrame
 )
 override
 ;
-bool
-HasCollectedJitReturnAddr
-(
-)
-const
-{
-return
-mHasCollectedJitReturnAddr
-;
-}
 private
 :
 ProfileBuffer
@@ -978,11 +966,6 @@ mSamplePositionInBuffer
 ;
 uint64_t
 mBufferRangeStart
-;
-bool
-mHasCollectedJitReturnAddr
-=
-false
 ;
 }
 ;

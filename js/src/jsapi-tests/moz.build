@@ -926,11 +926,6 @@ testJitABIcalls
 cpp
 "
 "
-testJitcodeGlobalTableReuse
-.
-cpp
-"
-"
 testJitDCEinGVN
 .
 cpp
