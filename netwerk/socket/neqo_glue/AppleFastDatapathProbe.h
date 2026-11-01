@@ -10,8 +10,8 @@ mozilla
 :
 net
 {
-bool
-InitAppleFastDatapathProbe
+void
+StartAppleFastDatapathProbe
 (
 )
 ;
