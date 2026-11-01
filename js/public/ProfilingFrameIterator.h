@@ -1215,6 +1215,16 @@ depth_
 )
 ;
 }
+uint64_t
+lastSamplePosition
+(
+)
+const
+{
+return
+lastSamplePos_
+;
+}
 private
 :
 friend
@@ -1228,6 +1238,8 @@ cx
 void
 *
 addr
+uint64_t
+samplePositionInBuffer
 )
 ;
 ProfiledFrameRange
@@ -1247,6 +1259,8 @@ jit
 JitcodeGlobalEntry
 *
 entry
+uint64_t
+lastSamplePos
 )
 :
 rt_
@@ -1260,6 +1274,10 @@ addr
 entry_
 (
 entry
+)
+lastSamplePos_
+(
+lastSamplePos
 )
 depth_
 (
@@ -1284,6 +1302,9 @@ jit
 JitcodeGlobalEntry
 *
 entry_
+;
+uint64_t
+lastSamplePos_
 ;
 static
 constexpr
@@ -1319,6 +1340,8 @@ cx
 void
 *
 addr
+uint64_t
+samplePositionInBuffer
 )
 ;
 }
