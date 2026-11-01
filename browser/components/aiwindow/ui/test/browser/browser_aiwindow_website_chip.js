@@ -782,8 +782,6 @@ chip
 type
 "
 context
--
-chip
 "
 "
 Chip
@@ -791,8 +789,6 @@ type
 should
 be
 context
--
-chip
 "
 )
 ;

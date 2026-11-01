@@ -390,14 +390,7 @@ chip
 type
 =
 "
-context
--
-chip
-"
-size
-=
-"
-small
+source
 "
 .
 label

@@ -1571,14 +1571,7 @@ source
 type
 =
 "
-context
--
-chip
-"
-size
-=
-"
-small
+source
 "
 .
 label

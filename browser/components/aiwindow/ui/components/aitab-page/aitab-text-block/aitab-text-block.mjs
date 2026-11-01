@@ -379,14 +379,7 @@ favicon
 type
 =
 "
-context
--
-chip
-"
-size
-=
-"
-small
+source
 "
 openLinkEvent
 =
