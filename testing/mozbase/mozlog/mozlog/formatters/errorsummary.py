@@ -1038,6 +1038,15 @@ group
             
 self
 .
+test_to_group
+[
+test
+]
+=
+group
+            
+self
+.
 groups
 [
 group
@@ -2049,11 +2058,14 @@ test
 )
         
 if
+data
+.
+get
+(
 "
 group
 "
-in
-data
+)
 :
             
 if
