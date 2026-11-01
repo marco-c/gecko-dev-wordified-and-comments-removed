@@ -665,3 +665,14 @@ angle
 metal
 "
 )
+GFXINFO_FEATURE
+(
+WEBRENDER_ANGLE_GL
+"
+webrender
+.
+angle
+-
+gl
+"
+)
