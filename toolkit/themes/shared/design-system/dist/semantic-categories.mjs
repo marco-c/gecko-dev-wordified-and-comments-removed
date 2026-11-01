@@ -25335,9 +25335,6 @@ default
 "
 inherit
 "
-brand
-:
-{
 prefersContrast
 :
 "
@@ -25370,7 +25367,6 @@ color
 disabled
 )
 "
-}
 }
 name
 :
@@ -45658,9 +45654,6 @@ default
 "
 inherit
 "
-brand
-:
-{
 prefersContrast
 :
 "
@@ -45693,7 +45686,6 @@ color
 disabled
 )
 "
-}
 }
 "
 button

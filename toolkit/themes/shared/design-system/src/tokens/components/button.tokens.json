@@ -4058,11 +4058,6 @@ default
 inherit
 "
 "
-brand
-"
-:
-{
-"
 prefersContrast
 "
 :
@@ -4092,7 +4087,6 @@ color
 disabled
 }
 "
-}
 "
 nova
 "
@@ -4141,13 +4135,6 @@ ghost
 .
 base
 }
-"
-"
-forcedColors
-"
-:
-"
-GrayText
 "
 }
 }

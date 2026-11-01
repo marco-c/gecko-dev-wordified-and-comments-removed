@@ -6987,7 +6987,16 @@ forcedColors
 "
 :
 "
-inherit
+{
+Theme
+button
+/
+text
+/
+color
+/
+disabled
+}
 "
 }
 "
