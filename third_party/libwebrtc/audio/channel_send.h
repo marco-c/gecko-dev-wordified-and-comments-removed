@@ -660,6 +660,11 @@ RtpState
 >
 &
 rtp_state
+absl
+:
+:
+string_view
+mid
 scoped_refptr
 <
 FrameTransformerInterface

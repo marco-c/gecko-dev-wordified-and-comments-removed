@@ -696,17 +696,6 @@ local_media_ssrc
 )
 const
 ;
-void
-SetMid
-(
-absl
-:
-:
-string_view
-mid
-)
-override
-;
 RTCPSender
 :
 :
