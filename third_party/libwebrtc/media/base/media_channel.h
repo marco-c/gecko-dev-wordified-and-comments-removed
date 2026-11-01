@@ -2792,11 +2792,6 @@ total_encode_time_ms
 =
 0
 ;
-uint64_t
-total_encoded_bytes_target
-=
-0
-;
 bool
 has_entered_low_resolution
 =

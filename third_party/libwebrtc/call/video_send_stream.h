@@ -424,11 +424,6 @@ total_encode_time_ms
 =
 0
 ;
-uint64_t
-total_encoded_bytes_target
-=
-0
-;
 uint32_t
 huge_frames_sent
 =
@@ -516,11 +511,6 @@ frames_encoded
 ;
 uint64_t
 total_encode_time_ms
-=
-0
-;
-uint64_t
-total_encoded_bytes_target
 =
 0
 ;

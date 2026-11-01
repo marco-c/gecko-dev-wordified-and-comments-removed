@@ -2039,15 +2039,6 @@ std
 :
 optional
 <
-uint64_t
->
-total_encoded_bytes_target
-;
-std
-:
-:
-optional
-<
 uint32_t
 >
 frame_width

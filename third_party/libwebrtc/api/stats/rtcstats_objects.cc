@@ -1916,14 +1916,6 @@ total_encode_time
 AttributeInit
 (
 "
-totalEncodedBytesTarget
-"
-&
-total_encoded_bytes_target
-)
-AttributeInit
-(
-"
 frameWidth
 "
 &
