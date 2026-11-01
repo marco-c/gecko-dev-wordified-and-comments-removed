@@ -168,6 +168,17 @@ aarch64
 aarch64
 ;
 do
+for
+sbom
+in
+sbom
+sbom
+-
+build
+-
+tooling
+;
+do
 if
 [
 -
@@ -213,6 +224,7 @@ i
 .
 json
 fi
+done
 done
 python3
 -
