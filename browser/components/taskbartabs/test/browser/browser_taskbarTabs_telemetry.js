@@ -1438,6 +1438,12 @@ TaskbarTabsPin
 pinTaskbarTab
 "
 )
+.
+resolves
+(
+{
+}
+)
 ;
 sandbox
 .

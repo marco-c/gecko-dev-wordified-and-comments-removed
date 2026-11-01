@@ -212,6 +212,12 @@ TaskbarTabsPin
 pinTaskbarTab
 "
 )
+.
+resolves
+(
+{
+}
+)
 ;
 sinon
 .

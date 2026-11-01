@@ -1366,6 +1366,8 @@ pinTaskbarTab
 .
 resolves
 (
+{
+}
 )
 ;
 let
@@ -1647,6 +1649,8 @@ pinTaskbarTab
 .
 resolves
 (
+{
+}
 )
 ;
 let
@@ -1787,6 +1791,9 @@ wrappedMethod
 .
 args
 )
+;
+return
+pendingPin
 ;
 }
 )
@@ -2308,6 +2315,8 @@ pinTaskbarTab
 .
 resolves
 (
+{
+}
 )
 ;
 let

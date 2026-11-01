@@ -459,6 +459,7 @@ Assert
 .
 equal
 (
+(
 await
 TaskbarTabsPin
 .
@@ -466,6 +467,9 @@ pinTaskbarTab
 (
 taskbarTab
 )
+)
+.
+shortcut
 "
 glib
 .
@@ -603,6 +607,7 @@ Assert
 .
 equal
 (
+(
 await
 TaskbarTabsPin
 .
@@ -610,6 +615,9 @@ pinTaskbarTab
 (
 invalidTaskbarTab
 )
+)
+.
+shortcut
 "
 glib
 .
