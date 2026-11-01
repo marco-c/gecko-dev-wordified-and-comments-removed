@@ -1159,11 +1159,6 @@ actor
 GetDNSRequest
 (
 )
--
->
-AsDNSRequestHandler
-(
-)
 ;
 handler
 -

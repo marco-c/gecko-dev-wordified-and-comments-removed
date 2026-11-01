@@ -515,7 +515,7 @@ target
 ;
 RefPtr
 <
-DNSRequestActor
+DNSRequestChild
 >
 dnsReq
 =
