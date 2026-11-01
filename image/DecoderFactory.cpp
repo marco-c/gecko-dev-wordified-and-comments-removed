@@ -1971,10 +1971,7 @@ SetIterator
 std
 :
 :
-forward
-<
-SourceBufferIterator
->
+move
 (
 aIterator
 )
