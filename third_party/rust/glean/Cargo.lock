@@ -2233,9 +2233,9 @@ glean
 version
 =
 "
-70
+71
 .
-3
+0
 .
 0
 "
@@ -2300,9 +2300,9 @@ core
 version
 =
 "
-70
+71
 .
-3
+0
 .
 0
 "
@@ -2332,7 +2332,7 @@ index
 checksum
 =
 "
-1e76828a4ec9b014352ce29aa70ab6699a44abcaf80b63db73123b9c7210c8bd
+6e1896d62a48b2d1a2c4146e5bf12f3b85f5b4a7fb99ce6aba84f52770d1b68e
 "
 dependencies
 =
