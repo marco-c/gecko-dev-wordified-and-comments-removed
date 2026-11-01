@@ -195,6 +195,11 @@ extensions
 /
 newtab
 /
+-
+dom
+/
+media
+/
 Open
 AGENTS
 .
