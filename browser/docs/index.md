@@ -36,6 +36,7 @@ FrontendCodeReviewBestPractices
 CommandLineParameters
 BrowserStartup
 CategoryManagerIndirection
+DistributionIni
 components
 /
 customizableui
