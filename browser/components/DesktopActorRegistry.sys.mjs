@@ -1552,6 +1552,17 @@ true
 "
 AIChatContent
 :
+FirstCharacterDisplayed
+"
+:
+{
+wantUntrusted
+:
+true
+}
+"
+AIChatContent
+:
 ClientError
 "
 :

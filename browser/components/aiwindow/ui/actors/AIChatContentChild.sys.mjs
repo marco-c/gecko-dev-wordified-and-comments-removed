@@ -353,6 +353,11 @@ HistoryGridItemClick
 "
 AIChatContent
 :
+FirstCharacterDisplayed
+"
+"
+AIChatContent
+:
 ClientError
 "
 ]
