@@ -572,7 +572,10 @@ const
 override
 {
 return
-MakeUnique
+std
+:
+:
+make_unique
 <
 PCUuidGenerator
 >
@@ -4055,6 +4058,11 @@ mQueuedIceCtxOperations
 ;
 bool
 mForceProxy
+=
+false
+;
+bool
+mBlockedByConnectionAllowlists
 =
 false
 ;
