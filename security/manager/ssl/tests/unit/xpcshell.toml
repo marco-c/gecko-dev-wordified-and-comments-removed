@@ -1896,6 +1896,13 @@ hardcoded
 ports
 [
 "
+test_onecrl_loads_bundle
+.
+js
+"
+]
+[
+"
 test_oskeystore
 .
 js
