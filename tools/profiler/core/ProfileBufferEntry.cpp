@@ -12120,6 +12120,8 @@ uint64_t
 >
 &
 aLastSample
+bool
+aLastSampleHasJitReturnAddrs
 const
 RunningTimes
 &
@@ -12214,6 +12216,15 @@ SameSample
 ;
 return
 true
+;
+}
+if
+(
+aLastSampleHasJitReturnAddrs
+)
+{
+return
+false
 ;
 }
 AUTO_PROFILER_STATS
