@@ -444,9 +444,9 @@ of
 HttpActivityArgs
 |
 in
-PSocketProcess
+NeckoChannelParams
 .
-ipdl
+ipdlh
 .
 *
 /
