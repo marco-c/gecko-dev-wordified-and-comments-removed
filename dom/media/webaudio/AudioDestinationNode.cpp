@@ -2283,6 +2283,8 @@ AudioContext
 aContext
 bool
 aIsOffline
+bool
+aAllowedToStart
 uint32_t
 aNumberOfChannels
 uint32_t
@@ -2328,10 +2330,17 @@ MediaTrackGraph
 :
 GetInstance
 (
+aAllowedToStart
+?
 MediaTrackGraph
 :
 :
 AUDIO_THREAD_DRIVER
+:
+MediaTrackGraph
+:
+:
+SYSTEM_THREAD_DRIVER
 aContext
 -
 >
