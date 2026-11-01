@@ -90,6 +90,7 @@ const
 content
 handleAction
 inputName
+inert
 }
 =
 props
@@ -186,6 +187,16 @@ ref
 =
 {
 ref
+}
+inert
+=
+{
+inert
+?
+"
+"
+:
+undefined
 }
 className
 =
