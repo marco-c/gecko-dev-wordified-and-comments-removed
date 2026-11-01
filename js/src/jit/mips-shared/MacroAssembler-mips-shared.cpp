@@ -3511,7 +3511,7 @@ ma_load_unaligned
 ;
 }
 }
-void
+FaultingCodeRange
 MacroAssemblerMIPSShared
 :
 :
@@ -3913,6 +3913,16 @@ ma_load
 )
 ;
 }
+FaultingCodeRange
+fcr
+(
+load
+.
+getOffset
+(
+)
+)
+;
 asMasm
 (
 )
@@ -3927,15 +3937,11 @@ TrapMachineInsnForLoad
 (
 byteSize
 )
-FaultingCodeRange
-(
-load
-.
-getOffset
-(
+fcr
 )
-)
-)
+;
+return
+fcr
 ;
 }
 FaultingCodeRange
@@ -5017,7 +5023,7 @@ ma_store_unaligned
 ;
 }
 }
-void
+FaultingCodeRange
 MacroAssemblerMIPSShared
 :
 :
@@ -5346,6 +5352,16 @@ ma_store
 )
 ;
 }
+FaultingCodeRange
+fcr
+(
+store
+.
+getOffset
+(
+)
+)
+;
 asMasm
 (
 )
@@ -5360,15 +5376,11 @@ TrapMachineInsnForStore
 (
 byteSize
 )
-FaultingCodeRange
-(
-store
-.
-getOffset
-(
+fcr
 )
-)
-)
+;
+return
+fcr
 ;
 }
 void
@@ -11899,6 +11911,7 @@ AnyRegister
 output
 )
 {
+return
 wasmLoadImpl
 (
 access
@@ -11910,7 +11923,7 @@ InvalidReg
 )
 ;
 }
-void
+FaultingCodeRange
 MacroAssembler
 :
 :
@@ -11935,6 +11948,7 @@ Register
 tmp
 )
 {
+return
 wasmLoadImpl
 (
 access
@@ -11949,7 +11963,7 @@ tmp
 )
 ;
 }
-void
+FaultingCodeRange
 MacroAssembler
 :
 :
@@ -11974,6 +11988,7 @@ Register
 tmp1
 )
 {
+return
 wasmLoadImpl
 (
 access
@@ -12011,6 +12026,7 @@ Register
 ptrScratch
 )
 {
+return
 wasmStoreImpl
 (
 access
@@ -12022,7 +12038,7 @@ InvalidReg
 )
 ;
 }
-void
+FaultingCodeRange
 MacroAssembler
 :
 :
@@ -12047,6 +12063,7 @@ Register
 tmp
 )
 {
+return
 wasmStoreImpl
 (
 access
@@ -12061,7 +12078,7 @@ tmp
 )
 ;
 }
-void
+FaultingCodeRange
 MacroAssembler
 :
 :
@@ -12086,6 +12103,7 @@ Register
 tmp
 )
 {
+return
 wasmStoreImpl
 (
 access
@@ -12100,7 +12118,7 @@ tmp
 )
 ;
 }
-void
+FaultingCodeRange
 MacroAssemblerMIPSShared
 :
 :
@@ -12278,6 +12296,7 @@ byteSize
 4
 )
 {
+return
 asMasm
 (
 )
@@ -12295,8 +12314,7 @@ fpu
 )
 ;
 }
-else
-{
+return
 asMasm
 (
 )
@@ -12314,9 +12332,7 @@ fpu
 )
 ;
 }
-}
-else
-{
+return
 asMasm
 (
 )
@@ -12346,9 +12362,6 @@ SignExtend
 :
 ZeroExtend
 )
-;
-}
-return
 ;
 }
 asMasm
@@ -12490,8 +12503,11 @@ sync
 )
 )
 ;
+return
+fcr
+;
 }
-void
+FaultingCodeRange
 MacroAssemblerMIPSShared
 :
 :
@@ -12639,6 +12655,7 @@ byteSize
 4
 )
 {
+return
 asMasm
 (
 )
@@ -12656,8 +12673,7 @@ address
 )
 ;
 }
-else
-{
+return
 asMasm
 (
 )
@@ -12675,9 +12691,7 @@ address
 )
 ;
 }
-}
-else
-{
+return
 asMasm
 (
 )
@@ -12707,9 +12721,6 @@ SignExtend
 :
 ZeroExtend
 )
-;
-}
-return
 ;
 }
 asMasm
@@ -12850,6 +12861,9 @@ sync
 (
 )
 )
+;
+return
+fcr
 ;
 }
 void
@@ -13056,7 +13070,7 @@ typename
 T
 >
 static
-void
+FaultingCodeRange
 CompareExchange
 (
 MacroAssembler
@@ -13328,6 +13342,7 @@ end
 )
 ;
 return
+fcr
 ;
 }
 masm
@@ -13718,6 +13733,9 @@ bind
 end
 )
 ;
+return
+fcr
+;
 }
 void
 MacroAssembler
@@ -13846,6 +13864,7 @@ Register
 output
 )
 {
+return
 CompareExchange
 (
 *
@@ -13903,6 +13922,7 @@ Register
 output
 )
 {
+return
 CompareExchange
 (
 *
@@ -13935,7 +13955,7 @@ typename
 T
 >
 static
-void
+FaultingCodeRange
 AtomicExchange
 (
 MacroAssembler
@@ -14187,6 +14207,7 @@ sync
 )
 ;
 return
+fcr
 ;
 }
 masm
@@ -14520,6 +14541,9 @@ memoryBarrierAfter
 sync
 )
 ;
+return
+fcr
+;
 }
 void
 MacroAssembler
@@ -14640,6 +14664,7 @@ Register
 output
 )
 {
+return
 AtomicExchange
 (
 *
@@ -14694,6 +14719,7 @@ Register
 output
 )
 {
+return
 AtomicExchange
 (
 *
@@ -14725,7 +14751,7 @@ typename
 T
 >
 static
-void
+FaultingCodeRange
 AtomicFetchOp
 (
 MacroAssembler
@@ -15068,6 +15094,7 @@ sync
 )
 ;
 return
+fcr
 ;
 }
 masm
@@ -15497,6 +15524,9 @@ memoryBarrierAfter
 (
 sync
 )
+;
+return
+fcr
 ;
 }
 void
@@ -15626,6 +15656,7 @@ Register
 output
 )
 {
+return
 AtomicFetchOp
 (
 *

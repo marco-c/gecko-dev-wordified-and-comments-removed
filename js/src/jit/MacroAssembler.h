@@ -17274,7 +17274,7 @@ DEFINED_ON
 riscv64
 )
 ;
-void
+FaultingCodeRange
 wasmUnalignedLoad
 (
 const
@@ -17300,7 +17300,7 @@ DEFINED_ON
 mips64
 )
 ;
-void
+FaultingCodeRange
 wasmUnalignedLoadFP
 (
 const
@@ -17326,7 +17326,7 @@ DEFINED_ON
 mips64
 )
 ;
-void
+FaultingCodeRange
 wasmUnalignedLoadI64
 (
 const
@@ -17352,7 +17352,7 @@ DEFINED_ON
 mips64
 )
 ;
-void
+FaultingCodeRange
 wasmUnalignedStore
 (
 const
@@ -17378,7 +17378,7 @@ DEFINED_ON
 mips64
 )
 ;
-void
+FaultingCodeRange
 wasmUnalignedStoreFP
 (
 const
@@ -17404,7 +17404,7 @@ DEFINED_ON
 mips64
 )
 ;
-void
+FaultingCodeRange
 wasmUnalignedStoreI64
 (
 const

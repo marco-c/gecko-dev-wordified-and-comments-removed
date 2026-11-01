@@ -5016,7 +5016,7 @@ Register
 dest
 )
 ;
-void
+FaultingCodeRange
 loadUnalignedDouble
 (
 const
@@ -5036,7 +5036,7 @@ FloatRegister
 dest
 )
 ;
-void
+FaultingCodeRange
 loadUnalignedFloat32
 (
 const
@@ -5428,7 +5428,7 @@ AbsoluteAddress
 dest
 )
 ;
-void
+FaultingCodeRange
 storeUnalignedFloat32
 (
 const
@@ -5448,7 +5448,7 @@ BaseIndex
 dest
 )
 ;
-void
+FaultingCodeRange
 storeUnalignedDouble
 (
 const
@@ -5601,7 +5601,7 @@ void
 fakeReturnAddr
 )
 ;
-void
+FaultingCodeRange
 wasmLoadI64Impl
 (
 const
@@ -5623,7 +5623,7 @@ Register
 tmp
 )
 ;
-void
+FaultingCodeRange
 wasmStoreI64Impl
 (
 const
