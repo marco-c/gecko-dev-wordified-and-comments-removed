@@ -462,6 +462,13 @@ switchTo
 rust
 )
 {
+await
+formAutofillStorage
+.
+initialize
+(
+)
+;
 Services
 .
 prefs
