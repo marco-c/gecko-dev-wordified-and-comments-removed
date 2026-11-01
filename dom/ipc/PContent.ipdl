@@ -6530,13 +6530,10 @@ ReactivateDocuments
 (
 MaybeDiscardedBrowsingContext
 aContext
-SessionHistoryInfo
-?
-aReactivatedEntry
-SessionHistoryInfo
+NavigationReactivationData
 [
 ]
-aNewSHEs
+aReactivationData
 PreviousSessionHistoryInfo
 ?
 aPreviousEntryForActivation
