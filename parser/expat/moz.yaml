@@ -284,10 +284,6 @@ patch
 .
 patch
 -
-04_getcurrentbyteindex
-.
-patch
--
 05_always_store_rawnames
 .
 patch
