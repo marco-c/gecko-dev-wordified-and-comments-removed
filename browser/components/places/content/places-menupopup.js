@@ -126,6 +126,7 @@ this
 ;
 }
 }
+static
 get
 markup
 (
