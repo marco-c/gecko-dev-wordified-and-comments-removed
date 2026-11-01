@@ -1495,7 +1495,7 @@ is
 ariaLabel
 "
 Visa
-CVC
+CVV
 1111
 "
 "
