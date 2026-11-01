@@ -2088,6 +2088,9 @@ gCustomizeMode
 .
 enter
 (
+"
+toolbar_context_menu
+"
 )
 ;
 break

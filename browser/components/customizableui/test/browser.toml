@@ -1491,6 +1491,13 @@ js
 ]
 [
 "
+browser_customize_telemetry
+.
+js
+"
+]
+[
+"
 browser_customizemode_contextmenu_menubuttonstate
 .
 js
