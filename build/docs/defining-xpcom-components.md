@@ -2057,7 +2057,7 @@ uncompressed
 "
 ProcessSelector
 .
-ALLOW_IN_SOCKET_PROCESS
+MAIN_PROCESS_ONLY
 )
 }
 }
