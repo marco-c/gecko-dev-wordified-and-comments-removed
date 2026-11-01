@@ -188,6 +188,13 @@ standalone
 ]
 [
 "
+browser_clientAuth_dialog
+.
+js
+"
+]
+[
+"
 browser_clientAuth_fetch_from_extension
 .
 js
