@@ -155,17 +155,6 @@ task
 -
 defaults
 :
-run
--
-on
--
-repo
--
-type
-:
-[
-hg
-]
 shipping
 -
 product

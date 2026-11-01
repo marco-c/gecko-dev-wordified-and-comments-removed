@@ -221,17 +221,6 @@ update
 -
 integrity
 :
-run
--
-on
--
-repo
--
-type
-:
-[
-hg
-]
 description
 :
 verify
