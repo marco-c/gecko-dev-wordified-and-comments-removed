@@ -762,6 +762,13 @@ audiochannel
 "
 [
 "
+browser_drawSnapshot_failure
+.
+js
+"
+]
+[
+"
 browser_error_registry
 .
 js

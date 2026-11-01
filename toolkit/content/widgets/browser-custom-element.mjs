@@ -9956,6 +9956,7 @@ h
 try
 {
 return
+await
 this
 .
 browsingContext
