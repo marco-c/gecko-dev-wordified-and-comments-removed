@@ -59,6 +59,8 @@ rewrite_mozbuild
 import
 (
     
+MozBuildFileNotListedException
+    
 MozBuildRewriteException
     
 add_file_to_moz_build_file
@@ -6578,6 +6580,43 @@ remove_file_from_moz_build_file
 f
 moz_yaml_dir
 vendoring_dir
+)
+            
+except
+MozBuildFileNotListedException
+:
+                
+self
+.
+logInfo
+(
+                    
+{
+"
+f
+"
+:
+f
+}
+                    
+"
+{
+f
+}
+is
+not
+listed
+in
+any
+moz
+.
+build
+file
+nothing
+to
+remove
+"
+                
 )
             
 except
