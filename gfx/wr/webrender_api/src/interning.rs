@@ -1590,6 +1590,15 @@ interned_prims
 :
 :
 BoxShadowKey
+line_decorations
+:
+crate
+:
+:
+interned_prims
+:
+:
+LineDecorationKey
 }
 }
 }

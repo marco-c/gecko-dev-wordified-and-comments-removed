@@ -1673,7 +1673,7 @@ PrimitiveKind
 :
 LineDecoration
 {
-data_handle
+handle
 }
 =
 >
@@ -1693,12 +1693,12 @@ let
 prim_data
 =
 &
-data_stores
+dl_stores
 .
-line_decoration
+line_decorations
 [
 *
-data_handle
+handle
 ]
 ;
 let
