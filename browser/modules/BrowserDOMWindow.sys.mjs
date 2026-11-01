@@ -761,6 +761,17 @@ if
 aIsExternal
 &
 &
+aWhere
+!
+=
+=
+Ci
+.
+nsIBrowserDOMWindow
+.
+OPEN_NEWTAB_BACKGROUND
+&
+&
 (
 !
 aURI
