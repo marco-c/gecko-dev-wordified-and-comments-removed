@@ -24424,6 +24424,10 @@ pc_test_utils
 "
 "
 :
+rtp_receiver_proxy
+"
+"
+:
 rtp_sender
 "
 "

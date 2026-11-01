@@ -277,7 +277,7 @@ scoped_refptr
 FrameTransformerInterface
 >
 )
-PROXY_METHOD1
+PROXY_METHOD2
 (
 RTCErrorOr
 <
@@ -288,6 +288,7 @@ SframeDecryptorInterface
 >
 CreateSframeDecryptorOrError
 SframeCipherSuite
+SframeDecryptErrorCallback
 )
 END_PROXY_MAP
 (
