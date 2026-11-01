@@ -6564,6 +6564,17 @@ event
 .
 detail
 ;
+let
+entrypoint
+=
+window
+.
+gMainPane
+.
+getMigrationEntrypointFromURL
+(
+)
+;
 if
 (
 subcategory
@@ -6580,6 +6591,9 @@ gMainPane
 .
 showMigrationWizardDialog
 (
+{
+entrypoint
+}
 )
 ;
 }
@@ -6606,6 +6620,7 @@ showMigrationWizardDialog
 closeTabWhenDone
 :
 true
+entrypoint
 }
 )
 ;

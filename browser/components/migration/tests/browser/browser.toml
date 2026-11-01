@@ -178,6 +178,13 @@ js
 ]
 [
 "
+browser_resource_migrated_telemetry
+.
+js
+"
+]
+[
+"
 browser_safari_passwords
 .
 js
