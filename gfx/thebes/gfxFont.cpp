@@ -5683,7 +5683,7 @@ anAAOption
 )
 mIsValid
 (
-true
+false
 )
 mApplySyntheticBold
 (
@@ -23592,10 +23592,6 @@ InitMetricsFromSfntTables
 (
 )
 {
-mIsValid
-=
-false
-;
 const
 uint32_t
 kHheaTableTag
@@ -24112,10 +24108,6 @@ InitMetricsFromSkrifa
 (
 )
 {
-mIsValid
-=
-false
-;
 const
 auto
 *

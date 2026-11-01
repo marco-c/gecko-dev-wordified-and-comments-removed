@@ -266,10 +266,6 @@ if
 baseFont
 )
 {
-mIsValid
-=
-false
-;
 return
 ;
 }
@@ -694,10 +690,6 @@ if
 mCGFont
 )
 {
-mIsValid
-=
-false
-;
 return
 ;
 }
@@ -1245,10 +1237,6 @@ InitMetrics
 (
 )
 {
-mIsValid
-=
-false
-;
 uint32_t
 upem
 =
