@@ -8887,6 +8887,12 @@ SurfaceDescriptor
 new_tiled
 (
 surface_render_tasks
+Vec
+:
+:
+new
+(
+)
 )
 ;
 frame_state
