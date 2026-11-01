@@ -30001,9 +30001,6 @@ glean
 libc
 "
 "
-log
-"
-"
 neqo
 -
 common
@@ -30055,6 +30052,9 @@ static_prefs
 thin
 -
 vec
+"
+"
+tracing
 "
 "
 uuid
