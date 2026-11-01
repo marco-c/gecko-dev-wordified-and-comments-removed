@@ -1226,6 +1226,8 @@ string
 !
 -
 -
+Private
+Browsing
 Text
 to
 be
@@ -2391,8 +2393,6 @@ string
 !
 -
 -
-Browser
-Fragment
 Content
 description
 (
@@ -10606,6 +10606,7 @@ string
 !
 -
 -
+Preferences
 Preference
 category
 for

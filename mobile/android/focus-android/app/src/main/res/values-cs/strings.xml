@@ -1276,6 +1276,7 @@ ignore
 =
 "
 BrandUsage
+UnusedResources
 "
 >
 Vyhledat
@@ -7930,7 +7931,6 @@ n
 pomoc
 USB
 /
-/
 Wi
 -
 Fi
@@ -9816,7 +9816,6 @@ nit
 v
 sti
 Nastaven
--
 >
 Soukrom
 a
