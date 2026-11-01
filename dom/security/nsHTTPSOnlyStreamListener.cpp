@@ -202,7 +202,7 @@ TopWindowContext
 )
 -
 >
-AddSecurityState
+ApplySecurityStateToTop
 (
 nsIWebProgressListener
 :
@@ -393,7 +393,7 @@ TopWindowContext
 )
 -
 >
-AddSecurityState
+ApplySecurityStateToTop
 (
 nsIWebProgressListener
 :

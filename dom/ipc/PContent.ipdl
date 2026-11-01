@@ -7270,15 +7270,6 @@ StructuredCloneData
 retval
 )
 ;
-async
-AddSecurityState
-(
-MaybeDiscardedWindowContext
-aContext
-uint32_t
-aStateFlags
-)
-;
 /
 /
 Creates
