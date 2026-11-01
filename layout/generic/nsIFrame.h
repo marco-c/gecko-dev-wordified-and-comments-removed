@@ -5912,16 +5912,7 @@ GetCaretBaseline
 (
 )
 const
-{
-return
-GetLogicalBaseline
-(
-GetWritingMode
-(
-)
-)
 ;
-}
 nscoord
 GetFontMetricsDerivedCaretBaseline
 (
