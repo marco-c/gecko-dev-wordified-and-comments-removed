@@ -772,7 +772,7 @@ R
 .
 string
 .
-pdf_tools_sign_content_description
+pdf_tools_sign_content_description_2
 testTag
 =
 PdfToolsTestTag
@@ -1191,7 +1191,7 @@ R
 .
 string
 .
-pdf_tools_sign_content_description
+pdf_tools_sign_content_description_2
 testTag
 =
 PdfToolsTestTag

@@ -75259,11 +75259,12 @@ string
 name
 =
 "
-pdf_tools_sign_content_description
+pdf_tools_sign_content_description_2
 "
 >
-Sign
-PDF
+Add
+a
+signature
 <
 /
 string
