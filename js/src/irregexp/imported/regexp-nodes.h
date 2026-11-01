@@ -40,6 +40,9 @@ class
 BoyerMooreLookahead
 ;
 class
+Capture
+;
+class
 Compiler
 ;
 class
@@ -520,6 +523,7 @@ from_not_start
 }
 ;
 class
+V8_NODISCARD
 EmitResult
 final
 {
@@ -1109,6 +1113,7 @@ LimitResult
 {
 DONE
 CONTINUE
+FAILED
 }
 ;
 Node
@@ -1364,6 +1369,10 @@ Node
 on_success
 Flags
 flags
+const
+Capture
+*
+capture
 )
 ;
 static
@@ -1560,6 +1569,12 @@ return
 action_type_
 ;
 }
+bool
+stores_backreferenced_capture
+(
+)
+const
+;
 int
 FixedLengthLoopLength
 (
@@ -1901,6 +1916,11 @@ register_to
 ;
 int
 value
+;
+const
+Capture
+*
+capture
 ;
 }
 u_simple

@@ -115,9 +115,6 @@ FreeAndInvalidate
 )
 ;
 }
-#
-ifndef
-COMPILING_IRREGEXP_FOR_EXTERNAL_EMBEDDER
 Stack
 *
 Stack
@@ -300,8 +297,6 @@ instance
 #
 endif
 }
-#
-endif
 char
 *
 Stack

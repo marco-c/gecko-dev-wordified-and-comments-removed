@@ -21,6 +21,11 @@ h
 "
 #
 include
+<
+bit
+>
+#
+include
 "
 irregexp
 /
@@ -349,13 +354,10 @@ kMaxBufferGrowthInBytes
 {
 size
 =
-base
+std
 :
 :
-bits
-:
-:
-RoundUpToPowerOfTwo
+bit_ceil
 (
 required_size
 )
