@@ -1871,7 +1871,7 @@ Ref
 (
 )
 ;
-sendStreamReconfigureNeeded
+sendStreamRecreationNeeded
 =
 true
 ;
