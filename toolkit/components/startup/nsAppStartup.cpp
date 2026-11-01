@@ -4312,6 +4312,10 @@ XRE_PROFILE_PATH
 if
 (
 xreProfilePath
+&
+&
+*
+xreProfilePath
 )
 {
 GetAutomaticSafeModeNecessary
