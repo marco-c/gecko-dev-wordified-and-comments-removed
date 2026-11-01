@@ -114,6 +114,10 @@ mIsCurrentLineAdjacentToBStart
 (
 false
 )
+mShouldTrimInheritedBEndMargins
+(
+false
+)
 {
 }
 bool
@@ -168,6 +172,11 @@ mShouldApplyTextBoxTrimAtFragmentEnd
 ;
 bool
 mIsCurrentLineAdjacentToBStart
+:
+1
+;
+bool
+mShouldTrimInheritedBEndMargins
 :
 1
 ;
@@ -231,6 +240,12 @@ aIsAdjacentToBStart
 ;
 bool
 ShouldTrimChildBStartMargins
+(
+)
+const
+;
+bool
+ShouldTrimChildBEndMargins
 (
 )
 const
