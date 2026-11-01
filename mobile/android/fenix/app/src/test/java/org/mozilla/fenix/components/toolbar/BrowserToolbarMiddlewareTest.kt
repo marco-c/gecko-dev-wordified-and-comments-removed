@@ -17934,6 +17934,8 @@ uses
 the
 audio
 icon
+and
+description
 (
 )
 {
@@ -18013,7 +18015,7 @@ R
 .
 string
 .
-browser_menu_read
+browser_menu_read_or_listen
 result
 .
 contentDescription

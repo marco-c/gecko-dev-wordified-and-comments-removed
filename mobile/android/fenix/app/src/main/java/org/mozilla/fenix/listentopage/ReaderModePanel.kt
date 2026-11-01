@@ -323,7 +323,7 @@ R
 .
 string
 .
-reader_mode_panel_content_description
+reader_mode_panel_content_description_2
 )
 FloatingPanel
 (
