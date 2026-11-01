@@ -692,6 +692,13 @@ temporal
 "
 suggest
 .
+quicksuggest
+.
+all
+"
+"
+suggest
+.
 searches
 "
 "
