@@ -261,16 +261,6 @@ QueryHttpTransaction
 override
 ;
 bool
-IsHappyEyeballsTransaction
-(
-)
-override
-{
-return
-true
-;
-}
-bool
 AllowedToConnectToIpAddressSpace
 (
 nsILoadInfo

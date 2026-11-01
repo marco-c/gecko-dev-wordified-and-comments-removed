@@ -3819,16 +3819,6 @@ GetFallbackConnection
 )
 ;
 clone
--
->
-SetHappyEyeballsEnabled
-(
-GetHappyEyeballsEnabled
-(
-)
-)
-;
-clone
 .
 forget
 (
