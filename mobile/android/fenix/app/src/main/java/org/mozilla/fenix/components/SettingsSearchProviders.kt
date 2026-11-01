@@ -131,6 +131,18 @@ fenix
 .
 settings
 .
+search
+.
+GoogleLensSettingsSearchProvider
+import
+org
+.
+mozilla
+.
+fenix
+.
+settings
+.
 settingssearch
 .
 SettingsSearchProvider
@@ -308,4 +320,5 @@ FirefoxLabsSettingsSearchProvider
 (
 )
 ToolbarShortcutSettingsSearchProvider
+GoogleLensSettingsSearchProvider
 )
