@@ -844,7 +844,7 @@ UpdateMediaSessionInterruptToContentMediaIfNeeded
 AudioFocusInterruptAction
 :
 :
-Suspend
+SuspendPermanently
 )
 ;
 return

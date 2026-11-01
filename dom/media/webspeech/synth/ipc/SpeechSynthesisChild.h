@@ -11,6 +11,17 @@ mozilla
 /
 dom
 /
+AudioFocusInterrupt
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 PSpeechSynthesisChild
 .
 h
@@ -481,6 +492,8 @@ override
 void
 PauseFromMediaControl
 (
+AudioSessionInterruptKind
+aKind
 )
 ;
 void

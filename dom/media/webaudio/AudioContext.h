@@ -793,6 +793,11 @@ ResumeFromMediaControl
 )
 ;
 void
+TransferSuspendToContent
+(
+)
+;
+void
 OfflineClose
 (
 )
