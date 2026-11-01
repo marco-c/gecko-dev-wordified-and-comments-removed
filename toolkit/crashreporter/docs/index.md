@@ -2154,8 +2154,6 @@ well
 .
 A
 utility
-or
-socket
 process
 crash
 only

@@ -803,18 +803,6 @@ Main
 =
 >
 |
-PSocketProcess
-|
-Socket
-(
-Network
-Socket
-)
-Main
-=
-=
->
-|
 PGMP
 |
 GMP
@@ -7577,7 +7565,7 @@ of
 process
 types
 like
-ALLOW_IN_GPU_RDD_VR_SOCKET_UTILITY_AND_DEMO_PROCESS
+ALLOW_IN_GPU_RDD_VR_UTILITY_AND_DEMO_PROCESS
 to
 the
 ProcessSelector

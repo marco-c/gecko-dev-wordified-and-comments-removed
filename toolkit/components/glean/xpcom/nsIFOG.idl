@@ -1033,9 +1033,8 @@ instrumentation
 on
 the
 GPU
-RDD
 or
-Socket
+RDD
 process
 .
 *

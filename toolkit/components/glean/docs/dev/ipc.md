@@ -1435,13 +1435,6 @@ via
 PRDD
 )
 *
-socket
-children
-(
-via
-PSocketProcess
-)
-*
 utility
 children
 (
