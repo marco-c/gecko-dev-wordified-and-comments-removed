@@ -1,4 +1,6 @@
 import
+gc
+import
 os
 import
 re
@@ -1574,6 +1576,12 @@ sys
 exit
 (
 1
+)
+        
+gc
+.
+freeze
+(
 )
         
 key
