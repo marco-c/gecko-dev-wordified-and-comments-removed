@@ -1283,7 +1283,7 @@ send
 =
 send
 )
-dismiss
+dismissAllowingStateLoss
 (
 )
 }
