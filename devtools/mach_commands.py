@@ -239,34 +239,30 @@ artifact
             
 cmd
 .
-append
+extend
 (
-f
+[
 "
 -
 -
 artifact
-=
-{
-artifact
-}
 "
+artifact
+]
 )
         
 cmd
 .
-append
+extend
 (
-f
+[
 "
 -
 -
 suite
-=
-{
-suite
-}
 "
+suite
+]
 )
         
 print
