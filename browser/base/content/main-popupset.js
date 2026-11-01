@@ -3059,7 +3059,7 @@ document
 getElementById
 (
 "
-context_addTabToGroup
+context_moveTabOptions
 "
 )
 ]
@@ -3087,18 +3087,6 @@ id
 =
 "
 context_moveTabToGroupNewGroup
-"
-|
-|
-event
-.
-target
-.
-id
-=
-=
-"
-context_addTabToGroupNewGroup
 "
 )
 {

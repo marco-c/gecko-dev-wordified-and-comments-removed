@@ -2436,13 +2436,7 @@ undoCloseTab
 {
 tabCount
 :
-Math
-.
-max
-(
 closedCount
-1
-)
 }
 )
 ;
