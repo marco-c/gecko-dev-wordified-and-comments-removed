@@ -1857,7 +1857,7 @@ Run
 )
 override
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 NS_IsMainThread
 (
@@ -2175,7 +2175,7 @@ Run
 )
 override
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 NS_IsMainThread
 (
@@ -2674,7 +2674,7 @@ ContentDeviceData
 aData
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 XRE_IsContentProcess
 (
@@ -4320,14 +4320,14 @@ bool
 aAnonymize
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 XRE_IsParentProcess
 (
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 NS_IsMainThread
 (
@@ -11060,7 +11060,7 @@ GlobalReflowFlags
 aFlags
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 NS_IsMainThread
 (
@@ -11925,7 +11925,7 @@ void
 *
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 XRE_IsParentProcess
 (
@@ -11960,7 +11960,7 @@ void
 *
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 XRE_IsParentProcess
 (
@@ -12028,7 +12028,7 @@ InitCompositorAccelerationPrefs
 (
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 NS_IsMainThread
 (
@@ -18141,7 +18141,7 @@ init
 "
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 XRE_IsParentProcess
 (
@@ -22189,7 +22189,7 @@ ImportCachedContentDeviceData
 (
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 XRE_IsContentProcess
 (
@@ -22234,7 +22234,7 @@ ContentDeviceData
 aData
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 XRE_IsContentProcess
 (
@@ -22301,7 +22301,7 @@ ContentDeviceData
 aOut
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 XRE_IsParentProcess
 (
@@ -22371,7 +22371,7 @@ GPUDeviceData
 aData
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 XRE_IsParentProcess
 (

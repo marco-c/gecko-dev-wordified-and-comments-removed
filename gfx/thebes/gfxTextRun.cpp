@@ -10986,7 +10986,7 @@ gfxFontGroup
 (
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 Servo_IsWorkerThread

@@ -2504,7 +2504,7 @@ LoadCanceled
 (
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 NS_IsMainThread
 (
@@ -2714,7 +2714,7 @@ nsFontFaceLoader
 aLoader
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 NS_IsMainThread
 (
@@ -2733,7 +2733,7 @@ GetLoader
 )
 const
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 NS_IsMainThread
 (

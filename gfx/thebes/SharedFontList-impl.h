@@ -773,7 +773,7 @@ aShmem
 )
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 XRE_IsParentProcess
@@ -805,7 +805,7 @@ aShmem
 )
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 XRE_IsParentProcess
 (
@@ -867,7 +867,7 @@ uint32_t
 aSize
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 XRE_IsParentProcess
 (
@@ -901,7 +901,7 @@ BlockSize
 )
 const
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 XRE_IsParentProcess
 (

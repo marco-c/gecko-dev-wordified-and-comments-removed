@@ -3767,7 +3767,7 @@ mVsyncEnabled
 false
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 NS_IsMainThread
 (
@@ -3781,7 +3781,7 @@ GtkVsyncSource
 (
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 NS_IsMainThread
 (
@@ -3800,7 +3800,7 @@ lock
 mSetupLock
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 NS_IsMainThread
 (
@@ -3881,7 +3881,7 @@ lock
 mSetupLock
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 NS_IsMainThread
@@ -4071,7 +4071,7 @@ EnableVsync
 )
 override
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 NS_IsMainThread
 (
@@ -4199,7 +4199,7 @@ Shutdown
 )
 override
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 NS_IsMainThread
 (
@@ -4262,7 +4262,7 @@ RunVsync
 (
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 NS_IsMainThread
@@ -4512,7 +4512,7 @@ Cleanup
 (
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 NS_IsMainThread
@@ -4598,7 +4598,7 @@ ComputeVsyncRate
 )
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 NS_IsMainThread
 (
