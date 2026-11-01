@@ -24,6 +24,8 @@ preferences
 tests
 /
 head
+-
+common
 .
 js
 "
@@ -40,14 +42,8 @@ options
 return
 openPreferencesViaOpenPreferencesAPI
 (
-SRD_PREF_VALUE
-?
 "
 panePermissionsData
-"
-:
-"
-panePrivacy
 "
 options
 )
