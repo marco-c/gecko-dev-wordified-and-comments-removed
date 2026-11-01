@@ -3048,7 +3048,6 @@ StreamJITFrame
 (
 JSContext
 *
-aContext
 SpliceableJSONWriter
 &
 aWriter
@@ -9633,7 +9632,6 @@ TimeStamp
 &
 aProcessStartTime
 double
-aSinceTime
 UniqueStacks
 &
 aUniqueStacks
@@ -9641,7 +9639,6 @@ mozilla
 :
 :
 ProgressLogger
-aProgressLogger
 )
 const
 {
@@ -9939,7 +9936,6 @@ aWriter
 const
 TimeStamp
 &
-aProcessStartTime
 double
 aSinceTime
 mozilla
@@ -10904,7 +10900,6 @@ aWriter
 const
 TimeStamp
 &
-aProcessStartTime
 double
 aSinceTime
 mozilla
@@ -12070,7 +12065,6 @@ SpliceableJSONWriter
 &
 aWriter
 double
-aSinceTime
 mozilla
 :
 :

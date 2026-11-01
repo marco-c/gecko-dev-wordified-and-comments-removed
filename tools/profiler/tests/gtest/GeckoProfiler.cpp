@@ -6122,7 +6122,6 @@ TRy
 :
 :
 OffThreadRef
-aOffThreadRef
 )
 {
 +
@@ -6156,7 +6155,6 @@ TRy
 :
 :
 OffThreadRef
-aOffThreadRef
 )
 {
 +
@@ -6528,7 +6526,6 @@ TRy
 :
 :
 OffThreadRef
-aOffThreadRef
 )
 {
 if
@@ -12951,7 +12948,6 @@ net
 :
 :
 ClassOfService
-s
 )
 override
 {
@@ -28570,7 +28566,6 @@ CollectNativeLeafAddr
 (
 void
 *
-aAddr
 )
 {
 mFrames
@@ -28584,7 +28579,6 @@ CollectJitReturnAddr
 (
 void
 *
-aAddr
 )
 {
 mFrames
@@ -28600,13 +28594,10 @@ JS
 :
 :
 ProfilingCategoryPair
-aCategory
 const
 char
 *
-aLabel
 uint32_t
-aSourceId
 )
 {
 mFrames
@@ -28624,7 +28615,6 @@ js
 :
 ProfilingStackFrame
 &
-aFrame
 )
 {
 mFrames

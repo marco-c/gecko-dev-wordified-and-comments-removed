@@ -1533,7 +1533,6 @@ Ehdr
 elf_header
 const
 bool
-read_gnu_debug_link
 LoadSymbolsInfo
 <
 ElfClass
@@ -1547,7 +1546,6 @@ void
 *
 rx_avma
 size_t
-rx_size
 UniqueStringUniverse
 *
 usu

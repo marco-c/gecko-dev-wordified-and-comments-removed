@@ -3440,7 +3440,6 @@ void
 Create
 (
 PSLockRef
-aLock
 )
 {
 MOZ_ASSERT
@@ -3462,7 +3461,6 @@ void
 Destroy
 (
 PSLockRef
-aLock
 )
 {
 MOZ_ASSERT
@@ -4695,7 +4693,6 @@ AdjustFeatures
 uint32_t
 aFeatures
 uint32_t
-aFilterCount
 )
 {
 aFeatures
@@ -6311,7 +6308,6 @@ void
 WriteActiveConfiguration
 (
 PSLockRef
-aLock
 JSONWriter
 &
 aWriter
@@ -8135,7 +8131,6 @@ void
 AddBaseProfileThreads
 (
 PSLockRef
-aLock
 UniquePtr
 <
 char
@@ -8422,6 +8417,11 @@ UniquePtr
 BaseProfilerCount
 >
 aMemoryCounter
+[
+[
+maybe_unused
+]
+]
 PSLockRef
 aLock
 )
@@ -8453,6 +8453,11 @@ const
 BaseProfilerCount
 *
 aMemoryCounter
+[
+[
+maybe_unused
+]
+]
 PSLockRef
 aLock
 )
@@ -11198,6 +11203,11 @@ static
 void
 StackWalkCallback
 (
+[
+[
+maybe_unused
+]
+]
 uint32_t
 aFrameNumber
 void
@@ -25958,7 +25968,6 @@ nsISupports
 *
 aData
 bool
-aAnonymize
 )
 {
 MOZ_RELEASE_ASSERT
@@ -27112,13 +27121,10 @@ void
 profiler_start_signal_handler
 (
 int
-signal
 siginfo_t
 *
-info
 void
 *
-context
 )
 {
 if
@@ -27161,13 +27167,10 @@ void
 profiler_stop_signal_handler
 (
 int
-signal
 siginfo_t
 *
-info
 void
 *
-context
 )
 {
 if
@@ -27695,7 +27698,6 @@ __func__
 ]
 (
 void_t
-ok
 )
 {
 LOG
@@ -27817,7 +27819,6 @@ __func__
 ]
 (
 void_t
-ok
 )
 {
 LOG
@@ -38499,6 +38500,11 @@ aThreadData
 JsFrame
 *
 aJsFrames
+[
+[
+maybe_unused
+]
+]
 uint32_t
 aFeatures
 ProfilerStackCollector
@@ -38555,6 +38561,11 @@ const
 Registers
 &
 aRegs
+[
+[
+maybe_unused
+]
+]
 const
 TimeStamp
 &

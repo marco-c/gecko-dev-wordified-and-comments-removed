@@ -2166,13 +2166,10 @@ void
 SigAlrmHandler
 (
 int
-aSigNum
 siginfo_t
 *
-aInfo
 void
 *
-aContext
 )
 {
 static
@@ -2818,13 +2815,10 @@ void
 SigIntHandler
 (
 int
-aSigNum
 siginfo_t
 *
-aInfo
 void
 *
-aContext
 )
 {
 Finish

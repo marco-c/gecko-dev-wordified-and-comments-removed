@@ -174,7 +174,6 @@ UniqueStacks
 aUniqueStacks
 JSContext
 *
-aCx
 SpliceableJSONWriter
 &
 aWriter
@@ -187,7 +186,6 @@ mozilla
 :
 TimeStamp
 &
-aProcessStartTime
 mozilla
 :
 :
@@ -982,7 +980,6 @@ TimeStamp
 aProcessStartTime
 ProfilerCodeAddressService
 *
-aService
 mozilla
 :
 :
@@ -1952,7 +1949,6 @@ mozilla
 :
 :
 ProgressLogger
-aSubProgressLogger
 )
 {
 aWriter
@@ -1990,7 +1986,6 @@ mozilla
 :
 :
 ProgressLogger
-aSubProgressLogger
 )
 {
 aWriter
@@ -2025,7 +2020,6 @@ mozilla
 :
 TimeStamp
 &
-aProcessStartTime
 ProfileBuffer
 &
 aBuffer

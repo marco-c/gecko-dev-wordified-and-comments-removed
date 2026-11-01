@@ -3865,7 +3865,6 @@ ipc
 :
 :
 ResponseRejectReason
-aReason
 )
 {
 ProfilerParentTracker
@@ -4711,7 +4710,6 @@ ProfilerParent
 ActorDestroy
 (
 ActorDestroyReason
-aActorDestroyReason
 )
 {
 MOZ_RELEASE_ASSERT
