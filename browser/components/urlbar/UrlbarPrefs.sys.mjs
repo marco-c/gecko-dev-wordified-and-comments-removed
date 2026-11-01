@@ -5545,12 +5545,12 @@ search
 suggestions
 are
 enabled
-and
-suggest
+(
+see
+TemporalSuggestions
 .
-temporal
-is
-true
+isEnabled
+)
 .
 A
 user
