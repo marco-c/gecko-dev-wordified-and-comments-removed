@@ -147,9 +147,6 @@ stats
 dictionary
 WebTransportSendStreamStats
 {
-DOMHighResTimeStamp
-timestamp
-;
 unsigned
 long
 long
@@ -245,9 +242,6 @@ stats
 dictionary
 WebTransportReceiveStreamStats
 {
-DOMHighResTimeStamp
-timestamp
-;
 unsigned
 long
 long
