@@ -759,6 +759,7 @@ remote_tab
 addon
 general
 suggest
+temporal
 about_page
 suggested_index
 restrict_keyword
@@ -877,6 +878,7 @@ rust_exposure
 rust_important_dates
 rust_market_opt_in
 rust_mdn
+rust_temporal
 rust_yelp
 search_engine
 search_history
@@ -3648,6 +3650,7 @@ rust_exposure
 rust_important_dates
 rust_market_opt_in
 rust_mdn
+rust_temporal
 rust_yelp
 search_engine
 search_history
@@ -4064,6 +4067,7 @@ remote_tab
 addon
 general
 suggest
+temporal
 about_page
 suggested_index
 restrict_keyword
@@ -4199,6 +4203,7 @@ rust_exposure
 rust_important_dates
 rust_market_opt_in
 rust_mdn
+rust_temporal
 rust_yelp
 search_engine
 search_history

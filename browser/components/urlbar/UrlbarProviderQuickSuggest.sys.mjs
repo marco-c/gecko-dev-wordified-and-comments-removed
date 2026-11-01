@@ -2788,6 +2788,13 @@ feature
 did
 it
 already
+or
+assigned
+the
+result
+to
+a
+group
 .
 if
 (
@@ -2795,6 +2802,12 @@ if
 result
 .
 hasSuggestedIndex
+&
+&
+!
+result
+.
+group
 )
 {
 if
