@@ -55,6 +55,13 @@ html
 ]
 [
 "
+test_tabbox
+.
+xhtml
+"
+]
+[
+"
 test_tabbrowser
 .
 xhtml
