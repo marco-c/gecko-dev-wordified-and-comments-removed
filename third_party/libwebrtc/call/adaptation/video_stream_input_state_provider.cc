@@ -161,7 +161,9 @@ VideoStreamInputStateProvider
 :
 OnEncoderSettingsChanged
 (
+const
 EncoderSettings
+&
 encoder_settings
 )
 {

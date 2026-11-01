@@ -93,7 +93,9 @@ frame_size_pixels
 void
 OnEncoderSettingsChanged
 (
+const
 EncoderSettings
+&
 encoder_settings
 )
 ;
