@@ -148,11 +148,6 @@ TestMoz2D
 cpp
 "
 "
-TestNVImage
-.
-cpp
-"
-"
 TestPlanarYCbCrImage
 .
 cpp
