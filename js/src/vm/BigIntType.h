@@ -2765,14 +2765,14 @@ quotientNegative
 ;
 static
 void
-multiplyAccumulateDigits
+multiplyDigits
 (
 ConstDigits
 multiplicand
 Digit
 multiplier
 Digits
-acc
+product
 )
 ;
 static
