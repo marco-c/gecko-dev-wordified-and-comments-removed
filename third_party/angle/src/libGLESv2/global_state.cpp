@@ -176,7 +176,7 @@ ASSERT
 thread
 )
 ;
-ANGLE_SCOPED_GLOBAL_EGL_AND_EGL_SYNC_LOCK
+ANGLE_SCOPED_GLOBAL_LOCK
 (
 )
 ;
@@ -504,6 +504,7 @@ thread
 }
 #
 else
+constinit
 thread_local
 Thread
 *
