@@ -1499,6 +1499,13 @@ js
 ]
 [
 "
+browser_tab_groups_restore_unknown_group_id
+.
+js
+"
+]
+[
+"
 browser_tab_groups_save_on_removeAllTabsBut
 .
 js
