@@ -1572,6 +1572,15 @@ interned_prims
 :
 :
 RectangleKey
+path
+:
+crate
+:
+:
+path
+:
+:
+Path
 }
 }
 }
