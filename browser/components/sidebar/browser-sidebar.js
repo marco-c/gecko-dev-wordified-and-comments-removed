@@ -11231,6 +11231,10 @@ async
 _maybeAnimate
 (
 callback
+types
+=
+[
+]
 )
 {
 if
@@ -11271,6 +11275,7 @@ this
 _startViewTransition
 (
 callback
+types
 )
 ;
 this
@@ -11311,6 +11316,7 @@ async
 _startViewTransition
 (
 callback
+types
 )
 {
 await
@@ -11368,6 +11374,10 @@ document
 .
 startViewTransition
 (
+{
+types
+update
+:
 async
 (
 )
@@ -11702,6 +11712,7 @@ sidebarMain
 updateComplete
 ;
 }
+}
 )
 ;
 this
@@ -12001,6 +12012,15 @@ launcherExpanded
 true
 ;
 }
+[
+"
+expand
+-
+on
+-
+hover
+"
+]
 )
 ;
 this
@@ -12104,6 +12124,15 @@ launcherExpanded
 false
 ;
 }
+[
+"
+expand
+-
+on
+-
+hover
+"
+]
 )
 ;
 }
