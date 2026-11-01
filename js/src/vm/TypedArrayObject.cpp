@@ -21803,7 +21803,7 @@ ResizableTypedArrayObject
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 start
 >
@@ -21811,7 +21811,7 @@ start
 0
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 length
 >
@@ -21819,12 +21819,15 @@ length
 0
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 size_t
 (
 start
+)
 +
+size_t
+(
 length
 )
 <
@@ -22067,7 +22070,7 @@ intptr_t
 length
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 obj
@@ -22081,7 +22084,7 @@ ResizableTypedArrayObject
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 start
 >
@@ -22089,7 +22092,7 @@ start
 0
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 length
 >

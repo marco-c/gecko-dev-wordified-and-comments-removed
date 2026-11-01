@@ -1534,6 +1534,17 @@ return
 true
 ;
 }
+MOZ_RELEASE_ASSERT
+(
+!
+shape
+-
+>
+isDictionary
+(
+)
+)
+;
 for
 (
 MUseIterator
