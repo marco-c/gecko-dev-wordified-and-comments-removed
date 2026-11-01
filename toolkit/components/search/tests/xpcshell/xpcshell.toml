@@ -433,13 +433,6 @@ js
 ]
 [
 "
-test_hideOneOffButton
-.
-js
-"
-]
-[
-"
 test_identifiers
 .
 js
@@ -1194,13 +1187,6 @@ js
 [
 "
 test_settings_migrate_id_format
-.
-js
-"
-]
-[
-"
-test_settings_migration_hideOneOffs
 .
 js
 "
