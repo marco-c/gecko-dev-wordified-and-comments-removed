@@ -85,11 +85,6 @@ MOZ_JS_UPLOAD_BINARIES_DEFAULT
 "
 run
 :
-clone
--
-with
-:
-hg
 tooltool
 -
 downloads
