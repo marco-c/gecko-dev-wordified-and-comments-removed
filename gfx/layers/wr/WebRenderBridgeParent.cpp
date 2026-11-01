@@ -3563,6 +3563,9 @@ lengthHint
 ;
 gfxOTSContext
 otsContext
+(
+true
+)
 ;
 if
 (
