@@ -138,6 +138,11 @@ TestHttp3ConnectUDPStream
 cpp
 "
 "
+TestHttp3WebTransportSession
+.
+cpp
+"
+"
 TestHttpAuthUtils
 .
 cpp
