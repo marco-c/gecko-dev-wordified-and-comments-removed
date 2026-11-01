@@ -9465,16 +9465,8 @@ GetSize
 )
 Rect
 (
-Point
+GetRect
 (
-0
-0
-)
-Size
-(
-GetSize
-(
-)
 )
 )
 )
