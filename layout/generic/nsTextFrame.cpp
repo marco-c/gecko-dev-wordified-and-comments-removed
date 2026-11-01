@@ -24596,6 +24596,12 @@ GetFontMetrics
 >
 InterScriptSpacingWidth
 (
+mTextStyle
+-
+>
+EffectiveTextAutospaceSize
+(
+)
 )
 )
 ;
