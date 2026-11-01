@@ -2834,6 +2834,13 @@ js
 ]
 [
 "
+browser_webconsole_stacktrace_location_javascript_protocol_link
+.
+js
+"
+]
+[
+"
 browser_webconsole_stacktrace_mapped_location_debugger_link
 .
 js
