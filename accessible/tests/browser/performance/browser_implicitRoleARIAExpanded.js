@@ -1127,9 +1127,9 @@ invokeContentTask
 (
 browser
 [
+LARGE_NODE_COUNT
 ]
-(
-)
+count
 =
 >
 {
@@ -1156,7 +1156,7 @@ c
 ;
 c
 <
-10000
+count
 ;
 +
 +

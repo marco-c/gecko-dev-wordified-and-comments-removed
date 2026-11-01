@@ -1101,11 +1101,6 @@ svg
 "
 ;
 const
-NUM_SHAPES
-=
-2000
-;
-const
 NUM_PAN_STEPS
 =
 20
@@ -1198,7 +1193,7 @@ info
 (
 Adding
 {
-NUM_SHAPES
+MEDIUM_NODE_COUNT
 }
 shapes
 to
@@ -1223,7 +1218,7 @@ invokeContentTask
 browser
 [
 NAMESPACE_URI
-NUM_SHAPES
+MEDIUM_NODE_COUNT
 SHAPES_PER_ROW
 COLUMN_WIDTH
 ROW_HEIGHT
