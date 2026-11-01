@@ -441,11 +441,13 @@ painter
 =
 painterResource
 (
+id
+=
 R
 .
 drawable
 .
-mozac_ic_kit_tab_groups
+mozac_ic_kit_tab_groups_list_view
 )
 contentDescription
 =
