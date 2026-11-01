@@ -1654,6 +1654,9 @@ defined
 (
 LINUX
 )
+(
+void
+)
 posix_fadvise
 (
 aFd
