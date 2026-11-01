@@ -1083,14 +1083,6 @@ GetVideoFrameContainer
 ;
 init
 .
-mKnowsCompositor
-=
-GetCompositor
-(
-)
-;
-init
-.
 mCrashHelper
 =
 GetOwner
