@@ -448,6 +448,8 @@ transparent
 #
 browserNotificationsPermissionExtensionContent
 #
+closedDeliveryDescription
+#
 permissionsDisableDescription
 {
 margin
@@ -459,6 +461,8 @@ start
 32px
 ;
 }
+#
+closedDeliveryDescription
 #
 permissionsDisableDescription
 {
@@ -476,6 +480,8 @@ deemphasized
 )
 ;
 }
+#
+closedDeliveryCheckbox
 #
 permissionsDisableCheckbox
 {
