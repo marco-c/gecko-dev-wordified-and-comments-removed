@@ -4122,9 +4122,6 @@ max_difference
 5
 num_differences
 :
-std
-:
-:
 usize
 :
 :
