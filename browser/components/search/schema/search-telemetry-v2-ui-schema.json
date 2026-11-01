@@ -61,6 +61,9 @@ nonAdsLinkQueryParamNames
 nonAdsLinkRegexps
 "
 "
+ignoredQueryParamNames
+"
+"
 shoppingTab
 "
 "
