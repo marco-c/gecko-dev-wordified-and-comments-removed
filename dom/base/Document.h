@@ -16067,6 +16067,12 @@ mPrototypeDocument
 nsWeakPtr
 mWeakSink
 ;
+nsCOMPtr
+<
+nsIContentSink
+>
+mRenderBlockedSink
+;
 uint32_t
 mUpdateNestLevel
 ;
