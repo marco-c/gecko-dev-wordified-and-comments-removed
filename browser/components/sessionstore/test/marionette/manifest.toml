@@ -113,13 +113,6 @@ py
 ]
 [
 "
-test_restore_counts
-.
-py
-"
-]
-[
-"
 test_restore_last_session_window_mismatch
 .
 py
