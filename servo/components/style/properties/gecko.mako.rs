@@ -8625,6 +8625,14 @@ width
 "
 color
 "
+"
+-
+x
+-
+text
+-
+scale
+"
 ]
 TO_TEST
 =
