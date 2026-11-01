@@ -9631,6 +9631,8 @@ GetAndResetAcquireFence
 uint8_t
 *
 srcBuf
+=
+nullptr
 ;
 res
 =
@@ -9664,8 +9666,6 @@ srcBuf
 if
 (
 res
-<
-0
 )
 {
 result
@@ -9731,6 +9731,11 @@ nullptr
 )
 ;
 }
+)
+;
+MOZ_RELEASE_ASSERT
+(
+srcBuf
 )
 ;
 uint8_t
