@@ -7482,6 +7482,9 @@ clip_tree_builder
 self
 .
 interners
+self
+.
+scene_stores
 )
 ;
 }
