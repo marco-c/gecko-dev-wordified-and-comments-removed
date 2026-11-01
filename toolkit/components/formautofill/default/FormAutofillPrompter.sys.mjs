@@ -11109,6 +11109,8 @@ capture
 -
 save
 -
+as
+-
 new
 -
 payment
@@ -11406,6 +11408,8 @@ card
 capture
 -
 save
+-
+as
 -
 new
 -
