@@ -101,13 +101,6 @@ log
 .
 4
 "
-memoffset
-=
-"
-0
-.
-9
-"
 thiserror
 =
 "

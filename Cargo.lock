@@ -27941,9 +27941,6 @@ dependencies
 =
 [
 "
-memoffset
-"
-"
 mozannotation_client
 "
 "
@@ -35237,9 +35234,6 @@ mach2
 6
 .
 0
-"
-"
-memoffset
 "
 "
 mozilla
