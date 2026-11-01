@@ -570,7 +570,9 @@ empty
 return
 false
 ;
+const
 auto
+&
 first
 =
 pings_since_last_response
@@ -3704,7 +3706,13 @@ dtls_stun_piggyback_callbacks_
 recv_data
 (
 piggyback_data
+std
+:
+:
+move
+(
 piggyback_acks
+)
 )
 ;
 }

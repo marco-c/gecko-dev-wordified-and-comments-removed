@@ -5059,7 +5059,9 @@ state_
 =
 STATE_READY
 ;
+const
 SocketAddress
+&
 related_address
 =
 stun_address
