@@ -63,6 +63,11 @@ TestContainerParser
 cpp
 "
 "
+TestExtractH265CodecDetails
+.
+cpp
+"
+"
 TestExtractVPXCodecDetails
 .
 cpp
