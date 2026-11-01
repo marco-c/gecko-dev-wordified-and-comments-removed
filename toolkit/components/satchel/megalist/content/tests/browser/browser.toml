@@ -96,6 +96,13 @@ js
 ]
 [
 "
+browser_passwords_per_device_sync
+.
+js
+"
+]
+[
+"
 browser_passwords_policy_disable_reveal
 .
 js
