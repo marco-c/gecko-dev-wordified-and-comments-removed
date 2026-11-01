@@ -1070,6 +1070,15 @@ suggestion
 result
 .
 value
+lowerCaseSuggestion
+:
+result
+.
+value
+.
+toLocaleLowerCase
+(
+)
 title
 :
 result
