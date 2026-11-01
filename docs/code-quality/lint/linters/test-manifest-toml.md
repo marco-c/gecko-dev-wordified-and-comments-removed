@@ -418,8 +418,6 @@ remote_async
 -
 snapshot
 -
-socketprocess_e10s
--
 swgl
 -
 trainhop

@@ -424,21 +424,21 @@ param
 "
 M
 -
-spi
+xorig
 "
             
 "
 Mochitests
 with
-socket
-process
-enabled
+cross
+-
+origin
 "
             
 id
 =
 "
-spi
+xorig
 variant
 "
         
@@ -452,7 +452,7 @@ param
 "
 M
 -
-spi
+xorig
 -
 nofis
 "
@@ -463,15 +463,15 @@ without
 fission
 enabled
 with
-socket
-process
-enabled
+cross
+-
+origin
 "
             
 id
 =
 "
-spi
+xorig
 and
 nofis
 variants
