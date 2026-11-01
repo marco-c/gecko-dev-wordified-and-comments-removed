@@ -19,15 +19,6 @@ no_std
 #
 !
 [
-recursion_limit
-=
-"
-256
-"
-]
-#
-!
-[
 cfg_attr
 (
 all

@@ -449,7 +449,6 @@ name
 as_ref
 (
 )
-&
 name
 register
 slot

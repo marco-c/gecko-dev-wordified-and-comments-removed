@@ -1619,10 +1619,9 @@ SL
 version
 :
 {
+sl_version
 }
 "
-&
-sl_version
 )
 ;
 if

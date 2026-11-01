@@ -319,13 +319,9 @@ self
 .
 owned
 .
-get
+get_unchecked
 (
 index
-)
-.
-unwrap_unchecked
-(
 )
 }
 }

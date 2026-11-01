@@ -4,6 +4,9 @@ diagnostic_debug
 mod
 diagnostic_display
 ;
+mod
+external_texture
+;
 pub
 mod
 predeclared
@@ -29,6 +32,16 @@ diagnostic_display
 :
 :
 DiagnosticDisplay
+;
+pub
+(
+crate
+)
+use
+external_texture
+:
+:
+ExternalTextureParameter
 ;
 pub
 use

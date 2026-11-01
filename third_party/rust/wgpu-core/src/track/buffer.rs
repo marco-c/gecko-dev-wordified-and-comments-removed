@@ -2840,10 +2840,6 @@ if
 let
 Some
 (
-&
-mut
-ref
-mut
 start_state
 )
 =

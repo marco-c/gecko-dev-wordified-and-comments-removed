@@ -323,6 +323,13 @@ webgpu
 "
 ipc
 /
+MappedRangeGuard
+.
+h
+"
+"
+ipc
+/
 WebGPUChild
 .
 h
@@ -346,6 +353,13 @@ UNIFIED_SOURCES
 +
 =
 [
+"
+ipc
+/
+MappedRangeGuard
+.
+cpp
+"
 "
 ipc
 /
