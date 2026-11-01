@@ -94,6 +94,10 @@ output_timeout
 =
 None
     
+cleanup_ran
+=
+False
+    
 def
 __init__
 (
@@ -309,6 +313,11 @@ not
 self
 .
 explicit_cleanup
+and
+not
+self
+.
+cleanup_ran
 :
             
 self
@@ -534,6 +543,12 @@ self
 output_timeout
 =
 outputTimeout
+        
+self
+.
+cleanup_ran
+=
+False
         
 cmd
 =
@@ -1421,6 +1436,12 @@ state
 "
 "
 "
+        
+self
+.
+cleanup_ran
+=
+True
         
 self
 .
