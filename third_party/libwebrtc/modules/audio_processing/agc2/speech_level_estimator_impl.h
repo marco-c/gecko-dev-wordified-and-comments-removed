@@ -124,14 +124,14 @@ is_confident_
 ;
 }
 bool
-IsBackgroundSpeaker
+IsTargetSpeakerActive
 (
 )
 const
 override
 {
 return
-false
+true
 ;
 }
 void

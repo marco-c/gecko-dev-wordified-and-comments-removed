@@ -79,7 +79,7 @@ const
 ;
 virtual
 bool
-IsBackgroundSpeaker
+IsTargetSpeakerActive
 (
 )
 const
