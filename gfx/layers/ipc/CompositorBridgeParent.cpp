@@ -7117,6 +7117,15 @@ UpdateWebRenderParameters
 gfxVars
 :
 :
+SetWebRenderPathAaSamplesListener
+(
+&
+UpdateWebRenderParameters
+)
+;
+gfxVars
+:
+:
 SetWebRenderProfilerUIListener
 (
 &
