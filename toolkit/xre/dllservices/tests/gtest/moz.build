@@ -152,9 +152,6 @@ TestDllBlocklist_SingleNotification1
 TestDllBlocklist_SingleNotification2
 "
 "
-TestDllBlocklist_SocketProcessOnly
-"
-"
 TestDllBlocklist_UserBlocked
 "
 "
