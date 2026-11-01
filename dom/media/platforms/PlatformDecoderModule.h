@@ -297,6 +297,7 @@ ErrorIfNoInitializationData
 DefaultPlaybackDeviceMono
 KeepOriginalPts
 Output8BitPerChannel
+AssertCanInstantiate
 SENTINEL
 )
 )
