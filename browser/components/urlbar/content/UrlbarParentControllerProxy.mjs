@@ -3029,6 +3029,7 @@ searchTerms
 where
 inBackground
 browserId
+searchData
 )
 {
 this
@@ -3053,6 +3054,7 @@ searchTerms
 where
 inBackground
 browserId
+searchData
 }
 )
 ;
