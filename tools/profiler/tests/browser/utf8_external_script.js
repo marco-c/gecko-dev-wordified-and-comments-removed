@@ -1,0 +1,13 @@
+function
+utf8ExternalFunction
+(
+)
+{
+return
+"
+n
+c
+d
+"
+;
+}

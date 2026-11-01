@@ -159,6 +159,16 @@ external_script
 .
 js
 "
+"
+page_with_utf8_external_js
+.
+html
+"
+"
+utf8_external_script
+.
+js
+"
 ]
 [
 "
