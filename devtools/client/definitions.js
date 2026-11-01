@@ -3490,7 +3490,6 @@ toolbox
 >
 {
 return
-(
 toolbox
 .
 target
@@ -3500,19 +3499,6 @@ hasActor
 "
 screenshotContent
 "
-)
-|
-|
-toolbox
-.
-target
-.
-hasActor
-(
-"
-screenshot
-"
-)
 )
 ;
 }
