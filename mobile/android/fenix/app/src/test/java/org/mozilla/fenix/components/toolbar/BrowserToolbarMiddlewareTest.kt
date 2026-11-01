@@ -18002,7 +18002,7 @@ iconsR
 .
 drawable
 .
-mozac_ic_reader_view_audio_24
+mozac_ic_reader_view_headphones_24
 result
 .
 drawableResId
@@ -18246,7 +18246,7 @@ iconsR
 .
 drawable
 .
-mozac_ic_reader_view_audio_fill_24
+mozac_ic_reader_view_headphones_fill_24
 result
 .
 drawableResId
