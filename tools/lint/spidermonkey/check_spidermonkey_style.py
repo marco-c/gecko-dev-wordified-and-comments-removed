@@ -441,6 +441,22 @@ h
 "
     
 "
+shell
+/
+DebugSessionHostSource
+.
+h
+"
+    
+"
+shell
+/
+DebugSessionSource
+.
+h
+"
+    
+"
 shellmoduleloader
 .
 out
