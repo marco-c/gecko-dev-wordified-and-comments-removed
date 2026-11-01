@@ -548,6 +548,15 @@ attribute
 WebTransportCongestionControl
 congestionControl
 ;
+[
+SameObject
+]
+readonly
+attribute
+Headers
+?
+responseHeaders
+;
 readonly
 attribute
 DOMString
