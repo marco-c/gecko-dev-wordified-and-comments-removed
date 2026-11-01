@@ -3497,6 +3497,12 @@ RTC_DCHECK_RUN_ON
 worker_thread_checker_
 )
 ;
+payload_type_frequencies_
+.
+clear
+(
+)
+;
 for
 (
 const
