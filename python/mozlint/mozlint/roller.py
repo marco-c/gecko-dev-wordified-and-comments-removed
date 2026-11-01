@@ -2027,9 +2027,16 @@ paths
 =
 =
 {
+os
+.
+path
+.
+abspath
+(
 self
 .
 root
+)
 }
 :
                 
