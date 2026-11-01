@@ -1595,7 +1595,6 @@ path
 )
 ;
 }
-}
 if
 (
 clip
@@ -1627,6 +1626,7 @@ is_region
 =
 FALSE
 ;
+}
 return
 clip
 ;

@@ -57,10 +57,6 @@ CAIRO_MUTEX_DECLARE
 (
 _cairo_win32_font_face_mutex
 )
-CAIRO_MUTEX_DECLARE
-(
-_cairo_win32_font_dc_mutex
-)
 #
 endif
 #

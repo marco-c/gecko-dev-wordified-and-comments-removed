@@ -220,11 +220,6 @@ offset
 NULL
 )
 ;
-free
-(
-reply
-)
-;
 if
 (
 !
@@ -238,6 +233,11 @@ CAIRO_STATUS_READ_ERROR
 )
 ;
 }
+free
+(
+reply
+)
+;
 return
 CAIRO_STATUS_SUCCESS
 ;
