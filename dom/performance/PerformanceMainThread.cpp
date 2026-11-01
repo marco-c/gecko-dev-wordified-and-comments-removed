@@ -902,7 +902,7 @@ u
 resourcetimingbufferfull
 "
 _ns
-true
+false
 false
 )
 ;
