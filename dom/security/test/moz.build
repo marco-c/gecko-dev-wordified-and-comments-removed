@@ -99,6 +99,15 @@ MOCHITEST_MANIFESTS
 =
 [
 "
+connection
+-
+allowlist
+/
+mochitest
+.
+toml
+"
+"
 cors
 /
 mochitest
