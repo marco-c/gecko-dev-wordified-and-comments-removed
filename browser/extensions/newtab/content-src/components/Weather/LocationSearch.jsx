@@ -70,7 +70,6 @@ react
 ;
 import
 {
-batch
 useDispatch
 useSelector
 }
@@ -1052,13 +1051,6 @@ handleUseCurrentLocation
 (
 )
 {
-batch
-(
-(
-)
-=
->
-{
 dispatch
 (
 ac
@@ -1092,9 +1084,6 @@ data
 false
 }
 )
-)
-;
-}
 )
 ;
 }
