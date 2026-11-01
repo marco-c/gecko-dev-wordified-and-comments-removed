@@ -4905,10 +4905,10 @@ screen_capturer_x11
 .
 cc
 index
-6088a3286b
+06e6a9331a
 .
 .
-089164ed65
+4379265558
 100644
 -
 -
@@ -4943,10 +4943,10 @@ screen_capturer_x11
 .
 cc
 -
-311
+331
 7
 +
-311
+331
 7
 bool
 ScreenCapturerX11
