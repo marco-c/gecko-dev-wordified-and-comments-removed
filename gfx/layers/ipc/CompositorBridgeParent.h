@@ -2216,6 +2216,10 @@ LayersId
 aChild
 LayersId
 aEmbedderId
+const
+char
+*
+aMessage
 )
 ;
 static

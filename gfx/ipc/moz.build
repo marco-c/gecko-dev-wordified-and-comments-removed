@@ -153,6 +153,11 @@ GPUProcessListener
 h
 "
 "
+GPUProcessLog
+.
+h
+"
+"
 GPUProcessManager
 .
 h
