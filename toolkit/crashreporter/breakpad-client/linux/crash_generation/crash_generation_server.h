@@ -257,6 +257,9 @@ GetAuxvInfoCallback
 >
 get_auxv_info_
 ;
+bool
+force_remote_executor_
+;
 #
 endif
 std
