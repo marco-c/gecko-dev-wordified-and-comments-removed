@@ -83,6 +83,15 @@ mutex
 .
 h
 "
+#
+include
+"
+rtc_base
+/
+thread_annotations
+.
+h
+"
 namespace
 webrtc
 {
@@ -268,6 +277,10 @@ AudioObserver
 *
 >
 audio_observers_
+RTC_GUARDED_BY
+(
+main_thread_
+)
 ;
 Mutex
 sink_lock_
