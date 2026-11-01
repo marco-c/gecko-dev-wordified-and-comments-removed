@@ -206,7 +206,7 @@ e10s
 )
 ;
 }
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :

@@ -1358,7 +1358,7 @@ CoverTransitions
 (
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mSession
 )
@@ -3754,7 +3754,7 @@ false
 ;
 }
 }
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mInitFlags
 =
@@ -7808,7 +7808,7 @@ controllerState
 +
 buttonIdx
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 buttonIdx
 =
@@ -7914,7 +7914,7 @@ axisIdx
 +
 +
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 axisIdx
 =
@@ -8039,7 +8039,7 @@ aControllerIdx
 return
 ;
 }
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 aControllerIdx
 >
@@ -8141,7 +8141,7 @@ mSession
 return
 ;
 }
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 aControllerIdx
 >

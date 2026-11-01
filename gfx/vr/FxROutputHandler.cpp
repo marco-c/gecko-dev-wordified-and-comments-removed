@@ -251,7 +251,7 @@ PullWindowState
 windowState
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 windowState
 .
@@ -261,7 +261,7 @@ hwndFx
 0
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 windowState
 .
@@ -358,7 +358,7 @@ ID3D11DeviceContext
 aCtx
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mSwapChain
 !
