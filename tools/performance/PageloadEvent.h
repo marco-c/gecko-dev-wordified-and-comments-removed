@@ -181,6 +181,12 @@ uint32_t
 \
 _
 (
+timeToConnectStart
+uint32_t
+)
+\
+_
+(
 tlsHandshakeTime
 uint32_t
 )
