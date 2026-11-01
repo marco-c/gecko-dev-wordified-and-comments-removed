@@ -154,12 +154,6 @@ shippable
 /
 opt
 -
-macosx64
--
-nightlyasrelease
-/
-opt
--
 win32
 -
 shippable
