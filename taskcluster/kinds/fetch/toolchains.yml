@@ -2155,7 +2155,7 @@ analyzer
 -
 10
 -
-12
+26
 fetch
 :
 type
@@ -2189,7 +2189,7 @@ download
 -
 10
 -
-12
+26
 /
 rust
 -
@@ -2206,10 +2206,10 @@ gnu
 gz
 sha256
 :
-040cab4e2abc490fadd95c3f6cbc60b941a78761dbc3acf0ec66fd7a97f31db3
+4c83773525f93b636ed79761389568b4d2a89c05fa7ecc440245032d49ad80ce
 size
 :
-14939384
+15084499
 artifact
 -
 name
