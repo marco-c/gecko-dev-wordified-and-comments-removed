@@ -286,6 +286,7 @@ fxrui
 html
 "
 _ns
+u
 "
 _blank
 "
@@ -307,7 +308,7 @@ newWindow
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 result
 =
@@ -423,7 +424,7 @@ GetNativeData
 NS_NATIVE_WINDOW
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 windowState
 .
@@ -433,7 +434,7 @@ hwndFx
 0
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 windowState
 .
