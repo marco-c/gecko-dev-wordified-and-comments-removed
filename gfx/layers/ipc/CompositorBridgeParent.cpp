@@ -4969,7 +4969,7 @@ iter
 >
 second
 ;
-MOZ_RELEASE_ASSERT
+if
 (
 state
 .
@@ -4978,13 +4978,14 @@ mApzcTreeManagerParent
 =
 aTreeManager
 )
-;
+{
 state
 .
 mApzcTreeManagerParent
 =
 nullptr
 ;
+}
 }
 mozilla
 :
