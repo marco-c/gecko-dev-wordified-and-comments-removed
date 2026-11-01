@@ -1280,6 +1280,13 @@ aFrameCount
 )
 ;
 void
+PostEmbeddableJPEGColorSpace
+(
+EmbeddableJPEGColorSpace
+aColorSpace
+)
+;
+void
 PostFrameStop
 (
 Opacity
