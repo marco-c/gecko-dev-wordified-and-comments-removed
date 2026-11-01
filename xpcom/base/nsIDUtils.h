@@ -34,9 +34,12 @@ class
 NSID_TrimBrackets
 :
 public
-nsTAutoString
+nsTAutoStringN
 <
 T
+NSID_LENGTH
+-
+2
 >
 {
 public
