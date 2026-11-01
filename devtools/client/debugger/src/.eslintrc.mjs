@@ -88,7 +88,9 @@ mozilla
 "
 ;
 import
-importPlugin
+{
+importX
+}
 from
 "
 eslint
@@ -96,6 +98,8 @@ eslint
 plugin
 -
 import
+-
+x
 "
 ;
 import
@@ -149,9 +153,13 @@ jest
 jestPlugin
 react
 mozilla
+"
 import
+-
+x
+"
 :
-importPlugin
+importX
 }
 languageOptions
 :
@@ -516,6 +524,8 @@ errors
 .
 "
 import
+-
+x
 /
 no
 -
@@ -527,6 +537,8 @@ error
 "
 "
 import
+-
+x
 /
 named
 "
@@ -536,6 +548,8 @@ error
 "
 "
 import
+-
+x
 /
 export
 "

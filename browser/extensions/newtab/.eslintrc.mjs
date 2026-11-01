@@ -57,7 +57,9 @@ MPL
 *
 /
 import
-importPlugin
+{
+importX
+}
 from
 "
 eslint
@@ -65,6 +67,8 @@ eslint
 plugin
 -
 import
+-
+x
 "
 ;
 import
@@ -130,9 +134,13 @@ directories
 plugins
 :
 {
+"
 import
+-
+x
+"
 :
-importPlugin
+importX
 react
 "
 jsx
@@ -1550,6 +1558,8 @@ directories
 .
 "
 import
+-
+x
 /
 no
 -
@@ -1628,6 +1638,8 @@ rules
 {
 "
 import
+-
+x
 /
 no
 -
