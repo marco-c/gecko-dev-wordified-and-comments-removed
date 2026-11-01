@@ -12487,6 +12487,17 @@ tile
 "
 )
 ;
+if
+tile
+.
+cached_surface
+.
+invalidation_reason
+.
+is_some
+(
+)
+{
 total_dirty_rect
 =
 total_dirty_rect
@@ -12501,6 +12512,7 @@ cached_surface
 local_dirty_rect
 )
 ;
+}
 }
 }
 }
