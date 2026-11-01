@@ -115,6 +115,13 @@ dist
 ;
 process
 .
+chdir
+(
+projectPath
+)
+;
+process
+.
 env
 .
 NODE_ENV
