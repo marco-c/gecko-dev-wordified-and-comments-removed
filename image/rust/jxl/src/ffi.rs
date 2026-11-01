@@ -1142,11 +1142,7 @@ decoder
 ;
 decoder
 .
-inner
-.
 has_more_frames
-(
-)
 }
 #
 [
