@@ -60961,6 +60961,13 @@ FinalizeLCPEntriesForText
 perf
 -
 >
+QueuePendingLCPCandidate
+(
+)
+;
+perf
+-
+>
 FinalizeContainerTimingEntries
 (
 )
