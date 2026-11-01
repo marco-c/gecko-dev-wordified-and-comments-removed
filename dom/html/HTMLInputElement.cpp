@@ -6214,10 +6214,6 @@ NS_IMPL_CYCLE_COLLECTION_UNLINK
 (
 mControllers
 )
-NS_IMPL_CYCLE_COLLECTION_UNLINK
-(
-mRadioGroupContainer
-)
 if
 (
 tmp
