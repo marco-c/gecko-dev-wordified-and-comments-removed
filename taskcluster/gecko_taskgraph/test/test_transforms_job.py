@@ -655,8 +655,6 @@ GRADLE_FLAGS
 offline
 -
 -
-no
--
 daemon
 "
             

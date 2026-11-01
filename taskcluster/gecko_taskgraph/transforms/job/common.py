@@ -1924,8 +1924,6 @@ flags
 "
 -
 -
-no
--
 daemon
 "
 ]

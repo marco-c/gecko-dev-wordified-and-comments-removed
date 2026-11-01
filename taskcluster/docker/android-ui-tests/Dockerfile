@@ -85,14 +85,6 @@ Dorg
 .
 gradle
 .
-daemon
-=
-false
--
-Dorg
-.
-gradle
-.
 parallel
 =
 false
