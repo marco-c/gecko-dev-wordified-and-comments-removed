@@ -3182,7 +3182,7 @@ selector
 =
 BrowserPageSelectors
 .
-PAGE_CONTENT
+PAGE_CONTENT_LONG_PRESS_TARGET
 (
 text
 )
