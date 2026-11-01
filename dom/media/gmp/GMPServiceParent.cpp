@@ -8581,9 +8581,9 @@ true
 }
 constexpr
 uint32_t
-kMaxDomainLength
+kMaxOriginLength
 =
-253
+4096
 ;
 constexpr
 std
@@ -8652,7 +8652,7 @@ ReadFromFile
 aPath
 fileName
 str
-kMaxDomainLength
+kMaxOriginLength
 )
 ;
 mozilla
@@ -8755,7 +8755,7 @@ ReadFromFile
 aPath
 fileName
 fileContent
-kMaxDomainLength
+kMaxOriginLength
 )
 ;
 mozilla
