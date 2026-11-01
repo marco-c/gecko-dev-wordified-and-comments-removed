@@ -302,7 +302,7 @@ Preferences
 getSetting
 (
 "
-linkPreviewEnabled
+linkPreviewKeyPoints
 "
 )
 ;
@@ -314,7 +314,7 @@ generalDoc
 getElementById
 (
 "
-linkPreviewEnabled
+linkPreviewKeyPoints
 "
 )
 ;
@@ -1650,7 +1650,7 @@ Preferences
 getSetting
 (
 "
-linkPreviewEnabled
+linkPreviewKeyPoints
 "
 )
 ;
@@ -1662,7 +1662,7 @@ generalDoc
 getElementById
 (
 "
-linkPreviewEnabled
+linkPreviewKeyPoints
 "
 )
 ;
