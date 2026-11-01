@@ -3029,6 +3029,9 @@ CMSOutputProfileStatus
 :
 Uninitialized
 ;
+nsCString
+mCMSOutputProfilePrefAtStartup
+;
 RefPtr
 <
 gfxASurface
