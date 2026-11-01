@@ -131,7 +131,7 @@ env_
 ;
 const
 bool
-fix_non_monotonic_clock_
+disable_non_monotonic_clock_fix_
 ;
 RTC_NO_UNIQUE_ADDRESS
 SequenceChecker

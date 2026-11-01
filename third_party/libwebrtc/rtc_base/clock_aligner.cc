@@ -121,7 +121,7 @@ env_
 (
 env
 )
-fix_non_monotonic_clock_
+disable_non_monotonic_clock_fix_
 (
 env_
 .
@@ -129,7 +129,7 @@ field_trials
 (
 )
 .
-IsEnabled
+IsDisabled
 (
 "
 WebRTC
@@ -171,11 +171,11 @@ CurrentTime
 ;
 if
 (
-fix_non_monotonic_clock_
+disable_non_monotonic_clock_fix_
 )
 {
 return
-AlignNonMonotonicClock
+AlignAssumingMonotonicClock
 (
 time
 current_time
@@ -183,7 +183,7 @@ current_time
 ;
 }
 return
-AlignAssumingMonotonicClock
+AlignNonMonotonicClock
 (
 time
 current_time

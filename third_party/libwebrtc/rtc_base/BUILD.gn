@@ -7401,6 +7401,14 @@ create_test_environment
 /
 test
 :
+near_matcher
+"
+"
+.
+.
+/
+test
+:
 test_support
 "
 "
