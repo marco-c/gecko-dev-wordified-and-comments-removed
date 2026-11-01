@@ -486,10 +486,7 @@ JSContext
 aCx
 )
 {
-UniquePtr
-<
-SerializedStackHolder
->
+auto
 stack
 =
 std

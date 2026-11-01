@@ -150,10 +150,7 @@ string
 aText
 )
 {
-UniquePtr
-<
-InternalResults
->
+auto
 results
 =
 std

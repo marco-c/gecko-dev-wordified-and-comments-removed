@@ -1962,13 +1962,7 @@ return
 false
 ;
 }
-mozilla
-:
-:
-UniquePtr
-<
-Message
->
+auto
 message
 =
 std

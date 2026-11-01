@@ -145,13 +145,7 @@ NS_IsMainThread
 )
 )
 ;
-mozilla
-:
-:
-UniquePtr
-<
-rlbox_sandbox_hunspell
->
+auto
 sandbox
 =
 std

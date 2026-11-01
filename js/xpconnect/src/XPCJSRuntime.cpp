@@ -19048,13 +19048,7 @@ InitWasmAltDataType
 (
 )
 ;
-mozilla
-:
-:
-UniquePtr
-<
-XPCJSSourceHook
->
+auto
 hook
 =
 std

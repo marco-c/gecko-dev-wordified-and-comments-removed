@@ -1187,10 +1187,7 @@ if
 mScriptBuffer
 )
 {
-UniquePtr
-<
-ScriptDecoder
->
+auto
 decoder
 =
 std
@@ -3148,12 +3145,7 @@ return
 NS_OK
 ;
 }
-UniquePtr
-<
-uint8_t
-[
-]
->
+auto
 scriptTextBuf
 =
 std

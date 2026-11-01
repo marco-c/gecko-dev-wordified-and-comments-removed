@@ -6526,12 +6526,7 @@ aProgressLogger
 )
 const
 {
-UniquePtr
-<
-char
-[
-]
->
+auto
 dynStrBuf
 =
 std

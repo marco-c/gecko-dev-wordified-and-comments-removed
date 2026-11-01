@@ -625,15 +625,7 @@ maxValueNameLen
 =
 1
 ;
-mozilla
-:
-:
-UniquePtr
-<
-wchar_t
-[
-]
->
+auto
 valueName
 =
 std

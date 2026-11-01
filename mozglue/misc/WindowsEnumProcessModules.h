@@ -111,12 +111,7 @@ sizeof
 HMODULE
 )
 ;
-UniquePtr
-<
-HMODULE
-[
-]
->
+auto
 modules
 =
 std

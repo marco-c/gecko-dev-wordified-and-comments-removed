@@ -1943,10 +1943,7 @@ return
 true
 ;
 }
-UniquePtr
-<
-GpuOverlayInfo
->
+auto
 info
 =
 std

@@ -23760,10 +23760,7 @@ ar
 ARG_FOUND
 )
 {
-UniquePtr
-<
-DBusService
->
+auto
 dbusService
 =
 std

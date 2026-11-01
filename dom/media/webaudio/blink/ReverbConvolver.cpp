@@ -224,10 +224,7 @@ convolverRenderPhase
 +
 stagePhase
 ;
-UniquePtr
-<
-ReverbConvolverStage
->
+auto
 stage
 =
 std

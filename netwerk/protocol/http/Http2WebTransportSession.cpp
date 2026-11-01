@@ -347,10 +347,7 @@ aStatus
 aReason
 )
 ;
-UniquePtr
-<
-CapsuleEncoder
->
+auto
 encoder
 =
 std
@@ -616,10 +613,7 @@ aData
 )
 )
 ;
-UniquePtr
-<
-CapsuleEncoder
->
+auto
 encoder
 =
 std

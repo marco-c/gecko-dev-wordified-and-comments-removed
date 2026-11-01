@@ -1038,12 +1038,7 @@ return
 false
 ;
 }
-UniquePtr
-<
-char
-[
-]
->
+auto
 line
 =
 std

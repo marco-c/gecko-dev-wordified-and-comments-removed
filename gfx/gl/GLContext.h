@@ -2882,12 +2882,7 @@ GLVendor
 NVIDIA
 )
 {
-UniquePtr
-<
-char
-[
-]
->
+auto
 buf
 =
 std

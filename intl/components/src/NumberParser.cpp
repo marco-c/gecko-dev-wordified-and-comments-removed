@@ -37,10 +37,7 @@ bool
 aUseGrouping
 )
 {
-UniquePtr
-<
-NumberParser
->
+auto
 nf
 =
 std

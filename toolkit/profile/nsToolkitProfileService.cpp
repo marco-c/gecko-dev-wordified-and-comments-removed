@@ -12327,10 +12327,7 @@ StealNSResult
 )
 ;
 }
-UniquePtr
-<
-IniData
->
+auto
 iniData
 =
 std

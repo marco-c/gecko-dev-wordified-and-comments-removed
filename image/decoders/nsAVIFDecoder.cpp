@@ -1694,10 +1694,7 @@ return
 rv
 ;
 }
-UniquePtr
-<
-IndiceWrapper
->
+auto
 wrapper
 =
 std
@@ -5797,10 +5794,7 @@ h
 >
 )
 ;
-UniquePtr
-<
-AVIFDecodedData
->
+auto
 data
 =
 std
@@ -6598,10 +6592,7 @@ AOM_PLANE_V
 )
 )
 ;
-UniquePtr
-<
-AVIFDecodedData
->
+auto
 data
 =
 std

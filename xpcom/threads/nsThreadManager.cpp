@@ -1470,10 +1470,7 @@ forget
 )
 )
 ;
-UniquePtr
-<
-EventQueue
->
+auto
 queue
 =
 std

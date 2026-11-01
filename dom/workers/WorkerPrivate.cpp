@@ -27163,10 +27163,7 @@ logic
 "
 )
 ;
-UniquePtr
-<
-WorkerErrorReport
->
+auto
 report
 =
 std

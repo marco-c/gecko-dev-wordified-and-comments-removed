@@ -45050,10 +45050,7 @@ if
 doInitialSyncLoad
 )
 {
-UniquePtr
-<
-SessionHistoryInfo
->
+auto
 entry
 =
 std

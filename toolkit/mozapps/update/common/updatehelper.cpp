@@ -901,12 +901,7 @@ FALSE
 ;
 }
 }
-UniquePtr
-<
-char
-[
-]
->
+auto
 serviceConfigBuffer
 =
 std

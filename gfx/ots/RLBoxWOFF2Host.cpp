@@ -312,10 +312,7 @@ createOK
 nullptr
 )
 ;
-UniquePtr
-<
-RLBoxWOFF2SandboxData
->
+auto
 sbxData
 =
 std

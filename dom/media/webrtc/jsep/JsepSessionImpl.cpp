@@ -8085,10 +8085,7 @@ GetIcePwd
 )
 )
 {
-UniquePtr
-<
-JsepIceTransport
->
+auto
 ice
 =
 std
@@ -8181,10 +8178,7 @@ transport
 mDtls
 )
 {
-UniquePtr
-<
-JsepDtlsTransport
->
+auto
 dtls
 =
 std
@@ -14445,10 +14439,7 @@ kIPv4
 "
 )
 ;
-UniquePtr
-<
-Sdp
->
+auto
 sdp
 =
 std

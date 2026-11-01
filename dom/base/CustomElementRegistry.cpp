@@ -853,10 +853,7 @@ WasPassed
 )
 )
 {
-UniquePtr
-<
-CustomElementCallback
->
+auto
 callback
 =
 std

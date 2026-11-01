@@ -354,10 +354,7 @@ return
 nullptr
 ;
 }
-UniquePtr
-<
-RenderCompositorANGLE
->
+auto
 compositor
 =
 std

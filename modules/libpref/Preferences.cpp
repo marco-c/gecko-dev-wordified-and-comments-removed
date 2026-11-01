@@ -27452,10 +27452,7 @@ AllowOffMainThreadSave
 )
 )
 {
-UniquePtr
-<
-PrefSaveData
->
+auto
 prefs
 =
 std

@@ -25884,10 +25884,7 @@ NonWindowSingleton
 (
 )
 ;
-UniquePtr
-<
-PositionOptions
->
+auto
 options
 =
 std

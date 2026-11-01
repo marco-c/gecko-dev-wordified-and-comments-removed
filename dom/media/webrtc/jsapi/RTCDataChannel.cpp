@@ -1065,10 +1065,7 @@ return
 nullptr
 ;
 }
-UniquePtr
-<
-DataHolder
->
+auto
 dataHolder
 =
 std

@@ -2127,10 +2127,7 @@ return
 NS_OK
 ;
 }
-UniquePtr
-<
-txElementContext
->
+auto
 context
 =
 std

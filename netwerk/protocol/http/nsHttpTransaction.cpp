@@ -16704,10 +16704,7 @@ get
 )
 )
 ;
-UniquePtr
-<
-nsHttpHeaderArray
->
+auto
 httpTrailers
 =
 std

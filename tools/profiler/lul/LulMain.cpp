@@ -4810,13 +4810,7 @@ aSize
 0
 )
 {
-mozilla
-:
-:
-UniquePtr
-<
-SecMap
->
+auto
 smap
 =
 std

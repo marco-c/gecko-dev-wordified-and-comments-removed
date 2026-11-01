@@ -865,13 +865,7 @@ EnqueueHelloMessage
 (
 )
 {
-mozilla
-:
-:
-UniquePtr
-<
-Message
->
+auto
 msg
 =
 std

@@ -821,15 +821,7 @@ nullptr
 0
 )
 ;
-mozilla
-:
-:
-UniquePtr
-<
-WCHAR
-[
-]
->
+auto
 serviceDescription
 =
 std

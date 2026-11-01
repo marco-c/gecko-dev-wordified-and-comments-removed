@@ -749,10 +749,7 @@ NewBidirectionalStream
 )
 )
 ;
-UniquePtr
-<
-BidirectionalPair
->
+auto
 streams
 =
 std

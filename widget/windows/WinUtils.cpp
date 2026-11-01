@@ -9387,15 +9387,7 @@ return
 false
 ;
 }
-mozilla
-:
-:
-UniquePtr
-<
-wchar_t
-[
-]
->
+auto
 data
 =
 std

@@ -654,10 +654,7 @@ sent
 )
 ;
 }
-UniquePtr
-<
-DragTaskGtk
->
+auto
 task
 =
 std
@@ -706,10 +703,7 @@ guint
 aTime
 )
 {
-UniquePtr
-<
-DragTaskGtk
->
+auto
 task
 =
 std
@@ -778,10 +772,7 @@ ScheduleLeaveEvent
 (
 )
 {
-UniquePtr
-<
-DragTaskGtk
->
+auto
 task
 =
 std

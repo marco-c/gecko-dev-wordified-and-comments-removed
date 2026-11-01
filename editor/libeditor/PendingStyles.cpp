@@ -1445,10 +1445,7 @@ aAttributeValueOrCSSValue
 return
 ;
 }
-UniquePtr
-<
-PendingStyle
->
+auto
 style
 =
 std

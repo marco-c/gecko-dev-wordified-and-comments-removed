@@ -10235,10 +10235,7 @@ profiler_is_main_thread
 )
 )
 ;
-UniquePtr
-<
-RegisteredThread
->
+auto
 registeredThread
 =
 std

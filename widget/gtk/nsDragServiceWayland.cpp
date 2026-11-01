@@ -585,10 +585,7 @@ DataOffer
 aDataOffer
 )
 {
-UniquePtr
-<
-DragTaskWayland
->
+auto
 task
 =
 std
@@ -628,10 +625,7 @@ DataOffer
 aDataOffer
 )
 {
-UniquePtr
-<
-DragTaskWayland
->
+auto
 task
 =
 std
@@ -703,10 +697,7 @@ ScheduleLeaveEvent
 (
 )
 {
-UniquePtr
-<
-DragTaskWayland
->
+auto
 task
 =
 std

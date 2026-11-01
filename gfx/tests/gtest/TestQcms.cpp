@@ -978,12 +978,7 @@ size_t
 aPixels
 )
 {
-UniquePtr
-<
-uint8_t
-[
-]
->
+auto
 buffer
 =
 std
@@ -1028,12 +1023,7 @@ size_t
 aPixels
 )
 {
-UniquePtr
-<
-uint8_t
-[
-]
->
+auto
 buffer
 =
 std

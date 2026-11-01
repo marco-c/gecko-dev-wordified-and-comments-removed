@@ -2600,15 +2600,7 @@ kCFStringEncodingUTF8
 +
 1
 ;
-mozilla
-:
-:
-UniquePtr
-<
-char
-[
-]
->
+auto
 buffer
 =
 std

@@ -309,10 +309,7 @@ snap
 }
 )
 ;
-UniquePtr
-<
-ScopedLayerTreeRegistration
->
+auto
 registration
 =
 std
@@ -748,10 +745,7 @@ true
 }
 )
 ;
-UniquePtr
-<
-ScopedLayerTreeRegistration
->
+auto
 registration
 =
 std
@@ -1126,10 +1120,7 @@ snap
 }
 )
 ;
-UniquePtr
-<
-ScopedLayerTreeRegistration
->
+auto
 registration
 =
 std
@@ -1626,10 +1617,7 @@ snap
 }
 )
 ;
-UniquePtr
-<
-ScopedLayerTreeRegistration
->
+auto
 registration
 =
 std

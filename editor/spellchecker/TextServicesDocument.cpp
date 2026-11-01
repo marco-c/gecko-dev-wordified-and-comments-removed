@@ -4988,10 +4988,7 @@ Length
 }
 else
 {
-UniquePtr
-<
-OffsetEntry
->
+auto
 newInsertedTextEntry
 =
 std
@@ -5151,10 +5148,7 @@ if
 insertedTextEntry
 )
 {
-UniquePtr
-<
-OffsetEntry
->
+auto
 newInsertedTextEntry
 =
 std

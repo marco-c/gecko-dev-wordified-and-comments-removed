@@ -3945,10 +3945,7 @@ return
 rv
 ;
 }
-UniquePtr
-<
-PrincipalInfo
->
+auto
 principalInfo
 =
 std

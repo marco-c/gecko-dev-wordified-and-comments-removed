@@ -1068,15 +1068,7 @@ return
 hr
 ;
 }
-mozilla
-:
-:
-UniquePtr
-<
-wchar_t
-[
-]
->
+auto
 timeStr
 =
 std

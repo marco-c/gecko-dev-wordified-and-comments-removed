@@ -4218,10 +4218,7 @@ allowSharedMemoryObjects
 )
 ;
 }
-UniquePtr
-<
-StructuredCloneHolder
->
+auto
 serializedOptions
 =
 std

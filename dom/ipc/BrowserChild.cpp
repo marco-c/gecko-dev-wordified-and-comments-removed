@@ -7791,10 +7791,7 @@ IsEmpty
 continue
 ;
 }
-UniquePtr
-<
-CoalescedMouseData
->
+auto
 dispatchData
 =
 std
@@ -7994,10 +7991,7 @@ IPC_OK
 )
 ;
 }
-UniquePtr
-<
-CoalescedMouseData
->
+auto
 dispatchData
 =
 std
@@ -8489,10 +8483,7 @@ FlushAllCoalescedMouseData
 (
 )
 ;
-UniquePtr
-<
-CoalescedMouseData
->
+auto
 dispatchData
 =
 std

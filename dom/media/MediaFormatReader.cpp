@@ -6849,12 +6849,9 @@ mDemuxerInitDone
 =
 true
 ;
-UniquePtr
-<
-MetadataTags
->
+auto
 tags
-(
+=
 std
 :
 :
@@ -6863,7 +6860,6 @@ make_unique
 MetadataTags
 >
 (
-)
 )
 ;
 const

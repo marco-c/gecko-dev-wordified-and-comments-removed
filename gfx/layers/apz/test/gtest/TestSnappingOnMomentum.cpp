@@ -253,10 +253,7 @@ snap
 }
 )
 ;
-UniquePtr
-<
-ScopedLayerTreeRegistration
->
+auto
 registration
 =
 std

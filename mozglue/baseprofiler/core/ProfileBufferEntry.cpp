@@ -2054,12 +2054,7 @@ aUniqueStacks
 )
 const
 {
-UniquePtr
-<
-char
-[
-]
->
+auto
 dynStrBuf
 =
 std

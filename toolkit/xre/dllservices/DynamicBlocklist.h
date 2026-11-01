@@ -600,12 +600,7 @@ kTestDllBytes
 }
 #
 endif
-UniquePtr
-<
-uint8_t
-[
-]
->
+auto
 payload
 =
 std

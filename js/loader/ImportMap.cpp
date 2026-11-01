@@ -544,10 +544,7 @@ ReportWarningHelper
 aWarning
 )
 {
-UniquePtr
-<
-SpecifierMap
->
+auto
 normalized
 =
 std
@@ -1002,10 +999,7 @@ return
 nullptr
 ;
 }
-UniquePtr
-<
-ScopeMap
->
+auto
 normalized
 =
 std
@@ -1263,10 +1257,7 @@ ReportWarningHelper
 aWarning
 )
 {
-UniquePtr
-<
-IntegrityMap
->
+auto
 normalized
 =
 std
@@ -2439,10 +2430,7 @@ ReportWarningHelper
 aWarning
 )
 {
-UniquePtr
-<
-SpecifierMap
->
+auto
 mergedMap
 =
 std
