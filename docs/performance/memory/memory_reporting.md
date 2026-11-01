@@ -1045,9 +1045,7 @@ KIND_HEAP
 UNITS_BYTES
 gMyString
 -
-&
-gt
-;
+>
 SizeOfIncludingThis
 (
 MallocSizeOf
