@@ -376,6 +376,15 @@ components
 conf
 "
 ]
+#
+MOZ_SRC_FILES
+doesn
+'
+t
+support
+generated
+files
+.
 EXTRA_JS_MODULES
 +
 =
@@ -388,6 +397,11 @@ sys
 .
 mjs
 "
+]
+MOZ_SRC_FILES
++
+=
+[
 "
 SpeechRecognitionFeature
 .
