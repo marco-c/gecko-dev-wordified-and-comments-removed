@@ -236,7 +236,9 @@ android
 layout_marginStart
 =
 "
-12dp
+dimen
+/
+radio_button_info_preference_horizontal
 "
 android
 :
