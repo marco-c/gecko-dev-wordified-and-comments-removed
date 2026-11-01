@@ -1775,6 +1775,17 @@ true
 "
 AITab
 :
+GetHeadingFont
+"
+:
+{
+wantUntrusted
+:
+true
+}
+"
+AITab
+:
 DeletePage
 "
 :
