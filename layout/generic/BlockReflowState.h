@@ -229,6 +229,12 @@ bool
 aIsAdjacentToBStart
 )
 ;
+bool
+ShouldTrimChildBStartMargins
+(
+)
+const
+;
 void
 UndoAlignContentShift
 (
