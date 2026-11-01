@@ -4929,9 +4929,6 @@ f32
 frame_state
 .
 transforms
-frame_state
-.
-cmd_buffers
 )
 ;
 clip_task_id
