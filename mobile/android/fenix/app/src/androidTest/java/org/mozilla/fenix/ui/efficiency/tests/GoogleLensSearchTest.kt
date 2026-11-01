@@ -181,6 +181,16 @@ mozilla
 .
 fenix
 .
+customannotations
+.
+SmokeTest
+import
+org
+.
+mozilla
+.
+fenix
+.
 ext
 .
 components
@@ -755,6 +765,7 @@ assertion
 "
 rule
 .
+SmokeTest
 Test
 fun
 verifyGoogleLensFunctionalityTest
