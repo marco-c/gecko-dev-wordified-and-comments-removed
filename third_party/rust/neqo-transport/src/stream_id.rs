@@ -23,6 +23,17 @@ neqo_common
 :
 Role
 ;
+pub
+const
+MAX_STREAMS_LIMIT
+:
+u64
+=
+1
+<
+<
+60
+;
 #
 [
 derive

@@ -15287,7 +15287,9 @@ datagrams_expired_outgoing
 =
 session_stats
 .
-datagrams_expired_outgoing
+outgoing_datagrams
+.
+expired
 ;
 }
 }
@@ -16845,7 +16847,9 @@ datagrams_expired_outgoing
 =
 session_stats
 .
-datagrams_expired_outgoing
+outgoing_datagrams
+.
+expired
 ;
 NS_OK
 }

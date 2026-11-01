@@ -163,6 +163,7 @@ connection
 :
 {
 Http3State
+MAX_ANTICIPATED_INCOMING_STREAMS
 SessionAcceptAction
 }
 ;
