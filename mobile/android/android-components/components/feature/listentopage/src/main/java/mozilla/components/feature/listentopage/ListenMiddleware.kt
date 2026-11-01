@@ -2498,6 +2498,11 @@ ContentReady
 languageTag
 =
 language
+languageSource
+=
+content
+.
+languageSource
 title
 =
 displayData
