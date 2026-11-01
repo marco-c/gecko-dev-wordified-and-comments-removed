@@ -90,7 +90,7 @@ serverlist
 ]
 [
 "
-test_IPPAutoRestore
+test_IPPAutoActivation
 .
 js
 "
@@ -175,6 +175,13 @@ js
 [
 "
 test_IPPStartupCache
+.
+js
+"
+]
+[
+"
+test_IPPTabRuleProvider
 .
 js
 "
