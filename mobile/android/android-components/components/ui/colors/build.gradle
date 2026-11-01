@@ -125,6 +125,12 @@ libs
 .
 androidx
 .
+activity
+implementation
+libs
+.
+androidx
+.
 compose
 .
 foundation
