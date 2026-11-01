@@ -4,7 +4,6 @@ XPC_WRAPPER_H
 #
 define
 XPC_WRAPPER_H
-1
 #
 include
 "

@@ -4,7 +4,6 @@ mozilla_HalInternal_h
 #
 define
 mozilla_HalInternal_h
-1
 #
 ifndef
 MOZ_HAL_NAMESPACE

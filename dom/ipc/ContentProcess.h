@@ -4,7 +4,6 @@ dom_tabs_ContentThread_h
 #
 define
 dom_tabs_ContentThread_h
-1
 #
 include
 "
