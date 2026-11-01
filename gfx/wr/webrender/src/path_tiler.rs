@@ -5154,9 +5154,6 @@ Event
 backdrop
 (
 0
-std
-:
-:
 u16
 :
 :
@@ -5523,9 +5520,6 @@ Event
 backdrop
 (
 0
-std
-:
-:
 u16
 :
 :
