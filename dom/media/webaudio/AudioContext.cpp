@@ -5307,7 +5307,7 @@ SendStateChange
 )
 ;
 }
-void
+bool
 AudioContext
 :
 :
@@ -5330,6 +5330,7 @@ mCloseCalled
 )
 {
 return
+false
 ;
 }
 if
@@ -5362,6 +5363,7 @@ this
 )
 ;
 return
+false
 ;
 }
 MEDIA_CONTROL_LOG
@@ -5388,6 +5390,9 @@ false
 ResumeInternal
 (
 )
+;
+return
+true
 ;
 }
 void
