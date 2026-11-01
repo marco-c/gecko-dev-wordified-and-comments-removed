@@ -7755,11 +7755,8 @@ template
 typename
 T
 >
-GCPtr
-<
 T
 *
->
 *
 addressOfFixedSlotPrivatePtr
 (
@@ -7812,11 +7809,8 @@ slot
 return
 reinterpret_cast
 <
-GCPtr
-<
 T
 *
->
 *
 >
 (
