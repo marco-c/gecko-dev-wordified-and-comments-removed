@@ -42,15 +42,6 @@ mjs
 "
 lib
 /
-DiscoveryStreamFeed
-.
-sys
-.
-mjs
-"
-"
-lib
-/
 ExternalComponentsFeed
 .
 sys
