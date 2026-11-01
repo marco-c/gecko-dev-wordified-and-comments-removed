@@ -2,7 +2,7 @@ gczeal
 (
 15
 )
-enableShellAllocationMetadataBuilder
+enableTrackAllocations
 (
 )
 gczeal
@@ -15,7 +15,7 @@ a
 parseModule
 (
 )
-moduleLink
+moduleLoadAndLink
 (
 a
 )

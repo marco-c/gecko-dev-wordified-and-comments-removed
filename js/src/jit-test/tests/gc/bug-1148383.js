@@ -73,7 +73,7 @@ gczeal
 1000
 )
 ;
-enableShellAllocationMetadataBuilder
+enableTrackAllocations
 (
 )
 ;

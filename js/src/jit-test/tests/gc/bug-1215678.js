@@ -11,7 +11,7 @@ this
 )
 a
 ;
-enableShellAllocationMetadataBuilder
+enableTrackAllocations
 (
 )
 oomTest

@@ -1,6 +1,6 @@
 try
 {
-enableShellAllocationMetadataBuilder
+enableTrackAllocations
 (
 )
 ;

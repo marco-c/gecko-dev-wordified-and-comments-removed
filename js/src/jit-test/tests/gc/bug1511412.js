@@ -63,7 +63,7 @@ fuzzutils
 .
 evaluate
 (
-enableShellAllocationMetadataBuilder
+enableTrackAllocations
 (
 )
 ;

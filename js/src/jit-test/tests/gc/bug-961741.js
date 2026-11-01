@@ -13,7 +13,7 @@ undefined
 {
 }
 }
-enableShellAllocationMetadataBuilder
+enableTrackAllocations
 (
 )
 ;

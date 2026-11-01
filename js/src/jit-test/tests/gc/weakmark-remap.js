@@ -9,7 +9,7 @@ this
 }
 )
 ;
-enableShellAllocationMetadataBuilder
+enableTrackAllocations
 (
 )
 ;

@@ -5,7 +5,7 @@ obj
 )
 {
 }
-enableShellAllocationMetadataBuilder
+enableTrackAllocations
 (
 )
 ;

@@ -22,7 +22,7 @@ trigger
 20
 )
 ;
-enableShellAllocationMetadataBuilder
+enableTrackAllocations
 (
 )
 ;

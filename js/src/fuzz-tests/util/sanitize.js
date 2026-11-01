@@ -373,13 +373,6 @@ function
 )
 {
 }
-enableShellAllocationMetadataBuilder
-:
-function
-(
-)
-{
-}
 options
 :
 function

@@ -7,7 +7,7 @@ newGlobal
 ;
 g
 .
-enableShellAllocationMetadataBuilder
+enableTrackAllocations
 (
 )
 ;

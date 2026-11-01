@@ -25,7 +25,7 @@ x
 }
 )
 ;
-enableShellAllocationMetadataBuilder
+enableTrackAllocations
 (
 )
 ;
