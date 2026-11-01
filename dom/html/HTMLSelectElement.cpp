@@ -1761,6 +1761,16 @@ NS_IMPL_CYCLE_COLLECTION_UNLINK
 (
 mValidity
 )
+tmp
+-
+>
+mOptions
+-
+>
+SetDirty
+(
+)
+;
 NS_IMPL_CYCLE_COLLECTION_UNLINK
 (
 mSelectedOptions
