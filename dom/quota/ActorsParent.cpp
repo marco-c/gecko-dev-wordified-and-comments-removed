@@ -12460,6 +12460,12 @@ aDirectoryExists
 if
 (
 !
+aFullOriginMetadata
+.
+mIsPrivate
+&
+&
+!
 cacheRowMatches
 &
 &
