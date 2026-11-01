@@ -2620,7 +2620,7 @@ decision
 )
 parent
 :
-debian12
+debian13
 -
 base
 snap
