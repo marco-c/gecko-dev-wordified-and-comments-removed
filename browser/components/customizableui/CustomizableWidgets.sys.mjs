@@ -6368,6 +6368,15 @@ clearSiteData
 closeWindowsWithHistory
 :
 true
+entryPoint
+:
+lazy
+.
+Sanitizer
+.
+DIALOG_ENTRY_POINTS
+.
+FIRE_BUTTON
 }
 )
 ;
