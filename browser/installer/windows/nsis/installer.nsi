@@ -591,14 +591,6 @@ logging
 insertmacro
 _LoggingCommon
 !
-ifdef
-MOZ_MAINTENANCE_SERVICE
-!
-insertmacro
-IsUserAdmin
-!
-endif
-!
 insertmacro
 AddDisabledDDEHandlerValues
 !
@@ -643,6 +635,9 @@ IsHandlerForInstallDir
 !
 insertmacro
 IsPinnedToTaskBar
+!
+insertmacro
+IsUserAdmin
 !
 insertmacro
 LogDesktopShortcut
