@@ -175,6 +175,9 @@ bug
 HeadersInit
 headers
 ;
+ReadableStreamType
+datagramsReadableType
+;
 }
 ;
 enum
