@@ -404,6 +404,10 @@ return
 NS_ERROR_NO_INTERFACE
 ;
 }
+mPrintSettings
+=
+aPS
+;
 NSPrintInfo
 *
 printInfo
