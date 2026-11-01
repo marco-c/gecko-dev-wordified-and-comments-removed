@@ -98,6 +98,14 @@ EmptyCString
 )
 ;
 bool
+ThrottleCounter
+(
+uint32_t
+&
+aCounter
+)
+;
+bool
 ShouldReportDiagnostic
 (
 const
