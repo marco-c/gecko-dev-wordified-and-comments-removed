@@ -412,7 +412,10 @@ anonymousContent
 std
 :
 :
-move
+forward
+<
+StrongNodePtr
+>
 (
 aAnonymousContent
 )
