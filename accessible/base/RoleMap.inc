@@ -92,7 +92,7 @@ nsGkAtoms
 :
 :
 alert
-ATK_ROLE_ALERT
+ATK_ROLE_NOTIFICATION
 NSAccessibilityGroupRole
 "
 AXApplicationAlert
