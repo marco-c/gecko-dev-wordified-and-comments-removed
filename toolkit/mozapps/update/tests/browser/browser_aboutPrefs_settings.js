@@ -325,6 +325,8 @@ gBrowser
 about
 :
 preferences
+#
+about
 "
 )
 ;
