@@ -282,6 +282,14 @@ darwin
 ]
 [
 "
+nsICocoaAppShellTestUtils
+"
+"
+darwin
+"
+]
+[
+"
 nsILocalFileMac
 "
 "
