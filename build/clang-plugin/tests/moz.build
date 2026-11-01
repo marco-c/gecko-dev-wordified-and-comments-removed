@@ -140,6 +140,11 @@ TestHeapClass
 cpp
 "
 "
+TestIncorrectStdForwardUsage
+.
+cpp
+"
+"
 TestInheritTypeAnnotationsFromTemplateArgs
 .
 cpp

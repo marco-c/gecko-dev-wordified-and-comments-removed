@@ -142,6 +142,11 @@ GlobalVariableInitializationChecker
 cpp
 "
 "
+IncorrectStdForwardUsageChecker
+.
+cpp
+"
+"
 IntToEnumCastChecker
 .
 cpp
