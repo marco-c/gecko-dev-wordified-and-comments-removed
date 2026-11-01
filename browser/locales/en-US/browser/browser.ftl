@@ -13029,7 +13029,7 @@ button
 -
 toolbar
 -
-button
+button2
 =
 .
 label
@@ -13038,9 +13038,6 @@ Delete
 some
 or
 all
-of
-your
-browsing
 data
 .
 tooltiptext
