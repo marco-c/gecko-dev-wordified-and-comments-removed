@@ -146,7 +146,7 @@ bool
 aFrameChanged
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 aImageIndex
 <
@@ -1611,7 +1611,7 @@ mProducerID
 continue
 ;
 }
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 next
 .

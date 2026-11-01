@@ -571,7 +571,7 @@ ExternalImageId
 aExternalImageId
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mExternalImageId
 .
@@ -602,7 +602,7 @@ mRemoteTexture
 return
 ;
 }
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mRemoteTexture
 -
@@ -822,7 +822,7 @@ yet
 "
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 aImageKeys
 .
@@ -922,7 +922,7 @@ this
 )
 ;
 }
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 mRemoteTexture

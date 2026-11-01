@@ -265,7 +265,7 @@ Nothing
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mWrappedTextureHost
 -
@@ -659,7 +659,7 @@ ExternalImageId
 aExternalImageId
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mExternalImageId
 .
@@ -683,7 +683,7 @@ Nothing
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mWrappedTextureHost
 -
@@ -970,7 +970,7 @@ yet
 "
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 aImageKeys
 .
