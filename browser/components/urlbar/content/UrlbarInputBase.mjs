@@ -27135,6 +27135,14 @@ value
 =
 value
 ;
+this
+.
+parentController
+.
+recordCanonization
+(
+)
+;
 return
 value
 ;
