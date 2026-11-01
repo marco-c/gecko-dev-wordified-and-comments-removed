@@ -689,6 +689,10 @@ never
 -
 save
 -
+payment
+-
+methods
+-
 button
 =
 .
@@ -696,7 +700,8 @@ label
 =
 Never
 save
-cards
+payment
+methods
 .
 accessKey
 =
