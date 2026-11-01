@@ -571,6 +571,14 @@ Runnable
 >
 mRunnable
 ;
+DuringShutdown
+mDuringShutdown
+=
+DuringShutdown
+:
+:
+No
+;
 }
 ;
 Mutex

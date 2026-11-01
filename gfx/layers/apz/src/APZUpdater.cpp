@@ -2030,6 +2030,7 @@ QueuedTask
 {
 aLayersId
 task
+aDuringShutdown
 }
 )
 ;
@@ -2497,6 +2498,17 @@ mLayersId
 ;
 if
 (
+task
+.
+mDuringShutdown
+=
+=
+DuringShutdown
+:
+:
+No
+&
+&
 it
 !
 =
