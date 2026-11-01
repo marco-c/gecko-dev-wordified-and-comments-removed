@@ -7627,7 +7627,6 @@ isEnabled
 =
 shouldPullToRefreshBeEnabled
 (
-false
 )
 if
 (
@@ -9343,9 +9342,6 @@ internal
 fun
 shouldPullToRefreshBeEnabled
 (
-inFullScreen
-:
-Boolean
 )
 :
 Boolean
@@ -9361,10 +9357,6 @@ requireComponents
 settings
 .
 isPullToRefreshEnabledInBrowser
-&
-&
-!
-inFullScreen
 }
 /
 *
@@ -12227,16 +12219,6 @@ collapseBrowserView
 (
 )
 }
-binding
-.
-swipeRefresh
-.
-isEnabled
-=
-shouldPullToRefreshBeEnabled
-(
-inFullScreen
-)
 }
 VisibleForTesting
 (
