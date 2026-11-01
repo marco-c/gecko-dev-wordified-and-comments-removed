@@ -11010,6 +11010,10 @@ return
 FALSE
 ;
 }
+WatchHiddenVSyncSource
+(
+)
+;
 MaybeRecomputeBounds
 (
 )

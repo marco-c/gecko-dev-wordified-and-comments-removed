@@ -2789,6 +2789,13 @@ DisableVSyncSource
 )
 {
 }
+virtual
+void
+WatchHiddenVSyncSource
+(
+)
+{
+}
 void
 DispatchActivateEvent
 (
