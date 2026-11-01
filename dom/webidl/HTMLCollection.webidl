@@ -125,6 +125,13 @@ unsigned
 long
 length
 ;
+[
+BinaryName
+=
+"
+FastItem
+"
+]
 getter
 Element
 ?
