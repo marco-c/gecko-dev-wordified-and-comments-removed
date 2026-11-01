@@ -5426,15 +5426,6 @@ interface
 Document
 {
 [
-Pref
-=
-"
-dom
-.
-text_fragments
-.
-enabled
-"
 SameObject
 ]
 readonly

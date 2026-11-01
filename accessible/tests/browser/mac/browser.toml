@@ -127,15 +127,6 @@ enabled
 =
 true
 "
-"
-dom
-.
-text_fragments
-.
-enabled
-=
-true
-"
 #
 Required
 for

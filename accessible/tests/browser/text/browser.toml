@@ -48,15 +48,6 @@ js
 prefs
 =
 [
-"
-dom
-.
-text_fragments
-.
-enabled
-=
-true
-"
 #
 Required
 for
