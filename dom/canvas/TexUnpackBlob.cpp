@@ -1970,6 +1970,9 @@ const
 ptrdiff_t
 dstStride
 const
+bool
+applyUnpackColorSpace
+const
 uint8_t
 *
 *
@@ -2294,6 +2297,9 @@ dom
 PredefinedColorSpace
 dstColorSpace
 =
+applyUnpackColorSpace
+&
+&
 webgl
 -
 >
@@ -2305,13 +2311,7 @@ webgl
 >
 mUnpackColorSpace
 :
-dom
-:
-:
-PredefinedColorSpace
-:
-:
-Srgb
+srcColorSpace
 ;
 if
 (
@@ -3184,6 +3184,7 @@ AutoAssertCast
 (
 stride
 )
+false
 &
 uploadPtr
 &
@@ -7299,6 +7300,7 @@ metrics
 .
 bytesPerRowStride
 )
+true
 &
 dstBegin
 &

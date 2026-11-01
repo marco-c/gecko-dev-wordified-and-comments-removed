@@ -237,6 +237,8 @@ dstFormat
 const
 ptrdiff_t
 dstStride
+bool
+applyUnpackColorSpace
 const
 uint8_t
 *
