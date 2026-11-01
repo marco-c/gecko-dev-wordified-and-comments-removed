@@ -167,7 +167,7 @@ XPIDL_MODULE
 "
 webvtt
 "
-EXTRA_JS_MODULES
+MOZ_SRC_FILES
 +
 =
 [
@@ -189,7 +189,7 @@ components
 conf
 "
 ]
-EXTRA_JS_MODULES
+MOZ_SRC_FILES
 +
 =
 [
