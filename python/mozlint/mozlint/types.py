@@ -285,24 +285,28 @@ exclude
 =
 exclude
         
-elif
+else
+:
+            
 config
 .
-get
+pop
 (
 "
 exclude
 "
+None
 )
-:
             
-del
 config
-[
+.
+pop
+(
 "
-exclude
+global_exclude
 "
-]
+None
+)
         
 if
 not

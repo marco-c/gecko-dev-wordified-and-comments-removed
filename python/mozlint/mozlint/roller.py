@@ -1263,6 +1263,20 @@ exclude
 :
 ]
             
+linter
+[
+"
+global_exclude
+"
+]
+=
+self
+.
+exclude
+[
+:
+]
+            
 exclude
 =
 linter

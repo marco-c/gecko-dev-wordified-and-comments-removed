@@ -71,20 +71,6 @@ fix
 )
 :
     
-shell
-=
-False
-    
-if
-is_windows
-(
-)
-:
-        
-shell
-=
-True
-    
 encoding
 =
 "
@@ -113,11 +99,7 @@ subprocess
 .
 Popen
 (
-        
 cmd_args
-shell
-=
-shell
 stdout
 =
 subprocess
@@ -128,7 +110,6 @@ stderr
 subprocess
 .
 PIPE
-    
 )
     
 signal
