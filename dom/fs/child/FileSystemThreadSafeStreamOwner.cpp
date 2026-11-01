@@ -225,13 +225,7 @@ mStream
 std
 :
 :
-forward
-<
-nsCOMPtr
-<
-nsIRandomAccessStream
->
->
+move
 (
 aStream
 )

@@ -142,10 +142,7 @@ mCodecConfig
 std
 :
 :
-forward
-<
-VideoCodecConfig
->
+move
 (
 aConfig
 )

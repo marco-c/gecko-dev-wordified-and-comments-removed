@@ -327,12 +327,7 @@ Category
 std
 :
 :
-forward
-<
-MarkerOptions
-&
-&
->
+move
 (
 aOption
 )

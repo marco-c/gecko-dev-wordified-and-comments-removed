@@ -346,10 +346,7 @@ mLastPrincipalHandle
 std
 :
 :
-forward
-<
-PrincipalHandle
->
+move
 (
 aLastPrincipalHandle
 )

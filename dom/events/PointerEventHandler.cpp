@@ -362,13 +362,7 @@ aPointerId
 std
 :
 :
-forward
-<
-UniquePtr
-<
-PointerInfo
->
->
+move
 (
 aNewPointerInfo
 )
