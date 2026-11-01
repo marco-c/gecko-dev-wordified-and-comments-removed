@@ -312,7 +312,7 @@ mozClick
 (
 MainMenuSelectors
 .
-EXTENSIONS_BUTTON_UIAUTOMATOR
+EXTENSIONS_BUTTON
 )
 .
 mozVerify

@@ -320,7 +320,7 @@ Click
 (
 MainMenuSelectors
 .
-EXTENSIONS_BUTTON_UIAUTOMATOR
+EXTENSIONS_BUTTON
 )
 NavigationStep
 .

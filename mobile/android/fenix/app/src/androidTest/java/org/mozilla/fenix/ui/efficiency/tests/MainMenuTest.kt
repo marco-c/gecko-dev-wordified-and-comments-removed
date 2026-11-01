@@ -3438,7 +3438,7 @@ mozClick
 (
 MainMenuSelectors
 .
-EXTENSIONS_BUTTON_UIAUTOMATOR
+EXTENSIONS_BUTTON
 )
 .
 mozVerifyElementsByGroup
@@ -3532,7 +3532,7 @@ mozClick
 (
 MainMenuSelectors
 .
-EXTENSIONS_CHEVRON
+EXTENSIONS_BUTTON
 )
 .
 mozVerifyElementsByGroup
@@ -3548,7 +3548,7 @@ mozClick
 (
 MainMenuSelectors
 .
-EXTENSIONS_CHEVRON
+EXTENSIONS_BUTTON
 )
 .
 mozVerifyElementAbsent
@@ -3727,7 +3727,7 @@ mozClick
 (
 MainMenuSelectors
 .
-EXTENSIONS_BUTTON_UIAUTOMATOR
+EXTENSIONS_BUTTON
 )
 val
 extension
@@ -3936,7 +3936,7 @@ mozClick
 (
 MainMenuSelectors
 .
-EXTENSIONS_BUTTON_UIAUTOMATOR
+EXTENSIONS_BUTTON
 )
 val
 extension
@@ -4155,7 +4155,7 @@ mozClick
 (
 MainMenuSelectors
 .
-EXTENSIONS_BUTTON_UIAUTOMATOR
+EXTENSIONS_BUTTON
 )
 val
 extension
@@ -4239,7 +4239,7 @@ mozClick
 (
 MainMenuSelectors
 .
-EXTENSIONS_BUTTON_UIAUTOMATOR
+EXTENSIONS_BUTTON
 )
 .
 mozVerify
@@ -4373,7 +4373,7 @@ mozClick
 (
 MainMenuSelectors
 .
-EXTENSIONS_BUTTON_UIAUTOMATOR
+EXTENSIONS_BUTTON
 )
 val
 extension
