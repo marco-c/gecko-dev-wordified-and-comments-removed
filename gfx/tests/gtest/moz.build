@@ -133,6 +133,11 @@ TestGfxWidgets
 cpp
 "
 "
+TestImageAddressableSize
+.
+cpp
+"
+"
 TestMatrix
 .
 cpp
