@@ -4801,6 +4801,13 @@ js
 ]
 [
 "
+test_happy_eyeballs_last_answer_to_attempt
+.
+js
+"
+]
+[
+"
 test_happy_eyeballs_local_addr_retry
 .
 js
