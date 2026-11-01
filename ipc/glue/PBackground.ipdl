@@ -829,11 +829,12 @@ nsresult
 rv
 uint8_t
 aReliability
+uint64_t
+aMaxDatagramSize
 )
 ;
 /
 /
-Actually
 WebTransportReliabityMode
 enum
 /
