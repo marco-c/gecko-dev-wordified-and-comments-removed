@@ -457,9 +457,6 @@ class
 nsIDOMXULRadioGroupElement
 ;
 class
-nsIDOMXULRelatedElement
-;
-class
 nsIDOMXULSelectControlElement
 ;
 class
@@ -7876,14 +7873,6 @@ already_AddRefed
 nsIDOMXULRadioGroupElement
 >
 AsXULRadioGroup
-(
-)
-;
-already_AddRefed
-<
-nsIDOMXULRelatedElement
->
-AsXULRelated
 (
 )
 ;

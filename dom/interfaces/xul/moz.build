@@ -112,11 +112,6 @@ nsIDOMXULRadioGroupElement
 idl
 "
 "
-nsIDOMXULRelatedElement
-.
-idl
-"
-"
 nsIDOMXULSelectCntrlEl
 .
 idl
