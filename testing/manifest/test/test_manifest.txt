@@ -1258,11 +1258,11 @@ mozci
 certifi
 =
 =
-2025
+2026
 .
-11
+10
 .
-12
+19
 \
 -
 -
@@ -1270,7 +1270,7 @@ hash
 =
 sha256
 :
-97de8790030bbd5c2d96b7ec782fc2f7820ef8dba6db909ccf95449f2d062d4b
+035c1e85572b141bf1c3a3eff0e33a8eb74917522f2559075ff8d2fea780a1ae
 \
 -
 -
@@ -1278,10 +1278,7 @@ hash
 =
 sha256
 :
-d8ab5478f2ecd78af242878415affce761ca6bc54a22a27e026d7c25357c3316
-#
-via
-requests
+42d35340cc5b9ba78e818ddbff0c5b1c2b779de448a340fd1b989f5fa8670e1b
 charset
 -
 normalizer
