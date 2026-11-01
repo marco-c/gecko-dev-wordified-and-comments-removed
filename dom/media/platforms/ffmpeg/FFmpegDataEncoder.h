@@ -495,6 +495,16 @@ mFrame
 DurationMap
 mDurationMap
 ;
+#
+ifdef
+MOZ_WIDGET_ANDROID
+bool
+mIsMediaCodec
+=
+false
+;
+#
+endif
 static
 StaticMutex
 sMutex
