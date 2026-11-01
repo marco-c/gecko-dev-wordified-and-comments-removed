@@ -1272,7 +1272,8 @@ client
 debugger
 &
 &
-yarn
+npm
+ci
 &
 &
 MOZ_FETCHES_DIR

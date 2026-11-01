@@ -267,16 +267,6 @@ install
 node
 .
 sh
-npm
-install
--
-g
-yarn
-1
-.
-22
-.
-18
 cd
 /
 rm

@@ -52,7 +52,8 @@ devtools
 client
 /
 debugger
-yarn
+npm
+ci
 &
 &
 node

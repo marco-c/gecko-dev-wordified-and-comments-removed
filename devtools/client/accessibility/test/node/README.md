@@ -54,7 +54,7 @@ Run
 locally
 We
 use
-yarn
+npm
 for
 dependency
 management
@@ -75,10 +75,11 @@ accessibility
 test
 /
 node
-yarn
+npm
+ci
 &
 &
-yarn
+npm
 test
 #
 #

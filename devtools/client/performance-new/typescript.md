@@ -29,9 +29,9 @@ client
 performance
 -
 new
-yarn
-install
-yarn
+npm
+ci
+npm
 test
 Also
 the

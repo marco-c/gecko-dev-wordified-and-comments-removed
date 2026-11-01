@@ -9,9 +9,9 @@ ALL
 VERSIONS
 1
 .
-yarn
+npm
 install
 2
 .
-yarn
+npx
 webpack

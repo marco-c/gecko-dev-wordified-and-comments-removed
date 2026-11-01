@@ -73,10 +73,10 @@ this
 directory
 and
 run
-yarn
-install
+npm
+ci
 then
-yarn
+npm
 test
 .
 In
