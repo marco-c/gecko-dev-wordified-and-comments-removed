@@ -4379,7 +4379,7 @@ __func__
 (
 nsTArray
 <
-IPCClientCertObject
+CryptokiObject
 >
 &
 &

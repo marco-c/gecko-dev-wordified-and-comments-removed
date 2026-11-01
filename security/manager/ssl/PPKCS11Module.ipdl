@@ -320,7 +320,7 @@ searchingFor
 )
 returns
 (
-IPCClientCertObject
+CryptokiObject
 [
 ]
 objects

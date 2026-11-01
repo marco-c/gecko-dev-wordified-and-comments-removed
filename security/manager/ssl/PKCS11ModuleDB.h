@@ -359,7 +359,7 @@ MozPromise
 <
 nsTArray
 <
-IPCClientCertObject
+CryptokiObject
 >
 nsresult
 true
