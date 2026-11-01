@@ -559,7 +559,9 @@ if
 maybeMetadata
 -
 >
-mIsPrivate
+ShouldEncrypt
+(
+)
 )
 {
 return
