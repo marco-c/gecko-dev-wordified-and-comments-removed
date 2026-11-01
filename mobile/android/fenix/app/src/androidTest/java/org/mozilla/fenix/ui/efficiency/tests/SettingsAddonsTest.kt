@@ -477,12 +477,7 @@ mozClick
 (
 HomeSelectors
 .
-TOP_SITE_ITEM
-(
-"
-Wikipedia
-"
-)
+FIRST_TOP_SITE_ITEM
 )
 on
 .
