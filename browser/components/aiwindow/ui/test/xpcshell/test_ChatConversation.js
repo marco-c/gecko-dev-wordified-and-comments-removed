@@ -1,3 +1,10 @@
+const
+STATE_CHOOSE
+=
+"
+choose
+"
+;
 do_get_profile
 (
 )
@@ -6044,9 +6051,7 @@ properties
 {
 state
 :
-"
-choose
-"
+STATE_CHOOSE
 }
 }
 {
@@ -12940,9 +12945,7 @@ properties
 {
 state
 :
-"
-choose
-"
+STATE_CHOOSE
 }
 }
 {
