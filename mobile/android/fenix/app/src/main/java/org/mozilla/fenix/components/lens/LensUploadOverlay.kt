@@ -334,7 +334,7 @@ R
 .
 string
 .
-lens_camera_image_load_failed
+lens_camera_image_load_failed_v2
 )
 )
 LensUploadFailure
