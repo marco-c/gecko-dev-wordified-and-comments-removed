@@ -513,7 +513,7 @@ listOf
 (
 appEntity
 )
-every
+coEvery
 {
 storage
 .
@@ -887,7 +887,7 @@ Activity
 "
 )
 )
-every
+coEvery
 {
 storage
 .
@@ -996,7 +996,7 @@ runTest
 testDispatcher
 )
 {
-every
+coEvery
 {
 storage
 .

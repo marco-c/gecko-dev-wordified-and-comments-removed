@@ -801,9 +801,9 @@ recent
 apps
 other
 available
-*
 apps
 and
+*
 synchronized
 devices
 and
@@ -814,7 +814,6 @@ state
 to
 false
 .
-*
 *
 /
 internal
@@ -1125,11 +1124,6 @@ List
 AppShareOption
 >
 )
-=
-withContext
-(
-ioDispatcher
-)
 {
 recentAppsStorage
 .
@@ -1162,11 +1156,6 @@ List
 <
 AppShareOption
 >
-=
-withContext
-(
-ioDispatcher
-)
 {
 val
 recentActivityNames
@@ -1184,6 +1173,7 @@ it
 .
 activityName
 }
+return
 allApps
 .
 filter
@@ -1362,13 +1352,13 @@ the
 share
 sheet
 .
-*
 This
 will
 primarily
 include
 devices
 that
+*
 tabs
 can
 be
@@ -1377,7 +1367,6 @@ to
 but
 also
 options
-*
 for
 reconnecting
 the
@@ -1661,11 +1650,11 @@ state
 )
 or
 if
-*
 isOnline
 (
 network
 )
+*
 returns
 false
 (

@@ -733,7 +733,7 @@ requireContext
 (
 )
 )
-viewLifecycleScope
+scope
 =
 viewLifecycleOwner
 .

@@ -228,6 +228,7 @@ for
 users
 *
 /
+suspend
 fun
 updateRecentApp
 (
@@ -271,6 +272,7 @@ the
 app
 *
 /
+suspend
 fun
 deleteRecentApp
 (
@@ -312,6 +314,7 @@ of
 list
 *
 /
+suspend
 fun
 getRecentAppsUpTo
 (
@@ -377,6 +380,7 @@ that
 app
 *
 /
+suspend
 fun
 updateDatabaseWithNewApps
 (

@@ -336,6 +336,14 @@ androidx
 test
 .
 runner
+androidTestImplementation
+libs
+.
+kotlinx
+.
+coroutines
+.
+test
 androidTestRuntimeOnly
 libs
 .

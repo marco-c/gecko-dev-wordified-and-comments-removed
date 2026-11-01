@@ -87,6 +87,14 @@ app
 .
 ApplicationProvider
 import
+kotlinx
+.
+coroutines
+.
+test
+.
+runTest
+import
 mozilla
 .
 components
@@ -223,6 +231,8 @@ fun
 testGetTwoMostRecentApps
 (
 )
+=
+runTest
 {
 assertEquals
 (
@@ -295,6 +305,8 @@ fun
 testIncrementSelectedAppCountAndDecayAllOthers
 (
 )
+=
+runTest
 {
 val
 activityName
@@ -421,6 +433,8 @@ fun
 testAddNewlyInstalledAppsToOurDatabase
 (
 )
+=
+runTest
 {
 val
 firstActivityName
@@ -503,6 +517,8 @@ fun
 testDeleteAnAppFromOurDatabase
 (
 )
+=
+runTest
 {
 val
 deleteAppName

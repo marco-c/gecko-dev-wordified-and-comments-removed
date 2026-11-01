@@ -71,6 +71,14 @@ content
 .
 Context
 import
+kotlinx
+.
+coroutines
+.
+test
+.
+runTest
+import
 mozilla
 .
 components
@@ -204,6 +212,8 @@ recent
 apps
 (
 )
+=
+runTest
 {
 whenever
 (
@@ -249,6 +259,8 @@ all
 others
 (
 )
+=
+runTest
 {
 val
 activityName
@@ -283,6 +295,8 @@ our
 database
 (
 )
+=
+runTest
 {
 val
 firstActivityName
@@ -366,6 +380,8 @@ our
 database
 (
 )
+=
+runTest
 {
 val
 deleteAppName
