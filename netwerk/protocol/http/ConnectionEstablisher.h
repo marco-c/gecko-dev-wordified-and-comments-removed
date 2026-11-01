@@ -93,11 +93,6 @@ mIsTRR
 =
 false
 ;
-bool
-mResolvedInSocketProcess
-=
-false
-;
 double
 mTrrFetchDuration
 =
