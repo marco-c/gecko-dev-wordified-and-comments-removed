@@ -574,12 +574,7 @@ expression
 "
 functools
 .
-lru_cache
-(
-maxsize
-=
-None
-)
+cache
 def
 scan
 (
@@ -647,7 +642,6 @@ int_token
 (
 r
 '
-(
 "
 [
 ^
@@ -655,9 +649,7 @@ r
 ]
 *
 "
-)
 |
-(
 \
 '
 [
@@ -668,7 +660,6 @@ r
 *
 \
 '
-)
 '
 string_token
 )
@@ -1698,12 +1689,7 @@ __call__
 parse
 functools
 .
-lru_cache
-(
-maxsize
-=
-None
-)
+cache
 def
 parse
 (
