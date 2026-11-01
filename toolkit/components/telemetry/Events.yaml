@@ -6028,17 +6028,9 @@ search
 -
 add
 -
-remove
--
 reorder
 -
 apply
--
-accept
--
-cancel
--
-set_fallback
 extra_keys
 :
 installId
@@ -6056,7 +6048,7 @@ firefox
 expiry_version
 :
 "
-161
+185
 "
 notification_emails
 :
@@ -6114,6 +6106,8 @@ bug_numbers
 1928262
 -
 1999880
+-
+2076961
 security
 .
 doh
