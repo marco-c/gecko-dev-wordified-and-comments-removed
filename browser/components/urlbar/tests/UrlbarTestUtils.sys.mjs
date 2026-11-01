@@ -11791,6 +11791,9 @@ browserWindow
 windowGlobalChild
 =
 {
+parentActor
+:
+{
 getActor
 :
 (
@@ -11808,6 +11811,7 @@ browserWindow
 }
 }
 )
+}
 }
 ;
 /
