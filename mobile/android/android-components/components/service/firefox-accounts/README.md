@@ -1974,6 +1974,11 @@ accountManager
 .
 beginAuthentication
 (
+service
+=
+"
+sync
+"
 entrypoint
 =
 entrypoint

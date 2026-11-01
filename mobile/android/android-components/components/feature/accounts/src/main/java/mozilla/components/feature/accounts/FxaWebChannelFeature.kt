@@ -4341,6 +4341,13 @@ accountManager
 .
 beginAuthentication
 (
+service
+=
+FxaService
+.
+Sync
+.
+identifier
 entrypoint
 =
 PairingWebChannelEntryPoint
