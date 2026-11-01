@@ -137,6 +137,11 @@ this
 browsingContext
 .
 topFrameElement
+this
+.
+manager
+.
+documentURI
 )
 ;
 }
