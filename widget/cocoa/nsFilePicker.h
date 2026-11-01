@@ -51,6 +51,10 @@ final
 public
 nsBaseFilePicker
 {
+friend
+class
+FilePickerTest
+;
 public
 :
 nsFilePicker

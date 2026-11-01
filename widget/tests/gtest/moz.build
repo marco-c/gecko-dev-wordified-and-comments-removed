@@ -110,6 +110,11 @@ UNIFIED_SOURCES
 =
 [
 "
+TestCocoaFilePickerQueue
+.
+mm
+"
+"
 TestCocoaStaleDragSession
 .
 mm
