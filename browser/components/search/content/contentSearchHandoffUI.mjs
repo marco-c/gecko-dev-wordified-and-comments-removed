@@ -8186,11 +8186,11 @@ healthReportKey
 isNewTab
 ?
 "
-newtab
+about_newtab
 "
 :
 "
-abouthome
+about_home
 "
 ;
 this
