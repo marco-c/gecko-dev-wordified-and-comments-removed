@@ -381,14 +381,6 @@ WHERE
 id
 )
 ;
-this
-.
-available
-=
-rows
-.
-length
-;
 for
 (
 let
