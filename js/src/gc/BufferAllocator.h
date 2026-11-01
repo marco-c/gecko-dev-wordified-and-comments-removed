@@ -1131,7 +1131,7 @@ elementSize
 ;
 static
 bool
-IsBufferAlloc
+IsGCPointerBufferAlloc
 (
 void
 *

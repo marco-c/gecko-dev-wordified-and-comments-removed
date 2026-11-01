@@ -1278,7 +1278,7 @@ if
 gc
 :
 :
-IsBufferAlloc
+IsGCPointerBufferAlloc
 (
 oolHeader
 )
@@ -2133,7 +2133,7 @@ if
 gc
 :
 :
-IsBufferAlloc
+IsGCPointerBufferAlloc
 (
 (
 void

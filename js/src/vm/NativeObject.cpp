@@ -2881,7 +2881,7 @@ if
 gc
 :
 :
-IsBufferAlloc
+IsGCPointerBufferAlloc
 (
 oldHeaderSlots
 )
