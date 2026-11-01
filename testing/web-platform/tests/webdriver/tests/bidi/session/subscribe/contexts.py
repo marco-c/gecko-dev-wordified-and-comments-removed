@@ -535,6 +535,17 @@ events
     
 )
     
+on_entry_added
+=
+wait_for_event
+(
+"
+log
+.
+entryAdded
+"
+)
+    
 expected_text
 =
 await
@@ -580,6 +591,17 @@ events
 1
 ]
     
+)
+    
+on_entry_added
+=
+wait_for_event
+(
+"
+log
+.
+entryAdded
+"
 )
     
 expected_text
