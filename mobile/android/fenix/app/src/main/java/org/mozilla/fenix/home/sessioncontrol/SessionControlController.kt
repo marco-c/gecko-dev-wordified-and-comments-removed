@@ -1030,6 +1030,13 @@ requestSetDefaultBrowserPrompt
 -
 >
 Unit
+private
+val
+applicationScope
+:
+CoroutineScope
+=
+viewLifecycleScope
 )
 :
 SessionControlController
@@ -1358,7 +1365,7 @@ collection
 }
 else
 {
-viewLifecycleScope
+applicationScope
 .
 launch
 {

@@ -138,6 +138,7 @@ interface
 TabCollectionDao
 {
 Insert
+suspend
 fun
 insertTabCollection
 (
@@ -148,6 +149,7 @@ TabCollectionEntity
 :
 Long
 Delete
+suspend
 fun
 deleteTabCollection
 (
@@ -156,6 +158,7 @@ collection
 TabCollectionEntity
 )
 Update
+suspend
 fun
 updateTabCollection
 (
@@ -290,6 +293,7 @@ FROM
 tab_collections
 "
 )
+suspend
 fun
 countTabCollections
 (

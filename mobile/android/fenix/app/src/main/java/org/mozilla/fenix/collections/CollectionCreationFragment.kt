@@ -117,12 +117,6 @@ DialogFragment
 import
 androidx
 .
-lifecycle
-.
-lifecycleScope
-import
-androidx
-.
 navigation
 .
 fragment
@@ -375,7 +369,9 @@ core
 tabCollectionStorage
 scope
 =
-lifecycleScope
+requireComponents
+.
+applicationScope
 )
 )
 collectionCreationView

@@ -7149,12 +7149,11 @@ tabCollection
 TabCollection
 )
 {
-lifecycleScope
+requireComponents
+.
+applicationScope
 .
 launch
-(
-IO
-)
 {
 requireComponents
 .
@@ -9466,6 +9465,11 @@ viewLifecycleScope
 viewLifecycleOwner
 .
 lifecycleScope
+applicationScope
+=
+requireComponents
+.
+applicationScope
 shareUseCases
 =
 requireComponents

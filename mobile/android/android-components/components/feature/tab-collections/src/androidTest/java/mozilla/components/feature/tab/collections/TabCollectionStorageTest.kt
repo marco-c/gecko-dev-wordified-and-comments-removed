@@ -391,6 +391,8 @@ fun
 testCreatingCollections
 (
 )
+=
+runTest
 {
 storage
 .
@@ -600,6 +602,8 @@ fun
 testAddingTabsToExistingCollection
 (
 )
+=
+runTest
 {
 storage
 .
@@ -819,6 +823,8 @@ fun
 testRemovingTabsFromCollection
 (
 )
+=
+runTest
 {
 storage
 .
@@ -993,6 +999,8 @@ fun
 testRenamingCollection
 (
 )
+=
+runTest
 {
 storage
 .
@@ -1068,6 +1076,8 @@ fun
 testRemovingCollection
 (
 )
+=
+runTest
 {
 storage
 .
@@ -1170,6 +1180,8 @@ fun
 testCreatingCollectionAndRestoringState
 (
 )
+=
+runTest
 {
 val
 session1
@@ -2728,6 +2740,8 @@ fun
 testRemovingAllCollections
 (
 )
+=
+runTest
 {
 storage
 .

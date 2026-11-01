@@ -131,7 +131,9 @@ kotlinx
 .
 coroutines
 .
-runBlocking
+test
+.
+runTest
 import
 org
 .
@@ -269,6 +271,8 @@ fun
 testInsertingAndReadingCollections
 (
 )
+=
+runTest
 {
 val
 collection1
@@ -383,6 +387,8 @@ fun
 testUpdatingCollections
 (
 )
+=
+runTest
 {
 val
 collection1
@@ -524,6 +530,8 @@ fun
 testRemovingCollections
 (
 )
+=
+runTest
 {
 val
 collection1
@@ -678,7 +686,7 @@ testGettingCollections
 (
 )
 =
-runBlocking
+runTest
 {
 val
 collection1
@@ -790,7 +798,7 @@ testGettingCollectionsList
 (
 )
 =
-runBlocking
+runTest
 {
 val
 collection1
@@ -893,6 +901,8 @@ fun
 testCountingTabCollections
 (
 )
+=
+runTest
 {
 assertEquals
 (

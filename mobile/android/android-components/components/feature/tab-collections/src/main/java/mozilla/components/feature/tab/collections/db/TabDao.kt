@@ -106,6 +106,7 @@ interface
 TabDao
 {
 Insert
+suspend
 fun
 insertTab
 (
@@ -116,6 +117,7 @@ TabEntity
 :
 Long
 Delete
+suspend
 fun
 deleteTab
 (
