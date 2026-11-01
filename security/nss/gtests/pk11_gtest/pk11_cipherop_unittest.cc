@@ -16,13 +16,6 @@ h
 "
 #
 include
-"
-pk11_import
-.
-h
-"
-#
-include
 <
 assert
 .
@@ -288,10 +281,7 @@ CK_AES_CTR_PARAMS
 ScopedPK11SymKey
 key
 (
-nss_test
-:
-:
-ImportSymKey
+PK11_ImportSymKey
 (
 slot
 .
@@ -454,10 +444,7 @@ key_bytes
 ScopedPK11SymKey
 key
 (
-nss_test
-:
-:
-ImportSymKey
+PK11_ImportSymKey
 (
 slot
 .

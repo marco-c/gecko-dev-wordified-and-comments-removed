@@ -91,13 +91,6 @@ nss_scoped_ptrs
 .
 h
 "
-#
-include
-"
-pk11_import
-.
-h
-"
 namespace
 nss_test
 {
@@ -377,10 +370,7 @@ PK11SymKey
 *
 inner
 =
-nss_test
-:
-:
-ImportSymKey
+PK11_ImportSymKey
 (
 slot
 mech

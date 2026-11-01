@@ -172,7 +172,7 @@ softoken_gtest
 common
 ssl_gtest
 :
-common
+google_test
 sysinit_gtest
 :
 google_test

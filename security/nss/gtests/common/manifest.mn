@@ -102,9 +102,6 @@ cc
 json_reader
 .
 cc
-pk11_import
-.
-cc
 endif
 INCLUDES
 +

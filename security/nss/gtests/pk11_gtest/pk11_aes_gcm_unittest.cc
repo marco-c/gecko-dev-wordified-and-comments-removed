@@ -95,13 +95,6 @@ util
 .
 h
 "
-#
-include
-"
-pk11_import
-.
-h
-"
 namespace
 nss_test
 {
@@ -971,10 +964,7 @@ size
 ScopedPK11SymKey
 sym_key
 (
-nss_test
-:
-:
-ImportSymKey
+PK11_ImportSymKey
 (
 slot
 .
