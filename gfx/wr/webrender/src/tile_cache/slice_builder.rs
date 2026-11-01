@@ -1949,6 +1949,14 @@ ImageMask
 ClipItemKeyKind
 :
 :
+Border
+(
+_
+)
+|
+ClipItemKeyKind
+:
+:
 Rectangle
 (
 ClipMode

@@ -63,7 +63,7 @@ renderer
 :
 {
 BlendMode
-GpuBufferBuilder
+GpuBufferBuilderF
 }
 ;
 pub
@@ -99,7 +99,7 @@ gpu_buffer_builder
 :
 &
 mut
-GpuBufferBuilder
+GpuBufferBuilderF
 )
 -
 >
@@ -110,8 +110,6 @@ mut
 writer
 =
 gpu_buffer_builder
-.
-f32
 .
 write_blocks
 (
@@ -255,9 +253,13 @@ Pattern
 repeated_pattern
 (
 self
+&
+mut
 state
 .
 frame_gpu_data
+.
+f32
 )
 }
 }
