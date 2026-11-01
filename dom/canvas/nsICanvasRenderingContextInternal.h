@@ -422,6 +422,15 @@ height
 =
 0
 ;
+NS_IMETHOD
+MaybeThrowContextCreationError
+(
+)
+{
+return
+NS_OK
+;
+}
 virtual
 nsresult
 Initialize

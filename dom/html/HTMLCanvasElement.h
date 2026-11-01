@@ -1050,15 +1050,9 @@ aContextType
 )
 override
 ;
-bool
-UpdateContext
+void
+AfterUpdateContext
 (
-const
-CanvasRenderingContextOptions
-*
-aOptions
-=
-nullptr
 )
 override
 ;

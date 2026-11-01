@@ -3513,6 +3513,13 @@ mDeferJsWarnings
 =
 nullptr
 ;
+mutable
+std
+:
+:
+string
+mDeferContextCreationError
+;
 public
 :
 webgl
@@ -4527,6 +4534,12 @@ int32_t
 width
 int32_t
 height
+)
+override
+;
+NS_IMETHOD
+MaybeThrowContextCreationError
+(
 )
 override
 ;
