@@ -1909,6 +1909,17 @@ AOM_ROOT
 /
 test
 /
+encode_internal_test
+.
+cc
+"
+"
+{
+AOM_ROOT
+}
+/
+test
+/
 encodemb_test
 .
 cc

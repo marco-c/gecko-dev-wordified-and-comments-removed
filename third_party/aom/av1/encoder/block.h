@@ -2087,6 +2087,12 @@ int
 source_variance
 ;
 int
+sub_block_energy_diff
+;
+BLOCK_SIZE
+sub_block_energy_bsize
+;
+int
 block_is_zero_sad
 ;
 int
@@ -2106,6 +2112,9 @@ sb_me_mv
 ;
 int
 sb_force_fixed_part
+;
+MV_REFERENCE_FRAME
+sb_copied_ref
 ;
 unsigned
 int

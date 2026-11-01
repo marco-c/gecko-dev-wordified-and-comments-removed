@@ -1258,7 +1258,7 @@ AV1_COMP
 *
 cpi
 int
-gop_eval
+approx_gop_eval
 const
 struct
 EncodeFrameParams

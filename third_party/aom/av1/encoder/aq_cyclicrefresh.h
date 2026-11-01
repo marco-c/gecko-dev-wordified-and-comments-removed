@@ -305,7 +305,7 @@ cr
 )
 ;
 int
-av1_cyclic_refresh_disable_lf_cdef
+av1_cyclic_refresh_disable_lf
 (
 struct
 AV1_COMP

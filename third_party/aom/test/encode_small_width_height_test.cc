@@ -1,6 +1,11 @@
 #
 include
 <
+cstring
+>
+#
+include
+<
 memory
 >
 #
