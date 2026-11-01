@@ -137,6 +137,13 @@ TrackingId
 >
 mTrackingId
 ;
+const
+CreateDecoderParams
+:
+:
+OptionSet
+mOptions
+;
 }
 ;
 DDLoggedTypeDeclNameAndBase
@@ -626,6 +633,11 @@ bool
 mReorderFrames
 =
 true
+;
+bool
+mLowLatency
+=
+false
 ;
 }
 ;
