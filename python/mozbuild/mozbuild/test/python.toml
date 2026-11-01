@@ -109,6 +109,15 @@ py
 "
 action
 /
+test_package
+.
+py
+"
+]
+[
+"
+action
+/
 test_process_install_manifest
 .
 py
