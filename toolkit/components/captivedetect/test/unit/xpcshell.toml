@@ -89,6 +89,13 @@ js
 ]
 [
 "
+test_fresh_connection
+.
+js
+"
+]
+[
+"
 test_multiple_requests
 .
 js
