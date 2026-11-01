@@ -216,13 +216,11 @@ area
 :
 description
 ;
-word
+overflow
 -
-break
+wrap
 :
-break
--
-all
+anywhere
 ;
 }
 &
