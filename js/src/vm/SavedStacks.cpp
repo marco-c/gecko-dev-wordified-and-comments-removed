@@ -10676,7 +10676,7 @@ probability
 )
 ;
 }
-JSObject
+SavedFrame
 *
 SavedStacks
 :

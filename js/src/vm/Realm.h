@@ -839,6 +839,9 @@ nullptr
 class
 PropertyIteratorObject
 ;
+class
+SavedFrame
+;
 struct
 IteratorHashPolicy
 {
@@ -1033,7 +1036,7 @@ WeakMap
 <
 JSObject
 *
-JSObject
+SavedFrame
 *
 ZoneAllocPolicy
 >
@@ -3753,7 +3756,7 @@ delete
 ;
 }
 ;
-JSObject
+SavedFrame
 *
 GetAllocationMetadata
 (

@@ -289,7 +289,7 @@ mallocSizeOf
 )
 ;
 static
-JSObject
+SavedFrame
 *
 buildAllocationMetadata
 (

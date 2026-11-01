@@ -1988,7 +1988,7 @@ oomUnsafe
 ;
 if
 (
-JSObject
+SavedFrame
 *
 metadata
 =
@@ -2115,7 +2115,7 @@ setNewObjectMetadata
 }
 }
 }
-JSObject
+SavedFrame
 *
 js
 :
