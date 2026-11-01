@@ -2203,6 +2203,10 @@ mWindow
 class
 TaskbarConcealer
 ;
+friend
+class
+TaskbarConcealerTest
+;
 enum
 {
 eFakeTrackPointScrollableID

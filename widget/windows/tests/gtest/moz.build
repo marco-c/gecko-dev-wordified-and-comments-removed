@@ -73,6 +73,11 @@ TestNativePointerLock
 cpp
 "
 "
+TestTaskbarConcealer
+.
+cpp
+"
+"
 TestWinDND
 .
 cpp
