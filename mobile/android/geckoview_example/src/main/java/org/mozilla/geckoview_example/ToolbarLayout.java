@@ -96,6 +96,7 @@ content
 ContextCompat
 ;
 public
+final
 class
 ToolbarLayout
 extends

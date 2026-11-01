@@ -79,6 +79,7 @@ DiscouragedPrivateApi
 "
 )
 public
+final
 class
 SharedMemory
 implements

@@ -52,6 +52,7 @@ widget
 AppCompatEditText
 ;
 public
+final
 class
 LocationView
 extends

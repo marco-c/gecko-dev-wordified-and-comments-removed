@@ -11449,6 +11449,7 @@ notificationIntent
 ;
 }
 public
+final
 class
 MockLocationProvider
 {
