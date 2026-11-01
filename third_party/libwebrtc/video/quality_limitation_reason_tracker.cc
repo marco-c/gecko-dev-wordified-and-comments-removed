@@ -286,7 +286,13 @@ quality_limitation_durations_ms
 {
 durations_ms_
 =
+std
+:
+:
+move
+(
 quality_limitation_durations_ms
+)
 ;
 }
 }

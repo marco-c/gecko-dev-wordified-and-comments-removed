@@ -1066,7 +1066,13 @@ config
 :
 config_
 (
+std
+:
+:
+move
+(
 config
+)
 )
 {
 }
