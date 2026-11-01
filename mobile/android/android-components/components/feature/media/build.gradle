@@ -180,6 +180,14 @@ media
 implementation
 libs
 .
+androidx
+.
+media3
+.
+common
+implementation
+libs
+.
 kotlinx
 .
 coroutines
