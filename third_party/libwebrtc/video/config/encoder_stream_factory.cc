@@ -3572,11 +3572,7 @@ i
 =
 GetLayerResolutionFromScaleResolutionDownTo
 (
-norm_resolution
-.
 width
-norm_resolution
-.
 height
 *
 encoder_config
