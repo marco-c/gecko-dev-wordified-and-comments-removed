@@ -3674,9 +3674,13 @@ mSVGInitialized
 mSVGGlyphs
 )
 {
+delete
 mSVGGlyphs
-=
+.
+exchange
+(
 nullptr
+)
 ;
 mSVGInitialized
 =
