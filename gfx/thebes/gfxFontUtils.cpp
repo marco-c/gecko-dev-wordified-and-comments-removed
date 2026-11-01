@@ -2942,8 +2942,8 @@ pack
 (
 1
 )
-typedef
 struct
+Format4Cmap
 {
 AutoSwap_PRUint16
 format
@@ -2973,9 +2973,7 @@ arrays
 ]
 ;
 }
-Format4Cmap
 ;
-typedef
 struct
 Format14Cmap
 {
@@ -2988,8 +2986,8 @@ length
 AutoSwap_PRUint32
 numVarSelectorRecords
 ;
-typedef
 struct
+VarSelectorRecord
 {
 AutoSwap_PRUint24
 varSelector
@@ -3001,7 +2999,6 @@ AutoSwap_PRUint32
 nonDefaultUVSOffset
 ;
 }
-VarSelectorRecord
 ;
 VarSelectorRecord
 varSelectorRecords
@@ -3010,17 +3007,15 @@ varSelectorRecords
 ]
 ;
 }
-Format14Cmap
 ;
-typedef
 struct
 DefUVSTable
 {
 AutoSwap_PRUint32
 numUnicodeValueRanges
 ;
-typedef
 struct
+UnicodeRange
 {
 AutoSwap_PRUint24
 startUnicodeValue
@@ -3029,7 +3024,6 @@ uint8_t
 additionalCount
 ;
 }
-UnicodeRange
 ;
 UnicodeRange
 ranges
@@ -3038,7 +3032,6 @@ ranges
 ]
 ;
 }
-DefUVSTable
 ;
 typedef
 struct
@@ -3112,7 +3105,6 @@ mTarget
 }
 UnicodeRangeComparator
 ;
-typedef
 struct
 NonDefUVSTable
 {
@@ -3138,7 +3130,6 @@ uvsMappings
 ]
 ;
 }
-NonDefUVSTable
 ;
 #
 pragma
