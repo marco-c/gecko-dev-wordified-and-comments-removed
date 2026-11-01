@@ -1021,9 +1021,17 @@ mach
 .
 util
 import
+(
+        
 get_state_dir
+        
 get_virtualenv_base_dir
+        
+resource_marker
+        
 setenv
+    
+)
     
 state_dir
 =
@@ -1071,11 +1079,25 @@ quiet
 =
 False
     
+with
+resource_marker
+(
+"
+Mach
+"
+"
+activate
+mach
+site
+"
+)
+:
+        
 _activate_python_environment
 (
-        
+            
 topsrcdir
-        
+            
 lambda
 :
 os
@@ -1092,11 +1114,11 @@ topsrcdir
 topsrcdir
 )
 )
-        
+            
 quiet
 =
 quiet
-    
+        
 )
     
 _maybe_activate_mozillabuild_environment
@@ -2307,6 +2329,23 @@ quiet
         
 )
         
+with
+resource_marker
+(
+"
+Mach
+"
+f
+"
+activate
+{
+site_name
+}
+site
+"
+)
+:
+            
 command_site_manager
 .
 activate
@@ -2515,9 +2554,22 @@ command_site_manager
 =
 command_site_manager
     
+with
+resource_marker
+(
+"
+Mach
+"
+"
+load
+commands
+"
+)
+:
+        
 load_commands_from_spec
 (
-        
+            
 command_modules_to_load
 topsrcdir
 missing_ok
@@ -2527,7 +2579,7 @@ missing_ok_future
 result
 (
 )
-    
+        
 )
     
 return
