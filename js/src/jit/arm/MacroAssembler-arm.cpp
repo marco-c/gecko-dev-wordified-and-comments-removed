@@ -10632,7 +10632,7 @@ return
 fcr
 ;
 }
-void
+FaultingCodeRange
 MacroAssemblerARMCompat
 :
 :
@@ -10660,6 +10660,7 @@ imm
 scratch2
 )
 ;
+return
 store8
 (
 scratch2
@@ -10971,7 +10972,7 @@ return
 fcr
 ;
 }
-void
+FaultingCodeRange
 MacroAssemblerARMCompat
 :
 :
@@ -10999,6 +11000,7 @@ imm
 scratch2
 )
 ;
+return
 store16
 (
 scratch2

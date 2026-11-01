@@ -5078,7 +5078,7 @@ BaseIndex
 address
 )
 ;
-void
+FaultingCodeRange
 store8
 (
 Imm32
@@ -5122,7 +5122,7 @@ BaseIndex
 address
 )
 ;
-void
+FaultingCodeRange
 store16
 (
 Imm32
@@ -5199,7 +5199,7 @@ AbsoluteAddress
 address
 )
 ;
-void
+FaultingCodeRange
 store32
 (
 Imm32
@@ -5245,7 +5245,7 @@ SizeWord
 )
 ;
 }
-void
+FaultingCodeRange
 store64
 (
 Imm64
@@ -5254,6 +5254,7 @@ Address
 address
 )
 {
+return
 storePtr
 (
 ImmWord

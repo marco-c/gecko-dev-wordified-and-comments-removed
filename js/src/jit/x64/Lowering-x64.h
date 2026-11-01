@@ -96,6 +96,14 @@ size_t
 lirIndex
 )
 ;
+bool
+canStoreConstantWithoutRegister
+(
+MDefinition
+*
+value
+)
+;
 void
 lowerForALUInt64
 (
