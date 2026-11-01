@@ -587,11 +587,6 @@ pref_key_recent_tabs
 .
 apply
 {
-isVisible
-=
-fenixSettings
-.
-showHomepageRecentTabsSectionToggle
 isChecked
 =
 fenixSettings
@@ -620,11 +615,6 @@ pref_key_customization_bookmarks
 .
 apply
 {
-isVisible
-=
-fenixSettings
-.
-showHomepageBookmarksSectionToggle
 isChecked
 =
 fenixSettings
@@ -812,11 +802,6 @@ pref_key_history_metadata_feature
 .
 apply
 {
-isVisible
-=
-fenixSettings
-.
-showHomepageRecentlyVisitedSectionToggle
 isChecked
 =
 fenixSettings
