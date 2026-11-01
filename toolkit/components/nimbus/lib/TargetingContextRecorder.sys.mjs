@@ -1182,11 +1182,6 @@ windowsBuildNumber
 windowsVersion
 "
 )
-previousSessionEnd
-:
-typeAssertions
-.
-quantity
 primaryResolution
 :
 pick
@@ -1204,11 +1199,6 @@ typeAssertions
 .
 quantity
 profileGroupProfileCount
-:
-typeAssertions
-.
-quantity
-profileLastUse
 :
 typeAssertions
 .
