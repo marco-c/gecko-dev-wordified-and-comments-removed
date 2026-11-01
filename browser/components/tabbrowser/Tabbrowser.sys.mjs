@@ -3045,9 +3045,6 @@ startScroll
 userTypedValue
 "
 "
-userTypedClear
-"
-"
 didStartLoadSinceLastUserTyping
 "
 "
@@ -20046,11 +20043,6 @@ break
 case
 "
 userTypedValue
-"
-:
-case
-"
-userTypedClear
 "
 :
 getter
