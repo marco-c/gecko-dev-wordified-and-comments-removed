@@ -298,11 +298,6 @@ nsEdgeMigrationUtils
 .
 h
 "
-"
-nsWindowsMigrationUtils
-.
-h
-"
 ]
 if
 CONFIG
