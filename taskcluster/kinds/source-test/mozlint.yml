@@ -5582,6 +5582,13 @@ PATH
 "
 MOZ_FETCHES_DIR
 /
+cargo
+-
+audit
+/
+:
+MOZ_FETCHES_DIR
+/
 rustc
 /
 bin
@@ -5652,6 +5659,12 @@ fetches
 :
 toolchain
 :
+-
+linux64
+-
+cargo
+-
+audit
 -
 linux64
 -

@@ -173,6 +173,12 @@ yml
 -
 cargo
 -
+audit
+.
+yml
+-
+cargo
+-
 vet
 .
 yml
