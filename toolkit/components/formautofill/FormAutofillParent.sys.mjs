@@ -7385,6 +7385,7 @@ async
 confirmAddressRemoval
 (
 guid
+flowId
 )
 {
 /
@@ -7437,6 +7438,7 @@ chromeWindow
 "
 address
 "
+flowId
 )
 ;
 if
@@ -7481,6 +7483,7 @@ async
 confirmCreditCardRemoval
 (
 guid
+flowId
 )
 {
 /
@@ -7741,6 +7744,7 @@ chromeWindow
 "
 payment
 "
+flowId
 )
 ;
 if
@@ -7811,6 +7815,12 @@ onAutoCompleteEntrySelected
 (
 message
 data
+{
+flowId
+}
+=
+{
+}
 )
 {
 switch
@@ -7919,6 +7929,7 @@ data
 ?
 .
 guid
+flowId
 )
 ;
 }
@@ -7977,6 +7988,7 @@ data
 ?
 .
 guid
+flowId
 )
 ;
 }

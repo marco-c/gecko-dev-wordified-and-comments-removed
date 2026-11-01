@@ -9257,6 +9257,7 @@ async
 confirmLoginRemoval
 (
 loginGuid
+flowId
 )
 {
 const
@@ -9373,6 +9374,7 @@ chromeWindow
 "
 password
 "
+flowId
 )
 ;
 if
@@ -9449,6 +9451,12 @@ onAutoCompleteEntrySelected
 (
 message
 data
+{
+flowId
+}
+=
+{
+}
 )
 {
 switch
@@ -9515,6 +9523,7 @@ data
 ?
 .
 loginGuid
+flowId
 )
 ;
 }
