@@ -2224,7 +2224,7 @@ nsGkAtoms
 :
 :
 definition
-ATK_ROLE_PARAGRAPH
+ATK_ROLE_DESCRIPTION_VALUE
 NSAccessibilityGroupRole
 "
 AXDefinition
