@@ -104,6 +104,12 @@ l4s_avg_g_down
 ;
 FieldTrialParameter
 <
+bool
+>
+scale_l4s_alpha_with_rtt
+;
+FieldTrialParameter
+<
 int
 >
 rtts_with_loss_before_backoff
