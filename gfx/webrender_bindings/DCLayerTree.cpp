@@ -1661,7 +1661,7 @@ Get
 )
 -
 >
-HandleWebRenderError
+NotifyWebRenderError
 (
 WebRenderError
 :
