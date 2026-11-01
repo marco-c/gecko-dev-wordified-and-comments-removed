@@ -318,7 +318,7 @@ waiting
 return
 (
 <
-button
+span
 className
 =
 "
@@ -326,8 +326,12 @@ try
 -
 again
 -
-button
-waiting
+spinner
+"
+role
+=
+"
+status
 "
 data
 -
@@ -356,6 +360,8 @@ loading
 return
 (
 <
+moz
+-
 button
 className
 =
@@ -365,6 +371,11 @@ try
 again
 -
 button
+"
+type
+=
+"
+primary
 "
 onClick
 =
