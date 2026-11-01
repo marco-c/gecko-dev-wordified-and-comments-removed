@@ -325,16 +325,6 @@ aOptions
 const
 Maybe
 <
-layers
-:
-:
-TextureFactoryIdentifier
->
-&
-aIdentifier
-const
-Maybe
-<
 uint64_t
 >
 &

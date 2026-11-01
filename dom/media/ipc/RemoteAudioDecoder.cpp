@@ -401,9 +401,6 @@ SendPRemoteDecoderConstructor
 this
 aAudioInfo
 aOptions
-Nothing
-(
-)
 aMediaEngineId
 Nothing
 (
