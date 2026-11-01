@@ -4490,7 +4490,6 @@ query_abs_res_dir
             
 raw_log_file
 error_summary_file
-test_summary_file
 =
 self
 .
@@ -4563,12 +4562,6 @@ error_summary_file
 "
 :
 error_summary_file
-                
-"
-test_summary_file
-"
-:
-test_summary_file
                 
 "
 gtest_dir
@@ -9366,6 +9359,34 @@ log_obj
 self
 .
 log_obj
+                    
+test_summary_file
+=
+self
+.
+query_test_summary_file
+(
+                        
+dirs
+[
+"
+abs_blob_upload_dir
+"
+]
+                        
+self
+.
+config
+[
+"
+suite_definitions
+"
+]
+[
+suite_category
+]
+                    
+)
                 
 )
                 
@@ -9971,16 +9992,10 @@ final_env
                         
 )
                     
-self
+parser
 .
-append_test_summary
+finish
 (
-dirs
-[
-"
-abs_blob_upload_dir
-"
-]
 )
                     
 if

@@ -1648,7 +1648,6 @@ run_filename
         
 raw_log_file
 error_summary_file
-test_summary_file
 =
 self
 .
@@ -1923,12 +1922,6 @@ error_summary_file
 "
 :
 error_summary_file
-            
-"
-test_summary_file
-"
-:
-test_summary_file
             
 "
 xpcshell_extra
@@ -3551,6 +3544,38 @@ error_list
 =
 [
 ]
+                    
+test_summary_file
+=
+self
+.
+query_test_summary_file
+(
+                        
+self
+.
+query_abs_dirs
+(
+)
+[
+"
+abs_blob_upload_dir
+"
+]
+                        
+self
+.
+config
+[
+"
+suite_definitions
+"
+]
+[
+suite_category
+]
+                    
+)
                 
 )
                 
@@ -3624,20 +3649,10 @@ output_parser
 parser
 )
                 
-self
+parser
 .
-append_test_summary
+finish
 (
-self
-.
-query_abs_dirs
-(
-)
-[
-"
-abs_blob_upload_dir
-"
-]
 )
                 
 tbpl_status
