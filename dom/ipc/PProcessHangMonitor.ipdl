@@ -196,16 +196,6 @@ RequestContentJSInterrupt
 )
 ;
 async
-BeginStartingDebugger
-(
-)
-;
-async
-EndStartingDebugger
-(
-)
-;
-async
 PaintWhileInterruptingJS
 (
 TabId

@@ -5959,9 +5959,8 @@ ContextMenu
 HamburgerMenu
 KeyShortcut
 SessionRestore
-SystemMenu
 or
-SlowScript
+SystemMenu
 type
 :
 string
@@ -15873,8 +15872,6 @@ ContextMenu
 CommandLine
 -
 SessionRestore
--
-SlowScript
 bugs
 :
 -

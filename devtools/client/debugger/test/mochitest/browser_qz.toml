@@ -455,17 +455,6 @@ js
 "
 browser_dbg
 -
-slow
--
-script
-.
-js
-"
-]
-[
-"
-browser_dbg
--
 source
 -
 pragma

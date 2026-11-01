@@ -214,11 +214,6 @@ nsISelectionListener
 .
 idl
 "
-"
-nsISlowScriptDebug
-.
-idl
-"
 ]
 XPIDL_MODULE
 =
@@ -3031,13 +3026,6 @@ mjs
 "
 "
 LocationHelper
-.
-sys
-.
-mjs
-"
-"
-SlowScriptDebug
 .
 sys
 .
