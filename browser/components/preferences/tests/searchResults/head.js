@@ -24,6 +24,8 @@ preferences
 tests
 /
 head
+-
+common
 .
 js
 "
@@ -33,13 +35,7 @@ this
 const
 DEFAULT_PANE
 =
-SRD_PREF_VALUE
-?
 "
 paneSync
-"
-:
-"
-paneGeneral
 "
 ;

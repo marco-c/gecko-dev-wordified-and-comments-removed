@@ -213,17 +213,6 @@ tests
 searchResults
 /
 browser
--
-srd
-.
-toml
-"
-"
-tests
-/
-searchResults
-/
-browser
 .
 toml
 "
