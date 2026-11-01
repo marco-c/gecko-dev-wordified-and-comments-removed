@@ -7782,7 +7782,7 @@ _ns
 ;
 Element
 *
-searchbarEl
+searchContainerEl
 =
 doc
 -
@@ -7791,7 +7791,9 @@ GetElementById
 (
 u
 "
-searchbar
+search
+-
+container
 "
 _ns
 )
@@ -7806,7 +7808,7 @@ navbar
 >
 Contains
 (
-searchbarEl
+searchContainerEl
 )
 )
 {
@@ -7826,7 +7828,7 @@ utils
 >
 GetBoundsWithoutFlushing
 (
-searchbarEl
+searchContainerEl
 getter_AddRefs
 (
 searchbarRect
