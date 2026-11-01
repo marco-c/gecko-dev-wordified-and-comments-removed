@@ -83,6 +83,13 @@ js
 ]
 [
 "
+test_bouncetracking_storage_load
+.
+js
+"
+]
+[
+"
 test_bouncetracking_telemetry_purge_num_hosts
 .
 js
