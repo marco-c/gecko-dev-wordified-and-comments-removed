@@ -3120,9 +3120,7 @@ await
 getDisplayCardActionDetail
 (
 "
-ai
--
-website
+smartwindow
 -
 chip
 "
@@ -3507,9 +3505,7 @@ page
 pills
 -
 row
-ai
--
-website
+smartwindow
 -
 chip
 "

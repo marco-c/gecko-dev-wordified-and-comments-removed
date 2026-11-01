@@ -7078,9 +7078,7 @@ shadowRoot
 querySelector
 (
 "
-ai
--
-website
+smartwindow
 -
 chip
 "
@@ -7754,9 +7752,7 @@ shadowRoot
 querySelectorAll
 (
 "
-ai
--
-website
+smartwindow
 -
 chip
 "

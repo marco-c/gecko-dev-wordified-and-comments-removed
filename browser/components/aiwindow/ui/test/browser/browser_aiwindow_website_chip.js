@@ -77,9 +77,7 @@ customElements
 whenDefined
 (
 "
-ai
--
-website
+smartwindow
 -
 chip
 "
@@ -613,9 +611,7 @@ chip
 addEventListener
 (
 "
-ai
--
-website
+smartwindow
 -
 chip
 :
@@ -899,9 +895,7 @@ chip
 addEventListener
 (
 "
-ai
--
-website
+smartwindow
 -
 chip
 :
