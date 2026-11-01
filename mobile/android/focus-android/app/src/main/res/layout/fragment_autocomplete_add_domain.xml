@@ -134,15 +134,6 @@ match_parent
 "
 android
 :
-background
-=
-"
-color
-/
-settings_background
-"
-android
-:
 orientation
 =
 "
