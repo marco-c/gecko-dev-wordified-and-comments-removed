@@ -1256,7 +1256,13 @@ resource
 :
 broadcast_resource_listener_
 (
+std
+:
+:
+move
+(
 resource
+)
 )
 {
 broadcast_resource_listener_

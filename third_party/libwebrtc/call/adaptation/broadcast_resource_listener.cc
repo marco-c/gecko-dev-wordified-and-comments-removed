@@ -267,7 +267,13 @@ source_resource
 :
 source_resource_
 (
+std
+:
+:
+move
+(
 source_resource
+)
 )
 is_listening_
 (

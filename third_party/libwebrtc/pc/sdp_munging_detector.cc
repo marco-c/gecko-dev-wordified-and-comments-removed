@@ -2098,7 +2098,9 @@ type
 (
 )
 ;
+const
 auto
+&
 last_created_codecs
 =
 last_created_media_description
@@ -2108,7 +2110,9 @@ codecs
 (
 )
 ;
+const
 auto
+&
 codecs_to_set
 =
 media_description_to_set
