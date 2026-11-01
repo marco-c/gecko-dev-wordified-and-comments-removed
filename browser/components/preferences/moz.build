@@ -150,17 +150,6 @@ tests
 languages
 /
 browser
--
-srd
-.
-toml
-"
-"
-tests
-/
-languages
-/
-browser
 .
 toml
 "
