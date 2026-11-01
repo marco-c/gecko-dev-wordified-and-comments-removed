@@ -7,15 +7,6 @@ GFX_SKIP_CHARS_H
 #
 include
 "
-mozilla
-/
-Attributes
-.
-h
-"
-#
-include
-"
 nsTArray
 .
 h
