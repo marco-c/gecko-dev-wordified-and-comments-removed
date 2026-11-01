@@ -7460,9 +7460,14 @@ BindingType
 ExternalTexture
 =
 >
-unimplemented
+unreachable
 !
 (
+"
+map_binding_type
+for
+ExternalTexture
+"
 )
 }
 }

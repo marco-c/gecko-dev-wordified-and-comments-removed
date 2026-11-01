@@ -1,6 +1,14 @@
+pub
+(
+crate
+)
 mod
 expressions
 ;
+pub
+(
+crate
+)
 mod
 functions
 ;
@@ -1829,6 +1837,10 @@ max_primitives_override
 }
 }
 }
+pub
+(
+crate
+)
 struct
 ModuleTracer
 <
@@ -1920,6 +1932,10 @@ ModuleTracer
 module
 >
 {
+pub
+(
+crate
+)
 fn
 new
 (

@@ -3376,6 +3376,9 @@ Option
 <
 NonZeroU32
 >
+external_texture
+:
+bool
 }
 #
 [
