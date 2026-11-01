@@ -39,9 +39,7 @@ custom_properties
 :
 :
 {
-self
 ComputedSubstitutionFunctions
-SubstitutionFunctionKind
 VariableValue
 as
 CustomVariableValue
@@ -147,6 +145,18 @@ stylesheets
 CssRuleType
 Origin
 UrlExtraData
+}
+;
+use
+crate
+:
+:
+substitution
+:
+:
+{
+self
+SubstitutionFunctionKind
 }
 ;
 use
@@ -5694,7 +5704,7 @@ around
 let
 substituted
 =
-custom_properties
+substitution
 :
 :
 substitute
