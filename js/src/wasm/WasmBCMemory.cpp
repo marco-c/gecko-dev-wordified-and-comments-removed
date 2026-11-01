@@ -2898,6 +2898,9 @@ ptr
 )
 ;
 }
+FaultingCodeRange
+fcr
+;
 if
 (
 IsUnaligned
@@ -2920,6 +2923,8 @@ AnyReg
 :
 I64
 :
+fcr
+=
 masm
 .
 wasmUnalignedLoadI64
@@ -2945,6 +2950,8 @@ AnyReg
 :
 F32
 :
+fcr
+=
 masm
 .
 wasmUnalignedLoadFP
@@ -2970,6 +2977,8 @@ AnyReg
 :
 F64
 :
+fcr
+=
 masm
 .
 wasmUnalignedLoadFP
@@ -2995,6 +3004,8 @@ AnyReg
 :
 I32
 :
+fcr
+=
 masm
 .
 wasmUnalignedLoad
@@ -3041,6 +3052,8 @@ AnyReg
 I64
 )
 {
+fcr
+=
 masm
 .
 wasmLoadI64
@@ -3060,6 +3073,8 @@ i64
 }
 else
 {
+fcr
+=
 masm
 .
 wasmLoad
@@ -3078,6 +3093,12 @@ any
 ;
 }
 }
+MaybeAddDebugStackMapForTrapOOB
+(
+this
+fcr
+)
+;
 #
 elif
 defined
@@ -4041,6 +4062,9 @@ ptr
 )
 ;
 }
+FaultingCodeRange
+fcr
+;
 if
 (
 IsUnaligned
@@ -4063,6 +4087,8 @@ AnyReg
 :
 I64
 :
+fcr
+=
 masm
 .
 wasmUnalignedStoreI64
@@ -4088,6 +4114,8 @@ AnyReg
 :
 F32
 :
+fcr
+=
 masm
 .
 wasmUnalignedStoreFP
@@ -4113,6 +4141,8 @@ AnyReg
 :
 F64
 :
+fcr
+=
 masm
 .
 wasmUnalignedStoreFP
@@ -4138,6 +4168,8 @@ AnyReg
 :
 I32
 :
+fcr
+=
 masm
 .
 wasmUnalignedStore
@@ -4184,6 +4216,8 @@ AnyReg
 I64
 )
 {
+fcr
+=
 masm
 .
 wasmStoreI64
@@ -4203,6 +4237,8 @@ ptr
 }
 else
 {
+fcr
+=
 masm
 .
 wasmStore
@@ -4221,6 +4257,12 @@ ptr
 ;
 }
 }
+MaybeAddDebugStackMapForTrapOOB
+(
+this
+fcr
+)
+;
 #
 elif
 defined
@@ -7767,6 +7809,9 @@ Temps
 temps
 )
 {
+FaultingCodeRange
+fcr
+=
 bc
 -
 >
@@ -7788,6 +7833,12 @@ temps
 .
 t2
 rd
+)
+;
+MaybeAddDebugStackMapForTrapOOB
+(
+bc
+fcr
 )
 ;
 }
@@ -10705,6 +10756,9 @@ Temps
 temps
 )
 {
+FaultingCodeRange
+fcr
+=
 bc
 -
 >
@@ -10725,6 +10779,12 @@ temps
 .
 t2
 rd
+)
+;
+MaybeAddDebugStackMapForTrapOOB
+(
+bc
+fcr
 )
 ;
 }
