@@ -1186,6 +1186,17 @@ WakeUp
 )
 override
 ;
+bool
+CanCreateSockets
+(
+)
+const
+override
+{
+return
+true
+;
+}
 void
 SetDelayOnAddress
 (

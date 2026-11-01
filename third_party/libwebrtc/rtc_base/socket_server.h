@@ -109,6 +109,17 @@ WakeUp
 =
 0
 ;
+virtual
+bool
+CanCreateSockets
+(
+)
+const
+{
+return
+false
+;
+}
 void
 set_network_binder
 (
