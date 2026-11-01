@@ -8734,7 +8734,7 @@ newElementsHint
 )
 ;
 static
-DenseElementResult
+bool
 maybeDensifySparseElements
 (
 JSContext
