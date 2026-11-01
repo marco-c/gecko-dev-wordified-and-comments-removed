@@ -1127,6 +1127,7 @@ initializedLength
 ;
 }
 static
+constexpr
 int
 offsetOfFlags
 (
@@ -1152,6 +1153,7 @@ ObjectElements
 ;
 }
 static
+constexpr
 int
 offsetOfInitializedLength
 (
@@ -1177,6 +1179,7 @@ ObjectElements
 ;
 }
 static
+constexpr
 int
 offsetOfCapacity
 (
@@ -1202,6 +1205,7 @@ ObjectElements
 ;
 }
 static
+constexpr
 int
 offsetOfLength
 (
