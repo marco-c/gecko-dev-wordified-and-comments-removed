@@ -10944,14 +10944,10 @@ mDialog
 =
 nullptr
 ;
-if
+MOZ_ASSERT
 (
 !
 mDialogProgressListener
-)
-{
-NS_WARNING
-(
 "
 The
 dialog
@@ -10964,7 +10960,6 @@ listener
 "
 )
 ;
-}
 if
 (
 mDownloadClassification
