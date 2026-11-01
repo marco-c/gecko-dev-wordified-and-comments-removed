@@ -160,16 +160,13 @@ if
 rtc_include_tests
 )
 {
-rtc_library
+rtc_cc_test
 (
 "
 units_unittests
 "
 )
 {
-testonly
-=
-true
 sources
 =
 [

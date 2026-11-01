@@ -7794,16 +7794,13 @@ string_view
 "
 ]
 }
-rtc_library
+rtc_cc_test
 (
 "
 fake_network_pipe_unittests
 "
 )
 {
-testonly
-=
-true
 sources
 =
 [

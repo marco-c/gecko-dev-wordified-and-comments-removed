@@ -4025,6 +4025,15 @@ base_java
 webrtc_root
 +
 "
+sdk
+/
+android
+:
+native_unittests_java
+"
+webrtc_root
++
+"
 test
 :
 native_test_java
