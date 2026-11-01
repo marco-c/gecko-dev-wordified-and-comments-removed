@@ -66,6 +66,15 @@ browser
 .
 toml
 "
+"
+test
+/
+browser
+/
+browser_anti_tracking
+.
+toml
+"
 ]
 DIRS
 +

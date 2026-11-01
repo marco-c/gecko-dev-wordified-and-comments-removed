@@ -41,6 +41,13 @@ js
 ]
 [
 "
+browser_settings_anti_tracking_hidden
+.
+js
+"
+]
+[
+"
 browser_settings_default_tools_toggle
 .
 js
