@@ -4726,6 +4726,14 @@ IsWriteOnly
 ;
 if
 (
+!
+CurrentState
+(
+)
+.
+filterDescriptionUpToDate
+|
+|
 CurrentState
 (
 )
@@ -5444,6 +5452,11 @@ filterAdditionalImages
 ;
 bool
 filterSourceGraphicTainted
+=
+false
+;
+bool
+filterDescriptionUpToDate
 =
 false
 ;
