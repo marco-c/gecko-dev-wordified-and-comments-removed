@@ -118,6 +118,15 @@ aDevice
 ;
 static
 bool
+IsSupportedByDevice
+(
+ID3D11Device
+*
+aDevice
+)
+;
+static
+bool
 WaitD3D11Fence
 (
 RefPtr
