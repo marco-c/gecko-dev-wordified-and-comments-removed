@@ -3243,7 +3243,7 @@ attribs
 LOCAL_EGL_SYNC_NATIVE_FENCE_FD_ANDROID
 fenceFd
 .
-get
+release
 (
 )
 LOCAL_EGL_NONE
@@ -3266,15 +3266,6 @@ if
 sync
 )
 {
-(
-void
-)
-fenceFd
-.
-release
-(
-)
-;
 if
 (
 egl

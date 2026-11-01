@@ -371,7 +371,7 @@ attribs
 LOCAL_EGL_SYNC_NATIVE_FENCE_FD_ANDROID
 writeFenceFd
 .
-get
+release
 (
 )
 LOCAL_EGL_NONE
@@ -394,15 +394,6 @@ if
 sync
 )
 {
-(
-void
-)
-writeFenceFd
-.
-release
-(
-)
-;
 if
 (
 egl
