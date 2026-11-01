@@ -293,6 +293,10 @@ bool
 aSsl
 bool
 aUseArrayBuffers
+uint32_t
+aConnectionFlags
+=
+0
 )
 ;
 NS_DECL_ISUPPORTS_INHERITED
@@ -645,6 +649,11 @@ ActivateTLS
 (
 )
 ;
+void
+DiscardPendingInput
+(
+)
+;
 nsresult
 MaybeReportErrorAndCloseIfOpen
 (
@@ -701,6 +710,9 @@ mPort
 ;
 bool
 mSsl
+;
+uint32_t
+mConnectionFlags
 ;
 RefPtr
 <
