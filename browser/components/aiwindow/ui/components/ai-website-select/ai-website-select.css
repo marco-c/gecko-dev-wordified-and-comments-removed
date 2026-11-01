@@ -61,6 +61,8 @@ host
 {
 -
 -
+website
+-
 select
 -
 background
@@ -108,6 +110,8 @@ transparent
 )
 ;
 -
+-
+website
 -
 select
 -
@@ -158,6 +162,8 @@ transparent
 )
 ;
 -
+-
+website
 -
 select
 -
@@ -272,6 +278,8 @@ var
 (
 -
 -
+website
+-
 select
 -
 background
@@ -357,6 +365,8 @@ var
 (
 -
 -
+website
+-
 select
 -
 hover
@@ -383,6 +393,8 @@ color
 var
 (
 -
+-
+website
 -
 select
 -
