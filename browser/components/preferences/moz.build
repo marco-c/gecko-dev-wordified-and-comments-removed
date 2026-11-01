@@ -222,17 +222,6 @@ tests
 security
 /
 browser
--
-srd
-.
-toml
-"
-"
-tests
-/
-security
-/
-browser
 .
 toml
 "
