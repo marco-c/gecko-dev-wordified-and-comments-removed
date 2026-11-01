@@ -1192,6 +1192,13 @@ true
 }
 )
 ;
+mTranslator
+-
+>
+ForgetDrawTargets
+(
+)
+;
 RefPtr
 <
 DrawTarget
