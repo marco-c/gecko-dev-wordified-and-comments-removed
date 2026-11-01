@@ -210,6 +210,15 @@ irregexp
 .
 py
 '
+args
+:
+[
+'
+{
+revision
+}
+'
+]
 cwd
 :
 '
