@@ -175,6 +175,8 @@ level
         
 artifact_path
 =
+(
+            
 f
 "
 public
@@ -194,8 +196,12 @@ build_platform
 .
 symbols
 .
-zip
+tar
+.
+zst
 "
+        
+)
         
 dep_th
 =
@@ -350,6 +356,23 @@ SYMBOL_SECRET
 symbol_secret
                     
 "
+MAKECAB
+"
+:
+"
+/
+builds
+/
+worker
+/
+fetches
+/
+makecab
+/
+makecab
+"
+                    
+"
 UPLOAD_SYMBOLS
 "
 :
@@ -370,6 +393,14 @@ cli
 upload
 -
 symbols
+"
+                    
+"
+MACH_BUILD_PYTHON_NATIVE_PACKAGE_SOURCE
+"
+:
+"
+system
 "
                 
 }
@@ -468,6 +499,7 @@ fetches
 "
 :
 {
+                
 "
 fetch
 "
@@ -481,6 +513,19 @@ symbols
 linux64
 "
 ]
+                
+"
+toolchain
+"
+:
+[
+"
+linux64
+-
+makecab
+"
+]
+            
 }
             
 "
