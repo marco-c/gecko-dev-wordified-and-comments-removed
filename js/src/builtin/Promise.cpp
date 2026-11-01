@@ -7820,7 +7820,7 @@ MicroTaskQueueElement
 Kind
 :
 :
-PromiseReaction
+PromiseReactionObject
 &
 reactionVal
 .
@@ -8082,7 +8082,7 @@ MicroTaskQueueElement
 Kind
 :
 :
-PromiseReaction
+PromiseReactionObject
 reaction
 .
 get
@@ -32087,7 +32087,7 @@ MicroTaskQueueElement
 Kind
 :
 :
-PromiseReaction
+PromiseReactionObject
 :
 MOZ_ASSERT
 (
@@ -32770,7 +32770,7 @@ MicroTaskQueueElement
 Kind
 :
 :
-PromiseReaction
+PromiseReactionObject
 :
 {
 JSObject

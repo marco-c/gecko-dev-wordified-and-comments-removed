@@ -655,7 +655,7 @@ Kind
 :
 :
 Embedder
-PromiseReaction
+PromiseReactionObject
 =
 JS
 :
