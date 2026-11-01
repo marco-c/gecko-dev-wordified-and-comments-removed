@@ -623,7 +623,7 @@ this
 )
 -
 >
-GetStyleSheet
+GetImportedSheet
 (
 )
 ;
