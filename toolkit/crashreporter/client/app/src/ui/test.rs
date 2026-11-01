@@ -326,7 +326,7 @@ old
 =
 windows
 .
-fetch_update
+try_update
 (
 Relaxed
 Relaxed
@@ -386,7 +386,7 @@ else
 {
 windows
 .
-fetch_update
+try_update
 (
 Relaxed
 Relaxed
