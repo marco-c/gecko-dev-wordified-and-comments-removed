@@ -176,12 +176,6 @@ libs
 .
 androidx
 .
-media
-implementation
-libs
-.
-androidx
-.
 media3
 .
 common
