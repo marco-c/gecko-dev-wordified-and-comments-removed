@@ -1279,6 +1279,9 @@ name
 bool
 isPrivate
 ;
+double
+initialValue
+;
 }
 ;
 class
