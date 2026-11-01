@@ -2553,9 +2553,6 @@ Ok
 )
 }
 pub
-(
-crate
-)
 fn
 is_fetch_enabled
 (

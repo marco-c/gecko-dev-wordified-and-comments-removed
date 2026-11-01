@@ -389,9 +389,6 @@ camelCase
 )
 ]
 pub
-(
-crate
-)
 struct
 JSONEngineUrls
 {

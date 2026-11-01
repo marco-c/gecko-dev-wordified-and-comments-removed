@@ -39,6 +39,7 @@ store
 :
 get_registered_sync_engine
 ;
+pub
 use
 crate
 :
@@ -51,6 +52,7 @@ credit_cards
 :
 CreditCardsDeletionMetrics
 ;
+pub
 use
 crate
 :
@@ -66,6 +68,7 @@ address
 :
 *
 ;
+pub
 use
 crate
 :
@@ -81,6 +84,7 @@ credit_card
 :
 *
 ;
+pub
 use
 crate
 :
@@ -96,6 +100,7 @@ passport
 :
 *
 ;
+pub
 use
 crate
 :

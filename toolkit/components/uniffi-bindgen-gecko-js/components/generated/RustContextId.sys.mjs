@@ -724,7 +724,7 @@ UniFFIScaffolding
 .
 callSync
 (
-121
+120
 /
 /
 uniffi_context_id_fn_constructor_contextidcomponent_new
@@ -792,7 +792,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-122
+121
 /
 /
 uniffi_context_id_fn_method_contextidcomponent_force_rotation
@@ -872,7 +872,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-123
+122
 /
 /
 uniffi_context_id_fn_method_contextidcomponent_request
@@ -947,7 +947,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-124
+123
 /
 /
 uniffi_context_id_fn_method_contextidcomponent_unset_callback

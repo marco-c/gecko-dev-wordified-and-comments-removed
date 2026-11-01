@@ -19569,7 +19569,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-53
+52
 /
 /
 uniffi_autofill_fn_method_addressesbridgedengine_apply
@@ -19651,7 +19651,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-54
+53
 /
 /
 uniffi_autofill_fn_method_addressesbridgedengine_ensure_current_sync_id
@@ -19719,7 +19719,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-55
+54
 /
 /
 uniffi_autofill_fn_method_addressesbridgedengine_last_sync
@@ -19772,7 +19772,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-56
+55
 /
 /
 uniffi_autofill_fn_method_addressesbridgedengine_reset
@@ -19832,7 +19832,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-57
+56
 /
 /
 uniffi_autofill_fn_method_addressesbridgedengine_reset_sync_id
@@ -19917,7 +19917,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-58
+57
 /
 /
 uniffi_autofill_fn_method_addressesbridgedengine_set_uploaded
@@ -19998,7 +19998,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-59
+58
 /
 /
 uniffi_autofill_fn_method_addressesbridgedengine_store_incoming
@@ -20055,7 +20055,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-60
+59
 /
 /
 uniffi_autofill_fn_method_addressesbridgedengine_sync_finished
@@ -20116,7 +20116,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-61
+60
 /
 /
 uniffi_autofill_fn_method_addressesbridgedengine_sync_id
@@ -20169,7 +20169,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-62
+61
 /
 /
 uniffi_autofill_fn_method_addressesbridgedengine_sync_started
@@ -20220,7 +20220,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-63
+62
 /
 /
 uniffi_autofill_fn_method_addressesbridgedengine_wipe
@@ -21050,7 +21050,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-64
+63
 /
 /
 uniffi_autofill_fn_method_creditcardsbridgedengine_apply
@@ -21132,7 +21132,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-65
+64
 /
 /
 uniffi_autofill_fn_method_creditcardsbridgedengine_ensure_current_sync_id
@@ -21200,7 +21200,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-66
+65
 /
 /
 uniffi_autofill_fn_method_creditcardsbridgedengine_last_sync
@@ -21253,7 +21253,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-67
+66
 /
 /
 uniffi_autofill_fn_method_creditcardsbridgedengine_reset
@@ -21313,7 +21313,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-68
+67
 /
 /
 uniffi_autofill_fn_method_creditcardsbridgedengine_reset_sync_id
@@ -21398,7 +21398,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-69
+68
 /
 /
 uniffi_autofill_fn_method_creditcardsbridgedengine_set_uploaded
@@ -21479,7 +21479,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-70
+69
 /
 /
 uniffi_autofill_fn_method_creditcardsbridgedengine_store_incoming
@@ -21536,7 +21536,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-71
+70
 /
 /
 uniffi_autofill_fn_method_creditcardsbridgedengine_sync_finished
@@ -21597,7 +21597,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-72
+71
 /
 /
 uniffi_autofill_fn_method_creditcardsbridgedengine_sync_id
@@ -21650,7 +21650,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-73
+72
 /
 /
 uniffi_autofill_fn_method_creditcardsbridgedengine_sync_started
@@ -21701,7 +21701,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-74
+73
 /
 /
 uniffi_autofill_fn_method_creditcardsbridgedengine_wipe
@@ -26606,7 +26606,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-75
+74
 /
 /
 uniffi_autofill_fn_constructor_store_new
@@ -26688,7 +26688,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-76
+75
 /
 /
 uniffi_autofill_fn_method_store_add_address
@@ -26770,7 +26770,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-77
+76
 /
 /
 uniffi_autofill_fn_method_store_add_address_with_meta
@@ -26852,7 +26852,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-78
+77
 /
 /
 uniffi_autofill_fn_method_store_add_credit_card
@@ -26934,7 +26934,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-79
+78
 /
 /
 uniffi_autofill_fn_method_store_add_credit_card_with_meta
@@ -27028,7 +27028,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-80
+79
 /
 /
 uniffi_autofill_fn_method_store_add_many_address_tombstones
@@ -27122,7 +27122,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-81
+80
 /
 /
 uniffi_autofill_fn_method_store_add_many_addresses_with_meta
@@ -27216,7 +27216,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-82
+81
 /
 /
 uniffi_autofill_fn_method_store_add_many_credit_card_tombstones
@@ -27310,7 +27310,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-83
+82
 /
 /
 uniffi_autofill_fn_method_store_add_many_credit_cards_with_meta
@@ -27392,7 +27392,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-84
+83
 /
 /
 uniffi_autofill_fn_method_store_add_passport
@@ -27492,7 +27492,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-85
+84
 /
 /
 uniffi_autofill_fn_method_store_addresses_bridged_engine
@@ -27547,7 +27547,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-86
+85
 /
 /
 uniffi_autofill_fn_method_store_count_all_addresses
@@ -27609,7 +27609,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-87
+86
 /
 /
 uniffi_autofill_fn_method_store_count_all_credit_cards
@@ -27671,7 +27671,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-88
+87
 /
 /
 uniffi_autofill_fn_method_store_count_all_passports
@@ -27766,7 +27766,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-89
+88
 /
 /
 uniffi_autofill_fn_method_store_credit_cards_bridged_engine
@@ -27835,7 +27835,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-90
+89
 /
 /
 uniffi_autofill_fn_method_store_delete_address
@@ -27950,7 +27950,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-91
+90
 /
 /
 uniffi_autofill_fn_method_store_delete_all_addresses
@@ -28059,7 +28059,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-92
+91
 /
 /
 uniffi_autofill_fn_method_store_delete_all_credit_cards
@@ -28133,7 +28133,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-93
+92
 /
 /
 uniffi_autofill_fn_method_store_delete_credit_card
@@ -28215,7 +28215,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-94
+93
 /
 /
 uniffi_autofill_fn_method_store_delete_passport
@@ -28297,7 +28297,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-95
+94
 /
 /
 uniffi_autofill_fn_method_store_get_address
@@ -28369,7 +28369,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-96
+95
 /
 /
 uniffi_autofill_fn_method_store_get_all_addresses
@@ -28435,7 +28435,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-97
+96
 /
 /
 uniffi_autofill_fn_method_store_get_all_credit_cards
@@ -28501,7 +28501,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-98
+97
 /
 /
 uniffi_autofill_fn_method_store_get_all_passports
@@ -28577,7 +28577,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-99
+98
 /
 /
 uniffi_autofill_fn_method_store_get_credit_card
@@ -28659,7 +28659,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-100
+99
 /
 /
 uniffi_autofill_fn_method_store_get_passport
@@ -28769,7 +28769,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-101
+100
 /
 /
 uniffi_autofill_fn_method_store_list_credit_card_candidates
@@ -28822,7 +28822,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-102
+101
 /
 /
 uniffi_autofill_fn_method_store_register_with_sync_manager
@@ -28895,7 +28895,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-103
+102
 /
 /
 uniffi_autofill_fn_method_store_run_maintenance
@@ -28946,7 +28946,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-104
+103
 /
 /
 uniffi_autofill_fn_method_store_scrub_encrypted_data
@@ -29078,7 +29078,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-105
+104
 /
 /
 uniffi_autofill_fn_method_store_scrub_undecryptable_credit_card_data_for_remote_replacement
@@ -29131,7 +29131,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-106
+105
 /
 /
 uniffi_autofill_fn_method_store_shutdown
@@ -29189,7 +29189,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-107
+106
 /
 /
 uniffi_autofill_fn_method_store_touch_address
@@ -29260,7 +29260,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-108
+107
 /
 /
 uniffi_autofill_fn_method_store_touch_credit_card
@@ -29331,7 +29331,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-109
+108
 /
 /
 uniffi_autofill_fn_method_store_touch_passport
@@ -29416,7 +29416,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-110
+109
 /
 /
 uniffi_autofill_fn_method_store_update_address
@@ -29493,7 +29493,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-111
+110
 /
 /
 uniffi_autofill_fn_method_store_update_address_with_meta
@@ -29578,7 +29578,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-112
+111
 /
 /
 uniffi_autofill_fn_method_store_update_credit_card
@@ -29655,7 +29655,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-113
+112
 /
 /
 uniffi_autofill_fn_method_store_update_credit_card_with_meta
@@ -29740,7 +29740,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-114
+113
 /
 /
 uniffi_autofill_fn_method_store_update_passport

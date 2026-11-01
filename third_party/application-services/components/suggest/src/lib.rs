@@ -204,6 +204,7 @@ setup_scaffolding
 (
 )
 ;
+pub
 use
 serde_json
 :

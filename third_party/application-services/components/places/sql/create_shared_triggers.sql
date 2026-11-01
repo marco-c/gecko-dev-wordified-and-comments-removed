@@ -1506,8 +1506,8 @@ frecency
 ON
 CONFLICT
 (
-prefix
 host
+prefix
 )
 DO
 UPDATE
@@ -1640,8 +1640,8 @@ frecency
 ON
 CONFLICT
 (
-prefix
 host
+prefix
 )
 DO
 UPDATE
@@ -1878,8 +1878,8 @@ frecency
 ON
 CONFLICT
 (
-prefix
 host
+prefix
 )
 DO
 UPDATE

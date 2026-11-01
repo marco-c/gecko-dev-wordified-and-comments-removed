@@ -1106,8 +1106,8 @@ moz_places
 ?
 UNIQUE
 (
-prefix
 host
+prefix
 )
 )
 ;

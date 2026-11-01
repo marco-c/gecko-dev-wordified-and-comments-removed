@@ -21859,7 +21859,7 @@ UniFFIScaffolding
 .
 callSync
 (
-230
+229
 /
 /
 uniffi_search_fn_constructor_searchengineselector_new
@@ -21944,7 +21944,7 @@ UniFFIScaffolding
 .
 callSync
 (
-231
+230
 /
 /
 uniffi_search_fn_method_searchengineselector_filter_engine_configuration
@@ -22048,7 +22048,7 @@ UniFFIScaffolding
 .
 callSync
 (
-232
+231
 /
 /
 uniffi_search_fn_method_searchengineselector_filter_engine_configuration_v3
@@ -22119,7 +22119,7 @@ UniFFIScaffolding
 .
 callSync
 (
-233
+232
 /
 /
 uniffi_search_fn_method_searchengineselector_set_config_overrides
@@ -22237,7 +22237,7 @@ UniFFIScaffolding
 .
 callSync
 (
-234
+233
 /
 /
 uniffi_search_fn_method_searchengineselector_set_search_config
@@ -22355,7 +22355,7 @@ UniFFIScaffolding
 .
 callSync
 (
-235
+234
 /
 /
 uniffi_search_fn_method_searchengineselector_set_search_config_v3
@@ -22517,7 +22517,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-236
+235
 /
 /
 uniffi_search_fn_method_searchengineselector_use_remote_settings_server
@@ -22625,7 +22625,7 @@ UniFFIScaffolding
 .
 callSync
 (
-237
+236
 /
 /
 uniffi_search_fn_method_searchengineselector_use_remote_settings_server_v3
