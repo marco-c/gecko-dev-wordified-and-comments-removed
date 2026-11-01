@@ -3113,6 +3113,14 @@ audio_coding_module_typedefs
 .
 .
 /
+sframe
+:
+sframe_media_encryptor_interface
+"
+"
+.
+.
+/
 video_coding
 :
 codec_globals_headers

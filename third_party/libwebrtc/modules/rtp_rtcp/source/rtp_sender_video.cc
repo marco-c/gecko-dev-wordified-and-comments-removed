@@ -1328,6 +1328,12 @@ config
 .
 sframe_required
 )
+sframe_encryptor_
+(
+config
+.
+sframe_encryptor
+)
 generic_descriptor_auth_experiment_
 (
 !
