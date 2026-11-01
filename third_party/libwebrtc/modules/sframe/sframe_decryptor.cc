@@ -27,11 +27,6 @@ memory
 #
 include
 <
-optional
->
-#
-include
-<
 span
 >
 #
@@ -196,7 +191,7 @@ sframe
 SFrameErrorType
 :
 :
-invalid_parameter_error
+unknown_key_id_error
 :
 return
 SframeDecryptFailure
@@ -204,10 +199,11 @@ SframeDecryptFailure
 :
 KeyId
 (
-std
-:
-:
-nullopt
+error
+.
+key_id
+(
+)
 )
 ;
 default

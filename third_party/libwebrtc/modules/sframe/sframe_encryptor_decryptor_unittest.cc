@@ -2078,7 +2078,7 @@ GetMaxPlaintextByteSize
 TEST_F
 (
 SframeEncryptorDecryptorTest
-DISABLED_DecryptReportsKeyIdErrorForUnknownKey
+DecryptReportsKeyIdErrorForUnknownKey
 )
 {
 ASSERT_TRUE
@@ -2246,16 +2246,13 @@ SframeDecryptErrorType
 kKeyId
 )
 ;
-EXPECT_FALSE
+EXPECT_EQ
 (
 failure
 -
 >
 key_id
-.
-has_value
-(
-)
+kKeyId
 )
 ;
 }
