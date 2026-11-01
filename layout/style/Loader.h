@@ -1339,7 +1339,9 @@ aSheet
 ;
 enum
 class
-PendingLoad
+TriggeringPendingLoad
+:
+bool
 {
 No
 Yes
@@ -1411,7 +1413,7 @@ SheetLoadData
 aLoadData
 SheetState
 aSheetState
-PendingLoad
+TriggeringPendingLoad
 aPendingLoad
 const
 SheetLoadDataHashKey
@@ -1481,6 +1483,7 @@ const
 SheetLoadDataHashKey
 &
 aKey
+TriggeringPendingLoad
 )
 ;
 void
@@ -1772,9 +1775,9 @@ SheetLoadData
 SheetState
 uint64_t
 aEarlyHintPreloaderId
-PendingLoad
+TriggeringPendingLoad
 =
-PendingLoad
+TriggeringPendingLoad
 :
 :
 No
@@ -1809,6 +1812,7 @@ SheetComplete
 SheetLoadData
 &
 nsresult
+TriggeringPendingLoad
 )
 ;
 void
