@@ -1131,9 +1131,6 @@ const
 StyleComputedTimingFunction
 &
 aTimingFunction
-const
-StyleAnimationComposition
-aComposition
 nsTArray
 <
 Keyframe
@@ -1916,6 +1913,12 @@ _Count
 )
 >
 mNonInheritingComputedStyles
+;
+RefPtr
+<
+ComputedStyle
+>
+mDefaultPageStyleCache
 ;
 public
 :

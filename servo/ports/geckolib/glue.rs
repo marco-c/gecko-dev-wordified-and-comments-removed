@@ -24520,6 +24520,13 @@ raw_data
 :
 &
 PerDocumentStyleData
+parent_style
+:
+Option
+<
+&
+ComputedValues
+>
 page_name
 :
 *
@@ -24705,7 +24712,7 @@ PseudoElement
 :
 :
 MozPageContent
-None
+parent_style
 rule_node
 )
 .
