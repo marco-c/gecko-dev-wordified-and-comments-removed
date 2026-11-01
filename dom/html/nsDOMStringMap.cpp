@@ -381,7 +381,7 @@ nsAtom
 >
 attrAtom
 =
-NS_Atomize
+NS_AtomizeMainThread
 (
 attr
 )
