@@ -131,20 +131,6 @@ SAFARI_APPS
 TRACE_APPS
 )
 from
-condprof
-.
-client
-import
-ProfileNotFoundError
-get_profile
-from
-condprof
-.
-util
-import
-download_file
-get_current_platform
-from
 etw_profile
 import
 ETWProfile
@@ -1893,6 +1879,21 @@ conditioned_profile_dir
 "
 "
         
+from
+condprof
+.
+client
+import
+ProfileNotFoundError
+get_profile
+        
+from
+condprof
+.
+util
+import
+get_current_platform
+        
 if
 self
 .
@@ -2652,6 +2653,13 @@ install_extensions
 :
             
 return
+        
+from
+condprof
+.
+util
+import
+download_file
         
 self
 .
