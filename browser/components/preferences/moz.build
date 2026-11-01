@@ -168,17 +168,6 @@ tests
 networking
 /
 browser
--
-srd
-.
-toml
-"
-"
-tests
-/
-networking
-/
-browser
 .
 toml
 "
