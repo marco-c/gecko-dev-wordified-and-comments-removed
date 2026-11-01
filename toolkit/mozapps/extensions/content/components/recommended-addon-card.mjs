@@ -1563,6 +1563,11 @@ getInstallForURL
 (
 url
 {
+id
+:
+addon
+.
+id
 name
 :
 addon
@@ -1582,6 +1587,11 @@ addon
 .
 taarRecommended
 }
+type
+:
+addon
+.
+type
 }
 )
 ;

@@ -390,9 +390,16 @@ xpi
 path
 }
 {
+id
+type
+:
+"
+extension
+"
 useSystemLocation
 :
 true
+version
 }
 )
 ;

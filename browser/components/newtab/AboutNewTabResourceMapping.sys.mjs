@@ -7309,6 +7309,17 @@ getInstallForURL
 (
 xpiDownloadURL
 {
+id
+:
+BUILTIN_ADDON_ID
+type
+:
+"
+extension
+"
+version
+:
+trainhopAddonVersion
 /
 /
 Categorizes

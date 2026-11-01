@@ -822,9 +822,17 @@ getInstallForURL
 (
 fileURL
 {
+id
+:
+addonId
 existingAddon
 :
 addonFirstInstall
+type
+:
+"
+extension
+"
 version
 :
 newAddonVersion
