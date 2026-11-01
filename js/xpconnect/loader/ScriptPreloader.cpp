@@ -4681,7 +4681,13 @@ uint8_t
 std
 :
 :
-move
+forward
+<
+nsTArray
+<
+uint8_t
+>
+>
 (
 xdrData
 )
