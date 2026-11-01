@@ -447,6 +447,10 @@ meter
 orient
 -
 vertical
+-
+top
+-
+ref
 .
 html
 =
@@ -483,6 +487,10 @@ meter
 orient
 -
 vertical
+-
+top
+-
+ref
 .
 html
 =
@@ -519,6 +527,10 @@ meter
 orient
 -
 vertical
+-
+top
+-
+ref
 .
 html
 =
@@ -534,7 +546,9 @@ orient
 -
 vertical
 -
-rtl
+top
+-
+ref
 .
 html
 =
@@ -574,7 +588,9 @@ orient
 -
 vertical
 -
-rtl
+top
+-
+ref
 .
 html
 =
@@ -614,6 +630,8 @@ orient
 -
 vertical
 -
-rtl
+top
+-
+ref
 .
 html
