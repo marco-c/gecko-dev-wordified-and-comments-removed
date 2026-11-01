@@ -3084,13 +3084,6 @@ establishes_sub_graph
 :
 bool
 pub
-resolve_source
-:
-Option
-<
-RenderTaskId
->
-pub
 collected_backdrop
 :
 bool
@@ -3132,9 +3125,6 @@ Invalid
 establishes_sub_graph
 :
 false
-resolve_source
-:
-None
 collected_backdrop
 :
 false
@@ -3186,9 +3176,6 @@ tiles
 establishes_sub_graph
 :
 false
-resolve_source
-:
-None
 collected_backdrop
 :
 false
@@ -3248,9 +3235,6 @@ root_task_id
 dirty_rect
 }
 establishes_sub_graph
-resolve_source
-:
-None
 collected_backdrop
 :
 false
