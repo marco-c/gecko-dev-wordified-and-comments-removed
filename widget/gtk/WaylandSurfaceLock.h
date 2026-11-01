@@ -88,6 +88,11 @@ Commit
 (
 )
 ;
+void
+CommitAndFlushDisplay
+(
+)
+;
 #
 endif
 private
