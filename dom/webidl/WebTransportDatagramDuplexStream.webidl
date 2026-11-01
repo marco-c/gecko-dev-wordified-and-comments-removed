@@ -125,6 +125,7 @@ Throws
 attribute
 unrestricted
 double
+?
 incomingMaxAge
 ;
 [
@@ -133,6 +134,7 @@ Throws
 attribute
 unrestricted
 double
+?
 outgoingMaxAge
 ;
 attribute
