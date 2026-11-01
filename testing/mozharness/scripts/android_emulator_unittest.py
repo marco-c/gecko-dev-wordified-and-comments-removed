@@ -2853,6 +2853,26 @@ fission
 )
         
 if
+category
+=
+=
+"
+gtest
+"
+:
+            
+cmd
+.
+extend
+(
+self
+.
+query_gtest_symbols_options
+(
+)
+)
+        
+if
 c
 [
 "

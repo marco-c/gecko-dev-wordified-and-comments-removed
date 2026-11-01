@@ -3065,6 +3065,12 @@ dest
 symbols_path
 "
             
+action
+=
+"
+append
+"
+            
 default
 =
 None
@@ -3091,6 +3097,15 @@ zip
 file
 containing
 symbols
+;
+"
+            
+"
+can
+be
+given
+multiple
+times
 "
         
 )
