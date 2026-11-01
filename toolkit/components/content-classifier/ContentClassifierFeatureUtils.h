@@ -35,7 +35,7 @@ public
 :
 static
 bool
-IsThirdPartyUnlessAnnotating
+ShouldClassifyForETP
 (
 const
 ContentClassifierRequest
@@ -47,7 +47,7 @@ aMode
 ;
 static
 bool
-IsNonPassiveThirdPartyUnlessAnnotating
+ShouldClassifyNonPassiveForETP
 (
 const
 ContentClassifierRequest
