@@ -179,7 +179,7 @@ UsageQuota
 .
 Metered
 (
-cycleEnd
+resetTime
 =
 null
 max
