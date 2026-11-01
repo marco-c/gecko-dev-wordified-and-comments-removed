@@ -17543,7 +17543,7 @@ let
 accessKey
 =
 "
-contextMenuPrivateSearch
+contextMenuPrivateSearch2
 .
 accesskey
 "
@@ -17572,7 +17572,7 @@ privateEngineName
 accessKey
 =
 "
-contextMenuPrivateSearchOtherEngine
+contextMenuPrivateSearchOtherEngine2
 .
 accesskey
 "
