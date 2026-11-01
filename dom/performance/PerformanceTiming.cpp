@@ -655,6 +655,13 @@ aHttpChannel
 aChannel
 )
 ;
+mTimingAllowed
+=
+mTimingAllowed
+&
+&
+mAllRedirectsPassTAO
+;
 }
 }
 PerformanceTimingData
