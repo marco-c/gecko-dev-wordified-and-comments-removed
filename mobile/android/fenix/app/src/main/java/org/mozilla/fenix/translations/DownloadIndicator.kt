@@ -83,6 +83,16 @@ foundation
 .
 layout
 .
+fillMaxWidth
+import
+androidx
+.
+compose
+.
+foundation
+.
+layout
+.
 padding
 import
 androidx
@@ -94,16 +104,6 @@ foundation
 layout
 .
 size
-import
-androidx
-.
-compose
-.
-foundation
-.
-layout
-.
-wrapContentSize
 import
 androidx
 .
@@ -467,6 +467,7 @@ icon
 *
 /
 Composable
+internal
 fun
 DownloadIconIndicator
 (
@@ -590,6 +591,7 @@ icon
 *
 /
 Composable
+internal
 fun
 DownloadInProgressIndicator
 (
@@ -773,6 +775,7 @@ text
 *
 /
 Composable
+internal
 fun
 DownloadIndicator
 (
@@ -831,7 +834,7 @@ contentDescription
 }
 }
 .
-wrapContentSize
+fillMaxWidth
 (
 )
 )
