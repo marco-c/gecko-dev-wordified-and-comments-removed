@@ -11008,6 +11008,15 @@ createSymlink
 )
 {
 let
+baseDir
+=
+do_get_tempdir
+(
+)
+.
+path
+;
+let
 args
 =
 [
@@ -11016,6 +11025,7 @@ setup
 -
 symlink
 "
+baseDir
 "
 moz
 -
@@ -11119,6 +11129,7 @@ setup
 -
 symlink
 "
+baseDir
 "
 moz
 -
@@ -11186,6 +11197,15 @@ removeSymlink
 )
 {
 let
+baseDir
+=
+do_get_tempdir
+(
+)
+.
+path
+;
+let
 args
 =
 [
@@ -11194,6 +11214,7 @@ remove
 -
 symlink
 "
+baseDir
 "
 moz
 -
@@ -11258,6 +11279,7 @@ remove
 -
 symlink
 "
+baseDir
 "
 moz
 -
