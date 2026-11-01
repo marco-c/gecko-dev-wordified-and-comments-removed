@@ -594,6 +594,14 @@ internal
 "
 true
 "
+systemAssigned
+:
+CustomKeys
+.
+isSystemAssigned
+(
+keyEl
+)
 }
 ;
 }
