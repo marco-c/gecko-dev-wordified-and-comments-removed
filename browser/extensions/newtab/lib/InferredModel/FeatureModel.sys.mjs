@@ -1698,6 +1698,9 @@ false
 logScale
 =
 false
+clickScale
+=
+false
 normalize
 =
 false
@@ -1749,6 +1752,12 @@ this
 logScale
 =
 logScale
+;
+this
+.
+clickScale
+=
+clickScale
 ;
 this
 .
