@@ -1648,12 +1648,11 @@ return
 new
 Set
 (
-[
-.
-.
-.
 matches
-]
+.
+values
+(
+)
 .
 map
 (

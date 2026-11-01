@@ -8359,12 +8359,11 @@ gi
 const
 scriptStartOffsets
 =
-[
+Array
 .
-.
-.
+from
+(
 scriptTagMatches
-]
 .
 map
 (
@@ -8381,6 +8380,7 @@ rv
 ]
 .
 length
+)
 )
 ;
 const

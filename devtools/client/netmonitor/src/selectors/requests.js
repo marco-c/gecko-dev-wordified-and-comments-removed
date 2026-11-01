@@ -876,10 +876,6 @@ channelId
 )
 {
 return
-[
-.
-.
-.
 state
 .
 requests
@@ -889,7 +885,6 @@ requests
 values
 (
 )
-]
 .
 find
 (

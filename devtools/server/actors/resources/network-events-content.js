@@ -473,17 +473,12 @@ TYPE_SCRIPT
 const
 hasURI
 =
-Array
-.
-from
-(
 this
 .
 networkEvents
 .
 values
 (
-)
 )
 .
 some
@@ -821,7 +816,6 @@ networkEventActor
 .
 addMemoryCacheData
 (
-channel
 memoryCacheKey
 )
 ;

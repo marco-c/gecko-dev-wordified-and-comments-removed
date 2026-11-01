@@ -531,10 +531,10 @@ JSON
 .
 stringify
 (
-[
+Array
 .
-.
-.
+from
+(
 this
 .
 _indexes
@@ -542,7 +542,6 @@ _indexes
 values
 (
 )
-]
 .
 map
 (
@@ -553,6 +552,7 @@ index
 .
 toObject
 (
+)
 )
 )
 )

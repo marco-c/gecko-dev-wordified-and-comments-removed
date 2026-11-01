@@ -2268,10 +2268,6 @@ sorted
 const
 nextSibling
 =
-[
-.
-.
-.
 this
 .
 items
@@ -2279,7 +2275,6 @@ items
 values
 (
 )
-]
 .
 find
 (

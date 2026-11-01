@@ -22891,14 +22891,13 @@ listWebExtensions
 )
 {
 return
-Array
-.
-from
-(
 this
 .
 #
 webExtensions
+.
+entries
+(
 )
 .
 map

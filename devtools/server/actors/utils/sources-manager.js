@@ -1541,10 +1541,10 @@ error
 const
 actors
 =
-[
+Array
 .
-.
-.
+from
+(
 this
 .
 _sourceActors
@@ -1552,7 +1552,6 @@ _sourceActors
 values
 (
 )
-]
 .
 filter
 (
@@ -1580,6 +1579,7 @@ no
 source
 ]
 "
+)
 )
 ;
 if

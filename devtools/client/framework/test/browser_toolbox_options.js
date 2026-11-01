@@ -1496,6 +1496,10 @@ toolbox
 listWebExtensions
 (
 )
+.
+toArray
+(
+)
 ;
 function
 toggleWebExtension
@@ -1663,6 +1667,10 @@ disabledUUIDs
 toolbox
 .
 listWebExtensions
+(
+)
+.
+toArray
 (
 )
 .
@@ -2062,6 +2070,10 @@ listWebExtensions
 (
 )
 .
+toArray
+(
+)
+.
 length
 "
 There
@@ -2088,6 +2100,10 @@ registeredUUIDs
 toolbox
 .
 listWebExtensions
+(
+)
+.
+toArray
 (
 )
 .
@@ -2201,6 +2217,10 @@ is
 toolbox
 .
 listWebExtensions
+(
+)
+.
+toArray
 (
 )
 .

@@ -269,10 +269,10 @@ host
 )
 {
 return
-[
+Array
 .
-.
-.
+from
+(
 this
 .
 hostVsStores
@@ -285,7 +285,6 @@ host
 keys
 (
 )
-]
 .
 map
 (
@@ -304,6 +303,7 @@ a
 )
 ;
 }
+)
 )
 ;
 }
