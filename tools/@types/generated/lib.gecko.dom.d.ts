@@ -98288,11 +98288,6 @@ url
 string
 ;
 readonly
-userContextId
-:
-number
-;
-readonly
 visitCount
 :
 number

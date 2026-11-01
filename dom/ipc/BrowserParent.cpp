@@ -21844,14 +21844,6 @@ aURI
 aLastVisitedURI
 aFlags
 aBrowserId
-mBrowsingContext
--
->
-OriginAttributesRef
-(
-)
-.
-mUserContextId
 )
 ;
 }
