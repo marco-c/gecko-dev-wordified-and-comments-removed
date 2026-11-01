@@ -10651,11 +10651,11 @@ confirmation
 -
 hint
 -
-credit
+payment
 -
-card
+method
 -
-created
+saved
 "
 updated
 :
@@ -10664,9 +10664,9 @@ confirmation
 -
 hint
 -
-credit
+payment
 -
-card
+method
 -
 updated
 "
