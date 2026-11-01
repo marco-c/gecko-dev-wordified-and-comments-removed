@@ -51,6 +51,15 @@ rtp_parameters
 .
 h
 "
+#
+include
+"
+call
+/
+sframe_options
+.
+h
+"
 namespace
 webrtc
 {
@@ -375,6 +384,9 @@ bool
 raw_payload
 =
 false
+;
+SframeSendOptions
+sframe_options
 ;
 std
 :

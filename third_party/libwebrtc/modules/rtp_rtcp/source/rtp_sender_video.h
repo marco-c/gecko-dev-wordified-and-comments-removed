@@ -509,6 +509,11 @@ raw_packetization
 =
 false
 ;
+bool
+sframe_required
+=
+false
+;
 }
 ;
 explicit
@@ -1087,6 +1092,10 @@ nullptr
 const
 bool
 require_frame_encryption_
+;
+const
+bool
+sframe_required_
 ;
 const
 bool

@@ -1784,6 +1784,15 @@ FrameEncryptorInterface
 frame_encryptor
 )
 ;
+void
+UpdateSframeOptions
+(
+const
+SframeSendOptions
+&
+options
+)
+;
 bool
 SetVideoSend
 (

@@ -2295,6 +2295,16 @@ require_frame_encryption
 ;
 video_config
 .
+sframe_required
+=
+rtp_config
+.
+sframe_options
+.
+required
+;
+video_config
+.
 field_trials
 =
 &
