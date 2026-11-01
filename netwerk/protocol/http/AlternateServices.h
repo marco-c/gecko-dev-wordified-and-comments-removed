@@ -822,6 +822,15 @@ ClearAltServiceMappings
 )
 ;
 void
+ClearAltServiceMappingsMatchingOA
+(
+const
+OriginAttributes
+&
+aOriginAttributes
+)
+;
+void
 ClearHostMapping
 (
 const
