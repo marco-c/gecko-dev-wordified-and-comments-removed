@@ -87,6 +87,11 @@ TestWinUtils
 .
 cpp
 "
+"
+TestWorkspaceID
+.
+cpp
+"
 ]
 LOCAL_INCLUDES
 +
