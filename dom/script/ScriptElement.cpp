@@ -913,6 +913,14 @@ GetComposedDoc
 |
 |
 mMalformed
+|
+|
+cont
+-
+>
+IsInSVGUseShadowTree
+(
+)
 )
 {
 return
