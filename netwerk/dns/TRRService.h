@@ -96,12 +96,6 @@ mozilla
 namespace
 net
 {
-class
-TRRServiceChild
-;
-class
-TRRServiceParent
-;
 const
 nsCString
 &
@@ -489,14 +483,6 @@ TRRService
 friend
 class
 TRR
-;
-friend
-class
-TRRServiceChild
-;
-friend
-class
-TRRServiceParent
 ;
 static
 void

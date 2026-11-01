@@ -160,12 +160,6 @@ if
 NS_IsMainThread
 (
 )
-&
-&
-!
-XRE_IsSocketProcess
-(
-)
 )
 {
 nsresult
