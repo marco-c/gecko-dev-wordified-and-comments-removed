@@ -7207,6 +7207,11 @@ Private
 store
 =
 store
+coroutineScope
+=
+requireComponents
+.
+applicationScope
 shouldHide
 =
 {

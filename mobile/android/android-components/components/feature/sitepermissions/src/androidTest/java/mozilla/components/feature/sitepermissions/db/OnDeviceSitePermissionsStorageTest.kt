@@ -127,6 +127,14 @@ coroutines
 .
 test
 .
+TestScope
+import
+kotlinx
+.
+coroutines
+.
+test
+.
 runTest
 import
 mozilla
@@ -324,6 +332,11 @@ storage
 OnDiskSitePermissionsStorage
 (
 context
+coroutineScope
+=
+TestScope
+(
+)
 )
 storage
 .

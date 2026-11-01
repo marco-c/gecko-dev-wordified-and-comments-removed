@@ -1337,6 +1337,11 @@ store
 components
 .
 store
+coroutineScope
+=
+components
+.
+applicationScope
 )
 owner
 =

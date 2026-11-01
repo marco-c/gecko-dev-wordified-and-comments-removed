@@ -1437,6 +1437,9 @@ lazy
 OnDiskSitePermissionsStorage
 (
 applicationContext
+coroutineScope
+=
+applicationScope
 )
 }
 val

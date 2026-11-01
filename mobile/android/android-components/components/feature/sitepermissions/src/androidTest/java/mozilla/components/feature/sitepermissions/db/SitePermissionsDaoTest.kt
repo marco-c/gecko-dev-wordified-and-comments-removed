@@ -97,6 +97,14 @@ app
 .
 ApplicationProvider
 import
+kotlinx
+.
+coroutines
+.
+test
+.
+runTest
+import
 mozilla
 .
 components
@@ -274,6 +282,8 @@ fun
 testInsertingAndReadingSitePermissions
 (
 )
+=
+runTest
 {
 val
 origin
@@ -345,6 +355,8 @@ fun
 testRemoveAllSitePermissions
 (
 )
+=
+runTest
 {
 for
 (
@@ -420,6 +432,8 @@ fun
 testUpdateAndDeleteSitePermissions
 (
 )
+=
+runTest
 {
 val
 origin
@@ -574,6 +588,7 @@ notFoundSitePermissions
 )
 }
 private
+suspend
 fun
 insertMockSitePermissions
 (

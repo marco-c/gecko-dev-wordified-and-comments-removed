@@ -83,6 +83,14 @@ runners
 .
 AndroidJUnit4
 import
+kotlinx
+.
+coroutines
+.
+test
+.
+TestScope
+import
 mozilla
 .
 components
@@ -446,6 +454,11 @@ mock
 store
 =
 BrowserStore
+(
+)
+coroutineScope
+=
+TestScope
 (
 )
 )

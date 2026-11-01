@@ -124,6 +124,7 @@ interface
 SitePermissionsDao
 {
 Insert
+suspend
 fun
 insert
 (
@@ -134,6 +135,7 @@ SitePermissionsEntity
 :
 Long
 Update
+suspend
 fun
 update
 (
@@ -154,6 +156,7 @@ saved_at
 DESC
 "
 )
+suspend
 fun
 getSitePermissions
 (
@@ -179,6 +182,7 @@ LIMIT
 1
 "
 )
+suspend
 fun
 getSitePermissionsBy
 (
@@ -190,6 +194,7 @@ String
 SitePermissionsEntity
 ?
 Delete
+suspend
 fun
 deleteSitePermissions
 (
@@ -205,6 +210,7 @@ FROM
 site_permissions
 "
 )
+suspend
 fun
 deleteAllSitePermissions
 (

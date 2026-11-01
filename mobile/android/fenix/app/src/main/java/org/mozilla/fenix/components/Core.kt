@@ -2521,6 +2521,9 @@ geckoRuntime
 OnDiskSitePermissionsStorage
 (
 context
+coroutineScope
+=
+applicationScope
 )
 )
 }
