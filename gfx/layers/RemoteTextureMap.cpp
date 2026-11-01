@@ -5712,7 +5712,7 @@ RemoteTextureId
 aTextureId
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 CompositorThreadHolder
 :
@@ -6151,7 +6151,7 @@ RemoteTextureHostWrapper
 aTextureHostWrapper
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 CompositorThreadHolder
 :
@@ -6339,7 +6339,7 @@ RemoteTextureHostWrapper
 aTextureHostWrapper
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 CompositorThreadHolder
 :
@@ -7026,7 +7026,7 @@ RemoteTextureHostWrapper
 aTextureHostWrapper
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 CompositorThreadHolder
 :
@@ -7107,7 +7107,7 @@ TextureFlags
 aFlags
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 CompositorThreadHolder
 :
@@ -7235,7 +7235,7 @@ ProcessId
 aForPid
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 CompositorThreadHolder
 :
@@ -7392,7 +7392,7 @@ RemoteTextureInfo
 aCallback
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 CompositorThreadHolder
 :
@@ -7713,7 +7713,7 @@ RemoteTextureInfo
 aInfo
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 CompositorThreadHolder
 :
@@ -8128,7 +8128,7 @@ RemoteTextureInfo
 aInfo
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 CompositorThreadHolder
 :

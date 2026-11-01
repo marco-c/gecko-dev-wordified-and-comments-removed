@@ -430,7 +430,7 @@ mHasAlpha
 aHasAlpha
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 XRE_IsGPUProcess
 (
@@ -628,7 +628,7 @@ uint32_t
 aAllocate
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 RemoteMediaManagerParent
 :
@@ -2998,14 +2998,14 @@ Init
 (
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 NS_IsMainThread
 (
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 XRE_IsGPUProcess
 (
@@ -3050,7 +3050,7 @@ Shutdown
 (
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 NS_IsMainThread
 (
@@ -3396,7 +3396,7 @@ GLContext
 aGL
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 wr
 :
@@ -3583,7 +3583,7 @@ GpuProcessAndroidImageReaderId
 aImageReaderId
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 wr
 :

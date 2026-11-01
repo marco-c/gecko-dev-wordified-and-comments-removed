@@ -248,7 +248,7 @@ AddAnimation
 (
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 CompositorThreadHolder
@@ -303,7 +303,7 @@ AddAnimationForNextTransaction
 (
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 CompositorThreadHolder

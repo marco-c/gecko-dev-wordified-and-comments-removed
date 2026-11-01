@@ -324,7 +324,7 @@ GLContext
 aGL
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 wr
 :
@@ -1273,7 +1273,7 @@ CollectPendingSurfaces
 (
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 wr
 :

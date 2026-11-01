@@ -683,7 +683,7 @@ GetGuardFile
 (
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 XRE_IsParentProcess
 (
@@ -914,7 +914,7 @@ RecoverFromCrash
 (
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 XRE_IsParentProcess
 (
@@ -1474,7 +1474,7 @@ DriverInitStatus
 aStatus
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 XRE_IsParentProcess
 (
@@ -1506,7 +1506,7 @@ FlushPreferences
 (
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 XRE_IsParentProcess
 (

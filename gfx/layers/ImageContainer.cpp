@@ -2035,7 +2035,7 @@ GetImageContainerListener
 )
 const
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 InImageBridgeChildThread
 (
@@ -3382,7 +3382,7 @@ MOZ_ASSERT
 mIsAsync
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 XRE_IsRDDProcess
 (

@@ -347,7 +347,7 @@ GfxVarUpdate
 aUpdate
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 XRE_IsParentProcess
@@ -428,7 +428,7 @@ gfxVarReceiver
 aReceiver
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 NS_IsMainThread
 (
@@ -472,7 +472,7 @@ gfxVarReceiver
 aReceiver
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 NS_IsMainThread
 (
@@ -507,7 +507,7 @@ FetchNonDefaultVars
 (
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 NS_IsMainThread
 (
@@ -644,7 +644,7 @@ VarBase
 aVar
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 NS_IsMainThread
 (

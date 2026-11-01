@@ -65,7 +65,7 @@ Init
 (
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 XRE_IsGPUProcess
 (
@@ -93,7 +93,7 @@ Shutdown
 (
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 XRE_IsGPUProcess
 (

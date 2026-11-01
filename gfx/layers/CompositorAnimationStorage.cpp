@@ -543,7 +543,7 @@ uint64_t
 aId
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 CompositorThreadHolder
 :
@@ -628,7 +628,7 @@ HasAnimations
 )
 const
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 CompositorThreadHolder
 :
@@ -1197,7 +1197,7 @@ TimeStamp
 aPreviousSampleTime
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 CompositorThreadHolder
 :
