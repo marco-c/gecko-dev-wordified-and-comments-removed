@@ -138,7 +138,7 @@ static_assert
 JS_STRUCTURED_CLONE_VERSION
 =
 =
-8
+9
 "
 Need
 to

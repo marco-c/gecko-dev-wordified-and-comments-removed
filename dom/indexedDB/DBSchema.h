@@ -32,7 +32,7 @@ const
 uint32_t
 kMajorSchemaVersion
 =
-26
+27
 ;
 const
 uint32_t
