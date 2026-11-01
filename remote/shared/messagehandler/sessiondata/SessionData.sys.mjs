@@ -210,6 +210,17 @@ const
 SessionDataCategory
 =
 {
+DevicePixelRatioOverride
+:
+"
+device
+-
+pixel
+-
+ratio
+-
+override
+"
 DownloadBehaviorOverride
 :
 "
