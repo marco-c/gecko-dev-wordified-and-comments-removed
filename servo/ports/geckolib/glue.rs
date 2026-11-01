@@ -45576,6 +45576,8 @@ add_relative_selector_attribute_dependency
 <
 '
 a
+'
+b
 >
 (
 element
@@ -45611,6 +45613,8 @@ RelativeSelectorDependencyCollector
 <
 '
 a
+'
+b
 GeckoElement
 <
 '
@@ -49223,6 +49227,8 @@ relative_selector_dependencies_for_id
 <
 '
 a
+'
+b
 >
 (
 old_id
@@ -49266,6 +49272,8 @@ RelativeSelectorDependencyCollector
 <
 '
 a
+'
+b
 GeckoElement
 <
 '
@@ -49367,6 +49375,8 @@ relative_selector_dependencies_for_class
 <
 '
 a
+'
+b
 >
 (
 classes_changed
@@ -49411,6 +49421,8 @@ RelativeSelectorDependencyCollector
 <
 '
 a
+'
+b
 GeckoElement
 <
 '
@@ -49482,6 +49494,8 @@ relative_selector_dependencies_for_custom_state
 <
 '
 a
+'
+b
 >
 (
 state
@@ -49516,6 +49530,8 @@ RelativeSelectorDependencyCollector
 <
 '
 a
+'
+b
 GeckoElement
 <
 '

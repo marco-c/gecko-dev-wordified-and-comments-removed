@@ -5112,6 +5112,7 @@ matches
 [
 inline
 ]
+pub
 fn
 matches_compound_selector
 <
