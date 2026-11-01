@@ -16,6 +16,10 @@ import
 tempfile
 import
 zipfile
+from
+pathlib
+import
+Path
 import
 mozfile
 from
@@ -711,7 +715,9 @@ f
 index
 }
 .
-json
+jslb
+.
+gz
 "
 )
                 
@@ -766,26 +772,17 @@ symbolicated
 [
                     
 "
-.
-json
-.
-gz
 "
-if
-archived_path
 .
-endswith
+join
 (
-"
-.
-gz
-"
+Path
+(
+archived_path
 )
-else
-"
 .
-json
-"
+suffixes
+)
                     
 for
 _
