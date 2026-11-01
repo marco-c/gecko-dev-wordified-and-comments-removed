@@ -919,7 +919,7 @@ c
 run
 (
 {
-fxAccountToken
+token
 :
 "
 tk
@@ -959,7 +959,7 @@ equal
 (
 receivedArgs
 .
-fxAccountToken
+token
 "
 tk
 "

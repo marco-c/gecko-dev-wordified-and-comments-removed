@@ -89,7 +89,7 @@ mjs
 ;
 import
 {
-openAIEngine
+AuthProvider
 }
 from
 "
@@ -108,7 +108,7 @@ aiwindow
 /
 models
 /
-openAIEngine
+AuthProvider
 .
 sys
 .
@@ -580,12 +580,12 @@ conversation
 run
 (
 {
-fxAccountToken
+token
 :
 await
-openAIEngine
+AuthProvider
 .
-getFxAccountToken
+getToken
 (
 )
 }

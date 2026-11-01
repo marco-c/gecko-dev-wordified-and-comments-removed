@@ -2555,7 +2555,7 @@ e
 )
 ;
 const
-fxAccountToken
+token
 =
 "
 test_fxa_token_12345
@@ -2642,7 +2642,7 @@ token
 "
 }
 ]
-fxAccountToken
+token
 chatId
 }
 ;
@@ -2655,7 +2655,7 @@ Run
 the
 inference
 with
-fxAccountToken
+token
 "
 )
 ;
@@ -2820,7 +2820,7 @@ info
 "
 Test
 without
-fxAccountToken
+token
 -
 should
 not

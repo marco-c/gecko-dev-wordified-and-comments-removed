@@ -229,7 +229,7 @@ defineESModuleGetters
 (
 lazy
 {
-openAIEngine
+AuthProvider
 :
 "
 moz
@@ -247,7 +247,7 @@ aiwindow
 /
 models
 /
-openAIEngine
+AuthProvider
 .
 sys
 .
@@ -3713,14 +3713,14 @@ conversation
 run
 (
 {
-fxAccountToken
+token
 :
 await
 lazy
 .
-openAIEngine
+AuthProvider
 .
-getFxAccountToken
+getToken
 (
 )
 }

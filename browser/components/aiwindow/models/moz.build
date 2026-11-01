@@ -120,6 +120,13 @@ MOZ_SRC_FILES
 =
 [
 "
+AuthProvider
+.
+sys
+.
+mjs
+"
+"
 Chat
 .
 sys

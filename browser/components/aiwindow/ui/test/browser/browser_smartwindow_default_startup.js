@@ -289,9 +289,9 @@ sinon
 .
 stub
 (
-AIWindowAccountAuth
+AuthProvider
 "
-ensureAIWindowAccess
+maybeSignIn
 "
 )
 .

@@ -1411,9 +1411,9 @@ sb
 .
 stub
 (
-AIWindowAccountAuth
+AuthProvider
 "
-ensureAIWindowAccess
+maybeSignIn
 "
 )
 .

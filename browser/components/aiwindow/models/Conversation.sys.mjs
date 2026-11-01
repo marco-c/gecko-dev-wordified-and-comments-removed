@@ -2791,7 +2791,7 @@ object
 opts
 -
 {
-fxAccountToken
+token
 signal
 ?
 .
@@ -2912,7 +2912,7 @@ object
 opts
 -
 {
-fxAccountToken
+token
 signal
 ?
 chatId

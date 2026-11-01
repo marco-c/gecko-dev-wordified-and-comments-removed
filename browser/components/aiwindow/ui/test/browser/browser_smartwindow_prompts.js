@@ -5423,7 +5423,7 @@ conversation
 ;
 }
 {
-fxAccountToken
+token
 :
 "
 mock
