@@ -188,6 +188,16 @@ BeginFrame
 override
 ;
 bool
+SurfaceOriginIsTopLeft
+(
+)
+override
+{
+return
+true
+;
+}
+bool
 MaybeReadback
 (
 const
