@@ -4104,16 +4104,6 @@ False
 "
 browser
 .
-contentblocking
-.
-introCount
-"
-:
-99
-        
-"
-browser
-.
 dom
 .
 window
