@@ -581,6 +581,14 @@ clear
 (
 )
 ;
+UrlbarUtils
+.
+_backspaceBlocks
+.
+clear
+(
+)
+;
 }
 )
 ;
