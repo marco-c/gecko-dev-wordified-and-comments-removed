@@ -6513,7 +6513,7 @@ enabled
 "
 value
 :
-false
+true
 }
 ]
 [
