@@ -8740,7 +8740,7 @@ TimeDelta
 :
 Millis
 (
-700
+500
 )
 )
 )
@@ -8793,7 +8793,7 @@ TimeDelta
 :
 Millis
 (
-700
+500
 )
 )
 )
@@ -8827,7 +8827,7 @@ DataRate
 :
 KilobitsPerSec
 (
-90
+60
 )
 )
 )
@@ -8861,7 +8861,7 @@ DataRate
 :
 KilobitsPerSec
 (
-90
+60
 )
 )
 )
