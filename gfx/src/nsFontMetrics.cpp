@@ -2066,6 +2066,8 @@ nsFontMetrics
 :
 InterScriptSpacingWidth
 (
+float
+aAutospaceSize
 )
 const
 {
@@ -2099,14 +2101,6 @@ m
 .
 emHeight
 ;
-constexpr
-double
-kFraction
-=
-0
-.
-125
-;
 return
 LayoutDevicePixel
 :
@@ -2115,7 +2109,7 @@ ToAppUnits
 (
 ic
 *
-kFraction
+aAutospaceSize
 AppUnitsPerDevPixel
 (
 )
