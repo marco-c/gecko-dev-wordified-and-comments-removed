@@ -653,6 +653,13 @@ js
 ]
 [
 "
+browser_pdfjs_max_canvas_dim
+.
+js
+"
+]
+[
+"
 browser_pdfjs_minimum_font_size
 .
 js
