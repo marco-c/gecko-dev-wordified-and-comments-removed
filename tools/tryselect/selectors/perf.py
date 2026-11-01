@@ -500,6 +500,9 @@ common_groups
 "
 push
 "
+"
+preset
+"
 ]
     
 task_configs
@@ -9064,6 +9067,10 @@ push_to_vcs
 =
 False
         
+full_task_graph
+=
+True
+        
 *
 *
 kwargs
@@ -9129,7 +9136,7 @@ parameters
             
 full
 =
-True
+full_task_graph
             
 disable_target_task_filter
 =
