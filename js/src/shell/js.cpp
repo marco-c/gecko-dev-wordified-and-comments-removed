@@ -70756,6 +70756,10 @@ nullptr
 if
 (
 !
+fuzzingSafe
+&
+&
+!
 JS_DefineDebuggerObject
 (
 cx
