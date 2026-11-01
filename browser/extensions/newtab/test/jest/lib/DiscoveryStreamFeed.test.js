@@ -8811,7 +8811,7 @@ const
 ADS_CLIENT
 =
 {
-requestSpocAds
+requestSpocOrImageAds
 :
 jest
 .
@@ -8830,6 +8830,9 @@ Map
 newtab_stories_1
 "
 [
+{
+v0
+:
 {
 format
 :
@@ -8954,6 +8957,7 @@ travel
 priority
 :
 2
+}
 }
 }
 ]
@@ -9102,7 +9106,7 @@ expect
 (
 ADS_CLIENT
 .
-requestSpocAds
+requestSpocOrImageAds
 )
 .
 toHaveBeenCalledTimes
@@ -9114,7 +9118,7 @@ expect
 (
 ADS_CLIENT
 .
-requestSpocAds
+requestSpocOrImageAds
 )
 .
 toHaveBeenCalledWith
@@ -9272,7 +9276,7 @@ const
 ADS_CLIENT
 =
 {
-requestSpocAds
+requestSpocOrImageAds
 :
 jest
 .
@@ -9389,7 +9393,7 @@ expect
 (
 ADS_CLIENT
 .
-requestSpocAds
+requestSpocOrImageAds
 )
 .
 toHaveBeenCalledTimes
@@ -9401,7 +9405,7 @@ expect
 (
 ADS_CLIENT
 .
-requestSpocAds
+requestSpocOrImageAds
 .
 mock
 .
@@ -9538,7 +9542,7 @@ feed
 adsClient
 =
 {
-requestSpocAds
+requestSpocOrImageAds
 :
 jest
 .

@@ -1165,6 +1165,8 @@ for
 requestTileAds
 /
 requestSpocAds
+/
+requestSpocOrImageAds
 with
 the
 OHTTP
