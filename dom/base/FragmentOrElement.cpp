@@ -2891,6 +2891,14 @@ ContentUnbinder
 (
 )
 ;
+if
+(
+nsCCUncollectableMarker
+:
+:
+sGeneration
+)
+{
 nsCOMPtr
 <
 nsIRunnable
@@ -2912,6 +2920,7 @@ EventQueuePriority
 Idle
 )
 ;
+}
 }
 if
 (
@@ -3050,13 +3059,6 @@ tmp
 UnoptimizableCCNode
 (
 )
-|
-|
-!
-nsCCUncollectableMarker
-:
-:
-sGeneration
 )
 {
 nsAutoScriptBlocker
