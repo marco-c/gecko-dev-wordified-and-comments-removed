@@ -532,12 +532,14 @@ MenuItemProvider
 {
 override
 val
-itemFlow
+itemsFlow
 :
 StateFlow
 <
+List
+<
 MenuItem
-?
+>
 >
 =
 if
@@ -552,7 +554,10 @@ CustomizeMenu
 {
 MutableStateFlow
 (
+listOf
+(
 DEFAULT_MENU_ITEM
+)
 )
 }
 else
@@ -571,6 +576,8 @@ state
 isEnabled
 -
 >
+listOfNotNull
+(
 state
 .
 translationsItem
@@ -578,6 +585,7 @@ translationsItem
 isEnabled
 =
 isEnabled
+)
 )
 }
 .
@@ -649,6 +657,8 @@ device
 .
 initialValue
 =
+listOfNotNull
+(
 browserStore
 .
 state
@@ -658,6 +668,7 @@ translationsItem
 isEnabled
 =
 true
+)
 )
 )
 }

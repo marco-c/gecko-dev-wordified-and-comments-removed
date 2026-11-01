@@ -562,12 +562,14 @@ false
 )
 override
 val
-itemFlow
+itemsFlow
 :
 StateFlow
 <
+List
+<
 MenuItem
-?
+>
 >
 =
 if
@@ -582,7 +584,10 @@ CustomizeMenu
 {
 MutableStateFlow
 (
+listOf
+(
 DEFAULT_MENU_ITEM
+)
 )
 .
 asStateFlow
@@ -603,6 +608,8 @@ state
 isEligible
 -
 >
+listOfNotNull
+(
 state
 .
 summarizePageItem
@@ -610,6 +617,7 @@ summarizePageItem
 isPageEligible
 =
 isEligible
+)
 )
 }
 .
@@ -625,6 +633,8 @@ SharingStarted
 Eagerly
 initialValue
 =
+listOfNotNull
+(
 browserStore
 .
 state
@@ -636,6 +646,7 @@ isPageEligible
 isPageEligible
 .
 value
+)
 )
 )
 }

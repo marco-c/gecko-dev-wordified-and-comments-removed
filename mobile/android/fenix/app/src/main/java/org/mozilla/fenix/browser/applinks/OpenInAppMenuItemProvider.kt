@@ -564,12 +564,14 @@ MenuItemProvider
 {
 override
 val
-itemFlow
+itemsFlow
 :
 StateFlow
 <
+List
+<
 MenuItem
-?
+>
 >
 =
 if
@@ -584,7 +586,10 @@ CustomizeMenu
 {
 MutableStateFlow
 (
+listOf
+(
 DEFAULT_MENU_ITEM
+)
 )
 }
 else
@@ -608,6 +613,8 @@ url
 isHighlighted
 -
 >
+listOf
+(
 openInAppItem
 (
 url
@@ -616,6 +623,7 @@ url
 isHighlighted
 =
 isHighlighted
+)
 )
 }
 .
@@ -631,6 +639,8 @@ SharingStarted
 Eagerly
 initialValue
 =
+listOf
+(
 openInAppItem
 (
 url
@@ -657,6 +667,7 @@ state
 .
 isOpenInAppHighlighted
 (
+)
 )
 )
 )

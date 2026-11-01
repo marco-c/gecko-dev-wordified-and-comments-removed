@@ -391,12 +391,14 @@ MenuItemProvider
 {
 override
 val
-itemFlow
+itemsFlow
 :
 StateFlow
 <
+List
+<
 MenuItem
-?
+>
 >
 =
 if
@@ -411,7 +413,10 @@ CustomizeMenu
 {
 MutableStateFlow
 (
+listOf
+(
 DEFAULT_MENU_ITEM
+)
 )
 .
 asStateFlow
@@ -447,9 +452,12 @@ map
 isHighlighted
 -
 >
+listOf
+(
 createMenuItem
 (
 isHighlighted
+)
 )
 }
 .
@@ -465,6 +473,8 @@ SharingStarted
 Eagerly
 initialValue
 =
+listOf
+(
 createMenuItem
 (
 appStore
@@ -478,6 +488,7 @@ contains
 SupportedMenuNotifications
 .
 Downloads
+)
 )
 )
 )

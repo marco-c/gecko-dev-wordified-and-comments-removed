@@ -521,12 +521,14 @@ isPinningSupported
 }
 override
 val
-itemFlow
+itemsFlow
 :
 StateFlow
 <
+List
+<
 MenuItem
-?
+>
 >
 =
 if
@@ -541,7 +543,10 @@ CustomizeMenu
 {
 MutableStateFlow
 (
+listOf
+(
 DEFAULT_MENU_ITEM
+)
 )
 }
 else
@@ -555,6 +560,8 @@ map
 state
 -
 >
+listOfNotNull
+(
 addToHomeScreenItem
 (
 hasPageShown
@@ -568,6 +575,7 @@ state
 !
 =
 null
+)
 )
 }
 .
@@ -583,6 +591,8 @@ SharingStarted
 Eagerly
 initialValue
 =
+listOfNotNull
+(
 addToHomeScreenItem
 (
 hasPageShown
@@ -598,6 +608,7 @@ state
 !
 =
 null
+)
 )
 )
 }

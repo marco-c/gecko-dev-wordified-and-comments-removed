@@ -442,12 +442,14 @@ MenuItemProvider
 {
 override
 val
-itemFlow
+itemsFlow
 :
 StateFlow
 <
+List
+<
 MenuItem
-?
+>
 >
 =
 if
@@ -462,7 +464,10 @@ CustomizeMenu
 {
 MutableStateFlow
 (
+listOf
+(
 DEFAULT_MENU_ITEM
+)
 )
 .
 asStateFlow
@@ -493,6 +498,8 @@ canGoForward
 .
 map
 {
+listOf
+(
 target
 .
 browserSessionFrom
@@ -502,6 +509,7 @@ it
 .
 forwardItem
 (
+)
 )
 }
 .
@@ -517,6 +525,8 @@ SharingStarted
 Eagerly
 initialValue
 =
+listOf
+(
 target
 .
 browserSessionFrom
@@ -528,6 +538,7 @@ state
 .
 forwardItem
 (
+)
 )
 )
 }

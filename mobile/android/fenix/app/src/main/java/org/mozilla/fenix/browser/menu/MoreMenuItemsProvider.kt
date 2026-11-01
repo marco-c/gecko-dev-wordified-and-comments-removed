@@ -443,11 +443,14 @@ emptyList
 )
 override
 val
-itemFlow
+itemsFlow
 :
 StateFlow
 <
+List
+<
 ExpandableMenuItem
+>
 >
 =
 browserStore
@@ -459,6 +462,8 @@ map
 state
 -
 >
+listOf
+(
 moreItem
 (
 isNormalTab
@@ -478,6 +483,7 @@ private
 =
 =
 false
+)
 )
 }
 .
@@ -493,6 +499,8 @@ SharingStarted
 Eagerly
 initialValue
 =
+listOf
+(
 moreItem
 (
 isNormalTab
@@ -514,6 +522,7 @@ private
 =
 =
 false
+)
 )
 )
 private

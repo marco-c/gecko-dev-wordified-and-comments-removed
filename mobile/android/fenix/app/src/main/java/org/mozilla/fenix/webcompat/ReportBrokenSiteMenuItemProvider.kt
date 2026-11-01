@@ -578,12 +578,14 @@ MenuItemProvider
 {
 override
 val
-itemFlow
+itemsFlow
 :
 StateFlow
 <
+List
+<
 MenuItem
-?
+>
 >
 =
 if
@@ -598,7 +600,10 @@ CustomizeMenu
 {
 MutableStateFlow
 (
+listOf
+(
 DEFAULT_MENU_ITEM
+)
 )
 }
 else
@@ -612,6 +617,8 @@ map
 state
 -
 >
+listOfNotNull
+(
 target
 .
 browserSessionFrom
@@ -621,6 +628,7 @@ state
 .
 reportBrokenSiteItem
 (
+)
 )
 }
 .
@@ -636,6 +644,8 @@ SharingStarted
 Eagerly
 initialValue
 =
+listOfNotNull
+(
 target
 .
 browserSessionFrom
@@ -647,6 +657,7 @@ state
 .
 reportBrokenSiteItem
 (
+)
 )
 )
 }
