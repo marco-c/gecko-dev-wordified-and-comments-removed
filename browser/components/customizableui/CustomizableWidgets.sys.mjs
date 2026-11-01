@@ -7181,11 +7181,13 @@ getBoolPref
 "
 browser
 .
-tabs
+toolbars
 .
+tab
+-
 groups
 .
-alternateMenu
+enabled
 "
 false
 )
