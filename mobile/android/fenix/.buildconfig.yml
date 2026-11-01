@@ -585,6 +585,14 @@ components
 :
 lib
 -
+installation
+-
+blockstore
+-
+components
+:
+lib
+-
 integrity
 -
 googleplay
