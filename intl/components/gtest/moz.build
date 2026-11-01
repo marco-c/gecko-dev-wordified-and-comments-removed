@@ -93,6 +93,11 @@ TestDisplayNames
 cpp
 "
 "
+TestLegacyPOSIXTimeZone
+.
+cpp
+"
+"
 TestListFormat
 .
 cpp
