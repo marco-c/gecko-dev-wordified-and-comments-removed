@@ -562,6 +562,11 @@ ExpungePrivateFiles
 (
 )
 ;
+void
+OnPrivateBrowsingSessionEnd
+(
+)
+;
 bool
 GetFileNameFromChannel
 (
