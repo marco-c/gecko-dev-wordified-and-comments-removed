@@ -142,6 +142,9 @@ this
 manager
 .
 documentURI
+this
+.
+manager
 )
 ;
 }
