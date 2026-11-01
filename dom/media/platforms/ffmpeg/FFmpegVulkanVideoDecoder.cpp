@@ -4944,7 +4944,7 @@ static
 bool
 sDisabled
 =
-false
+true
 ;
 std
 :
@@ -5763,8 +5763,11 @@ Skipping
 :
 nvidia_drm
 modeset
-is
 disabled
+or
+module
+not
+loaded
 "
 p
 .
