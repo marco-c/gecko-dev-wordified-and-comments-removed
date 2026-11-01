@@ -1318,6 +1318,15 @@ aName
 nsGkAtoms
 :
 :
+option
+|
+|
+aName
+=
+=
+nsGkAtoms
+:
+:
 textarea
 |
 |

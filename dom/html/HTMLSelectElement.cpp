@@ -13717,6 +13717,15 @@ if
 (
 !
 option
+|
+|
+!
+option
+-
+>
+IsDoneAddingChildren
+(
+)
 )
 {
 aSelectedContent
