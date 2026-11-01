@@ -293,6 +293,16 @@ aDecodedData
 )
 override
 ;
+MediaResult
+AdjustDecodeError
+(
+const
+MediaResult
+&
+aError
+)
+override
+;
 private
 :
 void
