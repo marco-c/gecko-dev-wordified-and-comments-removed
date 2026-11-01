@@ -238,6 +238,16 @@ MOZ_AUTOMATION_ARTIFACT_BUILDS
 ]
 ;
 then
+if
+[
+-
+z
+"
+DISABLE_CLANG_PLUGIN
+"
+]
+;
+then
 #
 Enable
 static
@@ -284,6 +294,7 @@ enable
 clang
 -
 plugin
+fi
 fi
 unset
 MOZ_STDCXX_COMPAT

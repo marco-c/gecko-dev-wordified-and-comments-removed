@@ -248,6 +248,16 @@ clang
 /
 lib
 "
+if
+[
+-
+z
+"
+DISABLE_CLANG_PLUGIN
+"
+]
+;
+then
 #
 Enable
 static
@@ -257,6 +267,7 @@ export
 ENABLE_CLANG_PLUGIN
 =
 1
+fi
 fi
 ac_add_options
 -
