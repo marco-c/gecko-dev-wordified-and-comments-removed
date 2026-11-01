@@ -660,11 +660,6 @@ const
 nsAString
 &
 aReferrerPolicy
-bool
-*
-aWasXSLT
-=
-nullptr
 )
 ;
 nsresult

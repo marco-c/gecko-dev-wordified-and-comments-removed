@@ -99,6 +99,7 @@ checkXSLTDisabledMessage
 (
 url
 xsltEnabled
+expected
 )
 {
 await
@@ -144,8 +145,7 @@ spawn
 browser
 [
 XSLT_DISABLED_MESSAGE
-!
-xsltEnabled
+expected
 ]
 (
 message
@@ -231,6 +231,7 @@ checkXSLTDisabledMessage
 (
 PI_URL
 false
+true
 )
 ;
 }
@@ -249,6 +250,7 @@ checkXSLTDisabledMessage
 (
 PI_URL
 true
+false
 )
 ;
 }
@@ -266,6 +268,7 @@ await
 checkXSLTDisabledMessage
 (
 HEADER_URL
+false
 false
 )
 ;
@@ -285,6 +288,7 @@ checkXSLTDisabledMessage
 (
 HEADER_URL
 true
+false
 )
 ;
 }
