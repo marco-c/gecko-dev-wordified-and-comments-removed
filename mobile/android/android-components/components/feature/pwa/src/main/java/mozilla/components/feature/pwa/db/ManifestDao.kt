@@ -69,12 +69,6 @@ db
 import
 androidx
 .
-annotation
-.
-WorkerThread
-import
-androidx
-.
 room
 .
 Dao
@@ -121,7 +115,6 @@ internal
 interface
 ManifestDao
 {
-WorkerThread
 Query
 (
 "
@@ -136,6 +129,7 @@ start_url
 startUrl
 "
 )
+suspend
 fun
 getManifest
 (
@@ -146,7 +140,6 @@ String
 :
 ManifestEntity
 ?
-WorkerThread
 Query
 (
 "
@@ -173,6 +166,7 @@ scope
 DESC
 "
 )
+suspend
 fun
 getManifestsByScope
 (
@@ -185,7 +179,6 @@ List
 <
 ManifestEntity
 >
-WorkerThread
 Query
 (
 "
@@ -213,6 +206,7 @@ used_at
 thresholdMs
 "
 )
+suspend
 fun
 hasRecentManifest
 (
@@ -225,7 +219,6 @@ Long
 )
 :
 Int
-WorkerThread
 Query
 (
 "
@@ -243,6 +236,7 @@ used_at
 thresholdMs
 "
 )
+suspend
 fun
 recentManifestsCount
 (
@@ -252,7 +246,6 @@ Long
 )
 :
 Int
-WorkerThread
 Query
 (
 "
@@ -280,6 +273,7 @@ DESC
 "
 "
 )
+suspend
 fun
 getRecentShareableManifests
 (
@@ -292,7 +286,6 @@ List
 <
 ManifestEntity
 >
-WorkerThread
 Insert
 (
 onConflict
@@ -301,6 +294,7 @@ OnConflictStrategy
 .
 REPLACE
 )
+suspend
 fun
 insertManifest
 (
@@ -310,8 +304,8 @@ ManifestEntity
 )
 :
 Long
-WorkerThread
 Update
+suspend
 fun
 updateManifest
 (
@@ -319,7 +313,6 @@ manifest
 :
 ManifestEntity
 )
-WorkerThread
 Query
 (
 "
@@ -335,6 +328,7 @@ startUrls
 )
 "
 )
+suspend
 fun
 deleteManifests
 (
@@ -345,7 +339,6 @@ List
 String
 >
 )
-WorkerThread
 Query
 (
 "
@@ -366,6 +359,7 @@ scope
 )
 "
 )
+suspend
 fun
 getInstalledScopes
 (
