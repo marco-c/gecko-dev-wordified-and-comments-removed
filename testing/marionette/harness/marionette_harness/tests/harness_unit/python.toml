@@ -24,6 +24,13 @@ py
 ]
 [
 "
+test_marionette_check_for_crash
+.
+py
+"
+]
+[
+"
 test_marionette_harness
 .
 py

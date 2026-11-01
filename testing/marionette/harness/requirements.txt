@@ -29,6 +29,8 @@ mozcrash
 =
 2
 .
+3
+.
 0
 mozdevice
 >
@@ -51,7 +53,9 @@ mozinfo
 mozlog
 >
 =
-6
+9
+.
+0
 .
 0
 moznetwork
@@ -79,9 +83,9 @@ mozprofile
 mozrunner
 >
 =
-7
+8
 .
-4
+5
 .
 0
 moztest
