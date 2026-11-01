@@ -4973,7 +4973,7 @@ zoom
 ;
 this
 .
-emit
+emitForTests
 (
 "
 content
