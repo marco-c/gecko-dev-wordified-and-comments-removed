@@ -695,6 +695,15 @@ LaunchRDDProcessIfNeeded
 (
 )
 ;
+static
+RefPtr
+<
+GenericNonExclusivePromise
+>
+EnsureGPUProcessReady
+(
+)
+;
 const
 RemoteMediaIn
 mLocation
