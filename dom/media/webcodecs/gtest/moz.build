@@ -62,6 +62,11 @@ TestVideoFrame
 .
 cpp
 "
+"
+TestWebCodecsUtils
+.
+cpp
+"
 ]
 LOCAL_INCLUDES
 +
