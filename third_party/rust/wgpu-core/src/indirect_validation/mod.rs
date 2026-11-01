@@ -11,7 +11,7 @@ pipeline
 :
 :
 {
-CreateComputePipelineError
+CreatePipelineError
 CreateShaderModuleError
 }
 }
@@ -132,7 +132,7 @@ ComputePipeline
 [
 from
 ]
-CreateComputePipelineError
+CreatePipelineError
 )
 }
 pub
