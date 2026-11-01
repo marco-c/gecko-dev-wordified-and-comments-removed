@@ -8,6 +8,8 @@ next
 -
 line
 import
+-
+x
 /
 no
 -
@@ -15,6 +17,8 @@ unassigned
 -
 import
 import
+-
+x
 /
 no
 -

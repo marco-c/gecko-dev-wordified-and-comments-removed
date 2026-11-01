@@ -4,6 +4,8 @@ eslint
 -
 disable
 import
+-
+x
 /
 no
 -
@@ -11,11 +13,15 @@ named
 -
 default
 import
+-
+x
 /
 no
 -
 unresolved
 import
+-
+x
 /
 named
 no

@@ -117,6 +117,8 @@ next
 -
 line
 import
+-
+x
 /
 no
 -
@@ -488,7 +490,7 @@ dateTimeFormat
 >
 <
 /
-fxview
+syncedtabs
 -
 tab
 -
