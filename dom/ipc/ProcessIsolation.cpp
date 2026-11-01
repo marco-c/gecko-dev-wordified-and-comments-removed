@@ -1017,8 +1017,6 @@ nsIURI
 *
 aURI
 bool
-aIsSubframe
-bool
 aForChannelCreationURI
 bool
 aIsWorker
@@ -1369,7 +1367,6 @@ return
 IsolationBehaviorForURI
 (
 inner
-aIsSubframe
 aForChannelCreationURI
 aIsWorker
 )
@@ -3117,7 +3114,6 @@ behavior
 IsolationBehaviorForURI
 (
 aChannelCreationURI
-aParentWindow
 true
 false
 )
@@ -3703,7 +3699,6 @@ behavior
 IsolationBehaviorForURI
 (
 principalURI
-aParentWindow
 false
 false
 )
@@ -5245,7 +5240,6 @@ IsolationBehaviorForURI
 (
 uri
 false
-false
 true
 )
 ;
@@ -6243,7 +6237,6 @@ behavior
 IsolationBehaviorForURI
 (
 aURI
-false
 true
 false
 )
@@ -6302,7 +6295,6 @@ behavior
 IsolationBehaviorForURI
 (
 uri
-false
 true
 false
 )
@@ -6544,7 +6536,6 @@ behavior
 IsolationBehaviorForURI
 (
 principalURI
-false
 false
 false
 )
@@ -7890,7 +7881,6 @@ switch
 IsolationBehaviorForURI
 (
 aboutURI
-false
 true
 false
 )
