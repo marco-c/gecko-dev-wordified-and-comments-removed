@@ -711,7 +711,7 @@ getToken
 -
 motion
 -
-ease
+easing
 -
 emphasized
 "
@@ -1472,7 +1472,7 @@ getToken
 -
 motion
 -
-ease
+easing
 -
 emphasized
 "
@@ -1666,7 +1666,7 @@ getToken
 -
 motion
 -
-ease
+easing
 -
 standard
 "
@@ -2372,7 +2372,7 @@ getToken
 -
 motion
 -
-ease
+easing
 -
 emphasized
 "
