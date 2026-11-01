@@ -414,6 +414,18 @@ enabled
 "
 :
 taskbartabs_enable
+            
+"
+telemetry
+.
+fog
+.
+test
+.
+decelerate_early_events
+"
+:
+True
         
 }
 )
