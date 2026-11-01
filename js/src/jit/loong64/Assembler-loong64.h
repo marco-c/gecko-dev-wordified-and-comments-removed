@@ -8206,9 +8206,9 @@ InstImm
 getBranchCode
 (
 Register
-rd
-Register
 rj
+Register
+rd
 Condition
 c
 )
