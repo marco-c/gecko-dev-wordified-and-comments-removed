@@ -2073,29 +2073,6 @@ socketprocess_e10s
         
 )
         
-_socketprocess_networking
-:
-Token
-=
-self
-.
-add
-(
-            
-Token
-(
-t_type
-=
-t_variant
-value
-=
-"
-socketprocess_networking
-"
-)
-        
-)
-        
 _swgl
 :
 Token

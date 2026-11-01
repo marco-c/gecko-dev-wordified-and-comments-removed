@@ -170,9 +170,6 @@ http2
 "
 http3
 "
-"
-socketprocess_networking
-"
 ]
 [
 "
@@ -202,9 +199,6 @@ http2
 "
 "
 http3
-"
-"
-socketprocess_networking
 "
 ]
 [

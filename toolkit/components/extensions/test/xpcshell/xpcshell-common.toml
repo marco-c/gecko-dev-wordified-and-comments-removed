@@ -2625,15 +2625,6 @@ test_ext_proxy_socks
 js
 "
 ]
-skip
--
-if
-=
-[
-"
-socketprocess_networking
-"
-]
 run
 -
 sequentially

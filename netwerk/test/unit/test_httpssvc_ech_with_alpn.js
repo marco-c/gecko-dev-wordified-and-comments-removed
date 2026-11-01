@@ -1112,14 +1112,6 @@ ECH
 "
 )
 ;
-if
-(
-!
-mozinfo
-.
-socketprocess_networking
-)
-{
 HandshakeTelemetryHelpers
 .
 checkSuccess
@@ -1150,7 +1142,6 @@ _ECH_GREASE
 ]
 )
 ;
-}
 await
 trrServer
 .

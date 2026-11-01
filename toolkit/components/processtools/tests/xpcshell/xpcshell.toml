@@ -57,12 +57,3 @@ test_total_cpu_time_child
 js
 "
 ]
-skip
--
-if
-=
-[
-"
-socketprocess_networking
-"
-]

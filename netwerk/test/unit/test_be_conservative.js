@@ -939,14 +939,6 @@ OK
 "
 )
 ;
-if
-(
-!
-mozinfo
-.
-socketprocess_networking
-)
-{
 HandshakeTelemetryHelpers
 .
 checkSuccess
@@ -961,7 +953,6 @@ checkEmpty
 nonflavors
 )
 ;
-}
 resolve
 (
 )
@@ -999,14 +990,6 @@ an
 error
 )
 ;
-if
-(
-!
-mozinfo
-.
-socketprocess_networking
-)
-{
 HandshakeTelemetryHelpers
 .
 checkEntry
@@ -1025,7 +1008,6 @@ checkEmpty
 nonflavors
 )
 ;
-}
 resolve
 (
 )
@@ -1106,6 +1088,7 @@ limit
 let
 cert
 =
+await
 getTestServerCertificate
 (
 )

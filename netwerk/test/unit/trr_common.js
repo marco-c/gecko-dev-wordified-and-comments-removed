@@ -2610,14 +2610,6 @@ error
 code
 )
 ;
-if
-(
-!
-mozinfo
-.
-socketprocess_networking
-)
-{
 info
 (
 "
@@ -2750,7 +2742,6 @@ com
 "
 )
 ;
-}
 info
 (
 "
@@ -2821,14 +2812,6 @@ responseIP
 "
 )
 ;
-if
-(
-!
-mozinfo
-.
-socketprocess_networking
-)
-{
 Services
 .
 prefs
@@ -2883,7 +2866,6 @@ currentTrrConfirmationState
 5000
 )
 ;
-}
 await
 new
 TRRDNSListener

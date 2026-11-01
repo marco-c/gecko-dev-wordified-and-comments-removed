@@ -77,7 +77,7 @@ runtime
 "
 :
 "
-socketprocess_networking
+swgl
 "
 }
 "
@@ -325,7 +325,7 @@ variant
 "
 :
 "
-socketprocess_networking
+swgl
 "
 "
 tests_grouped
@@ -439,7 +439,7 @@ runtime
 "
 :
 "
-socketprocess_networking
+swgl
 "
 }
 "
@@ -689,7 +689,7 @@ variant
 "
 :
 "
-socketprocess_networking
+swgl
 "
 "
 tests_grouped
@@ -803,7 +803,7 @@ runtime
 "
 :
 "
-socketprocess_networking
+swgl
 "
 }
 "
@@ -1049,7 +1049,7 @@ variant
 "
 :
 "
-socketprocess_networking
+swgl
 "
 "
 tests_grouped
@@ -1163,7 +1163,7 @@ runtime
 "
 :
 "
-socketprocess_networking
+swgl
 "
 }
 "
@@ -1409,7 +1409,7 @@ variant
 "
 :
 "
-socketprocess_networking
+swgl
 "
 "
 tests_grouped
@@ -1523,7 +1523,7 @@ runtime
 "
 :
 "
-socketprocess_networking
+swgl
 "
 }
 "
@@ -1754,7 +1754,7 @@ variant
 "
 :
 "
-socketprocess_networking
+swgl
 "
 "
 tests_grouped

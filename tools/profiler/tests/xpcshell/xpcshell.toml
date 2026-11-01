@@ -259,17 +259,6 @@ if
 =
 [
 "
-os
-=
-=
-'
-win
-'
-&
-&
-socketprocess_networking
-"
-"
 release_or_beta
 "
 "
@@ -305,9 +294,6 @@ verify
 #
 bug
 1757528
-"
-socketprocess_networking
-"
 ]
 [
 "

@@ -185,9 +185,6 @@ verify
 -
 standalone
 "
-"
-socketprocess_networking
-"
 ]
 [
 "
@@ -201,15 +198,6 @@ js
 browser_clientAuth_speculative_connection
 .
 js
-"
-]
-skip
--
-if
-=
-[
-"
-socketprocess_networking
 "
 ]
 [

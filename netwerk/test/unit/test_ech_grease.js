@@ -622,6 +622,7 @@ stop
 ;
 }
 }
+async
 function
 startServer
 (
@@ -685,6 +686,7 @@ tlsServer
 .
 serverCert
 =
+await
 getTestServerCertificate
 (
 )
@@ -1003,14 +1005,6 @@ OK
 "
 )
 ;
-if
-(
-!
-mozinfo
-.
-socketprocess_networking
-)
-{
 HandshakeTelemetryHelpers
 .
 checkSuccess
@@ -1025,7 +1019,6 @@ checkEmpty
 nonflavors
 )
 ;
-}
 resolve
 (
 )
@@ -1143,6 +1136,7 @@ GreaseYConservativeN
 let
 server
 =
+await
 startServer
 (
 )
@@ -1177,6 +1171,7 @@ GreaseNConservativeY
 let
 server
 =
+await
 startServer
 (
 )
@@ -1211,6 +1206,7 @@ GreaseYConservativeY
 let
 server
 =
+await
 startServer
 (
 )
@@ -1245,6 +1241,7 @@ GreaseNConservativeN
 let
 server
 =
+await
 startServer
 (
 )
