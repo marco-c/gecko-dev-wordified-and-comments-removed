@@ -1478,7 +1478,10 @@ return
 true
 ;
 }
-bool
+JSTracer
+:
+:
+TraceBufferResult
 TenuringTracer
 :
 :
