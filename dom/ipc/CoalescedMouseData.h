@@ -138,6 +138,7 @@ BrowserChild
 aBrowserChild
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 WillRefresh
 (

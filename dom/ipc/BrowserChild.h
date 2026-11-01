@@ -1286,6 +1286,7 @@ uint64_t
 aActionId
 )
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 mozilla
 :
 :
@@ -1442,6 +1443,7 @@ uint64_t
 aInputBlockId
 )
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 mozilla
 :
 :
@@ -1628,6 +1630,7 @@ nsIPolicyContainer
 aPolicyContainer
 )
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 mozilla
 :
 :
@@ -1672,6 +1675,7 @@ nsID
 aUUID
 )
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 mozilla
 :
 :
@@ -1724,6 +1728,7 @@ uint64_t
 aInputBlockId
 )
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 mozilla
 :
 :
@@ -1778,6 +1783,7 @@ nsEventStatus
 aApzResponse
 )
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 mozilla
 :
 :
@@ -1932,6 +1938,7 @@ uint64_t
 aCallbackId
 )
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 mozilla
 :
 :
@@ -1968,6 +1975,7 @@ WidgetCompositionEvent
 aEvent
 )
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 mozilla
 :
 :
@@ -2004,6 +2012,7 @@ WidgetSelectionEvent
 aEvent
 )
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 mozilla
 :
 :
@@ -2040,6 +2049,7 @@ EventMessage
 aMessage
 )
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 mozilla
 :
 :
@@ -2085,6 +2095,7 @@ nsAString
 aStringToInsert
 )
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 mozilla
 :
 :
@@ -3214,16 +3225,19 @@ FlushAllCoalescedMouseData
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 ProcessPendingCoalescedMouseDataAndDispatchEvents
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 ProcessPendingCoalescedTouchData
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 HandleMouseRawUpdateEvent
 (
@@ -3241,6 +3255,7 @@ uint64_t
 aInputBlockId
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 HandleRealMouseButtonEvent
 (
@@ -3258,6 +3273,29 @@ uint64_t
 aInputBlockId
 )
 ;
+MOZ_CAN_RUN_SCRIPT
+void
+HandleRealTouchEvent
+(
+const
+WidgetTouchEvent
+&
+aEvent
+const
+ScrollableLayerGuid
+&
+aGuid
+const
+uint64_t
+&
+aInputBlockId
+const
+nsEventStatus
+&
+aApzResponse
+)
+;
+MOZ_CAN_RUN_SCRIPT
 void
 HandleTouchRawUpdateEvent
 (
@@ -3478,6 +3516,7 @@ uint32_t
 aDropEffect
 )
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 mozilla
 :
 :
@@ -3834,11 +3873,13 @@ WidgetKeyboardEvent
 aEvent
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 DispatchCoalescedWheelEvent
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsEventStatus
 DispatchWidgetEventViaAPZ
 (
@@ -3847,6 +3888,7 @@ WidgetGUIEvent
 aEvent
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 DispatchWheelEvent
 (
