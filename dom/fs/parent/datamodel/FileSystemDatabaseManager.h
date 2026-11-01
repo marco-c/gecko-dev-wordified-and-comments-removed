@@ -497,6 +497,14 @@ aAbort
 0
 ;
 virtual
+nsresult
+RemoveFileIdsWithoutMainFile
+(
+)
+=
+0
+;
+virtual
 void
 Close
 (
