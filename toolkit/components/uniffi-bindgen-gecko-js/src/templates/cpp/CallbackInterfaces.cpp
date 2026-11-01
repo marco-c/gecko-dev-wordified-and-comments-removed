@@ -1167,7 +1167,10 @@ ForeignFutureDroppedCallbackStruct
 aUniffiOutForeignFuture
 )
 {
-auto
+UniquePtr
+<
+AsyncCallbackMethodHandlerBase
+>
 handler
 =
 std
@@ -1674,7 +1677,10 @@ RustCallStatus
 uniffiOutStatus
 )
 {
-auto
+UniquePtr
+<
+AsyncCallbackMethodHandlerBase
+>
 handler
 =
 std
