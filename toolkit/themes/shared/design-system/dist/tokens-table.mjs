@@ -24567,7 +24567,7 @@ value
 default
 :
 "
-inherit
+currentColor
 "
 prefersContrast
 :
@@ -24619,7 +24619,7 @@ value
 default
 :
 "
-inherit
+currentColor
 "
 prefersContrast
 :
@@ -24677,12 +24677,12 @@ value
 default
 :
 "
-inherit
+currentColor
 "
 prefersContrast
 :
 "
-inherit
+currentColor
 "
 forcedColors
 :
@@ -24724,7 +24724,7 @@ value
 default
 :
 "
-inherit
+currentColor
 "
 prefersContrast
 :
@@ -25038,7 +25038,7 @@ ghost
 prefersContrast
 :
 "
-inherit
+currentColor
 "
 forcedColors
 :
@@ -44649,7 +44649,7 @@ ghost
 default
 :
 "
-inherit
+currentColor
 "
 prefersContrast
 :
@@ -44696,7 +44696,7 @@ active
 default
 :
 "
-inherit
+currentColor
 "
 prefersContrast
 :
@@ -44747,12 +44747,12 @@ disabled
 default
 :
 "
-inherit
+currentColor
 "
 prefersContrast
 :
 "
-inherit
+currentColor
 "
 forcedColors
 :
@@ -44787,7 +44787,7 @@ hover
 default
 :
 "
-inherit
+currentColor
 "
 prefersContrast
 :
@@ -45043,7 +45043,7 @@ ghost
 prefersContrast
 :
 "
-inherit
+currentColor
 "
 forcedColors
 :

@@ -3862,7 +3862,7 @@ default
 "
 :
 "
-inherit
+currentColor
 "
 "
 prefersContrast
@@ -3968,7 +3968,7 @@ default
 "
 :
 "
-inherit
+currentColor
 "
 "
 prefersContrast
@@ -4055,14 +4055,14 @@ default
 "
 :
 "
-inherit
+currentColor
 "
 "
 prefersContrast
 "
 :
 "
-inherit
+currentColor
 "
 "
 forcedColors
@@ -4148,7 +4148,7 @@ default
 "
 :
 "
-inherit
+currentColor
 "
 "
 prefersContrast
@@ -4508,7 +4508,7 @@ prefersContrast
 "
 :
 "
-inherit
+currentColor
 "
 "
 forcedColors
