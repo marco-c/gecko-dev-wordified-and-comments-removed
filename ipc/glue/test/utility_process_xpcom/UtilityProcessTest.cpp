@@ -831,7 +831,6 @@ promise
 ]
 (
 LaunchError
-aError
 )
 {
 MOZ_ASSERT_UNREACHABLE
@@ -900,8 +899,18 @@ UtilityProcessTest
 :
 UntilChildProcessDead
 (
+[
+[
+maybe_unused
+]
+]
 uint32_t
 pid
+[
+[
+maybe_unused
+]
+]
 JSContext
 *
 cx

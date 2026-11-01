@@ -361,7 +361,6 @@ Notify
 (
 nsITimer
 *
-timer
 )
 {
 EXPECT_TRUE

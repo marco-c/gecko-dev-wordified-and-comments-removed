@@ -1355,7 +1355,6 @@ nsISupports
 *
 aData
 bool
-aAnonymize
 )
 override
 {
@@ -3587,7 +3586,6 @@ std
 :
 string
 &
-aPrefix
 FILE
 *
 aOutf
@@ -3864,7 +3862,6 @@ Read
 const
 Message
 *
-msg
 )
 {
 return
@@ -3880,7 +3877,6 @@ std
 :
 string
 &
-aPrefix
 FILE
 *
 aOutf
@@ -10333,7 +10329,6 @@ Read
 const
 Message
 *
-msg
 )
 {
 return
@@ -10349,7 +10344,6 @@ std
 :
 string
 &
-aPrefix
 FILE
 *
 aOutf

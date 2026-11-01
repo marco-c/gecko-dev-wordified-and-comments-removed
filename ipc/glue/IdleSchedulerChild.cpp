@@ -457,7 +457,6 @@ this
 ]
 (
 bool
-aIgnored
 )
 {
 MOZ_ASSERT
