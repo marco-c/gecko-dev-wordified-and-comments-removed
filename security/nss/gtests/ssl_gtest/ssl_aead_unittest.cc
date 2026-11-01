@@ -80,6 +80,13 @@ tls_connect
 .
 h
 "
+#
+include
+"
+pk11_import
+.
+h
+"
 namespace
 nss_test
 {
@@ -182,7 +189,10 @@ PK11SymKey
 *
 s
 =
-PK11_ImportSymKey
+nss_test
+:
+:
+ImportSymKey
 (
 slot_
 .

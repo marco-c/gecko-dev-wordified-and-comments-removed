@@ -64608,6 +64608,12 @@ zeroRttState
 =
 =
 ssl_0rtt_accepted
+&
+&
+epoch
+=
+=
+TrafficKeyEarlyApplicationData
 )
 {
 return

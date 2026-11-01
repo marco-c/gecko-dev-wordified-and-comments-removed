@@ -2014,6 +2014,15 @@ if
 (
 !
 force
+|
+|
+key
+-
+>
+len
+=
+=
+0
 )
 {
 PK11_FreeSymKey

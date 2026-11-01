@@ -106,6 +106,13 @@ secoid
 .
 h
 "
+#
+include
+"
+pk11_import
+.
+h
+"
 namespace
 nss_test
 {
@@ -878,7 +885,10 @@ nullptr
 ;
 if
 (
-PK11_ImportDERPrivateKeyInfoAndReturnKey
+nss_test
+:
+:
+ImportDERPrivateKeyInfoAndReturnKey
 (
 slot
 .
@@ -1550,7 +1560,7 @@ paramSet
 &
 pub
 PR_FALSE
-PR_FALSE
+PR_TRUE
 nullptr
 )
 )
@@ -2080,7 +2090,7 @@ paramSet
 &
 pub
 PR_FALSE
-PR_FALSE
+PR_TRUE
 nullptr
 )
 )
