@@ -5829,13 +5829,6 @@ extensionID
 :
 {
 src
-customizeL10nId
-:
-"
-extension
--
-label
-"
 }
 }
 )
