@@ -3803,6 +3803,9 @@ appLinksPromptDialog
 launchInApp
 =
 {
+_
+-
+>
 requireComponents
 .
 settings
@@ -3827,6 +3830,9 @@ loadUrl
 shouldPrompt
 =
 {
+_
+-
+>
 requireComponents
 .
 settings

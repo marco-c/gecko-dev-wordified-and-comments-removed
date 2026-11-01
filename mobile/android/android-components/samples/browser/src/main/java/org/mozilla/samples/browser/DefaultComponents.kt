@@ -1745,6 +1745,9 @@ applicationContext
 launchInApp
 =
 {
+_
+-
+>
 applicationContext
 .
 components
