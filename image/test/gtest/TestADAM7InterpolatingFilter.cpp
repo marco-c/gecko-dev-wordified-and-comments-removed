@@ -122,6 +122,8 @@ IntSize
 &
 aSize
 Func
+&
+&
 aFunc
 )
 {

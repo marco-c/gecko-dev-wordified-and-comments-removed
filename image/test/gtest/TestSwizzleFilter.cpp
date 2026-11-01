@@ -90,6 +90,8 @@ aOutputFormat
 bool
 aPremultiplyAlpha
 Func
+&
+&
 aFunc
 )
 {
