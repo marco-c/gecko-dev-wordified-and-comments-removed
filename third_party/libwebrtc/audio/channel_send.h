@@ -650,6 +650,16 @@ int
 rtcp_report_interval_ms
 uint32_t
 ssrc
+const
+std
+:
+:
+optional
+<
+RtpState
+>
+&
+rtp_state
 scoped_refptr
 <
 FrameTransformerInterface

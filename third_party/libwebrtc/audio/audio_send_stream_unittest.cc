@@ -1463,10 +1463,6 @@ bitrate_allocator_
 std
 :
 :
-nullopt
-std
-:
-:
 unique_ptr
 <
 voe

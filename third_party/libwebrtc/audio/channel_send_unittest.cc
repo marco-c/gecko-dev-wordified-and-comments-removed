@@ -598,6 +598,10 @@ crypto_options_
 false
 kRtcpIntervalMs
 kSsrc
+std
+:
+:
+nullopt
 nullptr
 &
 transport_controller_
