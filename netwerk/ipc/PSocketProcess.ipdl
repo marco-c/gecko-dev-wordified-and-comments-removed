@@ -359,9 +359,6 @@ bool
 mOffline
 ;
 bool
-mConnectivity
-;
-bool
 mInitSandbox
 ;
 #
@@ -693,13 +690,6 @@ SetOffline
 (
 bool
 offline
-)
-;
-async
-SetConnectivity
-(
-bool
-connectivity
 )
 ;
 async
