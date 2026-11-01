@@ -781,6 +781,15 @@ checkboxes
 css
 "
 "
+bug1912923
+-
+class
+.
+com
+.
+js
+"
+"
 bug1913668
 -
 workbench
