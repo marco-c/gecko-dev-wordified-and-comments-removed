@@ -435,6 +435,13 @@ py
 ]
 [
 "
+test_uri_setspec
+.
+py
+"
+]
+[
+"
 test_wpt
 -
 subsuite
