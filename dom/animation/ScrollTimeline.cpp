@@ -1738,6 +1738,14 @@ HasNonMinimalNonZeroDisplayPort
 (
 e
 )
+&
+&
+scrollContainerFrame
+-
+>
+IsMaybeAsynchronouslyScrolled
+(
+)
 ;
 }
 layers
