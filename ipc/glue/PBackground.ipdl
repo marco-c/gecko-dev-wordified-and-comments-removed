@@ -58,10 +58,6 @@ MPL
 /
 include
 protocol
-PBackgroundDataBridge
-;
-include
-protocol
 PBackgroundIDBFactory
 ;
 include

@@ -1017,11 +1017,6 @@ send_mlkem_keyshare
 "
 network
 .
-send_ODA_to_content_directly
-"
-"
-network
-.
 trr
 .
 "

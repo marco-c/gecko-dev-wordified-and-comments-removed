@@ -107,6 +107,17 @@ mozilla
 /
 ipc
 /
+IPCStreamUtils
+.
+h
+"
+#
+include
+"
+mozilla
+/
+ipc
+/
 InputStreamParams
 .
 h

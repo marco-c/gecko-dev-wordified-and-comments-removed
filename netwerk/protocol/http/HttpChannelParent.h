@@ -1250,11 +1250,6 @@ mAsyncOpenBarrier
 =
 0
 ;
-uint8_t
-mDataSentToChildProcess
-:
-1
-;
 }
 ;
 }

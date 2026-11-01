@@ -293,9 +293,6 @@ bool
 shouldWaitForOnStartRequestSent
 ;
 bool
-dataFromSocketProcess
-;
-bool
 hasHTTPSRR
 ;
 bool
