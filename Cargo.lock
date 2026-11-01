@@ -42502,6 +42502,9 @@ serde
 servo_arc
 "
 "
+siphasher
+"
+"
 smallbitvec
 "
 "
