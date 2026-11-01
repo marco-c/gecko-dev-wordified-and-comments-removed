@@ -613,7 +613,7 @@ selection
 frameSelection
 -
 >
-GetSelection
+GetExistingSelection
 (
 SelectionType
 :

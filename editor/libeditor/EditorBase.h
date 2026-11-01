@@ -729,6 +729,15 @@ return
 selection
 ;
 }
+Selection
+*
+GetExistingSelection
+(
+SelectionType
+aSelectionType
+)
+const
+;
 nsFrameSelection
 *
 GetEditableFrameSelection
