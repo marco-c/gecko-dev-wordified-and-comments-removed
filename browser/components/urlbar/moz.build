@@ -321,13 +321,6 @@ sys
 mjs
 "
 "
-UrlbarProviderQuickSuggestContextualOptIn
-.
-sys
-.
-mjs
-"
-"
 UrlbarProviderRecentSearches
 .
 sys

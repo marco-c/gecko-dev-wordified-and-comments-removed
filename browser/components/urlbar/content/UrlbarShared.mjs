@@ -9032,16 +9032,6 @@ unit
 ;
 case
 "
-UrlbarProviderQuickSuggestContextualOptIn
-"
-:
-return
-"
-fxsuggest_data_sharing_opt_in
-"
-;
-case
-"
 UrlbarProviderAddonsShortcutMoved
 "
 :

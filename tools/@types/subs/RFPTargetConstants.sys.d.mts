@@ -403,6 +403,11 @@ WebGLRendererConstant
 number
 ;
 let
+IMEStyle
+:
+number
+;
+let
 IsAlwaysEnabledForPrecompute
 :
 number
