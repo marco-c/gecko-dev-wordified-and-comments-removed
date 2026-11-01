@@ -1259,11 +1259,6 @@ a
 Mozilla
 VPN
 subscription
-and
-/
-or
-unlimited
-bandwidth
 *
 Initially
 false
@@ -2652,15 +2647,6 @@ isPremium
 let
 isPremium
 =
-!
-this
-.
-#
-getBandwidthUsage
-(
-)
-|
-|
 lazy
 .
 IPProtectionService
