@@ -4076,6 +4076,13 @@ GetBaseURI
 }
 nsCString
 serializedBaseURL
+;
+if
+(
+baseURL
+)
+{
+serializedBaseURL
 =
 baseURL
 -
@@ -4084,6 +4091,7 @@ GetSpecOrDefault
 (
 )
 ;
+}
 LOG
 (
 (
