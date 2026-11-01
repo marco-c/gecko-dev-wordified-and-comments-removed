@@ -911,6 +911,14 @@ js
 :
 "
 "
+"
+browser_testCSSVisibilityChange
+.
+js
+"
+:
+"
+"
 toolkit
 /
 components
