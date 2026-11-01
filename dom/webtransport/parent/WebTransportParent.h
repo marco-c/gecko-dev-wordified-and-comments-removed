@@ -531,6 +531,11 @@ WebTransportStatsData
 aStats
 )
 ;
+void
+CloseSessionForDestroyedActor
+(
+)
+;
 using
 ResolveType
 =
@@ -561,6 +566,11 @@ mSessionReady
 {
 false
 }
+;
+bool
+mRetargeted
+=
+false
 ;
 uint64_t
 mSessionId
