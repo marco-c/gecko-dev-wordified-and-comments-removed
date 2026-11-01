@@ -686,6 +686,12 @@ by
 the
 browser
 .
+.
+description
+=
+Reloads
+the
+page
 devtools
 -
 settings
@@ -710,6 +716,12 @@ nodes
 in
 the
 inspector
+.
+description
+=
+Reloads
+the
+page
 devtools
 -
 settings
