@@ -22752,6 +22752,9 @@ wr_moz2d_render_cb
 blob
 :
 ByteSlice
+id_namespace
+:
+WrIdNamespace
 format
 :
 ImageFormat
