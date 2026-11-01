@@ -140,6 +140,13 @@ xhtml
 ]
 [
 "
+test_aboutmemory8
+.
+xhtml
+"
+]
+[
+"
 test_collectorLogAnalyzer
 .
 xhtml
