@@ -83,6 +83,13 @@ js
 ]
 [
 "
+browser_settings_split_console
+.
+js
+"
+]
+[
+"
 browser_settings_toolbox_buttons_support
 .
 js
