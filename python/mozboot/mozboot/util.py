@@ -37,7 +37,7 @@ MINIMUM_RUST_VERSION
 "
 1
 .
-90
+95
 .
 0
 "
