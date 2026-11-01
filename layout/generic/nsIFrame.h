@@ -7733,6 +7733,12 @@ IsInReplicatedFixedPosTree
 )
 const
 ;
+bool
+ContainsReplicatedFixedPosPlaceholders
+(
+)
+const
+;
 void
 SetIsPrimaryFrame
 (
