@@ -20419,6 +20419,7 @@ false
 webProgress
 =
 undefined
+triggeringEvent
 }
 =
 {
@@ -20607,6 +20608,7 @@ closedCallback
 :
 resolveClosed
 hideContent
+triggeringEvent
 }
 .
 .
@@ -21298,6 +21300,7 @@ open
 (
 uri
 args
+triggeringEvent
 )
 {
 const
@@ -21351,6 +21354,7 @@ resolve
 reject
 uri
 args
+triggeringEvent
 }
 )
 ;
@@ -21465,6 +21469,7 @@ _open
 (
 uri
 args
+triggeringEvent
 )
 ;
 }
@@ -21653,6 +21658,7 @@ resolve
 reject
 uri
 args
+triggeringEvent
 }
 =
 this
@@ -21669,6 +21675,7 @@ open
 (
 uri
 args
+triggeringEvent
 )
 .
 then
@@ -21734,6 +21741,7 @@ _open
 (
 uri
 args
+triggeringEvent
 )
 {
 let
@@ -22002,6 +22010,7 @@ _closedCallback
 )
 ;
 }
+triggeringEvent
 }
 args
 )
