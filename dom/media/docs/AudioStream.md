@@ -1442,14 +1442,6 @@ W
 P
 |
 |
-Backend
-restarted
-queue
-discarded
-|
-nothing
-|
-|
 Position
 query
 failed

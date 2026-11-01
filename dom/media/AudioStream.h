@@ -921,6 +921,16 @@ bool
 aKeepRunning
 )
 ;
+bool
+IsCubebStarted
+(
+)
+const
+{
+return
+mCubebStarted
+;
+}
 void
 RebaseLive
 (

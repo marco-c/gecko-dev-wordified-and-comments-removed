@@ -3878,6 +3878,14 @@ Seeking
 mReuseStreamOnSeek
 &
 &
+mAudioSink
+-
+>
+IsCubebStarted
+(
+)
+&
+&
 !
 mAudioSink
 -
