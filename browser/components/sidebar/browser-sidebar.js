@@ -241,6 +241,16 @@ _updateMenus
 =
 >
 {
+if
+(
+this
+.
+uninitializing
+)
+{
+return
+;
+}
 const
 {
 visible
