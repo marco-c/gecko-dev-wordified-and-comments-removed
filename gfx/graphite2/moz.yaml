@@ -169,3 +169,15 @@ end
 sentinel
 .
 patch
+-
+geckoextra
+/
+patches
+/
+0002
+-
+temp
+-
+copy
+.
+patch

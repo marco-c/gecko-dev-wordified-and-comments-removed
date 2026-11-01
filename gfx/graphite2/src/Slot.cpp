@@ -2112,6 +2112,14 @@ if
 (
 idx
 <
+SlotMap
+:
+:
+MAX_SLOTS
+&
+&
+idx
+<
 map
 .
 size
