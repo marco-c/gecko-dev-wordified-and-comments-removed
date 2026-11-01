@@ -189,6 +189,12 @@ GetTargetElement
 (
 )
 ;
+bool
+IsTimingSettled
+(
+)
+const
+;
 nsresult
 BeginElementAt
 (

@@ -296,6 +296,13 @@ html
 ]
 [
 "
+test_smilNoTarget
+.
+html
+"
+]
+[
+"
 test_smilRepeatDuration
 .
 html
