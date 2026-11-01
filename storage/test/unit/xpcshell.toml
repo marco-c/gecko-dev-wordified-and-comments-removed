@@ -374,6 +374,13 @@ js
 ]
 [
 "
+test_statement_finalize_during_async
+.
+js
+"
+]
+[
+"
 test_statement_wrapper_automatically
 .
 js
