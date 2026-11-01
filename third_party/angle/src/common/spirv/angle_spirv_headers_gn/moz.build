@@ -412,6 +412,9 @@ OS_LIBS
 "
 log
 "
+"
+nativewindow
+"
 ]
 if
 CONFIG
