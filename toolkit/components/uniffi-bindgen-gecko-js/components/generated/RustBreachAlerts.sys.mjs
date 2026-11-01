@@ -1709,7 +1709,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-113
+115
 /
 /
 uniffi_breach_alerts_fn_constructor_breachalertsstore_new_store
@@ -1762,7 +1762,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-114
+116
 /
 /
 uniffi_breach_alerts_fn_method_breachalertsstore_clear_all_breach_alert_dismissals
@@ -1831,7 +1831,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-115
+117
 /
 /
 uniffi_breach_alerts_fn_method_breachalertsstore_clear_breach_alert_dismissals
@@ -1888,7 +1888,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-116
+118
 /
 /
 uniffi_breach_alerts_fn_method_breachalertsstore_close
@@ -1970,7 +1970,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-117
+119
 /
 /
 uniffi_breach_alerts_fn_method_breachalertsstore_get_breach_alert_dismissals
@@ -2047,7 +2047,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-118
+120
 /
 /
 uniffi_breach_alerts_fn_method_breachalertsstore_set_breach_alert_dismissals

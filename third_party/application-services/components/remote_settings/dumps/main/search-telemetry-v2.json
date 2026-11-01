@@ -1329,7 +1329,7 @@ has_ai_summary
 last_modified
 "
 :
-1779985790144
+1790262186648
 "
 organicCodes
 "
@@ -1364,7 +1364,7 @@ query
 schema
 "
 :
-1779580811115
+1789862407611
 "
 searchPageMatches
 "
@@ -1417,6 +1417,16 @@ subframes
 :
 [
 {
+"
+inspectRegexpInParent
+"
+:
+true
+"
+inspectRegexpInSERP
+"
+:
+true
 "
 regexp
 "
@@ -3840,7 +3850,7 @@ has_ai_summary
 last_modified
 "
 :
-1774283138111
+1790262186651
 "
 nonAdsLinkQueryParamNames
 "
@@ -3919,7 +3929,7 @@ lns_mode
 schema
 "
 :
-1773964810753
+1790260928016
 "
 searchMode
 "
@@ -4138,6 +4148,13 @@ firefox
 b
 -
 e
+"
+"
+firefox
+-
+b
+-
+exp1
 "
 "
 firefox
@@ -7101,5 +7118,5 @@ bing
 timestamp
 "
 :
-1786632246774
+1790262186651
 }

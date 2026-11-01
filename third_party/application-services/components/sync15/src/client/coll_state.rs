@@ -884,7 +884,7 @@ anyhow
 Result
 ;
 use
-nss
+nss_as
 :
 :
 ensure_initialized
@@ -1051,6 +1051,14 @@ vec
 ]
 }
 global_timestamp
+:
+ServerTimestamp
+:
+:
+default
+(
+)
+meta_timestamp
 :
 ServerTimestamp
 :
