@@ -2706,7 +2706,10 @@ ranges
 {
 ranges
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 LinkedList
 <

@@ -4150,7 +4150,10 @@ NS_ERROR_FAILURE
 auto
 buf
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 unsigned
 char

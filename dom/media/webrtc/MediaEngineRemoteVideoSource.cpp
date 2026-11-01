@@ -989,7 +989,10 @@ kFitness
 )
 mPrefs
 (
-MakeUnique
+std
+:
+:
+make_unique
 <
 MediaEnginePrefs
 >
@@ -3322,7 +3325,10 @@ mCapabilities
 .
 AppendElement
 (
-MakeUnique
+std
+:
+:
+make_unique
 <
 webrtc
 :
@@ -3390,7 +3396,10 @@ mCapabilities
 aIndex
 ]
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 webrtc
 :

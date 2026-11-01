@@ -752,7 +752,10 @@ handle
 auto
 msg
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 ShmemCreated
 >
@@ -957,7 +960,10 @@ AssertInvariants
 )
 ;
 return
-MakeUnique
+std
+:
+:
+make_unique
 <
 ShmemDestroyed
 >

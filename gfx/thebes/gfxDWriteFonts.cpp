@@ -3094,7 +3094,10 @@ mGlyphWidths
 {
 mGlyphWidths
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 nsTHashMap
 <

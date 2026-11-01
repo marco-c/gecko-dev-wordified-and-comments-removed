@@ -1951,10 +1951,10 @@ mozilla
 :
 WrapMovingNotNull
 (
-mozilla
+std
 :
 :
-MakeUnique
+make_unique
 <
 int
 >
@@ -2029,10 +2029,10 @@ mozilla
 :
 WrapMovingNotNull
 (
-mozilla
+std
 :
 :
-MakeUnique
+make_unique
 <
 Derived
 >

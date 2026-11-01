@@ -1623,10 +1623,10 @@ sHandleToFilenameCache
 ;
 sHandleToFilenameCache
 =
-mozilla
+std
 :
 :
-MakeUnique
+make_unique
 <
 HandleToFilenameCache
 >

@@ -194,10 +194,10 @@ lengthNeeded
 auto
 buf
 =
-mozilla
+std
 :
 :
-MakeUnique
+make_unique
 <
 char
 [

@@ -149,7 +149,10 @@ aCompleteCallback
 {
 mProgressCallbackWrapper
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 std
 :
@@ -189,7 +192,10 @@ count
 ;
 mCompleteCallbackWrapper
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 MoveOnlyFunction
 <

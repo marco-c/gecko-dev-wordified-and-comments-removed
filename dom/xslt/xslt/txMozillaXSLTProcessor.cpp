@@ -2081,7 +2081,10 @@ OwningXSLTParameterValue
 >
 varValue
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 OwningXSLTParameterValue
 >
@@ -4290,7 +4293,10 @@ txVariable
 >
 newVar
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 txVariable
 >
@@ -6742,7 +6748,10 @@ OwningXSLTParameterValue
 >
 value
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 OwningXSLTParameterValue
 >

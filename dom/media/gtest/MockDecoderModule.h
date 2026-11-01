@@ -64,7 +64,10 @@ aParams
 :
 DummyMediaDataDecoder
 (
-MakeUnique
+std
+:
+:
+make_unique
 <
 BlankVideoDataCreator
 >

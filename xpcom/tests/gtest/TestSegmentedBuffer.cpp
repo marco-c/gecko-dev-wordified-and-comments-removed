@@ -42,7 +42,10 @@ AppendAndPop
 auto
 buf
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 nsSegmentedBuffer
 >

@@ -14604,7 +14604,10 @@ sScriptTagToCode
 auto
 tagToCode
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 TableT
 >
@@ -15564,7 +15567,10 @@ transformedString
 {
 transformedString
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 char16_t
 [

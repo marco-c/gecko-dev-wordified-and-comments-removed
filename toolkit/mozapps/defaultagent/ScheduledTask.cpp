@@ -363,10 +363,10 @@ daTaskDesc
 ;
 description
 =
-mozilla
+std
 :
 :
-MakeUnique
+make_unique
 <
 wchar_t
 [
@@ -1079,10 +1079,10 @@ wchar_t
 >
 timeStr
 =
-mozilla
+std
 :
 :
-MakeUnique
+make_unique
 <
 wchar_t
 [

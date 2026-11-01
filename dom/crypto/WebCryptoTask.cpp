@@ -12368,7 +12368,10 @@ aKeyUsages
 :
 mKeyPair
 (
-MakeUnique
+std
+:
+:
+make_unique
 <
 CryptoKeyPair
 >
@@ -12428,7 +12431,10 @@ aKeyUsages
 :
 mKeyPair
 (
-MakeUnique
+std
+:
+:
+make_unique
 <
 CryptoKeyPair
 >

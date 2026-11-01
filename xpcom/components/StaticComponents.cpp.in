@@ -1617,7 +1617,10 @@ GetComponentESModules
 auto
 esModules
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 nsTArray
 <

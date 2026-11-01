@@ -534,7 +534,10 @@ fencesHolderId
 )
 ;
 return
-MakeUnique
+std
+:
+:
+make_unique
 <
 SharedTextureD3D11
 >

@@ -1873,7 +1873,10 @@ ref
 >
 mResponseHead
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 nsHttpResponseHead
 >

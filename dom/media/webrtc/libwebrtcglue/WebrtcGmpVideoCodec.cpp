@@ -1491,7 +1491,10 @@ _ns
 auto
 callback
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 InitDoneCallback
 >
@@ -2187,7 +2190,10 @@ GetGMPVideoEncoderCallback
 >
 callback
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 InitDoneForResolutionChangeCallback
 >
@@ -4999,7 +5005,10 @@ GetGMPVideoDecoderCallback
 >
 callback
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 InitDoneCallback
 >
@@ -5547,7 +5556,10 @@ flag
 auto
 decodeData
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 GMPDecodeData
 >

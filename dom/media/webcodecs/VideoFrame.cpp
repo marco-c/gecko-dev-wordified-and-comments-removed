@@ -13766,7 +13766,10 @@ nullptr
 auto
 frame
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 TransferredData
 >

@@ -5361,7 +5361,10 @@ currentThread
 auto
 holder
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 MozPromiseHolder
 <
@@ -6181,7 +6184,10 @@ regionBytes
 auto
 buffer
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 char
 [
@@ -9392,10 +9398,10 @@ wchar_t
 >
 data
 =
-mozilla
+std
 :
 :
-MakeUnique
+make_unique
 <
 wchar_t
 [

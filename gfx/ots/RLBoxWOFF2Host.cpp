@@ -250,7 +250,10 @@ aSize
 auto
 sandbox
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 rlbox_sandbox_woff2
 >
@@ -315,7 +318,10 @@ RLBoxWOFF2SandboxData
 >
 sbxData
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 RLBoxWOFF2SandboxData
 >

@@ -810,7 +810,10 @@ Zero
 ;
 mParser
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 OpusParser
 >
@@ -1201,7 +1204,10 @@ nullptr
 auto
 tags
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 MetadataTags
 >

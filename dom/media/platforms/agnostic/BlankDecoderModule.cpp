@@ -826,7 +826,10 @@ VideoConfig
 ;
 creator
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 BlankVideoDataCreator
 >
@@ -870,7 +873,10 @@ AudioConfig
 ;
 creator
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 BlankAudioDataCreator
 >

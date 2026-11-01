@@ -926,7 +926,10 @@ msg
 >
 data
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 int32_t
 >
@@ -1132,7 +1135,10 @@ msg
 >
 data
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 int32_t
 >
@@ -1458,7 +1464,10 @@ msg
 >
 data
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 CountedType
 >
@@ -2318,7 +2327,10 @@ msg
 >
 data
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 int32_t
 >

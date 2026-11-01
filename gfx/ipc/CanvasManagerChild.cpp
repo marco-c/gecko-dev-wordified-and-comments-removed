@@ -1097,7 +1097,10 @@ mActiveResourceTracker
 {
 mActiveResourceTracker
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 ActiveResourceTracker
 >

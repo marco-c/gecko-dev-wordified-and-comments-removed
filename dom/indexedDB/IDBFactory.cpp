@@ -694,7 +694,10 @@ principal
 auto
 principalInfo
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 PrincipalInfo
 >
@@ -976,7 +979,10 @@ NS_ERROR_DOM_INDEXEDDB_UNKNOWN_ERR
 auto
 principalInfo
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 PrincipalInfo
 >

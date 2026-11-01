@@ -500,10 +500,10 @@ nullptr
 ;
 szwTitle
 =
-mozilla
+std
 :
 :
-MakeUnique
+make_unique
 <
 WCHAR
 [
@@ -555,10 +555,10 @@ nullptr
 ;
 szwInfo
 =
-mozilla
+std
 :
 :
-MakeUnique
+make_unique
 <
 WCHAR
 [

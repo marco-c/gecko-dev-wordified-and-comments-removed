@@ -53,7 +53,10 @@ wrapper
 new
 WebrtcEnvironmentWrapper
 (
-MakeUnique
+std
+:
+:
+make_unique
 <
 webrtc
 :

@@ -803,7 +803,10 @@ GetNumericType
 auto
 numericType
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 StyleNumericType
 >
@@ -876,7 +879,10 @@ mNumericType
 (
 WrapMovingNotNull
 (
-MakeUnique
+std
+:
+:
+make_unique
 <
 StyleNumericType
 >
@@ -2692,7 +2698,10 @@ Unit
 auto
 numericType
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 StyleNumericType
 >
@@ -3058,7 +3067,10 @@ Value
 auto
 numericType
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 StyleNumericType
 >

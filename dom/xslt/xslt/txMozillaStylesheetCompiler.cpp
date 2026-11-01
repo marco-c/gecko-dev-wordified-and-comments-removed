@@ -2229,7 +2229,10 @@ attsCount
 {
 atts
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 txStylesheetAttr
 [

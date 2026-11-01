@@ -4422,7 +4422,10 @@ nullptr
 auto
 serialized
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 AudioDataSerializedData
 >

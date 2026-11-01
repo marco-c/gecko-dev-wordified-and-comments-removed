@@ -119,7 +119,10 @@ HMODULE
 >
 modules
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 HMODULE
 [

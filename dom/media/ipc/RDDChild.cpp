@@ -440,7 +440,10 @@ aDMDFile
 {
 mMemoryReportRequest
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 MemoryReportRequestHost
 >

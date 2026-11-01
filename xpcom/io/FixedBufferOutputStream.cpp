@@ -111,7 +111,10 @@ MakeRefPtr
 FixedBufferOutputStream
 >
 (
-MakeUnique
+std
+:
+:
+make_unique
 <
 BufferSink
 >
@@ -210,7 +213,10 @@ MakeRefPtr
 FixedBufferOutputStream
 >
 (
-MakeUnique
+std
+:
+:
+make_unique
 <
 nsBorrowedSink
 >

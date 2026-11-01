@@ -344,7 +344,10 @@ move
 (
 aParent
 )
-MakeUnique
+std
+:
+:
+make_unique
 <
 StyleNumericType
 >

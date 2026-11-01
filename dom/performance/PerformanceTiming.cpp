@@ -287,7 +287,10 @@ aEntryName
 )
 ;
 return
-MakeUnique
+std
+:
+:
+make_unique
 <
 PerformanceTimingData
 >

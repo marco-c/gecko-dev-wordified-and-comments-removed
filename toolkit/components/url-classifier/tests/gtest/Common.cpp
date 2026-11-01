@@ -523,7 +523,10 @@ Length
 auto
 str
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 _Prefix
 >

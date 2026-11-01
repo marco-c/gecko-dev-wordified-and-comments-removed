@@ -3663,7 +3663,10 @@ return
 }
 mDmOwner
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 DirectManipulationOwner
 >
@@ -36532,7 +36535,10 @@ mSynthesizedTouchInput
 {
 mSynthesizedTouchInput
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 MultiTouchInput
 >
@@ -36666,7 +36672,10 @@ entry
 .
 Insert
 (
-MakeUnique
+std
+:
+:
+make_unique
 <
 PointerInfo
 >
@@ -37078,7 +37087,10 @@ entry
 .
 Insert
 (
-MakeUnique
+std
+:
+:
+make_unique
 <
 PointerInfo
 >

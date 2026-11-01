@@ -1101,7 +1101,10 @@ entry
 .
 Insert
 (
-MakeUnique
+std
+:
+:
+make_unique
 <
 INIValue
 >
@@ -1168,7 +1171,10 @@ v
 >
 next
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 INIValue
 >

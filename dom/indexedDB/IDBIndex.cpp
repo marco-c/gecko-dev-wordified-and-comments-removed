@@ -959,7 +959,10 @@ return
 }
 mDeletedMetadata
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 IndexMetadata
 >

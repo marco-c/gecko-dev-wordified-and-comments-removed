@@ -393,7 +393,10 @@ aName
 )
 mNode
 (
-MakeUnique
+std
+:
+:
+make_unique
 <
 Node
 >
@@ -996,7 +999,10 @@ aMessage
 auto
 messageEvent
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 UserMessageEvent
 >
@@ -1242,7 +1248,10 @@ else
 {
 message
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 IPC
 :

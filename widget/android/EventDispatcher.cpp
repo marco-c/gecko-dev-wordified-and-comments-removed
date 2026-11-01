@@ -3204,7 +3204,10 @@ NativeCallbackDelegateSupport
 AttachNative
 (
 callback
-MakeUnique
+std
+:
+:
+make_unique
 <
 NativeCallbackDelegateSupport
 >

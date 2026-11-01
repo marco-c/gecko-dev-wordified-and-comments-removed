@@ -273,7 +273,10 @@ entry
 .
 InsertOrUpdate
 (
-MakeUnique
+std
+:
+:
+make_unique
 <
 DeleteItemInfo
 >
@@ -323,7 +326,10 @@ mTruncateInfo
 {
 mTruncateInfo
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 TruncateInfo
 >

@@ -2022,7 +2022,10 @@ else
 {
 lastReport
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 dom
 :
@@ -2787,7 +2790,10 @@ pcId
 auto
 finalStats
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 RTCStatsReportInternal
 >
@@ -2989,7 +2995,10 @@ ConsistentOrdering
 auto
 trials
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 MozTrialsConfig
 >

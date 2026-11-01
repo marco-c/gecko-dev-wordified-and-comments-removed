@@ -276,10 +276,10 @@ results
 >
 serviceDescription
 =
-mozilla
+std
 :
 :
-MakeUnique
+make_unique
 <
 char
 [
@@ -832,10 +832,10 @@ WCHAR
 >
 serviceDescription
 =
-mozilla
+std
 :
 :
-MakeUnique
+make_unique
 <
 WCHAR
 [

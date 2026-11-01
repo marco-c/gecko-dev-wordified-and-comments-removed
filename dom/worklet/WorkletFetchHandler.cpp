@@ -1193,7 +1193,10 @@ ScriptDecoder
 >
 decoder
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 ScriptDecoder
 >
@@ -3153,7 +3156,10 @@ uint8_t
 >
 scriptTextBuf
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 uint8_t
 [

@@ -744,10 +744,10 @@ lBFSTable
 InsertOrUpdate
 (
 key
-mozilla
+std
 :
 :
-MakeUnique
+make_unique
 <
 BFSTableData
 >
@@ -1047,10 +1047,10 @@ curVertexState
 >
 predecessor
 =
-mozilla
+std
 :
 :
-MakeUnique
+make_unique
 <
 nsCString
 >

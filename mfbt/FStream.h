@@ -267,7 +267,10 @@ fmode
 ;
 mFileBuf
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 __gnu_cxx
 :
@@ -488,7 +491,10 @@ fmode
 ;
 mFileBuf
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 __gnu_cxx
 :

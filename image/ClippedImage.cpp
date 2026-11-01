@@ -1451,7 +1451,10 @@ FLAG_CLAMP
 ;
 mCachedSurface
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 ClippedImageCachedSurface
 >

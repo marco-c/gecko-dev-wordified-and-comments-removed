@@ -1423,7 +1423,10 @@ do_AddRef
 new
 PrintTargetSkPDF
 (
-MakeUnique
+std
+:
+:
+make_unique
 <
 GkSkWStream
 >

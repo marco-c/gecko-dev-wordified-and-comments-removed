@@ -87,7 +87,10 @@ aText
 )
 {
 return
-MakeUnique
+std
+:
+:
+make_unique
 <
 InspectorCSSParser
 >

@@ -7134,7 +7134,10 @@ LAZY_SEND_BIT
 auto
 messageEvent
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 UserMessageEvent
 >

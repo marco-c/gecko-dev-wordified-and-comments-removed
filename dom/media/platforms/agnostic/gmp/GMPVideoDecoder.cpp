@@ -2630,7 +2630,10 @@ entryHandle
 auto
 sampleData
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 SampleMetadata
 >

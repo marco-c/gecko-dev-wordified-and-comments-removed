@@ -832,7 +832,10 @@ mCoreTextShaper
 {
 mCoreTextShaper
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 gfxCoreTextShaper
 >

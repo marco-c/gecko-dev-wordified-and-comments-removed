@@ -1045,10 +1045,10 @@ return
 }
 mSRIMetadata
 =
-mozilla
+std
 :
 :
-MakeUnique
+make_unique
 <
 mozilla
 :
@@ -1749,10 +1749,10 @@ mPreloadedResolvedSet
 {
 mPreloadedResolvedSet
 =
-mozilla
+std
 :
 :
-MakeUnique
+make_unique
 <
 ResolvedModuleSet
 >

@@ -1396,7 +1396,10 @@ return
 auto
 updatingTexture
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 UpdatingTextureHolder
 >

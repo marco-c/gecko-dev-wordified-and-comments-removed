@@ -7797,7 +7797,10 @@ CoalescedMouseData
 >
 dispatchData
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 CoalescedMouseData
 >
@@ -7997,7 +8000,10 @@ CoalescedMouseData
 >
 dispatchData
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 CoalescedMouseData
 >
@@ -8035,7 +8041,10 @@ InsertOrUpdate
 aMouseEvent
 .
 pointerId
-MakeUnique
+std
+:
+:
+make_unique
 <
 CoalescedMouseData
 >
@@ -8486,7 +8495,10 @@ CoalescedMouseData
 >
 dispatchData
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 CoalescedMouseData
 >

@@ -298,7 +298,10 @@ aRange
 )
 mPolicy
 (
-MakeUnique
+std
+:
+:
+make_unique
 <
 VMSharingPolicyUnique
 <

@@ -846,7 +846,10 @@ mMutex
 auto
 crypto
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 EncryptionInfo
 >

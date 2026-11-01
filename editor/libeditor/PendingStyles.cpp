@@ -1451,7 +1451,10 @@ PendingStyle
 >
 style
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 PendingStyle
 >
@@ -1678,7 +1681,10 @@ mClearingStyles
 .
 AppendElement
 (
-MakeUnique
+std
+:
+:
+make_unique
 <
 PendingStyle
 >

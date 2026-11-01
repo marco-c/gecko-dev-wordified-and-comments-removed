@@ -959,7 +959,10 @@ p
 auto
 newPrefs
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 LangGroupFontPrefs
 >

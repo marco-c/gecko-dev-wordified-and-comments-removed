@@ -754,7 +754,10 @@ height
 ;
 mBuffer
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 uint8_t
 [
@@ -5116,7 +5119,10 @@ height
 auto
 buffer
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 uint8_t
 [

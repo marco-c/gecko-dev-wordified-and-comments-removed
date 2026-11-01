@@ -1478,7 +1478,10 @@ mutable
 auto
 report
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 dom
 :
@@ -1722,7 +1725,10 @@ Ref
 auto
 report
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 dom
 :

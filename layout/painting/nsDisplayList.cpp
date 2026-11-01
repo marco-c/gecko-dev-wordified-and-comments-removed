@@ -31528,7 +31528,10 @@ scrollContainerFrame
 ;
 }
 return
-MakeUnique
+std
+:
+:
+make_unique
 <
 ScrollMetadata
 >
@@ -35270,7 +35273,10 @@ OFFSET_BY_ORIGIN
 ;
 mTransformPreserves3D
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 Matrix4x4
 >

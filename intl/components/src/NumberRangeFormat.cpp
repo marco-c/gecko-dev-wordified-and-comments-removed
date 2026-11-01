@@ -124,7 +124,10 @@ NumberRangeFormat
 >
 nrf
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 NumberRangeFormat
 >

@@ -3861,7 +3861,10 @@ p
 auto
 encryptCipherStrategy
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 IPCStreamCipherStrategy
 >
@@ -3871,7 +3874,10 @@ IPCStreamCipherStrategy
 auto
 decryptCipherStrategy
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 IPCStreamCipherStrategy
 >
@@ -4759,7 +4765,10 @@ obfsNextSystemCall
 }
 ;
 return
-MakeUnique
+std
+:
+:
+make_unique
 <
 sqlite3_vfs
 >

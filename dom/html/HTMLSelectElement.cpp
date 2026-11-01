@@ -6558,7 +6558,10 @@ mIsDoneAddingChildren
 {
 mRestoreState
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 SelectContentData
 >

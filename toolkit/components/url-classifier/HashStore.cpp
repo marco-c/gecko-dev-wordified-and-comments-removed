@@ -725,7 +725,10 @@ mPrefixesMap
 InsertOrUpdate
 (
 aSize
-MakeUnique
+std
+:
+:
+make_unique
 <
 nsCString
 >

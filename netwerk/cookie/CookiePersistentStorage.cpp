@@ -2452,7 +2452,10 @@ CookiePersistentStorage
 :
 mWriteQueue
 (
-MakeUnique
+std
+:
+:
+make_unique
 <
 CookieDBWriteQueue
 >
@@ -9203,7 +9206,10 @@ IDX_PARTITIONED_ATTRIBUTE_SET
 )
 ;
 return
-MakeUnique
+std
+:
+:
+make_unique
 <
 CookieStruct
 >

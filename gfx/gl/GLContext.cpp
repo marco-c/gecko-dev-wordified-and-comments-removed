@@ -14996,7 +14996,10 @@ mReadTexImageHelper
 {
 mReadTexImageHelper
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 GLReadTexImageHelper
 >
@@ -16126,7 +16129,10 @@ LOCAL_GL_RGBA
 auto
 tex
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 Texture
 >

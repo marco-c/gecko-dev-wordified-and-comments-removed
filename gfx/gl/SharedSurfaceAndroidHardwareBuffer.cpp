@@ -228,7 +228,10 @@ nullptr
 auto
 tex
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 Texture
 >

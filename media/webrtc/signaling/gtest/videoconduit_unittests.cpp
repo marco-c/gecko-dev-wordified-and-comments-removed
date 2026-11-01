@@ -427,7 +427,10 @@ mLockScaling
 )
 mVideoSink
 (
-MakeUnique
+std
+:
+:
+make_unique
 <
 MockVideoSink
 >
