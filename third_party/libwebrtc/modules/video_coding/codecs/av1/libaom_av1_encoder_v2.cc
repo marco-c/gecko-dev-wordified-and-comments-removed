@@ -2308,11 +2308,10 @@ LS_ERROR
 "
 Frame
 spatial
-id
-specified
-out
-of
-order
+ids
+not
+strictly
+increasing
 .
 "
 ;
