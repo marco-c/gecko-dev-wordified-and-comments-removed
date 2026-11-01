@@ -11381,7 +11381,12 @@ move
 (
 utilityActors
 )
-0
+geckoProcess
+-
+>
+GetChildID
+(
+)
 #
 ifdef
 XP_MACOSX

@@ -643,20 +643,6 @@ browser
 "
 )
 ;
-if
-(
-childProc
-.
-type
-.
-startsWith
-(
-"
-web
-"
-)
-)
-{
 Assert
 .
 notEqual
@@ -668,6 +654,7 @@ childID
 "
 Child
 proc
+childID
 should
 have
 been
@@ -675,7 +662,6 @@ set
 "
 )
 ;
-}
 Assert
 .
 notEqual
