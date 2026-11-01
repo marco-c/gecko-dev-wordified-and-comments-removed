@@ -5893,9 +5893,6 @@ com
 expires
 :
 never
-telemetry_mirror
-:
-SCRIPT_PRELOADER_MAINTHREAD_RECOMPILE
 wait_time
 :
 type
@@ -6169,6 +6166,3 @@ com
 expires
 :
 never
-telemetry_mirror
-:
-SCRIPT_PRELOADER_WAIT_TIME
