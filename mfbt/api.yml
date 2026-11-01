@@ -1791,8 +1791,6 @@ h
 types
 :
 -
-DefaultDelete
--
 UniquePtr
 functions
 :

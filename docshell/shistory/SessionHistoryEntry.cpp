@@ -2030,7 +2030,10 @@ else
 {
 mChild
 .
-UniquePtr
+std
+:
+:
+unique_ptr
 <
 SHEntrySharedState
 >
@@ -2040,10 +2043,6 @@ SHEntrySharedState
 unique_ptr
 <
 SHEntrySharedState
-DefaultDelete
-<
-SHEntrySharedState
->
 >
 (
 )
