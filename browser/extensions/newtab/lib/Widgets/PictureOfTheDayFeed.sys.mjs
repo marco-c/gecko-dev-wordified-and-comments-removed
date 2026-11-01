@@ -2845,6 +2845,11 @@ PREF_SYSTEM_ENABLED
 :
 case
 "
+region
+"
+:
+case
+"
 trainhopConfig
 "
 :

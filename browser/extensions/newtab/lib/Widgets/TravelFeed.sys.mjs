@@ -198,6 +198,9 @@ TRAVEL_ENTRY
 .
 systemEnabledPref
 "
+region
+"
+"
 trainhopConfig
 "
 ]

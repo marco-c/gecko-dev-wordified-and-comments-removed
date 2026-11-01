@@ -509,6 +509,9 @@ RECENT_SEARCHES_ENTRY
 .
 systemEnabledPref
 "
+region
+"
+"
 trainhopConfig
 "
 ]

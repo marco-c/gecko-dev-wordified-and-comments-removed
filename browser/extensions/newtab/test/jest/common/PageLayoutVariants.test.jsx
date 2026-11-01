@@ -168,6 +168,11 @@ const
 WIDGETS_ON
 =
 {
+region
+:
+"
+US
+"
 "
 widgets
 .

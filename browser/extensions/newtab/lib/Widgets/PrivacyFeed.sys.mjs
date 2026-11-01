@@ -665,6 +665,9 @@ PRIVACY_ENTRY
 .
 systemEnabledPref
 "
+region
+"
+"
 trainhopConfig
 "
 /

@@ -311,6 +311,11 @@ true
 showWeather
 :
 true
+region
+:
+"
+US
+"
 }
 ;
 describe
