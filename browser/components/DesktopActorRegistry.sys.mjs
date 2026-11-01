@@ -5582,9 +5582,13 @@ studies
 *
 "
 ]
-safeForUntrustedWebProcess
+remoteTypes
 :
-true
+[
+"
+privilegedabout
+"
+]
 }
 SmartFormFill
 :
