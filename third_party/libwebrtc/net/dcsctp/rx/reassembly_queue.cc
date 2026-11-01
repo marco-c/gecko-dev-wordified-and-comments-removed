@@ -530,6 +530,17 @@ deferred_reset_streams_
 sender_last_assigned_tsn
 &
 &
+(
+deferred_reset_streams_
+-
+>
+streams
+.
+empty
+(
+)
+|
+|
 deferred_reset_streams_
 -
 >
@@ -540,6 +551,7 @@ contains
 data
 .
 stream_id
+)
 )
 )
 {
