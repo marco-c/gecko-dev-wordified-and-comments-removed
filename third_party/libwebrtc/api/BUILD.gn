@@ -543,6 +543,16 @@ rtc_base
 /
 system
 :
+ignore_warnings
+"
+"
+.
+.
+/
+rtc_base
+/
+system
+:
 rtc_export
 "
 "

@@ -583,17 +583,6 @@ Current
 ;
 factory_dependencies
 .
-worker_thread
-=
-Thread
-:
-:
-Current
-(
-)
-;
-factory_dependencies
-.
 signaling_thread
 =
 Thread

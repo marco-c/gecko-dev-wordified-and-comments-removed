@@ -6276,6 +6276,16 @@ rtc_base
 unique_id_generator
 "
 "
+.
+.
+/
+rtc_base
+/
+system
+:
+ignore_warnings
+"
+"
 /
 /
 third_party

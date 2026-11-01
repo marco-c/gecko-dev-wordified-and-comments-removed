@@ -358,17 +358,6 @@ Current
 ;
 deps
 .
-worker_thread
-=
-Thread
-:
-:
-Current
-(
-)
-;
-deps
-.
 signaling_thread
 =
 Thread
