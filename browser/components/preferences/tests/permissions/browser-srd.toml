@@ -60,6 +60,13 @@ js
 ]
 [
 "
+browser_notifications_pane
+.
+js
+"
+]
+[
+"
 browser_permissions_about_hidden
 .
 js
