@@ -5663,6 +5663,12 @@ rv
 rv
 )
 ;
+failGuard
+.
+release
+(
+)
+;
 return
 NS_OK
 ;
