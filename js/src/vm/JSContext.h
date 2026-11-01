@@ -676,6 +676,7 @@ Kind
 :
 FirstJSKind
 InlinePromiseReaction
+InlineThenable
 ResolveThenable
 ResolveBuiltinThenable
 DeferredResolve
