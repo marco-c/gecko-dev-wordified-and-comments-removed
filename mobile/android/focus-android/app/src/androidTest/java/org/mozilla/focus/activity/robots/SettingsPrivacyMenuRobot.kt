@@ -2850,7 +2850,7 @@ R
 .
 string
 .
-preference_block_cookies_title
+preference_privacy_category_cookies
 )
 )
 )
