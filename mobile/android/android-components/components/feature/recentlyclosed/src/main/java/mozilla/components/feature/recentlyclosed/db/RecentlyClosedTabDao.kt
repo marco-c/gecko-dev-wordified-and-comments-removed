@@ -137,6 +137,7 @@ OnConflictStrategy
 .
 REPLACE
 )
+suspend
 fun
 insertTab
 (
@@ -147,6 +148,7 @@ RecentlyClosedTabEntity
 :
 Long
 Delete
+suspend
 fun
 deleteTab
 (
@@ -197,6 +199,7 @@ recently_closed_tabs
 "
 "
 )
+suspend
 fun
 removeAllTabs
 (

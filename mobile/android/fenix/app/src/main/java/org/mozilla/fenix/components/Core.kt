@@ -2787,6 +2787,7 @@ RecentlyClosedMiddleware
 (
 recentlyClosedTabsStorage
 RECENTLY_CLOSED_MAX
+applicationScope
 )
 DownloadMiddleware
 (
@@ -3064,6 +3065,9 @@ TabGroupMiddleware
 tabGroupRepository
 =
 tabGroupRepository
+scope
+=
+applicationScope
 )
 )
 BrowserStore

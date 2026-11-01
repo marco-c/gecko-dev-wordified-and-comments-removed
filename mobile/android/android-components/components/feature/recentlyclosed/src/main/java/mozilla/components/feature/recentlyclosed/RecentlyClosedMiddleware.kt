@@ -75,12 +75,6 @@ kotlinx
 .
 coroutines
 .
-Dispatchers
-import
-kotlinx
-.
-coroutines
-.
 flow
 .
 Flow
@@ -265,13 +259,6 @@ val
 scope
 :
 CoroutineScope
-=
-CoroutineScope
-(
-Dispatchers
-.
-IO
-)
 )
 :
 Middleware
