@@ -615,7 +615,7 @@ list
 )
 ;
 await
-assertImageLoaded
+assertScriptLoaded
 (
 browser
 TEST_ANNOTATED_3RD_PARTY_DOMAIN
@@ -783,7 +783,7 @@ active
 )
 ;
 await
-assertImageBlocked
+assertScriptBlocked
 (
 browser
 TEST_ANNOTATED_3RD_PARTY_DOMAIN
@@ -971,7 +971,7 @@ list
 )
 ;
 await
-assertImageLoaded
+assertScriptLoaded
 (
 browser
 TEST_ANNOTATED_3RD_PARTY_DOMAIN
@@ -1158,7 +1158,7 @@ active
 )
 ;
 await
-assertImageLoaded
+assertScriptLoaded
 (
 browser
 TEST_ANNOTATED_3RD_PARTY_DOMAIN
@@ -1253,7 +1253,7 @@ fingerprinters
 )
 ;
 await
-assertImageBlocked
+assertScriptBlocked
 (
 browser
 TEST_ANNOTATED_3RD_PARTY_DOMAIN

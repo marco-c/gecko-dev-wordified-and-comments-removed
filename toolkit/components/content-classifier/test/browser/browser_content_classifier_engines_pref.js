@@ -655,7 +655,7 @@ only
 )
 ;
 await
-assertImageBlocked
+assertScriptBlocked
 (
 browser
 TEST_ANNOTATED_3RD_PARTY_DOMAIN
@@ -718,7 +718,7 @@ only
 )
 ;
 await
-assertImageLoaded
+assertScriptLoaded
 (
 pbmBrowser
 TEST_ANNOTATED_3RD_PARTY_DOMAIN
@@ -888,7 +888,7 @@ engines
 )
 ;
 await
-assertImageLoaded
+assertScriptLoaded
 (
 browser
 TEST_ANNOTATED_3RD_PARTY_DOMAIN
@@ -1162,7 +1162,7 @@ feature
 )
 ;
 await
-assertImageBlocked
+assertScriptBlocked
 (
 browser
 TEST_ANNOTATED_3RD_PARTY_DOMAIN
@@ -1292,7 +1292,7 @@ annotate
 )
 {
 await
-assertImageLoaded
+assertScriptLoaded
 (
 browser
 TEST_ANNOTATED_3RD_PARTY_DOMAIN
@@ -1315,7 +1315,7 @@ feature
 else
 {
 await
-assertImageBlocked
+assertScriptBlocked
 (
 browser
 TEST_ANNOTATED_3RD_PARTY_DOMAIN
@@ -1733,7 +1733,7 @@ action
 )
 ;
 await
-assertImageLoaded
+assertScriptLoaded
 (
 browser
 TEST_ANNOTATED_3RD_PARTY_DOMAIN
@@ -2178,7 +2178,7 @@ records
 )
 ;
 await
-assertImageLoaded
+assertScriptLoaded
 (
 browser
 TEST_ANNOTATED_3RD_PARTY_DOMAIN
