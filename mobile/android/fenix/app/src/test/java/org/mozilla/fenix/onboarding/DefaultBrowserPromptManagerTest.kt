@@ -157,7 +157,7 @@ onboarding
 .
 view
 .
-notificationPageUiData
+syncPageUiData
 import
 org
 .
@@ -169,7 +169,7 @@ onboarding
 .
 view
 .
-syncPageUiData
+termsOfServicePageUiData
 import
 org
 .
@@ -418,7 +418,7 @@ assertFalse
 (
 promptShownFor
 (
-notificationPageUiData
+termsOfServicePageUiData
 )
 )
 }
