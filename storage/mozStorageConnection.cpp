@@ -14318,8 +14318,9 @@ return
 NS_ERROR_NOT_INITIALIZED
 ;
 }
-MOZ_ALWAYS_SUCCEEDS
-(
+nsresult
+rv
+=
 helperThread
 -
 >
@@ -14330,8 +14331,13 @@ loadTask
 forget
 (
 )
-NS_DISPATCH_NORMAL
+NS_DISPATCH_FALLIBLE
 )
+;
+NS_ENSURE_SUCCESS
+(
+rv
+rv
 )
 ;
 }
