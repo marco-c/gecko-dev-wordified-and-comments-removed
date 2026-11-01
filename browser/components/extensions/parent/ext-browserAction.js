@@ -1034,9 +1034,6 @@ privateBrowsingAllowed
 disallowSubView
 :
 true
-localized
-:
-false
 onBuild
 :
 document
