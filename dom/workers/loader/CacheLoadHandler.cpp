@@ -3357,12 +3357,12 @@ Private
 )
 -
 >
-SetCsp
+SetPolicyContainerOnMainThread
 (
 parent
 -
 >
-GetCsp
+GetPolicyContainer
 (
 )
 )
