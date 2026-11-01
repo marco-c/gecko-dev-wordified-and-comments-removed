@@ -498,8 +498,6 @@ aWLBuffer
 WaylandBufferHolder
 (
 )
-=
-default
 ;
 private
 :
