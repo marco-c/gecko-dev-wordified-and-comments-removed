@@ -51,13 +51,6 @@ WIN32_LEAN_AND_MEAN
 #
 include
 <
-errno
-.
-h
->
-#
-include
-<
 process
 .
 h

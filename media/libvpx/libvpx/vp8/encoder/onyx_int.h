@@ -1094,6 +1094,9 @@ YV12_BUFFER_CONFIG
 scaled_source
 ;
 YV12_BUFFER_CONFIG
+raw_source_frame
+;
+YV12_BUFFER_CONFIG
 *
 last_frame_unscaled_source
 ;

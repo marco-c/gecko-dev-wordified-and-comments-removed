@@ -1853,8 +1853,14 @@ YV12_BUFFER_CONFIG
 scaled_last_source
 ;
 #
-ifdef
+if
+defined
+(
 ENABLE_KF_DENOISE
+)
+|
+|
+CONFIG_VP9_TEMPORAL_DENOISING
 YV12_BUFFER_CONFIG
 raw_unscaled_source
 ;
