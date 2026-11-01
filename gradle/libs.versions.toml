@@ -347,7 +347,7 @@ palette
 "
 1
 .
-0
+1
 .
 0
 "
@@ -2876,8 +2876,6 @@ androidx
 palette
 :
 palette
--
-ktx
 "
 version
 .
