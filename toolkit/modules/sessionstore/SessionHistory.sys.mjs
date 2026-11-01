@@ -3014,11 +3014,6 @@ if
 entry
 .
 structuredCloneState
-&
-&
-entry
-.
-structuredCloneVersion
 )
 {
 var
