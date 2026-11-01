@@ -1975,8 +1975,12 @@ env
 scopeKind
 variables
 :
-{
-}
+Object
+.
+create
+(
+null
+)
 }
 ;
 const
