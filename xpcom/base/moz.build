@@ -419,6 +419,11 @@ nsError
 h
 "
 "
+nsFunctionInterfaceUtils
+.
+h
+"
+"
 nsGZFileWriter
 .
 h
