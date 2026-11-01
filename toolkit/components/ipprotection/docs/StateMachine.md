@@ -421,9 +421,13 @@ failed
 The
 channel
 filter
-keeps
-holding
-traffic
+cancels
+proxied
+requests
+with
+a
+proxy
+error
 .
 Stop
 must
