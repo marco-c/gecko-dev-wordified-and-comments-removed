@@ -692,7 +692,7 @@ bool
 js
 :
 :
-ObjectMayHaveExtraIndexedProperties
+ObjectMayHaveExtraIndexedPropertiesSlow
 (
 JSObject
 *
