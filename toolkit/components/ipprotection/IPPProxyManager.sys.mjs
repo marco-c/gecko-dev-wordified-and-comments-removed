@@ -7756,6 +7756,14 @@ state
 return
 ;
 }
+const
+prevState
+=
+this
+.
+#
+state
+;
 this
 .
 #
@@ -7786,6 +7794,7 @@ detail
 :
 {
 state
+prevState
 }
 }
 )
