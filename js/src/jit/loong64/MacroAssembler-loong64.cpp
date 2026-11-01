@@ -33414,7 +33414,7 @@ Acquire
 (
 )
 ;
-splitTag
+splitSignExtTag
 (
 value
 scratch
@@ -33424,7 +33424,7 @@ ma_cmp_set
 (
 dest
 scratch
-ImmTag
+ImmTagSignExt
 (
 JSVAL_TAG_NULL
 )
@@ -33479,7 +33479,7 @@ Acquire
 (
 )
 ;
-splitTag
+splitSignExtTag
 (
 value
 scratch
@@ -33489,7 +33489,7 @@ ma_cmp_set
 (
 dest
 scratch
-ImmTag
+ImmTagSignExt
 (
 JSVAL_TAG_OBJECT
 )
@@ -33544,7 +33544,7 @@ Acquire
 (
 )
 ;
-splitTag
+splitSignExtTag
 (
 value
 scratch
@@ -33554,7 +33554,7 @@ ma_cmp_set
 (
 dest
 scratch
-ImmTag
+ImmTagSignExt
 (
 JSVAL_TAG_UNDEFINED
 )
@@ -35117,12 +35117,10 @@ address
 scratch
 )
 ;
-as_bstrpick_d
+splitSignExtTag
 (
 scratch
 scratch
-63
-JSVAL_TAG_SHIFT
 )
 ;
 return
