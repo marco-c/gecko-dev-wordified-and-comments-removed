@@ -15,13 +15,6 @@ py
 ]
 [
 "
-test_android_expired_strings
-.
-py
-"
-]
-[
-"
 test_android_format
 .
 py
