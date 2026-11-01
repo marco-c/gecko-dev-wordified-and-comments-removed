@@ -849,6 +849,11 @@ TestWMFDeadlock
 .
 cpp
 "
+"
+TestWMFEncoderModule
+.
+cpp
+"
 ]
 if
 CONFIG
