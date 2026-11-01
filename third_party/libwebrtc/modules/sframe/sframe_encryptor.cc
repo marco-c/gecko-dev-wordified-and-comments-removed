@@ -128,8 +128,6 @@ SframeEncryptor
 :
 Create
 (
-SframeMode
-mode
 SframeCipherSuite
 cipher_suite
 )
@@ -140,7 +138,6 @@ make_ref_counted
 SframeEncryptor
 >
 (
-mode
 cipher_suite
 )
 ;
@@ -150,8 +147,6 @@ SframeEncryptor
 :
 SframeEncryptor
 (
-SframeMode
-mode
 SframeCipherSuite
 cipher_suite
 )
@@ -162,10 +157,6 @@ SequenceChecker
 :
 :
 kDetached
-)
-mode_
-(
-mode
 )
 context_
 (

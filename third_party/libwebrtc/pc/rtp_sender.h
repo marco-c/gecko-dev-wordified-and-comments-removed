@@ -295,7 +295,7 @@ modules
 /
 sframe
 /
-sframe_media_encryptor_interface
+sframe_encryption_config
 .
 h
 "
@@ -1786,11 +1786,14 @@ RTC_GUARDED_BY
 signaling_thread_
 )
 ;
-scoped_refptr
+std
+:
+:
+optional
 <
-SframeMediaEncryptorInterface
+SframeEncryptionConfig
 >
-sframe_encryptor_
+sframe_encryption_config_
 RTC_GUARDED_BY
 (
 worker_thread_

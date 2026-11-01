@@ -192,10 +192,6 @@ SframeEncryptor
 :
 Create
 (
-SframeMode
-:
-:
-kPerFrame
 SframeCipherSuite
 :
 :
