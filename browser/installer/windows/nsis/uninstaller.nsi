@@ -292,6 +292,9 @@ logging
 define
 NO_LOG
 !
+ifdef
+MOZ_MAINTENANCE_SERVICE
+!
 define
 MaintUninstallKey
 \
@@ -309,9 +312,11 @@ Uninstall
 MozillaMaintenanceService
 "
 Var
-TmpVal
-Var
 MaintCertKey
+!
+endif
+Var
+TmpVal
 Var
 ShouldOpenSurvey
 Var
@@ -522,6 +527,14 @@ helper
 exe
 "
 !
+ifdef
+MOZ_MAINTENANCE_SERVICE
+!
+insertmacro
+IsUserAdmin
+!
+endif
+!
 insertmacro
 AddDisabledDDEHandlerValues
 !
@@ -545,9 +558,6 @@ IsHandlerForInstallDir
 !
 insertmacro
 IsPinnedToTaskBar
-!
-insertmacro
-IsUserAdmin
 !
 insertmacro
 LogDesktopShortcut
@@ -1385,6 +1395,9 @@ ShouldOpenSurvey
 1
 "
 FunctionEnd
+!
+ifdef
+MOZ_MAINTENANCE_SERVICE
 ;
 This
 function
@@ -1710,6 +1723,8 @@ Pop
 Pop
 0
 FunctionEnd
+!
+endif
 Function
 un
 .

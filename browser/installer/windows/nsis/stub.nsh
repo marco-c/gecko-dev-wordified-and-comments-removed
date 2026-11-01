@@ -1331,6 +1331,14 @@ common
 nsh
 "
 !
+ifdef
+MOZ_MAINTENANCE_SERVICE
+!
+insertmacro
+IsUserAdmin
+!
+endif
+!
 insertmacro
 CopyPostSigningData
 !
@@ -1351,9 +1359,6 @@ GetSingleInstallPath
 !
 insertmacro
 InitHashAppModelId
-!
-insertmacro
-IsUserAdmin
 !
 insertmacro
 RemovePrecompleteEntries
