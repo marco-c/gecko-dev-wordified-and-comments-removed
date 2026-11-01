@@ -1964,7 +1964,7 @@ links
 "
 maxLength
 :
-32768
+8192
 name
 :
 "
