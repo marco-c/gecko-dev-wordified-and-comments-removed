@@ -535,23 +535,6 @@ ClassificationEnum
 )
 :
     
-FISSION
-=
-{
-"
-value
-"
-:
-"
-fission
-"
-"
-index
-"
-:
-0
-}
-    
 BYTECODE_CACHED
 =
 {
@@ -568,7 +551,7 @@ cached
 index
 "
 :
-1
+0
 }
     
 LIVE_SITES
@@ -587,7 +570,7 @@ sites
 index
 "
 :
-2
+1
 }
     
 PROFILING
@@ -604,7 +587,7 @@ profiling
 index
 "
 :
-3
+2
 }
     
 SWR
@@ -621,7 +604,7 @@ swr
 index
 "
 :
-4
+3
 }
     
 NOVA
@@ -638,7 +621,7 @@ nova
 index
 "
 :
-5
+4
 }
 "
 "
@@ -995,18 +978,6 @@ task_without_app
 -
 1
 ]
-or
-task_without_app
-[
--
-1
-]
-=
-=
-"
--
-nofis
-"
 :
                             
 task_without_app
@@ -2478,63 +2449,6 @@ return
             
 Variants
 .
-FISSION
-.
-value
-:
-{
-                
-"
-query
-"
-:
-"
-!
-nofis
-"
-                
-"
-negation
-"
-:
-"
-'
-nofis
-"
-                
-"
-platforms
-"
-:
-[
-Platforms
-.
-ANDROID
-.
-value
-]
-                
-"
-apps
-"
-:
-[
-Apps
-.
-FENIX
-.
-value
-Apps
-.
-GECKOVIEW
-.
-value
-]
-            
-}
-            
-Variants
-.
 BYTECODE_CACHED
 .
 value
@@ -2910,12 +2824,6 @@ variants
 "
 :
 [
-                    
-Variants
-.
-FISSION
-.
-value
                     
 Variants
 .
@@ -3419,12 +3327,6 @@ Variants
 PROFILING
 .
 value
-                        
-Variants
-.
-FISSION
-.
-value
                     
 ]
                 
@@ -3615,7 +3517,6 @@ restrictions
 "
 :
 {
-                    
 Suites
 .
 RAPTOR
@@ -3625,16 +3526,10 @@ value
 [
 Variants
 .
-FISSION
-.
-value
-Variants
-.
 NOVA
 .
 value
 ]
-                
 }
                 
 "
@@ -3748,11 +3643,6 @@ RAPTOR
 value
 :
 [
-Variants
-.
-FISSION
-.
-value
 ]
 }
                 
@@ -4898,11 +4788,6 @@ RAPTOR
 value
 :
 [
-Variants
-.
-FISSION
-.
-value
 ]
                     
 Suites
@@ -5084,11 +4969,6 @@ RAPTOR
 value
 :
 [
-Variants
-.
-FISSION
-.
-value
 ]
 }
                 
@@ -5871,11 +5751,6 @@ RAPTOR
 value
 :
 [
-Variants
-.
-FISSION
-.
-value
 ]
                 
 }
@@ -6032,7 +5907,6 @@ restrictions
 "
 :
 {
-                    
 Suites
 .
 RAPTOR
@@ -6042,16 +5916,10 @@ value
 [
 Variants
 .
-FISSION
-.
-value
-Variants
-.
 NOVA
 .
 value
 ]
-                
 }
                 
 "
