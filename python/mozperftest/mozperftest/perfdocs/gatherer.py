@@ -393,6 +393,22 @@ hg
             
 str
 (
+pathlib
+.
+Path
+(
+self
+.
+workspace_dir
+"
+.
+claude
+"
+)
+)
+            
+str
+(
                 
 pathlib
 .
