@@ -2397,6 +2397,7 @@ typename
 SlotInfo
 >
 struct
+MOZ_EMPTY_BASES
 alignas
 (
 ScopeDataAlignBytes
@@ -2408,6 +2409,11 @@ AbstractBaseScopeData
 <
 JSAtom
 >
+public
+gc
+:
+:
+Buffer
 {
 SlotInfo
 slotInfo
@@ -3045,6 +3051,7 @@ HasParameterExprsFlag
 }
 ;
 struct
+MOZ_EMPTY_BASES
 alignas
 (
 ScopeDataAlignBytes
@@ -3056,6 +3063,11 @@ AbstractBaseScopeData
 <
 JSAtom
 >
+public
+gc
+:
+:
+Buffer
 {
 SlotInfo
 slotInfo
@@ -4125,6 +4137,7 @@ usingStart
 }
 ;
 struct
+MOZ_EMPTY_BASES
 alignas
 (
 ScopeDataAlignBytes
@@ -4136,6 +4149,11 @@ AbstractBaseScopeData
 <
 JSAtom
 >
+public
+gc
+:
+:
+Buffer
 {
 SlotInfo
 slotInfo
@@ -4402,6 +4420,7 @@ globalsStart
 }
 ;
 struct
+MOZ_EMPTY_BASES
 alignas
 (
 ScopeDataAlignBytes
@@ -4413,6 +4432,11 @@ AbstractBaseScopeData
 <
 JSAtom
 >
+public
+gc
+:
+:
+Buffer
 {
 SlotInfo
 slotInfo

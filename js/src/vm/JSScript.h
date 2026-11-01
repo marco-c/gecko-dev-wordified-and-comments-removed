@@ -116,6 +116,15 @@ include
 "
 gc
 /
+Allocator
+.
+h
+"
+#
+include
+"
+gc
+/
 Barrier
 .
 h
@@ -5991,6 +6000,7 @@ sized
 )
 ;
 class
+MOZ_EMPTY_BASES
 alignas
 (
 uintptr_t
@@ -6003,6 +6013,11 @@ TrailingArray
 <
 PrivateScriptData
 >
+public
+gc
+:
+:
+Buffer
 {
 uint32_t
 ngcthings
