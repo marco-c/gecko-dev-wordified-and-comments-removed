@@ -1416,6 +1416,13 @@ mozbuild
 /
 js
 /
+moz
+.
+build
++
+/
+js
+/
 *
 .
 configure
