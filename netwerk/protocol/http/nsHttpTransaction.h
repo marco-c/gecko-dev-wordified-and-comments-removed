@@ -145,6 +145,13 @@ h
 #
 include
 "
+nsIWeakReferenceUtils
+.
+h
+"
+#
+include
+"
 nsIWebTransport
 .
 h
@@ -2218,10 +2225,7 @@ mSynchronousRatePaceRequest
 false
 }
 ;
-nsCOMPtr
-<
-nsICancelable
->
+nsWeakPtr
 mTokenBucketCancel
 ;
 void
