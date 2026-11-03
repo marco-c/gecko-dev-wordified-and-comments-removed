@@ -15,12 +15,14 @@ a
 NoTaint
 attribute
 but
+neither
 the
 message
-lacks
+nor
 the
+type
+is
 Tainted
-attribute
 [
 ChildProc
 =
