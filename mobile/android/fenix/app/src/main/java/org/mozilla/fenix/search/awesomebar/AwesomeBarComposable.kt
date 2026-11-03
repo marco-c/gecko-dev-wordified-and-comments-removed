@@ -1756,17 +1756,6 @@ SearchEnded
 val
 currentTabDetailsToShow
 =
-remember
-(
-state
-.
-query
-.
-isBlank
-(
-)
-)
-{
 when
 (
 state
@@ -1791,7 +1780,6 @@ else
 -
 >
 null
-}
 }
 Box
 (
