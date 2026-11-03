@@ -9,6 +9,10 @@ sufficientLength
 :
 number
 ;
+sufficientTranscriptLength
+:
+number
+;
 justViewport
 :
 boolean
