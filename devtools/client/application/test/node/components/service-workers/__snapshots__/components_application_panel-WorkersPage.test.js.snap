@@ -43,6 +43,11 @@ page
 >
 <
 RegistrationList
+canDebugWorkers
+=
+{
+true
+}
 registrations
 =
 {
@@ -325,6 +330,11 @@ page
 >
 <
 RegistrationList
+canDebugWorkers
+=
+{
+true
+}
 registrations
 =
 {
@@ -463,6 +473,11 @@ page
 >
 <
 RegistrationList
+canDebugWorkers
+=
+{
+true
+}
 registrations
 =
 {

@@ -208,6 +208,11 @@ const
 runtimeDetails
 =
 {
+canDebugServiceWorkers
+:
+PropTypes
+.
+bool
 clientWrapper
 :
 PropTypes

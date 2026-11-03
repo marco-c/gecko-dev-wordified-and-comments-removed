@@ -134,6 +134,9 @@ RegistrationList
 registrations
 :
 SINGLE_WORKER_DEFAULT_DOMAIN_LIST
+canDebugWorkers
+:
+true
 }
 )
 )
@@ -179,6 +182,9 @@ RegistrationList
 registrations
 :
 MULTIPLE_WORKER_LIST
+canDebugWorkers
+:
+true
 }
 )
 )

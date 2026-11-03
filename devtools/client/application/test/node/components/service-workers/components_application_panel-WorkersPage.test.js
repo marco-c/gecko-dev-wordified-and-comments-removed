@@ -145,6 +145,9 @@ list
 :
 [
 ]
+canDebugWorkers
+:
+true
 }
 page
 :
@@ -172,6 +175,9 @@ workers
 list
 :
 workerList
+canDebugWorkers
+:
+true
 }
 ;
 const
