@@ -40,6 +40,15 @@ enabled
 =
 true
 "
+"
+clipboard
+.
+readCrossOriginCustomFormats
+.
+enabled
+=
+true
+"
 ]
 [
 "

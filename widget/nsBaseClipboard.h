@@ -418,6 +418,9 @@ dom
 WindowContext
 *
 aRequestingWindowContext
+nsIPrincipal
+*
+aRequestingPrincipal
 nsIClipboardGetDataSnapshotCallback
 *
 aCallback
@@ -1395,6 +1398,9 @@ dom
 WindowContext
 *
 aRequestingWindowContext
+nsIPrincipal
+*
+aRequestingPrincipal
 )
 ;
 ClipboardCache
@@ -1403,6 +1409,16 @@ GetClipboardCacheIfValid
 (
 ClipboardType
 aClipboardType
+)
+;
+bool
+CanReadWebCustomFormats
+(
+ClipboardType
+aClipboardType
+nsIPrincipal
+*
+aRequestingPrincipal
 )
 ;
 mozilla
@@ -1485,6 +1501,9 @@ dom
 WindowContext
 *
 aRequestingWindowContext
+nsIPrincipal
+*
+aRequestingPrincipal
 )
 ;
 static
