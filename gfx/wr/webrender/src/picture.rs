@@ -10010,6 +10010,9 @@ f32
 frame_state
 .
 transforms
+frame_state
+.
+cmd_buffers
 )
 ;
 }
@@ -10275,6 +10278,9 @@ f32
 frame_state
 .
 transforms
+frame_state
+.
+cmd_buffers
 )
 ;
 let

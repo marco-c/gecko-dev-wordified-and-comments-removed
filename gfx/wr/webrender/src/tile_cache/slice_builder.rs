@@ -1958,6 +1958,14 @@ Path
 ClipItemKeyKind
 :
 :
+Border
+(
+_
+)
+|
+ClipItemKeyKind
+:
+:
 Rectangle
 (
 ClipMode
