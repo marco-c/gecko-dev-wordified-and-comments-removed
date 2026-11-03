@@ -2503,7 +2503,7 @@ directions
 =
 CustomizationFragmentDirections
 .
-actionCustomizationFragmentToFenixCustomizeMenuFragment
+actionCustomizationFragmentToCustomizeMenuFragment
 (
 )
 )

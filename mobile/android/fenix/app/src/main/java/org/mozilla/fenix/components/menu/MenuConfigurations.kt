@@ -1053,9 +1053,6 @@ listOf
 MozillaAccount
 Settings
 )
-isDisabled
-=
-true
 )
 MenuSectionConfiguration
 (
@@ -1072,9 +1069,6 @@ listOf
 AddToHomeScreen
 SaveToCollection
 )
-isHidden
-=
-true
 )
 )
 /

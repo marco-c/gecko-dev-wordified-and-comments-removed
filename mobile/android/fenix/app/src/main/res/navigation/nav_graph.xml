@@ -8854,7 +8854,7 @@ id
 +
 id
 /
-action_customizationFragment_to_fenixCustomizeMenuFragment
+action_customizationFragment_to_customizeMenuFragment
 "
 app
 :
@@ -8863,7 +8863,7 @@ destination
 "
 id
 /
-fenixCustomizeMenuFragment
+customizeMenuFragment
 "
 app
 :
@@ -14838,7 +14838,7 @@ id
 +
 id
 /
-action_menuFragment_to_fenixCustomizeMenuFragment
+action_menuFragment_to_customizeMenuFragment
 "
 app
 :
@@ -14847,7 +14847,7 @@ destination
 "
 id
 /
-fenixCustomizeMenuFragment
+customizeMenuFragment
 "
 /
 >
@@ -14869,7 +14869,7 @@ id
 +
 id
 /
-fenixCustomizeMenuFragment
+customizeMenuFragment
 "
 android
 :
@@ -14890,7 +14890,7 @@ compose
 .
 customize
 .
-FenixCustomizeMenuFragment
+CustomizeMenuFragment
 "
 android
 :

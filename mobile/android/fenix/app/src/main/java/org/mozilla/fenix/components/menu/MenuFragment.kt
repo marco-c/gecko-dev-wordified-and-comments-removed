@@ -1825,7 +1825,7 @@ directions
 =
 MenuFragmentDirections
 .
-actionMenuFragmentToFenixCustomizeMenuFragment
+actionMenuFragmentToCustomizeMenuFragment
 (
 )
 options

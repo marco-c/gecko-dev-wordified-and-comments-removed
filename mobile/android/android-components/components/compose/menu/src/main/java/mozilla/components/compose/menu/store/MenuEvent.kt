@@ -105,3 +105,4 @@ interface
 MenuEvent
 :
 MenuAction
+CustomizableMenuAction

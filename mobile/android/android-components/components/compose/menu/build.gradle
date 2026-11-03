@@ -146,12 +146,6 @@ icons
 '
 )
 implementation
-libs
-.
-androidx
-.
-fragment
-implementation
 platform
 (
 libs
