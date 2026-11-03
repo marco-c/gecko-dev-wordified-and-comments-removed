@@ -3608,6 +3608,11 @@ nsAtom
 aName
 bool
 aNotify
+bool
+*
+aHadValue
+=
+nullptr
 )
 ;
 nsresult

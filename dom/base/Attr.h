@@ -262,6 +262,12 @@ SetMap
 nsDOMAttributeMap
 *
 aMap
+const
+nsAttrValue
+*
+aValue
+=
+nullptr
 )
 ;
 Element

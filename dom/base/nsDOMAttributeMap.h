@@ -45,6 +45,9 @@ class
 nsAtom
 ;
 class
+nsAttrValue
+;
+class
 nsINode
 ;
 class
@@ -392,6 +395,12 @@ aNamespaceID
 nsAtom
 *
 aLocalName
+const
+nsAttrValue
+*
+aValue
+=
+nullptr
 )
 ;
 uint32_t
