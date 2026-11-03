@@ -882,12 +882,6 @@ by
 providing
 QR
 codes
-marketplace
-buttons
-for
-iOS
-or
-Android
 and
 /
 or
