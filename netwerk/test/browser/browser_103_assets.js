@@ -87,7 +87,7 @@ await
 fetch
 (
 "
-https
+http
 :
 /
 /
@@ -530,7 +530,7 @@ await
 fetch
 (
 "
-https
+http
 :
 /
 /
