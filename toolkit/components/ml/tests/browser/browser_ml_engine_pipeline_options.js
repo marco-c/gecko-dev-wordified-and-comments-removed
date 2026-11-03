@@ -4210,11 +4210,6 @@ q8
 numThreads
 :
 1
-device
-:
-"
-wasm
-"
 }
 )
 /
