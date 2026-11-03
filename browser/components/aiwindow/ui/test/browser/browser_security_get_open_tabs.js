@@ -869,6 +869,9 @@ sort
 lastAccessed
 "
 "
+pinned
+"
+"
 title
 "
 "
@@ -887,6 +890,7 @@ url
 title
 lastAccessed
 windowId
+pinned
 and
 no
 other
