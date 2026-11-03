@@ -1075,7 +1075,7 @@ size_t
 aMaxPartialPresentRects
 bool
 *
-aDrawPreviousPartialPresentRegions
+aUsesBufferAge
 )
 {
 RenderCompositor
@@ -1117,12 +1117,12 @@ GetMaxPartialPresentRects
 )
 ;
 *
-aDrawPreviousPartialPresentRegions
+aUsesBufferAge
 =
 compositor
 -
 >
-ShouldDrawPreviousPartialPresentRegions
+ShouldUseBufferAge
 (
 )
 ;

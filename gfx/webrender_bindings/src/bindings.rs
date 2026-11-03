@@ -7751,7 +7751,7 @@ max_partial_present_rects
 &
 mut
 usize
-draw_previous_partial_present_regions
+uses_buffer_age
 :
 &
 mut
@@ -8492,7 +8492,7 @@ max_partial_present_rects
 ;
 let
 mut
-draw_previous_partial_present_regions
+uses_buffer_age
 =
 false
 ;
@@ -8511,7 +8511,7 @@ mut
 max_partial_present_rects
 &
 mut
-draw_previous_partial_present_regions
+uses_buffer_age
 )
 ;
 }
@@ -8534,7 +8534,7 @@ SwapchainMode
 WindowFramebuffer
 {
 max_partial_present_rects
-draw_previous_partial_present_regions
+uses_buffer_age
 }
 }
 }

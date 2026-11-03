@@ -6755,8 +6755,8 @@ None
 let
 (
 max_partial_present_rects
-draw_previous_partial_present_regions
 uses_buffer_age
+buffer_age_is_available
 )
 =
 match
@@ -6786,19 +6786,19 @@ CompositorKind
 :
 Draw
 {
-draw_previous_partial_present_regions
+uses_buffer_age
 max_partial_present_rects
 }
 =
 >
 (
 max_partial_present_rects
-draw_previous_partial_present_regions
+uses_buffer_age
 self
 .
 compositor_config
 .
-partial_present
+buffer_damage
 (
 )
 .
@@ -6818,7 +6818,7 @@ SwapchainMode
 :
 WindowFramebuffer
 {
-draw_previous_partial_present_regions
+uses_buffer_age
 max_partial_present_rects
 }
 }
@@ -6826,7 +6826,7 @@ max_partial_present_rects
 >
 (
 max_partial_present_rects
-draw_previous_partial_present_regions
+uses_buffer_age
 true
 )
 CompositorKind
@@ -6863,7 +6863,7 @@ let
 prev_frames_damage_rect
 =
 if
-uses_buffer_age
+buffer_age_is_available
 {
 self
 .
@@ -6922,7 +6922,7 @@ is_none
 )
 &
 &
-draw_previous_partial_present_regions
+uses_buffer_age
 )
 &
 &
@@ -7050,7 +7050,7 @@ combined_dirty_rect_i32
 ;
 }
 if
-draw_previous_partial_present_regions
+uses_buffer_age
 {
 self
 .
@@ -7067,7 +7067,7 @@ let
 total_dirty_rect
 =
 if
-draw_previous_partial_present_regions
+uses_buffer_age
 {
 combined_dirty_rect
 .
@@ -7125,7 +7125,7 @@ fb_rect
 )
 ;
 if
-draw_previous_partial_present_regions
+uses_buffer_age
 {
 self
 .

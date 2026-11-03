@@ -141,7 +141,7 @@ GetBufferSize
 override
 ;
 bool
-UsePartialPresent
+UseWindowPartialPresent
 (
 )
 override
@@ -159,7 +159,7 @@ GetMaxPartialPresentRects
 override
 ;
 bool
-ShouldDrawPreviousPartialPresentRegions
+ShouldUseBufferAge
 (
 )
 override

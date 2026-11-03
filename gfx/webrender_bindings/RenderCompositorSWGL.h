@@ -158,7 +158,7 @@ aNumOpaqueRects
 override
 ;
 bool
-UsePartialPresent
+UseWindowPartialPresent
 (
 )
 override

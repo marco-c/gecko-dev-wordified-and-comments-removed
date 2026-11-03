@@ -142,7 +142,7 @@ aCaps
 override
 ;
 bool
-UsePartialPresent
+UseWindowPartialPresent
 (
 )
 override

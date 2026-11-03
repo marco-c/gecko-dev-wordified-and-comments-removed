@@ -544,7 +544,7 @@ aProperties
 override
 ;
 bool
-UsePartialPresent
+UseWindowPartialPresent
 (
 )
 override
@@ -611,7 +611,7 @@ RecreateNonNativeCompositorSwapChain
 )
 ;
 void
-InitializeUsePartialPresent
+InitializeUseWindowPartialPresent
 (
 )
 ;
@@ -812,7 +812,7 @@ LayoutDeviceIntSize
 mBufferSize
 ;
 bool
-mUsePartialPresent
+mUseWindowPartialPresent
 =
 false
 ;
