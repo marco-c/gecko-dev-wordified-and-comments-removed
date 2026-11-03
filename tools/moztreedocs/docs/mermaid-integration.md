@@ -505,9 +505,7 @@ draws
 in
 black
 on
-a
-transparent
-background
+white
 so
 in
 the

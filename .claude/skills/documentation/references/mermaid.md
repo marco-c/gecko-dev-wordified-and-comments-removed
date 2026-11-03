@@ -401,7 +401,7 @@ and
 draws
 black
 on
-transparent
+white
 .
 Avoid
 colors
