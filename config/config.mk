@@ -2249,15 +2249,6 @@ endif
 #
 !
 relativesrcdir
-MERGE_FILE
-=
-(
-LOCALE_SRCDIR
-)
-/
-(
-1
-)
 MERGE_RELATIVE_FILE
 =
 (
