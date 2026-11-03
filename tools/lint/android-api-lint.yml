@@ -20,6 +20,14 @@ include
 mobile
 /
 android
+/
+geckoview
+/
+src
+/
+main
+/
+java
 '
 ]
 exclude
