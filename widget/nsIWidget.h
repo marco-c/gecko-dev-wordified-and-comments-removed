@@ -384,6 +384,12 @@ uint8_t
 ;
 enum
 class
+SwipeInputSource
+:
+uint8_t
+;
+enum
+class
 ColorScheme
 :
 uint8_t
@@ -3145,6 +3151,11 @@ uint32_t
 aAllowedDirections
 uint64_t
 aInputBlockId
+mozilla
+:
+:
+SwipeInputSource
+aInputSource
 )
 ;
 struct

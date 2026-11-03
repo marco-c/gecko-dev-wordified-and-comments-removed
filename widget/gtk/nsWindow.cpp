@@ -17291,6 +17291,10 @@ mSwipeTracker
 ProcessEvent
 (
 aPanInput
+SwipeInputSource
+:
+:
+Touchpad
 )
 ;
 if

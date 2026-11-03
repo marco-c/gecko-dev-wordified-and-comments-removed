@@ -3451,6 +3451,10 @@ aEvent
 AsPanGestureInput
 (
 )
+SwipeInputSource
+:
+:
+Touchpad
 )
 ;
 if
