@@ -63,6 +63,16 @@ arcanist_log_invalid_json
 .
 patch
 COPY
+arcanist_no_gzip
+.
+patch
+/
+setup
+/
+arcanist_no_gzip
+.
+patch
+COPY
 updatebot
 -
 version
