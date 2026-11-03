@@ -37,11 +37,15 @@ import
     
 add_preprocess_entry
     
+chrome_manifest_contents
+    
 configured_defines
     
 pattern_link_dest
     
 pattern_link_parts
+    
+record_chrome_manifest_entry
 )
 from
 mozbuild
@@ -76,8 +80,6 @@ FinalTargetFiles
 FinalTargetPreprocessedFiles
     
 GeneratedFile
-    
-JARManifest
     
 LocalizedFiles
     
@@ -272,34 +274,6 @@ obj
 :
         
 if
-isinstance
-(
-obj
-JARManifest
-)
-and
-obj
-.
-install_target
-.
-startswith
-(
-"
-dist
-/
-bin
-"
-)
-:
-            
-self
-.
-_consume_jar_manifest
-(
-obj
-)
-        
-elif
 isinstance
 (
             
@@ -684,80 +658,12 @@ bin
 )
 :
             
-top_level
-=
-mozpath
-.
-join
+record_chrome_manifest_entry
 (
-obj
-.
-install_target
-"
-chrome
-.
-manifest
-"
-)
-            
-if
-obj
-.
-path
-!
-=
-top_level
-:
-                
-entry
-=
-"
-manifest
-%
-s
-"
-%
-mozpath
-.
-relpath
-(
-obj
-.
-path
-obj
-.
-install_target
-)
-                
 self
 .
 _manifest_entries
-[
-top_level
-]
-.
-add
-(
-entry
-)
-            
-self
-.
-_manifest_entries
-[
 obj
-.
-path
-]
-.
-add
-(
-str
-(
-obj
-.
-entry
-)
 )
         
 elif
@@ -1124,14 +1030,13 @@ manifest_targets
         
 for
 target
-entries
+content
 in
+chrome_manifest_contents
+(
 self
 .
 _manifest_entries
-.
-items
-(
 )
 :
             
@@ -1162,28 +1067,7 @@ install_target
 add_content
 (
                 
-"
-"
-.
-join
-(
-"
-%
-s
-\
-n
-"
-%
-e
-for
-e
-in
-sorted
-(
-entries
-)
-)
-                
+content
 mozpath
 .
 relpath

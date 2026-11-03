@@ -2,3 +2,15 @@ test
 .
 jar
 :
+content
+/
+test
+/
+thing
+.
+js
+(
+thing
+.
+js
+)

@@ -68,8 +68,6 @@ ChromeManifestEntry
 FinalTargetFiles
     
 FinalTargetPreprocessedFiles
-    
-JARManifest
 )
 from
 .
@@ -383,21 +381,6 @@ self
 obj
 )
 :
-        
-if
-isinstance
-(
-obj
-JARManifest
-)
-:
-            
-self
-.
-_consume_jar_manifest
-(
-obj
-)
         
 if
 isinstance
