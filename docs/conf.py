@@ -560,6 +560,9 @@ source_suffix
 md
 "
 ]
+autodoc_preserve_defaults
+=
+True
 master_doc
 =
 "
