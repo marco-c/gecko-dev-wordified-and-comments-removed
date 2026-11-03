@@ -61,7 +61,6 @@ content
 .
 fetch
 (
-"
 https
 :
 /
@@ -73,7 +72,14 @@ com
 empty
 .
 html
-"
+?
+{
+Math
+.
+random
+(
+)
+}
 )
 ;
 ok
@@ -182,7 +188,6 @@ content
 .
 fetch
 (
-"
 https
 :
 /
@@ -194,7 +199,14 @@ com
 empty
 .
 html
-"
+?
+{
+Math
+.
+random
+(
+)
+}
 )
 ;
 ok
