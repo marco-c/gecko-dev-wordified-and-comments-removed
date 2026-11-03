@@ -15254,6 +15254,15 @@ in
 the
 clipboard
 cache
+or
+to
+an
+extension
+with
+the
+#
+clipboardRead
+permission
 .
 Data
 written
