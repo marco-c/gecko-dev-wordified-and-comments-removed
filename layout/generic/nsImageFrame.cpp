@@ -14846,11 +14846,12 @@ if
 capturingContent
 &
 &
-capturingContent
--
->
-GetPrimaryFrame
+nsLayoutUtils
+:
+:
+GetPrimaryOrAreaImageFrame
 (
+capturingContent
 )
 =
 =
@@ -15221,7 +15222,6 @@ TriggerLinkMouseOver
 (
 anchorNode
 uri
-target
 )
 ;
 }

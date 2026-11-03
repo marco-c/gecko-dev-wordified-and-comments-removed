@@ -350,9 +350,6 @@ static
 nsresult
 CreateFromLoadURIOptions
 (
-BrowsingContext
-*
-aBrowsingContext
 nsIURI
 *
 aURI
@@ -1966,9 +1963,6 @@ static
 nsresult
 CreateFromLoadURIOptions
 (
-BrowsingContext
-*
-aBrowsingContext
 nsIURI
 *
 aURI

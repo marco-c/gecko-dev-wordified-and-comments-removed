@@ -770,10 +770,6 @@ aContent
 nsIURI
 *
 aURI
-const
-nsAString
-&
-aTargetSpec
 )
 ;
 nsresult
@@ -1334,9 +1330,6 @@ aLoadInfo
 nsIInterfaceRequestor
 *
 aCallbacks
-nsDocShell
-*
-aDocShell
 const
 mozilla
 :
@@ -1854,10 +1847,6 @@ Nothing
 (
 )
 bool
-aTryToSaveOldPresentation
-=
-true
-bool
 aCheckPermitUnload
 =
 true
@@ -2215,12 +2204,6 @@ aTriggeringPrincipal
 nsIPrincipal
 *
 aPrincipalToInherit
-nsIPrincipal
-*
-aPartitionedPrincipalToInherit
-nsIPolicyContainer
-*
-aPolicyContainer
 bool
 aAddToGlobalHistory
 bool
@@ -2255,9 +2238,6 @@ MOZ_CAN_RUN_SCRIPT_BOUNDARY
 nsresult
 EndPageLoad
 (
-nsIWebProgress
-*
-aProgress
 nsIChannel
 *
 aChannel
@@ -2996,8 +2976,6 @@ nsDocShellLoadState
 aLoadState
 uint32_t
 aLoadType
-bool
-aLoadingCurrentEntry
 )
 ;
 nsresult

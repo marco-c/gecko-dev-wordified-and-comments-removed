@@ -763,12 +763,6 @@ nsDocShellLoadState
 >
 &
 aLoadState
-Maybe
-<
-bool
->
-&
-aReloadActiveEntry
 )
 ;
 void

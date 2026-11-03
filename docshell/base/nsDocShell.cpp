@@ -15328,9 +15328,6 @@ rootSH
 NS_ERROR_FAILURE
 )
 ;
-ErrorResult
-rv
-;
 rootSH
 -
 >
@@ -15347,15 +15344,10 @@ Index
 )
 false
 aUserActivation
-rv
 )
 ;
 return
-rv
-.
-StealNSResult
-(
-)
+NS_OK
 ;
 }
 nsresult
@@ -15399,7 +15391,6 @@ nsDocShellLoadState
 :
 CreateFromLoadURIOptions
 (
-mBrowsingContext
 aURI
 aLoadURIOptions
 getter_AddRefs
@@ -19748,10 +19739,6 @@ nsDocShellLoadState
 >
 >
 >
-Maybe
-<
-bool
->
 >
 &
 &
@@ -19835,12 +19822,6 @@ nsDocShellLoadState
 >
 loadState
 ;
-Maybe
-<
-bool
->
-reloadingActiveEntry
-;
 std
 :
 :
@@ -19848,7 +19829,6 @@ tie
 (
 canReload
 loadState
-reloadingActiveEntry
 )
 =
 aResult
@@ -19925,11 +19905,6 @@ get
 )
 )
 loadType
-reloadingActiveEntry
-.
-ref
-(
-)
 )
 ;
 }
@@ -20005,12 +19980,6 @@ nsDocShellLoadState
 >
 loadState
 ;
-Maybe
-<
-bool
->
-reloadingActiveEntry
-;
 if
 (
 !
@@ -20035,7 +20004,6 @@ NotifyOnHistoryReload
 aReloadFlags
 canReload
 loadState
-reloadingActiveEntry
 )
 ;
 }
@@ -20088,11 +20056,6 @@ get
 )
 )
 loadType
-reloadingActiveEntry
-.
-ref
-(
-)
 )
 ;
 }
@@ -26710,7 +26673,6 @@ aRequest
 ;
 EndPageLoad
 (
-aProgress
 channel
 aStatus
 )
@@ -29236,8 +29198,6 @@ nsDocShell
 :
 EndPageLoad
 (
-nsIWebProgress
-*
 nsIChannel
 *
 aChannel
@@ -30042,7 +30002,6 @@ aOpenWindowInfo
 CoepToInheritForAboutBlank
 (
 )
-true
 false
 aWindowActor
 )
@@ -30494,7 +30453,6 @@ CrossOriginEmbedderPolicy
 >
 &
 aCOEP
-bool
 bool
 aCheckPermitUnload
 WindowGlobalChild
@@ -32984,8 +32942,6 @@ failedURI
 failedChannel
 triggeringPrincipal
 nullptr
-nullptr
-nullptr
 false
 false
 )
@@ -33027,8 +32983,6 @@ OnNewURI
 (
 finalURI
 aOpenedChannel
-nullptr
-nullptr
 nullptr
 nullptr
 true
@@ -37612,8 +37566,6 @@ newURI
 nullptr
 newURITriggeringPrincipal
 newURIPrincipalToInherit
-newURIPartitionedPrincipalToInherit
-newPolicyContainer
 true
 true
 )
@@ -41950,8 +41902,6 @@ aLoadInfo
 nsIInterfaceRequestor
 *
 aCallbacks
-nsDocShell
-*
 const
 OriginAttributes
 &
@@ -46058,7 +46008,6 @@ mBrowsingContext
 aLoadState
 loadInfo
 this
-this
 GetOriginAttributes
 (
 )
@@ -48441,10 +48390,6 @@ aTriggeringPrincipal
 nsIPrincipal
 *
 aPrincipalToInherit
-nsIPrincipal
-*
-nsIPolicyContainer
-*
 bool
 aAddToGlobalHistory
 bool
@@ -51048,9 +50993,6 @@ LoadHistoryEntry
 (
 loadState
 aLoadType
-aEntry
-.
-mLoadingCurrentEntry
 )
 ;
 }
@@ -51451,7 +51393,6 @@ nsDocShellLoadState
 aLoadState
 uint32_t
 aLoadType
-bool
 )
 {
 if
@@ -56393,9 +56334,6 @@ aContent
 nsIURI
 *
 aURI
-const
-nsAString
-&
 )
 {
 if

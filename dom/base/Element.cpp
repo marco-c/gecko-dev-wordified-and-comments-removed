@@ -24469,14 +24469,6 @@ focusEvent
 mIsRefocus
 )
 {
-nsAutoString
-target
-;
-GetLinkTarget
-(
-target
-)
-;
 nsContentUtils
 :
 :
@@ -24484,7 +24476,6 @@ TriggerLinkMouseOver
 (
 this
 absURI
-target
 )
 ;
 aVisitor

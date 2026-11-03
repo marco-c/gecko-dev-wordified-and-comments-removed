@@ -6012,10 +6012,6 @@ aContent
 nsIURI
 *
 aLinkURI
-const
-nsString
-&
-aTargetSpec
 )
 ;
 static

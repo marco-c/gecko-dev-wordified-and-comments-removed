@@ -11308,9 +11308,6 @@ canReload
 nsDocShellLoadState
 ?
 loadState
-bool
-?
-reloadActiveEntry
 )
 ;
 async

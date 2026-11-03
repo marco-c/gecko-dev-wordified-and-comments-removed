@@ -232,9 +232,6 @@ bool
 aRequireUserInteraction
 bool
 aUserActivation
-ErrorResult
-&
-aRv
 )
 ;
 MOZ_CAN_RUN_SCRIPT
@@ -248,8 +245,6 @@ aKey
 BrowsingContext
 *
 aNavigable
-bool
-aRequireUserInteraction
 bool
 aUserActivation
 bool
@@ -267,9 +262,6 @@ nsresult
 >
 &
 aResolver
-ErrorResult
-&
-aRv
 )
 ;
 void

@@ -289,14 +289,10 @@ GotoKey
 *
 mKey
 browsingContext
-mRequireUserInteraction
 mUserActivation
 mCheckForCancelation
 *
 mResolver
-IgnoreErrors
-(
-)
 )
 ;
 }
@@ -983,7 +979,6 @@ value
 aOffset
 aRequireUserInteraction
 aUserActivation
-aRv
 )
 ;
 }
@@ -1210,8 +1205,6 @@ bool
 aRequireUserInteraction
 bool
 aUserActivation
-ErrorResult
-&
 )
 {
 MOZ_LOG
@@ -1373,7 +1366,6 @@ BrowsingContext
 *
 aNavigable
 bool
-bool
 aUserActivation
 bool
 aCheckForCancelation
@@ -1390,8 +1382,6 @@ nsresult
 >
 &
 aResolver
-ErrorResult
-&
 )
 {
 if
