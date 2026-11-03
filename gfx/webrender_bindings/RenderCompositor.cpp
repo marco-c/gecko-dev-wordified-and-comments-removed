@@ -1104,11 +1104,6 @@ UseLayerCompositor
 *
 aMaxPartialPresentRects
 =
-*
-aUsesOsLayers
-?
-1
-:
 compositor
 -
 >
