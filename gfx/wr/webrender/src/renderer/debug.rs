@@ -3147,7 +3147,7 @@ layer_tree
 :
 layer_mode
 (
-compositor_config
+compositor_kind
 )
 {
 LayerMode
@@ -3431,7 +3431,7 @@ layer_tree
 :
 layer_mode
 (
-compositor_config
+compositor_kind
 )
 {
 LayerMode
