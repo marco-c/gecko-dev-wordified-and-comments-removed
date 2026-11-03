@@ -109,6 +109,16 @@ mozilla
 .
 fenix
 .
+listentopage
+.
+ListenToPageAIControlFeature
+import
+org
+.
+mozilla
+.
+fenix
+.
 search
 .
 VoiceSearchAIControlFeature
@@ -198,6 +208,9 @@ PageSummaryFeature
 .
 id
 VoiceSearchAIControlFeature
+.
+id
+ListenToPageAIControlFeature
 .
 id
 )

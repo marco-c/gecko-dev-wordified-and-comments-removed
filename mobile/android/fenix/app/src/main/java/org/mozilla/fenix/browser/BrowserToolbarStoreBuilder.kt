@@ -815,6 +815,13 @@ dataStore
 (
 activity
 )
+listenSettings
+=
+components
+.
+listenToPage
+.
+settings
 shareUseCases
 =
 components

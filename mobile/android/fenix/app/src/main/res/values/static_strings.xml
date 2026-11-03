@@ -2364,6 +2364,11 @@ to
 Page
 Feature
 Flag
+(
+requires
+app
+restart
+)
 <
 /
 string
