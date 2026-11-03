@@ -772,11 +772,6 @@ WEBIDL_FILES
 =
 [
 "
-HWInference
-.
-webidl
-"
-"
 TextGenerator
 .
 webidl

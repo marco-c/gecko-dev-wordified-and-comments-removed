@@ -74,9 +74,6 @@ TextGenerationEnums
 h
 "
 ;
-include
-HWInferenceDeviceTypes
-;
 namespace
 mozilla
 {
@@ -175,12 +172,6 @@ LoadSuccess
 {
 double
 loadMs
-;
-nsCString
-device
-;
-HWInferenceDeviceKind
-deviceKind
 ;
 }
 ;
@@ -297,9 +288,6 @@ kvCacheDtype
 ;
 bool
 flashAttn
-;
-DevicePlacement
-placement
 ;
 }
 ;
