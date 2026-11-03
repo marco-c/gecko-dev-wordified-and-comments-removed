@@ -22,17 +22,6 @@ fs
 enabled
 true
 )
-pref
-(
-dom
-.
-fs
-.
-writable_file_stream
-.
-enabled
-true
-)
 #
 Most
 of
