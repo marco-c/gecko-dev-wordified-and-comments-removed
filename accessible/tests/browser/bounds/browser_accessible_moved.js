@@ -176,7 +176,7 @@ browser
 docAcc
 )
 {
-let
+const
 button
 =
 findAccessibleChildByID
@@ -262,16 +262,6 @@ scrollable
 assertBoundsNonZero
 (
 scrollable
-)
-;
-button
-=
-findAccessibleChildByID
-(
-docAcc
-"
-button
-"
 )
 ;
 assertBoundsNonZero
