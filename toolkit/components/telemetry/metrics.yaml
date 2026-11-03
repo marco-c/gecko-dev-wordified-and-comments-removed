@@ -432,16 +432,6 @@ modules
 '
 -
 '
-temp
--
-fog
--
-initial
--
-state
-'
--
-'
 captcha
 -
 detection
