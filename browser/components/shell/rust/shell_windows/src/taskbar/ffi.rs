@@ -340,6 +340,9 @@ nsAString
 fire_and_forget
 :
 bool
+prompt_only
+:
+bool
 promise
 :
 &
@@ -458,6 +461,7 @@ aumid
 &
 shortcut_path
 fire_and_forget
+prompt_only
 main_guard
 )
 .

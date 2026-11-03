@@ -8092,6 +8092,7 @@ aumid
 &
 shortcut_path
 false
+false
 promise
 )
 ;
@@ -8688,6 +8689,11 @@ bool
 aFireAndForget
 =
 false
+const
+bool
+aPromptOnly
+=
+false
 )
 {
 if
@@ -8978,6 +8984,7 @@ PinCurrentAppToTaskbarImpl
 [
 aPrivateBrowsing
 aFireAndForget
+aPromptOnly
 shortcutName
 aumid
 =
@@ -9047,6 +9054,7 @@ callback
 "
 [
 aFireAndForget
+aPromptOnly
 aumid
 rv
 =
@@ -9106,6 +9114,7 @@ inspect
 (
 )
 aFireAndForget
+aPromptOnly
 promise
 )
 ;
@@ -9155,6 +9164,8 @@ bool
 aPrivateBrowsing
 bool
 aFireAndForget
+bool
+aPromptOnly
 JSContext
 *
 aCx
@@ -9174,6 +9185,7 @@ aPrivateBrowsing
 aCx
 aPromise
 aFireAndForget
+aPromptOnly
 )
 ;
 }
