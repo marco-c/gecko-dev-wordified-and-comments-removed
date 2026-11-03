@@ -135,6 +135,13 @@ js
 ]
 [
 "
+browser_llmaj_telemetry
+.
+js
+"
+]
+[
+"
 browser_monitor_agent
 .
 js
