@@ -251,6 +251,15 @@ py
 ]
 [
 "
+backend
+/
+test_xpi_archive
+.
+py
+"
+]
+[
+"
 code_analysis
 /
 test_mach_commands
