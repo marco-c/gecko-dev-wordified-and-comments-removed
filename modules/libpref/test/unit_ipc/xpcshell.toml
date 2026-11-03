@@ -42,6 +42,13 @@ js
 ]
 [
 "
+test_read_deleted_shared_pref
+.
+js
+"
+]
+[
+"
 test_sanitized_type_flip
 .
 js
