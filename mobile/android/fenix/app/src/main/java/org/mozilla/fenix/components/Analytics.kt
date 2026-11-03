@@ -267,6 +267,16 @@ support
 .
 utils
 .
+BuildMetadata
+import
+mozilla
+.
+components
+.
+support
+.
+utils
+.
 RunWhenReadyQueue
 import
 mozilla
@@ -595,6 +605,10 @@ val
 runWhenReadyQueue
 :
 RunWhenReadyQueue
+val
+buildMetadata
+:
+BuildMetadata
 )
 {
 val
