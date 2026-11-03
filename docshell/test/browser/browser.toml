@@ -708,6 +708,15 @@ js
 "
 browser_browsingContext
 -
+getCurrentTopByBrowserId
+.
+js
+"
+]
+[
+"
+browser_browsingContext
+-
 getWindowByName
 .
 js
