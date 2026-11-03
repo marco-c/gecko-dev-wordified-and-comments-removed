@@ -747,13 +747,11 @@ send
 (
 subscribe
 )
-R
--
--
+<
+br
+/
 >
-R
-:
-Receive
+receive
 +
 notify
 observers
