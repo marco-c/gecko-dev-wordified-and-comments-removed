@@ -186,6 +186,11 @@ TestForwardDecls
 cpp
 "
 "
+TestGroupInfo
+.
+cpp
+"
+"
 TestMozPromiseUtils
 .
 cpp
