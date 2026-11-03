@@ -184,51 +184,6 @@ bar
 "
 }
                     
-locale_pp_defines
-=
-{
-                        
-"
-ANDROID_MARKETPLACE_AB_CD
-"
-:
-{
-                            
-"
-es
-*
-"
-:
-"
-es
--
-ES
-"
-                            
-"
-es
--
-MX
-"
-:
-"
-es
--
-MX
-"
-                            
-"
-fr
-"
-:
-"
-fr
-"
-                        
-}
-                    
-}
-                    
 jar_sections
 =
 [
@@ -652,11 +607,6 @@ defines
 =
 {
 }
-            
-locale_pp_defines
-=
-{
-}
         
 )
         
@@ -1045,11 +995,6 @@ install_subdir
 "
             
 defines
-=
-{
-}
-            
-locale_pp_defines
 =
 {
 }

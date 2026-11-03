@@ -130,11 +130,6 @@ defines
 {
 }
                 
-locale_pp_defines
-=
-{
-}
-                
 jar_sections
 =
 [
@@ -435,11 +430,6 @@ defines
 {
 }
                 
-locale_pp_defines
-=
-{
-}
-                
 jar_sections
 =
 [
@@ -567,11 +557,6 @@ install_subdir
 "
                 
 defines
-=
-{
-}
-                
-locale_pp_defines
 =
 {
 }
