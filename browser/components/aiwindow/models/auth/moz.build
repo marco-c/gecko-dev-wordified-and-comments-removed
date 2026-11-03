@@ -80,6 +80,13 @@ MOZ_SRC_FILES
 =
 [
 "
+AuthImplSelector
+.
+sys
+.
+mjs
+"
+"
 AuthProviderImpl
 .
 sys
@@ -88,6 +95,13 @@ mjs
 "
 "
 FxaAuthProviderImpl
+.
+sys
+.
+mjs
+"
+"
+FxaSignedInWatcher
 .
 sys
 .

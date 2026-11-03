@@ -31,6 +31,13 @@ browser
 "
 [
 "
+test_AuthImplSelector
+.
+js
+"
+]
+[
+"
 test_Chat
 .
 js
@@ -53,6 +60,13 @@ js
 [
 "
 test_ConversationSuggestions
+.
+js
+"
+]
+[
+"
+test_FxaSignedInWatcher
 .
 js
 "
