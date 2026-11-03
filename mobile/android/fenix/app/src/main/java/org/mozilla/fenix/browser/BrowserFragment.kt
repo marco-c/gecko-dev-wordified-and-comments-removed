@@ -2243,11 +2243,6 @@ isEnabled
 listenSettings
 .
 enabled
-scope
-=
-viewLifecycleOwner
-.
-lifecycleScope
 onListenClicked
 =
 {
