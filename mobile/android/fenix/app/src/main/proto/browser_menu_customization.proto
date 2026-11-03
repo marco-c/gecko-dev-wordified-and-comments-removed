@@ -229,7 +229,9 @@ components
 .
 menu
 .
-MenuConfigurations
+configuration
+.
+BrowserMenuConfiguration
 ]
 .
 string

@@ -66,6 +66,8 @@ fenix
 components
 .
 menu
+.
+configuration
 import
 kotlin
 .
@@ -137,6 +139,8 @@ components
 .
 menu
 .
+configuration
+.
 FenixMenuItem
 .
 FindInPage
@@ -151,6 +155,8 @@ components
 .
 menu
 .
+configuration
+.
 MenuPresentationMode
 .
 Grid
@@ -164,6 +170,8 @@ fenix
 components
 .
 menu
+.
+configuration
 .
 MenuPresentationMode
 .
