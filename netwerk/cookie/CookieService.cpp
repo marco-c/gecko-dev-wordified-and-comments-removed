@@ -3277,9 +3277,7 @@ aSameSite
 aSchemeMap
 aIsPartitioned
 true
-Nothing
-(
-)
+nullptr
 getter_AddRefs
 (
 validation
@@ -3417,10 +3415,7 @@ aSameSite
 aSchemeMap
 aIsPartitioned
 aFromHttp
-ToMaybe
-(
 aOperationID
-)
 aValidation
 )
 ;
@@ -3473,11 +3468,8 @@ aIsPartitioned
 bool
 aFromHttp
 const
-Maybe
-<
 nsID
->
-&
+*
 aOperationID
 nsICookieValidation
 *
@@ -3739,11 +3731,8 @@ aPath
 bool
 aFromHttp
 const
-Maybe
-<
 nsID
->
-&
+*
 aOperationID
 )
 {
@@ -3974,10 +3963,7 @@ aOriginAttributes
 aName
 aPath
 aFromHttp
-ToMaybe
-(
 aOperationID
-)
 )
 ;
 if
@@ -6796,6 +6782,7 @@ Path
 (
 )
 true
+nullptr
 )
 )
 )
