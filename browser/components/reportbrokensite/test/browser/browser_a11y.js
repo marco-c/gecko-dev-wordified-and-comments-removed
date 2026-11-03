@@ -7,6 +7,11 @@ add_common_setup
 (
 )
 ;
+add_setup
+(
+setupBuiltInTestTrackers
+)
+;
 async
 function
 checkMainPanel

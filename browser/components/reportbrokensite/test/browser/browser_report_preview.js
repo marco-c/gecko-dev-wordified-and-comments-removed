@@ -3,6 +3,11 @@ use
 strict
 "
 ;
+add_setup
+(
+setupBuiltInTestTrackers
+)
+;
 function
 setClipboard
 (

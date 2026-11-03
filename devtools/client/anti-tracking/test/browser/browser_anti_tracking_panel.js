@@ -304,6 +304,13 @@ addTestTrackers
 (
 )
 ;
+await
+UrlClassifierTestUtils
+.
+addTestHostsFromPrefs
+(
+)
+;
 registerCleanupFunction
 (
 async
@@ -312,6 +319,7 @@ async
 =
 >
 {
+await
 UrlClassifierTestUtils
 .
 cleanupTestTrackers

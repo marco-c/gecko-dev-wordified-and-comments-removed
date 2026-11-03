@@ -36,6 +36,11 @@ mjs
 "
 )
 ;
+add_setup
+(
+setupBuiltInTestTrackers
+)
+;
 async
 function
 checkURLWidget
