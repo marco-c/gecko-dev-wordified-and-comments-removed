@@ -13819,6 +13819,15 @@ TryDwmResizeHack
 (
 )
 {
+if
+(
+!
+mWindowRenderer
+)
+{
+return
+;
+}
 {
 static
 bool
