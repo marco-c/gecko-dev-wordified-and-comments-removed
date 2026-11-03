@@ -199,6 +199,15 @@ py
 "
 backend
 /
+test_l10n_stage
+.
+py
+"
+]
+[
+"
+backend
+/
 test_partialconfigenvironment
 .
 py
