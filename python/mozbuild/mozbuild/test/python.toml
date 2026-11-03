@@ -433,6 +433,15 @@ py
 "
 frontend
 /
+test_jar_manifest
+.
+py
+"
+]
+[
+"
+frontend
+/
 test_l10n_manifest
 .
 py
