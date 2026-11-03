@@ -136,6 +136,15 @@ py
 "
 action
 /
+test_xpi_archive
+.
+py
+"
+]
+[
+"
+action
+/
 test_zip
 .
 py
