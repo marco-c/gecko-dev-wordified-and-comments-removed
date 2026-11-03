@@ -88,7 +88,9 @@ https
 :
 /
 /
-juliandescottes
+firefox
+-
+devtools
 .
 github
 .
@@ -675,7 +677,9 @@ https
 :
 /
 /
-juliandescottes
+firefox
+-
+devtools
 .
 github
 .
