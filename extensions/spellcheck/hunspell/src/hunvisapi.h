@@ -10,6 +10,9 @@ defined
 (
 HUNSPELL_STATIC
 )
+|
+|
+0
 #
 define
 LIBHUNSPELL_DLL_EXPORTED

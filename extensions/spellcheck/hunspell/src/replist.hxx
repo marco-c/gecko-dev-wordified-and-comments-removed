@@ -29,6 +29,11 @@ limits
 #
 include
 <
+cstddef
+>
+#
+include
+<
 cstdint
 >
 enum
@@ -943,7 +948,7 @@ string
 pat2
 )
 ;
-int
+ptrdiff_t
 find
 (
 const
@@ -963,7 +968,7 @@ replace
 const
 size_t
 wordlen
-int
+ptrdiff_t
 n
 bool
 atstart
