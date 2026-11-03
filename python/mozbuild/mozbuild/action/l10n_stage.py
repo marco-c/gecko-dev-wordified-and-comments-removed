@@ -128,8 +128,6 @@ l10n_manifest
 import
 (
     
-MOZ_L10N_AB_CD_PLACEHOLDER
-    
 JarSection
     
 L10nManifest
@@ -3026,15 +3024,15 @@ are
 staged
 .
     
-All
-locale
--
-templated
-strings
+Every
+string
 in
 the
-captured
 section
+holding
+the
+locale
+placeholder
 (
 section
 name
@@ -3048,12 +3046,10 @@ chrome
 manifest
 lines
 )
-are
-substituted
+is
+resolved
+for
     
-from
-MOZ_L10N_AB_CD_PLACEHOLDER
-to
 state
 .
 locale
@@ -3119,6 +3115,13 @@ _sub_jar
 section
 .
 name
+.
+resolve
+(
+state
+.
+locale
+)
 subs
 )
     
@@ -3143,6 +3146,13 @@ any
 _sub_jar
 (
 m
+.
+resolve
+(
+state
+.
+locale
+)
 subs
 )
 .
@@ -3194,6 +3204,13 @@ _sub_jar
 entry
 .
 source
+.
+resolve
+(
+state
+.
+locale
+)
 subs
 )
         
@@ -3204,6 +3221,13 @@ _sub_jar
 entry
 .
 output
+.
+resolve
+(
+state
+.
+locale
+)
 subs
 )
         
@@ -3446,6 +3470,13 @@ line
 _sub_jar
 (
 raw
+.
+resolve
+(
+state
+.
+locale
+)
 subs
 )
             
@@ -3793,8 +3824,6 @@ stage
 time
 :
     
-AB_CD
-plus
 any
 LOCALE_PP_DEFINES
 keys
@@ -3803,7 +3832,6 @@ resolve
 for
 the
 current
-    
 locale
 .
     
@@ -3814,11 +3842,6 @@ locale
 subs
 =
 {
-MOZ_L10N_AB_CD_PLACEHOLDER
-:
-state
-.
-locale
 }
     
 resolved

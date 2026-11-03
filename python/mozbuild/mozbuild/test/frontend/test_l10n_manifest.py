@@ -25,6 +25,7 @@ jar_manifest
 import
 JarEntry
 JarSection
+LocaleTemplate
 from
 mozbuild
 .
@@ -237,9 +238,12 @@ JarSection
                             
 name
 =
+LocaleTemplate
+(
 "
 browser
 "
+)
                             
 base
 =
@@ -257,6 +261,9 @@ locales
 chrome_manifests
 =
 (
+                                
+LocaleTemplate
+(
 "
 locale
 browser
@@ -268,6 +275,8 @@ US
 "
 )
                             
+)
+                            
 entries
 =
 (
@@ -277,6 +286,8 @@ JarEntry
                                     
 source
 =
+LocaleTemplate
+(
 "
 en
 -
@@ -286,14 +297,18 @@ foo
 .
 ftl
 "
+)
                                     
 output
 =
+LocaleTemplate
+(
 "
 foo
 .
 ftl
 "
+)
                                     
 is_locale
 =
@@ -1388,9 +1403,12 @@ JarSection
             
 name
 =
+LocaleTemplate
+(
 "
 chrome
 "
+)
             
 base
 =
@@ -1416,6 +1434,8 @@ JarEntry
                     
 source
 =
+LocaleTemplate
+(
 "
 en
 -
@@ -1425,9 +1445,12 @@ necko
 .
 properties
 "
+)
                     
 output
 =
+LocaleTemplate
+(
 "
 locale
 /
@@ -1435,6 +1458,7 @@ necko
 .
 properties
 "
+)
                     
 is_locale
 =
@@ -1741,9 +1765,12 @@ JarSection
             
 name
 =
+LocaleTemplate
+(
 "
-MOZ_L10N_AB_CD_PLACEHOLDER
+AB_CD
 "
+)
             
 base
 =
@@ -1779,6 +1806,8 @@ JarEntry
             
 source
 =
+LocaleTemplate
+(
 "
 toolkit
 /
@@ -1789,12 +1818,16 @@ toolkit
 .
 ftl
 "
+)
             
 output
 =
+LocaleTemplate
+(
 "
 toolkit
 "
+)
             
 is_locale
 =
@@ -1813,6 +1846,8 @@ JarEntry
             
 source
 =
+LocaleTemplate
+(
 "
 .
 .
@@ -1825,9 +1860,12 @@ aboutRestricted
 .
 ftl
 "
+)
             
 output
 =
+LocaleTemplate
+(
 "
 locales
 -
@@ -1837,6 +1875,7 @@ aboutRestricted
 .
 ftl
 "
+)
             
 is_locale
 =
@@ -1984,6 +2023,8 @@ JarEntry
                     
 source
 =
+LocaleTemplate
+(
 "
 .
 .
@@ -1998,9 +2039,12 @@ agent
 .
 ftl
 "
+)
                     
 output
 =
+LocaleTemplate
+(
 "
 locales
 -
@@ -2012,6 +2056,7 @@ agent
 .
 ftl
 "
+)
                     
 is_locale
 =

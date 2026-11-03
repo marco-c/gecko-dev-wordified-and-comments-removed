@@ -26,8 +26,16 @@ frontend
 .
 jar_manifest
 import
+(
+    
+AB_CD_TOKEN
+    
 JarEntry
+    
 JarSection
+    
+LocaleTemplate
+)
 from
 mozbuild
 .
@@ -38,8 +46,6 @@ import
 (
     
 MANIFEST_VERSION
-    
-MOZ_L10N_AB_CD_PLACEHOLDER
     
 L10nManifest
     
@@ -138,14 +144,17 @@ JarSection
                         
 name
 =
+LocaleTemplate
+(
 f
 "
 chrome
 /
 {
-MOZ_L10N_AB_CD_PLACEHOLDER
+AB_CD_TOKEN
 }
 "
+)
                         
 base
 =
@@ -174,14 +183,18 @@ JarEntry
                                 
 source
 =
+LocaleTemplate
+(
 "
 necko
 .
 properties
 "
+)
                                 
 output
 =
+LocaleTemplate
 (
                                     
 f
@@ -189,11 +202,8 @@ f
 locale
 /
 {
-MOZ_L10N_AB_CD_PLACEHOLDER
+AB_CD_TOKEN
 }
-"
-                                    
-"
 /
 necko
 /
@@ -246,7 +256,10 @@ JarSection
             
 name
 =
+LocaleTemplate
+(
 name
+)
             
 base
 =
@@ -263,6 +276,9 @@ chrome_manifests
 tuple
 (
                 
+LocaleTemplate
+(
+                    
 f
 "
 locale
@@ -270,17 +286,13 @@ locale
 package
 }
 {
-MOZ_L10N_AB_CD_PLACEHOLDER
+AB_CD_TOKEN
 }
-"
-                
-f
-"
 %
 locale
 /
 {
-MOZ_L10N_AB_CD_PLACEHOLDER
+AB_CD_TOKEN
 }
 /
 {
@@ -288,6 +300,8 @@ package
 }
 /
 "
+                
+)
                 
 for
 package
@@ -306,16 +320,21 @@ JarEntry
                     
 source
 =
+LocaleTemplate
+(
 source
+)
                     
 output
 =
+LocaleTemplate
+(
 f
 "
 locale
 /
 {
-MOZ_L10N_AB_CD_PLACEHOLDER
+AB_CD_TOKEN
 }
 /
 {
@@ -326,6 +345,7 @@ name
 source
 }
 "
+)
                     
 is_locale
 =
@@ -565,14 +585,17 @@ JarSection
                         
 name
 =
+LocaleTemplate
+(
 f
 "
 chrome
 /
 {
-MOZ_L10N_AB_CD_PLACEHOLDER
+AB_CD_TOKEN
 }
 "
+)
                         
 base
 =
@@ -598,6 +621,8 @@ JarEntry
                                 
 source
 =
+LocaleTemplate
+(
 "
 chrome
 /
@@ -607,9 +632,11 @@ messenger
 .
 dtd
 "
+)
                                 
 output
 =
+LocaleTemplate
 (
                                     
 f
@@ -617,11 +644,8 @@ f
 locale
 /
 {
-MOZ_L10N_AB_CD_PLACEHOLDER
+AB_CD_TOKEN
 }
-"
-                                    
-"
 /
 messenger
 /
