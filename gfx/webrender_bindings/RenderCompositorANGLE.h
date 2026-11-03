@@ -561,6 +561,17 @@ GetMaxPartialPresentRects
 )
 override
 ;
+size_t
+GetBufferAge
+(
+)
+const
+override
+{
+return
+1
+;
+}
 RefPtr
 <
 layers

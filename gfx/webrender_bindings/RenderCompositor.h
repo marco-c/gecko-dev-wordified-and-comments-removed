@@ -935,16 +935,6 @@ false
 ;
 }
 virtual
-bool
-ShouldUseBufferAge
-(
-)
-{
-return
-false
-;
-}
-virtual
 size_t
 GetBufferAge
 (

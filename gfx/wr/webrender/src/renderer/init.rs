@@ -2121,7 +2121,6 @@ CompositorConfig
 Draw
 {
 max_partial_present_rects
-uses_buffer_age
 .
 .
 }
@@ -2134,7 +2133,6 @@ CompositorKind
 Draw
 {
 max_partial_present_rects
-uses_buffer_age
 }
 }
 CompositorConfig

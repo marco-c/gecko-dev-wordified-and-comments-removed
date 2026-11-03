@@ -1073,9 +1073,6 @@ aUsesOsLayers
 size_t
 *
 aMaxPartialPresentRects
-bool
-*
-aUsesBufferAge
 )
 {
 RenderCompositor
@@ -1108,16 +1105,6 @@ compositor
 -
 >
 GetMaxPartialPresentRects
-(
-)
-;
-*
-aUsesBufferAge
-=
-compositor
--
->
-ShouldUseBufferAge
 (
 )
 ;

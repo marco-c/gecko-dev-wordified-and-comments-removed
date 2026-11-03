@@ -1465,9 +1465,6 @@ Draw
 max_partial_present_rects
 :
 usize
-uses_buffer_age
-:
-bool
 buffer_damage
 :
 Option
@@ -1664,9 +1661,6 @@ Draw
 max_partial_present_rects
 :
 0
-uses_buffer_age
-:
-false
 buffer_damage
 :
 None
@@ -1722,9 +1716,6 @@ Draw
 max_partial_present_rects
 :
 usize
-uses_buffer_age
-:
-bool
 }
 Layer
 {
@@ -1760,9 +1751,6 @@ Draw
 max_partial_present_rects
 :
 0
-uses_buffer_age
-:
-false
 }
 }
 }
@@ -1815,9 +1803,6 @@ WindowFramebuffer
 max_partial_present_rects
 :
 usize
-uses_buffer_age
-:
-bool
 }
 OsLayers
 {

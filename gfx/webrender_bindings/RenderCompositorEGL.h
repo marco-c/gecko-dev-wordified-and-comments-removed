@@ -198,12 +198,6 @@ GetMaxPartialPresentRects
 )
 override
 ;
-bool
-ShouldUseBufferAge
-(
-)
-override
-;
 size_t
 GetBufferAge
 (

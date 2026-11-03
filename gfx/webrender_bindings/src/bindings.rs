@@ -7751,11 +7751,6 @@ max_partial_present_rects
 &
 mut
 usize
-uses_buffer_age
-:
-&
-mut
-bool
 )
 ;
 }
@@ -8490,12 +8485,6 @@ max_partial_present_rects
 =
 0
 ;
-let
-mut
-uses_buffer_age
-=
-false
-;
 unsafe
 {
 wr_compositor_get_swapchain_mode
@@ -8509,9 +8498,6 @@ uses_os_layers
 &
 mut
 max_partial_present_rects
-&
-mut
-uses_buffer_age
 )
 ;
 }
@@ -8534,7 +8520,6 @@ SwapchainMode
 WindowFramebuffer
 {
 max_partial_present_rects
-uses_buffer_age
 }
 }
 }
