@@ -676,6 +676,14 @@ featureId
 ?
 "
 "
+placement
+:
+options
+.
+device
+?
+?
+undefined
 }
 ;
 if
