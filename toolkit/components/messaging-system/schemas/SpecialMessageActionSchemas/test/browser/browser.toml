@@ -61,6 +61,13 @@ js
 ]
 [
 "
+browser_sma_accept_smartwindow_tou
+.
+js
+"
+]
+[
+"
 browser_sma_block_message
 .
 js
@@ -395,6 +402,13 @@ js
 [
 "
 browser_sma_restore_session
+.
+js
+"
+]
+[
+"
+browser_sma_select_and_mark_menu_item
 .
 js
 "
