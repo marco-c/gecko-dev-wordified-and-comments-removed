@@ -38,16 +38,6 @@ strip
 =
 evolve
 =
-HOME
-/
-.
-mozbuild
-/
-evolve
-/
-hgext3rd
-/
-evolve
 push
 -
 to
