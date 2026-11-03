@@ -828,10 +828,6 @@ content
 nsGkAtoms
 :
 :
-contenteditable
-nsGkAtoms
-:
-:
 contextmenu
 nsGkAtoms
 :
@@ -5208,6 +5204,7 @@ if
 mDropForms
 &
 &
+(
 attrLocal
 =
 =
@@ -5215,6 +5212,16 @@ nsGkAtoms
 :
 :
 _for
+|
+|
+attrLocal
+=
+=
+nsGkAtoms
+:
+:
+contenteditable
+)
 )
 {
 continue
