@@ -933,13 +933,11 @@ theme
 s
 default
 fill
-pale
+white
 in
 light
 mode
 and
-near
--
 black
 in
 dark
