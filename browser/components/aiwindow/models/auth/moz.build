@@ -93,4 +93,11 @@ sys
 .
 mjs
 "
+"
+GuestAuthProviderImpl
+.
+sys
+.
+mjs
+"
 ]
