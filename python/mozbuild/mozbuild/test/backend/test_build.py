@@ -612,12 +612,6 @@ install_manifest_depends
 "
                 
 "
-MOZ_JAR_MAKER_FILE_FORMAT
-=
-flat
-"
-                
-"
 TEST_MOZBUILD
 =
 1
@@ -791,12 +785,6 @@ overrides
 "
 install_manifest_depends
 =
-"
-                
-"
-MOZ_JAR_MAKER_FILE_FORMAT
-=
-flat
 "
                 
 "

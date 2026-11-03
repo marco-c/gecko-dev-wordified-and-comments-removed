@@ -1272,25 +1272,6 @@ used
 )
     
 (
-STDOUT
-logging
-.
-INFO
-"
-Packaging
-mozscreenshots
-mozilla
-.
-org
-.
-xpi
-.
-.
-.
-"
-)
-    
-(
 STDERR
 logging
 .
