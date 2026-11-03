@@ -204,6 +204,8 @@ const
 PanGestureInput
 &
 aPanInput
+SwipeInputSource
+aInputSource
 )
 ;
 protected
