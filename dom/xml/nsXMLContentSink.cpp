@@ -6556,12 +6556,12 @@ localName
 ;
 const
 bool
-hadAttrs
+mightHaveAttrs
 =
 aContent
 -
 >
-HasAttrs
+HasCustomElementData
 (
 )
 ;
@@ -6614,7 +6614,7 @@ false
 IsKnownNewAttr
 (
 !
-hadAttrs
+mightHaveAttrs
 )
 )
 ;
