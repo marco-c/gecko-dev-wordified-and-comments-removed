@@ -505,6 +505,7 @@ nsZipArchive
 OpenArchive
 (
 file
+true
 )
 ;
 if
@@ -560,6 +561,8 @@ nsZipArchive
 OpenArchive
 (
 handle
+nullptr
+true
 )
 ;
 if

@@ -281,6 +281,10 @@ PRFileDesc
 aFd
 =
 nullptr
+bool
+aAllowOptimizedLayout
+=
+false
 )
 ;
 static
@@ -293,6 +297,10 @@ OpenArchive
 nsIFile
 *
 aFile
+bool
+aAllowOptimizedLayout
+=
+false
 )
 ;
 nsresult
@@ -399,6 +407,8 @@ aZipHandle
 PRFileDesc
 *
 aFd
+bool
+aAllowOptimizedLayout
 nsresult
 &
 aRv
@@ -489,8 +499,8 @@ BuildFileList
 PRFileDesc
 *
 aFd
-=
-nullptr
+bool
+aAllowOptimizedLayout
 )
 ;
 nsresult

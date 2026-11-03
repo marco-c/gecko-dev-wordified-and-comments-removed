@@ -1887,6 +1887,8 @@ aZipHandle
 PRFileDesc
 *
 aFd
+bool
+aAllowOptimizedLayout
 )
 {
 nsresult
@@ -1903,6 +1905,7 @@ nsZipArchive
 (
 aZipHandle
 aFd
+aAllowOptimizedLayout
 rv
 )
 )
@@ -1961,6 +1964,8 @@ OpenArchive
 nsIFile
 *
 aFile
+bool
+aAllowOptimizedLayout
 )
 {
 RefPtr
@@ -2044,6 +2049,7 @@ fd
 get
 (
 )
+aAllowOptimizedLayout
 )
 ;
 #
@@ -2052,6 +2058,8 @@ return
 OpenArchive
 (
 handle
+nullptr
+aAllowOptimizedLayout
 )
 ;
 #
@@ -3101,6 +3109,8 @@ BuildFileList
 PRFileDesc
 *
 aFd
+bool
+aAllowOptimizedLayout
 )
 MOZ_NO_THREAD_SAFETY_ANALYSIS
 {
@@ -3159,6 +3169,9 @@ this
 ;
 if
 (
+aAllowOptimizedLayout
+&
+&
 XRE_IsParentProcess
 (
 )
@@ -4273,6 +4286,8 @@ aZipHandle
 PRFileDesc
 *
 aFd
+bool
+aAllowOptimizedLayout
 nsresult
 &
 aRv
@@ -4315,6 +4330,7 @@ aRv
 BuildFileList
 (
 aFd
+aAllowOptimizedLayout
 )
 ;
 if
