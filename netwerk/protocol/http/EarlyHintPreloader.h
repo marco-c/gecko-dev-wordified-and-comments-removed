@@ -302,6 +302,10 @@ const
 nsACString
 &
 aCSPHeader
+const
+nsACString
+&
+aConnectionAllowlistHeader
 uint64_t
 aBrowsingContextID
 dom

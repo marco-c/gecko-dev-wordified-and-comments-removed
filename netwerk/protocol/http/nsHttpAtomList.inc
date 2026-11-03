@@ -138,6 +138,15 @@ Connection
 )
 HTTP_ATOM
 (
+Connection_Allowlist
+"
+Connection
+-
+Allowlist
+"
+)
+HTTP_ATOM
+(
 Content_Disposition
 "
 Content

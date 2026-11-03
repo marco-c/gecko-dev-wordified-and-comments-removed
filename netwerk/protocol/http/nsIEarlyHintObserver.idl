@@ -128,6 +128,9 @@ referrerPolicy
 in
 ACString
 cspHeader
+in
+ACString
+connectionAllowlistHeader
 )
 ;
 }

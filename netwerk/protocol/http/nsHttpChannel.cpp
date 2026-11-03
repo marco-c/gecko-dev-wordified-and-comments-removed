@@ -60575,6 +60575,10 @@ const
 nsACString
 &
 aCspHeader
+const
+nsACString
+&
+aConnectionAllowlistHeader
 )
 {
 LOG
@@ -60638,6 +60642,7 @@ EarlyHint
 aLinkHeader
 aReferrerPolicy
 aCspHeader
+aConnectionAllowlistHeader
 )
 ;
 }
