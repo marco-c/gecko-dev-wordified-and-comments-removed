@@ -1311,11 +1311,6 @@ StopTimer
 (
 )
 ;
-void
-UpdateThrottledState
-(
-)
-;
 bool
 HasObservers
 (
