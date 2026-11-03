@@ -2579,6 +2579,15 @@ requireComponents
 settings
 .
 shouldUseExpandedToolbar
+customizationInfo
+=
+requireComponents
+.
+menuCustomizationRepository
+.
+customizedMenuInfo
+.
+value
 )
 MenuAccessPoint
 .
