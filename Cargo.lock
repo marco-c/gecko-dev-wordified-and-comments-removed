@@ -2393,6 +2393,9 @@ rs
 env_logger
 "
 "
+icu_segmenter
+"
+"
 libc
 "
 "

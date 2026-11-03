@@ -5750,7 +5750,14 @@ to_string
 )
 display_name
 :
-None
+Some
+(
+user_display_name
+.
+to_string
+(
+)
+)
 }
 pub_cred_params
 exclude_list
