@@ -945,13 +945,6 @@ html
 ]
 [
 "
-test_margin_trim_interrupt
-.
-html
-"
-]
-[
-"
 test_movement_by_characters
 .
 html
