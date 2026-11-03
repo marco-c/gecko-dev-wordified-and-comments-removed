@@ -78,7 +78,7 @@ BrowserTestUtils
 .
 withNewTab
 (
-JS_CACHE_BASE_URL
+JS_CACHE_BASE_URL_HTTPS
 +
 "
 file_js_cache_module_csp
