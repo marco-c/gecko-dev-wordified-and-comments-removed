@@ -1820,6 +1820,11 @@ draw_previous_partial_present_regions
 bool
 }
 OsLayers
+{
+max_partial_present_rects
+:
+usize
+}
 }
 impl
 CompositorKind
@@ -1884,6 +1889,10 @@ SwapchainMode
 :
 :
 OsLayers
+{
+.
+.
+}
 }
 =
 >
@@ -1930,6 +1939,10 @@ SwapchainMode
 :
 :
 OsLayers
+{
+.
+.
+}
 }
 )
 }
@@ -7106,6 +7119,11 @@ SwapchainMode
 :
 :
 OsLayers
+{
+max_partial_present_rects
+:
+1
+}
 }
 }
 #
