@@ -93,6 +93,8 @@ WebIDLCollection
     
 XPCOMComponentManifests
     
+XPIArchive
+    
 XPIDLModule
 )
 from
@@ -1365,6 +1367,13 @@ _licenses
 LicenseCollection
 (
 )
+        
+self
+.
+_xpi_archives
+=
+[
+]
         
 self
 .
@@ -2721,6 +2730,23 @@ obj
             
 return
 False
+        
+elif
+isinstance
+(
+obj
+XPIArchive
+)
+:
+            
+self
+.
+_xpi_archives
+.
+append
+(
+obj
+)
         
 elif
 isinstance
