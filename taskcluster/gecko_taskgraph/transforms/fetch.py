@@ -2044,6 +2044,24 @@ if
 ssh_key
 :
         
+ssh_key
+=
+ssh_key
+.
+format
+(
+level
+=
+config
+.
+params
+[
+"
+level
+"
+]
+)
+        
 args
 .
 append
