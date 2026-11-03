@@ -2048,11 +2048,6 @@ shakeToSummarizeFeatureFlagEnabled
 cfg
 .
 shakeToSummarizeFeatureFlagEnabled
-isPrivateModeAndStoriesEntryPointEnabled
-=
-cfg
-.
-isPrivateModeAndStoriesEntryPointEnabled
 )
 )
 {

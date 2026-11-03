@@ -1096,8 +1096,6 @@ trackersBlockedCount
 headerState
 =
 HeaderState
-.
-Normal
 (
 showStoriesButton
 =
