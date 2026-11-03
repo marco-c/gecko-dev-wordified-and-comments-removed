@@ -444,7 +444,7 @@ approximated
 synchronously
 via
 the
-ToS
+ToU
 consent
 *
 timestamp
@@ -580,7 +580,7 @@ lazy
 .
 AuthProvider
 .
-hasToSConsent
+hasToUConsent
 )
 ;
 }

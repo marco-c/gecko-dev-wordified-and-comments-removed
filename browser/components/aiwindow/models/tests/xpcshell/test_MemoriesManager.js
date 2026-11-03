@@ -2065,7 +2065,7 @@ stub
 (
 AuthProvider
 "
-hasToSConsent
+hasToUConsent
 "
 )
 .

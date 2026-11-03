@@ -5174,7 +5174,7 @@ conversation
 )
 *
 -
-ToS
+ToU
 consent
 *
 -
@@ -5323,7 +5323,7 @@ hasConsent
 =
 AuthProvider
 .
-hasToSConsent
+hasToUConsent
 ;
 const
 hasFirstrunCompleted

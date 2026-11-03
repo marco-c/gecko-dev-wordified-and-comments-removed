@@ -4659,7 +4659,7 @@ startup
 gate
 which
 uses
-ToS
+ToU
 consentTime
 as
 a
@@ -10335,7 +10335,7 @@ lazy
 .
 AuthProvider
 .
-clearToSConsent
+clearToUConsent
 (
 )
 ;

@@ -1024,9 +1024,9 @@ ok
 (
 AuthProvider
 .
-hasToSConsent
+hasToUConsent
 "
-ToS
+ToU
 consent
 is
 recorded
@@ -1135,9 +1135,9 @@ ok
 !
 AuthProvider
 .
-hasToSConsent
+hasToUConsent
 "
-ToS
+ToU
 consent
 is
 not
