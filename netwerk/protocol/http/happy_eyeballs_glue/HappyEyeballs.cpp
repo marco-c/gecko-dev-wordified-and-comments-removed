@@ -47,11 +47,6 @@ happy_eyeballs
 :
 HttpVersions
 aHttpVersions
-happy_eyeballs
-:
-:
-ResolutionMode
-aResolution
 )
 {
 return
@@ -73,7 +68,6 @@ aPort
 aAltSvc
 aPref
 aHttpVersions
-aResolution
 )
 ;
 }

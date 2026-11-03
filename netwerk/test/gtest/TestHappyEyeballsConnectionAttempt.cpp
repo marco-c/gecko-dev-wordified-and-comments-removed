@@ -738,9 +738,9 @@ nsHttpConnectionInfo
 *
 aConnInfo
 const
-EndpointTarget
+NetAddr
 &
-aTarget
+aAddr
 uint32_t
 aCaps
 bool
@@ -754,7 +754,7 @@ aForceRefuseLocal
 ConnectionEstablisher
 (
 aConnInfo
-aTarget
+aAddr
 aCaps
 aAllow1918
 )
@@ -793,15 +793,7 @@ if
 mForceRefuseLocal
 &
 &
-!
-IsByName
-(
-)
-&
-&
-Addr
-(
-)
+mAddr
 .
 IsIPAddrLocal
 (
@@ -952,9 +944,9 @@ nsHttpConnectionInfo
 *
 aConnInfo
 const
-EndpointTarget
+NetAddr
 &
-aTarget
+aAddr
 uint32_t
 aCaps
 bool
@@ -984,7 +976,7 @@ new
 FakeConnectionEstablisher
 (
 aConnInfo
-aTarget
+aAddr
 aCaps
 isUDP
 aAllow1918
@@ -1171,8 +1163,6 @@ HttpConnectionBase
 *
 bool
 bool
-ConnectionEntry
-*
 )
 override
 {

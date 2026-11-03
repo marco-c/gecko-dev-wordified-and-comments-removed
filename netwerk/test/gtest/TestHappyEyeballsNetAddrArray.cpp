@@ -273,13 +273,6 @@ IpPreference
 :
 Ipv4Only
 versions
-happy_eyeballs
-:
-:
-ResolutionMode
-:
-:
-ByIp
 )
 NS_OK
 )
