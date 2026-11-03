@@ -62836,7 +62836,6 @@ on
 the
 listened
 tab
-or
 media_session_ended_outside_app
 when
 the
@@ -62862,6 +62861,18 @@ the
 notification
 was
 dismissed
+or
+feature_disabled
+when
+the
+user
+turned
+the
+feature
+off
+in
+AI
+Controls
 .
 type
 :
