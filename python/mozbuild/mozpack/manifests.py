@@ -2409,10 +2409,6 @@ populate_registry
 (
 self
 registry
-defines_override
-=
-{
-}
 link_policy
 =
 "
@@ -2467,22 +2463,6 @@ data
 from
 this
 manifest
-.
-        
-Defines
-can
-be
-given
-to
-override
-the
-ones
-in
-the
-manifest
-for
-        
-preprocessing
 .
         
 The
@@ -2824,29 +2804,6 @@ self
 PREPROCESS
 :
                 
-defines
-=
-self
-.
-_decode_field_entry
-(
-entry
-[
-4
-]
-)
-                
-if
-defines_override
-:
-                    
-defines
-.
-update
-(
-defines_override
-)
-                
 registry
 .
 add
@@ -2878,7 +2835,15 @@ entry
                         
 defines
 =
-defines
+self
+.
+_decode_field_entry
+(
+entry
+[
+4
+]
+)
                         
 extra_depends
 =
