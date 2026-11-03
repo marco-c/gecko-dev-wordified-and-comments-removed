@@ -650,7 +650,7 @@ its
 related
 memory
 .
-MemoriesManager
+JourneyManager
 is
 responsible
 for
@@ -663,7 +663,9 @@ the
 related
 memory
 is
-deleted
+no
+longer
+present
 .
 The
 store
