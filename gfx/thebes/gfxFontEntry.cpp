@@ -9463,12 +9463,10 @@ if
 ufe
 -
 >
-GetPlatformFontEntry
+PlatformFontEntryEquals
 (
-)
-=
-=
 aFontEntry
+)
 )
 {
 return
