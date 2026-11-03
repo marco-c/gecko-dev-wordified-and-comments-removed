@@ -1492,6 +1492,11 @@ NS_DECLARE_FRAME_PROPERTY_SMALL_VALUE
 AlignContentShift
 nscoord
 )
+NS_DECLARE_FRAME_PROPERTY_SMALL_VALUE
+(
+InheritedBEndMarginTrim
+bool
+)
 void
 ComputeOverflowAreas
 (
@@ -1865,6 +1870,11 @@ false
 ;
 bool
 mLineClamping
+=
+false
+;
+bool
+mShouldTrimInheritedBEndMargins
 =
 false
 ;

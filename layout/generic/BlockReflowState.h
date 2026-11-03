@@ -118,6 +118,10 @@ mIsCurrentLineAdjacentToBStart
 (
 false
 )
+mShouldTrimInheritedBEndMargins
+(
+false
+)
 {
 }
 bool
@@ -177,6 +181,11 @@ mShouldApplyLineClampAuto
 ;
 bool
 mIsCurrentLineAdjacentToBStart
+:
+1
+;
+bool
+mShouldTrimInheritedBEndMargins
 :
 1
 ;
@@ -240,6 +249,12 @@ aIsAdjacentToBStart
 ;
 bool
 ShouldTrimChildBStartMargins
+(
+)
+const
+;
+bool
+ShouldTrimChildBEndMargins
 (
 )
 const
