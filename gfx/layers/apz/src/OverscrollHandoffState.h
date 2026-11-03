@@ -290,6 +290,16 @@ aApzc
 )
 const
 ;
+SideBits
+GetSwipableDirections
+(
+const
+AsyncPanZoomController
+&
+aTarget
+)
+const
+;
 private
 :
 std

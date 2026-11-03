@@ -676,6 +676,11 @@ mScreenOffset
 bool
 mHandledByAPZ
 ;
+bool
+mMayTriggerSwipe
+=
+false
+;
 int16_t
 mButton
 =
