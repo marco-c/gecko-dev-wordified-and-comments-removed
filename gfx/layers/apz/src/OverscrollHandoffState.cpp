@@ -1321,6 +1321,13 @@ i
 result
 &
 =
+apzc
+-
+>
+OverscrollBehaviorAllowsSwipe
+(
+)
+?
 ~
 (
 apzc
@@ -1335,6 +1342,11 @@ SideBits
 :
 :
 eLeftRight
+:
+SideBits
+:
+:
+eNone
 ;
 if
 (

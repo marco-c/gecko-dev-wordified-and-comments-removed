@@ -1215,6 +1215,14 @@ block
 HasAllowedTouchBehaviors
 (
 )
+&
+&
+block
+-
+>
+TouchActionAllowsPanningX
+(
+)
 )
 {
 MOZ_ASSERT
