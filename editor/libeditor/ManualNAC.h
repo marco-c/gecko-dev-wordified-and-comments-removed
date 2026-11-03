@@ -274,8 +274,9 @@ mPtr
 return
 ;
 }
-RemoveContentFromNACArray
-(
+RefPtr
+ptr
+=
 std
 :
 :
@@ -283,6 +284,10 @@ move
 (
 mPtr
 )
+;
+RemoveContentFromNACArray
+(
+ptr
 )
 ;
 }
@@ -367,7 +372,6 @@ RemoveContentFromNACArray
 (
 StrongNodePtr
 &
-&
 aAnonymousContent
 )
 {
@@ -408,10 +412,7 @@ anonymousContent
 std
 :
 :
-forward
-<
-StrongNodePtr
->
+move
 (
 aAnonymousContent
 )
