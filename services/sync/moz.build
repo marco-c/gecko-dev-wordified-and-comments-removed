@@ -491,6 +491,17 @@ sys
 .
 mjs
 "
+"
+modules
+/
+stages
+/
+syncids
+.
+sys
+.
+mjs
+"
 ]
 XPCOM_MANIFESTS
 +
