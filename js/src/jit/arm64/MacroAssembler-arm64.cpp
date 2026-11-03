@@ -1568,7 +1568,7 @@ BufferOffset
 MacroAssemblerCompat
 :
 :
-movePatchablePtr
+movePatchableGCPtr
 (
 ImmPtr
 ptr
@@ -1642,6 +1642,10 @@ uint8_t
 &
 instructionScratch
 literalAddr
+PoolEntryKind
+:
+:
+GCThing
 )
 ;
 }
@@ -1723,6 +1727,10 @@ uint8_t
 &
 instructionScratch
 literalAddr
+PoolEntryKind
+:
+:
+Unshared
 )
 ;
 }
@@ -9668,6 +9676,10 @@ raw
 (
 )
 )
+PoolEntryKind
+:
+:
+Constant
 )
 ;
 addPendingJump
@@ -11260,7 +11272,7 @@ return
 BufferOffset
 load
 =
-movePatchablePtr
+movePatchableGCPtr
 (
 ImmPtr
 (

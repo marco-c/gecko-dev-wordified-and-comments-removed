@@ -942,6 +942,8 @@ vixl
 :
 LoadLiteralOp
 op
+PoolEntryKind
+kind
 const
 LiteralDoc
 &
@@ -993,6 +995,7 @@ uint8_t
 &
 inst
 value
+kind
 doc
 )
 ;
@@ -1007,6 +1010,8 @@ ARMRegister
 dest
 uint64_t
 value
+PoolEntryKind
+kind
 )
 {
 return
@@ -1023,6 +1028,7 @@ vixl
 :
 :
 LDR_x_lit
+kind
 LiteralDoc
 (
 value
@@ -1098,6 +1104,10 @@ uint8_t
 &
 inst
 value
+PoolEntryKind
+:
+:
+Constant
 doc
 )
 ;
@@ -1534,16 +1544,13 @@ enoughMemory_
 =
 pendingJumps_
 .
-append
-(
-RelativePatch
+emplaceBack
 (
 src
 target
 .
 value
 reloc
-)
 )
 ;
 }

@@ -2974,7 +2974,7 @@ isGCThing
 BufferOffset
 load
 =
-movePatchablePtr
+movePatchableGCPtr
 (
 ImmPtr
 (
@@ -3173,7 +3173,7 @@ isGCThing
 BufferOffset
 load
 =
-movePatchablePtr
+movePatchableGCPtr
 (
 ImmPtr
 (
@@ -3304,6 +3304,10 @@ dest
 imm
 .
 value
+PoolEntryKind
+:
+:
+Unshared
 )
 ;
 return
@@ -3342,6 +3346,10 @@ imm
 .
 value
 )
+PoolEntryKind
+:
+:
+Unshared
 )
 ;
 return
@@ -5289,7 +5297,7 @@ dest
 BufferOffset
 load
 =
-movePatchablePtr
+movePatchableGCPtr
 (
 ImmPtr
 (
@@ -5443,7 +5451,7 @@ dest
 )
 ;
 BufferOffset
-movePatchablePtr
+movePatchableGCPtr
 (
 ImmPtr
 ptr
@@ -15325,6 +15333,10 @@ raw
 (
 )
 )
+PoolEntryKind
+:
+:
+Constant
 )
 ;
 if
