@@ -415,6 +415,16 @@ nullptr
 ;
 }
 virtual
+bool
+IsHappyEyeballsTransaction
+(
+)
+{
+return
+false
+;
+}
+virtual
 nsHttpTransaction
 *
 QueryHttpTransaction
