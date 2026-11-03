@@ -8305,6 +8305,11 @@ v
 )
 ;
 }
+PopulateAllActiveEnginesFromPreferenceSnapshot
+(
+snapshot
+)
+;
 }
 UpdateFeatures
 (
