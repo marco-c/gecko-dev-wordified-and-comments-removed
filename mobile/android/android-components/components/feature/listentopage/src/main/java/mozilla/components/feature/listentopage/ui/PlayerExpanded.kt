@@ -1021,7 +1021,7 @@ LayoutDirection
 Ltr
 )
 {
-Column
+Box
 (
 modifier
 =
@@ -1029,7 +1029,7 @@ Modifier
 .
 padding
 (
-start
+horizontal
 =
 AcornTheme
 .
@@ -1038,7 +1038,7 @@ layout
 space
 .
 static200
-end
+vertical
 =
 AcornTheme
 .
@@ -1046,16 +1046,7 @@ layout
 .
 space
 .
-static200
-top
-=
-AcornTheme
-.
-layout
-.
-space
-.
-static100
+static150
 )
 .
 fillMaxWidth
