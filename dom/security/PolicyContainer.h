@@ -138,6 +138,12 @@ mContentSecurityPolicy
 nsCString
 mContentSecurityPolicyReportOnly
 ;
+nsCString
+mConnectionAllowlist
+;
+nsCString
+mConnectionAllowlistReportOnly
+;
 }
 ;
 static
