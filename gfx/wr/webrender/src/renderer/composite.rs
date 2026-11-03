@@ -6188,6 +6188,10 @@ iter
 enumerate
 (
 )
+.
+rev
+(
+)
 {
 let
 transform

@@ -1210,12 +1210,6 @@ DoFlush
 ;
 #
 endif
-mAddedLayers
-.
-Reverse
-(
-)
-;
 mNativeLayerRoot
 -
 >

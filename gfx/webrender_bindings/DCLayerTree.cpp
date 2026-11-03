@@ -3257,7 +3257,7 @@ surface
 GetRootVisual
 (
 )
-true
+false
 nullptr
 )
 ;
