@@ -53,6 +53,16 @@ setup
 .
 sh
 COPY
+arcanist_log_invalid_json
+.
+patch
+/
+setup
+/
+arcanist_log_invalid_json
+.
+patch
+COPY
 updatebot
 -
 version
