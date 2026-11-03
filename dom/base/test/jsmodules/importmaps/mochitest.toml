@@ -401,6 +401,11 @@ test_importMap_after_memory_cached_module
 html
 "
 ]
+scheme
+=
+"
+https
+"
 [
 "
 test_importMap_with_external_script
