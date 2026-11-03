@@ -2853,6 +2853,9 @@ uint8_t
 3
 >
 _padding
+=
+{
+}
 ;
 uint32_t
 maxColorDrawBuffers
