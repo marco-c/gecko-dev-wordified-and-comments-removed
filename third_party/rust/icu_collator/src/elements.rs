@@ -32,7 +32,10 @@ icu_collections
 codepointtrie
 :
 :
-AbstractCodePointTrie
+iter
+:
+:
+WithTrie
 ;
 use
 icu_collections
@@ -41,7 +44,7 @@ icu_collections
 codepointtrie
 :
 :
-WithTrie
+AbstractCodePointTrie
 ;
 use
 icu_normalizer
