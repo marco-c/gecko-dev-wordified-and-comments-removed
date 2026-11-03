@@ -11721,7 +11721,9 @@ IsEmpty
 (
 )
 nullptr
-nullptr
+Nothing
+(
+)
 )
 ;
 }
@@ -11767,7 +11769,9 @@ Path
 (
 )
 true
-nullptr
+Nothing
+(
+)
 )
 ;
 }
