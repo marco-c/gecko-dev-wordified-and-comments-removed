@@ -164,15 +164,6 @@ sys
 mjs
 "
 "
-stages
-/
-syncids
-.
-sys
-.
-mjs
-"
-"
 status
 .
 sys
