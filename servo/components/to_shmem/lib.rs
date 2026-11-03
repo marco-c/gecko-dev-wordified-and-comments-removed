@@ -2731,6 +2731,8 @@ len
 let
 static_arc
 =
+unsafe
+{
 Self
 :
 :
@@ -2768,6 +2770,7 @@ into_inner
 len
 true
 )
+}
 ;
 #
 [

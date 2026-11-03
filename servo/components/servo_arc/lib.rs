@@ -3715,6 +3715,7 @@ T
 inline
 ]
 pub
+unsafe
 fn
 from_header_and_iter_alloc
 <
@@ -4314,6 +4315,8 @@ Item
 T
 >
 {
+unsafe
+{
 Arc
 :
 :
@@ -4322,8 +4325,6 @@ from_header_and_iter_alloc
 |
 layout
 |
-unsafe
-{
 alloc
 :
 :
@@ -4331,12 +4332,12 @@ alloc
 (
 layout
 )
-}
 header
 items
 num_items
 false
 )
+}
 }
 #
 [
