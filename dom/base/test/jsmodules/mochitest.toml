@@ -78,11 +78,6 @@ test_scriptDisabled_modules
 html
 "
 ]
-scheme
-=
-"
-https
-"
 support
 -
 files
