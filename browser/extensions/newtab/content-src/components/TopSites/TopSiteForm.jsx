@@ -874,7 +874,7 @@ missing
 a
 protocol
 prepend
-http
+https
 :
 /
 /
@@ -905,7 +905,7 @@ https
 )
 {
 return
-http
+https
 :
 /
 /
