@@ -71,6 +71,13 @@ py
 ]
 [
 "
+test_func_cache
+.
+py
+"
+]
+[
+"
 test_logger
 .
 py
