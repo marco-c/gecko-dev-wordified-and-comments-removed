@@ -306,6 +306,12 @@ vcs_version
 .
 h
 '
+patches
+:
+-
+reset_n_ts_on_frame_init_failure
+.
+patch
 update
 -
 actions
