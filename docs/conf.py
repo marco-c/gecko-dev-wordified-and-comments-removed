@@ -454,6 +454,11 @@ useMaxWidth
 "
 :
 False
+"
+useWidth
+"
+:
+800
 }
     
 "
