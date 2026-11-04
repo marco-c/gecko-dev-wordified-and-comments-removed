@@ -1308,11 +1308,11 @@ score1
 fill
 :
 #
-4caf50
+2e7d32
 stroke
 :
 #
-2e7d32
+1b5e20
 stroke
 -
 width
@@ -1403,7 +1403,7 @@ project
 fill
 :
 #
-2196f3
+1976d2
 stroke
 :
 #
@@ -1422,7 +1422,7 @@ noData
 fill
 :
 #
-2196f3
+1976d2
 stroke
 :
 #
