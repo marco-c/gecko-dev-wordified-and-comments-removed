@@ -86,9 +86,7 @@ components
 conf
 "
 ]
-EXTRA_JS_MODULES
-.
-psm
+MOZ_SRC_FILES
 +
 =
 [
