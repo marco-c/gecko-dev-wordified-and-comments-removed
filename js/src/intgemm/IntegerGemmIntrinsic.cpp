@@ -2884,6 +2884,17 @@ int8_t
 )
 |
 |
+colIndexList
+%
+alignof
+(
+uint32_t
+)
+!
+=
+0
+|
+|
 !
 CheckMatrixBound
 (
