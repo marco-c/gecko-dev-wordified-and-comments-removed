@@ -21,6 +21,9 @@ nsIObserver
 h
 "
 class
+nsINode
+;
+class
 nsCCUncollectableMarker
 final
 :
@@ -84,6 +87,16 @@ WantAllTraces
 )
 ;
 }
+static
+bool
+IsInCCGenerationDocument
+(
+const
+nsINode
+&
+aNode
+)
+;
 static
 void
 CleanupForForgetSkippable

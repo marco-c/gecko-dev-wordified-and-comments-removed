@@ -2015,6 +2015,12 @@ ListenerCount
 )
 const
 ;
+bool
+HasOwnerInCCGenerationDocument
+(
+)
+const
+;
 void
 MarkForCC
 (

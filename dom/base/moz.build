@@ -1184,6 +1184,11 @@ NodeList
 h
 "
 "
+NodeOwnedObjectList
+.
+h
+"
+"
 ParentProcessMessageManager
 .
 h
