@@ -3583,6 +3583,34 @@ destinations
 return
 gcs_sources
 def
+_join_destination
+(
+bucket_path
+dest_path
+filename
+)
+:
+    
+return
+"
+/
+"
+.
+join
+(
+part
+for
+part
+in
+(
+bucket_path
+dest_path
+filename
+)
+if
+part
+)
+def
 generate_beetmover_artifact_map
 (
 config
@@ -4280,36 +4308,13 @@ destinations
 =
 [
                 
-"
-{
-bucket_path
-}
-/
-{
-dest_path
-}
-/
-{
-locale_prefix
-}
-{
-filename
-}
-"
-.
-format
+_join_destination
 (
                     
 bucket_path
-=
-bucket_path
                     
 dest_path
-=
-dest_path
                     
-locale_prefix
-=
 file_config
 [
 "
@@ -4317,8 +4322,7 @@ locale_prefix
 "
 ]
                     
-filename
-=
++
 file_config
 .
 get
@@ -5307,36 +5311,13 @@ destinations
 =
 [
                 
-"
-{
-bucket_path
-}
-/
-{
-dest_path
-}
-/
-{
-locale_prefix
-}
-{
-filename
-}
-"
-.
-format
+_join_destination
 (
                     
 bucket_path
-=
-bucket_path
                     
 dest_path
-=
-dest_path
                     
-locale_prefix
-=
 file_config
 [
 "
@@ -5344,8 +5325,7 @@ locale_prefix
 "
 ]
                     
-filename
-=
++
 file_config
 .
 get
