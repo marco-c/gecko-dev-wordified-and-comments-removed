@@ -492,14 +492,6 @@ tests
 /
 crashtests
 -
-gfx
-/
-vr
-/
-nsFxrCommandLineHandler
-.
-cpp
--
 image
 /
 test

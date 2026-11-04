@@ -1569,14 +1569,6 @@ devtools
 *
 "
 "
-browser
-/
-fxr
-/
-*
-*
-"
-"
 mobile
 /
 android

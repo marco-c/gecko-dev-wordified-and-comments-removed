@@ -591,11 +591,6 @@ OSKTabTipManager
 cpp
 "
 "
-OSKVRManager
-.
-cpp
-"
-"
 RemoteBackbuffer
 .
 cpp
@@ -1542,11 +1537,6 @@ h
 "
 "
 OSKTabTipManager
-.
-h
-"
-"
-OSKVRManager
 .
 h
 "

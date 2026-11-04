@@ -3105,12 +3105,6 @@ DestroyCompositor
 override
 ;
 void
-RequestFxrOutput
-(
-)
-override
-;
-void
 RecreateDirectManipulationIfNeeded
 (
 )
@@ -3882,11 +3876,6 @@ mPointerEvents
 ;
 ScreenPoint
 mLastPanGestureFocus
-;
-bool
-mRequestFxrOutputPending
-=
-false
 ;
 class
 MOZ_STACK_CLASS

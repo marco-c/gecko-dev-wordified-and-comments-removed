@@ -3930,17 +3930,6 @@ webcompat
 "
 browser
 /
-fxr
-/
-content
-/
-permissions
-.
-js
-"
-"
-browser
-/
 modules
 /
 *
