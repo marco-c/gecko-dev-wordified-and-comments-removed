@@ -2613,6 +2613,7 @@ _store
 )
 guid
 merged
+stored
 )
 ;
 await
