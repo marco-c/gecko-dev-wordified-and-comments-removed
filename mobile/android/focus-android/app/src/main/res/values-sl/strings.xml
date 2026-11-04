@@ -2765,6 +2765,8 @@ preference_autocomplete_title_remove
 >
 Odstrani
 URL
+-
+je
 po
 meri
 <
@@ -3423,9 +3425,8 @@ name
 preference_privacy_should_block_cookies_cross_site_option
 "
 >
-Zavra
-aj
-spletne
+Blokiraj
+medspletne
 pi
 kotke
 <
@@ -3441,7 +3442,7 @@ preference_privacy_should_block_cookies_yes_option2
 "
 >
 Da
-!
+prosim
 <
 /
 string
@@ -6447,7 +6448,7 @@ dotikom
 Aplikacije
 vam
 ni
-potrebno
+treba
 niti
 odpreti
 niti
@@ -8086,7 +8087,7 @@ preference_safe_browsing_title
 "
 >
 Zavrni
-morebitne
+morebitno
 nevarne
 in
 zavajajo
@@ -8454,9 +8455,8 @@ brskalnik
 nikoli
 ne
 shranimo
-va
-ih
-zavihkov
+tega
+zavihka
 in
 ga
 ne

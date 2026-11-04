@@ -3299,7 +3299,10 @@ browser_menu_extension_review_update_description
 Adolygu
 gosodiadau
 i
-ddiweddaru
+\
+'
+w
+diweddaru
 <
 /
 string
@@ -22346,6 +22349,9 @@ preferences_homepage_search_location
 >
 Lleoliad
 chwilio
+\
+'
+r
 tudalen
 gartref
 <
@@ -55664,7 +55670,7 @@ name
 automotive_authentication_setup_dialog_message
 "
 >
-Sefydlwch
+Gosodwch
 batrwm
 clo
 dyfais
@@ -55676,8 +55682,11 @@ amddiffyn
 eich
 data
 sensitif
-a
-arbedwyd
+wedi
+\
+'
+u
+cadw
 rhag
 cael
 mynediad
@@ -77075,7 +77084,7 @@ wrex_widget_match_delayed
 >
 Rhedeg
 yn
-Hwyr
+hwyr
 <
 /
 string
@@ -77118,7 +77127,7 @@ Wedi
 \
 '
 i
-Atal
+hatal
 <
 /
 string
@@ -77162,7 +77171,7 @@ Wedi
 \
 '
 i
-Ohirio
+ohirio
 <
 /
 string
@@ -77226,7 +77235,7 @@ name
 wrex_widget_standings
 "
 >
-Sefyllfaoedd
+Presennol
 <
 /
 string
@@ -77292,7 +77301,7 @@ wrex_widget_remove_widget
 "
 >
 Dileu
-Widget
+Teclyn
 <
 /
 string

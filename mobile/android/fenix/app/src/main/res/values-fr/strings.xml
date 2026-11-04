@@ -3298,9 +3298,13 @@ name
 browser_menu_extensions_review_update_description
 "
 >
-Mise
+Passer
+en
+revue
+la
+mise
 jour
-pour
+de
 %
 1
 s
@@ -3344,8 +3348,7 @@ name
 browser_menu_extension_review_update_description
 "
 >
-V
-rifier
+Voir
 les
 param
 tres
@@ -40246,6 +40249,7 @@ share_error_snackbar
 Impossible
 de
 partager
+avec
 cette
 application
 <
@@ -63163,8 +63167,7 @@ name
 translations_bottom_sheet_positive_button_error
 "
 >
-Veuillez
-r
+R
 essayer
 <
 /

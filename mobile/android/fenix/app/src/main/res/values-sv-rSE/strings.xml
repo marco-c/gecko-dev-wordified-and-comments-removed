@@ -75638,8 +75638,7 @@ name
 wrex_widget_match_suspended
 "
 >
-Avst
-ngd
+Avbruten
 <
 /
 string
@@ -75920,7 +75919,9 @@ wrex_widget_live_game_content_description
 %
 s
 match
-live
+p
+g
+r
 <
 /
 string
