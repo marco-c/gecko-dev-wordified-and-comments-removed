@@ -3455,14 +3455,6 @@ MOZ_RELEASE_ASSERT
 mApzUpdater
 )
 ;
-MOZ_RELEASE_ASSERT
-(
-!
-aState
-.
-mApzcTreeManagerParent
-)
-;
 auto
 treeManager
 =
