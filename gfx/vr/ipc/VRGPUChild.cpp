@@ -78,14 +78,14 @@ PVRGPUChild
 aEndpoint
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 NS_IsMainThread
 (
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 sVRGPUChildSingleton
@@ -234,7 +234,7 @@ Get
 (
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 IsCreated
 (
@@ -262,7 +262,7 @@ Shutdown
 (
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 NS_IsMainThread
 (

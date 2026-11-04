@@ -803,7 +803,7 @@ defined
 (
 MOZ_WIDGET_ANDROID
 )
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 false
 "
@@ -1413,7 +1413,7 @@ false
 }
 #
 else
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 false
 "
@@ -1779,7 +1779,7 @@ defined
 (
 MOZ_WIDGET_ANDROID
 )
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 false
 "
@@ -1937,7 +1937,7 @@ defined
 (
 MOZ_WIDGET_ANDROID
 )
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 false
 "

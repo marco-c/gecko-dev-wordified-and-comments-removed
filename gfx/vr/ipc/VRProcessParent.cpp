@@ -244,7 +244,7 @@ Launch
 (
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mLaunchPhase
 =
@@ -255,7 +255,7 @@ LaunchPhase
 Unlaunched
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 mVRChild
@@ -457,7 +457,7 @@ Shutdown
 (
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 mShutdownRequested
@@ -520,7 +520,7 @@ bool
 aSucceeded
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mLaunchPhase
 =
@@ -531,7 +531,7 @@ LaunchPhase
 Waiting
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 mVRChild
@@ -653,10 +653,7 @@ VRChild
 this
 )
 ;
-DebugOnly
-<
 bool
->
 rv
 =
 TakeInitialEndpoint
@@ -672,7 +669,7 @@ get
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 rv
 )
@@ -715,10 +712,7 @@ Get
 (
 )
 ;
-DebugOnly
-<
 bool
->
 opened
 =
 vpm
@@ -736,7 +730,7 @@ OtherEndpointProcInfo
 vrGPUBridge
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 opened
 )
@@ -828,7 +822,7 @@ ProcessId
 peer_pid
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 NS_IsMainThread
@@ -968,7 +962,7 @@ mVRChild
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 mVRChild
