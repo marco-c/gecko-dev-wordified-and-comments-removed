@@ -1362,7 +1362,7 @@ await
 networkEvent
 ;
 const
-wait
+onDomUpdated
 =
 waitForDOM
 (
@@ -1393,7 +1393,7 @@ toggleNetworkDetails
 )
 ;
 await
-wait
+onDomUpdated
 ;
 }
 async

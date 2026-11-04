@@ -103,8 +103,8 @@ false
 )
 )
 ;
-let
-wait
+const
+onNetworkEvents
 =
 waitForNetworkEvents
 (
@@ -118,7 +118,7 @@ reloadSelectedTab
 )
 ;
 await
-wait
+onNetworkEvents
 ;
 const
 requestItem
@@ -242,7 +242,8 @@ OK
 }
 )
 ;
-wait
+let
+onDomUpdated
 =
 waitForDOM
 (
@@ -276,9 +277,9 @@ item
 )
 ;
 await
-wait
+onDomUpdated
 ;
-wait
+onDomUpdated
 =
 waitForDOM
 (
@@ -304,9 +305,9 @@ response
 )
 ;
 await
-wait
+onDomUpdated
 ;
-wait
+onDomUpdated
 =
 waitForDOM
 (
@@ -359,7 +360,7 @@ monitor
 )
 ;
 await
-wait
+onDomUpdated
 ;
 const
 text

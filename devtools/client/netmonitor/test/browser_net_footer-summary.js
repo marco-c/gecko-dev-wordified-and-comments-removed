@@ -192,7 +192,7 @@ i
 )
 ;
 const
-wait
+onNetworkEvents
 =
 waitForNetworkEvents
 (
@@ -241,7 +241,7 @@ true
 )
 ;
 await
-wait
+onNetworkEvents
 ;
 testStatus
 (

@@ -79,7 +79,7 @@ tab
 )
 ;
 const
-wait
+onDomUpdated
 =
 waitForDOM
 (
@@ -117,7 +117,7 @@ request
 )
 ;
 await
-wait
+onDomUpdated
 ;
 const
 tabpanel

@@ -90,7 +90,7 @@ tab
 )
 ;
 let
-wait
+onDomUpdated
 =
 waitForDOM
 (
@@ -129,7 +129,7 @@ item
 )
 ;
 await
-wait
+onDomUpdated
 ;
 await
 toggleUrlPreview
@@ -138,7 +138,7 @@ true
 monitor
 )
 ;
-wait
+onDomUpdated
 =
 waitForDOM
 (
@@ -177,7 +177,7 @@ item
 )
 ;
 await
-wait
+onDomUpdated
 ;
 const
 noOfVisibleRowsAfterExpand
@@ -228,7 +228,7 @@ false
 monitor
 )
 ;
-wait
+onDomUpdated
 =
 waitForDOM
 (
@@ -267,7 +267,7 @@ item
 )
 ;
 await
-wait
+onDomUpdated
 ;
 const
 noOfVisibleRowsAfterCollapse

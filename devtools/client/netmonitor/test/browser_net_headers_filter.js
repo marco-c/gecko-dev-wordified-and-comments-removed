@@ -80,8 +80,8 @@ false
 )
 )
 ;
-let
-wait
+const
+onNetworkEvents
 =
 waitForNetworkEvents
 (
@@ -95,9 +95,10 @@ reloadSelectedTab
 )
 ;
 await
-wait
+onNetworkEvents
 ;
-wait
+const
+onHeadersOverview
 =
 waitUntil
 (
@@ -139,7 +140,7 @@ item
 )
 ;
 await
-wait
+onHeadersOverview
 ;
 await
 waitForRequestData

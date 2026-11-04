@@ -194,7 +194,7 @@ false
 )
 ;
 const
-wait
+onNetworkEvents
 =
 waitForNetworkEvents
 (
@@ -217,7 +217,7 @@ false
 )
 ;
 await
-wait
+onNetworkEvents
 ;
 const
 firstItem

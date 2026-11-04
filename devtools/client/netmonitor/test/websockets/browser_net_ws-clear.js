@@ -165,7 +165,7 @@ requests
 )
 ;
 let
-wait
+onDomUpdated
 =
 waitForDOM
 (
@@ -208,7 +208,7 @@ response
 )
 ;
 await
-wait
+onDomUpdated
 ;
 const
 frames
@@ -308,7 +308,7 @@ visible
 "
 )
 ;
-wait
+onDomUpdated
 =
 waitForDOM
 (
@@ -343,7 +343,7 @@ requests
 )
 ;
 await
-wait
+onDomUpdated
 ;
 const
 secondRequestFrames

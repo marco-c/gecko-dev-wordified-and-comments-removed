@@ -94,7 +94,7 @@ test
 "
 ;
 const
-wait
+onNetworkEvents
 =
 waitForNetworkEvents
 (
@@ -133,7 +133,7 @@ url
 )
 ;
 await
-wait
+onNetworkEvents
 ;
 const
 searchButton
@@ -186,7 +186,7 @@ click
 )
 ;
 await
-waitForDOMIfNeeded
+waitForDOM
 (
 document
 "
@@ -327,7 +327,7 @@ KEY_Enter
 )
 ;
 await
-waitForDOMIfNeeded
+waitForDOM
 (
 document
 "

@@ -159,7 +159,7 @@ assertNoRequestState
 )
 ;
 let
-wait
+onNetworkEvents
 =
 waitForNetworkEvents
 (
@@ -173,7 +173,7 @@ reloadSelectedTab
 )
 ;
 await
-wait
+onNetworkEvents
 ;
 assertSingleRequestState
 (
@@ -398,7 +398,7 @@ netmonitor
 "
 )
 ;
-wait
+onNetworkEvents
 =
 waitForNetworkEvents
 (
@@ -412,7 +412,7 @@ reloadSelectedTab
 )
 ;
 await
-wait
+onNetworkEvents
 ;
 assertSingleRequestState
 (

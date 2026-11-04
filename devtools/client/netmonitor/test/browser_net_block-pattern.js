@@ -191,7 +191,7 @@ test4
 "
 ;
 let
-wait
+onNetworkEvents
 =
 waitForNetworkEvents
 (
@@ -320,7 +320,7 @@ url
 )
 ;
 await
-wait
+onNetworkEvents
 ;
 await
 waitForDOM
@@ -486,7 +486,7 @@ menu
 "
 )
 ;
-wait
+onNetworkEvents
 =
 waitForNetworkEvents
 (
@@ -525,7 +525,7 @@ url
 )
 ;
 await
-wait
+onNetworkEvents
 ;
 await
 waitForDOM

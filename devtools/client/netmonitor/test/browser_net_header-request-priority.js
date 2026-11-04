@@ -78,7 +78,7 @@ await
 waitReq
 ;
 const
-wait
+onSummaryLabel
 =
 waitUntil
 (
@@ -125,7 +125,7 @@ item
 )
 ;
 await
-wait
+onSummaryLabel
 ;
 const
 requestPriorityHeaderExists

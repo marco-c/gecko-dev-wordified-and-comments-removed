@@ -128,7 +128,7 @@ false
 )
 ;
 let
-wait
+onNetworkEvents
 =
 waitForNetworkEvents
 (
@@ -147,7 +147,7 @@ HSTS_SJS
 )
 ;
 await
-wait
+onNetworkEvents
 ;
 const
 requests
@@ -317,7 +317,7 @@ items
 )
 ;
 }
-wait
+onNetworkEvents
 =
 waitForNetworkEvents
 (
@@ -339,7 +339,7 @@ reset
 )
 ;
 await
-wait
+onNetworkEvents
 ;
 await
 teardown
@@ -460,7 +460,7 @@ false
 )
 ;
 let
-wait
+onNetworkEvents
 =
 waitForNetworkEvents
 (
@@ -477,7 +477,7 @@ HSTS_SJS
 )
 ;
 await
-wait
+onNetworkEvents
 ;
 await
 waitUntil
@@ -717,7 +717,7 @@ request
 "
 )
 ;
-wait
+onNetworkEvents
 =
 waitForNetworkEvents
 (
@@ -739,7 +739,7 @@ reset
 )
 ;
 await
-wait
+onNetworkEvents
 ;
 await
 teardown

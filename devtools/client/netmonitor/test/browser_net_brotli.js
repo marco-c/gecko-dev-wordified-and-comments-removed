@@ -219,7 +219,7 @@ title
 )
 ;
 await
-waitForDOMIfNeeded
+waitForDOM
 (
 requestItem
 "
@@ -322,7 +322,7 @@ true
 )
 ;
 const
-wait
+onDomUpdated
 =
 waitForDOM
 (
@@ -371,7 +371,7 @@ response
 )
 ;
 await
-wait
+onDomUpdated
 ;
 await
 onResponseContent

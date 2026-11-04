@@ -90,7 +90,7 @@ tab
 )
 ;
 const
-wait
+onDomUpdated
 =
 waitForDOM
 (
@@ -124,7 +124,7 @@ item
 )
 ;
 await
-wait
+onDomUpdated
 ;
 clickOnSidebarTab
 (

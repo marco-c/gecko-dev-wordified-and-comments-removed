@@ -47,7 +47,7 @@ monitor
 panelWin
 ;
 const
-wait
+onNetworkEvents
 =
 waitForNetworkEvents
 (
@@ -61,7 +61,7 @@ reloadSelectedTab
 )
 ;
 await
-wait
+onNetworkEvents
 ;
 const
 waitForTab
@@ -491,7 +491,7 @@ monitor
 panelWin
 ;
 const
-wait
+onNetworkEvents
 =
 waitForNetworkEvents
 (
@@ -505,7 +505,7 @@ reloadSelectedTab
 )
 ;
 await
-wait
+onNetworkEvents
 ;
 const
 waitForTab

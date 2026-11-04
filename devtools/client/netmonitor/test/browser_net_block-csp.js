@@ -193,7 +193,7 @@ false
 )
 ;
 const
-wait
+onNetworkEvents
 =
 waitForNetworkEvents
 (
@@ -220,7 +220,7 @@ netmonitor
 )
 ;
 await
-wait
+onNetworkEvents
 ;
 const
 displayedRequests

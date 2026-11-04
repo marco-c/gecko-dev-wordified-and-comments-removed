@@ -213,8 +213,8 @@ false
 )
 )
 ;
-let
-wait
+const
+onNetworkEvents
 =
 waitForNetworkEvents
 (
@@ -268,7 +268,7 @@ true
 )
 ;
 await
-wait
+onNetworkEvents
 ;
 const
 firstItem
@@ -335,7 +335,8 @@ request
 "
 )
 ;
-wait
+const
+onDomUpdated
 =
 waitForDOM
 (
@@ -354,7 +355,7 @@ firstItem
 )
 ;
 await
-wait
+onDomUpdated
 ;
 await
 waitForRequestData

@@ -212,7 +212,7 @@ await
 onNetMonitor
 ;
 const
-wait
+onNetworkEvents
 =
 waitForNetworkEvents
 (
@@ -226,7 +226,7 @@ reloadSelectedTab
 )
 ;
 await
-wait
+onNetworkEvents
 ;
 await
 performRequests
@@ -353,7 +353,7 @@ title
 )
 ;
 await
-waitForDOMIfNeeded
+waitForDOM
 (
 requestItem
 "

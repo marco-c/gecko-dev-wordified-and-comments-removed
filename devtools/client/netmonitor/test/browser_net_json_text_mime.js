@@ -299,7 +299,7 @@ true
 )
 ;
 let
-wait
+onDomUpdated
 =
 waitForDOM
 (
@@ -360,7 +360,7 @@ Promise
 all
 (
 [
-wait
+onDomUpdated
 waitForPropsView
 ]
 )
@@ -369,7 +369,7 @@ testJsonSectionInResponseTab
 (
 )
 ;
-wait
+onDomUpdated
 =
 waitForDOM
 (
@@ -422,7 +422,7 @@ monitor
 )
 ;
 await
-wait
+onDomUpdated
 ;
 testResponseTab
 (
@@ -441,7 +441,7 @@ checked
 "
 )
 ;
-wait
+onDomUpdated
 =
 waitForDOM
 (
@@ -479,7 +479,7 @@ documentGlobal
 )
 ;
 await
-wait
+onDomUpdated
 ;
 ok
 (

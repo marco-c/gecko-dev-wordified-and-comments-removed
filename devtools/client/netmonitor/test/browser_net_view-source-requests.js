@@ -105,12 +105,17 @@ false
 )
 ;
 const
-wait
+onNetworkEvents
 =
 waitForNetworkEvents
 (
 monitor
 1
+{
+expectedEventTimings
+:
+1
+}
 )
 ;
 await
@@ -119,7 +124,7 @@ reloadSelectedTab
 )
 ;
 await
-wait
+onNetworkEvents
 ;
 is
 (

@@ -1106,7 +1106,7 @@ title
 )
 ;
 await
-waitForDOMIfNeeded
+waitForDOM
 (
 requestListItem
 "
@@ -1751,7 +1751,7 @@ true
 )
 ;
 const
-wait
+onNetworkEvents
 =
 waitForNetworkEvents
 (
@@ -1765,7 +1765,7 @@ reloadSelectedTab
 )
 ;
 await
-wait
+onNetworkEvents
 ;
 const
 requestItem

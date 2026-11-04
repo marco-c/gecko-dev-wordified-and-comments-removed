@@ -199,7 +199,7 @@ title
 )
 ;
 await
-waitForDOMIfNeeded
+waitForDOM
 (
 requestItem
 "
@@ -281,7 +281,7 @@ utf
 )
 ;
 const
-wait
+onDomUpdated
 =
 waitForDOM
 (
@@ -318,7 +318,7 @@ response
 )
 ;
 await
-wait
+onDomUpdated
 ;
 const
 tabpanel

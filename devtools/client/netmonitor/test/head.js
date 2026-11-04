@@ -7103,7 +7103,7 @@ count
 )
 {
 const
-wait
+onNetworkEvents
 =
 waitForNetworkEvents
 (
@@ -7139,7 +7139,7 @@ requestCount
 )
 ;
 await
-wait
+onNetworkEvents
 ;
 }
 function
@@ -8429,7 +8429,7 @@ monitor
 panelWin
 ;
 const
-wait
+onUrlPreviewToggled
 =
 waitUntil
 (
@@ -8510,7 +8510,7 @@ monitor
 )
 ;
 return
-wait
+onUrlPreviewToggled
 ;
 }
 async

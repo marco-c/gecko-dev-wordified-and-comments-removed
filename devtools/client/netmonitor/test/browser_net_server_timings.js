@@ -70,8 +70,8 @@ false
 )
 )
 ;
-let
-wait
+const
+onNetworkEvents
 =
 waitForNetworkEvents
 (
@@ -110,7 +110,7 @@ url
 )
 ;
 await
-wait
+onNetworkEvents
 ;
 const
 timingsSelector
@@ -130,7 +130,8 @@ container
 server
 "
 ;
-wait
+const
+onDomUpdated
 =
 waitForDOM
 (
@@ -177,7 +178,7 @@ timings
 )
 ;
 await
-wait
+onDomUpdated
 ;
 const
 timings

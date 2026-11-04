@@ -587,7 +587,7 @@ tab
 )
 {
 const
-wait
+onNetworkEvents
 =
 waitForNetworkEvents
 (
@@ -622,6 +622,6 @@ performLargePostDataRequest
 )
 ;
 await
-wait
+onNetworkEvents
 ;
 }

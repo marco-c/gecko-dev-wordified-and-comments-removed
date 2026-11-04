@@ -107,7 +107,7 @@ false
 )
 ;
 const
-wait
+onNetworkEvents
 =
 waitForNetworkEvents
 (
@@ -145,7 +145,7 @@ null
 )
 ;
 await
-wait
+onNetworkEvents
 ;
 const
 milDivs

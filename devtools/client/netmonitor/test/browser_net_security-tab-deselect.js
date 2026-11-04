@@ -92,8 +92,8 @@ requests
 "
 )
 ;
-let
-wait
+const
+onNetworkEvents
 =
 waitForNetworkEvents
 (
@@ -169,7 +169,7 @@ url
 )
 ;
 await
-wait
+onNetworkEvents
 ;
 info
 (
@@ -184,7 +184,8 @@ visible
 "
 )
 ;
-wait
+const
+onDomUpdated
 =
 waitForDOM
 (
@@ -228,7 +229,7 @@ item
 )
 ;
 await
-wait
+onDomUpdated
 ;
 info
 (

@@ -90,7 +90,7 @@ tab
 )
 ;
 const
-wait
+onSummaryLabel
 =
 waitUntil
 (
@@ -137,7 +137,7 @@ item
 )
 ;
 await
-wait
+onSummaryLabel
 ;
 const
 referrerPolicyIndex

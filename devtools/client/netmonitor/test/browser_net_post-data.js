@@ -434,7 +434,7 @@ true
 )
 ;
 const
-wait
+onDomUpdated
 =
 waitForDOM
 (
@@ -490,7 +490,7 @@ request
 )
 ;
 await
-wait
+onDomUpdated
 ;
 await
 testParamsTab

@@ -177,7 +177,7 @@ request
 )
 ;
 const
-wait
+onDomUpdated
 =
 waitForDOM
 (
@@ -220,7 +220,7 @@ response
 )
 ;
 await
-wait
+onDomUpdated
 ;
 const
 frames

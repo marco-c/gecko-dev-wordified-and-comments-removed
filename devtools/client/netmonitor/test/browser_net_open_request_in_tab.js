@@ -1239,7 +1239,7 @@ payload
 )
 {
 const
-wait
+onNetworkEvents
 =
 waitForNetworkEvents
 (
@@ -1287,7 +1287,7 @@ payload_
 )
 ;
 await
-wait
+onNetworkEvents
 ;
 info
 (

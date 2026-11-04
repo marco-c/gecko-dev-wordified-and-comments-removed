@@ -80,7 +80,7 @@ false
 )
 ;
 const
-wait
+onNetworkEvents
 =
 waitForNetworkEvents
 (
@@ -94,7 +94,7 @@ reloadSelectedTab
 )
 ;
 await
-wait
+onNetworkEvents
 ;
 await
 verifyHeaders
@@ -152,7 +152,7 @@ sorted
 )
 ;
 const
-wait
+onDomUpdated
 =
 waitForDOM
 (
@@ -186,7 +186,7 @@ item
 )
 ;
 await
-wait
+onDomUpdated
 ;
 await
 waitForRequestData

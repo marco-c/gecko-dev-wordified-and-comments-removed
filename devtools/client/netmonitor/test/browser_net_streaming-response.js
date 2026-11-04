@@ -136,8 +136,8 @@ xml
 ]
 ]
 ;
-let
-wait
+const
+onNetworkEvents
 =
 waitForNetworkEvents
 (
@@ -206,7 +206,7 @@ url
 ;
 }
 await
-wait
+onNetworkEvents
 ;
 const
 requestItems
@@ -281,7 +281,7 @@ title
 )
 ;
 await
-waitForDOMIfNeeded
+waitForDOM
 (
 requestItem
 "
@@ -362,7 +362,8 @@ OK
 )
 ;
 }
-wait
+const
+onDomUpdated
 =
 waitForDOM
 (
@@ -395,7 +396,7 @@ response
 )
 ;
 await
-wait
+onDomUpdated
 ;
 store
 .

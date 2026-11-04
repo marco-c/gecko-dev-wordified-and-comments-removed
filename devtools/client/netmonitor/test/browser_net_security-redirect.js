@@ -84,7 +84,7 @@ false
 )
 ;
 const
-wait
+onNetworkEvents
 =
 waitForNetworkEvents
 (
@@ -123,7 +123,7 @@ url
 )
 ;
 await
-wait
+onNetworkEvents
 ;
 is
 (

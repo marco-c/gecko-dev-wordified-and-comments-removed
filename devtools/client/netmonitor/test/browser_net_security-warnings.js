@@ -134,8 +134,8 @@ test
 uri
 )
 ;
-let
-wait
+const
+onNetworkEvents
 =
 waitForNetworkEvents
 (
@@ -176,7 +176,7 @@ url
 )
 ;
 await
-wait
+onNetworkEvents
 ;
 info
 (
@@ -191,7 +191,8 @@ visible
 "
 )
 ;
-wait
+let
+onDomUpdated
 =
 waitForDOM
 (
@@ -235,7 +236,7 @@ item
 )
 ;
 await
-wait
+onDomUpdated
 ;
 if
 (
@@ -270,7 +271,7 @@ Tab
 "
 )
 ;
-wait
+onDomUpdated
 =
 waitForDOM
 (
@@ -296,7 +297,7 @@ security
 )
 ;
 await
-wait
+onDomUpdated
 ;
 }
 is

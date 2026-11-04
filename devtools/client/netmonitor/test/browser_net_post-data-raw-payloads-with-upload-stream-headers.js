@@ -543,7 +543,7 @@ expected
 )
 {
 let
-wait
+onDomUpdated
 =
 waitForDOM
 (
@@ -570,7 +570,7 @@ headers
 )
 ;
 await
-wait
+onDomUpdated
 ;
 let
 tabpanel
@@ -829,7 +829,7 @@ stream
 "
 )
 ;
-wait
+onDomUpdated
 =
 waitForDOM
 (
@@ -875,7 +875,7 @@ click
 )
 ;
 await
-wait
+onDomUpdated
 ;
 const
 rawTextArea
@@ -939,7 +939,7 @@ panel
 "
 )
 ;
-wait
+onDomUpdated
 =
 waitForDOM
 (
@@ -965,7 +965,7 @@ request
 )
 ;
 await
-wait
+onDomUpdated
 ;
 tabpanel
 =

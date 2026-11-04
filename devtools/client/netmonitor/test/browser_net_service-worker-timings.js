@@ -187,7 +187,8 @@ service
 worker
 "
 ;
-wait
+const
+onDomUpdated
 =
 waitForDOM
 (
@@ -234,7 +235,7 @@ timings
 )
 ;
 await
-wait
+onDomUpdated
 ;
 const
 timings

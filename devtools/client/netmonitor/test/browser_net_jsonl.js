@@ -234,7 +234,7 @@ payload
 )
 ;
 const
-wait
+onDomUpdated
 =
 waitForDOM
 (
@@ -282,7 +282,7 @@ monitor
 )
 ;
 await
-wait
+onDomUpdated
 ;
 ok
 (
@@ -885,7 +885,7 @@ tab
 )
 ;
 const
-wait
+onDomUpdated
 =
 waitForDOM
 (
@@ -923,7 +923,7 @@ response
 )
 ;
 await
-wait
+onDomUpdated
 ;
 return
 {

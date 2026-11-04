@@ -958,7 +958,7 @@ tab
 )
 {
 const
-wait
+onNetworkEvents
 =
 waitForNetworkEvents
 (
@@ -993,6 +993,6 @@ performEarlyHintRequest
 )
 ;
 await
-wait
+onNetworkEvents
 ;
 }

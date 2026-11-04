@@ -218,7 +218,7 @@ request
 )
 ;
 let
-wait
+onDomUpdated
 =
 waitForDOM
 (
@@ -261,7 +261,7 @@ response
 )
 ;
 await
-wait
+onDomUpdated
 ;
 const
 frames
@@ -481,7 +481,7 @@ displayed
 "
 )
 ;
-wait
+onDomUpdated
 =
 waitForDOM
 (
@@ -528,7 +528,7 @@ monitor
 )
 ;
 await
-wait
+onDomUpdated
 ;
 is
 (

@@ -249,7 +249,7 @@ url
 )
 {
 const
-wait
+onNetworkEvents
 =
 waitForNetworkEvents
 (
@@ -292,7 +292,7 @@ url
 )
 ;
 return
-wait
+onNetworkEvents
 ;
 }
 async
