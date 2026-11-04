@@ -3655,6 +3655,17 @@ bool
 aWillCallback
 )
 ;
+bool
+NS_WillUpgradeInsecureRequest
+(
+nsIURI
+*
+aURI
+nsILoadInfo
+*
+aLoadInfo
+)
+;
 nsresult
 NS_GetSecureUpgradedURI
 (

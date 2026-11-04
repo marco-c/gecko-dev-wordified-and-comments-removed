@@ -222,10 +222,17 @@ if
 (
 aFlags
 &
+(
 nsIChannelEventSink
 :
 :
 REDIRECT_INTERNAL
+|
+nsIChannelEventSink
+:
+:
+REDIRECT_STS_UPGRADE
+)
 )
 {
 return
