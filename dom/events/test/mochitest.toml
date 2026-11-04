@@ -244,6 +244,13 @@ os_integration
 "
 [
 "
+test_accesskey_visibility_content
+.
+html
+"
+]
+[
+"
 test_addEventListenerExtraArg
 .
 html
