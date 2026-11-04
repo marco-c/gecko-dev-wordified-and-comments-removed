@@ -1523,14 +1523,6 @@ HTTP_STATUS_AND_STATUS_TEXT
 [
     
 (
-101
-"
-Switching
-Protocols
-"
-)
-    
-(
 200
 "
 OK
@@ -1684,15 +1676,6 @@ Allowed
 "
 Not
 Acceptable
-"
-)
-    
-(
-407
-"
-Proxy
-Authentication
-Required
 "
 )
     
