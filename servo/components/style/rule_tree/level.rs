@@ -1564,16 +1564,6 @@ mut
 self
 )
 {
-debug_assert_ne
-!
-(
-self
-.
-0
--
-1
-)
-;
 if
 self
 .
