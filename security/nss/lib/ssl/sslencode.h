@@ -303,6 +303,14 @@ sslBuffer
 b
 )
 ;
+void
+sslBuffer_ZeroClear
+(
+sslBuffer
+*
+b
+)
+;
 SECStatus
 ssl3_AppendHandshake
 (
