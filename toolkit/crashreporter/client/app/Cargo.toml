@@ -253,6 +253,11 @@ rand
 .
 5
 "
+regex
+=
+"
+1
+"
 serde
 =
 {

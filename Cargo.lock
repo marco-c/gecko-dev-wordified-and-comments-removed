@@ -7772,6 +7772,9 @@ phf_codegen
 rand
 "
 "
+regex
+"
+"
 serde
 "
 "
