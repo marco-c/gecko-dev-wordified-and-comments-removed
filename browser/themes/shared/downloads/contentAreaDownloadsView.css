@@ -83,7 +83,14 @@ contentAreaDownloadsView
 {
 padding
 :
-18px
+var
+(
+-
+-
+space
+-
+xlarge
+)
 ;
 }
 #
