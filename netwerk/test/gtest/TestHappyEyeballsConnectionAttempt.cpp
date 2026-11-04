@@ -1163,6 +1163,8 @@ HttpConnectionBase
 *
 bool
 bool
+ConnectionEntry
+*
 )
 override
 {

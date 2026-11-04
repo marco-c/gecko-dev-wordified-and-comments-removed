@@ -219,7 +219,7 @@ nsIWebTransportHash
 aServerCertHashes
 )
 ;
-void
+bool
 MoveToWildCardConnEntry
 (
 nsHttpConnectionInfo
@@ -310,6 +310,11 @@ bool
 usingSpdy
 bool
 disallowHttp3
+ConnectionEntry
+*
+entry
+=
+nullptr
 )
 ;
 already_AddRefed
