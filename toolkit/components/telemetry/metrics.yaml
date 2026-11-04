@@ -694,6 +694,17 @@ com
 expires
 :
 never
+send_in_pings
+:
+-
+metrics
+-
+events
+#
+Temporary
+until
+bug
+2087139
 session_start_date
 :
 type
