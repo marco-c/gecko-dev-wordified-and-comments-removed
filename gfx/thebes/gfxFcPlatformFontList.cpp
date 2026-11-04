@@ -11876,7 +11876,6 @@ gfxOTSContext
 otsContext
 (
 true
-true
 )
 ;
 if
