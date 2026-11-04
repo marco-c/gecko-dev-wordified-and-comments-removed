@@ -87,6 +87,15 @@ toml
 "
 test
 /
+perf
+/
+perftest
+.
+toml
+"
+"
+test
+/
 perftest
 .
 toml
