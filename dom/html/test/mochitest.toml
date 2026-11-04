@@ -1099,6 +1099,13 @@ html
 ]
 [
 "
+test_disabled_focus
+.
+html
+"
+]
+[
+"
 test_dl_attributes_reflection
 .
 html

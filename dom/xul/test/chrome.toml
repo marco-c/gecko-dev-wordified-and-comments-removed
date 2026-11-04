@@ -151,6 +151,13 @@ xhtml
 ]
 [
 "
+test_xul_disabled_focus
+.
+xhtml
+"
+]
+[
+"
 test_xul_tabindex_focus
 .
 xhtml

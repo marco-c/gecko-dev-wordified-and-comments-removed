@@ -52,6 +52,12 @@ IgnoreVisibility
 <
 <
 1
+IgnoreDisabled
+=
+1
+<
+<
+2
 }
 ;
 MOZ_MAKE_ENUM_CLASS_BITWISE_OPERATORS
