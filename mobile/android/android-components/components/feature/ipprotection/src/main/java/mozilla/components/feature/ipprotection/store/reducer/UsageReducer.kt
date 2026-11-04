@@ -75,6 +75,8 @@ feature
 ipprotection
 .
 store
+.
+reducer
 import
 kotlin
 .
@@ -87,6 +89,18 @@ mozilla
 components
 .
 ExperimentalAndroidComponentsApi
+import
+mozilla
+.
+components
+.
+feature
+.
+ipprotection
+.
+store
+.
+IPProtectionAction
 import
 mozilla
 .
@@ -188,10 +202,6 @@ usage
 items
 in
 [
-IPProtectionAction
-.
-UsageAction
-.
 UsageChanged
 ]
 to
@@ -201,7 +211,6 @@ UsageQuota
 .
 When
 either
-*
 [
 remaining
 ]
@@ -212,6 +221,7 @@ max
 is
 negative
 the
+*
 quota
 information
 is

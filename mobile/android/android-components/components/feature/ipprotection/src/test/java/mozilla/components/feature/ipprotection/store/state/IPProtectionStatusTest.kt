@@ -104,6 +104,8 @@ feature
 .
 ipprotection
 .
+storage
+.
 buildIPProtectionState
 import
 org

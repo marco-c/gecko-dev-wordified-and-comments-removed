@@ -73,6 +73,8 @@ components
 feature
 .
 ipprotection
+.
+storage
 import
 kotlinx
 .
@@ -107,18 +109,6 @@ engine
 ipprotection
 .
 ServiceState
-import
-mozilla
-.
-components
-.
-feature
-.
-ipprotection
-.
-storage
-.
-IPProtectionEligibilityStorage
 import
 mozilla
 .

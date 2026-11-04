@@ -75,6 +75,8 @@ feature
 ipprotection
 .
 store
+.
+reducer
 import
 mozilla
 .
@@ -93,6 +95,18 @@ engine
 ipprotection
 .
 ServiceState
+import
+mozilla
+.
+components
+.
+feature
+.
+ipprotection
+.
+store
+.
+IPProtectionAction
 import
 mozilla
 .

@@ -65,7 +65,7 @@ feature
 .
 ipprotection
 .
-store
+storage
 import
 android
 .
