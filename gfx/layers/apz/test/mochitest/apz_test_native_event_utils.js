@@ -7061,7 +7061,7 @@ getPlatform
 if
 (
 !
-window
+this
 .
 hasOwnProperty
 (
@@ -7075,7 +7075,7 @@ Object
 .
 defineProperty
 (
-window
+this
 "
 NativePanHandler
 "
