@@ -642,6 +642,11 @@ true
 engine
 =
 searchEngine
+accessPoint
+=
+"
+widget
+"
 )
 }
 }
