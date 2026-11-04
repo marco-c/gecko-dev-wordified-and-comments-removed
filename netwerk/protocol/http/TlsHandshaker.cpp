@@ -1284,6 +1284,10 @@ mNPNComplete
 =
 true
 ;
+mEarlyDataLimitReached
+=
+false
+;
 mOwner
 -
 >
