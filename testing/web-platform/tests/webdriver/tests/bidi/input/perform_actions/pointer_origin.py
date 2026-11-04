@@ -1321,6 +1321,12 @@ context
 await_promise
 =
 False
+        
+result_ownership
+=
+"
+root
+"
     
 )
     

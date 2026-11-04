@@ -620,6 +620,7 @@ events
 >
 0
     
+assert
 events
 [
 0
