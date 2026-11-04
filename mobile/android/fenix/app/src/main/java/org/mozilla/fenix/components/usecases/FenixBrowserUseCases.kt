@@ -77,7 +77,7 @@ state
 .
 search
 .
-DEFAULT_SEARCH_ACCESS_POINT
+SearchAccessPoint
 import
 mozilla
 .
@@ -585,7 +585,9 @@ accessPoint
 :
 String
 =
-DEFAULT_SEARCH_ACCESS_POINT
+SearchAccessPoint
+.
+DEFAULT
 )
 {
 val

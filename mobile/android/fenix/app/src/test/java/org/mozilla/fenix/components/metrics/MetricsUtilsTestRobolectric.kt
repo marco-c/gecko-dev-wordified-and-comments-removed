@@ -101,7 +101,7 @@ state
 .
 search
 .
-DEFAULT_SEARCH_ACCESS_POINT
+SearchAccessPoint
 import
 mozilla
 .
@@ -2217,7 +2217,9 @@ accessPoints
 returns
 mapOf
 (
-DEFAULT_SEARCH_ACCESS_POINT
+SearchAccessPoint
+.
+DEFAULT
 to
 SearchEngineAccessPoint
 (
@@ -2416,7 +2418,9 @@ accessPoints
 returns
 mapOf
 (
-DEFAULT_SEARCH_ACCESS_POINT
+SearchAccessPoint
+.
+DEFAULT
 to
 SearchEngineAccessPoint
 (

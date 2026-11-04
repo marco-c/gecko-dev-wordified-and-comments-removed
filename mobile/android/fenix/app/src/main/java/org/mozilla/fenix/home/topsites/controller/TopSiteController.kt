@@ -205,7 +205,7 @@ state
 .
 search
 .
-SearchEngine
+SearchAccessPoint
 import
 mozilla
 .
@@ -217,7 +217,7 @@ state
 .
 search
 .
-TOPSITE_SEARCH_ACCESS_POINT
+SearchEngine
 import
 mozilla
 .
@@ -2848,7 +2848,9 @@ GOOGLE_URL
 .
 accessPoint
 (
-TOPSITE_SEARCH_ACCESS_POINT
+SearchAccessPoint
+.
+TOPSITE
 )
 ?
 .

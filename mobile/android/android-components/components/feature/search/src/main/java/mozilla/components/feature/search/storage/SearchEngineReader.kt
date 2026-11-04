@@ -219,7 +219,7 @@ state
 .
 search
 .
-DEFAULT_SEARCH_ACCESS_POINT
+SearchAccessPoint
 import
 mozilla
 .
@@ -2037,7 +2037,9 @@ details
 of
 the
 [
-DEFAULT_SEARCH_ACCESS_POINT
+SearchAccessPoint
+.
+DEFAULT
 ]
 access
 point
@@ -2047,8 +2049,8 @@ partner
 code
 and
 telemetry
-*
 suffix
+*
 which
 search
 -
@@ -2159,7 +2161,9 @@ partner
 .
 get
 (
-DEFAULT_SEARCH_ACCESS_POINT
+SearchAccessPoint
+.
+DEFAULT
 )
 val
 builder
@@ -2322,7 +2326,9 @@ applyUrls
 (
 accessPoints
 [
-DEFAULT_SEARCH_ACCESS_POINT
+SearchAccessPoint
+.
+DEFAULT
 ]
 ?
 :

@@ -189,7 +189,7 @@ state
 .
 search
 .
-DEFAULT_SEARCH_ACCESS_POINT
+DefaultSearchEngineProvider
 import
 mozilla
 .
@@ -201,7 +201,7 @@ state
 .
 search
 .
-DefaultSearchEngineProvider
+SearchAccessPoint
 import
 mozilla
 .
@@ -2715,7 +2715,9 @@ accessPoint
 :
 String
 =
-DEFAULT_SEARCH_ACCESS_POINT
+SearchAccessPoint
+.
+DEFAULT
 )
 {
 navController
