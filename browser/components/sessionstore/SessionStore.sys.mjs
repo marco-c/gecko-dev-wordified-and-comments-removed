@@ -30284,14 +30284,6 @@ closedGroups
 }
 }
 else
-if
-(
-sourceOptions
-.
-sourceWindow
-.
-closedGroups
-)
 {
 closedTabGroups
 .

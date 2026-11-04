@@ -1327,6 +1327,13 @@ js
 ]
 [
 "
+browser_tab_groups_closed_groups_source_window
+.
+js
+"
+]
+[
+"
 browser_tab_groups_empty
 .
 js
