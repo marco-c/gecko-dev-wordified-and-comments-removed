@@ -78,7 +78,7 @@ include
 shared
 flat
 varying
-mediump
+highp
 vec4
 v_uv0_sample_bounds
 ;

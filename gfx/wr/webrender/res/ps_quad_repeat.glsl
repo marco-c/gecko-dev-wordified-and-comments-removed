@@ -76,13 +76,13 @@ v_uv
 ;
 flat
 varying
-mediump
+highp
 vec4
 v_uv_sample_bounds
 ;
 flat
 varying
-mediump
+highp
 vec4
 v_uv_bounds
 ;
@@ -186,7 +186,7 @@ local_pos
 -
 info
 .
-local_prim_rect
+pattern_rect
 .
 p0
 )
@@ -195,7 +195,7 @@ rect_size
 (
 info
 .
-local_prim_rect
+pattern_rect
 )
 ;
 /
@@ -243,7 +243,7 @@ rect_size
 (
 info
 .
-local_prim_rect
+pattern_rect
 )
 *
 inv_repeated_size
