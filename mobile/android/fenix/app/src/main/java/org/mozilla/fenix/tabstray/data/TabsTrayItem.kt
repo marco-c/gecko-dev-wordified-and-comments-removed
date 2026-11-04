@@ -540,6 +540,11 @@ MediaSession
 PlaybackState
 .
 PLAYING
+|
+|
+tab
+.
+listenToPageActive
 lastAccess
 =
 tab

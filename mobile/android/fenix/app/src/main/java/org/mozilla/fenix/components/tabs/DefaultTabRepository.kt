@@ -485,6 +485,9 @@ MediaSession
 PlaybackState
 .
 PLAYING
+|
+|
+listenToPageActive
 lastAccess
 =
 lastAccess
