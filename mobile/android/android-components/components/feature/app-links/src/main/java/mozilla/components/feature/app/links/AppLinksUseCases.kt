@@ -127,6 +127,12 @@ Browser
 .
 EXTRA_APPLICATION_ID
 import
+android
+.
+util
+.
+AndroidRuntimeException
+import
 androidx
 .
 annotation
@@ -1902,6 +1908,8 @@ is
 SecurityException
 is
 NullPointerException
+is
+AndroidRuntimeException
 -
 >
 {
