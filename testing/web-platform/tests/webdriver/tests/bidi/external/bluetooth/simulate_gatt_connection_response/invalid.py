@@ -169,6 +169,11 @@ simulate_gatt_connection_response
 context
 =
 top_context
+[
+"
+context
+"
+]
             
 address
 =
@@ -230,6 +235,11 @@ simulate_gatt_connection_response
 context
 =
 top_context
+[
+"
+context
+"
+]
             
 address
 =
