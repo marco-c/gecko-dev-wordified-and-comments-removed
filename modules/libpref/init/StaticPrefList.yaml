@@ -92651,7 +92651,7 @@ type
 RelaxedAtomicBool
 value
 :
-IS_EARLY_BETA_OR_EARLIER
+IS_NIGHTLY_BUILD
 mirror
 :
 always
@@ -101557,7 +101557,7 @@ ifdef
 XP_WIN
 value
 :
-IS_EARLY_BETA_OR_EARLIER
+IS_NIGHTLY_BUILD
 #
 else
 value
@@ -103659,7 +103659,7 @@ type
 RelaxedAtomicBool
 value
 :
-IS_EARLY_BETA_OR_EARLIER
+IS_NIGHTLY_BUILD
 mirror
 :
 always
@@ -106603,7 +106603,7 @@ type
 RelaxedAtomicBool
 value
 :
-IS_EARLY_BETA_OR_EARLIER
+IS_NIGHTLY_BUILD
 mirror
 :
 always
@@ -108844,7 +108844,7 @@ type
 RelaxedAtomicBool
 value
 :
-IS_EARLY_BETA_OR_EARLIER
+IS_NIGHTLY_BUILD
 mirror
 :
 always
@@ -109189,7 +109189,7 @@ type
 RelaxedAtomicBool
 value
 :
-IS_EARLY_BETA_OR_EARLIER
+IS_NIGHTLY_BUILD
 mirror
 :
 always
