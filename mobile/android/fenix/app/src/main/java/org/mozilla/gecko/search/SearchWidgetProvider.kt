@@ -623,6 +623,9 @@ SearchWidgetIntents
 textSearch
 (
 context
+SearchWidgets
+.
+LEGACY_WIDGET_TYPE
 )
 IntentUtils
 .
@@ -665,6 +668,9 @@ SearchWidgetIntents
 maybeVoiceSearch
 (
 context
+SearchWidgets
+.
+LEGACY_WIDGET_TYPE
 )
 ?
 .
@@ -752,6 +758,9 @@ SearchWidgetIntents
 maybeLensSearch
 (
 context
+SearchWidgets
+.
+LEGACY_WIDGET_TYPE
 )
 ?
 .
@@ -1299,6 +1308,8 @@ refresh
 SearchWidgets
 .
 providers
+.
+keys
 .
 forEach
 {
