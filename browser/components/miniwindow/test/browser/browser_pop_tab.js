@@ -1431,7 +1431,7 @@ tabs
 1
 ]
 .
-documentGlobal
+ownerGlobal
 window
 "
 the
@@ -1566,7 +1566,7 @@ addToMultiSelectedTabs
 (
 tabs
 [
-0
+1
 ]
 )
 ;
