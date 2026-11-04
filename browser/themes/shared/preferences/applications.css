@@ -352,14 +352,9 @@ appHandlerIcon
 {
 padding
 -
-top
+block
 :
 1px
-;
-padding
--
-bottom
-:
 3px
 ;
 }

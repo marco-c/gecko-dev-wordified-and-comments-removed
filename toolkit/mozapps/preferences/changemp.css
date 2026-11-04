@@ -283,7 +283,9 @@ none
 ;
 margin
 -
-top
+block
+-
+start
 :
 var
 (
@@ -391,7 +393,9 @@ weight
 ;
 padding
 -
-top
+block
+-
+start
 :
 var
 (

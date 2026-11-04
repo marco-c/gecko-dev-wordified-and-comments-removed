@@ -143,7 +143,11 @@ position
 :
 absolute
 ;
-bottom
+inset
+-
+block
+-
+end
 :
 0
 ;
@@ -205,7 +209,9 @@ label
 {
 margin
 -
-bottom
+block
+-
+end
 :
 var
 (
@@ -316,8 +322,6 @@ var
 -
 input
 -
-text
--
 min
 -
 height
@@ -330,8 +334,6 @@ var
 -
 -
 input
--
-text
 -
 border
 )

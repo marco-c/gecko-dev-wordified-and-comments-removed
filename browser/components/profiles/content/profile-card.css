@@ -430,7 +430,9 @@ details
 {
 border
 -
-top
+block
+-
+start
 :
 var
 (
@@ -715,7 +717,9 @@ large
 ;
 border
 -
-top
+block
+-
+start
 :
 var
 (
