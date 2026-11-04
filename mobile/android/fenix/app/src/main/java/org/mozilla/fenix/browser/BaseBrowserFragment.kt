@@ -10123,11 +10123,14 @@ appStore
 requireComponents
 .
 appStore
-surface
+surfaces
 =
+listOf
+(
 FenixMessageSurfaceId
 .
 MICROSURVEY
+)
 )
 messagingFeatureMicrosurvey
 .
