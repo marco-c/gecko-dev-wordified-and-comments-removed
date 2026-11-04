@@ -6077,20 +6077,6 @@ query_python_path
 (
 )
         
-self
-.
-run_command
-(
-[
-python
-"
--
--
-version
-"
-]
-)
-        
 parser
 =
 TalosOutputParser
