@@ -114,16 +114,6 @@ browser
 .
 smartwindow
 .
-mistralRelease
-"
-false
-]
-[
-"
-browser
-.
-smartwindow
-.
 tos
 .
 consentTime
@@ -367,6 +357,8 @@ window
 model
 -
 fast
+-
+v2
 "
 ]
 '
@@ -672,6 +664,8 @@ window
 model
 -
 fast
+-
+v2
 "
 ]
 '
