@@ -2045,6 +2045,9 @@ travel
 "
 solitaire
 "
+"
+wrexhamAFC
+"
 ]
 )
 ;
@@ -2115,6 +2118,9 @@ travel
 "
 "
 solitaire
+"
+"
+wrexhamAFC
 "
 ]
 )
@@ -2189,6 +2195,9 @@ travel
 "
 "
 solitaire
+"
+"
+wrexhamAFC
 "
 ]
 )
@@ -2325,6 +2334,9 @@ travel
 "
 "
 solitaire
+"
+"
+wrexhamAFC
 "
 ]
 )
@@ -2476,6 +2488,9 @@ travel
 "
 solitaire
 "
+"
+wrexhamAFC
+"
 ]
 )
 ;
@@ -2568,6 +2583,9 @@ travel
 "
 "
 solitaire
+"
+"
+wrexhamAFC
 "
 ]
 )
@@ -2662,6 +2680,9 @@ travel
 "
 "
 solitaire
+"
+"
+wrexhamAFC
 "
 ]
 )
@@ -9435,6 +9456,11 @@ solitaire
 :
 "
 WIDGET_SOLITAIRE
+"
+wrexhamAFC
+:
+"
+WIDGET_WREXHAMAFC
 "
 }
 ;
