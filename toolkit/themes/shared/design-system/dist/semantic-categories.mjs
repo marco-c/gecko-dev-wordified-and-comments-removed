@@ -24641,7 +24641,7 @@ transparent
 prefersContrast
 :
 "
-inherit
+currentColor
 "
 }
 name
@@ -41808,7 +41808,7 @@ transparent
 prefersContrast
 :
 "
-inherit
+currentColor
 "
 }
 "
