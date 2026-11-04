@@ -1349,6 +1349,15 @@ folder
 -
 button
 "
+data
+-
+l10n
+-
+attrs
+=
+"
+accesskey
+"
 ?
 disabled
 =

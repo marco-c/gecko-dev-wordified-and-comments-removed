@@ -60,13 +60,6 @@ js
 ]
 [
 "
-test_accesskey_visibility
-.
-html
-"
-]
-[
-"
 test_DataTransferItemList
 .
 html
