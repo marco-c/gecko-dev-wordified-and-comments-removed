@@ -1702,8 +1702,7 @@ limit
 the
 number
 of
-query
-results
+entries
 .
 When
 that
