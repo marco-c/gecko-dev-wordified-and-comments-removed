@@ -11415,9 +11415,7 @@ PrimitiveKind
 :
 ImageBorder
 {
-data_handle
-.
-.
+handle
 }
 =
 >
@@ -11426,11 +11424,11 @@ let
 border_data
 =
 &
-data_stores
+dl_stores
 .
-image_border
+image_borders
 [
-data_handle
+handle
 ]
 .
 kind
