@@ -36,7 +36,7 @@ holder
 let
 idx
 =
-getAtomMarkIndex
+getAtomRefIndex
 (
 s
 )
@@ -240,7 +240,7 @@ finishgc
 ;
 assertEq
 (
-getAtomMarkColor
+getAtomRefColor
 (
 a
 idx

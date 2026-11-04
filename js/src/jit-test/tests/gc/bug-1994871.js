@@ -41,14 +41,14 @@ gc
 let
 index
 =
-getAtomMarkIndex
+getAtomRefIndex
 (
 s
 )
 ;
 assertEq
 (
-getAtomMarkColor
+getAtomRefColor
 (
 this
 index
@@ -60,7 +60,7 @@ black
 ;
 assertEq
 (
-getAtomMarkColor
+getAtomRefColor
 (
 other
 index
@@ -91,7 +91,7 @@ s
 ;
 assertEq
 (
-getAtomMarkColor
+getAtomRefColor
 (
 other
 index
@@ -126,7 +126,7 @@ gc
 ;
 assertEq
 (
-getAtomMarkColor
+getAtomRefColor
 (
 this
 index
@@ -138,7 +138,7 @@ black
 ;
 assertEq
 (
-getAtomMarkColor
+getAtomRefColor
 (
 other
 index
@@ -175,7 +175,7 @@ gc
 ;
 assertEq
 (
-getAtomMarkColor
+getAtomRefColor
 (
 this
 index
@@ -187,7 +187,7 @@ white
 ;
 assertEq
 (
-getAtomMarkColor
+getAtomRefColor
 (
 other
 index

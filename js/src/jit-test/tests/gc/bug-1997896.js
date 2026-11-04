@@ -135,7 +135,7 @@ s
 let
 i
 =
-getAtomMarkIndex
+getAtomRefIndex
 (
 s
 )
@@ -197,7 +197,7 @@ gray
 ;
 assertEq
 (
-getAtomMarkColor
+getAtomRefColor
 (
 g1
 i
@@ -209,7 +209,7 @@ black
 ;
 assertEq
 (
-getAtomMarkColor
+getAtomRefColor
 (
 g2
 i
@@ -252,7 +252,7 @@ black
 ;
 assertEq
 (
-getAtomMarkColor
+getAtomRefColor
 (
 g1
 i
@@ -264,7 +264,7 @@ black
 ;
 assertEq
 (
-getAtomMarkColor
+getAtomRefColor
 (
 g2
 i
@@ -307,7 +307,7 @@ black
 ;
 assertEq
 (
-getAtomMarkColor
+getAtomRefColor
 (
 g1
 i
@@ -319,7 +319,7 @@ black
 ;
 assertEq
 (
-getAtomMarkColor
+getAtomRefColor
 (
 g2
 i
@@ -381,7 +381,7 @@ black
 ;
 assertEq
 (
-getAtomMarkColor
+getAtomRefColor
 (
 g1
 i
@@ -393,7 +393,7 @@ black
 ;
 assertEq
 (
-getAtomMarkColor
+getAtomRefColor
 (
 g2
 i

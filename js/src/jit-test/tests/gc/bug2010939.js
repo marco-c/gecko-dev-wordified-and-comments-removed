@@ -3,7 +3,7 @@ evalInWorker
 "
 try
 {
-getAtomMarkIndex
+getAtomRefIndex
 (
 '
 '
