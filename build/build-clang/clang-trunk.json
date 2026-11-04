@@ -109,13 +109,6 @@ workaround_clang_21
 patch
 "
 "
-arm64e
--
-hack
-.
-patch
-"
-"
 filter
 -
 symbols_clang_23
