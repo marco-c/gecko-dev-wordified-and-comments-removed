@@ -75,12 +75,17 @@ WebAssemblyCompileOptions
 USVString
 ?
 importedStringConstants
+=
+null
 ;
 sequence
 <
 USVString
 >
 builtins
+=
+[
+]
 ;
 }
 ;

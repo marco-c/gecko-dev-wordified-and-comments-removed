@@ -35,9 +35,8 @@ webref
 /
 Source
 :
-Web
-Serial
-API
+WebSerial
+Standard
 (
 https
 :
@@ -292,10 +291,10 @@ bluetoothServiceClassId
 dictionary
 SerialOptions
 {
+required
 [
 EnforceRange
 ]
-required
 unsigned
 long
 baudRate

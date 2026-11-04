@@ -73,12 +73,12 @@ Promise
 <
 FileSystemFileHandle
 >
-requestFileHandle
+getFileHandle
 (
-CrossOriginStorageRequestFileHandleHash
+CrossOriginStorageGetFileHandleHash
 hash
 optional
-CrossOriginStorageRequestFileHandleOptions
+CrossOriginStorageGetFileHandleOptions
 options
 =
 {
@@ -88,7 +88,7 @@ options
 }
 ;
 dictionary
-CrossOriginStorageRequestFileHandleHash
+CrossOriginStorageGetFileHandleHash
 {
 required
 DOMString
@@ -101,7 +101,7 @@ algorithm
 }
 ;
 dictionary
-CrossOriginStorageRequestFileHandleOptions
+CrossOriginStorageGetFileHandleOptions
 {
 boolean
 create

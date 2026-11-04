@@ -99,6 +99,15 @@ top
 ;
 }
 ;
+dictionary
+ScrollResult
+{
+required
+boolean
+interrupted
+;
+}
+;
 partial
 interface
 Window
@@ -229,7 +238,7 @@ pageYOffset
 ;
 Promise
 <
-undefined
+ScrollResult
 >
 scroll
 (
@@ -243,7 +252,7 @@ options
 ;
 Promise
 <
-undefined
+ScrollResult
 >
 scroll
 (
@@ -257,7 +266,7 @@ y
 ;
 Promise
 <
-undefined
+ScrollResult
 >
 scrollTo
 (
@@ -271,7 +280,7 @@ options
 ;
 Promise
 <
-undefined
+ScrollResult
 >
 scrollTo
 (
@@ -285,7 +294,7 @@ y
 ;
 Promise
 <
-undefined
+ScrollResult
 >
 scrollBy
 (
@@ -299,7 +308,7 @@ options
 ;
 Promise
 <
-undefined
+ScrollResult
 >
 scrollBy
 (
@@ -718,7 +727,7 @@ options
 ;
 Promise
 <
-undefined
+ScrollResult
 >
 scrollIntoView
 (
@@ -736,7 +745,7 @@ arg
 ;
 Promise
 <
-undefined
+ScrollResult
 >
 scroll
 (
@@ -750,7 +759,7 @@ options
 ;
 Promise
 <
-undefined
+ScrollResult
 >
 scroll
 (
@@ -764,7 +773,7 @@ y
 ;
 Promise
 <
-undefined
+ScrollResult
 >
 scrollTo
 (
@@ -778,7 +787,7 @@ options
 ;
 Promise
 <
-undefined
+ScrollResult
 >
 scrollTo
 (
@@ -792,7 +801,7 @@ y
 ;
 Promise
 <
-undefined
+ScrollResult
 >
 scrollBy
 (
@@ -806,7 +815,7 @@ options
 ;
 Promise
 <
-undefined
+ScrollResult
 >
 scrollBy
 (
