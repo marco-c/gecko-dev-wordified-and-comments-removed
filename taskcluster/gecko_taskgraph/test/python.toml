@@ -113,6 +113,13 @@ py
 ]
 [
 "
+test_transforms_fetch
+.
+py
+"
+]
+[
+"
 test_transforms_job
 .
 py
