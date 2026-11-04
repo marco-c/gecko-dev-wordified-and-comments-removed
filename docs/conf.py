@@ -369,20 +369,12 @@ startOnLoad
 False
     
 "
-themeVariables
-"
-:
-{
-        
-"
-fontSize
+fontFamily
 "
 :
 "
-18px
+inherit
 "
-    
-}
     
 "
 flowchart
