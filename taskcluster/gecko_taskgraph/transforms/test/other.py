@@ -3568,6 +3568,12 @@ windows
 "
 {
 }
+cft
+-
+chromedriver
+-
+win64
+/
 chromedriver
 .
 exe
@@ -3580,6 +3586,12 @@ mac
 "
 {
 }
+cft
+-
+chromedriver
+-
+mac
+/
 chromedriver
 "
             
@@ -3590,6 +3602,12 @@ default
 "
 {
 }
+cft
+-
+chromedriver
+-
+linux
+/
 chromedriver
 "
         
