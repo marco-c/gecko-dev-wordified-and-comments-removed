@@ -488,17 +488,17 @@ true
 /
 Use
 the
-semanticdb
+scip
 -
 javac
 and
-semanticdb
+scip
 -
 kotlinc
 plugins
 to
 generate
-semanticdb
+SCIP
 files
 for
 Searchfox
@@ -572,7 +572,7 @@ compileOnly
 "
 libs
 .
-semanticdb
+scip
 .
 java
 )
@@ -583,7 +583,7 @@ testCompileOnly
 "
 libs
 .
-semanticdb
+scip
 .
 java
 )
@@ -594,7 +594,7 @@ androidTestCompileOnly
 "
 libs
 .
-semanticdb
+scip
 .
 java
 )
@@ -605,7 +605,7 @@ kotlinCompilerPluginClasspath
 "
 libs
 .
-semanticdb
+scip
 .
 kotlin
 )
@@ -627,7 +627,7 @@ compilerArgs
 -
 Xplugin
 :
-semanticdb
+scip
 -
 sourceroot
 :
@@ -674,7 +674,7 @@ P
 "
 plugin
 :
-semanticdb
+scip
 -
 kotlinc
 :
@@ -695,7 +695,7 @@ P
 "
 plugin
 :
-semanticdb
+scip
 -
 kotlinc
 :

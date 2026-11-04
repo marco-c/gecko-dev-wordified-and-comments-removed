@@ -1042,7 +1042,7 @@ mozsearch
 java
 /
 kotlin
-semanticdb
+SCIP
 tarball
 .
 .
