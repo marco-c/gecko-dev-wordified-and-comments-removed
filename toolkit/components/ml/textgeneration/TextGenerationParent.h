@@ -120,7 +120,7 @@ ReadyPromise
 =
 MozPromise
 <
-double
+LoadSuccess
 LoadFailure
 true
 >
@@ -267,9 +267,9 @@ mReadyPromise
 ;
 Maybe
 <
-double
+LoadSuccess
 >
-mLoadMs
+mLoaded
 ;
 Maybe
 <
