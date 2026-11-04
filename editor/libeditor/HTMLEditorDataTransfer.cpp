@@ -3117,6 +3117,17 @@ lastLeaf
 )
 |
 |
+!
+HTMLEditUtils
+:
+:
+IsSimplyEditableNode
+(
+*
+lastLeaf
+)
+|
+|
 HTMLEditUtils
 :
 :
