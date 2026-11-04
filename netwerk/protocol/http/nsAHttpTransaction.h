@@ -754,6 +754,16 @@ return
 false
 ;
 }
+virtual
+bool
+IsAltSvcValidation
+(
+)
+{
+return
+false
+;
+}
 }
 ;
 #
