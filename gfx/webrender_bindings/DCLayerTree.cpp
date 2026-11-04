@@ -13604,6 +13604,9 @@ d
 failed
 %
 d
+isDRM
+%
+d
 "
 useVpAutoHDR
 gfx
@@ -13620,6 +13623,7 @@ monitorIsHDR
 driverSupportsAutoHDR
 powerIsCharging
 mVpAutoHDRFailed
+isDRM
 )
 ;
 PROFILER_MARKER_TEXT
