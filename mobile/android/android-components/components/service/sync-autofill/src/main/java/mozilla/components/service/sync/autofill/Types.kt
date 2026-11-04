@@ -301,6 +301,11 @@ ccNumber
 this
 .
 cardNumber
+ccCvv
+=
+this
+.
+cardCvv
 ccExpMonth
 =
 this
@@ -528,5 +533,10 @@ timesUsed
 this
 .
 timesUsed
+cardCvv
+=
+this
+.
+ccCvv
 )
 }
