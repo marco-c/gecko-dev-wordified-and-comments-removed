@@ -1002,6 +1002,12 @@ IsMomentum
 )
 const
 ;
+bool
+ShouldDispatchToContentAfterAPZ
+(
+)
+const
+;
 WidgetWheelEvent
 ToWidgetEvent
 (

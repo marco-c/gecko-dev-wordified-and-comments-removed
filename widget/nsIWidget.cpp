@@ -7345,6 +7345,14 @@ GetStatus
 =
 =
 nsEventStatus_eConsumeNoDefault
+|
+|
+!
+aInput
+.
+ShouldDispatchToContentAfterAPZ
+(
+)
 )
 {
 return
