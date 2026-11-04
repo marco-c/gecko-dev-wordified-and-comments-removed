@@ -1570,6 +1570,9 @@ this
 .
 #
 doc
+this
+.
+parsedPropertyName
 1
 {
 token
@@ -2693,6 +2696,15 @@ has
 (
 fn
 )
+|
+|
+fn
+=
+=
+=
+"
+type
+"
 )
 )
 {
@@ -4247,6 +4259,9 @@ this
 .
 #
 doc
+this
+.
+parsedPropertyName
 attrValue
 "
 <
@@ -4372,6 +4387,9 @@ this
 .
 #
 doc
+this
+.
+parsedPropertyName
 attrValue
 syntax
 )
