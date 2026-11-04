@@ -2878,6 +2878,13 @@ Bug
 ]
 [
 "
+browser_tab_scroll_into_view_vertical
+.
+js
+"
+]
+[
+"
 browser_tab_splitview
 .
 js
