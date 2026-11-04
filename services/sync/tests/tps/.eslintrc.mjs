@@ -122,6 +122,9 @@ false
 STATE_ENABLED
 :
 false
+Server
+:
+false
 Sync
 :
 false
