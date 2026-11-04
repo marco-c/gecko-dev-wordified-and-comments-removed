@@ -5395,7 +5395,7 @@ gtk_settings_get_default
 gboolean
 select_on_focus
 =
-FALSE
+TRUE
 ;
 if
 (
