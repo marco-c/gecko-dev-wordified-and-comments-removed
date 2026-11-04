@@ -1643,6 +1643,17 @@ js
     
 app
 .
+add_js_file
+(
+"
+mermaid_fixups
+.
+js
+"
+)
+    
+app
+.
 connect
 (
 "
