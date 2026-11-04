@@ -1633,6 +1633,11 @@ NativeLayerWayland
 h
 "
 "
+NativeLayerWaylandSurfaceHandler
+.
+h
+"
+"
 SurfacePoolWayland
 .
 h
@@ -1644,6 +1649,11 @@ UNIFIED_SOURCES
 [
 "
 NativeLayerWayland
+.
+cpp
+"
+"
+NativeLayerWaylandSurfaceHandler
 .
 cpp
 "
