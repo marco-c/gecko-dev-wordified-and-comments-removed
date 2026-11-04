@@ -70963,7 +70963,7 @@ type
 RelaxedAtomicBool
 value
 :
-true
+IS_NIGHTLY_OR_DEV_EDITION
 mirror
 :
 always
