@@ -35,6 +35,17 @@ getLogger
 (
 __name__
 )
+EXTRA_TEST_KINDS
+=
+[
+"
+ui
+-
+test
+-
+apk
+"
+]
 register_callback_action
 (
     
@@ -228,6 +239,13 @@ kind
 not
 in
 TEST_KINDS
+and
+task
+.
+kind
+not
+in
+EXTRA_TEST_KINDS
 :
             
 continue
