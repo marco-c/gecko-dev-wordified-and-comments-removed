@@ -376,6 +376,7 @@ enter
 follow
 -
 up
+fxms
 menu
 resume
 retry
@@ -383,6 +384,17 @@ shortcuts
 starter
 or
 suggestion
+.
+Messaging
+surfaces
+may
+supply
+their
+own
+value
+instead
+of
+fxms
 tabs
 :
 type
@@ -18789,6 +18801,7 @@ requested
 :
 tab_list
 tab_group
+fxms
 chat
 or
 chat_followup

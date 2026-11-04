@@ -478,6 +478,13 @@ js
 ]
 [
 "
+browser_sma_submit_smartwindow_prompt
+.
+js
+"
+]
+[
+"
 browser_sma_summarize_page
 .
 js

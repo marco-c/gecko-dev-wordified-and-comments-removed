@@ -10784,6 +10784,10 @@ tab_group
 "
 |
 "
+fxms
+"
+|
+"
 chat
 "
 |

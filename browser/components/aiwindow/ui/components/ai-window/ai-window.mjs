@@ -14251,8 +14251,9 @@ requested
 from
 (
 tab_list
-or
 tab_group
+or
+fxms
 )
 for
 telemetry

@@ -7318,9 +7318,11 @@ telemetry
 :
 tab_list
 tab_group
+fxms
 chat
 chat_followup
 or
+*
 refresh
 .
 *
