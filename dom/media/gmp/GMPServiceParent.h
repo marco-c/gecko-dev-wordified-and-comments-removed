@@ -530,6 +530,11 @@ NotifySyncShutdownComplete
 )
 ;
 void
+RejectPendingInitPromise
+(
+)
+;
+void
 RemoveOnGMPThread
 (
 const
