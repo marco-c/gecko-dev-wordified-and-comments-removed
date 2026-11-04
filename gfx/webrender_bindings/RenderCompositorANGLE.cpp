@@ -1035,7 +1035,7 @@ GetCompositorHwnd
 )
 ;
 }
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 XRE_IsParentProcess
 (

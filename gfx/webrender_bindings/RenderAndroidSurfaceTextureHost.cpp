@@ -179,7 +179,7 @@ RenderAndroidSurfaceTextureHost
 (
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 RenderThread
 :
@@ -642,7 +642,7 @@ PrepareForUse
 (
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 RenderThread
 :
@@ -711,7 +711,7 @@ NotifyForUse
 (
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 RenderThread
 :
@@ -778,7 +778,7 @@ NotifyNotUsed
 (
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 RenderThread
 :

@@ -142,7 +142,7 @@ Checkpoint
 FrameTexturesUpdated
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 wr
 :

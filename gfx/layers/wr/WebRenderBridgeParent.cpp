@@ -2330,7 +2330,7 @@ EnsureInitialized
 (
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 CompositorThreadHolder
 :
@@ -2393,7 +2393,7 @@ AsyncImagePipelineManager
 aImageMgr
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 NS_IsInCompositorThread
 (
@@ -2705,7 +2705,7 @@ GetWebRenderAPI
 (
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 CompositorThreadHolder
 :
@@ -2745,7 +2745,7 @@ AsyncImageManager
 (
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 CompositorThreadHolder
 :
@@ -2782,7 +2782,7 @@ CompositorScheduler
 (
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 CompositorThreadHolder
 :
@@ -11208,7 +11208,7 @@ FlushSceneBuilds
 (
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 CompositorThreadHolder
 :
@@ -11253,7 +11253,7 @@ RenderReasons
 aReasons
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 CompositorThreadHolder
 :
@@ -11330,7 +11330,7 @@ FlushFramePresentation
 (
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 CompositorThreadHolder
 :
@@ -18585,7 +18585,7 @@ mWebRenderBridge
 aWebRenderBridge
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 CompositorThreadHolder
 :
@@ -18624,7 +18624,7 @@ Clear
 (
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 CompositorThreadHolder
 :
@@ -18647,7 +18647,7 @@ WebRenderBridgeParentRef
 (
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 CompositorThreadHolder
 :

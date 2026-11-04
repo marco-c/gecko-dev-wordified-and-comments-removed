@@ -134,7 +134,7 @@ uint32_t
 aDurationMs
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 RenderThread
 :
@@ -240,7 +240,7 @@ uint32_t
 aDurationMs
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 RenderThread
 :
@@ -361,7 +361,7 @@ RenderTextureHost
 (
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 RenderThread
 :
@@ -500,7 +500,7 @@ RenderTextureHostUsageInfo
 aUsageInfo
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 layers
 :
@@ -682,7 +682,7 @@ MutexAutoLock
 aProofOfMapLock
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 RenderThread
 :
