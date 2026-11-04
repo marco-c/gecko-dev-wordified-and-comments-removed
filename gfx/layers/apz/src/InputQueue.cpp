@@ -3001,6 +3001,10 @@ block
 )
 )
 ;
+mActivePanGestureBlock
+=
+nullptr
+;
 }
 ProcessQueue
 (
