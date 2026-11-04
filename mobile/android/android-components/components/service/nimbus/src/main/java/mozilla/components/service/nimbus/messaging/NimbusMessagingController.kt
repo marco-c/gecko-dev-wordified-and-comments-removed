@@ -894,6 +894,15 @@ List
 <
 Message
 >
+triggerContext
+:
+Map
+<
+String
+Any
+?
+>
+?
 )
 =
 messagingStorage
@@ -902,5 +911,6 @@ getNextMessage
 (
 surfaceId
 messages
+triggerContext
 )
 }
