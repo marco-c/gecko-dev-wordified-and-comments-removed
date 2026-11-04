@@ -54,6 +54,13 @@ js
 ]
 [
 "
+browser_aboutprocesses_groupby_tab_sites
+.
+js
+"
+]
+[
+"
 browser_aboutprocesses_selection
 .
 js
