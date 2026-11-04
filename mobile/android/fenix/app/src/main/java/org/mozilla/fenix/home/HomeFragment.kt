@@ -6749,8 +6749,8 @@ doesn
 '
 t
 show
-the
-gradient
+its
+background
 when
 displayed
 over
