@@ -424,15 +424,6 @@ id
 {
 l10nId
 }
-data
--
-l10n
--
-attrs
-=
-"
-label
-"
 type
 =
 {
