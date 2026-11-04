@@ -334,6 +334,13 @@ js
 ]
 [
 "
+browser_resource_monitor_telemetry
+.
+js
+"
+]
+[
+"
 browser_sidebar_animation
 .
 js

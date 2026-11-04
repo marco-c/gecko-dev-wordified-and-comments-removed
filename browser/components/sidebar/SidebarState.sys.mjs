@@ -2062,6 +2062,9 @@ showInitially
 this
 .
 command
+"
+restored
+"
 )
 ;
 }
