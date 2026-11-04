@@ -208,6 +208,8 @@ Backwards
 enum
 class
 AnimationPhase
+:
+uint8_t
 {
 Idle
 Before

@@ -2025,6 +2025,7 @@ GetScopeObject
 (
 )
 animationName
+isStylePaused
 )
 ;
 animation
