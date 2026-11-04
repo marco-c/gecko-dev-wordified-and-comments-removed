@@ -5998,6 +5998,11 @@ sendEvent
 "
 hidden
 "
+{
+anchorNode
+:
+lastAnchorNode
+}
 )
 ;
 lastAnchorNode
