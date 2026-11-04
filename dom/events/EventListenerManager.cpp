@@ -5817,6 +5817,17 @@ NS_ENSURE_STATE
 doc
 )
 ;
+doc
+-
+>
+SetTrustedTypesReadinessSignal
+(
+TrustedTypesReadinessSignal
+:
+:
+RanScript
+)
+;
 AutoJSAPI
 jsapi
 ;

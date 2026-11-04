@@ -3330,6 +3330,12 @@ aDir
 const
 ;
 bool
+isStrict
+(
+)
+const
+;
+bool
 ShouldCreateViolationForNewTrustedTypesPolicy
 (
 const
