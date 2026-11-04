@@ -980,11 +980,6 @@ name
 =
 =
 EDGE_TO_EDGE
-&
-&
-settings
-.
-enableHomepageEdgeToEdgeBackgroundFeature
 )
 {
 EdgeToEdge
@@ -997,12 +992,6 @@ name
 isNotEmpty
 (
 )
-&
-&
-name
-!
-=
-EDGE_TO_EDGE
 &
 &
 textColor
