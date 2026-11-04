@@ -13320,7 +13320,15 @@ aLanguage
 nsAutoCString
 fontlistValue
 ;
-mFontPrefs
+AutoLock
+lock
+(
+mLock
+)
+;
+GetFontPrefs
+(
+)
 -
 >
 LookupName
@@ -13342,7 +13350,9 @@ IsEmpty
 )
 )
 {
-mFontPrefs
+GetFontPrefs
+(
+)
 -
 >
 LookupNameList

@@ -4232,6 +4232,10 @@ UniquePtr
 FontPrefs
 >
 mFontPrefs
+MOZ_GUARDED_BY
+(
+mLock
+)
 ;
 RefPtr
 <
