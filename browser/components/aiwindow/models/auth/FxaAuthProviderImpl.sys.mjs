@@ -334,6 +334,17 @@ ONLOGOUT_NOTIFICATION
 )
 ;
 }
+get
+providerName
+(
+)
+{
+return
+"
+fxa
+"
+;
+}
 async
 getToken
 (
