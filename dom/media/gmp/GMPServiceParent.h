@@ -938,6 +938,10 @@ nsCOMPtr
 nsIFile
 >
 mStorageBaseDir
+MOZ_GUARDED_BY
+(
+mMutex
+)
 ;
 nsClassHashtable
 <
