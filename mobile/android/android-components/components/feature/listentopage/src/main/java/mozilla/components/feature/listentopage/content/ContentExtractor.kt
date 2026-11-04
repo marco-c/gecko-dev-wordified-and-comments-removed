@@ -255,7 +255,7 @@ implementation
 /
 fun
 interface
-ContentProvider
+ContentExtractor
 {
 /
 *
@@ -308,7 +308,7 @@ object
 Creates
 a
 [
-ContentProvider
+ContentExtractor
 ]
 that
 derives
@@ -434,7 +434,7 @@ fallbackLanguageTag
 String
 )
 =
-ContentProvider
+ContentExtractor
 {
 tabId
 -

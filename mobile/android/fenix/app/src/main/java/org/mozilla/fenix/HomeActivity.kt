@@ -3781,6 +3781,13 @@ components
 listenToPage
 .
 store
+listenDebugController
+=
+components
+.
+listenToPage
+.
+debugController
 )
 }
 }

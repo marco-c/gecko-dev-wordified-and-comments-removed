@@ -105,7 +105,7 @@ junit
 .
 Test
 class
-ContentProviderTest
+ContentExtractorTest
 {
 Test
 fun
@@ -127,7 +127,7 @@ runTest
 val
 provider
 =
-ContentProvider
+ContentExtractor
 .
 fromPage
 (
@@ -234,7 +234,7 @@ runTest
 val
 provider
 =
-ContentProvider
+ContentExtractor
 .
 fromPage
 (
@@ -330,7 +330,7 @@ false
 val
 provider
 =
-ContentProvider
+ContentExtractor
 .
 fromPage
 (
@@ -426,7 +426,7 @@ runTest
 val
 provider
 =
-ContentProvider
+ContentExtractor
 .
 fromPage
 (
@@ -549,7 +549,7 @@ tag
 val
 provider
 =
-ContentProvider
+ContentExtractor
 .
 fromPage
 (
@@ -660,7 +660,7 @@ failed
 val
 provider
 =
-ContentProvider
+ContentExtractor
 .
 fromPage
 (
@@ -758,7 +758,7 @@ failed
 val
 provider
 =
-ContentProvider
+ContentExtractor
 .
 fromPage
 (
@@ -847,7 +847,7 @@ false
 val
 provider
 =
-ContentProvider
+ContentExtractor
 .
 fromPage
 (
