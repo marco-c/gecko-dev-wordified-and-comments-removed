@@ -5078,7 +5078,7 @@ dns
 >
 AsyncResolveNative
 (
-aHostname
+mHost
 nsIDNSService
 :
 :

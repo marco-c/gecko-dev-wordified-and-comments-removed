@@ -225,7 +225,7 @@ ByIp
 Self
 :
 :
-ByIp
+Ip
 ResolutionMode
 :
 :
@@ -235,7 +235,7 @@ ByName
 Self
 :
 :
-ByName
+Name
 ResolutionMode
 :
 :
@@ -245,7 +245,7 @@ ByNameWithHttpsRr
 Self
 :
 :
-ByNameWithHttpsRr
+NameWithHttpsRr
 }
 }
 }
