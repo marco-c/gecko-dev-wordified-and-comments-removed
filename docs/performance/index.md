@@ -412,7 +412,10 @@ profiling
 AWSY
 ]
 (
-memory
+/
+testing
+/
+perfdocs
 /
 awsy
 .
