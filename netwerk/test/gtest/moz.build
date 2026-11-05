@@ -389,6 +389,11 @@ TestHttpAtom
 cpp
 "
 "
+TestLinkServiceCommon
+.
+cpp
+"
+"
 TestSOCKSProxyLookup
 .
 cpp
@@ -517,6 +522,12 @@ netwerk
 protocol
 /
 http
+"
+"
+/
+netwerk
+/
+system
 "
 "
 /

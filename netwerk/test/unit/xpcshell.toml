@@ -10560,6 +10560,13 @@ js
 ]
 [
 "
+test_network_id_match
+.
+js
+"
+]
+[
+"
 test_no_cookies_after_last_pb_exit
 .
 js
