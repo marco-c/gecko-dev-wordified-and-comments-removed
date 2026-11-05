@@ -49,6 +49,13 @@ js
 ]
 [
 "
+test_GeckoViewAutocomplete_CreditCard
+.
+js
+"
+]
+[
+"
 test_GeckoViewTrackingDB
 .
 js
