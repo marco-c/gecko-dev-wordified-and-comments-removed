@@ -505,6 +505,13 @@ genai
 .
 ftl
 "
+"
+preview
+/
+widgets
+.
+ftl
+"
 ]
 true
 )
