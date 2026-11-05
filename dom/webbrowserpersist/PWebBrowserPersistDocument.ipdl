@@ -103,6 +103,7 @@ h
 ;
 [
 RefCounted
+Tainted
 ]
 using
 class

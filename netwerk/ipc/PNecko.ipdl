@@ -247,6 +247,7 @@ h
 ;
 [
 RefCounted
+Tainted
 ]
 using
 class
@@ -467,6 +468,14 @@ useArrayBuffers
 async
 PUDPSocket
 (
+[
+NoTaint
+=
+"
+Bug
+1167039
+"
+]
 nullable
 nsIPrincipal
 principal
@@ -518,6 +527,14 @@ loadContext
 nullable
 nsIURI
 uri
+[
+NoTaint
+=
+"
+Bug
+2089486
+"
+]
 nullable
 nsIPrincipal
 principal
