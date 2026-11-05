@@ -1,0 +1,17 @@
+toolkit
+.
+jar
+:
+*
+content
+/
+global
+/
+main
+.
+js
+(
+main
+.
+js
+)
