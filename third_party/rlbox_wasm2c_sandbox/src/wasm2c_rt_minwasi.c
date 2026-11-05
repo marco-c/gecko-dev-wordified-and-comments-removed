@@ -2576,10 +2576,13 @@ params
 ret
 name
 params
+\
 {
+\
 return
 WASI_NOSYS_ERROR
 ;
+\
 }
 STUB_IMPORT_IMPL
 (
