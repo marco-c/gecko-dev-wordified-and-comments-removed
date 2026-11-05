@@ -3672,6 +3672,13 @@ html
 ]
 [
 "
+test_window_proxy_unlinked_inner
+.
+html
+"
+]
+[
+"
 test_writable
 -
 replaceable
