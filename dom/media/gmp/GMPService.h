@@ -420,6 +420,12 @@ InitMainThread
 ;
 virtual
 void
+UninitMainThread
+(
+)
+;
+virtual
+void
 OnShutdown
 (
 )
