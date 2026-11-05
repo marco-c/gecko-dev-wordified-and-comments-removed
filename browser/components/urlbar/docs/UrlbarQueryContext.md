@@ -17,3 +17,4 @@ members
 :
 UrlbarQueryContext
 _checkRequiredOptions
+_getShowSearchSuggestionsFirst
