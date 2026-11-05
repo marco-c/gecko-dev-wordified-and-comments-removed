@@ -778,6 +778,11 @@ DisplayConfigWindows
 h
 "
 "
+FontPathSet
+.
+h
+"
+"
 PrintTargetWindows
 .
 h
@@ -789,6 +794,11 @@ SOURCES
 [
 "
 DisplayConfigWindows
+.
+cpp
+"
+"
+FontPathSet
 .
 cpp
 "
