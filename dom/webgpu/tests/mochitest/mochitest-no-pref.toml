@@ -232,7 +232,7 @@ x11
 &
 &
 !
-early_beta_or_earlier
+nightly_build
 "
 "
 os
@@ -309,7 +309,7 @@ x11
 &
 &
 !
-early_beta_or_earlier
+nightly_build
 "
 "
 os
@@ -351,7 +351,7 @@ if
 =
 [
 "
-early_beta_or_earlier
+nightly_build
 "
 "
 os

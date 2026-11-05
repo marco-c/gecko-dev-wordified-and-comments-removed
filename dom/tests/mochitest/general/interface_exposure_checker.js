@@ -4,7 +4,6 @@ entryDisabled
 entry
 {
 isNightly
-isEarlyBetaOrEarlier
 isRelease
 isDesktop
 isWindows
@@ -162,16 +161,6 @@ entry
 .
 insecureContext
 )
-|
-|
-entry
-.
-earlyBetaOrEarlier
-=
-=
-=
-!
-isEarlyBetaOrEarlier
 |
 |
 entry
@@ -816,11 +805,6 @@ isNightly
 AppConstants
 .
 NIGHTLY_BUILD
-isEarlyBetaOrEarlier
-:
-AppConstants
-.
-EARLY_BETA_OR_EARLIER
 isRelease
 :
 AppConstants

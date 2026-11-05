@@ -38763,7 +38763,7 @@ true
 else
 value
 :
-IS_EARLY_BETA_OR_EARLIER
+IS_NIGHTLY_BUILD
 #
 endif
 mirror
@@ -38896,7 +38896,7 @@ true
 else
 value
 :
-IS_EARLY_BETA_OR_EARLIER
+IS_NIGHTLY_BUILD
 #
 endif
 mirror

@@ -69,7 +69,7 @@ name
 "
 gpu
 "
-earlyBetaOrEarlier
+nightly
 :
 true
 }
@@ -205,6 +205,16 @@ true
 "
 serviceWorker
 "
+{
+name
+:
+"
+serial
+"
+android
+:
+false
+}
 ]
 ;
 self
