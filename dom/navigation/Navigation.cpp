@@ -3369,6 +3369,14 @@ browsingContext
 loadState
 )
 {
+loadState
+-
+>
+SetTargetBrowsingContext
+(
+nullptr
+)
+;
 browsingContext
 -
 >
