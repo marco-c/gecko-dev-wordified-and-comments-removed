@@ -7349,6 +7349,15 @@ aFlags
 0
 )
 ;
+ContentOffsets
+GetContentOffsetsFromPointForSelection
+(
+const
+nsPoint
+&
+aPoint
+)
+;
 virtual
 ContentOffsets
 GetContentOffsetsFromPointExternal
