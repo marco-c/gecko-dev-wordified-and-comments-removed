@@ -2119,7 +2119,7 @@ isChecked
 =
 settings
 .
-isIPProtectionEnabled
+overrideIPProtectionEnabled
 onPreferenceChangeListener
 =
 SharedPreferenceUpdater
@@ -3241,7 +3241,7 @@ Config
 .
 channel
 .
-isDebug
+isNightlyOrDebug
 isChecked
 =
 settings

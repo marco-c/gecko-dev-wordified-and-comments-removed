@@ -15680,7 +15680,7 @@ them
 *
 /
 var
-isIPProtectionEnabled
+overrideIPProtectionEnabled
 by
 booleanPreference
 (
@@ -16072,7 +16072,7 @@ value
 enabled
 |
 |
-isIPProtectionEnabled
+overrideIPProtectionEnabled
 /
 *
 *

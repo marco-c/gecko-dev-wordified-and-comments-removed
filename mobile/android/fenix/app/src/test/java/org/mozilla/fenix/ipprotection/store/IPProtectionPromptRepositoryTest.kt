@@ -212,7 +212,7 @@ prompt
 {
 settings
 .
-isIPProtectionEnabled
+overrideIPProtectionEnabled
 =
 true
 repository
@@ -254,7 +254,7 @@ prompt
 {
 settings
 .
-isIPProtectionEnabled
+overrideIPProtectionEnabled
 =
 true
 repository
@@ -337,7 +337,7 @@ FxNimbus
 )
 settings
 .
-isIPProtectionEnabled
+overrideIPProtectionEnabled
 =
 false
 repository
