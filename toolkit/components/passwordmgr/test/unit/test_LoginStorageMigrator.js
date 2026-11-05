@@ -5215,7 +5215,7 @@ store
 ;
 Assert
 .
-equal
+ok
 (
 Services
 .
@@ -5225,10 +5225,13 @@ getBoolPref
 (
 PREF_ENABLED
 )
-false
 "
 rust
-disabled
+.
+enabled
+is
+left
+alone
 "
 )
 ;
@@ -5244,9 +5247,11 @@ getIntPref
 (
 PREF_ATTEMPTS
 )
-0
+10
 "
 attempts
+are
+not
 reset
 "
 )
