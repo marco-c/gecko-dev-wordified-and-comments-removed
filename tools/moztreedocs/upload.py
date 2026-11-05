@@ -40,6 +40,9 @@ mozpack
 files
 import
 BaseFile
+UPLOAD_THREADS
+=
+128
 functools
 .
 cache
@@ -326,6 +329,7 @@ session
 .
 client
 (
+        
 "
 s3
 "
@@ -339,8 +343,11 @@ Config
 (
 max_pool_connections
 =
-25
+UPLOAD_THREADS
++
+1
 )
+    
 )
     
 return
@@ -1156,7 +1163,9 @@ futures
 .
 ThreadPoolExecutor
 (
-21
+UPLOAD_THREADS
++
+1
 )
 as
 e
