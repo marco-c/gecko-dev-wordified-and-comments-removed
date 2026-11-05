@@ -16837,6 +16837,9 @@ aString
 nsNodeInfoManager
 *
 aNim
+bool
+*
+aStringModified
 )
 {
 nsString
@@ -17038,6 +17041,11 @@ end
 break
 ;
 }
+*
+aStringModified
+=
+true
+;
 str
 .
 Truncate
@@ -17184,6 +17192,11 @@ MutationEffectOnScript
 aMutationEffectOnScript
 )
 {
+bool
+stringModified
+=
+false
+;
 RefPtr
 <
 nsINode
@@ -17201,6 +17214,8 @@ NodeInfo
 NodeInfoManager
 (
 )
+&
+stringModified
 )
 ;
 ReplaceChildren
@@ -17209,6 +17224,13 @@ node
 IgnoreErrors
 (
 )
+stringModified
+?
+MutationEffectOnScript
+:
+:
+DropTrustWorthiness
+:
 aMutationEffectOnScript
 )
 ;
@@ -17361,6 +17383,11 @@ NodeInfoManager
 (
 )
 ;
+bool
+stringModified
+=
+false
+;
 RefPtr
 <
 nsINode
@@ -17371,6 +17398,8 @@ TextToNode
 (
 aValue
 nim
+&
+stringModified
 )
 ;
 if
