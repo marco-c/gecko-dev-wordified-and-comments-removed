@@ -75,3 +75,12 @@ qux
 cpp
 "
 ]
+SOURCE_HEADERS
+=
+[
+"
+foo
+.
+h
+"
+]

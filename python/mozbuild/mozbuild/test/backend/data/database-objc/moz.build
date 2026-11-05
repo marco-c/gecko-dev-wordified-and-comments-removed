@@ -65,6 +65,15 @@ qux
 mm
 "
 ]
+SOURCE_HEADERS
+=
+[
+"
+qux
+.
+h
+"
+]
 CMFLAGS
 +
 =
