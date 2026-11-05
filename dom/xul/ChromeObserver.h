@@ -24,6 +24,9 @@ class
 Document
 ;
 class
+Element
+;
+class
 ChromeObserver
 final
 :
@@ -79,6 +82,13 @@ void
 SetMica
 (
 bool
+)
+;
+void
+RecomputeIcon
+(
+Element
+&
 )
 ;
 ~
