@@ -911,13 +911,13 @@ src
 "
 )
 "
-chrome
+resource
 :
 /
 /
-global
-/
-skin
+content
+-
+accessible
 /
 illustrations
 /

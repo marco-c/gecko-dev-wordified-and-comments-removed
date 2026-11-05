@@ -323,13 +323,13 @@ args
 imageSrc
 :
 "
-chrome
+resource
 :
 /
 /
-global
-/
-skin
+content
+-
+accessible
 /
 illustrations
 /
