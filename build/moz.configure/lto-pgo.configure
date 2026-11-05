@@ -3478,15 +3478,6 @@ gc
 sections
 "
 )
-set_config
-(
-"
-MOZ_LTO
-"
-lto
-.
-enabled
-)
 set_define
 (
 "

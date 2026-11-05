@@ -837,6 +837,13 @@ spec
 json
 "
 }
+RUST_EXCLUDED_FLAG_CATEGORIES
+=
+(
+"
+LTO
+"
+)
 dataclass
 class
 CargoCommand
