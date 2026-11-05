@@ -63,6 +63,11 @@ ConfigHelpers
 cpp
 "
 "
+FontFileValidator
+.
+cpp
+"
+"
 sandboxBroker
 .
 cpp
@@ -192,6 +197,11 @@ SOURCE_HEADERS
 [
 "
 ConfigHelpers
+.
+h
+"
+"
+FontFileValidator
 .
 h
 "
