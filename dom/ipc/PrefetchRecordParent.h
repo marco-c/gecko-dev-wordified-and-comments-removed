@@ -291,15 +291,6 @@ return
 mHadConflictingCredentials
 ;
 }
-already_AddRefed
-<
-nsIURI
->
-CacheEntryURI
-(
-)
-const
-;
 const
 nsTArray
 <

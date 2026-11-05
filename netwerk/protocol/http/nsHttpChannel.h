@@ -1089,14 +1089,6 @@ TimeStamp
 aTimeStamp
 )
 ;
-nsresult
-SetNavigationalPrefetchCacheURI
-(
-nsIURI
-*
-aURI
-)
-;
 [
 [
 nodiscard
@@ -2960,12 +2952,6 @@ nsCOMPtr
 nsIURI
 >
 mCacheEntryURI
-;
-nsCOMPtr
-<
-nsIURI
->
-mNavigationalPrefetchCacheURI
 ;
 nsCString
 mCacheIdExtension
