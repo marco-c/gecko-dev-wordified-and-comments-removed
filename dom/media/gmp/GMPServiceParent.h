@@ -993,6 +993,10 @@ GMPServiceParent
 *
 >
 mServiceParents
+MOZ_GUARDED_BY
+(
+mMutex
+)
 ;
 uint32_t
 mDirectoriesAdded
