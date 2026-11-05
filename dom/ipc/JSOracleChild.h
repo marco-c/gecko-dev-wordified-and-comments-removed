@@ -93,18 +93,6 @@ initialized
 "
 )
 ;
-JS
-:
-:
-FrontendContextCreationOptions
-options
-;
-options
-.
-shareScriptData
-=
-false
-;
 mFc
 =
 JS
@@ -112,8 +100,6 @@ JS
 :
 NewFrontendContext
 (
-&
-options
 )
 ;
 if
