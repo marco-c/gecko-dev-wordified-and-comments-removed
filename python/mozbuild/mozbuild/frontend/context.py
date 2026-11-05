@@ -2452,6 +2452,36 @@ HOST_CXXFLAGS
 )
             
 )
+            
+(
+                
+"
+NSPR
+"
+                
+context
+.
+config
+.
+substs
+.
+get
+(
+"
+NSPR_CFLAGS
+"
+)
+                
+(
+"
+HOST_CFLAGS
+"
+"
+HOST_CXXFLAGS
+"
+)
+            
+)
         
 )
         
