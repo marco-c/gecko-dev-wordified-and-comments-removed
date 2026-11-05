@@ -7263,16 +7263,14 @@ no_pgo
         
 if
 no_pgo
-:
-            
-if
+and
 no_pgo_sources
 :
-                
+            
 raise
 SandboxValidationError
 (
-                    
+                
 "
 NO_PGO
 and
@@ -7292,36 +7290,10 @@ the
 same
 time
 "
-                    
-context
                 
+context
+            
 )
-            
-passthru
-.
-variables
-[
-"
-NO_PROFILE_GUIDED_OPTIMIZE
-"
-]
-=
-no_pgo
-        
-if
-no_pgo_sources
-:
-            
-passthru
-.
-variables
-[
-"
-NO_PROFILE_GUIDED_OPTIMIZE
-"
-]
-=
-no_pgo_sources
         
 suffix_map
 =
@@ -8015,6 +7987,10 @@ flags
 or
 flags
 .
+no_pgo
+or
+flags
+.
 object_deps
 :
                 
@@ -8121,6 +8097,9 @@ path
 flags
 .
 flags
+flags
+.
+no_pgo
 deps
 )
         
