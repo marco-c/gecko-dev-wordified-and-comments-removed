@@ -21784,7 +21784,7 @@ content
 )
     
 def
-test_mingw_import_library_clang_cl
+test_clang_cl_import_library
 (
 self
 )
@@ -21801,6 +21801,28 @@ clang
 -
 cl
 "
+)
+        
+self
+.
+assertIn
+(
+"
+EXTRA_DSO_LDOPTS
++
+=
+-
+IMPLIB
+:
+dist
+-
+bin
+.
+lib
+\
+n
+"
+content
 )
         
 self

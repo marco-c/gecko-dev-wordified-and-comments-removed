@@ -5358,7 +5358,9 @@ OS_ARCH
 "
 WINNT
 "
-and
+:
+            
+if
 substs
 .
 get
@@ -5367,7 +5369,7 @@ get
 CC_TYPE
 "
 )
-!
+=
 =
 "
 clang
@@ -5375,6 +5377,21 @@ clang
 cl
 "
 :
+                
+return
+[
+f
+"
+-
+IMPLIB
+:
+{
+self
+.
+import_name
+}
+"
+]
             
 return
 [
