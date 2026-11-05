@@ -271,6 +271,15 @@ py
 "
 compilation
 /
+test_util
+.
+py
+"
+]
+[
+"
+compilation
+/
 test_warnings
 .
 py
