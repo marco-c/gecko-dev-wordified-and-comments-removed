@@ -312,6 +312,13 @@ aReferrer
 LoadContextBase
 *
 aContext
+const
+mozilla
+:
+:
+Encoding
+*
+aClassicScriptHintEncoding
 )
 :
 mKind
@@ -359,6 +366,10 @@ mIsRetrievedFromMemoryCache
 (
 false
 )
+mHadRedirected_
+(
+false
+)
 mIntegrity
 (
 aIntegrity
@@ -374,6 +385,10 @@ aContext
 mEarlyHintPreloaderId
 (
 0
+)
+mClassicScriptHintEncoding
+(
+aClassicScriptHintEncoding
 )
 {
 if
