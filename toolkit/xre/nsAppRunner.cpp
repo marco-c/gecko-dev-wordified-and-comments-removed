@@ -25102,9 +25102,6 @@ _ns
 )
 ;
 }
-#
-ifdef
-EARLY_BETA_OR_EARLIER
 useXI2
 |
 =
@@ -25116,8 +25113,6 @@ gtk_check_version
 49
 )
 ;
-#
-endif
 }
 if
 (
