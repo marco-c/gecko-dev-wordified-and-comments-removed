@@ -99739,8 +99739,11 @@ cc
 >
 SendAutomaticStorageAccessPermissionCanBeGranted
 (
+WrapNotNull
+(
 NodePrincipal
 (
+)
 )
 )
 -

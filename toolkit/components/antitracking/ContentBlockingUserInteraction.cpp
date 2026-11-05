@@ -371,7 +371,10 @@ cc
 >
 SendStoreUserInteractionAsPermission
 (
+WrapNotNull
+(
 aPrincipal
+)
 )
 ;
 }

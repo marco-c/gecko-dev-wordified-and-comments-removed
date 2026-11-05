@@ -9562,6 +9562,14 @@ content
 )
 ;
 auto
+principal
+=
+WrapNotNull
+(
+aPrincipal
+)
+;
+auto
 actor
 =
 static_cast
@@ -9575,7 +9583,7 @@ content
 >
 AllocPURLClassifierChild
 (
-aPrincipal
+principal
 aResult
 )
 )
@@ -9594,7 +9602,7 @@ content
 SendPURLClassifierConstructor
 (
 actor
-aPrincipal
+principal
 aResult
 )
 )

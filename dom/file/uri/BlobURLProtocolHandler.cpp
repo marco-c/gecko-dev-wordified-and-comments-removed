@@ -1005,7 +1005,10 @@ nsCString
 aURI
 )
 ipcBlob
+WrapNotNull
+(
 aPrincipal
+)
 aPartitionKey
 )
 )

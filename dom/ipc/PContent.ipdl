@@ -7208,7 +7208,6 @@ ANDROID
 sync
 PURLClassifier
 (
-nullable
 nsIPrincipal
 principal
 )
@@ -10272,7 +10271,6 @@ nsCString
 aFeatures
 Modifiers
 aModifiers
-nullable
 nsIPrincipal
 aTriggeringPrincipal
 nullable
@@ -10321,7 +10319,6 @@ nsCString
 url
 IPCBlob
 blob
-nullable
 nsIPrincipal
 principal
 nsCString
@@ -10473,7 +10470,6 @@ prompt
 async
 AutomaticStorageAccessPermissionCanBeGranted
 (
-nullable
 nsIPrincipal
 aPrincipal
 )
@@ -10568,7 +10564,6 @@ choice
 async
 StoreUserInteractionAsPermission
 (
-nullable
 nsIPrincipal
 aPrincipal
 )
