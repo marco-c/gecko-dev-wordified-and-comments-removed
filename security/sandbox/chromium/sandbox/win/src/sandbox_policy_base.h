@@ -357,12 +357,6 @@ pattern
 final
 ;
 ResultCode
-AllowFontFileAccess
-(
-)
-final
-;
-ResultCode
 AllowExtraDll
 (
 const

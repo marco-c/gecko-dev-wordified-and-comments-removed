@@ -67,11 +67,6 @@ TestConfigHelpers
 .
 cpp
 "
-"
-TestFontFileValidator
-.
-cpp
-"
 ]
 for
 var

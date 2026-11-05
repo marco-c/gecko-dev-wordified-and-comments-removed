@@ -309,13 +309,6 @@ RuleOp
 comparison_op
 )
 ;
-bool
-AddFontFileMatch
-(
-uint8_t
-parameter
-)
-;
 size_t
 GetOpcodeCount
 (
