@@ -156,10 +156,6 @@ fetch
 .
 yml
 -
-updatebot
-.
-yml
--
 onnxruntime
 .
 yml
