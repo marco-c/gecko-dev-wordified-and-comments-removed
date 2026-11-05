@@ -2398,16 +2398,6 @@ uint8_t
 kBufferSize
 )
 ;
-if
-(
-!
-buffer
-)
-{
-return
-NS_ERROR_OUT_OF_MEMORY
-;
-}
 PRInt32
 bytesRead
 =
@@ -15514,9 +15504,6 @@ nsIURI
 aURI
 )
 {
-nsresult
-rv
-;
 auto
 contentAnalysis
 =
@@ -15539,7 +15526,7 @@ FilesAllowedPromise
 :
 CreateAndReject
 (
-rv
+NS_ERROR_NOT_AVAILABLE
 __func__
 )
 ;
@@ -15549,6 +15536,7 @@ contentAnalysisIsActive
 =
 false
 ;
+nsresult
 rv
 =
 contentAnalysis
