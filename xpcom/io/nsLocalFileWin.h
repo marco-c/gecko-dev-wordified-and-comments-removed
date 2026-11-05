@@ -243,8 +243,9 @@ aOther
 nsLocalFile
 (
 )
-{
-}
+=
+default
+;
 bool
 mDirty
 ;
