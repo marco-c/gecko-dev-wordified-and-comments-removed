@@ -1087,7 +1087,7 @@ tile
 /
 /
 in
-TaskbarTabsPin
+TaskbarTabsPinMsix
 .
 sys
 .
