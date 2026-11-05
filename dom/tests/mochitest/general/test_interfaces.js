@@ -2016,9 +2016,6 @@ CSSViewTransitionRule
 insecureContext
 :
 true
-nightly
-:
-true
 }
 "
 Cache
@@ -6238,9 +6235,6 @@ PageRevealEvent
 insecureContext
 :
 true
-nightly
-:
-true
 }
 {
 name
@@ -6249,9 +6243,6 @@ name
 PageSwapEvent
 "
 insecureContext
-:
-true
-nightly
 :
 true
 }
@@ -10884,9 +10875,6 @@ onpagereveal
 insecureContext
 :
 true
-nightly
-:
-true
 }
 {
 name
@@ -10905,9 +10893,6 @@ name
 onpageswap
 "
 insecureContext
-:
-true
-nightly
 :
 true
 }
