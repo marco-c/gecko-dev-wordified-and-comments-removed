@@ -214,6 +214,13 @@ js
 ]
 [
 "
+browser_pop_tab
+.
+js
+"
+]
+[
+"
 browser_region_entry
 .
 js
