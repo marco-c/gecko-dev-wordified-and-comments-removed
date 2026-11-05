@@ -9,6 +9,7 @@ breakpad_crash_generator
 {
 BreakpadCrashGenerator
 BreakpadProcessId
+OpaqueCrashGenerator
 }
 phc
 :
@@ -257,7 +258,6 @@ ffi
 CString
 OsStr
 OsString
-c_void
 }
 fs
 :
@@ -2061,7 +2061,7 @@ generator
 :
 *
 const
-c_void
+OpaqueCrashGenerator
 process_id
 :
 BreakpadProcessId

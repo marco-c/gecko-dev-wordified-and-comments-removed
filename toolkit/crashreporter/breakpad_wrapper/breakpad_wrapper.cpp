@@ -353,6 +353,9 @@ handle
 endif
 }
 ;
+struct
+OpaqueCrashGenerator
+;
 using
 RustDumpCallback
 =
@@ -362,7 +365,7 @@ void
 )
 (
 const
-void
+OpaqueCrashGenerator
 *
 BreakpadProcessId
 const
@@ -380,7 +383,7 @@ RustDumpCallback
 callback
 ;
 const
-void
+OpaqueCrashGenerator
 *
 generator
 ;
