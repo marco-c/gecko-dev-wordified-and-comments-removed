@@ -1087,8 +1087,7 @@ null
 async
 canonicalStringify
 (
-localRecords
-remoteRecords
+records
 timestamp
 )
 {
@@ -1101,8 +1100,7 @@ _execute
 canonicalStringify
 "
 [
-localRecords
-remoteRecords
+records
 timestamp
 ]
 )
