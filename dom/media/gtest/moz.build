@@ -700,6 +700,11 @@ TestGMPRemoveAndDelete
 cpp
 "
 "
+TestGMPServiceCreation
+.
+cpp
+"
+"
 TestSpeechModelMapping
 .
 cpp
