@@ -465,6 +465,12 @@ YUVColorSpace
 :
 :
 BT601
+|
+|
+yuv_type
+=
+=
+Y8
 )
 {
 use_deprecated
@@ -2255,6 +2261,12 @@ YUVColorSpace
 :
 :
 BT601
+|
+|
+yuv_type
+=
+=
+Y8
 )
 {
 use_deprecated
