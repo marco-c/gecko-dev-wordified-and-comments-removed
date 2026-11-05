@@ -498,6 +498,12 @@ OKP
 "
 #
 define
+JWK_TYPE_AKP
+"
+AKP
+"
+#
+define
 JWK_ALG_A128CBC
 "
 A128CBC
