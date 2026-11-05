@@ -19515,16 +19515,6 @@ CalculateCacheFlag
 aRequest
 )
 ;
-MOZ_ASSERT
-(
-aRequest
--
->
-PassedConditionForMemoryCache
-(
-)
-)
-;
 InstantiateStencil
 (
 aCx
