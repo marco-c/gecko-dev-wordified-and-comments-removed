@@ -843,6 +843,12 @@ RUST_EXCLUDED_FLAG_CATEGORIES
 "
 LTO
 "
+"
+PGO
+"
+"
+PGO_DEFINES
+"
 )
 dataclass
 class
