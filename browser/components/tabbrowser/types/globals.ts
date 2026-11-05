@@ -90,11 +90,6 @@ mjs
 SavedTabGroupStateData
 ;
 type
-TaskbarTab
-=
-any
-;
-type
 TabStateData
 =
 any
