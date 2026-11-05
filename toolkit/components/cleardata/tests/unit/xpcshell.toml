@@ -135,13 +135,6 @@ Linux
 condprof
 [
 "
-test_cookie_banner_handling
-.
-js
-"
-]
-[
-"
 test_cookies
 .
 js
@@ -157,6 +150,13 @@ js
 [
 "
 test_fingerprinting_protection_state
+.
+js
+"
+]
+[
+"
+test_geolocation_cache
 .
 js
 "
