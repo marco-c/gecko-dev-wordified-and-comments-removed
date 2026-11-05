@@ -689,6 +689,15 @@ aInnerWIndowID
 const
 nsAString
 &
+aLogModule
+=
+u
+"
+"
+_ns
+const
+nsAString
+&
 aPrefix
 =
 u
@@ -1650,7 +1659,10 @@ LogModule
 mLogModule
 ;
 nsString
-mPrefix
+mMozLogPrefix
+;
+nsString
+mConsolePrefix
 ;
 bool
 mChromeInstance

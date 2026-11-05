@@ -184,6 +184,9 @@ nullptr
 0
 aOptions
 .
+mLogModule
+aOptions
+.
 mPrefix
 )
 )

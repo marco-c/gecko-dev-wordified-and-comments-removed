@@ -1916,6 +1916,11 @@ innerID
 :
 string
 ;
+logModule
+?
+:
+string
+;
 maxLogLevel
 ?
 :
