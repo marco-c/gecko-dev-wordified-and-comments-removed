@@ -3453,6 +3453,14 @@ pref
 "
 )
 ;
+await
+BrowserTestUtils
+.
+allTabOpenAnimationsFinished
+(
+window
+)
+;
 is
 (
 window
