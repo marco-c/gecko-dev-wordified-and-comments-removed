@@ -489,13 +489,6 @@ js
 ]
 [
 "
-browser_policy_disable_shield
-.
-js
-"
-]
-[
-"
 browser_policy_disable_telemetry
 .
 js

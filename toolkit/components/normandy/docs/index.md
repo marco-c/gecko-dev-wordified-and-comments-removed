@@ -132,10 +132,6 @@ maxdepth
 data
 -
 collection
-execution
--
-model
-suitabilities
 services
 [
 bug

@@ -205,7 +205,14 @@ margin
 -
 inline
 :
-8px
+var
+(
+-
+-
+space
+-
+small
+)
 ;
 }
 .

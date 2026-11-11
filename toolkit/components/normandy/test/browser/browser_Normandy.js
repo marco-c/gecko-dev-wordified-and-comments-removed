@@ -55,7 +55,7 @@ mjs
 ;
 const
 {
-RecipeRunner
+ExperimentAPI
 }
 =
 ChromeUtils
@@ -67,11 +67,9 @@ resource
 :
 /
 /
-normandy
+nimbus
 /
-lib
-/
-RecipeRunner
+ExperimentAPI
 .
 sys
 .
@@ -203,7 +201,7 @@ decorate_task
 (
 withStub
 (
-RecipeRunner
+ExperimentAPI
 "
 init
 "
@@ -239,7 +237,7 @@ finishInit
 ;
 ok
 (
-RecipeRunner
+ExperimentAPI
 .
 init
 .
@@ -247,7 +245,7 @@ called
 "
 startup
 calls
-RecipeRunner
+ExperimentAPI
 .
 init
 "
