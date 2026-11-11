@@ -431,6 +431,15 @@ py
 ]
 [
 "
+controller
+/
+test_source_repo
+.
+py
+"
+]
+[
+"
 frontend
 /
 test_context
