@@ -1840,6 +1840,11 @@ mExpectedHeaderID
 uint32_t
 mExpectedPushPromiseID
 ;
+bool
+mHeaderBlockEndStream
+=
+false
+;
 nsCString
 mFlatHTTPResponseHeaders
 ;
