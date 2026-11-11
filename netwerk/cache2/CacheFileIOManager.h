@@ -541,6 +541,13 @@ Relaxed
 >
 mFileSize
 ;
+int64_t
+mInvalidTrailerOffset
+{
+-
+1
+}
+;
 PRFileDesc
 *
 mFD
