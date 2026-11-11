@@ -85,7 +85,7 @@ XPIDL_MODULE
 "
 toolkit_cleardata
 "
-EXTRA_JS_MODULES
+MOZ_SRC_FILES
 +
 =
 [
