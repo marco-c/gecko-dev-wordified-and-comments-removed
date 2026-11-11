@@ -5737,7 +5737,7 @@ rv
 {
 MaybeReportErrorAndCloseIfOpen
 (
-NS_ERROR_CONNECTION_REFUSED
+rv
 )
 ;
 }
