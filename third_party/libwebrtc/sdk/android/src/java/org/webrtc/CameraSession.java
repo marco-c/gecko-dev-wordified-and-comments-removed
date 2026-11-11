@@ -106,6 +106,12 @@ stop
 (
 )
 ;
+SuppressWarnings
+(
+"
+deprecation
+"
+)
 static
 int
 getDeviceOrientation

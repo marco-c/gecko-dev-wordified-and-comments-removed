@@ -598,6 +598,12 @@ errorCode
 ;
 }
 Override
+SuppressWarnings
+(
+"
+deprecation
+"
+)
 public
 void
 onOpened
@@ -1452,6 +1458,12 @@ framerate
 )
 ;
 }
+SuppressWarnings
+(
+"
+deprecation
+"
+)
 private
 Camera2Session
 (

@@ -143,6 +143,12 @@ TAG
 WebRtcAudioUtilsExternal
 "
 ;
+SuppressWarnings
+(
+"
+deprecation
+"
+)
 public
 static
 String
@@ -1007,6 +1013,12 @@ enc
 ;
 }
 }
+SuppressWarnings
+(
+"
+deprecation
+"
+)
 private
 static
 void

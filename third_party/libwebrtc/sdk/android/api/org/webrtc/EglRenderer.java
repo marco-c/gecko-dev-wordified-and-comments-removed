@@ -2393,6 +2393,12 @@ a
 ;
 }
 }
+SuppressWarnings
+(
+"
+deprecation
+"
+)
 private
 void
 swapBuffersOnRenderThread

@@ -569,6 +569,12 @@ false
 }
 }
 ;
+SuppressWarnings
+(
+"
+deprecation
+"
+)
 private
 SurfaceTextureHelper
 (

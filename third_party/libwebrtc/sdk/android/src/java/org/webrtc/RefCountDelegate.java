@@ -167,6 +167,12 @@ run
 ;
 }
 }
+SuppressWarnings
+(
+"
+deprecation
+"
+)
 boolean
 safeRetain
 (

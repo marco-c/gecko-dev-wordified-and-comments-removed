@@ -2109,6 +2109,12 @@ null
 )
 ;
 }
+SuppressWarnings
+(
+"
+deprecation
+"
+)
 private
 void
 deliverByteFrame
