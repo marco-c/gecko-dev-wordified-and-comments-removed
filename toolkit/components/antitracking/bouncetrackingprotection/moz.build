@@ -313,3 +313,13 @@ manifest
 toml
 "
 ]
+TEST_DIRS
++
+=
+[
+"
+test
+/
+gtest
+"
+]
