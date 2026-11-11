@@ -1634,11 +1634,8 @@ NS_ERROR_FAILURE
 }
 if
 (
-NS_WARN_IF
-(
 !
 mCancelable
-)
 )
 {
 return
