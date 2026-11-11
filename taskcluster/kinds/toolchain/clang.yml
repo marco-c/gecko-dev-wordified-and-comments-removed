@@ -84,11 +84,6 @@ time
 7200
 run
 :
-clone
--
-with
-:
-hg
 resources
 :
 -
@@ -4911,7 +4906,7 @@ clang
 -
 stage1
 -
-linux64
+win64
 -
 clang
 -
@@ -9577,7 +9572,7 @@ clang
 -
 stage1
 -
-linux64
+win64
 -
 clang
 -
@@ -14437,7 +14432,7 @@ trunk
 -
 stage1
 -
-linux64
+win64
 -
 clang
 -
