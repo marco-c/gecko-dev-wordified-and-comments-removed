@@ -452,11 +452,6 @@ JSObject
 *
 >
 enclosingEnv
-bool
-*
-isReusable
-=
-nullptr
 )
 ;
 ModuleObject
