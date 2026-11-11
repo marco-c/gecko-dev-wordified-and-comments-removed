@@ -709,8 +709,9 @@ command
 "
 )
 ;
-await
-click
+contextMenu
+.
+activateItem
 (
 contextMenuItem
 )
