@@ -3176,6 +3176,16 @@ GetShadowRoot
 nsAutoScriptBlocker
 scriptBlocker
 ;
+if
+(
+shadowRoot
+-
+>
+GetHost
+(
+)
+)
+{
 shadowRoot
 -
 >
@@ -3183,6 +3193,7 @@ Unbind
 (
 )
 ;
+}
 tmp
 -
 >
