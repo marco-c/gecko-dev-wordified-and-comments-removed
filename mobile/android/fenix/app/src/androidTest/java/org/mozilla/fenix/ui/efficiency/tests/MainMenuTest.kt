@@ -3748,7 +3748,7 @@ on
 .
 mainMenu
 .
-installFirstRecommendedExtension
+installKnownRecommendedExtension
 (
 )
 /
@@ -3957,7 +3957,7 @@ on
 .
 mainMenu
 .
-installFirstRecommendedExtension
+installKnownRecommendedExtension
 (
 )
 /
@@ -4176,7 +4176,7 @@ on
 .
 mainMenu
 .
-installFirstRecommendedExtension
+installKnownRecommendedExtension
 (
 )
 /
@@ -4394,7 +4394,7 @@ on
 .
 mainMenu
 .
-installFirstRecommendedExtension
+installKnownRecommendedExtension
 (
 )
 /
