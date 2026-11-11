@@ -48,6 +48,12 @@ GlUtil
 )
 {
 }
+SuppressWarnings
+(
+"
+serial
+"
+)
 public
 static
 class
