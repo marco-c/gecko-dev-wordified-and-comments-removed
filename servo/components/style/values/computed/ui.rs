@@ -74,6 +74,7 @@ CursorKind
 FieldSizing
 ImeMode
 Inert
+Interactivity
 MozTheme
 PointerEvents
 ScrollbarWidth
