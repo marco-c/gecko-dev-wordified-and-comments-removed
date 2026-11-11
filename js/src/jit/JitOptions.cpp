@@ -537,7 +537,7 @@ perfEnabled
 ;
 SET_DEFAULT
 (
-enableICFramePointers
+enableStubFramePointers
 perfEnabled
 )
 ;
