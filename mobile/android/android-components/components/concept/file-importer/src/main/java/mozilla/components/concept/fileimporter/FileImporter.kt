@@ -213,4 +213,6 @@ Result
 <
 T
 >
+companion
+object
 }

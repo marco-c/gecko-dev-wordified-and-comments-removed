@@ -89,11 +89,9 @@ components
 .
 concept
 .
-bookmarks
+fileimporter
 .
-file
-.
-BookmarksFileImporter
+FileImporter
 /
 *
 *
@@ -132,7 +130,10 @@ ImporterViewModel
 (
 importer
 :
-BookmarksFileImporter
+FileImporter
+<
+*
+>
 )
 :
 ViewModel
@@ -180,7 +181,10 @@ factory
 (
 importer
 :
-BookmarksFileImporter
+FileImporter
+<
+*
+>
 )
 =
 object

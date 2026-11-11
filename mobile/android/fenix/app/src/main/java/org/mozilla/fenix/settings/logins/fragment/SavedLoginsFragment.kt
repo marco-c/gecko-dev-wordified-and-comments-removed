@@ -139,11 +139,9 @@ components
 .
 feature
 .
-password
-.
 importer
 .
-PasswordsImporterResult
+ImporterEvent
 import
 mozilla
 .
@@ -457,7 +455,7 @@ decodeResult
 bundle
 )
 is
-PasswordsImporterResult
+ImporterEvent
 .
 Success
 )

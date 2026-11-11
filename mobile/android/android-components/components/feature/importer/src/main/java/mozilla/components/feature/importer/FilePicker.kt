@@ -109,6 +109,9 @@ internal
 fun
 FilePicker
 (
+mimeType
+:
+String
 onFileSelected
 :
 (
@@ -151,11 +154,7 @@ launcher
 .
 launch
 (
-"
-text
-/
-html
-"
+mimeType
 )
 }
 }

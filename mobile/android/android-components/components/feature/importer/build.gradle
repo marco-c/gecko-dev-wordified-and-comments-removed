@@ -76,6 +76,16 @@ kotlin
 .
 compose
 )
+alias
+(
+libs
+.
+plugins
+.
+kotlin
+.
+parcelize
+)
 }
 android
 {
@@ -131,9 +141,9 @@ components
 :
 concept
 -
-bookmarks
--
 file
+-
+importer
 '
 )
 implementation
@@ -174,8 +184,6 @@ libs
 androidx
 .
 core
-.
-ktx
 implementation
 libs
 .
