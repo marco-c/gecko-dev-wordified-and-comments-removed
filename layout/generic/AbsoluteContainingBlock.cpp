@@ -3669,6 +3669,7 @@ viewport
 GetContainingBlockAdjustedForScrollbars
 (
 aReflowInput
+aKidFrame
 )
 ;
 }

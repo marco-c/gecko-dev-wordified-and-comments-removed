@@ -5173,6 +5173,7 @@ viewport
 GetContainingBlockAdjustedForScrollbars
 (
 parentReflowInput
+aFrame
 )
 .
 Size
