@@ -600,6 +600,13 @@ h
 #
 include
 "
+nsThreadUtils
+.
+h
+"
+#
+include
+"
 nsWindowSizes
 .
 h
@@ -4634,12 +4641,7 @@ snapshots
 ServoTraversalFlags
 :
 :
-AnimationOnly
-|
-ServoTraversalFlags
-:
-:
-FinalAnimationTraversal
+Forgetful
 )
 ;
 MOZ_ASSERT
