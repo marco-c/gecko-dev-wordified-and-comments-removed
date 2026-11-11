@@ -95,7 +95,7 @@ configuration
 .
 CustomTabMenuConfiguration
 .
-GROUP_1_ID
+TOOLS_GROUP_ID
 import
 org
 .
@@ -251,7 +251,7 @@ shouldShowExtensions
 true
 )
 val
-group1
+toolsSection
 =
 configuration
 .
@@ -262,7 +262,7 @@ it
 id
 =
 =
-GROUP_1_ID
+TOOLS_GROUP_ID
 }
 assertEquals
 (
@@ -276,7 +276,7 @@ Extensions
 Translate
 SummarizePage
 )
-group1
+toolsSection
 .
 items
 )
@@ -319,7 +319,7 @@ shouldShowExtensions
 false
 )
 val
-group1
+toolsSection
 =
 configuration
 .
@@ -330,7 +330,7 @@ it
 id
 =
 =
-GROUP_1_ID
+TOOLS_GROUP_ID
 }
 assertEquals
 (
@@ -343,7 +343,7 @@ DesktopSite
 Translate
 SummarizePage
 )
-group1
+toolsSection
 .
 items
 )
