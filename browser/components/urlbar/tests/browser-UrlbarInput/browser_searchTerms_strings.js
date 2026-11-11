@@ -272,11 +272,8 @@ searchUrl
 await
 browserLoadedPromise
 ;
-UrlbarTestUtils
-.
 assertSearchStringIsInUrlbar
 (
-window
 searchString
 )
 ;

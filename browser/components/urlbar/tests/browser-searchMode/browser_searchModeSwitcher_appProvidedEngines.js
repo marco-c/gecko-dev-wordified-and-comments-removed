@@ -211,6 +211,11 @@ cleanup
 (
 )
 ;
+await
+resetApplicationProvidedEngines
+(
+)
+;
 }
 )
 ;

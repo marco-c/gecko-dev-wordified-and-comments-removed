@@ -167,11 +167,8 @@ false
 await
 pageShowPromise
 ;
-UrlbarTestUtils
-.
 assertSearchStringIsInUrlbar
 (
-window
 SEARCH_STRING
 )
 ;
@@ -435,11 +432,8 @@ expectedSearchUrl
 await
 browserLoadedPromise
 ;
-UrlbarTestUtils
-.
 assertSearchStringIsInUrlbar
 (
-window
 SEARCH_STRING
 )
 ;

@@ -135,11 +135,8 @@ gBrowser
 tab1
 )
 ;
-UrlbarTestUtils
-.
 assertSearchStringIsInUrlbar
 (
-window
 SEARCH_STRING
 )
 ;
@@ -152,11 +149,8 @@ gBrowser
 tab2
 )
 ;
-UrlbarTestUtils
-.
 assertSearchStringIsInUrlbar
 (
-window
 "
 another
 keyword
@@ -172,11 +166,8 @@ gBrowser
 tab3
 )
 ;
-UrlbarTestUtils
-.
 assertSearchStringIsInUrlbar
 (
-window
 "
 yet
 another
@@ -514,11 +505,8 @@ gBrowser
 tab1
 )
 ;
-UrlbarTestUtils
-.
 assertSearchStringIsInUrlbar
 (
-window
 SEARCH_STRING
 )
 ;

@@ -389,6 +389,11 @@ cleanup
 (
 )
 ;
+await
+resetApplicationProvidedEngines
+(
+)
+;
 }
 )
 ;
@@ -824,6 +829,11 @@ null
 )
 ;
 cleanup
+(
+)
+;
+await
+resetApplicationProvidedEngines
 (
 )
 ;
