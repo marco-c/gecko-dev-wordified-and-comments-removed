@@ -297,7 +297,7 @@ if
 (
 JitOptions
 .
-enableICFramePointers
+enableStubFramePointers
 )
 {
 #
@@ -343,7 +343,7 @@ MOZ_ASSERT
 (
 JitOptions
 .
-enableICFramePointers
+enableStubFramePointers
 )
 ;
 #
@@ -382,7 +382,7 @@ MOZ_ASSERT
 (
 JitOptions
 .
-enableICFramePointers
+enableStubFramePointers
 )
 ;
 #
@@ -605,7 +605,7 @@ if
 (
 JitOptions
 .
-enableICFramePointers
+enableStubFramePointers
 )
 {
 PopICFrameRegs
@@ -699,7 +699,7 @@ if
 (
 JitOptions
 .
-enableICFramePointers
+enableStubFramePointers
 )
 {
 PushICFrameRegs
@@ -1001,6 +1001,16 @@ compile
 "
 )
 ;
+masm
+.
+indirectTarget
+(
+TargetKind
+:
+:
+Call
+)
+;
 #
 ifndef
 JS_USE_LINK_REGISTER
@@ -1032,7 +1042,7 @@ if
 (
 JitOptions
 .
-enableICFramePointers
+enableStubFramePointers
 )
 {
 PushICFrameRegs
@@ -1216,7 +1226,7 @@ if
 (
 JitOptions
 .
-enableICFramePointers
+enableStubFramePointers
 )
 {
 PopICFrameRegs
@@ -1277,7 +1287,7 @@ if
 (
 JitOptions
 .
-enableICFramePointers
+enableStubFramePointers
 )
 {
 PopICFrameRegs
@@ -10750,7 +10760,7 @@ if
 (
 JitOptions
 .
-enableICFramePointers
+enableStubFramePointers
 )
 {
 baselineFrameReg_

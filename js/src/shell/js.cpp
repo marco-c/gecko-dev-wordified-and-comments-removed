@@ -78704,7 +78704,7 @@ addBoolOption
 "
 enable
 -
-ic
+stub
 -
 frame
 -
@@ -78715,9 +78715,14 @@ Use
 frame
 pointers
 in
-all
+baseline
 IC
 stubs
+and
+other
+"
+"
+trampolines
 "
 )
 |
@@ -89554,7 +89559,7 @@ getBoolOption
 "
 enable
 -
-ic
+stub
 -
 frame
 -
@@ -89568,7 +89573,7 @@ jit
 :
 JitOptions
 .
-enableICFramePointers
+enableStubFramePointers
 =
 true
 ;
@@ -91286,7 +91291,7 @@ getBoolOption
 "
 enable
 -
-ic
+stub
 -
 frame
 -
@@ -91302,7 +91307,7 @@ issue
 -
 enable
 -
-ic
+stub
 -
 frame
 -
@@ -91312,6 +91317,11 @@ overhead
 to
 IC
 stubs
+and
+various
+"
+"
+trampolines
 .
 "
 )
