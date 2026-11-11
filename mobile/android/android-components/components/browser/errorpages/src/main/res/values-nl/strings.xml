@@ -1282,6 +1282,7 @@ li
 De
 pagina
 die
+u
 probeert
 te
 bekijken
@@ -1307,7 +1308,7 @@ n
 li
 >
 Het
-issue
+probleem
 ligt
 waarschijnlijk
 bij
@@ -1729,9 +1730,8 @@ zijn
 Probeer
 het
 over
-een
-paar
-seconden
+enkele
+ogenblikken
 opnieuw
 .
 <
@@ -1754,6 +1754,7 @@ controleer
 dan
 de
 gegevens
+-
 of
 Wi
 -
@@ -1945,7 +1946,7 @@ li
 >
 Wordt
 uw
-computer
+apparaat
 of
 netwerk
 beschermd
@@ -2447,7 +2448,7 @@ en
 niet
 met
 uw
-computer
+apparaat
 .
 <
 /
@@ -2599,7 +2600,7 @@ n
 <
 li
 >
-Klik
+Tik
 op
 Opnieuw
 proberen
@@ -4668,8 +4669,8 @@ n
 li
 >
 Is
-de
-computer
+het
+apparaat
 verbonden
 met
 een

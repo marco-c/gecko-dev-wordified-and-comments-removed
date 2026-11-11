@@ -8266,7 +8266,7 @@ Deel
 met
 Mozilla
 s
-marketingtechnologiepartners
+marketingpartners
 hoe
 u
 Firefox
@@ -8449,7 +8449,8 @@ UnusedResources
 Met
 n
 tik
-voorkomen
+voorkomt
+u
 dat
 bedrijven
 uw
@@ -8726,7 +8727,7 @@ Deel
 met
 Mozilla
 s
-marketingtechnologiepartners
+marketingpartners
 hoe
 u
 Firefox
@@ -9681,7 +9682,7 @@ Deel
 met
 Mozilla
 s
-marketingtechnologiepartners
+marketingpartners
 hoe
 u
 Firefox
@@ -9748,7 +9749,7 @@ Deel
 met
 Mozilla
 s
-marketingtechnologiepartners
+marketingpartners
 hoe
 u
 Firefox
@@ -23063,7 +23064,7 @@ name
 close_tabs_manually
 "
 >
-Handmatig
+Nooit
 <
 /
 string
@@ -38493,6 +38494,8 @@ UnusedResources
 %
 1
 s
+\
+n
 \
 nVerzonden
 vanuit
@@ -66779,7 +66782,7 @@ ignore
 UnusedResources
 "
 >
-Gemiddeld
+Neutraal
 <
 /
 string
@@ -67281,6 +67284,8 @@ UnusedResources
 "
 >
 Help
+zoeken
+in
 Firefox
 te
 verbeteren
