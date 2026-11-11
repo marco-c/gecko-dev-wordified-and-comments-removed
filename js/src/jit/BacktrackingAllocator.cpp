@@ -8041,7 +8041,7 @@ b
 )
 ;
 }
-void
+bool
 BacktrackingAllocator
 :
 :
@@ -8053,6 +8053,8 @@ bundle0
 LiveBundle
 *
 bundle1
+bool
+limitRangeComparisons
 )
 {
 if
@@ -8064,6 +8066,7 @@ bundle1
 )
 {
 return
+true
 ;
 }
 VirtualRegister
@@ -8184,6 +8187,7 @@ output
 )
 {
 return
+false
 ;
 }
 }
@@ -8315,6 +8319,7 @@ output
 )
 {
 return
+false
 ;
 }
 }
@@ -8343,6 +8348,7 @@ def
 )
 {
 return
+false
 ;
 }
 static
@@ -8388,6 +8394,9 @@ iter1
 {
 if
 (
+limitRangeComparisons
+&
+&
 +
 +
 count
@@ -8397,6 +8406,7 @@ MAX_RANGES
 )
 {
 return
+false
 ;
 }
 LiveRange
@@ -8463,6 +8473,7 @@ iter0
 else
 {
 return
+false
 ;
 }
 }
@@ -8546,6 +8557,9 @@ range
 ;
 }
 }
+return
+true
+;
 }
 bool
 BacktrackingAllocator
@@ -9682,6 +9696,9 @@ isParameter
 )
 )
 ;
+bool
+merged
+=
 tryMergeBundles
 (
 originalVreg
@@ -9694,6 +9711,12 @@ paramVreg
 firstBundle
 (
 )
+false
+)
+;
+MOZ_RELEASE_ASSERT
+(
+merged
 )
 ;
 found
