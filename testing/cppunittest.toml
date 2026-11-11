@@ -498,11 +498,6 @@ TestLinkedList
 ]
 [
 "
-TestMARFindItem
-"
-]
-[
-"
 TestMMPolicy
 "
 ]
