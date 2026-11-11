@@ -23860,11 +23860,6 @@ return
 rv
 ;
 }
-MOZ_ASSERT
-(
-isNewLinePreformatted
-)
-;
 if
 (
 aPreservePreformattedLineBreak
