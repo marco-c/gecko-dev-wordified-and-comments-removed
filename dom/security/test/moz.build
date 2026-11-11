@@ -207,6 +207,17 @@ BROWSER_CHROME_MANIFESTS
 =
 [
 "
+connection
+-
+allowlist
+/
+browser
+/
+browser
+.
+toml
+"
+"
 cors
 /
 browser
