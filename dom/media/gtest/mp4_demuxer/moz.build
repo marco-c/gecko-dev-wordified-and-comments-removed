@@ -91,6 +91,11 @@ TestInterval
 .
 cpp
 "
+"
+TestKeyframeMap
+.
+cpp
+"
 ]
 TEST_HARNESS_FILES
 .
