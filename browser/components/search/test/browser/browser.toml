@@ -335,6 +335,13 @@ js
 ]
 [
 "
+browser_openSearchManager_installURL
+.
+js
+"
+]
+[
+"
 browser_private_search_perwindowpb
 .
 js
