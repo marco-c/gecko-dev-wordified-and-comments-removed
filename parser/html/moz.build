@@ -133,6 +133,11 @@ nsHtml5DocumentMode
 h
 "
 "
+nsHtml5FragmentFastPath
+.
+h
+"
+"
 nsHtml5HtmlAttributes
 .
 h
@@ -299,6 +304,11 @@ cpp
 "
 "
 nsHtml5ElementName
+.
+cpp
+"
+"
+nsHtml5FragmentFastPath
 .
 cpp
 "

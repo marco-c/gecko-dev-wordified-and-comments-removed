@@ -521,6 +521,14 @@ parser
 /
 html
 /
+nsHtml5PortabilityHSupplement
+.
+h
+-
+parser
+/
+html
+/
 nsHtml5TokenizerCppSupplement
 .
 h
