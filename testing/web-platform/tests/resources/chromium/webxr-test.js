@@ -6455,6 +6455,17 @@ _getDefaultViews
 )
 maxRenderLayers
 :
+enabled_features
+.
+includes
+(
+xrSessionMojom
+.
+XRSessionFeature
+.
+LAYERS
+)
+?
 (
 16
 -
@@ -6462,6 +6473,8 @@ maxRenderLayers
 )
 /
 2
+:
+1
 }
 enviromentBlendMode
 :
