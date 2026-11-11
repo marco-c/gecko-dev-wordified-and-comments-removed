@@ -69,6 +69,15 @@ refs
 /
 heads
 /
+epochs
+/
+three_hourly
+"
+"
+refs
+/
+heads
+/
 triggers
 /
 chrome_stable
