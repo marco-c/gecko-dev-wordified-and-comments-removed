@@ -786,7 +786,6 @@ notification
 querySelector
 (
 "
-button
 .
 notification
 -
