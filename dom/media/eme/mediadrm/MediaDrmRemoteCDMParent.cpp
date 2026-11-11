@@ -3964,7 +3964,7 @@ AMediaDrm_setPropertyByteArray
 (
 mDrm
 "
-certificate
+serviceCertificate
 "
 aCertificate
 .
@@ -4031,7 +4031,7 @@ RESULT_DETAIL
 (
 "
 AMediaDrm_setPropertyByteArray
-certificate
+serviceCertificate
 failed
 %
 d
