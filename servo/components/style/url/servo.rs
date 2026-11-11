@@ -29,6 +29,15 @@ use
 crate
 :
 :
+url
+:
+:
+UrlInitiator
+;
+use
+crate
+:
+:
 values
 :
 :
@@ -296,6 +305,9 @@ ParserContext
 _cors_mode
 :
 CorsMode
+_initiator
+:
+UrlInitiator
 )
 -
 >
