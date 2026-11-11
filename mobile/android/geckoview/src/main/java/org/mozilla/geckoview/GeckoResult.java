@@ -618,6 +618,14 @@ handler
 )
 ;
 }
+SuppressWarnings
+(
+"
+this
+-
+escape
+"
+)
 public
 GeckoResult
 (
