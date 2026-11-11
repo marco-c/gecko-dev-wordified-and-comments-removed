@@ -1426,7 +1426,6 @@ HTMLEditor
 const
 Document
 &
-aDocument
 )
 :
 EditorBase

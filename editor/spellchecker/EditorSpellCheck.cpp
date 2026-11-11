@@ -728,7 +728,6 @@ NS_IMETHOD
 HandleCompletion
 (
 uint16_t
-reason
 )
 override
 {
@@ -748,7 +747,6 @@ NS_IMETHOD
 HandleError
 (
 nsresult
-error
 )
 override
 {
@@ -2192,7 +2190,6 @@ promise
 ]
 (
 nsresult
-aError
 )
 {
 promise
@@ -2963,7 +2960,6 @@ promise
 ]
 (
 nsresult
-aError
 )
 {
 promise

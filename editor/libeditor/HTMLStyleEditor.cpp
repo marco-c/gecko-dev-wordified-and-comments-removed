@@ -7183,7 +7183,6 @@ DoNothingForNewElement
 (
 HTMLEditor
 &
-aHTMLEditor
 Element
 &
 aNewElement
@@ -18530,7 +18529,6 @@ aStylesToRemove
 const
 Element
 &
-aEditingHost
 )
 {
 MOZ_ASSERT

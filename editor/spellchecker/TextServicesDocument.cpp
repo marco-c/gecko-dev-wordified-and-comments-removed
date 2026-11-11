@@ -12537,15 +12537,11 @@ DidInsertText
 (
 CharacterData
 *
-aTextNode
 int32_t
-aOffset
 const
 nsAString
 &
-aString
 nsresult
-aResult
 )
 {
 return
@@ -12560,11 +12556,8 @@ WillDeleteText
 (
 CharacterData
 *
-aTextNode
 int32_t
-aOffset
 int32_t
-aLength
 )
 {
 return
@@ -12589,7 +12582,6 @@ Range
 >
 >
 &
-aRangesToDelete
 )
 {
 return

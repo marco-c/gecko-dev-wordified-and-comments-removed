@@ -7218,7 +7218,6 @@ GetDocumentCharacterSet
 (
 nsACString
 &
-aCharacterSet
 )
 {
 return
@@ -7284,7 +7283,6 @@ SetDocumentCharacterSet
 const
 nsACString
 &
-aCharacterSet
 )
 {
 return
@@ -14839,11 +14837,8 @@ DeleteNode
 (
 nsINode
 *
-aNode
 bool
-aPreserveSelection
 uint8_t
-aOptionalArgCount
 )
 {
 MOZ_ASSERT_UNREACHABLE
@@ -15192,7 +15187,6 @@ aSelection
 int16_t
 aReason
 int32_t
-aAmount
 )
 {
 if
@@ -31912,7 +31906,6 @@ FindSelectionRoot
 const
 nsINode
 &
-aNode
 )
 const
 {
@@ -35385,7 +35378,6 @@ GetTextLength
 (
 uint32_t
 *
-aCount
 )
 {
 return

@@ -287,7 +287,6 @@ DidRedoTransaction
 (
 TransactionManager
 &
-aTransactionManager
 )
 {
 UpdateCommandGroup

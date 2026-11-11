@@ -266,7 +266,6 @@ dom
 :
 MouseEvent
 *
-aMouseEvent
 )
 {
 return

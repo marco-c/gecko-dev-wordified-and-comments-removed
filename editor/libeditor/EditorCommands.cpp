@@ -1393,7 +1393,6 @@ UndoCommand
 IsCommandEnabled
 (
 Command
-aCommand
 EditorBase
 *
 aEditorBase
@@ -1442,7 +1441,6 @@ UndoCommand
 DoCommand
 (
 Command
-aCommand
 EditorBase
 &
 aEditorBase
@@ -1500,7 +1498,6 @@ EditorBase
 aEditorBase
 nsIEditingSession
 *
-aEditingSession
 )
 const
 {
@@ -1534,7 +1531,6 @@ RedoCommand
 IsCommandEnabled
 (
 Command
-aCommand
 EditorBase
 *
 aEditorBase
@@ -1583,7 +1579,6 @@ RedoCommand
 DoCommand
 (
 Command
-aCommand
 EditorBase
 &
 aEditorBase
@@ -1641,7 +1636,6 @@ EditorBase
 aEditorBase
 nsIEditingSession
 *
-aEditingSession
 )
 const
 {
@@ -1675,7 +1669,6 @@ CutCommand
 IsCommandEnabled
 (
 Command
-aCommand
 EditorBase
 *
 aEditorBase
@@ -1716,7 +1709,6 @@ CutCommand
 DoCommand
 (
 Command
-aCommand
 EditorBase
 &
 aEditorBase
@@ -1773,7 +1765,6 @@ EditorBase
 aEditorBase
 nsIEditingSession
 *
-aEditingSession
 )
 const
 {
@@ -1807,7 +1798,6 @@ CutOrDeleteCommand
 IsCommandEnabled
 (
 Command
-aCommand
 EditorBase
 *
 aEditorBase
@@ -1840,7 +1830,6 @@ CutOrDeleteCommand
 DoCommand
 (
 Command
-aCommand
 EditorBase
 &
 aEditorBase
@@ -1962,7 +1951,6 @@ EditorBase
 aEditorBase
 nsIEditingSession
 *
-aEditingSession
 )
 const
 {
@@ -1996,7 +1984,6 @@ CopyCommand
 IsCommandEnabled
 (
 Command
-aCommand
 EditorBase
 *
 aEditorBase
@@ -2029,13 +2016,11 @@ CopyCommand
 DoCommand
 (
 Command
-aCommand
 EditorBase
 &
 aEditorBase
 nsIPrincipal
 *
-aPrincipal
 )
 const
 {
@@ -2063,7 +2048,6 @@ EditorBase
 aEditorBase
 nsIEditingSession
 *
-aEditingSession
 )
 const
 {
@@ -2097,7 +2081,6 @@ CopyOrDeleteCommand
 IsCommandEnabled
 (
 Command
-aCommand
 EditorBase
 *
 aEditorBase
@@ -2130,7 +2113,6 @@ CopyOrDeleteCommand
 DoCommand
 (
 Command
-aCommand
 EditorBase
 &
 aEditorBase
@@ -2251,7 +2233,6 @@ EditorBase
 aEditorBase
 nsIEditingSession
 *
-aEditingSession
 )
 const
 {
@@ -2285,7 +2266,6 @@ PasteCommand
 IsCommandEnabled
 (
 Command
-aCommand
 EditorBase
 *
 aEditorBase
@@ -2330,7 +2310,6 @@ PasteCommand
 DoCommand
 (
 Command
-aCommand
 EditorBase
 &
 aEditorBase
@@ -2524,7 +2503,6 @@ EditorBase
 aEditorBase
 nsIEditingSession
 *
-aEditingSession
 )
 const
 {
@@ -2558,7 +2536,6 @@ PasteNoFormattingCommand
 IsCommandEnabled
 (
 Command
-aCommand
 EditorBase
 *
 aEditorBase
@@ -2596,7 +2573,6 @@ PasteNoFormattingCommand
 DoCommand
 (
 Command
-aCommand
 EditorBase
 &
 aEditorBase
@@ -2713,7 +2689,6 @@ EditorBase
 aEditorBase
 nsIEditingSession
 *
-aEditingSession
 )
 const
 {
@@ -2747,7 +2722,6 @@ PasteTransferableCommand
 IsCommandEnabled
 (
 Command
-aCommand
 EditorBase
 *
 aEditorBase
@@ -2789,13 +2763,10 @@ PasteTransferableCommand
 DoCommand
 (
 Command
-aCommand
 EditorBase
 &
-aEditorBase
 nsIPrincipal
 *
-aPrincipal
 )
 const
 {
@@ -2810,7 +2781,6 @@ PasteTransferableCommand
 DoCommandParam
 (
 Command
-aCommand
 nsITransferable
 *
 aTransferableParam
@@ -2886,7 +2856,6 @@ PasteTransferableCommand
 GetCommandStateParams
 (
 Command
-aCommand
 nsCommandParams
 &
 aParams
@@ -2895,7 +2864,6 @@ EditorBase
 aEditorBase
 nsIEditingSession
 *
-aEditingSession
 )
 const
 {
@@ -2998,7 +2966,6 @@ SwitchTextDirectionCommand
 IsCommandEnabled
 (
 Command
-aCommand
 EditorBase
 *
 aEditorBase
@@ -3039,7 +3006,6 @@ SwitchTextDirectionCommand
 DoCommand
 (
 Command
-aCommand
 EditorBase
 &
 aEditorBase
@@ -3096,7 +3062,6 @@ EditorBase
 aEditorBase
 nsIEditingSession
 *
-aEditingSession
 )
 const
 {
@@ -3393,7 +3358,6 @@ EditorBase
 aEditorBase
 nsIEditingSession
 *
-aEditingSession
 )
 const
 {
@@ -3427,7 +3391,6 @@ SelectAllCommand
 IsCommandEnabled
 (
 Command
-aCommand
 EditorBase
 *
 aEditorBase
@@ -3461,13 +3424,11 @@ SelectAllCommand
 DoCommand
 (
 Command
-aCommand
 EditorBase
 &
 aEditorBase
 nsIPrincipal
 *
-aPrincipal
 )
 const
 {
@@ -3517,7 +3478,6 @@ EditorBase
 aEditorBase
 nsIEditingSession
 *
-aEditingSession
 )
 const
 {
@@ -3551,7 +3511,6 @@ SelectionMoveCommands
 IsCommandEnabled
 (
 Command
-aCommand
 EditorBase
 *
 aEditorBase
@@ -4042,7 +4001,6 @@ EditorBase
 aEditorBase
 nsIPrincipal
 *
-aPrincipal
 )
 const
 {
@@ -4421,7 +4379,6 @@ EditorBase
 aEditorBase
 nsIEditingSession
 *
-aEditingSession
 )
 const
 {
@@ -4455,7 +4412,6 @@ InsertPlaintextCommand
 IsCommandEnabled
 (
 Command
-aCommand
 EditorBase
 *
 aEditorBase
@@ -4496,7 +4452,6 @@ InsertPlaintextCommand
 DoCommand
 (
 Command
-aCommand
 EditorBase
 &
 aEditorBase
@@ -4553,7 +4508,6 @@ InsertPlaintextCommand
 DoCommandParam
 (
 Command
-aCommand
 const
 nsAString
 &
@@ -4636,7 +4590,6 @@ EditorBase
 aEditorBase
 nsIEditingSession
 *
-aEditingSession
 )
 const
 {
@@ -4670,7 +4623,6 @@ InsertParagraphCommand
 IsCommandEnabled
 (
 Command
-aCommand
 EditorBase
 *
 aEditorBase
@@ -4719,7 +4671,6 @@ InsertParagraphCommand
 DoCommand
 (
 Command
-aCommand
 EditorBase
 &
 aEditorBase
@@ -4837,7 +4788,6 @@ EditorBase
 aEditorBase
 nsIEditingSession
 *
-aEditingSession
 )
 const
 {
@@ -4871,7 +4821,6 @@ InsertLineBreakCommand
 IsCommandEnabled
 (
 Command
-aCommand
 EditorBase
 *
 aEditorBase
@@ -4920,7 +4869,6 @@ InsertLineBreakCommand
 DoCommand
 (
 Command
-aCommand
 EditorBase
 &
 aEditorBase
@@ -4990,7 +4938,6 @@ EditorBase
 aEditorBase
 nsIEditingSession
 *
-aEditingSession
 )
 const
 {
@@ -5024,7 +4971,6 @@ PasteQuotationCommand
 IsCommandEnabled
 (
 Command
-aCommand
 EditorBase
 *
 aEditorBase
@@ -5070,7 +5016,6 @@ PasteQuotationCommand
 DoCommand
 (
 Command
-aCommand
 EditorBase
 &
 aEditorBase
@@ -5140,7 +5085,6 @@ PasteQuotationCommand
 GetCommandStateParams
 (
 Command
-aCommand
 nsCommandParams
 &
 aParams
@@ -5149,7 +5093,6 @@ EditorBase
 aEditorBase
 nsIEditingSession
 *
-aEditingSession
 )
 const
 {

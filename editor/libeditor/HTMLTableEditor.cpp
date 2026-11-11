@@ -402,7 +402,6 @@ HTMLEditor
 aHTMLEditor
 Selection
 &
-aSelection
 )
 {
 RefPtr
@@ -635,7 +634,6 @@ AtIndexInTableElement
 const
 HTMLEditor
 &
-aHTMLEditor
 const
 Element
 &

@@ -3623,7 +3623,6 @@ MouseDown
 (
 MouseEvent
 *
-aMouseEvent
 )
 {
 MOZ_ASSERT_IF

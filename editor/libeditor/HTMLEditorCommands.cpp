@@ -423,7 +423,6 @@ EditorBase
 aEditorBase
 nsIEditingSession
 *
-aEditingSession
 )
 const
 {
@@ -1550,7 +1549,6 @@ RemoveListCommand
 IsCommandEnabled
 (
 Command
-aCommand
 EditorBase
 *
 aEditorBase
@@ -1673,7 +1671,6 @@ RemoveListCommand
 DoCommand
 (
 Command
-aCommand
 EditorBase
 &
 aEditorBase
@@ -1761,7 +1758,6 @@ EditorBase
 aEditorBase
 nsIEditingSession
 *
-aEditingSession
 )
 const
 {
@@ -1795,7 +1791,6 @@ IndentCommand
 IsCommandEnabled
 (
 Command
-aCommand
 EditorBase
 *
 aEditorBase
@@ -1856,7 +1851,6 @@ IndentCommand
 DoCommand
 (
 Command
-aCommand
 EditorBase
 &
 aEditorBase
@@ -1940,7 +1934,6 @@ EditorBase
 aEditorBase
 nsIEditingSession
 *
-aEditingSession
 )
 const
 {
@@ -1974,7 +1967,6 @@ OutdentCommand
 IsCommandEnabled
 (
 Command
-aCommand
 EditorBase
 *
 aEditorBase
@@ -2035,7 +2027,6 @@ OutdentCommand
 DoCommand
 (
 Command
-aCommand
 EditorBase
 &
 aEditorBase
@@ -2119,7 +2110,6 @@ EditorBase
 aEditorBase
 nsIEditingSession
 *
-aEditingSession
 )
 const
 {
@@ -2144,7 +2134,6 @@ MultiStateCommandBase
 IsCommandEnabled
 (
 Command
-aCommand
 EditorBase
 *
 aEditorBase
@@ -2205,13 +2194,10 @@ MultiStateCommandBase
 DoCommand
 (
 Command
-aCommand
 EditorBase
 &
-aEditorBase
 nsIPrincipal
 *
-aPrincipal
 )
 const
 {
@@ -2353,7 +2339,6 @@ MultiStateCommandBase
 GetCommandStateParams
 (
 Command
-aCommand
 nsCommandParams
 &
 aParams
@@ -2362,7 +2347,6 @@ EditorBase
 aEditorBase
 nsIEditingSession
 *
-aEditingSession
 )
 const
 {
@@ -4441,7 +4425,6 @@ GetCurrentState
 (
 nsStaticAtom
 &
-aTagName
 HTMLEditor
 &
 aHTMLEditor
@@ -4532,7 +4515,6 @@ ToggleState
 (
 nsStaticAtom
 &
-aTagName
 HTMLEditor
 &
 aHTMLEditor
@@ -4603,7 +4585,6 @@ DecreaseZIndexCommand
 IsCommandEnabled
 (
 Command
-aCommand
 EditorBase
 *
 aEditorBase
@@ -4701,7 +4682,6 @@ DecreaseZIndexCommand
 DoCommand
 (
 Command
-aCommand
 EditorBase
 &
 aEditorBase
@@ -4789,7 +4769,6 @@ EditorBase
 aEditorBase
 nsIEditingSession
 *
-aEditingSession
 )
 const
 {
@@ -4823,7 +4802,6 @@ IncreaseZIndexCommand
 IsCommandEnabled
 (
 Command
-aCommand
 EditorBase
 *
 aEditorBase
@@ -4894,7 +4872,6 @@ IncreaseZIndexCommand
 DoCommand
 (
 Command
-aCommand
 EditorBase
 &
 aEditorBase
@@ -4980,7 +4957,6 @@ EditorBase
 aEditorBase
 nsIEditingSession
 *
-aEditingSession
 )
 const
 {
@@ -5014,7 +4990,6 @@ RemoveStylesCommand
 IsCommandEnabled
 (
 Command
-aCommand
 EditorBase
 *
 aEditorBase
@@ -5075,7 +5050,6 @@ RemoveStylesCommand
 DoCommand
 (
 Command
-aCommand
 EditorBase
 &
 aEditorBase
@@ -5159,7 +5133,6 @@ EditorBase
 aEditorBase
 nsIEditingSession
 *
-aEditingSession
 )
 const
 {
@@ -5193,7 +5166,6 @@ IncreaseFontSizeCommand
 IsCommandEnabled
 (
 Command
-aCommand
 EditorBase
 *
 aEditorBase
@@ -5254,7 +5226,6 @@ IncreaseFontSizeCommand
 DoCommand
 (
 Command
-aCommand
 EditorBase
 &
 aEditorBase
@@ -5338,7 +5309,6 @@ EditorBase
 aEditorBase
 nsIEditingSession
 *
-aEditingSession
 )
 const
 {
@@ -5372,7 +5342,6 @@ DecreaseFontSizeCommand
 IsCommandEnabled
 (
 Command
-aCommand
 EditorBase
 *
 aEditorBase
@@ -5433,7 +5402,6 @@ DecreaseFontSizeCommand
 DoCommand
 (
 Command
-aCommand
 EditorBase
 &
 aEditorBase
@@ -5517,7 +5485,6 @@ EditorBase
 aEditorBase
 nsIEditingSession
 *
-aEditingSession
 )
 const
 {
@@ -5551,7 +5518,6 @@ InsertHTMLCommand
 IsCommandEnabled
 (
 Command
-aCommand
 EditorBase
 *
 aEditorBase
@@ -5612,7 +5578,6 @@ InsertHTMLCommand
 DoCommand
 (
 Command
-aCommand
 EditorBase
 &
 aEditorBase
@@ -5691,7 +5656,6 @@ InsertHTMLCommand
 DoCommandParam
 (
 Command
-aCommand
 const
 nsAString
 &
@@ -5796,7 +5760,6 @@ EditorBase
 aEditorBase
 nsIEditingSession
 *
-aEditingSession
 )
 const
 {
@@ -5830,7 +5793,6 @@ InsertTagCommand
 IsCommandEnabled
 (
 Command
-aCommand
 EditorBase
 *
 aEditorBase
@@ -6476,7 +6438,6 @@ EditorBase
 aEditorBase
 nsIEditingSession
 *
-aEditingSession
 )
 const
 {

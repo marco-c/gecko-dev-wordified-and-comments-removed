@@ -8873,9 +8873,7 @@ TransactionManager
 aTransactionManager
 nsITransaction
 &
-aTransaction
 nsresult
-aDoTransactionResult
 )
 {
 if
@@ -8911,9 +8909,7 @@ TransactionManager
 aTransactionManager
 nsITransaction
 &
-aTransaction
 nsresult
-aUndoTransactionResult
 )
 {
 if
@@ -8949,9 +8945,7 @@ TransactionManager
 aTransactionManager
 nsITransaction
 &
-aTransaction
 nsresult
-aRedoTransactionResult
 )
 {
 if

@@ -2348,7 +2348,6 @@ aHTMLEditor
 const
 AutoClonedSelectionRangeArray
 &
-aRangesToDelete
 nsIEditor
 :
 :
@@ -10972,11 +10971,9 @@ nsIEditor
 :
 :
 EDirection
-aDirectionAndAmount
 const
 WSRunScanner
 &
-aWSRunScannerAtCaret
 const
 WSScanResult
 &
@@ -11240,7 +11237,6 @@ aCaretPoint
 const
 WSRunScanner
 &
-aWSRunScannerAtCaret
 const
 Element
 &
@@ -23144,7 +23140,6 @@ AutoDeleteRangesHandler
 :
 :
 SelectionWasCollapsed
-aSelectionWasCollapsed
 )
 const
 {
@@ -25805,7 +25800,6 @@ nsIEditor
 :
 :
 EDirection
-aDirectionAndAmount
 dom
 :
 :
@@ -26124,7 +26118,6 @@ nsIEditor
 :
 :
 EStripWrappers
-aStripWrappers
 dom
 :
 :
@@ -32910,7 +32903,6 @@ ComputeRangeToDelete
 const
 HTMLEditor
 &
-aHTMLEditor
 const
 EditorDOMPoint
 &
@@ -41736,7 +41728,6 @@ ComputeTargetRanges
 const
 HTMLEditor
 &
-aHTMLEditor
 nsIEditor
 :
 :
@@ -44130,7 +44121,6 @@ aNewElement
 const
 EditorDOMPoint
 &
-aPointToInsert
 )
 -
 >

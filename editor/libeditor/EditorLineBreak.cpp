@@ -492,7 +492,6 @@ dom
 :
 Element
 *
-aAncestorLimiter
 )
 const
 {

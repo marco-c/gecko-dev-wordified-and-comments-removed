@@ -2587,7 +2587,6 @@ RunOrScheduleOnModifyDocument
 const
 nsIContent
 *
-aContentWillBeRemoved
 )
 {
 if

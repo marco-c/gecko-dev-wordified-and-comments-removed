@@ -4801,7 +4801,6 @@ nsAString
 &
 aValue
 bool
-aSuppressTransaction
 )
 {
 if
@@ -4927,7 +4926,6 @@ nsAtom
 *
 aAttribute
 bool
-aSuppressTransaction
 )
 {
 if
@@ -6230,7 +6228,6 @@ Notify
 (
 nsITimer
 *
-aTimer
 )
 {
 if
@@ -6430,7 +6427,6 @@ TextEditor
 WillDeleteText
 (
 uint32_t
-aCurrentLength
 uint32_t
 aRemoveStartOffset
 uint32_t
@@ -6770,7 +6766,6 @@ TextEditor
 DidInsertText
 (
 uint32_t
-aNewLength
 uint32_t
 aInsertedOffset
 uint32_t

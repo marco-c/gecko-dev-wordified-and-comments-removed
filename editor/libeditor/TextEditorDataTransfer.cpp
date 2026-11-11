@@ -544,7 +544,6 @@ EditorDOMPoint
 aDroppedAt
 nsIPrincipal
 *
-aSourcePrincipal
 )
 {
 MOZ_ASSERT
@@ -855,7 +854,6 @@ HandlePaste
 (
 AutoEditActionDataSetter
 &
-aEditActionData
 nsIClipboard
 :
 :
@@ -1107,13 +1105,11 @@ HandlePasteTransferable
 (
 AutoEditActionDataSetter
 &
-aEditActionData
 nsITransferable
 &
 aTransferable
 DataTransfer
 *
-aDataTransfer
 )
 {
 if

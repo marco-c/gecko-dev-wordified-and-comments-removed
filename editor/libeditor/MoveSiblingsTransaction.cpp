@@ -1961,7 +1961,6 @@ nsIContent
 >
 >
 &
-aClonedSiblingsToMove
 nsINode
 &
 aParentNode

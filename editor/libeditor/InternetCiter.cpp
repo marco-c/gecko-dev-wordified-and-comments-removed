@@ -1839,9 +1839,7 @@ aInString
 uint32_t
 aWrapCol
 uint32_t
-aFirstLineOffset
 bool
-aRespectNewlines
 nsAString
 &
 aOutString

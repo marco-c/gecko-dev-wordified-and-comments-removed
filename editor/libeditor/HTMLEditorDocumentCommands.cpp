@@ -220,13 +220,10 @@ SetDocumentStateCommand
 DoCommand
 (
 Command
-aCommand
 EditorBase
 &
-aEditorBase
 nsIPrincipal
 *
-aPrincipal
 )
 const
 {
@@ -254,7 +251,6 @@ EditorBase
 aEditorBase
 nsIPrincipal
 *
-aPrincipal
 )
 const
 {
@@ -889,7 +885,6 @@ EditorBase
 aEditorBase
 nsIPrincipal
 *
-aPrincipal
 )
 const
 {
@@ -1068,7 +1063,6 @@ EditorBase
 aEditorBase
 nsIEditingSession
 *
-aEditingSession
 )
 const
 {
@@ -1881,10 +1875,8 @@ DocumentStateCommand
 IsCommandEnabled
 (
 Command
-aCommand
 EditorBase
 *
-aEditorBase
 )
 const
 {
@@ -1899,13 +1891,10 @@ DocumentStateCommand
 DoCommand
 (
 Command
-aCommand
 EditorBase
 &
-aEditorBase
 nsIPrincipal
 *
-aPrincipal
 )
 const
 {
