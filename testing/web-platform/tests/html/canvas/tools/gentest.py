@@ -400,6 +400,12 @@ img_reference
 None
     
 '
+html_lang
+'
+:
+None
+    
+'
 canvas
 '
 :
