@@ -79,7 +79,7 @@ mozilla
 wr
 {
 class
-RenderLinuxTextureHost
+RenderDMABUFTextureHost
 ;
 }
 namespace

@@ -500,7 +500,7 @@ webrender
 =
 [
 "
-RenderLinuxTextureHost
+RenderDMABUFTextureHost
 .
 h
 "
@@ -510,7 +510,7 @@ SOURCES
 =
 [
 "
-RenderLinuxTextureHost
+RenderDMABUFTextureHost
 .
 cpp
 "
@@ -536,6 +536,11 @@ RenderCompositorNative
 .
 h
 "
+"
+RenderWaylandTextureHost
+.
+h
+"
 ]
 SOURCES
 +
@@ -543,6 +548,11 @@ SOURCES
 [
 "
 RenderCompositorNative
+.
+cpp
+"
+"
+RenderWaylandTextureHost
 .
 cpp
 "
