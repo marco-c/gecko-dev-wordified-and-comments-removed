@@ -878,6 +878,15 @@ aModuleLoadInfo
 )
 )
 ;
+nt
+:
+:
+AutoSharedLock
+lock
+(
+gLoaderObserverLock
+)
+;
 auto
 previousValue
 =
