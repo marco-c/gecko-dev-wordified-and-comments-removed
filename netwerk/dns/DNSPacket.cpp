@@ -4506,7 +4506,7 @@ mSvcFieldPriority
 0
 )
 {
-continue
+break
 ;
 }
 if
