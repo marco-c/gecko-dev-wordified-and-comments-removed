@@ -1601,6 +1601,13 @@ js
 ]
 [
 "
+browser_storageAccessNavigationHeuristicContainerSwitch
+.
+js
+"
+]
+[
+"
 browser_storageAccessPrivilegeAPI
 .
 js
