@@ -1360,6 +1360,10 @@ aFeatures
 )
 mHiResTimer
 (
+mNoTimerResolutionChange
+?
+nullptr
+:
 :
 :
 CreateWaitableTimerExA
