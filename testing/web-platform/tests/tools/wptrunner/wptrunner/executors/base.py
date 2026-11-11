@@ -5179,17 +5179,16 @@ data
 ]
 )
     
+property
+    
 def
-do_pytest
+session_config
 (
 self
-path
-timeout
 )
 :
         
-session_config
-=
+return
 {
             
 "
@@ -5308,6 +5307,15 @@ webdriver_args
 }
         
 }
+    
+def
+do_pytest
+(
+self
+path
+timeout
+)
+:
         
 return
 pytestrunner
@@ -5320,6 +5328,8 @@ self
 .
 server_config
                                 
+self
+.
 session_config
                                 
 timeout

@@ -2971,15 +2971,23 @@ device_serial
         
 self
 .
+adb_binary
+=
+context
+.
+adb
+        
+self
+.
 device
 =
 context
 .
 get_device
 (
-context
+self
 .
-adb
+adb_binary
 self
 .
 device_serial
@@ -3193,6 +3201,17 @@ androidDeviceSerial
 self
 .
 device_serial
+        
+args
+[
+"
+adb_binary
+"
+]
+=
+self
+.
+adb_binary
         
 args
 [
