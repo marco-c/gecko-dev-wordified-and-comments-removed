@@ -2040,6 +2040,11 @@ case
 blockedByCOEP
 "
 :
+case
+"
+blockedByConnectionAllowlist
+"
+:
 {
 bodyTitleId
 =
