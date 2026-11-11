@@ -2947,6 +2947,14 @@ MediaSegment
 :
 Type
 aType
+MediaTrack
+:
+:
+Flags
+aFlags
+=
+{
+}
 )
 ;
 ProcessedMediaTrack
