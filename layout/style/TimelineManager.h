@@ -611,7 +611,6 @@ template
 typename
 TimelineType
 >
-static
 void
 DoUnregisterTimelines
 (

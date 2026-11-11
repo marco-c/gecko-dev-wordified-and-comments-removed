@@ -853,6 +853,17 @@ SharedStyleContext
 _
 >
 ;
+fn
+after_sequential_tasks
+(
+&
+self
+_root
+:
+E
+)
+{
+}
 }
 pub
 fn
