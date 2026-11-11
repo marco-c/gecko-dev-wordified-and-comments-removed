@@ -943,11 +943,6 @@ AudioContextOperationControlMessage
 aMessage
 )
 ;
-bool
-AudioTrackPresent
-(
-)
-;
 void
 CheckDriver
 (
