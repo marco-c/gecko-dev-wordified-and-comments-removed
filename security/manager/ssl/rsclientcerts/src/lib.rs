@@ -1528,6 +1528,16 @@ typ
 match
 typ
 {
+CKA_CERTIFICATE_TYPE
+=
+>
+"
+CKA_CERTIFICATE_TYPE
+"
+.
+to_string
+(
+)
 CKA_CLASS
 =
 >

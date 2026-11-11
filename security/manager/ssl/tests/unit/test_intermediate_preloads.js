@@ -2027,8 +2027,9 @@ Ci
 nsIX509CertDB
 )
 ;
-constructCertFromFile
+addCertFromFile
 (
+certDB
 "
 test_intermediate_preloads
 /
@@ -2056,8 +2057,6 @@ bug1966632
 ee
 .
 pem
-"
-"
 "
 )
 "

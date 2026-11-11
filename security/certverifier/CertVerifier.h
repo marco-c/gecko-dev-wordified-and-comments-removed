@@ -290,6 +290,7 @@ PreloadedIntermediates
 ThirdPartyCertificates
 NSSCertDB
 BuiltInRootsModule
+PKCS11Module
 }
 ;
 using
