@@ -7004,6 +7004,13 @@ failed
 "
 )
 ;
+return
+caretPointOrError
+.
+propagateErr
+(
+)
+;
 }
 nsresult
 rv
