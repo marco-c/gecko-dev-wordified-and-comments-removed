@@ -160,6 +160,11 @@ BounceTrackingRecord
 h
 "
 "
+BounceTrackingSite
+.
+h
+"
+"
 BounceTrackingState
 .
 h
@@ -206,6 +211,11 @@ cpp
 "
 "
 BounceTrackingRecord
+.
+cpp
+"
+"
+BounceTrackingSite
 .
 cpp
 "
