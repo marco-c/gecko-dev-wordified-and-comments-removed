@@ -2614,6 +2614,13 @@ tooltip
 }
 ;
 const
+rowIndex
+=
+this
+.
+_currentIndex
+;
+const
 activateAction
 =
 actionIndex
@@ -2636,6 +2643,7 @@ selectAutoCompleteEntry
 (
 true
 actionIndex
+rowIndex
 )
 ;
 if
