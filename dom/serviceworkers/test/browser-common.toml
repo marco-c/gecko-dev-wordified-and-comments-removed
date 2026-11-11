@@ -191,6 +191,13 @@ js
 ]
 [
 "
+browser_bounceTrackingProtection_serviceWorkers
+.
+js
+"
+]
+[
+"
 browser_clearData_serviceWorkers
 .
 js
