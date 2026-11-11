@@ -5,6 +5,8 @@ glob
 import
 json
 import
+math
+import
 multiprocessing
 import
 os
@@ -9106,6 +9108,34 @@ max_per_test_tests
 =
 30
         
+if
+self
+.
+config
+.
+get
+(
+"
+verify_paths
+"
+)
+:
+            
+max_per_test_time
+=
+timedelta
+(
+minutes
+=
+150
+)
+            
+max_per_test_tests
+=
+math
+.
+inf
+        
 executed_tests
 =
 0
@@ -9113,10 +9143,6 @@ executed_tests
 executed_too_many_tests
 =
 False
-        
-xpcshell_selftests
-=
-0
         
 if
 suites
@@ -9862,38 +9888,19 @@ test
 "
 in
 final_cmd
-:
+and
+(
                         
-should_remove_selftest
-=
-False
-                        
-if
 self
 .
 verify_enabled
+                        
 or
 self
 .
 per_test_coverage
-:
-                            
-xpcshell_selftests
-+
-=
-1
-                            
-if
-xpcshell_selftests
->
-1
-:
-                                
-should_remove_selftest
-=
-True
                         
-if
+or
 (
                             
 self
@@ -9924,16 +9931,10 @@ this_chunk
 1
                         
 )
+                    
+)
 :
-                            
-should_remove_selftest
-=
-True
                         
-if
-should_remove_selftest
-:
-                            
 final_cmd
 .
 remove
