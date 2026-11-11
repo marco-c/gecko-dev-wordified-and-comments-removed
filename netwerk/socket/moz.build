@@ -91,6 +91,12 @@ netwerk
 /
 base
 "
+"
+/
+netwerk
+/
+dns
+"
 ]
 include
 (
