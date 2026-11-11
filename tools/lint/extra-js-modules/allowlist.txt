@@ -2588,17 +2588,6 @@ toolkit
 /
 components
 /
-backgroundhangmonitor
-/
-BHRTelemetryService
-.
-sys
-.
-mjs
-toolkit
-/
-components
-/
 backgroundtasks
 /
 BackgroundTask_exception
