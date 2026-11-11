@@ -3559,7 +3559,7 @@ sendButton
 addEventListener
 (
 "
-click
+command
 "
 e
 =
@@ -3581,7 +3581,7 @@ sendMoreInfoButton
 addEventListener
 (
 "
-click
+command
 "
 e
 =
@@ -3602,7 +3602,7 @@ previewButton
 addEventListener
 (
 "
-click
+command
 "
 e
 =
@@ -3664,7 +3664,7 @@ okayButton
 addEventListener
 (
 "
-click
+command
 "
 (
 {
@@ -3703,7 +3703,7 @@ btn
 addEventListener
 (
 "
-click
+command
 "
 e
 =

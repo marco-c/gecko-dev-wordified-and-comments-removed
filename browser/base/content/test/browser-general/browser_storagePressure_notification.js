@@ -639,8 +639,6 @@ buttonContainer
 getElementsByTagName
 (
 "
-moz
--
 button
 "
 )

@@ -2191,9 +2191,6 @@ buttonContainer
 querySelectorAll
 (
 "
-.
-notification
--
 button
 "
 )
