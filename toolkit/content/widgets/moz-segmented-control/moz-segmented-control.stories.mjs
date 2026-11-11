@@ -302,9 +302,7 @@ input
 status
 :
 "
-in
--
-development
+stable
 "
 fluent
 :

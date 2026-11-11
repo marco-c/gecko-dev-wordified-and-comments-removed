@@ -380,9 +380,7 @@ change
 status
 :
 "
-in
--
-development
+stable
 "
 fluent
 :

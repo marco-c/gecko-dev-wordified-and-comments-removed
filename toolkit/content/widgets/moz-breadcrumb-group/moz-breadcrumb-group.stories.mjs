@@ -115,9 +115,7 @@ parameters
 status
 :
 "
-in
--
-development
+stable
 "
 fluent
 :
@@ -164,6 +162,7 @@ Template
 {
 l10nId
 width
+slot
 }
 )
 =
@@ -209,6 +208,14 @@ moz
 breadcrumb
 -
 group
+slot
+=
+{
+ifDefined
+(
+slot
+)
+}
 >
 <
 moz

@@ -175,9 +175,7 @@ parameters
 status
 :
 "
-in
--
-development
+stable
 "
 handles
 :

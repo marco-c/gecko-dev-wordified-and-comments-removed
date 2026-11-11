@@ -118,9 +118,7 @@ parameters
 status
 :
 "
-in
--
-development
+stable
 "
 fluent
 :
