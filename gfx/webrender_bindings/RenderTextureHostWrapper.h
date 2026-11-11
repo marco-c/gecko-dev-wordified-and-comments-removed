@@ -167,9 +167,9 @@ AsRenderTextureHostSWGL
 )
 override
 ;
-RenderDMABUFTextureHost
+RenderLinuxTextureHost
 *
-AsRenderDMABUFTextureHost
+AsRenderLinuxTextureHost
 (
 )
 override
