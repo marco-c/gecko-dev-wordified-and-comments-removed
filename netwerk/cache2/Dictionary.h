@@ -526,6 +526,10 @@ FinishHash
 void
 FinishHashOnMainThread
 (
+const
+nsACString
+&
+aHash
 )
 ;
 uint8_t
