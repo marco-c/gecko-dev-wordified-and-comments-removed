@@ -469,6 +469,11 @@ setOf
 c
 "
 )
+movedGroupId
+=
+"
+b
+"
 )
 )
 assertEquals

@@ -451,6 +451,11 @@ setOf
 c
 "
 )
+movedGroupId
+=
+"
+b
+"
 )
 )
 actions
@@ -577,6 +582,11 @@ setOf
 a
 "
 )
+movedGroupId
+=
+"
+a
+"
 )
 )
 actions
@@ -930,6 +940,11 @@ setOf
 c
 "
 )
+movedGroupId
+=
+"
+b
+"
 )
 )
 actions

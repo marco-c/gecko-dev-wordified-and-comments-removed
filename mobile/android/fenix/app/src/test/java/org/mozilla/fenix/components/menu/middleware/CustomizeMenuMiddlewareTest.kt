@@ -1016,6 +1016,9 @@ setOf
 (
 QUIT_GROUP_ID
 )
+movedGroupId
+=
+PAGE_CONTROLS_GROUP_ID
 )
 )
 verify
@@ -1105,6 +1108,9 @@ hiddenGroupIds
 emptySet
 (
 )
+movedGroupId
+=
+VPN_GROUP_ID
 )
 )
 verify
@@ -1260,6 +1266,9 @@ setOf
 (
 QUIT_GROUP_ID
 )
+movedGroupId
+=
+VPN_GROUP_ID
 )
 )
 verify
@@ -1354,6 +1363,9 @@ hiddenGroupIds
 emptySet
 (
 )
+movedGroupId
+=
+PAGE_CONTROLS_GROUP_ID
 )
 )
 store
@@ -1379,6 +1391,9 @@ hiddenGroupIds
 emptySet
 (
 )
+movedGroupId
+=
+PAGE_CONTROLS_GROUP_ID
 )
 )
 verify
@@ -1546,6 +1561,9 @@ hiddenGroupIds
 emptySet
 (
 )
+movedGroupId
+=
+PAGE_CONTROLS_GROUP_ID
 )
 )
 assertTrue
@@ -1639,6 +1657,9 @@ hiddenSectionIds
 toSet
 (
 )
+movedGroupId
+=
+TABS_CONTROLS_GROUP_ID
 )
 )
 assertFalse
@@ -1723,6 +1744,9 @@ setOf
 (
 QUIT_GROUP_ID
 )
+movedGroupId
+=
+QUIT_GROUP_ID
 )
 )
 captureActions
