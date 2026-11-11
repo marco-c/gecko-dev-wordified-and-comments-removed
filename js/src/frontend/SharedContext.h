@@ -1280,6 +1280,7 @@ Number
 True
 False
 Null
+Undefined
 EmptyArray
 EmptyObject
 }
