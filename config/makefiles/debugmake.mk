@@ -547,11 +547,6 @@ showhost
 _DEPEND_CFLAGS
 =
 showbuild
-showhost
-:
-COMPILE_PDB_FLAG
-=
-showbuild
 :
 (
 call
@@ -572,8 +567,6 @@ LD
 AR
 \
 MKSHLIB
-\
-MKCSHLIB
 \
 RC
 \
