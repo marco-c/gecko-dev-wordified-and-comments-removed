@@ -959,6 +959,13 @@ js
 ]
 [
 "
+browser_menu_domnodes_cleanup
+.
+js
+"
+]
+[
+"
 browser_mobile_root_on_bookmark_menus
 .
 js
