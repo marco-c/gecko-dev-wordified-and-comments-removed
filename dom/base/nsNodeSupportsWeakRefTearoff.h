@@ -44,13 +44,7 @@ nsINode
 *
 aNode
 )
-:
-mNode
-(
-aNode
-)
-{
-}
+;
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS_FINAL
 NS_DECL_NSISUPPORTSWEAKREFERENCE
 NS_DECL_CYCLE_COLLECTION_CLASS
@@ -63,8 +57,6 @@ private
 nsNodeSupportsWeakRefTearoff
 (
 )
-=
-default
 ;
 nsCOMPtr
 <
