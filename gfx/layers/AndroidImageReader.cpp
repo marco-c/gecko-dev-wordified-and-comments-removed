@@ -2667,7 +2667,7 @@ AImage_deleteAsync
 image
 fence
 .
-get
+release
 (
 )
 )
