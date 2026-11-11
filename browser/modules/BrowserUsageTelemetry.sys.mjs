@@ -763,11 +763,6 @@ box
 -
 link
 "
-"
-dialog
--
-button
-"
 ]
 )
 ;

@@ -425,11 +425,6 @@ Set
 (
 [
 "
-dialog
--
-button
-"
-"
 moz
 -
 box
