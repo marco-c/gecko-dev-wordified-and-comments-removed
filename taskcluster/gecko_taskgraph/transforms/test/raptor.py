@@ -2977,7 +2977,6 @@ replace
 if
 (
             
-(
 "
 android
 -
@@ -2997,15 +2996,10 @@ s24
 "
 in
 test_platform
+        
 )
-            
 and
-"
-speedometer2
--
-"
 not
-in
 test
 [
 "
@@ -3014,7 +3008,15 @@ test
 name
 "
 ]
-        
+.
+startswith
+(
+"
+browsertime
+-
+power
+-
+"
 )
 :
             
@@ -3026,14 +3028,13 @@ power
 -
 test
 "
-not
 in
 extra_options
 :
                 
 extra_options
 .
-append
+remove
 (
 "
 -
