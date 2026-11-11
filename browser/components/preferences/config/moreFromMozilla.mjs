@@ -1511,13 +1511,13 @@ chrome
 :
 /
 /
-branding
+browser
 /
 content
 /
-about
--
-logo
+logos
+/
+firefox
 .
 svg
 "
