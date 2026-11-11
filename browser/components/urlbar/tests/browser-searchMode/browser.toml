@@ -384,6 +384,13 @@ js
 ]
 [
 "
+browser_searchModeSwitcher_keyboardShortcuts
+.
+js
+"
+]
+[
+"
 browser_searchModeSwitcher_newBadge
 .
 js
