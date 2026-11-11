@@ -137,6 +137,9 @@ regex
 serde
 "
 "
+siphasher
+"
+"
 style_traits
 /
 gecko
@@ -657,9 +660,16 @@ servo_arc
 }
 siphasher
 =
+{
+version
+=
 "
 1
 "
+optional
+=
+true
+}
 stylo_atoms
 =
 {
