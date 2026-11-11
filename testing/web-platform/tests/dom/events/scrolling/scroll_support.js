@@ -604,11 +604,15 @@ eventTarget
 scroller
 =
 =
-document
+scroller
+.
+ownerDocument
 .
 scrollingElement
 ?
-document
+scroller
+.
+ownerDocument
 :
 scroller
 ;
