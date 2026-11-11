@@ -655,7 +655,6 @@ IsReferenced
 (
 )
 const
-MOZ_NO_THREAD_SAFETY_ANALYSIS
 ;
 bool
 IsFileDoomed
@@ -1385,10 +1384,6 @@ void
 AddHandleRef
 (
 )
-MOZ_REQUIRES
-(
-mLock
-)
 {
 +
 +
@@ -1398,10 +1393,6 @@ mHandlesCount
 void
 ReleaseHandleRef
 (
-)
-MOZ_REQUIRES
-(
-mLock
 )
 {
 -
@@ -1414,10 +1405,6 @@ HandlesCount
 (
 )
 const
-MOZ_REQUIRES
-(
-mLock
-)
 {
 return
 mHandlesCount
@@ -1507,10 +1494,6 @@ mozilla
 :
 ThreadSafeAutoRefCnt
 mHandlesCount
-MOZ_GUARDED_BY
-(
-mLock
-)
 ;
 nsTArray
 <
