@@ -930,6 +930,11 @@ mSuppressionGeneration
 =
 0
 ;
+bool
+mIsQueued
+=
+false
+;
 JS
 :
 :

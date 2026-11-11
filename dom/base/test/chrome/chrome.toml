@@ -323,6 +323,13 @@ html
 ]
 [
 "
+test_bug2084355
+.
+html
+"
+]
+[
+"
 test_bug780199
 .
 xhtml
