@@ -500,7 +500,7 @@ webrender
 =
 [
 "
-RenderDMABUFTextureHost
+RenderLinuxTextureHost
 .
 h
 "
@@ -510,7 +510,7 @@ SOURCES
 =
 [
 "
-RenderDMABUFTextureHost
+RenderLinuxTextureHost
 .
 cpp
 "
