@@ -107,6 +107,14 @@ org
 .
 junit
 .
+Assert
+.
+assertNull
+import
+org
+.
+junit
+.
 Test
 class
 GetApplicationInstalledTimeTest
@@ -179,7 +187,7 @@ NameNotFoundException
 THEN
 getApplicationInstalledTime
 returns
-0
+null
 (
 )
 {
@@ -227,9 +235,8 @@ Logger
 (
 )
 )
-assertEquals
+assertNull
 (
-0
 result
 )
 }
@@ -242,7 +249,7 @@ UnsupportedOperationException
 THEN
 getApplicationInstalledTime
 returns
-0
+null
 (
 )
 {
@@ -288,9 +295,8 @@ Logger
 (
 )
 )
-assertEquals
+assertNull
 (
-0
 result
 )
 }
