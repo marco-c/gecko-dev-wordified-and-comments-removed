@@ -119,6 +119,13 @@ js
 ]
 [
 "
+browser_bouncetracking_clearing
+.
+js
+"
+]
+[
+"
 browser_bouncetracking_clearingPurgeLogCrash
 .
 js
