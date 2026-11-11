@@ -1821,6 +1821,10 @@ mDocument
 =
 aResultDocument
 ;
+mLayoutStarted
+=
+false
+;
 aResultDocument
 -
 >
@@ -6610,7 +6614,7 @@ aAtts
 1
 ]
 )
-false
+mightHaveAttrs
 IsKnownNewAttr
 (
 !

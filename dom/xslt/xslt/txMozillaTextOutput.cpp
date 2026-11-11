@@ -645,6 +645,14 @@ Document
 READYSTATE_LOADING
 )
 ;
+mDocument
+-
+>
+SetMayStartLayout
+(
+false
+)
+;
 bool
 hasHadScriptObject
 =
