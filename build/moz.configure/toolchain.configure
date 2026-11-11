@@ -1534,9 +1534,9 @@ mac_sdk_min_version
 :
 return
 "
-26
+27
 .
-5
+2
 "
 depends
 (

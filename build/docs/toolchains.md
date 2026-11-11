@@ -2022,7 +2022,7 @@ kinds
 /
 toolchain
 /
-macosx
+macos
 -
 sdk
 .
