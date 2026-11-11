@@ -4,9 +4,7 @@ once
 #
 include
 <
-stdint
-.
-h
+cstdint
 >
 #
 include

@@ -97,12 +97,12 @@ Context
 >
 parent
 =
-SpanContext
+context
 :
 :
-GetInvalid
-(
-)
+Context
+{
+}
 ;
 SpanKind
 kind

@@ -166,6 +166,17 @@ constexpr
 const
 char
 *
+kKotlin
+=
+"
+kotlin
+"
+;
+static
+constexpr
+const
+char
+*
 kNodejs
 =
 "

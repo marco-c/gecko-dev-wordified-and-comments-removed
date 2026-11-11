@@ -1,9 +1,7 @@
 #
 include
 <
-stdint
-.
-h
+cstdint
 >
 #
 include

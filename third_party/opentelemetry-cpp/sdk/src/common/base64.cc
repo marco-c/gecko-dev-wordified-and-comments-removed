@@ -29,9 +29,7 @@ else
 #
 include
 <
-assert
-.
-h
+cassert
 >
 #
 endif
