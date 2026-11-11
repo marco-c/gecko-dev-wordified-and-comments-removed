@@ -26,6 +26,24 @@ browsingContext
 .
 load
 "
+INLINE_SCRIPT_DOCUMENT
+=
+"
+<
+script
+>
+window
+.
+baz
+=
+window
+.
+foo
+<
+/
+script
+>
+"
 pytestmark
 =
 pytest
@@ -65,7 +83,7 @@ opener_context_without_url
 "
     
 "
-data_url
+inline_script
 "
 ]
 )
@@ -148,7 +166,7 @@ access_type
 =
 =
 "
-data_url
+inline_script
 "
 :
         
@@ -318,37 +336,25 @@ access_type
 =
 =
 "
-data_url
+inline_script
 "
 :
             
 script
 =
+f
 "
 window
 .
 open
 (
 '
-data
-:
-text
-/
-html
-<
-script
->
-window
-.
-baz
-=
-window
-.
-foo
-<
-/
-script
->
+{
+inline
+(
+INLINE_SCRIPT_DOCUMENT
+)
+}
 '
 )
 "
@@ -555,13 +561,14 @@ access_type
 =
 =
 "
-data_url
+inline_script
 "
 :
             
 script
 +
 =
+f
 "
 "
 "
@@ -575,20 +582,9 @@ data
 text
 /
 html
-<
-script
->
-window
-.
-baz
-=
-window
-.
-foo
-<
-/
-script
->
+{
+INLINE_SCRIPT_DOCUMENT
+}
 '
 ;
                 
@@ -656,7 +652,7 @@ access_type
 =
 =
 "
-data_url
+inline_script
 "
 :
             
@@ -782,7 +778,7 @@ access_type
 =
 =
 "
-data_url
+inline_script
 "
 :
             
