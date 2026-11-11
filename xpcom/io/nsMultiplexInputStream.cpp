@@ -1650,6 +1650,10 @@ mCurrentStream
 =
 0
 ;
+mStartedReadingCurrent
+=
+false
+;
 }
 for
 (
