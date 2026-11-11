@@ -17761,7 +17761,7 @@ generated
 .
 maxTurns
 "
-20
+30
 )
 ;
 pref
