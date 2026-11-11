@@ -1201,6 +1201,13 @@ test_bug534293
 html
 [
 "
+test_processing_instruction_parsing
+.
+html
+"
+]
+[
+"
 test_xml_parse_error
 .
 html
