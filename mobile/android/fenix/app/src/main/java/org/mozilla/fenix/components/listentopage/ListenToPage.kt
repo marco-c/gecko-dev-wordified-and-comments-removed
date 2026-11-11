@@ -745,6 +745,15 @@ scope
 ListenToPageTelemetryMiddleware
 (
 )
+.
+also
+{
+it
+.
+register
+(
+)
+}
 thermalStatusMonitor
 (
 )
