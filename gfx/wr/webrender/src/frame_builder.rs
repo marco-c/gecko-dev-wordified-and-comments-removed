@@ -3737,6 +3737,7 @@ frame_memory
 &
 mut
 frame_memory
+profile
 }
 ;
 let
@@ -3864,6 +3865,7 @@ frame_memory
 &
 mut
 frame_memory
+profile
 }
 ;
 self
@@ -5997,10 +5999,6 @@ task_visible_rect
 pic_task
 .
 content_origin
-&
-ctx
-.
-frame_memory
 )
 ;
 path_tiler

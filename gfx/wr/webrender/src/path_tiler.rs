@@ -52,6 +52,15 @@ use
 crate
 :
 :
+gpu_types
+:
+:
+PrimitiveInstanceData
+;
+use
+crate
+:
+:
 renderer
 :
 :
@@ -1265,7 +1274,7 @@ l
 mut
 FrameVec
 <
-PathTileInstance
+PrimitiveInstanceData
 >
 pub
 solid_tiles
@@ -1278,7 +1287,7 @@ l
 mut
 FrameVec
 <
-PathTileInstance
+PrimitiveInstanceData
 >
 >
 }
@@ -5378,6 +5387,10 @@ path_index
 encode
 (
 )
+.
+into
+(
+)
 )
 ;
 }
@@ -6231,6 +6244,10 @@ path_index
 }
 .
 encode
+(
+)
+.
+into
 (
 )
 )
