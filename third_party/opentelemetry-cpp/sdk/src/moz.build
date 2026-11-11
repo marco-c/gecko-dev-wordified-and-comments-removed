@@ -6,6 +6,9 @@ DIRS
 common
 "
 "
+instrumentationscope
+"
+"
 resource
 "
 "
