@@ -162,6 +162,13 @@ const
 nsACString
 &
 aHost
+const
+Maybe
+<
+nsCString
+>
+&
+aOriginHost
 nsIDNSService
 :
 :
@@ -484,6 +491,13 @@ return
 NS_ERROR_UNKNOWN_HOST
 ;
 }
+packet
+.
+SetOriginHost
+(
+aOriginHost
+)
+;
 return
 ParseHTTPSRecord
 (

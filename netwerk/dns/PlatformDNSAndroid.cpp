@@ -191,6 +191,13 @@ const
 nsACString
 &
 aHost
+const
+Maybe
+<
+nsCString
+>
+&
+aOriginHost
 nsIDNSService
 :
 :
@@ -600,6 +607,13 @@ return
 rv
 ;
 }
+packet
+.
+SetOriginHost
+(
+aOriginHost
+)
+;
 return
 ParseHTTPSRecord
 (

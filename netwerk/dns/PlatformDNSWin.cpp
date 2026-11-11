@@ -133,6 +133,13 @@ const
 nsACString
 &
 aHost
+const
+Maybe
+<
+nsCString
+>
+&
+aOriginHost
 TypeRecordResultType
 &
 aResult
@@ -174,6 +181,8 @@ cname
 cnameIsAlias
 &
 aTTL
+&
+aOriginHost
 ]
 (
 const
@@ -294,6 +303,11 @@ current
 -
 >
 wDataLength
+aOriginHost
+?
+*
+aOriginHost
+:
 aHost
 )
 ;
@@ -686,6 +700,13 @@ const
 nsACString
 &
 aHost
+const
+Maybe
+<
+nsCString
+>
+&
+aOriginHost
 nsIDNSService
 :
 :
@@ -843,6 +864,7 @@ ParseHTTPSRecordList
 (
 result
 host
+aOriginHost
 aResult
 aTTL
 aAlias
