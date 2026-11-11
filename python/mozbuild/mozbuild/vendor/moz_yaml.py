@@ -1434,23 +1434,6 @@ commits
 "
                         
 )
-                        
-"
-platform
-"
-:
-Match
-(
-r
-"
-^
-(
-windows
-|
-linux
-)
-"
-)
                     
 }
                 

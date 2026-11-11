@@ -3540,14 +3540,6 @@ weeks
 "
                                 
 "
-platform
-"
-:
-"
-windows
-"
-                                
-"
 options
 "
 :
@@ -3735,10 +3727,6 @@ frequency
 :
 1
 weeks
-      
-platform
-:
-windows
       
 options
 :
@@ -4032,14 +4020,6 @@ weeks
 4
 commits
 "
-                                
-"
-platform
-"
-:
-"
-windows
-"
                             
 }
                         
@@ -4219,10 +4199,6 @@ frequency
 weeks
 4
 commits
-      
-platform
-:
-windows
             
 "
 "
@@ -4430,10 +4406,6 @@ frequency
 weeks
 4
 commits
-      
-platform
-:
-windows
             
 "
 "
@@ -4739,14 +4711,6 @@ frequency
 2
 weeks
 "
-                                
-"
-platform
-"
-:
-"
-linux
-"
                             
 }
                         
@@ -4928,10 +4892,6 @@ frequency
 :
 2
 weeks
-      
-platform
-:
-linux
       
 source
 -
@@ -5645,14 +5605,6 @@ frequency
 2
 commits
 "
-                                
-"
-platform
-"
-:
-"
-linux
-"
                             
 }
                         
@@ -5834,10 +5786,6 @@ frequency
 :
 2
 commits
-      
-platform
-:
-linux
       
 source
 -
@@ -6177,14 +6125,6 @@ frequency
 2
 commits
 "
-                                
-"
-platform
-"
-:
-"
-linux
-"
                             
 }
                         
@@ -6381,10 +6321,6 @@ frequency
 :
 2
 commits
-      
-platform
-:
-linux
       
 source
 -
@@ -6595,10 +6531,6 @@ frequency
 :
 2
 commits
-      
-platform
-:
-linux
       
 source
 -
@@ -8869,10 +8801,6 @@ frequency
 2
 commits
       
-platform
-:
-linux
-      
 source
 -
 extensions
@@ -9087,10 +9015,6 @@ frequency
 2
 commits
       
-platform
-:
-linux
-      
 source
 -
 extensions
@@ -9294,10 +9218,6 @@ frequency
 commits
 4
 weeks
-      
-platform
-:
-linux
       
 source
 -
@@ -9505,10 +9425,6 @@ commits
 3
 weeks
       
-platform
-:
-linux
-      
 source
 -
 extensions
@@ -9714,10 +9630,6 @@ frequency
 :
 2
 weeks
-      
-platform
-:
-linux
       
 source
 -
@@ -9925,10 +9837,6 @@ frequency
 01
 commits
       
-platform
-:
-linux
-      
 source
 -
 extensions
@@ -10133,7 +10041,21 @@ weeks
       
 platform
 :
-mac
+linux
+#
+Updatebot
+only
+runs
+on
+Linux
+;
+platform
+is
+no
+longer
+a
+valid
+key
       
 source
 -
