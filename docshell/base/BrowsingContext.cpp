@@ -13321,6 +13321,14 @@ aLoadState
 )
 )
 ;
+aLoadState
+-
+>
+SetSourceElement
+(
+nullptr
+)
+;
 if
 (
 XRE_IsParentProcess
