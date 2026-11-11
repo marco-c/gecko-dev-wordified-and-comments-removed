@@ -174,7 +174,7 @@ std
 num
 ;
 use
-strum
+strum_macros
 :
 :
 VariantNames
