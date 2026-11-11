@@ -523,7 +523,7 @@ requireComponents
 .
 settings
 .
-importPasswordsFeatureFlagEnabled
+isImportPasswordsAvailable
 sortOrder
 =
 LoginsSortOrder
