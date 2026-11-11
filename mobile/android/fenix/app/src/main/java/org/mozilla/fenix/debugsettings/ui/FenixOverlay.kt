@@ -723,7 +723,7 @@ fenix
 .
 theme
 .
-DefaultThemeProvider
+FirefoxTheme
 import
 org
 .
@@ -733,7 +733,7 @@ fenix
 .
 theme
 .
-FirefoxTheme
+getThemeProvider
 /
 *
 *
@@ -1488,9 +1488,11 @@ FirefoxTheme
 (
 theme
 =
-DefaultThemeProvider
+getThemeProvider
+(
+)
 .
-provideTheme
+provideNonPrivateTheme
 (
 )
 )

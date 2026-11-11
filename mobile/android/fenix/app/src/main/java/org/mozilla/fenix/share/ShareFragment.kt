@@ -349,7 +349,7 @@ fenix
 .
 theme
 .
-DefaultThemeProvider
+FirefoxTheme
 import
 org
 .
@@ -359,7 +359,7 @@ fenix
 .
 theme
 .
-FirefoxTheme
+getThemeProvider
 class
 ShareFragment
 :
@@ -940,9 +940,11 @@ FirefoxTheme
 (
 theme
 =
-DefaultThemeProvider
+getThemeProvider
+(
+)
 .
-provideTheme
+provideNonPrivateTheme
 (
 )
 )
@@ -982,9 +984,11 @@ FirefoxTheme
 (
 theme
 =
-DefaultThemeProvider
+getThemeProvider
+(
+)
 .
-provideTheme
+provideNonPrivateTheme
 (
 )
 )
