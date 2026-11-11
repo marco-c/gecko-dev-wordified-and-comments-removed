@@ -2198,6 +2198,9 @@ onClickEvent
 MenuAction
 .
 IPProtectionToggle
+debounceClicks
+=
+false
 badge
 =
 MenuItemBadge
