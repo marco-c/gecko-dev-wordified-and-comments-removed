@@ -160,8 +160,11 @@ gBrowser
 backgroundTab
 )
 ;
+UrlbarTestUtils
+.
 assertSearchStringIsInUrlbar
 (
+window
 SEARCH_STRING
 )
 ;

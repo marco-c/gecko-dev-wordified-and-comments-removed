@@ -430,8 +430,11 @@ KEY_Enter
 await
 browserLoadedPromise
 ;
+UrlbarTestUtils
+.
 assertSearchStringIsInUrlbar
 (
+window
 SEARCH_STRING
 )
 ;
