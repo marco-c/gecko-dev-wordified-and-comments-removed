@@ -230,7 +230,7 @@ store
 .
 state
 .
-PendingActivationRequest
+ProxyActivation
 import
 mozilla
 .
@@ -244,7 +244,7 @@ store
 .
 state
 .
-ProxyActivation
+ProxyRequest
 import
 mozilla
 .
@@ -437,9 +437,9 @@ LocationListUpdateState
 LocationListUpdateState
 .
 NotRequested
-pendingActivationRequest
+proxyRequest
 :
-PendingActivationRequest
+ProxyRequest
 ?
 =
 null
@@ -483,8 +483,8 @@ updateState
 proxyActivation
 =
 proxyActivation
-pendingActivationRequest
+proxyRequest
 =
-pendingActivationRequest
+proxyRequest
 )
 }

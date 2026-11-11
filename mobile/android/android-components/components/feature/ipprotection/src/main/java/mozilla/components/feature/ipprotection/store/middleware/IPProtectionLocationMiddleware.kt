@@ -476,7 +476,13 @@ IPProtectionAction
 .
 ActivationAction
 .
-ActivationRequestCompleted
+ProxyRequestStarted
+is
+IPProtectionAction
+.
+ActivationAction
+.
+ProxyRequestFinished
 is
 IPProtectionAction
 .
