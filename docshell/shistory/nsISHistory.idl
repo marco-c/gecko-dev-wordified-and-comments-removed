@@ -185,7 +185,7 @@ embedded
 browser
 environment
 the
-nsIWebBrowser
+nsWebBrowser
 *
 object
 creates

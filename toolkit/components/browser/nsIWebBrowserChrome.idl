@@ -72,9 +72,6 @@ nsIBaseWindow
 idl
 "
 interface
-nsIWebBrowser
-;
-interface
 nsIDocShellTreeItem
 ;
 /
@@ -1122,9 +1119,6 @@ noscript
 void
 getDimensions
 (
-in
-DimensionKind
-aDimensionKind
 out
 long
 aX

@@ -108,7 +108,7 @@ a
 GetInterface
 on
 an
-nsIWebBrowser
+nsIDocShell
 .
 *
 *

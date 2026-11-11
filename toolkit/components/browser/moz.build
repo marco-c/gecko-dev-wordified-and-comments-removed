@@ -85,11 +85,6 @@ XPIDL_SOURCES
 =
 [
 "
-nsIWebBrowser
-.
-idl
-"
-"
 nsIWebBrowserChrome
 .
 idl

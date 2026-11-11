@@ -246,13 +246,6 @@ h
 #
 include
 "
-nsIWebBrowser
-.
-h
-"
-#
-include
-"
 nsIDocShell
 .
 h
