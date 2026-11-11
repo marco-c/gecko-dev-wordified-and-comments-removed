@@ -833,11 +833,6 @@ KEY_Tab
 window
 )
 ;
-await
-flakyWaitForManyIdles
-(
-)
-;
 }
 EventUtils
 .
@@ -963,11 +958,6 @@ KEY_Tab
 {
 }
 window
-)
-;
-await
-flakyWaitForManyIdles
-(
 )
 ;
 }
