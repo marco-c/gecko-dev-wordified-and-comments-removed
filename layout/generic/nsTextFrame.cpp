@@ -8822,6 +8822,8 @@ gfxTextRun
 >
 textRun
 ;
+do
+{
 if
 (
 !
@@ -8929,7 +8931,7 @@ textRun
 )
 )
 {
-return
+break
 ;
 }
 }
@@ -9040,7 +9042,7 @@ fallible
 )
 )
 {
-return
+break
 ;
 }
 textRun
@@ -9085,6 +9087,12 @@ textRun
 }
 }
 }
+}
+while
+(
+false
+)
+;
 if
 (
 aFlushLineBreaks
