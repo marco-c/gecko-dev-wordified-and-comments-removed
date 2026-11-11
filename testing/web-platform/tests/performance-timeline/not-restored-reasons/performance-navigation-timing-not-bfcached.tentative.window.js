@@ -37,7 +37,7 @@ noopener
 )
 ;
 await
-useWebSocket
+useBFCacheBlockingFeature
 (
 rc1
 )
@@ -84,9 +84,7 @@ null
 reason
 '
 :
-'
-websocket
-'
+BFCACHE_BLOCKING_REASON
 }
 ]
 [

@@ -79,7 +79,7 @@ id
 )
 ;
 await
-useWebSocket
+useBFCacheBlockingFeature
 (
 rc1_child
 )
@@ -190,9 +190,7 @@ reasons
 reason
 '
 :
-'
-websocket
-'
+BFCACHE_BLOCKING_REASON
 }
 ]
 '

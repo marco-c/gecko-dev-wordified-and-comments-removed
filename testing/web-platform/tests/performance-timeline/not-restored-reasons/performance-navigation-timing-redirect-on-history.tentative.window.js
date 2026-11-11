@@ -47,7 +47,7 @@ noopener
 )
 ;
 await
-useWebSocket
+useBFCacheBlockingFeature
 (
 rc1
 )
