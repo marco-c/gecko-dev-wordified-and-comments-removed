@@ -131227,7 +131227,7 @@ disable
 angle
 type
 :
-RelaxedAtomicBool
+bool
 #
 if
 defined
@@ -131252,7 +131252,7 @@ true
 endif
 mirror
 :
-always
+once
 -
 name
 :

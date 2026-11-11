@@ -2286,7 +2286,7 @@ SANDBOX_LITERAL
 static
 const
 char
-SandboxPolicyGPUx86_64Addend
+SandboxPolicyGPUWindowServerAddend
 [
 ]
 =
