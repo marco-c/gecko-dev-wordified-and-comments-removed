@@ -3,6 +3,13 @@ DEFAULT
 ]
 [
 "
+test_WebExtensionPolicy_aboutnewtab
+.
+js
+"
+]
+[
+"
 test_ext_webRequest_StreamFilter_disconnect_transitions
 .
 js

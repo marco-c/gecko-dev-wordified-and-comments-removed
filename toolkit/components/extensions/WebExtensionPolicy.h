@@ -907,6 +907,10 @@ mIsPrivileged
 ;
 const
 bool
+mAboutNewTabMayAccess
+;
+const
+bool
 mTemporarilyInstalled
 ;
 const
