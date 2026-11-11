@@ -3705,17 +3705,6 @@ true
 ;
 }
 }
-#
-[
-cfg
-(
-feature
-=
-"
-gecko
-"
-)
-]
 {
 use
 crate
