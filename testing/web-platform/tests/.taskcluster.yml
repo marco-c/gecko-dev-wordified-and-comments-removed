@@ -561,6 +561,11 @@ workerType
 ci
 -
 gw
+priority
+:
+very
+-
+high
 metadata
 :
 name
@@ -619,7 +624,7 @@ tests
 /
 wpt
 :
-3
+4
 maxRunTime
 :
 7200

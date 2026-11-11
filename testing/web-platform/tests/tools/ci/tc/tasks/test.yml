@@ -39,7 +39,7 @@ tests
 /
 wpt
 :
-3
+4
 maxRunTime
 :
 7200
@@ -2098,6 +2098,11 @@ use
 wpt
 -
 base
+priority
+:
+very
+-
+high
 command
 :
 "
@@ -2936,6 +2941,9 @@ base
 trigger
 -
 pr
+priority
+:
+highest
 command
 :
 "
