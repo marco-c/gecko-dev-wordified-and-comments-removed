@@ -13832,6 +13832,13 @@ js
 ]
 [
 "
+test_upload_stream_normalization
+.
+js
+"
+]
+[
+"
 test_uri_mutator
 .
 js
