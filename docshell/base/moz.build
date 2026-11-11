@@ -346,11 +346,6 @@ nsDocShellLoadTypes
 h
 "
 "
-nsDocShellTreeOwner
-.
-h
-"
-"
 nsDSURIContentListener
 .
 h
@@ -508,11 +503,6 @@ cpp
 "
 "
 nsDocShellTelemetryUtils
-.
-cpp
-"
-"
-nsDocShellTreeOwner
 .
 cpp
 "

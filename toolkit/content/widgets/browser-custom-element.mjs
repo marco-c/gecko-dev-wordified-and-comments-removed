@@ -1151,7 +1151,7 @@ dragover
 in
 e10s
 since
-nsDocShellTreeOwner
+nsWebBrowser
 .
 cpp
 in
@@ -1611,7 +1611,7 @@ drop
 in
 e10s
 since
-nsDocShellTreeOwner
+nsWebBrowser
 .
 cpp
 in
