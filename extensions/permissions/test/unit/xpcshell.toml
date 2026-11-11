@@ -536,6 +536,13 @@ js
 ]
 [
 "
+test_permmanager_removePermissionsExceptDefaults
+.
+js
+"
+]
+[
+"
 test_permmanager_removePermissionsWithAttributes
 .
 js
