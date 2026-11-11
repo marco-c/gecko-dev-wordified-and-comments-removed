@@ -140,7 +140,13 @@ newDesc
 .
 colorSpace
 =
+mFactory
+-
+>
+GetFactoryCspace
+(
 colorSpace
+)
 ;
 newDesc
 .
