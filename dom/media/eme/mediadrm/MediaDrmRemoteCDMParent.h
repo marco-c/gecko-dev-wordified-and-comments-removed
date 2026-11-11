@@ -724,6 +724,11 @@ id
 nsAutoCString
 mimeType
 ;
+bool
+awaitingCertificate
+=
+false
+;
 }
 ;
 std
@@ -741,6 +746,12 @@ MozPromiseHolder
 InternalPromise
 >
 mProvisionPromise
+;
+nsTArray
+<
+nsString
+>
+mCertificateQueue
 ;
 mutable
 Mutex
