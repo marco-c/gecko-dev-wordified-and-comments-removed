@@ -1376,6 +1376,11 @@ bool
 >
 mForceMaybeResetName
 ;
+bool
+mReplacesActiveEntry
+=
+false
+;
 }
 ;
 class
@@ -1904,6 +1909,14 @@ GetParent
 ;
 void
 SetInfo
+(
+SessionHistoryInfo
+*
+aInfo
+)
+;
+void
+ReplaceInfo
 (
 SessionHistoryInfo
 *

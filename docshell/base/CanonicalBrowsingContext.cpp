@@ -9270,7 +9270,7 @@ GetHasUserInteraction
 mActiveEntry
 -
 >
-SetInfo
+ReplaceInfo
 (
 aInfo
 )
