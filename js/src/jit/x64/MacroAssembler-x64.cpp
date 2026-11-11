@@ -4991,7 +4991,7 @@ asMasm
 )
 rsp
 rax
-rbx
+r11
 rcx
 )
 ;
@@ -5586,7 +5586,7 @@ rhs
 rdx
 )
 ?
-rbx
+r11
 :
 rhs
 ;
