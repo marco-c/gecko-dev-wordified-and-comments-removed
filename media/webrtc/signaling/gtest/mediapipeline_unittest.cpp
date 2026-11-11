@@ -634,10 +634,10 @@ mMutex
 MOZ_RELEASE_ASSERT
 (
 !
-mMainThreadDestroyed
+mDestroyed
 )
 ;
-mMainThreadDestroyed
+mDestroyed
 =
 true
 ;
@@ -826,7 +826,7 @@ if
 t
 -
 >
-mMainThreadDestroyed
+mDestroyed
 )
 {
 return
@@ -4569,7 +4569,7 @@ Destroy
 )
 override
 {
-mMainThreadDestroyed
+mDestroyed
 =
 true
 ;

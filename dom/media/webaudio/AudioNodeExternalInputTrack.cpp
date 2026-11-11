@@ -224,6 +224,8 @@ aGraph
 AddTrack
 (
 track
+{
+}
 )
 ;
 return

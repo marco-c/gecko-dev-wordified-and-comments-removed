@@ -3281,6 +3281,8 @@ graph
 AddTrack
 (
 dummyTrack
+{
+}
 )
 ;
 dummyTrack
@@ -3632,6 +3634,8 @@ graph
 AddTrack
 (
 track
+{
+}
 )
 ;
 track
@@ -4780,6 +4784,8 @@ graph
 AddTrack
 (
 track
+{
+}
 )
 ;
 track
@@ -5194,6 +5200,8 @@ aGraph
 AddTrack
 (
 track
+{
+}
 )
 ;
 return
@@ -22179,6 +22187,8 @@ graph
 AddTrack
 (
 processedTrack
+{
+}
 )
 ;
 processedTrack
@@ -22813,6 +22823,8 @@ graph
 AddTrack
 (
 processedTrack
+{
+}
 )
 ;
 processedTrack
@@ -24617,6 +24629,8 @@ graph
 AddTrack
 (
 processedTrack
+{
+}
 )
 ;
 processedTrack
@@ -26619,6 +26633,8 @@ graph
 AddTrack
 (
 processedTrack
+{
+}
 )
 ;
 processedTrack
@@ -27943,6 +27959,8 @@ graph
 AddTrack
 (
 processedTrack
+{
+}
 )
 ;
 processedTrack
@@ -28610,6 +28628,8 @@ graph
 AddTrack
 (
 processedTrack
+{
+}
 )
 ;
 processedTrack
@@ -29301,6 +29321,8 @@ graph
 AddTrack
 (
 processedTrack
+{
+}
 )
 ;
 processedTrack
@@ -29873,6 +29895,8 @@ graph
 AddTrack
 (
 processedTrack
+{
+}
 )
 ;
 processedTrack

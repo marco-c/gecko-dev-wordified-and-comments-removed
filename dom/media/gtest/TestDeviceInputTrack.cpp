@@ -457,6 +457,8 @@ aGraph
 AddTrack
 (
 track
+{
+}
 )
 ;
 return
@@ -1000,6 +1002,8 @@ mGraph
 AddTrack
 (
 track
+{
+}
 )
 ;
 generator
@@ -1402,6 +1406,8 @@ mGraph
 AddTrack
 (
 track
+{
+}
 )
 ;
 {
@@ -2024,6 +2030,8 @@ mGraph
 AddTrack
 (
 track
+{
+}
 )
 ;
 GraphTime
@@ -2583,6 +2591,8 @@ mGraph
 AddTrack
 (
 track
+{
+}
 )
 ;
 auto
@@ -2941,6 +2951,8 @@ mGraph
 AddTrack
 (
 track
+{
+}
 )
 ;
 auto
