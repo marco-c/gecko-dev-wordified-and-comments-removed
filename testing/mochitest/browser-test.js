@@ -251,6 +251,9 @@ FAILING_UNCAUGHT_ERROR_NAMES
 "
 AccessKeyConflictError
 "
+"
+SessionStateValidationError
+"
 ]
 ;
 setTimeout
