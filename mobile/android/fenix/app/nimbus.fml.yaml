@@ -7876,7 +7876,7 @@ type
 Boolean
 default
 :
-false
+true
 oled
 -
 theme
