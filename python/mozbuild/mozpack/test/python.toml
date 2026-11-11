@@ -50,6 +50,13 @@ py
 ]
 [
 "
+test_macho_linkedit
+.
+py
+"
+]
+[
+"
 test_manifests
 .
 py
