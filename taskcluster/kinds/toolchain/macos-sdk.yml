@@ -117,11 +117,6 @@ sbin
 "
 run
 :
-clone
--
-with
-:
-hg
 script
 :
 unpack

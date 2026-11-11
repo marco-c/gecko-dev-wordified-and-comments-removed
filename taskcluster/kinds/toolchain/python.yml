@@ -88,11 +88,6 @@ time
 7200
 run
 :
-clone
--
-with
-:
-hg
 script
 :
 build
