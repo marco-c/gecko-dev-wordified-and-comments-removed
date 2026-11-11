@@ -5729,6 +5729,9 @@ mut
 results
 .
 path_tiles
+solid_tiles
+:
+None
 }
 )
 ;
