@@ -93,12 +93,6 @@ kotlinx
 .
 coroutines
 .
-Dispatchers
-import
-kotlinx
-.
-coroutines
-.
 launch
 import
 mozilla
@@ -486,11 +480,6 @@ owner
 lifecycleScope
 .
 launch
-(
-Dispatchers
-.
-IO
-)
 {
 if
 (
@@ -536,7 +525,7 @@ topSitesStorage
 .
 getTopSites
 (
-totalSites
+targetSitesCount
 =
 DefaultTopSitesStorage
 .
