@@ -2692,6 +2692,11 @@ span
 html
 :
 select
+size
+=
+"
+3
+"
 >
 <
 html

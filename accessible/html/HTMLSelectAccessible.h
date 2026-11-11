@@ -583,17 +583,6 @@ HTMLComboboxAccessible
 default
 ;
 virtual
-EDescriptionValueFlag
-Description
-(
-nsString
-&
-aDescription
-)
-const
-override
-;
-virtual
 void
 Value
 (
