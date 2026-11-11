@@ -82,6 +82,15 @@ include
 "
 mozilla
 /
+WeakPtr
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 BrowsingContext
@@ -451,6 +460,11 @@ ipc
 MessageManagerCallback
 public
 nsWrapperCache
+public
+mozilla
+:
+:
+SupportsWeakPtr
 public
 mozilla
 :
