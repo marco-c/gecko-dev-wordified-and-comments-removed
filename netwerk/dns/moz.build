@@ -360,6 +360,16 @@ PlatformDNSMac
 cpp
 "
 ]
+SOURCE_HEADERS
++
+=
+[
+"
+PlatformDNSMac
+.
+h
+"
+]
 elif
 CONFIG
 [
