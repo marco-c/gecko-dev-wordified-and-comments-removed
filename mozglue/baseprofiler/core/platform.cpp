@@ -738,7 +738,7 @@ GP_OS_windows
 ProfilerFeature
 :
 :
-ClearNoTimerResolutionChange
+ClearWinSystemTickSampling
 (
 features
 )
@@ -8877,7 +8877,7 @@ defined
 GP_OS_windows
 )
 bool
-mNoTimerResolutionChange
+mWinSystemTickSampling
 =
 true
 ;

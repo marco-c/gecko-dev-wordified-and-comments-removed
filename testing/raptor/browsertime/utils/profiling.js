@@ -639,7 +639,7 @@ MOZ_PROFILER_STARTUP_FEATURES
 "
 power
 nostacksampling
-notimerresolutionchange
+winsystemticksampling
 "
 MOZ_PROFILER_SHUTDOWN
 :

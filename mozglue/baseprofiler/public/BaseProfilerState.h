@@ -936,9 +936,9 @@ MACRO
 (
 14
 "
-notimerresolutionchange
+winsystemticksampling
 "
-NoTimerResolutionChange
+WinSystemTickSampling
 \
 "
 Keep
