@@ -727,6 +727,9 @@ By
 .
 CSS_SELECTOR
 '
+.
+notification
+-
 button
 [
 label

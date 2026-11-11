@@ -1319,7 +1319,6 @@ buttonContainer
 querySelector
 (
 "
-button
 .
 notification
 -
