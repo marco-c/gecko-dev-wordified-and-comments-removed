@@ -613,7 +613,7 @@ constexpr
 Register
 ScratchReg
 =
-r11
+rbx
 ;
 struct
 ScratchRegisterScope
@@ -774,7 +774,7 @@ constexpr
 Register
 CallTempReg2
 =
-rbx
+r11
 ;
 static
 constexpr
@@ -863,7 +863,7 @@ CallTempNonArgRegs
 {
 rax
 rdi
-rbx
+r11
 rsi
 }
 ;
@@ -1007,7 +1007,7 @@ CallTempNonArgRegs
 =
 {
 rax
-rbx
+r11
 }
 ;
 static
@@ -1238,7 +1238,7 @@ constexpr
 Register
 ABINonArgReg1
 =
-rbx
+r11
 ;
 static
 constexpr
@@ -1395,7 +1395,7 @@ constexpr
 Register
 WasmJitEntryReturnScratch
 =
-rbx
+r11
 ;
 static
 constexpr
