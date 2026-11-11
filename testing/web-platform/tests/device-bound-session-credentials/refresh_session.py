@@ -78,7 +78,11 @@ get_refresh_endpoint_unavailable
         
 return
 (
-500
+test_session_manager
+.
+get_refresh_endpoint_unavailable_status
+(
+)
 response
 .
 headers

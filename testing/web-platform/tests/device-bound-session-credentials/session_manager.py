@@ -320,6 +320,12 @@ False
         
 self
 .
+refresh_endpoint_unavailable_status
+=
+500
+        
+self
+.
 response_session_id_override
 =
 None
@@ -908,6 +914,30 @@ self
 refresh_endpoint_unavailable
 =
 refresh_endpoint_unavailable
+        
+refresh_endpoint_unavailable_status
+=
+configuration
+.
+get
+(
+"
+refreshEndpointUnavailableStatus
+"
+)
+        
+if
+refresh_endpoint_unavailable_status
+is
+not
+None
+:
+            
+self
+.
+refresh_endpoint_unavailable_status
+=
+refresh_endpoint_unavailable_status
         
 response_session_id_override
 =
@@ -1873,6 +1903,18 @@ return
 self
 .
 refresh_endpoint_unavailable
+    
+def
+get_refresh_endpoint_unavailable_status
+(
+self
+)
+:
+        
+return
+self
+.
+refresh_endpoint_unavailable_status
     
 def
 get_provider_session_id
