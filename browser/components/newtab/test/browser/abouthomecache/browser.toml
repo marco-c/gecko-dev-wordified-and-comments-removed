@@ -172,7 +172,9 @@ stream
 .
 feeds
 .
-discoverystreamfeed
+section
+.
+topstories
 =
 true
 "
@@ -187,7 +189,7 @@ stream
 .
 feeds
 .
-section
+system
 .
 topstories
 =
