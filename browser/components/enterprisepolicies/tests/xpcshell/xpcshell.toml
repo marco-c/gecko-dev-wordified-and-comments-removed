@@ -97,6 +97,13 @@ js
 ]
 [
 "
+test_aicontrols_custom_widgets
+.
+js
+"
+]
+[
+"
 test_allowed_domains_for_apps
 .
 js
