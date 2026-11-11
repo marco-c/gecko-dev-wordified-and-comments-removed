@@ -5762,6 +5762,10 @@ context
 contexts
 =
 None
+        
+user_contexts
+=
+None
     
 )
 :
@@ -5863,6 +5867,7 @@ subscribe_events
 (
 events
 contexts
+user_contexts
 )
         
 network_events
