@@ -153,6 +153,11 @@ KeySystemConfig
 .
 h
 "
+"
+ProtobufReader
+.
+h
+"
 ]
 UNIFIED_SOURCES
 +
@@ -220,6 +225,11 @@ cpp
 "
 "
 MediaKeySystemAccessPermissionRequest
+.
+cpp
+"
+"
+ProtobufReader
 .
 cpp
 "

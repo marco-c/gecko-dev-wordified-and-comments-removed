@@ -472,6 +472,11 @@ TestPDMFactorySupport
 cpp
 "
 "
+TestProtobufReader
+.
+cpp
+"
+"
 TestQuantizableBuffer
 .
 cpp
