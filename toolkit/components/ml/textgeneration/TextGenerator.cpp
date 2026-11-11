@@ -2213,6 +2213,14 @@ promise
 self
 generateStart
 stats
+=
+std
+:
+:
+move
+(
+stats
+)
 chunkTokens
 ]
 (
