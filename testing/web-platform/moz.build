@@ -91,16 +91,6 @@ wptrunner
 ini
 "
 ]
-PYTHON_UNITTEST_MANIFESTS
-+
-=
-[
-"
-python
-.
-toml
-"
-]
 with
 Files
 (
