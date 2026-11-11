@@ -98,13 +98,9 @@ Private
 *
 aPromise
 const
-OriginAttributes
+BounceTrackingSite
 &
-aOriginAttributes
-const
-nsACString
-&
-aHost
+aSite
 PRTime
 aBounceTime
 BounceTrackingRecord
