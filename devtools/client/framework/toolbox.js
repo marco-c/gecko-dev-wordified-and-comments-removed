@@ -22342,6 +22342,11 @@ getBoolPref
 (
 DEVTOOLS_STYLESHEETS_IN_DEBUGGER
 )
+&
+&
+stylesheetResource
+.
+href
 )
 {
 Glean
