@@ -341,6 +341,8 @@ mozbuild
 .
 artifact_builds
 import
+GECKO_ESR_TREES
+GECKO_NIGHTLY_TREES
 JOB_CHOICES
 from
 mozbuild
@@ -655,21 +657,7 @@ release
     
 nightly_candidate_trees
 =
-[
-        
-"
-mozilla
--
-central
-"
-        
-"
-integration
-/
-autoland
-"
-    
-]
+GECKO_NIGHTLY_TREES
     
 beta_candidate_trees
 =
@@ -687,33 +675,7 @@ beta
     
 esr_candidate_trees
 =
-[
-        
-"
-releases
-/
-mozilla
--
-esr153
-"
-        
-"
-releases
-/
-mozilla
--
-esr140
-"
-        
-"
-releases
-/
-mozilla
--
-esr115
-"
-    
-]
+GECKO_ESR_TREES
     
 try_tree
 =
