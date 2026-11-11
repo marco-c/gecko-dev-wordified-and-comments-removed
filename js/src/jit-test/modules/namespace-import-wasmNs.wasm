@@ -1,0 +1,11 @@
+asm
+(
+namespace
+-
+import
+-
+reexport
+.
+js
+wasmNs
+o
