@@ -918,8 +918,8 @@ body
 Closing
 all
 your
-private
-windows
+Private
+Windows
 deletes
 your
 cookies
