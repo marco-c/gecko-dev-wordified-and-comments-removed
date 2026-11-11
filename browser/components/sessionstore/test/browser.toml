@@ -205,17 +205,6 @@ closedTabsFromClosedWindows
 =
 true
 "
-"
-browser
-.
-sessionstore
-.
-debug
-.
-validate_state
-=
-true
-"
 #
 Override
 the
