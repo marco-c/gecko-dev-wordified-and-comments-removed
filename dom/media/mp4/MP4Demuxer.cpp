@@ -2678,9 +2678,6 @@ Seek
 seekTime
 )
 ;
-#
-ifdef
-MOZ_APPLEMEDIA
 bool
 hasSeenValidSamples
 =
@@ -2689,8 +2686,6 @@ seekingFromFirstSyncSample
 =
 false
 ;
-#
-endif
 do
 {
 auto
@@ -2718,9 +2713,6 @@ unwrapErr
 (
 )
 ;
-#
-ifdef
-MOZ_APPLEMEDIA
 if
 (
 (
@@ -2798,8 +2790,6 @@ First
 continue
 ;
 }
-#
-endif
 return
 SeekPromise
 :
@@ -2867,15 +2857,10 @@ mQueuedSample
 mTime
 ;
 }
-#
-ifdef
-MOZ_APPLEMEDIA
 hasSeenValidSamples
 =
 true
 ;
-#
-endif
 }
 while
 (
