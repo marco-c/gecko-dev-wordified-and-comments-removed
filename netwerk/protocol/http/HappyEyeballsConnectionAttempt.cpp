@@ -6503,6 +6503,8 @@ caps
 =
 mCaps
 |
+NS_HTTP_ERROR_SOFTLY
+|
 (
 aIsEchRetry
 ?
@@ -6915,6 +6917,8 @@ uint32_t
 caps
 =
 mCaps
+|
+NS_HTTP_ERROR_SOFTLY
 |
 (
 aIsEchRetry
