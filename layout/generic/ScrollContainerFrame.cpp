@@ -17193,7 +17193,13 @@ this
 &
 rootResultList
 nullptr
-true
+nsDisplayViewTransitionCapture
+:
+:
+Kind
+:
+:
+Root
 )
 ;
 }
@@ -35863,7 +35869,7 @@ GetScrollRangeForUserInputEvents
 nsPoint
 scrollPos
 =
-GetScrollPosition
+GetVisualViewportOffset
 (
 )
 ;
