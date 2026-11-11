@@ -183,7 +183,8 @@ that
 are
 declared
 in
-ini
+TOML
+manifest
 files
 such
 as
@@ -224,8 +225,6 @@ test
 moz
 .
 build
-#
-17
 The
 framework
 loads
