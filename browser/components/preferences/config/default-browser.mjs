@@ -458,9 +458,6 @@ createDefaultBrowserConfig
 includeIsDefaultPane
 =
 true
-inProgress
-=
-false
 hiddenFromSearch
 =
 false
@@ -664,17 +661,6 @@ headingLevel
 :
 2
 items
-.
-.
-.
-(
-inProgress
-&
-&
-{
-inProgress
-}
-)
 .
 .
 .

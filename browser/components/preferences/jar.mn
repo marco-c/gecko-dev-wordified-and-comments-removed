@@ -109,15 +109,6 @@ browser
 /
 preferences
 /
-sync
-.
-js
-content
-/
-browser
-/
-preferences
-/
 fxaPairDevice
 .
 xhtml
