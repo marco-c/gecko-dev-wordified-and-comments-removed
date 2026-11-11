@@ -43,17 +43,17 @@ type
 "
 :
 "
-base64
+path
 "
             
 "
-value
+path
 "
 :
 extension_data
 [
 "
-base64
+path
 "
 ]
         

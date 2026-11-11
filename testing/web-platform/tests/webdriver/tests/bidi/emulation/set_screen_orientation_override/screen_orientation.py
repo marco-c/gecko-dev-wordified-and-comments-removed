@@ -356,6 +356,23 @@ complete
     
 )
     
+await
+bidi_session
+.
+browsing_context
+.
+activate
+(
+context
+=
+new_tab
+[
+"
+context
+"
+]
+)
+    
 on_script_message
 =
 wait_for_event

@@ -72,6 +72,13 @@ pytest
 mark
 .
 asyncio
+CONTEXT_DESTROYED_EVENT
+=
+"
+browsingContext
+.
+contextDestroyed
+"
 CONTEXT_LOAD_EVENT
 =
 "
@@ -124,6 +131,8 @@ subscribe_events
     
 wait_for_event
     
+wait_for_future_safe
+    
 mouse_up
 )
 :
@@ -164,6 +173,7 @@ events
 =
 [
 CONTEXT_LOAD_EVENT
+CONTEXT_DESTROYED_EVENT
 ]
 )
     
@@ -239,6 +249,13 @@ origin
 get_element_origin
 (
 element
+)
+    
+on_destroyed
+=
+wait_for_event
+(
+CONTEXT_DESTROYED_EVENT
 )
     
 if
@@ -388,6 +405,12 @@ context
 "
 ]
         
+)
+    
+await
+wait_for_future_safe
+(
+on_destroyed
 )
     
 with
@@ -2485,25 +2508,21 @@ parametrize
 "
 x
 y
-event_count
 "
 [
     
 (
 0
 0
-0
 )
     
 (
 1
 0
-1
 )
     
 (
 0
-1
 1
 )
 ]
@@ -2532,7 +2551,6 @@ load_static_test_page
 top_context
 x
 y
-event_count
 )
 :
     
@@ -2548,6 +2566,23 @@ html
 "
 )
     
+expected_count
+=
+0
+if
+(
+x
+y
+)
+=
+=
+(
+0
+0
+)
+else
+1
+    
 actions
 =
 Actions
@@ -2613,7 +2648,7 @@ events
 )
 =
 =
-event_count
+expected_count
     
 actions
 =
@@ -2680,7 +2715,7 @@ events
 )
 =
 =
-event_count
+expected_count
 pytest
 .
 mark
