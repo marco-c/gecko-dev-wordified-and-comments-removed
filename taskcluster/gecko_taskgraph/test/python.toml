@@ -106,6 +106,13 @@ py
 ]
 [
 "
+test_transforms_copy_cached_dep
+.
+py
+"
+]
+[
+"
 test_transforms_duplicate
 .
 py
