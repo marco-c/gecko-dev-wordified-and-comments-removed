@@ -208,11 +208,6 @@ upload
 symbols
 run
 :
-clone
--
-with
-:
-hg
 using
 :
 mach
