@@ -1288,6 +1288,24 @@ confirm
 -
 failure
 "
+        
+task
+.
+task
+[
+"
+tags
+"
+]
+[
+"
+manifests
+"
+]
+=
+"
+partial
+"
     
 return
 task
