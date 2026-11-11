@@ -129,6 +129,11 @@ decode_certs_unittest
 cc
 '
 '
+name_constraints_unittest
+.
+cc
+'
+'
 smime_profile_unittest
 .
 cc
