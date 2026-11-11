@@ -558,6 +558,7 @@ vp8_loop_filter_simple_mbv
 neon
 msa
 mmi
+lsx
 /
 "
 sse2_asm
@@ -598,6 +599,10 @@ vp8_loop_filter_simple_mbv_mmi
 =
 vp8_loop_filter_simple_vertical_edge_mmi
 ;
+vp8_loop_filter_simple_mbv_lsx
+=
+vp8_loop_filter_simple_vertical_edge_lsx
+;
 add_proto
 qw
 /
@@ -625,6 +630,7 @@ vp8_loop_filter_simple_mbh
 neon
 msa
 mmi
+lsx
 /
 "
 sse2_asm
@@ -665,6 +671,10 @@ vp8_loop_filter_simple_mbh_mmi
 =
 vp8_loop_filter_simple_horizontal_edge_mmi
 ;
+vp8_loop_filter_simple_mbh_lsx
+=
+vp8_loop_filter_simple_horizontal_edge_lsx
+;
 add_proto
 qw
 /
@@ -692,6 +702,7 @@ vp8_loop_filter_simple_bv
 neon
 msa
 mmi
+lsx
 /
 "
 sse2_asm
@@ -732,6 +743,10 @@ vp8_loop_filter_simple_bv_mmi
 =
 vp8_loop_filter_bvs_mmi
 ;
+vp8_loop_filter_simple_bv_lsx
+=
+vp8_loop_filter_bvs_lsx
+;
 add_proto
 qw
 /
@@ -759,6 +774,7 @@ vp8_loop_filter_simple_bh
 neon
 msa
 mmi
+lsx
 /
 "
 sse2_asm
@@ -798,6 +814,10 @@ vp8_loop_filter_bhs_msa
 vp8_loop_filter_simple_bh_mmi
 =
 vp8_loop_filter_bhs_mmi
+;
+vp8_loop_filter_simple_bh_lsx
+=
+vp8_loop_filter_bhs_lsx
 ;
 #
 #
@@ -1674,6 +1694,7 @@ ssse3
 neon
 msa
 mmi
+lsx
 /
 ;
 #
