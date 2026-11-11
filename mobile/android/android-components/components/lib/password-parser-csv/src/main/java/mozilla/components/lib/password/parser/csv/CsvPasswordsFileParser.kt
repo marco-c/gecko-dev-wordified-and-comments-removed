@@ -855,7 +855,7 @@ errorType
 =
 PasswordsParseError
 .
-FileFormat
+UnsupportedContentType
 message
 =
 "

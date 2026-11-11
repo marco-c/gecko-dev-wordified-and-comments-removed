@@ -156,6 +156,9 @@ listOf
 (
 PasswordsParseError
 .
+UnsupportedContentType
+PasswordsParseError
+.
 FileFormat
 PasswordsParseError
 .
