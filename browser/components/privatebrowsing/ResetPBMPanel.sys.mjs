@@ -573,7 +573,7 @@ panelview
 addEventListener
 (
 "
-command
+click
 "
 this
 )
@@ -647,7 +647,7 @@ panelview
 removeEventListener
 (
 "
-command
+click
 "
 this
 )
