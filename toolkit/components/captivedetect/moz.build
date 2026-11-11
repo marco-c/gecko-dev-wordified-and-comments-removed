@@ -101,7 +101,7 @@ XPIDL_MODULE
 "
 captivedetect
 "
-EXTRA_JS_MODULES
+MOZ_SRC_FILES
 +
 =
 [

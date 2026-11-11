@@ -2729,17 +2729,6 @@ toolkit
 /
 components
 /
-captivedetect
-/
-CaptiveDetect
-.
-sys
-.
-mjs
-toolkit
-/
-components
-/
 cleardata
 /
 ClearBySiteEntry
