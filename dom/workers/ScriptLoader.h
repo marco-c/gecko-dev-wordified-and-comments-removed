@@ -282,6 +282,11 @@ mMutedErrorFlag
 false
 ;
 uint32_t
+mEvaluatingScriptCount
+=
+0
+;
+uint32_t
 mLoadingModuleRequestCount
 ;
 bool
@@ -498,6 +503,12 @@ AllScriptsExecuted
 )
 {
 return
+mEvaluatingScriptCount
+=
+=
+0
+&
+&
 mLoadingRequests
 .
 isEmpty

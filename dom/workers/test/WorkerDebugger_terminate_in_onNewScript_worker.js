@@ -1,0 +1,12 @@
+"
+use
+strict
+"
+;
+postMessage
+(
+"
+worker
+"
+)
+;
