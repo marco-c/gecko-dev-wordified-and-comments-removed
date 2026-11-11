@@ -406,6 +406,15 @@ py
 "
 controller
 /
+test_buildid
+.
+py
+"
+]
+[
+"
+controller
+/
 test_ccachestats
 .
 py
