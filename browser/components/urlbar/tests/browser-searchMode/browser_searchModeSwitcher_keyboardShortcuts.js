@@ -302,7 +302,6 @@ window
 value
 :
 "
-test
 "
 }
 )
