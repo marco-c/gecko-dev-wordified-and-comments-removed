@@ -427,6 +427,9 @@ function
 waitForPasteMenuPopupEvent
 (
 aEventSuffix
+aDocument
+=
+document
 )
 {
 return
@@ -434,7 +437,7 @@ BrowserTestUtils
 .
 waitForEvent
 (
-document
+aDocument
 "
 popup
 "
@@ -467,6 +470,9 @@ kPasteMenuPopupId
 function
 promisePasteButtonIsShown
 (
+aDocument
+=
+document
 )
 {
 return
@@ -475,6 +481,7 @@ waitForPasteMenuPopupEvent
 "
 shown
 "
+aDocument
 )
 .
 then
@@ -506,7 +513,7 @@ button
 const
 pasteButton
 =
-document
+aDocument
 .
 getElementById
 (
