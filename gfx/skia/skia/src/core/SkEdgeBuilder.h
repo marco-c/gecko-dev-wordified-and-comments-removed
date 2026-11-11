@@ -145,6 +145,11 @@ SkSTArenaAlloc
 >
 fAlloc
 ;
+bool
+fCanCullToTheRight
+=
+true
+;
 enum
 Combine
 {
