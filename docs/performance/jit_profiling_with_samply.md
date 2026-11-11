@@ -118,7 +118,7 @@ MOZ_DISABLE_CONTENT_SANDBOX
 MOZ_USE_PERFORMANCE_MARKER_FILE
 =
 1
-JIT_OPTION_enableStubFramePointers
+JIT_OPTION_enableICFramePointers
 =
 true
 JIT_OPTION_onlyInlineSelfHosted
@@ -162,7 +162,7 @@ js
 -
 enable
 -
-stub
+ic
 -
 frame
 -

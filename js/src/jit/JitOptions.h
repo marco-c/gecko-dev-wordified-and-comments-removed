@@ -274,7 +274,7 @@ bool
 onlyInlineSelfHosted
 ;
 bool
-enableStubFramePointers
+enableICFramePointers
 ;
 bool
 enableWasmJitExit
