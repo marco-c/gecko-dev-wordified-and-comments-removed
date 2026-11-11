@@ -111,9 +111,6 @@ include
 IPCTransferable
 ;
 include
-URIParams
-;
-include
 PPrintingTypes
 ;
 include
@@ -3863,9 +3860,6 @@ The
 requested
 change
 of
-inner
-or
-outer
 dimensions
 .
 *

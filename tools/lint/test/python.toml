@@ -265,6 +265,13 @@ py
 ]
 [
 "
+test_ipdl_uriparams
+.
+py
+"
+]
+[
+"
 test_lintpref
 .
 py
