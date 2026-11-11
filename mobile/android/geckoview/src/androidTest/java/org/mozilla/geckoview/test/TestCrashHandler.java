@@ -857,6 +857,15 @@ MessageHandler
 (
 )
 {
+super
+(
+Looper
+.
+myLooper
+(
+)
+)
+;
 }
 Override
 public

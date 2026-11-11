@@ -31,9 +31,9 @@ import
 static
 org
 .
-junit
+hamcrest
 .
-Assert
+MatcherAssert
 .
 assertThat
 ;

@@ -25,17 +25,6 @@ net
 Uri
 ;
 import
-android
-.
-test
-.
-suitebuilder
-.
-annotation
-.
-SmallTest
-;
-import
 org
 .
 junit
@@ -64,7 +53,6 @@ RobolectricTestRunner
 .
 class
 )
-SmallTest
 public
 class
 IntentUtilsTest
