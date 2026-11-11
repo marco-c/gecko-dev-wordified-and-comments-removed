@@ -83,7 +83,7 @@ ATK_STATE_INDETERMINATE
 kMapDirectly
 }
 {
-kNone
+ATK_STATE_READ_ONLY
 kMapDirectly
 }
 {
