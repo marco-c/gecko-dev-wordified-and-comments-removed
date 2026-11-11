@@ -1358,6 +1358,9 @@ mozac_feature_addons_permissions_history_description
 "
 >
 Auf
+die
+Surf
+-
 Chronik
 zugreifen
 <
@@ -2635,12 +2638,12 @@ name
 mozac_feature_addons_permissions_find_description_for_update
 "
 >
-Auf
-Texte
+Den
+Text
 aller
 offenen
 Tabs
-zugreifen
+lesen
 .
 <
 /
