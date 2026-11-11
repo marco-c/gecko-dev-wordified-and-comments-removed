@@ -123,10 +123,6 @@ xpcshell
 "
     
 "
-webpagetest
-"
-    
-"
 mochitest
 "
     

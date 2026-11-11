@@ -184,17 +184,6 @@ test_mochitest_multiscript
 html
 "
 )
-EXAMPLE_WPT_TEST
-=
-Path
-(
-EXAMPLE_TESTS_DIR
-"
-test_perftest_WPT_init_file
-.
-js
-"
-)
 EXAMPLE_SHELL_TEST
 =
 HERE
