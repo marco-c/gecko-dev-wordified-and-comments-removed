@@ -347,6 +347,15 @@ event
 MenuEvent
 )
 =
+target
+!
+=
+MenuTarget
+.
+Preview
+&
+&
+(
 event
 =
 =
@@ -355,6 +364,7 @@ MenuAction
 Navigate
 .
 Bookmarks
+)
 override
 fun
 onEvent

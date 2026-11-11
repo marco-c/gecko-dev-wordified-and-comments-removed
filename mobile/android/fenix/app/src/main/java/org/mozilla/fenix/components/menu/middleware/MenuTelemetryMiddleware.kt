@@ -301,6 +301,16 @@ next
 (
 action
 )
+if
+(
+accessPoint
+=
+=
+MenuAccessPoint
+.
+Preview
+)
+return
 when
 (
 action

@@ -340,6 +340,15 @@ event
 MenuEvent
 )
 =
+target
+!
+=
+MenuTarget
+.
+Preview
+&
+&
+(
 event
 =
 =
@@ -348,6 +357,7 @@ MenuAction
 Navigate
 .
 CustomizeHomepage
+)
 override
 fun
 onEvent

@@ -447,6 +447,15 @@ event
 MenuEvent
 )
 =
+target
+!
+=
+MenuTarget
+.
+Preview
+&
+&
+(
 event
 =
 =
@@ -455,6 +464,7 @@ MenuAction
 Navigate
 .
 NewPrivateTab
+)
 override
 fun
 onEvent

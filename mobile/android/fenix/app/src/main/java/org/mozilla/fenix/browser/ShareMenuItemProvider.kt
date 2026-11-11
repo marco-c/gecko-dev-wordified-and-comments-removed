@@ -442,6 +442,15 @@ event
 MenuEvent
 )
 =
+target
+!
+=
+MenuTarget
+.
+Preview
+&
+&
+(
 event
 =
 =
@@ -450,6 +459,7 @@ MenuAction
 Navigate
 .
 Share
+)
 /
 *
 *

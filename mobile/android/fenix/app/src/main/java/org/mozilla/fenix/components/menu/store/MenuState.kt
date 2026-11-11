@@ -802,6 +802,9 @@ MenuAccessPoint
 Browser
 MenuAccessPoint
 .
+Preview
+MenuAccessPoint
+.
 External
 -
 >
@@ -886,6 +889,14 @@ accesspoint
 MenuAccessPoint
 .
 Browser
+|
+|
+accesspoint
+=
+=
+MenuAccessPoint
+.
+Preview
 |
 |
 accesspoint
