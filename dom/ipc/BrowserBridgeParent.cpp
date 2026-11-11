@@ -700,6 +700,17 @@ this
 mBrowserParent
 -
 >
+SetOwnerFrameLoader
+(
+aParentBrowser
+-
+>
+mOwnerFrameLoader
+)
+;
+mBrowserParent
+-
+>
 SetOwnerElement
 (
 aParentBrowser
