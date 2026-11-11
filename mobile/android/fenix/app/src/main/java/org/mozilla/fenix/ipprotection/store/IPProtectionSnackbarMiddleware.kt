@@ -71,12 +71,6 @@ mozilla
 .
 components
 .
-ExperimentalAndroidComponentsApi
-import
-mozilla
-.
-components
-.
 feature
 .
 ipprotection
@@ -250,13 +244,6 @@ messages
 .
 *
 /
-OptIn
-(
-ExperimentalAndroidComponentsApi
-:
-:
-class
-)
 class
 IPProtectionSnackbarMiddleware
 (

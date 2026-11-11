@@ -1903,13 +1903,6 @@ states
 .
 *
 /
-OptIn
-(
-ExperimentalAndroidComponentsApi
-:
-:
-class
-)
 override
 fun
 setGeckoPrefsState

@@ -89,12 +89,6 @@ kotlinx
 .
 coroutines
 .
-ExperimentalCoroutinesApi
-import
-kotlinx
-.
-coroutines
-.
 test
 .
 runTest
@@ -170,13 +164,6 @@ robolectric
 annotation
 .
 Config
-OptIn
-(
-ExperimentalCoroutinesApi
-:
-:
-class
-)
 RunWith
 (
 AndroidJUnit4

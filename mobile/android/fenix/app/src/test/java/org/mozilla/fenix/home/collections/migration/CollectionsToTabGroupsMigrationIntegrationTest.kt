@@ -91,12 +91,6 @@ kotlinx
 .
 coroutines
 .
-ExperimentalCoroutinesApi
-import
-kotlinx
-.
-coroutines
-.
 flow
 .
 first
@@ -310,13 +304,6 @@ fenix
 utils
 .
 Settings
-OptIn
-(
-ExperimentalCoroutinesApi
-:
-:
-class
-)
 RunWith
 (
 AndroidJUnit4

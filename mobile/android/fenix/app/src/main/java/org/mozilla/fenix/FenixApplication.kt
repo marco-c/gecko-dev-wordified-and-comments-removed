@@ -345,12 +345,6 @@ mozilla
 .
 components
 .
-ExperimentalAndroidComponentsApi
-import
-mozilla
-.
-components
-.
 browser
 .
 state
@@ -4972,13 +4966,6 @@ warmUp
 }
 }
 }
-OptIn
-(
-ExperimentalAndroidComponentsApi
-:
-:
-class
-)
 private
 fun
 queueNimbusFetchInForeground

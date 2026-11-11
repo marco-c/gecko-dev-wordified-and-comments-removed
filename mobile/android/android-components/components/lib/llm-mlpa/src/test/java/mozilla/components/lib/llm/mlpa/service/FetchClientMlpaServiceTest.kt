@@ -123,12 +123,6 @@ test
 .
 runTest
 import
-kotlinx
-.
-serialization
-.
-ExperimentalSerializationApi
-import
 mozilla
 .
 components
@@ -617,13 +611,6 @@ getOrThrow
 expected
 )
 }
-OptIn
-(
-ExperimentalSerializationApi
-:
-:
-class
-)
 Test
 fun
 GIVEN

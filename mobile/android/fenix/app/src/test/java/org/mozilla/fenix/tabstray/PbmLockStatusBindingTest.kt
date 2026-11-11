@@ -81,12 +81,6 @@ kotlinx
 .
 coroutines
 .
-ExperimentalCoroutinesApi
-import
-kotlinx
-.
-coroutines
-.
 test
 .
 StandardTestDispatcher
@@ -204,13 +198,6 @@ redux
 store
 .
 TabsTrayStore
-OptIn
-(
-ExperimentalCoroutinesApi
-:
-:
-class
-)
 class
 PbmLockStatusBindingTest
 {

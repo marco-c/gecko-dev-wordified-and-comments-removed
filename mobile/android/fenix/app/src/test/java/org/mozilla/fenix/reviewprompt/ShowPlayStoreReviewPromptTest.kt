@@ -107,12 +107,6 @@ kotlinx
 .
 coroutines
 .
-ExperimentalCoroutinesApi
-import
-kotlinx
-.
-coroutines
-.
 test
 .
 StandardTestDispatcher
@@ -244,13 +238,6 @@ reviewprompt
 ReviewPromptState
 .
 NotEligible
-OptIn
-(
-ExperimentalCoroutinesApi
-:
-:
-class
-)
 RunWith
 (
 AndroidJUnit4

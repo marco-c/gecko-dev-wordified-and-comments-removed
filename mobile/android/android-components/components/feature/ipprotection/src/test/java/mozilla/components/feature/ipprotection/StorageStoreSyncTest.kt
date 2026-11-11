@@ -85,12 +85,6 @@ mozilla
 .
 components
 .
-ExperimentalAndroidComponentsApi
-import
-mozilla
-.
-components
-.
 feature
 .
 ipprotection
@@ -170,13 +164,6 @@ org
 junit
 .
 Test
-OptIn
-(
-ExperimentalAndroidComponentsApi
-:
-:
-class
-)
 class
 StorageStoreSyncTest
 {

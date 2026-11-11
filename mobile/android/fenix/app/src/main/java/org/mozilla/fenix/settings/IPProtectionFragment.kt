@@ -197,12 +197,6 @@ mozilla
 .
 components
 .
-ExperimentalAndroidComponentsApi
-import
-mozilla
-.
-components
-.
 feature
 .
 ipprotection
@@ -584,13 +578,6 @@ Toggle
 )
 }
 }
-OptIn
-(
-ExperimentalAndroidComponentsApi
-:
-:
-class
-)
 override
 fun
 onCreateView

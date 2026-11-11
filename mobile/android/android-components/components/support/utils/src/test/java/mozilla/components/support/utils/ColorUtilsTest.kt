@@ -762,13 +762,6 @@ lighten
 )
 }
 Test
-OptIn
-(
-ExperimentalStdlibApi
-:
-:
-class
-)
 fun
 GIVEN
 a
@@ -897,13 +890,6 @@ darken
 )
 }
 Test
-OptIn
-(
-ExperimentalStdlibApi
-:
-:
-class
-)
 fun
 GIVEN
 a

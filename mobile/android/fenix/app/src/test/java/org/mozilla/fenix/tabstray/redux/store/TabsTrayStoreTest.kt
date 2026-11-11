@@ -85,12 +85,6 @@ kotlinx
 .
 coroutines
 .
-ExperimentalCoroutinesApi
-import
-kotlinx
-.
-coroutines
-.
 test
 .
 runTest
@@ -148,13 +142,6 @@ redux
 state
 .
 TabsTrayState
-OptIn
-(
-ExperimentalCoroutinesApi
-:
-:
-class
-)
 RunWith
 (
 AndroidJUnit4
