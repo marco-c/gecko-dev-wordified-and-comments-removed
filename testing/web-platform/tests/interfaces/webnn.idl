@@ -423,6 +423,12 @@ int8
 "
 uint8
 "
+"
+bfloat16
+"
+"
+float8e4m3
+"
 }
 ;
 dictionary

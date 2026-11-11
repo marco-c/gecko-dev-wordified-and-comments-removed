@@ -62,6 +62,7 @@ element
 Exposed
 =
 Window
+SecureContext
 ]
 interface
 HTMLModelElement

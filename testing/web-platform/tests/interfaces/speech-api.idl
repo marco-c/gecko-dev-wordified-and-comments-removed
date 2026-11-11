@@ -144,7 +144,7 @@ abort
 static
 Promise
 <
-AvailabilityStatus
+SpeechRecognitionAvailabilityStatus
 >
 available
 (
@@ -299,7 +299,7 @@ supported
 }
 ;
 enum
-AvailabilityStatus
+SpeechRecognitionAvailabilityStatus
 {
 "
 unavailable
@@ -430,6 +430,16 @@ readonly
 attribute
 boolean
 isFinal
+;
+readonly
+attribute
+double
+speechStartTime
+;
+readonly
+attribute
+double
+speechEndTime
 ;
 }
 ;
@@ -643,7 +653,7 @@ index
 )
 ;
 undefined
-addFromURI
+addFromUri
 (
 DOMString
 src
