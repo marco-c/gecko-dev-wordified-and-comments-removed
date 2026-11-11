@@ -117,6 +117,16 @@ ruff
 .
 py
 "
+-
+"
+python
+/
+sites
+/
+lint
+.
+txt
+"
 #
 Rules
 that

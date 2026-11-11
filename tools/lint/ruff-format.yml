@@ -110,6 +110,16 @@ pyproject
 .
 toml
 '
+-
+'
+python
+/
+sites
+/
+lint
+.
+txt
+'
 type
 :
 external

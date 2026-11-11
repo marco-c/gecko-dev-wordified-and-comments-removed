@@ -605,6 +605,16 @@ spell
 *
 *
 '
+-
+'
+python
+/
+sites
+/
+lint
+.
+txt
+'
 type
 :
 external

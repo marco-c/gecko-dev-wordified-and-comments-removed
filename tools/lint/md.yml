@@ -281,6 +281,16 @@ rumdl
 .
 py
 '
+-
+'
+python
+/
+sites
+/
+lint
+.
+txt
+'
 type
 :
 external
