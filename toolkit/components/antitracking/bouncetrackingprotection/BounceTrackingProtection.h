@@ -316,9 +316,10 @@ nullptr
 void
 MaybeLogPurgedWarningForSite
 (
-nsIPrincipal
-*
-aPrincipal
+const
+BounceTrackingSite
+&
+aSite
 BounceTrackingState
 *
 aBounceTrackingState

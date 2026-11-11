@@ -190,16 +190,6 @@ Init
 (
 )
 ;
-static
-OriginAttributes
-NormalizeOriginAttributes
-(
-const
-OriginAttributes
-&
-aOriginAttributes
-)
-;
 RefPtr
 <
 BounceTrackingStateGlobal

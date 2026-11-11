@@ -253,15 +253,6 @@ uint64_t
 aLoadId
 )
 ;
-static
-bool
-ShouldTrackPrincipal
-(
-nsIPrincipal
-*
-aPrincipal
-)
-;
 [
 [
 nodiscard
