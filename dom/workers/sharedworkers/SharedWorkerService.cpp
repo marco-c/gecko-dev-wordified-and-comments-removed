@@ -1190,8 +1190,6 @@ nsCOMPtr
 nsIURI
 >
 resolvedScriptURL
-=
-DeserializeURI
 (
 aData
 .
@@ -1204,6 +1202,14 @@ if
 (
 !
 resolvedScriptURL
+|
+|
+!
+aData
+.
+baseScriptURL
+(
+)
 )
 {
 ErrorPropagationOnMainThread

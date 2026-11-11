@@ -224,13 +224,10 @@ aEffectiveStoragePrincipalAttrs
 )
 mResolvedScriptURL
 (
-DeserializeURI
-(
 aData
 .
 resolvedScriptURL
 (
-)
 )
 )
 mWorkerOptions

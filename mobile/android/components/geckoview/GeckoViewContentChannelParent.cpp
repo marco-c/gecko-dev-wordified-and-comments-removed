@@ -663,11 +663,6 @@ nsCOMPtr
 nsIURI
 >
 uri
-=
-ipc
-:
-:
-DeserializeURI
 (
 aArgs
 .
