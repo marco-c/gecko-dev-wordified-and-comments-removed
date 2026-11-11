@@ -3216,6 +3216,14 @@ uri
 )
 ;
 bool
+NS_IsAboutBlankOrSrcdoc
+(
+nsIURI
+*
+uri
+)
+;
+bool
 NS_IsFetchScheme
 (
 nsIURI

@@ -2724,7 +2724,7 @@ targetURI
 entry
 -
 >
-GetURIOrInheritedForAboutBlank
+GetURIOrInheritedForAboutBlankOrSrcdoc
 (
 )
 ;
@@ -2771,7 +2771,7 @@ uri
 previousEntry
 -
 >
-GetURIOrInheritedForAboutBlank
+GetURIOrInheritedForAboutBlankOrSrcdoc
 (
 )
 ;
@@ -2877,7 +2877,7 @@ uri
 entry
 -
 >
-GetURIOrInheritedForAboutBlank
+GetURIOrInheritedForAboutBlankOrSrcdoc
 (
 )
 ;
@@ -3006,7 +3006,7 @@ targetURI
 entry
 -
 >
-GetURIOrInheritedForAboutBlank
+GetURIOrInheritedForAboutBlankOrSrcdoc
 (
 )
 ;
@@ -3056,7 +3056,7 @@ uri
 current
 -
 >
-GetURIOrInheritedForAboutBlank
+GetURIOrInheritedForAboutBlankOrSrcdoc
 (
 )
 ;
@@ -3144,7 +3144,7 @@ uri
 current
 -
 >
-GetURIOrInheritedForAboutBlank
+GetURIOrInheritedForAboutBlankOrSrcdoc
 (
 )
 ;

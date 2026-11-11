@@ -7120,7 +7120,7 @@ nsIURI
 SessionHistoryInfo
 :
 :
-GetURIOrInheritedForAboutBlank
+GetURIOrInheritedForAboutBlankOrSrcdoc
 (
 )
 const
@@ -7130,7 +7130,7 @@ if
 mURI
 &
 &
-NS_IsAboutBlankAllowQueryAndFragment
+NS_IsAboutBlankOrSrcdoc
 (
 mURI
 )
@@ -7173,7 +7173,7 @@ nsIURI
 SessionHistoryEntry
 :
 :
-GetURIOrInheritedForAboutBlank
+GetURIOrInheritedForAboutBlankOrSrcdoc
 (
 )
 const
@@ -7182,7 +7182,7 @@ return
 mInfo
 -
 >
-GetURIOrInheritedForAboutBlank
+GetURIOrInheritedForAboutBlankOrSrcdoc
 (
 )
 ;
@@ -7305,7 +7305,7 @@ previousURI
 aPreviousEntryForActivation
 -
 >
-GetURIOrInheritedForAboutBlank
+GetURIOrInheritedForAboutBlankOrSrcdoc
 (
 )
 ;
@@ -7314,7 +7314,7 @@ currentURI
 =
 aCurrentEntry
 .
-GetURIOrInheritedForAboutBlank
+GetURIOrInheritedForAboutBlankOrSrcdoc
 (
 )
 ;
