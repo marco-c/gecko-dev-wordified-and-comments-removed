@@ -3616,7 +3616,7 @@ Config
 .
 channel
 .
-isDebug
+isNightlyOrDebug
 isChecked
 =
 context
