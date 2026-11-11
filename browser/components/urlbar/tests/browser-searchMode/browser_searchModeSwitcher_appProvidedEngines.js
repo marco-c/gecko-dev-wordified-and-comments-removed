@@ -211,11 +211,6 @@ cleanup
 (
 )
 ;
-await
-resetApplicationProvidedEngines
-(
-)
-;
 }
 )
 ;
