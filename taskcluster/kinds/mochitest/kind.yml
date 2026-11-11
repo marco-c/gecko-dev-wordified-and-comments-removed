@@ -483,7 +483,7 @@ win
 *
 :
 -
-win32
+win64
 -
 node
 -
@@ -2092,7 +2092,7 @@ win
 *
 :
 -
-win32
+win64
 -
 node
 -
@@ -3478,6 +3478,17 @@ windows
 *
 -
 asan
+.
+*
+/
+opt
+:
+5400
+macosx1500
+-
+aarch64
+-
+vms
 .
 *
 /
@@ -5875,7 +5886,7 @@ win
 *
 :
 -
-win32
+win64
 -
 node
 -

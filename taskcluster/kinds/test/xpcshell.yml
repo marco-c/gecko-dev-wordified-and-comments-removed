@@ -1144,7 +1144,7 @@ win
 *
 :
 -
-win32
+win64
 -
 node
 -
@@ -1467,7 +1467,7 @@ win
 *
 :
 -
-win32
+win64
 -
 node
 -
