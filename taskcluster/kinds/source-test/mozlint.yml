@@ -7001,16 +7001,6 @@ perfdocs
 '
 -
 '
-tools
-/
-lint
-/
-perfdocs
-.
-yml
-'
--
-'
 toolkit
 /
 components
