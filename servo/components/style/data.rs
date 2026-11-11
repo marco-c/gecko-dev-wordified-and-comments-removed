@@ -817,10 +817,12 @@ EagerPseudoArrayInner
 =
 &
 [
+const
+{
 None
-None
-None
-None
+}
+;
+EAGER_PSEUDO_COUNT
 ]
 ;
 impl
