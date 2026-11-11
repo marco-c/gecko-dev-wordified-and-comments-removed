@@ -569,6 +569,14 @@ MStoreUnboxedScalar
 ins
 )
 ;
+bool
+canStoreConstantWithoutRegister
+(
+MDefinition
+*
+value
+)
+;
 #
 ifdef
 ENABLE_JIT_SIMD
