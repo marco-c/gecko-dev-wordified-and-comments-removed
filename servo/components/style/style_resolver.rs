@@ -91,8 +91,8 @@ properties
 :
 {
 AnimationDeclarations
+CascadeReparenting
 ComputedValues
-FirstLineReparenting
 }
 ;
 use
@@ -1700,7 +1700,7 @@ shared
 guards
 parent_style
 layout_parent_style
-FirstLineReparenting
+CascadeReparenting
 :
 :
 No

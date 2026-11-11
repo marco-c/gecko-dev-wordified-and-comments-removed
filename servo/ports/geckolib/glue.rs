@@ -40470,7 +40470,7 @@ C
 fn
 Servo_ReparentStyle
 (
-style_to_reparent
+base_style
 :
 &
 ComputedValues
@@ -40508,7 +40508,7 @@ style
 properties
 :
 :
-FirstLineReparenting
+CascadeReparenting
 ;
 let
 global_style_data
@@ -40545,7 +40545,7 @@ CascadeInputs
 :
 new_from_style
 (
-style_to_reparent
+base_style
 )
 ;
 let
@@ -40561,7 +40561,7 @@ GeckoElement
 let
 pseudo
 =
-style_to_reparent
+base_style
 .
 pseudo
 (
@@ -40617,12 +40617,12 @@ Some
 (
 layout_parent_style
 )
-FirstLineReparenting
+CascadeReparenting
 :
 :
-Yes
+FirstLine
 {
-style_to_reparent
+base_style
 }
 &
 Default

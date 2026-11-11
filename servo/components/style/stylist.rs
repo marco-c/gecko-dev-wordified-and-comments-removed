@@ -239,8 +239,8 @@ properties
 self
 AnimationDeclarations
 CascadeMode
+CascadeReparenting
 ComputedValues
-FirstLineReparenting
 PropertyDeclarationBlock
 PropertyIdRef
 }
@@ -6189,7 +6189,7 @@ inputs
 guards
 parent_style
 parent_style
-FirstLineReparenting
+CascadeReparenting
 :
 :
 No
@@ -6596,10 +6596,15 @@ inputs
 guards
 parent_style
 layout_parent_style
-FirstLineReparenting
+CascadeReparenting
 :
 :
-No
+PositionTry
+{
+base_style
+:
+style
+}
 &
 name_and_try_tactic
 .
@@ -6672,7 +6677,7 @@ ComputedValues
 >
 first_line_reparenting
 :
-FirstLineReparenting
+CascadeReparenting
 try_tactic
 :
 &
@@ -8804,7 +8809,7 @@ Some
 (
 parent_style
 )
-FirstLineReparenting
+CascadeReparenting
 :
 :
 No
