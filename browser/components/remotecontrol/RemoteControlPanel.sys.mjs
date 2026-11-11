@@ -887,7 +887,7 @@ target
 removeEventListener
 (
 "
-command
+click
 "
 this
 )
@@ -911,7 +911,7 @@ panelview
 addEventListener
 (
 "
-command
+click
 "
 this
 )
