@@ -625,16 +625,9 @@ iter
 {
 OPUS_CLEAR
 (
-lpc
+_lpc
 p
 )
-;
-_lpc
-[
-0
-]
-=
-4096
 ;
 }
 else
