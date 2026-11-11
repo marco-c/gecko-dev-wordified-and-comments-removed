@@ -343,6 +343,11 @@ preset
 android
 -
 frontend
+artifact
+-
+build
+:
+true
 vendoring
 :
 url
