@@ -54,3 +54,14 @@ sql
 :
 *
 ;
+uniffi
+:
+:
+include_scaffolding
+!
+(
+"
+interrupt_support
+"
+)
+;

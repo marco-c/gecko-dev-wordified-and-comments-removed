@@ -400,6 +400,7 @@ compileSdkMinorVersion
 defaultConfig
 {
 ndkVersion
+=
 config
 .
 ndkVersion
@@ -447,6 +448,7 @@ componentsVersion
 buildFeatures
 {
 buildConfig
+=
 true
 }
 buildTypes
@@ -521,17 +523,6 @@ xml
 "
 )
 }
-}
-kotlin
-{
-jvmToolchain
-(
-rootProject
-.
-config
-.
-jvmTargetCompatibility
-)
 }
 dependencies
 {

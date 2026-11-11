@@ -14,3 +14,13 @@ RustInitRustComponents
 sys
 .
 initialize
+{
+js
+:
+autofunction
+}
+RustInitRustComponents
+.
+sys
+.
+initializeGlean

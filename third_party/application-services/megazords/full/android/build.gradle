@@ -51,6 +51,7 @@ android
 android
 {
 namespace
+=
 '
 org
 .
@@ -81,6 +82,7 @@ compileSdkMinorVersion
 defaultConfig
 {
 ndkVersion
+=
 config
 .
 ndkVersion
@@ -173,17 +175,6 @@ doNotStrip
 so
 "
 }
-}
-kotlin
-{
-jvmToolchain
-(
-rootProject
-.
-config
-.
-jvmTargetCompatibility
-)
 }
 /
 /
@@ -1968,6 +1959,7 @@ md
 )
 {
 extension
+=
 "
 LICENSES
 .

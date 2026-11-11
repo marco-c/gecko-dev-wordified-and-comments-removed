@@ -1644,7 +1644,7 @@ to
 the
 bootstraped
 JDK
-17
+25
 installation
 directory
 .
@@ -1662,11 +1662,11 @@ jdk
 /
 jdk
 -
-17
+25
 .
 0
 .
-18
+5
 +
 8
 /
@@ -1684,11 +1684,11 @@ jdk
 /
 jdk
 -
-17
+25
 .
 0
 .
-18
+5
 +
 8
 /

@@ -13,3 +13,17 @@ ffi_module_filename
 "
 contextIDFFI
 "
+[
+bindings
+.
+kotlin
+]
+package_name
+=
+"
+mozilla
+.
+appservices
+.
+context_id
+"
