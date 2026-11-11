@@ -1215,7 +1215,9 @@ in
 s
 "
 %
-filename
+self
+.
+path
 )
                         
 raise
@@ -1243,7 +1245,9 @@ title
 element
 '
 %
-filename
+self
+.
+path
 )
         
 elif
