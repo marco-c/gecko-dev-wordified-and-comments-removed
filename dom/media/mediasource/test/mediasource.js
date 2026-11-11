@@ -133,6 +133,19 @@ runWithMSE
 testFunction
 )
 {
+if
+(
+document
+.
+readyState
+!
+=
+=
+"
+complete
+"
+)
+{
 await
 once
 (
@@ -142,6 +155,7 @@ load
 "
 )
 ;
+}
 await
 SpecialPowers
 .
