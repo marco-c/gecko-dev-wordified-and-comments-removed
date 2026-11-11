@@ -796,7 +796,6 @@ PushStackingContext
 (
 PushStackingContextDisplayItem
 )
-SetGradientStops
 SetFilterOps
 SetFilterData
 PopStackingContext
@@ -941,13 +940,6 @@ IframeDisplayItem
 PushStackingContext
 (
 PushStackingContextDisplayItem
-)
-SetGradientStops
-(
-Vec
-<
-GradientStop
->
 )
 SetFilterOps
 (
@@ -9903,15 +9895,6 @@ Rectangle
 >
 "
 rectangle
-"
-DisplayItem
-:
-:
-SetGradientStops
-=
->
-"
-set_gradient_stops
 "
 DisplayItem
 :

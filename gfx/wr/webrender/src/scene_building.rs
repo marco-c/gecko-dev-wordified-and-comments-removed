@@ -6767,11 +6767,6 @@ filter_datas
 DisplayItem
 :
 :
-SetGradientStops
-|
-DisplayItem
-:
-:
 SetFilterOps
 |
 DisplayItem

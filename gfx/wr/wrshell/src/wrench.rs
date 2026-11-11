@@ -2564,14 +2564,6 @@ pop_level
 DisplayItem
 :
 :
-SetGradientStops
-=
->
-{
-}
-DisplayItem
-:
-:
 SetFilterOps
 =
 >
