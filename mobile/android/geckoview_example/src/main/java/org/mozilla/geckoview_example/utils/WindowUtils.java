@@ -271,7 +271,7 @@ windowInsets
 SuppressWarnings
 (
 "
-DEPRECATION
+deprecation
 "
 )
 public
