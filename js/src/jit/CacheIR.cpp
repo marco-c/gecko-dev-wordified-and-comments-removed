@@ -38028,7 +38028,7 @@ IntrinsicUnsafeGetReservedSlot
 :
 writer
 .
-loadFixedSlotResult
+loadReservedFixedSlotResult
 (
 objId
 offset
@@ -38044,7 +38044,7 @@ IntrinsicUnsafeGetObjectFromReservedSlot
 :
 writer
 .
-loadFixedSlotTypedResult
+loadReservedFixedSlotTypedResult
 (
 objId
 offset
@@ -38064,7 +38064,7 @@ IntrinsicUnsafeGetInt32FromReservedSlot
 :
 writer
 .
-loadFixedSlotTypedResult
+loadReservedFixedSlotTypedResult
 (
 objId
 offset
@@ -38084,7 +38084,7 @@ IntrinsicUnsafeGetStringFromReservedSlot
 :
 writer
 .
-loadFixedSlotTypedResult
+loadReservedFixedSlotTypedResult
 (
 objId
 offset
@@ -55489,7 +55489,7 @@ Date
 ;
 writer
 .
-loadFixedSlotTypedResult
+loadReservedFixedSlotTypedResult
 (
 objId
 DateObject
