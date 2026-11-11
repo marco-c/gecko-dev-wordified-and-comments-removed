@@ -4007,10 +4007,12 @@ track
 >
 TrackTimeToSeconds
 (
-track
+Destination
+(
+)
 -
 >
-GetCurrentTime
+CurrentTime
 (
 )
 )
