@@ -195,11 +195,6 @@ time
 1800
 run
 :
-clone
--
-with
-:
-hg
 use
 -
 caches
