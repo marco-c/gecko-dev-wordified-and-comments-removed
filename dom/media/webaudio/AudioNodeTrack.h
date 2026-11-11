@@ -366,13 +366,6 @@ NumberOfChannels
 const
 override
 ;
-void
-AdvanceAndResume
-(
-TrackTime
-aAdvance
-)
-;
 AudioNodeTrack
 *
 AsAudioNodeTrack
