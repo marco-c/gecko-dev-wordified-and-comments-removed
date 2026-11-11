@@ -2943,6 +2943,12 @@ is_none
 )
 )
 ;
+assert_canonical_cbor_encoding
+(
+&
+request
+)
+;
 let
 wire
 =
@@ -3045,6 +3051,12 @@ pin_uv_auth_param
 is_some
 (
 )
+)
+;
+assert_canonical_cbor_encoding
+(
+&
+request
 )
 ;
 }
