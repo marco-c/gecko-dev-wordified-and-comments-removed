@@ -184,6 +184,7 @@ str
 }
 ;
 struct
+MOZ_STACK_CLASS
 EvalCacheLookup
 {
 JSLinearString
@@ -204,12 +205,6 @@ jsbytecode
 pc
 =
 nullptr
-;
-EvalCacheLookup
-(
-)
-=
-default
 ;
 EvalCacheLookup
 (
@@ -238,14 +233,6 @@ pc
 )
 {
 }
-void
-trace
-(
-JSTracer
-*
-trc
-)
-;
 }
 ;
 struct
