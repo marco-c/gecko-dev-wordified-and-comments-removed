@@ -1552,6 +1552,12 @@ settings
 isTabStripEnabled
 &
 &
+!
+settings
+.
+shouldShowTabGroupsStrip
+&
+&
 settings
 .
 isSwipeToolbarToSwitchTabsEnabled
@@ -2385,6 +2391,9 @@ NewUserOnboarding
 navigateToIpProtection
 =
 {
+promptDetails
+-
+>
 IPProtectionBottomSheetFragment
 .
 showPrompt
@@ -2397,6 +2406,9 @@ surface
 IPProtectionSurface
 .
 BROWSER
+promptDetails
+=
+promptDetails
 )
 }
 )
