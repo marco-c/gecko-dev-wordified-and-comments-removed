@@ -65,6 +65,13 @@ html
 ]
 [
 "
+test_tcpsocket_readystate
+.
+html
+"
+]
+[
+"
 test_udpsocket
 .
 html
