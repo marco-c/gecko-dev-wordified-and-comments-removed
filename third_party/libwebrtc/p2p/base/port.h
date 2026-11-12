@@ -767,6 +767,7 @@ PortInterface
 public
 :
 struct
+RTC_EXPORT
 Callbacks
 {
 Callbacks
