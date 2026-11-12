@@ -1804,7 +1804,7 @@ audioproc_unittest_proto
 "
 aec_dump
 :
-aec_dump_unittests
+aec_dump_unittest
 "
 "
 test
@@ -4579,7 +4579,7 @@ vector_math_unittest
 "
 aec_dump
 :
-mock_aec_dump_unittests
+aec_dump_integration_test
 "
 "
 agc
@@ -4604,7 +4604,7 @@ agc2_testing_common_unittest
 "
 agc2
 :
-biquad_filter_unittests
+biquad_filter_unittest
 "
 "
 agc2
@@ -4634,7 +4634,7 @@ input_volume_controller_unittest
 "
 agc2
 :
-input_volume_stats_reporter_unittests
+input_volume_stats_reporter_unittest
 "
 "
 agc2
@@ -4654,7 +4654,7 @@ limiter_unittest
 "
 agc2
 :
-noise_estimator_unittests
+noise_level_estimator_unittest
 "
 "
 agc2
@@ -4664,7 +4664,7 @@ saturation_protector_buffer_unittest
 "
 agc2
 :
-saturation_protector_unittest_test
+saturation_protector_unittest
 "
 "
 agc2
@@ -4674,7 +4674,7 @@ speech_level_estimator_experimental_unittest
 "
 agc2
 :
-speech_level_estimator_unittest_test
+speech_level_estimator_unittest
 "
 "
 agc2
@@ -4684,7 +4684,7 @@ speech_probability_buffer_unittest
 "
 agc2
 :
-vad_wrapper_unittests
+vad_wrapper_unittest
 "
 "
 agc2
@@ -4941,7 +4941,7 @@ neural_residual_echo_estimator_impl_unittest
 "
 aec_dump
 :
-aec_dump_unittests
+aec_dump_unittest
 "
 ]
 }

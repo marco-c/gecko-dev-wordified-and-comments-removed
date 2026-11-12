@@ -9380,7 +9380,7 @@ sources
 =
 [
 "
-decoder_database_unittest
+video_decoder_database_unittest
 .
 cc
 "
@@ -10213,7 +10213,7 @@ sources
 =
 [
 "
-histogram_unittest
+video_histogram_unittest
 .
 cc
 "
@@ -10410,7 +10410,7 @@ sources
 =
 [
 "
-packet_buffer_unittest
+video_packet_buffer_unittest
 .
 cc
 "

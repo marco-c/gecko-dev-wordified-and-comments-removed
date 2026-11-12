@@ -778,7 +778,7 @@ c
 -
 common_audio
 /
-ring_buffer_unittest
+common_audio_ring_buffer_unittest
 .
 cc
 -
@@ -1188,7 +1188,7 @@ common_video
 /
 libyuv
 /
-libyuv_unittest
+webrtc_libyuv_unittest
 .
 cc
 -
@@ -4638,7 +4638,7 @@ modules
 /
 video_coding
 /
-packet_buffer_unittest
+video_packet_buffer_unittest
 .
 cc
 -
@@ -5014,7 +5014,7 @@ p2p
 /
 dtls
 /
-dtls_transport_unittest
+p2p_dtls_transport_unittest
 .
 cc
 -
@@ -5816,7 +5816,7 @@ corruption_detection
 /
 evaluation
 /
-utils_unittest
+corruption_utils_unittest
 .
 cc
 -

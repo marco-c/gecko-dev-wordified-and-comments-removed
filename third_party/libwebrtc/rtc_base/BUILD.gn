@@ -5012,7 +5012,7 @@ rtc_include_tests
 rtc_cc_test
 (
 "
-async_dns_resolver_unittests
+async_dns_resolver_unittest
 "
 )
 {
@@ -9332,7 +9332,7 @@ rtc_include_tests
 rtc_cc_test
 (
 "
-callback_list_unittests
+callback_list_unittest
 "
 )
 {
@@ -10287,7 +10287,7 @@ test_support
 rtc_cc_test
 (
 "
-rtc_operations_chain_unittests
+operations_chain_unittest
 "
 )
 {
@@ -13372,7 +13372,7 @@ test_support
 rtc_cc_test
 (
 "
-weak_ptr_unittests
+weak_ptr_unittest
 "
 )
 {
@@ -13768,7 +13768,7 @@ test_support
 rtc_cc_test
 (
 "
-rtc_json_unittests
+json_unittest
 "
 )
 {

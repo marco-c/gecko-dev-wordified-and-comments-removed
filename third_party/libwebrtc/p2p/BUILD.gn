@@ -11106,7 +11106,7 @@ sources
 "
 dtls
 /
-dtls_transport_unittest
+p2p_dtls_transport_unittest
 .
 cc
 "

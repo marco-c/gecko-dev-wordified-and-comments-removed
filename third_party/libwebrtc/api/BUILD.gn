@@ -9223,7 +9223,7 @@ sources
 =
 [
 "
-peer_connection_interface_unittest
+peer_connection_interface_api_unittest
 .
 cc
 "

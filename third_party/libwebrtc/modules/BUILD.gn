@@ -475,7 +475,7 @@ scream
 /
 test
 :
-cc_feedback_generator_unittests
+cc_feedback_generator_unittest
 "
 "
 pacing

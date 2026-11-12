@@ -7586,7 +7586,7 @@ video_capture_internal_impl
 rtc_cc_test
 (
 "
-fileutils_unittests
+file_utils_unittest
 "
 )
 {
@@ -7832,7 +7832,7 @@ copy_to_file_audio_capturer_unittest
 "
 "
 :
-fileutils_unittests
+file_utils_unittest
 "
 "
 :

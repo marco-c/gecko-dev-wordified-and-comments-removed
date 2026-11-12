@@ -1295,7 +1295,7 @@ sources
 =
 [
 "
-audio_processing_unittest
+audio_processing_api_unittest
 .
 cc
 "

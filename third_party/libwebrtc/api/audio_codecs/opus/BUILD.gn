@@ -749,7 +749,7 @@ sources
 =
 [
 "
-audio_decoder_opus_unittest
+audio_decoder_opus_api_unittest
 .
 cc
 "

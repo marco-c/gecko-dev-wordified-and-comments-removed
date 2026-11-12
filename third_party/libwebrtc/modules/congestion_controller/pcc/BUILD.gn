@@ -630,7 +630,7 @@ sources
 =
 [
 "
-bitrate_controller_unittest
+pcc_bitrate_controller_unittest
 .
 cc
 "

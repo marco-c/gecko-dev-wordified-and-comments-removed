@@ -245,7 +245,7 @@ rtc_include_tests
 rtc_cc_test
 (
 "
-sdk_tests
+media_constraints_unittest
 "
 )
 {

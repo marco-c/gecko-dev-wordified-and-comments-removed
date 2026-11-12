@@ -1797,7 +1797,7 @@ sinc_resampler
 rtc_cc_test
 (
 "
-allocation_counter_unittest
+allocation_counter
 "
 )
 {
@@ -2263,7 +2263,7 @@ sources
 =
 [
 "
-ring_buffer_unittest
+common_audio_ring_buffer_unittest
 .
 cc
 "
@@ -2768,7 +2768,7 @@ tests
 [
 "
 :
-allocation_counter_unittest
+allocation_counter
 "
 "
 :

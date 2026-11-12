@@ -1827,7 +1827,7 @@ apm_debug_dump
 rtc_cc_test
 (
 "
-speech_level_estimator_unittest_test
+speech_level_estimator_unittest
 "
 )
 {
@@ -2129,7 +2129,7 @@ apm_debug_dump
 rtc_cc_test
 (
 "
-saturation_protector_unittest_test
+saturation_protector_unittest
 "
 )
 {
@@ -2189,7 +2189,7 @@ apm_debug_dump
 rtc_cc_test
 (
 "
-biquad_filter_unittests
+biquad_filter_unittest
 "
 )
 {
@@ -3099,7 +3099,7 @@ apm_debug_dump
 rtc_cc_test
 (
 "
-noise_estimator_unittests
+noise_level_estimator_unittest
 "
 )
 {
@@ -3203,7 +3203,7 @@ test_support
 rtc_cc_test
 (
 "
-vad_wrapper_unittests
+vad_wrapper_unittest
 "
 )
 {
@@ -3393,7 +3393,7 @@ random
 rtc_cc_test
 (
 "
-input_volume_stats_reporter_unittests
+input_volume_stats_reporter_unittest
 "
 )
 {

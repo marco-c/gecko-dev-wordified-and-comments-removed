@@ -362,7 +362,7 @@ audio_codecs_api
 rtc_cc_test
 (
 "
-voip_engine_factory_unittests
+voip_engine_factory_unittest
 "
 )
 {

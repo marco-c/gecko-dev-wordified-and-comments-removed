@@ -2810,7 +2810,7 @@ sources
 =
 [
 "
-vector_math_unittest
+rnn_vector_math_unittest
 .
 cc
 "

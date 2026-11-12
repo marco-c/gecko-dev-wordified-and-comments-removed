@@ -2560,7 +2560,7 @@ rtc_include_tests
 rtc_cc_test
 (
 "
-token_bucket_network_behavior_test
+token_bucket_network_behavior_unittest
 "
 )
 {

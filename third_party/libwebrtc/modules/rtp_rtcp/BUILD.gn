@@ -4256,7 +4256,7 @@ gtest
 rtc_cc_test
 (
 "
-rtp_rtcp_modules_tests
+test_fec
 "
 )
 {
@@ -12620,10 +12620,6 @@ rtp_rtcp_impl2_unittest
 "
 "
 :
-rtp_rtcp_modules_tests
-"
-"
-:
 rtp_sender_audio_unittest
 "
 "
@@ -12677,6 +12673,10 @@ source_tracker_unittest
 "
 :
 target_bitrate_unittest
+"
+"
+:
+test_fec
 "
 "
 :

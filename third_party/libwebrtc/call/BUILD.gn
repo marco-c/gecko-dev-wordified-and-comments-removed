@@ -7831,7 +7831,7 @@ string_view
 rtc_cc_test
 (
 "
-fake_network_pipe_unittests
+fake_network_pipe_unittest
 "
 )
 {

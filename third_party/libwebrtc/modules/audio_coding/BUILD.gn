@@ -8772,7 +8772,7 @@ g722
 rtc_cc_test
 (
 "
-webrtc_opus_fec_test
+opus_fec_test
 "
 )
 {
@@ -9305,6 +9305,10 @@ opus_bandwidth_unittest
 "
 "
 :
+opus_fec_test
+"
+"
+:
 opus_unittest
 "
 "
@@ -9350,10 +9354,6 @@ timestamp_scaler_unittest
 "
 :
 underrun_optimizer_unittest
-"
-"
-:
-webrtc_opus_fec_test
 "
 "
 codecs

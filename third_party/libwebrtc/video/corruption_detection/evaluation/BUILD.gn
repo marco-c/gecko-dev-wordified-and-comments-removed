@@ -1246,7 +1246,7 @@ rtc_include_tests
 rtc_library
 (
 "
-qp_parser_unittest
+corruption_qp_parser_unittest
 "
 )
 {
@@ -1257,7 +1257,7 @@ sources
 =
 [
 "
-qp_parser_unittest
+corruption_qp_parser_unittest
 .
 cc
 "
@@ -1452,7 +1452,7 @@ webrtc_perf_tests_data
 rtc_library
 (
 "
-utils_unittest
+corruption_utils_unittest
 "
 )
 {
@@ -1463,7 +1463,7 @@ sources
 =
 [
 "
-utils_unittest
+corruption_utils_unittest
 .
 cc
 "
@@ -2094,15 +2094,15 @@ deps
 [
 "
 :
-qp_parser_unittest
+corruption_qp_parser_unittest
+"
+"
+:
+corruption_utils_unittest
 "
 "
 :
 test_clip_unittest
-"
-"
-:
-utils_unittest
 "
 "
 :

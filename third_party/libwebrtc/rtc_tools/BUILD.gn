@@ -4329,7 +4329,7 @@ rtc_enable_protobuf
 rtc_cc_test
 (
 "
-event_log_visualizer_bindings_unittest
+analyzer_bindings_unittest
 "
 )
 {
@@ -4489,12 +4489,12 @@ tests
 [
 "
 :
-event_log_visualizer_bindings_unittest
+analyzer_bindings_unittest
 "
 "
 network_tester
 :
-network_tester_unittests
+network_tester_unittest
 "
 ]
 }
