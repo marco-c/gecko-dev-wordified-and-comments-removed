@@ -1832,17 +1832,6 @@ buffer
 packet
 .
 payload
-.
-data
-(
-)
-packet
-.
-payload
-.
-size
-(
-)
 kMaxRtpPacketLen
 )
 ;
