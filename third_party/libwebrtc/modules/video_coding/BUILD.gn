@@ -5622,7 +5622,7 @@ sdk
 /
 android
 :
-libjingle_peerconnection_java
+hwcodecs_java
 "
 "
 .
