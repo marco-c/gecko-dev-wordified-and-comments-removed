@@ -925,9 +925,9 @@ now
 TimeDelta
 :
 :
-Micros
+Millis
 (
-500
+15
 )
 ;
 queue
@@ -976,9 +976,9 @@ now
 TimeDelta
 :
 :
-Micros
+Millis
 (
-500
+15
 )
 ;
 ASSERT_THAT

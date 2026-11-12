@@ -118,9 +118,9 @@ target_delay
 TimeDelta
 :
 :
-Micros
+Millis
 (
-500
+15
 )
 ;
 TimeDelta
@@ -129,8 +129,9 @@ step_threshold
 TimeDelta
 :
 :
-PlusInfinity
+Millis
 (
+10
 )
 ;
 size_t
@@ -427,6 +428,13 @@ DualPi2NetworkQueue
 Config
 &
 config
+=
+DualPi2NetworkQueue
+:
+:
+Config
+(
+)
 )
 :
 config_
