@@ -1348,10 +1348,6 @@ ScopedOperationsBatcher
 BatchTaskWithFinalizer
 MakeRollbackTask
 (
-RTCError
-*
-absl_nonnull
-error
 )
 ;
 absl
