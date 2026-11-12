@@ -407,6 +407,7 @@ label
 "
 /
 /
+audio
 :
 audio_engine_tests
 "
@@ -779,6 +780,7 @@ label
 "
 /
 /
+p2p
 :
 rtc_p2p_unittests
 "
