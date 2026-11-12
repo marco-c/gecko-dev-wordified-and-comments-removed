@@ -1215,6 +1215,13 @@ Register
 imageReader
 )
 ;
+imageReader
+-
+>
+mRegistered
+=
+true
+;
 return
 imageReader
 .
@@ -1278,6 +1285,9 @@ Get
 if
 (
 imageReaderMap
+&
+&
+mRegistered
 )
 {
 imageReaderMap
