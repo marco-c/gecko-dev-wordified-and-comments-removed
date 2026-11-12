@@ -1136,5 +1136,15 @@ ACString
 aCommand
 )
 ;
+void
+startLogging
+(
+)
+;
+void
+stopLogging
+(
+)
+;
 }
 ;
