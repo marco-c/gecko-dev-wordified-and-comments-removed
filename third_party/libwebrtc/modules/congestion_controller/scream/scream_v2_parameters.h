@@ -356,6 +356,12 @@ backoff_scale_low_target_rate
 ;
 FieldTrialParameter
 <
+bool
+>
+inhibit_backoff_if_data_in_flight_decreases
+;
+FieldTrialParameter
+<
 TimeDelta
 >
 allow_large_pacing_bursts_after_congestion_time

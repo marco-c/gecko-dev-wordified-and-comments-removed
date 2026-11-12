@@ -580,6 +580,8 @@ ScaleBackoff
 (
 double
 backoff
+DataSize
+data_in_flight
 )
 const
 ;
@@ -814,6 +816,16 @@ TimeDelta
 :
 :
 MinusInfinity
+(
+)
+;
+DataSize
+data_in_flight_prev_
+=
+DataSize
+:
+:
+Zero
 (
 )
 ;
