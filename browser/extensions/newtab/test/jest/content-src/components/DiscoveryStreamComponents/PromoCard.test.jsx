@@ -485,6 +485,15 @@ type
 at
 .
 SHOW_PERSONALIZE
+data
+:
+{
+source
+:
+"
+promo_card
+"
+}
 }
 )
 ;

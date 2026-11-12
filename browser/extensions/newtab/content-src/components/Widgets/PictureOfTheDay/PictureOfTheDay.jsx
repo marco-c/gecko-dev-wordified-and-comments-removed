@@ -1880,6 +1880,15 @@ type
 at
 .
 SHOW_PERSONALIZE
+data
+:
+{
+source
+:
+PICTURE_OF_THE_DAY_ENTRY
+.
+telemetryName
+}
 }
 )
 ;

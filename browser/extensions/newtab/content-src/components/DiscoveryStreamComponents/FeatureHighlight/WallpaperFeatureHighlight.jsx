@@ -94,6 +94,7 @@ mjs
 ;
 import
 {
+CUSTOMIZE_PANEL_SOURCES
 WALLPAPER_CATEGORIES
 }
 from
@@ -462,6 +463,11 @@ SHOW_PERSONALIZE
 data
 :
 {
+source
+:
+CUSTOMIZE_PANEL_SOURCES
+.
+WALLPAPER_FEATURE_HIGHLIGHT
 wallpaperCategory
 :
 category

@@ -280,6 +280,9 @@ closes
 customizePanelWallpaperCategory
 :
 null
+customizePanelSource
+:
+null
 }
 Ads
 :
@@ -2138,6 +2141,17 @@ wallpaperCategory
 ?
 ?
 null
+customizePanelSource
+:
+action
+.
+data
+?
+.
+source
+?
+?
+null
 }
 )
 ;
@@ -2159,6 +2173,9 @@ customizeMenuVisible
 :
 false
 customizePanelWallpaperCategory
+:
+null
+customizePanelSource
 :
 null
 }
