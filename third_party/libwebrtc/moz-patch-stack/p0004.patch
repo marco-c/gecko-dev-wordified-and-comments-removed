@@ -543,10 +543,10 @@ webrtc_video_engine
 .
 cc
 index
-2f98ba1809
+7285a32beb
 .
 .
-15f6fd7c40
+35fe15aada
 100644
 -
 -
@@ -1325,10 +1325,10 @@ webrtc_video_engine_unittest
 .
 cc
 index
-c8010b3eb9
+d59306c645
 .
 .
-fdc705a838
+d03bfae1f3
 100644
 -
 -
