@@ -42,12 +42,6 @@ RTC_EXTERN
 NSString
 *
 const
-kRTCFieldTrialH264HighProfileKey
-;
-RTC_EXTERN
-NSString
-*
-const
 kRTCFieldTrialMinimizeResamplingOnMobileKey
 ;
 RTC_EXTERN

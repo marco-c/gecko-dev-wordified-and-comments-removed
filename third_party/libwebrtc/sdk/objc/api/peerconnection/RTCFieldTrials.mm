@@ -74,17 +74,6 @@ FlexFEC
 NSString
 *
 const
-kRTCFieldTrialH264HighProfileKey
-=
-"
-WebRTC
--
-H264HighProfile
-"
-;
-NSString
-*
-const
 kRTCFieldTrialMinimizeResamplingOnMobileKey
 =
 "
