@@ -2205,7 +2205,6 @@ BasicIceController
 :
 HandleInitialSelectDampening
 (
-IceSwitchReason
 const
 Connection
 *
@@ -2585,7 +2584,6 @@ nullptr
 return
 HandleInitialSelectDampening
 (
-reason
 new_connection
 )
 ;
@@ -2597,9 +2595,6 @@ CompareCandidatePairNetworks
 (
 new_connection
 selected_connection_
-config_
-.
-network_preference
 )
 ;
 if
@@ -3409,9 +3404,6 @@ CompareCandidatePairNetworks
 (
 a
 b
-config_
-.
-network_preference
 )
 ;
 if
@@ -3753,13 +3745,6 @@ const
 Connection
 *
 b
-std
-:
-:
-optional
-<
-AdapterType
->
 )
 const
 {
