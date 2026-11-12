@@ -32,6 +32,17 @@ include
 "
 api
 /
+transport
+/
+ecn_marking
+.
+h
+"
+#
+include
+"
+api
+/
 units
 /
 timestamp
@@ -179,6 +190,7 @@ ProcessIncomingPacket
 CopyOnWriteBuffer
 packet
 Timestamp
+EcnMarking
 )
 {
 if
