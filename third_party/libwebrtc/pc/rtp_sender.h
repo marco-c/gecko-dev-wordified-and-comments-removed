@@ -538,8 +538,6 @@ RtpParameters
 GetParametersInternal
 (
 bool
-may_use_cache
-bool
 with_all_layers
 )
 const
@@ -800,10 +798,6 @@ override
 RtpParameters
 GetParametersInternal
 (
-bool
-may_use_cache
-=
-true
 bool
 with_all_layers
 =

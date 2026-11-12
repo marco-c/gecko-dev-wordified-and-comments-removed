@@ -1894,7 +1894,6 @@ s
 GetParametersInternal
 (
 false
-false
 )
 ;
 }
@@ -1906,7 +1905,6 @@ EXPECT_CALL
 sender
 GetParametersInternal
 (
-_
 _
 )
 )
@@ -2524,7 +2522,6 @@ s
 GetParametersInternal
 (
 false
-false
 )
 ;
 }
@@ -2536,7 +2533,6 @@ EXPECT_CALL
 sender
 GetParametersInternal
 (
-_
 _
 )
 )

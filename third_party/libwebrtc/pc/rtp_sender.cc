@@ -2069,8 +2069,6 @@ RtpSenderBase
 GetParametersInternal
 (
 bool
-may_use_cache
-bool
 with_all_layers
 )
 const
@@ -2108,9 +2106,6 @@ result
 ;
 if
 (
-may_use_cache
-&
-&
 cached_parameters_
 )
 {
@@ -2229,7 +2224,6 @@ return
 GetParametersInternal
 (
 true
-true
 )
 ;
 }
@@ -2252,7 +2246,6 @@ result
 =
 GetParametersInternal
 (
-true
 false
 )
 ;
