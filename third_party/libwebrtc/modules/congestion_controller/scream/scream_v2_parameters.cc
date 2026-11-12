@@ -265,6 +265,13 @@ RefWinMax
 .
 0
 )
+min_max_data_in_flight_mss
+(
+"
+MinMaxDataInFlightMss
+"
+4
+)
 queue_delay_avg_g
 (
 "
@@ -648,6 +655,8 @@ number_of_rtts_between_reset_ref_window_i_on_congestion
 ref_window_overhead_min
 &
 ref_window_overhead_max
+&
+min_max_data_in_flight_mss
 &
 queue_delay_avg_g
 &

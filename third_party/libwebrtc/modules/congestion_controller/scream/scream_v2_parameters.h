@@ -188,6 +188,12 @@ ref_window_overhead_max
 ;
 FieldTrialParameter
 <
+int
+>
+min_max_data_in_flight_mss
+;
+FieldTrialParameter
+<
 double
 >
 queue_delay_avg_g
