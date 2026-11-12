@@ -28328,6 +28328,14 @@ rtc_media_tests_utils
 .
 .
 /
+media
+:
+stream_params
+"
+"
+.
+.
+/
 p2p
 :
 p2p_test_utils
