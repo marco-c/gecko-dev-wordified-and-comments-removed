@@ -2045,10 +2045,10 @@ GDK_MODIFIER_MASK
 continue
 ;
 }
-}
 return
 i
 ;
+}
 }
 return
 GdkEventKeyQueue
