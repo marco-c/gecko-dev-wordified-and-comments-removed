@@ -3023,6 +3023,17 @@ safe_minmax
 /
 rtc_base
 :
+sequence_number_util
+"
+"
+.
+.
+/
+.
+.
+/
+rtc_base
+:
 timeutils
 "
 "
@@ -10937,7 +10948,7 @@ random
 /
 rtc_base
 :
-rtc_numerics
+sequence_number_util
 "
 "
 .

@@ -3245,6 +3245,14 @@ safe_conversions
 .
 /
 rtc_base
+:
+sequence_number_util
+"
+"
+.
+.
+/
+rtc_base
 /
 system
 :

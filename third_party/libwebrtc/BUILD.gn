@@ -4267,6 +4267,13 @@ samples_stats_counter_unittest
 "
 api
 /
+numerics
+:
+sequence_number_unwrapper_unittest
+"
+"
+api
+/
 task_queue
 :
 default_task_queue_factory_unittest
@@ -4994,11 +5001,6 @@ sample_counter_unittest
 rtc_base
 :
 sanitizer_unittest
-"
-"
-rtc_base
-:
-sequence_number_unwrapper_unittest
 "
 "
 rtc_base
