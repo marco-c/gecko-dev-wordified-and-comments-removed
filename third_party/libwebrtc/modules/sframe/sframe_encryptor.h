@@ -63,15 +63,6 @@ include
 "
 api
 /
-sequence_checker
-.
-h
-"
-#
-include
-"
-api
-/
 sframe
 /
 sframe_types
@@ -94,9 +85,7 @@ include
 "
 rtc_base
 /
-system
-/
-no_unique_address
+race_checker
 .
 h
 "
@@ -216,9 +205,8 @@ cipher_suite
 ;
 private
 :
-RTC_NO_UNIQUE_ADDRESS
-SequenceChecker
-sequence_checker_
+RaceChecker
+access_checker_
 ;
 std
 :
@@ -233,7 +221,7 @@ Context
 context_
 RTC_GUARDED_BY
 (
-sequence_checker_
+access_checker_
 )
 ;
 std
@@ -246,7 +234,7 @@ uint64_t
 active_key_id_
 RTC_GUARDED_BY
 (
-sequence_checker_
+access_checker_
 )
 ;
 }

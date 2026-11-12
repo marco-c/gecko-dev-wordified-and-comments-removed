@@ -6716,10 +6716,10 @@ BUILD
 .
 gn
 index
-3c5ce2661b
+5caf250a61
 .
 .
-b5377c51d0
+d9b3a570f7
 100644
 -
 -
@@ -6791,10 +6791,10 @@ sframe_context_factory
 sframe_decrypt_error_reporter
 "
 -
-19
+20
 6
 +
-20
+21
 7
 group
 (
@@ -6805,7 +6805,7 @@ sframe
 {
 "
 :
-sframe_media_encryptor_interface
+synchronized_sframe_encryptor
 "
 ]
 }

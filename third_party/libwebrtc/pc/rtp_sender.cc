@@ -370,7 +370,7 @@ modules
 /
 sframe
 /
-sframe_encryptor
+synchronized_sframe_encryptor
 .
 h
 "
@@ -6693,7 +6693,7 @@ mode
 .
 encryptor
 =
-SframeEncryptor
+SynchronizedSframeEncryptor
 :
 :
 Create

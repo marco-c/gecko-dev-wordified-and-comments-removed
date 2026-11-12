@@ -562,6 +562,11 @@ sframe
 :
 sframe_encryptor_decryptor_unittest
 "
+"
+sframe
+:
+synchronized_sframe_encryptor_unittest
+"
 ]
 if
 (

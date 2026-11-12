@@ -14135,7 +14135,7 @@ modules
 /
 sframe
 :
-sframe_encryptor
+synchronized_sframe_encryptor
 "
 "
 .
@@ -27960,6 +27960,14 @@ p2p_test_utils
 rtc_base
 :
 checks
+"
+"
+.
+.
+/
+rtc_base
+:
+task_queue_for_test
 "
 "
 .
