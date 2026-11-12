@@ -145,6 +145,11 @@ FileSystemContentTypeGuess
 cpp
 "
 "
+FileSystemEncryptedFileStreams
+.
+cpp
+"
+"
 FileSystemHashSource
 .
 cpp
@@ -334,6 +339,11 @@ SOURCE_HEADERS
 [
 "
 FileSystemContentTypeGuess
+.
+h
+"
+"
+FileSystemEncryptedFileStreams
 .
 h
 "

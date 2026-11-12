@@ -110,4 +110,9 @@ test_writableFileStream
 .
 js
 "
+"
+test_writableFileStream_for_pbm
+.
+js
+"
 ]
