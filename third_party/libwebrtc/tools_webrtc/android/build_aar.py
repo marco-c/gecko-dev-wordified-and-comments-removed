@@ -1211,12 +1211,20 @@ def
 Build
 (
 build_dir
+          
 arch
+          
 use_remoteexec
+          
 extra_gn_args
+          
 extra_gn_switches
           
 extra_ninja_switches
+          
+targets
+=
+None
 )
 :
     
@@ -1424,6 +1432,16 @@ gn_args_list
     
 ninja_args
 =
+list
+(
+targets
+)
+if
+targets
+is
+not
+None
+else
 TARGETS
 [
 :
@@ -1739,10 +1757,35 @@ or
 ]
     
 for
+i
 arch
 in
+enumerate
+(
 archs
+)
 :
+        
+targets
+=
+TARGETS
+if
+i
+=
+=
+0
+else
+[
+            
+'
+sdk
+/
+android
+:
+libjingle_peerconnection_so
+'
+        
+]
         
 Build
 (
@@ -1753,6 +1796,7 @@ extra_gn_args
               
 extra_gn_switches
 extra_ninja_switches
+targets
 )
     
 with
