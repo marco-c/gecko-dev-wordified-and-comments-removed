@@ -108,7 +108,8 @@ channel_receive
 .
 cc
 |
-8
+9
++
 +
 +
 +
@@ -244,7 +245,7 @@ cc
 11
 files
 changed
-53
+54
 insertions
 (
 +
@@ -519,10 +520,10 @@ channel_receive
 .
 cc
 index
-4adf6ed84d
+875de922ba
 .
 .
-c8fb2b1c09
+aa2d9d269c
 100644
 -
 -
@@ -837,7 +838,7 @@ on_frame_delivered_callback
 7
 +
 1248
-7
+8
 std
 :
 :
@@ -851,7 +852,13 @@ jitter_buffer_max_packets
 jitter_buffer_fast_playout
 jitter_buffer_min_delay_ms
 enable_non_sender_rtt
+std
+:
+:
+move
+(
 decoder_factory
+)
 std
 :
 :
@@ -860,6 +867,7 @@ move
 frame_decryptor
 )
 crypto_options
+-
 std
 :
 :
@@ -867,7 +875,6 @@ move
 (
 frame_transformer
 )
--
 std
 :
 :
@@ -882,8 +889,16 @@ std
 :
 move
 (
+frame_transformer
+)
+std
+:
+:
+move
+(
 on_first_packet
 )
++
 rtcp_event_observer
 packet_router
 std
