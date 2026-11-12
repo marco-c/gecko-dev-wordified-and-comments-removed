@@ -5189,6 +5189,13 @@ StringBuilder
 ss
 ;
 ss
+.
+Reserve
+(
+128
+)
+;
+ss
 <
 <
 "
@@ -5249,12 +5256,8 @@ type_
 "
 <
 <
+*
 network_
--
->
-ToString
-(
-)
 <
 <
 "
