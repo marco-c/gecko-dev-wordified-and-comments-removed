@@ -25,6 +25,11 @@ cstdint
 >
 #
 include
+<
+string
+>
+#
+include
 "
 absl
 /
@@ -344,6 +349,12 @@ private
 :
 PCMFile
 _pcmFile
+;
+std
+:
+:
+string
+_out_file_name
 ;
 int16_t
 *

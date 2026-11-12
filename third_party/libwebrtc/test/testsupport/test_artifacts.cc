@@ -92,7 +92,7 @@ std
 string
 path
 =
-OutputPathWithRandomDirectory
+OutputPath
 (
 )
 ;

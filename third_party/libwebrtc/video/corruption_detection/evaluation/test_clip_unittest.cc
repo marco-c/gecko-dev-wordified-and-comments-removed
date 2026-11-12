@@ -544,6 +544,17 @@ is_yuv
 true
 )
 ;
+EXPECT_TRUE
+(
+test
+:
+:
+RemoveFile
+(
+yuv_filepath
+)
+)
+;
 }
 TEST
 (
