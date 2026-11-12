@@ -1489,8 +1489,7 @@ NackItem
 now
 tsn
 false
-!
-is_in_fast_recovery
+true
 )
 ;
 }

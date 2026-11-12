@@ -4865,7 +4865,7 @@ EXPECT_THAT
 (
 buf_
 .
-GetChunksToBeRetransmitted
+GetChunksToBeFastRetransmitted
 (
 kNow
 1000
