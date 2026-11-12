@@ -848,7 +848,7 @@ nullptr
 uint32_t
 err
 =
-ERR_peek_error
+ERR_peek_last_error
 (
 )
 ;
@@ -872,9 +872,7 @@ err
 PEM_R_NO_START_LINE
 )
 {
-err
-=
-ERR_get_error
+ERR_clear_error
 (
 )
 ;
