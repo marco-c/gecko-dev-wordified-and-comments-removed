@@ -11436,6 +11436,14 @@ macromagic
 /
 test
 :
+fileutils
+"
+"
+.
+.
+/
+test
+:
 test_support
 "
 "
