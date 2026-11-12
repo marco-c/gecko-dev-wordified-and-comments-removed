@@ -157,9 +157,7 @@ public
 :
 TestPort
 (
-const
 PortParametersRef
-&
 args
 uint16_t
 min_port

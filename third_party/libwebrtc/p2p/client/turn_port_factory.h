@@ -57,6 +57,12 @@ TurnPortFactory
 )
 override
 ;
+using
+RelayPortFactoryInterface
+:
+:
+Create
+;
 std
 :
 :
@@ -66,8 +72,8 @@ Port
 >
 Create
 (
-const
 CreateRelayPortArgs
+&
 &
 args
 AsyncPacketSocket
@@ -85,8 +91,8 @@ Port
 >
 Create
 (
-const
 CreateRelayPortArgs
+&
 &
 args
 int
