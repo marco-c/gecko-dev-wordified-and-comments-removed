@@ -251,6 +251,10 @@ rtp_interfaces
 "
 "
 :
+sframe_options
+"
+"
+:
 video_receive_stream_api
 "
 "

@@ -169,6 +169,15 @@ h
 #
 include
 "
+call
+/
+sframe_options
+.
+h
+"
+#
+include
+"
 modules
 /
 rtp_rtcp
@@ -644,6 +653,9 @@ webrtc
 :
 CryptoOptions
 crypto_options
+;
+SframeSendOptions
+sframe_options
 ;
 scoped_refptr
 <
