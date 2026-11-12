@@ -1,6 +1,4 @@
 import
-time
-import
 pytest
 URL
 =
@@ -51,6 +49,14 @@ navigate
 URL
 )
     
+await
+client
+.
+stall
+(
+2
+)
+    
 old_sy
 =
 client
@@ -98,11 +104,12 @@ dy
 100
 )
     
-time
+await
+client
 .
-sleep
+stall
 (
-1
+2
 )
     
 return

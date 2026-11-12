@@ -79,6 +79,9 @@ client
 navigate
 (
 URL
+no_skip
+=
+True
 )
     
 client
@@ -136,6 +139,9 @@ client
 navigate
 (
 URL
+no_skip
+=
+True
 )
     
 client

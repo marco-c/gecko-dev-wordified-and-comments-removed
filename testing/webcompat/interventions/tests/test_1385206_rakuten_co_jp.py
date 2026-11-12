@@ -28,9 +28,7 @@ DESKTOP_CSS
 =
 "
 #
-header
--
-group
+container
 "
 pytest
 .
