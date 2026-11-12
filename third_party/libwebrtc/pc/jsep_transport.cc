@@ -2379,6 +2379,14 @@ RTC_DCHECK_RUN_ON
 transport_sequence_
 )
 ;
+rtp_transport_
+-
+>
+SetRtcpMuxEnabled
+(
+true
+)
+;
 if
 (
 auto
