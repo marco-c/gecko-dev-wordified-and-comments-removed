@@ -2128,6 +2128,9 @@ try_builder
 "
 android_compile_arm_dbg
 "
+cq
+=
+None
 )
 try_builder
 (
@@ -2402,6 +2405,9 @@ ios_try_job
 "
 ios_compile_arm64_dbg
 "
+cq
+=
+None
 )
 ios_builder
 (
@@ -3303,6 +3309,9 @@ try_builder
 "
 win_compile_x64_clang_dbg
 "
+cq
+=
+None
 )
 ci_builder
 (
@@ -3333,6 +3342,9 @@ try_builder
 "
 win_compile_x64_clang_rel
 "
+cq
+=
+None
 )
 ci_builder
 (
