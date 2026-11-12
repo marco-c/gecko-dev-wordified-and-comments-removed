@@ -1446,7 +1446,7 @@ libyuv
 kFilterBox
 )
 ;
-RTC_DCHECK_EQ
+RTC_CHECK_EQ
 (
 res
 0

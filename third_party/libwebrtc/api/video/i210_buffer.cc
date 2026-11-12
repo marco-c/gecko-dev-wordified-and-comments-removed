@@ -898,6 +898,8 @@ height
 )
 )
 ;
+if
+(
 libyuv
 :
 :
@@ -964,7 +966,15 @@ height
 (
 )
 )
+!
+=
+0
+)
+{
+return
+nullptr
 ;
+}
 return
 i420_buffer
 ;
@@ -1398,7 +1408,7 @@ libyuv
 kFilterBox
 )
 ;
-RTC_DCHECK_EQ
+RTC_CHECK_EQ
 (
 res
 0

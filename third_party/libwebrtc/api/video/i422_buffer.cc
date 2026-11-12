@@ -631,7 +631,7 @@ width
 height
 )
 ;
-RTC_DCHECK_EQ
+RTC_CHECK_EQ
 (
 res
 0
@@ -740,7 +740,7 @@ width
 height
 )
 ;
-RTC_DCHECK_EQ
+RTC_CHECK_EQ
 (
 res
 0
@@ -947,7 +947,7 @@ rotation
 )
 )
 ;
-RTC_DCHECK_EQ
+RTC_CHECK_EQ
 (
 res
 0
@@ -1057,12 +1057,18 @@ height
 )
 )
 ;
-RTC_DCHECK_EQ
+if
 (
 res
+!
+=
 0
 )
+{
+return
+nullptr
 ;
+}
 return
 i420_buffer
 ;
@@ -1511,7 +1517,7 @@ libyuv
 kFilterBox
 )
 ;
-RTC_DCHECK_EQ
+RTC_CHECK_EQ
 (
 res
 0
