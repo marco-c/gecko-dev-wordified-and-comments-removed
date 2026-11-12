@@ -387,6 +387,15 @@ int
 >
 effort_level_
 ;
+std
+:
+:
+optional
+<
+int
+>
+cq_level_
+;
 int
 num_spatial_layers_
 =
