@@ -331,6 +331,13 @@ Millis
 10
 )
 )
+use_min_delay_scale_on_increase
+(
+"
+UseMinDelayScaleOnIncrease
+"
+true
+)
 burst_window_min
 (
 "
@@ -699,6 +706,8 @@ delay_min_and_latency_diff_avg_g
 queue_delay_min_threshold
 &
 latency_diff_threshold
+&
+use_min_delay_scale_on_increase
 &
 burst_window_min
 &

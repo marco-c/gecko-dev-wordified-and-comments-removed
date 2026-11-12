@@ -224,6 +224,12 @@ latency_diff_threshold
 ;
 FieldTrialParameter
 <
+bool
+>
+use_min_delay_scale_on_increase
+;
+FieldTrialParameter
+<
 TimeDelta
 >
 burst_window_min
