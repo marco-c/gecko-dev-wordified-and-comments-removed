@@ -80,10 +80,10 @@ const
 PDFJS_VERSION
 =
 "
-6
+7
 .
-5
+0
 .
-447
+84
 "
 ;

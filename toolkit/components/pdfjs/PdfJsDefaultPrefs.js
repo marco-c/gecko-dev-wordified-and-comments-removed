@@ -290,16 +290,6 @@ pref
 "
 pdfjs
 .
-enableMerge
-"
-false
-)
-;
-pref
-(
-"
-pdfjs
-.
 enableNewAltTextWhenAddingImage
 "
 true
@@ -402,7 +392,7 @@ pdfjs
 .
 enableSplitMerge
 "
-false
+true
 )
 ;
 pref
