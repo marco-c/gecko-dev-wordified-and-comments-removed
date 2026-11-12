@@ -359,16 +359,13 @@ audio_codecs_api
 "
 ]
 }
-rtc_library
+rtc_cc_test
 (
 "
 voip_engine_factory_unittests
 "
 )
 {
-testonly
-=
-true
 sources
 =
 [
