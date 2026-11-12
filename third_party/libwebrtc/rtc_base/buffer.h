@@ -757,6 +757,7 @@ U
 =
 T
 >
+explicit
 operator
 typename
 std

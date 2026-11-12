@@ -6039,7 +6039,7 @@ Expected
 "
 <
 <
-hex_encode_with_delimiter
+HexEncodeWithDelimiter
 (
 peer_certificate_digest_value_
 '
@@ -6053,7 +6053,7 @@ got
 "
 <
 <
-hex_encode_with_delimiter
+HexEncodeWithDelimiter
 (
 computed_digest
 '
