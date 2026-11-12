@@ -1255,6 +1255,9 @@ True
 builder
 =
 None
+jobs
+=
+None
 *
 *
 kwargs
@@ -1367,6 +1370,18 @@ builderless
 1
 is
 used
+.
+jobs
+:
+int
+number
+of
+remote
+jobs
+to
+allow
+in
+parallel
 .
 *
 *
@@ -1489,6 +1504,7 @@ webrtc
 -
 untrusted
 "
+jobs
 )
 )
 if
@@ -1983,6 +1999,9 @@ execution_timeout
 time
 .
 hour
+jobs
+=
+500
 *
 *
 kwargs
