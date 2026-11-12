@@ -1321,12 +1321,6 @@ Get
 ref_window_
 )
 ;
-l4s_alpha_
-=
-0
-.
-25
-;
 }
 }
 else
