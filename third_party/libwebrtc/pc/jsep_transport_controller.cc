@@ -3118,13 +3118,10 @@ new_flag
 mutable
 -
 >
-RTCErrorOr
-<
 ScopedOperationsBatcher
 :
 :
-FinalizerTask
->
+BatchTaskResult
 {
 RTC_DCHECK_RUN_ON
 (
