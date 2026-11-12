@@ -3928,7 +3928,7 @@ ScrollSnapFlags
 aSnapFlags
 )
 ;
-void
+bool
 ScrollSnapToDestination
 (
 )
