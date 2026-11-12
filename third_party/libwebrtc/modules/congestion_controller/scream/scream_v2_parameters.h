@@ -176,6 +176,12 @@ number_of_rtts_between_reset_ref_window_i_on_congestion
 ;
 FieldTrialParameter
 <
+int
+>
+ref_window_i_update_max_hold_rtts
+;
+FieldTrialParameter
+<
 double
 >
 ref_window_overhead_min
