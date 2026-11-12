@@ -132,6 +132,11 @@ ToI420
 )
 override
 ;
+void
+InitializeData
+(
+)
+;
 int
 width
 (
