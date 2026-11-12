@@ -15940,7 +15940,12 @@ corruption_detection_eval_unittests
 "
 config
 :
-video_config_tests
+encoder_stream_factory_unittest
+"
+"
+config
+:
+simulcast_unittest
 "
 ]
 }
