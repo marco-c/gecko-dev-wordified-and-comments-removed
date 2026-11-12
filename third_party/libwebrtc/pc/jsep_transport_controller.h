@@ -1155,6 +1155,8 @@ IceParameters
 >
 MaybeStartGathering
 (
+bool
+discard_candidate_pool
 )
 ;
 RTCError
