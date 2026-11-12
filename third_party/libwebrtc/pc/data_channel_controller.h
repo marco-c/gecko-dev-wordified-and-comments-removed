@@ -524,7 +524,10 @@ const
 ;
 private
 :
-void
+scoped_refptr
+<
+SctpDataChannel
+>
 OnSctpDataChannelClosed
 (
 SctpDataChannel
