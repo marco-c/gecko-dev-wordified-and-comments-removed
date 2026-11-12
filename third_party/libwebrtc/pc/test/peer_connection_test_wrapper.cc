@@ -3365,6 +3365,8 @@ bool
 video
 Resolution
 resolution
+int
+fps
 )
 {
 std
@@ -3476,10 +3478,12 @@ frame_interval
 TimeDelta
 :
 :
-Millis
+Seconds
 (
-100
+1
 )
+/
+fps
 ;
 config
 .
