@@ -647,17 +647,6 @@ environment
 .
 .
 /
-rtc_base
-:
-random
-"
-"
-.
-.
-/
-.
-.
-/
 test
 :
 create_test_environment

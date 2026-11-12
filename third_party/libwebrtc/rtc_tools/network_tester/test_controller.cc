@@ -307,6 +307,8 @@ Start
 (
 )
 ;
+local_port_
+=
 packet_sender_thread_
 -
 >
@@ -377,6 +379,18 @@ packet
 )
 ;
 }
+)
+;
+return
+udp_socket_
+-
+>
+GetLocalAddress
+(
+)
+.
+port
+(
 )
 ;
 }
