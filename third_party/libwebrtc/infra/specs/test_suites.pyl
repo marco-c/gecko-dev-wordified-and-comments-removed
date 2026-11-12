@@ -169,12 +169,6 @@ audio_coding_unittests
 {
 }
 '
-audio_decoder_unittests
-'
-:
-{
-}
-'
 audio_engine_tests
 '
 :
@@ -485,12 +479,6 @@ block
 yes
 '
 audio_coding_unittests
-'
-:
-{
-}
-'
-audio_decoder_unittests
 '
 :
 {
@@ -874,7 +862,7 @@ block
 =
 yes
 '
-audio_decoder_unittests
+audio_coding_unittests
 '
 :
 {
@@ -1155,12 +1143,6 @@ xcodebuild_sim_runner
 }
 '
 audio_coding_unittests
-'
-:
-{
-}
-'
-audio_decoder_unittests
 '
 :
 {
