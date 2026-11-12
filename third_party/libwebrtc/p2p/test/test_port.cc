@@ -577,10 +577,7 @@ std
 :
 make_unique
 <
-BufferT
-<
-uint8_t
->
+Buffer
 >
 (
 data

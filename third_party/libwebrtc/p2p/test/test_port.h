@@ -358,10 +358,7 @@ std
 :
 unique_ptr
 <
-BufferT
-<
-uint8_t
->
+Buffer
 >
 last_stun_buf_
 ;
