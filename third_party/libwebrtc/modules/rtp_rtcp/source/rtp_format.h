@@ -192,6 +192,7 @@ kH265
 kVP8
 kVP9
 kAV1
+kSframe
 }
 ;
 static
