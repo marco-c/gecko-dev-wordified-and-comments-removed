@@ -1195,10 +1195,10 @@ sctp_data_channel
 .
 cc
 index
-f9d4ab7f29
+ab5896e20e
 .
 .
-4bf8a6dead
+8b6a19d0d4
 100644
 -
 -
@@ -1221,10 +1221,10 @@ sctp_data_channel
 .
 cc
 -
-84
+83
 11
 +
-84
+83
 15
 BYPASS_PROXY_METHOD2
 (
