@@ -28631,6 +28631,14 @@ copy_on_write_buffer
 /
 rtc_base
 :
+macromagic
+"
+"
+.
+.
+/
+rtc_base
+:
 null_socket_server
 "
 "
