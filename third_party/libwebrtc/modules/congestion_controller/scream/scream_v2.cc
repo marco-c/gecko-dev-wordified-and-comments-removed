@@ -1527,11 +1527,7 @@ increase_scale_factor
 =
 increase_scale_factor
 *
-(
 rtt_ratio
-*
-rtt_ratio
-)
 ;
 }
 increase_scale_factor
