@@ -65,6 +65,7 @@ SUPPORTED_CSS
 )
     
 assert
+not
 client
 .
 find_css
@@ -72,7 +73,7 @@ find_css
 UNSUPPORTED_CSS
 is_displayed
 =
-False
+True
 )
 pytest
 .
