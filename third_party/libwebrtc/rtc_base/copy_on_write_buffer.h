@@ -329,9 +329,12 @@ type
 =
 nullptr
 >
-ABSL_DEPRECATE_AND_INLINE
-(
-)
+[
+[
+deprecated
+]
+]
+ABSL_REFACTOR_INLINE
 CopyOnWriteBuffer
 (
 const

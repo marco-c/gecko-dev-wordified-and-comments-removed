@@ -1951,9 +1951,8 @@ audio
 extensions1
 )
 ;
-const
-unsigned
-char
+constexpr
+uint8_t
 kRtpData1
 [
 ]
@@ -1985,10 +1984,6 @@ CopyOnWriteBuffer
 rtp_packet1
 (
 kRtpData1
-sizeof
-(
-kRtpData1
-)
 )
 ;
 RtpPacketReceived
@@ -2173,9 +2168,8 @@ video
 extensions2
 )
 ;
-const
-unsigned
-char
+constexpr
+uint8_t
 kRtpData2
 [
 ]
@@ -2207,10 +2201,6 @@ CopyOnWriteBuffer
 rtp_packet2
 (
 kRtpData2
-sizeof
-(
-kRtpData2
-)
 )
 ;
 fake_rtp
@@ -2898,9 +2888,8 @@ rtp_count
 )
 ;
 }
-const
-unsigned
-char
+constexpr
+uint8_t
 kRtpData
 [
 ]
@@ -2920,7 +2909,7 @@ kRtpData
 0
 }
 ;
-const
+constexpr
 int
 kRtpLen
 =
@@ -3920,7 +3909,6 @@ CopyOnWriteBuffer
 rtp_data
 (
 kRtpData
-kRtpLen
 )
 ;
 if
@@ -3952,7 +3940,6 @@ CopyOnWriteBuffer
 rtp_data
 (
 kRtpData
-kRtpLen
 )
 ;
 transport

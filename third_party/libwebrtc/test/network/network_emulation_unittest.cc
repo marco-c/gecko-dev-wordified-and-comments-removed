@@ -5769,12 +5769,7 @@ packet
 (
 buf
 .
-Data
-(
-)
-buf
-.
-Length
+DataView
 (
 )
 )

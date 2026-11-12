@@ -37,6 +37,11 @@ optional
 #
 include
 <
+span
+>
+#
+include
+<
 string
 >
 #
@@ -1150,6 +1155,11 @@ return
 CopyOnWriteBuffer
 packet
 (
+std
+:
+:
+span
+(
 static_cast
 <
 const
@@ -1160,6 +1170,7 @@ uint8_t
 pv
 )
 cb
+)
 )
 ;
 EcnMarking

@@ -375,8 +375,14 @@ return
 CopyOnWriteBuffer
 packet
 (
+absl
+:
+:
+string_view
+(
 data
 len
+)
 )
 ;
 SendPacketInternal
