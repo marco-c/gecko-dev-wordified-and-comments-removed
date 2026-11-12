@@ -301,11 +301,6 @@ mColISize
 NS_UNCONSTRAINEDSIZE
 ;
 nscoord
-mExpectedISizeLeftOver
-=
-0
-;
-nscoord
 mColGap
 =
 NS_UNCONSTRAINEDSIZE
