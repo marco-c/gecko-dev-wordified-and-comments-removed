@@ -297,7 +297,7 @@ source_file_part
 bundle_data
 (
 "
-scenario_unittest_resources_bundle_data
+scenario_unittest_bundle_data
 "
 )
 {
@@ -2059,7 +2059,7 @@ deps
 [
 "
 :
-scenario_unittest_resources_bundle_data
+scenario_unittest_bundle_data
 "
 ]
 }
@@ -2321,7 +2321,7 @@ deps
 [
 "
 :
-scenario_unittest_resources_bundle_data
+scenario_unittest_bundle_data
 "
 ]
 }

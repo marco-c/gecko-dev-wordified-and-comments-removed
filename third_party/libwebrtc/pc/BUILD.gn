@@ -5743,15 +5743,7 @@ visibility
 /
 api
 :
-jsep
-"
-"
-.
-.
-/
-api
-:
-webrtc_sdp_unittest
+*
 "
 ]
 sources

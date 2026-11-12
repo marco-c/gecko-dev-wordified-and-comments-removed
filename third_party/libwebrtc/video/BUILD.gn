@@ -9934,10 +9934,6 @@ deps
 multi_stream_tester
 "
 "
-:
-multi_stream_tests
-"
-"
 .
 .
 /
