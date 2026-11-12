@@ -872,8 +872,10 @@ ResolverMap
 ;
 PacketSocketFactory
 *
+const
 socket_factory_
 ;
+const
 std
 :
 :
@@ -1075,6 +1077,7 @@ dscp_
 StunStats
 stats_
 ;
+const
 bool
 emit_local_for_anyaddress_
 ;

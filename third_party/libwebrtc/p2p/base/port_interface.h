@@ -982,16 +982,6 @@ const
 0
 ;
 virtual
-void
-set_generation
-(
-uint32_t
-generation
-)
-=
-0
-;
-virtual
 bool
 send_retransmit_count_attribute
 (

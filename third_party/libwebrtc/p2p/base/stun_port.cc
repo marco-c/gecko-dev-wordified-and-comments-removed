@@ -891,12 +891,14 @@ stun_keepalive_lifetime
 }
 UDPPort
 *
+const
 port_
 ;
 const
 SocketAddress
 server_addr_
 ;
+const
 Timestamp
 start_time_
 ;
