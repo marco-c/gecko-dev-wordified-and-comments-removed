@@ -20073,6 +20073,12 @@ valueIsTyped
 =
 true
 ;
+this
+.
+_autofillPlaceholder
+=
+null
+;
 if
 (
 !
