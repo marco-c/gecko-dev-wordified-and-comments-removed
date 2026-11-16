@@ -3105,11 +3105,6 @@ y
 2f
 )
 )
-inputResultMock
-.
-hashCode
-(
-)
 geckoResults
 [
 resultCurrentIndex

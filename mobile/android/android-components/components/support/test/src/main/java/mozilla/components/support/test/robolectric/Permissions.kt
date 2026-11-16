@@ -140,9 +140,6 @@ permissions
 String
 )
 {
-val
-application
-=
 shadowOf
 (
 getApplicationContext
@@ -152,15 +149,10 @@ Application
 (
 )
 )
-permissions
-.
-map
-{
-application
 .
 grantPermissions
 (
-it
+*
+permissions
 )
-}
 }

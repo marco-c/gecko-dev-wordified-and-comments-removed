@@ -655,14 +655,6 @@ captured
 =
 it
 }
-verify
-(
-mockGeckoView
-)
-.
-geckoViewCapture
-(
-)
 geckoResult
 .
 complete

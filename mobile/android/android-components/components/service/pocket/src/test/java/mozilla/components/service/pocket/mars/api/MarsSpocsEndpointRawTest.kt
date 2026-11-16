@@ -518,6 +518,8 @@ request
 .
 conservative
 )
+assertTrue
+(
 request
 .
 headers
@@ -544,6 +546,9 @@ contains
 CONTENT_TYPE_APPLICATION_JSON
 true
 )
+)
+assertTrue
+(
 request
 .
 headers
@@ -573,6 +578,7 @@ userAgent
 !
 !
 true
+)
 )
 val
 requestBody
@@ -756,6 +762,8 @@ request
 .
 conservative
 )
+assertTrue
+(
 request
 .
 headers
@@ -781,6 +789,7 @@ contains
 (
 CONTENT_TYPE_APPLICATION_JSON
 true
+)
 )
 val
 requestBody

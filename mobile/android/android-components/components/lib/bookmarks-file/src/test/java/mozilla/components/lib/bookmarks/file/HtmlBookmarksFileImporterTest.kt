@@ -450,6 +450,11 @@ insertedTree
 it
 }
 )
+assertEquals
+(
+"
+guid
+"
 importer
 .
 importFromUri
@@ -459,6 +464,9 @@ testUri
 .
 getOrThrow
 (
+)
+.
+guid
 )
 assertEquals
 (

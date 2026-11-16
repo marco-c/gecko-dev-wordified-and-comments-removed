@@ -2597,11 +2597,14 @@ SemanticsActions
 SetProgress
 )
 {
+assertTrue
+(
 it
 (
 0
 .
 5f
+)
 )
 }
 assertEquals

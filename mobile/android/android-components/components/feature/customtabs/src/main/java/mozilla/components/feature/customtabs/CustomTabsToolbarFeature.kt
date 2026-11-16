@@ -2011,6 +2011,12 @@ mozac_feature_customtabs_share_link
 {
 val
 listener
+:
+(
+)
+-
+>
+Unit
 =
 customTabsToolbarListeners
 .

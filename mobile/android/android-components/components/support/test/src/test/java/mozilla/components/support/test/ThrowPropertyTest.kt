@@ -89,6 +89,14 @@ org
 .
 junit
 .
+Assert
+.
+fail
+import
+org
+.
+junit
+.
 Test
 class
 ThrowPropertyTest
@@ -129,6 +137,12 @@ String
 >
 (
 )
+fail
+(
+"
+getValue
+returned
+{
 throwProperty
 .
 getValue
@@ -137,6 +151,9 @@ testProperty
 :
 :
 testProperty
+)
+}
+"
 )
 }
 Test

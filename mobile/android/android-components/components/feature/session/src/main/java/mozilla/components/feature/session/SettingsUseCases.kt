@@ -335,11 +335,8 @@ engineState
 engineSession
 }
 .
-map
-{
-block
+forEach
 (
-it
+block
 )
-}
 }

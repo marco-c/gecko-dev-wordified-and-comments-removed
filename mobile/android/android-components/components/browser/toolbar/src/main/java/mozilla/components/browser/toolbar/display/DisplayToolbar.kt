@@ -2473,11 +2473,6 @@ layout
 rootView
 as
 ConstraintLayout
-layout
-.
-hashCode
-(
-)
 val
 constraintSet
 =

@@ -279,6 +279,9 @@ twice
 numYields
 =
 0
+assertEquals
+(
+2
 listFetcher
 .
 listStatements
@@ -288,8 +291,9 @@ mock
 )
 )
 .
-toList
+count
 (
+)
 )
 assertEquals
 (
