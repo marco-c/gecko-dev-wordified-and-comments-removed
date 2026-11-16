@@ -102,6 +102,7 @@ import
 {
 PREF_WEATHER_SIZE
 WIDGET_REGISTRY
+WIDGET_USER_ACTIONS
 }
 from
 "
@@ -196,6 +197,10 @@ const
 USER_ACTION_TYPES
 =
 {
+.
+.
+.
+WIDGET_USER_ACTIONS
 CHANGE_LOCATION
 :
 "
@@ -210,16 +215,6 @@ CHANGE_TEMP_UNIT
 :
 "
 change_temperature_units
-"
-CHANGE_SIZE
-:
-"
-change_size
-"
-LEARN_MORE
-:
-"
-learn_more
 "
 OPT_IN_ACCEPTED
 :

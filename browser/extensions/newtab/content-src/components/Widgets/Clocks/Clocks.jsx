@@ -105,6 +105,7 @@ PREF_CLOCKS_SIZE
 PREF_WIDGETS_CLOCKS_ENABLED
 WIDGET_REGISTRY
 resolveWidgetSize
+WIDGET_USER_ACTIONS
 }
 from
 "
@@ -229,6 +230,10 @@ const
 USER_ACTION_TYPES
 =
 {
+.
+.
+.
+WIDGET_USER_ACTIONS
 ADD_CLOCK
 :
 "
@@ -244,11 +249,6 @@ CHANGE_HOUR_FORMAT
 "
 change_hour_format
 "
-CHANGE_SIZE
-:
-"
-change_size
-"
 COLLAPSE
 :
 "
@@ -263,11 +263,6 @@ EXPAND
 :
 "
 expand
-"
-LEARN_MORE
-:
-"
-learn_more
 "
 REMOVE_CLOCK
 :

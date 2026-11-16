@@ -103,6 +103,7 @@ import
 {
 WIDGET_REGISTRY
 resolveWidgetSize
+WIDGET_USER_ACTIONS
 }
 from
 "
@@ -225,11 +226,10 @@ const
 USER_ACTION_TYPES
 =
 {
-CHANGE_SIZE
-:
-"
-change_size
-"
+.
+.
+.
+WIDGET_USER_ACTIONS
 LIST_COPY
 :
 "
