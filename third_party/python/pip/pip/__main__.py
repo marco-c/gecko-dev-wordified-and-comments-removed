@@ -30,7 +30,12 @@ pop
 0
 )
 if
-__package__
+not
+__spec__
+or
+__spec__
+.
+parent
 =
 =
 "
@@ -82,7 +87,7 @@ cli
 .
 main
 import
-main
+cli
 as
 _main
     

@@ -22,6 +22,10 @@ ssl
 import
 sys
 from
+typing
+import
+Any
+from
 pip
 .
 _vendor
@@ -232,41 +236,34 @@ PyPy
 "
 :
         
+pypy
+=
+sys
+.
+pypy_version_info
+        
 implementation_version
 =
+f
 "
 {
-}
-.
-{
-}
-.
-{
-}
-"
-.
-format
-(
-            
-sys
-.
-pypy_version_info
+pypy
 .
 major
-            
-sys
+}
 .
-pypy_version_info
+{
+pypy
 .
 minor
-            
-sys
+}
 .
-pypy_version_info
+{
+pypy
 .
 micro
-        
-)
+}
+"
         
 if
 sys
@@ -360,6 +357,13 @@ def
 info
 (
 )
+-
+>
+dict
+[
+str
+Any
+]
 :
     
 "
@@ -460,6 +464,14 @@ None
 }
     
 chardet_info
+:
+dict
+[
+str
+str
+|
+None
+]
 =
 {
 "
@@ -502,6 +514,14 @@ __version__
 }
     
 pyopenssl_info
+:
+dict
+[
+str
+str
+|
+None
+]
 =
 {
         

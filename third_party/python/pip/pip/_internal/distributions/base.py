@@ -38,6 +38,7 @@ _internal
 build_env
 import
 BuildEnvironmentInstaller
+BuildIsolationMode
 class
 AbstractDistribution
 (
@@ -210,9 +211,11 @@ req
 =
 req
     
+property
+    
 abc
 .
-abstractproperty
+abstractmethod
     
 def
 build_tracker_id
@@ -311,9 +314,13 @@ BuildEnvironmentInstaller
         
 build_isolation
 :
-bool
+BuildIsolationMode
         
 check_build_deps
+:
+bool
+        
+allow_editables
 :
 bool
     

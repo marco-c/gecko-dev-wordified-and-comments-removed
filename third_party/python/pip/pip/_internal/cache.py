@@ -96,7 +96,7 @@ utils
 temp_dir
 import
 TempDirectory
-tempdir_kinds
+TempDirectoryKind
 from
 pip
 .
@@ -871,6 +871,17 @@ candidates
 ]
         
 if
+link
+.
+is_existing_dir
+(
+)
+:
+            
+return
+link
+        
+if
 not
 package_name
 :
@@ -883,6 +894,13 @@ canonical_package_name
 canonicalize_name
 (
 package_name
+)
+        
+supported_tags_set
+=
+set
+(
+supported_tags
 )
         
 for
@@ -915,12 +933,9 @@ InvalidWheelFilename
 continue
             
 if
-canonicalize_name
-(
 wheel
 .
 name
-)
 !
 =
 canonical_package_name
@@ -973,7 +988,7 @@ wheel
 .
 supported
 (
-supported_tags
+supported_tags_set
 )
 :
                 
@@ -1078,7 +1093,7 @@ TempDirectory
             
 kind
 =
-tempdir_kinds
+TempDirectoryKind
 .
 EPHEM_WHEEL_CACHE
             
@@ -1678,15 +1693,26 @@ e
 else
 :
                 
+download_url
+=
+download_info
+.
+to_dict_compat
+(
+)
+[
+"
+url
+"
+]
+                
 if
 origin
 .
 url
 !
 =
-download_info
-.
-url
+download_url
 :
                     
 logger
@@ -1746,9 +1772,7 @@ url
                         
 cache_dir
                         
-download_info
-.
-url
+download_url
                     
 )
         

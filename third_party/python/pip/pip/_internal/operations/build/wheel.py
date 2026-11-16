@@ -48,7 +48,7 @@ metadata_directory
 :
 str
     
-tempd
+wheel_directory
 :
 str
 )
@@ -110,7 +110,7 @@ directory
 %
 s
 "
-tempd
+wheel_directory
 )
         
 runner
@@ -151,7 +151,9 @@ backend
 build_wheel
 (
                 
-tempd
+wheel_directory
+=
+wheel_directory
                 
 metadata_directory
 =
@@ -188,6 +190,6 @@ path
 .
 join
 (
-tempd
+wheel_directory
 wheel_name
 )

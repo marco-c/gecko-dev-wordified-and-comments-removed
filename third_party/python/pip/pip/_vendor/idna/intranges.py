@@ -71,24 +71,19 @@ runs
 "
 import
 bisect
-from
-typing
-import
-List
-Tuple
 def
 intranges_from_list
 (
 list_
 :
-List
+list
 [
 int
 ]
 )
 -
 >
-Tuple
+tuple
 [
 int
 .
@@ -209,9 +204,7 @@ len
 (
 sorted_list
 )
-:
-            
-if
+and
 sorted_list
 [
 i
@@ -227,7 +220,7 @@ i
 -
 1
 :
-                
+            
 continue
         
 current_range
@@ -305,7 +298,7 @@ int
 )
 -
 >
-Tuple
+tuple
 [
 int
 int
@@ -341,7 +334,7 @@ int_
 int
 ranges
 :
-Tuple
+tuple
 [
 int
 .

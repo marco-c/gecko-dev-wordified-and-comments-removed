@@ -47,6 +47,10 @@ version
 "
 "
 "
+from
+__future__
+import
+annotations
 import
 sys
 from
@@ -56,9 +60,12 @@ _vendor
 .
 urllib3
 import
+(
+    
 __version__
 as
 urllib3_version
+)
 try
 :
     
@@ -95,6 +102,9 @@ def
 _resolve_char_detection
 (
 )
+-
+>
+None
 :
     
 "

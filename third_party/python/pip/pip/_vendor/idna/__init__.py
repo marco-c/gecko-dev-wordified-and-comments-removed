@@ -42,6 +42,13 @@ valid_string_length
 )
 from
 .
+idnadata
+import
+__version__
+as
+unicode_version
+from
+.
 intranges
 import
 intranges_contain
@@ -56,6 +63,10 @@ __all__
     
 "
 __version__
+"
+    
+"
+unicode_version
 "
     
 "

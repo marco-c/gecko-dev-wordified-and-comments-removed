@@ -93,13 +93,9 @@ fragments
 ]
     
 if
-isinstance
-(
 direct_url
 .
-info
-VcsInfo
-)
+vcs_info
 :
         
 requirement
@@ -112,7 +108,7 @@ f
 {
 direct_url
 .
-info
+vcs_info
 .
 vcs
 }
@@ -122,10 +118,14 @@ direct_url
 .
 url
 }
+"
+            
+f
+"
 {
 direct_url
 .
-info
+vcs_info
 .
 commit_id
 }
@@ -134,13 +134,9 @@ commit_id
 )
     
 elif
-isinstance
-(
 direct_url
 .
-info
-ArchiveInfo
-)
+archive_info
 :
         
 requirement
@@ -153,33 +149,55 @@ url
 if
 direct_url
 .
-info
+archive_info
 .
-hash
+hashes
 :
+            
+hash_algorithm
+hash_value
+=
+next
+(
+                
+iter
+(
+direct_url
+.
+archive_info
+.
+hashes
+.
+items
+(
+)
+)
+            
+)
             
 fragments
 .
 append
 (
-direct_url
-.
-info
-.
-hash
+f
+"
+{
+hash_algorithm
+}
+=
+{
+hash_value
+}
+"
 )
     
 else
 :
         
 assert
-isinstance
-(
 direct_url
 .
-info
-DirInfo
-)
+dir_info
         
 requirement
 +
@@ -253,7 +271,7 @@ path_to_url
 source_dir
 )
         
-info
+dir_info
 =
 DirInfo
 (
@@ -357,7 +375,7 @@ url
 =
 url
             
-info
+vcs_info
 =
 VcsInfo
 (
@@ -404,7 +422,7 @@ link
 .
 url_without_fragment
             
-info
+dir_info
 =
 DirInfo
 (
@@ -421,34 +439,35 @@ subdirectory_fragment
 else
 :
         
-hash
-=
-None
-        
-hash_name
-=
+if
 link
 .
-hash_name
-        
-if
 hash_name
 :
             
+assert
+link
+.
 hash
-=
-f
-"
-{
-hash_name
-}
+            
+hashes
 =
 {
 link
 .
+hash_name
+:
+link
+.
 hash
 }
-"
+        
+else
+:
+            
+hashes
+=
+None
         
 return
 DirectUrl
@@ -460,13 +479,13 @@ link
 .
 url_without_fragment
             
-info
+archive_info
 =
 ArchiveInfo
 (
-hash
+hashes
 =
-hash
+hashes
 )
             
 subdirectory

@@ -49,8 +49,6 @@ import
 Any
     
 Literal
-    
-Optional
 )
 from
 pip
@@ -136,14 +134,12 @@ AuthInfo
 =
 tuple
 [
-Optional
-[
 str
-]
-Optional
-[
+|
+None
 str
-]
+|
+None
 ]
 def
 is_url
@@ -297,6 +293,20 @@ name
 "
 "
     
+quoted_rev
+=
+urllib
+.
+parse
+.
+quote
+(
+rev
+"
+/
+"
+)
+    
 egg_project_name
 =
 project_name
@@ -319,7 +329,7 @@ f
 repo_url
 }
 {
-rev
+quoted_rev
 }
 #
 egg
@@ -2508,6 +2518,17 @@ URL
 .
 "
                 
+)
+            
+rev
+=
+urllib
+.
+parse
+.
+unquote
+(
+rev
 )
         
 url

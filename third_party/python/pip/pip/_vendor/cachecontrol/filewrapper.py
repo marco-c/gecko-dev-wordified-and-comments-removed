@@ -19,6 +19,13 @@ TYPE_CHECKING
 :
     
 from
+collections
+.
+abc
+import
+Buffer
+    
+from
 http
 .
 client
@@ -207,7 +214,7 @@ callback
 Callable
 [
 [
-bytes
+Buffer
 ]
 None
 ]
@@ -340,6 +347,10 @@ self
 >
 None
 :
+        
+result
+:
+Buffer
         
 if
 self

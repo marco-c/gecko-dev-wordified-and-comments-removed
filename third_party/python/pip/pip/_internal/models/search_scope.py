@@ -68,6 +68,9 @@ dataclass
 frozen
 =
 True
+slots
+=
+True
 )
 class
 SearchScope
@@ -91,20 +94,6 @@ search
 "
 "
 "
-    
-__slots__
-=
-[
-"
-find_links
-"
-"
-index_urls
-"
-"
-no_index
-"
-]
     
 find_links
 :

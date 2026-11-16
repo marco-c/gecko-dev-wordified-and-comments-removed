@@ -13,6 +13,7 @@ sys
 from
 typing
 import
+TYPE_CHECKING
 Literal
 Protocol
 cast
@@ -45,6 +46,20 @@ BaseEnvironment
 FilesystemWheel
 MemoryWheel
 Wheel
+if
+TYPE_CHECKING
+:
+    
+from
+pip
+.
+_vendor
+.
+packaging
+.
+utils
+import
+NormalizedName
 __all__
 =
 [
@@ -401,9 +416,9 @@ variable
 gone_in
 =
 "
-26
+27
 .
-3
+0
 "
         
 issue
@@ -711,12 +726,13 @@ directory
 def
 get_wheel_distribution
 (
+    
 wheel
 :
 Wheel
 canonical_name
 :
-str
+NormalizedName
 )
 -
 >

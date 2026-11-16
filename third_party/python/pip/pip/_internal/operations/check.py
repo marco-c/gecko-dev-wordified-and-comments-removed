@@ -20,6 +20,7 @@ collections
 .
 abc
 import
+Callable
 Generator
 Iterable
 from
@@ -40,8 +41,6 @@ from
 typing
 import
 (
-    
-Callable
     
 NamedTuple
 )
@@ -942,7 +941,7 @@ req
 name
 )
 in
-packages_affected
+would_be_installed
 :
                 
 packages_affected

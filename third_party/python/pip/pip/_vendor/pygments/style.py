@@ -32,7 +32,7 @@ copyright
 Copyright
 2006
 -
-2025
+present
 by
 the
 Pygments
@@ -498,6 +498,18 @@ text
 return
 '
 '
+            
+elif
+text
+=
+=
+'
+transparent
+'
+:
+                
+return
+text
             
 elif
 text

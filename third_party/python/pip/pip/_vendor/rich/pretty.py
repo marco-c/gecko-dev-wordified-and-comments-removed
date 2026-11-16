@@ -1242,9 +1242,7 @@ value
                         
 console
 =
-get_console
-(
-)
+console
                         
 overflow
 =

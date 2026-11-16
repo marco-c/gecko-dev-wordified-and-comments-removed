@@ -24,10 +24,6 @@ import
 Iterator
 Sequence
 from
-typing
-import
-Optional
-from
 pip
 .
 _vendor
@@ -87,6 +83,18 @@ logging
 getLogger
 (
 __name__
+)
+_warned_bad_metadata
+:
+set
+[
+BasePath
+|
+None
+]
+=
+set
+(
 )
 def
 _looks_like_wheel
@@ -281,10 +289,9 @@ importlib
 metadata
 .
 Distribution
-Optional
-[
 BasePath
-]
+|
+None
 ]
     
 def
@@ -388,6 +395,13 @@ as
 e
 :
                 
+if
+info_location
+not
+in
+_warned_bad_metadata
+:
+                    
 logger
 .
 warning
@@ -405,6 +419,13 @@ info_location
 e
 .
 reason
+)
+                    
+_warned_bad_metadata
+.
+add
+(
+info_location
 )
                 
 continue

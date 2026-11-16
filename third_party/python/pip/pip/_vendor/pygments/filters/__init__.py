@@ -40,7 +40,7 @@ copyright
 Copyright
 2006
 -
-2025
+present
 by
 the
 Pygments
@@ -634,8 +634,13 @@ Filter
 Convert
 mathematical
 symbols
-such
-as
+into
+Unicode
+characters
+.
+    
+Examples
+are
 \
 \
 <
@@ -643,16 +648,13 @@ longrightarrow
 >
 in
 Isabelle
-    
 or
+    
 \
 \
 longrightarrow
 in
 LaTeX
-into
-Unicode
-characters
 .
     
 This
@@ -7674,8 +7676,9 @@ uppercase
 or
 capitalize
 them
-which
+.
     
+This
 means
 first
 letter
@@ -8936,7 +8939,7 @@ Filter
 "
 "
 "
-Gobbles
+Gobble
 source
 code
 lines
@@ -9215,7 +9218,7 @@ Filter
 "
 "
 "
-Merges
+Merge
 consecutive
 tokens
 with
@@ -9226,11 +9229,7 @@ type
 in
 the
 output
-    
 stream
-of
-a
-lexer
 .
     
 .

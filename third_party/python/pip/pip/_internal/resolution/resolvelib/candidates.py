@@ -59,6 +59,8 @@ exceptions
 import
 (
     
+FailedToPrepareCandidate
+    
 HashError
     
 InstallationSubprocessError
@@ -258,9 +260,24 @@ make_install_req_from_link
 link
 :
 Link
+    
 template
 :
 InstallRequirement
+    
+version
+:
+Version
+|
+None
+=
+None
+    
+*
+    
+source_link
+:
+Link
 )
 -
 >
@@ -279,6 +296,39 @@ editable
 "
     
 if
+version
+is
+not
+None
+and
+template
+.
+req
+and
+template
+.
+hash_options
+:
+        
+line
+=
+f
+"
+{
+template
+.
+req
+.
+name
+}
+=
+=
+{
+version
+}
+"
+    
+elif
 template
 .
 req
@@ -321,12 +371,6 @@ template
 .
 comes_from
         
-use_pep517
-=
-template
-.
-use_pep517
-        
 isolated
 =
 template
@@ -338,12 +382,6 @@ constraint
 template
 .
 constraint
-        
-global_options
-=
-template
-.
-global_options
         
 hash_options
 =
@@ -372,6 +410,13 @@ ireq
 link
 =
 link
+    
+ireq
+.
+set_source_link
+(
+source_link
+)
     
 ireq
 .
@@ -409,14 +454,43 @@ not
 editable
 "
     
+if
+template
+.
+name
+:
+        
+req_string
+=
+f
+"
+{
+template
+.
+name
+}
+{
+link
+.
+url
+}
+"
+    
+else
+:
+        
+req_string
+=
+link
+.
+url
+    
 ireq
 =
 install_req_from_editable
 (
         
-link
-.
-url
+req_string
         
 user_supplied
 =
@@ -430,12 +504,6 @@ template
 .
 comes_from
         
-use_pep517
-=
-template
-.
-use_pep517
-        
 isolated
 =
 template
@@ -447,18 +515,6 @@ constraint
 template
 .
 constraint
-        
-permit_editable_wheels
-=
-template
-.
-permit_editable_wheels
-        
-global_options
-=
-template
-.
-global_options
         
 hash_options
 =
@@ -579,12 +635,6 @@ template
 .
 comes_from
         
-use_pep517
-=
-template
-.
-use_pep517
-        
 isolated
 =
 template
@@ -596,12 +646,6 @@ constraint
 template
 .
 constraint
-        
-global_options
-=
-template
-.
-global_options
         
 hash_options
 =
@@ -715,64 +759,6 @@ the
 distribution
 .
     
-:
-param
-source_link
-:
-The
-link
-this
-candidate
-"
-originates
-"
-from
-.
-This
-is
-        
-different
-from
-link
-when
-the
-link
-is
-found
-in
-the
-wheel
-cache
-.
-        
-link
-would
-point
-to
-the
-wheel
-cache
-while
-this
-points
-to
-the
-        
-found
-remote
-link
-(
-e
-.
-g
-.
-from
-pypi
-.
-org
-)
-.
-    
 "
 "
 "
@@ -792,10 +778,6 @@ __init__
 self
         
 link
-:
-Link
-        
-source_link
 :
 Link
         
@@ -834,12 +816,6 @@ self
 _link
 =
 link
-        
-self
-.
-_source_link
-=
-source_link
         
 self
 .
@@ -1043,7 +1019,9 @@ None
 return
 self
 .
-_source_link
+_ireq
+.
+source_link
     
 property
     
@@ -1180,6 +1158,22 @@ f
 "
 (
 from
+{
+'
+editable
+'
+if
+self
+.
+is_editable
+else
+'
+'
+}
+"
+            
+f
+"
 {
 self
 .
@@ -1420,19 +1414,84 @@ as
 exc
 :
             
-exc
+if
+isinstance
+(
+self
 .
-context
+_ireq
+.
+comes_from
+InstallRequirement
+)
+:
+                
+request_chain
+=
+self
+.
+_ireq
+.
+comes_from
+.
+from_path
+(
+)
+            
+else
+:
+                
+request_chain
+=
+self
+.
+_ireq
+.
+comes_from
+            
+if
+request_chain
+is
+None
+:
+                
+request_chain
 =
 "
-See
-above
-for
-output
-.
+directly
+requested
 "
             
 raise
+FailedToPrepareCandidate
+(
+                
+package_name
+=
+self
+.
+_ireq
+.
+name
+or
+str
+(
+self
+.
+_link
+)
+                
+requirement_chain
+=
+request_chain
+                
+failed_step
+=
+exc
+.
+command_description
+            
+)
         
 self
 .
@@ -1630,8 +1689,19 @@ ireq
 =
 make_install_req_from_link
 (
+            
 link
+            
 template
+            
+version
+=
+version
+            
+source_link
+=
+source_link
+        
 )
         
 assert
@@ -1670,12 +1740,9 @@ filename
             
 wheel_name
 =
-canonicalize_name
-(
 wheel
 .
 name
-)
             
 assert
 name
@@ -1834,10 +1901,6 @@ link
 =
 link
             
-source_link
-=
-source_link
-            
 ireq
 =
 ireq
@@ -1945,10 +2008,6 @@ __init__
 (
             
 link
-=
-link
-            
-source_link
 =
 link
             
@@ -2061,6 +2120,10 @@ factory
 self
 .
 _version
+:
+Version
+|
+None
 =
 None
         
