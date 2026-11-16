@@ -2574,6 +2574,14 @@ mBorderImageSource
 IsNone
 (
 )
+|
+|
+!
+mBorderShape
+.
+IsNone
+(
+)
 ;
 }
 nscoord
