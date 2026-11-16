@@ -675,6 +675,20 @@ fenix
 .
 components
 .
+appstate
+.
+sports
+.
+SportsWidgetState
+import
+org
+.
+mozilla
+.
+fenix
+.
+components
+.
 bookmarks
 .
 lastSavedFolderCache
@@ -1169,16 +1183,6 @@ mozilla
 .
 fenix
 .
-perf
-.
-lazyMonitored
-import
-org
-.
-mozilla
-.
-fenix
-.
 reviewprompt
 .
 ReviewPromptMiddleware
@@ -1477,7 +1481,7 @@ currentTimeMillis
 val
 backgroundServices
 by
-lazyMonitored
+lazy
 {
 BackgroundServices
 (
@@ -1509,7 +1513,7 @@ applicationScope
 val
 services
 by
-lazyMonitored
+lazy
 {
 Services
 (
@@ -1520,12 +1524,13 @@ store
 backgroundServices
 .
 accountManager
+settings
 )
 }
 val
 core
 by
-lazyMonitored
+lazy
 {
 Core
 (
@@ -1543,7 +1548,7 @@ applicationScope
 val
 useCases
 by
-lazyMonitored
+lazy
 {
 UseCases
 (
@@ -1552,7 +1557,7 @@ context
 context
 crashReporter
 =
-lazyMonitored
+lazy
 {
 analytics
 .
@@ -1560,7 +1565,7 @@ crashReporter
 }
 engine
 =
-lazyMonitored
+lazy
 {
 core
 .
@@ -1568,7 +1573,7 @@ engine
 }
 store
 =
-lazyMonitored
+lazy
 {
 core
 .
@@ -1576,7 +1581,7 @@ store
 }
 shortcutManager
 =
-lazyMonitored
+lazy
 {
 core
 .
@@ -1584,7 +1589,7 @@ webAppShortcutManager
 }
 topSitesStorage
 =
-lazyMonitored
+lazy
 {
 core
 .
@@ -1592,7 +1597,7 @@ topSitesStorage
 }
 bookmarksStorage
 =
-lazyMonitored
+lazy
 {
 core
 .
@@ -1600,7 +1605,7 @@ bookmarksStorage
 }
 historyStorage
 =
-lazyMonitored
+lazy
 {
 core
 .
@@ -1608,7 +1613,7 @@ historyStorage
 }
 lastSavedFolderCache
 =
-lazyMonitored
+lazy
 {
 context
 .
@@ -1620,7 +1625,7 @@ lastSavedFolderCache
 }
 syncedTabsCommands
 =
-lazyMonitored
+lazy
 {
 backgroundServices
 .
@@ -1633,13 +1638,13 @@ ads
 lazyAdsClientProvider
 appStore
 =
-lazyMonitored
+lazy
 {
 appStore
 }
 client
 =
-lazyMonitored
+lazy
 {
 core
 .
@@ -1647,7 +1652,7 @@ client
 }
 strictMode
 =
-lazyMonitored
+lazy
 {
 strictMode
 }
@@ -1668,7 +1673,7 @@ notificationsDelegate
 :
 NotificationsDelegate
 by
-lazyMonitored
+lazy
 {
 NotificationsDelegate
 (
@@ -1678,7 +1683,7 @@ notificationManagerCompat
 val
 intentProcessors
 by
-lazyMonitored
+lazy
 {
 IntentProcessors
 (
@@ -1710,7 +1715,7 @@ applicationScope
 val
 addonsProvider
 by
-lazyMonitored
+lazy
 {
 /
 /
@@ -1846,7 +1851,7 @@ MagicNumber
 val
 addonUpdater
 by
-lazyMonitored
+lazy
 {
 DefaultAddonUpdater
 (
@@ -1872,7 +1877,7 @@ MagicNumber
 val
 supportedAddonsChecker
 by
-lazyMonitored
+lazy
 {
 DefaultSupportedAddonsChecker
 (
@@ -1895,7 +1900,7 @@ MagicNumber
 val
 remoteSettingsSyncScheduler
 by
-lazyMonitored
+lazy
 {
 DefaultRemoteSettingsSyncScheduler
 (
@@ -1912,7 +1917,7 @@ HOURS
 val
 addonManager
 by
-lazyMonitored
+lazy
 {
 AddonManager
 (
@@ -1929,7 +1934,7 @@ addonUpdater
 val
 analytics
 by
-lazyMonitored
+lazy
 {
 Analytics
 (
@@ -1945,7 +1950,7 @@ buildMetadata
 val
 remoteSettingsService
 =
-lazyMonitored
+lazy
 {
 RemoteSettingsService
 (
@@ -2060,7 +2065,7 @@ nimbus
 :
 NimbusComponents
 by
-lazyMonitored
+lazy
 {
 NimbusComponents
 (
@@ -2069,7 +2074,7 @@ context
 context
 engine
 =
-lazyMonitored
+lazy
 {
 core
 .
@@ -2087,7 +2092,7 @@ remoteSettingsService
 val
 publicSuffixList
 by
-lazyMonitored
+lazy
 {
 PublicSuffixList
 (
@@ -2097,7 +2102,7 @@ context
 val
 clipboardHandler
 by
-lazyMonitored
+lazy
 {
 ClipboardHandler
 (
@@ -2107,7 +2112,7 @@ context
 val
 buildMetadata
 by
-lazyMonitored
+lazy
 {
 BuildMetadata
 .
@@ -2121,7 +2126,7 @@ assets
 val
 performance
 by
-lazyMonitored
+lazy
 {
 PerformanceComponent
 (
@@ -2130,7 +2135,7 @@ PerformanceComponent
 val
 push
 by
-lazyMonitored
+lazy
 {
 Push
 (
@@ -2143,7 +2148,7 @@ crashReporter
 val
 wifiConnectionMonitor
 by
-lazyMonitored
+lazy
 {
 WifiConnectionMonitor
 (
@@ -2155,7 +2160,7 @@ Application
 val
 strictMode
 by
-lazyMonitored
+lazy
 {
 StrictModeManager
 (
@@ -2173,7 +2178,7 @@ BuildManufacturerChecker
 val
 settings
 by
-lazyMonitored
+lazy
 {
 Settings
 (
@@ -2183,7 +2188,7 @@ context
 val
 fenixOnboarding
 by
-lazyMonitored
+lazy
 {
 FenixOnboarding
 (
@@ -2193,7 +2198,7 @@ context
 val
 playStoreReviewPromptController
 by
-lazyMonitored
+lazy
 {
 PlayStoreReviewPromptController
 (
@@ -2217,7 +2222,7 @@ numberOfAppLaunches
 val
 autofillConfiguration
 by
-lazyMonitored
+lazy
 {
 AutofillConfiguration
 (
@@ -2275,7 +2280,7 @@ client
 val
 appStartReasonProvider
 by
-lazyMonitored
+lazy
 {
 AppStartReasonProvider
 (
@@ -2289,7 +2294,7 @@ DefaultProcessInfoProvider
 val
 startupActivityLog
 by
-lazyMonitored
+lazy
 {
 StartupActivityLog
 (
@@ -2298,7 +2303,7 @@ StartupActivityLog
 val
 startupStateProvider
 by
-lazyMonitored
+lazy
 {
 StartupStateProvider
 (
@@ -2309,7 +2314,7 @@ appStartReasonProvider
 val
 appLinkIntentLaunchTypeProvider
 by
-lazyMonitored
+lazy
 {
 AppLinkIntentLaunchTypeProvider
 (
@@ -2317,17 +2322,20 @@ appStartReasonProvider
 )
 }
 val
-appStore
-by
-lazyMonitored
-{
-val
 blocklistHandler
-=
+by
+lazy
+{
 BlocklistHandler
 (
 settings
 )
+}
+val
+appStore
+by
+lazy
+{
 AppStore
 (
 initialState
@@ -2439,6 +2447,11 @@ setupChecklistState
 setupChecklistState
 (
 )
+sportsWidgetState
+=
+setupSportsWidgetState
+(
+)
 )
 .
 run
@@ -2490,7 +2503,7 @@ blocklistHandler
 )
 PocketMiddleware
 (
-lazyMonitored
+lazy
 {
 core
 .
@@ -2661,7 +2674,7 @@ Initialize
 val
 lensImageUploader
 by
-lazyMonitored
+lazy
 {
 LensImageUploader
 (
@@ -2691,7 +2704,7 @@ userAgentString
 val
 lensImageSearch
 by
-lazyMonitored
+lazy
 {
 LensImageSearch
 (
@@ -2712,6 +2725,25 @@ fenixBrowserUseCases
 }
 )
 }
+private
+fun
+setupSportsWidgetState
+(
+)
+=
+SportsWidgetState
+(
+isFeatureEnabled
+=
+settings
+.
+enableHomepageWrexhamWidget
+isVisible
+=
+settings
+.
+showHomepageWrexhamWidget
+)
 private
 fun
 setupChecklistState
@@ -2766,7 +2798,7 @@ null
 val
 fxSuggest
 by
-lazyMonitored
+lazy
 {
 FxSuggest
 (
@@ -2782,7 +2814,7 @@ crashReporter
 val
 menuCustomizationRepository
 by
-lazyMonitored
+lazy
 {
 MenuCustomizationRepository
 (
@@ -2825,7 +2857,7 @@ applicationScope
 val
 distributionIdManager
 by
-lazyMonitored
+lazy
 {
 DistributionIdManager
 (
@@ -2864,7 +2896,7 @@ metrics
 val
 integrityClient
 by
-lazyMonitored
+lazy
 {
 GooglePlayIntegrityClient
 .
@@ -2893,7 +2925,7 @@ generateHash
 val
 termsOfUsePromptRepository
 by
-lazyMonitored
+lazy
 {
 DefaultTermsOfUsePromptRepository
 (
@@ -2903,7 +2935,7 @@ settings
 val
 termsOfUseManager
 by
-lazyMonitored
+lazy
 {
 TermsOfUseManager
 (
@@ -2913,7 +2945,7 @@ termsOfUsePromptRepository
 val
 settingsIndexer
 by
-lazyMonitored
+lazy
 {
 DefaultFenixSettingsIndexer
 (
@@ -3080,7 +3112,7 @@ pref_key_enable_homepage_searchbar2
 val
 ipProtectionPromptRepository
 by
-lazyMonitored
+lazy
 {
 DefaultIPProtectionPromptRepository
 (
@@ -3090,7 +3122,7 @@ settings
 val
 ads
 by
-lazyMonitored
+lazy
 {
 Ads
 (
@@ -3102,7 +3134,7 @@ context
 val
 relayEligibilityStore
 by
-lazyMonitored
+lazy
 {
 RelayEligibilityStore
 (
@@ -3121,7 +3153,7 @@ emailMasksRepository
 :
 EmailMasksRepository
 by
-lazyMonitored
+lazy
 {
 DefaultEmailMasksRepository
 (
@@ -3133,7 +3165,7 @@ collectionsMigrationRepository
 :
 CollectionsMigrationRepository
 by
-lazyMonitored
+lazy
 {
 DefaultCollectionsMigrationRepository
 (
@@ -3143,7 +3175,7 @@ settings
 val
 relayFeatureIntegration
 by
-lazyMonitored
+lazy
 {
 RelayFeatureIntegration
 (
@@ -3197,7 +3229,7 @@ email_masks_error_retrieving_masks
 val
 aiFeatureBlockStorage
 by
-lazyMonitored
+lazy
 {
 AIFeatureBlockStorage
 .
@@ -3211,7 +3243,7 @@ summarizationSettings
 :
 SummarizationSettings
 by
-lazyMonitored
+lazy
 {
 SummarizationSettings
 .
@@ -3223,7 +3255,7 @@ context
 val
 listenToPage
 by
-lazyMonitored
+lazy
 {
 ListenToPage
 (
@@ -3255,7 +3287,7 @@ listenToPageFeatureFlagEnabled
 val
 aiFeatureRegistry
 by
-lazyMonitored
+lazy
 {
 AIFeatureRegistry
 .
@@ -3341,7 +3373,7 @@ unused
 val
 aiControlsFeatureBlock
 by
-lazyMonitored
+lazy
 {
 AIFeatureBlock
 .
@@ -3360,7 +3392,7 @@ llm
 :
 Llm
 by
-lazyMonitored
+lazy
 {
 Llm
 (
@@ -3402,7 +3434,7 @@ clientUUID
 val
 clientUUID
 by
-lazyMonitored
+lazy
 {
 ClientUuid
 .
@@ -3414,7 +3446,7 @@ context
 val
 ipProtection
 by
-lazyMonitored
+lazy
 {
 IPProtection
 (
@@ -3471,7 +3503,7 @@ tabDataCoordinator
 :
 TabDataCoordinator
 by
-lazyMonitored
+lazy
 {
 DefaultTabDataCoordinator
 (
@@ -3489,6 +3521,11 @@ tabsUseCases
 useCases
 .
 tabsUseCases
+fenixBrowserUseCases
+=
+useCases
+.
+fenixBrowserUseCases
 )
 tabGroupRepository
 =
