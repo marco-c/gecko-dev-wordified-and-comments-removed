@@ -433,12 +433,6 @@ kTextLogicalScale
 =
 32
 ;
-constexpr
-SkScalar
-kStrokeLogicalScale
-=
-32
-;
 LONG
 to_gdi
 (
@@ -6732,8 +6726,6 @@ getScaleY
 )
 }
 )
-*
-kStrokeLogicalScale
 ;
 const
 SkScalar
