@@ -4406,6 +4406,15 @@ true
 ;
 }
 }
+aFlags
+&
+=
+~
+ServoTraversalFlags
+:
+:
+ForCSSRuleChanges
+;
 if
 (
 GetPresContext
