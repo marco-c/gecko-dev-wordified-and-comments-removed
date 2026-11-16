@@ -120,6 +120,9 @@ gecko
 bindgen
 "
 "
+log
+"
+"
 malloc_size_of
 /
 gecko
@@ -925,6 +928,9 @@ version
 .
 4
 "
+optional
+=
+true
 features
 =
 [
