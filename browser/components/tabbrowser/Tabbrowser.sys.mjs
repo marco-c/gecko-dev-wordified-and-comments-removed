@@ -25779,7 +25779,7 @@ tab
 this
 .
 #
-insertSplitViewFooter
+insertAddressFooter
 (
 tab
 )
@@ -25877,7 +25877,7 @@ tab
 *
 /
 #
-insertSplitViewFooter
+insertAddressFooter
 (
 tab
 )
@@ -25904,9 +25904,7 @@ panelEl
 querySelector
 (
 "
-split
--
-view
+address
 -
 footer
 "
@@ -25931,9 +25929,7 @@ document
 createXULElement
 (
 "
-split
--
-view
+address
 -
 footer
 "
@@ -26012,9 +26008,7 @@ localName
 =
 =
 "
-split
--
-view
+address
 -
 footer
 "

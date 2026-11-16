@@ -7408,9 +7408,7 @@ content
 /
 tabbrowser
 /
-split
--
-view
+address
 -
 footer
 .
@@ -7436,9 +7434,7 @@ tabbrowser
 /
 content
 /
-split
--
-view
+address
 -
 footer
 .
