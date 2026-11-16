@@ -1248,7 +1248,7 @@ endif
 bool
 launched
 =
-SyncLaunch
+LaunchAndWaitForProcessHandle
 (
 std
 :
