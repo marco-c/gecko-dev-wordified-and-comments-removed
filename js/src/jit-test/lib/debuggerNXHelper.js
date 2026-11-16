@@ -1,8 +1,3 @@
-let
-newScriptCount
-=
-0
-;
 function
 testDebuggerHooksNX
 (
@@ -140,12 +135,7 @@ eval
 (
 "
 42
-+
 "
-+
-newScriptCount
-+
-+
 )
 ;
 }

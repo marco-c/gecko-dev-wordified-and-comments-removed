@@ -244,9 +244,6 @@ invokeInTab
 "
 breakInEval
 "
-"
-second
-"
 )
 ;
 await
