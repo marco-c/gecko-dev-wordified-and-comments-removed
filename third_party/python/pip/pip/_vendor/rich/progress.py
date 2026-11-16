@@ -7989,7 +7989,10 @@ refresh
         
 refresh_per_second
 (
+Optional
+[
 float
+]
 optional
 )
 :
@@ -8003,10 +8006,18 @@ refresh
 the
 progress
 information
+or
+None
+to
+use
+default
+(
+10
+)
 .
 Defaults
 to
-10
+None
 .
         
 speed_estimate_period
@@ -8839,13 +8850,6 @@ display
 "
 "
         
-if
-not
-self
-.
-disable
-:
-            
 self
 .
 live
@@ -8853,7 +8857,7 @@ live
 stop
 (
 )
-            
+        
 if
 not
 self
@@ -8869,7 +8873,7 @@ console
 .
 is_jupyter
 :
-                
+            
 self
 .
 console
@@ -11241,12 +11245,15 @@ bool
 optional
 )
 :
-Set
-visible
-flag
-if
-not
-None
+Enable
+display
+of
+the
+task
+.
+Defaults
+to
+True
 .
             
 description

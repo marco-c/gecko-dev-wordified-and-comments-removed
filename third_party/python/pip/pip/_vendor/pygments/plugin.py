@@ -127,7 +127,7 @@ copyright
 Copyright
 2006
 -
-present
+2025
 by
 the
 Pygments
@@ -148,8 +148,12 @@ details
 "
 "
 "
+from
+importlib
+.
+metadata
 import
-functools
+entry_points
 LEXER_ENTRY_POINT
 =
 '
@@ -178,22 +182,12 @@ pygments
 .
 filters
 '
-functools
-.
-cache
 def
 iter_entry_points
 (
 group_name
 )
 :
-    
-from
-importlib
-.
-metadata
-import
-entry_points
     
 groups
 =

@@ -2,6 +2,8 @@ import
 ssl
 import
 sys
+import
+typing
 _original_SSLContext
 =
 ssl
@@ -16,9 +18,12 @@ _original_SSLContext
 )
 _truststore_SSLContext_dunder_class
 :
+typing
+.
+Optional
+[
 type
-|
-None
+]
 _truststore_SSLContext_super_class
 :
 type

@@ -911,14 +911,21 @@ lines
 Args
 :
             
-terminal_text
+lines
+(
+Iterable
+[
+str
+]
+)
 :
-Output
-potentially
-containing
-ANSI
-escape
-sequences
+An
+iterable
+of
+lines
+of
+terminal
+output
 .
         
 Yields
@@ -938,21 +945,10 @@ Text
 for
 line
 in
-re
-.
-split
-(
-r
-"
-(
-?
-<
-=
-\
-n
-)
-"
 terminal_text
+.
+splitlines
+(
 )
 :
             
@@ -962,14 +958,6 @@ self
 decode_line
 (
 line
-.
-rstrip
-(
-"
-\
-n
-"
-)
 )
     
 def

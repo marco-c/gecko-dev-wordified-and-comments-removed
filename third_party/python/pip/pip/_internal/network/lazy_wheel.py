@@ -59,7 +59,7 @@ packaging
 .
 utils
 import
-NormalizedName
+canonicalize_name
 from
 pip
 .
@@ -114,10 +114,9 @@ pass
 def
 dist_from_wheel_url
 (
-    
 name
 :
-NormalizedName
+str
 url
 :
 str
@@ -210,7 +209,10 @@ return
 get_wheel_distribution
 (
 wheel
+canonicalize_name
+(
 name
+)
 )
 class
 LazyZipOverHTTP

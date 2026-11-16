@@ -39,10 +39,6 @@ consumption
 "
 "
 "
-from
-__future__
-import
-annotations
 import
 codecs
 import
@@ -69,30 +65,6 @@ from
 collections
 import
 OrderedDict
-from
-collections
-.
-abc
-import
-Generator
-Iterable
-from
-typing
-import
-(
-    
-TYPE_CHECKING
-    
-Any
-    
-Final
-    
-TypeVar
-    
-cast
-    
-overload
-)
 from
 pip
 .
@@ -129,18 +101,13 @@ to_native_string
 )
 from
 .
-_types
-import
-SupportsItems
-as
-_SupportsItems
-from
-.
 compat
 import
 (
     
 Mapping
+    
+basestring
     
 bytes
     
@@ -151,6 +118,19 @@ getproxies_environment
 integer_types
     
 is_urllib3_1
+)
+from
+.
+compat
+import
+parse_http_list
+as
+_parse_list_header
+from
+.
+compat
+import
+(
     
 proxy_bypass
     
@@ -166,13 +146,6 @@ urlparse
     
 urlunparse
 )
-from
-.
-compat
-import
-parse_http_list
-as
-_parse_list_header
 from
 .
 cookies
@@ -197,39 +170,7 @@ from
 structures
 import
 CaseInsensitiveDict
-if
-TYPE_CHECKING
-:
-    
-from
-http
-.
-cookiejar
-import
-CookieJar
-    
-from
-io
-import
-BufferedWriter
-    
-from
-.
-import
-_types
-as
-_t
-    
-from
-.
-models
-import
-PreparedRequest
-Request
-Response
 NETRC_FILES
-:
-Final
 =
 (
 "
@@ -241,8 +182,6 @@ _netrc
 "
 )
 DEFAULT_CA_BUNDLE_PATH
-:
-str
 =
 certs
 .
@@ -250,8 +189,6 @@ where
 (
 )
 DEFAULT_PORTS
-:
-Final
 =
 {
 "
@@ -265,25 +202,7 @@ https
 :
 443
 }
-_KT
-=
-TypeVar
-(
-"
-_KT
-"
-)
-_VT
-=
-TypeVar
-(
-"
-_VT
-"
-)
 DEFAULT_ACCEPT_ENCODING
-:
-Final
 =
 "
 "
@@ -331,12 +250,7 @@ def
 proxy_bypass_registry
 (
 host
-:
-str
 )
--
->
-bool
 :
         
 try
@@ -554,12 +468,7 @@ def
 proxy_bypass
 (
 host
-:
-str
 )
--
->
-bool
 :
         
 "
@@ -617,36 +526,8 @@ host
 def
 dict_to_sequence
 (
-    
 d
-:
-_t
-.
-SupportsItems
-[
-Any
-Any
-]
-|
-Iterable
-[
-tuple
-[
-Any
-Any
-]
-]
 )
--
->
-Iterable
-[
-tuple
-[
-Any
-Any
-]
-]
 :
     
 "
@@ -664,14 +545,17 @@ update
 "
     
 if
-isinstance
+hasattr
 (
 d
-_SupportsItems
+"
+items
+"
 )
 :
         
-return
+d
+=
 d
 .
 items
@@ -684,12 +568,7 @@ def
 super_len
 (
 o
-:
-Any
 )
--
->
-int
 :
     
 total_length
@@ -1023,27 +902,11 @@ current_position
 def
 get_netrc_auth
 (
-    
 url
-:
-_t
-.
-UriType
 raise_errors
-:
-bool
 =
 False
 )
--
->
-tuple
-[
-str
-str
-]
-|
-None
 :
     
 "
@@ -1064,27 +927,6 @@ netrc
 "
 "
 "
-    
-if
-isinstance
-(
-url
-bytes
-)
-:
-        
-url
-=
-url
-.
-decode
-(
-"
-utf
--
-8
-"
-)
     
 netrc_file
 =
@@ -1200,14 +1042,6 @@ ri
 .
 hostname
         
-if
-host
-is
-None
-:
-            
-return
-        
 try
 :
             
@@ -1225,11 +1059,6 @@ host
             
 if
 _netrc
-and
-any
-(
-_netrc
-)
 :
                 
 login_i
@@ -1249,16 +1078,10 @@ _netrc
 [
 login_i
 ]
-or
-"
-"
 _netrc
 [
 2
 ]
-or
-"
-"
 )
         
 except
@@ -1286,14 +1109,7 @@ def
 guess_filename
 (
 obj
-:
-Any
 )
--
->
-str
-|
-None
 :
     
 "
@@ -1330,10 +1146,7 @@ and
 isinstance
 (
 name
-(
-str
-bytes
-)
+basestring
 )
 and
 name
@@ -1371,12 +1184,7 @@ def
 extract_zipped_paths
 (
 path
-:
-str
 )
--
->
-str
 :
     
 "
@@ -1532,14 +1340,23 @@ namelist
 return
 path
     
-suffix
+tmp
+=
+tempfile
+.
+gettempdir
+(
+)
+    
+extracted_path
 =
 os
 .
 path
 .
-splitext
+join
 (
+tmp
 member
 .
 split
@@ -1553,47 +1370,38 @@ split
 1
 ]
 )
-[
--
-1
-]
     
-fd
-extracted_path
-=
-tempfile
+if
+not
+os
 .
-mkstemp
+path
+.
+exists
 (
-suffix
-=
-suffix
+extracted_path
 )
-    
-try
 :
         
-os
+with
+atomic_open
+(
+extracted_path
+)
+as
+file_handler
+:
+            
+file_handler
 .
 write
 (
-fd
 zip_file
 .
 read
 (
 member
 )
-)
-    
-finally
-:
-        
-os
-.
-close
-(
-fd
 )
     
 return
@@ -1605,17 +1413,7 @@ def
 atomic_open
 (
 filename
-:
-str
 )
--
->
-Generator
-[
-BufferedWriter
-None
-None
-]
 :
     
 "
@@ -1697,35 +1495,8 @@ raise
 def
 from_key_val_list
 (
-    
 value
-:
-Mapping
-[
-Any
-Any
-]
-|
-Iterable
-[
-tuple
-[
-Any
-Any
-]
-]
-|
-None
 )
--
->
-dict
-[
-Any
-Any
-]
-|
-None
 :
     
 "
@@ -1916,96 +1687,11 @@ OrderedDict
 (
 value
 )
-overload
 def
 to_key_val_list
 (
 value
-:
-None
 )
--
->
-None
-:
-.
-.
-.
-overload
-def
-to_key_val_list
-(
-    
-value
-:
-_t
-.
-SupportsItems
-[
-_KT
-_VT
-]
-|
-Iterable
-[
-tuple
-[
-_KT
-_VT
-]
-]
-)
--
->
-list
-[
-tuple
-[
-_KT
-_VT
-]
-]
-:
-.
-.
-.
-def
-to_key_val_list
-(
-    
-value
-:
-_t
-.
-SupportsItems
-[
-_KT
-_VT
-]
-|
-Iterable
-[
-tuple
-[
-_KT
-_VT
-]
-]
-|
-None
-)
--
->
-list
-[
-tuple
-[
-_KT
-_VT
-]
-]
-|
-None
 :
     
 "
@@ -2186,18 +1872,16 @@ if
 isinstance
 (
 value
-_SupportsItems
+Mapping
 )
 :
         
-return
-list
-(
+value
+=
 value
 .
 items
 (
-)
 )
     
 return
@@ -2209,15 +1893,7 @@ def
 parse_list_header
 (
 value
-:
-str
 )
--
->
-list
-[
-str
-]
 :
     
 "
@@ -2395,11 +2071,6 @@ list
 "
     
 result
-:
-list
-[
-str
-]
 =
 [
 ]
@@ -2460,18 +2131,7 @@ def
 parse_dict_header
 (
 value
-:
-str
 )
--
->
-dict
-[
-str
-str
-|
-None
-]
 :
     
 "
@@ -2653,14 +2313,6 @@ dict
 "
     
 result
-:
-dict
-[
-str
-str
-|
-None
-]
 =
 {
 }
@@ -2752,17 +2404,10 @@ def
 unquote_header_value
 (
 value
-:
-str
 is_filename
-:
-bool
 =
 False
 )
--
->
-str
 :
     
 r
@@ -2907,18 +2552,7 @@ def
 dict_from_cookiejar
 (
 cj
-:
-CookieJar
 )
--
->
-dict
-[
-str
-str
-|
-None
-]
 :
     
 "
@@ -2978,19 +2612,8 @@ def
 add_dict_to_cookiejar
 (
 cj
-:
-CookieJar
 cookie_dict
-:
-dict
-[
-str
-str
-]
 )
--
->
-CookieJar
 :
     
 "
@@ -3052,15 +2675,7 @@ def
 get_encodings_from_content
 (
 content
-:
-str
 )
--
->
-list
-[
-str
-]
 :
     
 "
@@ -3295,20 +2910,7 @@ def
 _parse_content_type_header
 (
 header
-:
-str
 )
--
->
-tuple
-[
-str
-dict
-[
-str
-Any
-]
-]
 :
     
 "
@@ -3322,7 +2924,6 @@ parameters
 from
 given
 header
-.
     
 :
 param
@@ -3342,7 +2943,6 @@ dictionary
 of
          
 parameters
-.
     
 "
 "
@@ -3377,19 +2977,11 @@ tokens
 ]
     
 params_dict
-:
-dict
-[
-str
-str
-|
-bool
-]
 =
 {
 }
     
-strip_chars
+items_to_strip
 =
 "
 \
@@ -3413,10 +3005,15 @@ strip
         
 if
 param
-and
-(
-idx
 :
+            
+key
+value
+=
+param
+True
+            
+index_of_equals
 =
 param
 .
@@ -3426,31 +3023,33 @@ find
 =
 "
 )
-)
+            
+if
+index_of_equals
 !
 =
 -
 1
 :
-            
+                
 key
 =
 param
 [
 :
-idx
+index_of_equals
 ]
 .
 strip
 (
-strip_chars
+items_to_strip
 )
-            
+                
 value
 =
 param
 [
-idx
+index_of_equals
 +
 1
 :
@@ -3458,7 +3057,7 @@ idx
 .
 strip
 (
-strip_chars
+items_to_strip
 )
             
 params_dict
@@ -3479,17 +3078,7 @@ def
 get_encoding_from_headers
 (
 headers
-:
-CaseInsensitiveDict
-[
-str
-]
 )
--
->
-str
-|
-None
 :
     
 "
@@ -3614,27 +3203,9 @@ utf
 def
 stream_decode_response_unicode
 (
-    
 iterator
-:
-Iterable
-[
-bytes
-]
 r
-:
-Response
 )
--
->
-Generator
-[
-str
-|
-bytes
-None
-None
-]
 :
     
 "
@@ -3723,83 +3294,12 @@ rv
         
 yield
 rv
-overload
 def
 iter_slices
 (
-    
 string
-:
-bytes
 slice_length
-:
-int
-|
-None
 )
--
->
-Generator
-[
-bytes
-None
-None
-]
-:
-.
-.
-.
-overload
-def
-iter_slices
-(
-    
-string
-:
-str
-slice_length
-:
-int
-|
-None
-)
--
->
-Generator
-[
-str
-None
-None
-]
-:
-.
-.
-.
-def
-iter_slices
-(
-    
-string
-:
-bytes
-|
-str
-slice_length
-:
-int
-|
-None
-)
--
->
-Generator
-[
-bytes
-|
-str
-None
-None
-]
 :
     
 "
@@ -3865,16 +3365,7 @@ def
 get_unicode_from_response
 (
 r
-:
-Response
 )
--
->
-str
-|
-bytes
-|
-None
 :
     
 "
@@ -3985,23 +3476,7 @@ DeprecationWarning
     
 )
     
-if
-r
-.
-content
-is
-None
-:
-        
-return
-None
-    
 tried_encodings
-:
-list
-[
-str
-]
 =
 [
 ]
@@ -4052,12 +3527,6 @@ r
 .
 content
 encoding
-or
-"
-utf
--
-8
-"
 errors
 =
 "
@@ -4074,8 +3543,6 @@ r
 .
 content
 UNRESERVED_SET
-:
-Final
 =
 frozenset
 (
@@ -4096,12 +3563,7 @@ def
 unquote_unreserved
 (
 uri
-:
-str
 )
--
->
-str
 :
     
 "
@@ -4307,12 +3769,7 @@ def
 requote_uri
 (
 uri
-:
-str
 )
--
->
-str
 :
     
 "
@@ -4433,15 +3890,8 @@ def
 address_in_network
 (
 ip
-:
-str
 net
-:
-str
 )
--
->
-bool
 :
     
 "
@@ -4623,12 +4073,7 @@ def
 dotted_netmask
 (
 mask
-:
-int
 )
--
->
-str
 :
     
 "
@@ -4709,12 +4154,7 @@ def
 is_ipv4_address
 (
 string_ip
-:
-str
 )
--
->
-bool
 :
     
 "
@@ -4753,12 +4193,7 @@ def
 is_valid_cidr
 (
 string_network
-:
-str
 )
--
->
-bool
 :
     
 "
@@ -4882,22 +4317,8 @@ def
 set_environ
 (
 env_name
-:
-str
 value
-:
-str
-|
-None
 )
--
->
-Generator
-[
-None
-None
-None
-]
 :
     
 "
@@ -4953,14 +4374,6 @@ value_changed
 value
 is
 not
-None
-    
-old_value
-:
-str
-|
-None
-=
 None
     
 if
@@ -5028,17 +4441,8 @@ def
 should_bypass_proxies
 (
 url
-:
-str
 no_proxy
-:
-str
-|
-None
 )
--
->
-bool
 :
     
 "
@@ -5068,14 +4472,7 @@ def
 get_proxy
 (
 key
-:
-str
 )
--
->
-str
-|
-None
 :
         
 return
@@ -5127,13 +4524,9 @@ urlparse
 url
 )
     
-hostname
-=
+if
 parsed
 .
-hostname
-    
-if
 hostname
 is
 None
@@ -5146,7 +4539,7 @@ if
 no_proxy
 :
         
-no_proxy_hosts
+no_proxy
 =
 (
 host
@@ -5175,6 +4568,8 @@ host
 if
 is_ipv4_address
 (
+parsed
+.
 hostname
 )
 :
@@ -5182,7 +4577,7 @@ hostname
 for
 proxy_ip
 in
-no_proxy_hosts
+no_proxy
 :
                 
 if
@@ -5195,6 +4590,8 @@ proxy_ip
 if
 address_in_network
 (
+parsed
+.
 hostname
 proxy_ip
 )
@@ -5204,6 +4601,8 @@ return
 True
                 
 elif
+parsed
+.
 hostname
 =
 =
@@ -5218,6 +4617,8 @@ else
             
 host_with_port
 =
+parsed
+.
 hostname
             
 if
@@ -5242,44 +4643,12 @@ port
 for
 host
 in
-no_proxy_hosts
+no_proxy
 :
                 
-host
-=
-host
-.
-lstrip
-(
-"
-.
-"
-)
-                
 if
-hostname
-=
-=
-host
-or
-host_with_port
-=
-=
-host
-:
-                    
-return
-True
-                
-host
-=
-"
+parsed
 .
-"
-+
-host
-                
-if
 hostname
 .
 endswith
@@ -5315,6 +4684,8 @@ bypass
 =
 proxy_bypass
 (
+parsed
+.
 hostname
 )
         
@@ -5344,23 +4715,10 @@ def
 get_environ_proxies
 (
 url
-:
-str
 no_proxy
-:
-str
-|
-None
 =
 None
 )
--
->
-dict
-[
-str
-str
-]
 :
     
 "
@@ -5409,23 +4767,8 @@ def
 select_proxy
 (
 url
-:
-str
 proxies
-:
-dict
-[
-str
-str
-]
-|
-None
 )
--
->
-str
-|
-None
 :
     
 "
@@ -5581,36 +4924,12 @@ proxy
 def
 resolve_proxies
 (
-    
 request
-:
-Request
-|
-PreparedRequest
-    
 proxies
-:
-dict
-[
-str
-str
-]
-|
-None
-    
 trust_env
-:
-bool
 =
 True
 )
--
->
-dict
-[
-str
-str
-]
 :
     
 "
@@ -5709,13 +5028,9 @@ else
     
 url
 =
-cast
-(
-str
 request
 .
 url
-)
     
 scheme
 =
@@ -5803,8 +5118,6 @@ def
 default_user_agent
 (
 name
-:
-str
 =
 "
 python
@@ -5812,9 +5125,6 @@ python
 requests
 "
 )
--
->
-str
 :
     
 "
@@ -5855,12 +5165,6 @@ def
 default_headers
 (
 )
--
->
-CaseInsensitiveDict
-[
-str
-]
 :
     
 "
@@ -5931,19 +5235,7 @@ def
 parse_header_links
 (
 value
-:
-str
 )
--
->
-list
-[
-dict
-[
-str
-str
-]
-]
 :
     
 "
@@ -6025,15 +5317,6 @@ list
 "
     
 links
-:
-list
-[
-dict
-[
-str
-str
-]
-]
 =
 [
 ]
@@ -6106,12 +5389,6 @@ val
 "
         
 link
-:
-dict
-[
-str
-str
-]
 =
 {
 "
@@ -6219,14 +5496,7 @@ def
 guess_json_utf
 (
 data
-:
-bytes
 )
--
->
-str
-|
-None
 :
     
 "
@@ -6442,15 +5712,8 @@ def
 prepend_scheme_if_needed
 (
 url
-:
-str
 new_scheme
-:
-str
 )
--
->
-str
 :
     
 "
@@ -6506,8 +5769,8 @@ url
     
 scheme
 auth
-_host
-_port
+host
+port
 path
 query
 fragment
@@ -6534,14 +5797,6 @@ netloc
 if
 auth
 :
-        
-netloc
-=
-cast
-(
-str
-netloc
-)
         
 netloc
 =
@@ -6594,16 +5849,7 @@ def
 get_auth_from_url
 (
 url
-:
-str
 )
--
->
-tuple
-[
-str
-str
-]
 :
     
 "
@@ -6687,20 +5933,7 @@ def
 check_header_validity
 (
 header
-:
-tuple
-[
-str
-|
-bytes
-str
-|
-bytes
-]
 )
--
->
-None
 :
     
 "
@@ -6763,32 +5996,10 @@ value
 def
 _validate_header_part
 (
-    
 header
-:
-tuple
-[
-str
-|
-bytes
-str
-|
-bytes
-]
-    
 header_part
-:
-str
-|
-bytes
-    
 header_validator_index
-:
-int
 )
--
->
-None
 :
     
 if
@@ -6932,12 +6143,7 @@ def
 urldefragauth
 (
 url
-:
-str
 )
--
->
-str
 :
     
 "
@@ -6970,7 +6176,7 @@ netloc
 path
 params
 query
-_fragment
+fragment
 =
 urlparse
 (
@@ -7020,12 +6226,7 @@ def
 rewind_body
 (
 prepared_request
-:
-PreparedRequest
 )
--
->
-None
 :
     
 "
@@ -7080,7 +6281,6 @@ isinstance
 prepared_request
 .
 _body_position
-        
 integer_types
     
 )

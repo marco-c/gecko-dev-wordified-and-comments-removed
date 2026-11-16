@@ -4,14 +4,9 @@ from
 typing
 import
 TYPE_CHECKING
-Literal
 Optional
 Union
-from
-.
-_emoji_replace
-import
-_emoji_replace
+Literal
 from
 .
 jupyter
@@ -27,6 +22,16 @@ from
 style
 import
 Style
+from
+.
+_emoji_codes
+import
+EMOJI
+from
+.
+_emoji_replace
+import
+_emoji_replace
 if
 TYPE_CHECKING
 :
@@ -101,7 +106,7 @@ text
 :
 "
 \
-ufe0e
+uFE0E
 "
 "
 emoji
@@ -109,7 +114,7 @@ emoji
 :
 "
 \
-ufe0f
+uFE0F
 "
 }
     
@@ -207,12 +212,6 @@ exist
 "
 "
 "
-        
-from
-.
-_emoji_codes
-import
-EMOJI
         
 self
 .
@@ -487,12 +486,6 @@ record
 True
 )
     
-from
-.
-_emoji_codes
-import
-EMOJI
-    
 columns
 =
 Columns
@@ -524,7 +517,7 @@ keys
 if
 "
 \
-u200d
+u200D
 "
 not
 in

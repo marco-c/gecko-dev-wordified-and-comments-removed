@@ -43,7 +43,7 @@ certifi
 .
 10
 .
-23
+19
 chardet
 =
 =

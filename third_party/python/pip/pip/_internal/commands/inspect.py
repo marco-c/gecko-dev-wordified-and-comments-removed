@@ -72,9 +72,9 @@ pip
 .
 _internal
 .
-metadata
+utils
 .
-base
+compat
 import
 stdlib_pkgs
 from
@@ -459,7 +459,7 @@ direct_url
 =
 direct_url
 .
-to_dict_compat
+to_dict
 (
 )
         

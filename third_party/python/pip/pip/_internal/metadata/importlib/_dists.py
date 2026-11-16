@@ -85,7 +85,6 @@ _internal
 .
 exceptions
 import
-InstallationError
 InvalidWheel
 UnsupportedWheel
 from
@@ -153,8 +152,6 @@ from
 _compat
 import
 (
-    
-BadMetadata
     
 BasePath
     
@@ -1000,13 +997,10 @@ self
 Version
 :
         
-try
-:
-            
+if
 version
+:
 =
-(
-                
 parse_name_and_version_from_info_directory
 (
 self
@@ -1016,15 +1010,7 @@ _dist
 [
 1
 ]
-                
-or
-self
-.
-_dist
-.
-version
-            
-)
+:
             
 return
 parse_version
@@ -1032,24 +1018,14 @@ parse_version
 version
 )
         
-except
-TypeError
-:
-            
-raise
-BadMetadata
+return
+parse_version
 (
 self
 .
 _dist
-reason
-=
-"
-invalid
-metadata
-entry
+.
 version
-"
 )
     
 property
@@ -1067,12 +1043,9 @@ str
 return
 self
 .
-metadata
-[
-"
-Version
-"
-]
+_dist
+.
+version
     
 def
 is_file
@@ -1210,47 +1183,12 @@ BaseEntryPoint
 ]
 :
         
-try
-:
-            
 return
 self
 .
 _dist
 .
 entry_points
-        
-except
-ValueError
-as
-e
-:
-            
-raise
-InstallationError
-(
-                
-f
-"
-Error
-parsing
-entry
-points
-for
-{
-self
-.
-raw_name
-}
-:
-{
-e
-}
-"
-            
-)
-from
-e
     
 def
 _metadata_impl
@@ -1266,29 +1204,6 @@ message
 Message
 :
         
-metadata
-=
-self
-.
-_dist
-.
-metadata
-        
-if
-metadata
-is
-None
-:
-            
-return
-email
-.
-message
-.
-Message
-(
-)
-        
 return
 cast
 (
@@ -1297,6 +1212,10 @@ email
 message
 .
 Message
+self
+.
+_dist
+.
 metadata
 )
     

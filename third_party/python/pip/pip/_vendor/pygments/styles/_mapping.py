@@ -541,27 +541,6 @@ native
 )
     
 '
-NightOwlStyle
-'
-:
-(
-'
-pygments
-.
-styles
-.
-night_owl
-'
-'
-night
--
-owl
-'
-(
-)
-)
-    
-'
 NordDarkerStyle
 '
 :

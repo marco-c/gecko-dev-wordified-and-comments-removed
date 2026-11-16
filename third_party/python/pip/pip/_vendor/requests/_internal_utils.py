@@ -73,8 +73,6 @@ r
 n
 ]
 *
-\
-Z
 "
 )
 _VALID_HEADER_NAME_RE_STR
@@ -101,8 +99,6 @@ r
 n
 ]
 *
-\
-Z
 "
 )
 _VALID_HEADER_VALUE_RE_BYTE
@@ -124,12 +120,8 @@ r
 n
 ]
 *
-\
-Z
 |
 ^
-\
-Z
 "
 )
 _VALID_HEADER_VALUE_RE_STR
@@ -151,12 +143,8 @@ r
 n
 ]
 *
-\
-Z
 |
 ^
-\
-Z
 "
 )
 _HEADER_VALIDATORS_STR
@@ -187,21 +175,12 @@ def
 to_native_string
 (
 string
-:
-str
-|
-bytes
 encoding
-:
-str
 =
 "
 ascii
 "
 )
--
->
-str
 :
     
 "
@@ -275,12 +254,7 @@ def
 unicode_is_ascii
 (
 u_string
-:
-str
 )
--
->
-bool
 :
     
 "

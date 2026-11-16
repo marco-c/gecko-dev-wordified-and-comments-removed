@@ -1,18 +1,13 @@
 from
 __future__
 import
-annotations
+absolute_import
 import
 time
-import
-typing
-from
-enum
-import
-Enum
 from
 socket
 import
+_GLOBAL_DEFAULT_TIMEOUT
 getdefaulttimeout
 from
 .
@@ -20,53 +15,28 @@ from
 exceptions
 import
 TimeoutStateError
-if
-typing
-.
-TYPE_CHECKING
-:
-    
-from
-typing
-import
-Final
-class
-_TYPE_DEFAULT
+_Default
+=
+object
 (
-Enum
 )
-:
-    
-token
+current_time
 =
--
-1
-_DEFAULT_TIMEOUT
-:
-Final
-[
-_TYPE_DEFAULT
-]
-=
-_TYPE_DEFAULT
+getattr
+(
+time
+"
+monotonic
+"
+time
 .
-token
-_TYPE_TIMEOUT
-=
-typing
-.
-Optional
-[
-typing
-.
-Union
-[
-float
-_TYPE_DEFAULT
-]
-]
+time
+)
 class
 Timeout
+(
+object
+)
 :
     
 "
@@ -96,20 +66,9 @@ block
 :
 :
 python
-        
-from
-pip
-.
-_vendor
-import
-urllib3
-        
+       
 timeout
 =
-urllib3
-.
-util
-.
 Timeout
 (
 connect
@@ -123,29 +82,27 @@ read
 .
 0
 )
-        
+       
 http
 =
-urllib3
-.
 PoolManager
 (
 timeout
 =
 timeout
 )
-        
-resp
+       
+response
 =
 http
 .
 request
 (
-"
+'
 GET
-"
-"
-https
+'
+'
+http
 :
 /
 /
@@ -153,14 +110,7 @@ example
 .
 com
 /
-"
-)
-        
-print
-(
-resp
-.
-status
+'
 )
     
 Or
@@ -193,11 +143,11 @@ http
 .
 request
 (
-"
+'
 GET
-"
-"
-https
+'
+'
+http
 :
 /
 /
@@ -205,7 +155,7 @@ example
 .
 com
 /
-"
+'
 timeout
 =
 Timeout
@@ -254,11 +204,11 @@ http
 .
 request
 (
-"
+'
 GET
-"
-"
-https
+'
+'
+http
 :
 /
 /
@@ -266,7 +216,6 @@ example
 .
 com
 /
-"
 timeout
 =
 no_timeout
@@ -718,45 +667,64 @@ minutes
 to
 complete
 .
+        
+If
+your
+goal
+is
+to
+cut
+off
+any
+request
+after
+a
+set
+amount
+of
+wall
+clock
+        
+time
+consider
+having
+a
+second
+"
+watcher
+"
+thread
+to
+cut
+off
+a
+slow
+        
+request
+.
     
 "
 "
 "
     
 DEFAULT_TIMEOUT
-:
-_TYPE_TIMEOUT
 =
-_DEFAULT_TIMEOUT
+_GLOBAL_DEFAULT_TIMEOUT
     
 def
 __init__
 (
-        
 self
-        
 total
-:
-_TYPE_TIMEOUT
 =
 None
-        
 connect
-:
-_TYPE_TIMEOUT
 =
-_DEFAULT_TIMEOUT
-        
+_Default
 read
-:
-_TYPE_TIMEOUT
 =
-_DEFAULT_TIMEOUT
-    
+_Default
 )
--
->
-None
 :
         
 self
@@ -804,10 +772,6 @@ total
 self
 .
 _start_connect
-:
-float
-|
-None
 =
 None
     
@@ -816,71 +780,63 @@ __repr__
 (
 self
 )
--
->
-str
 :
         
 return
-f
 "
-{
+%
+s
+(
+connect
+=
+%
+r
+read
+=
+%
+r
+total
+=
+%
+r
+)
+"
+%
+(
+            
 type
 (
 self
 )
 .
 __name__
-}
-(
-connect
-=
-{
+            
 self
 .
 _connect
-!
-r
-}
-read
-=
-{
+            
 self
 .
 _read
-!
-r
-}
-total
-=
-{
+            
 self
 .
 total
-!
-r
-}
+        
 )
-"
     
 __str__
 =
 __repr__
     
-staticmethod
+classmethod
     
 def
 resolve_default_timeout
 (
+cls
 timeout
-:
-_TYPE_TIMEOUT
 )
--
->
-float
-|
-None
 :
         
 return
@@ -890,7 +846,9 @@ getdefaulttimeout
 if
 timeout
 is
-_DEFAULT_TIMEOUT
+cls
+.
+DEFAULT_TIMEOUT
 else
 timeout
     
@@ -901,15 +859,8 @@ _validate_timeout
 (
 cls
 value
-:
-_TYPE_TIMEOUT
 name
-:
-str
 )
--
->
-_TYPE_TIMEOUT
 :
         
 "
@@ -1008,11 +959,24 @@ None
 if
 value
 is
+_Default
+:
+            
+return
+cls
+.
+DEFAULT_TIMEOUT
+        
+if
+value
+is
 None
 or
 value
 is
-_DEFAULT_TIMEOUT
+cls
+.
+DEFAULT_TIMEOUT
 :
             
 return
@@ -1102,8 +1066,6 @@ value
 )
             
 )
-from
-None
         
 try
 :
@@ -1197,8 +1159,6 @@ value
 )
             
 )
-from
-None
         
 return
 value
@@ -1210,12 +1170,7 @@ from_float
 (
 cls
 timeout
-:
-_TYPE_TIMEOUT
 )
--
->
-Timeout
 :
         
 "
@@ -1298,16 +1253,9 @@ timeout
 :
 integer
 float
-:
-attr
-:
-urllib3
-.
-util
-.
-Timeout
-.
-DEFAULT_TIMEOUT
+sentinel
+default
+object
 or
 None
         
@@ -1345,9 +1293,6 @@ clone
 (
 self
 )
--
->
-Timeout
 :
         
 "
@@ -1437,9 +1382,6 @@ start_connect
 (
 self
 )
--
->
-float
 :
         
 "
@@ -1511,9 +1453,7 @@ self
 .
 _start_connect
 =
-time
-.
-monotonic
+current_time
 (
 )
         
@@ -1527,9 +1467,6 @@ get_connect_duration
 (
 self
 )
--
->
-float
 :
         
 "
@@ -1624,9 +1561,7 @@ started
 )
         
 return
-time
-.
-monotonic
+current_time
 (
 )
 -
@@ -1641,9 +1576,6 @@ connect_timeout
 (
 self
 )
--
->
-_TYPE_TIMEOUT
 :
         
 "
@@ -1733,7 +1665,9 @@ self
 .
 _connect
 is
-_DEFAULT_TIMEOUT
+self
+.
+DEFAULT_TIMEOUT
 :
             
 return
@@ -1759,11 +1693,6 @@ read_timeout
 (
 self
 )
--
->
-float
-|
-None
 :
         
 "
@@ -1862,6 +1791,12 @@ rtype
 :
 int
 float
+:
+attr
+:
+Timeout
+.
+DEFAULT_TIMEOUT
 or
 None
         
@@ -1909,7 +1844,9 @@ self
 total
 is
 not
-_DEFAULT_TIMEOUT
+self
+.
+DEFAULT_TIMEOUT
             
 and
 self
@@ -1925,7 +1862,9 @@ self
 _read
 is
 not
-_DEFAULT_TIMEOUT
+self
+.
+DEFAULT_TIMEOUT
         
 )
 :
@@ -1977,7 +1916,9 @@ self
 total
 is
 not
-_DEFAULT_TIMEOUT
+self
+.
+DEFAULT_TIMEOUT
 :
             
 return
@@ -2001,9 +1942,4 @@ else
 return
 self
 .
-resolve_default_timeout
-(
-self
-.
 _read
-)

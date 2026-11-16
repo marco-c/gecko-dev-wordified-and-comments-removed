@@ -80,18 +80,6 @@ _pip_completion
 {
 {
             
-local
-IFS
-=
-'
-\
-\
-t
-\
-\
-n
-'
-            
 COMPREPLY
 =
 (
@@ -120,9 +108,7 @@ COMP_CWORD
 PIP_AUTO_COMPLETE
 =
 1
-"
 1
-"
 2
 >
 /

@@ -45,24 +45,14 @@ sys
 from
 typing
 import
-TYPE_CHECKING
+Iterator
 NamedTuple
+Sequence
 from
 .
 _elffile
 import
 ELFFile
-if
-TYPE_CHECKING
-:
-    
-from
-collections
-.
-abc
-import
-Iterator
-Sequence
 class
 _MuslVersion
 (
@@ -357,9 +347,6 @@ run
 [
 ld
 ]
-check
-=
-False
 stderr
 =
 subprocess
@@ -614,7 +601,6 @@ t
 in
 platform_tags
 (
-[
 re
 .
 sub
@@ -643,7 +629,6 @@ split
 1
 ]
 )
-]
 )
 :
         

@@ -2261,24 +2261,6 @@ mapping
 :
                     
 break
-                
-if
-len
-(
-self
-.
-_states
-)
-<
-=
-1
-:
-                    
-raise
-ResolutionImpossible
-(
-causes
-)
             
 incompatibilities_from_broken
 =

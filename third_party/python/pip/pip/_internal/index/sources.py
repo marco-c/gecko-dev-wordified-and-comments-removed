@@ -17,8 +17,11 @@ collections
 .
 abc
 import
-Callable
 Iterable
+from
+typing
+import
+Callable
 from
 pip
 .

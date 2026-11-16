@@ -11,6 +11,7 @@ TYPE_CHECKING
 Any
 Generic
 Iterable
+Mapping
 NamedTuple
 from
 .
@@ -60,7 +61,7 @@ KT
         
 mapping
 :
-dict
+Mapping
 [
 KT
 CT
@@ -77,7 +78,7 @@ None
         
 criteria
 :
-dict
+Mapping
 [
 KT
 Criterion

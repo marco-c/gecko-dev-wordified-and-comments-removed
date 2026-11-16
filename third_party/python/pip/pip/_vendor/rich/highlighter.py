@@ -8,8 +8,7 @@ abstractmethod
 from
 typing
 import
-ClassVar
-Sequence
+List
 Union
 from
 .
@@ -356,12 +355,9 @@ expressions
     
 highlights
 :
-ClassVar
-[
-Sequence
+List
 [
 str
-]
 ]
 =
 [
@@ -369,10 +365,7 @@ str
     
 base_style
 :
-ClassVar
-[
 str
-]
 =
 "
 "
@@ -479,14 +472,6 @@ repr
 "
     
 highlights
-:
-ClassVar
-[
-Sequence
-[
-str
-]
-]
 =
 [
         
@@ -1513,11 +1498,6 @@ t
 }
     
 base_style
-:
-ClassVar
-[
-str
-]
 =
 "
 json
@@ -1525,14 +1505,6 @@ json
 "
     
 highlights
-:
-ClassVar
-[
-Sequence
-[
-str
-]
-]
 =
 [
         
@@ -1851,11 +1823,6 @@ html
 "
     
 base_style
-:
-ClassVar
-[
-str
-]
 =
 "
 iso8601
@@ -1863,14 +1830,6 @@ iso8601
 "
     
 highlights
-:
-ClassVar
-[
-Sequence
-[
-str
-]
-]
 =
 [
         

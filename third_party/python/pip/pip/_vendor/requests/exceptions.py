@@ -37,15 +37,6 @@ exceptions
 "
 "
 from
-__future__
-import
-annotations
-from
-typing
-import
-TYPE_CHECKING
-Any
-from
 pip
 .
 _vendor
@@ -64,17 +55,6 @@ import
 JSONDecodeError
 as
 CompatJSONDecodeError
-if
-TYPE_CHECKING
-:
-    
-from
-.
-models
-import
-PreparedRequest
-Request
-Response
 class
 RequestException
 (
@@ -103,37 +83,16 @@ request
 "
 "
     
-response
-:
-Response
-|
-None
-    
-request
-:
-Request
-|
-PreparedRequest
-|
-None
-    
 def
 __init__
 (
 self
 *
 args
-:
-Any
 *
 *
 kwargs
-:
-Any
 )
--
->
-None
 :
         
 "
@@ -152,10 +111,6 @@ objects
 "
         
 response
-:
-Response
-|
-None
 =
 kwargs
 .
@@ -211,6 +166,8 @@ self
 .
 request
 =
+self
+.
 response
 .
 request
@@ -274,17 +231,10 @@ __init__
 self
 *
 args
-:
-Any
 *
 *
 kwargs
-:
-Any
 )
--
->
-None
 :
         
 "
@@ -369,17 +319,6 @@ __reduce__
 (
 self
 )
--
->
-tuple
-[
-Any
-.
-.
-.
-]
-|
-str
 :
         
 "

@@ -289,13 +289,6 @@ progress
 vendored
 (
 "
-pygments
-"
-)
-    
-vendored
-(
-"
 pyproject_hooks
 "
 )

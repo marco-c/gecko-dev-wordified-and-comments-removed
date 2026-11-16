@@ -39,9 +39,6 @@ dataclass
 frozen
 =
 True
-slots
-=
-True
 )
 class
 InstallationCandidate
@@ -63,6 +60,20 @@ installation
 "
 "
     
+__slots__
+=
+[
+"
+name
+"
+"
+version
+"
+"
+link
+"
+]
+    
 name
 :
 str
@@ -75,14 +86,9 @@ link
 :
 Link
     
-locked
-:
-bool
-    
 def
 __init__
 (
-        
 self
 name
 :
@@ -93,12 +99,6 @@ str
 link
 :
 Link
-locked
-:
-bool
-=
-False
-    
 )
 -
 >
@@ -139,17 +139,6 @@ self
 link
 "
 link
-)
-        
-object
-.
-__setattr__
-(
-self
-"
-locked
-"
-locked
 )
     
 def

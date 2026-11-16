@@ -29,6 +29,22 @@ interface
 is
 implemented
 .
+Based
+on
+:
+https
+:
+/
+/
+gist
+.
+github
+.
+com
+/
+lyssdod
+/
+f51579ae8d93c8657a5564aefc2ffbca
 ELF
 header
 :
@@ -134,7 +150,7 @@ X8664
 =
 62
     
-AArch64
+AArc64
 =
 183
 class

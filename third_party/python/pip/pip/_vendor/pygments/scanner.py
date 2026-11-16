@@ -100,7 +100,7 @@ copyright
 Copyright
 2006
 -
-present
+2025
 by
 the
 Pygments

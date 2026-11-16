@@ -26,8 +26,6 @@ typing
 import
 (
     
-TYPE_CHECKING
-    
 Any
     
 Dict
@@ -134,18 +132,6 @@ pygments
 util
 import
 ClassNotFound
-if
-TYPE_CHECKING
-:
-    
-from
-.
-console
-import
-Console
-ConsoleOptions
-JustifyMethod
-RenderResult
 from
 pip
 .
@@ -183,6 +169,14 @@ color
 import
 Color
 blend_rgb
+from
+.
+console
+import
+Console
+ConsoleOptions
+JustifyMethod
+RenderResult
 from
 .
 jupyter

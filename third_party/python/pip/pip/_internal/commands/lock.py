@@ -11,22 +11,6 @@ Path
 from
 pip
 .
-_vendor
-import
-tomli_w
-from
-pip
-.
-_vendor
-.
-packaging
-.
-pylock
-import
-is_valid_pylock_path
-from
-pip
-.
 _internal
 .
 cache
@@ -70,6 +54,17 @@ pip
 .
 _internal
 .
+models
+.
+pylock
+import
+Pylock
+is_valid_pylock_file_name
+from
+pip
+.
+_internal
+.
 operations
 .
 build
@@ -77,6 +72,19 @@ build
 build_tracker
 import
 get_build_tracker
+from
+pip
+.
+_internal
+.
+req
+.
+req_install
+import
+(
+    
+check_legacy_setup_py_options
+)
 from
 pip
 .
@@ -100,16 +108,6 @@ import
     
 get_pip_version
 )
-from
-pip
-.
-_internal
-.
-utils
-.
-pylock
-import
-pylock_from_install_requirements
 from
 pip
 .
@@ -417,33 +415,7 @@ add_option
 (
 cmdoptions
 .
-requirements_from_scripts
-(
-)
-)
-        
-self
-.
-cmd_opts
-.
-add_option
-(
-cmdoptions
-.
 constraints
-(
-)
-)
-        
-self
-.
-cmd_opts
-.
-add_option
-(
-cmdoptions
-.
-build_constraints
 (
 )
 )
@@ -469,7 +441,7 @@ add_option
 (
 cmdoptions
 .
-only_deps
+pre
 (
 )
 )
@@ -547,6 +519,19 @@ add_option
 (
 cmdoptions
 .
+no_use_pep517
+(
+)
+)
+        
+self
+.
+cmd_opts
+.
+add_option
+(
+cmdoptions
+.
 check_build_deps
 (
 )
@@ -573,7 +558,7 @@ add_option
 (
 cmdoptions
 .
-require_hashes
+no_binary
 (
 )
 )
@@ -586,7 +571,33 @@ add_option
 (
 cmdoptions
 .
-no_require_hashes
+only_binary
+(
+)
+)
+        
+self
+.
+cmd_opts
+.
+add_option
+(
+cmdoptions
+.
+prefer_binary
+(
+)
+)
+        
+self
+.
+cmd_opts
+.
+add_option
+(
+cmdoptions
+.
+require_hashes
 (
 )
 )
@@ -621,23 +632,6 @@ parser
         
 )
         
-selection_opts
-=
-cmdoptions
-.
-make_option_group
-(
-            
-cmdoptions
-.
-package_selection_group
-            
-self
-.
-parser
-        
-)
-        
 self
 .
 parser
@@ -646,16 +640,6 @@ insert_option_group
 (
 0
 index_opts
-)
-        
-self
-.
-parser
-.
-insert_option_group
-(
-0
-selection_opts
 )
         
 self
@@ -743,27 +727,6 @@ warning
         
 )
         
-self
-.
-check_build_constraints
-(
-options
-)
-        
-cmdoptions
-.
-check_release_control_exclusive
-(
-options
-)
-        
-cmdoptions
-.
-check_only_deps_option_does_not_conflict
-(
-options
-)
-        
 session
 =
 self
@@ -843,6 +806,12 @@ finder
 session
 )
         
+check_legacy_setup_py_options
+(
+options
+reqs
+)
+        
 wheel_cache
 =
 WheelCache
@@ -851,6 +820,18 @@ options
 .
 cache_dir
 )
+        
+for
+req
+in
+reqs
+:
+            
+req
+.
+permit_editable_wheels
+=
+True
         
 preparer
 =
@@ -888,10 +869,6 @@ verbosity
 self
 .
 verbosity
-            
-allow_editables
-=
-True
         
 )
         
@@ -941,6 +918,12 @@ satisfy
 -
 only
 "
+            
+use_pep517
+=
+options
+.
+use_pep517
         
 )
         
@@ -996,7 +979,7 @@ output_file
             
 if
 not
-is_valid_pylock_path
+is_valid_pylock_file_name
 (
 output_file_path
 )
@@ -1030,9 +1013,11 @@ output_file_path
 .
 parent
         
-pylock
+pylock_toml
 =
-pylock_from_install_requirements
+Pylock
+.
+from_install_requirements
 (
             
 requirement_set
@@ -1047,18 +1032,9 @@ base_dir
 base_dir
         
 )
-        
-pylock_toml
-=
-tomli_w
 .
-dumps
+as_toml
 (
-pylock
-.
-to_dict
-(
-)
 )
         
 if

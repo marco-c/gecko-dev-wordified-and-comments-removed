@@ -2016,9 +2016,9 @@ pip_command_non_uv_args
 -
 no
 -
-build
+use
 -
-isolation
+pep517
 "
 ]
             

@@ -21,17 +21,12 @@ collections
 .
 abc
 import
-Callable
 Generator
 from
 contextlib
 import
 ExitStack
 contextmanager
-from
-enum
-import
-Enum
 from
 pathlib
 import
@@ -42,6 +37,8 @@ import
 (
     
 Any
+    
+Callable
     
 TypeVar
 )
@@ -54,6 +51,7 @@ utils
 .
 misc
 import
+enum
 rmtree
 logger
 =
@@ -76,13 +74,10 @@ bound
 TempDirectory
 "
 )
-class
-TempDirectoryKind
+tempdir_kinds
+=
+enum
 (
-str
-Enum
-)
-:
     
 BUILD_ENV
 =
@@ -109,12 +104,7 @@ req
 -
 build
 "
-    
-__str__
-=
-str
-.
-__str__
+)
 _tempdir_manager
 :
 ExitStack

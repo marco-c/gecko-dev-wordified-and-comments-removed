@@ -11,7 +11,6 @@ collections
 .
 abc
 import
-Callable
 Iterable
 from
 optparse
@@ -21,16 +20,7 @@ from
 typing
 import
 Any
-from
-pip
-.
-_vendor
-.
-packaging
-.
-utils
-import
-canonicalize_name
+Callable
 from
 pip
 .
@@ -92,16 +82,9 @@ _internal
 .
 exceptions
 import
-(
-    
 CommandError
-    
-DiagnosticPipError
-    
 DistributionNotFound
-    
 PipError
-)
 from
 pip
 .
@@ -254,7 +237,46 @@ add_option
 (
 cmdoptions
 .
+pre
+(
+)
+)
+        
+self
+.
+cmd_opts
+.
+add_option
+(
+cmdoptions
+.
 json
+(
+)
+)
+        
+self
+.
+cmd_opts
+.
+add_option
+(
+cmdoptions
+.
+no_binary
+(
+)
+)
+        
+self
+.
+cmd_opts
+.
+add_option
+(
+cmdoptions
+.
+only_binary
 (
 )
 )
@@ -276,23 +298,6 @@ parser
         
 )
         
-selection_opts
-=
-cmdoptions
-.
-make_option_group
-(
-            
-cmdoptions
-.
-package_selection_group
-            
-self
-.
-parser
-        
-)
-        
 self
 .
 parser
@@ -301,16 +306,6 @@ insert_option_group
 (
 0
 index_opts
-)
-        
-self
-.
-parser
-.
-insert_option_group
-(
-0
-selection_opts
 )
         
 self
@@ -380,13 +375,6 @@ str
 >
 int
 :
-        
-cmdoptions
-.
-check_release_control_exclusive
-(
-options
-)
         
 handler_map
 =
@@ -467,12 +455,6 @@ args
 )
         
 except
-DiagnosticPipError
-:
-            
-raise
-        
-except
 PipError
 as
 e
@@ -521,8 +503,10 @@ None
 ignore_requires_python
 :
 bool
+|
+None
 =
-False
+None
     
 )
 -
@@ -570,17 +554,11 @@ allow_yanked
 =
 False
             
-release_control
+allow_all_prereleases
 =
 options
 .
-release_control
-            
-format_control
-=
-options
-.
-format_control
+pre
             
 ignore_requires_python
 =
@@ -605,12 +583,6 @@ selection_prefs
 target_python
 =
 target_python
-            
-uploaded_prior_to
-=
-options
-.
-uploaded_prior_to
         
 )
     
@@ -736,16 +708,10 @@ query
 )
             
 if
-self
-.
-should_exclude_prerelease
-(
+not
 options
-canonicalize_name
-(
-query
-)
-)
+.
+pre
 :
                 
 versions

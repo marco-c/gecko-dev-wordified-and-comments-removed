@@ -276,10 +276,6 @@ ignore_dependencies
 :
 bool
         
-only_dependencies
-:
-bool
-        
 ignore_installed
 :
 bool
@@ -327,14 +323,6 @@ in
 self
 .
 _allowed_strategies
-        
-assert
-not
-(
-ignore_dependencies
-and
-only_dependencies
-)
         
 self
 .
@@ -386,12 +374,6 @@ self
 ignore_dependencies
 =
 ignore_dependencies
-        
-self
-.
-only_dependencies
-=
-only_dependencies
         
 self
 .
@@ -464,12 +446,6 @@ self
 .
 ignore_dependencies
             
-only_dependencies
-=
-self
-.
-only_dependencies
-            
 upgrade_strategy
 =
 self
@@ -514,11 +490,6 @@ reporter
 =
 PipReporter
 (
-constraints
-=
-provider
-.
-constraints
 )
         
 resolver
@@ -986,43 +957,40 @@ add_named_requirement
 ireq
 )
         
-if
-self
-.
-only_dependencies
-:
-            
-for
-requested
-in
-collected
-.
-user_requested
-:
-                
-project_name
+reqs
 =
-requested
-.
-partition
-(
-"
-[
-"
-)
-[
-0
-]
-                
 req_set
 .
-requirements
+all_requirements
+        
+self
 .
-pop
+factory
+.
+preparer
+.
+prepare_linked_requirements_more
 (
-project_name
-None
+reqs
 )
+        
+for
+req
+in
+reqs
+:
+            
+req
+.
+prepared
+=
+True
+            
+req
+.
+needs_more_preparation
+=
+False
         
 return
 req_set

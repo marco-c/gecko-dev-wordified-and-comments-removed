@@ -3,7 +3,7 @@ __future__
 import
 annotations
 import
-importlib
+locale
 import
 logging
 import
@@ -109,7 +109,6 @@ utils
 .
 compat
 import
-get_locale_encoding
 open_text_resource
 from
 pip
@@ -306,6 +305,8 @@ str
 -
 >
 ModuleType
+|
+None
 :
     
 module_name
@@ -341,10 +342,10 @@ module_name
 pkg_resources
 "
     
-return
-importlib
-.
-import_module
+try
+:
+        
+__import__
 (
 f
 "
@@ -356,7 +357,52 @@ _vendor
 module_name
 }
 "
+globals
+(
 )
+locals
+(
+)
+level
+=
+0
+)
+        
+return
+getattr
+(
+pip
+.
+_vendor
+module_name
+)
+    
+except
+ImportError
+:
+        
+if
+module_name
+=
+=
+"
+truststore
+"
+and
+sys
+.
+version_info
+<
+(
+3
+10
+)
+:
+            
+return
+None
+        
+raise
 def
 get_vendor_version_from_module
 (
@@ -390,6 +436,8 @@ None
 )
     
 if
+module
+and
 not
 version
 :
@@ -853,18 +901,14 @@ split
 0
 ]
 for
+key
 _
-options
 in
 config
 .
 items
 (
 )
-for
-key
-in
-options
 }
     
 if
@@ -1163,10 +1207,12 @@ show_value
 "
 locale
 .
-getencoding
+getpreferredencoding
 "
             
-get_locale_encoding
+locale
+.
+getpreferredencoding
 (
 )
         
