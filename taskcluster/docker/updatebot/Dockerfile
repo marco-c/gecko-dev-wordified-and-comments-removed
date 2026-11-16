@@ -73,6 +73,16 @@ arcanist_no_gzip
 .
 patch
 COPY
+arcanist_non_utf8_binary
+.
+patch
+/
+setup
+/
+arcanist_non_utf8_binary
+.
+patch
+COPY
 updatebot
 -
 version
