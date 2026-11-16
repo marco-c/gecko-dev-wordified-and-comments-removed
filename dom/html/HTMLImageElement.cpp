@@ -5614,7 +5614,7 @@ this
 RestyleHint
 :
 :
-RESTYLE_SELF
+RESTYLE_PRES_HINTS
 nsChangeHint
 (
 0
