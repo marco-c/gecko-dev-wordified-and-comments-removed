@@ -1774,6 +1774,12 @@ aClosure
 ;
 public
 :
+arena_chunk_t
+*
+GetExcessSpareChunk
+(
+)
+;
 void
 HardPurge
 (
