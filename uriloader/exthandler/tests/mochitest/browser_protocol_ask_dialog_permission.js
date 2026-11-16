@@ -1893,7 +1893,13 @@ function
 (
 )
 {
+[
+.
+.
+.
 TEST_PROTOS
+WALLET_PROTO
+]
 .
 forEach
 (
