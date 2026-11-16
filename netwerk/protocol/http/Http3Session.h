@@ -1641,12 +1641,9 @@ Http3StreamBase
 >
 mReadyForWrite
 ;
-nsTArray
-<
-RefPtr
+nsRefPtrDeque
 <
 Http3StreamBase
->
 >
 mSlowConsumersReadyForRead
 ;
