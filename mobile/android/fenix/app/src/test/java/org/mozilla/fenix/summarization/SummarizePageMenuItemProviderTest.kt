@@ -1924,7 +1924,7 @@ MenuAction
 OnSummarizationMenuExposed
 showNewIndicator
 =
-true
+false
 state
 =
 when
