@@ -383,6 +383,10 @@ NameChanged
 is
 TabGroupAction
 .
+TabGroupsUpdated
+is
+TabGroupAction
+.
 CollectionsMigrationCardDismissed
 -
 >

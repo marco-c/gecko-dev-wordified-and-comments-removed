@@ -2419,6 +2419,11 @@ viewLifecycleOwner
 lifecycle
 .
 coroutineScope
+tabDataCoordinator
+=
+components
+.
+tabDataCoordinator
 applicationScope
 =
 components

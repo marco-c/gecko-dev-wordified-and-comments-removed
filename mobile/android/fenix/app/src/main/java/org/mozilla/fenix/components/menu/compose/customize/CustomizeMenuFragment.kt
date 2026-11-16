@@ -961,6 +961,11 @@ activity
 :
 :
 openSetDefaultBrowserOption
+tabDataCoordinator
+=
+components
+.
+tabDataCoordinator
 menuViewScope
 =
 viewLifecycleOwner

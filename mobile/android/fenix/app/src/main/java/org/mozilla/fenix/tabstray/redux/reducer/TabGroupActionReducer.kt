@@ -831,6 +831,13 @@ TabAddedToNewTabGroup
 -
 >
 state
+is
+TabGroupAction
+.
+TabGroupsUpdated
+-
+>
+state
 }
 }
 private
