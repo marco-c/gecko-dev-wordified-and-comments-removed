@@ -18914,16 +18914,6 @@ Hint
 )
 ;
 }
-if
-(
-StaticPrefs
-:
-:
-dom_closewatcher_enabled
-(
-)
-)
-{
 GetPopoverData
 (
 )
@@ -18934,7 +18924,6 @@ EnsureCloseWatcher
 this
 )
 ;
-}
 }
 if
 (

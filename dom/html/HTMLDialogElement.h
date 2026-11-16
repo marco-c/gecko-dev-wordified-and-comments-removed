@@ -573,12 +573,6 @@ IsInTopLayer
 )
 const
 ;
-MOZ_CAN_RUN_SCRIPT
-void
-RunCancelDialogSteps
-(
-)
-;
 MOZ_CAN_RUN_SCRIPT_BOUNDARY
 void
 FocusDialog

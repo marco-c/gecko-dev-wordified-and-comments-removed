@@ -87,15 +87,6 @@ closewatcher
 Exposed
 =
 Window
-Pref
-=
-"
-dom
-.
-closewatcher
-.
-enabled
-"
 ]
 interface
 CloseWatcher
