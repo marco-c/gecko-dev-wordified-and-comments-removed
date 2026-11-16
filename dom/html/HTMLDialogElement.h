@@ -573,11 +573,6 @@ IsInTopLayer
 )
 const
 ;
-void
-QueueCancelDialog
-(
-)
-;
 MOZ_CAN_RUN_SCRIPT
 void
 RunCancelDialogSteps
