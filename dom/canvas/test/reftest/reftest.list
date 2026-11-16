@@ -6208,6 +6208,16 @@ WebGL
 Reftests
 !
 #
+Reset
+the
+WebGL
+section
+'
+s
+defaults
+.
+defaults
+#
 Do
 we
 correctly
