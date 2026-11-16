@@ -162,9 +162,15 @@ it
 }
 .
 zipWithNext
+(
+)
+.
+forEach
 {
+(
 a
 b
+)
 -
 >
 assertTrue

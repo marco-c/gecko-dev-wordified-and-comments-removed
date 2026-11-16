@@ -298,6 +298,11 @@ stream
 readBytes
 (
 )
+?
+.
+let
+{
+}
 if
 (
 opts

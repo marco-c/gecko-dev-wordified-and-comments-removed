@@ -210,7 +210,7 @@ isFinishing
 activity
 .
 isDestroyed
-runCatching
+try
 {
 TestLogging
 .
@@ -277,6 +277,14 @@ elapsedRealtime
 startedAt
 )
 )
+}
+catch
+(
+_
+:
+Throwable
+)
+{
 }
 check
 (

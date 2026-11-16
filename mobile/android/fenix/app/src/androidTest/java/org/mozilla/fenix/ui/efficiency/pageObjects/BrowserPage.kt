@@ -5280,7 +5280,7 @@ the
 first
 focus
 .
-runCatching
+try
 {
 mDevice
 .
@@ -5294,6 +5294,14 @@ stylus_handwriting_enabled
 0
 "
 )
+}
+catch
+(
+_
+:
+Throwable
+)
+{
 }
 mozClick
 (
@@ -5681,7 +5689,7 @@ the
 autofill
 prompt
 .
-runCatching
+try
 {
 mDevice
 .
@@ -5695,6 +5703,14 @@ stylus_handwriting_enabled
 0
 "
 )
+}
+catch
+(
+_
+:
+Throwable
+)
+{
 }
 mozClick
 (

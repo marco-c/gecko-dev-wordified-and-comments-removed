@@ -1522,13 +1522,15 @@ url
 ?
 :
 return
+if
+(
 pinnedSiteStorage
 .
 getPinnedSites
 (
 )
 .
-firstOrNull
+none
 {
 it
 .
@@ -1537,8 +1539,7 @@ url
 =
 url
 }
-?
-:
+)
 return
 store
 .

@@ -1204,13 +1204,6 @@ createAddress
 createdAddress
 =
 it
-"
-new
--
-address
--
-guid
-"
 }
 )
 }

@@ -1435,7 +1435,7 @@ attemptFinalization
 finishCleanup
 (
 )
-runCatching
+try
 {
 reporter
 .
@@ -1454,6 +1454,14 @@ displayName
 finalFailure
 )
 )
+}
+catch
+(
+_
+:
+Throwable
+)
+{
 }
 }
 _executionContext

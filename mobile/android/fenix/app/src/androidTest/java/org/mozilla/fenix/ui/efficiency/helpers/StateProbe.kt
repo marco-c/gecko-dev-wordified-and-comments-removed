@@ -2512,7 +2512,7 @@ field
 }
 "
 }
-runCatching
+try
 {
 TestLogging
 .
@@ -2559,6 +2559,14 @@ joinToString
 )
 )
 )
+}
+catch
+(
+_
+:
+Throwable
+)
+{
 }
 check
 (

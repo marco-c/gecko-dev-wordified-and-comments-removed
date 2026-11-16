@@ -428,6 +428,12 @@ null
 private
 val
 closeBottomSheet
+:
+(
+)
+-
+>
+Unit
 =
 {
 findNavController

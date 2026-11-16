@@ -451,8 +451,6 @@ addAddress
 (
 fields
 )
-.
-guid
 }
 updateAddress
 =

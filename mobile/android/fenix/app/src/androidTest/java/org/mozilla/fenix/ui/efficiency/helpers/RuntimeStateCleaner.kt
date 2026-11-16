@@ -180,7 +180,7 @@ after
 appStore
 .
 state
-runCatching
+try
 {
 TestLogging
 .
@@ -271,6 +271,14 @@ null
 )
 )
 )
+}
+catch
+(
+_
+:
+Throwable
+)
+{
 }
 check
 (

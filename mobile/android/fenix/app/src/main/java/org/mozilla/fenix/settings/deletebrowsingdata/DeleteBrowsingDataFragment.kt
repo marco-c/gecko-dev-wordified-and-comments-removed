@@ -1048,7 +1048,7 @@ getCheckboxes
 (
 )
 .
-mapIndexed
+forEachIndexed
 {
 i
 v

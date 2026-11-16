@@ -589,16 +589,9 @@ Wallpaper
 )
 -
 >
-Wallpaper
-.
-ImageFileState
+Unit
 =
 {
-Wallpaper
-.
-ImageFileState
-.
-Downloaded
 }
 Before
 fun

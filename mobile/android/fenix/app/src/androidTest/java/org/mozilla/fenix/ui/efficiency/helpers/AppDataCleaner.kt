@@ -1148,7 +1148,7 @@ message
 }
 }
 }
-runCatching
+try
 {
 TestLogging
 .
@@ -1191,6 +1191,14 @@ to
 failureDetails
 )
 )
+}
+catch
+(
+_
+:
+Throwable
+)
+{
 }
 return
 failed

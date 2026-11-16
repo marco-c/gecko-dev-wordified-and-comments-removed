@@ -304,7 +304,7 @@ visibleAfter
 keyboardVisible
 (
 )
-runCatching
+try
 {
 TestLogging
 .
@@ -359,6 +359,14 @@ to
 visibleAfter
 )
 )
+}
+catch
+(
+_
+:
+Throwable
+)
+{
 }
 check
 (

@@ -419,7 +419,7 @@ Bundle
 null
 )
 {
-runCatching
+try
 {
 val
 appState
@@ -662,6 +662,14 @@ voiceSearchState
 isRequestingVoiceInput
 )
 )
+}
+catch
+(
+_
+:
+Throwable
+)
+{
 }
 }
 private
