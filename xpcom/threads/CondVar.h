@@ -281,12 +281,14 @@ mLock
 }
 #
 endif
-private
-:
 OffTheBooksCondVar
 (
 )
+=
+delete
 ;
+private
+:
 OffTheBooksMutex
 *
 mLock

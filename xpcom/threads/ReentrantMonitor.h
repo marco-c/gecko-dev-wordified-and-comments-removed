@@ -355,11 +355,11 @@ this
 }
 #
 endif
-private
-:
 ReentrantMonitor
 (
 )
+=
+delete
 ;
 ReentrantMonitor
 (
@@ -367,6 +367,8 @@ const
 ReentrantMonitor
 &
 )
+=
+delete
 ;
 ReentrantMonitor
 &
@@ -377,7 +379,11 @@ const
 ReentrantMonitor
 &
 )
+=
+delete
 ;
+private
+:
 PRMonitor
 *
 mReentrantMonitor
