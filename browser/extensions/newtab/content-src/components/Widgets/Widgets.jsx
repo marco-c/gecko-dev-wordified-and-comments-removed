@@ -320,6 +320,7 @@ resolveWidgetFrame
 resolveSidebarWidget
 getHideAllTargets
 PREF_HOME_WIDGETS
+WIDGET_SOURCES
 }
 from
 "
@@ -3685,9 +3686,9 @@ weather
 "
 widget_source
 :
-"
-widget
-"
+WIDGET_SOURCES
+.
+WIDGET
 enabled
 :
 false

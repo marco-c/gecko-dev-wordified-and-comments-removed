@@ -116,6 +116,7 @@ WIDGET_REGISTRY
 resolveWidgetFrame
 resolveWidgetSize
 WIDGET_USER_ACTIONS
+WIDGET_SOURCES
 }
 from
 "
@@ -542,9 +543,9 @@ CHANGE_SIZE
 {
 source
 :
-"
-context_menu
-"
+WIDGET_SOURCES
+.
+CONTEXT_MENU
 value
 :
 size
@@ -597,9 +598,9 @@ LEARN_MORE
 {
 source
 :
-"
-context_menu
-"
+WIDGET_SOURCES
+.
+CONTEXT_MENU
 }
 )
 ;

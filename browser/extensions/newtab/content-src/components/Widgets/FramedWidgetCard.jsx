@@ -100,6 +100,7 @@ mjs
 import
 {
 getChosenOption
+WIDGET_SOURCES
 }
 from
 "
@@ -1397,9 +1398,9 @@ id
 {
 source
 :
-"
-context_menu
-"
+WIDGET_SOURCES
+.
+CONTEXT_MENU
 value
 }
 )
@@ -1434,9 +1435,9 @@ id
 {
 source
 :
-"
-context_menu
-"
+WIDGET_SOURCES
+.
+CONTEXT_MENU
 }
 )
 ;

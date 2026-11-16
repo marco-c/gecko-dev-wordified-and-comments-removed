@@ -104,6 +104,7 @@ PREF_WIDGETS_ORDER
 WIDGET_REGISTRY
 resolveWidgetOrder
 resolveWidgetSize
+WIDGET_SOURCES
 }
 from
 "
@@ -838,9 +839,9 @@ dispatch
 prefs
 widgetId
 false
-"
-context_menu
-"
+WIDGET_SOURCES
+.
+CONTEXT_MENU
 )
 :
 onHide

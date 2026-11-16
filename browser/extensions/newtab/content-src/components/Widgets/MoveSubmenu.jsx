@@ -100,6 +100,7 @@ import
 {
 PREF_WIDGETS_ORDER
 resolveWidgetOrder
+WIDGET_SOURCES
 }
 from
 "
@@ -561,9 +562,9 @@ dispatch
 prefs
 widgetId
 toHome
-"
-context_menu
-"
+WIDGET_SOURCES
+.
+CONTEXT_MENU
 )
 ;
 /
