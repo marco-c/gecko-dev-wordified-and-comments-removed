@@ -6471,7 +6471,7 @@ nodiscard
 inline
 Element
 *
-GetMaybeGeneratedTableCellElementAt
+GetTableCellElementAt
 (
 Element
 &
@@ -6490,7 +6490,7 @@ nodiscard
 ]
 Element
 *
-GetMaybeGeneratedTableCellElementAt
+GetTableCellElementAt
 (
 Element
 &
