@@ -1153,6 +1153,11 @@ TouchEvents
 h
 "
 "
+TouchSwipeInfo
+.
+h
+"
+"
 TouchSwipeState
 .
 h
