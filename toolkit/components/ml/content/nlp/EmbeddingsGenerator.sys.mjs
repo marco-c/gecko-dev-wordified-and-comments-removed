@@ -993,10 +993,6 @@ text
 -
 embedder
 "
-timeoutMS
-:
--
-1
 numThreads
 :
 2
