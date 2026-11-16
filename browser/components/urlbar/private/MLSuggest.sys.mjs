@@ -404,10 +404,6 @@ intent
 classification
 "
 )
-timeoutMS
-:
--
-1
 numThreads
 :
 2
@@ -459,10 +455,6 @@ suggest
 NER
 "
 )
-timeoutMS
-:
--
-1
 numThreads
 :
 2
