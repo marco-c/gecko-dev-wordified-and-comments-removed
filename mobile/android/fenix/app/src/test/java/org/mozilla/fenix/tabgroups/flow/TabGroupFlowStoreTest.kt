@@ -221,6 +221,16 @@ Test
 group
 "
 )
+entryPoint
+=
+TabGroupFlowEntryPoint
+.
+AddTabToGroup
+(
+"
+123
+"
+)
 )
 middlewares
 =

@@ -838,6 +838,13 @@ TabGroupsUpdated
 -
 >
 state
+is
+TabGroupAction
+.
+TabMovedToExistingTabGroup
+-
+>
+state
 }
 }
 private

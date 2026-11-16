@@ -195,10 +195,6 @@ TabGroupFlowStore
 initialState
 :
 TabGroupFlowState
-=
-TabGroupFlowState
-(
-)
 middlewares
 :
 List

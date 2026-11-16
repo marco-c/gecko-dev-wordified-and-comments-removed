@@ -4444,6 +4444,13 @@ groupId
 existingGroup
 .
 id
+groupTitle
+=
+"
+Tab
+Group
+1
+"
 )
 )
 runCurrent
@@ -7757,6 +7764,13 @@ groupId
 existingGroup
 .
 id
+groupTitle
+=
+"
+Tab
+Group
+1
+"
 )
 )
 runCurrent
@@ -13113,6 +13127,9 @@ store
 =
 browserStore
 )
+fenixBrowserUseCases
+=
+fenixBrowserUseCases
 )
 tabGroupRepository
 =

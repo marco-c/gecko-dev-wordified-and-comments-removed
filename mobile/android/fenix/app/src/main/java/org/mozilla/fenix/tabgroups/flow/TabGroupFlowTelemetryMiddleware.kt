@@ -261,6 +261,10 @@ is
 TabGroupAction
 .
 TabAddedToExistingTabGroup
+is
+TabGroupAction
+.
+TabMovedToExistingTabGroup
 -
 >
 {

@@ -645,6 +645,11 @@ groupId
 group
 .
 id
+groupTitle
+=
+group
+.
+title
 )
 )
 onAddNewTabCompleted

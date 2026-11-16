@@ -2632,6 +2632,13 @@ groupId
 "
 12345
 "
+groupTitle
+=
+"
+Tab
+Group
+1
+"
 )
 )
 assertEquals

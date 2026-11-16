@@ -2395,6 +2395,13 @@ groupId
 "
 id
 "
+groupTitle
+=
+"
+Tab
+Group
+1
+"
 )
 )
 assertNotNull
