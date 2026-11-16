@@ -880,7 +880,7 @@ stand
 in
 has
 no
-engagementEvent
+session
 )
 .
 *
@@ -1167,7 +1167,7 @@ UrlbarSession
 *
 /
 get
-engagementEvent
+session
 (
 )
 {
@@ -1199,7 +1199,7 @@ this
 #
 parentController
 .
-engagementEvent
+session
 ;
 }
 /
@@ -4899,7 +4899,7 @@ false
 }
 this
 .
-engagementEvent
+session
 .
 record
 (

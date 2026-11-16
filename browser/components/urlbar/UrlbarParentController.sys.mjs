@@ -79,7 +79,6 @@ mjs
 ;
 import
 {
-claimBounceForLoad
 UrlbarSession
 }
 from
@@ -1404,7 +1403,7 @@ sapName
 ;
 this
 .
-engagementEvent
+session
 =
 new
 UrlbarSession
@@ -3259,7 +3258,7 @@ wire
 {
 this
 .
-engagementEvent
+session
 .
 recordFromChild
 (
@@ -3312,7 +3311,7 @@ resetEngagement
 {
 this
 .
-engagementEvent
+session
 .
 reset
 (
@@ -3380,7 +3379,7 @@ payload
 return
 this
 .
-engagementEvent
+session
 .
 startTrackingBuiltBounce
 (
@@ -5774,6 +5773,8 @@ inBackground
 postData
 resolveOnContentBrowserCreated
 :
+UrlbarSession
+.
 claimBounceForLoad
 (
 browser
@@ -7228,6 +7229,8 @@ params
 .
 resolveOnContentBrowserCreated
 =
+UrlbarSession
+.
 claimBounceForLoad
 (
 browser

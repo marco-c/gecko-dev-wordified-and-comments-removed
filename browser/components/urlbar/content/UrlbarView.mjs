@@ -4695,7 +4695,7 @@ this
 .
 controller
 .
-engagementEvent
+session
 .
 discard
 (
@@ -6899,7 +6899,7 @@ this
 .
 controller
 .
-engagementEvent
+session
 .
 discard
 (
@@ -10763,7 +10763,7 @@ this
 .
 controller
 .
-engagementEvent
+session
 .
 discardTentativeExposures
 (
@@ -11128,7 +11128,7 @@ this
 .
 controller
 .
-engagementEvent
+session
 .
 addExposure
 (
@@ -11664,7 +11664,7 @@ this
 .
 controller
 .
-engagementEvent
+session
 .
 addExposure
 (
@@ -11733,7 +11733,7 @@ this
 .
 controller
 .
-engagementEvent
+session
 .
 addTentativeExposure
 (
@@ -22624,7 +22624,7 @@ this
 .
 controller
 .
-engagementEvent
+session
 .
 addExposure
 (
@@ -24253,7 +24253,7 @@ this
 .
 controller
 .
-engagementEvent
+session
 .
 acceptTentativeExposures
 (

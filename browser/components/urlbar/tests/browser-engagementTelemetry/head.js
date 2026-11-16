@@ -1076,7 +1076,7 @@ gURLBar
 .
 controller
 .
-engagementEvent
+session
 .
 reset
 (

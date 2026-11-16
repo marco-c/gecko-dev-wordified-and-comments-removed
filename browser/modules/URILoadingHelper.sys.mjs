@@ -163,7 +163,7 @@ sys
 .
 mjs
 "
-handleBounceEventTrigger
+UrlbarSession
 :
 "
 moz
@@ -4041,6 +4041,8 @@ targetBrowser
 )
 {
 lazy
+.
+UrlbarSession
 .
 handleBounceEventTrigger
 (
