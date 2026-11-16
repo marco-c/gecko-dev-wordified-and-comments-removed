@@ -479,7 +479,7 @@ scrollDirection
 =
 SwipeDirection
 .
-DOWN
+UP
 )
 val
 TOOLBAR_LAYOUT_EXPANDED
