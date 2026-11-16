@@ -18754,6 +18754,15 @@ if
 (
 !
 frame
+&
+&
+!
+newFocus
+-
+>
+IsDisplayContents
+(
+)
 )
 {
 continue
@@ -18761,6 +18770,9 @@ continue
 }
 if
 (
+frame
+&
+&
 frame
 -
 >
@@ -18786,6 +18798,9 @@ WithMouse
 ;
 if
 (
+frame
+&
+&
 frame
 -
 >
