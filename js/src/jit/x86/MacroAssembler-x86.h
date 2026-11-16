@@ -1480,7 +1480,7 @@ payloadReg
 )
 )
 {
-computeEffectiveAddress
+lea
 (
 src
 val
