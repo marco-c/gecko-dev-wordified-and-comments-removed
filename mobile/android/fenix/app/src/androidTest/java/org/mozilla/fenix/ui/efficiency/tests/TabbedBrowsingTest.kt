@@ -2123,10 +2123,6 @@ on
 .
 browserPage
 .
-navigateToPage
-(
-)
-.
 verifyPageContentWithReload
 (
 secondWebPage
@@ -2139,6 +2135,10 @@ toString
 secondWebPage
 .
 content
+)
+.
+navigateToPage
+(
 )
 on
 .
