@@ -2301,11 +2301,13 @@ cacheKey
 (
 )
 ;
-StoreIsProxyUsed
+mProxyType
+=
+Some
 (
 aArgs
 .
-isProxyUsed
+proxyType
 (
 )
 )
