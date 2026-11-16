@@ -2749,6 +2749,25 @@ py
 )
     
 "
+theme
+"
+:
+MachCommandReference
+(
+"
+toolkit
+/
+themes
+/
+tools
+/
+mach_commands
+.
+py
+"
+)
+    
+"
 tps
 -
 build

@@ -575,14 +575,8 @@ default
 .
 /
 mach
-python
--
--
-virtualenv
-wpt
+theme
 contrast
-.
-py
 -
 -
 binary
@@ -818,7 +812,7 @@ without
 .
 -
 -
-context
+realm
 content
 probes
 the
@@ -5237,8 +5231,11 @@ stderr
         
 )
 def
-main
+get_parser
 (
+prog
+=
+None
 )
 :
     
@@ -5249,9 +5246,14 @@ argparse
 ArgumentParser
 (
         
+prog
+=
+prog
+        
 description
 =
 __doc__
+        
 formatter_class
 =
 argparse
@@ -5518,7 +5520,7 @@ add_argument
 "
 -
 -
-context
+realm
 "
 choices
 =
@@ -5597,13 +5599,15 @@ exit
     
 )
     
-args
-=
+return
 ap
-.
-parse_args
+def
+run
 (
+ap
+args
 )
+:
     
 setup
 =
@@ -5790,7 +5794,7 @@ system
 if
 args
 .
-context
+realm
 =
 =
 "
@@ -5816,7 +5820,7 @@ client
 args
 args
 .
-context
+realm
 sandbox
 )
         
@@ -6132,6 +6136,28 @@ run
 args
 PROG
 body
+)
+def
+main
+(
+)
+:
+    
+ap
+=
+get_parser
+(
+)
+    
+return
+run
+(
+ap
+ap
+.
+parse_args
+(
+)
 )
 if
 __name__

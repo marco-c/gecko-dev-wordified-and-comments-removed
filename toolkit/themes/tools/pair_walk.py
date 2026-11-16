@@ -362,16 +362,12 @@ prefs
 .
 /
 mach
-python
+theme
+check
 -
+hcm
 -
-virtualenv
-wpt
-pair
--
-walk
-.
-py
+colors
 -
 -
 binary
@@ -752,7 +748,7 @@ page
 in
 -
 -
-context
+realm
 content
 or
 a
@@ -4148,8 +4144,11 @@ s
 }
 "
 def
-main
+get_parser
 (
+prog
+=
+None
 )
 :
     
@@ -4160,9 +4159,14 @@ argparse
 ArgumentParser
 (
         
+prog
+=
+prog
+        
 description
 =
 __doc__
+        
 formatter_class
 =
 argparse
@@ -4360,7 +4364,7 @@ add_argument
 "
 -
 -
-context
+realm
 "
 choices
 =
@@ -4465,13 +4469,15 @@ exit
     
 )
     
-args
-=
+return
 ap
-.
-parse_args
+def
+run
 (
+ap
+args
 )
+:
     
 states
 =
@@ -4664,7 +4670,7 @@ client
 args
 args
 .
-context
+realm
 )
         
 steps_out
@@ -4961,6 +4967,28 @@ run
 args
 PROG
 body
+)
+def
+main
+(
+)
+:
+    
+ap
+=
+get_parser
+(
+)
+    
+return
+run
+(
+ap
+ap
+.
+parse_args
+(
+)
 )
 if
 __name__
