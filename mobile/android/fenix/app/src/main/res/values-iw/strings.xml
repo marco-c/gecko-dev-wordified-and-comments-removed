@@ -8018,13 +8018,6 @@ name
 "
 nova_onboarding_skip_button
 "
-tools
-:
-ignore
-=
-"
-UnusedResources
-"
 >
 <
 /
