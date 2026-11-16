@@ -704,6 +704,10 @@ uint8_t
 aBytes
 ImageIntRect
 aVisibleRect
+uint16_t
+aTileSize
+=
+0
 )
 ;
 void
