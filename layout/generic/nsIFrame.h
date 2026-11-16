@@ -9684,6 +9684,12 @@ IsAtomicInline
 )
 const
 ;
+bool
+IsNonReplacedInline
+(
+)
+const
+;
 Matrix4x4Flagged
 GetTransformMatrix
 (
