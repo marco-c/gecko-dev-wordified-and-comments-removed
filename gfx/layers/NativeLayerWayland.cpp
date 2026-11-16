@@ -6883,12 +6883,7 @@ GetSurface
 )
 {
 return
-mFrontBuffer
--
->
-GetSurface
-(
-)
+mFrontBufferSurface
 ;
 }
 NativeLayerWaylandExternal
