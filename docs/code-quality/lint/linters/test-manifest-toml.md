@@ -416,7 +416,11 @@ privateBrowsing
 -
 remote_async
 -
+repeat
+-
 snapshot
+-
+standalone
 -
 swgl
 -
