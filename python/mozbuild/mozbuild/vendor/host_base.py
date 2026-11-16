@@ -183,9 +183,12 @@ revision
 "
 "
 Temporarily
-clone
+fetch
 the
 repo
+'
+s
+tags
 to
 get
 the
@@ -197,20 +200,9 @@ timestamp
 "
 "
         
-clone_config
+fetch_config
 =
 [
-"
--
-c
-"
-"
-core
-.
-autocrlf
-=
-input
-"
 ]
         
 if
@@ -238,7 +230,7 @@ False
 )
 :
             
-clone_config
+fetch_config
 +
 =
 [
@@ -278,54 +270,75 @@ TemporaryDirectory
 (
 )
 as
-temp_repo_clone
+repo_clone
 :
             
-repo_clone
-=
-"
-/
-"
+subprocess
 .
-join
+check_call
 (
 [
-temp_repo_clone
-self
-.
-manifest
-[
 "
-origin
+git
 "
-]
-[
 "
-name
+init
+"
+"
+-
+-
+quiet
 "
 ]
-]
+cwd
+=
+repo_clone
 )
             
 subprocess
 .
-run
+check_call
 (
                 
 [
 "
 git
 "
-"
-clone
-"
 ]
                 
 +
-clone_config
+fetch_config
                 
 +
 [
+                    
+"
+fetch
+"
+                    
+"
+-
+-
+quiet
+"
+                    
+"
+-
+-
+depth
+=
+1
+"
+                    
+"
+-
+-
+filter
+=
+tree
+:
+0
+"
                     
 self
 .
@@ -341,37 +354,29 @@ url
 "
 ]
                     
-self
-.
-manifest
-[
 "
-origin
+HEAD
 "
-]
-[
+                    
 "
-name
+refs
+/
+tags
+/
+*
+:
+refs
+/
+tags
+/
+*
 "
-]
                 
 ]
                 
 cwd
 =
-temp_repo_clone
-                
-capture_output
-=
-True
-                
-text
-=
-True
-                
-check
-=
-True
+repo_clone
             
 )
             
