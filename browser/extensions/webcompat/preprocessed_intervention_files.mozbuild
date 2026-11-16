@@ -1661,17 +1661,6 @@ fix_broken_zoom
 css
 "
 "
-bug2004610
--
-character
-.
-ai
--
-fix_broken_italics
-.
-css
-"
-"
 bug2005520
 -
 portal
