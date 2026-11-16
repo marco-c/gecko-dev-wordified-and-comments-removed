@@ -106,6 +106,10 @@ MochitestDesktop
 )
 :
     
+deferChaosMode
+=
+False
+    
 localProfile
 =
 None
@@ -2567,6 +2571,14 @@ rpm
 test_in_flight
 or
 currentManifest
+        
+self
+.
+device
+.
+pull_ccov
+(
+)
         
 crashed
 =
