@@ -4017,6 +4017,11 @@ SubstitutionFunctionKind
 :
 :
 Ident
+|
+SubstitutionFunctionKind
+:
+:
+Inherit
 =
 >
 {
