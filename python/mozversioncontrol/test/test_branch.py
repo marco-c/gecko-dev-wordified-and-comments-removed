@@ -390,15 +390,6 @@ revision
 "
 )
     
-vcs
-.
-_run
-(
-"
-new
-"
-)
-    
 assert
 vcs
 .
