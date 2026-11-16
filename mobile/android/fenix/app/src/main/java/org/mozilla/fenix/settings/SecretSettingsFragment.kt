@@ -3353,7 +3353,7 @@ Config
 .
 channel
 .
-isDebug
+isNightlyOrDebug
 isChecked
 =
 settings
