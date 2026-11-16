@@ -264,6 +264,16 @@ base
 ids
 .
 SharedIdsHelper
+import
+mozilla
+.
+components
+.
+support
+.
+utils
+.
+SwitchTabIntent
 /
 *
 *
@@ -644,7 +654,7 @@ it
 .
 action
 =
-AbstractMediaSessionService
+SwitchTabIntent
 .
 ACTION_SWITCH_TAB
 }
@@ -844,7 +854,7 @@ apply
 {
 putExtra
 (
-AbstractMediaSessionService
+SwitchTabIntent
 .
 EXTRA_TAB_ID
 id

@@ -781,5 +781,15 @@ PictureInPictureUseCases
 (
 store
 )
+override
+fun
+onReturnToTab
+(
+tabId
+:
+String
+)
+=
+Unit
 }
 }

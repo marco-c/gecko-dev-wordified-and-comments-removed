@@ -133,6 +133,16 @@ window
 of
 its
 own
+and
+on
+expanding
+returns
+to
+the
+tab
+it
+came
+from
 .
 *
 /
