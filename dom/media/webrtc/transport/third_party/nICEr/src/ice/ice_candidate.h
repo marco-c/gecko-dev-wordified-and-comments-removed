@@ -194,13 +194,6 @@ void
 *
 cb_arg
 ;
-NR_async_cb
-ready_cb
-;
-void
-*
-ready_cb_arg
-;
 void
 *
 ready_cb_timer
