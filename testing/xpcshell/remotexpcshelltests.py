@@ -5482,14 +5482,6 @@ self
 )
 :
         
-self
-.
-device
-.
-pull_ccov
-(
-)
-        
 super
 (
 )
