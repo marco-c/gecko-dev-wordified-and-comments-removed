@@ -270,8 +270,6 @@ swr
 !
 standalone
 !
-repeat
-!
 trainhop
 "
 -
@@ -1373,8 +1371,6 @@ media
 |
 '
 plain
-!
-repeat
 "
 -
 "
@@ -1398,8 +1394,6 @@ hw
 media
 '
 debug
-!
-repeat
 "
 -
 "
@@ -1748,8 +1742,6 @@ media
 |
 '
 plain
-!
-repeat
 "
 -
 "
@@ -1773,8 +1765,6 @@ hw
 media
 '
 debug
-!
-repeat
 "
 -
 "
@@ -2557,8 +2547,6 @@ chrome
 !
 standalone
 !
-repeat
-!
 spi
 !
 asan
@@ -2582,8 +2570,6 @@ mochitest
 chrome
 !
 standalone
-!
-repeat
 !
 spi
 !
@@ -2886,8 +2872,6 @@ asan
 !
 -
 32
-!
-repeat
 "
 #
 macos
@@ -2915,8 +2899,6 @@ chrome
 1proc
 '
 macosx
-!
-repeat
 "
 #
 Linux
@@ -2948,8 +2930,6 @@ spi
 asan
 !
 tsan
-!
-repeat
 "
 -
 "
@@ -3041,8 +3021,6 @@ spi
 asan
 !
 tsan
-!
-repeat
 "
 -
 "
@@ -3591,8 +3569,6 @@ condprof
 media
 !
 standalone
-!
-repeat
 !
 webgpu
 !
@@ -4522,8 +4498,6 @@ chrome
 !
 standalone
 !
-repeat
-!
 tsan
 !
 asan
@@ -4865,8 +4839,6 @@ spi
 swr
 !
 nofis
-!
-repeat
 '
 -
 1
