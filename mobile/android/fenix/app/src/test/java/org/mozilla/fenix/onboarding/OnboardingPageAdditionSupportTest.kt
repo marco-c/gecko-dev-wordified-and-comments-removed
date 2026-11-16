@@ -343,7 +343,7 @@ OnboardingPageUiData
 .
 Type
 .
-SYNC_SIGN_IN
+SYNC_PAIRING
 imageRes
 =
 0
@@ -351,19 +351,22 @@ title
 =
 "
 sync
+pairing
 title
 "
 description
 =
 "
 sync
+pairing
 body
 "
 primaryButtonLabel
 =
 "
 sync
-primary
+pairing
+scan
 button
 text
 "
@@ -371,7 +374,8 @@ secondaryButtonLabel
 =
 "
 sync
-secondary
+pairing
+email
 button
 text
 "
@@ -558,7 +562,7 @@ added
 runTest
 {
 val
-syncPage
+pairingPage
 =
 pages
 .
@@ -599,7 +603,7 @@ settings
 settings
 page
 =
-syncPage
+pairingPage
 mainContext
 =
 testScheduler
@@ -629,7 +633,7 @@ assertEquals
 (
 listOf
 (
-syncPage
+pairingPage
 )
 pages
 )
@@ -659,7 +663,7 @@ added
 runTest
 {
 val
-syncPage
+pairingPage
 =
 pages
 .
@@ -700,7 +704,7 @@ settings
 settings
 page
 =
-syncPage
+pairingPage
 mainContext
 =
 testScheduler
@@ -760,7 +764,7 @@ added
 runTest
 {
 val
-syncPage
+pairingPage
 =
 pages
 .
@@ -801,7 +805,7 @@ settings
 settings
 page
 =
-syncPage
+pairingPage
 mainContext
 =
 testScheduler
@@ -849,7 +853,7 @@ assertEquals
 (
 listOf
 (
-syncPage
+pairingPage
 )
 pages
 )
@@ -876,7 +880,7 @@ added
 runTest
 {
 val
-syncPage
+pairingPage
 =
 pages
 .
@@ -917,7 +921,7 @@ settings
 settings
 page
 =
-syncPage
+pairingPage
 mainContext
 =
 testScheduler

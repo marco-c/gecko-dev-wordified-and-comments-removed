@@ -13048,10 +13048,8 @@ enabled
 *
 Whether
 the
-Sync
-sign
--
-in
+pairing
+sync
 card
 can
 be

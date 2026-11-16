@@ -626,7 +626,7 @@ OnboardingPageAdditionSupport
 )
 private
 val
-addPairingSyncSignInFeature
+addPairingSyncFeature
 =
 ViewBoundFeatureWrapper
 <
@@ -736,10 +736,8 @@ MARKETING_DATA
 *
 *
 The
-Sync
-sign
--
-in
+pairing
+sync
 page
 available
 for
@@ -763,11 +761,11 @@ via
 Nimbus
 preventing
 [
-addPairingSyncSignInFeature
+addPairingSyncFeature
 ]
 from
-*
 adding
+*
 it
 when
 attribution
@@ -778,7 +776,7 @@ later
 /
 private
 val
-pairingSyncSignInPage
+pairingSyncPage
 by
 lazy
 {
@@ -795,7 +793,7 @@ OnboardingPageUiData
 .
 Type
 .
-SYNC_SIGN_IN
+SYNC_PAIRING
 }
 ?
 .
@@ -848,10 +846,10 @@ OnboardingPageUiData
 .
 Type
 .
-SYNC_SIGN_IN
+SYNC_PAIRING
 -
 >
-pairingSyncSignInPage
+pairingSyncPage
 !
 =
 null
@@ -1197,7 +1195,7 @@ view
 =
 view
 )
-addPairingSyncSignInFeature
+addPairingSyncFeature
 .
 set
 (
@@ -1229,7 +1227,7 @@ requireComponents
 settings
 page
 =
-pairingSyncSignInPage
+pairingSyncPage
 lifecycleOwner
 =
 viewLifecycleOwner

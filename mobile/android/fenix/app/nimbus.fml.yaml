@@ -7929,10 +7929,8 @@ description
 >
 Controls
 the
-Sync
-sign
--
-in
+pairing
+sync
 card
 shown
 during
@@ -7956,10 +7954,8 @@ description
 :
 Whether
 the
-Sync
-sign
--
-in
+pairing
+sync
 card
 can
 be
