@@ -3376,7 +3376,7 @@ InstanceType
 typeof
 ExtensionCommon
 .
-LazyAPIManager
+SchemaAPIManager
 >
 [
 ]
@@ -3554,6 +3554,15 @@ emit
 "
 shutdown
 "
+)
+;
+this
+.
+experimentAPIManager
+?
+.
+disableNewScripts
+(
 )
 ;
 }
