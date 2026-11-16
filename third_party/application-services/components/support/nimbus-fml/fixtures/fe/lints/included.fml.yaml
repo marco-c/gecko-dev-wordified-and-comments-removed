@@ -28,12 +28,6 @@ the
 lint
 tests
 .
-no
--
-lint
-:
--
-MISSING_META_BUG
 features
 :
 included
@@ -53,13 +47,6 @@ another
 file
 includes
 .
-contacts
-:
--
-jdoe
-example
-.
-com
 documentation
 :
 -

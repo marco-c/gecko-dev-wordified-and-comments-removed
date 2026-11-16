@@ -66,6 +66,17 @@ std
 "
 derive
 "
+"
+help
+"
+"
+usage
+"
+"
+error
+-
+context
+"
 ]
 }
 askama

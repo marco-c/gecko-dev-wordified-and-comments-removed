@@ -120,6 +120,17 @@ std
 "
 derive
 "
+"
+help
+"
+"
+usage
+"
+"
+error
+-
+context
+"
 ]
 }
 serde

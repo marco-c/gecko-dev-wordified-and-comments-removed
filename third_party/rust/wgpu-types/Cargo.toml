@@ -518,14 +518,14 @@ version
 "
 path
 =
-"
+'
 .
 .
-/
+\
 naga
 -
 types
-"
+'
 features
 =
 [

@@ -143,7 +143,9 @@ d
 GleanTelemetry
 :
 :
-javaClass
+class
+.
+java
 .
 name
 "

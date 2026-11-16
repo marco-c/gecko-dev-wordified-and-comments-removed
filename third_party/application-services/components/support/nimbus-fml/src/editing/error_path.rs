@@ -188,7 +188,6 @@ name
 "
 ]
 "
-&
 self
 .
 path
@@ -236,7 +235,6 @@ format
 prop_key
 }
 "
-&
 self
 .
 path
@@ -294,7 +292,6 @@ key
 }
 ]
 "
-&
 self
 .
 path
@@ -368,7 +365,6 @@ key
 '
 ]
 "
-&
 self
 .
 path
@@ -476,7 +472,6 @@ index
 }
 ]
 "
-&
 self
 .
 path
@@ -518,7 +513,6 @@ format
 name
 }
 "
-&
 self
 .
 path

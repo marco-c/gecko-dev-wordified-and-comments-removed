@@ -6806,7 +6806,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-454
+455
 /
 /
 uniffi_viaduct_fn_method_backend_send_request

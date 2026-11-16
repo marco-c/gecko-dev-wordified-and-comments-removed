@@ -37731,6 +37731,16 @@ firefox
 versioning
 "
 "
+glean
+-
+build
+"
+"
+glean
+-
+sym
+"
+"
 jexl
 -
 eval

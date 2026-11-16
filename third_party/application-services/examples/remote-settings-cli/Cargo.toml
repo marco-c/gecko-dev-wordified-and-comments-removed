@@ -198,6 +198,17 @@ std
 "
 derive
 "
+"
+help
+"
+"
+usage
+"
+"
+error
+-
+context
+"
 ]
 }
 anyhow

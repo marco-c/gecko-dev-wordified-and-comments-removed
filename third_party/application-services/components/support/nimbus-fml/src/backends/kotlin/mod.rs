@@ -1,4 +1,10 @@
 use
+askama
+:
+:
+Template
+;
+use
 crate
 :
 :
@@ -39,12 +45,6 @@ intermediate_representation
 :
 :
 FeatureManifest
-;
-use
-askama
-:
-:
-Template
 ;
 mod
 gen_structs
@@ -351,7 +351,6 @@ entry
 {
 }
 "
-&
 cmd
 .
 manifest
@@ -504,8 +503,8 @@ anyhow
 :
 :
 {
-bail
 Result
+bail
 }
 ;
 use

@@ -1,10 +1,4 @@
 use
-askama
-:
-:
-Template
-;
-use
 std
 :
 :
@@ -14,10 +8,15 @@ collections
 HashSet
 ;
 use
+askama
+:
+:
+Template
+;
+use
 crate
 :
 :
-{
 backends
 :
 :
@@ -27,6 +26,11 @@ CodeOracle
 CodeType
 TypeIdentifier
 }
+;
+use
+crate
+:
+:
 intermediate_representation
 :
 :
@@ -34,7 +38,6 @@ intermediate_representation
 FeatureDef
 FeatureManifest
 TypeFinder
-}
 }
 ;
 mod

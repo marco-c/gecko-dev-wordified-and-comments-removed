@@ -119,7 +119,9 @@ viaduct
 }
 viaduct
 -
-hyper
+backend
+-
+rust
 =
 {
 path
@@ -137,7 +139,9 @@ support
 /
 viaduct
 -
-hyper
+backend
+-
+rust
 "
 }
 log
@@ -173,6 +177,14 @@ derive
 "
 "
 help
+"
+"
+usage
+"
+"
+error
+-
+context
 "
 ]
 }

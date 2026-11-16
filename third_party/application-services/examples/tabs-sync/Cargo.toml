@@ -150,6 +150,17 @@ std
 "
 derive
 "
+"
+help
+"
+"
+usage
+"
+"
+error
+-
+context
+"
 ]
 }
 cli
@@ -197,6 +208,8 @@ interrupt
 "
 }
 nss
+-
+as
 =
 {
 version
@@ -271,7 +284,9 @@ viaduct
 }
 viaduct
 -
-hyper
+backend
+-
+rust
 =
 {
 path
@@ -289,6 +304,8 @@ support
 /
 viaduct
 -
-hyper
+backend
+-
+rust
 "
 }

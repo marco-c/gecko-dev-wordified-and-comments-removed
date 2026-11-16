@@ -102,11 +102,6 @@ variables
 self
 .
 _variables
-prefs
-:
-self
-.
-_prefs
 defaults
 :
 defaults
