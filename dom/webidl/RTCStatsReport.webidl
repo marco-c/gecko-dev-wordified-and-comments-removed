@@ -1559,6 +1559,9 @@ required
 boolean
 certificatesProvided
 ;
+octet
+iceCandidatePoolSize
+;
 sequence
 <
 RTCIceServerInternal

@@ -214,6 +214,14 @@ certificates
 [
 ]
 ;
+[
+EnforceRange
+]
+octet
+iceCandidatePoolSize
+=
+0
+;
 /
 /
 Non
