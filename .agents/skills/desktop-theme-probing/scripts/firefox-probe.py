@@ -15,7 +15,7 @@ chrome
 or
 the
 content
-context
+realm
 and
 print
 the
@@ -136,7 +136,7 @@ firefox
         
 -
 -
-context
+realm
 chrome
 -
 e
@@ -456,7 +456,7 @@ once
 in
 the
 selected
-context
+realm
 right
 before
 the
@@ -973,7 +973,11 @@ shoots
 the
 screen
 with
-scripts
+toolkit
+/
+themes
+/
+tools
 /
 screen
 -
@@ -1124,17 +1128,13 @@ the
 -
 offset
 of
-desktop
--
+.
+/
+mach
 theme
--
-screenshots
-'
 pixel
 -
 diff
-.
-py
 together
 with
 -
@@ -1492,6 +1492,12 @@ the
 exit
 codes
 are
+toolkit
+/
+themes
+/
+tools
+/
 probelib
 .
 py
@@ -1737,7 +1743,7 @@ chrome
 or
 the
 content
-context
+realm
 .
 "
         
@@ -1775,7 +1781,7 @@ add_argument
 "
 -
 -
-context
+realm
 "
         
 choices
@@ -2083,7 +2089,7 @@ once
 in
 the
 selected
-context
+realm
 right
 before
 the
@@ -2730,7 +2736,7 @@ client
 args
 args
 .
-context
+realm
 args
 .
 sandbox
