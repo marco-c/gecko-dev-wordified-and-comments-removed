@@ -2079,9 +2079,11 @@ _context
             
 c_parser
 .
-formatter_class
+usage
 =
-NoUsageFormatter
+argparse
+.
+SUPPRESS
             
 group
 =
@@ -2593,9 +2595,11 @@ False
         
 c_parser
 .
-formatter_class
+usage
 =
-CommandFormatter
+argparse
+.
+SUPPRESS
         
 group
 =
@@ -2701,30 +2705,6 @@ c_parser
 print_help
 (
 )
-class
-NoUsageFormatter
-(
-argparse
-.
-HelpFormatter
-)
-:
-    
-def
-_format_usage
-(
-self
-*
-args
-*
-*
-kwargs
-)
-:
-        
-return
-"
-"
 def
 format_docstring
 (
