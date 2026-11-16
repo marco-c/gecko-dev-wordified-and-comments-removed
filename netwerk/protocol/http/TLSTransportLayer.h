@@ -119,6 +119,14 @@ char
 aTLSHost
 int32_t
 aTLSPort
+const
+OriginAttributes
+&
+aOriginAttributes
+uint32_t
+aFlags
+uint32_t
+aTlsFlags
 )
 ;
 already_AddRefed
