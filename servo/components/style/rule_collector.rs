@@ -1125,13 +1125,6 @@ synthesize_presentational_hints_for_legacy_attributes
 (
 self
 .
-context
-.
-visited_handling
-(
-)
-self
-.
 rules
 )
 ;
