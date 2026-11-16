@@ -3334,14 +3334,6 @@ v
 ON
 v
 .
-place_id
-=
-h
-.
-id
-WHERE
-v
-.
 id
 IN
 (
