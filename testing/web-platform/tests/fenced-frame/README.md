@@ -819,9 +819,6 @@ Either
 '
 fledge
 '
-'
-sharedstorage
-'
 or
 default
 (
