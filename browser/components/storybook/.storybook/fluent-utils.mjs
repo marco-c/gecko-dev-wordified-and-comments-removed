@@ -714,6 +714,18 @@ split
 )
 ;
 let
+path
+=
+rest
+.
+join
+(
+"
+/
+"
+)
+;
+let
 loadResource
 ;
 if
@@ -828,7 +840,7 @@ locales
 preview
 /
 {
-rest
+path
 }
 ]
 ;
@@ -868,7 +880,7 @@ en
 US
 /
 {
-rest
+path
 }
 ]
 ;
@@ -911,7 +923,7 @@ megalist
 content
 /
 {
-rest
+path
 }
 ]
 ;
