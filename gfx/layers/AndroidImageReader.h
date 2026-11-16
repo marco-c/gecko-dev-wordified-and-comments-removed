@@ -521,6 +521,11 @@ AndroidImageReader
 (
 )
 ;
+void
+Shutdown
+(
+)
+;
 bool
 UpdateTexImage
 (
@@ -772,6 +777,15 @@ false
 ;
 bool
 mIsPendingNextImage
+MOZ_GUARDED_BY
+(
+mMonitor
+)
+=
+false
+;
+bool
+mShuttingDown
 MOZ_GUARDED_BY
 (
 mMonitor
