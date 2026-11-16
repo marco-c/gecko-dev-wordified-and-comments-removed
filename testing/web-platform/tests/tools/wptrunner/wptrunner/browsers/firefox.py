@@ -2529,6 +2529,46 @@ enabled
 "
 )
           
+"
+csp_url_hashes
+"
+:
+bool_pref
+(
+"
+security
+.
+csp
+.
+url
+-
+hashes
+.
+enabled
+"
+)
+          
+"
+csp_strict_dynamic_url
+"
+:
+bool_pref
+(
+"
+security
+.
+csp
+.
+strict
+-
+dynamic
+-
+url
+.
+enabled
+"
+)
+          
 }
     
 rv
@@ -2723,6 +2763,14 @@ playready
             
 "
 subsuite
+"
+            
+"
+csp_url_hashes
+"
+            
+"
+csp_strict_dynamic_url
 "
         
 ]
