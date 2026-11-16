@@ -392,6 +392,12 @@ hashSource
 (
 )
 ;
+nsCSPUrlHashSrc
+*
+urlHashSource
+(
+)
+;
 nsCSPHostSrc
 *
 host
@@ -737,6 +743,9 @@ mCurDir
 ;
 bool
 mHasHashOrNonce
+;
+bool
+mHasUrlHash
 ;
 bool
 mHasAnyUnsafeEval
