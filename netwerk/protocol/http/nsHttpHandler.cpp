@@ -3854,7 +3854,7 @@ nsHttpRequestHead
 *
 aRequest
 bool
-aSecure
+aAllowDictionaries
 nsHttpChannel
 *
 aChan
@@ -3924,7 +3924,7 @@ NS_OK
 ;
 if
 (
-aSecure
+aAllowDictionaries
 )
 {
 if

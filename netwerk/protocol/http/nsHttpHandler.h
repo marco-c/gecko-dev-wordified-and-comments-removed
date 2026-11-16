@@ -338,7 +338,7 @@ nsHttpRequestHead
 *
 aRequest
 bool
-aSecure
+aAllowDictionaries
 nsHttpChannel
 *
 aChan

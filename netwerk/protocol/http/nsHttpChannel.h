@@ -2201,6 +2201,13 @@ bool
 aModified
 )
 ;
+bool
+IsReadableForDictionaries
+(
+bool
+aCheckResponse
+)
+;
 [
 [
 nodiscard
