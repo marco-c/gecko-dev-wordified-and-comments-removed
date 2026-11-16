@@ -1506,6 +1506,13 @@ Http3StreamBase
 )
 ;
 void
+AddStreamToReadyForWrite
+(
+Http3StreamBase
+*
+)
+;
+void
 ProcessPending
 (
 )
