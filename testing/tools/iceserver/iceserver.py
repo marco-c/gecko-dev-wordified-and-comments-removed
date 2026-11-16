@@ -3306,6 +3306,26 @@ get_allocation_tuple
 ]
 =
 allocation
+            
+print
+(
+"
+Allocation
+created
+for
+{
+}
+"
+.
+format
+(
+self
+.
+get_allocation_tuple
+(
+)
+)
+)
         
 return
 allocate_response
