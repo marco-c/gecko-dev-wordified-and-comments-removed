@@ -1821,12 +1821,14 @@ test_redirect_from_script_wrap
 js
 "
 ]
-skip
--
-if
+prefs
 =
 [
 "
+network
+.
+allow_raw_sockets_in_content_processes
+=
 true
 "
 ]
