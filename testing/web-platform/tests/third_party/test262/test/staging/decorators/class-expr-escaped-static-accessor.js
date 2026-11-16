@@ -1,0 +1,17 @@
+DONOTEVALUATE
+(
+)
+;
+var
+C
+=
+class
+{
+static
+acc
+\
+u0065ssor
+value
+;
+}
+;

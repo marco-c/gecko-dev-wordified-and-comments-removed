@@ -1,0 +1,17 @@
+DONOTEVALUATE
+(
+)
+;
+class
+C
+{
+static
+st
+\
+u0061tic
+value
+(
+)
+{
+}
+}
