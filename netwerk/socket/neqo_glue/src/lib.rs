@@ -15827,6 +15827,16 @@ send_order
 {
 Ok
 (
+DatagramQueueOutcome
+:
+:
+Rejected
+)
+=
+>
+NS_BASE_STREAM_WOULD_BLOCK
+Ok
+(
 outcome
 )
 =
