@@ -298,7 +298,7 @@ components
 /
 urlbar
 /
-UrlbarParentController
+UrlbarSession
 .
 sys
 .

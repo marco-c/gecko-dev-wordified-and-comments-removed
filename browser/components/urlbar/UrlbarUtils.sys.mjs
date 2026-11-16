@@ -11998,11 +11998,6 @@ overridden
 *
 *
 *
-type
-{
-Query
-}
-*
 This
 can
 be
@@ -12023,7 +12018,7 @@ executing
 async
 tasks
 :
-*
+:
 *
 *
 let
@@ -12067,6 +12062,11 @@ return
 *
 }
 *
+*
+type
+{
+Query
+}
 *
 /
 queryInstance
@@ -12921,7 +12921,7 @@ record
 )
 in
 *
-UrlbarParentController
+UrlbarSession
 .
 sys
 .

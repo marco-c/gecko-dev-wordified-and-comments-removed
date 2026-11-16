@@ -433,6 +433,13 @@ sys
 mjs
 "
 "
+UrlbarSession
+.
+sys
+.
+mjs
+"
+"
 UrlbarTokenizer
 .
 sys
