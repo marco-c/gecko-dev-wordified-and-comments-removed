@@ -8915,8 +8915,6 @@ MINIDUMP_TYPE
 MiniDumpWithFullMemoryInfo
 |
 MiniDumpWithUnloadedModules
-|
-MiniDumpWithHandleData
 )
 ;
 #
@@ -9735,18 +9733,6 @@ LoadLibraryW
 L
 "
 psapi
-.
-dll
-"
-)
-;
-:
-:
-LoadLibraryW
-(
-L
-"
-verifier
 .
 dll
 "
