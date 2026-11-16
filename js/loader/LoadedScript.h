@@ -2954,13 +2954,6 @@ aError
 )
 ;
 void
-SetForPreload
-(
-bool
-aValue
-)
-;
-void
 SetHadImportMap
 (
 bool

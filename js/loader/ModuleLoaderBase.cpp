@@ -5180,10 +5180,15 @@ mModuleScript
 =
 moduleScript
 ;
-moduleScript
+aRequest
 -
 >
-SetForPreload
+FetchInfo
+(
+)
+-
+>
+SetForModulePreload
 (
 aRequest
 -
