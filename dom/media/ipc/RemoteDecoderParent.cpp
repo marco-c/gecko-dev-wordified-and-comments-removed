@@ -979,8 +979,11 @@ RemoteDecoderParent
 :
 RecvDecode
 (
+NotNull
+<
 ArrayOfRemoteMediaRawData
 *
+>
 aData
 DecodeResolver
 &
@@ -1063,6 +1066,10 @@ output
 DecodeNextSample
 (
 aData
+.
+get
+(
+)
 0
 std
 :

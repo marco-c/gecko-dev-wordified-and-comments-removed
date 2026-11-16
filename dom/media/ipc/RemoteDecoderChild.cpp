@@ -624,9 +624,12 @@ __func__
 auto
 samples
 =
-MakeRefPtr
+MakeNotNull
+<
+RefPtr
 <
 ArrayOfRemoteMediaRawData
+>
 >
 (
 )

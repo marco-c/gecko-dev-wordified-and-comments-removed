@@ -189,10 +189,8 @@ mozilla
 union
 EncodedInputIPDL
 {
-nullable
 ArrayOfRemoteAudioData
 ;
-nullable
 ArrayOfRemoteVideoData
 ;
 }
@@ -223,7 +221,6 @@ EncodeInitCompletionIPDL
 struct
 EncodeCompletionIPDL
 {
-nullable
 ArrayOfRemoteMediaRawData
 samples
 ;
@@ -393,7 +390,6 @@ result
 async
 Reconfigure
 (
-nullable
 EncoderConfigurationChangeList
 configurationChanges
 )
