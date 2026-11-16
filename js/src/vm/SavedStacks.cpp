@@ -9829,10 +9829,12 @@ MOZ_ASSERT
 maybeTarget
 )
 ;
+const
 LiveSavedFrameCache
 :
 :
 FramePtr
+&
 target
 =
 *
