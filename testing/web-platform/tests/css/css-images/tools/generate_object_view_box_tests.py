@@ -183,6 +183,11 @@ img
 svg
 '
 '
+svg
+-
+object
+'
+'
 canvas
 '
 '
@@ -198,6 +203,9 @@ img
 '
 '
 img
+'
+'
+object
 '
 '
 canvas
@@ -223,6 +231,22 @@ orientation
 ru
 .
 jpg
+'
+        
+'
+support
+/
+blue
+-
+green
+-
+red
+-
+yellow
+-
+50x100
+.
+svg
 '
         
 '
