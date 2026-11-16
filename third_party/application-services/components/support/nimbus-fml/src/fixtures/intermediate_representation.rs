@@ -8,12 +8,6 @@ collections
 BTreeMap
 ;
 use
-serde_json
-:
-:
-json
-;
-use
 crate
 :
 :
@@ -30,6 +24,12 @@ PropDef
 TypeRef
 VariantDef
 }
+;
+use
+serde_json
+:
+:
+json
 ;
 pub
 (

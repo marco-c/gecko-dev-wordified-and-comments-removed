@@ -1030,6 +1030,7 @@ quoted
 )
 {
 variables
+prefs
 in
 {
 {
@@ -1038,6 +1039,7 @@ class_name
 }
 (
 variables
+prefs
 )
 }
 }

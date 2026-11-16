@@ -32,6 +32,7 @@ use
 crate
 :
 :
+{
 sources
 :
 :
@@ -39,17 +40,13 @@ sources
 ExperimentSource
 ManifestSource
 }
-;
-use
-crate
-:
-:
 value_utils
 :
 :
 {
 self
 CliUtils
+}
 }
 ;
 impl

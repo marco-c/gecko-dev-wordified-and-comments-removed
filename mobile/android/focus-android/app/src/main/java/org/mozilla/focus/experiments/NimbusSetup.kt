@@ -684,6 +684,13 @@ initial_experiments
 timeoutLoadingExperiment
 =
 TIME_OUT_LOADING_EXPERIMENT_FROM_DISK_MS
+sharedPreferences
+=
+context
+.
+settings
+.
+preferences
 isFirstRun
 =
 isAppFirstRun

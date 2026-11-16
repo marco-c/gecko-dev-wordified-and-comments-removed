@@ -32,6 +32,7 @@ use
 crate
 :
 :
+{
 command_line
 :
 :
@@ -39,11 +40,6 @@ commands
 :
 :
 GenerateExperimenterManifestCmd
-;
-use
-crate
-:
-:
 error
 :
 :
@@ -51,11 +47,6 @@ error
 FMLError
 Result
 }
-;
-use
-crate
-:
-:
 intermediate_representation
 :
 :
@@ -66,6 +57,7 @@ GeckoPrefDef
 PropDef
 TargetLanguage
 TypeRef
+}
 }
 ;
 pub

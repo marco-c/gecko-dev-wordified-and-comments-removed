@@ -20,7 +20,7 @@ version
 edition
 =
 "
-2024
+2021
 "
 authors
 =
@@ -142,15 +142,12 @@ std
 derive
 "
 "
-help
-"
-"
-usage
-"
-"
 error
 -
 context
+"
+"
+help
 "
 ]
 }

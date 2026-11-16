@@ -45,7 +45,7 @@ Option
 Duration
 >
 pub
-server
+server_max_age
 :
 Option
 <
@@ -84,7 +84,7 @@ or
 (
 self
 .
-server
+server_max_age
 )
 .
 unwrap_or
@@ -123,7 +123,7 @@ super
 test
 ]
 fn
-explicit_overrides_server_and_default
+explicit_overrides_server_max_age_and_default
 (
 )
 {
@@ -153,7 +153,7 @@ from_secs
 60
 )
 )
-server
+server_max_age
 :
 Some
 (
@@ -190,7 +190,7 @@ from_secs
 test
 ]
 fn
-falls_back_to_server_when_no_explicit
+falls_back_to_server_max_age_when_no_explicit
 (
 )
 {
@@ -211,7 +211,7 @@ from_secs
 explicit
 :
 None
-server
+server_max_age
 :
 Some
 (
@@ -248,7 +248,7 @@ from_secs
 test
 ]
 fn
-falls_back_to_default_when_no_explicit_and_no_server
+falls_back_to_default_when_no_explicit_and_no_server_max_age
 (
 )
 {
@@ -269,7 +269,7 @@ from_secs
 explicit
 :
 None
-server
+server_max_age
 :
 None
 }
@@ -297,7 +297,7 @@ from_secs
 test
 ]
 fn
-zero_server_ttl_yields_zero
+zero_server_max_age_yields_zero
 (
 )
 {
@@ -318,7 +318,7 @@ from_secs
 explicit
 :
 None
-server
+server_max_age
 :
 Some
 (
@@ -349,7 +349,7 @@ ZERO
 test
 ]
 fn
-server_ttl_is_capped_at_max_ttl
+server_max_age_is_capped_at_max_ttl
 (
 )
 {
@@ -370,7 +370,7 @@ from_secs
 explicit
 :
 None
-server
+server_max_age
 :
 Some
 (
@@ -443,7 +443,7 @@ from_secs
 60
 )
 )
-server
+server_max_age
 :
 None
 }
@@ -492,7 +492,7 @@ from_secs
 explicit
 :
 None
-server
+server_max_age
 :
 None
 }

@@ -109,17 +109,6 @@ std
 "
 derive
 "
-"
-help
-"
-"
-usage
-"
-"
-error
--
-context
-"
 ]
 }
 cargo_metadata

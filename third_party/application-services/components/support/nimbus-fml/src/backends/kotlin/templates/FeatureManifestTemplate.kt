@@ -377,6 +377,7 @@ quoted
 )
 {
 variables
+prefs
 -
 >
 {
@@ -386,6 +387,7 @@ class_name
 }
 (
 variables
+prefs
 )
 }
 }

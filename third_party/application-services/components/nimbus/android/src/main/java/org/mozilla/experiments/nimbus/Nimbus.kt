@@ -83,6 +83,12 @@ android
 .
 content
 .
+SharedPreferences
+import
+android
+.
+content
+.
 pm
 .
 PackageInfo
@@ -599,6 +605,14 @@ val
 context
 :
 Context
+override
+val
+prefs
+:
+SharedPreferences
+?
+=
+null
 appInfo
 :
 NimbusAppInfo

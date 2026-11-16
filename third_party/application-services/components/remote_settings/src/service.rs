@@ -315,7 +315,7 @@ new
 RemoteSettingsTelemetryWrapper
 :
 :
-default
+noop
 (
 )
 )
