@@ -256,6 +256,7 @@ frameType
 ;
 [
 Comparable
+Tainted
 ]
 struct
 IPCClientInfo

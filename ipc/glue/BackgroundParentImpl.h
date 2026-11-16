@@ -522,8 +522,11 @@ const
 uint64_t
 &
 aBrowsingContextID
-const
+Tainted
+<
 IPCClientInfo
+>
+&
 &
 aClientInfo
 const
@@ -1676,8 +1679,10 @@ AllocPServiceWorkerRegistrationParent
 const
 IPCServiceWorkerRegistrationDescriptor
 &
-const
+Tainted
+<
 IPCClientInfo
+>
 &
 )
 final
@@ -1698,8 +1703,11 @@ const
 IPCServiceWorkerRegistrationDescriptor
 &
 aDescriptor
-const
+Tainted
+<
 IPCClientInfo
+>
+&
 &
 aForClient
 )
