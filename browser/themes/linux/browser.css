@@ -523,9 +523,9 @@ tokens
 /
 border
 -
-top
+start
 -
-left
+start
 -
 radius
 :
@@ -567,9 +567,9 @@ tokens
 /
 border
 -
-top
+start
 -
-right
+end
 -
 radius
 :
