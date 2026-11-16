@@ -190,7 +190,7 @@ pushapi
 const
 kPUSHWSDB_DB_VERSION
 =
-5
+6
 ;
 /
 /
@@ -459,7 +459,7 @@ push
 .
 loglevel
 "
-prefix
+logModule
 :
 "
 PushServiceWebSocket
