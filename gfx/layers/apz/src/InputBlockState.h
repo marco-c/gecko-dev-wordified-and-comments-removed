@@ -1764,6 +1764,14 @@ mTouchSwipableDirectionsCallback
 aCallback
 ;
 }
+bool
+SetContentResponse
+(
+bool
+aPreventDefault
+)
+override
+;
 private
 :
 void
