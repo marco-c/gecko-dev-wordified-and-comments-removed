@@ -19835,15 +19835,6 @@ data
 comes
 from
 .
-%
-1
-s
-is
-the
-Firefox
-brand
-name
-.
 -
 -
 >
@@ -19852,7 +19843,7 @@ string
 name
 =
 "
-preferences_enable_sync_summary_sync_disabled
+preferences_enable_sync_summary_sync_disabled_2
 "
 >
 Using
@@ -19860,9 +19851,6 @@ saved
 data
 in
 your
-%
-1
-s
 account
 .
 <

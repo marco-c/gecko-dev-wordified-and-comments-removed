@@ -1778,15 +1778,7 @@ R
 .
 string
 .
-preferences_enable_sync_summary_sync_disabled
-getString
-(
-R
-.
-string
-.
-firefox
-)
+preferences_enable_sync_summary_sync_disabled_2
 )
 }
 }
