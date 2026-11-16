@@ -71293,9 +71293,6 @@ flags
 }
 if
 (
-isSpread
-&
-&
 argsLength
 (
 )
@@ -72614,9 +72611,6 @@ NoAction
 }
 if
 (
-isSpread
-&
-&
 argsLength
 (
 )
