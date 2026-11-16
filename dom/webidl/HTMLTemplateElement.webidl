@@ -206,17 +206,6 @@ shadowRootReferenceTarget
 ;
 [
 CEReactions
-Pref
-=
-"
-dom
-.
-shadowdom
-.
-shadowRootSlotAssignment
-.
-enabled
-"
 ]
 attribute
 DOMString

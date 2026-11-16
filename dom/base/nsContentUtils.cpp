@@ -60593,14 +60593,6 @@ shadowrootserializable
 }
 if
 (
-StaticPrefs
-:
-:
-dom_shadowdom_shadowRootSlotAssignment_enabled
-(
-)
-&
-&
 shadow
 -
 >

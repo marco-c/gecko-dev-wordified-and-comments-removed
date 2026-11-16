@@ -12199,17 +12199,6 @@ Named
 ;
 if
 (
-mozilla
-:
-:
-StaticPrefs
-:
-:
-dom_shadowdom_shadowRootSlotAssignment_enabled
-(
-)
-&
-&
 aShadowRootSlotAssignment
 .
 LowerCaseEqualsASCII
