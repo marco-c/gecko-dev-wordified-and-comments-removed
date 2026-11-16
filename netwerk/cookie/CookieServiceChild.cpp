@@ -2844,7 +2844,6 @@ windowGlobalChild
 {
 SendSetCookies
 (
-aBaseDomain
 aOriginAttributes
 aDocumentURI
 aThirdParty
@@ -2859,7 +2858,6 @@ windowGlobalChild
 >
 SendSetCookies
 (
-aBaseDomain
 aOriginAttributes
 aDocumentURI
 aThirdParty

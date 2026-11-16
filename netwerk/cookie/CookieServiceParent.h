@@ -389,10 +389,6 @@ IPCResult
 SetCookies
 (
 const
-nsCString
-&
-aBaseDomain
-const
 OriginAttributes
 &
 aOriginAttributes
@@ -438,10 +434,6 @@ ipc
 IPCResult
 RecvSetCookies
 (
-const
-nsCString
-&
-aBaseDomain
 const
 OriginAttributes
 &

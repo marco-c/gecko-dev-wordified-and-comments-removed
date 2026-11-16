@@ -232,8 +232,6 @@ inside_cpow
 async
 SetCookies
 (
-nsCString
-baseDomain
 OriginAttributes
 attrs
 nullable
