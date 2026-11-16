@@ -1092,7 +1092,7 @@ tools
 like
 diff
 and
-hg
+git
 .
 #
 #
