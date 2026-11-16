@@ -132,11 +132,6 @@ kMaxICCDuration
 extern
 const
 TimeDuration
-kMinSliceBudget
-;
-extern
-const
-TimeDuration
 kCCForced
 ;
 constexpr
