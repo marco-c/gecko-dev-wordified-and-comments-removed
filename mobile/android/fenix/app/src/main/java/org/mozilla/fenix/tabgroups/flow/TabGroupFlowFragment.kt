@@ -1183,6 +1183,12 @@ settings
 .
 shouldShowTabGroupsStrip
 )
+TabGroupFlowStorageMiddleware
+(
+requireComponents
+.
+tabDataCoordinator
+)
 )
 )
 }
