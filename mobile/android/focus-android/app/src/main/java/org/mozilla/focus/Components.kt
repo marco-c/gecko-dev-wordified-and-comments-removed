@@ -1782,6 +1782,7 @@ SearchFilterMiddleware
 )
 PromptMiddleware
 (
+applicationScope
 )
 AdsTelemetryMiddleware
 (

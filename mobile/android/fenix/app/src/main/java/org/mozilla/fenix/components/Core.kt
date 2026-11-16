@@ -1423,18 +1423,6 @@ fenix
 .
 home
 .
-blocklist
-.
-BlocklistHandler
-import
-org
-.
-mozilla
-.
-fenix
-.
-home
-.
 topsites
 .
 FenixDefaultTopSitesProvider
@@ -1498,16 +1486,6 @@ fenix
 perf
 .
 StrictModeManager
-import
-org
-.
-mozilla
-.
-fenix
-.
-perf
-.
-lazyMonitored
 import
 org
 .
@@ -1772,7 +1750,7 @@ engine
 :
 Engine
 by
-lazyMonitored
+lazy
 {
 val
 defaultSettings
@@ -2461,7 +2439,7 @@ client
 :
 Client
 by
-lazyMonitored
+lazy
 {
 GeckoViewFetchClient
 (
@@ -2474,7 +2452,7 @@ fileUploadsDirCleaner
 :
 FileUploadsDirCleaner
 by
-lazyMonitored
+lazy
 {
 FileUploadsDirCleaner
 (
@@ -2493,7 +2471,7 @@ geckoRuntime
 :
 GeckoRuntime
 by
-lazyMonitored
+lazy
 {
 GeckoProvider
 .
@@ -2513,7 +2491,7 @@ applicationScope
 val
 geckoSitePermissionsStorage
 by
-lazyMonitored
+lazy
 {
 GeckoSitePermissionsStorage
 (
@@ -2532,7 +2510,7 @@ sessionStorage
 :
 SessionStorage
 by
-lazyMonitored
+lazy
 {
 SessionStorage
 (
@@ -2548,7 +2526,7 @@ locationService
 :
 LocationService
 by
-lazyMonitored
+lazy
 {
 if
 (
@@ -2649,7 +2627,7 @@ entirely
 val
 serpTelemetryRepository
 by
-lazyMonitored
+lazy
 {
 SerpTelemetryRepository
 (
@@ -2686,7 +2664,7 @@ BrowserState
 val
 store
 by
-lazyMonitored
+lazy
 {
 val
 searchExtraParamsNimbus
@@ -2921,6 +2899,7 @@ notificationsDelegate
 )
 PromptMiddleware
 (
+applicationScope
 )
 AdsTelemetryMiddleware
 (
@@ -3373,7 +3352,7 @@ data
 val
 customTabsStore
 by
-lazyMonitored
+lazy
 {
 CustomTabsServiceStore
 (
@@ -3402,7 +3381,7 @@ fileSizeFormatter
 :
 FileSizeFormatter
 by
-lazyMonitored
+lazy
 {
 DefaultFileSizeFormatter
 (
@@ -3432,7 +3411,7 @@ dateTimeProvider
 :
 DateTimeProvider
 by
-lazyMonitored
+lazy
 {
 DefaultDateTimeProvider
 (
@@ -3459,7 +3438,7 @@ downloadEstimator
 :
 DownloadEstimator
 by
-lazyMonitored
+lazy
 {
 DownloadEstimator
 (
@@ -3492,7 +3471,7 @@ relationChecker
 :
 RelationChecker
 by
-lazyMonitored
+lazy
 {
 StatementRelationChecker
 (
@@ -3523,7 +3502,7 @@ historyMetadataService
 :
 HistoryMetadataService
 by
-lazyMonitored
+lazy
 {
 DefaultHistoryMetadataService
 (
@@ -3554,7 +3533,7 @@ protectionsStorage
 :
 ProtectionsStorage
 by
-lazyMonitored
+lazy
 {
 ProtectionsStorage
 (
@@ -3564,7 +3543,7 @@ context
 val
 merinoManifestProvider
 by
-lazyMonitored
+lazy
 {
 MerinoManifestProvider
 (
@@ -3591,7 +3570,7 @@ icons
 val
 icons
 by
-lazyMonitored
+lazy
 {
 BrowserIcons
 (
@@ -3609,7 +3588,7 @@ merinoManifestProvider
 val
 metrics
 by
-lazyMonitored
+lazy
 {
 context
 .
@@ -3622,7 +3601,7 @@ metrics
 val
 adsTelemetry
 by
-lazyMonitored
+lazy
 {
 AdsTelemetry
 (
@@ -3631,7 +3610,7 @@ AdsTelemetry
 val
 searchTelemetry
 by
-lazyMonitored
+lazy
 {
 InContentTelemetry
 (
@@ -3656,7 +3635,7 @@ screen
 val
 webAppShortcutManager
 by
-lazyMonitored
+lazy
 {
 WebAppShortcutManager
 (
@@ -3682,7 +3661,7 @@ feature
 val
 sentFromFirefoxManager
 by
-lazyMonitored
+lazy
 {
 with
 (
@@ -3817,7 +3796,7 @@ storage
 val
 lazyHistoryStorage
 =
-lazyMonitored
+lazy
 {
 PlacesHistoryStorage
 (
@@ -3828,7 +3807,7 @@ crashReporter
 val
 lazyBookmarksStorage
 =
-lazyMonitored
+lazy
 {
 PlacesBookmarksStorage
 (
@@ -3838,7 +3817,7 @@ context
 val
 lazyPasswordsStorage
 =
-lazyMonitored
+lazy
 {
 SyncableLoginsStorage
 (
@@ -3849,7 +3828,7 @@ lazySecurePrefs
 val
 lazyAutofillStorage
 =
-lazyMonitored
+lazy
 {
 AutofillCreditCardsAddressesStorage
 (
@@ -3860,7 +3839,7 @@ lazySecurePrefs
 val
 lazyDomainsAutocompleteProvider
 =
-lazyMonitored
+lazy
 {
 /
 /
@@ -3922,7 +3901,7 @@ context
 val
 lazySessionAutocompleteProvider
 =
-lazyMonitored
+lazy
 {
 SessionAutocompleteProvider
 (
@@ -3951,7 +3930,7 @@ account
 val
 lazyRemoteTabsStorage
 =
-lazyMonitored
+lazy
 {
 RemoteTabsStorage
 (
@@ -3962,7 +3941,7 @@ crashReporter
 val
 recentlyClosedTabsStorage
 =
-lazyMonitored
+lazy
 {
 RecentlyClosedTabsStorage
 (
@@ -4082,7 +4061,7 @@ value
 val
 tabCollectionStorage
 by
-lazyMonitored
+lazy
 {
 TabCollectionStorage
 (
@@ -4108,7 +4087,7 @@ tabs
 val
 thumbnailStorage
 by
-lazyMonitored
+lazy
 {
 ThumbnailStorage
 (
@@ -4118,7 +4097,7 @@ context
 val
 pinnedSiteStorage
 by
-lazyMonitored
+lazy
 {
 PinnedSiteStorage
 (
@@ -4146,7 +4125,7 @@ applications
 val
 defaultTopSitesProvider
 by
-lazyMonitored
+lazy
 {
 FenixDefaultTopSitesProvider
 (
@@ -4169,14 +4148,36 @@ analytics
 crashReporter
 blocklistHandler
 =
-BlocklistHandler
+context
+.
+components
+.
+blocklistHandler
+experiments
+=
+{
+buildSet
+{
+if
 (
 context
 .
 components
 .
 settings
+.
+enableRegionalDefaultShortcuts
 )
+{
+add
+(
+FenixDefaultTopSitesProvider
+.
+REGIONAL_DEFAULT_SHORTCUTS_EXPERIMENT
+)
+}
+}
+}
 )
 }
 Suppress
@@ -4188,7 +4189,7 @@ MagicNumber
 val
 pocketStoriesConfig
 by
-lazyMonitored
+lazy
 {
 PocketStoriesConfig
 (
@@ -4257,7 +4258,7 @@ count
 val
 pocketStoriesService
 by
-lazyMonitored
+lazy
 {
 PocketStoriesService
 (
@@ -4275,7 +4276,7 @@ crashReporter
 val
 macTopSitesProvider
 by
-lazyMonitored
+lazy
 {
 MacTopSitesProvider
 (
@@ -4314,7 +4315,7 @@ MagicNumber
 val
 macTopSitesUpdater
 by
-lazyMonitored
+lazy
 {
 MacTopSitesUpdater
 (
@@ -4338,7 +4339,7 @@ HOURS
 val
 topSitesStorage
 by
-lazyMonitored
+lazy
 {
 DefaultTopSitesStorage
 (
@@ -4351,12 +4352,15 @@ historyStorage
 topSitesProvider
 =
 macTopSitesProvider
+defaultTopSitesProvider
+=
+defaultTopSitesProvider
 )
 }
 val
 permissionStorage
 by
-lazyMonitored
+lazy
 {
 PermissionStorage
 (
@@ -4366,7 +4370,7 @@ context
 val
 webAppManifestStorage
 by
-lazyMonitored
+lazy
 {
 ManifestStorage
 (
@@ -4376,7 +4380,7 @@ context
 val
 loginExceptionStorage
 by
-lazyMonitored
+lazy
 {
 LoginExceptionStorage
 (
@@ -4388,7 +4392,7 @@ summarizationSettingsBinding
 :
 FenixSummarizationSettingsBinding
 by
-lazyMonitored
+lazy
 {
 FenixSummarizationSettingsBinding
 (
@@ -4440,7 +4444,7 @@ summarizeFeatureSettings
 :
 FenixSummarizationFeatureConfiguration
 by
-lazyMonitored
+lazy
 {
 FenixSummarizationFeatureConfiguration
 (
@@ -4459,7 +4463,7 @@ summarizationSettingsBinding
 val
 tabGroupRepository
 by
-lazyMonitored
+lazy
 {
 DefaultTabGroupRepository
 (
@@ -4479,7 +4483,7 @@ summarizationEligibilityChecker
 :
 SummarizationEligibilityChecker
 by
-lazyMonitored
+lazy
 {
 DefaultSummarizationEligibilityChecker
 (
@@ -4488,7 +4492,7 @@ DefaultSummarizationEligibilityChecker
 val
 longFoxFeature
 by
-lazyMonitored
+lazy
 {
 LongFoxFeature
 (
@@ -4621,7 +4625,7 @@ private
 val
 lazySecurePrefs
 =
-lazyMonitored
+lazy
 {
 getSecureAbove22Preferences
 (

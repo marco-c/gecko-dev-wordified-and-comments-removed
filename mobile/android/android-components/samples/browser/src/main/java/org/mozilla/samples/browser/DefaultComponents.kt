@@ -1543,6 +1543,7 @@ LastAccessMiddleware
 )
 PromptMiddleware
 (
+applicationScope
 )
 SessionPrioritizationMiddleware
 (
@@ -3086,7 +3087,9 @@ notificationManagerCompat
 }
 val
 addonUpdater
-=
+by
+lazy
+{
 DefaultAddonUpdater
 (
 applicationContext
@@ -3097,8 +3100,9 @@ TimeUnit
 .
 DAYS
 )
-notificationsDelegate
+store
 )
+}
 val
 fileSizeFormatter
 :
