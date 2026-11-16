@@ -1031,6 +1031,13 @@ only
 ]
 [
 "
+test_shutdown_flush_tab_crash
+.
+py
+"
+]
+[
+"
 test_shutdown_flush_timeout
 .
 py
