@@ -206,6 +206,14 @@ telemetryId
 sync
 "
 )
+SYNC_PAIRING
+(
+telemetryId
+=
+"
+sync_pairing
+"
+)
 TERMS_OF_SERVICE
 (
 telemetryId
