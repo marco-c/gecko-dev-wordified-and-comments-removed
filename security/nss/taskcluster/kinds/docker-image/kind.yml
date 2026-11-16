@@ -147,6 +147,17 @@ builds
 -
 legacy
 )
+android
+:
+symbol
+:
+I
+(
+android
+)
+parent
+:
+base
 acvp
 :
 symbol

@@ -268,7 +268,7 @@ digit
 text
 ;
 .
-align
+balign
 16
 ;
 .
@@ -1706,7 +1706,7 @@ digit
 text
 ;
 .
-align
+balign
 16
 ;
 .
