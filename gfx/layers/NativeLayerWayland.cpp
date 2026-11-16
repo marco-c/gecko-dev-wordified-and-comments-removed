@@ -6011,7 +6011,6 @@ SetHDRMetadata
 (
 params
 surfaceTransferFunction
-nullptr
 surface
 -
 >
