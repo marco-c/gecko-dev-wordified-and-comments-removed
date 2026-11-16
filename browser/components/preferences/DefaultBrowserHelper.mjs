@@ -686,6 +686,17 @@ hash
 #
 browserIcon
 "
+|
+|
+location
+.
+hash
+=
+=
+"
+#
+privacy
+"
 )
 &
 &
