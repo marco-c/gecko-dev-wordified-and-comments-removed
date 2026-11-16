@@ -987,6 +987,13 @@ HomeActivity
 )
 .
 browsingModeManager
+tabGroupFeatureConfiguration
+=
+components
+.
+core
+.
+tabGroupDiscoveryFeatureConfiguration
 )
 }
 }

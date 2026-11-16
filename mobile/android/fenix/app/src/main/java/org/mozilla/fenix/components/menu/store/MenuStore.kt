@@ -366,6 +366,10 @@ OnExtensionsMenuClicked
 is
 MenuAction
 .
+OnTabGroupMenuItemExposed
+is
+MenuAction
+.
 WebExtensionActionClicked
 -
 >

@@ -912,6 +912,15 @@ false
 hasViewedTabGroupsPage
 =
 false
+hasUserEverUsedTabGroupMenuItem
+=
+false
+tabGroupMenuImpressionCount
+=
+0
+tabGroupToolbarMenuHighlightImpressionCount
+=
+0
 )
 )
 }
