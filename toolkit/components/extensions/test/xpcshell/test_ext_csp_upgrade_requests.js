@@ -143,6 +143,15 @@ blocking
 await
 browser
 .
+webRequest
+.
+handlerBehaviorChanged
+(
+)
+;
+await
+browser
+.
 test
 .
 assertRejects
