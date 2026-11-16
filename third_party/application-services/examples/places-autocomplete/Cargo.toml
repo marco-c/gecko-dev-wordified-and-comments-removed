@@ -195,6 +195,17 @@ std
 "
 derive
 "
+"
+help
+"
+"
+usage
+"
+"
+error
+-
+context
+"
 ]
 }
 tempfile

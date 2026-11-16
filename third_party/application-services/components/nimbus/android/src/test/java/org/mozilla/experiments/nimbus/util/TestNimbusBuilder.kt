@@ -190,9 +190,6 @@ Nimbus
 context
 =
 context
-prefs
-=
-sharedPreferences
 appInfo
 =
 appInfo

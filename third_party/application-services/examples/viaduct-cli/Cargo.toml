@@ -132,6 +132,14 @@ derive
 "
 help
 "
+"
+usage
+"
+"
+error
+-
+context
+"
 ]
 }
 cli

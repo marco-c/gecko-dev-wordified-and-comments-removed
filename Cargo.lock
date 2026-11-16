@@ -30212,7 +30212,7 @@ version
 "
 0
 .
-1
+6
 .
 0
 "
@@ -30246,9 +30246,9 @@ icu_segmenter
 itertools
 0
 .
-15
+14
 .
-0
+999
 "
 "
 lazy_static
@@ -37734,6 +37734,16 @@ test
 firefox
 -
 versioning
+"
+"
+glean
+-
+build
+"
+"
+glean
+-
+sym
 "
 "
 jexl

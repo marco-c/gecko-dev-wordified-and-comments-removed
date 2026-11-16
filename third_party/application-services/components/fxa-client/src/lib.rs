@@ -58,7 +58,6 @@ auth
 {
 AuthorizationInfo
 FxaEvent
-FxaRustAuthState
 FxaState
 }
 ;

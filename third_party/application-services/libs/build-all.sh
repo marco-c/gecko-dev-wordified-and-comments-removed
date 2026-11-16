@@ -17,7 +17,7 @@ nss
 -
 3
 .
-125
+133
 "
 NSS_ARCHIVE
 =
@@ -26,7 +26,7 @@ nss
 -
 3
 .
-125
+133
 -
 with
 -
@@ -61,7 +61,7 @@ nss
 /
 releases
 /
-NSS_3_125_RTM
+NSS_3_133_RTM
 /
 src
 /
@@ -72,7 +72,7 @@ NSS_ARCHIVE
 NSS_SHA256
 =
 "
-fa3e7dcd151a7f3331a2dbf4cc57bcf4444e4c9c2b67ac00363409a7c4ecfa9d
+21a9fa95043631db5331ad9202d8c7e7475f7d8d94fdf92c01624563c88502b4
 "
 #
 End

@@ -70,6 +70,17 @@ std
 "
 derive
 "
+"
+help
+"
+"
+usage
+"
+"
+error
+-
+context
+"
 ]
 }
 log

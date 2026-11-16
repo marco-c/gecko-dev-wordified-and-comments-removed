@@ -686,10 +686,6 @@ Authenticating
 return
 to
 initial_state
-.
-into
-(
-)
 (
 not
 always
