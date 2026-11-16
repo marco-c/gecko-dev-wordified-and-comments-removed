@@ -241,10 +241,10 @@ CUSTOM_1_ERROR
 "
 custom_1_error
 "
-STALE_EXPECTED
+STALE_TIMESTAMP_ERROR
 :
 "
-stale_expected
+stale_timestamp_error
 "
 }
 ;
