@@ -8114,7 +8114,7 @@ tabCollectionStorage
 register
 (
 collectionStorageObserver
-this
+viewLifecycleOwner
 )
 }
 private
