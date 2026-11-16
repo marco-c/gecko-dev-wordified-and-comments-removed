@@ -62701,6 +62701,9 @@ context
 &
 mut
 attribute_tracker
+parser_context
+.
+url_data
 )
 ;
 let
@@ -63506,6 +63509,7 @@ as_str_unchecked
 }
 ;
 let
+mut
 parser_context
 =
 dummy_author_style_rule_context

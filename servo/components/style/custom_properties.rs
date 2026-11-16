@@ -3540,6 +3540,7 @@ substitution_functions
 stylist
 context
 attribute_tracker
+url_data
 )
 .
 substitute_variable_value
