@@ -158,6 +158,14 @@ removeTab
 tab
 )
 ;
+Services
+.
+cache2
+.
+clear
+(
+)
+;
 }
 )
 ;
