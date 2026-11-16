@@ -135,17 +135,6 @@ test
 /
 browser
 /
-smart_actions
-/
-browser
-.
-toml
-"
-"
-test
-/
-browser
-/
 tasks
 /
 browser
