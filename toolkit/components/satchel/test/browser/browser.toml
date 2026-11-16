@@ -55,6 +55,13 @@ browser_popup_mouseover
 js
 "
 ]
+[
+"
+browser_popup_secondary_action
+.
+js
+"
+]
 skip
 -
 if
