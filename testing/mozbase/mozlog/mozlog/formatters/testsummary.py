@@ -59,6 +59,7 @@ unexpected
       
 -
 crash
+asan_error
 tsan_error
 and
 ubsan_error
@@ -191,18 +192,22 @@ record
 except
 that
     
+asan_error
+and
 tsan_error
-keeps
+keep
 pid
 which
 names
 the
+crashing
+or
+    
 racing
 process
 rather
 than
 the
-    
 logging
 one
     
@@ -246,6 +251,10 @@ test_status
         
 "
 crash
+"
+        
+"
+asan_error
 "
         
 "
@@ -478,11 +487,15 @@ _ALWAYS_STRIP
         
 if
 action
-=
-=
+in
+(
+"
+asan_error
+"
 "
 tsan_error
 "
+)
 :
             
 strip

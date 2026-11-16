@@ -8,6 +8,13 @@ mozbase
 "
 [
 "
+test_asan
+.
+py
+"
+]
+[
+"
 test_lsan
 .
 py

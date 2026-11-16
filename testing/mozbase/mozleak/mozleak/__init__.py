@@ -19,6 +19,11 @@ files
 "
 from
 .
+asan
+import
+ASanErrorParser
+from
+.
 leaklog
 import
 process_leak_log
@@ -35,5 +40,8 @@ process_leak_log
 "
 "
 LSANLeaks
+"
+"
+ASanErrorParser
 "
 ]
