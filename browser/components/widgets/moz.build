@@ -87,13 +87,6 @@ MOZ_SRC_FILES
 =
 [
 "
-AuthenticationController
-.
-sys
-.
-mjs
-"
-"
 GeneratedWidgetsFeature
 .
 sys
