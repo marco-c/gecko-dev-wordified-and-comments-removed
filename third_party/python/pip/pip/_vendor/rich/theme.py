@@ -1,5 +1,3 @@
-import
-configparser
 from
 typing
 import
@@ -381,6 +379,9 @@ instance
 "
 "
 "
+        
+import
+configparser
         
 config
 =

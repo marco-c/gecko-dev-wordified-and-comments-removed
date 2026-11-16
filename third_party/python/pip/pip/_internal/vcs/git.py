@@ -16,10 +16,6 @@ import
 urllib
 .
 parse
-import
-urllib
-.
-request
 from
 dataclasses
 import
@@ -49,6 +45,7 @@ import
 HiddenText
 display_path
 hide_url
+strtobool
 from
 pip
 .
@@ -1662,6 +1659,26 @@ get_git_version
 2
 17
 )
+and
+not
+strtobool
+(
+            
+os
+.
+environ
+.
+get
+(
+"
+PIP_NO_PARTIAL_CLONE_FOR_BROKEN_GIT_SERVER
+"
+"
+no
+"
+)
+        
+)
 :
             
 self
@@ -2562,7 +2579,7 @@ url
 return
 pathlib
 .
-PurePath
+Path
 (
 url
 )
@@ -2675,12 +2692,14 @@ q
 -
 verify
 "
-"
-sha
-^
-"
-+
 rev
++
+"
+^
+{
+commit
+}
+"
 ]
                 
 cwd
@@ -3028,6 +3047,11 @@ stub
 "
 "
 "
+        
+import
+urllib
+.
+request
         
 scheme
 netloc

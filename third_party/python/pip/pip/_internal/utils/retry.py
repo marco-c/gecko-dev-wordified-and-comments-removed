@@ -5,6 +5,12 @@ annotations
 import
 functools
 from
+collections
+.
+abc
+import
+Callable
+from
 time
 import
 perf_counter
@@ -13,7 +19,6 @@ from
 typing
 import
 TYPE_CHECKING
-Callable
 TypeVar
 if
 TYPE_CHECKING

@@ -5,10 +5,6 @@ Any
 cast
 Set
 TYPE_CHECKING
-from
-inspect
-import
-isclass
 if
 TYPE_CHECKING
 :
@@ -181,9 +177,10 @@ __rich__
 )
 and
 not
-isclass
+isinstance
 (
 renderable
+type
 )
 :
         

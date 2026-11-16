@@ -1,8 +1,9 @@
 from
-typing
+collections
+.
+abc
 import
 Callable
-Optional
 from
 pip
 .
@@ -30,10 +31,9 @@ Callable
     
 [
 str
-Optional
-[
 InstallRequirement
-]
+|
+None
 ]
 InstallRequirement
 ]

@@ -53,6 +53,7 @@ _internal
 build_env
 import
 BuildEnvironmentInstaller
+BuildIsolationMode
 class
 WheelDistribution
 (
@@ -215,9 +216,13 @@ BuildEnvironmentInstaller
         
 build_isolation
 :
-bool
+BuildIsolationMode
         
 check_build_deps
+:
+bool
+        
+allow_editables
 :
 bool
     

@@ -100,7 +100,7 @@ ireq
 .
 download_info
 .
-to_dict
+to_dict_compat
 (
 )
             

@@ -12,7 +12,6 @@ collections
 abc
 import
 Generator
-Sequence
 from
 dataclasses
 import
@@ -160,13 +159,6 @@ list
 InstallRequirement
 ]
     
-global_options
-:
-Sequence
-[
-str
-]
-    
 root
 :
 str
@@ -200,6 +192,14 @@ bool
 progress_bar
 :
 BarType
+    
+script_executable
+:
+str
+|
+None
+=
+None
 )
 -
 >
@@ -420,8 +420,6 @@ requirement
 install
 (
                     
-global_options
-                    
 root
 =
 root
@@ -445,6 +443,23 @@ use_user_site
 pycompile
 =
 pycompile
+                    
+script_executable
+=
+script_executable
+                    
+rollback_on_error
+=
+bool
+(
+                        
+uninstalled_pathset
+and
+uninstalled_pathset
+.
+can_rollback
+                    
+)
                 
 )
             

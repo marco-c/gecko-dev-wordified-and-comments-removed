@@ -50,6 +50,10 @@ imports
 "
 "
 "
+from
+__future__
+import
+annotations
 import
 calendar
 import
@@ -57,31 +61,62 @@ copy
 import
 time
 from
+collections
+.
+abc
+import
+Iterator
+MutableMapping
+from
+http
+.
+cookiejar
+import
+Cookie
+CookieJar
+CookiePolicy
+from
+typing
+import
+TYPE_CHECKING
+Any
+TypeVar
+overload
+from
 .
 _internal_utils
 import
 to_native_string
 from
 .
+_types
+import
+is_prepared
+as
+_is_prepared
+from
+.
 compat
 import
 Morsel
-MutableMapping
 cookielib
 urlparse
 urlunparse
-try
+if
+TYPE_CHECKING
 :
     
+from
+_typeshed
 import
-threading
-except
-ImportError
-:
+SupportsKeysAndGetItem
     
+from
+.
+models
 import
-dummy_threading
-as
+PreparedRequest
+import
 threading
 class
 MockRequest
@@ -94,7 +129,7 @@ Wraps
 a
 requests
 .
-Request
+PreparedRequest
 to
 mimic
 a
@@ -186,13 +221,28 @@ below
 "
 "
     
+type
+:
+str
+    
 def
 __init__
 (
 self
 request
-)
 :
+PreparedRequest
+)
+-
+>
+None
+:
+        
+assert
+_is_prepared
+(
+request
+)
         
 self
 .
@@ -203,6 +253,12 @@ request
 self
 .
 _new_headers
+:
+dict
+[
+str
+str
+]
 =
 {
 }
@@ -227,6 +283,9 @@ get_type
 (
 self
 )
+-
+>
+str
 :
         
 return
@@ -239,6 +298,9 @@ get_host
 (
 self
 )
+-
+>
+str
 :
         
 return
@@ -258,6 +320,9 @@ get_origin_req_host
 (
 self
 )
+-
+>
+str
 :
         
 return
@@ -272,6 +337,9 @@ get_full_url
 (
 self
 )
+-
+>
+str
 :
         
 if
@@ -368,6 +436,9 @@ is_unverifiable
 (
 self
 )
+-
+>
+bool
 :
         
 return
@@ -378,7 +449,12 @@ has_header
 (
 self
 name
+:
+str
 )
+-
+>
+bool
 :
         
 return
@@ -401,10 +477,21 @@ get_header
 (
 self
 name
+:
+str
 default
+:
+str
+|
+None
 =
 None
 )
+-
+>
+str
+|
+None
 :
         
 return
@@ -433,8 +520,15 @@ add_header
 (
 self
 key
+:
+str
 val
+:
+str
 )
+-
+>
+None
 :
         
 "
@@ -484,8 +578,15 @@ add_unredirected_header
 (
 self
 name
+:
+str
 value
+:
+str
 )
+-
+>
+None
 :
         
 self
@@ -502,6 +603,13 @@ get_new_headers
 (
 self
 )
+-
+>
+dict
+[
+str
+str
+]
 :
         
 return
@@ -516,6 +624,9 @@ unverifiable
 (
 self
 )
+-
+>
+bool
 :
         
 return
@@ -532,6 +643,9 @@ origin_req_host
 (
 self
 )
+-
+>
+str
 :
         
 return
@@ -548,6 +662,9 @@ host
 (
 self
 )
+-
+>
+str
 :
         
 return
@@ -612,7 +729,12 @@ __init__
 (
 self
 headers
+:
+Any
 )
+-
+>
+None
 :
         
 "
@@ -656,6 +778,9 @@ info
 (
 self
 )
+-
+>
+Any
 :
         
 return
@@ -668,7 +793,12 @@ getheaders
 (
 self
 name
+:
+str
 )
+-
+>
+Any
 :
         
 self
@@ -682,10 +812,20 @@ name
 def
 extract_cookies_to_jar
 (
+    
 jar
+:
+CookieJar
 request
+:
+PreparedRequest
 response
+:
+Any
 )
+-
+>
+None
 :
     
 "
@@ -790,8 +930,17 @@ def
 get_cookie_header
 (
 jar
+:
+CookieJar
 request
+:
+PreparedRequest
 )
+-
+>
+str
+|
+None
 :
     
 "
@@ -852,15 +1001,31 @@ Cookie
 def
 remove_cookie_by_name
 (
+    
 cookiejar
+:
+CookieJar
 name
+:
+str
 domain
+:
+str
+|
+None
 =
 None
 path
+:
+str
+|
+None
 =
 None
 )
+-
+>
+None
 :
     
 "
@@ -898,6 +1063,16 @@ n
 "
     
 clearables
+:
+list
+[
+tuple
+[
+str
+str
+str
+]
+]
 =
 [
 ]
@@ -1035,10 +1210,14 @@ specific
 class
 RequestsCookieJar
 (
-cookielib
-.
 CookieJar
 MutableMapping
+[
+str
+str
+|
+None
+]
 )
 :
     
@@ -1184,21 +1363,50 @@ n
 "
 "
     
+_policy
+:
+CookiePolicy
+    
 def
 get
 (
+        
 self
+        
 name
+:
+str
+        
 default
+:
+str
+|
+None
 =
 None
+        
 domain
+:
+str
+|
+None
 =
 None
+        
 path
+:
+str
+|
+None
 =
 None
+    
 )
+-
+>
+str
+|
+None
 :
         
 "
@@ -1281,13 +1489,37 @@ default
 def
 set
 (
+        
 self
 name
+:
+str
 value
+:
+str
+|
+Morsel
+[
+dict
+[
+str
+str
+]
+]
+|
+None
 *
 *
 kwargs
+:
+Any
+    
 )
+-
+>
+Cookie
+|
+None
 :
         
 "
@@ -1409,6 +1641,12 @@ iterkeys
 (
 self
 )
+-
+>
+Iterator
+[
+str
+]
 :
         
 "
@@ -1471,6 +1709,12 @@ keys
 (
 self
 )
+-
+>
+list
+[
+str
+]
 :
         
 "
@@ -1529,6 +1773,14 @@ itervalues
 (
 self
 )
+-
+>
+Iterator
+[
+str
+|
+None
+]
 :
         
 "
@@ -1591,6 +1843,14 @@ values
 (
 self
 )
+-
+>
+list
+[
+str
+|
+None
+]
 :
         
 "
@@ -1649,6 +1909,18 @@ iteritems
 (
 self
 )
+-
+>
+Iterator
+[
+tuple
+[
+str
+str
+|
+None
+]
+]
 :
         
 "
@@ -1715,6 +1987,18 @@ items
 (
 self
 )
+-
+>
+list
+[
+tuple
+[
+str
+str
+|
+None
+]
+]
 :
         
 "
@@ -1796,6 +2080,12 @@ list_domains
 (
 self
 )
+-
+>
+list
+[
+str
+]
 :
         
 "
@@ -1817,6 +2107,11 @@ jar
 "
         
 domains
+:
+list
+[
+str
+]
 =
 [
 ]
@@ -1856,6 +2151,12 @@ list_paths
 (
 self
 )
+-
+>
+list
+[
+str
+]
 :
         
 "
@@ -1877,6 +2178,11 @@ jar
 "
         
 paths
+:
+list
+[
+str
+]
 =
 [
 ]
@@ -1916,6 +2222,9 @@ multiple_domains
 (
 self
 )
+-
+>
+bool
 :
         
 "
@@ -1948,6 +2257,11 @@ bool
 "
         
 domains
+:
+list
+[
+str
+]
 =
 [
 ]
@@ -1994,14 +2308,33 @@ False
 def
 get_dict
 (
+        
 self
 domain
+:
+str
+|
+None
 =
 None
 path
+:
+str
+|
+None
 =
 None
+    
 )
+-
+>
+dict
+[
+str
+str
+|
+None
+]
 :
         
 "
@@ -2048,6 +2381,14 @@ dict
 "
         
 dictionary
+:
+dict
+[
+str
+str
+|
+None
+]
 =
 {
 }
@@ -2106,11 +2447,55 @@ return
 dictionary
     
 def
+__iter__
+(
+self
+)
+-
+>
+Iterator
+[
+Cookie
+]
+:
+        
+"
+"
+"
+RequestCookieJar
+'
+s
+__iter__
+comes
+from
+CookieJar
+not
+MutableMapping
+.
+"
+"
+"
+        
+return
+super
+(
+)
+.
+__iter__
+(
+)
+    
+def
 __contains__
 (
 self
 name
+:
+object
 )
+-
+>
+bool
 :
         
 try
@@ -2138,7 +2523,14 @@ __getitem__
 (
 self
 name
+:
+str
 )
+-
+>
+str
+|
+None
 :
         
 "
@@ -2217,10 +2609,30 @@ name
 def
 __setitem__
 (
+        
 self
 name
+:
+str
 value
+:
+str
+|
+Morsel
+[
+dict
+[
+str
+str
+]
+]
+|
+None
+    
 )
+-
+>
+None
 :
         
 "
@@ -2284,7 +2696,12 @@ __delitem__
 (
 self
 name
+:
+str
 )
+-
+>
+None
 :
         
 "
@@ -2326,30 +2743,39 @@ set_cookie
 (
 self
 cookie
+:
+Cookie
 *
 args
+:
+Any
 *
 *
 kwargs
+:
+Any
 )
+-
+>
+None
 :
         
 if
 (
             
-hasattr
 (
+value
+:
+=
 cookie
 .
 value
-"
-startswith
-"
 )
+is
+not
+None
             
 and
-cookie
-.
 value
 .
 startswith
@@ -2360,8 +2786,6 @@ startswith
 )
             
 and
-cookie
-.
 value
 .
 endswith
@@ -2378,8 +2802,6 @@ cookie
 .
 value
 =
-cookie
-.
 value
 .
 replace
@@ -2411,9 +2833,22 @@ kwargs
 def
 update
 (
+        
 self
 other
+:
+CookieJar
+|
+SupportsKeysAndGetItem
+[
+str
+str
+]
+    
 )
+-
+>
+None
 :
         
 "
@@ -2478,15 +2913,32 @@ other
 def
 _find
 (
+        
 self
 name
+:
+str
 domain
+:
+str
+|
+None
 =
 None
 path
+:
+str
+|
+None
 =
 None
+    
 )
+-
+>
+str
+|
+None
 :
         
 "
@@ -2659,15 +3111,30 @@ r
 def
 _find_no_duplicates
 (
+        
 self
 name
+:
+str
 domain
+:
+str
+|
+None
 =
 None
 path
+:
+str
+|
+None
 =
 None
+    
 )
+-
+>
+str
 :
         
 "
@@ -2853,6 +3320,9 @@ value
         
 if
 toReturn
+is
+not
+None
 :
             
 return
@@ -2892,6 +3362,13 @@ __getstate__
 (
 self
 )
+-
+>
+dict
+[
+str
+Any
+]
 :
         
 "
@@ -2937,7 +3414,16 @@ __setstate__
 (
 self
 state
+:
+dict
+[
+str
+Any
+]
 )
+-
+>
+None
 :
         
 "
@@ -2991,6 +3477,9 @@ copy
 (
 self
 )
+-
+>
+RequestsCookieJar
 :
         
 "
@@ -3039,6 +3528,9 @@ get_policy
 (
 self
 )
+-
+>
+CookiePolicy
 :
         
 "
@@ -3062,7 +3554,16 @@ def
 _copy_cookie_jar
 (
 jar
+:
+CookieJar
+|
+None
 )
+-
+>
+CookieJar
+|
+None
 :
     
 if
@@ -3075,19 +3576,21 @@ return
 None
     
 if
-hasattr
+copy_method
+:
+=
+getattr
 (
 jar
 "
 copy
 "
+None
 )
 :
         
 return
-jar
-.
-copy
+copy_method
 (
 )
     
@@ -3130,11 +3633,20 @@ def
 create_cookie
 (
 name
+:
+str
 value
+:
+str
 *
 *
 kwargs
+:
+Any
 )
+-
+>
+Cookie
 :
     
 "
@@ -3187,6 +3699,12 @@ supercookie
 "
     
 result
+:
+dict
+[
+str
+Any
+]
 =
 {
         
@@ -3411,7 +3929,15 @@ def
 morsel_to_cookie
 (
 morsel
+:
+Morsel
+[
+Any
+]
 )
+-
+>
+Cookie
 :
     
 "
@@ -3437,6 +3963,10 @@ pair
 "
     
 expires
+:
+int
+|
+None
 =
 None
     
@@ -3669,17 +4199,114 @@ or
 0
     
 )
+_CookieJarT
+=
+TypeVar
+(
+"
+_CookieJarT
+"
+bound
+=
+CookieJar
+)
+overload
 def
 cookiejar_from_dict
 (
+    
 cookie_dict
+:
+dict
+[
+str
+str
+]
+|
+None
+    
 cookiejar
+:
+None
 =
 None
+    
 overwrite
+:
+bool
 =
 True
 )
+-
+>
+RequestsCookieJar
+:
+.
+.
+.
+overload
+def
+cookiejar_from_dict
+(
+    
+cookie_dict
+:
+dict
+[
+str
+str
+]
+|
+None
+    
+cookiejar
+:
+_CookieJarT
+    
+overwrite
+:
+bool
+=
+True
+)
+-
+>
+_CookieJarT
+:
+.
+.
+.
+def
+cookiejar_from_dict
+(
+    
+cookie_dict
+:
+dict
+[
+str
+str
+]
+|
+None
+    
+cookiejar
+:
+CookieJar
+|
+None
+=
+None
+    
+overwrite
+:
+bool
+=
+True
+)
+-
+>
+CookieJar
 :
     
 "
@@ -3826,9 +4453,25 @@ cookiejar
 def
 merge_cookies
 (
+    
 cookiejar
+:
+CookieJar
 cookies
+:
+dict
+[
+str
+str
+]
+|
+CookieJar
+|
+None
 )
+-
+>
+CookieJar
 :
     
 "
@@ -3935,18 +4578,26 @@ CookieJar
 )
 :
         
-try
+if
+update_method
+:
+=
+getattr
+(
+cookiejar
+"
+update
+"
+None
+)
 :
             
-cookiejar
-.
-update
+update_method
 (
 cookies
 )
         
-except
-AttributeError
+else
 :
             
 for

@@ -72,6 +72,9 @@ dataclass
 frozen
 =
 True
+slots
+=
+True
 )
 class
 Scheme
@@ -104,10 +107,6 @@ package
 "
 "
 "
-    
-__slots__
-=
-SCHEME_KEYS
     
 platlib
 :
