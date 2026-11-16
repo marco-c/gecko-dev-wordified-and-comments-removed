@@ -45740,7 +45740,7 @@ NameOpEmitter
 Kind
 :
 :
-SimpleAssignment
+Initialize
 )
 ;
 MOZ_ASSERT
