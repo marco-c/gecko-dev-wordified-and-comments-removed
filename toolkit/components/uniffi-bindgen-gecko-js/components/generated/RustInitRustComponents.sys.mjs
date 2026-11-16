@@ -209,7 +209,7 @@ UniFFIScaffolding
 .
 callSync
 (
-23
+65
 /
 /
 uniffi_init_rust_components_fn_func_initialize
@@ -300,7 +300,7 @@ UniFFIScaffolding
 .
 callSync
 (
-24
+66
 /
 /
 uniffi_init_rust_components_fn_func_initialize_glean

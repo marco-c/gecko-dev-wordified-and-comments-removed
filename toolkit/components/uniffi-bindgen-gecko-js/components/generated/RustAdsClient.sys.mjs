@@ -17109,7 +17109,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-40
+82
 /
 /
 uniffi_ads_client_fn_method_mozadsclient_clear_cache
@@ -17203,7 +17203,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-41
+83
 /
 /
 uniffi_ads_client_fn_method_mozadsclient_record_click
@@ -17309,7 +17309,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-42
+84
 /
 /
 uniffi_ads_client_fn_method_mozadsclient_record_impression
@@ -17430,7 +17430,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-43
+85
 /
 /
 uniffi_ads_client_fn_method_mozadsclient_report_ad
@@ -17564,7 +17564,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-44
+86
 /
 /
 uniffi_ads_client_fn_method_mozadsclient_request_image_ads
@@ -17693,7 +17693,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-45
+87
 /
 /
 uniffi_ads_client_fn_method_mozadsclient_request_spoc_ads
@@ -17833,7 +17833,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-46
+88
 /
 /
 uniffi_ads_client_fn_method_mozadsclient_request_spoc_or_image_ads
@@ -17963,7 +17963,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-47
+89
 /
 /
 uniffi_ads_client_fn_method_mozadsclient_request_tile_ads
@@ -18082,7 +18082,7 @@ UniFFIScaffolding
 .
 callAsyncWrapper
 (
-48
+90
 /
 /
 uniffi_ads_client_fn_method_mozadsclient_shutdown
@@ -19236,7 +19236,7 @@ UniFFIScaffolding
 .
 callSync
 (
-49
+91
 /
 /
 uniffi_ads_client_fn_constructor_mozadsclientbuilder_new
@@ -19303,7 +19303,7 @@ UniFFIScaffolding
 .
 callSync
 (
-50
+92
 /
 /
 uniffi_ads_client_fn_method_mozadsclientbuilder_build
@@ -19380,7 +19380,7 @@ UniFFIScaffolding
 .
 callSync
 (
-51
+93
 /
 /
 uniffi_ads_client_fn_method_mozadsclientbuilder_cache_config
@@ -19464,7 +19464,7 @@ UniFFIScaffolding
 .
 callSync
 (
-52
+94
 /
 /
 uniffi_ads_client_fn_method_mozadsclientbuilder_environment
@@ -19551,7 +19551,7 @@ UniFFIScaffolding
 .
 callSync
 (
-53
+95
 /
 /
 uniffi_ads_client_fn_method_mozadsclientbuilder_telemetry
@@ -19648,7 +19648,7 @@ UniFFIScaffolding
 .
 callSync
 (
-54
+96
 /
 /
 uniffi_ads_client_fn_method_mozadsclientbuilder_user_agent
