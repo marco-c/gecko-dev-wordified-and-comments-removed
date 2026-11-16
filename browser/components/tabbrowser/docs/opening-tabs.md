@@ -570,6 +570,12 @@ and
 params
 .
 height
+optionally
+centered
+with
+params
+.
+shouldCenter
 |
 |
 "
