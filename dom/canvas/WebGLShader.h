@@ -122,6 +122,12 @@ NumAttributes
 )
 const
 ;
+size_t
+CalculateAttributeMaxLocationIndex
+(
+)
+const
+;
 const
 auto
 &
