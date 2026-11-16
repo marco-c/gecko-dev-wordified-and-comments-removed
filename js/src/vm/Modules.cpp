@@ -5230,7 +5230,7 @@ lookup
 moduleRequest
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 record
 )

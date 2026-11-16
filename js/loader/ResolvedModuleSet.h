@@ -25,14 +25,14 @@ h
 #
 include
 "
-nsIURI
+nsCOMPtr
 .
 h
 "
 #
 include
 "
-nsCOMPtr
+nsIURI
 .
 h
 "
