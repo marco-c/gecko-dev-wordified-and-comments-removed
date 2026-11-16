@@ -1166,6 +1166,9 @@ updates
 "
 support
 "
+"
+newsletter
+"
 ]
 module
 :

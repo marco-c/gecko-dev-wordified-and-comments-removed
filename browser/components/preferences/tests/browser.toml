@@ -385,6 +385,13 @@ js
 ]
 [
 "
+browser_newsletter_signup
+.
+js
+"
+]
+[
+"
 browser_no_id_collision_between_categories_and_mainPane
 .
 js
