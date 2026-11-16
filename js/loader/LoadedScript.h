@@ -3065,7 +3065,7 @@ mFetchInfo
 ;
 }
 void
-ResetPreload
+ResetPreloadErrors
 (
 )
 ;
