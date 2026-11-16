@@ -1300,17 +1300,6 @@ browser_bug1716290
 js
 "
 ]
-skip
--
-if
-=
-[
-"
-verify
--
-standalone
-"
-]
 [
 "
 browser_bug1716290
