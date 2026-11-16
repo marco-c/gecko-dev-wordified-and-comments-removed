@@ -2228,6 +2228,9 @@ u32
 pmtud_enabled
 :
 bool
+pacing_enabled
+:
+bool
 socket
 :
 Option
@@ -3043,6 +3046,11 @@ false
 pmtud
 (
 pmtud_enabled
+)
+.
+pacing
+(
+pacing_enabled
 )
 .
 spurious_recovery
@@ -7118,6 +7126,7 @@ qlog_dir
 idle_timeout
 fast_pto
 pmtud_enabled
+true
 Some
 (
 socket
@@ -7207,6 +7216,9 @@ u32
 fast_pto
 :
 u32
+pacing_enabled
+:
+bool
 result
 :
 &
@@ -7249,6 +7261,7 @@ qlog_dir
 idle_timeout
 fast_pto
 false
+pacing_enabled
 None
 )
 {

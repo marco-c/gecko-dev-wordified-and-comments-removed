@@ -960,6 +960,12 @@ network_trr_fast_pto_for_http3_conn
 :
 0
 ;
+bool
+pacingEnabled
+=
+!
+aIsTunnel
+;
 nsresult
 rv
 ;
@@ -1028,6 +1034,7 @@ Http3QlogDir
 )
 idleTimeout
 fastPto
+pacingEnabled
 getter_AddRefs
 (
 mHttp3Connection

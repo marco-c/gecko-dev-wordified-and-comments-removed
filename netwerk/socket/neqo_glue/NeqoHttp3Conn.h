@@ -83,6 +83,8 @@ uint32_t
 aIdleTimeout
 uint32_t
 aFastPto
+bool
+aPacingEnabled
 NeqoHttp3Conn
 *
 *
@@ -110,6 +112,7 @@ aWebTransport
 aQlogDir
 aIdleTimeout
 aFastPto
+aPacingEnabled
 (
 const
 mozilla
