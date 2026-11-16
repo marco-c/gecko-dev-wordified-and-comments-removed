@@ -191,13 +191,13 @@ browser
 /
 urlbar
 /
-UrlbarChildTelemetry
+UrlbarChildSession
 .
 mjs
 (
 content
 /
-UrlbarChildTelemetry
+UrlbarChildSession
 .
 mjs
 )

@@ -46,7 +46,7 @@ sys
 .
 mjs
 "
-TelemetryEvent
+UrlbarSession
 :
 "
 moz
@@ -258,7 +258,7 @@ stub
 (
 lazy
 .
-TelemetryEvent
+UrlbarSession
 .
 prototype
 "

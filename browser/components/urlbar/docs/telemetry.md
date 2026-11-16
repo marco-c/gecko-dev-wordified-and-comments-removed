@@ -5669,7 +5669,7 @@ records
 its
 engagement
 because
-UrlbarChildTelemetry
+UrlbarChildSession
 .
 record
 (

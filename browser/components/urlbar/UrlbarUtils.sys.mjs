@@ -12914,7 +12914,7 @@ selected
 result
 .
 See
-TelemetryEvent
+UrlbarSession
 .
 record
 (

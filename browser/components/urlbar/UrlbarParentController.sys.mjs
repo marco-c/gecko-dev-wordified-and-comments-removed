@@ -80,7 +80,7 @@ mjs
 import
 {
 claimBounceForLoad
-TelemetryEvent
+UrlbarSession
 }
 from
 "
@@ -1407,7 +1407,7 @@ this
 engagementEvent
 =
 new
-TelemetryEvent
+UrlbarSession
 (
 this
 )

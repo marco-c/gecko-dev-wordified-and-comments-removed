@@ -8204,7 +8204,7 @@ content
 /
 urlbar
 /
-UrlbarChildTelemetry
+UrlbarChildSession
 .
 mjs
 "
@@ -8228,7 +8228,7 @@ urlbar
 /
 content
 /
-UrlbarChildTelemetry
+UrlbarChildSession
 .
 mjs
 "
