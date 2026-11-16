@@ -47,6 +47,9 @@ features
 "
 js
 "
+"
+jssources
+"
 ]
 }
 )
@@ -558,6 +561,9 @@ features
 "
 tracing
 "
+"
+jssources
+"
 ]
 }
 )
@@ -804,6 +810,9 @@ features
 [
 "
 js
+"
+"
+jssources
 "
 ]
 }
