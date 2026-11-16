@@ -929,6 +929,15 @@ if
 sync
 )
 {
+gl
+(
+)
+-
+>
+fFlush
+(
+)
+;
 int
 fenceFd
 =
