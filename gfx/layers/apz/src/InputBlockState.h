@@ -1772,6 +1772,12 @@ aPreventDefault
 )
 override
 ;
+bool
+TimeoutContentResponse
+(
+)
+override
+;
 private
 :
 void
