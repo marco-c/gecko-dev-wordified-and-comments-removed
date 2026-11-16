@@ -17191,7 +17191,7 @@ WHERE
 b
 .
 guid
-LIKE
+GLOB
 :
 guidPrefix
 ORDER
@@ -17208,7 +17208,7 @@ info
 guidPrefix
 +
 "
-%
+*
 "
 }
 )
