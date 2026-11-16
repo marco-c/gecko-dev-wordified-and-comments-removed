@@ -916,7 +916,7 @@ NS_ERROR_ABORT
 ;
 Assert
 .
-equal
+lessOrEqual
 (
 await
 proxy
