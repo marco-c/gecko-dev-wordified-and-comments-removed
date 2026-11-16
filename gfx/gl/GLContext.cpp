@@ -4795,6 +4795,9 @@ Inc
 ARM
 "
 "
+AMD
+"
+"
 Unknown
 "
 }
@@ -4975,12 +4978,6 @@ Driver
 "
 Samsung
 Xclipse
-"
-"
-AMD
-Radeon
-HD
-GFX10
 "
 "
 Unknown

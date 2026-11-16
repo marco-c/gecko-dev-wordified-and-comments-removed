@@ -442,7 +442,6 @@ AndroidEmulator
 GalliumLlvmpipe
 MicrosoftBasicRenderDriver
 SamsungXclipse
-RadeonGFX10
 Other
 }
 ;

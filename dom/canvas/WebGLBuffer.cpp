@@ -972,7 +972,7 @@ IsMetalANGLE
 gl
 -
 >
-Renderer
+Vendor
 (
 )
 =
@@ -980,10 +980,10 @@ Renderer
 gl
 :
 :
-GLRenderer
+GLVendor
 :
 :
-RadeonGFX10
+AMD
 )
 )
 {
