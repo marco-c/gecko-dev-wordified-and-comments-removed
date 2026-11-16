@@ -435,6 +435,17 @@ aGuid
 )
 {
 }
+virtual
+void
+NotifyTouchSwipableDirections
+(
+uint64_t
+aInputBlockId
+SideBits
+aSwipableDirections
+)
+{
+}
 GeckoContentController
 (
 )

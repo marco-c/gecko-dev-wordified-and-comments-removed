@@ -26,6 +26,13 @@ h
 #
 include
 "
+InputBlockState
+.
+h
+"
+#
+include
+"
 InputData
 .
 h
@@ -296,8 +303,13 @@ InputQueue
 )
 public
 :
+explicit
 InputQueue
 (
+TouchSwipableDirectionsCallback
+&
+&
+aTouchSwipableDirectionsCallback
 )
 ;
 APZEventResult
@@ -867,6 +879,9 @@ InputBlockCallback
 ;
 InputBlockCallbackMap
 mInputBlockCallbacks
+;
+TouchSwipableDirectionsCallback
+mTouchSwipableDirectionsCallback
 ;
 }
 ;
