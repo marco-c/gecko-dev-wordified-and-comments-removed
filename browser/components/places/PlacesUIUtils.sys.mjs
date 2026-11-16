@@ -5590,16 +5590,6 @@ if
 this
 .
 loadUILinkInTab
-&
-&
-lazy
-.
-PlacesUtils
-.
-nodeIsBookmark
-(
-aNode
-)
 )
 {
 if

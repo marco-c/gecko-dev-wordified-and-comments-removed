@@ -857,6 +857,13 @@ js
 ]
 [
 "
+browser_library_open
+.
+js
+"
+]
+[
+"
 browser_library_open_all
 .
 js
@@ -865,13 +872,6 @@ js
 [
 "
 browser_library_open_all_with_separator
-.
-js
-"
-]
-[
-"
-browser_library_open_bookmark
 .
 js
 "
