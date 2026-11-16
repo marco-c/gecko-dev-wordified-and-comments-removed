@@ -1809,7 +1809,6 @@ trackingprotection
 .
 enabled
 "
-nullptr
 }
 ;
 static
@@ -1851,7 +1850,6 @@ font
 visibility
 .
 "
-nullptr
 }
 ;
 void
@@ -12388,7 +12386,7 @@ nsIFrame
 nsPresContext
 :
 :
-GetPrimaryFrameFor
+GetPrimaryOrAreaImageFrameFor
 (
 nsIContent
 *
@@ -12433,11 +12431,12 @@ GetComposedDoc
 )
 {
 return
-aContent
--
->
-GetPrimaryFrame
+nsLayoutUtils
+:
+:
+GetPrimaryOrAreaImageFrame
 (
+aContent
 )
 ;
 }

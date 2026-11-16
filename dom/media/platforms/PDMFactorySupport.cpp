@@ -209,7 +209,6 @@ decoder
 .
 preferred
 "
-nullptr
 }
 ;
 #
@@ -251,7 +250,6 @@ engine
 .
 enabled
 "
-nullptr
 }
 ;
 #
@@ -277,7 +275,6 @@ applemedia
 .
 enabled
 "
-nullptr
 }
 ;
 #
@@ -318,7 +315,6 @@ codec
 .
 enabled
 "
-nullptr
 }
 ;
 #
@@ -368,7 +364,6 @@ system
 -
 ffmpeg
 "
-nullptr
 }
 ;
 #

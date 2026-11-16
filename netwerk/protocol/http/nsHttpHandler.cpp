@@ -1885,7 +1885,6 @@ jxl
 .
 enabled
 "
-nullptr
 }
 ;
 nsresult

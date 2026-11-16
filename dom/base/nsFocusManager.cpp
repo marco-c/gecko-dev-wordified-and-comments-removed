@@ -1200,7 +1200,6 @@ focusmanager
 .
 testmode
 "
-nullptr
 }
 ;
 nsFocusManager

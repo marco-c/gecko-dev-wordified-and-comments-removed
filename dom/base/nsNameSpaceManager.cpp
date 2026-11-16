@@ -163,7 +163,6 @@ kObservedNSPrefs
 {
 kPrefMathMLDisabled
 kPrefSVGDisabled
-nullptr
 }
 ;
 StaticRefPtr

@@ -7137,7 +7137,6 @@ capability
 policy
 .
 "
-nullptr
 }
 ;
 nsScriptSecurityManager
