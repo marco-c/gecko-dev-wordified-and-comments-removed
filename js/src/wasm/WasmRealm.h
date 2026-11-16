@@ -103,6 +103,11 @@ profilingEnabled
 )
 ;
 void
+resetPretenuredAllocSites
+(
+)
+;
+void
 addSizeOfExcludingThis
 (
 mozilla

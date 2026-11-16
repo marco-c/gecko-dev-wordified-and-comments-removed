@@ -1447,6 +1447,11 @@ uint32_t
 funcIndex
 )
 ;
+void
+resetPretenuredAllocSites
+(
+)
+;
 bool
 debugFilter
 (
