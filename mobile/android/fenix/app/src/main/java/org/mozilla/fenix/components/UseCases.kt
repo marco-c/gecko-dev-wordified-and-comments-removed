@@ -191,6 +191,16 @@ components
 .
 feature
 .
+pictureinpicture
+.
+PictureInPictureUseCases
+import
+mozilla
+.
+components
+.
+feature
+.
 pwa
 .
 WebAppShortcutManager
@@ -497,16 +507,6 @@ mozilla
 .
 fenix
 .
-perf
-.
-lazyMonitored
-import
-org
-.
-mozilla
-.
-fenix
-.
 settings
 .
 downloads
@@ -682,7 +682,7 @@ session
 val
 sessionUseCases
 by
-lazyMonitored
+lazy
 {
 SessionUseCases
 (
@@ -708,7 +708,7 @@ tabsUseCases
 :
 TabsUseCases
 by
-lazyMonitored
+lazy
 {
 TabsUseCases
 (
@@ -734,7 +734,7 @@ customTabsUseCases
 :
 CustomTabsUseCases
 by
-lazyMonitored
+lazy
 {
 CustomTabsUseCases
 (
@@ -762,7 +762,7 @@ integration
 val
 searchUseCases
 by
-lazyMonitored
+lazy
 {
 SearchUseCases
 (
@@ -788,7 +788,7 @@ management
 val
 settingsUseCases
 by
-lazyMonitored
+lazy
 {
 SettingsUseCases
 (
@@ -803,7 +803,7 @@ value
 val
 appLinksUseCases
 by
-lazyMonitored
+lazy
 {
 AppLinksUseCases
 (
@@ -815,7 +815,7 @@ applicationContext
 val
 webAppUseCases
 by
-lazyMonitored
+lazy
 {
 WebAppUseCases
 (
@@ -831,7 +831,7 @@ value
 val
 downloadUseCases
 by
-lazyMonitored
+lazy
 {
 DownloadsUseCases
 (
@@ -872,7 +872,7 @@ defaultLocation
 val
 contextMenuUseCases
 by
-lazyMonitored
+lazy
 {
 ContextMenuUseCases
 (
@@ -884,7 +884,7 @@ value
 val
 trackingProtectionUseCases
 by
-lazyMonitored
+lazy
 {
 TrackingProtectionUseCases
 (
@@ -912,7 +912,7 @@ management
 val
 topSitesUseCase
 by
-lazyMonitored
+lazy
 {
 TopSitesUseCases
 (
@@ -936,7 +936,7 @@ management
 val
 localeUseCases
 by
-lazyMonitored
+lazy
 {
 LocaleUseCases
 (
@@ -960,7 +960,7 @@ management
 val
 bookmarksUseCases
 by
-lazyMonitored
+lazy
 {
 BookmarksUseCase
 (
@@ -978,7 +978,7 @@ value
 val
 wallpaperUseCases
 by
-lazyMonitored
+lazy
 {
 /
 /
@@ -1077,7 +1077,7 @@ context
 val
 closeSyncedTabsUseCases
 by
-lazyMonitored
+lazy
 {
 CloseTabsUseCases
 (
@@ -1089,7 +1089,7 @@ value
 val
 marsUseCases
 by
-lazyMonitored
+lazy
 {
 MARSUseCases
 (
@@ -1101,7 +1101,7 @@ value
 val
 mozAdsUseCases
 by
-lazyMonitored
+lazy
 {
 MozAdsUseCases
 (
@@ -1118,7 +1118,7 @@ value
 val
 fenixBrowserUseCases
 by
-lazyMonitored
+lazy
 {
 FenixBrowserUseCases
 (
@@ -1164,7 +1164,7 @@ shareSheetLauncher
 :
 ShareSheetLauncher
 by
-lazyMonitored
+lazy
 {
 DefaultShareSheetLauncher
 (
@@ -1214,7 +1214,7 @@ fragment
 val
 shareUseCases
 by
-lazyMonitored
+lazy
 {
 ShareUseCases
 (
@@ -1236,9 +1236,21 @@ settings
 )
 }
 val
+pictureInPictureUseCases
+by
+lazy
+{
+PictureInPictureUseCases
+(
+store
+.
+value
+)
+}
+val
 privateBrowsingLockUseCases
 by
-lazyMonitored
+lazy
 {
 PrivateBrowsingLockUseCases
 (

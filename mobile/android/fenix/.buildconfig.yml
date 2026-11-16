@@ -351,6 +351,12 @@ components
 :
 feature
 -
+pictureinpicture
+-
+components
+:
+feature
+-
 privatemode
 -
 components
