@@ -42,7 +42,7 @@ CURRENT_CHROME_VER
 "
 Chrome
 /
-148
+157
 .
 0
 .

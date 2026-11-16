@@ -348,7 +348,7 @@ getRunningFirefoxVersion
 _defaultChromeVersion
 :
 "
-148
+157
 .
 0
 .
