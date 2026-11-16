@@ -69,9 +69,6 @@ activity
 -
 stream
 /
-contentaccessible
-=
-yes
 %
 content
 activity
@@ -84,9 +81,6 @@ activity
 -
 stream
 /
-contentaccessible
-=
-yes
 content
 /
 browser
