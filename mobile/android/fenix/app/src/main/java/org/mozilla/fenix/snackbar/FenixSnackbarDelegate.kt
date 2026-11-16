@@ -337,7 +337,6 @@ of
 View
 -
 based
-*
 snackbars
 .
 *
@@ -511,7 +510,6 @@ a
 dismiss
 button
 .
-*
 The
 [
 listener
@@ -523,6 +521,7 @@ provided
 to
 show
 an
+*
 action
 button
 .
@@ -540,7 +539,6 @@ action
 is
 clicked
 .
-*
 An
 [
 action
@@ -550,6 +548,7 @@ also
 be
 provided
 to
+*
 show
 an
 action
@@ -705,7 +704,6 @@ for
 the
 action
 .
-*
 The
 [
 listener
@@ -718,6 +716,7 @@ to
 show
 an
 action
+*
 button
 .
 *
@@ -744,7 +743,6 @@ action
 is
 clicked
 .
-*
 An
 [
 action
@@ -754,6 +752,7 @@ also
 be
 provided
 to
+*
 show
 an
 action
@@ -1140,7 +1139,6 @@ show
 /
 *
 *
-*
 Dismiss
 the
 existing
@@ -1265,12 +1263,26 @@ actionText
 onClick
 =
 {
+if
+(
+snackbarHostState
+!
+=
+null
+|
+|
+snackBarParentView
+.
+isAttachedToWindow
+)
+{
 listener
 .
 invoke
 (
 snackBarParentView
 )
+}
 }
 )
 }
