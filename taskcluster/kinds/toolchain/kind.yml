@@ -142,11 +142,6 @@ projects
 ]
 run
 :
-clone
--
-with
-:
-hg
 using
 :
 toolchain
@@ -292,6 +287,10 @@ stackwalk
 yml
 -
 misc
+.
+yml
+-
+mold
 .
 yml
 -
