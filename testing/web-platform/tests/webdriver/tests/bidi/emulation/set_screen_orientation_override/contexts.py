@@ -320,6 +320,8 @@ another_bidi_screen_orientation
     
 another_web_screen_orientation
     
+default_screen_orientation
+    
 inline
     
 domain
@@ -513,5 +515,47 @@ new_tab
 =
 =
 another_web_screen_orientation
+    
+)
+    
+await
+bidi_session
+.
+emulation
+.
+set_screen_orientation_override
+(
+        
+contexts
+=
+[
+new_tab
+[
+"
+context
+"
+]
+]
+screen_orientation
+=
+None
+    
+)
+    
+assert
+(
+        
+await
+get_screen_orientation
+(
+iframe
+top_context
+=
+new_tab
+)
+        
+=
+=
+default_screen_orientation
     
 )
