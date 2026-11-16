@@ -3109,6 +3109,11 @@ PropertyFlags
 )
 ;
 bool
+mReflowRequestedForCharDataChange
+=
+false
+;
+bool
 IsFrameSelected
 (
 )
