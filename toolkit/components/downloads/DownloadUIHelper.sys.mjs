@@ -185,11 +185,9 @@ downloadUI
 ftl
 "
 "
-toolkit
-/
 branding
 /
-brandings
+brand
 .
 ftl
 "
