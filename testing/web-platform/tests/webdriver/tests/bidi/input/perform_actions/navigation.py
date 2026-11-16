@@ -151,6 +151,7 @@ def
 test_key
 (
 bidi_session
+configuration
 inline
 top_context
 )
@@ -279,6 +280,13 @@ key_up
 pause
 (
 1000
+*
+configuration
+[
+"
+timeout_multiplier
+"
+]
 )
         
 .
@@ -392,6 +400,7 @@ def
 test_pointer
 (
 bidi_session
+configuration
 inline
 top_context
 get_element
@@ -518,6 +527,13 @@ button
 pause
 (
 1000
+*
+configuration
+[
+"
+timeout_multiplier
+"
+]
 )
         
 .

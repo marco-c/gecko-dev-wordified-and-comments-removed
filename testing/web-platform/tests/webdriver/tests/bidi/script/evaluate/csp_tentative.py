@@ -55,6 +55,7 @@ test_default_src_unsafe_inline
 (
     
 bidi_session
+configuration
 top_context
 setup_csp_tentative_test
 expression
@@ -110,6 +111,13 @@ timeout
 2
 .
 0
+*
+configuration
+[
+"
+timeout_multiplier
+"
+]
     
 )
     

@@ -16,6 +16,7 @@ def
 wait_for_url
 (
 bidi_session
+configuration
 current_url
 )
 :
@@ -61,10 +62,19 @@ wait
 =
 AsyncPoll
 (
+            
 bidi_session
 timeout
 =
 timeout
+*
+configuration
+[
+"
+timeout_multiplier
+"
+]
+        
 )
         
 await
@@ -85,6 +95,7 @@ def
 wait_for_not_url
 (
 bidi_session
+configuration
 current_url
 )
 :
@@ -130,10 +141,19 @@ wait
 =
 AsyncPoll
 (
+            
 bidi_session
 timeout
 =
 timeout
+*
+configuration
+[
+"
+timeout_multiplier
+"
+]
+        
 )
         
 await
