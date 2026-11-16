@@ -1379,6 +1379,9 @@ mIsPreload
 bool
 mIsCoalescedModulePreload
 ;
+bool
+mWasAbortedByNavigation
+;
 nsresult
 mUnreportedPreloadError
 ;

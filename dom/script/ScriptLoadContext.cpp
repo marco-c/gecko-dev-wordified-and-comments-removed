@@ -294,6 +294,10 @@ mIsCoalescedModulePreload
 (
 false
 )
+mWasAbortedByNavigation
+(
+false
+)
 mUnreportedPreloadError
 (
 NS_OK
