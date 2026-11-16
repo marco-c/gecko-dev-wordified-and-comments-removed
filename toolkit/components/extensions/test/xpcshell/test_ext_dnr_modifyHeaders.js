@@ -225,10 +225,12 @@ connection
 "
 )
 ;
-delete
-headers
-.
+dropDefaultHeader
+(
+"
 priority
+"
+)
 ;
 res
 .

@@ -143,15 +143,6 @@ blocking
 await
 browser
 .
-runtime
-.
-getPlatformInfo
-(
-)
-;
-await
-browser
-.
 test
 .
 assertRejects
