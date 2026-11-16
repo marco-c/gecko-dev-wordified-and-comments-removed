@@ -14231,9 +14231,7 @@ url
 :
 this
 .
-rootURI
-.
-resolve
+getURL
 (
 data
 .

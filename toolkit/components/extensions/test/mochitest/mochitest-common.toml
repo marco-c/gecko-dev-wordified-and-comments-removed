@@ -1522,6 +1522,13 @@ html
 ]
 [
 "
+test_ext_experiments_child
+.
+html
+"
+]
+[
+"
 test_ext_extension_getViews
 .
 html
