@@ -3249,6 +3249,13 @@ Text
 &
 )
 "
+"
+WebCore
+:
+:
+destroyRenderTreeIfNeeded
+(
+"
 ]
 [
 [
