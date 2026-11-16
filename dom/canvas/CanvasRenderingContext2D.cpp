@@ -33906,10 +33906,10 @@ Some
 (
 CSSSize
 (
-scaledImageSize
+aImgSize
 .
 width
-scaledImageSize
+aImgSize
 .
 height
 )
