@@ -359,6 +359,12 @@ target
 =
 nullptr
 ;
+JSFunction
+*
+targetFunction
+=
+nullptr
+;
 ICScript
 *
 icScript
