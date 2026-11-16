@@ -82,7 +82,14 @@ body
 {
 padding
 :
-24px
+var
+(
+-
+-
+space
+-
+xlarge
+)
 ;
 }
 /
