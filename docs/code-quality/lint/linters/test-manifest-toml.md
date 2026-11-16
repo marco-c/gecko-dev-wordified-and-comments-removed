@@ -448,8 +448,6 @@ datareporting
 -
 devedition
 -
-early_beta_or_earlier
--
 false
 (
 *
