@@ -24647,7 +24647,7 @@ runtime
 isConnected
 )
 {
-runCatching
+try
 {
 sessionRule
 .
@@ -24659,6 +24659,14 @@ quit
 (
 )
 )
+}
+catch
+(
+_
+:
+Throwable
+)
+{
 }
 }
 }
