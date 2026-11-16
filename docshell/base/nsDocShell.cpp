@@ -59352,13 +59352,6 @@ get
 )
 mLoadType
 0
-!
-mActiveEntry
--
->
-IsTransient
-(
-)
 )
 ;
 }
