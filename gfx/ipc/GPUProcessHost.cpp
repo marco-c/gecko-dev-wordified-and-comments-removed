@@ -1736,6 +1736,15 @@ ProcessIsX86_64
 gfxVars
 :
 :
+UseWebRenderANGLE
+(
+)
+|
+|
+!
+gfxVars
+:
+:
 AllowMetalAngleWebGL
 (
 )
