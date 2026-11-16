@@ -4412,6 +4412,16 @@ addonInfo
 icons
 [
 "
+128
+"
+]
+|
+|
+addonInfo
+.
+icons
+[
+"
 64
 "
 ]
