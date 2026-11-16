@@ -281,6 +281,16 @@ verify
 timeout
 =
 5000
+)
+{
+mockAp
+.
+markAsTriggered
+(
+)
+}
+verify
+(
 exactly
 =
 1
