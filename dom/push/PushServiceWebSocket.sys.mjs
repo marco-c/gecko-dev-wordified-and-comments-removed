@@ -190,7 +190,7 @@ pushapi
 const
 kPUSHWSDB_DB_VERSION
 =
-6
+5
 ;
 /
 /
