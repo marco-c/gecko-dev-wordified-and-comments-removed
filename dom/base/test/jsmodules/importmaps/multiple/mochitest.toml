@@ -40,6 +40,11 @@ preload_linked_chain_root
 mjs
 "
 "
+preload_linked_errorreset_root
+.
+mjs
+"
+"
 preload_linked_helpers
 .
 js
@@ -82,6 +87,13 @@ html
 [
 "
 test_preload_linked_normal_deps_not_reset
+.
+html
+"
+]
+[
+"
+test_preload_linked_reset_clears_error
 .
 html
 "
