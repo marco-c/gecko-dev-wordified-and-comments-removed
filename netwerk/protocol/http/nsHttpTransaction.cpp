@@ -12218,9 +12218,14 @@ responseChecked
 ;
 if
 (
+!
 responseChecked
 )
 {
+return
+NS_ERROR_FAILURE
+;
+}
 mNoContent
 =
 true
@@ -12229,7 +12234,6 @@ mPreserveStream
 =
 true
 ;
-}
 }
 if
 (
