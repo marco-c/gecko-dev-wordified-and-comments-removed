@@ -215,6 +215,13 @@ js
 ]
 [
 "
+browser_places_menus_open
+.
+js
+"
+]
+[
+"
 browser_search_bookmarks
 .
 js
