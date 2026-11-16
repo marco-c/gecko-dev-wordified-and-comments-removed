@@ -38,6 +38,11 @@ mediaStreamPlayback
 js
 "
 "
+srcObjectCorsTaint
+.
+js
+"
+"
 network
 .
 js
@@ -763,6 +768,13 @@ android
 [
 "
 test_getUserMedia_spinEventLoop
+.
+html
+"
+]
+[
+"
+test_getUserMedia_srcObjectCorsTaint
 .
 html
 "
