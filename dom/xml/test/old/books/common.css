@@ -12,7 +12,9 @@ top
 ;
 margin
 -
-left
+inline
+-
+start
 :
 8px
 ;
@@ -99,7 +101,9 @@ Serif
 ;
 float
 :
-right
+inline
+-
+end
 ;
 font
 -
@@ -124,7 +128,9 @@ width
 ;
 margin
 -
-right
+inline
+-
+end
 :
 0
 ;

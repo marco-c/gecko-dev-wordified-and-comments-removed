@@ -118,13 +118,7 @@ width
 ;
 margin
 -
-left
-:
-auto
-;
-margin
--
-right
+inline
 :
 auto
 ;
@@ -132,7 +126,7 @@ text
 -
 align
 :
-left
+start
 ;
 }
 #
@@ -350,7 +344,7 @@ text
 -
 align
 :
-left
+start
 ;
 width
 :

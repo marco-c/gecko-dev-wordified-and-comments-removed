@@ -112,7 +112,9 @@ inline
 ;
 padding
 -
-left
+inline
+-
+start
 :
 +
 5px
@@ -128,7 +130,9 @@ block
 ;
 padding
 -
-left
+inline
+-
+start
 :
 +
 20px
@@ -142,7 +146,9 @@ block
 ;
 padding
 -
-left
+inline
+-
+start
 :
 +
 5px
