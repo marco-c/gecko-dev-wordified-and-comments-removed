@@ -1,6 +1,4 @@
 import
-asyncio
-import
 pytest
 from
 webdriver
@@ -142,9 +140,9 @@ try
 :
             
 await
-asyncio
+client
 .
-sleep
+stall
 (
 0
 .
@@ -224,9 +222,9 @@ ElementClickInterceptedException
 :
             
 await
-asyncio
+client
 .
-sleep
+stall
 (
 0
 .
@@ -234,9 +232,9 @@ sleep
 )
     
 await
-asyncio
+client
 .
-sleep
+stall
 (
 0
 .

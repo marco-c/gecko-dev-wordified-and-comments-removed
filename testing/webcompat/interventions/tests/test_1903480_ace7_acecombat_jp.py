@@ -1,6 +1,4 @@
 import
-asyncio
-import
 pytest
 URL
 =
@@ -77,9 +75,9 @@ offset
 )
     
 await
-asyncio
+client
 .
-sleep
+stall
 (
 2
 )

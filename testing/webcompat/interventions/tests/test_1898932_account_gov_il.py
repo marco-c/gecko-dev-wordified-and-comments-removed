@@ -1,6 +1,4 @@
 import
-asyncio
-import
 pytest
 URL
 =
@@ -100,9 +98,9 @@ URL
 )
     
 await
-asyncio
+client
 .
-sleep
+stall
 (
 1
 )
@@ -147,9 +145,9 @@ URL
 )
     
 await
-asyncio
+client
 .
-sleep
+stall
 (
 1
 )

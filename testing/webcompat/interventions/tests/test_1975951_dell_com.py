@@ -1,6 +1,4 @@
 import
-asyncio
-import
 pytest
 URL
 =
@@ -186,9 +184,9 @@ second_product
 )
     
 await
-asyncio
+client
 .
-sleep
+stall
 (
 2
 )

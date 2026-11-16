@@ -1,6 +1,4 @@
 import
-asyncio
-import
 pytest
 from
 webdriver
@@ -238,9 +236,9 @@ WebDriverException
 :
             
 await
-asyncio
+client
 .
-sleep
+stall
 (
 0
 .

@@ -1,6 +1,4 @@
 import
-time
-import
 pytest
 from
 webdriver
@@ -247,9 +245,10 @@ click
 (
 )
             
-time
+await
+client
 .
-sleep
+stall
 (
 1
 )

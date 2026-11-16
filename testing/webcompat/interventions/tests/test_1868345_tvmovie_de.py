@@ -1,6 +1,4 @@
 import
-asyncio
-import
 pytest
 from
 webdriver
@@ -116,9 +114,9 @@ dy
 )
     
 await
-asyncio
+client
 .
-sleep
+stall
 (
 0
 .
@@ -143,9 +141,9 @@ dy
 )
     
 await
-asyncio
+client
 .
-sleep
+stall
 (
 0
 .
@@ -170,9 +168,9 @@ dy
 )
     
 await
-asyncio
+client
 .
-sleep
+stall
 (
 0
 .
@@ -197,9 +195,9 @@ dy
 )
     
 await
-asyncio
+client
 .
-sleep
+stall
 (
 0
 .
@@ -221,9 +219,9 @@ scrollY
 )
     
 await
-asyncio
+client
 .
-sleep
+stall
 (
 0
 .

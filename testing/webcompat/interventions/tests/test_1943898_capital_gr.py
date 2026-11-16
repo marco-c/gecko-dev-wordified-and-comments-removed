@@ -1,5 +1,9 @@
-import
+from
 asyncio
+.
+exceptions
+import
+TimeoutError
 import
 pytest
 URL
@@ -56,9 +60,9 @@ reload
 )
     
 await
-asyncio
+client
 .
-sleep
+stall
 (
 1
 )
@@ -84,10 +88,6 @@ return
 True
     
 except
-asyncio
-.
-exceptions
-.
 TimeoutError
 :
         

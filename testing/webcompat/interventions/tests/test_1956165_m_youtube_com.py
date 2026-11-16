@@ -1,6 +1,4 @@
 import
-asyncio
-import
 pytest
 URL
 =
@@ -292,9 +290,9 @@ range
 :
             
 await
-asyncio
+client
 .
-sleep
+stall
 (
 0
 .
@@ -349,9 +347,9 @@ offset
 )
                 
 await
-asyncio
+client
 .
-sleep
+stall
 (
 0
 .
@@ -375,9 +373,9 @@ offset
 )
             
 await
-asyncio
+client
 .
-sleep
+stall
 (
 0
 .
@@ -425,9 +423,9 @@ toggle_fullscreen
 )
         
 await
-asyncio
+client
 .
-sleep
+stall
 (
 0
 .
@@ -441,9 +439,9 @@ toggle_fullscreen
 )
     
 await
-asyncio
+client
 .
-sleep
+stall
 (
 1
 )
@@ -482,9 +480,9 @@ androidMoveTaskToBack
 )
     
 await
-asyncio
+client
 .
-sleep
+stall
 (
 1
 )
