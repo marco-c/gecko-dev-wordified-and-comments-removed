@@ -1667,6 +1667,16 @@ if
 (
 !
 is_piggybacking_srflx
+&
+&
+!
+cand
+-
+>
+stream
+-
+>
+defer_gathering_events
 )
 {
 nr_ice_gather_handler

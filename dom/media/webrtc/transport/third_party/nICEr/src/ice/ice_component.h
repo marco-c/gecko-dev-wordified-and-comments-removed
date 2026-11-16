@@ -87,6 +87,9 @@ candidates
 int
 candidate_ct
 ;
+bool
+took_from_pool
+;
 nr_ice_pre_answer_request_head
 pre_answer_reqs
 ;
@@ -179,6 +182,17 @@ ctx
 nr_ice_component
 *
 component
+)
+;
+int
+nr_ice_component_take_from_pool
+(
+nr_ice_component
+*
+component
+bool
+*
+took_pooled_cand
 )
 ;
 void
