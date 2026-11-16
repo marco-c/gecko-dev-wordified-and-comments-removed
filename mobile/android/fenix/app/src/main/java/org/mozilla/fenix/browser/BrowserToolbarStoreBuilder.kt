@@ -822,6 +822,13 @@ components
 listenToPage
 .
 settings
+pictureInPictureUseCases
+=
+components
+.
+useCases
+.
+pictureInPictureUseCases
 shareUseCases
 =
 components
