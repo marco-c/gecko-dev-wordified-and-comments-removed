@@ -4242,6 +4242,16 @@ dependsOnCBBSize
 &
 &
 mCBReflowInput
+&
+&
+!
+mFrame
+-
+>
+IsAbsolutelyPositioned
+(
+mStyleDisplay
+)
 )
 {
 const
