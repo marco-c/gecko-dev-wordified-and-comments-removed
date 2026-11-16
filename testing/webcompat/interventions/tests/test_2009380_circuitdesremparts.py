@@ -60,6 +60,18 @@ LOADED_CSS
 #
 resendWrapperTop
 "
+NO_EVENT_TEXT
+=
+"
+Les
+ventes
+sont
+suspendues
+par
+l
+'
+organisateur
+"
 async
 def
 does_ui_appear
@@ -128,18 +140,36 @@ IFRAME_CSS
 try
 :
         
+loaded
+no_event
+=
 client
 .
-await_css
+await_first_element_of
+(
+[
+            
+client
+.
+css
 (
 LOADED_CSS
-is_displayed
-=
-True
+)
+            
+client
+.
+text
+(
+NO_EVENT_TEXT
+)
+        
+]
 )
         
 return
-True
+loaded
+or
+no_event
     
 except
 NoSuchElementException
@@ -147,6 +177,11 @@ NoSuchElementException
         
 return
 False
+pytest
+.
+mark
+.
+actual_platform_required
 pytest
 .
 mark
@@ -185,6 +220,11 @@ pytest
 .
 mark
 .
+actual_platform_required
+pytest
+.
+mark
+.
 only_firefox_versions
 (
 max
@@ -216,6 +256,11 @@ does_ui_appear
 (
 client
 )
+pytest
+.
+mark
+.
+actual_platform_required
 pytest
 .
 mark

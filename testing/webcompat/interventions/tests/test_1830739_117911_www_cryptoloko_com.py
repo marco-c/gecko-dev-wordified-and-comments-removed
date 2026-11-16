@@ -27,8 +27,9 @@ blast
 IFRAME_CSS
 =
 "
-#
-gameiframe
+.
+gameframe
+iframe
 "
 GOOD_MSG
 =

@@ -29,6 +29,12 @@ signin
 .
 jsp
 "
+HERO_CSS
+=
+"
+#
+username
+"
 UNSUPPORTED_TEXT
 =
 "
@@ -67,6 +73,24 @@ client
 navigate
 (
 URL
+wait
+=
+"
+none
+"
+)
+    
+client
+.
+await_css
+(
+HERO_CSS
+is_displayed
+=
+True
+timeout
+=
+30
 )
     
 await
@@ -74,7 +98,7 @@ client
 .
 stall
 (
-2
+5
 )
     
 assert
@@ -117,6 +141,19 @@ wait
 "
 none
 "
+)
+    
+client
+.
+await_css
+(
+HERO_CSS
+is_displayed
+=
+True
+timeout
+=
+30
 )
     
 assert

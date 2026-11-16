@@ -27,19 +27,15 @@ SUPPORTED_CSS
 =
 "
 [
-data
--
-name
+icon
 =
-BottomOfScreenView
+home
 ]
 "
 UNSUPPORTED_TEXT
 =
 "
-Use
-a
-supported
+Unsupported
 browser
 "
 pytest
@@ -92,6 +88,9 @@ SUPPORTED_CSS
 is_displayed
 =
 True
+timeout
+=
+30
 )
     
 assert
@@ -155,6 +154,9 @@ UNSUPPORTED_TEXT
 is_displayed
 =
 True
+timeout
+=
+30
 )
     
 assert

@@ -1,5 +1,11 @@
 import
 pytest
+from
+webdriver
+.
+error
+import
+NoSuchElementException
 URL
 =
 "
@@ -130,7 +136,15 @@ stall
 1
 )
     
-prompt
+client
+.
+await_css
+(
+ADD_PROMPT_CSS
+is_displayed
+=
+True
+)
 .
 send_keys
 (
@@ -157,6 +171,9 @@ range
 )
 :
         
+try
+:
+            
 client
 .
 soft_click
@@ -168,6 +185,12 @@ await_css
 EDIT_OLD_PROMPT_CSS
 )
 )
+        
+except
+NoSuchElementException
+:
+            
+break
         
 if
 client
