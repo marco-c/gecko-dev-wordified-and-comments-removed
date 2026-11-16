@@ -3873,6 +3873,17 @@ media
 '
 feature
 -
+pictureinpicture
+'
+:
+'
+feature
+-
+pictureinpicture
+'
+'
+feature
+-
 privatemode
 '
 :
