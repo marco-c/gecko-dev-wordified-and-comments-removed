@@ -517,6 +517,7 @@ dom
 RTCConfigurationInternal
 mBundlePolicy
 mCertificatesProvided
+mIceCandidatePoolSize
 mIceServers
 mIceTransportPolicy
 mPeerIdentityProvided

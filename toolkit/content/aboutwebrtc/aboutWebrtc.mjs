@@ -9091,6 +9091,16 @@ c
 sdpSemantics
 "
 )
+.
+.
+.
+cfg
+(
+c
+"
+iceCandidatePoolSize
+"
+)
 renderElement
 (
 "
