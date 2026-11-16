@@ -7170,7 +7170,7 @@ replace
 obs
 -
 >
-NotifyObservers
+NotifyWhenScriptSafe
 (
 ToSupports
 (

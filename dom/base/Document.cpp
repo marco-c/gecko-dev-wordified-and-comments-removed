@@ -62469,7 +62469,7 @@ NodePrincipal
 os
 -
 >
-NotifyObservers
+NotifyWhenScriptSafe
 (
 ToSupports
 (

@@ -5982,7 +5982,7 @@ observerService
 observerService
 -
 >
-NotifyObservers
+NotifyWhenScriptSafe
 (
 nullptr
 "
@@ -6822,8 +6822,6 @@ TimeDuration
 FromMilliseconds
 (
 5
-.
-0
 )
 ;
 }
