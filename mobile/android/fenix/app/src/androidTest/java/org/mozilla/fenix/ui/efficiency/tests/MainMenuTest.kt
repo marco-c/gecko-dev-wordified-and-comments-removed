@@ -2740,10 +2740,6 @@ on
 .
 browserPage
 .
-navigateToPage
-(
-)
-.
 verifyPageContent
 (
 testPage
