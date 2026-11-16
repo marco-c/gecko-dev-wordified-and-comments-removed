@@ -5361,6 +5361,16 @@ firstElementChild
 null
 "
 "
+headingOffset
+:
+0
+"
+"
+headingReset
+:
+false
+"
+"
 hidden
 :
 true
