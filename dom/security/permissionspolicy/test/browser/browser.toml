@@ -12,6 +12,11 @@ empty
 html
 "
 "
+file_header_policy
+.
+sjs
+"
+"
 !
 /
 dom
@@ -37,6 +42,13 @@ policy
 [
 "
 browser_cross_origin_embed
+.
+js
+"
+]
+[
+"
+browser_header_combines_inherited_policy
 .
 js
 "
