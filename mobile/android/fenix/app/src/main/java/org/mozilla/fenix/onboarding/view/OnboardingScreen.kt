@@ -2095,6 +2095,9 @@ LongParameterList
 "
 LongMethod
 "
+"
+CognitiveComplexMethod
+"
 )
 private
 fun
