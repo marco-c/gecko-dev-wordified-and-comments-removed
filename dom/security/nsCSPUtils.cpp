@@ -2861,7 +2861,7 @@ aKeyword
 const
 nsAString
 &
-aHashOrNonce
+aContentOrNonce
 )
 const
 {
@@ -2878,7 +2878,7 @@ aKeyWord
 %
 s
 a
-HashOrNonce
+aContentOrNonce
 :
 %
 s
@@ -2898,7 +2898,7 @@ aKeyword
 )
 NS_ConvertUTF16toUTF8
 (
-aHashOrNonce
+aContentOrNonce
 )
 .
 get
@@ -4137,7 +4137,7 @@ aKeyword
 const
 nsAString
 &
-aHashOrNonce
+aContentOrNonce
 )
 const
 {
@@ -4153,7 +4153,7 @@ aKeyWord
 :
 %
 s
-aHashOrNonce
+aContentOrNonce
 :
 %
 s
@@ -4164,7 +4164,7 @@ aKeyword
 )
 NS_ConvertUTF16toUTF8
 (
-aHashOrNonce
+aContentOrNonce
 )
 .
 get
@@ -4265,7 +4265,7 @@ aKeyword
 const
 nsAString
 &
-aHashOrNonce
+aContentOrNonce
 )
 const
 {
@@ -4282,7 +4282,7 @@ aKeyWord
 %
 s
 a
-HashOrNonce
+aContentOrNonce
 :
 %
 s
@@ -4293,7 +4293,7 @@ aKeyword
 )
 NS_ConvertUTF16toUTF8
 (
-aHashOrNonce
+aContentOrNonce
 )
 .
 get
@@ -4319,7 +4319,7 @@ mNonce
 .
 Equals
 (
-aHashOrNonce
+aContentOrNonce
 )
 ;
 }
@@ -4520,7 +4520,7 @@ aKeyword
 const
 nsAString
 &
-aHashOrNonce
+aContentOrNonce
 )
 const
 {
@@ -4537,7 +4537,7 @@ aKeyWord
 %
 s
 a
-HashOrNonce
+aContentOrNonce
 :
 %
 s
@@ -4548,7 +4548,7 @@ aKeyword
 )
 NS_ConvertUTF16toUTF8
 (
-aHashOrNonce
+aContentOrNonce
 )
 .
 get
@@ -4570,9 +4570,9 @@ false
 ;
 }
 NS_ConvertUTF16toUTF8
-utf8_hash
+content
 (
-aHashOrNonce
+aContentOrNonce
 )
 ;
 nsCOMPtr
@@ -4613,12 +4613,12 @@ Update
 uint8_t
 *
 )
-utf8_hash
+content
 .
 get
 (
 )
-utf8_hash
+content
 .
 Length
 (
@@ -6035,7 +6035,7 @@ aKeyword
 const
 nsAString
 &
-aHashOrNonce
+aContentOrNonce
 )
 const
 {
@@ -6051,7 +6051,7 @@ aKeyWord
 :
 %
 s
-aHashOrNonce
+aContentOrNonce
 :
 %
 s
@@ -6062,7 +6062,7 @@ aKeyword
 )
 NS_ConvertUTF16toUTF8
 (
-aHashOrNonce
+aContentOrNonce
 )
 .
 get
@@ -6102,7 +6102,7 @@ i
 allows
 (
 aKeyword
-aHashOrNonce
+aContentOrNonce
 )
 )
 {
@@ -8491,7 +8491,7 @@ aKeyword
 const
 nsAString
 &
-aHashOrNonce
+aContentOrNonce
 )
 const
 {
@@ -8508,7 +8508,7 @@ aKeyWord
 %
 s
 a
-HashOrNonce
+aContentOrNonce
 :
 %
 s
@@ -8519,7 +8519,7 @@ aKeyword
 )
 NS_ConvertUTF16toUTF8
 (
-aHashOrNonce
+aContentOrNonce
 )
 .
 get
@@ -8547,7 +8547,7 @@ directive
 allows
 (
 aKeyword
-aHashOrNonce
+aContentOrNonce
 )
 ;
 }

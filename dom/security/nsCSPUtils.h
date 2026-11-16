@@ -1185,7 +1185,7 @@ aKeyword
 const
 nsAString
 &
-aHashOrNonce
+aContentOrNonce
 )
 const
 ;
@@ -1615,7 +1615,7 @@ aKeyword
 const
 nsAString
 &
-aHashOrNonce
+aContentOrNonce
 )
 const
 override
@@ -1721,7 +1721,7 @@ aKeyword
 const
 nsAString
 &
-aHashOrNonce
+aContentOrNonce
 )
 const
 override
@@ -1818,7 +1818,7 @@ aKeyword
 const
 nsAString
 &
-aHashOrNonce
+aContentOrNonce
 )
 const
 override
@@ -2369,7 +2369,7 @@ aKeyword
 const
 nsAString
 &
-aHashOrNonce
+aContentOrNonce
 )
 const
 ;
@@ -2814,7 +2814,7 @@ aKeyword
 const
 nsAString
 &
-aHashOrNonce
+aContentOrNonce
 )
 const
 override
@@ -2946,7 +2946,7 @@ aKeyword
 const
 nsAString
 &
-aHashOrNonce
+aContentOrNonce
 )
 const
 override
@@ -3059,7 +3059,7 @@ aKeyword
 const
 nsAString
 &
-aHashOrNonce
+aContentOrNonce
 )
 const
 ;
