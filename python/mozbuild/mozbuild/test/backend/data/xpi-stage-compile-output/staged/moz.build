@@ -37,7 +37,7 @@ GENERATED_FILES
 "
 made
 .
-cpp
+inc
 "
 ]
 GENERATED_FILES
@@ -45,7 +45,7 @@ GENERATED_FILES
 "
 made
 .
-cpp
+inc
 "
 ]
 .
@@ -66,6 +66,6 @@ FINAL_TARGET_FILES
 !
 made
 .
-cpp
+inc
 "
 ]
