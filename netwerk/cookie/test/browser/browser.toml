@@ -74,6 +74,13 @@ js
 ]
 [
 "
+browser_cookie_child_large_list
+.
+js
+"
+]
+[
+"
 browser_cookieStore_bfcache_leak
 .
 js
