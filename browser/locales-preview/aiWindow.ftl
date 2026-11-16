@@ -1394,6 +1394,9 @@ now
 -
 button
 =
+.
+label
+=
 Check
 now
 #
@@ -3850,7 +3853,7 @@ name
 has
 reached
 its
-daily
+weekly
 check
 limit
 .
