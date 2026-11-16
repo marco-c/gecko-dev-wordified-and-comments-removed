@@ -500,7 +500,6 @@ messaging
 withInitializer
 {
 _
-_
 -
 >
 /
@@ -633,7 +632,6 @@ homescreen
 .
 withInitializer
 {
-_
 _
 -
 >
