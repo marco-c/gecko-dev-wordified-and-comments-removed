@@ -17382,9 +17382,10 @@ aStdDeviation
 0
 .
 f
-100
-.
-f
+GaussianBlur
+:
+:
+kMaxSoftwareStdDeviation
 )
 ;
 }
