@@ -28,9 +28,7 @@ CONTAINER_CSS
 class
 *
 =
-MedialistInner
--
-module_container
+MedialistInner_overflowable
 ]
 "
 async
