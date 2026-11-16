@@ -1588,7 +1588,7 @@ mShouldApplyTextBoxTrimAtFragmentEnd
 1
 ;
 bool
-mDimensionsReadyForLineClampAuto
+mDimensionsReadyForLineClamp
 :
 1
 ;
