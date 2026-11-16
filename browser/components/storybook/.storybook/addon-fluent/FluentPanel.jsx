@@ -120,6 +120,8 @@ from
 "
 storybook
 /
+internal
+/
 components
 "
 ;

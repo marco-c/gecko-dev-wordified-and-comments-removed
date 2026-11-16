@@ -157,6 +157,8 @@ from
 "
 storybook
 /
+internal
+/
 components
 "
 ;

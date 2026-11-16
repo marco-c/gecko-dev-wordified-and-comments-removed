@@ -1,5 +1,5 @@
 function
-config
+previewAnnotations
 (
 entry
 =
@@ -68,6 +68,6 @@ exports
 =
 {
 managerEntries
-config
+previewAnnotations
 }
 ;

@@ -620,9 +620,9 @@ storybook_chrome_map_f
 write
 (
 "
-module
-.
-exports
+export
+const
+chromeMap
 =
 "
 )
