@@ -1879,8 +1879,10 @@ get
 }
 if
 (
-!
-childCount
+urlListElements
+=
+=
+1
 )
 {
 urlList
