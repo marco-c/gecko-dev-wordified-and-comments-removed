@@ -2,8 +2,6 @@ import
 json
 import
 math
-import
-time
 from
 datetime
 import
@@ -3576,14 +3574,16 @@ monkeypatch
 .
 setattr
 (
-time
 "
-sleep
+gecko_taskgraph
+.
+util
+.
+bugbug
+.
+RETRY_TIMEOUT
 "
-lambda
-i
-:
-None
+0
 )
     
 opt
@@ -3697,14 +3697,16 @@ monkeypatch
 .
 setattr
 (
-time
 "
-sleep
+gecko_taskgraph
+.
+util
+.
+bugbug
+.
+RETRY_TIMEOUT
 "
-lambda
-i
-:
-None
+0
 )
     
 def
