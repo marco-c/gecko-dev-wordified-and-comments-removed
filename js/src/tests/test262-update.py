@@ -377,14 +377,6 @@ import
 -
 bytes
 "
-    
-"
-regexp
--
-buffer
--
-boundaries
-"
 ]
 )
 SHELL_OPTIONS
