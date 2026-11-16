@@ -284,6 +284,14 @@ com
 }
 )
 ;
+Services
+.
+cache2
+.
+clear
+(
+)
+;
 if
 (
 gPendingInstall

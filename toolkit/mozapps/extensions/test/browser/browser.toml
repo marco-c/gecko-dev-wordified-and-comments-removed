@@ -724,17 +724,6 @@ browser_installssl
 js
 "
 ]
-skip
--
-if
-=
-[
-"
-verify
--
-standalone
-"
-]
 [
 "
 browser_local_install
