@@ -2268,6 +2268,13 @@ html
 ]
 [
 "
+test_invalidation_container_query_unparsed_attr
+.
+html
+"
+]
+[
+"
 test_keyframes_rules
 .
 html
