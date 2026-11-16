@@ -108,6 +108,11 @@ parser_rtp
 js
 "
 "
+cors_mode_stall
+.
+sjs
+"
+"
 peerconnection_audio_forced_sample_rate
 .
 js
@@ -775,6 +780,13 @@ html
 [
 "
 test_getUserMedia_srcObjectCorsTaint
+.
+html
+"
+]
+[
+"
+test_getUserMedia_srcObjectCorsTaintDirectSelection
 .
 html
 "
