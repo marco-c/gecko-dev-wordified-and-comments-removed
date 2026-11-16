@@ -586,7 +586,7 @@ How_To
 /
 Beta_simulations
 #
-TRUNK_AS_EARLY_BETA
+TRUNK_AS_BETA
 )
 to
 make
