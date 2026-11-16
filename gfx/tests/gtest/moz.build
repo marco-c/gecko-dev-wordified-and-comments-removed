@@ -113,6 +113,11 @@ TestCopyPlane
 cpp
 "
 "
+TestDrawEventRecording
+.
+cpp
+"
+"
 TestFilterNodeSoftware
 .
 cpp
