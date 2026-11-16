@@ -3205,7 +3205,7 @@ mId
 obs
 -
 >
-NotifyWhenScriptSafe
+NotifyObservers
 (
 nullptr
 "
