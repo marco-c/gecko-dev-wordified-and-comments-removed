@@ -310,6 +310,10 @@ ray_tracing
 ;
 pub
 mod
+ray_tracing_pipeline
+;
+pub
+mod
 resource
 ;
 mod

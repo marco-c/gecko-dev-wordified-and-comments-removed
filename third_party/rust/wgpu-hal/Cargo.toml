@@ -2596,6 +2596,9 @@ MTLCommandEncoder
 MTLCommandQueue
 "
 "
+MTLArgumentEncoder
+"
+"
 MTLComputeCommandEncoder
 "
 "
@@ -2618,6 +2621,12 @@ MTLDrawable
 "
 "
 MTLEvent
+"
+"
+MTLIndirectCommandBuffer
+"
+"
+MTLIndirectCommandEncoder
 "
 "
 MTLLibrary

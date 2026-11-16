@@ -6015,6 +6015,16 @@ u32
 ;
 unsafe
 fn
+encode_deferred_multi_draws
+(
+&
+mut
+self
+)
+{
+}
+unsafe
+fn
 begin_compute_pass
 (
 &

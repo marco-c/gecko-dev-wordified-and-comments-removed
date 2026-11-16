@@ -1560,6 +1560,11 @@ RayQuery
 Ti
 :
 :
+HitObject
+|
+Ti
+:
+:
 BindingArray
 {
 .

@@ -1453,6 +1453,9 @@ bool
 ray_tracing_pipeline_group_data_size
 :
 u32
+shader_binding_table_alignment
+:
+u32
 store_op_none
 :
 bool
@@ -1506,7 +1509,10 @@ time
 const
 SEPARATE_ENTRY_POINTS
 =
-0x1
+1
+<
+<
+0
 ;
 /
 /
@@ -1547,7 +1553,10 @@ case
 const
 EMPTY_RESOLVE_ATTACHMENT_LISTS
 =
-0x2
+1
+<
+<
+1
 ;
 /
 /
@@ -1719,7 +1728,10 @@ more
 const
 FORCE_FILL_BUFFER_WITH_SIZE_GREATER_4096_ALIGNED_OFFSET_16
 =
-0x4
+1
+<
+<
+2
 ;
 }
 )

@@ -82,6 +82,11 @@ ComputePipeline
 ComputePipelineId
 ;
 type
+RayTracingPipeline
+=
+RayTracingPipelineId
+;
+type
 Blas
 =
 BlasId

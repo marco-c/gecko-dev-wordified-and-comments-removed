@@ -583,6 +583,10 @@ acceleration_structure_memory
 :
 InternalCounter
 pub
+indirect_command_buffer_memory
+:
+InternalCounter
+pub
 memory_allocations
 :
 InternalCounter

@@ -205,6 +205,11 @@ RayQuery
 .
 .
 }
+|
+Ti
+:
+:
+HitObject
 =
 >
 {
@@ -548,6 +553,11 @@ RayQuery
 .
 .
 }
+|
+Ti
+:
+:
+HitObject
 =
 >
 {

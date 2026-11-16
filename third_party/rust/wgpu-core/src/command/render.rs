@@ -13803,6 +13803,15 @@ pass_scope
 ?
 ;
 }
+unsafe
+{
+transit
+.
+encode_deferred_multi_draws
+(
+)
+}
+;
 }
 encoder
 .
