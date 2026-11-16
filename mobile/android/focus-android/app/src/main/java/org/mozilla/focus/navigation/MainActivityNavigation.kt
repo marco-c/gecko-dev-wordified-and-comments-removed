@@ -461,7 +461,7 @@ onEraseAction
 )
 -
 >
-Any
+Unit
 )
 :
 AppNavigation
