@@ -47,9 +47,6 @@ features
 "
 js
 "
-"
-jssources
-"
 ]
 }
 )
@@ -402,9 +399,6 @@ features
 "
 js
 "
-"
-jssources
-"
 ]
 }
 )
@@ -733,9 +727,6 @@ features
 [
 "
 js
-"
-"
-jssources
 "
 ]
 }
@@ -1146,9 +1137,6 @@ features
 "
 js
 "
-"
-jssources
-"
 ]
 }
 )
@@ -1400,9 +1388,6 @@ startProfiler
 features
 :
 [
-"
-js
-"
 ]
 }
 )
@@ -1566,7 +1551,7 @@ be
 empty
 when
 the
-jssources
+js
 feature
 is
 not

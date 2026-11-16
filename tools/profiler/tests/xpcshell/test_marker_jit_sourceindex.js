@@ -35,9 +35,6 @@ js
 "
 nostacksampling
 "
-"
-jssources
-"
 ]
 ;
 await

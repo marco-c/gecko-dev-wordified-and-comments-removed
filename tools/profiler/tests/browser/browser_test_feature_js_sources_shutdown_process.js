@@ -62,9 +62,6 @@ features
 "
 js
 "
-"
-jssources
-"
 ]
 }
 )
