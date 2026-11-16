@@ -566,6 +566,7 @@ json
 ;
 if
 (
+(
 asset
 =
 =
@@ -573,6 +574,16 @@ asset
 "
 script
 "
+|
+|
+asset
+=
+=
+=
+"
+module
+"
+)
 &
 &
 variant
@@ -610,7 +621,9 @@ in
 memory
 -
 cached
-script
+{
+asset
+}
 '
 s
 notification
