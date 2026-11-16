@@ -131,6 +131,13 @@ js
 ]
 [
 "
+browser_content_classifier_normalization
+.
+js
+"
+]
+[
+"
 browser_content_classifier_partitioned_cookies
 .
 js
@@ -183,6 +190,13 @@ js
 [
 "
 browser_content_classifier_test_trackers_engines
+.
+js
+"
+]
+[
+"
+browser_content_classifier_worker
 .
 js
 "
