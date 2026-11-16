@@ -599,13 +599,6 @@ third_party
 /
 python
 /
-redo
-vendored
-:
-third_party
-/
-python
-/
 requests_unixsocket
 vendored
 :

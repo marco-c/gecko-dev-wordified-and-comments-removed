@@ -16,10 +16,3 @@ client
 aboutdebugging
 /
 test
-vendored
-:
-third_party
-/
-python
-/
-redo

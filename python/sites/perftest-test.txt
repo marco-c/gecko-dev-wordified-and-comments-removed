@@ -90,13 +90,6 @@ third_party
 /
 python
 /
-redo
-vendored
-:
-third_party
-/
-python
-/
 responses
 vendored
 :

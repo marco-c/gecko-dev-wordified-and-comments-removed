@@ -268,6 +268,9 @@ False
 install_requires
 =
 [
+"
+redo
+"
 ]
     
 tests_require
