@@ -617,17 +617,6 @@ callback
 }
 internal
 fun
-getAuthState
-(
-)
-=
-inner
-.
-getAuthState
-(
-)
-internal
-fun
 processEvent
 (
 event
