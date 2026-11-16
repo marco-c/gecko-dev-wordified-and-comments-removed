@@ -4384,6 +4384,7 @@ then
 )
 =
 >
+{
 this
 .
 searchModeSwitcher
@@ -4391,6 +4392,14 @@ searchModeSwitcher
 updateSearchIcon
 (
 )
+;
+this
+.
+updatePlaceholder
+(
+)
+;
+}
 (
 )
 =
