@@ -217,6 +217,14 @@ compose
 .
 material3
 .
+Surface
+import
+androidx
+.
+compose
+.
+material3
+.
 Text
 import
 androidx
@@ -458,6 +466,8 @@ let
 uri
 -
 >
+Surface
+{
 QRCodeDisplayScreen
 (
 qrCodeUri
@@ -495,6 +505,7 @@ dismiss
 )
 }
 )
+}
 }
 }
 }
