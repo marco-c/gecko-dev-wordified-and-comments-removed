@@ -5616,6 +5616,15 @@ RenderLayerBacking
 :
 updateEventRegion
 "
+"
+WebCore
+:
+:
+RenderLayerCompositor
+:
+:
+updateCompositingLayers
+"
 ]
 [
 [
