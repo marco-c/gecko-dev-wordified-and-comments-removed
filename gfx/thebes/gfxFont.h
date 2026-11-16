@@ -7794,7 +7794,6 @@ gfxShapedText
 aShapedText
 )
 ;
-virtual
 bool
 ShapeText
 (
