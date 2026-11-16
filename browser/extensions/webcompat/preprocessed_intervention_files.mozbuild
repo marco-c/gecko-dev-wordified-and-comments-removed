@@ -2054,13 +2054,4 @@ allow_body_scrollbar
 .
 css
 "
-"
-bug2060224
--
-alreadyordered
-.
-no
-.
-js
-"
 ]
