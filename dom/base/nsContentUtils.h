@@ -8174,6 +8174,16 @@ nsPresContext
 aPresContext
 )
 ;
+static
+EventMessage
+ContentCommandFromString
+(
+const
+nsAString
+&
+aType
+)
+;
 MOZ_CAN_RUN_SCRIPT
 static
 mozilla
