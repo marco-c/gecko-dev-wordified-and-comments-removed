@@ -863,6 +863,14 @@ keySystem
 stubId
 )
 ;
+if
+(
+remoteBridge
+!
+=
+null
+)
+{
 mDrmBridges
 .
 add
@@ -870,6 +878,7 @@ add
 remoteBridge
 )
 ;
+}
 return
 remoteBridge
 ;
