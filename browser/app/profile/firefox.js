@@ -15513,6 +15513,7 @@ nova
 enabled
 "
 true
+locked
 )
 ;
 pref
