@@ -6882,6 +6882,9 @@ aEndpoint
 )
 file
 principal
+=
+*
+principal
 ]
 (
 )
@@ -6935,7 +6938,6 @@ MLSTransactionParent
 ConstructDatabaseFullPath
 (
 file
-*
 principal
 databasePath
 )
