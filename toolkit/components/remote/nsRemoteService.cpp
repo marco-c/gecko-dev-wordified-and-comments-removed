@@ -995,15 +995,11 @@ nsresult
 rv
 =
 client
-?
-client
 -
 >
 Init
 (
 )
-:
-NS_ERROR_FAILURE
 ;
 NS_ENSURE_SUCCESS
 (
