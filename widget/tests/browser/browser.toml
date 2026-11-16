@@ -1144,6 +1144,11 @@ files
 =
 [
 "
+helper_touchscreen_swipe_irregular_area
+.
+html
+"
+"
 helper_touchscreen_swipe_irregular_scrollers
 .
 html
