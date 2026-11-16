@@ -681,7 +681,7 @@ browser
 .
 tabs
 .
-loadBookmarksInBackground
+loadUILinkInBackground
 "
 false
 ]

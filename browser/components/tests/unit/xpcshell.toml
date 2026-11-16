@@ -218,6 +218,13 @@ js
 ]
 [
 "
+test_profileDataUpgrade_loadUILinkPrefs
+.
+js
+"
+]
+[
+"
 test_profileDataUpgrade_separatePrivateDefault
 .
 js

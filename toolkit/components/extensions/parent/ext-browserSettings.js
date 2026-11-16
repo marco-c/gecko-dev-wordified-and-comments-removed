@@ -996,7 +996,7 @@ browser
 .
 tabs
 .
-loadBookmarksInTabs
+loadUILinkInTab
 "
 ]
 setCallback
@@ -1035,7 +1035,7 @@ browser
 .
 tabs
 .
-loadBookmarksInTabs
+loadUILinkInTab
 "
 )
 ;

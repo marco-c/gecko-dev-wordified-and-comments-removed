@@ -4,14 +4,14 @@ strict
 "
 ;
 const
-PREF_LOAD_BOOKMARKS_IN_TABS
+PREF_LOAD_UI_LINK_IN_TAB
 =
 "
 browser
 .
 tabs
 .
-loadBookmarksInTabs
+loadUILinkInTab
 "
 ;
 var
@@ -333,7 +333,7 @@ set
 :
 [
 [
-PREF_LOAD_BOOKMARKS_IN_TABS
+PREF_LOAD_UI_LINK_IN_TAB
 true
 ]
 ]
