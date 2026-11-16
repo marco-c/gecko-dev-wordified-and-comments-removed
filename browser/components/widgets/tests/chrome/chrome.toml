@@ -15,3 +15,10 @@ test_moz_widget_header
 html
 "
 ]
+[
+"
+test_widget_composer
+.
+html
+"
+]
