@@ -276,11 +276,6 @@ product
 firefox
 run
 :
-clone
--
-with
-:
-hg
 using
 :
 run

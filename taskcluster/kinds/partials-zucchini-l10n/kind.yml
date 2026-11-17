@@ -370,11 +370,6 @@ time
 5400
 run
 :
-clone
--
-with
-:
-hg
 using
 :
 run

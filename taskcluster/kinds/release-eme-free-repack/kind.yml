@@ -280,11 +280,6 @@ using
 run
 -
 task
-clone
--
-with
-:
-hg
 cwd
 :
 '
