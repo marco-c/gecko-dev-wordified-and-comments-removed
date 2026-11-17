@@ -1012,8 +1012,6 @@ globalThis
 window
 )
 ;
-window
-.
 TabBarVisibility
 .
 update

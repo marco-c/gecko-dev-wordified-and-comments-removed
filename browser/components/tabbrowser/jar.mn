@@ -305,7 +305,7 @@ bar
 -
 visibility
 .
-js
+mjs
 (
 content
 /
@@ -315,7 +315,7 @@ bar
 -
 visibility
 .
-js
+mjs
 )
 content
 /
