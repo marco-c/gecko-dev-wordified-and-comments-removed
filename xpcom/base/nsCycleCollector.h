@@ -261,5 +261,10 @@ nsCycleCollector_forgetJSContext
 (
 )
 ;
+bool
+nsCycleCollector_isFreeingSnowWhite
+(
+)
+;
 #
 endif

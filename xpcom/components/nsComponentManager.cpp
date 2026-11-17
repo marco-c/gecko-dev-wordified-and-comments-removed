@@ -2134,7 +2134,7 @@ obs
 obs
 -
 >
-NotifyObservers
+NotifyWhenScriptSafe
 (
 nullptr
 "
