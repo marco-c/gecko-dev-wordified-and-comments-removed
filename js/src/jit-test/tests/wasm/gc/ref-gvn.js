@@ -8873,6 +8873,12 @@ assertOpcodesInOrder
 unoptimized
 [
 "
+WasmLoadInternalField
+"
+"
+WasmLoadField
+"
+"
 WasmRefTestConcrete
 "
 "
@@ -8895,6 +8901,12 @@ assertOpcodesInOrder
 optimized
 [
 "
+WasmLoadInternalField
+"
+"
+WasmLoadField
+"
+"
 WasmRefTestConcrete
 "
 "
@@ -8904,6 +8916,7 @@ Test
 WasmRefCastInfallible
 "
 "
+!
 WasmLoadInternalField
 "
 "
@@ -8944,6 +8957,12 @@ assertOpcodesInOrder
 unoptimized
 [
 "
+WasmLoadInternalField
+"
+"
+WasmLoadField
+"
+"
 WasmRefTestConcrete
 "
 "
@@ -8966,6 +8985,12 @@ assertOpcodesInOrder
 optimized
 [
 "
+WasmLoadInternalField
+"
+"
+WasmLoadField
+"
+"
 WasmRefTestConcrete
 "
 "
@@ -8975,6 +9000,7 @@ Test
 WasmRefCastInfallible
 "
 "
+!
 WasmLoadInternalField
 "
 "
