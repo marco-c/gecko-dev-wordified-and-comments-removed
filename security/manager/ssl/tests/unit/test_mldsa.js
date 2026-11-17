@@ -278,7 +278,7 @@ example
 .
 com
 "
-SEC_ERROR_UNSUPPORTED_KEYALG
+PRErrorCodeSuccess
 )
 ;
 }

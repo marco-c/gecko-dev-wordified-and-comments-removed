@@ -2642,7 +2642,13 @@ SSL_OptionSet
 (
 fd
 SSL_ENABLE_SESSION_TICKETS
-true
+key
+-
+>
+keyType
+!
+=
+mldsaKey
 )
 ;
 SSL_OptionSet

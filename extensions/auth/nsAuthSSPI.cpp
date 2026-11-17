@@ -1641,7 +1641,13 @@ der
 PublicKeyAlgorithm
 publicKeyAlg
 ;
+std
+:
+:
+optional
+<
 DigestAlgorithm
+>
 digestAlg
 ;
 Reader
@@ -1674,6 +1680,10 @@ pkixResult
 !
 =
 Success
+|
+|
+!
+digestAlg
 )
 {
 return
@@ -1681,6 +1691,7 @@ return
 }
 switch
 (
+*
 digestAlg
 )
 {

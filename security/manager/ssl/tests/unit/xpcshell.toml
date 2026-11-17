@@ -231,6 +231,12 @@ test_mldsa
 *
 "
 "
+test_mldsa_verification
+/
+*
+*
+"
+"
 test_name_constraints
 /
 *
@@ -1622,6 +1628,13 @@ true
 #
 hardcoded
 ports
+[
+"
+test_mldsa_verification
+.
+js
+"
+]
 [
 "
 test_name_constraints
