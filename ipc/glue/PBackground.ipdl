@@ -703,8 +703,8 @@ params
 async
 PBackgroundLocalStorageCache
 (
-PrincipalInfo
-principalInfo
+nsIPrincipal
+principal
 nsCString
 originKey
 uint32_t

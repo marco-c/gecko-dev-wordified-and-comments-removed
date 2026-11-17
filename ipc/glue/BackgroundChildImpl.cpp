@@ -985,9 +985,11 @@ BackgroundChildImpl
 :
 AllocPBackgroundLocalStorageCacheChild
 (
-const
-PrincipalInfo
-&
+NotNull
+<
+nsIPrincipal
+*
+>
 const
 nsACString
 &

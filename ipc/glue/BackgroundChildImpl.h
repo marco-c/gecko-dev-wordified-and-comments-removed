@@ -207,10 +207,12 @@ PBackgroundLocalStorageCacheChild
 *
 AllocPBackgroundLocalStorageCacheChild
 (
-const
-PrincipalInfo
-&
-aPrincipalInfo
+NotNull
+<
+nsIPrincipal
+*
+>
+aPrincipal
 const
 nsACString
 &
