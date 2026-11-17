@@ -829,6 +829,11 @@ components
 useCases
 .
 pictureInPictureUseCases
+menuCustomizationRepository
+=
+components
+.
+menuCustomizationRepository
 shareUseCases
 =
 components
