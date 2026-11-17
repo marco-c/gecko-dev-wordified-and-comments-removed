@@ -1915,16 +1915,6 @@ static
 guint32
 sLastButtonPressTime
 ;
-MozContainer
-*
-GetMozContainer
-(
-)
-{
-return
-mContainer
-;
-}
 GdkWindow
 *
 GetGdkWindow

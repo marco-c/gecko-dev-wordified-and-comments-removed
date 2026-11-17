@@ -21581,14 +21581,11 @@ mSurface
 SetParentLocked
 (
 lock
-MOZ_WL_SURFACE
-(
 parentnsWindow
 -
 >
-GetMozContainer
+GetWaylandSurface
 (
-)
 )
 )
 ;
@@ -36001,10 +35998,7 @@ make_unique
 WaylandSurfaceLock
 >
 (
-MOZ_WL_SURFACE
-(
-mContainer
-)
+mSurface
 )
 ;
 #

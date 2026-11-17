@@ -4605,14 +4605,11 @@ dangling
 &
 &
 !
-MOZ_WL_SURFACE
-(
 popup
 -
 >
-GetMozContainer
+GetWaylandSurface
 (
-)
 )
 -
 >

@@ -522,14 +522,11 @@ aWindow
 )
 mWaylandSurface
 (
-MOZ_WL_SURFACE
-(
 aWindow
 -
 >
-GetMozContainer
+GetWaylandSurface
 (
-)
 )
 )
 mVsyncRate
