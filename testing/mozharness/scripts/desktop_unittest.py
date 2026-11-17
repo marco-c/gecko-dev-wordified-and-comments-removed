@@ -1771,6 +1771,7 @@ by
 mochitest
 reftest
 crashtest
+xpcshell
 ignored
 otherwise
 .
