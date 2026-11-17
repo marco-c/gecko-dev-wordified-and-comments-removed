@@ -207,6 +207,11 @@ bool
 aCalledInCallback
 )
 ;
+bool
+WaitForPendingRemoteTexture
+(
+)
+;
 TextureHost
 *
 GetAsTextureHostForComposite

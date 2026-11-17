@@ -544,6 +544,11 @@ TransactionBuilder
 aFastTxn
 )
 ;
+bool
+WaitForPendingRemoteTextures
+(
+)
+;
 void
 ApplyAsyncImageForPipeline
 (
