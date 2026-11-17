@@ -14813,6 +14813,10 @@ canRestoreLastSession
 activeNotifications
 &
 &
+!
+isPrivateWindow
+&
+&
 '
 browser
 .
