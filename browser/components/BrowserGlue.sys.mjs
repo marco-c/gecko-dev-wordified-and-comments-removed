@@ -10539,7 +10539,7 @@ _showUpgradeDialog
 return
 ;
 }
-const
+let
 willPrompt
 =
 await
@@ -10556,6 +10556,11 @@ isStartupCheck
 /
 true
 )
+;
+let
+defaultPromptSuppressed
+=
+false
 ;
 if
 (
@@ -10621,6 +10626,7 @@ const
 {
 showSpotlightPrompt
 message
+disablePrompt
 }
 =
 setToDefaultFeature
@@ -10629,6 +10635,21 @@ getAllVariables
 (
 )
 ;
+if
+(
+disablePrompt
+)
+{
+defaultPromptSuppressed
+=
+true
+;
+willPrompt
+=
+false
+;
+}
+else
 if
 (
 showSpotlightPrompt
@@ -10772,6 +10793,8 @@ selectedBrowser
 return
 ;
 }
+else
+{
 /
 /
 Intentionally
@@ -10796,6 +10819,7 @@ prompt
 win
 )
 ;
+}
 }
 await
 lazy
@@ -10847,6 +10871,7 @@ context
 willShowDefaultPrompt
 :
 willPrompt
+defaultPromptSuppressed
 source
 :
 "
