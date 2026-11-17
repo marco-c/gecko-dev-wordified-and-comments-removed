@@ -76,12 +76,6 @@ vp
 namespace
 JS
 {
-extern
-JS_PUBLIC_DATA
-const
-HandleValue
-UndefinedHandleValue
-;
 namespace
 detail
 {
