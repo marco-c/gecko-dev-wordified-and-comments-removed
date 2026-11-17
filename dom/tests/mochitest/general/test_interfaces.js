@@ -1425,9 +1425,6 @@ CSSImageValue
 insecureContext
 :
 true
-nightly
-:
-true
 }
 {
 name
@@ -1468,9 +1465,6 @@ CSSKeywordValue
 insecureContext
 :
 true
-nightly
-:
-true
 }
 {
 name
@@ -1501,9 +1495,6 @@ CSSMathClamp
 insecureContext
 :
 true
-nightly
-:
-true
 }
 {
 name
@@ -1512,9 +1503,6 @@ name
 CSSMathInvert
 "
 insecureContext
-:
-true
-nightly
 :
 true
 }
@@ -1527,9 +1515,6 @@ CSSMathMax
 insecureContext
 :
 true
-nightly
-:
-true
 }
 {
 name
@@ -1538,9 +1523,6 @@ name
 CSSMathMin
 "
 insecureContext
-:
-true
-nightly
 :
 true
 }
@@ -1553,9 +1535,6 @@ CSSMathNegate
 insecureContext
 :
 true
-nightly
-:
-true
 }
 {
 name
@@ -1564,9 +1543,6 @@ name
 CSSMathProduct
 "
 insecureContext
-:
-true
-nightly
 :
 true
 }
@@ -1579,9 +1555,6 @@ CSSMathSum
 insecureContext
 :
 true
-nightly
-:
-true
 }
 {
 name
@@ -1592,9 +1565,6 @@ CSSMathValue
 insecureContext
 :
 true
-nightly
-:
-true
 }
 {
 name
@@ -1603,9 +1573,6 @@ name
 CSSMatrixComponent
 "
 insecureContext
-:
-true
-nightly
 :
 true
 }
@@ -1658,9 +1625,6 @@ CSSNumericArray
 insecureContext
 :
 true
-nightly
-:
-true
 }
 {
 name
@@ -1669,9 +1633,6 @@ name
 CSSNumericValue
 "
 insecureContext
-:
-true
-nightly
 :
 true
 }
@@ -1702,9 +1663,6 @@ name
 CSSPerspective
 "
 insecureContext
-:
-true
-nightly
 :
 true
 }
@@ -1760,9 +1718,6 @@ CSSRotate
 insecureContext
 :
 true
-nightly
-:
-true
 }
 {
 name
@@ -1793,9 +1748,6 @@ CSSScale
 insecureContext
 :
 true
-nightly
-:
-true
 }
 {
 name
@@ -1816,9 +1768,6 @@ CSSSkew
 insecureContext
 :
 true
-nightly
-:
-true
 }
 {
 name
@@ -1829,9 +1778,6 @@ CSSSkewX
 insecureContext
 :
 true
-nightly
-:
-true
 }
 {
 name
@@ -1840,9 +1786,6 @@ name
 CSSSkewY
 "
 insecureContext
-:
-true
-nightly
 :
 true
 }
@@ -1905,9 +1848,6 @@ CSSStyleValue
 insecureContext
 :
 true
-nightly
-:
-true
 }
 {
 name
@@ -1928,9 +1868,6 @@ CSSTransformComponent
 insecureContext
 :
 true
-nightly
-:
-true
 }
 {
 name
@@ -1939,9 +1876,6 @@ name
 CSSTransformValue
 "
 insecureContext
-:
-true
-nightly
 :
 true
 }
@@ -1964,9 +1898,6 @@ CSSTranslate
 insecureContext
 :
 true
-nightly
-:
-true
 }
 {
 name
@@ -1975,9 +1906,6 @@ name
 CSSUnitValue
 "
 insecureContext
-:
-true
-nightly
 :
 true
 }
@@ -1990,9 +1918,6 @@ CSSUnparsedValue
 insecureContext
 :
 true
-nightly
-:
-true
 }
 {
 name
@@ -2001,9 +1926,6 @@ name
 CSSVariableReferenceValue
 "
 insecureContext
-:
-true
-nightly
 :
 true
 }
@@ -8498,9 +8420,6 @@ StylePropertyMap
 insecureContext
 :
 true
-nightly
-:
-true
 }
 {
 name
@@ -8509,9 +8428,6 @@ name
 StylePropertyMapReadOnly
 "
 insecureContext
-:
-true
-nightly
 :
 true
 }
@@ -11567,6 +11483,16 @@ prompt
 insecureContext
 :
 true
+}
+{
+name
+:
+"
+pushManager
+"
+insecureContext
+:
+false
 }
 {
 name
