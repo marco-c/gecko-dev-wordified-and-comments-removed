@@ -118,6 +118,11 @@ platform
 linux
 mac
 )
+fuzzy
+(
+1
+22
+)
 =
 =
 mask

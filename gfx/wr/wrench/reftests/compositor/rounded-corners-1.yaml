@@ -21,11 +21,10 @@ applied
 to
 the
 primitive
-causing
-allocation
+instead
 of
-a
-mask
+the
+compositor
 surface
 .
 #
