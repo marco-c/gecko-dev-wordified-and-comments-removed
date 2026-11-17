@@ -19497,6 +19497,11 @@ MediaSegment
 :
 Type
 aType
+MediaTrack
+:
+:
+Flags
+aFlags
 )
 {
 ForwardedInputTrack
@@ -19515,8 +19520,7 @@ aType
 AddTrack
 (
 track
-{
-}
+aFlags
 )
 ;
 return
