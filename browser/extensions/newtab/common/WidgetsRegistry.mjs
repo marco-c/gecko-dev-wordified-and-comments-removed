@@ -1165,15 +1165,6 @@ as
 *
 widgets
 .
-pictureOfTheDay
-.
-setAsWallpaper
-.
-enabled
-or
-*
-widgets
-.
 privacy
 .
 showVpnMessages
