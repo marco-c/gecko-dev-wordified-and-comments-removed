@@ -141,9 +141,6 @@ locationButton
 content
 ?
 .
-statusCardEl
-?
-.
 locationButtonEl
 ?
 ?
