@@ -1925,11 +1925,6 @@ R
 string
 .
 ip_protection_menu_paused
-badgeState
-=
-MenuItemState
-.
-DISABLED
 state
 =
 MenuItemState

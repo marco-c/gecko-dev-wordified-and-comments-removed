@@ -1375,11 +1375,6 @@ WARNING
 IPProtectionStatus
 .
 DataLimitReached
--
->
-MenuItemState
-.
-DISABLED
 IPProtectionStatus
 .
 Unavailable
