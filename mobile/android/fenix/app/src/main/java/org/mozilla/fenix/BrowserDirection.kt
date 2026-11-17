@@ -324,14 +324,6 @@ id
 .
 downloadLanguagesPreferenceFragment
 )
-FromMenuDialogFragment
-(
-R
-.
-id
-.
-menuDialogFragment
-)
 FromWebCompatReporterFragment
 (
 R

@@ -1033,11 +1033,6 @@ finishAndRemoveTask
 scope
 =
 lifecycleScope
-settings
-=
-components
-.
-settings
 isSandboxCustomTab
 =
 isSandboxCustomTab

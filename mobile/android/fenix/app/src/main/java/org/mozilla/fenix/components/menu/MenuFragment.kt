@@ -1582,15 +1582,6 @@ components
 .
 settings
 .
-isMenuCustomizationEnabled
-&
-&
-context
-.
-components
-.
-settings
-.
 isMenuCustomizationScreenEnabled
 }
 FirefoxTheme
