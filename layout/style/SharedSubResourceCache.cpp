@@ -10,6 +10,15 @@ include
 "
 mozilla
 /
+Preferences
+.
+h
+"
+#
+include
+"
+mozilla
+/
 RefPtr
 .
 h
