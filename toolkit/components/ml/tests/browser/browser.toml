@@ -496,6 +496,13 @@ js
 ]
 [
 "
+browser_ml_model_hub_denylist
+.
+js
+"
+]
+[
+"
 browser_ml_model_hub_download
 .
 js
@@ -531,6 +538,13 @@ mjs
 [
 "
 browser_ml_model_hub_etag
+.
+js
+"
+]
+[
+"
+browser_ml_model_hub_list
 .
 js
 "
