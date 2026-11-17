@@ -459,11 +459,6 @@ onClickEvent
 onInteraction
 =
 onClick
-debounceClicks
-=
-it
-.
-debounceClicks
 )
 is
 ExpandableMenuItem

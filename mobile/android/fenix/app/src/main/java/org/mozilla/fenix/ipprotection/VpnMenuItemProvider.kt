@@ -1068,9 +1068,6 @@ onClickEvent
 MenuAction
 .
 IPProtectionToggle
-debounceClicks
-=
-false
 summary
 =
 dataLimitSummary
