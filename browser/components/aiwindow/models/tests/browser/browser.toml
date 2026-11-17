@@ -177,6 +177,13 @@ js
 ]
 [
 "
+browser_monitor_setup
+.
+js
+"
+]
+[
+"
 browser_monitor_store
 .
 js
