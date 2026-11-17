@@ -249,6 +249,11 @@ recreating
 unknownFiles_profile
 .
 zip
+(
+test_unknownFiles
+.
+js
+)
 ]
 [
 "
@@ -273,6 +278,11 @@ recreating
 unsetLastAccessTime_profile
 .
 zip
+(
+test_secondaryCacheValidity
+.
+js
+)
 ]
 [
 "
