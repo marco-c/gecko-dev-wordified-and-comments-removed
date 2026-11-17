@@ -316,10 +316,11 @@ FUNCTION
 clasp
 =
 =
+&
 js
 :
 :
-FunctionClassPtr
+FunctionClass
 )
 ;
 MOZ_ASSERT_IF
@@ -340,10 +341,11 @@ FUNCTION_EXTENDED
 clasp
 =
 =
+&
 js
 :
 :
-FunctionExtendedClassPtr
+ExtendedFunctionClass
 )
 ;
 MOZ_ASSERT

@@ -152,16 +152,6 @@ n
 }
 "
 ;
-extern
-const
-JSClass
-FunctionClass
-;
-extern
-const
-JSClass
-ExtendedFunctionClass
-;
 namespace
 wasm
 {
