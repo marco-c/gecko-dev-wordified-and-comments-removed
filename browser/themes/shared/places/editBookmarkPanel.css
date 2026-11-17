@@ -700,6 +700,16 @@ border
 radius
 )
 ;
+padding
+:
+0
+;
+aspect
+-
+ratio
+:
+1
+;
 &
 :
 hover
