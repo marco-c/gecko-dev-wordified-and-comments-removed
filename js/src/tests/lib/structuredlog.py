@@ -53,6 +53,12 @@ getpid
         
 }
         
+self
+.
+fh
+=
+None
+        
 directory
 =
 os
@@ -64,11 +70,12 @@ get
 "
 MOZ_UPLOAD_DIR
 "
-"
-.
-"
 )
         
+if
+directory
+:
+            
 self
 .
 fh
@@ -155,6 +162,12 @@ obj
 )
 :
         
+if
+self
+.
+fh
+:
+            
 print
 (
 json
