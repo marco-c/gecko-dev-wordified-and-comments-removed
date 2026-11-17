@@ -3506,7 +3506,6 @@ FloatRegister
 output
 )
 {
-static
 const
 SimdConstant
 allOnes
@@ -3608,7 +3607,6 @@ FloatRegister
 output
 )
 {
-static
 const
 SimdConstant
 allOnes
@@ -4074,7 +4072,6 @@ HasSSE42
 )
 )
 ;
-static
 const
 SimdConstant
 allOnes
@@ -7419,7 +7416,6 @@ dest
 )
 ;
 }
-static
 const
 SimdConstant
 minOverflowedInt

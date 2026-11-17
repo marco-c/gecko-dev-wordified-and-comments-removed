@@ -2704,7 +2704,6 @@ unsigned
 true
 )
 ;
-MOZ_GLOBINIT
 JSObject
 *
 const
@@ -2713,10 +2712,17 @@ Wrapper
 :
 defaultProto
 =
+reinterpret_cast
+<
+JSObject
+*
+>
+(
 TaggedProto
 :
 :
-LazyProto
+LazyProtoBits
+)
 ;
 JSObject
 *
