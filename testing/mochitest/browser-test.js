@@ -4976,6 +4976,14 @@ Tester_finish
 (
 )
 {
+this
+.
+PerTestCoverageUtils
+.
+afterSuiteSync
+(
+)
+;
 var
 passCount
 =

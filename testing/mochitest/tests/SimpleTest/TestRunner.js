@@ -2943,6 +2943,13 @@ e10s
 e10s
 "
 ;
+await
+SpecialPowers
+.
+requestFinalDumpCoverageCounters
+(
+)
+;
 TestRunner
 .
 structuredLogger
