@@ -269,9 +269,7 @@ backgroundManager
 SendPUDPSocketConstructor
 (
 this
-Nothing
-(
-)
+nullptr
 mFilterName
 )
 )
