@@ -2934,11 +2934,6 @@ val
 ;
 private
 :
-[
-[
-maybe_unused
-]
-]
 uint8_t
 padding
 [
