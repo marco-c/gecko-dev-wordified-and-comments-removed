@@ -791,6 +791,9 @@ structuredClone
 locks
 "
 "
+storage
+"
+"
 suppressed
 "
 "
