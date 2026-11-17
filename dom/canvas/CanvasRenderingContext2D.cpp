@@ -7680,7 +7680,7 @@ mBufferProvider
 mBufferProvider
 -
 >
-IsRemote
+IsAccelerated
 (
 )
 |
@@ -8891,7 +8891,7 @@ RequiresRefresh
 mBufferProvider
 -
 >
-IsRemote
+IsAccelerated
 (
 )
 &
@@ -10244,7 +10244,7 @@ mBufferProvider
 mBufferProvider
 -
 >
-IsRemote
+IsAccelerated
 (
 )
 &
@@ -10313,7 +10313,7 @@ false
 }
 aOutProvider
 =
-PersistentBufferProviderRemote
+PersistentBufferProviderAccelerated
 :
 :
 Create
@@ -10375,7 +10375,7 @@ false
 }
 aOutProvider
 =
-PersistentBufferProviderRemote
+PersistentBufferProviderAccelerated
 :
 :
 Create
@@ -32166,7 +32166,7 @@ fastPath
 mBufferProvider
 -
 >
-IsRemote
+IsAccelerated
 (
 )
 &
