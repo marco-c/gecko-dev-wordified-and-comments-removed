@@ -1793,16 +1793,13 @@ jstestbrowser
 the
 relative
 path
-can
+should
 be
-either
 from
+the
 "
             
 "
-topsrcdir
-or
-the
 staged
 area
 "
