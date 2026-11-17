@@ -2719,6 +2719,14 @@ setAttributes
 (
 buttonElem
 localeId
+button
+[
+"
+l10n
+-
+args
+"
+]
 )
 ;
 }
