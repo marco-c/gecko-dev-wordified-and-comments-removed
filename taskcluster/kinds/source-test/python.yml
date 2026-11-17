@@ -2543,6 +2543,16 @@ python
 '
 xpcom
 /
+components
+/
+gen_static_components
+.
+py
+'
+-
+'
+xpcom
+/
 idl
 -
 parser
