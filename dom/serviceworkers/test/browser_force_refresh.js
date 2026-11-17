@@ -264,6 +264,12 @@ mjs
 ;
 ForceRefreshParent
 .
+resetState
+(
+)
+;
+ForceRefreshParent
+.
 SimpleTest
 =
 SimpleTest
