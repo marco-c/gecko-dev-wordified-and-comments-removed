@@ -3143,6 +3143,7 @@ Get
 CheckRemoteTextureReady
 (
 front
+this
 callback
 )
 ;
@@ -3636,9 +3637,10 @@ Get
 )
 -
 >
-SuppressRemoteTextureReadyCheck
+CancelRemoteTextureReadyCheck
 (
 front
+this
 )
 ;
 list
