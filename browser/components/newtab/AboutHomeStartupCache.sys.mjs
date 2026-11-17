@@ -1022,7 +1022,7 @@ console
 createInstance
 (
 {
-prefix
+logModule
 :
 this
 .
@@ -1338,7 +1338,7 @@ loadContextInfo
 default
 ;
 let
-storage
+cacheStorage
 =
 Services
 .
@@ -1351,7 +1351,7 @@ lci
 ;
 try
 {
-storage
+cacheStorage
 .
 asyncOpenURI
 (

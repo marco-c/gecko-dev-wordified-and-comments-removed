@@ -320,7 +320,7 @@ storage
 ;
 }
 let
-storage
+storageData
 =
 data
 .
@@ -375,7 +375,7 @@ this
 domain
 .
 delete
-storage
+storageData
 [
 domain
 ]
@@ -421,13 +421,13 @@ null
 {
 if
 (
-storage
+storageData
 [
 domain
 ]
 &
 &
-storage
+storageData
 [
 domain
 ]
@@ -437,7 +437,7 @@ key
 )
 {
 delete
-storage
+storageData
 [
 domain
 ]
@@ -452,13 +452,13 @@ else
 if
 (
 !
-storage
+storageData
 [
 domain
 ]
 )
 {
-storage
+storageData
 [
 domain
 ]
@@ -467,7 +467,7 @@ domain
 }
 ;
 }
-storage
+storageData
 [
 domain
 ]

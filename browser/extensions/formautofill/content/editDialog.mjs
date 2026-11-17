@@ -396,7 +396,7 @@ guid
 )
 {
 let
-storage
+autofillStorage
 =
 await
 this
@@ -411,7 +411,7 @@ guid
 )
 {
 await
-storage
+autofillStorage
 .
 update
 (
@@ -423,7 +423,7 @@ record
 else
 {
 await
-storage
+autofillStorage
 .
 add
 (

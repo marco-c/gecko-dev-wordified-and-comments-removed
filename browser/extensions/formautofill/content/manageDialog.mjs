@@ -707,7 +707,7 @@ _loadRecords
 )
 {
 let
-storage
+autofillStorage
 =
 await
 this
@@ -720,7 +720,7 @@ let
 records
 =
 await
-storage
+autofillStorage
 .
 getAll
 (
@@ -1017,7 +1017,7 @@ options
 )
 {
 let
-storage
+autofillStorage
 =
 await
 this
@@ -1067,7 +1067,7 @@ of
 options
 )
 {
-storage
+autofillStorage
 .
 remove
 (
