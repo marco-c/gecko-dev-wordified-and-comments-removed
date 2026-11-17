@@ -4069,6 +4069,8 @@ Disabled
 {
 size_t
 decodingErrors
+=
+0
 ;
 std
 :
