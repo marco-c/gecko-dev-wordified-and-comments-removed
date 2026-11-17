@@ -260,6 +260,14 @@ androidx
 .
 activity
 implementation
+libs
+.
+androidx
+.
+activity
+.
+compose
+implementation
 platform
 (
 libs

@@ -2009,7 +2009,6 @@ shows
 the
 security
 code
-and
 a
 "
 Save
@@ -2017,6 +2016,16 @@ security
 codes
 "
 toggle
+and
+an
+edit
+button
+that
+opens
+an
+edit
+card
+sheet
 .
 [
 Bug
