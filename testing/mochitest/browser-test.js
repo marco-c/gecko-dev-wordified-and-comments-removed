@@ -8584,6 +8584,14 @@ gBrowser
 {
 gBrowser
 .
+selectedBrowser
+.
+focus
+(
+)
+;
+gBrowser
+.
 addTab
 (
 "
