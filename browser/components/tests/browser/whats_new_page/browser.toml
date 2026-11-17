@@ -39,7 +39,9 @@ startup
 test
 .
 Verify
-runs
+and
+repeat
+run
 tests
 multiple
 times
@@ -192,6 +194,9 @@ if
 verify
 -
 standalone
+"
+"
+repeat
 "
 ]
 [
