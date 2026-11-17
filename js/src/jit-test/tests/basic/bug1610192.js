@@ -1,3 +1,5 @@
+try
+{
 var
 s
 =
@@ -32,3 +34,20 @@ s
 "
 )
 ;
+}
+catch
+(
+e
+)
+{
+assertEq
+(
+e
+"
+out
+of
+memory
+"
+)
+;
+}
