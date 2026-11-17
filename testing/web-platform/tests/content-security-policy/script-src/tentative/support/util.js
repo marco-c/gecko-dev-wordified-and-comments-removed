@@ -76,9 +76,6 @@ alphabet
 "
 base64url
 "
-omitPadding
-:
-true
 }
 )
 ;
