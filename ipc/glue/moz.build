@@ -229,6 +229,11 @@ IPCForwards
 h
 "
 "
+IPCModule
+.
+h
+"
+"
 IPCStreamUtils
 .
 h
@@ -954,6 +959,11 @@ cpp
 "
 "
 IPCMessageUtilsSpecializations
+.
+cpp
+"
+"
+IPCModule
 .
 cpp
 "

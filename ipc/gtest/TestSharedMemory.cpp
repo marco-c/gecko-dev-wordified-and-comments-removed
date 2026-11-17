@@ -3915,7 +3915,7 @@ previous
 ;
 TEST
 (
-IPCSharedMemoryMapping
+IPCSharedMemoryHandle
 MemoryAllocationReporting
 )
 {
