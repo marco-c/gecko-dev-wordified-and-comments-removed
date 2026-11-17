@@ -81,6 +81,7 @@ c
 )
 2017
 2022
+2026
 Anthony
 Green
 -
@@ -1933,7 +1934,7 @@ FFI_CLOSURE_COPY_TRAMP_DATA
 Entry
 point
 from
-preceeding
+preceding
 Go
 closures
 .
@@ -2635,7 +2636,7 @@ FFI_CLOSURE_COPY_TRAMP_DATA
 Entry
 point
 from
-preceeding
+preceding
 Go
 closure
 .
@@ -6702,8 +6703,14 @@ defined
 __ELF__
 &
 &
+(
 defined
 __linux__
+|
+|
+defined
+__FreeBSD__
+)
 .
 section
 .

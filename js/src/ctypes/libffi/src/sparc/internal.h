@@ -108,5 +108,15 @@ SPARC_FLAG_FP_ARGS
 64
 #
 define
+SP_V9_FLAG_RET_COMPLEX_SMALL
+128
+/
+*
+v9
+only
+*
+/
+#
+define
 SPARC_SIZEMASK_SHIFT
 8

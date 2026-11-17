@@ -3922,3 +3922,10 @@ AARCH64_GCS
 )
 #
 endif
+#
+ifdef
+__APPLE__
+.
+subsections_via_symbols
+#
+endif
