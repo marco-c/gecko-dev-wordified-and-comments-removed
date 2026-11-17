@@ -5683,6 +5683,10 @@ mConnInfo
 &
 &
 !
+mIsInTunnel
+&
+&
+!
 (
 mTransactionCaps
 &

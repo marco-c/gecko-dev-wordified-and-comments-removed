@@ -4517,6 +4517,10 @@ mConnInfo
 &
 &
 !
+mInSpdyTunnel
+&
+&
+!
 (
 mTransactionCaps
 &
