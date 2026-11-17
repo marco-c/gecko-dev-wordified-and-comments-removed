@@ -1627,6 +1627,10 @@ JSScript
 rawScript
 )
 ;
+targetFunction
+=
+nullptr
+;
 break
 ;
 }
@@ -2535,6 +2539,10 @@ JSScript
 rawScript
 )
 ;
+targetFunction
+=
+nullptr
+;
 break
 ;
 }
@@ -3090,6 +3098,10 @@ JSScript
 (
 rawScript
 )
+;
+targetFunction
+=
+nullptr
 ;
 break
 ;
