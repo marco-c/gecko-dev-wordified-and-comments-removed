@@ -40,10 +40,7 @@ with
 Firefox
 development
 including
-Mercurial
-(
-hg
-)
+git
 mach
 moz
 .
