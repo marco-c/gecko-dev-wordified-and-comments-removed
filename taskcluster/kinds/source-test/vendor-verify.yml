@@ -332,11 +332,6 @@ lint
 opt
 run
 :
-clone
--
-with
-:
-hg
 using
 :
 run
