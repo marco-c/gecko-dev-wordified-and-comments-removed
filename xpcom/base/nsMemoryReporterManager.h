@@ -784,16 +784,6 @@ PendingReportersState
 *
 mPendingReportersState
 ;
-nsCOMPtr
-<
-nsIEventTarget
->
-mThreadPool
-MOZ_GUARDED_BY
-(
-mMutex
-)
-;
 PendingProcessesState
 *
 GetStateForGeneration
