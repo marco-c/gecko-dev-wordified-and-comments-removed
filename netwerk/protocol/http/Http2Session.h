@@ -1944,6 +1944,14 @@ char
 >
 mOutputQueueBuffer
 ;
+bool
+OutputQueueHasRoom
+(
+uint32_t
+aCount
+)
+const
+;
 PRIntervalTime
 mPingThreshold
 ;

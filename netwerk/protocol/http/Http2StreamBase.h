@@ -1222,6 +1222,12 @@ mTxInlineFrameUsed
 0
 }
 ;
+nsresult
+mTransmitError
+{
+NS_OK
+}
+;
 uint32_t
 mRFC7540Priority
 =

@@ -5520,6 +5520,13 @@ on
 Android
 [
 "
+test_http2_output_queue_limit
+.
+js
+"
+]
+[
+"
 test_http2_proxy_concurrent_stream
 .
 js
