@@ -900,6 +900,13 @@ principal
 )
 ;
 }
+featureInChain
+.
+AppendSourceExpressionsFromFeature
+(
+aFeature
+)
+;
 continue
 ;
 }
@@ -1794,6 +1801,13 @@ originNoSuffix
 )
 ;
 }
+feature
+.
+GetSourceExpressions
+(
+aList
+)
+;
 return
 ;
 }
