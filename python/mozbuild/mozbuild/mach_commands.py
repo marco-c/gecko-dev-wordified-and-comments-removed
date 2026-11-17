@@ -149,6 +149,8 @@ MOZBUILD_METRICS_PATH
     
 ForwardingArgumentParser
     
+compiler_cache_env
+    
 ensure_l10n_central
     
 get_latest_file
@@ -2191,6 +2193,18 @@ PATH
 ]
 =
 configured_path
+    
+env
+.
+update
+(
+compiler_cache_env
+(
+command_context
+.
+substs
+)
+)
     
 argv
 =
@@ -8501,6 +8515,51 @@ cleanup
     
 return
 exit_code
+def
+_source_url
+(
+repo
+changeset
+)
+:
+    
+rev_path
+=
+"
+/
+rev
+/
+"
+if
+"
+hg
+.
+mozilla
+.
+org
+"
+in
+repo
+else
+"
+/
+commit
+/
+"
+    
+return
+f
+"
+{
+repo
+}
+{
+rev_path
+}
+{
+changeset
+}
+"
 Command
 (
     
@@ -9085,13 +9144,11 @@ n
 f
 "
 {
+_source_url
+(
 comm_repo
-}
-/
-rev
-/
-{
 comm_changeset
+)
 }
 \
 n
@@ -9100,13 +9157,11 @@ n
 f
 "
 {
+_source_url
+(
 gecko_repo
-}
-/
-rev
-/
-{
 gecko_changeset
+)
 }
 \
 n
@@ -9163,18 +9218,11 @@ changeset
                     
 source_url
 =
-f
-"
-{
+_source_url
+(
 repo
-}
-/
-rev
-/
-{
 changeset
-}
-"
+)
             
 with
 open
