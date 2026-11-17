@@ -216,6 +216,16 @@ shown
 "
 )
 ;
+await
+BrowserTestUtils
+.
+allTabOpenAnimationsFinished
+(
+tab
+.
+documentGlobal
+)
+;
 tab
 .
 scrollIntoView
