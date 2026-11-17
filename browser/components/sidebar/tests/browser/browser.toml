@@ -222,6 +222,13 @@ js
 ]
 [
 "
+browser_history_sidebar_card_context_menu
+.
+js
+"
+]
+[
+"
 browser_history_sidebar_drag_and_drop
 .
 js
@@ -321,6 +328,13 @@ js
 [
 "
 browser_opentabs_sidebar
+.
+js
+"
+]
+[
+"
+browser_places_sidebar
 .
 js
 "
