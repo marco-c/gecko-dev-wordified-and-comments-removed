@@ -1883,6 +1883,15 @@ components
 settings
 .
 shouldAutofillLogins
+creditCardSecurityCodeEnabled
+=
+context
+.
+components
+.
+settings
+.
+isCreditCardSecurityCodeEnabled
 enterpriseRootsEnabled
 =
 context
