@@ -489,6 +489,13 @@ js
 ]
 [
 "
+browser_ml_model_hub_download
+.
+js
+"
+]
+[
+"
 browser_ml_native
 .
 js
