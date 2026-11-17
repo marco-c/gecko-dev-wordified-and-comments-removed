@@ -310,6 +310,9 @@ AddonTestUtils
 promiseShutdownManager
 (
 {
+clearOverrides
+:
+false
 clearL10nRegistry
 :
 false
