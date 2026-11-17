@@ -1326,8 +1326,8 @@ structs
 struct
 RedirectHistoryEntryInfo
 {
-PrincipalInfo
-principalInfo
+nsIPrincipal
+principal
 ;
 nullable
 nsIURI
@@ -1341,9 +1341,8 @@ remoteAddress
 struct
 InterceptionInfoArg
 {
-PrincipalInfo
-?
-triggeringPrincipalInfo
+nsIPrincipal
+triggeringPrincipal
 ;
 nsContentPolicyType
 contentPolicyType
