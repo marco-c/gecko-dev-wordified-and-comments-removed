@@ -67,7 +67,7 @@ RefMut
 collections
 :
 :
-HashSet
+BTreeSet
 rc
 :
 :
@@ -1533,7 +1533,7 @@ let
 mut
 result
 =
-HashSet
+BTreeSet
 :
 :
 new
