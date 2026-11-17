@@ -1025,7 +1025,7 @@ mozac_feature_addons_permissions_browser_data_description
 "
 >
 Resinte
-browserskiednis
+sneupskiednis
 cookies
 en
 relatearre
@@ -1374,7 +1374,7 @@ name
 mozac_feature_addons_permissions_management_description
 "
 >
-Utwreidigsgebr
+Utwreidingsgebr
 k
 kontrolearje
 en
@@ -2787,7 +2787,7 @@ name
 mozac_feature_addons_permissions_management_description_for_update
 "
 >
-Utwreidigsgebr
+Utwreidingsgebr
 k
 kontrolearje
 en
@@ -4874,7 +4874,7 @@ en
 ynteraksjegegevens
 diele
 mei
-twreiding
+twreidings
 ntwikkeler
 <
 /
@@ -6307,7 +6307,7 @@ Technyske
 en
 ynteraksjegegevens
 mei
-twreiding
+twreidings
 ntwikkeler
 diele
 <
@@ -8862,6 +8862,7 @@ mozac_feature_addons_failed_to_disable
 "
 >
 Utskeakeljen
+fan
 %
 1
 s
