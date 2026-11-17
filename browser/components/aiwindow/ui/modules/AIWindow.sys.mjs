@@ -10506,6 +10506,9 @@ hardDeleteMemory
 memory
 .
 id
+"
+other
+"
 )
 ;
 }

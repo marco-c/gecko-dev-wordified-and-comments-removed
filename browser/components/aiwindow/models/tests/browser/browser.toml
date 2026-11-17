@@ -72,6 +72,13 @@ js
 ]
 [
 "
+browser_MemoriesMaintenanceRunTelemetry
+.
+js
+"
+]
+[
+"
 browser_MemoriesManager
 .
 js
