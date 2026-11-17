@@ -1190,6 +1190,14 @@ button
 ;
 button
 .
+type
+=
+"
+toolbar
+"
+;
+button
+.
 size
 =
 "
