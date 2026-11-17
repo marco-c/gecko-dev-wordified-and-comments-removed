@@ -291,8 +291,6 @@ OutAudioSegment_Float
 const
 PrincipalHandle
 testPrincipal
-=
-MakePrincipalHandle
 (
 nsContentUtils
 :
@@ -634,8 +632,6 @@ OutAudioSegment_Short
 const
 PrincipalHandle
 testPrincipal
-=
-MakePrincipalHandle
 (
 nsContentUtils
 :
@@ -1137,8 +1133,6 @@ InAudioSegment_Float
 const
 PrincipalHandle
 testPrincipal
-=
-MakePrincipalHandle
 (
 nsContentUtils
 :
@@ -1537,8 +1531,6 @@ InAudioSegment_Short
 const
 PrincipalHandle
 testPrincipal
-=
-MakePrincipalHandle
 (
 nsContentUtils
 :
@@ -1933,8 +1925,6 @@ ChannelChange_MonoToStereo
 const
 PrincipalHandle
 testPrincipal
-=
-MakePrincipalHandle
 (
 nsContentUtils
 :
@@ -2140,8 +2130,6 @@ ChannelChange_StereoToMono
 const
 PrincipalHandle
 testPrincipal
-=
-MakePrincipalHandle
 (
 nsContentUtils
 :
@@ -2347,8 +2335,6 @@ ChannelChange_StereoToQuad
 const
 PrincipalHandle
 testPrincipal
-=
-MakePrincipalHandle
 (
 nsContentUtils
 :
@@ -2586,8 +2572,6 @@ ChannelChange_QuadToStereo
 const
 PrincipalHandle
 testPrincipal
-=
-MakePrincipalHandle
 (
 nsContentUtils
 :
@@ -2829,8 +2813,6 @@ ChannelChange_Discontinuity
 const
 PrincipalHandle
 testPrincipal
-=
-MakePrincipalHandle
 (
 nsContentUtils
 :
@@ -3265,8 +3247,6 @@ ChannelChange_Discontinuity2
 const
 PrincipalHandle
 testPrincipal
-=
-MakePrincipalHandle
 (
 nsContentUtils
 :
@@ -3770,8 +3750,6 @@ ChannelChange_Discontinuity3
 const
 PrincipalHandle
 testPrincipal
-=
-MakePrincipalHandle
 (
 nsContentUtils
 :

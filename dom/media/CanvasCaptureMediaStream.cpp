@@ -852,8 +852,6 @@ VIDEO
 ;
 PrincipalHandle
 principalHandle
-=
-MakePrincipalHandle
 (
 aPrincipal
 )

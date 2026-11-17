@@ -19859,7 +19859,7 @@ new
 GetUserMediaWindowListener
 (
 windowId
-MakePrincipalHandle
+PrincipalHandle
 (
 principal
 )

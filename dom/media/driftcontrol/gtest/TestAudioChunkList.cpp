@@ -34,8 +34,6 @@ Basic1
 const
 PrincipalHandle
 testPrincipal
-=
-MakePrincipalHandle
 (
 nsContentUtils
 :
@@ -348,8 +346,6 @@ Basic2
 const
 PrincipalHandle
 testPrincipal
-=
-MakePrincipalHandle
 (
 nsContentUtils
 :

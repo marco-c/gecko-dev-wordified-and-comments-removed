@@ -77,8 +77,6 @@ frequency
 const
 PrincipalHandle
 testPrincipal
-=
-MakePrincipalHandle
 (
 nsContentUtils
 :
@@ -808,8 +806,6 @@ sampleRateReceiver
 const
 PrincipalHandle
 testPrincipal
-=
-MakePrincipalHandle
 (
 nsContentUtils
 :
@@ -1028,8 +1024,6 @@ sampleRateReceiver
 const
 PrincipalHandle
 testPrincipal
-=
-MakePrincipalHandle
 (
 nsContentUtils
 :
@@ -1199,8 +1193,6 @@ sampleRate
 const
 PrincipalHandle
 testPrincipal
-=
-MakePrincipalHandle
 (
 nsContentUtils
 :
@@ -1351,8 +1343,6 @@ sampleRate
 const
 PrincipalHandle
 testPrincipal
-=
-MakePrincipalHandle
 (
 nsContentUtils
 :
@@ -1540,8 +1530,6 @@ sampleRate
 const
 PrincipalHandle
 testPrincipal
-=
-MakePrincipalHandle
 (
 nsContentUtils
 :
@@ -1739,8 +1727,6 @@ frequencyHz
 const
 PrincipalHandle
 testPrincipal
-=
-MakePrincipalHandle
 (
 nsContentUtils
 :
@@ -2264,8 +2250,6 @@ iterations
 const
 PrincipalHandle
 testPrincipal
-=
-MakePrincipalHandle
 (
 nsContentUtils
 :
@@ -2387,8 +2371,6 @@ iterations
 const
 PrincipalHandle
 testPrincipal
-=
-MakePrincipalHandle
 (
 nsContentUtils
 :
@@ -2581,8 +2563,6 @@ iterations
 const
 PrincipalHandle
 testPrincipal
-=
-MakePrincipalHandle
 (
 nsContentUtils
 :
@@ -2909,8 +2889,6 @@ iterations
 const
 PrincipalHandle
 testPrincipal
-=
-MakePrincipalHandle
 (
 nsContentUtils
 :

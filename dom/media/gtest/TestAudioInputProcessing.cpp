@@ -1223,8 +1223,6 @@ CreateWithoutOriginAttributes
 const
 PrincipalHandle
 principal1
-=
-MakePrincipalHandle
 (
 dummy_principal
 .
@@ -1236,8 +1234,6 @@ get
 const
 PrincipalHandle
 principal2
-=
-MakePrincipalHandle
 (
 nsContentUtils
 :

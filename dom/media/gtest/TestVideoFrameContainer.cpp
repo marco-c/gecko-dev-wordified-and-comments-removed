@@ -101,8 +101,6 @@ MockMediaDecoderOwner
 ;
 PrincipalHandle
 principal
-=
-MakePrincipalHandle
 (
 nsContentUtils
 :

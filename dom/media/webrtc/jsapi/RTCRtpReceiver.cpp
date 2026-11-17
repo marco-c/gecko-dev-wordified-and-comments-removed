@@ -742,7 +742,7 @@ principal
 ;
 }
 return
-MakePrincipalHandle
+PrincipalHandle
 (
 principal
 )
@@ -979,13 +979,6 @@ MediaTrackGraph
 :
 GetInstance
 (
-isAudio
-?
-MediaTrackGraph
-:
-:
-AUDIO_THREAD_DRIVER
-:
 MediaTrackGraph
 :
 :
@@ -1030,7 +1023,10 @@ RemoteTrackSource
 (
 source
 this
+GetPrincipalFromHandle
+(
 principalHandle
+)
 u
 "
 remote
@@ -1117,7 +1113,10 @@ RemoteTrackSource
 (
 source
 this
+GetPrincipalFromHandle
+(
 principalHandle
+)
 u
 "
 remote
