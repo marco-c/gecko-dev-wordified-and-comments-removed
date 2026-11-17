@@ -37,6 +37,13 @@ true
 ]
 [
 "
+browser_DigestStore
+.
+js
+"
+]
+[
+"
 browser_JourneyManager
 .
 js

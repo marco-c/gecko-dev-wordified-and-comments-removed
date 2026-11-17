@@ -75,6 +75,17 @@ Learning
 General
 "
 )
+DIRS
++
+=
+[
+"
+digests
+"
+"
+journeys
+"
+]
 MOZ_SRC_FILES
 +
 =
