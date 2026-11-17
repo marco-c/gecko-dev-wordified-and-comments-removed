@@ -628,13 +628,6 @@ js
 ]
 [
 "
-browser_ml_privatebrowsing
-.
-js
-"
-]
-[
-"
 browser_ml_smart_tab_topic_idle
 .
 js
