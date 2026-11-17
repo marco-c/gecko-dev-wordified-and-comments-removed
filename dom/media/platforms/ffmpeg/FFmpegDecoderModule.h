@@ -1037,10 +1037,8 @@ DecodeSupportSet
 }
 ;
 }
-const
-bool
-isLowLatencyVP9
-=
+if
+(
 VPXDecoder
 :
 :
@@ -1064,13 +1062,6 @@ Option
 :
 LowLatency
 )
-;
-#
-ifndef
-MOZ_WIDGET_ANDROID
-if
-(
-isLowLatencyVP9
 )
 {
 MOZ_LOG_FMT
@@ -1114,8 +1105,6 @@ DecodeSupportSet
 }
 ;
 }
-#
-endif
 if
 (
 MP4Decoder
@@ -1297,10 +1286,6 @@ supports
 ;
 if
 (
-!
-isLowLatencyVP9
-&
-&
 IsSWDecodingSupported
 (
 codecId
