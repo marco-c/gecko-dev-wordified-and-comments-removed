@@ -49,6 +49,13 @@ js
 ]
 [
 "
+browser_aboutKeyboard_findSelection
+.
+js
+"
+]
+[
+"
 browser_aboutKeyboard_systemAssigned
 .
 js
