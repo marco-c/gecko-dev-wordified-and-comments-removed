@@ -22284,7 +22284,7 @@ mozilla
 MacAutoreleasePool
 pool
 ;
-DisableAppNap
+RegisterEarlyUserDefaults
 (
 )
 ;

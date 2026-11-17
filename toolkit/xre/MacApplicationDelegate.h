@@ -45,7 +45,7 @@ TakeStartupURLs
 )
 ;
 void
-DisableAppNap
+RegisterEarlyUserDefaults
 (
 )
 ;
