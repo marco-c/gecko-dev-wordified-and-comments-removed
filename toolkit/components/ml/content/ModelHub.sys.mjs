@@ -14041,6 +14041,8 @@ deleteModels
 (
 {
 model
+:
+modelWithHostname
 revision
 deletedBy
 :
