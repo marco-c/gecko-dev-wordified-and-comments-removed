@@ -2625,6 +2625,13 @@ content
 .
 skip_button
 }
+layout
+=
+{
+content
+.
+position
+}
 /
 >
 )

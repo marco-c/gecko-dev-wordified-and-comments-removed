@@ -32787,6 +32787,11 @@ props
 content
 .
 skip_button
+layout
+:
+content
+.
+position
 }
 )
 tile
@@ -43835,6 +43840,7 @@ EmbeddedBackupRestore
 {
 handleAction
 skipButton
+layout
 }
 )
 =
@@ -44090,6 +44096,9 @@ labelFontWeight
 "
 600
 "
+layout
+:
+layout
 ref
 :
 ref

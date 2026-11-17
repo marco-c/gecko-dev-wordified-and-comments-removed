@@ -106,6 +106,7 @@ EmbeddedBackupRestore
 {
 handleAction
 skipButton
+layout
 }
 )
 =
@@ -350,6 +351,11 @@ labelFontWeight
 "
 600
 "
+layout
+=
+{
+layout
+}
 ref
 =
 {
