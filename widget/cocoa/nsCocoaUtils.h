@@ -957,6 +957,8 @@ HideOSChromeOnScreen
 (
 bool
 aShouldHide
+bool
+aShouldPreventAppSwitching
 )
 ;
 static

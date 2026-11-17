@@ -2921,6 +2921,15 @@ aSupportsNativeFullscreen
 )
 {
 }
+virtual
+void
+SetPreventAppSwitching
+(
+bool
+aShouldPreventAppSwitching
+)
+{
+}
 enum
 WindowAnimationType
 {

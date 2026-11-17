@@ -464,6 +464,13 @@ js
 ]
 [
 "
+browser_fullscreen_kiosk_lockdown
+.
+js
+"
+]
+[
+"
 browser_fullscreen_menus
 .
 js
