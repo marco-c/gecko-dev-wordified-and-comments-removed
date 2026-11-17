@@ -171,11 +171,11 @@ pdfjsVersion
 .
 0
 .
-119
+158
 *
 pdfjsBuild
 =
-5430213a1
+bb1539a2c
 *
 /
 /
@@ -18190,6 +18190,14 @@ baseEvent
 let
 savedChange
 ;
+if
+(
+!
+baseEvent
+.
+scripted
+)
+{
 this
 .
 #
@@ -18197,6 +18205,7 @@ userActivation
 (
 )
 ;
+}
 FieldInternals
 .
 prepareEvent
