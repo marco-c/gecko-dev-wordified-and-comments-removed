@@ -266,15 +266,4 @@ D
 (
 dir
 )
-else
-CXXFLAGS
-+
-=
--
-std
-=
-c
-+
-+
-0x
 endif

@@ -2701,10 +2701,6 @@ suites
 with
 sql
 database
-(
-no
-PKIX
-)
 #
 #
 #
@@ -2784,13 +2780,6 @@ run_cycle_standard
 TEST_MODE
 =
 STANDARD
-NSS_DISABLE_LIBPKIX_VERIFY
-=
-"
-1
-"
-export
-NSS_DISABLE_LIBPKIX_VERIFY
 TESTS
 =
 "
@@ -2817,8 +2806,6 @@ sql
 export
 NSS_DEFAULT_DB_TYPE
 run_tests
-unset
-NSS_DISABLE_LIBPKIX_VERIFY
 }
 #
 #

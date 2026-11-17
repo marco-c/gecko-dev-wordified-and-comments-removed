@@ -2529,6 +2529,9 @@ static
 SECOidTag
 nss_SMIME_FindCipherForSMIMECap
 (
+PLArenaPool
+*
+poolp
 NSSSMIMECapability
 *
 cap
@@ -2576,9 +2579,9 @@ NULL
 ;
 rv
 =
-SEC_ASN1DecodeItem
+SEC_QuickDERDecodeItem
 (
-NULL
+poolp
 &
 keyItem
 SEC_ASN1_GET
@@ -2612,13 +2615,6 @@ SEC_ASN1DecodeInteger
 keyItem
 &
 key_bits
-)
-;
-SECITEM_FreeItem
-(
-&
-keyItem
-PR_FALSE
 )
 ;
 if
@@ -3057,6 +3053,7 @@ cipher
 =
 nss_SMIME_FindCipherForSMIMECap
 (
+poolp
 caps
 [
 i

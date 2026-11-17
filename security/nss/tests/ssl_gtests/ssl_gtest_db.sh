@@ -472,6 +472,11 @@ rsa_chain
 rsa_chain
 sign
 make_cert
+rsa_chain_kex
+rsa_chain
+sign
+kex
+make_cert
 rsa_pss_ca
 rsapss_ca
 ca
@@ -551,4 +556,12 @@ sign
 make_cert
 delegator_mldsa87
 delegator_mldsa87
+sign
+make_cert
+unknown_ext
+unknown_ext
+sign
+make_cert
+unknown_critical_ext
+unknown_critical_ext
 sign

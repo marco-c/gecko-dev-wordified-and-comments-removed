@@ -554,17 +554,6 @@ OS_CFLAGS
 =
 -
 EHsc
-else
-CXXFLAGS
-+
-=
--
-std
-=
-c
-+
-+
-0x
 endif
 #
 #

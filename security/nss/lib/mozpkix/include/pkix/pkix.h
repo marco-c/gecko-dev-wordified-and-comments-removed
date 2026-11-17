@@ -139,6 +139,16 @@ Input
 stapledOCSPResponse
 )
 ;
+Result
+FindSubjectPublicKeyInfo
+(
+Input
+certDER
+Input
+&
+subjectPublicKeyInfo
+)
+;
 }
 }
 #
