@@ -300,6 +300,8 @@ const
 size_t
 BufferMaxPoolOffset
 =
+16
+*
 1024
 ;
 static
