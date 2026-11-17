@@ -342,6 +342,13 @@ html
 ]
 [
 "
+test_queue_copyExternalImageToTexture_imagebitmap
+.
+html
+"
+]
+[
+"
 test_queue_write
 .
 html
