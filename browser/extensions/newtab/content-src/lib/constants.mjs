@@ -208,6 +208,11 @@ Celestial
 "
 celestial
 "
+Predecessor
+:
+"
+predecessor
+"
 Photographs
 :
 "

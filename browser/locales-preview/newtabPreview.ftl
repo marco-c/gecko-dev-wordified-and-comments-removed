@@ -150,6 +150,17 @@ placeholder
 Watch
 this
 space
+newtab
+-
+wallpaper
+-
+category
+-
+title
+-
+predecessor
+=
+Predecessor
 #
 #
 Solitaire
