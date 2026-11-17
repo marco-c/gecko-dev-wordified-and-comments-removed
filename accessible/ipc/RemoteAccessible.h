@@ -2196,7 +2196,7 @@ ifdef
 XP_WIN
 friend
 class
-sdnAccessible
+MsaaAccessible
 ;
 #
 endif

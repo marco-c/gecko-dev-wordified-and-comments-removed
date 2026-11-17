@@ -228,6 +228,14 @@ IUnknown
 aUnknown
 )
 ;
+void
+GetInnerHTML
+(
+nsAString
+&
+aInnerHTML
+)
+;
 DECL_IUNKNOWN
 virtual
 HRESULT
