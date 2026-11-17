@@ -58,6 +58,13 @@ js
 ]
 [
 "
+browser_JourneysGenerationRunTelemetry
+.
+js
+"
+]
+[
+"
 browser_MemoriesGenerationRunTelemetry
 .
 js
