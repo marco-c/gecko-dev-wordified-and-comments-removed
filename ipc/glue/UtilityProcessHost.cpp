@@ -806,11 +806,6 @@ UtilityProcessHost
 :
 OnChannelConnected
 (
-base
-:
-:
-ProcessId
-peer_pid
 )
 {
 MOZ_ASSERT
@@ -841,7 +836,6 @@ GeckoChildProcessHost
 :
 OnChannelConnected
 (
-peer_pid
 )
 ;
 NS_DispatchToMainThread

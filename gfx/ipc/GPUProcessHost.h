@@ -261,11 +261,6 @@ mLaunchTime
 void
 OnChannelConnected
 (
-base
-:
-:
-ProcessId
-peer_pid
 )
 override
 ;
