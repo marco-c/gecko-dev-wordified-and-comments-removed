@@ -282,6 +282,17 @@ MousePosTracker
 ;
 declare
 var
+StatusPanel
+:
+BrowserWindow
+[
+"
+StatusPanel
+"
+]
+;
+declare
+var
 TabBarVisibility
 :
 BrowserWindow
