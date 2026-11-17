@@ -7852,11 +7852,6 @@ central
 ]
 run
 :
-clone
--
-with
-:
-hg
 command
 :
 >

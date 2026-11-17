@@ -123,11 +123,6 @@ PYTHONUNBUFFERED
 "
 run
 :
-clone
--
-with
-:
-hg
 #
 script
 .
