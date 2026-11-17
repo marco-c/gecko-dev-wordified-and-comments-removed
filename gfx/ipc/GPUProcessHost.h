@@ -259,12 +259,6 @@ mLaunchTime
 ;
 }
 void
-OnChannelConnected
-(
-)
-override
-;
-void
 SetListener
 (
 Listener
