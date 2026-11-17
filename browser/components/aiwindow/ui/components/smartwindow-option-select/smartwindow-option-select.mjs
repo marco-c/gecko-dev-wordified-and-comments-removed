@@ -1045,6 +1045,15 @@ _menuId
 label
 =
 {
+buttonL10n
+?
+.
+id
+?
+"
+"
+:
+(
 this
 .
 #
@@ -1065,6 +1074,7 @@ label
 ?
 "
 "
+)
 }
 data
 -
