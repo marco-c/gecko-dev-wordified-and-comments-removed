@@ -88,6 +88,13 @@ py
 ]
 [
 "
+test_termination
+.
+py
+"
+]
+[
+"
 test_wait
 .
 py
