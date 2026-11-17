@@ -884,11 +884,6 @@ CustomElementRegistry
 h
 "
 "
-CycleCollectorUnlinkTester
-.
-h
-"
-"
 DirectionalityUtils
 .
 h
@@ -1845,11 +1840,6 @@ cpp
 "
 "
 CustomElementRegistry
-.
-cpp
-"
-"
-CycleCollectorUnlinkTester
 .
 cpp
 "

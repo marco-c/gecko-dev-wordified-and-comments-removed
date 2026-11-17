@@ -543,6 +543,11 @@ aArgv
 ;
 private
 :
+void
+Destroy
+(
+)
+;
 JS
 :
 :
