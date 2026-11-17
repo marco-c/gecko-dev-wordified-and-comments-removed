@@ -22068,7 +22068,7 @@ alloc
 (
 )
 exception
-nullptr
+exception
 WasmExceptionObject
 :
 :
@@ -22733,7 +22733,7 @@ alloc
 (
 )
 exception
-nullptr
+exception
 WasmExceptionObject
 :
 :
@@ -23599,7 +23599,7 @@ StorageType
 type
 MDefinition
 *
-keepAlive
+wasmObject
 AliasSet
 :
 :
@@ -23633,7 +23633,7 @@ aliasBitset
 ;
 MOZ_ASSERT
 (
-keepAlive
+wasmObject
 -
 >
 type
@@ -23717,7 +23717,7 @@ alloc
 (
 )
 base
-keepAlive
+wasmObject
 offset
 mozilla
 :
@@ -23801,7 +23801,7 @@ alloc
 )
 instancePointer_
 base
-keepAlive
+wasmObject
 offset
 mozilla
 :
@@ -23863,7 +23863,7 @@ return
 postBarrierWholeCell
 (
 bytecodeOffset
-keepAlive
+wasmObject
 value
 )
 ;
@@ -24256,7 +24256,7 @@ FieldWideningOp
 fieldWideningOp
 MDefinition
 *
-keepAlive
+wasmObject
 AliasSet
 :
 :
@@ -24283,7 +24283,7 @@ aliasBitset
 ;
 MOZ_ASSERT
 (
-keepAlive
+wasmObject
 -
 >
 type
@@ -24344,7 +24344,7 @@ alloc
 (
 )
 base
-keepAlive
+wasmObject
 offset
 mozilla
 :
@@ -24972,7 +24972,7 @@ alloc
 (
 )
 structObject
-nullptr
+structObject
 path
 .
 ilOffset
@@ -25187,7 +25187,7 @@ alloc
 (
 )
 structObject
-nullptr
+structObject
 path
 .
 ilOffset
@@ -25481,7 +25481,7 @@ alloc
 (
 )
 arrayObject
-nullptr
+arrayObject
 WasmArrayObject
 :
 :
@@ -25588,7 +25588,7 @@ alloc
 (
 )
 arrayObject
-nullptr
+arrayObject
 WasmArrayObject
 :
 :
