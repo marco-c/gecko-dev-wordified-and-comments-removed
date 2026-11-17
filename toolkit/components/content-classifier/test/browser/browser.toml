@@ -131,6 +131,13 @@ js
 ]
 [
 "
+browser_content_classifier_nested_uri
+.
+js
+"
+]
+[
+"
 browser_content_classifier_normalization
 .
 js
