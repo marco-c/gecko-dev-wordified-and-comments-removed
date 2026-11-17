@@ -5319,7 +5319,7 @@ filename
 deletePreviousVersions
 :
 true
-skipIfExists
+useCache
 :
 true
 source
@@ -5327,10 +5327,10 @@ source
 baseURL
 +
 location
-sha256Hash
+expectedHash
 :
 hash
-fileSize
+expectedFileSize
 :
 size
 }
