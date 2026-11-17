@@ -1762,14 +1762,6 @@ MutationEffectOnScript
 :
 :
 DropTrustWorthiness
-&
-&
-StaticPrefs
-:
-:
-dom_security_trusted_types_enabled
-(
-)
 )
 {
 nsCOMPtr
