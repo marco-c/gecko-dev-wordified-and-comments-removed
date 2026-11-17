@@ -2704,12 +2704,15 @@ aData
 ;
 if
 (
-aData
 !
-=
+aData
+.
+startsWith
+(
 "
 success
 "
+)
 )
 {
 updateError

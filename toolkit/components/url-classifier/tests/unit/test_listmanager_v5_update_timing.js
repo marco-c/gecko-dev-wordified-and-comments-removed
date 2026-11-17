@@ -269,11 +269,13 @@ finished
 if
 (
 data
-=
-=
+.
+startsWith
+(
 "
 success
 "
+)
 )
 {
 resolve
