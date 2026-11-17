@@ -379,7 +379,7 @@ impressions
 etc
 .
 let
-routerStorage
+storage
 =
 new
 lazy
@@ -399,7 +399,7 @@ let
 snippetsTable
 =
 await
-routerStorage
+storage
 .
 getDbTable
 (
@@ -649,7 +649,7 @@ snippetsBackupFile
 )
 ;
 let
-asRouterStorage
+storage
 =
 new
 lazy
@@ -669,7 +669,7 @@ let
 snippetsTable
 =
 await
-asRouterStorage
+storage
 .
 getDbTable
 (

@@ -83,6 +83,17 @@ depth
 /
 "
 ;
+Cu
+.
+importGlobalProperties
+(
+[
+"
+storage
+"
+]
+)
+;
 const
 {
 Utils

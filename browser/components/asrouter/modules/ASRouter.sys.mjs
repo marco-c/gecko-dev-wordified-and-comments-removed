@@ -1614,7 +1614,7 @@ messages
 async
 _remoteLoaderCache
 (
-routerStorage
+storage
 )
 {
 let
@@ -1626,7 +1626,7 @@ allCached
 =
 (
 await
-routerStorage
+storage
 .
 get
 (
@@ -5147,7 +5147,7 @@ async
 cleanupCache
 (
 providers
-routerStorage
+storage
 )
 {
 const
@@ -5189,7 +5189,7 @@ MessageLoaderUtils
 .
 _remoteLoaderCache
 (
-routerStorage
+storage
 )
 ;
 let
@@ -5234,7 +5234,7 @@ dirty
 )
 {
 await
-routerStorage
+storage
 .
 set
 (
@@ -8110,8 +8110,6 @@ init
 (
 {
 storage
-:
-routerStorage
 sendTelemetry
 clearChildMessages
 clearChildProviders
@@ -8146,7 +8144,7 @@ this
 .
 _storage
 =
-routerStorage
+storage
 ;
 this
 .
@@ -8541,7 +8539,7 @@ this
 state
 .
 providers
-routerStorage
+storage
 )
 ;
 lazy

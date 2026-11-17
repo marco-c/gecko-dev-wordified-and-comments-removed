@@ -1338,7 +1338,7 @@ loadContextInfo
 default
 ;
 let
-cacheStorage
+storage
 =
 Services
 .
@@ -1351,7 +1351,7 @@ lci
 ;
 try
 {
-cacheStorage
+storage
 .
 asyncOpenURI
 (

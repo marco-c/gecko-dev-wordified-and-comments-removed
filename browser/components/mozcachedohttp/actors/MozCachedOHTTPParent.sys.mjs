@@ -1143,7 +1143,7 @@ loadContextInfo
 anonymous
 ;
 const
-cacheStorage
+storage
 =
 Services
 .
@@ -1178,7 +1178,7 @@ OPEN_READONLY
 &
 &
 !
-cacheStorage
+storage
 .
 exists
 (
@@ -1213,7 +1213,7 @@ reject
 =
 >
 {
-cacheStorage
+storage
 .
 asyncOpenURI
 (
