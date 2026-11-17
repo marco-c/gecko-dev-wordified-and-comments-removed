@@ -21,10 +21,11 @@ applied
 to
 the
 primitive
-instead
+causing
+allocation
 of
-the
-compositor
+a
+mask
 surface
 .
 #

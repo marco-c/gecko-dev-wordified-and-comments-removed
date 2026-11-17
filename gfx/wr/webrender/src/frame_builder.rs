@@ -1087,10 +1087,6 @@ path_rendering_enabled
 :
 bool
 pub
-quad_rounded_clip_enabled
-:
-bool
-pub
 image_dependencies
 :
 FastHashMap
@@ -2784,14 +2780,6 @@ DebugFlags
 :
 DISABLE_DIRECT_PATH_FILL
 )
-quad_rounded_clip_enabled
-:
-!
-scene
-.
-config
-.
-is_software
 }
 ;
 if
