@@ -4131,13 +4131,6 @@ tools
 /
 ts
 /
-error_list
-.
-json
-tools
-/
-ts
-/
 test
 /
 baselines
