@@ -298,7 +298,7 @@ ICStubReg
 ;
 masm
 .
-jump
+tailJump
 (
 Address
 (

@@ -288,7 +288,7 @@ lr
 ;
 masm
 .
-jump
+tailJump
 (
 Address
 (

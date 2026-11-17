@@ -139,7 +139,7 @@ lr
 ;
 masm
 .
-jump
+tailJump
 (
 target
 )

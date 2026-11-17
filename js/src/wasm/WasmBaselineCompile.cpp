@@ -4929,7 +4929,7 @@ L
 ;
 masm
 .
-jump
+tailJump
 (
 Address
 (

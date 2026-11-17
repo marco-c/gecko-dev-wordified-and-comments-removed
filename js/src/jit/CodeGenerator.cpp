@@ -42042,7 +42042,7 @@ endif
 }
 masm
 .
-jump
+tailJump
 (
 scratch2
 )
@@ -90793,7 +90793,7 @@ FramePointer
 endif
 masm
 .
-jump
+tailJump
 (
 ReturnReg
 )

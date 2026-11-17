@@ -35481,7 +35481,7 @@ retCallInfo
 stubDesc
 )
 ;
-jump
+tailJump
 (
 ABINonArgReg0
 )
@@ -36927,7 +36927,7 @@ retCallInfo
 stubDesc
 )
 ;
-jump
+tailJump
 (
 calleeScratch
 )
@@ -36974,7 +36974,7 @@ wasmCollapseFrameFast
 retCallInfo
 )
 ;
-jump
+tailJump
 (
 calleeScratch
 )
@@ -37600,7 +37600,7 @@ retCallInfo
 stubDesc
 )
 ;
-jump
+tailJump
 (
 calleeScratch
 )
@@ -37640,7 +37640,7 @@ wasmCollapseFrameFast
 retCallInfo
 )
 ;
-jump
+tailJump
 (
 calleeScratch
 )

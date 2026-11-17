@@ -140,7 +140,7 @@ BaselineJS
 ;
 masm
 .
-jump
+tailJump
 (
 target
 )

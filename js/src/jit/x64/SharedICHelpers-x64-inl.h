@@ -9,7 +9,7 @@ include
 "
 jit
 /
-BaselineFrame
+SharedICHelpers
 .
 h
 "
@@ -18,7 +18,7 @@ include
 "
 jit
 /
-SharedICHelpers
+BaselineFrame
 .
 h
 "
@@ -132,7 +132,7 @@ ICTailCallReg
 ;
 masm
 .
-jump
+tailJump
 (
 target
 )

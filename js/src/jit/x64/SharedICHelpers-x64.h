@@ -259,9 +259,9 @@ ICStubReg
 ;
 masm
 .
-jmp
+tailJump
 (
-Operand
+Address
 (
 ICStubReg
 ICStub

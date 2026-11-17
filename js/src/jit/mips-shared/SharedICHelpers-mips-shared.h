@@ -308,7 +308,7 @@ ra
 ;
 masm
 .
-jump
+tailJump
 (
 Address
 (
