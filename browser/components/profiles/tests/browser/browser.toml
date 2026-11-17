@@ -156,6 +156,13 @@ js
 ]
 [
 "
+browser_delete_profile_page_locked_cards
+.
+js
+"
+]
+[
+"
 browser_delete_profile_page_test
 .
 js
