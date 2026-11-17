@@ -16967,7 +16967,7 @@ parent
 =
 node
 .
-parentNode
+parentElement
 ;
 while
 (
@@ -16999,7 +16999,7 @@ parent
 =
 parent
 .
-parentNode
+parentElement
 ;
 }
 if
@@ -32078,11 +32078,6 @@ PROVIDER_API
 *
 *
 *
-type
-{
-boolean
-}
-*
 True
 if
 the
@@ -32103,6 +32098,12 @@ shipped
 by
 default
 .
+*
+*
+type
+{
+boolean
+}
 *
 /
 get
@@ -34787,11 +34788,6 @@ button
 *
 *
 *
-type
-{
-boolean
-}
-*
 True
 if
 the
@@ -34803,6 +34799,12 @@ have
 been
 registered
 .
+*
+*
+type
+{
+boolean
+}
 *
 /
 get
