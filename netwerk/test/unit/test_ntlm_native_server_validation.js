@@ -940,7 +940,7 @@ alloc
 const
 flags
 =
-0x00810201
+0xe0898215
 ;
 const
 header
