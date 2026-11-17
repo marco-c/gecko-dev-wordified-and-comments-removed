@@ -144,6 +144,13 @@ kVK_Powerbook_KeypadEnter
 0x34
 }
 ;
+bool
+IsControlChar
+(
+uint32_t
+aCharCode
+)
+;
 class
 TISInputSourceWrapper
 {

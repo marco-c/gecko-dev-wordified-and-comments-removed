@@ -115,6 +115,11 @@ TestCocoaFilePickerQueue
 mm
 "
 "
+TestCocoaMenuKeyEquivalent
+.
+mm
+"
+"
 TestCocoaMenuLabelTruncation
 .
 mm

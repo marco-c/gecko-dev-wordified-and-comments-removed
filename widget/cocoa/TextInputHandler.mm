@@ -1834,8 +1834,13 @@ level
 ;
 }
 }
-static
 bool
+mozilla
+:
+:
+widget
+:
+:
 IsControlChar
 (
 uint32_t
@@ -1852,7 +1857,7 @@ aCharCode
 aCharCode
 =
 =
-0x7F
+NSDeleteCharacter
 ;
 }
 static
