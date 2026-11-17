@@ -15481,6 +15481,12 @@ submitType
 "
 shortcuts
 "
+untrustedInput
+:
+true
+privateData
+:
+true
 }
 )
 ;
