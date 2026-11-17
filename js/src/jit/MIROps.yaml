@@ -17366,13 +17366,6 @@ false
 -
 name
 :
-WasmLoadInternalField
-gen_boilerplate
-:
-false
--
-name
-:
 WasmLoadElement
 gen_boilerplate
 :
