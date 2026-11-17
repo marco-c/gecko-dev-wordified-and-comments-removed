@@ -3925,6 +3925,14 @@ compartment
 )
 )
 ;
+JS
+:
+:
+AssertObjectIsNotGray
+(
+queue
+)
+;
 RootedValue
 callback
 (
@@ -4048,7 +4056,7 @@ isInRecordMap
 JS
 :
 :
-ExposeObjectToActiveJS
+AssertObjectIsNotGray
 (
 record
 )
