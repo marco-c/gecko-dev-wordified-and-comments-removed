@@ -301,7 +301,7 @@ RemoveNsIFile
 aDirectoryMetadata
 *
 file
-true
+false
 )
 ;
 MOZ_ASSERT

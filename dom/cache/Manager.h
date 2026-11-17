@@ -408,6 +408,11 @@ aContext
 )
 ;
 void
+NoteOrphanedData
+(
+)
+;
+void
 NoteClosing
 (
 )

@@ -137,6 +137,11 @@ empty
 html
 "
 "
+helpers
+.
+js
+"
+"
 idle_worker
 .
 js
@@ -276,13 +281,6 @@ https
 [
 "
 test_cache_orphaned_cache
-.
-html
-"
-]
-[
-"
-test_cache_orphaned_padding_underflow
 .
 html
 "

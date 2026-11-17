@@ -23,7 +23,7 @@ after
 cleanup
 to
 be
-98k
+128k
 for
 the
 current
@@ -46,7 +46,7 @@ set
 the
 threshold
 at
-128k
+160k
 so
 the
 test
@@ -121,7 +121,7 @@ enabled
 "
 EXPECTED_CACHEDIR_SIZE_AFTER_CLEANUP
 =
-128
+160
 *
 1024
 ENCRYPTED_CACHEDIR_SIZE_AFTER_CLEANUP
@@ -1250,6 +1250,12 @@ ensureCleanCallback
 )
 :
             
+self
+.
+openCache
+(
+)
+            
 Wait
 (
 self
@@ -1271,14 +1277,8 @@ _
 :
 self
 .
-afterCleanupClosure
+releaseCacheAndCheck
 (
-self
-.
-getUsage
-(
-)
--
 beforeUsage
 )
                 

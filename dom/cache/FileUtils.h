@@ -241,7 +241,7 @@ int64_t
 aPaddingSizeInOut
 )
 ;
-nsresult
+void
 BodyDeleteFiles
 (
 const
@@ -258,6 +258,11 @@ nsID
 >
 &
 aIdList
+bool
+aTrackQuota
+bool
+*
+aHasOrphanData
 )
 ;
 nsresult

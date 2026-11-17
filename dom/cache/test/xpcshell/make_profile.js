@@ -235,6 +235,8 @@ entry
 file
 .
 lastModifiedTime
+*
+1000
 false
 )
 ;
@@ -296,6 +298,8 @@ entry
 file
 .
 lastModifiedTime
+*
+1000
 Ci
 .
 nsIZipWriter
@@ -472,6 +476,17 @@ do_test_pending
 ;
 do_get_profile
 (
+)
+;
+Cu
+.
+importGlobalProperties
+(
+[
+"
+caches
+"
+]
 )
 ;
 var
