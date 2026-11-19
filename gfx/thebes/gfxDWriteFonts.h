@@ -353,6 +353,15 @@ DWRITE_FONT_METRICS
 aFontMetrics
 )
 ;
+void
+HandleFontFaceException
+(
+const
+char
+*
+aOperation
+)
+;
 bool
 HasBitmapStrikeForSize
 (
