@@ -22575,7 +22575,7 @@ branchPtr
 Assembler
 :
 :
-BelowOrEqual
+Equal
 Address
 (
 scratch
@@ -22588,7 +22588,7 @@ offsetOfIonScript
 )
 ImmPtr
 (
-IonCompilingScriptPtr
+nullptr
 )
 &
 useJitCodeRaw
