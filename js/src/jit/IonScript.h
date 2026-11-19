@@ -451,7 +451,7 @@ uint32_t
 ;
 public
 :
-HeapPtr
+GCPtr
 <
 Value
 >
@@ -463,7 +463,7 @@ constants
 return
 offsetToPointer
 <
-HeapPtr
+GCPtr
 <
 Value
 >
@@ -484,7 +484,7 @@ const
 return
 numElements
 <
-HeapPtr
+GCPtr
 <
 Value
 >
@@ -538,7 +538,7 @@ nurseryObjectsOffset
 )
 ;
 }
-HeapPtr
+GCPtr
 <
 JSObject
 *
@@ -551,7 +551,7 @@ nurseryObjects
 return
 offsetToPointer
 <
-HeapPtr
+GCPtr
 <
 JSObject
 *
@@ -573,7 +573,7 @@ const
 return
 numElements
 <
-HeapPtr
+GCPtr
 <
 JSObject
 *
@@ -1454,7 +1454,7 @@ data
 )
 const
 ;
-HeapPtr
+GCPtr
 <
 Value
 >

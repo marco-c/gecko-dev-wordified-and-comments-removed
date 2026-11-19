@@ -4315,7 +4315,7 @@ constants
 *
 sizeof
 (
-HeapPtr
+GCPtr
 <
 Value
 >
@@ -4345,7 +4345,7 @@ nurseryObjects
 *
 sizeof
 (
-HeapPtr
+GCPtr
 <
 JSObject
 *
@@ -4544,7 +4544,7 @@ offsetCursor
 %
 alignof
 (
-HeapPtr
+GCPtr
 <
 Value
 >
@@ -4559,7 +4559,7 @@ script
 >
 initElements
 <
-HeapPtr
+GCPtr
 <
 Value
 >
@@ -4583,7 +4583,7 @@ constants
 *
 sizeof
 (
-HeapPtr
+GCPtr
 <
 Value
 >
@@ -4620,7 +4620,7 @@ offsetCursor
 %
 alignof
 (
-HeapPtr
+GCPtr
 <
 JSObject
 *
@@ -4636,7 +4636,7 @@ script
 >
 initElements
 <
-HeapPtr
+GCPtr
 <
 JSObject
 *
@@ -4661,7 +4661,7 @@ nurseryObjects
 *
 sizeof
 (
-HeapPtr
+GCPtr
 <
 JSObject
 *
@@ -6162,15 +6162,8 @@ nurseryObjects
 [
 i
 ]
-.
-~
-HeapPtr
-<
-JSObject
-*
->
-(
-)
+=
+nullptr
 ;
 }
 for
@@ -6204,12 +6197,8 @@ getConstant
 (
 i
 )
-.
-~
-HeapPtr
-<
-Value
->
+=
+UndefinedValue
 (
 )
 ;
