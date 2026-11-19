@@ -437,6 +437,12 @@ nsITimer
 >
 mForceKillTimer
 ;
+nsCOMPtr
+<
+nsITimer
+>
+mLaunchTimeoutTimer
+;
 MozPromiseHolder
 <
 ShutdownPromiseType
