@@ -12926,7 +12926,7 @@ mLateInit
 mAsyncImageManager
 -
 >
-HasLivePipeline
+HasPipeline
 (
 aPipelineId
 )
