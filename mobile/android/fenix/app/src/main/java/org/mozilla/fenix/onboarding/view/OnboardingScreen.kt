@@ -1478,14 +1478,7 @@ scrollToNextPageOrDismiss
 }
 onSignInButtonClick
 =
-{
 onSignInButtonClick
-(
-)
-scrollToNextPageOrDismiss
-(
-)
-}
 onSignInSkipClick
 =
 {
