@@ -3754,15 +3754,17 @@ tar_cmd
         
 gzip_command
 =
+f
 "
 gzip
-%
-s
-"
-%
+-
+3
+{
 self
 .
 uncompressed_build
+}
+"
         
 shellCommand
 (
