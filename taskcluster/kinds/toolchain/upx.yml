@@ -85,11 +85,6 @@ time
 1800
 run
 :
-clone
--
-with
-:
-hg
 script
 :
 build
@@ -173,7 +168,7 @@ type
 :
 b
 -
-win2022
+win2025
 fetches
 :
 toolchain

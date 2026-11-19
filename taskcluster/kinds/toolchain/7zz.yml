@@ -98,11 +98,6 @@ docker
 amd
 run
 :
-clone
--
-with
-:
-hg
 script
 :
 build
@@ -189,7 +184,7 @@ type
 :
 b
 -
-win2022
+win2025
 run
 :
 toolchain

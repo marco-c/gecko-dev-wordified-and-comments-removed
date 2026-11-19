@@ -96,11 +96,6 @@ time
 1800
 run
 :
-clone
--
-with
-:
-hg
 resources
 :
 -
@@ -313,7 +308,7 @@ type
 :
 b
 -
-win2022
+win2025
 worker
 :
 max

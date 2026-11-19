@@ -73,11 +73,6 @@ docker
 amd
 run
 :
-clone
--
-with
-:
-hg
 using
 :
 mozharness
@@ -1625,7 +1620,7 @@ type
 :
 b
 -
-win2022
+win2025
 worker
 :
 max
@@ -2341,7 +2336,7 @@ type
 :
 b
 -
-win2022
+win2025
 worker
 :
 max
@@ -4414,7 +4409,7 @@ type
 :
 b
 -
-win2022
+win2025
 worker
 :
 max
@@ -4620,7 +4615,7 @@ type
 :
 b
 -
-win2022
+win2025
 worker
 :
 max
@@ -4828,7 +4823,7 @@ type
 :
 b
 -
-win2022
+win2025
 worker
 :
 max
@@ -5045,7 +5040,7 @@ type
 :
 b
 -
-win2022
+win2025
 worker
 :
 max
@@ -5271,7 +5266,7 @@ type
 :
 b
 -
-win2022
+win2025
 worker
 :
 artifacts
@@ -5555,7 +5550,7 @@ type
 :
 b
 -
-win2022
+win2025
 worker
 :
 artifacts

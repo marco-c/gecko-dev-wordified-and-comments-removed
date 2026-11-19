@@ -4008,7 +4008,7 @@ type
 :
 b
 -
-win2022
+win2025
 worker
 :
 max
@@ -8697,7 +8697,7 @@ type
 :
 b
 -
-win2022
+win2025
 worker
 :
 max
@@ -13554,7 +13554,7 @@ type
 :
 b
 -
-win2022
+win2025
 worker
 :
 max

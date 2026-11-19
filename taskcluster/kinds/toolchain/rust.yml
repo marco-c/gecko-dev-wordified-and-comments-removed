@@ -88,11 +88,6 @@ time
 7200
 run
 :
-clone
--
-with
-:
-hg
 script
 :
 repack_rust
@@ -794,7 +789,7 @@ type
 :
 b
 -
-win2022
+win2025
 treeherder
 :
 symbol
@@ -3199,7 +3194,7 @@ type
 :
 b
 -
-win2022
+win2025
 treeherder
 :
 symbol
