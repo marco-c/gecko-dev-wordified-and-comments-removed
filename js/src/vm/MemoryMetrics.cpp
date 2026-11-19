@@ -2577,10 +2577,6 @@ jit
 SizeOfIonData
 (
 script
-rtStats
--
->
-mallocSizeOf_
 )
 ;
 }

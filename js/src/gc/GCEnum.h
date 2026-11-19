@@ -463,11 +463,6 @@ ModuleImportAttributes
 \
 _
 (
-IonScript
-)
-\
-_
-(
 RegExpSharedBytecode
 )
 \
