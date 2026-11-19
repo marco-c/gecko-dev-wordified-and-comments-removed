@@ -438,6 +438,13 @@ html
 ]
 [
 "
+test_spellcheck_after_many_dom_mutations
+.
+html
+"
+]
+[
+"
 test_spellcheck_after_pressing_navigation_key
 .
 html
