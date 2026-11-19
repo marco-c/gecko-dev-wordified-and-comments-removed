@@ -1034,6 +1034,8 @@ topsrcdir
 params
                 
 is_thunderbird_packages_txt
+                
+True
             
 )
         
@@ -1323,6 +1325,9 @@ requirements_path
 :
 Path
 is_thunderbird_packages_txt
+recursive
+=
+False
     
 )
 :
@@ -1398,6 +1403,10 @@ in
 requirements_file
 ]
         
+start_line
+=
+1
+        
 first_line
 =
 lines
@@ -1424,10 +1433,15 @@ python
 )
 :
             
+if
+not
+recursive
+:
+                
 raise
 ValueError
 (
-                
+                    
 f
 "
 {
@@ -1449,7 +1463,7 @@ in
 the
 form
 "
-                
+                    
 f
 "
 '
@@ -1481,7 +1495,7 @@ python
 \
 n
 "
-                
+                    
 f
 "
 See
@@ -1511,6 +1525,64 @@ for
 details
 .
 "
+                
+)
+        
+elif
+recursive
+:
+            
+raise
+ValueError
+(
+                
+f
+"
+{
+requirements_path
+}
+:
+1
+Files
+included
+using
+'
+packages
+.
+txt
+:
+'
+actions
+must
+not
+start
+with
+a
+"
+                
+f
+"
+Python
+requirement
+specifier
+(
+i
+.
+e
+.
+a
+'
+requires
+-
+python
+:
+<
+specifier
+>
+'
+line
+)
+"
             
 )
         
@@ -1523,7 +1595,7 @@ enumerate
 lines
 start
 =
-1
+start_line
 )
 :
             
