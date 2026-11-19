@@ -16160,6 +16160,9 @@ isIdle
 )
 )
 ;
+AutoSetThreadIsPreparing
+threadIsPreparing
+;
 for
 (
 CompartmentsIter

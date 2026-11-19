@@ -16545,6 +16545,12 @@ hasBaselineScript
 )
 )
 ;
+AutoAllocInAtomsZone
+ar
+(
+cx
+)
+;
 jit
 :
 :
@@ -16602,7 +16608,7 @@ Destroy
 cx
 -
 >
-gcContext
+zone
 (
 )
 baselineScript

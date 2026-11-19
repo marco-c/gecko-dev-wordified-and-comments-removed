@@ -463,11 +463,6 @@ ModuleImportAttributes
 \
 _
 (
-BaselineScript
-)
-\
-_
-(
 IonScript
 )
 \
