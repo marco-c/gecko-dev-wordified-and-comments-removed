@@ -185,6 +185,10 @@ onSupportNavigateUp
 (
 )
 {
+getOnBackPressedDispatcher
+(
+)
+.
 onBackPressed
 (
 )
