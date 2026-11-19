@@ -1655,7 +1655,7 @@ mounts
 /
 mozsystemmonitor
 /
-resourcemonitor
+basemonitor
 .
 py
 "
@@ -1678,7 +1678,7 @@ endswith
 /
 public
 /
-resourcemonitor
+basemonitor
 .
 py
 "

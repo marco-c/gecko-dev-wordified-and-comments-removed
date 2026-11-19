@@ -431,13 +431,13 @@ try
 from
 mozsystemmonitor
 .
-resourcemonitor
+basemonitor
 import
 (
             
 FORWARD_ENV
             
-SystemResourceMonitor
+BaseResourceMonitor
             
 have_psutil
         
@@ -706,7 +706,7 @@ GECKO_HEAD_REV
     
 monitor
 =
-SystemResourceMonitor
+BaseResourceMonitor
 (
 poll_interval
 =

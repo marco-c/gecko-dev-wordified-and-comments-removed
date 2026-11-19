@@ -2005,7 +2005,7 @@ mozsystemmonitor
             
 /
 "
-resourcemonitor
+basemonitor
 .
 py
 "
