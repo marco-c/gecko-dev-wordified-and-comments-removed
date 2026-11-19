@@ -3778,9 +3778,14 @@ Math
 .
 round
 (
+(
 headers
 .
 fileSize
+?
+?
+0
+)
 /
 (
 1024
