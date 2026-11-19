@@ -87,6 +87,11 @@ TestUniquePtrExtensions
 .
 cpp
 "
+"
+TestVectorRanges
+.
+cpp
+"
 ]
 SOURCES
 +
