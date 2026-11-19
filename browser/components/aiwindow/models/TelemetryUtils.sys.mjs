@@ -247,7 +247,7 @@ console
 createInstance
 (
 {
-prefix
+logModule
 :
 "
 LLMTelemetry
@@ -1471,7 +1471,7 @@ args
 role
 :
 "
-system
+user
 "
 content
 :
