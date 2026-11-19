@@ -185,6 +185,11 @@ OnUnmap
 (
 )
 ;
+void
+QueueResizeToContent
+(
+)
+;
 protected
 :
 virtual
@@ -200,6 +205,11 @@ FireEvent
 EventMessage
 )
 ;
+void
+ResizeToContent
+(
+)
+;
 MOZ_CAN_RUN_SCRIPT
 bool
 FinishClose
@@ -213,6 +223,11 @@ false
 ;
 bool
 mClosePending
+=
+false
+;
+bool
+mResizePending
 =
 false
 ;
