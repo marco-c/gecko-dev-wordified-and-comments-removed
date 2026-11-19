@@ -1651,6 +1651,17 @@ themes
 /
 shared
 /
+eyedropper
+.
+css
+"
+"
+toolkit
+/
+themes
+/
+shared
+/
 colorpicker
 -
 common
