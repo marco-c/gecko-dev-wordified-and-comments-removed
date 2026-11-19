@@ -267,7 +267,7 @@ dropper
 root
 "
 "
-disabled
+scrolling
 "
 )
 ;
@@ -296,7 +296,7 @@ dropper
 root
 "
 "
-disabled
+scrolling
 "
 )
 "
@@ -306,7 +306,7 @@ The
 eyedropper
 enters
 its
-disabled
+scrolling
 state
 "
 )
@@ -441,7 +441,7 @@ async
 >
 {
 const
-disabled
+scrolling
 =
 await
 highlighterTestFront
@@ -456,7 +456,7 @@ dropper
 root
 "
 "
-disabled
+scrolling
 "
 )
 ;
@@ -473,7 +473,7 @@ eye
 -
 dropper
 -
-container
+root
 "
 "
 drawn
@@ -481,7 +481,7 @@ drawn
 )
 ;
 return
-disabled
+scrolling
 =
 =
 =
@@ -542,7 +542,7 @@ dropper
 root
 "
 "
-disabled
+scrolling
 "
 )
 null
@@ -551,7 +551,7 @@ The
 eyedropper
 leaves
 its
-disabled
+scrolling
 state
 "
 )

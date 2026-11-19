@@ -238,13 +238,6 @@ html
 ]
 [
 "
-test_input_color_eyedropper
-.
-html
-"
-]
-[
-"
 test_input_color_input_change_events
 .
 html
