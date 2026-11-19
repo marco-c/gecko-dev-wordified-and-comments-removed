@@ -133,9 +133,8 @@ xpcshell
 toml
 "
 ]
-EXTRA_JS_MODULES
-.
-translations
+MOZ_SRC_FILES
++
 =
 [
 "
