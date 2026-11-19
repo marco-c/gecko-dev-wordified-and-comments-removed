@@ -3544,10 +3544,9 @@ i
 ]
 -
 >
-allows
+allowsByHash
 (
 aDirective
-CSP_HASH
 content
 )
 )
