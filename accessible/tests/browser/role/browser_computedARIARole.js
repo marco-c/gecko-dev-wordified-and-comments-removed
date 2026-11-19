@@ -727,7 +727,7 @@ testComputedARIARole
 htmlSectionHeader
 "
 "
-sectionheader
+generic
 "
 )
 ;
