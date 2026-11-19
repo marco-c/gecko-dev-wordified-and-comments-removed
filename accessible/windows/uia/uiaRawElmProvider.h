@@ -701,6 +701,15 @@ GetLandmarkType
 const
 ;
 void
+GetLocalizedControlType
+(
+nsAString
+&
+aLocalized
+)
+const
+;
+void
 GetLocalizedLandmarkType
 (
 nsAString
