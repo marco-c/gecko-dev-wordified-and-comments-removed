@@ -15560,6 +15560,15 @@ nsIContentPolicy
 :
 :
 TYPE_PING
+|
+|
+contentPolicy
+=
+=
+nsIContentPolicy
+:
+:
+TYPE_BEACON
 )
 {
 return
