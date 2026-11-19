@@ -128,11 +128,6 @@ tier
 2
 run
 :
-clone
--
-with
-:
-hg
 using
 :
 run
