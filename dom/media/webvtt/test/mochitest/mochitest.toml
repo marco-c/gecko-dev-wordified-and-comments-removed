@@ -82,6 +82,11 @@ bug883173
 vtt
 "
 "
+cue_layout_helpers
+.
+js
+"
+"
 long
 .
 vtt
@@ -257,6 +262,13 @@ html
 [
 "
 test_vttparser
+.
+html
+"
+]
+[
+"
+test_webvtt_cue_pseudo_element
 .
 html
 "
