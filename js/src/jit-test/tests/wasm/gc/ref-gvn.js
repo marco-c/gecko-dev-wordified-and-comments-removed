@@ -8882,7 +8882,7 @@ Test
 WasmRefCastConcrete
 "
 "
-WasmLoadField
+WasmLoadInternalField
 "
 "
 WasmLoadField
@@ -8904,7 +8904,7 @@ Test
 WasmRefCastInfallible
 "
 "
-WasmLoadField
+WasmLoadInternalField
 "
 "
 WasmLoadField
@@ -8953,7 +8953,7 @@ Test
 WasmRefCastConcrete
 "
 "
-WasmLoadField
+WasmLoadInternalField
 "
 "
 WasmLoadField
@@ -8975,7 +8975,7 @@ Test
 WasmRefCastInfallible
 "
 "
-WasmLoadField
+WasmLoadInternalField
 "
 "
 WasmLoadField
