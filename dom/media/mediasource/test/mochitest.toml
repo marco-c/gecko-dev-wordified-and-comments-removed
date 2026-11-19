@@ -3053,6 +3053,13 @@ html
 ]
 [
 "
+test_MP3_AppendWindow
+.
+html
+"
+]
+[
+"
 test_MP3_RemoveAndEvict
 .
 html
