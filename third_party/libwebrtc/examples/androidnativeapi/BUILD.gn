@@ -590,14 +590,6 @@ android
 native_api_video
 "
 ]
-java_targets
-=
-[
-"
-:
-androidnativeapi
-"
-]
 }
 android_resources
 (
