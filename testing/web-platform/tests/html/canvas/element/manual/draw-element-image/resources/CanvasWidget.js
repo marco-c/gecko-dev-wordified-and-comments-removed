@@ -93,6 +93,7 @@ div
 id
 =
 child
+drawable
 >
 <
 /
@@ -213,12 +214,11 @@ customEvent
 }
 )
 ;
+waitForCanvasPaint
+(
 this
 .
 canvas
-.
-requestPaint
-(
 )
 ;
 }
