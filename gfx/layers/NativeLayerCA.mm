@@ -926,7 +926,7 @@ forget
 }
 already_AddRefed
 <
-NativeLayerCA
+NativeLayer
 >
 NativeLayerRootCA
 :
@@ -943,7 +943,7 @@ aIsOpaque
 {
 RefPtr
 <
-NativeLayerCA
+NativeLayer
 >
 layer
 =

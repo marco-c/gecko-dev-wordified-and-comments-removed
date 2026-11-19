@@ -454,7 +454,7 @@ override
 ;
 already_AddRefed
 <
-NativeLayerCA
+NativeLayer
 >
 CreateLayerForSurfacePresentation
 (
@@ -468,6 +468,7 @@ aSize
 bool
 aIsOpaque
 )
+override
 ;
 void
 SetWindowIsFullscreen

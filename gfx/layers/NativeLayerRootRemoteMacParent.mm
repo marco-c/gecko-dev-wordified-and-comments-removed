@@ -702,7 +702,7 @@ aOpaque
 {
 RefPtr
 <
-NativeLayerCA
+NativeLayer
 >
 layer
 =
