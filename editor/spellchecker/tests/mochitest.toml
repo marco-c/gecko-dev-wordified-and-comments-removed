@@ -431,6 +431,13 @@ html
 ]
 [
 "
+test_spellcheck_after_dom_text_change
+.
+html
+"
+]
+[
+"
 test_spellcheck_after_edit
 .
 html
