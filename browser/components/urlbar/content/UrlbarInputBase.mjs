@@ -28334,10 +28334,6 @@ current
 this
 .
 isSearchbarSAP
-&
-&
-!
-keepViewOpen
 )
 {
 this
