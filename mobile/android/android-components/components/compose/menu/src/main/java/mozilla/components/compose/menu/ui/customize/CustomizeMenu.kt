@@ -481,6 +481,15 @@ moved
 to
 save
 them
+and
+what
+to
+tell
+the
+user
+about
+the
+move
 .
 *
 param
@@ -526,6 +535,9 @@ String
 movedGroups
 :
 CustomizeMenuGroups
+announcement
+:
+String
 )
 -
 >
@@ -656,6 +668,7 @@ onMove
 =
 {
 movedGroups
+announcement
 -
 >
 onMove
@@ -664,6 +677,7 @@ group
 .
 id
 movedGroups
+announcement
 )
 }
 )
@@ -1202,6 +1216,7 @@ dp
 onMove
 =
 {
+_
 _
 _
 -
