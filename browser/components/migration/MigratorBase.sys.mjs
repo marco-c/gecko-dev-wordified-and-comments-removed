@@ -3066,6 +3066,14 @@ resourceType
 0
 ;
 }
+lazy
+.
+MigrationUtils
+.
+_oldestImportedVisitDate
+=
+null
+;
 notify
 (
 "
