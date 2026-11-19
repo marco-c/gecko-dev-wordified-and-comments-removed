@@ -709,6 +709,9 @@ mem
 :
 transmute
 ;
+static_assertions
+:
+:
 assert_eq_size
 !
 (
@@ -716,6 +719,9 @@ RawPid
 NonZeroI32
 )
 ;
+static_assertions
+:
+:
 assert_eq_size
 !
 (
@@ -723,6 +729,9 @@ RawPid
 Pid
 )
 ;
+static_assertions
+:
+:
 assert_eq_size
 !
 (
@@ -733,6 +742,9 @@ Pid
 >
 )
 ;
+static_assertions
+:
+:
 const_assert_eq
 !
 (
@@ -757,6 +769,9 @@ None
 }
 )
 ;
+static_assertions
+:
+:
 const_assert_eq
 !
 (

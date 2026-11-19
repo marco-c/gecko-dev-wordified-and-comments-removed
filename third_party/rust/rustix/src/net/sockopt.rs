@@ -121,6 +121,11 @@ haiku
 target_os
 =
 "
+horizon
+"
+target_os
+=
+"
 netbsd
 "
 target_os
@@ -4965,7 +4970,11 @@ cfg
 any
 (
 apple
-freebsdlike
+target_os
+=
+"
+freebsd
+"
 linux_like
 solarish
 target_os
@@ -5055,7 +5064,11 @@ cfg
 any
 (
 apple
-freebsdlike
+target_os
+=
+"
+freebsd
+"
 linux_like
 solarish
 target_os
@@ -8807,6 +8820,9 @@ c
 :
 c_int
 ;
+static_assertions
+:
+:
 assert_eq_size
 !
 (

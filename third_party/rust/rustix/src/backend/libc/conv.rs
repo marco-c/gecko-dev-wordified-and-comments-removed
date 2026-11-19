@@ -25,6 +25,11 @@ target_os
 "
 espidf
 "
+target_os
+=
+"
+horizon
+"
 )
 )
 )
@@ -234,6 +239,11 @@ target_os
 =
 "
 espidf
+"
+target_os
+=
+"
+horizon
 "
 target_os
 =

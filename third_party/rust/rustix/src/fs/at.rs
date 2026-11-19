@@ -172,6 +172,11 @@ espidf
 target_os
 =
 "
+horizon
+"
+target_os
+=
+"
 vita
 "
 target_os
@@ -318,6 +323,11 @@ target_os
 =
 "
 espidf
+"
+target_os
+=
+"
+horizon
 "
 target_os
 =

@@ -8980,6 +8980,9 @@ sys
 as
 c
 ;
+static_assertions
+:
+:
 assert_eq_size
 !
 (
@@ -8987,6 +8990,9 @@ io_uring_ptr
 u64
 )
 ;
+static_assertions
+:
+:
 assert_eq_align
 !
 (
@@ -9116,6 +9122,9 @@ u64
 )
 ;
 }
+static_assertions
+:
+:
 assert_eq_size
 !
 (
@@ -9123,6 +9132,9 @@ io_uring_user_data
 u64
 )
 ;
+static_assertions
+:
+:
 assert_eq_align
 !
 (

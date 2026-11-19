@@ -510,6 +510,9 @@ test
 )
 ]
 {
+static_assertions
+:
+:
 assert_eq_size
 !
 (
@@ -623,6 +626,9 @@ test
 )
 ]
 {
+static_assertions
+:
+:
 assert_eq_size
 !
 (
@@ -1288,6 +1294,9 @@ test_types
 (
 )
 {
+static_assertions
+:
+:
 assert_eq_size
 !
 (
@@ -1298,6 +1307,9 @@ c
 c_int
 )
 ;
+static_assertions
+:
+:
 assert_eq_size
 !
 (

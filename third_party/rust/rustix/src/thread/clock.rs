@@ -49,11 +49,6 @@ espidf
 target_os
 =
 "
-freebsd
-"
-target_os
-=
-"
 openbsd
 "
 target_os
@@ -108,11 +103,6 @@ target_os
 =
 "
 espidf
-"
-target_os
-=
-"
-freebsd
 "
 target_os
 =
@@ -206,11 +196,6 @@ target_os
 =
 "
 espidf
-"
-target_os
-=
-"
-freebsd
 "
 target_os
 =

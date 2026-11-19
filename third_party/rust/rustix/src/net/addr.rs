@@ -589,6 +589,9 @@ test_layouts
 (
 )
 {
+static_assertions
+:
+:
 assert_eq_size
 !
 (

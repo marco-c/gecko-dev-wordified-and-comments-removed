@@ -275,6 +275,9 @@ cfg
 linux_raw_dep
 )
 ]
+static_assertions
+:
+:
 assert_eq_size
 !
 (
@@ -327,6 +330,9 @@ arm
 )
 )
 ]
+static_assertions
+:
+:
 assert_eq_size
 !
 (
@@ -376,6 +382,9 @@ arm
 )
 )
 ]
+static_assertions
+:
+:
 assert_eq_size
 !
 (

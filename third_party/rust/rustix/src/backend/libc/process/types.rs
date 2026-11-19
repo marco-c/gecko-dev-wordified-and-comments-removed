@@ -19,6 +19,11 @@ fuchsia
 target_os
 =
 "
+horizon
+"
+target_os
+=
+"
 redox
 "
 target_os

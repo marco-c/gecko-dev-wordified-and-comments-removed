@@ -62,6 +62,11 @@ emscripten
 target_os
 =
 "
+horizon
+"
+target_os
+=
+"
 vita
 "
 )

@@ -126,6 +126,11 @@ aix
 target_os
 =
 "
+horizon
+"
+target_os
+=
+"
 espidf
 "
 target_os
@@ -547,6 +552,11 @@ espidf
 target_os
 =
 "
+horizon
+"
+target_os
+=
+"
 vita
 "
 )
@@ -776,6 +786,11 @@ target_os
 =
 "
 fuchsia
+"
+target_os
+=
+"
+horizon
 "
 target_os
 =

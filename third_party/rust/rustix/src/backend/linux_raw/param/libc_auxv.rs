@@ -1138,6 +1138,9 @@ test_abi
 (
 )
 {
+static_assertions
+:
+:
 const_assert_eq
 !
 (
@@ -1153,6 +1156,9 @@ libc
 _SC_PAGESIZE
 )
 ;
+static_assertions
+:
+:
 const_assert_eq
 !
 (
@@ -1168,6 +1174,9 @@ libc
 _SC_CLK_TCK
 )
 ;
+static_assertions
+:
+:
 const_assert_eq
 !
 (
@@ -1183,6 +1192,9 @@ libc
 AT_HWCAP
 )
 ;
+static_assertions
+:
+:
 const_assert_eq
 !
 (
@@ -1198,6 +1210,9 @@ libc
 AT_HWCAP2
 )
 ;
+static_assertions
+:
+:
 const_assert_eq
 !
 (
@@ -1213,6 +1228,9 @@ libc
 AT_EXECFN
 )
 ;
+static_assertions
+:
+:
 const_assert_eq
 !
 (
@@ -1228,6 +1246,9 @@ libc
 AT_SECURE
 )
 ;
+static_assertions
+:
+:
 const_assert_eq
 !
 (
@@ -1243,6 +1264,9 @@ libc
 AT_SYSINFO_EHDR
 )
 ;
+static_assertions
+:
+:
 const_assert_eq
 !
 (
@@ -1269,6 +1293,9 @@ runtime
 "
 )
 ]
+static_assertions
+:
+:
 const_assert_eq
 !
 (
@@ -1295,6 +1322,9 @@ runtime
 "
 )
 ]
+static_assertions
+:
+:
 const_assert_eq
 !
 (
@@ -1321,6 +1351,9 @@ runtime
 "
 )
 ]
+static_assertions
+:
+:
 const_assert_eq
 !
 (
@@ -1347,6 +1380,9 @@ runtime
 "
 )
 ]
+static_assertions
+:
+:
 const_assert_eq
 !
 (

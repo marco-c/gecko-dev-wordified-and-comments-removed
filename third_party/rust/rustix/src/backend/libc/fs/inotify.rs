@@ -410,7 +410,10 @@ IN_EXCL_UNLINK
 const
 EXCL_UNLINK
 =
-1
+c
+:
+:
+IN_EXCL_UNLINK
 ;
 /
 /
@@ -419,7 +422,10 @@ IN_MASK_ADD
 const
 MASK_ADD
 =
-1
+c
+:
+:
+IN_MASK_ADD
 ;
 /
 /
@@ -428,7 +434,10 @@ IN_MASK_CREATE
 const
 MASK_CREATE
 =
-1
+c
+:
+:
+IN_MASK_CREATE
 ;
 /
 /

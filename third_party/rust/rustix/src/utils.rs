@@ -368,6 +368,9 @@ field_value
 )
 )
 ;
+static_assertions
+:
+:
 const_assert_eq
 !
 (

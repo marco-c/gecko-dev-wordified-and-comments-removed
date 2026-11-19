@@ -2071,6 +2071,9 @@ general
 :
 siginfo__bindgen_ty_1__bindgen_ty_1
 ;
+static_assertions
+:
+:
 assert_eq_size
 !
 (
@@ -2081,6 +2084,9 @@ libc
 siginfo_t
 )
 ;
+static_assertions
+:
+:
 assert_eq_align
 !
 (
@@ -2193,6 +2199,9 @@ si_code
 )
 )
 ;
+static_assertions
+:
+:
 assert_eq_size
 !
 (
@@ -2203,6 +2212,9 @@ libc
 stack_t
 )
 ;
+static_assertions
+:
+:
 assert_eq_align
 !
 (
@@ -2431,6 +2443,9 @@ sa_flags
 sa_mask
 )
 ;
+static_assertions
+:
+:
 assert_eq_size
 !
 (
@@ -2444,6 +2459,9 @@ ffi
 c_ulong
 )
 ;
+static_assertions
+:
+:
 assert_eq_align
 !
 (

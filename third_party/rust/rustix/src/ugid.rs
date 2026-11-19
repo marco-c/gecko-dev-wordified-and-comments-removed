@@ -1036,6 +1036,9 @@ test_sizes
 (
 )
 {
+static_assertions
+:
+:
 assert_eq_size
 !
 (
@@ -1043,6 +1046,9 @@ RawUid
 u32
 )
 ;
+static_assertions
+:
+:
 assert_eq_size
 !
 (
@@ -1050,6 +1056,9 @@ RawGid
 u32
 )
 ;
+static_assertions
+:
+:
 assert_eq_size
 !
 (
@@ -1060,6 +1069,9 @@ libc
 uid_t
 )
 ;
+static_assertions
+:
+:
 assert_eq_size
 !
 (

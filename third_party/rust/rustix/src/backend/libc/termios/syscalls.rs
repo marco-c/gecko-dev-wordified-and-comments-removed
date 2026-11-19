@@ -1068,13 +1068,6 @@ fd
 )
 ?
 ;
-#
-[
-cfg
-(
-linux_kernel
-)
-]
 if
 pid
 =
