@@ -304,7 +304,7 @@ constant
 *
 type
 {
-RegExp
+string
 }
 *
 description

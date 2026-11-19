@@ -291,7 +291,7 @@ initialized
 )
 {
 const
-routerStorage
+storage
 =
 await
 createStorage
@@ -307,8 +307,6 @@ init
 (
 {
 storage
-:
-routerStorage
 sendTelemetry
 :
 this

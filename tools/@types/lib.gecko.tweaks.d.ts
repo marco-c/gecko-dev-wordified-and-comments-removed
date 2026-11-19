@@ -87,12 +87,6 @@ locks
 :
 LockManager
 ;
-declare
-var
-storage
-:
-StorageManager
-;
 interface
 ChromeWindow
 extends

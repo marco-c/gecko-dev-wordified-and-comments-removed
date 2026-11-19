@@ -1345,7 +1345,7 @@ aId
 ;
 }
 let
-events
+storage
 =
 _consoleStorage
 .
@@ -1354,7 +1354,7 @@ get
 aId
 )
 ;
-events
+storage
 .
 push
 (
@@ -1366,14 +1366,14 @@ aEvent
 truncate
 if
 (
-events
+storage
 .
 length
 >
 STORAGE_MAX_EVENTS
 )
 {
-events
+storage
 .
 shift
 (
