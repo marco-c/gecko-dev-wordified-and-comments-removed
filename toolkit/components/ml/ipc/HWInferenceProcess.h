@@ -141,6 +141,14 @@ aReason
 )
 ;
 void
+OnLaunchFailed
+(
+HWInferenceParent
+*
+aActor
+)
+;
+void
 RetireActor
 (
 HWInferenceParent
