@@ -289,6 +289,13 @@ before
 hard_kill_delayed
 [
 "
+browser_utility_launch_timeout
+.
+js
+"
+]
+[
+"
 browser_utility_memoryReport
 .
 js
