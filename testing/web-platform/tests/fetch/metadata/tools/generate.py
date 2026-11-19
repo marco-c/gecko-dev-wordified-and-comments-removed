@@ -1437,7 +1437,15 @@ subtests_by_filename
 with
 open
 (
+os
+.
+path
+.
+join
+(
+HERE
 filename
+)
 '
 w
 '
@@ -1487,6 +1495,13 @@ __main__
     
 main
 (
+os
+.
+path
+.
+join
+(
+HERE
 '
 fetch
 -
@@ -1496,4 +1511,5 @@ conf
 .
 yml
 '
+)
 )
