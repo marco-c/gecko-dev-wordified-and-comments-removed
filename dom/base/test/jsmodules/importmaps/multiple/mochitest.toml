@@ -96,6 +96,13 @@ html
 ]
 [
 "
+test_importMap_with_waiter_on_fetching_preload
+.
+html
+"
+]
+[
+"
 test_preload_linked_normal_deps_not_reset
 .
 html
