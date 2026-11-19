@@ -4556,7 +4556,7 @@ frame
 ;
 IonScript
 *
-ionScript
+rawIonScript
 =
 nullptr
 ;
@@ -4568,7 +4568,17 @@ frame
 checkInvalidation
 (
 &
+rawIonScript
+)
+;
+RootedBuffer
+<
+IonScript
+>
 ionScript
+(
+cx
+rawIonScript
 )
 ;
 bool
