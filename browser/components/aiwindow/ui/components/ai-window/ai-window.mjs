@@ -20289,11 +20289,9 @@ modelName
 )
 {
 return
-lazy
+this
 .
-getCurrentModelName
-(
-)
+selectedModelId
 ;
 }
 #
