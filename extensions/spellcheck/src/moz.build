@@ -123,6 +123,12 @@ LOCAL_INCLUDES
 /
 ipc
 "
+"
+/
+editor
+/
+libeditor
+"
 ]
 EXPORTS
 .
