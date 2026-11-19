@@ -942,7 +942,7 @@ bidi_session
     
 subscribe_events
     
-top_context
+new_tab
     
 wait_for_bidi_events
     
@@ -1071,7 +1071,7 @@ url
 url
 context
 =
-top_context
+new_tab
 [
 "
 context
@@ -1153,6 +1153,40 @@ assert
 len
 (
 window_realms
+)
+=
+=
+2
+    
+new_tab_realms
+=
+[
+r
+for
+r
+in
+window_realms
+if
+r
+[
+"
+context
+"
+]
+=
+=
+new_tab
+[
+"
+context
+"
+]
+]
+    
+assert
+len
+(
+new_tab_realms
 )
 =
 =
@@ -1247,7 +1281,7 @@ owners
 "
 :
 [
-window_realms
+new_tab_realms
 [
 0
 ]
@@ -1276,27 +1310,13 @@ subscribe_events
     
 top_context
     
+new_tab
+    
 wait_for_bidi_events
     
 inline
 )
 :
-    
-new_context
-=
-await
-bidi_session
-.
-browsing_context
-.
-create
-(
-type_hint
-=
-"
-tab
-"
-)
     
 await
 subscribe_events
@@ -1419,7 +1439,7 @@ url
 url
 context
 =
-top_context
+new_tab
 [
 "
 context
@@ -1455,7 +1475,7 @@ get_realms
 (
 context
 =
-top_context
+new_tab
 [
 "
 context
@@ -1485,7 +1505,7 @@ in
 result
 )
     
-result_new_context
+result_top_context
 =
 await
 bidi_session
@@ -1497,7 +1517,7 @@ get_realms
         
 context
 =
-new_context
+top_context
 [
 "
 context
@@ -1526,5 +1546,5 @@ worker
 for
 r
 in
-result_new_context
+result_top_context
 )
