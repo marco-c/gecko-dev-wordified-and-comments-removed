@@ -349,6 +349,15 @@ hide_browser_notice
 css
 "
 "
+bug1875540
+-
+allstate
+.
+com
+.
+js
+"
+"
 bug1886293
 -
 Future_PLC_websites
