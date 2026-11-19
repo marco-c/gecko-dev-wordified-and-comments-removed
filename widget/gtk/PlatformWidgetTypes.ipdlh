@@ -60,6 +60,10 @@ include
 HeadlessWidgetTypes
 ;
 include
+protocol
+PNativeLayerRemote
+;
+include
 "
 mozilla
 /
@@ -99,7 +103,13 @@ bool
 IsX11Display
 ;
 LayoutDeviceIntSize
-InitialClientSize
+clientSize
+;
+Endpoint
+<
+PNativeLayerRemoteChild
+>
+childEndpoint
 ;
 }
 ;
