@@ -558,6 +558,13 @@ js
 ]
 [
 "
+browser_ml_model_hub_migration
+.
+js
+"
+]
+[
+"
 browser_ml_native
 .
 js
