@@ -72,6 +72,11 @@ TestExtractVPXCodecDetails
 .
 cpp
 "
+"
+TestMPEGAudioByteStream
+.
+cpp
+"
 ]
 UNIFIED_SOURCES
 +

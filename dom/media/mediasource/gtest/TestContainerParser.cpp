@@ -86,6 +86,11 @@ audio
 /
 aac
 "
+"
+audio
+/
+mpeg
+"
 }
 ;
 UniquePtr
