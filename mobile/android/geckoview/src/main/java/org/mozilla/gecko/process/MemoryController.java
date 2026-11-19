@@ -100,6 +100,12 @@ CRITICAL
 =
 2
 ;
+SuppressWarnings
+(
+"
+deprecation
+"
+)
 private
 int
 memoryLevelFromTrim
@@ -197,6 +203,12 @@ newConfig
 )
 {
 }
+SuppressWarnings
+(
+"
+deprecation
+"
+)
 public
 void
 onLowMemory
