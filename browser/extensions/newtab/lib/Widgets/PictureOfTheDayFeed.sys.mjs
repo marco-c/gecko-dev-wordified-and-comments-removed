@@ -114,7 +114,7 @@ Merino
 (
 via
 *
-TemporaryMerinoClientShim
+NewTabMerinoWrapper
 )
 stores
 it
@@ -493,7 +493,7 @@ defineESModuleGetters
 (
 lazy
 {
-PersistentCache
+NewTabMerinoWrapper
 :
 "
 resource
@@ -504,13 +504,13 @@ newtab
 /
 lib
 /
-PersistentCache
+NewTabMerinoWrapper
 .
 sys
 .
 mjs
 "
-TemporaryMerinoClientShim
+PersistentCache
 :
 "
 resource
@@ -521,7 +521,7 @@ newtab
 /
 lib
 /
-TemporaryMerinoClientShim
+PersistentCache
 .
 sys
 .
@@ -3289,7 +3289,7 @@ return
 new
 lazy
 .
-TemporaryMerinoClientShim
+NewTabMerinoWrapper
 (
 name
 )
