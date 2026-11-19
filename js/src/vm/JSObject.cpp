@@ -7850,6 +7850,12 @@ break
 ;
 }
 }
+MaybePreserveDOMWrapper
+(
+cx
+obj
+)
+;
 Rooted
 <
 TaggedProto
@@ -8183,6 +8189,12 @@ nobj
 )
 ;
 }
+MaybePreserveDOMWrapper
+(
+cx
+obj
+)
+;
 if
 (
 !
