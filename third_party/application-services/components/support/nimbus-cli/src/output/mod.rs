@@ -11,9 +11,6 @@ features
 mod
 fetch
 ;
-mod
-fml_cli
-;
 pub
 (
 crate
@@ -38,14 +35,4 @@ crate
 )
 mod
 server
-;
-pub
-(
-crate
-)
-use
-fml_cli
-:
-:
-fml_cli
 ;
