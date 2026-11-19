@@ -276,6 +276,13 @@ js
 ]
 [
 "
+test_aitab_budget
+.
+js
+"
+]
+[
+"
 test_aitab_parse
 .
 js
