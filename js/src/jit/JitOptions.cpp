@@ -486,7 +486,7 @@ false
 SET_DEFAULT
 (
 disableCanonicalizeNaNAtUses
-true
+false
 )
 ;
 #
