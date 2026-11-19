@@ -71,7 +71,9 @@ column
 ;
 contain
 :
-strict
+size
+paint
+style
 ;
 background
 :
@@ -406,6 +408,10 @@ size
 position
 :
 relative
+;
+contain
+:
+strict
 ;
 }
 .
