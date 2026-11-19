@@ -405,6 +405,7 @@ tie
 (
 mEncoderDelayFrames
 mEncoderPaddingFrames
+mDecoderDelayFrames
 )
 ;
 }
@@ -416,6 +417,12 @@ mEncoderDelayFrames
 ;
 uint32_t
 mEncoderPaddingFrames
+{
+0
+}
+;
+uint32_t
+mDecoderDelayFrames
 {
 0
 }
