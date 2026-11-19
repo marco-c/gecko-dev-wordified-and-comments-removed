@@ -13,3 +13,10 @@ test_resource_monitor
 py
 "
 ]
+[
+"
+test_basemonitor
+.
+py
+"
+]
