@@ -740,11 +740,6 @@ defined
 (
 MOZ_MEMORY
 )
-_aligned_free
-(
-aSb
-)
-;
 #
 else
 free
