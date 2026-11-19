@@ -531,13 +531,6 @@ js
 ]
 [
 "
-browser_smartwindow_action_log_model
-.
-js
-"
-]
-[
-"
 browser_smartwindow_aitab_callout
 .
 js
@@ -546,13 +539,6 @@ js
 [
 "
 browser_smartwindow_assistant_ui_errors
-.
-js
-"
-]
-[
-"
-browser_smartwindow_auto_model_telemetry
 .
 js
 "
