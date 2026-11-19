@@ -21,9 +21,7 @@ mach
 perftest
 in
 a
-mozilla
--
-central
+Firefox
 source
 checkout
 :

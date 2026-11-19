@@ -9,9 +9,9 @@ glue
 code
 living
 in
-mozilla
--
-central
+the
+Firefox
+repository
 in
 order
 to

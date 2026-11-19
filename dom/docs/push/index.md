@@ -414,9 +414,9 @@ dom
 push
 )
 in
-mozilla
--
-central
+the
+Firefox
+repository
 .
 The
 following
@@ -1119,9 +1119,9 @@ the
 following
 paths
 in
-mozilla
--
-central
+the
+Firefox
+repository
 :
 *
 [

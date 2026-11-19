@@ -272,9 +272,9 @@ project
 s
 location
 in
-mozilla
--
-central
+the
+Firefox
+repository
 .
 After
 updating

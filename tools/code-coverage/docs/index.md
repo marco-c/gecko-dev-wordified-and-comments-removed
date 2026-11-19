@@ -347,9 +347,7 @@ C
 coverage
 information
 for
-mozilla
--
-central
+Firefox
 including
 creating
 your

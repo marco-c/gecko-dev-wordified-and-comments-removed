@@ -529,10 +529,8 @@ will
 exist
 in
 the
-mozilla
--
-central
-repo
+Firefox
+repository
 :
 *
 *

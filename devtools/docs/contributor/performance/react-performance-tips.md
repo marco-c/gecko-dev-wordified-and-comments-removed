@@ -382,9 +382,7 @@ a
 build
 step
 in
-mozilla
--
-central
+Firefox
 yet
 some
 of

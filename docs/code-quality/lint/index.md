@@ -4,9 +4,9 @@ Linters
 are
 used
 in
-mozilla
--
-central
+the
+Firefox
+repository
 to
 help
 enforce

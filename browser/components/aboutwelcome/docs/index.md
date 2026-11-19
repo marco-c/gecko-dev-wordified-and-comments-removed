@@ -193,9 +193,7 @@ the
 root
 of
 the
-mozilla
--
-central
+Firefox
 repository
 .
 (
@@ -338,9 +336,7 @@ the
 root
 of
 the
-mozilla
--
-central
+Firefox
 repository
 :
 shell

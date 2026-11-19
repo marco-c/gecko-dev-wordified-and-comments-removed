@@ -3407,9 +3407,7 @@ buttons
 etc
 .
 )
-mozilla
--
-central
+Firefox
 often
 comes
 with

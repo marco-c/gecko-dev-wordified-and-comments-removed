@@ -11,9 +11,8 @@ be
 used
 for
 documenting
-mozilla
+Firefox
 -
-central
 specific
 code
 or

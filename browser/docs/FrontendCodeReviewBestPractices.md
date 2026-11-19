@@ -112,9 +112,9 @@ with
 other
 commits
 to
-mozilla
--
-central
+the
+main
+branch
 .
 This
 guide
@@ -298,9 +298,9 @@ patch
 applies
 cleanly
 to
-mozilla
--
-central
+the
+main
+branch
 and
 can
 be

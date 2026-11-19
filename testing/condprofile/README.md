@@ -294,11 +294,12 @@ a
 conditioned
 profile
 From
-your
-mozilla
--
-central
+the
 root
+of
+your
+Firefox
+checkout
 run
 :
 .

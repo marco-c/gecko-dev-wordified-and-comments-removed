@@ -406,10 +406,10 @@ meant
 to
 be
 landed
-on
-mozilla
--
-central
+in
+the
+Firefox
+repository
 the
 linting
 error
@@ -702,7 +702,7 @@ addons
 firefox
 -
 addons
-taskcluser
+taskcluster
 fetch
 config
 section

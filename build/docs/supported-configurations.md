@@ -1020,9 +1020,7 @@ a
 Firefox
 built
 from
-mozilla
--
-central
+source
 for
 these
 platforms

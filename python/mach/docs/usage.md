@@ -21,9 +21,9 @@ can
 be
 performed
 in
-mozilla
--
-central
+the
+Firefox
+repository
 .
 #
 #

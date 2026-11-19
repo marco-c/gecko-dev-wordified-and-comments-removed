@@ -140,9 +140,10 @@ line
 From
 the
 root
-mozilla
--
-central
+of
+the
+Firefox
+source
 directory
 build
 Fenix

@@ -27,9 +27,7 @@ They
 live
 in
 the
-mozilla
--
-central
+Firefox
 repository
 under
 {

@@ -197,9 +197,9 @@ to
 what
 exists
 in
-mozilla
--
-central
+the
+Firefox
+repository
 .
 Task
 definitions

@@ -697,9 +697,8 @@ jar
 mn
 in
 the
-mozilla
--
-central
+Firefox
+source
 directory
 where
 the

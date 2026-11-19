@@ -193,9 +193,9 @@ a
 file
 checked
 into
-mozilla
--
-central
+the
+Firefox
+repository
 .
 #
 #
@@ -257,9 +257,9 @@ also
 check
 presets
 into
-mozilla
--
-central
+the
+Firefox
+repository
 in
 {
 searchfox

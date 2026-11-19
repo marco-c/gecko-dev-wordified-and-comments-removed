@@ -926,9 +926,9 @@ run
 tests
 .
 Although
-mozilla
--
-central
+the
+Firefox
+repository
 does
 not
 currently

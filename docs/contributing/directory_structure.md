@@ -252,9 +252,8 @@ when
 working
 in
 the
-mozilla
--
-central
+Firefox
+source
 tree
 .
 #

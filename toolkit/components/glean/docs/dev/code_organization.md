@@ -237,9 +237,7 @@ API
 for
 Glean
 inside
-mozilla
--
-central
+Firefox
 .
 *
 The

@@ -84,9 +84,9 @@ in
 several
 places
 in
-mozilla
--
-central
+the
+Firefox
+repository
 .
 To
 update
@@ -447,9 +447,8 @@ not
 possible
 or
 breaks
-mozilla
--
-central
+the
+Firefox
 build
 then
 consider

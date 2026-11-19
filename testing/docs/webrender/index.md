@@ -337,9 +337,7 @@ installed
 If
 you
 build
-mozilla
--
-central
+Firefox
 you
 should
 already

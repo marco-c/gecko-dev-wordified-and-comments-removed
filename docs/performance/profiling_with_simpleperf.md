@@ -124,9 +124,7 @@ If
 you
 have
 a
-mozilla
--
-central
+Firefox
 checkout
 you
 can

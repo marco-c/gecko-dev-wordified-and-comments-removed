@@ -735,9 +735,7 @@ the
 root
 of
 your
-mozilla
--
-central
+Firefox
 checkout
 :
 .
@@ -912,9 +910,9 @@ yourself
 a
 clone
 of
-mozilla
--
-central
+the
+Firefox
+repository
 <
 /
 contributing
@@ -942,9 +940,8 @@ following
 content
 in
 your
-mozilla
--
-central
+Firefox
+source
 directory
 :
 #

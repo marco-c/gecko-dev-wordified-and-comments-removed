@@ -6,9 +6,7 @@ the
 sync
 implementation
 inside
-mozilla
--
-central
+Firefox
 .
 It
 assumes

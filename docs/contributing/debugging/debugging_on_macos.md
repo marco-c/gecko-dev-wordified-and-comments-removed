@@ -560,9 +560,7 @@ Builds
 Local
 builds
 of
-mozilla
--
-central
+Firefox
 do
 not
 enable

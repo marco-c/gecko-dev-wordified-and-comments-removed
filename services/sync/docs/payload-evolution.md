@@ -63,7 +63,7 @@ md
 )
 but
 the
-relelvant
+relevant
 teams
 decided
 that
@@ -76,9 +76,9 @@ this
 doc
 is
 in
-mozilla
--
-central
+the
+Firefox
+repository
 )
 *
 Status
@@ -323,9 +323,9 @@ in
 this
 repository
 in
-mozilla
--
-central
+the
+Firefox
+repository
 or
 anywhere
 else

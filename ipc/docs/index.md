@@ -26,10 +26,6 @@ synchronization
 They
 live
 in
-mozilla
--
-central
-in
 the
 '
 ipc
@@ -37,6 +33,10 @@ ipc
 docs
 '
 directory
+of
+the
+Firefox
+repository
 .
 {
 toctree

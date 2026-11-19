@@ -62,9 +62,9 @@ Instructions
 1
 .
 Clone
-mozilla
--
-central
+the
+Firefox
+repository
 Ensure
 you
 have
@@ -72,9 +72,9 @@ a
 local
 clone
 of
-mozilla
--
-central
+the
+Firefox
+repository
 .
 If
 you

@@ -267,7 +267,7 @@ test
 test_example
 .
 js
-hg
+git
 add
 path
 /
@@ -327,9 +327,9 @@ plenty
 more
 examples
 throughout
-mozilla
--
-central
+the
+Firefox
+repository
 .
 #
 #

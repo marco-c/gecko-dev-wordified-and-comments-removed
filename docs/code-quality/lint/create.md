@@ -18,9 +18,8 @@ be
 integrated
 into
 the
-mozilla
--
-central
+Firefox
+source
 tree
 it
 needs

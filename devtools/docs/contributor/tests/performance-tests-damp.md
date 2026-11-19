@@ -1656,9 +1656,9 @@ talos
 /
 )
 in
-mozilla
--
-central
+the
+Firefox
+repository
 .
 Compared
 to
@@ -1767,9 +1767,9 @@ DAMP
 is
 also
 in
-mozilla
--
-central
+the
+Firefox
+repository
 .
 See
 [

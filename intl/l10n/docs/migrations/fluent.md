@@ -978,9 +978,9 @@ recipe
 that
 landed
 in
-mozilla
--
-central
+the
+Firefox
+repository
 in
 python
 /

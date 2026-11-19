@@ -28,9 +28,9 @@ code
 reference
 itself
 is
-mozilla
--
-central
+the
+Firefox
+repository
 and
 the
 repackaging

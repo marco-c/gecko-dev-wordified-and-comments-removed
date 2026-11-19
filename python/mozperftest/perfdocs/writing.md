@@ -2253,9 +2253,7 @@ scripting
 /
 )
 The
-mozilla
--
-central
+Firefox
 repository
 has
 a

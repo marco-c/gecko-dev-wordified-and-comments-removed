@@ -35,9 +35,9 @@ that
 are
 vendored
 in
-mozilla
--
-central
+the
+Firefox
+repository
 .
 Rather
 than

@@ -608,11 +608,11 @@ Upstream
 is
 vendored
 in
-mozilla
--
-central
+the
+Firefox
+repository
 via
-an
+a
 simple
 update
 script

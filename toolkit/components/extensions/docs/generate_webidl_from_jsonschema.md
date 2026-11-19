@@ -233,9 +233,8 @@ python
 libraries
 part
 of
-mozilla
--
-central
+the
+Firefox
 mach
 command
 and
@@ -556,9 +555,8 @@ them
 in
 the
 expected
-mozilla
--
-central
+Firefox
+source
 directory
 .
 -

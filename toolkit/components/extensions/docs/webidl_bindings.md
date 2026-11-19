@@ -921,9 +921,9 @@ WebExtensions
 WebIDL
 files
 into
-mozilla
--
-central
+the
+Firefox
+build
 After
 a
 new
@@ -949,9 +949,8 @@ is
 wired
 up
 into
-mozilla
--
-central
+the
+Firefox
 build
 system
 and

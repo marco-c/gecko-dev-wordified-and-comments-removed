@@ -1268,9 +1268,7 @@ Release
 or
 ESR
 only
-mozilla
--
-central
+Nightly
 and
 /
 or

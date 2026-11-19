@@ -7,9 +7,9 @@ Everything
 that
 lands
 in
-mozilla
--
-central
+the
+Firefox
+repository
 includes
 automated
 tests

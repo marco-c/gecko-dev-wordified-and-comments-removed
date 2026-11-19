@@ -85,8 +85,6 @@ some
 interactions
 with
 Git
-and
-Mercurial
 .
 #
 #
@@ -133,9 +131,7 @@ program
 .
 ]
 /
-mozilla
--
-unified
+firefox
 /
 mach
 .
@@ -151,9 +147,7 @@ how
 to
 parse
 the
-mozilla
--
-central
+Firefox
 repository
 and
 specifically

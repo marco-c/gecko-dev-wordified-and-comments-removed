@@ -54,9 +54,9 @@ them
 for
 inclusion
 into
-mozilla
--
-central
+the
+Firefox
+repository
 .
 They
 are

@@ -277,9 +277,7 @@ a
 new
 glean_parser
 in
-mozilla
--
-central
+Firefox
 follow
 these
 steps

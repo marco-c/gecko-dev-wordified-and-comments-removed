@@ -1360,9 +1360,9 @@ Allow
 gdb
 to
 read
-mozilla
--
-central
+the
+Firefox
+repository
 '
 s
 .
@@ -1397,9 +1397,11 @@ path
 /
 to
 /
-mozilla
--
-central
+your
+/
+firefox
+/
+clone
 #
 #
 How

@@ -1310,11 +1310,8 @@ still
 widely
 used
 by
+Firefox
 developers
-in
-mozilla
--
-central
 .
 .
 /

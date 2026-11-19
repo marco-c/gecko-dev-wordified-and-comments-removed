@@ -847,9 +847,9 @@ id
 for
 crates
 within
-mozilla
--
-central
+the
+Firefox
+repository
 .
 Therefore
 the

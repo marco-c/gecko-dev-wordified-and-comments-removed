@@ -5,7 +5,8 @@ settings
 )
 =
 #
-Settings
+Mach
+settings
 Mach
 can
 read
@@ -37,9 +38,9 @@ bootstrap
 script
 .
 In
-mozilla
--
-central
+the
+Firefox
+repository
 these
 files
 can

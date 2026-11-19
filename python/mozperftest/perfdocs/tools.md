@@ -24,9 +24,7 @@ perftest
 tools
 in
 a
-mozilla
--
-central
+Firefox
 source
 checkout
 :

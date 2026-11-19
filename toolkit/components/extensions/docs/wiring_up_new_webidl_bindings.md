@@ -6,9 +6,9 @@ WebExtensions
 WebIDL
 files
 into
-mozilla
--
-central
+the
+Firefox
+build
 #
 #
 Add

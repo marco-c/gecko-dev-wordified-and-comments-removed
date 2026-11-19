@@ -720,9 +720,7 @@ address
 bar
 implementation
 in
-mozilla
--
-central
+Firefox
 then
 don
 '
@@ -1207,9 +1205,7 @@ address
 bar
 implementation
 in
-mozilla
--
-central
+Firefox
 then
 add
 styling
@@ -4009,9 +4005,7 @@ built
 in
 provider
 in
-mozilla
--
-central
+Firefox
 that
 uses
 dynamic

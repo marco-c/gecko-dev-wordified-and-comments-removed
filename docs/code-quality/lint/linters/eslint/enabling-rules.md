@@ -619,9 +619,9 @@ few
 projects
 outside
 of
-mozilla
--
-central
+the
+Firefox
+repository
 so
 they
 will

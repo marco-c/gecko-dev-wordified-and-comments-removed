@@ -30,9 +30,9 @@ some
 steps
 specific
 to
-mozilla
--
-central
+the
+Firefox
+repository
 that
 may
 be

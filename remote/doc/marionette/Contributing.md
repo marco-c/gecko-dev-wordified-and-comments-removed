@@ -1,5 +1,7 @@
 #
 Contributing
+to
+Marionette
 If
 you
 are
@@ -400,10 +402,10 @@ source
 code
 repository
 is
+the
 [
-mozilla
--
-central
+Firefox
+repository
 ]
 .
 Bugs
@@ -497,9 +499,8 @@ md
 #
 communication
 [
-mozilla
--
-central
+Firefox
+repository
 ]
 :
 https

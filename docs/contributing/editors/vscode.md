@@ -546,9 +546,9 @@ When
 using
 Git
 in
-mozilla
--
-central
+the
+Firefox
+repository
 VS
 Code
 will
@@ -672,9 +672,7 @@ this
 setting
 for
 the
-mozilla
--
-central
+Firefox
 repository
 4
 .

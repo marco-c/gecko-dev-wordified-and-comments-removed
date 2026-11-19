@@ -1728,11 +1728,12 @@ json
 condprof
 customization
 file
-on
-mozilla
--
-central
+in
 patches
+for
+the
+Firefox
+repository
 will
 require
 the

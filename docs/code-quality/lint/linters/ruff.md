@@ -33,9 +33,9 @@ can
 process
 all
 of
-mozilla
--
-central
+the
+Firefox
+repository
 in
 under
 a
