@@ -1067,9 +1067,6 @@ toEqual
 ready
 :
 false
-readyPayload
-:
-null
 variant
 :
 undefined
@@ -1109,18 +1106,6 @@ toEqual
 ready
 :
 true
-readyPayload
-:
-{
-protocol
-:
-1
-variant
-:
-"
-lagoon
-"
-}
 variant
 :
 "
@@ -1211,7 +1196,7 @@ result
 current
 )
 .
-toMatchObject
+toEqual
 (
 {
 ready
