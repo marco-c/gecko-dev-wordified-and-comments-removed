@@ -959,8 +959,16 @@ GetLength
 )
 )
 {
-MOZ_ASSERT_UNREACHABLE
+MOZ_ASSERT
 (
+aCharsToMerge
+[
+iter
+.
+StringStart
+(
+)
+]
 "
 bad
 offset
