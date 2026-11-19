@@ -1459,6 +1459,15 @@ gfxCharacterMap
 aUnicodeRangeMap
 )
 {
+if
+(
+mUnusable
+)
+{
+return
+nullptr
+;
+}
 RefPtr
 <
 gfxFont

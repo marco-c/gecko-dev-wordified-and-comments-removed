@@ -13094,6 +13094,15 @@ if
 (
 !
 aFont
+|
+|
+!
+aFont
+-
+>
+Valid
+(
+)
 )
 {
 return

@@ -5628,6 +5628,15 @@ const
 {
 return
 mIsValid
+&
+&
+!
+mFontEntry
+-
+>
+IsUnusable
+(
+)
 ;
 }
 typedef
@@ -6822,7 +6831,9 @@ const
 if
 (
 !
-mIsValid
+Valid
+(
+)
 |
 |
 (
@@ -6896,7 +6907,9 @@ const
 if
 (
 !
-mIsValid
+Valid
+(
+)
 )
 {
 return
