@@ -148,6 +148,8 @@ gradle
 -
 plugins
 "
+unset
+NIMBUS_FML_REPOSITORY
 #
 Nexus
 runs
