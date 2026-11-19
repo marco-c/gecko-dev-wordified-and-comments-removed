@@ -617,7 +617,7 @@ openResultMenuAndPressAccesskey
 (
 window
 "
-D
+n
 "
 {
 resultIndex
