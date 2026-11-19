@@ -1938,6 +1938,18 @@ this
 }
 if
 (
+last
+.
+mStart
+<
+=
+aInterval
+.
+mStart
+)
+{
+MOZ_ASSERT
+(
 aInterval
 .
 RightOf
@@ -1945,7 +1957,7 @@ RightOf
 last
 )
 )
-{
+;
 mIntervals
 .
 AppendElement
