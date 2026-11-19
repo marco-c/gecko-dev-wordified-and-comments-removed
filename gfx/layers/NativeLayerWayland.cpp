@@ -6319,6 +6319,12 @@ IsMapped
 )
 )
 {
+DiscardBackbuffersLocked
+(
+surfaceLock
+true
+)
+;
 return
 ;
 }
