@@ -2959,6 +2959,7 @@ context
 components
 .
 notificationsDelegate
+applicationScope
 )
 PromptMiddleware
 (

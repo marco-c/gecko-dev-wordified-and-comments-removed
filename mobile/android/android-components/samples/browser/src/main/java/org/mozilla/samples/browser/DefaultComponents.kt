@@ -1537,6 +1537,7 @@ RecordingDevicesMiddleware
 (
 applicationContext
 notificationsDelegate
+applicationScope
 )
 LastAccessMiddleware
 (
