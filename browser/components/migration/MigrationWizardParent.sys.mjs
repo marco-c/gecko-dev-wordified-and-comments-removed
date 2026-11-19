@@ -5091,9 +5091,7 @@ maxAgeInDays
 :
 MigrationUtils
 .
-getImportedHistoryAgeInDays
-(
-)
+HISTORY_MAX_AGE_IN_DAYS
 }
 )
 ;
