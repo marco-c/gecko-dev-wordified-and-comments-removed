@@ -1388,6 +1388,16 @@ if
 (
 !
 aUtilityParent
+)
+{
+return
+NS_ERROR_NOT_AVAILABLE
+;
+}
+if
+(
+!
+aUtilityParent
 -
 >
 SendPHWInferenceConstructor

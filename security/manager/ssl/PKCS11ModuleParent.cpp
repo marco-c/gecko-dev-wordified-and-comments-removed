@@ -98,6 +98,16 @@ UtilityProcessParent
 aUtilityParent
 )
 {
+if
+(
+!
+aUtilityParent
+)
+{
+return
+NS_ERROR_NOT_AVAILABLE
+;
+}
 Endpoint
 <
 PPKCS11ModuleParent
