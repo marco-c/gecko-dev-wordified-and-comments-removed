@@ -50,6 +50,13 @@ js
 ]
 [
 "
+browser_popup_long_entries
+.
+js
+"
+]
+[
+"
 browser_popup_mouseover
 .
 js
