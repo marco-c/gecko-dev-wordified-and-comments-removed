@@ -503,6 +503,13 @@ js
 ]
 [
 "
+browser_ml_model_hub_delete
+.
+js
+"
+]
+[
+"
 browser_ml_model_hub_download
 .
 js
