@@ -1864,6 +1864,11 @@ mUsedOverflowWrap
 false
 ;
 bool
+mDidApplyLineClamp
+=
+false
+;
+bool
 mBalancing
 =
 false
@@ -1955,6 +1960,10 @@ mContainerWidth
 0
 ;
 mUsedOverflowWrap
+=
+false
+;
+mDidApplyLineClamp
 =
 false
 ;

@@ -110,7 +110,7 @@ mShouldApplyTextBoxTrimAtFragmentEnd
 (
 false
 )
-mShouldApplyLineClamp
+mDoApplyLineClamp
 (
 false
 )
@@ -175,7 +175,7 @@ mShouldApplyTextBoxTrimAtFragmentEnd
 1
 ;
 bool
-mShouldApplyLineClamp
+mDoApplyLineClamp
 :
 1
 ;
