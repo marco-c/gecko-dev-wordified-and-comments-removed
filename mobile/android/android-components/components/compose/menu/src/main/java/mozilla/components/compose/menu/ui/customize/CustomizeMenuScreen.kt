@@ -1202,6 +1202,9 @@ itemSpacing
 onMove
 =
 onMove
+highlightedGroupId
+=
+actionsGroupId
 onShowActions
 =
 {
@@ -1273,6 +1276,9 @@ itemSpacing
 onMove
 =
 onMove
+highlightedGroupId
+=
+actionsGroupId
 onShowActions
 =
 {
