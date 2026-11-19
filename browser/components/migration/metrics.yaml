@@ -2305,10 +2305,10 @@ range_min
 0
 range_max
 :
-15
+16
 bucket_count
 :
-16
+17
 histogram_type
 :
 linear
