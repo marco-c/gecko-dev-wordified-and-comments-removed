@@ -1602,6 +1602,7 @@ RemoteWorkerDebuggerManagerParent
 :
 CreateForProcess
 (
+nullptr
 &
 debuggerChildEp
 )
