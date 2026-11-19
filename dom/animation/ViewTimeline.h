@@ -308,10 +308,7 @@ return
 NonOwningAnimationTarget
 {
 mSubject
-PseudoStyleRequest
-{
-mSubjectPseudoType
-}
+mSubjectPseudoRequest
 }
 ;
 }
@@ -351,8 +348,10 @@ aAxis
 Element
 *
 aSubject
-PseudoStyleType
-aSubjectPseudoType
+const
+PseudoStyleRequest
+&
+aSubjectPseudoRequest
 const
 StyleViewTimelineInset
 &
@@ -371,9 +370,9 @@ mSubject
 (
 aSubject
 )
-mSubjectPseudoType
+mSubjectPseudoRequest
 (
-aSubjectPseudoType
+aSubjectPseudoRequest
 )
 mIsAnonymous
 (
@@ -574,8 +573,8 @@ Element
 >
 mSubject
 ;
-PseudoStyleType
-mSubjectPseudoType
+PseudoStyleRequest
+mSubjectPseudoRequest
 ;
 bool
 mIsAnonymous

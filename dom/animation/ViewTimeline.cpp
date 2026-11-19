@@ -256,8 +256,6 @@ scroller
 aAxis
 aSubject
 aPseudoRequest
-.
-mType
 aInset
 false
 )
@@ -317,8 +315,6 @@ mElement
 aTarget
 .
 mPseudoRequest
-.
-mType
 aInset
 true
 )
@@ -972,10 +968,12 @@ doc
 scroller
 axis
 subject
-PseudoStyleType
+PseudoStyleRequest
 :
 :
 NotPseudo
+(
+)
 inset
 false
 )
@@ -1225,11 +1223,9 @@ mSubject
 =
 aSubjectElement
 ;
-mSubjectPseudoType
+mSubjectPseudoRequest
 =
 aPseudoRequest
-.
-mType
 ;
 mAxis
 =
@@ -2153,10 +2149,7 @@ mSubject
 >
 GetPseudoElement
 (
-PseudoStyleRequest
-(
-mSubjectPseudoType
-)
+mSubjectPseudoRequest
 )
 ;
 const
