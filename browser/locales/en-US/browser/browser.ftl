@@ -2320,7 +2320,7 @@ add
 -
 engine
 -
-menu
+menu2
 =
 .
 label
@@ -2328,6 +2328,10 @@ label
 Add
 search
 engine
+.
+accesskey
+=
+h
 #
 #
 Local
