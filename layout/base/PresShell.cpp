@@ -8542,13 +8542,6 @@ exactly
 "
 )
 ;
-FrameArena
-:
-:
-SortFreeLists
-(
-)
-;
 ViewportFrame
 *
 rootFrame
