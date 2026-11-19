@@ -2875,15 +2875,6 @@ test
 }
 ]
 ;
-LoginHelper
-.
-createLogger
-(
-"
-LoginAutoCompleteResult
-"
-)
-;
 Services
 .
 prefs
