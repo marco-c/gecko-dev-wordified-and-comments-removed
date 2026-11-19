@@ -568,6 +568,14 @@ modifier
 =
 Modifier
 .
+drawnOnlyInView
+(
+group
+.
+id
+dragState
+)
+.
 groupPlacement
 (
 isDragged
