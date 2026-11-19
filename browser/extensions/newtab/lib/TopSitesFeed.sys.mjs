@@ -5479,6 +5479,9 @@ countsArray
 [
 index
 ]
+|
+|
+1
 }
 )
 )

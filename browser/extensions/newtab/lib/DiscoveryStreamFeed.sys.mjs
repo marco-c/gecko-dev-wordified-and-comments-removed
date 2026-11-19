@@ -9152,6 +9152,9 @@ countsSpocsArray
 [
 index
 ]
+|
+|
+1
 .
 .
 .
@@ -9466,6 +9469,9 @@ countsArray
 [
 index
 ]
+|
+|
+1
 }
 )
 )
