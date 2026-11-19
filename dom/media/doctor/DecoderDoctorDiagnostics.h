@@ -624,6 +624,8 @@ eUnset
 ;
 DecoderDoctorEvent
 mEvent
+{
+}
 ;
 MediaResult
 mDecodeIssue
