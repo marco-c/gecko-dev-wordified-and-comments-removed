@@ -1069,6 +1069,13 @@ js
 ]
 [
 "
+browser_smartwindow_smartbar_model_select_auto
+.
+js
+"
+]
+[
+"
 browser_smartwindow_smartbar_tab_state
 .
 js
