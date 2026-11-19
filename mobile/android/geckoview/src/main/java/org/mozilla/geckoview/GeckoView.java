@@ -1615,11 +1615,6 @@ setBackground
 drawable
 )
 ;
-setWillNotCacheDrawing
-(
-false
-)
-;
 mSurfaceWrapper
 =
 new
