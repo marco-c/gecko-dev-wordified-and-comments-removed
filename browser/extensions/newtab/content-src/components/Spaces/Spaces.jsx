@@ -319,8 +319,10 @@ PREVIEW_FALLBACK_SELECTOR
 widgets
 -
 container
->
-*
+.
+widget
+-
+wrapper
 .
 card
 -
@@ -3250,6 +3252,8 @@ line
 jsx
 -
 a11y
+-
+x
 /
 click
 -
@@ -3263,6 +3267,8 @@ events
 jsx
 -
 a11y
+-
+x
 /
 no
 -
