@@ -538,6 +538,11 @@ WaylandBuffer
 >
 mExternalImage
 ;
+uintptr_t
+mLastExternalSurface
+=
+0
+;
 bool
 mIsDRM
 =
