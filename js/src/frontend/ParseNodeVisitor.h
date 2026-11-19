@@ -18,6 +18,15 @@ include
 "
 frontend
 /
+FrontendContext
+.
+h
+"
+#
+include
+"
+frontend
+/
 ParseNode
 .
 h
@@ -36,9 +45,6 @@ h
 namespace
 js
 {
-class
-FrontendContext
-;
 namespace
 frontend
 {
