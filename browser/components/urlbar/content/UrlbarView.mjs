@@ -35011,9 +35011,7 @@ UrlbarPrefs
 get
 (
 "
-contextMenu
-.
-featureGate
+contextMenuFeatureGate
 "
 )
 )
