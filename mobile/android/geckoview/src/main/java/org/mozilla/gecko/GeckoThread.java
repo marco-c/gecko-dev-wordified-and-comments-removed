@@ -1976,6 +1976,11 @@ sGeckoHandler
 new
 Handler
 (
+Looper
+.
+myLooper
+(
+)
 )
 ;
 final

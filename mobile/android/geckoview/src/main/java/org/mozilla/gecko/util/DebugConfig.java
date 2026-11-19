@@ -290,7 +290,7 @@ class
 ;
 description
 .
-putMapPropertyType
+addPropertyParameters
 (
 "
 prefs
@@ -305,7 +305,7 @@ class
 ;
 description
 .
-putMapPropertyType
+addPropertyParameters
 (
 "
 env
@@ -320,7 +320,7 @@ class
 ;
 description
 .
-putListPropertyType
+addPropertyParameters
 (
 "
 args
