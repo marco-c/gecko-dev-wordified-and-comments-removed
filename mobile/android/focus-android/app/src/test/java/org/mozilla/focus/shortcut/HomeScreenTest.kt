@@ -462,6 +462,8 @@ AppState
 Screen
 .
 Home
+(
+)
 )
 when
 (
@@ -550,6 +552,8 @@ AppState
 Screen
 .
 Home
+(
+)
 isPinningSupported
 =
 true

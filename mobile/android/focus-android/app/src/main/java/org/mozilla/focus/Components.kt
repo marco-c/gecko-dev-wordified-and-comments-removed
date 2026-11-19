@@ -1240,6 +1240,8 @@ else
 Screen
 .
 Home
+(
+)
 topSites
 =
 emptyList
