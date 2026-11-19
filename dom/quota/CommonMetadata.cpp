@@ -53,18 +53,6 @@ dom
 :
 quota
 {
-#
-if
-defined
-(
-NIGHTLY_BUILD
-)
-|
-|
-defined
-(
-DEBUG
-)
 bool
 CheckClientUsagesConsistency
 (
@@ -289,8 +277,6 @@ aContext
 )
 ;
 }
-#
-endif
 nsresult
 FullOriginMetadata
 :

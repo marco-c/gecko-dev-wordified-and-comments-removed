@@ -554,18 +554,6 @@ return
 mLastModifiedTime
 ;
 }
-#
-if
-defined
-(
-NIGHTLY_BUILD
-)
-|
-|
-defined
-(
-DEBUG
-)
 bool
 CheckIfUsageIsConsistent
 (
@@ -576,8 +564,6 @@ context
 )
 const
 ;
-#
-endif
 nsTHashMap
 <
 nsStringHashKey
