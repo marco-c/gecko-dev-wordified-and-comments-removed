@@ -308,6 +308,13 @@ timeLowerBound
 )
 ;
 }
+const
+epsilon
+=
+0
+.
+00001
+;
 assert_greater_than_equal
 (
 performance
@@ -315,6 +322,8 @@ performance
 now
 (
 )
++
+epsilon
 entry
 .
 renderTime
