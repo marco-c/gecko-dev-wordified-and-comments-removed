@@ -9007,6 +9007,17 @@ data
 listenerId
 )
 ;
+context
+.
+listenerProxies
+.
+delete
+(
+data
+.
+listenerId
+)
+;
 let
 handler
 =
