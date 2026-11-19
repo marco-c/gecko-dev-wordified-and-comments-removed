@@ -445,10 +445,10 @@ New
 Container
 "
 "
-briefcase
+Icon
 "
 "
-blue
+Color
 "
 )
 ;
@@ -485,7 +485,7 @@ identity
 .
 icon
 "
-briefcase
+Icon
 "
 "
 Icon
@@ -499,7 +499,7 @@ identity
 .
 color
 "
-blue
+Color
 "
 "
 Color
@@ -580,7 +580,7 @@ userContextId
 .
 icon
 "
-briefcase
+Icon
 "
 "
 Identity
@@ -603,7 +603,7 @@ userContextId
 .
 color
 "
-blue
+Color
 "
 "
 Identity
@@ -1584,10 +1584,10 @@ update
 Container
 "
 "
-dollar
+Icon
 "
 "
-green
+Color
 "
 )
 false
@@ -1616,10 +1616,10 @@ update
 Container
 "
 "
-dollar
+Icon
 "
 "
-green
+Color
 "
 )
 true
@@ -1682,7 +1682,7 @@ getPublicIdentityFromId
 .
 icon
 "
-dollar
+Icon
 "
 "
 Identity
@@ -1703,7 +1703,7 @@ getPublicIdentityFromId
 .
 color
 "
-green
+Color
 "
 "
 Identity

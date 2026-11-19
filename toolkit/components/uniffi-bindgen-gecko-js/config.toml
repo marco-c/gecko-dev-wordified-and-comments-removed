@@ -232,14 +232,6 @@ AsyncWrapped
 "
 [
 fxcontainers
-]
-library_group
-=
-"
-ALL_PLATFORMS
-"
-[
-fxcontainers
 .
 async_wrappers
 ]

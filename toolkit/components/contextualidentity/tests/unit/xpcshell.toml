@@ -31,13 +31,6 @@ js
 ]
 [
 "
-test_containersStore
-.
-js
-"
-]
-[
-"
 test_corruptedFile
 .
 js
