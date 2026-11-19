@@ -20,6 +20,11 @@ files
 =
 [
 "
+file_importMap_after_module_waiting_on_modulepreload
+.
+html
+"
+"
 preload_linked_bare
 .
 mjs
@@ -90,6 +95,13 @@ html
 [
 "
 test_bug_2058272
+.
+html
+"
+]
+[
+"
+test_importMap_after_module_waiting_on_modulepreload
 .
 html
 "
