@@ -4233,8 +4233,6 @@ kidFrame
 =
 *
 iter
-+
-+
 ;
 bool
 reuseUnfragmentedAnchorPosReferences
@@ -4413,6 +4411,11 @@ aDelegatingFrame
 )
 ;
 }
+bool
+kidFrameNeedsPush
+=
+false
+;
 if
 (
 kidNeedsReflow
@@ -4483,11 +4486,6 @@ GetPhysicalSize
 (
 containerWM
 )
-;
-bool
-kidFrameNeedsPush
-=
-false
 ;
 if
 (
@@ -4793,6 +4791,10 @@ if
 kidFrameNeedsPush
 )
 {
+iter
++
++
+;
 StealFrame
 (
 kidFrame
@@ -4978,7 +4980,6 @@ nextFrame
 }
 }
 else
-{
 if
 (
 aOverflowAreas
@@ -4994,7 +4995,6 @@ aOverflowAreas
 kidFrame
 )
 ;
-}
 }
 if
 (
@@ -5040,6 +5040,17 @@ NS_FRAME_HAS_DIRTY_CHILDREN
 )
 ;
 }
+}
+if
+(
+!
+kidFrameNeedsPush
+)
+{
+iter
++
++
+;
 }
 }
 if
