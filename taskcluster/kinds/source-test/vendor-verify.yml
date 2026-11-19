@@ -1332,16 +1332,6 @@ moz
 .
 yaml
 -
-netwerk
-/
-sctp
-/
-src
-/
-moz
-.
-yaml
--
 third_party
 /
 libsrtp

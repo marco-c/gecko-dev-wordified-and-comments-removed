@@ -127,11 +127,6 @@ DIRS
 "
 sctp
 /
-src
-"
-"
-sctp
-/
 datachannel
 "
 ]
