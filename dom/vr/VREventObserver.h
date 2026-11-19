@@ -186,9 +186,6 @@ nsGlobalWindowInner
 mWindow
 ;
 bool
-mIs2DView
-;
-bool
 mStopActivity
 ;
 }

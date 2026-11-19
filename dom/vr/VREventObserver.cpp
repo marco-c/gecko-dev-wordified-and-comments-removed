@@ -43,10 +43,6 @@ mWindow
 (
 aGlobalWindow
 )
-mIs2DView
-(
-true
-)
 mStopActivity
 (
 false
@@ -584,10 +580,6 @@ uint32_t
 aDisplayID
 )
 {
-mIs2DView
-=
-false
-;
 if
 (
 mWindow
