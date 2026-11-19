@@ -647,14 +647,6 @@ sys
 .
 mjs
 .
-Legacy
-:
-ChatStore
-manages
-its
-own
-connection
-.
 -
 Reviewers
 flag
