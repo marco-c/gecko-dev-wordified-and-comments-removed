@@ -5805,8 +5805,9 @@ the
 headers
 store
 const
-fileMedataExists
+fileMetadataExists
 =
+await
 this
 .
 #
@@ -5831,7 +5832,7 @@ file
 if
 (
 !
-fileMedataExists
+fileMetadataExists
 )
 {
 return
