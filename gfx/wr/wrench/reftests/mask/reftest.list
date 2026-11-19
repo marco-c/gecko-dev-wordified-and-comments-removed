@@ -134,6 +134,11 @@ platform
 linux
 mac
 )
+fuzzy
+(
+1
+16
+)
 =
 =
 rounded
