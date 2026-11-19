@@ -545,6 +545,13 @@ js
 ]
 [
 "
+browser_smartwindow_auto_model_telemetry
+.
+js
+"
+]
+[
+"
 browser_smartwindow_beta_badge
 .
 js
