@@ -531,6 +531,13 @@ js
 ]
 [
 "
+browser_smartwindow_action_log_model
+.
+js
+"
+]
+[
+"
 browser_smartwindow_aitab_callout
 .
 js
