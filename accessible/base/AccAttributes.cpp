@@ -1592,8 +1592,8 @@ CopyTo
 AccAttributes
 *
 aDest
-bool
-aOnlyMissing
+CopyReq
+aCopyReq
 )
 const
 {
@@ -1624,13 +1624,11 @@ Next
 {
 if
 (
-aOnlyMissing
+aCopyReq
 &
 &
-aDest
--
->
-HasAttribute
+!
+aCopyReq
 (
 iter
 .
