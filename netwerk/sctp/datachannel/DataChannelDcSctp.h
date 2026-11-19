@@ -68,7 +68,7 @@ aHandler
 )
 ;
 void
-Destroy
+CloseAssociation
 (
 )
 override
@@ -190,6 +190,15 @@ HandleTimeout
 TimeoutID
 aId
 )
+;
+webrtc
+:
+:
+Timestamp
+Now
+(
+)
+override
 ;
 uint32_t
 GetRandomInt
