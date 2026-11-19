@@ -2639,12 +2639,6 @@ test
 sets
 :
 -
-browsertime
--
-browsertime
--
-profiling
--
 macosx1470
 -
 64
@@ -2693,8 +2687,6 @@ tests
 backlog
 -
 webgpu
--
-browsertime
 macosx1470
 -
 64
