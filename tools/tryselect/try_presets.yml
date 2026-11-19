@@ -1451,8 +1451,10 @@ crashtest
 geckoview
 -
 reftest
-'
-nofis
+!
+nogpu
+!
+ioi
 "
 #
 Web
@@ -1826,8 +1828,10 @@ crashtest
 geckoview
 -
 reftest
-'
-nofis
+!
+nogpu
+!
+ioi
 "
 #
 Web
@@ -5101,7 +5105,7 @@ tp6
 -
 firefox
 -
-imgur
+microsoft
 sm
 -
 shell
