@@ -283,7 +283,7 @@ console
 createInstance
 (
 {
-prefix
+logModule
 :
 "
 ChatHistory
@@ -297,7 +297,7 @@ smartwindow
 .
 chatHistory
 .
-loglevel
+logLevel
 "
 }
 )

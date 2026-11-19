@@ -116,7 +116,7 @@ console
 createInstance
 (
 {
-prefix
+logModule
 :
 "
 JourneyStore
@@ -128,7 +128,9 @@ browser
 .
 smartwindow
 .
-memoriesLogLevel
+memories
+.
+logLevel
 "
 }
 )

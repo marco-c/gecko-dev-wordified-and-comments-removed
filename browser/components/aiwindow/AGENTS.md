@@ -472,7 +472,7 @@ console
 createInstance
 (
 {
-prefix
+logModule
 maxLogLevelPref
 }
 )
@@ -504,12 +504,6 @@ console
 .
 *
 calls
-loglevel
-spelling
-prefs
-with
-no
-default
 .
 -
 Private

@@ -170,7 +170,7 @@ console
 createInstance
 (
 {
-prefix
+logModule
 :
 "
 DigestStore
@@ -182,7 +182,9 @@ browser
 .
 smartwindow
 .
-memoriesLogLevel
+memories
+.
+logLevel
 "
 }
 )

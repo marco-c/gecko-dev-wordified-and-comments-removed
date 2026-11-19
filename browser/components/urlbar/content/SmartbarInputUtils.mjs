@@ -498,7 +498,7 @@ smartwindow
 .
 smartbarMentions
 .
-loglevel
+logLevel
 "
 }
 )

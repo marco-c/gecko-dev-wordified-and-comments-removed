@@ -259,7 +259,9 @@ browser
 .
 smartwindow
 .
-telemetryLogLevel
+telemetry
+.
+logLevel
 "
 }
 )

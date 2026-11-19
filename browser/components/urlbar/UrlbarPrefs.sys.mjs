@@ -6714,7 +6714,7 @@ smartwindow
 .
 smartbarMentions
 .
-loglevel
+logLevel
 "
 "
 Error

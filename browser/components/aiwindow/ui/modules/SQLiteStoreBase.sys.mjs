@@ -183,7 +183,7 @@ browser
 .
 mystore
 .
-loglevel
+logLevel
 "
 ;
 }
@@ -722,7 +722,7 @@ console
 createInstance
 (
 {
-prefix
+logModule
 :
 this
 .

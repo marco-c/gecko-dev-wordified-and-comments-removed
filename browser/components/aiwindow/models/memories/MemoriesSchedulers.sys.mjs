@@ -492,7 +492,9 @@ browser
 .
 smartwindow
 .
-memoriesLogLevel
+memories
+.
+logLevel
 "
 }
 )

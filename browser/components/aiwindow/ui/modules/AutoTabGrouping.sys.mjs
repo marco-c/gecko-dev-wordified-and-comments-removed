@@ -230,7 +230,7 @@ console
 createInstance
 (
 {
-prefix
+logModule
 :
 "
 AutoTabGrouping
@@ -244,7 +244,7 @@ smartwindow
 .
 autoTabGrouping
 .
-loglevel
+logLevel
 "
 }
 )

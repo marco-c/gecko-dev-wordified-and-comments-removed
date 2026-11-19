@@ -1449,7 +1449,7 @@ createInstance
 logModule
 :
 "
-ChatStore
+AIWindow
 "
 maxLogLevelPref
 :
@@ -1458,9 +1458,9 @@ browser
 .
 smartwindow
 .
-chatStore
+aiWindow
 .
-loglevel
+logLevel
 "
 }
 )

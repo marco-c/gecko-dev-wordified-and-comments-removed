@@ -221,7 +221,7 @@ console
 createInstance
 (
 {
-prefix
+logModule
 :
 "
 LLMTelemetry
@@ -233,7 +233,9 @@ browser
 .
 smartwindow
 .
-telemetryLogLevel
+telemetry
+.
+logLevel
 "
 }
 )

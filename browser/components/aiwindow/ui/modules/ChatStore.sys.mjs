@@ -149,7 +149,7 @@ console
 createInstance
 (
 {
-prefix
+logModule
 :
 "
 ChatStore
@@ -163,7 +163,7 @@ smartwindow
 .
 chatStore
 .
-loglevel
+logLevel
 "
 }
 )
