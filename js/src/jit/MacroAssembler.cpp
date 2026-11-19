@@ -5712,6 +5712,10 @@ FixedLengthTypedArrayObject
 :
 :
 DATA_SLOT
+.
+index
+(
+)
 +
 1
 "
@@ -5983,6 +5987,10 @@ FixedLengthTypedArrayObject
 :
 :
 DATA_SLOT
+.
+index
+(
+)
 +
 1
 "
@@ -22612,11 +22620,11 @@ branchPtr
 Assembler
 :
 :
-Above
+NotEqual
 scratch
 ImmPtr
 (
-BaselineCompilingScriptPtr
+nullptr
 )
 &
 hasBaselineScript
