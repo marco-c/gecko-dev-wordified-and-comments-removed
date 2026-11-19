@@ -30172,9 +30172,8 @@ menu
 commands
 gated
 on
-contextMenu
-.
-featureGate
+*
+resultTargetMenuFeatureGate
 .
 *
 *
@@ -30716,9 +30715,7 @@ UrlbarPrefs
 get
 (
 "
-contextMenu
-.
-featureGate
+resultTargetMenuFeatureGate
 "
 )
 &
