@@ -481,8 +481,8 @@ worker
 "
 cross_origin
 dip_credentialless
-undefined
-undefined
+cookie_cross_origin
+cookie_cross_origin
 )
 ;
 }

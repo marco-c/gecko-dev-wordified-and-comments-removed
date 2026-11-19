@@ -123,16 +123,7 @@ same_origin
 ?
 cookie_same_origin
 :
-(
-worker_dip
-=
-=
-dip_credentialless
-?
-undefined
-:
 cookie_cross_origin
-)
 ;
 const
 get_cookie
