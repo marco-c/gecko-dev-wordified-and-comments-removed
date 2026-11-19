@@ -310,6 +310,9 @@ clang
 -
 tidy
 )
+tier
+:
+1
 run
 :
 cwd
