@@ -73,10 +73,12 @@ nsProfileLock
 ;
 nsProfileLock
 (
+const
 nsProfileLock
 &
-src
 )
+=
+delete
 ;
 ~
 nsProfileLock
