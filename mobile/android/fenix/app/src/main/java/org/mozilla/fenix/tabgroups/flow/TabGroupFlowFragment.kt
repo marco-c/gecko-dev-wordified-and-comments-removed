@@ -772,9 +772,6 @@ string
 .
 edit_tab_group_bottom_sheet_grabber_content_description
 )
-showBetaLabel
-=
-true
 )
 )
 {
@@ -816,9 +813,6 @@ string
 .
 add_to_tab_group_bottom_sheet_grabber_content_description
 )
-showBetaLabel
-=
-true
 )
 )
 {
@@ -866,9 +860,6 @@ string
 .
 add_to_tab_group_bottom_sheet_grabber_content_description
 )
-showBetaLabel
-=
-true
 )
 )
 {
@@ -917,9 +908,6 @@ string
 .
 tab_group_sheet_dismiss_description
 )
-showBetaLabel
-=
-true
 fullyExpandOnFirstOpen
 =
 destination
