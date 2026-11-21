@@ -248,7 +248,7 @@ namespace
 layers
 {
 class
-AndroidImageReader
+AndroidImageReaderClient
 ;
 class
 BufferRecycleBin
@@ -1200,9 +1200,9 @@ RefPtr
 layers
 :
 :
-AndroidImageReader
+AndroidImageReaderClient
 >
-mAndroidImageReader
+mAndroidImageReaderClient
 ;
 #
 endif
