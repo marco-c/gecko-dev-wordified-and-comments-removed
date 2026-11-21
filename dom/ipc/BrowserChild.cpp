@@ -10546,6 +10546,9 @@ eDrag
 aEvent
 .
 mModifiers
+aEvent
+.
+mRefPoint
 )
 ;
 }

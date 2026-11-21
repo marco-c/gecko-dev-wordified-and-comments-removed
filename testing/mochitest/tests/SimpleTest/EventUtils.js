@@ -15422,6 +15422,13 @@ Ci
 nsIDragService
 )
 ;
+const
+prevNeverAllowSessionIsSynthesizedForTests
+=
+ds
+.
+neverAllowSessionIsSynthesizedForTests
+;
 ds
 .
 neverAllowSessionIsSynthesizedForTests
@@ -15813,6 +15820,12 @@ completed
 .
 "
 )
+;
+ds
+.
+neverAllowSessionIsSynthesizedForTests
+=
+prevNeverAllowSessionIsSynthesizedForTests
 ;
 }
 }
