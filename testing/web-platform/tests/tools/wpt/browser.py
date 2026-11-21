@@ -6710,7 +6710,9 @@ dest
 =
 os
 .
-pwd
+getcwd
+(
+)
             
 branches
 =
@@ -6752,6 +6754,48 @@ central
 "
 )
             
+from
+.
+import
+android
+            
+host_cpu
+=
+android
+.
+get_host_cpu
+(
+)
+            
+if
+host_cpu
+not
+in
+(
+"
+x86_64
+"
+"
+aarch64
+"
+)
+:
+                
+raise
+NotImplementedError
+(
+f
+"
+Unsupported
+host
+CPU
+architecture
+{
+host_cpu
+}
+"
+)
+            
 resp
 =
 get_taskcluster_artifact
@@ -6775,7 +6819,9 @@ mobile
 .
 android
 -
-x86_64
+{
+host_cpu
+}
 -
 opt
 "
@@ -6832,9 +6878,6 @@ get_ext
 (
 filename
 )
-[
-1
-]
 )
         
 self
@@ -17772,25 +17815,6 @@ chosen_url
 "
 )
         
-resp
-=
-get
-(
-chosen_url
-)
-        
-filename
-=
-get_download_filename
-(
-resp
-"
-SafariTechnologyPreview
-.
-dmg
-"
-)
-        
 installer_path
 =
 os
@@ -17800,7 +17824,11 @@ path
 join
 (
 dest
-filename
+"
+SafariTechnologyPreview
+.
+dmg
+"
 )
         
 with
@@ -17815,13 +17843,10 @@ as
 f
 :
             
-f
-.
-write
+get_download_to_descriptor
 (
-resp
-.
-content
+f
+chosen_url
 )
         
 return
