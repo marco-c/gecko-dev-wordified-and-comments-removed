@@ -22184,6 +22184,9 @@ key_browserConsole
 key_browserToolbox
 "
 "
+cmd_lockWindows
+"
+"
 key_undo
 "
 "
