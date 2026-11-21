@@ -15,6 +15,13 @@ py
 ]
 [
 "
+test_expected_changes
+.
+py
+"
+]
+[
+"
 test_utils
 .
 py
