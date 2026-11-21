@@ -407,11 +407,6 @@ StartReading
 )
 {
 }
-void
-NotifyOutgoingDatagramSpaceAvailable
-(
-)
-;
 virtual
 Http3WebTransportSession
 *

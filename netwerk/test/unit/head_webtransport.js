@@ -194,11 +194,6 @@ data
 ;
 }
 }
-onOutgoingDatagramSpaceAvailable
-(
-)
-{
-}
 onMaxDatagramSize
 (
 size
