@@ -145,15 +145,6 @@ selectionCounter
 "
 const
 val
-COLLECTIONS_BUTTON
-=
-"
-BANNER_ROOT
-.
-collections
-"
-const
-val
 SHARE_BUTTON
 =
 "

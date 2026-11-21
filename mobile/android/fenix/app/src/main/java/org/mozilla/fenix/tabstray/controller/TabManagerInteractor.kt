@@ -141,7 +141,6 @@ Page
 /
 *
 *
-*
 Interactor
 for
 responding
@@ -268,7 +267,6 @@ null
 /
 *
 *
-*
 Invoked
 when
 the
@@ -287,7 +285,6 @@ onDeleteSelectedTabsClicked
 (
 )
 /
-*
 *
 *
 Invoked
@@ -309,7 +306,6 @@ onForceSelectedTabsAsInactiveClicked
 (
 )
 /
-*
 *
 *
 Invoked
@@ -334,30 +330,6 @@ onBookmarkSelectedTabsClicked
 /
 *
 *
-*
-Invoked
-when
-the
-collections
-button
-in
-the
-multi
-selection
-banner
-is
-clicked
-.
-*
-/
-fun
-onAddSelectedTabsToCollectionClicked
-(
-)
-/
-*
-*
-*
 Invoked
 when
 the
@@ -378,7 +350,6 @@ onShareSelectedTabs
 (
 )
 /
-*
 *
 *
 Invoked
@@ -431,7 +402,6 @@ Boolean
 /
 *
 *
-*
 Invoked
 when
 the
@@ -449,7 +419,6 @@ onSignInClicked
 (
 )
 /
-*
 *
 *
 A
@@ -477,7 +446,6 @@ String
 null
 )
 /
-*
 *
 *
 A
@@ -621,18 +589,6 @@ onBookmarkSelectedTabsClicked
 controller
 .
 handleBookmarkSelectedTabsClicked
-(
-)
-}
-override
-fun
-onAddSelectedTabsToCollectionClicked
-(
-)
-{
-controller
-.
-handleAddSelectedTabsToCollectionClicked
 (
 )
 }
@@ -794,7 +750,6 @@ handleNavigateToRecentlyClosed
 /
 *
 *
-*
 See
 [
 InactiveTabsInteractor
@@ -823,7 +778,6 @@ expanded
 /
 *
 *
-*
 See
 [
 InactiveTabsInteractor
@@ -848,7 +802,6 @@ handleInactiveTabsAutoCloseDialogDismiss
 /
 *
 *
-*
 See
 [
 InactiveTabsInteractor
@@ -871,7 +824,6 @@ handleEnableInactiveTabsAutoCloseClicked
 )
 }
 /
-*
 *
 *
 See
@@ -904,7 +856,6 @@ tab
 /
 *
 *
-*
 See
 [
 InactiveTabsInteractor
@@ -933,7 +884,6 @@ tab
 )
 }
 /
-*
 *
 *
 See
