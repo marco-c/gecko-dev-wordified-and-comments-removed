@@ -8696,10 +8696,6 @@ postLayerization
 nullptr
 )
 ;
-const
-nsEventStatus
-status
-=
 DispatchWidgetEventViaAPZ
 (
 localEvent
@@ -8755,10 +8751,11 @@ nsID
 {
 SendReplyMouseEvent
 (
-status
-=
-=
-nsEventStatus_eConsumeNoDefault
+localEvent
+.
+DefaultPrevented
+(
+)
 aUUID
 )
 ;
