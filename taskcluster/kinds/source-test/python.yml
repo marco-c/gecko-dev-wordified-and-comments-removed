@@ -2008,6 +2008,17 @@ changed
 '
 testing
 /
+performance
+/
+mozperfcommon
+/
+*
+*
+'
+-
+'
+testing
+/
 raptor
 /
 *
