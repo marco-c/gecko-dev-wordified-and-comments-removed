@@ -99,10 +99,6 @@ mozversion
 .
 /
 condprofile
-.
-.
-/
-mozperfcommon
 aiohttp
 =
 =

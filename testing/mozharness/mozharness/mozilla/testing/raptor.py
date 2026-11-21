@@ -58,12 +58,7 @@ base
 .
 python
 import
-(
-    
-perf_expected_changes_path
-    
 perfherder_schema_path
-)
 from
 mozharness
 .
@@ -10760,17 +10755,6 @@ PERFHERDER_SCHEMA_PATH
 ]
 =
 perfherder_schema_path
-(
-)
-        
-env
-[
-"
-PERF_EXPECTED_CHANGES_PATH
-"
-]
-=
-perf_expected_changes_path
 (
 )
         

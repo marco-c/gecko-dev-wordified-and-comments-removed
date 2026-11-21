@@ -130,15 +130,6 @@ mozversion
 .
 /
 condprofile
--
--
-editable
-.
-.
-/
-performance
-/
-mozperfcommon
 aiohttp
 =
 =

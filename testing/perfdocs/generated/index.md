@@ -27,7 +27,6 @@ mach
 try
 -
 perf
-mozperfcommon
 mozperftest
 perf
 -
@@ -143,11 +142,6 @@ mach
 try
 -
 perf
-*
-{
-doc
-}
-mozperfcommon
 *
 {
 doc

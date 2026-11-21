@@ -298,13 +298,6 @@ pth
 :
 testing
 /
-performance
-/
-mozperfcommon
-pth
-:
-testing
-/
 raptor
 pth
 :
