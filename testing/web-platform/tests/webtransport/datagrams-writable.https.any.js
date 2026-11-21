@@ -1997,16 +1997,9 @@ close
 )
 ;
 await
-promise_rejects_dom
-(
-t
-'
-AbortError
-'
 writer
 .
 closed
-)
 ;
 await
 wt
@@ -2017,7 +2010,7 @@ closed
 '
 WebTransportDatagramsWritable
 is
-errored
+closed
 when
 the
 transport
