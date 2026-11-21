@@ -577,11 +577,6 @@ mPendingDatagramPromises
 OutgoingDatagramInFlight
 mInFlight
 ;
-bool
-mCleanedUp
-=
-false
-;
 }
 ;
 class
