@@ -1966,7 +1966,7 @@ tools
 /
 lint
 /
-styleint
+stylelint
 .
 yml
 '
