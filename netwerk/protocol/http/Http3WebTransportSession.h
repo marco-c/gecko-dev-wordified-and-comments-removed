@@ -782,6 +782,12 @@ dom
 WebTransportStatsData
 mCachedStats
 ;
+uint64_t
+mFailedOutgoingDatagrams
+{
+0
+}
+;
 }
 ;
 }
