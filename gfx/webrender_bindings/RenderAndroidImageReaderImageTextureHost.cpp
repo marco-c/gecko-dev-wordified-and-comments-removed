@@ -247,6 +247,7 @@ mAndroidImageConsumer
 )
 {
 auto
+*
 imageReaderMap
 =
 layers

@@ -99,17 +99,9 @@ aGL
 ;
 if
 (
-(
 !
 XRE_IsGPUProcess
 (
-)
-&
-&
-!
-XRE_IsParentProcess
-(
-)
 )
 |
 |
@@ -242,6 +234,7 @@ IsInRenderThread
 )
 ;
 auto
+*
 imageReaderMap
 =
 layers
