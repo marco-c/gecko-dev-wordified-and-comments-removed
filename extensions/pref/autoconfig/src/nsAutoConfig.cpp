@@ -316,7 +316,6 @@ OnStartRequest
 (
 nsIRequest
 *
-request
 )
 {
 return
@@ -331,12 +330,10 @@ OnDataAvailable
 (
 nsIRequest
 *
-request
 nsIInputStream
 *
 aIStream
 uint64_t
-aSourceOffset
 uint32_t
 aLength
 )
@@ -649,7 +646,6 @@ Notify
 (
 nsITimer
 *
-timer
 )
 {
 downloadAutoConfig
@@ -692,7 +688,6 @@ Observe
 (
 nsISupports
 *
-aSubject
 const
 char
 *
@@ -700,7 +695,6 @@ aTopic
 const
 char16_t
 *
-someData
 )
 {
 nsresult
@@ -2010,7 +2004,13 @@ emailAddr
 ;
 emailAddr
 =
+std
+:
+:
+move
+(
 prefValue
+)
 ;
 }
 else

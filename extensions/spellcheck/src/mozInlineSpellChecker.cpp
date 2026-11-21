@@ -6926,7 +6926,6 @@ token
 ]
 (
 nsresult
-aRv
 )
 {
 if
@@ -8491,7 +8490,6 @@ OnBlur
 (
 Event
 &
-aEvent
 )
 {
 HandleNavigationEvent

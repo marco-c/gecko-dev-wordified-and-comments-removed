@@ -121,13 +121,6 @@ h
 #
 include
 <
-stdlib
-.
-h
->
-#
-include
-<
 tuple
 >
 using
@@ -1891,7 +1884,6 @@ nsISupports
 *
 aData
 bool
-aAnonymize
 )
 {
 MOZ_COLLECT_REPORT
@@ -2426,7 +2418,6 @@ Observe
 (
 nsISupports
 *
-aSubj
 const
 char
 *
@@ -2434,7 +2425,6 @@ aTopic
 const
 char16_t
 *
-aData
 )
 {
 NS_ASSERTION

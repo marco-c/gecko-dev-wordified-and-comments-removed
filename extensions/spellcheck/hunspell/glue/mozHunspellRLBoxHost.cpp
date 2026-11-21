@@ -490,7 +490,6 @@ CreateFilemgr
 (
 rlbox_sandbox_hunspell
 &
-aSandbox
 tainted_hunspell
 <
 const
@@ -907,7 +906,6 @@ GetLineNum
 (
 rlbox_sandbox_hunspell
 &
-aSandbox
 tainted_hunspell
 <
 uint32_t
@@ -948,7 +946,6 @@ DestructFilemgr
 (
 rlbox_sandbox_hunspell
 &
-aSandbox
 tainted_hunspell
 <
 uint32_t
@@ -1027,7 +1024,6 @@ ToUpperCase
 (
 rlbox_sandbox_hunspell
 &
-aSandbox
 tainted_hunspell
 <
 uint32_t
@@ -1075,7 +1071,6 @@ ToLowerCase
 (
 rlbox_sandbox_hunspell
 &
-aSandbox
 tainted_hunspell
 <
 uint32_t

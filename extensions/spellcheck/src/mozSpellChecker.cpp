@@ -925,7 +925,6 @@ ipc
 ResponseRejectReason
 &
 &
-aReason
 )
 {
 return

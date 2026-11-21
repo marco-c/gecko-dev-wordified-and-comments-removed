@@ -3169,7 +3169,6 @@ aExpire
 const
 nsACString
 &
-aType
 )
 {
 bool
@@ -11756,7 +11755,6 @@ nsCOMPtr
 nsIPrincipal
 >
 &
-aPrincipal
 )
 {
 return
@@ -13400,7 +13398,6 @@ GetPermissionEntries
 const
 PermissionEntry
 &
-aPermEntry
 )
 {
 return
@@ -14637,7 +14634,6 @@ RemovePermissionEntries
 const
 PermissionEntry
 &
-aPermEntry
 const
 nsCOMPtr
 <
@@ -16085,7 +16081,6 @@ Read
 const
 MonitorAutoLock
 &
-aProofOfLock
 )
 {
 ENSURE_NOT_CHILD_PROCESS
@@ -18930,11 +18925,8 @@ aType
 uint32_t
 aPermission
 uint32_t
-aExpireType
 int64_t
-aExpireTime
 int64_t
-aModificationTime
 )
 MOZ_REQUIRES
 (
@@ -19010,7 +19002,6 @@ aPermission
 const
 MonitorAutoLock
 &
-aProofOfLock
 )
 {
 DefaultEntry
@@ -20082,7 +20073,6 @@ BlockShutdown
 (
 nsIAsyncShutdownClient
 *
-aClient
 )
 {
 {

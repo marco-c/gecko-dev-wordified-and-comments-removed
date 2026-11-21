@@ -537,9 +537,7 @@ char
 *
 filename
 bool
-globalContext
 bool
-callbacks
 bool
 skipFirstLine
 )

@@ -457,7 +457,6 @@ aResolve
 ]
 (
 nsresult
-aError
 )
 {
 nsTArray
