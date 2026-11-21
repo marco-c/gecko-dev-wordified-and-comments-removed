@@ -238,11 +238,6 @@ mapping
 )
 a
 .
-hand
-(
-)
-a
-.
 num_buttons
 (
 )

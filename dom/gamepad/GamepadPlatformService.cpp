@@ -521,8 +521,6 @@ char
 aID
 GamepadMappingType
 aMapping
-GamepadHand
-aHand
 uint32_t
 aNumButtons
 uint32_t
@@ -561,7 +559,6 @@ aID
 )
 )
 aMapping
-aHand
 aNumButtons
 aNumAxes
 aHaptics

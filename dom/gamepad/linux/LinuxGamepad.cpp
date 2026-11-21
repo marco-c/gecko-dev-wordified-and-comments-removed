@@ -1538,10 +1538,6 @@ GamepadMappingType
 :
 :
 Standard
-GamepadHand
-:
-:
-_empty
 numButtons
 numAxes
 0
@@ -1615,10 +1611,6 @@ remapper
 GetMappingType
 (
 )
-GamepadHand
-:
-:
-_empty
 remapper
 -
 >
