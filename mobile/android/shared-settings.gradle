@@ -267,8 +267,8 @@ String
 componentsGroupId
 public
 final
-Integer
-jvmTargetCompatibility
+String
+appServicesGroupId
 public
 final
 Integer
@@ -295,8 +295,8 @@ String
 componentsVersion
 String
 componentsGroupId
-Integer
-jvmTargetCompatibility
+String
+appServicesGroupId
 Integer
 compileSdkMajorVersion
 Integer
@@ -321,9 +321,9 @@ componentsGroupId
 componentsGroupId
 this
 .
-jvmTargetCompatibility
+appServicesGroupId
 =
-jvmTargetCompatibility
+appServicesGroupId
 this
 .
 compileSdkMajorVersion
@@ -664,7 +664,7 @@ configData
 componentsGroupId
 configData
 .
-jvmTargetCompatibility
+appServicesGroupId
 configData
 .
 compileSdkMajorVersion
