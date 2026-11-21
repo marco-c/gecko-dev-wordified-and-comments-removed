@@ -1715,8 +1715,6 @@ arena_chunk_t
 *
 PurgeGetDirtyChunk
 (
-PurgeCondition
-aCond
 mozilla
 :
 :
