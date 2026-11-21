@@ -377,6 +377,15 @@ mjs
 "
 modules
 /
+AITabPageTypes
+.
+sys
+.
+mjs
+"
+"
+modules
+/
 AITabSql
 .
 sys
