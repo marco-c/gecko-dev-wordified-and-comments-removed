@@ -15,6 +15,13 @@ py
 ]
 [
 "
+test_detect
+.
+py
+"
+]
+[
+"
 test_expected_changes
 .
 py
