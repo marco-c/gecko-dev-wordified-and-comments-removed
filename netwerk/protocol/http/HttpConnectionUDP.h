@@ -355,6 +355,16 @@ NotifyDataWrite
 (
 )
 ;
+[
+[
+nodiscard
+]
+]
+nsresult
+ForceSendNow
+(
+)
+;
 Http3Stats
 GetStats
 (

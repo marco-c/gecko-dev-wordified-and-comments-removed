@@ -2819,17 +2819,7 @@ mFailedOutgoingDatagrams
 +
 +
 ;
-return
-;
 }
-mSession
--
->
-StreamHasDataToWrite
-(
-this
-)
-;
 }
 void
 Http3WebTransportSession
