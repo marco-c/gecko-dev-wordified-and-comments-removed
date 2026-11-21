@@ -3909,6 +3909,16 @@ MenuMessage
 .
 SHOWING_FXA_MENU_MESSAGE_ATTR
 )
+?
+?
+panelview
+.
+getAttribute
+(
+MenuMessage
+.
+SHOWING_SET_TO_DEFAULT_MENU_MESSAGE_ATTR
+)
 ;
 if
 (
