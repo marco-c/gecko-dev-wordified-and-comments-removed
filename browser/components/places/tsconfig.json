@@ -18,6 +18,15 @@ types
 .
 ts
 "
+"
+history
+/
+*
+.
+sys
+.
+mjs
+"
 ]
 "
 exclude

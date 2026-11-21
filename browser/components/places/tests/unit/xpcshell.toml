@@ -61,6 +61,13 @@ ini
 ]
 [
 "
+test_HistoryDateContainer
+.
+js
+"
+]
+[
+"
 test_PUIU_batchUpdatesForNode
 .
 js
