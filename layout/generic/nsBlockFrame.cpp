@@ -22133,6 +22133,12 @@ HasAnyStateBits
 (
 NS_FRAME_OWNS_ANON_BOXES
 )
+&
+&
+!
+GetNextContinuation
+(
+)
 )
 {
 return
