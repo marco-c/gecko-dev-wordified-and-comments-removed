@@ -30,7 +30,7 @@ REFERENCE_STYLE
 from
 .
 import
-get_physical_viewport_dimensions
+capture_screenshot_and_assert_visual_viewport_dimensions
 pytestmark
 =
 pytest
@@ -48,15 +48,6 @@ inline
 iframe
 )
 :
-    
-viewport_size
-=
-await
-get_physical_viewport_dimensions
-(
-bidi_session
-top_context
-)
     
 iframe_content
 =
@@ -118,31 +109,12 @@ complete
 reference_data
 =
 await
-bidi_session
-.
-browsing_context
-.
-capture_screenshot
+capture_screenshot_and_assert_visual_viewport_dimensions
 (
         
-context
-=
+bidi_session
 top_context
-[
-"
-context
-"
-]
 )
-    
-assert
-png_dimensions
-(
-reference_data
-)
-=
-=
-viewport_size
     
 all_contexts
 =
@@ -247,15 +219,6 @@ domain
 )
 :
     
-expected_size
-=
-await
-get_physical_viewport_dimensions
-(
-bidi_session
-top_context
-)
-    
 initial_url
 =
 inline
@@ -301,31 +264,12 @@ complete
 reference_data
 =
 await
-bidi_session
-.
-browsing_context
-.
-capture_screenshot
+capture_screenshot_and_assert_visual_viewport_dimensions
 (
         
-context
-=
+bidi_session
 top_context
-[
-"
-context
-"
-]
 )
-    
-assert
-png_dimensions
-(
-reference_data
-)
-=
-=
-expected_size
     
 iframe_content
 =
@@ -390,20 +334,11 @@ complete
 data
 =
 await
-bidi_session
-.
-browsing_context
-.
-capture_screenshot
+capture_screenshot_and_assert_visual_viewport_dimensions
 (
-context
-=
+        
+bidi_session
 top_context
-[
-"
-context
-"
-]
 )
     
 comparison
