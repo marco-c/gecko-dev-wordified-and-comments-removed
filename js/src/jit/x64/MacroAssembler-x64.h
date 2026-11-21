@@ -348,6 +348,13 @@ scratch
 )
 ;
 void
+switchToShadowStackPtr
+(
+Register
+newShstkPtr
+)
+;
+void
 writeDataRelocation
 (
 const
@@ -3461,9 +3468,6 @@ rhs
 {
 if
 (
-(
-intptr_t
-)
 rhs
 .
 value
@@ -3472,9 +3476,6 @@ value
 INT32_MAX
 &
 &
-(
-intptr_t
-)
 rhs
 .
 value
@@ -3487,9 +3488,6 @@ testq
 (
 Imm32
 (
-(
-int32_t
-)
 rhs
 .
 value
