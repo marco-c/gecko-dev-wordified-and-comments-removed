@@ -416,13 +416,6 @@ fill
 ;
 webTransport
 .
-setDatagramMaxAge
-(
-Infinity
-)
-;
-webTransport
-.
 sendDatagram
 (
 rawData
