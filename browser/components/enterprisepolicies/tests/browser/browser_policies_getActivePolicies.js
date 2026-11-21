@@ -82,16 +82,6 @@ true
 }
 )
 ;
-let
-expected
-=
-{
-SitePolicies
-:
-[
-]
-}
-;
 Assert
 .
 deepEqual
@@ -104,7 +94,8 @@ policies
 getActivePolicies
 (
 )
-expected
+{
+}
 "
 Wrong
 policies
