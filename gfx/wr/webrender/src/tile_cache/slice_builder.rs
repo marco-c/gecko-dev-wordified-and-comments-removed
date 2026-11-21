@@ -1923,6 +1923,17 @@ node
 .
 spatial_node_index
 )
+&
+&
+!
+spatial_tree
+.
+is_in_preserve_3d_context
+(
+node
+.
+spatial_node_index
+)
 ;
 let
 node_valid
