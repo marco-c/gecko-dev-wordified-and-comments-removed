@@ -33,6 +33,17 @@ mozilla
 /
 dom
 /
+GamepadPoseState
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 GamepadTouchState
 .
 h

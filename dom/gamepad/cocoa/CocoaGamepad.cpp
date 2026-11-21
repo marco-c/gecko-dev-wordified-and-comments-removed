@@ -1788,6 +1788,16 @@ remapper
 GetMappingType
 (
 )
+mozilla
+:
+:
+dom
+:
+:
+GamepadHand
+:
+:
+_empty
 remapper
 -
 >

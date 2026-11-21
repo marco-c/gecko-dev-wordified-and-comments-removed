@@ -66,17 +66,6 @@ mozilla
 /
 dom
 /
-GamepadPoseState
-.
-h
-"
-#
-include
-"
-mozilla
-/
-dom
-/
 XRInputSourceEvent
 .
 h
@@ -1400,6 +1389,9 @@ GamepadMappingType
 :
 :
 Xr_standard
+controllerState
+.
+hand
 controllerState
 .
 numButtons
