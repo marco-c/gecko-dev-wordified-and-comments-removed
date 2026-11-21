@@ -2214,6 +2214,13 @@ MemCheckKind
 kind
 )
 {
+SetMemCheckKind
+(
+alloc
+bytes
+kind
+)
+;
 #
 if
 !
