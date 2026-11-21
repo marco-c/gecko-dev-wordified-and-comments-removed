@@ -2552,14 +2552,6 @@ libs
 .
 androidx
 .
-constraintlayout
-.
-compose
-implementation
-libs
-.
-androidx
-.
 core
 implementation
 libs
