@@ -71,12 +71,13 @@ new
 smart
 -
 window
+-
+2
 =
 .
 label
 =
 Open
-Link
 in
 New
 {

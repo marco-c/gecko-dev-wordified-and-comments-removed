@@ -432,7 +432,6 @@ contextMenuItemLabel
 :
 "
 Open
-Link
 in
 New
 Tab
@@ -523,7 +522,6 @@ contextMenuItemLabel
 :
 "
 Open
-Link
 in
 New
 Window
@@ -698,7 +696,6 @@ contextMenuItemLabel
 :
 "
 Open
-Link
 in
 New
 Tab
@@ -805,7 +802,6 @@ contextMenuItemLabel
 :
 "
 Open
-Link
 in
 New
 Window
