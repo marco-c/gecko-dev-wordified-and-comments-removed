@@ -120,13 +120,13 @@ updated_at
 -
 11
 -
-19T17
+20T15
 :
-30
+37
 :
-45
+37
 .
-534884
+274227
 +
 00
 :
@@ -16288,6 +16288,8 @@ urlbar
 -
 reviewers
 -
+rotation
+-
 name
 :
 Application
@@ -16526,6 +16528,8 @@ desktop
 theme
 -
 reviewers
+-
+rotation
 owners
 :
 -
@@ -17997,6 +18001,8 @@ review_group
 search
 -
 reviewers
+-
+rotation
 owners
 :
 -
@@ -18401,6 +18407,8 @@ review_group
 tabbrowser
 -
 reviewers
+-
+rotation
 peers_emeritus
 :
 -
@@ -22389,7 +22397,7 @@ hashes
 :
 config
 :
-1115a30da5dd04369ebad6a46606641f4be0c1a3
+3916ff027566cfe076f055be8eaa9bd8f2581ff1
 export
 :
-3cdfde064aca9727d626f07df2762b5eedbd2176
+00df996ce5271fd63eaeaa40baf66d562d020460
