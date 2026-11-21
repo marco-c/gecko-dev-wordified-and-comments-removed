@@ -825,6 +825,9 @@ infinity
 TimeStamp
 mLastOutgoingDatagramTimestamp
 ;
+TimeStamp
+mSessionReadyTime
+;
 nsTArray
 <
 GetStatsResolver
