@@ -2527,8 +2527,9 @@ aLoadInfo
 nsIURI
 *
 aUri
-bool
-aWasRedirected
+nsIURI
+*
+aOriginalURIIfRedirect
 bool
 aReportOnly
 bool
@@ -2971,8 +2972,9 @@ aLoadInfo
 nsIURI
 *
 aUri
-bool
-aWasRedirected
+nsIURI
+*
+aOriginalURIIfRedirect
 bool
 aReportOnly
 bool
@@ -3099,8 +3101,9 @@ aLoadInfo
 nsIURI
 *
 aUri
-bool
-aWasRedirected
+nsIURI
+*
+aOriginalURIIfRedirect
 bool
 aReportOnly
 bool
@@ -3220,8 +3223,9 @@ aLoadInfo
 nsIURI
 *
 aUri
-bool
-aWasRedirected
+nsIURI
+*
+aOriginalURIIfRedirect
 bool
 aSpecific
 nsAString

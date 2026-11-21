@@ -5728,8 +5728,9 @@ aLoadInfo
 nsIURI
 *
 aUri
-bool
-aWasRedirected
+nsIURI
+*
+aOriginalURIIfRedirect
 bool
 aReportOnly
 bool
@@ -6011,6 +6012,10 @@ hasUrlHash
 &
 DoesUrlHashMatchSourceList
 (
+aOriginalURIIfRedirect
+?
+aOriginalURIIfRedirect
+:
 aUri
 mSrcs
 )
@@ -6201,7 +6206,9 @@ i
 permits
 (
 aUri
-aWasRedirected
+!
+!
+aOriginalURIIfRedirect
 aReportOnly
 aUpgradeInsecure
 )
@@ -8547,8 +8554,9 @@ aLoadInfo
 nsIURI
 *
 aUri
-bool
-aWasRedirected
+nsIURI
+*
+aOriginalURIIfRedirect
 bool
 aSpecific
 nsAString
@@ -8697,7 +8705,7 @@ permits
 aDir
 aLoadInfo
 aUri
-aWasRedirected
+aOriginalURIIfRedirect
 mReportOnly
 mUpgradeInsecDir
 )
@@ -8775,7 +8783,7 @@ permits
 aDir
 aLoadInfo
 aUri
-aWasRedirected
+aOriginalURIIfRedirect
 mReportOnly
 mUpgradeInsecDir
 )
