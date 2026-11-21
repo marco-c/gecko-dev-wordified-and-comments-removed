@@ -369,11 +369,6 @@ SOURCES
 =
 [
 "
-Http3TestStubs
-.
-cpp
-"
-"
 TestCacheCrypto
 .
 cpp
@@ -790,11 +785,6 @@ SOURCE_HEADERS
 +
 =
 [
-"
-Http3TestStubs
-.
-h
-"
 "
 TestCommon
 .

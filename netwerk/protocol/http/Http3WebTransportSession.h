@@ -304,7 +304,7 @@ Http3WebTransportSession
 (
 nsAHttpTransaction
 *
-Http3SessionBase
+Http3Session
 *
 )
 ;
