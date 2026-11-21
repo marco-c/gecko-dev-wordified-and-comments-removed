@@ -20893,22 +20893,11 @@ restartAfterFailure
             
 )
             
-timed_out
-=
-False
-            
 def
 timeoutHandler
 (
 )
 :
-                
-nonlocal
-timed_out
-                
-timed_out
-=
-True
                 
 browserProcessId
 =
@@ -21513,10 +21502,6 @@ status
 =
 0
             
-exit_code
-=
-status
-            
 self
 .
 log
@@ -21715,7 +21700,7 @@ with
 exit
 code
 {
-exit_code
+status
 }
 "
                 
@@ -22046,8 +22031,6 @@ elif
 crash_count
 or
 zombieProcesses
-or
-status
 :
                 
 if
@@ -22063,53 +22046,6 @@ expected
 "
 PASS
 "
-                
-elif
-status
-and
-not
-crash_count
-and
-not
-timed_out
-:
-                    
-self
-.
-log
-.
-error
-(
-                        
-f
-"
-TEST
--
-UNEXPECTED
--
-FAIL
-|
-{
-self
-.
-lastTestSeen
-}
-|
-"
-                        
-f
-"
-application
-terminated
-with
-exit
-code
-{
-exit_code
-}
-"
-                    
-)
                 
 status
 =
@@ -22200,7 +22136,7 @@ with
 exit
 code
 {
-exit_code
+status
 }
 "
                 
@@ -23990,10 +23926,6 @@ status
 =
 0
         
-result
-=
-0
-        
 bisection_log
 =
 0
@@ -24165,7 +24097,7 @@ options
 restartBetweenTests
 :
                 
-res
+result
 =
 self
 .
@@ -24183,7 +24115,7 @@ manifestToFilter
 else
 :
                 
-res
+result
 =
 self
 .
@@ -24195,17 +24127,17 @@ manifestToFilter
 )
             
 if
-res
+result
 =
 =
 TBPL_RETRY
 :
                 
 return
-res
+result
             
 if
-res
+result
 =
 =
 -
@@ -24213,13 +24145,7 @@ res
 :
                 
 return
-res
-            
 result
-=
-result
-or
-res
             
 if
 options
