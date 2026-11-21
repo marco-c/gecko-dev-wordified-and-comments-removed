@@ -190,7 +190,7 @@ mozilla
 /
 dom
 /
-GamepadPoseState
+GamepadEventTypes
 .
 h
 "

@@ -177,6 +177,7 @@ gamepad
 2
 "
 "
+right
 "
 10
 4
@@ -296,6 +297,9 @@ gamepad
 GamepadService
 .
 standardMapping
+GamepadService
+.
+noHand
 4
 4
 0
@@ -316,6 +320,9 @@ gamepad
 GamepadService
 .
 standardMapping
+GamepadService
+.
+rightHand
 10
 4
 2
