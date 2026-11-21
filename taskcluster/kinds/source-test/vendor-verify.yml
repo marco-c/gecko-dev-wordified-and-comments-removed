@@ -1334,6 +1334,14 @@ yaml
 -
 third_party
 /
+jni_zero
+/
+moz
+.
+yaml
+-
+third_party
+/
 libsrtp
 /
 moz
