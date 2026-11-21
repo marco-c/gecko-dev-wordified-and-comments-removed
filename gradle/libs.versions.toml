@@ -659,7 +659,7 @@ java
 "
 0
 .
-13
+14
 .
 2
 "
@@ -4338,7 +4338,9 @@ java
 }
 scip
 -
-kotlinc
+kotlin
+-
+analysis
 =
 {
 module
@@ -4352,7 +4354,9 @@ code
 :
 scip
 -
-kotlinc
+kotlin
+-
+analysis
 "
 version
 .

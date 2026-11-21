@@ -372,6 +372,16 @@ true
 }
 dependencies
 {
+compileOnly
+(
+libs
+.
+scip
+.
+kotlin
+.
+analysis
+)
 implementation
 (
 libs
