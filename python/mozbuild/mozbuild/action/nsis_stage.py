@@ -290,7 +290,7 @@ config_dir
 )
         
 for
-properties
+ftl
 nlf
 in
 single_files
@@ -325,12 +325,35 @@ topsrcdir
 locale_args
                 
 +
+(
+[
+f
+"
+-
+-
+ab
+-
+cd
+=
+{
+ab_cd
+}
+"
+]
+if
+ab_cd
+else
+[
+]
+)
+                
++
 [
 str
 (
 config_dir
 )
-properties
+ftl
 nlf
 ]
             
@@ -1520,7 +1543,7 @@ metavar
 =
 (
 "
-PROPERTIES
+FTL
 "
 "
 NLF
