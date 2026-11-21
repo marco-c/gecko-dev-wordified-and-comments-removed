@@ -399,6 +399,11 @@ bool
 mustUnwindActivation
 =
 false
+uintptr_t
+*
+shadowStackPointer
+=
+nullptr
 )
 ;
 explicit
@@ -653,6 +658,13 @@ skipNonScriptedJSFrames
 ;
 bool
 isSelfHostedIgnoringInlining
+(
+)
+const
+;
+uintptr_t
+*
+shadowStackPointer
 (
 )
 const
