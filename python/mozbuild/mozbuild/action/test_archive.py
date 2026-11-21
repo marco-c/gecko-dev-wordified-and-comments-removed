@@ -2173,9 +2173,11 @@ base
 "
             
 "
-pattern
+patterns
 "
 :
+[
+                
 "
 testing
 /
@@ -2191,6 +2193,20 @@ schema
 .
 json
 "
+                
+"
+testing
+/
+performance
+/
+common
+/
+expected_changes
+.
+yml
+"
+            
+]
         
 }
         
