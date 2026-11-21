@@ -2418,6 +2418,13 @@ simulator
 )
 return
 True
+set_config
+(
+"
+JS_HW_SHADOW_STACK
+"
+js_hw_shstk
+)
 set_define
 (
 "
