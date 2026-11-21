@@ -1570,6 +1570,14 @@ MediaByteRange
 aMoov
 )
 ;
+void
+EndSamplesAtNextComposition
+(
+Moof
+&
+aNewMoof
+)
+;
 nsTArray
 <
 Moof
