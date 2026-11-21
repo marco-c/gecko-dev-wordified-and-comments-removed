@@ -1545,10 +1545,12 @@ envelopeRate
 =
 1
 -
-fdlibm_powf
+fdlibm_expf
+(
+fdlibm_logf
 (
 x
-1
+)
 /
 attackFrames
 )
