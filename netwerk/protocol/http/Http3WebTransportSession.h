@@ -594,7 +594,6 @@ size_t
 *
 aMaxQueuedBytes
 )
-override
 ;
 bool
 GetDatagramSessionStats
@@ -609,7 +608,6 @@ uint64_t
 *
 aDropped
 )
-override
 ;
 nsresult
 ExportKeyingMaterial

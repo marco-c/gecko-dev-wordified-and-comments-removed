@@ -819,12 +819,6 @@ mOutgoingMaxBufferedDatagrams
 5
 }
 ;
-bool
-mInOutgoingDatagramsBatch
-{
-false
-}
-;
 uint64_t
 mCumulativeDatagramsRetired
 {
