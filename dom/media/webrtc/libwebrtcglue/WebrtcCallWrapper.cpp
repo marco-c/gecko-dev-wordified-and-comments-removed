@@ -158,14 +158,6 @@ nullptr
 ;
 config
 .
-bitrate_config
-.
-start_bitrate_bps
-=
-400000
-;
-config
-.
 audio_state
 =
 webrtc
