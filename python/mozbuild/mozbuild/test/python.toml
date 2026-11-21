@@ -487,6 +487,15 @@ py
 "
 controller
 /
+test_jobserver
+.
+py
+"
+]
+[
+"
+controller
+/
 test_source_repo
 .
 py
