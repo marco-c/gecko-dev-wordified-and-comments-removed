@@ -250,6 +250,13 @@ js
 ]
 [
 "
+browser_history_sidebar_memory_optimizations
+.
+js
+"
+]
+[
+"
 browser_launcher_dividers
 .
 js
