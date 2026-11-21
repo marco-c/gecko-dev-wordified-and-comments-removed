@@ -249,6 +249,13 @@ EventMessage
 aEventMessage
 uint32_t
 aKeyModifiers
+const
+mozilla
+:
+:
+LayoutDeviceIntPoint
+&
+aPoint
 )
 override
 {
