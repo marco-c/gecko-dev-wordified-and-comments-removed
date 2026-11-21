@@ -265,6 +265,7 @@ moz_may_purge_now
 may_purge_now_result_t
 bool
 uint32_t
+uint32_t
 purge_keep_going_t
 void
 *
