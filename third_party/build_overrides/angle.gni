@@ -54,3 +54,14 @@ zlib
 /
 google
 "
+angle_vulkan_memory_allocator_dir
+=
+"
+/
+/
+angle
+/
+third_party
+/
+vulkan_memory_allocator
+"

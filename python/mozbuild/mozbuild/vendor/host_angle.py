@@ -89,6 +89,12 @@ headers
 /
 src
 "
+    
+"
+third_party
+/
+vulkan_memory_allocator
+"
 )
 GOOGLESOURCE_HOST_SUFFIX
 =
