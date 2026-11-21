@@ -194,6 +194,11 @@ data
 ;
 }
 }
+onOutgoingDatagramSpaceAvailable
+(
+)
+{
+}
 onMaxDatagramSize
 (
 size
