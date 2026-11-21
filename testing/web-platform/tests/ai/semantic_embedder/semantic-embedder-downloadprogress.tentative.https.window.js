@@ -22,7 +22,10 @@ SemanticEmbedder
 .
 create
 (
+embedderOptions
+(
 options
+)
 )
 ;
 }
@@ -33,6 +36,12 @@ t
 =
 >
 {
+await
+testMonitor
+(
+createSemanticEmbedder
+)
+;
 await
 testMonitor
 (

@@ -22,7 +22,10 @@ SemanticEmbedder
 .
 create
 (
+embedderOptions
+(
 options
+)
 )
 ;
 }

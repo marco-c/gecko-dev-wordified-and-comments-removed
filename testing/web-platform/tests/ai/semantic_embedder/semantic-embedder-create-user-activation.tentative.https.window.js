@@ -18,6 +18,9 @@ SemanticEmbedder
 .
 availability
 (
+embedderOptions
+(
+)
 )
 ;
 assert_implements_optional
@@ -48,6 +51,9 @@ SemanticEmbedder
 .
 create
 (
+embedderOptions
+(
+)
 )
 )
 ;
@@ -82,6 +88,9 @@ SemanticEmbedder
 .
 availability
 (
+embedderOptions
+(
+)
 )
 ;
 assert_implements_optional
@@ -121,6 +130,9 @@ SemanticEmbedder
 .
 create
 (
+embedderOptions
+(
+)
 )
 ;
 assert_true
