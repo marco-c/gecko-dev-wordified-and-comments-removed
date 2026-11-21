@@ -3480,7 +3480,7 @@ string
 -
 Label
 for
-forcing
+allowing
 GPI
 (
 Google
@@ -3515,6 +3515,9 @@ authentication
 for
 IP
 Protection
+while
+signed
+out
 (
 requires
 restart
