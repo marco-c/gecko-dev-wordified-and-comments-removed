@@ -402,6 +402,12 @@ ServiceStateChanged
 is
 IPProtectionAction
 .
+ServiceAction
+.
+CurrentAuthProviderChanged
+is
+IPProtectionAction
+.
 ProxyAction
 .
 ProxyStateChanged

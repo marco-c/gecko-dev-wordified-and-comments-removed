@@ -673,6 +673,12 @@ EligibilityChanged
 is
 IPProtectionAction
 .
+ServiceAction
+.
+CurrentAuthProviderChanged
+is
+IPProtectionAction
+.
 UsageAction
 .
 UsageChanged
