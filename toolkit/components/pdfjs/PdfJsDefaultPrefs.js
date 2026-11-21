@@ -541,6 +541,16 @@ pref
 "
 pdfjs
 .
+newTextLayerMode
+"
+1
+)
+;
+pref
+(
+"
+pdfjs
+.
 pageColorsBackground
 "
 "
