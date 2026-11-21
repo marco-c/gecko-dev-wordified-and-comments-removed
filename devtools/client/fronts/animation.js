@@ -547,9 +547,17 @@ playBackRateMultiplier
 data
 ;
 const
-multiplier
+layoutPlaybackRate
 =
 playbackRate
+|
+|
+1
+;
+const
+multiplier
+=
+layoutPlaybackRate
 *
 playBackRateMultiplier
 ;
@@ -571,7 +579,7 @@ multiplier
 const
 isPositivePlaybackRate
 =
-playbackRate
+layoutPlaybackRate
 >
 0
 ;
@@ -861,6 +869,9 @@ endTime
 absoluteEndTime
 isDelayFilled
 isEndDelayFilled
+playbackRate
+:
+layoutPlaybackRate
 startTime
 :
 absoluteStartTime
