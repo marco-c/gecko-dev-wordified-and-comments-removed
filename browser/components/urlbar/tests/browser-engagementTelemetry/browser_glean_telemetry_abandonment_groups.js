@@ -922,6 +922,13 @@ n_results
 }
 )
 ;
+await
+SpecialPowers
+.
+popPrefEnv
+(
+)
+;
 }
 )
 ;

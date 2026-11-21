@@ -637,7 +637,7 @@ url
 )
 ;
 }
-await
+return
 updateTopSites
 (
 sites
@@ -1161,6 +1161,17 @@ feed
 _latestRefreshPromise
 ;
 }
+return
+(
+)
+=
+>
+SpecialPowers
+.
+popPrefEnv
+(
+)
+;
 }
 async
 function

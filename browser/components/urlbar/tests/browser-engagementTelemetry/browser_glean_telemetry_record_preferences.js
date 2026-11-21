@@ -153,6 +153,13 @@ updated
 "
 )
 ;
+await
+SpecialPowers
+.
+popPrefEnv
+(
+)
+;
 }
 )
 ;
@@ -350,6 +357,13 @@ pref
 pref
 is
 updated
+)
+;
+await
+SpecialPowers
+.
+popPrefEnv
+(
 )
 ;
 }
