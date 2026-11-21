@@ -85,6 +85,13 @@ js
 ]
 [
 "
+test_merinoClient_newtab
+.
+js
+"
+]
+[
+"
 test_merinoClient_sessions
 .
 js
