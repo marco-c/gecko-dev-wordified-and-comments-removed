@@ -43,6 +43,13 @@ py
 ]
 [
 "
+test_android_lint_report
+.
+py
+"
+]
+[
+"
 test_cargo
 -
 audit
