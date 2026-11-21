@@ -687,6 +687,13 @@ false
 \
 _
 (
+UseDMABufYUVDirectComposition
+bool
+false
+)
+\
+_
+(
 UseDMABufWebGL
 bool
 true

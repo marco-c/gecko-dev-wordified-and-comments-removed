@@ -676,3 +676,16 @@ angle
 gl
 "
 )
+GFXINFO_FEATURE
+(
+DMABUF_YUV_DIRECT_COMPOSITION
+"
+dmabuf
+-
+yuv
+-
+direct
+-
+composition
+"
+)
