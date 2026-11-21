@@ -612,6 +612,9 @@ CONFIGURABLE_STYLES
 background
 "
 "
+backgroundImage
+"
+"
 border
 "
 "
@@ -1170,6 +1173,8 @@ disable
 jsx
 -
 a11y
+-
+x
 /
 label
 -
@@ -1190,6 +1195,8 @@ disable
 jsx
 -
 a11y
+-
+x
 /
 no
 -

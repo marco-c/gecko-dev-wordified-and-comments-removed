@@ -35199,6 +35199,9 @@ CONFIGURABLE_STYLES
 background
 "
 "
+backgroundImage
+"
+"
 border
 "
 "
