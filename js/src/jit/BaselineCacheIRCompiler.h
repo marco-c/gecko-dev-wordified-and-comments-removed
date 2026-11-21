@@ -217,12 +217,6 @@ CacheIRCompiler
 struct
 CreateThisData
 {
-uint32_t
-numFixedSlots
-;
-uint32_t
-numDynamicSlots
-;
 gc
 :
 :

@@ -16192,10 +16192,6 @@ BaselineCacheIRCompiler
 :
 emitMetaCreateThis
 (
-uint32_t
-numFixedSlots
-uint32_t
-numDynamicSlots
 gc
 :
 :
@@ -16220,8 +16216,6 @@ createThisData_
 .
 emplace
 (
-numFixedSlots
-numDynamicSlots
 allocKind
 thisShapeOffset
 siteOffset
@@ -16503,14 +16497,8 @@ result
 shape
 temp
 shape
-createThisData_
--
->
-numFixedSlots
-createThisData_
--
->
-numDynamicSlots
+0
+0
 createThisData_
 -
 >
