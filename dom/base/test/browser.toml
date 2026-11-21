@@ -486,6 +486,13 @@ js
 ]
 [
 "
+browser_focus_many_window_focus_calls
+.
+js
+"
+]
+[
+"
 browser_force_process_selector
 .
 js
