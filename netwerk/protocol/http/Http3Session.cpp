@@ -18998,7 +18998,7 @@ aStreamId
 )
 ;
 }
-nsresult
+void
 Http3Session
 :
 :
@@ -19113,9 +19113,6 @@ aSendGroupId
 aSendOrder
 )
 )
-;
-return
-rv
 ;
 }
 uint64_t
