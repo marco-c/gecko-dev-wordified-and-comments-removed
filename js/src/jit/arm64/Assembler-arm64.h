@@ -165,6 +165,13 @@ ScratchReg2
 ;
 static
 constexpr
+Register
+BailoutSnapshotOffsetReg
+=
+ScratchReg2
+;
+static
+constexpr
 FloatRegister
 ReturnDoubleReg
 =
