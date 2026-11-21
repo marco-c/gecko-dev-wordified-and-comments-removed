@@ -537,12 +537,16 @@ projects
 [
 ]
     
+attributes
+=
 task
 [
 "
 attributes
 "
 ]
+    
+attributes
 [
 "
 ab_profiles
@@ -551,12 +555,15 @@ ab_profiles
 =
 True
     
-task
+del
+attributes
 [
 "
-attributes
+supports_ab_profiles
 "
 ]
+    
+attributes
 [
 "
 raptor_try_name
