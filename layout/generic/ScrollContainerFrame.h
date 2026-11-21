@@ -3030,6 +3030,15 @@ FireScrolledAreaEvent
 (
 )
 ;
+nsScrollbarFrame
+*
+GetShownScrollbarBox
+(
+bool
+aVertical
+)
+const
+;
 void
 FinishReflowForScrollbar
 (
