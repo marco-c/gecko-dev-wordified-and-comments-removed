@@ -653,15 +653,6 @@ CloseSessionForDestroyedActor
 (
 )
 ;
-void
-AddParentExpiredOutgoing
-(
-WebTransportStatsData
-&
-aStats
-)
-const
-;
 using
 ResolveType
 =
