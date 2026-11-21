@@ -134,8 +134,6 @@ nsAString
 aID
 GamepadMappingType
 aMapping
-GamepadHand
-aHand
 uint32_t
 aNumButtons
 uint32_t

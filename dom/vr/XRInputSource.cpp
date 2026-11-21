@@ -1402,9 +1402,6 @@ GamepadMappingType
 Xr_standard
 controllerState
 .
-hand
-controllerState
-.
 numButtons
 controllerState
 .
