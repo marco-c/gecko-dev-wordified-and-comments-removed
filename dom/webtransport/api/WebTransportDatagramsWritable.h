@@ -180,7 +180,7 @@ aCount
 )
 ;
 bool
-TryResolveOldestFromCredit
+TryResolveBackpressureFromCredit
 (
 uint64_t
 aAvailableBytes
