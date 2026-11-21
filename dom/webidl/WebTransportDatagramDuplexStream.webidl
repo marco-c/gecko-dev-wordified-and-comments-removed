@@ -134,7 +134,6 @@ Throws
 attribute
 unrestricted
 double
-?
 outgoingMaxAge
 ;
 attribute
