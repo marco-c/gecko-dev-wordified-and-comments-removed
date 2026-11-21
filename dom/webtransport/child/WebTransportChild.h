@@ -91,14 +91,6 @@ aClose
 )
 ;
 void
-ActorDestroy
-(
-ActorDestroyReason
-aWhy
-)
-override
-;
-void
 SetAnticipatedConcurrentIncomingUnidirectionalStreams
 (
 const
