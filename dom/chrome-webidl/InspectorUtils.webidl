@@ -1437,6 +1437,8 @@ UTF8String
 getSubstitutedValue
 (
 UTF8String
+property
+UTF8String
 expression
 Element
 element

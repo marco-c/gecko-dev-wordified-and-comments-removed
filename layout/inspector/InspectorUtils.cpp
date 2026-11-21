@@ -8922,6 +8922,10 @@ aGlobalObject
 const
 nsACString
 &
+aProperty
+const
+nsACString
+&
 aExpression
 Element
 &
@@ -9005,6 +9009,8 @@ return
 }
 Servo_GetSubstitutedValue
 (
+&
+aProperty
 &
 aExpression
 &

@@ -1022,6 +1022,10 @@ aDocument
 const
 nsACString
 &
+aProperty
+const
+nsACString
+&
 aValue
 const
 nsACString
@@ -1196,6 +1200,10 @@ GetSubstitutedValue
 GlobalObject
 &
 aGlobal
+const
+nsACString
+&
+aProperty
 const
 nsACString
 &
