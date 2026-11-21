@@ -916,6 +916,17 @@ a
 Screenshot
 customkeys
 -
+tools
+-
+lock
+-
+windows
+=
+Lock
+Private
+Windows
+customkeys
+-
 category
 -
 navigation
