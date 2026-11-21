@@ -231,6 +231,13 @@ js
 ]
 [
 "
+browser_bouncetracking_remotePermissions
+.
+js
+"
+]
+[
+"
 browser_bouncetracking_schemes
 .
 js
