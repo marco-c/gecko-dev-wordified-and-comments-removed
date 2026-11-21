@@ -224,13 +224,6 @@ js
 ]
 [
 "
-browser_bouncetracking_remoteExceptions
-.
-js
-"
-]
-[
-"
 browser_bouncetracking_remotePermissions
 .
 js
