@@ -121,6 +121,9 @@ ApplicationModel_Background
 Win32_Foundation
 "
 "
+Win32_System_Diagnostics_Debug
+"
+"
 Win32_System_WinRT
 "
 ]
