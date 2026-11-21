@@ -393,7 +393,7 @@ IsNull
 (
 )
 ?
-INFINITY
+NAN
 :
 mOutgoingMaxAge
 .
@@ -431,7 +431,7 @@ IsNull
 (
 )
 ?
-INFINITY
+NAN
 :
 mOutgoingMaxAge
 .
@@ -657,7 +657,7 @@ IsNull
 (
 )
 ?
-INFINITY
+NAN
 :
 mOutgoingMaxAge
 .
@@ -722,7 +722,7 @@ IsNull
 (
 )
 ?
-INFINITY
+NAN
 :
 mOutgoingMaxAge
 .
