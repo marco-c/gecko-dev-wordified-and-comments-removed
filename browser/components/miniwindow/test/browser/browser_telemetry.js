@@ -1299,6 +1299,9 @@ com
 "
 link_context_menu
 "
+{
+triggeringPrincipal
+:
 Services
 .
 scriptSecurityManager
@@ -1306,6 +1309,7 @@ scriptSecurityManager
 getSystemPrincipal
 (
 )
+}
 )
 ;
 let
