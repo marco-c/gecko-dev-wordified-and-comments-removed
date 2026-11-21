@@ -1244,6 +1244,13 @@ SetIsShutdown
 )
 ;
 void
+UpdateNetworkState
+(
+bool
+aReady
+)
+;
+void
 DeliverPacket
 (
 webrtc
@@ -2039,6 +2046,11 @@ mSenderRtcpEventListener
 ;
 bool
 mIsShutdown
+=
+false
+;
+bool
+mNetworkReady
 =
 false
 ;

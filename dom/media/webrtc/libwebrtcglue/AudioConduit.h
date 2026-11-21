@@ -789,6 +789,13 @@ SetIsShutdown
 (
 )
 ;
+void
+UpdateNetworkState
+(
+bool
+aReady
+)
+;
 bool
 mAllowSsrcChange
 =
@@ -1181,6 +1188,11 @@ mSenderRtcpEventListener
 ;
 bool
 mIsShutdown
+=
+false
+;
+bool
+mNetworkReady
 =
 false
 ;
