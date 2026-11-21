@@ -710,11 +710,6 @@ TestRTCStatsTimestampMaker
 cpp
 "
 "
-TestVideoStreamFactory
-.
-cpp
-"
-"
 TestWebrtcCodecFactory
 .
 cpp
