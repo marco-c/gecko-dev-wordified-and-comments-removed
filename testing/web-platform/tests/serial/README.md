@@ -10,7 +10,7 @@ provide
 permission
 policy
 and
-maualy
+manual
 tests
 .
 The
