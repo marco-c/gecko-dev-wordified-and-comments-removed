@@ -13,7 +13,7 @@ version
 "
 71
 .
-0
+1
 .
 0
 "
@@ -463,6 +463,9 @@ rmp
 -
 serde
 =
+{
+version
+=
 "
 1
 .
@@ -470,6 +473,10 @@ serde
 .
 1
 "
+optional
+=
+true
+}
 [
 target
 .
@@ -614,7 +621,7 @@ version
 .
 13
 .
-0
+5
 "
 default
 -
@@ -662,6 +669,9 @@ dependencies
 ]
 mozbuild
 =
+{
+version
+=
 "
 0
 .
@@ -669,6 +679,10 @@ mozbuild
 .
 0
 "
+optional
+=
+true
+}
 uniffi
 =
 {
@@ -753,6 +767,11 @@ mozbuild
 rustlib
 =
 [
+"
+dep
+:
+mozbuild
+"
 ]
 sqlite
 =
@@ -761,5 +780,12 @@ sqlite
 dep
 :
 rusqlite
+"
+"
+dep
+:
+rmp
+-
+serde
 "
 ]
