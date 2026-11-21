@@ -61,6 +61,10 @@ resources
 testdriver
 .
 js
+?
+feature
+=
+bidi
 "
 >
 <
@@ -368,7 +372,7 @@ page
 await
 agent
 .
-forceSinglePrefetch
+forceSinglePrefetchAndWaitForStatus
 (
 nextUrl
 )
@@ -626,7 +630,7 @@ page
 await
 agent
 .
-forceSinglePrefetch
+forceSinglePrefetchAndWaitForStatus
 (
 nextUrl
 )
