@@ -62306,7 +62306,7 @@ to
 set
 their
 translation
-options
+preferences
 for
 the
 site
@@ -62324,11 +62324,11 @@ string
 name
 =
 "
-translation_option_bottom_sheet_title_heading
+translation_option_bottom_sheet_title_heading2
 "
 >
 Translation
-options
+preferences
 <
 /
 string

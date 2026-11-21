@@ -2455,7 +2455,7 @@ R
 .
 string
 .
-translation_option_bottom_sheet_title_heading
+translation_option_bottom_sheet_title_heading2
 )
 modifier
 =
