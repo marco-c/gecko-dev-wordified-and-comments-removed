@@ -63,13 +63,3 @@ xpcshell
 toml
 "
 ]
-PERFTESTS_MANIFESTS
-+
-=
-[
-"
-perftest
-.
-toml
-"
-]
