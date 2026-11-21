@@ -163,6 +163,15 @@ py
 "
 action
 /
+test_wine_exe
+.
+py
+"
+]
+[
+"
+action
+/
 test_xpi_archive
 .
 py
