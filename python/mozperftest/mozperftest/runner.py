@@ -459,6 +459,26 @@ append
 xpcshell
 "
 )
+            
+sys
+.
+path
+.
+append
+(
+str
+(
+Path
+(
+"
+tools
+"
+"
+geckoprocesstypes_generator
+"
+)
+)
+)
         
 elif
 flavor
