@@ -593,16 +593,6 @@ none
 \
 MACRO
 (
-CSP_NONCE
-"
-'
-nonce
--
-"
-)
-\
-MACRO
-(
 CSP_REPORT_SAMPLE
 "
 '
@@ -683,7 +673,6 @@ KEYWORD_ENUM
 undef
 KEYWORD_ENUM
 CSP_LAST_KEYWORD_VALUE
-CSP_HASH
 }
 ;
 static
