@@ -293,6 +293,9 @@ manifest
 "
 builtin_widget
 "
+"
+generated_widget
+"
 ]
 }
 "
