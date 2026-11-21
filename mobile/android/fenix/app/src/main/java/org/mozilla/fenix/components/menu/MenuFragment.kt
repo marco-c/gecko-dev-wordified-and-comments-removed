@@ -2387,13 +2387,6 @@ components
 core
 .
 pinnedSiteStorage
-tabCollectionStorage
-=
-components
-.
-core
-.
-tabCollectionStorage
 permissionStorage
 =
 components
