@@ -161,11 +161,6 @@ uint64_t
 aDropped
 )
 ;
-void
-RequestOutgoingDatagramProgress
-(
-)
-;
 private
 :
 ~

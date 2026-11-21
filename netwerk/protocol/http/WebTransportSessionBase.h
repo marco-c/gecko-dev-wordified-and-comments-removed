@@ -416,13 +416,6 @@ NotifyOutgoingDatagramSpaceAvailable
 )
 ;
 virtual
-void
-RequestOutgoingDatagramProgress
-(
-)
-{
-}
-virtual
 bool
 GetDatagramQueueCapacity
 (
