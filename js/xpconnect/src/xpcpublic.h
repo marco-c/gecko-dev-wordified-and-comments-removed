@@ -1898,6 +1898,11 @@ sLiteralExternalString
 namespace
 xpc
 {
+void
+RefreshSandboxesRTPCallerType
+(
+)
+;
 bool
 Base64Encode
 (

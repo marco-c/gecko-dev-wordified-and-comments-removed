@@ -48,6 +48,13 @@ relay
 ]
 [
 "
+test_fpp_overrides_parsing
+.
+js
+"
+]
+[
+"
 test_ohttp_client
 .
 js
@@ -65,5 +72,12 @@ os
 '
 android
 '
+"
+]
+[
+"
+test_sandbox_reduce_timer_precision
+.
+js
 "
 ]

@@ -7079,7 +7079,7 @@ _ns
 ;
 static
 void
-RecomputeResistFingerprintingAllDocs
+OnResistFingerprintingPrefChanged
 (
 const
 char
@@ -7156,6 +7156,13 @@ JustThisDocument
 ;
 }
 }
+xpc
+:
+:
+RefreshSandboxesRTPCallerType
+(
+)
+;
 }
 nsresult
 nsContentUtils
@@ -7512,7 +7519,7 @@ Preferences
 :
 RegisterCallback
 (
-RecomputeResistFingerprintingAllDocs
+OnResistFingerprintingPrefChanged
 pref
 )
 ;
@@ -13237,7 +13244,7 @@ Preferences
 :
 UnregisterCallback
 (
-RecomputeResistFingerprintingAllDocs
+OnResistFingerprintingPrefChanged
 pref
 )
 ;
