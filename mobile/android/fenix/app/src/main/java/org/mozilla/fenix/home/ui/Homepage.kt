@@ -3219,11 +3219,6 @@ expandedCollections
 collectionsState
 .
 expandedCollections
-showAddTabToCollection
-=
-collectionsState
-.
-showSaveTabsToCollection
 interactor
 =
 interactor
