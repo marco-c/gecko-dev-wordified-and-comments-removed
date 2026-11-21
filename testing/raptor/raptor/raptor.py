@@ -723,6 +723,12 @@ args
 .
 extra_summary_methods
             
+perfherder_extra_options
+=
+args
+.
+perfherder_extra_options
+            
 benchmark_repository
 =
 args
