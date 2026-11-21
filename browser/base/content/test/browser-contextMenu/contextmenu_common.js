@@ -612,6 +612,16 @@ context
 -
 sendlinktodevice
 "
+"
+context
+-
+openlinkinsplitview
+"
+"
+context
+-
+openlinkminiwindow
+"
 ]
 ;
 if

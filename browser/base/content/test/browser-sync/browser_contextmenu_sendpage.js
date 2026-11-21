@@ -784,6 +784,11 @@ openlink
 "
 context
 -
+openlinkminiwindow
+"
+"
+context
+-
 openlinkprivate
 "
 "
@@ -2233,6 +2238,11 @@ menu
 context
 -
 openlink
+"
+"
+context
+-
+openlinkminiwindow
 "
 "
 context
