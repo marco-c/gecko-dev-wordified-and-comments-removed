@@ -3030,6 +3030,16 @@ FireScrolledAreaEvent
 (
 )
 ;
+bool
+IsScrollbarPartShown
+(
+const
+nsIFrame
+*
+aPart
+)
+const
+;
 nsScrollbarFrame
 *
 GetShownScrollbarBox
