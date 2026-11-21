@@ -41,7 +41,7 @@ LABEL
 =
 "
 Seasonal
-searches
+Searches
 "
 ;
 const

@@ -3968,7 +3968,7 @@ seasonal
 label
 =
 Seasonal
-searches
+Searches
 #
 This
 string
