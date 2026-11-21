@@ -1169,6 +1169,9 @@ RemoveFromRadioGroup
 void
 DisconnectRadioGroupContainer
 (
+RadioGroupContainer
+*
+aContainer
 )
 ;
 void
@@ -5091,6 +5094,14 @@ bool
 mIsUserInteracting
 :
 1
+;
+bool
+mRemovedFromRadioGroupForAttrChange
+:
+1
+{
+false
+}
 ;
 private
 :

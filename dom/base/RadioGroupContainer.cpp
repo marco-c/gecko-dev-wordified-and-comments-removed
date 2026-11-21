@@ -143,7 +143,7 @@ radioGroup
 =
 entry
 .
-GetWeak
+GetRawPtr
 (
 )
 ;
@@ -259,6 +259,7 @@ button
 >
 DisconnectRadioGroupContainer
 (
+tmp
 )
 ;
 }
