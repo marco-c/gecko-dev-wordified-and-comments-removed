@@ -831,6 +831,12 @@ return
 mDocument
 ;
 }
+bool
+IsInPrivateBrowsing
+(
+)
+const
+;
 inline
 mozilla
 :
@@ -3247,7 +3253,7 @@ true
 }
 nsIFrame
 *
-GetPrimaryFrameFor
+GetPrimaryOrAreaImageFrameFor
 (
 nsIContent
 *
@@ -3554,11 +3560,6 @@ nsPresContext
 MOZ_CAN_RUN_SCRIPT
 void
 ThemeChangedInternal
-(
-)
-;
-void
-RefreshSystemMetrics
 (
 )
 ;
