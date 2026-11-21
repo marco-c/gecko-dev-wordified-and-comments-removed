@@ -385,12 +385,16 @@ listOf
 (
 Back
 Forward
+Bookmark
 Share
 Refresh
 )
 isSticky
 =
 true
+showTitles
+=
+false
 )
 val
 rest
@@ -410,7 +414,6 @@ items
 listOfNotNull
 (
 OpenInFirefox
-Bookmark
 FindInPage
 DesktopSite
 if

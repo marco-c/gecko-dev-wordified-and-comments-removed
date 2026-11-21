@@ -814,6 +814,11 @@ groupModifier
 contentAlpha
 =
 contentAlpha
+showTitles
+=
+group
+.
+showTitles
 )
 is
 MenuItemsGroup

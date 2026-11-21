@@ -1326,6 +1326,7 @@ listOf
 (
 Back
 Forward
+Bookmark
 Share
 Refresh
 )
@@ -1339,6 +1340,9 @@ R
 string
 .
 browser_menu_section_page_controls
+showTitles
+=
+false
 )
 val
 rest
@@ -1387,7 +1391,6 @@ items
 =
 listOf
 (
-Bookmark
 FindInPage
 DesktopSite
 Extensions
