@@ -32,10 +32,6 @@ port
 postMessage
 (
 r
-.
-toJSON
-(
-)
 )
 ;
 }
