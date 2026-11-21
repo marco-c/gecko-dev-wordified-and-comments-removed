@@ -544,6 +544,10 @@ else
 onTabClose
 =
 {
+tab
+_
+-
+>
 dispatch
 (
 TabGroupAction
@@ -552,7 +556,7 @@ TabClosed
 (
 tab
 =
-it
+tab
 group
 =
 group

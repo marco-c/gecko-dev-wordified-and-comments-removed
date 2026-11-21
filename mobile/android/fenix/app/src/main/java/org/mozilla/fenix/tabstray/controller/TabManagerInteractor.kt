@@ -138,6 +138,18 @@ redux
 state
 .
 Page
+import
+org
+.
+mozilla
+.
+fenix
+.
+tabstray
+.
+telemetry
+.
+TabCloseType
 /
 *
 *
@@ -470,6 +482,9 @@ String
 ?
 =
 null
+tabCloseType
+:
+TabCloseType
 )
 }
 /
@@ -666,6 +681,9 @@ source
 :
 String
 ?
+tabCloseType
+:
+TabCloseType
 )
 {
 controller
@@ -674,6 +692,7 @@ handleTabDeletion
 (
 tab
 source
+tabCloseType
 )
 }
 override

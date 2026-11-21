@@ -3331,6 +3331,7 @@ onTabClose
 =
 {
 tab
+tabCloseType
 -
 >
 tabManagerInteractor
@@ -3339,6 +3340,7 @@ onTabClosed
 (
 tab
 TAB_MANAGER_FEATURE_NAME
+tabCloseType
 )
 }
 onItemClick

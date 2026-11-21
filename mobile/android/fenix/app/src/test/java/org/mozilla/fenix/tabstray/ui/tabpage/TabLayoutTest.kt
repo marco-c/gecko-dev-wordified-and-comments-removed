@@ -2196,6 +2196,7 @@ onTabClose
 =
 {
 _
+_
 -
 >
 }
@@ -2452,6 +2453,7 @@ fakeItemInteractionHandler
 onTabClose
 =
 {
+_
 _
 -
 >

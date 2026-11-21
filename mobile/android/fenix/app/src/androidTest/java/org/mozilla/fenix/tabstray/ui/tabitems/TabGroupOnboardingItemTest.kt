@@ -1012,6 +1012,10 @@ NoOpItemInteractionHandler
 onTabClose
 =
 {
+_
+_
+-
+>
 }
 onItemClick
 =

@@ -3082,9 +3082,13 @@ interactionState
 tabGroupCardState
 .
 interactionState
-onCloseClick
+onTabClose
 =
 {
+_
+_
+-
+>
 }
 onClick
 =
