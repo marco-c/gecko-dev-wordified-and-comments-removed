@@ -118,7 +118,7 @@ check_dependency
 dependency_may_be_relevant
 invalidated_descendants
 invalidated_self
-invalidated_sibling_subtree
+invalidated_sibling
 push_invalidation
 should_process_descendants
 }
@@ -5599,7 +5599,7 @@ element
 ;
 }
 fn
-invalidated_sibling_subtree
+invalidated_sibling
 (
 &
 mut
@@ -5610,9 +5610,6 @@ E
 of
 :
 E
-invalidated_sibling
-:
-bool
 )
 {
 debug_assert_ne
@@ -5624,11 +5621,10 @@ self
 element
 )
 ;
-invalidated_sibling_subtree
+invalidated_sibling
 (
 element
 of
-invalidated_sibling
 )
 ;
 }
@@ -6311,7 +6307,7 @@ E
 {
 }
 fn
-invalidated_sibling_subtree
+invalidated_sibling
 (
 &
 mut
@@ -6322,9 +6318,6 @@ E
 _of
 :
 E
-_
-:
-bool
 )
 {
 }
