@@ -273,15 +273,6 @@ aIndex
 )
 ;
 void
-SetPose
-(
-const
-GamepadPoseState
-&
-aPose
-)
-;
-void
 SetLightIndicatorType
 (
 uint32_t
