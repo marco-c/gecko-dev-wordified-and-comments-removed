@@ -406,11 +406,6 @@ StartReading
 {
 }
 void
-FlushIncomingDatagrams
-(
-)
-;
-void
 NotifyOutgoingDatagramSpaceAvailable
 (
 )

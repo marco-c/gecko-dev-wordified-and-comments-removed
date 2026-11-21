@@ -4151,13 +4151,6 @@ buffer
 read
 )
 ;
-mImpl
--
->
-FlushIncomingDatagrams
-(
-)
-;
 }
 mInput
 -
