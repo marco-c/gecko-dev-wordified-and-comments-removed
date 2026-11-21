@@ -156,6 +156,9 @@ nightly
 android
 -
 lints
+MOZ_GRADLE_MAX_HEAP
+:
+16g
 MOZ_OBJDIR
 :
 obj
