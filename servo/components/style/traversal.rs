@@ -562,7 +562,7 @@ default
 if
 invalidation_result
 .
-has_invalidated_siblings
+has_invalidated_siblings_or_sibling_descendants
 (
 )
 {
