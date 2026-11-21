@@ -16438,13 +16438,10 @@ nsresult
 let
 max_age
 =
-(
-!
 max_age
 .
-is_nan
+is_finite
 (
-)
 )
 .
 then
