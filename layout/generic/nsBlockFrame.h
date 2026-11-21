@@ -3496,13 +3496,6 @@ StealFloats
 (
 )
 ;
-nsIFrame
-*
-GetLastPushedFloat
-(
-)
-const
-;
 bool
 HasPushedFloats
 (
@@ -3548,12 +3541,6 @@ void
 VerifyOverflowSituation
 (
 )
-;
-void
-VerifyPushedFloatsAtStart
-(
-)
-const
 ;
 int32_t
 GetDepth
