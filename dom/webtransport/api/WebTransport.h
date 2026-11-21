@@ -174,6 +174,9 @@ mozilla
 dom
 {
 class
+DOMException
+;
+class
 Headers
 ;
 class
@@ -428,7 +431,7 @@ MOZ_CAN_RUN_SCRIPT_BOUNDARY
 void
 Cleanup
 (
-WebTransportError
+DOMException
 *
 aError
 const
