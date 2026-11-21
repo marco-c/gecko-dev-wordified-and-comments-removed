@@ -102,6 +102,13 @@ js
 ]
 [
 "
+browser_open_url
+.
+js
+"
+]
+[
+"
 browser_origin_close
 .
 js

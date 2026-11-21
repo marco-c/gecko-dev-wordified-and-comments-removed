@@ -2570,6 +2570,9 @@ true
 skipTaskbarTabs
 :
 true
+skipMiniWindows
+:
+true
 }
 )
 ;
@@ -2633,6 +2636,9 @@ skipPopups
 :
 true
 skipTaskbarTabs
+:
+true
+skipMiniWindows
 :
 true
 }
