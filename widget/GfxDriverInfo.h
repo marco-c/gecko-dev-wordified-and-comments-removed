@@ -1110,6 +1110,7 @@ IntelHD520
 IntelMobileHDGraphics
 IntelMeteorLake
 IntelArrowlake
+IntelAlchemist
 IntelGen12
 NvidiaBlockD3D9Layers
 RadeonX1000
