@@ -108,12 +108,6 @@ PWinFileDialog
 endif
 #
 if
-defined
-(
-NIGHTLY_BUILD
-)
-&
-&
 !
 defined
 (
@@ -127,9 +121,6 @@ PPKCS11Module
 endif
 /
 /
-NIGHTLY_BUILD
-&
-&
 !
 MOZ_NO_SMART_CARDS
 #
@@ -852,12 +843,6 @@ aEndpoint
 ;
 #
 if
-defined
-(
-NIGHTLY_BUILD
-)
-&
-&
 !
 defined
 (
@@ -879,9 +864,6 @@ aProfilePath
 endif
 /
 /
-NIGHTLY_BUILD
-&
-&
 !
 MOZ_NO_SMART_CARDS
 #

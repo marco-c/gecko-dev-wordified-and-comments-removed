@@ -2473,12 +2473,6 @@ failed
 }
 #
 if
-defined
-(
-NIGHTLY_BUILD
-)
-&
-&
 !
 defined
 (
@@ -2896,8 +2890,6 @@ TimeDuration
 FromSeconds
 (
 3
-.
-0
 )
 )
 {
@@ -10179,12 +10171,6 @@ AutoSearchingForCertificates
 {
 #
 if
-defined
-(
-NIGHTLY_BUILD
-)
-&
-&
 !
 defined
 (
@@ -10305,12 +10291,6 @@ AutoSearchingForClientAuthCertificates
 {
 #
 if
-defined
-(
-NIGHTLY_BUILD
-)
-&
-&
 !
 defined
 (

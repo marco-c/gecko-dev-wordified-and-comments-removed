@@ -1019,12 +1019,6 @@ NS_OK
 }
 #
 if
-defined
-(
-NIGHTLY_BUILD
-)
-&
-&
 !
 defined
 (

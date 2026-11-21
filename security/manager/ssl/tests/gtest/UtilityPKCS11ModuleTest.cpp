@@ -1,12 +1,5 @@
 #
 if
-!
-defined
-(
-NIGHTLY_BUILD
-)
-|
-|
 defined
 (
 MOZ_NO_SMART_CARDS
@@ -19,9 +12,6 @@ should
 only
 be
 used
-under
-NIGHTLY_BUILD
-and
 when
 MOZ_NO_SMART_CARDS
 is

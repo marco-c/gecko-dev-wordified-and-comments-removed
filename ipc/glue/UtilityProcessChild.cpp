@@ -1169,12 +1169,6 @@ IPC_OK
 }
 #
 if
-defined
-(
-NIGHTLY_BUILD
-)
-&
-&
 !
 defined
 (
@@ -2454,12 +2448,6 @@ nullptr
 endif
 #
 if
-defined
-(
-NIGHTLY_BUILD
-)
-&
-&
 !
 defined
 (

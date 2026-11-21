@@ -244,12 +244,6 @@ h
 "
 #
 if
-defined
-(
-NIGHTLY_BUILD
-)
-&
-&
 !
 defined
 (
@@ -4050,12 +4044,6 @@ __PRETTY_FUNCTION__
 endif
 #
 if
-defined
-(
-NIGHTLY_BUILD
-)
-&
-&
 !
 defined
 (

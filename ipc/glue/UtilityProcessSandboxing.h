@@ -50,12 +50,6 @@ WINDOWS_FILE_DIALOG
 endif
 #
 if
-defined
-(
-NIGHTLY_BUILD
-)
-&
-&
 !
 defined
 (
