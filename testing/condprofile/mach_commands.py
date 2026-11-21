@@ -786,6 +786,20 @@ runner
 import
 run
     
+from
+mozrunner
+.
+devices
+.
+android_device
+import
+prepend_adb_dir_to_path
+    
+prepend_adb_dir_to_path
+(
+command_context
+)
+    
 run
 (
 *
