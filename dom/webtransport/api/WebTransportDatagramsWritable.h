@@ -173,6 +173,15 @@ Cleanup
 )
 ;
 void
+UpdateQueueParams
+(
+uint32_t
+aMaxBufferedDatagrams
+double
+aMaxAge
+)
+;
+void
 RetireInFlight
 (
 uint64_t
