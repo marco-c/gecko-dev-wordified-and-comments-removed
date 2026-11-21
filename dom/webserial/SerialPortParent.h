@@ -318,6 +318,10 @@ StopPumpsBeforeClose
 void
 StopReadPump
 (
+nsresult
+aReason
+=
+NS_BASE_STREAM_CLOSED
 )
 ;
 void

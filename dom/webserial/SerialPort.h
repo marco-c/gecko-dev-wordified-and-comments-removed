@@ -412,6 +412,16 @@ mChild
 aChild
 ;
 }
+void
+HandleReadableErrored
+(
+ReadableStream
+*
+aStream
+bool
+aFatal
+)
+;
 private
 :
 ~
@@ -428,6 +438,7 @@ uint8_t
 {
 Graceful
 Forced
+Disconnected
 }
 ;
 MOZ_CAN_RUN_SCRIPT
@@ -496,6 +507,11 @@ true
 ;
 bool
 mHasShutdown
+=
+false
+;
+bool
+mReadFatal
 =
 false
 ;

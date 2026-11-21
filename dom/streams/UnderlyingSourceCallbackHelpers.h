@@ -943,6 +943,7 @@ ErrorResult
 aRv
 )
 ;
+virtual
 void
 ErrorPropagation
 (
