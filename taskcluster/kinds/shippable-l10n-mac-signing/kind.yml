@@ -131,14 +131,6 @@ macosx64
 devedition
 /
 opt
--
-macosx64
-/
-opt
--
-macosx64
-/
-debug
 tasks
 :
 shippable
