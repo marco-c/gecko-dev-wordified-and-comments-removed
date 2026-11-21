@@ -668,7 +668,7 @@ Quotes
 fn
 parse
 (
-_
+context
 :
 &
 ParserContext
@@ -758,6 +758,7 @@ Self
 :
 from_ident
 (
+context
 id
 )
 Ok
@@ -878,6 +879,10 @@ Quotes
 fn
 from_ident
 (
+context
+:
+&
+ParserContext
 id
 :
 &
@@ -933,6 +938,13 @@ match
 parent
 "
 if
+context
+.
+in_ua_sheet
+(
+)
+|
+|
 crate
 :
 :
