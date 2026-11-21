@@ -148,6 +148,17 @@ PYTHON_UNITTEST_MANIFESTS
 =
 [
 "
+performance
+/
+mozperfcommon
+/
+tests
+/
+manifest
+.
+toml
+"
+"
 test
 /
 python

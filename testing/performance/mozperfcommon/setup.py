@@ -114,6 +114,9 @@ False
 install_requires
 =
 [
+"
+requests
+"
 ]
     
 python_requires
