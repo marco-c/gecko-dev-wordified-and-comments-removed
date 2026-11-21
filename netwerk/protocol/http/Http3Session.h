@@ -759,6 +759,11 @@ mState
 CLOSED
 ;
 }
+uint32_t
+ReadTimeoutTick
+(
+)
+;
 bool
 AddStream
 (
@@ -1803,6 +1808,9 @@ mZeroRttStarted
 ;
 TimeStamp
 mLastTRRResponseTime
+;
+TimeStamp
+mNoInputSince
 ;
 uint64_t
 mBlockedByStreamLimitCount

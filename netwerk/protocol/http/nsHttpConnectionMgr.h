@@ -573,11 +573,6 @@ ConnectionEntry
 *
 )
 ;
-void
-ActivateTimeoutTick
-(
-)
-;
 already_AddRefed
 <
 PendingTransactionInfo
@@ -629,6 +624,11 @@ ent
 ;
 public
 :
+void
+ActivateTimeoutTick
+(
+)
+;
 void
 RegisterOriginCoalescingKey
 (

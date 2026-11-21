@@ -285,6 +285,11 @@ OnQuicTimeoutExpired
 (
 )
 ;
+uint32_t
+ReadTimeoutTick
+(
+)
+;
 int64_t
 BytesWritten
 (
