@@ -482,7 +482,7 @@ aResolver
 )
 ;
 void
-RemoveFinishedIncomingStream
+RemoveFinishedStream
 (
 uint64_t
 aStreamId
