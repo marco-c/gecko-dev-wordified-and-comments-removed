@@ -4088,6 +4088,11 @@ nsDocShell
 aDocShell
 )
 ;
+void
+SendPendingCommandUpdatesToParentProcess
+(
+)
+;
 friend
 class
 nsPIDOMWindowInner
@@ -4456,6 +4461,13 @@ bool
 mIsInFullScreenTransition
 =
 false
+;
+AutoTArray
+<
+nsString
+1
+>
+mPendingCommandUpdateActions
 ;
 friend
 class
