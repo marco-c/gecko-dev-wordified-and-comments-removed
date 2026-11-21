@@ -505,3 +505,10 @@ browser_uncontrollable_iframe_preserves_active_session
 js
 "
 ]
+[
+"
+browser_web_audio_media_session_activation
+.
+js
+"
+]
