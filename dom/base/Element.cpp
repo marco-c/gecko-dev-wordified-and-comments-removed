@@ -12335,6 +12335,9 @@ aAttr
 ;
 if
 (
+aUseCachedValue
+&
+&
 elements
 &
 &
