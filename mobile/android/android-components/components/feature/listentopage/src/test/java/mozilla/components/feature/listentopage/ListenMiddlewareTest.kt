@@ -1256,6 +1256,8 @@ dispatch
 (
 ListenAction
 .
+User
+.
 Session
 .
 StopRequested
@@ -1613,6 +1615,8 @@ store
 dispatch
 (
 ListenAction
+.
+User
 .
 Session
 .
@@ -2577,6 +2581,8 @@ dispatch
 (
 ListenAction
 .
+User
+.
 Session
 .
 ListenRequested
@@ -2727,6 +2733,8 @@ dispatch
 (
 ListenAction
 .
+User
+.
 Controls
 .
 PlayPauseClicked
@@ -2839,6 +2847,8 @@ dispatch
 (
 ListenAction
 .
+User
+.
 Controls
 .
 PlayPauseClicked
@@ -2939,6 +2949,8 @@ store
 dispatch
 (
 ListenAction
+.
+User
 .
 Session
 .
@@ -3071,6 +3083,8 @@ dispatch
 (
 ListenAction
 .
+User
+.
 Session
 .
 ListenRequested
@@ -3084,6 +3098,8 @@ store
 dispatch
 (
 ListenAction
+.
+User
 .
 Controls
 .
@@ -3917,6 +3933,8 @@ dispatch
 (
 ListenAction
 .
+User
+.
 Session
 .
 ListenRequested
@@ -4431,6 +4449,8 @@ actions
 filterIsInstance
 <
 ListenAction
+.
+System
 .
 Content
 .
@@ -8845,6 +8865,8 @@ dispatch
 (
 ListenAction
 .
+User
+.
 Session
 .
 StopRequested
@@ -9160,6 +9182,8 @@ dispatch
 (
 ListenAction
 .
+User
+.
 Session
 .
 StopRequested
@@ -9291,6 +9315,8 @@ store
 dispatch
 (
 ListenAction
+.
+User
 .
 Session
 .
@@ -9439,6 +9465,8 @@ store
 dispatch
 (
 ListenAction
+.
+User
 .
 Session
 .
@@ -9790,6 +9818,8 @@ dispatch
 (
 ListenAction
 .
+User
+.
 Session
 .
 StopRequested
@@ -9916,6 +9946,8 @@ dispatch
 (
 ListenAction
 .
+System
+.
 Content
 .
 ContentReady
@@ -10029,6 +10061,8 @@ store
 dispatch
 (
 ListenAction
+.
+User
 .
 Session
 .
@@ -10234,6 +10268,8 @@ dispatch
 (
 ListenAction
 .
+System
+.
 Content
 .
 ContentReady
@@ -10378,6 +10414,8 @@ dispatch
 (
 ListenAction
 .
+User
+.
 Session
 .
 StopRequested
@@ -10408,6 +10446,8 @@ store
 dispatch
 (
 ListenAction
+.
+System
 .
 Content
 .
@@ -10899,6 +10939,8 @@ dispatch
 (
 ListenAction
 .
+User
+.
 Voices
 .
 VoiceSelected
@@ -11138,6 +11180,8 @@ dispatch
 (
 ListenAction
 .
+User
+.
 Voices
 .
 VoiceSelected
@@ -11341,6 +11385,8 @@ store
 dispatch
 (
 ListenAction
+.
+User
 .
 Voices
 .
@@ -11589,6 +11635,8 @@ store
 dispatch
 (
 ListenAction
+.
+User
 .
 Voices
 .
@@ -11878,6 +11926,8 @@ dispatch
 (
 ListenAction
 .
+User
+.
 Voices
 .
 VoiceSelected
@@ -12109,6 +12159,8 @@ dispatch
 (
 ListenAction
 .
+User
+.
 Voices
 .
 VoiceSelected
@@ -12311,6 +12363,8 @@ dispatch
 (
 ListenAction
 .
+User
+.
 Voices
 .
 VoiceSelected
@@ -12499,6 +12553,8 @@ dispatch
 (
 ListenAction
 .
+User
+.
 Voices
 .
 VoiceSelected
@@ -12666,6 +12722,8 @@ store
 dispatch
 (
 ListenAction
+.
+User
 .
 Voices
 .
@@ -12855,6 +12913,8 @@ dispatch
 (
 ListenAction
 .
+User
+.
 Voices
 .
 VoiceSelected
@@ -12882,6 +12942,8 @@ store
 dispatch
 (
 ListenAction
+.
+User
 .
 Voices
 .
@@ -13144,7 +13206,9 @@ dispatch
 (
 ListenAction
 .
-Playback
+User
+.
+Controls
 .
 SeekRequested
 (
@@ -13298,6 +13362,8 @@ store
 dispatch
 (
 ListenAction
+.
+User
 .
 Voices
 .
@@ -14261,6 +14327,8 @@ dispatch
 (
 ListenAction
 .
+User
+.
 Session
 .
 StopRequested
@@ -14418,6 +14486,8 @@ dispatch
 (
 ListenAction
 .
+User
+.
 Session
 .
 StopRequested
@@ -14570,6 +14640,8 @@ listOf
 (
 ListenAction
 .
+User
+.
 Session
 .
 ListenRequested
@@ -14579,11 +14651,15 @@ URL
 )
 ListenAction
 .
+User
+.
 Session
 .
 StopRequested
 (
 ListenAction
+.
+User
 .
 Session
 .
@@ -14597,6 +14673,8 @@ actions
 filterIsInstance
 <
 ListenAction
+.
+User
 .
 Session
 >
@@ -14704,6 +14782,8 @@ listOf
 (
 ListenAction
 .
+User
+.
 Session
 .
 ListenRequested
@@ -14713,11 +14793,15 @@ URL
 )
 ListenAction
 .
+User
+.
 Session
 .
 StopRequested
 (
 ListenAction
+.
+User
 .
 Session
 .
@@ -14731,6 +14815,8 @@ actions
 filterIsInstance
 <
 ListenAction
+.
+User
 .
 Session
 >
@@ -14864,6 +14950,8 @@ listOf
 (
 ListenAction
 .
+User
+.
 Session
 .
 ListenRequested
@@ -14873,11 +14961,15 @@ URL
 )
 ListenAction
 .
+User
+.
 Session
 .
 StopRequested
 (
 ListenAction
+.
+User
 .
 Session
 .
@@ -14891,6 +14983,8 @@ actions
 filterIsInstance
 <
 ListenAction
+.
+User
 .
 Session
 >
@@ -15009,6 +15103,8 @@ dispatch
 (
 ListenAction
 .
+User
+.
 Session
 .
 StopRequested
@@ -15033,6 +15129,8 @@ listOf
 (
 ListenAction
 .
+User
+.
 Session
 .
 ListenRequested
@@ -15041,6 +15139,8 @@ TAB_ID
 URL
 )
 ListenAction
+.
+User
 .
 Session
 .
@@ -15053,6 +15153,8 @@ actions
 filterIsInstance
 <
 ListenAction
+.
+User
 .
 Session
 >
@@ -15149,6 +15251,8 @@ dispatch
 (
 ListenAction
 .
+User
+.
 Session
 .
 StopRequested
@@ -15175,6 +15279,8 @@ listOf
 (
 ListenAction
 .
+User
+.
 Session
 .
 ListenRequested
@@ -15183,6 +15289,8 @@ TAB_ID
 URL
 )
 ListenAction
+.
+User
 .
 Session
 .
@@ -15195,6 +15303,8 @@ actions
 filterIsInstance
 <
 ListenAction
+.
+User
 .
 Session
 >
@@ -15300,6 +15410,8 @@ listOf
 (
 ListenAction
 .
+User
+.
 Session
 .
 ListenRequested
@@ -15313,6 +15425,8 @@ actions
 filterIsInstance
 <
 ListenAction
+.
+User
 .
 Session
 >
@@ -15417,6 +15531,8 @@ listOf
 (
 ListenAction
 .
+User
+.
 Session
 .
 ListenRequested
@@ -15426,11 +15542,15 @@ URL
 )
 ListenAction
 .
+User
+.
 Session
 .
 StopRequested
 (
 ListenAction
+.
+User
 .
 Session
 .
@@ -15444,6 +15564,8 @@ actions
 filterIsInstance
 <
 ListenAction
+.
+User
 .
 Session
 >
@@ -15553,6 +15675,8 @@ listOf
 (
 ListenAction
 .
+User
+.
 Session
 .
 ListenRequested
@@ -15566,6 +15690,8 @@ actions
 filterIsInstance
 <
 ListenAction
+.
+User
 .
 Session
 >
@@ -15685,6 +15811,8 @@ listOf
 (
 ListenAction
 .
+User
+.
 Session
 .
 ListenRequested
@@ -15694,11 +15822,15 @@ URL
 )
 ListenAction
 .
+User
+.
 Session
 .
 StopRequested
 (
 ListenAction
+.
+User
 .
 Session
 .
@@ -15712,6 +15844,8 @@ actions
 filterIsInstance
 <
 ListenAction
+.
+User
 .
 Session
 >
@@ -15864,6 +15998,8 @@ listOf
 (
 ListenAction
 .
+User
+.
 Session
 .
 ListenRequested
@@ -15877,6 +16013,8 @@ actions
 filterIsInstance
 <
 ListenAction
+.
+User
 .
 Session
 >
@@ -15995,6 +16133,8 @@ listOf
 (
 ListenAction
 .
+User
+.
 Session
 .
 ListenRequested
@@ -16008,6 +16148,8 @@ actions
 filterIsInstance
 <
 ListenAction
+.
+User
 .
 Session
 >
@@ -16129,6 +16271,8 @@ listOf
 (
 ListenAction
 .
+User
+.
 Session
 .
 ListenRequested
@@ -16137,6 +16281,8 @@ TAB_ID
 URL
 )
 ListenAction
+.
+User
 .
 Session
 .
@@ -16151,6 +16297,8 @@ actions
 filterIsInstance
 <
 ListenAction
+.
+User
 .
 Session
 >
@@ -17045,6 +17193,8 @@ actions
 contains
 (
 ListenAction
+.
+System
 .
 Playback
 .
@@ -18849,6 +18999,8 @@ dispatch
 (
 ListenAction
 .
+User
+.
 Controls
 .
 ForwardClicked
@@ -19010,7 +19162,9 @@ dispatch
 (
 ListenAction
 .
-Playback
+User
+.
+Controls
 .
 SeekRequested
 (
@@ -19237,7 +19391,9 @@ dispatch
 (
 ListenAction
 .
-Playback
+User
+.
+Controls
 .
 SeekRequested
 (
@@ -19485,7 +19641,9 @@ dispatch
 (
 ListenAction
 .
-Playback
+User
+.
+Controls
 .
 SeekRequested
 (
@@ -19500,6 +19658,8 @@ store
 dispatch
 (
 ListenAction
+.
+User
 .
 Controls
 .
@@ -19654,7 +19814,9 @@ dispatch
 (
 ListenAction
 .
-Playback
+User
+.
+Controls
 .
 SeekRequested
 (
@@ -19698,7 +19860,9 @@ dispatch
 (
 ListenAction
 .
-Playback
+User
+.
+Controls
 .
 SeekRequested
 (
@@ -19873,7 +20037,9 @@ dispatch
 (
 ListenAction
 .
-Playback
+User
+.
+Controls
 .
 SeekRequested
 (
@@ -19888,6 +20054,8 @@ store
 dispatch
 (
 ListenAction
+.
+User
 .
 Controls
 .
@@ -20476,6 +20644,8 @@ store
 dispatch
 (
 ListenAction
+.
+User
 .
 Session
 .
@@ -21263,6 +21433,8 @@ dispatch
 (
 ListenAction
 .
+User
+.
 Controls
 .
 RewindClicked
@@ -21325,6 +21497,8 @@ dispatch
 (
 ListenAction
 .
+User
+.
 Controls
 .
 RewindClicked
@@ -21386,6 +21560,8 @@ dispatch
 (
 ListenAction
 .
+User
+.
 Controls
 .
 ForwardClicked
@@ -21445,6 +21621,8 @@ store
 dispatch
 (
 ListenAction
+.
+User
 .
 Controls
 .
@@ -21511,6 +21689,8 @@ store
 dispatch
 (
 ListenAction
+.
+User
 .
 Controls
 .
@@ -21720,6 +21900,8 @@ store
 dispatch
 (
 ListenAction
+.
+User
 .
 Controls
 .
@@ -22183,6 +22365,8 @@ dispatch
 (
 ListenAction
 .
+User
+.
 Controls
 .
 RewindClicked
@@ -22576,6 +22760,8 @@ dispatch
 (
 ListenAction
 .
+System
+.
 Playback
 .
 ArticleProgressReverted
@@ -22654,7 +22840,9 @@ dispatch
 (
 ListenAction
 .
-Playback
+User
+.
+Controls
 .
 SeekRequested
 (
@@ -22747,6 +22935,8 @@ dispatch
 (
 ListenAction
 .
+System
+.
 Playback
 .
 ArticleProgressReverted
@@ -22773,7 +22963,9 @@ dispatch
 (
 ListenAction
 .
-Playback
+User
+.
+Controls
 .
 SeekRequested
 (
@@ -23571,6 +23763,8 @@ store
 dispatch
 (
 ListenAction
+.
+User
 .
 Session
 .
@@ -25707,7 +25901,9 @@ dispatch
 (
 ListenAction
 .
-Controls
+User
+.
+Voices
 .
 VoicesClicked
 )
@@ -25869,7 +26065,9 @@ dispatch
 (
 ListenAction
 .
-Controls
+User
+.
+Voices
 .
 VoicesClicked
 )
@@ -26024,7 +26222,9 @@ dispatch
 (
 ListenAction
 .
-Controls
+User
+.
+Voices
 .
 VoicesClicked
 )
@@ -26242,7 +26442,9 @@ dispatch
 (
 ListenAction
 .
-Controls
+User
+.
+Voices
 .
 VoicesClicked
 )
@@ -26450,7 +26652,9 @@ dispatch
 (
 ListenAction
 .
-Controls
+User
+.
+Voices
 .
 VoicesClicked
 )
@@ -26822,6 +27026,8 @@ dispatch
 (
 ListenAction
 .
+User
+.
 Session
 .
 ListenRequested
@@ -26877,7 +27083,9 @@ dispatch
 (
 ListenAction
 .
-Playback
+User
+.
+Controls
 .
 SeekRequested
 (
@@ -27122,6 +27330,8 @@ PlayerReportReceived
 action
 is
 ListenAction
+.
+System
 .
 Playback
 .

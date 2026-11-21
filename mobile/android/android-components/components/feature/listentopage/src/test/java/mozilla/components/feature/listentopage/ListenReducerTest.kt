@@ -394,6 +394,8 @@ ListenState
 )
 ListenAction
 .
+User
+.
 Session
 .
 ListenRequested
@@ -446,6 +448,8 @@ listenReducer
 fullState
 ListenAction
 .
+User
+.
 Session
 .
 ListenRequested
@@ -483,6 +487,8 @@ ListenState
 (
 )
 ListenAction
+.
+User
 .
 Session
 .
@@ -530,6 +536,8 @@ listenReducer
 fullState
 ListenAction
 .
+User
+.
 Session
 .
 StopRequested
@@ -562,6 +570,8 @@ listenReducer
 (
 fullState
 ListenAction
+.
+User
 .
 ErrorDismissed
 )
@@ -637,6 +647,8 @@ error
 )
 ListenAction
 .
+User
+.
 ErrorDismissed
 )
 assertNull
@@ -675,6 +687,8 @@ ListenState
 )
 ListenAction
 .
+User
+.
 ModeChanged
 (
 PlayerMode
@@ -689,6 +703,8 @@ listenReducer
 (
 collapsed
 ListenAction
+.
+User
 .
 ModeChanged
 (
@@ -751,6 +767,8 @@ listenReducer
 noError
 ListenAction
 .
+User
+.
 ErrorDismissed
 )
 )
@@ -776,6 +794,8 @@ ListenState
 (
 )
 ListenAction
+.
+User
 .
 Voices
 .
@@ -848,6 +868,8 @@ ListenState
 (
 )
 ListenAction
+.
+User
 .
 Controls
 .
@@ -931,6 +953,8 @@ ListenState
 )
 ListenAction
 .
+System
+.
 Voices
 .
 AvailableVoicesLoaded
@@ -997,6 +1021,8 @@ ListenState
 )
 ListenAction
 .
+System
+.
 Voices
 .
 AvailableVoicesLoaded
@@ -1033,6 +1059,8 @@ listenReducer
 (
 loaded
 ListenAction
+.
+System
 .
 Voices
 .
@@ -1119,6 +1147,8 @@ listenReducer
 (
 fullState
 ListenAction
+.
+System
 .
 Voices
 .
@@ -1207,6 +1237,8 @@ ListenState
 )
 ListenAction
 .
+System
+.
 Voices
 .
 NoOfflineVoicesAvailable
@@ -1250,6 +1282,8 @@ error
 null
 )
 ListenAction
+.
+System
 .
 Voices
 .
@@ -1339,6 +1373,8 @@ listenReducer
 fullState
 ListenAction
 .
+System
+.
 Voices
 .
 NoOfflineVoicesAvailable
@@ -1422,6 +1458,8 @@ ListenState
 (
 )
 ListenAction
+.
+System
 .
 Voices
 .
@@ -1535,6 +1573,8 @@ tab
 )
 ListenAction
 .
+System
+.
 Synthesis
 .
 SynthesisFailed
@@ -1590,6 +1630,8 @@ tab
 )
 ListenAction
 .
+System
+.
 Synthesis
 .
 SynthesisFailed
@@ -1601,6 +1643,8 @@ listenReducer
 (
 failed
 ListenAction
+.
+User
 .
 ErrorDismissed
 )
@@ -1704,6 +1748,8 @@ listenReducer
 fullState
 ListenAction
 .
+System
+.
 Content
 .
 ContentReady
@@ -1763,6 +1809,8 @@ url
 URL
 )
 ListenAction
+.
+System
 .
 Content
 .
@@ -1835,6 +1883,8 @@ listenReducer
 fullState
 ListenAction
 .
+System
+.
 Content
 .
 ContentReady
@@ -1899,6 +1949,8 @@ listenReducer
 (
 fullState
 ListenAction
+.
+System
 .
 Content
 .
@@ -2107,6 +2159,8 @@ ListenState
 )
 ListenAction
 .
+System
+.
 Playback
 .
 StateChangeObserved
@@ -2162,6 +2216,8 @@ listenReducer
 fullState
 ListenAction
 .
+System
+.
 Playback
 .
 StateChangeObserved
@@ -2208,6 +2264,8 @@ ListenState
 (
 )
 ListenAction
+.
+System
 .
 Playback
 .
@@ -2310,6 +2368,8 @@ listenReducer
 fullState
 ListenAction
 .
+System
+.
 Playback
 .
 ArticleProgressReverted
@@ -2357,6 +2417,8 @@ listenReducer
 (
 fullState
 ListenAction
+.
+System
 .
 Playback
 .
@@ -2413,6 +2475,8 @@ listenReducer
 fullState
 ListenAction
 .
+System
+.
 Playback
 .
 ArticleProgressReverted
@@ -2468,7 +2532,9 @@ listenReducer
 fullState
 ListenAction
 .
-Playback
+User
+.
+Controls
 .
 SeekRequested
 (
@@ -2580,7 +2646,9 @@ listenReducer
 held
 ListenAction
 .
-Playback
+User
+.
+Controls
 .
 SeekRequested
 (
@@ -2675,7 +2743,9 @@ listenReducer
 held
 ListenAction
 .
-Playback
+User
+.
+Controls
 .
 SeekRequested
 (
@@ -2732,7 +2802,9 @@ listenReducer
 fullState
 ListenAction
 .
-Playback
+User
+.
+Controls
 .
 SeekRequested
 (
@@ -2754,7 +2826,9 @@ listenReducer
 fullState
 ListenAction
 .
-Playback
+User
+.
+Controls
 .
 SeekRequested
 (
@@ -2799,7 +2873,9 @@ ListenState
 )
 ListenAction
 .
-Playback
+User
+.
+Controls
 .
 SeekRequested
 (
@@ -2859,6 +2935,8 @@ listenReducer
 (
 playing
 ListenAction
+.
+System
 .
 Playback
 .
@@ -2973,6 +3051,8 @@ listenReducer
 (
 seeking
 ListenAction
+.
+System
 .
 Playback
 .
@@ -3099,6 +3179,8 @@ ListenState
 )
 ListenAction
 .
+System
+.
 Playback
 .
 PlaybackFailed
@@ -3160,6 +3242,8 @@ ListenState
 (
 )
 ListenAction
+.
+System
 .
 Playback
 .
@@ -3252,6 +3336,8 @@ listenReducer
 playing
 ListenAction
 .
+System
+.
 Playback
 .
 PlaybackWaiting
@@ -3326,6 +3412,8 @@ listenReducer
 paused
 ListenAction
 .
+System
+.
 Playback
 .
 PlaybackWaiting
@@ -3377,6 +3465,8 @@ listenReducer
 readOut
 ListenAction
 .
+System
+.
 Playback
 .
 PlaybackEnded
@@ -3422,6 +3512,8 @@ ListenState
 )
 ListenAction
 .
+System
+.
 Playback
 .
 PlaybackFailed
@@ -3432,6 +3524,8 @@ listenReducer
 (
 failed
 ListenAction
+.
+User
 .
 ErrorDismissed
 )
@@ -3508,6 +3602,8 @@ ListenError
 SynthesisFailed
 )
 ListenAction
+.
+System
 .
 Playback
 .

@@ -1204,6 +1204,8 @@ listOf
 (
 ListenAction
 .
+User
+.
 ModeChanged
 (
 PlayerMode
@@ -2307,7 +2309,9 @@ single
 as
 ListenAction
 .
-Playback
+User
+.
+Controls
 .
 SeekRequested
 assertEquals
@@ -2633,7 +2637,9 @@ listOf
 (
 ListenAction
 .
-Playback
+User
+.
+Controls
 .
 SeekRequested
 (

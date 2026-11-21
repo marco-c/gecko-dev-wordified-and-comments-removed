@@ -542,6 +542,8 @@ onAction
 :
 (
 ListenAction
+.
+User
 )
 -
 >
@@ -615,6 +617,8 @@ onClick
 onAction
 (
 ListenAction
+.
+User
 .
 Session
 .
@@ -738,6 +742,8 @@ onAction
 (
 ListenAction
 .
+User
+.
 Controls
 .
 PlaybackSpeedSelected
@@ -785,6 +791,8 @@ onAction
 :
 (
 ListenAction
+.
+User
 )
 -
 >
@@ -1076,7 +1084,9 @@ onAction
 (
 ListenAction
 .
-Playback
+User
+.
+Controls
 .
 SeekRequested
 (

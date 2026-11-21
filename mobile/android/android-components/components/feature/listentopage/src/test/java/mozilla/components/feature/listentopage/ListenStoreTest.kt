@@ -147,6 +147,8 @@ dispatch
 (
 ListenAction
 .
+User
+.
 Session
 .
 ListenRequested
@@ -187,6 +189,8 @@ store
 dispatch
 (
 ListenAction
+.
+User
 .
 Session
 .
@@ -251,6 +255,8 @@ store
 dispatch
 (
 ListenAction
+.
+User
 .
 ErrorDismissed
 )
@@ -350,6 +356,8 @@ dispatch
 (
 ListenAction
 .
+User
+.
 Session
 .
 ListenRequested
@@ -378,6 +386,8 @@ dispatch
 (
 ListenAction
 .
+User
+.
 ErrorDismissed
 )
 assertEquals
@@ -385,6 +395,8 @@ assertEquals
 listOf
 (
 ListenAction
+.
+User
 .
 Session
 .
@@ -408,6 +420,8 @@ article
 "
 )
 ListenAction
+.
+User
 .
 ErrorDismissed
 )

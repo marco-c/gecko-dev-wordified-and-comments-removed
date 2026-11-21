@@ -398,6 +398,8 @@ onAction
 :
 (
 ListenAction
+.
+User
 )
 -
 >
@@ -466,6 +468,8 @@ onClick
 onAction
 (
 ListenAction
+.
+User
 .
 Session
 .
@@ -575,6 +579,8 @@ onAction
 (
 ListenAction
 .
+User
+.
 ModeChanged
 (
 PlayerMode
@@ -630,6 +636,8 @@ onButtonClicked
 onAction
 (
 ListenAction
+.
+User
 .
 Controls
 .

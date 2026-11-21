@@ -459,6 +459,8 @@ onAction
 :
 (
 ListenAction
+.
+User
 )
 -
 >
@@ -572,7 +574,9 @@ onAction
 (
 ListenAction
 .
-Controls
+User
+.
+Voices
 .
 VoicesClicked
 )
@@ -589,6 +593,8 @@ false
 onAction
 (
 ListenAction
+.
+User
 .
 Voices
 .
@@ -608,7 +614,9 @@ onAction
 (
 ListenAction
 .
-Controls
+User
+.
+Voices
 .
 VoicesDismissed
 )
@@ -682,6 +690,8 @@ onAction
 (
 ListenAction
 .
+User
+.
 Controls
 .
 PlaybackSpeedClicked
@@ -699,6 +709,8 @@ false
 onAction
 (
 ListenAction
+.
+User
 .
 Controls
 .
@@ -997,6 +1009,8 @@ onAction
 :
 (
 ListenAction
+.
+User
 )
 -
 >
@@ -1072,6 +1086,8 @@ onAction
 (
 ListenAction
 .
+User
+.
 Controls
 .
 PlayPauseClicked
@@ -1106,6 +1122,8 @@ onClick
 onAction
 (
 ListenAction
+.
+User
 .
 Controls
 .
@@ -1166,6 +1184,8 @@ onAction
 :
 (
 ListenAction
+.
+User
 )
 -
 >
@@ -1239,6 +1259,8 @@ onClick
 onAction
 (
 ListenAction
+.
+User
 .
 Controls
 .
