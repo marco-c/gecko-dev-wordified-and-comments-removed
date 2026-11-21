@@ -5694,11 +5694,14 @@ auto
 *
 labeledElement
 =
-(
+static_cast
+<
 nsGenericHTMLElement
 *
-)
+>
+(
 mData
+)
 ;
 MOZ_ASSERT
 (
