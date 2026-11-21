@@ -951,6 +951,13 @@ android
 ]
 [
 "
+test_SelectionUtils
+.
+js
+"
+]
+[
+"
 test_Services
 .
 js

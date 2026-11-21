@@ -39,6 +39,13 @@ https_first_disabled
 true
 [
 "
+browser_notification_long_body
+.
+js
+"
+]
+[
+"
 browser_notification_open_settings
 .
 js
