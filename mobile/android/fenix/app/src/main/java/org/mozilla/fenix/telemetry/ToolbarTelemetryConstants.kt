@@ -150,13 +150,6 @@ add_new_tab
 "
 const
 val
-ACTION_ADD_NEW_TAB_LONG_CLICKED
-=
-"
-add_new_tab_long_press
-"
-const
-val
 ACTION_CLEAR_CLICKED
 =
 "
@@ -245,13 +238,6 @@ ACTION_NAVIGATE_FORWARD_LONG_CLICKED
 =
 "
 navigate_forward_long_press
-"
-const
-val
-ACTION_OPEN_IN_FENIX
-=
-"
-open_in_fenix
 "
 const
 val
