@@ -97,6 +97,14 @@ os
 .
 LocaleListCompat
 import
+androidx
+.
+preference
+.
+R
+as
+preferenceR
+import
 org
 .
 junit
@@ -1041,7 +1049,7 @@ activity
 .
 findViewById
 (
-R
+preferenceR
 .
 id
 .
@@ -1206,7 +1214,7 @@ activity
 .
 findViewById
 (
-R
+preferenceR
 .
 id
 .

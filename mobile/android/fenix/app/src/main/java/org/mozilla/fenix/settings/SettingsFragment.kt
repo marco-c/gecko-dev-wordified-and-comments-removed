@@ -257,6 +257,14 @@ PreferenceFragmentCompat
 import
 androidx
 .
+preference
+.
+R
+as
+preferenceR
+import
+androidx
+.
 recyclerview
 .
 widget
@@ -2053,7 +2061,7 @@ findViewById
 RecyclerView
 >
 (
-R
+preferenceR
 .
 id
 .
@@ -2475,7 +2483,7 @@ findViewById
 RecyclerView
 >
 (
-R
+preferenceR
 .
 id
 .

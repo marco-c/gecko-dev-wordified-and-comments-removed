@@ -75,6 +75,14 @@ Log
 import
 androidx
 .
+preference
+.
+R
+as
+preferenceR
+import
+androidx
+.
 test
 .
 espresso
@@ -1148,7 +1156,7 @@ onView
 (
 withId
 (
-R
+preferenceR
 .
 id
 .

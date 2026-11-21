@@ -87,6 +87,14 @@ ComposeTestRule
 import
 androidx
 .
+preference
+.
+R
+as
+preferenceR
+import
+androidx
+.
 recyclerview
 .
 widget
@@ -1025,7 +1033,7 @@ onView
 (
 withId
 (
-R
+preferenceR
 .
 id
 .
@@ -3248,7 +3256,7 @@ onView
 (
 withId
 (
-R
+preferenceR
 .
 id
 .
