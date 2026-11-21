@@ -1724,6 +1724,14 @@ wt
 .
 ready
 ;
+wt
+.
+datagrams
+.
+outgoingMaxAge
+=
+Infinity
+;
 const
 numDatagrams
 =
