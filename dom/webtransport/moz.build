@@ -94,11 +94,3 @@ shared
 test
 "
 ]
-TEST_DIRS
-+
-=
-[
-"
-gtest
-"
-]
