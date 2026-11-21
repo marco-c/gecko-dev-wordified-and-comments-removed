@@ -220,6 +220,13 @@ python
 .
 toml
 "
+"
+pgo
+/
+python
+.
+toml
+"
 ]
 PYTHON_UNITTEST_MANIFESTS
 +
