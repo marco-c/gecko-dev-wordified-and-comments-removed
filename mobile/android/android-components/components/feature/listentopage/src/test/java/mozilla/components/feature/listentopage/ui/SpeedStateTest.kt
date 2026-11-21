@@ -93,7 +93,7 @@ feature
 .
 listentopage
 .
-PlaybackSpeed
+R
 import
 mozilla
 .
@@ -103,7 +103,9 @@ feature
 .
 listentopage
 .
-R
+playback
+.
+PlaybackSpeed
 import
 org
 .

@@ -82,16 +82,6 @@ feature
 listentopage
 .
 ArticleProgress
-import
-mozilla
-.
-components
-.
-feature
-.
-listentopage
-.
-PlaybackSpeed
 /
 *
 *

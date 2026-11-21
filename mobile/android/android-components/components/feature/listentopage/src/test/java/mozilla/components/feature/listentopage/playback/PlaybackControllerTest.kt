@@ -87,16 +87,6 @@ mozilla
 .
 components
 .
-feature
-.
-listentopage
-.
-PlaybackPhase
-import
-mozilla
-.
-components
-.
 support
 .
 test

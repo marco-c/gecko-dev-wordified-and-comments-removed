@@ -233,16 +233,6 @@ mozilla
 .
 components
 .
-feature
-.
-listentopage
-.
-PlaybackSpeed
-import
-mozilla
-.
-components
-.
 support
 .
 test

@@ -167,7 +167,9 @@ feature
 .
 listentopage
 .
-Voice
+playback
+.
+DirectoryAudioFileCache
 import
 mozilla
 .
@@ -177,9 +179,9 @@ feature
 .
 listentopage
 .
-playback
+voices
 .
-DirectoryAudioFileCache
+Voice
 import
 mozilla
 .

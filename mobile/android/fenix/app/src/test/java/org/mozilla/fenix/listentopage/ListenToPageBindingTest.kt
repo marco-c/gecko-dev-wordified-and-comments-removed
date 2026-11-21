@@ -169,7 +169,7 @@ feature
 .
 listentopage
 .
-PlaybackPhase
+PlaybackState
 import
 mozilla
 .
@@ -179,7 +179,9 @@ feature
 .
 listentopage
 .
-PlaybackState
+playback
+.
+PlaybackPhase
 import
 mozilla
 .

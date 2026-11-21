@@ -137,7 +137,9 @@ feature
 .
 listentopage
 .
-PlaybackPhase
+facts
+.
+ListenToPageFacts
 import
 mozilla
 .
@@ -147,9 +149,9 @@ feature
 .
 listentopage
 .
-facts
+playback
 .
-ListenToPageFacts
+PlaybackPhase
 import
 mozilla
 .

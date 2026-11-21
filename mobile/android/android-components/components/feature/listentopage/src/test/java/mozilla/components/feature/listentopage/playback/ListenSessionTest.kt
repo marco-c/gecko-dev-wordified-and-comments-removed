@@ -101,16 +101,6 @@ feature
 .
 listentopage
 .
-PlaybackPhase
-import
-mozilla
-.
-components
-.
-feature
-.
-listentopage
-.
 playback
 .
 ListenSessionHarness

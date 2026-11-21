@@ -64,6 +64,8 @@ components
 feature
 .
 listentopage
+.
+playback
 import
 org
 .
