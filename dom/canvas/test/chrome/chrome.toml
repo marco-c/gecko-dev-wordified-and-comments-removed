@@ -95,6 +95,13 @@ Bug
 ]
 [
 "
+test_imagedata_structuredclone_compat
+.
+html
+"
+]
+[
+"
 test_printToPDF
 .
 html
