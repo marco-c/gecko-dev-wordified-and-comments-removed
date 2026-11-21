@@ -3119,15 +3119,6 @@ Memtest
 :
 spawn
 (
-self
-.
-config
-.
-memtest_kinds
-.
-clone
-(
-)
 )
 ;
 }
