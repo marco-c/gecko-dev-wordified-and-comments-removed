@@ -131,6 +131,16 @@ RemoveSleepWakeNotifications
 (
 )
 ;
+void
+RegisterScreenLockNotifications
+(
+)
+;
+void
+UnregisterScreenLockNotifications
+(
+)
+;
 protected
 :
 static
@@ -143,6 +153,9 @@ mSleepWakeNotificationRLS
 ;
 io_object_t
 mPowerNotifier
+;
+id
+mScreenLockObserver
 ;
 id
 mAllProcessMouseMonitor
