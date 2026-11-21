@@ -660,7 +660,7 @@ override
 void
 SetSendGroup
 (
-Http3WebTransportStream
+Http3StreamBase
 *
 aStream
 uint64_t

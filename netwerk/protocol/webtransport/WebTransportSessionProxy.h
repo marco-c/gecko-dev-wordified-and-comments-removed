@@ -648,16 +648,6 @@ mMutex
 =
 0
 ;
-nsTArray
-<
-uint64_t
->
-mPendingSendGroups
-MOZ_GUARDED_BY
-(
-mMutex
-)
-;
 bool
 mHasCachedStats
 MOZ_GUARDED_BY

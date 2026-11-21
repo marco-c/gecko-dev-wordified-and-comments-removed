@@ -19908,7 +19908,7 @@ Http3Session
 :
 SetSendGroup
 (
-Http3WebTransportStream
+Http3StreamBase
 *
 aStream
 uint64_t
@@ -19931,12 +19931,6 @@ mHttp3Connection
 >
 WebTransportSetSendGroup
 (
-aStream
--
->
-SessionId
-(
-)
 aStream
 -
 >
