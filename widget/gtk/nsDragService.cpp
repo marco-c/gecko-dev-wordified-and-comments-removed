@@ -5421,15 +5421,6 @@ DispatchMotionEvents
 if
 (
 mSourceWindow
-&
-&
-mSourceWindow
-=
-=
-mRecentTask
--
->
-mWindow
 )
 {
 FireDragEventAtSource
@@ -5438,10 +5429,6 @@ eDrag
 GetCurrentModifiers
 (
 )
-mRecentTask
--
->
-mWindowPoint
 )
 ;
 }
