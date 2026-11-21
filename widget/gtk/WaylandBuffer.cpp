@@ -483,7 +483,7 @@ CanRecycle
 (
 aSurfaceLock
 .
-GetWaylandSurface
+GetSurface
 (
 )
 )
@@ -635,7 +635,7 @@ Length
 mExternalWlBuffer
 aSurfaceLock
 .
-GetWaylandSurface
+GetSurface
 (
 )
 )
@@ -1802,7 +1802,7 @@ p
 this
 aSurfaceLock
 .
-GetWaylandSurface
+GetSurface
 (
 )
 -
@@ -1812,7 +1812,7 @@ GetLoggingWidget
 )
 aSurfaceLock
 .
-GetWaylandSurface
+GetSurface
 (
 )
 mBuffer
@@ -1833,7 +1833,7 @@ mSurface
 =
 aSurfaceLock
 .
-GetWaylandSurface
+GetSurface
 (
 )
 "
@@ -1863,7 +1863,7 @@ mSurface
 =
 aSurfaceLock
 .
-GetWaylandSurface
+GetSurface
 (
 )
 ;

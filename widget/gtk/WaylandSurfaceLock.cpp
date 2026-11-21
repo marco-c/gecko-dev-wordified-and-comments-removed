@@ -209,7 +209,7 @@ WaylandSurface
 WaylandSurfaceLock
 :
 :
-GetWaylandSurface
+GetSurface
 (
 )
 const

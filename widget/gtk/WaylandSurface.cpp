@@ -2297,7 +2297,7 @@ mParent
 aParentWaylandSurfaceLock
 -
 >
-GetWaylandSurface
+GetSurface
 (
 )
 ;
@@ -7558,7 +7558,7 @@ p
 "
 aLowerSurfaceLock
 .
-GetWaylandSurface
+GetSurface
 (
 )
 )
@@ -7583,7 +7583,7 @@ lowerSurface
 =
 aLowerSurfaceLock
 .
-GetWaylandSurface
+GetSurface
 (
 )
 ;

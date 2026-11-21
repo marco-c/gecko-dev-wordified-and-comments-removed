@@ -60,7 +60,7 @@ WaylandSurfaceLock
 ;
 WaylandSurface
 *
-GetWaylandSurface
+GetSurface
 (
 )
 const
@@ -83,6 +83,17 @@ endif
 #
 ifdef
 MOZ_WAYLAND
+wl_surface
+*
+GetWaylandSurface
+(
+)
+const
+{
+return
+mSurface
+;
+}
 void
 Commit
 (
