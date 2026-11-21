@@ -3810,7 +3810,7 @@ IsSingleLineTextControl
 ;
 ShadowRoot
 *
-CreateShadowTreeBeforeLayoutIfNeeded
+CreateShadowTreeFromLayoutIfNeeded
 (
 )
 ;
