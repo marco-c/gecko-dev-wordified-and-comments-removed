@@ -115,6 +115,9 @@ install_requires
 =
 [
 "
+pyyaml
+"
+"
 requests
 "
 ]
