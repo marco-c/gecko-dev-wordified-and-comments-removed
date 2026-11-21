@@ -953,12 +953,6 @@ false
 }
 lint
 {
-abortOnError
-=
-false
-warningsAsErrors
-=
-true
 lintConfig
 =
 file
