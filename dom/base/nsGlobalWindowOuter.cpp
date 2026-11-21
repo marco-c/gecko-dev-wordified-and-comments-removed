@@ -22186,7 +22186,8 @@ CallerType
 aCallerType
 bool
 aFromOtherProcess
-uint64_t
+LazyFocusActionId
+&
 aActionId
 )
 {
@@ -22403,6 +22404,12 @@ content
 )
 )
 {
+aActionId
+.
+Get
+(
+)
+;
 fm
 -
 >
@@ -22506,6 +22513,10 @@ WindowRaised
 (
 kungFuDeathGrip
 aActionId
+.
+Get
+(
+)
 )
 ;
 }
