@@ -1089,6 +1089,16 @@ OutgoingDatagram
 >
 mPendingOutgoing
 ;
+size_t
+mPendingOutgoingBytes
+=
+0
+;
+bool
+mOutgoingFlushPending
+=
+false
+;
 OutgoingDatagramCredit
 mCredit
 ;
