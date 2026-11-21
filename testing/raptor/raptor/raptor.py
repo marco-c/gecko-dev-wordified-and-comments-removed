@@ -70,6 +70,12 @@ mozlog
 import
 commandline
 from
+mozperfcommon
+.
+detect
+import
+XtremeRegressionError
+from
 mozprofile
 .
 cli
@@ -305,6 +311,7 @@ LOG
 .
 critical
 (
+            
 f
 "
 test
@@ -325,7 +332,28 @@ args
 .
 app
 }
+.
 "
+            
+"
+For
+a
+list
+of
+tests
+run
+:
+.
+/
+mach
+raptor
+-
+-
+print
+-
+tests
+"
+        
 )
         
 sys
@@ -742,6 +770,10 @@ simpleperf
 args
 .
 simpleperf
+            
+test_names
+=
+raptor_test_names
         
 )
     
@@ -805,7 +837,6 @@ raptor
 run_tests
 (
 raptor_test_list
-raptor_test_names
 )
     
 if
@@ -1053,6 +1084,37 @@ results_handler
 archive_raptor_artifacts
 (
 is_profiling_job
+)
+    
+if
+raptor
+.
+results_handler
+.
+xtreme_regressions
+:
+        
+LOG
+.
+critical
+(
+XtremeRegressionError
+(
+raptor
+.
+results_handler
+.
+xtreme_regressions
+)
+)
+        
+os
+.
+sys
+.
+exit
+(
+1
 )
     
 profiling
