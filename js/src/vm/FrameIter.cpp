@@ -1133,6 +1133,16 @@ shadowStackPointer
 (
 )
 ;
+MOZ_ASSERT
+(
+!
+wasmFrame
+.
+shadowStackSwitchPointer
+(
+)
+)
+;
 iter_
 .
 destroy
