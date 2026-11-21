@@ -589,7 +589,7 @@ bool
 WebTransportDatagramsWritable
 :
 :
-TryResolveBackpressureFromCredit
+TryResolveOldestFromCredit
 (
 uint64_t
 aAvailableBytes
@@ -605,7 +605,7 @@ mAlgorithms
 mAlgorithms
 -
 >
-TryResolveBackpressureFromCredit
+TryResolveOldestFromCredit
 (
 aAvailableBytes
 aResolvedBytes
