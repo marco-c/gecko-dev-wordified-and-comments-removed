@@ -150,6 +150,12 @@ interactive
 =
 not
 no_interactive
+and
+command_context
+.
+_mach_context
+.
+is_interactive
     
 if
 ide
