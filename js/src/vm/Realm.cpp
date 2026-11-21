@@ -1472,6 +1472,12 @@ finishRoots
 (
 )
 ;
+jitRealm_
+.
+finishRoots
+(
+)
+;
 }
 void
 ObjectRealm
