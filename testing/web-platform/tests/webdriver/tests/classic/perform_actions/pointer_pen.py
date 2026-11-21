@@ -160,10 +160,6 @@ close
 "
 >
 close
-<
-/
-input
->
 "
 "
 "

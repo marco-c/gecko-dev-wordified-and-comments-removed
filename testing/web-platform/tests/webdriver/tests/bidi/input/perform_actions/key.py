@@ -140,10 +140,6 @@ close
 "
 >
 close
-<
-/
-input
->
         
 <
 script

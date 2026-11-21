@@ -98,10 +98,6 @@ close
 "
 >
 close
-<
-/
-input
->
 "
 "
 "

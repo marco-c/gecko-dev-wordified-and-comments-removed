@@ -148,10 +148,6 @@ close
 "
 >
 close
-<
-/
-input
->
         
 <
 script

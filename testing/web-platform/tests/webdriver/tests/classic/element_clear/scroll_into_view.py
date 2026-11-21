@@ -124,10 +124,6 @@ value
 foo
 "
 >
-<
-/
-input
->
         
 <
 /

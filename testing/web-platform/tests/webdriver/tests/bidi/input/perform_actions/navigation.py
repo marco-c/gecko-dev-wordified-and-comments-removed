@@ -32,10 +32,6 @@ PAGE_CONTENT
 <
 input
 >
-<
-/
-input
->
     
 <
 script

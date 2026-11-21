@@ -118,10 +118,6 @@ value
 foo
 "
 >
-<
-/
-input
->
         
 <
 div
@@ -156,10 +152,6 @@ value
 "
 foo
 "
->
-<
-/
-input
 >
         
 <

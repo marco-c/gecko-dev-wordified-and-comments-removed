@@ -157,10 +157,6 @@ close
 "
 >
 close
-<
-/
-input
->
 "
 "
 "

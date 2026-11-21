@@ -423,10 +423,6 @@ close
 "
 >
 close
-<
-/
-input
->
 "
 "
 "
