@@ -2592,6 +2592,8 @@ width
 DESC
 root
 ASC
+id
+DESC
 "
 nsIFaviconService
 :
