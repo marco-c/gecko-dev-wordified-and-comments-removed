@@ -1853,6 +1853,8 @@ type
 b
 -
 win2025
+-
+gpu
 worker
 :
 chain
@@ -2000,6 +2002,8 @@ type
 b
 -
 win2025
+-
+gpu
 worker
 :
 chain
@@ -2308,6 +2312,8 @@ type
 b
 -
 win2025
+-
+gpu
 worker
 :
 chain

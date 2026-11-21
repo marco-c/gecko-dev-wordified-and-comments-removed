@@ -6740,6 +6740,9 @@ win2025
 |
 -
 xxlarge
+|
+-
+gpu
 )
 :
 provisioner
