@@ -176,6 +176,14 @@ nullptr
 =
 0
 ;
+virtual
+void
+NotifyHistoryCleared
+(
+)
+=
+0
+;
 enum
 VisitFlags
 {

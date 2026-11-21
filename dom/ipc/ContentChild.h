@@ -1544,6 +1544,17 @@ ipc
 :
 :
 IPCResult
+RecvNotifyGlobalHistoryCleared
+(
+)
+;
+mozilla
+:
+:
+ipc
+:
+:
+IPCResult
 RecvThemeChanged
 (
 FullLookAndFeel

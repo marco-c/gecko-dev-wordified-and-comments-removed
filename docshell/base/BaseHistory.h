@@ -93,6 +93,12 @@ nullptr
 )
 final
 ;
+void
+NotifyHistoryCleared
+(
+)
+final
+;
 static
 bool
 CanStore
