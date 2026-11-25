@@ -20032,9 +20032,13 @@ new
 MatchPattern
 (
 "
-<
-all_urls
->
+*
+:
+/
+/
+*
+/
+*
 "
 )
 ]
