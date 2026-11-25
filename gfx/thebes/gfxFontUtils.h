@@ -103,17 +103,6 @@ StyleFontWeight
 ;
 }
 #
-ifdef
-__MINGW32__
-#
-undef
-min
-#
-undef
-max
-#
-endif
-#
 undef
 ERROR
 /
