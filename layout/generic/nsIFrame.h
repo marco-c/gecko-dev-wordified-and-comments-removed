@@ -8634,7 +8634,6 @@ ComputeTightBounds
 (
 DrawTarget
 *
-aDrawTarget
 )
 const
 ;
