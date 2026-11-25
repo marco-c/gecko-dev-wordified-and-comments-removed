@@ -371,10 +371,6 @@ gc
 (
 gc
 )
-phaseKind
-(
-phaseKind
-)
 lock
 (
 lock
@@ -550,12 +546,6 @@ private
 GCRuntime
 *
 gc
-;
-gcstats
-:
-:
-PhaseKind
-phaseKind
 ;
 AutoLockHelperThreadState
 &
