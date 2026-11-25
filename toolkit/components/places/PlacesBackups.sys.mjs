@@ -3470,6 +3470,9 @@ rootGuid
 includeItemIds
 :
 true
+includeIcons
+:
+true
 }
 )
 ;
