@@ -53,6 +53,8 @@ bzip2
 \
 curl
 \
+libatomic1
+\
 libbz2
 -
 dev
