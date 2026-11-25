@@ -313,6 +313,13 @@ js
 ]
 [
 "
+browser_searchModeSwitcher_addEngineBadge
+.
+js
+"
+]
+[
+"
 browser_searchModeSwitcher_appProvidedEngines
 .
 js
