@@ -8,9 +8,6 @@ h
 #
 include
 "
-.
-.
-/
 common
 /
 dictionary
@@ -20,9 +17,6 @@ h
 #
 include
 "
-.
-.
-/
 common
 /
 platform
@@ -32,9 +26,6 @@ h
 #
 include
 "
-.
-.
-/
 common
 /
 transform

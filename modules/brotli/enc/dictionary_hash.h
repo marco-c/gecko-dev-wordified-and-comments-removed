@@ -7,9 +7,6 @@ BROTLI_ENC_DICTIONARY_HASH_H_
 #
 include
 "
-.
-.
-/
 common
 /
 platform
@@ -19,9 +16,6 @@ h
 #
 include
 "
-.
-.
-/
 common
 /
 static_init
@@ -39,9 +33,6 @@ BROTLI_STATIC_INIT_NONE
 #
 include
 "
-.
-.
-/
 common
 /
 dictionary

@@ -7,9 +7,6 @@ BROTLI_ENC_BROTLI_BIT_STREAM_H_
 #
 include
 "
-.
-.
-/
 common
 /
 context
@@ -19,9 +16,6 @@ h
 #
 include
 "
-.
-.
-/
 common
 /
 platform

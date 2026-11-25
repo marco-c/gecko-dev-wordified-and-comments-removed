@@ -7,9 +7,6 @@ BROTLI_ENC_MEMORY_H_
 #
 include
 "
-.
-.
-/
 common
 /
 platform

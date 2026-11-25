@@ -8,9 +8,6 @@ h
 #
 include
 "
-.
-.
-/
 common
 /
 platform
@@ -20,9 +17,6 @@ h
 #
 include
 "
-.
-.
-/
 common
 /
 static_init
@@ -40,9 +34,6 @@ BROTLI_STATIC_INIT_NONE
 #
 include
 "
-.
-.
-/
 common
 /
 dictionary

@@ -7,9 +7,6 @@ BROTLI_ENC_WRITE_BITS_H_
 #
 include
 "
-.
-.
-/
 common
 /
 platform

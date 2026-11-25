@@ -8,9 +8,6 @@ h
 #
 include
 "
-.
-.
-/
 common
 /
 platform

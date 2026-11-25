@@ -7,9 +7,6 @@ BROTLI_ENC_STATIC_DICT_H_
 #
 include
 "
-.
-.
-/
 common
 /
 platform

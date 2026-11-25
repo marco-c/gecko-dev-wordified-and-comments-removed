@@ -7,9 +7,6 @@ BROTLI_DEC_HUFFMAN_H_
 #
 include
 "
-.
-.
-/
 common
 /
 platform

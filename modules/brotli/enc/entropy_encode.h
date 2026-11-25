@@ -7,9 +7,6 @@ BROTLI_ENC_ENTROPY_ENCODE_H_
 #
 include
 "
-.
-.
-/
 common
 /
 platform

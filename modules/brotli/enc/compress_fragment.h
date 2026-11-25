@@ -7,9 +7,6 @@ BROTLI_ENC_COMPRESS_FRAGMENT_H_
 #
 include
 "
-.
-.
-/
 common
 /
 constants
@@ -19,9 +16,6 @@ h
 #
 include
 "
-.
-.
-/
 common
 /
 platform

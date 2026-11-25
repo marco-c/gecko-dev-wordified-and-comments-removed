@@ -8,9 +8,6 @@ h
 #
 include
 "
-.
-.
-/
 common
 /
 constants
@@ -20,9 +17,6 @@ h
 #
 include
 "
-.
-.
-/
 common
 /
 platform

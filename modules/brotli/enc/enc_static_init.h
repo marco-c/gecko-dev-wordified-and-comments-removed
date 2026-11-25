@@ -7,9 +7,6 @@ THIRD_PARTY_BROTLI_ENC_STATIC_INIT_H_
 #
 include
 "
-.
-.
-/
 common
 /
 platform
@@ -19,9 +16,6 @@ h
 #
 include
 "
-.
-.
-/
 common
 /
 static_init

@@ -240,6 +240,8 @@ h
 #
 include
 "
+dec
+/
 state
 .
 h

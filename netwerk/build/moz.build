@@ -232,14 +232,6 @@ netwerk
 /
 dns
 "
-"
-/
-modules
-/
-brotli
-/
-dec
-"
 ]
 SOURCE_HEADERS
 +

@@ -7,9 +7,6 @@ THIRD_PARTY_BROTLI_ENC_MATCHING_TAG_MASK_H_
 #
 include
 "
-.
-.
-/
 common
 /
 platform

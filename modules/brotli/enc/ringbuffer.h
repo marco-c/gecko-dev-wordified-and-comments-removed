@@ -7,9 +7,6 @@ BROTLI_ENC_RINGBUFFER_H_
 #
 include
 "
-.
-.
-/
 common
 /
 platform

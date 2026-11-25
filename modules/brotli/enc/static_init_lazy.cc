@@ -1,9 +1,6 @@
 #
 include
 "
-.
-.
-/
 common
 /
 platform
@@ -13,9 +10,6 @@ h
 #
 include
 "
-.
-.
-/
 common
 /
 static_init
@@ -25,7 +19,7 @@ h
 #
 include
 "
-static_init
+enc_static_init
 .
 h
 "

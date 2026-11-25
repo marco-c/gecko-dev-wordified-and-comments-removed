@@ -7,9 +7,6 @@ BROTLI_ENC_PREPARED_DICTIONARY_H_
 #
 include
 "
-.
-.
-/
 common
 /
 platform

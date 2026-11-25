@@ -7,9 +7,6 @@ BROTLI_ENC_BIT_COST_H_
 #
 include
 "
-.
-.
-/
 common
 /
 platform

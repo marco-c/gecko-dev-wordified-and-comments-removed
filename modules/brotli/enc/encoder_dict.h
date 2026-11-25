@@ -7,9 +7,6 @@ BROTLI_ENC_ENCODER_DICT_H_
 #
 include
 "
-.
-.
-/
 common
 /
 dictionary
@@ -28,9 +25,6 @@ h
 #
 include
 "
-.
-.
-/
 common
 /
 platform

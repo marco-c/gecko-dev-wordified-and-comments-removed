@@ -8,9 +8,6 @@ h
 #
 include
 "
-.
-.
-/
 common
 /
 dictionary
@@ -20,9 +17,6 @@ h
 #
 include
 "
-.
-.
-/
 common
 /
 platform
@@ -41,9 +35,6 @@ h
 #
 include
 "
-.
-.
-/
 common
 /
 shared_dictionary_internal
@@ -53,9 +44,6 @@ h
 #
 include
 "
-.
-.
-/
 common
 /
 transform

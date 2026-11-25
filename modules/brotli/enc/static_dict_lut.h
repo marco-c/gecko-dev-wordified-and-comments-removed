@@ -7,9 +7,6 @@ BROTLI_ENC_STATIC_DICT_LUT_H_
 #
 include
 "
-.
-.
-/
 common
 /
 dictionary
@@ -19,9 +16,6 @@ h
 #
 include
 "
-.
-.
-/
 common
 /
 platform
@@ -31,9 +25,6 @@ h
 #
 include
 "
-.
-.
-/
 common
 /
 static_init
