@@ -3691,7 +3691,7 @@ task_duplicates
 "
 ]
 =
-12
+6
         
 yield
 task
