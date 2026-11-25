@@ -78,6 +78,11 @@ TestAPZBridge
 cpp
 "
 "
+TestAPZEventState
+.
+cpp
+"
+"
 TestAxisLock
 .
 cpp
@@ -243,6 +248,14 @@ layers
 apz
 /
 src
+"
+"
+/
+gfx
+/
+tests
+/
+gtest
 "
 ]
 FINAL_LIBRARY
