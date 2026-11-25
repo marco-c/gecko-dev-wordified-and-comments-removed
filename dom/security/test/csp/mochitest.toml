@@ -2828,6 +2828,13 @@ html
 ]
 [
 "
+test_meta_report_only_console
+.
+html
+"
+]
+[
+"
 test_meta_whitespace_skipping
 .
 html
