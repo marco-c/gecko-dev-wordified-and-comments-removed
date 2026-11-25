@@ -1126,6 +1126,8 @@ prefer
 chrome
 |
 firefox
+|
+servoshell
 )
 "
 "
