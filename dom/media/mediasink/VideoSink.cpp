@@ -3628,6 +3628,11 @@ CompleteRequest
 ;
 }
 ;
+auto
+rejectEndPromise
+=
+resolveEndPromise
+;
 mUpdateScheduler
 .
 Ensure
@@ -3645,7 +3650,7 @@ std
 :
 move
 (
-resolveEndPromise
+rejectEndPromise
 )
 )
 ;
