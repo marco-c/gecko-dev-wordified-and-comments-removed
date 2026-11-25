@@ -2133,6 +2133,11 @@ Group
 .
 MORE_MAIN_MENU_SUB_LIST
 )
+scrollDirection
+=
+SwipeDirection
+.
+UP
 )
 val
 REMOVE_FROM_SHORTCUTS_BUTTON
