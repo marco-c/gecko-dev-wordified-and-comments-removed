@@ -200,6 +200,8 @@ packet
 -
 >
 length
+(
+)
 +
 kPacketHeaderSize
 )
@@ -259,7 +261,11 @@ fwrite
 packet
 -
 >
+buffer
+.
 data
+(
+)
 sizeof
 (
 uint8_t
@@ -268,6 +274,8 @@ packet
 -
 >
 length
+(
+)
 file_
 )
 =
@@ -276,6 +284,8 @@ packet
 -
 >
 length
+(
+)
 ;
 }
 private

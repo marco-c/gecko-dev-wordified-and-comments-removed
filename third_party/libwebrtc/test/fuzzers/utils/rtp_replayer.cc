@@ -1216,10 +1216,7 @@ Parse
 (
 packet
 .
-data
-packet
-.
-length
+buffer
 )
 )
 {
