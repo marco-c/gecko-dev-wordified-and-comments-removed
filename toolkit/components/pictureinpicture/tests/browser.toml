@@ -568,6 +568,13 @@ js
 ]
 [
 "
+browser_closePip_emptiedWhileHidden
+.
+js
+"
+]
+[
+"
 browser_closePip_emptySrc
 .
 js
