@@ -36,6 +36,9 @@ class
 ThreadSafeWorkerRef
 ;
 class
+WorkerFontVisibilityProvider
+;
+class
 WorkerPrivate
 ;
 class
@@ -233,6 +236,16 @@ Maybe
 ClientInfo
 >
 mClientInfo
+MOZ_GUARDED_BY
+(
+mMutex
+)
+;
+RefPtr
+<
+WorkerFontVisibilityProvider
+>
+mFontVisibilityProvider
 MOZ_GUARDED_BY
 (
 mMutex
