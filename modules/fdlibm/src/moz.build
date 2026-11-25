@@ -130,6 +130,12 @@ dangling
 -
 else
 '
+'
+-
+Wno
+-
+unsequenced
+'
 ]
 if
 CONFIG
@@ -157,6 +163,12 @@ Wno
 sign
 -
 compare
+'
+'
+-
+Wno
+-
+unsequenced
 '
 '
 -
