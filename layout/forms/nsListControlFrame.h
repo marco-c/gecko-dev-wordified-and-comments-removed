@@ -236,6 +236,16 @@ final
 ;
 #
 endif
+void
+GetOptionText
+(
+uint32_t
+aIndex
+nsAString
+&
+aStr
+)
+;
 nscoord
 GetBSizeOfARow
 (
