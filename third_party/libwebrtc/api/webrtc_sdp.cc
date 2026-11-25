@@ -6320,13 +6320,7 @@ params
 .
 find
 (
-std
-:
-:
-string
-(
 name
-)
 )
 ;
 if
