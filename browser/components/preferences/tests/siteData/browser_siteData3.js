@@ -730,6 +730,8 @@ testData
 usage
 :
 1024
+*
+100
 origin
 :
 "
@@ -755,7 +757,7 @@ usage
 :
 1024
 *
-2
+200
 origin
 :
 "
@@ -781,7 +783,7 @@ usage
 :
 1024
 *
-3
+300
 origin
 :
 "
@@ -807,7 +809,7 @@ usage
 :
 1024
 *
-3
+300
 origin
 :
 "
