@@ -4420,16 +4420,13 @@ ocmock
 "
 ]
 }
-rtc_test
+rtc_xctest
 (
 "
 apprtcmobile_tests
 "
 )
 {
-is_xctest
-=
-true
 info_plist
 =
 "

@@ -2595,17 +2595,14 @@ iOS
 XCTest
 bundles
 .
-rtc_test
+rtc_xctest
 (
 )
 adds
 this
-to
-is_xctest
-#
-targets
 instead
 of
+#
 test
 :
 test_main
@@ -2617,7 +2614,6 @@ main
 would
 collide
 with
-#
 this
 one
 .
