@@ -265,7 +265,7 @@ compose
 .
 material3
 .
-ExperimentalMaterial3Api
+ExposedDropdownMenu
 import
 androidx
 .
@@ -1158,13 +1158,6 @@ bounds
 .
 *
 /
-OptIn
-(
-ExperimentalMaterial3Api
-:
-:
-class
-)
 Composable
 fun
 ExposedDropdownMenuBoxScope

@@ -1281,13 +1281,6 @@ Suppress
 LongParameterList
 "
 )
-OptIn
-(
-ExperimentalMaterial3Api
-:
-:
-class
-)
 Composable
 private
 fun
@@ -1596,13 +1589,6 @@ true
 }
 }
 }
-OptIn
-(
-ExperimentalMaterial3Api
-:
-:
-class
-)
 FlexibleWindowLightDarkPreview
 Composable
 private
