@@ -5502,12 +5502,9 @@ LayersId
 &
 aEmbedderId
 const
-base
-:
-:
-ProcessId
+GeckoChildID
 &
-aOwnerPid
+aOwnerChildID
 CompositorOptions
 *
 aOptions
@@ -5531,7 +5528,7 @@ Get
 Map
 (
 aChild
-aOwnerPid
+aOwnerChildID
 )
 ;
 LayersId

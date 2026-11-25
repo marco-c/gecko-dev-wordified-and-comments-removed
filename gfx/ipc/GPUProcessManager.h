@@ -562,10 +562,7 @@ UnmapLayerTreeId
 (
 LayersId
 aLayersId
-base
-:
-:
-ProcessId
+GeckoChildID
 aOwningId
 )
 ;
@@ -574,10 +571,7 @@ IsLayerTreeIdMapped
 (
 LayersId
 aLayersId
-base
-:
-:
-ProcessId
+GeckoChildID
 aRequestingId
 )
 ;
@@ -597,11 +591,8 @@ AllocateAndConnectLayerTreeId
 PCompositorBridgeChild
 *
 aCompositorBridge
-base
-:
-:
-ProcessId
-aOtherPid
+GeckoChildID
+aOtherChildID
 LayersId
 aEmbedderLayersId
 LayersId

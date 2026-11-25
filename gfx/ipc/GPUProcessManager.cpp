@@ -8465,10 +8465,7 @@ UnmapLayerTreeId
 (
 LayersId
 aLayersId
-base
-:
-:
-ProcessId
+GeckoChildID
 aOwningId
 )
 {
@@ -8538,10 +8535,7 @@ IsLayerTreeIdMapped
 (
 LayersId
 aLayersId
-base
-:
-:
-ProcessId
+GeckoChildID
 aRequestingId
 )
 {
@@ -8665,11 +8659,8 @@ AllocateAndConnectLayerTreeId
 PCompositorBridgeChild
 *
 aCompositorBridge
-base
-:
-:
-ProcessId
-aOtherPid
+GeckoChildID
+aOtherChildID
 LayersId
 aEmbedderLayersId
 LayersId
@@ -8708,7 +8699,7 @@ tree
 x
 }
 for
-pid
+child
 {
 }
 embedder
@@ -8720,7 +8711,7 @@ x
 }
 "
 layersId
-aOtherPid
+aOtherChildID
 aEmbedderLayersId
 aCompositorBridge
 ?
@@ -8746,7 +8737,7 @@ Get
 Map
 (
 layersId
-aOtherPid
+aOtherChildID
 )
 ;
 if
@@ -8784,7 +8775,7 @@ SendMapAndNotifyChildCreated
 (
 layersId
 aEmbedderLayersId
-aOtherPid
+aOtherChildID
 aOutCompositorOptions
 )
 ;
@@ -8814,7 +8805,7 @@ SendAddLayerTreeIdMapping
 LayerTreeIdMapping
 (
 layersId
-aOtherPid
+aOtherChildID
 )
 )
 ;

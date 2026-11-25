@@ -434,15 +434,12 @@ h
 "
 ;
 using
-base
-:
-:
-ProcessId
+GeckoChildID
 from
 "
-base
+mozilla
 /
-process
+ProcessType
 .
 h
 "
@@ -1241,7 +1238,7 @@ LayersId
 id
 LayersId
 embedderId
-ProcessId
+GeckoChildID
 owner
 )
 returns
