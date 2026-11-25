@@ -1897,10 +1897,11 @@ c_str
 video_stream
 .
 max_framerate
-(
-unsigned
-)
 mMaxFramerateForAllStreams
+.
+load
+(
+)
 video_stream
 .
 min_bitrate_bps
