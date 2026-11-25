@@ -2897,6 +2897,11 @@ deps
 "
 system
 :
+ignore_warnings
+"
+"
+system
+:
 inline
 "
 ]
