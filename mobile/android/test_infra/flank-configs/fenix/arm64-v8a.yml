@@ -175,6 +175,17 @@ test
 targets
 :
 -
+notAnnotation
+org
+.
+mozilla
+.
+fenix
+.
+customannotations
+.
+Converted
+-
 notPackage
 org
 .
