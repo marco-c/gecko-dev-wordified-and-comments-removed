@@ -337,6 +337,15 @@ html
 "
 l10n_mutations
 /
+test_refresh_tick_flush
+.
+html
+"
+]
+[
+"
+l10n_mutations
+/
 test_remove_element
 .
 html
