@@ -8191,6 +8191,13 @@ pausable_state_test
 "
 peer_scenario
 /
+bwe_integration_tests
+:
+goog_cc_test
+"
+"
+peer_scenario
+/
 tests
 :
 peer_scenario_quality_test
