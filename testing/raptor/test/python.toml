@@ -15,6 +15,13 @@ py
 ]
 [
 "
+test_base_python_support
+.
+py
+"
+]
+[
+"
 test_benchmark
 .
 py
@@ -51,6 +58,13 @@ py
 [
 "
 test_manifest
+.
+py
+"
+]
+[
+"
+test_output
 .
 py
 "
