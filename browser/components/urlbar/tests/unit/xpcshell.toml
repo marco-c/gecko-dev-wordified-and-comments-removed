@@ -873,6 +873,13 @@ js
 ]
 [
 "
+test_providerPlaces_noConnection
+.
+js
+"
+]
+[
+"
 test_providerPlaces_nonEnglish
 .
 js
