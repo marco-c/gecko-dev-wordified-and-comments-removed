@@ -36583,6 +36583,12 @@ flushBuffer
 )
 {
 }
+void
+flushBufferIfDue
+(
+)
+{
+}
 static
 size_t
 PatchWrite_NearCallSize

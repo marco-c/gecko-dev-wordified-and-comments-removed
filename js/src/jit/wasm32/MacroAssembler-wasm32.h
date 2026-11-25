@@ -390,6 +390,16 @@ MOZ_CRASH
 ;
 }
 void
+flushBufferIfDue
+(
+)
+{
+MOZ_CRASH
+(
+)
+;
+}
+void
 bind
 (
 Label

@@ -454,6 +454,16 @@ MOZ_CRASH
 )
 ;
 }
+void
+flushBufferIfDue
+(
+)
+{
+MOZ_CRASH
+(
+)
+;
+}
 template
 <
 typename

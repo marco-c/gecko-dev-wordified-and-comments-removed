@@ -955,7 +955,7 @@ ret
 ;
 masm
 .
-flushBuffer
+flushBufferIfDue
 (
 )
 ;
