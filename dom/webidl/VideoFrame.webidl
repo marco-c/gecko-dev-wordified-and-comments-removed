@@ -663,6 +663,10 @@ format
 ;
 PredefinedColorSpace
 colorSpace
+=
+"
+srgb
+"
 ;
 }
 ;
