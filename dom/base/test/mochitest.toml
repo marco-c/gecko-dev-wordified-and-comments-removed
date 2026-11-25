@@ -2079,13 +2079,6 @@ html
 ]
 [
 "
-test_fluent_console_message
-.
-html
-"
-]
-[
-"
 test_focus_design_mode
 .
 html
