@@ -16121,9 +16121,6 @@ wasmMappedSize
 if
 (
 memory
-&
-&
-memory
 -
 >
 movingGrowable
