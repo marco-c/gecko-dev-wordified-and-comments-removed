@@ -51,7 +51,7 @@ public
 :
 static
 const
-float
+int32_t
 BIAS_TIME_MS
 ;
 explicit
@@ -306,11 +306,8 @@ const
 TimedImage
 *
 aImage
-base
-:
-:
-ProcessId
-aProcessId
+GeckoChildID
+aChildID
 const
 CompositableHandle
 &
