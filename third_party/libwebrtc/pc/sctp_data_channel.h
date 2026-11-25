@@ -811,6 +811,11 @@ PostOnTransportReady
 )
 ;
 void
+SetTransportReadyPending_n
+(
+)
+;
+void
 OnDataReceived
 (
 DataMessageType
@@ -1293,6 +1298,15 @@ kHandshakeInit
 ;
 bool
 started_closing_procedure_
+RTC_GUARDED_BY
+(
+network_thread_
+)
+=
+false
+;
+bool
+transport_ready_pending_
 RTC_GUARDED_BY
 (
 network_thread_
