@@ -12381,10 +12381,7 @@ aX
 aY
 )
 ;
-WidgetQueryContentEvent
-:
-:
-Options
+QueryContentOptions
 options
 ;
 options
