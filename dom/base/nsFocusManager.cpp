@@ -4913,6 +4913,9 @@ GetComposedDoc
 ;
 if
 (
+aElement
+&
+&
 document
 )
 {

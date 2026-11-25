@@ -2100,6 +2100,10 @@ if
 (
 !
 mEvent
+|
+|
+!
+mEvent
 -
 >
 AsGUIEvent
