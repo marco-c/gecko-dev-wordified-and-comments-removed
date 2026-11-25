@@ -282,6 +282,12 @@ name
 }
 )
 ;
+SimpleTest
+.
+finish
+(
+)
+;
 throw
 e
 ;
