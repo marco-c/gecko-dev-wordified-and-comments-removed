@@ -2337,9 +2337,6 @@ IsEditable
 {
 if
 (
-aChild
-&
-&
 EditorUtils
 :
 :
