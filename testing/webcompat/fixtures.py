@@ -151,6 +151,15 @@ webcompat
 .
 platform_override
 "
+EME_ENABLED_PREF
+=
+"
+media
+.
+eme
+.
+enabled
+"
 class
 WebDriver
 :
@@ -967,6 +976,13 @@ False
         
 prefs
 [
+EME_ENABLED_PREF
+]
+=
+False
+        
+prefs
+[
 SYSTEM_ADDON_UPDATES_PREF
 ]
 =
@@ -1084,6 +1100,17 @@ self
 .
 headless
 :
+                
+fx_options
+.
+setdefault
+(
+"
+args
+"
+[
+]
+)
                 
 fx_options
 [
