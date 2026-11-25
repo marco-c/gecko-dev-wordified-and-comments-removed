@@ -1305,6 +1305,8 @@ cancel
 tab
 -
 select
+-
+button
 "
 dialogWindow
 )
@@ -1408,6 +1410,8 @@ accept
 tab
 -
 select
+-
+button
 "
 )
 .
@@ -1440,6 +1444,8 @@ cancel
 tab
 -
 select
+-
+button
 "
 dialogWindow
 )
@@ -1553,6 +1559,8 @@ accept
 tab
 -
 select
+-
+button
 "
 dialogWindow
 )
@@ -1867,6 +1875,8 @@ cancel
 tab
 -
 select
+-
+button
 "
 dialogWindow
 )
@@ -1978,6 +1988,8 @@ cancel
 tab
 -
 select
+-
+button
 "
 dialogWindow
 )

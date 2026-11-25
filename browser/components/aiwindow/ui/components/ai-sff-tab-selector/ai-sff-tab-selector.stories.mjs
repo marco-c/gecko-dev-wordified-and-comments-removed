@@ -201,6 +201,8 @@ fill
 edit
 -
 sources
+-
+title
 =
 Edit
 sources
@@ -215,6 +217,8 @@ fill
 suggested
 -
 tabs
+-
+heading
 =
 Suggested
 tabs
@@ -229,6 +233,8 @@ fill
 other
 -
 tabs
+-
+heading
 =
 Other
 tabs
@@ -271,6 +277,8 @@ cancel
 tab
 -
 select
+-
+button
 =
 .
 label
@@ -289,6 +297,8 @@ accept
 tab
 -
 select
+-
+button
 =
 .
 label

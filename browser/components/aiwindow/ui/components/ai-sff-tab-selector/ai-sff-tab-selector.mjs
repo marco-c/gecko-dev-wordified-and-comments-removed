@@ -777,6 +777,8 @@ fill
 edit
 -
 sources
+-
+title
 "
 >
 <
@@ -808,6 +810,8 @@ fill
 suggested
 -
 tabs
+-
+heading
 "
 this
 .
@@ -842,6 +846,8 @@ fill
 other
 -
 tabs
+-
+heading
 "
 this
 .
@@ -892,6 +898,8 @@ cancel
 tab
 -
 select
+-
+button
 "
 size
 =
@@ -937,6 +945,8 @@ accept
 tab
 -
 select
+-
+button
 "
 type
 =

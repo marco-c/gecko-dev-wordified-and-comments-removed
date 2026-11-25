@@ -157,7 +157,7 @@ Localization
 (
 [
 "
-preview
+browser
 /
 aiWindow
 .
@@ -1200,6 +1200,8 @@ fill
 edit
 -
 sources
+-
+button
 "
 }
 ]

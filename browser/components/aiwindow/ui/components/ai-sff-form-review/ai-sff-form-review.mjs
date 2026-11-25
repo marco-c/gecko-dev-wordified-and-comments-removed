@@ -2491,6 +2491,10 @@ form
 fill
 -
 field
+-
+fallback
+-
+label
 "
 :
 undefined
@@ -2907,6 +2911,8 @@ fill
 cancel
 -
 review
+-
+button
 "
 click
 =
@@ -2970,6 +2976,8 @@ fill
 fill
 -
 form
+-
+button
 "
 click
 =
@@ -3883,6 +3891,8 @@ fill
 close
 -
 review
+-
+button
 "
 click
 =
@@ -3948,6 +3958,8 @@ fill
 try
 -
 again
+-
+button
 "
 click
 =
@@ -4031,6 +4043,8 @@ fill
 close
 -
 review
+-
+button
 "
 click
 =

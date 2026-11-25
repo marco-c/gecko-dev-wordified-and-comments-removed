@@ -514,6 +514,8 @@ accept
 tab
 -
 select
+-
+button
 "
 ]
 '
@@ -580,6 +582,8 @@ cancel
 tab
 -
 select
+-
+button
 "
 ]
 '

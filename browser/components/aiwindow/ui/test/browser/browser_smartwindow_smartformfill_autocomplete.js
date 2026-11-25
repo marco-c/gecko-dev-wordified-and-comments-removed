@@ -196,7 +196,7 @@ Localization
 (
 [
 "
-preview
+browser
 /
 aiWindow
 .
