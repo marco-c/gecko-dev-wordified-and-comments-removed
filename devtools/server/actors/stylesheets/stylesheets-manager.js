@@ -3676,6 +3676,13 @@ href
 "
 resource
 :
+href
+=
+=
+=
+"
+resource
+:
 (
 href
 =
