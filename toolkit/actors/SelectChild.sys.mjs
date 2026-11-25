@@ -2682,6 +2682,12 @@ index
 isOptGroup
 textContent
 :
+isOptGroup
+?
+item
+.
+label
+:
 item
 .
 renderedLabel

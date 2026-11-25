@@ -669,7 +669,7 @@ label
 =
 child
 .
-renderedLabel
+label
 ;
 item
 .
