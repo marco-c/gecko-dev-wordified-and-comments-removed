@@ -5095,7 +5095,7 @@ show
 -
 flight
 -
-status3
+status
 "
 "
 urlbar

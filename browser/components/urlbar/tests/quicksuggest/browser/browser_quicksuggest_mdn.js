@@ -763,6 +763,7 @@ doDismissTest
 "
 not_interested
 "
+true
 )
 ;
 Assert
@@ -842,6 +843,7 @@ doDismissTest
 "
 dismiss
 "
+false
 )
 ;
 Assert
@@ -935,6 +937,7 @@ function
 doDismissTest
 (
 command
+expectDismissalAcknowledgment
 )
 {
 const
@@ -1147,6 +1150,11 @@ dismissal
 "
 )
 ;
+if
+(
+expectDismissalAcknowledgment
+)
+{
 Assert
 .
 equal
@@ -1299,6 +1307,7 @@ gotItButton
 window
 )
 ;
+}
 Assert
 .
 ok
@@ -1314,13 +1323,10 @@ view
 should
 remain
 open
-clicking
-the
-'
-Got
-it
-'
-button
+after
+dismissal
+and
+acknowledgment
 "
 )
 ;
@@ -1346,12 +1352,9 @@ be
 one
 less
 after
-clicking
-'
-Got
-it
-'
-button
+dismissal
+and
+acknowledgment
 "
 )
 ;
