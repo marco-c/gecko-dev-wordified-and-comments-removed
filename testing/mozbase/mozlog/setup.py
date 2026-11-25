@@ -15,7 +15,7 @@ PACKAGE_VERSION
 .
 0
 .
-0
+1
 "
 DEPS
 =
@@ -34,14 +34,31 @@ blessed
     
 "
 mozterm
+>
+=
+1
+.
+0
 "
     
 "
 mozfile
+>
+=
+1
+.
+0
 "
     
 "
 mozsystemmonitor
+>
+=
+2
+.
+0
+.
+0
 "
 ]
 setup
