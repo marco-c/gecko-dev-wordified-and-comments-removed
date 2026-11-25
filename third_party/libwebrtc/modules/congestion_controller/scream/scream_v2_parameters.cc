@@ -245,7 +245,7 @@ number_of_rtts_between_reset_ref_window_i_on_congestion
 "
 NumberOfRttsBetweenResetRefWindowIOnCongestion
 "
-100
+100000000
 )
 ref_window_i_update_max_hold_rtts
 (
