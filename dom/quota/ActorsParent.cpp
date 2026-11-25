@@ -26281,6 +26281,10 @@ connection
 )
 )
 ;
+mCacheRequiresFullScan
+=
+true
+;
 }
 uint32_t
 pauseOnIOThreadMs
