@@ -132,15 +132,6 @@ testing
 "
 dom
 .
-security
-.
-https_first_pbm
-=
-false
-"
-"
-dom
-.
 storage_access
 .
 dont_grant_insecure_contexts

@@ -200,6 +200,16 @@ true
 ]
 [
 "
+dom
+.
+security
+.
+https_first_pbm
+"
+false
+]
+[
+"
 privacy
 .
 restrict3rdpartystorage
