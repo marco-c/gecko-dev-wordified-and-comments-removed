@@ -4129,6 +4129,13 @@ onSplitViewCloseButton
 =
 >
 {
+AT_telemetry
+(
+"
+onCloseCompanionButton
+"
+)
+;
 AT_closeTranslationsSplitViewTab
 (
 )

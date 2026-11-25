@@ -445,6 +445,13 @@ js
 ]
 [
 "
+browser_about_translations_telemetry_split_view_close_button
+.
+js
+"
+]
+[
+"
 browser_about_translations_telemetry_standalone_messages
 .
 js
