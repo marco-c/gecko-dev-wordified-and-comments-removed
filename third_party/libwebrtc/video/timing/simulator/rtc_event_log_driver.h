@@ -240,11 +240,6 @@ public
 struct
 Config
 {
-bool
-reuse_streams
-=
-false
-;
 std
 :
 :
