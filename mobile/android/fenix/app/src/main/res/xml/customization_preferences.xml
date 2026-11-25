@@ -358,13 +358,6 @@ string
 /
 preference_oled_theme
 "
-android
-:
-visible
-=
-"
-false
-"
 /
 >
 <

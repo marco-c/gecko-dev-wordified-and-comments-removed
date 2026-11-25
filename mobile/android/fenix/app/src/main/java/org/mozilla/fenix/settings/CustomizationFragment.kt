@@ -1463,12 +1463,6 @@ bindDarkestTheme
 (
 )
 {
-val
-settings
-=
-requireComponents
-.
-settings
 radioDarkestTheme
 =
 requirePreference
@@ -1479,13 +1473,6 @@ string
 .
 pref_key_oled_theme
 )
-radioDarkestTheme
-.
-isVisible
-=
-settings
-.
-enableOledTheme
 radioDarkestTheme
 .
 onClickListener
