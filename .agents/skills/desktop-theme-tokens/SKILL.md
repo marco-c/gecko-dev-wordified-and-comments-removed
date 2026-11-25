@@ -116,8 +116,6 @@ skills
 /
 desktop
 -
-theme
--
 probing
 /
 scripts
@@ -147,8 +145,6 @@ agents
 skills
 /
 desktop
--
-theme
 -
 probing
 /
@@ -188,8 +184,6 @@ displays
 :
 load
 desktop
--
-theme
 -
 probing
 before
@@ -3107,8 +3101,6 @@ in
 in
 desktop
 -
-theme
--
 probing
 '
 s
@@ -5719,8 +5711,6 @@ by
 hand
 as
 desktop
--
-theme
 -
 probing
 6

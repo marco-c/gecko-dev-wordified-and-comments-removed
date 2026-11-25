@@ -82,8 +82,6 @@ rungs
 load
 desktop
 -
-theme
--
 probing
 before
 the
@@ -462,8 +460,6 @@ rule
 in
 desktop
 -
-theme
--
 probing
 2
 "
@@ -583,8 +579,6 @@ them
 yourself
 (
 desktop
--
-theme
 -
 probing
 2
@@ -853,8 +847,6 @@ candidate
 (
 desktop
 -
-theme
--
 probing
 4
 )
@@ -1065,7 +1057,7 @@ drawSnapshot
 step
 ;
 the
-devtools
+Firefox
 MCP
 last
 |
@@ -1129,8 +1121,6 @@ canvases
 in
 desktop
 -
-theme
--
 probing
 '
 s
@@ -1146,8 +1136,6 @@ md
 .
 /
 desktop
--
-theme
 -
 probing
 /
@@ -1183,8 +1171,6 @@ output
 in
 desktop
 -
-theme
--
 probing
 '
 s
@@ -1200,8 +1186,6 @@ md
 .
 /
 desktop
--
-theme
 -
 probing
 /
@@ -1323,8 +1307,6 @@ section
 HEADLESS
 in
 desktop
--
-theme
 -
 probing
 )
@@ -1745,8 +1727,6 @@ md
 /
 desktop
 -
-theme
--
 probing
 /
 references
@@ -1833,8 +1813,6 @@ async
 in
 desktop
 -
-theme
--
 probing
 '
 s
@@ -1852,8 +1830,6 @@ md
 .
 /
 desktop
--
-theme
 -
 probing
 /
@@ -2168,8 +2144,6 @@ md
 /
 desktop
 -
-theme
--
 probing
 /
 references
@@ -2225,8 +2199,6 @@ file
 in
 desktop
 -
-theme
--
 probing
 section
 GRABS
@@ -2245,8 +2217,6 @@ revert
 in
 desktop
 -
-theme
--
 probing
 6
 between
@@ -2254,7 +2224,7 @@ them
 .
 *
 *
-Devtools
+Firefox
 MCP
 route
 .
@@ -2273,8 +2243,6 @@ s
 binary
 (
 desktop
--
-theme
 -
 probing
 1
@@ -2312,7 +2280,7 @@ write
 )
 in
 [
-devtools
+firefox
 -
 mcp
 .
@@ -2324,13 +2292,11 @@ md
 /
 desktop
 -
-theme
--
 probing
 /
 references
 /
-devtools
+firefox
 -
 mcp
 .
@@ -2348,8 +2314,6 @@ hand
 revert
 in
 desktop
--
-theme
 -
 probing
 6
@@ -2436,8 +2400,6 @@ other
 differences
 per
 desktop
--
-theme
 -
 probing
 2
@@ -2702,8 +2664,6 @@ revert
 in
 desktop
 -
-theme
--
 probing
 6
 .
@@ -2907,8 +2867,6 @@ platform
 file
 in
 desktop
--
-theme
 -
 probing
 section
@@ -3330,8 +3288,6 @@ mark
 per
 desktop
 -
-theme
--
 probing
 4
 .
@@ -3445,8 +3401,6 @@ matches
 (
 getMatchingCSSRules
 desktop
--
-theme
 -
 probing
 2
@@ -3619,8 +3573,6 @@ platform
 file
 in
 desktop
--
-theme
 -
 probing
 section
@@ -4208,8 +4160,6 @@ Clean
 up
 per
 desktop
--
-theme
 -
 probing
 6

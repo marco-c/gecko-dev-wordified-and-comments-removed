@@ -35,7 +35,7 @@ Run
 it
 through
 the
-devtools
+Firefox
 MCP
 '
 s
@@ -68,8 +68,6 @@ in
 the
 shape
 desktop
--
-theme
 -
 probing
 1
@@ -733,14 +731,12 @@ timeout
 in
 desktop
 -
-theme
--
 probing
 '
 s
 references
 /
-devtools
+firefox
 -
 mcp
 .

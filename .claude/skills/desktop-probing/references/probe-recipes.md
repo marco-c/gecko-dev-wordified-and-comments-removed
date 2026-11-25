@@ -1311,7 +1311,7 @@ spawn
 task
 .
 The
-devtools
+Firefox
 MCP
 '
 s

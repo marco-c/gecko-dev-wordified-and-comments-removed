@@ -401,7 +401,7 @@ allowed
 *
 to
 the
-devtools
+Firefox
 MCP
 :
 the

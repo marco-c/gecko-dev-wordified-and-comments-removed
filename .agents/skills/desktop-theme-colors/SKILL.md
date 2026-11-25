@@ -181,8 +181,6 @@ inconsistent
 Load
 desktop
 -
-theme
--
 probing
 before
 the
@@ -245,8 +243,6 @@ the
 instruments
 in
 desktop
--
-theme
 -
 probing
 1
@@ -657,8 +653,6 @@ shape
 ;
 desktop
 -
-theme
--
 probing
 1
 has
@@ -952,8 +946,6 @@ file
 (
 desktop
 -
-theme
--
 probing
 )
 section
@@ -1005,8 +997,6 @@ color
 probe
 around
 desktop
--
-theme
 -
 probing
 4
@@ -1471,8 +1461,6 @@ differential
 *
 (
 desktop
--
-theme
 -
 probing
 4
@@ -2089,8 +2077,6 @@ the
 ancestors
 desktop
 -
-theme
--
 probing
 2
 "
@@ -2652,8 +2638,6 @@ one
 adds
 with
 desktop
--
-theme
 -
 probing
 '
@@ -3367,8 +3351,6 @@ place
 (
 desktop
 -
-theme
--
 probing
 2
 "
@@ -3553,8 +3535,6 @@ should
 (
 desktop
 -
-theme
--
 probing
 5
 )
@@ -3705,8 +3685,6 @@ file
 (
 desktop
 -
-theme
--
 probing
 )
 section
@@ -3729,14 +3707,12 @@ Prefs
 in
 desktop
 -
-theme
--
 probing
 '
 s
 references
 /
-devtools
+firefox
 -
 mcp
 .
@@ -3994,8 +3970,6 @@ file
 (
 desktop
 -
-theme
--
 probing
 )
 section
@@ -4060,8 +4034,6 @@ platform
 file
 in
 desktop
--
-theme
 -
 probing
 section
@@ -4313,8 +4285,6 @@ installed
 as
 desktop
 -
-theme
--
 probing
 '
 s
@@ -4362,8 +4332,6 @@ mjs
 enabled
 as
 desktop
--
-theme
 -
 probing
 '
@@ -4461,8 +4429,6 @@ platform
 file
 in
 desktop
--
-theme
 -
 probing
 section
@@ -4584,8 +4550,6 @@ the
 rule
 as
 desktop
--
-theme
 -
 probing
 '
@@ -4878,8 +4842,6 @@ scratch
 probe
 (
 desktop
--
-theme
 -
 probing
 6
