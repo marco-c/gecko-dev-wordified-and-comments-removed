@@ -6251,7 +6251,7 @@ fail
 ;
 masm
 .
-breakpoint
+crash
 (
 )
 ;
@@ -11774,7 +11774,7 @@ V128
 :
 masm
 .
-breakpoint
+crash
 (
 )
 ;
@@ -12673,7 +12673,7 @@ V128
 :
 masm
 .
-breakpoint
+crash
 (
 )
 ;
@@ -16904,7 +16904,7 @@ scratch4
 ;
 masm
 .
-breakpoint
+crash
 (
 )
 ;

@@ -3565,7 +3565,7 @@ epilogue
 ;
 masm
 .
-breakpoint
+crash
 (
 )
 ;
