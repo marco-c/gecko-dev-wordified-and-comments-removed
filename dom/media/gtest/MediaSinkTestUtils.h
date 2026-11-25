@@ -111,7 +111,7 @@ IsTailDispatcherAvailable
 )
 {
 \
-ASSERT_EQ
+ASSERT_STREQ
 (
 __func__
 #
