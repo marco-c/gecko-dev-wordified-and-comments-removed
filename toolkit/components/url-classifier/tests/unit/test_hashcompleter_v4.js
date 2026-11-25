@@ -947,6 +947,7 @@ gethashUrl
 TEST_TABLE_DATA_V4
 .
 tableName
+false
 {
 completionV4
 (
@@ -1090,6 +1091,7 @@ gethashUrl
 TEST_TABLE_DATA_V4
 .
 tableName
+false
 {
 completionV4
 (
@@ -1233,6 +1235,7 @@ gethashUrl
 TEST_TABLE_DATA_V4
 .
 tableName
+false
 {
 completionV4
 (
@@ -1338,6 +1341,7 @@ gethashUrl
 TEST_TABLE_DATA_V4
 .
 tableName
+false
 {
 completionFinished
 (
@@ -1378,6 +1382,7 @@ gethashUrl
 TEST_TABLE_DATA_V4
 .
 tableName
+false
 {
 completionV4
 (
