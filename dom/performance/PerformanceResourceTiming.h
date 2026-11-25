@@ -608,7 +608,7 @@ if
 mTimingData
 -
 >
-TransferSize
+HasTransferredData
 (
 )
 )

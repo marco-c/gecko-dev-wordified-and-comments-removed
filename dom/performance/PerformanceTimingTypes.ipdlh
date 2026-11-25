@@ -184,8 +184,8 @@ fetchStart
 uint64_t
 encodedBodySize
 ;
-uint64_t
-transferSize
+bool
+hasTransferredData
 ;
 uint64_t
 decodedBodySize

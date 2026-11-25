@@ -1760,6 +1760,9 @@ bool
 activatedFromNavigationalPrefetch
 ;
 bool
+navigationalPrefetchHadNetworkTransfer
+;
+bool
 prefetchCandidateMatched
 ;
 CrossOriginEmbedderPolicy

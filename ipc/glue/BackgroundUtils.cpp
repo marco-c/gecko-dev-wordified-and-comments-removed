@@ -3217,6 +3217,12 @@ GetActivatedFromNavigationalPrefetch
 aLoadInfo
 -
 >
+GetNavigationalPrefetchHadNetworkTransfer
+(
+)
+aLoadInfo
+-
+>
 GetPrefetchCandidateMatched
 (
 )

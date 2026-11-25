@@ -790,6 +790,13 @@ nightly
 ]
 [
 "
+browser_prefetch_transfer_size
+.
+js
+"
+]
+[
+"
 browser_prefetch_delivery_type
 .
 js
