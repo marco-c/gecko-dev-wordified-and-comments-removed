@@ -384,6 +384,11 @@ uint64_t
 aTokenId
 =
 nullptr
+bool
+*
+aRestored
+=
+nullptr
 )
 ;
 static
