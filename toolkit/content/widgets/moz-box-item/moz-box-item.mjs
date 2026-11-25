@@ -604,6 +604,12 @@ e
 )
 ;
 }
+/
+*
+*
+internal
+*
+/
 get
 hasSupportPage
 (
@@ -620,6 +626,12 @@ this
 _hasSlottedSupportLink
 ;
 }
+/
+*
+*
+internal
+*
+/
 get
 hasDescription
 (
@@ -1050,6 +1062,12 @@ NAVIGATION_DIRECTIONS
 LTR
 ;
 }
+/
+*
+*
+internal
+*
+/
 get
 isDraggable
 (
@@ -1142,6 +1160,8 @@ action
 elements
 .
 *
+*
+internal
 *
 returns
 {

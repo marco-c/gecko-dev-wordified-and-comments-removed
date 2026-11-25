@@ -557,6 +557,12 @@ secondaryNavButtons
 ]
 ;
 }
+/
+*
+*
+internal
+*
+/
 get
 visiblePageNavButtons
 (

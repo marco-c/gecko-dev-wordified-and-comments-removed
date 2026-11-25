@@ -867,6 +867,8 @@ element
 .
 *
 *
+internal
+*
 returns
 {
 boolean
