@@ -994,15 +994,6 @@ override
 {
 }
 void
-SetLossNotificationEnabled
-(
-bool
-enabled
-)
-override
-{
-}
-void
 SetNackHistory
 (
 webrtc
