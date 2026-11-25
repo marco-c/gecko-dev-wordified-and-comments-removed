@@ -24942,12 +24942,6 @@ temp
 )
 )
 ;
-masm
-.
-flushBuffer
-(
-)
-;
 setOsrEntryOffset
 (
 masm
