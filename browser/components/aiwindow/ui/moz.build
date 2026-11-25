@@ -146,6 +146,17 @@ test
 /
 browser
 /
+organize_tabs
+/
+browser
+.
+toml
+"
+"
+test
+/
+browser
+/
 resume
 /
 browser

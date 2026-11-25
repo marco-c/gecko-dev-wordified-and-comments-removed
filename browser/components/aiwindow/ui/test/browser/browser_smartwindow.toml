@@ -102,11 +102,6 @@ head
 js
 "
 "
-head_aiwindow_group_tabs_button
-.
-js
-"
-"
 head_smartformfill_autocomplete
 .
 js
