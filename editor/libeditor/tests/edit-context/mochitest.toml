@@ -57,6 +57,13 @@ html
 ]
 [
 "
+test_editcontext_character_bounds_warning
+.
+html
+"
+]
+[
+"
 test_editcontext_characterboundsupdate_focus
 .
 html
