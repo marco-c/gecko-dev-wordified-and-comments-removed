@@ -4761,6 +4761,8 @@ trigger
 :
 description
 :
+>
+-
 The
 method
 used
@@ -4794,6 +4796,13 @@ for
 a
 custom
 shortcut
+translations_companion
+for
+the
+translations
+panel
+companion
+button
 )
 type
 :
