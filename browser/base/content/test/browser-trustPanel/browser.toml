@@ -243,6 +243,13 @@ html
 ]
 [
 "
+browser_trust_panel_redesign_clear_site_data
+.
+js
+"
+]
+[
+"
 browser_trust_panel_redesign_site_issue
 .
 js
