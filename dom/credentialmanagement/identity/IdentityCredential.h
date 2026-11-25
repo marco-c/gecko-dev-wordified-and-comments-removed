@@ -55,13 +55,6 @@ PWebIdentity
 .
 h
 "
-#
-include
-"
-nsICredentialChosenCallback
-.
-h
-"
 namespace
 mozilla
 :

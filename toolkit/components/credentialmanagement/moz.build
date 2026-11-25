@@ -82,11 +82,6 @@ mozilla
 =
 [
 "
-CredentialChosenCallback
-.
-h
-"
-"
 IdentityCredentialRequestManager
 .
 h
@@ -101,11 +96,6 @@ UNIFIED_SOURCES
 +
 =
 [
-"
-CredentialChosenCallback
-.
-cpp
-"
 "
 IdentityCredentialRequestManager
 .
@@ -128,11 +118,6 @@ XPIDL_SOURCES
 [
 "
 nsICredentialChooserService
-.
-idl
-"
-"
-nsICredentialChosenCallback
 .
 idl
 "
