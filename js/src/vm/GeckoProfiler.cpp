@@ -1698,12 +1698,13 @@ profilingStack_
 -
 >
 frames
-uint32_t
-(
 profilingStack_
 -
 >
 stackPointer
+.
+load
+(
 )
 profilingStack_
 -
@@ -2768,9 +2769,7 @@ void
 )
 result
 .
-append
-(
-ProfilerJSSourceData
+emplaceBack
 (
 sourceId
 std
@@ -2791,7 +2790,6 @@ move
 sourceMapURLCopy
 )
 sourceMapURLLen
-)
 )
 ;
 continue
@@ -2858,9 +2856,7 @@ void
 )
 result
 .
-append
-(
-ProfilerJSSourceData
+emplaceBack
 (
 sourceId
 std
@@ -2881,7 +2877,6 @@ move
 sourceMapURLCopy
 )
 sourceMapURLLen
-)
 )
 ;
 continue
@@ -2910,9 +2905,7 @@ void
 )
 result
 .
-append
-(
-ProfilerJSSourceData
+emplaceBack
 (
 sourceId
 JS
@@ -2940,7 +2933,6 @@ move
 sourceMapURLCopy
 )
 sourceMapURLLen
-)
 )
 ;
 continue
@@ -2998,9 +2990,7 @@ void
 )
 result
 .
-append
-(
-ProfilerJSSourceData
+emplaceBack
 (
 sourceId
 JS
@@ -3028,7 +3018,6 @@ move
 sourceMapURLCopy
 )
 sourceMapURLLen
-)
 )
 ;
 continue
@@ -3098,9 +3087,7 @@ void
 )
 result
 .
-append
-(
-ProfilerJSSourceData
+emplaceBack
 (
 sourceId
 std
@@ -3129,7 +3116,6 @@ move
 sourceMapURLCopy
 )
 sourceMapURLLen
-)
 )
 ;
 }
@@ -3165,9 +3151,7 @@ void
 )
 result
 .
-append
-(
-ProfilerJSSourceData
+emplaceBack
 (
 sourceId
 std
@@ -3196,7 +3180,6 @@ move
 sourceMapURLCopy
 )
 sourceMapURLLen
-)
 )
 ;
 }
