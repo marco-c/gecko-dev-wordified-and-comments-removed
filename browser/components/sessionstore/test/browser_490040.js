@@ -128,11 +128,11 @@ example
 com
 "
 triggeringPrincipal_base64
+}
+]
 index
 :
 1
-}
-]
 }
 }
 ]
