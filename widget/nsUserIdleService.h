@@ -296,6 +296,11 @@ mDisabled
 =
 false
 ;
+bool
+mShutdown
+=
+false
+;
 mozilla
 :
 :
