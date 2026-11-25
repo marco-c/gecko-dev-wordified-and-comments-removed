@@ -197,18 +197,6 @@ components
 :
 browser
 -
-menu
-'
-)
-implementation
-project
-(
-'
-:
-components
-:
-browser
--
 state
 '
 )
@@ -296,8 +284,6 @@ libs
 androidx
 .
 core
-.
-ktx
 implementation
 libs
 .
