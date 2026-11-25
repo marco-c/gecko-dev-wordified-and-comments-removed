@@ -516,11 +516,6 @@ rust_tests
 test_suites
 "
 "
-examples
-:
-examples_unittests
-"
-"
 modules
 /
 audio_coding
@@ -933,6 +928,13 @@ common_audio_unittests
 common_video
 :
 common_video_unittests
+"
+"
+/
+/
+examples
+:
+examples_unittests
 "
 "
 /

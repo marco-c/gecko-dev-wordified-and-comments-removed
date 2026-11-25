@@ -531,6 +531,12 @@ desktop_capture_unittests
 {
 }
 '
+examples_unittests
+'
+:
+{
+}
+'
 modules_unittests
 '
 :
