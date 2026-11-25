@@ -275,6 +275,26 @@ key
 None
 )
     
+mime_type
+=
+request
+.
+GET
+.
+first
+(
+b
+"
+mime
+"
+b
+"
+text
+/
+fragment
+"
+)
+    
 response
 .
 headers
@@ -287,12 +307,7 @@ Content
 -
 Type
 "
-b
-"
-text
-/
-html
-"
+mime_type
 )
     
 if
