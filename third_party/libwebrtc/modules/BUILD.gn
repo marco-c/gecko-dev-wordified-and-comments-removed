@@ -567,6 +567,11 @@ sframe
 :
 synchronized_sframe_encryptor_unittest
 "
+"
+video_capture
+:
+device_info_impl_unittest
+"
 ]
 if
 (
@@ -646,6 +651,11 @@ tests
 portal
 :
 pipewire_buffer_checks_unittest
+"
+"
+video_capture
+:
+pipewire_video_sizes_unittest
 "
 ]
 }
