@@ -3495,7 +3495,6 @@ stats_collector_
 CancelPendingRequestAndGetShutdownTasks
 (
 network_tasks
-worker_tasks
 )
 ;
 network_tasks
