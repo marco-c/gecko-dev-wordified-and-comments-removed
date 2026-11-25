@@ -44,8 +44,14 @@ script
 var
 bc
 =
-new
+SpecialPowers
+.
+wrap
+(
 BroadcastChannel
+)
+.
+unpartitionedTestingChannel
 (
 "
 form_basic_bfcache
@@ -272,6 +278,9 @@ waitForExplicitFinish
 (
 )
 ;
+const
+commonInitPromise
+=
 runChecksAfterCommonInit
 (
 )
@@ -301,6 +310,9 @@ initial
 page
 load
 .
+await
+commonInitPromise
+;
 await
 setStoredLoginsAsync
 (
