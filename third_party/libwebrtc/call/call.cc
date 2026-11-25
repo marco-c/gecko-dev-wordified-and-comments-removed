@@ -5428,6 +5428,11 @@ CreateVideoReceiveStream
 ;
 RTC_DCHECK_RUN_ON
 (
+network_thread_
+)
+;
+RTC_DCHECK_RUN_ON
+(
 worker_thread_
 )
 ;
@@ -5593,6 +5598,11 @@ Call
 :
 DestroyVideoReceiveStream
 "
+)
+;
+RTC_DCHECK_RUN_ON
+(
+network_thread_
 )
 ;
 RTC_DCHECK_RUN_ON

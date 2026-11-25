@@ -718,7 +718,7 @@ const
 RTC_DCHECK_RUN_ON
 (
 &
-worker_sequence_checker_
+network_sequence_checker_
 )
 ;
 return
@@ -1113,7 +1113,7 @@ UpdatePlayoutDelays
 const
 RTC_EXCLUSIVE_LOCKS_REQUIRED
 (
-worker_sequence_checker_
+network_sequence_checker_
 )
 ;
 void
@@ -1124,7 +1124,7 @@ now
 )
 RTC_RUN_ON
 (
-worker_sequence_checker_
+network_sequence_checker_
 )
 ;
 void
@@ -1141,7 +1141,7 @@ keyframe_request_is_due
 )
 RTC_RUN_ON
 (
-worker_sequence_checker_
+network_sequence_checker_
 )
 ;
 bool
@@ -1153,7 +1153,7 @@ timestamp
 const
 RTC_RUN_ON
 (
-worker_sequence_checker_
+network_sequence_checker_
 )
 ;
 int
@@ -1184,7 +1184,7 @@ ConfigureCodecs
 )
 RTC_RUN_ON
 (
-worker_sequence_checker_
+network_sequence_checker_
 )
 ;
 bool
@@ -1228,7 +1228,7 @@ GetReceiveCodecConfig
 const
 RTC_RUN_ON
 (
-worker_sequence_checker_
+network_sequence_checker_
 )
 ;
 void
@@ -1251,7 +1251,7 @@ env_
 ;
 RTC_NO_UNIQUE_ADDRESS
 SequenceChecker
-worker_sequence_checker_
+network_sequence_checker_
 ;
 RTC_NO_UNIQUE_ADDRESS
 SequenceChecker
@@ -1270,7 +1270,7 @@ Config
 config_
 RTC_GUARDED_BY
 (
-worker_sequence_checker_
+network_sequence_checker_
 )
 ;
 const
@@ -1329,7 +1329,7 @@ bool
 decoder_running_
 RTC_GUARDED_BY
 (
-worker_sequence_checker_
+network_sequence_checker_
 )
 =
 false
@@ -1385,14 +1385,14 @@ TimeDelta
 max_wait_for_keyframe_
 RTC_GUARDED_BY
 (
-worker_sequence_checker_
+network_sequence_checker_
 )
 ;
 TimeDelta
 max_wait_for_frame_
 RTC_GUARDED_BY
 (
-worker_sequence_checker_
+network_sequence_checker_
 )
 ;
 RtpVideoStreamReceiver2
@@ -1425,7 +1425,7 @@ VideoStreamBufferController
 buffer_
 RTC_GUARDED_BY
 (
-worker_sequence_checker_
+network_sequence_checker_
 )
 ;
 RtpStreamReceiverControllerInterface
@@ -1433,7 +1433,7 @@ RtpStreamReceiverControllerInterface
 receiver_controller_
 RTC_GUARDED_BY
 (
-worker_sequence_checker_
+network_sequence_checker_
 )
 =
 nullptr
@@ -1448,7 +1448,7 @@ RtpStreamReceiverInterface
 media_receiver_
 RTC_GUARDED_BY
 (
-worker_sequence_checker_
+network_sequence_checker_
 )
 ;
 std
@@ -1461,7 +1461,7 @@ RtxReceiveStream
 rtx_receive_stream_
 RTC_GUARDED_BY
 (
-worker_sequence_checker_
+network_sequence_checker_
 )
 ;
 std
@@ -1474,7 +1474,7 @@ uint32_t
 updated_rtx_ssrc_
 RTC_GUARDED_BY
 (
-worker_sequence_checker_
+network_sequence_checker_
 )
 ;
 std
@@ -1487,14 +1487,14 @@ RtpStreamReceiverInterface
 rtx_receiver_
 RTC_GUARDED_BY
 (
-worker_sequence_checker_
+network_sequence_checker_
 )
 ;
 bool
 keyframe_required_
 RTC_GUARDED_BY
 (
-worker_sequence_checker_
+network_sequence_checker_
 )
 =
 true
@@ -1518,7 +1518,7 @@ Timestamp
 last_keyframe_request_
 RTC_GUARDED_BY
 (
-worker_sequence_checker_
+network_sequence_checker_
 )
 ;
 std
@@ -1531,7 +1531,7 @@ TimeDelta
 frame_minimum_playout_delay_
 RTC_GUARDED_BY
 (
-worker_sequence_checker_
+network_sequence_checker_
 )
 ;
 std
@@ -1544,7 +1544,7 @@ TimeDelta
 base_minimum_playout_delay_
 RTC_GUARDED_BY
 (
-worker_sequence_checker_
+network_sequence_checker_
 )
 ;
 std
@@ -1557,7 +1557,7 @@ TimeDelta
 syncable_minimum_playout_delay_
 RTC_GUARDED_BY
 (
-worker_sequence_checker_
+network_sequence_checker_
 )
 ;
 std
@@ -1570,7 +1570,7 @@ TimeDelta
 frame_maximum_playout_delay_
 RTC_GUARDED_BY
 (
-worker_sequence_checker_
+network_sequence_checker_
 )
 ;
 std
@@ -1611,7 +1611,7 @@ bool
 keyframe_generation_requested_
 RTC_GUARDED_BY
 (
-worker_sequence_checker_
+network_sequence_checker_
 )
 =
 false
