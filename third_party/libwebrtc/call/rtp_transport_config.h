@@ -114,7 +114,7 @@ kDefaultTimeInterval
 TaskQueueBase
 *
 const
-worker_thread
+network_thread
 ;
 }
 ;

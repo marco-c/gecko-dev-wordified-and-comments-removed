@@ -577,7 +577,7 @@ CreateTestEnvironment
 (
 )
 .
-worker_thread
+network_thread
 =
 main_thread
 .
@@ -758,7 +758,7 @@ CreateTestEnvironment
 (
 )
 .
-worker_thread
+network_thread
 =
 main_thread
 .
@@ -1125,7 +1125,7 @@ CreateTestEnvironment
 (
 )
 .
-worker_thread
+network_thread
 =
 main_thread
 .
@@ -1372,7 +1372,7 @@ CreateTestEnvironment
 (
 )
 .
-worker_thread
+network_thread
 =
 main_thread
 .
@@ -1710,7 +1710,7 @@ CreateTestEnvironment
 (
 )
 .
-worker_thread
+network_thread
 =
 main_thread
 .
