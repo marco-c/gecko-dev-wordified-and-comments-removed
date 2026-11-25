@@ -566,10 +566,7 @@ ForgetGMPContentParent
 bool
 EnsureProcessLoaded
 (
-base
-:
-:
-ProcessId
+GeckoChildID
 *
 aID
 )

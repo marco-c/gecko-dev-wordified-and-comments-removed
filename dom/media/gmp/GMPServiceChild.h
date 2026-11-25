@@ -400,8 +400,8 @@ GMPContentParent
 >
 GetBridgedGMPContentParent
 (
-ProcessId
-aOtherPid
+GeckoChildID
+aOtherChildID
 ipc
 :
 :
@@ -425,11 +425,8 @@ aGMPContentParent
 bool
 HasAlreadyBridgedTo
 (
-base
-:
-:
-ProcessId
-aPid
+GeckoChildID
+aChildID
 )
 const
 ;
@@ -438,7 +435,7 @@ GetAndBlockAlreadyBridgedTo
 (
 nsTArray
 <
-ProcessId
+GeckoChildID
 >
 &
 aAlreadyBridgedTo
@@ -503,7 +500,10 @@ default
 ;
 nsRefPtrHashtable
 <
-nsUint64HashKey
+nsIntegralHashKey
+<
+GeckoChildID
+>
 GMPContentParent
 >
 mContentParents
