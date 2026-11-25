@@ -523,11 +523,6 @@ main_thread_
 task_queue
 (
 )
-main_thread_
-.
-task_queue
-(
-)
 &
 dummy_validator_
 )

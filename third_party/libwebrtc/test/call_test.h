@@ -698,7 +698,7 @@ SendCallConfig
 (
 TaskQueueBase
 *
-worker_task_queue
+network_task_queue
 =
 nullptr
 )
@@ -709,7 +709,7 @@ RecvCallConfig
 (
 TaskQueueBase
 *
-worker_task_queue
+network_task_queue
 =
 nullptr
 )
@@ -720,7 +720,7 @@ CreateCalls
 (
 TaskQueueBase
 *
-worker_task_queue
+network_task_queue
 =
 nullptr
 )
@@ -739,7 +739,7 @@ CreateSenderCall
 (
 TaskQueueBase
 *
-worker_task_queue
+network_task_queue
 =
 nullptr
 )
@@ -756,7 +756,7 @@ CreateReceiverCall
 (
 TaskQueueBase
 *
-worker_task_queue
+network_task_queue
 =
 nullptr
 )
@@ -1352,7 +1352,7 @@ task_queue
 )
 {
 return
-task_queue_
+network_thread_
 .
 get
 (
@@ -1746,16 +1746,6 @@ unique_ptr
 TransportToNetworkPacketBridge
 >
 receive_transport_bridge_
-;
-std
-:
-:
-unique_ptr
-<
-TaskQueueBase
-TaskQueueDeleter
->
-task_queue_
 ;
 std
 :

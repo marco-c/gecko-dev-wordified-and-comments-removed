@@ -492,9 +492,6 @@ RtxLoopBackTransport
 TaskQueueBase
 *
 network_thread
-TaskQueueBase
-*
-worker_thread
 uint32_t
 rtx_ssrc
 )
@@ -530,7 +527,6 @@ nullptr
 stream_receiver_controller_
 (
 network_thread
-worker_thread
 &
 dummy_validator_
 )
@@ -820,11 +816,6 @@ fake_clock_
 )
 transport_
 (
-main_thread_
-.
-task_queue
-(
-)
 main_thread_
 .
 task_queue
