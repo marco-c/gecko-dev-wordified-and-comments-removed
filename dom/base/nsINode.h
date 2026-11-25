@@ -744,6 +744,12 @@ HasDirtyDescendants
 <
 <
 16
+MayHaveSlottedSnapshots
+=
+1
+<
+<
+17
 }
 ;
 MOZ_MAKE_ENUM_CLASS_BITWISE_OPERATORS
