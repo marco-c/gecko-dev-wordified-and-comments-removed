@@ -1420,11 +1420,6 @@ uint32_t
 aGeneration
 uint32_t
 aIndex
-base
-:
-:
-ProcessId
-aPid
 mozilla
 :
 :
@@ -1451,11 +1446,6 @@ ReadOnlySharedMemoryHandle
 >
 *
 aBlocks
-base
-:
-:
-ProcessId
-aPid
 )
 ;
 void
@@ -1486,11 +1476,6 @@ ShareShmBlockToProcess
 (
 uint32_t
 aIndex
-base
-:
-:
-ProcessId
-aPid
 )
 ;
 void

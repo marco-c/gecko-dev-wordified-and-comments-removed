@@ -5138,11 +5138,6 @@ ReadOnlySharedMemoryHandle
 >
 *
 aBlocks
-base
-:
-:
-ProcessId
-aPid
 )
 {
 MOZ_RELEASE_ASSERT
@@ -5222,11 +5217,6 @@ ShareBlockToProcess
 (
 uint32_t
 aIndex
-base
-:
-:
-ProcessId
-aPid
 )
 {
 MOZ_RELEASE_ASSERT

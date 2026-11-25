@@ -531,11 +531,6 @@ ShareShmBlockToProcess
 (
 uint32_t
 aIndex
-base
-:
-:
-ProcessId
-aPid
 ipc
 :
 :
@@ -623,11 +618,6 @@ ReadOnlySharedMemoryHandle
 >
 *
 aBlocks
-base
-:
-:
-ProcessId
-aPid
 )
 ;
 ipc
@@ -638,11 +628,6 @@ ShareBlockToProcess
 (
 uint32_t
 aIndex
-base
-:
-:
-ProcessId
-aPid
 )
 ;
 void
