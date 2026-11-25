@@ -560,6 +560,11 @@ sframe_decrypt_error_reporter_unittest
 "
 sframe
 :
+sframe_decryptor_handle_unittest
+"
+"
+sframe
+:
 sframe_encryptor_decryptor_unittest
 "
 "
