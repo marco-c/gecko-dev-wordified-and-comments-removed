@@ -5,7 +5,7 @@ strict
 ;
 const
 {
-ToolUI
+ToolTabActions
 }
 =
 ChromeUtils
@@ -30,7 +30,7 @@ ui
 /
 modules
 /
-ToolUI
+ToolTabActions
 .
 sys
 .
@@ -510,7 +510,7 @@ sandbox
 .
 stub
 (
-ToolUI
+ToolTabActions
 "
 openAndGroupTabs
 "
@@ -560,7 +560,7 @@ called
 "
 Wait
 for
-ToolUI
+ToolTabActions
 .
 openAndGroupTabs
 to
@@ -733,7 +733,7 @@ sandbox
 .
 stub
 (
-ToolUI
+ToolTabActions
 "
 openOrSwitchToTab
 "
@@ -758,7 +758,7 @@ sandbox
 .
 stub
 (
-ToolUI
+ToolTabActions
 "
 openAndGroupTabs
 "
@@ -788,7 +788,7 @@ called
 "
 Wait
 for
-ToolUI
+ToolTabActions
 .
 openOrSwitchToTab
 to
