@@ -5294,7 +5294,7 @@ lazy
 .
 AIWindowUI
 .
-updateStarterPrompts
+updateNewChatContent
 (
 this
 .
@@ -6127,7 +6127,7 @@ lazy
 .
 AIWindowUI
 .
-updateStarterPrompts
+updateNewChatContent
 (
 this
 .
