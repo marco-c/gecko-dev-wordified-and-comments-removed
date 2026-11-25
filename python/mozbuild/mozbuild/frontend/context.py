@@ -4496,7 +4496,7 @@ C_LDFLAGS
 (
                 
 "
-CLANG_PLUGIN
+COMPILER_PLUGIN
 "
                 
 context
@@ -4508,7 +4508,7 @@ substs
 get
 (
 "
-CLANG_PLUGIN_FLAGS
+COMPILER_PLUGIN_FLAGS
 "
 )
                 
@@ -5227,7 +5227,7 @@ WASM_CXXFLAGS
 (
                 
 "
-CLANG_PLUGIN
+COMPILER_PLUGIN
 "
                 
 context
@@ -5239,7 +5239,7 @@ substs
 get
 (
 "
-CLANG_PLUGIN_FLAGS
+COMPILER_PLUGIN_FLAGS
 "
 )
                 
@@ -12908,6 +12908,57 @@ console
 )
     
 "
+WIN32_WIDE_ENTRY
+"
+:
+(
+        
+bool
+        
+bool
+        
+"
+"
+"
+Whether
+the
+programs
+in
+this
+directory
+enter
+through
+wmain
+or
+        
+wWinMain
+.
+mingw
+links
+them
+with
+-
+municode
+so
+that
+its
+startup
+code
+        
+calls
+the
+wide
+entry
+point
+.
+        
+"
+"
+"
+    
+)
+    
+"
 MOZ_SRC_FILES
 "
 :
@@ -19914,6 +19965,59 @@ the
            
 link
 target
+.
+        
+"
+"
+"
+    
+)
+    
+"
+IS_COMPILER_PLUGIN
+"
+:
+(
+        
+bool
+        
+bool
+        
+"
+"
+"
+Whether
+the
+host
+shared
+library
+of
+this
+directory
+is
+a
+compiler
+           
+plugin
+.
+           
+Compiles
+with
+flags
+in
+the
+COMPILER_PLUGIN
+category
+of
+           
+COMPILE_FLAGS
+or
+WASM_FLAGS
+are
+ordered
+after
+the
+library
 .
         
 "

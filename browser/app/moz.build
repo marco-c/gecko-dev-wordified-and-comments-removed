@@ -1185,6 +1185,9 @@ MOZ_GECKODRIVER
 ]
 =
 True
+WIN32_WIDE_ENTRY
+=
+True
 if
 CONFIG
 [

@@ -161,7 +161,7 @@ L
 LauncherCrashTime
 "
 ;
-MOZ_RUNINIT
+constinit
 static
 std
 :
@@ -169,7 +169,7 @@ std
 wstring
 gBrowserValue
 ;
-MOZ_RUNINIT
+constinit
 static
 std
 :
@@ -177,7 +177,7 @@ std
 wstring
 gLauncherValue
 ;
-MOZ_RUNINIT
+constinit
 static
 std
 :
@@ -185,7 +185,7 @@ std
 wstring
 gImageValue
 ;
-MOZ_RUNINIT
+constinit
 static
 std
 :
@@ -193,7 +193,7 @@ std
 wstring
 gTelemetryValue
 ;
-MOZ_RUNINIT
+constinit
 static
 std
 :
@@ -4665,11 +4665,11 @@ Ok
 ;
 }
 int
-main
+wmain
 (
 int
 argc
-char
+wchar_t
 *
 argv
 [

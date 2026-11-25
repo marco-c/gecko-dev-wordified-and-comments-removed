@@ -75,3 +75,6 @@ advapi32
 user32
 "
 ]
+WIN32_WIDE_ENTRY
+=
+True

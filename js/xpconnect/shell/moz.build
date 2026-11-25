@@ -169,6 +169,9 @@ toolkit
 xre
 "
 ]
+WIN32_WIDE_ENTRY
+=
+True
 if
 CONFIG
 [

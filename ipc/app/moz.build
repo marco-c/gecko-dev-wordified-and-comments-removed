@@ -357,6 +357,9 @@ executable_path
 /
 "
 ]
+WIN32_WIDE_ENTRY
+=
+True
 if
 CONFIG
 [
