@@ -227,15 +227,6 @@ name
 Firefox
 Profiler
 -
-translations
--
-brand
--
-name
-=
-Firefox
-Translations
--
 relay
 -
 brand
