@@ -6128,16 +6128,6 @@ aOptions
 .
 mRelativeToInsertionPoint
 )
-|
-|
-NS_WARN_IF
-(
-aOffset
-+
-aLength
->
-UINT32_MAX
-)
 )
 [
 [
