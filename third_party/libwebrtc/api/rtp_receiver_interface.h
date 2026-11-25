@@ -27,6 +27,17 @@ vector
 #
 include
 "
+absl
+/
+base
+/
+nullability
+.
+h
+"
+#
+include
+"
 api
 /
 crypto
@@ -437,6 +448,7 @@ CreateSframeDecryptorOrError
 (
 SframeCipherSuite
 cipher_suite
+absl_nonnull
 SframeDecryptErrorCallback
 error_callback
 )
