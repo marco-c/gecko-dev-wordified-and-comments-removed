@@ -754,6 +754,9 @@ return
 NS_OK
 ;
 }
+#
+ifndef
+__MINGW32__
 static
 HRESULT
 RejectOnMainThread
@@ -832,9 +835,6 @@ return
 S_OK
 ;
 }
-#
-ifndef
-__MINGW32__
 static
 void
 GetCampaignIdFromStoreProductOnBackgroundThread
@@ -888,8 +888,6 @@ nsAutoString
 aCampaignId
 )
 ;
-#
-endif
 static
 std
 :
@@ -1048,6 +1046,8 @@ NS_OK
 )
 ;
 }
+#
+endif
 NS_IMETHODIMP
 nsWindowsPackageManager
 :

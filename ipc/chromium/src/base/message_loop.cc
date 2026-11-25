@@ -310,6 +310,9 @@ defined
 (
 XP_WIN
 )
+#
+ifdef
+HAVE_SEH_EXCEPTIONS
 static
 int
 SEHFilter
@@ -329,6 +332,8 @@ return
 EXCEPTION_CONTINUE_SEARCH
 ;
 }
+#
+endif
 static
 LPTOP_LEVEL_EXCEPTION_FILTER
 GetTopSEHFilter
