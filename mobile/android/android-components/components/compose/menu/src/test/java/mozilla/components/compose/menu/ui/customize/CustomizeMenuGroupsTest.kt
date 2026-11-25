@@ -95,7 +95,7 @@ customize
 .
 CustomizeMenuItemKey
 .
-HIDDEN_SECTIONS
+HIDDEN_TITLE
 import
 org
 .
@@ -352,7 +352,7 @@ a
 "
 targetKey
 =
-HIDDEN_SECTIONS
+HIDDEN_TITLE
 placeAfter
 =
 false
@@ -424,7 +424,7 @@ b
 "
 targetKey
 =
-HIDDEN_SECTIONS
+HIDDEN_TITLE
 placeAfter
 =
 true
@@ -569,7 +569,7 @@ a
 "
 targetKey
 =
-HIDDEN_SECTIONS
+HIDDEN_TITLE
 placeAfter
 =
 true
@@ -641,7 +641,7 @@ e
 "
 targetKey
 =
-HIDDEN_SECTIONS
+HIDDEN_TITLE
 placeAfter
 =
 false
@@ -1112,7 +1112,7 @@ m
 "
 targetKey
 =
-HIDDEN_SECTIONS
+HIDDEN_TITLE
 placeAfter
 =
 true

@@ -139,7 +139,7 @@ customize
 .
 CustomizeMenuItemKey
 .
-HIDDEN_SECTIONS
+HIDDEN_TITLE
 /
 *
 *
@@ -319,7 +319,7 @@ target
 key
 =
 =
-HIDDEN_SECTIONS
+HIDDEN_TITLE
 &
 &
 !

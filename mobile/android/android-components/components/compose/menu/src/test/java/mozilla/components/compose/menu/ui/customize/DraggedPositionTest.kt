@@ -137,7 +137,7 @@ customize
 .
 CustomizeMenuItemKey
 .
-HIDDEN_SECTIONS
+HIDDEN_TITLE
 import
 mozilla
 .
@@ -167,7 +167,7 @@ ui
 .
 customize
 .
-DraggedGroupPosition
+DraggedPosition
 .
 ABOVE_HIDDEN_AREA
 import
@@ -183,7 +183,7 @@ ui
 .
 customize
 .
-DraggedGroupPosition
+DraggedPosition
 .
 BELOW_HIDDEN_AREA
 import
@@ -199,7 +199,7 @@ ui
 .
 customize
 .
-DraggedGroupPosition
+DraggedPosition
 .
 OVER_HIDDEN_AREA
 import
@@ -217,7 +217,7 @@ junit
 .
 Test
 class
-DraggedGroupPositionTest
+DraggedPositionTest
 {
 /
 /
@@ -346,7 +346,7 @@ a
 "
 b
 "
-HIDDEN_SECTIONS
+HIDDEN_TITLE
 "
 c
 "
@@ -402,7 +402,7 @@ a
 "
 b
 "
-HIDDEN_SECTIONS
+HIDDEN_TITLE
 "
 c
 "
@@ -457,7 +457,7 @@ a
 "
 b
 "
-HIDDEN_SECTIONS
+HIDDEN_TITLE
 "
 c
 "
@@ -506,7 +506,7 @@ a
 "
 b
 "
-HIDDEN_SECTIONS
+HIDDEN_TITLE
 "
 c
 "
@@ -555,7 +555,7 @@ a
 "
 b
 "
-HIDDEN_SECTIONS
+HIDDEN_TITLE
 "
 c
 "
@@ -609,7 +609,7 @@ a
 "
 b
 "
-HIDDEN_SECTIONS
+HIDDEN_TITLE
 "
 c
 "
@@ -670,7 +670,7 @@ a
 "
 b
 "
-HIDDEN_SECTIONS
+HIDDEN_TITLE
 "
 c
 "
@@ -746,7 +746,7 @@ a
 "
 b
 "
-HIDDEN_SECTIONS
+HIDDEN_TITLE
 DROP_AREA
 RESET_BUTTON
 )
@@ -803,7 +803,7 @@ a
 "
 b
 "
-HIDDEN_SECTIONS
+HIDDEN_TITLE
 DROP_AREA
 RESET_BUTTON
 )
@@ -872,7 +872,7 @@ a
 "
 b
 "
-HIDDEN_SECTIONS
+HIDDEN_TITLE
 totalItemsCount
 =
 5
@@ -936,7 +936,7 @@ a
 "
 b
 "
-HIDDEN_SECTIONS
+HIDDEN_TITLE
 DROP_AREA
 "
 c
@@ -1318,7 +1318,7 @@ a
 "
 )
 =
-draggedGroupPositionOf
+draggedPositionOf
 (
 dragged
 (

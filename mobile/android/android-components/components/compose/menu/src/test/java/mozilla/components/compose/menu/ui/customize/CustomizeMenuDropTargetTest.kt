@@ -205,7 +205,7 @@ customize
 .
 CustomizeMenuItemKey
 .
-HIDDEN_SECTIONS
+HIDDEN_TITLE
 import
 mozilla
 .
@@ -493,7 +493,7 @@ assertEquals
 (
 NextTo
 (
-HIDDEN_SECTIONS
+HIDDEN_TITLE
 placeAfter
 =
 false
@@ -555,7 +555,7 @@ assertEquals
 (
 NextTo
 (
-HIDDEN_SECTIONS
+HIDDEN_TITLE
 placeAfter
 =
 false
@@ -675,7 +675,7 @@ assertEquals
 (
 NextTo
 (
-HIDDEN_SECTIONS
+HIDDEN_TITLE
 placeAfter
 =
 true
@@ -686,7 +686,7 @@ found
 =
 reorderingNextTo
 (
-HIDDEN_SECTIONS
+HIDDEN_TITLE
 placeAfter
 =
 false
@@ -976,7 +976,7 @@ a
 "
 b
 "
-HIDDEN_SECTIONS
+HIDDEN_TITLE
 DROP_AREA
 "
 c
@@ -1138,7 +1138,7 @@ assertEquals
 (
 NextTo
 (
-HIDDEN_SECTIONS
+HIDDEN_TITLE
 placeAfter
 =
 false
@@ -1254,7 +1254,7 @@ a
 "
 b
 "
-HIDDEN_SECTIONS
+HIDDEN_TITLE
 "
 c
 "
@@ -1562,7 +1562,7 @@ layoutOf
 "
 b
 "
-HIDDEN_SECTIONS
+HIDDEN_TITLE
 "
 c
 "
@@ -2001,7 +2001,7 @@ keys
 =
 shown
 +
-HIDDEN_SECTIONS
+HIDDEN_TITLE
 +
 dropArea
 +

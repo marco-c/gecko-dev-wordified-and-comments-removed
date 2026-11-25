@@ -785,7 +785,7 @@ isHighlighted
 )
 Modifier
 .
-hiddenSectionBorder
+hiddenBorder
 (
 )
 else
@@ -1007,7 +1007,7 @@ internal
 fun
 Modifier
 .
-hiddenSectionBorder
+hiddenBorder
 (
 isHighlighted
 :
