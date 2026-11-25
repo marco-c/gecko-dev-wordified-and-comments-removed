@@ -1268,6 +1268,21 @@ items
 (
 )
         
+if
+not
+glean_parser
+.
+flows
+.
+flows_in
+(
+{
+category
+:
+probes
+}
+)
+        
 for
 probe_name
 metric

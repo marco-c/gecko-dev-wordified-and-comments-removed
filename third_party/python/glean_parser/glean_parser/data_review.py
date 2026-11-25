@@ -35,6 +35,10 @@ re
 from
 .
 import
+flows
+from
+.
+import
 parser
 from
 .
@@ -226,16 +230,32 @@ list
 )
     
 for
+category_key
 metrics
 in
 all_objects
 .
 value
 .
-values
+items
 (
 )
 :
+        
+if
+flows
+.
+flows_in
+(
+{
+category_key
+:
+metrics
+}
+)
+:
+            
+continue
         
 for
 metric

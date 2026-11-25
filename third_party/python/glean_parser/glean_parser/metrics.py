@@ -41,6 +41,10 @@ Union
 from
 .
 import
+flows
+from
+.
+import
 pings
 from
 .
@@ -3949,6 +3953,9 @@ Ping
 tags
 .
 Tag
+flows
+.
+Flow
 ]
 ]
 ]

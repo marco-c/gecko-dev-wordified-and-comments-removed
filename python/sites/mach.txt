@@ -638,13 +638,6 @@ third_party
 /
 python
 /
-diskcache
-vendored
-:
-third_party
-/
-python
-/
 distro
 vendored
 :

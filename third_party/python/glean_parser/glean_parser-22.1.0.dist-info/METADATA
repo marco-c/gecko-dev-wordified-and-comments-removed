@@ -4,7 +4,7 @@ Version
 :
 2
 .
-4
+5
 Name
 :
 glean
@@ -14,9 +14,9 @@ Version
 :
 22
 .
-0
-.
 1
+.
+0
 Summary
 :
 Parser
@@ -222,14 +222,6 @@ click
 >
 =
 7
-Requires
--
-Dist
-:
-diskcache
->
-=
-4
 Requires
 -
 Dist
