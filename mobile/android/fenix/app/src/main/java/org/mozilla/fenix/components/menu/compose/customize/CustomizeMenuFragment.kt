@@ -594,6 +594,13 @@ components
 settings
 .
 shouldUseExpandedToolbar
+isToolsMenuCustomizationEnabled
+=
+components
+.
+settings
+.
+isToolsMenuCustomizationEnabled
 scope
 =
 viewLifecycleOwner

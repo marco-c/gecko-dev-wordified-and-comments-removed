@@ -2898,6 +2898,13 @@ settings
 shouldUseExpandedToolbar
 )
 }
+defaultSectionsInfo
+=
+BrowserMenuConfiguration
+.
+defaultSectionsInfo
+(
+)
 requiredSectionIds
 =
 BrowserMenuConfiguration
