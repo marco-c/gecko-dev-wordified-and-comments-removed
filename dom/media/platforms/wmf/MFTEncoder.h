@@ -339,6 +339,12 @@ GUID
 aSubtype
 )
 ;
+static
+void
+ClearCache
+(
+)
+;
 struct
 Info
 final
@@ -1022,6 +1028,11 @@ mOutputStreamInfo
 ;
 bool
 mOutputStreamProvidesSample
+;
+bool
+mOutputTimeIsEndTime
+=
+false
 ;
 State
 mState
