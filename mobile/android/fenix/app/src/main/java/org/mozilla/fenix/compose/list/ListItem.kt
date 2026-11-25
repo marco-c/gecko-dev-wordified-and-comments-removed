@@ -1065,7 +1065,7 @@ colors
 (
 )
 .
-leadingIconColor
+leadingContentColor
 onIconClick
 :
 (
@@ -2210,7 +2210,7 @@ colors
 (
 )
 .
-leadingIconColor
+leadingContentColor
 beforeIconPainter
 :
 Painter
@@ -2240,7 +2240,7 @@ colors
 (
 )
 .
-leadingIconColor
+leadingContentColor
 contentPaddingListItem
 :
 PaddingValues
@@ -2370,7 +2370,7 @@ beforeIconTint
 else
 colors
 .
-disabledLeadingIconColor
+disabledLeadingContentColor
 )
 }
 afterListItemAction
@@ -2397,7 +2397,7 @@ afterIconTint
 else
 colors
 .
-disabledTrailingIconColor
+disabledTrailingContentColor
 onClick
 =
 onAfterIconClick
@@ -3757,7 +3757,7 @@ colors
 (
 )
 .
-trailingIconColor
+trailingContentColor
 )
 }
 }
@@ -4285,7 +4285,7 @@ colors
 (
 )
 .
-leadingIconColor
+leadingContentColor
 beforeIconPainter
 :
 Painter
@@ -4310,7 +4310,7 @@ colors
 (
 )
 .
-trailingIconColor
+trailingContentColor
 afterIconPainter
 :
 Painter
@@ -4411,7 +4411,7 @@ beforeIconTint
 else
 colors
 .
-disabledLeadingIconColor
+disabledLeadingContentColor
 )
 }
 )
@@ -4447,7 +4447,7 @@ afterIconTint
 else
 colors
 .
-disabledTrailingIconColor
+disabledTrailingContentColor
 if
 (
 showDivider
@@ -4747,7 +4747,7 @@ colors
 (
 )
 .
-supportingTextColor
+supportingContentColor
 iconTint
 :
 Color
@@ -4758,7 +4758,7 @@ colors
 (
 )
 .
-leadingIconColor
+leadingContentColor
 labelOverflow
 :
 TextOverflow
@@ -5425,7 +5425,7 @@ colors
 (
 )
 .
-disabledLeadingIconColor
+disabledLeadingContentColor
 }
 CompositionLocalProvider
 (
@@ -5682,11 +5682,11 @@ enabled
 )
 colors
 .
-headlineColor
+contentColor
 else
 colors
 .
-disabledHeadlineColor
+disabledContentColor
 overflow
 =
 labelOverflow
@@ -5728,11 +5728,11 @@ enabled
 )
 colors
 .
-supportingTextColor
+supportingContentColor
 else
 colors
 .
-disabledHeadlineColor
+disabledContentColor
 overflow
 =
 TextOverflow

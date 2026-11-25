@@ -2439,11 +2439,11 @@ enabled
 )
 colors
 .
-leadingIconColor
+leadingContentColor
 else
 colors
 .
-disabledLeadingIconColor
+disabledLeadingContentColor
 )
 Text
 (
@@ -2480,11 +2480,11 @@ enabled
 )
 colors
 .
-headlineColor
+contentColor
 else
 colors
 .
-disabledHeadlineColor
+disabledContentColor
 )
 Switch
 (

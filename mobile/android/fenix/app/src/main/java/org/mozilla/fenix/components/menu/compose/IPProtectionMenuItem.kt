@@ -770,11 +770,11 @@ isEnabled
 )
 defaultColors
 .
-headlineColor
+contentColor
 else
 defaultColors
 .
-disabledHeadlineColor
+disabledContentColor
 supportingColor
 =
 MaterialTheme
@@ -800,11 +800,11 @@ isEnabled
 )
 defaultColors
 .
-leadingIconColor
+leadingContentColor
 else
 defaultColors
 .
-disabledLeadingIconColor
+disabledLeadingContentColor
 beforeIconPainter
 =
 painterResource
