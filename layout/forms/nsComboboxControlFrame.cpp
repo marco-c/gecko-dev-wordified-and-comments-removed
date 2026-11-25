@@ -894,6 +894,13 @@ el
 GetRenderedLabel
 (
 aText
+dom
+:
+:
+AltText
+:
+:
+Include
 )
 ;
 }
