@@ -150,9 +150,9 @@ bool
 UseCryptex
 (
 bool
-enabled
+negotiated
 bool
-require
+required
 bool
 sending_session
 )
