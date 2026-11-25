@@ -41,8 +41,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 widget
 {
 using
@@ -579,6 +579,5 @@ cairo_surface_destroy
 source
 )
 ;
-}
 }
 }
