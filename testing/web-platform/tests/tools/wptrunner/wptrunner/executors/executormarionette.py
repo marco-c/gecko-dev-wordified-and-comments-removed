@@ -5899,6 +5899,8 @@ new_environment
 for
 name
 in
+reversed
+(
 old_environment
 .
 get
@@ -5912,6 +5914,7 @@ prefs
 .
 keys
 (
+)
 )
 :
             
@@ -8296,6 +8299,9 @@ screenshot
 full
 =
 False
+readback
+=
+True
 )
         
 if
