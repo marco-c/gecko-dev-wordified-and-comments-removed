@@ -120,7 +120,6 @@ incomingMaxAge
 attribute
 unrestricted
 double
-?
 outgoingMaxAge
 ;
 attribute

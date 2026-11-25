@@ -200,6 +200,9 @@ description
 object
 inputSchema
 ;
+object
+outputSchema
+;
 required
 ToolExecuteCallback
 execute
@@ -350,6 +353,9 @@ description
 ;
 object
 inputSchema
+;
+object
+outputSchema
 ;
 required
 Window

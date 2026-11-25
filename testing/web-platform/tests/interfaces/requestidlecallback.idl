@@ -86,6 +86,8 @@ IdleRequestOptions
 unsigned
 long
 timeout
+=
+0
 ;
 }
 ;

@@ -125,6 +125,12 @@ mixin
 NavigatorCrossOriginStorage
 {
 [
+Exposed
+=
+(
+Window
+Worker
+)
 SameObject
 SecureContext
 ]
