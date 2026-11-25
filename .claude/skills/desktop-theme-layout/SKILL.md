@@ -86,6 +86,8 @@ misbehavior
 Load
 desktop
 -
+theme
+-
 probing
 before
 hand
@@ -391,6 +393,8 @@ file
 (
 desktop
 -
+theme
+-
 probing
 )
 gives
@@ -527,6 +531,8 @@ file
 (
 desktop
 -
+theme
+-
 probing
 )
 section
@@ -563,6 +569,8 @@ platform
 file
 (
 desktop
+-
+theme
 -
 probing
 )
@@ -1145,6 +1153,8 @@ either
 set
 with
 desktop
+-
+theme
 -
 probing
 '
@@ -2604,6 +2614,8 @@ its
 pixels
 read
 desktop
+-
+theme
 -
 probing
 '

@@ -388,6 +388,8 @@ log
 (
 desktop
 -
+theme
+-
 probing
 6
 "

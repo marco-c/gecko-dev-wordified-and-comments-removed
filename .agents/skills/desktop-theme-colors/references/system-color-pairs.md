@@ -103,6 +103,8 @@ grep
 .
 desktop
 -
+theme
+-
 probing
 '
 s

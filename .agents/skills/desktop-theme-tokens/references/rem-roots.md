@@ -54,6 +54,8 @@ skills
 /
 desktop
 -
+theme
+-
 probing
 /
 scripts
@@ -272,6 +274,8 @@ file
 (
 desktop
 -
+theme
+-
 probing
 )
 section
@@ -305,6 +309,8 @@ needs
 "
 in
 desktop
+-
+theme
 -
 probing
 '

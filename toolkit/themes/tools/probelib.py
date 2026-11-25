@@ -32,6 +32,8 @@ so
 do
 desktop
 -
+theme
+-
 probing
 '
 s
@@ -6727,6 +6729,8 @@ STALE_BUILD_HINT
 "
 (
 desktop
+-
+theme
 -
 probing
 references
