@@ -89,7 +89,7 @@ parser
 =
 5
 .
-1
+2
 .
 0
 pypi
@@ -99,9 +99,9 @@ pytest
 =
 9
 .
-1
+2
 .
-1
+0
 pypi
 :
 pywatchman
@@ -133,7 +133,7 @@ design
 =
 0
 .
-7
+8
 .
 0
 pypi
