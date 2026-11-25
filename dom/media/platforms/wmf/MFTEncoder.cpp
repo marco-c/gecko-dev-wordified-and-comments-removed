@@ -833,6 +833,10 @@ LazyLogModule
 sPEMLog
 ;
 static
+StaticMutex
+sActivationMutex
+;
+static
 const
 char
 *
@@ -1760,6 +1764,12 @@ mName
 get
 (
 )
+)
+;
+StaticMutexAutoLock
+lock
+(
+sActivationMutex
 )
 ;
 hr
@@ -3292,6 +3302,15 @@ encoder
 ;
 HRESULT
 hr
+;
+{
+StaticMutexAutoLock
+lock
+(
+sActivationMutex
+)
+;
+hr
 =
 f
 .
@@ -3317,6 +3336,7 @@ encoder
 )
 )
 ;
+}
 if
 (
 SUCCEEDED
