@@ -372,7 +372,7 @@ attribution
 .
 containerType
 '
-window
+iframe
 '
 )
 ;
@@ -382,6 +382,11 @@ attribution
 .
 containerId
 '
+child
+-
+iframe
+-
+id
 '
 )
 ;
@@ -391,6 +396,11 @@ attribution
 .
 containerName
 '
+child
+-
+iframe
+-
+name
 '
 )
 ;
@@ -399,8 +409,7 @@ assert_equals
 attribution
 .
 containerSrc
-'
-'
+child_url
 )
 ;
 observer
