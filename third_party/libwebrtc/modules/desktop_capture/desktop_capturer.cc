@@ -592,7 +592,7 @@ DesktopCapture
 .
 Win
 .
-WgcWindowFallbackSelectSource
+WgcWindowFallbackStartOutcome
 "
 )
 ;
