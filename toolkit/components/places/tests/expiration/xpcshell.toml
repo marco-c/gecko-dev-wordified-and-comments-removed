@@ -45,6 +45,13 @@ js
 ]
 [
 "
+test_expire_favicons_pages
+.
+js
+"
+]
+[
+"
 test_idle_daily
 .
 js
