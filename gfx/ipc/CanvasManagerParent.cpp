@@ -742,12 +742,12 @@ mContentId
 i
 -
 >
-OtherPidMaybeInvalid
+OtherChildIDMaybeInvalid
 (
 )
 =
 =
-OtherPidMaybeInvalid
+OtherChildIDMaybeInvalid
 (
 )
 )

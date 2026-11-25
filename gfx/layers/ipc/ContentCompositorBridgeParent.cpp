@@ -2545,15 +2545,12 @@ IsSameProcess
 const
 {
 return
-OtherPid
+OtherChildID
 (
 )
 =
 =
-base
-:
-:
-GetCurrentProcId
+XRE_GetChildID
 (
 )
 ;
