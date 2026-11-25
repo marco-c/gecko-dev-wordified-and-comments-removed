@@ -6402,6 +6402,13 @@ ResolveParagraphWithinBlock
 aBpd
 )
 ;
+aBpd
+-
+>
+mPrevContent
+=
+content
+;
 if
 (
 !
