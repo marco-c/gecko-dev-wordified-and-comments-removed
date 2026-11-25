@@ -1310,6 +1310,8 @@ ok
 (
 tabsResult
 .
+tabs
+.
 some
 (
 item
@@ -2681,6 +2683,8 @@ Assert
 ok
 (
 tabsResult
+.
+tabs
 .
 some
 (
@@ -4993,6 +4997,8 @@ toolMessages
 content
 .
 body
+.
+tabs
 )
 "
 The
