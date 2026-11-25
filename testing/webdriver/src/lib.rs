@@ -20,10 +20,6 @@ base64
 ;
 extern
 crate
-cookie
-;
-extern
-crate
 icu_segmenter
 ;
 #
