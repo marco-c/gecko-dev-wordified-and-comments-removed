@@ -2323,9 +2323,6 @@ false
 if
 (
 aManager
-&
-&
-aManager
 -
 >
 mLinkStatus
