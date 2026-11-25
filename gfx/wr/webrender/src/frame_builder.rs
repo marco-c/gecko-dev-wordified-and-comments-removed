@@ -1087,7 +1087,7 @@ path_rendering_enabled
 :
 bool
 pub
-quad_rounded_clip_enabled
+quad_rounded_clip_zero_radius_only
 :
 bool
 pub
@@ -2784,9 +2784,8 @@ DebugFlags
 :
 DISABLE_DIRECT_PATH_FILL
 )
-quad_rounded_clip_enabled
+quad_rounded_clip_zero_radius_only
 :
-!
 scene
 .
 config

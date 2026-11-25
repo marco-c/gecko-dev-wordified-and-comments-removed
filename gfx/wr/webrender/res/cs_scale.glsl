@@ -418,6 +418,7 @@ swgl_commitTextureLinearRGBA8
 sColor0
 vUv
 vUvRect
+SWGL_NO_CLIP_RECT
 )
 ;
 }

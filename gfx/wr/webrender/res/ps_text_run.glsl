@@ -2796,6 +2796,7 @@ swgl_commitTextureLinearRGBA8
 sColor0
 v_uv
 v_uv_bounds
+SWGL_NO_CLIP_RECT
 )
 ;
 #
@@ -2814,6 +2815,7 @@ sColor0
 v_uv
 v_uv_bounds
 v_color
+SWGL_NO_CLIP_RECT
 )
 ;
 }
@@ -2825,6 +2827,7 @@ sColor0
 v_uv
 v_uv_bounds
 v_color
+SWGL_NO_CLIP_RECT
 )
 ;
 }

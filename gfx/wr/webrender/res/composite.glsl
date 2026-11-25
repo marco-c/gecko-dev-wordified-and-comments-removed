@@ -1588,6 +1588,7 @@ sColor0
 vUv
 uvBounds
 color
+SWGL_NO_CLIP_RECT
 )
 ;
 }
@@ -1598,6 +1599,7 @@ swgl_commitTextureRGBA8
 sColor0
 vUv
 uvBounds
+SWGL_NO_CLIP_RECT
 )
 ;
 }

@@ -731,6 +731,7 @@ swgl_commitTextureRGBA8
 sColor0
 uv
 vUvSampleBounds
+SWGL_NO_CLIP_RECT
 )
 ;
 }
