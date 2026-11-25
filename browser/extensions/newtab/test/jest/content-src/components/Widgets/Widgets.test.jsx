@@ -549,17 +549,6 @@ enabled
 "
 ;
 const
-PREF_WIDGETS_STOCKS_ENABLED
-=
-"
-widgets
-.
-stocks
-.
-enabled
-"
-;
-const
 PREF_WIDGETS_RECENT_SEARCHES_ENABLED
 =
 "
@@ -2385,7 +2374,7 @@ calls
 .
 toHaveLength
 (
-12
+11
 )
 ;
 for
@@ -2399,7 +2388,6 @@ PREF_WIDGETS_TIMER_ENABLED
 PREF_WIDGETS_CLOCKS_ENABLED
 PREF_WIDGETS_PRIVACY_ENABLED
 PREF_WIDGETS_CROSSWORD_ENABLED
-PREF_WIDGETS_STOCKS_ENABLED
 PREF_WIDGETS_PICTURE_OF_THE_DAY_ENABLED
 PREF_WIDGETS_RECENT_SEARCHES_ENABLED
 PREF_WIDGETS_HOROSCOPES_ENABLED
@@ -8022,7 +8010,7 @@ weather
 size
 "
 }
-stocks
+privacy
 :
 {
 enabled
@@ -8030,7 +8018,7 @@ enabled
 "
 widgets
 .
-stocks
+privacy
 .
 enabled
 "
@@ -8041,7 +8029,7 @@ widgets
 .
 system
 .
-stocks
+privacy
 .
 enabled
 "
@@ -8050,7 +8038,7 @@ size
 "
 widgets
 .
-stocks
+privacy
 .
 size
 "
@@ -8949,7 +8937,7 @@ medium
 ]
 [
 "
-stocks
+privacy
 "
 "
 medium
@@ -9083,7 +9071,7 @@ makeNovaWidgetState
 [
 [
 "
-stocks
+privacy
 "
 "
 medium
@@ -9238,7 +9226,7 @@ medium
 ]
 [
 "
-stocks
+privacy
 "
 "
 medium
@@ -18622,7 +18610,7 @@ widgets
 .
 system
 .
-stocks
+privacy
 .
 enabled
 "
@@ -18631,7 +18619,7 @@ true
 "
 widgets
 .
-stocks
+privacy
 .
 enabled
 "
@@ -19787,7 +19775,7 @@ order
 "
 clocks
 lists
-stocks
+privacy
 "
 "
 widgets
@@ -19801,7 +19789,7 @@ resident
 "
 widgets
 .
-stocks
+privacy
 .
 size
 "
@@ -19851,7 +19839,7 @@ widget
 id
 "
 "
-stocks
+privacy
 "
 )
 ;
@@ -19989,7 +19977,7 @@ false
 "
 widgets
 .
-stocks
+privacy
 .
 enabled
 "
@@ -20373,7 +20361,7 @@ order
 "
 clocks
 lists
-stocks
+privacy
 "
 }
 )
@@ -20410,7 +20398,7 @@ ad
 lists
 "
 "
-stocks
+privacy
 "
 ]
 )
@@ -20458,7 +20446,7 @@ order
 "
 clocks
 lists
-stocks
+privacy
 "
 }
 )
@@ -20583,7 +20571,7 @@ ad
 lists
 "
 "
-stocks
+privacy
 "
 ]
 )

@@ -326,7 +326,7 @@ widgets
 .
 system
 .
-stocks
+focusTimer
 .
 enabled
 "
@@ -335,7 +335,7 @@ true
 "
 widgets
 .
-stocks
+focusTimer
 .
 enabled
 "
@@ -948,7 +948,7 @@ PREF_WIDGETS_ORDER
 :
 "
 clocks
-stocks
+focusTimer
 lists
 "
 }
@@ -1160,7 +1160,7 @@ prefsWith
 clocks
 "
 "
-stocks
+focusTimer
 "
 ]
 )
@@ -1192,7 +1192,7 @@ lists
 clocks
 "
 "
-stocks
+focusTimer
 "
 ]
 '

@@ -8725,7 +8725,7 @@ widgets
 .
 system
 .
-stocks
+privacy
 .
 enabled
 "
@@ -8734,7 +8734,7 @@ true
 "
 widgets
 .
-stocks
+privacy
 .
 enabled
 "
@@ -8879,7 +8879,7 @@ pictureOfTheDay
 clocks
 "
 "
-stocks
+privacy
 "
 ]
 )
@@ -9096,7 +9096,7 @@ lists
 focusTimer
 "
 "
-stocks
+privacy
 "
 ]
 )
@@ -9938,7 +9938,7 @@ focusTimer
 lists
 "
 "
-stocks
+privacy
 "
 ]
 )
@@ -9991,7 +9991,7 @@ lists
 clocks
 "
 "
-stocks
+privacy
 "
 "
 focusTimer
@@ -10136,7 +10136,7 @@ lists
 clocks
 "
 "
-stocks
+privacy
 "
 ]
 )
@@ -10155,7 +10155,7 @@ toEqual
 clocks
 "
 "
-stocks
+privacy
 "
 ]
 )

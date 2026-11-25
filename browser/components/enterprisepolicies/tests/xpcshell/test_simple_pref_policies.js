@@ -3255,7 +3255,7 @@ Blocked
 :
 [
 "
-stocks
+clocks
 "
 ]
 }
@@ -3275,7 +3275,7 @@ stream
 .
 widgets
 .
-stocks
+clocks
 .
 enabled
 "
