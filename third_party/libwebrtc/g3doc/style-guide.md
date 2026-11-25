@@ -2595,7 +2595,7 @@ rtc_static_library
 |
 test
 |
-rtc_test
+rtc_cc_test
 |
 #
 #
