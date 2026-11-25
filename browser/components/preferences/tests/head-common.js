@@ -1480,6 +1480,7 @@ removeCurrentTab
 return
 {
 selectedPane
+win
 }
 ;
 }
