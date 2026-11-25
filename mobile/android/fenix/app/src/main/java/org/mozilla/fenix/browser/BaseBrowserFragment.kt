@@ -9139,6 +9139,9 @@ BrowserScreenState
 {
 BrowserScreenStore
 (
+initialState
+=
+it
 middleware
 =
 listOf
