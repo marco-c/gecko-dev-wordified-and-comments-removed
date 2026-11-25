@@ -470,7 +470,9 @@ python
 -
 -
 virtualenv
-wpt
+desktop
+-
+theme
 .
 claude
 /

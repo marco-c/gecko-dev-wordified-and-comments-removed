@@ -108,7 +108,9 @@ python
 -
 -
 virtualenv
-wpt
+desktop
+-
+theme
 .
 claude
 /
@@ -140,7 +142,9 @@ python
 -
 -
 virtualenv
-wpt
+desktop
+-
+theme
 .
 agents
 /

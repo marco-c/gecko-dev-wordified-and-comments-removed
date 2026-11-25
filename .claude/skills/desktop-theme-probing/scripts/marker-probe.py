@@ -125,7 +125,9 @@ python
 -
 -
 virtualenv
-wpt
+desktop
+-
+theme
 -
 -
 marker

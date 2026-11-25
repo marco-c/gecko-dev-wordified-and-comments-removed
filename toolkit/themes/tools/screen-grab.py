@@ -122,7 +122,9 @@ python
 -
 -
 virtualenv
-wpt
+desktop
+-
+theme
 which
 pins
 Pillow
@@ -756,7 +758,9 @@ python
 -
 -
 virtualenv
-wpt
+desktop
+-
+theme
 "
         
 f

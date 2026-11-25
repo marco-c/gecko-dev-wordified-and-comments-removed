@@ -36,7 +36,9 @@ python
 -
 -
 virtualenv
-wpt
+desktop
+-
+theme
 the
 mach
 virtualenv
@@ -51,7 +53,9 @@ python
 -
 -
 virtualenv
-wpt
+desktop
+-
+theme
 zoom
 -
 pair
