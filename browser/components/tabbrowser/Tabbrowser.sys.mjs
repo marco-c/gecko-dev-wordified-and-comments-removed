@@ -35398,6 +35398,17 @@ uriForDuplicateCheck
 tab
 )
 {
+if
+(
+tab
+.
+closing
+)
+{
+return
+null
+;
+}
 let
 uri
 =
