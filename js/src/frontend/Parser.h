@@ -4190,7 +4190,7 @@ privateAccessors
 0
 ;
 bool
-hasOnlyInlinableFields
+inlinedPrefixOpen
 =
 true
 ;
