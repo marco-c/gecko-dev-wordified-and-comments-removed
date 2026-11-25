@@ -204,6 +204,12 @@ StartShortCircuiting
 override
 ;
 void
+StopShortCircuiting
+(
+)
+override
+;
+void
 ManageFrame
 (
 std
@@ -229,8 +235,10 @@ default
 private
 :
 void
-StartShortCircuitingOnNetworkSequence
+SetShortCircuiting
 (
+bool
+short_circuit
 )
 ;
 RTC_NO_UNIQUE_ADDRESS

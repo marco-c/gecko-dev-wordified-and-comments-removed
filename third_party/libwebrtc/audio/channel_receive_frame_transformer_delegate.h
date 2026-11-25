@@ -232,6 +232,12 @@ StartShortCircuiting
 override
 ;
 void
+StopShortCircuiting
+(
+)
+override
+;
+void
 ReceiveFrame
 (
 std
@@ -265,6 +271,13 @@ default
 ;
 private
 :
+void
+SetShortCircuiting
+(
+bool
+short_circuit
+)
+;
 RTC_NO_UNIQUE_ADDRESS
 SequenceChecker
 sequence_checker_

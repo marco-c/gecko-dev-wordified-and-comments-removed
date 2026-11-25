@@ -418,6 +418,12 @@ StartShortCircuiting
 override
 ;
 void
+StopShortCircuiting
+(
+)
+override
+;
+void
 SendVideo
 (
 std

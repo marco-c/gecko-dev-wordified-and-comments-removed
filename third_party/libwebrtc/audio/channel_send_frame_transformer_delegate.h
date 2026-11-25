@@ -258,6 +258,12 @@ StartShortCircuiting
 override
 ;
 void
+StopShortCircuiting
+(
+)
+override
+;
+void
 SendFrame
 (
 std

@@ -729,6 +729,13 @@ StartShortCircuiting
 )
 {
 }
+virtual
+void
+StopShortCircuiting
+(
+)
+{
+}
 protected
 :
 ~
