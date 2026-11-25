@@ -3630,6 +3630,12 @@ case
 ScalabilityMode
 :
 :
+kL2T2_KEY_SHIFT
+:
+case
+ScalabilityMode
+:
+:
 kL2T3
 :
 case
