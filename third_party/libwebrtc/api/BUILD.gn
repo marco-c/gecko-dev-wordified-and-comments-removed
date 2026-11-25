@@ -9483,6 +9483,14 @@ logging
 /
 test
 :
+scoped_logging_config
+"
+"
+.
+.
+/
+test
+:
 test_support
 "
 "
