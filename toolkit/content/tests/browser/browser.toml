@@ -895,6 +895,13 @@ js
 ]
 [
 "
+browser_findbar_highlight_editing_host
+.
+js
+"
+]
+[
+"
 browser_findbar_marks
 .
 js
