@@ -615,13 +615,6 @@ js
 ]
 [
 "
-browser_smartwindow_context_url
-.
-js
-"
-]
-[
-"
 browser_smartwindow_conversation_state
 .
 js
@@ -986,13 +979,6 @@ js
 [
 "
 browser_smartwindow_request_response_telemetry
-.
-js
-"
-]
-[
-"
-browser_smartwindow_resume_card
 .
 js
 "
