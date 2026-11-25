@@ -7263,7 +7263,7 @@ aboutModuleFlags
 nsIAboutModule
 :
 :
-URI_CAN_LOAD_IN_CHILD
+URI_IS_ERROR_PAGE
 )
 &
 &
