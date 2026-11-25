@@ -772,6 +772,9 @@ ZSTD_TRACE
 ZSTD_TraceCtx
 traceCtx
 ;
+size_t
+traceDictSize
+;
 #
 endif
 }
