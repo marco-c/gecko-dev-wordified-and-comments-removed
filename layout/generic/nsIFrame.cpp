@@ -17998,6 +17998,14 @@ maskUsage
 UsingMaskOrClipPath
 (
 )
+&
+&
+!
+style
+.
+IsRootElementStyle
+(
+)
 ;
 const
 bool
