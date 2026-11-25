@@ -132,6 +132,9 @@ DIRS
 actors
 "
 "
+driver
+"
+"
 tests
 "
 ]
