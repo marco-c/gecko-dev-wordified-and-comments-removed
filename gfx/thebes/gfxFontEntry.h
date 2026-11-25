@@ -2292,13 +2292,10 @@ mLock
 RefPtr
 map
 =
-static_cast
-<
-gfxCharacterMap
-*
->
-(
 mCharacterMap
+.
+load
+(
 )
 ;
 return
