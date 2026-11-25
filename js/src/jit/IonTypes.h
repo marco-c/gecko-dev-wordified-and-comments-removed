@@ -3308,6 +3308,13 @@ MAX_UNCHECKED_LEAF_FRAME_SIZE
 =
 64
 ;
+static
+const
+uint32_t
+MAX_UNCHECKED_UNDERFLOW_SIZE
+=
+4096
+;
 using
 TruncFlags
 =
