@@ -179,6 +179,13 @@ h
 #
 include
 "
+nsDOMMutationObserver
+.
+h
+"
+#
+include
+"
 nsIFrame
 .
 h
@@ -1390,6 +1397,12 @@ isEmpty
 return
 ;
 }
+nsAutoAnimationMutationBatch
+mb
+(
+mDocument
+)
+;
 TickState
 dummyState
 ;
