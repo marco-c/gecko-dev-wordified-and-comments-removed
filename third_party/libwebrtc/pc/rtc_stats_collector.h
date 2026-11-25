@@ -994,6 +994,7 @@ RequestInfo
 request
 )
 ;
+static
 void
 DeliverReport
 (
@@ -1422,6 +1423,7 @@ DataChannelStats
 data_channel_stats
 )
 ;
+static
 scoped_refptr
 <
 RTCStatsReport
