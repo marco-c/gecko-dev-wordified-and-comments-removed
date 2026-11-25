@@ -6372,13 +6372,12 @@ attr
 windowElement
 -
 >
-GetAttribute
+GetAttr
 (
-u
-"
+nsGkAtoms
+:
+:
 windowclass
-"
-_ns
 windowClassAttr
 )
 ;

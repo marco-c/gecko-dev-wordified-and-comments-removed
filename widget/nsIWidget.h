@@ -4050,6 +4050,17 @@ xulWinName
 }
 virtual
 void
+UpdateWindowClass
+(
+const
+nsAString
+&
+aXulWinClass
+)
+{
+}
+virtual
+void
 SetIsEarlyBlankWindow
 (
 bool
