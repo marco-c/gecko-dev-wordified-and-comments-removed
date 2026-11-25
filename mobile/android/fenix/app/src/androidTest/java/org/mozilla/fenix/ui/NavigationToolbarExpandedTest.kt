@@ -813,6 +813,12 @@ website
 url
 )
 {
+verifyPageContent
+(
+website
+.
+content
+)
 }
 navigationToolbar
 (
@@ -3326,7 +3332,7 @@ homeScreen
 composeTestRule
 )
 {
-verifyEdgeToEdgeWallpaperApplied
+verifyGradientWallpaperApplied
 (
 composeTestRule
 )
