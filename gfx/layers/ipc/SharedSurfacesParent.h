@@ -234,11 +234,8 @@ SurfaceDescriptorShared
 &
 &
 aDesc
-base
-:
-:
-ProcessId
-aPid
+GeckoChildID
+aChildID
 )
 ;
 static
