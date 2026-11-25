@@ -52,9 +52,9 @@ setupPolicyEngineWithJson
 policies
 :
 {
-DisablePrivateBrowsing
+PrivateBrowsingModeAvailability
 :
-true
+1
 }
 }
 )
