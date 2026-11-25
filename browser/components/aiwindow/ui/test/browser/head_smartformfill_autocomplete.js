@@ -342,7 +342,7 @@ name
 version
 :
 "
-v1
+v2
 .
 0
 "
@@ -352,7 +352,7 @@ v1
 version
 :
 "
-v1
+v2
 .
 0
 "
@@ -408,7 +408,7 @@ prompts
 version
 :
 "
-v1
+v2
 .
 0
 "

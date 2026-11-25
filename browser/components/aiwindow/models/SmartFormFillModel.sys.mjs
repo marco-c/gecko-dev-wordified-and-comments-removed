@@ -2673,6 +2673,13 @@ substring
 0
 TITLE_CHAR_LIMIT
 )
+locale
+:
+Services
+.
+locale
+.
+appLocaleAsBCP47
 pageText
 :
 request
@@ -3499,6 +3506,13 @@ substring
 0
 TITLE_CHAR_LIMIT
 )
+locale
+:
+Services
+.
+locale
+.
+appLocaleAsBCP47
 fields
 :
 JSON
