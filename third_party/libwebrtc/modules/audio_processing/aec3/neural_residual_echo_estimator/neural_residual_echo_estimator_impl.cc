@@ -3270,7 +3270,7 @@ TaskQueueFactory
 Priority
 :
 :
-kLow
+kNormal
 )
 ;
 const
