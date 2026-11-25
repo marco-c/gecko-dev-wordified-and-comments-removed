@@ -1049,6 +1049,13 @@ RTC_DCHECK_RUN_ON
 signaling_thread_checker_
 )
 ;
+RtpReceiverBase
+:
+:
+Stop
+(
+)
+;
 source_
 -
 >
