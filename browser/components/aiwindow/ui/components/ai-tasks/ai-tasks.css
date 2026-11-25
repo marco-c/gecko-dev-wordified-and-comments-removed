@@ -409,6 +409,19 @@ index
 :
 999
 ;
+media
+(
+prefers
+-
+reduced
+-
+motion
+:
+no
+-
+preference
+)
+{
 animation
 :
 slideInRight
@@ -419,6 +432,7 @@ ease
 -
 out
 ;
+}
 }
 .
 success
