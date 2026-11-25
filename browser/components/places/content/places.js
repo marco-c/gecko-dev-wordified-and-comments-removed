@@ -4796,6 +4796,14 @@ focus
 (
 )
 ;
+this
+.
+searchFilter
+.
+select
+(
+)
+;
 }
 updatePlaceholder
 (
