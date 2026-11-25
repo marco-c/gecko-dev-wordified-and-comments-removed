@@ -6806,7 +6806,12 @@ uint32_t
 srcMemIndex
 )
 ;
-void
+[
+[
+nodiscard
+]
+]
+bool
 memCopyInlineM32
 (
 )

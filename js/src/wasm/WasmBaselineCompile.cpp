@@ -34040,12 +34040,10 @@ signedLength
 MaxInlineMemoryCopyLength
 )
 {
+return
 memCopyInlineM32
 (
 )
-;
-return
-true
 ;
 }
 }
