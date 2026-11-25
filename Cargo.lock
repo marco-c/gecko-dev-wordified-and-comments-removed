@@ -14391,7 +14391,7 @@ version
 .
 2
 .
-3
+2
 "
 source
 =
@@ -14419,7 +14419,7 @@ index
 checksum
 =
 "
-afa489199eaffb1211795df1c6236ce1ad0d41a6fa45250add73e3b02420f06e
+cb4cb245038516f5f85277875cdaa4f7d2c9a0fa0468de06ed190163b1581fcf
 "
 dependencies
 =
@@ -47456,7 +47456,7 @@ version
 .
 5
 .
-9
+7
 "
 source
 =
@@ -47484,7 +47484,7 @@ index
 checksum
 =
 "
-f00cd2407bb42c0ef17be88d4cf020f5cceffd121665bac9b8b9493a369b3b1a
+08bc136a29a3d1758e07a9cca267be308aeebf5cfd5a10f3f67ab2097683ef5b
 "
 dependencies
 =
@@ -47502,9 +47502,6 @@ encoding
 "
 "
 serde
-"
-"
-serde_derive
 "
 ]
 [
