@@ -301,6 +301,12 @@ AppleVTEncoderTest
 CopiesPackedInputBeforeUnmap
 )
 ;
+FRIEND_TEST
+(
+AppleVTEncoderTest
+ReadsBackIOSurfaceWithoutPixelFormat
+)
+;
 enum
 class
 EncodeResult
