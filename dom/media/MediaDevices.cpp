@@ -2046,8 +2046,6 @@ device
 label
 "
 _ns
-{
-}
 translation
 rv
 )

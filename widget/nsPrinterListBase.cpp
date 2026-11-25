@@ -824,8 +824,6 @@ l10n
 FormatValueSync
 (
 key
-{
-}
 name
 rv
 )
