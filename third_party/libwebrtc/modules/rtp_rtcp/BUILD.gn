@@ -4197,7 +4197,7 @@ if
 build_with_chromium
 )
 {
-rtc_test
+rtc_executable
 (
 "
 test_packet_masks_metrics
@@ -4263,6 +4263,17 @@ checks
 test
 :
 fileutils
+"
+"
+.
+.
+/
+.
+.
+/
+test
+:
+test_main
 "
 "
 .

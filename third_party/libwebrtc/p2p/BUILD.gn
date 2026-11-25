@@ -11986,7 +11986,7 @@ wrapping_active_ice_controller_unittest
 "
 ]
 }
-rtc_test
+rtc_executable
 (
 "
 dtls_ice_integration_bench
@@ -12315,6 +12315,14 @@ create_test_field_trials
 test
 :
 run_loop
+"
+"
+.
+.
+/
+test
+:
+test_main
 "
 "
 .
