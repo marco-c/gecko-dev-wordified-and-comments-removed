@@ -903,6 +903,10 @@ x86
 mingw
 -
 clang
+with
+libc
++
++
 )
 -
 maintained

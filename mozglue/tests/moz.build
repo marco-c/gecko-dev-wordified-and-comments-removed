@@ -190,15 +190,11 @@ CONFIG
 CC_TYPE
 "
 ]
-in
-(
-"
-gcc
-"
+=
+=
 "
 clang
 "
-)
 :
 #
 This

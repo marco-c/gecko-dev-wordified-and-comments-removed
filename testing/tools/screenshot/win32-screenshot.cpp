@@ -185,15 +185,6 @@ return
 1
 ;
 }
-#
-ifdef
-__MINGW32__
-extern
-"
-C
-"
-#
-endif
 int
 wmain
 (

@@ -494,15 +494,11 @@ CONFIG
 CC_TYPE
 "
 ]
-in
-(
+=
+=
 "
 clang
 "
-"
-gcc
-"
-)
 :
 WIN32_EXE_LDFLAGS
 +
