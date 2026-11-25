@@ -173,11 +173,8 @@ aData
 RemoteWorkerObserver
 *
 aObserver
-base
-:
-:
-ProcessId
-aProcessId
+GeckoChildID
+aChildID
 )
 {
 AssertIsInMainProcess
@@ -231,7 +228,7 @@ Launch
 (
 controller
 aData
-aProcessId
+aChildID
 )
 ;
 return

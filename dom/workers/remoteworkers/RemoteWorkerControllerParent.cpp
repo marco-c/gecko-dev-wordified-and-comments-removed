@@ -121,7 +121,6 @@ Create
 (
 aRemoteWorkerData
 this
-0
 )
 )
 {

@@ -323,11 +323,8 @@ aWindowID
 UniqueMessagePortId
 &
 aPortIdentifier
-base
-:
-:
-ProcessId
-aProcessId
+GeckoChildID
+aChildID
 )
 {
 :
@@ -375,7 +372,7 @@ Create
 (
 aData
 this
-aProcessId
+aChildID
 )
 ;
 if
