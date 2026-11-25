@@ -1286,7 +1286,7 @@ surfaceContainerSelected
 =
 NovaColors
 .
-Gray65
+Gray60
 autofillText
 =
 NovaColors
@@ -2017,11 +2017,6 @@ onErrorContainer
 NovaColors
 .
 Gray20
-outline
-=
-NovaColors
-.
-Gray50
 outlineVariant
 =
 NovaColors
@@ -2031,7 +2026,7 @@ surfaceBright
 =
 NovaColors
 .
-Gray80
+Gray75
 surfaceDim
 =
 NovaColors
@@ -2051,7 +2046,7 @@ surfaceContainerHighest
 =
 NovaColors
 .
-Gray80
+Gray75
 surfaceContainerLow
 =
 NovaColors
