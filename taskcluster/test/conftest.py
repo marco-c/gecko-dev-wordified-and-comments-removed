@@ -721,6 +721,32 @@ set
 (
 )
         
+task_id
+=
+next
+(
+t
+.
+task_id
+for
+t
+in
+graph
+.
+tasks
+.
+values
+(
+)
+if
+t
+.
+label
+=
+=
+label
+)
+        
 for
 task
 in
@@ -734,7 +760,7 @@ values
 :
             
 if
-label
+task_id
 in
 task
 .
