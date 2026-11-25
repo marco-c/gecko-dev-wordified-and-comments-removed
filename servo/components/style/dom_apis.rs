@@ -1092,7 +1092,7 @@ e
 ;
 }
 fn
-invalidated_sibling
+invalidated_sibling_subtree
 (
 &
 mut
@@ -1103,7 +1103,13 @@ E
 _of
 :
 E
+invalidated_sibling
+:
+bool
 )
+{
+if
+invalidated_sibling
 {
 Q
 :
@@ -1116,6 +1122,7 @@ results
 e
 )
 ;
+}
 }
 fn
 recursion_limit_exceeded
