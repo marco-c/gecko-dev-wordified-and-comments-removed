@@ -787,6 +787,13 @@ js
 ]
 [
 "
+test_auth_scheme_disabled
+.
+js
+"
+]
+[
+"
 test_authentication
 .
 js

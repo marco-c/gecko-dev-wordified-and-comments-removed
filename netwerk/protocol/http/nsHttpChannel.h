@@ -1898,6 +1898,10 @@ ProcessFailedProxyConnect
 (
 uint32_t
 httpStatus
+nsresult
+aStatus
+=
+NS_OK
 )
 ;
 void
