@@ -8236,6 +8236,11 @@ scalability_structure_unittest
 "
 svc
 :
+scalable_video_controller_no_layering_unittest
+"
+"
+svc
+:
 simulcast_to_svc_converter_unittest
 "
 "

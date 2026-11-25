@@ -3576,6 +3576,12 @@ case
 ScalabilityMode
 :
 :
+kL1T1
+:
+case
+ScalabilityMode
+:
+:
 kL1T2
 :
 case
