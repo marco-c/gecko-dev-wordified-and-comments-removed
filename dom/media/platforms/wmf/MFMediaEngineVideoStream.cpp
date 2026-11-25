@@ -1953,6 +1953,15 @@ __func__
 }
 if
 (
+mRawDataQueueForGeneratingOutput
+.
+GetSize
+(
+)
+>
+0
+&
+&
 !
 IsDCompImageReady
 (
