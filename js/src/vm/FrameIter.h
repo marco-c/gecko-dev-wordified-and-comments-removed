@@ -652,7 +652,7 @@ resumePCinCurrentFrame
 const
 ;
 void
-skipNonScriptedJSFrames
+skipNonScriptedFrames
 (
 )
 ;

@@ -1153,6 +1153,12 @@ case
 CallSiteKind
 :
 :
+ReturnCallFallback
+:
+case
+CallSiteKind
+:
+:
 StackSwitch
 :
 case
@@ -4103,13 +4109,10 @@ begin
 ;
 funcDefRanges_
 .
-infallibleAppend
-(
-BytecodeRange
+infallibleEmplaceBack
 (
 bytecodeOffset
 bodyLength
-)
 )
 ;
 }

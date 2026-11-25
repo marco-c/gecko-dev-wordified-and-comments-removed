@@ -26794,7 +26794,7 @@ true
 {
 iter
 .
-skipNonScriptedJSFrames
+skipNonScriptedFrames
 (
 )
 ;
