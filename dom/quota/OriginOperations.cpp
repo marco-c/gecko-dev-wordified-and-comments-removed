@@ -3344,12 +3344,10 @@ _ns
 +
 IntToCString
 (
-static_cast
-<
-uint64_t
->
-(
 mIterations
+.
+load
+(
 )
 )
 +
