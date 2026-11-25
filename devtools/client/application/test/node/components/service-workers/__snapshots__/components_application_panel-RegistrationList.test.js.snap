@@ -97,6 +97,11 @@ registrations
 -
 container__item
 "
+isDebugEnabled
+=
+{
+true
+}
 key
 =
 "
@@ -358,6 +363,11 @@ registrations
 -
 container__item
 "
+isDebugEnabled
+=
+{
+true
+}
 key
 =
 "
@@ -474,6 +484,11 @@ registrations
 -
 container__item
 "
+isDebugEnabled
+=
+{
+true
+}
 key
 =
 "
@@ -590,6 +605,11 @@ registrations
 -
 container__item
 "
+isDebugEnabled
+=
+{
+true
+}
 key
 =
 "

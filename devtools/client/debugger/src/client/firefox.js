@@ -29,6 +29,7 @@ create
 import
 {
 prefs
+features
 }
 from
 "
@@ -257,6 +258,11 @@ if
 descriptorFront
 .
 isLocalTab
+&
+&
+features
+.
+windowlessServiceWorkers
 )
 {
 targetCommand
