@@ -315,10 +315,9 @@ if
 (
 NS_WARN_IF
 (
-!
 aPingName
 .
-Length
+IsEmpty
 (
 )
 )
@@ -328,8 +327,6 @@ return
 NS_ERROR_FAILURE
 ;
 }
-else
-{
 auto
 callback
 =
@@ -389,7 +386,6 @@ extract
 aReason
 )
 ;
-}
 }
 fog_submit_ping_by_id
 (
