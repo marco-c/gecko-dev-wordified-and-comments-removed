@@ -249,14 +249,6 @@ androidx
 .
 compose
 .
-material3
-.
-rememberModalBottomSheetState
-import
-androidx
-.
-compose
-.
 runtime
 .
 Composable
@@ -480,6 +472,16 @@ mozilla
 fenix
 .
 R
+import
+org
+.
+mozilla
+.
+fenix
+.
+compose
+.
+rememberModalSheetState
 import
 org
 .
@@ -758,7 +760,7 @@ Modifier
 val
 sheetState
 =
-rememberModalBottomSheetState
+rememberModalSheetState
 (
 skipPartiallyExpanded
 =
@@ -1574,7 +1576,7 @@ Theme
 val
 sheetState
 =
-rememberModalBottomSheetState
+rememberModalSheetState
 (
 skipPartiallyExpanded
 =
@@ -1644,7 +1646,7 @@ Theme
 val
 sheetState
 =
-rememberModalBottomSheetState
+rememberModalSheetState
 (
 skipPartiallyExpanded
 =
@@ -1714,7 +1716,7 @@ Theme
 val
 sheetState
 =
-rememberModalBottomSheetState
+rememberModalSheetState
 (
 skipPartiallyExpanded
 =
@@ -1784,7 +1786,7 @@ Theme
 val
 sheetState
 =
-rememberModalBottomSheetState
+rememberModalSheetState
 (
 skipPartiallyExpanded
 =
@@ -1992,7 +1994,7 @@ collectAsState
 val
 sheetState
 =
-rememberModalBottomSheetState
+rememberModalSheetState
 (
 skipPartiallyExpanded
 =

@@ -201,14 +201,6 @@ androidx
 .
 compose
 .
-material3
-.
-rememberModalBottomSheetState
-import
-androidx
-.
-compose
-.
 runtime
 .
 Composable
@@ -399,6 +391,16 @@ mozilla
 .
 fenix
 .
+compose
+.
+rememberModalSheetState
+import
+org
+.
+mozilla
+.
+fenix
+.
 termsofuse
 .
 experimentation
@@ -535,10 +537,10 @@ of
 the
 bottom
 sheet
-*
 after
 sheet
 animates
+*
 to
 Hidden
 .
@@ -681,7 +683,7 @@ Unit
 val
 sheetState
 =
-rememberModalBottomSheetState
+rememberModalSheetState
 (
 skipPartiallyExpanded
 =
@@ -1392,7 +1394,7 @@ TermsOfUseBottomSheetMobilePortraitPreviewTreatmentA
 val
 sheetState
 =
-rememberModalBottomSheetState
+rememberModalSheetState
 (
 skipPartiallyExpanded
 =
@@ -1439,7 +1441,7 @@ TermsOfUseBottomSheetMobilePortraitPreviewTreatmentB
 val
 sheetState
 =
-rememberModalBottomSheetState
+rememberModalSheetState
 (
 skipPartiallyExpanded
 =
@@ -1486,7 +1488,7 @@ TermsOfUseBottomSheetMobilePortraitPreviewTreatmentC
 val
 sheetState
 =
-rememberModalBottomSheetState
+rememberModalSheetState
 (
 skipPartiallyExpanded
 =
@@ -1533,7 +1535,7 @@ TermsOfUseBottomSheetMobilePortraitNoHandlePreview
 val
 sheetState
 =
-rememberModalBottomSheetState
+rememberModalSheetState
 (
 skipPartiallyExpanded
 =
@@ -1629,7 +1631,7 @@ TermsOfUseBottomSheetMobileLandscapePreview
 val
 sheetState
 =
-rememberModalBottomSheetState
+rememberModalSheetState
 (
 skipPartiallyExpanded
 =
@@ -1725,7 +1727,7 @@ TermsOfUseBottomSheetTabletPortraitPreview
 val
 sheetState
 =
-rememberModalBottomSheetState
+rememberModalSheetState
 (
 skipPartiallyExpanded
 =
@@ -1806,7 +1808,7 @@ TermsOfUseBottomSheetTabletLandscapePreview
 val
 sheetState
 =
-rememberModalBottomSheetState
+rememberModalSheetState
 (
 skipPartiallyExpanded
 =
