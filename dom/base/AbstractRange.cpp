@@ -646,10 +646,6 @@ if
 (
 !
 target
-|
-|
-!
-target
 -
 >
 IsContent
