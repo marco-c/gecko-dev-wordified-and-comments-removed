@@ -6475,6 +6475,10 @@ LAYERS
 2
 :
 1
+supportedFrameRates
+:
+[
+]
 }
 enviromentBlendMode
 :
