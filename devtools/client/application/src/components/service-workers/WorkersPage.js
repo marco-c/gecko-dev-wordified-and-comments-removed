@@ -221,13 +221,6 @@ propTypes
 {
 return
 {
-canDebugWorkers
-:
-PropTypes
-.
-bool
-.
-isRequired
 domain
 :
 PropTypes
@@ -251,7 +244,6 @@ render
 {
 const
 {
-canDebugWorkers
 domain
 registrations
 }
@@ -353,7 +345,6 @@ RegistrationListEmpty
 RegistrationList
 (
 {
-canDebugWorkers
 registrations
 :
 domainWorkers
@@ -371,13 +362,6 @@ state
 {
 return
 {
-canDebugWorkers
-:
-state
-.
-workers
-.
-canDebugWorkers
 domain
 :
 state
