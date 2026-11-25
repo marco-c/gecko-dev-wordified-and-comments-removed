@@ -1361,11 +1361,6 @@ RtcpIntraFrameObserver
 const
 rtcp_intra_frame_observer_
 ;
-RtcpLossNotificationObserver
-*
-const
-rtcp_loss_notification_observer_
-;
 NetworkStateEstimateObserver
 *
 const

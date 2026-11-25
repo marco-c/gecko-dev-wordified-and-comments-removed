@@ -293,19 +293,6 @@ kMaxFramerate
 namespace
 webrtc
 {
-namespace
-{
-const
-VideoEncoder
-:
-:
-Capabilities
-kCapabilities
-(
-false
-)
-;
-}
 EncodedImageCallback
 :
 :
@@ -661,7 +648,6 @@ VideoEncoder
 :
 Settings
 (
-kCapabilities
 1
 0
 )

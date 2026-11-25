@@ -146,7 +146,6 @@ per_layer_pli_handling
 ssrcs
 &
 encoder_
-nullptr
 )
 {
 }

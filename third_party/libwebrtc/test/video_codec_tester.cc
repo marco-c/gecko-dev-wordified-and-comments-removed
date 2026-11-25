@@ -8473,13 +8473,6 @@ VideoEncoder
 Settings
 ves
 (
-VideoEncoder
-:
-:
-Capabilities
-(
-false
-)
 encoder_settings_
 .
 num_cores

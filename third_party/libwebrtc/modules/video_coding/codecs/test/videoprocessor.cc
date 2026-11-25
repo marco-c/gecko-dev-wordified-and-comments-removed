@@ -468,16 +468,6 @@ kMaxBufferedInputFrames
 =
 20
 ;
-const
-VideoEncoder
-:
-:
-Capabilities
-kCapabilities
-(
-false
-)
-;
 size_t
 GetMaxNaluSizeBytes
 (
@@ -1432,7 +1422,6 @@ VideoEncoder
 :
 Settings
 (
-kCapabilities
 static_cast
 <
 int

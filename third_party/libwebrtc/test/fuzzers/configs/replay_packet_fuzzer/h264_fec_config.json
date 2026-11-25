@@ -547,17 +547,6 @@ local_ssrc
 :
 1
 "
-lntf
-"
-:
-{
-"
-enabled
-"
-:
-false
-}
-"
 nack
 "
 :

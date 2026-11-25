@@ -977,12 +977,6 @@ intra_frame_callback
 ;
 observers
 .
-rtcp_loss_notification_observer
-=
-nullptr
-;
-observers
-.
 report_block_data_observer
 =
 report_block_data_observer

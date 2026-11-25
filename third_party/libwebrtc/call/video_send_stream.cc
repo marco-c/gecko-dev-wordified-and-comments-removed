@@ -925,11 +925,7 @@ VideoEncoder
 :
 Capabilities
 (
-rtp
-.
-lntf
-.
-enabled
+false
 )
 )
 send_transport

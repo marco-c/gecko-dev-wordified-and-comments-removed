@@ -793,14 +793,6 @@ flexfec_sink
 override
 ;
 void
-SetLossNotificationEnabled
-(
-bool
-enabled
-)
-override
-;
-void
 SetNackHistory
 (
 TimeDelta

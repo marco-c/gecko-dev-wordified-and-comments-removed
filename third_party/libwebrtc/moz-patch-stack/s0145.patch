@@ -397,10 +397,10 @@ libvpx_vp8_encoder
 .
 cc
 index
-f32b732029
+d0c4658d60
 .
 .
-ef580a933a
+77b7e129d2
 100644
 -
 -
@@ -435,10 +435,10 @@ libvpx_vp8_encoder
 .
 cc
 -
-1577
+1570
 6
 +
-1577
+1570
 13
 std
 :

@@ -1060,9 +1060,6 @@ tmmbr
 =
 false
 ;
-LntfConfig
-lntf
-;
 int
 ulpfec_payload_type
 =
@@ -1259,16 +1256,6 @@ SetFlexFecProtection
 RtpPacketSinkInterface
 *
 flexfec_sink
-)
-=
-0
-;
-virtual
-void
-SetLossNotificationEnabled
-(
-bool
-enabled
 )
 =
 0

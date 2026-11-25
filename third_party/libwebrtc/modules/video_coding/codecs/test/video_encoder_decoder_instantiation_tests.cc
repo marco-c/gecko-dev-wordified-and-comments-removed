@@ -213,16 +213,6 @@ testing
 :
 NotNull
 ;
-const
-VideoEncoder
-:
-:
-Capabilities
-kCapabilities
-(
-false
-)
-;
 int32_t
 InitEncoder
 (
@@ -279,7 +269,6 @@ VideoEncoder
 :
 Settings
 (
-kCapabilities
 1
 1200
 )

@@ -416,16 +416,6 @@ Seconds
 2
 )
 ;
-const
-VideoEncoder
-:
-:
-Capabilities
-kCapabilities
-(
-false
-)
-;
 #
 if
 defined
@@ -985,7 +975,6 @@ VideoEncoder
 :
 Settings
 (
-kCapabilities
 1
 0
 )

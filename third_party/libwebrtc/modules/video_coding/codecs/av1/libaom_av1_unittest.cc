@@ -583,13 +583,6 @@ VideoEncoder
 :
 Settings
 (
-VideoEncoder
-:
-:
-Capabilities
-(
-false
-)
 1
 1200
 )
