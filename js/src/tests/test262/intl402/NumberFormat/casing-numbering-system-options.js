@@ -1,6 +1,8 @@
 let
 defaultLocale
 =
+getLocaleBaseName
+(
 new
 Intl
 .
@@ -13,6 +15,7 @@ resolvedOptions
 )
 .
 locale
+)
 ;
 let
 supportedNumberingSystems

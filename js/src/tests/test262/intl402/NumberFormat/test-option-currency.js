@@ -65,6 +65,8 @@ return
 var
 defaultLocale
 =
+getLocaleBaseName
+(
 new
 Intl
 .
@@ -77,6 +79,7 @@ resolvedOptions
 )
 .
 locale
+)
 ;
 validValues
 .

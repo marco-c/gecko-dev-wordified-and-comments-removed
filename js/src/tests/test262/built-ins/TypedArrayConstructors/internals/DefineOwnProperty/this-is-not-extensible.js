@@ -110,9 +110,10 @@ undefined
 ;
 }
 null
+null
 [
 "
-passthrough
+resizable
 "
 ]
 )

@@ -69,6 +69,8 @@ option
 var
 defaultLocale
 =
+getLocaleBaseName
+(
 new
 Intl
 .
@@ -81,6 +83,7 @@ resolvedOptions
 )
 .
 locale
+)
 ;
 var
 collator

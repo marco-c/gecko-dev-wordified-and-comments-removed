@@ -1934,6 +1934,7 @@ break
 default
 :
 throw
+new
 Test262Error
 (
 "
@@ -2098,6 +2099,7 @@ length
 )
 {
 throw
+new
 Test262Error
 (
 "

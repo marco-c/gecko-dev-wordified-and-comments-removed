@@ -50,12 +50,6 @@ returns
 )
 ;
 }
-null
-[
-"
-arraybuffer
-"
-]
 )
 ;
 reportCompare

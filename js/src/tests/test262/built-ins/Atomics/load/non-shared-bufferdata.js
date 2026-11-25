@@ -45,12 +45,6 @@ returns
 )
 ;
 }
-null
-[
-"
-arraybuffer
-"
-]
 )
 ;
 reportCompare

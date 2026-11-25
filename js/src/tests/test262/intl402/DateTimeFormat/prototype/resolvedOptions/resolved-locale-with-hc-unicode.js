@@ -1,6 +1,8 @@
 var
 defaultLocale
 =
+getLocaleBaseName
+(
 new
 Intl
 .
@@ -13,6 +15,7 @@ resolvedOptions
 )
 .
 locale
+)
 ;
 var
 defaultLocaleWithHourCycle

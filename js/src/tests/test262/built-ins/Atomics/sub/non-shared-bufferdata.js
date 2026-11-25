@@ -99,11 +99,7 @@ returns
 )
 ;
 }
-[
-"
-arraybuffer
-"
-]
+null
 [
 "
 immutable

@@ -214,9 +214,10 @@ bar
 ;
 }
 null
+null
 [
 "
-passthrough
+resizable
 "
 ]
 )
