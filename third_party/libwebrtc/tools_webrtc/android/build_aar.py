@@ -1327,25 +1327,13 @@ use_remoteexec
 :
         
 gn_args
-.
-update
-(
-{
-            
+[
 '
 use_remoteexec
 '
-:
+]
+=
 True
-            
-'
-use_reclient
-'
-:
-False
-        
-}
-)
     
 arm_version
 =

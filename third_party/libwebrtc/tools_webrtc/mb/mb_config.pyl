@@ -3330,9 +3330,6 @@ gn_args
 use_remoteexec
 =
 true
-use_reclient
-=
-false
 use_siso
 =
 true

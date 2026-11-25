@@ -1335,23 +1335,13 @@ use_remoteexec
         
 gn_args
 .
-extend
+append
 (
-[
-            
 '
 use_remoteexec
 =
 true
 '
-            
-'
-use_reclient
-=
-false
-'
-        
-]
 )
     
 args_string
