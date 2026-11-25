@@ -76,8 +76,11 @@ parentNumEntries
 =
 performance
 .
-getEntries
+getEntriesByType
 (
+"
+resource
+"
 )
 .
 length

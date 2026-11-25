@@ -25,8 +25,11 @@ numEntries
 =
 performance
 .
-getEntries
+getEntriesByType
 (
+"
+resource
+"
 )
 .
 length
