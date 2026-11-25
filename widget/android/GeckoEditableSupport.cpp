@@ -3399,10 +3399,7 @@ eQueryCaretRect
 widget
 )
 ;
-WidgetQueryContentEvent
-:
-:
-Options
+QueryContentOptions
 options
 ;
 options

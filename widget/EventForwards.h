@@ -1770,6 +1770,9 @@ StaticRange
 OwningNonNullStaticRangeArray
 ;
 struct
+QueryContentOptions
+;
+struct
 QueryContentResult
 ;
 struct
