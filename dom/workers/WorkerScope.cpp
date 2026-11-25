@@ -3243,7 +3243,7 @@ Create
 mWorkerPrivate
 -
 >
-GetLocationInfo
+GetBaseURI
 (
 )
 )
