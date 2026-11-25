@@ -1378,6 +1378,15 @@ useCases
 tabsUseCases
 .
 migratePrivateTabUseCase
+inPrivateBrowsing
+=
+appStore
+.
+state
+.
+mode
+.
+isPrivate
 )
 FenixMenuItem
 .
