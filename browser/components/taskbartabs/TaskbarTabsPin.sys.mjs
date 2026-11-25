@@ -155,7 +155,7 @@ console
 createInstance
 (
 {
-prefix
+logModule
 :
 "
 TaskbarTabs
@@ -771,6 +771,11 @@ shortcutRelativePath
 ;
 try
 {
+if
+(
+relativePath
+)
+{
 lazy
 .
 platformPin
@@ -780,6 +785,7 @@ unpinFromTaskbar
 relativePath
 )
 ;
+}
 }
 catch
 (
