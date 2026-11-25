@@ -5024,12 +5024,6 @@ rtclog2
 EventStream
 event_stream
 ;
-std
-:
-:
-string
-encoded_output
-;
 {
 std
 :
