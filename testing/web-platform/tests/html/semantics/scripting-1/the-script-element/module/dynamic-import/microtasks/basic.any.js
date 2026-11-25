@@ -89,9 +89,7 @@ js
 ?
 "
 +
-Date
-.
-now
+token
 (
 )
 ;
@@ -164,9 +162,7 @@ js
 ?
 "
 +
-Date
-.
-now
+token
 (
 )
 ;
