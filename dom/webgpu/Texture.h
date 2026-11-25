@@ -59,6 +59,9 @@ h
 namespace
 mozilla
 {
+class
+ErrorResult
+;
 namespace
 dom
 {
@@ -209,6 +212,9 @@ dom
 GPUTextureViewDescriptor
 &
 aDesc
+ErrorResult
+&
+aRv
 )
 ;
 void

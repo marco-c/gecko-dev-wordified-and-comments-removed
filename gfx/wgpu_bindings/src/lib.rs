@@ -861,6 +861,13 @@ wgt
 :
 :
 TextureUsages
+swizzle
+:
+[
+u8
+;
+4
+]
 }
 #
 [

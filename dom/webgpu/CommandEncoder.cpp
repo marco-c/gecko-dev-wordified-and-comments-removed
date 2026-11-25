@@ -66,6 +66,15 @@ include
 "
 mozilla
 /
+ErrorResult
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 WebGPUBinding
@@ -1345,6 +1354,9 @@ tex
 CreateView
 (
 defaultDesc
+IgnoreErrors
+(
+)
 )
 ;
 break
