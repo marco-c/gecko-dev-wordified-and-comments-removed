@@ -406,6 +406,16 @@ IsGPUReady
 )
 const
 ;
+bool
+IsDecodingVideoOnGpuProcess
+(
+)
+const
+{
+return
+mDecodeVideoOnGpuProcess
+;
+}
 already_AddRefed
 <
 CompositorSession

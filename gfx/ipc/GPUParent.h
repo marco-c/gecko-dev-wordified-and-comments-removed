@@ -230,6 +230,8 @@ GfxInfoFeatureStatus
 features
 uint32_t
 wrNamespace
+bool
+aDecodeVideo
 InitResolver
 &
 &
@@ -815,6 +817,11 @@ GPUParent
 const
 TimeStamp
 mLaunchTime
+;
+bool
+mDecodeVideo
+=
+true
 ;
 RefPtr
 <

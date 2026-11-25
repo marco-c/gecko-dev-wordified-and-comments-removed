@@ -596,6 +596,8 @@ GfxInfoFeatureStatus
 features
 uint32_t
 wrNamespace
+bool
+decodeVideo
 )
 returns
 (
