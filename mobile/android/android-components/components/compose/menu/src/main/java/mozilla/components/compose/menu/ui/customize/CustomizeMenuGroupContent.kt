@@ -573,7 +573,7 @@ State
 of
 dragging
 the
-groups
+items
 or
 null
 to
@@ -662,6 +662,9 @@ SHOWN
 dragState
 :
 CustomizeMenuDragState
+<
+*
+>
 ?
 =
 null

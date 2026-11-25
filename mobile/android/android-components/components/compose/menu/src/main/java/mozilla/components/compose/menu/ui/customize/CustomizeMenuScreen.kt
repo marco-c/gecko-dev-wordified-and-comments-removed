@@ -1156,7 +1156,7 @@ saveMove
 (
 dragState
 .
-groups
+items
 movedGroupId
 movedGroups
 )
@@ -1301,7 +1301,7 @@ menuGroups
 =
 dragState
 .
-groups
+items
 .
 shown
 dragState
@@ -1376,7 +1376,7 @@ if
 !
 dragState
 .
-hasHiddenGroups
+hasHiddenItems
 )
 {
 item
@@ -1400,7 +1400,7 @@ menuGroups
 =
 dragState
 .
-groups
+items
 .
 hidden
 dragState
@@ -1469,7 +1469,7 @@ groups
 =
 dragState
 .
-groups
+items
 onMove
 =
 onMove
@@ -2049,7 +2049,7 @@ State
 of
 dragging
 the
-groups
+items
 of
 the
 screen
@@ -2077,6 +2077,9 @@ HiddenSectionsItem
 dragState
 :
 CustomizeMenuDragState
+<
+*
+>
 itemSpacing
 :
 Dp
@@ -2183,7 +2186,7 @@ State
 of
 dragging
 the
-groups
+items
 of
 the
 screen
@@ -2200,6 +2203,9 @@ DropAreaItem
 dragState
 :
 CustomizeMenuDragState
+<
+*
+>
 )
 {
 val
@@ -2277,7 +2283,7 @@ State
 of
 dragging
 the
-groups
+items
 of
 the
 screen
@@ -2315,6 +2321,9 @@ ResetButtonItem
 dragState
 :
 CustomizeMenuDragState
+<
+*
+>
 itemSpacing
 :
 Dp

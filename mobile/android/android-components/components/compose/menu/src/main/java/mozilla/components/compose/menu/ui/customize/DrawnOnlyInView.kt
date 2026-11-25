@@ -101,8 +101,8 @@ drawWithContent
 *
 *
 While
-a
-group
+an
+item
 is
 dragged
 and
@@ -136,7 +136,7 @@ list
 keeps
 the
 dragged
-group
+item
 laid
 out
 while
@@ -153,8 +153,8 @@ shown
 .
 Compose
 then
-*
 takes
+*
 it
 for
 the
@@ -179,8 +179,8 @@ top
 is
 drawn
 moving
-*
 down
+*
 across
 the
 list
@@ -225,7 +225,7 @@ State
 of
 dragging
 the
-groups
+items
 of
 the
 screen
@@ -244,6 +244,9 @@ Any
 dragState
 :
 CustomizeMenuDragState
+<
+*
+>
 )
 :
 Modifier
