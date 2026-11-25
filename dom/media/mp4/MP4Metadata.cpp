@@ -2582,9 +2582,6 @@ timeScale
 ;
 if
 (
-e
-&
-&
 !
 e
 -
@@ -2682,9 +2679,6 @@ time_scale
 }
 if
 (
-e
-&
-&
 e
 -
 >
