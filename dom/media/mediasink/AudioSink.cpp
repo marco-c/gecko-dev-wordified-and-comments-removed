@@ -4083,9 +4083,10 @@ mAudioSink
 .
 mHasErrored
 =
-bool
-(
 mErrored
+.
+load
+(
 )
 ;
 aInfo

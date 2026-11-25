@@ -17360,14 +17360,12 @@ mNumSamplesInput
 decoder
 .
 mNumSamplesOutput
-uint32_t
-(
-size_t
-(
 decoder
 .
 mSizeOfQueue
-)
+.
+load
+(
 )
 decoder
 .

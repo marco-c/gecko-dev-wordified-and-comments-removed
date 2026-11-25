@@ -5012,9 +5012,10 @@ _ns
 )
 {
 return
-bool
-(
 mSkipStarted
+.
+load
+(
 )
 ;
 }
@@ -8770,9 +8771,10 @@ _ns
 )
 {
 return
-bool
-(
 mDecodeFailed
+.
+load
+(
 )
 |
 |

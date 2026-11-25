@@ -100,6 +100,7 @@ Debug
 }
 "
 x
+\
 fmt
 :
 :
@@ -107,7 +108,6 @@ ptr
 (
 this
 )
-\
 #
 #
 __VA_ARGS__
@@ -482,12 +482,10 @@ const
 size_t
 currentSizes
 =
-static_cast
-<
-size_t
->
-(
 gCombinedSizes
+.
+load
+(
 )
 ;
 if
