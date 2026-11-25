@@ -5,8 +5,6 @@ name
 :
 desktop
 -
-theme
--
 probing
 description
 :
@@ -186,8 +184,6 @@ skills
 /
 desktop
 -
-theme
--
 probing
 /
 scripts
@@ -219,8 +215,6 @@ agents
 skills
 /
 desktop
--
-theme
 -
 probing
 /
@@ -256,8 +250,6 @@ skills
 /
 desktop
 -
-theme
--
 probing
 /
 scripts
@@ -291,8 +283,6 @@ agents
 skills
 /
 desktop
--
-theme
 -
 probing
 /
@@ -326,8 +316,6 @@ skills
 /
 desktop
 -
-theme
--
 probing
 /
 scripts
@@ -359,8 +347,6 @@ agents
 skills
 /
 desktop
--
-theme
 -
 probing
 /
@@ -396,8 +382,6 @@ skills
 /
 desktop
 -
-theme
--
 probing
 /
 scripts
@@ -431,8 +415,6 @@ agents
 skills
 /
 desktop
--
-theme
 -
 probing
 /
@@ -1068,8 +1050,6 @@ skills
 /
 desktop
 -
-theme
--
 probing
 /
 scripts
@@ -1138,8 +1118,6 @@ claude
 skills
 /
 desktop
--
-theme
 -
 probing
 /

@@ -582,8 +582,6 @@ this
 .
 desktop
 -
-theme
--
 probing
 is
 the

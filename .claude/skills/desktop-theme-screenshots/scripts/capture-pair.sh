@@ -216,8 +216,6 @@ for
 #
 desktop
 -
-theme
--
 probing
 '
 s
@@ -2993,8 +2991,6 @@ dirname
 .
 /
 desktop
--
-theme
 -
 probing
 /

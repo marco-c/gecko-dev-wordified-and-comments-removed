@@ -480,8 +480,6 @@ skills
 /
 desktop
 -
-theme
--
 probing
 /
 scripts

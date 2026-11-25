@@ -69,8 +69,6 @@ the
 shape
 desktop
 -
-theme
--
 probing
 1
 gives
@@ -732,8 +730,6 @@ timeout
 "
 in
 desktop
--
-theme
 -
 probing
 '
