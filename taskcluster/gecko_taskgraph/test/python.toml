@@ -92,6 +92,13 @@ py
 ]
 [
 "
+test_transforms_beetmover_apt
+.
+py
+"
+]
+[
+"
 test_transforms_build
 .
 py
@@ -156,6 +163,13 @@ py
 [
 "
 test_transforms_raptor_ab
+.
+py
+"
+]
+[
+"
+test_transforms_repackage_partner
 .
 py
 "
