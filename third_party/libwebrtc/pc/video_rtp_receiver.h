@@ -233,7 +233,7 @@ VideoRtpReceiver
 (
 Thread
 *
-worker_thread
+network_thread
 absl
 :
 :
@@ -281,7 +281,7 @@ VideoRtpReceiver
 (
 Thread
 *
-worker_thread
+network_thread
 absl
 :
 :
@@ -615,7 +615,7 @@ signaling_thread_checker_
 )
 ;
 void
-GetRestartFunctionForMediaChannel_w
+GetRestartFunctionForMediaChannel_n
 (
 std
 :
@@ -633,7 +633,7 @@ state
 )
 RTC_RUN_ON
 (
-worker_thread_
+network_thread_
 )
 ;
 void
@@ -648,11 +648,11 @@ sink
 )
 RTC_RUN_ON
 (
-worker_thread_
+network_thread_
 )
 ;
 void
-SetMediaChannel_w
+SetMediaChannel_n
 (
 MediaReceiveChannelInterface
 *
@@ -660,7 +660,7 @@ media_channel
 )
 RTC_RUN_ON
 (
-worker_thread_
+network_thread_
 )
 ;
 VideoMediaReceiveChannelInterface
@@ -671,7 +671,7 @@ video_media_channel
 const
 RTC_RUN_ON
 (
-worker_thread_
+network_thread_
 )
 ;
 void
@@ -694,7 +694,7 @@ enable
 )
 RTC_RUN_ON
 (
-worker_thread_
+network_thread_
 )
 ;
 class
@@ -834,14 +834,14 @@ JitterBufferDelay
 delay_
 RTC_GUARDED_BY
 (
-worker_thread_
+network_thread_
 )
 ;
 bool
 saved_generate_keyframe_
 RTC_GUARDED_BY
 (
-worker_thread_
+network_thread_
 )
 =
 false
@@ -850,7 +850,7 @@ bool
 saved_encoded_sink_enabled_
 RTC_GUARDED_BY
 (
-worker_thread_
+network_thread_
 )
 =
 false

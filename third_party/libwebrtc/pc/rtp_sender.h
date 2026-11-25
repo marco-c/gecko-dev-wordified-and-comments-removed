@@ -1342,7 +1342,7 @@ Thread
 signaling_thread
 Thread
 *
-worker_thread
+network_thread
 absl
 :
 :
@@ -1442,14 +1442,14 @@ ClearSend
 ;
 virtual
 void
-ClearSend_w
+ClearSend_n
 (
 uint32_t
 ssrc
 )
 RTC_RUN_ON
 (
-worker_thread_
+network_thread_
 )
 =
 0
@@ -1540,7 +1540,7 @@ optional
 <
 RtpParameters
 >
-ApplyInitParameters_w
+ApplyInitParameters_n
 (
 std
 :
@@ -1553,7 +1553,7 @@ ssrc
 )
 RTC_RUN_ON
 (
-worker_thread_
+network_thread_
 )
 ;
 const
@@ -1568,7 +1568,7 @@ signaling_thread_
 Thread
 *
 const
-worker_thread_
+network_thread_
 ;
 uint32_t
 ssrc_
@@ -1656,7 +1656,7 @@ MediaSendChannelInterface
 media_channel_
 RTC_GUARDED_BY
 (
-worker_thread_
+network_thread_
 )
 =
 nullptr
@@ -1780,7 +1780,7 @@ scoped_refptr
 <
 PendingTaskSafetyFlag
 >
-worker_safety_
+network_safety_
 ;
 ScopedTaskSafety
 signaling_safety_
@@ -1810,7 +1810,7 @@ SframeEncryptionConfig
 sframe_encryption_config_
 RTC_GUARDED_BY
 (
-worker_thread_
+network_thread_
 )
 ;
 }
@@ -1962,7 +1962,7 @@ Thread
 signaling_thread
 Thread
 *
-worker_thread
+network_thread
 absl
 :
 :
@@ -2120,7 +2120,7 @@ Thread
 signaling_thread
 Thread
 *
-worker_thread
+network_thread
 absl
 :
 :
@@ -2187,14 +2187,14 @@ ClearSend
 override
 ;
 void
-ClearSend_w
+ClearSend_n
 (
 uint32_t
 ssrc
 )
 RTC_RUN_ON
 (
-worker_thread_
+network_thread_
 )
 override
 ;
@@ -2247,7 +2247,7 @@ voice_media_channel
 )
 RTC_RUN_ON
 (
-worker_thread_
+network_thread_
 )
 {
 return
@@ -2355,7 +2355,7 @@ Thread
 signaling_thread
 Thread
 *
-worker_thread
+network_thread
 absl
 :
 :
@@ -2497,7 +2497,7 @@ Thread
 signaling_thread
 Thread
 *
-worker_thread
+network_thread
 absl
 :
 :
@@ -2575,14 +2575,14 @@ ClearSend
 override
 ;
 void
-ClearSend_w
+ClearSend_n
 (
 uint32_t
 ssrc
 )
 RTC_RUN_ON
 (
-worker_thread_
+network_thread_
 )
 override
 ;
@@ -2605,7 +2605,7 @@ video_media_channel
 )
 RTC_RUN_ON
 (
-worker_thread_
+network_thread_
 )
 {
 return

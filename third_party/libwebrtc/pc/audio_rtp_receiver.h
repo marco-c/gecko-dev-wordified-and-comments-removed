@@ -218,7 +218,7 @@ AudioRtpReceiver
 (
 Thread
 *
-worker_thread
+network_thread
 absl
 :
 :
@@ -266,7 +266,7 @@ AudioRtpReceiver
 (
 Thread
 *
-worker_thread
+network_thread
 absl
 :
 :
@@ -308,7 +308,7 @@ AudioRtpReceiver
 (
 Thread
 *
-worker_thread
+network_thread
 absl
 :
 :
@@ -601,7 +601,7 @@ AudioRtpReceiver
 (
 Thread
 *
-worker_thread
+network_thread
 absl
 :
 :
@@ -679,7 +679,7 @@ signaling_thread_checker_
 )
 ;
 void
-GetRestartFunctionForMediaChannel_w
+GetRestartFunctionForMediaChannel_n
 (
 std
 :
@@ -701,7 +701,7 @@ volume
 )
 RTC_RUN_ON
 (
-worker_thread_
+network_thread_
 )
 ;
 void
@@ -714,18 +714,18 @@ volume
 )
 RTC_RUN_ON
 (
-worker_thread_
+network_thread_
 )
 ;
 void
-SetOutputVolume_w
+SetOutputVolume_n
 (
 double
 volume
 )
 RTC_RUN_ON
 (
-worker_thread_
+network_thread_
 )
 ;
 VoiceMediaReceiveChannelInterface
@@ -736,7 +736,7 @@ voice_media_channel
 const
 RTC_RUN_ON
 (
-worker_thread_
+network_thread_
 )
 ;
 const
@@ -819,7 +819,7 @@ JitterBufferDelay
 delay_
 RTC_GUARDED_BY
 (
-worker_thread_
+network_thread_
 )
 ;
 }

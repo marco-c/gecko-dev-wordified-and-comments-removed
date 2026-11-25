@@ -219,7 +219,7 @@ AudioRtpReceiver
 (
 Thread
 *
-worker_thread
+network_thread
 absl
 :
 :
@@ -256,7 +256,7 @@ clock
 :
 AudioRtpReceiver
 (
-worker_thread
+network_thread
 receiver_id
 CreateStreamsFromIds
 (
@@ -294,7 +294,7 @@ AudioRtpReceiver
 (
 Thread
 *
-worker_thread
+network_thread
 absl
 :
 :
@@ -325,7 +325,7 @@ clock
 :
 AudioRtpReceiver
 (
-worker_thread
+network_thread
 receiver_id
 streams
 nullptr
@@ -354,7 +354,7 @@ AudioRtpReceiver
 (
 Thread
 *
-worker_thread
+network_thread
 absl
 :
 :
@@ -383,7 +383,7 @@ clock
 :
 AudioRtpReceiver
 (
-worker_thread
+network_thread
 receiver_id
 streams
 nullptr
@@ -406,7 +406,7 @@ AudioRtpReceiver
 (
 Thread
 *
-worker_thread
+network_thread
 absl
 :
 :
@@ -450,7 +450,7 @@ clock
 :
 RtpReceiverBase
 (
-worker_thread
+network_thread
 std
 :
 :
@@ -472,7 +472,7 @@ make_ref_counted
 RemoteAudioSource
 >
 (
-worker_thread
+network_thread
 source_gone_action
 )
 )
@@ -525,7 +525,7 @@ GenerateUniqueId
 {
 RTC_DCHECK
 (
-worker_thread_
+network_thread_
 )
 ;
 RTC_DCHECK
@@ -649,14 +649,14 @@ cached_track_enabled_
 =
 enabled
 ;
-worker_thread_
+network_thread_
 -
 >
 PostTask
 (
 SafeTask
 (
-worker_thread_safety
+network_thread_safety
 (
 )
 [
@@ -671,7 +671,7 @@ cached_volume_
 {
 RTC_DCHECK_RUN_ON
 (
-worker_thread_
+network_thread_
 )
 ;
 Reconfigure
@@ -689,7 +689,7 @@ void
 AudioRtpReceiver
 :
 :
-SetOutputVolume_w
+SetOutputVolume_n
 (
 double
 volume
@@ -697,7 +697,7 @@ volume
 {
 RTC_DCHECK_RUN_ON
 (
-worker_thread_
+network_thread_
 )
 ;
 RTC_DCHECK_GE
@@ -806,14 +806,14 @@ track_enabled
 )
 return
 ;
-worker_thread_
+network_thread_
 -
 >
 PostTask
 (
 SafeTask
 (
-worker_thread_safety
+network_thread_safety
 (
 )
 [
@@ -825,10 +825,10 @@ volume
 {
 RTC_DCHECK_RUN_ON
 (
-worker_thread_
+network_thread_
 )
 ;
-SetOutputVolume_w
+SetOutputVolume_n
 (
 volume
 )
@@ -980,7 +980,7 @@ const
 {
 RTC_DCHECK_RUN_ON
 (
-worker_thread_
+network_thread_
 )
 ;
 VoiceMediaReceiveChannelInterface
@@ -1179,10 +1179,10 @@ mutable
 {
 RTC_DCHECK_RUN_ON
 (
-worker_thread_
+network_thread_
 )
 ;
-GetRestartFunctionForMediaChannel_w
+GetRestartFunctionForMediaChannel_n
 (
 std
 :
@@ -1203,7 +1203,7 @@ void
 AudioRtpReceiver
 :
 :
-GetRestartFunctionForMediaChannel_w
+GetRestartFunctionForMediaChannel_n
 (
 std
 :
@@ -1226,7 +1226,7 @@ volume
 {
 RTC_DCHECK_RUN_ON
 (
-worker_thread_
+network_thread_
 )
 ;
 VoiceMediaReceiveChannelInterface
@@ -1698,7 +1698,7 @@ volume
 {
 RTC_DCHECK_RUN_ON
 (
-worker_thread_
+network_thread_
 )
 ;
 VoiceMediaReceiveChannelInterface
@@ -1714,7 +1714,7 @@ RTC_DCHECK
 voice_channel
 )
 ;
-SetOutputVolume_w
+SetOutputVolume_n
 (
 track_enabled
 ?
@@ -1781,7 +1781,7 @@ delay_seconds
 {
 RTC_DCHECK_RUN_ON
 (
-worker_thread_
+network_thread_
 )
 ;
 delay_
@@ -1836,7 +1836,7 @@ media_channel
 {
 RTC_DCHECK_RUN_ON
 (
-worker_thread_
+network_thread_
 )
 ;
 RTC_DCHECK
@@ -1874,7 +1874,7 @@ media_channel
 )
 )
 {
-SetOutputVolume_w
+SetOutputVolume_n
 (
 0
 .

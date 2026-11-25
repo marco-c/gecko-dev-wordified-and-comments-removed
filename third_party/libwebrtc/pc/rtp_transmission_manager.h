@@ -1030,7 +1030,7 @@ signaling_thread
 }
 Thread
 *
-worker_thread
+network_thread
 (
 )
 const
