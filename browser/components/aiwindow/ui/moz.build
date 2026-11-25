@@ -124,6 +124,17 @@ test
 /
 browser
 /
+firstrun
+/
+browser
+.
+toml
+"
+"
+test
+/
+browser
+/
 get_page_content
 /
 browser
