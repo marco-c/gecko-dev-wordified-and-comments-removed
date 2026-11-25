@@ -134,7 +134,7 @@ console
 createInstance
 (
 {
-prefix
+logModule
 :
 "
 TaskbarTabs
@@ -525,10 +525,6 @@ aContext
 {
 let
 taskbarTab
-;
-try
-{
-taskbarTab
 =
 await
 lazy
@@ -542,6 +538,11 @@ aContext
 id
 )
 ;
+if
+(
+taskbarTab
+)
+{
 lazy
 .
 logConsole
@@ -568,10 +569,7 @@ id
 )
 ;
 }
-catch
-(
-e
-)
+else
 {
 lazy
 .
