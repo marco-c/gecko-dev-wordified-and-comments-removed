@@ -15504,10 +15504,11 @@ silence
 \
 n
 "
-(
-uint32_t
-)
 mPingInterval
+.
+load
+(
+)
 )
 )
 ;

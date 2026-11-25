@@ -2128,12 +2128,10 @@ get
 >
 mStartedReading
 =
-static_cast
-<
-bool
->
-(
 mStartedReading
+.
+load
+(
 )
 ;
 mimeStream
