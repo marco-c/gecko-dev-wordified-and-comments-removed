@@ -1425,6 +1425,10 @@ deps
 [
 "
 :
+video_capture_internal_impl
+"
+"
+:
 video_capture_module
 "
 "
