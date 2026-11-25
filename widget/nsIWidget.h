@@ -4425,7 +4425,7 @@ NS_ERROR_UNEXPECTED
 }
 virtual
 nsresult
-SynthesizeNativeTouchPadPinch
+SynthesizeNativeTouchpadPinch
 (
 TouchpadGesturePhase
 aEventPhase
@@ -4440,7 +4440,7 @@ aModifierFlags
 MOZ_CRASH
 (
 "
-SynthesizeNativeTouchPadPinch
+SynthesizeNativeTouchpadPinch
 not
 implemented
 on

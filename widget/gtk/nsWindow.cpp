@@ -34519,7 +34519,7 @@ nsresult
 nsWindow
 :
 :
-SynthesizeNativeTouchPadPinch
+SynthesizeNativeTouchpadPinch
 (
 TouchpadGesturePhase
 aEventPhase

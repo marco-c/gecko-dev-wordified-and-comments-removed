@@ -1836,7 +1836,7 @@ nsresult
 PuppetWidget
 :
 :
-SynthesizeNativeTouchPadPinch
+SynthesizeNativeTouchpadPinch
 (
 TouchpadGesturePhase
 aEventPhase
@@ -1861,7 +1861,7 @@ NS_ERROR_FAILURE
 mBrowserChild
 -
 >
-SendSynthesizeNativeTouchPadPinch
+SendSynthesizeNativeTouchpadPinch
 (
 aEventPhase
 aScale

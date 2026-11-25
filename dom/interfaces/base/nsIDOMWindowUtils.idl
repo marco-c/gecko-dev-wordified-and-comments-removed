@@ -3668,7 +3668,7 @@ TOUCH_CANCEL
 Phase
 states
 for
-sendNativeTouchPadPinch
+sendNativeTouchpadPinch
 .
 *
 /

@@ -2399,7 +2399,7 @@ nsresult
 HeadlessWidget
 :
 :
-SynthesizeNativeTouchPadPinch
+SynthesizeNativeTouchpadPinch
 (
 TouchpadGesturePhase
 aEventPhase

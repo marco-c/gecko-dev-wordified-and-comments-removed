@@ -10745,7 +10745,7 @@ IPCResult
 BrowserParent
 :
 :
-RecvSynthesizeNativeTouchPadPinch
+RecvSynthesizeNativeTouchpadPinch
 (
 const
 TouchpadGesturePhase
@@ -10801,7 +10801,7 @@ widget
 widget
 -
 >
-SynthesizeNativeTouchPadPinch
+SynthesizeNativeTouchpadPinch
 (
 aEventPhase
 aScale
@@ -19617,6 +19617,9 @@ void
 SendRenderLayers
 (
 aEnabled
+NextRenderLayersEpoch
+(
+)
 )
 ;
 if

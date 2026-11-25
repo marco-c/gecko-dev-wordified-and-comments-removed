@@ -1007,7 +1007,7 @@ aCallback
 override
 ;
 nsresult
-SynthesizeNativeTouchPadPinch
+SynthesizeNativeTouchpadPinch
 (
 TouchpadGesturePhase
 aEventPhase
