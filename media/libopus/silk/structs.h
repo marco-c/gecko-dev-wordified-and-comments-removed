@@ -791,6 +791,17 @@ subfr_length
 opus_int
 enable_deep_plc
 ;
+#
+ifdef
+ENABLE_OSCE
+opus_int16
+prev_osce_out
+[
+MAX_LPC_ORDER
+]
+;
+#
+endif
 }
 silk_PLC_struct
 ;
