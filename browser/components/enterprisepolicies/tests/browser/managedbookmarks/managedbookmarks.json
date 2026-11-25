@@ -5,10 +5,10 @@ policies
 :
 {
 "
-DisablePrivateBrowsing
+PrivateBrowsingModeAvailability
 "
 :
-true
+1
 "
 DisplayBookmarksToolbar
 "
