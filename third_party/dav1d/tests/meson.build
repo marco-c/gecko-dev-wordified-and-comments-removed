@@ -326,6 +326,13 @@ c
 '
 checkasm
 /
+lf_mask
+.
+c
+'
+'
+checkasm
+/
 msac
 .
 c

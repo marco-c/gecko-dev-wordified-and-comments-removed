@@ -565,6 +565,9 @@ dsp
 3
 ]
 ;
+Dav1dLfMaskDSPContext
+lf_mask_dsp
+;
 Dav1dPalDSPContext
 pal_dsp
 ;
@@ -1005,9 +1008,12 @@ uint8_t
 (
 *
 level
+[
+2
+]
 )
 [
-4
+2
 ]
 ;
 Av1Filter

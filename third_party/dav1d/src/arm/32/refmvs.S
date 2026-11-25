@@ -1147,7 +1147,7 @@ r10
 vmov
 d4
 d0
-bge
+bhs
 3f
 ldrb
 r2
@@ -1584,7 +1584,7 @@ q10
 4
 blx
 r11
-bge
+bhs
 4f
 /
 /
@@ -1609,7 +1609,7 @@ r9
 r10
 blx
 r2
-blt
+blo
 2b
 /
 /
