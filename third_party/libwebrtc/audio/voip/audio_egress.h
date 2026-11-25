@@ -239,6 +239,13 @@ bool
 mute
 )
 ;
+void
+OnReceivedUplinkPacketLossFraction
+(
+float
+packet_loss_fraction
+)
+;
 std
 :
 :
