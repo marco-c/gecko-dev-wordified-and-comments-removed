@@ -26392,6 +26392,14 @@ peer_connection_interface
 /
 api
 :
+ref_count
+"
+"
+.
+.
+/
+api
+:
 rtc_error
 "
 "
