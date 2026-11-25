@@ -311,7 +311,7 @@ do
 Invoke
 on
 the
-Worker
+signaling
 thread
 for
 instance
