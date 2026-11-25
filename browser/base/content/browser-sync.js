@@ -7468,7 +7468,7 @@ hidden
 true
 ;
 const
-novaFxaLabel
+fxaSignInButton
 =
 PanelMultiView
 .
@@ -7490,7 +7490,7 @@ const
 [
 headerDesc
 headerText
-novaSignIn
+signInLabel
 ]
 =
 this
@@ -7552,14 +7552,14 @@ headerText
 ;
 if
 (
-novaFxaLabel
+fxaSignInButton
 )
 {
-novaFxaLabel
+fxaSignInButton
 .
 label
 =
-novaSignIn
+signInLabel
 ;
 }
 for
