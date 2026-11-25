@@ -704,10 +704,6 @@ Base
 (
 aMonitor
 )
-mGMP
-(
-nullptr
-)
 mOrigin2
 (
 aOrigin2
@@ -851,14 +847,6 @@ bool
 mShouldBeEqual
 ;
 }
-;
-typename
-Base
-:
-:
-GMPCodecType
-*
-mGMP
 ;
 nsCString
 mOrigin2
