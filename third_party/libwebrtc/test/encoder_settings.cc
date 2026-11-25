@@ -573,6 +573,17 @@ stream_settings
 i
 ]
 .
+encoding_complexity
+=
+stream
+.
+encoding_complexity
+;
+stream_settings
+[
+i
+]
+.
 target_bitrate_bps
 =
 target_bitrate_bps

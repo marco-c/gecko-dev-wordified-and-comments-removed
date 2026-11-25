@@ -4435,6 +4435,11 @@ video
 resolution
 "
 "
+video
+:
+video_codec_constants
+"
+"
 video_codecs
 :
 scalability_mode
@@ -9773,6 +9778,11 @@ checks
 test
 :
 test_support
+"
+"
+video
+:
+video_codec_constants
 "
 "
 /
