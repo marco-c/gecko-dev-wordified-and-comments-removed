@@ -3271,7 +3271,7 @@ WebRtcVoiceEngine
 RTC_DCHECK_RUN_ON
 (
 &
-worker_thread_checker_
+network_thread_checker_
 )
 ;
 RTC_LOG
@@ -3315,7 +3315,7 @@ Init
 RTC_DCHECK_RUN_ON
 (
 &
-worker_thread_checker_
+network_thread_checker_
 )
 ;
 RTC_LOG
@@ -3418,7 +3418,7 @@ Terminate
 RTC_DCHECK_RUN_ON
 (
 &
-worker_thread_checker_
+network_thread_checker_
 )
 ;
 RTC_LOG
@@ -3684,7 +3684,7 @@ options
 RTC_DCHECK_RUN_ON
 (
 &
-worker_thread_checker_
+network_thread_checker_
 )
 ;
 ApplyOptions
@@ -3708,7 +3708,7 @@ options_in
 RTC_DCHECK_RUN_ON
 (
 &
-worker_thread_checker_
+network_thread_checker_
 )
 ;
 RTC_LOG
@@ -4614,7 +4614,7 @@ max_size_bytes
 RTC_DCHECK_RUN_ON
 (
 &
-worker_thread_checker_
+network_thread_checker_
 )
 ;
 RTC_DCHECK
@@ -4695,7 +4695,7 @@ StopAecDump
 RTC_DCHECK_RUN_ON
 (
 &
-worker_thread_checker_
+network_thread_checker_
 )
 ;
 if
@@ -4757,7 +4757,7 @@ GetAudioDeviceStats
 RTC_DCHECK_RUN_ON
 (
 &
-worker_thread_checker_
+network_thread_checker_
 )
 ;
 return
@@ -4783,7 +4783,7 @@ adm
 RTC_DCHECK_RUN_ON
 (
 &
-worker_thread_checker_
+network_thread_checker_
 )
 ;
 RTC_DCHECK
@@ -4811,7 +4811,7 @@ audio_state
 RTC_DCHECK_RUN_ON
 (
 &
-worker_thread_checker_
+network_thread_checker_
 )
 ;
 RTC_DCHECK
@@ -4841,7 +4841,7 @@ channel
 RTC_DCHECK_RUN_ON
 (
 &
-worker_thread_checker_
+network_thread_checker_
 )
 ;
 RTC_DCHECK
@@ -4871,7 +4871,7 @@ channel
 RTC_DCHECK_RUN_ON
 (
 &
-worker_thread_checker_
+network_thread_checker_
 )
 ;
 if
@@ -4903,7 +4903,7 @@ OnChannelMuteStateChange
 RTC_DCHECK_RUN_ON
 (
 &
-worker_thread_checker_
+network_thread_checker_
 )
 ;
 if
@@ -5360,7 +5360,7 @@ override
 RTC_DCHECK_RUN_ON
 (
 &
-worker_thread_checker_
+network_thread_checker_
 )
 ;
 ClearSource
@@ -5420,7 +5420,7 @@ extensions
 RTC_DCHECK_RUN_ON
 (
 &
-worker_thread_checker_
+network_thread_checker_
 )
 ;
 config_
@@ -5451,7 +5451,7 @@ SetIncludeInCongestionControlAllocation
 RTC_DCHECK_RUN_ON
 (
 &
-worker_thread_checker_
+network_thread_checker_
 )
 ;
 config_
@@ -5547,7 +5547,7 @@ frame_encryptor
 RTC_DCHECK_RUN_ON
 (
 &
-worker_thread_checker_
+network_thread_checker_
 )
 ;
 config_
@@ -5580,7 +5580,7 @@ options
 RTC_DCHECK_RUN_ON
 (
 &
-worker_thread_checker_
+network_thread_checker_
 )
 ;
 config_
@@ -5616,7 +5616,7 @@ audio_network_adaptor_config
 RTC_DCHECK_RUN_ON
 (
 &
-worker_thread_checker_
+network_thread_checker_
 )
 ;
 if
@@ -5658,7 +5658,7 @@ bps
 RTC_DCHECK_RUN_ON
 (
 &
-worker_thread_checker_
+network_thread_checker_
 )
 ;
 RTC_DCHECK
@@ -5753,7 +5753,7 @@ duration_ms
 RTC_DCHECK_RUN_ON
 (
 &
-worker_thread_checker_
+network_thread_checker_
 )
 ;
 RTC_DCHECK
@@ -5784,7 +5784,7 @@ send
 RTC_DCHECK_RUN_ON
 (
 &
-worker_thread_checker_
+network_thread_checker_
 )
 ;
 send_
@@ -5806,7 +5806,7 @@ muted
 RTC_DCHECK_RUN_ON
 (
 &
-worker_thread_checker_
+network_thread_checker_
 )
 ;
 RTC_DCHECK
@@ -5842,7 +5842,7 @@ const
 RTC_DCHECK_RUN_ON
 (
 &
-worker_thread_checker_
+network_thread_checker_
 )
 ;
 return
@@ -5863,7 +5863,7 @@ const
 RTC_DCHECK_RUN_ON
 (
 &
-worker_thread_checker_
+network_thread_checker_
 )
 ;
 RTC_DCHECK
@@ -5892,7 +5892,7 @@ source
 RTC_DCHECK_RUN_ON
 (
 &
-worker_thread_checker_
+network_thread_checker_
 )
 ;
 RTC_DCHECK
@@ -5941,7 +5941,7 @@ ClearSource
 RTC_DCHECK_RUN_ON
 (
 &
-worker_thread_checker_
+network_thread_checker_
 )
 ;
 if
@@ -6133,7 +6133,7 @@ override
 RTC_DCHECK_RUN_ON
 (
 &
-worker_thread_checker_
+network_thread_checker_
 )
 ;
 source_
@@ -6608,7 +6608,7 @@ frame_transformer
 RTC_DCHECK_RUN_ON
 (
 &
-worker_thread_checker_
+network_thread_checker_
 )
 ;
 config_
@@ -6643,7 +6643,7 @@ encoder_factory
 RTC_DCHECK_RUN_ON
 (
 &
-worker_thread_checker_
+network_thread_checker_
 )
 ;
 RTC_DCHECK
@@ -6684,7 +6684,7 @@ ResetEncoderFactoryOverride
 RTC_DCHECK_RUN_ON
 (
 &
-worker_thread_checker_
+network_thread_checker_
 )
 ;
 RTC_DCHECK
@@ -6724,7 +6724,7 @@ UpdateSendState
 RTC_DCHECK_RUN_ON
 (
 &
-worker_thread_checker_
+network_thread_checker_
 )
 ;
 RTC_DCHECK
@@ -6786,7 +6786,7 @@ UpdateAllowedBitrateRange
 RTC_DCHECK_RUN_ON
 (
 &
-worker_thread_checker_
+network_thread_checker_
 )
 ;
 const
@@ -6906,7 +6906,7 @@ send_codec_spec
 RTC_DCHECK_RUN_ON
 (
 &
-worker_thread_checker_
+network_thread_checker_
 )
 ;
 config_
@@ -7127,7 +7127,7 @@ callback
 RTC_DCHECK_RUN_ON
 (
 &
-worker_thread_checker_
+network_thread_checker_
 )
 ;
 RTC_DCHECK
@@ -7171,7 +7171,7 @@ AdaptivePtimeConfig
 adaptive_ptime_config_
 ;
 SequenceChecker
-worker_thread_checker_
+network_thread_checker_
 ;
 RaceChecker
 audio_capture_race_checker_
@@ -7317,12 +7317,12 @@ env_
 (
 env
 )
-worker_thread_
+network_thread_
 (
 call
 -
 >
-worker_thread
+network_thread
 (
 )
 )
@@ -7388,7 +7388,7 @@ WebRtcVoiceSendChannel
 {
 RTC_DCHECK_RUN_ON
 (
-worker_thread_
+network_thread_
 )
 ;
 RTC_DLOG
@@ -7464,7 +7464,7 @@ options
 {
 RTC_DCHECK_RUN_ON
 (
-worker_thread_
+network_thread_
 )
 ;
 RTC_LOG
@@ -7588,7 +7588,7 @@ SetSenderParameters
 ;
 RTC_DCHECK_RUN_ON
 (
-worker_thread_
+network_thread_
 )
 ;
 RTC_LOG
@@ -8105,7 +8105,7 @@ mid
 {
 RTC_DCHECK_RUN_ON
 (
-worker_thread_
+network_thread_
 )
 ;
 if
@@ -8156,7 +8156,7 @@ const
 {
 RTC_DCHECK_RUN_ON
 (
-worker_thread_
+network_thread_
 )
 ;
 if
@@ -8209,7 +8209,7 @@ preferred_codec
 {
 RTC_DCHECK_RUN_ON
 (
-worker_thread_
+network_thread_
 )
 ;
 dtmf_payload_type_
@@ -8908,7 +8908,7 @@ send
 {
 RTC_DCHECK_RUN_ON
 (
-worker_thread_
+network_thread_
 )
 ;
 TRACE_EVENT0
@@ -9064,7 +9064,7 @@ source
 {
 RTC_DCHECK_RUN_ON
 (
-worker_thread_
+network_thread_
 )
 ;
 if
@@ -9143,7 +9143,7 @@ AddSendStream
 ;
 RTC_DCHECK_RUN_ON
 (
-worker_thread_
+network_thread_
 )
 ;
 RTC_LOG
@@ -9387,7 +9387,7 @@ RemoveSendStream
 ;
 RTC_DCHECK_RUN_ON
 (
-worker_thread_
+network_thread_
 )
 ;
 RTC_LOG
@@ -9537,7 +9537,7 @@ callback
 {
 RTC_DCHECK_RUN_ON
 (
-worker_thread_
+network_thread_
 )
 ;
 RTC_DCHECK
@@ -9572,7 +9572,7 @@ source
 {
 RTC_DCHECK_RUN_ON
 (
-worker_thread_
+network_thread_
 )
 ;
 auto
@@ -9670,7 +9670,7 @@ CanInsertDtmf
 {
 RTC_DCHECK_RUN_ON
 (
-worker_thread_
+network_thread_
 )
 ;
 return
@@ -9707,7 +9707,7 @@ frame_encryptor
 {
 RTC_DCHECK_RUN_ON
 (
-worker_thread_
+network_thread_
 )
 ;
 auto
@@ -9755,7 +9755,7 @@ EnableSframe
 {
 RTC_DCHECK_RUN_ON
 (
-worker_thread_
+network_thread_
 )
 ;
 if
@@ -9808,7 +9808,7 @@ sframe_encryption_config
 {
 RTC_DCHECK_RUN_ON
 (
-worker_thread_
+network_thread_
 )
 ;
 sframe_options_
@@ -9861,7 +9861,7 @@ duration
 {
 RTC_DCHECK_RUN_ON
 (
-worker_thread_
+network_thread_
 )
 ;
 RTC_LOG
@@ -10063,39 +10063,6 @@ RTC_DCHECK_RUN_ON
 network_thread_checker_
 )
 ;
-worker_thread_
--
->
-PostTask
-(
-SafeTask
-(
-task_safety_
-.
-flag
-(
-)
-[
-this
-name
-=
-std
-:
-:
-string
-(
-transport_name
-)
-route
-=
-network_route
-]
-{
-RTC_DCHECK_RUN_ON
-(
-worker_thread_
-)
-;
 call_
 -
 >
@@ -10106,12 +10073,8 @@ GetTransportControllerSend
 >
 OnNetworkRouteChanged
 (
-name
-route
-)
-;
-}
-)
+transport_name
+network_route
 )
 ;
 }
@@ -10132,7 +10095,7 @@ const
 {
 RTC_DCHECK_RUN_ON
 (
-worker_thread_
+network_thread_
 )
 ;
 std
@@ -10211,7 +10174,7 @@ muted
 {
 RTC_DCHECK_RUN_ON
 (
-worker_thread_
+network_thread_
 )
 ;
 const
@@ -10299,7 +10262,7 @@ bps
 {
 RTC_DCHECK_RUN_ON
 (
-worker_thread_
+network_thread_
 )
 ;
 RTC_LOG
@@ -10445,7 +10408,7 @@ GetSendStats
 ;
 RTC_DCHECK_RUN_ON
 (
-worker_thread_
+network_thread_
 )
 ;
 RTC_DCHECK
@@ -10863,7 +10826,7 @@ const
 {
 RTC_DCHECK_RUN_ON
 (
-worker_thread_
+network_thread_
 )
 ;
 if
@@ -10894,7 +10857,7 @@ const
 {
 RTC_DCHECK_RUN_ON
 (
-worker_thread_
+network_thread_
 )
 ;
 if
@@ -10927,7 +10890,7 @@ voice_media_info
 {
 RTC_DCHECK_RUN_ON
 (
-worker_thread_
+network_thread_
 )
 ;
 for
@@ -11043,7 +11006,7 @@ frame_transformer
 {
 RTC_DCHECK_RUN_ON
 (
-worker_thread_
+network_thread_
 )
 ;
 auto
@@ -11137,7 +11100,7 @@ encoder_factory
 {
 RTC_DCHECK_RUN_ON
 (
-worker_thread_
+network_thread_
 )
 ;
 auto
@@ -11217,7 +11180,7 @@ ssrc
 {
 RTC_DCHECK_RUN_ON
 (
-worker_thread_
+network_thread_
 )
 ;
 auto
@@ -11288,7 +11251,7 @@ const
 {
 RTC_DCHECK_RUN_ON
 (
-worker_thread_
+network_thread_
 )
 ;
 auto
@@ -11474,7 +11437,7 @@ callback
 {
 RTC_DCHECK_RUN_ON
 (
-worker_thread_
+network_thread_
 )
 ;
 auto
@@ -11971,7 +11934,7 @@ WebRtcAudioReceiveStream
 RTC_DCHECK_RUN_ON
 (
 &
-worker_thread_checker_
+network_thread_checker_
 )
 ;
 call_
@@ -12012,7 +11975,7 @@ frame_decryptor
 RTC_DCHECK_RUN_ON
 (
 &
-worker_thread_checker_
+network_thread_checker_
 )
 ;
 stream_
@@ -12040,7 +12003,7 @@ use_nack
 RTC_DCHECK_RUN_ON
 (
 &
-worker_thread_checker_
+network_thread_checker_
 )
 ;
 stream_
@@ -12069,7 +12032,7 @@ mode
 RTC_DCHECK_RUN_ON
 (
 &
-worker_thread_checker_
+network_thread_checker_
 )
 ;
 stream_
@@ -12091,7 +12054,7 @@ enabled
 RTC_DCHECK_RUN_ON
 (
 &
-worker_thread_checker_
+network_thread_checker_
 )
 ;
 stream_
@@ -12122,7 +12085,7 @@ decoder_map
 RTC_DCHECK_RUN_ON
 (
 &
-worker_thread_checker_
+network_thread_checker_
 )
 ;
 stream_
@@ -12148,7 +12111,7 @@ const
 RTC_DCHECK_RUN_ON
 (
 &
-worker_thread_checker_
+network_thread_checker_
 )
 ;
 return
@@ -12177,7 +12140,7 @@ sink
 RTC_DCHECK_RUN_ON
 (
 &
-worker_thread_checker_
+network_thread_checker_
 )
 ;
 stream_
@@ -12213,7 +12176,7 @@ volume
 RTC_DCHECK_RUN_ON
 (
 &
-worker_thread_checker_
+network_thread_checker_
 )
 ;
 stream_
@@ -12235,7 +12198,7 @@ playout
 RTC_DCHECK_RUN_ON
 (
 &
-worker_thread_checker_
+network_thread_checker_
 )
 ;
 if
@@ -12272,7 +12235,7 @@ delay_ms
 RTC_DCHECK_RUN_ON
 (
 &
-worker_thread_checker_
+network_thread_checker_
 )
 ;
 if
@@ -12338,7 +12301,7 @@ const
 RTC_DCHECK_RUN_ON
 (
 &
-worker_thread_checker_
+network_thread_checker_
 )
 ;
 return
@@ -12360,7 +12323,7 @@ max_packets
 RTC_DCHECK_RUN_ON
 (
 &
-worker_thread_checker_
+network_thread_checker_
 )
 ;
 stream_
@@ -12382,7 +12345,7 @@ fast_accelerate
 RTC_DCHECK_RUN_ON
 (
 &
-worker_thread_checker_
+network_thread_checker_
 )
 ;
 stream_
@@ -12407,7 +12370,7 @@ frame_transformer
 RTC_DCHECK_RUN_ON
 (
 &
-worker_thread_checker_
+network_thread_checker_
 )
 ;
 stream_
@@ -12428,7 +12391,7 @@ frame_transformer
 private
 :
 SequenceChecker
-worker_thread_checker_
+network_thread_checker_
 ;
 Call
 *
@@ -12453,7 +12416,7 @@ AudioSinkInterface
 raw_audio_sink_
 RTC_GUARDED_BY
 (
-worker_thread_checker_
+network_thread_checker_
 )
 ;
 }
@@ -12534,12 +12497,12 @@ env_
 (
 env
 )
-worker_thread_
+network_thread_
 (
 call
 -
 >
-worker_thread
+network_thread
 (
 )
 )
@@ -12688,7 +12651,7 @@ WebRtcVoiceReceiveChannel
 {
 RTC_DCHECK_RUN_ON
 (
-worker_thread_
+network_thread_
 )
 ;
 RTC_DLOG
@@ -12756,7 +12719,7 @@ SetReceiverParameters
 ;
 RTC_DCHECK_RUN_ON
 (
-worker_thread_
+network_thread_
 )
 ;
 RTC_LOG
@@ -12822,7 +12785,7 @@ const
 {
 RTC_DCHECK_RUN_ON
 (
-worker_thread_
+network_thread_
 )
 ;
 RtpParameters
@@ -12998,7 +12961,7 @@ const
 {
 RTC_DCHECK_RUN_ON
 (
-worker_thread_
+network_thread_
 )
 ;
 RtpParameters
@@ -13072,7 +13035,7 @@ codecs_in
 {
 RTC_DCHECK_RUN_ON
 (
-worker_thread_
+network_thread_
 )
 ;
 auto
@@ -13472,7 +13435,7 @@ mode
 {
 RTC_DCHECK_RUN_ON
 (
-worker_thread_
+network_thread_
 )
 ;
 if
@@ -13537,7 +13500,7 @@ enabled
 {
 RTC_DCHECK_RUN_ON
 (
-worker_thread_
+network_thread_
 )
 ;
 if
@@ -13602,7 +13565,7 @@ enabled
 {
 RTC_DCHECK_RUN_ON
 (
-worker_thread_
+network_thread_
 )
 ;
 if
@@ -13683,7 +13646,7 @@ SetReceive
 ;
 RTC_DCHECK_RUN_ON
 (
-worker_thread_
+network_thread_
 )
 ;
 if
@@ -13750,7 +13713,7 @@ AddRecvStream
 ;
 RTC_DCHECK_RUN_ON
 (
-worker_thread_
+network_thread_
 )
 ;
 RTC_LOG
@@ -14012,7 +13975,7 @@ ssrc
 {
 RTC_DCHECK_RUN_ON
 (
-worker_thread_
+network_thread_
 )
 ;
 if
@@ -14093,7 +14056,7 @@ RemoveRecvStream
 ;
 RTC_DCHECK_RUN_ON
 (
-worker_thread_
+network_thread_
 )
 ;
 RTC_LOG
@@ -14208,7 +14171,7 @@ ResetUnsignaledRecvStream
 {
 RTC_DCHECK_RUN_ON
 (
-worker_thread_
+network_thread_
 )
 ;
 RTC_LOG
@@ -14311,7 +14274,7 @@ const
 {
 RTC_DCHECK_RUN_ON
 (
-worker_thread_
+network_thread_
 )
 ;
 if
@@ -14355,7 +14318,7 @@ const
 {
 RTC_DCHECK_RUN_ON
 (
-worker_thread_
+network_thread_
 )
 ;
 return
@@ -14394,7 +14357,7 @@ volume
 {
 RTC_DCHECK_RUN_ON
 (
-worker_thread_
+network_thread_
 )
 ;
 RTC_LOG
@@ -14553,7 +14516,7 @@ volume
 {
 RTC_DCHECK_RUN_ON
 (
-worker_thread_
+network_thread_
 )
 ;
 default_recv_volume_
@@ -14670,7 +14633,7 @@ delay_ms
 {
 RTC_DCHECK_RUN_ON
 (
-worker_thread_
+network_thread_
 )
 ;
 std
@@ -14818,7 +14781,7 @@ const
 {
 RTC_DCHECK_RUN_ON
 (
-worker_thread_
+network_thread_
 )
 ;
 if
@@ -14892,7 +14855,7 @@ frame_decryptor
 {
 RTC_DCHECK_RUN_ON
 (
-worker_thread_
+network_thread_
 )
 ;
 auto
@@ -14959,7 +14922,7 @@ EnableSframe
 {
 RTC_DCHECK_RUN_ON
 (
-worker_thread_
+network_thread_
 )
 ;
 sframe_options_
@@ -15065,7 +15028,7 @@ packet
 {
 RTC_DCHECK_RUN_ON
 (
-worker_thread_
+network_thread_
 )
 ;
 uint32_t
@@ -15370,7 +15333,7 @@ GetReceiveStats
 ;
 RTC_DCHECK_RUN_ON
 (
-worker_thread_
+network_thread_
 )
 ;
 RTC_DCHECK
@@ -16022,7 +15985,7 @@ voice_media_info
 {
 RTC_DCHECK_RUN_ON
 (
-worker_thread_
+network_thread_
 )
 ;
 for
@@ -16247,7 +16210,7 @@ sink
 {
 RTC_DCHECK_RUN_ON
 (
-worker_thread_
+network_thread_
 )
 ;
 RTC_LOG
@@ -16367,7 +16330,7 @@ sink
 {
 RTC_DCHECK_RUN_ON
 (
-worker_thread_
+network_thread_
 )
 ;
 RTC_LOG
@@ -16463,7 +16426,7 @@ frame_transformer
 {
 RTC_DCHECK_RUN_ON
 (
-worker_thread_
+network_thread_
 )
 ;
 if
@@ -16572,7 +16535,7 @@ ssrc
 {
 RTC_DCHECK_RUN_ON
 (
-worker_thread_
+network_thread_
 )
 ;
 auto

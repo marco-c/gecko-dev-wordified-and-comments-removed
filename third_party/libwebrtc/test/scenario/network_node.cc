@@ -1140,7 +1140,7 @@ if
 sender_call_
 -
 >
-worker_thread
+network_thread
 (
 )
 -
@@ -1153,7 +1153,7 @@ IsCurrent
 sender_call_
 -
 >
-worker_thread
+network_thread
 (
 )
 -
