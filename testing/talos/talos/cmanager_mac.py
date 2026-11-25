@@ -123,26 +123,25 @@ Exception
         
 print
 (
+f
 "
 Unexpected
 error
 executing
 '
-%
-s
+{
+command
+}
 '
 :
-%
-s
-"
-(
-command
+{
 sys
 .
 exc_info
 (
 )
-)
+}
+"
 )
         
 raise
