@@ -2535,6 +2535,7 @@ title
 )
 clickEdit
 (
+composeTestRule
 )
 typeCustomEngineDetails
 (
@@ -2861,6 +2862,7 @@ customSearchEngineTitle
 )
 clickDeleteSearchEngine
 (
+composeTestRule
 )
 verifyEngineListContains
 (
