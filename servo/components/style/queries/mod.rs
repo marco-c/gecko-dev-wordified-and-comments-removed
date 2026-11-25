@@ -16,6 +16,14 @@ feature_expression
 ;
 pub
 mod
+moz_pref
+;
+pub
+mod
+style
+;
+pub
+mod
 values
 ;
 pub
