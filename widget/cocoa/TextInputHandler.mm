@@ -20025,6 +20025,12 @@ startOffset
 mIMECompositionStartBeforeStart
 ;
 }
+options
+.
+mRequestFontRanges
+=
+true
+;
 queryTextContentEvent
 .
 InitForQueryTextContent
@@ -20034,12 +20040,6 @@ aRange
 .
 length
 options
-)
-;
-queryTextContentEvent
-.
-RequestFontRanges
-(
 )
 ;
 DispatchEvent
