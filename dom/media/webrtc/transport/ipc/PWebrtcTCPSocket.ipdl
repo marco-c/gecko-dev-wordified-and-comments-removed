@@ -112,11 +112,11 @@ AsyncOpen
 (
 nsCString
 aHost
-int32_t
+uint16_t
 aPort
 nsCString
 aLocalAddress
-int32_t
+uint16_t
 aLocalPort
 bool
 aUseTls

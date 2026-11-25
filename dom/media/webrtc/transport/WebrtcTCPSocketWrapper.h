@@ -79,7 +79,7 @@ nsCString
 &
 aHost
 const
-int
+uint16_t
 &
 aPort
 const
@@ -87,7 +87,7 @@ nsCString
 &
 aLocalAddress
 const
-int
+uint16_t
 &
 aLocalPort
 bool

@@ -126,7 +126,7 @@ nsACString
 &
 aHost
 const
-int
+uint16_t
 &
 aPort
 const
@@ -134,7 +134,7 @@ nsACString
 &
 aLocalAddress
 const
-int
+uint16_t
 &
 aLocalPort
 bool
