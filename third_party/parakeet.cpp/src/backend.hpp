@@ -298,7 +298,7 @@ char
 name
 )
 ;
-void
+bool
 ensure_weights_realized
 (
 const

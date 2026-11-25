@@ -175,6 +175,9 @@ return
 nullptr
 ;
 }
+if
+(
+!
 ensure_weights_realized
 (
 m
@@ -182,6 +185,9 @@ m
 >
 loader_
 )
+)
+return
+nullptr
 ;
 m
 -
