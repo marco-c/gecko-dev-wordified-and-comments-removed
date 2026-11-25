@@ -727,7 +727,7 @@ mContent
 group
 -
 >
-GetLabel
+GetRenderedLabel
 (
 aName
 )
