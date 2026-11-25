@@ -370,15 +370,6 @@ OnBackgroundParentDestroyed
 (
 )
 ;
-base
-:
-:
-ProcessId
-OtherPid
-(
-)
-const
-;
 void
 OverrideReferrerInfoDuringBeginConnect
 (
