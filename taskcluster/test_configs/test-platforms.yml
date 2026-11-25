@@ -1017,8 +1017,6 @@ sets
 -
 mingwclang
 -
-win32
--
 tests
 -
 debug
