@@ -4873,15 +4873,15 @@ aItemAllowsTextPathChild
 )
 ;
 bool
-WipeInsertionParent
+MaybeRecreateForInsertionParent
 (
 nsContainerFrame
 *
-aFrame
+aInsertionParent
 )
 ;
 bool
-WipeContainingBlock
+MaybeRecreateForInsertedChildren
 (
 nsFrameConstructorState
 &
@@ -4891,7 +4891,7 @@ nsIFrame
 aContainingBlock
 nsIFrame
 *
-aFrame
+aInsertionParent
 FrameConstructionItemList
 &
 aItems

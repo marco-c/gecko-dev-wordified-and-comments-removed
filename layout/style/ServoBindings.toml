@@ -453,7 +453,7 @@ mozilla
 OriginFlags
 "
 "
-NodeSelectorFlags
+NodeStyleFlags
 "
 ]
 rusty
@@ -1633,7 +1633,7 @@ mozilla
 StyleRuleInclusion
 "
 "
-NodeSelectorFlags
+NodeStyleFlags
 "
 "
 AnchorPosResolutionParams

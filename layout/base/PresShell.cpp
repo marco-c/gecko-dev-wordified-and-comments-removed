@@ -14736,9 +14736,12 @@ NoteDescendantsNeedFramesForServo
 ;
 aElement
 .
-SetFlags
+SetStyleFlags
 (
-NODE_NEEDS_FRAME
+NodeStyleFlags
+:
+:
+NeedsFrame
 )
 ;
 aNewSlot
@@ -21326,7 +21329,7 @@ ChangesToFlush
 aFlush
 )
 {
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 mForbiddenToFlush
