@@ -99,6 +99,13 @@ py
 ]
 [
 "
+test_performance_tuning
+.
+py
+"
+]
+[
+"
 test_perftest
 .
 py
