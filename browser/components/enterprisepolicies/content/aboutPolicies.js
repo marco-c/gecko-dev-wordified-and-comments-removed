@@ -2431,6 +2431,11 @@ let
 string_mapping
 =
 {
+Authentication
+:
+"
+Authentication2
+"
 BackgroundAppUpdate
 :
 "

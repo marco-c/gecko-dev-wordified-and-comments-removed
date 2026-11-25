@@ -217,7 +217,7 @@ URL
 .
 policy
 -
-Authentication
+Authentication2
 =
 Configure
 integrated
@@ -227,6 +227,13 @@ websites
 that
 support
 it
+and
+which
+HTTP
+authentication
+schemes
+are
+disabled
 .
 policy
 -
