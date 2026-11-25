@@ -116,7 +116,7 @@ chromium_revision
 '
 :
 '
-df60081729d0f735dce297cf4c9f302b000a64bf
+7193e938388ed58538ee295a0dea7f992a8482e4
 '
 #
 Fetch
@@ -410,7 +410,7 @@ siso_version
 '
 git_revision
 :
-dfc32e4edca158cff2b64a1658ee3940f0116b3a
+c508213533aa5cd425b69cb0f66e53522d77022d
 '
 #
 CPython
@@ -608,7 +608,7 @@ chromium
 src
 /
 build
-b8e694e483dc2dbbae6c34be54fdb9473cc5afa4
+7d1d80a9a6e9c1031a0dfeb95473707bcf4acd44
 '
 '
 src
@@ -728,7 +728,7 @@ chromium
 src
 /
 ios
-76727c7084eb16594225d264a45abc683375f278
+d2422eb01d91a422e783bc79109a782ce509706e
 '
 '
 condition
@@ -760,7 +760,7 @@ chromium
 src
 /
 testing
-036fd90eb4e7668c15d5c9965ab181de942ffb96
+54babe177bcf2909b242dcaf3b492fcc7e521c16
 '
 '
 src
@@ -784,7 +784,7 @@ chromium
 src
 /
 third_party
-c36189a75877972cd4d2d99d348d3eb7ef17f6f5
+704ac7837b03593a1b21bc864ffa28d8a8697068
 '
 '
 src
@@ -898,7 +898,7 @@ version
 '
 git_revision
 :
-224f6aa73aeb73aafb05df998073ff2c7cae666f
+ed7fee04cb30b96ed40ef188acfad5417349e399
 '
 }
 ]
@@ -956,7 +956,7 @@ version
 '
 git_revision
 :
-224f6aa73aeb73aafb05df998073ff2c7cae666f
+ed7fee04cb30b96ed40ef188acfad5417349e399
 '
 }
 ]
@@ -1010,7 +1010,7 @@ version
 '
 git_revision
 :
-224f6aa73aeb73aafb05df998073ff2c7cae666f
+ed7fee04cb30b96ed40ef188acfad5417349e399
 '
 }
 ]
@@ -2985,7 +2985,7 @@ compiler
 rt
 .
 git
-6f55534633fa19430486f96f2271a9cd96ae7a02
+ca953c4fa0667f7ef418fe6ca6f361f20d08899e
 '
 '
 src
@@ -3106,7 +3106,7 @@ project
 libc
 .
 git
-b88fbdd86260fc59b892d9e21054c5388c473b0d
+058c23f04d56417fceefbdb21fdd31ac1aeb028f
 '
 '
 src
@@ -4191,7 +4191,7 @@ tools
 depot_tools
 .
 git
-a20039648c0de69d8156906b18052bd47e9bf230
+8defb316a8fccb3645e5bcf3ed078b757106c857
 '
 '
 src
@@ -5456,7 +5456,7 @@ git
 '
 +
 '
-936f1383538f2858707a1c35faff6c6809f68503
+b3a9408a155e7165241bad502b76da1b7c363348
 '
 '
 src
@@ -6007,7 +6007,7 @@ chromium
 src
 /
 tools
-3bd11e7df28047682ee06520967e5814c24d04c7
+ac7843f8ef740103a3c0d4b1095e6f7ac79f03f8
 '
 '
 src
@@ -6213,9 +6213,7 @@ version
 '
 :
 '
-R7Wb00YCIhETvM9DgA0duEHaNuv8HWPjOXEGJHsT
--
-OMC
+JQghEwVvti2BC8c2mpooxqKNYz8pMtQ4oQh6I3NKoUEC
 '
 }
 ]
@@ -7416,7 +7414,7 @@ git
 '
 +
 '
-a43f6db2c332aa8b930ff9be9dd2715a018ef88b
+96807af27a98b8d6ac1e1f83395aec479ff8a246
 '
 '
 src
