@@ -75,6 +75,12 @@ aSSLVersionOffered
 )
 override
 ;
+NS_IMETHOD
+NoteHandshakeTimeout
+(
+)
+override
+;
 QuicSocketControl
 (
 const
