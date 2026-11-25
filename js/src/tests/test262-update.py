@@ -35,12 +35,6 @@ optimization
 "
     
 "
-import
--
-defer
-"
-    
-"
 nonextensible
 -
 applies
@@ -377,6 +371,12 @@ import
 -
 bytes
 "
+    
+"
+import
+-
+defer
+"
 ]
 )
 SHELL_OPTIONS
@@ -517,6 +517,24 @@ enable
 import
 -
 bytes
+"
+    
+"
+import
+-
+defer
+"
+:
+"
+-
+-
+enable
+-
+defer
+-
+import
+-
+eval
 "
     
 "
