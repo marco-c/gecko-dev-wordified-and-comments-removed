@@ -333,6 +333,17 @@ restart
 0
 ;
 virtual
+void
+OnFrameDropped
+(
+const
+LayerFrameConfig
+&
+config
+)
+{
+}
+virtual
 GenericFrameInfo
 OnEncodeDone
 (
