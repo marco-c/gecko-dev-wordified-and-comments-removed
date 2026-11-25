@@ -347,6 +347,11 @@ TestFFmpegDecodeStats
 cpp
 "
 "
+TestFFmpegVideoUtils
+.
+cpp
+"
+"
 TestGMPUtils
 .
 cpp
@@ -1606,6 +1611,12 @@ gfx
 /
 2d
 /
+"
+"
+/
+media
+/
+ffvpx
 "
 "
 /
