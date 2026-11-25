@@ -119,6 +119,14 @@ reftest
 .
 list
 include
+sw
+-
+compositor
+/
+reftest
+.
+list
+include
 text
 /
 reftest
