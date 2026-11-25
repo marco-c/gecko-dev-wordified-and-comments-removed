@@ -26,6 +26,11 @@ cstring
 >
 #
 include
+<
+optional
+>
+#
+include
 "
 api
 /
@@ -271,6 +276,13 @@ keyPressed
 uint32_t
 &
 newMicLevel
+std
+:
+:
+optional
+<
+int64_t
+>
 )
 override
 {

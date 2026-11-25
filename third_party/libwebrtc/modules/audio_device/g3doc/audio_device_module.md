@@ -88,7 +88,7 @@ the
 ADM
 are
 :
-*
+-
 Initialization
 and
 termination
@@ -97,7 +97,7 @@ native
 audio
 libraries
 .
-*
+-
 Registration
 of
 an
@@ -118,7 +118,7 @@ in
 both
 directions
 .
-*
+-
 Device
 enumeration
 and
@@ -133,7 +133,7 @@ Mac
 OSX
 )
 .
-*
+-
 Start
 /
 Stop
@@ -141,7 +141,7 @@ physical
 audio
 streams
 :
-*
+-
 Recording
 audio
 from
@@ -149,7 +149,7 @@ the
 selected
 microphone
 and
-*
+-
 playing
 out
 audio
@@ -158,7 +158,7 @@ the
 selected
 speaker
 .
-*
+-
 Level
 control
 of
@@ -167,7 +167,7 @@ active
 audio
 streams
 .
-*
+-
 Control
 of
 built
@@ -703,7 +703,7 @@ ADM
 APIs
 like
 :
-*
+-
 [
 AudiDeviceModule
 :
@@ -724,7 +724,7 @@ for
 each
 platform
 .
-*
+-
 [
 AudiDeviceModule
 :
@@ -763,7 +763,7 @@ PlayoutDeviceName
 8
 ]
 .
-*
+-
 [
 AudiDeviceModule
 :
@@ -803,7 +803,7 @@ RecordingDeviceName
 10
 ]
 .
-*
+-
 [
 AudiDeviceModule
 :
@@ -829,7 +829,7 @@ selected
 output
 device
 .
-*
+-
 [
 AudiDeviceModule
 :
@@ -855,7 +855,7 @@ selected
 input
 device
 .
-*
+-
 [
 AudiDeviceModule
 :
@@ -878,7 +878,7 @@ device
 supports
 it
 .
-*
+-
 [
 AudiDeviceModule
 :
@@ -1010,6 +1010,14 @@ keyPressed
 uint32_t
 &
 newMicLevel
+std
+:
+:
+optional
+<
+int64_t
+>
+estimatedCaptureTimeNS
 )
 Decoded
 audio
@@ -1136,7 +1144,7 @@ recording
 it
 calls
 :
-*
+-
 [
 AudiDeviceModule
 :
@@ -1146,7 +1154,7 @@ InitRecording
 [
 31
 ]
-*
+-
 [
 AudiDeviceModule
 :
@@ -1163,7 +1171,7 @@ and
 start
 playout
 :
-*
+-
 [
 AudiDeviceModule
 :
@@ -1173,7 +1181,7 @@ InitPlayout
 [
 33
 ]
-*
+-
 [
 AudiDeviceModule
 :

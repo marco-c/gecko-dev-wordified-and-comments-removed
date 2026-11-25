@@ -1919,6 +1919,7 @@ _
 _
 _
 _
+_
 )
 )
 .
@@ -1985,6 +1986,13 @@ const
 bool
 uint32_t
 &
+std
+:
+:
+optional
+<
+int64_t
+>
 )
 {
 EXPECT_TRUE
