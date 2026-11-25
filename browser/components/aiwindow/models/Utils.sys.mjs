@@ -1991,7 +1991,7 @@ MODEL_FEATURES
 AITAB
 ]
 :
-2
+1
 }
 )
 ;
