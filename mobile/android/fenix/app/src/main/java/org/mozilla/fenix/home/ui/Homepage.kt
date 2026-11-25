@@ -2136,6 +2136,12 @@ space
 .
 static500
 )
+onWallpapers
+=
+interactor
+:
+:
+onSportsWidgetWallpapersClicked
 onRemove
 =
 interactor
