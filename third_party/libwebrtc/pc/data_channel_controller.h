@@ -703,6 +703,17 @@ network_thread
 )
 )
 ;
+int
+next_internal_id_
+RTC_GUARDED_BY
+(
+network_thread
+(
+)
+)
+=
+0
+;
 std
 :
 :

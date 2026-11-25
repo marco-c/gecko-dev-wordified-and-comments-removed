@@ -2767,6 +2767,17 @@ data_channel_controller_
 weak_ptr
 (
 )
+static_cast
+<
+int
+>
+(
+sctp_data_channels_
+.
+size
+(
+)
+)
 label
 false
 init

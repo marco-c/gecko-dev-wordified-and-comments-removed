@@ -10586,15 +10586,6 @@ RTCStatsCollectorTest
 CollectTwoRTCDataChannelStatsWithPendingId
 )
 {
-SctpDataChannel
-:
-:
-ResetInternalIdAllocatorForTesting
-(
--
-1
-)
-;
 pc_
 -
 >
@@ -10611,6 +10602,7 @@ data_channel_controller_
 weak_ptr
 (
 )
+0
 -
 1
 DataChannelInterface
@@ -10636,6 +10628,7 @@ data_channel_controller_
 weak_ptr
 (
 )
+1
 -
 1
 DataChannelInterface
@@ -10768,15 +10761,6 @@ RTCStatsCollectorTest
 CollectRTCDataChannelStats
 )
 {
-SctpDataChannel
-:
-:
-ResetInternalIdAllocatorForTesting
-(
--
-1
-)
-;
 pc_
 -
 >
@@ -10793,6 +10777,7 @@ data_channel_controller_
 weak_ptr
 (
 )
+0
 0
 "
 MockSctpDataChannel0
@@ -10896,6 +10881,7 @@ weak_ptr
 (
 )
 1
+1
 "
 MockSctpDataChannel1
 "
@@ -10998,6 +10984,7 @@ weak_ptr
 (
 )
 2
+2
 "
 MockSctpDataChannel2
 "
@@ -11099,6 +11086,7 @@ data_channel_controller_
 weak_ptr
 (
 )
+3
 3
 "
 MockSctpDataChannel3
@@ -15137,6 +15125,7 @@ controller
 weak_ptr
 (
 )
+0
 "
 DummyChannelA
 "
@@ -15183,6 +15172,7 @@ controller
 weak_ptr
 (
 )
+1
 "
 DummyChannelB
 "

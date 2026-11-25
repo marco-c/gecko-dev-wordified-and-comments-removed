@@ -90,6 +90,8 @@ SctpDataChannelControllerInterface
 >
 controller
 int
+internal_id
+int
 id
 DataState
 state
@@ -104,6 +106,7 @@ move
 (
 controller
 )
+internal_id
 id
 "
 MockSctpDataChannel
@@ -126,6 +129,8 @@ WeakPtr
 SctpDataChannelControllerInterface
 >
 controller
+int
+internal_id
 int
 id
 const
@@ -192,6 +197,7 @@ move
 (
 controller
 )
+internal_id
 label
 false
 std

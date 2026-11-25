@@ -552,6 +552,8 @@ WeakPtr
 SctpDataChannelControllerInterface
 >
 controller
+int
+internal_id
 absl
 :
 :
@@ -904,14 +906,6 @@ return
 id_n_
 ;
 }
-static
-void
-ResetInternalIdAllocatorForTesting
-(
-int
-new_value
-)
-;
 protected
 :
 SctpDataChannel
@@ -925,6 +919,8 @@ WeakPtr
 SctpDataChannelControllerInterface
 >
 controller
+int
+internal_id
 absl
 :
 :
