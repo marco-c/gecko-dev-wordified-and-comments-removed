@@ -1809,6 +1809,7 @@ fontChecksum
 )
 )
 ;
+return
 aDataCallback
 (
 buf
@@ -1820,9 +1821,6 @@ offset
 0
 aBaton
 )
-;
-return
-true
 ;
 }
 bool
@@ -2023,6 +2021,7 @@ cstr
 )
 ;
 }
+return
 aCb
 (
 reinterpret_cast
@@ -2046,9 +2045,6 @@ Length
 psNameLen
 aBaton
 )
-;
-return
-true
 ;
 }
 static
@@ -2326,6 +2322,7 @@ instance
 this
 )
 ;
+return
 aCb
 (
 reinterpret_cast
@@ -2353,9 +2350,6 @@ size
 )
 aBaton
 )
-;
-return
-true
 ;
 }
 bool

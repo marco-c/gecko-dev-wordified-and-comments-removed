@@ -6661,7 +6661,7 @@ RecordedFontData
 public
 :
 static
-void
+bool
 FontDataProc
 (
 const
@@ -6689,6 +6689,7 @@ RecordedFontData
 aBaton
 )
 ;
+return
 recordedFontData
 -
 >
@@ -6809,7 +6810,7 @@ Data
 "
 ;
 }
-void
+bool
 SetFontData
 (
 const
@@ -6881,7 +6882,7 @@ RecordedFontDescriptor
 public
 :
 static
-void
+bool
 FontDescCb
 (
 const
@@ -6918,6 +6919,9 @@ aData
 aSize
 aIndex
 )
+;
+return
+true
 ;
 }
 explicit
@@ -7105,7 +7109,7 @@ RecordedUnscaledFontCreation
 public
 :
 static
-void
+bool
 FontInstanceDataProc
 (
 const
@@ -7139,6 +7143,9 @@ SetFontInstanceData
 aData
 aSize
 )
+;
+return
+true
 ;
 }
 RecordedUnscaledFontCreation
@@ -7400,7 +7407,7 @@ RecordedScaledFontCreation
 public
 :
 static
-void
+bool
 FontInstanceDataProc
 (
 const
@@ -7445,6 +7452,9 @@ aSize
 aVariations
 aNumVariations
 )
+;
+return
+true
 ;
 }
 RecordedScaledFontCreation
@@ -22102,7 +22112,7 @@ size
 ;
 }
 inline
-void
+bool
 RecordedFontData
 :
 :
@@ -22152,6 +22162,9 @@ size
 <
 aSize
 ;
+return
+false
+;
 }
 mFontDetails
 .
@@ -22173,6 +22186,9 @@ mFontDetails
 index
 =
 aIndex
+;
+return
+true
 ;
 }
 inline

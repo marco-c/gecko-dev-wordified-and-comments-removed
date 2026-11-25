@@ -5446,7 +5446,7 @@ sDeletionCounter
 ;
 }
 typedef
-void
+bool
 (
 *
 FontFileDataOutput
@@ -5466,7 +5466,7 @@ aBaton
 )
 ;
 typedef
-void
+bool
 (
 *
 FontInstanceDataOutput
@@ -5484,7 +5484,7 @@ aBaton
 )
 ;
 typedef
-void
+bool
 (
 *
 FontDescriptorOutput
@@ -5739,7 +5739,7 @@ nullptr
 0
 ;
 typedef
-void
+bool
 (
 *
 FontInstanceDataOutput

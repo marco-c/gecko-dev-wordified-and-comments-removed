@@ -1041,7 +1041,7 @@ mResources
 }
 ;
 static
-void
+bool
 WriteFontFileData
 (
 const
@@ -1086,6 +1086,7 @@ GetNextFontKey
 (
 )
 ;
+return
 sink
 -
 >
@@ -1119,7 +1120,7 @@ aIndex
 ;
 }
 static
-void
+bool
 WriteFontDescriptor
 (
 const
@@ -1164,6 +1165,7 @@ GetNextFontKey
 (
 )
 ;
+return
 sink
 -
 >
