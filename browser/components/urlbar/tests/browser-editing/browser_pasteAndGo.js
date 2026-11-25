@@ -568,6 +568,17 @@ assertLabelForClipboard
 firefox
 browser
 "
+AppConstants
+.
+platform
+=
+=
+"
+win
+"
+?
+PASTE_AND_GO_L10N_ID
+:
 PASTE_AND_SEARCH_L10N_ID
 )
 ;
