@@ -1977,7 +1977,7 @@ IsEmpty
 {
 txn
 .
-SetLanguageOverride
+SetLanguageOverrideInternal
 (
 GetLanguageOverride
 (
