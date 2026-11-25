@@ -250,6 +250,16 @@ js
 ]
 [
 "
+browser_trust_panel_redesign_connection
+.
+js
+"
+]
+https_first_disabled
+=
+true
+[
+"
 browser_trust_panel_redesign_site_issue
 .
 js
