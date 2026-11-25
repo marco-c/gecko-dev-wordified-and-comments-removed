@@ -7658,6 +7658,16 @@ aFrame
 >
 RemoveProperty
 (
+OffsetPathProperty
+(
+)
+)
+;
+aFrame
+-
+>
+RemoveProperty
+(
 MarkerStartProperty
 (
 )
