@@ -2518,6 +2518,15 @@ as
 head
 :
             
+rev
+=
+self
+.
+_try_head_to_commit
+(
+head
+)
+            
 self
 .
 push
@@ -2527,7 +2536,7 @@ remote
                 
 ref
 =
-head
+rev
                 
 dest_branch
 =
@@ -2538,6 +2547,43 @@ force
 True
             
 )
+        
+return
+rev
+    
+def
+_try_head_to_commit
+(
+self
+head
+:
+str
+)
+-
+>
+str
+:
+        
+"
+"
+"
+Return
+the
+commit
+SHA
+for
+the
+head
+yielded
+by
+try_commit
+.
+"
+"
+"
+        
+return
+head
     
 abc
 .
@@ -2692,6 +2738,21 @@ captured
 elsewhere
 .
         
+Returns
+the
+pushed
+commit
+SHA
+when
+pushing
+to
+a
+git
+remote
+otherwise
+None
+.
+        
 "
 "
 "
@@ -2711,10 +2772,11 @@ changed_files
 remote
 allow_log_capture
 )
-        
-else
-:
             
+return
+None
+        
+return
 self
 .
 _push_to_git_try
