@@ -134,7 +134,7 @@ UniFFIScaffolding
 .
 callSync
 (
-67
+68
 /
 /
 uniffi_interrupt_support_fn_func_shutdown

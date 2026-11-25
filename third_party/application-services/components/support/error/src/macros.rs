@@ -56,7 +56,7 @@ message
 crate
 :
 :
-report_error_to_app
+report_error
 (
 type_name
 .

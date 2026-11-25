@@ -27,6 +27,7 @@ gradle
 android
 {
 namespace
+=
 '
 org
 .
@@ -50,6 +51,8 @@ LIBRARY_VERSION
 \
 "
 {
+rootProject
+.
 config
 .
 componentsVersion
@@ -59,17 +62,6 @@ componentsVersion
 "
 )
 }
-}
-dependencies
-{
-implementation
-project
-(
-'
-:
-errorsupport
-'
-)
 }
 ext
 .

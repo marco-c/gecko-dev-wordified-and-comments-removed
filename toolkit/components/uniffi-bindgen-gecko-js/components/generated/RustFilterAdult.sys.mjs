@@ -570,7 +570,7 @@ UniFFIScaffolding
 .
 callSync
 (
-180
+181
 /
 /
 uniffi_filter_adult_fn_constructor_filteradultcomponent_new
@@ -643,7 +643,7 @@ UniFFIScaffolding
 .
 callSync
 (
-181
+182
 /
 /
 uniffi_filter_adult_fn_method_filteradultcomponent_contains

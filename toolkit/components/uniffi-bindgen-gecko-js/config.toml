@@ -745,6 +745,13 @@ error_support
 async_wrappers
 ]
 "
+report_error
+"
+=
+"
+Sync
+"
+"
 set_application_error_reporter
 "
 =

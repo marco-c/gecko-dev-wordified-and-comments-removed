@@ -65,14 +65,6 @@ mozilla
 .
 appservices
 .
-errorsupport
-.
-RustComponentsErrorTelemetry
-import
-mozilla
-.
-appservices
-.
 init_rust_components
 .
 initialize
@@ -115,11 +107,6 @@ call
 .
 .
 initialize
-(
-)
-RustComponentsErrorTelemetry
-.
-register
 (
 )
 /
