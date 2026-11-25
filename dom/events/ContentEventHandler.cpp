@@ -8087,8 +8087,6 @@ if
 aEvent
 -
 >
-mInput
-.
 mWithFontRanges
 )
 {
@@ -12109,7 +12107,10 @@ eQueryTextRect
 aEvent
 )
 ;
-QueryContentOptions
+WidgetQueryContentEvent
+:
+:
+Options
 options
 (
 *
@@ -14671,7 +14672,10 @@ eQueryTextRect
 aEvent
 )
 ;
-QueryContentOptions
+WidgetQueryContentEvent
+:
+:
+Options
 options
 (
 *
@@ -15766,7 +15770,10 @@ aEvent
 mWidget
 )
 ;
-QueryContentOptions
+WidgetQueryContentEvent
+:
+:
+Options
 options
 (
 *
