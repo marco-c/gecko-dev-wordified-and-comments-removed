@@ -1677,16 +1677,6 @@ pbPref
 ]
 [
 "
-dom
-.
-security
-.
-https_first_pbm
-"
-false
-]
-[
-"
 network
 .
 http
