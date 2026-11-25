@@ -4036,6 +4036,13 @@ js
 ]
 [
 "
+test_ext_webRequest_requestBody_no_content_type
+.
+js
+"
+]
+[
+"
 test_ext_webRequest_requestSize
 .
 js
