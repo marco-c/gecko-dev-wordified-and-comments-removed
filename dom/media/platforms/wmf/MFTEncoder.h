@@ -123,6 +123,13 @@ nsTArray
 .
 h
 "
+#
+include
+"
+nsTHashMap
+.
+h
+"
 namespace
 mozilla
 {
@@ -1033,6 +1040,13 @@ bool
 mOutputTimeIsEndTime
 =
 false
+;
+nsTHashMap
+<
+LONGLONG
+LONGLONG
+>
+mInputDurations
 ;
 State
 mState
