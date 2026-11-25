@@ -309,9 +309,10 @@ const
 return
 TransparencyMode
 (
-uint32_t
-(
 mTransparencyMode
+.
+load
+(
 )
 )
 =
