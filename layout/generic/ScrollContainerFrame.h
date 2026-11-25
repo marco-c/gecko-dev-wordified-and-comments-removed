@@ -496,6 +496,15 @@ aScrollableOverflow
 )
 ;
 void
+StoreScrolledFrameOverflow
+(
+const
+nsRect
+&
+aScrollableOverflow
+)
+;
+void
 SetInitialChildList
 (
 ChildListID
