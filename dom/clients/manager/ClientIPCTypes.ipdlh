@@ -575,11 +575,11 @@ CSPInfo
 ?
 cspInfo
 ;
-nsCString
-url
+nsIURI
+uri
 ;
-nsCString
-baseURL
+nsIURI
+baseURI
 ;
 }
 ;
