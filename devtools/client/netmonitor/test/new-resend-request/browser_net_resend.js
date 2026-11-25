@@ -263,8 +263,6 @@ requestHeaders
 headers
 .
 length
--
-1
 "
 The
 no
@@ -602,6 +600,7 @@ const
 {
 getSelectedRequest
 getDisplayedRequests
+getRequestById
 }
 =
 windowRequire
@@ -1041,7 +1040,7 @@ origItemId
 await
 waitForRequestData
 (
-store
+monitor
 [
 "
 requestHeaders

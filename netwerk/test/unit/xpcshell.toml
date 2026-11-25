@@ -11255,6 +11255,13 @@ js
 ]
 [
 "
+test_priority_incremental
+.
+js
+"
+]
+[
+"
 test_private_cookie_changed
 .
 js
