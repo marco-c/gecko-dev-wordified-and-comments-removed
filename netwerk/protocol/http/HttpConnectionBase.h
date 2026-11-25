@@ -553,6 +553,11 @@ result
 =
 0
 ;
+void
+NoteHandshakeTimeout
+(
+)
+;
 [
 [
 nodiscard

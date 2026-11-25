@@ -585,6 +585,12 @@ void
 override
 ;
 NS_IMETHOD
+NoteHandshakeTimeout
+(
+)
+override
+;
+NS_IMETHOD
 SetHandshakeCallbackListener
 (
 nsITlsHandshakeCallbackListener
@@ -1245,6 +1251,10 @@ SetCanceled
 PR_CONNECT_RESET_ERROR
 )
 ;
+mCanceledUnclaimed
+=
+true
+;
 }
 return
 !
@@ -1402,6 +1412,12 @@ mTriedResumptionToken
 ;
 bool
 mTokenRestored
+;
+bool
+mCanceledUnclaimed
+;
+bool
+mHandshakeTimedOut
 ;
 bool
 mNotedTimeUntilReady

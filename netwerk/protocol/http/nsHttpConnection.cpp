@@ -7299,6 +7299,10 @@ TLSHandshakeTimeout
 )
 )
 ;
+NoteHandshakeTimeout
+(
+)
+;
 SetCloseReason
 (
 ConnectionCloseReason
