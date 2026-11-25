@@ -247,8 +247,6 @@ concept
 -
 option
 -
-rendered
--
 label
 /
 /
@@ -280,6 +278,9 @@ fallback
 .
 [
 ChromeOnly
+BinaryName
+=
+renderedLabelForBindings
 ]
 readonly
 attribute
