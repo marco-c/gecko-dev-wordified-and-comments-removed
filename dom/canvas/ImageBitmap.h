@@ -174,9 +174,6 @@ class
 ImageData
 ;
 class
-ImageUtils
-;
-class
 Promise
 ;
 class

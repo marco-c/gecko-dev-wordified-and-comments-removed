@@ -441,11 +441,6 @@ ImageData
 h
 "
 "
-ImageUtils
-.
-h
-"
-"
 OffscreenCanvas
 .
 h
@@ -630,11 +625,6 @@ Isolate
 Skia
 "
 FilterNodeWebgl
-.
-cpp
-"
-"
-ImageUtils
 .
 cpp
 "
