@@ -614,6 +614,13 @@ this
 .
 authentication
 .
+isStatusPending
+|
+|
+this
+.
+authentication
+.
 authenticated
 )
 {
