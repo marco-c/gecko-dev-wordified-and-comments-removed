@@ -4422,7 +4422,7 @@ ElementSelectorFlags
 RELATIVE_SELECTOR_SEARCH_DIRECTION_SIBLING
 )
 {
-return
+break
 ;
 }
 self
