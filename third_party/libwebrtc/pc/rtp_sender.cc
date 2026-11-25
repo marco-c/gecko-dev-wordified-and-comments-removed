@@ -1920,12 +1920,6 @@ InvalidateCache
 (
 )
 ;
-last_transaction_id_
-.
-reset
-(
-)
-;
 }
 }
 void
@@ -2037,12 +2031,6 @@ signaling_thread_
 )
 ;
 InvalidateCache
-(
-)
-;
-last_transaction_id_
-.
-reset
 (
 )
 ;
