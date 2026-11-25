@@ -19304,7 +19304,7 @@ CallSite
 site
 ;
 bool
-atReturnStub
+atReturnCallFallback
 =
 code
 (
@@ -19328,7 +19328,7 @@ kind
 CallSiteKind
 :
 :
-ReturnStub
+ReturnCallFallback
 ;
 MOZ_ASSERT_IF
 (
@@ -19352,7 +19352,7 @@ funcIndex
 &
 &
 !
-atReturnStub
+atReturnCallFallback
 map
 )
 ;

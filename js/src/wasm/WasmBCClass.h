@@ -646,6 +646,9 @@ SigF_
 NonAssertingLabel
 returnLabel_
 ;
+NonAssertingLabel
+returnCallFallbackLabel_
+;
 FuncOffsets
 offsets_
 ;
