@@ -4183,8 +4183,9 @@ nsCaseInsensitiveUTF8StringComparator
 )
 )
 {
-NS_SUCCEEDED
 (
+void
+)
 mSystemProxySettings
 -
 >
@@ -4207,7 +4208,6 @@ query
 >
 mPort
 pacString
-)
 )
 ;
 }
