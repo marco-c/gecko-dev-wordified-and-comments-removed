@@ -328,6 +328,10 @@ aMedia
 const
 nsAString
 &
+aCrossOrigin
+const
+nsAString
+&
 aReferrerPolicy
 const
 nsAString
