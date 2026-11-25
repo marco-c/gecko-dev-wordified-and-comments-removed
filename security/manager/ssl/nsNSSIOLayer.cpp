@@ -9098,6 +9098,8 @@ SetHandshakeNotPending
 )
 ;
 }
+else
+{
 rv
 =
 infoObject
@@ -9119,6 +9121,7 @@ rv
 return
 rv
 ;
+}
 }
 if
 (
