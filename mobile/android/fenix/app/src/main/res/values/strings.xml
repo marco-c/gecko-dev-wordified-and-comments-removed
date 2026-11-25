@@ -20036,13 +20036,6 @@ name
 "
 account_error_last_sync
 "
-tools
-:
-ignore
-=
-"
-UnusedResources
-"
 >
 Last
 sync
@@ -20102,13 +20095,6 @@ name
 =
 "
 account_error_never_synced
-"
-tools
-:
-ignore
-=
-"
-UnusedResources
 "
 >
 never
