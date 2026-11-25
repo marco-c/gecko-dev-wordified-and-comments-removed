@@ -675,6 +675,12 @@ singleLine
 true
 visualTransformation
 =
+Suppress
+(
+"
+DEPRECATION
+"
+)
 VisualTransformation
 .
 None
