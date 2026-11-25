@@ -989,7 +989,7 @@ AudioReceiveStreamImpl
 RTC_DCHECK_RUN_ON
 (
 &
-worker_thread_checker_
+network_thread_checker_
 )
 ;
 RTC_LOG
@@ -1028,7 +1028,7 @@ receiver_controller
 RTC_DCHECK_RUN_ON
 (
 &
-worker_thread_checker_
+network_thread_checker_
 )
 ;
 RTC_DCHECK
@@ -1066,7 +1066,7 @@ UnregisterFromTransport
 RTC_DCHECK_RUN_ON
 (
 &
-worker_thread_checker_
+network_thread_checker_
 )
 ;
 rtp_stream_receiver_
@@ -1087,7 +1087,7 @@ Start
 RTC_DCHECK_RUN_ON
 (
 &
-worker_thread_checker_
+network_thread_checker_
 )
 ;
 if
@@ -1150,7 +1150,7 @@ Stop
 RTC_DCHECK_RUN_ON
 (
 &
-worker_thread_checker_
+network_thread_checker_
 )
 ;
 if
@@ -1215,7 +1215,7 @@ const
 RTC_DCHECK_RUN_ON
 (
 &
-worker_thread_checker_
+network_thread_checker_
 )
 ;
 return
@@ -1238,7 +1238,7 @@ frame_transformer
 RTC_DCHECK_RUN_ON
 (
 &
-worker_thread_checker_
+network_thread_checker_
 )
 ;
 channel_receive_
@@ -1276,7 +1276,7 @@ decoder_map
 RTC_DCHECK_RUN_ON
 (
 &
-worker_thread_checker_
+network_thread_checker_
 )
 ;
 config_
@@ -1315,7 +1315,7 @@ history_ms
 RTC_DCHECK_RUN_ON
 (
 &
-worker_thread_checker_
+network_thread_checker_
 )
 ;
 RTC_DCHECK_GE
@@ -1377,7 +1377,7 @@ mode
 RTC_DCHECK_RUN_ON
 (
 &
-worker_thread_checker_
+network_thread_checker_
 )
 ;
 if
@@ -1423,7 +1423,7 @@ enabled
 RTC_DCHECK_RUN_ON
 (
 &
-worker_thread_checker_
+network_thread_checker_
 )
 ;
 config_
@@ -1457,7 +1457,7 @@ frame_decryptor
 RTC_DCHECK_RUN_ON
 (
 &
-worker_thread_checker_
+network_thread_checker_
 )
 ;
 channel_receive_
@@ -1492,7 +1492,7 @@ const
 RTC_DCHECK_RUN_ON
 (
 &
-worker_thread_checker_
+network_thread_checker_
 )
 ;
 AudioReceiveStreamInterface
@@ -2178,7 +2178,7 @@ sink
 RTC_DCHECK_RUN_ON
 (
 &
-worker_thread_checker_
+network_thread_checker_
 )
 ;
 channel_receive_
@@ -2203,7 +2203,7 @@ gain
 RTC_DCHECK_RUN_ON
 (
 &
-worker_thread_checker_
+network_thread_checker_
 )
 ;
 channel_receive_
@@ -2228,7 +2228,7 @@ max_packets
 RTC_DCHECK_RUN_ON
 (
 &
-worker_thread_checker_
+network_thread_checker_
 )
 ;
 channel_receive_
@@ -2253,7 +2253,7 @@ fast_accelerate
 RTC_DCHECK_RUN_ON
 (
 &
-worker_thread_checker_
+network_thread_checker_
 )
 ;
 channel_receive_
@@ -2278,7 +2278,7 @@ delay_ms
 RTC_DCHECK_RUN_ON
 (
 &
-worker_thread_checker_
+network_thread_checker_
 )
 ;
 return
@@ -2303,7 +2303,7 @@ const
 RTC_DCHECK_RUN_ON
 (
 &
-worker_thread_checker_
+network_thread_checker_
 )
 ;
 return
@@ -2390,7 +2390,7 @@ const
 RTC_DCHECK_RUN_ON
 (
 &
-worker_thread_checker_
+network_thread_checker_
 )
 ;
 return
@@ -2420,7 +2420,7 @@ const
 RTC_DCHECK_RUN_ON
 (
 &
-worker_thread_checker_
+network_thread_checker_
 )
 ;
 return
@@ -2450,6 +2450,12 @@ GetPlayoutRtpTimestamp
 )
 const
 {
+RTC_DCHECK_RUN_ON
+(
+&
+network_thread_checker_
+)
+;
 return
 channel_receive_
 -
@@ -2471,6 +2477,12 @@ Timestamp
 time
 )
 {
+RTC_DCHECK_RUN_ON
+(
+&
+network_thread_checker_
+)
+;
 channel_receive_
 -
 >
@@ -2494,7 +2506,7 @@ delay
 RTC_DCHECK_RUN_ON
 (
 &
-worker_thread_checker_
+network_thread_checker_
 )
 ;
 return
@@ -2527,7 +2539,7 @@ packet
 RTC_DCHECK_RUN_ON
 (
 &
-worker_thread_checker_
+network_thread_checker_
 )
 ;
 channel_receive_
@@ -2564,7 +2576,7 @@ sync_group
 RTC_DCHECK_RUN_ON
 (
 &
-worker_thread_checker_
+network_thread_checker_
 )
 ;
 config_
@@ -2597,7 +2609,7 @@ const
 RTC_DCHECK_RUN_ON
 (
 &
-worker_thread_checker_
+network_thread_checker_
 )
 ;
 return

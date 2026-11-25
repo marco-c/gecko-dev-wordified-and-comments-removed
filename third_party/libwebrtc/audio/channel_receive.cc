@@ -670,17 +670,6 @@ include
 "
 rtc_base
 /
-system
-/
-no_unique_address
-.
-h
-"
-#
-include
-"
-rtc_base
-/
 thread_annotations
 .
 h
@@ -1416,7 +1405,7 @@ receive_time
 )
 RTC_RUN_ON
 (
-worker_thread_checker_
+network_thread_
 )
 ;
 int
@@ -1456,7 +1445,7 @@ receive_time
 )
 RTC_RUN_ON
 (
-worker_thread_checker_
+network_thread_
 )
 ;
 void
@@ -1470,12 +1459,8 @@ frame_transformer
 )
 RTC_RUN_ON
 (
-worker_thread_checker_
+network_thread_
 )
-;
-RTC_NO_UNIQUE_ADDRESS
-SequenceChecker
-worker_thread_checker_
 ;
 const
 Environment
@@ -1484,7 +1469,7 @@ env_
 TaskQueueBase
 *
 const
-worker_thread_
+network_thread_
 ;
 RaceChecker
 audio_thread_race_checker_
@@ -1493,7 +1478,7 @@ bool
 playing_
 RTC_GUARDED_BY
 (
-worker_thread_checker_
+network_thread_
 )
 =
 false
@@ -1509,7 +1494,7 @@ int
 payload_type_frequencies_
 RTC_GUARDED_BY
 (
-worker_thread_checker_
+network_thread_
 )
 ;
 const
@@ -1563,8 +1548,7 @@ uint32_t
 last_received_rtp_timestamp_
 RTC_GUARDED_BY
 (
-&
-worker_thread_checker_
+network_thread_
 )
 ;
 std
@@ -1577,8 +1561,7 @@ Timestamp
 last_received_rtp_system_time_
 RTC_GUARDED_BY
 (
-&
-worker_thread_checker_
+network_thread_
 )
 ;
 mutable
@@ -1669,7 +1652,7 @@ NtpTime
 playout_timestamp_ntp_
 RTC_GUARDED_BY
 (
-worker_thread_checker_
+network_thread_
 )
 ;
 std
@@ -1682,7 +1665,7 @@ Timestamp
 playout_timestamp_ntp_time_
 RTC_GUARDED_BY
 (
-worker_thread_checker_
+network_thread_
 )
 ;
 mutable
@@ -1729,9 +1712,6 @@ PacketRouter
 const
 packet_router_
 ;
-SequenceChecker
-construction_thread_
-;
 scoped_refptr
 <
 FrameDecryptorInterface
@@ -1739,7 +1719,7 @@ FrameDecryptorInterface
 frame_decryptor_
 RTC_GUARDED_BY
 (
-worker_thread_checker_
+network_thread_
 )
 ;
 const
@@ -1750,7 +1730,7 @@ AbsoluteCaptureTimeInterpolator
 absolute_capture_time_interpolator_
 RTC_GUARDED_BY
 (
-worker_thread_checker_
+network_thread_
 )
 ;
 CaptureClockOffsetUpdater
@@ -1786,7 +1766,7 @@ RtcpPacketTypeCounter
 rtcp_packet_type_counter_
 RTC_GUARDED_BY
 (
-worker_thread_checker_
+network_thread_
 )
 ;
 std
@@ -1800,7 +1780,7 @@ SdpAudioFormat
 payload_type_map_
 RTC_GUARDED_BY
 (
-worker_thread_checker_
+network_thread_
 )
 ;
 std
@@ -1813,7 +1793,7 @@ NackTracker
 nack_tracker_
 RTC_GUARDED_BY
 (
-worker_thread_checker_
+network_thread_
 )
 ;
 absl
@@ -1832,7 +1812,7 @@ ssrc
 on_first_packet_
 RTC_GUARDED_BY
 (
-worker_thread_checker_
+network_thread_
 )
 ;
 }
@@ -2005,8 +1985,7 @@ frame_transformer_delegate_
 ;
 RTC_DCHECK_RUN_ON
 (
-&
-worker_thread_checker_
+network_thread_
 )
 ;
 ChannelReceiveFrameTransformerDelegate
@@ -2038,8 +2017,7 @@ receive_time
 {
 RTC_DCHECK_RUN_ON
 (
-&
-worker_thread_checker_
+network_thread_
 )
 ;
 OnReceivedPayloadData
@@ -2072,7 +2050,7 @@ move
 (
 frame_transformer
 )
-worker_thread_
+network_thread_
 )
 ;
 frame_transformer_delegate_
@@ -2987,7 +2965,7 @@ env_
 (
 env
 )
-worker_thread_
+network_thread_
 (
 TaskQueueBase
 :
@@ -3130,6 +3108,11 @@ on_first_packet
 {
 RTC_DCHECK
 (
+network_thread_
+)
+;
+RTC_DCHECK
+(
 audio_device_module
 )
 ;
@@ -3192,8 +3175,7 @@ ChannelReceive
 {
 RTC_DCHECK_RUN_ON
 (
-&
-construction_thread_
+network_thread_
 )
 ;
 packet_router_
@@ -3237,8 +3219,7 @@ sink
 {
 RTC_DCHECK_RUN_ON
 (
-&
-worker_thread_checker_
+network_thread_
 )
 ;
 MutexLock
@@ -3263,8 +3244,7 @@ StartPlayout
 {
 RTC_DCHECK_RUN_ON
 (
-&
-worker_thread_checker_
+network_thread_
 )
 ;
 playing_
@@ -3282,8 +3262,7 @@ StopPlayout
 {
 RTC_DCHECK_RUN_ON
 (
-&
-worker_thread_checker_
+network_thread_
 )
 ;
 playing_
@@ -3367,8 +3346,7 @@ const
 {
 RTC_DCHECK_RUN_ON
 (
-&
-worker_thread_checker_
+network_thread_
 )
 ;
 MutexLock
@@ -3448,8 +3426,7 @@ codecs
 {
 RTC_DCHECK_RUN_ON
 (
-&
-worker_thread_checker_
+network_thread_
 )
 ;
 payload_type_frequencies_
@@ -3526,8 +3503,7 @@ packet
 {
 RTC_DCHECK_RUN_ON
 (
-&
-worker_thread_checker_
+network_thread_
 )
 ;
 if
@@ -4158,8 +4134,7 @@ length
 {
 RTC_DCHECK_RUN_ON
 (
-&
-worker_thread_checker_
+network_thread_
 )
 ;
 rtp_rtcp_
@@ -4308,8 +4283,7 @@ const
 {
 RTC_DCHECK_RUN_ON
 (
-&
-worker_thread_checker_
+network_thread_
 )
 ;
 return
@@ -4331,8 +4305,7 @@ const
 {
 RTC_DCHECK_RUN_ON
 (
-&
-worker_thread_checker_
+network_thread_
 )
 ;
 return
@@ -4354,8 +4327,7 @@ const
 {
 RTC_DCHECK_RUN_ON
 (
-&
-worker_thread_checker_
+network_thread_
 )
 ;
 return
@@ -4378,8 +4350,7 @@ scaling
 {
 RTC_DCHECK_RUN_ON
 (
-&
-worker_thread_checker_
+network_thread_
 )
 ;
 output_gain_
@@ -4401,8 +4372,7 @@ const
 {
 RTC_DCHECK_RUN_ON
 (
-&
-worker_thread_checker_
+network_thread_
 )
 ;
 ChannelReceiveStatistics
@@ -4720,8 +4690,7 @@ max_packets
 {
 RTC_DCHECK_RUN_ON
 (
-&
-worker_thread_checker_
+network_thread_
 )
 ;
 if
@@ -4783,8 +4752,7 @@ mode
 {
 RTC_DCHECK_RUN_ON
 (
-&
-worker_thread_checker_
+network_thread_
 )
 ;
 rtp_rtcp_
@@ -4808,8 +4776,7 @@ enabled
 {
 RTC_DCHECK_RUN_ON
 (
-&
-worker_thread_checker_
+network_thread_
 )
 ;
 rtp_rtcp_
@@ -4837,8 +4804,7 @@ packet_counter
 {
 RTC_DCHECK_RUN_ON
 (
-&
-worker_thread_checker_
+network_thread_
 )
 ;
 if
@@ -4872,8 +4838,7 @@ frame_transformer
 {
 RTC_DCHECK_RUN_ON
 (
-&
-worker_thread_checker_
+network_thread_
 )
 ;
 if
@@ -4944,8 +4909,7 @@ frame_decryptor
 {
 RTC_DCHECK_RUN_ON
 (
-&
-worker_thread_checker_
+network_thread_
 )
 ;
 frame_decryptor_
@@ -4972,8 +4936,7 @@ const
 {
 RTC_DCHECK_RUN_ON
 (
-&
-worker_thread_checker_
+network_thread_
 )
 ;
 NetworkStatistics
@@ -5344,8 +5307,7 @@ const
 {
 RTC_DCHECK_RUN_ON
 (
-&
-worker_thread_checker_
+network_thread_
 )
 ;
 MutexLock
@@ -5374,8 +5336,7 @@ const
 {
 RTC_DCHECK_RUN_ON
 (
-&
-worker_thread_checker_
+network_thread_
 )
 ;
 uint16_t
@@ -5422,8 +5383,7 @@ delay
 {
 RTC_DCHECK_RUN_ON
 (
-&
-worker_thread_checker_
+network_thread_
 )
 ;
 delay
@@ -5510,8 +5470,7 @@ const
 {
 RTC_DCHECK_RUN_ON
 (
-&
-worker_thread_checker_
+network_thread_
 )
 ;
 std
@@ -5693,8 +5652,7 @@ time
 {
 RTC_DCHECK_RUN_ON
 (
-&
-worker_thread_checker_
+network_thread_
 )
 ;
 playout_timestamp_ntp_
@@ -5725,8 +5683,7 @@ const
 {
 RTC_DCHECK_RUN_ON
 (
-&
-worker_thread_checker_
+network_thread_
 )
 ;
 if
@@ -5852,8 +5809,7 @@ max_packets
 {
 RTC_DCHECK_RUN_ON
 (
-&
-worker_thread_checker_
+network_thread_
 )
 ;
 MutexLock
@@ -5884,8 +5840,7 @@ enable
 {
 RTC_DCHECK_RUN_ON
 (
-&
-worker_thread_checker_
+network_thread_
 )
 ;
 MutexLock
@@ -5924,8 +5879,7 @@ const
 {
 RTC_DCHECK_RUN_ON
 (
-&
-worker_thread_checker_
+network_thread_
 )
 ;
 Syncable

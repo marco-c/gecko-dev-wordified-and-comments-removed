@@ -742,7 +742,7 @@ env_
 ;
 RTC_NO_UNIQUE_ADDRESS
 SequenceChecker
-worker_thread_checker_
+network_thread_checker_
 ;
 webrtc
 :
@@ -780,7 +780,7 @@ bool
 playing_
 RTC_GUARDED_BY
 (
-worker_thread_checker_
+network_thread_checker_
 )
 =
 false
@@ -795,7 +795,7 @@ RtpStreamReceiverInterface
 rtp_stream_receiver_
 RTC_GUARDED_BY
 (
-worker_thread_checker_
+network_thread_checker_
 )
 ;
 }
