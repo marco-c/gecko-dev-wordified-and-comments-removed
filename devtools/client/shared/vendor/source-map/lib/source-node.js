@@ -76,8 +76,12 @@ this
 .
 sourceContents
 =
-{
-}
+Object
+.
+create
+(
+null
+)
 ;
 this
 .

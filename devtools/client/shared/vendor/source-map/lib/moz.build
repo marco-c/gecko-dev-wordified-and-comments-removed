@@ -90,6 +90,15 @@ js
 "
 "
 mappings
+-
+glue
+-
+browser
+.
+mjs
+"
+"
+mappings
 .
 wasm
 "
