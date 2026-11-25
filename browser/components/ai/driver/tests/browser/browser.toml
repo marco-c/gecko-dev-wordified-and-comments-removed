@@ -33,6 +33,15 @@ logLevel
 =
 Info
 "
+"
+browser
+.
+smartwindow
+.
+enabled
+=
+true
+"
 ]
 [
 "
