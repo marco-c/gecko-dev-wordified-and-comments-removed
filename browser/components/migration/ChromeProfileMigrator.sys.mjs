@@ -1163,6 +1163,12 @@ async
 getPermissions
 (
 win
+{
+onFilePickerShown
+}
+=
+{
+}
 )
 {
 /
@@ -1421,6 +1427,12 @@ by
 the
 filepicker
 .
+onFilePickerShown
+?
+.
+(
+)
+;
 let
 result
 =
