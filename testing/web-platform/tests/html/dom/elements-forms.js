@@ -463,6 +463,11 @@ step
 "
 string
 "
+switch
+:
+"
+boolean
+"
 type
 :
 {
