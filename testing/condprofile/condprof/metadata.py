@@ -85,18 +85,18 @@ logger
 .
 info
 (
+f
 "
 Reading
 existing
 metadata
 at
-%
-s
-"
-%
+{
 self
 .
 metadata_file
+}
+"
 )
         
 if
@@ -539,18 +539,18 @@ logger
 .
 info
 (
+f
 "
 Saving
 metadata
 file
 in
-%
-s
-"
-%
+{
 self
 .
 metadata_file
+}
+"
 )
         
 with

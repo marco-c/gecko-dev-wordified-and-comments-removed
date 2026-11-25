@@ -667,16 +667,16 @@ LOG
 .
 info
 (
+f
 "
 Cloning
 profile
 located
 at
-%
-s
-"
-%
+{
 profile_path
+}
+"
 )
         
 def
@@ -715,14 +715,14 @@ LOG
 .
 info
 (
+f
 "
 =
 >
-%
-s
-"
-%
+{
 sub
+}
+"
 )
             
 return
@@ -1353,30 +1353,28 @@ process_start
 proc
 .
 pid
+f
 "
-%
-s
-%
-s
-"
-%
-(
+{
 self
 .
 browser_config
 [
-"
+'
 browser_path
-"
+'
 ]
-"
-"
+}
+{
+'
+'
 .
 join
 (
 args
 )
-)
+}
+"
         
 )
         
@@ -1541,6 +1539,7 @@ LOG
 .
 info
 (
+f
 "
 Exception
 while
@@ -1548,13 +1547,12 @@ removing
 profile
 directory
 :
-%
-s
-"
-%
+{
 self
 .
 _tmp_dir
+}
+"
 )
             
 LOG
@@ -1725,6 +1723,7 @@ LOG
 .
 info
 (
+f
 "
 Recursive
 search
@@ -1733,11 +1732,10 @@ gcda
 files
 in
 :
-%
-s
-"
-%
+{
 _ccov_path
+}
+"
 )
                         
 for
@@ -1809,6 +1807,7 @@ LOG
 info
 (
                             
+f
 "
 The
 ccov
@@ -1820,14 +1819,13 @@ doesn
 t
 exist
 :
-%
-s
-"
-%
+{
 str
 (
 _ccov_path
 )
+}
+"
                         
 )
             
@@ -1840,10 +1838,15 @@ LOG
 info
 (
                     
+f
 "
 Found
-%
-d
+{
+len
+(
+_gcda_files_found
+)
+}
 gcda
 files
 to
@@ -1854,14 +1857,6 @@ Deleting
 .
 .
 "
-                    
-%
-(
-len
-(
-_gcda_files_found
-)
-)
                 
 )
                 
@@ -1891,17 +1886,17 @@ LOG
 .
 info
 (
+f
 "
 Exception
 while
 removing
 file
 :
-%
-s
-"
-%
+{
 _gcda
+}
+"
 )
                         
 LOG
@@ -1954,10 +1949,15 @@ LOG
 info
 (
                     
+f
 "
 Found
-%
-d
+{
+len
+(
+_gcda_files_found
+)
+}
 gcda
 files
 to
@@ -1967,21 +1967,10 @@ Moving
 to
 gcda
 archive
-%
-s
-"
-                    
-%
-(
-len
-(
-_gcda_files_found
-)
-str
-(
+{
 gcda_archive_top
-)
-)
+}
+"
                 
 )
                 
@@ -2016,6 +2005,7 @@ LOG
 critical
 (
                             
+f
 "
 Unable
 to
@@ -2023,11 +2013,10 @@ make
 gcda
 archive
 folder
-%
-s
-"
-%
+{
 gcda_archive_top
+}
+"
                         
 )
                 
@@ -2115,17 +2104,17 @@ LOG
 critical
 (
                                 
+f
 "
 Unable
 to
 make
 archive
 folder
-%
-s
-"
-%
+{
 gcda_archive_dest
+}
+"
                             
 )
                     
@@ -2151,27 +2140,24 @@ LOG
 info
 (
                             
+f
 "
 Error
 copying
-%
-s
-to
-%
-s
-"
-                            
-%
-(
+{
 str
 (
 _gcda
 )
+}
+to
+{
 str
 (
 gcda_archive_dest
 )
-)
+}
+"
                         
 )
                         
@@ -2187,6 +2173,7 @@ LOG
 info
 (
                     
+f
 "
 Finished
 collecting
@@ -2197,12 +2184,10 @@ files
 Copied
 to
 :
-%
-s
-"
-                    
-%
+{
 gcda_archive_top
+}
+"
                 
 )
     
@@ -2217,26 +2202,26 @@ LOG
 .
 info
 (
+f
 "
 Initialising
 browser
 for
-%
-s
+{
+self
+.
+test_config
+[
+'
+name
+'
+]
+}
 test
 .
 .
 .
 "
-%
-self
-.
-test_config
-[
-"
-name
-"
-]
 )
         
 self
@@ -2317,25 +2302,25 @@ LOG
 .
 info
 (
+f
 "
 Fission
 enabled
 :
-%
-s
-"
-%
+{
 self
 .
 browser_config
 .
 get
 (
-"
+'
 fission
-"
+'
 True
 )
+}
+"
 )
         
 if

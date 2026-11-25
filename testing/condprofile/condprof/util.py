@@ -562,13 +562,11 @@ logger
 .
 info
 (
+f
 "
 Setting
 prefs
-%
-s
-"
-%
+{
 str
 (
 prefs
@@ -577,6 +575,8 @@ items
 (
 )
 )
+}
+"
 )
     
 new_profile
@@ -611,14 +611,14 @@ logger
 .
 info
 (
+f
 "
 Downloading
 addon
-%
-s
-"
-%
+{
 name
+}
+"
 )
         
 extension
@@ -774,19 +774,19 @@ machine
         
 extension
 =
+f
 "
 .
 linux
 -
-%
-s
+{
+arch
+}
 .
 tar
 .
 xz
 "
-%
-arch
     
 else
 :
@@ -914,15 +914,15 @@ logger
 .
 info
 (
+f
 "
 Getting
 headers
 at
-%
-s
-"
-%
+{
 archive
+}
+"
 )
         
 resp
@@ -1038,17 +1038,17 @@ logger
 .
 info
 (
+f
 "
 Response
 code
 is
-%
-d
-"
-%
+{
 resp
 .
 status_code
+}
+"
 )
         
 exists
@@ -1074,19 +1074,19 @@ logger
 .
 info
 (
+f
 "
 Checking
 for
 existence
 of
 :
-%
-s
+{
+target
+}
 in
 MOZ_FETCHES_DIR
 "
-%
-target
 )
     
 fetches
@@ -1143,6 +1143,7 @@ logger
 .
 info
 (
+f
 "
 Already
 fetched
@@ -1151,11 +1152,10 @@ available
 in
 MOZ_FETCHES_DIR
 :
-%
-s
-"
-%
+{
 fetches_target
+}
+"
 )
     
 return
@@ -1236,14 +1236,16 @@ logger
 .
 info
 (
+f
 "
 Cannot
 find
-%
-r
-"
-%
+{
 url
+!
+r
+}
+"
 )
         
 raise
@@ -1267,17 +1269,17 @@ logger
 .
 info
 (
+f
 "
 Checking
 for
 existence
 of
 :
-%
-s
-"
-%
+{
 target
+}
+"
 )
     
 if
@@ -1421,28 +1423,25 @@ logger
 info
 (
                 
+f
 "
 Content
 in
 cache
 directory
-%
-s
-:
-%
-s
-"
-                
-%
-(
+{
 archivedir
+}
+:
+{
 os
 .
 listdir
 (
 archivedir
 )
-)
+}
+"
             
 )
         
@@ -1468,13 +1467,13 @@ logger
 .
 info
 (
+f
 "
 Downloading
-%
-s
-"
-%
+{
 url
+}
+"
 )
     
 req
@@ -1543,14 +1542,14 @@ logger
 .
 info
 (
+f
 "
 Creating
 dir
-%
-s
-"
-%
+{
 target_dir
+}
+"
 )
         
 os
@@ -1824,17 +1823,17 @@ found
 raise
 OSError
 (
+f
 "
 No
 app
 file
 found
 in
-%
-s
-"
-%
+{
 dmg
+}
+"
 )
 contextlib
 .
@@ -1864,13 +1863,13 @@ logger
 .
 info
 (
+f
 "
 Downloading
-%
-s
-"
-%
+{
 nightly_archive
+}
+"
 )
         
 target
@@ -1952,15 +1951,15 @@ Linux
             
 cmd
 =
+f
 "
 tar
 -
 xvf
-%
-s
-"
-%
+{
 target
+}
+"
             
 os
 .
@@ -2078,19 +2077,17 @@ logger
 .
 info
 (
+f
 "
 writing
-%
-s
-to
-%
-s
-"
-%
-(
+{
 yml_data
+}
+to
+{
 yml_file
-)
+}
+"
 )
     
 try

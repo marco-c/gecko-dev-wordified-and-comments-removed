@@ -245,31 +245,28 @@ raise
 Exception
 (
             
+f
 "
 Unexpected
 error
 executing
 '
-%
-s
-'
-:
-\
-n
-%
-s
-"
-            
-%
-(
+{
 subprocess
 .
 list2cmdline
 (
 command
 )
+}
+'
+:
+\
+n
+{
 stdout
-)
+}
+"
         
 )
     
@@ -485,17 +482,17 @@ pids
         
 mapfile
 =
+f
 "
 /
 proc
 /
-%
-s
+{
+pid
+}
 /
 maps
 "
-%
-pid
         
 with
 open
@@ -647,17 +644,17 @@ pids
         
 file
 =
+f
 "
 /
 proc
 /
-%
-s
+{
+pid
+}
 /
 status
 "
-%
-pid
         
 with
 open

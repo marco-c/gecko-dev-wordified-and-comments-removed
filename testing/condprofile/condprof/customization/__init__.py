@@ -149,6 +149,7 @@ None
 raise
 OSError
 (
+f
 "
 Can
 '
@@ -157,11 +158,12 @@ find
 the
 customization
 file
-%
-r
-"
-%
+{
 path_or_name
+!
+r
+}
+"
 )
     
 with

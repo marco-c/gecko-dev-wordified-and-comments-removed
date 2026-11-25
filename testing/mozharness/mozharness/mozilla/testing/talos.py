@@ -733,12 +733,12 @@ self
 .
 critical
 (
+f
 "
-%
-s
-"
-%
+{
 line
+}
+"
 )
             
 self
@@ -2413,18 +2413,18 @@ self
 .
 warning
 (
+f
 "
 enabling
 Gecko
 profiler
 for
-%
-s
+{
+setting
+}
 setting
 !
 "
-%
-setting
 )
                     
 self
@@ -3087,23 +3087,17 @@ host
                     
 new_url
 =
+f
 '
 http
 :
 /
 /
-%
-s
-/
-%
-s
-"
-'
-%
-(
-                        
+{
 site_origin_hash
-                        
+}
+/
+{
 "
 /
 "
@@ -3112,39 +3106,37 @@ join
 (
 merged
 )
-                    
-)
+}
+"
+'
                     
 self
 .
 info
 (
                         
+f
 "
 Replacing
-%
-s
-with
-%
-s
-in
-iframe
-inside
-%
-s
-"
-                        
-%
-(
+{
 match
 .
 group
 (
 2
 )
+}
+with
+{
 new_url
+}
+in
+iframe
+inside
+{
 path
-)
+}
+"
                     
 )
                     
@@ -3831,11 +3823,15 @@ self
 fatal
 (
                     
+f
 "
 Suite
 '
-%
-s
+{
+self
+.
+suite
+}
 '
 is
 not
@@ -3849,11 +3845,6 @@ json
 config
 )
 "
-                    
-%
-self
-.
-suite
                 
 )
     
@@ -4180,14 +4171,14 @@ options
 extend
 (
 [
+f
 "
 -
 -
-%
-s
-"
-%
+{
 key
+}
+"
 value
 ]
 )
@@ -4947,18 +4938,18 @@ self
 .
 info
 (
+f
 "
 Downloading
-%
-s
+{
+artifact
+}
 with
 tooltool
 .
 .
 .
 "
-%
-artifact
 )
                 
 archive
@@ -5120,14 +5111,14 @@ self
 .
 info
 (
+f
 "
-%
-s
+{
+artifact
+}
 already
 available
 "
-%
-artifact
 )
             
 else
@@ -5138,11 +5129,13 @@ self
 info
 (
                     
+f
 "
 Not
 downloading
-%
-s
+{
+artifact
+}
 because
 the
 no
@@ -5152,9 +5145,6 @@ option
 was
 specified
 "
-                    
-%
-artifact
                 
 )
         
@@ -5275,22 +5265,20 @@ self
 .
 info
 (
+f
 "
 Copying
 webkit
 benchmarks
 from
-%
-s
-to
-%
-s
-"
-%
-(
+{
 src
+}
+to
+{
 dest
-)
+}
+"
 )
         
 try
@@ -5312,23 +5300,21 @@ self
 .
 critical
 (
+f
 "
 Error
 copying
 webkit
 benchmarks
 from
-%
-s
-to
-%
-s
-"
-%
-(
+{
 src
+}
+to
+{
 dest
-)
+}
+"
 )
     
 def
@@ -5837,25 +5823,24 @@ self
 critical
 (
                 
+f
 "
 PERFHERDER_DATA
 was
 seen
-%
-d
-times
-expected
-1
-.
-"
-                
-%
+{
 len
 (
 parser
 .
 found_perf_data
 )
+}
+times
+expected
+1
+.
+"
             
 )
             
@@ -5879,15 +5864,15 @@ self
 .
 info
 (
+f
 "
 Validating
 PERFHERDER_DATA
 against
-%
-s
-"
-%
+{
 schema_path
+}
+"
 )
         
 try
@@ -6010,23 +5995,21 @@ self
 .
 critical
 (
+f
 "
 Error
 copying
 results
-%
-s
+{
+src
+}
 to
 upload
 dir
-%
-s
-"
-%
-(
-src
+{
 dest
-)
+}
+"
 )
             
 parser
@@ -6430,24 +6413,24 @@ config
             
 fname_pattern
 =
+f
 "
-%
-s_
-%
+{
+self
+.
+config
+[
+'
+suite
+'
+]
+}
+_
 %
 s
 .
 log
 "
-%
-self
-.
-config
-[
-"
-suite
-"
-]
             
 mozlog_opts
 .
@@ -6461,11 +6444,9 @@ log
 -
 errorsummary
 =
-%
-s
 "
                 
-%
++
 os
 .
 path

@@ -558,13 +558,15 @@ line
 .
 append
 (
+f
 "
-%
+{
+average
+:
 .
 3f
+}
 "
-%
-average
 )
                 
 week_avgs
@@ -1013,15 +1015,15 @@ platform
 f
 +
 =
+f
 "
 -
-%
-s
-"
-%
+{
 args
 .
 platform
+}
+"
     
 if
 args
@@ -1052,28 +1054,28 @@ test
 f
 +
 =
+f
 "
 -
-%
-s
-"
-%
+{
 args
 .
 test
+}
+"
     
 f
 +
 =
+f
 "
 -
-%
-s
-"
-%
+{
 args
 .
 mode
+}
+"
     
 generate_report
 (

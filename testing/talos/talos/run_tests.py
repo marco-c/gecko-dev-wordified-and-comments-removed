@@ -190,6 +190,7 @@ test
 raise
 TalosError
 (
+f
 "
 tpmanifest
 not
@@ -197,11 +198,10 @@ found
 in
 test
 :
-%
-s
-"
-%
+{
 test
+}
+"
 )
     
 if
@@ -365,14 +365,14 @@ CLI_bool_options
         
 _pref_name
 =
+f
 "
 talos
 .
-%
-s
-"
-%
+{
 key
+}
+"
         
 if
 key
@@ -436,14 +436,14 @@ key
         
 _pref_name
 =
+f
 "
 talos
 .
-%
-s
-"
-%
+{
 key
+}
+"
         
 if
 value
@@ -509,15 +509,17 @@ LOG
 .
 info
 (
+f
 "
 starting
 webserver
 on
-%
-r
-"
-%
+{
 webserver
+!
+r
+}
+"
 )
     
 host
@@ -835,11 +837,8 @@ normpath
 file
 :
 /
-%
-s
 "
-%
-(
++
 urllib
 .
 parse
@@ -861,7 +860,6 @@ t
 \
 \
 "
-)
 )
             
 )
@@ -1164,6 +1162,7 @@ url
 host
 )
 {
+{
   
 if
 (
@@ -1177,15 +1176,17 @@ http
 )
 )
 {
+{
    
 return
 '
 PROXY
-%
-s
+{
+}
 '
 ;
   
+}
 }
   
 return
@@ -1194,16 +1195,20 @@ DIRECT
 '
 ;
 }
+}
 "
 "
 "
-%
+.
+format
+(
 browser_config
 [
 "
 webserver
 "
 ]
+)
     
 if
 config
@@ -1483,6 +1488,7 @@ develop
             
 print
 (
+f
 "
 Abort
 :
@@ -1493,11 +1499,10 @@ changeset
 or
 repository
 :
-%
-s
-"
-%
+{
 version_info
+}
+"
 )
             
 sys
@@ -1590,29 +1595,27 @@ LOG
 .
 debug
 (
+f
 "
 using
 testdate
 :
-%
-d
-"
-%
+{
 date
+}
+"
 )
     
 LOG
 .
 debug
 (
+f
 "
 actual
 date
 :
-%
-d
-"
-%
+{
 int
 (
 time
@@ -1621,6 +1624,8 @@ time
 (
 )
 )
+}
+"
 )
     
 talos_results
@@ -1892,20 +1897,18 @@ LOG
 .
 info
 (
+f
 "
 Skipping
-%
-s
+{
+testname
+}
 reason
 :
-%
-s
-"
-%
-(
-testname
+{
 skip_reason
-)
+}
+"
 )
                 
 LOG
@@ -1923,15 +1926,15 @@ SKIP
                     
 message
 =
+f
 "
 Test
 skipped
 :
-%
-s
-"
-%
+{
 skip_reason
+}
+"
                 
 )
                 
@@ -2113,6 +2116,7 @@ raise
 TalosError
 (
                         
+f
 "
 Need
 '
@@ -2123,18 +2127,17 @@ test
 .
 py
 for
-%
-s
-"
-%
+{
 test
 .
 get
 (
-"
+'
 name
-"
+'
 )
+}
+"
                     
 )
                 
@@ -2158,6 +2161,7 @@ raise
 TalosError
 (
                         
+f
 "
 Abort
 :
@@ -2165,18 +2169,17 @@ no
 results
 returned
 for
-%
-s
-"
-%
+{
 test
 .
 get
 (
-"
+'
 name
-"
+'
 )
+}
+"
                     
 )
                 
@@ -2283,16 +2286,16 @@ LOG
 .
 error
 (
+f
 "
 Detected
 a
 regression
 for
-%
-s
-"
-%
+{
 testname
+}
+"
 )
         
 LOG
@@ -2380,21 +2383,21 @@ LOG
 .
 info
 (
+f
 "
 Completed
 test
 suite
 (
-%
-s
-)
-"
-%
+{
 timer
 .
 elapsed
 (
 )
+}
+)
+"
 )
     
 if
@@ -2443,6 +2446,7 @@ gecko_profile
 print
 (
                     
+f
 "
 Thanks
 for
@@ -2453,19 +2457,15 @@ locally
 Results
 are
 in
-%
-s
-"
-                    
-%
-(
+{
 results_urls
 [
-"
+'
 output_urls
-"
+'
 ]
-)
+}
+"
                 
 )
         
@@ -2620,17 +2620,17 @@ LOG
 .
 info
 (
+f
 "
 Profile
 saved
 locally
 to
 :
-%
-s
-"
-%
+{
 profile_zip_path
+}
+"
 )
     
 view_gecko_profile
@@ -3718,14 +3718,14 @@ sys
 .
 exit
 (
+f
 "
 ERROR
 :
-%
-s
-"
-%
+{
 exc
+}
+"
 )
     
 sys
