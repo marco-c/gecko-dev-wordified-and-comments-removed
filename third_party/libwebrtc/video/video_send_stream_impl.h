@@ -1089,7 +1089,7 @@ pacing_config_
 TaskQueueBase
 *
 const
-worker_queue_
+network_queue_
 ;
 RepeatingTaskHandle
 check_encoder_activity_task_
@@ -1195,7 +1195,7 @@ thread_checker_
 )
 ;
 ScopedTaskSafety
-worker_queue_safety_
+network_queue_safety_
 ;
 }
 ;

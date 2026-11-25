@@ -704,7 +704,7 @@ num_channels
 )
 RTC_RUN_ON
 (
-worker_thread_checker_
+network_thread_checker_
 )
 ;
 void
@@ -721,7 +721,7 @@ callback
 )
 RTC_RUN_ON
 (
-worker_thread_checker_
+network_thread_checker_
 )
 ;
 bool
@@ -734,7 +734,7 @@ new_config
 )
 RTC_RUN_ON
 (
-worker_thread_checker_
+network_thread_checker_
 )
 ;
 bool
@@ -747,7 +747,7 @@ new_config
 )
 RTC_RUN_ON
 (
-worker_thread_checker_
+network_thread_checker_
 )
 ;
 void
@@ -760,7 +760,7 @@ new_config
 )
 RTC_RUN_ON
 (
-worker_thread_checker_
+network_thread_checker_
 )
 ;
 void
@@ -773,7 +773,7 @@ new_config
 )
 RTC_RUN_ON
 (
-worker_thread_checker_
+network_thread_checker_
 )
 ;
 void
@@ -786,7 +786,7 @@ new_config
 )
 RTC_RUN_ON
 (
-worker_thread_checker_
+network_thread_checker_
 )
 ;
 void
@@ -795,7 +795,7 @@ ConfigureBitrateObserver
 )
 RTC_RUN_ON
 (
-worker_thread_checker_
+network_thread_checker_
 )
 ;
 void
@@ -804,7 +804,7 @@ RemoveBitrateObserver
 )
 RTC_RUN_ON
 (
-worker_thread_checker_
+network_thread_checker_
 )
 ;
 std
@@ -820,7 +820,7 @@ GetMinMaxBitrateConstraints
 const
 RTC_RUN_ON
 (
-worker_thread_checker_
+network_thread_checker_
 )
 ;
 void
@@ -838,7 +838,7 @@ clockrate_hz
 )
 RTC_RUN_ON
 (
-worker_thread_checker_
+network_thread_checker_
 )
 ;
 const
@@ -846,7 +846,7 @@ Environment
 env_
 ;
 SequenceChecker
-worker_thread_checker_
+network_thread_checker_
 ;
 RaceChecker
 audio_capture_race_checker_
@@ -879,7 +879,7 @@ Config
 config_
 RTC_GUARDED_BY
 (
-worker_thread_checker_
+network_thread_checker_
 )
 ;
 scoped_refptr
@@ -916,7 +916,7 @@ int
 encoder_sample_rate_hz_
 RTC_GUARDED_BY
 (
-worker_thread_checker_
+network_thread_checker_
 )
 =
 0
@@ -925,7 +925,7 @@ size_t
 encoder_num_channels_
 RTC_GUARDED_BY
 (
-worker_thread_checker_
+network_thread_checker_
 )
 =
 0
@@ -934,7 +934,7 @@ bool
 sending_
 RTC_GUARDED_BY
 (
-worker_thread_checker_
+network_thread_checker_
 )
 =
 false
@@ -962,7 +962,7 @@ const
 bitrate_allocator_
 RTC_GUARDED_BY
 (
-worker_thread_checker_
+network_thread_checker_
 )
 ;
 RtpTransportControllerSendInterface
@@ -1080,7 +1080,7 @@ size_t
 transport_overhead_per_packet_bytes_
 RTC_GUARDED_BY
 (
-worker_thread_checker_
+network_thread_checker_
 )
 =
 0
@@ -1089,7 +1089,7 @@ size_t
 overhead_per_packet_
 RTC_GUARDED_BY
 (
-worker_thread_checker_
+network_thread_checker_
 )
 =
 0
@@ -1098,7 +1098,7 @@ bool
 registered_with_allocator_
 RTC_GUARDED_BY
 (
-worker_thread_checker_
+network_thread_checker_
 )
 =
 false
@@ -1120,7 +1120,7 @@ TimeDelta
 frame_length_range_
 RTC_GUARDED_BY
 (
-worker_thread_checker_
+network_thread_checker_
 )
 ;
 std
@@ -1140,7 +1140,7 @@ DataRate
 bitrate_range_
 RTC_GUARDED_BY
 (
-worker_thread_checker_
+network_thread_checker_
 )
 ;
 }
