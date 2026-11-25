@@ -2192,6 +2192,10 @@ scoped_refptr
 RtpVideoStreamReceiverFrameTransformerDelegate
 >
 frame_transformer_delegate_
+RTC_GUARDED_BY
+(
+worker_queue_
+)
 ;
 SeqNumUnwrapper
 <
