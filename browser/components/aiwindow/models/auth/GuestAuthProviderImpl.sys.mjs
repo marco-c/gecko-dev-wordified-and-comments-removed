@@ -253,10 +253,6 @@ token
 pref
 :
 PREF_TOKEN
-default
-:
-"
-"
 }
 mode
 :
@@ -264,11 +260,6 @@ mode
 pref
 :
 PREF_MODE
-default
-:
-"
-fetch
-"
 }
 }
 )

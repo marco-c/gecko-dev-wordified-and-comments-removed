@@ -224,7 +224,6 @@ smartformfill
 .
 enabled
 "
-false
 )
 ;
 const

@@ -253,7 +253,6 @@ smartformfill
 .
 minFormFields
 "
-4
 )
 ;
 const

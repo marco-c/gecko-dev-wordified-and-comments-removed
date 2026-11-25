@@ -289,7 +289,6 @@ lazy
 sidebarEmptyCloseCount
 "
 SIDEBAR_EMPTY_CLOSE_COUNT_PREF
-0
 )
 ;
 /
@@ -372,10 +371,6 @@ content
 aiwindow
 /
 components
-/
-ai
--
-window
 /
 ai
 -

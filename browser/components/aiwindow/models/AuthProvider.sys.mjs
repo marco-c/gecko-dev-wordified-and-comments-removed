@@ -158,9 +158,6 @@ hasAIWindowToUConsent
 pref
 :
 PREF_TOU_CONSENT_TIME
-default
-:
-0
 }
 log
 :

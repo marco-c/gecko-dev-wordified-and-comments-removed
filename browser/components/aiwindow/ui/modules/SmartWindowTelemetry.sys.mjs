@@ -300,8 +300,7 @@ lazy
 modelChoice
 "
 PREF_MODEL_CHOICE
-"
-"
+null
 (
 )
 =
@@ -322,7 +321,7 @@ lazy
 memoriesFromConversation
 "
 PREF_MEMORIES_FROM_CONVERSATION
-false
+null
 (
 )
 =
@@ -343,7 +342,7 @@ lazy
 memoriesFromHistory
 "
 PREF_MEMORIES_FROM_HISTORY
-false
+null
 (
 )
 =
@@ -364,7 +363,7 @@ lazy
 isDefaultWindow
 "
 PREF_IS_DEFAULT_WINDOW
-false
+null
 (
 )
 =
@@ -385,7 +384,7 @@ lazy
 smartWindowEnabled
 "
 PREF_SMARTWINDOW_ENABLED
-false
+null
 (
 )
 =
@@ -406,7 +405,7 @@ lazy
 sidebarOpenByDefault
 "
 PREF_SIDEBAR_OPEN_BY_DEFAULT
-true
+null
 (
 )
 =

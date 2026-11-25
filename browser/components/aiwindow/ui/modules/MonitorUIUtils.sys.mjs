@@ -520,12 +520,7 @@ agent
 .
 supportedRegions
 "
-JSON
-.
-stringify
-(
-SUPPORTED_REGIONS_DEFAULT
-)
+null
 null
 json
 =

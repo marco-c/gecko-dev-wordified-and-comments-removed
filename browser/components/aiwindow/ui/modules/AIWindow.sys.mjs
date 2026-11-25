@@ -973,7 +973,7 @@ lazy
 hasFirstrunCompleted
 "
 PREF_FIRSTRUN_HAS_COMPLETED
-false
+null
 (
 _pref
 _previous
@@ -7698,7 +7698,7 @@ AIWindow
 AIWindowEnabledPref
 "
 PREF_SMARTWINDOW_ENABLED
-false
+null
 AIWindow
 .
 _onAIWindowEnabledPrefChange
@@ -7718,9 +7718,7 @@ AIWindow
 AIControlSmartWindow
 "
 PREF_AI_CONTROL_SMARTWINDOW
-"
-default
-"
+null
 AIWindow
 .
 _onAIWindowEnabledPrefChange
@@ -7740,9 +7738,7 @@ AIWindow
 AIControlDefault
 "
 PREF_AI_CONTROL_DEFAULT
-"
-available
-"
+null
 AIWindow
 .
 _onAIWindowEnabledPrefChange
