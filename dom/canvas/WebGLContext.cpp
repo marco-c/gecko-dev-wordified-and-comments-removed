@@ -7504,7 +7504,7 @@ onFailure
 ;
 }
 auto
-pid
+childID
 =
 mHost
 -
@@ -7512,7 +7512,7 @@ mHost
 mOwner
 -
 >
-OtherPid
+OtherChildID
 (
 )
 ;
@@ -7526,7 +7526,7 @@ layers
 RemoteTextureOwnerClient
 >
 (
-pid
+childID
 )
 ;
 }
@@ -8160,7 +8160,7 @@ return
 ;
 }
 auto
-pid
+childID
 =
 mHost
 -
@@ -8168,7 +8168,7 @@ mHost
 mOwner
 -
 >
-OtherPid
+OtherChildID
 (
 )
 ;
@@ -8182,7 +8182,7 @@ layers
 RemoteTextureOwnerClient
 >
 (
-pid
+childID
 )
 ;
 }

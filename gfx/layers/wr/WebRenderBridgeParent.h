@@ -1187,11 +1187,8 @@ IsSameProcess
 const
 override
 ;
-base
-:
-:
-ProcessId
-GetChildProcessId
+GeckoChildID
+GetChildID
 (
 )
 override

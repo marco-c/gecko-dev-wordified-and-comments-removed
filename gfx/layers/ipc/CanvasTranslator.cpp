@@ -831,9 +831,9 @@ mBackendType
 =
 aBackendType
 ;
-mOtherPid
+mOtherChildID
 =
-OtherPid
+OtherChildID
 (
 )
 ;
@@ -7567,7 +7567,7 @@ mRemoteTextureOwner
 new
 RemoteTextureOwnerClient
 (
-mOtherPid
+mOtherChildID
 )
 ;
 }

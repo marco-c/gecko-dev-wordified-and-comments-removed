@@ -602,11 +602,8 @@ aActive
 =
 0
 ;
-base
-:
-:
-ProcessId
-GetChildProcessId
+GeckoChildID
+GetChildID
 (
 )
 override

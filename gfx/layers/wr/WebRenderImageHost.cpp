@@ -343,7 +343,7 @@ RemoteTextureId
 0
 }
 mReadyCallbackOwnerId
-mReadyCallbackForPid
+mReadyCallbackForChildID
 )
 this
 )
@@ -757,11 +757,8 @@ const
 RemoteTextureOwnerId
 aOwnerId
 const
-base
-:
-:
-ProcessId
-aForPid
+GeckoChildID
+aForChildID
 const
 gfx
 :
@@ -817,10 +814,10 @@ aOwnerId
 wrapper
 -
 >
-mForPid
+mForChildID
 !
 =
-aForPid
+aForChildID
 )
 {
 ClearPendingRemoteTextures
@@ -869,7 +866,7 @@ GetOrCreateRemoteTextureHostWrapper
 (
 aTextureId
 aOwnerId
-aForPid
+aForChildID
 aSize
 aFlags
 )
@@ -1144,12 +1141,12 @@ wrapper
 >
 mOwnerId
 ;
-mReadyCallbackForPid
+mReadyCallbackForChildID
 =
 wrapper
 -
 >
-mForPid
+mForChildID
 ;
 break
 ;
@@ -1477,7 +1474,7 @@ back
 mOwnerId
 back
 .
-mForPid
+mForChildID
 front
 .
 mWaitForRemoteTextureOwner
@@ -1514,7 +1511,7 @@ RemoteTextureId
 0
 }
 mReadyCallbackOwnerId
-mReadyCallbackForPid
+mReadyCallbackForChildID
 )
 this
 )
