@@ -480,7 +480,7 @@ name
 ;
 #
 ifdef
-_MSC_VER
+HAVE_SEH_EXCEPTIONS
 static
 const
 DWORD
