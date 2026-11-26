@@ -17268,7 +17268,7 @@ setRequestedOrientation
 (
 ActivityInfo
 .
-SCREEN_ORIENTATION_SENSOR_PORTRAIT
+SCREEN_ORIENTATION_USER
 )
 ;
 }
