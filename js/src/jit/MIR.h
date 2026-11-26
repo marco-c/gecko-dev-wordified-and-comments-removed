@@ -6565,7 +6565,15 @@ Lower
 Upper
 }
 ;
-MIR_OPCODE_CLASS_GENERATED
+#
+include
+"
+jit
+/
+MIROpClassesGenerated
+.
+h
+"
 class
 MLimitedTruncate
 :

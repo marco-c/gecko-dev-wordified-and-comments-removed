@@ -41,7 +41,15 @@ js
 namespace
 jit
 {
-LIR_OPCODE_CLASS_GENERATED
+#
+include
+"
+jit
+/
+LIROpClassesGenerated
+.
+h
+"
 template
 <
 size_t
