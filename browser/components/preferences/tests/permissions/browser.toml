@@ -68,6 +68,13 @@ js
 ]
 [
 "
+browser_permissions_containers
+.
+js
+"
+]
+[
+"
 browser_permissions_dialog
 .
 js

@@ -230,6 +230,17 @@ preferences
 /
 dialogs
 /
+permissionContainers
+.
+js
+content
+/
+browser
+/
+preferences
+/
+dialogs
+/
 permissions
 .
 xhtml
