@@ -197,15 +197,6 @@ aError
 )
 ;
 }
-void
-GetRenderedLabel
-(
-nsAString
-&
-aLabel
-)
-const
-;
 HTMLSelectElement
 *
 GetSelect
