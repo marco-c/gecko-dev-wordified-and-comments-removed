@@ -2046,6 +2046,13 @@ html
 ]
 [
 "
+test_peerConnection_setParameters_scaleResolutionDownBy_oddResolution
+.
+html
+"
+]
+[
+"
 test_peerConnection_setParameters_scaleResolutionDownBy_oldSetParameters
 .
 html
