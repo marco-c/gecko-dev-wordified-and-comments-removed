@@ -259,4 +259,10 @@ is_emulator
 "
 :
 True
+    
+"
+pgo_slow_emulator
+"
+:
+True
 }
