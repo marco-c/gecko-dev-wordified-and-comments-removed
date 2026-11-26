@@ -405,7 +405,7 @@ registerMarkerSchema
 name
 :
 "
-Log
+TestLog
 "
 tableLabel
 :
@@ -2079,7 +2079,7 @@ data
 type
 =
 "
-Log
+TestLog
 "
 ;
 /
