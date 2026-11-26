@@ -974,7 +974,7 @@ view
 consider
 using
 [
-CFRPopupLayout
+CFRPopup
 ]
 .
 *
@@ -1300,7 +1300,7 @@ view
 consider
 using
 [
-CFRPopupLayout
+CFRPopup
 ]
 .
 *
