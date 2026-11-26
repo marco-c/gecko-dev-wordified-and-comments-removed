@@ -61,6 +61,9 @@ nsISupportsImpl
 h
 "
 class
+nsIInputStream
+;
+class
 nsISerialEventTarget
 ;
 namespace
@@ -155,10 +158,10 @@ aArgs
 const
 nsCOMPtr
 <
-nsICacheEntry
+nsIInputStream
 >
 &
-aCacheEntry
+aAltDataStream
 TimeStamp
 aOnStartRequestStart
 )

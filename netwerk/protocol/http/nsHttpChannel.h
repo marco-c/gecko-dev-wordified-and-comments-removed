@@ -2986,6 +2986,12 @@ nsIInputStream
 >
 mCacheInputStream
 ;
+nsCOMPtr
+<
+nsIInputStream
+>
+mAltDataInputStream
+;
 RefPtr
 <
 nsInputStreamPump
