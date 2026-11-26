@@ -9332,7 +9332,7 @@ tcp_streams
 :
 HashMap
 <
-StreamId
+Http3OrWebTransportStream
 TcpStream
 >
 udp_sockets
@@ -10107,7 +10107,7 @@ insert
 (
 stream
 .
-stream_id
+clone
 (
 )
 TcpStream
@@ -10203,10 +10203,6 @@ get_mut
 (
 &
 stream
-.
-stream_id
-(
-)
 )
 .
 unwrap
@@ -10271,10 +10267,6 @@ get_mut
 (
 &
 stream
-.
-stream_id
-(
-)
 )
 .
 unwrap
