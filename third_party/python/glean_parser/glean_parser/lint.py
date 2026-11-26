@@ -2521,6 +2521,21 @@ in
 all_pings
 ]
     
+reserved_pings
+=
+sorted
+(
+        
+pings
+.
+RESERVED_PING_NAMES
++
+pings
+.
+INTERNAL_RESERVED_PING_NAMES
+    
+)
+    
 for
 _
 metric
@@ -2557,9 +2572,7 @@ send_in_pings
 if
 target_ping
 in
-pings
-.
-RESERVED_PING_NAMES
+reserved_pings
 :
                 
 continue
