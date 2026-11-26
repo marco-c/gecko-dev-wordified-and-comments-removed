@@ -1385,16 +1385,6 @@ number
 exit
 65
 fi
-#
-config
-files
-are
-in
-updates
-subdirectory
-below
-this
-script
 if
 !
 cd
@@ -1407,8 +1397,6 @@ dirname
 }
 "
 )
-/
-updates
 "
 2
 >
@@ -1433,8 +1421,6 @@ dirname
 }
 "
 )
-/
-updates
 '
 from
 '
@@ -3071,7 +3057,6 @@ MAX_PROCS
 }
 "
 .
-.
 /
 get
 -
@@ -3161,7 +3146,6 @@ P
 MAX_PROCS
 }
 "
-.
 .
 /
 test
