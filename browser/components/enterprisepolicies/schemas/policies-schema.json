@@ -25354,6 +25354,8 @@ HTTPProxy
 example
 .
 com
+:
+8080
 "
 "
 UseHTTPProxyForAllProtocols
@@ -25368,6 +25370,8 @@ SSLProxy
 example
 .
 com
+:
+8080
 "
 "
 FTPProxy
@@ -25377,6 +25381,8 @@ FTPProxy
 example
 .
 com
+:
+8080
 "
 "
 SOCKSProxy
@@ -25386,6 +25392,8 @@ SOCKSProxy
 example
 .
 com
+:
+8080
 "
 "
 SOCKSVersion
