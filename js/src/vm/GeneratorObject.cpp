@@ -1601,7 +1601,7 @@ genValue
 moduleEnv
 -
 >
-getSlot
+getRawSlot
 (
 prop
 -

@@ -4027,7 +4027,7 @@ cx
 env
 -
 >
-getSlot
+getRawSlot
 (
 prop
 -
@@ -4683,7 +4683,7 @@ cx
 env
 -
 >
-getSlot
+getRawSlot
 (
 prop
 -
