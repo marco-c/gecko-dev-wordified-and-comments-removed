@@ -480,6 +480,10 @@ const
 nsAString
 &
 aContentType
+bool
+aRandomizeFilename
+=
+false
 )
 ;
 uint32_t
