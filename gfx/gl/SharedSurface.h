@@ -575,6 +575,17 @@ WaitForBufferOwnership
 {
 }
 virtual
+void
+WaitForBufferOwnershipForWrite
+(
+)
+{
+WaitForBufferOwnership
+(
+)
+;
+}
+virtual
 bool
 IsBufferAvailable
 (
@@ -632,7 +643,7 @@ BeginWrite
 (
 )
 {
-WaitForBufferOwnership
+WaitForBufferOwnershipForWrite
 (
 )
 ;
