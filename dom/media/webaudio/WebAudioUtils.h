@@ -487,11 +487,6 @@ f
 )
 ;
 }
-void
-Shutdown
-(
-)
-;
 int
 SpeexResamplerProcess
 (

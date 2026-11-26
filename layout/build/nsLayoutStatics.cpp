@@ -539,13 +539,6 @@ h
 #
 include
 "
-WebAudioUtils
-.
-h
-"
-#
-include
-"
 gfxUserFontSet
 .
 h
@@ -1923,13 +1916,6 @@ CubebUtils
 :
 :
 ShutdownLibrary
-(
-)
-;
-WebAudioUtils
-:
-:
-Shutdown
 (
 )
 ;
