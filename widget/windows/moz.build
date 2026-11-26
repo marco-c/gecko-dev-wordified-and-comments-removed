@@ -356,6 +356,11 @@ CompositorWidgetParent
 h
 "
 "
+GdiBackBuffer
+.
+h
+"
+"
 InProcessWinCompositorWidget
 .
 h
@@ -432,6 +437,11 @@ cpp
 "
 "
 DirectManipulationOwner
+.
+cpp
+"
+"
+GdiBackBuffer
 .
 cpp
 "

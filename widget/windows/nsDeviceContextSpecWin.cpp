@@ -132,13 +132,6 @@ SetForm
 #
 include
 "
-gfxWindowsSurface
-.
-h
-"
-#
-include
-"
 mozilla
 /
 gfx
