@@ -1071,6 +1071,17 @@ EnsureIPCPoliciesRead
 )
 ;
 bool
+upgradeInsecure
+=
+false
+;
+GetUpgradeInsecureRequests
+(
+&
+upgradeInsecure
+)
+;
+bool
 permits
 =
 true
@@ -1117,6 +1128,7 @@ aLoadInfo
 aContentLocation
 aOriginalURIIfRedirect
 aSpecific
+upgradeInsecure
 violatedDirective
 violatedDirectiveString
 )
