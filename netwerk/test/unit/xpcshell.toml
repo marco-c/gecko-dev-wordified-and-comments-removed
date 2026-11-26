@@ -3572,6 +3572,13 @@ js
 ]
 [
 "
+test_ddr_verification
+.
+js
+"
+]
+[
+"
 test_defaultURI
 .
 js
