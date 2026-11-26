@@ -34781,7 +34781,7 @@ sync
 .
 perDeviceEngineChoices
 "
-false
+true
 )
 ;
 pref
