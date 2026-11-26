@@ -448,13 +448,6 @@ Boolean
 false
 override
 val
-tabGroupsEnabled
-:
-Boolean
-=
-true
-override
-val
 tabGroupsDragAndDropEnabled
 :
 Boolean

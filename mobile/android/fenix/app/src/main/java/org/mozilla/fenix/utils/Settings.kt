@@ -18429,11 +18429,7 @@ pref_key_tab_groups
 )
 default
 =
-{
-DefaultTabManagementFeatureHelper
-.
-tabGroupsEnabled
-}
+true
 )
 /
 *
