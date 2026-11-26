@@ -1093,6 +1093,16 @@ this
 .
 editor
 .
+setMode
+(
+mode
+)
+;
+await
+this
+.
+editor
+.
 setText
 (
 text
@@ -1100,7 +1110,6 @@ text
 documentId
 :
 url
-mode
 }
 )
 ;
