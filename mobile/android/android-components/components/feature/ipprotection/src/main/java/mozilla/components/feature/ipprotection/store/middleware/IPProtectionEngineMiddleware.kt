@@ -685,6 +685,12 @@ UsageChanged
 is
 IPProtectionAction
 .
+UsageAction
+.
+UsageResetPromptPending
+is
+IPProtectionAction
+.
 AccountAction
 .
 AccountStateChanged

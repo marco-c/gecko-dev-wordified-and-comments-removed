@@ -591,6 +591,8 @@ IPProtectionTelemetryMiddleware
 )
 IPProtectionPreferencesMiddleware
 (
+preferences
+=
 ipProtectionRepository
 )
 IPProtectionLocationMiddleware

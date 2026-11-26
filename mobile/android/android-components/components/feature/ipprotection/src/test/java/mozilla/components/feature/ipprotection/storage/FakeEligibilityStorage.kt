@@ -450,6 +450,11 @@ ProxyActivation
 ProxyActivation
 .
 Idle
+usageResetPromptPending
+:
+Boolean
+=
+false
 )
 :
 IPProtectionState
@@ -486,5 +491,8 @@ proxyActivation
 proxyRequest
 =
 proxyRequest
+usageQuotaResetPromptPending
+=
+usageResetPromptPending
 )
 }
