@@ -473,7 +473,9 @@ compose
 .
 cfr
 .
-CFRBox
+CFRPopup
+.
+IndicatorDirection
 import
 mozilla
 .
@@ -483,9 +485,7 @@ compose
 .
 cfr
 .
-CFRPopup
-.
-IndicatorDirection
+CFRTooltip
 import
 mozilla
 .
@@ -1307,7 +1307,7 @@ headerTextWrapper
 headerText
 -
 >
-CFRBox
+CFRTooltip
 (
 state
 =

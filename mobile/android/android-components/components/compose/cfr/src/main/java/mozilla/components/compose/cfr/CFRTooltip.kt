@@ -793,7 +793,7 @@ CFRPositionProvider
 ]
 for
 [
-CFRBox
+CFRTooltip
 ]
 *
 *
@@ -882,7 +882,7 @@ CFRState
 ]
 for
 [
-CFRBox
+CFRTooltip
 ]
 *
 /
@@ -1151,7 +1151,7 @@ class
 TooltipBox
 Composable
 fun
-CFRBox
+CFRTooltip
 (
 cfr
 :
@@ -1771,9 +1771,13 @@ Modifier
 .
 padding
 (
-16
+AcornTheme
 .
-dp
+layout
+.
+space
+.
+static200
 )
 .
 weight
@@ -3790,9 +3794,13 @@ fillMaxSize
 .
 padding
 (
-16
+AcornTheme
 .
-dp
+layout
+.
+space
+.
+static200
 )
 contentAlignment
 =
@@ -3927,7 +3935,7 @@ buttonText
 String
 )
 {
-CFRBox
+CFRTooltip
 (
 positionProvider
 =

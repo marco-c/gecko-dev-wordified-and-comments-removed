@@ -181,7 +181,7 @@ AndroidJUnit4
 class
 )
 class
-CFRBoxTest
+CFRTooltipTest
 {
 get
 :
@@ -214,7 +214,7 @@ shown
 (
 )
 {
-setCFRBoxContent
+setCFRTooltipContent
 (
 enableUserInput
 =
@@ -267,7 +267,7 @@ shown
 (
 )
 {
-setCFRBoxContent
+setCFRTooltipContent
 (
 enableUserInput
 =
@@ -299,7 +299,7 @@ assertDoesNotExist
 }
 private
 fun
-setCFRBoxContent
+setCFRTooltipContent
 (
 enableUserInput
 :
@@ -310,7 +310,7 @@ composeTestRule
 .
 setContent
 {
-CFRBox
+CFRTooltip
 (
 cfr
 =
