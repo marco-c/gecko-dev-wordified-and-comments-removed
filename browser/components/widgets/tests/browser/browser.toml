@@ -15,6 +15,17 @@ enabled
 =
 true
 "
+"
+extensions
+.
+widgets
+.
+generated
+.
+enabled
+=
+true
+"
 ]
 support
 -
