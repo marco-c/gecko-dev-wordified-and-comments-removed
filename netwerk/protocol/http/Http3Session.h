@@ -1836,6 +1836,12 @@ mBeforeConnectedError
 false
 }
 ;
+bool
+mBlackholeError
+{
+false
+}
+;
 uint64_t
 mCurrentBrowserId
 ;

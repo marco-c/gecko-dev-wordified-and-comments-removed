@@ -11998,6 +11998,8 @@ PeerError
 -
 StatelessReset
 -
+TooManyPtos
+-
 TooMuchData
 -
 UnexpectedMessage
