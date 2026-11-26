@@ -83,6 +83,8 @@ size_t
 aSize
 size_t
 aAlignment
+size_t
+aCommitSize
 )
 ;
 void
