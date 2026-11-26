@@ -1859,7 +1859,7 @@ If
 there
 is
 a
-userTypedValue
+urlbarOverrideValue
 set
 then
 either
@@ -1918,7 +1918,7 @@ tabData
 &
 browser
 .
-userTypedValue
+urlbarOverrideValue
 )
 {
 tabData
@@ -1927,7 +1927,7 @@ userTypedValue
 =
 browser
 .
-userTypedValue
+urlbarOverrideValue
 ;
 /
 /

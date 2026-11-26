@@ -1402,7 +1402,7 @@ state
 {
 uri
 isSameDocument
-userTypedValue
+urlbarOverrideValue
 firstView
 }
 )
@@ -1457,7 +1457,7 @@ If
 there
 is
 a
-userTypedValue
+urlbarOverrideValue
 and
 it
 differs
@@ -1478,10 +1478,10 @@ text
 .
 if
 (
-userTypedValue
+urlbarOverrideValue
 &
 &
-userTypedValue
+urlbarOverrideValue
 !
 =
 =

@@ -303,7 +303,7 @@ a
 title
 and
 a
-userTypedValue
+urlbarOverrideValue
 held
 for
 as
@@ -612,7 +612,7 @@ tab
 .
 |
 |
-userTypedValue
+urlbarOverrideValue
 |
 Session
 store

@@ -22963,7 +22963,7 @@ crashed
 ;
 let
 {
-userTypedValue
+urlbarOverrideValue
 =
 null
 }
@@ -22998,7 +22998,9 @@ permanentKey
 Cache
 the
 browser
-userTypedValue
+'
+s
+urlbarOverrideValue
 either
 if
 there
@@ -23153,7 +23155,7 @@ Bug
 let
 shouldUpdateCacheState
 =
-userTypedValue
+urlbarOverrideValue
 &
 &
 (
@@ -23233,6 +23235,8 @@ browser
 permanentKey
 {
 userTypedValue
+:
+urlbarOverrideValue
 userTypedClear
 :
 1
@@ -23258,7 +23262,7 @@ title
 aTab
 .
 label
-userTypedValue
+urlbarOverrideValue
 }
 )
 ;
@@ -47033,7 +47037,7 @@ tab
 {
 url
 title
-userTypedValue
+urlbarOverrideValue
 :
 tabData
 .
@@ -59713,7 +59717,7 @@ if
 (
 browser
 .
-userTypedValue
+urlbarOverrideValue
 )
 {
 return
@@ -59721,7 +59725,7 @@ return
 }
 browser
 .
-userTypedValue
+urlbarOverrideValue
 =
 userTypedValue
 ;
@@ -60554,7 +60558,7 @@ will
 clear
 /
 /
-userTypedValue
+urlbarOverrideValue
 .
 /
 /
@@ -60632,12 +60636,12 @@ userTypedClear
 !
 browser
 .
-userTypedValue
+urlbarOverrideValue
 )
 {
 browser
 .
-userTypedValue
+urlbarOverrideValue
 =
 tabData
 .
@@ -60738,7 +60742,7 @@ its
 search
 string
 in
-userTypedValue
+urlbarOverrideValue
 if
 /
 /
@@ -60779,7 +60783,7 @@ browser
 ;
 browser
 .
-userTypedValue
+urlbarOverrideValue
 =
 cacheState
 .

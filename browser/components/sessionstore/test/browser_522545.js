@@ -112,7 +112,7 @@ is
 (
 browser
 .
-userTypedValue
+urlbarOverrideValue
 "
 example
 .
@@ -404,7 +404,7 @@ is
 (
 browser
 .
-userTypedValue
+urlbarOverrideValue
 "
 example
 .
@@ -704,7 +704,7 @@ is
 (
 browser
 .
-userTypedValue
+urlbarOverrideValue
 "
 example
 .
@@ -872,7 +872,7 @@ is
 (
 browser
 .
-userTypedValue
+urlbarOverrideValue
 "
 example
 .
@@ -1263,7 +1263,7 @@ is
 (
 browser
 .
-userTypedValue
+urlbarOverrideValue
 null
 "
 userTypedValue
@@ -1343,7 +1343,7 @@ is
 (
 browser
 .
-userTypedValue
+urlbarOverrideValue
 "
 example
 .
@@ -1544,7 +1544,7 @@ is
 (
 browser
 .
-userTypedValue
+urlbarOverrideValue
 null
 "
 userTypedValue
@@ -1703,7 +1703,7 @@ gBrowser
 .
 selectedBrowser
 .
-userTypedValue
+urlbarOverrideValue
 =
 null
 ;
@@ -1738,7 +1738,7 @@ gBrowser
 .
 selectedBrowser
 .
-userTypedValue
+urlbarOverrideValue
 =
 null
 ;

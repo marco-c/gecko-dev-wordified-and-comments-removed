@@ -1508,7 +1508,7 @@ newTab
 .
 linkedBrowser
 .
-userTypedValue
+urlbarOverrideValue
 =
 this
 .
