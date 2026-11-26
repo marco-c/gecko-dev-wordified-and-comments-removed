@@ -100,13 +100,6 @@ browserSidebarRevamp
 .
 toml
 "
-"
-test
-/
-browserSmartWindowBlocked
-.
-toml
-"
 ]
 XPCSHELL_TESTS_MANIFESTS
 +
