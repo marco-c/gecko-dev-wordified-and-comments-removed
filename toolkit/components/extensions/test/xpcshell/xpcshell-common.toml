@@ -1382,6 +1382,13 @@ js
 ]
 [
 "
+test_ext_dnr_loadingPrincipal
+.
+js
+"
+]
+[
+"
 test_ext_dnr_modifyHeaders
 .
 js

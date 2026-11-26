@@ -469,7 +469,6 @@ sub_frame
 "
 }
 [
-1
 ]
 "
 Cannot
@@ -504,7 +503,6 @@ sub_frame
 "
 }
 [
-1
 ]
 "
 Cannot
