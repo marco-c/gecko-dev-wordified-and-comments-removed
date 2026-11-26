@@ -3568,6 +3568,14 @@ lazy
 {
 appStore
 }
+lazyNimbusController
+=
+lazy
+{
+nimbus
+.
+messaging
+}
 settings
 =
 settings
