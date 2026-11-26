@@ -22975,9 +22975,7 @@ hasStartedLoad
 =
 browser
 .
-didStartLoadSinceLastUserTyping
-(
-)
+loadStartedSinceUrlbarOverride
 ;
 let
 cacheState

@@ -2021,9 +2021,7 @@ userTypedClear
 =
 browser
 .
-didStartLoadSinceLastUserTyping
-(
-)
+loadStartedSinceUrlbarOverride
 ?
 1
 :
