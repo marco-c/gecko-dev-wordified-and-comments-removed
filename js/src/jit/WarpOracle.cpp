@@ -1625,7 +1625,7 @@ value
 targetEnv
 -
 >
-getSlot
+getRawSlot
 (
 slot
 )
@@ -5549,6 +5549,12 @@ JSOp
 :
 :
 Yield
+:
+case
+JSOp
+:
+:
+AwaitThenYield
 :
 case
 JSOp

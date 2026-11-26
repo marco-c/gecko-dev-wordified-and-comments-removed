@@ -13514,7 +13514,7 @@ if
 env
 -
 >
-getSlot
+getRawSlot
 (
 prop
 -
@@ -88540,7 +88540,7 @@ if
 holderEnv
 -
 >
-getSlot
+getRawSlot
 (
 prop
 -
