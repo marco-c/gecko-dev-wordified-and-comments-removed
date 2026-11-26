@@ -408,6 +408,11 @@ IMEStyle
 number
 ;
 let
+WebAuthnClientCapabilities
+:
+number
+;
+let
 IsAlwaysEnabledForPrecompute
 :
 number

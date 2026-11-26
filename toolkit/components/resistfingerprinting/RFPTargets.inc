@@ -405,6 +405,11 @@ IMEStyle
 )
 ITEM_VALUE
 (
+WebAuthnClientCapabilities
+82
+)
+ITEM_VALUE
+(
 IsAlwaysEnabledForPrecompute
 0
 )

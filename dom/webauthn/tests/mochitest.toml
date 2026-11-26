@@ -626,6 +626,13 @@ tests
 ]
 [
 "
+test_webauthn_get_client_capabilities
+.
+html
+"
+]
+[
+"
 test_webauthn_in_xhtml
 .
 xhtml
