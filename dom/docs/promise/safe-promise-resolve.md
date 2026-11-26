@@ -110,7 +110,7 @@ This
 is
 a
 security
-mititgation
+mitigation
 done
 to
 avoid
