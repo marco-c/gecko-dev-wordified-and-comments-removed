@@ -481,6 +481,16 @@ MOZ_IS_GCC
 MOZ_GCC_VERSION_AT_LEAST
 -
 MOZ_GCC_VERSION_AT_MOST
+ConstantStringTable
+.
+h
+:
+types
+:
+-
+ConstantStringTable
+-
+StringLiterals
 DbgMacro
 .
 h
