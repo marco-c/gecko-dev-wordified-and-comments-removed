@@ -8061,6 +8061,15 @@ ExternalResourceLoad
 aPendingLoad
 )
 ;
+bool
+CanLoadExternalResource
+(
+nsIURI
+*
+aURI
+)
+const
+;
 void
 EnumerateExternalResources
 (
