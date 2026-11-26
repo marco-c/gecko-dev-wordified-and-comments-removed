@@ -831,11 +831,11 @@ string
 setup_checklist_task_account_sync
 icon
 =
-R
+iconsR
 .
 drawable
 .
-ic_fx_accounts_avatar
+mozac_ic_avatar_circle_fill_24
 isCompleted
 =
 isCompleted
