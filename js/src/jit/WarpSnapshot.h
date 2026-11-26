@@ -779,9 +779,6 @@ slot_
 bool
 needsLexicalCheck_
 ;
-bool
-needsWasmMutableGlobalRead_
-;
 public
 :
 static
@@ -807,8 +804,6 @@ uint32_t
 slot
 bool
 needsLexicalCheck
-bool
-needsWasmMutableGlobalRead
 )
 :
 WarpOpSnapshot
@@ -831,10 +826,6 @@ slot
 needsLexicalCheck_
 (
 needsLexicalCheck
-)
-needsWasmMutableGlobalRead_
-(
-needsWasmMutableGlobalRead
 )
 {
 }
@@ -877,16 +868,6 @@ const
 {
 return
 needsLexicalCheck_
-;
-}
-bool
-needsWasmMutableGlobalRead
-(
-)
-const
-{
-return
-needsWasmMutableGlobalRead_
 ;
 }
 void
