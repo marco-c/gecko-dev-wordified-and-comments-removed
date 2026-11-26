@@ -11630,7 +11630,10 @@ states
 EXPANDED
 )
 ;
-FireDelayedEvent
+nsEventShell
+:
+:
+FireEvent
 (
 expandedChangeEvent
 )
