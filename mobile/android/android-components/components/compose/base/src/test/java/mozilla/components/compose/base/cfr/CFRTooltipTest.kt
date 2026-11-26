@@ -63,6 +63,8 @@ components
 .
 compose
 .
+base
+.
 cfr
 import
 androidx
