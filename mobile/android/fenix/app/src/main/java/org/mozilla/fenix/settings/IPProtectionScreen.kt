@@ -1635,7 +1635,7 @@ onGetStartedClick
 }
 }
 }
-private
+internal
 fun
 IPProtectionStatus
 .
