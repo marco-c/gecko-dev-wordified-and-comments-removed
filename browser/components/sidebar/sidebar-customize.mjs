@@ -266,9 +266,9 @@ sidebar
 -
 menu
 -
-widget
+custom
 -
-studio
+widgets
 -
 label
 "
