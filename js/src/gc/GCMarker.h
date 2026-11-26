@@ -2421,13 +2421,6 @@ abortLinearWeakMarking
 #
 ifdef
 DEBUG
-void
-setCheckAtomMarking
-(
-bool
-check
-)
-;
 bool
 shouldCheckCompartments
 (
@@ -3020,12 +3013,6 @@ MainThreadOrGCTaskData
 bool
 >
 started
-;
-MainThreadOrGCTaskData
-<
-bool
->
-checkAtomMarking
 ;
 MainThreadOrGCTaskData
 <
