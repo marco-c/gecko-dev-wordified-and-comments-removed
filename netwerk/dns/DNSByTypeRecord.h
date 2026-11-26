@@ -162,7 +162,6 @@ mSvcFieldPriority
 mSvcDomainName
 mEchConfig
 mODoHConfig
-mDohPath
 mHasIPHints
 mHasEchConfig
 mSvcFieldValue
@@ -248,18 +247,6 @@ net
 :
 :
 SvcParamODoHConfig
-mValue
-)
-;
-DEFINE_IPC_SERIALIZER_WITH_FIELDS
-(
-mozilla
-:
-:
-net
-:
-:
-SvcParamDohPath
 mValue
 )
 ;

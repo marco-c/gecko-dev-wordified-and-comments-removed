@@ -93,13 +93,6 @@ sys
 mjs
 "
 "
-DoHDiscovery
-.
-sys
-.
-mjs
-"
-"
 DoHHeuristics
 .
 sys
