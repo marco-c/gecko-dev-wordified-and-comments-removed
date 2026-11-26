@@ -3334,11 +3334,7 @@ iconsR
 drawable
 .
 mozac_ic_soccer_ball_24
-onResults
-=
-{
-}
-onStandings
+onMatchesAndResults
 =
 {
 }
