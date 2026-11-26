@@ -89,8 +89,10 @@ rules
 for
 the
 Fenix
-and
 Focus
+and
+GeckoView
+Example
 applications
 .
 Referenced
@@ -1326,8 +1328,9 @@ error
 !
 -
 -
-Both
-apps
+Fenix
+and
+Focus
 disable
 language
 splits
