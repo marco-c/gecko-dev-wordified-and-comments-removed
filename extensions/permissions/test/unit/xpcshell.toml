@@ -38,6 +38,13 @@ js
 ]
 [
 "
+test_permmanager_defaults_containers
+.
+js
+"
+]
+[
+"
 test_permmanager_expiration
 .
 js

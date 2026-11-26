@@ -1069,6 +1069,13 @@ removeUserContext
 userContext
 )
 ;
+UserContextManager
+.
+removeUserContext
+(
+otherUserContext
+)
+;
 }
 }
 )
