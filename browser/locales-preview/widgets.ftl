@@ -283,9 +283,10 @@ compose
 button
 =
 .
-title
+label
 =
-New
+Create
+a
 widget
 #
 Opens
