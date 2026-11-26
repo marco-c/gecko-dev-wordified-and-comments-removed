@@ -400,7 +400,7 @@ every
 {
 summarizationFeatureSettings
 .
-canShowFeature
+shouldShowFeature
 }
 returns
 true
@@ -522,7 +522,7 @@ every
 {
 summarizationFeatureSettings
 .
-canShowFeature
+shouldShowFeature
 }
 returns
 false

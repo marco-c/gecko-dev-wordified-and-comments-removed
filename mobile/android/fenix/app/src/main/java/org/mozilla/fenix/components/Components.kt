@@ -3029,11 +3029,6 @@ additionalProviders
 =
 settingsSearchProviders
 (
-summarizationFeatureConfiguration
-=
-core
-.
-summarizeFeatureSettings
 )
 excludedPreferenceKeys
 =
@@ -3381,13 +3376,6 @@ context
 .
 also
 {
-if
-(
-settings
-.
-shakeToSummarizeFeatureFlagEnabled
-)
-{
 it
 .
 register
@@ -3397,7 +3385,6 @@ PageSummaryFeature
 summarizationSettings
 )
 )
-}
 if
 (
 listenToPage

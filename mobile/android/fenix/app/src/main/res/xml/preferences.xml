@@ -715,13 +715,6 @@ iconSpaceReserved
 "
 false
 "
-app
-:
-isPreferenceVisible
-=
-"
-false
-"
 android
 :
 title

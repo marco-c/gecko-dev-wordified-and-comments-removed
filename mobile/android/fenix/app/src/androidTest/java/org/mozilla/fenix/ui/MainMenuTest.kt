@@ -670,9 +670,6 @@ true
 isPageLoadTranslationsPromptEnabled
 =
 false
-shakeToSummarizeFeatureFlagEnabled
-=
-true
 )
 )
 {

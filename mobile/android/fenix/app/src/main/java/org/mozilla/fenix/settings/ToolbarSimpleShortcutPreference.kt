@@ -456,7 +456,7 @@ core
 .
 summarizeFeatureSettings
 .
-canShowFeature
+shouldShowFeature
 private
 val
 isBrowsingInNormalMode

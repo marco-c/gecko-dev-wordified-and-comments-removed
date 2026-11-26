@@ -2051,11 +2051,6 @@ isTabStripEnabled
 cfg
 .
 isTabStripEnabled
-shakeToSummarizeFeatureFlagEnabled
-=
-cfg
-.
-shakeToSummarizeFeatureFlagEnabled
 )
 )
 {

@@ -133,13 +133,6 @@ shouldToolbarShowCfr
 Boolean
 =
 false
-override
-var
-isFeatureAvailable
-:
-Boolean
-=
-true
 )
 :
 SummarizationFeatureDiscoveryConfiguration
@@ -170,7 +163,7 @@ Int
 0
 override
 var
-canShowFeature
+shouldShowFeature
 :
 Boolean
 =

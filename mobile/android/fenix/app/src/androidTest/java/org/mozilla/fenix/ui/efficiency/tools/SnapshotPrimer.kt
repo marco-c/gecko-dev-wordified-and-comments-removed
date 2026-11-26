@@ -443,17 +443,6 @@ d
 .
 isTabStripEnabled
 )
-shakeToSummarizeFeatureFlagEnabled
-=
-flag
-(
-"
-shakeToSummarizeFeatureFlagEnabled
-"
-d
-.
-shakeToSummarizeFeatureFlagEnabled
-)
 )
 }
 Test

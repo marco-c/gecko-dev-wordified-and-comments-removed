@@ -2379,15 +2379,6 @@ apply
 {
 isVisible
 =
-context
-.
-components
-.
-settings
-.
-shakeToSummarizeFeatureFlagEnabled
-&
-&
 isSummarizationEnabled
 isChecked
 =

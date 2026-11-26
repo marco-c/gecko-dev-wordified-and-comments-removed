@@ -3391,7 +3391,7 @@ when
 {
 summarizationFeatureSettings
 .
-canShowFeature
+shouldShowFeature
 -
 >
 ToolbarAction

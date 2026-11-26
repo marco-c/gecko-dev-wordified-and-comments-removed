@@ -713,9 +713,6 @@ shouldUseExpandedToolbar
 "
 isTabStripEnabled
 "
-"
-shakeToSummarizeFeatureFlagEnabled
-"
 )
 private
 val
