@@ -3394,7 +3394,7 @@ sub_property
 ident
 }
 .
-is_some_and
+is_none_or
 (
 |
 value
