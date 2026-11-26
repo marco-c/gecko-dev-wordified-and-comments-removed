@@ -3173,11 +3173,6 @@ onRefresh
 onMatchClicked
 =
 {
-_
-_
-_
--
->
 }
 pageNumber
 =
