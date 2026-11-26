@@ -444,6 +444,13 @@ js
 ]
 [
 "
+test_WebExtensionPolicy_flags
+.
+js
+"
+]
+[
+"
 test_csp_custom_policies
 .
 js
