@@ -8752,16 +8752,6 @@ MediaColumns
 DISPLAY_NAME
 "
 screenshot
--
-"
-+
-System
-.
-currentTimeMillis
-(
-)
-+
-"
 .
 png
 "
