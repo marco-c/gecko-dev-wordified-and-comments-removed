@@ -66587,6 +66587,16 @@ i32
 :
 void
 ;
+canQuit
+(
+aReason
+?
+:
+string
+)
+:
+boolean
+;
 advanceShutdownPhase
 (
 aPhase

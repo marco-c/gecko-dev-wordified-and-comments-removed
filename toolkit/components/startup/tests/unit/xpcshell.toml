@@ -24,6 +24,13 @@ android
 ]
 [
 "
+test_quit_request
+.
+js
+"
+]
+[
+"
 test_startup_crash
 .
 js
