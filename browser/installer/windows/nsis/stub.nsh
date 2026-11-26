@@ -1817,7 +1817,7 @@ else
 Push
 "
 (
-STUB_BLURB_FIRST
+STUB_BLURB_FIRST2
 )
 "
 !
