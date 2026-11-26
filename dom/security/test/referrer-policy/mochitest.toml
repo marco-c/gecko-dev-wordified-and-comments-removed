@@ -50,11 +50,6 @@ http2
 "
 http3
 "
-"
-verify
--
-standalone
-"
 ]
 [
 "
