@@ -7463,9 +7463,6 @@ mTarget
 {
 if
 (
-aListener
-&
-&
 aTypeAtom
 =
 =

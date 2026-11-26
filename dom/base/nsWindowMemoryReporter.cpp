@@ -4687,9 +4687,6 @@ mGhostWindowCount
 if
 (
 aOutGhostIDs
-&
-&
-window
 )
 {
 aOutGhostIDs
