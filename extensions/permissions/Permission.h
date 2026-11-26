@@ -60,6 +60,10 @@ int64_t
 aExpireTime
 int64_t
 aModificationTime
+uint64_t
+aBrowserId
+=
+0
 )
 ;
 static
@@ -72,6 +76,10 @@ ClonePrincipalForPermission
 nsIPrincipal
 *
 aPrincipal
+bool
+aForceStripOA
+=
+false
 )
 ;
 protected
@@ -93,6 +101,10 @@ int64_t
 aExpireTime
 int64_t
 aModificationTime
+uint64_t
+aBrowserId
+=
+0
 )
 ;
 virtual
@@ -123,6 +135,9 @@ mExpireTime
 ;
 int64_t
 mModificationTime
+;
+uint64_t
+mBrowserId
 ;
 }
 ;

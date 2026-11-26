@@ -992,6 +992,16 @@ OriginAttributes
 aOriginAttributes
 )
 ;
+static
+bool
+IsOAForceStripPermission
+(
+const
+nsACString
+&
+aType
+)
+;
 nsresult
 Add
 (
