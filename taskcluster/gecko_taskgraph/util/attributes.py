@@ -204,6 +204,14 @@ cypress
 "
 :
 True
+    
+"
+enterprise
+-
+firefox
+"
+:
+True
 }
 RELEASE_PROJECTS
 =
