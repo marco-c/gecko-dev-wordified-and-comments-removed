@@ -47,13 +47,6 @@ android
 .
 util
 .
-Log
-;
-import
-android
-.
-util
-.
 Rational
 ;
 import
@@ -289,7 +282,7 @@ session
 null
 )
 {
-Log
+DebugLog
 .
 d
 (
@@ -635,7 +628,7 @@ buildPipParams
 )
 )
 {
-Log
+DebugLog
 .
 d
 (

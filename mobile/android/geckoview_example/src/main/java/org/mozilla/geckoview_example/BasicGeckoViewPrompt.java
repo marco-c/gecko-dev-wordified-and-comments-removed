@@ -1043,7 +1043,7 @@ CreditCardSaveOption
 request
 )
 {
-Log
+DebugLog
 .
 i
 (
@@ -1088,7 +1088,7 @@ LoginSaveOption
 request
 )
 {
-Log
+DebugLog
 .
 i
 (
