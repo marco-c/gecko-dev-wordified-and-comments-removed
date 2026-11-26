@@ -856,7 +856,7 @@ mode
 newMode
 fenixBrowserUseCases
 .
-addNewHomepageTab
+selectOrAddHomepageTab
 (
 private
 =
@@ -987,7 +987,7 @@ mode
 newMode
 fenixBrowserUseCases
 .
-addNewHomepageTab
+selectOrAddHomepageTab
 (
 private
 =

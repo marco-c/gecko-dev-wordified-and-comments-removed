@@ -1127,6 +1127,11 @@ appStore
 appStore
 .
 value
+browserStore
+=
+store
+.
+value
 tabsUseCases
 =
 tabsUseCases

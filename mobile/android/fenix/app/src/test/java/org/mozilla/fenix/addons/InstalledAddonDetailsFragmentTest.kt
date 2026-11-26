@@ -3815,6 +3815,11 @@ FenixBrowserUseCases
 appStore
 =
 appStore
+browserStore
+=
+BrowserStore
+(
+)
 tabsUseCases
 =
 tabsUseCases
@@ -4141,6 +4146,11 @@ FenixBrowserUseCases
 appStore
 =
 appStore
+browserStore
+=
+BrowserStore
+(
+)
 tabsUseCases
 =
 tabsUseCases
@@ -4451,6 +4461,11 @@ FenixBrowserUseCases
 appStore
 =
 appStore
+browserStore
+=
+BrowserStore
+(
+)
 tabsUseCases
 =
 tabsUseCases

@@ -14131,6 +14131,11 @@ FenixBrowserUseCases
 appStore
 =
 appStore
+browserStore
+=
+BrowserStore
+(
+)
 tabsUseCases
 =
 tabsUseCases
@@ -14349,6 +14354,11 @@ BrowsingMode
 .
 Normal
 )
+)
+browserStore
+=
+BrowserStore
+(
 )
 tabsUseCases
 =
@@ -14584,6 +14594,11 @@ BrowsingMode
 .
 Normal
 )
+)
+browserStore
+=
+BrowserStore
+(
 )
 tabsUseCases
 =

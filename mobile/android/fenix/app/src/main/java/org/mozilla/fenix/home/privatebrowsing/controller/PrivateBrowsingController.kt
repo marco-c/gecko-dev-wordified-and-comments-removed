@@ -360,7 +360,7 @@ enableHomepageAsNewTab
 {
 fenixBrowserUseCases
 .
-addNewHomepageTab
+selectOrAddHomepageTab
 (
 private
 =
