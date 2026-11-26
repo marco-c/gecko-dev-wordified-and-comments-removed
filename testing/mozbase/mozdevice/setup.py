@@ -27,6 +27,16 @@ mozlog
 .
 0
 "
+"
+mozprocess
+>
+=
+1
+.
+3
+.
+0
+"
 ]
 setup
 (
