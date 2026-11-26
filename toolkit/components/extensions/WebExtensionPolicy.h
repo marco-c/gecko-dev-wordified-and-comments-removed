@@ -204,15 +204,6 @@ dom
 WebExtensionPolicy_Binding
 :
 :
-ACCESS_OTHER_EXTENSIONS
-;
-using
-dom
-:
-:
-WebExtensionPolicy_Binding
-:
-:
 ACCESS_OWN_EXTENSION
 ;
 using

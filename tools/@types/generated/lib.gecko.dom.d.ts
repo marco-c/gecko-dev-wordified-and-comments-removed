@@ -138760,11 +138760,6 @@ ACCESS_OWN_EXTENSION
 :
 0x20
 ;
-readonly
-ACCESS_OTHER_EXTENSIONS
-:
-0x40
-;
 }
 declare
 var
@@ -138813,11 +138808,6 @@ readonly
 ACCESS_OWN_EXTENSION
 :
 0x20
-;
-readonly
-ACCESS_OTHER_EXTENSIONS
-:
-0x40
 ;
 readonly
 backgroundServiceWorkerEnabled
