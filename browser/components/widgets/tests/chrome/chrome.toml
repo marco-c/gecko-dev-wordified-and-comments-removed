@@ -33,3 +33,10 @@ test_widget_composer
 html
 "
 ]
+[
+"
+test_widget_placeholder
+.
+html
+"
+]
