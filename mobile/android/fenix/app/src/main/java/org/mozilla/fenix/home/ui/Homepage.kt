@@ -2133,6 +2133,12 @@ space
 .
 static500
 )
+onMatchesAndResults
+=
+interactor
+:
+:
+onSportsWidgetMatchesAndResultsClicked
 onWallpapers
 =
 interactor
