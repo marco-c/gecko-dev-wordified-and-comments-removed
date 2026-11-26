@@ -163,6 +163,15 @@ py
 "
 action
 /
+test_tooltool
+.
+py
+"
+]
+[
+"
+action
+/
 test_wine_exe
 .
 py
