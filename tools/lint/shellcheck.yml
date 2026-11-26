@@ -74,16 +74,6 @@ verify
 release
 /
 common
--
-tools
-/
-update
--
-verify
-/
-release
-/
-updates
 exclude
 :
 [
