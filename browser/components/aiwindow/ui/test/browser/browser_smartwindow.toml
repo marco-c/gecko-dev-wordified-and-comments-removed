@@ -286,6 +286,11 @@ test_smartwindow_digest_form_page
 html
 "
 "
+test_smartwindow_digest_modal_page
+.
+html
+"
+"
 test_smartwindow_panel_list_page
 .
 html
@@ -661,6 +666,13 @@ js
 [
 "
 browser_smartwindow_digest_form
+.
+js
+"
+]
+[
+"
+browser_smartwindow_digest_modal
 .
 js
 "
