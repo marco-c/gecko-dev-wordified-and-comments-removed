@@ -225,9 +225,9 @@ gBrowser
 .
 selectedBrowser
 .
-userTypedValue
+urlbarOverrideValue
 "
-userTypedValue
+urlbarOverrideValue
 should
 be
 defined
@@ -274,10 +274,10 @@ gBrowser
 .
 selectedBrowser
 .
-userTypedValue
+urlbarOverrideValue
 null
 "
-userTypedValue
+urlbarOverrideValue
 should
 be
 null

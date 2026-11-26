@@ -119,7 +119,7 @@ browser
 ;
 browser
 .
-userTypedValue
+urlbarOverrideValue
 =
 null
 ;

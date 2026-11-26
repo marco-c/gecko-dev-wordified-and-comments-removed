@@ -242,14 +242,14 @@ equal
 (
 gBrowser
 .
-userTypedValue
+urlbarOverrideValue
 null
 There
 should
 not
 be
 a
-userTypedValue
+urlbarOverrideValue
 for
 {
 searchString

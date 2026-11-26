@@ -2128,7 +2128,7 @@ window
 .
 gBrowser
 .
-userTypedValue
+urlbarOverrideValue
 =
 null
 ;

@@ -40,7 +40,7 @@ tab1
 .
 linkedBrowser
 .
-userTypedValue
+urlbarOverrideValue
 =
 "
 mockUserTypedValue

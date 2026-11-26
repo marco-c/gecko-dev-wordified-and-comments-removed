@@ -101,7 +101,7 @@ tab
 .
 linkedBrowser
 .
-userTypedValue
+urlbarOverrideValue
 null
 "
 userTypedValue
@@ -255,7 +255,7 @@ tab
 .
 linkedBrowser
 .
-userTypedValue
+urlbarOverrideValue
 null
 "
 userTypedValue
@@ -487,7 +487,7 @@ tab
 .
 linkedBrowser
 .
-userTypedValue
+urlbarOverrideValue
 null
 "
 userTypedValue
@@ -791,12 +791,12 @@ is
 (
 browser
 .
-userTypedValue
+urlbarOverrideValue
 "
 test
 "
 "
-userTypedValue
+urlbarOverrideValue
 is
 kept
 "
