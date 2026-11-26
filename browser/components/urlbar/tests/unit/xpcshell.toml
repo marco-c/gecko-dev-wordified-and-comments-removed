@@ -226,6 +226,13 @@ js
 ]
 [
 "
+test_UrlbarShared_regexps
+.
+js
+"
+]
+[
+"
 test_UrlbarShared_stripUnsafeProtocolOnPaste
 .
 js
