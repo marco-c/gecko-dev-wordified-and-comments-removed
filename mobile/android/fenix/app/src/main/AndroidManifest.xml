@@ -4871,6 +4871,17 @@ protections_dashboard
 /
 >
 <
+data
+android
+:
+host
+=
+"
+fxa_begin_auth
+"
+/
+>
+<
 /
 intent
 -
