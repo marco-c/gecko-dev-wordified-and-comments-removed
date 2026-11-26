@@ -621,6 +621,14 @@ requireComponents
 core
 .
 summarizationSettingsBinding
+val
+crashReporter
+=
+requireComponents
+.
+analytics
+.
+crashReporter
 SummarizationStoreViewModel
 .
 factory
@@ -692,10 +700,6 @@ tag
 exception
 -
 >
-requireComponents
-.
-analytics
-.
 crashReporter
 .
 submitCaughtException
