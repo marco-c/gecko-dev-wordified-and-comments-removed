@@ -504,16 +504,7 @@ is
 gURLBar
 .
 value
-"
-http
-:
-/
-/
-example
-.
-com
-/
-"
+TEST_VALUE
 "
 Urlbar
 keeps
