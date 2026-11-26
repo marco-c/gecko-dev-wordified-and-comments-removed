@@ -2133,6 +2133,12 @@ space
 .
 static500
 )
+onMatchClicked
+=
+interactor
+:
+:
+onSportsWidgetMatchClicked
 onMatchesAndResults
 =
 interactor
