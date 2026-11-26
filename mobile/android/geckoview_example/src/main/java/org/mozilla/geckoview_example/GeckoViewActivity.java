@@ -5902,10 +5902,12 @@ build
 )
 ;
 }
-notification
-.
-show
+runOnUiThread
 (
+notification
+:
+:
+show
 )
 ;
 }
