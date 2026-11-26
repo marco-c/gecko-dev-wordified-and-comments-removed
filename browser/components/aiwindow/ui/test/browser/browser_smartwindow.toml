@@ -291,6 +291,11 @@ test_smartwindow_digest_modal_page
 html
 "
 "
+test_smartwindow_digest_toast_page
+.
+html
+"
+"
 test_smartwindow_panel_list_page
 .
 html
@@ -730,6 +735,13 @@ starters
 test_smartwindow_prompts
 .
 mjs
+"
+]
+[
+"
+browser_smartwindow_digest_toast
+.
+js
 "
 ]
 [
