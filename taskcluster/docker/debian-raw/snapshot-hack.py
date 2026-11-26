@@ -200,7 +200,7 @@ apt
 /
 methods
 /
-http
+https
 "
 ]
         
