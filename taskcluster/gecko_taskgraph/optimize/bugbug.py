@@ -39,6 +39,8 @@ CT_MEDIUM
     
 CT_VERY_LOW
     
+SUPPORTED_PROJECTS
+    
 BugbugTimeoutException
     
 get_confidence_threshold
@@ -880,14 +882,7 @@ if
 project
 not
 in
-(
-"
-autoland
-"
-"
-try
-"
-)
+SUPPORTED_PROJECTS
 :
             
 return
