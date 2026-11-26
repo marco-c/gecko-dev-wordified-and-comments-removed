@@ -6673,6 +6673,11 @@ WorkletGlobalScope
 webidl
 "
 "
+WorkletPerformance
+.
+webidl
+"
+"
 WritableStream
 .
 webidl

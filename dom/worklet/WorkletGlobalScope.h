@@ -382,6 +382,13 @@ aTarget
 const
 override
 ;
+bool
+CrossOriginIsolated
+(
+)
+const
+override
+;
 protected
 :
 ~

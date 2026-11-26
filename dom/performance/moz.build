@@ -203,6 +203,11 @@ PerformanceWorker
 .
 h
 "
+"
+WorkletPerformance
+.
+h
+"
 ]
 UNIFIED_SOURCES
 +
@@ -310,6 +315,11 @@ cpp
 "
 "
 PerformanceWorker
+.
+cpp
+"
+"
+WorkletPerformance
 .
 cpp
 "

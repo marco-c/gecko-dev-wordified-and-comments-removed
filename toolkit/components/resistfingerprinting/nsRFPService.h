@@ -1574,6 +1574,12 @@ MicroSeconds
 }
 ;
 static
+void
+InitTimePrecisionReduction
+(
+)
+;
+static
 double
 ReduceTimePrecisionAsUSecs
 (

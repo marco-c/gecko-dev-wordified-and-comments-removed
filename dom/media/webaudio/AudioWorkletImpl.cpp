@@ -95,6 +95,13 @@ nsGlobalWindowInner
 .
 h
 "
+#
+include
+"
+nsRFPService
+.
+h
+"
 namespace
 mozilla
 {
@@ -345,6 +352,13 @@ aPortIdentifier
 )
 )
 {
+nsRFPService
+:
+:
+InitTimePrecisionReduction
+(
+)
+;
 }
 AudioWorkletImpl
 :
