@@ -1186,7 +1186,10 @@ sendInput
 (
 Sample
 .
-EOS
+createEOS
+(
+mSession
+)
 )
 ;
 }
@@ -1599,6 +1602,10 @@ mRemote
 flush
 (
 )
+;
+mSession
++
++
 ;
 mFlushed
 =
