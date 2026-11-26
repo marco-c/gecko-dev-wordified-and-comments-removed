@@ -1770,6 +1770,9 @@ StaticRange
 OwningNonNullStaticRangeArray
 ;
 struct
+QueryContentResult
+;
+struct
 FontRange
 ;
 enum
