@@ -1909,7 +1909,7 @@ class
 customize
 -
 group
-medium
+no
 -
 top
 -
@@ -2026,7 +2026,7 @@ class
 customize
 -
 group
-medium
+no
 -
 top
 -

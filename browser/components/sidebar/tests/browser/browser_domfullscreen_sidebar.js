@@ -401,16 +401,6 @@ set
 [
 [
 "
-browser
-.
-nova
-.
-enabled
-"
-true
-]
-[
-"
 sidebar
 .
 visibility
