@@ -5624,10 +5624,6 @@ level
 level
 }
 -
-{
-project
-}
--
 checkouts
 -
 git
