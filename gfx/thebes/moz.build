@@ -743,11 +743,6 @@ gfxWindowsPlatform
 .
 h
 "
-"
-gfxWindowsSurface
-.
-h
-"
 ]
 EXPORTS
 .
@@ -768,6 +763,11 @@ DisplayConfigWindows
 h
 "
 "
+FontPathSet
+.
+h
+"
+"
 PrintTargetWindows
 .
 h
@@ -783,6 +783,11 @@ DisplayConfigWindows
 cpp
 "
 "
+FontPathSet
+.
+cpp
+"
+"
 gfxDWriteCommon
 .
 cpp
@@ -794,11 +799,6 @@ cpp
 "
 "
 gfxWindowsPlatform
-.
-cpp
-"
-"
-gfxWindowsSurface
 .
 cpp
 "

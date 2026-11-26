@@ -77,13 +77,6 @@ h
 #
 include
 "
-gfxWindowsSurface
-.
-h
-"
-#
-include
-"
 mozilla
 /
 Atomics
