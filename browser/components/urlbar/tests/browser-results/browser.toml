@@ -261,6 +261,13 @@ js
 ]
 [
 "
+browser_retainedResultsOnTabSwitch
+.
+js
+"
+]
+[
+"
 browser_same_ref_deduplication
 .
 js
