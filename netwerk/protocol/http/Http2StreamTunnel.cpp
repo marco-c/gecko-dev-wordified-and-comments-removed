@@ -446,6 +446,10 @@ mClosed
 =
 true
 ;
+mTransaction
+=
+nullptr
+;
 }
 NS_IMETHODIMP
 Http2StreamTunnel

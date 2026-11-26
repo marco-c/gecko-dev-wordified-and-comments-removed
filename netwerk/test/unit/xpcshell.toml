@@ -14468,15 +14468,6 @@ test_trr_proxy_auth
 js
 "
 ]
-skip
--
-if
-=
-[
-"
-true
-"
-]
 [
 "
 test_trr_proxy_channel_filter
