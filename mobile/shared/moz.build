@@ -102,9 +102,11 @@ Developer
 Infrastructure
 "
 "
-Lint
+Linting
 and
 Formatting
+:
+JavaScript
 "
 )
 DIRS
