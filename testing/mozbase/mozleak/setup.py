@@ -164,6 +164,16 @@ False
 install_requires
 =
 [
+"
+mozlog
+>
+=
+9
+.
+0
+.
+1
+"
 ]
     
 python_requires
