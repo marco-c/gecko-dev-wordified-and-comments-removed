@@ -2346,6 +2346,8 @@ aResult
 HTTPSAliasTarget
 &
 aAlias
+uint16_t
+aType
 )
 {
 LOG
@@ -2560,6 +2562,7 @@ packet
 aResult
 ttl
 aAlias
+aType
 )
 ;
 if
@@ -2608,6 +2611,8 @@ aTTL
 HTTPSAliasTarget
 &
 aAlias
+uint16_t
+aType
 )
 {
 nsAutoCString
@@ -2666,7 +2671,13 @@ aDNSPacket
 Decode
 (
 aHost
-TRRTYPE_HTTPSSVC
+static_cast
+<
+TrrType
+>
+(
+aType
+)
 cname
 true
 resp
@@ -2863,6 +2874,14 @@ nsCString
 >
 &
 aOriginHost
+uint16_t
+aType
+nsTArray
+<
+NetAddr
+>
+*
+aResolverAddrs
 )
 {
 nsAutoCString
@@ -2940,6 +2959,7 @@ host
 originHost
 aResult
 alias
+aType
 )
 )
 {
@@ -2960,6 +2980,8 @@ aFlags
 aResult
 aTTL
 alias
+aType
+aResolverAddrs
 )
 ;
 }
@@ -3884,6 +3906,14 @@ aTTL
 HTTPSAliasTarget
 &
 aAlias
+uint16_t
+aType
+nsTArray
+<
+NetAddr
+>
+*
+aResolverAddrs
 )
 {
 return

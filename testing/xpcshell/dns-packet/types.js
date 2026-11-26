@@ -325,6 +325,13 @@ return
 ANY
 '
 case
+64
+:
+return
+'
+SVCB
+'
+case
 65
 :
 return
@@ -665,6 +672,13 @@ ANY
 :
 return
 255
+case
+'
+SVCB
+'
+:
+return
+64
 case
 '
 HTTPS
