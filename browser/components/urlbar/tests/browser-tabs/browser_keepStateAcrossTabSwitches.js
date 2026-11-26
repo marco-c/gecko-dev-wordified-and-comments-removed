@@ -426,7 +426,7 @@ tab
 .
 linkedBrowser
 .
-urlbarOverrideValue
+userTypedValue
 input
 "
 Text
@@ -482,7 +482,7 @@ tab
 .
 linkedBrowser
 .
-urlbarOverrideValue
+userTypedValue
 input
 "
 Text

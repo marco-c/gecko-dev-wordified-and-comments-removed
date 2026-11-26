@@ -11076,7 +11076,7 @@ isTopLevel
 {
 gBrowser
 .
-urlbarOverrideValue
+userTypedValue
 =
 null
 ;

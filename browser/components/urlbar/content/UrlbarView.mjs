@@ -4572,7 +4572,7 @@ this
 .
 input
 .
-overrideValue
+userTypedValue
 =
 null
 ;

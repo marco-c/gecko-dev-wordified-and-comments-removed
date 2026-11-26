@@ -302,9 +302,9 @@ win
 .
 gBrowser
 .
-urlbarOverrideValue
+userTypedValue
 "
-urlbarOverrideValue
+userTypedValue
 should
 be
 set

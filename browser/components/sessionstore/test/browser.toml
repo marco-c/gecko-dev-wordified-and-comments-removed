@@ -1547,13 +1547,6 @@ js
 ]
 [
 "
-browser_urlbarOverride_legacy_keys
-.
-js
-"
-]
-[
-"
 browser_urlbarSearchMode
 .
 js

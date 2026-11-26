@@ -537,10 +537,10 @@ tab
 .
 linkedBrowser
 .
-urlbarOverrideValue
+userTypedValue
 "
 No
-urlbarOverrideValue
+userTypedValue
 should
 be
 on

@@ -2268,7 +2268,7 @@ s
 typing
 sets
 *
-urlbarOverrideValue
+userTypedValued
 triggers
 engagement
 event
@@ -2670,7 +2670,7 @@ to
 set
 gBrowser
 .
-urlbarOverrideValue
+userTypedValue
 .
 this
 .
@@ -10138,11 +10138,11 @@ string
 [
 options
 .
-urlbarOverrideValue
+userTypedValue
 ]
 *
 The
-urlbarOverrideValue
+userTypedValue
 that
 should
 be
@@ -10179,7 +10179,7 @@ pageProxyState
 "
 invalid
 "
-urlbarOverrideValue
+userTypedValue
 =
 searchString
 persistSearchTerms
@@ -10304,10 +10304,10 @@ window
 .
 gBrowser
 .
-urlbarOverrideValue
-urlbarOverrideValue
+userTypedValue
+userTypedValue
 "
-urlbarOverrideValue
+userTypedValue
 should
 match
 .

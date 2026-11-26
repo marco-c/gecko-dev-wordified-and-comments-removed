@@ -3001,7 +3001,7 @@ smartbarInputController
 =
 null
 ;
-_overrideValue
+_userTypedValue
 =
 "
 "
@@ -9043,11 +9043,11 @@ false
 *
 True
 if
-overrideValue
+userTypedValue
 should
 not
 be
-overridden
+overidden
 by
 search
 terms
@@ -9237,7 +9237,7 @@ value
 =
 this
 .
-overrideValue
+userTypedValue
 ;
 let
 valid
@@ -15776,7 +15776,7 @@ handleRevert
 {
 this
 .
-overrideValue
+userTypedValue
 =
 null
 ;
@@ -19118,7 +19118,7 @@ value
 ;
 this
 .
-overrideValue
+userTypedValue
 =
 "
 "
@@ -21035,7 +21035,7 @@ setValue
 (
 this
 .
-overrideValue
+userTypedValue
 )
 ;
 }
@@ -24233,7 +24233,7 @@ newSearchMode
 /
 /
 Set
-overrideValue
+userTypedValue
 to
 the
 query
@@ -24260,7 +24260,7 @@ sessions
 .
 this
 .
-overrideValue
+userTypedValue
 =
 this
 .
@@ -26112,7 +26112,7 @@ _untrimmedValue
 ;
 }
 get
-overrideValue
+userTypedValue
 (
 )
 {
@@ -26128,15 +26128,15 @@ browserWindow
 .
 gBrowser
 .
-urlbarOverrideValue
+userTypedValue
 :
 this
 .
-_overrideValue
+_userTypedValue
 ;
 }
 set
-overrideValue
+userTypedValue
 (
 val
 )
@@ -26155,7 +26155,7 @@ browserWindow
 .
 gBrowser
 .
-urlbarOverrideValue
+userTypedValue
 =
 val
 ;
@@ -26164,7 +26164,7 @@ else
 {
 this
 .
-_overrideValue
+_userTypedValue
 =
 val
 ;
@@ -27524,7 +27524,7 @@ it
 .
 this
 .
-overrideValue
+userTypedValue
 =
 this
 .
@@ -29786,7 +29786,7 @@ http
 &
 this
 .
-overrideValue
+userTypedValue
 &
 &
 this
@@ -29796,7 +29796,7 @@ getSchemelessInput
 (
 this
 .
-overrideValue
+userTypedValue
 )
 =
 =
@@ -33816,7 +33816,7 @@ _keyDownEnterDeferred
 ;
 }
 let
-urlbarOverrideValue
+userTypedValue
 ;
 if
 (
@@ -33907,7 +33907,7 @@ url
 ;
 }
 }
-urlbarOverrideValue
+userTypedValue
 =
 this
 .
@@ -34116,7 +34116,7 @@ loadRequest
 where
 params
 browserId
-urlbarOverrideValue
+userTypedValue
 searchData
 }
 )
@@ -37878,7 +37878,7 @@ _autofillPlaceholder
 &
 this
 .
-overrideValue
+userTypedValue
 )
 {
 this
@@ -37887,7 +37887,7 @@ value
 =
 this
 .
-overrideValue
+userTypedValue
 ;
 }
 /
@@ -38379,11 +38379,11 @@ browserWindow
 gBrowser
 .
 currentURI
-urlbarOverrideValue
+userTypedValue
 :
 this
 .
-overrideValue
+userTypedValue
 firstView
 }
 )
@@ -38392,7 +38392,7 @@ firstView
 /
 When
 persisting
-urlbarOverrideValue
+userTypedValue
 should
 have
 a
@@ -38422,7 +38422,7 @@ persist
 check
 if
 the
-urlbarOverrideValue
+userTypedValue
 needs
 to
 be
@@ -38471,7 +38471,7 @@ won
 '
 t
 unset
-urlbarOverrideValue
+userTypedValue
 .
 if
 (
@@ -38480,7 +38480,7 @@ shouldPersist
 {
 this
 .
-overrideValue
+userTypedValue
 =
 state
 .
@@ -38501,7 +38501,7 @@ shouldPersist
 {
 this
 .
-overrideValue
+userTypedValue
 =
 null
 ;
@@ -40165,7 +40165,7 @@ _autofillPlaceholder
 &
 this
 .
-overrideValue
+userTypedValue
 )
 {
 /
@@ -40196,7 +40196,7 @@ value
 =
 this
 .
-overrideValue
+userTypedValue
 ;
 }
 else
@@ -40215,7 +40215,7 @@ _untrimmedValue
 !
 this
 .
-overrideValue
+userTypedValue
 &
 &
 !
@@ -41922,7 +41922,7 @@ value
 =
 this
 .
-overrideValue
+userTypedValue
 &
 &
 (
@@ -42026,7 +42026,7 @@ null
 ;
 this
 .
-overrideValue
+userTypedValue
 =
 value
 ;
@@ -42978,7 +42978,7 @@ null
 ;
 this
 .
-overrideValue
+userTypedValue
 =
 this
 .
@@ -43486,7 +43486,7 @@ true
 ;
 this
 .
-overrideValue
+userTypedValue
 =
 value
 ;
@@ -46127,7 +46127,7 @@ an
 empty
 string
 clear
-overrideValue
+userTypedValue
 /
 /
 otherwise
@@ -46180,7 +46180,7 @@ value
 {
 this
 .
-overrideValue
+userTypedValue
 =
 null
 ;
@@ -47038,7 +47038,7 @@ details
 .
 this
 .
-overrideValue
+userTypedValue
 =
 null
 ;

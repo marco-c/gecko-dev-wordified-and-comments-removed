@@ -795,7 +795,7 @@ assertSearchStringIsInUrlbar
 window
 SEARCH_STRING
 {
-urlbarOverrideValue
+userTypedValue
 :
 SEARCH_STRING
 }
@@ -910,7 +910,7 @@ assertSearchStringIsInUrlbar
 window
 SEARCH_STRING
 {
-urlbarOverrideValue
+userTypedValue
 :
 SEARCH_STRING
 persistSearchTerms
@@ -955,7 +955,7 @@ assertSearchStringIsInUrlbar
 window
 SEARCH_STRING
 {
-urlbarOverrideValue
+userTypedValue
 :
 SEARCH_STRING
 persistSearchTerms
@@ -1144,7 +1144,7 @@ assertSearchStringIsInUrlbar
 window
 SEARCH_STRING
 {
-urlbarOverrideValue
+userTypedValue
 :
 SEARCH_STRING
 }
@@ -1399,7 +1399,7 @@ assertSearchStringIsInUrlbar
 window
 SEARCH_STRING
 {
-urlbarOverrideValue
+userTypedValue
 :
 SEARCH_STRING
 }
@@ -1568,7 +1568,7 @@ assertSearchStringIsInUrlbar
 window
 SEARCH_STRING
 {
-urlbarOverrideValue
+userTypedValue
 :
 SEARCH_STRING
 }
@@ -1741,7 +1741,7 @@ assertSearchStringIsInUrlbar
 window
 SEARCH_STRING
 {
-urlbarOverrideValue
+userTypedValue
 :
 SEARCH_STRING
 }

@@ -303,7 +303,7 @@ a
 title
 and
 a
-urlbarOverrideValue
+userTypedValue
 held
 for
 as
@@ -612,7 +612,7 @@ tab
 .
 |
 |
-urlbarOverrideValue
+userTypedValue
 |
 Session
 store
@@ -679,12 +679,6 @@ false
 .
 |
 |
-loadStartedSinceUrlbarOverride
-|
-false
-.
-|
-|
 permitUnload
 |
 A
@@ -695,6 +689,15 @@ permitUnload
 :
 true
 }
+.
+|
+|
+didStartLoadSinceLastUserTyping
+|
+A
+function
+returning
+false
 .
 |
 |

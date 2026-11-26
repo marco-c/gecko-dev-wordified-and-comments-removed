@@ -5492,10 +5492,10 @@ it
 searchMode
 "
 "
-urlbarOverrideLoadStarted
+userTypedClear
 "
 "
-urlbarOverrideValue
+userTypedValue
 "
 /
 /

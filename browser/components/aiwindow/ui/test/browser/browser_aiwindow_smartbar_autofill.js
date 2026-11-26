@@ -507,10 +507,10 @@ equal
 (
 smartbar
 .
-overrideValue
+userTypedValue
 typed
 "
-overrideValue
+userTypedValue
 matches
 the
 typed

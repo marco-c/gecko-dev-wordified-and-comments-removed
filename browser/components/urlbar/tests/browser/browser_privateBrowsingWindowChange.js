@@ -235,7 +235,7 @@ gBrowser
 .
 selectedBrowser
 .
-urlbarOverrideValue
+userTypedValue
 urlbarTestValue
 "
 User

@@ -246,7 +246,7 @@ entries
 :
 [
 ]
-urlbarOverrideValue
+userTypedValue
 :
 "
 http
@@ -257,9 +257,9 @@ example
 .
 com
 "
-urlbarOverrideLoadStarted
+userTypedClear
 :
-true
+1
 }
 ]
 }
