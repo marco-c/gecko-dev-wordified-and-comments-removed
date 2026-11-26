@@ -485,9 +485,6 @@ null
 =
 >
 {
-let
-awaitEvent
-;
 if
 (
 oldValue
@@ -503,8 +500,7 @@ tabId
 ]
 )
 {
-awaitEvent
-=
+await
 new
 Promise
 (
@@ -552,7 +548,6 @@ zoom
 "
 tabId
 )
-awaitEvent
 ]
 )
 ;
