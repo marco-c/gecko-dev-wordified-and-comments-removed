@@ -348,6 +348,7 @@ Glean
 new
 (
 cfg
+None
 )
 .
 unwrap
@@ -545,6 +546,7 @@ Glean
 new
 (
 cfg
+None
 )
 .
 unwrap
