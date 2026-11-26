@@ -12813,12 +12813,7 @@ dependencies
 =
 [
 "
-base64
-0
-.
-22
-.
-1
+anyhow
 "
 "
 clap
@@ -12832,9 +12827,6 @@ support
 md
 -
 5
-"
-"
-regex
 "
 "
 thiserror

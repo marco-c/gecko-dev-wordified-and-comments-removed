@@ -197,6 +197,9 @@ HashMap
 new
 (
 )
+tabs_disabled
+:
+false
 }
 )
 }
