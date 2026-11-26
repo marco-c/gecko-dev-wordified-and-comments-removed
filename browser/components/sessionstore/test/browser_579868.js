@@ -79,7 +79,7 @@ pinned
 :
 true
 "
-userTypedValue
+urlbarOverrideValue
 "
 :
 "

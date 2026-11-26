@@ -540,7 +540,7 @@ linkedBrowser
 urlbarOverrideValue
 "
 No
-userTypedValue
+urlbarOverrideValue
 should
 be
 on

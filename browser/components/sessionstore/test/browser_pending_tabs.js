@@ -183,7 +183,7 @@ ok
 !
 tabState
 .
-userTypedValue
+urlbarOverrideValue
 "
 tab
 didn
@@ -191,7 +191,7 @@ didn
 t
 have
 a
-userTypedValue
+urlbarOverrideValue
 "
 )
 ;

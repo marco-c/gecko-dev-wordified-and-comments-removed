@@ -1664,10 +1664,10 @@ value
 "
 }
 }
-userTypedClear
+urlbarOverrideLoadStarted
 :
-1
-userTypedValue
+true
+urlbarOverrideValue
 :
 "
 typed
