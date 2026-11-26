@@ -7308,15 +7308,7 @@ Point
 &
 aDestPoint
 )
-{
-return
-CreateSimilarDrawTarget
-(
-aSize
-aFormat
-)
 ;
-}
 virtual
 bool
 CanCreateSimilarDrawTarget
